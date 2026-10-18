@@ -2543,6 +2543,123 @@
         "Once he has grown up together with me, he will feed on me after my udder.",
         "Wickedness is bent by no kindness shown to it."
       ]
+    },
+    {
+      "id": "alc73",
+      "num": "62",
+      "fr": "Fatuitas",
+      "ru": "Глупость",
+      "en": "Foolishness",
+      "page": "73",
+      "group": "STUL",
+      "group_fr": "Stultitia.",
+      "group_en": "Folly",
+      "img": [
+        "alc73.jpg"
+      ],
+      "scans": [
+        "alc73.jpg"
+      ],
+      "text_fr": [
+        "Miraris nostro quòd carmine diceris Otus,",
+        "Sit vetus à proauis cum tibi nomen Otho.",
+        "Aurita est, similes, & habet ceu noctua plumas,",
+        "Saltantemq; auceps mancipat aptus auem.",
+        "Hinc fatuos, captu & faciles, nos dicimus otos,",
+        "Hoc tibi conueniens tu quoque nomen habe."
+      ],
+      "text_ru": [
+        "Ты удивляешься, что в моём стихе тебя зовут «Отус» [ушастая сова],",
+        "хотя твоё старинное родовое имя — Отон.",
+        "Ушастая сова похожа и имеет перья, как у совки;",
+        "когда она пляшет, ловкий птицелов захватывает птицу.",
+        "Оттого глупцов, легко уловимых, мы зовём «отос», —",
+        "прими и ты себе это подходящее имя."
+      ],
+      "text_en": [
+        "You wonder why in my verse you are called 'Otus' [the eared owl],",
+        "though your old ancestral name is Otho.",
+        "The eared owl is similar, and has feathers like the screech-owl;",
+        "when it dances, the clever fowler captures the bird.",
+        "Hence we call fools 'otos' — easily caught —",
+        "take this fitting name for yourself too."
+      ]
+    },
+    {
+      "id": "alc74",
+      "num": "63",
+      "fr": "Obliuio paupertatis parens",
+      "ru": "Забвение — родитель нищеты",
+      "en": "Forgetfulness, the parent of poverty",
+      "page": "74",
+      "group": "STUL",
+      "group_fr": "Stultitia.",
+      "group_en": "Folly",
+      "img": [
+        "alc74.jpg"
+      ],
+      "scans": [
+        "alc74.jpg"
+      ],
+      "text_fr": [
+        "Cùm lupus esuriens mandit ceruarius escam,",
+        "Præq; fame captum deuorat hinnuleum,",
+        "Respiciat si fortè alio, vel lumina vertat,",
+        "Præsentem oblitus quem tenet vnque cibum,",
+        "Quæritat incertam (tanta est obliuio) prædam.",
+        "Qui sua neglexit stultè, aliena petit."
+      ],
+      "text_ru": [
+        "Когда голодный волк-гончая пожирает добычу",
+        "и, гонимый голодом, пожирает пойманного оленёнка,",
+        "если случайно он посмотрит в сторону или отведёт взгляд,",
+        "забыв о пище, которую держит тут же в когте,",
+        "он начинает искать неверную добычу (так велико забвение).",
+        "Кто по глупости пренебрёг своим, ищет чужого."
+      ],
+      "text_en": [
+        "When the hungry wolf-hound devours its prey,",
+        "and, driven by hunger, swallows the captured fawn,",
+        "if by chance it looks elsewhere, or turns its eyes away,",
+        "forgetting the food it holds right there in its claw,",
+        "it goes seeking an uncertain prize — so great is its forgetfulness.",
+        "He who foolishly neglects what is his own, seeks after another's."
+      ]
+    },
+    {
+      "id": "alc75",
+      "num": "64",
+      "fr": "Superbia",
+      "ru": "Гордыня",
+      "en": "Pride",
+      "page": "75",
+      "group": "SUPB",
+      "group_fr": "Superbia.",
+      "group_en": "Pride",
+      "img": [
+        "alc75.jpg"
+      ],
+      "scans": [
+        "alc75.jpg"
+      ],
+      "text_fr": [
+        "En statuæ statua, & ductū de marmore marmor,",
+        "Se conferre deis ausa procax Niobe.",
+        "Est vitium muliebre superbia, & arguit oris",
+        "Duritiem, ac sensus, qualis inest lapidi."
+      ],
+      "text_ru": [
+        "Вот статуя из статуи, и мрамор, вытесанный из мрамора, —",
+        "Ниоба, дерзкая, посмевшая сравнить себя с богами.",
+        "Гордыня — порок женский, и она обличает твёрдость",
+        "лица и разума, подобную той, что присуща камню."
+      ],
+      "text_en": [
+        "Behold, a statue from a statue, and marble drawn from marble,",
+        "Niobe, the insolent one, who dared compare herself to the gods.",
+        "Pride is a womanly vice, and it betrays a hardness",
+        "of face and mind, like that found in stone."
+      ]
     }
   ]
 }
