@@ -5146,6 +5146,246 @@
         "To which the pine said: 'This glory is far too brief. For",
         "the coming winter will soon wretchedly destroy you.'"
       ]
+    },
+    {
+      "id": "alc137",
+      "num": "122",
+      "fr": "Ex damno alterius, alterius vtilitas",
+      "ru": "Из убытка одного — польза другого",
+      "en": "From one's loss, another's gain",
+      "page": "137",
+      "group": "FORT2",
+      "group_fr": "Fortuna.",
+      "group_en": "Fortune",
+      "img": [
+        "alc137.jpg"
+      ],
+      "scans": [
+        "alc137.jpg"
+      ],
+      "text_fr": [
+        "Dum sæuis ruerent in mutua vulnera telis,",
+        "Vngue leæna ferox, dente timendus aper,",
+        "Accurrit vultur spectatum, & prandia captat.",
+        "Gloria victoris, præda futura sua est."
+      ],
+      "text_ru": [
+        "Пока свирепые звери бросались друг на друга в яростных ранах,",
+        "львица — когтем, страшный вепрь — клыком,",
+        "прибегает стервятник, чтобы смотреть, и ловит себе пир.",
+        "Слава победителя станет его будущей добычей."
+      ],
+      "text_en": [
+        "While fierce beasts rushed upon each other with mutual wounds,",
+        "the lioness with claw, the fearsome boar with tusk,",
+        "the vulture hastens to watch, and seizes a feast.",
+        "The glory of the victor shall become its future prey."
+      ]
+    },
+    {
+      "id": "alc138",
+      "num": "123",
+      "fr": "Bonis auspicijs incipiendum",
+      "ru": "Начинать следует при добрых предзнаменованиях",
+      "en": "One must begin under good auspices",
+      "page": "138",
+      "group": "FORT2",
+      "group_fr": "Fortuna.",
+      "group_en": "Fortune",
+      "img": [
+        "alc138.jpg"
+      ],
+      "scans": [
+        "alc138.jpg"
+      ],
+      "text_fr": [
+        "Auspicijs res cœpta malis, bene cedere nescit.",
+        "Felici quæ sunt omine facta, iuuant.",
+        "Quicquid eas, mustella tibi si occurrat, omitte:",
+        "Signa malæ hæc sortis bestia praua gerit."
+      ],
+      "text_ru": [
+        "Дело, начатое при дурных предзнаменованиях, не умеет окончиться благополучно.",
+        "А то, что сделано при счастливом знамении, идёт на пользу.",
+        "Куда бы ты ни шёл, если тебе повстречается ласка — откажись от пути:",
+        "этот порочный зверёк несёт знаки злой судьбы."
+      ],
+      "text_en": [
+        "A thing begun under evil auspices knows not how to turn out well.",
+        "What is done under a happy omen is of benefit.",
+        "Wherever you go, if a weasel crosses your path, abandon your errand:",
+        "this depraved little beast bears the signs of an evil fate."
+      ]
+    },
+    {
+      "id": "alc139",
+      "num": "124",
+      "fr": "Nil reliqui",
+      "ru": "Ничего не осталось",
+      "en": "Nothing left",
+      "page": "139",
+      "group": "FORT2",
+      "group_fr": "Fortuna.",
+      "group_en": "Fortune",
+      "img": [
+        "alc139.jpg"
+      ],
+      "scans": [
+        "alc139.jpg"
+      ],
+      "text_fr": [
+        "Scilicet hoc deerat, post tot mala denique nostris",
+        "Locustæ vt raperent, quicquid inesset, agris.",
+        "Vidimus innumeras Euro duce tendere turmas,",
+        "Qualia non Atylæ, castra Xerxis erant.",
+        "Hæc fœnum, milium, farra omnia consumpserunt,",
+        "Spes & in angusto est, stant nisi vota super."
+      ],
+      "text_ru": [
+        "Вот чего, разумеется, не хватало: после стольких бед, наконец, чтобы саранча",
+        "похитила у наших полей всё, что в них было.",
+        "Мы видели, как бесчисленные полчища двигались под водительством Эвра,",
+        "каких не бывало и в станах Аттилы и Ксеркса.",
+        "Они пожрали всё: сено, просо, всякий хлеб,",
+        "и надежда теперь в тесноте, если только не превозмогут мольбы."
+      ],
+      "text_en": [
+        "This indeed was all that was lacking: that after so many ills, at last",
+        "locusts should seize whatever remained in our fields.",
+        "We saw countless hosts advancing, led by the East Wind,",
+        "such as not even the camps of Attila or Xerxes held.",
+        "These devoured all the hay, the millet, the grain,",
+        "and hope now stands in narrow straits, unless our prayers prevail above."
+      ]
+    },
+    {
+      "id": "alc140",
+      "num": "125",
+      "fr": "Malè parta, malè dilabuntur",
+      "ru": "Дурно приобретённое дурно и утрачивается",
+      "en": "Ill-gotten gains are ill-lost",
+      "page": "140",
+      "group": "FORT2",
+      "group_fr": "Fortuna.",
+      "group_en": "Fortune",
+      "img": [
+        "alc140.jpg"
+      ],
+      "scans": [
+        "alc140.jpg"
+      ],
+      "text_fr": [
+        "Miluus edax, nimia quem nausea torserat escæ,",
+        "Hei mihi mater ait, viscera ab ore fluunt.",
+        "Illa autem: quid fles? cur hæc tua viscera credas,",
+        "Qui rapto viuens sola aliena vomis?"
+      ],
+      "text_ru": [
+        "Прожорливый коршунёнок, которого истерзала чрезмерная тошнота от пищи,",
+        "говорит матери: «Горе мне, из моего рта вытекают внутренности».",
+        "Она же отвечает: «Что ты плачешь? Зачем тебе считать это своими внутренностями,",
+        "тебе, что, живя грабежом, изрыгаешь лишь чужое?»"
+      ],
+      "text_en": [
+        "The greedy young kite, whom excessive nausea from food had tormented,",
+        "says to his mother: 'Woe is me, my innards are flowing from my mouth.'",
+        "But she replies: 'Why do you weep? Why should you believe these to be your own innards,",
+        "you who, living by plunder, vomit up only what belongs to others?'"
+      ]
+    },
+    {
+      "id": "alc141",
+      "num": "126",
+      "fr": "Semper presto esse infortunia",
+      "ru": "Несчастья всегда наготове",
+      "en": "Misfortunes are always at hand",
+      "page": "141",
+      "group": "FORT2",
+      "group_fr": "Fortuna.",
+      "group_en": "Fortune",
+      "img": [
+        "alc141.jpg"
+      ],
+      "scans": [
+        "alc141.jpg"
+      ],
+      "text_fr": [
+        "Ludebant parili tres olim ætate puellæ",
+        "Sortibus: ad Stygias quæ prior iret aquas.",
+        "Ast cui iactato malè cesserat alea talo,",
+        "Ridebat sortis cæca puella suæ.",
+        "Cùm subitò icta caput labente est mortua tecto,",
+        "Soluit & audacis debita fata ioci.",
+        "Rebus in aduersis mala sors non fallitur: ast in",
+        "Faustis, nec precibus, nec locus est manui."
+      ],
+      "text_ru": [
+        "Играли некогда три девушки, равные годами,",
+        "в жребий: которая из них первой отправится к водам Стигийским.",
+        "Но та, которой при брошенной игральной кости выпал дурной жребий,",
+        "смеялась, слепая к своей судьбе, девушка.",
+        "Как вдруг, поражённая в голову обрушившейся кровлей, она умерла",
+        "и уплатила должную дань дерзкой шутке.",
+        "В делах неблагоприятных злой жребий не обманывает; но в",
+        "счастливых — ни мольбам, ни предусмотрительной руке нет места."
+      ],
+      "text_en": [
+        "Three girls of equal age once played",
+        "at lots: to decide which of them would first go to the Stygian waters.",
+        "But the one to whom, when the die was cast, the ill lot had fallen,",
+        "laughed, blind girl, at her own fate.",
+        "When suddenly, struck on the head by a collapsing roof, she died,",
+        "and paid the fate owed to her bold jest.",
+        "In adverse matters, the evil lot does not deceive; but in",
+        "fortunate ones, there is no place for prayers, nor for a watchful hand."
+      ]
+    },
+    {
+      "id": "alc142",
+      "num": "127",
+      "fr": "Remedia in arduo, mala in prono esse",
+      "ru": "Средства — на крутизне, беды — под гору",
+      "en": "Remedies are steep, evils are downhill",
+      "page": "142",
+      "group": "FORT2",
+      "group_fr": "Fortuna.",
+      "group_en": "Fortune",
+      "img": [
+        "alc142.jpg"
+      ],
+      "scans": [
+        "alc142.jpg"
+      ],
+      "text_fr": [
+        "Aetherijs postquàm deiecit sedibus Aten",
+        "Iuppiter: heu vexat quàm mala noxa viros?",
+        "Euolat hæc pedibus celer, & pernicibus alis,",
+        "Intactumq́, nihil casibus esse sinit.",
+        "Ergo Litæ, proles Iouis, hanc comitantur euntem,",
+        "Sarturæ quicquid fecerit illa mali.",
+        "Sed quia segnipedes, luscæ, lassæq́ senecta,",
+        "Mil nisi pòst, longo tempore restituunt."
+      ],
+      "text_ru": [
+        "После того как Юпитер низверг Ату с небесных обителей,",
+        "увы, сколь жестоко злое бедствие терзает мужей?",
+        "Она летает стремительными стопами и быстрыми крыльями,",
+        "и ничего не оставляет не задетым несчастными случаями.",
+        "Поэтому Литы, дочери Юпитера, сопровождают её, идущую следом,",
+        "дабы исправить всё то зло, что она причинила.",
+        "Но так как они медленны ногами, подслеповаты и обессилены старостью,",
+        "они восстанавливают причинённое не иначе как много позже, по долгом времени."
+      ],
+      "text_en": [
+        "After Jupiter cast Ate down from the ethereal abodes,",
+        "alas, how grievously does this evil affliction torment men?",
+        "She flies swift of foot and with fleet wings,",
+        "and leaves nothing untouched by mischance.",
+        "Therefore the Litae, daughters of Jove, follow after her going,",
+        "to mend whatever harm she has done.",
+        "But because they are slow-footed, one-eyed, and wearied with age,",
+        "they restore nothing except afterward, after a long while."
+      ]
     }
   ]
 }
