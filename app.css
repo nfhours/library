@@ -93,12 +93,28 @@
 
 /* библиотека: список книг */
 .ic-to-lib-link{font-size:.8em;color:var(--soft);background:none;border:0;cursor:pointer;padding:6px 0;margin-right:auto}
-.ic-booklist{list-style:none;margin-top:48px;display:grid;gap:28px}
-.ic-book-card{background:var(--sheet);border:1px solid var(--rule);border-radius:14px;box-shadow:0 14px 30px -18px rgba(70,46,20,.35);padding:34px 36px;cursor:pointer;transition:transform .3s ease,box-shadow .3s ease}
-.ic-book-card:hover{border-color:var(--accent);transform:translateY(-2px);box-shadow:0 20px 38px -18px rgba(70,46,20,.45)}
-.ic-book-title{font-family:var(--old);font-weight:500;font-size:1.7em;line-height:1.2;color:var(--ink)}
-.ic-book-author{color:var(--accent);font-size:.85em;margin-top:10px}
-.ic-book-sub{color:var(--soft);font-size:.92em;margin-top:18px;padding-top:16px;border-top:1px solid var(--rule);line-height:1.65}
+.ic-booklist{list-style:none;margin-top:48px;display:grid;gap:32px}
+.ic-book-card{display:flex;flex-direction:column;align-items:flex-start;
+  background:var(--sheet);border:1px solid var(--rule);border-radius:16px;
+  box-shadow:0 18px 40px -22px rgba(70,46,20,.4), inset 0 0 0 1px rgba(255,255,255,.4);
+  padding:40px 44px 36px;cursor:pointer;transition:transform .3s ease,box-shadow .3s ease}
+.ic-book-card:hover{border-color:var(--accent);transform:translateY(-2px);
+  box-shadow:0 24px 46px -20px rgba(70,46,20,.5), inset 0 0 0 1px rgba(255,255,255,.4)}
+.ic-book-head{display:flex;flex-direction:column;gap:12px}
+.ic-book-title{font-family:var(--old);font-weight:500;font-size:1.8em;line-height:1.25;color:var(--ink)}
+.ic-book-author{color:var(--accent);font-size:.86em;letter-spacing:.01em}
+.ic-book-more{margin-top:24px;align-self:flex-start;
+  font-size:.78em;letter-spacing:.06em;text-transform:uppercase;padding:9px 18px;
+  border:1px solid rgba(28,24,19,.35);border-radius:999px;background:rgba(250,246,236,.5);
+  color:var(--ink);transition:background-color .2s,color .2s,border-color .2s}
+.ic-book-more:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+/* Animating grid-template-rows between 0fr and 1fr gives a true expand/
+   collapse (not just an opacity fade) without having to measure the
+   content's height in JS first. */
+.ic-book-more-wrap{display:grid;grid-template-rows:0fr;transition:grid-template-rows .35s ease;width:100%}
+.ic-book-more-wrap>p{overflow:hidden;min-height:0}
+.ic-book-card.is-open .ic-book-more-wrap{grid-template-rows:1fr}
+.ic-book-sub{color:var(--soft);font-size:.94em;margin:0;padding-top:20px;margin-top:18px;border-top:1px solid var(--rule);line-height:1.7}
 
 .ic-about-link{font-size:.8em;color:var(--accent);background:none;border:0;cursor:pointer;padding:6px 0;margin-right:auto;text-decoration:none}
 
@@ -277,8 +293,8 @@
   .ic{font-size:18px}
   .ic-wrap{padding:32px 20px 64px}
   .ic-title{font-size:2em}
-  .ic-book-card{padding:26px 24px}
-  .ic-booklist{gap:18px}
+  .ic-book-card{padding:28px 26px 24px}
+  .ic-booklist{gap:22px}
   .ic-row-item{grid-template-columns:3.6rem 1fr;gap:10px}
   .ic-sort{margin-left:0}
   .ic-h-fr{font-size:2em}
