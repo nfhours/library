@@ -50,14 +50,21 @@
   -webkit-backdrop-filter:blur(6px) saturate(1.1);backdrop-filter:blur(6px) saturate(1.1);
   border:1px solid rgba(255,255,255,.5);border-radius:14px;
   box-shadow:0 20px 38px -22px rgba(70,46,20,.35);
-  padding:22px 22px 18px;margin:22px 0 28px;
+  padding:16px 22px 18px;margin:22px 0 28px;
   will-change:max-height,opacity}
 /* Поиск и фильтры — без рамок и заливок, тонкие подчёркивания, как у
    переключателя языка: продолжение стиля сайта, а не форма из виджетов. */
-.ic-search{width:100%;font-size:1.05em;padding:10px 2px;border:0;border-bottom:1px solid var(--rule);
+.ic-search-wrap{display:block;position:relative}
+.ic-search{width:100%;font-size:1.05em;padding:8px 26px 8px 2px;border:0;border-bottom:1px solid var(--rule);
   border-radius:0;background:transparent;-webkit-appearance:none;appearance:none;box-shadow:none;margin:0;
   transition:border-color .2s}
 .ic-search:focus{border-bottom-color:var(--accent);outline:0}
+.ic-search-clear{position:absolute;right:0;top:50%;transform:translateY(-50%);
+  width:22px;height:22px;line-height:1;font-size:18px;color:var(--soft);
+  display:flex;align-items:center;justify-content:center;border-radius:50%;
+  transition:color .2s,background-color .2s}
+.ic-search-clear:hover{color:var(--ink);background:var(--rule)}
+.ic-search-clear[hidden]{display:none}
 .ic-row{display:flex;flex-wrap:wrap;gap:18px 24px;align-items:center;margin-top:18px}
 .ic-seg{display:flex;flex-wrap:wrap;gap:18px}
 .ic-chip{font-size:.85em;letter-spacing:.02em;padding:4px 0;border:0;background:none;cursor:pointer;
@@ -66,6 +73,8 @@
 .ic-sort{font-size:.85em;padding:4px 0;border:0;border-bottom:1px solid var(--rule);border-radius:0;
   background:transparent;cursor:pointer;color:var(--soft);margin-left:auto;flex:0 0 auto;width:auto;max-width:max-content}
 .ic-count{color:var(--soft);font-size:.78em;margin-top:10px}
+.ic-note{color:var(--accent);font-size:.78em;font-style:italic;margin-top:4px}
+.ic-note:empty{display:none}
 
 .ic-part{font-family:var(--old);font-size:1.6em;font-weight:500;color:var(--accent);margin-top:24px;margin-bottom:18px}
 .ic-group{margin-top:26px}
