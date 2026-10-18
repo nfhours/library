@@ -4014,6 +4014,334 @@
         "The cuckoo signals that summer is to be expected.",
         "Only in autumn are figpeckers to be seen."
       ]
+    },
+    {
+      "id": "alc110",
+      "num": "98",
+      "fr": "Astrologia. Scyphus Nestoris.",
+      "ru": "Астрология. Чаша Нестора",
+      "en": "Astrology. The cup of Nestor",
+      "page": "110",
+      "group": "ASTR",
+      "group_fr": "Astrologia.",
+      "group_en": "Astrology",
+      "img": [
+        "alc110.jpg"
+      ],
+      "scans": [
+        "alc110.jpg"
+      ],
+      "text_fr": [
+        "Nestoreum geminis cratera hunc accipe fundis,",
+        "Quod grauis argenti massa profudit opus.",
+        "Clauiculi ex auro stant circum quattuor ansæ:",
+        "Vnam quanque super fului columba sedet.",
+        "Solus eum potuit longæuus tollere Nestor.",
+        "Mæonidæ doceas quid sibi musa velit?",
+        "Est cœlum scyphus ipse: color argenteus illi est:",
+        "Aurea sunt cœli sidera clauiculi.",
+        "Pleiadas esse putant, quas dixerit ille columbas.",
+        "Vmbilici gemini, magna minorque, fera est.",
+        "Hæc Nestor longo sapiens intelligit vsu:",
+        "Bella gerunt fortes, callidus astra tenet."
+      ],
+      "text_ru": [
+        "Прими сей кубок Нестора, отлитый дважды,",
+        "который тяжёлая масса серебра изваяла трудом.",
+        "Вокруг четырёх ручек стоят золотые заклёпки:",
+        "на каждой из них сидит голубка.",
+        "Лишь многолетний Нестор один мог поднять его.",
+        "Не научишь ли ты, сын Меонии [Гомер], что хотела сказать этим Муза?",
+        "Самый кубок — это небо: цвет его серебряный;",
+        "золотые же заклёпки — звёзды небес.",
+        "Полагают, что это Плеяды, которых он назвал голубками.",
+        "Два выступа на ручках — созвездия Медведиц, большой и малой.",
+        "Это мудрый Нестор постиг долгим опытом:",
+        "храбрые ведут войны, а хитрый [мудрый] владеет звёздами."
+      ],
+      "text_en": [
+        "Receive this Nestorian mixing-bowl, twice cast,",
+        "which a heavy mass of silver poured forth as a work.",
+        "Four golden rivets stand around as handles:",
+        "upon each one sits a dove.",
+        "Only long-lived Nestor alone was able to lift it.",
+        "Would you teach, son of Maeonia [Homer], what the Muse means by this?",
+        "The cup itself is the heaven: its colour is silver;",
+        "golden are the stars of heaven — the rivets.",
+        "They think those are the Pleiades, which he called doves.",
+        "The twin bosses are the Bear, the greater and the lesser.",
+        "Wise Nestor understood this through long experience:",
+        "the brave wage wars, the shrewd one holds the stars."
+      ]
+    },
+    {
+      "id": "alc112",
+      "num": "99",
+      "fr": "Quæ supra nos, nihil ad nos",
+      "ru": "Что выше нас — не нашего ума дело",
+      "en": "What is above us is nothing to us",
+      "page": "112",
+      "group": "ASTR",
+      "group_fr": "Astrologia.",
+      "group_en": "Astrology",
+      "img": [
+        "alc112.jpg"
+      ],
+      "scans": [
+        "alc112.jpg"
+      ],
+      "text_fr": [
+        "Caucasia æternùm pendens in rupe Prometheus",
+        "Diripitur sacri præpetis vngue iecur.",
+        "Et noluisse hominem fecisse: figulosque perosus",
+        "Accensam rapto damnat ab igne facem.",
+        "Roduntur varijs prudentum pectora curis,",
+        "Qui cœli affectant scire, deûmque vices."
+      ],
+      "text_ru": [
+        "Прометей, вечно висящий на кавказской скале,",
+        "терзаем когтем священной птицы, [вырывающей его] печень —",
+        "и за то, что не желал, чтобы человек был создан [по воле богов], и, возненавидев горшечников [ваятелей],",
+        "осуждён за факел, зажжённый от похищенного огня.",
+        "Разнообразными заботами грызутся сердца мудрых,",
+        "притязающих знать дела небес и чередования богов."
+      ],
+      "text_en": [
+        "Prometheus, hanging forever on the Caucasian cliff,",
+        "has his liver torn by the claw of the sacred bird —",
+        "both for having opposed man's making, and, hating the potters [who shaped him],",
+        "he is condemned for the torch kindled from the stolen fire.",
+        "The hearts of the wise are gnawed by various cares,",
+        "those who aspire to know the affairs of heaven, and the changes of the gods."
+      ]
+    },
+    {
+      "id": "alc113",
+      "num": "100",
+      "fr": "In Astrologos",
+      "ru": "На астрологов",
+      "en": "On astrologers",
+      "page": "113",
+      "group": "ASTR",
+      "group_fr": "Astrologia.",
+      "group_en": "Astrology",
+      "img": [
+        "alc113.jpg"
+      ],
+      "scans": [
+        "alc113.jpg"
+      ],
+      "text_fr": [
+        "Icare per superos qui raptus et aëra, donec",
+        "In mare præcipitem cæra liquata daret,",
+        "Nunc te cæra eadem, feruensque exuscitat ignis,",
+        "Exemplo vt doceas dogmata certa tuo.",
+        "Astrologus caueat quicquam prædicere præceps",
+        "Nam eadem impostor, dum super astra volat."
+      ],
+      "text_ru": [
+        "Икар, вознесённый над вышними и воздухом, покуда",
+        "растопленный воск не низверг тебя в море, —",
+        "ныне тот же воск и жгучий огонь пробуждают тебя,",
+        "дабы ты своим примером преподал непреложные истины.",
+        "Пусть астролог остерегается предрекать что-либо опрометчиво,",
+        "ибо и он — самозванец, пока парит над звёздами."
+      ],
+      "text_en": [
+        "Icarus, who was carried through the heights and the air, until",
+        "the melted wax cast you headlong into the sea —",
+        "now that same wax, and the burning fire, rouse you,",
+        "so that by your example you may teach certain doctrines.",
+        "Let the astrologer beware of predicting anything rashly,",
+        "for he too is an impostor, so long as he flies above the stars."
+      ]
+    },
+    {
+      "id": "alc114",
+      "num": "101",
+      "fr": "Qui alta contemplantur cadere",
+      "ru": "Созерцающие высокое — падают",
+      "en": "Those who gaze at lofty things fall",
+      "page": "114",
+      "group": "ASTR",
+      "group_fr": "Astrologia.",
+      "group_en": "Astrology",
+      "img": [
+        "alc114.jpg"
+      ],
+      "scans": [
+        "alc114.jpg"
+      ],
+      "text_fr": [
+        "Dum turdos visco, pedica dum fallit alaudas,",
+        "Et iacta altiuolam figit harundo gruem,",
+        "Dipsada non prudens auceps pede perculit: vltrix",
+        "Illa mali, emissum virus ab ore iacit.",
+        "Sic obit, extento qui sydera respicit arcu,",
+        "Securus fati, quod iacet ante pedes."
+      ],
+      "text_ru": [
+        "Покуда он дроздов обманывает клеем, покуда силком ловит жаворонков,",
+        "и брошенным дротиком поражает высоко летящего журавля,",
+        "неосторожный птицелов наступает ногой на змею-дипсаду: мстя",
+        "за обиду, та изрыгает из пасти яд.",
+        "Так погибает тот, кто, натянув лук, взирает на звёзды,",
+        "беспечный к судьбе, что лежит прямо у его ног."
+      ],
+      "text_en": [
+        "While he deceives thrushes with birdlime, while he snares larks,",
+        "and his thrown dart strikes a high-flying crane,",
+        "the unwary fowler treads upon a dipsas-serpent with his foot: avenging",
+        "the harm, it spews venom from its mouth.",
+        "So perishes the one who, bow drawn, gazes up at the stars,",
+        "heedless of the fate that lies right before his feet."
+      ]
+    },
+    {
+      "id": "alc115",
+      "num": "102",
+      "fr": "Amor. Potentissimus affectus amor.",
+      "ru": "Любовь. Сильнейшая из страстей — любовь",
+      "en": "Love. The most powerful passion is love",
+      "page": "115",
+      "group": "AMOR",
+      "group_fr": "Amor.",
+      "group_en": "Love",
+      "img": [
+        "alc115.jpg"
+      ],
+      "scans": [
+        "alc115.jpg"
+      ],
+      "text_fr": [
+        "Aspice vt inuictus vires auriga leonis,",
+        "Expressius gemma pusio vincat amor:",
+        "Vtque manu hac scuticam tenet, hac vt flectit habenas,",
+        "Vtque est in pueri plurimus ore decor.",
+        "Dira lues procul esto: feram qui vincere talem",
+        "Est potis, a nobis temperet anne manus?"
+      ],
+      "text_ru": [
+        "Взгляни, как мальчик-Амур, зримо выточенный на этом камне,",
+        "побеждает непобедимую силу льва-колесничего:",
+        "как одной рукой он держит бич, а другой правит поводьями,",
+        "и сколько прелести в лике отрока.",
+        "Да минует нас сия страшная зараза: ибо тот, кто способен победить такого зверя,",
+        "неужели удержит от нас свои руки?"
+      ],
+      "text_en": [
+        "Behold how the boy Cupid, vividly rendered in this gem,",
+        "conquers the unconquered strength of the lion, his charioteer:",
+        "how with one hand he holds the whip, with the other guides the reins,",
+        "and how much beauty is in the boy's face.",
+        "May this dread plague be far from us: for one able to conquer such a beast —",
+        "will he truly hold back his hands from us?"
+      ]
+    },
+    {
+      "id": "alc116",
+      "num": "103",
+      "fr": "Potentia amoris",
+      "ru": "Власть любви",
+      "en": "The power of love",
+      "page": "116",
+      "group": "AMOR",
+      "group_fr": "Amor.",
+      "group_en": "Love",
+      "img": [
+        "alc116.jpg"
+      ],
+      "scans": [
+        "alc116.jpg"
+      ],
+      "text_fr": [
+        "Nudus Amor videri vt ridet, placidúmque tuetur?",
+        "Nec faculas, nec quæ cornua flectat, habet.",
+        "Altera sed manuum flores gerit, altera piscem,",
+        "Scilicet vt terræ iura det, atque mari."
+      ],
+      "text_ru": [
+        "Видишь, как смеётся нагой Амур и глядит безмятежно?",
+        "Нет у него ни факела, ни лука со стрелами.",
+        "Но в одной руке он держит цветы, в другой — рыбу,",
+        "то есть дабы давать законы и земле, и морю."
+      ],
+      "text_en": [
+        "See how naked Love smiles and gazes serenely?",
+        "He has neither torches nor a bow to bend.",
+        "But in one hand he holds flowers, in the other a fish,",
+        "that is, so as to give laws to both land and sea."
+      ]
+    },
+    {
+      "id": "alc117",
+      "num": "104",
+      "fr": "Vis amoris",
+      "ru": "Сила любви",
+      "en": "The force of love",
+      "page": "117",
+      "group": "AMOR",
+      "group_fr": "Amor.",
+      "group_en": "Love",
+      "img": [
+        "alc117.jpg"
+      ],
+      "scans": [
+        "alc117.jpg"
+      ],
+      "text_fr": [
+        "Aligerum fulmen fregit Deus aliger, igne",
+        "Dum demonstrat vti est fortior ignis amor."
+      ],
+      "text_ru": [
+        "Крылатый бог [Амур] переломил крылатую молнию [Юпитера] огнём,",
+        "тем самым показав, что огонь любви сильнее."
+      ],
+      "text_en": [
+        "The winged god [Cupid] broke the winged thunderbolt [of Jove] with fire,",
+        "thereby showing that the fire of love is stronger."
+      ]
+    },
+    {
+      "id": "alc118",
+      "num": "105",
+      "fr": "In studiosum captum Amore",
+      "ru": "Об учёном муже, плененном Любовью",
+      "en": "On a scholar captured by Love",
+      "page": "118",
+      "group": "AMOR",
+      "group_fr": "Amor.",
+      "group_en": "Love",
+      "img": [
+        "alc118.jpg"
+      ],
+      "scans": [
+        "alc118.jpg"
+      ],
+      "text_fr": [
+        "Immersus studijs, dicundo et iure peritus,",
+        "Et maximus libellio,",
+        "Helianiran amat, quantùm nec Thracius vnquam",
+        "Princeps sororis pellicem.",
+        "Pallada cur alio superasti iudice Cypri?",
+        "Num sat sub Ida est vincere?"
+      ],
+      "text_ru": [
+        "Погружённый в науки, искусный в судебном красноречии и праве,",
+        "и величайший из составителей прошений,",
+        "он любит Элианиру так, как никогда фракийский",
+        "владыка не любил соперницу своей сестры.",
+        "Зачем ты, Кипри́да, вновь одолела Палладу перед иным судьёй?",
+        "Разве не довольно было победить однажды, под Идой?"
+      ],
+      "text_en": [
+        "Immersed in his studies, skilled in pleading and law,",
+        "and the greatest drafter of petitions,",
+        "he loves Helianira as much as ever the Thracian",
+        "prince loved his sister's rival.",
+        "Why, O Cyprian, have you again outdone Pallas before another judge?",
+        "Was it not enough to win once, beneath Ida?"
+      ]
     }
   ]
 }
