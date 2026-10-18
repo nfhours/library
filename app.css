@@ -92,7 +92,12 @@
 /* библиотека: список книг */
 .ic-to-lib-link{font-size:.8em;color:var(--soft);background:none;border:0;cursor:pointer;padding:6px 0;margin-right:auto}
 .ic-booklist{list-style:none;margin-top:48px;display:grid;gap:32px}
-.ic-book-card{display:flex;flex-direction:column;align-items:flex-start;
+/* "li.ic-book-card", not just ".ic-book-card": the global reset a few lines
+   up (".ic li{padding:0}") has specificity (class+element) that beats a
+   bare class selector, so it silently won this fight and zeroed the card's
+   padding on every render regardless of what was set here — the real cause
+   of the "no air around the text" reports, not a caching issue. */
+li.ic-book-card{display:flex;flex-direction:column;align-items:flex-start;
   background:var(--sheet);border:1px solid var(--rule);border-radius:16px;
   box-shadow:0 18px 40px -22px rgba(70,46,20,.4), inset 0 0 0 1px rgba(255,255,255,.4);
   padding:44px 48px;cursor:pointer;transition:transform .3s ease,box-shadow .3s ease}
@@ -288,7 +293,7 @@
 @media (hover:hover){
   .ic-search-clear:hover{color:var(--ink);background:var(--rule)}
   .ic-row-item:hover{background:var(--sheet)}
-  .ic-book-card:hover{border-color:var(--accent);transform:translateY(-2px);
+  li.ic-book-card:hover{border-color:var(--accent);transform:translateY(-2px);
     box-shadow:0 24px 46px -20px rgba(70,46,20,.5), inset 0 0 0 1px rgba(255,255,255,.4)}
   .ic-book-more summary:hover{color:var(--ink)}
   .ic-plate-link a:hover{border-color:var(--accent)}
@@ -304,7 +309,7 @@
   .ic{font-size:18px}
   .ic-wrap{padding:32px 20px 64px}
   .ic-title{font-size:2em}
-  .ic-book-card{padding:32px 28px}
+  li.ic-book-card{padding:32px 28px}
   .ic-booklist{gap:22px}
   .ic-row-item{grid-template-columns:3.6rem 1fr;gap:10px}
   .ic-sort{margin-left:0}
