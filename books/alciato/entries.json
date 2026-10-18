@@ -2929,6 +2929,88 @@
         "'That she too held her captured lovers in just that way —",
         "the ram is the leader of the flock, the lover is held by the haunch.'"
       ]
+    },
+    {
+      "id": "alc83",
+      "num": "72",
+      "fr": "In amatores meretricum",
+      "ru": "Против любовников блудниц",
+      "en": "Against lovers of courtesans",
+      "page": "83",
+      "group": "LUX",
+      "group_fr": "Luxuria.",
+      "group_en": "Lust",
+      "img": [
+        "alc83.jpg"
+      ],
+      "scans": [
+        "alc83.jpg"
+      ],
+      "text_fr": [
+        "Villosæ indutus piscator tegmina capræ,",
+        "Addidit vt capiti cornua bina suo,",
+        "Fallit amatorem stans summo in littore Sargum:",
+        "In laqueos simi quem gregis ardor agit.",
+        "Capra refert scortum, similis fit Sargus amanti,",
+        "Qui miser obscœno captus amore perit."
+      ],
+      "text_ru": [
+        "Рыбак, облачённый в косматую шкуру козы,",
+        "прибавив к своей голове два рога,",
+        "обманывает, стоя на высоком берегу, влюблённого сарга:",
+        "которого влечёт в силки страсть к курносому стаду.",
+        "Коза изображает блудницу, сарг уподобляется любовнику,",
+        "который, несчастный, гибнет, пленённый непристойной любовью."
+      ],
+      "text_en": [
+        "The fisherman, clothed in the shaggy hide of a goat,",
+        "after adding two horns to his own head,",
+        "deceives, standing on the shore, the lover-fish, the sargue:",
+        "driven into the snares by its desire for the flat-nosed flock.",
+        "The goat represents the harlot, the sargue becomes like the lover,",
+        "who, wretched, perishes, captured by obscene love."
+      ]
+    },
+    {
+      "id": "alc84",
+      "num": "73",
+      "fr": "Cauendum à meretricibus",
+      "ru": "Нужно остерегаться блудниц",
+      "en": "One must beware of courtesans",
+      "page": "84",
+      "group": "LUX",
+      "group_fr": "Luxuria.",
+      "group_en": "Lust",
+      "img": [
+        "alc84.jpg"
+      ],
+      "scans": [
+        "alc84.jpg"
+      ],
+      "text_fr": [
+        "Sole satæ Circes tam magna potentia fertur,",
+        "Verterit vt multos in noua monstra viros.",
+        "Testis equûm domitor Picus, tum Scylla biformis,",
+        "Atque Ithaci postquàm vina bibêre sues.",
+        "Indicat illustri meretricem nomine Circe,",
+        "Et rationem animi perdere, quisquis amat."
+      ],
+      "text_ru": [
+        "Говорят, столь велика власть Цирцеи, дочери Солнца,",
+        "что она обратила многих мужей в новых чудовищ.",
+        "Свидетель тому — укротитель коней Пик, затем двуобразная Сцилла,",
+        "и свиньи, в которых превратились итакийцы, испив её вина.",
+        "Под славным именем Цирцеи подразумевается блудница,",
+        "и что всякий, кто любит, теряет рассудок."
+      ],
+      "text_en": [
+        "So great is said to be the power of Circe, daughter of the Sun,",
+        "that she turned many men into strange new monsters.",
+        "Witness Picus, the tamer of horses, then two-formed Scylla,",
+        "and the swine of Ithaca's men, after they drank her wine.",
+        "Under the illustrious name Circe is meant a courtesan,",
+        "and that whoever loves loses the reason of his mind."
+      ]
     }
   ]
 }
