@@ -11,8 +11,12 @@
       "group": "DSR",
       "group_fr": "Deus, sive Religio.",
       "group_en": "God, or Religion",
-      "img": ["alc10.jpg"],
-      "scans": ["alc10.jpg"],
+      "img": [
+        "alc10.jpg"
+      ],
+      "scans": [
+        "alc10.jpg"
+      ],
       "text_fr": [
         "Aspice vt egregius puerum Ioues alite pictor",
         "Fecerit Iliacum summa per astra vehi.",
@@ -48,8 +52,12 @@
       "group": "DSR",
       "group_fr": "Deus, sive Religio.",
       "group_en": "God, or Religion",
-      "img": ["alc11.jpg"],
-      "scans": ["alc11.jpg"],
+      "img": [
+        "alc11.jpg"
+      ],
+      "scans": [
+        "alc11.jpg"
+      ],
       "text_fr": [
         "Quid dicam? quonam hoc compellem nomine monstrum",
         "Biforme: quod non est homo, nec est draco?",
@@ -97,8 +105,12 @@
       "group": "DSR",
       "group_fr": "Deus, sive Religio.",
       "group_en": "God, or Religion",
-      "img": ["alc12.jpg"],
-      "scans": ["alc12.jpg"],
+      "img": [
+        "alc12.jpg"
+      ],
+      "scans": [
+        "alc12.jpg"
+      ],
       "text_fr": [
         "Regali residens meretrix pulcherrima sella,",
         "Purpureo insignem gestat honore peplum.",
@@ -134,8 +146,12 @@
       "group": "DSR",
       "group_fr": "Deus, sive Religio.",
       "group_en": "God, or Religion",
-      "img": ["alc13.jpg"],
-      "scans": ["alc13.jpg"],
+      "img": [
+        "alc13.jpg"
+      ],
+      "scans": [
+        "alc13.jpg"
+      ],
       "text_fr": [
         "Isidis effigiem tardus gestabat asellus,",
         "Pando verenda dorso habens mysteria.",
@@ -177,8 +193,12 @@
       "group": "DSR",
       "group_fr": "Deus, sive Religio.",
       "group_en": "God, or Religion",
-      "img": ["alc14.jpg"],
-      "scans": ["alc14.jpg"],
+      "img": [
+        "alc14.jpg"
+      ],
+      "scans": [
+        "alc14.jpg"
+      ],
       "text_fr": [
         "In triuio mons est lapidum: supereminet illi",
         "Trunca Dei effigies, pectore facta tenus.",
@@ -214,8 +234,12 @@
       "group": "VIR-FID",
       "group_fr": "Virtutes. Fides.",
       "group_en": "Virtues. Faith.",
-      "img": ["alc15.jpg"],
-      "scans": ["alc15.jpg"],
+      "img": [
+        "alc15.jpg"
+      ],
+      "scans": [
+        "alc15.jpg"
+      ],
       "text_fr": [
         "Stet depictus Honos Tyrio velatus amictu,",
         "Eiusque iungat nuda dextram Veritas.",
@@ -239,6 +263,416 @@
         "wreathed in roses, fairer than Dione's Cupid.",
         "These signs establish Faith: the reverence of honour",
         "which Love fosters, and which Truth brings forth and nourishes."
+      ]
+    },
+    {
+      "id": "alc16",
+      "num": "7",
+      "fr": "Fœdera",
+      "ru": "Союзы",
+      "en": "Alliances",
+      "page": "16",
+      "group": "VIR-FID",
+      "group_fr": "Virtutes. Fides.",
+      "group_en": "Virtues. Faith.",
+      "img": [
+        "alc16.jpg"
+      ],
+      "scans": [
+        "alc16.jpg"
+      ],
+      "text_fr": [
+        "Hac cithara, à lembi quæ forma halieutica fertur,",
+        "Vendicat & propriam Musa Latina sibi,",
+        "Accipe Dux: placeat nostrum hoc tibi tempore munus,",
+        "Quo noua cum socijs fœdera inire paras.",
+        "Difficile est, nisi docto homini, tot tendere chordas,",
+        "Vnaque si fuerit non bene tenta fides,",
+        "Ruptaue (quod facile est) perit omnis gratia cochæ,",
+        "Illeque præcellens cantus, ineptus erit.",
+        "Sic Itali coëunt proceres in fœdera, concors",
+        "Nil est quod timeas, si tibi constet amor.",
+        "At si aliquis desciscat (vti plerumque videmus)",
+        "In nihilum illa omnis soluitur harmonia."
+      ],
+      "text_ru": [
+        "Эта кифара, по форме, говорят, подобная рыбацкому челну,",
+        "её же для себя притязает и латинская Муза.",
+        "Прими её, герцог: пусть этот дар будет тебе угоден ныне,",
+        "когда ты готовишься заключить новые союзы со своими соратниками.",
+        "Трудно, разве что искусному человеку, настроить столько струн,",
+        "и если хоть одна струна будет не вполне натянута",
+        "или порвётся (что легко случается), пропадает всё очарование раковины,",
+        "и даже превосходное пение станет никчёмным.",
+        "Так сходятся итальянские государи в союзы; согласию",
+        "нечего бояться, пока в вас пребывает любовь.",
+        "Но если кто-то отступится (как мы часто видим),",
+        "вся эта гармония обращается в ничто."
+      ],
+      "text_en": [
+        "This cithara, said to have the shape of a fishing-skiff,",
+        "the Latin Muse also claims as her own.",
+        "Accept it, Duke: may this gift please you at this time,",
+        "when you prepare to enter new alliances with your allies.",
+        "It is hard, except for a skilled man, to keep so many strings in tune,",
+        "and if even one string is not well tuned,",
+        "or breaks (which easily happens), all the charm of the shell is lost,",
+        "and that excellent music becomes worthless.",
+        "So the Italian princes come together into alliances; there is nothing",
+        "to fear, as long as love remains constant among you.",
+        "But if one of them defects (as we so often see),",
+        "all that harmony dissolves into nothing."
+      ]
+    },
+    {
+      "id": "alc17",
+      "num": "8",
+      "fr": "In silentium",
+      "ru": "О молчании",
+      "en": "On silence",
+      "page": "17",
+      "group": "VIR-FID",
+      "group_fr": "Virtutes. Fides.",
+      "group_en": "Virtues. Faith.",
+      "img": [
+        "alc17.jpg"
+      ],
+      "scans": [
+        "alc17.jpg"
+      ],
+      "text_fr": [
+        "Cùm tacet: haud quicquam differt sapientibus amens.",
+        "Stultitiæ est index lingua, voxque sua.",
+        "Ergo premat labias: digitoque silentia signet:",
+        "Et sese Pharium vertat in Harpocratem."
+      ],
+      "text_ru": [
+        "Когда он молчит, безумец ничем не отличается от мудрых.",
+        "Язык и собственный голос — вот что выдаёт глупость.",
+        "Пусть же он сожмёт уста и перстом означит молчание,",
+        "и обратится сам в египетского Гарпократа."
+      ],
+      "text_en": [
+        "When he is silent, the fool differs in nothing from the wise.",
+        "His tongue and his own voice are the tell-tale sign of folly.",
+        "Let him, then, press his lips, and with his finger mark his silence,",
+        "and turn himself into an Egyptian Harpocrates."
+      ]
+    },
+    {
+      "id": "alc18",
+      "num": "9",
+      "fr": "Non vulganda consilia",
+      "ru": "Замыслы не для огласки",
+      "en": "Counsels not to be made public",
+      "page": "18",
+      "group": "VIR-FID",
+      "group_fr": "Virtutes. Fides.",
+      "group_en": "Virtues. Faith.",
+      "img": [
+        "alc18.jpg"
+      ],
+      "scans": [
+        "alc18.jpg"
+      ],
+      "text_fr": [
+        "Limine quod cæco, obscura & caligine monstrum",
+        "Gnosiacis clausit Dædalus in latebris:",
+        "Depictum Romana Phalanx in prælia gestat,",
+        "Semiuiroque nitent signa superba boue.",
+        "Nosque monent, debere ducum secreta latere",
+        "Consilia, autori cognita techna nocet."
+      ],
+      "text_ru": [
+        "Чудовище, что за слепым порогом, в тёмной",
+        "мгле Дедал запер в кносских тайниках, —",
+        "его изображение несёт в сражения римская фаланга,",
+        "и гордые знамёна блещут получеловеком-быком.",
+        "И это напоминает нам, что тайные советы вождей",
+        "должны оставаться скрытыми: замысел, известный врагу, вредит."
+      ],
+      "text_en": [
+        "The monster that Daedalus shut away behind a blind threshold,",
+        "in obscure darkness, in the hidden recesses of Knossos —",
+        "the Roman phalanx carries its image into battle,",
+        "and the proud standards gleam with the half-man, half-bull.",
+        "And they remind us that the secret counsels of leaders",
+        "must stay hidden: a scheme known to its enemy does harm."
+      ]
+    },
+    {
+      "id": "alc19",
+      "num": "10",
+      "fr": "Nec quæstioni quidem cedendum",
+      "ru": "Нельзя уступать даже пытке",
+      "en": "One must not yield even to torture",
+      "page": "19",
+      "group": "VIR-FID",
+      "group_fr": "Virtutes. Fides.",
+      "group_en": "Virtues. Faith.",
+      "img": [
+        "alc19.jpg"
+      ],
+      "scans": [
+        "alc19.jpg"
+      ],
+      "text_fr": [
+        "Cecropia effictam quam cernis in arce Leænam,",
+        "Hermodij (an nescis hospes?) amica fuit.",
+        "Sic animum placuit monstrare viraginis acrem",
+        "More feræ, nomen vel quia tale tulit.",
+        "Quod fidibus contorta, suo non prodidit vllum",
+        "Indicio, elinguem reddidit Iphicrates."
+      ],
+      "text_ru": [
+        "Львица, что видишь ты изваянной на Кекропийском кремле,",
+        "была возлюбленной Гермодия — разве ты не знал, странник?",
+        "Так пожелали показать неукротимый дух отважной женщины",
+        "в облике дикого зверя, или же потому, что она носила такое имя.",
+        "За то, что, истерзанная пытками, она никого не выдала",
+        "ни единым словом, Ификрат изобразил её безъязыкой."
+      ],
+      "text_en": [
+        "The lioness you see fashioned on the Cecropian citadel",
+        "was Hermodius's beloved — did you not know this, stranger?",
+        "Thus it pleased them to show the fierce spirit of a brave woman",
+        "in the manner of a wild beast, or because she bore that very name.",
+        "Because, racked upon the rack, she betrayed no one",
+        "by any disclosure, Iphicrates rendered her tongueless."
+      ]
+    },
+    {
+      "id": "alc20",
+      "num": "11",
+      "fr": "Consilio, & virtute Chimæram superari",
+      "ru": "Химеру побеждают советом и доблестью",
+      "en": "The Chimera is overcome by counsel and courage",
+      "page": "20",
+      "group": "PRUD",
+      "group_fr": "Prudentia.",
+      "group_en": "Prudence",
+      "img": [
+        "alc20.jpg"
+      ],
+      "scans": [
+        "alc20.jpg"
+      ],
+      "text_fr": [
+        "Bellerophon (vt fortis eques) superare Chimæram,",
+        "Et Licij potuit sternere monstra soli.",
+        "Sic tu Pegaseis vectus petis æthera pennis:",
+        "Consilioque animi monstra superba domas."
+      ],
+      "text_ru": [
+        "Беллерофонт, как отважный всадник, смог одолеть Химеру",
+        "и сокрушить чудовищ ликийской земли.",
+        "Так и ты, несомый крыльями Пегаса, стремишься к небесам",
+        "и мудростью духа укрощаешь гордых чудовищ."
+      ],
+      "text_en": [
+        "Bellerophon, as a brave horseman, was able to overcome the Chimera",
+        "and lay low the monsters of the Lycian land.",
+        "So you too, borne on Pegasus's wings, seek the heavens,",
+        "and by the counsel of your mind you tame proud monsters."
+      ]
+    },
+    {
+      "id": "alc21",
+      "num": "12",
+      "fr": "Vigilantia, & custodia",
+      "ru": "Бдительность и стража",
+      "en": "Vigilance, and guardianship",
+      "page": "21",
+      "group": "PRUD",
+      "group_fr": "Prudentia.",
+      "group_en": "Prudence",
+      "img": [
+        "alc21.jpg"
+      ],
+      "scans": [
+        "alc21.jpg"
+      ],
+      "text_fr": [
+        "Instantis quod signa canens det gallus eoi,",
+        "Et reuocet famulas ad noua pensa manus:",
+        "Turribus in sacris effingitur, ærea mentem",
+        "Ad superos reuocet, quod vigilem,",
+        "Est leo. sed custos oculis quia dormit apertis:",
+        "Templorum idcirco ponitur ante fores."
+      ],
+      "text_ru": [
+        "Так как поющий петух подаёт знак наступающего рассвета",
+        "и вновь призывает руки слуг к свежим трудам,",
+        "его бронзовое изображение ставят на священных башнях,",
+        "чтобы оно напоминало бодрствующему уму о небесах.",
+        "Лев же — страж, ибо спит с открытыми глазами:",
+        "потому его и ставят перед дверями храмов."
+      ],
+      "text_en": [
+        "Because the crowing cock gives the signal of approaching dawn,",
+        "and calls the servants' hands back to their fresh tasks,",
+        "his bronze image is set upon sacred towers,",
+        "so that it may recall the watchful mind toward heaven above.",
+        "The lion, too, is a guardian, for he sleeps with his eyes open:",
+        "and so he is set before the doors of temples."
+      ]
+    },
+    {
+      "id": "alc22",
+      "num": "13",
+      "fr": "Sobriè viuendum, & non temerè credendum",
+      "ru": "Жить трезво и не верить поспешно",
+      "en": "One must live soberly, and not believe rashly",
+      "page": "22",
+      "group": "PRUD",
+      "group_fr": "Prudentia.",
+      "group_en": "Prudence",
+      "img": [
+        "alc22.jpg"
+      ],
+      "scans": [
+        "alc22.jpg"
+      ],
+      "text_fr": [
+        "Ne credas ne (Epicharmus ait) non sobrius esto,",
+        "Hi nerui, humanæ membraque mentis erunt:",
+        "Ecce oculata manus credens id quod videt. Ecce",
+        "Pulegium, antiquæ sobrietatis olus,",
+        "Quo turbam ostenso sedauerit Heraclitus,",
+        "Mulxerit & tumida seditione grauem."
+      ],
+      "text_ru": [
+        "«Не верь поспешно» (говорит Эпихарм), «и не будь невоздержан» —",
+        "вот нервы и члены человеческого разума.",
+        "Вот зрячая рука, верящая лишь тому, что видит. Вот",
+        "полей — трава древней трезвости,",
+        "которой, показав её, Гераклит усмирил толпу",
+        "и утихомирил её, отягощённую бурной смутой."
+      ],
+      "text_en": [
+        "\"Do not trust rashly\" (says Epicharmus); \"be not unsober\" —",
+        "these shall be the sinews and limbs of a human mind.",
+        "Behold the eyed hand, believing only what it sees. Behold",
+        "pennyroyal, the herb of ancient sobriety,",
+        "by showing which Heraclitus calmed the crowd,",
+        "and soothed it when heavy with swollen sedition."
+      ]
+    },
+    {
+      "id": "alc23",
+      "num": "14",
+      "fr": "Quid excessi? quid admisi? quid omisi?",
+      "ru": "В чём я преступил? Что делаю? Что упустил?",
+      "en": "Where have I overstepped? What am I doing? What have I omitted?",
+      "page": "23",
+      "group": "PRUD",
+      "group_fr": "Prudentia.",
+      "group_en": "Prudence",
+      "img": [
+        "alc23.jpg"
+      ],
+      "scans": [
+        "alc23.jpg"
+      ],
+      "text_fr": [
+        "Italicæ Samius sectæ celeberrimus autor",
+        "Ipse suum clausit carmine dogma breui.",
+        "Quò pretergressus? quid agis? quod omittis agendum?",
+        "Hanc rationem vrgens reddere quenque sibi.",
+        "Quod didicisse gruum volitantum ex agmine fertur,",
+        "Arreptum gestant quæ pedibus lapidem,",
+        "Ne cessent, neu transuersas mala flamina raptent.",
+        "Qua ratione hominum vita regenda fuit."
+      ],
+      "text_ru": [
+        "Самосец, славнейший основатель италийской школы,",
+        "сам заключил своё учение в кратком стихе:",
+        "«В чём я преступил? Что делаю? Какой долг оставляю невыполненным?» —",
+        "понуждая каждого требовать от себя такого отчёта.",
+        "Говорят, он научился этому у стаи летящих журавлей,",
+        "которые несут в лапах схваченный камень,",
+        "чтобы не ослабевать и чтобы злые ветра не сносили их с пути, —",
+        "тем же способом надлежало управлять и жизнью людей."
+      ],
+      "text_en": [
+        "The Samian, most famous founder of the Italic sect,",
+        "himself enclosed his teaching in a brief verse:",
+        "'Where have I overstepped? What am I doing? What duty do I leave undone?'",
+        "urging each man to give this accounting to himself.",
+        "He is said to have learned this from the flock of flying cranes,",
+        "which carry a stone seized in their feet,",
+        "so that they do not flag, nor let ill winds sweep them off course —",
+        "by this same method human life ought to be governed."
+      ]
+    },
+    {
+      "id": "alc24",
+      "num": "15",
+      "fr": "Prudentes. Problema",
+      "ru": "Загадка благоразумных",
+      "en": "The problem of the prudent",
+      "page": "24",
+      "group": "PRUD",
+      "group_fr": "Prudentia.",
+      "group_en": "Prudence",
+      "img": [
+        "alc24.jpg"
+      ],
+      "scans": [
+        "alc24.jpg"
+      ],
+      "text_fr": [
+        "Iane bifrons, qui iam transacta, futuraque calles,",
+        "Quique retro, sannas (sicut & antè) vides,",
+        "Tot te cur oculis, tot fingunt vultibus? an quod",
+        "Circumspectum hominem forma fuisse docet?"
+      ],
+      "text_ru": [
+        "Янус двуликий, ведающий уже свершившееся и грядущее,",
+        "видящий насмешки позади так же, как и спереди, —",
+        "зачем тебя изображают с столькими глазами, столькими лицами? Не потому ли,",
+        "что этот облик учит, что благоразумный человек должен быть осмотрителен?"
+      ],
+      "text_en": [
+        "Janus, two-faced, who know well both the past and the future,",
+        "and who, looking back, see mockeries just as you see them ahead —",
+        "why do they fashion you with so many eyes, so many faces? Is it because",
+        "this form teaches that a prudent man must be circumspect?"
+      ]
+    },
+    {
+      "id": "alc25",
+      "num": "16",
+      "fr": "Prudens, magis quàm loquax",
+      "ru": "Благоразумный, более чем болтливый",
+      "en": "Prudent, rather than talkative",
+      "page": "25",
+      "group": "PRUD",
+      "group_fr": "Prudentia.",
+      "group_en": "Prudence",
+      "img": [
+        "alc25.jpg"
+      ],
+      "scans": [
+        "alc25.jpg"
+      ],
+      "text_fr": [
+        "Noctua Cecropijs insignia præstat Athenis,",
+        "Inter aues sani Noctua consilij.",
+        "Armiferæ meritò obsequijs sacrata Mineruæ est,",
+        "Garrula quo cornix cesserat antè loco."
+      ],
+      "text_ru": [
+        "Сова даёт герб Кекропийским Афинам,",
+        "сова — среди птиц птица здравого совета.",
+        "По заслугам она посвящена служению вооружённой Минерве,",
+        "на том месте, которое прежде занимала болтливая ворона."
+      ],
+      "text_en": [
+        "The owl furnishes the emblem of Cecropian Athens,",
+        "the owl, among birds, a bird of sound counsel.",
+        "Rightly is she consecrated to the service of armed Minerva,",
+        "in the place the chattering crow had held before."
       ]
     }
   ]
