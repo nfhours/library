@@ -95,7 +95,7 @@
 .ic-book-card{display:flex;flex-direction:column;align-items:flex-start;
   background:var(--sheet);border:1px solid var(--rule);border-radius:16px;
   box-shadow:0 18px 40px -22px rgba(70,46,20,.4), inset 0 0 0 1px rgba(255,255,255,.4);
-  padding:40px 44px 36px;cursor:pointer;transition:transform .3s ease,box-shadow .3s ease}
+  padding:44px 48px;cursor:pointer;transition:transform .3s ease,box-shadow .3s ease}
 .ic-book-head{display:flex;flex-direction:column;gap:12px}
 .ic-book-title{font-family:var(--old);font-weight:500;font-size:1.8em;line-height:1.25;color:var(--ink)}
 .ic-book-author{color:var(--accent);font-size:.86em;letter-spacing:.01em}
@@ -304,7 +304,7 @@
   .ic{font-size:18px}
   .ic-wrap{padding:32px 20px 64px}
   .ic-title{font-size:2em}
-  .ic-book-card{padding:28px 26px 24px}
+  .ic-book-card{padding:32px 28px}
   .ic-booklist{gap:22px}
   .ic-row-item{grid-template-columns:3.6rem 1fr;gap:10px}
   .ic-sort{margin-left:0}
