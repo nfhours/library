@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "51";
+  var APP_VER = "52";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -61,6 +61,7 @@
     prevArticle:  {ru:"Предыдущая статья", en:"Previous article"},
     nextArticle:  {ru:"Следующая статья", en:"Next article"},
     position:     {ru:"Часть {part}, с. {page}", en:"Part {part}, p. {page}"},
+    positionPage: {ru:"с. {page}", en:"p. {page}"},
     engravingAlt: {ru:"Гравюра: {title}", en:"Engraving: {title}"},
     figOf:        {ru:"{k} из {n}", en:"{k} of {n}"},
     captionLbl:   {ru:"Подпись на гравюре:", en:"Caption on the engraving:"},
@@ -645,7 +646,7 @@
     var s=seq(book), i=s.indexOf(it);
     if(i<0){ s=book.items; i=it.ord; }
     var prev=s[i-1], next=s[i+1];
-    var pos=t("position",{part:it.part,page:it.page});
+    var pos = it.part ? t("position",{part:it.part,page:it.page}) : t("positionPage",{page:it.page});
     var imgBase = BASE+"books/"+book.slug+"/img/";
     var pagesBase = BASE+"books/"+book.slug+"/pages/";
     var imgs=(it.img||[]).map(function(src,k){
