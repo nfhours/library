@@ -232,8 +232,12 @@
 /* раздел «Оригинал»: скан / текст */
 .ic-orig-body{padding-bottom:6px}
 .ic-orig-toggle{display:flex;gap:6px;margin-bottom:16px}
-.ic-ov-b{font-size:.78em;padding:6px 14px;border:1px solid var(--rule);border-radius:2px;background:var(--sheet);cursor:pointer;color:var(--soft)}
-.ic-ov-b[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+/* Same underline-only toggle language as the filter chips and RU/EN switch —
+   this view-mode toggle (used by both the scan/text switch on an article
+   and the list/book switch on a Grosson plate) was still the old filled-pill
+   style. */
+.ic-ov-b{font-size:.85em;letter-spacing:.02em;padding:4px 0;margin-right:18px;border:0;background:none;cursor:pointer;color:var(--soft);box-shadow:inset 0 -1px 0 transparent;transition:box-shadow .2s,color .2s}
+.ic-ov-b[aria-pressed="true"]{background:none;color:var(--ink);box-shadow:inset 0 -1px 0 var(--accent)}
 .ic-scan-frame{position:relative;background:var(--sheet);border:1px solid var(--rule);border-radius:2px;padding:14px;cursor:zoom-in}
 .ic-scan-frame img{margin:0 auto;width:100%;height:auto}
 .ic-scan-zoom{position:absolute;top:10px;right:10px;width:34px;height:34px;border-radius:50%;border:1px solid var(--rule);
