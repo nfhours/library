@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "44";
+  var APP_VER = "45";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -81,6 +81,8 @@
     close:        {ru:"Закрыть", en:"Close"},
     langName:     {ru:"RU", en:"EN"},
     aboutLink:    {ru:"О книге", en:"About the book"},
+    moreInfo:     {ru:"Подробнее", en:"More info"},
+    lessInfo:     {ru:"Свернуть", en:"Less info"},
     aboutTitle:   {ru:"О книге", en:"About the book"},
     aboutPartial: {ru:"Перевод ещё не завершён — вот что готово на сегодня.", en:"The translation is not finished yet - here is what's ready so far."},
     plateLink:    {ru:"Смотреть таблицу целиком", en:"View the full plate"},
@@ -391,9 +393,14 @@
         var cards = list.map(function(b,i){
           var m = metas[i]; if(!m) return "";
           return '<li class="ic-book-card" tabindex="0" role="link" data-slug="'+esc(b.slug)+'">'+
-            '<h2 class="ic-book-title">'+esc(bt(m.title))+'</h2>'+
-            (m.author?'<p class="ic-book-author">'+esc(m.author)+(m.year?", "+m.year:"")+'</p>':"")+
-            (m.subtitle?'<p class="ic-book-sub">'+esc(bt(m.subtitle))+'</p>':"")+
+            '<div class="ic-book-head">'+
+              '<h2 class="ic-book-title">'+esc(bt(m.title))+'</h2>'+
+              (m.author?'<p class="ic-book-author">'+esc(m.author)+(m.year?", "+m.year:"")+'</p>':"")+
+            '</div>'+
+            (m.subtitle?
+              '<button type="button" class="ic-book-more" aria-expanded="false">'+esc(t("moreInfo"))+'</button>'+
+              '<div class="ic-book-more-wrap"><p class="ic-book-sub">'+esc(bt(m.subtitle))+'</p></div>'
+            : "")+
           '</li>';
         }).join("");
         root.innerHTML =
@@ -405,8 +412,25 @@
           '</div>';
         bindLangSwitch(root);
         root.querySelectorAll(".ic-book-card").forEach(function(c){
-          c.addEventListener("click",function(){ location.hash = "#/"+c.getAttribute("data-slug"); });
-          c.addEventListener("keydown",function(e){ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); location.hash = "#/"+c.getAttribute("data-slug"); } });
+          c.addEventListener("click",function(e){
+            if(e.target.closest(".ic-book-more")) return;
+            location.hash = "#/"+c.getAttribute("data-slug");
+          });
+          c.addEventListener("keydown",function(e){
+            if((e.key==="Enter"||e.key===" ") && !e.target.closest(".ic-book-more")){ e.preventDefault(); location.hash = "#/"+c.getAttribute("data-slug"); }
+          });
+        });
+        // The "more info" toggle only expands/collapses the longer
+        // description in place — it must not also trigger the card's own
+        // click handler above, which is what opens the book.
+        root.querySelectorAll(".ic-book-more").forEach(function(btn){
+          btn.addEventListener("click",function(e){
+            e.stopPropagation();
+            var open = btn.getAttribute("aria-expanded")==="true";
+            btn.setAttribute("aria-expanded", String(!open));
+            btn.textContent = t(open?"moreInfo":"lessInfo");
+            btn.closest(".ic-book-card").classList.toggle("is-open", !open);
+          });
         });
         nudgeRepaint();
       });
