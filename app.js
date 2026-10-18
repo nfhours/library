@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "28";
+  var APP_VER = "29";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -243,23 +243,42 @@
   window.addEventListener("hashchange", route);
   loadLibrary(function(){ route(); });
 
-  // Hide the sticky search/filter bar (or article nav) while scrolling down,
-  // bring it back on scroll up — frees up the screen on a long index list.
-  // Queries fresh each tick since renderIndex()/renderCard() replace root.innerHTML.
+  // Collapse the sticky search/filter bar (or article nav) smoothly as the
+  // visitor scrolls down, so the list genuinely slides up to take its place
+  // — not just a hidden overlay with a gap left behind. Progress tracks
+  // scrollY continuously (not a hide/show threshold), and an eased current
+  // value chases that target every frame, which is what gives the list its
+  // slight catch-up lag instead of snapping.
   (function(){
-    var lastY = window.scrollY, ticking = false;
-    function update(){
-      ticking = false;
-      var bar = root.querySelector(".ic-controls, .ic-nav");
-      if(!bar) { lastY = window.scrollY; return; }
-      var y = window.scrollY, delta = y - lastY;
-      if(y > 80 && delta > 4) bar.classList.add("ic-hide");
-      else if(delta < -4 || y < 80) bar.classList.remove("ic-hide");
-      lastY = y;
+    var current = 0, target = 0, naturalHeight = 0, measuredFor = null;
+    var START = 30, RANGE = 130, EASE = 0.18;
+
+    function measure(bar){
+      if(bar === measuredFor) return;
+      measuredFor = bar;
+      bar.style.maxHeight = "none";
+      naturalHeight = bar.getBoundingClientRect().height;
+      current = 0; target = 0;
+      bar.style.maxHeight = naturalHeight + "px";
     }
-    window.addEventListener("scroll", function(){
-      if(!ticking){ ticking = true; requestAnimationFrame(update); }
-    }, {passive:true});
+
+    function tick(){
+      var bar = root.querySelector(".ic-controls, .ic-nav");
+      if(bar){
+        measure(bar);
+        target = Math.min(1, Math.max(0, (window.scrollY - START) / RANGE));
+        current += (target - current) * EASE;
+        if(Math.abs(target - current) < 0.001) current = target;
+        bar.style.maxHeight = (naturalHeight * (1 - current)) + "px";
+        bar.style.opacity = String(1 - current * 1.15 > 0 ? 1 - current * 1.15 : 0);
+        bar.style.overflow = "hidden";
+        bar.style.pointerEvents = current > 0.5 ? "none" : "";
+      } else {
+        measuredFor = null;
+      }
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
   })();
 
   function go(book, id){ state.scroll = window.scrollY; location.hash = forcedBook ? "#/"+id : "#/"+book.slug+"/"+id; }
