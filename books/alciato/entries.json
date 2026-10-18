@@ -3011,6 +3011,129 @@
         "Under the illustrious name Circe is meant a courtesan,",
         "and that whoever loves loses the reason of his mind."
       ]
+    },
+    {
+      "id": "alc85",
+      "num": "74",
+      "fr": "Amuletum Veneris",
+      "ru": "Амулет Венеры",
+      "en": "The amulet of Venus",
+      "page": "85",
+      "group": "LUX",
+      "group_fr": "Luxuria.",
+      "group_en": "Lust",
+      "img": [
+        "alc85.jpg"
+      ],
+      "scans": [
+        "alc85.jpg"
+      ],
+      "text_fr": [
+        "Inguina dente fero suffossum Cypris Adonin",
+        "Lactucæ foliis condidit exanimem.",
+        "Hinc genitali aruo tantum lactuca resistit,",
+        "Quantum eruca salax vix stimulare potest."
+      ],
+      "text_ru": [
+        "Киприда похоронила бездыханного Адониса, чьи",
+        "чресла были пронзены свирепым клыком, под листьями латука.",
+        "Оттого латук противостоит детородному полю настолько,",
+        "насколько похотливая гусеница едва ли способна его возбудить."
+      ],
+      "text_en": [
+        "Cypris [Venus] buried lifeless Adonis, his groin",
+        "pierced by a savage tusk, beneath lettuce leaves.",
+        "Hence lettuce resists the generative field as much",
+        "as the lustful caterpillar can scarcely stir it."
+      ]
+    },
+    {
+      "id": "alc86",
+      "num": "75",
+      "fr": "Inuiolabiles telo Cupidinis",
+      "ru": "Неуязвимые для стрелы Купидона",
+      "en": "Invulnerable to Cupid's dart",
+      "page": "86",
+      "group": "LUX",
+      "group_fr": "Luxuria.",
+      "group_en": "Lust",
+      "img": [
+        "alc86.jpg"
+      ],
+      "scans": [
+        "alc86.jpg"
+      ],
+      "text_fr": [
+        "Ne dirus te vincat amor, neu fœmina mentem",
+        "Diripiat magicis artibus vlla tuam:",
+        "Bacchica auis præsto tibi motacilla paretur,",
+        "Quam quadriradiam circuli in orbe loces:",
+        "Ore crucem & cauda, & geminis vt cōplicet alis,",
+        "Tale amuletum carminis omnis erit.",
+        "Dicitur hoc Veneris signo Pagasæus Iason",
+        "Phasiacis lædi non potuisse dolis."
+      ],
+      "text_ru": [
+        "Чтобы свирепая любовь не одолела тебя, и никакая женщина",
+        "не растерзала твой разум магическими искусствами:",
+        "пусть будет добыта для тебя вакхическая птица, трясогузка,",
+        "которую ты должен поместить в четырёхспицевый круг,",
+        "так чтобы клювом и хвостом, и сложенными двумя крыльями она образовала крест, —",
+        "таков будет амулет против всякого заклинания.",
+        "Говорят, что этим знаком Венеры пагасейский Ясон",
+        "не мог быть поражён фасийскими чарами."
+      ],
+      "text_en": [
+        "Lest savage love conquer you, nor any woman tear apart",
+        "your mind by magical arts:",
+        "let the Bacchic bird, the wagtail, be procured for you,",
+        "which you should place within the four-spoked circle,",
+        "so that it forms a cross with beak and tail, and with its twin wings folded —",
+        "such will be an amulet against every spell.",
+        "It is said that by this sign of Venus, Pagasean Jason",
+        "could not be harmed by the deceits of Phasian magic."
+      ]
+    },
+    {
+      "id": "alc87",
+      "num": "76",
+      "fr": "Lasciuia. Problema",
+      "ru": "Распутство. Задача",
+      "en": "Wantonness. A problem",
+      "page": "87",
+      "group": "LUX",
+      "group_fr": "Luxuria.",
+      "group_en": "Lust",
+      "img": [
+        "alc87.jpg"
+      ],
+      "scans": [
+        "alc87.jpg"
+      ],
+      "text_fr": [
+        "Delicias, & molliciem mus creditur albus",
+        "Arguere, at ratio non sat aperta mihi est.",
+        "An quòd ei natura salax, & multa libido est?",
+        "Ornat Romanas an quia pelle nurus?",
+        "Sarmaticum murem vocitant plerique Zibellum,",
+        "Et celebris suaui est vnguine muscus Arabs."
+      ],
+      "text_ru": [
+        "Полагают, что белая мышь служит знаком",
+        "неги и изнеженности, но причина мне не вполне ясна.",
+        "Не потому ли, что природа его похотлива и велико его вожделение?",
+        "Или потому, что он украшает мехом римских невест?",
+        "Сарматскую мышь многие называют «Zibellum» [соболь],",
+        "и славится сладким благовонием аравийский мускус."
+      ],
+      "text_en": [
+        "The white mouse is believed to betoken",
+        "delicacy and softness, but the reason is not quite clear to me.",
+        "Is it because its nature is lustful, and its desire great?",
+        "Or because it adorns Roman brides with its fur?",
+        "Most people call the Sarmatian mouse 'Zibellum' [sable],",
+        "and the Arabian musk is famous for its sweet scent."
+      ]
     }
   ]
 }
