@@ -2841,6 +2841,94 @@
         "The caterpillar is lustful, and the he-goat is a judge of desire,",
         "and satyrs are always wont to love the nymphs."
       ]
+    },
+    {
+      "id": "alc81",
+      "num": "70",
+      "fr": "Luxuriosorum opes",
+      "ru": "Богатства похотливых",
+      "en": "The riches of the licentious",
+      "page": "81",
+      "group": "LUX",
+      "group_fr": "Luxuria.",
+      "group_en": "Lust",
+      "img": [
+        "alc81.jpg"
+      ],
+      "scans": [
+        "alc81.jpg"
+      ],
+      "text_fr": [
+        "Rupibus aëreis, summiq; crepidine saxi",
+        "Immites fructus ficus acerba parit,",
+        "Quos corui comedūt, quos deuorat improba cornix,",
+        "Qui nihil humanæ commoditatis habent.",
+        "Sic fatuorum opibus parasiti, & scorta fruuntur:",
+        "Et nulla iustos vtilitate iuuant."
+      ],
+      "text_ru": [
+        "На воздушных скалах, на самом краю высокого камня,",
+        "дикий инжир рождает горькие, неспелые плоды,",
+        "которые поедают вороны, которые пожирает бесстыдная ворона, —",
+        "плоды, не приносящие никакой пользы человеку.",
+        "Так богатствами глупцов пользуются приживалы и блудницы:",
+        "и никакой пользой они не помогают честным людям."
+      ],
+      "text_en": [
+        "On airy cliffs, at the very edge of the high rock,",
+        "the bitter wild fig bears unripe fruit,",
+        "which ravens eat, which the shameless crow devours,",
+        "fruits that offer no human benefit at all.",
+        "So parasites and harlots enjoy the wealth of fools:",
+        "and they help honest men with no benefit at all."
+      ]
+    },
+    {
+      "id": "alc82",
+      "num": "71",
+      "fr": "Tumulus meretricis",
+      "ru": "Гробница блудницы",
+      "en": "The tomb of a courtesan",
+      "page": "82",
+      "group": "LUX",
+      "group_fr": "Luxuria.",
+      "group_en": "Lust",
+      "img": [
+        "alc82.jpg"
+      ],
+      "scans": [
+        "alc82.jpg"
+      ],
+      "text_fr": [
+        "Quis tumulus? Cuia vrna? Ephyrææ est Laidos.",
+        "Erubuit tantum perdere Parca decus?",
+        "Nulla fuit tum forma illam iam carpserat ætas,",
+        "Iam speculum Veneri cauta dicarat anus.",
+        "Quid scalptus sibi vult aries, quem parte leæna",
+        "Vnguibus apprehensum posteriore tenet?",
+        "Non aliter captos quòd & ipsa teneret amantes,",
+        "Vir gregis est aries, clune tenetur amans."
+      ],
+      "text_ru": [
+        "«Чья это гробница? Чья урна?» — «Коринфской Лаиды.",
+        "Ах, не постыдилась ли Судьба погубить такую красу?»",
+        "«Красоты тогда уже не было — её уже подточил возраст;",
+        "осторожная старуха уже посвятила своё зеркало Венере».",
+        "«Что означает изваянный баран, которого львица",
+        "держит, схватив когтями за заднюю часть?»",
+        "«Что и она так же держала пойманных любовников —",
+        "баран есть вожак стада, а любовник удерживается за бедро»."
+      ],
+      "text_en": [
+        "'Whose tomb is this? Whose urn?' 'It is Corinthian Lais's.",
+        "Ah, did not Fate blush to destroy such beauty?'",
+        "'There was then no beauty left — age had already worn her down;",
+        "the cautious old woman had already dedicated her mirror to Venus.'",
+        "'What does the carved ram mean, which the lioness",
+        "holds, seized by its hindquarters in her claws?'",
+        "'That she too held her captured lovers in just that way —",
+        "the ram is the leader of the flock, the lover is held by the haunch.'"
+      ]
     }
   ]
 }
