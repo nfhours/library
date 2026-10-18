@@ -5076,6 +5076,237 @@
         "And since it befits maidens to stay at home and be silent,",
         "he placed such a sign beneath my feet.'"
       ]
+    },
+    {
+      "id": "alc211",
+      "num": "193",
+      "fr": "In pudoris statuam",
+      "ru": "О статуе Стыдливости",
+      "en": "On a statue of Modesty",
+      "page": "211",
+      "group": "MATR",
+      "group_fr": "Matrimonium.",
+      "group_en": "Marriage",
+      "img": [
+        "alc211.jpg"
+      ],
+      "scans": [
+        "alc211.jpg"
+      ],
+      "text_fr": [
+        "Penelope desponsa sequi cupiebat Vlyssem,",
+        "Ni secum Icarius mallet habere pater.",
+        "Ille Ithacam, hic offert Sparten, manet anxia virgo.",
+        "Hinc pater, inde viri mutuus viget amor:",
+        "Ergo sedens velat vultus, obnubit ocellos:",
+        "Ista verecundi signa pudoris erant.",
+        "Quæis sibi prælatum Icarius cognouit Vlyssem;",
+        "Hocq́ pudoris aram schemate constituit."
+      ],
+      "text_ru": [
+        "Пенелопа, обручённая, желала последовать за Улиссом,",
+        "если бы отец её Икарий не предпочёл удержать её при себе.",
+        "Тот предлагает Итаку, этот — Спарту; дева пребывает в тревоге.",
+        "С одной стороны — отец, с другой — равная любовь к мужу.",
+        "Итак, сидя, она закрывает лицо, закутывает глаза:",
+        "это были знаки стыдливой скромности.",
+        "По этому Икарий понял, что она предпочла ему Улисса;",
+        "и в таком облике он воздвиг алтарь Стыдливости."
+      ],
+      "text_en": [
+        "Penelope, betrothed, wished to follow Ulysses,",
+        "had her father Icarius not preferred to keep her with him.",
+        "The one offers Ithaca, the other Sparta; the maiden remains anxious.",
+        "On one side, her father; on the other, mutual love for her husband:",
+        "so, sitting, she veils her face, covers her eyes:",
+        "these were the signs of modest shame.",
+        "By this Icarius knew that she had preferred Ulysses to him;",
+        "and in this form he set up an altar of Modesty."
+      ]
+    },
+    {
+      "id": "alc212",
+      "num": "194",
+      "fr": "Nupta contagioso",
+      "ru": "Невеста, выданная за заразного",
+      "en": "A bride married to a diseased man",
+      "page": "212",
+      "group": "MATR",
+      "group_fr": "Matrimonium.",
+      "group_en": "Marriage",
+      "img": [
+        "alc212.jpg"
+      ],
+      "scans": [
+        "alc212.jpg"
+      ],
+      "text_fr": [
+        "Dij meliora pijs (Mezenti) cur age sic me",
+        "Compellas? emptus quòd tibi dote gener.",
+        "Gallica, quem scabies dira & mentagra perurit:",
+        "Hoc est quidnam aliud (dic mihi sæue pater)",
+        "Corpora corporibus, quàm iungere mortua viuis,",
+        "Efferaq́ Etrusci facta nouare ducis?"
+      ],
+      "text_ru": [
+        "Да пошлют боги пиям лучшую долю, Мезенций: зачем же ты так",
+        "меня понуждаешь? Потому что за приданое ты купил себе зятя,",
+        "которого терзает ужасная французская парша и ментагра.",
+        "Что же это иное, скажи мне, жестокий отец,",
+        "как не соединять мёртвые тела с живыми,",
+        "и обновлять свирепые деяния этрусского вождя?"
+      ],
+      "text_en": [
+        "May the gods grant the pious better fates, Mezentius: why then do you",
+        "so compel me? Because with a dowry you have bought yourself a son-in-law",
+        "whom dire French scab and face-rot consume.",
+        "What else is this, tell me, cruel father,",
+        "than to bind dead bodies to the living,",
+        "and renew the savage deeds of the Etruscan tyrant?"
+      ]
+    },
+    {
+      "id": "alc213",
+      "num": "195",
+      "fr": "Arbores. Cupressus.",
+      "ru": "Деревья. Кипарис",
+      "en": "Trees. The Cypress",
+      "page": "213",
+      "group": "ARBOR",
+      "group_fr": "Arbores.",
+      "group_en": "Trees",
+      "img": [
+        "alc213.jpg"
+      ],
+      "scans": [
+        "alc213.jpg"
+      ],
+      "text_fr": [
+        "Indicat effigies metæ, nomenq́ Cupressi",
+        "Tractandos parili conditione suos.",
+        "ALIVD.",
+        "Funesta est arbor, procerum monumenta Cupressus,",
+        "Quale Apium plebis, comere fronde solet.",
+        "ALIVD.",
+        "Pulchra coma est, pulchro digestáq́ ordine frondes,",
+        "Sed fructus nullos hæc coma pulchra gerit."
+      ],
+      "text_ru": [
+        "Облик конуса и само имя Кипариса указывает,",
+        "что своих близких следует обходить в равном состоянии.",
+        "ДРУГОЕ.",
+        "Кипарис — древо погребальное, памятник знатных;",
+        "подобно тому как сельдерей обычно украшает могилы простого народа.",
+        "ДРУГОЕ.",
+        "Прекрасна его крона, и листва расположена в прекрасном порядке,",
+        "но эта прекрасная крона не несёт никаких плодов."
+      ],
+      "text_en": [
+        "The cone-like shape, and the very name of the Cypress,",
+        "signify that one's own kin should be treated on equal terms.",
+        "ANOTHER.",
+        "The Cypress is a mournful tree, the monument of the great,",
+        "just as celery commonly adorns the graves of the common folk.",
+        "ANOTHER.",
+        "Beautiful is its foliage, and its leaves arranged in beautiful order,",
+        "but this beautiful foliage bears no fruit at all."
+      ]
+    },
+    {
+      "id": "alc214",
+      "num": "196",
+      "fr": "Quercus",
+      "ru": "Дуб",
+      "en": "The Oak",
+      "page": "214",
+      "group": "ARBOR",
+      "group_fr": "Arbores.",
+      "group_en": "Trees",
+      "img": [
+        "alc214.jpg"
+      ],
+      "scans": [
+        "alc214.jpg"
+      ],
+      "text_fr": [
+        "Grata Ioui est quercus, qui nos seruatq́, fouetq́,",
+        "Seruanti ciuem querna corona datur.",
+        "ALIVD.",
+        "Glande aluit veteres, sola nunc proficit vmbra,",
+        "Sic quoque sic arbos officiosa Iouis."
+      ],
+      "text_ru": [
+        "Дуб угоден Юпитеру, ибо он нас хранит и лелеет;",
+        "тому, кто спас гражданина, дают дубовый венок.",
+        "ДРУГОЕ.",
+        "Желудем он некогда питал древних людей, ныне же полезен лишь тенью:",
+        "так и древо Юпитера — некогда щедрое услугами, ныне лишь тенью."
+      ],
+      "text_en": [
+        "The oak is pleasing to Jupiter, for it preserves and nurtures us;",
+        "to one who has saved a citizen's life, an oaken crown is given.",
+        "ANOTHER.",
+        "With its acorn it once nourished the ancients; now it avails only by its shade:",
+        "thus too, thus, the tree of Jove, once dutiful, now gives but shade."
+      ]
+    },
+    {
+      "id": "alc215",
+      "num": "197",
+      "fr": "Salix",
+      "ru": "Ива",
+      "en": "The Willow",
+      "page": "215",
+      "group": "ARBOR",
+      "group_fr": "Arbores.",
+      "group_en": "Trees",
+      "img": [
+        "alc215.jpg"
+      ],
+      "scans": [
+        "alc215.jpg"
+      ],
+      "text_fr": [
+        "Quòd fructu sperdens salicem vocitârit Homerus,",
+        "Cluterijs homines moribus assimilat."
+      ],
+      "text_ru": [
+        "То, что Гомер называл иву «теряющей плод»,",
+        "он уподобляет этим людей нравом подобных клитерийцам."
+      ],
+      "text_en": [
+        "That Homer called the willow 'fruit-losing' [barren],",
+        "he thereby likens to it men resembling the Cluterii in character."
+      ]
+    },
+    {
+      "id": "alc216",
+      "num": "198",
+      "fr": "Abies",
+      "ru": "Ель",
+      "en": "The Fir",
+      "page": "216",
+      "group": "ARBOR",
+      "group_fr": "Arbores.",
+      "group_en": "Trees",
+      "img": [
+        "alc216.jpg"
+      ],
+      "scans": [
+        "alc216.jpg"
+      ],
+      "text_fr": [
+        "Apta fretis abies in montibus editur altis:",
+        "Est & in aduersis maxima commoditas."
+      ],
+      "text_ru": [
+        "Ель, пригодная для постройки судов, вырастает на высоких горах:",
+        "и даже в неблагоприятных условиях заключена величайшая польза."
+      ],
+      "text_en": [
+        "The fir, fit for the seas, grows on high mountains:",
+        "and even in adverse conditions there lies the greatest benefit."
+      ]
     }
   ]
 }
