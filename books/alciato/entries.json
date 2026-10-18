@@ -3204,6 +3204,123 @@
         "Rise, then, and accustom your hands to hard labor,",
         "so that the coming hour of tomorrow may grant you your measured food."
       ]
+    },
+    {
+      "id": "alc90",
+      "num": "79",
+      "fr": "In facilè à virtute desciscentes",
+      "ru": "О тех, кто легко отступают от добродетели",
+      "en": "On those who easily fall away from virtue",
+      "page": "90",
+      "group": "DESID",
+      "group_fr": "Desidia.",
+      "group_en": "Sloth",
+      "img": [
+        "alc90.jpg"
+      ],
+      "scans": [
+        "alc90.jpg"
+      ],
+      "text_fr": [
+        "Parua velut limax, spreto Remora impete venti,",
+        "Remorumque ratem sistere sola potest.",
+        "Sic quosdam ingenio, et virtute ad sidera vectos,",
+        "Detinet in medio tramite, causa leuis:",
+        "Anxia lis veluti est: vel qui meretricius ardor",
+        "Egregiis iuuenes seuocat à studiis."
+      ],
+      "text_ru": [
+        "Как малая улитка-рыба (ремора), презрев напор ветра,",
+        "одна способна остановить корабль вместе с вёслами,",
+        "так некоторых, уносимых дарованием и доблестью к звёздам,",
+        "удерживает на полпути ничтожная причина:",
+        "таковы тревожная тяжба — или блудная страсть,",
+        "отвлекающая благородных юношей от славных занятий."
+      ],
+      "text_en": [
+        "Just as the tiny remora, scorning the force of the wind,",
+        "alone can halt a ship together with its oars,",
+        "so some trivial cause holds back, midway,",
+        "those borne toward the stars by talent and virtue:",
+        "such is anxious litigation — or the lustful passion",
+        "that calls noble young men away from their excellent studies."
+      ]
+    },
+    {
+      "id": "alc91",
+      "num": "80",
+      "fr": "Ignaui",
+      "ru": "Ленивцы",
+      "en": "The Idle",
+      "page": "91",
+      "group": "DESID",
+      "group_fr": "Desidia.",
+      "group_en": "Sloth",
+      "img": [
+        "alc91.jpg"
+      ],
+      "scans": [
+        "alc91.jpg"
+      ],
+      "text_fr": [
+        "Ignaui ardeolam stellarum effingere serui",
+        "Et studia, et mores fabula prisca fuit.",
+        "Quae famulum Asteriae volucris sumpsisse figuram:",
+        "Est commenta; fides sit penes historicos.",
+        "Degener hic veluti qui caeuet in aere falco est,",
+        "Dictus ab antiquis uatibus ardelio."
+      ],
+      "text_ru": [
+        "Старинное предание гласило, что ленивые слуги",
+        "обличьем и нравом уподобились звёздной цапле (ardeola),",
+        "приняв, как говорят, образ птицы — служанки Астерии:",
+        "это вымысел; пусть за достоверность отвечают историки.",
+        "Таков этот выродившийся, точно сокол, что праздно кружит в воздухе, —",
+        "прозванный древними поэтами «арделион» [суетливый бездельник]."
+      ],
+      "text_en": [
+        "It was an old fable that idle servants",
+        "took on, in pursuits and character, the shape of the star-heron (ardeola),",
+        "said to have assumed the form of Asteria's attendant bird:",
+        "this is a fiction; let the historians vouch for its truth.",
+        "Such a degenerate one is like a hawk that wheels idly in the air,",
+        "called by the ancient poets an 'ardelio' [a bustling do-nothing]."
+      ]
+    },
+    {
+      "id": "alc92",
+      "num": "81",
+      "fr": "Auaritia",
+      "ru": "Скупость",
+      "en": "Avarice",
+      "page": "92",
+      "group": "AVAR",
+      "group_fr": "Avaritia.",
+      "group_en": "Avarice",
+      "img": [
+        "alc92.jpg"
+      ],
+      "scans": [
+        "alc92.jpg"
+      ],
+      "text_fr": [
+        "Heu miser in medijs sitiens stat Tantalus vndis,",
+        "Et poma esuriens proxima, habere nequit.",
+        "Nomine mutato de te id dicetur auare,",
+        "Qui, quasi non habeas, non frueris quod habes."
+      ],
+      "text_ru": [
+        "Увы, несчастный Тантал стоит, томимый жаждой, посреди вод,",
+        "и, голодая, не может дотянуться до близких плодов.",
+        "Переменив лишь имя, это скажут о тебе, скупец,",
+        "который, как будто не имея, не пользуешься тем, что имеешь."
+      ],
+      "text_en": [
+        "Alas, wretched Tantalus stands thirsting amid the waters,",
+        "and, hungry, cannot reach the fruit so near at hand.",
+        "With only the name changed, the same will be said of you, miser,",
+        "who, as though you had nothing, do not enjoy what you have."
+      ]
     }
   ]
 }
