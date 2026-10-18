@@ -1882,6 +1882,474 @@
         "The cause lies hidden in nature's secrets. Let this bird",
         "be the sure token of pure chastity."
       ]
+    },
+    {
+      "id": "alc56",
+      "num": "45",
+      "fr": "In victoriam dolo partam",
+      "ru": "На победу, добытую обманом",
+      "en": "On a victory obtained by deceit",
+      "page": "56",
+      "group": "PERF",
+      "group_fr": "Vitia. Perfidia.",
+      "group_en": "Vices. Treachery",
+      "img": [
+        "alc56.jpg"
+      ],
+      "scans": [
+        "alc56.jpg"
+      ],
+      "text_fr": [
+        "Aiacis tumulum lachrymis ego perluo virtus.",
+        "Heu misera albentes dilacerata comas.",
+        "Scilicet hoc restabat adhuc, vt iudice Græco",
+        "Vincerer: & causa stet potiore dolus."
+      ],
+      "text_ru": [
+        "Я, Доблесть, омываю слезами курган Аякса,",
+        "несчастная, с растерзанными седыми волосами.",
+        "Вот ещё чего недоставало: быть побеждённой",
+        "перед греческим судьёй, и чтобы обман одержал верх с более сильным делом."
+      ],
+      "text_en": [
+        "I, Virtue, wash the tomb of Ajax with my tears,",
+        "wretched, my white hair torn apart.",
+        "This indeed still remained, that before a Greek judge",
+        "I should be defeated, and deceit prevail with the stronger case."
+      ]
+    },
+    {
+      "id": "alc57",
+      "num": "46",
+      "fr": "In fraudulentos",
+      "ru": "Против обманщиков",
+      "en": "Against the deceitful",
+      "page": "57",
+      "group": "PERF",
+      "group_fr": "Vitia. Perfidia.",
+      "group_en": "Vices. Treachery",
+      "img": [
+        "alc57.jpg"
+      ],
+      "scans": [
+        "alc57.jpg"
+      ],
+      "text_fr": [
+        "Parua lacerta, atris stellatus corpora guttis",
+        "Stellio, qui latêbras, & caua busta colit,",
+        "Inuidiæ, prauiq; doli fert symbola pictus.",
+        "Heu nimiùm nuribus cognita zelotypis.",
+        "Nam turpi obtegitur faciem lentigine quisquis,",
+        "Sit quibus immersus Stellio, vina bibat.",
+        "Hinc vindicta frequens decepta pellice vino,",
+        "Quam formæ amisso flore relinquit amans."
+      ],
+      "text_ru": [
+        "Маленькая ящерица, тело которой усеяно чёрными пятнами,",
+        "геккон, обитающий в укрытиях и пустых гробницах,",
+        "несёт в своей окраске эмблему зависти и коварного обмана.",
+        "Увы, слишком хорошо знакомую ревнивым молодым жёнам.",
+        "Ибо у всякого, кто выпьет вино, в котором был утоплен",
+        "геккон, лицо покрывается безобразными пятнами.",
+        "Отсюда частая месть, когда любовницу обманывают таким вином,",
+        "которую влюблённый покидает, как только утрачен цвет её красоты."
+      ],
+      "text_en": [
+        "The small lizard, its body starred with black spots,",
+        "the gecko, which dwells in hiding places and hollow tombs,",
+        "bears, in its markings, the emblem of envy and crooked deceit.",
+        "Alas, all too well known to jealous young wives.",
+        "For whoever drinks wine in which a gecko has been steeped",
+        "has their face disfigured with ugly blotches.",
+        "Hence frequent vengeance, when a mistress is tricked by such wine,",
+        "whom her lover abandons once the flower of her beauty is lost."
+      ]
+    },
+    {
+      "id": "alc58",
+      "num": "47",
+      "fr": "Dolus in suos",
+      "ru": "Обман против своих",
+      "en": "Treachery against one's own",
+      "page": "58",
+      "group": "PERF",
+      "group_fr": "Vitia. Perfidia.",
+      "group_en": "Vices. Treachery",
+      "img": [
+        "alc58.jpg"
+      ],
+      "scans": [
+        "alc58.jpg"
+      ],
+      "text_fr": [
+        "Altilis allectator anas, & cærula pennis",
+        "Adsueta ad dominos ire redire suos.",
+        "Congeneres cernens volitare per aëra turmas",
+        "Garrit: in illarum se recipitq; gregem,",
+        "Prætensa incautas donec sub retia ducat.",
+        "Obstrepitant captæ, conscia at ipsa silet.",
+        "Perfida cognato se sanguine polluit ales,",
+        "Officiosa aliis, exitiosa suis."
+      ],
+      "text_ru": [
+        "Откормленная приманная утка, с сизо-голубыми перьями,",
+        "приучена уходить и возвращаться к своим хозяевам.",
+        "Видя стаи сородичей, летящих по воздуху,",
+        "она подаёт голос и присоединяется к их стае,",
+        "пока не заведёт неосторожных под расставленные сети.",
+        "Пойманные кричат, но сама виновница молчит.",
+        "Вероломная птица пятнает себя кровью сородичей,",
+        "полезная чужим, губительная своим."
+      ],
+      "text_en": [
+        "The fattened decoy duck, with its blue-grey feathers,",
+        "is trained to go and return to its masters.",
+        "Seeing flocks of its own kind flying through the air,",
+        "it calls out, and joins itself to their company,",
+        "until it leads the unwary under the spread nets.",
+        "The captured birds clamor, but the guilty one itself stays silent.",
+        "The treacherous bird defiles itself with kindred blood,",
+        "helpful to others, but fatal to its own."
+      ]
+    },
+    {
+      "id": "alc59",
+      "num": "48",
+      "fr": "Maledicentia",
+      "ru": "Злоязычие",
+      "en": "Slander",
+      "page": "59",
+      "group": "PERF",
+      "group_fr": "Vitia. Perfidia.",
+      "group_en": "Vices. Treachery",
+      "img": [
+        "alc59.jpg"
+      ],
+      "scans": [
+        "alc59.jpg"
+      ],
+      "text_fr": [
+        "Archilochi tumulo insculptas de marmore vespas",
+        "Esse ferunt, linguæ certa sigilla malæ."
+      ],
+      "text_ru": [
+        "Говорят, что на мраморе гробницы Архилоха высечены осы —",
+        "верные знаки злого языка."
+      ],
+      "text_en": [
+        "They say that wasps are carved in marble upon the tomb of Archilochus —",
+        "sure emblems of an evil tongue."
+      ]
+    },
+    {
+      "id": "alc60",
+      "num": "49",
+      "fr": "In receptatores sicariorum",
+      "ru": "Против укрывателей убийц",
+      "en": "Against harborers of murderers",
+      "page": "60",
+      "group": "PERF",
+      "group_fr": "Vitia. Perfidia.",
+      "group_en": "Vices. Treachery",
+      "img": [
+        "alc60.jpg"
+      ],
+      "scans": [
+        "alc60.jpg"
+      ],
+      "text_fr": [
+        "Latronum furumq; manus, tibi sæua per vrbem",
+        "It comes: & diris cincta cohors gladijs.",
+        "Atque ita te mentis generosum prodige censes,",
+        "Quòd tua complures allicit olla malos.",
+        "En nouus Actæon, qui postquàm cornua sumpsit,",
+        "In prædam canibus se dedit ipse suis."
+      ],
+      "text_ru": [
+        "Шайка разбойников и воров, зловещая свита, сопровождает",
+        "тебя по городу — отряд, опоясанный страшными мечами.",
+        "И так ты, расточитель, мнишь себя благородным духом,",
+        "оттого что твой котёл манит множество злодеев.",
+        "Вот новый Актеон, который, обретя рога,",
+        "сам отдал себя в добычу собственным псам."
+      ],
+      "text_en": [
+        "A band of robbers and thieves, a sinister company,",
+        "goes with you through the city, a troop girded with grim swords.",
+        "And thus, prodigal, you think yourself noble-minded,",
+        "because your pot lures many evil men.",
+        "Behold a new Actaeon, who, after he took on horns,",
+        "gave himself as prey to his own dogs."
+      ]
+    },
+    {
+      "id": "alc61",
+      "num": "50",
+      "fr": "In adulatores",
+      "ru": "Против льстецов",
+      "en": "Against flatterers",
+      "page": "61",
+      "group": "PERF",
+      "group_fr": "Vitia. Perfidia.",
+      "group_en": "Vices. Treachery",
+      "img": [
+        "alc61.jpg"
+      ],
+      "scans": [
+        "alc61.jpg"
+      ],
+      "text_fr": [
+        "Semper hiat, semper tenuem qua vescitur auram,",
+        "Reciprocat Chamæleon,",
+        "Et mutat faciem, varios sumitq; colores,",
+        "Præter rubrum, vel candidum.",
+        "Sic & Adulator populari vescitur aura,",
+        "Hiansq; cuncta deuorat.",
+        "Et solùm mores imitatur principis atros,",
+        "Albi, & pudici nescius."
+      ],
+      "text_ru": [
+        "Всегда разинутый, всегда вдыхая и выдыхая тонкий",
+        "воздух, которым питается, хамелеон",
+        "меняет лицо и принимает разные цвета,",
+        "кроме красного или белого.",
+        "Так и льстец питается благосклонностью толпы",
+        "и, разинув рот, пожирает всё.",
+        "И подражает он лишь тёмным нравам государя,",
+        "не ведая ничего о чистом и целомудренном."
+      ],
+      "text_en": [
+        "Always gaping, always drawing in and out the thin",
+        "air on which it feeds, the chameleon",
+        "changes its face, and takes on various colors,",
+        "except red or white.",
+        "So too the flatterer feeds on popular breath,",
+        "and, gaping, devours everything.",
+        "And he imitates only the dark habits of his prince,",
+        "knowing nothing of what is pure and chaste."
+      ]
+    },
+    {
+      "id": "alc62",
+      "num": "51",
+      "fr": "Ei qui semel sua prodegerit, aliena credi non oportere",
+      "ru": "Тому, кто растратил своё, нельзя доверять чужое",
+      "en": "One who has squandered his own should not be trusted with another's",
+      "page": "62",
+      "group": "PERF",
+      "group_fr": "Vitia. Perfidia.",
+      "group_en": "Vices. Treachery",
+      "img": [
+        "alc62.jpg"
+      ],
+      "scans": [
+        "alc62.jpg"
+      ],
+      "text_fr": [
+        "Colchidos in gremio nidum quid congeris? eheu",
+        "Nescia cur pullos tam malè credis aui?",
+        "Dira parens Medæa suos sæuissima natos",
+        "Perdidit, & speras parcat vt illa tuis?"
+      ],
+      "text_ru": [
+        "Зачем ты вьёшь гнездо на груди колхидянки? Увы,",
+        "неразумная птица, зачем ты так дурно доверяешь ей своих птенцов?",
+        "Та страшная мать Медея, свирепейшая, погубила",
+        "собственных детей — и ты надеешься, что она пощадит твоих?"
+      ],
+      "text_en": [
+        "Why do you build your nest in the bosom of the Colchian woman? Alas,",
+        "foolish bird, why do you so wrongly entrust your chicks to her?",
+        "That dreadful mother Medea, most savage, destroyed",
+        "her own children — and do you hope that she will spare yours?"
+      ]
+    },
+    {
+      "id": "alc63",
+      "num": "52",
+      "fr": "Temeritas",
+      "ru": "Безрассудство",
+      "en": "Recklessness",
+      "page": "63",
+      "group": "STUL",
+      "group_fr": "Stultitia.",
+      "group_en": "Folly",
+      "img": [
+        "alc63.jpg"
+      ],
+      "scans": [
+        "alc63.jpg"
+      ],
+      "text_fr": [
+        "In præceps rapitur, frustra quoque tendit habenas",
+        "Auriga: effræni quem vehit oris equus.",
+        "Haud facilè huic credas, ratio quem nulla gubernat,",
+        "Et temerè proprio ducitur arbitrio."
+      ],
+      "text_ru": [
+        "Он несётся стремглав, и напрасно возница",
+        "натягивает поводья, влекомый конём, необузданным в своей пасти.",
+        "Не доверяйся легко тому, кем не управляет разум",
+        "и кто безрассудно ведом лишь собственной волей."
+      ],
+      "text_en": [
+        "He is swept headlong, and in vain the charioteer",
+        "pulls at the reins, borne by a horse unbridled in its mouth.",
+        "You should not easily trust one whom no reason governs,",
+        "and who is led recklessly by his own will alone."
+      ]
+    },
+    {
+      "id": "alc64",
+      "num": "53",
+      "fr": "Furor, & rabies",
+      "ru": "Ярость и бешенство",
+      "en": "Fury, and rage",
+      "page": "64",
+      "group": "STUL",
+      "group_fr": "Stultitia.",
+      "group_en": "Folly",
+      "img": [
+        "alc64.jpg"
+      ],
+      "scans": [
+        "alc64.jpg"
+      ],
+      "text_fr": [
+        "Ora gerit clypeus rabiosi picta leonis,",
+        "Et scriptū in summo margine carmen habet:",
+        "Hic hominum est terror, cuius possessor Atrida",
+        "Talia magnanimus signa Agamemno tulit."
+      ],
+      "text_ru": [
+        "Щит несёт изображённую на нём морду свирепого льва,",
+        "и на верхнем крае имеет начертанный стих:",
+        "«Это ужас для людей» — чьим обладателем, сын Атрея,",
+        "великодушный Агамемнон, носил такие знаки."
+      ],
+      "text_en": [
+        "The shield bears painted upon it the face of a raging lion,",
+        "and at its upper rim an inscribed verse reads:",
+        "'This is the terror of men' — whose possessor, the son of Atreus,",
+        "great-hearted Agamemnon, bore such a device."
+      ]
+    },
+    {
+      "id": "alc65",
+      "num": "54",
+      "fr": "In temerarios",
+      "ru": "Против безрассудных",
+      "en": "Against the reckless",
+      "page": "65",
+      "group": "STUL",
+      "group_fr": "Stultitia.",
+      "group_en": "Folly",
+      "img": [
+        "alc65.jpg"
+      ],
+      "scans": [
+        "alc65.jpg"
+      ],
+      "text_fr": [
+        "Aspicis aurigam currus Phaëtonta paterni",
+        "Igniuomos ausum flectere Solis equos.",
+        "Maxima qui postquàm terris incendia sparsit:",
+        "Est temerè inscio lapsus ab axe miser.",
+        "Sic plerique rotis Fortunæ ad sydera Reges",
+        "Euecti: ambitio quos iuuenilis agit.",
+        "Post magnam humani generis cladem que, suamq;",
+        "Cunctorum pœnas denique dant scelerum."
+      ],
+      "text_ru": [
+        "Ты видишь Фаэтона, возницу отцовской колесницы,",
+        "дерзнувшего направлять огнедышащих коней Солнца.",
+        "После того как он рассеял по земле величайшие пожары,",
+        "несчастный, по неразумию и неумению, упал с оси.",
+        "Так многие цари, вознесённые колёсами Фортуны к звёздам,",
+        "влекомые юношеским честолюбием, встречают ту же участь:",
+        "после великой гибели — и человеческого рода, и своей собственной —",
+        "они в конце концов несут наказание за все свои преступления."
+      ],
+      "text_en": [
+        "You see Phaëthon, charioteer of his father's chariot,",
+        "who dared to guide the fire-breathing horses of the Sun.",
+        "After he had scattered the greatest conflagrations upon the earth,",
+        "the wretch, reckless and unskilled, fell headlong from the axle.",
+        "So many kings, borne by Fortune's wheels to the stars,",
+        "driven by youthful ambition, meet the same fate:",
+        "after great ruin both to the human race and to themselves,",
+        "they pay at last the penalty for all their crimes."
+      ]
+    },
+    {
+      "id": "alc66",
+      "num": "55",
+      "fr": "In eos qui supra vires quicquam audent",
+      "ru": "Против тех, кто дерзает сверх своих сил",
+      "en": "Against those who dare beyond their strength",
+      "page": "66",
+      "group": "STUL",
+      "group_fr": "Stultitia.",
+      "group_en": "Folly",
+      "img": [
+        "alc66.jpg"
+      ],
+      "scans": [
+        "alc66.jpg"
+      ],
+      "text_fr": [
+        "Dum dormit, dulci recreat dum corpora somno,",
+        "Sub picea, & clauam cæteraq; arma tenet,",
+        "Alciden, Pygmæa manus prosternere letho",
+        "Posse putat: vires non bene docta suas.",
+        "Excitus ipse, velut pulices, sic proterit hostem,",
+        "Et sæui implicitum pelle leonis agit."
+      ],
+      "text_ru": [
+        "Пока он спит, пока сладким сном освежает тело",
+        "под сосной, держа палицу и прочее оружие,",
+        "племя пигмеев мнит, что сможет повергнуть Алкида",
+        "смертью — плохо зная собственные силы.",
+        "Но, пробудившись, он топчет врагов, как блох,",
+        "и загоняет их, запутавшихся, в шкуру свирепого льва."
+      ],
+      "text_en": [
+        "While he sleeps, while he refreshes his body with sweet slumber",
+        "beneath a pine, holding his club and his other arms,",
+        "the Pygmy host thinks it can lay great Alcides low",
+        "in death — not having well learned its own strength.",
+        "But once roused, he tramples his enemies like fleas,",
+        "and drives them, tangled, into the fierce lion's skin."
+      ]
+    },
+    {
+      "id": "alc67",
+      "num": "56",
+      "fr": "Impossibile",
+      "ru": "Невозможное",
+      "en": "The impossible",
+      "page": "67",
+      "group": "STUL",
+      "group_fr": "Stultitia.",
+      "group_en": "Folly",
+      "img": [
+        "alc67.jpg"
+      ],
+      "scans": [
+        "alc67.jpg"
+      ],
+      "text_fr": [
+        "Abluis Aethiopem, quid frustra? ah desine. noctis",
+        "Illustrare nigræ nemo potest tenebras."
+      ],
+      "text_ru": [
+        "Ты моешь эфиопа — зачем напрасно? Ах, оставь. Никто",
+        "не может осветлить тёмный мрак чёрной ночи."
+      ],
+      "text_en": [
+        "You wash an Ethiopian — why in vain? Ah, stop. No one",
+        "can brighten the dark shadows of black night."
+      ]
     }
   ]
 }
