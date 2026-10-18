@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "52";
+  var APP_VER = "53";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -661,8 +661,9 @@
     }).join("");
     var translArr = state.lang==="en" && it.text_en && it.text_en.length ? it.text_en : it.text_ru;
     var transl=paraHtml(translArr);
-    var hasScans = it.scans && it.scans.length;
-    var hasFr = it.text_fr && it.text_fr.length;
+    var showOrig = book.meta.showOriginal !== false;
+    var hasScans = showOrig && it.scans && it.scans.length;
+    var hasFr = showOrig && it.text_fr && it.text_fr.length;
     var plateLink = (book.meta.viewer==="plate" && it.plate!=null)
       ? '<p class="ic-plate-link"><a href="'+esc(hrefFor(book,"plate/"+it.plate))+'">'+t("plateLink")+'</a></p>' : "";
     var fieldsHtml = "";
@@ -707,7 +708,7 @@
       var id=b.getAttribute("data-go"); if(id) go(book, id);
     });});
     root.querySelectorAll(".ic-fig").forEach(function(f){ f.addEventListener("click",function(){ lightbox(f.getAttribute("data-src")); }); });
-    if(hasScans||hasFr) bindOriginal(it, pagesBase);
+    if(showOrig && (hasScans||hasFr)) bindOriginal(it, pagesBase);
     toTop();
     nudgeRepaint();
   }
@@ -819,8 +820,9 @@
     }
     var translArr = state.lang==="en" && it.text_en && it.text_en.length ? it.text_en : it.text_ru;
     var transl = paraHtml(translArr);
-    var hasScans = it.scans && it.scans.length;
-    var hasFr = it.text_fr && it.text_fr.length;
+    var showOrig = book.meta.showOriginal !== false;
+    var hasScans = showOrig && it.scans && it.scans.length;
+    var hasFr = showOrig && it.text_fr && it.text_fr.length;
     if(!fieldsHtml && !transl){
       return imgHtml+'<div class="ic-missing"><b>'+t("missing")+'</b></div>';
     }
@@ -831,7 +833,8 @@
   }
   function bindObjectDetail(book, it, container){
     var pagesBase = BASE+"books/"+book.slug+"/pages/";
-    if((it.scans && it.scans.length) || (it.text_fr && it.text_fr.length)) bindOriginal(it, pagesBase, container);
+    var showOrig = book.meta.showOriginal !== false;
+    if(showOrig && ((it.scans && it.scans.length) || (it.text_fr && it.text_fr.length))) bindOriginal(it, pagesBase, container);
   }
   function highlightHotspot(id){
     root.querySelectorAll(".ic-hotspot").forEach(function(b){ b.classList.toggle("focus", id!=null && b.getAttribute("data-id")===id); });
