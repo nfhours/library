@@ -4784,6 +4784,58 @@
       "text_en": [
         "¶'What monster is this?' 'It is the Sphinx.' 'Why does it have the pale face / of a maiden, the wings of a bird, and the legs of a lion?' / 'Ignorance of things has taken on this form: for, indeed, / there is a threefold cause and origin of this great evil. / There are those made so by a fickle mind, those by beguiling pleasure, / and those whom proud hearts render unlearned. / But those who know what the Delphic letter can do / cut the dreadful throat of the headlong monster. / For man himself is at once two-footed, three-footed, and four-footed — / and the first laurel of the wise is to know man.'"
       ]
+    },
+    {
+      "id": "alc203",
+      "num": "185",
+      "fr": "Mentem, non formam plus pollere",
+      "ru": "Разум, а не облик, значит больше",
+      "en": "Mind, not form, prevails more",
+      "page": "203",
+      "group": "IGNOR",
+      "group_fr": "Ignorantia.",
+      "group_en": "Ignorance",
+      "img": [
+        "alc203.jpg"
+      ],
+      "scans": [
+        "alc203.jpg"
+      ],
+      "text_fr": [
+        "¶Ingressa vulpes in Choragi pergulam, / Fabrè expolitum inuenit humanum caput, / Sic eleganter fabricatum, vt spiritus / Solùm deesset, cæteris viuisceret. / Id illa cùm sumpsisset in manus, ait: / Hoc quale caput est, sed cerebrum non habet."
+      ],
+      "text_ru": [
+        "¶Лиса, забравшись в мастерскую хорега, / нашла искусно отделанную человеческую голову, / столь изящно изготовленную, что лишь дыхания / недоставало ей, а во всём прочем она словно жила. / Взяв её в лапы, она сказала: / «Какая прекрасная голова — но мозга в ней нет»."
+      ],
+      "text_en": [
+        "¶The fox, having entered the workshop of a Choragus, / found a human head, skillfully finished, / so elegantly crafted that only breath / was lacking; in all else it seemed to live. / When she had taken it up in her paws, she said: / 'What a fine head this is — but it has no brain.'"
+      ]
+    },
+    {
+      "id": "alc204",
+      "num": "186",
+      "fr": "Diues indoctus",
+      "ru": "Богатый невежда",
+      "en": "The rich but ignorant man",
+      "page": "204",
+      "group": "IGNOR",
+      "group_fr": "Ignorantia.",
+      "group_en": "Ignorance",
+      "img": [
+        "alc204.jpg"
+      ],
+      "scans": [
+        "alc204.jpg"
+      ],
+      "text_fr": [
+        "¶Tranat aquas resides precioso in vellere Phrixus, / Et flauam inpauidus per mare scandit ouem. / Ecquid id est? vir sensu hebeti, sed diuite gaza, / Coniugis aut serui quem regit arbitrium."
+      ],
+      "text_ru": [
+        "¶Фрикс плывёт по водам, восседая на драгоценном руне, / и бесстрашно пересекает море на золотом баране. / Что это значит? Муж, тупой разумом, но богатый сокровищами, / которого правит суждение жены или раба."
+      ],
+      "text_en": [
+        "¶Phrixus swims through the waters, seated upon a precious fleece, / and, undaunted, rides the golden ram across the sea. / What does this mean? A man dull of understanding, yet rich in treasure, / whose course is steered by the judgment of his wife or his slave."
+      ]
     }
   ]
 }
