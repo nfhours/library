@@ -4602,6 +4602,84 @@
       "text_en": [
         "¶His left hand holds a bow, his right bears a rigid club, / and the Nemean lion covers his bare body. / This, then, is the likeness of Hercules. Yet it does not fit / that his temples bear the hoary hair of old age. / What of this, that his tongue, pierced through with light chains, / draws men in, caught gently by the ear? / Is it not because they say that the Gallic Hercules gave laws to / peoples, excelling not by strength but by tongue? / Arms yield to the toga, and one strong in eloquence / draws even the hardest hearts to his own wishes."
       ]
+    },
+    {
+      "id": "alc195",
+      "num": "178",
+      "fr": "Facundia difficilis",
+      "ru": "Красноречие даётся с трудом",
+      "en": "Eloquence is difficult",
+      "page": "195",
+      "group": "SCI",
+      "group_fr": "Scientia.",
+      "group_en": "Scholarship",
+      "img": [
+        "alc195.jpg"
+      ],
+      "scans": [
+        "alc195.jpg"
+      ],
+      "text_fr": [
+        "¶Antidotum Aeææ medicata in pocula Circes / Mercurium hoc Ithaco fama dedisse fuit. / Moly vocant, id vix radice euellitur atra, / Purpureus: sed flos, lactis & instar habet. / Eloquij candor facundiaq; allicit omnes: / Sed multi res est tanta laboris opus."
+      ],
+      "text_ru": [
+        "¶Говорят, что Меркурий дал это противоядие итакийцу / против отравленных чаш Цирцеи Эгейской. / Называют его «моли»; его едва выкапывают — чёрный / у корня, но цветок его подобен молоку. / Блеск красноречия и дара слова привлекает всех: / но это дело, требующее огромного труда."
+      ],
+      "text_en": [
+        "¶That Mercury gave this antidote to the Ithacan, against the doctored / cups of Aeaean Circe — such was the report. / They call it moly; it is hardly uprooted, black / at the root, but its flower is like milk. / The brightness of eloquence and fluency allures everyone: / but it is a thing requiring much great labor."
+      ]
+    },
+    {
+      "id": "alc196",
+      "num": "179",
+      "fr": "Antiquissima quæque commentitia",
+      "ru": "Всё древнейшее — вымысел",
+      "en": "All the most ancient things are fabrications",
+      "page": "196",
+      "group": "SCI",
+      "group_fr": "Scientia.",
+      "group_en": "Scholarship",
+      "img": [
+        "alc196.jpg"
+      ],
+      "scans": [
+        "alc196.jpg"
+      ],
+      "text_fr": [
+        "¶Pellenæ senex, cui forma est histrica, Proteu, / Qui modò membra viri fers, modò membra feri. / Dic age, quæ species ratio te vertit in omnes, / Nulla sit vt vario certa figura tibi? / Signa vetustatis, primæui & præfero secli: / De quo quisque suo somniat arbitrio."
+      ],
+      "text_ru": [
+        "¶Старец Пеллены, Протей, чей облик подобен актёрскому, / ты, что то несёшь члены человека, то члены зверя, — / скажи же, какой довод обращает тебя во всевозможные облики, / так что нет у тебя, при такой изменчивости, постоянного образа? / Я являю знаки древности, первоначального века, / о котором каждый грезит по своему усмотрению."
+      ],
+      "text_en": [
+        "¶Old man of Pellene, Proteus, whose form is that of an actor, / who now bear the limbs of a man, now the limbs of a beast — / tell me, come, what reasoning turns you into all these shapes, / so that no fixed figure of yours remains amid such variety? / I display the signs of antiquity, of the earliest age, / about which each man dreams according to his own judgment."
+      ]
+    },
+    {
+      "id": "alc197",
+      "num": "180",
+      "fr": "Insignia Poetarum",
+      "ru": "Знаки поэтов",
+      "en": "The emblems of poets",
+      "page": "197",
+      "group": "SCI",
+      "group_fr": "Scientia.",
+      "group_en": "Scholarship",
+      "img": [
+        "alc197.jpg"
+      ],
+      "scans": [
+        "alc197.jpg"
+      ],
+      "text_fr": [
+        "¶Gentiles clypeos sunt qui in Iouis alite gestant, / Sunt quibus aut Serpens, aut Leo signa ferunt. / Dira sed hæc Vatum fugiant animalia ceras, / Doctaq; sustineat stemmata pulcher Olor. / Hic Phœbo sacer, & nostræ regionis alumnus: / Rex, olim veteres seruat adhuc titulos."
+      ],
+      "text_ru": [
+        "¶Есть те, кто носит родовые щиты с орлом Юпитера, / есть те, чьи гербы несут Змея или Льва. / Но пусть эти грозные звери избегают восковых печатей поэтов, / и пусть прекрасный Лебедь поддерживает учёные родословные. / Эта птица, священная Фебу и питомица нашего края, / царь — издревле сохраняет свои древние титулы и поныне."
+      ],
+      "text_en": [
+        "¶There are those who bear noble shields with Jove's eagle upon them, / there are those whose emblems bear the Serpent, or the Lion. / But let these fierce creatures flee from the poets' waxen seals, / and let the beautiful Swan uphold learned coats of arms. / This bird, sacred to Phoebus, and a nursling of our own region: / a king, it still preserves its ancient titles to this day."
+      ]
     }
   ]
 }
