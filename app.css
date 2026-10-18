@@ -106,9 +106,12 @@
 /* Animating grid-template-rows between 0fr and 1fr gives a true expand/
    collapse (not just an opacity fade) without having to measure the
    content's height in JS first. */
-.ic-book-more-wrap{display:grid;grid-template-rows:0fr;transition:grid-template-rows .35s ease;width:100%}
+/* minmax(0,0fr), not bare 0fr: on iOS Safari a bare 0fr row still reserves
+   the grid item's own minimum content height, leaving a dead gap at the
+   bottom of every collapsed card instead of fully closing. */
+.ic-book-more-wrap{display:grid;grid-template-rows:minmax(0,0fr);transition:grid-template-rows .35s ease;width:100%}
 .ic-book-more-wrap>p{overflow:hidden;min-height:0}
-.ic-book-card.is-open .ic-book-more-wrap{grid-template-rows:1fr}
+.ic-book-card.is-open .ic-book-more-wrap{grid-template-rows:minmax(0,1fr)}
 .ic-book-sub{color:var(--soft);font-size:.94em;margin:0;padding-top:20px;margin-top:18px;border-top:1px solid var(--rule);line-height:1.7}
 
 .ic-about-link{font-size:.8em;color:var(--accent);background:none;border:0;cursor:pointer;padding:6px 0;margin-right:auto;text-decoration:none}
