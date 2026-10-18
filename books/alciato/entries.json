@@ -3321,6 +3321,393 @@
         "With only the name changed, the same will be said of you, miser,",
         "who, as though you had nothing, do not enjoy what you have."
       ]
+    },
+    {
+      "id": "alc93",
+      "num": "82",
+      "fr": "In auaros",
+      "ru": "О скупцах",
+      "en": "On the greedy",
+      "page": "93",
+      "group": "AVAR",
+      "group_fr": "Avaritia.",
+      "group_en": "Avarice",
+      "img": [
+        "alc93.jpg"
+      ],
+      "scans": [
+        "alc93.jpg"
+      ],
+      "text_fr": [
+        "Septitius populos inter ditißimus omnes,",
+        "Arua senex nullus quo magis ampla tenet.",
+        "Defraudans geniumque suum, mensasque paratas,",
+        "Nil praeter betas, duraque rapa vorat.",
+        "Cui similem dicam hunc, inopem quem copia reddit?",
+        "An ne asino? Sic est: instar hic eius habet.",
+        "Nanque asinus dorso pretiosa opsonia gestat:",
+        "Seque, rubo, aut dura carice pauper alit."
+      ],
+      "text_ru": [
+        "Септитий, богатейший из всех людей, — старик, чьими полями не владеет никто обширнее.",
+        "Обделяя собственное удовольствие и накрытые столы,",
+        "он пожирает лишь свёклу да жёсткую репу.",
+        "С кем сравнить мне того, кого изобилие делает нищим?",
+        "Не с ослом ли? Именно так: он во всём ему подобен.",
+        "Ведь осёл несёт на спине драгоценные яства,",
+        "а сам, бедняга, кормится ежевикой или жёсткой осокой."
+      ],
+      "text_en": [
+        "Septitius, richest of all people, is an old man than whom none holds broader fields.",
+        "Cheating his own pleasure and his laid tables,",
+        "he devours nothing but beets and hard turnips.",
+        "To whom shall I compare him, whom abundance makes a pauper?",
+        "To a donkey? Just so: he is exactly like it.",
+        "For the donkey carries precious delicacies on its back,",
+        "yet feeds itself, poor thing, on brambles or coarse sedge."
+      ]
+    },
+    {
+      "id": "alc94",
+      "num": "83",
+      "fr": "In aulicos",
+      "ru": "О придворных",
+      "en": "On courtiers",
+      "page": "94",
+      "group": "AVAR",
+      "group_fr": "Avaritia.",
+      "group_en": "Avarice",
+      "img": [
+        "alc94.jpg"
+      ],
+      "scans": [
+        "alc94.jpg"
+      ],
+      "text_fr": [
+        "Vana Palatinos quos educat aula clientes,",
+        "Dicitur auratis nectere compedibus."
+      ],
+      "text_ru": [
+        "Пустой придворный дворец, что растит своих клиентов,",
+        "говорят, связывает их позолоченными оковами."
+      ],
+      "text_en": [
+        "The vain court that rears its courtier-clients",
+        "is said to bind them with gilded fetters."
+      ]
+    },
+    {
+      "id": "alc95",
+      "num": "84",
+      "fr": "In sordidos",
+      "ru": "О подлых скрягах",
+      "en": "On sordid misers",
+      "page": "95",
+      "group": "AVAR",
+      "group_fr": "Avaritia.",
+      "group_en": "Avarice",
+      "img": [
+        "alc95.jpg"
+      ],
+      "scans": [
+        "alc95.jpg"
+      ],
+      "text_fr": [
+        "Quae rostro (clystere velut) sibi proluit aluum",
+        "Ibis, Nilaicis cognita littoribus,",
+        "Transiit opprobrii in nomen: quo Publius hostem",
+        "Naso suum appellat, Battiadesque suum."
+      ],
+      "text_ru": [
+        "Ибис, что клювом, точно клизмой, промывает себе чрево,",
+        "известный на берегах Нила,",
+        "вошёл в поговорку как бранное имя: так Публий Назон",
+        "называет своего врага, и Баттиад — своего."
+      ],
+      "text_en": [
+        "The ibis, which with its beak (as with a clyster) washes out its own belly,",
+        "known on the shores of the Nile,",
+        "has passed into a term of reproach: by which Publius Naso",
+        "calls his enemy, and Battiades his own."
+      ]
+    },
+    {
+      "id": "alc96",
+      "num": "85",
+      "fr": "In diuites publico malo",
+      "ru": "О богачах, [нажившихся] на общественном зле",
+      "en": "On the rich who profit from public misfortune",
+      "page": "96",
+      "group": "AVAR",
+      "group_fr": "Avaritia.",
+      "group_en": "Avarice",
+      "img": [
+        "alc96.jpg"
+      ],
+      "scans": [
+        "alc96.jpg"
+      ],
+      "text_fr": [
+        "Anguillas quisquis captat, si limpida verrat",
+        "Flumina, si illimes ausit adire lacus,",
+        "Cassus erit: ludetque operam: multum excitet ergo",
+        "Sicretae, et vitreas palmula turbet aquas:",
+        "Diues erit. Sic iis respublica turbida lucro est,",
+        "Qui pace, arctati legibus, esuriunt."
+      ],
+      "text_ru": [
+        "Кто ловит угрей, тот, если бороздит прозрачные",
+        "реки, если решается подойти к незамутнённым озёрам,",
+        "останется ни с чем и лишь потратит труд впустую: пусть же он взбаламутит",
+        "побольше тины и вёслами взмутит стеклянные воды —",
+        "и станет богат. Так и для тех мутное государство — источник наживы,",
+        "кто в мирное время, стеснённый законами, голодает."
+      ],
+      "text_en": [
+        "Whoever hunts eels, if he sweeps through clear",
+        "rivers, if he dares approach unmuddied lakes,",
+        "will come away empty and waste his effort: let him instead stir up",
+        "much mud from hidden depths, and let his oar churn the glassy waters —",
+        "then he will grow rich. So too a troubled commonwealth is profit for those",
+        "who, in peacetime, constrained by law, go hungry."
+      ]
+    },
+    {
+      "id": "alc97",
+      "num": "86",
+      "fr": "In auaros, vel quibus melior conditio ab extraneis offertur",
+      "ru": "О скупцах, или о тех, кому чужие предлагают лучшую участь",
+      "en": "On misers, or those to whom strangers offer a better fate",
+      "page": "97",
+      "group": "AVAR",
+      "group_fr": "Avaritia.",
+      "group_en": "Avarice",
+      "img": [
+        "alc97.jpg"
+      ],
+      "scans": [
+        "alc97.jpg"
+      ],
+      "text_fr": [
+        "Delphini insidens vada caerula sulcat Arion,",
+        "Hocque aures mulcet, fraenat et ora sono.",
+        "Quam sit auari hominis mens, non tam dira ferarum est:",
+        "Quique a viris rapimur, piscibus eripimur."
+      ],
+      "text_ru": [
+        "Арион, оседлав дельфина, рассекает синие воды,",
+        "и этим звуком услаждает слух и смиряет уста.",
+        "Сколь свиреп разум скупого человека — таким не бывает и разум зверя:",
+        "ведь мы, ограбленные людьми, спасаемся рыбами."
+      ],
+      "text_en": [
+        "Arion, mounted on a dolphin, cleaves the blue waters,",
+        "and with this sound charms ears and tames mouths.",
+        "How fierce is the mind of a greedy man — not even that of wild beasts is so dire:",
+        "for we who are robbed by men are rescued by fish."
+      ]
+    },
+    {
+      "id": "alc98",
+      "num": "87",
+      "fr": "Gula",
+      "ru": "Чревоугодие",
+      "en": "Gluttony",
+      "page": "98",
+      "group": "GULA",
+      "group_fr": "Gula.",
+      "group_en": "Gluttony",
+      "img": [
+        "alc98.jpg"
+      ],
+      "scans": [
+        "alc98.jpg"
+      ],
+      "text_fr": [
+        "Curculione gruis tumida vir pingitur aluo,",
+        "Qui Laron, aut manibus gestat Onocrotalum.",
+        "Talis forma fuit Dionysi, et talis Apici,",
+        "Et gula quos celebres deliciosa facit."
+      ],
+      "text_ru": [
+        "Муж изображён с чревом, раздутым, точно от зерна, [что пожирают] журавли,",
+        "несущий в руках чайку либо пеликана.",
+        "Таков был облик Дионисия, и таков — Апиция,",
+        "и тех, кого делает знаменитыми изысканное чревоугодие."
+      ],
+      "text_en": [
+        "A man is depicted with a belly swollen as if gorged with grain,",
+        "carrying in his hands a gull or a pelican.",
+        "Such was the form of Dionysius, and such of Apicius,",
+        "and of those whom luxurious gluttony makes famous."
+      ]
+    },
+    {
+      "id": "alc99",
+      "num": "88",
+      "fr": "Ocni effigies. De his qui meretricibus donant, quod in bonos vsus verti debeat.",
+      "ru": "Изображение Окна. О тех, кто дарит блудницам то, что следовало бы обратить на добрые цели",
+      "en": "The image of Ocnus. On those who give to courtesans what should be put to good use",
+      "page": "99",
+      "group": "GULA",
+      "group_fr": "Gula.",
+      "group_en": "Gluttony",
+      "img": [
+        "alc99.jpg"
+      ],
+      "scans": [
+        "alc99.jpg"
+      ],
+      "text_fr": [
+        "Impiger haud cessat funem contexere sparto,",
+        "Humidaque artifici iungere fila manu.",
+        "Sed quantum multis vix torquet strenuus horis,",
+        "Protinus ignaui ventris asella vorat.",
+        "Foemina iuxta animal facili congesta marito,",
+        "Lucra rapit, mundumque prodigit inque suum."
+      ],
+      "text_ru": [
+        "Неутомимый не устаёт плести верёвку из дрока,",
+        "искусной рукой соединяя влажные нити.",
+        "Но сколько бы усердный ни свил её за многие часы,",
+        "тут же пожирает её ослица праздного чрева.",
+        "Так и женщина, подобно этому животному, при беспечном муже",
+        "расхищает его прибыль и проматывает его достояние."
+      ],
+      "text_en": [
+        "The tireless man never ceases to weave a rope of esparto-grass,",
+        "joining the damp strands with skilled hand.",
+        "But however much the diligent man twists in many hours,",
+        "the she-ass of the idle belly devours it at once.",
+        "Likewise a woman, kept by an easygoing husband,",
+        "snatches his earnings and squanders his substance too."
+      ]
+    },
+    {
+      "id": "alc100",
+      "num": "89",
+      "fr": "In parasitos",
+      "ru": "О прихлебателях",
+      "en": "On parasites",
+      "page": "100",
+      "group": "GULA",
+      "group_fr": "Gula.",
+      "group_en": "Gluttony",
+      "img": [
+        "alc100.jpg"
+      ],
+      "scans": [
+        "alc100.jpg"
+      ],
+      "text_fr": [
+        "Quos tibi donamus, fluuiales accipe cancros,",
+        "Munera conueniunt moribus ista tuis.",
+        "His oculi vigiles, et forfice plurimus ordo",
+        "Chelarum armatus, maximaque aluus adest.",
+        "Sic tibi propensus stat pingui abdomine venter,",
+        "Pernicesque pedes, spiculaque apta pedi.",
+        "Cùm vagus in triuiis, mensaeque sedilibus erras,",
+        "Inque alios mordax scommata falsa iacis."
+      ],
+      "text_ru": [
+        "Прими от нас в дар речных раков —",
+        "эти дары подходят твоему нраву.",
+        "У них зоркие глаза, и множество рядов",
+        "клешней, точно ножниц, да огромное брюхо.",
+        "Так и у тебя отвисает брюхо, отягощённое жиром,",
+        "быстрые ноги и клешни, под стать твоей походке.",
+        "Когда ты бродишь по перекрёсткам и чужим столам и скамьям,",
+        "язвя других лживыми колкостями."
+      ],
+      "text_en": [
+        "Receive as our gift these river crabs —",
+        "such presents suit your character.",
+        "They have watchful eyes, and many rows",
+        "of claws armed like shears, and a very large belly.",
+        "So too your belly hangs heavy with fat,",
+        "your feet are swift, and your claws fit for walking.",
+        "As you wander restlessly at crossroads and around others' tables and benches,",
+        "biting at others with false, mocking jests."
+      ]
+    },
+    {
+      "id": "alc101",
+      "num": "90",
+      "fr": "Paruam culinam, duobus ganeonibus non sufficere.",
+      "ru": "Малой кухни не хватает двум обжорам",
+      "en": "A small kitchen does not suffice for two gluttons",
+      "page": "101",
+      "group": "GULA",
+      "group_fr": "Gula.",
+      "group_en": "Gluttony",
+      "img": [
+        "alc101.jpg"
+      ],
+      "scans": [
+        "alc101.jpg"
+      ],
+      "text_fr": [
+        "In modicis nihil est quod quis lucretur: et vnum",
+        "Arbustum geminos non alit Erythacos.",
+        "ALIVD.",
+        "In tenui spes nulla lucri est: vnoque residunt",
+        "Arbusto geminae non bene Ficedulae."
+      ],
+      "text_ru": [
+        "В скудном нет ничего, что кто-либо мог бы приобрести: и один",
+        "кустарник не прокормит двух малиновок.",
+        "ДРУГОЕ.",
+        "В скудости нет никакой надежды на прибыль: и на одном",
+        "кусте плохо уживаются две завирушки (садовые славки)."
+      ],
+      "text_en": [
+        "In meagre fare there is nothing for anyone to gain: and a single",
+        "bush does not feed two robins.",
+        "ANOTHER.",
+        "In slender means there is no hope of profit: nor do two",
+        "figpeckers settle well upon a single bush."
+      ]
+    },
+    {
+      "id": "alc102",
+      "num": "91",
+      "fr": "Captiuus ob gulam",
+      "ru": "Пленённый из-за чревоугодия",
+      "en": "Captured because of gluttony",
+      "page": "102",
+      "group": "GULA",
+      "group_fr": "Gula.",
+      "group_en": "Gluttony",
+      "img": [
+        "alc102.jpg"
+      ],
+      "scans": [
+        "alc102.jpg"
+      ],
+      "text_fr": [
+        "Regna oraque, penus mensaeque arrosor herilis",
+        "Ostrea mus summis vidit hiulca labris.",
+        "Quae tenera apponens barba falsa ossa momordit,",
+        "Ast ea clauserunt tacta repente domum.",
+        "Deprensum et tetro tenuérunt carcere furem,",
+        "Semet in obscurum qui dederat tumulum."
+      ],
+      "text_ru": [
+        "Мышь, обгрызающая владения, стол и кладовую хозяина,",
+        "увидела устриц, приоткрывших свои края.",
+        "Поднеся нежные усики, она укусила мнимые кости,",
+        "но те, едва тронутые, внезапно захлопнули свой дом.",
+        "И держали пойманного вора в мрачной темнице —",
+        "того, кто сам обрёк себя на тёмную гробницу."
+      ],
+      "text_en": [
+        "The mouse, gnawer of its master's domain, larder and tables,",
+        "saw oysters gaping at their edges.",
+        "Applying its tender whiskers, it bit the false bones,",
+        "but these, once touched, suddenly shut their house.",
+        "And so they held the caught thief in a foul prison —",
+        "he who had given himself to a dark tomb."
+      ]
     }
   ]
 }
