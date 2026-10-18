@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "40";
+  var APP_VER = "41";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -56,7 +56,7 @@
     loading:      {ru:"Загрузка…", en:"Loading…"},
     loadError:    {ru:"Не удалось загрузить данные. Обновите страницу.", en:"Could not load the data. Please refresh the page."},
     bookError:    {ru:"Эта книга временно недоступна.", en:"This book is temporarily unavailable."},
-    back:         {ru:"Указатель", en:"Index"},
+    back:         {ru:"К оглавлению", en:"Back to index"},
     toLibrary:    {ru:"Библиотека", en:"Library"},
     prevArticle:  {ru:"Предыдущая статья", en:"Previous article"},
     nextArticle:  {ru:"Следующая статья", en:"Next article"},
