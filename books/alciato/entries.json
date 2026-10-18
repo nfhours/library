@@ -3708,6 +3708,312 @@
         "And so they held the caught thief in a foul prison —",
         "he who had given himself to a dark tomb."
       ]
+    },
+    {
+      "id": "alc103",
+      "num": "92",
+      "fr": "In garrulum & gulosum",
+      "ru": "О болтливом и прожорливом",
+      "en": "On the talkative and gluttonous",
+      "page": "103",
+      "group": "GULA",
+      "group_fr": "Gula.",
+      "group_en": "Gluttony",
+      "img": [
+        "alc103.jpg"
+      ],
+      "scans": [
+        "alc103.jpg"
+      ],
+      "text_fr": [
+        "Voce boat torua, prælargo est gutture, rostrum",
+        "Instar habet nasi multiforisque tubæ.",
+        "Deformem rabulam, addictum ventrique gulæque",
+        "Signabit, volucer cum truo pictus erit."
+      ],
+      "text_ru": [
+        "Он кричит грозным голосом, горло его чрезвычайно велико; клюв",
+        "похож на многодырчатый раструб трубы.",
+        "Безобразного крикливого стряпчего, преданного чреву и обжорству,",
+        "обозначит эта птица, когда будет изображена с черпаком."
+      ],
+      "text_en": [
+        "It bellows with a harsh voice, its throat is very large; its beak",
+        "resembles the many-holed mouth of a trumpet.",
+        "This bird, when depicted with a scoop, will mark",
+        "a deformed, loud-mouthed pleader, given over to belly and gluttony."
+      ]
+    },
+    {
+      "id": "alc104",
+      "num": "93",
+      "fr": "Doctorum agnomina",
+      "ru": "Прозвища учёных мужей",
+      "en": "Nicknames of scholars",
+      "page": "104",
+      "group": "DOCT",
+      "group_fr": "Doctorum agnomina.",
+      "group_en": "Nicknames of scholars",
+      "img": [
+        "alc104.jpg"
+      ],
+      "scans": [
+        "alc104.jpg"
+      ],
+      "text_fr": [
+        "Moris vetusti est, aliqua professoribus",
+        "Superadiici cognomina.",
+        "Faciles apertosque explicans tantùm locos,",
+        "Canon vocatur Curtius.",
+        "Reuoluitur qui eodem, et iteratque nimis",
+        "Mæander, vt Parisius.",
+        "Obscurus et confusus, vt Picus fuit,",
+        "Labyrinthus appellabitur.",
+        "Nimis breuis, multa amputans, vt Claudius,",
+        "Mucronis agnomen feret.",
+        "Qui vel columnas voce rumpit, Parpalus,",
+        "Dictus truo est scholasticis.",
+        "Contra est vocatus, tenuis esset Albius",
+        "Quòd voce, vespertilio.",
+        "At vltimas mutilans colobotes syllabas,",
+        "Hirundo Crassius dicitur.",
+        "Qui surdus alijs, solus ipse vult loqui,",
+        "Vt sturnus in prouerbio est.",
+        "Hic blesus, ille raucus, iste garriens.",
+        "Hic sibilat ceu vipera.",
+        "Tumultuatur ille rictu et naribus:",
+        "Huic lingua terebellam facit.",
+        "Singultit alius, atque tussit hæsitans:",
+        "Conspuit alius vt psecas.",
+        "Quàm multa rebus vitia in humanis agunt,",
+        "Tam multa surgunt nomina."
+      ],
+      "text_ru": [
+        "Издревле в обычае давать профессорам",
+        "сверх имени ещё и прозвища.",
+        "Того, кто растолковывает лишь лёгкие и открытые места,",
+        "зовут «Коротышка-Канон» (Curtius).",
+        "Кто кружит на одном и том же и повторяет без меры,",
+        "тот — Меандр, как и Парисий.",
+        "Тёмного и путаного, каким был Пик,",
+        "назовут Лабиринтом.",
+        "Чрезмерно краткого, многое отсекающего, как Клавдий,",
+        "прозовут «Остриём» (Mucro).",
+        "Кто даже колонны сокрушает голосом — Парпала —",
+        "школяры зовут «Бирюком» (truo).",
+        "Напротив, тонкоголосого Альбия",
+        "за голос прозвали Нетопырём.",
+        "А того, кто обрубает последние слоги,",
+        "зовут «Толстой Ласточкой».",
+        "Кто глух к другим, а говорить желает лишь сам,",
+        "тот — Скворец, как говорится в пословице.",
+        "Этот шепелявит, тот сиплый, этот — болтун.",
+        "Этот шипит, точно гадюка.",
+        "Тот бушует разинутым ртом и ноздрями:",
+        "у этого язык точно бурав.",
+        "Один икает и прерывисто кашляет:",
+        "другой брызжет слюной, точно кропит.",
+        "Сколько пороков действует в делах человеческих,",
+        "столько же рождается и имён."
+      ],
+      "text_en": [
+        "It is an old custom for professors",
+        "to have nicknames added to their names.",
+        "One who explains only easy and open passages",
+        "is called 'Short Canon' (Curtius).",
+        "One who circles back to the same point and repeats too much",
+        "is 'Maeander', like Parisius.",
+        "The obscure and confused one, as Picus was,",
+        "will be called 'Labyrinth'.",
+        "The excessively brief one, who cuts off much, like Claudius,",
+        "will bear the nickname 'Point' (Mucro).",
+        "One who even shatters columns with his voice — Parpalus —",
+        "is called by students a 'bogeyman' (truo).",
+        "By contrast, thin-voiced Albius",
+        "was named, for his voice, 'Bat'.",
+        "And one who clips the final syllables",
+        "is called 'Fat Swallow'.",
+        "One deaf to others, wishing only himself to speak,",
+        "is a 'Starling', as the proverb goes.",
+        "This one lisps, that one is hoarse, this one chatters.",
+        "This one hisses like a viper.",
+        "That one is in uproar with gaping mouth and nostrils:",
+        "for this one the tongue works like a drill.",
+        "One hiccups and coughs haltingly:",
+        "another spits as if sprinkling dew.",
+        "As many vices as act in human affairs,",
+        "just as many names arise."
+      ]
+    },
+    {
+      "id": "alc106",
+      "num": "94",
+      "fr": "Natura. Vis naturæ.",
+      "ru": "Природа. Сила природы",
+      "en": "Nature. The power of nature",
+      "page": "106",
+      "group": "NAT",
+      "group_fr": "Natura.",
+      "group_en": "Nature",
+      "img": [
+        "alc106.jpg"
+      ],
+      "scans": [
+        "alc106.jpg"
+      ],
+      "text_fr": [
+        "Pana colunt gentes, (naturam hoc dicere rerum est)",
+        "Semicaprumque hominem, semiuirumque Deum.",
+        "Est vir pube tenus, quòd nobis insita virtus",
+        "Corde oriens, celsa verticis arce sedet.",
+        "Hinc caper est, quia nos natura in secla propagat",
+        "Concubitu: vt volucres, squamea, bruta, feras.",
+        "Quod commune alijs animantibus, est caper index",
+        "Luxuriæ, Veneris signaque aperta gerit.",
+        "Cordi alij sophian, alij tribuêre cerebro.",
+        "Inferiora modus, nec ratio vlla tenet."
+      ],
+      "text_ru": [
+        "Народы чтят Пана (это и значит — назвать природу вещей) —",
+        "полукозла-человека и получеловека-бога.",
+        "Он мужчина до чресл, ибо присущая нам доблесть,",
+        "исходящая из сердца, восседает на высокой цитадели темени.",
+        "Отсюда же он и козёл, ибо природа продолжает нас в веках",
+        "через совокупление — как птиц, чешуйчатых, тварей бессловесных, зверей.",
+        "Что общее у него с прочими живыми тварями, то козёл и являет —",
+        "знак похоти, несущий явные знаки Венеры.",
+        "Одни приписали мудрость сердцу, другие — мозгу.",
+        "Низшие же части не знают ни меры, ни разума."
+      ],
+      "text_en": [
+        "Peoples worship Pan (this is to call nature of things by name) —",
+        "a man half-goat, a god half-man.",
+        "He is man down to the loins, for the virtue implanted in us,",
+        "rising from the heart, sits enthroned in the high citadel of the crown.",
+        "Hence he is goat, because nature propagates us through the ages",
+        "by copulation, as it does birds, scaly things, brutes, wild beasts.",
+        "What he has in common with other living creatures, the goat signifies —",
+        "the mark of lust, bearing the open signs of Venus.",
+        "Some have attributed wisdom to the heart, others to the brain.",
+        "The parts below obey neither measure nor any reason."
+      ]
+    },
+    {
+      "id": "alc107",
+      "num": "95",
+      "fr": "Ars Naturam adiuuans",
+      "ru": "Искусство, помогающее природе",
+      "en": "Art, aiding nature",
+      "page": "107",
+      "group": "NAT",
+      "group_fr": "Natura.",
+      "group_en": "Nature",
+      "img": [
+        "alc107.jpg"
+      ],
+      "scans": [
+        "alc107.jpg"
+      ],
+      "text_fr": [
+        "Vt sphæræ Fortuna, cubo sic insidet Hermes:",
+        "Artibus hic, varijs casibus illa præest.",
+        "Aduersus vim Fortunæ est ars facta: sed artis",
+        "Cùm fortuna mala est, sæpe requirit opem.",
+        "Disce bonas artes igitur studiosa iuuentus,",
+        "Quæ certæ secum commoda sortis habent."
+      ],
+      "text_ru": [
+        "Как Фортуна восседает на шаре, так Гермес — на кубе:",
+        "он властвует над искусствами, она — над переменчивыми случайностями.",
+        "Искусство создано против власти Фортуны: но и искусство,",
+        "когда судьба зла, часто нуждается в помощи.",
+        "Учитесь же благим искусствам, прилежное юношество,",
+        "которые несут с собою блага устойчивой участи."
+      ],
+      "text_en": [
+        "As Fortune sits upon a sphere, so Hermes sits upon a cube:",
+        "he presides over the arts, she over varied chances.",
+        "Art was made against the power of Fortune: but art too,",
+        "when fortune is bad, often needs help.",
+        "Learn good arts, then, studious youth,",
+        "which carry with them the benefits of a steady lot."
+      ]
+    },
+    {
+      "id": "alc108",
+      "num": "96",
+      "fr": "In iuuentam",
+      "ru": "О юности",
+      "en": "On youth",
+      "page": "108",
+      "group": "NAT",
+      "group_fr": "Natura.",
+      "group_en": "Nature",
+      "img": [
+        "alc108.jpg"
+      ],
+      "scans": [
+        "alc108.jpg"
+      ],
+      "text_fr": [
+        "Natus vterque Ioui, tener atque imberbis vterq́,",
+        "Quem Latona tulit, quem tulit et Semele,",
+        "Saluete, æterna simul et florete iuuenta,",
+        "Numine sit vestro quæ diuturna mihi.",
+        "Tu vino curas, tu victu diluis morbos,",
+        "Vt lento accedat sera senecta pede."
+      ],
+      "text_ru": [
+        "Оба рождены Юпитером, оба нежны и безбороды —",
+        "тот, кого родила Латона, и тот, кого родила Семела.",
+        "Привет вам, и цветите вместе в вечной юности;",
+        "пусть по вашей божественной воле она продлится и для меня.",
+        "Ты [Вакх] врачуешь вином, ты [Аполлон] растворяешь недуги образом жизни,",
+        "чтобы поздняя старость подступала медленным шагом."
+      ],
+      "text_en": [
+        "Both born of Jove, both tender and beardless —",
+        "the one whom Latona bore, and the one whom Semele bore.",
+        "Hail, and flourish together in eternal youth;",
+        "by your divine will, may it last for me too.",
+        "You [Bacchus] heal with wine, you [Apollo] dissolve ills through regimen,",
+        "so that late old age may approach with slow foot."
+      ]
+    },
+    {
+      "id": "alc109",
+      "num": "97",
+      "fr": "In quatuor tempora anni",
+      "ru": "О четырёх временах года",
+      "en": "On the four seasons of the year",
+      "page": "109",
+      "group": "NAT",
+      "group_fr": "Natura.",
+      "group_en": "Nature",
+      "img": [
+        "alc109.jpg"
+      ],
+      "scans": [
+        "alc109.jpg"
+      ],
+      "text_fr": [
+        "Aduenisse hyemem fringilla renuntiat ales.",
+        "Ad nos vere nouo garrula hirundo redit.",
+        "Indicat æstatem sese expectare cuculus.",
+        "Autumno est tantùm cernere ficedulas."
+      ],
+      "text_ru": [
+        "Птица зяблик возвещает о наступлении зимы.",
+        "К нам по новой весне возвращается болтливая ласточка.",
+        "Кукушка указывает, что следует ожидать лета.",
+        "Лишь осенью можно увидеть завирушек (винноягодников)."
+      ],
+      "text_en": [
+        "The finch bird announces that winter has come.",
+        "To us, in new spring, the chattering swallow returns.",
+        "The cuckoo signals that summer is to be expected.",
+        "Only in autumn are figpeckers to be seen."
+      ]
     }
   ]
 }
