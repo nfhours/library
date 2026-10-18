@@ -6089,6 +6089,234 @@
         "He is a beast, when he harms his enemies' allies, when he tramples enemies;",
         "and he is a man, when he feigns before the people to be dutiful."
       ]
+    },
+    {
+      "id": "alc161",
+      "num": "145",
+      "fr": "Principis clementia",
+      "ru": "Милосердие государя",
+      "en": "The clemency of the prince",
+      "page": "161",
+      "group": "PRINC",
+      "group_fr": "Princeps.",
+      "group_en": "The Prince",
+      "img": [
+        "alc161.jpg"
+      ],
+      "scans": [
+        "alc161.jpg"
+      ],
+      "text_fr": [
+        "Vesparum quòd nulla vnquam Rex spicula figet:",
+        "Quòdq́ alijs duplo corpore maior erit.",
+        "Arguet imperium clemens, moderataq́ regna,",
+        "Sanctaq́ iudicibus credita iura bonis."
+      ],
+      "text_ru": [
+        "Что царь пчёл никогда не вонзит своё жало,",
+        "и что он будет вдвое крупнее телом, чем прочие,",
+        "будет свидетельствовать о милостивой власти и умеренном правлении,",
+        "и о священных законах, вверенных добрым судьям."
+      ],
+      "text_en": [
+        "That the king of bees will never thrust in his sting,",
+        "and that he will be twice as large in body as the others,",
+        "shall attest to a clement rule and a moderate kingdom,",
+        "and to sacred laws entrusted to good judges."
+      ]
+    },
+    {
+      "id": "alc162",
+      "num": "146",
+      "fr": "Respublica. Salus publica.",
+      "ru": "Государство. Общественное благополучие",
+      "en": "The Republic. Public welfare",
+      "page": "162",
+      "group": "RESP",
+      "group_fr": "Respublica.",
+      "group_en": "The Republic",
+      "img": [
+        "alc162.jpg"
+      ],
+      "scans": [
+        "alc162.jpg"
+      ],
+      "text_fr": [
+        "Phœbigena erectis Epidaurius insidet aris,",
+        "Mitis, & immani conditur angue Deus.",
+        "Accurrunt ægri, veniatq́ salutifer orant:",
+        "Annuit, atque ratas efficit ille preces."
+      ],
+      "text_ru": [
+        "Отпрыск Феба, Эпидаврийский [Эскулап], восседает на воздвигнутых алтарях,",
+        "милостивый бог, облечённый в образ огромного змея.",
+        "Сбегаются больные и молят, чтобы пришёл целитель:",
+        "он кивает в знак согласия и исполняет их мольбы."
+      ],
+      "text_en": [
+        "The Epidaurian son of Phoebus [Aesculapius] sits enthroned upon the raised altars,",
+        "a gentle god, housed in the form of a monstrous serpent.",
+        "The sick hasten to him, and pray that the healer may come:",
+        "he nods assent, and makes their prayers effectual."
+      ]
+    },
+    {
+      "id": "alc163",
+      "num": "147",
+      "fr": "Respublica liberata",
+      "ru": "Государство, освобождённое от тирании",
+      "en": "The Republic liberated",
+      "page": "163",
+      "group": "RESP",
+      "group_fr": "Respublica.",
+      "group_en": "The Republic",
+      "img": [
+        "alc163.jpg"
+      ],
+      "scans": [
+        "alc163.jpg"
+      ],
+      "text_fr": [
+        "Cæsaris exitio, ceu libertate recepta,",
+        "Hæc ducibus Brutis cusa moneta fuit.",
+        "Ensiculi in primis, quibus pileus insuper adstat,",
+        "Qualem missa manu seruitia accipiunt."
+      ],
+      "text_ru": [
+        "По гибели Цезаря, как бы по обретении свободы,",
+        "была отчеканена эта монета вождями Брутами.",
+        "На ней прежде всего — два кинжальчика, над которыми возвышается шапка,",
+        "такая, какую получают рабы, отпущенные на свободу рукой господина."
+      ],
+      "text_en": [
+        "Upon the death of Caesar, as though liberty had been recovered,",
+        "this coin was struck by the leaders, the Bruti.",
+        "Upon it, foremost, are two little daggers, above which stands a cap,",
+        "such as freed slaves receive when manumitted by their master's hand."
+      ]
+    },
+    {
+      "id": "alc164",
+      "num": "148",
+      "fr": "Vita. In vitam humanam.",
+      "ru": "Жизнь. О человеческой жизни",
+      "en": "Life. On human life",
+      "page": "164",
+      "group": "VITA",
+      "group_fr": "Vita.",
+      "group_en": "Life",
+      "img": [
+        "alc164.jpg"
+      ],
+      "scans": [
+        "alc164.jpg"
+      ],
+      "text_fr": [
+        "Plus solito humanæ nunc defle incommoda vitæ,",
+        "Heraclite: scatet pluribus illa malis.",
+        "Tu rursus (si quando aliàs) extolle cachinnum",
+        "Democrite: illa magis ludicra facta fuit.",
+        "Intereà hæc cernens meditor, qua denique tecum",
+        "Fine fleam, aut tecum quomodo splene iocer."
+      ],
+      "text_ru": [
+        "Оплакивай теперь, Гераклит, тяготы человеческой жизни более, чем обычно:",
+        "она кишит ещё большим числом бед.",
+        "Ты же, напротив (если когда-либо вообще), Демокрит, подними свой хохот:",
+        "она стала ещё более нелепой.",
+        "Между тем, созерцая это, я размышляю, с каким же концом",
+        "мне плакать вместе с тобой, или каким настроением шутить вместе с тобой."
+      ],
+      "text_en": [
+        "Weep now, Heraclitus, more than usual over the misfortunes of human life:",
+        "it teems with even more evils than before.",
+        "And you, Democritus, in turn (if ever at all) raise your laughter:",
+        "it has become all the more ridiculous.",
+        "Meanwhile, beholding this, I ponder to what end at last",
+        "I should weep with you, or with what mood I should jest with you."
+      ]
+    },
+    {
+      "id": "alc165",
+      "num": "149",
+      "fr": "Aere quandoque salutem redimendam",
+      "ru": "Иногда спасение нужно выкупать ценой",
+      "en": "Sometimes safety must be ransomed with money",
+      "page": "165",
+      "group": "VITA",
+      "group_fr": "Vita.",
+      "group_en": "Life",
+      "img": [
+        "alc165.jpg"
+      ],
+      "scans": [
+        "alc165.jpg"
+      ],
+      "text_fr": [
+        "Et pedibus segnis, tumida & propendulus aluo,",
+        "Hac tamen insidias effugit arte fiber.",
+        "Mordicus ipse sibi medicata virilia vellit,",
+        "Atque abicit, sese gnarus ob illa peti.",
+        "Huius ab exemplo disces non parcere rebus,",
+        "Atque vitam vt redimas, hostibus æra dare."
+      ],
+      "text_ru": [
+        "Хотя бобр медлителен ногами и обременён раздутым, отвислым брюхом,",
+        "всё же этим искусством он избегает засады.",
+        "Он сам зубами вырывает у себя целебные половые органы",
+        "и отбрасывает их прочь, зная, что именно из-за них на него охотятся.",
+        "По его примеру ты научишься не щадить имущества,",
+        "и, дабы выкупить жизнь, отдавать деньги врагам."
+      ],
+      "text_en": [
+        "Though sluggish of foot, and burdened with a swollen, hanging belly,",
+        "yet by this art the beaver escapes the ambush.",
+        "He himself, with his teeth, tears out his own medicinal genitals,",
+        "and casts them away, knowing that it is for these that he is hunted.",
+        "By his example you shall learn not to spare your possessions,",
+        "and, in order to ransom your life, to give money to your enemies."
+      ]
+    },
+    {
+      "id": "alc166",
+      "num": "150",
+      "fr": "Mors. Cum laruis non luctandum.",
+      "ru": "Смерть. Не следует бороться с призраками",
+      "en": "Death. One must not wrestle with phantoms",
+      "page": "166",
+      "group": "MORS",
+      "group_fr": "Mors.",
+      "group_en": "Death",
+      "img": [
+        "alc166.jpg"
+      ],
+      "scans": [
+        "alc166.jpg"
+      ],
+      "text_fr": [
+        "Aeacidæ moriens percussu cuspidis Hector:,",
+        "Qui toties hosteis vicerat antè suos:",
+        "Comprimere haud potuit voce, insultantibus illis,",
+        "Dum curru, & pedibus nectere vincla parat.",
+        "Distrahite vt libitum est: sic caßi luce leonis",
+        "Connellunt barbam vel timidi lepôres."
+      ],
+      "text_ru": [
+        "Умирая от удара копья потомка Эака, Гектор,",
+        "который прежде столько раз побеждал своих врагов,",
+        "не мог сдержать голосом насмехающихся над ним,",
+        "пока те готовились привязать путы к колеснице и к его ногам.",
+        "«Терзайте, как вам угодно: так, когда лев лишён жизни,",
+        "даже робкие зайцы дёргают его за бороду»."
+      ],
+      "text_en": [
+        "Dying from the thrust of Achilles' spear, Hector,",
+        "who had so often before conquered his enemies,",
+        "could not by his voice restrain those who mocked him,",
+        "while they made ready to bind cords to the chariot and to his feet.",
+        "'Tear at me as you please: thus, when a lion is deprived of life,",
+        "even timid hares pluck at his beard.'"
+      ]
     }
   ]
 }
