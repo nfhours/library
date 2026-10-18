@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "32";
+  var APP_VER = "33";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -118,6 +118,25 @@
     if(qLang && qLang!==saved){ try{ localStorage.setItem("ic-lang", qLang); }catch(e){} }
     root.setAttribute("data-lang", lang);
   })();
+
+  // Always-visible RU/EN switch in the page's fixed top bar (if one exists —
+  // e.g. the standalone GitHub Pages index.html), so it never scrolls away
+  // or disappears depending on which view is rendered. The per-page switch
+  // in the content itself (langSwitch()/bindLangSwitch() below) stays as a
+  // fallback for contexts with no such bar (Tilda embed).
+  var backBarLangEl = document.getElementById("back-bar-lang");
+  if(backBarLangEl) document.body.classList.add("has-back-bar-lang");
+  function renderBackBarLang(){
+    if(!backBarLangEl) return;
+    backBarLangEl.innerHTML =
+      '<button type="button" data-lang="ru" aria-pressed="'+(state.lang==="ru")+'">RU</button>'+
+      '<button type="button" data-lang="en" aria-pressed="'+(state.lang==="en")+'">EN</button>';
+    backBarLangEl.querySelectorAll("button").forEach(function(b){
+      b.addEventListener("click",function(){ setLang(b.getAttribute("data-lang")); });
+    });
+  }
+  renderBackBarLang();
+
   function setLang(l){
     state.lang = l;
     try{ localStorage.setItem("ic-lang", l); }catch(e){}
@@ -127,6 +146,7 @@
       history.replaceState(null, "", u.toString());
     }catch(e){}
     root.setAttribute("data-lang", l);
+    renderBackBarLang();
     route();
   }
   function keep(slug){ try{ sessionStorage.setItem("ic-state:"+slug, JSON.stringify({q:state.q,filter:state.filter,sort:state.sort})); }catch(e){} }
