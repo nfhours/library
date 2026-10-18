@@ -4,10 +4,28 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Библиотека</title>
-<style>html,body{margin:0;background:#ece5d4}</style>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;background:#ece5d4}
+  .back-bar{
+    position:sticky;top:0;z-index:10;height:52px;
+    display:flex;align-items:center;
+    padding-inline:20px;box-sizing:border-box;
+    background:rgba(22,19,15,.86);
+    -webkit-backdrop-filter:blur(10px) saturate(1.1);backdrop-filter:blur(10px) saturate(1.1);
+    box-shadow:0 8px 24px -14px rgba(0,0,0,.5);
+  }
+  .back-bar a{
+    font-family:"IM Fell English","Iowan Old Style",Georgia,serif;
+    font-size:16px;letter-spacing:.02em;
+    color:rgba(236,229,212,.86);text-decoration:none;
+  }
+  .back-bar a:hover{color:#ece5d4}
+</style>
 </head>
 <body>
-<div id="iconologie" data-book="library"></div>
+<div class="back-bar"><a href="https://94hours.com/projects/">&larr; 94hours.com</a></div>
+<div id="iconologie" data-book="library" data-top="52px"></div>
 <script src="app.js?v=23"></script>
 </body>
 </html>
