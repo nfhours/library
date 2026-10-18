@@ -122,7 +122,7 @@
 .ic-hotspot.focus{border-color:var(--accent);background:rgba(142,43,29,.22)}
 .ic-hotspot.focus span{background:var(--accent)}
 .ic-plate-intro{margin-top:22px}
-.ic-view-toggle{display:flex;gap:6px;margin-top:28px}
+.ic-view-toggle{display:inline-flex;margin-top:28px;border:1px solid var(--rule);border-radius:999px;padding:3px}
 .ic-view-body{margin-top:6px}
 .ic-book-text{max-width:none}
 .ic-book-text .ic-numref{display:inline-flex;align-items:center;justify-content:center;min-width:1.5em;height:1.5em;
@@ -177,8 +177,8 @@
 .ic-sheet-head{flex:none;display:grid;grid-template-columns:auto 1fr auto auto;gap:8px;align-items:center;
   background:var(--paper);border-bottom:1px solid var(--rule);padding:calc(12px + env(safe-area-inset-top)) 14px 12px}
 .ic-sheet-title{font-family:var(--old);font-style:italic;font-size:1.05em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.ic-sheet-prev,.ic-sheet-next,.ic-sheet-close{width:36px;height:36px;border:1px solid var(--rule);border-radius:50%;
-  background:var(--sheet);cursor:pointer;font-size:1.1em;line-height:1;display:flex;align-items:center;justify-content:center;color:var(--ink)}
+.ic-sheet-prev,.ic-sheet-next,.ic-sheet-close{width:38px;height:38px;border:1px solid var(--rule);border-radius:50%;
+  background:var(--sheet);cursor:pointer;font-size:1.35em;line-height:1;display:flex;align-items:center;justify-content:center;color:var(--ink)}
 .ic-sheet-prev:disabled,.ic-sheet-next:disabled{opacity:.35;cursor:default}
 .ic-sheet-body{flex:1 1 auto;overflow-y:auto;-webkit-overflow-scrolling:touch;
   padding:16px 16px calc(28px + env(safe-area-inset-bottom))}
@@ -189,12 +189,14 @@
    it was falling apart for something this small. */
 .ic-nav{display:flex;flex-wrap:wrap;align-items:center;gap:14px;padding-bottom:16px;margin-bottom:10px;border-bottom:1px solid var(--rule)}
 /* Always-visible underline, not a hover-only one — on touch there's no
-   hover to reveal that this plain-looking text is actually tappable. Same
-   thin-underline language as the inline links on the main site. */
-.ic-back{font-size:.85em;padding:4px 0;border:0;background:none;color:var(--soft);cursor:pointer;
-  text-decoration:underline;text-decoration-color:rgba(28,24,19,.35);text-underline-offset:4px;
-  transition:color .2s,text-decoration-color .2s}
-.ic-back:hover{color:var(--ink);text-decoration-color:var(--ink)}
+   hover to reveal that this plain-looking text is actually tappable, and an
+   underline alone still didn't read as a button. Same outlined/invert-on-
+   hover language as the pager and the main site's ghost buttons, just
+   smaller — so it's unambiguous at a glance. */
+.ic-back{font-size:.78em;letter-spacing:.06em;text-transform:uppercase;padding:8px 16px;
+  border:1px solid rgba(28,24,19,.4);border-radius:999px;background:rgba(250,246,236,.35);
+  color:var(--ink);cursor:pointer;transition:background-color .2s,color .2s,border-color .2s}
+.ic-back:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 .ic-nav-pos{color:var(--soft);font-size:.8em;margin-left:auto;white-space:nowrap}
 .ic-nav .ic-lang{margin-left:4px}
 
@@ -231,20 +233,22 @@
 
 /* раздел «Оригинал»: скан / текст */
 .ic-orig-body{padding-bottom:6px}
-.ic-orig-toggle{display:flex;gap:6px;margin-bottom:16px}
-/* Same underline-only toggle language as the filter chips and RU/EN switch —
-   this view-mode toggle (used by both the scan/text switch on an article
-   and the list/book switch on a Grosson plate) was still the old filled-pill
-   style. */
-.ic-ov-b{font-size:.85em;letter-spacing:.02em;padding:4px 0;margin-right:18px;border:0;background:none;cursor:pointer;color:var(--soft);box-shadow:inset 0 -1px 0 transparent;transition:box-shadow .2s,color .2s}
-.ic-ov-b[aria-pressed="true"]{background:none;color:var(--ink);box-shadow:inset 0 -1px 0 var(--accent)}
+.ic-orig-toggle{display:inline-flex;margin-bottom:16px;border:1px solid var(--rule);border-radius:999px;padding:3px}
+/* Segmented control: a toggle between exactly two views reads as "pick one
+   of these two" more clearly inside one bordered pill than as two loose
+   underlined words side by side (which visitors read as ambiguous plain
+   text — same issue the chips had, but this binary case wants a visible
+   container, not just an underline). Used by both the scan/text switch on
+   an article and the list/book switch on a Grosson plate. */
+.ic-ov-b{font-size:.82em;letter-spacing:.03em;padding:6px 16px;border:0;border-radius:999px;background:none;cursor:pointer;color:var(--soft);transition:background-color .2s,color .2s}
+.ic-ov-b[aria-pressed="true"]{background:var(--accent);color:var(--paper)}
 .ic-scan-frame{position:relative;background:var(--sheet);border:1px solid var(--rule);border-radius:2px;padding:14px;cursor:zoom-in}
 .ic-scan-frame img{margin:0 auto;width:100%;height:auto}
 .ic-scan-zoom{position:absolute;top:10px;right:10px;width:34px;height:34px;border-radius:50%;border:1px solid var(--rule);
   background:var(--paper);cursor:pointer;font-size:1em;line-height:1;color:var(--ink)}
 .ic-scan-nav{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:12px;color:var(--soft);font-size:.82em}
-.ic-scan-prev,.ic-scan-next{width:36px;height:36px;border:1px solid var(--rule);border-radius:50%;background:var(--sheet);
-  cursor:pointer;font-size:1.05em;line-height:1;display:flex;align-items:center;justify-content:center;color:var(--ink)}
+.ic-scan-prev,.ic-scan-next{width:38px;height:38px;border:1px solid var(--rule);border-radius:50%;background:var(--sheet);
+  cursor:pointer;font-size:1.6em;line-height:1;display:flex;align-items:center;justify-content:center;color:var(--ink)}
 .ic-scan-prev:disabled,.ic-scan-next:disabled{opacity:.35;cursor:default}
 .ic-missing{margin-top:30px;padding:22px;background:var(--sheet);border:1px dashed var(--rule);border-radius:2px;color:var(--soft)}
 .ic-missing b{color:var(--ink);font-weight:600}
