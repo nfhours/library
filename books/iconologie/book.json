@@ -6,8 +6,8 @@
     "original": "Iconologie"
   },
   "subtitle": {
-    "ru": "Чезаре Рипа во французском переводе Жана Бодуэна, Париж, 1644. Указатель обеих частей с переводом. Нажмите на сюжет, чтобы открыть статью.",
-    "en": "Cesare Ripa, in the French translation of Jean Baudoin, Paris, 1644. Index of both parts with translation. Click a subject to open the article."
+    "ru": "Чезаре Рипа во французском переводе Жана Бодуэна, Париж, 1644 — основополагающий свод аллегорических образов западной традиции: добродетели, пороки и отвлечённые понятия в виде узнаваемых фигур с атрибутами. Указатель обеих частей с переводом; нажмите на сюжет, чтобы открыть статью.",
+    "en": "Cesare Ripa, in the French translation of Jean Baudoin, Paris, 1644 — the foundational emblem book of Western allegorical imagery: virtues, vices and abstract ideas given recognizable figures and attributes. Index of both parts with translation; click a subject to open the article."
   },
   "author": "Cesare Ripa (trad. Jean Baudoin)",
   "year": 1644,
@@ -15,7 +15,15 @@
   "idPrefix": "p",
   "viewer": "figure",
   "parts": [
-    { "n": 1, "ru": "Часть первая", "en": "Part One" },
-    { "n": 2, "ru": "Часть вторая", "en": "Part Two" }
+    {
+      "n": 1,
+      "ru": "Часть первая",
+      "en": "Part One"
+    },
+    {
+      "n": 2,
+      "ru": "Часть вторая",
+      "en": "Part Two"
+    }
   ]
 }
