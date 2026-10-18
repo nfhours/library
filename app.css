@@ -33,7 +33,7 @@
    in-content one, which scrolls away with the page. Embeds without that
    bar (e.g. Tilda) still get this as their only switch. */
 .has-back-bar-lang .ic-lang{display:none}
-.ic-lang-b{font-size:.78em;letter-spacing:.08em;text-transform:uppercase;padding:4px 0;border:0;background:none;cursor:pointer;color:var(--soft);line-height:1.3;box-shadow:inset 0 -1px 0 transparent;transition:box-shadow .2s,color .2s}
+button.ic-lang-b{font-size:.78em;letter-spacing:.08em;text-transform:uppercase;padding:4px 0;border:0;background:none;cursor:pointer;color:var(--soft);line-height:1.3;box-shadow:inset 0 -1px 0 transparent;transition:box-shadow .2s,color .2s}
 .ic-lang-b[aria-pressed="true"]{color:var(--ink);box-shadow:inset 0 -1px 0 var(--accent)}
 
 /* шапка указателя */
@@ -55,21 +55,21 @@
 /* Поиск и фильтры — без рамок и заливок, тонкие подчёркивания, как у
    переключателя языка: продолжение стиля сайта, а не форма из виджетов. */
 .ic-search-wrap{display:block;position:relative}
-.ic-search{width:100%;font-size:1.05em;padding:8px 26px 8px 2px;border:0;border-bottom:1px solid var(--rule);
+input.ic-search{width:100%;font-size:1.05em;padding:8px 26px 8px 2px;border:0;border-bottom:1px solid var(--rule);
   border-radius:0;background:transparent;-webkit-appearance:none;appearance:none;box-shadow:none;margin:0;
   transition:border-color .2s}
-.ic-search:focus{border-bottom-color:var(--accent);outline:0}
-.ic-search-clear{position:absolute;right:0;top:50%;transform:translateY(-50%);
+input.ic-search:focus{border-bottom-color:var(--accent);outline:0}
+button.ic-search-clear{position:absolute;right:0;top:50%;transform:translateY(-50%);
   width:22px;height:22px;line-height:1;font-size:18px;color:var(--soft);
   display:flex;align-items:center;justify-content:center;border-radius:50%;
   transition:color .2s,background-color .2s}
 .ic-search-clear[hidden]{display:none}
 .ic-row{display:flex;flex-wrap:wrap;gap:18px 24px;align-items:center;margin-top:18px}
 .ic-seg{display:flex;flex-wrap:wrap;gap:18px}
-.ic-chip{font-size:.85em;letter-spacing:.02em;padding:4px 0;border:0;background:none;cursor:pointer;
+button.ic-chip{font-size:.85em;letter-spacing:.02em;padding:4px 0;border:0;background:none;cursor:pointer;
   line-height:1.3;margin:0;color:var(--soft);box-shadow:inset 0 -1px 0 transparent;transition:box-shadow .2s,color .2s}
 .ic-chip[aria-pressed="true"]{color:var(--ink);background:none;box-shadow:inset 0 -1px 0 var(--accent)}
-.ic-sort{font-size:.85em;padding:4px 0;border:0;border-bottom:1px solid var(--rule);border-radius:0;
+select.ic-sort{font-size:.85em;padding:4px 0;border:0;border-bottom:1px solid var(--rule);border-radius:0;
   background:transparent;cursor:pointer;color:var(--soft);margin-left:auto;flex:0 0 auto;width:auto;max-width:max-content}
 .ic-count{color:var(--soft);font-size:.78em;margin-top:10px}
 
@@ -187,7 +187,7 @@ li.ic-book-card{display:flex;flex-direction:column;align-items:flex-start;
 .ic-sheet-head{flex:none;display:grid;grid-template-columns:auto 1fr auto auto;gap:8px;align-items:center;
   background:var(--paper);border-bottom:1px solid var(--rule);padding:calc(12px + env(safe-area-inset-top)) 14px 12px}
 .ic-sheet-title{font-family:var(--old);font-style:italic;font-size:1.05em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.ic-sheet-prev,.ic-sheet-next,.ic-sheet-close{width:38px;height:38px;border:1px solid var(--rule);border-radius:50%;
+button.ic-sheet-prev,button.ic-sheet-next,button.ic-sheet-close{width:38px;height:38px;border:1px solid var(--rule);border-radius:50%;
   background:var(--sheet);cursor:pointer;font-size:1.35em;line-height:1;display:flex;align-items:center;justify-content:center;color:var(--ink)}
 .ic-sheet-prev:disabled,.ic-sheet-next:disabled{opacity:.35;cursor:default}
 .ic-sheet-body{flex:1 1 auto;overflow-y:auto;-webkit-overflow-scrolling:touch;
@@ -203,7 +203,7 @@ li.ic-book-card{display:flex;flex-direction:column;align-items:flex-start;
    underline alone still didn't read as a button. Same outlined/invert-on-
    hover language as the pager and the main site's ghost buttons, just
    smaller — so it's unambiguous at a glance. */
-.ic-back{font-size:.78em;letter-spacing:.06em;text-transform:uppercase;padding:8px 16px;
+button.ic-back{font-size:.78em;letter-spacing:.06em;text-transform:uppercase;padding:8px 16px;
   border:1px solid rgba(28,24,19,.4);border-radius:999px;background:rgba(250,246,236,.35);
   color:var(--ink);cursor:pointer;transition:background-color .2s,color .2s,border-color .2s}
 .ic-nav-pos{color:var(--soft);font-size:.8em;margin-left:auto;white-space:nowrap}
@@ -249,14 +249,14 @@ li.ic-book-card{display:flex;flex-direction:column;align-items:flex-start;
    text — same issue the chips had, but this binary case wants a visible
    container, not just an underline). Used by both the scan/text switch on
    an article and the list/book switch on a Grosson plate. */
-.ic-ov-b{font-size:.82em;letter-spacing:.03em;padding:6px 16px;border:0;border-radius:999px;background:none;cursor:pointer;color:var(--soft);transition:background-color .2s,color .2s}
+button.ic-ov-b{font-size:.82em;letter-spacing:.03em;padding:6px 16px;border:0;border-radius:999px;background:none;cursor:pointer;color:var(--soft);transition:background-color .2s,color .2s}
 .ic-ov-b[aria-pressed="true"]{background:var(--accent);color:var(--paper)}
 .ic-scan-frame{position:relative;background:var(--sheet);border:1px solid var(--rule);border-radius:2px;padding:14px;cursor:zoom-in}
 .ic-scan-frame img{margin:0 auto;width:100%;height:auto}
-.ic-scan-zoom{position:absolute;top:10px;right:10px;width:34px;height:34px;border-radius:50%;border:1px solid var(--rule);
+button.ic-scan-zoom{position:absolute;top:10px;right:10px;width:34px;height:34px;border-radius:50%;border:1px solid var(--rule);
   background:var(--paper);cursor:pointer;font-size:1em;line-height:1;color:var(--ink)}
 .ic-scan-nav{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:12px;color:var(--soft);font-size:.82em}
-.ic-scan-prev,.ic-scan-next{width:38px;height:38px;border:1px solid var(--rule);border-radius:50%;background:var(--sheet);
+button.ic-scan-prev,button.ic-scan-next{width:38px;height:38px;border:1px solid var(--rule);border-radius:50%;background:var(--sheet);
   cursor:pointer;font-size:1.6em;line-height:1;display:flex;align-items:center;justify-content:center;color:var(--ink)}
 .ic-scan-prev:disabled,.ic-scan-next:disabled{opacity:.35;cursor:default}
 .ic-missing{margin-top:30px;padding:22px;background:var(--sheet);border:1px dashed var(--rule);border-radius:2px;color:var(--soft)}
@@ -291,7 +291,7 @@ li.ic-book-card{display:flex;flex-direction:column;align-items:flex-start;
    (hover:hover) only matches devices that can actually hover, so touch
    never triggers these at all. */
 @media (hover:hover){
-  .ic-search-clear:hover{color:var(--ink);background:var(--rule)}
+  button.ic-search-clear:hover{color:var(--ink);background:var(--rule)}
   .ic-row-item:hover{background:var(--sheet)}
   li.ic-book-card:hover{border-color:var(--accent);transform:translateY(-2px);
     box-shadow:0 24px 46px -20px rgba(70,46,20,.5), inset 0 0 0 1px rgba(255,255,255,.4)}
@@ -301,7 +301,7 @@ li.ic-book-card{display:flex;flex-direction:column;align-items:flex-start;
   .ic-book-text .ic-numref:hover{background:var(--ink)}
   .ic-plate-row:hover{background:var(--sheet)}
   .ic-obj-sum:hover{background:var(--sheet)}
-  .ic-back:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  button.ic-back:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
   .ic-pager button:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 }
 
@@ -312,7 +312,7 @@ li.ic-book-card{display:flex;flex-direction:column;align-items:flex-start;
   li.ic-book-card{padding:32px 28px}
   .ic-booklist{gap:22px}
   .ic-row-item{grid-template-columns:3.6rem 1fr;gap:10px}
-  .ic-sort{margin-left:0}
+  select.ic-sort{margin-left:0}
   .ic-h-fr{font-size:2em}
   .ic-attrs li{grid-template-columns:1fr;gap:2px}
   .ic-fig{padding:8px}
