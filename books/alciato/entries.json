@@ -5307,6 +5307,204 @@
         "The fir, fit for the seas, grows on high mountains:",
         "and even in adverse conditions there lies the greatest benefit."
       ]
+    },
+    {
+      "id": "alc217",
+      "num": "199",
+      "fr": "Picea",
+      "ru": "Ель чёрная",
+      "en": "The Spruce",
+      "page": "217",
+      "group": "ARBOR",
+      "group_fr": "Arbores.",
+      "group_en": "Trees",
+      "img": [
+        "alc217.jpg"
+      ],
+      "scans": [
+        "alc217.jpg"
+      ],
+      "text_fr": [
+        "At picea emittat nullos quòd stirpe stolones:",
+        "Illius est index, qui sine prole perit."
+      ],
+      "text_ru": [
+        "А то, что ель не пускает от своего ствола никаких побегов,",
+        "служит знаком того, кто гибнет, не оставив потомства."
+      ],
+      "text_en": [
+        "But the fact that the spruce sends out no shoots from its stock",
+        "is a token of one who perishes without offspring."
+      ]
+    },
+    {
+      "id": "alc218",
+      "num": "200",
+      "fr": "Cotonea",
+      "ru": "Айва",
+      "en": "The Quince",
+      "page": "218",
+      "group": "ARBOR",
+      "group_fr": "Arbores.",
+      "group_en": "Trees",
+      "img": [
+        "alc218.jpg"
+      ],
+      "scans": [
+        "alc218.jpg"
+      ],
+      "text_fr": [
+        "Poma nouis tribui debere Cydonia nuptis",
+        "Dicitur antiquus constituisse Solon.",
+        "Grata ori & stomacho cùm sint, vt & halitus illis",
+        "Sit suauis, blandus manet & ore lepos."
+      ],
+      "text_ru": [
+        "Говорят, что древний Солон установил, что молодожёнам",
+        "следует дарить кидонские яблоки.",
+        "Поскольку они приятны устам и желудку, то и дыхание от них",
+        "становится приятным, и остаётся на устах ласковая прелесть."
+      ],
+      "text_en": [
+        "It is said that ancient Solon decreed that quince apples",
+        "should be given to newlyweds.",
+        "Since they are pleasing to mouth and stomach, so too their breath",
+        "becomes sweet, and a gentle charm remains upon the lips."
+      ]
+    },
+    {
+      "id": "alc219",
+      "num": "201",
+      "fr": "Hedera",
+      "ru": "Плющ",
+      "en": "The Ivy",
+      "page": "219",
+      "group": "ARBOR",
+      "group_fr": "Arbores.",
+      "group_en": "Trees",
+      "img": [
+        "alc219.jpg"
+      ],
+      "scans": [
+        "alc219.jpg"
+      ],
+      "text_fr": [
+        "Haud quaquam arescens hederæ est arbuscula, Cisso",
+        "Quæ puero Bacchum dona dedisse ferunt:",
+        "Errabunda, procax, auratis fulua corymbis,",
+        "Exterius viridis, cætera pallor habet.",
+        "Hinc aptis vates cingunt sua tempora sertis",
+        "Pallescunt studijs, laus diuturna"
+      ],
+      "text_ru": [
+        "Никогда не увядающее деревце — плющ, которое, говорят,",
+        "Кисс-мальчик некогда подарил Вакху:",
+        "блуждающий, дерзкий, золотистый своими рыжими гроздьями,",
+        "снаружи зелёный, а внутри всё прочее — бледность.",
+        "Отсюда поэты увенчивают свои чела подходящими венками;",
+        "они бледнеют от занятий, а слава — долговечна"
+      ],
+      "text_en": [
+        "Never withering is the little tree of ivy, which, they say,",
+        "the boy Cissus once gave as a gift to Bacchus:",
+        "wandering, bold, tawny with its golden clusters,",
+        "green outside, while all else within is pale.",
+        "Hence poets wreathe their brows with its fitting garlands;",
+        "they grow pale from their studies, while their fame is lasting"
+      ]
+    },
+    {
+      "id": "alc220",
+      "num": "202",
+      "fr": "Ilex",
+      "ru": "Каменный дуб",
+      "en": "The Holm-oak",
+      "page": "220",
+      "group": "ARBOR",
+      "group_fr": "Arbores.",
+      "group_en": "Trees",
+      "img": [
+        "alc220.jpg"
+      ],
+      "scans": [
+        "alc220.jpg"
+      ],
+      "text_fr": [
+        "Duritie nimia quòd sese rumperet ilex,",
+        "Symbola ciuilis seditionis habet."
+      ],
+      "text_ru": [
+        "То, что каменный дуб ломается от чрезмерной твёрдости,",
+        "содержит символ гражданской смуты."
+      ],
+      "text_en": [
+        "That the holm-oak breaks apart from excessive hardness",
+        "holds the symbol of civil sedition."
+      ]
+    },
+    {
+      "id": "alc221",
+      "num": "203",
+      "fr": "Malus medica",
+      "ru": "Лимонное дерево",
+      "en": "The Citron Tree",
+      "page": "221",
+      "group": "ARBOR",
+      "group_fr": "Arbores.",
+      "group_en": "Trees",
+      "img": [
+        "alc221.jpg"
+      ],
+      "scans": [
+        "alc221.jpg"
+      ],
+      "text_fr": [
+        "Aurea sunt Veneris poma hæc: iucundus amaror",
+        "Indicat, est Græcis sic γλυκύπικρος amor."
+      ],
+      "text_ru": [
+        "Эти плоды — золотые яблоки Венеры: приятная горечь",
+        "указывает на это, ибо по-гречески любовь зовётся «сладко-горькой»."
+      ],
+      "text_en": [
+        "These fruits are the golden apples of Venus: their pleasant bitterness",
+        "signifies this, for in Greek love is called 'bittersweet'."
+      ]
+    },
+    {
+      "id": "alc222",
+      "num": "204",
+      "fr": "Buxus",
+      "ru": "Самшит",
+      "en": "The Box-tree",
+      "page": "222",
+      "group": "ARBOR",
+      "group_fr": "Arbores.",
+      "group_en": "Trees",
+      "img": [
+        "alc222.jpg"
+      ],
+      "scans": [
+        "alc222.jpg"
+      ],
+      "text_fr": [
+        "Perpetuò viridis, crispoq́ cacumine buxus,",
+        "Vnde est disparibus fistula facta modis,",
+        "Delitijs apta est teneris, & amantibus arbor.",
+        "Pallor inest illi, pallet & omnis amans."
+      ],
+      "text_ru": [
+        "Вечнозелёный самшит, с курчавой вершиной,",
+        "из которого делают свирель с неравными ладами —",
+        "дерево, подходящее для нежных утех и влюблённых.",
+        "В нём есть бледность, и бледен всякий влюблённый."
+      ],
+      "text_en": [
+        "Ever green, with a curly crown, the box-tree,",
+        "from which the pan-pipe, made with unequal reeds, is fashioned —",
+        "a tree fitting for tender delights and for lovers.",
+        "Paleness dwells in it, and every lover too grows pale."
+      ]
     }
   ]
 }
