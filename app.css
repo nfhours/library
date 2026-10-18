@@ -1,12 +1,17 @@
-/* Иконология Бодуэна. Светлое оформление, не зависит от темы сайта. */
+/* Иконология Бодуэна. Палитра и шрифты совпадают с 94hours.com, чтобы переход
+   с сайта в библиотеку не выглядел сменой продукта. */
 .ic{
-  --paper:#F4F2EC; --sheet:#FFFFFF; --ink:#22201C; --soft:#69645B; --rule:#DEDAD0;
-  --accent:#8B1E2D; --accent-soft:#F3E7E8; --ready:#2F6B4F;
-  --serif:"Literata", Georgia, "Times New Roman", serif;
-  --old:"EB Garamond", Garamond, Georgia, serif;
+  --paper:#ece5d4; --sheet:#f4efe3; --ink:#1c1813; --soft:#5f584b; --rule:rgba(28,24,19,.16);
+  --accent:#8e2b1d; --accent-soft:rgba(142,43,29,.08); --ready:#2F6B4F;
+  --serif:"EB Garamond", "Iowan Old Style", Georgia, serif;
+  --old:"IM Fell English", "Iowan Old Style", Georgia, serif;
   --top:0px;
   all:initial; display:block; box-sizing:border-box;
-  background:var(--paper); color:var(--ink);
+  background:
+    url(img/foxing.png) 220px 140px/1400px repeat,
+    url(img/paper.jpg) 0 0/1024px repeat,
+    var(--paper);
+  color:var(--ink);
   font-family:var(--serif); font-size:20px; line-height:1.6;
   -webkit-text-size-adjust:100%; text-align:left;
 }
@@ -21,7 +26,7 @@
 
 /* переключатель языка */
 .ic-top-row{display:flex;justify-content:flex-end}
-.ic-lang{display:flex;border:1px solid var(--rule);border-radius:999px;overflow:hidden;flex:none}
+.ic-lang{display:flex;border:1px solid var(--rule);border-radius:2px;overflow:hidden;flex:none}
 .ic-lang-b{font-size:.78em;padding:6px 13px;border:0;background:var(--sheet);cursor:pointer;color:var(--soft);line-height:1.3}
 .ic-lang-b[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
 
@@ -34,15 +39,15 @@
 
 .ic-controls{position:sticky;top:var(--top);z-index:4;background:var(--paper);
   padding:16px 0 12px;margin-top:18px;border-bottom:1px solid var(--rule)}
-.ic-search{width:100%;font-size:1em;padding:12px 14px;border:1px solid var(--rule);border-radius:8px;
+.ic-search{width:100%;font-size:1em;padding:12px 14px;border:1px solid var(--rule);border-radius:2px;
   background:var(--sheet);-webkit-appearance:none;appearance:none;box-shadow:none;margin:0}
 .ic-search:focus{outline:2px solid var(--accent);outline-offset:1px}
 .ic-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px}
 .ic-seg{display:flex;flex-wrap:wrap;gap:6px}
 .ic-chip,.ic-sort{font-size:.8em;padding:6px 14px;border:1px solid var(--rule);background:var(--sheet);
-  border-radius:999px;cursor:pointer;line-height:1.3;margin:0}
+  border-radius:2px;cursor:pointer;line-height:1.3;margin:0}
 .ic-chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
-.ic-sort{border-radius:8px;margin-left:auto}
+.ic-sort{border-radius:2px;margin-left:auto}
 .ic-count{color:var(--soft);font-size:.78em;margin-top:10px}
 
 .ic-part{font-family:var(--old);font-size:1.6em;font-weight:500;color:var(--accent);margin-top:36px}
@@ -67,7 +72,7 @@
 /* библиотека: список книг */
 .ic-to-lib-link{font-size:.8em;color:var(--soft);background:none;border:0;cursor:pointer;padding:6px 0;margin-right:auto}
 .ic-booklist{list-style:none;margin-top:28px;display:grid;gap:14px}
-.ic-book-card{background:var(--sheet);border:1px solid var(--rule);border-radius:6px;padding:20px 22px;cursor:pointer}
+.ic-book-card{background:var(--sheet);border:1px solid var(--rule);border-radius:2px;padding:20px 22px;cursor:pointer}
 .ic-book-card:hover{border-color:var(--accent)}
 .ic-book-title{font-family:var(--old);font-weight:500;font-size:1.5em;color:var(--ink)}
 .ic-book-author{color:var(--accent);font-size:.85em;margin-top:4px}
@@ -77,20 +82,20 @@
 
 /* ссылка на полную таблицу в карточке объекта */
 .ic-plate-link{margin-top:10px}
-.ic-plate-link a{font-size:.82em;color:var(--accent);border:1px solid var(--rule);border-radius:999px;padding:6px 14px;text-decoration:none;display:inline-block}
+.ic-plate-link a{font-size:.82em;color:var(--accent);border:1px solid var(--rule);border-radius:2px;padding:6px 14px;text-decoration:none;display:inline-block}
 .ic-plate-link a:hover{border-color:var(--accent)}
 
 /* просмотр таблицы целиком с кликабельными номерами */
-.ic-plate-wrap{position:relative;margin-top:24px;background:var(--sheet);border:1px solid var(--rule);border-radius:4px;line-height:0}
+.ic-plate-wrap{position:relative;margin-top:24px;background:var(--sheet);border:1px solid var(--rule);border-radius:2px;line-height:0}
 .ic-plate-wrap img{width:100%;height:auto;display:block}
-.ic-plate-caption{margin-top:10px;font-size:.85em;font-style:italic;color:var(--muted,#766);text-align:center;line-height:1.4}
-.ic-hotspot{position:absolute;border:2px solid transparent;border-radius:4px;background:rgba(139,30,45,.06);
+.ic-plate-caption{margin-top:10px;font-size:.85em;font-style:italic;color:var(--soft);text-align:center;line-height:1.4}
+.ic-hotspot{position:absolute;border:2px solid transparent;border-radius:2px;background:rgba(142,43,29,.06);
   cursor:pointer;padding:0;display:flex;align-items:flex-start;justify-content:flex-start}
-.ic-hotspot:hover,.ic-hotspot:focus-visible{border-color:var(--accent);background:rgba(139,30,45,.14)}
+.ic-hotspot:hover,.ic-hotspot:focus-visible{border-color:var(--accent);background:rgba(142,43,29,.14)}
 .ic-hotspot.on span{background:var(--ready)}
 .ic-hotspot span{font-family:var(--serif);font-size:11px;line-height:1;color:#fff;background:var(--soft);
-  border-radius:3px;padding:2px 5px;margin:-6px 0 0 -6px;box-shadow:0 1px 3px rgba(0,0,0,.25)}
-.ic-hotspot.focus{border-color:var(--accent);background:rgba(139,30,45,.22)}
+  border-radius:2px;padding:2px 5px;margin:-6px 0 0 -6px;box-shadow:0 1px 3px rgba(0,0,0,.25)}
+.ic-hotspot.focus{border-color:var(--accent);background:rgba(142,43,29,.22)}
 .ic-hotspot.focus span{background:var(--accent)}
 .ic-plate-intro{margin-top:22px}
 .ic-view-toggle{display:flex;gap:6px;margin-top:28px}
@@ -98,7 +103,7 @@
 .ic-book-text{max-width:none}
 .ic-book-text .ic-numref{display:inline-flex;align-items:center;justify-content:center;min-width:1.5em;height:1.5em;
   padding:0 .3em;margin-right:.4em;font-family:var(--serif);font-style:normal;font-size:.68em;font-weight:600;
-  color:#fff;background:var(--accent);border-radius:3px;text-decoration:none;vertical-align:.15em}
+  color:#fff;background:var(--accent);border-radius:2px;text-decoration:none;vertical-align:.15em}
 .ic-book-text .ic-numref:hover{background:var(--ink)}
 
 /* указатель книги-табличек: одна строка на таблицу */
@@ -106,7 +111,7 @@
 .ic-plate-row{display:grid;grid-template-columns:5.6rem 1fr;gap:16px;align-items:center;
   padding:14px 4px;border-bottom:1px solid var(--rule);cursor:pointer;color:var(--ink)}
 .ic-plate-row:hover{background:var(--sheet)}
-.ic-plate-thumb{display:block;width:5.6rem;height:5.6rem;border:1px solid var(--rule);border-radius:4px;overflow:hidden;background:var(--sheet)}
+.ic-plate-thumb{display:block;width:5.6rem;height:5.6rem;border:1px solid var(--rule);border-radius:2px;overflow:hidden;background:var(--sheet)}
 .ic-plate-thumb img{width:100%;height:100%;object-fit:contain;object-position:center}
 .ic-plate-body{display:block;min-width:0}
 .ic-plate-name{font-family:var(--old);font-style:italic;font-size:1.15em;line-height:1.3;display:block}
@@ -127,7 +132,7 @@
 .ic-obj-dot{width:9px;height:9px;border-radius:50%;border:1.5px solid var(--rule);justify-self:end}
 .ic-obj-dot.on{background:var(--ready);border-color:var(--ready)}
 .ic-obj-body{padding:4px 2px 22px}
-.ic-obj-img{border:1px solid var(--rule);border-radius:4px;background:var(--sheet);margin:0 auto 6px;max-height:40vh;object-fit:contain}
+.ic-obj-img{border:1px solid var(--rule);border-radius:2px;background:var(--sheet);margin:0 auto 6px;max-height:40vh;object-fit:contain}
 
 /* мобильная панель для предмета, открытого с гравюры: на весь экран,
    без просвета фона сверху (с ним панель читалась как случайно
@@ -157,7 +162,7 @@
 /* карточка статьи */
 .ic-nav{position:sticky;top:var(--top);z-index:4;background:var(--paper);display:flex;flex-wrap:wrap;align-items:center;gap:10px;
   padding:12px 0;border-bottom:1px solid var(--rule)}
-.ic-back{font-size:.85em;padding:7px 14px;border:1px solid var(--rule);border-radius:999px;background:var(--sheet);cursor:pointer}
+.ic-back{font-size:.85em;padding:7px 14px;border:1px solid var(--rule);border-radius:2px;background:var(--sheet);cursor:pointer}
 .ic-nav-pos{color:var(--soft);font-size:.8em;margin-left:auto}
 .ic-nav .ic-lang{margin-left:4px}
 .ic-arrow{width:42px;height:42px;border:1px solid var(--rule);border-radius:50%;background:var(--sheet);
@@ -170,7 +175,7 @@
 .ic-h-ru{font-size:1.3em;font-weight:500;margin-top:6px}
 
 .ic-figs{margin-top:26px;display:grid;gap:14px}
-.ic-fig{background:var(--sheet);border:1px solid var(--rule);border-radius:4px;padding:14px;cursor:zoom-in}
+.ic-fig{background:var(--sheet);border:1px solid var(--rule);border-radius:2px;padding:14px;cursor:zoom-in}
 .ic-fig img{margin:0 auto;width:100%;height:auto}
 .ic-fig figcaption{font-size:.75em;color:var(--soft);margin-top:8px;text-align:center}
 .ic-caption{margin-top:10px;font-size:.82em;color:var(--soft);font-style:italic}
@@ -198,9 +203,9 @@
 /* раздел «Оригинал»: скан / текст */
 .ic-orig-body{padding-bottom:6px}
 .ic-orig-toggle{display:flex;gap:6px;margin-bottom:16px}
-.ic-ov-b{font-size:.78em;padding:6px 14px;border:1px solid var(--rule);border-radius:999px;background:var(--sheet);cursor:pointer;color:var(--soft)}
+.ic-ov-b{font-size:.78em;padding:6px 14px;border:1px solid var(--rule);border-radius:2px;background:var(--sheet);cursor:pointer;color:var(--soft)}
 .ic-ov-b[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
-.ic-scan-frame{position:relative;background:var(--sheet);border:1px solid var(--rule);border-radius:4px;padding:14px;cursor:zoom-in}
+.ic-scan-frame{position:relative;background:var(--sheet);border:1px solid var(--rule);border-radius:2px;padding:14px;cursor:zoom-in}
 .ic-scan-frame img{margin:0 auto;width:100%;height:auto}
 .ic-scan-zoom{position:absolute;top:10px;right:10px;width:34px;height:34px;border-radius:50%;border:1px solid var(--rule);
   background:var(--paper);cursor:pointer;font-size:1em;line-height:1;color:var(--ink)}
@@ -208,22 +213,22 @@
 .ic-scan-prev,.ic-scan-next{width:36px;height:36px;border:1px solid var(--rule);border-radius:50%;background:var(--sheet);
   cursor:pointer;font-size:1.05em;line-height:1;display:flex;align-items:center;justify-content:center;color:var(--ink)}
 .ic-scan-prev:disabled,.ic-scan-next:disabled{opacity:.35;cursor:default}
-.ic-missing{margin-top:30px;padding:22px;background:var(--sheet);border:1px dashed var(--rule);border-radius:6px;color:var(--soft)}
+.ic-missing{margin-top:30px;padding:22px;background:var(--sheet);border:1px dashed var(--rule);border-radius:2px;color:var(--soft)}
 .ic-missing b{color:var(--ink);font-weight:600}
 
 .ic-pager{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:44px}
-.ic-pager button{text-align:left;padding:14px 16px;border:1px solid var(--rule);border-radius:6px;background:var(--sheet);cursor:pointer}
+.ic-pager button{text-align:left;padding:14px 16px;border:1px solid var(--rule);border-radius:2px;background:var(--sheet);cursor:pointer}
 .ic-pager button:last-child{text-align:right}
 .ic-pager small{display:block;font-size:.72em;color:var(--soft)}
 .ic-pager span{font-family:var(--old);font-style:italic;font-size:1.05em}
 .ic-pager button:disabled{visibility:hidden}
 
 /* просмотр гравюры */
-.ic-lb{position:fixed;inset:0;z-index:99999;background:rgba(244,242,236,.97);display:flex;align-items:center;justify-content:center;
+.ic-lb{position:fixed;inset:0;z-index:99999;background:rgba(236,229,212,.97);display:flex;align-items:center;justify-content:center;
   padding:16px;cursor:zoom-out}
 .ic-lb img{max-width:100%;max-height:100%;object-fit:contain;box-shadow:0 2px 24px rgba(0,0,0,.12)}
 .ic-lb button{position:absolute;top:12px;right:12px;width:44px;height:44px;border-radius:50%;border:1px solid var(--rule);
-  background:#fff;font-size:1.3em;cursor:pointer;color:var(--ink)}
+  background:var(--sheet);font-size:1.3em;cursor:pointer;color:var(--ink)}
 
 @media (max-width:520px){
   .ic{font-size:18px}
