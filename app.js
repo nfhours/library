@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "25";
+  var APP_VER = "26";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -242,6 +242,25 @@
   }
   window.addEventListener("hashchange", route);
   loadLibrary(function(){ route(); });
+
+  // Hide the sticky search/filter bar (or article nav) while scrolling down,
+  // bring it back on scroll up — frees up the screen on a long index list.
+  // Queries fresh each tick since renderIndex()/renderCard() replace root.innerHTML.
+  (function(){
+    var lastY = window.scrollY, ticking = false;
+    function update(){
+      ticking = false;
+      var bar = root.querySelector(".ic-controls, .ic-nav");
+      if(!bar) { lastY = window.scrollY; return; }
+      var y = window.scrollY, delta = y - lastY;
+      if(y > 80 && delta > 4) bar.classList.add("ic-hide");
+      else if(delta < -4 || y < 80) bar.classList.remove("ic-hide");
+      lastY = y;
+    }
+    window.addEventListener("scroll", function(){
+      if(!ticking){ ticking = true; requestAnimationFrame(update); }
+    }, {passive:true});
+  })();
 
   function go(book, id){ state.scroll = window.scrollY; location.hash = forcedBook ? "#/"+id : "#/"+book.slug+"/"+id; }
   function goIndex(book){ location.hash = forcedBook ? "" : "#/"+book.slug; }
