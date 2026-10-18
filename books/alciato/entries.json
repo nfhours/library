@@ -5632,6 +5632,211 @@
         "As a sign that they declared themselves native-born, these emblems were borne",
         "by men illustrious in ancient nobility."
       ]
+    },
+    {
+      "id": "alc149",
+      "num": "134",
+      "fr": "Duodecim certamina Herculis. Allegoricos.",
+      "ru": "Двенадцать подвигов Геркулеса. Аллегорически",
+      "en": "The twelve labours of Hercules. Allegorically",
+      "page": "149-150",
+      "group": "HON",
+      "group_fr": "Honor.",
+      "group_en": "Honour",
+      "img": [
+        "alc149.jpg"
+      ],
+      "scans": [
+        "alc149.jpg"
+      ],
+      "text_fr": [
+        "Roboris inuicti superat facundia laudes:",
+        "Dicta Sophistarum laqueosq́ resoluit inanes.",
+        "Non furor, aut rabies virtute potentior vlla est.",
+        "Continuum ob cursum sapienti opulentia cedit.",
+        "Spernit auaritiam, nec rapto aut fœnore gaudet.",
+        "Vincit, fœmineos spoliatq́ insignibus actus.",
+        "Expurgat sordes, & cultum mentibus addit.",
+        "Illicitos odit coitus, abigitq́ nocentes.",
+        "Barbaries, feritasq́ dat impia denique pœnam.",
+        "Vnius virtus collectos dissipat hostes.",
+        "Inuehit in patriam externis bona plurima ab oris.",
+        "Docta per ora virûm volat, & non interit vnquam."
+      ],
+      "text_ru": [
+        "Красноречие превосходит похвалы непобедимой силы",
+        "и распутывает тщетные путы речей софистов.",
+        "Нет ничего могущественнее доблести — ни ярость, ни бешенство.",
+        "Пред мудрецом отступает даже непрерывное изобилие.",
+        "Он презирает алчность, не радуется ни грабежу, ни ростовщичеству.",
+        "Он побеждает и совлекает со [амазонок] знаки их гордых деяний.",
+        "Он очищает скверну и прибавляет умам благочестие.",
+        "Он ненавидит недозволенные связи и прогоняет виновных.",
+        "Варварство и дикая свирепость, наконец, несут заслуженную кару.",
+        "Доблесть одного рассеивает собранных врагов.",
+        "Он привносит в отечество множество благ с чужих берегов.",
+        "Его учёная слава летает по устам мужей и никогда не гибнет."
+      ],
+      "text_en": [
+        "Eloquence surpasses the praises of unconquered strength,",
+        "and unravels the empty snares of the Sophists' words.",
+        "No fury, no madness, is more powerful than virtue.",
+        "Before the wise man even ceaseless abundance yields.",
+        "He spurns avarice, delights neither in plunder nor usury.",
+        "He conquers, and strips women of the marks of their proud deeds.",
+        "He purges filth, and adds refinement to minds.",
+        "He hates unlawful unions, and drives away the guilty.",
+        "Barbarity and savage cruelty are at last given their impious punishment.",
+        "The valor of one man scatters the massed enemy.",
+        "He brings into his homeland very many goods from foreign shores.",
+        "His learned fame flies through the mouths of men, and never perishes."
+      ]
+    },
+    {
+      "id": "alc151",
+      "num": "135",
+      "fr": "In nothos",
+      "ru": "О внебрачных детях",
+      "en": "On bastards",
+      "page": "151",
+      "group": "HON",
+      "group_fr": "Honor.",
+      "group_en": "Honour",
+      "img": [
+        "alc151.jpg"
+      ],
+      "scans": [
+        "alc151.jpg"
+      ],
+      "text_fr": [
+        "Herculeos spurij semper celebretis honores:",
+        "Nam vestri princeps ordinis ille fuit.",
+        "Nec prius esse deus potuit, quàm sugeret infans",
+        "Lac, sibi quod fraudis nescia Iuno dabat."
+      ],
+      "text_ru": [
+        "Внебрачные дети пусть всегда прославляют честь Геркулеса:",
+        "ибо он был первым в вашем сословии.",
+        "И не мог он стать богом прежде, чем, будучи младенцем, не пососал",
+        "молоко, которое, не ведая обмана, давала ему Юнона."
+      ],
+      "text_en": [
+        "Let bastards ever celebrate the honors of Hercules:",
+        "for he was the first of your order.",
+        "Nor could he become a god before, as an infant, he sucked",
+        "the milk which Juno, unaware of the deceit, gave him."
+      ]
+    },
+    {
+      "id": "alc152",
+      "num": "136",
+      "fr": "Imparilitas",
+      "ru": "Неравенство",
+      "en": "Inequality",
+      "page": "152",
+      "group": "HON",
+      "group_fr": "Honor.",
+      "group_en": "Honour",
+      "img": [
+        "alc152.jpg"
+      ],
+      "scans": [
+        "alc152.jpg"
+      ],
+      "text_fr": [
+        "Vt sublime volans tenuem secat aëra falco,",
+        "Vt pascuntur humi graculus, anser, anas:",
+        "Sic summûm scandit super æthera Pindarus ingens,",
+        "Sic scit humi tantùm serpere Bacchilydes."
+      ],
+      "text_ru": [
+        "Как сокол, высоко летая, рассекает тонкий воздух,",
+        "как галка, гусь и утка кормятся на земле:",
+        "так великий Пиндар восходит на самую высь, над эфиром,",
+        "а Вакхилид умеет лишь ползать по земле."
+      ],
+      "text_en": [
+        "As the falcon, flying aloft, cleaves the thin air,",
+        "as the jackdaw, the goose, and the duck feed upon the ground:",
+        "so mighty Pindar soars to the very summit, above the ether,",
+        "while Bacchylides knows only how to crawl upon the ground."
+      ]
+    },
+    {
+      "id": "alc153",
+      "num": "137",
+      "fr": "In descifcentes",
+      "ru": "Об отступниках от благородства",
+      "en": "On those who degenerate",
+      "page": "153",
+      "group": "HON",
+      "group_fr": "Honor.",
+      "group_en": "Honour",
+      "img": [
+        "alc153.jpg"
+      ],
+      "scans": [
+        "alc153.jpg"
+      ],
+      "text_fr": [
+        "Quòd sine egregios turpi maculaueris ortus,",
+        "In noxamq́ tuum verteris officium,",
+        "Fecisti, quod capra, sui mulctraria lactis",
+        "Cùm ferit, & proprias calce profundit opes."
+      ],
+      "text_ru": [
+        "За то, что ты запятнал постыдным пятном свой благородный род,",
+        "и обратил во вред собственный долг,",
+        "ты поступил так же, как коза, когда она копытом",
+        "опрокидывает подойник со своим же молоком и расточает собственное богатство."
+      ],
+      "text_en": [
+        "Because you have stained with disgrace your noble origin,",
+        "and turned your own duty into harm,",
+        "you have done as the goat does, when with her hoof",
+        "she strikes and overturns the pail of her own milk, squandering her own wealth."
+      ]
+    },
+    {
+      "id": "alc154",
+      "num": "138",
+      "fr": "Aemulatio impar",
+      "ru": "Неравное соперничество",
+      "en": "Unequal rivalry",
+      "page": "154",
+      "group": "HON",
+      "group_fr": "Honor.",
+      "group_en": "Honour",
+      "img": [
+        "alc154.jpg"
+      ],
+      "scans": [
+        "alc154.jpg"
+      ],
+      "text_fr": [
+        "Altiuolam miluus comitatur degener harpam,",
+        "Et prædæ partem sæpe cadentis habet.",
+        "Mullum prosequitur qui spretas sargus ab illo,",
+        "Prætervasq́ auidus deuorat ore dapes.",
+        "Sic mecum Oenocrates agitat deserta studentum",
+        "Vtitur hoc lippo curia tanquam oculo."
+      ],
+      "text_ru": [
+        "Неблагородный коршун сопровождает высоко летящего ястреба,",
+        "и часто получает долю его падающей добычи.",
+        "Так же спар преследует отвергнутую им кефаль,",
+        "и, жадный, пожирает пастью объедки с чужого стола.",
+        "Так и со мной Энократ разделяет уединённые занятия учёных;",
+        "курия пользуется этим подслеповатым, как глазом."
+      ],
+      "text_en": [
+        "The ignoble kite accompanies the high-flying hawk,",
+        "and often gets a share of its falling prey.",
+        "So too the sargus-fish pursues the mullet it scorns,",
+        "and greedily devours with its mouth the leftover scraps.",
+        "So Oenocrates shares with me the deserted pursuits of students;",
+        "the court makes use of this bleary-eyed man as though he were an eye."
+      ]
     }
   ]
 }
