@@ -267,7 +267,7 @@ button.ic-scan-prev,button.ic-scan-next{width:38px;height:38px;border:1px solid 
    direction label and the next article's title. */
 .ic-pager{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:44px}
 .ic-pager button{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;
-  text-align:left;height:64px;padding:0 20px;
+  text-align:left;min-height:64px;padding:12px 20px;
   background:rgba(250,246,236,.35);color:var(--ink);
   border:1px solid rgba(28,24,19,.55);border-radius:2px;cursor:pointer;
   transition:background-color .25s,color .25s,border-color .25s}
