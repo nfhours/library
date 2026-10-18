@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "30";
+  var APP_VER = "29";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -269,10 +269,17 @@
         target = Math.min(1, Math.max(0, (window.scrollY - START) / RANGE));
         current += (target - current) * EASE;
         if(Math.abs(target - current) < 0.001) current = target;
-        bar.style.maxHeight = (naturalHeight * (1 - current)) + "px";
+        var shift = naturalHeight * current;
+        bar.style.maxHeight = (naturalHeight - shift) + "px";
         bar.style.opacity = String(1 - current * 1.15 > 0 ? 1 - current * 1.15 : 0);
         bar.style.overflow = "hidden";
         bar.style.pointerEvents = current > 0.5 ? "none" : "";
+        // Shift the content itself up by the same amount the box has shrunk,
+        // so rows exit past the fixed top edge instead of getting cut off
+        // wherever the box's shrinking bottom edge happens to land.
+        for(var i=0;i<bar.children.length;i++){
+          bar.children[i].style.transform = shift ? "translateY(-"+shift+"px)" : "";
+        }
       } else {
         measuredFor = null;
       }
