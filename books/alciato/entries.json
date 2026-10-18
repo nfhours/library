@@ -1085,6 +1085,803 @@
         "'You have won, son of Telamon, you were more worthy of the arms.",
         "It is right that passion yield to justice.'"
       ]
+    },
+    {
+      "id": "alc36",
+      "num": "26",
+      "fr": "Etiam ferocissimos domari",
+      "ru": "Укрощаются даже свирепейшие",
+      "en": "Even the fiercest are tamed",
+      "page": "36",
+      "group": "JUST",
+      "group_fr": "Iustitia.",
+      "group_en": "Justice",
+      "img": [
+        "alc36.jpg"
+      ],
+      "scans": [
+        "alc36.jpg"
+      ],
+      "text_fr": [
+        "Romanum postquàm eloquium, Cicerone peremptо,",
+        "Perdiderat patriæ pestis acerba suæ:",
+        "Inscendit currus victor, iunxitq; leones,",
+        "Compulit & durum colla subire iugum,",
+        "Magnanimos cessisse suis Antonius armis,",
+        "Ambage hac cupiens significare duces."
+      ],
+      "text_ru": [
+        "После того как римское красноречие, с гибелью Цицерона,",
+        "погибло — горьким мором для собственного отечества, —",
+        "победитель взошёл на колесницу и впряг в неё львов,",
+        "и заставил их суровые шеи принять ярмо,",
+        "желая этой загадкой обозначить, что Антоний",
+        "покорил своим оружием великодушных вождей."
+      ],
+      "text_en": [
+        "After Roman eloquence, with Cicero destroyed,",
+        "had been lost — a bitter plague upon its own homeland —",
+        "the victor mounted his chariot, and yoked lions to it,",
+        "and forced their necks to bear the harsh yoke,",
+        "Antony wishing, by this riddle, to signify",
+        "that great-hearted leaders had yielded to his arms."
+      ]
+    },
+    {
+      "id": "alc37",
+      "num": "27",
+      "fr": "Gratiam referendam",
+      "ru": "Благодарность должно возвращать",
+      "en": "Gratitude must be returned",
+      "page": "37",
+      "group": "JUST",
+      "group_fr": "Iustitia.",
+      "group_en": "Justice",
+      "img": [
+        "alc37.jpg"
+      ],
+      "scans": [
+        "alc37.jpg"
+      ],
+      "text_fr": [
+        "Aërio insignis pietate Ciconia nido,",
+        "Inuestes pullos pignora grata fouet.",
+        "Taliaq; expectat sibi munera mutua reddi,",
+        "Auxilio hoc quoties mater egebit anus.",
+        "Nec pia spem soboles fallit, sed fessa parentum",
+        "Corpora fert humeris, præstat & ore cibos."
+      ],
+      "text_ru": [
+        "Аист, отличающийся благочестием в своём воздушном гнезде,",
+        "лелеет неоперившихся птенцов, дорогой залог.",
+        "И ожидает, что такие же дары будут возвращены ему,",
+        "всякий раз, когда состарившаяся мать будет нуждаться в этой помощи.",
+        "И благочестивое потомство не обманывает этой надежды, но несёт",
+        "усталые тела родителей на плечах и подаёт пищу клювом."
+      ],
+      "text_en": [
+        "The stork, distinguished for piety in her lofty nest,",
+        "cherishes her unfledged chicks, her dear pledges.",
+        "And she expects such gifts to be returned to her in turn,",
+        "whenever, grown old, the mother shall need this help.",
+        "Nor does the pious offspring betray that hope, but carries",
+        "the parents' weary bodies on their shoulders, and offers food by mouth."
+      ]
+    },
+    {
+      "id": "alc38",
+      "num": "28",
+      "fr": "Abstinentia",
+      "ru": "Воздержание",
+      "en": "Abstinence",
+      "page": "38",
+      "group": "JUST",
+      "group_fr": "Iustitia.",
+      "group_en": "Justice",
+      "img": [
+        "alc38.jpg"
+      ],
+      "scans": [
+        "alc38.jpg"
+      ],
+      "text_fr": [
+        "Marmorea in tumulis vna stat parte columnæ",
+        "Vrceus, ex alia cernere malluuium est.",
+        "Ius hæc forma monet dictum sine sordibus esse,",
+        "Defunctum puras atque habuisse manus."
+      ],
+      "text_ru": [
+        "На мраморных гробницах, с одной стороны колонны,",
+        "стоит кувшин; с другой стороны можно видеть умывальный таз.",
+        "Этот образ подобающе напоминает, что слово было сказано без скверны,",
+        "и что усопший имел чистые руки."
+      ],
+      "text_en": [
+        "On marble tombs, on one side of the column",
+        "stands a jug; on the other a washbasin is to be seen.",
+        "This form fittingly reminds us that the word was spoken without corruption,",
+        "and that the deceased kept clean hands."
+      ]
+    },
+    {
+      "id": "alc39",
+      "num": "29",
+      "fr": "Bonis à diuitibus, nihil timendum",
+      "ru": "Добрым нечего бояться от богатых",
+      "en": "The good have nothing to fear from the rich",
+      "page": "39",
+      "group": "JUST",
+      "group_fr": "Iustitia.",
+      "group_en": "Justice",
+      "img": [
+        "alc39.jpg"
+      ],
+      "scans": [
+        "alc39.jpg"
+      ],
+      "text_fr": [
+        "Iunctis contiguo Marius mihi pariete, nec non",
+        "Subbardus, nostri nomina nota fori,",
+        "Aedificant bene nummati, satagunt q; vel vltro",
+        "Obstruere heu nostris vndiq; luminibus.",
+        "Me miserum, geminæ quem tanquam Phinea raptant",
+        "Harpyiæ, vt proprijs sedibus eijciant.",
+        "Integritas nostra, atq; animus quæsitor honesti,",
+        "His nisi sint Zetes, his nisi sint Calais."
+      ],
+      "text_ru": [
+        "Марий, соединённый со мной общей стеной, а также",
+        "Суббард, имена, известные на нашем форуме,",
+        "эти денежные мешки строят и стараются, даже без повода,",
+        "увы, со всех сторон заслонить мои окна.",
+        "Несчастный я, кого, словно Финея, две",
+        "Гарпии хватают, чтобы изгнать из собственного жилища.",
+        "Моя честность и дух, искатель благородства, —",
+        "если не явятся к ним Зет и Калай."
+      ],
+      "text_en": [
+        "Marius, joined to me by a common wall, and likewise",
+        "Subbardus, names well known in our forum,",
+        "these well-moneyed men build, and strive, even unprompted,",
+        "alas, to block up my windows on every side.",
+        "Wretched me, whom, as if I were Phineus, two",
+        "Harpies seize, to cast out from his own home.",
+        "My integrity, and my spirit, a seeker of honesty —",
+        "unless Zetes and Calais come to their aid."
+      ]
+    },
+    {
+      "id": "alc40",
+      "num": "30",
+      "fr": "Signa fortium. Dialogismus",
+      "ru": "Знаки отважных. Диалог",
+      "en": "The signs of the brave. A dialogue",
+      "page": "40",
+      "group": "FORT",
+      "group_fr": "Fortitudo.",
+      "group_en": "Fortitude",
+      "img": [
+        "alc40.jpg"
+      ],
+      "scans": [
+        "alc40.jpg"
+      ],
+      "text_fr": [
+        "Quæ te causa monet volucris Saturnia, magni",
+        "Vt tumulo insideas ardua Aristomenis?",
+        "Hoc moneo: Quantum inter aues ego robore præsto,",
+        "Tantùm Semideos inter Aristomenes.",
+        "Insideant timidæ timidorum busta columbæ,",
+        "Nos aquilæ intrepidis signa benigna damus."
+      ],
+      "text_ru": [
+        "«Какая причина побуждает тебя, птица Сатурна, высоко",
+        "восседать на кургане великого Аристомена?»",
+        "«Вот что я возвещаю: насколько я превосхожу силой среди птиц,",
+        "настолько Аристомен превосходил среди полубогов.",
+        "Пусть робкие голуби садятся на могилы робких;",
+        "мы же, орлы, дарим наши благие знамения бесстрашным»."
+      ],
+      "text_en": [
+        "'What reason prompts you, bird of Saturn, loftily",
+        "to perch upon the tomb of great Aristomenes?'",
+        "'This I declare: as much as I excel in strength among birds,",
+        "so much did Aristomenes excel among demigods.",
+        "Let timid doves settle upon the tombs of the timid;",
+        "we eagles grant our favorable signs to the fearless.'"
+      ]
+    },
+    {
+      "id": "alc41",
+      "num": "31",
+      "fr": "Anechou kai apechou",
+      "ru": "Терпи и воздерживайся",
+      "en": "Bear, and forbear",
+      "page": "41",
+      "group": "FORT",
+      "group_fr": "Fortitudo.",
+      "group_en": "Fortitude",
+      "img": [
+        "alc41.jpg"
+      ],
+      "scans": [
+        "alc41.jpg"
+      ],
+      "text_fr": [
+        "Et toleranda homini tristis fortuna ferendo est,",
+        "Et nimium felix sæpe timenda fuit.",
+        "Sustine (Epictetus dicebat) & abstine. oportet",
+        "Multa pati, illicitis absq; tenêre manus.",
+        "Sic ducis imperium vinctus fert poplite taurus",
+        "In dextro: sic se continet à grauidis."
+      ],
+      "text_ru": [
+        "И печальную судьбу человек должен терпеливо сносить,",
+        "и слишком счастливую участь часто приходилось опасаться.",
+        "«Терпи и воздерживайся» (говаривал Эпиктет); надлежит",
+        "многое претерпевать и удерживать руки от запретного.",
+        "Так бык, спутанный за правую бабку, подчиняется",
+        "власти погонщика; так он удерживается от случки со стельными."
+      ],
+      "text_en": [
+        "Sad fortune must be endured and borne by man,",
+        "and fortune too happy has often had to be feared.",
+        "'Bear, and forbear' (Epictetus used to say); one must",
+        "suffer much, and keep one's hands from forbidden things.",
+        "So the bull, bound at the right hock, bears the leader's command;",
+        "thus he restrains himself from the pregnant cows."
+      ]
+    },
+    {
+      "id": "alc42",
+      "num": "32",
+      "fr": "In adulari nescientem",
+      "ru": "О том, кто не умеет льстить",
+      "en": "On one who does not know how to flatter",
+      "page": "42",
+      "group": "FORT",
+      "group_fr": "Fortitudo.",
+      "group_en": "Fortitude",
+      "img": [
+        "alc42.jpg"
+      ],
+      "scans": [
+        "alc42.jpg"
+      ],
+      "text_fr": [
+        "Scire cupis dominos toties cur Thessalis ora",
+        "Mutet, & vt varios quærat habere duces:",
+        "Nescit adulari, cuiquámue obtrudere palpum,",
+        "Regia quem morem principis omnis habet.",
+        "Sed veluti ingenuus sonipes, dorso excutit omnem,",
+        "Qui moderari ipsum nesciat Hippocomon.",
+        "Nec sæuire tamen domino fas. vltio sola est,",
+        "Dura ferum vt iubeat ferre lupata magis."
+      ],
+      "text_ru": [
+        "Ты желаешь знать, почему фессалийские удила так часто",
+        "меняют хозяев и ищут себе разных наездников:",
+        "они не умеют льстить или навязывать кому-либо ласку,",
+        "обычай, который присущ всякому царскому двору.",
+        "Но, подобно благородному горячему коню, узда сбрасывает со спины",
+        "всякого конюха, который не умеет ею управлять.",
+        "Но и хозяину не подобает яриться: единственная месть —",
+        "заставить строптивого коня носить более жёсткие удила."
+      ],
+      "text_en": [
+        "You wish to know why the Thessalian bit so often",
+        "changes masters, and seeks to have various riders:",
+        "it does not know how to flatter, or to press its caress upon anyone,",
+        "the custom that every prince's court maintains.",
+        "But like a noble, spirited horse, it throws from its back",
+        "any groom who does not know how to control it.",
+        "Yet it is not right for the master to rage; his only vengeance",
+        "is to make the fierce horse bear a harsher, harder bit."
+      ]
+    },
+    {
+      "id": "alc43",
+      "num": "33",
+      "fr": "Obdurandum aduersus vrgentia",
+      "ru": "Нужно быть стойким перед натиском",
+      "en": "One must stand firm against what presses hard",
+      "page": "43",
+      "group": "FORT",
+      "group_fr": "Fortitudo.",
+      "group_en": "Fortitude",
+      "img": [
+        "alc43.jpg"
+      ],
+      "scans": [
+        "alc43.jpg"
+      ],
+      "text_fr": [
+        "Nititur in pondus palma, & consurgit in arcum,",
+        "Quò magis & premitur, hoc mage tollit onus:",
+        "Fert & odoratas bellaria dulcia glandes,",
+        "Queis mensas inter primus habetur honos.",
+        "I puer, & reptans ramis has collige, mentis",
+        "Qui constantis erit, præmia digna feret."
+      ],
+      "text_ru": [
+        "Пальма напрягается под тяжестью и выгибается дугой,",
+        "чем сильнее её давят, тем больше она поднимает груз.",
+        "Она же приносит душистые, сладкие лакомые орехи,",
+        "которым на пиршественных столах отводится первая честь.",
+        "Ступай, отрок, и, взбираясь по ветвям, собери их: тот, чей дух",
+        "будет стойким, унесёт достойную награду."
+      ],
+      "text_en": [
+        "The palm strains against the weight, and rises into a bow-curve;",
+        "the more it is pressed down, the more it lifts its burden.",
+        "It also bears fragrant, sweet dainty nuts,",
+        "which hold the first place of honor among the tables.",
+        "Go, boy, and climb among its branches to gather them: whoever",
+        "has a steadfast mind will carry away a worthy reward."
+      ]
+    },
+    {
+      "id": "alc44",
+      "num": "34",
+      "fr": "Omnia mea mecum porto",
+      "ru": "Всё своё ношу с собой",
+      "en": "All that is mine, I carry with me",
+      "page": "44",
+      "group": "FORT",
+      "group_fr": "Fortitudo.",
+      "group_en": "Fortitude",
+      "img": [
+        "alc44.jpg"
+      ],
+      "scans": [
+        "alc44.jpg"
+      ],
+      "text_fr": [
+        "Hunnus inops Scythicique miserrimus accola ponti,",
+        "Vstus perpetuo liuida membra gelu.",
+        "Qui Cereris non nouit opes, nec dona Lyæi,",
+        "Et pretiosa tamen stragula semper habet:",
+        "Nam murina illum perstringunt vndiq; pelles.",
+        "Lumina sola patent, cætera opertus agit.",
+        "Sic furem haud metuit, sic vetos temnit & imbres,",
+        "Tutus apudq; viros, tutus apudq; deos."
+      ],
+      "text_ru": [
+        "Бедный гунн, несчастнейший житель скифского моря,",
+        "чьи посиневшие члены опалены вечным морозом,",
+        "не знающий ни богатств Цереры, ни даров Вакха,",
+        "но всегда имеющий драгоценные покровы:",
+        "ибо мышиные шкуры облегают его со всех сторон.",
+        "Открыты лишь глаза, всё остальное он держит укрытым.",
+        "Так он не боится вора, так презирает ветра и дожди,",
+        "в безопасности и среди людей, и среди богов."
+      ],
+      "text_en": [
+        "The poor Hun, most wretched dweller by the Scythian sea,",
+        "his livid limbs scorched by endless frost,",
+        "who knows neither the wealth of Ceres nor the gifts of Bacchus,",
+        "yet always has precious coverings:",
+        "for mouse-skin furs wrap him round on every side.",
+        "Only his eyes lie open; all else he keeps covered.",
+        "So he fears no thief, so he scorns the winds and the rains,",
+        "safe among men, and safe among the gods."
+      ]
+    },
+    {
+      "id": "alc45",
+      "num": "35",
+      "fr": "Concordiæ symbolum",
+      "ru": "Символ согласия",
+      "en": "The symbol of Concord",
+      "page": "45",
+      "group": "CONC",
+      "group_fr": "Concordia.",
+      "group_en": "Concord",
+      "img": [
+        "alc45.jpg"
+      ],
+      "scans": [
+        "alc45.jpg"
+      ],
+      "text_fr": [
+        "Cornicum mira inter se concordia vitæ est,",
+        "Mutua status; illis intemerata fides.",
+        "Hinc volucres hæc sceptra gerunt: q, scilicet omnes",
+        "Consensu populi stantq, caduntq, duces:",
+        "Quem si de medio tollas, discordia præceps",
+        "Aduolat, & secum regia fata trahit."
+      ],
+      "text_ru": [
+        "Удивительно согласие ворон в их совместной жизни,",
+        "и взаимная верность их нерушима.",
+        "Поэтому эти птицы несут скипетр — ведь, очевидно, все",
+        "правители стоят и падают согласием народа;",
+        "а если устранить его из середины, стремительный раздор",
+        "налетает и увлекает за собой царские судьбы."
+      ],
+      "text_en": [
+        "The concord among crows in their life together is remarkable,",
+        "and their mutual trust is unbroken.",
+        "Hence these birds bear the royal scepter — for, clearly, all",
+        "leaders stand and fall by the consent of the people;",
+        "and if you remove that from the midst, headlong discord",
+        "flies in, and drags royal fortunes down with it."
+      ]
+    },
+    {
+      "id": "alc46",
+      "num": "36",
+      "fr": "Concordia",
+      "ru": "Согласие",
+      "en": "Concord",
+      "page": "46",
+      "group": "CONC",
+      "group_fr": "Concordia.",
+      "group_en": "Concord",
+      "img": [
+        "alc46.jpg"
+      ],
+      "scans": [
+        "alc46.jpg"
+      ],
+      "text_fr": [
+        "In bellum ciuile duces cùm Roma pararet,",
+        "Viribus & caderet Martia terra suis:",
+        "Mos fuit in partes turmis coëuntibus easdem,",
+        "Coniunctas dextras mutua dona dari.",
+        "Fœderis hæc species: id habet Concordia signum,",
+        "Vt quos iungit amor, iungat & ipsa manus."
+      ],
+      "text_ru": [
+        "Когда Рим готовил вождей к гражданской войне,",
+        "и Марсова земля падала от собственных сил,",
+        "был обычай, когда отряды сходились на одну сторону,",
+        "соединять правые руки как взаимный залог.",
+        "Это вид союза: таков знак Согласия —",
+        "чтобы тех, кого соединяет любовь, соединяла и сама рука."
+      ],
+      "text_en": [
+        "When Rome was preparing her leaders for civil war,",
+        "and the land of Mars was falling by its own strength,",
+        "it was the custom, when the companies joined the same side,",
+        "for right hands to be clasped as mutual pledges.",
+        "This is a form of covenant: Concord has this sign,",
+        "that whom love joins, the hand itself should join as well."
+      ]
+    },
+    {
+      "id": "alc47",
+      "num": "37",
+      "fr": "Concordia insuperabilis",
+      "ru": "Непобедимое согласие",
+      "en": "Unconquerable concord",
+      "page": "47",
+      "group": "CONC",
+      "group_fr": "Concordia.",
+      "group_en": "Concord",
+      "img": [
+        "alc47.jpg"
+      ],
+      "scans": [
+        "alc47.jpg"
+      ],
+      "text_fr": [
+        "Tergeminos inter fuerat concordia fratres.",
+        "Tanta simul pietas mutua, & vnus amor:",
+        "Inuicti humanis vt viribus ampla tenerent",
+        "Regna, vno dicti nomine Geryonis."
+      ],
+      "text_ru": [
+        "Между трёхтелыми братьями царило согласие.",
+        "Столь велико было их взаимное благочестие и единая любовь:",
+        "так что, непобедимые человеческими силами, они удерживали",
+        "обширное царство, называясь одним именем — Герион."
+      ],
+      "text_en": [
+        "Among the triple-born brothers there was concord.",
+        "So great was their mutual devotion together, and a single love:",
+        "that, unconquered by human strength, they held",
+        "a vast kingdom, called by the one name of Geryon."
+      ]
+    },
+    {
+      "id": "alc48",
+      "num": "38",
+      "fr": "Vnum nihil, duos plurimùm posse",
+      "ru": "Один не может ничего, двое могут очень многое",
+      "en": "One alone can do nothing, two can do very much",
+      "page": "48",
+      "group": "CONC",
+      "group_fr": "Concordia.",
+      "group_en": "Concord",
+      "img": [
+        "alc48.jpg"
+      ],
+      "scans": [
+        "alc48.jpg"
+      ],
+      "text_fr": [
+        "Laertæ genitum, genitum quoque Tydeos vnà,",
+        "Hæc cera expressit Zenalis apta manus.",
+        "Viribus hic præstat, hic pollet acumine mentis,",
+        "Nec tamen alterius non eget alter ope.",
+        "Cùm duo coniuncti ierunt, victoria certa est.",
+        "Solùm mens hominem, dextráue destituit."
+      ],
+      "text_ru": [
+        "Сына Лаэрта, а вместе с ним и сына Тидея,",
+        "этот воск изваяла умелая рука Зенала.",
+        "Этот превосходит силой, тот могуч остротой ума,",
+        "но ни один из них не обходится без помощи другого.",
+        "Когда двое идут соединённые, победа несомненна.",
+        "В одиночку человеку изменяет либо разум, либо десница."
+      ],
+      "text_en": [
+        "Laertes's son, and together with him Tydeus's son too,",
+        "this wax has been shaped by Zenalis's skillful hand.",
+        "This one excels in strength, that one is powerful in sharpness of mind,",
+        "yet neither lacks need of the other's help.",
+        "When the two go joined together, victory is certain.",
+        "Alone, either mind or right hand fails a man."
+      ]
+    },
+    {
+      "id": "alc49",
+      "num": "39",
+      "fr": "Firmissima conuelli non posse",
+      "ru": "Самое крепкое нельзя вырвать с корнем",
+      "en": "The firmest things cannot be uprooted",
+      "page": "49",
+      "group": "CONC",
+      "group_fr": "Concordia.",
+      "group_en": "Concord",
+      "img": [
+        "alc49.jpg"
+      ],
+      "scans": [
+        "alc49.jpg"
+      ],
+      "text_fr": [
+        "Oceanus quamuis fluctus pater excitet omnes:",
+        "Danubiumq; omnem barbare Turca bibas.",
+        "Non tamen irrumpes perfracto limite: Cæsar",
+        "Dum Charlus populis bellica signa dabit.",
+        "Sic sacræ quercus firmis radicibus astant,",
+        "Sicca licet venti concutiant folia."
+      ],
+      "text_ru": [
+        "Пусть Океан-отец поднимет все свои волны,",
+        "и пусть ты, варвар турок, выпьешь весь Дунай, —",
+        "всё же ты не прорвёшься, сокрушив рубеж, пока",
+        "Карл-кесарь будет давать народам боевые знамёна.",
+        "Так священные дубы стоят на твёрдых корнях,",
+        "хотя ветра и сотрясают их сухие листья."
+      ],
+      "text_en": [
+        "Though Ocean the father should stir up all his waves,",
+        "and though you, barbarian Turk, should drink up the whole Danube,",
+        "still you will not break through and burst past the frontier, while",
+        "Charles the Emperor gives the peoples his war-standards.",
+        "So the sacred oaks stand firm upon their roots,",
+        "though the winds may shake their dry leaves."
+      ]
+    },
+    {
+      "id": "alc50",
+      "num": "40",
+      "fr": "Spes proxima",
+      "ru": "Надежда близка",
+      "en": "Hope is near",
+      "page": "50",
+      "group": "SPES",
+      "group_fr": "Spes.",
+      "group_en": "Hope",
+      "img": [
+        "alc50.jpg"
+      ],
+      "scans": [
+        "alc50.jpg"
+      ],
+      "text_fr": [
+        "Innumeris agitur respub. nostra procellis,",
+        "Et spes venturæ sola salutis adest:",
+        "Non secus ac nauis medio circum æquore, venti",
+        "Quam rapiunt: salsis iamq; fatiscit aquis.",
+        "Quòd si Helenæ aduenerint lucentia sydera fratres:",
+        "Amissos animos spes bona restituit."
+      ],
+      "text_ru": [
+        "Наше государство гонимо бесчисленными бурями,",
+        "и лишь надежда на грядущее спасение ему пребывает:",
+        "не иначе как корабль, который посреди моря",
+        "ветра влекут, и который уже зияет от солёных вод.",
+        "Но если явятся сияющие звёзды братьев Елены,",
+        "добрая надежда возвращает утраченное мужество."
+      ],
+      "text_en": [
+        "Our commonwealth is tossed by countless storms,",
+        "and only the hope of coming safety stands by:",
+        "no differently than a ship, which, out on the open sea,",
+        "the winds seize, and which now gapes under the salt waters.",
+        "But if the shining stars of Helen's brothers should arrive,",
+        "good hope restores the spirits that were lost."
+      ]
+    },
+    {
+      "id": "alc51",
+      "num": "41",
+      "fr": "In simulachrum Spei. Dialogismus",
+      "ru": "На изваяние Надежды. Диалог",
+      "en": "On a statue of Hope. A dialogue",
+      "page": "51",
+      "group": "SPES",
+      "group_fr": "Spes.",
+      "group_en": "Hope",
+      "img": [
+        "alc51.jpg"
+      ],
+      "scans": [
+        "alc51.jpg"
+      ],
+      "text_fr": [
+        "Quæ Dea tam læto suspectans sydera vultu?",
+        "Cuius peniculis reddita imago fuit?",
+        "Elpidij fecêre manus. Ego nominor illa,",
+        "Quæ miseris proptâ Spes bona præstat opem.",
+        "Cur viridis tibi palla? Quòd omnia me duce vernent.",
+        "Quid manibus mortis tela refracta geris?",
+        "Quòd viuos sperare decet, præcido sepultis.",
+        "Cur in dolioli tegmine pigra sedes?",
+        "Sola domi mansi volitantibus vndique noxis,",
+        "Ascræi vt docuit musa verenda senis.",
+        "Quæ tibi adest volucris? Cornix fidissimus oscen,",
+        "Est bene cùm nequeat dicere: dicit, Erit.",
+        "Qui comites? Bonus euentus, præcepsq; Cupido,",
+        "Qui præeunt? Vigilum somnia vana vocant.",
+        "Quæ tibi iuncta astat? Scelerum Rhamnusia vindex,",
+        "Scilicet vt speres nil nisi quod liceat."
+      ],
+      "text_ru": [
+        "«Какая ты богиня, что смотришь на звёзды с таким радостным лицом?",
+        "Чьей кистью был создан твой образ?»",
+        "«Руки Элпидия создали его. Меня называют той,",
+        "кто, как добрая Надежда, подаёт готовую помощь несчастным».",
+        "«Почему твой плащ зелёный?» — «Потому что под моим водительством всё расцветает».",
+        "«Почему в руках ты несёшь сломанное оружие смерти?»",
+        "«То, на что подобает надеяться живым, я отрицаю для погребённых.",
+        "Почему ты сидишь праздно, укрывшись под крышкой кувшинчика?»",
+        "«Я одна осталась дома, пока всякое зло летало повсюду,",
+        "как учила достопочтенная Муза старца из Аскры».",
+        "«Какая птица при тебе?» — «Ворона, вернейшая из вещих птиц;",
+        "хоть и не может сказать «хорошо», она говорит «будет»».",
+        "«Кто твои спутники?» — «Доброе Событие и стремительный Купидон».",
+        "«Кто идёт впереди?» — «Их называют пустыми снами бодрствующих».",
+        "«Кто стоит рядом с тобой?» — «Рамнузия, мстительница за преступления, —",
+        "то есть, чтобы ты не надеялся ни на что, кроме дозволенного»."
+      ],
+      "text_en": [
+        "'What goddess are you, gazing at the stars with so joyful a face?",
+        "By whose brush was your image rendered?'",
+        "'The hands of Elpidius made it. I am called that goddess",
+        "who, as good Hope, offers ready help to the wretched.'",
+        "'Why is your cloak green?' 'Because, with me as guide, all things flourish.'",
+        "'Why do you carry in your hands the broken weapons of death?'",
+        "'What is fitting for the living to hope for, I deny to the buried.",
+        "Why do you sit idly, sheltered beneath a little jar's lid?'",
+        "'I alone remained at home, while every evil flew about everywhere,",
+        "as the venerable Muse of the old man of Ascra has taught.'",
+        "'What bird attends you?' 'The crow, most faithful of soothsaying birds;",
+        "though it cannot say \"It is well,\" it says \"It will be.\"'",
+        "'Who are your companions?' 'Good Fortune, and headlong Cupid.'",
+        "'Who go before you?' 'They call them the vain dreams of those who watch.'",
+        "'Who stands joined beside you?' 'Rhamnusia, avenger of crimes —",
+        "namely, so that you may hope for nothing except what is permitted.'"
+      ]
+    },
+    {
+      "id": "alc53",
+      "num": "42",
+      "fr": "In dies meliora",
+      "ru": "С каждым днём лучше",
+      "en": "Better things from day to day",
+      "page": "53",
+      "group": "SPES",
+      "group_fr": "Spes.",
+      "group_en": "Hope",
+      "img": [
+        "alc53.jpg"
+      ],
+      "scans": [
+        "alc53.jpg"
+      ],
+      "text_fr": [
+        "Rostra nouo mihi setigeri suis obtulit anno,",
+        "Hæcq; cliens ventri xenia (dixit) habe.",
+        "Progreditur semper, nec retro respicit vnquam,",
+        "Gramina cum pando proruit ore vorax.",
+        "Cura viris eadem est, ne spes sublapsa retrorsum",
+        "Cedat: & vt melius sit, quod & vlterius."
+      ],
+      "text_ru": [
+        "Рыло молодой щетинистой свиньи он преподнёс мне в новом году",
+        "и сказал: «Прими этот дар клиента для своего чрева».",
+        "Она всегда движется вперёд и никогда не оглядывается назад,",
+        "жадно пожирая траву изогнутой пастью.",
+        "Такова же забота мужей: чтобы надежда, однажды поколебавшись,",
+        "не отступила назад, — и чтобы то, что дальше, было и лучше."
+      ],
+      "text_en": [
+        "The snout of a young bristly pig he offered me at the new year,",
+        "and said: 'Take this gift, a client's offering, for your belly.'",
+        "It always moves forward, and never looks back,",
+        "devouring the grass with its greedy, curved mouth.",
+        "Men should have the same care, that hope, once slipping,",
+        "should not fall backward — so that what is further on may also be better."
+      ]
+    },
+    {
+      "id": "alc54",
+      "num": "43",
+      "fr": "Illicitum non sperandum",
+      "ru": "Недозволенного не следует желать",
+      "en": "One must not hope for the forbidden",
+      "page": "54",
+      "group": "SPES",
+      "group_fr": "Spes.",
+      "group_en": "Hope",
+      "img": [
+        "alc54.jpg"
+      ],
+      "scans": [
+        "alc54.jpg"
+      ],
+      "text_fr": [
+        "Spes simul, & Nemesis nostris altaribus adsunt,",
+        "Scilicet vt speres non nisi quod liceat."
+      ],
+      "text_ru": [
+        "Надежда и Немезида вместе предстоят нашим алтарям,",
+        "а именно для того, чтобы ты надеялся лишь на то, что дозволено."
+      ],
+      "text_en": [
+        "Hope and Nemesis together stand at our altars,",
+        "namely, so that you may hope for nothing except what is permitted."
+      ]
+    },
+    {
+      "id": "alc55",
+      "num": "44",
+      "fr": "Pudicitia",
+      "ru": "Целомудрие",
+      "en": "Chastity",
+      "page": "55",
+      "group": "PUD",
+      "group_fr": "Pudicitia.",
+      "group_en": "Chastity",
+      "img": [
+        "alc55.jpg"
+      ],
+      "scans": [
+        "alc55.jpg"
+      ],
+      "text_fr": [
+        "Porphirio domini si incestet in ædibus vxor,",
+        "Despondetq; animum, præq; dolore perit.",
+        "Abdita in arcanis naturæ est causa. sit index",
+        "Syncerae hæc volucris certa pudicitiæ."
+      ],
+      "text_ru": [
+        "Если жена хозяина впадёт в кровосмешение в доме, порфирион",
+        "теряет дух и погибает от скорби.",
+        "Причина сокрыта в тайнах природы. Пусть эта птица",
+        "будет верным знаком непорочной чистоты."
+      ],
+      "text_en": [
+        "If the master's wife commits incest within the house, the purple",
+        "coot loses heart and dies of grief.",
+        "The cause lies hidden in nature's secrets. Let this bird",
+        "be the sure token of pure chastity."
+      ]
     }
   ]
 }
