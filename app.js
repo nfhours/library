@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "43";
+  var APP_VER = "44";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -79,8 +79,6 @@
     pagerNext:    {ru:"Дальше", en:"Next"},
     lbAlt:        {ru:"Гравюра", en:"Engraving"},
     close:        {ru:"Закрыть", en:"Close"},
-    readyYes:     {ru:"Есть гравюра и перевод", en:"Has engraving and translation"},
-    readyNo:      {ru:"Ещё не добавлено", en:"Not added yet"},
     langName:     {ru:"RU", en:"EN"},
     aboutLink:    {ru:"О книге", en:"About the book"},
     aboutTitle:   {ru:"О книге", en:"About the book"},
@@ -307,7 +305,11 @@
         if(Math.abs(target - current) < 0.001) current = target;
         var shift = naturalHeight * current;
         bar.style.maxHeight = (naturalHeight - shift) + "px";
-        bar.style.opacity = String(1 - current * 1.15 > 0 ? 1 - current * 1.15 : 0);
+        // Fully faded out by the halfway point, same threshold where pointer
+        // events turn off — otherwise the translucent, blurred panel keeps
+        // hanging over the list rows scrolling up underneath it for the rest
+        // of the collapse, reading as text showing through text.
+        bar.style.opacity = String(current < 0.5 ? 1 - current * 2 : 0);
         bar.style.overflow = "hidden";
         bar.style.pointerEvents = current > 0.5 ? "none" : "";
         // Shift the content itself up by the same amount the box has shrunk,
@@ -328,7 +330,13 @@
   function goIndex(book){ location.hash = forcedBook ? "" : "#/"+book.slug; }
   function hrefFor(book, suffix){ return forcedBook ? "#/"+suffix : "#/"+book.slug+"/"+suffix; }
   function toTop(){
-    function snap(){ var r=root.getBoundingClientRect(); if(r.top<0) window.scrollTo(0, window.scrollY+r.top); }
+    // The standalone page's back-bar is sticky over the top of the viewport
+    // (root.dataset.top, e.g. "52px"). Snapping root's top to 0 would land
+    // the new article's first row — the "Back to index" button — right
+    // under that bar instead of below it, so the target is offset by the
+    // bar's own height, not the bare top of the viewport.
+    var headerOffset = parseFloat(root.dataset.top) || 0;
+    function snap(){ var r=root.getBoundingClientRect(); if(r.top<headerOffset) window.scrollTo(0, window.scrollY+r.top-headerOffset); }
     snap();
     // The big plate/figure images have no explicit width/height, so the page
     // grows once each one finishes loading. The browser's own scroll
@@ -433,8 +441,6 @@
 
   function renderIndex(book){
     restoreState(book.slug);
-    var items = book.items;
-    var done = items.filter(function(it){ return ready(it, book); }).length, pct = items.length ? Math.round(done*100/items.length) : 0;
     var multiPart = book.meta.parts && book.meta.parts.length > 1;
     root.innerHTML =
       '<div class="ic-wrap">'+
@@ -523,7 +529,6 @@
         '<span class="ic-pg">'+esc(it.page)+'<small>'+(showPart?t("partN",{n:it.part}):t("pageAbbr"))+'</small></span>'+
         '<span><span class="ic-fr">'+(it.num?'<span class="ic-num">'+it.num+'</span>':"")+esc(it.fr)+'</span>'+
         '<span class="ic-ru">'+esc(titleOf(it))+(it.flag?" ("+esc(it.flag)+")":"")+'</span></span>'+
-        '<span class="ic-dot'+(ready(it,book)?" on":"")+'" title="'+esc(ready(it,book)?t("readyYes"):t("readyNo"))+'"></span>'+
       '</li>';
     });
     if(open) html+="</ul></section>";
