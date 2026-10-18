@@ -3134,6 +3134,76 @@
         "Most people call the Sarmatian mouse 'Zibellum' [sable],",
         "and the Arabian musk is famous for its sweet scent."
       ]
+    },
+    {
+      "id": "alc88",
+      "num": "77",
+      "fr": "Desidia",
+      "ru": "Леность",
+      "en": "Sloth",
+      "page": "88",
+      "group": "DESID",
+      "group_fr": "Desidia.",
+      "group_en": "Sloth",
+      "img": [
+        "alc88.jpg"
+      ],
+      "scans": [
+        "alc88.jpg"
+      ],
+      "text_fr": [
+        "Desidet in modio Essæus, speculator & astra,",
+        "Subtus & accensam contegit igne facem.",
+        "Segnities specie recti, velata cuculo,",
+        "Non se, non alios vtilitate iuuat."
+      ],
+      "text_ru": [
+        "Ессей сидит праздно под мерой, созерцая звёзды,",
+        "и под ним скрывает зажжённый факел от огня.",
+        "Леность, облачённая в личину праведности, под капюшоном,",
+        "не приносит пользы ни себе, ни другим."
+      ],
+      "text_en": [
+        "The Essene sits idle in a bushel, a watcher of the stars,",
+        "and beneath it hides his lit torch from the flame.",
+        "Sloth, veiled under the appearance of righteousness, under a cowl,",
+        "helps neither itself nor others with any benefit."
+      ]
+    },
+    {
+      "id": "alc89",
+      "num": "78",
+      "fr": "Desidiam abijciendam",
+      "ru": "Леность должно отбросить",
+      "en": "Idleness must be cast off",
+      "page": "89",
+      "group": "DESID",
+      "group_fr": "Desidia.",
+      "group_en": "Sloth",
+      "img": [
+        "alc89.jpg"
+      ],
+      "scans": [
+        "alc89.jpg"
+      ],
+      "text_fr": [
+        "Quisquis iners abeat. Nam in chœnice figere sedem,",
+        "Nos prohibent Samij dogmata sancta senis.",
+        "Surge igitur, duroq; manus adsuesce labori,",
+        "Det tibi dimensos crastina vt hora cibos."
+      ],
+      "text_ru": [
+        "Пусть праздный уйдёт. Ибо утвердить своё место на мере,",
+        "нам запрещают священные учения самосского старца.",
+        "Встань же и приучи руки к суровому труду,",
+        "чтобы завтрашний час дал тебе отмеренную пищу."
+      ],
+      "text_en": [
+        "Let whoever is idle depart. For to fix one's seat upon the measure-bushel,",
+        "the holy teachings of the Samian elder forbid us.",
+        "Rise, then, and accustom your hands to hard labor,",
+        "so that the coming hour of tomorrow may grant you your measured food."
+      ]
     }
   ]
 }
