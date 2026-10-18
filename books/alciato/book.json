@@ -13,5 +13,6 @@
   "year": 1551,
   "place": "Lyon",
   "idPrefix": "alc",
-  "viewer": "figure"
+  "viewer": "figure",
+  "showOriginal": false
 }
