@@ -73,7 +73,7 @@
   padding-bottom:6px;border-bottom:2px solid var(--ink)}
 .ic-gfr{font-family:var(--old);font-style:italic;font-weight:400;color:var(--soft);font-size:1.05em}
 .ic-gpg{margin-left:auto;color:var(--accent);font-weight:400;font-size:.9em}
-.ic-list ul{list-style:none}
+.ic-list ul{list-style:none;margin-top:10px}
 .ic-row-item{display:grid;grid-template-columns:4.4rem 1fr auto;gap:14px;align-items:center;
   padding:12px 4px;border-bottom:1px solid var(--rule);cursor:pointer;color:var(--ink)}
 .ic-row-item:hover{background:var(--sheet)}
@@ -89,11 +89,11 @@
 /* библиотека: список книг */
 .ic-to-lib-link{font-size:.8em;color:var(--soft);background:none;border:0;cursor:pointer;padding:6px 0;margin-right:auto}
 .ic-booklist{list-style:none;margin-top:48px;display:grid;gap:28px}
-.ic-book-card{background:var(--sheet);border:1px solid var(--rule);border-radius:14px;box-shadow:0 14px 30px -18px rgba(70,46,20,.35);padding:30px 32px;cursor:pointer;transition:transform .3s ease,box-shadow .3s ease}
+.ic-book-card{background:var(--sheet);border:1px solid var(--rule);border-radius:14px;box-shadow:0 14px 30px -18px rgba(70,46,20,.35);padding:34px 36px;cursor:pointer;transition:transform .3s ease,box-shadow .3s ease}
 .ic-book-card:hover{border-color:var(--accent);transform:translateY(-2px);box-shadow:0 20px 38px -18px rgba(70,46,20,.45)}
-.ic-book-title{font-family:var(--old);font-weight:500;font-size:1.7em;line-height:1.15;color:var(--ink)}
-.ic-book-author{color:var(--accent);font-size:.85em;margin-top:8px}
-.ic-book-sub{color:var(--soft);font-size:.92em;margin-top:12px;line-height:1.6}
+.ic-book-title{font-family:var(--old);font-weight:500;font-size:1.7em;line-height:1.2;color:var(--ink)}
+.ic-book-author{color:var(--accent);font-size:.85em;margin-top:10px}
+.ic-book-sub{color:var(--soft);font-size:.92em;margin-top:18px;padding-top:16px;border-top:1px solid var(--rule);line-height:1.65}
 
 .ic-about-link{font-size:.8em;color:var(--accent);background:none;border:0;cursor:pointer;padding:6px 0;margin-right:auto;text-decoration:none}
 
@@ -258,7 +258,7 @@
   .ic{font-size:18px}
   .ic-wrap{padding:32px 20px 64px}
   .ic-title{font-size:2em}
-  .ic-book-card{padding:22px 20px}
+  .ic-book-card{padding:26px 24px}
   .ic-booklist{gap:18px}
   .ic-row-item{grid-template-columns:3.6rem 1fr auto;gap:10px}
   .ic-sort{margin-left:0}
