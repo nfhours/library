@@ -5505,6 +5505,131 @@
         "a tree fitting for tender delights and for lovers.",
         "Paleness dwells in it, and every lover too grows pale."
       ]
+    },
+    {
+      "id": "alc223",
+      "num": "205",
+      "fr": "Morus",
+      "ru": "Шелковица",
+      "en": "The Mulberry",
+      "page": "223",
+      "group": "ARBOR",
+      "group_fr": "Arbores.",
+      "group_en": "Trees",
+      "img": [
+        "alc223.jpg"
+      ],
+      "scans": [
+        "alc223.jpg"
+      ],
+      "text_fr": [
+        "Serior at Morus nunquàm nisi frigore lapso",
+        "Germinat: & sapiens nomina falsa gerit."
+      ],
+      "text_ru": [
+        "А шелковица распускается позднее всех, никогда не иначе как по миновании холода,",
+        "и, мудрая, носит ложное имя."
+      ],
+      "text_en": [
+        "But the mulberry buds latest of all, never except once the cold has passed,",
+        "and, though wise, bears a false name."
+      ]
+    },
+    {
+      "id": "alc224",
+      "num": "206",
+      "fr": "Amygdalus",
+      "ru": "Миндаль",
+      "en": "The Almond",
+      "page": "224",
+      "group": "ARBOR",
+      "group_fr": "Arbores.",
+      "group_en": "Trees",
+      "img": [
+        "alc224.jpg"
+      ],
+      "scans": [
+        "alc224.jpg"
+      ],
+      "text_fr": [
+        "Cur properans folijs præmittis amygdale flores?",
+        "Odi pupillos præcocis ingenij."
+      ],
+      "text_ru": [
+        "Зачем ты, миндаль, спеша, выпускаешь цветы раньше листьев?",
+        "Я ненавижу питомцев преждевременного дарования."
+      ],
+      "text_en": [
+        "Why, almond-tree, in your haste, do you send forth flowers before leaves?",
+        "I hate pupils of precocious talent."
+      ]
+    },
+    {
+      "id": "alc225",
+      "num": "207",
+      "fr": "Laurus",
+      "ru": "Лавр",
+      "en": "The Laurel",
+      "page": "225",
+      "group": "ARBOR",
+      "group_fr": "Arbores.",
+      "group_en": "Trees",
+      "img": [
+        "alc225.jpg"
+      ],
+      "scans": [
+        "alc225.jpg"
+      ],
+      "text_fr": [
+        "Præscia venturi laurus fert signa salutis.",
+        "Subdita puluillo somnia vera facit.",
+        "ALIVD.",
+        "Debetur Carolo superatis laurea Pœnis:",
+        "Victrices ornent talia serta comas."
+      ],
+      "text_ru": [
+        "Лавр, предвидящий будущее, несёт знаки благополучия.",
+        "Положенный под подушку, он делает сны вещими.",
+        "ДРУГОЕ.",
+        "Карлу подобает лавровый венок за побеждённых пунийцев:",
+        "пусть такие венки украшают победоносные кудри."
+      ],
+      "text_en": [
+        "The laurel, foreknowing the future, bears signs of well-being.",
+        "Placed beneath a pillow, it makes dreams come true.",
+        "ANOTHER.",
+        "To Charles is owed the laurel for the conquered Carthaginians:",
+        "let such garlands adorn victorious locks."
+      ]
+    },
+    {
+      "id": "alc226",
+      "num": "208",
+      "fr": "Populus alba",
+      "ru": "Белый тополь",
+      "en": "The White Poplar",
+      "page": "226",
+      "group": "ARBOR",
+      "group_fr": "Arbores.",
+      "group_en": "Trees",
+      "img": [
+        "alc226.jpg"
+      ],
+      "scans": [
+        "alc226.jpg"
+      ],
+      "text_fr": [
+        "Herculeos crines bicolor quòd populus ornet,",
+        "Temporis alternat noxq́ diesq́ vices."
+      ],
+      "text_ru": [
+        "То, что двухцветный тополь украшает кудри Геркулеса,",
+        "означает, что ночь и день чередуются в смене времени."
+      ],
+      "text_en": [
+        "That the two-colored poplar adorns the locks of Hercules",
+        "signifies that night and day alternate in the changing of time."
+      ]
     }
   ]
 }
