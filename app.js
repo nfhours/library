@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "47";
+  var APP_VER = "48";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -82,7 +82,6 @@
     langName:     {ru:"RU", en:"EN"},
     aboutLink:    {ru:"О книге", en:"About the book"},
     moreInfo:     {ru:"Подробнее", en:"More info"},
-    lessInfo:     {ru:"Свернуть", en:"Less info"},
     aboutTitle:   {ru:"О книге", en:"About the book"},
     aboutPartial: {ru:"Перевод ещё не завершён — вот что готово на сегодня.", en:"The translation is not finished yet - here is what's ready so far."},
     plateLink:    {ru:"Смотреть таблицу целиком", en:"View the full plate"},
@@ -398,8 +397,8 @@
               (m.author?'<p class="ic-book-author">'+esc(m.author)+(m.year?", "+m.year:"")+'</p>':"")+
             '</div>'+
             (m.subtitle?
-              '<button type="button" class="ic-book-more" aria-expanded="false">'+esc(t("moreInfo"))+'</button>'+
-              '<div class="ic-book-more-wrap"><p class="ic-book-sub">'+esc(bt(m.subtitle))+'</p></div>'
+              '<details class="ic-book-more"><summary>'+esc(t("moreInfo"))+'</summary>'+
+              '<p class="ic-book-sub">'+esc(bt(m.subtitle))+'</p></details>'
             : "")+
           '</li>';
         }).join("");
@@ -411,6 +410,9 @@
             '<ul class="ic-booklist">'+(cards || '<p class="ic-empty">'+t("libEmpty")+'</p>')+'</ul>'+
           '</div>';
         bindLangSwitch(root);
+        // The <details>/<summary> toggle only expands/collapses the longer
+        // description in place — a click or Enter/Space on it must not also
+        // trigger the card's own handler below, which is what opens the book.
         root.querySelectorAll(".ic-book-card").forEach(function(c){
           c.addEventListener("click",function(e){
             if(e.target.closest(".ic-book-more")) return;
@@ -418,18 +420,6 @@
           });
           c.addEventListener("keydown",function(e){
             if((e.key==="Enter"||e.key===" ") && !e.target.closest(".ic-book-more")){ e.preventDefault(); location.hash = "#/"+c.getAttribute("data-slug"); }
-          });
-        });
-        // The "more info" toggle only expands/collapses the longer
-        // description in place — it must not also trigger the card's own
-        // click handler above, which is what opens the book.
-        root.querySelectorAll(".ic-book-more").forEach(function(btn){
-          btn.addEventListener("click",function(e){
-            e.stopPropagation();
-            var open = btn.getAttribute("aria-expanded")==="true";
-            btn.setAttribute("aria-expanded", String(!open));
-            btn.textContent = t(open?"moreInfo":"lessInfo");
-            btn.closest(".ic-book-card").classList.toggle("is-open", !open);
           });
         });
         nudgeRepaint();
