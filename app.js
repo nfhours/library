@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "36";
+  var APP_VER = "38";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -45,6 +45,8 @@
     sAlpha:       {ru:"По алфавиту", en:"Alphabetical"},
     sPage:        {ru:"По странице", en:"By page"},
     found:        {ru:"Найдено: {n}", en:"Found: {n}"},
+    noTitleMatch: {ru:"Одноимённых статей не найдено — показаны совпадения, найденные в тексте.", en:"No article is titled this — results shown match the body text."},
+    clearSearch:  {ru:"Очистить поиск", en:"Clear search"},
     emptyReady:   {ru:"Пока нет готовых статей. Они появятся здесь по мере перевода.", en:"No articles finished yet. They will appear here as the translation progresses."},
     emptySearch:  {ru:"Ничего не найдено. Попробуйте другое слово или старое написание, например «hyver» вместо «hiver».",
                     en:"Nothing found. Try another word or the old spelling, e.g. “hyver” instead of “hiver”."},
@@ -342,6 +344,22 @@
     container.querySelectorAll(".ic-lang-b").forEach(function(b){ b.addEventListener("click",function(){ setLang(b.getAttribute("data-lang")); }); });
   }
 
+  // "x" button to empty the search field in one tap instead of holding
+  // backspace — shows only once there's something to clear, re-fires the
+  // input event so the existing filtering logic just runs as normal.
+  function wireSearchClear(q){
+    var btn = q.parentNode.querySelector(".ic-search-clear");
+    if(!btn) return;
+    function sync(){ btn.hidden = !q.value; }
+    sync();
+    q.addEventListener("input", sync);
+    btn.addEventListener("click", function(){
+      q.value = "";
+      q.dispatchEvent(new Event("input", {bubbles:true}));
+      q.focus();
+    });
+  }
+
   /* ---------- библиотека: список книг ---------- */
   function renderLibraryHome(){
     root.innerHTML = '<div class="ic-wrap"><p class="ic-sub">'+t("loading")+'</p></div>';
@@ -413,13 +431,14 @@
         '<h1 class="ic-title">'+esc(bt(book.meta.title))+'</h1>'+
         '<p class="ic-sub">'+esc(bt(book.meta.subtitle))+'</p>'+
         '<div class="ic-controls">'+
-          '<input class="ic-search" type="search" placeholder="'+esc(t("searchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("searchPh"))+'">'+
+          '<span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("searchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("searchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
           '<div class="ic-row"><div class="ic-seg" role="group" aria-label="Filter">'+
             chip("all",t("fAll"))+(multiPart?chip("1",t("fPart1"))+chip("2",t("fPart2")):"")+
           '</div><select class="ic-sort" aria-label="Sort">'+
             opt("book",t("sBook"))+opt("ru",t("sAlpha"))+opt("page",t("sPage"))+
           '</select></div>'+
           '<p class="ic-count"></p>'+
+          '<p class="ic-note"></p>'+
         '</div>'+
         '<div class="ic-list"></div>'+
       '</div>';
@@ -427,6 +446,7 @@
     var toLib = root.querySelector(".ic-to-lib-link"); if(toLib) toLib.addEventListener("click",function(){ location.hash=""; });
     var q=root.querySelector(".ic-search"); q.value=state.q;
     q.addEventListener("input",function(){ state.q=q.value; keep(book.slug); fill(book); });
+    wireSearchClear(q);
     root.querySelector(".ic-sort").addEventListener("change",function(e){ state.sort=e.target.value; keep(book.slug); fill(book); });
     root.querySelectorAll(".ic-chip").forEach(function(b){ b.addEventListener("click",function(){
       state.filter=b.getAttribute("data-f"); keep(book.slug);
@@ -448,9 +468,17 @@
 
   function fill(book){
     var list=root.querySelector(".ic-list"), count=root.querySelector(".ic-count");
+    var note=root.querySelector(".ic-note");
     var res=filtered(book), nq=state.q.trim();
     var multiPart = book.meta.parts && book.meta.parts.length > 1;
     count.textContent = res.length ? t("found",{n:res.length}) : "";
+    if(note){
+      // Flag it when every hit is a body-text match only, so a search like
+      // "страх" doesn't look like it found an article actually called that.
+      var nqWords = norm(nq).split(/\s+/);
+      var hasTitleHit = nq && res.some(function(it){ return nqWords.every(function(w){ return it.titleKey.indexOf(w)>-1; }); });
+      note.textContent = (nq && res.length && !hasTitleHit) ? t("noTitleMatch") : "";
+    }
     if(!res.length){
       list.innerHTML = '<p class="ic-empty">'+(state.filter==="ready" && !nq ? t("emptyReady") : t("emptySearch"))+'</p>';
       return;
@@ -460,7 +488,11 @@
     res.forEach(function(it){
       if(state.sort!=="ru" && it.part!==part){
         if(open){ html+="</ul></section>"; open=false; }
-        if(multiPart) html+='<h2 class="ic-part">'+esc(partLabel(book,it.part))+'</h2>';
+        // Skip the big part header while searching: the relevance sort (title
+        // hits first) can interleave parts out of order, which used to repeat
+        // "Part One" / "Part Two" back and forth. Each row already carries its
+        // own "pt. 1" / "pt. 2" tag (showPart below), so nothing is lost.
+        if(multiPart && !nq) html+='<h2 class="ic-part">'+esc(partLabel(book,it.part))+'</h2>';
         part=it.part; grp=null;
       }
       if(grouped){
@@ -528,7 +560,7 @@
         '<h1 class="ic-title">'+esc(bt(book.meta.title))+'</h1>'+
         '<p class="ic-sub">'+esc(bt(book.meta.subtitle))+'</p>'+
         '<div class="ic-controls">'+
-          '<input class="ic-search" type="search" placeholder="'+esc(t("searchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("searchPh"))+'">'+
+          '<span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("searchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("searchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
           '<p class="ic-count"></p>'+
         '</div>'+
         '<ul class="ic-plate-ul"></ul>'+
@@ -548,6 +580,7 @@
       }
     }
     q.addEventListener("input",function(){ state.q=q.value; keep(book.slug); refresh(); });
+    wireSearchClear(q);
     root.querySelector(".ic-list").addEventListener("click",function(e){
       var r=e.target.closest(".ic-row-item"); if(r) go(book, r.getAttribute("data-id"));
     });
