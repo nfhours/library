@@ -4342,6 +4342,307 @@
         "Why, O Cyprian, have you again outdone Pallas before another judge?",
         "Was it not enough to win once, beneath Ida?"
       ]
+    },
+    {
+      "id": "alc119",
+      "num": "106",
+      "fr": "Ἀντέρως, id amor virtutis. Διαλογικῶς.",
+      "ru": "Антэрос, то есть любовь к добродетели. В форме диалога",
+      "en": "Anteros, that is, love of virtue. In dialogue form",
+      "page": "119",
+      "group": "AMOR",
+      "group_fr": "Amor.",
+      "group_en": "Love",
+      "img": [
+        "alc119.jpg"
+      ],
+      "scans": [
+        "alc119.jpg"
+      ],
+      "text_fr": [
+        "Dic vbi sunt incurui arcus? vbi tela Cupido?",
+        "Mollia quêis iuuenum figere corda soles?",
+        "Fax vbi tristis? vbi pennæ? tres vnde corollas",
+        "Fert manus? vnde aliam tempora cincta gerunt?",
+        "Haud mihi vulgaris est, (hospes) cùm Cypride æquam",
+        "Vlla voluptatis nos neque forma tulit,",
+        "Sed puris hominum succendo mentibus ignes",
+        "Disciplinæ: animos astraque ad alta traho.",
+        "Quattuor eq́, ipsa texo virtute corollas,",
+        "Quarum quæ Sophiæ est, tempora prima regit."
+      ],
+      "text_ru": [
+        "Скажи, где твои изогнутые луки? где стрелы, Купидон,",
+        "которыми ты обычно пронзаешь нежные сердца юношей?",
+        "Где мрачный факел? где крылья? зачем рука несёт три венка?",
+        "Зачем другой венок увивает твои виски?",
+        "— Я не из обычных, странник: никакое наслаждение,",
+        "равное Киприде, никакая красота нас не тронули,",
+        "но я возжигаю в чистых умах людей огни",
+        "учения: я влеку души к высоким звёздам.",
+        "И сам я сплетаю четыре венка добродетели,",
+        "из коих тот, что от Мудрости, венчает чело первым."
+      ],
+      "text_en": [
+        "Tell me, where are your curved bows? Where are Cupid's arrows,",
+        "with which you are wont to pierce the soft hearts of youths?",
+        "Where is the gloomy torch? Where the wings? Why does your hand carry three garlands?",
+        "Why does another wreathe your temples?",
+        "— I am no common love, stranger: no pleasure,",
+        "nor any beauty equal to Cypris, has ever moved us,",
+        "but I kindle in men's pure minds the fires",
+        "of learning: I draw their souls up to the high stars.",
+        "And I myself weave four garlands of virtue,",
+        "of which the one belonging to Wisdom crowns the foremost brow."
+      ]
+    },
+    {
+      "id": "alc120",
+      "num": "107",
+      "fr": "Ἀντέρως, Amor virtutis, alium Cupidinem superans.",
+      "ru": "Антэрос, любовь к добродетели, побеждающая иного Купидона",
+      "en": "Anteros, love of virtue, conquering the other Cupid",
+      "page": "120",
+      "group": "AMOR",
+      "group_fr": "Amor.",
+      "group_en": "Love",
+      "img": [
+        "alc120.jpg"
+      ],
+      "scans": [
+        "alc120.jpg"
+      ],
+      "text_fr": [
+        "Aligerum, aligeróque inimicum pinxit Amori,",
+        "Arcu arcu, atq́ ignes igne domans Nemesis.",
+        "Vt quæ alijs fecit, patiatur. at hic puer olim",
+        "Intrepidus gestans tela, miser lachrymat.",
+        "Ter spuit, inq́ sinus imos (res mira) crematur",
+        "Igne ignis, furias odit Amoris Amor."
+      ],
+      "text_ru": [
+        "Немезида изобразила его крылатым и враждебным крылатому Амуру,",
+        "укрощая лук луком, а пламя пламенем,",
+        "чтобы тот претерпел то, что причинял другим. А этот мальчик, некогда",
+        "бесстрашно носивший оружие, теперь, несчастный, плачет.",
+        "Трижды он плюёт, и — дивное дело — до самых глубин груди",
+        "сжигается огнём от огня: Любовь ненавидит безумства Любви."
+      ],
+      "text_en": [
+        "Nemesis painted him winged and hostile to the winged Love,",
+        "taming bow with bow, and fire with fire,",
+        "so that he might suffer what he did to others. And this boy, who once",
+        "bore his weapons fearlessly, now, wretched, weeps.",
+        "He spits three times, and — a wondrous thing — to his very depths",
+        "is burned by fire from fire: Love hates the furies of Love."
+      ]
+    },
+    {
+      "id": "alc121",
+      "num": "108",
+      "fr": "Dulcia quandoque amara fieri",
+      "ru": "Сладкое порою становится горьким",
+      "en": "Sweet things sometimes turn bitter",
+      "page": "121",
+      "group": "AMOR",
+      "group_fr": "Amor.",
+      "group_en": "Love",
+      "img": [
+        "alc121.jpg"
+      ],
+      "scans": [
+        "alc121.jpg"
+      ],
+      "text_fr": [
+        "Matre procul licta, paulùm secesserat infans",
+        "Lydius: hunc diræ sed rapuistis apes.",
+        "Venerat hic ad vos placidas ratus esse volucres,",
+        "Cùm nec ita immitis vipera sæua foret.",
+        "Quæ datis ah, dulci stimulos pro munere mellis.",
+        "Proh dolor, Heu sine te gratia nulla datur."
+      ],
+      "text_ru": [
+        "Оставив мать поодаль, младенец ненадолго отошёл в сторону —",
+        "но вы, грозные пчёлы, напали на него.",
+        "Он пришёл к вам, полагая вас кроткими птицами,",
+        "тогда как и лютая гадюка не была бы столь жестока.",
+        "Ах, какие жала вы даёте взамен сладкого дара мёда!",
+        "О боль! Увы, без тебя не даётся никакая радость."
+      ],
+      "text_en": [
+        "Having left his mother a little way off, the infant had withdrawn a short distance —",
+        "but you, dread bees, fell upon him.",
+        "He had come to you, thinking you gentle birds,",
+        "though even a fierce viper would not be so cruel.",
+        "Ah, what stings you give in return for the sweet gift of honey!",
+        "Oh the pain — alas, without you no pleasure is given."
+      ]
+    },
+    {
+      "id": "alc122",
+      "num": "109",
+      "fr": "Ferè simile ex Theocrito",
+      "ru": "Почти то же самое, из Феокрита",
+      "en": "Much the same, from Theocritus",
+      "page": "122",
+      "group": "AMOR",
+      "group_fr": "Amor.",
+      "group_en": "Love",
+      "img": [
+        "alc122.jpg"
+      ],
+      "scans": [
+        "alc122.jpg"
+      ],
+      "text_fr": [
+        "Alueolis dum mella legit: percussit Amorem",
+        "Furacem mala apes, & summis spicula liquit",
+        "In digitis: tumido gemit at puer anxius vngue.",
+        "Et quatit errabundus humum: Veneriq́ dolorem",
+        "Indicat, & grauiter queritur, quod apicula paruum",
+        "Ipsa inferre animal tam noxia vulnera possit.",
+        "Cui ridens Venus, Hanc imitaris tu quoque dixit",
+        "Nate feram: qui das tot noxia vulnera paruus."
+      ],
+      "text_ru": [
+        "Пока он воровал мёд из ульев, злая пчела",
+        "ужалила воришку Амура и оставила жало",
+        "в кончике его пальца: мальчик стонет, тревожась о вспухшем пальце,",
+        "и бродит, топая по земле; Венере свою боль",
+        "он показывает и тяжко сетует, что столь малая",
+        "тварь, пчёлка, может нанести такие болезненные раны.",
+        "Смеясь над ним, Венера сказала: ты и сам подобен",
+        "этой твари, сын мой: малый, а сколько болезненных ран наносишь."
+      ],
+      "text_en": [
+        "While stealing honey from the hives, a wicked bee",
+        "stung thieving Love and left its sting",
+        "in the tip of his finger: the boy groans, troubled by his swollen finger,",
+        "and wanders about stamping the ground; to Venus",
+        "he shows his pain, and complains bitterly that so small",
+        "a creature as a bee could inflict such painful wounds.",
+        "Laughing at him, Venus said: you too resemble",
+        "this creature, my son: small as you are, you deal just as many painful wounds."
+      ]
+    },
+    {
+      "id": "alc123",
+      "num": "110",
+      "fr": "In statuam Amoris",
+      "ru": "О статуе Амура",
+      "en": "On the statue of Love",
+      "page": "123",
+      "group": "AMOR",
+      "group_fr": "Amor.",
+      "group_en": "Love",
+      "img": [
+        "alc123.jpg"
+      ],
+      "scans": [
+        "alc123.jpg"
+      ],
+      "text_fr": [
+        "Quis sit amor, plures olim cecinêre Poëtæ,",
+        "Eius qui vario nomine gesta ferunt.",
+        "Conuenit hoc, quòd veste caret, quòd corpore paruus.",
+        "Tela, alasque ferens, lumina nulla tenet.",
+        "Hæc ora, hic habitusque Dei est. Sed dicere tantos",
+        "Si licet in vates, falsa subesse reor.",
+        "Eccur nudus agat? diuo quasi pallia desint,",
+        "Qui cunctas domiti possidet orbis opes.",
+        "Aut qui quæ soniues boreamque euadere nudus,",
+        "Alpinum potuit, strictaque prata gelu?",
+        "Si puer est, puerúmne vocas qui Nestora vincit?",
+        "An nosti Ascræi carmina docta senis?",
+        "Inconstans puer, hic obdurans: pectora quæ iam",
+        "Trans adijt, vnquàm linquere sponte potest.",
+        "At pharetras & tela gerit, quid inutile pondus?",
+        "An curuare infans cornua dura valet?",
+        "Alas curue tenet, quas nescit in æthera ferre?",
+        "Inscius in volucrum flectere telæ iecur.",
+        "Serpit humi, semperque virum mortalia corda",
+        "Lædit: & haud alas saxeus inde mouet.",
+        "Si cæcus, vittamque gerit, quid tænia cæco",
+        "Vtilis est? ideo num minus ille videt?",
+        "Quisue sagittiferum credat, qui lumine captus?",
+        "Hic certa, ast cæci spicula vana mouet.",
+        "Igneus est aiunt, versatque in pectore flammas.",
+        "Cur age viuit adhuc? omnia flamma vorat.",
+        "Quinetiam tumidis cur non extinguitur vndis,",
+        "Naiadum quoties mollia corda subit?",
+        "At tu ne tantis capiare erroribus audi,",
+        "Verus quid sit Amor carmina nostra ferent.",
+        "Iucundus labor est, lasciua per ocia. signum",
+        "Illius est, nigro punica glans clypeo."
+      ],
+      "text_ru": [
+        "Кто такой Амур, многие поэты некогда воспели,",
+        "передавая его деяния под разными именами.",
+        "В одном они согласны: что он лишён одежды, что мал телом,",
+        "что носит оружие и крылья, а глаз не имеет.",
+        "Таковы его лик и облик как бога. Но если дозволено",
+        "возразить столь великим бардам, полагаю, что здесь кроется ложь.",
+        "Зачем бы ему действовать нагим? как будто у бога недостало бы плаща,",
+        "владеющего всеми богатствами покорённого мира.",
+        "Или как бы он, нагой, смог выдержать снежный борей",
+        "и альпийские луга, скованные инеем?",
+        "Если он мальчик, то мальчиком ли ты назовёшь того, кто превосходит Нестора?",
+        "Разве не знаешь учёных песен старца из Аскры [Гесиода]?",
+        "Непостоянный мальчик — но здесь упорный: сердце, в которое он",
+        "однажды вошёл, никогда добровольно не покинет.",
+        "Но он носит колчан и стрелы — к чему бесполезная тяжесть?",
+        "Разве младенец способен согнуть тугой лук?",
+        "Он держит изогнутые крылья, не умея нести их в небо?",
+        "Неумелый — а между тем поражает стрелой печень летящих птиц.",
+        "Он ползает по земле и всегда уязвляет смертные",
+        "сердца людей: но, будучи каменным, он вовсе не шевелит оттуда крыльями.",
+        "Если он слеп и носит повязку, зачем слепому нужна повязка?",
+        "Разве он от этого видит меньше?",
+        "И кто поверил бы лучнику, лишённому зрения?",
+        "Он уверенно, хоть и слепой, посылает стрелы, [а чужие] — впустую.",
+        "Говорят, он огненный и ворочает пламя в груди.",
+        "Отчего же он тогда до сих пор жив? ведь пламя всё пожирает.",
+        "И почему он не гаснет в бурных волнах,",
+        "всякий раз как проникает в нежные сердца наяд?",
+        "Но ты, дабы не впасть в столь великие заблуждения, услышь:",
+        "что есть истинная Любовь, поведают наши стихи.",
+        "Это приятный труд среди сладострастного досуга; знаком",
+        "её служит пунийский [гранатовый] жёлудь на чёрном щите."
+      ],
+      "text_en": [
+        "Who Love is, many Poets have sung of old,",
+        "relating his deeds under various names.",
+        "In this they agree: that he lacks clothing, that he is small of body,",
+        "bearing weapons and wings, and holding no eyes.",
+        "Such is the god's face, such his form. But if I may say so",
+        "against such great bards, I think falsehood lies beneath this.",
+        "For why would he act naked? As though a god lacked a cloak,",
+        "who possesses all the riches of the conquered world.",
+        "Or how could he, naked, endure the snowy north wind",
+        "and the Alpine meadows bound in frost?",
+        "If he is a boy, do you call him a boy who surpasses even Nestor?",
+        "Do you not know the learned songs of the old man of Ascra [Hesiod]?",
+        "An inconstant boy — yet stubborn here: a heart he has",
+        "once entered, he can never willingly leave.",
+        "But he carries quiver and arrows — what use is this useless weight?",
+        "Can an infant bend so hard a bow?",
+        "He holds curved wings, not knowing how to bear them into the sky?",
+        "Unskilled, yet he pierces the liver of flying birds with his dart.",
+        "He creeps along the ground, and always wounds the mortal",
+        "hearts of men: yet, being stony, he moves no wing at all from there.",
+        "If he is blind and wears a blindfold, what use is a band to a blind man?",
+        "Does he therefore see any less?",
+        "And who would trust an archer deprived of sight?",
+        "Yet he surely moves his shafts, though blind, while others' are in vain.",
+        "They say he is fiery, and turns flames in his breast.",
+        "Why then does he still live? Fire devours everything.",
+        "Why, too, is he not quenched by the swelling waves,",
+        "whenever he enters the soft hearts of the Naiads?",
+        "But you, lest you be caught in such great errors, listen:",
+        "what true Love is, our verses will tell.",
+        "It is pleasant labor amid wanton leisure; its sign",
+        "is a Punic [pomegranate] seed upon a black shield."
+      ]
     }
   ]
 }
