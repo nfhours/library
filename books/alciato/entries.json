@@ -2660,6 +2660,117 @@
         "Pride is a womanly vice, and it betrays a hardness",
         "of face and mind, like that found in stone."
       ]
+    },
+    {
+      "id": "alc76",
+      "num": "65",
+      "fr": "Impudentia",
+      "ru": "Бесстыдство",
+      "en": "Shamelessness",
+      "page": "76",
+      "group": "SUPB",
+      "group_fr": "Superbia.",
+      "group_en": "Pride",
+      "img": [
+        "alc76.jpg"
+      ],
+      "scans": [
+        "alc76.jpg"
+      ],
+      "text_fr": [
+        "Pube tenus mulier, succincta latrantibus infra",
+        "Monstrorum catulis, Scylla biformis erat.",
+        "Monstra putantur auaritiæ, audacia, raptus.",
+        "At Scylla est nullus cui sit in ore pudor."
+      ],
+      "text_ru": [
+        "Женщина до чресл, опоясанная снизу",
+        "лающими щенками чудовищ, — такова была двуобразная Сцилла.",
+        "Чудовищами считаются алчность, дерзость, похищение.",
+        "Но Сцилла — это тот, у кого нет стыда на лице."
+      ],
+      "text_en": [
+        "A woman down to the waist, girded below",
+        "with barking monster-pups, Scylla was two-formed.",
+        "The monsters are thought to be avarice, boldness, rapine.",
+        "But Scylla is one who has no shame in his face."
+      ]
+    },
+    {
+      "id": "alc77",
+      "num": "66",
+      "fr": "Φιλαυτία",
+      "ru": "Самолюбие",
+      "en": "Self-love",
+      "page": "77",
+      "group": "SUPB",
+      "group_fr": "Superbia.",
+      "group_en": "Pride",
+      "img": [
+        "alc77.jpg"
+      ],
+      "scans": [
+        "alc77.jpg"
+      ],
+      "text_fr": [
+        "Quòd nimiùm tua forma tibi Narcisse placebat,",
+        "In florem, & noti est versa stuporis olus.",
+        "Ingenij est marcor, cladesq; Philautia: doctos",
+        "Quæ pessum plures datq; deditq; viros:",
+        "Qui veterū abiecta methodo, noua dogmata quærunt,",
+        "Nilq; suas præter tradere phantasias."
+      ],
+      "text_ru": [
+        "За то, что твоя красота, Нарцисс, чрезмерно нравилась тебе самому,",
+        "ты обратился в цветок и в траву известного оцепенения.",
+        "Самолюбие — увядание и гибель дарования: оно многих",
+        "учёных мужей погубило и продолжает губить:",
+        "тех, кто, отбросив метод древних, ищет новых учений",
+        "и не передаёт ничего, кроме собственных фантазий."
+      ],
+      "text_en": [
+        "Because your beauty, Narcissus, pleased you too much,",
+        "you were turned into a flower, and into the herb of well-known stupor.",
+        "Self-love is the withering, the ruin of talent: it has brought",
+        "many learned men to ruin, and still brings them.",
+        "Who, casting aside the method of the ancients, seek new doctrines,",
+        "and hand down nothing but their own fantasies."
+      ]
+    },
+    {
+      "id": "alc78",
+      "num": "67",
+      "fr": "Garrulitas",
+      "ru": "Болтливость",
+      "en": "Talkativeness",
+      "page": "78",
+      "group": "SUPB",
+      "group_fr": "Superbia.",
+      "group_en": "Pride",
+      "img": [
+        "alc78.jpg"
+      ],
+      "scans": [
+        "alc78.jpg"
+      ],
+      "text_fr": [
+        "Quid matutinos Progne mihi garrula somnos",
+        "Rumpis? & obstrepero Daulias ore canis?",
+        "Dignus Epops Tereus, qui maluit ense putare,",
+        "Quàm linguam immodicam stridibus eruere."
+      ],
+      "text_ru": [
+        "Зачем ты, болтливая Прокна, нарушаешь мой утренний",
+        "сон и поёшь своим шумным давлийским ртом?",
+        "Терей, ставший удодом, заслуживал скорее отсечь мечом,",
+        "чем вырывать с криком этот неумеренный язык."
+      ],
+      "text_en": [
+        "Why, chattering Procne, do you break my morning sleep,",
+        "and sing with your noisy Daulian mouth?",
+        "Tereus, turned hoopoe, deserved rather to cut away",
+        "with the sword, than to tear out that uncontrolled tongue with screeching."
+      ]
     }
   ]
 }
