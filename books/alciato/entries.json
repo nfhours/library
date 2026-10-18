@@ -1,0 +1,245 @@
+{
+  "title": "Emblemata",
+  "items": [
+    {
+      "id": "alc10",
+      "num": "1",
+      "fr": "In Deo lætandum",
+      "ru": "Должно радоваться в Боге",
+      "en": "One must rejoice in God",
+      "page": "10",
+      "group": "DSR",
+      "group_fr": "Deus, sive Religio.",
+      "group_en": "God, or Religion",
+      "img": ["alc10.jpg"],
+      "scans": ["alc10.jpg"],
+      "text_fr": [
+        "Aspice vt egregius puerum Ioues alite pictor",
+        "Fecerit Iliacum summa per astra vehi.",
+        "Quis ne Iouem tactum pueruli credat amore?",
+        "Dic, hæc Mæonius finxerit vnde senex?",
+        "Consilium, mens atque Dei cui gaudia præstant:",
+        "Creditur is summo raptus adesse Ioui."
+      ],
+      "text_ru": [
+        "Смотри, как искусный живописец сделал орла Юпитера",
+        "несущим троянского отрока сквозь высокие звёзды.",
+        "Кто поверит, что Юпитер тронут детской любовью?",
+        "Скажи, откуда слепой меонийский старец это измыслил?",
+        "Разум и ум, в которых бог находит отраду, —",
+        "тот, кто ими владеет, мнится вознесённым к высшему Юпитеру."
+      ],
+      "text_en": [
+        "See how the gifted painter made the eagle of Jove",
+        "carry the Trojan boy up through the highest stars.",
+        "Who would believe Jove touched by a boy's young love?",
+        "Tell me, where did the old Maeonian blind man invent this?",
+        "Counsel, and the mind, in which a god takes his delight —",
+        "whoever possesses them is believed snatched up to highest Jove."
+      ]
+    },
+    {
+      "id": "alc11",
+      "num": "2",
+      "fr": "Sapientia humana, stultitia est apud Deum",
+      "ru": "Человеческая мудрость — глупость пред Богом",
+      "en": "Human wisdom is foolishness before God",
+      "page": "11",
+      "group": "DSR",
+      "group_fr": "Deus, sive Religio.",
+      "group_en": "God, or Religion",
+      "img": ["alc11.jpg"],
+      "scans": ["alc11.jpg"],
+      "text_fr": [
+        "Quid dicam? quonam hoc compellem nomine monstrum",
+        "Biforme: quod non est homo, nec est draco?",
+        "Sed sine vir pedibus, summis sine partibus anguis,",
+        "Vir anguipes dici, & homiceps anguis potest.",
+        "Angue pedit homo, homine eructauit & anguis,",
+        "Nec finis hominis est, initium nec est feræ.",
+        "Sic olim Cecrops doctis regnauit Athenis,",
+        "Sic & gigantes terra mater protulit.",
+        "Hæc vafrum est species, sed relligione carentem,",
+        "Terrena tantum quique curet, indicat."
+      ],
+      "text_ru": [
+        "Что сказать? Каким именем назвать это",
+        "двуобразное чудище — не человек и не дракон?",
+        "Муж без ног, змей без верхней части —",
+        "можно назвать его мужем-змееногим или человекоглавым змеем.",
+        "Человек оканчивается змеёй, змея начинается человеком,",
+        "и нет в нём ни до конца человеческого, ни звериного.",
+        "Так некогда Кекроп царствовал в учёных Афинах,",
+        "так и земля-мать породила гигантов.",
+        "Этот облик — образ хитрого человека, лишённого истинной веры,",
+        "пекущегося лишь о земном."
+      ],
+      "text_en": [
+        "What shall I say? By what name shall I call this",
+        "two-formed monster — neither man, nor dragon?",
+        "A man without feet, a serpent without its upper half,",
+        "may be called a serpent-footed man, or a man-headed serpent.",
+        "The man ends in a snake, the snake begins in a man,",
+        "and it is neither wholly human nor wholly beast.",
+        "So once Cecrops reigned over learned Athens;",
+        "so too the earth, our mother, bore the giants.",
+        "This shape marks the cunning man who lacks true religion —",
+        "one who cares only for the things of earth."
+      ]
+    },
+    {
+      "id": "alc12",
+      "num": "3",
+      "fr": "Ficta religio",
+      "ru": "Притворная вера",
+      "en": "Feigned religion",
+      "page": "12",
+      "group": "DSR",
+      "group_fr": "Deus, sive Religio.",
+      "group_en": "God, or Religion",
+      "img": ["alc12.jpg"],
+      "scans": ["alc12.jpg"],
+      "text_fr": [
+        "Regali residens meretrix pulcherrima sella,",
+        "Purpureo insignem gestat honore peplum.",
+        "Omnibus & latices pleno è cratere propinat.",
+        "At circum cubitans ebria turba iacet.",
+        "Sic Babylona notant: quæ gentes illice forma,",
+        "Et ficta stolidas relligione capit."
+      ],
+      "text_ru": [
+        "Прекраснейшая блудница восседает на царском троне,",
+        "нося одеяние, украшенное пурпуром почёта.",
+        "Всем она подносит питьё из полной чаши,",
+        "а вокруг неё лежит пьяная, опрокинутая толпа.",
+        "Так обозначают Вавилон: тот, что этим манящим обликом",
+        "и притворной верой уловляет глупцов."
+      ],
+      "text_en": [
+        "A most beautiful harlot sits upon a royal throne,",
+        "wearing a robe splendid with purple honour.",
+        "To all she pours drink from a brimming bowl,",
+        "while around her a drunken crowd lies sprawled.",
+        "So they mark Babylon: who by that alluring shape",
+        "ensnares the foolish with a feigned religion."
+      ]
+    },
+    {
+      "id": "alc13",
+      "num": "4",
+      "fr": "Non tibi, sed religioni",
+      "ru": "Не тебе, а вере",
+      "en": "Not to you, but to religion",
+      "page": "13",
+      "group": "DSR",
+      "group_fr": "Deus, sive Religio.",
+      "group_en": "God, or Religion",
+      "img": ["alc13.jpg"],
+      "scans": ["alc13.jpg"],
+      "text_fr": [
+        "Isidis effigiem tardus gestabat asellus,",
+        "Pando verenda dorso habens mysteria.",
+        "Obuius ergo Deam quisquis reuerenter adorat,",
+        "Piasque genibus concipit flexis preces.",
+        "Ast asinus tantum præstari credit honorem",
+        "Sibi, & intumescit admodum superbiens:",
+        "Donec eum flagris compescens dixit agaso,",
+        "Non es Deus tu (aselle) sed Deum vehis."
+      ],
+      "text_ru": [
+        "Медлительный осёл нёс изображение Исиды,",
+        "неся на спине её сокровенные таинства.",
+        "И всякий, кто встречал его, благоговейно поклонялся богине,",
+        "вознося благочестивые молитвы, преклонив колени.",
+        "Но осёл полагал, что честь воздаётся",
+        "ему самому, и преисполнился гордыни:",
+        "пока погонщик, усмиряя его бичом, не сказал:",
+        "«Ты не бог, ослик, ты лишь несёшь бога»."
+      ],
+      "text_en": [
+        "A slow donkey carried the image of Isis,",
+        "bearing on its back her sacred, hidden mysteries.",
+        "So whoever met it reverently worshipped the goddess,",
+        "and offered pious prayers with bended knee.",
+        "But the donkey believed that honour was being paid",
+        "to itself, and swelled up, greatly puffed with pride —",
+        "until the driver, checking it with his whip, said:",
+        "\"You are not the god, little donkey — you only carry the god.\""
+      ]
+    },
+    {
+      "id": "alc14",
+      "num": "5",
+      "fr": "Quà Dij vocant eundum",
+      "ru": "Нужно идти туда, куда зовут боги",
+      "en": "One must go where the gods call",
+      "page": "14",
+      "group": "DSR",
+      "group_fr": "Deus, sive Religio.",
+      "group_en": "God, or Religion",
+      "img": ["alc14.jpg"],
+      "scans": ["alc14.jpg"],
+      "text_fr": [
+        "In triuio mons est lapidum: supereminet illi",
+        "Trunca Dei effigies, pectore facta tenus.",
+        "Mercurij est igitur tumulus. Suspende viator",
+        "Serta Deo: rectum qui tibi monstrat iter.",
+        "Omnes in triuio sumus, atque hoc tramite vitæ",
+        "Fallimur, ostendat ni Deus ipse viam."
+      ],
+      "text_ru": [
+        "На перекрёстке — груда камней; над ней возвышается",
+        "усечённое изображение бога, изваянное лишь до груди.",
+        "Это курган Меркурия. Путник, повесь",
+        "венки богу, что указывает тебе верный путь.",
+        "Все мы стоим на перепутье, и на этом жизненном пути",
+        "сбиваемся, если сам бог не укажет дорогу."
+      ],
+      "text_en": [
+        "At the crossroads there is a heap of stones; above it rises",
+        "a truncated image of a god, carved down to the chest.",
+        "This, then, is Mercury's mound. Traveller, hang",
+        "garlands for the god who shows you the right way.",
+        "We are all standing at a crossroads, and on this path of life",
+        "we go astray, unless the god himself points out the way."
+      ]
+    },
+    {
+      "id": "alc15",
+      "num": "6",
+      "fr": "Fidei symbolum",
+      "ru": "Символ Веры",
+      "en": "The emblem of Faith",
+      "page": "15",
+      "group": "VIR-FID",
+      "group_fr": "Virtutes. Fides.",
+      "group_en": "Virtues. Faith.",
+      "img": ["alc15.jpg"],
+      "scans": ["alc15.jpg"],
+      "text_fr": [
+        "Stet depictus Honos Tyrio velatus amictu,",
+        "Eiusque iungat nuda dextram Veritas.",
+        "Sitque Amor in medio castus: cui tempora circum",
+        "Rosa sit, Dione pulchrior Cupidine.",
+        "Constituunt hæc signa fidem, reuerentia honoris",
+        "Quam fouet, alit Amor, parturitque Veritas."
+      ],
+      "text_ru": [
+        "Пусть изображена будет Честь, облачённая в тирский пурпур,",
+        "и пусть нагая Истина соединит с ней десницу.",
+        "Пусть между ними стоит целомудренный Амур, чьи виски",
+        "увенчаны розами, прекраснее Купидона Дионы.",
+        "Эти знаки составляют Веру: благоговение чести,",
+        "которое питает Любовь и рождает, вскармливает Истина."
+      ],
+      "text_en": [
+        "Let Honour stand painted, clothed in Tyrian purple,",
+        "and let bare Truth join her right hand to his.",
+        "And let chaste Love stand between them, his temples",
+        "wreathed in roses, fairer than Dione's Cupid.",
+        "These signs establish Faith: the reverence of honour",
+        "which Love fosters, and which Truth brings forth and nourishes."
+      ]
+    }
+  ]
+}
