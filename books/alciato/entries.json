@@ -2771,6 +2771,76 @@
         "Tereus, turned hoopoe, deserved rather to cut away",
         "with the sword, than to tear out that uncontrolled tongue with screeching."
       ]
+    },
+    {
+      "id": "alc79",
+      "num": "68",
+      "fr": "Inuidia",
+      "ru": "Зависть",
+      "en": "Envy",
+      "page": "79",
+      "group": "INVD",
+      "group_fr": "Inuidia.",
+      "group_en": "Envy",
+      "img": [
+        "alc79.jpg"
+      ],
+      "scans": [
+        "alc79.jpg"
+      ],
+      "text_fr": [
+        "Squallida vipereas manducans fœmina carnes,",
+        "Cuiq; dolent oculi, quæq; suum cor edit,",
+        "Quam macies, & pallor habent, spinosaq; gestat",
+        "Tela manu. Talis pingitur inuidia."
+      ],
+      "text_ru": [
+        "Неопрятная женщина, поедающая змеиное мясо,",
+        "у которой болят глаза и которая пожирает собственное сердце,",
+        "которую истощение и бледность одолевают, и которая несёт колючее",
+        "оружие в руке. Так изображают Зависть."
+      ],
+      "text_en": [
+        "A squalid woman, eating viperous flesh,",
+        "whose eyes are sore, and who eats her own heart,",
+        "whom leanness and pallor possess, and who carries a thorny",
+        "weapon in her hand. Thus is Envy painted."
+      ]
+    },
+    {
+      "id": "alc80",
+      "num": "69",
+      "fr": "Luxuria",
+      "ru": "Похоть",
+      "en": "Lust",
+      "page": "80",
+      "group": "LUX",
+      "group_fr": "Luxuria.",
+      "group_en": "Lust",
+      "img": [
+        "alc80.jpg"
+      ],
+      "scans": [
+        "alc80.jpg"
+      ],
+      "text_fr": [
+        "Eruca capripes redimitus tempora Fanuus",
+        "Immodicæ Veneris symbola certa refert.",
+        "Est eruca salax, iudexque libidinis hircus,",
+        "Et satyri nymphas semper amare solent."
+      ],
+      "text_ru": [
+        "Козлоногий Фавн, чьи виски увенчаны гусеницей,",
+        "являет верные символы необузданной похоти.",
+        "Гусеница похотлива, а козёл — судья в вожделении,",
+        "и сатиры всегда имеют обыкновение любить нимф."
+      ],
+      "text_en": [
+        "The goat-footed Faunus, his temples wreathed with caterpillar,",
+        "reports the sure symbols of unrestrained Venus.",
+        "The caterpillar is lustful, and the he-goat is a judge of desire,",
+        "and satyrs are always wont to love the nymphs."
+      ]
     }
   ]
 }
