@@ -2350,6 +2350,199 @@
         "You wash an Ethiopian — why in vain? Ah, stop. No one",
         "can brighten the dark shadows of black night."
       ]
+    },
+    {
+      "id": "alc68",
+      "num": "57",
+      "fr": "Cuculi",
+      "ru": "Кукушки",
+      "en": "Cuckoos",
+      "page": "68",
+      "group": "STUL",
+      "group_fr": "Stultitia.",
+      "group_en": "Folly",
+      "img": [
+        "alc68.jpg"
+      ],
+      "scans": [
+        "alc68.jpg"
+      ],
+      "text_fr": [
+        "Ruricolas, agreste genus, plerique cuculos",
+        "Cur vocitent, quænam prodita causa fuit?",
+        "Vere nouo cantat Coccyx, quo tempore vites",
+        "Qui non absoluit, iure notatur iners.",
+        "Fert ouain nidos alienos, qualiter ille",
+        "Cui thalamum prodit vxor adulterio."
+      ],
+      "text_ru": [
+        "Почему многие называют деревенский люд, грубое племя,",
+        "«кукушками»? Какая причина тому приводится?",
+        "Кукушка поёт в начале весны, в то самое время, когда тот,",
+        "кто ещё не обрезал виноградник, по праву зовётся ленивым.",
+        "Она кладёт яйцо в чужие гнёзда, подобно тому,",
+        "чьё супружеское ложе жена предаёт прелюбодеянием."
+      ],
+      "text_en": [
+        "Why do most people call country folk, that rustic kind,",
+        "'cuckoos'? What reason has been given for this?",
+        "The cuckoo sings at the start of spring, the very time when he",
+        "who has not yet pruned his vines is rightly marked as lazy.",
+        "It lays its egg in another's nest, just like the man",
+        "whose wife betrays his marriage-bed with adultery."
+      ]
+    },
+    {
+      "id": "alc69",
+      "num": "58",
+      "fr": "Vespertilio",
+      "ru": "Летучая мышь",
+      "en": "The bat",
+      "page": "69",
+      "group": "STUL",
+      "group_fr": "Stultitia.",
+      "group_en": "Folly",
+      "img": [
+        "alc69.jpg"
+      ],
+      "scans": [
+        "alc69.jpg"
+      ],
+      "text_fr": [
+        "Assumpsisse suum volucri ex Mencide nomen,",
+        "Socraticum autores Chœrephoonta ferunt.",
+        "Fusca viro facies, & stridens vocula, tali",
+        "Hunc hominem potuit commaculare nota."
+      ],
+      "text_ru": [
+        "Говорят авторы, что от этой похожей на летучую мышь птицы,",
+        "последователь Сократа Херефонт получил своё прозвище.",
+        "У мужа было тёмное лицо и пронзительный голосок —",
+        "такой приметой мог он быть запятнан этим сравнением."
+      ],
+      "text_en": [
+        "They say that from this bat-like bird,",
+        "authors report that Socrates's follower Chaerephon took his nickname.",
+        "The man had a dark face and a shrill little voice;",
+        "with such a mark could he be stained by this comparison."
+      ]
+    },
+    {
+      "id": "alc70",
+      "num": "59",
+      "fr": "Aliud",
+      "ru": "Другое [о летучей мыши]",
+      "en": "Another one [on the bat]",
+      "page": "70",
+      "group": "STUL",
+      "group_fr": "Stultitia.",
+      "group_en": "Folly",
+      "img": [
+        "alc70.jpg"
+      ],
+      "scans": [
+        "alc70.jpg"
+      ],
+      "text_fr": [
+        "Vespere quæ tantùm volitat, quæ lumine lusca est,",
+        "Quæ cùm alas gestet, cætera muris habet,",
+        "Ad res diuersas trahitur mala nomina primùm",
+        "Signat: quæ latitant iudiciumq; timent.",
+        "Inde & philosophos, qui dum cœlestia quærunt,",
+        "Caligant oculis, falsaq; sola vident.",
+        "Tandem & versutos, cùm clàm sectentur vtrumq;",
+        "Acquirunt neutra qui sibi parte fidem."
+      ],
+      "text_ru": [
+        "Существо, что летает только вечером, что подслеповато при свете,",
+        "что имеет крылья, но во всём прочем подобно мыши, —",
+        "прилагается к разным вещам: во-первых, оно означает",
+        "тех, кто имеет дурную славу, кто скрывается и боится суда.",
+        "Затем и философов, которые, ища небесного,",
+        "слепнут глазами и видят одно лишь ложное.",
+        "И наконец, хитрецов, которые тайно держатся обеих сторон",
+        "и не обретают доверия ни от одной из них."
+      ],
+      "text_en": [
+        "The creature that flies only at evening, that is half-blind in the light,",
+        "that bears wings yet has all else of a mouse —",
+        "it is applied to various things; first it marks",
+        "those with evil reputations, who hide and fear judgment.",
+        "Then also philosophers, who, while they seek the heavens,",
+        "grow dim in their eyes, and see only falsehoods.",
+        "And finally the cunning ones, who secretly pursue both sides,",
+        "and gain trust from neither party."
+      ]
+    },
+    {
+      "id": "alc71",
+      "num": "60",
+      "fr": "Ira",
+      "ru": "Гнев",
+      "en": "Anger",
+      "page": "71",
+      "group": "STUL",
+      "group_fr": "Stultitia.",
+      "group_en": "Folly",
+      "img": [
+        "alc71.jpg"
+      ],
+      "scans": [
+        "alc71.jpg"
+      ],
+      "text_fr": [
+        "Alcæam veteres caudam dixêre Leonis,",
+        "Quæ stimulante iras concipit ille graues.",
+        "Lutea cùm surgit bilis, crudescit & atro",
+        "Felle dolor, furias excitat indomitas."
+      ],
+      "text_ru": [
+        "Древние называли хвост льва «Alcæa»,",
+        "которым, возбуждённый, он зачинает тяжёлый гнев.",
+        "Когда поднимается жёлтая желчь, и боль ожесточается",
+        "чёрной желчью, она возбуждает неукротимые ярости."
+      ],
+      "text_en": [
+        "The ancients called the lion's tail 'Alcaea,'",
+        "by which, when stirred, he conceives heavy wrath.",
+        "When yellow bile rises, and grief grows raw",
+        "with black gall, it rouses untamed furies."
+      ]
+    },
+    {
+      "id": "alc72",
+      "num": "61",
+      "fr": "In eum qui sibi ipsi damnum apparat",
+      "ru": "Против того, кто сам готовит себе погибель",
+      "en": "Against one who prepares his own ruin",
+      "page": "72",
+      "group": "STUL",
+      "group_fr": "Stultitia.",
+      "group_en": "Folly",
+      "img": [
+        "alc72.jpg"
+      ],
+      "scans": [
+        "alc72.jpg"
+      ],
+      "text_fr": [
+        "Capra lupum non sponte, meo nunc vbere lacto,",
+        "Quòd malè pastoris prouida cura iubet.",
+        "Creuerit ille simul, mea me post vbera pascet.",
+        "Improbitas nullo flectitur obsequio."
+      ],
+      "text_ru": [
+        "Я, коза, теперь, не по своей воле, кормлю волчонка своим выменем,",
+        "потому что так велит неразумная, чрезмерно заботливая опека пастуха.",
+        "Как только он вырастет вместе со мной, он после моего вымени съест и меня.",
+        "Порочность не смягчается никакой услугой."
+      ],
+      "text_en": [
+        "I, the goat, now suckle a wolf-cub at my udder, not willingly,",
+        "because the shepherd's ill-advised, overcautious care commands it.",
+        "Once he has grown up together with me, he will feed on me after my udder.",
+        "Wickedness is bent by no kindness shown to it."
+      ]
     }
   ]
 }
