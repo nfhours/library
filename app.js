@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "35";
+  var APP_VER = "36";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -267,12 +267,15 @@
   window.addEventListener("hashchange", route);
   loadLibrary(function(){ route(); });
 
-  // Collapse the sticky search/filter bar (or article nav) smoothly as the
-  // visitor scrolls down, so the list genuinely slides up to take its place
+  // Collapse the sticky search/filter bar smoothly as the visitor scrolls
+  // down a long index, so the list genuinely slides up to take its place
   // — not just a hidden overlay with a gap left behind. Progress tracks
   // scrollY continuously (not a hide/show threshold), and an eased current
   // value chases that target every frame, which is what gives the list its
-  // slight catch-up lag instead of snapping.
+  // slight catch-up lag instead of snapping. Deliberately NOT applied to
+  // the article-page nav (.ic-nav) — that bar is small and only has two
+  // short-lived items in it, collapsing it added motion without benefit
+  // and looked like it was falling apart on scroll.
   (function(){
     var current = 0, target = 0, naturalHeight = 0, measuredFor = null;
     var START = 30, RANGE = 130, EASE = 0.18;
@@ -287,7 +290,7 @@
     }
 
     function tick(){
-      var bar = root.querySelector(".ic-controls, .ic-nav");
+      var bar = root.querySelector(".ic-controls");
       if(bar){
         measure(bar);
         // iOS resizes the visual viewport when the keyboard opens for a
@@ -609,8 +612,6 @@
         '<div class="ic-nav">'+
           '<button type="button" class="ic-back">'+t("back")+'</button>'+
           '<span class="ic-nav-pos">'+pos+'</span>'+
-          '<button type="button" class="ic-arrow" data-go="'+(prev?prev.id:"")+'"'+(prev?"":" disabled")+' aria-label="'+esc(t("prevArticle"))+'">‹</button>'+
-          '<button type="button" class="ic-arrow" data-go="'+(next?next.id:"")+'"'+(next?"":" disabled")+' aria-label="'+esc(t("nextArticle"))+'">›</button>'+
           langSwitch()+
         '</div>'+
         '<header class="ic-head">'+
@@ -974,7 +975,8 @@
   document.addEventListener("keydown",function(e){
     if(!/^#\/.*[a-z0-9]-/i.test(location.hash) || document.querySelector(".ic-lb")) return;
     if(e.target.matches && e.target.matches("input,textarea,select")) return;
-    var b = e.key==="ArrowLeft" ? root.querySelector(".ic-arrow[data-go]") : e.key==="ArrowRight" ? root.querySelectorAll(".ic-arrow")[1] : null;
+    var pagerBtns = root.querySelectorAll(".ic-pager button[data-go]");
+    var b = e.key==="ArrowLeft" ? pagerBtns[0] : e.key==="ArrowRight" ? pagerBtns[1] : null;
     if(b && !b.disabled) b.click();
   });
 })();
