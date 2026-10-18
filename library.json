@@ -1,7 +1,7 @@
 {
   "books": [
     { "slug": "iconologie", "path": "books/iconologie/" },
-    { "slug": "grosson", "path": "books/grosson/" },
-    { "slug": "alciato", "path": "books/alciato/" }
+    { "slug": "alciato", "path": "books/alciato/" },
+    { "slug": "grosson", "path": "books/grosson/" }
   ]
 }
