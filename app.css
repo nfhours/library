@@ -62,7 +62,7 @@
   background:transparent;cursor:pointer;color:var(--soft);margin-left:auto;flex:0 0 auto;width:auto;max-width:max-content}
 .ic-count{color:var(--soft);font-size:.78em;margin-top:10px}
 
-.ic-part{font-family:var(--old);font-size:1.6em;font-weight:500;color:var(--accent);margin-top:36px}
+.ic-part{font-family:var(--old);font-size:1.6em;font-weight:500;color:var(--accent);margin-top:44px;margin-bottom:18px}
 .ic-group{margin-top:26px}
 .ic-group h2{font-size:1.02em;font-weight:600;display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline;
   padding-bottom:6px;border-bottom:2px solid var(--ink)}
