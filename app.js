@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "34";
+  var APP_VER = "35";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -290,7 +290,13 @@
       var bar = root.querySelector(".ic-controls, .ic-nav");
       if(bar){
         measure(bar);
-        target = Math.min(1, Math.max(0, (window.scrollY - START) / RANGE));
+        // iOS resizes the visual viewport when the keyboard opens for a
+        // focused field, which otherwise reads exactly like a downward
+        // scroll to the check below and collapses the bar the visitor is
+        // trying to type into. Keep it pinned open while the search field
+        // (or anything else inside the bar) has focus.
+        var focusedInBar = document.activeElement && bar.contains(document.activeElement);
+        target = focusedInBar ? 0 : Math.min(1, Math.max(0, (window.scrollY - START) / RANGE));
         current += (target - current) * EASE;
         if(Math.abs(target - current) < 0.001) current = target;
         var shift = naturalHeight * current;
@@ -403,9 +409,8 @@
           langSwitch()+'</div>'+
         '<h1 class="ic-title">'+esc(bt(book.meta.title))+'</h1>'+
         '<p class="ic-sub">'+esc(bt(book.meta.subtitle))+'</p>'+
-        '<p class="ic-progress">'+t("progress",{done:done,total:items.length})+'<span class="ic-bar"><i style="width:'+pct+'%"></i></span></p>'+
         '<div class="ic-controls">'+
-          '<input class="ic-search" type="search" placeholder="'+esc(t("searchPh"))+'" autocomplete="off" aria-label="'+esc(t("searchPh"))+'">'+
+          '<input class="ic-search" type="search" placeholder="'+esc(t("searchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("searchPh"))+'">'+
           '<div class="ic-row"><div class="ic-seg" role="group" aria-label="Filter">'+
             chip("all",t("fAll"))+(multiPart?chip("1",t("fPart1"))+chip("2",t("fPart2")):"")+
           '</div><select class="ic-sort" aria-label="Sort">'+
@@ -519,9 +524,8 @@
           langSwitch()+'</div>'+
         '<h1 class="ic-title">'+esc(bt(book.meta.title))+'</h1>'+
         '<p class="ic-sub">'+esc(bt(book.meta.subtitle))+'</p>'+
-        '<p class="ic-progress">'+t("progress",{done:done,total:items.length})+'<span class="ic-bar"><i style="width:'+pct+'%"></i></span></p>'+
         '<div class="ic-controls">'+
-          '<input class="ic-search" type="search" placeholder="'+esc(t("searchPh"))+'" autocomplete="off" aria-label="'+esc(t("searchPh"))+'">'+
+          '<input class="ic-search" type="search" placeholder="'+esc(t("searchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("searchPh"))+'">'+
           '<p class="ic-count"></p>'+
         '</div>'+
         '<ul class="ic-plate-ul"></ul>'+
