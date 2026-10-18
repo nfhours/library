@@ -674,6 +674,417 @@
         "Rightly is she consecrated to the service of armed Minerva,",
         "in the place the chattering crow had held before."
       ]
+    },
+    {
+      "id": "alc26",
+      "num": "17",
+      "fr": "Maturandum",
+      "ru": "Нужна разумная спешность",
+      "en": "One must act at the right pace",
+      "page": "26",
+      "group": "PRUD",
+      "group_fr": "Prudentia.",
+      "group_en": "Prudence",
+      "img": [
+        "alc26.jpg"
+      ],
+      "scans": [
+        "alc26.jpg"
+      ],
+      "text_fr": [
+        "Maturare iubent properè, & cunctarier omnes.",
+        "Ne nimium præceps, neu mora longa nimis.",
+        "Hoc tibi declaret connexum echeneide telum,",
+        "Hæc tarda est, volitant spicula missa manu."
+      ],
+      "text_ru": [
+        "Все вещи велят спешить поспешно, и вместе с тем медлить —",
+        "пусть не будет ни чрезмерной торопливости, ни слишком долгого промедления.",
+        "Это покажет тебе дротик, соединённый с прилипалой-рыбой:",
+        "она медлительна, а стрелы, пущенные рукой, летят стремительно."
+      ],
+      "text_en": [
+        "All things bid us hasten quickly, and yet also to delay —",
+        "let there be neither too much haste, nor too long a hesitation.",
+        "This is shown to you by the dart bound together with a remora:",
+        "the fish is slow, while the arrow flies swift once loosed from the hand."
+      ]
+    },
+    {
+      "id": "alc27",
+      "num": "18",
+      "fr": "In deprehensum",
+      "ru": "О пойманном",
+      "en": "On the one caught",
+      "page": "27",
+      "group": "PRUD",
+      "group_fr": "Prudentia.",
+      "group_en": "Prudence",
+      "img": [
+        "alc27.jpg"
+      ],
+      "scans": [
+        "alc27.jpg"
+      ],
+      "text_fr": [
+        "Iamdudum quacunque fugis te persequor: at nunc",
+        "Cassibus in nostris denique captus ades.",
+        "Amplius haud poteris vires eludere nostras.",
+        "Ficulno anguillam strinximus in folio."
+      ],
+      "text_ru": [
+        "Уже давно, куда бы ты ни бежал, я преследую тебя: но теперь,",
+        "наконец, ты пойман, попавшись в наши сети.",
+        "Больше тебе не ускользнуть от нашей силы.",
+        "Мы зажали угря в фиговом листе."
+      ],
+      "text_en": [
+        "For a long time now, wherever you flee, I have pursued you: but now",
+        "at last you are caught, held fast in our nets.",
+        "No longer will you be able to escape our strength.",
+        "We have gripped the eel in a fig leaf."
+      ]
+    },
+    {
+      "id": "alc28",
+      "num": "19",
+      "fr": "Custodiendas virgines",
+      "ru": "Девушек надлежит охранять",
+      "en": "Virgins must be guarded",
+      "page": "28",
+      "group": "PRUD",
+      "group_fr": "Prudentia.",
+      "group_en": "Prudence",
+      "img": [
+        "alc28.jpg"
+      ],
+      "scans": [
+        "alc28.jpg"
+      ],
+      "text_fr": [
+        "Vera hæc effigies innuptæ est Palladis: eius",
+        "Hic Draco, qui dominæ constitit ante pedes.",
+        "Cur diuæ comes hoc animal? custodia rerum",
+        "Huic data, sic lucos, sacraq; templa colit.",
+        "Innuptas opus est cura asseruare puellas",
+        "Peruigili. laqueos vndique tendit amor."
+      ],
+      "text_ru": [
+        "Вот истинное изображение девственной Паллады: здесь",
+        "дракон, что стоит перед ногами своей госпожи.",
+        "Почему это животное — спутник богини? Ему вверена",
+        "охрана вещей, так он стережёт рощи и священные храмы.",
+        "Незамужних девушек тоже нужно охранять неусыпной заботой —",
+        "ведь любовь расставляет сети повсюду."
+      ],
+      "text_en": [
+        "This is the true image of unwed Pallas: here",
+        "is the dragon, which stands before its mistress's feet.",
+        "Why is this creature the goddess's companion? The guardianship of things",
+        "is given to it; thus it keeps watch over groves and sacred temples.",
+        "Unmarried girls, too, must be kept with ceaseless, watchful care —",
+        "for love stretches its snares everywhere."
+      ]
+    },
+    {
+      "id": "alc29",
+      "num": "20",
+      "fr": "Vino prudentiam augeri",
+      "ru": "Вино умножает рассудительность",
+      "en": "Prudence is increased by wine",
+      "page": "29",
+      "group": "PRUD",
+      "group_fr": "Prudentia.",
+      "group_en": "Prudence",
+      "img": [
+        "alc29.jpg"
+      ],
+      "scans": [
+        "alc29.jpg"
+      ],
+      "text_fr": [
+        "Hac Bacchus pater, & Pallas communiter ambo",
+        "Templa tenent, soboles vtraque vera Iouis:",
+        "Hac caput, ille femur soluit: huic vsus oliui",
+        "Debitus: inuenit primus at ille merum.",
+        "Iunguntur merito, quòd si qui abstemius odit",
+        "Vina: Deæ nullum sentiet auxilium."
+      ],
+      "text_ru": [
+        "Здесь отец Вакх и Паллада, оба вместе,",
+        "держат общий храм, оба — истинные дети Юпитера:",
+        "она родилась из его головы, он высвободился из бедра;",
+        "ей обязаны пользованием маслины, а он первым открыл вино.",
+        "По заслугам они соединены: ибо если кто-то, воздержанный, ненавидит",
+        "вино, тот не ощутит и никакой помощи от богини."
+      ],
+      "text_en": [
+        "Here father Bacchus and Pallas together, both,",
+        "hold a shared temple, each the true offspring of Jove:",
+        "this one burst forth from his head, that one he released from his thigh;",
+        "to her is owed the use of the olive, while he first discovered wine.",
+        "Rightly are they joined — for if anyone abstains and hates",
+        "wine, he shall feel no help from the goddess either."
+      ]
+    },
+    {
+      "id": "alc30",
+      "num": "21",
+      "fr": "Prudentes vino abstinent",
+      "ru": "Благоразумные воздерживаются от вина",
+      "en": "The prudent abstain from wine",
+      "page": "30",
+      "group": "PRUD",
+      "group_fr": "Prudentia.",
+      "group_en": "Prudence",
+      "img": [
+        "alc30.jpg"
+      ],
+      "scans": [
+        "alc30.jpg"
+      ],
+      "text_fr": [
+        "Quid me vexatis ramis? sum Palladis arbor:",
+        "Auferte hinc botros. virgo fugit Bromium."
+      ],
+      "text_ru": [
+        "Зачем вы тревожите мои ветви? Я — древо Паллады:",
+        "уберите отсюда виноградные гроздья. Дева бежит Вакха."
+      ],
+      "text_en": [
+        "Why do you trouble my branches? I am Pallas's tree:",
+        "take your grape-clusters away from here. The virgin flees Bacchus."
+      ]
+    },
+    {
+      "id": "alc31",
+      "num": "22",
+      "fr": "In statuam Bacchi. Dialogismus",
+      "ru": "На статую Вакха. Диалог",
+      "en": "On a statue of Bacchus. A dialogue",
+      "page": "31",
+      "group": "PRUD",
+      "group_fr": "Prudentia.",
+      "group_en": "Prudence",
+      "img": [
+        "alc31.jpg"
+      ],
+      "scans": [
+        "alc31.jpg"
+      ],
+      "text_fr": [
+        "Bacche pater: quis te mortali lumine nouit?",
+        "Et docta effinxit quis tua membra manu?",
+        "Praxiteles, qui me rapientem Gnosida vidit.",
+        "Atque illo pinxit tempore qualis eram.",
+        "Cur iuuenis, teneraque etiam lanugine vernat",
+        "Barba, queas Pylium cùm superare senem?",
+        "Muneribus quandoque meis si parcere disces",
+        "Iunior, & forti pectore semper eris.",
+        "Tympana non manibus, capiti non cornua desunt.",
+        "Quos (nisi dementeis) talia signa decent?",
+        "Hoc doceo, nostro quod abusus munere sumit",
+        "Cornua: & insanus mollia sistra quatit.",
+        "Quid vult ille color membris penè igneus? (omen",
+        "Absit) an humanis vreris ipse focis?",
+        "Cùm Semeles de vetre parens me fulmine traxit",
+        "Igniuomo, infectum puluere mersit aquis.",
+        "Hinc sapit hic, liquidis qui nos bene diluit vndis:",
+        "Qui non ardenti torret ab igne iecur.",
+        "Sed nunc me doceas quî vis misceri? & qua",
+        "Te sanus tutum prendere lege queat?",
+        "Quadrantem addat aquæ, calice sumpsisse Falerni",
+        "Qui cupit. hoc sum pocula more iuuat.",
+        "Stes intra heminas: nam qui procedere tendit",
+        "Vltra: alacer, sed mox ebrius inde furit.",
+        "Res dura hæc nimium. Sunt pendula guttura, dulce",
+        "Tu fluis. Heu facilè commoda nulla cadunt."
+      ],
+      "text_ru": [
+        "«Отец Вакх: кто видел тебя смертным взором?",
+        "И чья искусная рука изваяла твои члены?»",
+        "«Праксителес, который видел меня похищающим кносскую деву,",
+        "и изобразил меня таким, каким я был в то время».",
+        "«Почему же ты юн, и борода твоя ещё расцветает нежным пушком,",
+        "хотя ты мог бы пережить даже пилосского старца?»",
+        "«Если ты когда-нибудь научишься беречь мои дары,",
+        "юноша, у тебя всегда будет крепкое сердце.",
+        "Тимпаны не отсутствуют в его руках, рога — на голове:",
+        "кому (разве что безумцу) приличны такие знаки?",
+        "Этому я учу: кто злоупотребляет моим даром, тот обретает",
+        "рога и, обезумев, трясёт мягкими систрами.",
+        "Что означает этот почти огненный цвет на его членах? (Да минует",
+        "нас это знамение) — или ты сам горишь человеческими очагами?",
+        "Когда мать моя Семела извлекла меня молнией, дышащей",
+        "огнём, из чрева, меня, покрытого пылью, погрузили в воду.",
+        "Оттого мудр тот, кто хорошо разбавляет нас чистыми водами,",
+        "кто не палит печень пылающим огнём.",
+        "Но теперь научи меня: как ты хочешь быть смешанным? И по какому",
+        "правилу здравомыслящий может безопасно взять тебя?",
+        "Пусть тот, кто желает выпить чашу фалернского, добавит",
+        "четверть воды — так мои чаши радуют по этому обычаю.",
+        "Держись в пределах гемины: ибо кто стремится зайти",
+        "дальше — поначалу бодр, но вскоре, опьянев, неистовствует.",
+        "Это дело слишком трудное. Горло податливо, сладко",
+        "ты льёшься. Увы, легко не даётся ничто полезное»."
+      ],
+      "text_en": [
+        "'Father Bacchus: who has known you with mortal eyes?",
+        "And whose learned hand fashioned your limbs?'",
+        "'Praxiteles, who saw me seizing the Cnossian maid,",
+        "and painted me as I was at that very time.'",
+        "'Why then are you youthful, your beard still flowering with tender down,",
+        "though you could outlast even the old man of Pylos?'",
+        "'If you learn sometime to be sparing with my gifts,",
+        "you, younger one, will always have a strong heart.",
+        "Tambourines are not lacking to his hands, nor horns to his head —",
+        "whom (unless mad) do such signs become?",
+        "This I teach: that he who abuses my gift takes on",
+        "horns, and, insane, shakes soft rattling sistra.",
+        "What does that almost fiery color in his limbs mean? (May this",
+        "omen be far off) — or do you yourself burn with human hearths?",
+        "When my mother Semele drew me from her womb by the thunderbolt",
+        "that breathes fire, they dipped me, tainted with the dust, in water.",
+        "Hence he is wise who dilutes us well with clear waves,",
+        "who does not scorch his liver with burning fire.",
+        "But now teach me: how do you wish to be mixed? And by what",
+        "rule may a sound man safely take hold of you?",
+        "Let him who desires to drink a cup of Falernian add",
+        "a quarter of water — thus my cups please in this manner.",
+        "Stay within measure, for he who strains to go",
+        "further — lively at first, but soon, drunk, raves from it.",
+        "This matter is too hard. Throats hang loose and sweet,",
+        "you flow on. Alas, no advantages fall easily.'"
+      ]
+    },
+    {
+      "id": "alc33",
+      "num": "23",
+      "fr": "Gramen",
+      "ru": "Трава",
+      "en": "Grass",
+      "page": "33",
+      "group": "PRUD",
+      "group_fr": "Prudentia.",
+      "group_en": "Prudence",
+      "img": [
+        "alc33.jpg"
+      ],
+      "scans": [
+        "alc33.jpg"
+      ],
+      "text_fr": [
+        "Gramineam Fabio patres tribuere corollam,",
+        "Fregerat vt Pœnos Hannibalemque mora.",
+        "Occulit inflexo nidum sibi gramine alauda,",
+        "Vulgò aiunt, pullos sic fouet illa suos.",
+        "Saturno Martique sacrum, quo Glaucus adeso",
+        "Polybides, factus creditur esse Deus.",
+        "His meritò arguitur nodis tutela, salusque:",
+        "Herbaque tot viret hæc digitalis habet."
+      ],
+      "text_ru": [
+        "Сенаторы вручили Фабию травяной венок",
+        "за то, что он промедлением сокрушил карфагенян и Ганнибала.",
+        "Жаворонок прячет для себя гнездо в согнутой траве,",
+        "говорят в народе, так она укрывает своих птенцов.",
+        "Священна она Сатурну и Марсу, вкусив которую, Главк",
+        "Полиид, как верят, стал богом.",
+        "По этим признакам по праву приписывают ей защиту и спасение:",
+        "и столько суставов-пальцев имеет эта зеленеющая трава."
+      ],
+      "text_en": [
+        "The senators awarded Fabius a crown of grass,",
+        "because by delay he had broken the Carthaginians and Hannibal.",
+        "The lark hides her nest for herself in bent grass,",
+        "they commonly say, and thus she shelters her chicks.",
+        "Sacred to Saturn and Mars, by eating which Glaucus",
+        "Polyidus is believed to have become a god.",
+        "By these ties, rightly, protection and safety are argued for it:",
+        "and this grass holds as many finger-joints as it is green."
+      ]
+    },
+    {
+      "id": "alc34",
+      "num": "24",
+      "fr": "Nec verbo, nec facto quenquam lædendum",
+      "ru": "Никого нельзя обижать ни словом, ни делом",
+      "en": "No one must be harmed by word or by deed",
+      "page": "34",
+      "group": "JUST",
+      "group_fr": "Iustitia.",
+      "group_en": "Justice",
+      "img": [
+        "alc34.jpg"
+      ],
+      "scans": [
+        "alc34.jpg"
+      ],
+      "text_fr": [
+        "Assequitur, Nemesisque virum vestigia seruat,",
+        "Continet & cubitum, duraque fræna manu.",
+        "Nè malè qd facias: néue improba verba loquaris:",
+        "Et iubet in cunctis rebus adesse modum."
+      ],
+      "text_ru": [
+        "Немезида преследует и стережёт следы человека,",
+        "и сдерживает локоть суровой уздой в руке.",
+        "Чтобы ты не творил зла и не произносил дурных слов —",
+        "и велит, чтобы во всём присутствовала мера."
+      ],
+      "text_en": [
+        "Nemesis pursues and keeps watch over the footsteps of man,",
+        "and restrains the elbow, with a hard rein in her hand.",
+        "Lest you do evil, or speak improper words —",
+        "and she bids that moderation attend all things."
+      ]
+    },
+    {
+      "id": "alc35",
+      "num": "25",
+      "fr": "Tandem, tandem Iustitia obtinet",
+      "ru": "Наконец, наконец справедливость побеждает",
+      "en": "At last, at last Justice prevails",
+      "page": "35",
+      "group": "JUST",
+      "group_fr": "Iustitia.",
+      "group_en": "Justice",
+      "img": [
+        "alc35.jpg"
+      ],
+      "scans": [
+        "alc35.jpg"
+      ],
+      "text_fr": [
+        "Æacidæ Hectoreo perfusum sanguine scutum:",
+        "Quod Græcorum Ithaco concio iniqua dedit:",
+        "Iustior arripuit Neptunus in æquora iactum",
+        "Naufragio, vt dominum posset adire suum.",
+        "Littoreo Aiacis tumulo nanque intulit vnda,",
+        "Quæ boat, & tali voce sepulchra ferit.",
+        "Vicisti Thelamoniade, tu dignior armis.",
+        "Affectus fas est cedere iustitiæ."
+      ],
+      "text_ru": [
+        "Щит потомка Эака, обагрённый кровью Гектора,",
+        "который несправедливое собрание греков отдало итакийцу,",
+        "более справедливый Нептун, когда тот был брошен в море",
+        "при кораблекрушении, подхватил, чтобы он мог дойти до своего хозяина.",
+        "Ибо волна принесла его к прибрежному кургану Аякса,",
+        "где она ревёт и таким голосом бьёт о гробницу:",
+        "«Ты победил, сын Теламона, ты более достоин оружия.",
+        "Праведно, чтобы пристрастие уступило справедливости»."
+      ],
+      "text_en": [
+        "The shield of Aeacus's grandson, drenched with Hector's blood,",
+        "which the unjust assembly of the Greeks gave to the Ithacan,",
+        "more just Neptune seized, cast into the sea",
+        "by shipwreck, so that it might reach its rightful master.",
+        "For the wave carried it to Ajax's tomb on the shore,",
+        "where it roars and strikes the sepulchre with such a voice:",
+        "'You have won, son of Telamon, you were more worthy of the arms.",
+        "It is right that passion yield to justice.'"
+      ]
     }
   ]
 }
