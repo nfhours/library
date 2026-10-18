@@ -28,6 +28,11 @@
    тонкое подчёркивание вместо закрашенной таблетки */
 .ic-top-row{display:flex;justify-content:flex-end;margin-bottom:8px}
 .ic-lang{display:flex;gap:16px;flex:none}
+/* When the page has its own fixed top-bar switch (standalone index.html),
+   that one is authoritative and always visible — don't also show this
+   in-content one, which scrolls away with the page. Embeds without that
+   bar (e.g. Tilda) still get this as their only switch. */
+.has-back-bar-lang .ic-lang{display:none}
 .ic-lang-b{font-size:.78em;letter-spacing:.08em;text-transform:uppercase;padding:4px 0;border:0;background:none;cursor:pointer;color:var(--soft);line-height:1.3;box-shadow:inset 0 -1px 0 transparent;transition:box-shadow .2s,color .2s}
 .ic-lang-b[aria-pressed="true"]{color:var(--ink);box-shadow:inset 0 -1px 0 var(--accent)}
 
