@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "29";
+  var APP_VER = "32";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -185,6 +185,10 @@
       var items = data.items || [], byId = {};
       items.forEach(function(it,i){
         it.ord=i; byId[it.id]=it; it.pn=parseInt(it.page,10)||0;
+        // Separate from the full-text search key below: used only to rank a
+        // search hit higher when the word is literally in the title (in any
+        // of the three languages), not just somewhere in the article body.
+        it.titleKey = norm([it.fr,it.ru,it.en||""].join(" "));
         it.key = norm([it.fr,it.ru,it.en||"",it.group,it.group_fr,it.group_en||"",it.num,it.caption||"",
           it.legend_ru||"",it.legend_en||"",it.legend_fr||"",
           (it.attrs||[]).map(function(a){return a.what+" "+a.meaning+" "+(a.what_en||"")+" "+(a.meaning_en||"");}).join(" "),
@@ -352,6 +356,18 @@
     });
     if(state.sort==="ru") res.sort(function(a,b){ return titleOf(a).localeCompare(titleOf(b),state.lang==="en"?"en":"ru"); });
     else if(state.sort==="page") res.sort(function(a,b){ return a.part-b.part || a.pn-b.pn || a.ord-b.ord; });
+    // While searching, a hit whose title literally contains the word (in any
+    // of the three languages) outranks one that only matches somewhere in
+    // the body text — stable sort, so the chosen sort order above still
+    // decides the order within each of those two groups.
+    if(nq){
+      var words = nq.split(/\s+/);
+      res.sort(function(a,b){
+        var am = words.every(function(w){ return a.titleKey.indexOf(w)>-1; }) ? 0 : 1;
+        var bm = words.every(function(w){ return b.titleKey.indexOf(w)>-1; }) ? 0 : 1;
+        return am - bm;
+      });
+    }
     return res;
   }
 
