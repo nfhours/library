@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "50";
+  var APP_VER = "51";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -458,7 +458,7 @@
     var multiPart = book.meta.parts && book.meta.parts.length > 1;
     root.innerHTML =
       '<div class="ic-wrap">'+
-        '<div class="ic-top-row">'+(forcedBook?"":'<button type="button" class="ic-to-lib-link">'+t("toLibrary")+'</button>')+
+        '<div class="ic-top-row">'+(forcedBook?"":'<button type="button" class="ic-to-lib-link ic-back">'+t("toLibrary")+'</button>')+
           (book.meta.about?'<a class="ic-about-link" href="'+esc(hrefFor(book,"about"))+'">'+t("aboutLink")+'</a>':"")+
           langSwitch()+'</div>'+
         '<h1 class="ic-title">'+esc(bt(book.meta.title))+'</h1>'+
@@ -588,7 +588,7 @@
     var done = items.filter(function(it){ return ready(it, book); }).length, pct = items.length ? Math.round(done*100/items.length) : 0;
     root.innerHTML =
       '<div class="ic-wrap">'+
-        '<div class="ic-top-row">'+(forcedBook?"":'<button type="button" class="ic-to-lib-link">'+t("toLibrary")+'</button>')+
+        '<div class="ic-top-row">'+(forcedBook?"":'<button type="button" class="ic-to-lib-link ic-back">'+t("toLibrary")+'</button>')+
           (book.meta.about?'<a class="ic-about-link" href="'+esc(hrefFor(book,"about"))+'">'+t("aboutLink")+'</a>':"")+
           langSwitch()+'</div>'+
         '<h1 class="ic-title">'+esc(bt(book.meta.title))+'</h1>'+
