@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "38";
+  var APP_VER = "39";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -45,7 +45,8 @@
     sAlpha:       {ru:"По алфавиту", en:"Alphabetical"},
     sPage:        {ru:"По странице", en:"By page"},
     found:        {ru:"Найдено: {n}", en:"Found: {n}"},
-    noTitleMatch: {ru:"Одноимённых статей не найдено — показаны совпадения, найденные в тексте.", en:"No article is titled this — results shown match the body text."},
+    matchTitle:   {ru:"Совпадения в названии", en:"Title matches"},
+    matchBody:    {ru:"Совпадения в тексте", en:"Text matches"},
     clearSearch:  {ru:"Очистить поиск", en:"Clear search"},
     emptyReady:   {ru:"Пока нет готовых статей. Они появятся здесь по мере перевода.", en:"No articles finished yet. They will appear here as the translation progresses."},
     emptySearch:  {ru:"Ничего не найдено. Попробуйте другое слово или старое написание, например «hyver» вместо «hiver».",
@@ -438,7 +439,6 @@
             opt("book",t("sBook"))+opt("ru",t("sAlpha"))+opt("page",t("sPage"))+
           '</select></div>'+
           '<p class="ic-count"></p>'+
-          '<p class="ic-note"></p>'+
         '</div>'+
         '<div class="ic-list"></div>'+
       '</div>';
@@ -468,31 +468,34 @@
 
   function fill(book){
     var list=root.querySelector(".ic-list"), count=root.querySelector(".ic-count");
-    var note=root.querySelector(".ic-note");
     var res=filtered(book), nq=state.q.trim();
     var multiPart = book.meta.parts && book.meta.parts.length > 1;
     count.textContent = res.length ? t("found",{n:res.length}) : "";
-    if(note){
-      // Flag it when every hit is a body-text match only, so a search like
-      // "страх" doesn't look like it found an article actually called that.
-      var nqWords = norm(nq).split(/\s+/);
-      var hasTitleHit = nq && res.some(function(it){ return nqWords.every(function(w){ return it.titleKey.indexOf(w)>-1; }); });
-      note.textContent = (nq && res.length && !hasTitleHit) ? t("noTitleMatch") : "";
-    }
     if(!res.length){
       list.innerHTML = '<p class="ic-empty">'+(state.filter==="ready" && !nq ? t("emptyReady") : t("emptySearch"))+'</p>';
       return;
     }
     var grouped = state.sort==="book" && !nq, showPart = multiPart && (state.sort==="ru" || (!grouped && state.filter!=="1" && state.filter!=="2"));
-    var html="", part=0, grp=null, open=false;
+    // While searching, the relevance sort (title hits first, then body-text
+    // hits) can interleave book parts out of order — repeating "Part One" /
+    // "Part Two" back and forth made no sense as section headers there. So
+    // during a search the big header marks the RELEVANCE group instead (title
+    // match vs. text-only match); it's still per-part the rest of the time.
+    // Either way each row also carries its own "pt. 1" / "pt. 2" tag below.
+    var nqWords = nq ? norm(nq).split(/\s+/) : null;
+    var html="", part=0, grp=null, open=false, relGroup=null;
     res.forEach(function(it){
-      if(state.sort!=="ru" && it.part!==part){
+      if(nq){
+        var isTitleHit = nqWords.every(function(w){ return it.titleKey.indexOf(w)>-1; });
+        var rg = isTitleHit ? "title" : "body";
+        if(rg!==relGroup){
+          if(open){ html+="</ul></section>"; open=false; }
+          html+='<h2 class="ic-part">'+esc(t(isTitleHit?"matchTitle":"matchBody"))+'</h2>';
+          relGroup=rg; grp=null;
+        }
+      } else if(state.sort!=="ru" && it.part!==part){
         if(open){ html+="</ul></section>"; open=false; }
-        // Skip the big part header while searching: the relevance sort (title
-        // hits first) can interleave parts out of order, which used to repeat
-        // "Part One" / "Part Two" back and forth. Each row already carries its
-        // own "pt. 1" / "pt. 2" tag (showPart below), so nothing is lost.
-        if(multiPart && !nq) html+='<h2 class="ic-part">'+esc(partLabel(book,it.part))+'</h2>';
+        if(multiPart) html+='<h2 class="ic-part">'+esc(partLabel(book,it.part))+'</h2>';
         part=it.part; grp=null;
       }
       if(grouped){
