@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "39";
+  var APP_VER = "40";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -116,7 +116,7 @@
     var saved = null;
     try{ saved = localStorage.getItem("ic-lang"); }catch(e){}
     var fromAttr = root.getAttribute("data-lang");
-    var lang = (qLang==="en"||qLang==="ru") ? qLang : (saved==="en"||saved==="ru") ? saved : (fromAttr==="en"||fromAttr==="ru") ? fromAttr : "ru";
+    var lang = (qLang==="en"||qLang==="ru") ? qLang : (saved==="en"||saved==="ru") ? saved : (fromAttr==="en"||fromAttr==="ru") ? fromAttr : "en";
     state.lang = lang;
     if(qLang && qLang!==saved){ try{ localStorage.setItem("ic-lang", qLang); }catch(e){} }
     root.setAttribute("data-lang", lang);
@@ -327,7 +327,19 @@
   function go(book, id){ state.scroll = window.scrollY; location.hash = forcedBook ? "#/"+id : "#/"+book.slug+"/"+id; }
   function goIndex(book){ location.hash = forcedBook ? "" : "#/"+book.slug; }
   function hrefFor(book, suffix){ return forcedBook ? "#/"+suffix : "#/"+book.slug+"/"+suffix; }
-  function toTop(){ var r=root.getBoundingClientRect(); if(r.top<0) window.scrollTo(0, window.scrollY+r.top); }
+  function toTop(){
+    function snap(){ var r=root.getBoundingClientRect(); if(r.top<0) window.scrollTo(0, window.scrollY+r.top); }
+    snap();
+    // The big plate/figure images have no explicit width/height, so the page
+    // grows once each one finishes loading. The browser's own scroll
+    // anchoring then nudges the scroll position to compensate for that shift
+    // — which is what was occasionally leaving an article open mid-page
+    // instead of at the top. Re-snap after each image loads to undo that.
+    root.querySelectorAll("img").forEach(function(img){
+      if(img.complete) return;
+      img.addEventListener("load", snap, {once:true});
+    });
+  }
   // WebKit (в т.ч. iPadOS) иногда не перерисовывает position:sticky после замены
   // innerHTML на SPA-переходе — элемент «застревает» в старом положении/размере.
   // Небольшой форс-reflow после каждого рендера чинит это без видимого мигания.
