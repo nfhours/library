@@ -99,20 +99,17 @@
 .ic-book-head{display:flex;flex-direction:column;gap:12px}
 .ic-book-title{font-family:var(--old);font-weight:500;font-size:1.8em;line-height:1.25;color:var(--ink)}
 .ic-book-author{color:var(--accent);font-size:.86em;letter-spacing:.01em}
-.ic-book-more{margin-top:24px;align-self:flex-start;
-  font-size:.78em;letter-spacing:.06em;text-transform:uppercase;padding:9px 18px;
-  border:1px solid rgba(28,24,19,.35);border-radius:999px;background:rgba(250,246,236,.5);
-  color:var(--ink);transition:background-color .2s,color .2s,border-color .2s}
-/* Animating grid-template-rows between 0fr and 1fr gives a true expand/
-   collapse (not just an opacity fade) without having to measure the
-   content's height in JS first. */
-/* minmax(0,0fr), not bare 0fr: on iOS Safari a bare 0fr row still reserves
-   the grid item's own minimum content height, leaving a dead gap at the
-   bottom of every collapsed card instead of fully closing. */
-.ic-book-more-wrap{display:grid;grid-template-rows:minmax(0,0fr);transition:grid-template-rows .35s ease;width:100%}
-.ic-book-more-wrap>p{overflow:hidden;min-height:0}
-.ic-book-card.is-open .ic-book-more-wrap{grid-template-rows:minmax(0,1fr)}
-.ic-book-sub{color:var(--soft);font-size:.94em;margin:0;padding-top:20px;margin-top:18px;border-top:1px solid var(--rule);line-height:1.7}
+/* Same plain "+ / −" disclosure language as .ic-details elsewhere in the
+   app — not a pill button, which had no room to breathe around the longer
+   RU label and read as cramped. Native <details> also collapses and
+   expands on its own, no grid-row animation hack needed. */
+.ic-book-more{margin-top:22px;width:100%}
+.ic-book-more summary{cursor:pointer;list-style:none;padding:6px 0;
+  font-size:.84em;letter-spacing:.03em;color:var(--accent)}
+.ic-book-more summary::-webkit-details-marker{display:none}
+.ic-book-more summary::before{content:"+ "}
+.ic-book-more[open] summary::before{content:"− "}
+.ic-book-sub{color:var(--soft);font-size:.94em;margin:0;padding-top:18px;margin-top:10px;border-top:1px solid var(--rule);line-height:1.7}
 
 .ic-about-link{font-size:.8em;color:var(--accent);background:none;border:0;cursor:pointer;padding:6px 0;margin-right:auto;text-decoration:none}
 
@@ -293,7 +290,7 @@
   .ic-row-item:hover{background:var(--sheet)}
   .ic-book-card:hover{border-color:var(--accent);transform:translateY(-2px);
     box-shadow:0 24px 46px -20px rgba(70,46,20,.5), inset 0 0 0 1px rgba(255,255,255,.4)}
-  .ic-book-more:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .ic-book-more summary:hover{color:var(--ink)}
   .ic-plate-link a:hover{border-color:var(--accent)}
   .ic-hotspot:hover{border-color:var(--accent);background:rgba(142,43,29,.14)}
   .ic-book-text .ic-numref:hover{background:var(--ink)}
