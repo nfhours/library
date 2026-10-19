@@ -3172,6 +3172,50 @@
       "text_fr": [
         "« Images du bon Génie et du mauvais Génie, gardien et observateur de la génération humaine, des actions, et des Cités et des lieux privés. »"
       ]
+    },
+    {
+      "id": "cartm36",
+      "num": "36",
+      "page": "36",
+      "fr": "La Fortuna degli Sciti",
+      "ru": "Фортуна у скифов",
+      "en": "Fortune among the Scythians",
+      "name_fr": "La Fortune chez les Scythes",
+      "img": [
+        "cartm36.jpg"
+      ],
+      "caption": "Imagine della Fortuna appò gli Scithi significante la sua velocità & instabilità nelle cose mondane, & che bisogna secondare l'Occasione, perche velocemente se ne vola & in vano poi si segue, & in vano si pente delle occasioni perdute & trasandate.",
+      "text_ru": [
+        "«Образ Фортуны у скифов, означающий её быстроту и непостоянство в делах мирских, и что надлежит поспешать за Случаем, ибо он быстро улетает, и напрасно затем его преследовать, и напрасно сожалеть об упущенных и нерадиво потерянных случаях»."
+      ],
+      "text_en": [
+        "“Image of Fortune among the Scythians, signifying her swiftness and instability in worldly things, and that one must seize the Occasion, for it flies away swiftly, and it is in vain to pursue it afterward, and in vain to regret occasions lost and carelessly let slip.”"
+      ],
+      "text_fr": [
+        "« Image de la Fortune chez les Scythes, signifiant sa rapidité et son instabilité dans les choses de ce monde, et qu'il faut saisir l'Occasion, car elle s'envole rapidement, et c'est en vain qu'on la poursuit ensuite, et en vain qu'on regrette les occasions perdues et négligées. »"
+      ]
+    },
+    {
+      "id": "cartm37",
+      "num": "37",
+      "page": "37",
+      "fr": "La Fortuna a cavallo, inseguita dal Fato",
+      "ru": "Фортуна верхом, преследуемая Судьбой",
+      "en": "Fortune on horseback, pursued by Fate",
+      "name_fr": "La Fortune à cheval, poursuivie par le Destin",
+      "img": [
+        "cartm37.jpg"
+      ],
+      "caption": "Imagine della Fortuna à cauallo che velocemente corre, dal Fato & dal Destino seguitata, dinotante la velocità di quella, & doue questi sono, quella non hauer possa ò fermezza alcuna.",
+      "text_ru": [
+        "«Образ Фортуны верхом, стремительно скачущей, преследуемой Роком и Судьбой, означающий её быстроту, и что там, где они есть, у неё нет ни власти, ни какой-либо устойчивости»."
+      ],
+      "text_en": [
+        "“Image of Fortune on horseback, galloping swiftly, pursued by Fate and Destiny, denoting her swiftness, and that where these are present, she has no power nor any stability.”"
+      ],
+      "text_fr": [
+        "« Image de la Fortune à cheval, galopant rapidement, poursuivie par le Destin et la Destinée, dénotant sa rapidité, et que là où ceux-ci se trouvent, elle n'a ni pouvoir ni aucune stabilité. »"
+      ]
     }
   ]
 }
