@@ -2688,6 +2688,28 @@
       "text_fr": [
         "« Image d'Isis, déesse des Égyptiens, qui est la Lune, tenant en main des instruments dénotant la nature du Nil et de l'Égypte, les Éclipses lunaires, et ses autres effets dans les eaux, comme dans les choses élémentaires. »"
       ]
+    },
+    {
+      "id": "cartm14",
+      "num": "14",
+      "page": "14",
+      "fr": "Fidii Simulacrum (la Fede)",
+      "ru": "Fidii Simulacrum (Верность)",
+      "en": "Fidii Simulacrum (Faith)",
+      "name_fr": "Fidii Simulacrum (la Foi)",
+      "img": [
+        "cartm14.jpg"
+      ],
+      "caption": "Imagine della Fede significata per il Dio Fidio adorato anticamente. La Verità è rappresentata qui come Madre, l'Honore come Padre, l'Amore come legame.",
+      "text_ru": [
+        "«Образ Верности, означенной через бога Фидия, почитаемого в древности. Истина представлена здесь как Мать, Честь — как Отец, Любовь — как связующая их узы»."
+      ],
+      "text_en": [
+        "“Image of Faith, signified through the god Fidius, worshipped in antiquity. Truth is represented here as the Mother, Honour as the Father, Love as the bond between them.”"
+      ],
+      "text_fr": [
+        "« Image de la Foi, signifiée par le dieu Fidius, adoré dans l'Antiquité. La Vérité y est représentée comme la Mère, l'Honneur comme le Père, l'Amour comme le lien qui les unit. »"
+      ]
     }
   ]
 }
