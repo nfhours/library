@@ -208,6 +208,11 @@ button.ic-back{font-size:.78em;letter-spacing:.06em;text-transform:uppercase;pad
   color:var(--ink);cursor:pointer;transition:background-color .2s,color .2s,border-color .2s}
 .ic-nav-pos{color:var(--soft);font-size:.8em;margin-left:auto;white-space:nowrap}
 .ic-nav .ic-lang{margin-left:4px}
+.ic-nav-pager{display:flex;gap:16px}
+button.ic-nav-pager-b{font-size:.78em;letter-spacing:.06em;text-transform:uppercase;padding:4px 0;
+  border:0;background:none;color:var(--soft);cursor:pointer;
+  box-shadow:inset 0 -1px 0 transparent;transition:box-shadow .2s,color .2s}
+button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
 
 .ic-head{margin-top:30px}
 .ic-kicker{font-size:.8em;color:var(--soft)}
@@ -303,6 +308,7 @@ button.ic-scan-prev,button.ic-scan-next{width:38px;height:38px;border:1px solid 
   .ic-obj-sum:hover{background:var(--sheet)}
   button.ic-back:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
   .ic-pager button:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  button.ic-nav-pager-b:not([disabled]):hover{color:var(--ink);box-shadow:inset 0 -1px 0 var(--accent)}
 }
 
 @media (max-width:520px){
