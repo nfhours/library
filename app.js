@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "59";
+  var APP_VER = "60";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -38,73 +38,75 @@
 
   /* ---------- i18n ---------- */
   var DICT = {
-    libTitle:     {ru:"Библиотека", en:"Library"},
+    libTitle:     {ru:"Библиотека", en:"Library", fr:"Bibliothèque"},
     libSub:       {ru:"Старые книги об образах и древностях, с переводом на русский и английский.",
-                    en:"Old books on allegory and antiquities, translated into Russian and English."},
-    libEmpty:     {ru:"Книги ещё не добавлены.", en:"No books added yet."},
-    progress:     {ru:"Переведено статей: {done} из {total}", en:"Articles translated: {done} of {total}"},
-    searchPh:     {ru:"Найти: сюжет, предмет, слово по-русски, по-французски или по-английски", en:"Search: subject, motif, a word in English, French, or Russian"},
-    fAll:         {ru:"Все", en:"All"},
-    fPart1:       {ru:"Часть 1", en:"Part 1"},
-    fPart2:       {ru:"Часть 2", en:"Part 2"},
-    fReady:       {ru:"С гравюрой и переводом", en:"With engraving and translation"},
-    sBook:        {ru:"Как в книге", en:"As in the book"},
-    sAlpha:       {ru:"По алфавиту", en:"Alphabetical"},
-    sPage:        {ru:"По странице", en:"By page"},
-    found:        {ru:"Найдено: {n}", en:"Found: {n}"},
-    matchTitle:   {ru:"Совпадения в названии", en:"Title matches"},
-    matchBody:    {ru:"Совпадения в тексте", en:"Text matches"},
-    clearSearch:  {ru:"Очистить поиск", en:"Clear search"},
-    emptyReady:   {ru:"Пока нет готовых статей. Они появятся здесь по мере перевода.", en:"No articles finished yet. They will appear here as the translation progresses."},
+                    en:"Old books on allegory and antiquities, translated into Russian and English.",
+                    fr:"D'anciens livres sur les emblèmes et les antiquités, traduits en russe et en anglais."},
+    libEmpty:     {ru:"Книги ещё не добавлены.", en:"No books added yet.", fr:"Aucun livre n'a encore été ajouté."},
+    progress:     {ru:"Переведено статей: {done} из {total}", en:"Articles translated: {done} of {total}", fr:"Articles traduits : {done} sur {total}"},
+    searchPh:     {ru:"Найти: сюжет, предмет, слово по-русски, по-французски или по-английски", en:"Search: subject, motif, a word in English, French, or Russian", fr:"Rechercher : sujet, motif, un mot en français, en anglais ou en russe"},
+    fAll:         {ru:"Все", en:"All", fr:"Tout"},
+    fPart1:       {ru:"Часть 1", en:"Part 1", fr:"Partie 1"},
+    fPart2:       {ru:"Часть 2", en:"Part 2", fr:"Partie 2"},
+    fReady:       {ru:"С гравюрой и переводом", en:"With engraving and translation", fr:"Avec gravure et traduction"},
+    sBook:        {ru:"Как в книге", en:"As in the book", fr:"Comme dans le livre"},
+    sAlpha:       {ru:"По алфавиту", en:"Alphabetical", fr:"Par ordre alphabétique"},
+    sPage:        {ru:"По странице", en:"By page", fr:"Par page"},
+    found:        {ru:"Найдено: {n}", en:"Found: {n}", fr:"Trouvé : {n}"},
+    matchTitle:   {ru:"Совпадения в названии", en:"Title matches", fr:"Correspondances dans le titre"},
+    matchBody:    {ru:"Совпадения в тексте", en:"Text matches", fr:"Correspondances dans le texte"},
+    clearSearch:  {ru:"Очистить поиск", en:"Clear search", fr:"Effacer la recherche"},
+    emptyReady:   {ru:"Пока нет готовых статей. Они появятся здесь по мере перевода.", en:"No articles finished yet. They will appear here as the translation progresses.", fr:"Aucun article terminé pour l'instant. Ils apparaîtront ici au fur et à mesure de la traduction."},
     emptySearch:  {ru:"Ничего не найдено. Попробуйте другое слово или старое написание, например «hyver» вместо «hiver».",
-                    en:"Nothing found. Try another word or the old spelling, e.g. “hyver” instead of “hiver”."},
-    partN:        {ru:"ч. {n}", en:"pt. {n}"},
-    pageAbbr:     {ru:"с.", en:"p."},
-    loading:      {ru:"Загрузка…", en:"Loading…"},
-    loadError:    {ru:"Не удалось загрузить данные. Обновите страницу.", en:"Could not load the data. Please refresh the page."},
-    bookError:    {ru:"Эта книга временно недоступна.", en:"This book is temporarily unavailable."},
-    back:         {ru:"К оглавлению", en:"Back to index"},
-    toLibrary:    {ru:"Библиотека", en:"Library"},
-    prevArticle:  {ru:"Предыдущая статья", en:"Previous article"},
-    nextArticle:  {ru:"Следующая статья", en:"Next article"},
-    position:     {ru:"Часть {part}, с. {page}", en:"Part {part}, p. {page}"},
-    positionPage: {ru:"с. {page}", en:"p. {page}"},
-    engravingAlt: {ru:"Гравюра: {title}", en:"Engraving: {title}"},
-    figOf:        {ru:"{k} из {n}", en:"{k} of {n}"},
-    captionLbl:   {ru:"Подпись на гравюре:", en:"Caption on the engraving:"},
-    whatSec:      {ru:"Что изображено", en:"What is depicted"},
-    translSec:    {ru:"Перевод", en:"Translation"},
-    originalSec:  {ru:"Оригинал", en:"Original"},
-    viewScan:     {ru:"скан", en:"scan"},
-    viewText:     {ru:"текст", en:"text"},
-    openFull:     {ru:"Открыть на весь экран", en:"Open fullscreen"},
-    pagePrev:     {ru:"Предыдущая страница", en:"Previous page"},
-    pageNext:     {ru:"Следующая страница", en:"Next page"},
-    pageOf:       {ru:"стр. {k} из {n}", en:"page {k} of {n}"},
-    missing:      {ru:"Эта статья ещё не добавлена.", en:"This article has not been added yet."},
-    missingAt:    {ru:"В книге: часть {part}, страница {page}.", en:"In the book: part {part}, page {page}."},
-    pagerBack:    {ru:"Назад", en:"Back"},
-    pagerNext:    {ru:"Дальше", en:"Next"},
-    navPrev:      {ru:"Пред.", en:"Prev"},
-    navNext:      {ru:"След.", en:"Next"},
-    lbAlt:        {ru:"Гравюра", en:"Engraving"},
-    close:        {ru:"Закрыть", en:"Close"},
-    langName:     {ru:"RU", en:"EN"},
-    aboutLink:    {ru:"О книге", en:"About the book"},
-    moreInfo:     {ru:"Подробнее", en:"More info"},
-    aboutTitle:   {ru:"О книге", en:"About the book"},
-    aboutPartial: {ru:"Перевод ещё не завершён — вот что готово на сегодня.", en:"The translation is not finished yet - here is what's ready so far."},
-    plateLink:    {ru:"Смотреть таблицу целиком", en:"View the full plate"},
-    plateTitle:   {ru:"Таблица {n}", en:"Plate {n}"},
-    plateHint:    {ru:"Нажмите на номер, чтобы открыть предмет.", en:"Click a number to open that object."},
-    infoSec:      {ru:"Сведения", en:"Details"},
-    objCount:     {ru:"Предметов: {n}", en:"Objects: {n}"},
-    progressShort:{ru:"{done} из {total} переведено", en:"{done} of {total} translated"},
-    viewList:     {ru:"Список предметов", en:"Object list"},
-    viewBook:     {ru:"Как в книге", en:"As printed"}
+                    en:"Nothing found. Try another word or the old spelling, e.g. “hyver” instead of “hiver”.",
+                    fr:"Rien n'a été trouvé. Essayez un autre mot ou l'ancienne orthographe, par exemple « hyver » au lieu de « hiver »."},
+    partN:        {ru:"ч. {n}", en:"pt. {n}", fr:"part. {n}"},
+    pageAbbr:     {ru:"с.", en:"p.", fr:"p."},
+    loading:      {ru:"Загрузка…", en:"Loading…", fr:"Chargement…"},
+    loadError:    {ru:"Не удалось загрузить данные. Обновите страницу.", en:"Could not load the data. Please refresh the page.", fr:"Impossible de charger les données. Veuillez actualiser la page."},
+    bookError:    {ru:"Эта книга временно недоступна.", en:"This book is temporarily unavailable.", fr:"Ce livre est temporairement indisponible."},
+    back:         {ru:"К оглавлению", en:"Back to index", fr:"Retour à l'index"},
+    toLibrary:    {ru:"Библиотека", en:"Library", fr:"Bibliothèque"},
+    prevArticle:  {ru:"Предыдущая статья", en:"Previous article", fr:"Article précédent"},
+    nextArticle:  {ru:"Следующая статья", en:"Next article", fr:"Article suivant"},
+    position:     {ru:"Часть {part}, с. {page}", en:"Part {part}, p. {page}", fr:"Partie {part}, p. {page}"},
+    positionPage: {ru:"с. {page}", en:"p. {page}", fr:"p. {page}"},
+    engravingAlt: {ru:"Гравюра: {title}", en:"Engraving: {title}", fr:"Gravure : {title}"},
+    figOf:        {ru:"{k} из {n}", en:"{k} of {n}", fr:"{k} sur {n}"},
+    captionLbl:   {ru:"Подпись на гравюре:", en:"Caption on the engraving:", fr:"Légende de la gravure :"},
+    whatSec:      {ru:"Что изображено", en:"What is depicted", fr:"Ce qui est représenté"},
+    translSec:    {ru:"Перевод", en:"Translation", fr:"Traduction"},
+    originalSec:  {ru:"Оригинал", en:"Original", fr:"Original"},
+    viewScan:     {ru:"скан", en:"scan", fr:"numérisation"},
+    viewText:     {ru:"текст", en:"text", fr:"texte"},
+    openFull:     {ru:"Открыть на весь экран", en:"Open fullscreen", fr:"Ouvrir en plein écran"},
+    pagePrev:     {ru:"Предыдущая страница", en:"Previous page", fr:"Page précédente"},
+    pageNext:     {ru:"Следующая страница", en:"Next page", fr:"Page suivante"},
+    pageOf:       {ru:"стр. {k} из {n}", en:"page {k} of {n}", fr:"page {k} sur {n}"},
+    missing:      {ru:"Эта статья ещё не добавлена.", en:"This article has not been added yet.", fr:"Cet article n'a pas encore été ajouté."},
+    missingAt:    {ru:"В книге: часть {part}, страница {page}.", en:"In the book: part {part}, page {page}.", fr:"Dans le livre : partie {part}, page {page}."},
+    pagerBack:    {ru:"Назад", en:"Back", fr:"Précédent"},
+    pagerNext:    {ru:"Дальше", en:"Next", fr:"Suivant"},
+    navPrev:      {ru:"Пред.", en:"Prev", fr:"Préc."},
+    navNext:      {ru:"След.", en:"Next", fr:"Suiv."},
+    lbAlt:        {ru:"Гравюра", en:"Engraving", fr:"Gravure"},
+    close:        {ru:"Закрыть", en:"Close", fr:"Fermer"},
+    langName:     {ru:"RU", en:"EN", fr:"FR"},
+    aboutLink:    {ru:"О книге", en:"About the book", fr:"À propos du livre"},
+    moreInfo:     {ru:"Подробнее", en:"More info", fr:"En savoir plus"},
+    aboutTitle:   {ru:"О книге", en:"About the book", fr:"À propos du livre"},
+    aboutPartial: {ru:"Перевод ещё не завершён — вот что готово на сегодня.", en:"The translation is not finished yet - here is what's ready so far.", fr:"La traduction n'est pas encore terminée — voici ce qui est prêt à ce jour."},
+    plateLink:    {ru:"Смотреть таблицу целиком", en:"View the full plate", fr:"Voir la planche entière"},
+    plateTitle:   {ru:"Таблица {n}", en:"Plate {n}", fr:"Planche {n}"},
+    plateHint:    {ru:"Нажмите на номер, чтобы открыть предмет.", en:"Click a number to open that object.", fr:"Cliquez sur un numéro pour ouvrir cet objet."},
+    infoSec:      {ru:"Сведения", en:"Details", fr:"Détails"},
+    objCount:     {ru:"Предметов: {n}", en:"Objects: {n}", fr:"Objets : {n}"},
+    progressShort:{ru:"{done} из {total} переведено", en:"{done} of {total} translated", fr:"{done} sur {total} traduits"},
+    viewList:     {ru:"Список предметов", en:"Object list", fr:"Liste des objets"},
+    viewBook:     {ru:"Как в книге", en:"As printed", fr:"Comme imprimé"}
   };
   function t(key, vars){
-    var s = (DICT[key] && (DICT[key][state.lang] || DICT[key].ru)) || key;
+    var s = (DICT[key] && (DICT[key][state.lang] || DICT[key].en || DICT[key].ru)) || key;
     if(vars) for(var k in vars) s = s.replace("{"+k+"}", vars[k]);
     return s;
   }
@@ -125,7 +127,8 @@
     var saved = null;
     try{ saved = localStorage.getItem("ic-lang"); }catch(e){}
     var fromAttr = root.getAttribute("data-lang");
-    var lang = (qLang==="en"||qLang==="ru") ? qLang : (saved==="en"||saved==="ru") ? saved : (fromAttr==="en"||fromAttr==="ru") ? fromAttr : "en";
+    var isLang = function(v){ return v==="en"||v==="ru"||v==="fr"; };
+    var lang = isLang(qLang) ? qLang : isLang(saved) ? saved : isLang(fromAttr) ? fromAttr : "en";
     state.lang = lang;
     if(qLang && qLang!==saved){ try{ localStorage.setItem("ic-lang", qLang); }catch(e){} }
     root.setAttribute("data-lang", lang);
@@ -142,7 +145,8 @@
     if(!backBarLangEl) return;
     backBarLangEl.innerHTML =
       '<button type="button" data-lang="ru" aria-pressed="'+(state.lang==="ru")+'">RU</button>'+
-      '<button type="button" data-lang="en" aria-pressed="'+(state.lang==="en")+'">EN</button>';
+      '<button type="button" data-lang="en" aria-pressed="'+(state.lang==="en")+'">EN</button>'+
+      '<button type="button" data-lang="fr" aria-pressed="'+(state.lang==="fr")+'">FR</button>';
     backBarLangEl.querySelectorAll("button").forEach(function(b){
       b.addEventListener("click",function(){ setLang(b.getAttribute("data-lang")); });
     });
@@ -192,8 +196,27 @@
     return (it.img&&it.img.length) || (it.text_ru&&it.text_ru.length);
   }
   // заголовок/перевод/группа на текущем языке, с откатом на русский, если EN ещё не готов
-  function titleOf(it){ return state.lang==="en" && it.en ? it.en : it.ru; }
-  function groupOf(it){ return state.lang==="en" && it.group_en ? it.group_en : it.group; }
+  function titleOf(it){
+    if(state.lang==="fr" && it.name_fr) return it.name_fr;
+    return state.lang==="en" && it.en ? it.en : it.ru;
+  }
+  function groupOf(it){
+    if(state.lang==="fr" && it.group_frtrans) return it.group_frtrans;
+    return state.lang==="en" && it.group_en ? it.group_en : it.group;
+  }
+  // Translated body text (the "Translation" section). text_fr is overloaded
+  // across this app: for books with an "Original" toggle (showOriginal!==
+  // false), text_fr already holds the ORIGINAL-language text shown there —
+  // reusing it as a French *translation* here would just duplicate that same
+  // text under a "Translation" label. So the FR-translation reading of
+  // text_fr is opt-in per book (book.meta.frIsTranslation), set only for
+  // books where text_fr is a genuine French translation of the source
+  // (e.g. Cartari, translated from Italian).
+  function textFor(it, book){
+    if(state.lang==="fr" && book && book.meta && book.meta.frIsTranslation && it.text_fr && it.text_fr.length) return it.text_fr;
+    if(state.lang==="en" && it.text_en && it.text_en.length) return it.text_en;
+    return it.text_ru;
+  }
 
   /* ---------- загрузка библиотеки и книг ---------- */
   var library = null;        // содержимое library.json
@@ -367,9 +390,10 @@
   }
 
   function langSwitch(){
-    return '<div class="ic-lang" role="group" aria-label="RU / EN">'+
+    return '<div class="ic-lang" role="group" aria-label="RU / EN / FR">'+
       '<button type="button" class="ic-lang-b" data-lang="ru" aria-pressed="'+(state.lang==="ru")+'">RU</button>'+
       '<button type="button" class="ic-lang-b" data-lang="en" aria-pressed="'+(state.lang==="en")+'">EN</button>'+
+      '<button type="button" class="ic-lang-b" data-lang="fr" aria-pressed="'+(state.lang==="fr")+'">FR</button>'+
       '</div>';
   }
   function bindLangSwitch(container){
@@ -446,7 +470,7 @@
       if(state.filter==="ready" && !ready(it, book)) return false;
       return !nq || nq.split(/\s+/).every(function(w){ return it.key.indexOf(w)>-1; });
     });
-    if(state.sort==="ru") res.sort(function(a,b){ return titleOf(a).localeCompare(titleOf(b),state.lang==="en"?"en":"ru"); });
+    if(state.sort==="ru") res.sort(function(a,b){ return titleOf(a).localeCompare(titleOf(b),state.lang==="ru"?"ru":state.lang); });
     else if(state.sort==="page") res.sort(function(a,b){ return a.part-b.part || a.pn-b.pn || a.ord-b.ord; });
     // While searching, a hit whose title literally contains the word (in any
     // of the three languages) outranks one that only matches somewhere in
@@ -664,11 +688,11 @@
     }).join("");
     var captionLine = it.caption ? '<p class="ic-caption"><b>'+esc(t("captionLbl"))+'</b> '+esc(it.caption)+'</p>' : "";
     var attrs=(it.attrs||[]).map(function(a){
-      var what = state.lang==="en" && a.what_en ? a.what_en : a.what;
-      var meaning = state.lang==="en" && a.meaning_en ? a.meaning_en : a.meaning;
+      var what = state.lang==="fr" && a.what_frtrans ? a.what_frtrans : state.lang==="en" && a.what_en ? a.what_en : a.what;
+      var meaning = state.lang==="fr" && a.meaning_frtrans ? a.meaning_frtrans : state.lang==="en" && a.meaning_en ? a.meaning_en : a.meaning;
       return '<li><b>'+esc(what)+'</b><span>'+esc(meaning)+'</span></li>';
     }).join("");
-    var translArr = state.lang==="en" && it.text_en && it.text_en.length ? it.text_en : it.text_ru;
+    var translArr = textFor(it, book);
     var transl=paraHtml(translArr);
     var showOrig = book.meta.showOriginal !== false;
     var hasScans = showOrig && it.scans && it.scans.length;
@@ -796,8 +820,9 @@
   function renderAbout(book){
     var about = book.meta.about;
     if(!about){ goIndex(book); return; }
-    var arr = (state.lang==="en" && about.en && about.en.length) ? about.en : (about.ru && about.ru.length ? about.ru : about.fr);
-    var note = state.lang==="en" ? about.note_en : about.note_ru;
+    var arr = state.lang==="fr" ? (about.fr && about.fr.length ? about.fr : about.ru)
+      : (state.lang==="en" && about.en && about.en.length) ? about.en : (about.ru && about.ru.length ? about.ru : about.fr);
+    var note = state.lang==="fr" ? (about.note_fr || about.note_en) : state.lang==="en" ? about.note_en : about.note_ru;
     root.innerHTML =
       '<div class="ic-wrap">'+
         '<div class="ic-nav">'+
@@ -831,7 +856,7 @@
         fieldsHtml += '<li><b>'+esc(label)+'</b><span>'+esc(val)+'</span></li>';
       });
     }
-    var translArr = state.lang==="en" && it.text_en && it.text_en.length ? it.text_en : it.text_ru;
+    var translArr = textFor(it, book);
     var transl = paraHtml(translArr);
     var showOrig = book.meta.showOriginal !== false;
     var hasScans = showOrig && it.scans && it.scans.length;
@@ -889,7 +914,7 @@
   // этот предмет на гравюре (и на телефоне открывает его панель).
   function bookTextHtml(book, objs){
     return objs.map(function(it){
-      var arr = state.lang==="en" && it.text_en && it.text_en.length ? it.text_en : it.text_ru;
+      var arr = textFor(it, book);
       if(!arr || !arr.length) return "";
       var html = paraHtml(arr);
       var marker = '<a href="#" class="ic-numref" data-id="'+it.id+'">'+esc(it.num||"")+'</a> ';
