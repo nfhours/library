@@ -2886,6 +2886,72 @@
       "text_fr": [
         "« Image du Sphinx thébain, vaincu par Œdipe, et de la Chimère de Lycie, vaincue par Bellérophon — qui était une montagne de Lycie, pleine de bêtes féroces et déserte, que Bellérophon rendit cultivée et habitable. »"
       ]
+    },
+    {
+      "id": "cartm23",
+      "num": "23",
+      "page": "23",
+      "fr": "La Pace e Pluto",
+      "ru": "Мир и Плутос",
+      "en": "Peace and Plutus",
+      "name_fr": "La Paix et Plutus",
+      "img": [
+        "cartm23.jpg"
+      ],
+      "caption": "Imagine della Pace, & de Hieroglifici che significhe questo dimostra cioè il fanciullo Pluto che hà in mano dio delle ricchezze moltiplicanti la pace, sia che di grano, che denotano la coltivatione de campi nella pace, & sua fertilità, coronata di lauro havendo sotto le piedi l'vlino segno di trionfo, & di quiete.",
+      "text_ru": [
+        "«Образ Мира и иероглифов, что это означают, а именно — младенца Плутоса, держащего в руке [знаки] бога богатств, умножающего мир, будь то зерном, означающим возделывание полей в мирное время и его плодородие; увенчана лавром, с оливковой ветвью под ногами — знаком торжества и покоя»."
+      ],
+      "text_en": [
+        "“Image of Peace, and of the hieroglyphs that signify this, namely the infant Plutus holding in his hand [the signs] of the god of riches, who multiplies peace, be it through grain, denoting the cultivation of the fields in peacetime and its fertility; crowned with laurel, with an olive branch beneath her feet, a sign of triumph and of quiet.”"
+      ],
+      "text_fr": [
+        "« Image de la Paix, et des hiéroglyphes qui la signifient, à savoir l'enfant Plutus tenant en main [les signes] du dieu des richesses, qui multiplie la paix, que ce soit par le grain, dénotant la culture des champs en temps de paix et sa fertilité ; couronnée de laurier, avec une branche d'olivier sous les pieds, signe de triomphe et de repos. »"
+      ]
+    },
+    {
+      "id": "cartm24",
+      "num": "24",
+      "page": "24",
+      "fr": "Mercurio inventore e Palestra",
+      "ru": "Меркурий-изобретатель и Палестра",
+      "en": "Mercury the inventor, and Palestra",
+      "name_fr": "Mercure inventeur, et Palestra",
+      "img": [
+        "cartm24.jpg"
+      ],
+      "caption": "Imagine di Mercurio inuentore delle Lettere, della Musica, della Geometria, & delle buone arti, & imagine di Palestra sua figliuola, Dea della lotta, che tiene in grembo vn ramo di vlino, essendo riso di lottatori di vngersi con olio.",
+      "text_ru": [
+        "«Образ Меркурия, изобретателя Письмён, Музыки, Геометрии и добрых искусств, и образ Палестры, дочери его, богини борьбы, держащей на коленях оливковую ветвь, — ибо в обычае у борцов было умащаться маслом»."
+      ],
+      "text_en": [
+        "“Image of Mercury, inventor of Letters, Music, Geometry, and the good arts, and image of Palestra, his daughter, goddess of wrestling, holding in her lap an olive branch, it being the custom of wrestlers to anoint themselves with oil.”"
+      ],
+      "text_fr": [
+        "« Image de Mercure, inventeur des Lettres, de la Musique, de la Géométrie et des bons arts, et image de Palestra, sa fille, déesse de la lutte, tenant sur ses genoux une branche d'olivier, car les lutteurs avaient coutume de s'oindre d'huile. »"
+      ]
+    },
+    {
+      "id": "cartm25",
+      "num": "25",
+      "page": "25",
+      "fr": "La Notte, la Morte e il Sonno",
+      "ru": "Ночь, Смерть и Сон",
+      "en": "Night, Death, and Sleep",
+      "name_fr": "La Nuit, la Mort et le Sommeil",
+      "img": [
+        "cartm25.jpg"
+      ],
+      "caption": "Imagine della Notte nutrice della Morte, & del Sonno, & imagine del Sonno fratello & compagno della Morte; quiete & dolce ristoro de mortali, & il corno dinota il riposo, & varietà de sogni.",
+      "text_ru": [
+        "«Образ Ночи, кормилицы Смерти и Сна, и образ Сна, брата и спутника Смерти, — покоя и сладостного отдыха смертных; рог же означает отдых и многообразие снов»."
+      ],
+      "text_en": [
+        "“Image of Night, nurse of Death and of Sleep, and image of Sleep, brother and companion of Death — the rest and sweet refreshment of mortals; and the horn denotes repose and the variety of dreams.”"
+      ],
+      "text_fr": [
+        "« Image de la Nuit, nourrice de la Mort et du Sommeil, et image du Sommeil, frère et compagnon de la Mort — le repos et le doux réconfort des mortels ; et la corne dénote le repos et la diversité des songes. »"
+      ]
     }
   ]
 }
