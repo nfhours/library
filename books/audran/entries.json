@@ -1,0 +1,635 @@
+{
+  "title": "Les Proportions du corps humain",
+  "items": [
+    {
+      "id": "aud1",
+      "num": "1",
+      "page": "1",
+      "fr": "Laocoon",
+      "ru": "Лаокоон",
+      "en": "Laocoön",
+      "group": "Лаокоон",
+      "group_fr": "Laocoon",
+      "img": [
+        "aud1.jpg"
+      ],
+      "caption": "La Statue de Laocoon à de hauteur 7 têtes 2 parties 3 minutes ; elle a toûjours fait l'admiration des plus fameux dessinateurs, et plusieurs n'ont point fait de difficulté de luy donner le premier rang entre toutes les figures antiques. C'est un groupe composé de la figure de Laocoon et de celle de ses deux fils (sujet tiré du second livre de l'Énéide, vers 201). Le tout est d'un seul bloc de marbre, travaillé par trois célèbres sculpteurs : Agésandre, Polydore et Athénodore.",
+      "text_ru": [
+        "Вступительная табличка: группа Лаокоона целиком, с сыновьями. Монолитная мраморная группа работы трёх родосских скульпторов — Агесандра, Полидора и Афинодора; сюжет — эпизод из второй книги «Энеиды» Вергилия."
+      ],
+      "text_en": [
+        "Opening plate: the full Laocoön group with his sons. Carved from a single marble block by three sculptors — Agesander, Polydoros and Athenodoros; the subject is drawn from Book II of Virgil's Aeneid."
+      ],
+      "group_en": "Laocoön"
+    },
+    {
+      "id": "aud2",
+      "num": "2",
+      "page": "2",
+      "fr": "Laocoon (вид 2)",
+      "ru": "Лаокоон (вид 2)",
+      "en": "Laocoön (view 2)",
+      "group": "Лаокоон",
+      "group_fr": "Laocoon",
+      "img": [
+        "aud2.jpg"
+      ],
+      "caption": "Laocoon a de hauteur 7 têtes 2 parties 3 minutes.",
+      "text_ru": [
+        "Та же статуя, вид сбоку и со спины — с линиями пропорций торса."
+      ],
+      "text_en": [
+        "The same statue, seen from the side and back, with proportion lines across the torso."
+      ],
+      "group_en": "Laocoön"
+    },
+    {
+      "id": "aud3",
+      "num": "3",
+      "page": "3",
+      "fr": "Laocoon (вид 3)",
+      "ru": "Лаокоон (вид 3)",
+      "en": "Laocoön (view 3)",
+      "group": "Лаокоон",
+      "group_fr": "Laocoon",
+      "img": [
+        "aud3.jpg"
+      ],
+      "caption": "Laocoon a de hauteur 7 têtes 2 parties 3 minutes.",
+      "text_ru": [
+        "Ещё один ракурс Лаокоона с разметкой пропорций торса и ног."
+      ],
+      "text_en": [
+        "Another view of Laocoön, with proportion markings on the torso and legs."
+      ],
+      "group_en": "Laocoön"
+    },
+    {
+      "id": "aud4",
+      "num": "4",
+      "page": "4",
+      "fr": "Laocoon (вид сзади)",
+      "ru": "Лаокоон (вид сзади)",
+      "en": "Laocoön (rear view)",
+      "group": "Лаокоон",
+      "group_fr": "Laocoon",
+      "img": [
+        "aud4.jpg"
+      ],
+      "caption": "Laocoon a de haulteur 7 têtes 2 parties 3 minutes.",
+      "text_ru": [
+        "Лаокоон целиком со спины — от макушки до стопы, с полной сеткой измерений."
+      ],
+      "text_en": [
+        "Laocoön seen entirely from behind, head to foot, with the full measurement grid."
+      ],
+      "group_en": "Laocoön"
+    },
+    {
+      "id": "aud5",
+      "num": "5",
+      "page": "5",
+      "fr": "Hercule Farnèse",
+      "ru": "Геркулес Фарнезский",
+      "en": "Farnese Hercules",
+      "group": "Геркулес Фарнезский",
+      "group_fr": "Hercule Farnèse",
+      "img": [
+        "aud5.jpg"
+      ],
+      "caption": "La Statue d'Hercule dit de Farnese a 7 têtes 3 parties 7 minuttes de hauteur, suposant la figure droite et egallement posée sur ses deux pieds. Elle est de la main de Glicon grec.",
+      "text_ru": [
+        "Геркулес Фарнезский, вид спереди. По преданию статуя — резец греческого скульптора Гликона."
+      ],
+      "text_en": [
+        "The Farnese Hercules, front view. Traditionally attributed to the Greek sculptor Glycon."
+      ],
+      "group_en": "Farnese Hercules"
+    },
+    {
+      "id": "aud6",
+      "num": "6",
+      "page": "6",
+      "fr": "Hercule Farnèse (de côté)",
+      "ru": "Геркулес Фарнезский (сбоку)",
+      "en": "Farnese Hercules (side)",
+      "group": "Геркулес Фарнезский",
+      "group_fr": "Hercule Farnèse",
+      "img": [
+        "aud6.jpg"
+      ],
+      "caption": "Le même Hercule veu de côté a 7 têtes 3 parties 7 minutes de hauteur.",
+      "text_ru": [
+        "Тот же Геркулес Фарнезский, вид сбоку."
+      ],
+      "text_en": [
+        "The same Farnese Hercules, seen from the side."
+      ],
+      "group_en": "Farnese Hercules"
+    },
+    {
+      "id": "aud7",
+      "num": "7",
+      "page": "7",
+      "fr": "Hercule Farnèse (par Glicon)",
+      "ru": "Геркулес Фарнезский (Гликон)",
+      "en": "Farnese Hercules (by Glycon)",
+      "group": "Геркулес Фарнезский",
+      "group_fr": "Hercule Farnèse",
+      "img": [
+        "aud7.jpg"
+      ],
+      "caption": "Le mesme Hercule fait par Glicon à de hauteur 7 têtes 3 parties 7 minuttes.",
+      "text_ru": [
+        "Геркулес Фарнезский работы Гликона, ещё один ракурс."
+      ],
+      "text_en": [
+        "The Farnese Hercules by Glycon, a further view."
+      ],
+      "group_en": "Farnese Hercules"
+    },
+    {
+      "id": "aud8",
+      "num": "8",
+      "page": "8",
+      "fr": "Pyrasme",
+      "ru": "Пирасм",
+      "en": "Pyrasme",
+      "group": "Пирасм",
+      "group_fr": "Pyrasme",
+      "img": [
+        "aud8.jpg"
+      ],
+      "caption": "Pyrasme au jardin Ludovise à Rome, a de hauteur 7 têtes 2 parties.",
+      "text_ru": [
+        "Статуя из садов Людовизи в Риме, названная у Одрана «Pyrasme»."
+      ],
+      "text_en": [
+        "A statue in the Villa Ludovisi gardens in Rome, named by Audran “Pyrasme.”"
+      ],
+      "group_en": "Pyrasme"
+    },
+    {
+      "id": "aud9",
+      "num": "9",
+      "page": "9",
+      "fr": "Pyrasme (вид 2)",
+      "ru": "Пирасм (вид 2)",
+      "en": "Pyrasme (view 2)",
+      "group": "Пирасм",
+      "group_fr": "Pyrasme",
+      "img": [
+        "aud9.jpg"
+      ],
+      "caption": "Le mesme 7 têtes 2 parties de hauteur.",
+      "text_ru": [
+        "Та же статуя из садов Людовизи, другой ракурс."
+      ],
+      "text_en": [
+        "The same Villa Ludovisi statue, another view."
+      ],
+      "group_en": "Pyrasme"
+    },
+    {
+      "id": "aud10",
+      "num": "10",
+      "page": "10",
+      "fr": "Terme égyptien",
+      "ru": "Египетский герм",
+      "en": "Egyptian herm",
+      "group": "Антиной",
+      "group_fr": "Antinoüs",
+      "img": [
+        "aud10.jpg"
+      ],
+      "caption": "Le terme Ouvrage Egyptien, a de hauteur 7 têtes 1 partie 7 minutes. Comme la tête n'est pas de 4 mesures de nez, il faudra les prendre de l'espace des 2 tétins, d'autant que le haut de la tête est surbaissée.",
+      "text_ru": [
+        "Бюст-герма «египетской работы»; Одран советует мерить голову не по длине носа, а по расстоянию между сосками — верх головы у этой фигуры занижен."
+      ],
+      "text_en": [
+        "A herm bust “in the Egyptian manner”; Audran suggests measuring the head not by the nose but by the span between the nipples, since the crown of the head sits lower than usual."
+      ],
+      "group_en": "Antinous"
+    },
+    {
+      "id": "aud11",
+      "num": "11",
+      "page": "11",
+      "fr": "Terme égyptien (вид 2)",
+      "ru": "Египетский герм (вид 2)",
+      "en": "Egyptian herm (view 2)",
+      "group": "Антиной",
+      "group_fr": "Antinoüs",
+      "img": [
+        "aud11.jpg"
+      ],
+      "caption": "Elle a de hauteur 7 têtes 2 parties.",
+      "text_ru": [
+        "Тот же бюст, другой ракурс, с отметкой «B»."
+      ],
+      "text_en": [
+        "The same bust, another view, marked “B.”"
+      ],
+      "group_en": "Antinous"
+    },
+    {
+      "id": "aud12",
+      "num": "12",
+      "page": "12",
+      "fr": "Antinous",
+      "ru": "Антиной",
+      "en": "Antinous",
+      "group": "Антиной",
+      "group_fr": "Antinoüs",
+      "img": [
+        "aud12.jpg"
+      ],
+      "caption": "Le mesme Antinous à 7 têtes 2 parties.",
+      "text_ru": [
+        "Статуя, которую Одран называет Антиноем."
+      ],
+      "text_en": [
+        "The statue Audran identifies as Antinous."
+      ],
+      "group_en": "Antinous"
+    },
+    {
+      "id": "aud13",
+      "num": "13",
+      "page": "13",
+      "fr": "La Paix des Grecs",
+      "ru": "Мир греков",
+      "en": "The Peace of the Greeks",
+      "group": "Мир греков",
+      "group_fr": "La Paix des Grecs",
+      "img": [
+        "aud13.jpg"
+      ],
+      "caption": "La Paix des Grecs. A de hauteur 7 têtes 2 parties, suposant la figure droite et egallement posée sur ses deux pieds. Elle se peut encore mesurer avec l'eschelle de l'Antinoüs afin d'en examiner les différences.",
+      "text_ru": [
+        "Статуя «Мир греков» (Эйрена); Одран предлагает сверить её со шкалой Антиноя, чтобы сравнить пропорции двух фигур."
+      ],
+      "text_en": [
+        "The statue “Peace of the Greeks” (Eirene); Audran suggests checking it against the Antinous scale to compare the two figures' proportions."
+      ],
+      "group_en": "The Peace of the Greeks"
+    },
+    {
+      "id": "aud14",
+      "num": "14",
+      "page": "14",
+      "fr": "La Bergère Grecque",
+      "ru": "Греческая пастушка",
+      "en": "The Greek Shepherdess",
+      "group": "Греческая пастушка",
+      "group_fr": "La Bergère Grecque",
+      "img": [
+        "aud14.jpg"
+      ],
+      "caption": "La Bergère Grecque a de hauteur 7 têtes 3 parties 6 minutes.",
+      "text_ru": [
+        "«Греческая пастушка» — ещё одна женская фигура из набора образцов."
+      ],
+      "text_en": [
+        "“The Greek Shepherdess” — another female figure among the model statues."
+      ],
+      "group_en": "The Greek Shepherdess"
+    },
+    {
+      "id": "aud15",
+      "num": "15",
+      "page": "15",
+      "fr": "Vénus de Médicis",
+      "ru": "Венера Медичи",
+      "en": "Venus de' Medici",
+      "group": "Венера Медичи",
+      "group_fr": "Vénus de Médicis",
+      "img": [
+        "aud15.jpg"
+      ],
+      "caption": "La Statue de Venus Aphrodide dite de Medicis a de hauteur 7 têtes 3 parties, suposant la figure droite et appuyée egallement sur les deux pieds.",
+      "text_ru": [
+        "Венера Медичи, вид спереди."
+      ],
+      "text_en": [
+        "The Venus de' Medici, front view."
+      ],
+      "group_en": "Venus de' Medici"
+    },
+    {
+      "id": "aud16",
+      "num": "16",
+      "page": "16",
+      "fr": "Vénus de Médicis (вид 2)",
+      "ru": "Венера Медичи (вид 2)",
+      "en": "Venus de' Medici (view 2)",
+      "group": "Венера Медичи",
+      "group_fr": "Vénus de Médicis",
+      "img": [
+        "aud16.jpg"
+      ],
+      "caption": "La Venus Aphrodide dite de Medicis a de hauteur 7 têtes 3 parties, suposant la figure droite et appuyée egallement sur ses deux pieds.",
+      "text_ru": [
+        "Та же Венера Медичи, ещё один ракурс."
+      ],
+      "text_en": [
+        "The same Venus de' Medici, a further view."
+      ],
+      "group_en": "Venus de' Medici"
+    },
+    {
+      "id": "aud17",
+      "num": "17",
+      "page": "17",
+      "fr": "Apollon Pythien",
+      "ru": "Аполлон Пифийский",
+      "en": "Apollo Pythius",
+      "group": "Аполлон Пифийский",
+      "group_fr": "Apollon Pythien",
+      "img": [
+        "aud17.jpg"
+      ],
+      "caption": "Apollon pythien decochant ses flesches à de hauteur 7 têtes 3 parties 6 minutes. Sa Statue est au Jardin du Vatican.",
+      "text_ru": [
+        "Аполлон Пифийский, пускающий стрелы, — статуя из садов Ватикана, более известная как Аполлон Бельведерский."
+      ],
+      "text_en": [
+        "Apollo Pythius loosing his arrows — the statue in the Vatican gardens, better known today as the Apollo Belvedere."
+      ],
+      "group_en": "Apollo Pythius"
+    },
+    {
+      "id": "aud18",
+      "num": "18",
+      "page": "18",
+      "fr": "Apollon Pythien (вид 2)",
+      "ru": "Аполлон Пифийский (вид 2)",
+      "en": "Apollo Pythius (view 2)",
+      "group": "Аполлон Пифийский",
+      "group_fr": "Apollon Pythien",
+      "img": [
+        "aud18.jpg"
+      ],
+      "caption": "Le mesme a de hauteur 7 têtes 3 parties 6 minuttes.",
+      "text_ru": [
+        "Тот же Аполлон, другой ракурс."
+      ],
+      "text_en": [
+        "The same Apollo, another view."
+      ],
+      "group_en": "Apollo Pythius"
+    },
+    {
+      "id": "aud19",
+      "num": "19",
+      "page": "19",
+      "fr": "Apollon Pythien (вид 3)",
+      "ru": "Аполлон Пифийский (вид 3)",
+      "en": "Apollo Pythius (view 3)",
+      "group": "Аполлон Пифийский",
+      "group_fr": "Apollon Pythien",
+      "img": [
+        "aud19.jpg"
+      ],
+      "caption": "Le mesme a de hauteur 7 têtes 3 parties 6 minuttes.",
+      "text_ru": [
+        "Аполлон, ещё один ракурс."
+      ],
+      "text_en": [
+        "Apollo, a further view."
+      ],
+      "group_en": "Apollo Pythius"
+    },
+    {
+      "id": "aud20",
+      "num": "20",
+      "page": "20",
+      "fr": "Apollon Pythien (perspective)",
+      "ru": "Аполлон Пифийский (перспектива)",
+      "en": "Apollo Pythius (perspective)",
+      "group": "Аполлон Пифийский",
+      "group_fr": "Apollon Pythien",
+      "img": [
+        "aud20.jpg"
+      ],
+      "caption": "Le mesme à de hauteur 7 têtes 3 parties 6 minuttes.",
+      "text_ru": [
+        "Аполлон — построение фигуры в перспективе."
+      ],
+      "text_en": [
+        "Apollo — the figure set out in perspective."
+      ],
+      "group_en": "Apollo Pythius"
+    },
+    {
+      "id": "aud21",
+      "num": "21",
+      "page": "21",
+      "fr": "Fragment de l'antique",
+      "ru": "Фрагмент античной статуи",
+      "en": "Fragment of an antique statue",
+      "group": "Фрагмент",
+      "group_fr": "Fragment de l'antique",
+      "img": [
+        "aud21.jpg"
+      ],
+      "caption": "Ce fragment de l'antique, à de hauteur 7 têtes 2 parties. On croit que c'est du même qui a fait le Lantin.",
+      "text_ru": [
+        "Торс античной статуи рядом с отдельными изучениями глаза, носа и рта."
+      ],
+      "text_en": [
+        "A torso fragment of an antique statue, alongside separate studies of the eye, nose and mouth."
+      ],
+      "group_en": "Fragment"
+    },
+    {
+      "id": "aud22",
+      "num": "22",
+      "page": "22",
+      "fr": "Mirmillon (вид 1)",
+      "ru": "Мирмиллон (вид 1)",
+      "en": "Mirmillo (view 1)",
+      "group": "Мирмиллон",
+      "group_fr": "Mirmillon",
+      "img": [
+        "aud22.jpg"
+      ],
+      "caption": "La même 8 têtes de hauteur.",
+      "text_ru": [
+        "Статуя гладиатора-мирмиллона, первый из двух видов."
+      ],
+      "text_en": [
+        "The gladiator-mirmillo statue, the first of two views."
+      ],
+      "group_en": "Mirmillo"
+    },
+    {
+      "id": "aud23",
+      "num": "23",
+      "page": "23",
+      "fr": "Mirmillon mourant",
+      "ru": "Умирающий мирмиллон",
+      "en": "The Dying Mirmillo",
+      "group": "Мирмиллон",
+      "group_fr": "Mirmillon",
+      "img": [
+        "aud23.jpg"
+      ],
+      "caption": "Mirmille mourant à de hauteur 8 têtes, sa Statue est à Rome au jardin Ludovise.",
+      "text_ru": [
+        "«Умирающий мирмиллон» — статуя из садов Людовизи в Риме; мирмиллон — тип тяжеловооружённого римского гладиатора."
+      ],
+      "text_en": [
+        "“The Dying Mirmillo” — a statue in the Villa Ludovisi gardens in Rome; a mirmillo was a heavily armed type of Roman gladiator."
+      ],
+      "group_en": "Mirmillo"
+    },
+    {
+      "id": "aud24",
+      "num": "24",
+      "page": "24",
+      "fr": "Enfant de Laocoon",
+      "ru": "Сын Лаокоона",
+      "en": "Son of Laocoön",
+      "group": "Лаокоон",
+      "group_fr": "Laocoon",
+      "img": [
+        "aud24.jpg"
+      ],
+      "caption": "Le grand enfant du Laocoon a de hauteur 7 têtes 2 parties.",
+      "text_ru": [
+        "Старший сын Лаокоона, измеренный отдельно от всей группы."
+      ],
+      "text_en": [
+        "The elder son of Laocoön, measured apart from the full group."
+      ],
+      "group_en": "Laocoön"
+    },
+    {
+      "id": "aud25",
+      "num": "25",
+      "page": "25",
+      "fr": "Enfant de Laocoon, marqué B",
+      "ru": "Сын Лаокоона, помечен «B»",
+      "en": "Son of Laocoön, marked “B”",
+      "group": "Лаокоон",
+      "group_fr": "Laocoon",
+      "img": [
+        "aud25.jpg"
+      ],
+      "caption": "L'un des enfans de Laocoon, marqué B.",
+      "text_ru": [
+        "Один из сыновей Лаокоона, обозначенный на гравюре буквой «B»."
+      ],
+      "text_en": [
+        "One of Laocoön's sons, marked “B” on the plate."
+      ],
+      "group_en": "Laocoön"
+    },
+    {
+      "id": "aud26",
+      "num": "26",
+      "page": "26",
+      "fr": "Enfant de Laocoon (suite)",
+      "ru": "Сын Лаокоона (продолжение)",
+      "en": "Son of Laocoön (continued)",
+      "group": "Лаокоон",
+      "group_fr": "Laocoon",
+      "img": [
+        "aud26.jpg"
+      ],
+      "caption": "Il a 5 têtes de hauteur.",
+      "text_ru": [
+        "Тот же (младший) сын Лаокоона — пропорция всего 5 голов в высоту, как у ребёнка."
+      ],
+      "text_en": [
+        "The same (younger) son of Laocoön — just 5 heads tall, as befits a child."
+      ],
+      "group_en": "Laocoön"
+    },
+    {
+      "id": "aud27",
+      "num": "27",
+      "page": "27",
+      "fr": "Visage d'Apollon",
+      "ru": "Черты лица Аполлона",
+      "en": "Features of Apollo's face",
+      "group": "Аполлон Пифийский",
+      "group_fr": "Apollon Pythien",
+      "img": [
+        "aud27.jpg"
+      ],
+      "caption": "Les Parties du Visage mesurées de la mesme grandeur qu'elles sont en la Statue d'Apollon Pythien qui est au Jardin du Vatican.",
+      "text_ru": [
+        "Отдельное изучение глаза, носа, рта и уха — в масштабе статуи Аполлона Пифийского."
+      ],
+      "text_en": [
+        "A close study of the eye, nose, mouth and ear — at the scale of the Apollo Pythius statue."
+      ],
+      "group_en": "Apollo Pythius"
+    },
+    {
+      "id": "aud28",
+      "num": "28",
+      "page": "28",
+      "fr": "Visage de Vénus",
+      "ru": "Черты лица Венеры",
+      "en": "Features of Venus's face",
+      "group": "Венера Медичи",
+      "group_fr": "Vénus de Médicis",
+      "img": [
+        "aud28.jpg"
+      ],
+      "caption": "Les parties du visage d'une Venus antique mesurées de leurs mesmes grandeurs.",
+      "text_ru": [
+        "Те же черты лица, изученные на примере античной Венеры."
+      ],
+      "text_en": [
+        "The same facial features, studied from an antique Venus."
+      ],
+      "group_en": "Venus de' Medici"
+    },
+    {
+      "id": "aud29",
+      "num": "29",
+      "page": "29",
+      "fr": "Têtes (fronton)",
+      "ru": "Орнаментальные головы",
+      "en": "Ornamental heads",
+      "group": "Орнаментальные заставки",
+      "group_fr": "Têtes ornementales",
+      "img": [
+        "aud29.jpg"
+      ],
+      "caption": "R. Vrbm. in. — G. Au. sculp cum privil.",
+      "text_ru": [
+        "Декоративная виньетка: две головы по рисунку круга Рафаэля (Джулио Романо), гравировал сам Жерар Одран."
+      ],
+      "text_en": [
+        "A decorative vignette: two heads after a design from Raphael's circle (Giulio Romano), engraved by Girard Audran himself."
+      ],
+      "group_en": "Ornamental headpieces"
+    },
+    {
+      "id": "aud30",
+      "num": "30",
+      "page": "30",
+      "fr": "Têtes (fronton, suite)",
+      "ru": "Орнаментальные головы (продолжение)",
+      "en": "Ornamental heads (continued)",
+      "group": "Орнаментальные заставки",
+      "group_fr": "Têtes ornementales",
+      "img": [
+        "aud30.jpg"
+      ],
+      "caption": "",
+      "text_ru": [
+        "Ещё одна пара декоративных голов того же цикла, завершающая книгу."
+      ],
+      "text_en": [
+        "A further pair of decorative heads from the same set, closing the book."
+      ],
+      "group_en": "Ornamental headpieces"
+    }
+  ]
+}
