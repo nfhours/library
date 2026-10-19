@@ -2402,6 +2402,72 @@
       "text_fr": [
         "(une statue antique avec une inscription grecque à sa base, tirée de la dernière partie de l'« Aggionta » de Pignoria)"
       ]
+    },
+    {
+      "id": "cartm1",
+      "num": "1",
+      "page": "1",
+      "fr": "Prouidenza",
+      "ru": "Провидение",
+      "en": "Providence",
+      "name_fr": "La Providence",
+      "img": [
+        "cartm1.jpg"
+      ],
+      "caption": "Imagini della Dea Prouidenza, tenuta da gl'antichi anima del Mondo & creatrice del tutto.",
+      "text_ru": [
+        "«Образ богини Провидения, почитавшейся древними душой Мира и создательницей всего сущего»."
+      ],
+      "text_en": [
+        "“Image of the goddess Providence, held by the ancients to be the soul of the World and creator of all things.”"
+      ],
+      "text_fr": [
+        "« Image de la déesse Providence, tenue par les anciens pour l'âme du Monde et créatrice de toutes choses. »"
+      ]
+    },
+    {
+      "id": "cartm2",
+      "num": "2",
+      "page": "2",
+      "fr": "Saturno e il Tempo (piedi legati)",
+      "ru": "Сатурн и Время (со связанными ногами)",
+      "en": "Saturn and Time (feet bound)",
+      "name_fr": "Saturne et le Temps (pieds liés)",
+      "img": [
+        "cartm2.jpg"
+      ],
+      "caption": "Imagine di Saturno, & del Tempo, che co' piedi legati di fil di lana, significa la vendetta, & castigo di Dio esser tardo aspettando l'emenda: denota ancora la ragione del parto con la produttione delle cose insieme andar congiunte.",
+      "text_ru": [
+        "«Образ Сатурна и Времени, чьи ноги, связанные шерстяной нитью, означают, что возмездие и кара Божья медлят, ожидая исправления; это означает также, что причина рождения неразрывно связана с созиданием вещей»."
+      ],
+      "text_en": [
+        "“Image of Saturn and of Time, whose feet, bound with woollen thread, signify that God's vengeance and punishment are slow, awaiting amendment; it also denotes that the cause of birth goes hand in hand with the making of things.”"
+      ],
+      "text_fr": [
+        "« Image de Saturne et du Temps, dont les pieds, liés d'un fil de laine, signifient que la vengeance et le châtiment de Dieu tardent, attendant l'amendement ; cela dénote aussi que la cause de la naissance va de pair avec la production des choses. »"
+      ]
+    },
+    {
+      "id": "cartm3",
+      "num": "3",
+      "page": "3",
+      "fr": "Giano (Sole, Tempo, Pace)",
+      "ru": "Янус (Солнце, Время, Мир)",
+      "en": "Janus (Sun, Time, Peace)",
+      "name_fr": "Janus (Soleil, Temps, Paix)",
+      "img": [
+        "cartm3.jpg"
+      ],
+      "caption": "Imagini di Giano inteso ancora per il Sole, per il Tempo, per il Dio dell'anno, & della pace, significano ancora li duoi lumi dell'anima nostra, il lume diuino & il lume naturale.",
+      "text_ru": [
+        "«Образы Януса, понимаемого также как Солнце, как Время, как бог года и мира; означают также два света нашей души — свет божественный и свет природный»."
+      ],
+      "text_en": [
+        "“Images of Janus, understood also as the Sun, as Time, as the god of the year and of peace; they also signify the two lights of our soul, the divine light and the natural light.”"
+      ],
+      "text_fr": [
+        "« Images de Janus, compris aussi comme le Soleil, comme le Temps, comme le dieu de l'année et de la paix ; ils signifient aussi les deux lumières de notre âme, la lumière divine et la lumière naturelle. »"
+      ]
     }
   ]
 }
