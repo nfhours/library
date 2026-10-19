@@ -2842,6 +2842,50 @@
       "text_fr": [
         "« Images du fleuve Nil, assis sur le Sphinx, avec de nombreux enfants autour dénotant les degrés de la crue de ce fleuve, qui sont ordinairement de seize coudées. »"
       ]
+    },
+    {
+      "id": "cartm21",
+      "num": "21",
+      "page": "21",
+      "fr": "Aletto, Tessifone e Megera",
+      "ru": "Алекто, Тисифона и Мегера",
+      "en": "Alecto, Tisiphone and Megaera",
+      "name_fr": "Alecto, Tisiphone et Mégère",
+      "img": [
+        "cartm21.jpg"
+      ],
+      "caption": "Imagini di Aletto, Tessifone, & Megera tre furie infernali punitrici del male, & di quello anco apportatrici, intese per tre passioni dell'animo, Ira, Auaritia, & Libidine, con la pecora nera à loro sacrata, & con le tortore segno di mestitia.",
+      "text_ru": [
+        "«Образы Алекто, Тисифоны и Мегеры, трёх адских фурий, карательниц зла, а также и приносящих его, понимаемых как три страсти души — Гнев, Алчность и Похоть, — с чёрной овцой, им посвящённой, и с горлицами, знаком печали»."
+      ],
+      "text_en": [
+        "“Images of Alecto, Tisiphone, and Megaera, three infernal Furies, punishers of evil and also its bringers, understood as three passions of the soul — Wrath, Avarice, and Lust — with the black sheep sacred to them, and the turtledoves, a sign of sorrow.”"
+      ],
+      "text_fr": [
+        "« Images d'Alecto, de Tisiphone et de Mégère, trois Furies infernales, punisseuses du mal et aussi ses pourvoyeuses, comprises comme trois passions de l'âme — la Colère, l'Avarice et la Luxure — avec la brebis noire qui leur est consacrée, et les tourterelles, signe de tristesse. »"
+      ]
+    },
+    {
+      "id": "cartm22",
+      "num": "22",
+      "page": "22",
+      "fr": "La Sfinge Tebana e la Chimera",
+      "ru": "Фиванский Сфинкс и Химера",
+      "en": "The Theban Sphinx and the Chimera",
+      "name_fr": "Le Sphinx thébain et la Chimère",
+      "img": [
+        "cartm22.jpg"
+      ],
+      "caption": "Imagine della Sfinge Thebana superata da Edipo, & della Chimera Licia superata da Bellorofonte, qual fù vn monte della Licia pieno di feroci animali, & deserto, da Bellorofonte ridotto à coltura, & habitabile.",
+      "text_ru": [
+        "«Образ Фиванского Сфинкса, побеждённого Эдипом, и Ликийской Химеры, побеждённой Беллерофонтом, — а была то гора в Ликии, полная свирепых зверей и пустынная, которую Беллерофонт сделал возделанной и обитаемой»."
+      ],
+      "text_en": [
+        "“Image of the Theban Sphinx, overcome by Oedipus, and of the Lycian Chimera, overcome by Bellerophon — which was a mountain in Lycia, full of fierce animals and desolate, which Bellerophon made cultivated and habitable.”"
+      ],
+      "text_fr": [
+        "« Image du Sphinx thébain, vaincu par Œdipe, et de la Chimère de Lycie, vaincue par Bellérophon — qui était une montagne de Lycie, pleine de bêtes féroces et déserte, que Bellérophon rendit cultivée et habitable. »"
+      ]
     }
   ]
 }
