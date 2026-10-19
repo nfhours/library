@@ -327,6 +327,8 @@ button.ic-scan-prev,button.ic-scan-next{width:38px;height:38px;border:1px solid 
   @keyframes ic-fade-in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
   .ic-wrap{animation:ic-fade-in .45s ease both}
   .ic-fig,.ic-scan-frame{transition:transform .3s ease,box-shadow .3s ease}
+  .ic-fade-img{opacity:0;transition:opacity .6s ease}
+  .ic-fade-img.ic-img-in{opacity:1}
 }
 @media (hover:hover) and (prefers-reduced-motion:no-preference){
   .ic-fig:hover,.ic-scan-frame:hover{transform:translateY(-2px);box-shadow:0 20px 40px -20px rgba(70,46,20,.45)}
