@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "57";
+  var APP_VER = "58";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -85,6 +85,8 @@
     missingAt:    {ru:"В книге: часть {part}, страница {page}.", en:"In the book: part {part}, page {page}."},
     pagerBack:    {ru:"Назад", en:"Back"},
     pagerNext:    {ru:"Дальше", en:"Next"},
+    navPrev:      {ru:"Пред.", en:"Prev"},
+    navNext:      {ru:"След.", en:"Next"},
     lbAlt:        {ru:"Гравюра", en:"Engraving"},
     close:        {ru:"Закрыть", en:"Close"},
     langName:     {ru:"RU", en:"EN"},
@@ -687,6 +689,10 @@
       '<div class="ic-wrap">'+
         '<div class="ic-nav">'+
           '<button type="button" class="ic-back">'+t("back")+'</button>'+
+          '<div class="ic-nav-pager">'+
+            '<button type="button" class="ic-nav-pager-b" data-go="'+(prev?prev.id:"")+'"'+(prev?"":" disabled")+'>'+t("navPrev")+'</button>'+
+            '<button type="button" class="ic-nav-pager-b" data-go="'+(next?next.id:"")+'"'+(next?"":" disabled")+'>'+t("navNext")+'</button>'+
+          '</div>'+
           '<span class="ic-nav-pos">'+pos+'</span>'+
           langSwitch()+
         '</div>'+
