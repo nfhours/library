@@ -1,0 +1,18 @@
+{
+  "slug": "cartari",
+  "title": {
+    "ru": "Образы богов древних",
+    "en": "The Images of the Gods of the Ancients",
+    "original": "Imagini de gli Dei degli Antichi"
+  },
+  "subtitle": {
+    "ru": "Винченцо Картари, издание Падуя, 1626 (Tozzi) — классический свод античной иконографии, с приложением Лоренцо Пиньории о божествах Мексики и Японии. 15 табличек главных античных божеств по образцу Рипы, и отдельный раздел — приложение Пиньории, ради которого это издание особенно ценно: гравюры из мексиканских кодексов и зарисовки японских идолов и храмов, которые автор сравнивает с античными и христианскими образами. Текст на итальянском; перевод выборочный, с краткими пояснениями.",
+    "en": "Vincenzo Cartari, Padua edition, 1626 (Tozzi) — a classic compendium of ancient iconography, with Lorenzo Pignoria's appendix on the gods of Mexico and Japan. 15 plates of the principal ancient deities in the manner of Ripa, plus a separate section for Pignoria's appendix — the reason this edition is especially prized: engravings from Mexican codices and drawings of Japanese idols and temples, which the author compares to ancient and Christian imagery. Text in Italian; translation is selective, with brief notes."
+  },
+  "author": "Vincenzo Cartari (con l'aggiunta di Lorenzo Pignoria)",
+  "year": 1626,
+  "place": "Padova",
+  "idPrefix": "cart",
+  "viewer": "figure",
+  "showOriginal": false
+}
