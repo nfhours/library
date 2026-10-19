@@ -2710,6 +2710,28 @@
       "text_fr": [
         "« Image de la Foi, signifiée par le dieu Fidius, adoré dans l'Antiquité. La Vérité y est représentée comme la Mère, l'Honneur comme le Père, l'Amour comme le lien qui les unit. »"
       ]
+    },
+    {
+      "id": "cartm15",
+      "num": "15",
+      "page": "15",
+      "fr": "Himeneo",
+      "ru": "Гименей",
+      "en": "Hymenaeus",
+      "name_fr": "Hyménée",
+      "img": [
+        "cartm15.jpg"
+      ],
+      "caption": "Imagine d'Himeneo dio del matrimonio, & delle nozze, con l'imagini d'alcuni fanciulli, che raccolgono noci sparse, significante la perpetuità, & indissolubilità del matrimonio, il rossor virginale, & che bisogna à chi ha carico di casa lasciar le cose fanciullesche.",
+      "text_ru": [
+        "«Образ Гименея, бога супружества и свадеб, с изображениями неких детей, собирающих рассыпанные орехи, что означает постоянство и нерасторжимость брака, девичий стыдливый румянец, и то, что тому, кто взял на себя заботу о доме, надлежит оставить детские забавы»."
+      ],
+      "text_en": [
+        "“Image of Hymenaeus, god of marriage and of weddings, with images of certain children gathering scattered nuts, signifying the permanence and indissolubility of marriage, virginal blushing, and that whoever takes on the care of a household must set aside childish things.”"
+      ],
+      "text_fr": [
+        "« Image d'Hyménée, dieu du mariage et des noces, avec les images de quelques enfants ramassant des noix éparses, signifiant la permanence et l'indissolubilité du mariage, la rougeur virginale, et qu'il faut à qui prend soin d'une maison laisser les choses enfantines. »"
+      ]
     }
   ]
 }
