@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "56";
+  var APP_VER = "57";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -27,6 +27,13 @@
   if(existingLink && existingLink.getAttribute("data-ic")!==APP_VER){ existingLink.remove(); existingLink=null; }
   if(!existingLink){
     var l=document.createElement("link"); l.rel="stylesheet"; l.href=BASE+"app.css?v="+APP_VER; l.setAttribute("data-ic",APP_VER); document.head.appendChild(l);
+    // "load" doesn't bubble, so a capturing listener on root is how one
+    // handler catches every engraving image as it finishes, however it
+    // got rendered (innerHTML swaps happen all over render*()).
+    root.addEventListener("load", function(e){
+      var el = e.target;
+      if(el && el.tagName==="IMG" && el.classList && el.classList.contains("ic-fade-img")) el.classList.add("ic-img-in");
+    }, true);
   }
 
   /* ---------- i18n ---------- */
@@ -574,7 +581,7 @@
       var thumb = BASE+"books/"+book.slug+"/img/"+objs[0].plate_img;
       var pct = objs.length?Math.round(done*100/objs.length):0;
       return '<li class="ic-plate-row" tabindex="0" role="link" data-n="'+n+'">'+
-        '<span class="ic-plate-thumb"><img loading="lazy" src="'+esc(thumb)+'" alt=""></span>'+
+        '<span class="ic-plate-thumb"><img class="ic-fade-img" loading="lazy" src="'+esc(thumb)+'" alt=""></span>'+
         '<span class="ic-plate-body">'+
           '<span class="ic-plate-name">'+esc(title)+'</span>'+
           '<span class="ic-plate-meta">'+esc(t("objCount",{n:objs.length}))+(pageStr?' · '+pageStr:'')+'</span>'+
@@ -650,7 +657,7 @@
     var imgBase = BASE+"books/"+book.slug+"/img/";
     var pagesBase = BASE+"books/"+book.slug+"/pages/";
     var imgs=(it.img||[]).map(function(src,k){
-      return '<figure class="ic-fig" data-src="'+esc(imgBase+src)+'"><img loading="lazy" src="'+esc(imgBase+src)+'" alt="'+esc(t("engravingAlt",{title:titleOf(it)}))+'">'+
+      return '<figure class="ic-fig" data-src="'+esc(imgBase+src)+'"><img class="ic-fade-img" loading="lazy" src="'+esc(imgBase+src)+'" alt="'+esc(t("engravingAlt",{title:titleOf(it)}))+'">'+
         (it.img.length>1?'<figcaption>'+t("figOf",{k:k+1,n:it.img.length})+'</figcaption>':"")+'</figure>';
     }).join("");
     var captionLine = it.caption ? '<p class="ic-caption"><b>'+esc(t("captionLbl"))+'</b> '+esc(it.caption)+'</p>' : "";
@@ -743,7 +750,7 @@
       var src = pagesBase+scans[page];
       return '<div class="ic-scan">'+
         '<div class="ic-scan-frame" data-src="'+esc(src)+'">'+
-          '<img src="'+esc(src)+'" alt="'+esc(t("engravingAlt",{title:titleOf(it)}))+'">'+
+          '<img class="ic-fade-img" src="'+esc(src)+'" alt="'+esc(t("engravingAlt",{title:titleOf(it)}))+'">'+
           '<button type="button" class="ic-scan-zoom" aria-label="'+esc(t("openFull"))+'">⤢</button>'+
         '</div>'+
         (scans.length>1?'<div class="ic-scan-nav">'+
@@ -808,7 +815,7 @@
      (так адрес вида #/grosson/pl1-3 попадает в нужное место таблицы). */
   function objectDetailHtml(book, it){
     var imgSrc = BASE+"books/"+book.slug+"/img/"+((it.img&&it.img[0])||"");
-    var imgHtml = it.img && it.img[0] ? '<img class="ic-obj-img" src="'+esc(imgSrc)+'" alt="">' : "";
+    var imgHtml = it.img && it.img[0] ? '<img class="ic-obj-img ic-fade-img" src="'+esc(imgSrc)+'" alt="">' : "";
     var fieldsHtml = "";
     if(book.meta.fields){
       Object.keys(book.meta.fields).forEach(function(key){
@@ -990,7 +997,7 @@
         '</div>'+
         '<header class="ic-head"><h1 class="ic-h-fr">'+esc(title)+'</h1></header>'+
         introHtml+
-        '<div class="ic-plate-wrap"><img src="'+esc(src)+'" alt="">'+hotspots+'</div>'+
+        '<div class="ic-plate-wrap"><img class="ic-fade-img" src="'+esc(src)+'" alt="">'+hotspots+'</div>'+
         captionHtml+
         '<div class="ic-view-toggle" role="group">'+
           '<button type="button" class="ic-ov-b" data-view="list" aria-pressed="true">'+t("viewList")+'</button>'+
