@@ -3106,6 +3106,72 @@
       "text_fr": [
         "« Image de la Victoire avec ses emblèmes, l'Aigle, la Palme et le Laurier : l'Aigle, reine des oiseaux, de bon augure ; la Palme résiste à toute force et donne d'elle-même nourriture ; le Laurier est toujours vert et n'est pas frappé par la foudre — ainsi le vainqueur surmonte la difficulté par la Vertu et demeure immortel. »"
       ]
+    },
+    {
+      "id": "cartm33",
+      "num": "33",
+      "page": "33",
+      "fr": "Como, Dio de' Conviti",
+      "ru": "Комус, бог пиров",
+      "en": "Comus, god of feasts",
+      "name_fr": "Comus, dieu des festins",
+      "img": [
+        "cartm33.jpg"
+      ],
+      "caption": "Imagine di Como Dio de Conuiti, secondo Filostrato significante, che li Conuiti modesti allegrano li huomini & suegliando li spiriti li fanno di nieno dinari pronti, & che all'incontro l'immoderato cibo fa l'huomo sonnolento, inetto, ò inuso d'ingegno, & debole di corpo.",
+      "text_ru": [
+        "«Образ Комуса, бога Пиров, согласно Филострату означающий, что умеренные пиры радуют людей и, пробуждая дух, делают их готовыми без всякой платы, тогда как, напротив, неумеренная пища делает человека сонливым, непригодным, лишённым остроты ума и слабым телом»."
+      ],
+      "text_en": [
+        "“Image of Comus, god of Feasts, signifying according to Philostratus that modest feasts gladden men and, rousing their spirits, make them ready without any payment, whereas, on the contrary, immoderate food makes a man drowsy, unfit, dull of wit, and weak of body.”"
+      ],
+      "text_fr": [
+        "« Image de Comus, dieu des Festins, signifiant selon Philostrate que les festins modestes réjouissent les hommes et, réveillant les esprits, les rendent prêts sans nulle contrainte, tandis qu'au contraire la nourriture immodérée rend l'homme somnolent, inapte, l'esprit émoussé, et le corps faible. »"
+      ]
+    },
+    {
+      "id": "cartm34",
+      "num": "34",
+      "page": "34",
+      "fr": "Priapo",
+      "ru": "Приап",
+      "en": "Priapus",
+      "name_fr": "Priape",
+      "img": [
+        "cartm34.jpg"
+      ],
+      "caption": "Imagine di Priapo Dio delli Horti, & del membro virile, & dell'Asino, & del Becco à lui sacrati, essendo inteso per la virtù seminale & generatiua. è Dio puntore de Ladri, & del iurto significato nella falce, & li animali sono segno di potente generatione.",
+      "text_ru": [
+        "«Образ Приапа, бога Садов, мужского естества, и Осла, и Козла, ему посвящённых, — понимаемого как семенная и порождающая сила. Он — бог, карающий Воров, а кража означена серпом, животные же суть знак мощного порождения»."
+      ],
+      "text_en": [
+        "“Image of Priapus, god of Gardens, and of the male member, and of the Ass and the He-Goat sacred to him, understood as the seminal and generative power. He is the god who punishes Thieves, theft being signified by the sickle, and the animals are a sign of potent generation.”"
+      ],
+      "text_fr": [
+        "« Image de Priape, dieu des Jardins, et du membre viril, et de l'Âne et du Bouc qui lui sont consacrés, compris comme la puissance séminale et génératrice. Il est le dieu qui punit les Voleurs, le larcin étant signifié par la faucille, et les animaux sont un signe de puissante génération. »"
+      ]
+    },
+    {
+      "id": "cartm35",
+      "num": "35",
+      "page": "35",
+      "fr": "Il Genio buono e il Genio cattivo",
+      "ru": "Добрый и Злой Гений",
+      "en": "The Good Genius and the Evil Genius",
+      "name_fr": "Le bon et le mauvais Génie",
+      "img": [
+        "cartm35.jpg"
+      ],
+      "caption": "Imagini del Genio buono, & cattiuo, custode & osseruatore della generatione humana, delle attioni, & delle Città, & luoghi priuati.",
+      "text_ru": [
+        "«Образы Доброго и Злого Гения, хранителя и наблюдателя за рождением человеческим, за деяниями, за городами и частными местами»."
+      ],
+      "text_en": [
+        "“Images of the Good Genius and the Evil Genius, guardian and observer of human generation, of actions, and of cities and private places.”"
+      ],
+      "text_fr": [
+        "« Images du bon Génie et du mauvais Génie, gardien et observateur de la génération humaine, des actions, et des Cités et des lieux privés. »"
+      ]
     }
   ]
 }
