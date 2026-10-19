@@ -17,6 +17,10 @@
       ],
       "text_en": [
         "Image of Saturn, or of Time devouring his own children — that is, the all-consumer — except for Jove, Juno, Neptune and Pluto, who are understood as the four elements, Fire, Air, Water and Earth, which are not subject to destruction."
+      ],
+      "name_fr": "Saturne",
+      "text_fr": [
+        "Image de Saturne, ou du Temps dévorant ses propres enfants, c'est-à-dire du grand consommateur de toutes choses — hormis Jupiter, Junon, Neptune et Pluton, compris comme les quatre éléments, le Feu, l'Air, l'Eau et la Terre, qui ne sont pas sujets à destruction."
       ]
     },
     {
@@ -35,6 +39,10 @@
       ],
       "text_en": [
         "Images of Apollo and the animals and birds sacred to him, which signify the effects of the Sun; and that Apollo was the god of divination. He holds in his hand the graces, signifying the benefit we have from the Sun, and the usefulness that comes to us from it."
+      ],
+      "name_fr": "Apollon Phébus, le Soleil",
+      "text_fr": [
+        "Images d'Apollon et des animaux et oiseaux qui lui sont consacrés, lesquels signifient les effets du Soleil ; et qu'Apollon fut le dieu de la divination. Il tient en main les grâces, qui signifient le bienfait que nous recevons du Soleil, et l'utilité qui nous en provient."
       ]
     },
     {
@@ -53,6 +61,10 @@
       ],
       "text_en": [
         "Image of Diana, of the hunt and of the woods, lover of the deer sacred to her, which complete their swift course in 29 days; and that she is the illuminatrix of the night, being taken for the Moon, and escort of travellers by night."
+      ],
+      "name_fr": "Diane",
+      "text_fr": [
+        "Image de Diane, de la chasse et des bois, amie des cerfs qui lui sont consacrés, lesquels accomplissent leur course rapide en 29 jours ; et qu'elle est l'illuminatrice de la nuit, étant prise pour la Lune, et l'escorte des voyageurs dans la nuit."
       ]
     },
     {
@@ -71,6 +83,10 @@
       ],
       "text_en": [
         "Image of Jove and of Pan, signifying the universe: one the God of Heaven, the other the God of Shepherds; the former seated, to signify the immutability of God and His providence, and the latter standing, to signify the course of the world, which stands still and yet is in motion."
+      ],
+      "name_fr": "Jupiter",
+      "text_fr": [
+        "Image de Jupiter et de Pan, signifiant l'univers : l'un dieu du Ciel, l'autre dieu des Pâtres ; celui-ci assis pour signifier l'immutabilité de Dieu et sa providence, celui-là debout pour signifier le cours du monde, qui demeure stable et pourtant en mouvement."
       ]
     },
     {
@@ -89,6 +105,10 @@
       ],
       "text_en": [
         "Image of Juno Lucina, and of the Syrian Goddess of Hierapolis in Assyria, who is one and the same as Juno, and of the birds sacred to her, signifying that Juno is queen of Heaven, ruler of the air, mistress of kingdoms and of riches. She was also understood as Virtue."
+      ],
+      "name_fr": "Junon",
+      "text_fr": [
+        "Image de Junon Lucine, et de la Déesse Syrienne d'Hiérapolis en Assyrie, qui n'est qu'une seule et même chose avec Junon ; et des oiseaux qui lui sont consacrés, signifiant que Junon est reine du Ciel, maîtresse de l'air, souveraine des royaumes et des richesses. On la comprenait aussi comme la Vertu."
       ]
     },
     {
@@ -107,6 +127,10 @@
       ],
       "text_en": [
         "Image of the goddess Ops, also called Berecynthia, mother of the gods, interpreted as the Earth; and of the animals and trees sacred to her, singing the fruitful cultivation of the soil, and that every man, however great, is subject to nature."
+      ],
+      "name_fr": "La Grande Mère (Ops-Berecynthia)",
+      "text_fr": [
+        "Image de la déesse Ops, dite aussi Bérécynthie, mère des dieux, interprétée comme la Terre ; et des animaux et des arbres qui lui sont consacrés, chantant la culture fructueuse du sol, et que chacun, si grand soit-il, est soumis à la nature."
       ]
     },
     {
@@ -125,6 +149,10 @@
       ],
       "text_en": [
         "Images of Neptune, god of the sea, and of Amphitrite his wife, denoting the foam of the sea, and the three qualities of sea-water, of rivers, and of lakes — salt, fresh, and neutral — together with the swift and constant motion of the waters."
+      ],
+      "name_fr": "Neptune",
+      "text_fr": [
+        "Images de Neptune, dieu de la mer, et d'Amphitrite son épouse, désignant l'écume de la mer et les trois qualités de l'eau marine, des fleuves et des lacs — salée, douce et neutre — ainsi que le mouvement rapide et constant des eaux."
       ]
     },
     {
@@ -143,6 +171,10 @@
       ],
       "text_en": [
         "Images of Pluto, god of the underworld, of Proserpina his wife, of Eurynomos, devourer of the flesh of the dead, and of Cerberus, the three-mouthed dog, guardian of Hell. Pluto is taken for the Sun in the season of Winter, when the strength of the earth is held contracted within itself; and Proserpina is understood as the earth."
+      ],
+      "name_fr": "Pluton",
+      "text_fr": [
+        "Images de Pluton, dieu des Enfers, de Proserpine son épouse, d'Eurynome dévorant la chair des morts, et de Cerbère, chien à trois gueules, gardien des Enfers. Pluton est pris pour le Soleil au temps de l'Hiver, quand la vertu de la terre demeure resserrée en elle-même ; et Proserpine est comprise comme la terre."
       ]
     },
     {
@@ -161,6 +193,10 @@
       ],
       "text_en": [
         "Image of Mercury, messenger of the gods, God of eloquence and of merchants. This signifies that speech is a messenger, and a revealer of the mind and of the heart; the caduceus then is a sign of concord, union, and peace, with certain animals denoting industry and vigilance in dealing and in business."
+      ],
+      "name_fr": "Mercure",
+      "text_fr": [
+        "Image de Mercure, messager des dieux, dieu de l'éloquence et des marchands. Ceci signifie que la parole est messagère, et révélatrice de l'esprit et du cœur ; le caducée est signe de concorde, d'union et de paix, et certains animaux désignent l'application et la vigilance dans le commerce et les affaires."
       ]
     },
     {
@@ -179,6 +215,10 @@
       ],
       "text_en": [
         "Images of Mercury and of Minerva — he the god of Eloquence, she of Prudence, inventress of the good arts; signifying that Eloquence and Prudence must needs be joined together, if words are to be of benefit to human actions."
+      ],
+      "name_fr": "Minerve (avec Mercure)",
+      "text_fr": [
+        "Images de Mercure et de Minerve — lui dieu de l'Éloquence, elle de la Prudence, inventrice des bons arts — signifiant que l'Éloquence et la Prudence doivent nécessairement être unies, si les paroles doivent servir aux actions humaines."
       ]
     },
     {
@@ -197,6 +237,10 @@
       ],
       "text_en": [
         "Image of Bacchus, signifying the various effects of wine, of which he was the inventor, and moreover the effects of drunkenness, which are revelations of hidden things, fury, lust, and the like. He together with Hercules — both Thebans, and sons of Jove — surpassed all the ancients in glory."
+      ],
+      "name_fr": "Bacchus",
+      "text_fr": [
+        "Image de Bacchus, signifiant les divers effets du vin dont il fut l'inventeur, et de plus les effets de l'ivresse, qui sont la révélation des choses cachées, la fureur, la luxure et semblables. Lui et Hercule, tous deux Thébains et fils de Jupiter, surpassèrent en gloire tous les anciens."
       ]
     },
     {
@@ -215,6 +259,10 @@
       ],
       "text_en": [
         "Image of Fortune, giver and dispenser, mistress of riches and of human goods, governess of the things of this lower world, in which there is no firmness or stability — any more, one might say, than a Ship tossed amid the unsteady waves of the sea."
+      ],
+      "name_fr": "Fortune",
+      "text_fr": [
+        "Image de la Fortune, donatrice et dispensatrice, patronne des richesses et des biens humains, gouvernante des choses d'ici-bas, où il n'est de fermeté ni de stabilité — pas plus, dirait-on, qu'un Navire ballotté sur les flots instables de la mer."
       ]
     },
     {
@@ -233,6 +281,10 @@
       ],
       "text_en": [
         "Images of the gods Eros and Anteros, brothers, sons of Venus, of whom the one is understood as loving, the other as being loved in return, that is, mutual love; and also the image of Lethean love, which causes one to cease loving and to forget the beloved person."
+      ],
+      "name_fr": "Cupidon (Éros et Antéros)",
+      "text_fr": [
+        "Images des dieux Éros et Antéros, frères, fils de Vénus, dont l'un signifie aimer, l'autre être aimé en retour, c'est-à-dire l'amour réciproque ; et l'image de l'amour Léthéen, qui fait cesser d'aimer et oublier la personne aimée."
       ]
     },
     {
@@ -251,6 +303,10 @@
       ],
       "text_en": [
         "Image of Venus, born of the foam of the sea, goddess of beauty and of lust, mother of Love, symbol of sensual pleasure; she was also held to be goddess of weddings and of marriage, being understood as the planet Venus, called also Lucifer and Hesperus, which induces the generative power in things."
+      ],
+      "name_fr": "Vénus",
+      "text_fr": [
+        "Image de Vénus, née de l'écume de la mer, déesse de la beauté et de la volupté, mère de l'Amour, symbole de la sensualité ; on la tenait aussi pour déesse des noces et du mariage, comprise comme la planète Vénus, dite aussi Lucifer et Hespérus, qui insuffle aux choses la force génératrice."
       ]
     },
     {
@@ -269,6 +325,10 @@
       ],
       "text_en": [
         "Images of the three Graces, goddesses of beauty and of charm, and also goddesses of gratitude and of benefaction, named Euphrosyne, or Mirth, Aglaia, or Attractiveness, Thalia, or Pleasantness; goddesses of conversation, sociability and friendship, and of that joyful life which men desire to live."
+      ],
+      "name_fr": "Les Grâces",
+      "text_fr": [
+        "Images des trois Grâces, déesses de la beauté et de la grâce, et aussi déesses de la gratitude et du bienfait, nommées Euphrosyne ou l'Allégresse, Aglaé ou la Splendeur, Thalie ou l'Agrément ; déesses de la conversation, de la sociabilité et de l'amitié, et de cette vie joyeuse que les hommes désirent vivre."
       ]
     },
     {
@@ -289,7 +349,11 @@
       "text_en": [
         "(from the text on the preceding page) “...I shall here give the portrait of Homoyoca, God of Mexico, who among that wretched gentility was their Jove.”"
       ],
-      "caption": "(con testo nella pagina precedente) ...io darò qui il ritratto di Homoyoca Dio del Mexico, ch'era appresso quella misera Gentilità il loro Gioue."
+      "caption": "(con testo nella pagina precedente) ...io darò qui il ritratto di Homoyoca Dio del Mexico, ch'era appresso quella misera Gentilità il loro Gioue.",
+      "name_fr": "Homoyoca",
+      "text_fr": [
+        "(du texte de la page précédente) « ...je donnerai ici le portrait d'Homoyoca, Dieu du Mexique, qui chez ce misérable paganisme tenait lieu de leur Jupiter. »"
+      ]
     },
     {
       "id": "carti2",
@@ -309,7 +373,11 @@
       "text_en": [
         "“Another image of Homopoca, or of a similar deity, has come into my hands, though others call it Quetzalcoatl; it was obtained from certain sheets belonging to the most learned young Filippo Vinghernio of Tournai, who claimed to have copied it from a great book kept in the Vatican Library, compiled by Friar Pietro de los Rios.”"
       ],
-      "caption": "Vn'altra Imagine di Homopoca, o di simile deità mi è venuta per le mani, la quale però altri chiamano di Quetzalcoatl, & s'è hauuta fuora di certi fogli, che furono di Filippo Vinghernio da Tornay, dottissimo giouane, & esso asseriua d'hauerla cauata da vn Libro grande, ch'è nella Libreria Vaticana, compilato da F. Pietro de los Rios."
+      "caption": "Vn'altra Imagine di Homopoca, o di simile deità mi è venuta per le mani, la quale però altri chiamano di Quetzalcoatl, & s'è hauuta fuora di certi fogli, che furono di Filippo Vinghernio da Tornay, dottissimo giouane, & esso asseriua d'hauerla cauata da vn Libro grande, ch'è nella Libreria Vaticana, compilato da F. Pietro de los Rios.",
+      "name_fr": "Une autre image d'Homopoca",
+      "text_fr": [
+        "« Une autre image d'Homopoca, ou d'une divinité semblable, m'est tombée entre les mains ; d'autres cependant l'appellent Quetzalcoatl. Elle provient de certains feuillets du très savant jeune homme Filippo Vinghernio de Tournai, qui affirmait l'avoir copiée d'un grand livre conservé à la Bibliothèque du Vatican, compilé par le frère Pietro de los Rios. »"
+      ]
     },
     {
       "id": "carti3",
@@ -329,7 +397,11 @@
       "text_en": [
         "“Besides this, the Mexicans had the god Miquitlantecatle, meaning the Lord of Hell, otherwise named Tzitzimitl, the same as Lucifer; he, like some others of the same class, was shown with his right leg drawn up and his left extended, arms and hands spread open. The god Ypuzteque, that is, the lame Devil, who appeared to them on the roads with a cockerel's feet; the same as Satan is the god Nextepehua, the scatterer of ashes. The god Contemoque, so called because he plunged from Heaven head-first, whom we would call the Devil. To each of these they assigned a wife, whether the poets' four Fates, or the three Furies, or Proserpina, or Persephone, by whichever name one calls her.”"
       ],
-      "caption": "Haueuano oltre questo i Mexicani il Dio Miquitlantecatle, che voleua dire il Signore dell'Inferno, per altro nome Tzitzimitl, il medesimo che Lucifero; & questo con alcuni altri della medesima classe, haueua la gamba dritta rannicchiata, & la manca stesa, con le braccia & mani stese & aperte. Il Dio Ypuzteque, cioè il Diauolo zoppo, che appariua loro per le strade, co' piedi di Gallo; il medesimo che Satanasso il Dio Nextepeua, lo spargitore della cenere. Il Dio Contemoque, detto così perche piombasse dal Cielo co'l capo in giù; che noi lo diressimo Diauolo. A ciascuno di questi assegnauano la sua moglie, che saranno, o le quattro Parche de' Poeti, o le tre Furie de medesimi con Proserpina, ò Persefone, che la chiamino."
+      "caption": "Haueuano oltre questo i Mexicani il Dio Miquitlantecatle, che voleua dire il Signore dell'Inferno, per altro nome Tzitzimitl, il medesimo che Lucifero; & questo con alcuni altri della medesima classe, haueua la gamba dritta rannicchiata, & la manca stesa, con le braccia & mani stese & aperte. Il Dio Ypuzteque, cioè il Diauolo zoppo, che appariua loro per le strade, co' piedi di Gallo; il medesimo che Satanasso il Dio Nextepeua, lo spargitore della cenere. Il Dio Contemoque, detto così perche piombasse dal Cielo co'l capo in giù; che noi lo diressimo Diauolo. A ciascuno di questi assegnauano la sua moglie, che saranno, o le quattro Parche de' Poeti, o le tre Furie de medesimi con Proserpina, ò Persefone, che la chiamino.",
+      "name_fr": "Mictlantecuhtli et les dieux de l'au-delà",
+      "text_fr": [
+        "« Les Mexicains avaient en outre le dieu Miquitlantecatle, ce qui signifie le Seigneur de l'Enfer, autrement nommé Tzitzimitl, le même que Lucifer ; lui, comme quelques autres de la même espèce, avait la jambe droite repliée et la gauche étendue, les bras et les mains ouverts. Le dieu Ypuzteque, c'est-à-dire le Diable boiteux, qui leur apparaissait sur les routes avec des pieds de coq ; le même que Satan. Le dieu Nextepehua, le semeur de cendres. Le dieu Contemoque, ainsi nommé parce qu'il tomba du Ciel la tête la première ; nous le nommerions le Diable. À chacun d'eux ils assignaient une épouse, que ce soient les quatre Parques des poètes, ou les trois Furies, ou Proserpine, quel que soit le nom qu'on lui donne. »"
+      ]
     },
     {
       "id": "carti4",
@@ -349,7 +421,11 @@
       "text_en": [
         "“And since we have entered into the pseudo-theology of this barbarism, it will not be out of place to show how the Devil, God's ape, contrived to imitate the most notable deed that ever came from divine hands, I mean the Redemption of mankind. In their painting they depicted an Ambassador of the god Citlallatonac (so they called the Milky Way) sent to a Virgin dwelling in Tulan named Chimalma, that is, Shield, to whom the Ambassador said that the god wished her to conceive a son; who was conceived without union with a man, and was named Quetzalcoatl; so that this Ambassador was, for these wretched people, their Gabriel (if one may say so); and thus Satan transfigures himself into an Angel of light.”"
       ],
-      "caption": "Et poiche siamo entrati nella pseudo Theologia di questa barbarie, non sarà fuor di luogo il mostrare, come il Demonio, Simia di Dio s'andò auantaggiando per imitare la più segnalata attione, che vscisse mai dalle mani diuine, io dico la Redentione del genere humano. Rappresentauano in pittura questi vn'Ambasciatore del Dio Citlallatonac (così chiamauano la Via Lattea) mandato ad vna Vergine, che habitaua in Tulan detta per nome Chimalma, cioè Rotella, alla quale disse l'Ambasciatore che il Dio voleua ch'essa concepisse vn figliolo; il quale fu conceputo senza congiontione d'huomo, & fu chiamato Quetzalcoatle; sì che questo Ambasciatore fu'l Gabriele (se così è lecito à dire) di questi miseri; & così Satanas transfiguratur in Angelum lucis."
+      "caption": "Et poiche siamo entrati nella pseudo Theologia di questa barbarie, non sarà fuor di luogo il mostrare, come il Demonio, Simia di Dio s'andò auantaggiando per imitare la più segnalata attione, che vscisse mai dalle mani diuine, io dico la Redentione del genere humano. Rappresentauano in pittura questi vn'Ambasciatore del Dio Citlallatonac (così chiamauano la Via Lattea) mandato ad vna Vergine, che habitaua in Tulan detta per nome Chimalma, cioè Rotella, alla quale disse l'Ambasciatore che il Dio voleua ch'essa concepisse vn figliolo; il quale fu conceputo senza congiontione d'huomo, & fu chiamato Quetzalcoatle; sì che questo Ambasciatore fu'l Gabriele (se così è lecito à dire) di questi miseri; & così Satanas transfiguratur in Angelum lucis.",
+      "name_fr": "Vitzliputzli et la Vierge Chimalma",
+      "text_fr": [
+        "« Et puisque nous sommes entrés dans la pseudo-théologie de cette barbarie, il ne sera pas hors de propos de montrer comment le Démon, singe de Dieu, s'ingénia à imiter l'acte le plus insigne jamais sorti des mains divines, je veux dire la Rédemption du genre humain. Ils représentaient en peinture un Ambassadeur du dieu Citlallatonac (ainsi nommaient-ils la Voie lactée), envoyé à une Vierge demeurant à Tulan, nommée Chimalma, c'est-à-dire Bouclier, à qui l'Ambassadeur annonça que le dieu voulait qu'elle conçût un fils ; lequel fut conçu sans union avec un homme, et fut appelé Quetzalcoatl ; de sorte que cet Ambassadeur fut, pour ces malheureux, leur Gabriel (si l'on peut dire) ; et ainsi Satan se transfigure en Ange de lumière. »"
+      ]
     },
     {
       "id": "carti5",
@@ -369,7 +445,11 @@
       "text_en": [
         "(continuing the preceding account: the image of the winged Ambassador of the god Citlallatonac)"
       ],
-      "caption": "(seguito del racconto precedente: l'imagine dell'Ambasciatore alato del Dio Citlallatonac)"
+      "caption": "(seguito del racconto precedente: l'imagine dell'Ambasciatore alato del Dio Citlallatonac)",
+      "name_fr": "L'Ambassadeur ailé",
+      "text_fr": [
+        "(suite du récit précédent : l'image de l'Ambassadeur ailé du dieu Citlallatonac)"
+      ]
     },
     {
       "id": "carti6",
@@ -389,7 +469,11 @@
       "text_en": [
         "“But let us return to Quetzalcoatl, whose image was figured in this manner.”"
       ],
-      "caption": "Ma ritorniamo à Quetzalcoatl, la imagine del quale era figurata in questa maniera."
+      "caption": "Ma ritorniamo à Quetzalcoatl, la imagine del quale era figurata in questa maniera.",
+      "name_fr": "Quetzalcoatl",
+      "text_fr": [
+        "« Mais revenons à Quetzalcoatl, dont l'image était figurée de cette manière. »"
+      ]
     },
     {
       "id": "carti7",
@@ -409,6 +493,10 @@
       ],
       "text_en": [
         "“And these combinations of man and beast belong to no other religion than that of Egypt... In Japan (or let us say Giapan) the deformities were no less.”"
+      ],
+      "name_fr": "Divinités composites « égyptiennes » (introduction au Japon)",
+      "text_fr": [
+        "« Et ces compositions d'homme et de bête ne sont d'autre religion que celle d'Égypte... Au Japon (ou disons Giapan) les difformités n'étaient pas moindres. »"
       ]
     },
     {
@@ -429,6 +517,10 @@
       ],
       "text_en": [
         "“And there is no need to prove how closely these two figures approach the notions of the Egyptians... a statue of Xaca made of metal, set in the middle between its two sons, one named Canone, the other Xixi.”"
+      ],
+      "name_fr": "Kannon, fils d'Amida",
+      "text_fr": [
+        "« Et il n'est pas besoin de prouver combien ces deux figures s'approchent des conceptions des Égyptiens... une statue de Xaca faite de métal, placée au milieu entre ses deux fils, l'un nommé Canone, l'autre Xixi. »"
       ]
     },
     {
@@ -449,6 +541,10 @@
       ],
       "text_en": [
         "“And since there too the Demon had introduced Academies and Students, in a temple built to approve and reward those who deserved it, there was seen the figure of the god of Letters and Learning... coiled round into a ring, as the Egyptians represented the year by the Serpent.”"
+      ],
+      "name_fr": "Le dieu-lézard de l'érudition",
+      "text_fr": [
+        "« Et comme là aussi le Démon avait introduit des Académies et des Étudiants, dans un temple bâti pour approuver et récompenser ceux qui le méritaient, on y voyait la figure du dieu des Lettres et de l'Érudition... façonnée tout en rond, comme les Égyptiens représentaient l'année par le Serpent. »"
       ]
     },
     {
@@ -469,6 +565,10 @@
       ],
       "text_en": [
         "“The aforementioned Filippo Vinghomio once drew, on a certain sheet of his, the temples of certain Japanese deities, situated upon high cliffs.”"
+      ],
+      "name_fr": "Une pagode japonaise",
+      "text_fr": [
+        "« Le susnommé Filippo Vinghomio dessina jadis, sur un de ses feuillets, les temples de certaines divinités japonaises, situés sur de hauts rochers. »"
       ]
     },
     {
@@ -489,6 +589,10 @@
       ],
       "text_en": [
         "“...the Japanese ambassadors brought as a gift to Pope Gregory XIII.”"
+      ],
+      "name_fr": "Un château-temple japonais",
+      "text_fr": [
+        "« ...les ambassadeurs japonais apportèrent en cadeau au pape Grégoire XIII. »"
       ]
     },
     {
@@ -509,6 +613,10 @@
       ],
       "text_en": [
         "“...the complete image of the great Japanese Idol, copied from the Original, which is kept in Rome by the Fathers of the Jesuits... its name is Maloco, or Malocho, of which I do not recall having read anything anywhere.”"
+      ],
+      "name_fr": "Le grand idole japonais",
+      "text_fr": [
+        "« ...image complète du grand Idole japonais, copiée sur l'Original conservé à Rome chez les Pères Jésuites... son nom est Maloco, ou Malocho, dont je ne me souviens avoir rien lu nulle part. »"
       ]
     },
     {
@@ -529,6 +637,10 @@
       ],
       "text_en": [
         "“Of this Idol I would not know what to say, except that it seems the Demon made use of the manner of our own images, to impress upon the souls of the gentiles of those lands an inborn fear.”"
+      ],
+      "name_fr": "Un idole qui « emprunte » aux images chrétiennes",
+      "text_fr": [
+        "« De cet Idole je ne saurais que dire, sinon qu'il semble que le Démon se soit servi de la manière de nos propres images pour imprimer dans l'âme des païens de ces pays la crainte innée. »"
       ]
     },
     {
@@ -549,6 +661,10 @@
       ],
       "text_en": [
         "“Their circumstances will be told us by whoever sent them.”"
+      ],
+      "name_fr": "Le deuxième petit idole d'Aleandro",
+      "text_fr": [
+        "« Les circonstances nous en seront dites par celui qui les a envoyés. »"
       ]
     },
     {
@@ -569,6 +685,10 @@
       ],
       "text_en": [
         "“Its flesh is of the brightest colour, painted with cinnabar — that is, the face, neck, and hands...”"
+      ],
+      "name_fr": "Un esprit guerrier (le troisième idole)",
+      "text_fr": [
+        "« Sa chair est de la couleur la plus vive, peinte au cinabre, c'est-à-dire le visage, le cou et les mains... »"
       ]
     },
     {
@@ -589,7 +709,11 @@
       "text_en": [
         "“Dwarfish in stature, face and hands blue; cap black; garment green trimmed with gold, the rose on the chest gold; the hammer (or whatever it is) held in the right hand is gold. The sack over the left shoulder is white; the shoes black; he stands on what look like two little barrels, yellow, barred with black.” — “This one's face is of the ordinary flesh colour; the cap is blue above, its little wings flushed and gilt; the under-garment covering the chest is gilt; the over-garment is blue, but lined with white edged in red, as seen in the marked part. The cushion on which he stands is likewise white striped with red.”"
       ],
-      "caption": "E Di statura nana, di colore azurro il volto, e le mani; la beretta nera; il vestimento verde listato d'oro, la rosa in petto è d'oro; il martello (o che si sia) che tiene nella mano dritta, è d'oro. Il sacco, che tiene sopra la spalla manca, è bianco; le scarpe sono nere; paiono due botticelle quelle, sopra le quali sta in piedi, e sono gialle vergate di nero. — HA il volto del solito color della carne; il cappello nella parte di sopra è azurro, nelle alette rosesciate è dorato; la veste di sotto, che li copre il petto, è dorata; la sopraueste è azurro, ma foderata di bianco intorniato di rosso come si vede nella parte segnata. Il coscino sopra il quale è posto, è pur di color bianco listrato di rosso."
+      "caption": "E Di statura nana, di colore azurro il volto, e le mani; la beretta nera; il vestimento verde listato d'oro, la rosa in petto è d'oro; il martello (o che si sia) che tiene nella mano dritta, è d'oro. Il sacco, che tiene sopra la spalla manca, è bianco; le scarpe sono nere; paiono due botticelle quelle, sopra le quali sta in piedi, e sono gialle vergate di nero. — HA il volto del solito color della carne; il cappello nella parte di sopra è azurro, nelle alette rosesciate è dorato; la veste di sotto, che li copre il petto, è dorata; la sopraueste è azurro, ma foderata di bianco intorniato di rosso come si vede nella parte segnata. Il coscino sopra il quale è posto, è pur di color bianco listrato di rosso.",
+      "name_fr": "Une paire de figures (le quatrième idole)",
+      "text_fr": [
+        "« Taille naine, visage et mains de couleur bleue ; le bonnet noir ; le vêtement vert bordé d'or, la rose sur la poitrine est d'or ; le marteau (ou quoi que ce soit) qu'il tient dans la main droite est d'or. Le sac sur l'épaule gauche est blanc ; les chaussures sont noires ; il se tient sur ce qui ressemble à deux petits tonneaux, jaunes, rayés de noir. » — « Celui-ci a le visage de couleur de chair ordinaire ; le bonnet est bleu par-dessus, ses petites ailes rehaussées et dorées ; le sous-vêtement couvrant la poitrine est doré ; le surtout est bleu, mais doublé de blanc bordé de rouge, comme on le voit dans la partie marquée. Le coussin sur lequel il se tient est aussi de couleur blanche rayée de rouge. »"
+      ]
     },
     {
       "id": "carti17",
@@ -609,6 +733,10 @@
       ],
       "text_en": [
         "“Like the first, except that its face is rather a weeping one...”"
+      ],
+      "name_fr": "L'idole éploré",
+      "text_fr": [
+        "« Semblable au premier, sinon que son visage est plutôt éploré... »"
       ]
     },
     {
@@ -629,6 +757,10 @@
       ],
       "text_en": [
         "“Its flesh is of a blue colour, the hair and eyebrows gold...”"
+      ],
+      "name_fr": "Une paire de divinités à la peau bleue",
+      "text_fr": [
+        "« Sa chair est de couleur bleue, les cheveux et les sourcils d'or... »"
       ]
     },
     {
@@ -649,6 +781,10 @@
       ],
       "text_en": [
         "“Its flesh is of the brightest colour, painted with cinnabar; it has six arms and six hands, in which the instruments it holds are of gilt copper.”"
+      ],
+      "name_fr": "Une divinité à six bras, à l'arc",
+      "text_fr": [
+        "« Sa chair est très vive, peinte au cinabre ; il a six bras et six mains, dans lesquelles les instruments qu'il tient sont de cuivre doré. »"
       ]
     },
     {
@@ -669,6 +805,10 @@
       ],
       "text_en": [
         "“Dwarfish in stature, blue in colour of face and hands; the cap black...”"
+      ],
+      "name_fr": "Un idole pâle et auréolé",
+      "text_fr": [
+        "« Taille naine, visage et mains de couleur bleuâtre ; le bonnet noir... »"
       ]
     },
     {
@@ -689,6 +829,10 @@
       ],
       "text_en": [
         "“The flesh is whitest, and in place of hair there is only the lightest tint of copper-green.”"
+      ],
+      "name_fr": "Une figure auréolée à l'allure de saint",
+      "text_fr": [
+        "« La chair est d'une blancheur extrême, et au lieu de cheveux il n'a qu'une très légère teinte de vert-de-gris. »"
       ]
     },
     {
@@ -709,6 +853,10 @@
       ],
       "text_en": [
         "“This one too has flesh as white as plaster, and of the same colour is the infant that she holds in her arms.”"
+      ],
+      "name_fr": "Une déesse tenant un enfant",
+      "text_fr": [
+        "« Celle-ci a elle aussi la chair d'une blancheur de plâtre, et de même couleur est l'enfant qu'elle tient dans ses bras. »"
       ]
     },
     {
@@ -729,6 +877,10 @@
       ],
       "text_en": [
         "“The flesh is of a blue colour, the armour gold, with various patterns worked in black enamel.”"
+      ],
+      "name_fr": "Un idole à la peau bleue dans une auréole de flammes",
+      "text_fr": [
+        "« La chair est de couleur bleue, l'armure est d'or avec divers travaux d'émail noir. »"
       ]
     },
     {
@@ -749,6 +901,10 @@
       ],
       "text_en": [
         "“Very similar to the one just described, except that neither it nor the monster it holds underfoot has the ordinary flesh colour...”"
+      ],
+      "name_fr": "Un idole rouge assis sur une bête",
+      "text_fr": [
+        "« Fort semblable à celui qui vient d'être décrit, sinon que ni lui ni le monstre qu'il tient sous ses pieds n'ont la couleur de chair ordinaire... »"
       ]
     },
     {
@@ -769,7 +925,11 @@
       "text_en": [
         "“This one too is like the two aforementioned; but its flesh, and that of the monster beneath its feet, is green; the robe hanging from the armour is tawny, as is the little cap on its head.”"
       ],
-      "caption": "E Simile questo ancora a i due antedetti; ma la carnaggion sua, e del mostro sotto à piedi, è verde; la veste che pende dall'armatura, è lionata, sì come anche il cappelletto, che tiene in testa."
+      "caption": "E Simile questo ancora a i due antedetti; ma la carnaggion sua, e del mostro sotto à piedi, è verde; la veste che pende dall'armatura, è lionata, sì come anche il cappelletto, che tiene in testa.",
+      "name_fr": "Un guerrier sur un nuage",
+      "text_fr": [
+        "(aucun texte propre n'accompagne cette planche dans le livre)"
+      ]
     },
     {
       "id": "carti26",
@@ -789,7 +949,11 @@
       "text_en": [
         "(no separate text accompanies this plate in the book — it continues the series begun by the previous engraving)"
       ],
-      "caption": "(nessun testo proprio accompagna questa tavola nel libro; la descrizione prosegue quella della tavola precedente)"
+      "caption": "(nessun testo proprio accompagna questa tavola nel libro; la descrizione prosegue quella della tavola precedente)",
+      "name_fr": "Un esprit ailé foulant un ennemi vaincu",
+      "text_fr": [
+        "(aucun texte propre n'accompagne cette planche dans le livre — elle poursuit la série commencée par la gravure précédente)"
+      ]
     },
     {
       "id": "carti27",
@@ -809,6 +973,10 @@
       ],
       "text_en": [
         "“The flesh is whitest, and in place of hair there is only the lightest tint of copper-green. The garments are in every way similar to those of the fourth [idol].”"
+      ],
+      "name_fr": "Petit idole sur un vase (1)",
+      "text_fr": [
+        "« La chair est d'une blancheur extrême, et au lieu de cheveux il n'a qu'une très légère teinte de vert-de-gris. Les vêtements sont en tout semblables à ceux du quatrième [idole]. »"
       ]
     },
     {
@@ -829,6 +997,10 @@
       ],
       "text_en": [
         "“This one too has flesh as white as plaster, and of the same colour is the infant that she holds in her arms.”"
+      ],
+      "name_fr": "Petit idole sur un vase (2)",
+      "text_fr": [
+        "« Celle-ci a elle aussi la chair d'une blancheur de plâtre, et de même couleur est l'enfant qu'elle tient dans ses bras. »"
       ]
     },
     {
@@ -849,7 +1021,11 @@
       "text_en": [
         "(no separate text accompanies this plate in the book)"
       ],
-      "caption": "(nessun testo proprio accompagna questa tavola nel libro)"
+      "caption": "(nessun testo proprio accompagna questa tavola nel libro)",
+      "name_fr": "Petit idole sur un vase (3)",
+      "text_fr": [
+        "(aucun texte propre n'accompagne cette planche dans le livre)"
+      ]
     },
     {
       "id": "carti30",
@@ -869,6 +1045,10 @@
       ],
       "text_en": [
         "“THE END.”"
+      ],
+      "name_fr": "Petit idole sur un vase (4) — « IL FINE »",
+      "text_fr": [
+        "« LA FIN. »"
       ]
     },
     {
@@ -887,6 +1067,10 @@
       ],
       "text_en": [
         "“Image and Temple of Hebe, goddess of Youth and Cupbearer of the gods, daughter of Juno, born without a father, with fetters and chains hung on the little trees of her grove, to show that the vigour of Youth does not, as a rule, suffer the blows of ill Fortune.”"
+      ],
+      "name_fr": "Hébé",
+      "text_fr": [
+        "Image et Temple d'Hébé, déesse de la Jeunesse et Échanson des dieux, fille de Junon, née sans père, avec des entraves et des chaînes suspendues aux arbustes de son bosquet, pour montrer que la vigueur de la Jeunesse ne subit pas, d'ordinaire, les coups de la male Fortune."
       ]
     },
     {
@@ -905,6 +1089,10 @@
       ],
       "text_en": [
         "“Image of the nine Muses, related to the harmony of the celestial Spheres, inventresses of Rhetoric, Astrology, Music, and dramatic fable.”"
+      ],
+      "name_fr": "Les neuf Muses",
+      "text_fr": [
+        "Image des neuf Muses, rapportées à l'harmonie des Sphères célestes, inventrices de la Rhétorique, de l'Astrologie, de la Musique et de la fable représentative."
       ]
     },
     {
@@ -923,6 +1111,10 @@
       ],
       "text_en": [
         "“Image of Vertumnus, with Pomona beside him; held to be the god of human thoughts, of the year, of gardens; a changer of various faces, understood also as the river Tiber.”"
+      ],
+      "name_fr": "Vertumne, avec Pomone",
+      "text_fr": [
+        "Image de Vertumne, avec Pomone à ses côtés ; tenu pour le dieu des pensées humaines, de l'année, des jardins ; changeant de multiples visages, compris aussi comme le fleuve Tibre."
       ]
     },
     {
@@ -941,6 +1133,10 @@
       ],
       "text_en": [
         "“Image of the goddess Macaria, or the goddess Felicity, daughter of Hercules, with the Caduceus and the Horn of Plenty in her hands: the one signifying virtue, the other riches — both necessary for human Felicity.”"
+      ],
+      "name_fr": "Macarie, ou la Félicité",
+      "text_fr": [
+        "Image de la déesse Macarie, ou déesse de la Félicité, fille d'Hercule, avec le caducée et la corne d'abondance en main — l'un signifiant la vertu, l'autre les richesses, l'une et l'autre nécessaires à la Félicité humaine."
       ]
     },
     {
@@ -959,6 +1155,10 @@
       ],
       "text_en": [
         "“Image of the goddess Nemesis, who reveals good deeds, severe punisher of the proud and the wicked, and yet a courteous and generous giver and rewarder of good actions; held to be the knower of all things: daughter of Justice, who teaches us that measure must be observed in every action.”"
+      ],
+      "name_fr": "Némésis",
+      "text_fr": [
+        "Image de la déesse Némésis, qui révèle les bonnes actions, sévère punisseuse des orgueilleux et des méchants, et pourtant courtoise et généreuse donatrice et récompensatrice des bonnes œuvres ; tenue pour connaître toutes choses, fille de la Justice, qui nous enseigne qu'il faut garder mesure en toute action."
       ]
     },
     {
@@ -977,6 +1177,10 @@
       ],
       "text_en": [
         "“Image of Justice, guardian of the good and punisher of the guilty; and image of Justice trampling and chastising injury; and a hieroglyph denoting the said Justice — what she must be, must appear, and must do.”"
+      ],
+      "name_fr": "La Justice",
+      "text_fr": [
+        "Image de la Justice, gardienne des bons et punisseuse des coupables ; et image de la Justice foulant aux pieds et châtiant l'injure ; et hiéroglyphe désignant ladite Justice, ce qu'elle doit être, paraître et faire."
       ]
     },
     {
@@ -995,6 +1199,10 @@
       ],
       "text_en": [
         "“The panel of Calumny painted by Apelles, in which there is the Judge with ass's ears denoting Ignorance, and two women speaking into his ears, one Ignorance, the other Suspicion. The old man walking before Calumny is Envy; the one who holds Calumny and the Calumniated by the hair. The two Women accompanying Calumny are Fraud and Treachery. Of the two women below, one is Repentance looking toward Truth — the effect of calumny, which earns for its reward shame, harm, and reproach.”"
+      ],
+      "name_fr": "La Calomnie d'Apelle",
+      "text_fr": [
+        "Tableau de la Calomnie peinte par Apelle, où figure le Juge aux oreilles d'âne, désignant l'Ignorance, et deux femmes qui lui parlent à l'oreille, l'une l'Ignorance, l'autre le Soupçon. Le vieillard qui précède la Calomnie est l'Envie ; celui qui tient par les cheveux la Calomnie et le Calomnié. Les deux femmes qui accompagnent la Calomnie sont l'une la Fraude, l'autre l'Embûche. Des deux femmes en bas, l'une est le Repentir regardant la Vérité — l'effet de la calomnie, qui reçoit pour récompense la honte, le dommage et le déshonneur."
       ]
     },
     {
@@ -1013,6 +1221,10 @@
       ],
       "text_en": [
         "“Image of the Hours, whom some also call the Graces, and of Apollo: the former understood as the four seasons of the year, the latter as the Sun that varies the seasons; they were also held to be goddesses of friendship, beauty, charm, and amiability, goddesses of joy, play, and pleasure; they also signify God's mercy toward the guilty.”"
+      ],
+      "name_fr": "Les Heures",
+      "text_fr": [
+        "Image des Heures, que certains nomment aussi les Grâces, et d'Apollon : les premières comprises comme les quatre saisons de l'année, le second comme le Soleil qui fait varier les saisons ; on les tenait aussi pour déesses de l'amitié, de la beauté, de la grâce et de l'amabilité, déesses de la joie, du jeu et du plaisir ; elles désignent aussi la miséricorde de Dieu envers les coupables."
       ]
     },
     {
@@ -1033,6 +1245,10 @@
       ],
       "text_en": [
         "“The ancients had the custom of representing Fate under the image of three Women... These are taken from an ancient gold medal of the Emperor Diocletian, with the inscription FATIS VICTRICIBUS (To the Victorious Fates).”"
+      ],
+      "name_fr": "Le Destin sous trois images de Femme",
+      "text_fr": [
+        "« Les anciens avaient coutume de représenter le Destin sous l'image de trois Femmes... Elles sont tirées d'une médaille d'or antique de l'empereur Dioclétien, avec cette inscription, FATIS VICTRICIBVS (Aux Destins Victorieux). »"
       ]
     },
     {
@@ -1053,6 +1269,10 @@
       ],
       "text_en": [
         "“The figure of Aesculapius is notably distinguished... from the medal of the Emperor Marcus Antoninus Caracalla.”"
+      ],
+      "name_fr": "Esculape",
+      "text_fr": [
+        "« La figure d'Esculape se distingue notablement... de la médaille de l'empereur Marc Antonin Caracalla. »"
       ]
     },
     {
@@ -1073,6 +1293,10 @@
       ],
       "text_en": [
         "“On the cameo Isis is represented as she appears on the ancient medals of Hadrian and Antoninus Pius.”"
+      ],
+      "name_fr": "Isis sur un camée",
+      "text_fr": [
+        "« Sur le camée est représentée Isis telle qu'elle paraît sur les médailles antiques d'Hadrien et d'Antonin le Pieux. »"
       ]
     },
     {
@@ -1093,6 +1317,10 @@
       ],
       "text_en": [
         "“Whether or not they truly were Satyrs, there is much to be said.”"
+      ],
+      "name_fr": "Des satyres au combat",
+      "text_fr": [
+        "« Que ce fussent véritablement des satyres ou non, il y aurait beaucoup à en dire. »"
       ]
     },
     {
@@ -1113,6 +1341,10 @@
       ],
       "text_en": [
         "“‘Pallas had taken off her shield’ — and Domitian perhaps had in mind these very verses of Virgil.”"
+      ],
+      "name_fr": "Pallas",
+      "text_fr": [
+        "« ‘Pallas avait ôté son bouclier’ — et Domitien avait peut-être en tête ces vers mêmes de Virgile. »"
       ]
     },
     {
@@ -1133,6 +1365,10 @@
       ],
       "text_en": [
         "“Of this Ajax it is told... And of this violence of Ajax, son of Oileus, Antonio Agostini gives a drawing taken from a very fine antique marble.”"
+      ],
+      "name_fr": "La violence d'Ajax, fils d'Oilée",
+      "text_fr": [
+        "« De cet Ajax on raconte... Et de cette violence d'Ajax, fils d'Oilée, Antonio Agostini donne un dessin tiré d'un très beau marbre antique. »"
       ]
     },
     {
@@ -1153,6 +1389,10 @@
       ],
       "text_en": [
         "“...in another procession of the Idaean Mother... they carried, wrapped in silver, a black stone bearing a Woman's face.”"
+      ],
+      "name_fr": "Cérès (la Mère Idéenne)",
+      "text_fr": [
+        "« ...dans un autre cortège de la Mère Idéenne... on portait, enveloppée d'argent, une pierre noire au visage de Femme. »"
       ]
     },
     {
@@ -1173,6 +1413,10 @@
       ],
       "text_en": [
         "“The main image is taken from an antique engraved gem found in a vineyard... The figure of Palaemon appears on the medals of Corinth.”"
+      ],
+      "name_fr": "Palémon et le dauphin",
+      "text_fr": [
+        "« L'image principale est tirée d'une gemme antique gravée, sur un bas-relief antique trouvé dans une vigne... La figure de Palémon se voit sur les médailles de Corinthe. »"
       ]
     },
     {
@@ -1193,6 +1437,10 @@
       ],
       "text_en": [
         "“They are taken from an ancient gold medal of the Emperor Diocletian, which I have seen more than once in Rome, with the inscription FATIS VICTRICIBUS.”"
+      ],
+      "name_fr": "Les trois Parques",
+      "text_fr": [
+        "« Elles sont tirées d'une médaille d'or antique de l'empereur Dioclétien, que j'ai vue plus d'une fois à Rome, avec cette inscription, FATIS VICTRICIBVS. »"
       ]
     },
     {
@@ -1213,6 +1461,10 @@
       ],
       "text_en": [
         "“That this figure too was among the boundary-markers, which were of many kinds, is shown by Hyginus, who in the collection of authors writing on rural matters records a boundary-marker of this sort, which he calls Hermula.”"
+      ],
+      "name_fr": "Le dieu Terme",
+      "text_fr": [
+        "« Que parmi les termes, qui étaient de plusieurs sortes, se trouvait aussi cette figure, on le tient d'Hygin, qui dans son recueil d'auteurs agronomes range une borne de ce genre, qu'il nomme Hermula. »"
       ]
     },
     {
@@ -1233,6 +1485,10 @@
       ],
       "text_en": [
         "“Here Hercules is seen in a garb little different from Mercury's. The caduceus and the wings on the feet speak for themselves. The palm is a sign of victorious Eloquence.”"
+      ],
+      "name_fr": "Hercule en habit de Mercure",
+      "text_fr": [
+        "« On voit ici Hercule en un habit peu différent de celui de Mercure. Le Caducée et les Ailes aux pieds se comprennent d'eux-mêmes. La Palme est signe d'Éloquence victorieuse. »"
       ]
     },
     {
@@ -1253,6 +1509,10 @@
       ],
       "text_en": [
         "“...a bronze figure bearing at its centre the Gorgon's head. This gave Martial occasion to flatter the Emperor Domitian.”"
+      ],
+      "name_fr": "Minerve à l'égide de Gorgone",
+      "text_fr": [
+        "« ...une figure de bronze portant en son milieu la tête de la Gorgone. Ce fut là l'occasion pour Martial de flatter l'empereur Domitien. »"
       ]
     },
     {
@@ -1273,6 +1533,10 @@
       ],
       "text_en": [
         "“Minerva in the main figure, embracing Mercury, is taken from an antique gem. Above, on the cameos, a Hermathena is seen, taken from the medal of the Emperor Hadrian.”"
+      ],
+      "name_fr": "Hermathéna (Minerve et Mercure)",
+      "text_fr": [
+        "« Minerve, dans la figure principale, enlacée à Mercure, est tirée d'une gemme antique. Au-dessus, sur les camées, on voit une Hermathéna, tirée d'une médaille de l'empereur Hadrien. »"
       ]
     },
     {
@@ -1293,6 +1557,10 @@
       ],
       "text_en": [
         "“A small part of that company were the Bacchantes, depicted in many places... on this engraving are seen those driven out of their senses, as happened at these mad festivals.”"
+      ],
+      "name_fr": "Un cortège bachique",
+      "text_fr": [
+        "« Une petite partie de cette compagnie étaient les Bacchantes, représentées en bien des endroits... on voit sur cette gravure ceux que la folie avait rendus comme hors d'eux-mêmes, ainsi qu'il arrivait lors de ces fêtes insensées. »"
       ]
     },
     {
@@ -1313,6 +1581,10 @@
       ],
       "text_en": [
         "“...a great resemblance between Priapus and Apollo. And since Priapus was made of fig wood, as in Horace's verses... an overturned wine-vessel at the Satyr's feet.”"
+      ],
+      "name_fr": "Priape et Apollon (l'enfant au berceau)",
+      "text_fr": [
+        "« ...une grande ressemblance entre Priape et Apollon. Et comme Priape était fait de bois de figuier, ainsi que le dit Horace dans ses vers... un vase de vin renversé aux pieds du Satyre. »"
       ]
     },
     {
@@ -1333,6 +1605,10 @@
       ],
       "text_en": [
         "“The patera and the horn of plenty are the proper insignia of the Genius... as will be shown further below.”"
+      ],
+      "name_fr": "La patère et la corne du Génie",
+      "text_fr": [
+        "« La Patère et la Corne d'abondance sont les insignes propres du Génie... comme on le montrera plus loin. »"
       ]
     },
     {
@@ -1353,6 +1629,10 @@
       ],
       "text_en": [
         "“The medal of Maximinus was struck in Antioch, which is why the Genius holds in his hand the head of the Sun, following the thought of Ausonius, who called Antioch the house of Phoebus's laurel.”"
+      ],
+      "name_fr": "Le Génie d'Antioche",
+      "text_fr": [
+        "« La médaille de Maximin fut frappée à Antioche ; c'est pourquoi le Génie tient en main la tête du Soleil, selon la pensée d'Ausone, qui appela Antioche la demeure du laurier de Phébus. »"
       ]
     },
     {
@@ -1373,6 +1653,10 @@
       ],
       "text_en": [
         "“The scourge in the Genius's hand is a strange thing. He ordinarily holds the horn of plenty; and he is seen so fashioned on thousands of medals.”"
+      ],
+      "name_fr": "Le Génie et la Fortune",
+      "text_fr": [
+        "« Le fouet dans la main du Génie est chose étrange. D'ordinaire il tient la corne d'abondance ; et on le voit ainsi fait sur des milliers de médailles. »"
       ]
     },
     {
@@ -1393,6 +1677,10 @@
       ],
       "text_en": [
         "“Here are seen the Waves and the Sail, and moreover a Swan bearing Fortune as if upon its wings — a bird of very favourable omen.”"
+      ],
+      "name_fr": "La Fortune portée sur les ailes d'un Cygne",
+      "text_fr": [
+        "« On voit ici les Flots et la Voile, et de plus un Cygne, qui porte la Fortune comme sur ses ailes — oiseau d'un très heureux présage. »"
       ]
     },
     {
@@ -1413,6 +1701,10 @@
       ],
       "text_en": [
         "“The thought of Ausonius is represented below; and on a cameo, the impression of an antique gem from the collection of Monsignor the Patriarch of Aquileia, on which two Loves are seen binding [a goat] to the cross which Lipsius calls decussate, and which we would call a St Andrew's cross.”"
+      ],
+      "name_fr": "Les deux Amours et la chèvre (pensée d'Ausone)",
+      "text_fr": [
+        "« La pensée d'Ausone est représentée ci-dessous ; et sur un camée, l'empreinte d'une gemme antique de la collection de Monseigneur le Patriarche d'Aquilée, où l'on voit deux Amours liant [une chèvre] à la croix que Lipse appelle décussée, et que nous nommerions croix de Saint-André. »"
       ]
     },
     {
@@ -1433,6 +1725,10 @@
       ],
       "text_en": [
         "“This figure was forgotten and not placed in its proper spot, so it is set here between numbers 52 and 53.”"
+      ],
+      "name_fr": "Une figure hors d'ordre (entre les nos 52 et 53)",
+      "text_fr": [
+        "« On a oublié de mettre cette figure à sa place ; aussi la place-t-on ici, entre les numéros 52 et 53. »"
       ]
     },
     {
@@ -1453,6 +1749,10 @@
       ],
       "text_en": [
         "“Janus was very often fashioned by antiquity with two faces... This is the image of the young Janus, unless it is in fact Nigidius's ‘wool.’”"
+      ],
+      "name_fr": "Le jeune Janus",
+      "text_fr": [
+        "« Janus fut très souvent figuré par l'Antiquité avec deux visages... Voici l'image du jeune Janus, à moins que ce ne soit la « laine de Nigidius ». »"
       ]
     },
     {
@@ -1473,6 +1773,10 @@
       ],
       "text_en": [
         "“Justice, as Budé holds in his Annotations on the Pandects, was figured seated, a patera in her hand, leaning on a spear; and so she appears on the medals of Hadrian, Antoninus Pius, and Alexander Severus — under the name of the goddess Themis, Stephanus Pighius has published a learned discourse on her.”"
+      ],
+      "name_fr": "Le vase de la Justice",
+      "text_fr": [
+        "« La Justice, comme le veut Budé dans ses Annotations sur les Pandectes, était figurée assise, la patère en main, appuyée sur une haste ; ainsi paraît-elle sur les médailles d'Hadrien, d'Antonin le Pieux, d'Alexandre Sévère — sous le nom de la déesse Thémis, Stéphanus Pighius en a publié un savant discours. »"
       ]
     },
     {
@@ -1493,6 +1797,10 @@
       ],
       "text_en": [
         "“I had this drawing from the late Signor Paolo Gualdo, who was archpriest of our Cathedral... on the depicted sash running about the chest and shoulders, a most refined sonnet... on the sash Minerva, Diana and Hercules are seen.”"
+      ],
+      "name_fr": "Statue avec le prêtre et ses insignes",
+      "text_fr": [
+        "« J'ai eu ce dessin de feu Monsieur Paolo Gualdo, qui était archiprêtre de notre Cathédrale... sur la bande figurée qui court autour de la poitrine et des épaules, un sonnet des plus raffinés... sur la bande on voit Minerve, Diane et Hercule. »"
       ]
     },
     {
@@ -1513,6 +1821,10 @@
       ],
       "text_en": [
         "(see the full explanation on the next plate: symbols of Cybele, Bacchus, Isis and other deities gathered on a votive hand)"
+      ],
+      "name_fr": "La première Main Panthée",
+      "text_fr": [
+        "(voir l'explication complète à la planche suivante : symboles de Cybèle, de Bacchus, d'Isis et d'autres divinités réunis sur une main votive)"
       ]
     },
     {
@@ -1533,6 +1845,10 @@
       ],
       "text_en": [
         "“This one bears some resemblance to a hand placed upon an idol of the god Tutinus, examined and published by Signor Ottavio Rossi in his Brescian memoirs.”"
+      ],
+      "name_fr": "La deuxième Main Panthée",
+      "text_fr": [
+        "« Celle-ci offre quelque ressemblance avec une main posée sur un idole du dieu Tutinus, examinée et publiée par Monsieur Ottavio Rossi dans ses mémoires de Brescia. »"
       ]
     },
     {
@@ -1553,6 +1869,10 @@
       ],
       "text_en": [
         "“And since Signor Girolamo Aleandro was kind enough to write me his own opinion of the Tornax hand, somewhat different from what I had written, I did not wish to deprive of it those students who relish this learned subject.”"
+      ],
+      "name_fr": "La troisième Main Panthée",
+      "text_fr": [
+        "« Et comme Monsieur Girolamo Aleandro a eu la bonté de m'écrire son propre avis sur la main de Tornax, quelque peu différent de ce que j'en avais écrit, je n'ai pas voulu en priver les curieux qui prennent goût à cette matière savante. »"
       ]
     },
     {
@@ -1573,6 +1893,10 @@
       ],
       "text_en": [
         "“We shall seal this chapter with the figure of Lucifer, companion of Dawn, which I once saw on an ancient carnelian gem by a skilled master.”"
+      ],
+      "name_fr": "Lucifer, compagnon de l'Aurore",
+      "text_fr": [
+        "« Nous scellerons ce chapitre par la figure de Lucifer, compagnon de l'Aurore, que j'ai vue une fois sur une antique gemme de cornaline, œuvre d'un habile maître. »"
       ]
     },
     {
@@ -1593,6 +1917,10 @@
       ],
       "text_en": [
         "(the image of the Sun on a chariot drawn by cockerels, with a star — discussed in the commentary on the images of Juno and Diana)"
+      ],
+      "name_fr": "Phébus (le Soleil) sur son char",
+      "text_fr": [
+        "(l'image du Soleil sur un char tiré par des coqs, avec une étoile — évoquée dans le commentaire sur les images de Junon et de Diane)"
       ]
     },
     {
@@ -1613,6 +1941,10 @@
       ],
       "text_en": [
         "“On the cameo (as the Painters say) the image of Juno is figured...” (the text is partly damaged/illegible at this point in the book)."
+      ],
+      "name_fr": "Junon sur une gemme",
+      "text_fr": [
+        "« Sur la gemme (comme disent les Peintres) est figurée l'image de Junon... » (le texte est en partie endommagé/illisible à cet endroit du livre)."
       ]
     },
     {
@@ -1633,6 +1965,10 @@
       ],
       "text_en": [
         "“Honour was figured by Antiquity both male and female. Male on this marble, and on a medal of the Emperor Marcus Aurelius the Philosopher. Female on the medals of Galba, Vitellius, and Vespasian.”"
+      ],
+      "name_fr": "L'Honneur, mâle et femelle",
+      "text_fr": [
+        "« L'Honneur était figuré par l'Antiquité tantôt mâle, tantôt femelle. Mâle sur ce marbre, et sur une médaille de l'empereur Marc Aurèle le Philosophe. Femelle sur les médailles de Galba, Vitellius et Vespasien. »"
       ]
     },
     {
@@ -1653,6 +1989,10 @@
       ],
       "text_en": [
         "“The image of Liberty placed below is taken from a medal of the Emperor Claudius. The open hand signifies the favours granted to slaves upon their manumission, and especially the [freedman's] cap.”"
+      ],
+      "name_fr": "L'image de la Liberté",
+      "text_fr": [
+        "« L'image de la Liberté placée ci-dessous est tirée d'une médaille de l'empereur Claude. La main ouverte signifie les faveurs accordées aux esclaves lors de leur affranchissement, et en particulier le bonnet [de l'affranchi]. »"
       ]
     },
     {
@@ -1673,6 +2013,10 @@
       ],
       "text_en": [
         "“This passage from Gellius is in Book 7, chapter 4, drawn from Caelius Sabinus, an ancient jurist, from whom it seems to me one might rather infer the contrary.”"
+      ],
+      "name_fr": "La coiffure de Junon (chez Gellius)",
+      "text_fr": [
+        "« Ce passage de Gellius se trouve au livre 7, chapitre 4, tiré de Caelius Sabinus, ancien jurisconsulte, duquel il me semble pourtant qu'on pourrait plutôt tirer le contraire. »"
       ]
     },
     {
@@ -1693,6 +2037,10 @@
       ],
       "text_en": [
         "“Pighius holds that this image contains great mysteries, and whoever wishes to know them should consult him, for he certainly says many fine things. For my part it will suffice to touch briefly on a few main points noted by him, to explain the features of the body and the garb worn about it. This Derceto is the same as Dagon, mentioned in Holy Scripture.”"
+      ],
+      "name_fr": "Dagon",
+      "text_fr": [
+        "« Pighius soutient que cette image renferme de grands mystères, et que qui voudra les connaître n'a qu'à le consulter, car il y dit assurément de belles choses. Pour moi il suffira de toucher brièvement quelques points principaux relevés par lui-même, pour expliquer les traits du corps et de l'habit qui l'entoure. Ce Dercéto est le même que Dagon, dont il est fait mention dans l'Écriture Sainte. »"
       ]
     },
     {
@@ -1713,6 +2061,10 @@
       ],
       "text_en": [
         "“On two cameos are shown: on one, Mercury reining in Pegasus; on the other, the same god running with a wreath in hand, a symbol of some victory won in a race.”"
+      ],
+      "name_fr": "Mercure et Pégase",
+      "text_fr": [
+        "« Sur deux camées sont représentés : sur l'un, Mercure retenant Pégase ; sur l'autre, le même dieu courant une couronne à la main, symbole de quelque victoire remportée à la course. »"
       ]
     },
     {
@@ -1733,6 +2085,10 @@
       ],
       "text_en": [
         "“On two cameos are seen two of Hercules's principal feats: one as on the medals with the dragon of the Hesperides, shown without wings and without feet... the other, Cerberus tamed.”"
+      ],
+      "name_fr": "Deux travaux d'Hercule",
+      "text_fr": [
+        "« Sur deux camées on voit deux des principaux exploits d'Hercule : l'un comme sur les médailles avec le dragon des Hespérides, représenté sans ailes et sans pieds... l'autre, Cerbère dompté. »"
       ]
     },
     {
@@ -1753,6 +2109,10 @@
       ],
       "text_en": [
         "“Of the same features as Hercules was the Sabine god Semo Sancus.”"
+      ],
+      "name_fr": "Semo Sancus",
+      "text_fr": [
+        "« Le dieu sabin Semo Sancus avait les mêmes traits qu'Hercule. »"
       ]
     },
     {
@@ -1773,6 +2133,10 @@
       ],
       "text_en": [
         "“Hermeracles, also cited by Cicero... Hercules and Mercury, wholly embracing one another, as was seen with Mercury and Minerva. This last, armed, was represented as shown below.”"
+      ],
+      "name_fr": "Hercule et Mercure réunis (Hermeracle)",
+      "text_fr": [
+        "« L'Hermeracle, cité aussi par Cicéron... Hercule et Mercure, entièrement enlacés l'un à l'autre, comme on l'a vu pour Mercure et Minerve. Cette dernière, armée, était représentée comme on le voit ci-dessous. »"
       ]
     },
     {
@@ -1793,6 +2157,10 @@
       ],
       "text_en": [
         "“This thought of the prudent and wise governance of the World is expressed on a medal of the Emperor Marcus Aurelius... Minerva, on another medal, is shown giving some instruction to the builder of the ship Argo.”"
+      ],
+      "name_fr": "Minerve et le navire Argo",
+      "text_fr": [
+        "« Cette pensée du gouvernement prudent et sage du Monde s'exprime sur une médaille de l'empereur Marc Aurèle... Minerve, sur une autre médaille, est montrée donnant quelque instruction à celui qui construit le navire Argo. »"
       ]
     },
     {
@@ -1813,6 +2181,10 @@
       ],
       "text_en": [
         "“On the cameos are seen Mars Gradivus and Mars the Victor, as he was figured on ancient medals.”"
+      ],
+      "name_fr": "Mars Gradivus et Mars vainqueur",
+      "text_fr": [
+        "« Sur les camées on voit Mars Gradivus et Mars vainqueur, tel qu'il était figuré sur les médailles antiques. »"
       ]
     },
     {
@@ -1833,6 +2205,10 @@
       ],
       "text_en": [
         "“The military standards are taken from the tomb of M. Pompeius Asper, where the Eagle is seen, and the devices named by ancient writers on warfare... among whom may be cited Henry Savile.”"
+      ],
+      "name_fr": "Les enseignes militaires romaines",
+      "text_fr": [
+        "« Les enseignes militaires sont tirées du tombeau de M. Pompeius Asper, où l'on voit l'Aigle, et les emblèmes nommés par les anciens écrivains sur l'art militaire... parmi lesquels on peut citer Henry Savile. »"
       ]
     },
     {
@@ -1853,6 +2229,10 @@
       ],
       "text_en": [
         "“On the cameos is seen the Genius of the Roman People, bearded, and the same Roman People in the guise of a youth, with a horn of plenty behind his shoulders.”"
+      ],
+      "name_fr": "Le Génie du peuple romain",
+      "text_fr": [
+        "« Sur les camées on voit le Génie du peuple romain, barbu, et ce même peuple romain sous l'aspect d'un jeune homme, une corne d'abondance derrière les épaules. »"
       ]
     },
     {
@@ -1873,6 +2253,10 @@
       ],
       "text_en": [
         "“The principal image is taken from a small ancient medal, on the reverse of which is Apollo playing the cithara, with the words APOLLONI SANCTO (To Holy Apollo).”"
+      ],
+      "name_fr": "Apollon citharède (« Apolloni Sancto »)",
+      "text_fr": [
+        "« L'image principale est tirée d'une petite médaille antique, au revers de laquelle se trouve Apollon jouant de la cithare, avec les mots APOLLONI SANCTO (À l'Apollon Saint). »"
       ]
     },
     {
@@ -1893,6 +2277,10 @@
       ],
       "text_en": [
         "“On the cameos Eros and Anteros are seen represented: now beneath their Mother's chariot, now wrestling together.”"
+      ],
+      "name_fr": "Éros et Antéros (le char de leur Mère)",
+      "text_fr": [
+        "« Sur les camées sont représentés Éros et Antéros : tantôt sous le char de leur Mère, tantôt luttant ensemble. »"
       ]
     },
     {
@@ -1913,6 +2301,10 @@
       ],
       "text_en": [
         "“On the cameo is represented the temple of Venus as it stood at Paphos, a city of the island of Cyprus, taken from ancient medals and engraved gems. I have a small medal of the Empress Saluerina, on whose reverse Venus holds in her hand what some call an Apple.”"
+      ],
+      "name_fr": "Le temple de Vénus à Paphos",
+      "text_fr": [
+        "« Sur le camée est représenté le temple de Vénus tel qu'il se dressait à Paphos, ville de l'île de Chypre, tiré de médailles et de gemmes gravées antiques. J'ai une petite médaille de l'impératrice Saluerina, au revers de laquelle Vénus tient en main ce que certains appellent une Pomme. »"
       ]
     },
     {
@@ -1933,6 +2325,10 @@
       ],
       "text_en": [
         "(an ornamented vase, continuing the series of antique vases shown earlier in this part of the book)"
+      ],
+      "name_fr": "Vase antique orné de reliefs",
+      "text_fr": [
+        "(un vase orné, poursuivant la série de vases antiques montrés plus tôt dans cette partie du livre)"
       ]
     },
     {
@@ -1953,6 +2349,10 @@
       ],
       "text_en": [
         "(a figure of Minerva or another armed goddess, part of the same series of antique statues and vases)"
+      ],
+      "name_fr": "Figure féminine armée",
+      "text_fr": [
+        "(une figure de Minerve ou d'une autre déesse en armes, faisant partie de la même série de statues et de vases antiques)"
       ]
     },
     {
@@ -1973,6 +2373,10 @@
       ],
       "text_en": [
         "“This whimsical piece of Archesilaus... which I have seen in more than one antique depiction of Cupid tormenting and punishing those who do not love according to his magical laws.”"
+      ],
+      "name_fr": "La main symbolique avec la lyre",
+      "text_fr": [
+        "« Ce caprice d'Archésilas... que j'ai vu sur plus d'une représentation antique de Cupidon tourmentant et punissant ceux qui n'aiment pas selon ses lois magiques. »"
       ]
     },
     {
@@ -1993,6 +2397,10 @@
       ],
       "text_en": [
         "(an antique statue with a Greek inscription at its base, from the closing part of Pignoria's “Aggionta”)"
+      ],
+      "name_fr": "Figure juvénile au bâton (inscrite « TYXAINI »)",
+      "text_fr": [
+        "(une statue antique avec une inscription grecque à sa base, tirée de la dernière partie de l'« Aggionta » de Pignoria)"
       ]
     }
   ]
