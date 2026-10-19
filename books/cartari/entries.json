@@ -2754,6 +2754,94 @@
       "text_fr": [
         "« Le simulacre de la déesse Cybèle, qui est la terre, et le char dans lequel on la menait en procession, tiré par deux Vaches, dénotant la fertilité de la terre, et le profit qui en vient aux mortels. »"
       ]
+    },
+    {
+      "id": "cartm17",
+      "num": "17",
+      "page": "17",
+      "fr": "I quattro Venti",
+      "ru": "Четыре Ветра",
+      "en": "The Four Winds",
+      "name_fr": "Les quatre Vents",
+      "img": [
+        "cartm17.jpg"
+      ],
+      "caption": "Imagini di Borea, Austro, Euro, & Zefiro quattro venti principali, & di Orithia & Flora l'vna moglie di Borea, l'altra di Zefiro, che dimostrano gli effetti di detti venti mentre soffiano, & dominano nelle stagioni & paesi sottoposti al lor soffiare.",
+      "text_ru": [
+        "«Образы Борея, Австра, Эвра и Зефира, четырёх главных ветров, а также Орифии и Флоры — одной супруги Борея, другой Зефира, — являющие действия этих ветров, когда они дуют и властвуют над временами года и землями, подверженными их дуновению»."
+      ],
+      "text_en": [
+        "“Images of Boreas, Auster, Eurus, and Zephyrus, the four principal winds, and of Orithyia and Flora — one the wife of Boreas, the other of Zephyrus — showing the effects of these winds as they blow, and rule over the seasons and lands subject to their blowing.”"
+      ],
+      "text_fr": [
+        "« Images de Borée, Auster, Eurus et Zéphyr, les quatre vents principaux, et d'Orithye et de Flore — l'une épouse de Borée, l'autre de Zéphyr — montrant les effets de ces vents lorsqu'ils soufflent, et leur domination sur les saisons et les pays soumis à leur souffle. »"
+      ]
+    },
+    {
+      "id": "cartm18",
+      "num": "18",
+      "page": "18",
+      "fr": "I fiumi Cefiso e Po",
+      "ru": "Реки Кефис и По",
+      "en": "The rivers Cephissus and Po",
+      "name_fr": "Les fleuves Céphise et Pô",
+      "img": [
+        "cartm18.jpg"
+      ],
+      "caption": "Imagini di Cefiso, & del Pò fiumi, quello di Grecia, questo d'Italia, & d'vn giouanetto che tagliatosi i capelli li adorna & quello gli offerisce, & dinotano la natura & impeto di fiumi con il lor mormorio, & tortuoso corso.",
+      "text_ru": [
+        "«Образы рек Кефиса и По — первой в Греции, второй в Италии, — и юноши, что, остригши волосы, украшает и подносит их [реке]; означают природу и напор рек с их журчанием и извилистым течением»."
+      ],
+      "text_en": [
+        "“Images of the rivers Cephissus and Po, the former in Greece, the latter in Italy, and of a youth who, having cut his hair, adorns and offers it to the river; they denote the nature and force of rivers, with their murmur and winding course.”"
+      ],
+      "text_fr": [
+        "« Images des fleuves Céphise et Pô, l'un en Grèce, l'autre en Italie, et d'un jeune homme qui, s'étant coupé les cheveux, les orne et les offre au fleuve ; ils dénotent la nature et la force des fleuves, avec leur murmure et leur cours sinueux. »"
+      ]
+    },
+    {
+      "id": "cartm19",
+      "num": "19",
+      "page": "19",
+      "fr": "Il Tevere",
+      "ru": "Тибр",
+      "en": "The Tiber",
+      "name_fr": "Le Tibre",
+      "img": [
+        "cartm19.jpg"
+      ],
+      "caption": "Imagine del Teuere mostrante l'abondanza, e'l principio dell'Imperio di Roma, ne' due fratelli.",
+      "text_ru": [
+        "«Образ Тибра, являющего изобилие и начало Римской империи, в двух братьях [Ромуле и Реме]»."
+      ],
+      "text_en": [
+        "“Image of the Tiber, showing abundance, and the origin of the Roman Empire, in the two brothers [Romulus and Remus].”"
+      ],
+      "text_fr": [
+        "« Image du Tibre, montrant l'abondance, et l'origine de l'Empire romain, dans les deux frères [Romulus et Rémus]. »"
+      ]
+    },
+    {
+      "id": "cartm20",
+      "num": "20",
+      "page": "20",
+      "fr": "Il fiume Nilo",
+      "ru": "Река Нил",
+      "en": "The river Nile",
+      "name_fr": "Le fleuve Nil",
+      "img": [
+        "cartm20.jpg"
+      ],
+      "caption": "Imagini del fiume Nilo sedente sopra la Sfinge con molti fanciulli intorno che dinotano li gradi del crescimento del detto fiume, che sono sedeci cubiti per ordinario.",
+      "text_ru": [
+        "«Образы реки Нил, восседающей на Сфинксе, с множеством детей вокруг, означающих ступени подъёма воды в этой реке, которых обычно шестнадцать локтей»."
+      ],
+      "text_en": [
+        "“Images of the river Nile, seated upon the Sphinx, with many children around denoting the degrees of the river's rise, which are ordinarily sixteen cubits.”"
+      ],
+      "text_fr": [
+        "« Images du fleuve Nil, assis sur le Sphinx, avec de nombreux enfants autour dénotant les degrés de la crue de ce fleuve, qui sont ordinairement de seize coudées. »"
+      ]
     }
   ]
 }
