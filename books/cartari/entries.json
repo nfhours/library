@@ -1,0 +1,865 @@
+{
+  "title": "Imagini de gli Dei degli Antichi",
+  "items": [
+    {
+      "id": "cart1",
+      "num": "1",
+      "page": "1",
+      "fr": "Saturno",
+      "ru": "Сатурн",
+      "en": "Saturn",
+      "img": [
+        "cart1.jpg"
+      ],
+      "caption": "Imagine di Saturno, ò del Tempo deuoratore de' suoi figliuoli, cioè del tutto consumatore, eccettuati Gioue, Giunone, Nettuno, & Plutone, intesi per li quattro elementi Fuoco, Aria, Aqua, & Terra, che non si distruggono.",
+      "text_ru": [
+        "Сатурн как олицетворение Времени, пожирающего собственных детей, — кроме Юпитера, Юноны, Нептуна и Плутона, в которых античные толкователи видели четыре нетленных стихии: огонь, воздух, воду и землю."
+      ],
+      "text_en": [
+        "Saturn as Time, devouring his own children — all but Jove, Juno, Neptune and Pluto, read by ancient commentators as the four indestructible elements: fire, air, water and earth."
+      ]
+    },
+    {
+      "id": "cart2",
+      "num": "2",
+      "page": "2",
+      "fr": "Apollo Febo, il Sole",
+      "ru": "Аполлон Феб, Солнце",
+      "en": "Apollo Phoebus, the Sun",
+      "img": [
+        "cart2.jpg"
+      ],
+      "caption": "Imagini d'Apollo & de gli animali, & vccelli à lui sacrati, che significano gli effetti del Sole: & Apollo esser stato Dio dell'indouinare. Ha le grazie in mano che significano il giouamento, che dal Sole habbiamo, & la vtilità che a noi perviene da esso.",
+      "text_ru": [
+        "Аполлон-Феб вместе с посвящёнными ему животными и птицами, выражающими разные действия солнечного света; Аполлон почитался также богом прорицания."
+      ],
+      "text_en": [
+        "Apollo Phoebus together with the animals and birds sacred to him, representing the sun's various effects; Apollo was also honoured as the god of prophecy."
+      ]
+    },
+    {
+      "id": "cart3",
+      "num": "3",
+      "page": "3",
+      "fr": "Diana",
+      "ru": "Диана",
+      "en": "Diana",
+      "img": [
+        "cart3.jpg"
+      ],
+      "caption": "Imagine di Diana della caccia & de boschi, & amatrice de Cerui à lei sacrati, che dimorano il presto suo corso in 29 giorni, & esser la illuminatrice della notte essendo tolta per la Luna, & scorta de viandanti nella notte.",
+      "text_ru": [
+        "Диана-охотница, владычица лесов, которой посвящены олени; отождествлялась с Луной — завершающей свой путь за 29 дней и освещающей ночных путников."
+      ],
+      "text_en": [
+        "Diana the huntress, mistress of the woods, to whom deer are sacred; identified with the Moon, completing her course in 29 days and lighting travellers by night."
+      ]
+    },
+    {
+      "id": "cart4",
+      "num": "4",
+      "page": "4",
+      "fr": "Giove",
+      "ru": "Юпитер",
+      "en": "Jove",
+      "img": [
+        "cart4.jpg"
+      ],
+      "caption": "Imagine di Gioue & di Pan significante l'vniuerso, l'vno Dio del Cielo, l'altro Dio de' Pastori, questo sedente per significar l'immutabilità di Dio, & sua prouidenza, & questo in piedi per significar il corso del mondo stando in piedi & in moto.",
+      "text_ru": [
+        "Юпитер рядом с Паном изображают вселенную: сидящий бог небес означает неизменность божественного промысла, а стоящий бог пастухов — непрестанное движение мира."
+      ],
+      "text_en": [
+        "Jove paired with Pan stand for the universe: the seated sky-god signifies the unchanging nature of providence, the standing shepherd-god the world's constant motion."
+      ]
+    },
+    {
+      "id": "cart5",
+      "num": "5",
+      "page": "5",
+      "fr": "Giunone",
+      "ru": "Юнона",
+      "en": "Juno",
+      "img": [
+        "cart5.jpg"
+      ],
+      "caption": "Imagine di Giunone Lucina, & della Dea Siria di Hieropoli nell'Assiria, che è vn'istessa con Giunone, & delli vccelli à lei sacrati significanti Giunone esser regina del Cielo, dominatrice dell'aria signora de regni, & delle ricchezze. Questa fu intesa ancora per la virtù.",
+      "text_ru": [
+        "Юнона-Люцина, покровительница родов, отождествлена здесь с сирийской богиней Гиераполя; птицы при ней означают её власть над небом и воздухом, царствами и богатством."
+      ],
+      "text_en": [
+        "Juno Lucina, protector of childbirth, here identified with the Syrian goddess of Hierapolis; the birds beside her mark her rule over sky and air, kingdoms and riches."
+      ]
+    },
+    {
+      "id": "cart6",
+      "num": "6",
+      "page": "6",
+      "fr": "La Gran Madre",
+      "ru": "Великая Матерь (Опа-Берекинфия)",
+      "en": "The Great Mother (Ops-Berecynthia)",
+      "img": [
+        "cart6.jpg"
+      ],
+      "caption": "Imagine della dea Ope detta anco Berecinthia madre de gli Dei, interpretata per la Terra, & gli animali, & alberi à lei sacrati, canti la fruttuosa coltiuatione del terreno, & ogni vno esser sottoposto alla natura benche grande.",
+      "text_ru": [
+        "Опа, она же Берекинфия, Мать богов — олицетворение Земли; посвящённые ей животные и деревья означают плодородие почвы и то, что даже великие подвластны природе."
+      ],
+      "text_en": [
+        "Ops, also called Berecynthia, Mother of the Gods — a personification of the Earth; the animals and trees sacred to her stand for fruitful soil and the rule that even the great are subject to nature."
+      ]
+    },
+    {
+      "id": "cart7",
+      "num": "7",
+      "page": "7",
+      "fr": "Nettuno",
+      "ru": "Нептун",
+      "en": "Neptune",
+      "img": [
+        "cart7.jpg"
+      ],
+      "caption": "Imagini di Nettuno dio del mare, & di Anfitrice sua moglie, dinotanti la spuma del mare, & le tre qualità dell'acqua marina, de fiumi, & de laghi, salata, dolce, & neutrale, con il veloce & frequente moto delle acque.",
+      "text_ru": [
+        "Нептун, бог моря, рядом с супругой Амфитритой; их атрибуты означают морскую пену и три рода воды — солёную морскую, пресную речную и озёрную, а также её неустанное движение."
+      ],
+      "text_en": [
+        "Neptune, god of the sea, beside his wife Amphitrite; their attributes mark sea foam and the three kinds of water — salt, fresh and lake water — and its ceaseless motion."
+      ]
+    },
+    {
+      "id": "cart8",
+      "num": "8",
+      "page": "8",
+      "fr": "Plutone",
+      "ru": "Плутон",
+      "en": "Pluto",
+      "img": [
+        "cart8.jpg"
+      ],
+      "caption": "Imagini di Plutone dio dell'Inferno, di Proserpina sua moglie, di Eurinomo diuoratore delle carni de morti; di Cerbero cane trifauce custode dell'Inferno. Plutone è tolto per il Sole nel tempo dell'Inuerno, nel quale la virtù della terra stà in se ristretta; & Proserpina è intesa per la terra.",
+      "text_ru": [
+        "Плутон, владыка преисподней, с супругой Прозерпиной, пожирателем мёртвой плоти Евриномом и трёхглавым псом Цербером; Плутон толкуется как зимнее солнце, Прозерпина — как земля, хранящая в себе силу до весны."
+      ],
+      "text_en": [
+        "Pluto, lord of the underworld, with his wife Proserpina, the corpse-eating Eurynomos, and three-headed Cerberus; Pluto stands for the winter sun, Proserpina for the earth holding its strength in reserve until spring."
+      ]
+    },
+    {
+      "id": "cart9",
+      "num": "9",
+      "page": "9",
+      "fr": "Mercurio",
+      "ru": "Меркурий",
+      "en": "Mercury",
+      "img": [
+        "cart9.jpg"
+      ],
+      "caption": "Imagini di Mercurio messaggiero de i dei, Dio della eloquenza, & de mercanti. Questo dinota la fauella essere messaggiera, & discopritrice della mente & del core, il Caduceo poi è segno di concordia, vnione, & pace, con alcuni animali à lui dinotanti l'industria & vigilanza nel contrattare, e nell'negotij.",
+      "text_ru": [
+        "Меркурий, вестник богов, бог красноречия и торговцев; речь — вестница и толковательница ума и сердца, жезл-кадуцей — знак согласия и мира, а животные рядом означают усердие и бдительность в делах."
+      ],
+      "text_en": [
+        "Mercury, messenger of the gods, god of eloquence and merchants; speech is itself a messenger revealing mind and heart, the caduceus a sign of concord and peace, and the animals beside him mark diligence and vigilance in business."
+      ]
+    },
+    {
+      "id": "cart10",
+      "num": "10",
+      "page": "10",
+      "fr": "Minerva (con Mercurio)",
+      "ru": "Минерва (вместе с Меркурием)",
+      "en": "Minerva (with Mercury)",
+      "img": [
+        "cart10.jpg"
+      ],
+      "caption": "Imagini di Mercurio, & di Minerua, quello dio della Eloquenza, questa della Prudenza, & delle arti buone inuentrice, dinotante esser necessario la Eloquenza, & la Prudenza esser congionte insieme, se deuono giouar le parole alle operationi humane.",
+      "text_ru": [
+        "Минерва изображена рядом с Меркурием — богом красноречия, тогда как она сама олицетворяет благоразумие и изобретение полезных искусств: слово приносит пользу делу лишь в союзе с мудростью."
+      ],
+      "text_en": [
+        "Minerva appears beside Mercury, god of eloquence, while she herself personifies prudence and the invention of the useful arts: words serve action only when joined to wisdom."
+      ]
+    },
+    {
+      "id": "cart11",
+      "num": "11",
+      "page": "11",
+      "fr": "Baccho",
+      "ru": "Вакх",
+      "en": "Bacchus",
+      "img": [
+        "cart11.jpg"
+      ],
+      "caption": "Imagine di Bacco significante li varij effetti del vino del quale esso fu l'inuentore, & di più gli effetti della vbbriachezza, che sono riuelationi di cose occulte furore, libidine, & simili. Questi con Hercole tutti due Thebani, & figlioli di Gioue, di gloria tutti gl'antichi superarono.",
+      "text_ru": [
+        "Вакх, изобретатель вина, окружён спутниками, олицетворяющими действия опьянения — развязывание языка, неистовство, вожделение; вместе с Геркулесом, тоже фиванцем и сыном Юпитера, он превзошёл славой всех героев древности."
+      ],
+      "text_en": [
+        "Bacchus, inventor of wine, surrounded by companions embodying drunkenness's effects — loosened tongues, frenzy, desire; together with Hercules, another Theban son of Jove, he outshone every hero of antiquity in fame."
+      ]
+    },
+    {
+      "id": "cart12",
+      "num": "12",
+      "page": "12",
+      "fr": "Fortuna",
+      "ru": "Фортуна",
+      "en": "Fortune",
+      "img": [
+        "cart12.jpg"
+      ],
+      "caption": "Imagine della Fortuna datrice, & dispensatrice, & patrona delle ricchezze & beni humani, & gouernatrice delle cose di quà giù, nelle quali non è fermezza ò stabilità alcuna più di quello si può dire habbi vna Naue fluttuante nelle instabili onde marine.",
+      "text_ru": [
+        "Фортуна-дарительница, распорядительница богатств и благ, правит всем земным — а в нём нет большей устойчивости, чем у корабля, носимого по неверным морским волнам."
+      ],
+      "text_en": [
+        "Fortune the giver and dispenser, patroness of riches and earthly goods, rules all things below — which have no more stability than a ship tossed on unsteady waves."
+      ]
+    },
+    {
+      "id": "cart13",
+      "num": "13",
+      "page": "13",
+      "fr": "Cupido (Eroto & Anterote)",
+      "ru": "Купидон (Эрот и Антерот)",
+      "en": "Cupid (Eros and Anteros)",
+      "img": [
+        "cart13.jpg"
+      ],
+      "caption": "Imagine de gli Dei Eroto, & Anterote fratelli & figliuoli di Venere, intesi l'vno per l'amare l'altro per il riamare, ouero l'amor reciproco, & l'imagine dell'amor Letheo che fà disamare, & dimenticare la persona amata.",
+      "text_ru": [
+        "Эрот и Антерот, братья-сыновья Венеры: один означает любовь, другой — ответную любовь, то есть взаимность чувства; рядом же — образ Леты, любви, заставляющей разлюбить и забыть."
+      ],
+      "text_en": [
+        "Eros and Anteros, brother-sons of Venus: one stands for loving, the other for being loved in return — reciprocal love; alongside them, the image of Lethean love, which unmakes affection and brings forgetting."
+      ]
+    },
+    {
+      "id": "cart14",
+      "num": "14",
+      "page": "14",
+      "fr": "Venere",
+      "ru": "Венера",
+      "en": "Venus",
+      "img": [
+        "cart14.jpg"
+      ],
+      "caption": "Imagine di Venere nata dalla spuma del mare, della bellezza Dea, & della libidine, madre d'Amore, simbolo della lasciuia, qual si anco tenuta Dea delle nozze & del matrimonio, intesa per il pianeta di Venere, detta ancor Lucifero, & Hesphero, che induce la virtù generatiua nelle cose.",
+      "text_ru": [
+        "Венера, рождённая из морской пены, богиня красоты и желания, мать Амура; почиталась также богиней брака, а отождествлялась с планетой Венерой — Утренней и Вечерней звездой, несущей вещам порождающую силу."
+      ],
+      "text_en": [
+        "Venus, born of sea foam, goddess of beauty and desire, mother of Love; also honoured as goddess of marriage, and identified with the planet Venus — Morning and Evening Star — bringing generative power to all things."
+      ]
+    },
+    {
+      "id": "cart15",
+      "num": "15",
+      "page": "15",
+      "fr": "Le Gratie",
+      "ru": "Грации",
+      "en": "The Graces",
+      "img": [
+        "cart15.jpg"
+      ],
+      "caption": "Imagini delle tre Gratie Dee della bellezza, & gratia; Dee ancora della gratitudine, & del beneficio, nominate Eufrosina o giocondità, Aglaia ò venustà, Thalia ò piaceuolezza; Dee della conuersatione, sociabilità, & amicitia, & di quella allegra vita, che gli huomini desiderano ai viuere.",
+      "text_ru": [
+        "Три Грации — богини красоты и обаяния, а также благодарности и благодеяния: Евфросина (радость), Аглая (прелесть) и Талия (приятность) — богини общения, дружбы и той весёлой жизни, которой люди жаждут."
+      ],
+      "text_en": [
+        "The three Graces — goddesses of beauty and charm, and also of gratitude and kindness: Euphrosyne (joy), Aglaia (splendour) and Thalia (good cheer) — goddesses of company, friendship, and the cheerful life people long for."
+      ]
+    },
+    {
+      "id": "carti1",
+      "num": "1",
+      "page": "1",
+      "fr": "Homoyoca",
+      "ru": "Омойока",
+      "en": "Homoyoca",
+      "img": [
+        "carti1.jpg"
+      ],
+      "group": "Мексика",
+      "group_en": "Mexico",
+      "text_ru": [
+        "«Их Юпитер»: Пиньория приводит портрет Омойоки, верховного бога мексиканцев, скопированный с местного кодекса — в пышном уборе, с двумя маленькими фигурами-спутниками в медальонах по сторонам."
+      ],
+      "text_en": [
+        "“Their Jove”: Pignoria reproduces the portrait of Homoyoca, supreme god of the Mexicans, copied from a native codex — richly feathered, with two small attendant figures in roundels at either side."
+      ]
+    },
+    {
+      "id": "carti2",
+      "num": "2",
+      "page": "2",
+      "fr": "Мексиканский идол с дарителями",
+      "ru": "Мексиканский идол с дарителями",
+      "en": "Mexican idol receiving offerings",
+      "img": [
+        "carti2.jpg"
+      ],
+      "group": "Мексика",
+      "group_en": "Mexico",
+      "text_ru": [
+        "Фигура божества в уборе из перьев принимает подношение от двух коленопреклонённых жрецов — сцена жертвоприношения, воспроизведённая Пиньорией из того же мексиканского источника."
+      ],
+      "text_en": [
+        "A feather-crowned deity receives an offering from two kneeling priests — a sacrificial scene Pignoria copied from the same Mexican source."
+      ]
+    },
+    {
+      "id": "carti3",
+      "num": "3",
+      "page": "3",
+      "fr": "Миктлантекутли и подземные боги",
+      "ru": "Миктлантекутли и подземные боги",
+      "en": "Mictlantecuhtli and the underworld gods",
+      "img": [
+        "carti3.jpg"
+      ],
+      "group": "Мексика",
+      "group_en": "Mexico",
+      "text_ru": [
+        "Текст на соседней странице называет целый сонм мексиканских владык преисподней: Микитлантекатле (Миктлантекутли), «Люцифер» Тцицимитль, хромой Испустеке, сеятель пепла Нестепеуа, низвергнутый с небес Контемоке — каждому из них полагалась своя супруга из числа Парк или Фурий. Гравюра показывает двух из этих демонов лицом к лицу."
+      ],
+      "text_en": [
+        "The facing page names a whole company of Mexican lords of the dead: Miquitlantecatle (Mictlantecuhtli), the “Lucifer” Tzitzimitl, lame Izpuzteque, ash-scatterer Nextepehua, sky-flung Contemoque — each given a wife drawn from the Fates or Furies. The woodcut shows two of these demons facing one another."
+      ]
+    },
+    {
+      "id": "carti4",
+      "num": "4",
+      "page": "4",
+      "fr": "Вицлипуцли (пара божеств)",
+      "ru": "Вицлипуцли и спутник",
+      "en": "Vitzliputzli and a companion",
+      "img": [
+        "carti4.jpg"
+      ],
+      "group": "Мексика",
+      "group_en": "Mexico",
+      "text_ru": [
+        "Вторая пара противостоящих фигур в том же разделе — Пиньория связывает её с мексиканским богом войны Вицлипуцли (Уицилопочтли)."
+      ],
+      "text_en": [
+        "A second confronting pair in the same section — Pignoria links it to the Mexican war-god Vitzliputzli (Huitzilopochtli)."
+      ]
+    },
+    {
+      "id": "carti5",
+      "num": "5",
+      "page": "5",
+      "fr": "Крылатый дух",
+      "ru": "Крылатый дух",
+      "en": "A winged spirit",
+      "img": [
+        "carti5.jpg"
+      ],
+      "group": "Мексика",
+      "group_en": "Mexico",
+      "text_ru": [
+        "Одинокая летящая фигура с полумесяцем и звездой — ещё один дух из того же мексиканского свода, без отдельного имени в тексте."
+      ],
+      "text_en": [
+        "A solitary flying figure beneath a crescent moon and star — another spirit from the same Mexican compendium, left unnamed in the text."
+      ]
+    },
+    {
+      "id": "carti6",
+      "num": "6",
+      "page": "6",
+      "fr": "Quetzalcoatl",
+      "ru": "Кецалькоатль",
+      "en": "Quetzalcoatl",
+      "img": [
+        "carti6.jpg"
+      ],
+      "group": "Мексика",
+      "group_en": "Mexico",
+      "text_ru": [
+        "Пиньория подробно разбирает убор этого идола: шапка в форме митры, жезл-авгурский посох, рог изобилия у ног и — самое для него примечательное — знак креста, повторённый трижды на одеянии и теле; отсюда его рассуждение о «крестах» в доколумбовой Америке."
+      ],
+      "text_en": [
+        "Pignoria examines this idol's attire point by point: a mitre-shaped cap, an augur's staff, a cornucopia at its feet, and — most striking to him — a cross-mark repeated three times on robe and body, prompting his excursus on “crosses” in pre-Columbian America."
+      ]
+    },
+    {
+      "id": "carti7",
+      "num": "7",
+      "page": "7",
+      "fr": "Египетско-японские составные божества",
+      "ru": "«Египетские» божества-кентавры (вступление к Японии)",
+      "en": "“Egyptian” composite gods (introducing Japan)",
+      "img": [
+        "carti7.jpg"
+      ],
+      "group": "Япония",
+      "group_en": "Japan",
+      "caption": "Et queste compositioni d'huomo, & di bestia non sono d'altra religione, che di quella d'Egitto... Nel Giapone (o pure vogliamo Giapan) non erano difformità minori.",
+      "text_ru": [
+        "Составные фигуры человека и слонопободного зверя Пиньория сравнивает с египетскими; этим он открывает раздел о Японии, упоминая храм близ Мияко (Киото) с тысячей изваяний Каннон."
+      ],
+      "text_en": [
+        "Pignoria compares these human-and-elephant-headed composites to Egyptian imagery, using them to open his section on Japan — he goes on to mention a temple near Miyako (Kyoto) holding a thousand images of Kannon."
+      ]
+    },
+    {
+      "id": "carti8",
+      "num": "8",
+      "page": "8",
+      "fr": "Каннон (сын Амиды)",
+      "ru": "Каннон, сын Амиды",
+      "en": "Kannon, son of Amida",
+      "img": [
+        "carti8.jpg"
+      ],
+      "group": "Япония",
+      "group_en": "Japan",
+      "caption": "Et queste due figure quanto s'accostino à pensieri delli Egittij non è necessario il prouarlo... vna statua di Xaca fatta di metallo tolta in mezo da' figlioli, l'vno chiamato Canone, l'altro Xixi.",
+      "text_ru": [
+        "Многоглавая и многорукая фигура — отражение знаменитых статуй Амиды (будды Амитабхи) в Киото с двумя спутниками: Каноне (Каннон) и Шиши (Сейши)."
+      ],
+      "text_en": [
+        "A many-headed, many-armed figure reflecting the famous Kyoto statues of Amida (Amitabha), flanked by two companions: Canone (Kannon) and Xixi (Seishi)."
+      ]
+    },
+    {
+      "id": "carti9",
+      "num": "9",
+      "page": "9",
+      "fr": "Бог-ящерица, покровитель учёности",
+      "ru": "Бог-ящерица, покровитель учёности",
+      "en": "The lizard-god of learning",
+      "img": [
+        "carti9.jpg"
+      ],
+      "group": "Япония",
+      "group_en": "Japan",
+      "caption": "Et perche ancora di là il Demonio haueua introdotte Academie, & Studenti, in vn Tempio fabricato ad effetto di approuare & gradire quelli che lo meritauano, si vedeua la figura del Dio delle lettere, & de Erudittione... fatta in giro di là in forma rotonda, come gl'Egittij rappresentauano per il Serpente l'anno.",
+      "text_ru": [
+        "Фигура бога словесности и учёности в виде ящерицы (ramarro), окружающей себя кольцом — как египтяне изображали год змеёй, кусающей свой хвост."
+      ],
+      "text_en": [
+        "A god of letters and learning shown as a lizard coiled into a ring — just as the Egyptians represented the year as a snake biting its own tail."
+      ]
+    },
+    {
+      "id": "carti10",
+      "num": "10",
+      "page": "10",
+      "fr": "Японская пагода",
+      "ru": "Японская пагода",
+      "en": "A Japanese pagoda",
+      "img": [
+        "carti10.jpg"
+      ],
+      "group": "Япония",
+      "group_en": "Japan",
+      "caption": "Il già nominato Filippo Vinghomio in certo suo foglio disegnò già i Tempij d'alcune Deità Giaponesi, situati sopra alti rupi.",
+      "text_ru": [
+        "Многоярусная храмовая постройка на скале — зарисовка Филиппо Вингхомио, воспроизведённая Пиньорией как образец японской храмовой архитектуры."
+      ],
+      "text_en": [
+        "A tiered temple building on a cliff — a drawing by Filippo Vinghomio, reproduced by Pignoria as an example of Japanese temple architecture."
+      ]
+    },
+    {
+      "id": "carti11",
+      "num": "11",
+      "page": "11",
+      "fr": "Японский замок-храм",
+      "ru": "Японский замок-храм",
+      "en": "A Japanese castle-temple",
+      "img": [
+        "carti11.jpg"
+      ],
+      "group": "Япония",
+      "group_en": "Japan",
+      "caption": "...gl'Ambasciatori Giaponesi portarono à donare a Papa Gregorio XIII.",
+      "text_ru": [
+        "Ещё одно японское здание — по словам Пиньории, рисунок был среди даров японского посольства Папе Григорию XIII (легендарное посольство Тэнсё, 1585 год)."
+      ],
+      "text_en": [
+        "Another Japanese building — Pignoria notes the drawing was among the gifts brought by a Japanese embassy to Pope Gregory XIII (the celebrated Tenshō embassy of 1585)."
+      ]
+    },
+    {
+      "id": "carti12",
+      "num": "12",
+      "page": "12",
+      "fr": "Великий японский идол",
+      "ru": "Великий японский идол",
+      "en": "The great Japanese idol",
+      "img": [
+        "carti12.jpg"
+      ],
+      "group": "Япония",
+      "group_en": "Japan",
+      "caption": "...compita imagine del grande Idolo Giaponese cauato dall'Originale, che in Roma si conserua appresso i Padri del Giesù... il nome è Maloco ouero Malocho, del quale io non mi ricordo hauer letto cosa alcuna.",
+      "text_ru": [
+        "Статуя под храмовым навесом, скопированная с подлинника, который хранился у римских иезуитов; Пиньория приводит услышанное им имя «Малоко», честно признаваясь, что нигде о нём не читал."
+      ],
+      "text_en": [
+        "An enthroned statue copied from an original kept by the Jesuit fathers in Rome; Pignoria gives the name he was told, “Maloco,” while candidly admitting he has never read anything about it elsewhere."
+      ]
+    },
+    {
+      "id": "carti13",
+      "num": "13",
+      "page": "13",
+      "fr": "Идол, схожий с христианскими образами",
+      "ru": "Идол, «заимствующий» у христианских образов",
+      "en": "An idol that “borrows” from Christian images",
+      "img": [
+        "carti13.jpg"
+      ],
+      "group": "Япония",
+      "group_en": "Japan",
+      "caption": "Di questo Idolo io non saprei che mi dire, se non che pare, che'l Demonio si sia seruito della maniera delle imagini nostre per imprimere ne gl'animi della Gentilità di quei paesi il timor ingenito.",
+      "text_ru": [
+        "Первый из «четырёх идольчиков», попавших в руки кардинала Джироламо Алеандро: фигура в сияющем ореоле на пьедестале. Пиньория замечает — не без удивления, — что дьявол будто перенял саму манеру христианских образов, чтобы внушать местным жителям благоговение."
+      ],
+      "text_en": [
+        "The first of “four little idols” that came into Cardinal Girolamo Aleandro's hands: a figure in a radiant halo on a pedestal. Pignoria remarks, not without unease, that the Devil seems to have borrowed the very manner of Christian images to instil awe in the local people."
+      ]
+    },
+    {
+      "id": "carti14",
+      "num": "14",
+      "page": "14",
+      "fr": "Второй идольчик Алеандро",
+      "ru": "Второй идольчик из собрания Алеандро",
+      "en": "The second Aleandro idol",
+      "img": [
+        "carti14.jpg"
+      ],
+      "group": "Япония",
+      "group_en": "Japan",
+      "caption": "Le circonstanze loro ce le dirà chi le mandò.",
+      "text_ru": [
+        "Второй из четырёх японских идольчиков: стоящая фигура с нимбом, держащая округлый предмет. О его происхождении Пиньория обещает рассказать со слов приславшего их человека."
+      ],
+      "text_en": [
+        "The second of the four Japanese idols: a haloed standing figure holding a round object. Pignoria promises to relate its circumstances as told by whoever sent them."
+      ]
+    },
+    {
+      "id": "carti15",
+      "num": "15",
+      "page": "15",
+      "fr": "Воинственный дух (третий идольчик)",
+      "ru": "Воинственный дух (третий идольчик)",
+      "en": "A warlike spirit (the third idol)",
+      "img": [
+        "carti15.jpg"
+      ],
+      "group": "Япония",
+      "group_en": "Japan",
+      "caption": "HA la carnaggione di colore rossissimo dipinto di Cinaprio, cioè il volto, il collo, e le mani...",
+      "text_ru": [
+        "Третий идольчик — крылатая фигура в доспехе, попирающая поверженного; кожа выкрашена ярко-красной киноварью, одежды зелёные и золочёные."
+      ],
+      "text_en": [
+        "The third idol: a winged, armoured figure trampling a fallen foe; its flesh painted bright cinnabar-red, its garments green and gilt."
+      ]
+    },
+    {
+      "id": "carti16",
+      "num": "16",
+      "page": "16",
+      "fr": "Пара фигур (четвёртый идольчик)",
+      "ru": "Пара фигур (четвёртый идольчик)",
+      "en": "A pair of figures (the fourth idol)",
+      "img": [
+        "carti16.jpg"
+      ],
+      "group": "Япония",
+      "group_en": "Japan",
+      "text_ru": [
+        "Последняя пара из набора Алеандро: фигура с посохом и сидящая на постаменте фигура в богатом одеянии."
+      ],
+      "text_en": [
+        "The last pair from the Aleandro set: a figure with a staff and a richly robed figure seated on a pedestal."
+      ]
+    },
+    {
+      "id": "carti17",
+      "num": "17",
+      "page": "17",
+      "fr": "Плачущий идол",
+      "ru": "Плачущий идол",
+      "en": "The weeping idol",
+      "img": [
+        "carti17.jpg"
+      ],
+      "group": "Япония",
+      "group_en": "Japan",
+      "caption": "Simile al primo, se non che ha più tosto il volto piangente...",
+      "text_ru": [
+        "«Похож на первого, только лицо у него скорее плачущее» — ещё одна фигура из той же японской серии, с широкими рукавами и непривычно уложенными волосами."
+      ],
+      "text_en": [
+        "“Like the first, except its face is rather weeping” — another figure from the same Japanese series, with wide sleeves and unusually dressed hair."
+      ]
+    },
+    {
+      "id": "carti18",
+      "num": "18",
+      "page": "18",
+      "fr": "Синекожая пара",
+      "ru": "Синекожая пара божеств",
+      "en": "A pair of blue-skinned deities",
+      "img": [
+        "carti18.jpg"
+      ],
+      "group": "Япония",
+      "group_en": "Japan",
+      "caption": "Vesta la carnaggione è di color azzurro, i capelli e le sopracciglie d'oro...",
+      "text_ru": [
+        "Две сидящие фигуры с синей кожей и золотыми волосами и бровями — цветовые детали Пиньория фиксирует так же тщательно, как иконографию."
+      ],
+      "text_en": [
+        "Two seated figures with blue skin and gold hair and eyebrows — Pignoria records the colouring as carefully as the iconography."
+      ]
+    },
+    {
+      "id": "carti19",
+      "num": "19",
+      "page": "19",
+      "fr": "Шестирукое божество",
+      "ru": "Шестирукое божество с луком",
+      "en": "A six-armed deity with a bow",
+      "img": [
+        "carti19.jpg"
+      ],
+      "group": "Япония",
+      "group_en": "Japan",
+      "caption": "Vesta la carnaggione è rossissima dipinta di cenaprio, ha sei braccia e sei mani, nelle quali gl'istromenti, che tiene, sono di rame dorato.",
+      "text_ru": [
+        "Шестирукая фигура с луком и стрелами в овальном медальоне на вазе, тело выкрашено киноварью, инструменты в руках — из позолоченной меди."
+      ],
+      "text_en": [
+        "A six-armed figure with bow and arrows set in an oval frame on a vase, its flesh painted cinnabar-red, its hand-held instruments of gilt copper."
+      ]
+    },
+    {
+      "id": "carti20",
+      "num": "20",
+      "page": "20",
+      "fr": "Беловатый идол",
+      "ru": "Белёсый идол с нимбом",
+      "en": "A pale haloed idol",
+      "img": [
+        "carti20.jpg"
+      ],
+      "group": "Япония",
+      "group_en": "Japan",
+      "caption": "Di statura nana, di colore azurro il volto, e le mani; la berretta nera...",
+      "text_ru": [
+        "Карликовая фигура под нимбом: лицо и руки синеватые, шапочка чёрная, одежда зелёная с золотом."
+      ],
+      "text_en": [
+        "A dwarfish haloed figure: face and hands bluish, cap black, robe green and gold."
+      ]
+    },
+    {
+      "id": "carti21",
+      "num": "21",
+      "page": "21",
+      "fr": "Святоподобная фигура",
+      "ru": "Святоподобная фигура с нимбом",
+      "en": "A saint-like haloed figure",
+      "img": [
+        "carti21.jpg"
+      ],
+      "group": "Япония",
+      "group_en": "Japan",
+      "caption": "A carnaggione è bianchissima, e in luogo de capelli ha solamente vna leggierissima tintura di verde rame.",
+      "text_ru": [
+        "Фигура в облачении, почти неотличимом от христианского святого: кожа белая как мел, волосы едва тронуты зеленью меди."
+      ],
+      "text_en": [
+        "A robed figure all but indistinguishable from a Christian saint: chalk-white skin, hair barely tinted by a wash of verdigris."
+      ]
+    },
+    {
+      "id": "carti22",
+      "num": "22",
+      "page": "22",
+      "fr": "Богиня с младенцем",
+      "ru": "Богиня с младенцем на руках",
+      "en": "A goddess holding a child",
+      "img": [
+        "carti22.jpg"
+      ],
+      "group": "Япония",
+      "group_en": "Japan",
+      "caption": "Questo ancora ha la carne bianchissima come gesso, e del medesmo colore è il bambino, che tiene in braccio.",
+      "text_ru": [
+        "Фигура в сияющем круглом нимбе держит на руках младенца — композиция, которую невозможно не сопоставить с образом Мадонны; кожа у обоих белая, как гипс."
+      ],
+      "text_en": [
+        "A figure in a radiant round halo holds a child in her arms — a composition impossible not to compare with the Madonna; both figures' flesh is white as plaster."
+      ]
+    },
+    {
+      "id": "carti23",
+      "num": "23",
+      "page": "23",
+      "fr": "Синий идол с пламенем",
+      "ru": "Синекожий идол в пламенном нимбе",
+      "en": "A blue-skinned idol in a flaming halo",
+      "img": [
+        "carti23.jpg"
+      ],
+      "group": "Япония",
+      "group_en": "Japan",
+      "caption": "La carnaggione è di colore azurro, l'armatura è d'oro con varij lauori di smalto nero.",
+      "text_ru": [
+        "Фигура с синей кожей и золочёнными доспехами в чёрной эмали, в пламенном нимбе — помечена в оригинале буквой «B» как часть нумерованной серии."
+      ],
+      "text_en": [
+        "A blue-skinned figure in gilt armour with black enamel work, set in a flaming halo — marked “B” in the original as part of a lettered series."
+      ]
+    },
+    {
+      "id": "carti24",
+      "num": "24",
+      "page": "24",
+      "fr": "Красный идол на звере",
+      "ru": "Красный идол, сидящий на звере",
+      "en": "A red idol seated on a beast",
+      "img": [
+        "carti24.jpg"
+      ],
+      "group": "Япония",
+      "group_en": "Japan",
+      "caption": "Assai simile al prossimamente descritto, se non ha il colore ordinario della carne tanto esso, quanto il mostro, che tiene sotto i piedi...",
+      "text_ru": [
+        "Фигура в пламенном нимбе восседает на звере вроде льва-фо; кожа и чудовище под ногами выкрашены красным, одежда синяя с золотой подкладкой."
+      ],
+      "text_en": [
+        "A figure in a flaming halo seated on a lion-dog beast; the figure and the creature beneath its feet both painted red, its robe blue lined with gold."
+      ]
+    },
+    {
+      "id": "carti25",
+      "num": "25",
+      "page": "25",
+      "fr": "Воин на облаке",
+      "ru": "Воин на облаке с пламенным нимбом",
+      "en": "A warrior on a cloud, flame-haloed",
+      "img": [
+        "carti25.jpg"
+      ],
+      "group": "Япония",
+      "group_en": "Japan",
+      "text_ru": [
+        "Фигура в доспехе и пламенном нимбе, стоящая на облачном основании, попирающая поверженную фигуру — вариация на тему воинственных духов этой серии."
+      ],
+      "text_en": [
+        "An armoured, flame-haloed figure standing on a cloud base, trampling a fallen figure — a variation on the warlike spirits of this series."
+      ]
+    },
+    {
+      "id": "carti26",
+      "num": "26",
+      "page": "26",
+      "fr": "Крылатый дух на поверженном теле",
+      "ru": "Крылатый дух, попирающий поверженного",
+      "en": "A winged spirit trampling a fallen foe",
+      "img": [
+        "carti26.jpg"
+      ],
+      "group": "Япония",
+      "group_en": "Japan",
+      "text_ru": [
+        "Ещё одна крылатая фигура с нимбом, стоящая над поверженным телом, — последняя из крупных «идольчиков» в этом разделе."
+      ],
+      "text_en": [
+        "Another winged, haloed figure standing over a fallen body — the last of the larger “little idols” in this section."
+      ]
+    },
+    {
+      "id": "carti27",
+      "num": "27",
+      "page": "27",
+      "fr": "Маленький идол на вазе",
+      "ru": "Маленький идол на вазе (1)",
+      "en": "A small idol on a vase (1)",
+      "img": [
+        "carti27.jpg"
+      ],
+      "group": "Япония",
+      "group_en": "Japan",
+      "caption": "La carnaggione è bianchissima, e in luogo di capelli ha solamente vna leggierissima tintura di verde rame. La vestimenta sono in tutto simili à quelle del 4.",
+      "text_ru": [
+        "Небольшая обнажённая фигура, стоящая на богато орнаментированной вазе, — первая из четырёх завершающих книгу статуэток."
+      ],
+      "text_en": [
+        "A small nude figure standing on an elaborately ornamented vase — the first of four statuettes that close the book."
+      ]
+    },
+    {
+      "id": "carti28",
+      "num": "28",
+      "page": "28",
+      "fr": "Маленький идол на вазе (2)",
+      "ru": "Маленький идол на вазе (2)",
+      "en": "A small idol on a vase (2)",
+      "img": [
+        "carti28.jpg"
+      ],
+      "group": "Япония",
+      "group_en": "Japan",
+      "caption": "Questo ancora ha la carne bianchissima come gesso, e del medesmo colore è il bambino, che tiene in braccio.",
+      "text_ru": [
+        "Вторая статуэтка того же набора — также на вазе, в похожей позе."
+      ],
+      "text_en": [
+        "The second statuette of the same set — again on a vase, in a similar pose."
+      ]
+    },
+    {
+      "id": "carti29",
+      "num": "29",
+      "page": "29",
+      "fr": "Маленький идол на вазе (3)",
+      "ru": "Маленький идол на вазе (3)",
+      "en": "A small idol on a vase (3)",
+      "img": [
+        "carti29.jpg"
+      ],
+      "group": "Япония",
+      "group_en": "Japan",
+      "text_ru": [
+        "Третья статуэтка в наборе, увенчанная подобием короны."
+      ],
+      "text_en": [
+        "The third statuette in the set, crowned with a coronet-like ornament."
+      ]
+    },
+    {
+      "id": "carti30",
+      "num": "30",
+      "page": "30",
+      "fr": "Маленький идол на вазе (4)",
+      "ru": "Маленький идол на вазе (4) — «IL FINE»",
+      "en": "A small idol on a vase (4) — “IL FINE”",
+      "img": [
+        "carti30.jpg"
+      ],
+      "group": "Япония",
+      "group_en": "Japan",
+      "caption": "IL FINE.",
+      "text_ru": [
+        "Последняя статуэтка набора, показанная со спины, — и последняя гравюра книги: под ней стоит «IL FINE», конец."
+      ],
+      "text_en": [
+        "The last statuette of the set, shown from behind — and the book's final plate: beneath it stands “IL FINE,” the end."
+      ]
+    }
+  ]
+}
