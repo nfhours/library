@@ -1,0 +1,18 @@
+{
+  "slug": "audran",
+  "title": {
+    "ru": "Пропорции человеческого тела",
+    "en": "The Proportions of the Human Body",
+    "original": "Les Proportions du corps humain"
+  },
+  "subtitle": {
+    "ru": "Жерар Одран, Париж, 1683 — классический справочник пропорций: 30 гравированных табличек с обмерами знаменитых античных статуй (Лаокоон, Геркулес Фарнезский, Венера Медичи, Аполлон Бельведерский и другие). Текста почти нет — вся ценность в самих гравюрах с нанесёнными линиями измерений: практический материал для рисующего фигуру художника. Источник: Internet Archive / Getty Research Institute.",
+    "en": "Gérard Audran, Paris, 1683 — a classic reference on proportion: 30 engraved plates measuring famous antique statues (the Laocoön, the Farnese Hercules, the Venus de' Medici, the Apollo Belvedere and others). The book carries almost no text; its value is in the engravings themselves, with measurement lines overlaid — practical material for an artist drawing the figure. Source: Internet Archive / Getty Research Institute."
+  },
+  "author": "Gérard Audran",
+  "year": 1683,
+  "place": "Paris",
+  "idPrefix": "aud",
+  "viewer": "figure",
+  "showOriginal": false
+}
