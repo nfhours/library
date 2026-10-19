@@ -2,6 +2,7 @@
   "books": [
     { "slug": "iconologie", "path": "books/iconologie/" },
     { "slug": "alciato", "path": "books/alciato/" },
+    { "slug": "cartari", "path": "books/cartari/" },
     { "slug": "audran", "path": "books/audran/" },
     { "slug": "grosson", "path": "books/grosson/" }
   ]
