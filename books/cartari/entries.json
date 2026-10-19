@@ -2600,6 +2600,94 @@
       "text_fr": [
         "« Image de l'Aurore, et du Cheval Pégase tirant son char, dénotant que cette heure est la plus propice, et la plus profitable pour l'étude, ainsi que la gloire qui en résulte pour l'homme vertueux dont il est question. »"
       ]
+    },
+    {
+      "id": "cartm10",
+      "num": "10",
+      "page": "10",
+      "fr": "Hecate, dea triforme",
+      "ru": "Геката, трёхликая богиня",
+      "en": "Hecate, the three-formed goddess",
+      "name_fr": "Hécate, la déesse à trois formes",
+      "img": [
+        "cartm10.jpg"
+      ],
+      "caption": "Imagine di Hecate dea triforme detta anco Proserpina moglie di Plutone reina dell'Inferno significante li tre aspetti della Luna, & la potenza lunare nelle cose elementari.",
+      "text_ru": [
+        "«Образ Гекаты, трёхликой богини, называемой также Прозерпиной, супругой Плутона, царицей Преисподней, означающей три облика Луны и лунную силу в вещах стихийных»."
+      ],
+      "text_en": [
+        "“Image of Hecate, the three-formed goddess, also called Proserpina, wife of Pluto, queen of the Underworld, signifying the three aspects of the Moon, and the lunar power in elemental things.”"
+      ],
+      "text_fr": [
+        "« Image d'Hécate, déesse à trois formes, appelée aussi Proserpine, épouse de Pluton, reine des Enfers, signifiant les trois aspects de la Lune, et la puissance lunaire dans les choses élémentaires. »"
+      ]
+    },
+    {
+      "id": "cartm11",
+      "num": "11",
+      "page": "11",
+      "fr": "La Dea Natura",
+      "ru": "Богиня Природа",
+      "en": "The Goddess Nature",
+      "name_fr": "La Déesse Nature",
+      "img": [
+        "cartm11.jpg"
+      ],
+      "caption": "Imagine della Dea Natura tutta piena di poppe, per mostrare, che l'vniuersa piglia nutrimento dalla virtù occulta della medesima.",
+      "text_ru": [
+        "«Образ богини Природы, вся покрытая грудями, дабы показать, что вся вселенная получает питание от её сокрытой силы»."
+      ],
+      "text_en": [
+        "“Image of the Goddess Nature, all covered with breasts, to show that the whole universe takes nourishment from her hidden power.”"
+      ],
+      "text_fr": [
+        "« Image de la Déesse Nature, toute couverte de mamelles, pour montrer que l'univers tout entier tire sa nourriture de sa vertu cachée. »"
+      ]
+    },
+    {
+      "id": "cartm12",
+      "num": "12",
+      "page": "12",
+      "fr": "Iside, dea egizia della Luna (naviganti)",
+      "ru": "Изида, египетская богиня Луны (покровительница мореходов)",
+      "en": "Isis, Egyptian goddess of the Moon (sailors)",
+      "name_fr": "Isis, déesse égyptienne de la Lune (navigateurs)",
+      "img": [
+        "cartm12.jpg"
+      ],
+      "caption": "Imagine d'Iside Dea Egittia, che è la Luna tenuta la Dea de Nauiganti, & fu trasformata in vacca dà Gioue essendo stuprata, & ritornata nella sua propria forma fuggì per mare in Egitto, & quiui fu da quelli popoli adorata per benefitij ricenuti.",
+      "text_ru": [
+        "«Образ Изиды, египетской богини, которая есть Луна, почитаемая богиней мореплавателей; она была превращена Юпитером в корову после того, как была обесчещена, а возвратясь в собственный облик, бежала морем в Египет, где этими народами была почитаема за полученные благодеяния»."
+      ],
+      "text_en": [
+        "“Image of Isis, Egyptian goddess, who is the Moon, held to be the goddess of sailors; she was transformed by Jove into a cow after being ravished, and, returning to her own form, fled by sea to Egypt, where she was worshipped by those peoples for benefits received.”"
+      ],
+      "text_fr": [
+        "« Image d'Isis, déesse égyptienne, qui est la Lune, tenue pour la déesse des navigateurs ; elle fut transformée par Jupiter en vache après avoir été violée, et, reprenant sa propre forme, s'enfuit par mer en Égypte, où elle fut adorée par ces peuples pour les bienfaits reçus. »"
+      ]
+    },
+    {
+      "id": "cartm13",
+      "num": "13",
+      "page": "13",
+      "fr": "Iside, dea del Nilo",
+      "ru": "Изида, богиня Нила",
+      "en": "Isis, goddess of the Nile",
+      "name_fr": "Isis, déesse du Nil",
+      "img": [
+        "cartm13.jpg"
+      ],
+      "caption": "Imagine d'Iside dea de gli Egitij, che è la Luna, con arnesi in mano denotanti la natura del Nilo & dell'Egitto, gl'Ecclissi lunari, & altri effetti suoi nelle acque, come nelle cose elementari.",
+      "text_ru": [
+        "«Образ Изиды, богини египтян, которая есть Луна, с предметами в руках, означающими природу Нила и Египта, лунные затмения и прочие её действия в водах, как и в вещах стихийных»."
+      ],
+      "text_en": [
+        "“Image of Isis, goddess of the Egyptians, who is the Moon, with implements in hand denoting the nature of the Nile and of Egypt, lunar Eclipses, and her other effects in the waters, as in elemental things.”"
+      ],
+      "text_fr": [
+        "« Image d'Isis, déesse des Égyptiens, qui est la Lune, tenant en main des instruments dénotant la nature du Nil et de l'Égypte, les Éclipses lunaires, et ses autres effets dans les eaux, comme dans les choses élémentaires. »"
+      ]
     }
   ]
 }
