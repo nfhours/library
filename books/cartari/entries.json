@@ -1431,20 +1431,22 @@
       "img": [
         "carta2.jpg"
       ],
-      "caption": "La figura d'Esculapio notabilmente si significa... dalla Medaglia di M. Antonino Caracalla Imperatore.",
+      "caption": "La figura d'Esculapio, che si vede picciola in vn Cameo è tratta dalla Medaglia di M. Antonino Caracalla Imperatore, & è simile ad vna statoa anticha, che io viddi in Roma ott'anni sono, in casa de SS. Massimi, alla Valle. Ma bisogna auuertire, che l'Intagliatore in questa nostra, non intendendo la chioma d'Esculapio l'ha fatto vn Giano.",
       "text_ru": [
-        "«Фигура Эскулапия примечательно отличается... с медали императора Марка Антонина Каракаллы»."
+        "«Фигура Эскулапия, которая видна маленькой на камее, взята с медали императора Марка Антонина Каракаллы и схожа с древней статуей, которую я видел в Риме восемь лет назад, в доме господ Массими, у Валле. Но следует заметить, что резчик в нашем [изображении], не поняв причёску Эскулапия, изобразил вместо неё Януса»."
       ],
       "text_en": [
-        "“The figure of Aesculapius is notably distinguished... from the medal of the Emperor Marcus Antoninus Caracalla.”"
+        "“The figure of Aesculapius, seen small on a Cameo, is taken from the Medal of the Emperor M. Antoninus Caracalla, and is similar to an ancient statue that I saw in Rome eight years ago, in the house of the Massimi family, at the Valle. But it should be noted that the engraver in this one of ours, not understanding Aesculapius's hair, made it into a Janus.”"
       ],
       "name_fr": "Esculape",
       "text_fr": [
-        "« La figure d'Esculape se distingue notablement... de la médaille de l'empereur Marc Antonin Caracalla. »"
+        "« La figure d'Esculape, qu'on voit en petit sur un Camée, est tirée de la Médaille de l'empereur M. Antonin Caracalla, et ressemble à une statue antique que j'ai vue à Rome il y a huit ans, dans la maison des Massimi, à la Valle. Mais il faut noter que le graveur, dans celle-ci, n'ayant pas compris la chevelure d'Esculape, en a fait un Janus. »"
       ],
       "scans": [
         "carta2.jpg"
-      ]
+      ],
+      "needsReview": true,
+      "reviewNote": "Caption text now fully transcribed and confirmed correct (found at page466, a footnotes page with no image of its own). The IMAGE currently shown (Marsyas/Apollo scene, page467) does not match this caption at all — it belongs to a different, unidentified entry. Real image for this specific small Aesculapius-in-cameo has not been located; may not have been separately engraved in this edition."
     },
     {
       "id": "carta3",
