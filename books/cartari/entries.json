@@ -2,8 +2,226 @@
   "title": "Imagini de gli Dei degli Antichi",
   "items": [
     {
-      "id": "cartm_intro1",
+      "id": "cartm_title",
       "num": "1",
+      "page": "6",
+      "fr": "Frontespizio: Seconda Nouissima Editione delle Imagini de gli Dei delli Antichi di Vicenzo Cartari Reggiano",
+      "ru": "Титульный лист: «Второе, новейшее издание „Образов богов древних“ Винченцо Картари из Реджо»",
+      "en": "Title page: \"Second, Newest Edition of the Images of the Gods of the Ancients\" by Vincenzo Cartari of Reggio",
+      "img": [
+        "cartm_title.jpg"
+      ],
+      "scans": [
+        "cartm_title.jpg"
+      ],
+      "group": "Фронтиспис и предисловие издания",
+      "group_en": "Front matter of the edition",
+      "textOnly": true,
+      "name_fr": "Page de titre : « Seconde édition, toute nouvelle, des Images des Dieux des Anciens » de Vincenzo Cartari de Reggio",
+      "caption": "SECONDA NOVISSIMA EDITIONE DELLE IMAGINI DE GLI DEI DELLI ANTICHI DI VICENZO CARTARI REGGIANO. Ridotte da capo a piedi alle loro reali, & non più per l'adietro osseruate simiglianze. Cauate da' Marmi, Bronzi, Medaglie, Gioie, & altre memorie antiche; con esquisito studio, & particolare diligenza DA LORENZO PIGNORIA PADOVANO. Aggionteui le Annotationi del medesimo sopra tutta l'opera, & vn Discorso intorno le Deità dell'Indie Orientali, & Occidentali, con le loro Figure tratte da gl'originali, che si conseruano nelle Gallerie de' Principi, & ne' Musei delle persone priuate. Con le Allegorie sopra le Imagini di CESARE MALFATTI Padouano, migliorate, & accresciute nouamente. Et vn Catalogo di cento più famosi Dei della gentilità. Con l'aggiunta d'vn'altro Catalogo de gl'Autori Antichi, & Moderni, che hanno trattato questa materia, ordinato & raccolto dal medesimo Pignoria, che ha accresciute le Annotationi, & aggiunte molte Imagini. IN PADOVA. Nella Stamparia di Pietro Paolo Tozzi. M.DC.XXVI.",
+      "text_ru": [
+        "«ВТОРОЕ, НОВЕЙШЕЕ ИЗДАНИЕ ОБРАЗОВ БОГОВ ДРЕВНИХ ВИНЧЕНЦО КАРТАРИ ИЗ РЕДЖО. Полностью приведённые в соответствие с их подлинным видом, а не с прежде наблюдавшимися сходствами. Извлечённые из мраморов, бронз, медалей, драгоценных камней и иных древних памятников; с изысканным тщанием и особым прилежанием ЛОРЕНЦО ПИНЬОРИЕЙ ПАДУАНСКИМ. С добавлением его же Примечаний ко всему сочинению и Рассуждения о божествах Восточной и Западной Индий, с их изображениями, снятыми с подлинников, хранящихся в галереях государей и в музеях частных лиц. С Аллегориями к Образам ЧЕЗАРЕ МАЛЬФАТТО Падуанского, улучшенными и вновь дополненными. И Каталогом ста самых знаменитых богов язычества. С прибавлением ещё одного Каталога древних и новых Авторов, писавших об этом предмете, составленного и собранного тем же Пиньорией, который умножил Примечания и прибавил многие Образы. В ПАДУЕ. В типографии Пьетро Паоло Тоцци. 1626.»"
+      ],
+      "text_en": [
+        "“SECOND, NEWEST EDITION OF THE IMAGES OF THE GODS OF THE ANCIENTS BY VINCENZO CARTARI OF REGGIO. Reduced from head to foot to their true [likenesses], and no longer to the resemblances observed heretofore. Drawn from Marbles, Bronzes, Medals, Gems, and other ancient relics; with exquisite study and particular diligence BY LORENZO PIGNORIA OF PADUA. With the addition of his own Annotations upon the whole work, and a Discourse concerning the Deities of the East and West Indies, with their Figures drawn from the originals preserved in the Galleries of Princes and in the Museums of private persons. With the Allegories upon the Images by CESARE MALFATTO of Padua, improved and newly enlarged. And a Catalogue of the hundred most famous Gods of the gentiles. With the addition of another Catalogue of Ancient and Modern Authors who have treated this subject, ordered and compiled by the same Pignoria, who has enlarged the Annotations and added many Images. AT PADUA. At the Press of Pietro Paolo Tozzi. 1626.”"
+      ],
+      "text_fr": [
+        "« SECONDE ÉDITION, TOUTE NOUVELLE, DES IMAGES DES DIEUX DES ANCIENS DE VINCENZO CARTARI DE REGGIO. Entièrement ramenées, de la tête aux pieds, à leur véritable apparence, et non plus aux ressemblances observées jusqu'ici. Tirées de Marbres, Bronzes, Médailles, Pierres précieuses et autres monuments antiques ; avec une étude exquise et un soin particulier, PAR LORENZO PIGNORIA DE PADOUE. Avec l'addition de ses propres Annotations sur toute l'œuvre, et d'un Discours sur les Divinités des Indes Orientales et Occidentales, avec leurs Figures tirées des originaux conservés dans les Galeries des Princes et dans les Musées des particuliers. Avec les Allégories sur les Images de CESARE MALFATTO de Padoue, améliorées et nouvellement augmentées. Et un Catalogue de cent des plus fameux Dieux de la gentilité. Avec l'ajout d'un autre Catalogue des Auteurs Anciens et Modernes qui ont traité cette matière, ordonné et recueilli par le même Pignoria, qui a augmenté les Annotations et ajouté de nombreuses Images. À PADOUE. À l'imprimerie de Pietro Paolo Tozzi. 1626. »"
+      ]
+    },
+    {
+      "id": "cartm_dedic",
+      "num": "2",
+      "page": "8",
+      "fr": "Dedica dell'editore Pietro Paolo Tozzi al Signor Francesco Drago",
+      "ru": "Посвящение издателя Пьетро Паоло Тоцци синьору Франческо Драго",
+      "en": "Dedication by the publisher Pietro Paolo Tozzi to Signor Francesco Drago",
+      "img": [
+        "cartm_dedic.jpg"
+      ],
+      "scans": [
+        "cartm_dedic.jpg",
+        "cartm_dedic_p9.jpg",
+        "cartm_dedic_p10.jpg"
+      ],
+      "group": "Фронтиспис и предисловие издания",
+      "group_en": "Front matter of the edition",
+      "textOnly": true,
+      "name_fr": "Dédicace de l'éditeur Pietro Paolo Tozzi au seigneur Francesco Drago",
+      "caption": "ALL'ILLVSTRISS. SIG. Et Patron mio Colendissimo IL SIGNOR FRANCESCO DRAGO, Signor di Riofreddo, &c. Saranno sei anni, che hauendo io date in luce le Imagini de gli Dei del Cartari, le honorai col nome di V.S. Illustriss. sì per dar loro nome, come apunto mi riuscì, sì per dare qualche segno al Mondo della mia molta osseruanza verso il nome di chi m'haueua e fauorito, e protetto sempre. Hora hauendo io con spesa notabile, & industria di persona molto intendente in queste cose, ristampate le medesime, & ridottele a forma poco meno, che noua, non ho saputo proueder loro d'altro padrone, e difensore, che del nome di V. Sig. Illustriss. che sò gradirà in quest'opera familiare hoggimai a gl'occhi suoi, l'affetto d'vn'antico Seruidore, che professa tanto quanto egli è, tutto hauere, & riconoscere in gran parte dalla humanità di V.S. Illustriss. Et perche questa noua Editione esce arricchita d'vna seconda parte d'imagini delle Deità delle Indie, ho giudicato bene di donare questa seconda all'amicitia, ch'ella tiene co'l Signor Piero Buarno, acciò che sì come la conformità de' studi, & degl'animi le ha legate insieme, così esteriormente ancora vedano gl'huomini segno di sì nobile, & honorato legame, & qualche vestigio di gratitudine in persona, che si ricorda d'hauere & da V.S. Illustriss. & dal Sig. Buarno riceuuti fauori, che non si possono per la grandezza loro, se non additare da lunghi con la memoria, & co'l desiderio di fare assai, doue'l molto riesce nulla. Faccio riuerenza a V. S. Illustriss. & le desidero dal Signore il compimento d'ogni suo desiderio. Di Padoua il dì 1. Nou. 1614. Di V.S. Illustriss. Seruitore humilissimo Pietro Paolo Tozzi.",
+      "text_ru": [
+        "ЕГО СИЯТЕЛЬНЕЙШЕМУ ГОСПОДИНУ, и Покровителю моему достопочтеннейшему, ГОСПОДИНУ ФРАНЧЕСКО ДРАГО, сеньору Риофреддо и проч.\n\nВот уже шесть лет, как я, издав в свет «Образы богов» Картари, почтил их именем Вашего Сиятельства, — как для того, чтобы дать им имя, что мне как раз и удалось, так и для того, чтобы подать миру некий знак моего великого почтения к имени того, кто меня всегда любил, благоволил мне и покровительствовал. Ныне же, переиздав те же [образы] со значительными издержками и трудами человека, весьма сведущего в этих делах, и приведя их почти к новому виду, я не сумел снабдить их иным покровителем и защитником, кроме имени Вашего Сиятельства, которое, я знаю, благосклонно примет в этом труде, уже ставшем привычным его взору, чувство давнего слуги, который исповедует, что всем, чем он является, он обязан и должен признавать в значительной мере человеколюбию Вашего Сиятельства. И поскольку это новое издание выходит обогащённым второй частью, [содержащей] образы божеств Индий, я рассудил за благо посвятить эту вторую [часть] дружбе, которую Вы поддерживаете с господином Пьеро Буарно, дабы, как сходство занятий и душ связало вас воедино, так и внешне люди увидели бы знак столь благородной и почётной связи, и некий след благодарности в лице того, кто помнит, что получил и от Вашего Сиятельства, и от господина Буарно милости, кои по своему величию нельзя иначе, как издали, отметить памятью и желанием сделать многое, — там, где многое оборачивается ничем. Свидетельствую почтение Вашему Сиятельству и желаю Вам от Господа исполнения всех Ваших желаний.\n\nИз Падуи, дня 1 ноября 1614.\nВашего Сиятельства\nнижайший слуга\nПьетро Паоло Тоцци."
+      ],
+      "text_en": [
+        "TO THE MOST ILLUSTRIOUS LORD, and my most worshipful Patron, THE LORD FRANCESCO DRAGO, Lord of Riofreddo, etc.\n\nIt will be six years since, having brought to light the Images of the Gods of Cartari, I honoured them with the name of Your Most Illustrious Lordship, both to give them a name — in which I indeed succeeded — and to give some token to the World of my great regard for the name of one who had always favoured and protected me. Now, having, at notable expense and with the industry of a person very well versed in these matters, reprinted the same [Images] and reduced them to a form little less than new, I have not known how to provide them with any other patron and defender than the name of Your Most Illustrious Lordship, which I know will kindly receive in this work — familiar by now to your eyes — the affection of an old Servant, who professes that all he is, he owes and acknowledges in great part to the humanity of Your Most Illustrious Lordship. And because this new Edition comes forth enriched with a second part of images of the Deities of the Indies, I have judged it good to give this second [part] to the friendship which you hold with Signor Piero Buarno, so that, just as the conformity of studies and of minds has bound you together, so also outwardly men may see a token of so noble and honoured a bond, and some trace of gratitude in a person who remembers having received favours from both Your Most Illustrious Lordship and from Signor Buarno — favours which, by reason of their greatness, can only be pointed to from afar by memory, and with the desire to do much, where much comes to nothing. I pay my reverence to Your Most Illustrious Lordship, and wish you from the Lord the fulfilment of every desire of yours.\n\nAt Padua, this 1st day of November 1614.\nYour Most Illustrious Lordship's\nmost humble Servant\nPietro Paolo Tozzi."
+      ],
+      "text_fr": [
+        "À L'ILLUSTRISSIME SEIGNEUR, et mon très vénéré Patron, LE SEIGNEUR FRANCESCO DRAGO, Seigneur de Riofreddo, etc.\n\nVoici six ans que, ayant mis au jour les Images des Dieux de Cartari, je les honorai du nom de Votre Seigneurie Illustrissime, tant pour leur donner un nom, ce qui précisément me réussit, que pour donner quelque marque au Monde de mon grand respect envers le nom de celui qui m'avait toujours favorisé et protégé. Or, ayant, à frais notables et avec le soin d'une personne fort entendue en ces matières, fait réimprimer les mêmes [Images] et les ayant réduites à une forme peu s'en faut nouvelle, je n'ai su leur pourvoir d'autre patron et défenseur que le nom de Votre Seigneurie Illustrissime, qui, je le sais, accueillera avec faveur dans cette œuvre, déjà familière à ses yeux, l'affection d'un ancien Serviteur, lequel professe devoir et reconnaître tout ce qu'il est, en grande partie, à l'humanité de Votre Seigneurie Illustrissime. Et parce que cette nouvelle Édition paraît enrichie d'une seconde partie d'images des Divinités des Indes, j'ai jugé bon de donner cette seconde partie à l'amitié que vous entretenez avec le Seigneur Piero Buarno, afin que, de même que la conformité des études et des esprits vous a liés ensemble, ainsi extérieurement aussi les hommes voient le signe d'un lien si noble et si honoré, et quelque trace de gratitude chez une personne qui se souvient d'avoir reçu, tant de Votre Seigneurie Illustrissime que de Monsieur Buarno, des faveurs que leur grandeur même empêche de désigner autrement que de loin par le souvenir, et par le désir de faire beaucoup, là où le beaucoup n'aboutit à rien. Je rends hommage à Votre Seigneurie Illustrissime, et lui souhaite du Seigneur l'accomplissement de tous ses désirs.\n\nDe Padoue, ce 1er jour de novembre 1614.\nDe Votre Seigneurie Illustrissime\nle très humble Serviteur\nPietro Paolo Tozzi."
+      ]
+    },
+    {
+      "id": "cartm_pref",
+      "num": "3",
+      "page": "11",
+      "fr": "Prefatione al Lettore (di Lorenzo Pignoria)",
+      "ru": "Предисловие к читателю (Лоренцо Пиньория)",
+      "en": "Preface to the Reader (by Lorenzo Pignoria)",
+      "img": [
+        "cartm_pref.jpg"
+      ],
+      "scans": [
+        "cartm_pref.jpg",
+        "cartm_pref_p12.jpg",
+        "cartm_pref_p13.jpg",
+        "cartm_pref_p14.jpg",
+        "cartm_pref_p15.jpg"
+      ],
+      "group": "Фронтиспис и предисловие издания",
+      "group_en": "Front matter of the edition",
+      "textOnly": true,
+      "name_fr": "Préface au lecteur (de Lorenzo Pignoria)",
+      "caption": "Prefatione al Lettore. NON così fuora di proposito, come parue à Plutarco, & prima di lui ad Aristotele, disse Anassagora, che l'huomo era prudentissimo, perche solo fra tutti gl'altri animali haueua le mani... [testo completo sulle cinque facciate, cc. 11-15] ...In somma i Galant'homini vederanno la mia fatica; & della amoreuole censura di questi io mi contenterò. A Dio.",
+      "text_ru": [
+        "ПРЕДИСЛОВИЕ К ЧИТАТЕЛЮ.\n\nНе столь уж некстати, как показалось Плутарху, а прежде него Аристотелю, сказал Анаксагор, что человек есть существо разумнейшее, потому что он один из всех прочих животных имеет руки. Ибо этот великий муж думал, так сказать, о той связи, которую руки обычно имеют с умом. И это тем более верно, что Аристотель в одном месте оставил нам написанным, что природа дала человеку два великих орудия: руку — телу, и ум — душе. И как соединённые, они производят действия, достойные похвалы и удивления, так разъединённые невозможно и представить, какую путаницу они производят и какой беспорядок в любом, впрочем, хорошо упорядоченном изобретении. Всё это подтверждалось доныне особенно во многих случаях, но главным образом во многих произведениях ума, нуждающихся в изображениях, которые, по злой их судьбе, оставленные — либо по смерти, либо по иному случаю — собственными Авторами, попадали в руки Живописцев или Рисовальщиков, которые хорошо умели, что такое черта пера или кисти, но были при этом лишены того знания, которого требовало полное совершенство такого труда. Я сам, со своей стороны, знаю, что наблюдал многое подобное, и ещё многое иное наблюдал бы тот, кто более меня потрудился бы в подобных делах; но чтобы доказать своё намерение, мне достаточно будет коснуться лишь некоторых случаев, вот так, мимоходом.\n\nНачнём отсюда: Гор-Аполлон (если «Гор-Аполлон» зовётся та Книга, которую мы имеем, о Иероглифах, или, точнее, сокращение того же сочинения, сделанное другими) — говорю о Гор-Аполлоне — был напечатан в Италии и в иных местах не раз с изображениями, и при всём том нет, пожалуй, ни одного издания, что было бы верным. «Сведения о Восточной и Западной Империи», те, что учёным Комментарием изложил Гвидо Панчироли, мой учитель, муж преславный, ходят в обращении со многими рисунками, которые хотя и сохраняют некий отблеск Древности, однако со многими нелепостями, вкравшимися в них, так что книгу весьма полезную превратили чуть ли не в забаву для детей. Древние Астрономы равным образом сколь пострадали в этом роде, о том говорят сами изображения, которые в них видны крайне неискусными, — за исключением, впрочем, издания Гуго Гроция, который в прошлые годы выпустил «Феномены» (если не ошибаюсь) Германика Цезаря с преизящными изображениями и преучёнейшими примечаниями. Джован Пьерио Валериано напрасно перелистывал и тщательно читал всё прекрасное и доброе из Древности, дабы составить свой любопытный Комментарий об Иероглифах, если затем ему было суждено быть, можно сказать (да простит мне Скромность это слово), убитым при изображении в рисунках того, что он столь изящно выразил пером. Андреа Альчато, если бы воскрес, наверняка не признал бы своими те «Эмблемы», что ходят в обращении с изображениями, полными ошибок — и в благопристойности, и в правдивости. «Басни» Габриэле Фаэрно, сочинение прелюбезнейшее, также не смогли избежать этой дерзости Живописцев, хотя их Автор и позаботился — как я видел в одном его неизданном Письме, — чтобы Пирро Лигорио, муж, весьма сведущий в Древностях, исполнил для этой его Книги изображения, сообразные с замыслом Автора, а не далёкие от истины в одеяниях и в осанке. «Диалоги» дона Антонио Агустина, вышедшие на нашей памяти дважды в свет трудами людей прилежных и понимающих то, чем они занимались, всё же имеют немало изъянов (чтобы не сказать больше) и весьма отходят от изящной манеры того преискуснейшего мужа. Фульвио Орсини также не сумел держать в узде Рисовальщиков, ибо его Книга о Римских Родах (сочинение, впрочем, учёное и изящное) вышла столь испорченной (в том, что касается Изображений), что в Риме в моё время нашёлся тот, кто счёл не напрасным трудом её исправить. Потому и Абрахам Гортлей в Голландии потрудился также над этим недостатком в своей любопытной Книге, которая, впрочем, также сохраняет некую небольшую погрешность в этом роде. Юст Липсий, честь нашего века, — я знаю, что он в одном месте сетует на труд, понесённый, дабы держать в узде Живописцев, в которых он нуждался для изображения неких фигур в своих Книгах о Сатурналиях.\n\nИ поистине, сколь нескладно грешили в прошлом с тем Автором, которого мы имеем в руках, то легко увидит всякий, кто потрудится сравнить это наше Издание с предыдущими, которые все были в этой части порочны и ущербны, не исключая даже и того, для которого, что касается изображений, Зодчим был живописец Сальвиати, муж даровитый. И при всём том, что я сделал, сколько умел потрудиться в деле такого рода, и хотя синьор Филиппо Ферроверде со своим умением и лёгкостью в рисовании не оставил ничего неисполненным, дабы довести этот труд до полного совершенства, — всё же небрежность некоего заурядного Гравёра возобладала над всем нашим усердием. И поистине невозможно было обойтись без того, чтобы не передать работу в руки кого-либо из этих Портящих мастеров, ибо хорошие и понимающие были весьма заняты, а нельзя было увековечивать труд той тягостью, какую испытывает тот, кто уже столь долго его ожидает.\n\nТак что эту заботу оставим другим — равно как и умножение Примечаний, которые я в кратчайший срок, среди тысячи занятий иного рода, составил воедино, и прибавление ко второй части некоего любопытного изображения Индийских Божеств, которые не попали мне в руки — не по малому моему тщанию, но по малой учтивости тех, кто, будучи даже о том прошен, позавидовал публике в том, что в некоторых частных хранилищах, ради удовольствия завистливого ока, держится сокрытым. Признаюсь, однако, что весьма обязан друзьям и покровителям, которых я упомянул на страницах этого труда, — если не в той мере, какой они заслуживали, то, по крайней мере, в той, какую мне подсказало чувство, соединённое с истинными правилами благовоспитанности и учтивости.\n\nА что я сам сделал в этом труде — не мне о том говорить. Знаю хорошо, что потратил на это немалый труд, ибо мне пришлось отправиться на поиски подлинных и действительных Образов, в чём эта Книга, во всех изданиях, какие я видел, доныне была первой. И немалого труда стоило мне также пересмотреть, так сказать, текст Автора и составить к нему несколько немногих Примечаний, в которых из желания истины и дабы разуверить Читателей, я был вынужден порой не соглашаться с Картари. За что, полагаю, буду прощён благосклонностью тех, кто станет читать эти страницы: ибо не из желания строить из себя Наставника перед кем бы то ни было, но по побуждению, почти равному велению совести, я доходил порою до такой степени, до какой обычно не имею обыкновения доходить. Правда и то, что, как я полагаю, Скромность не станет на меня за это сетовать. Одним словом, люди благородные увидят мой труд, и благожелательным их суждением о нём я удовольствуюсь. С Богом."
+      ],
+      "text_en": [
+        "PREFACE TO THE READER.\n\nNot so beside the purpose as it seemed to Plutarch, and before him to Aristotle, Anaxagoras said that man was most prudent, because alone among all the other animals he had hands. For that great man was thinking, so to speak, of the connection that the hands ordinarily have with the mind. Which is so true that Aristotle in a certain place left it written that nature had given man two great instruments, the hand to the body, and the mind to the soul. Now as these, united, produce operations worthy of praise and of wonder, so, disunited, one cannot imagine what confusion they produce, and what disorder in any invention otherwise well ordered. All this has been verified signally until now in many cases; but chiefly in many works of wit in need of Figures, which, by their ill fortune, abandoned either by death or by some other accident of their own Authors, have come into the hands of Painters, or Draughtsmen, who well knew what a stroke of the Pen or of the Brush was, but were then stripped of that knowledge which the complete perfection of such a work required. I, for my part, know that I have observed many such cases, and many others still would have been observed by whoever had laboured more than I in similar matters; but to prove my intention, it will suffice for me to touch upon only a few of them, thus in passing.\n\nNow, Horapollo (to begin from here) — if Horapollo is the name of that Book which we have, on Hieroglyphics, or rather a compendium of the same made by others — Horapollo, I say, has been printed in Italy, and elsewhere, more than once with the figures, and for all that there is perhaps not even one edition that is accurate. The Notitia of the Eastern and Western Empire, that which my most illustrious teacher Guido Panciroli explained with a learned Commentary, goes about with many drawings, which indeed retain some tincture of Antiquity, but with many absurdities interspersed, which have reduced a book very useful into little better than a pastime for children. The ancient Astronomers likewise, how much they have suffered in this kind, is told by the figures seen in them, most ungraceful — excepting, however, the edition of Hugo Grotius, who in past years brought out the Phenomena (if I do not err) of Germanicus Caesar, with most elegant figures and most erudite annotations. Gio. Pierio Valeriano turned over in vain, and read accurately, all that was fair and good of Antiquity, in order to form his curious Commentary on Hieroglyphics, if it was then his fate to be, so to speak — may Modesty forgive me — assassinated in the representing by figures of that which he had so gently expressed with the pen. Andrea Alciato, were he to rise again, would surely not recognize as his own those Emblems that go about with figures full of errors as to propriety, and as to truth. The Fables of Gabriele Faerno, a most gentle composition, have likewise not been able to escape this audacity of Painters, notwithstanding that their Author took care — as I have seen in an unprinted Letter of his — that Pirro Ligorio, a man most expert in Antiquities, should make the figures for this his Book, conformable to the Author's mind, and not far from the truth in dress and in bearing. The Dialogues of Don Antonio Agustín, which have come forth to our memory twice into the light by the labours of diligent men, intelligent in that which they had in hand, have nonetheless many blemishes (not to say more), and depart considerably from the delicate manner of that most exquisite man. Fulvio Orsini too did not know how to keep the Draughtsmen in check, since his Book of the Roman Families (a work learned and elegant in other respects) came out so spoiled (as regards the Figures) that in Rome, in my time, there was one who deemed it no wasted labour to correct it. And so Abraham Gorlaeus in Holland likewise laboured over this defect with his own curious Book, which, however, also retains some small error in this kind. Justus Lipsius, the honour of our age, I know complains in some place of the labour endured in keeping in check the Painters whom he needed in order to represent certain figures in his Books of the Saturnalia.\n\nAnd truly, how awkwardly this has been sinned against in the past with the Author we have in hand, will be easily seen by whoever takes the trouble to compare this our Edition with the previous ones, all of which have been defective and wanting in this respect, not excepting even that one for which, as regards the figures, the Architect was the able painter Salviati. And for all that I have done, as much as I knew how to labour in a matter of this sort — and although Signor Filippo Ferroverde, with his skill and facility in drawing, has left nothing undone to bring this work to complete perfection — nevertheless the negligence of some common Engraver has prevailed over all our effort. Nor indeed could it truly be avoided that the work should not be given into the hands of one of these Spoilers, because the good and knowing ones were much occupied, nor could the work be kept forever waiting, to the weariness of one who had already awaited it so long.\n\nSo this care shall be left to others; as also the enlarging of the Annotations, which I, in a very brief space of time, amid a thousand occupations of another sort, have put together, and the adding to the second part of some curious figure of the Indian Deities, which have not come into my hands — not for want of diligence on my part, but for the small courtesy of those who, even when asked, have grudged the public that which, in certain private cabinets, for the pleasure of an envious eye, is kept hidden. I confess, however, that I am much obliged to the friends and patrons whom I have mentioned throughout the work — if not as much as they deserved, at least as much as affection, joined with the true terms of good breeding and courtesy, has dictated to me.\n\nAs for what I myself have done in this work, it is not for me to say. I know well that I have endured great labour over it, having had to go in search of the true and real Images, in which this Book, in as many editions as I have seen, has until now been first. Nor has it been a small labour for me to review, so to speak, the Author's text, and to form upon it a few Annotations, in which, from a desire for truth, and to disabuse the Readers, I have been obliged at times to dissent from Cartari. For which, I believe, I shall be forgiven by the kindness of whoever shall read these things: since not from a wish to play the Master over anyone, but from a motive little short of conscience, I have come at times to a point where I do not ordinarily tend to arrive. It is true indeed, I believe, that Modesty will not complain of me for it. In sum, Gentlemen will see my labour; and with their loving censure of it I shall content myself. Farewell."
+      ],
+      "text_fr": [
+        "PRÉFACE AU LECTEUR.\n\nCe n'est pas si hors de propos qu'il parut à Plutarque, et avant lui à Aristote, qu'Anaxagore dit que l'homme était très prudent, parce que lui seul, entre tous les autres animaux, avait des mains. Car ce grand homme pensait, pour ainsi dire, à cette liaison que les mains entretiennent d'ordinaire avec l'esprit. Ce qui est si vrai qu'Aristote, en quelque endroit, nous a laissé écrit que la nature avait donné à l'homme deux grands instruments, la main pour le corps, et l'esprit pour l'âme. Or, de même que ceux-ci, unis, produisent des opérations dignes de louange et d'admiration, de même, désunis, on ne peut imaginer quelle confusion ils produiraient, et quel désordre dans quelque invention, par ailleurs bien réglée. Tout cela s'est vérifié de façon signalée jusqu'à présent en de nombreux cas ; mais principalement dans beaucoup d'ouvrages d'esprit ayant besoin de Figures, lesquelles, par leur mauvaise fortune, abandonnées, soit par la mort, soit par quelque autre accident, de leurs propres Auteurs, sont tombées aux mains de Peintres, ou de Dessinateurs, qui savaient bien ce qu'était un trait de Plume ou de Pinceau, mais étaient ensuite dépourvus de cette connaissance que requérait la parfaite perfection d'une telle œuvre. Pour moi, je sais en avoir observé beaucoup, et bien d'autres encore en aurait observé celui qui, plus que moi, aurait travaillé en choses semblables ; mais pour prouver mon intention, il me suffira d'en toucher seulement quelques-unes, ainsi en passant.\n\nOr Horapollon (pour commencer par ici) — si Horapollon est bien ce Livre que nous avons, sur les Hiéroglyphes, ou plutôt un abrégé du même fait par d'autres — Horapollon, dis-je, a été imprimé en Italie, et ailleurs, plus d'une fois avec les figures, et malgré tout il n'y en a peut-être pas même une qui soit exacte. La Notitia de l'Empire d'Orient et d'Occident, celle que mon très illustre maître Guido Panciroli a expliquée par un savant Commentaire, circule avec de nombreux dessins, qui retiennent certes quelque couleur de l'Antiquité, mais avec de nombreuses absurdités glissées dedans, qui ont réduit un livre très utile à n'être guère plus qu'un passe-temps pour enfants. Les Astronomes anciens de même, combien ils ont souffert en ce genre, le disent les figures que l'on y voit, des plus disgracieuses — exception faite, toutefois, de l'édition d'Hugo Grotius, qui dans les années passées a publié les Phénomènes (si je ne me trompe) de Germanicus César, avec des figures des plus élégantes et des annotations des plus érudites. Gio. Pierio Valeriano a feuilleté en vain, et lu avec soin, tout ce qu'il y avait de beau et de bon dans l'Antiquité, pour en former son curieux Commentaire des Hiéroglyphes, s'il devait ensuite être, pour ainsi dire — que la Modestie me pardonne ce mot — assassiné dans la représentation en figures de ce qu'il avait si gentiment exprimé par la plume. Andrea Alciato, s'il ressuscitait, ne reconnaîtrait assurément pas pour siens ces Emblèmes qui circulent avec des figures pleines d'erreurs, tant pour la bienséance que pour la vérité. Les Fables de Gabriele Faerno, composition des plus aimables, n'ont pas non plus pu échapper à cette audace des Peintres, bien que leur Auteur eût pris soin — comme je l'ai vu dans une de ses Lettres non imprimées — que Pirro Ligorio, homme très versé dans les Antiquités, fît pour ce Livre sien les figures, conformes à la pensée de l'Auteur, et non éloignées de la vérité quant aux habits et au maintien. Les Dialogues de Don Antonio Agustín, parus de notre temps deux fois au jour par les soins d'hommes diligents et entendus en ce qu'ils avaient en main, ont néanmoins bien des défauts (pour ne pas dire plus), et s'écartent beaucoup de la manière délicate de cet homme des plus exquis. Fulvio Orsini non plus ne sut tenir en bride les Dessinateurs, puisque son Livre des Familles Romaines (ouvrage savant et élégant par ailleurs) parut si gâté (pour ce qui regarde les Figures) qu'à Rome, de mon temps, il se trouva quelqu'un qui estima que ce n'était pas peine perdue de le corriger. C'est pourquoi Abraham Gorlaeus, en Hollande, travailla lui aussi sur ce défaut dans un de ses curieux Livres, lequel, cependant, garde lui aussi quelque petite erreur en ce genre. Juste Lipse, honneur de notre siècle, je sais qu'il se plaint quelque part de la peine qu'il eut à tenir en bride les Peintres dont il avait besoin pour représenter certaines figures dans ses Livres des Saturnales.\n\nEt véritablement, combien on a péché maladroitement par le passé avec l'Auteur que nous avons en main, le verra aisément quiconque prendra soin de confronter cette nôtre Édition avec les précédentes, lesquelles ont toutes été défectueuses et déficientes à cet égard, sans excepter même celle pour laquelle, en ce qui regarde les figures, l'Architecte fut l'habile peintre Salviati. Et malgré tout ce que j'ai fait, autant que j'ai su travailler en une matière de cette sorte — et bien que le Seigneur Filippo Ferroverde, avec son habileté et sa facilité à dessiner, n'ait rien négligé pour porter cette œuvre à une parfaite perfection —, la négligence de quelque Graveur de médiocre qualité l'a néanmoins emporté sur tout notre effort. Et l'on ne put vraiment pas faire autrement que de remettre l'ouvrage entre les mains de l'un de ces Gâcheurs, car les bons et les entendus étaient fort occupés, et l'on ne pouvait éterniser l'ouvrage, au prix de l'ennui de qui l'attendait déjà depuis si longtemps.\n\nAinsi laissera-t-on ce souci à d'autres ; de même que l'accroissement des Annotations, que j'ai, en très bref espace de temps, parmi mille occupations d'autre sorte, mises ensemble, et l'ajout, à la seconde partie, de quelque curieuse figure des Divinités indiennes, qui ne me sont pas tombées entre les mains — non par peu de diligence dont j'aurais usé, mais par le peu de courtoisie de ceux qui, même sollicités, ont envié au public ce qui, en certains endroits, dans des armoires privées, pour le plaisir d'un œil envieux, se tient caché. J'avoue toutefois devoir beaucoup aux amis et aux protecteurs dont j'ai fait mention à travers l'ouvrage, sinon autant qu'ils le méritaient, du moins autant que me l'a dicté l'affection jointe aux véritables règles de la bienséance et de la courtoisie.\n\nQuant à ce que j'ai moi-même fait dans cet ouvrage, il ne m'appartient pas de le dire. Je sais bien y avoir enduré une grande peine, m'étant fallu aller en quête des vraies et véritables Images, en quoi ce Livre, dans autant d'Éditions que j'en ai vues, a été jusqu'ici le premier. Ce ne me fut pas non plus une mince peine que de revoir, pour ainsi dire, le texte de l'Auteur, et d'y former quelques Annotations, dans lesquelles, par désir de vérité, et pour détromper les Lecteurs, j'ai été contraint parfois de m'écarter de l'avis de Cartari. Ce dont, je crois, je serai pardonné par la bienveillance de qui lira ces pages : car ce n'est point par envie de faire le Maître sur quiconque, mais par un motif presque de conscience, que je suis parvenu parfois à un point où je n'ai pas coutume d'ordinaire d'arriver. Il est bien vrai, je crois, que la Modestie ne se plaindra pas de moi pour cela. En somme, les Galants hommes verront ma peine ; et de leur aimable censure je me contenterai. Adieu."
+      ]
+    },
+    {
+      "id": "cartm_cat100",
+      "num": "4",
+      "page": "16",
+      "fr": "Catalogo di cento più famosi Dei de gli Antichi, per Cesare Malfatto (elenco)",
+      "ru": "Каталог ста самых знаменитых богов древних, составленный Чезаре Мальфатто",
+      "en": "Catalogue of the hundred most famous Gods of the Ancients, by Cesare Malfatto",
+      "img": [
+        "cartm_cat100.jpg"
+      ],
+      "scans": [
+        "cartm_cat100.jpg",
+        "cartm_cat100_p17.jpg",
+        "cartm_cat100_p18.jpg",
+        "cartm_cat100_p19.jpg",
+        "cartm_cat100_p20.jpg",
+        "cartm_cat100_p21.jpg"
+      ],
+      "group": "Фронтиспис и предисловие издания",
+      "group_en": "Front matter of the edition",
+      "textOnly": true,
+      "name_fr": "Catalogue des cent dieux les plus célèbres des Anciens, par Cesare Malfatto",
+      "caption": "Catalogo di cento più famosi Dei De gli Antichi, con la loro natura, & proprietà, cauato dal Cartari, & altri Autori trattanti di tal materia. Per Cesare Malfatto Padoano.",
+      "text_ru": [
+        "Отдельный справочный каталог, составленный падуанцем Чезаре Мальфатто: перечень ста наиболее известных богов древности (от отвлечённых божеств вроде Вечности и Природы до главных олимпийцев, восточных и египетских богов), для каждого из которых кратко указаны его «природа и свойства» (сфера покровительства, эпитеты) со ссылкой на страницы, где он упоминается у Картари и у иных авторов, трактовавших этот предмет. Список построен не по алфавиту, а по значимости и начинается с «Ternità» (Вечность, богиня непреходящести и бессмертия) и «Natura» (Природа, богиня порождения). Эти шесть страниц (idx16–21) приведены здесь полностью в виде факсимиле для самостоятельного просмотра; сам перечень из ста имён, представляющий собой справочную таблицу, а не связный текст, отдельно не переводится."
+      ],
+      "text_en": [
+        "A separate reference catalogue compiled by Cesare Malfatto of Padua: a list of the hundred most famous gods of antiquity (from abstract deities such as Eternity and Nature to the chief Olympians and the gods of the East and of Egypt), for each of whom the \"nature and properties\" (sphere of patronage, epithets) are briefly given, with page references to where that god is treated by Cartari and by other authors on the subject. The list is arranged not alphabetically but by importance, opening with \"Ternità\" (Eternity, goddess of everlastingness and immortality) and \"Natura\" (Nature, the goddess of generation). These six pages (idx16–21) are reproduced here in full as facsimile for direct viewing; the list of a hundred names itself, being a reference table rather than continuous prose, is not separately translated."
+      ],
+      "text_fr": [
+        "Un catalogue de référence distinct, compilé par Cesare Malfatto de Padoue : une liste des cent dieux les plus célèbres de l'Antiquité (depuis des divinités abstraites telles que l'Éternité et la Nature jusqu'aux principaux dieux de l'Olympe et aux dieux d'Orient et d'Égypte), pour chacun desquels sont brièvement indiquées sa « nature et ses propriétés » (domaine de protection, épithètes), avec renvoi aux pages où ce dieu est traité par Cartari et par d'autres auteurs ayant écrit sur le sujet. La liste n'est pas alphabétique mais ordonnée par importance, et s'ouvre sur « Ternità » (l'Éternité, déesse de la pérennité et de l'immortalité) et « Natura » (la Nature, déesse de la génération). Ces six pages (idx16–21) sont reproduites ici intégralement en fac-similé pour une consultation directe ; la liste des cent noms elle-même, qui est un tableau de référence et non un texte suivi, n'est pas traduite séparément."
+      ]
+    },
+    {
+      "id": "cartm_catauth",
+      "num": "5",
+      "page": "22",
+      "fr": "Catalogo d'Autori Antichi, & Moderni che hanno trattato questa materia",
+      "ru": "Каталог древних и новых авторов, писавших на эту тему",
+      "en": "Catalogue of Ancient and Modern Authors who have treated this subject",
+      "img": [
+        "cartm_catauth.jpg"
+      ],
+      "scans": [
+        "cartm_catauth.jpg",
+        "cartm_catauth_p23.jpg"
+      ],
+      "group": "Фронтиспис и предисловие издания",
+      "group_en": "Front matter of the edition",
+      "textOnly": true,
+      "name_fr": "Catalogue des auteurs anciens et modernes ayant traité ce sujet",
+      "caption": "Catalogo d'Autori Antichi, & Moderni che sono in essere; & di proposito. Hanno descritto Historie, ouero Imagini delle Deità antiche.",
+      "text_ru": [
+        "Библиографический указатель, составленный Лоренцо Пиньорией: перечень древних авторов (Аполлодор Афинский, Диодор Сицилийский, Цицерон, Фульгенций, Овидий, Павсаний, Каллистрат и другие), писавших истории или описания богов, а затем — перечень новых авторов (Альбрико Философ, Джованни Боккаччо, Лилио Грегорио Джиральди, Абрахам Ортелий, тот же Пиньория и сам Картари среди прочих), трактовавших тот же предмет в более позднее время. Далее следует короткий раздел «Testimonianze di questo Libro» («Свидетельства об этой Книге»), где приводится цитата из собственного диалога Картари «Фладжо» в подтверждение полноты и достоверности труда. Эти две страницы (idx22–23) приведены здесь полностью в виде факсимиле для самостоятельного просмотра."
+      ],
+      "text_en": [
+        "A bibliographical index compiled by Lorenzo Pignoria: a list of ancient authors (Apollodorus of Athens, Diodorus Siculus, Cicero, Fulgentius, Ovid, Pausanias, Callistratus, and others) who wrote histories or descriptions of the gods, followed by a list of modern authors (Albricus the Philosopher, Giovanni Boccaccio, Lilio Gregorio Giraldi, Abraham Ortelius, Pignoria himself, and Cartari among others) who treated the same subject in more recent times. There follows a short section, \"Testimonianze di questo Libro\" (\"Testimonies concerning this Book\"), which quotes Cartari's own dialogue \"Il Flavio\" as confirmation of the work's completeness and reliability. These two pages (idx22–23) are reproduced here in full as facsimile for direct viewing."
+      ],
+      "text_fr": [
+        "Un index bibliographique compilé par Lorenzo Pignoria : une liste d'auteurs anciens (Apollodore d'Athènes, Diodore de Sicile, Cicéron, Fulgence, Ovide, Pausanias, Callistrate et d'autres) qui ont écrit des histoires ou des descriptions des dieux, suivie d'une liste d'auteurs modernes (Albricus le Philosophe, Giovanni Boccaccio, Lilio Gregorio Giraldi, Abraham Ortelius, Pignoria lui-même et Cartari entre autres) ayant traité le même sujet à une époque plus récente. Suit une brève section, « Testimonianze di questo Libro » (« Témoignages sur ce Livre »), qui cite le propre dialogue de Cartari, « Il Flavio », pour attester l'exhaustivité et la fiabilité de l'ouvrage. Ces deux pages (idx22–23) sont reproduites ici intégralement en fac-similé pour une consultation directe."
+      ]
+    },
+    {
+      "id": "cartm_tavola",
+      "num": "6",
+      "page": "24",
+      "fr": "Tavola delle cose notabili che nell'Opera si contengono",
+      "ru": "Алфавитный указатель примечательных предметов, содержащихся в сочинении",
+      "en": "Table of notable matters contained in the Work",
+      "img": [
+        "cartm_tavola.jpg"
+      ],
+      "scans": [
+        "cartm_tavola.jpg",
+        "cartm_tavola_p25.jpg",
+        "cartm_tavola_p26.jpg",
+        "cartm_tavola_p27.jpg",
+        "cartm_tavola_p28.jpg",
+        "cartm_tavola_p29.jpg",
+        "cartm_tavola_p30.jpg",
+        "cartm_tavola_p31.jpg",
+        "cartm_tavola_p32.jpg",
+        "cartm_tavola_p33.jpg",
+        "cartm_tavola_p34.jpg",
+        "cartm_tavola_p35.jpg"
+      ],
+      "group": "Фронтиспис и предисловие издания",
+      "group_en": "Front matter of the edition",
+      "textOnly": true,
+      "name_fr": "Table des choses notables contenues dans l'ouvrage",
+      "caption": "TAVOLA DELLE COSE NOTABILI Che nell'Opera si contengono.",
+      "text_ru": [
+        "Алфавитный предметно-именной указатель («Tavola delle cose notabili») на двенадцати страницах (idx24–35), отсылающий по буквам алфавита ко всем именам богов, мифологическим сюжетам и понятиям, встречающимся в тексте книги, с указанием номеров страниц издания (например: «Amore co'l fulmine» — «Амур с молнией», с. 418; «Anubide», с. 281). Указатель начинается с буквы A («Acheolo», «Acheloo in Bue» и т. д.) и охватывает весь корпус сочинения Картари и примечаний Пиньории. Как и прочие справочные разделы книги, он приводится здесь полностью в виде факсимиле; отдельные статьи указателя, представляющие собой перечень имён со ссылками на страницы, а не связный текст, не переводятся построчно."
+      ],
+      "text_en": [
+        "An alphabetical subject-and-name index (\"Tavola delle cose notabili\", Table of Notable Matters) across twelve pages (idx24–35), referring the reader, letter by letter, to every name of a god, mythological episode, and notion found in the text of the book, with the page numbers of the edition (for example: \"Amore co'l fulmine\" — \"Cupid with the thunderbolt\", p. 418; \"Anubide\", p. 281). The index begins with the letter A (\"Acheolo\", \"Acheloo in Bue\", etc.) and covers the whole body of Cartari's work together with Pignoria's annotations. Like the other reference sections of the book, it is reproduced here in full as facsimile; the individual index entries, being a list of names with page references rather than continuous prose, are not translated line by line."
+      ],
+      "text_fr": [
+        "Un index alphabétique de noms et de sujets (« Tavola delle cose notabili », Table des choses notables) sur douze pages (idx24–35), renvoyant le lecteur, lettre par lettre, à chaque nom de dieu, épisode mythologique et notion rencontrés dans le texte du livre, avec les numéros de page de l'édition (par exemple : « Amore co'l fulmine » — « Amour avec la foudre », p. 418 ; « Anubide », p. 281). L'index commence par la lettre A (« Acheolo », « Acheloo in Bue », etc.) et couvre l'ensemble de l'ouvrage de Cartari ainsi que les annotations de Pignoria. Comme les autres sections de référence du livre, il est reproduit ici intégralement en fac-similé ; les entrées de l'index elles-mêmes, qui forment une liste de noms assortis de renvois de pages et non un texte suivi, ne sont pas traduites ligne par ligne."
+      ]
+    },
+    {
+      "id": "cartm_idolbelo",
+      "num": "7",
+      "page": "36",
+      "fr": "Principio dell'Idolatria in Belo, in Semiramis, & nel figliolo di Sirofane",
+      "ru": "Начало идолопоклонства в Беле, в Семирамиде и в сыне Сирофана",
+      "en": "The beginning of Idolatry in Belus, in Semiramis, and in the son of Sirophanes",
+      "img": [
+        "cartm_idolbelo.jpg"
+      ],
+      "scans": [
+        "cartm_idolbelo.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "name_fr": "Le commencement de l'Idolâtrie chez Bélus, chez Sémiramis, et chez le fils de Sirophanès",
+      "caption": "Principio dell'Idolatria in Belo, in Semiramis, & nel figliolo di Sirofane. A carte 1.",
+      "text_ru": [
+        "«Начало идолопоклонства в Беле, в Семирамиде и в сыне Сирофана». На странице 1.\n\nГравюра, открывающая основной текст книги, делится на две сцены. Слева, в овальном картуше, — женская фигура, облачённая в длинное одеяние и восседающая на облаках; в поднятой руке она держит шар со звездой и полумесяцем, а над её головой — лучистое солнце: олицетворение небесных светил, которым, согласно рассказу, первым начали поклоняться люди. Справа и в центре — сцена воздвижения идола: двое мужчин в коротких одеяниях подносят ветви к небольшому храму с колоннадой, внутри которого на постаменте стоит статуя мужской фигуры, а у её подножия сидит ребёнок; эта статуя истолковывается как изваяние Бела (легендарного царя, обожествлённого после смерти). Справа восседает величественная женская фигура с посохом и нимбом с миниатюрной фигуркой на голове — образ Семирамиды, легендарной царицы Ассирии и Вавилона, которая, по преданию, распространила почитание статуй своего отца и мужа."
+      ],
+      "text_en": [
+        "“The beginning of Idolatry in Belus, in Semiramis, and in the son of Sirophanes.” At page 1.\n\nThe engraving that opens the main text of the book is divided into two scenes. On the left, within an oval cartouche, a female figure in a long robe sits enthroned upon clouds; in her raised hand she holds a globe marked with a star and crescent moon, and above her head shines a radiant sun — a personification of the heavenly bodies which, according to the narrative, mankind was first led to worship. At centre and right is a scene of idol-raising: two men in short tunics bring branches to a small colonnaded temple, within which a male statue stands upon a pedestal, with a child seated at its foot; this statue is understood to represent Belus (the legendary king deified after his death). Seated at the right is a stately female figure with a staff and a halo bearing a small figure upon her head — an image of Semiramis, the legendary queen of Assyria and Babylon, who, according to the tradition, spread the worship of statues of her father and husband."
+      ],
+      "text_fr": [
+        "« Le commencement de l'Idolâtrie chez Bélus, chez Sémiramis, et chez le fils de Sirophanès. » À la page 1.\n\nLa gravure qui ouvre le texte principal du livre se divise en deux scènes. À gauche, dans un cartouche ovale, une figure féminine en longue robe est assise sur des nuées ; de sa main levée elle tient un globe marqué d'une étoile et d'un croissant de lune, et au-dessus de sa tête rayonne un soleil : personnification des astres célestes que, selon le récit, les hommes auraient été les premiers à vénérer. Au centre et à droite se déploie une scène d'érection d'idole : deux hommes en tuniques courtes portent des branches vers un petit temple à colonnade, à l'intérieur duquel une statue masculine se dresse sur un piédestal, avec un enfant assis à son pied ; cette statue est comprise comme celle de Bélus (roi légendaire divinisé après sa mort). À droite est assise une figure féminine majestueuse, tenant un bâton, avec un nimbe surmonté d'une petite figure sur la tête — image de Sémiramis, reine légendaire d'Assyrie et de Babylone qui, selon la tradition, répandit le culte des statues de son père et de son époux."
+      ]
+    },
+    {
+      "id": "cartm_intro1",
+      "num": "8",
       "page": "38",
       "fr": "Le religioni degli antichi senza simulacri",
       "ru": "О религии древних и множестве их богов",
@@ -35,7 +253,7 @@
     },
     {
       "id": "cartm_intro2",
-      "num": "2",
+      "num": "9",
       "page": "44",
       "fr": "Costumi aniconici e origine delle statue; Prometeo e la Providenza",
       "ru": "Обычаи почитания без изваяний и происхождение статуй; Прометей и Провидение",
@@ -66,7 +284,7 @@
     },
     {
       "id": "cartm1",
-      "num": "3",
+      "num": "10",
       "page": "49",
       "fr": "Prouidenza",
       "ru": "Провидение",
@@ -96,7 +314,7 @@
     },
     {
       "id": "cartm_statuemateria",
-      "num": "4",
+      "num": "11",
       "page": "50",
       "fr": "Simulacri degli dei: di che materia furono fatti (legno, oro, ferro, marmo)",
       "ru": "Изваяния богов: из какого материала их делали (дерево, золото, железо, мрамор)",
@@ -122,7 +340,7 @@
     },
     {
       "id": "cartm2",
-      "num": "5",
+      "num": "12",
       "page": "55",
       "fr": "Imagini della Eternità, con Demogorgone",
       "ru": "Образ Вечности и бога Демогоргона",
@@ -149,7 +367,7 @@
     },
     {
       "id": "cartm2b",
-      "num": "6",
+      "num": "13",
       "page": "56",
       "fr": "L'Antro dell'Eternità: ode di Claudiano (traduzione)",
       "ru": "Пещера Вечности: ода Клавдиана (перевод)",
@@ -179,7 +397,7 @@
     },
     {
       "id": "cartm3",
-      "num": "7",
+      "num": "14",
       "page": "59",
       "fr": "Antro dell'Eternità, con l'imagine del Tempo",
       "ru": "Пещера Вечности с образом Времени",
@@ -207,7 +425,7 @@
     },
     {
       "id": "cartm_sat1",
-      "num": "8",
+      "num": "15",
       "page": "61",
       "fr": "SATVRNO: apertura del capitolo e poesia",
       "ru": "САТУРН: открытие главы и стихотворение",
@@ -235,7 +453,7 @@
     },
     {
       "id": "cart1",
-      "num": "9",
+      "num": "16",
       "page": "62",
       "fr": "Saturno",
       "ru": "Сатурн",
@@ -260,7 +478,7 @@
     },
     {
       "id": "cartm7",
-      "num": "10",
+      "num": "17",
       "page": "62",
       "fr": "Imagini di Giano, inteso per il Sole e per il Tempo",
       "ru": "Образ Януса, понимаемого как Солнце и Время",
@@ -287,7 +505,7 @@
     },
     {
       "id": "cartm_sat2",
-      "num": "11",
+      "num": "18",
       "page": "63",
       "fr": "Saturno: i sacrifici, la falce, la favola del vino e la morte di Giano",
       "ru": "Сатурн: жертвоприношения, серп, басня о вине и смерть Януса",
@@ -316,7 +534,7 @@
     },
     {
       "id": "cartm4",
-      "num": "12",
+      "num": "19",
       "page": "65",
       "fr": "Imagine di Saturno, del Tempo e dell'anno (fra le stelle)",
       "ru": "Образ Сатурна, Времени и года (среди звёзд)",
@@ -343,7 +561,7 @@
     },
     {
       "id": "cartm_sat3",
-      "num": "13",
+      "num": "20",
       "page": "66",
       "fr": "Saturno: Titano, i figli divorati, l'immagine sassone e Marciano Capella",
       "ru": "Сатурн: Титан, пожранные дети, саксонский образ и Марциан Капелла",
@@ -371,7 +589,7 @@
     },
     {
       "id": "cartm5",
-      "num": "14",
+      "num": "21",
       "page": "67",
       "fr": "Imagine di Saturno: tempo presente, passato e avvenire",
       "ru": "Образ Сатурна: время настоящее, прошедшее и будущее",
@@ -399,7 +617,7 @@
     },
     {
       "id": "cartm6",
-      "num": "15",
+      "num": "22",
       "page": "69",
       "fr": "Imagine di Saturno e del Tempo, coi piedi legati di lana",
       "ru": "Образ Сатурна и Времени со связанными шерстью ногами",
@@ -426,7 +644,7 @@
     },
     {
       "id": "cartm_sat4",
-      "num": "16",
+      "num": "23",
       "page": "70",
       "fr": "Saturno: i piedi legati, la metamorfosi in cavallo (Filira e Chirone)",
       "ru": "Сатурн: связанные ноги, превращение в коня (Филира и Хирон)",
@@ -454,7 +672,7 @@
     },
     {
       "id": "cartm_sat5",
-      "num": "17",
+      "num": "24",
       "page": "71",
       "fr": "Giano: le porte del Cielo, Portunno, la ninfa Crane e il tempio sul Monte Celio",
       "ru": "Янус: врата Неба, Портунн, нимфа Крана и храм на Целиевом холме",
@@ -485,7 +703,7 @@
     },
     {
       "id": "cartm8",
-      "num": "18",
+      "num": "25",
       "page": "75",
       "fr": "Imagini delle quattro stagioni dell'anno",
       "ru": "Образы четырёх времён года",
@@ -513,7 +731,7 @@
     },
     {
       "id": "cartm9",
-      "num": "19",
+      "num": "26",
       "page": "77",
       "fr": "Tempio di Giano, Dio della pace e della guerra",
       "ru": "Храм Януса, бога мира и войны",
@@ -541,7 +759,7 @@
     },
     {
       "id": "cartm10",
-      "num": "20",
+      "num": "27",
       "page": "79",
       "fr": "Imagine del Sole, ovvero Febo, e di Giove presso gli Assiri",
       "ru": "Образ Солнца, или Феба, и Юпитера у ассирийцев",
@@ -570,7 +788,7 @@
     },
     {
       "id": "cartb16",
-      "num": "21",
+      "num": "28",
       "page": "82",
       "fr": "Hebe",
       "ru": "Геба",
@@ -596,7 +814,7 @@
     },
     {
       "id": "cartb17",
-      "num": "22",
+      "num": "29",
       "page": "84",
       "fr": "Le noue Muse",
       "ru": "Девять Муз",
@@ -622,7 +840,7 @@
     },
     {
       "id": "cartm11",
-      "num": "23",
+      "num": "30",
       "page": "86",
       "fr": "Apollo in mezzo delle Muse",
       "ru": "Аполлон среди Муз",
@@ -650,7 +868,7 @@
     },
     {
       "id": "cart2",
-      "num": "24",
+      "num": "31",
       "page": "88",
       "fr": "Apollo Febo, il Sole",
       "ru": "Аполлон Феб, Солнце",
@@ -676,7 +894,7 @@
     },
     {
       "id": "cartm12",
-      "num": "25",
+      "num": "32",
       "page": "90",
       "fr": "Nave del Sole portata da un Coccodrillo",
       "ru": "Корабль Солнца, влекомый Крокодилом",
@@ -704,7 +922,7 @@
     },
     {
       "id": "cartm13",
-      "num": "26",
+      "num": "33",
       "page": "92",
       "fr": "Apollo che abbraccia Dafne",
       "ru": "Аполлон, обнимающий Дафну",
@@ -732,7 +950,7 @@
     },
     {
       "id": "cartm14",
-      "num": "27",
+      "num": "34",
       "page": "94",
       "fr": "Imagine d'Apollo, dio della prudenza",
       "ru": "Образ Аполлона, бога благоразумия",
@@ -760,7 +978,7 @@
     },
     {
       "id": "cartm15",
-      "num": "28",
+      "num": "35",
       "page": "96",
       "fr": "Imagine di Apollo Mithra",
       "ru": "Образ Аполлона-Митры",
@@ -788,7 +1006,7 @@
     },
     {
       "id": "cartm16",
-      "num": "29",
+      "num": "36",
       "page": "98",
       "fr": "Imagine dei Buoi sacri presso gli Egizi",
       "ru": "Образ священных быков у египтян",
@@ -816,7 +1034,7 @@
     },
     {
       "id": "cartm17",
-      "num": "30",
+      "num": "37",
       "page": "100",
       "fr": "Imagine d'Apollo nudo, amatore dei Buoi",
       "ru": "Образ нагого Аполлона, любителя быков",
@@ -844,7 +1062,7 @@
     },
     {
       "id": "cartm18",
-      "num": "31",
+      "num": "38",
       "page": "102",
       "fr": "Imagine d'Apolline e della Terra presso gli Assiri",
       "ru": "Образ Аполлона и Земли у ассирийцев",
@@ -872,7 +1090,7 @@
     },
     {
       "id": "cartm19",
-      "num": "32",
+      "num": "39",
       "page": "104",
       "fr": "Imagine di Adad e d'Adargate, dei degli Assiri",
       "ru": "Образ Адада и Адаргатис, богов ассирийцев",
@@ -899,7 +1117,7 @@
     },
     {
       "id": "cartm20",
-      "num": "33",
+      "num": "40",
       "page": "105",
       "fr": "Imagine di Serapi, dio degli Egizi",
       "ru": "Образ Сераписа, бога египтян",
@@ -927,7 +1145,7 @@
     },
     {
       "id": "cartm21",
-      "num": "34",
+      "num": "41",
       "page": "107",
       "fr": "Imagine del Sole, mutevole e produttore di ogni tempo",
       "ru": "Образ Солнца, изменчивого творца всех времён",
@@ -955,7 +1173,7 @@
     },
     {
       "id": "cartm22",
-      "num": "35",
+      "num": "42",
       "page": "109",
       "fr": "Imagine di Esculapio, dio della Medicina",
       "ru": "Образ Эскулапа, бога Медицины",
@@ -983,7 +1201,7 @@
     },
     {
       "id": "cartm23",
-      "num": "36",
+      "num": "43",
       "page": "111",
       "fr": "Imagine di Esculapio con i galli a lui sacrati",
       "ru": "Образ Эскулапа с посвящёнными ему петухами",
@@ -1012,7 +1230,7 @@
     },
     {
       "id": "cartm24",
-      "num": "37",
+      "num": "44",
       "page": "114",
       "fr": "Anello antico col simbolo della Salute",
       "ru": "Старинное кольцо с символом Здоровья",
@@ -1040,7 +1258,7 @@
     },
     {
       "id": "cartm25",
-      "num": "38",
+      "num": "45",
       "page": "116",
       "fr": "Imagine della dea Salute e del Serpente a lei sacrato",
       "ru": "Образ богини Здоровья и посвящённого ей Змея",
@@ -1068,7 +1286,7 @@
     },
     {
       "id": "cartm26",
-      "num": "39",
+      "num": "46",
       "page": "118",
       "fr": "Imagine d'Higia, figlia di Esculapio",
       "ru": "Образ Гигиеи, дочери Эскулапа",
@@ -1096,7 +1314,7 @@
     },
     {
       "id": "cartm27",
-      "num": "40",
+      "num": "47",
       "page": "120",
       "fr": "Carro del Sole, dio della luce",
       "ru": "Колесница Солнца, бога света",
@@ -1123,7 +1341,7 @@
     },
     {
       "id": "cartm28",
-      "num": "41",
+      "num": "48",
       "page": "121",
       "fr": "Imagine del Sole, detto anche Febo e Apolline",
       "ru": "Образ Солнца, называемого также Фебом и Аполлоном",
@@ -1151,7 +1369,7 @@
     },
     {
       "id": "cartm29",
-      "num": "42",
+      "num": "49",
       "page": "123",
       "fr": "Imagine dell'Aurora e del Cavallo Pegaseo",
       "ru": "Образ Авроры и коня Пегаса",
@@ -1179,7 +1397,7 @@
     },
     {
       "id": "cartm30",
-      "num": "43",
+      "num": "50",
       "page": "125",
       "fr": "Imagine di Diana, dea delle selve e della caccia",
       "ru": "Образ Дианы, богини лесов и охоты",
@@ -1212,7 +1430,7 @@
     },
     {
       "id": "cartm_dianachapter",
-      "num": "44",
+      "num": "51",
       "page": "126",
       "fr": "Diana: il suo habito, le compagne, il sacrificio d'Ifigenia, il carro tirato da Cerui",
       "ru": "Диана: её облик, спутницы, жертвоприношение Ифигении, колесница, влекомая Оленями",
@@ -1238,7 +1456,7 @@
     },
     {
       "id": "cartm_dianamoon",
-      "num": "45",
+      "num": "52",
       "page": "129",
       "fr": "Imagine di Diana della caccia e de' boschi, coi Cervi a lei sacrati",
       "ru": "Образ Дианы охоты и лесов, с посвящёнными ей Оленями",
@@ -1263,7 +1481,7 @@
     },
     {
       "id": "cartm31",
-      "num": "46",
+      "num": "53",
       "page": "132",
       "fr": "Statua di Lucina, dea dei Parti",
       "ru": "Статуя Люцины, богини родов",
@@ -1291,7 +1509,7 @@
     },
     {
       "id": "cartm32",
-      "num": "47",
+      "num": "54",
       "page": "134",
       "fr": "Imagine di Diana Cinthia, ovvero la Luna",
       "ru": "Образ Дианы Кинфии, то есть Луны",
@@ -1320,7 +1538,7 @@
     },
     {
       "id": "cartm33",
-      "num": "48",
+      "num": "55",
       "page": "137",
       "fr": "Imagine di Hecate, dea triforme",
       "ru": "Образ Гекаты, трёхликой богини",
@@ -1348,7 +1566,7 @@
     },
     {
       "id": "cart3",
-      "num": "49",
+      "num": "56",
       "page": "139",
       "fr": "Diana",
       "ru": "Диана",
@@ -1373,7 +1591,7 @@
     },
     {
       "id": "cartm34",
-      "num": "50",
+      "num": "57",
       "page": "139",
       "fr": "Simulacro della Luna",
       "ru": "Изваяние Луны",
@@ -1402,7 +1620,7 @@
     },
     {
       "id": "cartm35",
-      "num": "51",
+      "num": "58",
       "page": "142",
       "fr": "Imagine della dea Natura, piena di mammelle",
       "ru": "Образ богини Природы, покрытой множеством грудей",
@@ -1430,7 +1648,7 @@
     },
     {
       "id": "cartm36",
-      "num": "52",
+      "num": "59",
       "page": "144",
       "fr": "Imagine d'Iside, dea egizia",
       "ru": "Образ Исиды, египетской богини",
@@ -1458,7 +1676,7 @@
     },
     {
       "id": "cartm37",
-      "num": "53",
+      "num": "60",
       "page": "146",
       "fr": "Imagine d'Iside, dea degli Egizi, con il sistro",
       "ru": "Образ Исиды, богини египтян, с систром",
@@ -1513,11 +1731,11 @@
       "text_fr": [
         "[Conclusion du chapitre sur Isis-la-Lune] ...et autour de l'ourlet du vêtement étaient attachées, en un ordre fort beau, des fleurs et des fruits de toute sorte. La déesse portait dans la main droite un certain objet de bronze en forme de cymbale, qui, lorsqu'on agitait la main, produisait un son fort retentissant, tandis que de la main gauche pendait un vase doré dont l'anse figurait un serpent qui semblait tout gonflé de venin ; et à ses pieds se trouvait un certain ornement fait de feuilles de palmier. Ainsi Apulée dépeignit-il Isis, à qui, pour une certaine raison naturelle, est donné un vêtement blanc, jaune et rouge, car la Lune change souvent de couleur, par quoi beaucoup prédisent quel temps va suivre, car la rougeur en elle signifie qu'il y aura des vents, la couleur sombre, des pluies, et la couleur claire et lumineuse montre que l'air sera calme, comme le chanta aussi Virgile, disant :\n\n« Quand la Lune commence à recouvrer sa lumière déjà perdue, embrassant l'air noir de ses cornes sombres, laboureurs et pilotes attendront de grandes pluies ; mais si ses joues se colorent d'une honnête rougeur, ce sera du vent, que la Lune montre toujours quand elle rougit ; et si, à sa quatrième apparition (ce qui, en effet, ne manque jamais d'arriver autrement), elle apparaît belle et claire, aux cornes brillantes à travers le Ciel, ce jour-là et tous les suivants jusqu'à la fin du mois seront secs et calmes. »\n\nL'autre vêtement, tout noir, montre que la Lune, comme je l'ai déjà dit plusieurs fois, n'a pas de lumière propre, mais la reçoit d'un autre. Certains disent qu'Apulée plaça cette cymbale dans la main de la déesse pour montrer la coutume des anciens, qui, sortant à découvert [pendant une éclipse], faisaient un certain bruit et vacarme avec des vases de bronze et de fer, pensant ainsi aider la Lune lorsqu'elle perdait sa lumière parce que la terre se trouvait entre elle et le Soleil — pendant une éclipse, dont ils ignoraient la cause et disaient que la Lune était tirée vers le bas par la force des sortilèges, car alors certains sorciers faisaient croire au monde qu'ils en étaient capables, et même de plus encore. D'où Virgile fit dire à une certaine magicienne que des vers enchantés ont le pouvoir de tirer la Lune du Ciel ; et de Médée on lit souvent qu'elle faisait descendre la Lune contre son gré ; et Lucain, parlant des sorciers de Thessalie, écrit que ce furent eux les premiers à acquérir pouvoir sur les astres et savaient rendre la Lune sombre et obscurcie précisément quand elle devait être la plus claire et la plus brillante, et la gardaient ainsi jusqu'à ce qu'elle descendît sur terre faire ce qu'ils voulaient. Et chez Apulée on lit d'une de ces sorcières qui se vantait de pouvoir faire grand mal aux dieux et d'obscurcir à son gré la lumière des astres, car la puissance de ces maléfices diaboliques avait pouvoir non seulement sur la Lune, mais sur le Soleil, et sur tous les astres, et contre tous les autres dieux, tant du Ciel que des Enfers ; lesquels, outre tous les autres rites immondes, ils avaient coutume de menacer (comme l'écrit Porphyre d'un certain grand prêtre d'Égypte, ce que rapporte aussi Théodoret) de briser et de fendre le Ciel même, de révéler tous les secrets les plus cachés d'Isis, de publier toutes ses choses les plus secrètes, de faire que la barque de Charon ne transporte plus d'âmes, d'exposer les membres d'Osiris à Typhon afin qu'il les déchire et les disperse partout, et d'autres folies semblables, mettant toujours en avant ce qu'ils croyaient devoir déplaire le plus au dieu qu'ils voulaient contraindre à leur obéir. Et peut-être lit-on chose semblable chez Ovide, de Faunus et de Picus, dieux ou démons habitant le mont Aventin, qu'on tirait du Ciel par magie et sortilèges pour les faire répondre ; bien que les Romains condamnèrent par la suite cet art diabolique et n'en voulurent nullement, comme il appert d'Apulée, qui en fut accusé — et ses maîtres étaient tenus pour être les Thessaliens, car, comme le rapporte Suidas, Médée, traversant ce pays, y répandit ses poisons et ses maléfices. Et c'est pourquoi, lorsque les poètes adressent quelque prière à la Lune, sous quelque nom qu'elle soit appelée — Diane, ou Hécate, ou autrement —, pour la disposer à les exaucer, ils lui souhaitent que sa lumière soit pure et claire, et que les sortilèges de Thessalie ne puissent jamais la tirer du Ciel, comme le fait la nourrice de Phèdre dans la tragédie Hippolyte de Sénèque, disant :\n\n« Ô reine des bois, habitante des hautes montagnes, où tu es adorée, ô grande déesse des forêts, ô claire lumière du Ciel, ou de la sombre et humide nuit véritable ornement, dont le visage donne une lumière changeante au monde, ô déesse triforme, sainte Hécate, accorde ta faveur à l'œuvre entreprise. »\n\nEt peu après elle ajoute :\n\n« Que ton visage paraisse toujours aussi pur et clair, et qu'aucun nuage ne puisse jamais nous cacher tes belles cornes, afin que les vers enchantés de Thessalie n'aient sur toi aucun pouvoir, tant que tu tiens les rênes de la lumière nocturne ; et que nul n'ait plus grande gloire que de se vanter de t'avoir ravi ton amour. »\n\n[Transition vers Jupiter] Sur ce, je termine au sujet d'Isis-la-Lune, et passe enfin à Jupiter. Jupiter acquit une telle réputation chez les anciens, après avoir chassé son père Saturne du royaume du Ciel, comme le racontent les fables, qu'il fut tenu par tous dans la plus grande vénération et cru le principal de tous les autres dieux. Pour cette raison on lui éleva de nombreux temples et l'on en fit divers simulacres, l'appelant Roi et Seigneur de l'univers, comme si tout pouvoir était entre ses mains. Et on l'appela aussi Très bon et Très grand, car par sa bonté il voulait être utile et faire du bien à tous, et le pouvait par son excellence suprême, qui surpassait toutes les autres. Et c'est du mot « giovare » [être utile, aider] qu'on dit qu'il fut appelé Jove (Jupiter) par les Latins ; de même que chez les Grecs il portait un nom montrant que de lui vient la vie de toutes choses. C'est pourquoi les platoniciens le tinrent pour l'âme du Monde, et certains crurent qu'il était cet esprit divin qui a produit et gouverne l'univers et qu'on appelle communément Dieu. De cela Jamblique, traitant des mystères égyptiens, dit ainsi : car Dieu est au-dessus de toutes choses, brille séparé d'elles, et seul, tout entier en lui-même, chemine au-dessus de l'univers. Les Égyptiens le placèrent assis sur le Lotus, plante aquatique, voulant par là montrer que la matière du monde lui est soumise, à lui qui la régit et la gouverne sans la toucher, car son gouvernement est tout entier intellectuel, comme le montre le Lotus, dont les feuilles et les fruits sont ronds, car l'esprit divin est tourné vers lui-même et gouverne, comprenant toujours de la même manière. De là procède cette souveraine principauté, régissant tout et séparée de toutes les choses du monde, qui fait mouvoir toutes choses tout en demeurant elle-même calme, reposée et immobile — ce que montraient les Égyptiens en le plaçant assis, comme je l'ai dit. Et c'est ce qu'entendaient les anciens sous ce grand Jupiter, Roi du Ciel, habitant la partie la plus sublime de l'univers, lequel, si on le considère ensuite à travers les causes qui toutes procèdent de lui, descend plus bas et cède souvent son nom aux causes inférieures et aux choses mêmes. D'où Sénèque, dans les Questions naturelles, écrivit que les anciens sages ne croyaient pas..."
       ],
-      "num": "54"
+      "num": "61"
     },
     {
       "id": "cart4",
-      "num": "55",
+      "num": "62",
       "page": "153",
       "fr": "Giove",
       "ru": "Юпитер",
@@ -1568,7 +1786,7 @@
       "img": [
         "cartm_pan1.jpg"
       ],
-      "num": "56",
+      "num": "63",
       "scans": [],
       "group": "Главный текст",
       "group_en": "Main text",
@@ -1594,7 +1812,7 @@
       "img": [
         "cartm_echo.jpg"
       ],
-      "num": "57",
+      "num": "64",
       "scans": [],
       "group": "Главный текст",
       "group_en": "Main text",
@@ -1620,7 +1838,7 @@
       "img": [
         "cartm_pansatyrs.jpg"
       ],
-      "num": "58",
+      "num": "65",
       "scans": [],
       "group": "Главный текст",
       "group_en": "Main text",
@@ -1630,7 +1848,7 @@
     },
     {
       "id": "cartm38",
-      "num": "59",
+      "num": "66",
       "page": "164",
       "fr": "Imagine del Dio creatore degli Egizi e di Giove",
       "ru": "Образ бога-творца египтян и Юпитера",
@@ -1659,7 +1877,7 @@
     },
     {
       "id": "cartm39",
-      "num": "60",
+      "num": "67",
       "page": "167",
       "fr": "Imagine di Giove, dio degli dei degli Antichi",
       "ru": "Образ Юпитера, бога богов древних",
@@ -1687,7 +1905,7 @@
     },
     {
       "id": "cartm40",
-      "num": "61",
+      "num": "68",
       "page": "169",
       "fr": "Imagine di Giove fulgorante contro gli spergiuri",
       "ru": "Образ громовержца Юпитера против клятвопреступников",
@@ -1715,7 +1933,7 @@
     },
     {
       "id": "cartm41",
-      "num": "62",
+      "num": "69",
       "page": "171",
       "fr": "Imagine della Fede, significata per il dio Fidio",
       "ru": "Образ Верности, означенной богом Фидием",
@@ -1743,7 +1961,7 @@
     },
     {
       "id": "cartm42",
-      "num": "63",
+      "num": "70",
       "page": "173",
       "fr": "Imagine del dio Fidio, custode della fedeltà di Giove",
       "ru": "Образ бога Фидия, хранителя верности Юпитера",
@@ -1771,7 +1989,7 @@
     },
     {
       "id": "cartm43",
-      "num": "64",
+      "num": "71",
       "page": "175",
       "fr": "Imagine di Giove circondato dalle tre Grazie",
       "ru": "Образ Юпитера в окружении трёх Граций",
@@ -1799,7 +2017,7 @@
     },
     {
       "id": "cartm44",
-      "num": "65",
+      "num": "72",
       "page": "177",
       "fr": "Imagine di Giove col Fulmine e con l'Asta",
       "ru": "Образ Юпитера с Молнией и Копьём",
@@ -1827,7 +2045,7 @@
     },
     {
       "id": "cartm45",
-      "num": "66",
+      "num": "73",
       "page": "179",
       "fr": "Imagine di Giove fulgorante, apportatore di piogge",
       "ru": "Образ громовержца Юпитера, подателя дождей",
@@ -1857,7 +2075,7 @@
     },
     {
       "id": "cartm46",
-      "num": "67",
+      "num": "74",
       "page": "183",
       "fr": "Imagine dell'oracolo di Giove Hammonio dei Trogloditi",
       "ru": "Образ оракула Юпитера Аммона у троглодитов",
@@ -1885,7 +2103,7 @@
     },
     {
       "id": "cartm47",
-      "num": "68",
+      "num": "75",
       "page": "185",
       "fr": "Imagine di Giove Hammonio degli Arcadi e degli Egizi",
       "ru": "Образ Юпитера Аммона у аркадцев и египтян",
@@ -1916,7 +2134,7 @@
     },
     {
       "id": "cartm_giovehammonfine",
-      "num": "69",
+      "num": "76",
       "page": "186",
       "fr": "Fine di Gioue Hammonio: il Montone, le vittime, Theagene, le trasformationi; inizio di Giunone",
       "ru": "Конец главы о Юпитере-Аммоне: Баран, жертвы, Феаген, превращения; начало главы о Юноне",
@@ -1942,7 +2160,7 @@
     },
     {
       "id": "cart5",
-      "num": "70",
+      "num": "77",
       "page": "190",
       "fr": "Giunone",
       "ru": "Юнона",
@@ -1970,7 +2188,7 @@
     },
     {
       "id": "cartm48",
-      "num": "71",
+      "num": "78",
       "page": "194",
       "fr": "Imagine di Iride, messaggera di Giunone",
       "ru": "Образ Ириды, вестницы Юноны",
@@ -1998,7 +2216,7 @@
     },
     {
       "id": "cartm49",
-      "num": "72",
+      "num": "79",
       "page": "196",
       "fr": "Imagine di Giunone Regina degli Dei",
       "ru": "Образ Юноны, царицы богов",
@@ -2026,7 +2244,7 @@
     },
     {
       "id": "cartm50",
-      "num": "73",
+      "num": "80",
       "page": "198",
       "fr": "Imagine di Castore e Polluce",
       "ru": "Образ Кастора и Поллукса",
@@ -2057,7 +2275,7 @@
     },
     {
       "id": "cartm_castoripileo",
-      "num": "74",
+      "num": "81",
       "page": "199",
       "fr": "Fine dei Castori: il Pileo, segno di libertà; inizio dei riti nuziali di Giunone",
       "ru": "Конец главы о Диоскурах: Пилей, знак свободы; начало свадебных обрядов Юноны",
@@ -2083,7 +2301,7 @@
     },
     {
       "id": "cartm51",
-      "num": "75",
+      "num": "82",
       "page": "203",
       "fr": "Imagine di Giunone Argiva e Giunone salvatrice",
       "ru": "Образ Юноны Аргивской и Юноны-Спасительницы",
@@ -2111,7 +2329,7 @@
     },
     {
       "id": "cartm52",
-      "num": "76",
+      "num": "83",
       "page": "205",
       "fr": "Imagine di Giunone protettrice del matrimonio",
       "ru": "Образ Юноны, покровительницы брака",
@@ -2141,7 +2359,7 @@
     },
     {
       "id": "cartm53",
-      "num": "77",
+      "num": "84",
       "page": "209",
       "fr": "Imagine d'Imeneo, dio del matrimonio",
       "ru": "Образ Гименея, бога брака",
@@ -2172,7 +2390,7 @@
     },
     {
       "id": "cartm_granmadreopen",
-      "num": "78",
+      "num": "85",
       "page": "210",
       "fr": "Fine d'Imeneo, e inizio de La Gran Madre (la Terra e i suoi molti nomi)",
       "ru": "Конец главы о Гименее и начало главы о Великой Матери (Земля и её многие имена)",
@@ -2198,7 +2416,7 @@
     },
     {
       "id": "cart6",
-      "num": "79",
+      "num": "86",
       "page": "214",
       "fr": "La Gran Madre",
       "ru": "Великая Матерь (Опа-Берекинфия)",
@@ -2227,7 +2445,7 @@
     },
     {
       "id": "cartm_cibeleatys",
-      "num": "80",
+      "num": "87",
       "page": "215",
       "fr": "Cibele: il carro, la quercia e il pino, la fauola di Ati e Agdiste, Claudia Vestale",
       "ru": "Кибела: колесница, дуб и сосна, миф об Атисе и Агдистис, весталка Клавдия",
@@ -2253,7 +2471,7 @@
     },
     {
       "id": "cartm54",
-      "num": "81",
+      "num": "88",
       "page": "219",
       "fr": "Simulacro della dea Cibele, sul suo carro",
       "ru": "Изваяние богини Кибелы на её колеснице",
@@ -2285,7 +2503,7 @@
     },
     {
       "id": "cartm_cibelefine",
-      "num": "82",
+      "num": "89",
       "page": "220",
       "fr": "Fine di Cibele: la Porcha sacrificata, la Terra adorata dai Germani, il Leone",
       "ru": "Конец главы о Кибеле: жертва свиньи, Земля, почитаемая германцами, Лев",
@@ -2311,7 +2529,7 @@
     },
     {
       "id": "cartm_vestachapter",
-      "num": "83",
+      "num": "90",
       "page": "223",
       "fr": "Vesta: le due Veste, le vergini Vestali, il fuoco perpetuo",
       "ru": "Веста: две Весты, девы-весталки, вечный огонь",
@@ -2337,7 +2555,7 @@
     },
     {
       "id": "cartm55",
-      "num": "84",
+      "num": "91",
       "page": "225",
       "fr": "Tempio in Roma della dea Vesta",
       "ru": "Храм богини Весты в Риме",
@@ -2365,7 +2583,7 @@
     },
     {
       "id": "cartm56",
-      "num": "85",
+      "num": "92",
       "page": "227",
       "fr": "Imagine di Cerere Siciliana",
       "ru": "Образ Цереры Сицилийской",
@@ -2397,7 +2615,7 @@
     },
     {
       "id": "cartm_cereeleusi",
-      "num": "86",
+      "num": "93",
       "page": "228",
       "fr": "Cerere: lo stemma col papauero, i misteri Eleusini, il sogno di Numenio",
       "ru": "Церера: герб с маком, Элевсинские мистерии, сон Нумения",
@@ -2423,7 +2641,7 @@
     },
     {
       "id": "cartm_cerereporco",
-      "num": "87",
+      "num": "94",
       "page": "231",
       "fr": "Cerere: le nozze senza vino, il Porco sacrificato, Hera, la fauola del cauallo",
       "ru": "Церера: свадьбы без вина, жертва свиньи, Эра, миф о коне",
@@ -2449,7 +2667,7 @@
     },
     {
       "id": "cartm57",
-      "num": "88",
+      "num": "95",
       "page": "233",
       "fr": "Statua di Cerere nera in Arcadia",
       "ru": "Статуя чёрной Цереры в Аркадии",
@@ -2478,7 +2696,7 @@
     },
     {
       "id": "cartm58",
-      "num": "89",
+      "num": "96",
       "page": "236",
       "fr": "Imagine di Pomona, dea degli Orti",
       "ru": "Образ Помоны, богини садов",
@@ -2506,7 +2724,7 @@
     },
     {
       "id": "cartm59",
-      "num": "90",
+      "num": "97",
       "page": "238",
       "fr": "Imagine della dea Proserpina e della dea Bona",
       "ru": "Образ богини Прозерпины и богини Бона",
@@ -2535,7 +2753,7 @@
     },
     {
       "id": "cartm60",
-      "num": "91",
+      "num": "98",
       "page": "241",
       "fr": "Imagine di Glauco, dio marino",
       "ru": "Образ Главка, морского бога",
@@ -2563,7 +2781,7 @@
     },
     {
       "id": "cartm61",
-      "num": "92",
+      "num": "99",
       "page": "243",
       "fr": "Imagine dei Tritoni, delle Nereidi e di Galatea",
       "ru": "Образ Тритонов, Нереид и Галатеи",
@@ -2592,7 +2810,7 @@
     },
     {
       "id": "cartm62",
-      "num": "93",
+      "num": "100",
       "page": "246",
       "fr": "Imagine delle Sirene Partenope, Leucosia e Ligia",
       "ru": "Образ сирен Партенопы, Левкосии и Лигии",
@@ -2620,7 +2838,7 @@
     },
     {
       "id": "cartm63",
-      "num": "94",
+      "num": "101",
       "page": "248",
       "fr": "Imagine di Scilla, scoglio siciliano",
       "ru": "Образ Сциллы, сицилийской скалы",
@@ -2648,7 +2866,7 @@
     },
     {
       "id": "cart7",
-      "num": "95",
+      "num": "102",
       "page": "250",
       "fr": "Nettuno",
       "ru": "Нептун",
@@ -2675,7 +2893,7 @@
     },
     {
       "id": "cartm64",
-      "num": "96",
+      "num": "103",
       "page": "253",
       "fr": "Imagine di Nettuno secondo Filostrato",
       "ru": "Образ Нептуна согласно Филострату",
@@ -2704,7 +2922,7 @@
     },
     {
       "id": "cartm65",
-      "num": "97",
+      "num": "104",
       "page": "256",
       "fr": "Imagine di Eurinome e di Derceto, dee marine",
       "ru": "Образ Евриномы и Дерцето, морских богинь",
@@ -2732,7 +2950,7 @@
     },
     {
       "id": "cartm66",
-      "num": "98",
+      "num": "105",
       "page": "258",
       "fr": "Imagini di Borea, Austro, Euro e Zefiro, i quattro venti",
       "ru": "Образы Борея, Австра, Эвра и Зефира, четырёх ветров",
@@ -2760,7 +2978,7 @@
     },
     {
       "id": "cartm67",
-      "num": "99",
+      "num": "106",
       "page": "260",
       "fr": "Imagini dei fiumi Cefiso e Po",
       "ru": "Образы рек Кефис и По",
@@ -2788,7 +3006,7 @@
     },
     {
       "id": "cartm68",
-      "num": "100",
+      "num": "107",
       "page": "262",
       "fr": "Imagine del Tevere, che mostra l'abbondanza",
       "ru": "Образ Тибра, являющего изобилие",
@@ -2816,7 +3034,7 @@
     },
     {
       "id": "cartm69",
-      "num": "101",
+      "num": "108",
       "page": "264",
       "fr": "Imagine del fiume Nilo, seduto sulla Sfinge",
       "ru": "Образ реки Нил, восседающей на Сфинксе",
@@ -2844,7 +3062,7 @@
     },
     {
       "id": "cartb18",
-      "num": "102",
+      "num": "109",
       "page": "266",
       "fr": "Vertunno, con Pomona",
       "ru": "Вертумн и Помона",
@@ -2875,7 +3093,7 @@
     },
     {
       "id": "cartm_vertunnopoem",
-      "num": "103",
+      "num": "110",
       "page": "267",
       "fr": "Il Vertunno: poesia in prima persona sulle sue mille forme",
       "ru": "Вертумн: стихотворение от первого лица о тысяче его обличий",
@@ -2901,7 +3119,7 @@
     },
     {
       "id": "cartm_plutoneopen",
-      "num": "104",
+      "num": "111",
       "page": "269",
       "fr": "Plutone: la spartitione dell'vniuerso, i tre Giudici dell'Inferno",
       "ru": "Плутон: раздел вселенной и три судьи преисподней",
@@ -2927,7 +3145,7 @@
     },
     {
       "id": "cart8",
-      "num": "105",
+      "num": "112",
       "page": "273",
       "fr": "Plutone",
       "ru": "Плутон",
@@ -2958,7 +3176,7 @@
     },
     {
       "id": "cartm_cerberus",
-      "num": "106",
+      "num": "113",
       "page": "274",
       "fr": "Cerbero, portinaio dell'Inferno, e lo scettro di Plutone",
       "ru": "Цербер, привратник преисподней, и скипетр Плутона",
@@ -2984,7 +3202,7 @@
     },
     {
       "id": "cartm_furieopen",
-      "num": "107",
+      "num": "114",
       "page": "277",
       "fr": "Le Furie: Eumenidi, Dee Severe, culto e tempii, l'invocazione di Giunone",
       "ru": "Фурии: Эвмениды, Суровые богини, их культ и храмы, призыв Юноны",
@@ -3010,7 +3228,7 @@
     },
     {
       "id": "cartm70",
-      "num": "108",
+      "num": "115",
       "page": "280",
       "fr": "Imagini di Aletto, Tisifone e Megera, le tre Furie",
       "ru": "Образы Алекто, Тисифоны и Мегеры, трёх Фурий",
@@ -3039,7 +3257,7 @@
     },
     {
       "id": "cartm71",
-      "num": "109",
+      "num": "116",
       "page": "283",
       "fr": "Imagine delle Arpie, Streghe e Lamie",
       "ru": "Образ Гарпий, Ведьм и Ламий",
@@ -3068,7 +3286,7 @@
     },
     {
       "id": "cartm72",
-      "num": "110",
+      "num": "117",
       "page": "286",
       "fr": "Imagine della Sfinge Tebana e della Chimera Licia",
       "ru": "Образ Сфинкс Фиванской и Химеры Ликийской",
@@ -3097,7 +3315,7 @@
     },
     {
       "id": "cartm73",
-      "num": "111",
+      "num": "118",
       "page": "289",
       "fr": "Imagini di Cloto, Lachesi e Atropo, le tre Parche",
       "ru": "Образы Клото, Лахесис и Атропос, трёх Парок",
@@ -3126,7 +3344,7 @@
     },
     {
       "id": "cartm74",
-      "num": "112",
+      "num": "119",
       "page": "292",
       "fr": "Imagine della Necessità e delle tre Parche",
       "ru": "Образ Необходимости и трёх Парок",
@@ -3154,7 +3372,7 @@
     },
     {
       "id": "cartm75",
-      "num": "113",
+      "num": "120",
       "page": "294",
       "fr": "Imagini delle tre Parche trovate in Stiria",
       "ru": "Образы трёх Парок, найденные в Штирии",
@@ -3182,7 +3400,7 @@
     },
     {
       "id": "cartm76",
-      "num": "114",
+      "num": "121",
       "page": "296",
       "fr": "Imagine di Caronte, nocchiero infernale",
       "ru": "Образ Харона, адского перевозчика",
@@ -3211,7 +3429,7 @@
     },
     {
       "id": "cart9",
-      "num": "115",
+      "num": "122",
       "page": "299",
       "fr": "Mercurio",
       "ru": "Меркурий",
@@ -3240,7 +3458,7 @@
     },
     {
       "id": "cartm_mercurioapertura",
-      "num": "116",
+      "num": "123",
       "page": "300",
       "fr": "Mercurio: il Caduceo e l'ambasceria; inizio della Pace",
       "ru": "Меркурий: кадуцей и посольство; начало главы о Мире",
@@ -3266,7 +3484,7 @@
     },
     {
       "id": "cartm77",
-      "num": "117",
+      "num": "124",
       "page": "304",
       "fr": "Imagine della Pace e dei suoi geroglifici",
       "ru": "Образ Мира и его иероглифов",
@@ -3294,7 +3512,7 @@
     },
     {
       "id": "cartm78",
-      "num": "118",
+      "num": "125",
       "page": "306",
       "fr": "Imagini della Concordia e della Fede",
       "ru": "Образы Согласия и Верности",
@@ -3322,7 +3540,7 @@
     },
     {
       "id": "cartm79",
-      "num": "119",
+      "num": "126",
       "page": "308",
       "fr": "Imagine di Mercurio inventore delle Lettere",
       "ru": "Образ Меркурия, изобретателя Письменности",
@@ -3350,7 +3568,7 @@
     },
     {
       "id": "cartm80",
-      "num": "120",
+      "num": "127",
       "page": "310",
       "fr": "Statue di Mercurio, dette Hermi",
       "ru": "Статуи Меркурия, называемые Гермами",
@@ -3392,7 +3610,7 @@
     },
     {
       "id": "cartm_night",
-      "num": "121",
+      "num": "128",
       "page": "314",
       "fr": "Imagine della Notte nutrice della Morte, & del Sonno",
       "ru": "Образ Ночи, кормилицы Смерти и Сна",
@@ -3417,7 +3635,7 @@
     },
     {
       "id": "cartm_merceloq",
-      "num": "122",
+      "num": "129",
       "page": "318",
       "fr": "Imagine di Mercurio dio della eloquenza, & del dio Anubi",
       "ru": "Образ Меркурия, бога красноречия, и бога Анубиса",
@@ -3442,7 +3660,7 @@
     },
     {
       "id": "cartm_anubis",
-      "num": "123",
+      "num": "130",
       "page": "320",
       "fr": "Imagine di Anubide Dio della Sagacità",
       "ru": "Образ Анубиса, бога проницательности",
@@ -3467,7 +3685,7 @@
     },
     {
       "id": "cartm_hercgall",
-      "num": "124",
+      "num": "131",
       "page": "322",
       "fr": "Imagine di Hercole appo Francesi, Dio della eloquenza",
       "ru": "Образ Геркулеса у галлов, бога красноречия",
@@ -3492,7 +3710,7 @@
     },
     {
       "id": "cartm81",
-      "num": "125",
+      "num": "132",
       "page": "326",
       "fr": "Imagine d'Ercole armato e banchettante",
       "ru": "Образ вооружённого и пирующего Геркулеса",
@@ -3523,7 +3741,7 @@
     },
     {
       "id": "cartm_ercolemosche",
-      "num": "126",
+      "num": "133",
       "page": "327",
       "fr": "Ercole: sacrifici, cani e mosche vietati, Gioue scacciatore di mosche; Ercole e Apollo contendono il Tripode",
       "ru": "Геркулес: жертвоприношения, запрет собак и мух, Юпитер-прогонитель мух; спор Геркулеса и Аполлона за Треножник",
@@ -3549,7 +3767,7 @@
     },
     {
       "id": "cartm82",
-      "num": "127",
+      "num": "134",
       "page": "331",
       "fr": "Apollo ed Ercole contendono per il Tripode",
       "ru": "Аполлон и Геркулес спорят из-за треножника",
@@ -3577,7 +3795,7 @@
     },
     {
       "id": "cart10",
-      "num": "128",
+      "num": "135",
       "page": "333",
       "fr": "Minerva (con Mercurio)",
       "ru": "Минерва (вместе с Меркурием)",
@@ -3604,7 +3822,7 @@
     },
     {
       "id": "cartm83",
-      "num": "129",
+      "num": "136",
       "page": "336",
       "fr": "Imagine di Vulcano che apre il capo a Giove",
       "ru": "Образ Вулкана, рассекающего голову Юпитеру",
@@ -3633,7 +3851,7 @@
     },
     {
       "id": "cartm84",
-      "num": "130",
+      "num": "137",
       "page": "339",
       "fr": "Imagine di Bellona, dea della guerra",
       "ru": "Образ Беллоны, богини войны",
@@ -3662,7 +3880,7 @@
     },
     {
       "id": "cartm85",
-      "num": "131",
+      "num": "138",
       "page": "342",
       "fr": "Imagine di Minerva inventrice del filare e tessere",
       "ru": "Образ Минервы, изобретательницы прядения и ткачества",
@@ -3690,7 +3908,7 @@
     },
     {
       "id": "cartm86",
-      "num": "132",
+      "num": "139",
       "page": "344",
       "fr": "Imagine della Virtù e dell'Onore",
       "ru": "Образ Доблести и Чести",
@@ -3718,7 +3936,7 @@
     },
     {
       "id": "cartm87",
-      "num": "133",
+      "num": "140",
       "page": "346",
       "fr": "Imagini della dea Volupia",
       "ru": "Образы богини Волюпии",
@@ -3747,7 +3965,7 @@
     },
     {
       "id": "cartm88",
-      "num": "134",
+      "num": "141",
       "page": "349",
       "fr": "Imagine della dea Angerona e del dio del Silenzio",
       "ru": "Образ богини Ангероны и бога Молчания",
@@ -3815,7 +4033,7 @@
       "text_fr": [
         "Du silence et de la sagesse de Minerve : on rapporte du Loup qu'il rend enroué quiconque le voit avant d'être vu lui-même, et qu'ayant dérobé quelque chose, il s'enfuit si silencieusement qu'il n'ose presque pas respirer. À Harpocrate fut dédié le pêcher, car cet arbre a des feuilles semblables à la langue humaine, tandis que ses fruits ressemblent au cœur — comme pour montrer que la langue doit révéler ce qui est dans le cœur, sans toujours y être tenue, si l'on y songe bien. Et c'est pourquoi le silence, en son temps, est une vertu, comme le montra Minerve, qui chassa loin d'elle la Corneille, oiseau bavard et criard ; car l'homme prudent ne doit pas perdre son temps en multiples paroles vaines, mais, gardant le silence, doit bien peser les choses avant d'en juger, et n'en dire ensuite que ce qui est nécessaire. C'est peut-être ce que voulait montrer la statue de cette déesse chez les Messéniens, laquelle, selon la description de Pausanias, tenait une Corneille à la main — comme en signe que la parole doit être dans la main du sage, pour qu'il puisse la relâcher ou la retenir, selon l'occasion et le besoin. Minerve tenait aussi une longue lance à la main, comme je l'ai dit, que tous les poètes lui donnent ; et Apulée la décrit de même la brandissant, et, levant le bras, soulevant son bouclier, et qu'avec elle marchent deux êtres semblables à des jeunes gens, qui, lames nues à la main, semblent avancer menaçants : l'un est l'Épouvante (Spauento), l'autre la Crainte (Timore), car les guerres ne vont jamais sans eux. Ainsi, dépeignant Mars allant par ordre de Jupiter semer la guerre entre les Argiens et les Thébains, Stace dit qu'il prit avec lui l'Épouvante et la Crainte et les envoya devant lui, et les décrit en partie par l'image, en partie par les qualités qui en procèdent, de cette manière :\n\n« De la cruelle foule qui l'entoure, il choisit l'Épouvante et l'envoie devant, monté sur un coursier à qui nul n'égale en puissance — pour faire craindre les autres, plus que pour avancer lui-même. À cause de lui, les hommes semblent mépriser la vérité, quand dans leur poitrine craintive niche cette bête redoutable, pourvue de voix et de mains innombrables, toujours promptes et hardies au mal. Un seul visage n'est pas le sien, mais plusieurs, tous d'aspects variés, changeant d'heure en heure, selon qu'il lui plaît de les accorder aux nouvelles effrayantes qu'il porte dans le cœur des hommes, lesquels y sont si fort assujettis qu'ils sont contraints de tout croire. Et avec une telle épouvante il assaille souvent les cités, qui ensuite croient tout mal... »\n\nPausanias note que l'Épouvante était représentée de deux manières par les anciens : l'une avec une tête de Lion, telle qu'elle était sculptée, dit-il, chez les Éléens sur le bouclier d'Agamemnon ; l'autre avec le visage et l'habit d'une femme, mais aussi effrayante qu'on puisse le décrire. Et une telle image de l'Épouvante fut dédiée par les Corinthiens aux enfants de Médée, tués à cause des présents funestes qu'ils avaient apportés à la fille de Créon, par lesquels celle-ci périt avec toute la maison royale. Mais l'Épouvante ne fut pas toujours crue nuisible, car Plutarque écrit qu'elle était adorée par les Lacédémoniens non parce qu'ils la craignaient, comme certains autres démons qu'ils voulaient tenir loin de la cité, mais parce qu'ils pensaient que la république se conservait par elle, quand les lois et les magistrats étaient craints. D'où vint que les Éphores, qui étaient le magistrat suprême, dès leur entrée en charge (comme le dit Aristote) ordonnaient aussitôt et faisaient proclamer par la ville que chacun se rasât et obéît aux lois, afin de n'être pas contraints de mal agir envers quiconque, et pour accoutumer les jeunes gens à l'obéissance même dans les petites choses. En outre, les anciens ne croyaient pas que la vraie force fût de ne rien craindre du tout, mais croyaient que la vraie force était de craindre de souffrir quelque chose d'indigne ; et ils estimaient que celui-là est toujours plus hardi contre les ennemis qui craint d'enfreindre les lois, que celui qui n'en tient aucun compte ; et que la crainte d'acquérir mauvaise réputation rend les hommes plus fermes à supporter toute peine et tout péril. Telle est la crainte que doivent avoir les peuples ; et c'est pourquoi les Lacédémoniens placèrent le temple de la Crainte à côté de la maison des Éphores. Ceci, peut-être, Tullus Hostilius, roi des Romains, le comprit aussi, lorsqu'il ordonna (comme le rapporte Lactance) que la Crainte et la Pâleur fussent adorées ensemble, car il arrive rarement que celui qui craint ne pâlisse pas. Et il mérita bien, les ayant trouvées si convenables, comme le dit ce même Lactance, d'avoir toujours ses dieux avec lui et de ne jamais les abandonner. Mais pour en revenir à Minerve : elle montre, tout en brandissant la lance et en levant le bouclier ensemble, comme le donne Apulée, les menaces de la guerre ; et le bouclier, qui était de cristal très limpide et couvrait le corps de tout ce qui pourrait venir le blesser, montrait que l'esprit de l'homme prudent, bien que couvert de membres terrestres, ne l'est que pour le garder et le protéger, et non pour en être obscurci au point de ne plus voir la vérité des choses. Et parce que les boucliers sont communément de forme ronde, bien que celui de Minerve se voie parfois fait autrement, Martianus écrivit que le bouclier au bras de Minerve signifiait que le Monde, lequel est pareillement de forme ronde, est gouverné avec une prudence souveraine et infinie, et non par le hasard, comme le voulurent Démocrite et Épicure. Et la lance signifie que l'homme prudent peut nuire à autrui même de loin ; ou que la force de la prudence est telle qu'elle pénètre toute dureté des choses les plus difficiles, et s'élève souvent si haut qu'elle atteint le Ciel. D'où Claudien fit la lance de Minerve si longue et si haute qu'elle dépassait les nuées. Et Homère, pour exprimer peut-être mieux encore cela, imagine que Minerve, voulant apparaître à Télémaque, pour lui mettre en l'esprit d'aller chercher son père Ulysse, chausse à ses pieds les sandales ailées d'or — celles-là mêmes que, comme nous l'avons dit à propos de l'image de Mercure, il porte — et ne prend avec elle rien d'autre que la lance. On trouve aussi chez Marcus Tullius, où il écrit de la nature des dieux, qu'il y eut une certaine Minerve (car il en compte cinq) qui était imaginée ayant des ailes aux pieds. Pausanias écrit de même que dans la main de cette image de Minerve qui avait sur son casque, comme je l'ai déjà dit, le Sphinx et les Griffons, il y avait une longue lance ; et, continuant à la décrire, dit qu'elle se tenait debout, vêtue d'une certaine tunique la couvrant jusqu'à terre, et sous la cuirasse (qui gisait à ses pieds) se trouvait le bouclier ; on y ajoute aussi la Chouette, et qu'au pied de la lance se trouvait un Serpent. De là Démosthène tira son argument, lorsqu'il fut contraint de s'exiler, disant que Minerve, dont le nom était proprement celui d'Athènes, se complaisait trop en trois étranges bêtes — la Chouette, le Serpent et le Peuple (Popolo) — car dans la république d'Athènes le peuple comptait beaucoup, et tournait les choses au pire chaque fois qu'il se sentait offensé. Mais, comme je l'ai déjà dit de la Chouette, je le dis aussi du Serpent — il fut donné à Minerve en signe de perspicacité et de prudence. D'où à Rome, devant la grande image de Minerve, à ses pieds gisait le Serpent, tout entier lové sur lui-même, ne levant que la tête derrière le bouclier qu'elle tenait au bras — comme le dit Servius, où Virgile relate que les deux serpents qui tuèrent Laocoon et ses fils allèrent droit au temple de Minerve et là se couchèrent aux pieds de la déesse, sous le bouclier. De la tunique qu'elle porte sur la cuirasse, Hérodote écrit que les Grecs prirent cette manière de se vêtir des femmes africaines qui habitent autour du marais Tritonien.\n\nElle [Méduse] était belle, et avait les cheveux d'or. D'où Neptune, épris d'elle, coucha avec elle dans le temple de Minerve ; et la déesse, grandement offensée et irritée de cela, fit que Méduse — qui auparavant avait été belle et agréable à voir — devînt en tout point terrible et effrayante, changeant ses cheveux d'or en hideux serpents, et voulut que quiconque la regarderait fût aussitôt changé en pierre. Mais comme le monde ne pouvait supporter un monstre si étrange, Persée la tua avec l'aide déjà mentionnée, et donna sa tête à Minerve, qui depuis la porta toujours sur son bouclier, ou sur la poitrine de sa cuirasse. Cela, Homère le montre aussi, quand il représente la déesse s'armant pour marcher contre les Troyens : il dit qu'elle est environnée d'une terrible Épouvante, et qu'outre la tête de Méduse s'y trouvent aussi l'audace hardie, la ferme constance et les menaces redoutables — qualités toutes propres à la déesse des guerres, comme l'est la Victoire elle-même. D'où Pausanias dit que les Athéniens la placèrent sur la poitrine avec la tête de Méduse, tandis que chez les Éléens elle se tenait à côté sans ailes. Tout cela montre la force du savoir et de la prudence, car celle-ci, par ses œuvres merveilleuses et ses sages conseils, frappe autrui d'étonnement, le faisant comme se pétrifier d'émerveillement, de sorte qu'elle obtient facilement ce qu'elle veut, pourvu qu'elle sache se présenter avec art — car par cette tête terrible est signifiée la langue. Elle était parfois couverte d'un beau manteau jeté sur la déesse, appelé par les anciens le Péplos — une sorte particulière de vêtement sans manches, utilisé sur les images des dieux, comme le dit Lactance en commentant Stace — blanc, et tout brodé d'étoiles d'or, que les matrones elles-mêmes faisaient de leurs mains et offraient tous les trois ans. Mais parce que ce fut une invention des Athéniens, pour qui Minerve était la divinité principale, le Péplos désignait le plus souvent ce grand vêtement ou manteau qui était offert à cette déesse tous les cinq ans avec une cérémonie des plus solennelles — bien que Suidas dise que ce n'était pas un vêtement, mais la voile d'un certain navire, qui au temps susdit était orné des plus beaux ornements en l'honneur de Minerve lors de ses fêtes ; et c'était aussi la coutume des anciens d'offrir le Péplos quand, dans quelque grand péril, ils voulaient implorer la faveur de la déesse. D'où Homère raconte qu'Hécube, sur le conseil de son fils Hélénus, accompagnée des plus nobles matrones, voyant les Troyens refoulés par les Grecs jusque dans les murs, rassemble parmi ses plus beaux et précieux vêtements un grand et riche Péplos et le porte au temple de Pallas, où il est offert par Théano, femme d'Anténor, femme alors tenue en la plus grande vénération parmi les Troyennes — et toutes ensemble prient la déesse de leur être favorable. Cela, Virgile l'imita aussi, dépeignant la guerre de Troie dans le temple de Junon à Carthage, disant..."
       ],
-      "num": "135",
+      "num": "142",
       "img": [
         "cartm_minervagorgon.jpg"
       ],
@@ -3845,7 +4063,7 @@
       "text_fr": [
         "Image de Jupiter, lanceur de foudre contre les Géants, qui par leurs jambes de serpent représentent les impies contempteurs de Dieu, ne faisant jamais rien de droit ni de juste."
       ],
-      "num": "136",
+      "num": "143",
       "scans": [],
       "group": "Главный текст",
       "group_en": "Main text",
@@ -3866,7 +4084,7 @@
       "text_fr": [
         "...ce que l'esprit a conçu. L'une s'entend pour Minerve, l'autre pour Vulcain, c'est-à-dire pour le feu. Car sous le nom de Vulcain on entend le feu, qui nous sert d'instrument pour faire toutes choses, parce que le feu chauffe et resplendit, et qu'à défaut de lumière et de chaleur rien ne peut se faire. Il est bien vrai aussi que l'art ne peut pas toujours mettre en effet tout ce que trouve l'esprit, car celui-ci est lié au corps et ne peut s'en séparer, ni faire plus qu'il ne peut ; mais l'esprit le quitte souvent, et discourt à son gré en considérant les œuvres de la nature et ce que fait Dieu, et s'imagine parfois de pouvoir faire lui aussi des choses semblables, dont on ne voit cependant jamais aucun effet, car ce sont des imaginations vaines. D'où fut forgée la fable que Vulcain ne put jamais s'unir à Minerve, bien qu'il en fît tout son effort, Jupiter le lui ayant pourtant accordé. Mais les anciens, malgré cela, placèrent souvent les simulacres des deux dans un même temple. Et Platon aussi les met ensemble, disant dans son Atlanticus que tous deux sont également les divinités d'Athènes, car là fleurissaient également tous les arts et l'étude des sciences. Comme on lit aussi de Neptune et de Minerve, que par l'ordre de Jupiter ils gouvernèrent ensemble Athènes. C'est pourquoi les Athéniens frappaient sur leurs monnaies, d'un côté la tête de Minerve, et de l'autre le Trident, insigne de Neptune, qu'ils appelaient aussi Roi, et à Minerve ils donnaient le nom de Civile et d'Urbaine, car il convient de gouverner les cités pacifiquement et avec prudence. Cela n'est pas moins nécessaire dans les maisons privées, et c'est pourquoi sur leurs portes, comme sur celles de la ville, les anciens avaient coutume de peindre Minerve, tandis qu'ils peignaient Mars dehors, hors des villages, montrant par là qu'il faut tenir la guerre aussi éloignée que possible. Et parce que les Romains se gardaient de tenir dans la ville ces divinités dont ils pensaient qu'elles s'occupaient de choses nuisibles, le temple de Bellone et celui de Mars se trouvaient hors de la ville. Mais il y en eut un à l'intérieur, honoré comme pacifique, nommé Quirinus, comme je l'ai déjà écrit dans le Flavius, où j'en ai donné la raison des deux. Et de lui je parlerai plus tard, après avoir parlé de Vulcain, duquel on lit ce qui suit chez Eusèbe. On dit que Vulcain est la vertu et la puissance du feu, et l'on fait sa statue en forme d'homme avec un bonnet de couleur azurée sur la tête, en signe de la révolution des cieux, et auprès de lui se trouve le vrai feu, pur et sincère : ce qu'on ne peut dire de celui que nous avons, car il ne se maintient pas de lui-même, mais a continuellement besoin de matière nouvelle qui le nourrisse et l'entretienne. Et Vulcain fut représenté boiteux, car telle paraît être la flamme : car, en brûlant, elle ne monte pas tout droit, mais se tord et se démène çà et là, parce qu'elle n'est pas pure ni légère, comme la vapeur ignée et embrasée qui descend de la partie inférieure de l'air, la plus épaisse, la plus dense et la plus brumeuse. Quand Vulcain eut grandi, et, se souvenant du tort que lui avait fait sa mère [Junon], voulant se venger d'elle ou l'empêcher de nuire — comme il s'apprêtait à le faire contre Hercule, selon ce que rapporte Suidas d'après Pindare et Épicharme — il lui envoya en présent un beau siège doré, fait avec un tel art que, dès qu'elle s'y assit, elle se trouva liée de telle sorte qu'il n'était possible de la délivrer, même à tous les dieux du Ciel. Alors ils cherchèrent le moyen de l'attirer là-haut pour délivrer Junon, à qui il pesait trop de rester ainsi liée ; mais lui, ne se fiant à aucun d'eux, ne voulut jamais y aller. Enfin il ne se fia qu'à Bacchus seul, qui peut-être l'enivra bien, et avec lui monta au Ciel délivrer Junon de l'ingénieux siège. Ainsi Pausanias rapporte ces fables grecques, et dit que parmi les autres peintures que possédaient les Athéniens se trouvait celle-ci, représentant Bacchus menant Vulcain au Ciel pour délier Junon ; et chez les Lacédémoniens, dans le temple de Minerve, se trouvait également Vulcain, déliant sa mère. On le représente aussi demeurant dans une vaste caverne avec les Cyclopes à la forge, où allaient les dieux chaque fois qu'il leur fallait quelque arme, pour eux-mêmes ou pour d'autres — comme à leur propre forgeron — ainsi qu'y alla Thétis chercher des armes pour Achille son fils, et il en fut fait de même sur le coffre de Cypsélos, selon le récit de Pausanias, qui ne donne d'autre signe que celui qui donne les armes à Thétis soit Vulcain, sinon qu'il est boiteux. Et près de lui se tenait l'un des siens avec de grandes tenailles à la main ; et Vénus aussi reçut de lui des armes, qu'elle donna ensuite à Énée. Et quand les poètes veulent décrire quelque chose de grand, fait avec grand art, ils disent que cela fut fait soit par Vulcain lui-même, soit par les Cyclopes à sa forge. Ces choses peuvent s'accorder avec ce que Suidas rapporte historiquement de lui, qu'il fut roi en Égypte et fut adoré comme dieu, car il connaissait tous les secrets de la religion, fut très belliqueux, d'où, blessé en bataille, il resta boiteux, et fut le premier à employer le fer pour fabriquer des armes de guerre et des outils pour cultiver les champs. On forgea aussi des fables selon lesquelles Vulcain naquit de Junon : voyant que Jupiter avait eu des enfants sans elle, elle voulut elle aussi en avoir sans lui, et par une certaine vertu d'une fleur que lui montra Flore, comme le raconte Ovide — ou, comme d'autres le disent, en frappant la terre de sa main — elle conçut de Mars et l'enfanta ensuite en Thrace, où le peuple est extrêmement féroce et porté facilement aux guerres. Ce qui nous montre que les guerres naissent pour la plupart du désir de posséder des royaumes et des richesses, signifiés par Junon. Mars fut fait par les anciens féroce et terrible d'aspect, tout armé, avec une lance à la main et un fouet, et on le plaçait tantôt à cheval, tantôt sur un char, et surtout les poètes, presque tous, à commencer par Homère, qui dit que son char est tiré par deux chevaux, qui sont la Terreur et l'Effroi. Et ailleurs il représente que ce ne sont plus des chevaux, mais des personnes, qui accompagnent toujours Mars, et qu'avec lui vont également l'Impétuosité, la Fureur et la Violence. Imitant cela, Stace, quand il fait aller Mars semer la guerre entre les deux frères Étéocle et Polynice pour le royaume de Thèbes, ayant d'abord décrit les armes de ce dieu — à savoir : le casque brillant, qui semblait brûler, comme si la foudre en était le cimier, la cuirasse dorée, toute pleine de monstres terribles et effrayants, et le bouclier étincelant, resplendissant d'une lumière sanglante — dit qu'autour de lui, ornant sa tête, se trouvent la Fureur et la Colère, et que la Terreur gouverne les rênes des chevaux, et que devant tout cela vole, battant des ailes, la Renommée, n'apportant pas moins de faux que de vrai, car elle est une sorte de rumeur, née d'un petit commencement et croissant ensuite au point de remplir villes et pays ; d'où elle est appelée par Homère la messagère et l'envoyée de Jupiter. Les anciens firent aussi de la Renommée une déesse, et la représentèrent sous la forme d'une femme, vêtue d'un tissu fin et toute ceinte, paraissant courir avec vélocité, une trompette résonnante aux lèvres. Et pour mieux montrer sa rapidité, ils lui ajoutèrent des ailes et la firent toute couverte d'yeux, comme la décrit Virgile, l'appelant monstre effroyable et la représentant toute empennée, et que, autant elle a de plumes, autant elle a d'yeux vigilants et toujours ouverts, et autant de bouches avec autant de langues, ne se taisant jamais, et autant d'oreilles, toujours tendues à écouter ; et il dit qu'elle vole toute la nuit, ne dormant jamais, et le jour se pose sur les hautes tours, d'où elle épouvante les malheureux mortels, leur apportant le plus souvent de mauvaises nouvelles. Néanmoins, comme parfois elle apporte aussi de bonnes nouvelles, on a dit que la Renommée n'est pas une seule, mais deux ; et l'on appelait bonne celle qui annonçait le bien, et mauvaise celle qui portait le mal ; et celle-ci, à la différence de la première, avait les ailes noires, d'où Claudien, écrivant contre Alaric, dit que la Renommée déploya ses ailes noires, que d'aucuns comparent aux ailes de la chauve-souris. La Renommée vole devant le char de Mars..."
       ],
-      "num": "137",
+      "num": "144",
       "img": [
         "cartm_vulcanmyth.jpg"
       ],
@@ -3896,7 +4114,7 @@
       "text_fr": [
         "Image de Vulcain, dieu du Feu, avec sa forge et les Cyclopes, qui forgeaient les traits de Jupiter et les armes des dieux et des héros. Vulcain est aussi pris pour la chaleur naturelle et génératrice."
       ],
-      "num": "138",
+      "num": "145",
       "scans": [],
       "group": "Главный текст",
       "group_en": "Main text",
@@ -3921,7 +4139,7 @@
       "text_fr": [
         "Image de Mars, dieu de la guerre, de son char, et de la Renommée, sa messagère et avant-courrière, qui dit toujours plus qu'il n'en est en effet. Et par Mars on entend cette ardeur du Soleil qui enflamme le sang et les esprits, les rendant ensuite enclins aux colères, aux guerres et aux fureurs."
       ],
-      "num": "139",
+      "num": "146",
       "scans": [],
       "group": "Главный текст",
       "group_en": "Main text",
@@ -3946,7 +4164,7 @@
       "text_fr": [
         "Image de la Fureur et de la Colère, et de leurs mauvais effets, qui sont de mépriser tout danger, fût-il manifestement mortel et ruineux pour l'honneur, sans égard ni pour Dieu, ni pour les hommes, ni pour les amis ou les proches, ni même pour son propre intérêt ; car le furieux et le colérique perdent la raison dans la fureur et dans la colère."
       ],
-      "num": "140",
+      "num": "147",
       "scans": [],
       "group": "Главный текст",
       "group_en": "Main text",
@@ -3967,7 +4185,7 @@
       "text_fr": [
         "...car au commencement des guerres on dit souvent davantage de ce qui s'ensuivra qu'il n'en est en réalité, bien que les cœurs des deux côtés soient enflammés d'une très grave colère ; car rarement en vient-on à de cruelles batailles sans elle. Sénèque écrit que la colère semble posséder en nous plus de force que beaucoup d'autres passions qui nous troublent, car elle ne détourne pas seulement l'âme du droit chemin de la raison, mais change souvent aussi le corps lui-même. Et c'est pourquoi Ovide, et de même Sénèque, disent que le visage des gens en colère s'enfle tout entier, et que leurs yeux semblent s'enflammer, de sorte que l'homme en colère devient terrible et offre un spectacle non moins effrayant que l'horrible visage de Méduse. Ce bref croquis, je l'ai fait de la personne en colère, car je ne trouve pas que les anciens aient fait aucune image de la Colère elle-même, afin que qui le voudrait pût en faire le portrait — la Colère, aussi appelée Fureur, qui n'est autre que la colère enflammée et embrasée.\n\nLes anciens le représentaient terrible de visage, presque ensanglanté, grinçant des dents, assis sur des cuirasses, des casques, des boucliers, des épées et autres armures, les mains liées derrière le dos par de fortes chaînes — ainsi Virgile le décrit, le représentant enfermé derrière les portes de la guerre, qui étaient les portes du temple de Janus, comme je l'ai déjà dit, fermées en temps de paix et ouvertes en temps de guerre. On le représenta aussi délié, comme il appert de la description de Pétrone, où il commence à écrire sur la guerre civile. Mais pour en revenir à Mars : certains donnèrent à son char quatre chevaux, si terribles et si féroces qu'ils soufflaient le feu. Et Isidore écrit que Mars était parfois représenté la poitrine nue, car quiconque va au combat doit y aller l'esprit prêt à s'exposer hardiment à tous les dangers. On lit chez Hérodote que les Scythes adoraient de nombreux dieux, mais n'élevèrent ni temples ni autels à aucun sinon à Mars, bien qu'ils sacrifiassent à tous de la même manière — rite que je crois digne d'être rapporté ici, car il était ainsi : la victime se tenait les pattes avant liées, et le prêtre s'approchait d'elle par-derrière, la tirait par la tête, et quand elle tombait, il invoquait le dieu auquel il sacrifiait ; puis il lui mettait un lacet au cou et, le tordant avec un bâton, l'étranglait, et, l'ayant dépecée, la faisait bouillir sur un feu fait des os de l'animal lui-même, après en avoir d'abord ôté toute la chair, car en Scythie le bois manque grandement, et si parfois ils n'avaient pas de chaudrons, ils mettaient la viande avec l'eau directement dans le ventre de l'animal et l'y faisaient bouillir, de sorte que la victime elle-même devenait un récipient pour elle-même et cuisait en elle-même. Cela fait, le prêtre offrait le sacrifice au dieu auquel il était destiné. Et parmi les autres animaux que ces peuples sacrifiaient, le cheval était la victime principale, surtout pour Mars, dont le temple était fait chez les Scythes de telle manière..."
       ],
-      "num": "141",
+      "num": "148",
       "img": [
         "cartm_marsnature.jpg"
       ],
@@ -3997,7 +4215,7 @@
       "text_fr": [
         "Image du Temple de Mars, dieu de la guerre, tel qu'il était fait chez les Scythes, et de la figure de Mars chez ceux d'Arabie pétrée, entendu aussi comme le Soleil, et sa force dans toutes les actions humaines."
       ],
-      "num": "142",
+      "num": "149",
       "scans": [],
       "group": "Главный текст",
       "group_en": "Main text",
@@ -4022,7 +4240,7 @@
       "text_fr": [
         "Image de la Discorde selon Aristide, laquelle, pour ses funestes effets, fut chassée du Ciel et ne fut pas invitée avec les autres dieux aux noces de Pélée et de Thétis, parents d'Achille, afin qu'elle ne les troublât pas de ses poisons ; et pourtant elle les troubla en jetant la pomme d'or, signifiant qu'aux fauteurs de troubles les occasions de discorde ne manquent jamais."
       ],
-      "num": "143",
+      "num": "150",
       "scans": [],
       "group": "Главный текст",
       "group_en": "Main text",
@@ -4043,7 +4261,7 @@
       "text_fr": [
         "...selon la loi de justice, un tribun de la plèbe qui osa le nommer. C'est pourquoi, puisque les lois sacrées ne sont pas toujours entièrement observées par chacun, les anciens tenaient certains dieux liés, afin qu'ils ne s'en allassent pas d'auprès d'eux, comme le rapporte Quinte-Curce, que les habitants de Tyr, en Phénicie, lièrent de chaînes d'or le simulacre d'Apollon, l'un de leurs principaux dieux, et l'attachèrent à l'autel d'Hercule, à qui la ville était confiée — afin qu'il le retînt et ne le laissât pas partir, car un citoyen avait dit avoir vu en songe le dieu abandonner la ville et s'en aller, au moment où Alexandre l'assiégeait, voulant la prendre. À quoi semble ressembler aussi ce que firent les Athéniens, en tenant la Victoire sans ailes, comme on le lit chez Pausanias, afin qu'elle ne s'envolât pas loin d'eux ; et elle était ainsi, comme le dit Héliodore, avec une grenade dans la main droite et un casque dans la gauche. Et les Romains, afin qu'elle demeurât plus volontiers avec eux, lui donnèrent pour siège le Capitole (comme l'écrit Tite-Live) et lui dédièrent le temple de Jupiter Très bon et Très grand, lorsque Hiéron, après la défaite que les Carthaginois leur infligèrent à Cannes, leur envoya en présent une Victoire d'or avec d'autres dons de grande valeur, qu'ils renvoyèrent tous, ne retenant que le simulacre de la Victoire comme bon augure. Les anciens la firent pour la plupart avec des ailes, sous la forme d'une belle Vierge, volant dans les airs, offrant d'une main une couronne de laurier ou d'olivier blanc, et tenant de l'autre une branche de palme, comme on le voit sur les anciennes médailles et sur les anciens marbres, et parfois on la voit avec la seule couronne, parfois avec la seule branche de palme. Les Romains la firent souvent avec une branche de laurier à la main, car ils tenaient aussi ce signe pour l'unique marque de la Victoire, et l'attachaient aux lettres qui apportaient de bonnes nouvelles, et, se réjouissant de quelque victoire, allaient déposer ses feuilles dans le giron de Jupiter Très bon et Très grand, et les plus dignes généraux, triomphant, s'en faisaient une couronne. Les Égyptiens, dans leurs écrits sacrés, représentaient la Victoire avec l'Aigle, car celui-ci surpasse en valeur tous les autres oiseaux, d'où vint peut-être que, parmi tous les autres étendards que les Romains portaient à la guerre sur leurs enseignes, l'Aigle était le principal et le plus fréquemment employé, car on lit qu'ils portaient aussi le Loup, parce que c'était la bête de Mars ; ils portaient le Minotaure, pour montrer que le dessein du général et tout son plan doivent rester cachés, comme cette bête l'était dans le Labyrinthe ; et ils portaient aussi le Sanglier, car sans lui jamais ils ne concluaient de trêve ni n'établissaient de paix, et ils accomplissaient à cette occasion un tel rite : se rassemblaient certains hommes désignés de part et d'autre, qui devaient conclure la paix ou la trêve, et le prêtre, à qui cette charge était confiée et qu'on appelait le Fécial, après certaines paroles solennelles et la proclamation des conditions et accords conclus entre eux..."
       ],
-      "num": "144",
+      "num": "151",
       "img": [
         "cartm_victorydiscordia.jpg"
       ],
@@ -4073,7 +4291,7 @@
       "text_fr": [
         "Image de la Victoire avec ses insignes — l'Aigle, la Palme et le Laurier : l'Aigle, reine des oiseaux et de bon augure ; la Palme, qui résiste à toute force et en cède une part de sa substance ; le Laurier, toujours vert et jamais touché par la foudre — ainsi le vainqueur surmonte la difficulté par la Vertu et demeure immortel."
       ],
-      "num": "145",
+      "num": "152",
       "scans": [],
       "group": "Главный текст",
       "group_en": "Main text",
@@ -4098,7 +4316,7 @@
       "text_fr": [
         "Image de la Victoire armée, et de la même sans ailes. La première est faite pour représenter les causes de la Victoire, qui sont le labeur et la sueur. La seconde représente le souhait de ceux qui la figuraient ainsi — qu'ils ne fussent jamais abandonnés de la Victoire."
       ],
-      "num": "146",
+      "num": "153",
       "scans": [],
       "group": "Главный текст",
       "group_en": "Main text",
@@ -4119,7 +4337,7 @@
       "text_fr": [
         "...ni de celle [la Victoire] que le peuple insensé imagina belle, jeune et hardie, aux cheveux d'or tantôt rassemblés, tantôt dénoués, ceinte en travers de la poitrine d'une étoffe fine qui, agitée par le vent et par sa course, ondoie de sorte qu'on voit sa jambe blanche. Ni moins de Mars, comme le faisaient les anciens Romains, qui, lui sacrifiant le cheval qui s'était montré le plus rapide à la course parmi les vainqueurs, voulaient montrer par là qu'ils reconnaissaient tenir de lui la victoire — bien que certains disent que cela se faisait pour punir la vélocité, qui n'est autre que la meilleure aide de celui qui fuit, et pour faire entendre qu'il ne faut pas espérer dans la fuite. Ils donnaient aussi à Mars, en sacrifice et pour l'accompagner, divers animaux, tels que le Chien et le Loup, qu'on peut ajouter à son image : celui-ci parce qu'il est féroce, comme l'écrit Pausanias, et le plus fort des animaux qui vivent avec l'homme ; celui-là soit parce qu'il a la vue si perçante qu'il voit de nuit, de même que les généraux prudents doivent voir beaucoup, afin de ne pas tomber dans les embûches cachées des ennemis ; soit parce qu'il est rapace de nature et tue et verse volontiers le sang — qualités toutes convenables au dieu des guerres. À Mars fut aussi donné, parmi les oiseaux, le Coq, pour montrer la vigilance que doivent avoir les soldats, ou bien, comme le racontent les fables et comme l'écrit Lucien, parce qu'Alectryon, soldat très cher à Mars, fut changé par lui en cet oiseau pour n'avoir pas monté la garde qu'il lui avait confiée la nuit, tandis que lui-même était couché avec Vénus ; d'où, avant qu'il s'en aperçût, Vulcain entra dans la chambre et, jetant sur eux d'en haut un très beau filet, les surprit ainsi enlacés qu'ils étaient. Le Vautour fut aussi donné à Mars, car on lit de lui qu'il suit avec la plus grande avidité les corps morts, et va donc après les armées, comme si la nature elle-même lui avait appris qu'elles se rassemblent pour commettre des tueries. Bien plus, elle lui a appris davantage encore, car il sait, comme l'écrit Pline, trois et quatre, et certains disent sept jours à l'avance, où se fera la bataille, et il sait de quel côté il y aura le plus de morts, et tourne plus souvent son regard vers ce côté-là, comme prévoyant une plus grande proie. De là vint que, dans l'antiquité, les rois avaient coutume, lorsqu'ils s'apprêtaient à sortir avec leurs armées pour combattre, d'envoyer espionner de quel côté regardaient le plus les Vautours, en tirant de cela un jugement sur le côté que favoriserait la Victoire..."
       ],
-      "num": "147",
+      "num": "154",
       "img": [
         "cartm_marsanimals.jpg"
       ],
@@ -4145,7 +4363,7 @@
       "text_fr": [
         "...ils dédièrent aussi parfois à Mars le Pic (Pico), d'où il fut appelé Pic Martius, comme appartenant proprement à Mars — soit parce que cet oiseau, becquetant de son bec dur le chêne dur, le creuse, tout comme les soldats, par assauts répétés, battent tant les murs des villes qu'ils s'y frayent un chemin par la force pour y pénétrer ; soit parce que cet oiseau fut jadis fort estimé pour la divination, à laquelle les soldats semblent avoir prêté grande attention — si bien que tout homme antique s'y fiait tant qu'il semblait ne savoir rien faire, ni en public ni en privé, sans en prendre d'abord quelque augure, comme je l'ai déjà dit dans le Flavius, où j'ai aussi rapporté la manière dont les anciens devinaient par les oiseaux. Quant aux arbres, je n'ai pas trouvé jusqu'ici qu'aucun fût dédié à Mars comme lui appartenant proprement, mais du Chiendent (Gramigna) j'ai bien lu que les anciens le lui donnèrent, peut-être parce que, comme l'écrit Boccace, il pousse pour la plupart en des lieux spacieux et ouverts, où les armées ont coutume de camper presque toujours. Et les Romains n'eurent point de couronne de plus grand honneur ni de plus haute dignité que la couronne de Chiendent, qu'on ne donnait qu'à ceux qui, en quelque extrême péril, avaient sauvé toute une armée ou levé un siège qui l'entourait. Il ne me reste plus rien à dire de Mars, sinon que je ne veux pas taire la solennelle fête qui se célébrait en son honneur à Papremis, ville d'Égypte, car il me semble que le rite rapporté par Hérodote mérite d'être consigné ici. Lors donc que venait le temps de la fête, où presque tout le peuple du pays se rassemblait en cette ville dont j'ai parlé, quelques rares prêtres demeuraient dans le temple autour des autels, accomplissant les sacrifices et autres choses qui s'y rapportaient, tandis que tous les autres se postaient aux portes de ce même temple avec de bons gourdins de bois à la main, contre lesquels venaient environ mille hommes étrangers venus pour la fête, avec de gros bâtons également à la main. Ceux-ci, ayant préparé la veille un grand tabernacle de bois doré contenant à l'intérieur le simulacre de Mars, et l'ayant posé sur un char à quatre roues tiré par quelques-uns d'entre eux, voulaient l'introduire dans le temple, et les prêtres postés aux portes le leur interdisaient, d'où naissait entre eux une étrange bagarre à coups de bâtons, car les uns ne voulaient pas que ce dieu entrât dans le temple, tandis que les autres s'efforçaient de le faire entrer de force, ce qui finalement advenait. Et bien que beaucoup reçussent de cruels coups sur la tête, et que beaucoup en demeurassent fort blessés, jamais personne n'en mourut. Et la chose était ainsi arrangée, car les anciens disaient que la mère de Mars habitait ce temple, et que lui, devenu grand, y vint coucher avec elle, mais les prêtres, s'en apercevant et ne sachant cependant qui il était, ne le laissèrent pas entrer, d'où il fut contraint de se retirer ; mais peu après, ayant rassemblé avec lui des hommes d'une certaine ville non loin de là, il revint et, ayant donné de bons coups aux prêtres, entra malgré eux pour faire son affaire avec sa mère. Tel est le sens du rite que j'ai décrit, dans lequel sans doute quelque mystère est contenu ; mais puisque Hérodote ne l'a pas révélé, je ne le rapporte pas non plus, et je laisse à qui serait curieux de le découvrir le soin de le chercher. Et je rapporterai à la place un autre rite, également décrit par Hérodote, qui ressemble en partie à celui déjà rapporté et se faisait en l'honneur de Minerve, afin de clore en son nom l'image qui avait été commencée en son nom. Il se célébrait chaque année en une certaine partie de l'Afrique, près du marais Tritonien, où au temps fixé pour la fête se rassemblaient presque toutes les jeunes vierges du pays, et là, se divisant comme en deux troupes armées, combattaient âprement entre elles à coups de pierres et de bâtons, et celle qui, de l'avis commun, s'était montrée la plus vaillante et avait le mieux employé ses mains, était séparée des autres et emportée à l'écart ; on l'armait tout entière, on lui mettait un beau casque, et, placée sur un char, on la promenait tout autour du marais, et toutes l'accompagnaient avec une pompe solennelle. Et celles qui restaient mortes dans ce combat — car souvent beaucoup y périssaient — étaient tenues pour n'avoir pas été de vraies vierges, et l'on croyait que Minerve les avait laissées périr. Car elle fut toujours vierge, puisque la vraie sagesse manifestée par elle ne participe d'aucune souillure des choses mortelles et demeure toujours en elle-même pure et sans tache. Et l'on observait aussi, dans les sacrifices à Minerve, de lui offrir des victimes pures, qui étaient tantôt une Agnelle, tantôt un Taureau blanc, et tantôt une génisse indomptée aux cornes dorées — pour montrer que la virginité n'est pas soumise au joug de la luxure."
       ],
-      "num": "148",
+      "num": "155",
       "img": [
         "cartm_picofestival.jpg"
       ],
@@ -4158,7 +4376,7 @@
     },
     {
       "id": "cart11",
-      "num": "149",
+      "num": "156",
       "page": "378",
       "fr": "Baccho",
       "ru": "Вакх",
@@ -4184,7 +4402,7 @@
     },
     {
       "id": "cartm89",
-      "num": "150",
+      "num": "157",
       "page": "380",
       "fr": "Imagine di Como, dio dei Conviti",
       "ru": "Образ Кома, бога пиров",
@@ -4213,7 +4431,7 @@
     },
     {
       "id": "cartm90",
-      "num": "151",
+      "num": "158",
       "page": "383",
       "fr": "Imagine di Bacco secondo Macrobio",
       "ru": "Образ Вакха согласно Макробию",
@@ -4242,7 +4460,7 @@
     },
     {
       "id": "cartm91",
-      "num": "152",
+      "num": "159",
       "page": "386",
       "fr": "Imagini di Bacco e della pompa bacchica",
       "ru": "Образы Вакха и вакхического шествия",
@@ -4271,7 +4489,7 @@
     },
     {
       "id": "cartm92",
-      "num": "153",
+      "num": "160",
       "page": "389",
       "fr": "Imagini di Bacco trionfatore sull'elefante",
       "ru": "Образы Вакха-триумфатора на слоне",
@@ -4300,7 +4518,7 @@
     },
     {
       "id": "cartm93",
-      "num": "154",
+      "num": "161",
       "page": "392",
       "fr": "Imagine della Nave di Bacco",
       "ru": "Образ Корабля Вакха",
@@ -4330,7 +4548,7 @@
     },
     {
       "id": "cartm94",
-      "num": "155",
+      "num": "162",
       "page": "396",
       "fr": "Imagine di Horo, dio degli Egizi, Priapo e Bacco",
       "ru": "Образ Гора, бога египтян, Приапа и Вакха",
@@ -4358,7 +4576,7 @@
     },
     {
       "id": "cartm95",
-      "num": "156",
+      "num": "163",
       "page": "398",
       "fr": "Imagini di Tifone e di Horo",
       "ru": "Образы Тифона и Гора",
@@ -4389,7 +4607,7 @@
     },
     {
       "id": "cartm_tifonepriapo",
-      "num": "157",
+      "num": "164",
       "page": "399",
       "fr": "Fine di Tifone e Horo; inizio di Priapo, l'Asino, il Becco, e il Lare di Seruio Tullio",
       "ru": "Конец главы о Тифоне и Горе; начало главы о Приапе, Осёл, Козёл и Лар Сервия Туллия",
@@ -4415,7 +4633,7 @@
     },
     {
       "id": "cartm96",
-      "num": "158",
+      "num": "165",
       "page": "403",
       "fr": "Imagine di Priapo, dio degli Orti",
       "ru": "Образ Приапа, бога садов",
@@ -4442,7 +4660,7 @@
     },
     {
       "id": "cartm97",
-      "num": "159",
+      "num": "166",
       "page": "404",
       "fr": "Imagini degli dei Lari e Penati",
       "ru": "Образы богов Ларов и Пенатов",
@@ -4470,7 +4688,7 @@
     },
     {
       "id": "cartm98",
-      "num": "160",
+      "num": "167",
       "page": "406",
       "fr": "Imagini del Genio buono e cattivo",
       "ru": "Образы доброго и злого Гения",
@@ -4503,7 +4721,7 @@
     },
     {
       "id": "cartm_geniofull",
-      "num": "161",
+      "num": "168",
       "page": "407",
       "fr": "Il Genio: i Penati, il Genio doppio, Sosipoli, il Genio cattivo, la storia di Eutimo",
       "ru": "Гений: Пенаты, двойной Гений, Сосиполис, злой Гений, история Эвтима",
@@ -4529,7 +4747,7 @@
     },
     {
       "id": "cartm_fortunaopen",
-      "num": "162",
+      "num": "169",
       "page": "411",
       "fr": "Fortuna: Dante, Petrarca, Lattantio, le due Fortune, la statua di Bupalo",
       "ru": "Фортуна: Данте, Петрарка, Лактанций, две Фортуны, статуя Бупала",
@@ -4555,7 +4773,7 @@
     },
     {
       "id": "cart12",
-      "num": "163",
+      "num": "170",
       "page": "413",
       "fr": "Fortuna",
       "ru": "Фортуна",
@@ -4581,7 +4799,7 @@
     },
     {
       "id": "cartm99",
-      "num": "164",
+      "num": "171",
       "page": "415",
       "fr": "Imagini della Fortuna lieta e triste",
       "ru": "Образы радостной и печальной Фортуны",
@@ -4609,7 +4827,7 @@
     },
     {
       "id": "cartb20",
-      "num": "165",
+      "num": "172",
       "page": "417",
       "fr": "Nemesi",
       "ru": "Немезида",
@@ -4635,7 +4853,7 @@
     },
     {
       "id": "cartb21",
-      "num": "166",
+      "num": "173",
       "page": "419",
       "fr": "Giustitia",
       "ru": "Справедливость",
@@ -4661,7 +4879,7 @@
     },
     {
       "id": "cartb22",
-      "num": "167",
+      "num": "174",
       "page": "421",
       "fr": "La Calunnia d'Apelle",
       "ru": "«Клевета» Апеллеса",
@@ -4687,7 +4905,7 @@
     },
     {
       "id": "cartm100",
-      "num": "168",
+      "num": "175",
       "page": "423",
       "fr": "Imagini dell'Invidia",
       "ru": "Образы Зависти",
@@ -4715,7 +4933,7 @@
     },
     {
       "id": "cartm101",
-      "num": "169",
+      "num": "176",
       "page": "425",
       "fr": "Imagine di Momo, dio della riprensione",
       "ru": "Образ Мома, бога порицания",
@@ -4743,7 +4961,7 @@
     },
     {
       "id": "cartm102",
-      "num": "170",
+      "num": "177",
       "page": "427",
       "fr": "Imagine della Frode secondo Dante",
       "ru": "Образ Обмана по Данте",
@@ -4771,7 +4989,7 @@
     },
     {
       "id": "cartm103",
-      "num": "171",
+      "num": "178",
       "page": "429",
       "fr": "Geroglifico della buona Fortuna e dell'Occasione",
       "ru": "Иероглиф доброй Фортуны и Случая",
@@ -4799,7 +5017,7 @@
     },
     {
       "id": "cartm104",
-      "num": "172",
+      "num": "179",
       "page": "431",
       "fr": "Imagine della Fortuna presso gli Sciti",
       "ru": "Образ Фортуны у скифов",
@@ -4828,7 +5046,7 @@
     },
     {
       "id": "cartm105",
-      "num": "173",
+      "num": "180",
       "page": "434",
       "fr": "Imagine della Fortuna in Egira",
       "ru": "Образ Фортуны в Эгире",
@@ -4857,7 +5075,7 @@
     },
     {
       "id": "cartm106",
-      "num": "174",
+      "num": "181",
       "page": "437",
       "fr": "Imagine della Fortuna a cavallo",
       "ru": "Образ Фортуны верхом на коне",
@@ -4885,7 +5103,7 @@
     },
     {
       "id": "cartm107",
-      "num": "175",
+      "num": "182",
       "page": "439",
       "fr": "Imagine del buon Evento e del Favore instabile",
       "ru": "Образ доброго Случая и непостоянной Благосклонности",
@@ -4913,7 +5131,7 @@
     },
     {
       "id": "cartb19",
-      "num": "176",
+      "num": "183",
       "page": "441",
       "fr": "Macaria, ò Felicità",
       "ru": "Макария, или Счастье",
@@ -4943,7 +5161,7 @@
     },
     {
       "id": "cartm_cupidoopen",
-      "num": "177",
+      "num": "184",
       "page": "442",
       "fr": "Cupido: la natura dell'Amore, Ero e Anterote, la nouella di Melito e Timagora",
       "ru": "Купидон: природа Любви, Эрот и Антерот, новелла о Мелито и Тимагоре",
@@ -4969,7 +5187,7 @@
     },
     {
       "id": "cart13",
-      "num": "178",
+      "num": "185",
       "page": "447",
       "fr": "Cupido (Eroto & Anterote)",
       "ru": "Купидон (Эрот и Антерот)",
@@ -5023,11 +5241,11 @@
       "text_fr": [
         "[Suite du chapitre sur Cupidon] ...afin que ne s'éveillent pas dans les âmes jeunes la licence et les plaisirs déshonnêtes, qui, disaient les anciens, viennent tous de Cupidon, lequel les enflamme au vice. Voulant peut-être y remédier, les Romains plaçaient l'Amour non seulement dans leurs Académies et là où s'exerçaient les jeunes gens, mais avec lui également Mercure et Hercule, de sorte que la statue de Cupidon se tenait entre ces deux-là, montrant qu'il était raisonnable et vertueux, car Hercule représente la vertu, et Mercure, la raison. Et Athénée écrit que les anciens philosophes tenaient l'Amour pour un dieu fort grand, étranger à toute bassesse, disant qu'on pouvait le savoir par le fait que sa statue était placée aux côtés de celles de Mercure et d'Hercule — l'un pour l'éloquence, l'autre pour la force —, et que de la compagnie de ces deux naissent l'Amitié et la Concorde. Les anciens avaient aussi un autre Amour, qui faisait oublier et livrer à l'oubli tout le bien que l'on avait aimé auparavant, et il s'appelait Amour Léthéen ; sa statue, qui, disait-on, éteignait les torches ardentes dans le fleuve, se trouvait dans le temple de Vénus Érycine, dont fait mention Ovide, disant qu'y venaient porter de pieuses prières tous les jeunes gens désireux d'oublier leurs amours, ainsi que les jeunes filles qui s'apercevaient d'avoir mal placé leur amour. Pour cela les Grecs avaient un remède encore plus beau : sans prier personne, mais en se lavant simplement dans le fleuve Sélemnos, non loin de Patras, ville d'Achaïe, hommes et femmes oubliaient tout amour dont ils voulaient se défaire — ainsi du moins le croyaient les gens de ce pays. Mais Pausanias, qui rapporte cela, dit que c'est une fable, car si c'était vrai, les eaux de ce fleuve seraient estimées plus que toutes les richesses du monde ; et Pline mentionne une certaine source, appelée source de Cupidon, chez les Cyzicènes, en buvant laquelle on oubliait aussitôt toute affection amoureuse. Mais si Cupidon n'est rien d'autre que ce désir ardent que nous mettons dans les choses, l'Amour ne sera pas un seul, ni deux, mais plusieurs, comme le représentent les poètes, qui, en composant des fables, expriment souvent par là les forces de nos âmes, les diverses passions et leurs différentes inclinations, et c'est pourquoi l'on disait que les Amours étaient nombreux, comme l'écrit aussi Alexandre [d'Aphrodise] dans ses Problèmes, car nous ne sommes pas tous une seule et même chose, et n'aimons pas de la même manière, mais chacun aime à sa façon et des choses différentes — ce qu'on ne pourrait montrer si l'Amour n'était qu'un seul. Les anciens imaginèrent donc qu'ils étaient nombreux, tous de très beaux garçons ailés, à qui l'on donne, aux uns des torches brûlantes, aux autres des flèches très aiguës, et à d'autres encore des lacs très solides, comme le montre fort bien Properce lorsqu'il écrit à sa Cynthie, disant ainsi dans notre langue [suit une paraphrase en vers de l'élégie de Properce] : « Comme naguère, une nuit, ma vie, j'errais seul, sans compagnie, après le souper, le sort — je ne sais comment — me mena là où il m'advint de rencontrer une troupe d'enfants à peine nés. Combien ils étaient, je ne saurais le dire, je ne pus les compter tant la crainte, qui s'était glissée dans mon cœur, me fit penser qu'un malheur me menaçait. Il n'était pourtant pas besoin de les craindre, si petits fussent-ils : car ils sont grands en leur pouvoir de faire souffrir autrui. Tous leurs petits corps nus étaient si gracieux, si beaux et si bien formés, que jamais je ne vis plus beaux enfants. Et certains d'entre eux étaient armés d'un feu vif rassemblé en torchettes, dont beaucoup se consument chaque jour. D'autres, de leurs bras souples et déliés, lancent prestement des traits, dont plus d'une fois déjà mon cœur fut blessé. Et quelques-uns portaient des cordes, qui semblaient faites pour me lier seul, car l'un d'eux prononça ces mots : \"Prenez celui-ci, vite, qu'attendez-vous ? Vous le connaissez\" ; et aussitôt ils m'entourèrent, et je ne pus m'échapper, si bien que je restai lié par eux en ta main. » Philostrate, de même, dans ses Images, dit que les Amours sont nombreux, et en fait les fils des Nymphes, comme le fait aussi Claudien, écrivant sur les noces d'Honorius et de Marie, disant qu'ils gouvernent les mortels, car les choses qu'ils aiment sont elles aussi multiples ; et il décrit un beau tableau qui, dit-il, correspond exactement à la description qu'il a su en tirer. Il y a là un très beau jardin aux arbrisseaux gracieux, plantés en un tel ordre que de chaque côté s'ouvre aux regardants une allée fort spacieuse, toute couverte d'une herbe des plus fraîches, si molle et si délicate que nulle part on ne pourrait se coucher plus exquisément. Des branches des belles plantes pendent des fruits si jaunes et si brillants qu'ils semblent d'or, vers lesquels tous les Amours nus se tournent, ou volent légèrement autour, ayant déjà attaché aux arbres des carquois dorés pleins de flèches aiguës ; et des étoffes de diverses couleurs sont là éparses sur l'herbe, pleine de fleurs variées. Les cheveux d'or tiennent lieu de couronnes aux Amours ; et les plumes de leurs ailes ne sont pas toutes d'une même couleur, mais les unes rouges, les unes jaunes, et quelques-unes couleur de châtaigne. Et parmi eux, quatre, les plus beaux, se sont écartés des autres : deux, jouant, se lancent des pommes l'un à l'autre, et les deux autres se tirent des flèches, sans montrer pourtant sur leur visage la moindre colère — au contraire, chacun d'eux offre sa poitrine nue, afin que les flèches ne volent pas en vain, mais frappent justement là où elles sont dirigées. Ces choses montrent le commencement de l'Amour et sa confirmation, car ceux deux qui jouent aux pommes posent le commencement de l'Amour (on voit que l'un baise la pomme et la jette, et l'autre se tient les mains levées, prêt à la saisir, donnant à entendre qu'il la baisera aussi lorsqu'il l'aura prise, et la renverra pareillement ; de là, peut-être, Suidas tira-t-il ce qu'il écrit — que jeter une pomme à quelqu'un signifie l'inviter à aimer ; d'où Virgile aussi, dans l'une de ses pastorales, fait dire ainsi à Damète : « La belle Galatée me jette une pomme, puis s'enfuit, mais avant de se cacher parmi les saules verts, elle veut que je la remarque »), tandis que les deux autres, qui tirent, confirment l'Amour déjà commencé, comme pour le faire pénétrer dans le cœur. Ainsi, les uns jouent pour commencer à aimer, les autres tirent pour que l'Amour se confirme et persévère. Il y a là encore un Lièvre, assis sous un arbre, mangeant les pommes tombées à terre, que les Amours prennent en chasse et effraient : l'un frappe des mains, l'autre crie, un autre secoue un vêtement posé à terre. Quelques-uns volent au-dessus de lui et lui crient dessus, d'autres se glissent doucement sur sa trace, et d'autres se jettent sur lui comme pour fondre sur lui ; mais l'animal se tourne d'un autre côté, où l'un des Amours se tient à l'affût, pensant le saisir d'une patte avec ses mains, mais celui qui l'avait presque déjà pris le voit lui échapper des mains ; d'où tous rient si fort qu'ils ne peuvent se tenir debout tant ils rient, mais tombent à terre, les uns sur le dos, les autres sur le ventre, et d'autres regardant le ciel. Et aucun d'eux ne veut en cette occasion se servir de ses flèches aiguës, mais tous voudraient prendre cet animal vivant, pour en faire ensuite un très agréable sacrifice à Vénus, le Lièvre lui convenant fort bien, car on dit qu'il est extrêmement porté à l'accouplement, et que, tandis qu'il allaite déjà des petits nés, il en porte déjà d'autres, et ainsi met bas en toute saison, comme l'écrit Pline, sans qu'on puisse distinguer le mâle de la femelle, mais l'on croit qu'en l'un comme en l'autre la vertu est égale. De plus, le même Pline dit que certains croyaient que la chair du Lièvre rendait beaucoup plus beau et plus agréable quiconque en mangeait sept jours de suite ; et il ajoute que lui-même tient cela pour vain, mais que l'on peut néanmoins admettre qu'il y ait là quelque fondement, puisqu'on le croit si universellement. De là Martial prit occasion de railler une de ses connaissances nommée Gellia, lui écrivant cette épigramme : « Quand toi, ma Gellia, tu m'envoies parfois en cadeau un Lièvre, tu me fais dire aussi qu'en sept jours (et cela sans cesse) tu me verras devenir plus belle encore en le mangeant. Si cela est vrai, ma vie, on pourrait presque jurer sans mentir que tu n'as jamais de ta vie mangé de chair de Lièvre depuis ta naissance. » Et parce qu'Alexandre Sévère avait coutume de manger souvent du Lièvre, quelqu'un se moqua de lui en vers, comme l'écrit Lampride, disant que, bien que Syrien de naissance, il n'était pas étonnant qu'il fût beau et agréable, car la chair du Lièvre, qu'il mangeait volontiers, le rendait tel. Il y eut en outre ceux qui prétendirent qu'il y a dans le Lièvre quelque chose d'utile aux philtres d'amour, ce que Philostrate cependant ne confirme pas — au contraire, il dit que cela nuit, et condamne comme indignes d'être aimés ceux qui veulent se faire aimer de force de cette manière — et c'est sur cela qu'il termine la description de son tableau. On y voit, me semble-t-il, les Amours fort bien peints ; et je n'ai rapporté cette description que pour montrer que les Amours sont nombreux, et tous des garçons nus, aux cheveux bouclés et blonds, aux ailes de couleurs diverses, tantôt des torches allumées en main, tantôt sans, et tantôt avec un arc, tantôt avec arc et flèches, et tantôt sans rien. D'où Silius Italicus, décrivant comment les Amours accompagnaient Vénus lorsque, avec Pallas et Junon, elle se présenta devant Pâris pour le jugement, ne donne l'arc et les flèches qu'à un seul d'entre eux, et aux autres seulement la tâche de l'accompagner et de l'orner ; et ses vers, traduits en italien, sont ceux-ci : « Alors le beau Cupidon, qui depuis longtemps attendait l'heure du grand différend, conduisait de sa main droite les blancs cygnes attelés au char de sa mère, à qui il montre l'arc pendu à ses épaules et le petit carquois, plein pour elle seule de flèches aiguës — lui faisant entendre qu'elle n'a pas à craindre pour cela, mais qu'elle aille à la rencontre de la victoire avec assurance. Et les autres Amours, folâtres et joyeux, l'entourent, l'un rassemblant et nouant en gracieux nœuds les cheveux dorés sur le front blanc, un autre lissant la robe fine, et un autre la ceignant là où il faut. » Apulée, faisant paraître Vénus sur scène accompagnée d'Amours, dit que ce sont des garçons blancs comme neige, qui ou bien descendent du Ciel, ou bien sortent de la mer, avec des ailes aux épaules, des flèches au côté et des torches en main. Et, voulant montrer leur multitude, il dit ailleurs que tout un peuple d'Amours accompagnait Vénus, car les désirs humains sont presque infinis, et autant on désire, autant on aime, considérant rarement si c'est bien ou mal, mais s'efforçant seulement de satisfaire chacun de nos désirs, fût-il désordonné et contraire à la raison, que l'Amour ne prise point, tout entier tourné vers les seuls plaisirs ; et c'est pourquoi nous sommes liés de sorte que nous demeurons en son pouvoir — ce que montrent les liens qu'on lui donne. Mais ne parlons plus des nombreux, et raisonnons maintenant d'un seul Amour, en formant son image d'après l'exemple que nous en ont laissé les anciens. Platon, faisant dans son Banquet qu'Agathon loue l'Amour et montre comment il est fait, dit ainsi : l'Amour est très beau, car il est le plus jeune de tous les dieux ; et que cela soit vrai, le montre le fait qu'il fuit toujours la vieillesse, laquelle, bien que très rapide, vient à lui plus tôt qu'il ne faudrait, et par nature il la hait et s'en tient éloigné, demeurant parmi les jeunes, selon le proverbe qui dit que les choses semblables aiment à se tenir ensemble. Il est ensuite tendre et mou, et cela se prouve par la manière dont Homère prouve qu'Atè a les pieds tendres et mous. « Atè » est un mot grec que nous pourrions traduire par « ruine » ou « fléau » ; mais Homère la représente comme une déesse, fille de Jupiter, qui trouble les esprits des mortels et y met le mal, et dit qu'elle marche sur les têtes des hommes, ne touchant jamais terre de ses pieds, et c'est pourquoi elle a les pieds mous et tendres : ainsi l'Amour est-il pareillement tendre et mou, car il ne marche jamais sur la terre, ni sur les pierres, ni en aucun lieu qui soit dur et rude ; il habite parmi les choses les plus molles et les plus tendres du monde, et là demeure. Ce sont les âmes humaines, et il n'habite pas en toutes, mais seulement en celles qui sont agréables et nobles, et fuit les grossières et les dures, et la dureté lui est si étrangère qu'il est presque liquide, comme l'eau, car s'il n'en était pas ainsi, il ne pourrait se mouvoir comme il se meut, cherchant toute âme, ni y entrer en secret, ni en sortir quand il veut. De plus, l'Amour est de corps fort bien fait, et en chacune de ses parties si bien composé que sa beauté surpasse toutes les autres, et c'est pourquoi il y a grande inimitié entre lui et la laideur ; et sur toute sa personne il y a une couleur si belle et si agréable qu'on ne saurait en désirer de meilleure, comme le montre le fait qu'il habite souvent parmi les fleurs, et presque toujours parmi les fleurs, et que là où il n'y a pas de fleurs, il ne vit jamais ; et c'est pourquoi en sont privées toutes les âmes et les corps où ne se trouve nulle fleur de jeunesse et de beauté, car l'Amour ne veut être nulle part sinon en des lieux beaux, fleuris, odorants et joyeux. On pourrait dire bien d'autres choses encore de la beauté de l'Amour, mais Platon n'en dit pas davantage pour l'heure, d'où nous pouvons conclure que l'Amour est jeune, tendre, mou et gracieux, bien fait de corps et de très belle couleur. Apulée le peignit plus minutieusement dans le conte de Psyché, lorsqu'il raconte qu'elle, contre la défense qui lui avait été faite, se tient la lampe à la main à le contempler, et le vit ainsi : sa chevelure d'or toute humide de l'ambroisie répandue sur son cou blanc comme neige, ses joues colorées de sorte qu'elles semblaient de pourpre, et ses belles boucles tantôt tordues, tantôt tombant, en partie sur ses épaules toutes blanches, en partie répandues sur son beau visage, si brillantes et si resplendissantes qu'elles éclipsaient la lumière même de la lampe placée au-dessus d'elles ; sur les épaules, deux ailes, saupoudrées de la plus fraîche rosée, dont les plumes légères, bien qu'immobiles, étaient doucement agitées par la plus suave brise ; et tout son corps était si net et si lisse que Vénus n'avait pas à regretter de l'avoir enfanté ; l'arc, le carquois et les flèches gisaient là, sur le sol, devant le lit. Apulée ne lui bande pas les yeux — soit parce que cela n'était pas nécessaire, puisqu'il dormait alors, soit parce qu'il suivait ceux qui ne le font pas aveugle, comme Pétrarque, lorsqu'il écrit l'avoir vu dans les yeux de sa dame, disant : « Non aveugle, mais carquois en main, je le vois, nu, sinon que la pudeur le voile, un garçon ailé — non peint, mais vivant. » Et Moschos, poète grec, le fait pareillement, aux yeux brillants et enflammés, lorsqu'il représente Vénus le cherchant, le décrivant en détail afin que quiconque le trouve le reconnaisse, le saisisse et le lui ramène, pour quoi elle promet un baiser et une récompense plus grande encore. Cela fut traduit en latin par Politien, puis en italien par beaucoup, mais mieux que tous, me semble-t-il, par messire Luigi Alamanni, qui le mit en vers rimés deux à deux, et c'est pourquoi, outre que je n'aurais su faire mieux, et ne voulant pas non plus faire pire, je me suis servi de sa traduction. Voici donc cet « Amour Fugitif » de Moschos, ainsi nommé par lui-même dans ses vers, mis en italien par Alamanni : « Vénus, cherchant son fils Amour, allait et, l'appelant, disait le long de chaque rive : à qui me montrera Amour, de moi enfui, je donnerai pour récompense un baiser, et à qui osera me le ramener, je promets et jure de donner bien plus — un vrai baiser. Tels sont les signes de cet enfant, et telles ses marques, qu'à sa première apparition tous les verront : sa couleur n'est pas blanche, mais semble feu ; ses yeux sont ardents, vifs et pleins de jeu ; douce sa voix et son parler, cruel son cœur, et il ne veut pas montrer au-dehors ce qui est en dedans ; menteur, déloyal, et s'il s'irrite, il respire fureur, flamme, venin et rage ; traître, polisson, trompeur, et jouant toujours au détriment d'autrui, avec lacet ou fouet ; il a le front bouclé, le visage farouche, la petite main menue et fine, mais agile et prompte, si bien que de loin il peut lancer un dard aigu jusque dans le bas Achéron, au bras de Pluton lui-même ; il a voilé sa pensée dans un corps nu, se tient de côté comme un oiseau, hardi et cruel, tantôt ici, tantôt là il dirige son vol, et ne demeure qu'au milieu des cœurs ; il porte toujours un petit arc, un dard brûlant trempé d'amour ; bien que le trait soit court, il offense le ciel même ; un carquois d'or pend à ses épaules, plein de méchantes flèches, dont moi aussi j'ai parfois été blessée, et m'en suis repentie. Rude à tous et cruel, mais, à ce que je vois, pire encore aux siens ; il tient en main une courte torche, dont je l'ai vu faire flamber jusqu'à Neptune lui-même dans les eaux ; si tu peux le saisir de force, mène-le, et n'aie pas pitié si tu le vois pleurer ; veille bien qu'il ne s'enfuie s'il rit, mais tiens-le plus fort encore. S'il veut t'embrasser, fuis, car ses lèvres sont partout imprégnées de poison ; et s'il dit : \"prends ces armes miennes, va-t'en avec elles\" — ne te laisse pas tenter par la hardiesse de toucher ce don, car c'est flamme, peste, tourment et mort. »"
       ],
-      "num": "179"
+      "num": "186"
     },
     {
       "id": "cartm108",
-      "num": "180",
+      "num": "187",
       "page": "455",
       "fr": "Trionfo d'Amore",
       "ru": "Триумф Амура",
@@ -5057,7 +5275,7 @@
     },
     {
       "id": "cartm109",
-      "num": "181",
+      "num": "188",
       "page": "459",
       "fr": "Imagini d'Amore e dei suoi effetti",
       "ru": "Образы Амура и его воздействий",
@@ -5085,7 +5303,7 @@
     },
     {
       "id": "cartm110",
-      "num": "182",
+      "num": "189",
       "page": "461",
       "fr": "Imagine di Pane e Cupido",
       "ru": "Образ Пана и Амура",
@@ -5141,11 +5359,11 @@
       "text_fr": [
         "[Conclusion du chapitre sur Cupidon] À cette image de Cupidon j'ajouterai encore les Grâces et les Heures, qui accompagnaient toujours sa mère [Vénus], afin que le fils ne reste pas sans mère, et afin que parmi ces images miennes elle soit elle aussi présente, l'accompagnant, comme ce fut le cas chez les anciens. Ainsi, puisque l'Amour est capable de tant de choses qu'on a dit qu'il vainc tout, rien d'autre n'étant égal à lui en force, on forgea aussi la fable qu'il vainquit un jour le dieu Pan lui-même, qui l'avait d'abord provoqué en combat. Appliqué aux choses naturelles, cela signifie que la Nature universelle, créatrice de tout et représentée par l'image du dieu Pan, lorsqu'elle commença d'abord à agir, commença en même temps à se complaire dans les choses qu'elle faisait, et, comme s'éprenant toujours davantage d'elles, a cherché et cherche encore à les parer autant qu'elle le peut. De ce plaisir donc que la Nature éprouve pour les choses qu'elle a elle-même créées, elle se trouva comme provoquée par l'Amour — qui prévalut tant sur elle qu'il la soumit à lui, de sorte qu'elle ne fait que ce qui lui plaît. De là naît l'accord des Éléments entre eux, différents par nature, pour la génération des choses. Et les âmes, comme le soutiennent les platoniciens, descendent de même par l'Amour du Ciel ici-bas dans les corps mortels, ayant déjà par lui contracté une certaine affection et un désir pour eux — de même qu'elles remontent ensuite au Ciel, lorsque, s'étant dépouillées de tout amour terrestre, elles se tournent vers l'amour des seules choses célestes. Et parce que ceux qui étudièrent les choses du Ciel soutinrent qu'il y avait deux portes par lesquelles passaient les âmes humaines, descendant du ciel sur la terre et retournant de la terre au ciel — l'une appelée la porte des dieux, l'autre la porte des hommes —, Orphée voulut que l'Amour tînt les clefs de ces portes, de sorte que sans lui on ne pût y passer ; et c'est pourquoi celui qui le représente aussi avec des clefs à la main pourrait bien en expliquer la raison. Mais l'Amour n'a pas toujours possédé un si grand pouvoir que nul autre ne l'ait parfois surpassé, comme le montre Ausone dans une certaine fiction sienne, que je veux rapporter ici seulement pour clore son image par les moqueries, les tourments et le crucifiement d'Amour, me vengeant ainsi, puisque je ne puis autrement me venger, des mille injures qu'il m'a déjà faites et me fait chaque jour. Car ce n'est pas une mince vengeance que de raconter les tourments et les déshonneurs de celui qui fait le mal, et il semble que cela procure un grand réconfort de se souvenir que d'autres aussi ont subi les plus graves périls, qui furent déjà et sont encore la cause d'une vie tourmentée pour beaucoup. Ausone représente donc Cupidon, ne remarquant pas qu'il vole justement là où habitent les âmes qui, par l'Amour, quittèrent malheureusement cette vie, comme saisi par elles et, comme par vengeance, lié et dressé comme en croix sur un haut myrte ; et tandis qu'elles lui préparent divers supplices, apparaît Vénus, qui, loin de chercher à adoucir la colère des âmes acharnées contre son fils, se montre elle-même irritée contre lui, et, ramassant une brassée de roses, le flagelle cruellement avec elles.\n\n[Traduction du poème d'Ausone, « Cupidon crucifié »]\n\n« Non dans ces tristes champs, où les verts Myrtes forment un bois ombreux renfermant en soi les âmes amoureuses et malheureuses — il y avait là des âmes qui, de leur vivant, avaient été cruelles et coupables par trop d'amour pour autrui, de sorte qu'avant l'heure elles restèrent dépouillées de leur enveloppe mortelle. Et le souvenir du temps passé, se renouvelant, montrait à chacune comment et pourquoi elle était morte si prématurément. Mais la grande forêt donne peu de lumière, sombre, comme parfois un voile obscur cache à nos yeux le visage blanc de la Lune. Lacs silencieux, qui jamais ne montrent d'ondes troubles, et fleuves paresseux et tranquilles coulant entre des rives fleuries. L'air brumeux semble interdire toute joie aux fleurs qui poussent là, de sorte qu'elles ne peuvent jamais paraître joyeuses. Ceux qui, tant qu'ils vécurent, furent tous des jeunes gens d'une suprême beauté, que la mort priva si misérablement de la vie. Narcisse, si épris de lui-même qu'il croyait en voir un autre ; et le beau Hyacinthe, à qui la mort fut apportée par celui qui l'aimait et l'estimait le plus. Crocus aux boucles d'or ; Ajax, vaincu par la colère au point que, se plongeant l'épée dans la poitrine, il teignit la terre de son sang. Adonis, que tant de fois la mère de l'Amour pressa contre son beau sein, y goûtant un plaisir agréable, et qui maintenant, devenu fleur, orne la terre de sa couleur pourpre parmi tant d'autres dont ce lieu est rempli. Et, se remémorant les malheurs déjà passés...» [le poème se poursuit sur plusieurs pages, nommant les autres ombres infortunées : Procris, tuée de la main de son époux jaloux Céphale ; Phèdre ; Sémélé, consumée par l'apparition de Jupiter ; Laodamie, qui suivit son époux mort Protésilas ; Canacé, fille d'Éole ; Didon de Carthage, qui se transperça de l'épée d'Énée ; Endymion, bien-aimé de la Lune ; Myrrha, changée en arbre à myrrhe pour son amour criminel envers son père ; Hippolyte, déchiré par ses propres chevaux sur la fausse accusation de Phèdre ; Hercule, péri dans les flammes à cause de la tunique empoisonnée de Nessus ; Priape, qui poursuivait déshonnêtement les nymphes ; Hermaphrodite, qui réunit les deux sexes en lui par la volonté de la nymphe Salmacis ; et enfin l'infortuné Éricé (Léandre), noyé en traversant à la nage le détroit vers sa bien-aimée Héro — et toutes ces âmes, voyant Cupidon voler dans leur bois affligé, le saisissent, le lient et le dressent comme en croix sur un haut myrte, l'accablant d'injures et de reproches pour toutes les souffrances qu'il leur causa de leur vivant ; et Vénus apparaît, qui, voyant son fils en si grande détresse, loin de se précipiter pour le défendre et adoucir la colère des âmes contre lui, s'irrite elle-même contre lui, et, ramassant une poignée de roses, le flagelle cruellement avec elles] — jusqu'à ce que ces âmes, touchées de pitié, la supplient de lui pardonner, et qu'elle lui pardonne de même et le délie, le relâchant — ce que moi-même, je l'avoue, je n'aurais jamais fait : mais puisque tous ceux qui l'avaient capturé étaient des femmes, on ne pouvait attendre d'elles autre chose. La pièce est fort belle en latin ; j'ignore ce qu'elle vaut en traduction italienne : mais que celui qui sait le latin la lise dans sa propre langue ; et que celui qui ne le sait pas se contente de cette traduction, que j'ai pour l'heure, faute de mieux, mise en italien, en attendant que vienne quelqu'un qui la rende sous une meilleure forme."
       ],
-      "num": "183"
+      "num": "190"
     },
     {
       "id": "cart14",
-      "num": "184",
+      "num": "191",
       "page": "469",
       "fr": "Venere",
       "ru": "Венера",
@@ -5171,7 +5389,7 @@
     },
     {
       "id": "cartm111",
-      "num": "185",
+      "num": "192",
       "page": "471",
       "fr": "Tempio di Venere in Pafo",
       "ru": "Храм Венеры в Пафосе",
@@ -5199,7 +5417,7 @@
     },
     {
       "id": "cartm112",
-      "num": "186",
+      "num": "193",
       "page": "473",
       "fr": "Imagine di Venere tirata in carro dai Cigni",
       "ru": "Образ Венеры на колеснице, влекомой лебедями",
@@ -5228,7 +5446,7 @@
     },
     {
       "id": "cartm113",
-      "num": "187",
+      "num": "194",
       "page": "476",
       "fr": "Imagine di Venere con gli Amorini e le Grazie",
       "ru": "Образ Венеры с Амурами и Грациями",
@@ -5256,7 +5474,7 @@
     },
     {
       "id": "cartm114",
-      "num": "188",
+      "num": "195",
       "page": "478",
       "fr": "Imagini di Venere, Cupido, del Giogo e del Capro",
       "ru": "Образы Венеры, Купидона, Ярма и Козла",
@@ -5285,7 +5503,7 @@
     },
     {
       "id": "cartm115",
-      "num": "189",
+      "num": "196",
       "page": "481",
       "fr": "Imagine di Venere armata, vittrice e in catene",
       "ru": "Образ вооружённой, победоносной и закованной Венеры",
@@ -5316,7 +5534,7 @@
     },
     {
       "id": "cartm_venerearmata2",
-      "num": "190",
+      "num": "197",
       "page": "482",
       "fr": "Venere armata: le donne di Sparta, Venere Calua, Venere barbata",
       "ru": "Вооружённая Венера: женщины Спарты, Венера Лысая, бородатая Венера",
@@ -5342,7 +5560,7 @@
     },
     {
       "id": "cartm116",
-      "num": "191",
+      "num": "198",
       "page": "486",
       "fr": "Imagine di Venere maschio e femmina",
       "ru": "Образ Венеры мужской и женской",
@@ -5374,7 +5592,7 @@
     },
     {
       "id": "cartm_adonefeste",
-      "num": "192",
+      "num": "199",
       "page": "487",
       "fr": "Venere per la meta della terra, le Feste Adonie, fine di Venere, inizio delle Gratie e delle Hore",
       "ru": "Венера как половина земли, праздник Адониса, конец главы о Венере, начало Граций и Ор",
@@ -5400,7 +5618,7 @@
     },
     {
       "id": "cartb23",
-      "num": "193",
+      "num": "200",
       "page": "492",
       "fr": "Le Hore",
       "ru": "Горы (Часы года)",
@@ -5426,7 +5644,7 @@
     },
     {
       "id": "cart15",
-      "num": "194",
+      "num": "201",
       "page": "494",
       "fr": "Le Gratie",
       "ru": "Грации",
@@ -5452,7 +5670,7 @@
     },
     {
       "id": "cartm117",
-      "num": "195",
+      "num": "202",
       "page": "496",
       "fr": "Imagine delle Grazie guidate da Mercurio",
       "ru": "Образ Граций, ведомых Меркурием",
@@ -5482,7 +5700,7 @@
     },
     {
       "id": "carta46",
-      "num": "196",
+      "num": "203",
       "page": "500",
       "fr": "Annotationi di Lorenzo Pignoria: proemio (I)",
       "ru": "Примечания Лоренцо Пиньории: вступление (I)",
@@ -5510,7 +5728,7 @@
     },
     {
       "id": "carta47",
-      "num": "197",
+      "num": "204",
       "page": "501",
       "fr": "Annotationi di Lorenzo Pignoria: proemio (II) — statue, altari, Demogorgone",
       "ru": "Примечания Лоренцо Пиньории: вступление (II) — статуи, алтари, Демогоргон",
@@ -5538,7 +5756,7 @@
     },
     {
       "id": "carta48",
-      "num": "198",
+      "num": "205",
       "page": "502",
       "fr": "Annotationi di Lorenzo Pignoria: proemio (III) — pietre unte, Saturno, preghiere",
       "ru": "Примечания Лоренцо Пиньории: вступление (III) — умащённые камни, Сатурн, молитвы",
@@ -5566,7 +5784,7 @@
     },
     {
       "id": "carta49",
-      "num": "199",
+      "num": "206",
       "page": "503",
       "fr": "Annotationi di Lorenzo Pignoria: proemio (IV) — Stagioni, Tempio di Giano, Hebe, Mitra",
       "ru": "Примечания Лоренцо Пиньории: вступление (IV) — времена года, храм Януса, Геба, Митра",
@@ -5594,7 +5812,7 @@
     },
     {
       "id": "carta1",
-      "num": "200",
+      "num": "207",
       "page": "504",
       "fr": "Il Fato sotto tre Imagini di Donna",
       "ru": "Судьба под образом трёх Женщин (Парки)",
@@ -5624,7 +5842,7 @@
     },
     {
       "id": "carta2",
-      "num": "201",
+      "num": "208",
       "page": "506",
       "fr": "Esculapio",
       "ru": "Эскулап",
@@ -5653,7 +5871,7 @@
     },
     {
       "id": "cartf1",
-      "num": "202",
+      "num": "209",
       "page": "507",
       "fr": "Lucifero, compagno dell'Aurora",
       "ru": "Люцифер, спутник Авроры",
@@ -5680,7 +5898,7 @@
     },
     {
       "id": "cartf2",
-      "num": "203",
+      "num": "210",
       "page": "508",
       "fr": "Febo (il Sole) sul carro",
       "ru": "Феб (Солнце) на колеснице",
@@ -5707,7 +5925,7 @@
     },
     {
       "id": "cartf3",
-      "num": "204",
+      "num": "211",
       "page": "509",
       "fr": "Giunone nel Cameo",
       "ru": "Юнона на камее",
@@ -5735,7 +5953,7 @@
     },
     {
       "id": "carta3",
-      "num": "205",
+      "num": "212",
       "page": "511",
       "fr": "Iside in un Cameo",
       "ru": "Изида на камее",
@@ -5763,7 +5981,7 @@
     },
     {
       "id": "carta4",
-      "num": "206",
+      "num": "213",
       "page": "513",
       "fr": "Satiri in lotta",
       "ru": "Борющиеся сатиры",
@@ -5790,7 +6008,7 @@
     },
     {
       "id": "cartf4",
-      "num": "207",
+      "num": "214",
       "page": "514",
       "fr": "L'Honore, maschio e femina",
       "ru": "Честь — в мужском и женском облике",
@@ -5818,7 +6036,7 @@
     },
     {
       "id": "carta5",
-      "num": "208",
+      "num": "215",
       "page": "516",
       "fr": "Pallade",
       "ru": "Паллада",
@@ -5845,7 +6063,7 @@
     },
     {
       "id": "carta6",
-      "num": "209",
+      "num": "216",
       "page": "517",
       "fr": "La violenza d'Aiace Oileo",
       "ru": "Неистовство Аякса Оилеева",
@@ -5874,7 +6092,7 @@
     },
     {
       "id": "carta28",
-      "num": "210",
+      "num": "217",
       "page": "520",
       "fr": "L'Imagine della Libertà",
       "ru": "Образ Свободы",
@@ -5901,7 +6119,7 @@
     },
     {
       "id": "carta29",
-      "num": "211",
+      "num": "218",
       "page": "520",
       "fr": "Il berretto degli schiavi (nota a Gellio, continua carta28)",
       "ru": "Шапка раба (заметка к Геллию, продолжение carta28)",
@@ -5930,7 +6148,7 @@
     },
     {
       "id": "carta7",
-      "num": "212",
+      "num": "219",
       "page": "523",
       "fr": "Cerere (la Madre Idea)",
       "ru": "Церера (Великая Мать)",
@@ -5962,7 +6180,7 @@
     },
     {
       "id": "cartm_pignoriacerere",
-      "num": "213",
+      "num": "220",
       "page": "524",
       "fr": "Annotationi di Pignoria: Vesta, Cerere, Trittolemo, Libero e Libera, le Faue, sepolture antiche",
       "ru": "Аннотации Пиньории: Веста, Церера, Триптолем, Либер и Либера, бобы, древние гробницы",
@@ -5988,7 +6206,7 @@
     },
     {
       "id": "carta8",
-      "num": "214",
+      "num": "221",
       "page": "529",
       "fr": "Palemone e il delfino",
       "ru": "Палемон и дельфин",
@@ -6016,7 +6234,7 @@
     },
     {
       "id": "carta30",
-      "num": "215",
+      "num": "222",
       "page": "531",
       "fr": "Dagon",
       "ru": "Дагон",
@@ -6044,7 +6262,7 @@
     },
     {
       "id": "carta9",
-      "num": "216",
+      "num": "223",
       "page": "533",
       "fr": "Le tre Parche",
       "ru": "Три Парки",
@@ -6074,7 +6292,7 @@
     },
     {
       "id": "carta31",
-      "num": "217",
+      "num": "224",
       "page": "535",
       "fr": "Mercurio e Pegaso",
       "ru": "Меркурий и Пегас",
@@ -6102,7 +6320,7 @@
     },
     {
       "id": "carta10",
-      "num": "218",
+      "num": "225",
       "page": "537",
       "fr": "Termine (il dio Termine)",
       "ru": "Терм (бог границ)",
@@ -6129,7 +6347,7 @@
     },
     {
       "id": "carta11",
-      "num": "219",
+      "num": "226",
       "page": "538",
       "fr": "Hercole in abito di Mercurio",
       "ru": "Геркулес в облике Меркурия",
@@ -6158,7 +6376,7 @@
     },
     {
       "id": "carta32",
-      "num": "220",
+      "num": "227",
       "page": "541",
       "fr": "Due fatiche di Hercole",
       "ru": "Два подвига Геркулеса",
@@ -6185,7 +6403,7 @@
     },
     {
       "id": "carta33",
-      "num": "221",
+      "num": "228",
       "page": "542",
       "fr": "Semo Sanco",
       "ru": "Семон Санк",
@@ -6213,7 +6431,7 @@
     },
     {
       "id": "carta13",
-      "num": "222",
+      "num": "229",
       "page": "544",
       "fr": "Hermathena (Minerva e Mercurio)",
       "ru": "Гермафена (Минерва и Меркурий)",
@@ -6244,7 +6462,7 @@
     },
     {
       "id": "carta12",
-      "num": "223",
+      "num": "230",
       "page": "545",
       "fr": "Minerva con l'egida di Gorgone",
       "ru": "Минерва с эгидой Горгоны",
@@ -6272,7 +6490,7 @@
     },
     {
       "id": "carta34",
-      "num": "224",
+      "num": "231",
       "page": "546",
       "fr": "Ercole e Mercurio insieme (Hermeracle)",
       "ru": "Геркулес и Меркурий вместе (Гермеракл)",
@@ -6300,7 +6518,7 @@
     },
     {
       "id": "carta35",
-      "num": "225",
+      "num": "232",
       "page": "547",
       "fr": "Minerva e la nave Argo",
       "ru": "Минерва и корабль Арго",
@@ -6328,7 +6546,7 @@
     },
     {
       "id": "carta36",
-      "num": "226",
+      "num": "233",
       "page": "549",
       "fr": "Marte Graditivo e Marte vincitore",
       "ru": "Марс Градив и Марс-победитель",
@@ -6356,7 +6574,7 @@
     },
     {
       "id": "carta37",
-      "num": "227",
+      "num": "234",
       "page": "551",
       "fr": "Le insegne militari romane",
       "ru": "Римские военные знамёна",
@@ -6383,7 +6601,7 @@
     },
     {
       "id": "carta14",
-      "num": "228",
+      "num": "235",
       "page": "552",
       "fr": "Corteo bacchico",
       "ru": "Вакхическое шествие",
@@ -6410,7 +6628,7 @@
     },
     {
       "id": "carta15",
-      "num": "229",
+      "num": "236",
       "page": "553",
       "fr": "Pompa bacchica tratta da un diaspro (Bagarris)",
       "ru": "Вакхическое шествие с яшмы Баггариса",
@@ -6438,7 +6656,7 @@
     },
     {
       "id": "carta38",
-      "num": "230",
+      "num": "237",
       "page": "555",
       "fr": "Il Genio del popolo Romano",
       "ru": "Гений римского народа",
@@ -6465,7 +6683,7 @@
     },
     {
       "id": "carta16",
-      "num": "231",
+      "num": "238",
       "page": "556",
       "fr": "La Patera e il Corno del Genio",
       "ru": "Патера и рог Гения",
@@ -6492,7 +6710,7 @@
     },
     {
       "id": "carta17",
-      "num": "232",
+      "num": "239",
       "page": "557",
       "fr": "Il Genio di Antiochia",
       "ru": "Гений Антиохии",
@@ -6519,7 +6737,7 @@
     },
     {
       "id": "carta39",
-      "num": "233",
+      "num": "240",
       "page": "558",
       "fr": "Apollo citaredo (Apolloni Sancto)",
       "ru": "Аполлон-кифаред («Святому Аполлону»)",
@@ -6546,7 +6764,7 @@
     },
     {
       "id": "carta18",
-      "num": "234",
+      "num": "241",
       "page": "559",
       "fr": "Genio e Fortuna",
       "ru": "Гений и Фортуна",
@@ -6576,7 +6794,7 @@
     },
     {
       "id": "carta19",
-      "num": "235",
+      "num": "242",
       "page": "563",
       "fr": "La Fortuna sulle ali di un Cigno",
       "ru": "Фортуна на крыльях Лебедя",
@@ -6603,7 +6821,7 @@
     },
     {
       "id": "carta40",
-      "num": "236",
+      "num": "243",
       "page": "564",
       "fr": "Eroto e Anterote (il carro della Madre)",
       "ru": "Эрот и Антэрот (колесница Матери)",
@@ -6630,7 +6848,7 @@
     },
     {
       "id": "carta20",
-      "num": "237",
+      "num": "244",
       "page": "565",
       "fr": "I due Amori e la capra (pensiero d'Ausonio)",
       "ru": "Два Амура и коза (мысль Авзония)",
@@ -6657,7 +6875,7 @@
     },
     {
       "id": "carta41",
-      "num": "238",
+      "num": "245",
       "page": "566",
       "fr": "Il tempio di Venere a Pafo",
       "ru": "Храм Венеры в Пафосе",
@@ -6684,7 +6902,7 @@
     },
     {
       "id": "carta21",
-      "num": "239",
+      "num": "246",
       "page": "567",
       "fr": "Figura fuori ordine (tra il 52 e il 53)",
       "ru": "Фигура не по порядку (между 52-м и 53-м)",
@@ -6712,7 +6930,7 @@
     },
     {
       "id": "carta22",
-      "num": "240",
+      "num": "247",
       "page": "569",
       "fr": "Giano giovane",
       "ru": "Молодой Янус",
@@ -6740,7 +6958,7 @@
     },
     {
       "id": "carta23",
-      "num": "241",
+      "num": "248",
       "page": "571",
       "fr": "Il vaso di Giustitia",
       "ru": "Ваза с образом Справедливости",
@@ -6768,7 +6986,7 @@
     },
     {
       "id": "carta24",
-      "num": "242",
+      "num": "249",
       "page": "573",
       "fr": "Statua col sacerdote e le sue insegne",
       "ru": "Статуя священника с его регалиями",
@@ -6795,7 +7013,7 @@
     },
     {
       "id": "carta42",
-      "num": "243",
+      "num": "250",
       "page": "574",
       "fr": "Vaso antico con rilievi",
       "ru": "Античная ваза с рельефом",
@@ -6823,7 +7041,7 @@
     },
     {
       "id": "carta43",
-      "num": "244",
+      "num": "251",
       "page": "576",
       "fr": "Figura femminile armata",
       "ru": "Вооружённая женская фигура",
@@ -6851,7 +7069,7 @@
     },
     {
       "id": "carta25",
-      "num": "245",
+      "num": "252",
       "page": "578",
       "fr": "La prima Mano Pantea",
       "ru": "Первая Пантеистическая Рука",
@@ -6878,7 +7096,7 @@
     },
     {
       "id": "carta44",
-      "num": "246",
+      "num": "253",
       "page": "579",
       "fr": "La mano simbolica con la lira (quarta Mano Pantea)",
       "ru": "Символическая рука с лирой (четвёртая Пантеистическая рука)",
@@ -6906,7 +7124,7 @@
     },
     {
       "id": "carta26",
-      "num": "247",
+      "num": "254",
       "page": "580",
       "fr": "La seconda Mano Pantea",
       "ru": "Вторая Пантеистическая Рука",
@@ -6933,7 +7151,7 @@
     },
     {
       "id": "carta45",
-      "num": "248",
+      "num": "255",
       "page": "581",
       "fr": "Figura giovanile con bastone (TYXAINI)",
       "ru": "Юношеская фигура с посохом (надпись TYXAINI)",
@@ -6960,7 +7178,7 @@
     },
     {
       "id": "carta27",
-      "num": "249",
+      "num": "256",
       "page": "582",
       "fr": "La terza Mano Pantea",
       "ru": "Третья Пантеистическая Рука",
@@ -7017,7 +7235,7 @@
       "text_fr": [
         "[La fin d'une lettre d'un correspondant anonyme à Pignoria, traitant d'une plaque votive dédiée par quelque dévot initié à la fois aux mystères de Cybèle, d'Isis et de Bacchus, soutenant que les trois figures qui s'y trouvent se rapportent aux trois divinités à la fois] ...car il ne fait aucun doute que la Pomme de pin, les Flûtes et les Cymbales appartiennent à Cybèle, la Serpe à vendanger à Bacchus, et le Veretrum [emblème phallique], qui peut également appartenir à Isis, à en juger par ce qui fut écrit d'Osiris. Quant au Thyrse, qui, je crois, est ce que Votre Seigneurie appelle le « sceptrum pinea insignitum » [un bâton surmonté d'une pomme de pin] — car dans d'anciennes peintures murales j'ai observé que des Thyrses de cette même forme sont tenus dans les mains des Bacchantes. La Cithare peut aussi appartenir à Bacchus, se trouvant comme elle est près de la serpe à vendanger. À Isis appartient clairement le Sistre, et peut-être aussi le croissant de lune et le fouet, qu'on voit partout figurer dans sa main dorée — et à l'or, à son tour, appartient aussi la tortue, et c'est pourquoi je tiens pour tout à fait juste l'interprétation qu'en a donnée notre Sandelli, car dans un livre de dessins ayant appartenu jadis à Fulvio Orsini, conservé aujourd'hui à la Bibliothèque Vaticane, parmi d'autres représentations de statuettes de ce même Harpocrate d'or, il y en a deux, aux pieds desquelles on voit un Chien et une tortue. Le Serpent, comme le sait Votre Seigneurie, peut se rapporter tant à Bacchus qu'à Isis, et peut-être aussi aux mystères d'Attis, comme elle en discourt. Ici le seigneur Aleandro conclut doctement."
       ],
-      "num": "250"
+      "num": "257"
     },
     {
       "id": "cartm_indiapreface",
@@ -7043,11 +7261,11 @@
       "text_fr": [
         "LA NOUVELLE SECONDE ÉDITION DES VRAIES ET NOUVELLES IMAGES DES DIEUX DES INDIENS.\n\n[La dédicace de l'éditeur] À mon très illustre seigneur, Monsieur Piero Buarno. Le souvenir que je garde des faveurs reçues de longue date de Votre très illustre Seigneurie est si frais et si vif dans mes pensées que, si j'avais une occasion aussi prompte de vous montrer ma gratitude que je le désire, j'oserais espérer quelque allégement du fardeau dont votre courtoisie m'a chargé en bonne mesure. Mais en attendant qu'une occasion favorable m'apporte quelque chose de plus important pour mes prétentions, j'offre à Votre très illustre Seigneurie ce Traité, qui, sous le nom d'une partie des Images des Dieux, sort de mon Imprimerie ; je l'offre aussi au nom de l'Auteur lui-même, qui tient votre mérite en haute estime et m'a donné signe qu'il lui serait agréable que je le fisse. Que Votre très illustre Seigneurie agrée pour l'heure mon affection, et me conserve sa bienveillance, que je prise autant que vous le savez. Que Notre Seigneur vous donne prospérité. De Padoue, le 1er novembre 1614. De Votre très illustre Seigneurie le très humble serviteur, Pietro Paolo Tozzi.\n\nSECONDE PARTIE DES IMAGES DES DIEUX DES INDIENS. Addition à Cartari par Lorenzo Pignoria.\n\nHérodote est un écrivain sensé, et non pas aussi menteur qu'on le tient communément : parlant de l'Égypte, il écrit qu'il s'y trouve des choses plus merveilleuses qu'en tout autre pays, et que, plus qu'en toute autre partie du monde, on voit dans cette contrée des œuvres auxquelles la plume des écrivains ne saurait atteindre. Et en vérité cette affirmation d'Hérodote ne peut être taxée d'exagération, voyant que les pages, tant sacrées que profanes, sont pleines de récits sur la grandeur, la puissance et les richesses de ce très vaste et très noble royaume. Non mince fut la gloire de ses anciens rois, tant dans les conquêtes que dans le fait de porter leurs armes victorieuses sur des peuples voisins et fort lointains. Car on lit de Sésostris qu'il soumit l'Éthiopie, la Scythie, la Thrace, les Colques et une grande partie de l'Asie Mineure, et d'Amasis, qu'il rendit tributaire l'île de Chypre. En des temps plus anciens encore (comme cela ressort de Diodore de Sicile), Osiris parcourut le monde, depuis les confins lointains de l'Inde jusqu'aux sources de l'Istre et jusqu'à l'Océan même ; et d'un autre, Manéthon écrit qu'il soumit à sa couronne les Phéniciens, les Mèdes et les Assyriens. Et beaucoup d'autres choses se lisent encore à ce propos sur d'autres. Que la religion se soit répandue avec le pouvoir de ces peuples sur les nations soumises, il me semble malséant d'en douter. Hérodote raconte que les habitants de Colchide reçurent des Égyptiens la circoncision, de la même manière que les Phéniciens et les Syriens ; et bien que tout cela ne soit pas entièrement vrai (car des Hébreux en particulier nous savons ce qu'il nous faut croire), il y a néanmoins là beaucoup de raisonnable, puisque c'est la coutume des vaincus de s'accommoder aux coutumes, aux mœurs et aux rites des vainqueurs. Et qui sait si le culte d'Isis, qui, comme le note aussi Tacite, existait chez les Suèves en Germanie, n'en tirait pas son origine — d'autant plus que...\n\n[Deuxième page] ...chez ces peuples, une image faite à la manière d'une frégate montrait quelque trace des hardies navigations des intrépides marins égyptiens. Et les Égyptiens ne laissèrent pas sans attention ces peuples qui, découverts et soumis du temps de nos pères par la très valeureuse nation portugaise, sont aujourd'hui compris sous le nom général des Indes Orientales ; car il est écrit que Sésostris soumit les peuples habitant autour de la mer que nous appelons aujourd'hui Rouge (y envoyant une flotte de grandes galères), et qu'avançant plus loin, il trouva une mer pleine de hauts-fonds et par conséquent innavigable, de sorte qu'il fut contraint de rebrousser chemin. Les Ptolémées allèrent plus loin encore, animés peut-être par quelque découverte des rois précédents, car Philadelphe, désireux de connaître et de voir des choses nouvelles (comme l'appelle aussi Strabon), envoya un certain Denys découvrir les Indes, qui en écrivit ensuite des livres et des relations. Et Cornélius Népos raconte qu'un certain Eudoxe, fuyant le roi Lathyre, sorti du golfe Arabique, aujourd'hui appelé mer de la Mecque ou mer Rouge, navigua si longtemps, en en faisant le tour, qu'il atteignit Cadix — résolution qui montre commerce et connaissance du pays. Et peut-être cet Eudoxe est-il le même qui, au temps de Ptolémée Évergète, navigua vers l'Inde et vers de nombreuses autres terres alors inconnues, comme le rapporte Strabon sur le témoignage d'Héraclide du Pont, bien que lui-même en rie pour certains arguments assez peu solides à vrai dire. Mais telle fut l'erreur universelle des géographes anciens, de tenir pour fables tous les récits du Nouveau Monde. Et ils transmirent cette fausse opinion dans les esprits des hommes avec une telle force que même nos grands-pères riaient de Marco Polo, à qui ils donnèrent par moquerie le surnom de « Million » ; et Christophe Colomb, pour la même raison, fut longtemps tenu pour fou. Et à Vicence les troupes du carnaval se déguisaient, racontant des sottises à l'imitation d'Antonio Pigafetta, qui en 1522 passa aux Indes avec Magellan. Les Romains, possédant l'Égypte, continuèrent ce voyage, car Strabon mentionne aussi le tribut indien qui, de son temps, était livré à Coptos, ville d'Égypte. Et Solin raconte un beau détail : que sous l'empire de Claude, un certain affranchi d'Annius Plocamus, qui était collecteur de péage sur la mer Rouge, étant parti pour l'Arabie et emporté par la force du vent, aborda en quinze jours l'île de Taprobane [Ceylan], où, ayant vécu six mois et appris la langue du pays, il raconta au roi beaucoup de choses qu'il avait vues et remarquées, parmi lesquelles fut notable l'étonnement de ce roi de ce que la monnaie romaine, bien que frappée de visages différents, eût néanmoins partout le même poids uniforme. Pline rapporte la même chose ; quant à moi, je ne vois pas sur quoi se fondait l'étonnement de ce barbare, car parmi de nombreux deniers romains à la Balance en main, j'en ai trouvé fort peu qui fussent du...\n\n[Troisième page] ...même poids ; bien que j'en aie moi-même pesé et tenu en main plus d'un. Mais, pour en revenir à notre sujet : Solin, en confirmation de ce que nous avons dit, consigne le voyage qui, de son temps, commençait à Alexandrie pour l'Inde ; et de cette description de Solin on trouve encore quelque trace dans l'ancienne Table Itinéraire publiée par Abraham Ortelius à l'instance du très noble seigneur Marcus Welser, gentilhomme de qualités fort rares, à qui les lettrés ne doivent pas que cela. Arrien, cependant, nie que quiconque ait jamais atteint l'Océan entièrement par la route de la mer Rouge : mais j'en crois peu, ayant devant moi les témoignages ci-dessus rapportés, d'autant plus que lui-même se borne aux temps de Ptolémée, premier fils de Lagos, et d'Alexandre le Grand. Il admet cependant qu'Hannon le Carthaginois osa franchir les colonnes d'Hercule et navigua trente-cinq jours vers l'orient, mais que, tournant vers le midi, accablé par la soif et la chaleur, il rebroussa chemin. Que les Égyptiens aient eu connaissance des Indes Occidentales ou non, il y a fort à en douter ; néanmoins Benedetto Arias Montano, dans son Apparatus à la Bible Royale, tient que la terre d'Ophir, mentionnée dans les Livres des Rois et dans les Paralipomènes, était le Pérou et la Nouvelle-Espagne ; et peut-être ne s'écarte-t-il pas tant du vrai, car si les Hébreux, ainsi que ceux du temps de Titus, en eurent connaissance, il serait absurde de prétendre que les Égyptiens n'en eurent point, puisque la flotte de Salomon pour ce voyage s'équipait, comme le dit l'Écriture, au port d'Ecyon-Gaber, près d'Ailath, sur le rivage de la mer Rouge — ce qu'on peut dire être chez les Égyptiens eux-mêmes. Je sais bien que Gaspar Varrero, Portugais, et Corneille Wytfliet de Louvain ont cherché à prouver que la terre d'Ophir était Malacca ; mais je sais aussi qu'Abraham Ortelius, homme d'une connaissance aussi exquise des choses géographiques que le monde en connaisse, a embrassé l'opinion d'Arias Montano et rejeté celle de Varrero, et avec Ortelius d'autres auteurs s'accordent encore. Mais, laissant de côté les autorités, je veux en cette matière me servir d'une conjecture qui n'est point faible, à savoir que les peuples de cette partie du monde ont conformé la fabrique de leurs idoles aux images des divinités égyptiennes, et rien de plus. Et avant d'en venir aux Égyptiens, je remarque que les habitants de ces pays adoraient le Soleil, la Lune et l'Armée du Ciel, comme le dit l'Écriture — ce qui fut la plus ancienne espèce d'idolâtrie que le monde ait jamais vue ; et le souvenir s'en conservait ici jusqu'à aujourd'hui, et leurs successeurs ne l'avaient pas oublié, mais en avaient composé un certain mélange, qui dura jusqu'à l'introduction de l'Évangile. Mais pour donner quelque commencement à ce curieux discours, je placerai ici le portrait d'Homoyoca, dieu du Mexique, que cette misérable gentilité tenait pour leur Jupiter."
       ],
-      "num": "251"
+      "num": "258"
     },
     {
       "id": "carti1",
-      "num": "252",
+      "num": "259",
       "page": "591",
       "fr": "Homoyoca",
       "ru": "Омойока",
@@ -7075,7 +7293,7 @@
     },
     {
       "id": "carti2",
-      "num": "253",
+      "num": "260",
       "page": "593",
       "fr": "Idolo messicano con offerenti",
       "ru": "Мексиканский идол с дарителями",
@@ -7102,7 +7320,7 @@
     },
     {
       "id": "carti3",
-      "num": "254",
+      "num": "261",
       "page": "594",
       "fr": "Miquitlantecatle e gli dei infernali",
       "ru": "Миктлантекутли и подземные боги",
@@ -7130,7 +7348,7 @@
     },
     {
       "id": "carti4",
-      "num": "255",
+      "num": "262",
       "page": "596",
       "fr": "Vitzliputzli (coppia di divinita)",
       "ru": "Вицлипуцли и спутник",
@@ -7157,7 +7375,7 @@
     },
     {
       "id": "carti5",
-      "num": "256",
+      "num": "263",
       "page": "597",
       "fr": "L'Ambasciatore alato",
       "ru": "Крылатый дух",
@@ -7186,7 +7404,7 @@
     },
     {
       "id": "carti6",
-      "num": "257",
+      "num": "264",
       "page": "600",
       "fr": "Quetzalcoatl",
       "ru": "Кецалькоатль",
@@ -7220,7 +7438,7 @@
     },
     {
       "id": "carti_parteseconda",
-      "num": "258",
+      "num": "265",
       "page": "601",
       "fr": "Parte Seconda: le Croci messicane, i caratteri geroglifici, gli Idoli compositi, e le Medaglie di Costantino",
       "ru": "Часть Вторая: мексиканские кресты, иероглифические знаки, составные идолы и медали Константина",
@@ -7246,7 +7464,7 @@
     },
     {
       "id": "carti_constantinevot",
-      "num": "259",
+      "num": "266",
       "page": "602",
       "fr": "Medaglia di Costantino: due Vittorie alate con lo scudo VOT PR e la Croce",
       "ru": "Медаль Константина: две крылатые Победы со щитом «VOT PR» и Крестом",
@@ -7271,7 +7489,7 @@
     },
     {
       "id": "carti_constantinelabaro",
-      "num": "260",
+      "num": "267",
       "page": "603",
       "fr": "Medaglia di Costanzo: l'Imperatore col Labaro, coronato dalla Vittoria, HOC SIGNO VICTOR ERIS",
       "ru": "Медаль Констанция: Император с лабарумом, увенчанный Победой, «HOC SIGNO VICTOR ERIS»",
@@ -7296,7 +7514,7 @@
     },
     {
       "id": "carti_idolimessico",
-      "num": "261",
+      "num": "268",
       "page": "605",
       "fr": "Due Idoli messicani paragonati alle figure egizie della Mensa Isiaca",
       "ru": "Два мексиканских идола, сопоставленные с египетскими фигурами «Исидина стола»",
@@ -7321,7 +7539,7 @@
     },
     {
       "id": "carti_pagodeelefante",
-      "num": "262",
+      "num": "269",
       "page": "606",
       "fr": "Idolo squamoso del Messico, e il 'Pagode dell'Elefante' di Goa",
       "ru": "Чешуйчатый идол из Мексики и «Пагода Слона» из Гоа",
@@ -7346,7 +7564,7 @@
     },
     {
       "id": "carti7",
-      "num": "263",
+      "num": "270",
       "page": "608",
       "fr": "Divinita composite \"egizie\" (introduzione al Giapone)",
       "ru": "«Египетские» божества-кентавры (вступление к Японии)",
@@ -7373,7 +7591,7 @@
     },
     {
       "id": "carti8",
-      "num": "264",
+      "num": "271",
       "page": "609",
       "fr": "Canone, figlio di Amida",
       "ru": "Каннон, сын Амиды",
@@ -7400,7 +7618,7 @@
     },
     {
       "id": "carti9",
-      "num": "265",
+      "num": "272",
       "page": "610",
       "fr": "Un'altra statua di Amida presso Meaco",
       "ru": "Ещё одна статуя Амиды близ Меако",
@@ -7427,7 +7645,7 @@
     },
     {
       "id": "carti10",
-      "num": "266",
+      "num": "273",
       "page": "611",
       "fr": "Il dio-lucertola delle lettere",
       "ru": "Бог-ящерица, покровитель учёности",
@@ -7454,7 +7672,7 @@
     },
     {
       "id": "carti11",
-      "num": "267",
+      "num": "274",
       "page": "612",
       "fr": "Una pagoda giapponese",
       "ru": "Японская пагода",
@@ -7482,7 +7700,7 @@
     },
     {
       "id": "carti12",
-      "num": "268",
+      "num": "275",
       "page": "613",
       "fr": "Un castello-tempio giapponese",
       "ru": "Японский замок-храм",
@@ -7509,7 +7727,7 @@
     },
     {
       "id": "carti13",
-      "num": "269",
+      "num": "276",
       "page": "614",
       "fr": "Il grande Idolo giapponese",
       "ru": "Великий японский идол",
@@ -7536,7 +7754,7 @@
     },
     {
       "id": "carti14",
-      "num": "270",
+      "num": "277",
       "page": "615",
       "fr": "Il secondo idoletto d'Aleandro",
       "ru": "Второй идольчик из собрания Алеандро",
@@ -7563,7 +7781,7 @@
     },
     {
       "id": "carti15",
-      "num": "271",
+      "num": "278",
       "page": "616",
       "fr": "Un idolo calvo dal volto ridente (primo idoletto)",
       "ru": "Лысый смеющийся идол (первый идольчик)",
@@ -7590,7 +7808,7 @@
     },
     {
       "id": "carti16",
-      "num": "272",
+      "num": "279",
       "page": "617",
       "fr": "Uno spirito guerriero (secondo idoletto)",
       "ru": "Воинственный дух (второй идольчик)",
@@ -7617,7 +7835,7 @@
     },
     {
       "id": "carti17",
-      "num": "273",
+      "num": "280",
       "page": "618",
       "fr": "Coppia di figure (terzo e quarto idoletto)",
       "ru": "Пара фигур (третий и четвёртый идольчики)",
@@ -7644,7 +7862,7 @@
     },
     {
       "id": "carti18",
-      "num": "274",
+      "num": "281",
       "page": "619",
       "fr": "L'idolo piangente (quinto idoletto)",
       "ru": "Плачущий идол (пятый идольчик)",
@@ -7671,7 +7889,7 @@
     },
     {
       "id": "carti19",
-      "num": "275",
+      "num": "282",
       "page": "620",
       "fr": "Coppia di divinita dalla pelle azzurra (sesto e settimo idoletto)",
       "ru": "Синекожая пара божеств (шестой и седьмой идольчики)",
@@ -7698,7 +7916,7 @@
     },
     {
       "id": "carti20",
-      "num": "276",
+      "num": "283",
       "page": "621",
       "fr": "Divinita a sei braccia (ottavo idoletto)",
       "ru": "Шестирукое божество с луком (восьмой идольчик)",
@@ -7725,7 +7943,7 @@
     },
     {
       "id": "carti21",
-      "num": "277",
+      "num": "284",
       "page": "622",
       "fr": "Figura aureolata dall'aspetto di santo",
       "ru": "Святоподобная фигура с нимбом",
@@ -7752,7 +7970,7 @@
     },
     {
       "id": "carti22",
-      "num": "278",
+      "num": "285",
       "page": "623",
       "fr": "Una dea con un bambino",
       "ru": "Богиня с младенцем на руках",
@@ -7779,7 +7997,7 @@
     },
     {
       "id": "carti23",
-      "num": "279",
+      "num": "286",
       "page": "624",
       "fr": "Un idolo azzurro in un'aureola di fiamme",
       "ru": "Синекожий идол в пламенном нимбе",
@@ -7806,7 +8024,7 @@
     },
     {
       "id": "carti24",
-      "num": "280",
+      "num": "287",
       "page": "625",
       "fr": "Un idolo rosso seduto su una bestia",
       "ru": "Красный идол, сидящий на звере",
@@ -7833,7 +8051,7 @@
     },
     {
       "id": "carti25",
-      "num": "281",
+      "num": "288",
       "page": "626",
       "fr": "Un guerriero su una nuvola",
       "ru": "Воин на облаке с пламенным нимбом",
@@ -7860,7 +8078,7 @@
     },
     {
       "id": "carti26",
-      "num": "282",
+      "num": "289",
       "page": "627",
       "fr": "Spirito alato su un corpo abbattuto",
       "ru": "Крылатый дух, попирающий поверженного",
@@ -7888,7 +8106,7 @@
     },
     {
       "id": "carti27",
-      "num": "283",
+      "num": "290",
       "page": "629",
       "fr": "Piccolo idolo su un vaso (1)",
       "ru": "Маленький идол на вазе (1)",
@@ -7915,7 +8133,7 @@
     },
     {
       "id": "carti28",
-      "num": "284",
+      "num": "291",
       "page": "630",
       "fr": "Piccolo idolo su un vaso (2)",
       "ru": "Маленький идол на вазе (2)",
@@ -7943,7 +8161,7 @@
     },
     {
       "id": "carti29",
-      "num": "285",
+      "num": "292",
       "page": "631",
       "fr": "Piccolo idolo su un vaso (3)",
       "ru": "Маленький идол на вазе (3)",
@@ -7971,7 +8189,7 @@
     },
     {
       "id": "carti30",
-      "num": "286",
+      "num": "293",
       "page": "632",
       "fr": "Piccolo idolo su un vaso (4)",
       "ru": "Маленький идол на вазе (4) — «IL FINE»",
