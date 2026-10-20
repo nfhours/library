@@ -3282,6 +3282,28 @@
       "text_fr": [
         "« Image des Grâces conduites par Mercure, dénotant que le bienfait et la bienveillance doivent se faire avec raison, en temps voulu, et envers ceux qui le méritent, sans espoir de récompense, d'un cœur sincère ; et qu'un bienfait doit, à l'occasion, être rendu par un bienfait, sinon en actes, du moins en paroles. »"
       ]
+    },
+    {
+      "id": "cartm41",
+      "num": "41",
+      "page": "41",
+      "fr": "La Buona Fortuna (con Eloquenza e Dottrina)",
+      "ru": "Добрая Фортуна (с Красноречием и Учёностью)",
+      "en": "Good Fortune (with Eloquence and Learning)",
+      "name_fr": "La Bonne Fortune (avec l'Éloquence et le Savoir)",
+      "img": [
+        "cartm41.jpg"
+      ],
+      "caption": "...non mancò chi dicesse, che valesse poco la virtù senza lei [la buona Fortuna]: & che se bene quella si scorge ad alte imprese, & glorioso nome, non mai però, ò malageuolmente vi arriuaremo, se questa non ci accompagna... la buona Fortuna va quasi sempre insieme con la Eloquenza, & con la Dottrina.",
+      "text_ru": [
+        "«...нашлись и такие, кто говорил, что добродетель немногого стоит без неё [доброй Фортуны]: и что хотя она и ведёт к высоким свершениям и славному имени, однако никогда — или с большим трудом — мы их достигнем, если она нас не сопровождает... добрая Фортуна почти всегда идёт вместе с Красноречием и Учёностью»."
+      ],
+      "text_en": [
+        "“...there were those who said that virtue counts for little without her [good Fortune]: and that although virtue leads to lofty deeds and a glorious name, we shall never — or only with great difficulty — attain them if she does not accompany us... good Fortune almost always goes together with Eloquence and with Learning.”"
+      ],
+      "text_fr": [
+        "« ...il s'en est trouvé pour dire que la vertu vaut peu sans elle [la bonne Fortune] : et que, bien qu'elle mène à de hautes entreprises et à un nom glorieux, nous n'y parviendrons jamais, ou seulement avec grand peine, si elle ne nous accompagne... la bonne Fortune va presque toujours de pair avec l'Éloquence et avec le Savoir. »"
+      ]
     }
   ]
 }
