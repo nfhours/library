@@ -20,7 +20,12 @@
       "text_en": [
         "Opening plate: the full Laocoön group with his sons. Carved from a single marble block by three sculptors — Agesander, Polydoros and Athenodoros; the subject is drawn from Book II of Virgil's Aeneid."
       ],
-      "group_en": "Laocoön"
+      "group_en": "Laocoön",
+      "name_fr": "Laocoon",
+      "group_frtrans": "Laocoon",
+      "text_fr": [
+        "La Statue de Laocoon à de hauteur 7 têtes 2 parties 3 minutes ; elle a toûjours fait l'admiration des plus fameux dessinateurs, et plusieurs n'ont point fait de difficulté de luy donner le premier rang entre toutes les figures antiques. C'est un groupe composé de la figure de Laocoon et de celle de ses deux fils (sujet tiré du second livre de l'Énéide, vers 201). Le tout est d'un seul bloc de marbre, travaillé par trois célèbres sculpteurs : Agésandre, Polydore et Athénodore."
+      ]
     },
     {
       "id": "aud2",
@@ -41,7 +46,12 @@
       "text_en": [
         "The same statue, seen from the side and back, with proportion lines across the torso."
       ],
-      "group_en": "Laocoön"
+      "group_en": "Laocoön",
+      "name_fr": "Laocoon (vue 2)",
+      "group_frtrans": "Laocoon",
+      "text_fr": [
+        "Laocoon a de hauteur 7 têtes 2 parties 3 minutes."
+      ]
     },
     {
       "id": "aud3",
@@ -62,7 +72,12 @@
       "text_en": [
         "Another view of Laocoön, with proportion markings on the torso and legs."
       ],
-      "group_en": "Laocoön"
+      "group_en": "Laocoön",
+      "name_fr": "Laocoon (vue 3)",
+      "group_frtrans": "Laocoon",
+      "text_fr": [
+        "Laocoon a de hauteur 7 têtes 2 parties 3 minutes."
+      ]
     },
     {
       "id": "aud4",
@@ -83,7 +98,12 @@
       "text_en": [
         "Laocoön seen entirely from behind, head to foot, with the full measurement grid."
       ],
-      "group_en": "Laocoön"
+      "group_en": "Laocoön",
+      "name_fr": "Laocoon (vue de dos)",
+      "group_frtrans": "Laocoon",
+      "text_fr": [
+        "Laocoon a de haulteur 7 têtes 2 parties 3 minutes."
+      ]
     },
     {
       "id": "aud5",
@@ -104,7 +124,12 @@
       "text_en": [
         "The Farnese Hercules, front view. Traditionally attributed to the Greek sculptor Glycon."
       ],
-      "group_en": "Farnese Hercules"
+      "group_en": "Farnese Hercules",
+      "name_fr": "Hercule Farnèse",
+      "group_frtrans": "Hercule Farnèse",
+      "text_fr": [
+        "La Statue d'Hercule dit de Farnese a 7 têtes 3 parties 7 minuttes de hauteur, suposant la figure droite et egallement posée sur ses deux pieds. Elle est de la main de Glicon grec."
+      ]
     },
     {
       "id": "aud6",
@@ -125,7 +150,12 @@
       "text_en": [
         "The same Farnese Hercules, seen from the side."
       ],
-      "group_en": "Farnese Hercules"
+      "group_en": "Farnese Hercules",
+      "name_fr": "Hercule Farnèse (de côté)",
+      "group_frtrans": "Hercule Farnèse",
+      "text_fr": [
+        "Le même Hercule veu de côté a 7 têtes 3 parties 7 minutes de hauteur."
+      ]
     },
     {
       "id": "aud7",
@@ -146,7 +176,12 @@
       "text_en": [
         "The Farnese Hercules by Glycon, a further view."
       ],
-      "group_en": "Farnese Hercules"
+      "group_en": "Farnese Hercules",
+      "name_fr": "Hercule Farnèse (par Glicon)",
+      "group_frtrans": "Hercule Farnèse",
+      "text_fr": [
+        "Le mesme Hercule fait par Glicon à de hauteur 7 têtes 3 parties 7 minuttes."
+      ]
     },
     {
       "id": "aud8",
@@ -167,7 +202,12 @@
       "text_en": [
         "A statue in the Villa Ludovisi gardens in Rome, named by Audran “Pyrasme.”"
       ],
-      "group_en": "Pyrasme"
+      "group_en": "Pyrasme",
+      "name_fr": "Pyrasme",
+      "group_frtrans": "Pyrasme",
+      "text_fr": [
+        "Pyrasme au jardin Ludovise à Rome, a de hauteur 7 têtes 2 parties."
+      ]
     },
     {
       "id": "aud9",
@@ -188,7 +228,12 @@
       "text_en": [
         "The same Villa Ludovisi statue, another view."
       ],
-      "group_en": "Pyrasme"
+      "group_en": "Pyrasme",
+      "name_fr": "Pyrasme (vue 2)",
+      "group_frtrans": "Pyrasme",
+      "text_fr": [
+        "Le mesme 7 têtes 2 parties de hauteur."
+      ]
     },
     {
       "id": "aud10",
@@ -209,7 +254,12 @@
       "text_en": [
         "A herm bust “in the Egyptian manner”; Audran suggests measuring the head not by the nose but by the span between the nipples, since the crown of the head sits lower than usual."
       ],
-      "group_en": "Antinous"
+      "group_en": "Antinous",
+      "name_fr": "Terme égyptien",
+      "group_frtrans": "Antinoüs",
+      "text_fr": [
+        "Le terme Ouvrage Egyptien, a de hauteur 7 têtes 1 partie 7 minutes. Comme la tête n'est pas de 4 mesures de nez, il faudra les prendre de l'espace des 2 tétins, d'autant que le haut de la tête est surbaissée."
+      ]
     },
     {
       "id": "aud11",
@@ -230,7 +280,12 @@
       "text_en": [
         "The same bust, another view, marked “B.”"
       ],
-      "group_en": "Antinous"
+      "group_en": "Antinous",
+      "name_fr": "Terme égyptien (vue 2)",
+      "group_frtrans": "Antinoüs",
+      "text_fr": [
+        "Elle a de hauteur 7 têtes 2 parties."
+      ]
     },
     {
       "id": "aud12",
@@ -251,7 +306,12 @@
       "text_en": [
         "The statue Audran identifies as Antinous."
       ],
-      "group_en": "Antinous"
+      "group_en": "Antinous",
+      "name_fr": "Antinous",
+      "group_frtrans": "Antinoüs",
+      "text_fr": [
+        "Le mesme Antinous à 7 têtes 2 parties."
+      ]
     },
     {
       "id": "aud13",
@@ -272,7 +332,12 @@
       "text_en": [
         "The statue “Peace of the Greeks” (Eirene); Audran suggests checking it against the Antinous scale to compare the two figures' proportions."
       ],
-      "group_en": "The Peace of the Greeks"
+      "group_en": "The Peace of the Greeks",
+      "name_fr": "La Paix des Grecs",
+      "group_frtrans": "La Paix des Grecs",
+      "text_fr": [
+        "La Paix des Grecs. A de hauteur 7 têtes 2 parties, suposant la figure droite et egallement posée sur ses deux pieds. Elle se peut encore mesurer avec l'eschelle de l'Antinoüs afin d'en examiner les différences."
+      ]
     },
     {
       "id": "aud14",
@@ -293,7 +358,12 @@
       "text_en": [
         "“The Greek Shepherdess” — another female figure among the model statues."
       ],
-      "group_en": "The Greek Shepherdess"
+      "group_en": "The Greek Shepherdess",
+      "name_fr": "La Bergère Grecque",
+      "group_frtrans": "La Bergère Grecque",
+      "text_fr": [
+        "La Bergère Grecque a de hauteur 7 têtes 3 parties 6 minutes."
+      ]
     },
     {
       "id": "aud15",
@@ -314,7 +384,12 @@
       "text_en": [
         "The Venus de' Medici, front view."
       ],
-      "group_en": "Venus de' Medici"
+      "group_en": "Venus de' Medici",
+      "name_fr": "Vénus de Médicis",
+      "group_frtrans": "Vénus de Médicis",
+      "text_fr": [
+        "La Statue de Venus Aphrodide dite de Medicis a de hauteur 7 têtes 3 parties, suposant la figure droite et appuyée egallement sur les deux pieds."
+      ]
     },
     {
       "id": "aud16",
@@ -335,7 +410,12 @@
       "text_en": [
         "The same Venus de' Medici, a further view."
       ],
-      "group_en": "Venus de' Medici"
+      "group_en": "Venus de' Medici",
+      "name_fr": "Vénus de Médicis (vue 2)",
+      "group_frtrans": "Vénus de Médicis",
+      "text_fr": [
+        "La Venus Aphrodide dite de Medicis a de hauteur 7 têtes 3 parties, suposant la figure droite et appuyée egallement sur ses deux pieds."
+      ]
     },
     {
       "id": "aud17",
@@ -356,7 +436,12 @@
       "text_en": [
         "Apollo Pythius loosing his arrows — the statue in the Vatican gardens, better known today as the Apollo Belvedere."
       ],
-      "group_en": "Apollo Pythius"
+      "group_en": "Apollo Pythius",
+      "name_fr": "Apollon Pythien",
+      "group_frtrans": "Apollon Pythien",
+      "text_fr": [
+        "Apollon pythien decochant ses flesches à de hauteur 7 têtes 3 parties 6 minutes. Sa Statue est au Jardin du Vatican."
+      ]
     },
     {
       "id": "aud18",
@@ -377,7 +462,12 @@
       "text_en": [
         "The same Apollo, another view."
       ],
-      "group_en": "Apollo Pythius"
+      "group_en": "Apollo Pythius",
+      "name_fr": "Apollon Pythien (vue 2)",
+      "group_frtrans": "Apollon Pythien",
+      "text_fr": [
+        "Le mesme a de hauteur 7 têtes 3 parties 6 minuttes."
+      ]
     },
     {
       "id": "aud19",
@@ -398,7 +488,12 @@
       "text_en": [
         "Apollo, a further view."
       ],
-      "group_en": "Apollo Pythius"
+      "group_en": "Apollo Pythius",
+      "name_fr": "Apollon Pythien (vue 3)",
+      "group_frtrans": "Apollon Pythien",
+      "text_fr": [
+        "Le mesme a de hauteur 7 têtes 3 parties 6 minuttes."
+      ]
     },
     {
       "id": "aud20",
@@ -419,7 +514,12 @@
       "text_en": [
         "Apollo — the figure set out in perspective."
       ],
-      "group_en": "Apollo Pythius"
+      "group_en": "Apollo Pythius",
+      "name_fr": "Apollon Pythien (perspective)",
+      "group_frtrans": "Apollon Pythien",
+      "text_fr": [
+        "Le mesme à de hauteur 7 têtes 3 parties 6 minuttes."
+      ]
     },
     {
       "id": "aud21",
@@ -440,7 +540,12 @@
       "text_en": [
         "A torso fragment of an antique statue, alongside separate studies of the eye, nose and mouth."
       ],
-      "group_en": "Fragment"
+      "group_en": "Fragment",
+      "name_fr": "Fragment de l'antique",
+      "group_frtrans": "Fragment de l'antique",
+      "text_fr": [
+        "Ce fragment de l'antique, à de hauteur 7 têtes 2 parties. On croit que c'est du même qui a fait le Lantin."
+      ]
     },
     {
       "id": "aud22",
@@ -461,7 +566,12 @@
       "text_en": [
         "The gladiator-mirmillo statue, the first of two views."
       ],
-      "group_en": "Mirmillo"
+      "group_en": "Mirmillo",
+      "name_fr": "Mirmillon (vue 1)",
+      "group_frtrans": "Mirmillon",
+      "text_fr": [
+        "La même 8 têtes de hauteur."
+      ]
     },
     {
       "id": "aud23",
@@ -482,7 +592,12 @@
       "text_en": [
         "“The Dying Mirmillo” — a statue in the Villa Ludovisi gardens in Rome; a mirmillo was a heavily armed type of Roman gladiator."
       ],
-      "group_en": "Mirmillo"
+      "group_en": "Mirmillo",
+      "name_fr": "Mirmillon mourant",
+      "group_frtrans": "Mirmillon",
+      "text_fr": [
+        "Mirmille mourant à de hauteur 8 têtes, sa Statue est à Rome au jardin Ludovise."
+      ]
     },
     {
       "id": "aud24",
@@ -503,7 +618,12 @@
       "text_en": [
         "The elder son of Laocoön, measured apart from the full group."
       ],
-      "group_en": "Laocoön"
+      "group_en": "Laocoön",
+      "name_fr": "Enfant de Laocoon",
+      "group_frtrans": "Laocoon",
+      "text_fr": [
+        "Le grand enfant du Laocoon a de hauteur 7 têtes 2 parties."
+      ]
     },
     {
       "id": "aud25",
@@ -524,7 +644,12 @@
       "text_en": [
         "One of Laocoön's sons, marked “B” on the plate."
       ],
-      "group_en": "Laocoön"
+      "group_en": "Laocoön",
+      "name_fr": "Enfant de Laocoon, marqué B",
+      "group_frtrans": "Laocoon",
+      "text_fr": [
+        "L'un des enfans de Laocoon, marqué B."
+      ]
     },
     {
       "id": "aud26",
@@ -545,7 +670,12 @@
       "text_en": [
         "The same (younger) son of Laocoön — just 5 heads tall, as befits a child."
       ],
-      "group_en": "Laocoön"
+      "group_en": "Laocoön",
+      "name_fr": "Enfant de Laocoon (suite)",
+      "group_frtrans": "Laocoon",
+      "text_fr": [
+        "Il a 5 têtes de hauteur."
+      ]
     },
     {
       "id": "aud27",
@@ -566,7 +696,12 @@
       "text_en": [
         "A close study of the eye, nose, mouth and ear — at the scale of the Apollo Pythius statue."
       ],
-      "group_en": "Apollo Pythius"
+      "group_en": "Apollo Pythius",
+      "name_fr": "Visage d'Apollon",
+      "group_frtrans": "Apollon Pythien",
+      "text_fr": [
+        "Les Parties du Visage mesurées de la mesme grandeur qu'elles sont en la Statue d'Apollon Pythien qui est au Jardin du Vatican."
+      ]
     },
     {
       "id": "aud28",
@@ -587,7 +722,12 @@
       "text_en": [
         "The same facial features, studied from an antique Venus."
       ],
-      "group_en": "Venus de' Medici"
+      "group_en": "Venus de' Medici",
+      "name_fr": "Visage de Vénus",
+      "group_frtrans": "Vénus de Médicis",
+      "text_fr": [
+        "Les parties du visage d'une Venus antique mesurées de leurs mesmes grandeurs."
+      ]
     },
     {
       "id": "aud29",
@@ -608,7 +748,12 @@
       "text_en": [
         "A decorative vignette: two heads after a design from Raphael's circle (Giulio Romano), engraved by Girard Audran himself."
       ],
-      "group_en": "Ornamental headpieces"
+      "group_en": "Ornamental headpieces",
+      "name_fr": "Têtes (fronton)",
+      "group_frtrans": "Têtes ornementales",
+      "text_fr": [
+        "R. Vrbm. in. — G. Au. sculp cum privil."
+      ]
     },
     {
       "id": "aud30",
@@ -629,7 +774,9 @@
       "text_en": [
         "A further pair of decorative heads from the same set, closing the book."
       ],
-      "group_en": "Ornamental headpieces"
+      "group_en": "Ornamental headpieces",
+      "name_fr": "Têtes (fronton, suite)",
+      "group_frtrans": "Têtes ornementales"
     }
   ]
 }
