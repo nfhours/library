@@ -56,7 +56,9 @@
       "reverse_en": "walking lion, MASSALIETON",
       "legend_fr": "MASSALIETON",
       "legend_ru": "MASSALIETON",
-      "legend_en": "MASSALIETON"
+      "legend_en": "MASSALIETON",
+      "name_fr": "Diane / Lion",
+      "group_frtrans": "Planche I"
     },
     {
       "id": "pl1-2",
@@ -108,7 +110,9 @@
       "reverse_en": "lion with open jaws, one paw raised, MASSALIETON",
       "legend_fr": "MASSALIETON",
       "legend_ru": "MASSALIETON",
-      "legend_en": "MASSALIETON"
+      "legend_en": "MASSALIETON",
+      "name_fr": "Diane / Lion (gueule béante)",
+      "group_frtrans": "Planche I"
     },
     {
       "id": "pl1-3",
@@ -162,7 +166,9 @@
       "reverse_en": "cuirassed lion, MASSA, XIIII",
       "legend_fr": "MASSA XIIII",
       "legend_ru": "MASSA XIIII",
-      "legend_en": "MASSA XIIII"
+      "legend_en": "MASSA XIIII",
+      "name_fr": "Diane (trident) / Lion cuirassé",
+      "group_frtrans": "Planche I"
     },
     {
       "id": "pl1-4",
@@ -214,7 +220,9 @@
       "reverse_en": "lion (less careful drawing), MASSA / ΛΛΕ",
       "legend_fr": "MASSA ΛΛΕ",
       "legend_ru": "MASSA ΛΛΕ",
-      "legend_en": "MASSA ΛΛΕ"
+      "legend_en": "MASSA ΛΛΕ",
+      "name_fr": "Diane (boucles de perles) / Lion",
+      "group_frtrans": "Planche I"
     },
     {
       "id": "pl1-5",
@@ -270,7 +278,9 @@
       "reverse_en": "lion with open jaws, MASSA / ΑΗΠΙ",
       "legend_fr": "MASSA ΑΗΠΙ",
       "legend_ru": "MASSA ΑΗΠΙ",
-      "legend_en": "MASSA ΑΗΠΙ"
+      "legend_en": "MASSA ΑΗΠΙ",
+      "name_fr": "Diane / Lion",
+      "group_frtrans": "Planche I"
     },
     {
       "id": "pl1-6",
@@ -322,7 +332,9 @@
       "reverse_en": "enraged lion, bristling mane, MASSALIETON, Β/Δ",
       "legend_fr": "MASSALIETON",
       "legend_ru": "MASSALIETON",
-      "legend_en": "MASSALIETON"
+      "legend_en": "MASSALIETON",
+      "name_fr": "Diane / Lion courroucé",
+      "group_frtrans": "Planche I"
     },
     {
       "id": "pl1-7",
@@ -374,7 +386,9 @@
       "reverse_en": "enraged lion, MASSALIETON (as no. 6)",
       "legend_fr": "MASSALIETON",
       "legend_ru": "MASSALIETON",
-      "legend_en": "MASSALIETON"
+      "legend_en": "MASSALIETON",
+      "name_fr": "Diane (feuillage) / Lion",
+      "group_frtrans": "Planche I"
     },
     {
       "id": "pl1-8",
@@ -430,7 +444,9 @@
       "reverse_en": "lion, MASSA",
       "legend_fr": "MASSA",
       "legend_ru": "MASSA",
-      "legend_en": "MASSA"
+      "legend_en": "MASSA",
+      "name_fr": "Diane (couronne d'olivier) / Lion",
+      "group_frtrans": "Planche I"
     },
     {
       "id": "pl1-9",
@@ -482,7 +498,9 @@
       "reverse_en": "eagle, star countermark, MASSA",
       "legend_fr": "MASSA",
       "legend_ru": "MASSA",
-      "legend_en": "MASSA"
+      "legend_en": "MASSA",
+      "name_fr": "Mars / Aigle",
+      "group_frtrans": "Planche I"
     },
     {
       "id": "pl1-10",
@@ -534,7 +552,9 @@
       "reverse_en": "lion, left paw raised, A / Λ (no name of Marseille)",
       "legend_fr": "A Λ",
       "legend_ru": "A Λ",
-      "legend_en": "A Λ"
+      "legend_en": "A Λ",
+      "name_fr": "Diane / Lion",
+      "group_frtrans": "Planche I"
     },
     {
       "id": "pl1-11",
@@ -586,7 +606,9 @@
       "reverse_en": "lion, MASSA / TAΛ",
       "legend_fr": "MASSA TAΛ",
       "legend_ru": "MASSA TAΛ",
-      "legend_en": "MASSA TAΛ"
+      "legend_en": "MASSA TAΛ",
+      "name_fr": "Diane / Lion",
+      "group_frtrans": "Planche I"
     },
     {
       "id": "pl1-12",
@@ -638,7 +660,9 @@
       "reverse_en": "threatening bull, MA",
       "legend_fr": "MA",
       "legend_ru": "MA",
-      "legend_en": "MA"
+      "legend_en": "MA",
+      "name_fr": "Apollon / Taureau",
+      "group_frtrans": "Planche I"
     },
     {
       "id": "pl1-13",
@@ -691,7 +715,9 @@
       "reverse_en": "lion, MASSA",
       "legend_fr": "MASSA",
       "legend_ru": "MASSA",
-      "legend_en": "MASSA"
+      "legend_en": "MASSA",
+      "name_fr": "Diane (javelot) / Lion",
+      "group_frtrans": "Planche I"
     },
     {
       "id": "pl1-14",
@@ -745,7 +771,9 @@
       "reverse_en": "lion, MASSA",
       "legend_fr": "MASSA",
       "legend_ru": "MASSA",
-      "legend_en": "MASSA"
+      "legend_en": "MASSA",
+      "name_fr": "Diane (double couronne) / Lion",
+      "group_frtrans": "Planche I"
     },
     {
       "id": "pl1-15",
@@ -796,7 +824,9 @@
       "reverse_en": "cross, MA",
       "legend_fr": "MA",
       "legend_ru": "MA",
-      "legend_en": "MA"
+      "legend_en": "MA",
+      "name_fr": "Tête de jeune homme / Croix",
+      "group_frtrans": "Planche I"
     },
     {
       "id": "pl1-16",
@@ -849,7 +879,9 @@
       "reverse_en": "cross, M",
       "legend_fr": "MASSA / M",
       "legend_ru": "MASSA / M",
-      "legend_en": "MASSA / M"
+      "legend_en": "MASSA / M",
+      "name_fr": "Diane (laurier) / Croix",
+      "group_frtrans": "Planche I"
     },
     {
       "id": "pl1-17",
@@ -903,7 +935,9 @@
       "reverse_en": "eight-pointed cross pattée (Maltese-style); no letters visible on the engraving",
       "legend_fr": "ΛΑΚΥΔΩΝ",
       "legend_ru": "ΛΑΚΥΔΩΝ",
-      "legend_en": "ΛΑΚΥΔΩΝ"
+      "legend_en": "ΛΑΚΥΔΩΝ",
+      "name_fr": "Tête / Croix (de Malte)",
+      "group_frtrans": "Planche I"
     },
     {
       "id": "pl1-18",
@@ -956,7 +990,9 @@
       "reverse_en": "cross, letters Α (top) and Μ (bottom) in the quarters",
       "legend_fr": "Α Μ",
       "legend_ru": "Α Μ",
-      "legend_en": "Α Μ"
+      "legend_en": "Α Μ",
+      "name_fr": "Diane (diadème) / Croix",
+      "group_frtrans": "Planche I"
     },
     {
       "id": "pl1-19",
@@ -1011,7 +1047,9 @@
       "reverse_en": "threatening bull, MASSA",
       "legend_fr": "MASSA",
       "legend_ru": "MASSA",
-      "legend_en": "MASSA"
+      "legend_en": "MASSA",
+      "name_fr": "Tête (turban) / Taureau",
+      "group_frtrans": "Planche I"
     },
     {
       "id": "pl2-1",
@@ -1064,7 +1102,9 @@
       ],
       "legend_fr": "MASSA",
       "legend_ru": "MASSA",
-      "legend_en": "MASSA"
+      "legend_en": "MASSA",
+      "name_fr": "Diane (laurier) / Lion",
+      "group_frtrans": "Planche II"
     },
     {
       "id": "pl2-2",
@@ -1117,7 +1157,9 @@
       ],
       "legend_fr": "Λ Δ",
       "legend_ru": "Λ Δ",
-      "legend_en": "Λ Δ"
+      "legend_en": "Λ Δ",
+      "name_fr": "Diane (diadème) / Caducée",
+      "group_frtrans": "Planche II"
     },
     {
       "id": "pl2-3",
@@ -1173,7 +1215,9 @@
       ],
       "legend_fr": "MASSA XZA",
       "legend_ru": "MASSA XZA",
-      "legend_en": "MASSA XZA"
+      "legend_en": "MASSA XZA",
+      "name_fr": "Diane (triple diadème) / Lion",
+      "group_frtrans": "Planche II"
     },
     {
       "id": "pl2-4",
@@ -1226,7 +1270,9 @@
       ],
       "legend_fr": "MASSA",
       "legend_ru": "MASSA",
-      "legend_en": "MASSA"
+      "legend_en": "MASSA",
+      "name_fr": "Diane (trident) / Chien",
+      "group_frtrans": "Planche II"
     },
     {
       "id": "pl2-5",
@@ -1278,7 +1324,9 @@
       ],
       "legend_fr": "MASSALIETO",
       "legend_ru": "MASSALIETO",
-      "legend_en": "MASSALIETO"
+      "legend_en": "MASSALIETO",
+      "name_fr": "Diane (boucle en delta) / Lion",
+      "group_frtrans": "Planche II"
     },
     {
       "id": "pl2-6",
@@ -1330,7 +1378,9 @@
       ],
       "legend_fr": "MASSA O.T",
       "legend_ru": "MASSA O.T",
-      "legend_en": "MASSA O.T"
+      "legend_en": "MASSA O.T",
+      "name_fr": "Diane / Minotaure",
+      "group_frtrans": "Planche II"
     },
     {
       "id": "pl2-7",
@@ -1383,7 +1433,9 @@
       ],
       "legend_fr": "MASSA ΙΠΛ",
       "legend_ru": "MASSA ΙΠΛ",
-      "legend_en": "MASSA ΙΠΛ"
+      "legend_en": "MASSA ΙΠΛ",
+      "name_fr": "Diane (trident) / Lion",
+      "group_frtrans": "Planche II"
     },
     {
       "id": "pl2-8",
@@ -1435,7 +1487,9 @@
       ],
       "legend_fr": "MASSALIETON",
       "legend_ru": "MASSALIETON",
-      "legend_en": "MASSALIETON"
+      "legend_en": "MASSALIETON",
+      "name_fr": "Diane / Lion",
+      "group_frtrans": "Planche II"
     },
     {
       "id": "pl2-9",
@@ -1488,7 +1542,9 @@
       ],
       "legend_fr": "MASSA TILD",
       "legend_ru": "MASSA TILD",
-      "legend_en": "MASSA TILD"
+      "legend_en": "MASSA TILD",
+      "name_fr": "Diane (trident) / Lion",
+      "group_frtrans": "Planche II"
     },
     {
       "id": "pl3-1",
@@ -1539,7 +1595,9 @@
       ],
       "legend_fr": "MASSA",
       "legend_ru": "MASSA",
-      "legend_en": "MASSA"
+      "legend_en": "MASSA",
+      "name_fr": "Apollon / Cheval",
+      "group_frtrans": "Planche III"
     },
     {
       "id": "pl3-2",
@@ -1591,7 +1649,9 @@
       ],
       "legend_fr": "MA",
       "legend_ru": "MA",
-      "legend_en": "MA"
+      "legend_en": "MA",
+      "name_fr": "Guerrier (Bacchus?) / Trépied",
+      "group_frtrans": "Planche III"
     },
     {
       "id": "pl3-3",
@@ -1643,7 +1703,9 @@
       ],
       "legend_fr": "MA",
       "legend_ru": "MA",
-      "legend_en": "MA"
+      "legend_en": "MA",
+      "name_fr": "Minerve / Trépied",
+      "group_frtrans": "Planche III"
     },
     {
       "id": "pl3-4",
@@ -1695,7 +1757,9 @@
       ],
       "legend_fr": "MASSA",
       "legend_ru": "MASSA",
-      "legend_en": "MASSA"
+      "legend_en": "MASSA",
+      "name_fr": "Mars / Aigle",
+      "group_frtrans": "Planche III"
     },
     {
       "id": "pl3-5",
@@ -1747,7 +1811,9 @@
       ],
       "legend_fr": "MA",
       "legend_ru": "MA",
-      "legend_en": "MA"
+      "legend_en": "MA",
+      "name_fr": "Mars / Trépied",
+      "group_frtrans": "Planche III"
     },
     {
       "id": "pl3-6",
@@ -1799,7 +1865,9 @@
       ],
       "legend_fr": "MASSALIETON",
       "legend_ru": "MASSALIETON",
-      "legend_en": "MASSALIETON"
+      "legend_en": "MASSALIETON",
+      "name_fr": "Apollon (gouvernail) / Taureau",
+      "group_frtrans": "Planche III"
     },
     {
       "id": "pl3-7",
@@ -1850,7 +1918,9 @@
       ],
       "legend_fr": "MASSALIETON",
       "legend_ru": "MASSALIETON",
-      "legend_en": "MASSALIETON"
+      "legend_en": "MASSALIETON",
+      "name_fr": "Tête (turban) / Taureau",
+      "group_frtrans": "Planche III"
     },
     {
       "id": "pl3-8",
@@ -1901,7 +1971,9 @@
       ],
       "legend_fr": "MASSA",
       "legend_ru": "MASSA",
-      "legend_en": "MASSA"
+      "legend_en": "MASSA",
+      "name_fr": "Vieillard (Jupiter?) / Aile",
+      "group_frtrans": "Planche III"
     },
     {
       "id": "pl4-1",
@@ -1952,7 +2024,9 @@
       ],
       "legend_fr": "",
       "legend_ru": "",
-      "legend_en": ""
+      "legend_en": "",
+      "name_fr": "Neptune / Dauphin et Trident",
+      "group_frtrans": "Planche IV"
     },
     {
       "id": "pl4-2",
@@ -2003,7 +2077,9 @@
       ],
       "legend_fr": "MA",
       "legend_ru": "MA",
-      "legend_en": "MA"
+      "legend_en": "MA",
+      "name_fr": "Tête (bonnet gaulois) / Aigle",
+      "group_frtrans": "Planche IV"
     },
     {
       "id": "pl4-3",
@@ -2054,7 +2130,9 @@
       ],
       "legend_fr": "A",
       "legend_ru": "A",
-      "legend_en": "A"
+      "legend_en": "A",
+      "name_fr": "Tête (bonnet) / Lion",
+      "group_frtrans": "Planche IV"
     },
     {
       "id": "pl4-4",
@@ -2103,7 +2181,9 @@
       "motifs": [],
       "legend_fr": "",
       "legend_ru": "",
-      "legend_en": ""
+      "legend_en": "",
+      "name_fr": "Tête d'Homme / Agneau",
+      "group_frtrans": "Planche IV"
     },
     {
       "id": "pl4-5",
@@ -2155,7 +2235,9 @@
       ],
       "legend_fr": "MASSALIETON",
       "legend_ru": "MASSALIETON",
-      "legend_en": "MASSALIETON"
+      "legend_en": "MASSALIETON",
+      "name_fr": "Diane (rouleau) / Taureau",
+      "group_frtrans": "Planche IV"
     },
     {
       "id": "pl4-6",
@@ -2208,7 +2290,9 @@
       ],
       "legend_fr": "MASSALIETON",
       "legend_ru": "MASSALIETON",
-      "legend_en": "MASSALIETON"
+      "legend_en": "MASSALIETON",
+      "name_fr": "Apollon (laurier) / Taureau",
+      "group_frtrans": "Planche IV"
     },
     {
       "id": "pl4-7",
@@ -2259,7 +2343,9 @@
       ],
       "legend_fr": "MASSA",
       "legend_ru": "MASSA",
-      "legend_en": "MASSA"
+      "legend_en": "MASSA",
+      "name_fr": "Tête (casque simple) / Taureau",
+      "group_frtrans": "Planche IV"
     },
     {
       "id": "pl4-8",
@@ -2310,7 +2396,9 @@
       ],
       "legend_fr": "",
       "legend_ru": "",
-      "legend_en": ""
+      "legend_en": "",
+      "name_fr": "Mars / Caducée ailé",
+      "group_frtrans": "Planche IV"
     },
     {
       "id": "pl4-9",
@@ -2359,7 +2447,9 @@
       "motifs": [],
       "legend_fr": "",
       "legend_ru": "",
-      "legend_en": ""
+      "legend_en": "",
+      "name_fr": "Neptune (bonnet) / Galère",
+      "group_frtrans": "Planche IV"
     },
     {
       "id": "pl4-10",
@@ -2410,7 +2500,9 @@
       ],
       "legend_fr": "",
       "legend_ru": "",
-      "legend_en": ""
+      "legend_en": "",
+      "name_fr": "Guerrier / Aigle",
+      "group_frtrans": "Planche IV"
     },
     {
       "id": "pl4-11",
@@ -2461,7 +2553,9 @@
       ],
       "legend_fr": "MA",
       "legend_ru": "MA",
-      "legend_en": "MA"
+      "legend_en": "MA",
+      "name_fr": "Minerve / Figure armée",
+      "group_frtrans": "Planche IV"
     },
     {
       "id": "pl4-12",
@@ -2512,7 +2606,9 @@
       ],
       "legend_fr": "MA",
       "legend_ru": "MA",
-      "legend_en": "MA"
+      "legend_en": "MA",
+      "name_fr": "Guerrier / Chouette",
+      "group_frtrans": "Planche IV"
     },
     {
       "id": "pl4-13",
@@ -2563,7 +2659,9 @@
       ],
       "legend_fr": "",
       "legend_ru": "",
-      "legend_en": ""
+      "legend_en": "",
+      "name_fr": "Mercure / Caducée",
+      "group_frtrans": "Planche IV"
     },
     {
       "id": "pl4-14",
@@ -2614,7 +2712,9 @@
       ],
       "legend_fr": "MAC",
       "legend_ru": "MAC",
-      "legend_en": "MAC"
+      "legend_en": "MAC",
+      "name_fr": "Mars / Caducée",
+      "group_frtrans": "Planche IV"
     },
     {
       "id": "pl4-15",
@@ -2667,7 +2767,9 @@
       ],
       "legend_fr": "MASSALIETON",
       "legend_ru": "MASSALIETON",
-      "legend_en": "MASSALIETON"
+      "legend_en": "MASSALIETON",
+      "name_fr": "Apollon (laurier) / Taureau (Cornupète)",
+      "group_frtrans": "Planche IV"
     },
     {
       "id": "pl4-16",
@@ -2716,7 +2818,9 @@
       "motifs": [],
       "legend_fr": "",
       "legend_ru": "",
-      "legend_en": ""
+      "legend_en": "",
+      "name_fr": "Tête / Deux anneaux",
+      "group_frtrans": "Planche IV"
     },
     {
       "id": "pl5-1",
@@ -2768,7 +2872,9 @@
       ],
       "legend_fr": "MASSALIETON",
       "legend_ru": "MASSALIETON",
-      "legend_en": "MASSALIETON"
+      "legend_en": "MASSALIETON",
+      "name_fr": "Apollon / Taureau",
+      "group_frtrans": "Planche V"
     },
     {
       "id": "pl5-2",
@@ -2819,7 +2925,9 @@
       ],
       "legend_fr": "MASSALIETON",
       "legend_ru": "MASSALIETON",
-      "legend_en": "MASSALIETON"
+      "legend_en": "MASSALIETON",
+      "name_fr": "Tête (laurier, raisin) / Taureau",
+      "group_frtrans": "Planche V"
     },
     {
       "id": "pl5-3",
@@ -2871,7 +2979,9 @@
       ],
       "legend_fr": "MASSALIETON",
       "legend_ru": "MASSALIETON",
-      "legend_en": "MASSALIETON"
+      "legend_en": "MASSALIETON",
+      "name_fr": "Apollon / Taureau (gouvernail)",
+      "group_frtrans": "Planche V"
     },
     {
       "id": "pl5-4",
@@ -2924,7 +3034,9 @@
       ],
       "legend_fr": "",
       "legend_ru": "",
-      "legend_en": ""
+      "legend_en": "",
+      "name_fr": "Monnaie remaniée: Lion / Trépied / Croix",
+      "group_frtrans": "Planche V"
     },
     {
       "id": "pl5-5",
@@ -2977,7 +3089,9 @@
       ],
       "legend_fr": "MASSALIETON",
       "legend_ru": "MASSALIETON",
-      "legend_en": "MASSALIETON"
+      "legend_en": "MASSALIETON",
+      "name_fr": "Apollon (corne d'abondance) / Taureau",
+      "group_frtrans": "Planche V"
     },
     {
       "id": "pl5-6",
@@ -3029,7 +3143,9 @@
       ],
       "legend_fr": "MASSALIETON",
       "legend_ru": "MASSALIETON",
-      "legend_en": "MASSALIETON"
+      "legend_en": "MASSALIETON",
+      "name_fr": "Apollon (trois mesures) / Taureau",
+      "group_frtrans": "Planche V"
     },
     {
       "id": "pl5-7",
@@ -3081,7 +3197,9 @@
       ],
       "legend_fr": "MASSALIETON",
       "legend_ru": "MASSALIETON",
-      "legend_en": "MASSALIETON"
+      "legend_en": "MASSALIETON",
+      "name_fr": "Apollon (ornement rond) / Taureau",
+      "group_frtrans": "Planche V"
     },
     {
       "id": "pl5-8",
@@ -3135,7 +3253,9 @@
       ],
       "legend_fr": "MASSALIETO",
       "legend_ru": "MASSALIETO",
-      "legend_en": "MASSALIETO"
+      "legend_en": "MASSALIETO",
+      "name_fr": "Diane (mitella) / Lion au laurier",
+      "group_frtrans": "Planche V"
     },
     {
       "id": "pl5-9",
@@ -3187,7 +3307,9 @@
       ],
       "legend_fr": "MASSEILS",
       "legend_ru": "MASSEILS",
-      "legend_en": "MASSEILS"
+      "legend_en": "MASSEILS",
+      "name_fr": "Diane / Corne d'abondance",
+      "group_frtrans": "Planche V"
     },
     {
       "id": "pl6-1",
@@ -3238,7 +3360,9 @@
       ],
       "legend_fr": "HLVDOVICVS IM. / MASSILIA",
       "legend_ru": "HLVDOVICVS IM. / MASSILIA",
-      "legend_en": "HLVDOVICVS IM. / MASSILIA"
+      "legend_en": "HLVDOVICVS IM. / MASSILIA",
+      "name_fr": "Croix / MASSILIA — Louis le Pieux",
+      "group_frtrans": "Planche VI"
     },
     {
       "id": "pl6-2",
@@ -3289,7 +3413,9 @@
       ],
       "legend_fr": "BAGOBERTVS REX / O VICTVRIA",
       "legend_ru": "BAGOBERTVS REX / O VICTVRIA",
-      "legend_en": "BAGOBERTVS REX / O VICTVRIA"
+      "legend_en": "BAGOBERTVS REX / O VICTVRIA",
+      "name_fr": "Buste / Croix sur barre — Dagobert Ier",
+      "group_frtrans": "Planche VI"
     },
     {
       "id": "pl6-3",
@@ -3340,7 +3466,9 @@
       ],
       "legend_fr": "MASILIA / SIGEBERTVS R.I",
       "legend_ru": "MASILIA / SIGEBERTVS R.I",
-      "legend_en": "MASILIA / SIGEBERTVS R.I"
+      "legend_en": "MASILIA / SIGEBERTVS R.I",
+      "name_fr": "Buste (aigrette) / Croix sur globe — Sigebert Ier",
+      "group_frtrans": "Planche VI"
     },
     {
       "id": "pl6-4",
@@ -3391,7 +3519,9 @@
       ],
       "legend_fr": "SISEBERTVS / MASSILIA",
       "legend_ru": "SISEBERTVS / MASSILIA",
-      "legend_en": "SISEBERTVS / MASSILIA"
+      "legend_en": "SISEBERTVS / MASSILIA",
+      "name_fr": "Buste (diadème perlé) / Croix — Sigebert",
+      "group_frtrans": "Planche VI"
     },
     {
       "id": "pl6-5",
@@ -3442,7 +3572,9 @@
       ],
       "legend_fr": "SEGIBERTVS R.",
       "legend_ru": "SEGIBERTVS R.",
-      "legend_en": "SEGIBERTVS R."
+      "legend_en": "SEGIBERTVS R.",
+      "name_fr": "Buste (vêtements perlés) / Croix — Sigebert",
+      "group_frtrans": "Planche VI"
     },
     {
       "id": "pl6-6",
@@ -3493,7 +3625,9 @@
       ],
       "legend_fr": "AAGOBERTE / VICTOM",
       "legend_ru": "AAGOBERTE / VICTOM",
-      "legend_en": "AAGOBERTE / VICTOM"
+      "legend_en": "AAGOBERTE / VICTOM",
+      "name_fr": "Buste (royal) / Croix sur globe — Dagobert",
+      "group_frtrans": "Planche VI"
     },
     {
       "id": "pl6-7",
@@ -3544,7 +3678,9 @@
       ],
       "legend_fr": "PAGOBE TYS REX / VICTVRIA",
       "legend_ru": "PAGOBE TYS REX / VICTVRIA",
-      "legend_en": "PAGOBE TYS REX / VICTVRIA"
+      "legend_en": "PAGOBE TYS REX / VICTVRIA",
+      "name_fr": "Buste (diadème perlé) / Croix dans couronne — Dagobert",
+      "group_frtrans": "Planche VI"
     },
     {
       "id": "pl6-8",
@@ -3595,7 +3731,9 @@
       ],
       "legend_fr": "MASILIA / SI...T",
       "legend_ru": "MASILIA / SI...T",
-      "legend_en": "MASILIA / SI...T"
+      "legend_en": "MASILIA / SI...T",
+      "name_fr": "Buste (chlamyde) / Croix sur barre — Sigebert",
+      "group_frtrans": "Planche VI"
     },
     {
       "id": "pl6-9",
@@ -3646,7 +3784,9 @@
       ],
       "legend_fr": "MASILIA / SIGIBERTVS XI",
       "legend_ru": "MASILIA / SIGIBERTVS XI",
-      "legend_en": "MASILIA / SIGIBERTVS XI"
+      "legend_en": "MASILIA / SIGIBERTVS XI",
+      "name_fr": "Buste (aigrette) / Croix sur barre — Sigebert",
+      "group_frtrans": "Planche VI"
     },
     {
       "id": "pl6-10",
@@ -3697,7 +3837,9 @@
       ],
       "legend_fr": "SEGIBERTVS / MAS",
       "legend_ru": "SEGIBERTVS / MAS",
-      "legend_en": "SEGIBERTVS / MAS"
+      "legend_en": "SEGIBERTVS / MAS",
+      "name_fr": "Buste (riche) / Croix épatée — Sigebert",
+      "group_frtrans": "Planche VI"
     },
     {
       "id": "pl7-1",
@@ -3751,7 +3893,9 @@
       ],
       "legend_fr": "CLOTARIVS REX / VICTORIA GOTTICA",
       "legend_ru": "CLOTARIVS REX / VICTORIA GOTTICA",
-      "legend_en": "CLOTARIVS REX / VICTORIA GOTTICA"
+      "legend_en": "CLOTARIVS REX / VICTORIA GOTTICA",
+      "name_fr": "Buste (jeune homme) / Croix — Clotaire II",
+      "group_frtrans": "Planche VII"
     },
     {
       "id": "pl7-2",
@@ -3802,7 +3946,9 @@
       ],
       "legend_fr": "CHLOTARIVS R. / VIETVRIA CHLOT",
       "legend_ru": "CHLOTARIVS R. / VIETVRIA CHLOT",
-      "legend_en": "CHLOTARIVS R. / VIETVRIA CHLOT"
+      "legend_en": "CHLOTARIVS R. / VIETVRIA CHLOT",
+      "name_fr": "Buste / Croix sur globe — Clotaire Ier",
+      "group_frtrans": "Planche VII"
     },
     {
       "id": "pl7-3",
@@ -3853,7 +3999,9 @@
       ],
       "legend_fr": "CHLOTARIVS REX",
       "legend_ru": "CHLOTARIVS REX",
-      "legend_en": "CHLOTARIVS REX"
+      "legend_en": "CHLOTARIVS REX",
+      "name_fr": "Buste / Croix sur piédestal — Clotaire Ier",
+      "group_frtrans": "Planche VII"
     },
     {
       "id": "pl7-4",
@@ -3904,7 +4052,9 @@
       ],
       "legend_fr": "HRIBERTVS / MASSIIIA",
       "legend_ru": "HRIBERTVS / MASSIIIA",
-      "legend_en": "HRIBERTVS / MASSIIIA"
+      "legend_en": "HRIBERTVS / MASSIIIA",
+      "name_fr": "Buste (double diadème) / Croix — Caribert",
+      "group_frtrans": "Planche VII"
     },
     {
       "id": "pl7-5",
@@ -3955,7 +4105,9 @@
       ],
       "legend_fr": "CHLOTARIVS REX / VICTORIAM RIGIS",
       "legend_ru": "CHLOTARIVS REX / VICTORIAM RIGIS",
-      "legend_en": "CHLOTARIVS REX / VICTORIAM RIGIS"
+      "legend_en": "CHLOTARIVS REX / VICTORIAM RIGIS",
+      "name_fr": "Buste (perles) / Croix — Clotaire Ier",
+      "group_frtrans": "Planche VII"
     },
     {
       "id": "pl7-6",
@@ -4006,7 +4158,9 @@
       ],
       "legend_fr": "CHLOTARIVS REX / CHLOTARI VICTVRIA",
       "legend_ru": "CHLOTARIVS REX / CHLOTARI VICTVRIA",
-      "legend_en": "CHLOTARIVS REX / CHLOTARI VICTVRIA"
+      "legend_en": "CHLOTARIVS REX / CHLOTARI VICTVRIA",
+      "name_fr": "Buste (aigrette) / Croix sur piédestal — Clotaire Ier",
+      "group_frtrans": "Planche VII"
     },
     {
       "id": "pl7-7",
@@ -4057,7 +4211,9 @@
       ],
       "legend_fr": "CHLOTARIVS R. / CHLOTARII VICTVRIA",
       "legend_ru": "CHLOTARIVS R. / CHLOTARII VICTVRIA",
-      "legend_en": "CHLOTARIVS R. / CHLOTARII VICTVRIA"
+      "legend_en": "CHLOTARIVS R. / CHLOTARII VICTVRIA",
+      "name_fr": "Buste (laurier) / Croix — Clotaire Ier",
+      "group_frtrans": "Planche VII"
     },
     {
       "id": "pl7-8",
@@ -4109,7 +4265,9 @@
       ],
       "legend_fr": "CHLOTARLVS REX",
       "legend_ru": "CHLOTARLVS REX",
-      "legend_en": "CHLOTARLVS REX"
+      "legend_en": "CHLOTARLVS REX",
+      "name_fr": "Buste / Couronne de laurier et croix — Clotaire II",
+      "group_frtrans": "Planche VII"
     },
     {
       "id": "pl7-9",
@@ -4160,7 +4318,9 @@
       ],
       "legend_fr": "MASILIA / CHEREBERTVS REX",
       "legend_ru": "MASILIA / CHEREBERTVS REX",
-      "legend_en": "MASILIA / CHEREBERTVS REX"
+      "legend_en": "MASILIA / CHEREBERTVS REX",
+      "name_fr": "Buste (B) / Croix — Cherebert",
+      "group_frtrans": "Planche VII"
     },
     {
       "id": "pl7-10",
@@ -4211,7 +4371,9 @@
       ],
       "legend_fr": "MASILIA / SIGEBERTVS",
       "legend_ru": "MASILIA / SIGEBERTVS",
-      "legend_en": "MASILIA / SIGEBERTVS"
+      "legend_en": "MASILIA / SIGEBERTVS",
+      "name_fr": "Buste (aigrette) / Croix — Sigebert Ier (?)",
+      "group_frtrans": "Planche VII"
     },
     {
       "id": "pl8-1",
@@ -4265,7 +4427,9 @@
       ],
       "legend_fr": "MASILIA / SISABERTVS REX",
       "legend_ru": "MASILIA / SISABERTVS REX",
-      "legend_en": "MASILIA / SISABERTVS REX"
+      "legend_en": "MASILIA / SISABERTVS REX",
+      "name_fr": "Buste / Croix sur barre — Sigebert",
+      "group_frtrans": "Planche VIII"
     },
     {
       "id": "pl8-2",
@@ -4322,7 +4486,9 @@
       ],
       "legend_fr": "CHLOTARIVS REX CONOB / CIVITATIS MASILIE",
       "legend_ru": "CHLOTARIVS REX CONOB / CIVITATIS MASILIE",
-      "legend_en": "CHLOTARIVS REX CONOB / CIVITATIS MASILIE"
+      "legend_en": "CHLOTARIVS REX CONOB / CIVITATIS MASILIE",
+      "name_fr": "Buste / Croix — Clotaire Ier ou II",
+      "group_frtrans": "Planche VIII"
     },
     {
       "id": "pl8-3",
@@ -4374,7 +4540,9 @@
       ],
       "legend_fr": "MASILIA",
       "legend_ru": "MASILIA",
-      "legend_en": "MASILIA"
+      "legend_en": "MASILIA",
+      "name_fr": "Tête (laurier) / Croix clechée — époque des Vicomtes",
+      "group_frtrans": "Planche VIII"
     },
     {
       "id": "pl8-4",
@@ -4425,7 +4593,9 @@
       ],
       "legend_fr": "CHILDERICVS REX / CIVITATIS MASILIAE",
       "legend_ru": "CHILDERICVS REX / CIVITATIS MASILIAE",
-      "legend_en": "CHILDERICVS REX / CIVITATIS MASILIAE"
+      "legend_en": "CHILDERICVS REX / CIVITATIS MASILIAE",
+      "name_fr": "Buste / Croix sur barre — Childeric II",
+      "group_frtrans": "Planche VIII"
     },
     {
       "id": "pl8-5",
@@ -4479,7 +4649,9 @@
       ],
       "legend_fr": "MASSISI / EREB, MA",
       "legend_ru": "MASSISI / EREB, MA",
-      "legend_en": "MASSISI / EREB, MA"
+      "legend_en": "MASSISI / EREB, MA",
+      "name_fr": "Tête sur un M / Croix à huit pointes — Cherebert Ier",
+      "group_frtrans": "Planche VIII"
     },
     {
       "id": "pl8-6",
@@ -4536,7 +4708,9 @@
       ],
       "legend_fr": "D.N. MAVRIC. TB. PP. AV. / VICTORIA AVTORVMI, CONOB",
       "legend_ru": "D.N. MAVRIC. TB. PP. AV. / VICTORIA AVTORVMI, CONOB",
-      "legend_en": "D.N. MAVRIC. TB. PP. AV. / VICTORIA AVTORVMI, CONOB"
+      "legend_en": "D.N. MAVRIC. TB. PP. AV. / VICTORIA AVTORVMI, CONOB",
+      "name_fr": "Buste de l'empereur Maurice / Croix",
+      "group_frtrans": "Planche VIII"
     },
     {
       "id": "pl8-7",
@@ -4587,7 +4761,9 @@
       ],
       "legend_fr": "CHILDERICVS REX / MASSILIA CIVITAS",
       "legend_ru": "CHILDERICVS REX / MASSILIA CIVITAS",
-      "legend_en": "CHILDERICVS REX / MASSILIA CIVITAS"
+      "legend_en": "CHILDERICVS REX / MASSILIA CIVITAS",
+      "name_fr": "Buste casqué / Croix — Childeric II",
+      "group_frtrans": "Planche VIII"
     },
     {
       "id": "pl8-8",
@@ -4638,7 +4814,9 @@
       ],
       "legend_fr": "CHILDRICVS REX / CHLOTARIVS REX, CONOB",
       "legend_ru": "CHILDRICVS REX / CHLOTARIVS REX, CONOB",
-      "legend_en": "CHILDRICVS REX / CHLOTARIVS REX, CONOB"
+      "legend_en": "CHILDRICVS REX / CHLOTARIVS REX, CONOB",
+      "name_fr": "Buste / Croix — Childeric II et Clotaire III",
+      "group_frtrans": "Planche VIII"
     },
     {
       "id": "pl9-1",
@@ -4692,7 +4870,9 @@
       "reverse_en": "an eight-pointed cross, the circle's four quarters read as Carolus Comes Provinciae Massiliensis",
       "motifs": [
         "cross"
-      ]
+      ],
+      "name_fr": "Tête (Charles Ier) / Croix — denier",
+      "group_frtrans": "Planche IX"
     },
     {
       "id": "pl9-2",
@@ -4743,7 +4923,9 @@
       "reverse_en": "eight-pointed cross, same legend as no. 1",
       "motifs": [
         "cross"
-      ]
+      ],
+      "name_fr": "Tête (Charles Ier) / Croix — obole",
+      "group_frtrans": "Planche IX"
     },
     {
       "id": "pl9-3",
@@ -4794,7 +4976,9 @@
       "reverse_en": "eight-pointed cross, legend R. COMES PVINCIE / MRS. SIL. IEN. SIS. (Raymundus Comes Provinciae Massiliensis)",
       "motifs": [
         "cross"
-      ]
+      ],
+      "name_fr": "Tête (Raymond Bérenger V) / Croix — menu Marseillez",
+      "group_frtrans": "Planche IX"
     },
     {
       "id": "pl9-4",
@@ -4845,7 +5029,9 @@
       "reverse_en": "one of the City Gates of Marseille, a small eight-pointed cross, legend CIVITAS MASSI., a larger cross after",
       "motifs": [
         "cross"
-      ]
+      ],
+      "name_fr": "Tête / Porte de ville, CIVITAS MASSI — gros Marseillez",
+      "group_frtrans": "Planche IX"
     },
     {
       "id": "pl9-5",
@@ -4894,7 +5080,9 @@
       "reverse_fr": "une licorne trempant sa corne dans l'eau, devise SERVARI ET SERVARE MEVM EST",
       "reverse_ru": "единорог, окунающий рог в воду, девиз SERVARI ET SERVARE MEVM EST",
       "reverse_en": "a unicorn dipping its horn in water, motto SERVARI ET SERVARE MEVM EST",
-      "motifs": []
+      "motifs": [],
+      "name_fr": "Armoiries de Casaulx / Licorne — médaille du tyran Casaulx",
+      "group_frtrans": "Planche IX"
     },
     {
       "id": "pl9-6",
@@ -4948,7 +5136,9 @@
       "reverse_en": "the horse Pegasus, legend EMPOR (abbreviation of Emporia or Emporium)",
       "motifs": [
         "minerva"
-      ]
+      ],
+      "name_fr": "Tête de Minerve / Pégase, EMPOR — colonie d'Emporiae",
+      "group_frtrans": "Planche IX"
     },
     {
       "id": "pl9-7",
@@ -4999,7 +5189,9 @@
       "reverse_en": "an owl, legend MA",
       "motifs": [
         "eagle"
-      ]
+      ],
+      "name_fr": "Aigle / Chouette, MAS / MA — comme Athènes",
+      "group_frtrans": "Planche IX"
     },
     {
       "id": "pl9-8",
@@ -5050,7 +5242,9 @@
       "reverse_en": "a tripod, legend MA",
       "motifs": [
         "minerva"
-      ]
+      ],
+      "name_fr": "Tête (deux empreintes) / Trépied, MA — monnaie remaniée",
+      "group_frtrans": "Planche IX"
     },
     {
       "id": "pl9-9",
@@ -5102,7 +5296,9 @@
       "motifs": [
         "diana",
         "bull"
-      ]
+      ],
+      "name_fr": "Tête de Diane / Taureau menaçant, MASS — revers rare",
+      "group_frtrans": "Planche IX"
     },
     {
       "id": "pl9-10",
@@ -5159,7 +5355,9 @@
       "reverse_en": "a flower (mistaken for a rose), letters MA in the field",
       "motifs": [
         "apollo"
-      ]
+      ],
+      "name_fr": "Tête (Apollon) / Fleur, MA — attribuée à Rhodanusia",
+      "group_frtrans": "Planche IX"
     },
     {
       "id": "pl9-11",
@@ -5212,7 +5410,9 @@
         "diana",
         "laurel-crown",
         "lion"
-      ]
+      ],
+      "name_fr": "Tête de Diane (laurier) / Lion, MASSA — boucle en fleur",
+      "group_frtrans": "Planche IX"
     },
     {
       "id": "pl10-1",
@@ -5273,7 +5473,9 @@
       "legend_en": "",
       "findspot_fr": "environs de la Cathédrale, mur d'une maison rue de la Foire (famille de Gasnay)",
       "findspot_ru": "окрестности Кафедрального собора, стена дома на улице Фуар (семья Гаснэ)",
-      "findspot_en": "near the Cathedral, wall of a house on Rue de la Foire (Gasnay family)"
+      "findspot_en": "near the Cathedral, wall of a house on Rue de la Foire (Gasnay family)",
+      "name_fr": "Bas-relief: sacrifice aux Dieux lares (trois Frères)",
+      "group_frtrans": "Planche X"
     },
     {
       "id": "pl10-2",
@@ -5334,7 +5536,9 @@
       "legend_en": "MATRIS DEVM MAGNAE IDEAE PALATINAE EIVSQ. M. RELIGIONIS AD PARNOR NAVIVS IANVARIVS.",
       "findspot_fr": "quartier des Pennes (ancien territoire marseillais)",
       "findspot_ru": "квартал Пеннес (древняя территория Марселя)",
-      "findspot_en": "Les Pennes district (ancient Marseille territory)"
+      "findspot_en": "Les Pennes district (ancient Marseille territory)",
+      "name_fr": "Autel de Cybèle (ex-voto de Navius Januarius)",
+      "group_frtrans": "Planche X"
     },
     {
       "id": "pl11-1",
@@ -5413,7 +5617,9 @@
       "legend_en": "",
       "findspot_fr": "façade d'une maison, rue des grands Carmes (attribuée à Titus Annius Milon)",
       "findspot_ru": "фасад дома на улице Гран-Кармов (приписывается Титу Аннию Милону)",
-      "findspot_en": "façade of a house on Rue des Grands Carmes (attributed to Titus Annius Milo)"
+      "findspot_en": "façade of a house on Rue des Grands Carmes (attributed to Titus Annius Milo)",
+      "name_fr": "Statue attribuée à Titus Annius Milon",
+      "group_frtrans": "Planche XI"
     },
     {
       "id": "pl12-1",
@@ -5471,7 +5677,9 @@
       "legend_en": "",
       "findspot_fr": "terrains de l'ancien Cimetière, près de l'Abbaye St. Victor (incrusté dans ses murs)",
       "findspot_ru": "территория древнего кладбища близ Аббатства св. Виктора (вмурован в его стены)",
-      "findspot_en": "grounds of the ancient Cemetery near the Abbey of St. Victor (set into its walls)"
+      "findspot_en": "grounds of the ancient Cemetery near the Abbey of St. Victor (set into its walls)",
+      "name_fr": "Bas-relief: dernière instruction d'une mère à ses enfants",
+      "group_frtrans": "Planche XII"
     },
     {
       "id": "pl12-2",
@@ -5523,7 +5731,9 @@
       "legend_en": "",
       "findspot_fr": "terrains de l'ancien Cimetière, près de l'Abbaye St. Victor",
       "findspot_ru": "территория древнего кладбища близ Аббатства св. Виктора",
-      "findspot_en": "grounds of the ancient Cemetery near the Abbey of St. Victor"
+      "findspot_en": "grounds of the ancient Cemetery near the Abbey of St. Victor",
+      "name_fr": "Bas-relief: chasse au sanglier (fragment)",
+      "group_frtrans": "Planche XII"
     },
     {
       "id": "pl12-3",
@@ -5581,7 +5791,9 @@
       "legend_en": "",
       "findspot_fr": "trouvé à Marseille, transporté sur la porte d'une maison de campagne",
       "findspot_ru": "найден в Марселе, перевезён на дверь загородного дома",
-      "findspot_en": "found in Marseille, moved onto the door of a country house"
+      "findspot_en": "found in Marseille, moved onto the door of a country house",
+      "name_fr": "Bas-relief: foi conjugale de deux Époux",
+      "group_frtrans": "Planche XII"
     },
     {
       "id": "pl13-1",
@@ -5636,7 +5848,9 @@
       "legend_en": "",
       "findspot_fr": "Fort Notre-Dame-de-la-Garde",
       "findspot_ru": "форт Нотр-Дам-де-ла-Гард",
-      "findspot_en": "Fort Notre-Dame-de-la-Garde"
+      "findspot_en": "Fort Notre-Dame-de-la-Garde",
+      "name_fr": "Fragment d'autel inscrit (caractères phéniciens présumés)",
+      "group_frtrans": "Planche XIII"
     },
     {
       "id": "pl13-2",
@@ -5697,7 +5911,9 @@
       "legend_en": "",
       "findspot_fr": "environs de la Cathédrale",
       "findspot_ru": "окрестности Кафедрального собора",
-      "findspot_en": "vicinity of the Cathedral"
+      "findspot_en": "vicinity of the Cathedral",
+      "name_fr": "Bas-relief: couple se donnant la main droite, avec chien (ex-voto conjugal)",
+      "group_frtrans": "Planche XIII"
     },
     {
       "id": "pl14-1",
@@ -5758,7 +5974,9 @@
       "legend_en": "DULCISSIMO TITO INNOCENTISSIMO (DIIS) FILIO TANNONIO QUI VIXIT (MANIBUS) ANNOS V. MENSES VI. DIES VI. TANNONIUS TITA VALERIANA PARENTES FILIO CARISSIMO ET OMNI TEMPORE VITAE SUAE DESIDERANTISSIMO.",
       "findspot_fr": "Cimetière public de Paradis",
       "findspot_ru": "кладбище Паради",
-      "findspot_en": "public Cemetery of Paradis"
+      "findspot_en": "public Cemetery of Paradis",
+      "name_fr": "Tombeau de Titus Tannonius (épitaphe latine)",
+      "group_frtrans": "Planche XIV"
     },
     {
       "id": "pl14-2",
@@ -5813,7 +6031,9 @@
       "legend_en": "",
       "findspot_fr": "Cimetière public de Paradis",
       "findspot_ru": "кладбище Паради",
-      "findspot_en": "public Cemetery of Paradis"
+      "findspot_en": "public Cemetery of Paradis",
+      "name_fr": "Face latérale du tombeau (feston et rubans)",
+      "group_frtrans": "Planche XIV"
     },
     {
       "id": "pl14-3",
@@ -5871,7 +6091,9 @@
       "legend_en": "",
       "findspot_fr": "Autel de St. Lazare, Église Cathédrale",
       "findspot_ru": "алтарь Св. Лазаря, Кафедральный собор",
-      "findspot_en": "Altar of St. Lazarus, Cathedral Church"
+      "findspot_en": "Altar of St. Lazarus, Cathedral Church",
+      "name_fr": "Bas-relief: barque à la voile (vœu nautique, Temple de Diane)",
+      "group_frtrans": "Planche XIV"
     },
     {
       "id": "pl15-1",
@@ -5935,7 +6157,9 @@
       "legend_en": "",
       "findspot_fr": "rue de l'Aumône",
       "findspot_ru": "улица Милостыни (rue de l'Aumône)",
-      "findspot_en": "rue de l'Aumône"
+      "findspot_en": "rue de l'Aumône",
+      "name_fr": "Candélabre de bronze (Mars des Gaulois)",
+      "group_frtrans": "Planche XV"
     },
     {
       "id": "pl15-2",
@@ -5990,7 +6214,9 @@
       "legend_en": "",
       "findspot_fr": "quartier des Curetteries, Marseille (selon M. Germain)",
       "findspot_ru": "квартал Кюреттри, Марсель (по утверждению г-на Жермена)",
-      "findspot_en": "the Curetteries district, Marseille (per M. Germain)"
+      "findspot_en": "the Curetteries district, Marseille (per M. Germain)",
+      "name_fr": "Petit bronze: Prêtre de Jupiter jouant de la sarbacane",
+      "group_frtrans": "Planche XV"
     },
     {
       "id": "pl15-3",
@@ -6048,7 +6274,9 @@
       "legend_en": "",
       "findspot_fr": "rue des Consuls",
       "findspot_ru": "улица Консулов",
-      "findspot_en": "rue des Consuls"
+      "findspot_en": "rue des Consuls",
+      "name_fr": "Statue de bronze de la Déesse Minerve",
+      "group_frtrans": "Planche XV"
     },
     {
       "id": "pl15-4",
@@ -6115,7 +6343,9 @@
       "legend_en": "",
       "findspot_fr": "tombeau sous le glacis de la Citadelle St. Nicolas",
       "findspot_ru": "гробница под гласисом цитадели Сен-Николя",
-      "findspot_en": "a tomb beneath the glacis of the Citadel of St. Nicolas"
+      "findspot_en": "a tomb beneath the glacis of the Citadel of St. Nicolas",
+      "name_fr": "Médaillon de terre cuite (Imaguncula ou bulle d'affranchi)",
+      "group_frtrans": "Planche XV"
     },
     {
       "id": "pl16-1",
@@ -6167,7 +6397,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Bronze: buste-herme de Mercure",
+      "group_frtrans": "Planche XVI"
     },
     {
       "id": "pl16-2",
@@ -6222,7 +6454,9 @@
       "legend_en": "",
       "findspot_fr": "rue des Consuls",
       "findspot_ru": "улица Консулов",
-      "findspot_en": "rue des Consuls"
+      "findspot_en": "rue des Consuls",
+      "name_fr": "Fragment de statue en bronze de Jupiter (grandeur héroïque)",
+      "group_frtrans": "Planche XVI"
     },
     {
       "id": "pl16-3",
@@ -6280,7 +6514,9 @@
       "legend_en": "",
       "findspot_fr": "ancien cimetière près de St. Victor",
       "findspot_ru": "древнее кладбище близ Сен-Виктора",
-      "findspot_en": "the old cemetery near St. Victor"
+      "findspot_en": "the old cemetery near St. Victor",
+      "name_fr": "Urne cinéraire cannelée en albâtre oriental",
+      "group_frtrans": "Planche XVI"
     },
     {
       "id": "pl16-4",
@@ -6356,7 +6592,9 @@
       "legend_en": "MASSI FOGU K ASVA AVT",
       "findspot_fr": "Marseille (attribution disputée: Caylus y voit un galet du Rhône)",
       "findspot_ru": "Марсель (спорная атрибуция: Кайлюс считал его ронским голышом)",
-      "findspot_en": "Marseille (disputed: Caylus took it for a Rhône pebble)"
+      "findspot_en": "Marseille (disputed: Caylus took it for a Rhône pebble)",
+      "name_fr": "Galet inscrit (tessère présumée du collège des Dendrophores)",
+      "group_frtrans": "Planche XVI"
     },
     {
       "id": "pl17-1",
@@ -6417,7 +6655,9 @@
       "legend_en": "ΟΔΗΜΟΣ — ΑΡΤΕΜΟΥΝ ΑΠΟΛΛΩΝΙΟΥ ΙΚΕΣΙΟΥ ΔΕΓΥΝΑΙΚΑ",
       "findspot_fr": "rue de Negrel",
       "findspot_ru": "улица Негрель",
-      "findspot_en": "rue de Negrel"
+      "findspot_en": "rue de Negrel",
+      "name_fr": "Bas-relief grec: couronne au nom du peuple pour Artemone, femme d'Apollonius Icesius",
+      "group_frtrans": "Planche XVII"
     },
     {
       "id": "pl17-2",
@@ -6475,7 +6715,9 @@
       "legend_en": "",
       "findspot_fr": "jardin de M. de Léon, environs de la rue Ste. Barbe",
       "findspot_ru": "сад г-на де Леона, в окрестностях улицы Св. Варвары",
-      "findspot_en": "garden of M. de Léon, near the rue Ste. Barbe"
+      "findspot_en": "garden of M. de Léon, near the rue Ste. Barbe",
+      "name_fr": "Cornet à jouer aux dés en os (les deux faces: niche et Harpocrate)",
+      "group_frtrans": "Planche XVII"
     },
     {
       "id": "pl17-3",
@@ -6533,7 +6775,9 @@
       "legend_en": "",
       "findspot_fr": "jardin de M. de Léon, environs de la rue Ste. Barbe",
       "findspot_ru": "сад г-на де Леона, в окрестностях улицы Св. Варвары",
-      "findspot_en": "garden of M. de Léon, near the rue Ste. Barbe"
+      "findspot_en": "garden of M. de Léon, near the rue Ste. Barbe",
+      "name_fr": "Trois osselets (astragales) à chiffres, trouvés dans le cornet",
+      "group_frtrans": "Planche XVII"
     },
     {
       "id": "pl18-1",
@@ -6600,7 +6844,9 @@
       "legend_en": "ΜΕΛΙΤΙΝΗΝ ΔΗΜΗΤΡΙΟΥ ΕΡΜΟΓΕΝ ΔΕ ΙΑΤΡΟΥ ΔΕ ΓΥΝΑΙΚΑ",
       "findspot_fr": "rue de Negrel",
       "findspot_ru": "улица Негрель",
-      "findspot_en": "rue de Negrel"
+      "findspot_en": "rue de Negrel",
+      "name_fr": "Dessus de tombeau: Mélitine, fille de Démétrius, femme du médecin Hermogène",
+      "group_frtrans": "Planche XVIII"
     },
     {
       "id": "pl18-2",
@@ -6655,7 +6901,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Marotte en bronze (Momus, dieu de la raillerie)",
+      "group_frtrans": "Planche XVIII"
     },
     {
       "id": "pl18-3",
@@ -6713,7 +6961,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Clou-amulette en bronze: Mars et Minerve, avec son revers aux palmes",
+      "group_frtrans": "Planche XVIII"
     },
     {
       "id": "pl19-1",
@@ -6774,7 +7024,9 @@
       "legend_en": "",
       "findspot_fr": "Église inférieure de Saint-Victor",
       "findspot_ru": "нижняя церковь Сен-Виктора",
-      "findspot_en": "the lower Church of Saint Victor"
+      "findspot_en": "the lower Church of Saint Victor",
+      "name_fr": "Fragment de bas-relief: philosophes ou savants sous un portique",
+      "group_frtrans": "Planche XIX"
     },
     {
       "id": "pl19-2",
@@ -6844,7 +7096,9 @@
       "legend_en": "DEO DOLICHENIO OCT. PATERNVS EX IVSSV. EIVS PRO SALVTE SVA ET SVORVM",
       "findspot_fr": "repêché dans le Port de Marseille, vers 1653",
       "findspot_ru": "поднят со дна марсельского порта около 1653 года",
-      "findspot_en": "dredged up from the Harbor of Marseille, around 1653"
+      "findspot_en": "dredged up from the Harbor of Marseille, around 1653",
+      "name_fr": "Vœu d'Octavius Paternus à Jupiter Dolichène (guerrier sur un taureau)",
+      "group_frtrans": "Planche XIX"
     },
     {
       "id": "pl20-1",
@@ -6917,7 +7171,9 @@
       "legend_en": "VALISINIVS MAR CARII ANEON VSID",
       "findspot_fr": "place de Lenche, façade de la maison du Sr. Paradis",
       "findspot_ru": "площадь Ланш, фасад дома г-на Паради",
-      "findspot_en": "place de Lenche, façade of the house of Sieur Paradis"
+      "findspot_en": "place de Lenche, façade of the house of Sieur Paradis",
+      "name_fr": "Vœu nautique de Valisinius, fils de Marcus Caris",
+      "group_frtrans": "Planche XX"
     },
     {
       "id": "pl20-2",
@@ -6981,7 +7237,9 @@
       "legend_en": "MATRIS DEVM MAGNÆ IDEÆ PALATINÆ EIVSQ. M. RELIGIONIS AD PARNOR NAVIVS IANVARIVS",
       "findspot_fr": "porte de la Paroisse du Village des Pennes",
       "findspot_ru": "дверь приходской церкви селения Пенн",
-      "findspot_en": "the parish door of the Village des Pennes"
+      "findspot_en": "the parish door of the Village des Pennes",
+      "name_fr": "Bas-relief de Cybèle (lion et pin) dédié par Navius Ianuarius",
+      "group_frtrans": "Planche XX"
     },
     {
       "id": "pl20-3",
@@ -7042,7 +7300,9 @@
       "legend_en": "",
       "findspot_fr": "quartier de St. Loup",
       "findspot_ru": "квартал Сен-Лу",
-      "findspot_en": "the St. Loup district"
+      "findspot_en": "the St. Loup district",
+      "name_fr": "Tête de cheval en bronze (emblème de courrier ou d'officier de cavalerie)",
+      "group_frtrans": "Planche XX"
     },
     {
       "id": "pl21-1",
@@ -7097,7 +7357,9 @@
       "legend_en": "",
       "findspot_fr": "ancien cimetière de la Cathédrale",
       "findspot_ru": "древнее кладбище при Кафедральном соборе",
-      "findspot_en": "the old cemetery of the Cathedral"
+      "findspot_en": "the old cemetery of the Cathedral",
+      "name_fr": "Sarcophage d'un magistrat rendant la justice (bassin des fonts baptismaux de Pierre Puget)",
+      "group_frtrans": "Planche XXI"
     },
     {
       "id": "pl21-2",
@@ -7158,7 +7420,9 @@
       "legend_en": "",
       "findspot_fr": "ancien cimetière de Paradis",
       "findspot_ru": "древнее кладбище Паради",
-      "findspot_en": "the old cemetery of Paradis"
+      "findspot_en": "the old cemetery of Paradis",
+      "name_fr": "Sarcophage: cérémonie romaine d'affranchissement (tombeau de Sainte Eusébie)",
+      "group_frtrans": "Planche XXI"
     },
     {
       "id": "pl22-1",
@@ -7219,7 +7483,9 @@
       "legend_en": "",
       "findspot_fr": "grotte de la Chapelle de la Magdeleine, Saint-Victor",
       "findspot_ru": "пещера часовни Магдалины, Сен-Виктор",
-      "findspot_en": "the grotto of the Magdalene Chapel, Saint-Victor"
+      "findspot_en": "the grotto of the Magdalene Chapel, Saint-Victor",
+      "name_fr": "Sarcophage romain: amours forgeant des armes, médaillon de Romulus et Rémus",
+      "group_frtrans": "Planche XXII"
     },
     {
       "id": "pl22-2",
@@ -7283,7 +7549,9 @@
       "legend_en": "D. M. IVLIÆ QVINTINÆ COSSVTIA HYCLA MATER FILIÆ PIISSIMÆ",
       "findspot_fr": "Église inférieure de Saint-Victor (Autel de St. Mauront)",
       "findspot_ru": "нижняя церковь Сен-Виктора (алтарь св. Морона)",
-      "findspot_en": "the lower Church of Saint Victor (Altar of St. Mauront)"
+      "findspot_en": "the lower Church of Saint Victor (Altar of St. Mauront)",
+      "name_fr": "Sarcophage romain de Julia Quintina (centaures et char de la Victoire)",
+      "group_frtrans": "Planche XXII"
     },
     {
       "id": "pl23-1",
@@ -7338,7 +7606,9 @@
       "legend_en": "",
       "findspot_fr": "ruines près de la Cathédrale (ancien Temple de Diane présumé)",
       "findspot_ru": "развалины близ Кафедрального собора (предположительно древний храм Дианы)",
-      "findspot_en": "ruins near the Cathedral (presumed site of the ancient Temple of Diana)"
+      "findspot_en": "ruins near the Cathedral (presumed site of the ancient Temple of Diana)",
+      "name_fr": "Deux pilastres grotesques, remployés à l'autel de Saint-Lazare",
+      "group_frtrans": "Planche XXIII"
     },
     {
       "id": "pl23-2",
@@ -7396,7 +7666,9 @@
       "legend_en": "",
       "findspot_fr": "jardin potager de M. le Prévôt de l'Église de Marseille",
       "findspot_ru": "огородный сад г-на прево Марсельской церкви",
-      "findspot_en": "the kitchen garden of the Provost of the Church of Marseille"
+      "findspot_en": "the kitchen garden of the Provost of the Church of Marseille",
+      "name_fr": "Colonne d'ordre composite, vestige présumé de l'ancien baptistère",
+      "group_frtrans": "Planche XXIII"
     },
     {
       "id": "pl24-1",
@@ -7448,7 +7720,9 @@
       "legend_en": "",
       "findspot_fr": "ruines aux environs de la Cathédrale",
       "findspot_ru": "развалины близ Кафедрального собора",
-      "findspot_en": "ruins near the Cathedral"
+      "findspot_en": "ruins near the Cathedral",
+      "name_fr": "Colonne grotesque de l'autel de Saint-Lazare",
+      "group_frtrans": "Planche XXIV"
     },
     {
       "id": "pl24-2",
@@ -7500,7 +7774,9 @@
       "legend_en": "",
       "findspot_fr": "ruines aux environs de la Cathédrale",
       "findspot_ru": "развалины близ Кафедрального собора",
-      "findspot_en": "ruins near the Cathedral"
+      "findspot_en": "ruins near the Cathedral",
+      "name_fr": "Frise en marbre, remployée à la chapelle Saint-Lazare",
+      "group_frtrans": "Planche XXIV"
     },
     {
       "id": "pl24-3",
@@ -7558,7 +7834,9 @@
       "legend_en": "",
       "findspot_fr": "ruines aux environs de la Cathédrale",
       "findspot_ru": "развалины близ Кафедрального собора",
-      "findspot_en": "ruins near the Cathedral"
+      "findspot_en": "ruins near the Cathedral",
+      "name_fr": "Cintre antique sculpté, remployé à la chapelle Saint-Lazare",
+      "group_frtrans": "Planche XXIV"
     },
     {
       "id": "pl25-1",
@@ -7610,7 +7888,9 @@
       "legend_en": "",
       "findspot_fr": "fondations de la maison du sieur Moulières, au bout du Cours",
       "findspot_ru": "фундамент дома г-на Мульер, в конце Курса",
-      "findspot_en": "the foundations of sieur Moulières's house, at the end of the Cours"
+      "findspot_en": "the foundations of sieur Moulières's house, at the end of the Cours",
+      "name_fr": "Buste de Jupiter Sérapis en bronze",
+      "group_frtrans": "Planche XXV"
     },
     {
       "id": "pl25-2",
@@ -7662,7 +7942,9 @@
       "legend_en": "",
       "findspot_fr": "rue des Consuls",
       "findspot_ru": "улица Консулов",
-      "findspot_en": "rue des Consuls"
+      "findspot_en": "rue des Consuls",
+      "name_fr": "Bronze de la déesse Minerve, en costume grec",
+      "group_frtrans": "Planche XXV"
     },
     {
       "id": "pl25-3",
@@ -7714,7 +7996,9 @@
       "legend_en": "",
       "findspot_fr": "un tombeau trouvé à Marseille",
       "findspot_ru": "гробница, найденная в Марселе",
-      "findspot_en": "a tomb found at Marseille"
+      "findspot_en": "a tomb found at Marseille",
+      "name_fr": "Figure d'un dieu marin en bronze",
+      "group_frtrans": "Planche XXV"
     },
     {
       "id": "pl25-4",
@@ -7772,7 +8056,9 @@
       "legend_en": "",
       "findspot_fr": "territoire de Marseille",
       "findspot_ru": "земли Марселя",
-      "findspot_en": "the territory of Marseille"
+      "findspot_en": "the territory of Marseille",
+      "name_fr": "Amulette en bronze: Priape et une main \"impudique\"",
+      "group_frtrans": "Planche XXV"
     },
     {
       "id": "pl26-1",
@@ -7845,7 +8131,9 @@
       "legend_en": "",
       "findspot_fr": "péristyle (cloître) de l'abbaye de Saint-Victor",
       "findspot_ru": "перистиль (клуатр) аббатства Сен-Виктор",
-      "findspot_en": "the peristyle (cloister) of the Abbey of Saint-Victor"
+      "findspot_en": "the peristyle (cloister) of the Abbey of Saint-Victor",
+      "name_fr": "Chapiteaux et bases grotesques du cloître de Saint-Victor",
+      "group_frtrans": "Planche XXVI"
     },
     {
       "id": "pl27-1",
@@ -7909,7 +8197,9 @@
       "legend_en": "",
       "findspot_fr": "cloître de l'abbaye de Saint-Victor",
       "findspot_ru": "клуатр аббатства Сен-Виктор",
-      "findspot_en": "the cloister of the Abbey of Saint-Victor"
+      "findspot_en": "the cloister of the Abbey of Saint-Victor",
+      "name_fr": "Chapiteaux grotesques du cloître de Saint-Victor (suite)",
+      "group_frtrans": "Planche XXVII"
     },
     {
       "id": "pl27-2",
@@ -7961,7 +8251,9 @@
       "legend_en": "",
       "findspot_fr": "Marseille; transporté à la sacristie de l'ancienne Église de l'Observance",
       "findspot_ru": "Марсель; перенесена в ризницу древней церкви Обсерванс",
-      "findspot_en": "Marseille; moved to the sacristy of the old Church of the Observance"
+      "findspot_en": "Marseille; moved to the sacristy of the old Church of the Observance",
+      "name_fr": "Tombeau romain cannelé en godrons (aujourd'hui perdu)",
+      "group_frtrans": "Planche XXVII"
     },
     {
       "id": "pl28-1",
@@ -8013,7 +8305,9 @@
       "legend_en": "",
       "findspot_fr": "la mer, sous la tour de la Prévôté",
       "findspot_ru": "море, у подножия башни Прево",
-      "findspot_en": "the sea, below the Provostry Tower"
+      "findspot_en": "the sea, below the Provostry Tower",
+      "name_fr": "Fragment de frise en marbre, repêché sous la tour de la Prévôté",
+      "group_frtrans": "Planche XXVIII"
     },
     {
       "id": "pl28-2",
@@ -8065,7 +8359,9 @@
       "legend_en": "",
       "findspot_fr": "Marseille (divers endroits de la ville)",
       "findspot_ru": "Марсель (различные места города)",
-      "findspot_en": "Marseille (various parts of the city)"
+      "findspot_en": "Marseille (various parts of the city)",
+      "name_fr": "Chapiteau antique en marbre blanc, remployé comme borne",
+      "group_frtrans": "Planche XXVIII"
     },
     {
       "id": "pl28-3",
@@ -8120,7 +8416,9 @@
       "legend_en": "",
       "findspot_fr": "place de l'Église de Saint-Victor",
       "findspot_ru": "площадь церкви Сен-Виктора",
-      "findspot_en": "the square before the Church of Saint-Victor"
+      "findspot_en": "the square before the Church of Saint-Victor",
+      "name_fr": "Tombeau à têtes de lion et médaillon d'un magistrat ou homme de lettres",
+      "group_frtrans": "Planche XXVIII"
     },
     {
       "id": "pl29-1",
@@ -8172,7 +8470,9 @@
       "legend_en": "",
       "findspot_fr": "terrains de l'Arsenal",
       "findspot_ru": "земли Арсенала",
-      "findspot_en": "the grounds of the Arsenal"
+      "findspot_en": "the grounds of the Arsenal",
+      "name_fr": "Lampe en terre cuite à l'âne accroupi",
+      "group_frtrans": "Planche XXIX"
     },
     {
       "id": "pl29-2",
@@ -8224,7 +8524,9 @@
       "legend_en": "",
       "findspot_fr": "terrains de l'Arsenal",
       "findspot_ru": "земли Арсенала",
-      "findspot_en": "the grounds of the Arsenal"
+      "findspot_en": "the grounds of the Arsenal",
+      "name_fr": "Lampe en terre cuite de forme courante",
+      "group_frtrans": "Planche XXIX"
     },
     {
       "id": "pl29-3",
@@ -8276,7 +8578,9 @@
       "legend_en": "ΑΝΙΣΣΕΝ",
       "findspot_fr": "propriété de Mme Corail, sous le glacis de la Citadelle St. Nicolas",
       "findspot_ru": "владение г-жи Кораль, под гласисом цитадели Сен-Николя",
-      "findspot_en": "the property of Mme Corail, beneath the glacis of the Citadel of St. Nicolas"
+      "findspot_en": "the property of Mme Corail, beneath the glacis of the Citadel of St. Nicolas",
+      "name_fr": "Lampe grecque inscrite ANIΣΣEN (nom du potier)",
+      "group_frtrans": "Planche XXIX"
     },
     {
       "id": "pl29-4",
@@ -8334,7 +8638,9 @@
       "legend_en": "",
       "findspot_fr": "quartier des Tanneries, Marseille",
       "findspot_ru": "квартал Кожевников, Марсель",
-      "findspot_en": "the Tanneries quarter, Marseille"
+      "findspot_en": "the Tanneries quarter, Marseille",
+      "name_fr": "Lampe en terre cuite au lion (publiée par Caylus, attribuée à tort aux Étrusques)",
+      "group_frtrans": "Planche XXIX"
     },
     {
       "id": "pl29-5",
@@ -8386,7 +8692,9 @@
       "legend_en": "",
       "findspot_fr": "quartier de Paradis",
       "findspot_ru": "квартал Paradis",
-      "findspot_en": "the Paradis quarter"
+      "findspot_en": "the Paradis quarter",
+      "name_fr": "Lampe chrétienne au chrisme (monogramme pro Christo)",
+      "group_frtrans": "Planche XXIX"
     },
     {
       "id": "pl29-6",
@@ -8438,7 +8746,9 @@
       "legend_en": "",
       "findspot_fr": "rue derrière les Dominicains (ancienne Juiverie)",
       "findspot_ru": "улица позади доминиканцев (старый еврейский квартал)",
-      "findspot_en": "a street behind the Dominicans (the old Jewish quarter)"
+      "findspot_en": "a street behind the Dominicans (the old Jewish quarter)",
+      "name_fr": "Lampe en bronze à trois becs, trouvée dans l'ancienne Juiverie",
+      "group_frtrans": "Planche XXIX"
     },
     {
       "id": "pl29-7",
@@ -8490,7 +8800,9 @@
       "legend_en": "",
       "findspot_fr": "Marseille",
       "findspot_ru": "Марсель",
-      "findspot_en": "Marseille"
+      "findspot_en": "Marseille",
+      "name_fr": "Glaive de fantassin",
+      "group_frtrans": "Planche XXIX"
     },
     {
       "id": "pl29-8",
@@ -8548,7 +8860,9 @@
       "legend_en": "MARCI COSSVTII CHRESIMI",
       "findspot_fr": "Marseille",
       "findspot_ru": "Марсель",
-      "findspot_en": "Marseille"
+      "findspot_en": "Marseille",
+      "name_fr": "Sceau de Marcus Cossutius Chresimus",
+      "group_frtrans": "Planche XXIX"
     },
     {
       "id": "pl30-1",
@@ -8606,7 +8920,9 @@
       "legend_en": "",
       "findspot_fr": "Marseille",
       "findspot_ru": "Марсель",
-      "findspot_en": "Marseille"
+      "findspot_en": "Marseille",
+      "name_fr": "Encensoir en bronze en forme de crabe",
+      "group_frtrans": "Planche XXX"
     },
     {
       "id": "pl30-2",
@@ -8658,7 +8974,9 @@
       "legend_en": "",
       "findspot_fr": "Marseille",
       "findspot_ru": "Марсель",
-      "findspot_en": "Marseille"
+      "findspot_en": "Marseille",
+      "name_fr": "Clef ancienne",
+      "group_frtrans": "Planche XXX"
     },
     {
       "id": "pl30-3",
@@ -8710,7 +9028,9 @@
       "legend_en": "",
       "findspot_fr": "Marseille",
       "findspot_ru": "Марсель",
-      "findspot_en": "Marseille"
+      "findspot_en": "Marseille",
+      "name_fr": "Lampe en terre cuite au génie porteur de corbeilles de fruits",
+      "group_frtrans": "Planche XXX"
     },
     {
       "id": "pl30-4",
@@ -8762,7 +9082,9 @@
       "legend_en": "",
       "findspot_fr": "terrains au-dessus de la place de l'Abbaye St. Victor",
       "findspot_ru": "земли над площадью аббатства Сен-Виктор",
-      "findspot_en": "grounds above the square of the Abbey of St. Victor"
+      "findspot_en": "grounds above the square of the Abbey of St. Victor",
+      "name_fr": "Urne cinéraire cylindrique en deux pièces",
+      "group_frtrans": "Planche XXX"
     },
     {
       "id": "pl30-5",
@@ -8817,7 +9139,9 @@
       "legend_en": "",
       "findspot_fr": "place Saint-Victor",
       "findspot_ru": "площадь Сен-Виктор",
-      "findspot_en": "the place Saint-Victor"
+      "findspot_en": "the place Saint-Victor",
+      "name_fr": "Lacrimatoire en verre",
+      "group_frtrans": "Planche XXX"
     },
     {
       "id": "pl30-6",
@@ -8869,7 +9193,9 @@
       "legend_en": "",
       "findspot_fr": "quartier de Paradis",
       "findspot_ru": "квартал Paradis",
-      "findspot_en": "the Paradis quarter"
+      "findspot_en": "the Paradis quarter",
+      "name_fr": "Lampe funéraire au génie dans une barque (publiée par Caylus)",
+      "group_frtrans": "Planche XXX"
     },
     {
       "id": "pl30-7",
@@ -8921,7 +9247,9 @@
       "legend_en": "",
       "findspot_fr": "terrain de Mme Deydier de Curiol, près les Réformés",
       "findspot_ru": "земли г-жи Дейдье де Кюриоль, близ Реформатов",
-      "findspot_en": "the grounds of Mme Deydier de Curiol, near the Réformés"
+      "findspot_en": "the grounds of Mme Deydier de Curiol, near the Réformés",
+      "name_fr": "Lampe simple de forme à bec, sans ornement",
+      "group_frtrans": "Planche XXX"
     },
     {
       "id": "pl31-1",
@@ -8973,7 +9301,9 @@
       "legend_en": "",
       "findspot_fr": "Marseille",
       "findspot_ru": "Марсель",
-      "findspot_en": "Marseille"
+      "findspot_en": "Marseille",
+      "name_fr": "Deux manches de couteaux en bronze",
+      "group_frtrans": "Planche XXXI"
     },
     {
       "id": "pl31-2",
@@ -9031,7 +9361,9 @@
       "legend_en": "",
       "findspot_fr": "place devant l'église Saint-Victor",
       "findspot_ru": "площадь перед церковью Сен-Виктор",
-      "findspot_en": "the square before the Church of Saint-Victor"
+      "findspot_en": "the square before the Church of Saint-Victor",
+      "name_fr": "Patère en terre cuite à deux becs",
+      "group_frtrans": "Planche XXXI"
     },
     {
       "id": "pl31-3",
@@ -9083,7 +9415,9 @@
       "legend_en": "",
       "findspot_fr": "Marseille",
       "findspot_ru": "Марсель",
-      "findspot_en": "Marseille"
+      "findspot_en": "Marseille",
+      "name_fr": "Aiguière en terre cuite (préféricule)",
+      "group_frtrans": "Planche XXXI"
     },
     {
       "id": "pl31-4",
@@ -9135,7 +9469,9 @@
       "legend_en": "",
       "findspot_fr": "la Darce, quartier de l'Arsenal",
       "findspot_ru": "Дарс, квартал Арсенала",
-      "findspot_en": "the Darse, part of the Arsenal quarter"
+      "findspot_en": "the Darse, part of the Arsenal quarter",
+      "name_fr": "Urne en terre cuite de la Darse",
+      "group_frtrans": "Planche XXXI"
     },
     {
       "id": "pl31-5",
@@ -9187,7 +9523,9 @@
       "legend_en": "",
       "findspot_fr": "propriété de Mme Corail, sous le glacis de la Citadelle",
       "findspot_ru": "владение г-жи Кораль, под гласисом цитадели",
-      "findspot_en": "the property of Mme Corail, beneath the glacis of the Citadel"
+      "findspot_en": "the property of Mme Corail, beneath the glacis of the Citadel",
+      "name_fr": "Pot de verre",
+      "group_frtrans": "Planche XXXI"
     },
     {
       "id": "pl31-6",
@@ -9239,7 +9577,9 @@
       "legend_en": "",
       "findspot_fr": "près les infirmeries vieilles",
       "findspot_ru": "близ старых лечебниц",
-      "findspot_en": "near the old infirmaries"
+      "findspot_en": "near the old infirmaries",
+      "name_fr": "Simpule en terre cuite",
+      "group_frtrans": "Planche XXXI"
     },
     {
       "id": "pl31-7",
@@ -9306,7 +9646,9 @@
       "legend_en": "",
       "findspot_fr": "Craulonguette (Camargue); golfe de Marseille; Corse (Ajaccio)",
       "findspot_ru": "Кролонгет (Камарг); Марсельский залив; Корсика (Аяччо)",
-      "findspot_en": "Craulonguette (Camargue); the Gulf of Marseille; Corsica (Ajaccio)"
+      "findspot_en": "Craulonguette (Camargue); the Gulf of Marseille; Corsica (Ajaccio)",
+      "name_fr": "Vase énigmatique à boules d'argile (amulette présumée pour Neptune)",
+      "group_frtrans": "Planche XXXI"
     },
     {
       "id": "pl32-1",
@@ -9364,7 +9706,9 @@
       "legend_en": "",
       "findspot_fr": "quartier de la Major",
       "findspot_ru": "квартал Майор",
-      "findspot_en": "the Major quarter"
+      "findspot_en": "the Major quarter",
+      "name_fr": "Patère en pierre de jade",
+      "group_frtrans": "Planche XXXII"
     },
     {
       "id": "pl32-2",
@@ -9416,7 +9760,9 @@
       "legend_en": "",
       "findspot_fr": "Marseille",
       "findspot_ru": "Марсель",
-      "findspot_en": "Marseille"
+      "findspot_en": "Marseille",
+      "name_fr": "Poids (tête de Janus / proue de navire)",
+      "group_frtrans": "Planche XXXII"
     },
     {
       "id": "pl32-3",
@@ -9474,7 +9820,9 @@
       "legend_en": "",
       "findspot_fr": "montagne du terroir de Marseille",
       "findspot_ru": "гора марсельской округи",
-      "findspot_en": "a mountain in Marseille's territory"
+      "findspot_en": "a mountain in Marseille's territory",
+      "name_fr": "Autel en marbre blanc (consacré à Cybèle)",
+      "group_frtrans": "Planche XXXII"
     },
     {
       "id": "pl32-4",
@@ -9529,7 +9877,9 @@
       "legend_en": "",
       "findspot_fr": "quartiers de la Ville supérieure",
       "findspot_ru": "кварталы верхнего города",
-      "findspot_en": "the quarters of the Upper City"
+      "findspot_en": "the quarters of the Upper City",
+      "name_fr": "Vase d'albâtre",
+      "group_frtrans": "Planche XXXII"
     },
     {
       "id": "pl32-5",
@@ -9581,7 +9931,9 @@
       "legend_en": "",
       "findspot_fr": "propriété de Mme Corail, sous le glacis de la Citadelle St. Nicolas",
       "findspot_ru": "владение г-жи Кораль, под гласисом цитадели Сен-Николя",
-      "findspot_en": "the property of Mme Corail, beneath the glacis of the Citadel of St. Nicolas"
+      "findspot_en": "the property of Mme Corail, beneath the glacis of the Citadel of St. Nicolas",
+      "name_fr": "Lacrimatoire en verre (forme en bouteille)",
+      "group_frtrans": "Planche XXXII"
     },
     {
       "id": "pl32-6",
@@ -9636,7 +9988,9 @@
       "legend_en": "",
       "findspot_fr": "Pont-levis de la Porte Réale (auj. Place Maronne)",
       "findspot_ru": "подъёмный мост Королевских ворот (ныне площадь Маронн)",
-      "findspot_en": "the drawbridge of the Porte Réale (now Place Maronne)"
+      "findspot_en": "the drawbridge of the Porte Réale (now Place Maronne)",
+      "name_fr": "Vase cinéraire en verre (Porte Réale, 1591)",
+      "group_frtrans": "Planche XXXII"
     },
     {
       "id": "pl32-7",
@@ -9703,7 +10057,9 @@
       "legend_en": "ΛΕΥΔΗΜΟΣ ΔΙΟΝΥΣΙΟΥ ΓΕΒΑΙΤΕΡΟΣ ΝΙΚΗΣΑΣ ΕΦΗΒΟΥΣ ΕΥ ΤΑΞΙΑΙ ΚΑΙ ΓΙΜΑΣΙΑΡΧΗΣΑΣ ΔΙΣ",
       "findspot_fr": "près le grands puits, Marseille",
       "findspot_ru": "близ «больших колодцев», Марсель",
-      "findspot_en": "near the \"great wells,\" Marseille"
+      "findspot_en": "near the \"great wells,\" Marseille",
+      "name_fr": "Grande urne cinéraire en terre cuite: épitaphe grecque de Leudemus, gymnasiarque",
+      "group_frtrans": "Planche XXXII"
     },
     {
       "id": "pl32-8",
@@ -9755,7 +10111,9 @@
       "legend_en": "",
       "findspot_fr": "terrains près Saint-Victor",
       "findspot_ru": "земли близ Сен-Виктора",
-      "findspot_en": "grounds near Saint-Victor"
+      "findspot_en": "grounds near Saint-Victor",
+      "name_fr": "Lacrimatoire en terre cuite",
+      "group_frtrans": "Planche XXXII"
     },
     {
       "id": "pl33-1",
@@ -9807,7 +10165,9 @@
       "legend_en": "",
       "findspot_fr": "Marseille",
       "findspot_ru": "Марсель",
-      "findspot_en": "Marseille"
+      "findspot_en": "Marseille",
+      "name_fr": "Urne cinéraire en terre cuite (citée par Ruffi)",
+      "group_frtrans": "Planche XXXIII"
     },
     {
       "id": "pl33-2",
@@ -9859,7 +10219,9 @@
       "legend_en": "",
       "findspot_fr": "quartiers de la ville vieille",
       "findspot_ru": "кварталы старого города",
-      "findspot_en": "the quarters of the old town"
+      "findspot_en": "the quarters of the old town",
+      "name_fr": "Hydrie en cuivre rouge (bec en tête de dragon)",
+      "group_frtrans": "Planche XXXIII"
     },
     {
       "id": "pl33-3",
@@ -9911,7 +10273,9 @@
       "legend_en": "",
       "findspot_fr": "Marseille",
       "findspot_ru": "Марсель",
-      "findspot_en": "Marseille"
+      "findspot_en": "Marseille",
+      "name_fr": "Urne cinéraire en terre cuite (citée par Ruffi)",
+      "group_frtrans": "Planche XXXIII"
     },
     {
       "id": "pl33-4",
@@ -9963,7 +10327,9 @@
       "legend_en": "",
       "findspot_fr": "propriété de Mme Corail, sous le glacis de la Citadelle St. Nicolas",
       "findspot_ru": "владение г-жи Кораль, под гласисом цитадели Сен-Николя",
-      "findspot_en": "the property of Mme Corail, beneath the glacis of the Citadel of St. Nicolas"
+      "findspot_en": "the property of Mme Corail, beneath the glacis of the Citadel of St. Nicolas",
+      "name_fr": "Bouchon doré en terre cuite (operculum), vu de côté et de face",
+      "group_frtrans": "Planche XXXIII"
     },
     {
       "id": "pl33-5",
@@ -10015,7 +10381,9 @@
       "legend_en": "",
       "findspot_fr": "propriété de Mme Corail, sous le glacis de la Citadelle St. Nicolas",
       "findspot_ru": "владение г-жи Кораль, под гласисом цитадели Сен-Николя",
-      "findspot_en": "the property of Mme Corail, beneath the glacis of the Citadel of St. Nicolas"
+      "findspot_en": "the property of Mme Corail, beneath the glacis of the Citadel of St. Nicolas",
+      "name_fr": "Bouteille en verre à liqueurs balsamiques",
+      "group_frtrans": "Planche XXXIII"
     },
     {
       "id": "pl33-6",
@@ -10070,7 +10438,9 @@
       "legend_en": "ΟΤΟΝΟΙΑ",
       "findspot_fr": "Port de Marseille",
       "findspot_ru": "марсельский порт",
-      "findspot_en": "the Harbor of Marseille"
+      "findspot_en": "the Harbor of Marseille",
+      "name_fr": "Anneau d'or nuptial (Concordia)",
+      "group_frtrans": "Planche XXXIII"
     },
     {
       "id": "pl33-7",
@@ -10122,7 +10492,9 @@
       "legend_en": "Α ☧ Ω",
       "findspot_fr": "trésor de Notre-Dame de Confession, Saint-Victor",
       "findspot_ru": "сокровищница Нотр-Дам-де-Конфессьон, Сен-Виктор",
-      "findspot_en": "the treasury of Notre-Dame de Confession, Saint-Victor"
+      "findspot_en": "the treasury of Notre-Dame de Confession, Saint-Victor",
+      "name_fr": "Anneau d'argent nuptial (chrisme, Alpha et Oméga)",
+      "group_frtrans": "Planche XXXIII"
     },
     {
       "id": "pl33-8",
@@ -10174,7 +10546,9 @@
       "legend_en": "",
       "findspot_fr": "quartier du Château Gombert",
       "findspot_ru": "квартал Шато-Гомбер",
-      "findspot_en": "the Château Gombert quarter"
+      "findspot_en": "the Château Gombert quarter",
+      "name_fr": "Lampe de cuivre à quatre lumignons, consacrée à Diane",
+      "group_frtrans": "Planche XXXIII"
     },
     {
       "id": "pl33-9",
@@ -10226,7 +10600,9 @@
       "legend_en": "",
       "findspot_fr": "terrains du Champ-Major",
       "findspot_ru": "земли Шан-Майор",
-      "findspot_en": "the grounds of the Champ-Major"
+      "findspot_en": "the grounds of the Champ-Major",
+      "name_fr": "Lampe en terre cuite à couronne civique de chêne",
+      "group_frtrans": "Planche XXXIII"
     },
     {
       "id": "pl33-10",
@@ -10278,7 +10654,9 @@
       "legend_en": "",
       "findspot_fr": "place Saint-Victor",
       "findspot_ru": "площадь Сен-Виктор",
-      "findspot_en": "the Place Saint-Victor"
+      "findspot_en": "the Place Saint-Victor",
+      "name_fr": "Lampe en terre cuite de galbe singulier",
+      "group_frtrans": "Planche XXXIII"
     },
     {
       "id": "pl34-1",
@@ -10336,7 +10714,9 @@
       "legend_en": "",
       "findspot_fr": "rue des Grands-Carmes",
       "findspot_ru": "улица Гран-Кармов",
-      "findspot_en": "rue des Grands-Carmes"
+      "findspot_en": "rue des Grands-Carmes",
+      "name_fr": "Façade de la maison attribuée à T. Annius Milon",
+      "group_frtrans": "Planche XXXIV"
     },
     {
       "id": "pl35-1",
@@ -10406,7 +10786,9 @@
       "legend_en": "",
       "findspot_fr": "hameau de la Pène, entre Saint-Marcel et Aubagne",
       "findspot_ru": "селение Пэн, между Сен-Марселем и Обанью",
-      "findspot_en": "the hamlet of la Pène, between Saint-Marcel and Aubagne"
+      "findspot_en": "the hamlet of la Pène, between Saint-Marcel and Aubagne",
+      "name_fr": "Tombeau pyramidal romain du hameau de la Pène",
+      "group_frtrans": "Planche XXXV"
     },
     {
       "id": "pl36-1",
@@ -10506,7 +10888,9 @@
       "legend_en": "",
       "findspot_fr": "Abbaye Saint-Sauveur, place de Lenche",
       "findspot_ru": "аббатство Сен-Совёр, площадь Ланш",
-      "findspot_en": "the Abbey of Saint-Sauveur, place de Lenche"
+      "findspot_en": "the Abbey of Saint-Sauveur, place de Lenche",
+      "name_fr": "Plan géométral des caves antiques de l'abbaye Saint-Sauveur (bains et casemates de l'arsenal)",
+      "group_frtrans": "Planche XXXVI"
     },
     {
       "id": "pl37-1",
@@ -10564,7 +10948,9 @@
       "legend_en": "ΕΤΟΥΣ ΣΙΤ ΛΛΗΝΟΣ ΑΓΑΝΑΙΟΥ Κ Θ ΑΠΟΛΛΟΦΑΝΕΣ ΒΟΗΘΟΥ ΧΡΗΣΤΕ ΚΑΙ ΑΛΥΠΕ ΧΑΙΡΕ ΖΗΣ ΑΣΕ ΤΗ ΨΒ ΕΥΣΕΒ ΦΙΛΟΤΕΚΝΕ",
       "findspot_fr": "quartier du Canet",
       "findspot_ru": "квартал Кане",
-      "findspot_en": "the Canet quarter"
+      "findspot_en": "the Canet quarter",
+      "name_fr": "Cippe d'Apollophanes, fils de Boétus (calendrier lunaire marseillais)",
+      "group_frtrans": "Planche XXXVII"
     },
     {
       "id": "pl37-2",
@@ -10640,7 +11026,9 @@
       "legend_en": "ΚΑΗ ΦΕΝΗ ΠΟΣΙΔΟΝΑΚΤΟΣ ΔΙΟΝΥΣΙΟΣ ΙΟΥΛΙΟΣ ΔΣ ΚΑΙ ΔΙΑΣ ΝΙΚΟΣ ΤΗ ΜΗΤΡΙ ΜΝΗΜΗΣ ΧΑΡΙΝ",
       "findspot_fr": "Marseille",
       "findspot_ru": "Марсель",
-      "findspot_en": "Marseille"
+      "findspot_en": "Marseille",
+      "name_fr": "Pilier funéraire de Caia Lephena (la \"Pierre froide\", débat érudit sur sa traduction)",
+      "group_frtrans": "Planche XXXVII"
     },
     {
       "id": "pl37-3",
@@ -10698,7 +11086,9 @@
       "legend_en": "ΧΑΡΜΟΛΑΩ ΘΡΑΣΩΝΟΣ ΚΑΙ ΜΕ ΝΩΝ ΧΑΡΙΣ ΟΑΠΕΛΕΥΘΕΡΟΣ",
       "findspot_fr": "place devant l'église Saint-Victor",
       "findspot_ru": "площадь перед церковью Сен-Виктор",
-      "findspot_en": "the square before the Church of Saint-Victor"
+      "findspot_en": "the square before the Church of Saint-Victor",
+      "name_fr": "Pierre sépulcrale de Carmolaus, affranchi par Charles",
+      "group_frtrans": "Planche XXXVII"
     },
     {
       "id": "pl37-4",
@@ -10759,7 +11149,9 @@
       "legend_en": "Ω ΓΝΗΤΕ ΗΣΤΕ ΚΑΙ ΡΕ ΧΑΙΡΕ ΤΡΙΣΧΙΛΙΑΚΙΣ ΕΤΗ Ζ ΜΗΝΙ Ε",
       "findspot_fr": "quartier du Canet",
       "findspot_ru": "квартал Кане",
-      "findspot_en": "the Canet quarter"
+      "findspot_en": "the Canet quarter",
+      "name_fr": "Cippe d'Ognetes (adieu funèbre et violation des sépultures)",
+      "group_frtrans": "Planche XXXVII"
     },
     {
       "id": "pl38-1",
@@ -10829,7 +11221,9 @@
       "legend_en": "D M TITI PVBLI RVFINI TITVS PVBLIVS CHARITO SEXTIVS LVCILLVS FLAVIANVS FRATRES",
       "findspot_fr": "jardin de M. Pierre Bazan",
       "findspot_ru": "сад г-на Пьера Базана",
-      "findspot_en": "the garden of M. Pierre Bazan"
+      "findspot_en": "the garden of M. Pierre Bazan",
+      "name_fr": "Autel funéraire des frères Rufinus, Charito, Lucillus et Flavianus (débat sur l'ascia)",
+      "group_frtrans": "Planche XXXVIII"
     },
     {
       "id": "pl38-2",
@@ -10887,7 +11281,9 @@
       "legend_en": "D M COSSVTIAE VICTORIA POMPEA ABASCANTVS CONIVGI EIVS SACRVM IVSSIT FIERI AERE",
       "findspot_fr": "maison de campagne du Conseiller Antelmy",
       "findspot_ru": "загородный дом советника Антельми",
-      "findspot_en": "Councillor Antelmy's country house"
+      "findspot_en": "Councillor Antelmy's country house",
+      "name_fr": "Autel funéraire de Cossutia, érigé par Victoria Pompea et Abascantus",
+      "group_frtrans": "Planche XXXVIII"
     },
     {
       "id": "pl38-3",
@@ -10948,7 +11344,9 @@
       "legend_en": "ΦΛΑ ΣΤΑΤΙΩ ΣΥΡΙΑΝΩ ΠΑΤΡΙ ΕΥΣΕΒΕ ΣΤΑΤ ΣΤΑΤ ΣΤΑΤΙΑΝΟΣ",
       "findspot_fr": "murs de l'abbaye Saint-Victor",
       "findspot_ru": "стены аббатства Сен-Виктор",
-      "findspot_en": "the walls of the Abbey of Saint-Victor"
+      "findspot_en": "the walls of the Abbey of Saint-Victor",
+      "name_fr": "Inscription grecque pour Flavius Statius Syrianus",
+      "group_frtrans": "Planche XXXVIII"
     },
     {
       "id": "pl38-4",
@@ -11003,7 +11401,9 @@
       "legend_en": "D M HIO POMPEIO FELICIANO POMPEIA MVSKA ALVMNO DVLCISSIMO",
       "findspot_fr": "place de l'Arsenal, la Darce",
       "findspot_ru": "площадь Арсенала, Дарс",
-      "findspot_en": "the Arsenal square, the Darse"
+      "findspot_en": "the Arsenal square, the Darse",
+      "name_fr": "Autel de Pompeia Muska pour son nourrisson Hius Pompeius Felicianus",
+      "group_frtrans": "Planche XXXVIII"
     },
     {
       "id": "pl39-1",
@@ -11061,7 +11461,9 @@
       "legend_en": "D M T MACCIO MARCELLO MACCIA IANVARIA FILIO PIISSIMO ET LICINIA CARPIMAE VXOR",
       "findspot_fr": "glacis de la Citadelle St. Nicolas",
       "findspot_ru": "гласис цитадели Сен-Николя",
-      "findspot_en": "the glacis of the Citadel of St. Nicolas"
+      "findspot_en": "the glacis of the Citadel of St. Nicolas",
+      "name_fr": "Épitaphe de Titus Maccius Marcellus",
+      "group_frtrans": "Planche XXXIX"
     },
     {
       "id": "pl39-2",
@@ -11119,7 +11521,9 @@
       "legend_en": "D M ZOSIMO SODALI THALLVSA",
       "findspot_fr": "quartier de Cavaillon",
       "findspot_ru": "квартал Кавайон",
-      "findspot_en": "the Cavaillon quarter"
+      "findspot_en": "the Cavaillon quarter",
+      "name_fr": "Épitaphe grecque de Zosime, par Thallusa",
+      "group_frtrans": "Planche XXXIX"
     },
     {
       "id": "pl39-3",
@@ -11180,7 +11584,9 @@
       "legend_en": "I DVDISTIO L F VOL NOVANO PONTIF LAVRENTINORVM ORN FLAMIN COLON AQVENS EXORN PRAEF ALAE HISPANAE ADIVTORI AD CENSVS PROVINC LVGDVNENS PROC AVG ALPIVM COTTIAN DVDISTI EGLECTVS ET APTHONETVS PATRONO OPTVMO",
       "findspot_fr": "ruines de la Tour de Gaubert, rue des Fabres",
       "findspot_ru": "развалины башни Гобера, улица Фабров",
-      "findspot_en": "the ruins of the Tour de Gaubert, rue des Fabres"
+      "findspot_en": "the ruins of the Tour de Gaubert, rue des Fabres",
+      "name_fr": "Épitaphe de Julius Dudistius, patron de deux affranchis",
+      "group_frtrans": "Planche XXXIX"
     },
     {
       "id": "pl39-4",
@@ -11241,7 +11647,9 @@
       "legend_en": "D M QVARTIA IRVA TILLA",
       "findspot_fr": "rue Saint-Jacques",
       "findspot_ru": "улица Сен-Жак",
-      "findspot_en": "rue Saint-Jacques"
+      "findspot_en": "rue Saint-Jacques",
+      "name_fr": "Fragment d'épitaphe de Quartia Irvatilla",
+      "group_frtrans": "Planche XXXIX"
     },
     {
       "id": "pl39-5",
@@ -11299,7 +11707,9 @@
       "legend_en": "T DOMITIO ASI ATICO LALIHE CONIVGI OPTIMO ID SIBI",
       "findspot_fr": "devant l'église Saint-Victor",
       "findspot_ru": "перед церковью Сен-Виктор",
-      "findspot_en": "before the Church of Saint-Victor"
+      "findspot_en": "before the Church of Saint-Victor",
+      "name_fr": "Épitaphe de Titus Domitius Asiaticus et de son épouse Lalihe",
+      "group_frtrans": "Planche XXXIX"
     },
     {
       "id": "pl40-1",
@@ -11360,7 +11770,9 @@
       "legend_en": "D M LICYRIAE SEBASTEO IVNI TYRANMIS AMICAE MIRENTISSIMAE",
       "findspot_fr": "Marseille",
       "findspot_ru": "Марсель",
-      "findspot_en": "Marseille"
+      "findspot_en": "Marseille",
+      "name_fr": "Épitaphe de Licyria, par son amie Iunia Tiranmis",
+      "group_frtrans": "Planche XL"
     },
     {
       "id": "pl40-2",
@@ -11421,7 +11833,9 @@
       "legend_en": "D M L LVCILIO CRISPO MAR OPT FIL LVC GRATO FIL PIISS IVL GRATA",
       "findspot_fr": "place devant les anciennes Infirmeries (le Farot)",
       "findspot_ru": "площадь перед старыми лечебницами (Фаро)",
-      "findspot_en": "the square before the old Infirmaries (le Farot)"
+      "findspot_en": "the square before the old Infirmaries (le Farot)",
+      "name_fr": "Épitaphe de Lucius Lucilius Crispus, par son épouse Julia Grata",
+      "group_frtrans": "Planche XL"
     },
     {
       "id": "pl40-3",
@@ -11476,7 +11890,9 @@
       "legend_en": "D M MARCII LENAEVS E TYCHECIA DEO FILIO PIENTISSIMO",
       "findspot_fr": "mur de l'abbaye Saint-Victor",
       "findspot_ru": "стена аббатства Сен-Виктор",
-      "findspot_en": "the wall of the Abbey of Saint-Victor"
+      "findspot_en": "the wall of the Abbey of Saint-Victor",
+      "name_fr": "Épitaphe de Marcius Eutyches, par son père Lenaeus",
+      "group_frtrans": "Planche XL"
     },
     {
       "id": "pl40-4",
@@ -11531,7 +11947,9 @@
       "legend_en": "D M D MARCI C INGEN FILIO PIISSIMO AN XXII",
       "findspot_fr": "portail de l'église supérieure de Saint-Victor",
       "findspot_ru": "портал верхней церкви Сен-Виктор",
-      "findspot_en": "the doorway of the upper Church of Saint-Victor"
+      "findspot_en": "the doorway of the upper Church of Saint-Victor",
+      "name_fr": "Épitaphe de Decimus Marcius, par Caius Ingenuus",
+      "group_frtrans": "Planche XL"
     },
     {
       "id": "pl41-1",
@@ -11586,7 +12004,9 @@
       "legend_en": "D M CASSIE FORTVNAT ACONIS PATRONAE MERENTISSIM",
       "findspot_fr": "place de la Darce, Arsenal",
       "findspot_ru": "площадь Дарс, Арсенал",
-      "findspot_en": "the place de la Darce, Arsenal"
+      "findspot_en": "the place de la Darce, Arsenal",
+      "name_fr": "Épitaphe de Cassia Fortunata, patronne d'Acon",
+      "group_frtrans": "Planche XLI"
     },
     {
       "id": "pl41-2",
@@ -11647,7 +12067,9 @@
       "legend_en": "D M IVLIAE GERMANAE MATRI PIISSIMAE M STATIVS RESTITVTVS",
       "findspot_fr": "place de la Darce, Arsenal",
       "findspot_ru": "площадь Дарс, Арсенал",
-      "findspot_en": "the place de la Darce, Arsenal"
+      "findspot_en": "the place de la Darce, Arsenal",
+      "name_fr": "Épitaphe de Julia Germana, par son fils Marcus Statius Restitutus",
+      "group_frtrans": "Planche XLI"
     },
     {
       "id": "pl41-3",
@@ -11705,7 +12127,9 @@
       "legend_en": "D M VAL RVFINI QVI VV SIBI FECIT",
       "findspot_fr": "plaine Saint-Michel (ancien champ de Mars)",
       "findspot_ru": "равнина Сен-Мишель (древнее Марсово поле)",
-      "findspot_en": "the plain of Saint-Michel (the ancient Field of Mars)"
+      "findspot_en": "the plain of Saint-Michel (the ancient Field of Mars)",
+      "name_fr": "Tombeau de Valerius Rufinus, bâti de son vivant",
+      "group_frtrans": "Planche XLI"
     },
     {
       "id": "pl41-4",
@@ -11766,7 +12190,9 @@
       "legend_en": "D II POMPONIAE PRIMICENIAE ANNIA F FIICLA SOROR KARISSIME",
       "findspot_fr": "pavé devant l'église supérieure de Saint-Victor",
       "findspot_ru": "мостовая перед верхней церковью Сен-Виктор",
-      "findspot_en": "the pavement before the upper Church of Saint-Victor"
+      "findspot_en": "the pavement before the upper Church of Saint-Victor",
+      "name_fr": "Épitaphe de Pomponia, par sa sœur Annia Fiicla",
+      "group_frtrans": "Planche XLI"
     },
     {
       "id": "pl41-5",
@@ -11839,7 +12265,9 @@
       "legend_en": "D M Q MINATI CELERIS CLAVDIANI FECER PLARIA VERA VXOR ET Q MINANTIVS TIRIDA STAT",
       "findspot_fr": "couvent des Grands-Carmes",
       "findspot_ru": "монастырь Больших Кармелитов",
-      "findspot_en": "the convent of the Grands-Carmes"
+      "findspot_en": "the convent of the Grands-Carmes",
+      "name_fr": "Autel de Quintus Minantius, chevalier de la légion Claudienne (robe de pourpre)",
+      "group_frtrans": "Planche XLI"
     },
     {
       "id": "pl42-1",
@@ -11897,7 +12325,9 @@
       "legend_en": "D M CALPVRNIAE AR RIDIS VAB CREGES ET CABLVRNIA ONESIME VLVMN",
       "findspot_fr": "place de l'abbaye Saint-Victor",
       "findspot_ru": "площадь аббатства Сен-Виктор",
-      "findspot_en": "the square of the Abbey of Saint-Victor"
+      "findspot_en": "the square of the Abbey of Saint-Victor",
+      "name_fr": "Épitaphe de Calpurnia, élève d'Onesime",
+      "group_frtrans": "Planche XLII"
     },
     {
       "id": "pl42-2",
@@ -11955,7 +12385,9 @@
       "legend_en": "D M IACET SVB HOC SIGVINVS DVLCISSIMA SEANDILLA QVAE RAPTA PARENTIBVS RELIQVIT DOLOREM",
       "findspot_fr": "jardin du Roi, Marseille",
       "findspot_ru": "королевский сад, Марсель",
-      "findspot_en": "the King's garden, Marseille"
+      "findspot_en": "the King's garden, Marseille",
+      "name_fr": "Épitaphe de la petite Seandilla",
+      "group_frtrans": "Planche XLII"
     },
     {
       "id": "pl42-3",
@@ -12016,7 +12448,9 @@
       "legend_en": "ΤΠΟΡΚΙΩΠΡΟΚΛΟΥ ΑΙΛΙΑΝΟΥ ΕΞΟΧΩΤΑΤΟΥ ΑΝΔΡΟΣ ΚΑΙ ΠΡΟΦΗΤΟΥ",
       "findspot_fr": "caves antiques de l'abbaye Saint-Sauveur",
       "findspot_ru": "античные подвалы аббатства Сен-Совёр",
-      "findspot_en": "the ancient cellars of the Abbey of Saint-Sauveur"
+      "findspot_en": "the ancient cellars of the Abbey of Saint-Sauveur",
+      "name_fr": "Inscription grecque pour Titus Porcius Proclus Aelianus (carrière d'un officier romain)",
+      "group_frtrans": "Planche XLII"
     },
     {
       "id": "frag-1",
@@ -12071,7 +12505,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Épitaphe de Volumnia Eutiches, par son père Eutiches",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "frag-2",
@@ -12123,7 +12559,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Épitaphe de Flavus Lucianus et ...ania",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "frag-3",
@@ -12175,7 +12613,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Épitaphe de Lucius Valerius Felix, par sa fille Valeria Amilia",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "frag-4",
@@ -12227,7 +12667,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Épitaphe de Nymfidius, trouvée dans le port de Marseille",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "frag-5",
@@ -12279,7 +12721,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Épitaphe d'Ulpia Domitia Enea, vierge fidèle",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "frag-6",
@@ -12334,7 +12778,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Vœu de Lielius, fils de Nimpius, gardien des droits de la communauté, à Apollon",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "frag-7",
@@ -12386,7 +12832,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Fragment: VAL. PR. MILLAES VI. CHRO.",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "frag-8",
@@ -12441,7 +12889,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Épitaphe de Quintus Cestus Ianuarius et Publia Charite (sépulture choisie de son vivant)",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "frag-9",
@@ -12496,7 +12946,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Fragment incertain: ...ATRI P. YCAR O.",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "frag-10",
@@ -12548,7 +13000,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Fragment: Augustius, tuteur d'Augustalis",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "frag-11",
@@ -12600,7 +13054,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Fragment de la nécropole de l'embouchure de l'Huveaune (nom de Nicomède)",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "frag-12",
@@ -12652,7 +13108,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Épitaphe de Lucius Cornellianus Eutichianus, par son frère Cornellianus",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "frag-13",
@@ -12707,7 +13165,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Épitaphe de Marcus Caris Maximinus, par son frère Marcus Caris Pacatus",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "frag-14",
@@ -12759,7 +13219,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Épitaphe de Julia, par Tycarus, faiseur de ceintures de l'empereur Julien",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "frag-15",
@@ -12811,7 +13273,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Dédicace d'un sépulcre de famille par Julia Marina",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "frag-16",
@@ -12863,7 +13327,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Fragment: ...lumne dulcissimae (jardin du Séminaire)",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "frag-17",
@@ -12915,7 +13381,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Fragment: Flavia Iuliana Nepotes",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "frag-18",
@@ -12970,7 +13438,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Épitaphe de Quintus Gallius Euphemius, sextumvir des fêtes d'Auguste, par Cornelia Secunda",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "frag-19",
@@ -13025,7 +13495,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Épitaphe de Flavia Telesphoriana et Flavia Fronti, dotées par testament",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "frag-20",
@@ -13086,7 +13558,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Épitaphe de Caius Postumius Venustus, par son épouse et héritière Roscia Lochagia",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "frag-21",
@@ -13147,7 +13621,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Inscription du Collège des Flamines d'Apollon et des Dendrophores de Marseille",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "frag-22",
@@ -13199,7 +13675,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Épitaphe de Caius Vecticius Neon, par sa nourrice Vecticia Eucarpia",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "frag-23",
@@ -13251,7 +13729,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Fragment: Optimae oriae eius ... fama dimit",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "frag-24",
@@ -13303,7 +13783,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Fragment: Ex testamento, infra pedes XX",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "frag-25",
@@ -13358,7 +13840,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Fragment: Titus et Iunius (Temple de Diane)",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "frag-26",
@@ -13413,7 +13897,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Épitaphe de Publius Aelius Eutyches, par son affranchi Secundus",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "greek-p1",
@@ -13468,7 +13954,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Fragment grec 1 (nom de Parmenon)",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "greek-p2",
@@ -13523,7 +14011,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Fragment grec 2 (nom de Parmenon)",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "greek-p3",
@@ -13578,7 +14068,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Fragment grec 3 (nom de Parmenon)",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "greek-p4",
@@ -13633,7 +14125,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Fragment grec 4 (nom de Parmenon)",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "greek-p5",
@@ -13688,7 +14182,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Fragment grec 5 (nom de Parmenon)",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     },
     {
       "id": "greek-4",
@@ -13740,7 +14236,9 @@
       "legend_en": "",
       "findspot_fr": "",
       "findspot_ru": "",
-      "findspot_en": ""
+      "findspot_en": "",
+      "name_fr": "Fragment grec 6: Dionisi Dionisi Sideiti Metrima (Denis, fils de Denis, de la ville de Sida)",
+      "group_frtrans": "Épitaphes, inscriptions et fragmens rapportés par divers Auteurs"
     }
   ]
 }
