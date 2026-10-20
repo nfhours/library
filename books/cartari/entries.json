@@ -2952,45 +2952,305 @@
       ],
       "scans": [
         "cart11.jpg",
-        "cart11_p379.jpg",
-        "cart11_p380.jpg",
-        "cart11_p381.jpg",
-        "cart11_p382.jpg",
-        "cart11_p383.jpg",
-        "cart11_p384.jpg",
-        "cart11_p385.jpg",
-        "cart11_p386.jpg",
-        "cart11_p387.jpg",
-        "cart11_p388.jpg",
-        "cart11_p389.jpg",
-        "cart11_p390.jpg",
-        "cart11_p391.jpg",
-        "cart11_p392.jpg",
-        "cart11_p393.jpg",
-        "cart11_p394.jpg",
-        "cart11_p395.jpg",
-        "cart11_p396.jpg",
-        "cart11_p397.jpg",
-        "cart11_p398.jpg",
-        "cart11_p399.jpg",
-        "cart11_p400.jpg",
-        "cart11_p401.jpg",
-        "cart11_p402.jpg",
-        "cart11_p403.jpg",
-        "cart11_p404.jpg",
-        "cart11_p405.jpg",
-        "cart11_p406.jpg",
-        "cart11_p407.jpg",
-        "cart11_p408.jpg",
-        "cart11_p409.jpg",
-        "cart11_p410.jpg",
-        "cart11_p411.jpg",
-        "cart11_p412.jpg"
+        "cart11_p379.jpg"
+      ]
+    },
+    {
+      "id": "cartm89",
+      "num": "103",
+      "page": "341",
+      "fr": "Imagine di Como, dio dei Conviti",
+      "ru": "Образ Кома, бога пиров",
+      "en": "The image of Comus, god of Feasts",
+      "img": [
+        "cartm89.jpg"
+      ],
+      "scans": [
+        "cartm89.jpg",
+        "cartm89_p381.jpg",
+        "cartm89_p382.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine di Como Dio de Conuiuij, secondo Filostrato, significante, che li Conuiti modesti allegrano li huomini & suegliando li spiriti li fanno diuenir arditi, & che all'incontro l'immoderato cibo fà l'huomo sonnolento, inetto, & tuso d'ingegno, & debole di corpo.",
+      "text_ru": [
+        "«Образ Кома, бога пиров, согласно Филострату, означающий, что умеренные пиршества веселят людей и, пробуждая дух, делают их смелыми, тогда как, напротив, неумеренная пища делает человека сонливым, неспособным, притупленным умом и слабым телом»."
+      ],
+      "text_en": [
+        "“The image of Comus, god of Feasts, according to Philostratus, signifying that modest banquets gladden men and, rousing the spirits, make them bold, while, on the contrary, immoderate food makes a man drowsy, inept, dull of wit, and weak of body.”"
+      ],
+      "name_fr": "L'image de Comus, dieu des Festins",
+      "text_fr": [
+        "« L'image de Comus, dieu des Festins, selon Philostrate, signifiant que des banquets modérés réjouissent les hommes et, réveillant les esprits, les rendent hardis, tandis qu'au contraire une nourriture immodérée rend l'homme somnolent, inapte, l'esprit émoussé et le corps faible. »"
+      ]
+    },
+    {
+      "id": "cartm90",
+      "num": "104",
+      "page": "344",
+      "fr": "Imagine di Bacco secondo Macrobio",
+      "ru": "Образ Вакха согласно Макробию",
+      "en": "The image of Bacchus according to Macrobius",
+      "img": [
+        "cartm90.jpg"
+      ],
+      "scans": [
+        "cartm90.jpg",
+        "cartm90_p384.jpg",
+        "cartm90_p385.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine di Bacco significante li effetti del vino, del quale fù l'inuentore; & secondo Macrobio li varij effetti del Sole essendo da lui per il Sole inteso, cioè la varietà delle stagioni dell'anno: & animali à lui sacrati.",
+      "text_ru": [
+        "«Образ Вакха, означающий воздействия вина, изобретателем которого он был; а согласно Макробию — различные воздействия Солнца, поскольку он понимается как Солнце, то есть разнообразие времён года; а также посвящённые ему животные»."
+      ],
+      "text_en": [
+        "“The image of Bacchus, signifying the effects of wine, of which he was the inventor; and, according to Macrobius, the various effects of the Sun, he being understood as the Sun, that is, the variety of the seasons of the year; and the animals sacred to him.”"
+      ],
+      "name_fr": "L'image de Bacchus selon Macrobe",
+      "text_fr": [
+        "« L'image de Bacchus, signifiant les effets du vin, dont il fut l'inventeur ; et, selon Macrobe, les divers effets du Soleil, lui-même étant entendu comme le Soleil, c'est-à-dire la variété des saisons de l'année ; et les animaux qui lui sont sacrés. »"
+      ]
+    },
+    {
+      "id": "cartm91",
+      "num": "105",
+      "page": "347",
+      "fr": "Imagini di Bacco e della pompa bacchica",
+      "ru": "Образы Вакха и вакхического шествия",
+      "en": "The images of Bacchus and the Bacchic procession",
+      "img": [
+        "cartm91.jpg"
+      ],
+      "scans": [
+        "cartm91.jpg",
+        "cartm91_p387.jpg",
+        "cartm91_p388.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagini di Bacco, & della pompa, feste, & cerimonie bacchanali, & l'habito delle Bacche, o Menadi sue seguaci, significante che li sacrificij bacchanali purgauan gl'animi dalle colpe, come il vino li purga da pensieri.",
+      "text_ru": [
+        "«Образы Вакха и его шествия, празднеств и вакхических обрядов, а также одеяния Вакханок, или Менад, его спутниц, означающие, что вакхические жертвоприношения очищали души от грехов, подобно тому как вино очищает их от забот»."
+      ],
+      "text_en": [
+        "“The images of Bacchus, and of the procession, feasts, and bacchanalian ceremonies, and the garb of the Bacchae, or Maenads, his followers, signifying that the bacchanalian sacrifices purged souls of their faults, just as wine purges them of cares.”"
+      ],
+      "name_fr": "Les images de Bacchus et du cortège bachique",
+      "text_fr": [
+        "« Les images de Bacchus, et du cortège, des fêtes et des cérémonies bachiques, et de la tenue des Bacchantes, ou Ménades, ses suivantes, signifiant que les sacrifices bachiques purgeaient les âmes de leurs fautes, comme le vin les purge des soucis. »"
+      ]
+    },
+    {
+      "id": "cartm92",
+      "num": "106",
+      "page": "350",
+      "fr": "Imagini di Bacco trionfatore sull'elefante",
+      "ru": "Образы Вакха-триумфатора на слоне",
+      "en": "The images of Bacchus triumphant upon the elephant",
+      "img": [
+        "cartm92.jpg"
+      ],
+      "scans": [
+        "cartm92.jpg",
+        "cartm92_p390.jpg",
+        "cartm92_p391.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagini di Bacco trionfatore, & inuentore del Trionfo, doppo hauer superata l'India, & del suo carro tirato da Tigri, & da Pantere con diuerse piante à lui sacrate, & molti animali ancora che significano la natura, & effetti del vino, & ebrietà.",
+      "text_ru": [
+        "«Образы Вакха-триумфатора, изобретателя триумфа, после покорения им Индии, а также его колесницы, влекомой Тиграми и Пантерами, с различными посвящёнными ему растениями и множеством животных, означающих природу и воздействия вина и опьянения»."
+      ],
+      "text_en": [
+        "“The images of Bacchus triumphant, and inventor of the Triumph, after having conquered India, and of his chariot drawn by Tigers and Panthers, with various plants sacred to him and many animals still, signifying the nature and effects of wine and drunkenness.”"
+      ],
+      "name_fr": "Les images de Bacchus triomphant sur l'éléphant",
+      "text_fr": [
+        "« Les images de Bacchus triomphant, et inventeur du Triomphe, après avoir vaincu l'Inde, et de son char tiré par des Tigres et des Panthères, avec diverses plantes qui lui sont sacrées et nombre d'animaux encore, signifiant la nature et les effets du vin et de l'ivresse. »"
+      ]
+    },
+    {
+      "id": "cartm93",
+      "num": "107",
+      "page": "353",
+      "fr": "Imagine della Nave di Bacco",
+      "ru": "Образ Корабля Вакха",
+      "en": "The image of the Ship of Bacchus",
+      "img": [
+        "cartm93.jpg"
+      ],
+      "scans": [
+        "cartm93.jpg",
+        "cartm93_p393.jpg",
+        "cartm93_p394.jpg",
+        "cartm93_p395.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine della Naue di Bacco, del monte Timolo di Lidia delle Bacche per quello scorrenti, & de Corsari Tirrheni captori di Bacco da quello tramutati in Delfini per loro misfatti significanti li vitij, & peccati far perder all'huomo la ragione.",
+      "text_ru": [
+        "«Образ Корабля Вакха, лидийской горы Тимол, по которой носятся Вакханки, и тирренских корсаров, пленивших Вакха и обращённых им в дельфинов за свои злодеяния, — означающий, что пороки и грехи лишают человека разума»."
+      ],
+      "text_en": [
+        "“The image of the Ship of Bacchus, of Mount Tmolus in Lydia, over which the Bacchae run, and of the Tyrrhenian corsairs who captured Bacchus and were by him transformed into Dolphins for their misdeeds, signifying that vices and sins cause man to lose his reason.”"
+      ],
+      "name_fr": "L'image du Navire de Bacchus",
+      "text_fr": [
+        "« L'image du Navire de Bacchus, du mont Tmolus en Lydie, sur lequel courent les Bacchantes, et des corsaires tyrrhéniens, qui capturèrent Bacchus et furent par lui changés en Dauphins pour leurs méfaits, signifiant que les vices et les péchés font perdre à l'homme la raison. »"
+      ]
+    },
+    {
+      "id": "cartm94",
+      "num": "108",
+      "page": "357",
+      "fr": "Imagine di Horo, dio degli Egizi, Priapo e Bacco",
+      "ru": "Образ Гора, бога египтян, Приапа и Вакха",
+      "en": "The image of Horus, god of the Egyptians, Priapus and Bacchus",
+      "img": [
+        "cartm94.jpg"
+      ],
+      "scans": [
+        "cartm94.jpg",
+        "cartm94_p397.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine di Horo Dio delli Egittij, che è Priapo, & Bacco ancora, il quale viene inteso per la virtù seminale, & per il Sole; con il disegno del Disco significante la rotondità del mondo, che viene dal Sole illuminato, & à cui il Sole influisce la virtù sua.",
+      "text_ru": [
+        "«Образ Гора, бога египтян, который есть также Приап и Вакх, понимаемый как семенная сила и как Солнце; с изображением Диска, означающего округлость мира, освещаемого Солнцем, которому Солнце сообщает свою силу»."
+      ],
+      "text_en": [
+        "“The image of Horus, god of the Egyptians, who is also Priapus and Bacchus, understood as the seminal power and as the Sun; with the device of the Disc signifying the roundness of the world, which is illuminated by the Sun, and into which the Sun infuses its power.”"
+      ],
+      "name_fr": "L'image d'Horus, dieu des Égyptiens, Priape et Bacchus",
+      "text_fr": [
+        "« L'image d'Horus, dieu des Égyptiens, qui est aussi Priape et Bacchus, entendu comme la vertu séminale et comme le Soleil ; avec le dessin du Disque signifiant la rondeur du monde, qui est éclairé par le Soleil, et auquel le Soleil insuffle sa vertu. »"
+      ]
+    },
+    {
+      "id": "cartm95",
+      "num": "109",
+      "page": "359",
+      "fr": "Imagini di Tifone e di Horo",
+      "ru": "Образы Тифона и Гора",
+      "en": "The images of Typhon and Horus",
+      "img": [
+        "cartm95.jpg"
+      ],
+      "scans": [
+        "cartm95.jpg",
+        "cartm95_p399.jpg",
+        "cartm95_p400.jpg",
+        "cartm95_p401.jpg",
+        "cartm95_p402.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagini di Tifone fratel d'Osiri, & di Horo figliuolo d'Osiri, che è Baccho appo i Greci, qual Horo superò il detto Tifone, benche in Crocodilo tramutato; con l'Hippopotamo, & Sparauiere hieroglifici denotanti la virtù combattente, & resistente al male, & ch'al fine lo supera e conculca.",
+      "text_ru": [
+        "«Образы Тифона, брата Осириса, и Гора, сына Осириса, который есть Вакх у греков; Гор одолел названного Тифона, хотя тот и обратился в Крокодила; с иероглифами Бегемота и Ястреба, означающими силу, сражающуюся и противостоящую злу, которая в конце концов побеждает его и попирает»."
+      ],
+      "text_en": [
+        "“The images of Typhon, brother of Osiris, and of Horus, son of Osiris, who is Bacchus among the Greeks; which Horus overcame the said Typhon, although he had transformed into a Crocodile; with the Hippopotamus and Hawk hieroglyphs denoting the power that fights and resists evil, and which in the end overcomes and tramples it.”"
+      ],
+      "name_fr": "Les images de Typhon et d'Horus",
+      "text_fr": [
+        "« Les images de Typhon, frère d'Osiris, et d'Horus, fils d'Osiris, qui est Bacchus chez les Grecs ; lequel Horus vainquit ledit Typhon, bien que celui-ci se fût changé en Crocodile ; avec les hiéroglyphes de l'Hippopotame et de l'Épervier signifiant la vertu qui combat et résiste au mal, et qui finit par le vaincre et le fouler aux pieds. »"
+      ]
+    },
+    {
+      "id": "cartm96",
+      "num": "110",
+      "page": "364",
+      "fr": "Imagine di Priapo, dio degli Orti",
+      "ru": "Образ Приапа, бога садов",
+      "en": "The image of Priapus, god of Gardens",
+      "img": [
+        "cartm96.jpg"
+      ],
+      "scans": [
+        "cartm96.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine di Priapo Dio delli Horti, & del membro virile, & dell'Asino, & del Becco à lui sacrati, essendo inteso per la virtù seminale ò generatiua. è Dio punitore de Ladri, & del furto significato nella falce, & li animali sono segno di potente generatione.",
+      "text_ru": [
+        "«Образ Приапа, бога садов и мужского члена, с посвящёнными ему Ослом и Козлом, понимаемого как семенная, или порождающая, сила. Он — бог, карающий воров, а воровство означено серпом; животные же — знак мощной производительной силы»."
+      ],
+      "text_en": [
+        "“The image of Priapus, god of Gardens and of the male member, with the Ass and the He-goat sacred to him, understood as the seminal or generative power. He is a god who punishes Thieves, theft being signified by the sickle, and the animals are a sign of potent generation.”"
+      ],
+      "name_fr": "L'image de Priape, dieu des Jardins",
+      "text_fr": [
+        "« L'image de Priape, dieu des Jardins et du membre viril, avec l'Âne et le Bouc qui lui sont sacrés, entendu comme la vertu séminale ou générative. Il est le dieu punisseur des Voleurs, le vol étant signifié par la faucille, et les animaux sont signe d'une puissante génération. »"
+      ]
+    },
+    {
+      "id": "cartm97",
+      "num": "111",
+      "page": "365",
+      "fr": "Imagini degli dei Lari e Penati",
+      "ru": "Образы богов Ларов и Пенатов",
+      "en": "The images of the gods Lares and Penates",
+      "img": [
+        "cartm97.jpg"
+      ],
+      "scans": [
+        "cartm97.jpg",
+        "cartm97_p405.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagini delli Dei Lari: cioè custodi delle priuate case, & delle particolari Città, & inuestigatori de fatti humani, ouero Dei noceuoli; & imagine delli Dei Penati, & hieroglifico loro, dinotanti ancora loro Dei familiari, & custodi delle Città, & case de priuati.",
+      "text_ru": [
+        "«Образы богов Ларов, то есть хранителей частных домов и отдельных городов, расследователей дел человеческих, или же богов вредоносных; и образ богов Пенатов, и их иероглиф, означающие также, что они — семейные боги, хранители городов и частных домов»."
+      ],
+      "text_en": [
+        "“The images of the Lares gods: that is, guardians of private homes and of individual Cities, and investigators of human deeds, or else harmful gods; and the image of the Penates gods, and their hieroglyph, also denoting that they are household gods, guardians of Cities and of private homes.”"
+      ],
+      "name_fr": "Les images des dieux Lares et Pénates",
+      "text_fr": [
+        "« Les images des dieux Lares : c'est-à-dire gardiens des maisons privées et des Villes particulières, et enquêteurs des actes humains, ou bien dieux nuisibles ; et l'image des dieux Pénates, et leur hiéroglyphe, indiquant aussi qu'ils sont des dieux familiers, gardiens des Villes et des maisons privées. »"
+      ]
+    },
+    {
+      "id": "cartm98",
+      "num": "112",
+      "page": "367",
+      "fr": "Imagini del Genio buono e cattivo",
+      "ru": "Образы доброго и злого Гения",
+      "en": "The images of the good and evil Genius",
+      "img": [
+        "cartm98.jpg"
+      ],
+      "scans": [
+        "cartm98.jpg",
+        "cartm98_p407.jpg",
+        "cartm98_p408.jpg",
+        "cartm98_p409.jpg",
+        "cartm98_p410.jpg",
+        "cartm98_p411.jpg",
+        "cartm98_p412.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagini del Genio buono, & cattiuo, custode & osseruatore della generatione humana, delle attioni, & delle Città, & luoghi priuati.",
+      "text_ru": [
+        "«Образы доброго и злого Гения, хранителя и наблюдателя за человеческим рождением, деяниями, городами и частными местами»."
+      ],
+      "text_en": [
+        "“The images of the good and evil Genius, guardian and observer of human generation, of actions, and of Cities and private places.”"
+      ],
+      "name_fr": "Les images du bon et du mauvais Génie",
+      "text_fr": [
+        "« Les images du bon et du mauvais Génie, gardien et observateur de la génération humaine, des actions, et des Villes et lieux privés. »"
       ]
     },
     {
       "id": "cart12",
-      "num": "103",
+      "num": "113",
       "page": "374",
       "fr": "Fortuna",
       "ru": "Фортуна",
@@ -3011,14 +3271,40 @@
       ],
       "scans": [
         "cart12.jpg",
-        "cart12_p414.jpg",
-        "cart12_p415.jpg",
-        "cart12_p416.jpg"
+        "cart12_p414.jpg"
+      ]
+    },
+    {
+      "id": "cartm99",
+      "num": "114",
+      "page": "376",
+      "fr": "Imagini della Fortuna lieta e triste",
+      "ru": "Образы радостной и печальной Фортуны",
+      "en": "The images of joyful and sorrowful Fortune",
+      "img": [
+        "cartm99.jpg"
+      ],
+      "scans": [
+        "cartm99.jpg",
+        "cartm99_p416.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagini della lieta, & trista fortuna, ouero della fortuna passata, presente, & ventura, giudicata da gli antichi, benche sij solo vn nome imaginato, maggiore de tutti li loro dei falsi, & patrona delle cose di qua giù, & questo nume li antichi s'imaginorono per scusa dell'imprudenze loro.",
+      "text_ru": [
+        "«Образы радостной и печальной Фортуны, то есть судьбы прошедшей, настоящей и будущей, как её почитали древние, хотя это лишь воображаемое имя, большее всех их ложных богов и владычица дел здешнего мира; и это божество древние измыслили в оправдание своей неосмотрительности»."
+      ],
+      "text_en": [
+        "“The images of joyful and sorrowful Fortune, that is, of fortune past, present, and to come, as judged by the ancients, although it is but an imagined name, greater than all their false gods, and patroness of things here below; and the ancients imagined this deity as an excuse for their own imprudence.”"
+      ],
+      "name_fr": "Les images de la Fortune joyeuse et triste",
+      "text_fr": [
+        "« Les images de la Fortune joyeuse et triste, c'est-à-dire de la fortune passée, présente et à venir, telle que jugée par les anciens, bien que ce ne soit qu'un nom imaginé, plus grand que tous leurs faux dieux, et patronne des choses d'ici-bas ; et les anciens imaginèrent cette divinité pour excuser leur propre imprudence. »"
       ]
     },
     {
       "id": "cartb20",
-      "num": "104",
+      "num": "115",
       "page": "378",
       "fr": "Nemesi",
       "ru": "Немезида",
@@ -3044,7 +3330,7 @@
     },
     {
       "id": "cartb21",
-      "num": "105",
+      "num": "116",
       "page": "380",
       "fr": "Giustitia",
       "ru": "Справедливость",
@@ -3070,7 +3356,7 @@
     },
     {
       "id": "cartb22",
-      "num": "106",
+      "num": "117",
       "page": "382",
       "fr": "La Calunnia d'Apelle",
       "ru": "«Клевета» Апеллеса",
@@ -3091,30 +3377,238 @@
       ],
       "scans": [
         "cartb22.jpg",
-        "cartb22_p422.jpg",
-        "cartb22_p423.jpg",
-        "cartb22_p424.jpg",
-        "cartb22_p425.jpg",
-        "cartb22_p426.jpg",
-        "cartb22_p427.jpg",
-        "cartb22_p428.jpg",
-        "cartb22_p429.jpg",
-        "cartb22_p430.jpg",
-        "cartb22_p431.jpg",
-        "cartb22_p432.jpg",
-        "cartb22_p433.jpg",
-        "cartb22_p434.jpg",
-        "cartb22_p435.jpg",
-        "cartb22_p436.jpg",
-        "cartb22_p437.jpg",
-        "cartb22_p438.jpg",
-        "cartb22_p439.jpg",
-        "cartb22_p440.jpg"
+        "cartb22_p422.jpg"
+      ]
+    },
+    {
+      "id": "cartm100",
+      "num": "118",
+      "page": "384",
+      "fr": "Imagini dell'Invidia",
+      "ru": "Образы Зависти",
+      "en": "The images of Envy",
+      "img": [
+        "cartm100.jpg"
+      ],
+      "scans": [
+        "cartm100.jpg",
+        "cartm100_p424.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagini dell'Inuidia, che à se stessa nuoce, essendo che l'inuidioso si strugge vedendo l'altrui prosperità, & si ottura l'orecchie à l'altrui lodi, & si stringe la gola per soffocarsi, quelle vedendo essaltate, & questo è il pessimo de vitij.",
+      "text_ru": [
+        "«Образы Зависти, которая вредит самой себе, ибо завистник изводит себя, видя чужое благополучие, затыкает уши от чужих похвал и сжимает себе горло, чтобы задохнуться, видя их прославляемыми; это худший из пороков»."
+      ],
+      "text_en": [
+        "“The images of Envy, which harms itself, since the envious man wastes away at the sight of others' prosperity, stops his ears to others' praise, and grips his own throat to choke himself at seeing them exalted; and this is the worst of vices.”"
+      ],
+      "name_fr": "Les images de l'Envie",
+      "text_fr": [
+        "« Les images de l'Envie, qui se nuit à elle-même, car l'envieux se consume à voir la prospérité d'autrui, se bouche les oreilles aux louanges d'autrui, et se serre la gorge pour s'étouffer en les voyant exaltées ; et c'est le pire des vices. »"
+      ]
+    },
+    {
+      "id": "cartm101",
+      "num": "119",
+      "page": "386",
+      "fr": "Imagine di Momo, dio della riprensione",
+      "ru": "Образ Мома, бога порицания",
+      "en": "The image of Momus, god of censure",
+      "img": [
+        "cartm101.jpg"
+      ],
+      "scans": [
+        "cartm101.jpg",
+        "cartm101_p426.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine di Momo Dio della reprensione, ò maledicenza, & del biasmo, figliuolo del Sonno, & della Notte, significante li detrattori non esser da niente, ne mai oprar nulla, solo biasimare le operationi altrui, non riguardando mai se non al riprensibile, non mai al lodeuole, simili à talpe, che non riguardano il Sole ne il giorno, ma solo le tenebre & l'oscurità.",
+      "text_ru": [
+        "«Образ Мома, бога порицания, или злоречия, и хулы, сына Сна и Ночи, означающий, что хулители ничего собой не представляют и сами ничего не совершают, а лишь порицают дела других, замечая всегда только достойное осуждения, никогда — похвального, подобно кротам, которые не глядят ни на Солнце, ни на день, но лишь на тьму и мрак»."
+      ],
+      "text_en": [
+        "“The image of Momus, god of censure, or slander, and of blame, son of Sleep and of Night, signifying that detractors are worth nothing and never accomplish anything themselves, only blaming the deeds of others, ever noting only what is reprehensible, never what is praiseworthy, like moles, which look not upon the Sun nor the day, but only upon darkness and gloom.”"
+      ],
+      "name_fr": "L'image de Momos, dieu de la critique",
+      "text_fr": [
+        "« L'image de Momos, dieu de la critique, ou de la médisance, et du blâme, fils du Sommeil et de la Nuit, signifiant que les détracteurs ne valent rien et n'accomplissent jamais rien eux-mêmes, se contentant de blâmer les œuvres d'autrui, ne remarquant toujours que ce qui est répréhensible, jamais ce qui est louable, pareils à des taupes, qui ne regardent ni le Soleil ni le jour, mais seulement les ténèbres et l'obscurité. »"
+      ]
+    },
+    {
+      "id": "cartm102",
+      "num": "120",
+      "page": "388",
+      "fr": "Imagine della Frode secondo Dante",
+      "ru": "Образ Обмана по Данте",
+      "en": "The image of Fraud according to Dante",
+      "img": [
+        "cartm102.jpg"
+      ],
+      "scans": [
+        "cartm102.jpg",
+        "cartm102_p428.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine della Fraude secondo Dante, qual dinota che li fraudolenti & ingannatori sotto il manto & volto de piaceuoli, modesti, & amoreuoli cercano di peruenire à loro rei disegni, essendo nell'intrinseco auuelenati d'ogni vitio, fraude, & inganno.",
+      "text_ru": [
+        "«Образ Обмана по Данте, означающий, что обманщики и лжецы под личиной и видом приятных, скромных и любезных стремятся достичь своих злых замыслов, будучи внутренне отравлены всяким пороком, обманом и ложью»."
+      ],
+      "text_en": [
+        "“The image of Fraud according to Dante, denoting that the deceitful and the cheats, under the cloak and face of the pleasant, modest, and amiable, seek to attain their wicked designs, being inwardly poisoned with every vice, fraud, and deceit.”"
+      ],
+      "name_fr": "L'image de la Fraude selon Dante",
+      "text_fr": [
+        "« L'image de la Fraude selon Dante, indiquant que les fraudeurs et les trompeurs, sous le manteau et le visage d'êtres agréables, modestes et aimables, cherchent à parvenir à leurs desseins coupables, étant intérieurement empoisonnés de tout vice, de fraude et de tromperie. »"
+      ]
+    },
+    {
+      "id": "cartm103",
+      "num": "121",
+      "page": "390",
+      "fr": "Geroglifico della buona Fortuna e dell'Occasione",
+      "ru": "Иероглиф доброй Фортуны и Случая",
+      "en": "The hieroglyph of good Fortune and of Occasion",
+      "img": [
+        "cartm103.jpg"
+      ],
+      "scans": [
+        "cartm103.jpg",
+        "cartm103_p430.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Hieroglifico denotante la buona Fortuna quasi sempre andare con l'Eloquenza, & con la Dottrina, & l'imagine dell'Occasione, & opportunità da Greci detta il Dio Chero qual chi non prende quando si appresenta in vano poi si cerca e si pentisce.",
+      "text_ru": [
+        "«Иероглиф, означающий, что добрая Фортуна почти всегда сопутствует Красноречию и Учёности; и образ Случая и благоприятной возможности, называемой греками богом Кайросом, которого кто не ловит, когда он является, тот напрасно потом ищет его и раскаивается»."
+      ],
+      "text_en": [
+        "“A hieroglyph denoting that good Fortune almost always goes together with Eloquence and Learning; and the image of Occasion, or opportunity, called by the Greeks the god Kairos, whom whoever does not seize when he appears, afterward seeks in vain and repents.”"
+      ],
+      "name_fr": "L'hiéroglyphe de la bonne Fortune et de l'Occasion",
+      "text_fr": [
+        "« Un hiéroglyphe indiquant que la bonne Fortune va presque toujours de pair avec l'Éloquence et la Doctrine ; et l'image de l'Occasion, ou opportunité, appelée par les Grecs le dieu Kairos, que celui qui ne saisit pas quand il se présente cherche ensuite en vain et regrette. »"
+      ]
+    },
+    {
+      "id": "cartm104",
+      "num": "122",
+      "page": "392",
+      "fr": "Imagine della Fortuna presso gli Sciti",
+      "ru": "Образ Фортуны у скифов",
+      "en": "The image of Fortune among the Scythians",
+      "img": [
+        "cartm104.jpg"
+      ],
+      "scans": [
+        "cartm104.jpg",
+        "cartm104_p432.jpg",
+        "cartm104_p433.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine della Fortuna appò gli Scithi significante la sua velocità & instabilità nelle cose mondane, & che bisogna secondare l'Occasione, perche velocemente se ne vola & in vano poi si segue, & in vano si pente delle occasioni perdute & tralasciate.",
+      "text_ru": [
+        "«Образ Фортуны у скифов, означающий её быстроту и непостоянство в делах мирских, и что надлежит следовать Случаю, ибо он быстро улетает, и напрасно потом за ним гонятся, и напрасно раскаиваются в упущенных и оставленных без внимания возможностях»."
+      ],
+      "text_en": [
+        "“The image of Fortune among the Scythians, signifying her speed and instability in worldly matters, and that one must heed Occasion, for it flies away swiftly, and is vainly pursued afterward, and one vainly repents of occasions lost and neglected.”"
+      ],
+      "name_fr": "L'image de la Fortune chez les Scythes",
+      "text_fr": [
+        "« L'image de la Fortune chez les Scythes, signifiant sa rapidité et son instabilité dans les choses du monde, et qu'il faut suivre l'Occasion, car elle s'envole rapidement, et on la poursuit ensuite en vain, et l'on regrette en vain les occasions perdues et négligées. »"
+      ]
+    },
+    {
+      "id": "cartm105",
+      "num": "123",
+      "page": "395",
+      "fr": "Imagine della Fortuna in Egira",
+      "ru": "Образ Фортуны в Эгире",
+      "en": "The image of Fortune at Aegira",
+      "img": [
+        "cartm105.jpg"
+      ],
+      "scans": [
+        "cartm105.jpg",
+        "cartm105_p435.jpg",
+        "cartm105_p436.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine della Fortuna in Egira, significante nell'Amore volersi buona fortuna, & ricchezze, altrimenti senza non si ottiene lo bramato desiderio. ma io credo, che sì in questa come in tutte le attioni bisogna hauer delle virtù, che quelle fanno la buona Fortuna, perche non ci è Fortuna alcuna, ma è nome imaginato.",
+      "text_ru": [
+        "«Образ Фортуны в Эгире, означающий, что в Любви требуется добрая удача и богатство, иначе без них не достигнуть желаемого. Но я полагаю, что как в этом, так и во всех прочих делах нужны добродетели, ибо именно они создают добрую Фортуну, поскольку никакой Фортуны вообще не существует, а это лишь воображаемое имя»."
+      ],
+      "text_en": [
+        "“The image of Fortune at Aegira, signifying that in Love one needs good fortune and riches, otherwise without them the desired wish is not attained. But I believe that, in this as in all actions, one needs virtues, for it is these that make good Fortune, since there is no Fortune at all, but it is an imagined name.”"
+      ],
+      "name_fr": "L'image de la Fortune à Égire",
+      "text_fr": [
+        "« L'image de la Fortune à Égire, signifiant qu'en Amour il faut bonne fortune et richesses, sans quoi le désir souhaité n'est pas obtenu. Mais je crois que, dans ceci comme dans toutes les actions, il faut avoir des vertus, car ce sont elles qui font la bonne Fortune, puisqu'il n'y a aucune Fortune, mais que c'est un nom imaginé. »"
+      ]
+    },
+    {
+      "id": "cartm106",
+      "num": "124",
+      "page": "398",
+      "fr": "Imagine della Fortuna a cavallo",
+      "ru": "Образ Фортуны верхом на коне",
+      "en": "The image of Fortune on horseback",
+      "img": [
+        "cartm106.jpg"
+      ],
+      "scans": [
+        "cartm106.jpg",
+        "cartm106_p438.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine della Fortuna à cauallo che velocemente corre, dal Fato & dal Destino seguitata, dinotante la velocità di quella, & doue questi sono, quella non hauer possa ò fermezza alcuna.",
+      "text_ru": [
+        "«Образ Фортуны верхом на коне, стремительно мчащейся, преследуемой Роком и Судьбой, означающий её быстроту, и что там, где они присутствуют, она не имеет никакой власти или постоянства»."
+      ],
+      "text_en": [
+        "“The image of Fortune on horseback, galloping swiftly, pursued by Fate and Destiny, denoting her speed, and that where these are present, she has no power or constancy whatsoever.”"
+      ],
+      "name_fr": "L'image de la Fortune à cheval",
+      "text_fr": [
+        "« L'image de la Fortune à cheval, galopant rapidement, poursuivie par le Destin et le Sort, indiquant sa rapidité, et que là où ceux-ci se trouvent, elle n'a aucun pouvoir ni constance. »"
+      ]
+    },
+    {
+      "id": "cartm107",
+      "num": "125",
+      "page": "400",
+      "fr": "Imagine del buon Evento e del Favore instabile",
+      "ru": "Образ доброго Случая и непостоянной Благосклонности",
+      "en": "The image of good Event and of unstable Favour",
+      "img": [
+        "cartm107.jpg"
+      ],
+      "scans": [
+        "cartm107.jpg",
+        "cartm107_p440.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine del buono Euento & felice successo, del Fauore instabile, lieue, & caduco, dell'Adulatione, & dell'Inuidia, che spingono, & accompagnano detto Fauore, & l'imagine della ruota volubile della Fortuna, sopra la quale il detto Fauore riposa i piedi e casca al suo girare, effetto che si vede per ordinario nelle Corti e nel Mondo.",
+      "text_ru": [
+        "«Образ доброго Случая и счастливого успеха, непостоянной, лёгкой и преходящей Благосклонности, Лести и Зависти, которые подталкивают и сопровождают названную Благосклонность, а также образ вращающегося колеса Фортуны, на котором названная Благосклонность стоит ногами и падает при его вращении — явление, обычно наблюдаемое при дворах и в мире»."
+      ],
+      "text_en": [
+        "“The image of good Event and happy success, of unstable, light, and fleeting Favour, of Flattery and of Envy, which push and accompany the said Favour, and the image of the turning wheel of Fortune, upon which the said Favour rests its feet and falls as it turns — an effect ordinarily seen at Courts and in the World.”"
+      ],
+      "name_fr": "L'image du bon Événement et de la Faveur instable",
+      "text_fr": [
+        "« L'image du bon Événement et du succès heureux, de la Faveur instable, légère et caduque, de l'Adulation et de l'Envie, qui poussent et accompagnent ladite Faveur, et l'image de la roue mobile de la Fortune, sur laquelle ladite Faveur pose les pieds et tombe lorsqu'elle tourne — effet ordinairement observé dans les Cours et dans le Monde. »"
       ]
     },
     {
       "id": "cartb19",
-      "num": "107",
+      "num": "126",
       "page": "402",
       "fr": "Macaria, ò Felicità",
       "ru": "Макария, или Счастье",
@@ -3144,7 +3638,7 @@
     },
     {
       "id": "cart13",
-      "num": "108",
+      "num": "127",
       "page": "408",
       "fr": "Cupido (Eroto & Anterote)",
       "ru": "Купидон (Эрот и Антерот)",
@@ -3171,26 +3665,104 @@
         "cart13_p451.jpg",
         "cart13_p452.jpg",
         "cart13_p453.jpg",
-        "cart13_p454.jpg",
-        "cart13_p455.jpg",
-        "cart13_p456.jpg",
-        "cart13_p457.jpg",
-        "cart13_p458.jpg",
-        "cart13_p459.jpg",
-        "cart13_p460.jpg",
-        "cart13_p461.jpg",
-        "cart13_p462.jpg",
-        "cart13_p463.jpg",
-        "cart13_p464.jpg",
-        "cart13_p465.jpg",
-        "cart13_p466.jpg",
-        "cart13_p467.jpg",
-        "cart13_p468.jpg"
+        "cart13_p454.jpg"
+      ]
+    },
+    {
+      "id": "cartm108",
+      "num": "128",
+      "page": "416",
+      "fr": "Trionfo d'Amore",
+      "ru": "Триумф Амура",
+      "en": "The Triumph of Love",
+      "img": [
+        "cartm108.jpg"
+      ],
+      "scans": [
+        "cartm108.jpg",
+        "cartm108_p456.jpg",
+        "cartm108_p457.jpg",
+        "cartm108_p458.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Trionfo d'Amore descritto da Filostrato, dal Petrarca, & da altri antichi & moderni, significante la forza d'Amore.",
+      "text_ru": [
+        "«Триумф Амура, описанный Филостратом, Петраркой и другими древними и новыми авторами, означающий силу Любви»."
+      ],
+      "text_en": [
+        "“The Triumph of Love, described by Philostratus, by Petrarch, and by other ancient and modern authors, signifying the power of Love.”"
+      ],
+      "name_fr": "Le Triomphe de l'Amour",
+      "text_fr": [
+        "« Le Triomphe de l'Amour, décrit par Philostrate, par Pétrarque, et par d'autres auteurs anciens et modernes, signifiant la force de l'Amour. »"
+      ]
+    },
+    {
+      "id": "cartm109",
+      "num": "129",
+      "page": "420",
+      "fr": "Imagini d'Amore e dei suoi effetti",
+      "ru": "Образы Амура и его воздействий",
+      "en": "The images of Love and its effects",
+      "img": [
+        "cartm109.jpg"
+      ],
+      "scans": [
+        "cartm109.jpg",
+        "cartm109_p460.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagini d'Amore significanti gli varij effetti & potenze d'Amore, qual ne cuori nobili & gentili facilmente hà luogo, & li duri & ostinati spezza & rompe. dinota ancora quanto facilmente ci lasciano adescare da gli effetti lascini, & libidinosi massime in giouentù.",
+      "text_ru": [
+        "«Образы Амура, означающие различные воздействия и власть Любви, которая легко находит себе место в благородных и учтивых сердцах, а жёсткие и упрямые — разбивает и сокрушает. Означают также, сколь легко мы позволяем прельстить себя сластолюбивыми и похотливыми побуждениями, особенно в юности»."
+      ],
+      "text_en": [
+        "“The images of Love signifying the various effects and powers of Love, which easily finds place in noble and gentle hearts, and breaks and shatters the hard and obstinate ones. It also denotes how easily we let ourselves be lured by wanton and lustful effects, especially in youth.”"
+      ],
+      "name_fr": "Les images de l'Amour et de ses effets",
+      "text_fr": [
+        "« Les images de l'Amour signifiant les divers effets et pouvoirs de l'Amour, qui trouve aisément place dans les cœurs nobles et doux, et brise et rompt les cœurs durs et obstinés. Elles indiquent aussi combien facilement nous nous laissons séduire par des effets lascifs et libidineux, surtout dans la jeunesse. »"
+      ]
+    },
+    {
+      "id": "cartm110",
+      "num": "130",
+      "page": "422",
+      "fr": "Imagine di Pane e Cupido",
+      "ru": "Образ Пана и Амура",
+      "en": "The image of Pan and Cupid",
+      "img": [
+        "cartm110.jpg"
+      ],
+      "scans": [
+        "cartm110.jpg",
+        "cartm110_p462.jpg",
+        "cartm110_p463.jpg",
+        "cartm110_p464.jpg",
+        "cartm110_p465.jpg",
+        "cartm110_p466.jpg",
+        "cartm110_p467.jpg",
+        "cartm110_p468.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine di Pane, & Cupido, l'vno vinto, l'altro vincitore, per mostrare il potere d'Amore sopra la Natura vniuersale, che inuaghita del diletto delle operationi sue, non pensa ad altro, che à farle belle, & adorne.",
+      "text_ru": [
+        "«Образ Пана и Амура, один побеждён, другой — победитель, дабы показать власть Любви над всеобщей Природой, которая, увлечённая наслаждением от своих деяний, ни о чём ином не помышляет, как только о том, чтобы сделать их прекрасными и украшенными»."
+      ],
+      "text_en": [
+        "“The image of Pan and Cupid, the one defeated, the other victorious, to show the power of Love over universal Nature, which, enamoured of the delight of its own workings, thinks of nothing else but to make them beautiful and adorned.”"
+      ],
+      "name_fr": "L'image de Pan et de Cupidon",
+      "text_fr": [
+        "« L'image de Pan et de Cupidon, l'un vaincu, l'autre vainqueur, pour montrer le pouvoir de l'Amour sur la Nature universelle, qui, éprise du plaisir de ses propres œuvres, ne pense à rien d'autre qu'à les rendre belles et parées. »"
       ]
     },
     {
       "id": "cart14",
-      "num": "109",
+      "num": "131",
       "page": "430",
       "fr": "Venere",
       "ru": "Венера",
@@ -3211,33 +3783,189 @@
       ],
       "scans": [
         "cart14.jpg",
-        "cart14_p470.jpg",
-        "cart14_p471.jpg",
-        "cart14_p472.jpg",
-        "cart14_p473.jpg",
-        "cart14_p474.jpg",
-        "cart14_p475.jpg",
-        "cart14_p476.jpg",
-        "cart14_p477.jpg",
-        "cart14_p478.jpg",
-        "cart14_p479.jpg",
-        "cart14_p480.jpg",
-        "cart14_p481.jpg",
-        "cart14_p482.jpg",
-        "cart14_p483.jpg",
-        "cart14_p484.jpg",
-        "cart14_p485.jpg",
-        "cart14_p486.jpg",
-        "cart14_p487.jpg",
-        "cart14_p488.jpg",
-        "cart14_p489.jpg",
-        "cart14_p490.jpg",
-        "cart14_p491.jpg"
+        "cart14_p470.jpg"
+      ]
+    },
+    {
+      "id": "cartm111",
+      "num": "132",
+      "page": "432",
+      "fr": "Tempio di Venere in Pafo",
+      "ru": "Храм Венеры в Пафосе",
+      "en": "The Temple of Venus at Paphos",
+      "img": [
+        "cartm111.jpg"
+      ],
+      "scans": [
+        "cartm111.jpg",
+        "cartm111_p472.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Tempio di Venere in Pafo Città di Cipro con gieroglifico lei & sua natura dimostrante. Carro di Venere tirato da Cigni & da Colombe à lei sacrate, con la sua imagine sopra detto carro nuda con le tre Gratie seco, come li Sassoni la dipingeano, con tre pomi d'oro in vna mano, & vna palla nell'altra, & dimostra l'horo farci via alla lasciuia, & dinota il tutto il natural desiderio carnale per generare.",
+      "text_ru": [
+        "«Храм Венеры в Пафосе, городе Кипра, с иероглифом, являющим её и её природу. Колесница Венеры, влекомая Лебедями и Голубями, ей посвящёнными, с её образом над названной колесницей, нагой, вместе с тремя Грациями, как её изображали саксонцы, с тремя золотыми яблоками в одной руке и шаром в другой; и это показывает, что час (время) прокладывает путь сладострастию, и означает в целом естественное плотское желание к порождению»."
+      ],
+      "text_en": [
+        "“The Temple of Venus at Paphos, a city of Cyprus, with a hieroglyph demonstrating her and her nature. The Chariot of Venus, drawn by Swans and Doves sacred to her, with her image above the said chariot, nude, with the three Graces beside her, as the Saxons depicted her, with three golden apples in one hand and a ball in the other; and this shows that the hour makes way for wantonness, and denotes altogether the natural carnal desire for generation.”"
+      ],
+      "name_fr": "Le Temple de Vénus à Paphos",
+      "text_fr": [
+        "« Le Temple de Vénus à Paphos, ville de Chypre, avec un hiéroglyphe montrant la déesse et sa nature. Le Char de Vénus, tiré par des Cygnes et des Colombes qui lui sont sacrés, avec son image au-dessus dudit char, nue, accompagnée des trois Grâces, telle que la représentaient les Saxons, avec trois pommes d'or dans une main et une boule dans l'autre ; ce qui montre que l'heure fraie le chemin à la volupté, et indique en somme le désir charnel naturel de procréer. »"
+      ]
+    },
+    {
+      "id": "cartm112",
+      "num": "133",
+      "page": "434",
+      "fr": "Imagine di Venere tirata in carro dai Cigni",
+      "ru": "Образ Венеры на колеснице, влекомой лебедями",
+      "en": "The image of Venus drawn in a chariot by Swans",
+      "img": [
+        "cartm112.jpg"
+      ],
+      "scans": [
+        "cartm112.jpg",
+        "cartm112_p474.jpg",
+        "cartm112_p475.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine di Venere tirata in carro da Cigni, retti da gl'Amorini; per mostrare, che il canto, & la placidità della natura hanno molto confacimento co' piaceri d'Amore.",
+      "text_ru": [
+        "«Образ Венеры, влекомой в колеснице Лебедями, которыми правят Амуры; дабы показать, что пение и безмятежность природы весьма сродни наслаждениям Любви»."
+      ],
+      "text_en": [
+        "“The image of Venus drawn in a chariot by Swans, guided by little Cupids, to show that song and the placidity of nature are much akin to the pleasures of Love.”"
+      ],
+      "name_fr": "L'image de Vénus tirée par des Cygnes sur son char",
+      "text_fr": [
+        "« L'image de Vénus tirée sur un char par des Cygnes, conduits par des Amours, pour montrer que le chant et la placidité de la nature ont beaucoup d'affinité avec les plaisirs de l'Amour. »"
+      ]
+    },
+    {
+      "id": "cartm113",
+      "num": "134",
+      "page": "437",
+      "fr": "Imagine di Venere con gli Amorini e le Grazie",
+      "ru": "Образ Венеры с Амурами и Грациями",
+      "en": "The image of Venus with Cupids and the Graces",
+      "img": [
+        "cartm113.jpg"
+      ],
+      "scans": [
+        "cartm113.jpg",
+        "cartm113_p477.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine di Venere Dea de piaceri, madre d'Amore, accompagnata da gl'Amorini, dalle Hore, & dalle tre gratie significanti le delitie amorose; & il buono augurio, che faceuano gl'antichi con tal imagini alle nouelle spose, di concorde matrimonio, & di ardente amore.",
+      "text_ru": [
+        "«Образ Венеры, богини наслаждений, матери Амура, сопровождаемой Амурами, Горами и тремя Грациями, означающими любовные наслаждения; а также доброе предзнаменование, которое древние даровали такими образами новобрачным — согласного брака и пламенной любви»."
+      ],
+      "text_en": [
+        "“The image of Venus, goddess of pleasures, mother of Love, accompanied by little Cupids, by the Hours, and by the three Graces, signifying amorous delights; and the good omen that the ancients gave with such images to newly-wed brides, of harmonious marriage and ardent love.”"
+      ],
+      "name_fr": "L'image de Vénus avec les Amours et les Grâces",
+      "text_fr": [
+        "« L'image de Vénus, déesse des plaisirs, mère de l'Amour, accompagnée des Amours, des Heures, et des trois Grâces, signifiant les délices amoureuses ; et le bon présage que les anciens donnaient par de telles images aux nouvelles épouses, d'un mariage harmonieux et d'un amour ardent. »"
+      ]
+    },
+    {
+      "id": "cartm114",
+      "num": "135",
+      "page": "439",
+      "fr": "Imagini di Venere, Cupido, del Giogo e del Capro",
+      "ru": "Образы Венеры, Купидона, Ярма и Козла",
+      "en": "The images of Venus, Cupid, the Yoke and the He-goat",
+      "img": [
+        "cartm114.jpg"
+      ],
+      "scans": [
+        "cartm114.jpg",
+        "cartm114_p479.jpg",
+        "cartm114_p480.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagini di Venere, di Cupido, del Giogo, & del Capro, quali significano la generatione, & l'imagine della Testudine hieroglifico, che dinota il pericolo delle Donne maritate, e parturienti, & qual deue essere il loro vfficio nella cura familiare & alleuar figliuoli, & il silentio esser necessario alle donne sopra ogni virtù.",
+      "text_ru": [
+        "«Образы Венеры, Купидона, Ярма и Козла, означающие порождение, а также образ Черепахи — иероглиф, означающий опасность, [грозящую] замужним и рожающим женщинам, и то, каковы должны быть их обязанности в заботе о семье и воспитании детей; и что молчание необходимо женщинам превыше всякой добродетели»."
+      ],
+      "text_en": [
+        "“The images of Venus, of Cupid, of the Yoke, and of the He-goat, which signify generation, and the image of the Tortoise, a hieroglyph denoting the danger of married and childbearing Women, and what their duty ought to be in the care of the household and the raising of children, and that silence is necessary for women above every other virtue.”"
+      ],
+      "name_fr": "Les images de Vénus, Cupidon, le Joug et le Bouc",
+      "text_fr": [
+        "« Les images de Vénus, de Cupidon, du Joug, et du Bouc, qui signifient la génération, et l'image de la Tortue, hiéroglyphe indiquant le danger des Femmes mariées et parturientes, et quel doit être leur office dans le soin du foyer et l'éducation des enfants, et que le silence est nécessaire aux femmes par-dessus toute autre vertu. »"
+      ]
+    },
+    {
+      "id": "cartm115",
+      "num": "136",
+      "page": "442",
+      "fr": "Imagine di Venere armata, vittrice e in catene",
+      "ru": "Образ вооружённой, победоносной и закованной Венеры",
+      "en": "The image of Venus armed, victorious, and in chains",
+      "img": [
+        "cartm115.jpg"
+      ],
+      "scans": [
+        "cartm115.jpg",
+        "cartm115_p482.jpg",
+        "cartm115_p483.jpg",
+        "cartm115_p484.jpg",
+        "cartm115_p485.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine di Venere armata, di Venere vitrice, & di Venere in ceppi dinotante la fermezza, che deue essere nelli maritati & amanti, dinota ancora questa imagine il valore delle Donne Lacedemonie contro i Messenij, che andauano à saccheggiar la loro Città, da esse valorosamente difesa.",
+      "text_ru": [
+        "«Образ вооружённой Венеры, Венеры-победительницы и Венеры в оковах, означающий твёрдость, которая должна быть у супругов и влюблённых; означает также этот образ доблесть лакедемонских женщин против мессенцев, которые шли разграбить их город, но были доблестно отражены ими»."
+      ],
+      "text_en": [
+        "“The image of Venus armed, of Venus victorious, and of Venus in chains, denoting the firmness that ought to be in husbands and lovers; this image also denotes the valour of the Lacedaemonian Women against the Messenians, who went to sack their City, which was valiantly defended by them.”"
+      ],
+      "name_fr": "L'image de Vénus armée, victorieuse et enchaînée",
+      "text_fr": [
+        "« L'image de Vénus armée, de Vénus victorieuse, et de Vénus enchaînée, indiquant la fermeté qui doit être celle des époux et des amants ; cette image indique aussi la valeur des Femmes lacédémoniennes contre les Messéniens, qui allaient saccager leur Ville, vaillamment défendue par elles. »"
+      ]
+    },
+    {
+      "id": "cartm116",
+      "num": "137",
+      "page": "447",
+      "fr": "Imagine di Venere maschio e femmina",
+      "ru": "Образ Венеры мужской и женской",
+      "en": "The image of Venus, male and female",
+      "img": [
+        "cartm116.jpg"
+      ],
+      "scans": [
+        "cartm116.jpg",
+        "cartm116_p487.jpg",
+        "cartm116_p488.jpg",
+        "cartm116_p489.jpg",
+        "cartm116_p490.jpg",
+        "cartm116_p491.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine di Venere maschio e femina, significante questa esser sopra l'vniuersal generatione delle cose, essendo tolta per l'aria; & nelli Dei non esser differenza di esso, come ne mortali, & imagine di Venere addolorata per la morte d'Adone morto dal Cinghiale, inteso per la stagione hiemale & fredda.",
+      "text_ru": [
+        "«Образ Венеры мужской и женской, означающий, что она властвует над всеобщим порождением вещей, будучи отождествляема с воздухом; и что у богов в этом нет различия [пола], как у смертных; а также образ Венеры, скорбящей о смерти Адониса, убитого Вепрем, что понимается как зимнее, холодное время года»."
+      ],
+      "text_en": [
+        "“The image of Venus, male and female, signifying that she presides over the universal generation of things, being identified with the air; and that among the Gods there is no difference in this, as there is among mortals; and the image of Venus grieving over the death of Adonis, slain by the Boar, understood as the cold winter season.”"
+      ],
+      "name_fr": "L'image de Vénus, mâle et femelle",
+      "text_fr": [
+        "« L'image de Vénus, mâle et femelle, signifiant qu'elle préside à la génération universelle des choses, étant assimilée à l'air ; et que chez les Dieux il n'y a pas de différence en cela, comme chez les mortels ; et l'image de Vénus affligée par la mort d'Adonis, tué par le Sanglier, entendue comme la froide saison hivernale. »"
       ]
     },
     {
       "id": "cartb23",
-      "num": "110",
+      "num": "138",
       "page": "453",
       "fr": "Le Hore",
       "ru": "Горы (Часы года)",
@@ -3263,7 +3991,7 @@
     },
     {
       "id": "cart15",
-      "num": "111",
+      "num": "139",
       "page": "455",
       "fr": "Le Gratie",
       "ru": "Грации",
@@ -3284,20 +4012,46 @@
       ],
       "scans": [
         "cart15.jpg",
-        "cart15_p495.jpg",
-        "cart15_p496.jpg",
-        "cart15_p497.jpg",
-        "cart15_p498.jpg",
-        "cart15_p499.jpg",
-        "cart15_p500.jpg",
-        "cart15_p501.jpg",
-        "cart15_p502.jpg",
-        "cart15_p503.jpg"
+        "cart15_p495.jpg"
+      ]
+    },
+    {
+      "id": "cartm117",
+      "num": "140",
+      "page": "457",
+      "fr": "Imagine delle Grazie guidate da Mercurio",
+      "ru": "Образ Граций, ведомых Меркурием",
+      "en": "The image of the Graces guided by Mercury",
+      "img": [
+        "cartm117.jpg"
+      ],
+      "scans": [
+        "cartm117.jpg",
+        "cartm117_p497.jpg",
+        "cartm117_p498.jpg",
+        "cartm117_p499.jpg",
+        "cartm117_p500.jpg",
+        "cartm117_p501.jpg",
+        "cartm117_p502.jpg",
+        "cartm117_p503.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine delle Gratie guidate da Mercurio, dinotante, che il giouare & la benificenza deue esser fatta con ragione, à tempo, & à meriteuoli, senza speranza di premio, con animo sincero, & che il beneficiato deue con occasione render il beneficio & se non in fatti almen con le parole.",
+      "text_ru": [
+        "«Образ Граций, ведомых Меркурием, означающий, что благодеяние и милость должны оказываться разумно, своевременно и достойным, без надежды на награду, с искренним расположением; и что облагодетельствованный должен при случае отплатить за благодеяние, если не делом, то хотя бы словом»."
+      ],
+      "text_en": [
+        "“The image of the Graces guided by Mercury, denoting that helping and benefaction must be done with reason, at the right time, and to the deserving, without hope of reward, with a sincere heart, and that the one who has been benefited must, when occasion arises, return the favour, if not in deed then at least in word.”"
+      ],
+      "name_fr": "L'image des Grâces guidées par Mercure",
+      "text_fr": [
+        "« L'image des Grâces guidées par Mercure, indiquant que l'assistance et la bienfaisance doivent être accomplies avec raison, en temps voulu, et envers ceux qui le méritent, sans espoir de récompense, avec un cœur sincère, et que celui qui a été favorisé doit, à l'occasion, rendre le bienfait, sinon en actes, du moins en paroles. »"
       ]
     },
     {
       "id": "carta1",
-      "num": "112",
+      "num": "141",
       "page": "465",
       "fr": "Il Fato sotto tre Imagini di Donna",
       "ru": "Судьба под образом трёх Женщин (Парки)",
@@ -3327,7 +4081,7 @@
     },
     {
       "id": "carta2",
-      "num": "113",
+      "num": "142",
       "page": "467",
       "fr": "Esculapio",
       "ru": "Эскулап",
@@ -3356,7 +4110,7 @@
     },
     {
       "id": "cartf1",
-      "num": "114",
+      "num": "143",
       "page": "468",
       "fr": "Lucifero, compagno dell'Aurora",
       "ru": "Люцифер, спутник Авроры",
@@ -3383,7 +4137,7 @@
     },
     {
       "id": "cartf2",
-      "num": "115",
+      "num": "144",
       "page": "469",
       "fr": "Febo (il Sole) sul carro",
       "ru": "Феб (Солнце) на колеснице",
@@ -3410,7 +4164,7 @@
     },
     {
       "id": "cartf3",
-      "num": "116",
+      "num": "145",
       "page": "470",
       "fr": "Giunone nel Cameo",
       "ru": "Юнона на камее",
@@ -3438,7 +4192,7 @@
     },
     {
       "id": "carta3",
-      "num": "117",
+      "num": "146",
       "page": "472",
       "fr": "Iside in un Cameo",
       "ru": "Изида на камее",
@@ -3466,7 +4220,7 @@
     },
     {
       "id": "carta4",
-      "num": "118",
+      "num": "147",
       "page": "474",
       "fr": "Satiri in lotta",
       "ru": "Борющиеся сатиры",
@@ -3493,7 +4247,7 @@
     },
     {
       "id": "cartf4",
-      "num": "119",
+      "num": "148",
       "page": "475",
       "fr": "L'Honore, maschio e femina",
       "ru": "Честь — в мужском и женском облике",
@@ -3521,7 +4275,7 @@
     },
     {
       "id": "carta5",
-      "num": "120",
+      "num": "149",
       "page": "477",
       "fr": "Pallade",
       "ru": "Паллада",
@@ -3548,7 +4302,7 @@
     },
     {
       "id": "carta6",
-      "num": "121",
+      "num": "150",
       "page": "478",
       "fr": "La violenza d'Aiace Oileo",
       "ru": "Неистовство Аякса Оилеева",
@@ -3577,7 +4331,7 @@
     },
     {
       "id": "carta28",
-      "num": "122",
+      "num": "151",
       "page": "481",
       "fr": "L'Imagine della Libertà",
       "ru": "Образ Свободы",
@@ -3604,7 +4358,7 @@
     },
     {
       "id": "carta29",
-      "num": "123",
+      "num": "152",
       "page": "482",
       "fr": "Il berretto degli schiavi (nota a Gellio, continua carta28)",
       "ru": "Шапка раба (заметка к Геллию, продолжение carta28)",
@@ -3627,14 +4381,13 @@
       ],
       "scans": [
         "carta28.jpg",
-        "carta29_p521.jpg",
         "carta29_p522.jpg"
       ],
       "textOnly": true
     },
     {
       "id": "carta7",
-      "num": "124",
+      "num": "153",
       "page": "484",
       "fr": "Cerere (la Madre Idea)",
       "ru": "Церера (Великая Мать)",
@@ -3666,7 +4419,7 @@
     },
     {
       "id": "carta8",
-      "num": "125",
+      "num": "154",
       "page": "490",
       "fr": "Palemone e il delfino",
       "ru": "Палемон и дельфин",
@@ -3694,7 +4447,7 @@
     },
     {
       "id": "carta30",
-      "num": "126",
+      "num": "155",
       "page": "492",
       "fr": "Dagon",
       "ru": "Дагон",
@@ -3722,7 +4475,7 @@
     },
     {
       "id": "carta9",
-      "num": "127",
+      "num": "156",
       "page": "494",
       "fr": "Le tre Parche",
       "ru": "Три Парки",
@@ -3752,7 +4505,7 @@
     },
     {
       "id": "carta31",
-      "num": "128",
+      "num": "157",
       "page": "496",
       "fr": "Mercurio e Pegaso",
       "ru": "Меркурий и Пегас",
@@ -3780,7 +4533,7 @@
     },
     {
       "id": "carta10",
-      "num": "129",
+      "num": "158",
       "page": "498",
       "fr": "Termine (il dio Termine)",
       "ru": "Терм (бог границ)",
@@ -3807,7 +4560,7 @@
     },
     {
       "id": "carta11",
-      "num": "130",
+      "num": "159",
       "page": "499",
       "fr": "Hercole in abito di Mercurio",
       "ru": "Геркулес в облике Меркурия",
@@ -3836,7 +4589,7 @@
     },
     {
       "id": "carta32",
-      "num": "131",
+      "num": "160",
       "page": "502",
       "fr": "Due fatiche di Hercole",
       "ru": "Два подвига Геркулеса",
@@ -3863,7 +4616,7 @@
     },
     {
       "id": "carta33",
-      "num": "132",
+      "num": "161",
       "page": "503",
       "fr": "Semo Sanco",
       "ru": "Семон Санк",
@@ -3891,7 +4644,7 @@
     },
     {
       "id": "carta13",
-      "num": "133",
+      "num": "162",
       "page": "505",
       "fr": "Hermathena (Minerva e Mercurio)",
       "ru": "Гермафена (Минерва и Меркурий)",
@@ -3922,7 +4675,7 @@
     },
     {
       "id": "carta12",
-      "num": "134",
+      "num": "163",
       "page": "506",
       "fr": "Minerva con l'egida di Gorgone",
       "ru": "Минерва с эгидой Горгоны",
@@ -3950,7 +4703,7 @@
     },
     {
       "id": "carta34",
-      "num": "135",
+      "num": "164",
       "page": "506",
       "fr": "Ercole e Mercurio insieme (Hermeracle)",
       "ru": "Геркулес и Меркурий вместе (Гермеракл)",
@@ -3972,14 +4725,13 @@
         "(cette planche reprend la même page que carta12/carta13 ; le texte complet du long discours de Pignoria sur Hermeracles, Minerve armée et l'Égide figure à carta13)"
       ],
       "scans": [
-        "carta34.jpg",
-        "carta34_p546.jpg"
+        "carta34.jpg"
       ],
       "textOnly": true
     },
     {
       "id": "carta35",
-      "num": "136",
+      "num": "165",
       "page": "508",
       "fr": "Minerva e la nave Argo",
       "ru": "Минерва и корабль Арго",
@@ -4007,7 +4759,7 @@
     },
     {
       "id": "carta36",
-      "num": "137",
+      "num": "166",
       "page": "510",
       "fr": "Marte Graditivo e Marte vincitore",
       "ru": "Марс Градив и Марс-победитель",
@@ -4035,7 +4787,7 @@
     },
     {
       "id": "carta37",
-      "num": "138",
+      "num": "167",
       "page": "512",
       "fr": "Le insegne militari romane",
       "ru": "Римские военные знамёна",
@@ -4062,7 +4814,7 @@
     },
     {
       "id": "carta14",
-      "num": "139",
+      "num": "168",
       "page": "513",
       "fr": "Corteo bacchico",
       "ru": "Вакхическое шествие",
@@ -4089,7 +4841,7 @@
     },
     {
       "id": "carta15",
-      "num": "140",
+      "num": "169",
       "page": "514",
       "fr": "Pompa bacchica tratta da un diaspro (Bagarris)",
       "ru": "Вакхическое шествие с яшмы Баггариса",
@@ -4117,7 +4869,7 @@
     },
     {
       "id": "carta38",
-      "num": "141",
+      "num": "170",
       "page": "516",
       "fr": "Il Genio del popolo Romano",
       "ru": "Гений римского народа",
@@ -4144,7 +4896,7 @@
     },
     {
       "id": "carta16",
-      "num": "142",
+      "num": "171",
       "page": "517",
       "fr": "La Patera e il Corno del Genio",
       "ru": "Патера и рог Гения",
@@ -4171,7 +4923,7 @@
     },
     {
       "id": "carta17",
-      "num": "143",
+      "num": "172",
       "page": "518",
       "fr": "Il Genio di Antiochia",
       "ru": "Гений Антиохии",
@@ -4198,7 +4950,7 @@
     },
     {
       "id": "carta39",
-      "num": "144",
+      "num": "173",
       "page": "519",
       "fr": "Apollo citaredo (Apolloni Sancto)",
       "ru": "Аполлон-кифаред («Святому Аполлону»)",
@@ -4225,7 +4977,7 @@
     },
     {
       "id": "carta18",
-      "num": "145",
+      "num": "174",
       "page": "520",
       "fr": "Genio e Fortuna",
       "ru": "Гений и Фортуна",
@@ -4255,7 +5007,7 @@
     },
     {
       "id": "carta19",
-      "num": "146",
+      "num": "175",
       "page": "524",
       "fr": "La Fortuna sulle ali di un Cigno",
       "ru": "Фортуна на крыльях Лебедя",
@@ -4282,7 +5034,7 @@
     },
     {
       "id": "carta40",
-      "num": "147",
+      "num": "176",
       "page": "525",
       "fr": "Eroto e Anterote (il carro della Madre)",
       "ru": "Эрот и Антэрот (колесница Матери)",
@@ -4309,7 +5061,7 @@
     },
     {
       "id": "carta20",
-      "num": "148",
+      "num": "177",
       "page": "526",
       "fr": "I due Amori e la capra (pensiero d'Ausonio)",
       "ru": "Два Амура и коза (мысль Авзония)",
@@ -4336,7 +5088,7 @@
     },
     {
       "id": "carta41",
-      "num": "149",
+      "num": "178",
       "page": "527",
       "fr": "Il tempio di Venere a Pafo",
       "ru": "Храм Венеры в Пафосе",
@@ -4363,7 +5115,7 @@
     },
     {
       "id": "carta21",
-      "num": "150",
+      "num": "179",
       "page": "528",
       "fr": "Figura fuori ordine (tra il 52 e il 53)",
       "ru": "Фигура не по порядку (между 52-м и 53-м)",
@@ -4391,7 +5143,7 @@
     },
     {
       "id": "carta22",
-      "num": "151",
+      "num": "180",
       "page": "530",
       "fr": "Giano giovane",
       "ru": "Молодой Янус",
@@ -4419,7 +5171,7 @@
     },
     {
       "id": "carta23",
-      "num": "152",
+      "num": "181",
       "page": "532",
       "fr": "Il vaso di Giustitia",
       "ru": "Ваза с образом Справедливости",
@@ -4447,7 +5199,7 @@
     },
     {
       "id": "carta24",
-      "num": "153",
+      "num": "182",
       "page": "534",
       "fr": "Statua col sacerdote e le sue insegne",
       "ru": "Статуя священника с его регалиями",
@@ -4474,7 +5226,7 @@
     },
     {
       "id": "carta42",
-      "num": "154",
+      "num": "183",
       "page": "535",
       "fr": "Vaso antico con rilievi",
       "ru": "Античная ваза с рельефом",
@@ -4502,7 +5254,7 @@
     },
     {
       "id": "carta43",
-      "num": "155",
+      "num": "184",
       "page": "537",
       "fr": "Figura femminile armata",
       "ru": "Вооружённая женская фигура",
@@ -4530,7 +5282,7 @@
     },
     {
       "id": "carta25",
-      "num": "156",
+      "num": "185",
       "page": "539",
       "fr": "La prima Mano Pantea",
       "ru": "Первая Пантеистическая Рука",
@@ -4557,7 +5309,7 @@
     },
     {
       "id": "carta44",
-      "num": "157",
+      "num": "186",
       "page": "540",
       "fr": "La mano simbolica con la lira (quarta Mano Pantea)",
       "ru": "Символическая рука с лирой (четвёртая Пантеистическая рука)",
@@ -4585,7 +5337,7 @@
     },
     {
       "id": "carta26",
-      "num": "158",
+      "num": "187",
       "page": "541",
       "fr": "La seconda Mano Pantea",
       "ru": "Вторая Пантеистическая Рука",
@@ -4612,7 +5364,7 @@
     },
     {
       "id": "carta45",
-      "num": "159",
+      "num": "188",
       "page": "542",
       "fr": "Figura giovanile con bastone (TYXAINI)",
       "ru": "Юношеская фигура с посохом (надпись TYXAINI)",
@@ -4639,7 +5391,7 @@
     },
     {
       "id": "carta27",
-      "num": "160",
+      "num": "189",
       "page": "543",
       "fr": "La terza Mano Pantea",
       "ru": "Третья Пантеистическая Рука",
@@ -4674,7 +5426,7 @@
     },
     {
       "id": "carti1",
-      "num": "161",
+      "num": "190",
       "page": "552",
       "fr": "Homoyoca",
       "ru": "Омойока",
@@ -4702,7 +5454,7 @@
     },
     {
       "id": "carti2",
-      "num": "162",
+      "num": "191",
       "page": "554",
       "fr": "Idolo messicano con offerenti",
       "ru": "Мексиканский идол с дарителями",
@@ -4729,7 +5481,7 @@
     },
     {
       "id": "carti3",
-      "num": "163",
+      "num": "192",
       "page": "555",
       "fr": "Miquitlantecatle e gli dei infernali",
       "ru": "Миктлантекутли и подземные боги",
@@ -4757,7 +5509,7 @@
     },
     {
       "id": "carti4",
-      "num": "164",
+      "num": "193",
       "page": "557",
       "fr": "Vitzliputzli (coppia di divinita)",
       "ru": "Вицлипуцли и спутник",
@@ -4784,7 +5536,7 @@
     },
     {
       "id": "carti5",
-      "num": "165",
+      "num": "194",
       "page": "558",
       "fr": "L'Ambasciatore alato",
       "ru": "Крылатый дух",
@@ -4813,7 +5565,7 @@
     },
     {
       "id": "carti6",
-      "num": "166",
+      "num": "195",
       "page": "561",
       "fr": "Quetzalcoatl",
       "ru": "Кецалькоатль",
@@ -4847,7 +5599,7 @@
     },
     {
       "id": "carti7",
-      "num": "167",
+      "num": "196",
       "page": "569",
       "fr": "Divinita composite \"egizie\" (introduzione al Giapone)",
       "ru": "«Египетские» божества-кентавры (вступление к Японии)",
@@ -4874,7 +5626,7 @@
     },
     {
       "id": "carti8",
-      "num": "168",
+      "num": "197",
       "page": "570",
       "fr": "Canone, figlio di Amida",
       "ru": "Каннон, сын Амиды",
@@ -4901,7 +5653,7 @@
     },
     {
       "id": "carti9",
-      "num": "169",
+      "num": "198",
       "page": "571",
       "fr": "Un'altra statua di Amida presso Meaco",
       "ru": "Ещё одна статуя Амиды близ Меако",
@@ -4928,7 +5680,7 @@
     },
     {
       "id": "carti10",
-      "num": "170",
+      "num": "199",
       "page": "572",
       "fr": "Il dio-lucertola delle lettere",
       "ru": "Бог-ящерица, покровитель учёности",
@@ -4955,7 +5707,7 @@
     },
     {
       "id": "carti11",
-      "num": "171",
+      "num": "200",
       "page": "573",
       "fr": "Una pagoda giapponese",
       "ru": "Японская пагода",
@@ -4983,7 +5735,7 @@
     },
     {
       "id": "carti12",
-      "num": "172",
+      "num": "201",
       "page": "574",
       "fr": "Un castello-tempio giapponese",
       "ru": "Японский замок-храм",
@@ -5010,7 +5762,7 @@
     },
     {
       "id": "carti13",
-      "num": "173",
+      "num": "202",
       "page": "575",
       "fr": "Il grande Idolo giapponese",
       "ru": "Великий японский идол",
@@ -5037,7 +5789,7 @@
     },
     {
       "id": "carti14",
-      "num": "174",
+      "num": "203",
       "page": "576",
       "fr": "Il secondo idoletto d'Aleandro",
       "ru": "Второй идольчик из собрания Алеандро",
@@ -5064,7 +5816,7 @@
     },
     {
       "id": "carti15",
-      "num": "175",
+      "num": "204",
       "page": "577",
       "fr": "Un idolo calvo dal volto ridente (primo idoletto)",
       "ru": "Лысый смеющийся идол (первый идольчик)",
@@ -5091,7 +5843,7 @@
     },
     {
       "id": "carti16",
-      "num": "176",
+      "num": "205",
       "page": "578",
       "fr": "Uno spirito guerriero (secondo idoletto)",
       "ru": "Воинственный дух (второй идольчик)",
@@ -5118,7 +5870,7 @@
     },
     {
       "id": "carti17",
-      "num": "177",
+      "num": "206",
       "page": "579",
       "fr": "Coppia di figure (terzo e quarto idoletto)",
       "ru": "Пара фигур (третий и четвёртый идольчики)",
@@ -5145,7 +5897,7 @@
     },
     {
       "id": "carti18",
-      "num": "178",
+      "num": "207",
       "page": "580",
       "fr": "L'idolo piangente (quinto idoletto)",
       "ru": "Плачущий идол (пятый идольчик)",
@@ -5172,7 +5924,7 @@
     },
     {
       "id": "carti19",
-      "num": "179",
+      "num": "208",
       "page": "581",
       "fr": "Coppia di divinita dalla pelle azzurra (sesto e settimo idoletto)",
       "ru": "Синекожая пара божеств (шестой и седьмой идольчики)",
@@ -5199,7 +5951,7 @@
     },
     {
       "id": "carti20",
-      "num": "180",
+      "num": "209",
       "page": "582",
       "fr": "Divinita a sei braccia (ottavo idoletto)",
       "ru": "Шестирукое божество с луком (восьмой идольчик)",
@@ -5226,7 +5978,7 @@
     },
     {
       "id": "carti21",
-      "num": "181",
+      "num": "210",
       "page": "583",
       "fr": "Figura aureolata dall'aspetto di santo",
       "ru": "Святоподобная фигура с нимбом",
@@ -5253,7 +6005,7 @@
     },
     {
       "id": "carti22",
-      "num": "182",
+      "num": "211",
       "page": "584",
       "fr": "Una dea con un bambino",
       "ru": "Богиня с младенцем на руках",
@@ -5280,7 +6032,7 @@
     },
     {
       "id": "carti23",
-      "num": "183",
+      "num": "212",
       "page": "585",
       "fr": "Un idolo azzurro in un'aureola di fiamme",
       "ru": "Синекожий идол в пламенном нимбе",
@@ -5307,7 +6059,7 @@
     },
     {
       "id": "carti24",
-      "num": "184",
+      "num": "213",
       "page": "586",
       "fr": "Un idolo rosso seduto su una bestia",
       "ru": "Красный идол, сидящий на звере",
@@ -5334,7 +6086,7 @@
     },
     {
       "id": "carti25",
-      "num": "185",
+      "num": "214",
       "page": "587",
       "fr": "Un guerriero su una nuvola",
       "ru": "Воин на облаке с пламенным нимбом",
@@ -5361,7 +6113,7 @@
     },
     {
       "id": "carti26",
-      "num": "186",
+      "num": "215",
       "page": "588",
       "fr": "Spirito alato su un corpo abbattuto",
       "ru": "Крылатый дух, попирающий поверженного",
@@ -5389,7 +6141,7 @@
     },
     {
       "id": "carti27",
-      "num": "187",
+      "num": "216",
       "page": "590",
       "fr": "Piccolo idolo su un vaso (1)",
       "ru": "Маленький идол на вазе (1)",
@@ -5416,7 +6168,7 @@
     },
     {
       "id": "carti28",
-      "num": "188",
+      "num": "217",
       "page": "591",
       "fr": "Piccolo idolo su un vaso (2)",
       "ru": "Маленький идол на вазе (2)",
@@ -5444,7 +6196,7 @@
     },
     {
       "id": "carti29",
-      "num": "189",
+      "num": "218",
       "page": "592",
       "fr": "Piccolo idolo su un vaso (3)",
       "ru": "Маленький идол на вазе (3)",
@@ -5472,7 +6224,7 @@
     },
     {
       "id": "carti30",
-      "num": "190",
+      "num": "219",
       "page": "593",
       "fr": "Piccolo idolo su un vaso (4)",
       "ru": "Маленький идол на вазе (4) — «IL FINE»",
@@ -5497,789 +6249,6 @@
         "carti30.jpg"
       ],
       "textOnly": true
-    },
-    {
-      "id": "cartm89",
-      "num": "89",
-      "page": "89",
-      "fr": "Imagine di Como, dio dei Conviti",
-      "ru": "Образ Кома, бога пиров",
-      "en": "The image of Comus, god of Feasts",
-      "img": [
-        "cartm89.jpg"
-      ],
-      "scans": [
-        "cartm89.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Imagine di Como Dio de Conuiuij, secondo Filostrato, significante, che li Conuiti modesti allegrano li huomini & suegliando li spiriti li fanno diuenir arditi, & che all'incontro l'immoderato cibo fà l'huomo sonnolento, inetto, & tuso d'ingegno, & debole di corpo.",
-      "text_ru": [
-        "«Образ Кома, бога пиров, согласно Филострату, означающий, что умеренные пиршества веселят людей и, пробуждая дух, делают их смелыми, тогда как, напротив, неумеренная пища делает человека сонливым, неспособным, притупленным умом и слабым телом»."
-      ],
-      "text_en": [
-        "“The image of Comus, god of Feasts, according to Philostratus, signifying that modest banquets gladden men and, rousing the spirits, make them bold, while, on the contrary, immoderate food makes a man drowsy, inept, dull of wit, and weak of body.”"
-      ],
-      "name_fr": "L'image de Comus, dieu des Festins",
-      "text_fr": [
-        "« L'image de Comus, dieu des Festins, selon Philostrate, signifiant que des banquets modérés réjouissent les hommes et, réveillant les esprits, les rendent hardis, tandis qu'au contraire une nourriture immodérée rend l'homme somnolent, inapte, l'esprit émoussé et le corps faible. »"
-      ]
-    },
-    {
-      "id": "cartm90",
-      "num": "90",
-      "page": "90",
-      "fr": "Imagine di Bacco secondo Macrobio",
-      "ru": "Образ Вакха согласно Макробию",
-      "en": "The image of Bacchus according to Macrobius",
-      "img": [
-        "cartm90.jpg"
-      ],
-      "scans": [
-        "cartm90.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Imagine di Bacco significante li effetti del vino, del quale fù l'inuentore; & secondo Macrobio li varij effetti del Sole essendo da lui per il Sole inteso, cioè la varietà delle stagioni dell'anno: & animali à lui sacrati.",
-      "text_ru": [
-        "«Образ Вакха, означающий воздействия вина, изобретателем которого он был; а согласно Макробию — различные воздействия Солнца, поскольку он понимается как Солнце, то есть разнообразие времён года; а также посвящённые ему животные»."
-      ],
-      "text_en": [
-        "“The image of Bacchus, signifying the effects of wine, of which he was the inventor; and, according to Macrobius, the various effects of the Sun, he being understood as the Sun, that is, the variety of the seasons of the year; and the animals sacred to him.”"
-      ],
-      "name_fr": "L'image de Bacchus selon Macrobe",
-      "text_fr": [
-        "« L'image de Bacchus, signifiant les effets du vin, dont il fut l'inventeur ; et, selon Macrobe, les divers effets du Soleil, lui-même étant entendu comme le Soleil, c'est-à-dire la variété des saisons de l'année ; et les animaux qui lui sont sacrés. »"
-      ]
-    },
-    {
-      "id": "cartm91",
-      "num": "91",
-      "page": "91",
-      "fr": "Imagini di Bacco e della pompa bacchica",
-      "ru": "Образы Вакха и вакхического шествия",
-      "en": "The images of Bacchus and the Bacchic procession",
-      "img": [
-        "cartm91.jpg"
-      ],
-      "scans": [
-        "cartm91.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Imagini di Bacco, & della pompa, feste, & cerimonie bacchanali, & l'habito delle Bacche, o Menadi sue seguaci, significante che li sacrificij bacchanali purgauan gl'animi dalle colpe, come il vino li purga da pensieri.",
-      "text_ru": [
-        "«Образы Вакха и его шествия, празднеств и вакхических обрядов, а также одеяния Вакханок, или Менад, его спутниц, означающие, что вакхические жертвоприношения очищали души от грехов, подобно тому как вино очищает их от забот»."
-      ],
-      "text_en": [
-        "“The images of Bacchus, and of the procession, feasts, and bacchanalian ceremonies, and the garb of the Bacchae, or Maenads, his followers, signifying that the bacchanalian sacrifices purged souls of their faults, just as wine purges them of cares.”"
-      ],
-      "name_fr": "Les images de Bacchus et du cortège bachique",
-      "text_fr": [
-        "« Les images de Bacchus, et du cortège, des fêtes et des cérémonies bachiques, et de la tenue des Bacchantes, ou Ménades, ses suivantes, signifiant que les sacrifices bachiques purgeaient les âmes de leurs fautes, comme le vin les purge des soucis. »"
-      ]
-    },
-    {
-      "id": "cartm92",
-      "num": "92",
-      "page": "92",
-      "fr": "Imagini di Bacco trionfatore sull'elefante",
-      "ru": "Образы Вакха-триумфатора на слоне",
-      "en": "The images of Bacchus triumphant upon the elephant",
-      "img": [
-        "cartm92.jpg"
-      ],
-      "scans": [
-        "cartm92.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Imagini di Bacco trionfatore, & inuentore del Trionfo, doppo hauer superata l'India, & del suo carro tirato da Tigri, & da Pantere con diuerse piante à lui sacrate, & molti animali ancora che significano la natura, & effetti del vino, & ebrietà.",
-      "text_ru": [
-        "«Образы Вакха-триумфатора, изобретателя триумфа, после покорения им Индии, а также его колесницы, влекомой Тиграми и Пантерами, с различными посвящёнными ему растениями и множеством животных, означающих природу и воздействия вина и опьянения»."
-      ],
-      "text_en": [
-        "“The images of Bacchus triumphant, and inventor of the Triumph, after having conquered India, and of his chariot drawn by Tigers and Panthers, with various plants sacred to him and many animals still, signifying the nature and effects of wine and drunkenness.”"
-      ],
-      "name_fr": "Les images de Bacchus triomphant sur l'éléphant",
-      "text_fr": [
-        "« Les images de Bacchus triomphant, et inventeur du Triomphe, après avoir vaincu l'Inde, et de son char tiré par des Tigres et des Panthères, avec diverses plantes qui lui sont sacrées et nombre d'animaux encore, signifiant la nature et les effets du vin et de l'ivresse. »"
-      ]
-    },
-    {
-      "id": "cartm93",
-      "num": "93",
-      "page": "93",
-      "fr": "Imagine della Nave di Bacco",
-      "ru": "Образ Корабля Вакха",
-      "en": "The image of the Ship of Bacchus",
-      "img": [
-        "cartm93.jpg"
-      ],
-      "scans": [
-        "cartm93.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Imagine della Naue di Bacco, del monte Timolo di Lidia delle Bacche per quello scorrenti, & de Corsari Tirrheni captori di Bacco da quello tramutati in Delfini per loro misfatti significanti li vitij, & peccati far perder all'huomo la ragione.",
-      "text_ru": [
-        "«Образ Корабля Вакха, лидийской горы Тимол, по которой носятся Вакханки, и тирренских корсаров, пленивших Вакха и обращённых им в дельфинов за свои злодеяния, — означающий, что пороки и грехи лишают человека разума»."
-      ],
-      "text_en": [
-        "“The image of the Ship of Bacchus, of Mount Tmolus in Lydia, over which the Bacchae run, and of the Tyrrhenian corsairs who captured Bacchus and were by him transformed into Dolphins for their misdeeds, signifying that vices and sins cause man to lose his reason.”"
-      ],
-      "name_fr": "L'image du Navire de Bacchus",
-      "text_fr": [
-        "« L'image du Navire de Bacchus, du mont Tmolus en Lydie, sur lequel courent les Bacchantes, et des corsaires tyrrhéniens, qui capturèrent Bacchus et furent par lui changés en Dauphins pour leurs méfaits, signifiant que les vices et les péchés font perdre à l'homme la raison. »"
-      ]
-    },
-    {
-      "id": "cartm94",
-      "num": "94",
-      "page": "94",
-      "fr": "Imagine di Horo, dio degli Egizi, Priapo e Bacco",
-      "ru": "Образ Гора, бога египтян, Приапа и Вакха",
-      "en": "The image of Horus, god of the Egyptians, Priapus and Bacchus",
-      "img": [
-        "cartm94.jpg"
-      ],
-      "scans": [
-        "cartm94.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Imagine di Horo Dio delli Egittij, che è Priapo, & Bacco ancora, il quale viene inteso per la virtù seminale, & per il Sole; con il disegno del Disco significante la rotondità del mondo, che viene dal Sole illuminato, & à cui il Sole influisce la virtù sua.",
-      "text_ru": [
-        "«Образ Гора, бога египтян, который есть также Приап и Вакх, понимаемый как семенная сила и как Солнце; с изображением Диска, означающего округлость мира, освещаемого Солнцем, которому Солнце сообщает свою силу»."
-      ],
-      "text_en": [
-        "“The image of Horus, god of the Egyptians, who is also Priapus and Bacchus, understood as the seminal power and as the Sun; with the device of the Disc signifying the roundness of the world, which is illuminated by the Sun, and into which the Sun infuses its power.”"
-      ],
-      "name_fr": "L'image d'Horus, dieu des Égyptiens, Priape et Bacchus",
-      "text_fr": [
-        "« L'image d'Horus, dieu des Égyptiens, qui est aussi Priape et Bacchus, entendu comme la vertu séminale et comme le Soleil ; avec le dessin du Disque signifiant la rondeur du monde, qui est éclairé par le Soleil, et auquel le Soleil insuffle sa vertu. »"
-      ]
-    },
-    {
-      "id": "cartm95",
-      "num": "95",
-      "page": "95",
-      "fr": "Imagini di Tifone e di Horo",
-      "ru": "Образы Тифона и Гора",
-      "en": "The images of Typhon and Horus",
-      "img": [
-        "cartm95.jpg"
-      ],
-      "scans": [
-        "cartm95.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Imagini di Tifone fratel d'Osiri, & di Horo figliuolo d'Osiri, che è Baccho appo i Greci, qual Horo superò il detto Tifone, benche in Crocodilo tramutato; con l'Hippopotamo, & Sparauiere hieroglifici denotanti la virtù combattente, & resistente al male, & ch'al fine lo supera e conculca.",
-      "text_ru": [
-        "«Образы Тифона, брата Осириса, и Гора, сына Осириса, который есть Вакх у греков; Гор одолел названного Тифона, хотя тот и обратился в Крокодила; с иероглифами Бегемота и Ястреба, означающими силу, сражающуюся и противостоящую злу, которая в конце концов побеждает его и попирает»."
-      ],
-      "text_en": [
-        "“The images of Typhon, brother of Osiris, and of Horus, son of Osiris, who is Bacchus among the Greeks; which Horus overcame the said Typhon, although he had transformed into a Crocodile; with the Hippopotamus and Hawk hieroglyphs denoting the power that fights and resists evil, and which in the end overcomes and tramples it.”"
-      ],
-      "name_fr": "Les images de Typhon et d'Horus",
-      "text_fr": [
-        "« Les images de Typhon, frère d'Osiris, et d'Horus, fils d'Osiris, qui est Bacchus chez les Grecs ; lequel Horus vainquit ledit Typhon, bien que celui-ci se fût changé en Crocodile ; avec les hiéroglyphes de l'Hippopotame et de l'Épervier signifiant la vertu qui combat et résiste au mal, et qui finit par le vaincre et le fouler aux pieds. »"
-      ]
-    },
-    {
-      "id": "cartm96",
-      "num": "96",
-      "page": "96",
-      "fr": "Imagine di Priapo, dio degli Orti",
-      "ru": "Образ Приапа, бога садов",
-      "en": "The image of Priapus, god of Gardens",
-      "img": [
-        "cartm96.jpg"
-      ],
-      "scans": [
-        "cartm96.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Imagine di Priapo Dio delli Horti, & del membro virile, & dell'Asino, & del Becco à lui sacrati, essendo inteso per la virtù seminale ò generatiua. è Dio punitore de Ladri, & del furto significato nella falce, & li animali sono segno di potente generatione.",
-      "text_ru": [
-        "«Образ Приапа, бога садов и мужского члена, с посвящёнными ему Ослом и Козлом, понимаемого как семенная, или порождающая, сила. Он — бог, карающий воров, а воровство означено серпом; животные же — знак мощной производительной силы»."
-      ],
-      "text_en": [
-        "“The image of Priapus, god of Gardens and of the male member, with the Ass and the He-goat sacred to him, understood as the seminal or generative power. He is a god who punishes Thieves, theft being signified by the sickle, and the animals are a sign of potent generation.”"
-      ],
-      "name_fr": "L'image de Priape, dieu des Jardins",
-      "text_fr": [
-        "« L'image de Priape, dieu des Jardins et du membre viril, avec l'Âne et le Bouc qui lui sont sacrés, entendu comme la vertu séminale ou générative. Il est le dieu punisseur des Voleurs, le vol étant signifié par la faucille, et les animaux sont signe d'une puissante génération. »"
-      ]
-    },
-    {
-      "id": "cartm97",
-      "num": "97",
-      "page": "97",
-      "fr": "Imagini degli dei Lari e Penati",
-      "ru": "Образы богов Ларов и Пенатов",
-      "en": "The images of the gods Lares and Penates",
-      "img": [
-        "cartm97.jpg"
-      ],
-      "scans": [
-        "cartm97.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Imagini delli Dei Lari: cioè custodi delle priuate case, & delle particolari Città, & inuestigatori de fatti humani, ouero Dei noceuoli; & imagine delli Dei Penati, & hieroglifico loro, dinotanti ancora loro Dei familiari, & custodi delle Città, & case de priuati.",
-      "text_ru": [
-        "«Образы богов Ларов, то есть хранителей частных домов и отдельных городов, расследователей дел человеческих, или же богов вредоносных; и образ богов Пенатов, и их иероглиф, означающие также, что они — семейные боги, хранители городов и частных домов»."
-      ],
-      "text_en": [
-        "“The images of the Lares gods: that is, guardians of private homes and of individual Cities, and investigators of human deeds, or else harmful gods; and the image of the Penates gods, and their hieroglyph, also denoting that they are household gods, guardians of Cities and of private homes.”"
-      ],
-      "name_fr": "Les images des dieux Lares et Pénates",
-      "text_fr": [
-        "« Les images des dieux Lares : c'est-à-dire gardiens des maisons privées et des Villes particulières, et enquêteurs des actes humains, ou bien dieux nuisibles ; et l'image des dieux Pénates, et leur hiéroglyphe, indiquant aussi qu'ils sont des dieux familiers, gardiens des Villes et des maisons privées. »"
-      ]
-    },
-    {
-      "id": "cartm98",
-      "num": "98",
-      "page": "98",
-      "fr": "Imagini del Genio buono e cattivo",
-      "ru": "Образы доброго и злого Гения",
-      "en": "The images of the good and evil Genius",
-      "img": [
-        "cartm98.jpg"
-      ],
-      "scans": [
-        "cartm98.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Imagini del Genio buono, & cattiuo, custode & osseruatore della generatione humana, delle attioni, & delle Città, & luoghi priuati.",
-      "text_ru": [
-        "«Образы доброго и злого Гения, хранителя и наблюдателя за человеческим рождением, деяниями, городами и частными местами»."
-      ],
-      "text_en": [
-        "“The images of the good and evil Genius, guardian and observer of human generation, of actions, and of Cities and private places.”"
-      ],
-      "name_fr": "Les images du bon et du mauvais Génie",
-      "text_fr": [
-        "« Les images du bon et du mauvais Génie, gardien et observateur de la génération humaine, des actions, et des Villes et lieux privés. »"
-      ]
-    },
-    {
-      "id": "cartm99",
-      "num": "99",
-      "page": "99",
-      "fr": "Imagini della Fortuna lieta e triste",
-      "ru": "Образы радостной и печальной Фортуны",
-      "en": "The images of joyful and sorrowful Fortune",
-      "img": [
-        "cartm99.jpg"
-      ],
-      "scans": [
-        "cartm99.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Imagini della lieta, & trista fortuna, ouero della fortuna passata, presente, & ventura, giudicata da gli antichi, benche sij solo vn nome imaginato, maggiore de tutti li loro dei falsi, & patrona delle cose di qua giù, & questo nume li antichi s'imaginorono per scusa dell'imprudenze loro.",
-      "text_ru": [
-        "«Образы радостной и печальной Фортуны, то есть судьбы прошедшей, настоящей и будущей, как её почитали древние, хотя это лишь воображаемое имя, большее всех их ложных богов и владычица дел здешнего мира; и это божество древние измыслили в оправдание своей неосмотрительности»."
-      ],
-      "text_en": [
-        "“The images of joyful and sorrowful Fortune, that is, of fortune past, present, and to come, as judged by the ancients, although it is but an imagined name, greater than all their false gods, and patroness of things here below; and the ancients imagined this deity as an excuse for their own imprudence.”"
-      ],
-      "name_fr": "Les images de la Fortune joyeuse et triste",
-      "text_fr": [
-        "« Les images de la Fortune joyeuse et triste, c'est-à-dire de la fortune passée, présente et à venir, telle que jugée par les anciens, bien que ce ne soit qu'un nom imaginé, plus grand que tous leurs faux dieux, et patronne des choses d'ici-bas ; et les anciens imaginèrent cette divinité pour excuser leur propre imprudence. »"
-      ]
-    },
-    {
-      "id": "cartm100",
-      "num": "100",
-      "page": "100",
-      "fr": "Imagini dell'Invidia",
-      "ru": "Образы Зависти",
-      "en": "The images of Envy",
-      "img": [
-        "cartm100.jpg"
-      ],
-      "scans": [
-        "cartm100.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Imagini dell'Inuidia, che à se stessa nuoce, essendo che l'inuidioso si strugge vedendo l'altrui prosperità, & si ottura l'orecchie à l'altrui lodi, & si stringe la gola per soffocarsi, quelle vedendo essaltate, & questo è il pessimo de vitij.",
-      "text_ru": [
-        "«Образы Зависти, которая вредит самой себе, ибо завистник изводит себя, видя чужое благополучие, затыкает уши от чужих похвал и сжимает себе горло, чтобы задохнуться, видя их прославляемыми; это худший из пороков»."
-      ],
-      "text_en": [
-        "“The images of Envy, which harms itself, since the envious man wastes away at the sight of others' prosperity, stops his ears to others' praise, and grips his own throat to choke himself at seeing them exalted; and this is the worst of vices.”"
-      ],
-      "name_fr": "Les images de l'Envie",
-      "text_fr": [
-        "« Les images de l'Envie, qui se nuit à elle-même, car l'envieux se consume à voir la prospérité d'autrui, se bouche les oreilles aux louanges d'autrui, et se serre la gorge pour s'étouffer en les voyant exaltées ; et c'est le pire des vices. »"
-      ]
-    },
-    {
-      "id": "cartm101",
-      "num": "101",
-      "page": "101",
-      "fr": "Imagine di Momo, dio della riprensione",
-      "ru": "Образ Мома, бога порицания",
-      "en": "The image of Momus, god of censure",
-      "img": [
-        "cartm101.jpg"
-      ],
-      "scans": [
-        "cartm101.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Imagine di Momo Dio della reprensione, ò maledicenza, & del biasmo, figliuolo del Sonno, & della Notte, significante li detrattori non esser da niente, ne mai oprar nulla, solo biasimare le operationi altrui, non riguardando mai se non al riprensibile, non mai al lodeuole, simili à talpe, che non riguardano il Sole ne il giorno, ma solo le tenebre & l'oscurità.",
-      "text_ru": [
-        "«Образ Мома, бога порицания, или злоречия, и хулы, сына Сна и Ночи, означающий, что хулители ничего собой не представляют и сами ничего не совершают, а лишь порицают дела других, замечая всегда только достойное осуждения, никогда — похвального, подобно кротам, которые не глядят ни на Солнце, ни на день, но лишь на тьму и мрак»."
-      ],
-      "text_en": [
-        "“The image of Momus, god of censure, or slander, and of blame, son of Sleep and of Night, signifying that detractors are worth nothing and never accomplish anything themselves, only blaming the deeds of others, ever noting only what is reprehensible, never what is praiseworthy, like moles, which look not upon the Sun nor the day, but only upon darkness and gloom.”"
-      ],
-      "name_fr": "L'image de Momos, dieu de la critique",
-      "text_fr": [
-        "« L'image de Momos, dieu de la critique, ou de la médisance, et du blâme, fils du Sommeil et de la Nuit, signifiant que les détracteurs ne valent rien et n'accomplissent jamais rien eux-mêmes, se contentant de blâmer les œuvres d'autrui, ne remarquant toujours que ce qui est répréhensible, jamais ce qui est louable, pareils à des taupes, qui ne regardent ni le Soleil ni le jour, mais seulement les ténèbres et l'obscurité. »"
-      ]
-    },
-    {
-      "id": "cartm102",
-      "num": "102",
-      "page": "102",
-      "fr": "Imagine della Frode secondo Dante",
-      "ru": "Образ Обмана по Данте",
-      "en": "The image of Fraud according to Dante",
-      "img": [
-        "cartm102.jpg"
-      ],
-      "scans": [
-        "cartm102.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Imagine della Fraude secondo Dante, qual dinota che li fraudolenti & ingannatori sotto il manto & volto de piaceuoli, modesti, & amoreuoli cercano di peruenire à loro rei disegni, essendo nell'intrinseco auuelenati d'ogni vitio, fraude, & inganno.",
-      "text_ru": [
-        "«Образ Обмана по Данте, означающий, что обманщики и лжецы под личиной и видом приятных, скромных и любезных стремятся достичь своих злых замыслов, будучи внутренне отравлены всяким пороком, обманом и ложью»."
-      ],
-      "text_en": [
-        "“The image of Fraud according to Dante, denoting that the deceitful and the cheats, under the cloak and face of the pleasant, modest, and amiable, seek to attain their wicked designs, being inwardly poisoned with every vice, fraud, and deceit.”"
-      ],
-      "name_fr": "L'image de la Fraude selon Dante",
-      "text_fr": [
-        "« L'image de la Fraude selon Dante, indiquant que les fraudeurs et les trompeurs, sous le manteau et le visage d'êtres agréables, modestes et aimables, cherchent à parvenir à leurs desseins coupables, étant intérieurement empoisonnés de tout vice, de fraude et de tromperie. »"
-      ]
-    },
-    {
-      "id": "cartm103",
-      "num": "103",
-      "page": "103",
-      "fr": "Geroglifico della buona Fortuna e dell'Occasione",
-      "ru": "Иероглиф доброй Фортуны и Случая",
-      "en": "The hieroglyph of good Fortune and of Occasion",
-      "img": [
-        "cartm103.jpg"
-      ],
-      "scans": [
-        "cartm103.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Hieroglifico denotante la buona Fortuna quasi sempre andare con l'Eloquenza, & con la Dottrina, & l'imagine dell'Occasione, & opportunità da Greci detta il Dio Chero qual chi non prende quando si appresenta in vano poi si cerca e si pentisce.",
-      "text_ru": [
-        "«Иероглиф, означающий, что добрая Фортуна почти всегда сопутствует Красноречию и Учёности; и образ Случая и благоприятной возможности, называемой греками богом Кайросом, которого кто не ловит, когда он является, тот напрасно потом ищет его и раскаивается»."
-      ],
-      "text_en": [
-        "“A hieroglyph denoting that good Fortune almost always goes together with Eloquence and Learning; and the image of Occasion, or opportunity, called by the Greeks the god Kairos, whom whoever does not seize when he appears, afterward seeks in vain and repents.”"
-      ],
-      "name_fr": "L'hiéroglyphe de la bonne Fortune et de l'Occasion",
-      "text_fr": [
-        "« Un hiéroglyphe indiquant que la bonne Fortune va presque toujours de pair avec l'Éloquence et la Doctrine ; et l'image de l'Occasion, ou opportunité, appelée par les Grecs le dieu Kairos, que celui qui ne saisit pas quand il se présente cherche ensuite en vain et regrette. »"
-      ]
-    },
-    {
-      "id": "cartm104",
-      "num": "104",
-      "page": "104",
-      "fr": "Imagine della Fortuna presso gli Sciti",
-      "ru": "Образ Фортуны у скифов",
-      "en": "The image of Fortune among the Scythians",
-      "img": [
-        "cartm104.jpg"
-      ],
-      "scans": [
-        "cartm104.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Imagine della Fortuna appò gli Scithi significante la sua velocità & instabilità nelle cose mondane, & che bisogna secondare l'Occasione, perche velocemente se ne vola & in vano poi si segue, & in vano si pente delle occasioni perdute & tralasciate.",
-      "text_ru": [
-        "«Образ Фортуны у скифов, означающий её быстроту и непостоянство в делах мирских, и что надлежит следовать Случаю, ибо он быстро улетает, и напрасно потом за ним гонятся, и напрасно раскаиваются в упущенных и оставленных без внимания возможностях»."
-      ],
-      "text_en": [
-        "“The image of Fortune among the Scythians, signifying her speed and instability in worldly matters, and that one must heed Occasion, for it flies away swiftly, and is vainly pursued afterward, and one vainly repents of occasions lost and neglected.”"
-      ],
-      "name_fr": "L'image de la Fortune chez les Scythes",
-      "text_fr": [
-        "« L'image de la Fortune chez les Scythes, signifiant sa rapidité et son instabilité dans les choses du monde, et qu'il faut suivre l'Occasion, car elle s'envole rapidement, et on la poursuit ensuite en vain, et l'on regrette en vain les occasions perdues et négligées. »"
-      ]
-    },
-    {
-      "id": "cartm105",
-      "num": "105",
-      "page": "105",
-      "fr": "Imagine della Fortuna in Egira",
-      "ru": "Образ Фортуны в Эгире",
-      "en": "The image of Fortune at Aegira",
-      "img": [
-        "cartm105.jpg"
-      ],
-      "scans": [
-        "cartm105.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Imagine della Fortuna in Egira, significante nell'Amore volersi buona fortuna, & ricchezze, altrimenti senza non si ottiene lo bramato desiderio. ma io credo, che sì in questa come in tutte le attioni bisogna hauer delle virtù, che quelle fanno la buona Fortuna, perche non ci è Fortuna alcuna, ma è nome imaginato.",
-      "text_ru": [
-        "«Образ Фортуны в Эгире, означающий, что в Любви требуется добрая удача и богатство, иначе без них не достигнуть желаемого. Но я полагаю, что как в этом, так и во всех прочих делах нужны добродетели, ибо именно они создают добрую Фортуну, поскольку никакой Фортуны вообще не существует, а это лишь воображаемое имя»."
-      ],
-      "text_en": [
-        "“The image of Fortune at Aegira, signifying that in Love one needs good fortune and riches, otherwise without them the desired wish is not attained. But I believe that, in this as in all actions, one needs virtues, for it is these that make good Fortune, since there is no Fortune at all, but it is an imagined name.”"
-      ],
-      "name_fr": "L'image de la Fortune à Égire",
-      "text_fr": [
-        "« L'image de la Fortune à Égire, signifiant qu'en Amour il faut bonne fortune et richesses, sans quoi le désir souhaité n'est pas obtenu. Mais je crois que, dans ceci comme dans toutes les actions, il faut avoir des vertus, car ce sont elles qui font la bonne Fortune, puisqu'il n'y a aucune Fortune, mais que c'est un nom imaginé. »"
-      ]
-    },
-    {
-      "id": "cartm106",
-      "num": "106",
-      "page": "106",
-      "fr": "Imagine della Fortuna a cavallo",
-      "ru": "Образ Фортуны верхом на коне",
-      "en": "The image of Fortune on horseback",
-      "img": [
-        "cartm106.jpg"
-      ],
-      "scans": [
-        "cartm106.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Imagine della Fortuna à cauallo che velocemente corre, dal Fato & dal Destino seguitata, dinotante la velocità di quella, & doue questi sono, quella non hauer possa ò fermezza alcuna.",
-      "text_ru": [
-        "«Образ Фортуны верхом на коне, стремительно мчащейся, преследуемой Роком и Судьбой, означающий её быстроту, и что там, где они присутствуют, она не имеет никакой власти или постоянства»."
-      ],
-      "text_en": [
-        "“The image of Fortune on horseback, galloping swiftly, pursued by Fate and Destiny, denoting her speed, and that where these are present, she has no power or constancy whatsoever.”"
-      ],
-      "name_fr": "L'image de la Fortune à cheval",
-      "text_fr": [
-        "« L'image de la Fortune à cheval, galopant rapidement, poursuivie par le Destin et le Sort, indiquant sa rapidité, et que là où ceux-ci se trouvent, elle n'a aucun pouvoir ni constance. »"
-      ]
-    },
-    {
-      "id": "cartm107",
-      "num": "107",
-      "page": "107",
-      "fr": "Imagine del buon Evento e del Favore instabile",
-      "ru": "Образ доброго Случая и непостоянной Благосклонности",
-      "en": "The image of good Event and of unstable Favour",
-      "img": [
-        "cartm107.jpg"
-      ],
-      "scans": [
-        "cartm107.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Imagine del buono Euento & felice successo, del Fauore instabile, lieue, & caduco, dell'Adulatione, & dell'Inuidia, che spingono, & accompagnano detto Fauore, & l'imagine della ruota volubile della Fortuna, sopra la quale il detto Fauore riposa i piedi e casca al suo girare, effetto che si vede per ordinario nelle Corti e nel Mondo.",
-      "text_ru": [
-        "«Образ доброго Случая и счастливого успеха, непостоянной, лёгкой и преходящей Благосклонности, Лести и Зависти, которые подталкивают и сопровождают названную Благосклонность, а также образ вращающегося колеса Фортуны, на котором названная Благосклонность стоит ногами и падает при его вращении — явление, обычно наблюдаемое при дворах и в мире»."
-      ],
-      "text_en": [
-        "“The image of good Event and happy success, of unstable, light, and fleeting Favour, of Flattery and of Envy, which push and accompany the said Favour, and the image of the turning wheel of Fortune, upon which the said Favour rests its feet and falls as it turns — an effect ordinarily seen at Courts and in the World.”"
-      ],
-      "name_fr": "L'image du bon Événement et de la Faveur instable",
-      "text_fr": [
-        "« L'image du bon Événement et du succès heureux, de la Faveur instable, légère et caduque, de l'Adulation et de l'Envie, qui poussent et accompagnent ladite Faveur, et l'image de la roue mobile de la Fortune, sur laquelle ladite Faveur pose les pieds et tombe lorsqu'elle tourne — effet ordinairement observé dans les Cours et dans le Monde. »"
-      ]
-    },
-    {
-      "id": "cartm108",
-      "num": "108",
-      "page": "108",
-      "fr": "Trionfo d'Amore",
-      "ru": "Триумф Амура",
-      "en": "The Triumph of Love",
-      "img": [
-        "cartm108.jpg"
-      ],
-      "scans": [
-        "cartm108.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Trionfo d'Amore descritto da Filostrato, dal Petrarca, & da altri antichi & moderni, significante la forza d'Amore.",
-      "text_ru": [
-        "«Триумф Амура, описанный Филостратом, Петраркой и другими древними и новыми авторами, означающий силу Любви»."
-      ],
-      "text_en": [
-        "“The Triumph of Love, described by Philostratus, by Petrarch, and by other ancient and modern authors, signifying the power of Love.”"
-      ],
-      "name_fr": "Le Triomphe de l'Amour",
-      "text_fr": [
-        "« Le Triomphe de l'Amour, décrit par Philostrate, par Pétrarque, et par d'autres auteurs anciens et modernes, signifiant la force de l'Amour. »"
-      ]
-    },
-    {
-      "id": "cartm109",
-      "num": "109",
-      "page": "109",
-      "fr": "Imagini d'Amore e dei suoi effetti",
-      "ru": "Образы Амура и его воздействий",
-      "en": "The images of Love and its effects",
-      "img": [
-        "cartm109.jpg"
-      ],
-      "scans": [
-        "cartm109.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Imagini d'Amore significanti gli varij effetti & potenze d'Amore, qual ne cuori nobili & gentili facilmente hà luogo, & li duri & ostinati spezza & rompe. dinota ancora quanto facilmente ci lasciano adescare da gli effetti lascini, & libidinosi massime in giouentù.",
-      "text_ru": [
-        "«Образы Амура, означающие различные воздействия и власть Любви, которая легко находит себе место в благородных и учтивых сердцах, а жёсткие и упрямые — разбивает и сокрушает. Означают также, сколь легко мы позволяем прельстить себя сластолюбивыми и похотливыми побуждениями, особенно в юности»."
-      ],
-      "text_en": [
-        "“The images of Love signifying the various effects and powers of Love, which easily finds place in noble and gentle hearts, and breaks and shatters the hard and obstinate ones. It also denotes how easily we let ourselves be lured by wanton and lustful effects, especially in youth.”"
-      ],
-      "name_fr": "Les images de l'Amour et de ses effets",
-      "text_fr": [
-        "« Les images de l'Amour signifiant les divers effets et pouvoirs de l'Amour, qui trouve aisément place dans les cœurs nobles et doux, et brise et rompt les cœurs durs et obstinés. Elles indiquent aussi combien facilement nous nous laissons séduire par des effets lascifs et libidineux, surtout dans la jeunesse. »"
-      ]
-    },
-    {
-      "id": "cartm110",
-      "num": "110",
-      "page": "110",
-      "fr": "Imagine di Pane e Cupido",
-      "ru": "Образ Пана и Амура",
-      "en": "The image of Pan and Cupid",
-      "img": [
-        "cartm110.jpg"
-      ],
-      "scans": [
-        "cartm110.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Imagine di Pane, & Cupido, l'vno vinto, l'altro vincitore, per mostrare il potere d'Amore sopra la Natura vniuersale, che inuaghita del diletto delle operationi sue, non pensa ad altro, che à farle belle, & adorne.",
-      "text_ru": [
-        "«Образ Пана и Амура, один побеждён, другой — победитель, дабы показать власть Любви над всеобщей Природой, которая, увлечённая наслаждением от своих деяний, ни о чём ином не помышляет, как только о том, чтобы сделать их прекрасными и украшенными»."
-      ],
-      "text_en": [
-        "“The image of Pan and Cupid, the one defeated, the other victorious, to show the power of Love over universal Nature, which, enamoured of the delight of its own workings, thinks of nothing else but to make them beautiful and adorned.”"
-      ],
-      "name_fr": "L'image de Pan et de Cupidon",
-      "text_fr": [
-        "« L'image de Pan et de Cupidon, l'un vaincu, l'autre vainqueur, pour montrer le pouvoir de l'Amour sur la Nature universelle, qui, éprise du plaisir de ses propres œuvres, ne pense à rien d'autre qu'à les rendre belles et parées. »"
-      ]
-    },
-    {
-      "id": "cartm111",
-      "num": "111",
-      "page": "111",
-      "fr": "Tempio di Venere in Pafo",
-      "ru": "Храм Венеры в Пафосе",
-      "en": "The Temple of Venus at Paphos",
-      "img": [
-        "cartm111.jpg"
-      ],
-      "scans": [
-        "cartm111.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Tempio di Venere in Pafo Città di Cipro con gieroglifico lei & sua natura dimostrante. Carro di Venere tirato da Cigni & da Colombe à lei sacrate, con la sua imagine sopra detto carro nuda con le tre Gratie seco, come li Sassoni la dipingeano, con tre pomi d'oro in vna mano, & vna palla nell'altra, & dimostra l'horo farci via alla lasciuia, & dinota il tutto il natural desiderio carnale per generare.",
-      "text_ru": [
-        "«Храм Венеры в Пафосе, городе Кипра, с иероглифом, являющим её и её природу. Колесница Венеры, влекомая Лебедями и Голубями, ей посвящёнными, с её образом над названной колесницей, нагой, вместе с тремя Грациями, как её изображали саксонцы, с тремя золотыми яблоками в одной руке и шаром в другой; и это показывает, что час (время) прокладывает путь сладострастию, и означает в целом естественное плотское желание к порождению»."
-      ],
-      "text_en": [
-        "“The Temple of Venus at Paphos, a city of Cyprus, with a hieroglyph demonstrating her and her nature. The Chariot of Venus, drawn by Swans and Doves sacred to her, with her image above the said chariot, nude, with the three Graces beside her, as the Saxons depicted her, with three golden apples in one hand and a ball in the other; and this shows that the hour makes way for wantonness, and denotes altogether the natural carnal desire for generation.”"
-      ],
-      "name_fr": "Le Temple de Vénus à Paphos",
-      "text_fr": [
-        "« Le Temple de Vénus à Paphos, ville de Chypre, avec un hiéroglyphe montrant la déesse et sa nature. Le Char de Vénus, tiré par des Cygnes et des Colombes qui lui sont sacrés, avec son image au-dessus dudit char, nue, accompagnée des trois Grâces, telle que la représentaient les Saxons, avec trois pommes d'or dans une main et une boule dans l'autre ; ce qui montre que l'heure fraie le chemin à la volupté, et indique en somme le désir charnel naturel de procréer. »"
-      ]
-    },
-    {
-      "id": "cartm112",
-      "num": "112",
-      "page": "112",
-      "fr": "Imagine di Venere tirata in carro dai Cigni",
-      "ru": "Образ Венеры на колеснице, влекомой лебедями",
-      "en": "The image of Venus drawn in a chariot by Swans",
-      "img": [
-        "cartm112.jpg"
-      ],
-      "scans": [
-        "cartm112.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Imagine di Venere tirata in carro da Cigni, retti da gl'Amorini; per mostrare, che il canto, & la placidità della natura hanno molto confacimento co' piaceri d'Amore.",
-      "text_ru": [
-        "«Образ Венеры, влекомой в колеснице Лебедями, которыми правят Амуры; дабы показать, что пение и безмятежность природы весьма сродни наслаждениям Любви»."
-      ],
-      "text_en": [
-        "“The image of Venus drawn in a chariot by Swans, guided by little Cupids, to show that song and the placidity of nature are much akin to the pleasures of Love.”"
-      ],
-      "name_fr": "L'image de Vénus tirée par des Cygnes sur son char",
-      "text_fr": [
-        "« L'image de Vénus tirée sur un char par des Cygnes, conduits par des Amours, pour montrer que le chant et la placidité de la nature ont beaucoup d'affinité avec les plaisirs de l'Amour. »"
-      ]
-    },
-    {
-      "id": "cartm113",
-      "num": "113",
-      "page": "113",
-      "fr": "Imagine di Venere con gli Amorini e le Grazie",
-      "ru": "Образ Венеры с Амурами и Грациями",
-      "en": "The image of Venus with Cupids and the Graces",
-      "img": [
-        "cartm113.jpg"
-      ],
-      "scans": [
-        "cartm113.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Imagine di Venere Dea de piaceri, madre d'Amore, accompagnata da gl'Amorini, dalle Hore, & dalle tre gratie significanti le delitie amorose; & il buono augurio, che faceuano gl'antichi con tal imagini alle nouelle spose, di concorde matrimonio, & di ardente amore.",
-      "text_ru": [
-        "«Образ Венеры, богини наслаждений, матери Амура, сопровождаемой Амурами, Горами и тремя Грациями, означающими любовные наслаждения; а также доброе предзнаменование, которое древние даровали такими образами новобрачным — согласного брака и пламенной любви»."
-      ],
-      "text_en": [
-        "“The image of Venus, goddess of pleasures, mother of Love, accompanied by little Cupids, by the Hours, and by the three Graces, signifying amorous delights; and the good omen that the ancients gave with such images to newly-wed brides, of harmonious marriage and ardent love.”"
-      ],
-      "name_fr": "L'image de Vénus avec les Amours et les Grâces",
-      "text_fr": [
-        "« L'image de Vénus, déesse des plaisirs, mère de l'Amour, accompagnée des Amours, des Heures, et des trois Grâces, signifiant les délices amoureuses ; et le bon présage que les anciens donnaient par de telles images aux nouvelles épouses, d'un mariage harmonieux et d'un amour ardent. »"
-      ]
-    },
-    {
-      "id": "cartm114",
-      "num": "114",
-      "page": "114",
-      "fr": "Imagini di Venere, Cupido, del Giogo e del Capro",
-      "ru": "Образы Венеры, Купидона, Ярма и Козла",
-      "en": "The images of Venus, Cupid, the Yoke and the He-goat",
-      "img": [
-        "cartm114.jpg"
-      ],
-      "scans": [
-        "cartm114.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Imagini di Venere, di Cupido, del Giogo, & del Capro, quali significano la generatione, & l'imagine della Testudine hieroglifico, che dinota il pericolo delle Donne maritate, e parturienti, & qual deue essere il loro vfficio nella cura familiare & alleuar figliuoli, & il silentio esser necessario alle donne sopra ogni virtù.",
-      "text_ru": [
-        "«Образы Венеры, Купидона, Ярма и Козла, означающие порождение, а также образ Черепахи — иероглиф, означающий опасность, [грозящую] замужним и рожающим женщинам, и то, каковы должны быть их обязанности в заботе о семье и воспитании детей; и что молчание необходимо женщинам превыше всякой добродетели»."
-      ],
-      "text_en": [
-        "“The images of Venus, of Cupid, of the Yoke, and of the He-goat, which signify generation, and the image of the Tortoise, a hieroglyph denoting the danger of married and childbearing Women, and what their duty ought to be in the care of the household and the raising of children, and that silence is necessary for women above every other virtue.”"
-      ],
-      "name_fr": "Les images de Vénus, Cupidon, le Joug et le Bouc",
-      "text_fr": [
-        "« Les images de Vénus, de Cupidon, du Joug, et du Bouc, qui signifient la génération, et l'image de la Tortue, hiéroglyphe indiquant le danger des Femmes mariées et parturientes, et quel doit être leur office dans le soin du foyer et l'éducation des enfants, et que le silence est nécessaire aux femmes par-dessus toute autre vertu. »"
-      ]
-    },
-    {
-      "id": "cartm115",
-      "num": "115",
-      "page": "115",
-      "fr": "Imagine di Venere armata, vittrice e in catene",
-      "ru": "Образ вооружённой, победоносной и закованной Венеры",
-      "en": "The image of Venus armed, victorious, and in chains",
-      "img": [
-        "cartm115.jpg"
-      ],
-      "scans": [
-        "cartm115.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Imagine di Venere armata, di Venere vitrice, & di Venere in ceppi dinotante la fermezza, che deue essere nelli maritati & amanti, dinota ancora questa imagine il valore delle Donne Lacedemonie contro i Messenij, che andauano à saccheggiar la loro Città, da esse valorosamente difesa.",
-      "text_ru": [
-        "«Образ вооружённой Венеры, Венеры-победительницы и Венеры в оковах, означающий твёрдость, которая должна быть у супругов и влюблённых; означает также этот образ доблесть лакедемонских женщин против мессенцев, которые шли разграбить их город, но были доблестно отражены ими»."
-      ],
-      "text_en": [
-        "“The image of Venus armed, of Venus victorious, and of Venus in chains, denoting the firmness that ought to be in husbands and lovers; this image also denotes the valour of the Lacedaemonian Women against the Messenians, who went to sack their City, which was valiantly defended by them.”"
-      ],
-      "name_fr": "L'image de Vénus armée, victorieuse et enchaînée",
-      "text_fr": [
-        "« L'image de Vénus armée, de Vénus victorieuse, et de Vénus enchaînée, indiquant la fermeté qui doit être celle des époux et des amants ; cette image indique aussi la valeur des Femmes lacédémoniennes contre les Messéniens, qui allaient saccager leur Ville, vaillamment défendue par elles. »"
-      ]
-    },
-    {
-      "id": "cartm116",
-      "num": "116",
-      "page": "116",
-      "fr": "Imagine di Venere maschio e femmina",
-      "ru": "Образ Венеры мужской и женской",
-      "en": "The image of Venus, male and female",
-      "img": [
-        "cartm116.jpg"
-      ],
-      "scans": [
-        "cartm116.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Imagine di Venere maschio e femina, significante questa esser sopra l'vniuersal generatione delle cose, essendo tolta per l'aria; & nelli Dei non esser differenza di esso, come ne mortali, & imagine di Venere addolorata per la morte d'Adone morto dal Cinghiale, inteso per la stagione hiemale & fredda.",
-      "text_ru": [
-        "«Образ Венеры мужской и женской, означающий, что она властвует над всеобщим порождением вещей, будучи отождествляема с воздухом; и что у богов в этом нет различия [пола], как у смертных; а также образ Венеры, скорбящей о смерти Адониса, убитого Вепрем, что понимается как зимнее, холодное время года»."
-      ],
-      "text_en": [
-        "“The image of Venus, male and female, signifying that she presides over the universal generation of things, being identified with the air; and that among the Gods there is no difference in this, as there is among mortals; and the image of Venus grieving over the death of Adonis, slain by the Boar, understood as the cold winter season.”"
-      ],
-      "name_fr": "L'image de Vénus, mâle et femelle",
-      "text_fr": [
-        "« L'image de Vénus, mâle et femelle, signifiant qu'elle préside à la génération universelle des choses, étant assimilée à l'air ; et que chez les Dieux il n'y a pas de différence en cela, comme chez les mortels ; et l'image de Vénus affligée par la mort d'Adonis, tué par le Sanglier, entendue comme la froide saison hivernale. »"
-      ]
-    },
-    {
-      "id": "cartm117",
-      "num": "117",
-      "page": "117",
-      "fr": "Imagine delle Grazie guidate da Mercurio",
-      "ru": "Образ Граций, ведомых Меркурием",
-      "en": "The image of the Graces guided by Mercury",
-      "img": [
-        "cartm117.jpg"
-      ],
-      "scans": [
-        "cartm117.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Imagine delle Gratie guidate da Mercurio, dinotante, che il giouare & la benificenza deue esser fatta con ragione, à tempo, & à meriteuoli, senza speranza di premio, con animo sincero, & che il beneficiato deue con occasione render il beneficio & se non in fatti almen con le parole.",
-      "text_ru": [
-        "«Образ Граций, ведомых Меркурием, означающий, что благодеяние и милость должны оказываться разумно, своевременно и достойным, без надежды на награду, с искренним расположением; и что облагодетельствованный должен при случае отплатить за благодеяние, если не делом, то хотя бы словом»."
-      ],
-      "text_en": [
-        "“The image of the Graces guided by Mercury, denoting that helping and benefaction must be done with reason, at the right time, and to the deserving, without hope of reward, with a sincere heart, and that the one who has been benefited must, when occasion arises, return the favour, if not in deed then at least in word.”"
-      ],
-      "name_fr": "L'image des Grâces guidées par Mercure",
-      "text_fr": [
-        "« L'image des Grâces guidées par Mercure, indiquant que l'assistance et la bienfaisance doivent être accomplies avec raison, en temps voulu, et envers ceux qui le méritent, sans espoir de récompense, avec un cœur sincère, et que celui qui a été favorisé doit, à l'occasion, rendre le bienfait, sinon en actes, du moins en paroles. »"
-      ]
     }
   ]
 }
