@@ -5686,6 +5686,87 @@
       "text_fr": [
         "« Les images de Typhon, frère d'Osiris, et d'Horus, fils d'Osiris, qui est Bacchus chez les Grecs ; lequel Horus vainquit ledit Typhon, bien que celui-ci se fût changé en Crocodile ; avec les hiéroglyphes de l'Hippopotame et de l'Épervier signifiant la vertu qui combat et résiste au mal, et qui finit par le vaincre et le fouler aux pieds. »"
       ]
+    },
+    {
+      "id": "cartm96",
+      "num": "96",
+      "page": "96",
+      "fr": "Imagine di Priapo, dio degli Orti",
+      "ru": "Образ Приапа, бога садов",
+      "en": "The image of Priapus, god of Gardens",
+      "img": [
+        "cartm96.jpg"
+      ],
+      "scans": [
+        "cartm96.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine di Priapo Dio delli Horti, & del membro virile, & dell'Asino, & del Becco à lui sacrati, essendo inteso per la virtù seminale ò generatiua. è Dio punitore de Ladri, & del furto significato nella falce, & li animali sono segno di potente generatione.",
+      "text_ru": [
+        "«Образ Приапа, бога садов и мужского члена, с посвящёнными ему Ослом и Козлом, понимаемого как семенная, или порождающая, сила. Он — бог, карающий воров, а воровство означено серпом; животные же — знак мощной производительной силы»."
+      ],
+      "text_en": [
+        "“The image of Priapus, god of Gardens and of the male member, with the Ass and the He-goat sacred to him, understood as the seminal or generative power. He is a god who punishes Thieves, theft being signified by the sickle, and the animals are a sign of potent generation.”"
+      ],
+      "name_fr": "L'image de Priape, dieu des Jardins",
+      "text_fr": [
+        "« L'image de Priape, dieu des Jardins et du membre viril, avec l'Âne et le Bouc qui lui sont sacrés, entendu comme la vertu séminale ou générative. Il est le dieu punisseur des Voleurs, le vol étant signifié par la faucille, et les animaux sont signe d'une puissante génération. »"
+      ]
+    },
+    {
+      "id": "cartm97",
+      "num": "97",
+      "page": "97",
+      "fr": "Imagini degli dei Lari e Penati",
+      "ru": "Образы богов Ларов и Пенатов",
+      "en": "The images of the gods Lares and Penates",
+      "img": [
+        "cartm97.jpg"
+      ],
+      "scans": [
+        "cartm97.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagini delli Dei Lari: cioè custodi delle priuate case, & delle particolari Città, & inuestigatori de fatti humani, ouero Dei noceuoli; & imagine delli Dei Penati, & hieroglifico loro, dinotanti ancora loro Dei familiari, & custodi delle Città, & case de priuati.",
+      "text_ru": [
+        "«Образы богов Ларов, то есть хранителей частных домов и отдельных городов, расследователей дел человеческих, или же богов вредоносных; и образ богов Пенатов, и их иероглиф, означающие также, что они — семейные боги, хранители городов и частных домов»."
+      ],
+      "text_en": [
+        "“The images of the Lares gods: that is, guardians of private homes and of individual Cities, and investigators of human deeds, or else harmful gods; and the image of the Penates gods, and their hieroglyph, also denoting that they are household gods, guardians of Cities and of private homes.”"
+      ],
+      "name_fr": "Les images des dieux Lares et Pénates",
+      "text_fr": [
+        "« Les images des dieux Lares : c'est-à-dire gardiens des maisons privées et des Villes particulières, et enquêteurs des actes humains, ou bien dieux nuisibles ; et l'image des dieux Pénates, et leur hiéroglyphe, indiquant aussi qu'ils sont des dieux familiers, gardiens des Villes et des maisons privées. »"
+      ]
+    },
+    {
+      "id": "cartm98",
+      "num": "98",
+      "page": "98",
+      "fr": "Imagini del Genio buono e cattivo",
+      "ru": "Образы доброго и злого Гения",
+      "en": "The images of the good and evil Genius",
+      "img": [
+        "cartm98.jpg"
+      ],
+      "scans": [
+        "cartm98.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagini del Genio buono, & cattiuo, custode & osseruatore della generatione humana, delle attioni, & delle Città, & luoghi priuati.",
+      "text_ru": [
+        "«Образы доброго и злого Гения, хранителя и наблюдателя за человеческим рождением, деяниями, городами и частными местами»."
+      ],
+      "text_en": [
+        "“The images of the good and evil Genius, guardian and observer of human generation, of actions, and of Cities and private places.”"
+      ],
+      "name_fr": "Les images du bon et du mauvais Génie",
+      "text_fr": [
+        "« Les images du bon et du mauvais Génie, gardien et observateur de la génération humaine, des actions, et des Villes et lieux privés. »"
+      ]
     }
   ]
 }
