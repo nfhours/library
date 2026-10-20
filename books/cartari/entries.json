@@ -42,10 +42,7 @@
         "cartm2.jpg"
       ],
       "scans": [
-        "cartm2.jpg",
-        "cartm2_p56.jpg",
-        "cartm2_p57.jpg",
-        "cartm2_p58.jpg"
+        "cartm2.jpg"
       ],
       "group": "Главный текст",
       "group_en": "Main text",
@@ -62,8 +59,38 @@
       ]
     },
     {
-      "id": "cartm3",
+      "id": "cartm2b",
       "num": "3",
+      "page": "56",
+      "fr": "L'Antro dell'Eternità: ode di Claudiano (traduzione)",
+      "ru": "Пещера Вечности: ода Клавдиана (перевод)",
+      "en": "The Cave of Eternity: Claudian's ode (translation)",
+      "img": [
+        "cartm2b.jpg"
+      ],
+      "scans": [
+        "cartm2b.jpg",
+        "cartm2b_p57.jpg",
+        "cartm2b_p58.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Però dico, che la Eternità staua sempre con quelli Dei, che erano creduti immortali; la quale chi ella fosse dimostra assai bene col nome solo che viene a dire cosa, che in sè contiene tutte le età, & tutti i secoli, sì che spatio alcuno di tempo non la può misurare: benche si possa dire a certo modo, che ella sia parimente tempo, ma che non hà mai fine. Et perciò Trismegisto, i Pitagorici, & Platone dissero, che era il tempo la imagine della Eternità; perche questo in se stesso si riuolue, & pare che non se ne veggia mai il fine. Ma questa si può dire più tosto Perpetuità; perche, ancora che non habbia mai fine, non possiede però interamente tutta in vn medesimo punto questa sua vita infinita; che è proprio della Eternità, secondo Boetio; ilquale dice, che, se bene parue a Platone che il mondo non habbi hauuto principio, nè sia per hauere mai fine, s'ingannarono però quelli, liquali seguitando questa opinione lo chiamano coeterno a Dio... Describe dunque Boetio la Eternità, che sia vn possesso presentaneo di tutti i tempi, & questa è propria di Dio... Onde Claudiano, che largamente la descriue nelle laudi di Stilicone, fà che vn serpente circonda l'antro, oue ella stà, in modo che si caccia la coda in bocca, che viene a mostrare l'effetto del tempo, ilquale in se stesso si và girando sempre, hauendone tolto l'essempio da quelli di Egitto, liquali mostrauano l'anno parimente col serpente, che si mordeua la coda... Vedesi la Eternità in vna medaglia di Faustina fatta in questa guisa. Stà vna donna vestita da matrona in piè con vna palla nella destra mano, & hà sopra'l capo vn largo velo disteso, che la cuopre dall'vno homero all'altro. Ma vediamo tutto il disegno, che ne fà Claudiano, da me ritratto in nostra lingua à questo modo: 'In parte sì da noi lunge, e secreta, Ch'alcun mortal vestigio non v'appare, Oue a l'humana mente il gir si vieta, Nè vi ponno anco i Dei forse arriuare, Vna spelonca viue d'anni lieta, Ma d'età pare, Laqual con modo, ch'vnqua non vien meno, Manda, e richiama i tempi a l'ampio seno. Questa col flessuoso corpo cinge Vn serpe pien di verdeggianti squame, Qual ciò, che troua auidamente stringe Come che diuorar ei tutto brame, E la coda si caccia in gola, e finge Voler mangiarla con auida fame. Vassene in giro, e con l'vsate tempre, Onde partì, cheto ritorna sempre. A la porta con faccia riuerenda, Et d'anni piena stà l'alma Natura, Come custode, che fedele attenda Chi vien', & và con diligente cura; D'intorno volan l'anime, e che penda Ciascuna par con debita figura Da le membra, ch'à lei son date in sorte, E stan con lei fino che piace à Morte. Ne l'antro poi, ne la spelonca immensa Vn vecchio, c'hà di bianca neue asperso Il mento, e'l crine; stà, scriue e dispensa Le ferme leggi date à l'vniuerso. E mentre ch'à disporre il tutto pensa Con l'animo al bell'ordine conuerso, Certi numeri parte tra le stelle, Onde n'appaion poi sì vaghe e belle. Con ordine immutabili prescriue A ciascuna quando habbia à gir, ò stare Da che quanto tra noi si more, ò viue, Hà vita, e morte, poi torna à guardare E riueder come al suo corso arriue Marte, qual, bench'anezzo à caminare Per via certa, và pur à certo fine; Che così voglion le leggi diuine. Come con certo passo giri intorno Gioue portando giouamento al mondo, Come la Luna si nasconda il giorno, E tosto muti il bel lume fecondo, Come partendo sia tardo al ritorno Saturno horrido, mesto, & infecondo; Quanto Venere bella, e doppo lei Errando vada il messaggier de i Dei. E quando Febo à l'antro s'auuicina Subito ad incontrarlo la potente Natura viene, e à gli altri vai s'inchina Il bianco Vecchio humile, e riuerente. All'hora da sé s'apre la diuina Spelonca, allhor si vegono patente L'adamantine porte, e à poco à poco Tutti i secreti appaion di quel loco. Quiui i secoli sono di diuersi Metalli fatti in variati aspetti, E pare ciaschedun di lor tenersi Nel seggio suo con suoi compagni eletti; Questo è di ferro, onde souente fersi I mortali frà lor danni, e dispetti; Di rame quell', al cui gouerno è stato Il mondo tutto vn poco men turbato. Vn'altro v'è d'argento, che risplende In bel seggio eleuato d'ogn'intorno; Ma di rado trà noi mortai discende A far di sì bel lume il mondo adorno. Quello, che più de gli altri in alto ascende È d'oro, e d'oro son quei, ch'egli hà intorno, Tutti pieni di fede, e di prudenza, Di bontà, di giustitia, e di clemenza. E son gli anni beati, ch'à mortali Apporteran felicitade immensa, All'hor, ch'hauerà pietà de' nostri mali Febo, che questi à modo suo dispensa, Et farà, che dal Ciel spiegando l'ali La bella Astrea di nuouo amor accensa Di riueder il mondo à star frà noi Verrà senza più mai partirne poi.'",
+      "text_ru": [
+        "«Итак, я говорю, что Вечность всегда пребывала с теми богами, которых почитали бессмертными; а кто она есть, достаточно ясно показывает уже одно её имя, означающее то, что в себе содержит все века и все столетия, так что никакой промежуток времени не может её измерить: хотя в некотором смысле можно сказать, что она тоже есть время, только не имеющее конца. Поэтому Трисмегист, пифагорейцы и Платон говорили, что время есть образ Вечности, ибо оно вращается само в себе, и конца ему, кажется, никогда не видно. Но это скорее следует назвать Вечной Длительностью; ибо, хотя она и не имеет конца, она всё же не обладает всей своей бесконечной жизнью целиком в один и тот же миг — что как раз свойственно Вечности, согласно Боэцию... Клавдиан, пространно описывающий её в похвалах Стилихону, изображает змея, обвивающего пещеру, где она обитает, так что он держит хвост во рту — что означает действие времени, которое вечно вращается само в себе... Вечность видна на медали Фаустины: стоит женщина, одетая как матрона, с шаром в правой руке, и широкое покрывало раскинуто у неё над головой. Но посмотрим на весь замысел, который даёт нам Клавдиан, переложенный мной на наш язык:\n\n«В месте, от нас столь далёком и сокрытом, что ни единый смертный след не является, куда и человеческому уму путь заказан, и куда, быть может, даже боги не могут достичь, живёт некая пещера, счастливая годами, но кажущаяся неподвластной возрасту, которая неизменным образом, никогда не ослабевающим, посылает и вновь призывает времена в своё обширное лоно. Её гибким телом обвивает змей, полный зеленеющей чешуи, который всё, что находит, жадно сжимает, словно всё хочет поглотить, и засовывает хвост себе в пасть, притворяясь, что хочет съесть его с жадным голодом. Он движется по кругу и, откуда начал, туда же тихо всегда возвращается. У врат, с ликом почтенным, и полная годами, стоит благая Природа, словно страж, что верно ожидает приходящих и уходящих с усердной заботой; вокруг летают души, и кажется, что каждая зависит от подобающего ей облика, от членов, что даны ей по жребию, и пребывают с ней, пока это угодно Смерти. В глубине же, в безмерной пещере, некий старец, чей подбородок и волосы белым снегом посыпаны, сидит, пишет и раздаёт твёрдые законы, данные вселенной. И покуда он размышляет, как всё устроить, он распределяет между звёздами некие числа, отчего они являются столь прекрасными и красивыми. Неизменным порядком он предписывает каждой, когда ей идти или стоять; ибо всё, что среди нас умирает или живёт, имеет жизнь и смерть, он же вновь обращается взглядом, чтобы увидеть, как в своём ходе достигает цели Марс, который, хоть и привычен ходить определённым путём, всё же идёт к определённому концу; ибо так желают божественные законы. Как определённым шагом кружит вокруг Юпитер, принося пользу миру, как Луна прячется днём и быстро меняет свой прекрасный плодоносный свет, как, удаляясь, медлит с возвращением Сатурн, мрачный, печальный и бесплодный; сколь прекрасна Венера, и вслед за ней блуждая идёт вестник богов. И когда Феб приближается к пещере, тотчас навстречу ему выходит могучая Природа, и перед иными шествующими склоняется белый Старец, смиренно и почтительно. Тогда сама собой отворяется божественная Пещера, тогда становятся видны алмазные врата, и мало-помалу являются все тайны того места. Здесь века сделаны из различных металлов, в разнообразных обличиях, и кажется, что каждый держится на своём месте со своими избранными спутниками; этот — железный, от которого часто происходят между смертными беды и раздоры; тот — медный, при правлении которого весь мир был несколько менее взволнован. Есть и другой, серебряный, что блистает на прекрасном возвышенном со всех сторон престоле; но редко нисходит он к нам, смертным, чтобы украсить мир столь прекрасным светом. А тот, что выше прочих восходит, — золотой, и золотые те, что его окружают, все исполненные веры и благоразумия, доброты, справедливости и милосердия. И это — блаженные годы, что смертным принесут безмерное счастье, тогда, когда сжалится над нашими бедами Феб, который распределяет их по своему усмотрению, и сделает так, что, с Неба расправив крылья, прекрасная Астрея, вновь воспламенённая любовью, вернётся увидеть мир и остаться среди нас, и больше уже никогда не покинет его».»"
+      ],
+      "text_en": [
+        "“Thus I say that Eternity always dwelt with those gods who were believed immortal; and what she is, her very name shows well enough, meaning that which contains within itself all ages and all centuries, so that no span of time can measure her: although in a certain sense she too may be called time, only one that never ends. Hence Trismegistus, the Pythagoreans, and Plato said that time was the image of Eternity, because time revolves upon itself, and its end is never seen. But this should rather be called Perpetuity; for although it has no end, it does not possess the whole of its infinite life at one and the same instant — which is proper to Eternity, according to Boethius... Claudian, who describes her at length in his praises of Stilicho, shows a serpent encircling the cave where she dwells, biting its own tail, which signifies the effect of time, which ever turns upon itself... Eternity is seen on a medal of Faustina: a woman stands dressed as a matron, with a globe in her right hand, and a broad veil spread over her head. But let us see the whole design that Claudian gives us, rendered by me into our tongue:\n\n'In a place so far from us, and secret, that no mortal footprint there appears, where the human mind is forbidden to venture, nor can the gods themselves perhaps arrive, there dwells a cave, happy in years, yet seeming beyond the reach of age, which, in a manner that never fails, sends forth and calls back the ages into its vast bosom. This cave a Serpent girds with pliant body, full of greenish scales, which eagerly grasps whatever it finds, as though it craved to devour all, and thrusts its tail into its mouth, feigning to wish to eat it with ravenous hunger. It goes round in a circle, and returns ever quietly to where it began. At the gate, with reverend face, and full of years, stands bountiful Nature, like a guardian who faithfully awaits those who come and go, with diligent care; around her fly the souls, and each one seems to depend upon its due form, from the limbs allotted to it by lot, and they remain with her until it pleases Death. Within, in the immense cavern, an old man, whose chin and hair are sprinkled with white snow, sits, writes, and dispenses the firm laws given to the universe. And while he thinks how to arrange all things, he apportions certain numbers among the stars, whence they then appear so lovely and fair. With unchanging order he prescribes to each when it shall go or stay; for whatever among us dies or lives has life and death, and he turns again to watch and see how, in its course, Mars arrives — who, though accustomed to walk a fixed path, still goes to a fixed end; for so the divine laws will it. How Jove circles round with fixed step, bringing benefit to the world, how the Moon hides by day, and swiftly changes her fair fruitful light, how, departing, Saturn is slow to return, grim, sad, and barren; how fair Venus is, and after her wanders the messenger of the gods. And when Phoebus draws near the cave, at once to meet him comes mighty Nature, and before the others passing by bows the white Old Man, humble and reverent. Then of itself opens the divine Cavern, then are seen laid open the adamantine gates, and little by little all the secrets of that place appear. Here the ages are made of different Metals, in varied aspects, and each seems to hold its place on its own seat with its chosen companions; this one is of iron, from which often arise harms and spites among mortals; that one of copper, under whose rule the whole world was somewhat less troubled. There is another, of silver, that shines on a fair seat raised up on every side; but rarely does it descend to us mortals to adorn the world with so fair a light. The one that rises highest above the rest is of gold, and golden too are those around it, all full of faith and prudence, of goodness, justice, and clemency. And these are the blessed years that to mortals shall bring immense happiness, when Phoebus, who dispenses these in his own manner, shall take pity on our ills, and shall cause fair Astraea, spreading her wings from Heaven, rekindled with new love, to see the world again and dwell among us, and never again depart.'”"
+      ],
+      "name_fr": "L'Antre de l'Éternité : ode de Claudien (traduction)",
+      "text_fr": [
+        "« Je dis donc que l'Éternité demeurait toujours avec ces dieux que l'on croyait immortels ; et ce qu'elle est, son nom seul le montre assez bien, signifiant ce qui contient en soi tous les âges et tous les siècles, de sorte qu'aucun espace de temps ne peut la mesurer : bien que, en un certain sens, on puisse dire qu'elle est aussi temps, mais un temps qui n'a jamais de fin. C'est pourquoi Trismégiste, les Pythagoriciens et Platon ont dit que le temps était l'image de l'Éternité, parce qu'il tourne sur lui-même, et qu'on n'en voit jamais la fin. Mais ceci devrait plutôt s'appeler Perpétuité ; car, bien qu'elle n'ait pas de fin, elle ne possède pas pour autant toute sa vie infinie en un seul et même instant — ce qui est le propre de l'Éternité, selon Boèce... Claudien, qui la décrit longuement dans ses louanges de Stilicon, montre un serpent entourant l'antre où elle demeure, se mordant la queue, ce qui signifie l'effet du temps, qui tourne toujours sur lui-même... L'Éternité se voit sur une médaille de Faustine : une femme se tient debout, vêtue en matrone, un globe dans la main droite, et un large voile étendu sur sa tête. Mais voyons tout le dessin qu'en donne Claudien, que j'ai rendu dans notre langue de cette façon :\n\n« En un lieu si loin de nous, et si secret, qu'aucune trace mortelle n'y apparaît, où il est interdit à l'esprit humain de se rendre, et où peut-être les dieux eux-mêmes ne sauraient parvenir, vit un antre, heureux de ses années, mais paraissant hors d'âge, lequel, d'une manière qui jamais ne faiblit, envoie et rappelle les temps en son vaste sein. Cet antre, de son corps souple, un Serpent l'entoure, plein d'écailles verdoyantes, qui saisit avidement tout ce qu'il trouve, comme s'il voulait tout dévorer, et se fourre la queue dans la bouche, feignant de vouloir la manger d'une faim avide. Il tourne en rond, et toujours tranquillement revient d'où il est parti. À la porte, au visage vénérable, et pleine d'années, se tient la bienfaisante Nature, comme une gardienne qui attend fidèlement ceux qui vont et viennent, avec un soin diligent ; autour d'elle volent les âmes, et chacune semble dépendre de la forme qui lui est due, des membres qui lui sont donnés en partage, et elles demeurent avec elle tant qu'il plaît à la Mort. Dans la caverne immense, un vieillard, dont le menton et les cheveux sont saupoudrés de neige blanche, est assis, écrit et dispense les lois fermes données à l'univers. Et tandis qu'il songe à tout disposer, il répartit certains nombres parmi les étoiles, d'où elles paraissent ensuite si belles et gracieuses. D'un ordre immuable, il prescrit à chacune quand elle doit aller ou s'arrêter ; car tout ce qui, parmi nous, meurt ou vit, a vie et mort, et lui se retourne pour regarder et revoir comment, en sa course, parvient Mars, lequel, bien qu'accoutumé à marcher par une voie certaine, va pourtant vers une fin certaine ; car ainsi le veulent les lois divines. Comme d'un pas certain tourne autour Jupiter, apportant bienfait au monde, comme la Lune se cache le jour, et change vite sa belle lumière féconde, comme, en partant, tarde à revenir Saturne, horrible, triste et infécond ; combien Vénus est belle, et après elle erre le messager des dieux. Et quand Phébus s'approche de l'antre, aussitôt, à sa rencontre, vient la puissante Nature, et devant les autres qui passent s'incline le blanc Vieillard, humble et révérencieux. Alors s'ouvre d'elle-même la divine Caverne, alors se voient grandes ouvertes les portes adamantines, et peu à peu apparaissent tous les secrets de ce lieu. Là, les siècles sont faits de différents Métaux, sous des aspects variés, et chacun semble se tenir à sa place, avec ses compagnons élus ; celui-ci est de fer, d'où naissent souvent entre les mortels maux et dépits ; celui-là de bronze, sous le gouvernement duquel le monde entier fut un peu moins troublé. Il en est un autre, d'argent, qui brille sur un beau siège élevé de toutes parts ; mais rarement il descend parmi nous, mortels, pour orner le monde d'une si belle lumière. Celui qui, plus que les autres, s'élève le plus haut est d'or, et d'or sont ceux qui l'entourent, tous pleins de foi et de prudence, de bonté, de justice et de clémence. Et ce sont les années bienheureuses qui, aux mortels, apporteront un bonheur immense, lorsque Phébus, qui les dispense à sa guise, aura pitié de nos maux, et fera qu'en déployant ses ailes depuis le Ciel, la belle Astrée, rallumée d'un nouvel amour, reviendra revoir le monde et demeurer parmi nous, sans jamais plus s'en départir ensuite. »"
+      ],
+      "textOnly": true
+    },
+    {
+      "id": "cartm3",
+      "num": "4",
       "page": "59",
       "fr": "Antro dell'Eternità, con l'imagine del Tempo",
       "ru": "Пещера Вечности с образом Времени",
@@ -73,11 +100,7 @@
       ],
       "scans": [
         "cartm3.jpg",
-        "cartm3_p60.jpg",
-        "cartm3_p61.jpg",
-        "cartm3_p62.jpg",
-        "cartm3_p63.jpg",
-        "cartm3_p64.jpg"
+        "cartm3_p60.jpg"
       ],
       "group": "Главный текст",
       "group_en": "Main text",
@@ -94,8 +117,117 @@
       ]
     },
     {
+      "id": "cartm_sat1",
+      "num": "5",
+      "page": "61",
+      "fr": "SATVRNO: apertura del capitolo e poesia",
+      "ru": "САТУРН: открытие главы и стихотворение",
+      "en": "SATURN: chapter opening and poem",
+      "img": [
+        "cartm_sat1.jpg"
+      ],
+      "scans": [
+        "cartm_sat1.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "SATVRNO. Il primo fù Saturno, che disceso Da l'alto Ciel fuggendo il figlio Gioue, Ed a forza priuato de' suoi regni, Venne a mostrar' a gli huomini, ch'allhora Come le fere andauano dispersi Per gli alti monti, il modo di raccorsi Insieme, e d'vbbidire a certe leggi. Et il paese, oue à principio ei stette Latente, fù perciò chiamato Latio. Sotto'l gouerno di costui si dice Che fù il felice secolo de l'oro Così reggeua ei giustamente i suoi Popoli dando lor riposo, e pace. In questo modo canta Virgilio di Saturno, mettendo la historia con le fauole, conciosia che quella reciti che Saturno andò in Italia scacciato di Grecia dal figliuolo, & queste habbino finto poi, che egli era prima Signore del Cielo, & che Gioue ne lo scacciò, & lo fece scendere al basso; perche la Grecia è più verso l'Oriente, & perciò più alta della Italia, che rende verso l'Occidente. Ritiratosi adunque Saturno in Italia, fù da Giano Rè di quel paese, oue poi fù messa Roma, che se ne viueua con suoi popoli quella roza vita de più antichi mortali, tolto a parte del regno, perche gli mostrò la coltiuatione de i campi, & il fare gli denari di metallo, che prima erano di cuoio. Et fù perciò fatta su questi poi dall'vno de lati vna naue, perche Saturno nauigando andò in Italia, e dall'altro vna testa con due faccie, che tale era la imagine di Giano, come vedremo poi. Edificarono questi due Rè communemente terre, & castelli vicini, che dal loro nome i chiamarono; come Saturnia da Saturno, & Gianicolo da Giano. Onde tanto fu stimato Saturno da quelle genti, che insieme col Rè loro cominciarono à riuerirlo come Dio, perche erano all'hora stimati Dei quelli, liquali sapeuano trouare, & là insegnauano, qualche arte che fosse vtile alla vita humana; & questa di coltiuare il terreno, & farlo con arte più fecondo, che non è di sua natura, è vtilissima; & perciò Saturno ne meritò gli sacri honori, & fu chiamato Stercutio dallo stercorare i campi, cioè dare loro il letame, onde diuengono poi più fertili.",
+      "text_ru": [
+        "«САТУРН. Первым был Сатурн, который, сойдя с высокого Неба, бежав от сына Юпитера, и силой лишённый своих царств, явился показать людям, которые дотоле, словно дикие звери, бродили рассеянными по высоким горам, способ собираться вместе и повиноваться неким законам. И страна, где он поначалу скрывался, была за это названа Лацием. Под его правлением, как говорят, был счастливый золотой век: так справедливо правил он своими народами, давая им покой и мир. Так воспевает Вергилий Сатурна, соединяя историю с баснями, поскольку он рассказывает, что Сатурн отправился в Италию, изгнанный из Греции сыном, а [баснословцы] измыслили затем, будто он прежде был Владыкой Неба, и что Юпитер изгнал его оттуда и заставил сойти вниз; ибо Греция расположена более к Востоку, а потому выше Италии, которая обращена к Западу. Итак, удалившись в Италию, Сатурн был принят в долю царства Янусом, царём той страны, где потом был основан Рим, который жил со своими народами той грубой жизнью древнейших смертных, — ибо [Сатурн] показал им возделывание полей и изготовление денег из металла, которые прежде были кожаными. И потому на этих [монетах] с одной стороны изображался корабль, ибо Сатурн приплыл в Италию морем, а с другой — голова с двумя лицами, ибо таков был образ Януса, как увидим далее. Эти два царя совместно строили земли и крепости поблизости, названные их именами: как Сатурния от Сатурна, и Яникул от Януса. Настолько высоко ценили Сатурна те народы, что вместе со своим царём стали почитать его как бога, ибо в те времена богами считались те, кто умел открыть и преподать какое-либо искусство, полезное для человеческой жизни; а возделывание земли и превращение её искусством в более плодородную, чем от природы, — вещь весьма полезная; потому Сатурн заслужил священные почести и был назван Стеркутием от «stercorare» — унавоживать поля, то есть давать им навоз, отчего они становятся более плодородными»."
+      ],
+      "text_en": [
+        "“SATURN. The first was Saturn, who, descending from high Heaven, fleeing his son Jove, and by force deprived of his kingdoms, came to show men, who till then wandered scattered like wild beasts over the high mountains, the way to gather together and obey certain laws. And the country where he at first lay hidden was therefore called Latium. Under his rule, it is said, was the happy golden age: so justly did he govern his peoples, giving them rest and peace. Thus Virgil sings of Saturn, mixing history with fable, since he relates that Saturn went to Italy, driven out of Greece by his son, and that they then feigned he had first been Lord of Heaven, and that Jove drove him out and made him descend below; because Greece lies more to the East, and is therefore higher than Italy, which faces the West. Having thus withdrawn to Italy, Saturn was given a share of the kingdom by Janus, king of that country, where Rome was later founded, who lived with his peoples that rough life of the most ancient mortals — for Saturn showed them the cultivation of fields, and the making of money from metal, which before had been of leather. And therefore on these coins, on one side was depicted a ship, because Saturn sailed to Italy, and on the other a head with two faces, which was the image of Janus, as we shall see later. These two kings jointly built towns and nearby strongholds, named after them: such as Saturnia from Saturn, and Janiculum from Janus. So greatly was Saturn esteemed by those peoples that, together with their king, they began to revere him as a god, since in those times those were deemed gods who knew how to find, and there to teach, some art useful to human life; and this, of cultivating the land and making it more fruitful by art than it is by nature, is most useful; and so Saturn earned sacred honours, and was called Stercutius from 'stercorare,' to manure the fields, that is, to give them dung, from which they then become more fertile.”"
+      ],
+      "name_fr": "SATURNE : ouverture du chapitre et poème",
+      "text_fr": [
+        "« SATURNE. Le premier fut Saturne, qui, descendu du haut Ciel, fuyant son fils Jupiter, et privé par la force de ses royaumes, vint montrer aux hommes, qui jusque-là erraient dispersés comme des bêtes sauvages sur les hautes montagnes, la manière de se rassembler et d'obéir à certaines lois. Et le pays où il se cacha d'abord fut pour cela appelé Latium. Sous son règne, dit-on, fut le siècle d'or heureux : ainsi gouvernait-il justement ses peuples, leur donnant repos et paix. Ainsi chante Virgile de Saturne, mêlant l'histoire aux fables, puisqu'il raconte que Saturne alla en Italie, chassé de Grèce par son fils, et qu'on feignit ensuite qu'il avait d'abord été Seigneur du Ciel, et que Jupiter l'en chassa et le fit descendre en bas ; car la Grèce est plus vers l'Orient, et donc plus haute que l'Italie, qui regarde vers l'Occident. Retiré donc en Italie, Saturne fut admis à une part du royaume par Janus, roi de ce pays où fut ensuite bâtie Rome, lequel vivait avec ses peuples cette vie rude des mortels les plus anciens — car Saturne leur montra la culture des champs, et la fabrication de monnaie en métal, qui auparavant était de cuir. Et c'est pourquoi sur ces monnaies était figuré d'un côté un navire, car Saturne vint en Italie par mer, et de l'autre une tête à deux visages, qui était l'image de Janus, comme nous le verrons plus loin. Ces deux rois bâtirent ensemble des villes et des forteresses voisines, nommées d'après eux : comme Saturnia d'après Saturne, et le Janicule d'après Janus. Saturne fut si estimé de ces peuples qu'avec leur roi ils commencèrent à le vénérer comme un dieu, car en ces temps-là étaient tenus pour dieux ceux qui savaient trouver, et y enseigner, quelque art utile à la vie humaine ; et celui de cultiver la terre, et de la rendre par l'art plus féconde qu'elle ne l'est par nature, est des plus utiles ; c'est pourquoi Saturne mérita les honneurs sacrés, et fut appelé Stercutius, de 'stercorare', fumer les champs, c'est-à-dire leur donner du fumier, d'où ils deviennent ensuite plus fertiles. »"
+      ],
+      "textOnly": true
+    },
+    {
+      "id": "cart1",
+      "num": "6",
+      "page": "62",
+      "fr": "Saturno",
+      "ru": "Сатурн",
+      "en": "Saturn",
+      "img": [
+        "cart1.jpg"
+      ],
+      "caption": "Imagine di Saturno, ò del Tempo deuoratore de' suoi figliuoli, cioè del tutto consumatore, eccettuati Gioue, Giunone, Nettuno, & Plutone, intesi per li quattro elementi Fuoco, Aria, Aqua, & Terra, che non si distruggono.",
+      "text_ru": [
+        "Образ Сатурна, или Времени, пожирающего собственных детей, то есть всепоглощающего, — кроме Юпитера, Юноны, Нептуна и Плутона, которые понимаются как четыре стихии, Огонь, Воздух, Вода и Земля, не подверженные разрушению."
+      ],
+      "text_en": [
+        "Image of Saturn, or of Time devouring his own children — that is, the all-consumer — except for Jove, Juno, Neptune and Pluto, who are understood as the four elements, Fire, Air, Water and Earth, which are not subject to destruction."
+      ],
+      "name_fr": "Saturne",
+      "text_fr": [
+        "Image de Saturne, ou du Temps dévorant ses propres enfants, c'est-à-dire du grand consommateur de toutes choses — hormis Jupiter, Junon, Neptune et Pluton, compris comme les quatre éléments, le Feu, l'Air, l'Eau et la Terre, qui ne sont pas sujets à destruction."
+      ],
+      "scans": [
+        "cart1.jpg"
+      ]
+    },
+    {
+      "id": "cartm7",
+      "num": "7",
+      "page": "62",
+      "fr": "Imagini di Giano, inteso per il Sole e per il Tempo",
+      "ru": "Образ Януса, понимаемого как Солнце и Время",
+      "en": "The image of Janus, understood as the Sun and as Time",
+      "img": [
+        "cartm7.jpg"
+      ],
+      "scans": [
+        "cartm7.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagini di Giano inteso ancora per il Sole, per il Tempo, per il Dio dell'anno, & della pace, significano ancora li duoi lumi dell'anima nostra, il lume divino & il lume naturale.",
+      "text_ru": [
+        "«Образы Януса, понимаемого также как Солнце, как Время, как бог года и мира, означают также два света нашей души: свет божественный и свет естественный»."
+      ],
+      "text_en": [
+        "“The images of Janus, understood also as the Sun, as Time, as the god of the year and of peace, also signify the two lights of our soul: the divine light and the natural light.”"
+      ],
+      "name_fr": "Les images de Janus, entendu comme le Soleil et le Temps",
+      "text_fr": [
+        "« Les images de Janus, entendu aussi comme le Soleil, comme le Temps, comme le dieu de l'année et de la paix, signifient aussi les deux lumières de notre âme : la lumière divine et la lumière naturelle. »"
+      ]
+    },
+    {
+      "id": "cartm_sat2",
+      "num": "8",
+      "page": "63",
+      "fr": "Saturno: i sacrifici, la falce, la favola del vino e la morte di Giano",
+      "ru": "Сатурн: жертвоприношения, серп, басня о вине и смерть Януса",
+      "en": "Saturn: sacrifices, the sickle, the fable of wine, and the death of Janus",
+      "img": [
+        "cartm_sat2.jpg"
+      ],
+      "scans": [
+        "cartm_sat2.jpg",
+        "cartm_sat2_p64.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Ne' sacrificij Saturnali poi anco si adoperauano candele accese: la qual cosa dichiarando Macrobio dice, che era, perche sotto il reggimento di Saturno gli huomini da vna incolta vita, & piena di tenebre, passarono alla lucida & bella scientia delle buone arti. Oltre di ciò intesero gli antichi il tempo sotto il nome di Saturno, del quale dissero i Latini molte ragioni tutte confacentisi al tempo, ma non già al proposito nostro. Et i Greci parimente lo chiamarono Crono, che viene a dire tempo, & quello, che significa il nome, fu mostrato nella imagine di questo Dio; perche le fecero quasi sempre di huomo vecchio, mal vestito, senza nulla in capo, con vna falce nell'vna mano, & nell'altra haueua certa cosa auiluppata in vn panno, quale pareua cacciarsi in gola, come che la volesse diuorare, e quattro piccioli fanciullini gli erano quini appresso. Queste cose sono interpretate in questo modo: Il tempo è vecchio e mal vestito perche ò sempre è stato, ouero cominciò ad essere insieme con il mondo... Fu detto anco Saturno, Vitisatore, quasi cultor delle viti, perche dicono, che essendo passato nell'Italia, come s'è detto, & accettato da' Latini, ne hebbe della figlia di vno d'essi Enotria nominata, alcuni figliuoli, trà quali vien connumerato Gian; a chi egli insegnò il modo di piantare, & coltiuar la vite, & di fare il vino; ilche hauendo essi operato, & guadagnatone perciò il nome di inuentori, auenne che vn giorno alcuni liquali forse haueuano beuuto più di quello, che loro si conueniua, si addormentarono, & fecero vn longhissimo sonno, dal quale poi suegliati & accortisi, che questo era accaduto per il beuuto vino, credendo che fosse qualche cosa venenata, lapidarono, & occisero Giano, come inuentor di quello; per il che quattro figliuole di lui rimaste, per doglia con vna fune ligatasi al collo si leuarono la vita: mà da Saturno furono poste nel Cielo in loco di Stelle, & à noi si dimostrano poco auanti il tempo della vendemmia. Essendo poscia vn tempo i Romani aggrauati di pestilentia, & hauendo perciò consultato l'oracolo d'Apolline, hebbero in risposta, che bisognaua placar prima l'ira di Saturno riceuuta per la morte di Giano suo figliuolo, da che mossi i Romani gli edificarono vn tempio su'l Monte Tarpeio, & vi posero Giano con quattro faccie; ò dal numero delle figliuole, ò dalle quattro stagioni dell'anno.",
+      "text_ru": [
+        "«На сатурналийских жертвоприношениях также возжигали свечи: Макробий, объясняя это, говорит, что это было потому, что под властью Сатурна люди от грубой жизни, полной тьмы, перешли к светлой и прекрасной науке благих искусств. Кроме того, древние понимали под именем Сатурна само Время, о котором латиняне приводили многие объяснения, все уместные применительно ко времени, но не к нашей теме. Греки равным образом называли его Кроном, что означает «время», и то, что означает это имя, было показано в образе этого бога: его почти всегда изображали стариком, плохо одетым, без ничего на голове, с серпом в одной руке, а в другой держащим нечто, завёрнутое в ткань, которое, казалось, он засовывает себе в глотку, словно желая проглотить, и четверо маленьких детей стояли рядом с ним. Это толкуется следующим образом: время старо и плохо одето, ибо оно всегда существовало, или началось вместе с миром... Назывался Сатурн также Витисатором, то есть почти «возделывателем лоз», ибо говорят, что, прибыв в Италию, как было сказано, и принятый латинянами, он имел от дочери одного из них, по имени Энотрия, нескольких сыновей, среди которых числится и Гиан; его он научил способу сажать и возделывать виноградную лозу и делать вино; а когда они это осуществили и заслужили тем самым имя изобретателей, случилось однажды, что некоторые, выпив, быть может, больше, чем им подобало, уснули и погрузились в весьма долгий сон, от которого, пробудившись и поняв, что это случилось от выпитого вина, решив, что это было нечто отравленное, побили камнями и убили Гиана как изобретателя вина; из-за чего четыре оставшиеся его дочери, от горя обвязав себе шею верёвкой, лишили себя жизни: но Сатурн поместил их на Небо вместо звёзд, и они являются нам незадолго до времени сбора винограда. Впоследствии, когда однажды римляне были отягощены моровой язвой и вопросили об этом оракул Аполлона, они получили в ответ, что надлежит прежде умиротворить гнев Сатурна, вызванный смертью его сына Гиана; побуждённые этим, римляне воздвигли ему храм на Тарпейской горе и поместили там Януса с четырьмя лицами — либо по числу дочерей, либо по четырём временам года»."
+      ],
+      "text_en": [
+        "“At the Saturnalian sacrifices, too, lit candles were used: explaining this, Macrobius says it was because under Saturn's rule men passed from an uncultivated life, full of darkness, to the bright and beautiful knowledge of the good arts. Besides this, the ancients understood Time itself under the name of Saturn, concerning which the Latins gave many explanations, all fitting for time, but not for our present purpose. The Greeks likewise called him Cronus, which means time, and what this name signifies was shown in the image of this god; for they almost always made him an old man, poorly dressed, with nothing on his head, with a sickle in one hand, and in the other holding something wrapped in cloth, which he seemed to be thrusting into his throat, as if wishing to devour it, with four little children standing nearby. These things are interpreted thus: time is old and poorly dressed because it has always existed, or began together with the world... Saturn was also called Vitisator, almost 'cultivator of vines,' because they say that, having come to Italy, as has been said, and welcomed by the Latins, he had, by the daughter of one of them named Oenotria, several sons, among whom Janus is numbered; whom he taught how to plant and cultivate the vine, and to make wine; and having done this, and thereby earned the name of inventors, it happened one day that some, having perhaps drunk more than was fitting, fell asleep and had a very long sleep, from which, waking and realizing that this had happened from the wine drunk, believing it to be something poisoned, stoned and killed Janus as its inventor; for which his four surviving daughters, in grief, tied a rope around their necks and took their own lives: but Saturn placed them in the Heavens as Stars, and they appear to us shortly before the time of the grape harvest. Afterward, when the Romans were once burdened by plague, and having consulted the oracle of Apollo on this account, they received in answer that they must first appease the wrath of Saturn, incurred by the death of his son Janus; moved by this, the Romans built him a temple on the Tarpeian Hill, and placed there Janus with four faces — either from the number of his daughters, or from the four seasons of the year.”"
+      ],
+      "name_fr": "Saturne : les sacrifices, la faucille, la fable du vin et la mort de Janus",
+      "text_fr": [
+        "« Lors des sacrifices saturnales, on employait aussi des chandelles allumées : expliquant cela, Macrobe dit que c'était parce que, sous le règne de Saturne, les hommes passèrent d'une vie inculte, pleine de ténèbres, à la science lumineuse et belle des bons arts. Outre cela, les anciens entendaient le Temps lui-même sous le nom de Saturne, sur quoi les Latins donnaient de nombreuses raisons, toutes convenant au temps, mais non à notre propos. Les Grecs de même l'appelaient Cronos, ce qui signifie temps, et ce que signifie ce nom fut montré dans l'image de ce dieu ; car on le fit presque toujours en vieillard, mal vêtu, sans rien sur la tête, une faucille à la main, et dans l'autre tenant une chose enveloppée dans un linge, qu'il semblait se fourrer dans la gorge, comme s'il voulait la dévorer, avec quatre petits enfants auprès de lui. Ces choses s'interprètent ainsi : le temps est vieux et mal vêtu parce qu'il a toujours existé, ou commença avec le monde... Saturne fut aussi appelé Vitisator, presque « cultivateur de vignes », car on dit qu'étant venu en Italie, comme il a été dit, et accueilli par les Latins, il eut, de la fille de l'un d'eux nommée Œnotria, plusieurs fils, parmi lesquels on compte Janus ; à qui il enseigna la façon de planter et cultiver la vigne, et de faire le vin ; et l'ayant fait, et en ayant ainsi mérité le nom d'inventeurs, il advint un jour que certains, ayant peut-être bu plus qu'il ne convenait, s'endormirent et firent un très long sommeil, dont, réveillés et s'apercevant que cela était arrivé à cause du vin bu, croyant que c'était quelque chose d'empoisonné, lapidèrent et tuèrent Janus comme en étant l'inventeur ; pour quoi ses quatre filles restantes, de douleur, s'étant lié une corde au cou, s'ôtèrent la vie : mais Saturne les plaça au Ciel en guise d'Étoiles, et elles nous apparaissent peu avant le temps des vendanges. Les Romains étant ensuite une fois accablés de peste, et ayant pour cela consulté l'oracle d'Apollon, reçurent pour réponse qu'il fallait d'abord apaiser la colère de Saturne, encourue par la mort de son fils Janus ; mus par cela, les Romains lui bâtirent un temple sur le mont Tarpéien, et y placèrent Janus à quatre visages — soit d'après le nombre de ses filles, soit d'après les quatre saisons de l'année. »"
+      ],
+      "textOnly": true
+    },
+    {
       "id": "cartm4",
-      "num": "4",
+      "num": "9",
       "page": "65",
       "fr": "Imagine di Saturno, del Tempo e dell'anno (fra le stelle)",
       "ru": "Образ Сатурна, Времени и года (среди звёзд)",
@@ -104,8 +236,7 @@
         "cartm4.jpg"
       ],
       "scans": [
-        "cartm4.jpg",
-        "cartm4_p66.jpg"
+        "cartm4.jpg"
       ],
       "group": "Главный текст",
       "group_en": "Main text",
@@ -122,8 +253,36 @@
       ]
     },
     {
+      "id": "cartm_sat3",
+      "num": "10",
+      "page": "66",
+      "fr": "Saturno: Titano, i figli divorati, l'immagine sassone e Marciano Capella",
+      "ru": "Сатурн: Титан, пожранные дети, саксонский образ и Марциан Капелла",
+      "en": "Saturn: Titan, the devoured children, the Saxon image, and Martianus Capella",
+      "img": [
+        "cartm_sat3.jpg"
+      ],
+      "scans": [
+        "cartm_sat3.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Ma alcuni altri, liquali anco pare a me, che meglio dechiarino la cagione del diuorare i figliuoli, dicono, che essendo Titano fratello di Saturno di maggior età di lui, & volendo perciò regnare, Saturno a persuasion della madre, & delle sorelle non gli volse altrimenti acconsentire, anzi che egli si fece Rè. Da questo essendo per nascere discordia tra essi fratelli, si acquetarono finalmente con questa conditione; che douesse Saturno continuar nel Regno, ma che douesse far morire tutti i figliuoli, che gli nascessero maschi, acciò che fosse sicuro Titano, che finalmente il Regno douesse ricader in lui, ò ne' suoi figliuoli. Essequì per vn tempo Saturno la conditione, & per questo vien detto, che egli diuorasse i figliuoli; ma essendoli nati Gioue, & Giunone in vn parto, seguì di loro, & di Nettuno poi, & così anco di Plutone quanto si disse di sopra: la qual cosa intesa da Titano assaltò sì d'improuiso il fratello Saturno, che lo fece con la moglie prigione, & così li tenne fino a tanto, che da Gioue superato, furono quelli sciolti, & liberati. Fingeuano quelli di Sassonia, volendo descriuer Saturno, vn vecchio che staua ritto sopra ad vn pesce, & teneua vn vaso, & vna ruota; Ma che cosa volesse significare è stato sempre segreto, & perciò io ne anco qui lo dichiaro. Martiano, descriuendo Saturno, lo fa che porge con la destra mano vn serpente, quale si morde la coda, mostrando in questa guisa, che per lui s'intende il tempo: & dice, che ei và con passo lento, e tardo, & ha il capo coperto di vn velo, che verdeggia, le chiome, & la barba sono tutte canute, & benche egli sia così vecchio, pare nondimeno potere anco ritornare fanciullo. Ilche si può dire essere il rinouamento, che fa il tempo di anno in anno: & perciò il velo verde sopra la bianca chioma mostra il principio dell'anno, quando nella primauera tutta la terra verdeggia, laquale nell'inuerno poi si cuopre di bianchissima neue, & così tosto si passa dall'vna stagione all'altra, che paiono essere giunti insieme. La tardità del passo si può riferire al tardo riuolgimento, che fa la spera di Saturno la quale delle sette de i Pianeti è la maggiore, perche è sopra a tutte le altre; & però più delle altre, che è in trenta anni, tarda a compire il suo giro.",
+      "text_ru": [
+        "«Но некоторые другие, что, как мне кажется, лучше объясняют причину пожирания детей, говорят, что Титан, брат Сатурна, был старше его годами, и, желая потому царствовать, [встретил отказ]: Сатурн, по совету матери и сестёр, не захотел на это согласиться, но сам сделался царём. Из-за этого между братьями должен был возникнуть раздор, но они примирились наконец на таком условии: чтобы Сатурн продолжал царствовать, но чтобы он умерщвлял всех детей мужского пола, которые у него родятся, дабы Титан был уверен, что царство в конце концов достанется ему или его сыновьям. Сатурн некоторое время исполнял это условие, отчего и говорят, что он пожирал детей; но когда у него родились разом Юпитер и Юнона, та же участь постигла их, а затем Нептуна, и также Плутона, как было сказано выше. Узнав об этом, Титан столь внезапно напал на брата Сатурна, что захватил его вместе с женой в плен и держал их так до тех пор, пока, побеждённый Юпитером, не был сам лишён власти, и они были освобождены. Саксонцы, желая изобразить Сатурна, представляли старика, стоящего на рыбе и держащего сосуд и колесо; но что это должно означать, всегда оставалось тайной, и потому я и здесь этого не объясняю. Марциан [Капелла], описывая Сатурна, изображает его протягивающим правой рукой змея, кусающего свой хвост, показывая этим, что под ним разумеется время: и говорит, что он идёт медленным и неспешным шагом, и голова его покрыта зеленеющим покрывалом, волосы же и борода совершенно седые, и хотя он столь стар, кажется, однако, что он может вновь стать ребёнком. Это можно назвать обновлением, которое время совершает из года в год: и потому зелёное покрывало поверх белых волос означает начало года, когда весной вся земля зеленеет, которая зимой затем покрывается белейшим снегом, и так быстро переходит от одного времени года к другому, что кажется, будто они соединены вместе. Медленность шага можно отнести к медленному обращению, которое совершает сфера Сатурна, которая среди семи планет является наибольшей, ибо находится выше всех прочих; и потому более прочих, а именно за тридцать лет, медлит завершить свой круг»."
+      ],
+      "text_en": [
+        "“But some others, who also seem to me to explain better the reason for devouring the children, say that Titan, Saturn's brother, was older than he, and wishing therefore to reign, Saturn, on the advice of his mother and sisters, refused to consent to this, and instead made himself king. From this, discord was about to arise between the brothers, but they finally settled on this condition: that Saturn should continue to reign, but that he should put to death all male children born to him, so that Titan might be assured that the Kingdom would eventually fall to him or to his sons. Saturn carried out this condition for a time, and this is why it is said he devoured his children; but when Jove and Juno were born to him at one birth, the same befell them, and then Neptune, and also Pluto as said above: learning of this, Titan attacked his brother Saturn so suddenly that he took him and his wife prisoner, and held them so until, overcome by Jove, they were set free. The Saxons, wishing to depict Saturn, imagined an old man standing upon a fish, holding a vase and a wheel; but what this was meant to signify has always remained secret, and so I do not explain it here either. Martianus, describing Saturn, has him holding out in his right hand a serpent biting its own tail, showing thereby that time is meant by him: and he says that he walks with a slow and tardy step, and his head is covered with a greening veil, his hair and beard all white, and although he is so old, he nonetheless seems able to become a child again. This may be called the renewal that time makes year by year: and so the green veil over the white hair shows the beginning of the year, when in spring all the earth turns green, which in winter is then covered with the whitest snow, and thus one season passes so quickly into another that they seem joined together. The slowness of his step may refer to the slow revolution made by Saturn's sphere, which of the seven Planets is the greatest, being above all the others; and so, more than the others, taking thirty years, it is slow to complete its circuit.”"
+      ],
+      "name_fr": "Saturne : Titan, les enfants dévorés, l'image saxonne et Martianus Capella",
+      "text_fr": [
+        "« Mais d'autres encore, qui me semblent aussi mieux expliquer la raison de dévorer les enfants, disent que Titan, frère de Saturne, était son aîné, et voulant donc régner, Saturne, sur le conseil de sa mère et de ses sœurs, refusa d'y consentir, et se fit lui-même roi. De là devait naître la discorde entre les frères, mais ils s'accordèrent enfin à cette condition : que Saturne continuerait de régner, mais qu'il devrait faire mourir tous les enfants mâles qui lui naîtraient, afin que Titan fût assuré que le Royaume retomberait finalement sur lui ou sur ses fils. Saturne exécuta cette condition pendant un temps, et c'est pourquoi on dit qu'il dévorait ses enfants ; mais lorsque Jupiter et Junon lui naquirent en une seule fois, il leur arriva de même, puis à Neptune, et aussi à Pluton comme dit plus haut : l'ayant appris, Titan attaqua si soudainement son frère Saturne qu'il le fit prisonnier avec sa femme, et les garda ainsi jusqu'à ce que, vaincu par Jupiter, ils fussent délivrés. Les Saxons, voulant représenter Saturne, imaginaient un vieillard debout sur un poisson, tenant un vase et une roue ; mais ce que cela devait signifier est toujours resté secret, et je ne l'explique donc pas ici non plus. Martianus, décrivant Saturne, le fait tendre de la main droite un serpent qui se mord la queue, montrant par là qu'on entend par lui le temps : et il dit qu'il marche d'un pas lent et tardif, et que sa tête est couverte d'un voile verdoyant, ses cheveux et sa barbe tout blancs, et bien qu'il soit si vieux, il semble pourtant pouvoir redevenir enfant. On peut appeler cela le renouvellement que le temps fait d'année en année : et c'est pourquoi le voile vert sur la chevelure blanche montre le commencement de l'année, quand au printemps toute la terre verdit, laquelle en hiver se couvre ensuite de neige très blanche, et ainsi l'on passe si vite d'une saison à l'autre qu'elles semblent jointes ensemble. La lenteur du pas peut se rapporter à la lente révolution que fait la sphère de Saturne, qui des sept Planètes est la plus grande, étant au-dessus de toutes les autres ; et c'est pourquoi, plus que les autres, elle met trente ans à tarder d'accomplir son tour. »"
+      ],
+      "textOnly": true
+    },
+    {
       "id": "cartm5",
-      "num": "5",
+      "num": "11",
       "page": "67",
       "fr": "Imagine di Saturno: tempo presente, passato e avvenire",
       "ru": "Образ Сатурна: время настоящее, прошедшее и будущее",
@@ -151,7 +310,7 @@
     },
     {
       "id": "cartm6",
-      "num": "6",
+      "num": "12",
       "page": "69",
       "fr": "Imagine di Saturno e del Tempo, coi piedi legati di lana",
       "ru": "Образ Сатурна и Времени со связанными шерстью ногами",
@@ -160,8 +319,7 @@
         "cartm6.jpg"
       ],
       "scans": [
-        "cartm6.jpg",
-        "cartm6_p70.jpg"
+        "cartm6.jpg"
       ],
       "group": "Главный текст",
       "group_en": "Main text",
@@ -178,62 +336,67 @@
       ]
     },
     {
-      "id": "cart1",
-      "num": "7",
-      "page": "71",
-      "fr": "Saturno",
-      "ru": "Сатурн",
-      "en": "Saturn",
+      "id": "cartm_sat4",
+      "num": "13",
+      "page": "70",
+      "fr": "Saturno: i piedi legati, la metamorfosi in cavallo (Filira e Chirone)",
+      "ru": "Сатурн: связанные ноги, превращение в коня (Филира и Хирон)",
+      "en": "Saturn: the bound feet, the transformation into a horse (Philyra and Chiron)",
       "img": [
-        "cart1.jpg"
-      ],
-      "caption": "Imagine di Saturno, ò del Tempo deuoratore de' suoi figliuoli, cioè del tutto consumatore, eccettuati Gioue, Giunone, Nettuno, & Plutone, intesi per li quattro elementi Fuoco, Aria, Aqua, & Terra, che non si distruggono.",
-      "text_ru": [
-        "Образ Сатурна, или Времени, пожирающего собственных детей, то есть всепоглощающего, — кроме Юпитера, Юноны, Нептуна и Плутона, которые понимаются как четыре стихии, Огонь, Воздух, Вода и Земля, не подверженные разрушению."
-      ],
-      "text_en": [
-        "Image of Saturn, or of Time devouring his own children — that is, the all-consumer — except for Jove, Juno, Neptune and Pluto, who are understood as the four elements, Fire, Air, Water and Earth, which are not subject to destruction."
-      ],
-      "name_fr": "Saturne",
-      "text_fr": [
-        "Image de Saturne, ou du Temps dévorant ses propres enfants, c'est-à-dire du grand consommateur de toutes choses — hormis Jupiter, Junon, Neptune et Pluton, compris comme les quatre éléments, le Feu, l'Air, l'Eau et la Terre, qui ne sont pas sujets à destruction."
+        "cartm_sat4.jpg"
       ],
       "scans": [
-        "cart1.jpg"
-      ]
-    },
-    {
-      "id": "cartm7",
-      "num": "8",
-      "page": "72",
-      "fr": "Imagini di Giano, inteso per il Sole e per il Tempo",
-      "ru": "Образ Януса, понимаемого как Солнце и Время",
-      "en": "The image of Janus, understood as the Sun and as Time",
-      "img": [
-        "cartm7.jpg"
-      ],
-      "scans": [
-        "cartm7.jpg",
-        "cartm7_p73.jpg",
-        "cartm7_p74.jpg"
+        "cartm_sat4.jpg"
       ],
       "group": "Главный текст",
       "group_en": "Main text",
-      "caption": "Imagini di Giano inteso ancora per il Sole, per il Tempo, per il Dio dell'anno, & della pace, significano ancora li duoi lumi dell'anima nostra, il lume divino & il lume naturale.",
+      "caption": "Et quindi dice Macrobio essere nato quel prouerbio appresso de i Latini, che i Dei hanno li piedi di lana. Ma l'hanno interpretato alcuni in questo modo ancora, che la Diuina bontà non corre in fretta, nè con romore a castigare chi erra, ma và tarda, & lenta, & così tacitamente, che non prima se ne auede il peccatore, che senta la pena. Dicesi ancora, che staua Saturno con i piedi legati, ò perche tutte le cose prodotte in questo mondo paiono essere insieme annodate (così vengono l'vna dietro l'altra) ouero perche la natura con certa, & ordinata legge così tiene i tempi legati insieme, che non cessano mai di andare succedendo l'vno all'altro. Et perche velocissimamente se ne corrono via, finsero forse le Fauole, che Saturno si cangiasse in Cauallo animale velocissimo, quando, hauendo goduto di Filira bellissima Ninfa, della quale nacque poi Chirone Centauro dottissimo, fu sopragiunto senza auuedersene, dalla moglie, dalla quale si sbrigò in quel modo fatto Cauallo, & correndosene via. Onde Virgilio, quando descriue vn bel Cauallo, dice, che: Tale fù già Saturno quando volse, Cangiato in bel destrier, fuggir la moglie: Onde veloce andò per gli alti monti, E scuotendo col capo alto talhora Il duro crine, risonar faceua Col feroce anitrir l'alte spelonche. Ma queste cose toccherebbono più a chi volesse esporre le fauole de' Dei de gli antichi, che a chi voglia disegnarne le Imagini come faccio io; però le lascio, nè mi restando altro disegno da fare di Saturno, dirò di Giano suo compagno; perche, come dissi già, le historie vogliono, che ambi regnassero vn tempo insieme in Italia, & Macrobio scriue, che Giano fu il primo, che quiui cominciasse a far sacri Tempij in honor de i Dei, & che ordinasse il modo di sacrificare a quelli. Onde egli fu poi parimente come Dio adorato, & come a ritrouatore de i sacrificij vsauano questa cerimonia, che non sacrificauano mai gli antichi Romani a qual si voglia Dio, che non chiamassero lui prima.",
       "text_ru": [
-        "«Образы Януса, понимаемого также как Солнце, как Время, как бог года и мира, означают также два света нашей души: свет божественный и свет естественный»."
+        "«И отсюда, говорит Макробий, произошла та пословица у латинян, что у богов шерстяные ноги. Но некоторые истолковали это ещё и так, что Божественная благость не спешит и не карает с шумом того, кто согрешил, но идёт медленно и неспешно, и так тихо, что грешник не успевает это заметить, как уже ощущает наказание. Говорят также, что Сатурн имел связанные ноги, либо потому, что все вещи, порождённые в этом мире, кажутся связанными воедино (так они следуют одна за другой), либо потому, что природа неким определённым и упорядоченным законом так удерживает времена связанными вместе, что они никогда не перестают следовать одно за другим. И поскольку они проносятся весьма стремительно, баснословцы, быть может, измыслили, что Сатурн превратился в Коня, животное стремительнейшее, когда, насладившись прекраснейшей нимфой Филирой, от которой затем родился учёнейший кентавр Хирон, был внезапно застигнут супругой, от которой избавился именно таким образом — обратившись в Коня и убежав прочь. Поэтому Вергилий, описывая прекрасного Коня, говорит: «Таков был некогда Сатурн, когда, обращённый в прекрасного скакуна, пожелал бежать от жены: оттуда быстро понёсся он по высоким горам, и, порой потрясая высоко поднятой головой, своей жёсткой гривой заставлял отзываться свирепым ржанием высокие пещеры». Но эти вещи более подобают тому, кто желал бы излагать басни о богах древних, нежели тому, кто хочет, подобно мне, изображать их Образы; потому я их оставляю, и, не имея более никакого изображения Сатурна, чтобы сделать, расскажу о Янусе, его сотоварище; ибо, как я уже сказал, предания гласят, что оба они некогда царствовали вместе в Италии, и Макробий пишет, что Янус первым начал там строить священные Храмы в честь богов и установил порядок принесения им жертв. Поэтому он впоследствии тоже почитался как бог, и, как изобретателю жертвоприношений, соблюдали такой обычай, что древние римляне никогда не приносили жертву какому бы то ни было богу, не призвав прежде его»."
       ],
       "text_en": [
-        "“The images of Janus, understood also as the Sun, as Time, as the god of the year and of peace, also signify the two lights of our soul: the divine light and the natural light.”"
+        "“And hence, says Macrobius, arose that proverb among the Latins, that the gods have feet of wool. But some have also interpreted this to mean that Divine goodness does not rush, nor punish the sinner with noise, but moves slowly and gently, and so quietly that the sinner does not notice it before he feels the punishment. It is also said that Saturn had his feet bound, either because all things produced in this world seem to be knotted together (thus they follow one after another), or because nature, by a certain and ordered law, keeps the times so bound together that they never cease to follow one another in succession. And because they run by so very swiftly, the Fables perhaps imagined that Saturn turned into a Horse, a most swift animal, when, having enjoyed the most beautiful Nymph Philyra, of whom was then born the most learned Centaur Chiron, he was suddenly come upon unawares by his wife, from whom he freed himself in just this way, becoming a Horse and running off. Whence Virgil, describing a fine Horse, says: 'Such once was Saturn, when, changed into a fine steed, he wished to flee his wife: whence swiftly he went over the high mountains, and, sometimes shaking his head held high, with his hard mane he made the high caves resound with fierce neighing.' But these matters concern more one who would wish to expound the fables of the gods of the ancients, than one who, like me, wishes to depict their Images; so I leave them, and, having no further image of Saturn to make, I shall speak of Janus, his companion; for, as I already said, the histories hold that both reigned together for a time in Italy, and Macrobius writes that Janus was the first there to build sacred Temples in honour of the gods, and to ordain the manner of sacrificing to them. Whence he too was afterward worshipped as a god, and, as the discoverer of sacrifices, this custom was observed, that the ancient Romans never sacrificed to any god whatsoever without first invoking him.”"
       ],
-      "name_fr": "Les images de Janus, entendu comme le Soleil et le Temps",
+      "name_fr": "Saturne : les pieds liés, la métamorphose en cheval (Philyra et Chiron)",
       "text_fr": [
-        "« Les images de Janus, entendu aussi comme le Soleil, comme le Temps, comme le dieu de l'année et de la paix, signifient aussi les deux lumières de notre âme : la lumière divine et la lumière naturelle. »"
-      ]
+        "« Et de là, dit Macrobe, naquit ce proverbe chez les Latins, que les dieux ont les pieds de laine. Mais certains ont aussi interprété cela en ce sens que la bonté Divine ne court pas en hâte, ni ne châtie avec bruit celui qui erre, mais va lentement et doucement, et si tacitement que le pécheur ne s'en aperçoit pas avant d'en sentir la peine. On dit aussi que Saturne avait les pieds liés, soit parce que toutes les choses produites en ce monde semblent nouées ensemble (ainsi viennent-elles l'une après l'autre), soit parce que la nature, par une loi certaine et ordonnée, tient ainsi les temps liés ensemble, qu'ils ne cessent jamais de se succéder l'un à l'autre. Et parce qu'ils s'enfuient très rapidement, les Fables ont peut-être imaginé que Saturne se changea en Cheval, animal très rapide, lorsque, ayant joui de la très belle Nymphe Philyra, de laquelle naquit ensuite le très savant Centaure Chiron, il fut surpris à l'improviste par son épouse, dont il se délivra de cette façon, devenu Cheval, et s'enfuyant. D'où Virgile, décrivant un beau Cheval, dit : « Tel fut jadis Saturne, quand, changé en un beau destrier, il voulut fuir son épouse : d'où il alla rapide par les hautes montagnes, et, secouant parfois sa tête haute, de sa dure crinière il faisait résonner les hautes cavernes d'un hennissement féroce. » Mais ces choses concernent davantage celui qui voudrait exposer les fables des dieux des anciens, que celui qui, comme moi, veut en dessiner les Images ; je les laisse donc, et, n'ayant plus d'autre image de Saturne à faire, je parlerai de Janus, son compagnon ; car, comme je l'ai déjà dit, les histoires veulent qu'ils aient régné ensemble un temps en Italie, et Macrobe écrit que Janus fut le premier à y bâtir des Temples sacrés en l'honneur des dieux, et à ordonner la manière de leur sacrifier. D'où il fut ensuite également adoré comme un dieu, et, comme inventeur des sacrifices, on observait cette coutume que les anciens Romains ne sacrifiaient jamais à quelque dieu que ce fût sans l'invoquer d'abord. »"
+      ],
+      "textOnly": true
+    },
+    {
+      "id": "cartm_sat5",
+      "num": "14",
+      "page": "71",
+      "fr": "Giano: le porte del Cielo, Portunno, la ninfa Crane e il tempio sul Monte Celio",
+      "ru": "Янус: врата Неба, Портунн, нимфа Крана и храм на Целиевом холме",
+      "en": "Janus: the gates of Heaven, Portunus, the nymph Crane, and the temple on the Caelian Hill",
+      "img": [
+        "cartm_sat5.jpg"
+      ],
+      "scans": [
+        "cartm_sat5.jpg",
+        "cartm_sat5_p72.jpg",
+        "cartm_sat5_p73.jpg",
+        "cartm_sat5_p74.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Hanno poi la faccia mesta, & gli occhi storti, percioche pare, che non si possa guardare dirittamente, nè con allegro viso quelli, che già si sono offesi, quando con preghi si dimanda loro perdono. Le porte del Cielo sono due, l'vna dell'Oriente, per la quale entra il Sole, quando viene a dare la luce al mondo: l'altra dell'Occidente per la quale egli esce, quando dà luoco alla notte. Chi dunque intende il Sole per Giano, come fa Macrobio, lo dice hauere la guardia delle porte del Cielo perche l'entrare, & vscirne a lui è libero. Et per questo lo fecero con due facci, mostrando, che non ha bisogno il Sole di riuolgersi indietro per vedere l'vna, & l'altra parte del mondo. Et gli posero in mano vna verga, & vna chiaue; accioche per quella si conoscesse, che il Sole gouerna, & tempra il mondo, & per questa, che ei l'apre quando viene il dì ad illuminarlo, & lo chiude quando partendo lascia, che la notte l'adombri. Haueua anco dodeci altari sotto i piedi, che significauano dodici colonie, che egli pose, ò secondo alcuni, che forse è più vero, i dodici mesi dell'anno. Da questo venne anco che Giano fu creduto vn medesimo Nume con Portunno, il quale era stimato vn Dio guardiano, & custode delle porte: & perciò così mettevano gli antichi in mano a costui vna chiaue, come a Giano. Da cui venne vn'altro Nume de i Cardini, o gangheri, che vogliamo dirli, delle porte. Imperoche racconta Ouidio, che innamorato Giano di vna Ninfa detta Crane, tanto fece, che raccolse gli amorosi frutti, & in ricompensa gli donò, che ella fosse sopra a i gangheri delle porte, & ne hauesse lo intiero dominio, sì che si aprissero, & ferrassero come piacesse a lei. Et le donò anco vna verga di spino bianco detta la verga Gianale, con la quale cacciauansi le Streghe da quelle case, oue erano i piccioli bambini in culla. Et fu questa Ninfa chiamata dapoi la Dea Carna, ouero Cardinea; il cui potere oltre a gangheri si estendeua ancora sopra il cuore, il fegato, & le altre interiora dell'huomo. Et era costume appresso de' Romani di mangiar a Calende di Giugno in honore di questa Dea lardo di Porco, ò perche pensassero, che col fauore di lei giouasse a conseruare l'huomo sano; ò perche voleuano in quel modo rinouare la memoria della parsimonia di que' buoni antichi, che si contentauano di semplici viuande, come dice Ouidio. A costei trouo bene, che fu fatto vn Tempio su'l Monte Celio in Roma da quel Bruto, che si finse pazzo, fin che gli venne la occasione di scacciare l'empio Rè Tarquinio, come che per lei gli fosse successo felicemente quello, ch'egli haueua in cuore; ma che ne fia stato il vero, non hò trouato ancora. Però hò tutte queste cose di lei, acciò che chi volesse pigliarsi autorità...",
+      "text_ru": [
+        "«У них затем печальное лицо и косящие глаза, ибо кажется, что не могут смотреть прямо и с весёлым видом те, кто уже нанёс обиду, когда молитвами у них просят прощения. Врата Неба — две: одни — Востока, через которые входит Солнце, когда приходит даровать свет миру; другие — Запада, через которые оно выходит, когда уступает место ночи. Кто, стало быть, понимает под Янусом Солнце, как делает Макробий, говорит, что оно охраняет врата Неба, ибо вход и выход для него свободен. И потому его сделали с двумя лицами, показывая, что Солнцу не нужно оборачиваться назад, чтобы видеть ту и другую сторону мира. И вложили ему в руки жезл и ключ: чтобы жезлом обозначить, что Солнце правит и умеряет мир, а ключом — что оно отворяет его, когда приходит день, дабы осветить его, и затворяет, когда, уходя, оставляет его во власти ночи. Было у него также двенадцать алтарей под ногами, означавших двенадцать основанных им колоний, или, по мнению иных, что, пожалуй, вернее, двенадцать месяцев года. Отсюда же возникло и то, что Януса сочли единым божеством с Портунном, который почитался богом-стражем и хранителем врат: и потому древние так же вкладывали ему в руку ключ, как и Янусу. От него же произошло ещё одно божество — Петель, или, как мы бы сказали, дверных шарниров. Ибо рассказывает Овидий, что влюблённый в нимфу по имени Крана Янус добился того, что собрал плоды любви, и в награду даровал ей, чтобы она властвовала над дверными петлями и имела над ними полную власть, так чтобы двери отворялись и запирались по её желанию. И подарил он ей также жезл из белого боярышника, называемый Яновым жезлом, которым изгоняли Ведьм из тех домов, где в колыбели лежали маленькие дети. И эта нимфа была впоследствии названа богиней Карной, или Кардинеей; её власть, помимо петель, распространялась ещё на сердце, печень и прочие внутренности человека. И был у римлян обычай есть в Календы июня в честь этой богини свиное сало — либо потому, что полагали, что её благоволением это способствует сохранению здоровья человека, либо потому, что хотели таким образом обновить память о бережливости тех добрых древних [людей], что довольствовались простой пищей, как говорит Овидий. Этой богине, как я нахожу, был воздвигнут Храм на Целиевом холме в Риме тем Брутом, который притворялся безумным, пока не представился ему случай изгнать нечестивого царя Тарквиния, — как будто благодаря ей ему счастливо удалось то, что он держал в сердце; но что в этом правда, я ещё не выяснил. Однако всё это о ней я привёл для того, чтобы тот, кто пожелал бы опереться на авторитет...»"
+      ],
+      "text_en": [
+        "“Their faces are then sad, and their eyes crossed, because it seems that those who have already given offence cannot look straight or with a cheerful countenance when forgiveness is sought from them with prayers. There are two gates of Heaven, one of the East, through which the Sun enters when it comes to give light to the world; the other of the West, through which it exits when it gives way to night. Whoever then understands the Sun by Janus, as Macrobius does, says that he guards the gates of Heaven because entering and leaving is free to him. And for this they made him with two faces, showing that the Sun has no need to turn back to see one and the other side of the world. And they placed in his hands a rod and a key; so that by the rod it might be known that the Sun governs and tempers the world, and by the key, that he opens it when day comes to illuminate it, and closes it when, departing, he leaves it to be shadowed by night. He also had twelve altars under his feet, signifying twelve colonies that he founded, or, according to some, which is perhaps truer, the twelve months of the year. From this it also came that Janus was believed to be the same deity as Portunus, who was held to be a guardian god and keeper of gates: and so the ancients likewise placed a key in his hand, as in Janus's. From him came another deity of the Hinges, or pivots, of doors, as we might call them. For Ovid relates that Janus, enamoured of a Nymph named Crane, so prevailed that he gathered the fruits of love, and in recompense granted her dominion over the hinges of doors, and full power over them, so that they might open and lock as she pleased. And he also gave her a rod of white hawthorn called the rod of Janus, with which Witches were driven from those houses where little children lay in their cradles. And this Nymph was afterward called the goddess Carna, or Cardinea; whose power, besides the hinges, extended also over the heart, the liver, and the other internal organs of man. And it was a custom among the Romans to eat pork fat on the Kalends of June in honour of this goddess, either because they thought that with her favour it helped preserve a man's health, or because they wished thereby to renew the memory of the frugality of those good ancients who were content with simple fare, as Ovid says. To her, I find, a Temple was built on the Caelian Hill in Rome by that Brutus who feigned madness, until the occasion came to him to drive out the impious King Tarquin, as though by her favour what he held in his heart had succeeded happily for him; but what the truth of this may be, I have not yet found. However, I have set down all these things about her, so that whoever should wish to claim authority...”"
+      ],
+      "name_fr": "Janus : les portes du Ciel, Portunus, la nymphe Crane et le temple sur le mont Caelius",
+      "text_fr": [
+        "« Ils ont ensuite le visage triste, et les yeux louches, car il semble que ne peuvent regarder droit ni d'un air joyeux ceux qui ont déjà offensé, quand par des prières on leur demande pardon. Il y a deux portes du Ciel, l'une de l'Orient, par laquelle entre le Soleil, quand il vient donner la lumière au monde ; l'autre de l'Occident, par laquelle il sort, quand il cède la place à la nuit. Qui entend donc par Janus le Soleil, comme le fait Macrobe, dit qu'il garde les portes du Ciel parce que l'entrée et la sortie lui sont libres. Et pour cela on le fit à deux visages, montrant que le Soleil n'a pas besoin de se retourner pour voir l'un et l'autre côté du monde. Et on plaça dans ses mains une verge et une clé ; afin que par la verge on sût que le Soleil gouverne et tempère le monde, et par la clé, qu'il l'ouvre quand vient le jour pour l'éclairer, et le ferme quand, partant, il le laisse à l'ombre de la nuit. Il avait aussi douze autels sous ses pieds, signifiant douze colonies qu'il fonda, ou, selon certains, ce qui est peut-être plus vrai, les douze mois de l'année. De là vint aussi que Janus fut cru être une même divinité que Portunus, qui était tenu pour un dieu gardien et protecteur des portes : et c'est pourquoi les anciens mettaient de même une clé dans sa main, comme à Janus. De lui vint une autre divinité des Gonds, ou pivots, des portes, comme nous voudrions les appeler. Car Ovide raconte que Janus, épris d'une Nymphe nommée Crane, fit tant qu'il recueillit les fruits de l'amour, et en récompense lui accorda de dominer sur les gonds des portes, et d'en avoir l'entier pouvoir, de sorte qu'elles s'ouvrissent et se fermassent à son gré. Et il lui donna aussi une verge d'aubépine blanche appelée la verge de Janus, avec laquelle on chassait les Sorcières de ces maisons où se trouvaient de petits enfants au berceau. Et cette Nymphe fut ensuite appelée la déesse Carna, ou Cardinea ; dont le pouvoir, outre les gonds, s'étendait encore sur le cœur, le foie, et les autres entrailles de l'homme. Et c'était la coutume chez les Romains de manger, aux Calendes de juin, en l'honneur de cette déesse, du lard de porc, soit parce qu'ils pensaient que par sa faveur cela aidait à conserver l'homme en santé, soit parce qu'ils voulaient ainsi renouveler le souvenir de la frugalité de ces bons anciens qui se contentaient de mets simples, comme le dit Ovide. À celle-ci, je trouve, fut bâti un Temple sur le mont Caelius à Rome par ce Brutus qui feignit la folie, jusqu'à ce que lui vînt l'occasion de chasser l'impie roi Tarquin, comme si par sa faveur lui avait réussi heureusement ce qu'il avait au cœur ; mais ce qu'il en est de la vérité, je ne l'ai pas encore trouvé. J'ai cependant rapporté toutes ces choses sur elle, afin que quiconque voudrait s'en prévaloir... »"
+      ],
+      "textOnly": true
     },
     {
       "id": "cartm8",
-      "num": "9",
+      "num": "15",
       "page": "75",
       "fr": "Imagini delle quattro stagioni dell'anno",
       "ru": "Образы четырёх времён года",
@@ -261,7 +424,7 @@
     },
     {
       "id": "cartm9",
-      "num": "10",
+      "num": "16",
       "page": "77",
       "fr": "Tempio di Giano, Dio della pace e della guerra",
       "ru": "Храм Януса, бога мира и войны",
@@ -289,7 +452,7 @@
     },
     {
       "id": "cartm10",
-      "num": "11",
+      "num": "17",
       "page": "79",
       "fr": "Imagine del Sole, ovvero Febo, e di Giove presso gli Assiri",
       "ru": "Образ Солнца, или Феба, и Юпитера у ассирийцев",
@@ -318,7 +481,7 @@
     },
     {
       "id": "cartb16",
-      "num": "12",
+      "num": "18",
       "page": "82",
       "fr": "Hebe",
       "ru": "Геба",
@@ -344,7 +507,7 @@
     },
     {
       "id": "cartb17",
-      "num": "13",
+      "num": "19",
       "page": "84",
       "fr": "Le noue Muse",
       "ru": "Девять Муз",
@@ -370,7 +533,7 @@
     },
     {
       "id": "cartm11",
-      "num": "14",
+      "num": "20",
       "page": "86",
       "fr": "Apollo in mezzo delle Muse",
       "ru": "Аполлон среди Муз",
@@ -398,7 +561,7 @@
     },
     {
       "id": "cart2",
-      "num": "15",
+      "num": "21",
       "page": "88",
       "fr": "Apollo Febo, il Sole",
       "ru": "Аполлон Феб, Солнце",
@@ -424,7 +587,7 @@
     },
     {
       "id": "cartm12",
-      "num": "16",
+      "num": "22",
       "page": "90",
       "fr": "Nave del Sole portata da un Coccodrillo",
       "ru": "Корабль Солнца, влекомый Крокодилом",
@@ -452,7 +615,7 @@
     },
     {
       "id": "cartm13",
-      "num": "17",
+      "num": "23",
       "page": "92",
       "fr": "Apollo che abbraccia Dafne",
       "ru": "Аполлон, обнимающий Дафну",
@@ -480,7 +643,7 @@
     },
     {
       "id": "cartm14",
-      "num": "18",
+      "num": "24",
       "page": "94",
       "fr": "Imagine d'Apollo, dio della prudenza",
       "ru": "Образ Аполлона, бога благоразумия",
@@ -508,7 +671,7 @@
     },
     {
       "id": "cartm15",
-      "num": "19",
+      "num": "25",
       "page": "96",
       "fr": "Imagine di Apollo Mithra",
       "ru": "Образ Аполлона-Митры",
@@ -536,7 +699,7 @@
     },
     {
       "id": "cartm16",
-      "num": "20",
+      "num": "26",
       "page": "98",
       "fr": "Imagine dei Buoi sacri presso gli Egizi",
       "ru": "Образ священных быков у египтян",
@@ -564,7 +727,7 @@
     },
     {
       "id": "cartm17",
-      "num": "21",
+      "num": "27",
       "page": "100",
       "fr": "Imagine d'Apollo nudo, amatore dei Buoi",
       "ru": "Образ нагого Аполлона, любителя быков",
@@ -592,7 +755,7 @@
     },
     {
       "id": "cartm18",
-      "num": "22",
+      "num": "28",
       "page": "102",
       "fr": "Imagine d'Apolline e della Terra presso gli Assiri",
       "ru": "Образ Аполлона и Земли у ассирийцев",
@@ -620,7 +783,7 @@
     },
     {
       "id": "cartm19",
-      "num": "23",
+      "num": "29",
       "page": "104",
       "fr": "Imagine di Adad e d'Adargate, dei degli Assiri",
       "ru": "Образ Адада и Адаргатис, богов ассирийцев",
@@ -647,7 +810,7 @@
     },
     {
       "id": "cartm20",
-      "num": "24",
+      "num": "30",
       "page": "105",
       "fr": "Imagine di Serapi, dio degli Egizi",
       "ru": "Образ Сераписа, бога египтян",
@@ -675,7 +838,7 @@
     },
     {
       "id": "cartm21",
-      "num": "25",
+      "num": "31",
       "page": "107",
       "fr": "Imagine del Sole, mutevole e produttore di ogni tempo",
       "ru": "Образ Солнца, изменчивого творца всех времён",
@@ -703,7 +866,7 @@
     },
     {
       "id": "cartm22",
-      "num": "26",
+      "num": "32",
       "page": "109",
       "fr": "Imagine di Esculapio, dio della Medicina",
       "ru": "Образ Эскулапа, бога Медицины",
@@ -731,7 +894,7 @@
     },
     {
       "id": "cartm23",
-      "num": "27",
+      "num": "33",
       "page": "111",
       "fr": "Imagine di Esculapio con i galli a lui sacrati",
       "ru": "Образ Эскулапа с посвящёнными ему петухами",
@@ -760,7 +923,7 @@
     },
     {
       "id": "cartm24",
-      "num": "28",
+      "num": "34",
       "page": "114",
       "fr": "Anello antico col simbolo della Salute",
       "ru": "Старинное кольцо с символом Здоровья",
@@ -788,7 +951,7 @@
     },
     {
       "id": "cartm25",
-      "num": "29",
+      "num": "35",
       "page": "116",
       "fr": "Imagine della dea Salute e del Serpente a lei sacrato",
       "ru": "Образ богини Здоровья и посвящённого ей Змея",
@@ -816,7 +979,7 @@
     },
     {
       "id": "cartm26",
-      "num": "30",
+      "num": "36",
       "page": "118",
       "fr": "Imagine d'Higia, figlia di Esculapio",
       "ru": "Образ Гигиеи, дочери Эскулапа",
@@ -844,7 +1007,7 @@
     },
     {
       "id": "cartm27",
-      "num": "31",
+      "num": "37",
       "page": "120",
       "fr": "Carro del Sole, dio della luce",
       "ru": "Колесница Солнца, бога света",
@@ -871,7 +1034,7 @@
     },
     {
       "id": "cartm28",
-      "num": "32",
+      "num": "38",
       "page": "121",
       "fr": "Imagine del Sole, detto anche Febo e Apolline",
       "ru": "Образ Солнца, называемого также Фебом и Аполлоном",
@@ -899,7 +1062,7 @@
     },
     {
       "id": "cartm29",
-      "num": "33",
+      "num": "39",
       "page": "123",
       "fr": "Imagine dell'Aurora e del Cavallo Pegaseo",
       "ru": "Образ Авроры и коня Пегаса",
@@ -927,7 +1090,7 @@
     },
     {
       "id": "cartm30",
-      "num": "34",
+      "num": "40",
       "page": "125",
       "fr": "Imagine di Diana, dea delle selve e della caccia",
       "ru": "Образ Дианы, богини лесов и охоты",
@@ -960,7 +1123,7 @@
     },
     {
       "id": "cartm31",
-      "num": "35",
+      "num": "41",
       "page": "132",
       "fr": "Statua di Lucina, dea dei Parti",
       "ru": "Статуя Люцины, богини родов",
@@ -988,7 +1151,7 @@
     },
     {
       "id": "cartm32",
-      "num": "36",
+      "num": "42",
       "page": "134",
       "fr": "Imagine di Diana Cinthia, ovvero la Luna",
       "ru": "Образ Дианы Кинфии, то есть Луны",
@@ -1017,7 +1180,7 @@
     },
     {
       "id": "cartm33",
-      "num": "37",
+      "num": "43",
       "page": "137",
       "fr": "Imagine di Hecate, dea triforme",
       "ru": "Образ Гекаты, трёхликой богини",
@@ -1045,7 +1208,7 @@
     },
     {
       "id": "cart3",
-      "num": "38",
+      "num": "44",
       "page": "139",
       "fr": "Diana",
       "ru": "Диана",
@@ -1070,7 +1233,7 @@
     },
     {
       "id": "cartm34",
-      "num": "39",
+      "num": "45",
       "page": "139",
       "fr": "Simulacro della Luna",
       "ru": "Изваяние Луны",
@@ -1099,7 +1262,7 @@
     },
     {
       "id": "cartm35",
-      "num": "40",
+      "num": "46",
       "page": "142",
       "fr": "Imagine della dea Natura, piena di mammelle",
       "ru": "Образ богини Природы, покрытой множеством грудей",
@@ -1127,7 +1290,7 @@
     },
     {
       "id": "cartm36",
-      "num": "41",
+      "num": "47",
       "page": "144",
       "fr": "Imagine d'Iside, dea egizia",
       "ru": "Образ Исиды, египетской богини",
@@ -1155,7 +1318,7 @@
     },
     {
       "id": "cartm37",
-      "num": "42",
+      "num": "48",
       "page": "146",
       "fr": "Imagine d'Iside, dea degli Egizi, con il sistro",
       "ru": "Образ Исиды, богини египтян, с систром",
@@ -1188,7 +1351,7 @@
     },
     {
       "id": "cart4",
-      "num": "43",
+      "num": "49",
       "page": "153",
       "fr": "Giove",
       "ru": "Юпитер",
@@ -1223,7 +1386,7 @@
     },
     {
       "id": "cartm38",
-      "num": "44",
+      "num": "50",
       "page": "164",
       "fr": "Imagine del Dio creatore degli Egizi e di Giove",
       "ru": "Образ бога-творца египтян и Юпитера",
@@ -1252,7 +1415,7 @@
     },
     {
       "id": "cartm39",
-      "num": "45",
+      "num": "51",
       "page": "167",
       "fr": "Imagine di Giove, dio degli dei degli Antichi",
       "ru": "Образ Юпитера, бога богов древних",
@@ -1280,7 +1443,7 @@
     },
     {
       "id": "cartm40",
-      "num": "46",
+      "num": "52",
       "page": "169",
       "fr": "Imagine di Giove fulgorante contro gli spergiuri",
       "ru": "Образ громовержца Юпитера против клятвопреступников",
@@ -1308,7 +1471,7 @@
     },
     {
       "id": "cartm41",
-      "num": "47",
+      "num": "53",
       "page": "171",
       "fr": "Imagine della Fede, significata per il dio Fidio",
       "ru": "Образ Верности, означенной богом Фидием",
@@ -1336,7 +1499,7 @@
     },
     {
       "id": "cartm42",
-      "num": "48",
+      "num": "54",
       "page": "173",
       "fr": "Imagine del dio Fidio, custode della fedeltà di Giove",
       "ru": "Образ бога Фидия, хранителя верности Юпитера",
@@ -1364,7 +1527,7 @@
     },
     {
       "id": "cartm43",
-      "num": "49",
+      "num": "55",
       "page": "175",
       "fr": "Imagine di Giove circondato dalle tre Grazie",
       "ru": "Образ Юпитера в окружении трёх Граций",
@@ -1392,7 +1555,7 @@
     },
     {
       "id": "cartm44",
-      "num": "50",
+      "num": "56",
       "page": "177",
       "fr": "Imagine di Giove col Fulmine e con l'Asta",
       "ru": "Образ Юпитера с Молнией и Копьём",
@@ -1420,7 +1583,7 @@
     },
     {
       "id": "cartm45",
-      "num": "51",
+      "num": "57",
       "page": "179",
       "fr": "Imagine di Giove fulgorante, apportatore di piogge",
       "ru": "Образ громовержца Юпитера, подателя дождей",
@@ -1450,7 +1613,7 @@
     },
     {
       "id": "cartm46",
-      "num": "52",
+      "num": "58",
       "page": "183",
       "fr": "Imagine dell'oracolo di Giove Hammonio dei Trogloditi",
       "ru": "Образ оракула Юпитера Аммона у троглодитов",
@@ -1478,7 +1641,7 @@
     },
     {
       "id": "cartm47",
-      "num": "53",
+      "num": "59",
       "page": "185",
       "fr": "Imagine di Giove Hammonio degli Arcadi e degli Egizi",
       "ru": "Образ Юпитера Аммона у аркадцев и египтян",
@@ -1509,7 +1672,7 @@
     },
     {
       "id": "cart5",
-      "num": "54",
+      "num": "60",
       "page": "190",
       "fr": "Giunone",
       "ru": "Юнона",
@@ -1537,7 +1700,7 @@
     },
     {
       "id": "cartm48",
-      "num": "55",
+      "num": "61",
       "page": "194",
       "fr": "Imagine di Iride, messaggera di Giunone",
       "ru": "Образ Ириды, вестницы Юноны",
@@ -1565,7 +1728,7 @@
     },
     {
       "id": "cartm49",
-      "num": "56",
+      "num": "62",
       "page": "196",
       "fr": "Imagine di Giunone Regina degli Dei",
       "ru": "Образ Юноны, царицы богов",
@@ -1593,7 +1756,7 @@
     },
     {
       "id": "cartm50",
-      "num": "57",
+      "num": "63",
       "page": "198",
       "fr": "Imagine di Castore e Polluce",
       "ru": "Образ Кастора и Поллукса",
@@ -1624,7 +1787,7 @@
     },
     {
       "id": "cartm51",
-      "num": "58",
+      "num": "64",
       "page": "203",
       "fr": "Imagine di Giunone Argiva e Giunone salvatrice",
       "ru": "Образ Юноны Аргивской и Юноны-Спасительницы",
@@ -1652,7 +1815,7 @@
     },
     {
       "id": "cartm52",
-      "num": "59",
+      "num": "65",
       "page": "205",
       "fr": "Imagine di Giunone protettrice del matrimonio",
       "ru": "Образ Юноны, покровительницы брака",
@@ -1682,7 +1845,7 @@
     },
     {
       "id": "cartm53",
-      "num": "60",
+      "num": "66",
       "page": "209",
       "fr": "Imagine d'Imeneo, dio del matrimonio",
       "ru": "Образ Гименея, бога брака",
@@ -1713,7 +1876,7 @@
     },
     {
       "id": "cart6",
-      "num": "61",
+      "num": "67",
       "page": "214",
       "fr": "La Gran Madre",
       "ru": "Великая Матерь (Опа-Берекинфия)",
@@ -1742,7 +1905,7 @@
     },
     {
       "id": "cartm54",
-      "num": "62",
+      "num": "68",
       "page": "219",
       "fr": "Simulacro della dea Cibele, sul suo carro",
       "ru": "Изваяние богини Кибелы на её колеснице",
@@ -1774,7 +1937,7 @@
     },
     {
       "id": "cartm55",
-      "num": "63",
+      "num": "69",
       "page": "225",
       "fr": "Tempio in Roma della dea Vesta",
       "ru": "Храм богини Весты в Риме",
@@ -1802,7 +1965,7 @@
     },
     {
       "id": "cartm56",
-      "num": "64",
+      "num": "70",
       "page": "227",
       "fr": "Imagine di Cerere Siciliana",
       "ru": "Образ Цереры Сицилийской",
@@ -1834,7 +1997,7 @@
     },
     {
       "id": "cartm57",
-      "num": "65",
+      "num": "71",
       "page": "233",
       "fr": "Statua di Cerere nera in Arcadia",
       "ru": "Статуя чёрной Цереры в Аркадии",
@@ -1863,7 +2026,7 @@
     },
     {
       "id": "cartm58",
-      "num": "66",
+      "num": "72",
       "page": "236",
       "fr": "Imagine di Pomona, dea degli Orti",
       "ru": "Образ Помоны, богини садов",
@@ -1891,7 +2054,7 @@
     },
     {
       "id": "cartm59",
-      "num": "67",
+      "num": "73",
       "page": "238",
       "fr": "Imagine della dea Proserpina e della dea Bona",
       "ru": "Образ богини Прозерпины и богини Бона",
@@ -1920,7 +2083,7 @@
     },
     {
       "id": "cartm60",
-      "num": "68",
+      "num": "74",
       "page": "241",
       "fr": "Imagine di Glauco, dio marino",
       "ru": "Образ Главка, морского бога",
@@ -1948,7 +2111,7 @@
     },
     {
       "id": "cartm61",
-      "num": "69",
+      "num": "75",
       "page": "243",
       "fr": "Imagine dei Tritoni, delle Nereidi e di Galatea",
       "ru": "Образ Тритонов, Нереид и Галатеи",
@@ -1977,7 +2140,7 @@
     },
     {
       "id": "cartm62",
-      "num": "70",
+      "num": "76",
       "page": "246",
       "fr": "Imagine delle Sirene Partenope, Leucosia e Ligia",
       "ru": "Образ сирен Партенопы, Левкосии и Лигии",
@@ -2005,7 +2168,7 @@
     },
     {
       "id": "cartm63",
-      "num": "71",
+      "num": "77",
       "page": "248",
       "fr": "Imagine di Scilla, scoglio siciliano",
       "ru": "Образ Сциллы, сицилийской скалы",
@@ -2033,7 +2196,7 @@
     },
     {
       "id": "cart7",
-      "num": "72",
+      "num": "78",
       "page": "250",
       "fr": "Nettuno",
       "ru": "Нептун",
@@ -2060,7 +2223,7 @@
     },
     {
       "id": "cartm64",
-      "num": "73",
+      "num": "79",
       "page": "253",
       "fr": "Imagine di Nettuno secondo Filostrato",
       "ru": "Образ Нептуна согласно Филострату",
@@ -2089,7 +2252,7 @@
     },
     {
       "id": "cartm65",
-      "num": "74",
+      "num": "80",
       "page": "256",
       "fr": "Imagine di Eurinome e di Derceto, dee marine",
       "ru": "Образ Евриномы и Дерцето, морских богинь",
@@ -2117,7 +2280,7 @@
     },
     {
       "id": "cartm66",
-      "num": "75",
+      "num": "81",
       "page": "258",
       "fr": "Imagini di Borea, Austro, Euro e Zefiro, i quattro venti",
       "ru": "Образы Борея, Австра, Эвра и Зефира, четырёх ветров",
@@ -2145,7 +2308,7 @@
     },
     {
       "id": "cartm67",
-      "num": "76",
+      "num": "82",
       "page": "260",
       "fr": "Imagini dei fiumi Cefiso e Po",
       "ru": "Образы рек Кефис и По",
@@ -2173,7 +2336,7 @@
     },
     {
       "id": "cartm68",
-      "num": "77",
+      "num": "83",
       "page": "262",
       "fr": "Imagine del Tevere, che mostra l'abbondanza",
       "ru": "Образ Тибра, являющего изобилие",
@@ -2201,7 +2364,7 @@
     },
     {
       "id": "cartm69",
-      "num": "78",
+      "num": "84",
       "page": "264",
       "fr": "Imagine del fiume Nilo, seduto sulla Sfinge",
       "ru": "Образ реки Нил, восседающей на Сфинксе",
@@ -2229,7 +2392,7 @@
     },
     {
       "id": "cartb18",
-      "num": "79",
+      "num": "85",
       "page": "266",
       "fr": "Vertunno, con Pomona",
       "ru": "Вертумн и Помона",
@@ -2260,7 +2423,7 @@
     },
     {
       "id": "cart8",
-      "num": "80",
+      "num": "86",
       "page": "273",
       "fr": "Plutone",
       "ru": "Плутон",
@@ -2291,7 +2454,7 @@
     },
     {
       "id": "cartm70",
-      "num": "81",
+      "num": "87",
       "page": "280",
       "fr": "Imagini di Aletto, Tisifone e Megera, le tre Furie",
       "ru": "Образы Алекто, Тисифоны и Мегеры, трёх Фурий",
@@ -2320,7 +2483,7 @@
     },
     {
       "id": "cartm71",
-      "num": "82",
+      "num": "88",
       "page": "283",
       "fr": "Imagine delle Arpie, Streghe e Lamie",
       "ru": "Образ Гарпий, Ведьм и Ламий",
@@ -2349,7 +2512,7 @@
     },
     {
       "id": "cartm72",
-      "num": "83",
+      "num": "89",
       "page": "286",
       "fr": "Imagine della Sfinge Tebana e della Chimera Licia",
       "ru": "Образ Сфинкс Фиванской и Химеры Ликийской",
@@ -2378,7 +2541,7 @@
     },
     {
       "id": "cartm73",
-      "num": "84",
+      "num": "90",
       "page": "289",
       "fr": "Imagini di Cloto, Lachesi e Atropo, le tre Parche",
       "ru": "Образы Клото, Лахесис и Атропос, трёх Парок",
@@ -2407,7 +2570,7 @@
     },
     {
       "id": "cartm74",
-      "num": "85",
+      "num": "91",
       "page": "292",
       "fr": "Imagine della Necessità e delle tre Parche",
       "ru": "Образ Необходимости и трёх Парок",
@@ -2435,7 +2598,7 @@
     },
     {
       "id": "cartm75",
-      "num": "86",
+      "num": "92",
       "page": "294",
       "fr": "Imagini delle tre Parche trovate in Stiria",
       "ru": "Образы трёх Парок, найденные в Штирии",
@@ -2463,7 +2626,7 @@
     },
     {
       "id": "cartm76",
-      "num": "87",
+      "num": "93",
       "page": "296",
       "fr": "Imagine di Caronte, nocchiero infernale",
       "ru": "Образ Харона, адского перевозчика",
@@ -2492,7 +2655,7 @@
     },
     {
       "id": "cart9",
-      "num": "88",
+      "num": "94",
       "page": "299",
       "fr": "Mercurio",
       "ru": "Меркурий",
@@ -2521,7 +2684,7 @@
     },
     {
       "id": "cartm77",
-      "num": "89",
+      "num": "95",
       "page": "304",
       "fr": "Imagine della Pace e dei suoi geroglifici",
       "ru": "Образ Мира и его иероглифов",
@@ -2549,7 +2712,7 @@
     },
     {
       "id": "cartm78",
-      "num": "90",
+      "num": "96",
       "page": "306",
       "fr": "Imagini della Concordia e della Fede",
       "ru": "Образы Согласия и Верности",
@@ -2577,7 +2740,7 @@
     },
     {
       "id": "cartm79",
-      "num": "91",
+      "num": "97",
       "page": "308",
       "fr": "Imagine di Mercurio inventore delle Lettere",
       "ru": "Образ Меркурия, изобретателя Письменности",
@@ -2605,7 +2768,7 @@
     },
     {
       "id": "cartm80",
-      "num": "92",
+      "num": "98",
       "page": "310",
       "fr": "Statue di Mercurio, dette Hermi",
       "ru": "Статуи Меркурия, называемые Гермами",
@@ -2647,7 +2810,7 @@
     },
     {
       "id": "cartm81",
-      "num": "93",
+      "num": "99",
       "page": "326",
       "fr": "Imagine d'Ercole armato e banchettante",
       "ru": "Образ вооружённого и пирующего Геркулеса",
@@ -2678,7 +2841,7 @@
     },
     {
       "id": "cartm82",
-      "num": "94",
+      "num": "100",
       "page": "331",
       "fr": "Apollo ed Ercole contendono per il Tripode",
       "ru": "Аполлон и Геркулес спорят из-за треножника",
@@ -2706,7 +2869,7 @@
     },
     {
       "id": "cart10",
-      "num": "95",
+      "num": "101",
       "page": "333",
       "fr": "Minerva (con Mercurio)",
       "ru": "Минерва (вместе с Меркурием)",
@@ -2733,7 +2896,7 @@
     },
     {
       "id": "cartm83",
-      "num": "96",
+      "num": "102",
       "page": "336",
       "fr": "Imagine di Vulcano che apre il capo a Giove",
       "ru": "Образ Вулкана, рассекающего голову Юпитеру",
@@ -2762,7 +2925,7 @@
     },
     {
       "id": "cartm84",
-      "num": "97",
+      "num": "103",
       "page": "339",
       "fr": "Imagine di Bellona, dea della guerra",
       "ru": "Образ Беллоны, богини войны",
@@ -2791,7 +2954,7 @@
     },
     {
       "id": "cartm85",
-      "num": "98",
+      "num": "104",
       "page": "342",
       "fr": "Imagine di Minerva inventrice del filare e tessere",
       "ru": "Образ Минервы, изобретательницы прядения и ткачества",
@@ -2819,7 +2982,7 @@
     },
     {
       "id": "cartm86",
-      "num": "99",
+      "num": "105",
       "page": "344",
       "fr": "Imagine della Virtù e dell'Onore",
       "ru": "Образ Доблести и Чести",
@@ -2847,7 +3010,7 @@
     },
     {
       "id": "cartm87",
-      "num": "100",
+      "num": "106",
       "page": "346",
       "fr": "Imagini della dea Volupia",
       "ru": "Образы богини Волюпии",
@@ -2876,7 +3039,7 @@
     },
     {
       "id": "cartm88",
-      "num": "101",
+      "num": "107",
       "page": "349",
       "fr": "Imagine della dea Angerona e del dio del Silenzio",
       "ru": "Образ богини Ангероны и бога Молчания",
@@ -2931,7 +3094,7 @@
     },
     {
       "id": "cart11",
-      "num": "102",
+      "num": "108",
       "page": "378",
       "fr": "Baccho",
       "ru": "Вакх",
@@ -2957,7 +3120,7 @@
     },
     {
       "id": "cartm89",
-      "num": "103",
+      "num": "109",
       "page": "380",
       "fr": "Imagine di Como, dio dei Conviti",
       "ru": "Образ Кома, бога пиров",
@@ -2986,7 +3149,7 @@
     },
     {
       "id": "cartm90",
-      "num": "104",
+      "num": "110",
       "page": "383",
       "fr": "Imagine di Bacco secondo Macrobio",
       "ru": "Образ Вакха согласно Макробию",
@@ -3015,7 +3178,7 @@
     },
     {
       "id": "cartm91",
-      "num": "105",
+      "num": "111",
       "page": "386",
       "fr": "Imagini di Bacco e della pompa bacchica",
       "ru": "Образы Вакха и вакхического шествия",
@@ -3044,7 +3207,7 @@
     },
     {
       "id": "cartm92",
-      "num": "106",
+      "num": "112",
       "page": "389",
       "fr": "Imagini di Bacco trionfatore sull'elefante",
       "ru": "Образы Вакха-триумфатора на слоне",
@@ -3073,7 +3236,7 @@
     },
     {
       "id": "cartm93",
-      "num": "107",
+      "num": "113",
       "page": "392",
       "fr": "Imagine della Nave di Bacco",
       "ru": "Образ Корабля Вакха",
@@ -3103,7 +3266,7 @@
     },
     {
       "id": "cartm94",
-      "num": "108",
+      "num": "114",
       "page": "396",
       "fr": "Imagine di Horo, dio degli Egizi, Priapo e Bacco",
       "ru": "Образ Гора, бога египтян, Приапа и Вакха",
@@ -3131,7 +3294,7 @@
     },
     {
       "id": "cartm95",
-      "num": "109",
+      "num": "115",
       "page": "398",
       "fr": "Imagini di Tifone e di Horo",
       "ru": "Образы Тифона и Гора",
@@ -3162,7 +3325,7 @@
     },
     {
       "id": "cartm96",
-      "num": "110",
+      "num": "116",
       "page": "403",
       "fr": "Imagine di Priapo, dio degli Orti",
       "ru": "Образ Приапа, бога садов",
@@ -3189,7 +3352,7 @@
     },
     {
       "id": "cartm97",
-      "num": "111",
+      "num": "117",
       "page": "404",
       "fr": "Imagini degli dei Lari e Penati",
       "ru": "Образы богов Ларов и Пенатов",
@@ -3217,7 +3380,7 @@
     },
     {
       "id": "cartm98",
-      "num": "112",
+      "num": "118",
       "page": "406",
       "fr": "Imagini del Genio buono e cattivo",
       "ru": "Образы доброго и злого Гения",
@@ -3250,7 +3413,7 @@
     },
     {
       "id": "cart12",
-      "num": "113",
+      "num": "119",
       "page": "413",
       "fr": "Fortuna",
       "ru": "Фортуна",
@@ -3276,7 +3439,7 @@
     },
     {
       "id": "cartm99",
-      "num": "114",
+      "num": "120",
       "page": "415",
       "fr": "Imagini della Fortuna lieta e triste",
       "ru": "Образы радостной и печальной Фортуны",
@@ -3304,7 +3467,7 @@
     },
     {
       "id": "cartb20",
-      "num": "115",
+      "num": "121",
       "page": "417",
       "fr": "Nemesi",
       "ru": "Немезида",
@@ -3330,7 +3493,7 @@
     },
     {
       "id": "cartb21",
-      "num": "116",
+      "num": "122",
       "page": "419",
       "fr": "Giustitia",
       "ru": "Справедливость",
@@ -3356,7 +3519,7 @@
     },
     {
       "id": "cartb22",
-      "num": "117",
+      "num": "123",
       "page": "421",
       "fr": "La Calunnia d'Apelle",
       "ru": "«Клевета» Апеллеса",
@@ -3382,7 +3545,7 @@
     },
     {
       "id": "cartm100",
-      "num": "118",
+      "num": "124",
       "page": "423",
       "fr": "Imagini dell'Invidia",
       "ru": "Образы Зависти",
@@ -3410,7 +3573,7 @@
     },
     {
       "id": "cartm101",
-      "num": "119",
+      "num": "125",
       "page": "425",
       "fr": "Imagine di Momo, dio della riprensione",
       "ru": "Образ Мома, бога порицания",
@@ -3438,7 +3601,7 @@
     },
     {
       "id": "cartm102",
-      "num": "120",
+      "num": "126",
       "page": "427",
       "fr": "Imagine della Frode secondo Dante",
       "ru": "Образ Обмана по Данте",
@@ -3466,7 +3629,7 @@
     },
     {
       "id": "cartm103",
-      "num": "121",
+      "num": "127",
       "page": "429",
       "fr": "Geroglifico della buona Fortuna e dell'Occasione",
       "ru": "Иероглиф доброй Фортуны и Случая",
@@ -3494,7 +3657,7 @@
     },
     {
       "id": "cartm104",
-      "num": "122",
+      "num": "128",
       "page": "431",
       "fr": "Imagine della Fortuna presso gli Sciti",
       "ru": "Образ Фортуны у скифов",
@@ -3523,7 +3686,7 @@
     },
     {
       "id": "cartm105",
-      "num": "123",
+      "num": "129",
       "page": "434",
       "fr": "Imagine della Fortuna in Egira",
       "ru": "Образ Фортуны в Эгире",
@@ -3552,7 +3715,7 @@
     },
     {
       "id": "cartm106",
-      "num": "124",
+      "num": "130",
       "page": "437",
       "fr": "Imagine della Fortuna a cavallo",
       "ru": "Образ Фортуны верхом на коне",
@@ -3580,7 +3743,7 @@
     },
     {
       "id": "cartm107",
-      "num": "125",
+      "num": "131",
       "page": "439",
       "fr": "Imagine del buon Evento e del Favore instabile",
       "ru": "Образ доброго Случая и непостоянной Благосклонности",
@@ -3608,7 +3771,7 @@
     },
     {
       "id": "cartb19",
-      "num": "126",
+      "num": "132",
       "page": "441",
       "fr": "Macaria, ò Felicità",
       "ru": "Макария, или Счастье",
@@ -3638,7 +3801,7 @@
     },
     {
       "id": "cart13",
-      "num": "127",
+      "num": "133",
       "page": "447",
       "fr": "Cupido (Eroto & Anterote)",
       "ru": "Купидон (Эрот и Антерот)",
@@ -3670,7 +3833,7 @@
     },
     {
       "id": "cartm108",
-      "num": "128",
+      "num": "134",
       "page": "455",
       "fr": "Trionfo d'Amore",
       "ru": "Триумф Амура",
@@ -3700,7 +3863,7 @@
     },
     {
       "id": "cartm109",
-      "num": "129",
+      "num": "135",
       "page": "459",
       "fr": "Imagini d'Amore e dei suoi effetti",
       "ru": "Образы Амура и его воздействий",
@@ -3728,7 +3891,7 @@
     },
     {
       "id": "cartm110",
-      "num": "130",
+      "num": "136",
       "page": "461",
       "fr": "Imagine di Pane e Cupido",
       "ru": "Образ Пана и Амура",
@@ -3762,7 +3925,7 @@
     },
     {
       "id": "cart14",
-      "num": "131",
+      "num": "137",
       "page": "469",
       "fr": "Venere",
       "ru": "Венера",
@@ -3788,7 +3951,7 @@
     },
     {
       "id": "cartm111",
-      "num": "132",
+      "num": "138",
       "page": "471",
       "fr": "Tempio di Venere in Pafo",
       "ru": "Храм Венеры в Пафосе",
@@ -3816,7 +3979,7 @@
     },
     {
       "id": "cartm112",
-      "num": "133",
+      "num": "139",
       "page": "473",
       "fr": "Imagine di Venere tirata in carro dai Cigni",
       "ru": "Образ Венеры на колеснице, влекомой лебедями",
@@ -3845,7 +4008,7 @@
     },
     {
       "id": "cartm113",
-      "num": "134",
+      "num": "140",
       "page": "476",
       "fr": "Imagine di Venere con gli Amorini e le Grazie",
       "ru": "Образ Венеры с Амурами и Грациями",
@@ -3873,7 +4036,7 @@
     },
     {
       "id": "cartm114",
-      "num": "135",
+      "num": "141",
       "page": "478",
       "fr": "Imagini di Venere, Cupido, del Giogo e del Capro",
       "ru": "Образы Венеры, Купидона, Ярма и Козла",
@@ -3902,7 +4065,7 @@
     },
     {
       "id": "cartm115",
-      "num": "136",
+      "num": "142",
       "page": "481",
       "fr": "Imagine di Venere armata, vittrice e in catene",
       "ru": "Образ вооружённой, победоносной и закованной Венеры",
@@ -3933,7 +4096,7 @@
     },
     {
       "id": "cartm116",
-      "num": "137",
+      "num": "143",
       "page": "486",
       "fr": "Imagine di Venere maschio e femmina",
       "ru": "Образ Венеры мужской и женской",
@@ -3965,7 +4128,7 @@
     },
     {
       "id": "cartb23",
-      "num": "138",
+      "num": "144",
       "page": "492",
       "fr": "Le Hore",
       "ru": "Горы (Часы года)",
@@ -3991,7 +4154,7 @@
     },
     {
       "id": "cart15",
-      "num": "139",
+      "num": "145",
       "page": "494",
       "fr": "Le Gratie",
       "ru": "Грации",
@@ -4017,7 +4180,7 @@
     },
     {
       "id": "cartm117",
-      "num": "140",
+      "num": "146",
       "page": "496",
       "fr": "Imagine delle Grazie guidate da Mercurio",
       "ru": "Образ Граций, ведомых Меркурием",
@@ -4047,7 +4210,7 @@
     },
     {
       "id": "carta46",
-      "num": "141",
+      "num": "147",
       "page": "500",
       "fr": "Annotationi di Lorenzo Pignoria: proemio (I)",
       "ru": "Примечания Лоренцо Пиньории: вступление (I)",
@@ -4075,7 +4238,7 @@
     },
     {
       "id": "carta47",
-      "num": "142",
+      "num": "148",
       "page": "501",
       "fr": "Annotationi di Lorenzo Pignoria: proemio (II) — statue, altari, Demogorgone",
       "ru": "Примечания Лоренцо Пиньории: вступление (II) — статуи, алтари, Демогоргон",
@@ -4103,7 +4266,7 @@
     },
     {
       "id": "carta48",
-      "num": "143",
+      "num": "149",
       "page": "502",
       "fr": "Annotationi di Lorenzo Pignoria: proemio (III) — pietre unte, Saturno, preghiere",
       "ru": "Примечания Лоренцо Пиньории: вступление (III) — умащённые камни, Сатурн, молитвы",
@@ -4131,7 +4294,7 @@
     },
     {
       "id": "carta49",
-      "num": "144",
+      "num": "150",
       "page": "503",
       "fr": "Annotationi di Lorenzo Pignoria: proemio (IV) — Stagioni, Tempio di Giano, Hebe, Mitra",
       "ru": "Примечания Лоренцо Пиньории: вступление (IV) — времена года, храм Януса, Геба, Митра",
@@ -4159,7 +4322,7 @@
     },
     {
       "id": "carta1",
-      "num": "145",
+      "num": "151",
       "page": "504",
       "fr": "Il Fato sotto tre Imagini di Donna",
       "ru": "Судьба под образом трёх Женщин (Парки)",
@@ -4189,7 +4352,7 @@
     },
     {
       "id": "carta2",
-      "num": "146",
+      "num": "152",
       "page": "506",
       "fr": "Esculapio",
       "ru": "Эскулап",
@@ -4218,7 +4381,7 @@
     },
     {
       "id": "cartf1",
-      "num": "147",
+      "num": "153",
       "page": "507",
       "fr": "Lucifero, compagno dell'Aurora",
       "ru": "Люцифер, спутник Авроры",
@@ -4245,7 +4408,7 @@
     },
     {
       "id": "cartf2",
-      "num": "148",
+      "num": "154",
       "page": "508",
       "fr": "Febo (il Sole) sul carro",
       "ru": "Феб (Солнце) на колеснице",
@@ -4272,7 +4435,7 @@
     },
     {
       "id": "cartf3",
-      "num": "149",
+      "num": "155",
       "page": "509",
       "fr": "Giunone nel Cameo",
       "ru": "Юнона на камее",
@@ -4300,7 +4463,7 @@
     },
     {
       "id": "carta3",
-      "num": "150",
+      "num": "156",
       "page": "511",
       "fr": "Iside in un Cameo",
       "ru": "Изида на камее",
@@ -4328,7 +4491,7 @@
     },
     {
       "id": "carta4",
-      "num": "151",
+      "num": "157",
       "page": "513",
       "fr": "Satiri in lotta",
       "ru": "Борющиеся сатиры",
@@ -4355,7 +4518,7 @@
     },
     {
       "id": "cartf4",
-      "num": "152",
+      "num": "158",
       "page": "514",
       "fr": "L'Honore, maschio e femina",
       "ru": "Честь — в мужском и женском облике",
@@ -4383,7 +4546,7 @@
     },
     {
       "id": "carta5",
-      "num": "153",
+      "num": "159",
       "page": "516",
       "fr": "Pallade",
       "ru": "Паллада",
@@ -4410,7 +4573,7 @@
     },
     {
       "id": "carta6",
-      "num": "154",
+      "num": "160",
       "page": "517",
       "fr": "La violenza d'Aiace Oileo",
       "ru": "Неистовство Аякса Оилеева",
@@ -4439,7 +4602,7 @@
     },
     {
       "id": "carta28",
-      "num": "155",
+      "num": "161",
       "page": "520",
       "fr": "L'Imagine della Libertà",
       "ru": "Образ Свободы",
@@ -4466,7 +4629,7 @@
     },
     {
       "id": "carta29",
-      "num": "156",
+      "num": "162",
       "page": "520",
       "fr": "Il berretto degli schiavi (nota a Gellio, continua carta28)",
       "ru": "Шапка раба (заметка к Геллию, продолжение carta28)",
@@ -4495,7 +4658,7 @@
     },
     {
       "id": "carta7",
-      "num": "157",
+      "num": "163",
       "page": "523",
       "fr": "Cerere (la Madre Idea)",
       "ru": "Церера (Великая Мать)",
@@ -4527,7 +4690,7 @@
     },
     {
       "id": "carta8",
-      "num": "158",
+      "num": "164",
       "page": "529",
       "fr": "Palemone e il delfino",
       "ru": "Палемон и дельфин",
@@ -4555,7 +4718,7 @@
     },
     {
       "id": "carta30",
-      "num": "159",
+      "num": "165",
       "page": "531",
       "fr": "Dagon",
       "ru": "Дагон",
@@ -4583,7 +4746,7 @@
     },
     {
       "id": "carta9",
-      "num": "160",
+      "num": "166",
       "page": "533",
       "fr": "Le tre Parche",
       "ru": "Три Парки",
@@ -4613,7 +4776,7 @@
     },
     {
       "id": "carta31",
-      "num": "161",
+      "num": "167",
       "page": "535",
       "fr": "Mercurio e Pegaso",
       "ru": "Меркурий и Пегас",
@@ -4641,7 +4804,7 @@
     },
     {
       "id": "carta10",
-      "num": "162",
+      "num": "168",
       "page": "537",
       "fr": "Termine (il dio Termine)",
       "ru": "Терм (бог границ)",
@@ -4668,7 +4831,7 @@
     },
     {
       "id": "carta11",
-      "num": "163",
+      "num": "169",
       "page": "538",
       "fr": "Hercole in abito di Mercurio",
       "ru": "Геркулес в облике Меркурия",
@@ -4697,7 +4860,7 @@
     },
     {
       "id": "carta32",
-      "num": "164",
+      "num": "170",
       "page": "541",
       "fr": "Due fatiche di Hercole",
       "ru": "Два подвига Геркулеса",
@@ -4724,7 +4887,7 @@
     },
     {
       "id": "carta33",
-      "num": "165",
+      "num": "171",
       "page": "542",
       "fr": "Semo Sanco",
       "ru": "Семон Санк",
@@ -4752,7 +4915,7 @@
     },
     {
       "id": "carta13",
-      "num": "166",
+      "num": "172",
       "page": "544",
       "fr": "Hermathena (Minerva e Mercurio)",
       "ru": "Гермафена (Минерва и Меркурий)",
@@ -4783,7 +4946,7 @@
     },
     {
       "id": "carta12",
-      "num": "167",
+      "num": "173",
       "page": "545",
       "fr": "Minerva con l'egida di Gorgone",
       "ru": "Минерва с эгидой Горгоны",
@@ -4811,7 +4974,7 @@
     },
     {
       "id": "carta34",
-      "num": "168",
+      "num": "174",
       "page": "546",
       "fr": "Ercole e Mercurio insieme (Hermeracle)",
       "ru": "Геркулес и Меркурий вместе (Гермеракл)",
@@ -4839,7 +5002,7 @@
     },
     {
       "id": "carta35",
-      "num": "169",
+      "num": "175",
       "page": "547",
       "fr": "Minerva e la nave Argo",
       "ru": "Минерва и корабль Арго",
@@ -4867,7 +5030,7 @@
     },
     {
       "id": "carta36",
-      "num": "170",
+      "num": "176",
       "page": "549",
       "fr": "Marte Graditivo e Marte vincitore",
       "ru": "Марс Градив и Марс-победитель",
@@ -4895,7 +5058,7 @@
     },
     {
       "id": "carta37",
-      "num": "171",
+      "num": "177",
       "page": "551",
       "fr": "Le insegne militari romane",
       "ru": "Римские военные знамёна",
@@ -4922,7 +5085,7 @@
     },
     {
       "id": "carta14",
-      "num": "172",
+      "num": "178",
       "page": "552",
       "fr": "Corteo bacchico",
       "ru": "Вакхическое шествие",
@@ -4949,7 +5112,7 @@
     },
     {
       "id": "carta15",
-      "num": "173",
+      "num": "179",
       "page": "553",
       "fr": "Pompa bacchica tratta da un diaspro (Bagarris)",
       "ru": "Вакхическое шествие с яшмы Баггариса",
@@ -4977,7 +5140,7 @@
     },
     {
       "id": "carta38",
-      "num": "174",
+      "num": "180",
       "page": "555",
       "fr": "Il Genio del popolo Romano",
       "ru": "Гений римского народа",
@@ -5004,7 +5167,7 @@
     },
     {
       "id": "carta16",
-      "num": "175",
+      "num": "181",
       "page": "556",
       "fr": "La Patera e il Corno del Genio",
       "ru": "Патера и рог Гения",
@@ -5031,7 +5194,7 @@
     },
     {
       "id": "carta17",
-      "num": "176",
+      "num": "182",
       "page": "557",
       "fr": "Il Genio di Antiochia",
       "ru": "Гений Антиохии",
@@ -5058,7 +5221,7 @@
     },
     {
       "id": "carta39",
-      "num": "177",
+      "num": "183",
       "page": "558",
       "fr": "Apollo citaredo (Apolloni Sancto)",
       "ru": "Аполлон-кифаред («Святому Аполлону»)",
@@ -5085,7 +5248,7 @@
     },
     {
       "id": "carta18",
-      "num": "178",
+      "num": "184",
       "page": "559",
       "fr": "Genio e Fortuna",
       "ru": "Гений и Фортуна",
@@ -5115,7 +5278,7 @@
     },
     {
       "id": "carta19",
-      "num": "179",
+      "num": "185",
       "page": "563",
       "fr": "La Fortuna sulle ali di un Cigno",
       "ru": "Фортуна на крыльях Лебедя",
@@ -5142,7 +5305,7 @@
     },
     {
       "id": "carta40",
-      "num": "180",
+      "num": "186",
       "page": "564",
       "fr": "Eroto e Anterote (il carro della Madre)",
       "ru": "Эрот и Антэрот (колесница Матери)",
@@ -5169,7 +5332,7 @@
     },
     {
       "id": "carta20",
-      "num": "181",
+      "num": "187",
       "page": "565",
       "fr": "I due Amori e la capra (pensiero d'Ausonio)",
       "ru": "Два Амура и коза (мысль Авзония)",
@@ -5196,7 +5359,7 @@
     },
     {
       "id": "carta41",
-      "num": "182",
+      "num": "188",
       "page": "566",
       "fr": "Il tempio di Venere a Pafo",
       "ru": "Храм Венеры в Пафосе",
@@ -5223,7 +5386,7 @@
     },
     {
       "id": "carta21",
-      "num": "183",
+      "num": "189",
       "page": "567",
       "fr": "Figura fuori ordine (tra il 52 e il 53)",
       "ru": "Фигура не по порядку (между 52-м и 53-м)",
@@ -5251,7 +5414,7 @@
     },
     {
       "id": "carta22",
-      "num": "184",
+      "num": "190",
       "page": "569",
       "fr": "Giano giovane",
       "ru": "Молодой Янус",
@@ -5279,7 +5442,7 @@
     },
     {
       "id": "carta23",
-      "num": "185",
+      "num": "191",
       "page": "571",
       "fr": "Il vaso di Giustitia",
       "ru": "Ваза с образом Справедливости",
@@ -5307,7 +5470,7 @@
     },
     {
       "id": "carta24",
-      "num": "186",
+      "num": "192",
       "page": "573",
       "fr": "Statua col sacerdote e le sue insegne",
       "ru": "Статуя священника с его регалиями",
@@ -5334,7 +5497,7 @@
     },
     {
       "id": "carta42",
-      "num": "187",
+      "num": "193",
       "page": "574",
       "fr": "Vaso antico con rilievi",
       "ru": "Античная ваза с рельефом",
@@ -5362,7 +5525,7 @@
     },
     {
       "id": "carta43",
-      "num": "188",
+      "num": "194",
       "page": "576",
       "fr": "Figura femminile armata",
       "ru": "Вооружённая женская фигура",
@@ -5390,7 +5553,7 @@
     },
     {
       "id": "carta25",
-      "num": "189",
+      "num": "195",
       "page": "578",
       "fr": "La prima Mano Pantea",
       "ru": "Первая Пантеистическая Рука",
@@ -5417,7 +5580,7 @@
     },
     {
       "id": "carta44",
-      "num": "190",
+      "num": "196",
       "page": "579",
       "fr": "La mano simbolica con la lira (quarta Mano Pantea)",
       "ru": "Символическая рука с лирой (четвёртая Пантеистическая рука)",
@@ -5445,7 +5608,7 @@
     },
     {
       "id": "carta26",
-      "num": "191",
+      "num": "197",
       "page": "580",
       "fr": "La seconda Mano Pantea",
       "ru": "Вторая Пантеистическая Рука",
@@ -5472,7 +5635,7 @@
     },
     {
       "id": "carta45",
-      "num": "192",
+      "num": "198",
       "page": "581",
       "fr": "Figura giovanile con bastone (TYXAINI)",
       "ru": "Юношеская фигура с посохом (надпись TYXAINI)",
@@ -5499,7 +5662,7 @@
     },
     {
       "id": "carta27",
-      "num": "193",
+      "num": "199",
       "page": "582",
       "fr": "La terza Mano Pantea",
       "ru": "Третья Пантеистическая Рука",
@@ -5534,7 +5697,7 @@
     },
     {
       "id": "carti1",
-      "num": "194",
+      "num": "200",
       "page": "591",
       "fr": "Homoyoca",
       "ru": "Омойока",
@@ -5562,7 +5725,7 @@
     },
     {
       "id": "carti2",
-      "num": "195",
+      "num": "201",
       "page": "593",
       "fr": "Idolo messicano con offerenti",
       "ru": "Мексиканский идол с дарителями",
@@ -5589,7 +5752,7 @@
     },
     {
       "id": "carti3",
-      "num": "196",
+      "num": "202",
       "page": "594",
       "fr": "Miquitlantecatle e gli dei infernali",
       "ru": "Миктлантекутли и подземные боги",
@@ -5617,7 +5780,7 @@
     },
     {
       "id": "carti4",
-      "num": "197",
+      "num": "203",
       "page": "596",
       "fr": "Vitzliputzli (coppia di divinita)",
       "ru": "Вицлипуцли и спутник",
@@ -5644,7 +5807,7 @@
     },
     {
       "id": "carti5",
-      "num": "198",
+      "num": "204",
       "page": "597",
       "fr": "L'Ambasciatore alato",
       "ru": "Крылатый дух",
@@ -5673,7 +5836,7 @@
     },
     {
       "id": "carti6",
-      "num": "199",
+      "num": "205",
       "page": "600",
       "fr": "Quetzalcoatl",
       "ru": "Кецалькоатль",
@@ -5707,7 +5870,7 @@
     },
     {
       "id": "carti7",
-      "num": "200",
+      "num": "206",
       "page": "608",
       "fr": "Divinita composite \"egizie\" (introduzione al Giapone)",
       "ru": "«Египетские» божества-кентавры (вступление к Японии)",
@@ -5734,7 +5897,7 @@
     },
     {
       "id": "carti8",
-      "num": "201",
+      "num": "207",
       "page": "609",
       "fr": "Canone, figlio di Amida",
       "ru": "Каннон, сын Амиды",
@@ -5761,7 +5924,7 @@
     },
     {
       "id": "carti9",
-      "num": "202",
+      "num": "208",
       "page": "610",
       "fr": "Un'altra statua di Amida presso Meaco",
       "ru": "Ещё одна статуя Амиды близ Меако",
@@ -5788,7 +5951,7 @@
     },
     {
       "id": "carti10",
-      "num": "203",
+      "num": "209",
       "page": "611",
       "fr": "Il dio-lucertola delle lettere",
       "ru": "Бог-ящерица, покровитель учёности",
@@ -5815,7 +5978,7 @@
     },
     {
       "id": "carti11",
-      "num": "204",
+      "num": "210",
       "page": "612",
       "fr": "Una pagoda giapponese",
       "ru": "Японская пагода",
@@ -5843,7 +6006,7 @@
     },
     {
       "id": "carti12",
-      "num": "205",
+      "num": "211",
       "page": "613",
       "fr": "Un castello-tempio giapponese",
       "ru": "Японский замок-храм",
@@ -5870,7 +6033,7 @@
     },
     {
       "id": "carti13",
-      "num": "206",
+      "num": "212",
       "page": "614",
       "fr": "Il grande Idolo giapponese",
       "ru": "Великий японский идол",
@@ -5897,7 +6060,7 @@
     },
     {
       "id": "carti14",
-      "num": "207",
+      "num": "213",
       "page": "615",
       "fr": "Il secondo idoletto d'Aleandro",
       "ru": "Второй идольчик из собрания Алеандро",
@@ -5924,7 +6087,7 @@
     },
     {
       "id": "carti15",
-      "num": "208",
+      "num": "214",
       "page": "616",
       "fr": "Un idolo calvo dal volto ridente (primo idoletto)",
       "ru": "Лысый смеющийся идол (первый идольчик)",
@@ -5951,7 +6114,7 @@
     },
     {
       "id": "carti16",
-      "num": "209",
+      "num": "215",
       "page": "617",
       "fr": "Uno spirito guerriero (secondo idoletto)",
       "ru": "Воинственный дух (второй идольчик)",
@@ -5978,7 +6141,7 @@
     },
     {
       "id": "carti17",
-      "num": "210",
+      "num": "216",
       "page": "618",
       "fr": "Coppia di figure (terzo e quarto idoletto)",
       "ru": "Пара фигур (третий и четвёртый идольчики)",
@@ -6005,7 +6168,7 @@
     },
     {
       "id": "carti18",
-      "num": "211",
+      "num": "217",
       "page": "619",
       "fr": "L'idolo piangente (quinto idoletto)",
       "ru": "Плачущий идол (пятый идольчик)",
@@ -6032,7 +6195,7 @@
     },
     {
       "id": "carti19",
-      "num": "212",
+      "num": "218",
       "page": "620",
       "fr": "Coppia di divinita dalla pelle azzurra (sesto e settimo idoletto)",
       "ru": "Синекожая пара божеств (шестой и седьмой идольчики)",
@@ -6059,7 +6222,7 @@
     },
     {
       "id": "carti20",
-      "num": "213",
+      "num": "219",
       "page": "621",
       "fr": "Divinita a sei braccia (ottavo idoletto)",
       "ru": "Шестирукое божество с луком (восьмой идольчик)",
@@ -6086,7 +6249,7 @@
     },
     {
       "id": "carti21",
-      "num": "214",
+      "num": "220",
       "page": "622",
       "fr": "Figura aureolata dall'aspetto di santo",
       "ru": "Святоподобная фигура с нимбом",
@@ -6113,7 +6276,7 @@
     },
     {
       "id": "carti22",
-      "num": "215",
+      "num": "221",
       "page": "623",
       "fr": "Una dea con un bambino",
       "ru": "Богиня с младенцем на руках",
@@ -6140,7 +6303,7 @@
     },
     {
       "id": "carti23",
-      "num": "216",
+      "num": "222",
       "page": "624",
       "fr": "Un idolo azzurro in un'aureola di fiamme",
       "ru": "Синекожий идол в пламенном нимбе",
@@ -6167,7 +6330,7 @@
     },
     {
       "id": "carti24",
-      "num": "217",
+      "num": "223",
       "page": "625",
       "fr": "Un idolo rosso seduto su una bestia",
       "ru": "Красный идол, сидящий на звере",
@@ -6194,7 +6357,7 @@
     },
     {
       "id": "carti25",
-      "num": "218",
+      "num": "224",
       "page": "626",
       "fr": "Un guerriero su una nuvola",
       "ru": "Воин на облаке с пламенным нимбом",
@@ -6221,7 +6384,7 @@
     },
     {
       "id": "carti26",
-      "num": "219",
+      "num": "225",
       "page": "627",
       "fr": "Spirito alato su un corpo abbattuto",
       "ru": "Крылатый дух, попирающий поверженного",
@@ -6249,7 +6412,7 @@
     },
     {
       "id": "carti27",
-      "num": "220",
+      "num": "226",
       "page": "629",
       "fr": "Piccolo idolo su un vaso (1)",
       "ru": "Маленький идол на вазе (1)",
@@ -6276,7 +6439,7 @@
     },
     {
       "id": "carti28",
-      "num": "221",
+      "num": "227",
       "page": "630",
       "fr": "Piccolo idolo su un vaso (2)",
       "ru": "Маленький идол на вазе (2)",
@@ -6304,7 +6467,7 @@
     },
     {
       "id": "carti29",
-      "num": "222",
+      "num": "228",
       "page": "631",
       "fr": "Piccolo idolo su un vaso (3)",
       "ru": "Маленький идол на вазе (3)",
@@ -6332,7 +6495,7 @@
     },
     {
       "id": "carti30",
-      "num": "223",
+      "num": "229",
       "page": "632",
       "fr": "Piccolo idolo su un vaso (4)",
       "ru": "Маленький идол на вазе (4) — «IL FINE»",
@@ -6355,90 +6518,6 @@
       ],
       "scans": [
         "carti30.jpg"
-      ],
-      "textOnly": true
-    },
-    {
-      "id": "cartm2b",
-      "num": "0",
-      "page": "0",
-      "fr": "L'Antro dell'Eternità: ode di Claudiano (traduzione)",
-      "ru": "Пещера Вечности: ода Клавдиана (перевод)",
-      "en": "The Cave of Eternity: Claudian's ode (translation)",
-      "img": [
-        "cartm2b.jpg"
-      ],
-      "scans": [
-        "cartm2b.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Però dico, che la Eternità staua sempre con quelli Dei, che erano creduti immortali; la quale chi ella fosse dimostra assai bene col nome solo che viene a dire cosa, che in sè contiene tutte le età, & tutti i secoli, sì che spatio alcuno di tempo non la può misurare: benche si possa dire a certo modo, che ella sia parimente tempo, ma che non hà mai fine. Et perciò Trismegisto, i Pitagorici, & Platone dissero, che era il tempo la imagine della Eternità; perche questo in se stesso si riuolue, & pare che non se ne veggia mai il fine. Ma questa si può dire più tosto Perpetuità; perche, ancora che non habbia mai fine, non possiede però interamente tutta in vn medesimo punto questa sua vita infinita; che è proprio della Eternità, secondo Boetio; ilquale dice, che, se bene parue a Platone che il mondo non habbi hauuto principio, nè sia per hauere mai fine, s'ingannarono però quelli, liquali seguitando questa opinione lo chiamano coeterno a Dio... Describe dunque Boetio la Eternità, che sia vn possesso presentaneo di tutti i tempi, & questa è propria di Dio... Onde Claudiano, che largamente la descriue nelle laudi di Stilicone, fà che vn serpente circonda l'antro, oue ella stà, in modo che si caccia la coda in bocca, che viene a mostrare l'effetto del tempo, ilquale in se stesso si và girando sempre, hauendone tolto l'essempio da quelli di Egitto, liquali mostrauano l'anno parimente col serpente, che si mordeua la coda... Vedesi la Eternità in vna medaglia di Faustina fatta in questa guisa. Stà vna donna vestita da matrona in piè con vna palla nella destra mano, & hà sopra'l capo vn largo velo disteso, che la cuopre dall'vno homero all'altro. Ma vediamo tutto il disegno, che ne fà Claudiano, da me ritratto in nostra lingua à questo modo: 'In parte sì da noi lunge, e secreta, Ch'alcun mortal vestigio non v'appare, Oue a l'humana mente il gir si vieta, Nè vi ponno anco i Dei forse arriuare, Vna spelonca viue d'anni lieta, Ma d'età pare, Laqual con modo, ch'vnqua non vien meno, Manda, e richiama i tempi a l'ampio seno. Questa col flessuoso corpo cinge Vn serpe pien di verdeggianti squame, Qual ciò, che troua auidamente stringe Come che diuorar ei tutto brame, E la coda si caccia in gola, e finge Voler mangiarla con auida fame. Vassene in giro, e con l'vsate tempre, Onde partì, cheto ritorna sempre. A la porta con faccia riuerenda, Et d'anni piena stà l'alma Natura, Come custode, che fedele attenda Chi vien', & và con diligente cura; D'intorno volan l'anime, e che penda Ciascuna par con debita figura Da le membra, ch'à lei son date in sorte, E stan con lei fino che piace à Morte. Ne l'antro poi, ne la spelonca immensa Vn vecchio, c'hà di bianca neue asperso Il mento, e'l crine; stà, scriue e dispensa Le ferme leggi date à l'vniuerso. E mentre ch'à disporre il tutto pensa Con l'animo al bell'ordine conuerso, Certi numeri parte tra le stelle, Onde n'appaion poi sì vaghe e belle. Con ordine immutabili prescriue A ciascuna quando habbia à gir, ò stare Da che quanto tra noi si more, ò viue, Hà vita, e morte, poi torna à guardare E riueder come al suo corso arriue Marte, qual, bench'anezzo à caminare Per via certa, và pur à certo fine; Che così voglion le leggi diuine. Come con certo passo giri intorno Gioue portando giouamento al mondo, Come la Luna si nasconda il giorno, E tosto muti il bel lume fecondo, Come partendo sia tardo al ritorno Saturno horrido, mesto, & infecondo; Quanto Venere bella, e doppo lei Errando vada il messaggier de i Dei. E quando Febo à l'antro s'auuicina Subito ad incontrarlo la potente Natura viene, e à gli altri vai s'inchina Il bianco Vecchio humile, e riuerente. All'hora da sé s'apre la diuina Spelonca, allhor si vegono patente L'adamantine porte, e à poco à poco Tutti i secreti appaion di quel loco. Quiui i secoli sono di diuersi Metalli fatti in variati aspetti, E pare ciaschedun di lor tenersi Nel seggio suo con suoi compagni eletti; Questo è di ferro, onde souente fersi I mortali frà lor danni, e dispetti; Di rame quell', al cui gouerno è stato Il mondo tutto vn poco men turbato. Vn'altro v'è d'argento, che risplende In bel seggio eleuato d'ogn'intorno; Ma di rado trà noi mortai discende A far di sì bel lume il mondo adorno. Quello, che più de gli altri in alto ascende È d'oro, e d'oro son quei, ch'egli hà intorno, Tutti pieni di fede, e di prudenza, Di bontà, di giustitia, e di clemenza. E son gli anni beati, ch'à mortali Apporteran felicitade immensa, All'hor, ch'hauerà pietà de' nostri mali Febo, che questi à modo suo dispensa, Et farà, che dal Ciel spiegando l'ali La bella Astrea di nuouo amor accensa Di riueder il mondo à star frà noi Verrà senza più mai partirne poi.'",
-      "text_ru": [
-        "«Итак, я говорю, что Вечность всегда пребывала с теми богами, которых почитали бессмертными; а кто она есть, достаточно ясно показывает уже одно её имя, означающее то, что в себе содержит все века и все столетия, так что никакой промежуток времени не может её измерить: хотя в некотором смысле можно сказать, что она тоже есть время, только не имеющее конца. Поэтому Трисмегист, пифагорейцы и Платон говорили, что время есть образ Вечности, ибо оно вращается само в себе, и конца ему, кажется, никогда не видно. Но это скорее следует назвать Вечной Длительностью; ибо, хотя она и не имеет конца, она всё же не обладает всей своей бесконечной жизнью целиком в один и тот же миг — что как раз свойственно Вечности, согласно Боэцию... Клавдиан, пространно описывающий её в похвалах Стилихону, изображает змея, обвивающего пещеру, где она обитает, так что он держит хвост во рту — что означает действие времени, которое вечно вращается само в себе... Вечность видна на медали Фаустины: стоит женщина, одетая как матрона, с шаром в правой руке, и широкое покрывало раскинуто у неё над головой. Но посмотрим на весь замысел, который даёт нам Клавдиан, переложенный мной на наш язык:\n\n«В месте, от нас столь далёком и сокрытом, что ни единый смертный след не является, куда и человеческому уму путь заказан, и куда, быть может, даже боги не могут достичь, живёт некая пещера, счастливая годами, но кажущаяся неподвластной возрасту, которая неизменным образом, никогда не ослабевающим, посылает и вновь призывает времена в своё обширное лоно. Её гибким телом обвивает змей, полный зеленеющей чешуи, который всё, что находит, жадно сжимает, словно всё хочет поглотить, и засовывает хвост себе в пасть, притворяясь, что хочет съесть его с жадным голодом. Он движется по кругу и, откуда начал, туда же тихо всегда возвращается. У врат, с ликом почтенным, и полная годами, стоит благая Природа, словно страж, что верно ожидает приходящих и уходящих с усердной заботой; вокруг летают души, и кажется, что каждая зависит от подобающего ей облика, от членов, что даны ей по жребию, и пребывают с ней, пока это угодно Смерти. В глубине же, в безмерной пещере, некий старец, чей подбородок и волосы белым снегом посыпаны, сидит, пишет и раздаёт твёрдые законы, данные вселенной. И покуда он размышляет, как всё устроить, он распределяет между звёздами некие числа, отчего они являются столь прекрасными и красивыми. Неизменным порядком он предписывает каждой, когда ей идти или стоять; ибо всё, что среди нас умирает или живёт, имеет жизнь и смерть, он же вновь обращается взглядом, чтобы увидеть, как в своём ходе достигает цели Марс, который, хоть и привычен ходить определённым путём, всё же идёт к определённому концу; ибо так желают божественные законы. Как определённым шагом кружит вокруг Юпитер, принося пользу миру, как Луна прячется днём и быстро меняет свой прекрасный плодоносный свет, как, удаляясь, медлит с возвращением Сатурн, мрачный, печальный и бесплодный; сколь прекрасна Венера, и вслед за ней блуждая идёт вестник богов. И когда Феб приближается к пещере, тотчас навстречу ему выходит могучая Природа, и перед иными шествующими склоняется белый Старец, смиренно и почтительно. Тогда сама собой отворяется божественная Пещера, тогда становятся видны алмазные врата, и мало-помалу являются все тайны того места. Здесь века сделаны из различных металлов, в разнообразных обличиях, и кажется, что каждый держится на своём месте со своими избранными спутниками; этот — железный, от которого часто происходят между смертными беды и раздоры; тот — медный, при правлении которого весь мир был несколько менее взволнован. Есть и другой, серебряный, что блистает на прекрасном возвышенном со всех сторон престоле; но редко нисходит он к нам, смертным, чтобы украсить мир столь прекрасным светом. А тот, что выше прочих восходит, — золотой, и золотые те, что его окружают, все исполненные веры и благоразумия, доброты, справедливости и милосердия. И это — блаженные годы, что смертным принесут безмерное счастье, тогда, когда сжалится над нашими бедами Феб, который распределяет их по своему усмотрению, и сделает так, что, с Неба расправив крылья, прекрасная Астрея, вновь воспламенённая любовью, вернётся увидеть мир и остаться среди нас, и больше уже никогда не покинет его».»"
-      ],
-      "text_en": [
-        "“Thus I say that Eternity always dwelt with those gods who were believed immortal; and what she is, her very name shows well enough, meaning that which contains within itself all ages and all centuries, so that no span of time can measure her: although in a certain sense she too may be called time, only one that never ends. Hence Trismegistus, the Pythagoreans, and Plato said that time was the image of Eternity, because time revolves upon itself, and its end is never seen. But this should rather be called Perpetuity; for although it has no end, it does not possess the whole of its infinite life at one and the same instant — which is proper to Eternity, according to Boethius... Claudian, who describes her at length in his praises of Stilicho, shows a serpent encircling the cave where she dwells, biting its own tail, which signifies the effect of time, which ever turns upon itself... Eternity is seen on a medal of Faustina: a woman stands dressed as a matron, with a globe in her right hand, and a broad veil spread over her head. But let us see the whole design that Claudian gives us, rendered by me into our tongue:\n\n'In a place so far from us, and secret, that no mortal footprint there appears, where the human mind is forbidden to venture, nor can the gods themselves perhaps arrive, there dwells a cave, happy in years, yet seeming beyond the reach of age, which, in a manner that never fails, sends forth and calls back the ages into its vast bosom. This cave a Serpent girds with pliant body, full of greenish scales, which eagerly grasps whatever it finds, as though it craved to devour all, and thrusts its tail into its mouth, feigning to wish to eat it with ravenous hunger. It goes round in a circle, and returns ever quietly to where it began. At the gate, with reverend face, and full of years, stands bountiful Nature, like a guardian who faithfully awaits those who come and go, with diligent care; around her fly the souls, and each one seems to depend upon its due form, from the limbs allotted to it by lot, and they remain with her until it pleases Death. Within, in the immense cavern, an old man, whose chin and hair are sprinkled with white snow, sits, writes, and dispenses the firm laws given to the universe. And while he thinks how to arrange all things, he apportions certain numbers among the stars, whence they then appear so lovely and fair. With unchanging order he prescribes to each when it shall go or stay; for whatever among us dies or lives has life and death, and he turns again to watch and see how, in its course, Mars arrives — who, though accustomed to walk a fixed path, still goes to a fixed end; for so the divine laws will it. How Jove circles round with fixed step, bringing benefit to the world, how the Moon hides by day, and swiftly changes her fair fruitful light, how, departing, Saturn is slow to return, grim, sad, and barren; how fair Venus is, and after her wanders the messenger of the gods. And when Phoebus draws near the cave, at once to meet him comes mighty Nature, and before the others passing by bows the white Old Man, humble and reverent. Then of itself opens the divine Cavern, then are seen laid open the adamantine gates, and little by little all the secrets of that place appear. Here the ages are made of different Metals, in varied aspects, and each seems to hold its place on its own seat with its chosen companions; this one is of iron, from which often arise harms and spites among mortals; that one of copper, under whose rule the whole world was somewhat less troubled. There is another, of silver, that shines on a fair seat raised up on every side; but rarely does it descend to us mortals to adorn the world with so fair a light. The one that rises highest above the rest is of gold, and golden too are those around it, all full of faith and prudence, of goodness, justice, and clemency. And these are the blessed years that to mortals shall bring immense happiness, when Phoebus, who dispenses these in his own manner, shall take pity on our ills, and shall cause fair Astraea, spreading her wings from Heaven, rekindled with new love, to see the world again and dwell among us, and never again depart.'”"
-      ],
-      "name_fr": "L'Antre de l'Éternité : ode de Claudien (traduction)",
-      "text_fr": [
-        "« Je dis donc que l'Éternité demeurait toujours avec ces dieux que l'on croyait immortels ; et ce qu'elle est, son nom seul le montre assez bien, signifiant ce qui contient en soi tous les âges et tous les siècles, de sorte qu'aucun espace de temps ne peut la mesurer : bien que, en un certain sens, on puisse dire qu'elle est aussi temps, mais un temps qui n'a jamais de fin. C'est pourquoi Trismégiste, les Pythagoriciens et Platon ont dit que le temps était l'image de l'Éternité, parce qu'il tourne sur lui-même, et qu'on n'en voit jamais la fin. Mais ceci devrait plutôt s'appeler Perpétuité ; car, bien qu'elle n'ait pas de fin, elle ne possède pas pour autant toute sa vie infinie en un seul et même instant — ce qui est le propre de l'Éternité, selon Boèce... Claudien, qui la décrit longuement dans ses louanges de Stilicon, montre un serpent entourant l'antre où elle demeure, se mordant la queue, ce qui signifie l'effet du temps, qui tourne toujours sur lui-même... L'Éternité se voit sur une médaille de Faustine : une femme se tient debout, vêtue en matrone, un globe dans la main droite, et un large voile étendu sur sa tête. Mais voyons tout le dessin qu'en donne Claudien, que j'ai rendu dans notre langue de cette façon :\n\n« En un lieu si loin de nous, et si secret, qu'aucune trace mortelle n'y apparaît, où il est interdit à l'esprit humain de se rendre, et où peut-être les dieux eux-mêmes ne sauraient parvenir, vit un antre, heureux de ses années, mais paraissant hors d'âge, lequel, d'une manière qui jamais ne faiblit, envoie et rappelle les temps en son vaste sein. Cet antre, de son corps souple, un Serpent l'entoure, plein d'écailles verdoyantes, qui saisit avidement tout ce qu'il trouve, comme s'il voulait tout dévorer, et se fourre la queue dans la bouche, feignant de vouloir la manger d'une faim avide. Il tourne en rond, et toujours tranquillement revient d'où il est parti. À la porte, au visage vénérable, et pleine d'années, se tient la bienfaisante Nature, comme une gardienne qui attend fidèlement ceux qui vont et viennent, avec un soin diligent ; autour d'elle volent les âmes, et chacune semble dépendre de la forme qui lui est due, des membres qui lui sont donnés en partage, et elles demeurent avec elle tant qu'il plaît à la Mort. Dans la caverne immense, un vieillard, dont le menton et les cheveux sont saupoudrés de neige blanche, est assis, écrit et dispense les lois fermes données à l'univers. Et tandis qu'il songe à tout disposer, il répartit certains nombres parmi les étoiles, d'où elles paraissent ensuite si belles et gracieuses. D'un ordre immuable, il prescrit à chacune quand elle doit aller ou s'arrêter ; car tout ce qui, parmi nous, meurt ou vit, a vie et mort, et lui se retourne pour regarder et revoir comment, en sa course, parvient Mars, lequel, bien qu'accoutumé à marcher par une voie certaine, va pourtant vers une fin certaine ; car ainsi le veulent les lois divines. Comme d'un pas certain tourne autour Jupiter, apportant bienfait au monde, comme la Lune se cache le jour, et change vite sa belle lumière féconde, comme, en partant, tarde à revenir Saturne, horrible, triste et infécond ; combien Vénus est belle, et après elle erre le messager des dieux. Et quand Phébus s'approche de l'antre, aussitôt, à sa rencontre, vient la puissante Nature, et devant les autres qui passent s'incline le blanc Vieillard, humble et révérencieux. Alors s'ouvre d'elle-même la divine Caverne, alors se voient grandes ouvertes les portes adamantines, et peu à peu apparaissent tous les secrets de ce lieu. Là, les siècles sont faits de différents Métaux, sous des aspects variés, et chacun semble se tenir à sa place, avec ses compagnons élus ; celui-ci est de fer, d'où naissent souvent entre les mortels maux et dépits ; celui-là de bronze, sous le gouvernement duquel le monde entier fut un peu moins troublé. Il en est un autre, d'argent, qui brille sur un beau siège élevé de toutes parts ; mais rarement il descend parmi nous, mortels, pour orner le monde d'une si belle lumière. Celui qui, plus que les autres, s'élève le plus haut est d'or, et d'or sont ceux qui l'entourent, tous pleins de foi et de prudence, de bonté, de justice et de clémence. Et ce sont les années bienheureuses qui, aux mortels, apporteront un bonheur immense, lorsque Phébus, qui les dispense à sa guise, aura pitié de nos maux, et fera qu'en déployant ses ailes depuis le Ciel, la belle Astrée, rallumée d'un nouvel amour, reviendra revoir le monde et demeurer parmi nous, sans jamais plus s'en départir ensuite. »"
-      ],
-      "textOnly": true
-    },
-    {
-      "id": "cartm_sat1",
-      "num": "0",
-      "page": "0",
-      "fr": "SATVRNO: apertura del capitolo e poesia",
-      "ru": "САТУРН: открытие главы и стихотворение",
-      "en": "SATURN: chapter opening and poem",
-      "img": [
-        "cartm_sat1.jpg"
-      ],
-      "scans": [
-        "cartm_sat1.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "SATVRNO. Il primo fù Saturno, che disceso Da l'alto Ciel fuggendo il figlio Gioue, Ed a forza priuato de' suoi regni, Venne a mostrar' a gli huomini, ch'allhora Come le fere andauano dispersi Per gli alti monti, il modo di raccorsi Insieme, e d'vbbidire a certe leggi. Et il paese, oue à principio ei stette Latente, fù perciò chiamato Latio. Sotto'l gouerno di costui si dice Che fù il felice secolo de l'oro Così reggeua ei giustamente i suoi Popoli dando lor riposo, e pace. In questo modo canta Virgilio di Saturno, mettendo la historia con le fauole, conciosia che quella reciti che Saturno andò in Italia scacciato di Grecia dal figliuolo, & queste habbino finto poi, che egli era prima Signore del Cielo, & che Gioue ne lo scacciò, & lo fece scendere al basso; perche la Grecia è più verso l'Oriente, & perciò più alta della Italia, che rende verso l'Occidente. Ritiratosi adunque Saturno in Italia, fù da Giano Rè di quel paese, oue poi fù messa Roma, che se ne viueua con suoi popoli quella roza vita de più antichi mortali, tolto a parte del regno, perche gli mostrò la coltiuatione de i campi, & il fare gli denari di metallo, che prima erano di cuoio. Et fù perciò fatta su questi poi dall'vno de lati vna naue, perche Saturno nauigando andò in Italia, e dall'altro vna testa con due faccie, che tale era la imagine di Giano, come vedremo poi. Edificarono questi due Rè communemente terre, & castelli vicini, che dal loro nome i chiamarono; come Saturnia da Saturno, & Gianicolo da Giano. Onde tanto fu stimato Saturno da quelle genti, che insieme col Rè loro cominciarono à riuerirlo come Dio, perche erano all'hora stimati Dei quelli, liquali sapeuano trouare, & là insegnauano, qualche arte che fosse vtile alla vita humana; & questa di coltiuare il terreno, & farlo con arte più fecondo, che non è di sua natura, è vtilissima; & perciò Saturno ne meritò gli sacri honori, & fu chiamato Stercutio dallo stercorare i campi, cioè dare loro il letame, onde diuengono poi più fertili.",
-      "text_ru": [
-        "«САТУРН. Первым был Сатурн, который, сойдя с высокого Неба, бежав от сына Юпитера, и силой лишённый своих царств, явился показать людям, которые дотоле, словно дикие звери, бродили рассеянными по высоким горам, способ собираться вместе и повиноваться неким законам. И страна, где он поначалу скрывался, была за это названа Лацием. Под его правлением, как говорят, был счастливый золотой век: так справедливо правил он своими народами, давая им покой и мир. Так воспевает Вергилий Сатурна, соединяя историю с баснями, поскольку он рассказывает, что Сатурн отправился в Италию, изгнанный из Греции сыном, а [баснословцы] измыслили затем, будто он прежде был Владыкой Неба, и что Юпитер изгнал его оттуда и заставил сойти вниз; ибо Греция расположена более к Востоку, а потому выше Италии, которая обращена к Западу. Итак, удалившись в Италию, Сатурн был принят в долю царства Янусом, царём той страны, где потом был основан Рим, который жил со своими народами той грубой жизнью древнейших смертных, — ибо [Сатурн] показал им возделывание полей и изготовление денег из металла, которые прежде были кожаными. И потому на этих [монетах] с одной стороны изображался корабль, ибо Сатурн приплыл в Италию морем, а с другой — голова с двумя лицами, ибо таков был образ Януса, как увидим далее. Эти два царя совместно строили земли и крепости поблизости, названные их именами: как Сатурния от Сатурна, и Яникул от Януса. Настолько высоко ценили Сатурна те народы, что вместе со своим царём стали почитать его как бога, ибо в те времена богами считались те, кто умел открыть и преподать какое-либо искусство, полезное для человеческой жизни; а возделывание земли и превращение её искусством в более плодородную, чем от природы, — вещь весьма полезная; потому Сатурн заслужил священные почести и был назван Стеркутием от «stercorare» — унавоживать поля, то есть давать им навоз, отчего они становятся более плодородными»."
-      ],
-      "text_en": [
-        "“SATURN. The first was Saturn, who, descending from high Heaven, fleeing his son Jove, and by force deprived of his kingdoms, came to show men, who till then wandered scattered like wild beasts over the high mountains, the way to gather together and obey certain laws. And the country where he at first lay hidden was therefore called Latium. Under his rule, it is said, was the happy golden age: so justly did he govern his peoples, giving them rest and peace. Thus Virgil sings of Saturn, mixing history with fable, since he relates that Saturn went to Italy, driven out of Greece by his son, and that they then feigned he had first been Lord of Heaven, and that Jove drove him out and made him descend below; because Greece lies more to the East, and is therefore higher than Italy, which faces the West. Having thus withdrawn to Italy, Saturn was given a share of the kingdom by Janus, king of that country, where Rome was later founded, who lived with his peoples that rough life of the most ancient mortals — for Saturn showed them the cultivation of fields, and the making of money from metal, which before had been of leather. And therefore on these coins, on one side was depicted a ship, because Saturn sailed to Italy, and on the other a head with two faces, which was the image of Janus, as we shall see later. These two kings jointly built towns and nearby strongholds, named after them: such as Saturnia from Saturn, and Janiculum from Janus. So greatly was Saturn esteemed by those peoples that, together with their king, they began to revere him as a god, since in those times those were deemed gods who knew how to find, and there to teach, some art useful to human life; and this, of cultivating the land and making it more fruitful by art than it is by nature, is most useful; and so Saturn earned sacred honours, and was called Stercutius from 'stercorare,' to manure the fields, that is, to give them dung, from which they then become more fertile.”"
-      ],
-      "name_fr": "SATURNE : ouverture du chapitre et poème",
-      "text_fr": [
-        "« SATURNE. Le premier fut Saturne, qui, descendu du haut Ciel, fuyant son fils Jupiter, et privé par la force de ses royaumes, vint montrer aux hommes, qui jusque-là erraient dispersés comme des bêtes sauvages sur les hautes montagnes, la manière de se rassembler et d'obéir à certaines lois. Et le pays où il se cacha d'abord fut pour cela appelé Latium. Sous son règne, dit-on, fut le siècle d'or heureux : ainsi gouvernait-il justement ses peuples, leur donnant repos et paix. Ainsi chante Virgile de Saturne, mêlant l'histoire aux fables, puisqu'il raconte que Saturne alla en Italie, chassé de Grèce par son fils, et qu'on feignit ensuite qu'il avait d'abord été Seigneur du Ciel, et que Jupiter l'en chassa et le fit descendre en bas ; car la Grèce est plus vers l'Orient, et donc plus haute que l'Italie, qui regarde vers l'Occident. Retiré donc en Italie, Saturne fut admis à une part du royaume par Janus, roi de ce pays où fut ensuite bâtie Rome, lequel vivait avec ses peuples cette vie rude des mortels les plus anciens — car Saturne leur montra la culture des champs, et la fabrication de monnaie en métal, qui auparavant était de cuir. Et c'est pourquoi sur ces monnaies était figuré d'un côté un navire, car Saturne vint en Italie par mer, et de l'autre une tête à deux visages, qui était l'image de Janus, comme nous le verrons plus loin. Ces deux rois bâtirent ensemble des villes et des forteresses voisines, nommées d'après eux : comme Saturnia d'après Saturne, et le Janicule d'après Janus. Saturne fut si estimé de ces peuples qu'avec leur roi ils commencèrent à le vénérer comme un dieu, car en ces temps-là étaient tenus pour dieux ceux qui savaient trouver, et y enseigner, quelque art utile à la vie humaine ; et celui de cultiver la terre, et de la rendre par l'art plus féconde qu'elle ne l'est par nature, est des plus utiles ; c'est pourquoi Saturne mérita les honneurs sacrés, et fut appelé Stercutius, de 'stercorare', fumer les champs, c'est-à-dire leur donner du fumier, d'où ils deviennent ensuite plus fertiles. »"
-      ],
-      "textOnly": true
-    },
-    {
-      "id": "cartm_sat2",
-      "num": "0",
-      "page": "0",
-      "fr": "Saturno: i sacrifici, la falce, la favola del vino e la morte di Giano",
-      "ru": "Сатурн: жертвоприношения, серп, басня о вине и смерть Януса",
-      "en": "Saturn: sacrifices, the sickle, the fable of wine, and the death of Janus",
-      "img": [
-        "cartm_sat2.jpg"
-      ],
-      "scans": [
-        "cartm_sat2.jpg"
-      ],
-      "group": "Главный текст",
-      "group_en": "Main text",
-      "caption": "Ne' sacrificij Saturnali poi anco si adoperauano candele accese: la qual cosa dichiarando Macrobio dice, che era, perche sotto il reggimento di Saturno gli huomini da vna incolta vita, & piena di tenebre, passarono alla lucida & bella scientia delle buone arti. Oltre di ciò intesero gli antichi il tempo sotto il nome di Saturno, del quale dissero i Latini molte ragioni tutte confacentisi al tempo, ma non già al proposito nostro. Et i Greci parimente lo chiamarono Crono, che viene a dire tempo, & quello, che significa il nome, fu mostrato nella imagine di questo Dio; perche le fecero quasi sempre di huomo vecchio, mal vestito, senza nulla in capo, con vna falce nell'vna mano, & nell'altra haueua certa cosa auiluppata in vn panno, quale pareua cacciarsi in gola, come che la volesse diuorare, e quattro piccioli fanciullini gli erano quini appresso. Queste cose sono interpretate in questo modo: Il tempo è vecchio e mal vestito perche ò sempre è stato, ouero cominciò ad essere insieme con il mondo... Fu detto anco Saturno, Vitisatore, quasi cultor delle viti, perche dicono, che essendo passato nell'Italia, come s'è detto, & accettato da' Latini, ne hebbe della figlia di vno d'essi Enotria nominata, alcuni figliuoli, trà quali vien connumerato Gian; a chi egli insegnò il modo di piantare, & coltiuar la vite, & di fare il vino; ilche hauendo essi operato, & guadagnatone perciò il nome di inuentori, auenne che vn giorno alcuni liquali forse haueuano beuuto più di quello, che loro si conueniua, si addormentarono, & fecero vn longhissimo sonno, dal quale poi suegliati & accortisi, che questo era accaduto per il beuuto vino, credendo che fosse qualche cosa venenata, lapidarono, & occisero Giano, come inuentor di quello; per il che quattro figliuole di lui rimaste, per doglia con vna fune ligatasi al collo si leuarono la vita: mà da Saturno furono poste nel Cielo in loco di Stelle, & à noi si dimostrano poco auanti il tempo della vendemmia. Essendo poscia vn tempo i Romani aggrauati di pestilentia, & hauendo perciò consultato l'oracolo d'Apolline, hebbero in risposta, che bisognaua placar prima l'ira di Saturno riceuuta per la morte di Giano suo figliuolo, da che mossi i Romani gli edificarono vn tempio su'l Monte Tarpeio, & vi posero Giano con quattro faccie; ò dal numero delle figliuole, ò dalle quattro stagioni dell'anno.",
-      "text_ru": [
-        "«На сатурналийских жертвоприношениях также возжигали свечи: Макробий, объясняя это, говорит, что это было потому, что под властью Сатурна люди от грубой жизни, полной тьмы, перешли к светлой и прекрасной науке благих искусств. Кроме того, древние понимали под именем Сатурна само Время, о котором латиняне приводили многие объяснения, все уместные применительно ко времени, но не к нашей теме. Греки равным образом называли его Кроном, что означает «время», и то, что означает это имя, было показано в образе этого бога: его почти всегда изображали стариком, плохо одетым, без ничего на голове, с серпом в одной руке, а в другой держащим нечто, завёрнутое в ткань, которое, казалось, он засовывает себе в глотку, словно желая проглотить, и четверо маленьких детей стояли рядом с ним. Это толкуется следующим образом: время старо и плохо одето, ибо оно всегда существовало, или началось вместе с миром... Назывался Сатурн также Витисатором, то есть почти «возделывателем лоз», ибо говорят, что, прибыв в Италию, как было сказано, и принятый латинянами, он имел от дочери одного из них, по имени Энотрия, нескольких сыновей, среди которых числится и Гиан; его он научил способу сажать и возделывать виноградную лозу и делать вино; а когда они это осуществили и заслужили тем самым имя изобретателей, случилось однажды, что некоторые, выпив, быть может, больше, чем им подобало, уснули и погрузились в весьма долгий сон, от которого, пробудившись и поняв, что это случилось от выпитого вина, решив, что это было нечто отравленное, побили камнями и убили Гиана как изобретателя вина; из-за чего четыре оставшиеся его дочери, от горя обвязав себе шею верёвкой, лишили себя жизни: но Сатурн поместил их на Небо вместо звёзд, и они являются нам незадолго до времени сбора винограда. Впоследствии, когда однажды римляне были отягощены моровой язвой и вопросили об этом оракул Аполлона, они получили в ответ, что надлежит прежде умиротворить гнев Сатурна, вызванный смертью его сына Гиана; побуждённые этим, римляне воздвигли ему храм на Тарпейской горе и поместили там Януса с четырьмя лицами — либо по числу дочерей, либо по четырём временам года»."
-      ],
-      "text_en": [
-        "“At the Saturnalian sacrifices, too, lit candles were used: explaining this, Macrobius says it was because under Saturn's rule men passed from an uncultivated life, full of darkness, to the bright and beautiful knowledge of the good arts. Besides this, the ancients understood Time itself under the name of Saturn, concerning which the Latins gave many explanations, all fitting for time, but not for our present purpose. The Greeks likewise called him Cronus, which means time, and what this name signifies was shown in the image of this god; for they almost always made him an old man, poorly dressed, with nothing on his head, with a sickle in one hand, and in the other holding something wrapped in cloth, which he seemed to be thrusting into his throat, as if wishing to devour it, with four little children standing nearby. These things are interpreted thus: time is old and poorly dressed because it has always existed, or began together with the world... Saturn was also called Vitisator, almost 'cultivator of vines,' because they say that, having come to Italy, as has been said, and welcomed by the Latins, he had, by the daughter of one of them named Oenotria, several sons, among whom Janus is numbered; whom he taught how to plant and cultivate the vine, and to make wine; and having done this, and thereby earned the name of inventors, it happened one day that some, having perhaps drunk more than was fitting, fell asleep and had a very long sleep, from which, waking and realizing that this had happened from the wine drunk, believing it to be something poisoned, stoned and killed Janus as its inventor; for which his four surviving daughters, in grief, tied a rope around their necks and took their own lives: but Saturn placed them in the Heavens as Stars, and they appear to us shortly before the time of the grape harvest. Afterward, when the Romans were once burdened by plague, and having consulted the oracle of Apollo on this account, they received in answer that they must first appease the wrath of Saturn, incurred by the death of his son Janus; moved by this, the Romans built him a temple on the Tarpeian Hill, and placed there Janus with four faces — either from the number of his daughters, or from the four seasons of the year.”"
-      ],
-      "name_fr": "Saturne : les sacrifices, la faucille, la fable du vin et la mort de Janus",
-      "text_fr": [
-        "« Lors des sacrifices saturnales, on employait aussi des chandelles allumées : expliquant cela, Macrobe dit que c'était parce que, sous le règne de Saturne, les hommes passèrent d'une vie inculte, pleine de ténèbres, à la science lumineuse et belle des bons arts. Outre cela, les anciens entendaient le Temps lui-même sous le nom de Saturne, sur quoi les Latins donnaient de nombreuses raisons, toutes convenant au temps, mais non à notre propos. Les Grecs de même l'appelaient Cronos, ce qui signifie temps, et ce que signifie ce nom fut montré dans l'image de ce dieu ; car on le fit presque toujours en vieillard, mal vêtu, sans rien sur la tête, une faucille à la main, et dans l'autre tenant une chose enveloppée dans un linge, qu'il semblait se fourrer dans la gorge, comme s'il voulait la dévorer, avec quatre petits enfants auprès de lui. Ces choses s'interprètent ainsi : le temps est vieux et mal vêtu parce qu'il a toujours existé, ou commença avec le monde... Saturne fut aussi appelé Vitisator, presque « cultivateur de vignes », car on dit qu'étant venu en Italie, comme il a été dit, et accueilli par les Latins, il eut, de la fille de l'un d'eux nommée Œnotria, plusieurs fils, parmi lesquels on compte Janus ; à qui il enseigna la façon de planter et cultiver la vigne, et de faire le vin ; et l'ayant fait, et en ayant ainsi mérité le nom d'inventeurs, il advint un jour que certains, ayant peut-être bu plus qu'il ne convenait, s'endormirent et firent un très long sommeil, dont, réveillés et s'apercevant que cela était arrivé à cause du vin bu, croyant que c'était quelque chose d'empoisonné, lapidèrent et tuèrent Janus comme en étant l'inventeur ; pour quoi ses quatre filles restantes, de douleur, s'étant lié une corde au cou, s'ôtèrent la vie : mais Saturne les plaça au Ciel en guise d'Étoiles, et elles nous apparaissent peu avant le temps des vendanges. Les Romains étant ensuite une fois accablés de peste, et ayant pour cela consulté l'oracle d'Apollon, reçurent pour réponse qu'il fallait d'abord apaiser la colère de Saturne, encourue par la mort de son fils Janus ; mus par cela, les Romains lui bâtirent un temple sur le mont Tarpéien, et y placèrent Janus à quatre visages — soit d'après le nombre de ses filles, soit d'après les quatre saisons de l'année. »"
       ],
       "textOnly": true
     }
