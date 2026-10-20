@@ -3568,6 +3568,446 @@
       "text_fr": [
         "« Image de la déesse Volupia, déesse des plaisirs, foulant aux pieds la déesse Vertu : dénotant la vie détestable et infâme de ceux adonnés aux plaisirs, méprisant en tout la vertu, livrés à toute sorte de vice, comme dépourvus de raison. »"
       ]
+    },
+    {
+      "id": "cartm54",
+      "num": "54",
+      "page": "54",
+      "fr": "Vesta",
+      "ru": "Веста",
+      "en": "Vesta",
+      "name_fr": "Vesta",
+      "img": [
+        "cat17.jpg"
+      ],
+      "caption": "Vesta Dea dell'Elemento del fuoco, e delle sacre Vergini Vestali.",
+      "text_ru": [
+        "«Веста, богиня стихии огня и священных дев-весталок». (В книге для этого бога нет отдельной гравюры — только запись в каталоге 100 богов.)"
+      ],
+      "text_en": [
+        "“Vesta, goddess of the element of fire, and of the sacred Vestal Virgins.” (This book gives no separate engraving for this deity — only an entry in the catalogue of the 100 gods.)"
+      ],
+      "text_fr": [
+        "« Vesta, déesse de l'élément du feu, et des Vierges Vestales sacrées. » (Ce livre ne donne pas de gravure distincte pour cette divinité — seulement une entrée dans le catalogue des 100 dieux.)"
+      ]
+    },
+    {
+      "id": "cartm55",
+      "num": "55",
+      "page": "55",
+      "fr": "Glauco",
+      "ru": "Главк",
+      "en": "Glaucus",
+      "name_fr": "Glaucus",
+      "img": [
+        "cat17.jpg"
+      ],
+      "caption": "Glauco Dio Marino di augusto aspetto, il primo delli Dei marini dopo Nettuno.",
+      "text_ru": [
+        "«Главк, морской бог величественного облика, первый из морских богов после Нептуна». (В книге для этого бога нет отдельной гравюры — только запись в каталоге 100 богов.)"
+      ],
+      "text_en": [
+        "“Glaucus, a sea god of majestic appearance, the foremost of the sea gods after Neptune.” (This book gives no separate engraving for this deity — only an entry in the catalogue of the 100 gods.)"
+      ],
+      "text_fr": [
+        "« Glaucus, dieu marin d'aspect majestueux, le premier des dieux marins après Neptune. » (Ce livre ne donne pas de gravure distincte pour cette divinité — seulement une entrée dans le catalogue des 100 dieux.)"
+      ]
+    },
+    {
+      "id": "cartm56",
+      "num": "56",
+      "page": "56",
+      "fr": "Tethide",
+      "ru": "Тефида",
+      "en": "Tethys",
+      "name_fr": "Téthys",
+      "img": [
+        "cat17.jpg"
+      ],
+      "caption": "Tethide Dea Marina bellissima di tutte le Dee dopo Venere, & la prima de Dei marini dopo Nettuno, Anfitrite, & Glauco.",
+      "text_ru": [
+        "«Тефида, морская богиня, прекраснейшая из всех богинь после Венеры, и первая из морских божеств после Нептуна, Амфитриты и Главка». (В книге для этого бога нет отдельной гравюры — только запись в каталоге 100 богов.)"
+      ],
+      "text_en": [
+        "“Tethys, a sea goddess, the most beautiful of all goddesses after Venus, and foremost among the sea deities after Neptune, Amphitrite, and Glaucus.” (This book gives no separate engraving for this deity — only an entry in the catalogue of the 100 gods.)"
+      ],
+      "text_fr": [
+        "« Téthys, déesse marine, la plus belle de toutes les déesses après Vénus, et la première des divinités marines après Neptune, Amphitrite et Glaucus. » (Ce livre ne donne pas de gravure distincte pour cette divinité — seulement une entrée dans le catalogue des 100 dieux.)"
+      ]
+    },
+    {
+      "id": "cartm57",
+      "num": "57",
+      "page": "57",
+      "fr": "Portunno (Palemone)",
+      "ru": "Портунн (Палемон)",
+      "en": "Portunus (Palaemon)",
+      "name_fr": "Portunus (Palémon)",
+      "img": [
+        "cat17.jpg"
+      ],
+      "caption": "Portunno detto anco Palemone, Dio de porti, & del giunger saluo à casa de nauiganti.",
+      "text_ru": [
+        "«Портунн, называемый также Палемоном, бог гаваней и благополучного возвращения мореходов домой». (В книге для этого бога нет отдельной гравюры — только запись в каталоге 100 богов.)"
+      ],
+      "text_en": [
+        "“Portunus, also called Palaemon, god of harbours and of sailors' safe return home.” (This book gives no separate engraving for this deity — only an entry in the catalogue of the 100 gods.)"
+      ],
+      "text_fr": [
+        "« Portunus, aussi appelé Palémon, dieu des ports et du retour sain et sauf des navigateurs chez eux. » (Ce livre ne donne pas de gravure distincte pour cette divinité — seulement une entrée dans le catalogue des 100 dieux.)"
+      ]
+    },
+    {
+      "id": "cartm58",
+      "num": "58",
+      "page": "58",
+      "fr": "Eolo",
+      "ru": "Эол",
+      "en": "Aeolus",
+      "name_fr": "Éole",
+      "img": [
+        "cat17.jpg"
+      ],
+      "caption": "Eolo Dio de Venti, & delle tempeste maritime, & terrestri.",
+      "text_ru": [
+        "«Эол, бог ветров и бурь морских и земных». (В книге для этого бога нет отдельной гравюры — только запись в каталоге 100 богов; смотри также табличку «Четыре Ветра».)"
+      ],
+      "text_en": [
+        "“Aeolus, god of the Winds, and of storms at sea and on land.” (This book gives no separate engraving for this deity himself — only an entry in the catalogue of the 100 gods; see also the “Four Winds” plate.)"
+      ],
+      "text_fr": [
+        "« Éole, dieu des Vents, et des tempêtes maritimes et terrestres. » (Ce livre ne donne pas de gravure distincte pour cette divinité elle-même — seulement une entrée dans le catalogue des 100 dieux ; voir aussi la planche des « Quatre Vents ».)"
+      ]
+    },
+    {
+      "id": "cartm59",
+      "num": "59",
+      "page": "59",
+      "fr": "Buona Dea",
+      "ru": "Добрая богиня (Bona Dea)",
+      "en": "The Good Goddess (Bona Dea)",
+      "name_fr": "La Bonne Déesse (Bona Dea)",
+      "img": [
+        "cat17.jpg"
+      ],
+      "caption": "Buona Dea conseruatrice de semi, & della fertilità di tutte le cose.",
+      "text_ru": [
+        "«Добрая богиня, хранительница семян и плодородия всех вещей». (В книге для этого бога нет отдельной гравюры — только запись в каталоге 100 богов.)"
+      ],
+      "text_en": [
+        "“The Good Goddess, preserver of seeds, and of the fertility of all things.” (This book gives no separate engraving for this deity — only an entry in the catalogue of the 100 gods.)"
+      ],
+      "text_fr": [
+        "« La Bonne Déesse, conservatrice des semences et de la fertilité de toutes choses. » (Ce livre ne donne pas de gravure distincte pour cette divinité — seulement une entrée dans le catalogue des 100 dieux.)"
+      ]
+    },
+    {
+      "id": "cartm60",
+      "num": "60",
+      "page": "60",
+      "fr": "Flora",
+      "ru": "Флора",
+      "en": "Flora",
+      "name_fr": "Flore",
+      "img": [
+        "cat17.jpg"
+      ],
+      "caption": "Flora Dea de fiori e vaghezze, & della stagione della Primauera.",
+      "text_ru": [
+        "«Флора, богиня цветов и красоты, и времени Весны». (В книге для этого бога нет отдельной гравюры — только запись в каталоге 100 богов.)"
+      ],
+      "text_en": [
+        "“Flora, goddess of flowers and beauty, and of the season of Spring.” (This book gives no separate engraving for this deity — only an entry in the catalogue of the 100 gods.)"
+      ],
+      "text_fr": [
+        "« Flore, déesse des fleurs et de la beauté, et de la saison du Printemps. » (Ce livre ne donne pas de gravure distincte pour cette divinité — seulement une entrée dans le catalogue des 100 dieux.)"
+      ]
+    },
+    {
+      "id": "cartm61",
+      "num": "61",
+      "page": "61",
+      "fr": "Pane",
+      "ru": "Пан",
+      "en": "Pan",
+      "name_fr": "Pan",
+      "img": [
+        "cat17.jpg"
+      ],
+      "caption": "Pane Dio de Pastori, & de gli greggi, inuëtore del Flauto.",
+      "text_ru": [
+        "«Пан, бог пастухов и стад, изобретатель свирели». (В книге для этого бога нет отдельной гравюры — только запись в каталоге 100 богов.)"
+      ],
+      "text_en": [
+        "“Pan, god of shepherds and of flocks, inventor of the pan-flute.” (This book gives no separate engraving for this deity — only an entry in the catalogue of the 100 gods.)"
+      ],
+      "text_fr": [
+        "« Pan, dieu des bergers et des troupeaux, inventeur de la flûte de Pan. » (Ce livre ne donne pas de gravure distincte pour cette divinité — seulement une entrée dans le catalogue des 100 dieux.)"
+      ]
+    },
+    {
+      "id": "cartm62",
+      "num": "62",
+      "page": "62",
+      "fr": "Minos (Giudice Infernale)",
+      "ru": "Минос (судья Аида)",
+      "en": "Minos (Judge of the Underworld)",
+      "name_fr": "Minos (juge des Enfers)",
+      "img": [
+        "cat18.jpg"
+      ],
+      "caption": "Giudici Infernali tre, & il primo Minos esamina l'anime delle sue colpe.",
+      "text_ru": [
+        "«Трое судей Аида, и первый из них, Минос, рассматривает вины душ». (В книге для этого бога нет отдельной гравюры — только запись в каталоге 100 богов.)"
+      ],
+      "text_en": [
+        "“Three Judges of the Underworld, and the first of them, Minos, examines souls for their faults.” (This book gives no separate engraving for this deity — only an entry in the catalogue of the 100 gods.)"
+      ],
+      "text_fr": [
+        "« Trois Juges des Enfers, et le premier d'entre eux, Minos, examine les âmes pour leurs fautes. » (Ce livre ne donne pas de gravure distincte pour cette divinité — seulement une entrée dans le catalogue des 100 dieux.)"
+      ]
+    },
+    {
+      "id": "cartm63",
+      "num": "63",
+      "page": "63",
+      "fr": "Eaco (Giudice Infernale)",
+      "ru": "Эак (судья Аида)",
+      "en": "Aeacus (Judge of the Underworld)",
+      "name_fr": "Éaque (juge des Enfers)",
+      "img": [
+        "cat18.jpg"
+      ],
+      "caption": "Eaco legge li processi formati contro le anime de dannati.",
+      "text_ru": [
+        "«Эак читает дела, заведённые против душ осуждённых». (В книге для этого бога нет отдельной гравюры — только запись в каталоге 100 богов.)"
+      ],
+      "text_en": [
+        "“Aeacus reads the cases drawn up against the souls of the damned.” (This book gives no separate engraving for this deity — only an entry in the catalogue of the 100 gods.)"
+      ],
+      "text_fr": [
+        "« Éaque lit les procès dressés contre les âmes des damnés. » (Ce livre ne donne pas de gravure distincte pour cette divinité — seulement une entrée dans le catalogue des 100 dieux.)"
+      ]
+    },
+    {
+      "id": "cartm64",
+      "num": "64",
+      "page": "64",
+      "fr": "Radamanto (Giudice Infernale)",
+      "ru": "Радамант (судья Аида)",
+      "en": "Rhadamanthus (Judge of the Underworld)",
+      "name_fr": "Rhadamanthe (juge des Enfers)",
+      "img": [
+        "cat18.jpg"
+      ],
+      "caption": "Radamanto nota le sentenze date da loro tre giudici contro li dannati.",
+      "text_ru": [
+        "«Радамант записывает приговоры, вынесенные этими тремя судьями осуждённым». (В книге для этого бога нет отдельной гравюры — только запись в каталоге 100 богов.)"
+      ],
+      "text_en": [
+        "“Rhadamanthus records the sentences passed by these three judges upon the damned.” (This book gives no separate engraving for this deity — only an entry in the catalogue of the 100 gods.)"
+      ],
+      "text_fr": [
+        "« Rhadamanthe consigne les sentences prononcées par ces trois juges contre les damnés. » (Ce livre ne donne pas de gravure distincte pour cette divinité — seulement une entrée dans le catalogue des 100 dieux.)"
+      ]
+    },
+    {
+      "id": "cartm65",
+      "num": "65",
+      "page": "65",
+      "fr": "Verità",
+      "ru": "Истина",
+      "en": "Truth",
+      "name_fr": "Vérité",
+      "img": [
+        "cat18.jpg"
+      ],
+      "caption": "Verità Dea del vero, & scopritrice della falsità, questa è fortissima di tutte le cose.",
+      "text_ru": [
+        "«Истина, богиня правды и обличительница лжи; она сильнее всех вещей». (В книге для этого бога нет отдельной гравюры — только запись в каталоге 100 богов.)"
+      ],
+      "text_en": [
+        "“Truth, goddess of what is true, and revealer of falsehood; she is the strongest of all things.” (This book gives no separate engraving for this deity — only an entry in the catalogue of the 100 gods.)"
+      ],
+      "text_fr": [
+        "« Vérité, déesse du vrai, et révélatrice du mensonge ; elle est la plus forte de toutes choses. » (Ce livre ne donne pas de gravure distincte pour cette divinité — seulement une entrée dans le catalogue des 100 dieux.)"
+      ]
+    },
+    {
+      "id": "cartm66",
+      "num": "66",
+      "page": "66",
+      "fr": "Fama",
+      "ru": "Фама (Молва)",
+      "en": "Fame (Rumour)",
+      "name_fr": "Renommée",
+      "img": [
+        "cat18.jpg"
+      ],
+      "caption": "Fama Dea apportatrice de buoni, & cattiui successi, conseruatrice dell'humane attioni.",
+      "text_ru": [
+        "«Фама, богиня, несущая вести о добрых и дурных событиях, хранительница людских деяний». (В книге для этого бога нет отдельной гравюры — только запись в каталоге 100 богов; смотри также табличку «Марс и Слава».)"
+      ],
+      "text_en": [
+        "“Fame, goddess who brings news of good and ill events, preserver of human deeds.” (This book gives no separate engraving for this deity — only an entry in the catalogue of the 100 gods; see also the “Mars and Fame” plate.)"
+      ],
+      "text_fr": [
+        "« Renommée, déesse qui apporte les nouvelles des bons et des mauvais événements, conservatrice des actions humaines. » (Ce livre ne donne pas de gravure distincte pour cette divinité — seulement une entrée dans le catalogue des 100 dieux ; voir aussi la planche « Mars et la Renommée ».)"
+      ]
+    },
+    {
+      "id": "cartm67",
+      "num": "67",
+      "page": "67",
+      "fr": "Concordia",
+      "ru": "Согласие",
+      "en": "Concord",
+      "name_fr": "Concorde",
+      "img": [
+        "cat18.jpg"
+      ],
+      "caption": "Concordia Dea della Pace, vnione, & amore, & Dea del buono essere di tutte le cose.",
+      "text_ru": [
+        "«Согласие, богиня Мира, единения и любви, и богиня благого бытия всех вещей». (В книге для этого бога нет отдельной гравюры — только запись в каталоге 100 богов.)"
+      ],
+      "text_en": [
+        "“Concord, goddess of Peace, union, and love, and goddess of the good condition of all things.” (This book gives no separate engraving for this deity — only an entry in the catalogue of the 100 gods.)"
+      ],
+      "text_fr": [
+        "« Concorde, déesse de la Paix, de l'union et de l'amour, et déesse du bon état de toutes choses. » (Ce livre ne donne pas de gravure distincte pour cette divinité — seulement une entrée dans le catalogue des 100 dieux.)"
+      ]
+    },
+    {
+      "id": "cartm68",
+      "num": "68",
+      "page": "68",
+      "fr": "Anteuorta e Postuorta",
+      "ru": "Антеворта и Постворта",
+      "en": "Antevorta and Postvorta",
+      "name_fr": "Antevorta et Postvorta",
+      "img": [
+        "cat19.jpg"
+      ],
+      "caption": "Anteuorta, & Postuorta, dee che fanno il passato, & l'avuenire.",
+      "text_ru": [
+        "«Антеворта и Постворта, богини, ведающие прошлым и будущим». (В книге для этого бога нет отдельной гравюры — только запись в каталоге 100 богов.)"
+      ],
+      "text_en": [
+        "“Antevorta and Postvorta, goddesses who govern the past and the future.” (This book gives no separate engraving for this deity — only an entry in the catalogue of the 100 gods.)"
+      ],
+      "text_fr": [
+        "« Antevorta et Postvorta, déesses qui président au passé et à l'avenir. » (Ce livre ne donne pas de gravure distincte pour cette divinité — seulement une entrée dans le catalogue des 100 dieux.)"
+      ]
+    },
+    {
+      "id": "cartm69",
+      "num": "69",
+      "page": "69",
+      "fr": "Lari",
+      "ru": "Лары",
+      "en": "The Lares",
+      "name_fr": "Les Lares",
+      "img": [
+        "cat19.jpg"
+      ],
+      "caption": "Lari dei, Custodi de Prouincie, luoghi, Città, & case, inuestigatori de fatti humani.",
+      "text_ru": [
+        "«Лары, боги — хранители провинций, мест, городов и домов, надзирающие за делами человеческими». (В книге для этого бога нет отдельной гравюры — только запись в каталоге 100 богов.)"
+      ],
+      "text_en": [
+        "“The Lares, gods who are guardians of provinces, places, cities, and houses, overseers of human deeds.” (This book gives no separate engraving for this deity — only an entry in the catalogue of the 100 gods.)"
+      ],
+      "text_fr": [
+        "« Les Lares, dieux gardiens des provinces, des lieux, des villes et des maisons, surveillants des actions humaines. » (Ce livre ne donne pas de gravure distincte pour cette divinité — seulement une entrée dans le catalogue des 100 dieux.)"
+      ]
+    },
+    {
+      "id": "cartm70",
+      "num": "70",
+      "page": "70",
+      "fr": "Penati",
+      "ru": "Пенаты",
+      "en": "The Penates",
+      "name_fr": "Les Pénates",
+      "img": [
+        "cat19.jpg"
+      ],
+      "caption": "Penati dei familiari, custodi delle Prouincie luoghi, Città, & Case, come li dei Lari.",
+      "text_ru": [
+        "«Пенаты, домашние боги, хранители провинций, мест, городов и домов, подобно богам Ларам». (В книге для этого бога нет отдельной гравюры — только запись в каталоге 100 богов.)"
+      ],
+      "text_en": [
+        "“The Penates, household gods, guardians of provinces, places, cities, and houses, like the Lares.” (This book gives no separate engraving for this deity — only an entry in the catalogue of the 100 gods.)"
+      ],
+      "text_fr": [
+        "« Les Pénates, dieux domestiques, gardiens des provinces, des lieux, des villes et des maisons, comme les Lares. » (Ce livre ne donne pas de gravure distincte pour cette divinité — seulement une entrée dans le catalogue des 100 dieux.)"
+      ]
+    },
+    {
+      "id": "cartm71",
+      "num": "71",
+      "page": "71",
+      "fr": "Necessità",
+      "ru": "Необходимость (Ананке)",
+      "en": "Necessity",
+      "name_fr": "Nécessité",
+      "img": [
+        "cat19.jpg"
+      ],
+      "caption": "Necessità dea del Fato, & del Destino.",
+      "text_ru": [
+        "«Необходимость, богиня Рока и Судьбы». (В книге для этого бога нет отдельной гравюры — только запись в каталоге 100 богов.)"
+      ],
+      "text_en": [
+        "“Necessity, goddess of Fate and Destiny.” (This book gives no separate engraving for this deity — only an entry in the catalogue of the 100 gods.)"
+      ],
+      "text_fr": [
+        "« Nécessité, déesse du Sort et du Destin. » (Ce livre ne donne pas de gravure distincte pour cette divinité — seulement une entrée dans le catalogue des 100 dieux.)"
+      ]
+    },
+    {
+      "id": "cartm72",
+      "num": "72",
+      "page": "72",
+      "fr": "Maia",
+      "ru": "Майя",
+      "en": "Maia",
+      "name_fr": "Maïa",
+      "img": [
+        "cat19.jpg"
+      ],
+      "caption": "Maia madre del dio Mercurio, Dea de Responsi, & concitratrice delle battaglie.",
+      "text_ru": [
+        "«Майя, мать бога Меркурия, богиня прорицаний и возбудительница битв». (В книге для этого бога нет отдельной гравюры — только запись в каталоге 100 богов.)"
+      ],
+      "text_en": [
+        "“Maia, mother of the god Mercury, goddess of oracular responses, and stirrer of battles.” (This book gives no separate engraving for this deity — only an entry in the catalogue of the 100 gods.)"
+      ],
+      "text_fr": [
+        "« Maïa, mère du dieu Mercure, déesse des oracles, et instigatrice des batailles. » (Ce livre ne donne pas de gravure distincte pour cette divinité — seulement une entrée dans le catalogue des 100 dieux.)"
+      ]
+    },
+    {
+      "id": "cartm73",
+      "num": "73",
+      "page": "73",
+      "fr": "Pitho",
+      "ru": "Пито (Убеждение)",
+      "en": "Peitho (Persuasion)",
+      "name_fr": "Peithô (la Persuasion)",
+      "img": [
+        "cat19.jpg"
+      ],
+      "caption": "Pitho Dea della Lingua, & dell'Eloquenza.",
+      "text_ru": [
+        "«Пито, богиня речи и красноречия». (В книге для этого бога нет отдельной гравюры — только запись в каталоге 100 богов.)"
+      ],
+      "text_en": [
+        "“Peitho, goddess of speech and eloquence.” (This book gives no separate engraving for this deity — only an entry in the catalogue of the 100 gods.)"
+      ],
+      "text_fr": [
+        "« Peithô, déesse de la parole et de l'éloquence. » (Ce livre ne donne pas de gravure distincte pour cette divinité — seulement une entrée dans le catalogue des 100 dieux.)"
+      ]
     }
   ]
 }
