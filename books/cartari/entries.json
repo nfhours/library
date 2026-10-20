@@ -5497,6 +5497,114 @@
         "carti30.jpg"
       ],
       "textOnly": true
+    },
+    {
+      "id": "cartm89",
+      "num": "89",
+      "page": "89",
+      "fr": "Imagine di Como, dio dei Conviti",
+      "ru": "Образ Кома, бога пиров",
+      "en": "The image of Comus, god of Feasts",
+      "img": [
+        "cartm89.jpg"
+      ],
+      "scans": [
+        "cartm89.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine di Como Dio de Conuiuij, secondo Filostrato, significante, che li Conuiti modesti allegrano li huomini & suegliando li spiriti li fanno diuenir arditi, & che all'incontro l'immoderato cibo fà l'huomo sonnolento, inetto, & tuso d'ingegno, & debole di corpo.",
+      "text_ru": [
+        "«Образ Кома, бога пиров, согласно Филострату, означающий, что умеренные пиршества веселят людей и, пробуждая дух, делают их смелыми, тогда как, напротив, неумеренная пища делает человека сонливым, неспособным, притупленным умом и слабым телом»."
+      ],
+      "text_en": [
+        "“The image of Comus, god of Feasts, according to Philostratus, signifying that modest banquets gladden men and, rousing the spirits, make them bold, while, on the contrary, immoderate food makes a man drowsy, inept, dull of wit, and weak of body.”"
+      ],
+      "name_fr": "L'image de Comus, dieu des Festins",
+      "text_fr": [
+        "« L'image de Comus, dieu des Festins, selon Philostrate, signifiant que des banquets modérés réjouissent les hommes et, réveillant les esprits, les rendent hardis, tandis qu'au contraire une nourriture immodérée rend l'homme somnolent, inapte, l'esprit émoussé et le corps faible. »"
+      ]
+    },
+    {
+      "id": "cartm90",
+      "num": "90",
+      "page": "90",
+      "fr": "Imagine di Bacco secondo Macrobio",
+      "ru": "Образ Вакха согласно Макробию",
+      "en": "The image of Bacchus according to Macrobius",
+      "img": [
+        "cartm90.jpg"
+      ],
+      "scans": [
+        "cartm90.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine di Bacco significante li effetti del vino, del quale fù l'inuentore; & secondo Macrobio li varij effetti del Sole essendo da lui per il Sole inteso, cioè la varietà delle stagioni dell'anno: & animali à lui sacrati.",
+      "text_ru": [
+        "«Образ Вакха, означающий воздействия вина, изобретателем которого он был; а согласно Макробию — различные воздействия Солнца, поскольку он понимается как Солнце, то есть разнообразие времён года; а также посвящённые ему животные»."
+      ],
+      "text_en": [
+        "“The image of Bacchus, signifying the effects of wine, of which he was the inventor; and, according to Macrobius, the various effects of the Sun, he being understood as the Sun, that is, the variety of the seasons of the year; and the animals sacred to him.”"
+      ],
+      "name_fr": "L'image de Bacchus selon Macrobe",
+      "text_fr": [
+        "« L'image de Bacchus, signifiant les effets du vin, dont il fut l'inventeur ; et, selon Macrobe, les divers effets du Soleil, lui-même étant entendu comme le Soleil, c'est-à-dire la variété des saisons de l'année ; et les animaux qui lui sont sacrés. »"
+      ]
+    },
+    {
+      "id": "cartm91",
+      "num": "91",
+      "page": "91",
+      "fr": "Imagini di Bacco e della pompa bacchica",
+      "ru": "Образы Вакха и вакхического шествия",
+      "en": "The images of Bacchus and the Bacchic procession",
+      "img": [
+        "cartm91.jpg"
+      ],
+      "scans": [
+        "cartm91.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagini di Bacco, & della pompa, feste, & cerimonie bacchanali, & l'habito delle Bacche, o Menadi sue seguaci, significante che li sacrificij bacchanali purgauan gl'animi dalle colpe, come il vino li purga da pensieri.",
+      "text_ru": [
+        "«Образы Вакха и его шествия, празднеств и вакхических обрядов, а также одеяния Вакханок, или Менад, его спутниц, означающие, что вакхические жертвоприношения очищали души от грехов, подобно тому как вино очищает их от забот»."
+      ],
+      "text_en": [
+        "“The images of Bacchus, and of the procession, feasts, and bacchanalian ceremonies, and the garb of the Bacchae, or Maenads, his followers, signifying that the bacchanalian sacrifices purged souls of their faults, just as wine purges them of cares.”"
+      ],
+      "name_fr": "Les images de Bacchus et du cortège bachique",
+      "text_fr": [
+        "« Les images de Bacchus, et du cortège, des fêtes et des cérémonies bachiques, et de la tenue des Bacchantes, ou Ménades, ses suivantes, signifiant que les sacrifices bachiques purgeaient les âmes de leurs fautes, comme le vin les purge des soucis. »"
+      ]
+    },
+    {
+      "id": "cartm92",
+      "num": "92",
+      "page": "92",
+      "fr": "Imagini di Bacco trionfatore sull'elefante",
+      "ru": "Образы Вакха-триумфатора на слоне",
+      "en": "The images of Bacchus triumphant upon the elephant",
+      "img": [
+        "cartm92.jpg"
+      ],
+      "scans": [
+        "cartm92.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagini di Bacco trionfatore, & inuentore del Trionfo, doppo hauer superata l'India, & del suo carro tirato da Tigri, & da Pantere con diuerse piante à lui sacrate, & molti animali ancora che significano la natura, & effetti del vino, & ebrietà.",
+      "text_ru": [
+        "«Образы Вакха-триумфатора, изобретателя триумфа, после покорения им Индии, а также его колесницы, влекомой Тиграми и Пантерами, с различными посвящёнными ему растениями и множеством животных, означающих природу и воздействия вина и опьянения»."
+      ],
+      "text_en": [
+        "“The images of Bacchus triumphant, and inventor of the Triumph, after having conquered India, and of his chariot drawn by Tigers and Panthers, with various plants sacred to him and many animals still, signifying the nature and effects of wine and drunkenness.”"
+      ],
+      "name_fr": "Les images de Bacchus triomphant sur l'éléphant",
+      "text_fr": [
+        "« Les images de Bacchus triomphant, et inventeur du Triomphe, après avoir vaincu l'Inde, et de son char tiré par des Tigres et des Panthères, avec diverses plantes qui lui sont sacrées et nombre d'animaux encore, signifiant la nature et les effets du vin et de l'ivresse. »"
+      ]
     }
   ]
 }
