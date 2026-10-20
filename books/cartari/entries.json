@@ -2,8 +2,71 @@
   "title": "Imagini de gli Dei degli Antichi",
   "items": [
     {
-      "id": "cartm1",
+      "id": "cartm_intro1",
       "num": "1",
+      "page": "38",
+      "fr": "Le religioni degli antichi senza simulacri",
+      "ru": "О религии древних и множестве их богов",
+      "en": "Of religion among the ancients and the multitude of their gods",
+      "img": [
+        "cartm_intro1.jpg"
+      ],
+      "scans": [
+        "cartm_intro1_p39.jpg",
+        "cartm_intro1_p40.jpg",
+        "cartm_intro1_p41.jpg",
+        "cartm_intro1_p42.jpg",
+        "cartm_intro1_p43.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Открывающее эссе книги: Религия как главное отличие человека; происхождение множества богов; народы, не создававшие изваяний богов (иудеи, персы, скифы, ранние римляне).",
+      "textOnly": true,
+      "name_fr": "Chapitre d'ouverture : la Religion et les peuples sans simulacres",
+      "text_ru": [
+        "ОБРАЗЫ БОГОВ ДРЕВНИХ. Собранные М. Винченцо Картари из Реджо.\n\nИз всех совершенств, дарованных человеческой природе, нет большего и более свойственного человеку, чем Религия: и потому никогда не было народа, который бы в ней хоть сколько-нибудь не участвовал. И хотя говорят, что именно разум отличает человека от бессловесных животных, тем не менее видно, что ещё прежде употребления разума в человеке проявляется религия — как нечто, естественно сопутствующее человеческой душе, согласно учению Ямвлиха, философа-платоника, который утверждает, что некий божественный свет поражает наши души и пробуждает в них естественное влечение к благу, о котором потом рассуждают и выносят суждение. Это же некоторые изложили под видом басни о Прометее: будто тот божественный огонь, которым он дал жизнь первому человеку, непрестанно притягивает к себе некими скрытыми путями человеческие души, и те, чувствуя, откуда они произошли и от кого получили своё первое начало, естественно к тому обращаются. И отсюда же, говорят, происходит то, что когда случается нечто важное, доброе или злое, человек прежде всякого иного размышления тотчас поднимает глаза к Небу, а часто и воздевает сложенные руки, как бы естественно чувствуя, что оттуда исходит всякое благо, и желая за это возблагодарить и восхвалить Того, кто его посылает, и что оттуда же следует ожидать помощи против всякого зла, — и потому смиренно просит о том; всё это — проявления религии, которая заставляет любить и бояться Бога, что, впрочем, невозможно без некоторого о Нём познания. Итак, ещё прежде рассуждения разума человек некоторым образом познаёт и чтит Бога, чем и отличается от зверей, в которых иные желали усмотреть нечто разумное, но чтобы им был дан какой-либо свет религии — такого никогда не находили. Поэтому она целиком и только свойственна людям, и, руководимые ею, они подняли глаза к Небу и, рассматривая чудесное устройство вселенной, сказали, что есть Некто, кто с бесконечной любовью и могуществом и высочайшим провидением устрояет все вещи, правит ими и имеет о них непрестанное попечение. И Он был назван Богом, ибо есть податель всех благ, вечный, бесконечный и невидимый. Но не все всегда держались этой истины, ибо люди, начав поддаваться собственной немощи и слишком услаждаться ею, не захотели смотреть далее того, что видели телесными глазами; и отсюда взяли повод верить, что звёзды, Солнце, Луна и само Небо суть боги, как пишет Платон, — что они первыми были почитаемы как греками, так прежде них многими варварскими народами; и он полагает, что от непрестанного движения, которое те видели в них совершающимся, взяв имя от некоего греческого слова, их назвали богами (theoi). Это заблуждение, возрастая, дошло до того, что многие люди также были признаны богами, и как боги почитались равно некоторые звери, и всем воздвигались различные изваяния — то же было сделано не только для добродетелей, но и для пороков, давая каждому из них имя бога или божества: первым — чтобы были всегда благосклонны и помогали, вторым — чтобы не вредили и держались в отдалении. Отчего множество богов у древних было почти бесконечным; ибо не только народы, но каждый город, каждое место, каждый дом и каждый человек создавали их на свой лад, и едва ли нашлось бы какое-либо человеческое действие, от которого не было бы названо какое-нибудь божество. И это множество богов у древних существовало не только в простонародье, но и среди тех, кого почитали весьма учёными. Ибо они, помимо некоего первого и единственного блага, которое называли причиной всех вещей, помещали затем почти бесконечное число иных существ, которых также почитали, называя одних богами, других демонами, третьих героями, и каждому давали подобающие им обязанности и отдельные места, как и способ жертвоприношения одним и другим был различен. Геродот пишет, что египтяне от начала называли только двенадцать богов; и, по-видимому, пифагорейцы им подражали, ибо известно, что греки заимствовали это и прочие науки именно из Египта, где находились столь прославленные Гермесовы (Меркуриевы) столпы, полные глубокой учёности, особенно о небесных вещах, отмеченные разными изображениями животных, растений и иных вещей, которые некогда служили египтянам вместо букв; и толковали их жрецы, весьма в том сведущие, тому, кто признан был того достойным, как Пифагор, Платон, Демокрит, Евдокс и другие, которые ради этого ездили в Египет. Пифагорейцы же говорили, что как в первой сфере есть двенадцать изображений животных — двенадцать знаков Зодиака, — так есть и столько же душ, каждая из которых даёт им жизнь и движение; и это двенадцать богов: Юпитер, Юнона, Нептун, Веста, Феб, Венера, Марс, Паллада, Меркурий, Диана, Вулкан и Церера; от них, по их мнению, происходит управление делами здесь, внизу. Этих же самых богов римляне также разделили на шесть мужских и шесть женских, называемых Согласными (Consentes), ибо они были советниками небесного Сената, и ничего не решалось без них, как видно у Гомера и других поэтов: когда возникало дело некоторой важности, Юпитер созывал совет для совещания, хотя нередко решал и сам, как о том также писали поэты; а Сенека, рассуждая о природе молнии, говорит, что есть такая, которую Юпитер метал на смертных по собственному усмотрению, без совета прочих богов. Боги древних обитали не в одном месте и не все пребывали на Небе, но земля, воды рек и моря, и преисподняя имели свою долю; и не все были бессмертны, ибо полубоги умирали, о чём свидетельствуют (говорит Павсаний) многие гробницы Силенов, которые видны в Пергаме, в Азии, и Нимфы также умирали. Так что у древних было всякого рода божеств, как можно видеть у святого Августина в книге о Граде Божием, из того, что он сообщает со слов Варрона. Но при всём том нашлись и такие, кто имел верное понятие о Боге, считая, что Он один, вечен и невидим, и потому не имеет никакого образа; и кто ищет такового (говорит Плиний), слишком потакает собственной немощи. Потому Антисфен, глава кинической школы, говорил, как сообщает Феодорит, епископ Кирский, что Бога нельзя видеть глазами, ибо Он не подобен ничему видимому, и потому не следует думать познать Его через изображение или статую. А Ксенофонт, подражатель Сократа, сказал, что хорошо известно, что Бог велик и могуществен, ибо движет всем, сам же пребывает всегда неподвижным; но нельзя знать, каков Его вид и какое у Него лицо. И по этому поводу Ксенофан, насмехаясь над суетностью людей, поклонявшихся статуям работы Фидия, Поликлета и других ваятелей, говорил: если бы кони, быки и слоны имели руки и умели ими пользоваться, они также сотворили бы богов в образе слонов, быков, коней, — как люди сотворили их в человеческом образе. То же самое показывает и Цицерон некоторыми доводами, где, рассуждая о природе богов, заставляет Котту говорить против мнения эпикурейцев. Иудеи, которые среди древних следовали истинной Религии, почитали единого Бога, и взирали на Него не в статуях и не в изображениях телесными очами, но в Его божестве — светом разума, насколько то позволяет человеческая природа. И, как сообщает Корнелий Тацит, они считали нечестивыми всех, кто создавал изображение Бога и придавал ему разные образы по подобию человеческих тел; и потому в их Храмах не было ни статуй, ни какого-либо изваяния. Поэтому, когда Ирод, царь Иерусалимский, велел поставить над главными вратами Храма большого золотого орла, некоторые юноши, движимые народным негодованием, услышав, что он при смерти, разбили его и сбросили на землю, как повествует Иосиф [Флавий]; ибо говорили, что это противно закону их религии и древним установлениям, и что не следует ждать иного случая отомстить за честь Божию. Но несчастные жестоко за это поплатились, ибо Ирод прожил ещё достаточно, чтобы схватить их и сжечь живьём. Свида сообщает, что когда Пилат впервые принёс в Иудею некие знамёна с изображением Тиберия, весь народ пришёл в смятение, как если бы он нарушил их древний обычай — не иметь никакого изображения в городе. То же сделали и другие, не желая иметь никакого изваяния, как Трисмегист, который говорил, что тот, кто желает видеть статуи богов перед своими глазами, тем самым показывает, что не верит, будто боги пребывают на Небе, или не доверяет тому, что его обеты и молитвы смогут достичь туда; и что именно поэтому были созданы изваяния и названы богами. Читаем о Ликурге, что он не желал, чтобы богов уподобляли человеку или какому-либо иному живому существу, и потому не следовало делать для них ни статуй, ни изваяний. Лактанций пишет, что египтяне изначально почитали стихии, вовсе не создавая для них изображений. А Нума, второй царь римлян, не желал, чтобы верили, будто Богу можно придать какое-либо изображение, как рассказывает Плутарх. Потому римляне в начале своей истории сто семьдесят лет прожили, вовсе не делая никакого изваяния своих богов, полагая тяжким заблуждением уподоблять вещи божественные и бессмертные вещам смертным и человеческим. Персы также, и жители Ливии в древнейшие времена не имели ни статуй, ни алтарей, ни храмов. О скифах пишет Геродот, что, хотя они почитали многих богов — Весту, Юпитера, Аполлона, Марса и других, которым давали собственные имена на своём языке, — они не создали ни храма, ни алтаря, ни статуи никому, кроме Марса, как увидим далее в его изображении, а жертвы всем приносили одинаковым образом."
+      ],
+      "text_en": [
+        "THE IMAGES OF THE GODS OF THE ANCIENTS. Collected by M. Vincenzo Cartari of Reggio.\n\nOf all the perfections given to human nature, none is greater, nor more proper to man, than Religion: and therefore there was never any people who did not in some way partake of it. And although it is said that reason chiefly makes man different from brute animals, nevertheless it is seen that even before the use of reason, religion shows itself in man, as something that naturally accompanies the human mind, according to Iamblichus the Platonic philosopher, who holds that a certain divine light comes to strike our souls, and that in them it awakens a natural appetite for the good, upon which one afterwards reasons and forms judgment. This same thing has been set forth by some under the fable of Prometheus: that divine fire with which he gave life to the first man continually draws human souls to itself by certain hidden paths, and these souls, likewise sensing whence they came and from whom they had their first origin, naturally turn back toward it. And from this, they say, it also comes that when something great, good or evil, presents itself, at once, before any other consideration, man raises his eyes to Heaven, and often also his clasped hands, as if he naturally felt that all good comes from on high, and wished therefore to render thanks and praise to Him who sends it, and that from there likewise help is to be expected against every evil, and therefore humbly asks for it in that manner — all of which are effects of religion, which makes one love and fear God, which however cannot be done without having some knowledge of Him. Thus, even before the discourse of reason, man in a certain way knows and reveres God, which makes him different from the beasts, in which some have indeed wished to say there is something rational, but no one has ever found that they were given any light of religion. This, then, belongs wholly and solely to men, and guided by it they have raised their eyes to Heaven, and considering the miraculous arrangement of the universe, have said that there is One who with infinite love and power, and with supreme providence, orders all things, governs them, and has continual care of them. And this One was called God, because He is the giver of all good things, eternal, infinite, and invisible. Yet not everyone always held to this truth, for men, beginning to indulge their own weakness and to delight in it too much, did not look further than what they saw with bodily eyes; and from this they took occasion to believe that the Stars, the Sun, the Moon, and Heaven itself were gods, as Plato writes — that these were the first to be worshipped, both by the Greeks and, before them, by many barbarian nations; and he holds that from the continual motion which they saw these bodies make, taking the name from a certain Greek word, they called them gods (theoi). This error, growing afterward, came to such a point that many men too were judged gods, and as gods certain beasts likewise were worshipped, and to all of them various images were set up — as was done not only for the virtues but for the vices as well, giving to each of them the name of god or deity: to the former, that they might always be present and beneficial; to the latter, that they might do no harm and keep far away. Whence the multitude of gods among the ancients was almost infinite; for not only nations, but every city, every place, every household, and every person made them after their own fashion, and there was scarcely any human action from which some god was not named. Nor was this multitude of gods among the ancients found only among the common people, but also among those who were esteemed to know a great deal. For these, besides a certain first and sole good, which they said was the cause of all things, set up afterward an almost infinite number of other beings, whom they likewise worshipped, calling some gods, others demons, others heroes, and gave to each their proper offices and distinct places, just as the manner of sacrificing to the one and to the others was also distinct. Herodotus writes that the Egyptians at first named only twelve gods; and the Pythagoreans seem to have imitated them, for it is read that the Greeks took this, and their other sciences too, from Egypt, where were the so greatly celebrated Pillars of Mercury [Hermes], full of profound learning, and especially of matters concerning the Heavens, marked with various figures of animals, plants, and other things, which once served the Egyptians instead of letters; and these were explained by the Priests, who were most learned therein, to whoever was judged worthy of it, as were Pythagoras, Plato, Democritus, Eudoxus, and others, who went to Egypt for this purpose. The Pythagoreans said, then, that just as there are in the first sphere twelve figures of animals, which are the twelve signs of the Zodiac, so there are as many souls, each having its own, which give them life and motion; and these are the twelve gods: Jove, Juno, Neptune, Vesta, Phoebus, Venus, Mars, Pallas, Mercury, Diana, Vulcan, and Ceres; from whom, they held, came the government of things here below. These same gods were also divided by the Romans into six male and six female, called the Consentes, because they were counsellors of the celestial Senate, and nothing was decided without them, as appears in Homer and the other poets, where, when some matter of weight arose, Jove had the council summoned to deliberate upon it, though he also often deliberated and acted alone, as the poets themselves have likewise written; and Seneca, where he discusses the nature of lightning, says that there is a kind which Jove hurled upon mortals of his own head, and without the counsel of the other gods. Nor did all the gods of the ancients dwell in one place, nor were they all in Heaven, but the earth, and the waters of rivers and sea, and the underworld too had their share; nor were all immortal, for the Demigods died, of which (says Pausanias) many tombs of the Sileni bear witness, which are seen at Pergamum in Asia, and the Nymphs likewise died. So that there was every sort of god among the ancients, as may be seen in Saint Augustine's book on the City of God, from what he reports of Varro. But for all that, there were also found those who held a right opinion of God, holding that He was one, eternal, and invisible, and therefore had no form at all; and whoever seeks such a form (says Pliny) too much indulges his own weakness. Whence Antisthenes, head of the Cynic sect, said, as Theodoret, Bishop of Cyrrhus, reports, that God cannot be seen with the eyes, because He is like nothing visible, and that therefore one must not think to know Him through any image or statue made of Him. And Xenophon, the imitator of Socrates, said that it was well known that God was great and powerful, since He moved all things while Himself remaining always immovable; but it could not be known what His aspect was, or what face He had. And on this point Xenophanes, mocking the vanity of men who worshipped the Statues made by Phidias, Polyclitus, and other sculptors, said that if horses, oxen, and elephants had hands and knew how to use them, they too would have made gods in the form of elephants, oxen, and horses, just as men have made them in human form. Cicero shows the same thing with certain arguments, where, disputing on the nature of the gods, he has Cotta speak against the opinion of the Epicureans. The Jews, who among the ancients followed the true Religion, worshipped one God alone, and looked upon Him not in statues or images with the eyes of the body, but in His divinity with the light of the mind, so far as human nature allows. And as Cornelius Tacitus reports, they held impious all those who fashioned an image of God and shaped it in various materials in the likeness of human bodies; and therefore in their Temples they had neither statues nor any image at all. Hence, because Herod, King of Jerusalem, had already set a great golden Eagle above the main gate of the Temple, certain young men, as if moved by popular fury, having heard that he was about to die, tore it down and cast it to the ground, as Josephus relates; for they said this was contrary to the laws of their religion and of their ancestors, and that no other occasion ought to be awaited to avenge the honour of God. But the wretches paid dearly for it, for Herod lived long enough still to have them seized and burned alive. Suidas relates that when Pilate first brought into Judea certain standards bearing the image of Tiberius, all the people were thrown into turmoil, as though he had broken their ancient ordinance of having no image at all in the city. The same was done by others who would have no image at all, such as Trismegistus, who said that whoever wished to see the statues of the gods before his eyes thereby showed that he did not believe the gods were in Heaven, or did not trust that his vows and prayers could reach up there; and that it was for this reason that images were made and called gods. We read of Lycurgus that he did not wish the gods to be likened to man, or to any other living creature, and that therefore no statue or image should be made of them. Lactantius writes that at first the Egyptians worshipped the elements without making any image of them at all. And Numa, second King of the Romans, did not wish it to be believed that any effigy at all could be given to God, as Plutarch relates. Whence the Romans at first went one hundred and seventy years without ever making any image at all of their gods, holding it a grave error to draw divine and immortal things down to the likeness of mortal and human ones. The Persians likewise, and the people of Libya, in the earliest times had neither statues, nor altars, nor temples. Of the Scythians, Herodotus writes that, although they worshipped many gods, such as Vesta, Jove, Apollo, Mars, and others, to whom they gave proper names in their own tongue, they nevertheless made no temple, altar, or statue to any but Mars, as we shall see later in his image, and yet they sacrificed to all of them in the same manner."
+      ],
+      "text_fr": [
+        "LES IMAGES DES DIEUX DES ANCIENS. Recueillies par M. Vincenzo Cartari de Reggio.\n\nDe toutes les perfections données à la nature humaine, aucune n'est plus grande, ni plus propre à l'homme, que la Religion : et c'est pourquoi il n'y eut jamais de peuple qui n'y participât en quelque façon. Et bien que l'on dise que c'est principalement la raison qui rend l'homme différent des animaux dépourvus de raison, on voit néanmoins que, même avant l'usage de celle-ci, la religion se manifeste en lui, comme accompagnant naturellement l'âme humaine, selon ce que disait Jamblique, philosophe platonicien, qui soutient qu'une certaine lumière divine vient frapper nos âmes, et qu'elle y éveille un appétit naturel du bien, sur lequel on raisonne ensuite et l'on porte jugement. Cela même a été exposé par certains sous la fable de Prométhée : ce feu divin par lequel il donna vie au premier homme attirerait continuellement à soi, par des voies cachées, les âmes humaines, lesquelles, sentant d'où elles sont venues et de qui elles tiennent leur première origine, se tournent naturellement vers lui. Et de là vient aussi, dit-on, que lorsque se présente quelque grande chose, bonne ou mauvaise, aussitôt, avant toute autre considération, l'homme lève les yeux au Ciel, et souvent aussi les mains jointes, comme s'il sentait naturellement que tout bien vient de là-haut, et qu'il voulût en rendre grâces et louanges à celui qui l'envoie, et que c'est de là également qu'il faut attendre secours contre tout mal, et c'est pourquoi il le demande humblement de cette manière ; ce sont là tous effets de la religion, laquelle fait aimer et craindre Dieu, ce qui pourtant ne peut se faire sans en avoir quelque connaissance. Ainsi, même avant le discours de la raison, l'homme connaît et révère Dieu d'une certaine façon, ce qui le rend différent des bêtes, chez qui certains ont bien voulu dire qu'il y avait quelque chose de raisonnable, mais chez qui l'on n'a jamais trouvé qu'eût été donnée quelque lumière de religion. Cela donc appartient tout entier et uniquement aux hommes, et, guidés par elle, ils ont levé les yeux au Ciel, et, considérant la disposition miraculeuse de l'univers, ont dit qu'il y avait quelqu'un qui, avec un amour et un pouvoir infinis, et avec une providence souveraine, ordonne toutes choses, les gouverne, et en a un soin continuel. Et celui-ci fut appelé Dieu, parce qu'il est le dispensateur de tous les biens, éternel, infini et invisible. Mais tous ne s'en tinrent pas toujours à cette vérité, car les hommes, commençant à céder à leur propre faiblesse et à s'y complaire trop, ne voulurent plus regarder au-delà de ce qu'ils voyaient des yeux du corps ; et de là ils prirent occasion de croire que les Étoiles, le Soleil, la Lune et le Ciel même étaient des dieux, comme l'écrit Platon, lesquels furent les premiers adorés, tant par les Grecs que, avant eux, par de nombreuses nations barbares ; et il soutient que c'est du mouvement continuel qu'ils leur voyaient faire que, tirant le nom d'un certain mot grec, ils les appelèrent dieux. Cette erreur, grandissant ensuite, en vint au point que beaucoup d'hommes aussi furent jugés dieux, et que, comme dieux, furent également adorées certaines bêtes, et à tous furent dressés divers simulacres, comme cela fut fait non seulement pour les vertus, mais aussi pour les vices, donnant à chacun d'eux le nom de dieu ou de divinité : aux uns, pour qu'ils fussent toujours présents et secourables ; aux autres, pour qu'ils ne nuisissent point et se tinssent éloignés. D'où la multitude des dieux chez les anciens fut presque infinie ; car non seulement les nations, mais chaque ville, chaque lieu, chaque maison et chaque personne s'en faisaient à leur manière, et il n'y eut presque aucune action humaine dont quelque dieu n'ait tiré son nom. Et cette multitude de dieux chez les anciens ne se trouvait pas seulement parmi le peuple, mais aussi parmi ceux que l'on estimait fort savants. Car ceux-ci, outre un certain bien premier et unique, qu'ils disaient être la cause de toutes choses, plaçaient ensuite un nombre presque infini d'autres êtres, qu'ils adoraient également, en appelant certains dieux, d'autres démons, d'autres héros, et donnaient à tous des offices qui leur étaient propres, et des lieux distincts ; de même que le mode du sacrifice était distinct pour les uns et pour les autres. Hérodote écrit que les Égyptiens, à l'origine, ne nommèrent que douze dieux ; et les Pythagoriciens semblent les avoir imités, car on lit que les Grecs tirèrent cela, ainsi que leurs autres sciences, de l'Égypte, où se trouvaient les colonnes de Mercure, si célèbres, toutes pleines d'une doctrine profonde, et surtout des choses du Ciel, marquées de diverses figures d'animaux, de plantes et d'autres choses, qui servaient autrefois aux Égyptiens de lettres ; et elles étaient expliquées par les Prêtres, qui y étaient fort savants, à qui en était jugé digne, comme Pythagore, Platon, Démocrite, Eudoxe, et d'autres, qui pour cela allèrent en Égypte. Les Pythagoriciens disaient donc que, de même qu'il y a dans la première sphère douze figures d'animaux, qui sont les douze signes du Zodiaque, de même il y a autant d'âmes, chacune ayant la sienne, qui leur donnent vie et mouvement ; et ce sont là les douze dieux : Jupiter, Junon, Neptune, Vesta, Phébus, Vénus, Mars, Pallas, Mercure, Diane, Vulcain et Cérès ; desquels, voulaient-ils, venait le gouvernement des choses d'ici-bas. Ces mêmes dieux furent aussi répartis par les Romains en six mâles et six femelles, appelés Consentes, parce qu'ils étaient les conseillers du Sénat céleste, et rien ne se décidait sans eux, comme on le voit chez Homère et les autres Poètes, où, lorsqu'il y avait quelque affaire de poids, Jupiter faisait convoquer le conseil pour en délibérer, bien qu'il délibérât aussi souvent et agît seul, comme les Poètes l'ont également écrit ; et Sénèque, où il traite de la nature de la foudre, dit qu'il en est une que Jupiter lançait sur les mortels de son propre chef, et sans le conseil des autres dieux. Les dieux des anciens n'habitèrent pas tous en un seul lieu, ni ne demeurèrent tous au Ciel, mais la terre, et les eaux des fleuves et de la mer, et les enfers en eurent aussi leur part ; ni ne furent tous immortels, car les Demi-dieux mouraient, comme en témoignent (dit Pausanias) de nombreux tombeaux de Silènes, que l'on voit à Pergame, en Asie, et les Nymphes mouraient également. De sorte qu'il y eut chez les anciens des dieux de toute sorte, comme on peut le voir chez saint Augustin, dans le livre de la Cité de Dieu, d'après ce qu'il rapporte de Varron. Mais malgré tout cela, il s'en trouva aussi qui eurent une juste opinion de Dieu, tenant qu'il était unique, éternel et invisible, et que par conséquent il n'avait aucune figure ; et quiconque en cherche une (dit Pline) cède trop à sa propre faiblesse. C'est pourquoi Antisthène, chef de la secte Cynique, disait, comme le rapporte Théodoret, évêque de Cyr, que Dieu ne peut être vu des yeux, parce qu'il n'est semblable à rien de visible, et qu'il ne faut donc pas penser le connaître par quelque image ou statue que l'on en ferait. Et Xénophon, imitateur de Socrate, dit que l'on savait bien que Dieu était grand et puissant, puisqu'il mouvait toutes choses tout en demeurant lui-même toujours immobile ; mais qu'on ne pouvait savoir quel était son aspect, ni quel visage il avait. Et à ce propos, Xénophane, se moquant de la vanité des hommes qui adoraient les Statues faites par Phidias, Polyclète et d'autres sculpteurs, disait que si les chevaux, les bœufs et les éléphants avaient eu des mains et avaient su s'en servir, ils auraient eux aussi fait des dieux en forme d'éléphants, de bœufs, de chevaux, comme les hommes les ont faits à forme humaine. Cicéron montre la même chose par quelques raisons, où, disputant de la nature des dieux, il fait parler Cotta contre l'opinion des Épicuriens. Les Juifs, qui parmi les anciens suivirent la véritable Religion, adorèrent un seul Dieu, et le considéraient non dans des statues ou des images avec les yeux du corps, mais dans sa divinité par la lumière de l'esprit, autant que la nature humaine le permet. Et comme le rapporte Corneille Tacite, ils tenaient pour impies tous ceux qui façonnaient l'image de Dieu et la formaient en diverses matières à la ressemblance des corps humains ; et c'est pourquoi dans leurs Temples ils n'avaient ni statues ni aucun simulacre. C'est pourquoi, comme Hérode, roi de Jérusalem, avait déjà fait placer au-dessus de la grande porte du Temple un grand Aigle d'or, quelques jeunes gens, comme pris d'une fureur populaire, ayant appris qu'il était sur le point de mourir, le brisèrent et le jetèrent à terre, comme le rapporte Josèphe ; car ils disaient que cela était contraire aux lois de leur religion et de leurs ancêtres, et qu'il ne fallait pas attendre une autre occasion pour venger l'honneur de Dieu. Mais les malheureux le payèrent cher, car Hérode vécut encore assez pour les faire prendre et brûler vifs. Suidas rapporte que, Pilate ayant pour la première fois apporté en Judée certains étendards portant l'image de Tibère, tout le peuple fut troublé, comme s'il avait rompu leur ancienne coutume de n'avoir aucune image dans la ville. Il en fut de même pour d'autres qui ne voulurent aucun simulacre, comme Trismégiste, qui disait que celui qui voulait voir les statues des dieux devant ses yeux montrait par là qu'il ne croyait pas que les dieux fussent au Ciel, ou qu'il ne se fiait pas à ce que ses vœux et ses prières pussent parvenir jusque-là ; et que c'est pour cette raison que les simulacres furent faits et appelés dieux. On lit de Lycurgue qu'il ne voulait pas que les dieux fussent comparés à l'homme, ni à aucun autre animal, et que par conséquent on ne devait en faire ni statue ni simulacre. Lactance écrit que les Égyptiens, à l'origine, adorèrent les éléments sans en faire aucune image. Et Numa, second roi des Romains, ne voulait pas que l'on crût que l'on pût donner à Dieu quelque effigie que ce soit, comme le rapporte Plutarque. C'est pourquoi les Romains, à l'origine, passèrent cent soixante-dix ans sans jamais faire aucun simulacre de leurs dieux, estimant que c'était une grave erreur que de ramener les choses divines et immortelles à la ressemblance des choses mortelles et humaines. Les Perses de même, et ceux de Libye, aux premiers temps, n'eurent ni statues, ni autels, ni temples. Des Scythes, Hérodote écrit que, bien qu'ils adorassent de nombreux dieux, comme Vesta, Jupiter, Apollon, Mars et d'autres, auxquels ils donnaient des noms propres dans leur langue, ils ne firent cependant ni temple, ni autel, ni statue à aucun autre qu'à Mars, comme nous le verrons plus loin dans son image, et pourtant ils sacrifiaient à tous de la même manière."
+      ]
+    },
+    {
+      "id": "cartm_intro2",
+      "num": "2",
+      "page": "44",
+      "fr": "Costumi aniconici e origine delle statue; Prometeo e la Providenza",
+      "ru": "Обычаи почитания без изваяний и происхождение статуй; Прометей и Провидение",
+      "en": "Aniconic customs and the origin of statues; Prometheus and Providence",
+      "img": [
+        "cartm_intro2.jpg"
+      ],
+      "scans": [
+        "cartm_intro2_p45.jpg",
+        "cartm_intro2_p46.jpg",
+        "cartm_intro2_p47.jpg",
+        "cartm_intro2_p48.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Продолжение вступительного эссе: обычаи исседонов, массилийцев, германцев; происхождение статуй (Серух, Семирамида, Нин); миф о Прометее как творце первого человека, отождествляемый с высшим Провидением Платона.",
+      "textOnly": true,
+      "name_fr": "Suite de l'introduction : coutumes aniconiques, Prométhée et la Providence",
+      "text_ru": [
+        "Исседоны, также народ скифский, не почитали иного изваяния, кроме черепа умершего: по рассказу того же Геродота, у них был такой обычай — когда у кого-нибудь умирал отец, все родственники и друзья приносили овец, которых закалывали и разрубали на куски, то же проделывали и с телом умершего, разрубая его на части, и из этого мяса, перемешанного — овечьего и умершего, — устраивали большой пир и съедали всё без различия. Затем снимали кожу с головы умершего, сохранённой для этого, и тщательно очищали её изнутри и снаружи, так что оставался один голый, чистый череп; его золотили и хранили как изваяние, которому каждый год приносили торжественную жертву. А Помпоний Мела и Солин сообщают, что его хранили как чашу для питья, и что это была высшая честь, какую могли оказать умершему. Подобно этому и то, что сообщает Свида о некоем народе Иудеи, который поклонялся золотому ослиному черепу и каждый третий год приносил ему в жертву чужеземца, разрубая его на мелкие части. Жители Массилии в Нарбоннской Галлии поклонялись священным рощам вовсе без всякого изваяния; разве что порою оказывали почтение высоким стволам деревьев, не иначе как если бы верили, что в них обитают божества, — как пишет Лукан. А в первые времена после потопа добрые и праведные люди жили под дубами, как читаем у Плиния, и почитали их вместо священных божеств и освящённых храмов, ибо дубы давали им жёлуди, которыми они питались, и укрывали их от дождя и других непогод. Павсаний, описывая Ахайю, сообщает, что в некоторой части той страны было около тридцати квадратных камней без всякого изображения, каждый из которых носил имя некоего бога, и их почитали с великим благоговением, ибо у греков был древний обычай почитать такие камни не менее, чем изваяния богов. Корнелий Тацит, повествуя о Германии, рассказывает, что германцы не имели ни статуй, ни храмов, полагая великим злом заключать богов в стены узкого пространства храма и что было бы слишком унизительно для их величия сводить их к малой форме человеческого тела. В число своих богов они включали лишь тех, кого могли видеть и от кого ощущали явную пользу: это были Солнце, Вулкан [огонь] и Луна. Иных же они вовсе не знали, как пишет Цезарь, и даже не слыхали их имён. Геродот пишет, что греки изначально почитали богов и приносили им жертвы, не называя их по имени, пока впоследствии не получили имена из Египта. Но откуда взялись эти боги, и явились ли они один за другим, или все разом, или существовали всегда, — он говорит, что в его время этого ещё не знали наверное; разве что Гесиод и Гомер, жившие примерно за четыреста лет до него, ввели у греков родословие богов со многими прозвищами и наделили их различными искусствами и разными обличьями. Так что можно почти сказать, что именно от них греки научились изображать богов на разные лады. Но согласимся всё же вместе с тем же Геродотом, что это заимствовано у египтян, ибо именно они первыми строили храмы, воздвигали алтари и ставили статуи. Итак, подобно тому как греки заимствовали это у египтян, так и римляне переняли у греков обычай ставить статуи; и случилось это, когда Марцелл взял Сиракузы, ибо он привёз в Рим всё прекрасное, что там нашёл, — отчасти чтобы выставить это напоказ в своём триумфе, отчасти чтобы украсить Город, который до того времени ещё не знал, какое наслаждение способны доставлять живопись и скульптура. И за это Марцелла многие порицали: во-первых, казалось, что он слишком дерзко пожелал провести даже богов как пленников, выставляя их изваяния напоказ в шествии своего триумфа; во-вторых, что он подал римскому народу, привыкшему лишь к тяготам войн, повод предаваться праздности и бесполезному досугу, теряя время на созерцание прекрасных статуй и изящных картин, дивясь искусству и мастерству тех, кто их создал. Так пишет Плутарх, добавляя, что Марцелл, тем не менее, гордился тем, что первым показал римлянам, как восхищаться прекрасными творениями Греции; а до него то же писал Ливий, говоря, что именно с этого римляне начали восхищаться произведениями греческого искусства, а затем уже без всякой меры стали собирать добычу — как священную, так и мирскую. Тертуллиан говорит, что религия в Риме была установлена Нумой со скромными обрядами и без всяких изваяний, потому что туда ещё не приходили ни греки, ни этруски, чтобы их изготовить; и, по-видимому, полагает, что первым, кто, будучи греком и прекрасно знакомым с суетной религией этрусков, научил римлян делать изваяния богов, был Тарквиний Приск. Итак, обычай этот произошёл от египтян и через посредство греков перешёл к римлянам; но как он начался в самом Египте — узнать слишком трудно, настолько различно об этом писали. Лактанций говорит, что многие полагали, будто первые статуи были сделаны в честь тех царей и доблестных мужей, которые мудро и справедливо правили подвластными им народами; желая этими статуями сохранить память о справедливых царях и то почтительное чувство, которое к ним питали даже после их смерти. Евсевий также пишет, что язычники имели обыкновение статуями сохранять память о наиболее достойных людях, показывая тем самым, сколь был любим и в каком почёте тот, кто поступал доблестно. У Свиды читаем, что некий Серух, потомок Иафета, сына Ноева, первым ввёл поклонение изваяниям и идолам, которые он создавал в память о доблестных мужах, повелевая почитать их как богов и благодетелей мира. Были и такие цари, которые ещё при жизни велели изготовить свои статуи и поклоняться им, как Семирамида, которая если и не была первой, то, несомненно, была среди первых. Она повелела изваять себя на огромной скале длиной в семнадцать стадиев, что составляет более двух итальянских миль, и установила, чтобы сто мужей, наподобие жрецов, ходили поклоняться ей с торжественными обрядами, принося различные дары, как божеству. Евсевий рассказывает, что в Египте был некий весьма богатый человек, который, желая облегчить скорбь по умершему единственному сыну, заказал его статую и смотрел на неё с той же любовью, какую питал к сыну; и домочадцы, чувствуя, что чем-то его оскорбили, и опасаясь за это тяжкой кары, прибегали к статуе, склонялись перед ней, поклонялись ей и просили прощения, — и так получали прощение. Отсюда повелось подносить этой статуе цветы и иные различные дары, как той, что нередко служила спасением для многих. Но в действительности большинство писателей сходятся на том, что именно Нин, царь и первый монарх ассирийцев, первым изготовил статуи и подал повод другим их изготовлять; ибо он питал такую любовь к отцу своему Белу, что в память о нём повелел воздвигнуть подобную ему статую, и тем, кто к ней прибегал и вверял себя ей, пожелал, чтобы прощался и отпускался любой совершённый ими проступок. По этому примеру, возможно, поступил и вышеупомянутый египтянин, как и многие другие впоследствии, создавая статуи, которым затем, казалось, было приличнее дать имена различных богов; так и были созданы изваяния этих [богов], по большей части, по подобию человеческих тел — не потому, что все древние были настолько глупы, чтобы верить, будто у богов есть голова, руки и ноги, как у людей, но потому, что, как пишет Варрон, человеческие души подобны душам божественным, и поскольку нельзя увидеть ни тех, ни других, пожелали, чтобы тела свидетельствовали об этом подобии. Также и Порфирий, как сообщает Евсевий, говорил, что боги были сделаны в человеческом облике, дабы показать, что как Бог есть всецело ум и разум, так и люди причастны этому в своей мере. Лактанций полагает, что Прометей был первым, кто из земли создал изваяние человека, и что именно с него началось искусство ваяния статуй; и рассказывают, что Минерва, восхищённая столь прекрасным творением и желая, чтобы оно обладало всяческим совершенством, предложила даровать ему то, что он сумел бы для него испросить; и когда она ради этого вознесла его на небо, он, заметив, что все вещи получают душу от пламени и огня, тайно приблизил к одному из солнечных колёс небольшой факел, который нёс с собою, и, зажёгши его, принёс обратно на землю, и, приблизив его к груди созданной фигуры, оживил её; отсюда и пошло, что изобретателю божественного творения было приписано то, что принадлежит Богу, говоря, что Прометей сотворил первого человека. За это он также имел храмы и алтари, как божество, и один из посвящённых ему алтарей находился в Академии афинян, как пишет Павсаний, куда люди в определённое время приходили зажигать факелы, с которыми бежали один за другим наперегонки; и кто донёс свой зажжённым до самого города, тому доставалась пальма победы; причём те, кто бежал впереди, всегда уступали (если их огни гасли) тем, кто бежал следом, — либо же нёсся один-единственный факел, и бегущие передавали его друг другу, всегда тот, кто был ближе к бегущему впереди. И не только в честь Прометея устраивалось это празднество или состязание, хотя и читаем, что он его установил, но также в честь Вулкана и Минервы; и бежали не всегда пешими, но иногда и верхом на конях. Потому Адимант у Платона, желая убедить Сократа остаться в некоем обществе, говорит ему, что вечером он увидит конное состязание, в котором участники на скаку передают друг другу зажжённый факел в честь богини, то есть Минервы. А Геродот, рассказывая о способе, который персы изобрели для быстрой передачи известий, — подобном тому, каким мы ныне пользуемся для почты, когда по-французски говорят о «пакете», передаваемом от станции к станции новому гонцу, — говорит, что они поступали так же, как греки, которые, бегом передавая друг другу, несут зажжённый факел к Вулкану. Об этом состязании некоторые говорили, что оно изображает то, что совершил Прометей, когда похитил небесный огонь и принёс его на землю, как сказано выше, и что потому он сам его и установил. А другие говорили, что оно являет собою ход человеческой жизни, в котором идущие впереди уступают свет жизни идущим следом, — как сказал Платон, устанавливая свои законы: что люди должны вступать в брак, дабы рождать детей, чтобы ту жизнь, которую сами получили от других, они, словно горящий факел, передавали, в свою очередь, другим. И Лукреций, говоря о смене смертных поколений, сказал, что они, бегом сменяя друг друга, передают друг другу свет жизни. У фокейцев был также небольшой храм, посвящённый Прометею, со статуей, которую некоторые считали изображением Эскулапия; но так как поблизости находились некие большие камни землистого, песочного цвета, источавшие запах, похожий на запах человеческих тел, то большинство сочло, что это статуя самого Прометея, и что эти камни остались от того же вещества, из которого он слепил первого человека, от коего затем произошёл весь человеческий род. И вполне может быть верным, что Прометей создал первого человека, если под ним понимать, как понимал Платон, высшее провидение, которым не только люди, но и все прочие вещи мира были изначально сотворены и созданы. И потому оно почиталось древними как Богиня, которая, подобно лучшей хозяйке дома, управляет вселенной, и изображалась в облике пожилой женщины в одеянии почтенной матроны."
+      ],
+      "text_en": [
+        "The Issedones, likewise a people of Scythia, worshipped no other image than the skull of a dead man, having, as the same Herodotus relates, such a custom among them that when a man's father died, all his relatives and friends brought sheep, which they then slaughtered and cut entirely into pieces, and did the same with the body of the dead man, cutting it into pieces as well; and of this flesh, all mixed together, of the sheep and of the dead man, they made a great feast and ate it all indiscriminately. Afterward they flayed the head of the dead man, kept for this purpose, and cleaned it thoroughly inside and out, so that only the bare, clean skull remained, which they gilded and kept as an image, to which they offered a solemn sacrifice every year. Pomponius Mela and Solinus report that they kept it as a drinking cup, and that this was the greatest honour they could pay to the dead. Similar to this is what Suidas reports of a certain people of Judea, who worshipped a golden ass's skull and sacrificed to it every third year a foreigner, cutting him entirely into small pieces. The people of Marseilles in Narbonese Gaul worshipped sacred groves without any image at all, except that at times they paid reverence to tall tree trunks, exactly as if they believed divine spirits dwelt in them, as Lucan writes. And in the earliest times after the Flood, good and just men dwelt beneath oak trees, as is read in Pliny, and held them in place of holy deities and consecrated temples, because the oaks gave them acorns, by which they lived, and sheltered them from rain and other hardships of the weather. Pausanias, describing Achaia, reports that in a certain part of that country there were about thirty square stones without any figure at all, each of which bore the name of a different god, and these were regarded with great veneration, for it was an ancient custom of the Greeks to worship such stones no less than images of the gods. Cornelius Tacitus, writing of Germany, relates that the Germans had neither statues nor temples, because they thought it a great evil to shut the gods within the walls of the narrow space of a temple, and that it would too greatly demean their greatness to reduce them to the small form of a human body. They counted among their gods only those which they could see and from which they felt manifest benefit: these were the Sun, Vulcan [fire], and the Moon. Of the others they knew none at all, as Caesar writes, nor had they even heard them named. Herodotus writes that at first the Greeks worshipped the gods and sacrificed to them without naming them, until later they received their names from Egypt. But whence these gods came, and whether they came one by one, or all together, or had always existed, he says that in his own time it was not yet known, except that Hesiod and Homer, who lived about four hundred years before him, introduced among the Greeks the lineage of the gods with many epithets, and gave them various arts and different forms. So that one might almost say that it was from these two that the Greeks learned to fashion the gods in various ways. Yet let us agree, together with the same Herodotus, that this was taken from the Egyptians, for they were the first to build temples, raise altars, and set up statues. As, then, the Greeks took this from the Egyptians, so the Romans had from the Greeks the use of statues; and this came about when Marcellus took Syracuse, for he brought to Rome everything beautiful he found there, partly to display it in his triumph, partly also to adorn the City, which up to that time had not yet known what delight painting and sculpture could afford. And for this Marcellus was blamed by many, first because it seemed that he had too arrogantly wished to lead even the gods as prisoners, displaying their images in the pomp of his triumph; and then because he had given the Roman people, accustomed only to the hardships of war, occasion to give themselves over to idleness and useless leisure, wasting time in gazing at beautiful statues and fine paintings, marveling at the art and skill of those who made them. So writes Plutarch, adding that Marcellus nonetheless gloried in having been the first to show the Romans how to admire the fine things of Greece; and before him Livy had written the same, saying that from this the Romans began to admire the works of Greek art, and that thereafter they gathered, with much license, the spoils both of sacred and of profane things. Tertullian, saying that religion in Rome was established by Numa with humble ceremonies and without images, because neither Greeks nor Etruscans had yet come there to make them, seems to hold that Tarquinius Priscus was the first — being, as he was, Greek, and very well versed in the vain religion of the Etruscans — to teach the Romans to make images of the gods. Thus the use of these came from the Egyptians, and passed by way of the Greeks to the Romans; but how it began in Egypt itself is too difficult to know, so variously has it been written. Lactantius says that many have believed the first statues were made for those kings and valorous men who had governed their subject peoples with prudence and justice, these peoples wishing by the statues to preserve the memory they held of just kings, and the reverent affection they continued to bear them even after death. Eusebius likewise writes that it was the custom of the pagans to preserve with statues the memory of their most worthy persons, showing thereby how greatly loved, and in how much respect held, was he who acted virtuously. We read in Suidas that a certain Seruch, descended from the line of Japheth, son of Noah, was the first to introduce the worship of images, and the idols he made in memory of valorous men, whom he caused to be worshipped as gods and benefactors of the world. There were also kings who, while still living, had statues of themselves made and worshipped, such as Semiramis, who, if she was not the first, was certainly among the first. She had herself carved upon a great rock seventeen stadia long, which is more than two Italian miles, and ordained that a hundred men, in the manner of priests, should go to worship her with solemn ceremonies, offering her various gifts, as to a divine power. Eusebius relates that there was in Egypt a very rich man who, to ease the grief he felt at the death of his only son, had a statue of him made, looking upon it with the same affection he had borne the son; so that those of his household, when they felt they had offended him, and therefore feared some grave punishment, would run to the statue, bow before it, worship it, and ask forgiveness, and thus were forgiven. From this it came that they afterward offered this statue flowers and various other gifts, as to one that was often the salvation of many. But in truth most writers agree that Ninus, King and first Monarch of the Assyrians, was the one who first made statues, and gave others occasion to make them; for he bore such love for his father Belus that in his memory he had a similar statue erected, and he willed that whoever fled to it and commended themselves to it should be pardoned and absolved of whatever crime they had committed. Following this example, perhaps, the Egyptian mentioned above did the same, as did many others afterward, making statues to which, since it then seemed more fitting, the names of various gods were given; and thus images of these were made, for the most part, in the likeness of human bodies — not because all the ancients were so foolish as to believe that the gods had a head, hands, and feet like men, but because, as Varro writes, since human souls are like divine souls, and since neither can be seen, it was intended that the bodies should bear witness to this likeness. Porphyry likewise said, as Eusebius reports, that the gods were made in human form to show that, as God is wholly mind and reason, so men too partake of this in their measure. Lactantius holds that Prometheus was the first to make an image of man out of earth, and that the art of making statues began with him; and it is said that Minerva, admiring so beautiful a work and wishing it to have every perfection, offered to grant him whatever he might know how to ask of her for it; and that, having for this purpose brought him up to heaven, he, noticing that all things received their soul from flame and fire, secretly brought a small torch, which he carried with him, close to one of the wheels of the Sun, and, having lit it, carried it back to earth, and, bringing it close to the breast of the figure he had formed, made it animate and alive; whence it came that to the inventor of this divine work was attributed what belongs to God, it being said that Prometheus made the first man. For this he also had temples and altars, as a divine power, and one of the altars consecrated to him was in the Academy of the Athenians, as Pausanias writes, where men went at a certain time to light torches, with which they ran, one after another, in a race; and he who brought his still lit all the way into the City won the palm of victory; those who were ahead always yielding (if their torches went out) to those who came behind, or else a single torch was carried, and, running, they passed it from one to another, always to whoever was nearest to the one running ahead. Nor was this ceremony, or game, held only in honour of Prometheus, though we read that he instituted it, but also of Vulcan and of Minerva; nor did they always run on foot, but sometimes also on horseback. Whence Adimantus, in Plato, wishing to persuade Socrates to stay in a certain company, tells him that in the evening he will see the horse-race, in which the riders, as they race, pass the lit torch to one another in honour of the Goddess, that is, Minerva. And Herodotus, telling of the method the Persians devised for sending news quickly — like that which we today use for the post, when, in the French manner, the 'packet' passes from station to station to a fresh rider — says that they did as the Greeks do, who, running and passing it from one to another, carry the lit torch to Vulcan. Of this contest some have said that it represents what Prometheus did when he stole fire from Heaven and brought it to earth, as said above, and that it was for this reason that he himself instituted it. Others say that it shows the course of human life, in which those who go ahead yield the light of life to those who come after — as Plato said in establishing his laws, that men ought to marry in order to produce children, so that the life which they themselves received from others they might, like a burning torch, in turn pass on to others. And Lucretius, speaking of the succession of mortal generations, said that, running, they pass the light of life from one to another. Among the Phocians there was also a small temple dedicated to Prometheus, with a statue which some held to be of Aesculapius; but because nearby there were certain large stones of an earthy, sandy colour, which gave off a smell like that of human bodies, it was more generally believed to be of Prometheus himself, and that these stones remained of the same substance from which he had formed that first man, from whom afterward came the whole human race. And it may very well be true that Prometheus made the first man, if by him we understand, as Plato understood, the supreme providence, by which not only men but all the other things of the world were from the beginning created and made. And for this reason it was worshipped by the ancients as a Goddess, who, in the manner of the best mistress of a household, governs the universe, and her image was that of an elderly woman in the dress of a grave matron."
+      ],
+      "text_fr": [
+        "Les Issédons, peuple également de Scythie, n'adoraient d'autre simulacre que le crâne d'un mort, ayant, comme le rapporte le même Hérodote, une telle coutume parmi eux que, lorsque le père de quelqu'un mourait, tous les parents et amis apportaient des brebis, qu'ils tuaient ensuite et découpaient entièrement en morceaux, et faisaient de même du corps du mort, le découpant lui aussi en morceaux ; et de cette chair, toute mêlée, des brebis et du mort, ils faisaient un grand festin et la mangeaient toute, sans distinction. Ensuite ils écorchaient la tête du mort, conservée à cet effet, et la nettoyaient bien, dedans et dehors, de sorte qu'il ne restait que le crâne nu et net, qu'ils dorraient et gardaient comme simulacre, auquel ils offraient chaque année un sacrifice solennel. Pomponius Mela et Solin rapportent qu'ils le gardaient comme coupe à boire, et que c'était le plus grand honneur qu'ils pussent rendre au mort. Est semblable à cela ce que rapporte Suidas d'un certain peuple de Judée, qui adorait un crâne d'âne en or, et lui sacrifiait tous les trois ans un étranger, le découpant tout entier en menus morceaux. Ceux de Marseille, dans la Gaule narbonnaise, adoraient des bois consacrés sans aucun simulacre, sinon que parfois ils rendaient révérence à de hauts troncs d'arbres, tout comme s'ils avaient cru que des divinités y habitaient, comme l'écrit Lucain. Et dans les premiers temps après le déluge, les hommes bons et justes habitaient sous les chênes, comme on le lit chez Pline, et les tenaient lieu de saintes divinités et de temples consacrés, parce que les chênes leur donnaient des glands, dont ils vivaient, et les abritaient des pluies et des autres injures du temps. Pausanias, décrivant l'Achaïe, rapporte que dans une certaine partie de ce pays il y avait environ trente pierres carrées sans aucune figure, dont chacune portait le nom d'un dieu différent ; et elles étaient gardées avec une grande vénération, car c'était une ancienne coutume des Grecs d'adorer de telles pierres non moins que les simulacres des dieux. Corneille Tacite, écrivant sur la Germanie, rapporte que les Germains n'eurent ni statues ni temples, parce qu'ils pensaient que c'était un grand mal d'enfermer les dieux entre les murs de l'espace étroit d'un temple, et qu'il siérait trop mal à leur grandeur de les réduire à la petite forme du corps humain. Ils ne mettaient au nombre de leurs dieux que ceux qu'ils pouvaient voir et dont ils ressentaient un bienfait manifeste : c'étaient le Soleil, Vulcain [le feu] et la Lune. Des autres ils n'en connurent aucun, comme l'écrit César, et n'en entendirent même pas prononcer le nom. Hérodote écrit qu'à l'origine les Grecs adoraient les dieux et leur sacrifiaient sans les nommer, jusqu'à ce qu'ils reçussent ensuite leurs noms d'Égypte. Mais d'où viennent ces dieux, et s'ils vinrent un à un, ou tous ensemble, ou s'ils existèrent toujours, il dit qu'en son temps on ne le savait pas encore, si ce n'est qu'Hésiode et Homère, qui vécurent environ quatre cents ans avant lui, introduisirent chez les Grecs la lignée des dieux avec de nombreux surnoms, et leur donnèrent diverses fonctions et formes variées. De sorte que l'on pourrait presque dire que c'est d'eux que les Grecs apprirent à façonner les dieux de diverses manières. Mais accordons, avec ce même Hérodote, que cela fut pris aux Égyptiens, car ce furent eux les premiers à bâtir des temples, dresser des autels et placer des statues. Donc, de même que les Grecs le prirent des Égyptiens, de même les Romains eurent des Grecs l'usage des statues ; et cela advint lorsque Marcellus prit Syracuse, car il porta à Rome tout ce de beau qu'il y trouva, tant pour en faire spectacle dans son triomphe que pour orner la Ville, laquelle jusque-là n'avait pas encore su quel plaisir pouvaient procurer la peinture et la sculpture. Et pour cela Marcellus fut blâmé par beaucoup, d'abord parce qu'il semblait qu'il eût voulu, avec trop d'orgueil, mener même les dieux comme prisonniers, en faisant voir leurs simulacres dans le faste de son triomphe ; ensuite parce qu'il avait donné au peuple romain, accoutumé seulement aux travaux de la guerre, l'occasion de se livrer à l'oisiveté et à un loisir inutile, perdant souvent le temps à contempler les belles statues et les charmantes peintures, pour s'émerveiller de l'art et de l'adresse de ceux qui les avaient faites. C'est ce qu'écrit Plutarque, ajoutant que Marcellus se glorifiait néanmoins d'avoir été le premier à montrer aux Romains à admirer les belles choses de la Grèce ; et avant lui, Tite-Live avait écrit la même chose, disant que c'est de là que les Romains commencèrent à admirer les œuvres des arts grecs, et que par la suite ils recueillirent avec beaucoup de licence les dépouilles, tant des choses sacrées que des profanes. Tertullien, disant que la religion à Rome fut instituée par Numa avec de pauvres cérémonies et sans simulacres, parce que ni les Grecs ni les Toscans n'y étaient encore venus pour en faire, semble vouloir que Tarquin l'Ancien, étant Grec et fort entendu en la vaine religion des Étrusques, fût le premier à montrer aux Romains à faire des simulacres des dieux. L'usage de ceux-ci vint donc des Égyptiens, et passa par le moyen des Grecs aux Romains ; mais comment il commença en Égypte même, il est trop difficile de le savoir, tant on en a écrit diversement. Lactance dit que beaucoup ont cru que les premières statues furent faites pour ces rois et hommes valeureux qui avaient gouverné avec prudence et justice les peuples qui leur étaient soumis, ces peuples voulant montrer par les statues le souvenir qu'ils gardaient des justes rois, et l'affection révérencieuse qu'ils continuaient à leur porter même après leur mort. Eusèbe écrit également que les païens avaient coutume de conserver par des statues la mémoire des personnes les plus dignes, montrant par là combien était aimé, et en quel respect était tenu, celui qui agissait vertueusement. On lit chez Suidas qu'un certain Seruch, descendant de la race de Japhet, fils de Noé, fut le premier à introduire l'adoration des simulacres, et les idoles qu'il fit en mémoire d'hommes valeureux, qu'il faisait adorer comme dieux et bienfaiteurs du monde. Il y eut aussi des rois qui, de leur vivant, se firent faire des statues et les firent adorer, comme Sémiramis, qui, si elle ne fut pas la première, fut assurément parmi les premières. Elle se fit sculpter sur un grand rocher de dix-sept stades de long, ce qui fait plus de deux milles italiens, et ordonna que cent hommes, à la manière de prêtres, allassent l'adorer avec des cérémonies solennelles, lui offrant divers présents, comme à une divinité. Eusèbe raconte qu'il y eut en Égypte un homme très riche qui, pour remédier à la douleur qu'il ressentait de la mort de son fils unique, en fit faire une statue, la regardant avec la même affection qu'il portait à son fils ; de sorte que les gens de sa maison, lorsqu'ils sentaient l'avoir offensé, et craignaient pour cela quelque grave châtiment, couraient à la statue, s'inclinaient devant elle, l'adoraient et demandaient pardon, et ainsi leur était-il pardonné. De là vint qu'on offrit ensuite à cette statue des fleurs et divers autres présents, comme à celle qui fut souvent le salut de beaucoup. Mais en vérité, la plupart des écrivains s'accordent à dire que Ninus, roi et premier monarque des Assyriens, fut celui qui le premier fabriqua des statues, et donna aux autres l'occasion d'en fabriquer ; car il porta un tel amour à son père Bélus qu'en sa mémoire il fit dresser une statue semblable, et voulut que ceux qui s'y réfugiaient et s'y recommandaient voient pardonné et remis quelque méfait qu'ils eussent commis. À cet exemple, peut-être, l'Égyptien susdit fit de même, comme le suivirent aussi beaucoup d'autres, faisant des statues auxquelles ensuite, parce qu'il parut plus convenable, furent donnés des noms de divers dieux ; et ainsi furent faits des simulacres de ceux-ci, pour la plupart, à la ressemblance des corps humains — non que les anciens fussent tous assez sots pour croire que les dieux avaient tête, mains et pieds comme les hommes, mais parce que, comme l'écrit Varron, les âmes humaines étant semblables aux âmes divines, et ne pouvant voir ni les unes ni les autres, on voulut que les corps témoignassent de cette ressemblance. Porphyre également disait, comme le rapporte Eusèbe, que les dieux furent faits en forme humaine pour montrer que, de même que Dieu est tout entier esprit et raison, de même les hommes aussi en ont leur part. Lactance soutient que Prométhée fut le premier à faire de terre un simulacre d'homme, et que l'art de faire des statues commença avec lui ; et l'on dit que Minerve, admirant une si belle œuvre et désireuse qu'elle eût toute sorte de perfection, s'offrit à lui accorder ce qu'il saurait lui demander pour cela ; et l'ayant pour cette fin conduit au ciel, lui, s'apercevant que toutes choses recevaient leur âme des flammes et du feu, approcha secrètement l'une des roues du Soleil d'un petit flambeau qu'il portait avec lui, et, l'ayant allumé, le rapporta sur terre, et, l'approchant de la poitrine de la figure formée, la rendit animée et vivante ; d'où vint que l'on attribua à l'inventeur de cette œuvre divine ce qui appartient à Dieu, disant que Prométhée avait fait le premier homme. Pour cela il eut aussi des temples et des autels, comme une divinité, et l'un des autels qui lui furent consacrés se trouvait dans l'Académie des Athéniens, comme l'écrit Pausanias, où les hommes allaient, à un certain moment, allumer des flambeaux, avec lesquels ils couraient les uns après les autres ; et celui qui portait le sien encore allumé jusque dans la Ville remportait la palme de la victoire ; ceux qui étaient en tête cédant toujours (si leurs flambeaux s'éteignaient) à ceux qui venaient derrière, ou bien l'on portait un seul flambeau, et, en courant, on se le donnait l'un à l'autre, toujours à celui qui était le plus proche de celui qui courait devant. Et cette cérémonie, ou ce jeu, ne se faisait pas seulement en l'honneur de Prométhée, bien qu'on lise que ce fut lui qui l'institua, mais aussi de Vulcain et de Minerve ; et l'on ne courait pas toujours à pied, mais parfois aussi à cheval. C'est pourquoi Adimante, chez Platon, voulant persuader Socrate de rester en certaine compagnie, lui dit qu'il verra le soir la course des chevaux, dans laquelle les coureurs, en courant, se donnent l'un à l'autre le flambeau allumé en l'honneur de la Déesse, c'est-à-dire de Minerve. Et Hérodote, racontant le moyen trouvé par les Perses pour envoyer rapidement les nouvelles — semblable à celui dont nous usons aujourd'hui pour la poste, quand, à la française, on parle du « paquet » qui se relaie de poste en poste à qui court de nouveau — dit qu'ils faisaient comme font les Grecs, qui, en courant, et se le donnant l'un à l'autre, portent le flambeau allumé à Vulcain. De ce jeu, certains ont dit qu'il représente ce que fit Prométhée lorsqu'il déroba le feu du Ciel et le porta sur terre, comme nous l'avons dit plus haut, et que c'est pour cela qu'il l'institua lui-même. D'autres disent qu'il montre le cours de la vie humaine, dans lequel ceux qui vont devant cèdent la lumière de la vie à ceux qui viennent derrière — comme le dit Platon en établissant ses lois, que les hommes devaient se marier pour faire des enfants, afin que la vie qu'ils ont eux-mêmes reçue d'autrui, telle un flambeau ardent, ils la transmettent à leur tour à d'autres. Et Lucrèce, parlant de la succession des mortels, dit qu'en courant ils se donnent l'un à l'autre la lumière de la vie. Chez les Phocéens, il y avait aussi un petit temple dédié à Prométhée, avec une statue que certains croyaient être celle d'Esculape ; mais parce qu'il y avait tout près certaines grosses pierres de couleur terreuse, comme de sable, et qui exhalaient une odeur semblable à celle des corps humains, on crut plus généralement que c'était celle de Prométhée lui-même, et que ces pierres étaient restées de la même matière dont il avait formé ce premier homme, d'où vint ensuite toute la génération humaine. Et il se peut fort bien que Prométhée ait fait le premier homme, si par lui l'on entend, comme l'entendait Platon, la providence suprême, par laquelle non seulement les hommes, mais aussi toutes les autres choses du monde furent dès le commencement créées et faites. Et c'est pourquoi elle fut adorée par les anciens comme une Déesse, laquelle, à la manière de la meilleure mère de famille, gouverne l'univers, et son image était celle d'une femme âgée, vêtue en grave matrone."
+      ]
+    },
+    {
+      "id": "cartm1",
+      "num": "3",
       "page": "49",
       "fr": "Prouidenza",
       "ru": "Провидение",
@@ -33,7 +96,7 @@
     },
     {
       "id": "cartm2",
-      "num": "2",
+      "num": "4",
       "page": "55",
       "fr": "Imagini della Eternità, con Demogorgone",
       "ru": "Образ Вечности и бога Демогоргона",
@@ -60,7 +123,7 @@
     },
     {
       "id": "cartm2b",
-      "num": "3",
+      "num": "5",
       "page": "56",
       "fr": "L'Antro dell'Eternità: ode di Claudiano (traduzione)",
       "ru": "Пещера Вечности: ода Клавдиана (перевод)",
@@ -90,7 +153,7 @@
     },
     {
       "id": "cartm3",
-      "num": "4",
+      "num": "6",
       "page": "59",
       "fr": "Antro dell'Eternità, con l'imagine del Tempo",
       "ru": "Пещера Вечности с образом Времени",
@@ -118,7 +181,7 @@
     },
     {
       "id": "cartm_sat1",
-      "num": "5",
+      "num": "7",
       "page": "61",
       "fr": "SATVRNO: apertura del capitolo e poesia",
       "ru": "САТУРН: открытие главы и стихотворение",
@@ -146,7 +209,7 @@
     },
     {
       "id": "cart1",
-      "num": "6",
+      "num": "8",
       "page": "62",
       "fr": "Saturno",
       "ru": "Сатурн",
@@ -171,7 +234,7 @@
     },
     {
       "id": "cartm7",
-      "num": "7",
+      "num": "9",
       "page": "62",
       "fr": "Imagini di Giano, inteso per il Sole e per il Tempo",
       "ru": "Образ Януса, понимаемого как Солнце и Время",
@@ -198,7 +261,7 @@
     },
     {
       "id": "cartm_sat2",
-      "num": "8",
+      "num": "10",
       "page": "63",
       "fr": "Saturno: i sacrifici, la falce, la favola del vino e la morte di Giano",
       "ru": "Сатурн: жертвоприношения, серп, басня о вине и смерть Януса",
@@ -227,7 +290,7 @@
     },
     {
       "id": "cartm4",
-      "num": "9",
+      "num": "11",
       "page": "65",
       "fr": "Imagine di Saturno, del Tempo e dell'anno (fra le stelle)",
       "ru": "Образ Сатурна, Времени и года (среди звёзд)",
@@ -254,7 +317,7 @@
     },
     {
       "id": "cartm_sat3",
-      "num": "10",
+      "num": "12",
       "page": "66",
       "fr": "Saturno: Titano, i figli divorati, l'immagine sassone e Marciano Capella",
       "ru": "Сатурн: Титан, пожранные дети, саксонский образ и Марциан Капелла",
@@ -282,7 +345,7 @@
     },
     {
       "id": "cartm5",
-      "num": "11",
+      "num": "13",
       "page": "67",
       "fr": "Imagine di Saturno: tempo presente, passato e avvenire",
       "ru": "Образ Сатурна: время настоящее, прошедшее и будущее",
@@ -310,7 +373,7 @@
     },
     {
       "id": "cartm6",
-      "num": "12",
+      "num": "14",
       "page": "69",
       "fr": "Imagine di Saturno e del Tempo, coi piedi legati di lana",
       "ru": "Образ Сатурна и Времени со связанными шерстью ногами",
@@ -337,7 +400,7 @@
     },
     {
       "id": "cartm_sat4",
-      "num": "13",
+      "num": "15",
       "page": "70",
       "fr": "Saturno: i piedi legati, la metamorfosi in cavallo (Filira e Chirone)",
       "ru": "Сатурн: связанные ноги, превращение в коня (Филира и Хирон)",
@@ -365,7 +428,7 @@
     },
     {
       "id": "cartm_sat5",
-      "num": "14",
+      "num": "16",
       "page": "71",
       "fr": "Giano: le porte del Cielo, Portunno, la ninfa Crane e il tempio sul Monte Celio",
       "ru": "Янус: врата Неба, Портунн, нимфа Крана и храм на Целиевом холме",
@@ -396,7 +459,7 @@
     },
     {
       "id": "cartm8",
-      "num": "15",
+      "num": "17",
       "page": "75",
       "fr": "Imagini delle quattro stagioni dell'anno",
       "ru": "Образы четырёх времён года",
@@ -424,7 +487,7 @@
     },
     {
       "id": "cartm9",
-      "num": "16",
+      "num": "18",
       "page": "77",
       "fr": "Tempio di Giano, Dio della pace e della guerra",
       "ru": "Храм Януса, бога мира и войны",
@@ -452,7 +515,7 @@
     },
     {
       "id": "cartm10",
-      "num": "17",
+      "num": "19",
       "page": "79",
       "fr": "Imagine del Sole, ovvero Febo, e di Giove presso gli Assiri",
       "ru": "Образ Солнца, или Феба, и Юпитера у ассирийцев",
@@ -481,7 +544,7 @@
     },
     {
       "id": "cartb16",
-      "num": "18",
+      "num": "20",
       "page": "82",
       "fr": "Hebe",
       "ru": "Геба",
@@ -507,7 +570,7 @@
     },
     {
       "id": "cartb17",
-      "num": "19",
+      "num": "21",
       "page": "84",
       "fr": "Le noue Muse",
       "ru": "Девять Муз",
@@ -533,7 +596,7 @@
     },
     {
       "id": "cartm11",
-      "num": "20",
+      "num": "22",
       "page": "86",
       "fr": "Apollo in mezzo delle Muse",
       "ru": "Аполлон среди Муз",
@@ -561,7 +624,7 @@
     },
     {
       "id": "cart2",
-      "num": "21",
+      "num": "23",
       "page": "88",
       "fr": "Apollo Febo, il Sole",
       "ru": "Аполлон Феб, Солнце",
@@ -587,7 +650,7 @@
     },
     {
       "id": "cartm12",
-      "num": "22",
+      "num": "24",
       "page": "90",
       "fr": "Nave del Sole portata da un Coccodrillo",
       "ru": "Корабль Солнца, влекомый Крокодилом",
@@ -615,7 +678,7 @@
     },
     {
       "id": "cartm13",
-      "num": "23",
+      "num": "25",
       "page": "92",
       "fr": "Apollo che abbraccia Dafne",
       "ru": "Аполлон, обнимающий Дафну",
@@ -643,7 +706,7 @@
     },
     {
       "id": "cartm14",
-      "num": "24",
+      "num": "26",
       "page": "94",
       "fr": "Imagine d'Apollo, dio della prudenza",
       "ru": "Образ Аполлона, бога благоразумия",
@@ -671,7 +734,7 @@
     },
     {
       "id": "cartm15",
-      "num": "25",
+      "num": "27",
       "page": "96",
       "fr": "Imagine di Apollo Mithra",
       "ru": "Образ Аполлона-Митры",
@@ -699,7 +762,7 @@
     },
     {
       "id": "cartm16",
-      "num": "26",
+      "num": "28",
       "page": "98",
       "fr": "Imagine dei Buoi sacri presso gli Egizi",
       "ru": "Образ священных быков у египтян",
@@ -727,7 +790,7 @@
     },
     {
       "id": "cartm17",
-      "num": "27",
+      "num": "29",
       "page": "100",
       "fr": "Imagine d'Apollo nudo, amatore dei Buoi",
       "ru": "Образ нагого Аполлона, любителя быков",
@@ -755,7 +818,7 @@
     },
     {
       "id": "cartm18",
-      "num": "28",
+      "num": "30",
       "page": "102",
       "fr": "Imagine d'Apolline e della Terra presso gli Assiri",
       "ru": "Образ Аполлона и Земли у ассирийцев",
@@ -783,7 +846,7 @@
     },
     {
       "id": "cartm19",
-      "num": "29",
+      "num": "31",
       "page": "104",
       "fr": "Imagine di Adad e d'Adargate, dei degli Assiri",
       "ru": "Образ Адада и Адаргатис, богов ассирийцев",
@@ -810,7 +873,7 @@
     },
     {
       "id": "cartm20",
-      "num": "30",
+      "num": "32",
       "page": "105",
       "fr": "Imagine di Serapi, dio degli Egizi",
       "ru": "Образ Сераписа, бога египтян",
@@ -838,7 +901,7 @@
     },
     {
       "id": "cartm21",
-      "num": "31",
+      "num": "33",
       "page": "107",
       "fr": "Imagine del Sole, mutevole e produttore di ogni tempo",
       "ru": "Образ Солнца, изменчивого творца всех времён",
@@ -866,7 +929,7 @@
     },
     {
       "id": "cartm22",
-      "num": "32",
+      "num": "34",
       "page": "109",
       "fr": "Imagine di Esculapio, dio della Medicina",
       "ru": "Образ Эскулапа, бога Медицины",
@@ -894,7 +957,7 @@
     },
     {
       "id": "cartm23",
-      "num": "33",
+      "num": "35",
       "page": "111",
       "fr": "Imagine di Esculapio con i galli a lui sacrati",
       "ru": "Образ Эскулапа с посвящёнными ему петухами",
@@ -923,7 +986,7 @@
     },
     {
       "id": "cartm24",
-      "num": "34",
+      "num": "36",
       "page": "114",
       "fr": "Anello antico col simbolo della Salute",
       "ru": "Старинное кольцо с символом Здоровья",
@@ -951,7 +1014,7 @@
     },
     {
       "id": "cartm25",
-      "num": "35",
+      "num": "37",
       "page": "116",
       "fr": "Imagine della dea Salute e del Serpente a lei sacrato",
       "ru": "Образ богини Здоровья и посвящённого ей Змея",
@@ -979,7 +1042,7 @@
     },
     {
       "id": "cartm26",
-      "num": "36",
+      "num": "38",
       "page": "118",
       "fr": "Imagine d'Higia, figlia di Esculapio",
       "ru": "Образ Гигиеи, дочери Эскулапа",
@@ -1007,7 +1070,7 @@
     },
     {
       "id": "cartm27",
-      "num": "37",
+      "num": "39",
       "page": "120",
       "fr": "Carro del Sole, dio della luce",
       "ru": "Колесница Солнца, бога света",
@@ -1034,7 +1097,7 @@
     },
     {
       "id": "cartm28",
-      "num": "38",
+      "num": "40",
       "page": "121",
       "fr": "Imagine del Sole, detto anche Febo e Apolline",
       "ru": "Образ Солнца, называемого также Фебом и Аполлоном",
@@ -1062,7 +1125,7 @@
     },
     {
       "id": "cartm29",
-      "num": "39",
+      "num": "41",
       "page": "123",
       "fr": "Imagine dell'Aurora e del Cavallo Pegaseo",
       "ru": "Образ Авроры и коня Пегаса",
@@ -1090,7 +1153,7 @@
     },
     {
       "id": "cartm30",
-      "num": "40",
+      "num": "42",
       "page": "125",
       "fr": "Imagine di Diana, dea delle selve e della caccia",
       "ru": "Образ Дианы, богини лесов и охоты",
@@ -1123,7 +1186,7 @@
     },
     {
       "id": "cartm31",
-      "num": "41",
+      "num": "43",
       "page": "132",
       "fr": "Statua di Lucina, dea dei Parti",
       "ru": "Статуя Люцины, богини родов",
@@ -1151,7 +1214,7 @@
     },
     {
       "id": "cartm32",
-      "num": "42",
+      "num": "44",
       "page": "134",
       "fr": "Imagine di Diana Cinthia, ovvero la Luna",
       "ru": "Образ Дианы Кинфии, то есть Луны",
@@ -1180,7 +1243,7 @@
     },
     {
       "id": "cartm33",
-      "num": "43",
+      "num": "45",
       "page": "137",
       "fr": "Imagine di Hecate, dea triforme",
       "ru": "Образ Гекаты, трёхликой богини",
@@ -1208,7 +1271,7 @@
     },
     {
       "id": "cart3",
-      "num": "44",
+      "num": "46",
       "page": "139",
       "fr": "Diana",
       "ru": "Диана",
@@ -1233,7 +1296,7 @@
     },
     {
       "id": "cartm34",
-      "num": "45",
+      "num": "47",
       "page": "139",
       "fr": "Simulacro della Luna",
       "ru": "Изваяние Луны",
@@ -1262,7 +1325,7 @@
     },
     {
       "id": "cartm35",
-      "num": "46",
+      "num": "48",
       "page": "142",
       "fr": "Imagine della dea Natura, piena di mammelle",
       "ru": "Образ богини Природы, покрытой множеством грудей",
@@ -1290,7 +1353,7 @@
     },
     {
       "id": "cartm36",
-      "num": "47",
+      "num": "49",
       "page": "144",
       "fr": "Imagine d'Iside, dea egizia",
       "ru": "Образ Исиды, египетской богини",
@@ -1318,7 +1381,7 @@
     },
     {
       "id": "cartm37",
-      "num": "48",
+      "num": "50",
       "page": "146",
       "fr": "Imagine d'Iside, dea degli Egizi, con il sistro",
       "ru": "Образ Исиды, богини египтян, с систром",
@@ -1351,7 +1414,7 @@
     },
     {
       "id": "cart4",
-      "num": "49",
+      "num": "51",
       "page": "153",
       "fr": "Giove",
       "ru": "Юпитер",
@@ -1386,7 +1449,7 @@
     },
     {
       "id": "cartm38",
-      "num": "50",
+      "num": "52",
       "page": "164",
       "fr": "Imagine del Dio creatore degli Egizi e di Giove",
       "ru": "Образ бога-творца египтян и Юпитера",
@@ -1415,7 +1478,7 @@
     },
     {
       "id": "cartm39",
-      "num": "51",
+      "num": "53",
       "page": "167",
       "fr": "Imagine di Giove, dio degli dei degli Antichi",
       "ru": "Образ Юпитера, бога богов древних",
@@ -1443,7 +1506,7 @@
     },
     {
       "id": "cartm40",
-      "num": "52",
+      "num": "54",
       "page": "169",
       "fr": "Imagine di Giove fulgorante contro gli spergiuri",
       "ru": "Образ громовержца Юпитера против клятвопреступников",
@@ -1471,7 +1534,7 @@
     },
     {
       "id": "cartm41",
-      "num": "53",
+      "num": "55",
       "page": "171",
       "fr": "Imagine della Fede, significata per il dio Fidio",
       "ru": "Образ Верности, означенной богом Фидием",
@@ -1499,7 +1562,7 @@
     },
     {
       "id": "cartm42",
-      "num": "54",
+      "num": "56",
       "page": "173",
       "fr": "Imagine del dio Fidio, custode della fedeltà di Giove",
       "ru": "Образ бога Фидия, хранителя верности Юпитера",
@@ -1527,7 +1590,7 @@
     },
     {
       "id": "cartm43",
-      "num": "55",
+      "num": "57",
       "page": "175",
       "fr": "Imagine di Giove circondato dalle tre Grazie",
       "ru": "Образ Юпитера в окружении трёх Граций",
@@ -1555,7 +1618,7 @@
     },
     {
       "id": "cartm44",
-      "num": "56",
+      "num": "58",
       "page": "177",
       "fr": "Imagine di Giove col Fulmine e con l'Asta",
       "ru": "Образ Юпитера с Молнией и Копьём",
@@ -1583,7 +1646,7 @@
     },
     {
       "id": "cartm45",
-      "num": "57",
+      "num": "59",
       "page": "179",
       "fr": "Imagine di Giove fulgorante, apportatore di piogge",
       "ru": "Образ громовержца Юпитера, подателя дождей",
@@ -1613,7 +1676,7 @@
     },
     {
       "id": "cartm46",
-      "num": "58",
+      "num": "60",
       "page": "183",
       "fr": "Imagine dell'oracolo di Giove Hammonio dei Trogloditi",
       "ru": "Образ оракула Юпитера Аммона у троглодитов",
@@ -1641,7 +1704,7 @@
     },
     {
       "id": "cartm47",
-      "num": "59",
+      "num": "61",
       "page": "185",
       "fr": "Imagine di Giove Hammonio degli Arcadi e degli Egizi",
       "ru": "Образ Юпитера Аммона у аркадцев и египтян",
@@ -1672,7 +1735,7 @@
     },
     {
       "id": "cart5",
-      "num": "60",
+      "num": "62",
       "page": "190",
       "fr": "Giunone",
       "ru": "Юнона",
@@ -1700,7 +1763,7 @@
     },
     {
       "id": "cartm48",
-      "num": "61",
+      "num": "63",
       "page": "194",
       "fr": "Imagine di Iride, messaggera di Giunone",
       "ru": "Образ Ириды, вестницы Юноны",
@@ -1728,7 +1791,7 @@
     },
     {
       "id": "cartm49",
-      "num": "62",
+      "num": "64",
       "page": "196",
       "fr": "Imagine di Giunone Regina degli Dei",
       "ru": "Образ Юноны, царицы богов",
@@ -1756,7 +1819,7 @@
     },
     {
       "id": "cartm50",
-      "num": "63",
+      "num": "65",
       "page": "198",
       "fr": "Imagine di Castore e Polluce",
       "ru": "Образ Кастора и Поллукса",
@@ -1787,7 +1850,7 @@
     },
     {
       "id": "cartm51",
-      "num": "64",
+      "num": "66",
       "page": "203",
       "fr": "Imagine di Giunone Argiva e Giunone salvatrice",
       "ru": "Образ Юноны Аргивской и Юноны-Спасительницы",
@@ -1815,7 +1878,7 @@
     },
     {
       "id": "cartm52",
-      "num": "65",
+      "num": "67",
       "page": "205",
       "fr": "Imagine di Giunone protettrice del matrimonio",
       "ru": "Образ Юноны, покровительницы брака",
@@ -1845,7 +1908,7 @@
     },
     {
       "id": "cartm53",
-      "num": "66",
+      "num": "68",
       "page": "209",
       "fr": "Imagine d'Imeneo, dio del matrimonio",
       "ru": "Образ Гименея, бога брака",
@@ -1876,7 +1939,7 @@
     },
     {
       "id": "cart6",
-      "num": "67",
+      "num": "69",
       "page": "214",
       "fr": "La Gran Madre",
       "ru": "Великая Матерь (Опа-Берекинфия)",
@@ -1905,7 +1968,7 @@
     },
     {
       "id": "cartm54",
-      "num": "68",
+      "num": "70",
       "page": "219",
       "fr": "Simulacro della dea Cibele, sul suo carro",
       "ru": "Изваяние богини Кибелы на её колеснице",
@@ -1937,7 +2000,7 @@
     },
     {
       "id": "cartm55",
-      "num": "69",
+      "num": "71",
       "page": "225",
       "fr": "Tempio in Roma della dea Vesta",
       "ru": "Храм богини Весты в Риме",
@@ -1965,7 +2028,7 @@
     },
     {
       "id": "cartm56",
-      "num": "70",
+      "num": "72",
       "page": "227",
       "fr": "Imagine di Cerere Siciliana",
       "ru": "Образ Цереры Сицилийской",
@@ -1997,7 +2060,7 @@
     },
     {
       "id": "cartm57",
-      "num": "71",
+      "num": "73",
       "page": "233",
       "fr": "Statua di Cerere nera in Arcadia",
       "ru": "Статуя чёрной Цереры в Аркадии",
@@ -2026,7 +2089,7 @@
     },
     {
       "id": "cartm58",
-      "num": "72",
+      "num": "74",
       "page": "236",
       "fr": "Imagine di Pomona, dea degli Orti",
       "ru": "Образ Помоны, богини садов",
@@ -2054,7 +2117,7 @@
     },
     {
       "id": "cartm59",
-      "num": "73",
+      "num": "75",
       "page": "238",
       "fr": "Imagine della dea Proserpina e della dea Bona",
       "ru": "Образ богини Прозерпины и богини Бона",
@@ -2083,7 +2146,7 @@
     },
     {
       "id": "cartm60",
-      "num": "74",
+      "num": "76",
       "page": "241",
       "fr": "Imagine di Glauco, dio marino",
       "ru": "Образ Главка, морского бога",
@@ -2111,7 +2174,7 @@
     },
     {
       "id": "cartm61",
-      "num": "75",
+      "num": "77",
       "page": "243",
       "fr": "Imagine dei Tritoni, delle Nereidi e di Galatea",
       "ru": "Образ Тритонов, Нереид и Галатеи",
@@ -2140,7 +2203,7 @@
     },
     {
       "id": "cartm62",
-      "num": "76",
+      "num": "78",
       "page": "246",
       "fr": "Imagine delle Sirene Partenope, Leucosia e Ligia",
       "ru": "Образ сирен Партенопы, Левкосии и Лигии",
@@ -2168,7 +2231,7 @@
     },
     {
       "id": "cartm63",
-      "num": "77",
+      "num": "79",
       "page": "248",
       "fr": "Imagine di Scilla, scoglio siciliano",
       "ru": "Образ Сциллы, сицилийской скалы",
@@ -2196,7 +2259,7 @@
     },
     {
       "id": "cart7",
-      "num": "78",
+      "num": "80",
       "page": "250",
       "fr": "Nettuno",
       "ru": "Нептун",
@@ -2223,7 +2286,7 @@
     },
     {
       "id": "cartm64",
-      "num": "79",
+      "num": "81",
       "page": "253",
       "fr": "Imagine di Nettuno secondo Filostrato",
       "ru": "Образ Нептуна согласно Филострату",
@@ -2252,7 +2315,7 @@
     },
     {
       "id": "cartm65",
-      "num": "80",
+      "num": "82",
       "page": "256",
       "fr": "Imagine di Eurinome e di Derceto, dee marine",
       "ru": "Образ Евриномы и Дерцето, морских богинь",
@@ -2280,7 +2343,7 @@
     },
     {
       "id": "cartm66",
-      "num": "81",
+      "num": "83",
       "page": "258",
       "fr": "Imagini di Borea, Austro, Euro e Zefiro, i quattro venti",
       "ru": "Образы Борея, Австра, Эвра и Зефира, четырёх ветров",
@@ -2308,7 +2371,7 @@
     },
     {
       "id": "cartm67",
-      "num": "82",
+      "num": "84",
       "page": "260",
       "fr": "Imagini dei fiumi Cefiso e Po",
       "ru": "Образы рек Кефис и По",
@@ -2336,7 +2399,7 @@
     },
     {
       "id": "cartm68",
-      "num": "83",
+      "num": "85",
       "page": "262",
       "fr": "Imagine del Tevere, che mostra l'abbondanza",
       "ru": "Образ Тибра, являющего изобилие",
@@ -2364,7 +2427,7 @@
     },
     {
       "id": "cartm69",
-      "num": "84",
+      "num": "86",
       "page": "264",
       "fr": "Imagine del fiume Nilo, seduto sulla Sfinge",
       "ru": "Образ реки Нил, восседающей на Сфинксе",
@@ -2392,7 +2455,7 @@
     },
     {
       "id": "cartb18",
-      "num": "85",
+      "num": "87",
       "page": "266",
       "fr": "Vertunno, con Pomona",
       "ru": "Вертумн и Помона",
@@ -2423,7 +2486,7 @@
     },
     {
       "id": "cart8",
-      "num": "86",
+      "num": "88",
       "page": "273",
       "fr": "Plutone",
       "ru": "Плутон",
@@ -2454,7 +2517,7 @@
     },
     {
       "id": "cartm70",
-      "num": "87",
+      "num": "89",
       "page": "280",
       "fr": "Imagini di Aletto, Tisifone e Megera, le tre Furie",
       "ru": "Образы Алекто, Тисифоны и Мегеры, трёх Фурий",
@@ -2483,7 +2546,7 @@
     },
     {
       "id": "cartm71",
-      "num": "88",
+      "num": "90",
       "page": "283",
       "fr": "Imagine delle Arpie, Streghe e Lamie",
       "ru": "Образ Гарпий, Ведьм и Ламий",
@@ -2512,7 +2575,7 @@
     },
     {
       "id": "cartm72",
-      "num": "89",
+      "num": "91",
       "page": "286",
       "fr": "Imagine della Sfinge Tebana e della Chimera Licia",
       "ru": "Образ Сфинкс Фиванской и Химеры Ликийской",
@@ -2541,7 +2604,7 @@
     },
     {
       "id": "cartm73",
-      "num": "90",
+      "num": "92",
       "page": "289",
       "fr": "Imagini di Cloto, Lachesi e Atropo, le tre Parche",
       "ru": "Образы Клото, Лахесис и Атропос, трёх Парок",
@@ -2570,7 +2633,7 @@
     },
     {
       "id": "cartm74",
-      "num": "91",
+      "num": "93",
       "page": "292",
       "fr": "Imagine della Necessità e delle tre Parche",
       "ru": "Образ Необходимости и трёх Парок",
@@ -2598,7 +2661,7 @@
     },
     {
       "id": "cartm75",
-      "num": "92",
+      "num": "94",
       "page": "294",
       "fr": "Imagini delle tre Parche trovate in Stiria",
       "ru": "Образы трёх Парок, найденные в Штирии",
@@ -2626,7 +2689,7 @@
     },
     {
       "id": "cartm76",
-      "num": "93",
+      "num": "95",
       "page": "296",
       "fr": "Imagine di Caronte, nocchiero infernale",
       "ru": "Образ Харона, адского перевозчика",
@@ -2655,7 +2718,7 @@
     },
     {
       "id": "cart9",
-      "num": "94",
+      "num": "96",
       "page": "299",
       "fr": "Mercurio",
       "ru": "Меркурий",
@@ -2684,7 +2747,7 @@
     },
     {
       "id": "cartm77",
-      "num": "95",
+      "num": "97",
       "page": "304",
       "fr": "Imagine della Pace e dei suoi geroglifici",
       "ru": "Образ Мира и его иероглифов",
@@ -2712,7 +2775,7 @@
     },
     {
       "id": "cartm78",
-      "num": "96",
+      "num": "98",
       "page": "306",
       "fr": "Imagini della Concordia e della Fede",
       "ru": "Образы Согласия и Верности",
@@ -2740,7 +2803,7 @@
     },
     {
       "id": "cartm79",
-      "num": "97",
+      "num": "99",
       "page": "308",
       "fr": "Imagine di Mercurio inventore delle Lettere",
       "ru": "Образ Меркурия, изобретателя Письменности",
@@ -2768,7 +2831,7 @@
     },
     {
       "id": "cartm80",
-      "num": "98",
+      "num": "100",
       "page": "310",
       "fr": "Statue di Mercurio, dette Hermi",
       "ru": "Статуи Меркурия, называемые Гермами",
@@ -2810,7 +2873,7 @@
     },
     {
       "id": "cartm81",
-      "num": "99",
+      "num": "101",
       "page": "326",
       "fr": "Imagine d'Ercole armato e banchettante",
       "ru": "Образ вооружённого и пирующего Геркулеса",
@@ -2841,7 +2904,7 @@
     },
     {
       "id": "cartm82",
-      "num": "100",
+      "num": "102",
       "page": "331",
       "fr": "Apollo ed Ercole contendono per il Tripode",
       "ru": "Аполлон и Геркулес спорят из-за треножника",
@@ -2869,7 +2932,7 @@
     },
     {
       "id": "cart10",
-      "num": "101",
+      "num": "103",
       "page": "333",
       "fr": "Minerva (con Mercurio)",
       "ru": "Минерва (вместе с Меркурием)",
@@ -2896,7 +2959,7 @@
     },
     {
       "id": "cartm83",
-      "num": "102",
+      "num": "104",
       "page": "336",
       "fr": "Imagine di Vulcano che apre il capo a Giove",
       "ru": "Образ Вулкана, рассекающего голову Юпитеру",
@@ -2925,7 +2988,7 @@
     },
     {
       "id": "cartm84",
-      "num": "103",
+      "num": "105",
       "page": "339",
       "fr": "Imagine di Bellona, dea della guerra",
       "ru": "Образ Беллоны, богини войны",
@@ -2954,7 +3017,7 @@
     },
     {
       "id": "cartm85",
-      "num": "104",
+      "num": "106",
       "page": "342",
       "fr": "Imagine di Minerva inventrice del filare e tessere",
       "ru": "Образ Минервы, изобретательницы прядения и ткачества",
@@ -2982,7 +3045,7 @@
     },
     {
       "id": "cartm86",
-      "num": "105",
+      "num": "107",
       "page": "344",
       "fr": "Imagine della Virtù e dell'Onore",
       "ru": "Образ Доблести и Чести",
@@ -3010,7 +3073,7 @@
     },
     {
       "id": "cartm87",
-      "num": "106",
+      "num": "108",
       "page": "346",
       "fr": "Imagini della dea Volupia",
       "ru": "Образы богини Волюпии",
@@ -3039,7 +3102,7 @@
     },
     {
       "id": "cartm88",
-      "num": "107",
+      "num": "109",
       "page": "349",
       "fr": "Imagine della dea Angerona e del dio del Silenzio",
       "ru": "Образ богини Ангероны и бога Молчания",
@@ -3094,7 +3157,7 @@
     },
     {
       "id": "cart11",
-      "num": "108",
+      "num": "110",
       "page": "378",
       "fr": "Baccho",
       "ru": "Вакх",
@@ -3120,7 +3183,7 @@
     },
     {
       "id": "cartm89",
-      "num": "109",
+      "num": "111",
       "page": "380",
       "fr": "Imagine di Como, dio dei Conviti",
       "ru": "Образ Кома, бога пиров",
@@ -3149,7 +3212,7 @@
     },
     {
       "id": "cartm90",
-      "num": "110",
+      "num": "112",
       "page": "383",
       "fr": "Imagine di Bacco secondo Macrobio",
       "ru": "Образ Вакха согласно Макробию",
@@ -3178,7 +3241,7 @@
     },
     {
       "id": "cartm91",
-      "num": "111",
+      "num": "113",
       "page": "386",
       "fr": "Imagini di Bacco e della pompa bacchica",
       "ru": "Образы Вакха и вакхического шествия",
@@ -3207,7 +3270,7 @@
     },
     {
       "id": "cartm92",
-      "num": "112",
+      "num": "114",
       "page": "389",
       "fr": "Imagini di Bacco trionfatore sull'elefante",
       "ru": "Образы Вакха-триумфатора на слоне",
@@ -3236,7 +3299,7 @@
     },
     {
       "id": "cartm93",
-      "num": "113",
+      "num": "115",
       "page": "392",
       "fr": "Imagine della Nave di Bacco",
       "ru": "Образ Корабля Вакха",
@@ -3266,7 +3329,7 @@
     },
     {
       "id": "cartm94",
-      "num": "114",
+      "num": "116",
       "page": "396",
       "fr": "Imagine di Horo, dio degli Egizi, Priapo e Bacco",
       "ru": "Образ Гора, бога египтян, Приапа и Вакха",
@@ -3294,7 +3357,7 @@
     },
     {
       "id": "cartm95",
-      "num": "115",
+      "num": "117",
       "page": "398",
       "fr": "Imagini di Tifone e di Horo",
       "ru": "Образы Тифона и Гора",
@@ -3325,7 +3388,7 @@
     },
     {
       "id": "cartm96",
-      "num": "116",
+      "num": "118",
       "page": "403",
       "fr": "Imagine di Priapo, dio degli Orti",
       "ru": "Образ Приапа, бога садов",
@@ -3352,7 +3415,7 @@
     },
     {
       "id": "cartm97",
-      "num": "117",
+      "num": "119",
       "page": "404",
       "fr": "Imagini degli dei Lari e Penati",
       "ru": "Образы богов Ларов и Пенатов",
@@ -3380,7 +3443,7 @@
     },
     {
       "id": "cartm98",
-      "num": "118",
+      "num": "120",
       "page": "406",
       "fr": "Imagini del Genio buono e cattivo",
       "ru": "Образы доброго и злого Гения",
@@ -3413,7 +3476,7 @@
     },
     {
       "id": "cart12",
-      "num": "119",
+      "num": "121",
       "page": "413",
       "fr": "Fortuna",
       "ru": "Фортуна",
@@ -3439,7 +3502,7 @@
     },
     {
       "id": "cartm99",
-      "num": "120",
+      "num": "122",
       "page": "415",
       "fr": "Imagini della Fortuna lieta e triste",
       "ru": "Образы радостной и печальной Фортуны",
@@ -3467,7 +3530,7 @@
     },
     {
       "id": "cartb20",
-      "num": "121",
+      "num": "123",
       "page": "417",
       "fr": "Nemesi",
       "ru": "Немезида",
@@ -3493,7 +3556,7 @@
     },
     {
       "id": "cartb21",
-      "num": "122",
+      "num": "124",
       "page": "419",
       "fr": "Giustitia",
       "ru": "Справедливость",
@@ -3519,7 +3582,7 @@
     },
     {
       "id": "cartb22",
-      "num": "123",
+      "num": "125",
       "page": "421",
       "fr": "La Calunnia d'Apelle",
       "ru": "«Клевета» Апеллеса",
@@ -3545,7 +3608,7 @@
     },
     {
       "id": "cartm100",
-      "num": "124",
+      "num": "126",
       "page": "423",
       "fr": "Imagini dell'Invidia",
       "ru": "Образы Зависти",
@@ -3573,7 +3636,7 @@
     },
     {
       "id": "cartm101",
-      "num": "125",
+      "num": "127",
       "page": "425",
       "fr": "Imagine di Momo, dio della riprensione",
       "ru": "Образ Мома, бога порицания",
@@ -3601,7 +3664,7 @@
     },
     {
       "id": "cartm102",
-      "num": "126",
+      "num": "128",
       "page": "427",
       "fr": "Imagine della Frode secondo Dante",
       "ru": "Образ Обмана по Данте",
@@ -3629,7 +3692,7 @@
     },
     {
       "id": "cartm103",
-      "num": "127",
+      "num": "129",
       "page": "429",
       "fr": "Geroglifico della buona Fortuna e dell'Occasione",
       "ru": "Иероглиф доброй Фортуны и Случая",
@@ -3657,7 +3720,7 @@
     },
     {
       "id": "cartm104",
-      "num": "128",
+      "num": "130",
       "page": "431",
       "fr": "Imagine della Fortuna presso gli Sciti",
       "ru": "Образ Фортуны у скифов",
@@ -3686,7 +3749,7 @@
     },
     {
       "id": "cartm105",
-      "num": "129",
+      "num": "131",
       "page": "434",
       "fr": "Imagine della Fortuna in Egira",
       "ru": "Образ Фортуны в Эгире",
@@ -3715,7 +3778,7 @@
     },
     {
       "id": "cartm106",
-      "num": "130",
+      "num": "132",
       "page": "437",
       "fr": "Imagine della Fortuna a cavallo",
       "ru": "Образ Фортуны верхом на коне",
@@ -3743,7 +3806,7 @@
     },
     {
       "id": "cartm107",
-      "num": "131",
+      "num": "133",
       "page": "439",
       "fr": "Imagine del buon Evento e del Favore instabile",
       "ru": "Образ доброго Случая и непостоянной Благосклонности",
@@ -3771,7 +3834,7 @@
     },
     {
       "id": "cartb19",
-      "num": "132",
+      "num": "134",
       "page": "441",
       "fr": "Macaria, ò Felicità",
       "ru": "Макария, или Счастье",
@@ -3801,7 +3864,7 @@
     },
     {
       "id": "cart13",
-      "num": "133",
+      "num": "135",
       "page": "447",
       "fr": "Cupido (Eroto & Anterote)",
       "ru": "Купидон (Эрот и Антерот)",
@@ -3833,7 +3896,7 @@
     },
     {
       "id": "cartm108",
-      "num": "134",
+      "num": "136",
       "page": "455",
       "fr": "Trionfo d'Amore",
       "ru": "Триумф Амура",
@@ -3863,7 +3926,7 @@
     },
     {
       "id": "cartm109",
-      "num": "135",
+      "num": "137",
       "page": "459",
       "fr": "Imagini d'Amore e dei suoi effetti",
       "ru": "Образы Амура и его воздействий",
@@ -3891,7 +3954,7 @@
     },
     {
       "id": "cartm110",
-      "num": "136",
+      "num": "138",
       "page": "461",
       "fr": "Imagine di Pane e Cupido",
       "ru": "Образ Пана и Амура",
@@ -3925,7 +3988,7 @@
     },
     {
       "id": "cart14",
-      "num": "137",
+      "num": "139",
       "page": "469",
       "fr": "Venere",
       "ru": "Венера",
@@ -3951,7 +4014,7 @@
     },
     {
       "id": "cartm111",
-      "num": "138",
+      "num": "140",
       "page": "471",
       "fr": "Tempio di Venere in Pafo",
       "ru": "Храм Венеры в Пафосе",
@@ -3979,7 +4042,7 @@
     },
     {
       "id": "cartm112",
-      "num": "139",
+      "num": "141",
       "page": "473",
       "fr": "Imagine di Venere tirata in carro dai Cigni",
       "ru": "Образ Венеры на колеснице, влекомой лебедями",
@@ -4008,7 +4071,7 @@
     },
     {
       "id": "cartm113",
-      "num": "140",
+      "num": "142",
       "page": "476",
       "fr": "Imagine di Venere con gli Amorini e le Grazie",
       "ru": "Образ Венеры с Амурами и Грациями",
@@ -4036,7 +4099,7 @@
     },
     {
       "id": "cartm114",
-      "num": "141",
+      "num": "143",
       "page": "478",
       "fr": "Imagini di Venere, Cupido, del Giogo e del Capro",
       "ru": "Образы Венеры, Купидона, Ярма и Козла",
@@ -4065,7 +4128,7 @@
     },
     {
       "id": "cartm115",
-      "num": "142",
+      "num": "144",
       "page": "481",
       "fr": "Imagine di Venere armata, vittrice e in catene",
       "ru": "Образ вооружённой, победоносной и закованной Венеры",
@@ -4096,7 +4159,7 @@
     },
     {
       "id": "cartm116",
-      "num": "143",
+      "num": "145",
       "page": "486",
       "fr": "Imagine di Venere maschio e femmina",
       "ru": "Образ Венеры мужской и женской",
@@ -4128,7 +4191,7 @@
     },
     {
       "id": "cartb23",
-      "num": "144",
+      "num": "146",
       "page": "492",
       "fr": "Le Hore",
       "ru": "Горы (Часы года)",
@@ -4154,7 +4217,7 @@
     },
     {
       "id": "cart15",
-      "num": "145",
+      "num": "147",
       "page": "494",
       "fr": "Le Gratie",
       "ru": "Грации",
@@ -4180,7 +4243,7 @@
     },
     {
       "id": "cartm117",
-      "num": "146",
+      "num": "148",
       "page": "496",
       "fr": "Imagine delle Grazie guidate da Mercurio",
       "ru": "Образ Граций, ведомых Меркурием",
@@ -4210,7 +4273,7 @@
     },
     {
       "id": "carta46",
-      "num": "147",
+      "num": "149",
       "page": "500",
       "fr": "Annotationi di Lorenzo Pignoria: proemio (I)",
       "ru": "Примечания Лоренцо Пиньории: вступление (I)",
@@ -4238,7 +4301,7 @@
     },
     {
       "id": "carta47",
-      "num": "148",
+      "num": "150",
       "page": "501",
       "fr": "Annotationi di Lorenzo Pignoria: proemio (II) — statue, altari, Demogorgone",
       "ru": "Примечания Лоренцо Пиньории: вступление (II) — статуи, алтари, Демогоргон",
@@ -4266,7 +4329,7 @@
     },
     {
       "id": "carta48",
-      "num": "149",
+      "num": "151",
       "page": "502",
       "fr": "Annotationi di Lorenzo Pignoria: proemio (III) — pietre unte, Saturno, preghiere",
       "ru": "Примечания Лоренцо Пиньории: вступление (III) — умащённые камни, Сатурн, молитвы",
@@ -4294,7 +4357,7 @@
     },
     {
       "id": "carta49",
-      "num": "150",
+      "num": "152",
       "page": "503",
       "fr": "Annotationi di Lorenzo Pignoria: proemio (IV) — Stagioni, Tempio di Giano, Hebe, Mitra",
       "ru": "Примечания Лоренцо Пиньории: вступление (IV) — времена года, храм Януса, Геба, Митра",
@@ -4322,7 +4385,7 @@
     },
     {
       "id": "carta1",
-      "num": "151",
+      "num": "153",
       "page": "504",
       "fr": "Il Fato sotto tre Imagini di Donna",
       "ru": "Судьба под образом трёх Женщин (Парки)",
@@ -4352,7 +4415,7 @@
     },
     {
       "id": "carta2",
-      "num": "152",
+      "num": "154",
       "page": "506",
       "fr": "Esculapio",
       "ru": "Эскулап",
@@ -4381,7 +4444,7 @@
     },
     {
       "id": "cartf1",
-      "num": "153",
+      "num": "155",
       "page": "507",
       "fr": "Lucifero, compagno dell'Aurora",
       "ru": "Люцифер, спутник Авроры",
@@ -4408,7 +4471,7 @@
     },
     {
       "id": "cartf2",
-      "num": "154",
+      "num": "156",
       "page": "508",
       "fr": "Febo (il Sole) sul carro",
       "ru": "Феб (Солнце) на колеснице",
@@ -4435,7 +4498,7 @@
     },
     {
       "id": "cartf3",
-      "num": "155",
+      "num": "157",
       "page": "509",
       "fr": "Giunone nel Cameo",
       "ru": "Юнона на камее",
@@ -4463,7 +4526,7 @@
     },
     {
       "id": "carta3",
-      "num": "156",
+      "num": "158",
       "page": "511",
       "fr": "Iside in un Cameo",
       "ru": "Изида на камее",
@@ -4491,7 +4554,7 @@
     },
     {
       "id": "carta4",
-      "num": "157",
+      "num": "159",
       "page": "513",
       "fr": "Satiri in lotta",
       "ru": "Борющиеся сатиры",
@@ -4518,7 +4581,7 @@
     },
     {
       "id": "cartf4",
-      "num": "158",
+      "num": "160",
       "page": "514",
       "fr": "L'Honore, maschio e femina",
       "ru": "Честь — в мужском и женском облике",
@@ -4546,7 +4609,7 @@
     },
     {
       "id": "carta5",
-      "num": "159",
+      "num": "161",
       "page": "516",
       "fr": "Pallade",
       "ru": "Паллада",
@@ -4573,7 +4636,7 @@
     },
     {
       "id": "carta6",
-      "num": "160",
+      "num": "162",
       "page": "517",
       "fr": "La violenza d'Aiace Oileo",
       "ru": "Неистовство Аякса Оилеева",
@@ -4602,7 +4665,7 @@
     },
     {
       "id": "carta28",
-      "num": "161",
+      "num": "163",
       "page": "520",
       "fr": "L'Imagine della Libertà",
       "ru": "Образ Свободы",
@@ -4629,7 +4692,7 @@
     },
     {
       "id": "carta29",
-      "num": "162",
+      "num": "164",
       "page": "520",
       "fr": "Il berretto degli schiavi (nota a Gellio, continua carta28)",
       "ru": "Шапка раба (заметка к Геллию, продолжение carta28)",
@@ -4658,7 +4721,7 @@
     },
     {
       "id": "carta7",
-      "num": "163",
+      "num": "165",
       "page": "523",
       "fr": "Cerere (la Madre Idea)",
       "ru": "Церера (Великая Мать)",
@@ -4690,7 +4753,7 @@
     },
     {
       "id": "carta8",
-      "num": "164",
+      "num": "166",
       "page": "529",
       "fr": "Palemone e il delfino",
       "ru": "Палемон и дельфин",
@@ -4718,7 +4781,7 @@
     },
     {
       "id": "carta30",
-      "num": "165",
+      "num": "167",
       "page": "531",
       "fr": "Dagon",
       "ru": "Дагон",
@@ -4746,7 +4809,7 @@
     },
     {
       "id": "carta9",
-      "num": "166",
+      "num": "168",
       "page": "533",
       "fr": "Le tre Parche",
       "ru": "Три Парки",
@@ -4776,7 +4839,7 @@
     },
     {
       "id": "carta31",
-      "num": "167",
+      "num": "169",
       "page": "535",
       "fr": "Mercurio e Pegaso",
       "ru": "Меркурий и Пегас",
@@ -4804,7 +4867,7 @@
     },
     {
       "id": "carta10",
-      "num": "168",
+      "num": "170",
       "page": "537",
       "fr": "Termine (il dio Termine)",
       "ru": "Терм (бог границ)",
@@ -4831,7 +4894,7 @@
     },
     {
       "id": "carta11",
-      "num": "169",
+      "num": "171",
       "page": "538",
       "fr": "Hercole in abito di Mercurio",
       "ru": "Геркулес в облике Меркурия",
@@ -4860,7 +4923,7 @@
     },
     {
       "id": "carta32",
-      "num": "170",
+      "num": "172",
       "page": "541",
       "fr": "Due fatiche di Hercole",
       "ru": "Два подвига Геркулеса",
@@ -4887,7 +4950,7 @@
     },
     {
       "id": "carta33",
-      "num": "171",
+      "num": "173",
       "page": "542",
       "fr": "Semo Sanco",
       "ru": "Семон Санк",
@@ -4915,7 +4978,7 @@
     },
     {
       "id": "carta13",
-      "num": "172",
+      "num": "174",
       "page": "544",
       "fr": "Hermathena (Minerva e Mercurio)",
       "ru": "Гермафена (Минерва и Меркурий)",
@@ -4946,7 +5009,7 @@
     },
     {
       "id": "carta12",
-      "num": "173",
+      "num": "175",
       "page": "545",
       "fr": "Minerva con l'egida di Gorgone",
       "ru": "Минерва с эгидой Горгоны",
@@ -4974,7 +5037,7 @@
     },
     {
       "id": "carta34",
-      "num": "174",
+      "num": "176",
       "page": "546",
       "fr": "Ercole e Mercurio insieme (Hermeracle)",
       "ru": "Геркулес и Меркурий вместе (Гермеракл)",
@@ -5002,7 +5065,7 @@
     },
     {
       "id": "carta35",
-      "num": "175",
+      "num": "177",
       "page": "547",
       "fr": "Minerva e la nave Argo",
       "ru": "Минерва и корабль Арго",
@@ -5030,7 +5093,7 @@
     },
     {
       "id": "carta36",
-      "num": "176",
+      "num": "178",
       "page": "549",
       "fr": "Marte Graditivo e Marte vincitore",
       "ru": "Марс Градив и Марс-победитель",
@@ -5058,7 +5121,7 @@
     },
     {
       "id": "carta37",
-      "num": "177",
+      "num": "179",
       "page": "551",
       "fr": "Le insegne militari romane",
       "ru": "Римские военные знамёна",
@@ -5085,7 +5148,7 @@
     },
     {
       "id": "carta14",
-      "num": "178",
+      "num": "180",
       "page": "552",
       "fr": "Corteo bacchico",
       "ru": "Вакхическое шествие",
@@ -5112,7 +5175,7 @@
     },
     {
       "id": "carta15",
-      "num": "179",
+      "num": "181",
       "page": "553",
       "fr": "Pompa bacchica tratta da un diaspro (Bagarris)",
       "ru": "Вакхическое шествие с яшмы Баггариса",
@@ -5140,7 +5203,7 @@
     },
     {
       "id": "carta38",
-      "num": "180",
+      "num": "182",
       "page": "555",
       "fr": "Il Genio del popolo Romano",
       "ru": "Гений римского народа",
@@ -5167,7 +5230,7 @@
     },
     {
       "id": "carta16",
-      "num": "181",
+      "num": "183",
       "page": "556",
       "fr": "La Patera e il Corno del Genio",
       "ru": "Патера и рог Гения",
@@ -5194,7 +5257,7 @@
     },
     {
       "id": "carta17",
-      "num": "182",
+      "num": "184",
       "page": "557",
       "fr": "Il Genio di Antiochia",
       "ru": "Гений Антиохии",
@@ -5221,7 +5284,7 @@
     },
     {
       "id": "carta39",
-      "num": "183",
+      "num": "185",
       "page": "558",
       "fr": "Apollo citaredo (Apolloni Sancto)",
       "ru": "Аполлон-кифаред («Святому Аполлону»)",
@@ -5248,7 +5311,7 @@
     },
     {
       "id": "carta18",
-      "num": "184",
+      "num": "186",
       "page": "559",
       "fr": "Genio e Fortuna",
       "ru": "Гений и Фортуна",
@@ -5278,7 +5341,7 @@
     },
     {
       "id": "carta19",
-      "num": "185",
+      "num": "187",
       "page": "563",
       "fr": "La Fortuna sulle ali di un Cigno",
       "ru": "Фортуна на крыльях Лебедя",
@@ -5305,7 +5368,7 @@
     },
     {
       "id": "carta40",
-      "num": "186",
+      "num": "188",
       "page": "564",
       "fr": "Eroto e Anterote (il carro della Madre)",
       "ru": "Эрот и Антэрот (колесница Матери)",
@@ -5332,7 +5395,7 @@
     },
     {
       "id": "carta20",
-      "num": "187",
+      "num": "189",
       "page": "565",
       "fr": "I due Amori e la capra (pensiero d'Ausonio)",
       "ru": "Два Амура и коза (мысль Авзония)",
@@ -5359,7 +5422,7 @@
     },
     {
       "id": "carta41",
-      "num": "188",
+      "num": "190",
       "page": "566",
       "fr": "Il tempio di Venere a Pafo",
       "ru": "Храм Венеры в Пафосе",
@@ -5386,7 +5449,7 @@
     },
     {
       "id": "carta21",
-      "num": "189",
+      "num": "191",
       "page": "567",
       "fr": "Figura fuori ordine (tra il 52 e il 53)",
       "ru": "Фигура не по порядку (между 52-м и 53-м)",
@@ -5414,7 +5477,7 @@
     },
     {
       "id": "carta22",
-      "num": "190",
+      "num": "192",
       "page": "569",
       "fr": "Giano giovane",
       "ru": "Молодой Янус",
@@ -5442,7 +5505,7 @@
     },
     {
       "id": "carta23",
-      "num": "191",
+      "num": "193",
       "page": "571",
       "fr": "Il vaso di Giustitia",
       "ru": "Ваза с образом Справедливости",
@@ -5470,7 +5533,7 @@
     },
     {
       "id": "carta24",
-      "num": "192",
+      "num": "194",
       "page": "573",
       "fr": "Statua col sacerdote e le sue insegne",
       "ru": "Статуя священника с его регалиями",
@@ -5497,7 +5560,7 @@
     },
     {
       "id": "carta42",
-      "num": "193",
+      "num": "195",
       "page": "574",
       "fr": "Vaso antico con rilievi",
       "ru": "Античная ваза с рельефом",
@@ -5525,7 +5588,7 @@
     },
     {
       "id": "carta43",
-      "num": "194",
+      "num": "196",
       "page": "576",
       "fr": "Figura femminile armata",
       "ru": "Вооружённая женская фигура",
@@ -5553,7 +5616,7 @@
     },
     {
       "id": "carta25",
-      "num": "195",
+      "num": "197",
       "page": "578",
       "fr": "La prima Mano Pantea",
       "ru": "Первая Пантеистическая Рука",
@@ -5580,7 +5643,7 @@
     },
     {
       "id": "carta44",
-      "num": "196",
+      "num": "198",
       "page": "579",
       "fr": "La mano simbolica con la lira (quarta Mano Pantea)",
       "ru": "Символическая рука с лирой (четвёртая Пантеистическая рука)",
@@ -5608,7 +5671,7 @@
     },
     {
       "id": "carta26",
-      "num": "197",
+      "num": "199",
       "page": "580",
       "fr": "La seconda Mano Pantea",
       "ru": "Вторая Пантеистическая Рука",
@@ -5635,7 +5698,7 @@
     },
     {
       "id": "carta45",
-      "num": "198",
+      "num": "200",
       "page": "581",
       "fr": "Figura giovanile con bastone (TYXAINI)",
       "ru": "Юношеская фигура с посохом (надпись TYXAINI)",
@@ -5662,7 +5725,7 @@
     },
     {
       "id": "carta27",
-      "num": "199",
+      "num": "201",
       "page": "582",
       "fr": "La terza Mano Pantea",
       "ru": "Третья Пантеистическая Рука",
@@ -5697,7 +5760,7 @@
     },
     {
       "id": "carti1",
-      "num": "200",
+      "num": "202",
       "page": "591",
       "fr": "Homoyoca",
       "ru": "Омойока",
@@ -5725,7 +5788,7 @@
     },
     {
       "id": "carti2",
-      "num": "201",
+      "num": "203",
       "page": "593",
       "fr": "Idolo messicano con offerenti",
       "ru": "Мексиканский идол с дарителями",
@@ -5752,7 +5815,7 @@
     },
     {
       "id": "carti3",
-      "num": "202",
+      "num": "204",
       "page": "594",
       "fr": "Miquitlantecatle e gli dei infernali",
       "ru": "Миктлантекутли и подземные боги",
@@ -5780,7 +5843,7 @@
     },
     {
       "id": "carti4",
-      "num": "203",
+      "num": "205",
       "page": "596",
       "fr": "Vitzliputzli (coppia di divinita)",
       "ru": "Вицлипуцли и спутник",
@@ -5807,7 +5870,7 @@
     },
     {
       "id": "carti5",
-      "num": "204",
+      "num": "206",
       "page": "597",
       "fr": "L'Ambasciatore alato",
       "ru": "Крылатый дух",
@@ -5836,7 +5899,7 @@
     },
     {
       "id": "carti6",
-      "num": "205",
+      "num": "207",
       "page": "600",
       "fr": "Quetzalcoatl",
       "ru": "Кецалькоатль",
@@ -5870,7 +5933,7 @@
     },
     {
       "id": "carti7",
-      "num": "206",
+      "num": "208",
       "page": "608",
       "fr": "Divinita composite \"egizie\" (introduzione al Giapone)",
       "ru": "«Египетские» божества-кентавры (вступление к Японии)",
@@ -5897,7 +5960,7 @@
     },
     {
       "id": "carti8",
-      "num": "207",
+      "num": "209",
       "page": "609",
       "fr": "Canone, figlio di Amida",
       "ru": "Каннон, сын Амиды",
@@ -5924,7 +5987,7 @@
     },
     {
       "id": "carti9",
-      "num": "208",
+      "num": "210",
       "page": "610",
       "fr": "Un'altra statua di Amida presso Meaco",
       "ru": "Ещё одна статуя Амиды близ Меако",
@@ -5951,7 +6014,7 @@
     },
     {
       "id": "carti10",
-      "num": "209",
+      "num": "211",
       "page": "611",
       "fr": "Il dio-lucertola delle lettere",
       "ru": "Бог-ящерица, покровитель учёности",
@@ -5978,7 +6041,7 @@
     },
     {
       "id": "carti11",
-      "num": "210",
+      "num": "212",
       "page": "612",
       "fr": "Una pagoda giapponese",
       "ru": "Японская пагода",
@@ -6006,7 +6069,7 @@
     },
     {
       "id": "carti12",
-      "num": "211",
+      "num": "213",
       "page": "613",
       "fr": "Un castello-tempio giapponese",
       "ru": "Японский замок-храм",
@@ -6033,7 +6096,7 @@
     },
     {
       "id": "carti13",
-      "num": "212",
+      "num": "214",
       "page": "614",
       "fr": "Il grande Idolo giapponese",
       "ru": "Великий японский идол",
@@ -6060,7 +6123,7 @@
     },
     {
       "id": "carti14",
-      "num": "213",
+      "num": "215",
       "page": "615",
       "fr": "Il secondo idoletto d'Aleandro",
       "ru": "Второй идольчик из собрания Алеандро",
@@ -6087,7 +6150,7 @@
     },
     {
       "id": "carti15",
-      "num": "214",
+      "num": "216",
       "page": "616",
       "fr": "Un idolo calvo dal volto ridente (primo idoletto)",
       "ru": "Лысый смеющийся идол (первый идольчик)",
@@ -6114,7 +6177,7 @@
     },
     {
       "id": "carti16",
-      "num": "215",
+      "num": "217",
       "page": "617",
       "fr": "Uno spirito guerriero (secondo idoletto)",
       "ru": "Воинственный дух (второй идольчик)",
@@ -6141,7 +6204,7 @@
     },
     {
       "id": "carti17",
-      "num": "216",
+      "num": "218",
       "page": "618",
       "fr": "Coppia di figure (terzo e quarto idoletto)",
       "ru": "Пара фигур (третий и четвёртый идольчики)",
@@ -6168,7 +6231,7 @@
     },
     {
       "id": "carti18",
-      "num": "217",
+      "num": "219",
       "page": "619",
       "fr": "L'idolo piangente (quinto idoletto)",
       "ru": "Плачущий идол (пятый идольчик)",
@@ -6195,7 +6258,7 @@
     },
     {
       "id": "carti19",
-      "num": "218",
+      "num": "220",
       "page": "620",
       "fr": "Coppia di divinita dalla pelle azzurra (sesto e settimo idoletto)",
       "ru": "Синекожая пара божеств (шестой и седьмой идольчики)",
@@ -6222,7 +6285,7 @@
     },
     {
       "id": "carti20",
-      "num": "219",
+      "num": "221",
       "page": "621",
       "fr": "Divinita a sei braccia (ottavo idoletto)",
       "ru": "Шестирукое божество с луком (восьмой идольчик)",
@@ -6249,7 +6312,7 @@
     },
     {
       "id": "carti21",
-      "num": "220",
+      "num": "222",
       "page": "622",
       "fr": "Figura aureolata dall'aspetto di santo",
       "ru": "Святоподобная фигура с нимбом",
@@ -6276,7 +6339,7 @@
     },
     {
       "id": "carti22",
-      "num": "221",
+      "num": "223",
       "page": "623",
       "fr": "Una dea con un bambino",
       "ru": "Богиня с младенцем на руках",
@@ -6303,7 +6366,7 @@
     },
     {
       "id": "carti23",
-      "num": "222",
+      "num": "224",
       "page": "624",
       "fr": "Un idolo azzurro in un'aureola di fiamme",
       "ru": "Синекожий идол в пламенном нимбе",
@@ -6330,7 +6393,7 @@
     },
     {
       "id": "carti24",
-      "num": "223",
+      "num": "225",
       "page": "625",
       "fr": "Un idolo rosso seduto su una bestia",
       "ru": "Красный идол, сидящий на звере",
@@ -6357,7 +6420,7 @@
     },
     {
       "id": "carti25",
-      "num": "224",
+      "num": "226",
       "page": "626",
       "fr": "Un guerriero su una nuvola",
       "ru": "Воин на облаке с пламенным нимбом",
@@ -6384,7 +6447,7 @@
     },
     {
       "id": "carti26",
-      "num": "225",
+      "num": "227",
       "page": "627",
       "fr": "Spirito alato su un corpo abbattuto",
       "ru": "Крылатый дух, попирающий поверженного",
@@ -6412,7 +6475,7 @@
     },
     {
       "id": "carti27",
-      "num": "226",
+      "num": "228",
       "page": "629",
       "fr": "Piccolo idolo su un vaso (1)",
       "ru": "Маленький идол на вазе (1)",
@@ -6439,7 +6502,7 @@
     },
     {
       "id": "carti28",
-      "num": "227",
+      "num": "229",
       "page": "630",
       "fr": "Piccolo idolo su un vaso (2)",
       "ru": "Маленький идол на вазе (2)",
@@ -6467,7 +6530,7 @@
     },
     {
       "id": "carti29",
-      "num": "228",
+      "num": "230",
       "page": "631",
       "fr": "Piccolo idolo su un vaso (3)",
       "ru": "Маленький идол на вазе (3)",
@@ -6495,7 +6558,7 @@
     },
     {
       "id": "carti30",
-      "num": "229",
+      "num": "231",
       "page": "632",
       "fr": "Piccolo idolo su un vaso (4)",
       "ru": "Маленький идол на вазе (4) — «IL FINE»",
