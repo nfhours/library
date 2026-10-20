@@ -1411,7 +1411,9 @@
       ],
       "scans": [
         "carta1.jpg"
-      ]
+      ],
+      "needsReview": true,
+      "reviewNote": "Image mismatch: uploaded carta1.jpg shows a Mithraic tauroctony relief, not the three-women Fate medal described in the caption. Correct source page not yet located (checked Heidelberg digi.ub.uni-heidelberg.de/diglit/cartari1626 — blocked by Anubis; checked own PDF extensively, inconclusive)."
     },
     {
       "id": "carta2",
@@ -1465,7 +1467,9 @@
       ],
       "scans": [
         "carta3.jpg"
-      ]
+      ],
+      "needsReview": true,
+      "reviewNote": "Caption text is confirmed correct (matches page 472 exactly), but the uploaded image shows three seated figures (woman nursing child, trident-bearing figure, armed warrior) rather than the Isis-with-sistrum cameo the caption describes. Likely the correct Isis image is on a neighboring page; not yet located."
     },
     {
       "id": "carta4",
@@ -1627,7 +1631,9 @@
       ],
       "scans": [
         "carta9.jpg"
-      ]
+      ],
+      "needsReview": true,
+      "reviewNote": "Caption (Diocletian FATIS VICTRICIBVS medal) is duplicated from carta1 and does not match the actual page content (image shows a Three-Graces-style nude relief of three women from behind, discussed alongside Sphinx/Chimera commentary, page 494). The real FATIS VICTRICIBVS / Three Fates plate has not been located."
     },
     {
       "id": "carta10",
@@ -1708,7 +1714,9 @@
       ],
       "scans": [
         "carta12.jpg"
-      ]
+      ],
+      "needsReview": true,
+      "reviewNote": "Image mismatch: now shows three figures with a cornucopia (Harpocrates-themed, originally from the carta13 slot) which still does not match the Gorgon-head/aegis/Domitian caption. The real Gorgon-head image (likely page 504) has not been located; this swap at least fixed carta13, which now correctly shows the Minerva/Hermathena plate."
     },
     {
       "id": "carta13",
@@ -1911,16 +1919,16 @@
       "img": [
         "carta20.jpg"
       ],
-      "caption": "Il pensiero d'Ausonio s'è rappresentato qui sotto; & in vn Cameo il ritratto d'vna Gioia antica, ch'era nello studio di Monsignor Patriarca d'Aquileia, nella quale si vedeuano due Amorini legare alla Croce che Lipsio chiama decussata, & noi diressimo di S. Andrea.",
+      "caption": "Il pensiero d'Ausonio s'è rappresentato qui sotto; & in vn Cameo il ritratto d'vna Gioia antica, ch'era nello studio di Monsignor Patriarca d'Aquileia, nella quale si vedeuano due Amorini legare alla Croce che Lipsio chiama decussata, & noi diressimo di S. Andrea, Venere loro Madre.",
       "text_ru": [
-        "«Мысль Авзония представлена здесь ниже; а на камее — оттиск с древней геммы из собрания монсеньора Патриарха Аквилейского, на которой видны два Амура, привязывающие [козу] к кресту, который Липсий называет decussata, а мы назвали бы Андреевским»."
+        "«Мысль Авзония представлена здесь ниже; а на камее — оттиск с древней геммы из собрания монсеньора Патриарха Аквилейского, на которой видны два Амура, привязывающие [козу] к кресту, который Липсий называет decussata, а мы назвали бы Андреевским, — их мать Венера»."
       ],
       "text_en": [
-        "“The thought of Ausonius is represented below; and on a cameo, the impression of an antique gem from the collection of Monsignor the Patriarch of Aquileia, on which two Loves are seen binding [a goat] to the cross which Lipsius calls decussate, and which we would call a St Andrew's cross.”"
+        "“The thought of Ausonius is represented below; and on a cameo, the impression of an antique gem from the collection of Monsignor the Patriarch of Aquileia, on which two Loves are seen binding [a goat] to the cross which Lipsius calls decussate, and which we would call a St Andrew's cross — Venus being their mother.”"
       ],
       "name_fr": "Les deux Amours et la chèvre (pensée d'Ausone)",
       "text_fr": [
-        "« La pensée d'Ausone est représentée ci-dessous ; et sur un camée, l'empreinte d'une gemme antique de la collection de Monseigneur le Patriarche d'Aquilée, où l'on voit deux Amours liant [une chèvre] à la croix que Lipse appelle décussée, et que nous nommerions croix de Saint-André. »"
+        "« La pensée d'Ausone est représentée ci-dessous ; et sur un camée, l'empreinte d'une gemme antique de la collection de Monseigneur le Patriarche d'Aquilée, où l'on voit deux Amours liant [une chèvre] à la croix que Lipse appelle décussée, et que nous nommerions croix de Saint-André — Vénus étant leur mère. »"
       ],
       "scans": [
         "carta20.jpg"
