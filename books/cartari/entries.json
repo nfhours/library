@@ -2285,7 +2285,9 @@
       ],
       "scans": [
         "carta29.jpg"
-      ]
+      ],
+      "needsReview": true,
+      "reviewNote": "Image was wrongly showing the Liberty/pileus plate (page 481), which actually belongs to carta28 — moved there. The real image for this entry (Juno headdress, per Gellius) has not yet been located."
     },
     {
       "id": "carta30",
