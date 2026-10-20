@@ -6319,8 +6319,60 @@
       ]
     },
     {
+      "id": "cartm_aggiontaclose",
+      "page": "583",
+      "fr": "Chiusura dell'Aggionta: Cibele, Iside, Bacco",
+      "ru": "Заключение Приложения: Кибела, Изида, Вакх",
+      "en": "Close of the Addition: Cybele, Isis, Bacchus",
+      "img": [
+        "cartm_aggiontaclose.jpg"
+      ],
+      "scans": [],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "textOnly": true,
+      "name_fr": "Chiusura dell'Aggionta: Cibele, Iside, Bacco",
+      "caption": "Chiusura dell'Aggionta: Cibele, Iside, Bacco",
+      "text_ru": [
+        "[Заключительная часть письма неизвестного корреспондента Пиньории, рассуждающего о плите, посвящённой неким лицом в знак его благочестия, посвящённым в мистерии одновременно Кибелы, Изиды и Вакха, — полагая, что все три фигуры на ней относятся ко всем трём божествам сразу] ...ибо нет сомнения, что Кибеле принадлежат Сосновая шишка, Флейты и Кимвалы, Вакху — виноградный Серп и Веретро (фаллический символ), который равно может принадлежать и Изиде, судя по тому, что написано об Осирисе. Тирс же, который, полагаю, и есть то, что Ваша Милость называет «sceptrum pinea insignitum» (жезл, увенчанный шишкой), — ибо в древних стенных росписях я наблюдал, что такой же формы Тирсы держат в руках Вакханки. Также Вакху может принадлежать Кифара, которая видна рядом с виноградным серпом. Изиде же явно принадлежит Систр, а возможно, и полумесяц, и бич, который повсеместно изображается в её золотой руке, — золоту же, в свою очередь, принадлежит и черепаха, и потому я считаю совершенно верным толкование, данное этому нашим Санделли, ибо в книге рисунков, принадлежавшей некогда Фульвио Орсини, а ныне хранящейся в Ватиканской Библиотеке, среди прочих изображений статуэток того же Золотого Арпократа есть две, у ног которых видны Пёс и черепаха. Змей же, как известно Вашей Милости, может относиться и к Вакху, и к Изиде, а быть может, и к мистериям Аттиса, как она об этом рассуждает. На этом синьор Алеандро учёно заканчивает [своё рассуждение]."
+      ],
+      "text_en": [
+        "[The closing portion of a letter from an unnamed correspondent to Pignoria, discussing a votive plaque dedicated by some devotee initiated jointly into the mysteries of Cybele, Isis, and Bacchus, arguing that all three figures on it relate to all three deities at once] ...for there is no doubt that the Pine-cone, the Flutes, and the Cymbals belong to Cybele, the vine-pruning Sickle to Bacchus, and the Veretrum [phallic emblem], which may equally belong to Isis, judging by what was written of Osiris. As for the Thyrsus, which I believe is what Your Lordship calls the 'sceptrum pinea insignitum' [a staff crowned with a pine-cone] — for in ancient wall-paintings I have observed Thyrsi of this same shape held in the hands of Bacchantes. The Cithara too may belong to Bacchus, seen as it is beside the vine-sickle. To Isis clearly belongs the Sistrum, and perhaps also the crescent moon and the scourge, which is everywhere shown in her golden hand — and to gold, in turn, belongs also the tortoise, and therefore I hold entirely correct the interpretation given to this by our Sandelli, for in a book of drawings once belonging to Fulvio Orsini, now kept in the Vatican Library, among other depictions of statuettes of this same Golden Harpocrates there are two, at whose feet are seen a Dog and a tortoise. The Serpent, as Your Lordship knows, may relate both to Bacchus and to Isis, and perhaps also to the mysteries of Attis, as she discusses. Here Signor Aleandro learnedly concludes."
+      ],
+      "text_fr": [
+        "[La fin d'une lettre d'un correspondant anonyme à Pignoria, traitant d'une plaque votive dédiée par quelque dévot initié à la fois aux mystères de Cybèle, d'Isis et de Bacchus, soutenant que les trois figures qui s'y trouvent se rapportent aux trois divinités à la fois] ...car il ne fait aucun doute que la Pomme de pin, les Flûtes et les Cymbales appartiennent à Cybèle, la Serpe à vendanger à Bacchus, et le Veretrum [emblème phallique], qui peut également appartenir à Isis, à en juger par ce qui fut écrit d'Osiris. Quant au Thyrse, qui, je crois, est ce que Votre Seigneurie appelle le « sceptrum pinea insignitum » [un bâton surmonté d'une pomme de pin] — car dans d'anciennes peintures murales j'ai observé que des Thyrses de cette même forme sont tenus dans les mains des Bacchantes. La Cithare peut aussi appartenir à Bacchus, se trouvant comme elle est près de la serpe à vendanger. À Isis appartient clairement le Sistre, et peut-être aussi le croissant de lune et le fouet, qu'on voit partout figurer dans sa main dorée — et à l'or, à son tour, appartient aussi la tortue, et c'est pourquoi je tiens pour tout à fait juste l'interprétation qu'en a donnée notre Sandelli, car dans un livre de dessins ayant appartenu jadis à Fulvio Orsini, conservé aujourd'hui à la Bibliothèque Vaticane, parmi d'autres représentations de statuettes de ce même Harpocrate d'or, il y en a deux, aux pieds desquelles on voit un Chien et une tortue. Le Serpent, comme le sait Votre Seigneurie, peut se rapporter tant à Bacchus qu'à Isis, et peut-être aussi aux mystères d'Attis, comme elle en discourt. Ici le seigneur Aleandro conclut doctement."
+      ],
+      "num": "224"
+    },
+    {
+      "id": "cartm_indiapreface",
+      "page": "585",
+      "fr": "Seconda Parte delle Imagini de gli Dei Indiani: frontespizio, dedica, e proemio di Pignoria",
+      "ru": "Вторая часть «Образов богов индийских»: титул, посвящение и вступление Пиньории",
+      "en": "Second Part of the Images of the Gods of the Indians: title page, dedication, and Pignoria's preface",
+      "img": [
+        "cartm_indiapreface.jpg"
+      ],
+      "scans": [],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "textOnly": true,
+      "name_fr": "Seconda Parte delle Imagini de gli Dei Indiani: frontespizio, dedica, e proemio di Pignoria",
+      "caption": "Seconda Parte delle Imagini de gli Dei Indiani: frontespizio, dedica, e proemio di Pignoria",
+      "text_ru": [
+        "НОВОЕ ВТОРОЕ ИЗДАНИЕ ИСТИННЫХ И НОВЫХ ОБРАЗОВ БОГОВ ИНДИЙСКИХ.\n\n[Посвящение издателя] Досточтимому моему синьору Пьеро Буарно. Память, которую я храню о милостях, с давних пор получаемых мною от Вашей Высокочтимой Милости, столь свежа и жива в моих мыслях, что если бы у меня была возможность так же скоро показать мою благодарность, как я того желаю, я осмелился бы надеяться на некоторое облегчение того бремени, которым меня обременила в немалой мере её любезность. Но покуда благоприятный случай не предоставит мне нечто более значительное для моих притязаний, подношу Вашей Высокочтимой Милости сей Трактат, который под именем части «Образов богов» выходит в свет из моей Типографии; подношу также от имени самого Автора, который высоко ценит Ваше достоинство и дал мне знак того, что ему будет приятно, если я поступлю так. Пусть Ваша Высокочтимая Милость примет покамест моё расположение и сохранит мне своё благоволение, которым я так дорожу, сколь Вам известно. Да дарует Господь наш благополучие. Из Падуи, 1 ноября 1614 года. Вашей Высокочтимой Милости покорнейший слуга, Пьетро Паоло Тоцци.\n\nВТОРАЯ ЧАСТЬ ОБРАЗОВ БОГОВ ИНДИЙСКИХ. Приложение к Картари от Лоренцо Пиньории.\n\nГеродот — писатель рассудительный и вовсе не такой лживый, как его обычно считают: говоря о Египте, он пишет, что там находятся вещи более удивительные, чем в какой-либо иной стране, и что сверх всякой иной части мира в этом труде можно увидеть то, до чего перо писателей не достигает. И поистине это утверждение Геродота нельзя назвать преувеличением, видя, что страницы — и священные, и мирские — полны рассказов о величии, силе и богатствах того огромнейшего и благороднейшего царства. Немалой была слава древних царей его и в завоеваниях, и в том, что они проносили победоносное оружие над народами, окрестными и весьма отдалёнными. Ибо о Сесострисе читаем, что он покорил Эфиопию, Скифию, Фракию, колхов и большую часть Малой Азии, а об Амасисе — что он сделал остров Кипр своим данником. В более же древние времена (как это явствует у Диодора Сицилийского) Осирис странствовал по миру — от отдалённых пределов Индии до истоков Истра и до самого Океана; а о другом пишет Манефон, что он подчинил своей короне финикийцев, мидян и ассирийцев. И о других по тому же поводу читается ещё многое. Если же вместе с властью этих [народов] распространялась над покорёнными народами и религия, мне кажется неуместным в этом сомневаться. Геродот рассказывает, что жители Колхиды переняли от египтян обрезание таким же образом, как это сделали финикийцы и сирийцы; и хотя всё это не вполне верно (ибо о евреях мы в особенности знаем то, во что нам следует верить), тем не менее в этом есть немало разумного, поскольку обычай побеждённых — перенимать обычаи, нравы и обряды победителей. И кто знает, не имел ли культ Изиды, который, как отмечает и Тацит, был у свевов в Германии, своё происхождение именно отсюда? — тем более что...\n\n[Вторая страница] ...у этих народов изваяние, сделанное наподобие фрегата, являло некий след смелых мореплаваний отважных египетских мореходов. И не оставались без внимания египтян те народы, которые, открытые и покорённые на памяти наших отцов доблестнейшим португальским народом, ныне объединены под общим именем Восточных Индий; ибо пишет [Геродот], что Сесострис покорил народы, обитающие вокруг моря, которое ныне называем мы Красным (направив туда флот больших галер), и что, продвигаясь далее, обнаружил море, полное мелей и потому несудоходное, так что был вынужден повернуть назад. Далее продвинулись Птолемеи, воодушевлённые, быть может, каким-то открытием прежних царей, ибо Филадельф, жаждавший познавать и видеть новое (как его и называет Страбон), послал некоего Дионисия открывать Индии, о чём тот впоследствии написал книги и донесения. А Корнелий Непот рассказывает, что некий Эвдокс, бежав от царя Латира, вышедши из Аравийского залива, ныне именуемого морем Мекки или Красным морем, так долго плыл, огибая [побережье], что достиг Кадиса — решение, показывающее торговлю и знание страны. И возможно, этот самый Эвдокс есть тот же, кто во времена Птолемея Евергета плавал в Индию и во многие иные тогда неведомые земли, о чём со слов Гераклида Понтийского рассказывает Страбон, хотя сам он и посмеивается над этим по некоторым своим не слишком твёрдым основаниям, по правде говоря. Но таково было всеобщее заблуждение древних географов — считать баснями все рассказы о новом Свете. И это ложное мнение они передали умам людей с такой силой, что даже наши деды смеялись над Марко Поло, которому в насмешку приписали прозвище «Миллион»; а Христофора Колумба по той же причине долгое время считали безумцем. И в Виченце карнавальные труппы наряжались, рассказывая нелепицы в подражание Антонио Пигафетте, который в 1522 году вместе с Магелланом прошёл в Индии. Римляне, владея Египтом, продолжали это плавание, ибо Страбон упоминает также об индийской дани, которая в его время доставлялась в Копт, город Египта. И прекрасную подробность рассказывает Солин: что при империи Клавдия некий вольноотпущенник Анния Прокламия, бывший сборщиком пошлин на Красном море, отправившись в Аравию и унесённый силой ветра, через пятнадцать дней пристал к острову Тапробана [Цейлон], где, прожив шесть месяцев и выучив язык страны, рассказал царю много того, что видел и замечал, среди чего примечательным было удивление того царя тем, что на римской монете, чеканенной с разными ликами, вес, однако, был везде одинаков и единообразен. То же рассказывает и Плиний; что до меня, не вижу, на чём основывалось удивление того варвара, ибо среди многих римских денариев с Весами в руке я нашёл очень немного таких, что были бы...\n\n[Третья страница] ...одного и того же веса; хотя я и сам взвешивал и держал в руках не один такой [денарий]. Но, впрочем, к нашему делу: Солин, в подтверждение сказанного нами, отмечает плавание, которое в его время начиналось в Александрии к Индии; и этому описанию Солина можно найти некоторое подтверждение в древней Итинерарной таблице, изданной Абрахамом Ортелием по настоянию благороднейшего синьора Марко Вельзера, человека редчайших качеств, которому учёные обязаны не этим одним. Арриан же, со всем тем, отрицает, что кто-либо когда-либо достиг Океана вполне по пути Красного моря: но я этому мало верю, имея перед собою вышеприведённые свидетельства, тем более что сам он ограничивается временами Птолемея, первого сына Лага, и Александра Великого. Признаёт он, однако, что Ганнон Карфагенянин осмелился пройти Геркулесовы столпы и плыл тридцать пять дней к востоку, но, свернув к полудню, одолённый жаждой и зноем, повернул назад. Имели ли египтяне знание о Западных Индиях или нет — есть в чём усомниться; тем не менее Бенедетто Ариа Монтано в своём «Апарато к Царской Библии» полагает, что земля Офир, упоминаемая в книгах Царств и в Паралипоменон, была Перу и Новой Испанией; и, возможно, он не так уж далёк от истины, ибо если евреи, а также те, кто жил во времена Тита, имели о том сведения, было бы нелепо утверждать, что египтяне их не имели, поскольку флот Соломона для этого плавания снаряжался, как говорит Писание, в гавани Эцион-Гавер, близ Елафа, на берегу Красного моря, — что можно сказать, находилось в доме у самих египтян. Я знаю хорошо, что Гаспар Варьеро, португалец, и Корнелий Вейтфлит из Лёвена пытались доказать, что землёю Офир был Малакка; но знаю также, что Абрахам Ортелий, муж столь изысканных познаний в географических вещах, каких только знает мир, принял мнение Ариа Монтано и отверг мнение Варьеро, и с Ортелием согласны и другие авторы. Но, оставляя в стороне авторитеты, хочу в этом деле прибегнуть к догадке не вовсе слабой, а именно: народы этой части света устроили изготовление своих идолов таким образом, что они сходны с образами египетских божеств, и не более того. И прежде чем перейти к египтянам, замечу, что жители этих стран поклонялись Солнцу, Луне и Воинству Небесному, как говорит Писание, — что было древнейшим родом идолопоклонства, какой когда-либо видел мир; и память об этом сохранялась здесь и доныне, и наследники этого не забыли, но составили из этого некую смесь, продлившуюся вплоть до введения Евангелия. Но чтобы дать некое начало этому любопытному рассуждению, я помещу здесь изображение Гомойоки, бога Мексики, которого это жалкое язычество почитало как своего Юпитера."
+      ],
+      "text_en": [
+        "THE NEW SECOND EDITION OF THE TRUE AND NEW IMAGES OF THE GODS OF THE INDIANS.\n\n[The publisher's dedication] To my most illustrious lord, Signor Piero Buarno. The memory I keep of the favours long received from Your most illustrious Lordship is so fresh and vivid in my thoughts that, had I as ready an occasion to show my gratitude as I desire it, I would venture to hope for some lightening of the burden with which your courtesy has laden me in no small measure. But until some favourable occasion brings me something of greater moment for my aspirations, I offer Your most illustrious Lordship this Treatise, which, under the name of a part of the Images of the Gods, issues forth from my Press; I offer it also in the name of the Author himself, who holds your worth in high esteem and has given me a sign that it would please him were I to do so. May Your most illustrious Lordship accept for now my affection, and preserve for me your goodwill, which I prize as much as you know. May Our Lord grant you prosperity. From Padua, the 1st of November 1614. Your most illustrious Lordship's most humble servant, Pietro Paolo Tozzi.\n\nSECOND PART OF THE IMAGES OF THE GODS OF THE INDIANS. An Addition to Cartari by Lorenzo Pignoria.\n\nHerodotus is a sensible writer, and not so great a liar as he is commonly held to be: speaking of Egypt, he writes that there are things more marvellous there than in any other country whatsoever, and that above every other part of the world one sees in that land works to which the pen of writers cannot do justice. And indeed this claim of Herodotus's cannot be called an exaggeration, seeing that the pages — both sacred and profane — are full of accounts of the greatness, the power, and the riches of that vast and most noble kingdom. Not small was the glory of its ancient kings, both in conquests and in carrying their victorious arms over peoples near and very distant. For we read of Sesostris that he subdued Ethiopia, Scythia, Thrace, the Colchians, and a great part of Asia Minor, and of Amasis, that he made the island of Cyprus his tributary. In still more ancient times (as appears in Diodorus Siculus) Osiris travelled the world, from the far confines of India to the springs of the Danube and to the Ocean itself; and of another, Manetho writes that he subjected to his crown the Phoenicians, the Medes, and the Assyrians. And much more is read of others to the same purpose. Whether, together with the power of these peoples, religion too spread over the conquered nations seems to me improper to doubt. Herodotus relates that the people of Colchis received circumcision from the Egyptians in the same manner as did the Phoenicians and Syrians; and although all this is not entirely true (for of the Hebrews in particular we know what we ought to believe), nevertheless there is much that is reasonable in it, since it is the custom of the conquered to accommodate themselves to the customs, manners, and rites of their conquerors. And who knows whether the cult of Isis, which, as Tacitus also notes, existed among the Suebi in Germany, did not have its origin from here — all the more since...\n\n[Second page] ...among these peoples an image made in the shape of a frigate showed some trace of the bold voyages of the daring Egyptian sailors. Nor did the Egyptians fail to take notice of those peoples who, discovered and subdued within the memory of our fathers by the most valorous Portuguese nation, are now comprised under the general name of the East Indies; for it is written that Sesostris subdued the peoples dwelling around the sea now called by us the Red Sea (sending there a fleet of great galleys), and that, advancing further, he found a sea full of shoals and therefore unnavigable, so that he was forced to turn back. The Ptolemies went further still, animated perhaps by some discovery of earlier kings, for Philadelphus, eager to learn and see new things (as Strabo also calls him), sent a certain Dionysius to discover the Indies, who afterward wrote books and reports of it. And Cornelius Nepos relates that a certain Eudoxus, fleeing King Lathyrus, having gone out from the Arabian Gulf, now called the Sea of Mecca or the Red Sea, sailed so long, working his way around, that he reached Cadiz — a feat showing trade and knowledge of the country. And perhaps this same Eudoxus is the one who, in the time of Ptolemy Euergetes, sailed to India and to many other lands then unknown, as Strabo relates on the testimony of Heraclides Ponticus, though he himself scoffs at it for certain arguments of his, not very solid, to tell the truth. But such was the universal error of the ancient geographers, to hold as fables all accounts of the New World. And they passed on this false opinion to men's minds with such force that even our grandfathers laughed at Marco Polo, upon whom they mockingly bestowed the nickname 'Million'; and Christopher Columbus, for the same reason, was long considered mad. And in Vicenza the carnival troupes dressed up, telling absurdities in mockery of Antonio Pigafetta, who in 1522 sailed to the Indies with Magellan. The Romans, holding Egypt, continued this voyage, for Strabo also mentions the Indian tribute which in his time was delivered to Coptos, a city of Egypt. And Solinus relates a fine detail: that under the empire of Claudius, a certain freedman of Annius Plocamus, who was a customs collector on the Red Sea, having set out for Arabia and been carried off by the force of the wind, in fifteen days landed on the island of Taprobane [Ceylon], where, having lived six months and learned the language of the country, he told the king many things he had seen and noted, among which it was remarkable that the king marvelled that Roman coin, though struck with different faces, nonetheless had everywhere the same and uniform weight. The same is related by Pliny; as for me, I do not see on what that barbarian's wonder was founded, for among many Roman denarii bearing Scales in hand, I have found very few that were of the...\n\n[Third page] ...same weight; though I myself have weighed and handled more than one of them. But, to return to our matter: Solinus, in confirmation of what we have said, records the voyage which in his time began at Alexandria for India; and of this description of Solinus's some trace may still be found in the ancient Itinerary Table published by Abraham Ortelius at the urging of the most noble Signor Marcus Welser, a gentleman of the rarest qualities, to whom scholars owe not this alone. Arrian, nonetheless, denies that anyone ever reached the Ocean entirely by the route of the Red Sea: but I believe this little, having before me the testimonies set down above, the more so since he himself confines his account to the times of Ptolemy, first son of Lagus, and of Alexander the Great. He grants, however, that Hanno the Carthaginian dared to pass the Pillars of Hercules and sailed thirty-five days eastward, but, turning toward noon, overcome by thirst and heat, turned back. Whether the Egyptians had knowledge of the West Indies or not, there is much room for doubt; nevertheless Benedetto Arias Montano, in his Apparatus to the Royal Bible, holds that the land of Ophir, mentioned in the Books of Kings and of Chronicles, was Peru and New Spain; and perhaps he is not so far from the truth, for if the Hebrews, and those who lived in the time of Titus, had knowledge of it, it would be absurd to claim the Egyptians did not, since Solomon's fleet for that voyage was fitted out, as Scripture says, in the port of Ezion-Geber, near Elath, on the shore of the Red Sea — which one might say was in the Egyptians' own house. I know well that Gaspar Varrero, a Portuguese, and Cornelius Wytfliet of Louvain have sought to prove that the land of Ophir was Malacca; but I know too that Abraham Ortelius, a man of such exquisite knowledge of geographical matters as the world knows, embraced the opinion of Arias Montano and rejected that of Varrero, and other authors agree with Ortelius as well. But, setting authorities aside, I wish in this matter to avail myself of a conjecture not at all weak, namely: that the peoples of this part of the world fashioned their idols in a manner so similar to the images of the Egyptian deities that nothing could be more so. And before proceeding to the Egyptians, I note that the inhabitants of these lands worshipped the Sun, the Moon, and the Host of Heaven, as Scripture says — which was the most ancient kind of idolatry the world ever saw; and memory of this was preserved here even to this day, nor had their successors forgotten it, but compounded of it a certain mixture, which lasted until the introduction of the Gospel. But to give some beginning to this curious discourse, I shall here set the image of Homoyoca, god of Mexico, whom this wretched paganism worshipped as their Jove."
+      ],
+      "text_fr": [
+        "LA NOUVELLE SECONDE ÉDITION DES VRAIES ET NOUVELLES IMAGES DES DIEUX DES INDIENS.\n\n[La dédicace de l'éditeur] À mon très illustre seigneur, Monsieur Piero Buarno. Le souvenir que je garde des faveurs reçues de longue date de Votre très illustre Seigneurie est si frais et si vif dans mes pensées que, si j'avais une occasion aussi prompte de vous montrer ma gratitude que je le désire, j'oserais espérer quelque allégement du fardeau dont votre courtoisie m'a chargé en bonne mesure. Mais en attendant qu'une occasion favorable m'apporte quelque chose de plus important pour mes prétentions, j'offre à Votre très illustre Seigneurie ce Traité, qui, sous le nom d'une partie des Images des Dieux, sort de mon Imprimerie ; je l'offre aussi au nom de l'Auteur lui-même, qui tient votre mérite en haute estime et m'a donné signe qu'il lui serait agréable que je le fisse. Que Votre très illustre Seigneurie agrée pour l'heure mon affection, et me conserve sa bienveillance, que je prise autant que vous le savez. Que Notre Seigneur vous donne prospérité. De Padoue, le 1er novembre 1614. De Votre très illustre Seigneurie le très humble serviteur, Pietro Paolo Tozzi.\n\nSECONDE PARTIE DES IMAGES DES DIEUX DES INDIENS. Addition à Cartari par Lorenzo Pignoria.\n\nHérodote est un écrivain sensé, et non pas aussi menteur qu'on le tient communément : parlant de l'Égypte, il écrit qu'il s'y trouve des choses plus merveilleuses qu'en tout autre pays, et que, plus qu'en toute autre partie du monde, on voit dans cette contrée des œuvres auxquelles la plume des écrivains ne saurait atteindre. Et en vérité cette affirmation d'Hérodote ne peut être taxée d'exagération, voyant que les pages, tant sacrées que profanes, sont pleines de récits sur la grandeur, la puissance et les richesses de ce très vaste et très noble royaume. Non mince fut la gloire de ses anciens rois, tant dans les conquêtes que dans le fait de porter leurs armes victorieuses sur des peuples voisins et fort lointains. Car on lit de Sésostris qu'il soumit l'Éthiopie, la Scythie, la Thrace, les Colques et une grande partie de l'Asie Mineure, et d'Amasis, qu'il rendit tributaire l'île de Chypre. En des temps plus anciens encore (comme cela ressort de Diodore de Sicile), Osiris parcourut le monde, depuis les confins lointains de l'Inde jusqu'aux sources de l'Istre et jusqu'à l'Océan même ; et d'un autre, Manéthon écrit qu'il soumit à sa couronne les Phéniciens, les Mèdes et les Assyriens. Et beaucoup d'autres choses se lisent encore à ce propos sur d'autres. Que la religion se soit répandue avec le pouvoir de ces peuples sur les nations soumises, il me semble malséant d'en douter. Hérodote raconte que les habitants de Colchide reçurent des Égyptiens la circoncision, de la même manière que les Phéniciens et les Syriens ; et bien que tout cela ne soit pas entièrement vrai (car des Hébreux en particulier nous savons ce qu'il nous faut croire), il y a néanmoins là beaucoup de raisonnable, puisque c'est la coutume des vaincus de s'accommoder aux coutumes, aux mœurs et aux rites des vainqueurs. Et qui sait si le culte d'Isis, qui, comme le note aussi Tacite, existait chez les Suèves en Germanie, n'en tirait pas son origine — d'autant plus que...\n\n[Deuxième page] ...chez ces peuples, une image faite à la manière d'une frégate montrait quelque trace des hardies navigations des intrépides marins égyptiens. Et les Égyptiens ne laissèrent pas sans attention ces peuples qui, découverts et soumis du temps de nos pères par la très valeureuse nation portugaise, sont aujourd'hui compris sous le nom général des Indes Orientales ; car il est écrit que Sésostris soumit les peuples habitant autour de la mer que nous appelons aujourd'hui Rouge (y envoyant une flotte de grandes galères), et qu'avançant plus loin, il trouva une mer pleine de hauts-fonds et par conséquent innavigable, de sorte qu'il fut contraint de rebrousser chemin. Les Ptolémées allèrent plus loin encore, animés peut-être par quelque découverte des rois précédents, car Philadelphe, désireux de connaître et de voir des choses nouvelles (comme l'appelle aussi Strabon), envoya un certain Denys découvrir les Indes, qui en écrivit ensuite des livres et des relations. Et Cornélius Népos raconte qu'un certain Eudoxe, fuyant le roi Lathyre, sorti du golfe Arabique, aujourd'hui appelé mer de la Mecque ou mer Rouge, navigua si longtemps, en en faisant le tour, qu'il atteignit Cadix — résolution qui montre commerce et connaissance du pays. Et peut-être cet Eudoxe est-il le même qui, au temps de Ptolémée Évergète, navigua vers l'Inde et vers de nombreuses autres terres alors inconnues, comme le rapporte Strabon sur le témoignage d'Héraclide du Pont, bien que lui-même en rie pour certains arguments assez peu solides à vrai dire. Mais telle fut l'erreur universelle des géographes anciens, de tenir pour fables tous les récits du Nouveau Monde. Et ils transmirent cette fausse opinion dans les esprits des hommes avec une telle force que même nos grands-pères riaient de Marco Polo, à qui ils donnèrent par moquerie le surnom de « Million » ; et Christophe Colomb, pour la même raison, fut longtemps tenu pour fou. Et à Vicence les troupes du carnaval se déguisaient, racontant des sottises à l'imitation d'Antonio Pigafetta, qui en 1522 passa aux Indes avec Magellan. Les Romains, possédant l'Égypte, continuèrent ce voyage, car Strabon mentionne aussi le tribut indien qui, de son temps, était livré à Coptos, ville d'Égypte. Et Solin raconte un beau détail : que sous l'empire de Claude, un certain affranchi d'Annius Plocamus, qui était collecteur de péage sur la mer Rouge, étant parti pour l'Arabie et emporté par la force du vent, aborda en quinze jours l'île de Taprobane [Ceylan], où, ayant vécu six mois et appris la langue du pays, il raconta au roi beaucoup de choses qu'il avait vues et remarquées, parmi lesquelles fut notable l'étonnement de ce roi de ce que la monnaie romaine, bien que frappée de visages différents, eût néanmoins partout le même poids uniforme. Pline rapporte la même chose ; quant à moi, je ne vois pas sur quoi se fondait l'étonnement de ce barbare, car parmi de nombreux deniers romains à la Balance en main, j'en ai trouvé fort peu qui fussent du...\n\n[Troisième page] ...même poids ; bien que j'en aie moi-même pesé et tenu en main plus d'un. Mais, pour en revenir à notre sujet : Solin, en confirmation de ce que nous avons dit, consigne le voyage qui, de son temps, commençait à Alexandrie pour l'Inde ; et de cette description de Solin on trouve encore quelque trace dans l'ancienne Table Itinéraire publiée par Abraham Ortelius à l'instance du très noble seigneur Marcus Welser, gentilhomme de qualités fort rares, à qui les lettrés ne doivent pas que cela. Arrien, cependant, nie que quiconque ait jamais atteint l'Océan entièrement par la route de la mer Rouge : mais j'en crois peu, ayant devant moi les témoignages ci-dessus rapportés, d'autant plus que lui-même se borne aux temps de Ptolémée, premier fils de Lagos, et d'Alexandre le Grand. Il admet cependant qu'Hannon le Carthaginois osa franchir les colonnes d'Hercule et navigua trente-cinq jours vers l'orient, mais que, tournant vers le midi, accablé par la soif et la chaleur, il rebroussa chemin. Que les Égyptiens aient eu connaissance des Indes Occidentales ou non, il y a fort à en douter ; néanmoins Benedetto Arias Montano, dans son Apparatus à la Bible Royale, tient que la terre d'Ophir, mentionnée dans les Livres des Rois et dans les Paralipomènes, était le Pérou et la Nouvelle-Espagne ; et peut-être ne s'écarte-t-il pas tant du vrai, car si les Hébreux, ainsi que ceux du temps de Titus, en eurent connaissance, il serait absurde de prétendre que les Égyptiens n'en eurent point, puisque la flotte de Salomon pour ce voyage s'équipait, comme le dit l'Écriture, au port d'Ecyon-Gaber, près d'Ailath, sur le rivage de la mer Rouge — ce qu'on peut dire être chez les Égyptiens eux-mêmes. Je sais bien que Gaspar Varrero, Portugais, et Corneille Wytfliet de Louvain ont cherché à prouver que la terre d'Ophir était Malacca ; mais je sais aussi qu'Abraham Ortelius, homme d'une connaissance aussi exquise des choses géographiques que le monde en connaisse, a embrassé l'opinion d'Arias Montano et rejeté celle de Varrero, et avec Ortelius d'autres auteurs s'accordent encore. Mais, laissant de côté les autorités, je veux en cette matière me servir d'une conjecture qui n'est point faible, à savoir que les peuples de cette partie du monde ont conformé la fabrique de leurs idoles aux images des divinités égyptiennes, et rien de plus. Et avant d'en venir aux Égyptiens, je remarque que les habitants de ces pays adoraient le Soleil, la Lune et l'Armée du Ciel, comme le dit l'Écriture — ce qui fut la plus ancienne espèce d'idolâtrie que le monde ait jamais vue ; et le souvenir s'en conservait ici jusqu'à aujourd'hui, et leurs successeurs ne l'avaient pas oublié, mais en avaient composé un certain mélange, qui dura jusqu'à l'introduction de l'Évangile. Mais pour donner quelque commencement à ce curieux discours, je placerai ici le portrait d'Homoyoca, dieu du Mexique, que cette misérable gentilité tenait pour leur Jupiter."
+      ],
+      "num": "225"
+    },
+    {
       "id": "carti1",
-      "num": "224",
+      "num": "226",
       "page": "591",
       "fr": "Homoyoca",
       "ru": "Омойока",
@@ -6348,7 +6400,7 @@
     },
     {
       "id": "carti2",
-      "num": "225",
+      "num": "227",
       "page": "593",
       "fr": "Idolo messicano con offerenti",
       "ru": "Мексиканский идол с дарителями",
@@ -6375,7 +6427,7 @@
     },
     {
       "id": "carti3",
-      "num": "226",
+      "num": "228",
       "page": "594",
       "fr": "Miquitlantecatle e gli dei infernali",
       "ru": "Миктлантекутли и подземные боги",
@@ -6403,7 +6455,7 @@
     },
     {
       "id": "carti4",
-      "num": "227",
+      "num": "229",
       "page": "596",
       "fr": "Vitzliputzli (coppia di divinita)",
       "ru": "Вицлипуцли и спутник",
@@ -6430,7 +6482,7 @@
     },
     {
       "id": "carti5",
-      "num": "228",
+      "num": "230",
       "page": "597",
       "fr": "L'Ambasciatore alato",
       "ru": "Крылатый дух",
@@ -6459,7 +6511,7 @@
     },
     {
       "id": "carti6",
-      "num": "229",
+      "num": "231",
       "page": "600",
       "fr": "Quetzalcoatl",
       "ru": "Кецалькоатль",
@@ -6493,7 +6545,7 @@
     },
     {
       "id": "carti7",
-      "num": "230",
+      "num": "232",
       "page": "608",
       "fr": "Divinita composite \"egizie\" (introduzione al Giapone)",
       "ru": "«Египетские» божества-кентавры (вступление к Японии)",
@@ -6520,7 +6572,7 @@
     },
     {
       "id": "carti8",
-      "num": "231",
+      "num": "233",
       "page": "609",
       "fr": "Canone, figlio di Amida",
       "ru": "Каннон, сын Амиды",
@@ -6547,7 +6599,7 @@
     },
     {
       "id": "carti9",
-      "num": "232",
+      "num": "234",
       "page": "610",
       "fr": "Un'altra statua di Amida presso Meaco",
       "ru": "Ещё одна статуя Амиды близ Меако",
@@ -6574,7 +6626,7 @@
     },
     {
       "id": "carti10",
-      "num": "233",
+      "num": "235",
       "page": "611",
       "fr": "Il dio-lucertola delle lettere",
       "ru": "Бог-ящерица, покровитель учёности",
@@ -6601,7 +6653,7 @@
     },
     {
       "id": "carti11",
-      "num": "234",
+      "num": "236",
       "page": "612",
       "fr": "Una pagoda giapponese",
       "ru": "Японская пагода",
@@ -6629,7 +6681,7 @@
     },
     {
       "id": "carti12",
-      "num": "235",
+      "num": "237",
       "page": "613",
       "fr": "Un castello-tempio giapponese",
       "ru": "Японский замок-храм",
@@ -6656,7 +6708,7 @@
     },
     {
       "id": "carti13",
-      "num": "236",
+      "num": "238",
       "page": "614",
       "fr": "Il grande Idolo giapponese",
       "ru": "Великий японский идол",
@@ -6683,7 +6735,7 @@
     },
     {
       "id": "carti14",
-      "num": "237",
+      "num": "239",
       "page": "615",
       "fr": "Il secondo idoletto d'Aleandro",
       "ru": "Второй идольчик из собрания Алеандро",
@@ -6710,7 +6762,7 @@
     },
     {
       "id": "carti15",
-      "num": "238",
+      "num": "240",
       "page": "616",
       "fr": "Un idolo calvo dal volto ridente (primo idoletto)",
       "ru": "Лысый смеющийся идол (первый идольчик)",
@@ -6737,7 +6789,7 @@
     },
     {
       "id": "carti16",
-      "num": "239",
+      "num": "241",
       "page": "617",
       "fr": "Uno spirito guerriero (secondo idoletto)",
       "ru": "Воинственный дух (второй идольчик)",
@@ -6764,7 +6816,7 @@
     },
     {
       "id": "carti17",
-      "num": "240",
+      "num": "242",
       "page": "618",
       "fr": "Coppia di figure (terzo e quarto idoletto)",
       "ru": "Пара фигур (третий и четвёртый идольчики)",
@@ -6791,7 +6843,7 @@
     },
     {
       "id": "carti18",
-      "num": "241",
+      "num": "243",
       "page": "619",
       "fr": "L'idolo piangente (quinto idoletto)",
       "ru": "Плачущий идол (пятый идольчик)",
@@ -6818,7 +6870,7 @@
     },
     {
       "id": "carti19",
-      "num": "242",
+      "num": "244",
       "page": "620",
       "fr": "Coppia di divinita dalla pelle azzurra (sesto e settimo idoletto)",
       "ru": "Синекожая пара божеств (шестой и седьмой идольчики)",
@@ -6845,7 +6897,7 @@
     },
     {
       "id": "carti20",
-      "num": "243",
+      "num": "245",
       "page": "621",
       "fr": "Divinita a sei braccia (ottavo idoletto)",
       "ru": "Шестирукое божество с луком (восьмой идольчик)",
@@ -6872,7 +6924,7 @@
     },
     {
       "id": "carti21",
-      "num": "244",
+      "num": "246",
       "page": "622",
       "fr": "Figura aureolata dall'aspetto di santo",
       "ru": "Святоподобная фигура с нимбом",
@@ -6899,7 +6951,7 @@
     },
     {
       "id": "carti22",
-      "num": "245",
+      "num": "247",
       "page": "623",
       "fr": "Una dea con un bambino",
       "ru": "Богиня с младенцем на руках",
@@ -6926,7 +6978,7 @@
     },
     {
       "id": "carti23",
-      "num": "246",
+      "num": "248",
       "page": "624",
       "fr": "Un idolo azzurro in un'aureola di fiamme",
       "ru": "Синекожий идол в пламенном нимбе",
@@ -6953,7 +7005,7 @@
     },
     {
       "id": "carti24",
-      "num": "247",
+      "num": "249",
       "page": "625",
       "fr": "Un idolo rosso seduto su una bestia",
       "ru": "Красный идол, сидящий на звере",
@@ -6980,7 +7032,7 @@
     },
     {
       "id": "carti25",
-      "num": "248",
+      "num": "250",
       "page": "626",
       "fr": "Un guerriero su una nuvola",
       "ru": "Воин на облаке с пламенным нимбом",
@@ -7007,7 +7059,7 @@
     },
     {
       "id": "carti26",
-      "num": "249",
+      "num": "251",
       "page": "627",
       "fr": "Spirito alato su un corpo abbattuto",
       "ru": "Крылатый дух, попирающий поверженного",
@@ -7035,7 +7087,7 @@
     },
     {
       "id": "carti27",
-      "num": "250",
+      "num": "252",
       "page": "629",
       "fr": "Piccolo idolo su un vaso (1)",
       "ru": "Маленький идол на вазе (1)",
@@ -7062,7 +7114,7 @@
     },
     {
       "id": "carti28",
-      "num": "251",
+      "num": "253",
       "page": "630",
       "fr": "Piccolo idolo su un vaso (2)",
       "ru": "Маленький идол на вазе (2)",
@@ -7090,7 +7142,7 @@
     },
     {
       "id": "carti29",
-      "num": "252",
+      "num": "254",
       "page": "631",
       "fr": "Piccolo idolo su un vaso (3)",
       "ru": "Маленький идол на вазе (3)",
@@ -7118,7 +7170,7 @@
     },
     {
       "id": "carti30",
-      "num": "253",
+      "num": "255",
       "page": "632",
       "fr": "Piccolo idolo su un vaso (4)",
       "ru": "Маленький идол на вазе (4) — «IL FINE»",
