@@ -359,7 +359,7 @@
       "id": "carti2",
       "num": "2",
       "page": "2",
-      "fr": "Мексиканский идол с дарителями",
+      "fr": "Idolo messicano con offerenti",
       "ru": "Мексиканский идол с дарителями",
       "en": "Mexican idol receiving offerings",
       "img": [
@@ -383,7 +383,7 @@
       "id": "carti3",
       "num": "3",
       "page": "3",
-      "fr": "Миктлантекутли и подземные боги",
+      "fr": "Miquitlantecatle e gli dei infernali",
       "ru": "Миктлантекутли и подземные боги",
       "en": "Mictlantecuhtli and the underworld gods",
       "img": [
@@ -407,7 +407,7 @@
       "id": "carti4",
       "num": "4",
       "page": "4",
-      "fr": "Вицлипуцли (пара божеств)",
+      "fr": "Vitzliputzli (coppia di divinita)",
       "ru": "Вицлипуцли и спутник",
       "en": "Vitzliputzli and a companion",
       "img": [
@@ -431,7 +431,7 @@
       "id": "carti5",
       "num": "5",
       "page": "5",
-      "fr": "Крылатый дух",
+      "fr": "L'Ambasciatore alato",
       "ru": "Крылатый дух",
       "en": "A winged spirit",
       "img": [
@@ -440,15 +440,15 @@
       "group": "Мексика",
       "group_en": "Mexico",
       "text_ru": [
-        "(продолжение предыдущего рассказа: образ крылатого Посланника бога Цитлальтонака)"
+        "Крылатый вестник бога Цитлальтонака (Млечного Пути) — в мексиканском предании он явился Деве Чимальме и возвестил, что она зачнёт сына без мужа; этот сын и есть Кецалькоатль. Пиньория прямо называет этого посланника «их Гавриилом»."
       ],
       "text_en": [
-        "(continuing the preceding account: the image of the winged Ambassador of the god Citlallatonac)"
+        "The winged messenger of the god Citlallatonac (the Milky Way) — in the Mexican legend he appeared to the Virgin Chimalma and announced that she would conceive a son without a husband; that son is Quetzalcoatl. Pignoria explicitly calls this messenger “their Gabriel.”"
       ],
       "caption": "(seguito del racconto precedente: l'imagine dell'Ambasciatore alato del Dio Citlallatonac)",
       "name_fr": "L'Ambassadeur ailé",
       "text_fr": [
-        "(suite du récit précédent : l'image de l'Ambassadeur ailé du dieu Citlallatonac)"
+        "Le messager ailé du dieu Citlallatonac (la Voie lactée) — dans la légende mexicaine, il apparut à la Vierge Chimalma et lui annonça qu'elle concevrait un fils sans époux ; ce fils est Quetzalcoatl. Pignoria appelle explicitement ce messager « leur Gabriel »."
       ]
     },
     {
@@ -479,7 +479,7 @@
       "id": "carti7",
       "num": "7",
       "page": "7",
-      "fr": "Египетско-японские составные божества",
+      "fr": "Divinita composite \"egizie\" (introduzione al Giapone)",
       "ru": "«Египетские» божества-кентавры (вступление к Японии)",
       "en": "“Egyptian” composite gods (introducing Japan)",
       "img": [
@@ -503,7 +503,7 @@
       "id": "carti8",
       "num": "8",
       "page": "8",
-      "fr": "Каннон (сын Амиды)",
+      "fr": "Canone, figlio di Amida",
       "ru": "Каннон, сын Амиды",
       "en": "Kannon, son of Amida",
       "img": [
@@ -527,7 +527,7 @@
       "id": "carti9",
       "num": "9",
       "page": "9",
-      "fr": "Бог-ящерица, покровитель учёности",
+      "fr": "Il dio-lucertola delle lettere",
       "ru": "Бог-ящерица, покровитель учёности",
       "en": "The lizard-god of learning",
       "img": [
@@ -551,7 +551,7 @@
       "id": "carti10",
       "num": "10",
       "page": "10",
-      "fr": "Японская пагода",
+      "fr": "Una pagoda giapponese",
       "ru": "Японская пагода",
       "en": "A Japanese pagoda",
       "img": [
@@ -575,7 +575,7 @@
       "id": "carti11",
       "num": "11",
       "page": "11",
-      "fr": "Японский замок-храм",
+      "fr": "Un castello-tempio giapponese",
       "ru": "Японский замок-храм",
       "en": "A Japanese castle-temple",
       "img": [
@@ -599,7 +599,7 @@
       "id": "carti12",
       "num": "12",
       "page": "12",
-      "fr": "Великий японский идол",
+      "fr": "Il grande Idolo giapponese",
       "ru": "Великий японский идол",
       "en": "The great Japanese idol",
       "img": [
@@ -623,7 +623,7 @@
       "id": "carti13",
       "num": "13",
       "page": "13",
-      "fr": "Идол, схожий с христианскими образами",
+      "fr": "Un idolo simile alle immagini cristiane",
       "ru": "Идол, «заимствующий» у христианских образов",
       "en": "An idol that “borrows” from Christian images",
       "img": [
@@ -647,7 +647,7 @@
       "id": "carti14",
       "num": "14",
       "page": "14",
-      "fr": "Второй идольчик Алеандро",
+      "fr": "Il secondo idoletto d'Aleandro",
       "ru": "Второй идольчик из собрания Алеандро",
       "en": "The second Aleandro idol",
       "img": [
@@ -671,7 +671,7 @@
       "id": "carti15",
       "num": "15",
       "page": "15",
-      "fr": "Воинственный дух (третий идольчик)",
+      "fr": "Uno spirito guerriero (il terzo idoletto)",
       "ru": "Воинственный дух (третий идольчик)",
       "en": "A warlike spirit (the third idol)",
       "img": [
@@ -695,7 +695,7 @@
       "id": "carti16",
       "num": "16",
       "page": "16",
-      "fr": "Пара фигур (четвёртый идольчик)",
+      "fr": "Coppia di figure (il quarto idoletto)",
       "ru": "Пара фигур (четвёртый идольчик)",
       "en": "A pair of figures (the fourth idol)",
       "img": [
@@ -719,7 +719,7 @@
       "id": "carti17",
       "num": "17",
       "page": "17",
-      "fr": "Плачущий идол",
+      "fr": "L'idolo piangente",
       "ru": "Плачущий идол",
       "en": "The weeping idol",
       "img": [
@@ -743,7 +743,7 @@
       "id": "carti18",
       "num": "18",
       "page": "18",
-      "fr": "Синекожая пара",
+      "fr": "Coppia di divinita dalla pelle azzurra",
       "ru": "Синекожая пара божеств",
       "en": "A pair of blue-skinned deities",
       "img": [
@@ -767,7 +767,7 @@
       "id": "carti19",
       "num": "19",
       "page": "19",
-      "fr": "Шестирукое божество",
+      "fr": "Divinita a sei braccia",
       "ru": "Шестирукое божество с луком",
       "en": "A six-armed deity with a bow",
       "img": [
@@ -791,7 +791,7 @@
       "id": "carti20",
       "num": "20",
       "page": "20",
-      "fr": "Беловатый идол",
+      "fr": "Un idolo pallido",
       "ru": "Белёсый идол с нимбом",
       "en": "A pale haloed idol",
       "img": [
@@ -815,7 +815,7 @@
       "id": "carti21",
       "num": "21",
       "page": "21",
-      "fr": "Святоподобная фигура",
+      "fr": "Figura aureolata dall'aspetto di santo",
       "ru": "Святоподобная фигура с нимбом",
       "en": "A saint-like haloed figure",
       "img": [
@@ -839,7 +839,7 @@
       "id": "carti22",
       "num": "22",
       "page": "22",
-      "fr": "Богиня с младенцем",
+      "fr": "Una dea con un bambino",
       "ru": "Богиня с младенцем на руках",
       "en": "A goddess holding a child",
       "img": [
@@ -863,7 +863,7 @@
       "id": "carti23",
       "num": "23",
       "page": "23",
-      "fr": "Синий идол с пламенем",
+      "fr": "Un idolo azzurro in un'aureola di fiamme",
       "ru": "Синекожий идол в пламенном нимбе",
       "en": "A blue-skinned idol in a flaming halo",
       "img": [
@@ -887,7 +887,7 @@
       "id": "carti24",
       "num": "24",
       "page": "24",
-      "fr": "Красный идол на звере",
+      "fr": "Un idolo rosso seduto su una bestia",
       "ru": "Красный идол, сидящий на звере",
       "en": "A red idol seated on a beast",
       "img": [
@@ -911,7 +911,7 @@
       "id": "carti25",
       "num": "25",
       "page": "25",
-      "fr": "Воин на облаке",
+      "fr": "Un guerriero su una nuvola",
       "ru": "Воин на облаке с пламенным нимбом",
       "en": "A warrior on a cloud, flame-haloed",
       "img": [
@@ -935,7 +935,7 @@
       "id": "carti26",
       "num": "26",
       "page": "26",
-      "fr": "Крылатый дух на поверженном теле",
+      "fr": "Spirito alato su un corpo abbattuto",
       "ru": "Крылатый дух, попирающий поверженного",
       "en": "A winged spirit trampling a fallen foe",
       "img": [
@@ -959,7 +959,7 @@
       "id": "carti27",
       "num": "27",
       "page": "27",
-      "fr": "Маленький идол на вазе",
+      "fr": "Piccolo idolo su un vaso (1)",
       "ru": "Маленький идол на вазе (1)",
       "en": "A small idol on a vase (1)",
       "img": [
@@ -983,7 +983,7 @@
       "id": "carti28",
       "num": "28",
       "page": "28",
-      "fr": "Маленький идол на вазе (2)",
+      "fr": "Piccolo idolo su un vaso (2)",
       "ru": "Маленький идол на вазе (2)",
       "en": "A small idol on a vase (2)",
       "img": [
@@ -1007,7 +1007,7 @@
       "id": "carti29",
       "num": "29",
       "page": "29",
-      "fr": "Маленький идол на вазе (3)",
+      "fr": "Piccolo idolo su un vaso (3)",
       "ru": "Маленький идол на вазе (3)",
       "en": "A small idol on a vase (3)",
       "img": [
@@ -1031,7 +1031,7 @@
       "id": "carti30",
       "num": "30",
       "page": "30",
-      "fr": "Маленький идол на вазе (4)",
+      "fr": "Piccolo idolo su un vaso (4)",
       "ru": "Маленький идол на вазе (4) — «IL FINE»",
       "en": "A small idol on a vase (4) — “IL FINE”",
       "img": [
@@ -3578,7 +3578,7 @@
       "en": "Vesta",
       "name_fr": "Vesta",
       "img": [
-        "cat17.jpg"
+        "catsnip_vesta.jpg"
       ],
       "caption": "Vesta Dea dell'Elemento del fuoco, e delle sacre Vergini Vestali.",
       "text_ru": [
@@ -3601,7 +3601,7 @@
       "en": "Glaucus",
       "name_fr": "Glaucus",
       "img": [
-        "cat17.jpg"
+        "catsnip_glauco.jpg"
       ],
       "caption": "Glauco Dio Marino di augusto aspetto, il primo delli Dei marini dopo Nettuno.",
       "text_ru": [
@@ -3624,7 +3624,7 @@
       "en": "Tethys",
       "name_fr": "Téthys",
       "img": [
-        "cat17.jpg"
+        "catsnip_tethide.jpg"
       ],
       "caption": "Tethide Dea Marina bellissima di tutte le Dee dopo Venere, & la prima de Dei marini dopo Nettuno, Anfitrite, & Glauco.",
       "text_ru": [
@@ -3647,7 +3647,7 @@
       "en": "Portunus (Palaemon)",
       "name_fr": "Portunus (Palémon)",
       "img": [
-        "cat17.jpg"
+        "catsnip_portunno.jpg"
       ],
       "caption": "Portunno detto anco Palemone, Dio de porti, & del giunger saluo à casa de nauiganti.",
       "text_ru": [
@@ -3670,7 +3670,7 @@
       "en": "Aeolus",
       "name_fr": "Éole",
       "img": [
-        "cat17.jpg"
+        "catsnip_eolo.jpg"
       ],
       "caption": "Eolo Dio de Venti, & delle tempeste maritime, & terrestri.",
       "text_ru": [
@@ -3693,7 +3693,7 @@
       "en": "The Good Goddess (Bona Dea)",
       "name_fr": "La Bonne Déesse (Bona Dea)",
       "img": [
-        "cat17.jpg"
+        "catsnip_buonadea.jpg"
       ],
       "caption": "Buona Dea conseruatrice de semi, & della fertilità di tutte le cose.",
       "text_ru": [
@@ -3716,7 +3716,7 @@
       "en": "Flora",
       "name_fr": "Flore",
       "img": [
-        "cat17.jpg"
+        "catsnip_flora.jpg"
       ],
       "caption": "Flora Dea de fiori e vaghezze, & della stagione della Primauera.",
       "text_ru": [
@@ -3739,7 +3739,7 @@
       "en": "Pan",
       "name_fr": "Pan",
       "img": [
-        "cat17.jpg"
+        "catsnip_pane.jpg"
       ],
       "caption": "Pane Dio de Pastori, & de gli greggi, inuëtore del Flauto.",
       "text_ru": [
@@ -3762,7 +3762,7 @@
       "en": "Minos (Judge of the Underworld)",
       "name_fr": "Minos (juge des Enfers)",
       "img": [
-        "cat18.jpg"
+        "catsnip_minos.jpg"
       ],
       "caption": "Giudici Infernali tre, & il primo Minos esamina l'anime delle sue colpe.",
       "text_ru": [
@@ -3785,7 +3785,7 @@
       "en": "Aeacus (Judge of the Underworld)",
       "name_fr": "Éaque (juge des Enfers)",
       "img": [
-        "cat18.jpg"
+        "catsnip_eaco.jpg"
       ],
       "caption": "Eaco legge li processi formati contro le anime de dannati.",
       "text_ru": [
@@ -3808,7 +3808,7 @@
       "en": "Rhadamanthus (Judge of the Underworld)",
       "name_fr": "Rhadamanthe (juge des Enfers)",
       "img": [
-        "cat18.jpg"
+        "catsnip_radamanto.jpg"
       ],
       "caption": "Radamanto nota le sentenze date da loro tre giudici contro li dannati.",
       "text_ru": [
@@ -3831,7 +3831,7 @@
       "en": "Truth",
       "name_fr": "Vérité",
       "img": [
-        "cat18.jpg"
+        "catsnip_verita.jpg"
       ],
       "caption": "Verità Dea del vero, & scopritrice della falsità, questa è fortissima di tutte le cose.",
       "text_ru": [
@@ -3854,7 +3854,7 @@
       "en": "Fame (Rumour)",
       "name_fr": "Renommée",
       "img": [
-        "cat18.jpg"
+        "catsnip_fama.jpg"
       ],
       "caption": "Fama Dea apportatrice de buoni, & cattiui successi, conseruatrice dell'humane attioni.",
       "text_ru": [
@@ -3877,7 +3877,7 @@
       "en": "Concord",
       "name_fr": "Concorde",
       "img": [
-        "cat18.jpg"
+        "catsnip_concordia.jpg"
       ],
       "caption": "Concordia Dea della Pace, vnione, & amore, & Dea del buono essere di tutte le cose.",
       "text_ru": [
@@ -3900,7 +3900,7 @@
       "en": "Antevorta and Postvorta",
       "name_fr": "Antevorta et Postvorta",
       "img": [
-        "cat19.jpg"
+        "catsnip_anteuorta.jpg"
       ],
       "caption": "Anteuorta, & Postuorta, dee che fanno il passato, & l'avuenire.",
       "text_ru": [
@@ -3923,7 +3923,7 @@
       "en": "The Lares",
       "name_fr": "Les Lares",
       "img": [
-        "cat19.jpg"
+        "catsnip_lari.jpg"
       ],
       "caption": "Lari dei, Custodi de Prouincie, luoghi, Città, & case, inuestigatori de fatti humani.",
       "text_ru": [
@@ -3946,7 +3946,7 @@
       "en": "The Penates",
       "name_fr": "Les Pénates",
       "img": [
-        "cat19.jpg"
+        "catsnip_penati.jpg"
       ],
       "caption": "Penati dei familiari, custodi delle Prouincie luoghi, Città, & Case, come li dei Lari.",
       "text_ru": [
@@ -3969,7 +3969,7 @@
       "en": "Necessity",
       "name_fr": "Nécessité",
       "img": [
-        "cat19.jpg"
+        "catsnip_necessita.jpg"
       ],
       "caption": "Necessità dea del Fato, & del Destino.",
       "text_ru": [
@@ -3992,7 +3992,7 @@
       "en": "Maia",
       "name_fr": "Maïa",
       "img": [
-        "cat19.jpg"
+        "catsnip_maia.jpg"
       ],
       "caption": "Maia madre del dio Mercurio, Dea de Responsi, & concitratrice delle battaglie.",
       "text_ru": [
@@ -4015,7 +4015,7 @@
       "en": "Peitho (Persuasion)",
       "name_fr": "Peithô (la Persuasion)",
       "img": [
-        "cat19.jpg"
+        "catsnip_pitho.jpg"
       ],
       "caption": "Pitho Dea della Lingua, & dell'Eloquenza.",
       "text_ru": [
