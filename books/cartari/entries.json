@@ -4314,6 +4314,50 @@
       "text_fr": [
         "« Image d'Adad et d'Atargatis, dieux des Assyriens, compris par eux comme le Soleil et la Terre, dénotant que tout ce qui naît sur terre procède de la puissance du Soleil et de ses rayons. »"
       ]
+    },
+    {
+      "id": "cartm87",
+      "num": "87",
+      "page": "87",
+      "fr": "Minerva, inventrice del filare e tessere",
+      "ru": "Минерва, изобретательница прядения и ткачества",
+      "en": "Minerva, inventress of spinning and weaving",
+      "name_fr": "Minerve, inventrice du filage et du tissage",
+      "img": [
+        "cartm87.jpg"
+      ],
+      "caption": "Imagine di Minerva inuentrice del filare, tessere, cucire, & altri donneschi essercitij; & de gli vccelli à lei sacrati. La Ciuetta significa il consiglio del prudente, il gallo la vigilanza del saggio, & l'ardire de soldati.",
+      "text_ru": [
+        "«Образ Минервы, изобретательницы прядения, тканья, шитья и прочих женских занятий, и посвящённых ей птиц. Сова означает совет благоразумного, петух — бдительность мудрого и дерзание воинов»."
+      ],
+      "text_en": [
+        "“Image of Minerva, inventress of spinning, weaving, sewing, and other womanly occupations, and of the birds sacred to her. The Owl signifies the counsel of the prudent, the Cockerel the vigilance of the wise and the boldness of soldiers.”"
+      ],
+      "text_fr": [
+        "« Image de Minerve, inventrice du filage, du tissage, de la couture et d'autres occupations féminines, et des oiseaux qui lui sont consacrés. La Chouette signifie le conseil du prudent, le Coq la vigilance du sage et la hardiesse des soldats. »"
+      ]
+    },
+    {
+      "id": "cartm88",
+      "num": "88",
+      "page": "88",
+      "fr": "Vulcano nella sua fucina coi Ciclopi",
+      "ru": "Вулкан в своей кузнице с циклопами",
+      "en": "Vulcan at his forge with the Cyclops",
+      "name_fr": "Vulcain dans sa forge avec les Cyclopes",
+      "img": [
+        "cartm88.jpg"
+      ],
+      "caption": "Imagine di Vulcano Dio del Fuoco con la sua fucina, & li Ciclopi, che fabricano li strali di Gioue & l'armi alli Dei & gli heroi. E tolto Vulcano ancora pel calore naturale & generatiuo.",
+      "text_ru": [
+        "«Образ Вулкана, бога Огня, с его кузницей и циклопами, кующими стрелы Юпитера и оружие для богов и героев. Вулкан понимается также как природное и порождающее тепло»."
+      ],
+      "text_en": [
+        "“Image of Vulcan, god of Fire, with his forge, and the Cyclops, who fashion Jove's thunderbolts and weapons for the gods and heroes. Vulcan is also taken for natural, generative heat.”"
+      ],
+      "text_fr": [
+        "« Image de Vulcain, dieu du Feu, avec sa forge, et les Cyclopes, qui fabriquent les foudres de Jupiter et les armes des dieux et des héros. Vulcain est aussi pris pour la chaleur naturelle et génératrice. »"
+      ]
     }
   ]
 }
