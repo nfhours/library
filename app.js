@@ -707,7 +707,7 @@
     var pos = it.part ? t("position",{part:it.part,page:it.page}) : t("positionPage",{page:it.page});
     var imgBase = BASE+"books/"+book.slug+"/img/";
     var pagesBase = BASE+"books/"+book.slug+"/pages/";
-    var imgs=(it.img||[]).map(function(src,k){
+    var imgs=(it.textOnly ? [] : (it.img||[])).map(function(src,k){
       return '<figure class="ic-fig" data-src="'+esc(imgBase+src)+'"><img class="ic-fade-img" loading="lazy" src="'+esc(imgBase+src)+'" alt="'+esc(t("engravingAlt",{title:titleOf(it)}))+'">'+
         (it.img.length>1?'<figcaption>'+t("figOf",{k:k+1,n:it.img.length})+'</figcaption>':"")+'</figure>';
     }).join("");
