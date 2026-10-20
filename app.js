@@ -213,11 +213,30 @@
   // text under a "Translation" label. So the FR-translation reading of
   // text_fr is opt-in per book (book.meta.frIsTranslation), set only for
   // books where text_fr is a genuine French translation of the source
-  // (e.g. Cartari, translated from Italian).
+  // (e.g. Cartari, translated from Italian). A third case: book.meta.
+  // sourceIsFrench, for books whose ORIGINAL is already French (Audran,
+  // Grosson, Iconologie) — there text_fr IS both the original and the
+  // correct thing to show as "Translation" when lang is fr, since nothing
+  // needs translating. text_frtrans is a genuine new French translation,
+  // used (e.g. Alciato, translated from Latin) distinct from the original-
+  // language text_fr shown separately in the "Original" panel.
   function textFor(it, book){
-    if(state.lang==="fr" && book && book.meta && book.meta.frIsTranslation && it.text_fr && it.text_fr.length) return it.text_fr;
+    if(state.lang==="fr"){
+      if(it.text_frtrans && it.text_frtrans.length) return it.text_frtrans;
+      if(book && book.meta && (book.meta.frIsTranslation || book.meta.sourceIsFrench) && it.text_fr && it.text_fr.length) return it.text_fr;
+    }
     if(state.lang==="en" && it.text_en && it.text_en.length) return it.text_en;
     return it.text_ru;
+  }
+  // True when the "Original" text_fr panel would just repeat what textFor()
+  // is already showing in the Translation section (lang is fr, no genuine
+  // text_frtrans, and text_fr is being reused as the French original-as-
+  // translation via sourceIsFrench). Hide the Original panel's text view in
+  // that case to avoid showing the identical paragraph twice.
+  function fuOrigIsDup(it, book){
+    return state.lang==="fr" && !(it.text_frtrans && it.text_frtrans.length) &&
+      !(book && book.meta && book.meta.frIsTranslation) &&
+      !!(book && book.meta && book.meta.sourceIsFrench);
   }
 
   /* ---------- загрузка библиотеки и книг ---------- */
@@ -702,7 +721,7 @@
     var transl=paraHtml(translArr);
     var showOrig = book.meta.showOriginal !== false;
     var hasScans = showOrig && it.scans && it.scans.length;
-    var hasFr = showOrig && !book.meta.frIsTranslation && it.text_fr && it.text_fr.length;
+    var hasFr = showOrig && !book.meta.frIsTranslation && it.text_fr && it.text_fr.length && !fuOrigIsDup(it, book);
     var plateLink = (book.meta.viewer==="plate" && it.plate!=null)
       ? '<p class="ic-plate-link"><a href="'+esc(hrefFor(book,"plate/"+it.plate))+'">'+t("plateLink")+'</a></p>' : "";
     var fieldsHtml = "";
@@ -759,7 +778,7 @@
   /* ---------- раздел «Оригинал»: скан / французский текст ---------- */
   function renderOriginal(it,book){
     var hasScans = it.scans && it.scans.length;
-    var hasFr = !(book && book.meta && book.meta.frIsTranslation) && it.text_fr && it.text_fr.length;
+    var hasFr = !(book && book.meta && book.meta.frIsTranslation) && it.text_fr && it.text_fr.length && !fuOrigIsDup(it, book);
     var defaultView = hasScans ? "scan" : "text";
     return '<details class="ic-details ic-original"><summary>'+t("originalSec")+'</summary>'+
       '<div class="ic-orig-body" data-loaded="0">'+
@@ -866,7 +885,7 @@
     var transl = paraHtml(translArr);
     var showOrig = book.meta.showOriginal !== false;
     var hasScans = showOrig && it.scans && it.scans.length;
-    var hasFr = showOrig && !book.meta.frIsTranslation && it.text_fr && it.text_fr.length;
+    var hasFr = showOrig && !book.meta.frIsTranslation && it.text_fr && it.text_fr.length && !fuOrigIsDup(it, book);
     if(!fieldsHtml && !transl){
       return imgHtml+'<div class="ic-missing"><b>'+t("missing")+'</b></div>';
     }
