@@ -3304,6 +3304,94 @@
       "text_fr": [
         "« ...il s'en est trouvé pour dire que la vertu vaut peu sans elle [la bonne Fortune] : et que, bien qu'elle mène à de hautes entreprises et à un nom glorieux, nous n'y parviendrons jamais, ou seulement avec grand peine, si elle ne nous accompagne... la bonne Fortune va presque toujours de pair avec l'Éloquence et avec le Savoir. »"
       ]
+    },
+    {
+      "id": "cartm42",
+      "num": "42",
+      "page": "42",
+      "fr": "Iride",
+      "ru": "Ирида",
+      "en": "Iris",
+      "name_fr": "Iris",
+      "img": [
+        "cartm42.jpg"
+      ],
+      "caption": "Imagine di Iride mesaggiera di Giunone, figliuola di Taumante e di Elettra, con le penne quasi rotonde.",
+      "text_ru": [
+        "«Образ Ириды, вестницы Юноны, дочери Тавманта и Электры, с почти округлыми перьями»."
+      ],
+      "text_en": [
+        "“Image of Iris, messenger of Juno, daughter of Thaumas and Electra, with almost round feathers.”"
+      ],
+      "text_fr": [
+        "« Image d'Iris, messagère de Junon, fille de Thaumas et d'Électre, aux plumes presque rondes. »"
+      ]
+    },
+    {
+      "id": "cartm43",
+      "num": "43",
+      "page": "43",
+      "fr": "Le Sirene",
+      "ru": "Сирены",
+      "en": "The Sirens",
+      "name_fr": "Les Sirènes",
+      "img": [
+        "cartm43.jpg"
+      ],
+      "caption": "Imagine delle Sirene attratto detto dà Porti, quali vestigi, & perfetto il nauigante, & fortuna, fingle, & porgie far o che si mortali esca.",
+      "text_ru": [
+        "«Образ Сирен, манящих мореходов, что подстерегают их на пути и сладкоголосым обманом влекут смертных на гибель»."
+      ],
+      "text_en": [
+        "“Image of the Sirens, luring sailors, who lie in wait along their course and, with sweet deceit, draw mortals to their doom.”"
+      ],
+      "text_fr": [
+        "« Image des Sirènes, qui attirent les marins, les guettant sur leur route et, par une douce tromperie, entraînent les mortels à leur perte. »"
+      ]
+    },
+    {
+      "id": "cartm44",
+      "num": "44",
+      "page": "44",
+      "fr": "Esculapio",
+      "ru": "Эскулап",
+      "en": "Aesculapius",
+      "name_fr": "Esculape",
+      "img": [
+        "cartm44.jpg"
+      ],
+      "caption": "Imagine di Esculapio Dio della Medicina co gli animali & altri strumenti significando la efficacia della Medicina, & l'effetto del buon Medico, inteso anco per l'aria purgata apportatrice di sanità.",
+      "text_ru": [
+        "«Образ Эскулапа, бога Медицины, с животными и прочими орудиями, означающими действенность Медицины и труд доброго Врача, а также очищенный воздух, несущий здоровье»."
+      ],
+      "text_en": [
+        "“Image of Aesculapius, god of Medicine, with animals and other instruments signifying the efficacy of Medicine and the work of the good Physician, understood also as purified air bringing health.”"
+      ],
+      "text_fr": [
+        "« Image d'Esculape, dieu de la Médecine, avec des animaux et d'autres instruments signifiant l'efficacité de la Médecine et l'œuvre du bon Médecin, compris aussi comme l'air purifié apportant la santé. »"
+      ]
+    },
+    {
+      "id": "cartm45",
+      "num": "45",
+      "page": "45",
+      "fr": "Cerere Siciliana",
+      "ru": "Церера Сицилийская",
+      "en": "Sicilian Ceres",
+      "name_fr": "Cérès sicilienne",
+      "img": [
+        "cartm45.jpg"
+      ],
+      "caption": "Imagine di Cerere Siciliana inuentrice, & dea significante delle biade, & del suo carro tirata da Draconi, la quale essendo che le biade nascono à poco à poco in vari paesi, & porgono à varii tempi, diuersi frutti della terra ancora.",
+      "text_ru": [
+        "«Образ Сицилийской Цереры, изобретательницы и богини, означающей злаки, и её колесницы, влекомой драконами, — ибо злаки произрастают постепенно в разных странах и в разные времена приносят земле различные плоды»."
+      ],
+      "text_en": [
+        "“Image of the Sicilian Ceres, inventress and goddess signifying grain, and of her chariot drawn by Dragons — for grain springs up gradually in various lands, and at various times yields the earth's different fruits in turn.”"
+      ],
+      "text_fr": [
+        "« Image de Cérès sicilienne, inventrice et déesse signifiant les céréales, et de son char tiré par des Dragons — car les céréales poussent peu à peu en divers pays, et donnent en divers temps les différents fruits de la terre. »"
+      ]
     }
   ]
 }
