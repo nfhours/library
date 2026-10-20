@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "60";
+  var APP_VER = "61";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -49,6 +49,8 @@
     fPart1:       {ru:"Часть 1", en:"Part 1", fr:"Partie 1"},
     fPart2:       {ru:"Часть 2", en:"Part 2", fr:"Partie 2"},
     fReady:       {ru:"С гравюрой и переводом", en:"With engraving and translation", fr:"Avec gravure et traduction"},
+    fWithImg:     {ru:"С гравюрой", en:"With engraving", fr:"Avec gravure"},
+    fNoImg:       {ru:"Без гравюры", en:"Without engraving", fr:"Sans gravure"},
     sBook:        {ru:"Как в книге", en:"As in the book", fr:"Comme dans le livre"},
     sAlpha:       {ru:"По алфавиту", en:"Alphabetical", fr:"Par ordre alphabétique"},
     sPage:        {ru:"По странице", en:"By page", fr:"Par page"},
@@ -468,6 +470,8 @@
       if(state.filter==="1" && it.part!==1) return false;
       if(state.filter==="2" && it.part!==2) return false;
       if(state.filter==="ready" && !ready(it, book)) return false;
+      if(state.filter==="withimg" && it.textOnly) return false;
+      if(state.filter==="noimg" && !it.textOnly) return false;
       return !nq || nq.split(/\s+/).every(function(w){ return it.key.indexOf(w)>-1; });
     });
     if(state.sort==="ru") res.sort(function(a,b){ return titleOf(a).localeCompare(titleOf(b),state.lang==="ru"?"ru":state.lang); });
@@ -490,6 +494,7 @@
   function renderIndex(book){
     restoreState(book.slug);
     var multiPart = book.meta.parts && book.meta.parts.length > 1;
+    var hasTextOnly = book.items.some(function(it){ return it.textOnly; });
     root.innerHTML =
       '<div class="ic-wrap">'+
         '<div class="ic-top-row">'+(forcedBook?"":'<button type="button" class="ic-to-lib-link ic-back">'+t("toLibrary")+'</button>')+
@@ -501,6 +506,7 @@
           '<span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("searchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("searchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
           '<div class="ic-row"><div class="ic-seg" role="group" aria-label="Filter">'+
             chip("all",t("fAll"))+(multiPart?chip("1",t("fPart1"))+chip("2",t("fPart2")):"")+
+            (hasTextOnly?chip("withimg",t("fWithImg"))+chip("noimg",t("fNoImg")):"")+
           '</div><select class="ic-sort" aria-label="Sort">'+
             opt("book",t("sBook"))+opt("ru",t("sAlpha"))+opt("page",t("sPage"))+
           '</select></div>'+
