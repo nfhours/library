@@ -2911,6 +2911,87 @@
       "text_fr": [
         "« Les images de Janus, entendu aussi comme le Soleil, comme le Temps, comme le dieu de l'année et de la paix, signifient aussi les deux lumières de notre âme : la lumière divine et la lumière naturelle. »"
       ]
+    },
+    {
+      "id": "cartm8",
+      "num": "8",
+      "page": "8",
+      "fr": "Imagini delle quattro stagioni dell'anno",
+      "ru": "Образы четырёх времён года",
+      "en": "The images of the four seasons of the year",
+      "img": [
+        "cartm8.jpg"
+      ],
+      "scans": [
+        "cartm8.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagini delle quattro stagioni dell'anno, dinotanti gli effetti & essercitij di quelle, con gli animali à loro sacrati, che pur dimostrano la natura della stagione.",
+      "text_ru": [
+        "«Образы четырёх времён года, означающие их воздействия и занятия, со священными им животными, которые также показывают природу каждого времени года»."
+      ],
+      "text_en": [
+        "“The images of the four seasons of the year, denoting their effects and occupations, with the animals sacred to them, which likewise show the nature of the season.”"
+      ],
+      "name_fr": "Les images des quatre saisons de l'année",
+      "text_fr": [
+        "« Les images des quatre saisons de l'année, indiquant leurs effets et leurs occupations, avec les animaux qui leur sont sacrés, qui montrent aussi la nature de la saison. »"
+      ]
+    },
+    {
+      "id": "cartm9",
+      "num": "9",
+      "page": "9",
+      "fr": "Tempio di Giano, Dio della pace e della guerra",
+      "ru": "Храм Януса, бога мира и войны",
+      "en": "The Temple of Janus, god of peace and war",
+      "img": [
+        "cartm9.jpg"
+      ],
+      "scans": [
+        "cartm9.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Tempio di Giano Dio della pace, & della guerra, ilquale staua serrato in tempo di pace, & aperto nella guerra, inteso per il Cielo, ilquale girandosi influisce hora pace, hora guerra.",
+      "text_ru": [
+        "«Храм Януса, бога мира и войны, который был заперт во время мира и открыт во время войны; понимается как Небо, которое, вращаясь, ниспосылает то мир, то войну»."
+      ],
+      "text_en": [
+        "“The Temple of Janus, god of peace and of war, which stood closed in time of peace, and open in war; understood as Heaven, which, by its turning, sends down now peace, now war.”"
+      ],
+      "name_fr": "Le Temple de Janus, dieu de la paix et de la guerre",
+      "text_fr": [
+        "« Le Temple de Janus, dieu de la paix et de la guerre, qui restait fermé en temps de paix et ouvert en temps de guerre ; entendu comme le Ciel, qui, en tournant, envoie tantôt la paix, tantôt la guerre. »"
+      ]
+    },
+    {
+      "id": "cartm10",
+      "num": "10",
+      "page": "10",
+      "fr": "Imagine del Sole, ovvero Febo, e di Giove presso gli Assiri",
+      "ru": "Образ Солнца, или Феба, и Юпитера у ассирийцев",
+      "en": "The image of the Sun, or Phoebus, and of Jove among the Assyrians",
+      "img": [
+        "cartm10.jpg"
+      ],
+      "scans": [
+        "cartm10.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine del Sole ò Febo, & di Gioue apo gli Assirij tenuti per vna medesima cosa, intesi da loro per l'anima del mondo, & il loro potere esser congionto insieme.",
+      "text_ru": [
+        "«Образ Солнца, или Феба, и Юпитера, которые у ассирийцев почитались за одно и то же, понимаемые ими как душа мира, и их сила считалась единой, соединённой воедино»."
+      ],
+      "text_en": [
+        "“The image of the Sun, or Phoebus, and of Jove, held by the Assyrians to be one and the same thing, understood by them as the soul of the world, their power being joined together as one.”"
+      ],
+      "name_fr": "L'image du Soleil, ou Phébus, et de Jupiter chez les Assyriens",
+      "text_fr": [
+        "« L'image du Soleil, ou Phébus, et de Jupiter, tenus par les Assyriens pour une seule et même chose, entendus par eux comme l'âme du monde, leur pouvoir étant conjoint ensemble. »"
+      ]
     }
   ]
 }
