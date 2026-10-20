@@ -4028,6 +4028,50 @@
         "« Peithô, déesse de la parole et de l'éloquence. » (Ce livre ne donne pas de gravure distincte pour cette divinité — seulement une entrée dans le catalogue des 100 dieux.)"
       ],
       "textOnly": true
+    },
+    {
+      "id": "cartm74",
+      "num": "74",
+      "page": "74",
+      "fr": "VOT PR (tavoletta votiva)",
+      "ru": "«VOT PR» (вотивная табличка)",
+      "en": "“VOT PR” (votive tablet)",
+      "name_fr": "« VOT PR » (tablette votive)",
+      "img": [
+        "cartm74.jpg"
+      ],
+      "caption": "(tavola discussa nel capitolo seguente, legata alla medaglia di Costantino con la Croce)",
+      "text_ru": [
+        "Два крылатых гения держат овальный щит с надписью «VOT PR» («Votis Publicis» — по общественному обету) над алтарём с крестом; гравюра связана с обсуждаемой на следующей странице медалью Константина с изображением креста."
+      ],
+      "text_en": [
+        "Two winged genii hold an oval shield inscribed “VOT PR” (“Votis Publicis” — by public vow) above an altar bearing a cross; the plate is tied to the medal of Constantine with the cross discussed on the facing page."
+      ],
+      "text_fr": [
+        "Deux génies ailés tiennent un bouclier ovale portant l'inscription « VOT PR » (« Votis Publicis » — par vœu public) au-dessus d'un autel marqué d'une croix ; la planche se rattache à la médaille de Constantin à la croix évoquée à la page suivante."
+      ]
+    },
+    {
+      "id": "cartm75",
+      "num": "75",
+      "page": "75",
+      "fr": "HOC SIGNO VICTOR ERIS (Costantino e la Vittoria)",
+      "ru": "«HOC SIGNO VICTOR ERIS» (Константин и Победа)",
+      "en": "“HOC SIGNO VICTOR ERIS” (Constantine and Victory)",
+      "name_fr": "« HOC SIGNO VICTOR ERIS » (Constantin et la Victoire)",
+      "img": [
+        "cartm75.jpg"
+      ],
+      "caption": "Io stimo non poco questa Medaglia, poiche pare, che molti si siano accordati à credere, che a Costantino apparisse il segno della Croce in aria... nelle due prime lettere del nome di CHRISTO scritto in greco... come portarono poi nell'Insegna maggiore dell'essercito gl'Imperatori seguenti... per la testimonianza di Costanzo suo figliuolo, che fece battere monete, come qui sotto col motto HOC SIGNO VICTOR ERIS.",
+      "text_ru": [
+        "«Я весьма ценю эту медаль, ибо, кажется, многие сошлись во мнении, что Константину явился в воздухе знак Креста... в двух первых буквах имени ХРИСТОС, написанных по-гречески... которые затем последующие императоры стали носить на главном знамени войска... о чём свидетельствует и его сын Констанций, повелевший отчеканить монеты, как здесь, с девизом HOC SIGNO VICTOR ERIS (сим знаком победишь)»."
+      ],
+      "text_en": [
+        "“I value this medal not a little, since it seems that many have agreed to believe that the sign of the Cross appeared to Constantine in the sky... in the first two letters of the name of CHRIST written in Greek... which the emperors who followed then bore on the army's chief standard... as attested also by his son Constantius, who had coins struck, as shown here, with the motto HOC SIGNO VICTOR ERIS (by this sign thou shalt conquer).”"
+      ],
+      "text_fr": [
+        "« J'estime beaucoup cette médaille, car il semble que beaucoup se soient accordés à croire que le signe de la Croix apparut à Constantin dans le ciel... dans les deux premières lettres du nom du CHRIST écrites en grec... que les empereurs suivants portèrent ensuite sur l'étendard principal de l'armée... comme en témoigne aussi son fils Constance, qui fit frapper des monnaies, comme ici, avec la devise HOC SIGNO VICTOR ERIS (par ce signe tu vaincras). »"
+      ]
     }
   ]
 }
