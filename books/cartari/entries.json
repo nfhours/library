@@ -3436,6 +3436,50 @@
       "text_fr": [
         "« Image d'Apollon et d'Hercule se disputant le Trépied, et de Latone et Diane apaisant Apollon, et de Minerve apaisant Hercule : signifiant la colère d'Hercule contre l'oracle d'Apollon pour n'en avoir pas reçu de réponse, colère ensuite adoucie une fois la réponse obtenue ; et le Trépied est signe d'honneur, d'estime, de vertu héroïque et de vérité. »"
       ]
+    },
+    {
+      "id": "cartm48",
+      "num": "48",
+      "page": "48",
+      "fr": "Le tre Parche (Cloto, Lachesis, Atropos)",
+      "ru": "Три Парки (Клото, Лахесис, Атропос)",
+      "en": "The three Fates (Clotho, Lachesis, Atropos)",
+      "name_fr": "Les trois Parques (Clotho, Lachésis, Atropos)",
+      "img": [
+        "cartm48.jpg"
+      ],
+      "caption": "Imagini della tre Parche trouate secondo Pietro Appiano in Stiria del 1500. interpretate Cloto euocatione cioè principio di vita, Lachesi forte cioè vso, & casino, o corso di vita, dirapo senza ordine, cioè necessità & varietà della morte à tutte le cose del mondo commune.",
+      "text_ru": [
+        "«Образы трёх Парок, найденные, по сообщению Петра Апиана, в Штирии в 1500 году; истолкованы так: Клото — призвание, то есть начало жизни; Лахесис — жребий, то есть случай или ход жизни; Атропос — без порядка, то есть неизбежность и непостоянство смерти, общей для всего мира»."
+      ],
+      "text_en": [
+        "“Images of the three Fates, found, according to Petrus Apianus, in Styria in the year 1500; interpreted thus: Clotho — the calling forth, that is the beginning of life; Lachesis — the lot, that is chance or the course of life; Atropos — without order, that is the necessity and inconstancy of death, common to all things in the world.”"
+      ],
+      "text_fr": [
+        "« Images des trois Parques, trouvées, selon Pierre Apian, en Styrie en l'an 1500 ; interprétées ainsi : Clotho — l'appel, c'est-à-dire le commencement de la vie ; Lachésis — le sort, c'est-à-dire le hasard ou le cours de la vie ; Atropos — sans ordre, c'est-à-dire la nécessité et l'inconstance de la mort, commune à toutes choses du monde. »"
+      ]
+    },
+    {
+      "id": "cartm49",
+      "num": "49",
+      "page": "49",
+      "fr": "Caronte",
+      "ru": "Харон",
+      "en": "Charon",
+      "name_fr": "Charon",
+      "img": [
+        "cartm49.jpg"
+      ],
+      "caption": "Imagine di Charonte nocchiero infernale nel fiume tenebroso Acheronte, con vna sua barca, & remo, tutto però il tempo consumatore della vita, & altri effetti suoi denota ancora la miseria, & infelicità della vita humana.",
+      "text_ru": [
+        "«Образ Харона, адского кормчего на мрачной реке Ахеронт, с его лодкой и веслом; он же есть Время, истребляющее жизнь, и своими прочими чертами означает также нищету и злосчастие человеческой жизни»."
+      ],
+      "text_en": [
+        "“Image of Charon, infernal ferryman on the dark river Acheron, with his boat and oar; he is also Time, the consumer of life, and his other features likewise denote the misery and unhappiness of human life.”"
+      ],
+      "text_fr": [
+        "« Image de Charon, nocher infernal sur le sombre fleuve Achéron, avec sa barque et sa rame ; il est aussi le Temps, consumateur de la vie, et ses autres traits dénotent de même la misère et le malheur de la vie humaine. »"
+      ]
     }
   ]
 }
