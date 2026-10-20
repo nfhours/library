@@ -3721,6 +3721,87 @@
       "text_fr": [
         "« L'image d'Isis, déesse des Égyptiens, qui est la Lune, avec des instruments dans les mains désignant la nature du Nil et de l'Égypte, les Éclipses lunaires, et ses autres effets tant sur les eaux que sur les éléments. »"
       ]
+    },
+    {
+      "id": "cartm38",
+      "num": "38",
+      "page": "38",
+      "fr": "Imagine del Dio creatore degli Egizi e di Giove",
+      "ru": "Образ бога-творца египтян и Юпитера",
+      "en": "The image of the creator-god of the Egyptians and of Jove",
+      "img": [
+        "cartm38.jpg"
+      ],
+      "scans": [
+        "cartm38.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine del Dio creatore de gli Egittij, & di Gioue dio delli dei de gli antichi etnici, che dinotano la natura di Dio, & la sua prouidenza, bontà, communicatione, & gouerno di tutte le cose.",
+      "text_ru": [
+        "«Образ бога-творца египтян и Юпитера, бога богов древних язычников, означающих природу Божества, Его провидение, благость, общение [с миром] и правление всеми вещами»."
+      ],
+      "text_en": [
+        "“The image of the creator-god of the Egyptians, and of Jove, god of the gods of the ancient pagans, denoting the nature of God, and His providence, goodness, communication, and government of all things.”"
+      ],
+      "name_fr": "L'image du dieu créateur des Égyptiens et de Jupiter",
+      "text_fr": [
+        "« L'image du dieu créateur des Égyptiens, et de Jupiter, dieu des dieux des anciens païens, indiquant la nature de Dieu, et sa providence, sa bonté, sa communication et son gouvernement de toutes choses. »"
+      ]
+    },
+    {
+      "id": "cartm39",
+      "num": "39",
+      "page": "39",
+      "fr": "Imagine di Giove, dio degli dei degli Antichi",
+      "ru": "Образ Юпитера, бога богов древних",
+      "en": "The image of Jove, god of the gods of the Ancients",
+      "img": [
+        "cartm39.jpg"
+      ],
+      "scans": [
+        "cartm39.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine di Gioue dio delli dei de gli Antichi significante la potenza & prouidenza di Dio, & lui esser il fattore mantenitore del tutto, & da lui prouenire l'armonia de gli orbi celesti.",
+      "text_ru": [
+        "«Образ Юпитера, бога богов древних, означающий могущество и провидение Божие, и то, что Он — творец и хранитель всего сущего, и что от Него происходит гармония небесных сфер»."
+      ],
+      "text_en": [
+        "“The image of Jove, god of the gods of the Ancients, signifying the power and providence of God, and that He is the maker and sustainer of all things, and that from Him proceeds the harmony of the celestial spheres.”"
+      ],
+      "name_fr": "L'image de Jupiter, dieu des dieux des Anciens",
+      "text_fr": [
+        "« L'image de Jupiter, dieu des dieux des Anciens, signifiant la puissance et la providence de Dieu, et qu'il est le créateur et le soutien de toutes choses, et que de lui procède l'harmonie des sphères célestes. »"
+      ]
+    },
+    {
+      "id": "cartm40",
+      "num": "40",
+      "page": "40",
+      "fr": "Imagine di Giove fulgorante contro gli spergiuri",
+      "ru": "Образ громовержца Юпитера против клятвопреступников",
+      "en": "The image of thundering Jove against perjurers",
+      "img": [
+        "cartm40.jpg"
+      ],
+      "scans": [
+        "cartm40.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine di Gioue folgorante contro li Spergiuri nominato Gioue horcio, custode del giuramento, & seuero castigatore & distruggitore di quelli, che giurano il falso, & di quelli, che erano facili al giurare.",
+      "text_ru": [
+        "«Образ громовержца Юпитера против клятвопреступников, именуемого Юпитером Орцием, хранителем клятвы и суровым карателем и губителем тех, кто клянётся ложно, а также тех, кто легко прибегает к клятвам»."
+      ],
+      "text_en": [
+        "“The image of Jove hurling thunderbolts against Perjurers, named Jove Horcius, guardian of the oath, and stern punisher and destroyer of those who swear falsely, and of those who were too quick to swear.”"
+      ],
+      "name_fr": "L'image de Jupiter foudroyant contre les parjures",
+      "text_fr": [
+        "« L'image de Jupiter foudroyant contre les Parjures, nommé Jupiter Horcius, gardien du serment, et sévère châtieur et destructeur de ceux qui jurent faussement, et de ceux qui juraient trop facilement. »"
+      ]
     }
   ]
 }
