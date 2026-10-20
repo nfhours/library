@@ -4693,6 +4693,87 @@
       "text_fr": [
         "« Les images de Clotho, Lachésis et Atropos, appelées les trois Parques, dont les anciens disaient qu'elles tenaient entre leurs mains la vie et la mort de tous, signifiant les changements de la vie, d'où naissent sa longueur et sa brièveté, entendues aussi comme le sort et le destin. »"
       ]
+    },
+    {
+      "id": "cartm74",
+      "num": "74",
+      "page": "74",
+      "fr": "Imagine della Necessità e delle tre Parche",
+      "ru": "Образ Необходимости и трёх Парок",
+      "en": "The image of Necessity and the three Fates",
+      "img": [
+        "cartm74.jpg"
+      ],
+      "scans": [
+        "cartm74.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine della Necessità, & del fuso adamantino trauersando il mondo, & imagini delle tre Parche figliuole della Necessità nominate Cloto, Atropo, e Lachesi, denotanti li tre tempi & tre stati della vita, passato, presente, e venturo; dinotano ancora il destino secondo gli antichi.",
+      "text_ru": [
+        "«Образ Необходимости и адамантовой прялки, пронизывающей мир, а также образы трёх Парок, дочерей Необходимости, именуемых Клото, Атропос и Лахесис, означающих три времени и три состояния жизни — прошедшее, настоящее и будущее; означают они также судьбу, по мнению древних»."
+      ],
+      "text_en": [
+        "“The image of Necessity, and of the adamantine spindle passing through the world, and the images of the three Fates, daughters of Necessity, named Clotho, Atropos, and Lachesis, denoting the three times and three states of life — past, present, and to come; they also denote destiny, according to the ancients.”"
+      ],
+      "name_fr": "L'image de la Nécessité et des trois Parques",
+      "text_fr": [
+        "« L'image de la Nécessité, et du fuseau adamantin traversant le monde, et les images des trois Parques, filles de la Nécessité, nommées Clotho, Atropos et Lachésis, indiquant les trois temps et trois états de la vie — passé, présent et à venir ; elles indiquent aussi le destin, selon les anciens. »"
+      ]
+    },
+    {
+      "id": "cartm75",
+      "num": "75",
+      "page": "75",
+      "fr": "Imagini delle tre Parche trovate in Stiria",
+      "ru": "Образы трёх Парок, найденные в Штирии",
+      "en": "The images of the three Fates found in Styria",
+      "img": [
+        "cartm75.jpg"
+      ],
+      "scans": [
+        "cartm75.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagini delle tre Parche trouate secondo Pietro Appiano in Stiria del 1500. interpretate Cloto euocatione cioè principio di vita, Lachesi sorte cioè vso, e camino, o corso di vita, Atropo senza ordine, cioè necessità & varietà della morte à tutte le cose del mondo comune.",
+      "text_ru": [
+        "«Образы трёх Парок, найденные, согласно Пьетро Апиано, в Штирии в 1500 году, толкуемые так: Клото — воззвание, то есть начало жизни; Лахесис — жребий, то есть обычай и путь, или течение жизни; Атропос — без порядка, то есть необходимость и разнообразие смерти, общей для всех вещей мира»."
+      ],
+      "text_en": [
+        "“The images of the three Fates found, according to Peter Apian, in Styria in 1500, interpreted thus: Clotho, evocation, that is, the beginning of life; Lachesis, lot, that is, the custom and path, or course of life; Atropos, without order, that is, the necessity and variety of death common to all things of the world.”"
+      ],
+      "name_fr": "Les images des trois Parques trouvées en Styrie",
+      "text_fr": [
+        "« Les images des trois Parques trouvées, selon Pierre Apian, en Styrie en 1500, interprétées ainsi : Clotho, l'évocation, c'est-à-dire le commencement de la vie ; Lachésis, le sort, c'est-à-dire l'usage et le chemin, ou le cours de la vie ; Atropos, sans ordre, c'est-à-dire la nécessité et la variété de la mort, commune à toutes les choses du monde. »"
+      ]
+    },
+    {
+      "id": "cartm76",
+      "num": "76",
+      "page": "76",
+      "fr": "Imagine di Caronte, nocchiero infernale",
+      "ru": "Образ Харона, адского перевозчика",
+      "en": "The image of Charon, the infernal ferryman",
+      "img": [
+        "cartm76.jpg"
+      ],
+      "scans": [
+        "cartm76.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine di Charonte nocchiero infernale nel fiume nero di Acheronte, con vna sua barca, & remo, inteso per il tempo consumatore della vita, distruggitore di tutte le cose, & altri effetti suoi dinota ancora la miseria, & infelicità della vita humana.",
+      "text_ru": [
+        "«Образ Харона, адского перевозчика на чёрной реке Ахеронт, с его ладьёй и веслом, понимаемого как время, пожирающее жизнь, разрушителя всех вещей; прочие же его свойства означают нищету и злосчастие жизни человеческой»."
+      ],
+      "text_en": [
+        "“The image of Charon, infernal ferryman on the black river Acheron, with his boat and oar, understood as time, the consumer of life, destroyer of all things; his other effects also denote the misery and unhappiness of human life.”"
+      ],
+      "name_fr": "L'image de Charon, le nocher infernal",
+      "text_fr": [
+        "« L'image de Charon, nocher infernal sur le fleuve noir de l'Achéron, avec sa barque et sa rame, entendu comme le temps, consumateur de la vie, destructeur de toutes choses ; ses autres effets indiquent aussi la misère et le malheur de la vie humaine. »"
+      ]
     }
   ]
 }
