@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "61";
+  var APP_VER = "62";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -702,7 +702,7 @@
     var transl=paraHtml(translArr);
     var showOrig = book.meta.showOriginal !== false;
     var hasScans = showOrig && it.scans && it.scans.length;
-    var hasFr = showOrig && it.text_fr && it.text_fr.length;
+    var hasFr = showOrig && !book.meta.frIsTranslation && it.text_fr && it.text_fr.length;
     var plateLink = (book.meta.viewer==="plate" && it.plate!=null)
       ? '<p class="ic-plate-link"><a href="'+esc(hrefFor(book,"plate/"+it.plate))+'">'+t("plateLink")+'</a></p>' : "";
     var fieldsHtml = "";
@@ -735,7 +735,7 @@
         (fieldsHtml?'<section class="ic-sec"><h3>'+t("infoSec")+'</h3><ul class="ic-attrs">'+fieldsHtml+'</ul></section>':"")+
         (attrs?'<section class="ic-sec"><h3>'+t("whatSec")+'</h3><ul class="ic-attrs">'+attrs+'</ul></section>':"")+
         (transl?'<section class="ic-sec"><h3>'+t("translSec")+'</h3><div class="ic-text">'+transl+'</div></section>':"")+
-        ((hasScans||hasFr)?renderOriginal(it):"")+
+        ((hasScans||hasFr)?renderOriginal(it,book):"")+
         (!imgs && !transl ? '<div class="ic-missing"><b>'+t("missing")+'</b><br>'+t("missingAt",{part:it.part,page:esc(it.page)})+'</div>':"")+
         '<div class="ic-pager">'+
           '<button type="button" data-go="'+(prev?prev.id:"")+'"'+(prev?"":" disabled")+'><small>'+t("pagerBack")+'</small><span>'+(prev?esc(prev.fr):"")+'</span>'+(prev?'<em>'+esc(titleOf(prev))+'</em>':"")+'</button>'+
@@ -757,9 +757,9 @@
   }
 
   /* ---------- раздел «Оригинал»: скан / французский текст ---------- */
-  function renderOriginal(it){
+  function renderOriginal(it,book){
     var hasScans = it.scans && it.scans.length;
-    var hasFr = it.text_fr && it.text_fr.length;
+    var hasFr = !(book && book.meta && book.meta.frIsTranslation) && it.text_fr && it.text_fr.length;
     var defaultView = hasScans ? "scan" : "text";
     return '<details class="ic-details ic-original"><summary>'+t("originalSec")+'</summary>'+
       '<div class="ic-orig-body" data-loaded="0">'+
@@ -866,14 +866,14 @@
     var transl = paraHtml(translArr);
     var showOrig = book.meta.showOriginal !== false;
     var hasScans = showOrig && it.scans && it.scans.length;
-    var hasFr = showOrig && it.text_fr && it.text_fr.length;
+    var hasFr = showOrig && !book.meta.frIsTranslation && it.text_fr && it.text_fr.length;
     if(!fieldsHtml && !transl){
       return imgHtml+'<div class="ic-missing"><b>'+t("missing")+'</b></div>';
     }
     return imgHtml+
       (fieldsHtml?'<section class="ic-sec"><h3>'+t("infoSec")+'</h3><ul class="ic-attrs">'+fieldsHtml+'</ul></section>':"")+
       (transl?'<section class="ic-sec"><h3>'+t("translSec")+'</h3><div class="ic-text">'+transl+'</div></section>':"")+
-      ((hasScans||hasFr)?renderOriginal(it):"");
+      ((hasScans||hasFr)?renderOriginal(it,book):"");
   }
   function bindObjectDetail(book, it, container){
     var pagesBase = BASE+"books/"+book.slug+"/pages/";
