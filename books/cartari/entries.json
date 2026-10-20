@@ -1460,22 +1460,20 @@
       "img": [
         "carta3.jpg"
       ],
-      "caption": "Nel Cameo s'è rappresentata Iside come si vede nelle Medaglie antiche di Hadriano, & Antonino Pio.",
+      "caption": "Nel Cameo s'è rappresentata Iside come si vede nelle Medaglie antiche di Hadriano, & Antonino Pio. è ben vero, che'l disegnatore s'è scordato di metterle in mano il Sistro, che vi si vede chiaramente. Et significa questa figura a mio giudicio il Nauigio d'Iside, del quale si fa mentione nel calendario Rustico antico. Et nella Med. d'Antonino si vede vn Faro di Porto, che tanto piu conferma la congettura. Leggasi Appuleio nell'11.",
       "text_ru": [
-        "«На камее представлена Изида, как видно на древних медалях Адриана и Антонина Пия»."
+        "«На камее представлена Изида, как видно на древних медалях Адриана и Антонина Пия. Правда, рисовальщик забыл вложить ей в руку систр, который на [медалях] отчётливо виден. И означает эта фигура, по моему суждению, «Навигиум Изиды» (праздник корабля Изиды), о котором упоминается в древнем сельском календаре. А на медали Антонина виден портовый маяк, что ещё более подкрепляет эту догадку. Пусть прочтёт Апулея, [книга] 11»."
       ],
       "text_en": [
-        "“On the cameo Isis is represented as she appears on the ancient medals of Hadrian and Antoninus Pius.”"
+        "“On the cameo Isis is represented as she appears on the ancient medals of Hadrian and Antoninus Pius. It is indeed true that the engraver forgot to place the Sistrum in her hand, which is clearly seen [on the medals]. And this figure signifies, in my judgement, the Navigium Isidis (the launching of Isis's ship), which is mentioned in the ancient rustic calendar. And on the Medal of Antoninus a Harbour Lighthouse is seen, which further confirms this conjecture. Let one read Apuleius, Book 11.”"
       ],
       "name_fr": "Isis sur un camée",
       "text_fr": [
-        "« Sur le camée est représentée Isis telle qu'elle paraît sur les médailles antiques d'Hadrien et d'Antonin le Pieux. »"
+        "« Sur le camée est représentée Isis telle qu'elle paraît sur les médailles antiques d'Hadrien et d'Antonin le Pieux. Il est bien vrai que le graveur a oublié de lui mettre le Sistre en main, qu'on voit clairement [sur les médailles]. Et cette figure signifie, à mon avis, le Navigium Isidis (la mise à l'eau du navire d'Isis), dont il est fait mention dans l'ancien calendrier rustique. Et sur la Médaille d'Antonin on voit un Phare de Port, ce qui confirme encore davantage cette conjecture. Qu'on lise Apulée, livre 11. »"
       ],
       "scans": [
         "carta3.jpg"
-      ],
-      "needsReview": true,
-      "reviewNote": "Caption text is confirmed correct (matches page 472 exactly), but the uploaded image shows three seated figures (woman nursing child, trident-bearing figure, armed warrior) rather than the Isis-with-sistrum cameo the caption describes. Likely the correct Isis image is on a neighboring page; not yet located."
+      ]
     },
     {
       "id": "carta4",
@@ -1806,9 +1804,7 @@
       ],
       "scans": [
         "carta15.jpg"
-      ],
-      "needsReview": true,
-      "reviewNote": "Caption text is confirmed to actually appear on page 515 (not page 514, where the current image carta15.jpg comes from — a dancing bacchic figure with herm pillars that likely belongs to a different, earlier entry). The real accompanying image for this Priapus/Apollo caption has not been located."
+      ]
     },
     {
       "id": "carta16",
@@ -2273,30 +2269,29 @@
       "id": "carta29",
       "num": "29",
       "page": "29",
-      "fr": "Il copricapo di Giunone (Gellio)",
-      "ru": "Головной убор Юноны (у Геллия)",
-      "en": "Juno's headdress (in Gellius)",
+      "fr": "Il berretto degli schiavi (nota a Gellio, continua carta28)",
+      "ru": "Шапка раба (заметка к Геллию, продолжение carta28)",
+      "en": "The slave's cap (note on Gellius, continuing carta28)",
       "group": "Пиньория: примечания",
       "group_en": "Pignoria's Annotations",
       "img": [
-        "carta29.jpg"
+        "carta28.jpg"
       ],
-      "caption": "Il luogo di Gellio è nel Lib. 7. al c. 4, cauato da Celio Sabino Giureconsulto antico, dal quale pare a me di sottrarre più tosto il contrario.",
+      "caption": "Il luogo di Gellio è nel Lib. 7. al c. 4. cauato da Celio Sabino Giureconsulto antico, dal quale pare a me di sottrarre più tosto il contrario; cioè che si vendessero co'l Cappello in testa alcuni Serui, per conto de' quali il venditor non hauesse poi in cosa alcuna a rifare al compratore. poiche il Cappello voleua dire, che ogn'vno nel comperarli badasse a casi suoi. per lo che statuirono altre volte gl'Edili, che i venditori di Schiaui si dechiarassero in publicare le qualità loro, & in vn come Cedolone dicessero s'erano fugitiui, vagabondi, ò simili. Et ciò si legge nel medesimo Gellio al Lib. 4. al cap. 2. & nel mio Commentario de' Serui a carte 31. Si che l'hauere il Cappello in capo (secondo il mio credere) voleua dire chi da in zara suo danno, & habbisi cura chi compra.",
       "text_ru": [
-        "«Это место у Геллия — в книге 7, глава 4, заимствовано у Целия Сабина, древнего правоведа, из которого мне представляется возможным вывести скорее обратное»."
+        "«Это место у Геллия находится в книге 7, глава 4, заимствовано у Целия Сабина, древнего правоведа, из которого мне представляется возможным вывести скорее обратное: а именно, что некоторых рабов продавали с шапкой на голове, за которых продавец впоследствии не нёс перед покупателем никакой ответственности. Ибо шапка означала, что каждый при покупке должен заботиться о своих собственных делах. Поэтому эдилы постановили в своё время, чтобы продавцы рабов объявляли их качества публично и в некоем подобии таблички указывали, были ли те беглыми, бродягами или тому подобное. Об этом же читается у того же Геллия в книге 4, глава 2, и в моём «Комментарии о рабах», лист 31. Так что иметь шапку на голове (по моему разумению) означало: кто идёт на риск — пусть сам терпит убыток, а покупатель пусть будет осторожен»."
       ],
       "text_en": [
-        "“This passage from Gellius is in Book 7, chapter 4, drawn from Caelius Sabinus, an ancient jurist, from whom it seems to me one might rather infer the contrary.”"
+        "“This passage from Gellius is in Book 7, chapter 4, drawn from Caelius Sabinus, an ancient jurist, from whom it seems to me one might rather infer the contrary: namely, that certain Slaves were sold wearing a Cap on their head, for whom the seller would afterward bear no responsibility whatsoever to the buyer. For the Cap meant that everyone, in buying them, should look to his own affairs. For which reason the Aediles at other times decreed that sellers of Slaves must declare their qualities publicly, and in a kind of placard state whether they were runaways, vagabonds, or the like. This is also read in the same Gellius, Book 4, chapter 2, and in my Commentary on Slaves, folio 31. So that wearing the Cap on the head (in my belief) meant: whoever takes the gamble bears his own loss, and let the buyer beware.”"
       ],
-      "name_fr": "La coiffure de Junon (chez Gellius)",
+      "name_fr": "Le bonnet de l'esclave (note sur Gellius, suite de carta28)",
       "text_fr": [
-        "« Ce passage de Gellius se trouve au livre 7, chapitre 4, tiré de Caelius Sabinus, ancien jurisconsulte, duquel il me semble pourtant qu'on pourrait plutôt tirer le contraire. »"
+        "« Ce passage de Gellius se trouve au livre 7, chapitre 4, tiré de Caelius Sabinus, ancien jurisconsulte, duquel il me semble pourtant qu'on pourrait plutôt tirer le contraire : à savoir que certains Esclaves étaient vendus coiffés d'un Bonnet, pour lesquels le vendeur n'avait ensuite aucune responsabilité envers l'acheteur. Car le Bonnet signifiait que chacun, en les achetant, devait veiller à ses propres affaires. C'est pourquoi les Édiles décrétèrent autrefois que les vendeurs d'Esclaves devaient déclarer publiquement leurs qualités, et indiquer sur une sorte d'écriteau s'ils étaient fugitifs, vagabonds, ou semblables. Cela se lit aussi chez le même Gellius, livre 4, chapitre 2, et dans mon Commentaire sur les Esclaves, folio 31. De sorte que porter le Bonnet sur la tête (selon mon opinion) signifiait : que celui qui prend le risque en subisse seul la perte, et que l'acheteur soit averti. »"
       ],
       "scans": [
-        "carta29.jpg"
+        "carta28.jpg"
       ],
-      "needsReview": true,
-      "reviewNote": "Image was wrongly showing the Liberty/pileus plate (page 481), which actually belongs to carta28 — moved there. The real image for this entry (Juno headdress, per Gellius) has not yet been located."
+      "textOnly": true
     },
     {
       "id": "carta30",
@@ -2681,30 +2676,29 @@
       "id": "carta44",
       "num": "44",
       "page": "44",
-      "fr": "La mano simbolica con la lira",
-      "ru": "Символическая рука с лирой",
-      "en": "The symbolic hand with a lyre",
+      "fr": "La mano simbolica con la lira (quarta Mano Pantea)",
+      "ru": "Символическая рука с лирой (четвёртая Пантеистическая рука)",
+      "en": "The symbolic hand with a lyre (fourth Pantheistic Hand)",
       "group": "Пиньория: примечания",
       "group_en": "Pignoria's Annotations",
       "img": [
         "carta44.jpg"
       ],
-      "caption": "Questo scherzo d'Archesilao... che io ho veduto in più d'vn antico Cupido in atto di tormentare, & punire chi non ama secondo le sue leggi Magiche.",
+      "caption": "(nessun testo proprio accompagna questa tavola nel libro; è un'ulteriore variante della serie delle \"Mani Pantee\" votive trattate da Pignoria nelle carte precedenti — vedi carta25, carta26, carta27)",
       "text_ru": [
-        "«Эта причудливая вещица Архесилая... какую я видел не в одном древнем изображении Купидона, карающего и наказующего того, кто не любит по его магическим законам»."
+        "(собственного текста к этой гравюре в книге нет; это ещё один вариант из серии вотивных «Пантеистических рук», рассматриваемых Пиньорией на предыдущих карточках — см. carta25, carta26, carta27)"
       ],
       "text_en": [
-        "“This whimsical piece of Archesilaus... which I have seen in more than one antique depiction of Cupid tormenting and punishing those who do not love according to his magical laws.”"
+        "(no text of its own accompanies this plate in the book; it is a further variant in the series of votive \"Pantheistic Hands\" discussed by Pignoria on the preceding plates — see carta25, carta26, carta27)"
       ],
-      "name_fr": "La main symbolique avec la lyre",
+      "name_fr": "La main symbolique avec la lyre (quatrième Main Panthée)",
       "text_fr": [
-        "« Ce caprice d'Archésilas... que j'ai vu sur plus d'une représentation antique de Cupidon tourmentant et punissant ceux qui n'aiment pas selon ses lois magiques. »"
+        "(aucun texte propre n'accompagne cette planche dans le livre ; il s'agit d'une nouvelle variante de la série des « Mains Panthées » votives traitées par Pignoria dans les planches précédentes — voir carta25, carta26, carta27)"
       ],
       "scans": [
         "carta44.jpg"
       ],
-      "needsReview": true,
-      "reviewNote": "Caption (\"Questo scherzo d'Archesilao...\") is duplicated from page 527 (carta41's page) and does not actually describe this image. The uploaded image itself (page 540, a symbolic hand holding a lyre) has no caption text of its own visible on the page; the correct description for it has not been located."
+      "textOnly": true
     },
     {
       "id": "carta45",
