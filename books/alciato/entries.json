@@ -2971,6 +2971,10 @@
       "text_en": [
         "¶Both born of Jove, both tender and beardless — / the one whom Latona bore, and the one whom Semele bore. / Hail, and flourish together in eternal youth; / by your divine will, may it last for me too. / You [Bacchus] heal with wine, you [Apollo] dissolve ills through regimen, / so that late old age may approach with slow foot."
       ],
+      "name_fr": "Sur la jeunesse",
+      "text_frtrans": [
+        "¶Tous deux fils de Jupiter, tous deux tendres et imberbes — / celui que Latone enfanta, et celui que Sémélé enfanta, / salut à vous, et fleurissez ensemble en une jeunesse éternelle ; / que par votre divine volonté elle me dure aussi longtemps. / Toi, par le vin, tu soignes les soucis ; toi, par le régime, tu dissous les maux, / afin que la tardive vieillesse n'approche que d'un pas lent."
+      ],
       "group_frtrans": "Nature."
     },
     {
@@ -2997,6 +3001,10 @@
       ],
       "text_en": [
         "¶The finch bird announces that winter has come. / To us, in new spring, the chattering swallow returns. / The cuckoo signals that summer is to be expected. / Only in autumn are figpeckers to be seen."
+      ],
+      "name_fr": "Sur les quatre saisons de l'année",
+      "text_frtrans": [
+        "¶L'oiseau pinson annonce l'arrivée de l'hiver. / Vers nous, au nouveau printemps, revient la bavarde hirondelle. / Le coucou indique qu'il faut attendre l'été. / Ce n'est qu'en automne qu'on peut voir les becfigues."
       ],
       "group_frtrans": "Nature."
     },
@@ -3025,6 +3033,10 @@
       "text_en": [
         "¶Receive this Nestorian mixing-bowl, twice cast, / which a heavy mass of silver poured forth as a work. / Four golden rivets stand around as handles: / upon each one sits a dove. / Only long-lived Nestor alone was able to lift it. / Would you teach, son of Maeonia [Homer], what the Muse means by this? / The cup itself is the heaven: its colour is silver; / golden are the stars of heaven — the rivets. / They think those are the Pleiades, which he called doves. / The twin bosses are the Bear, the greater and the lesser. / Wise Nestor understood this through long experience: / the brave wage wars, the shrewd one holds the stars."
       ],
+      "name_fr": "Astrologie. La coupe de Nestor",
+      "text_frtrans": [
+        "¶Reçois cette coupe de Nestor, à double fond, / qu'une lourde masse d'argent façonna de son travail. / Autour se dressent quatre anses à clous d'or : / sur chacune une colombe est posée. / Seul le très vieux Nestor put la soulever. / M'enseigneras-tu, fils de Méonie, ce que voulait dire la Muse ? / La coupe elle-même est le ciel : sa couleur en est argentée ; / les clous d'or sont les astres du ciel. / On pense que ce sont les Pléiades, qu'il appela colombes. / Les deux ombilics des anses, grande et petite, sont les Ourses. / Ceci, le sage Nestor le comprend par un long usage : / les braves font la guerre, l'habile possède les astres."
+      ],
       "group_frtrans": "Astrologie."
     },
     {
@@ -3051,6 +3063,10 @@
       ],
       "text_en": [
         "¶Prometheus, hanging forever on the Caucasian cliff, / has his liver torn by the claw of the sacred bird — / both for having opposed man's making, and, hating the potters [who shaped him], / he is condemned for the torch kindled from the stolen fire. / The hearts of the wise are gnawed by various cares, / those who aspire to know the affairs of heaven, and the changes of the gods."
+      ],
+      "name_fr": "Ce qui est au-dessus de nous ne nous regarde pas",
+      "text_frtrans": [
+        "¶Prométhée, à jamais suspendu au rocher du Caucase, / a le foie déchiré par la serre de l'oiseau sacré — / pour n'avoir pas voulu que l'homme fût fait, et, haïssant les potiers [créateurs], / il est condamné pour le flambeau allumé au feu dérobé. / Les cœurs des sages sont rongés de soucis divers, / eux qui prétendent connaître les affaires du ciel et les alternances des dieux."
       ],
       "group_frtrans": "Astrologie."
     },
@@ -3079,6 +3095,10 @@
       "text_en": [
         "¶Icarus, who was carried through the heights and the air, until / the melted wax cast you headlong into the sea — / now that same wax, and the burning fire, rouse you, / so that by your example you may teach certain doctrines. / Let the astrologer beware of predicting anything rashly, / for he too is an impostor, so long as he flies above the stars."
       ],
+      "name_fr": "Contre les astrologues",
+      "text_frtrans": [
+        "¶Icare, emporté au-dessus des cieux et de l'air, jusqu'à ce que / la cire fondue te précipitât dans la mer, / aujourd'hui cette même cire, et le feu brûlant, te ranime, / afin que par ton exemple tu enseignes des vérités certaines. / Que l'astrologue se garde de prédire quoi que ce soit à la légère, / car lui aussi est un imposteur, tant qu'il vole au-dessus des astres."
+      ],
       "group_frtrans": "Astrologie."
     },
     {
@@ -3105,6 +3125,10 @@
       ],
       "text_en": [
         "¶While he deceives thrushes with birdlime, while he snares larks, / and his thrown dart strikes a high-flying crane, / the unwary fowler treads upon a dipsas-serpent with his foot: avenging / the harm, it spews venom from its mouth. / So perishes the one who, bow drawn, gazes up at the stars, / heedless of the fate that lies right before his feet."
+      ],
+      "name_fr": "Ceux qui contemplent les hauteurs tombent",
+      "text_frtrans": [
+        "¶Tandis qu'avec la glu il trompe les grives, qu'au lacet il prend les alouettes, / et qu'il transperce d'un trait jeté la grue au vol élevé, / l'oiseleur imprudent du pied heurte une dipsade : celle-ci, / vengeresse du mal, de sa gueule lance le venin. / Ainsi meurt celui qui, l'arc bandé, regarde les astres, / insouciant du destin qui gît devant ses pieds."
       ],
       "group_frtrans": "Astrologie."
     },
@@ -3133,6 +3157,10 @@
       "text_en": [
         "¶Behold how the boy Cupid, vividly rendered in this gem, / conquers the unconquered strength of the lion, his charioteer: / how with one hand he holds the whip, with the other guides the reins, / and how much beauty is in the boy's face. / May this dread plague be far from us: for one able to conquer such a beast — / will he truly hold back his hands from us?"
       ],
+      "name_fr": "Amour. L'amour, passion la plus puissante",
+      "text_frtrans": [
+        "¶Vois comme l'invincible force du cocher-lion, / gravée sur cette gemme, un petit Amour la vainc plus nettement encore : / comme d'une main il tient le fouet, de l'autre il mène les rênes, / et combien de grâce habite le visage de l'enfant. / Que cette cruelle contagion reste loin de nous : car celui qui peut / vaincre une telle bête, épargnerait-il nos mains ?"
+      ],
       "group_frtrans": "Amour."
     },
     {
@@ -3159,6 +3187,10 @@
       ],
       "text_en": [
         "¶See how naked Love smiles and gazes serenely? / He has neither torches nor a bow to bend. / But in one hand he holds flowers, in the other a fish, / that is, so as to give laws to both land and sea."
+      ],
+      "name_fr": "La puissance de l'amour",
+      "text_frtrans": [
+        "¶Vois comme l'Amour nu rit, et regarde avec calme ? / Il n'a ni flambeau, ni arc qu'il courbe. / Mais l'une de ses mains porte des fleurs, l'autre un poisson, / à savoir pour donner ses lois à la terre et à la mer."
       ],
       "group_frtrans": "Amour."
     },
@@ -3187,6 +3219,10 @@
       "text_en": [
         "¶The winged god [Cupid] broke the winged thunderbolt [of Jove] with fire, / thereby showing that the fire of love is stronger."
       ],
+      "name_fr": "La force de l'amour",
+      "text_frtrans": [
+        "¶Le dieu ailé a brisé par le feu la foudre ailée, / montrant par là combien le feu de l'amour est plus fort."
+      ],
       "group_frtrans": "Amour."
     },
     {
@@ -3213,6 +3249,10 @@
       ],
       "text_en": [
         "¶Immersed in his studies, skilled in pleading and law, / and the greatest drafter of petitions, / he loves Helianira as much as ever the Thracian / prince loved his sister's rival. / Why, O Cyprian, have you again outdone Pallas before another judge? / Was it not enough to win once, beneath Ida?"
+      ],
+      "name_fr": "Sur un savant pris d'Amour",
+      "text_frtrans": [
+        "¶Plongé dans l'étude, habile en l'art de parler et en droit, / et le plus grand rédacteur de requêtes, / il aime Hélianire autant que jamais le prince de Thrace / n'aima la rivale de sa sœur. / Pourquoi, Cypris, as-tu de nouveau vaincu Pallas devant un autre juge ? / N'était-ce pas assez de vaincre une fois, sous l'Ida ?"
       ],
       "group_frtrans": "Amour."
     },
@@ -3241,6 +3281,10 @@
       "text_en": [
         "¶Tell me, where are your curved bows? Where are Cupid's arrows, / with which you are wont to pierce the soft hearts of youths? / Where is the gloomy torch? Where the wings? Why does your hand carry three garlands? / Why does another wreathe your temples? / — I am no common love, stranger: no pleasure, / nor any beauty equal to Cypris, has ever moved us, / but I kindle in men's pure minds the fires / of learning: I draw their souls up to the high stars. / And I myself weave four garlands of virtue, / of which the one belonging to Wisdom crowns the foremost brow."
       ],
+      "name_fr": "Antéros, c'est-à-dire l'amour de la vertu. En dialogue",
+      "text_frtrans": [
+        "¶« Dis-moi, où sont tes arcs recourbés ? où sont tes traits, Cupidon, / dont tu as coutume de percer les tendres cœurs des jeunes gens ? / Où est ton sombre flambeau ? où sont tes ailes ? pourquoi ta main porte-t-elle trois couronnes ? / Pourquoi tes tempes en portent-elles une autre encore ? » / « Je ne suis pas de ceux du commun, étranger : nulle volupté égale à Cypris, / nulle beauté ne nous a jamais émus, / mais j'allume dans les esprits purs des hommes les feux / du savoir : je tire les âmes vers les hautes étoiles. / Et moi-même je tresse quatre couronnes de vertu, / dont celle de la Sagesse ceint le premier mes tempes. »"
+      ],
       "group_frtrans": "Amour."
     },
     {
@@ -3267,6 +3311,10 @@
       ],
       "text_en": [
         "¶Nemesis painted him winged and hostile to the winged Love, / taming bow with bow, and fire with fire, / so that he might suffer what he did to others. And this boy, who once / bore his weapons fearlessly, now, wretched, weeps. / He spits three times, and — a wondrous thing — to his very depths / is burned by fire from fire: Love hates the furies of Love."
+      ],
+      "name_fr": "Antéros, l'amour de la vertu, vainquant l'autre Cupidon",
+      "text_frtrans": [
+        "¶Némésis l'a peint ailé, ennemi de l'Amour ailé, / domptant l'arc par l'arc, et le feu par le feu, / afin qu'il souffre ce qu'il fit subir aux autres. Et cet enfant, jadis / portant intrépidement ses armes, pleure à présent, misérable. / Trois fois il crache, et — chose étrange — jusqu'au fond de sa poitrine / il est consumé d'un feu par le feu : l'Amour hait les fureurs de l'Amour."
       ],
       "group_frtrans": "Amour."
     },
@@ -3295,6 +3343,10 @@
       "text_en": [
         "¶Having left his mother a little way off, the infant had withdrawn a short distance — / but you, dread bees, fell upon him. / He had come to you, thinking you gentle birds, / though even a fierce viper would not be so cruel. / Ah, what stings you give in return for the sweet gift of honey! / Oh the pain — alas, without you no pleasure is given."
       ],
+      "name_fr": "Le doux parfois devient amer",
+      "text_frtrans": [
+        "¶Sa mère laissée un peu à l'écart, l'enfant lydien / s'était éloigné un instant : mais vous, cruelles abeilles, l'avez assailli. / Il était venu vers vous, vous croyant de paisibles oiseaux, / alors que la vipère même, si farouche, ne l'eût pas été autant. / Ah, quels aiguillons vous donnez en échange du doux présent du miel ! / Ô douleur ! Hélas, sans toi nulle grâce ne se donne."
+      ],
       "group_frtrans": "Amour."
     },
     {
@@ -3321,6 +3373,10 @@
       ],
       "text_en": [
         "¶While stealing honey from the hives, a wicked bee / stung thieving Love and left its sting / in the tip of his finger: the boy groans, troubled by his swollen finger, / and wanders about stamping the ground; to Venus / he shows his pain, and complains bitterly that so small / a creature as a bee could inflict such painful wounds. / Laughing at him, Venus said: you too resemble / this creature, my son: small as you are, you deal just as many painful wounds."
+      ],
+      "name_fr": "Presque semblable, d'après Théocrite",
+      "text_frtrans": [
+        "¶Tandis qu'il butinait le miel des ruches, une méchante abeille piqua / le voleur Amour, et laissa son dard / au bout de ses doigts : l'enfant gémit, anxieux de son doigt enflé, / et, errant, frappe le sol du pied ; à Vénus sa douleur / il montre, et se plaint amèrement que si petite / créature, une abeille, puisse infliger de si cuisantes blessures. / Vénus, riant, lui dit : « Toi aussi tu ressembles / à cette bête, mon fils : petit, et pourtant tu causes tant de douloureuses blessures. »"
       ],
       "group_frtrans": "Amour."
     },
@@ -3349,6 +3405,10 @@
       "text_en": [
         "¶Who Love is, many Poets have sung of old, / relating his deeds under various names. / In this they agree: that he lacks clothing, that he is small of body, / bearing weapons and wings, and holding no eyes. / Such is the god's face, such his form. But if I may say so / against such great bards, I think falsehood lies beneath this. / For why would he act naked? As though a god lacked a cloak, / who possesses all the riches of the conquered world. / Or how could he, naked, endure the snowy north wind / and the Alpine meadows bound in frost? / If he is a boy, do you call him a boy who surpasses even Nestor? / Do you not know the learned songs of the old man of Ascra [Hesiod]? / An inconstant boy — yet stubborn here: a heart he has / once entered, he can never willingly leave. / But he carries quiver and arrows — what use is this useless weight? / Can an infant bend so hard a bow? / He holds curved wings, not knowing how to bear them into the sky? / Unskilled, yet he pierces the liver of flying birds with his dart. / He creeps along the ground, and always wounds the mortal / hearts of men: yet, being stony, he moves no wing at all from there. / If he is blind and wears a blindfold, what use is a band to a blind man? / Does he therefore see any less? / And who would trust an archer deprived of sight? / Yet he surely moves his shafts, though blind, while others' are in vain. / They say he is fiery, and turns flames in his breast. / Why then does he still live? Fire devours everything. / Why, too, is he not quenched by the swelling waves, / whenever he enters the soft hearts of the Naiads? / But you, lest you be caught in such great errors, listen: / what true Love is, our verses will tell. / It is pleasant labor amid wanton leisure; its sign / is a Punic [pomegranate] seed upon a black shield."
       ],
+      "name_fr": "Sur la statue de l'Amour",
+      "text_frtrans": [
+        "¶Qui est l'Amour, bien des poètes jadis l'ont chanté, / rapportant ses hauts faits sous des noms divers. / Sur un point ils s'accordent : qu'il est sans vêtement, petit de corps, / qu'il porte traits et ailes, et n'a point d'yeux. / Tel est, dit-on, le visage et l'habit du dieu. Mais s'il est permis / de contredire de si grands poètes, je crois qu'il y a là du faux. / Pourquoi agirait-il nu ? comme si manquaient les manteaux à ce dieu / qui possède toutes les richesses du monde soumis. / Ou comment, nu, pourrait-il supporter Borée et les neiges, / et les prés alpins figés de gel ? / S'il est enfant, appelles-tu enfant celui qui surpasse Nestor ? / Ne connais-tu pas les doctes chants du vieillard d'Ascra ? / Enfant inconstant, dit-on — mais tenace ici : le cœur où une fois / il est entré, jamais de son plein gré il ne le quitte. / Mais il porte carquois et traits — pourquoi ce poids inutile ? / Un nourrisson peut-il bander un arc si rude ? / Il tient des ailes recourbées, qu'il ne sait porter dans l'éther ? / Et pourtant, sans adresse, il atteint le foie des oiseaux en plein vol. / Il rampe à terre, et toujours blesse le cœur mortel / des hommes : et pourtant, étant de pierre, il n'y agite nulle aile. / S'il est aveugle et porte un bandeau, à quoi sert ce bandeau à un aveugle ? / En voit-il moins pour autant ? / Et qui croirait porteur de flèches celui que la lumière a quitté ? / Lui, visant juste, bien qu'aveugle, lance des traits que d'autres lancent en vain. / On dit qu'il est de feu, et qu'il retourne des flammes en sa poitrine. / Pourquoi donc vit-il encore ? la flamme dévore tout. / Pourquoi même ne s'éteint-il pas dans les flots gonflés, / chaque fois qu'il pénètre les tendres cœurs des Naïades ? / Mais toi, pour n'être pas pris en de telles erreurs, écoute : / ce qu'est le véritable Amour, nos vers te l'apprendront. / C'est un travail agréable, au sein d'un loisir voluptueux ; son emblème / est la grenade punique sur un bouclier noir."
+      ],
       "group_frtrans": "Amour."
     },
     {
@@ -3375,6 +3435,10 @@
       ],
       "text_en": [
         "¶Long ago having sent away your homeland, and having forgotten your own people, / whom either blood or love provided you, / you dwell in Rome: nor does any care to return home enter your mind. / Only the glory of the eternal city holds you. / Thus the band of Ithacans sent ahead, by the sweetness of the Lotus, / had abandoned both their homeland and their leader."
+      ],
+      "name_fr": "Sur l'oubli de la patrie",
+      "text_frtrans": [
+        "¶Depuis longtemps déjà, ayant quitté ta patrie, et oublieux des tiens / que t'ont donnés le sang ou l'amour, / tu habites Rome : et nul souci de revenir chez toi ne te vient à l'esprit. / Seul l'honneur de la ville éternelle te captive. / Ainsi la troupe envoyée en avant des gens d'Ithaque, séduite par la douceur du lotos, / avait quitté et sa patrie, et quitté son chef."
       ],
       "group_frtrans": "Amour."
     },
@@ -3403,6 +3467,10 @@
       "text_en": [
         "¶Birds without wings, girls without legs, / fish without a beak, yet singing with a mouth: / who would believe such things exist? Nature refused their union, / yet they teach that Sirens could nonetheless come to be. / A woman ending in a black fish is a forbidden thing, / for lust carries with it many monsters. / By their look, their words, the seeming candor of their minds, / Parthenope, Ligia, and Leucosia draw men in. / The Muses strip them of their feathers, and Ulysses mocks them. / Clearly the learned have no business with a courtesan."
       ],
+      "name_fr": "Les sirènes",
+      "text_frtrans": [
+        "¶Des oiseaux sans ailes, des jeunes filles sans jambes, / des poissons sans bec, et qui pourtant chantent de la bouche : / qui croirait que cela existe ? La nature a refusé cette union, / mais on enseigne que des sirènes purent néanmoins se former. / Est illicite la femme qui finit en poisson noir, / car la luxure porte avec elle maints monstres. / Par le regard, les paroles, l'éclat apparent de l'âme, elles attirent / les hommes — Parthénope, Ligie et Leucosie. / Les Muses les déplument, et Ulysse se rit d'elles. / Il est clair que les savants n'ont rien à faire avec une courtisane."
+      ],
       "group_frtrans": "Amour."
     },
     {
@@ -3429,6 +3497,10 @@
       ],
       "text_en": [
         "¶While Sophocles (though well advanced in age) draws the / venal girl Archippe to his desires, / and lures her with payment, the mad youth bore it ill, / out of jealousy, and brands them both in such a verse: / 'As an owl sits upon tombs, and a screech-owl over the ashes in urns, / so our girl sits beside Sophocles.'"
+      ],
+      "name_fr": "Un vieillard amoureux d'une jeune fille",
+      "text_frtrans": [
+        "¶Tandis que Sophocle (bien qu'avancé en âge) attire à ses désirs / Archippè, fille de petite vertu, / et la séduit par l'argent, la jeunesse insensée, par jalousie, / en prit ombrage, et par ce vers flétrit l'un et l'autre : / « Comme la chouette sur les tombeaux, le hibou sur les cadavres des urnes, / ainsi, près de Sophocle, siège notre jeune fille. »"
       ],
       "group_frtrans": "Amour."
     },
@@ -3457,6 +3529,10 @@
       "text_en": [
         "¶Black is a sign of grief: we all put on / this garb when we offer rites at tombs. / But white, pure linen is the robe of a sincere spirit and an unblemished mind: / hence the linen cloth is pleasing to men of holy service. / Green teaches us to hope. Hope is said to lie / 'in the green', as often as it falls back in vain. / Yellow is the colour of the covetous, and fits lovers too, / and harlots, and those whose hope was once assured. / Let red adorn the cloak of armed horsemen, / and let it signal that boys have blushed with modesty. / Sky-blue suits sailors, and those prophets who, / astonished by excessive piety, seek heavenly things. / Cheap are the dun, naturally-coloured woollen cloths — / such as the wooden-shod peasants commonly have for coverlets. / One whom great cares torment, or jealous love, / is thought not ill clad in tawny garb. / Whoever, perhaps, content with his lot, wears violet, / let him bear the tedium of Fortune with equanimity. / As Nature is varied in producing colours, / so different things suit different people: but each delights in his own."
       ],
+      "name_fr": "Sur les couleurs",
+      "text_frtrans": [
+        "¶Le noir est l'indice du deuil : tous nous usons / de cette tenue, quand nous offrons nos hommages aux tombeaux. / Mais la robe blanche est celle de l'âme sincère et de l'esprit pur : / de là le lin agréable aux hommes voués au sacré. / Le vert nous enseigne à espérer. On dit que l'espoir / est « en herbe » chaque fois qu'il retombe, déçu, en arrière. / Le jaune sied aux avides, et convient aussi aux amants, / et aux courtisanes, et à ceux dont l'espoir fut assuré. / Mais que le rouge pare le manteau des cavaliers en armes, / et qu'il révèle la pudeur qui fait rougir les jeunes garçons. / Le bleu azur sied aux marins, et aux devins qui, / frappés d'un excès de piété, recherchent les choses célestes. / Vils sont les draps fauves, de laine naturelle non teinte, / tels que portent d'ordinaire, en guise de couvertures, les paysans à sabots de bois. / Celui que tourmentent de grands soucis, ou la jalousie amoureuse, / on croit qu'il est, non sans raison, vêtu de fauve. / Et quiconque, satisfait de son sort, porte le violet, / supporte avec sérénité les tourments de la Fortune. / Comme la nature est variée dans la production des couleurs, / ainsi diffère-t-elle pour chacun : mais chacun aime la sienne."
+      ],
       "group_frtrans": "Amour."
     },
     {
@@ -3483,6 +3559,10 @@
       ],
       "text_en": [
         "¶The caduceus, entwined with serpents, with its pair of wings, / stands upright between the horns of Amalthea. / Thus it signifies men powerful in mind and skilled in husbandry, / so that a great abundance of goods may bless them."
+      ],
+      "name_fr": "Fortune. La Fortune, compagne de la vertu",
+      "text_frtrans": [
+        "¶Le caducée, enlacé de serpents, à deux ailes, / se dresse tout droit entre les cornes d'Amalthée. / Ainsi désigne-t-il les hommes puissants par l'esprit et habiles à gérer leurs biens, / afin qu'une abondante richesse les comble."
       ],
       "group_frtrans": "Fortune."
     },
