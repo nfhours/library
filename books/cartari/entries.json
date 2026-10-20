@@ -6091,6 +6091,60 @@
       "text_fr": [
         "« L'image de Pan et de Cupidon, l'un vaincu, l'autre vainqueur, pour montrer le pouvoir de l'Amour sur la Nature universelle, qui, éprise du plaisir de ses propres œuvres, ne pense à rien d'autre qu'à les rendre belles et parées. »"
       ]
+    },
+    {
+      "id": "cartm111",
+      "num": "111",
+      "page": "111",
+      "fr": "Tempio di Venere in Pafo",
+      "ru": "Храм Венеры в Пафосе",
+      "en": "The Temple of Venus at Paphos",
+      "img": [
+        "cartm111.jpg"
+      ],
+      "scans": [
+        "cartm111.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Tempio di Venere in Pafo Città di Cipro con gieroglifico lei & sua natura dimostrante. Carro di Venere tirato da Cigni & da Colombe à lei sacrate, con la sua imagine sopra detto carro nuda con le tre Gratie seco, come li Sassoni la dipingeano, con tre pomi d'oro in vna mano, & vna palla nell'altra, & dimostra l'horo farci via alla lasciuia, & dinota il tutto il natural desiderio carnale per generare.",
+      "text_ru": [
+        "«Храм Венеры в Пафосе, городе Кипра, с иероглифом, являющим её и её природу. Колесница Венеры, влекомая Лебедями и Голубями, ей посвящёнными, с её образом над названной колесницей, нагой, вместе с тремя Грациями, как её изображали саксонцы, с тремя золотыми яблоками в одной руке и шаром в другой; и это показывает, что час (время) прокладывает путь сладострастию, и означает в целом естественное плотское желание к порождению»."
+      ],
+      "text_en": [
+        "“The Temple of Venus at Paphos, a city of Cyprus, with a hieroglyph demonstrating her and her nature. The Chariot of Venus, drawn by Swans and Doves sacred to her, with her image above the said chariot, nude, with the three Graces beside her, as the Saxons depicted her, with three golden apples in one hand and a ball in the other; and this shows that the hour makes way for wantonness, and denotes altogether the natural carnal desire for generation.”"
+      ],
+      "name_fr": "Le Temple de Vénus à Paphos",
+      "text_fr": [
+        "« Le Temple de Vénus à Paphos, ville de Chypre, avec un hiéroglyphe montrant la déesse et sa nature. Le Char de Vénus, tiré par des Cygnes et des Colombes qui lui sont sacrés, avec son image au-dessus dudit char, nue, accompagnée des trois Grâces, telle que la représentaient les Saxons, avec trois pommes d'or dans une main et une boule dans l'autre ; ce qui montre que l'heure fraie le chemin à la volupté, et indique en somme le désir charnel naturel de procréer. »"
+      ]
+    },
+    {
+      "id": "cartm112",
+      "num": "112",
+      "page": "112",
+      "fr": "Imagine di Venere tirata in carro dai Cigni",
+      "ru": "Образ Венеры на колеснице, влекомой лебедями",
+      "en": "The image of Venus drawn in a chariot by Swans",
+      "img": [
+        "cartm112.jpg"
+      ],
+      "scans": [
+        "cartm112.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine di Venere tirata in carro da Cigni, retti da gl'Amorini; per mostrare, che il canto, & la placidità della natura hanno molto confacimento co' piaceri d'Amore.",
+      "text_ru": [
+        "«Образ Венеры, влекомой в колеснице Лебедями, которыми правят Амуры; дабы показать, что пение и безмятежность природы весьма сродни наслаждениям Любви»."
+      ],
+      "text_en": [
+        "“The image of Venus drawn in a chariot by Swans, guided by little Cupids, to show that song and the placidity of nature are much akin to the pleasures of Love.”"
+      ],
+      "name_fr": "L'image de Vénus tirée par des Cygnes sur son char",
+      "text_fr": [
+        "« L'image de Vénus tirée sur un char par des Cygnes, conduits par des Amours, pour montrer que le chant et la placidité de la nature ont beaucoup d'affinité avec les plaisirs de l'Amour. »"
+      ]
     }
   ]
 }
