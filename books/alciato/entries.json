@@ -2351,6 +2351,10 @@
       "text_en": [
         "¶The white mouse is believed to betoken / delicacy and softness, but the reason is not quite clear to me. / Is it because its nature is lustful, and its desire great? / Or because it adorns Roman brides with its fur? / Most people call the Sarmatian mouse 'Zibellum' [sable], / and the Arabian musk is famous for its sweet scent."
       ],
+      "name_fr": "Volupté. Problème",
+      "text_frtrans": [
+        "¶On croit que la souris blanche désigne / délices et mollesse, mais la raison ne m'en est pas bien claire. / Est-ce que sa nature est lascive, et son désir grand ? / Ou parce qu'elle orne de sa fourrure les jeunes Romaines ? / Beaucoup nomment la souris sarmate « zibeline », / et célèbre, d'un parfum suave, est le musc d'Arabie."
+      ],
       "group_frtrans": "Luxure."
     },
     {
@@ -2377,6 +2381,10 @@
       ],
       "text_en": [
         "¶The Essene sits idle in a bushel, a watcher of the stars, / and beneath it hides his lit torch from the flame. / Sloth, veiled under the appearance of righteousness, under a cowl, / helps neither itself nor others with any benefit."
+      ],
+      "name_fr": "Paresse",
+      "text_frtrans": [
+        "¶L'Essénien reste assis, oisif, sous le boisseau, observant les astres, / et dessous il cache à la vue le flambeau allumé. / La nonchalance, sous l'apparence de la droiture, voilée d'un capuchon, / n'aide par son utilité ni elle-même, ni les autres."
       ],
       "group_frtrans": "Paresse."
     },
@@ -2405,6 +2413,10 @@
       "text_en": [
         "¶Let whoever is idle depart. For to fix one's seat upon the measure-bushel, / the holy teachings of the Samian elder forbid us. / Rise, then, and accustom your hands to hard labor, / so that the coming hour of tomorrow may grant you your measured food."
       ],
+      "name_fr": "Il faut rejeter la paresse",
+      "text_frtrans": [
+        "¶Que l'indolent s'en aille. Car fixer sa demeure sous le boisseau, / les saints enseignements du vieillard de Samos nous le défendent. / Lève-toi donc, et accoutume tes mains au dur labeur, / afin que l'heure de demain te donne ta part mesurée de nourriture."
+      ],
       "group_frtrans": "Paresse."
     },
     {
@@ -2431,6 +2443,10 @@
       ],
       "text_en": [
         "¶Just as the tiny remora, scorning the force of the wind, / alone can halt a ship together with its oars, / so some trivial cause holds back, midway, / those borne toward the stars by talent and virtue: / such is anxious litigation — or the lustful passion / that calls noble young men away from their excellent studies."
+      ],
+      "name_fr": "Sur ceux qui se détournent aisément de la vertu",
+      "text_frtrans": [
+        "¶Tel le petit rémora, méprisant l'assaut du vent, / peut seul arrêter le navire avec ses rames, / ainsi certains, portés vers les astres par leur talent et leur vertu, / sont retenus à mi-chemin par une cause légère : / tel un procès angoissant, ou telle l'ardeur vénale / qui détourne les jeunes gens de leurs nobles études."
       ],
       "group_frtrans": "Paresse."
     },
@@ -2459,6 +2475,10 @@
       "text_en": [
         "¶It was an old fable that idle servants / took on, in pursuits and character, the shape of the star-heron (ardeola), / said to have assumed the form of Asteria's attendant bird: / this is a fiction; let the historians vouch for its truth. / Such a degenerate one is like a hawk that wheels idly in the air, / called by the ancient poets an 'ardelio' [a bustling do-nothing]."
       ],
+      "name_fr": "Les paresseux",
+      "text_frtrans": [
+        "¶C'était une ancienne fable que les serviteurs paresseux / se faisaient, par leur forme et leurs mœurs, pareils au héron des étoiles (ardeola), / prenant, disait-on, la figure de l'oiseau servante d'Astérie : / ceci est fiction ; que les historiens en répondent. / Tel est ce dégénéré, comme un faucon qui tournoie oisivement dans l'air, / nommé par les anciens poètes « ardélion » (le remuant inutile)."
+      ],
       "group_frtrans": "Paresse."
     },
     {
@@ -2485,6 +2505,10 @@
       ],
       "text_en": [
         "¶Alas, wretched Tantalus stands thirsting amid the waters, / and, hungry, cannot reach the fruit so near at hand. / With only the name changed, the same will be said of you, miser, / who, as though you had nothing, do not enjoy what you have."
+      ],
+      "name_fr": "Avarice",
+      "text_frtrans": [
+        "¶Hélas, le malheureux Tantale se tient, assoiffé, au milieu des eaux, / et, affamé, ne peut atteindre les fruits tout proches. / Le nom seul changé, on dira cela de toi, avare, / qui, comme si tu ne l'avais pas, ne jouis point de ce que tu as."
       ],
       "group_frtrans": "Avarice."
     },
@@ -2513,6 +2537,10 @@
       "text_en": [
         "¶Septitius, richest of all people, is an old man than whom none holds broader fields. / Cheating his own pleasure and his laid tables, / he devours nothing but beets and hard turnips. / To whom shall I compare him, whom abundance makes a pauper? / To a donkey? Just so: he is exactly like it. / For the donkey carries precious delicacies on its back, / yet feeds itself, poor thing, on brambles or coarse sedge."
       ],
+      "name_fr": "Contre les avares",
+      "text_frtrans": [
+        "¶Septitius, le plus riche de tous les hommes, vieillard dont nul / ne possède de champs plus vastes. / Se privant lui-même de son propre plaisir, et des tables dressées, / il ne dévore rien que des bettes et de dures raves. / À qui le comparerai-je, lui que l'abondance rend indigent ? / À l'âne, peut-être ? Il en est bien l'image. / Car l'âne porte sur son dos de précieuses victuailles, / et lui-même, pauvre, se nourrit de ronce ou de dure laîche."
+      ],
       "group_frtrans": "Avarice."
     },
     {
@@ -2539,6 +2567,10 @@
       ],
       "text_en": [
         "¶The vain court that rears its courtier-clients / is said to bind them with gilded fetters."
+      ],
+      "name_fr": "Sur les courtisans",
+      "text_frtrans": [
+        "¶La vaine cour palatine, qui élève ses clients, / on dit qu'elle les enchaîne de fers dorés."
       ],
       "group_frtrans": "Avarice."
     },
@@ -2567,6 +2599,10 @@
       "text_en": [
         "¶The ibis, which with its beak (as with a clyster) washes out its own belly, / known on the shores of the Nile, / has passed into a term of reproach: by which Publius Naso / calls his enemy, and Battiades his own."
       ],
+      "name_fr": "Sur les avares sordides",
+      "text_frtrans": [
+        "¶L'ibis, qui de son bec (comme d'un clystère) se purge le ventre, / connu sur les rives du Nil, / est devenu une injure proverbiale : ainsi Publius / Naso nomme son ennemi, et le Battiade le sien."
+      ],
       "group_frtrans": "Avarice."
     },
     {
@@ -2593,6 +2629,10 @@
       ],
       "text_en": [
         "¶Whoever hunts eels, if he sweeps through clear / rivers, if he dares approach unmuddied lakes, / will come away empty and waste his effort: let him instead stir up / much mud from hidden depths, and let his oar churn the glassy waters — / then he will grow rich. So too a troubled commonwealth is profit for those / who, in peacetime, constrained by law, go hungry."
+      ],
+      "name_fr": "Sur les riches, [enrichis] du mal public",
+      "text_frtrans": [
+        "¶Qui pêche les anguilles, s'il parcourt des fleuves limpides, / s'il ose aborder des lacs sans vase, / repartira bredouille, et perdra sa peine : qu'il agite donc beaucoup / le fond et que sa rame trouble les eaux limpides — / il deviendra riche. Ainsi, pour ceux-là, l'État troublé est profit, / qui, en temps de paix, resserrés par les lois, ont faim."
       ],
       "group_frtrans": "Avarice."
     },
@@ -2621,6 +2661,10 @@
       "text_en": [
         "¶Arion, mounted on a dolphin, cleaves the blue waters, / and with this sound charms ears and tames mouths. / How fierce is the mind of a greedy man — not even that of wild beasts is so dire: / for we who are robbed by men are rescued by fish."
       ],
+      "name_fr": "Sur les avares, ou ceux à qui des étrangers offrent meilleure condition",
+      "text_frtrans": [
+        "¶Assis sur un dauphin, Arion sillonne les flots d'azur, / et de ce chant charme les oreilles et retient la bouche. / Combien l'esprit de l'homme avare est plus cruel que celui des bêtes : / nous, ravis par les hommes, sommes sauvés par les poissons."
+      ],
       "group_frtrans": "Avarice."
     },
     {
@@ -2647,6 +2691,10 @@
       ],
       "text_en": [
         "¶A man is depicted with a belly swollen as if gorged with grain, / carrying in his hands a gull or a pelican. / Such was the form of Dionysius, and such of Apicius, / and of those whom luxurious gluttony makes famous."
+      ],
+      "name_fr": "Gourmandise",
+      "text_frtrans": [
+        "¶On peint un homme au ventre gonflé comme de blé, pareil à celui des grues, / portant en ses mains un goéland ou un pélican. / Telle fut la forme de Denys, et telle celle d'Apicius, / et de ceux que rend célèbres une gourmandise délicate."
       ],
       "group_frtrans": "Gourmandise."
     },
@@ -2675,6 +2723,10 @@
       "text_en": [
         "¶The tireless man never ceases to weave a rope of esparto-grass, / joining the damp strands with skilled hand. / But however much the diligent man twists in many hours, / the she-ass of the idle belly devours it at once. / Likewise a woman, kept by an easygoing husband, / snatches his earnings and squanders his substance too."
       ],
+      "name_fr": "L'effigie d'Ocnos. Sur ceux qui donnent aux courtisanes ce qui devrait servir à de bons usages",
+      "text_frtrans": [
+        "¶Infatigable, il ne cesse de tresser une corde de genêt, / joignant de sa main habile les fils humides. / Mais autant il en tord à grand-peine en de nombreuses heures, / aussitôt l'ânesse au ventre oisif la dévore. / De même, la femme, pareille à cette bête, auprès d'un mari complaisant, / ravit ses gains et dissipe son bien."
+      ],
       "group_frtrans": "Gourmandise."
     },
     {
@@ -2701,6 +2753,10 @@
       ],
       "text_en": [
         "¶Receive as our gift these river crabs — / such presents suit your character. / They have watchful eyes, and many rows / of claws armed like shears, and a very large belly. / So too your belly hangs heavy with fat, / your feet are swift, and your claws fit for walking. / As you wander restlessly at crossroads and around others' tables and benches, / biting at others with false, mocking jests."
+      ],
+      "name_fr": "Sur les parasites",
+      "text_frtrans": [
+        "¶Reçois de nous ce présent, ces écrevisses de rivière, / dons qui conviennent à tes mœurs. / Elles ont les yeux vigilants, et maintes rangées / de pinces armées comme des ciseaux, et le plus grand des ventres. / Ainsi pend devant toi un ventre au gras abdomen, / et des pieds agiles, et des aiguillons adaptés au pied. / Quand, vagabond aux carrefours et aux bancs des tables, tu erres, / et lances sur les autres de fausses railleries mordantes."
       ],
       "group_frtrans": "Gourmandise."
     },
@@ -2729,6 +2785,10 @@
       "text_en": [
         "¶In meagre fare there is nothing for anyone to gain: and a single / bush does not feed two robins. / ANOTHER. / In slender means there is no hope of profit: nor do two / figpeckers settle well upon a single bush."
       ],
+      "name_fr": "Une petite cuisine ne suffit pas à deux goinfres",
+      "text_frtrans": [
+        "¶Dans le peu, il n'est rien à gagner pour quiconque : et un seul / arbrisseau ne nourrit point deux rouges-gorges. / AUTRE. / Dans le mince il n'est nul espoir de gain : et sur un seul / arbrisseau deux fauvettes à figues s'accordent mal."
+      ],
       "group_frtrans": "Gourmandise."
     },
     {
@@ -2755,6 +2815,10 @@
       ],
       "text_en": [
         "¶The mouse, gnawer of its master's domain, larder and tables, / saw oysters gaping at their edges. / Applying its tender whiskers, it bit the false bones, / but these, once touched, suddenly shut their house. / And so they held the caught thief in a foul prison — / he who had given himself to a dark tomb."
+      ],
+      "name_fr": "Captif à cause de la gourmandise",
+      "text_frtrans": [
+        "¶La souris, rongeuse des domaines, de la table et du garde-manger du maître, / vit les huîtres entrouvrant leurs lèvres béantes. / Y présentant sa tendre moustache, elle mordit les os trompeurs, / mais celles-ci, à peine touchées, refermèrent soudain leur demeure. / Et elles tinrent le voleur surpris dans une noire prison, / lui qui s'était lui-même livré à un sombre tombeau."
       ],
       "group_frtrans": "Gourmandise."
     },
@@ -2783,6 +2847,10 @@
       "text_en": [
         "¶It bellows with a harsh voice, its throat is very large; its beak / resembles the many-holed mouth of a trumpet. / This bird, when depicted with a scoop, will mark / a deformed, loud-mouthed pleader, given over to belly and gluttony."
       ],
+      "name_fr": "Sur le bavard et le goinfre",
+      "text_frtrans": [
+        "¶Il crie d'une voix farouche, sa gorge est fort large ; son bec / a la forme d'un nez et d'une trompe à mille trous. / Il désignera le plaideur difforme et criard, adonné au ventre et à la gueule, / quand l'oiseau sera peint avec une louche."
+      ],
       "group_frtrans": "Gourmandise."
     },
     {
@@ -2809,6 +2877,10 @@
       ],
       "text_en": [
         "¶It is an old custom for professors / to have nicknames added to their names. / One who explains only easy and open passages / is called 'Short Canon' (Curtius). / One who circles back to the same point and repeats too much / is 'Maeander', like Parisius. / The obscure and confused one, as Picus was, / will be called 'Labyrinth'. / The excessively brief one, who cuts off much, like Claudius, / will bear the nickname 'Point' (Mucro). / One who even shatters columns with his voice — Parpalus — / is called by students a 'bogeyman' (truo). / By contrast, thin-voiced Albius / was named, for his voice, 'Bat'. / And one who clips the final syllables / is called 'Fat Swallow'. / One deaf to others, wishing only himself to speak, / is a 'Starling', as the proverb goes. / This one lisps, that one is hoarse, this one chatters. / This one hisses like a viper. / That one is in uproar with gaping mouth and nostrils: / for this one the tongue works like a drill. / One hiccups and coughs haltingly: / another spits as if sprinkling dew. / As many vices as act in human affairs, / just as many names arise."
+      ],
+      "name_fr": "Surnoms des savants",
+      "text_frtrans": [
+        "¶C'est une ancienne coutume d'ajouter aux professeurs / quelques surnoms. / Celui qui n'explique que les passages faciles et clairs, / est appelé Curtius le Bref-Canon. / Celui qui revient sans cesse sur le même point et répète à l'excès, / est le Méandre, comme Parisius. / Obscur et confus, tel que fut Picus, / sera appelé Labyrinthe. / Trop bref, retranchant beaucoup, tel Claudius, / portera le surnom de Pointe-d'épée. / Qui même brise les colonnes de sa voix, Parpalus, / les écoliers l'appellent Butor. / À l'inverse, Albius, qui avait la voix ténue, / fut appelé Chauve-souris. / Et celui qui mutile les dernières syllabes, / est dit l'Hirondelle-Épaisse. / Qui, sourd aux autres, ne veut parler que lui-même, / est l'Étourneau, comme dit le proverbe. / Celui-ci zézaie, celui-là est rauque, cet autre bavarde. / Celui-ci siffle comme la vipère. / Cet autre s'agite de la bouche et des narines : / à celui-là la langue fait l'office d'une tarière. / Un autre hoquette, et tousse en hésitant : / un autre crache comme une bruine. / Autant il y a de vices dans les choses humaines, / autant naissent de surnoms."
       ],
       "group_frtrans": "Surnoms des savants."
     },
@@ -2837,6 +2909,10 @@
       "text_en": [
         "¶Peoples worship Pan (this is to call nature of things by name) — / a man half-goat, a god half-man. / He is man down to the loins, for the virtue implanted in us, / rising from the heart, sits enthroned in the high citadel of the crown. / Hence he is goat, because nature propagates us through the ages / by copulation, as it does birds, scaly things, brutes, wild beasts. / What he has in common with other living creatures, the goat signifies — / the mark of lust, bearing the open signs of Venus. / Some have attributed wisdom to the heart, others to the brain. / The parts below obey neither measure nor any reason."
       ],
+      "name_fr": "Nature. La force de la nature",
+      "text_frtrans": [
+        "¶Les peuples honorent Pan (c'est là nommer la nature des choses), / homme à demi-chèvre, et dieu à demi-homme. / Il est homme jusqu'aux reins, car la vertu mise en nous, / naissant du cœur, siège en la haute citadelle du sommet. / De là vient aussi qu'il est bouc, car la nature nous prolonge à travers les siècles / par l'accouplement : comme les oiseaux, les écailleux, les bêtes brutes, les fauves. / Ce qu'il a de commun avec les autres êtres vivants, le bouc le manifeste — / signe de luxure, portant les marques ouvertes de Vénus. / Les uns ont attribué la sagesse au cœur, d'autres au cerveau. / Les parties inférieures, elles, ne connaissent ni mesure ni raison."
+      ],
       "group_frtrans": "Nature."
     },
     {
@@ -2863,6 +2939,10 @@
       ],
       "text_en": [
         "¶As Fortune sits upon a sphere, so Hermes sits upon a cube: / he presides over the arts, she over varied chances. / Art was made against the power of Fortune: but art too, / when fortune is bad, often needs help. / Learn good arts, then, studious youth, / which carry with them the benefits of a steady lot."
+      ],
+      "name_fr": "L'art venant en aide à la Nature",
+      "text_frtrans": [
+        "¶Comme Fortune siège sur une sphère, ainsi Hermès siège sur un cube : / celui-ci préside aux arts, celle-là aux hasards divers. / Contre la puissance de la Fortune l'art fut créé : mais l'art lui-même, / quand la fortune est mauvaise, a souvent besoin de secours. / Apprenez donc les bons arts, jeunesse studieuse, / qui portent avec eux les avantages d'un sort assuré."
       ],
       "group_frtrans": "Nature."
     },
