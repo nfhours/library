@@ -4,7 +4,7 @@
     {
       "id": "cartm1",
       "num": "1",
-      "page": "10",
+      "page": "49",
       "fr": "Prouidenza",
       "ru": "Провидение",
       "en": "Providence",
@@ -34,7 +34,7 @@
     {
       "id": "cartm2",
       "num": "2",
-      "page": "16",
+      "page": "55",
       "fr": "Imagini della Eternità, con Demogorgone",
       "ru": "Образ Вечности и бога Демогоргона",
       "en": "The image of Eternity, with the god Demogorgon",
@@ -64,7 +64,7 @@
     {
       "id": "cartm3",
       "num": "3",
-      "page": "20",
+      "page": "59",
       "fr": "Antro dell'Eternità, con l'imagine del Tempo",
       "ru": "Пещера Вечности с образом Времени",
       "en": "The Cave of Eternity, with the image of Time",
@@ -96,7 +96,7 @@
     {
       "id": "cartm4",
       "num": "4",
-      "page": "26",
+      "page": "65",
       "fr": "Imagine di Saturno, del Tempo e dell'anno (fra le stelle)",
       "ru": "Образ Сатурна, Времени и года (среди звёзд)",
       "en": "The image of Saturn, of Time and the year (amid the stars)",
@@ -124,7 +124,7 @@
     {
       "id": "cartm5",
       "num": "5",
-      "page": "28",
+      "page": "67",
       "fr": "Imagine di Saturno: tempo presente, passato e avvenire",
       "ru": "Образ Сатурна: время настоящее, прошедшее и будущее",
       "en": "The image of Saturn: time present, past, and to come",
@@ -152,7 +152,7 @@
     {
       "id": "cartm6",
       "num": "6",
-      "page": "30",
+      "page": "69",
       "fr": "Imagine di Saturno e del Tempo, coi piedi legati di lana",
       "ru": "Образ Сатурна и Времени со связанными шерстью ногами",
       "en": "The image of Saturn and Time, feet bound with wool thread",
@@ -180,7 +180,7 @@
     {
       "id": "cart1",
       "num": "7",
-      "page": "32",
+      "page": "71",
       "fr": "Saturno",
       "ru": "Сатурн",
       "en": "Saturn",
@@ -205,7 +205,7 @@
     {
       "id": "cartm7",
       "num": "8",
-      "page": "33",
+      "page": "72",
       "fr": "Imagini di Giano, inteso per il Sole e per il Tempo",
       "ru": "Образ Януса, понимаемого как Солнце и Время",
       "en": "The image of Janus, understood as the Sun and as Time",
@@ -234,7 +234,7 @@
     {
       "id": "cartm8",
       "num": "9",
-      "page": "36",
+      "page": "75",
       "fr": "Imagini delle quattro stagioni dell'anno",
       "ru": "Образы четырёх времён года",
       "en": "The images of the four seasons of the year",
@@ -262,7 +262,7 @@
     {
       "id": "cartm9",
       "num": "10",
-      "page": "38",
+      "page": "77",
       "fr": "Tempio di Giano, Dio della pace e della guerra",
       "ru": "Храм Януса, бога мира и войны",
       "en": "The Temple of Janus, god of peace and war",
@@ -290,7 +290,7 @@
     {
       "id": "cartm10",
       "num": "11",
-      "page": "40",
+      "page": "79",
       "fr": "Imagine del Sole, ovvero Febo, e di Giove presso gli Assiri",
       "ru": "Образ Солнца, или Феба, и Юпитера у ассирийцев",
       "en": "The image of the Sun, or Phoebus, and of Jove among the Assyrians",
@@ -319,7 +319,7 @@
     {
       "id": "cartb16",
       "num": "12",
-      "page": "43",
+      "page": "82",
       "fr": "Hebe",
       "ru": "Геба",
       "en": "Hebe",
@@ -345,7 +345,7 @@
     {
       "id": "cartb17",
       "num": "13",
-      "page": "45",
+      "page": "84",
       "fr": "Le noue Muse",
       "ru": "Девять Муз",
       "en": "The nine Muses",
@@ -371,7 +371,7 @@
     {
       "id": "cartm11",
       "num": "14",
-      "page": "47",
+      "page": "86",
       "fr": "Apollo in mezzo delle Muse",
       "ru": "Аполлон среди Муз",
       "en": "Apollo amid the Muses",
@@ -399,7 +399,7 @@
     {
       "id": "cart2",
       "num": "15",
-      "page": "49",
+      "page": "88",
       "fr": "Apollo Febo, il Sole",
       "ru": "Аполлон Феб, Солнце",
       "en": "Apollo Phoebus, the Sun",
@@ -425,7 +425,7 @@
     {
       "id": "cartm12",
       "num": "16",
-      "page": "51",
+      "page": "90",
       "fr": "Nave del Sole portata da un Coccodrillo",
       "ru": "Корабль Солнца, влекомый Крокодилом",
       "en": "The Ship of the Sun, carried by a Crocodile",
@@ -453,7 +453,7 @@
     {
       "id": "cartm13",
       "num": "17",
-      "page": "53",
+      "page": "92",
       "fr": "Apollo che abbraccia Dafne",
       "ru": "Аполлон, обнимающий Дафну",
       "en": "Apollo embracing Daphne",
@@ -481,7 +481,7 @@
     {
       "id": "cartm14",
       "num": "18",
-      "page": "55",
+      "page": "94",
       "fr": "Imagine d'Apollo, dio della prudenza",
       "ru": "Образ Аполлона, бога благоразумия",
       "en": "The image of Apollo, god of prudence",
@@ -509,7 +509,7 @@
     {
       "id": "cartm15",
       "num": "19",
-      "page": "57",
+      "page": "96",
       "fr": "Imagine di Apollo Mithra",
       "ru": "Образ Аполлона-Митры",
       "en": "The image of Apollo Mithras",
@@ -537,7 +537,7 @@
     {
       "id": "cartm16",
       "num": "20",
-      "page": "59",
+      "page": "98",
       "fr": "Imagine dei Buoi sacri presso gli Egizi",
       "ru": "Образ священных быков у египтян",
       "en": "The image of the sacred Oxen among the Egyptians",
@@ -565,7 +565,7 @@
     {
       "id": "cartm17",
       "num": "21",
-      "page": "61",
+      "page": "100",
       "fr": "Imagine d'Apollo nudo, amatore dei Buoi",
       "ru": "Образ нагого Аполлона, любителя быков",
       "en": "The image of naked Apollo, lover of Oxen",
@@ -593,7 +593,7 @@
     {
       "id": "cartm18",
       "num": "22",
-      "page": "63",
+      "page": "102",
       "fr": "Imagine d'Apolline e della Terra presso gli Assiri",
       "ru": "Образ Аполлона и Земли у ассирийцев",
       "en": "The image of Apollo and the Earth among the Assyrians",
@@ -621,7 +621,7 @@
     {
       "id": "cartm19",
       "num": "23",
-      "page": "65",
+      "page": "104",
       "fr": "Imagine di Adad e d'Adargate, dei degli Assiri",
       "ru": "Образ Адада и Адаргатис, богов ассирийцев",
       "en": "The image of Adad and Adargatis, gods of the Assyrians",
@@ -648,7 +648,7 @@
     {
       "id": "cartm20",
       "num": "24",
-      "page": "66",
+      "page": "105",
       "fr": "Imagine di Serapi, dio degli Egizi",
       "ru": "Образ Сераписа, бога египтян",
       "en": "The image of Serapis, god of the Egyptians",
@@ -676,7 +676,7 @@
     {
       "id": "cartm21",
       "num": "25",
-      "page": "68",
+      "page": "107",
       "fr": "Imagine del Sole, mutevole e produttore di ogni tempo",
       "ru": "Образ Солнца, изменчивого творца всех времён",
       "en": "The image of the Sun, changeable and producer of every season",
@@ -704,7 +704,7 @@
     {
       "id": "cartm22",
       "num": "26",
-      "page": "70",
+      "page": "109",
       "fr": "Imagine di Esculapio, dio della Medicina",
       "ru": "Образ Эскулапа, бога Медицины",
       "en": "The image of Aesculapius, god of Medicine",
@@ -732,7 +732,7 @@
     {
       "id": "cartm23",
       "num": "27",
-      "page": "72",
+      "page": "111",
       "fr": "Imagine di Esculapio con i galli a lui sacrati",
       "ru": "Образ Эскулапа с посвящёнными ему петухами",
       "en": "The image of Aesculapius with the roosters sacred to him",
@@ -761,7 +761,7 @@
     {
       "id": "cartm24",
       "num": "28",
-      "page": "75",
+      "page": "114",
       "fr": "Anello antico col simbolo della Salute",
       "ru": "Старинное кольцо с символом Здоровья",
       "en": "An ancient ring with the symbol of Health",
@@ -789,7 +789,7 @@
     {
       "id": "cartm25",
       "num": "29",
-      "page": "77",
+      "page": "116",
       "fr": "Imagine della dea Salute e del Serpente a lei sacrato",
       "ru": "Образ богини Здоровья и посвящённого ей Змея",
       "en": "The image of the goddess Health and the Serpent sacred to her",
@@ -817,7 +817,7 @@
     {
       "id": "cartm26",
       "num": "30",
-      "page": "79",
+      "page": "118",
       "fr": "Imagine d'Higia, figlia di Esculapio",
       "ru": "Образ Гигиеи, дочери Эскулапа",
       "en": "The image of Hygieia, daughter of Aesculapius",
@@ -845,7 +845,7 @@
     {
       "id": "cartm27",
       "num": "31",
-      "page": "81",
+      "page": "120",
       "fr": "Carro del Sole, dio della luce",
       "ru": "Колесница Солнца, бога света",
       "en": "The Chariot of the Sun, god of light",
@@ -872,7 +872,7 @@
     {
       "id": "cartm28",
       "num": "32",
-      "page": "82",
+      "page": "121",
       "fr": "Imagine del Sole, detto anche Febo e Apolline",
       "ru": "Образ Солнца, называемого также Фебом и Аполлоном",
       "en": "The image of the Sun, also called Phoebus and Apollo",
@@ -900,7 +900,7 @@
     {
       "id": "cartm29",
       "num": "33",
-      "page": "84",
+      "page": "123",
       "fr": "Imagine dell'Aurora e del Cavallo Pegaseo",
       "ru": "Образ Авроры и коня Пегаса",
       "en": "The image of Aurora and the horse Pegasus",
@@ -928,7 +928,7 @@
     {
       "id": "cartm30",
       "num": "34",
-      "page": "86",
+      "page": "125",
       "fr": "Imagine di Diana, dea delle selve e della caccia",
       "ru": "Образ Дианы, богини лесов и охоты",
       "en": "The image of Diana, goddess of the woods and the hunt",
@@ -961,7 +961,7 @@
     {
       "id": "cartm31",
       "num": "35",
-      "page": "93",
+      "page": "132",
       "fr": "Statua di Lucina, dea dei Parti",
       "ru": "Статуя Люцины, богини родов",
       "en": "The statue of Lucina, goddess of Childbirth",
@@ -989,7 +989,7 @@
     {
       "id": "cartm32",
       "num": "36",
-      "page": "95",
+      "page": "134",
       "fr": "Imagine di Diana Cinthia, ovvero la Luna",
       "ru": "Образ Дианы Кинфии, то есть Луны",
       "en": "The image of Diana Cynthia, that is, the Moon",
@@ -1018,7 +1018,7 @@
     {
       "id": "cartm33",
       "num": "37",
-      "page": "98",
+      "page": "137",
       "fr": "Imagine di Hecate, dea triforme",
       "ru": "Образ Гекаты, трёхликой богини",
       "en": "The image of Hecate, the triform goddess",
@@ -1046,7 +1046,7 @@
     {
       "id": "cart3",
       "num": "38",
-      "page": "100",
+      "page": "139",
       "fr": "Diana",
       "ru": "Диана",
       "en": "Diana",
@@ -1071,7 +1071,7 @@
     {
       "id": "cartm34",
       "num": "39",
-      "page": "100",
+      "page": "139",
       "fr": "Simulacro della Luna",
       "ru": "Изваяние Луны",
       "en": "The likeness of the Moon",
@@ -1100,7 +1100,7 @@
     {
       "id": "cartm35",
       "num": "40",
-      "page": "103",
+      "page": "142",
       "fr": "Imagine della dea Natura, piena di mammelle",
       "ru": "Образ богини Природы, покрытой множеством грудей",
       "en": "The image of the goddess Nature, covered in breasts",
@@ -1128,7 +1128,7 @@
     {
       "id": "cartm36",
       "num": "41",
-      "page": "105",
+      "page": "144",
       "fr": "Imagine d'Iside, dea egizia",
       "ru": "Образ Исиды, египетской богини",
       "en": "The image of Isis, the Egyptian goddess",
@@ -1156,7 +1156,7 @@
     {
       "id": "cartm37",
       "num": "42",
-      "page": "107",
+      "page": "146",
       "fr": "Imagine d'Iside, dea degli Egizi, con il sistro",
       "ru": "Образ Исиды, богини египтян, с систром",
       "en": "The image of Isis, goddess of the Egyptians, with the sistrum",
@@ -1189,7 +1189,7 @@
     {
       "id": "cart4",
       "num": "43",
-      "page": "114",
+      "page": "153",
       "fr": "Giove",
       "ru": "Юпитер",
       "en": "Jove",
@@ -1224,7 +1224,7 @@
     {
       "id": "cartm38",
       "num": "44",
-      "page": "125",
+      "page": "164",
       "fr": "Imagine del Dio creatore degli Egizi e di Giove",
       "ru": "Образ бога-творца египтян и Юпитера",
       "en": "The image of the creator-god of the Egyptians and of Jove",
@@ -1253,7 +1253,7 @@
     {
       "id": "cartm39",
       "num": "45",
-      "page": "128",
+      "page": "167",
       "fr": "Imagine di Giove, dio degli dei degli Antichi",
       "ru": "Образ Юпитера, бога богов древних",
       "en": "The image of Jove, god of the gods of the Ancients",
@@ -1281,7 +1281,7 @@
     {
       "id": "cartm40",
       "num": "46",
-      "page": "130",
+      "page": "169",
       "fr": "Imagine di Giove fulgorante contro gli spergiuri",
       "ru": "Образ громовержца Юпитера против клятвопреступников",
       "en": "The image of thundering Jove against perjurers",
@@ -1309,7 +1309,7 @@
     {
       "id": "cartm41",
       "num": "47",
-      "page": "132",
+      "page": "171",
       "fr": "Imagine della Fede, significata per il dio Fidio",
       "ru": "Образ Верности, означенной богом Фидием",
       "en": "The image of Faith, signified by the god Fidius",
@@ -1337,7 +1337,7 @@
     {
       "id": "cartm42",
       "num": "48",
-      "page": "134",
+      "page": "173",
       "fr": "Imagine del dio Fidio, custode della fedeltà di Giove",
       "ru": "Образ бога Фидия, хранителя верности Юпитера",
       "en": "The image of the god Fidius, guardian of Jove's fidelity",
@@ -1365,7 +1365,7 @@
     {
       "id": "cartm43",
       "num": "49",
-      "page": "136",
+      "page": "175",
       "fr": "Imagine di Giove circondato dalle tre Grazie",
       "ru": "Образ Юпитера в окружении трёх Граций",
       "en": "The image of Jove surrounded by the three Graces",
@@ -1393,7 +1393,7 @@
     {
       "id": "cartm44",
       "num": "50",
-      "page": "138",
+      "page": "177",
       "fr": "Imagine di Giove col Fulmine e con l'Asta",
       "ru": "Образ Юпитера с Молнией и Копьём",
       "en": "The image of Jove with the Thunderbolt and the Spear",
@@ -1421,7 +1421,7 @@
     {
       "id": "cartm45",
       "num": "51",
-      "page": "140",
+      "page": "179",
       "fr": "Imagine di Giove fulgorante, apportatore di piogge",
       "ru": "Образ громовержца Юпитера, подателя дождей",
       "en": "The image of thundering Jove, bringer of rains",
@@ -1451,7 +1451,7 @@
     {
       "id": "cartm46",
       "num": "52",
-      "page": "144",
+      "page": "183",
       "fr": "Imagine dell'oracolo di Giove Hammonio dei Trogloditi",
       "ru": "Образ оракула Юпитера Аммона у троглодитов",
       "en": "The image of the oracle of Jove Hammon of the Troglodytes",
@@ -1479,7 +1479,7 @@
     {
       "id": "cartm47",
       "num": "53",
-      "page": "146",
+      "page": "185",
       "fr": "Imagine di Giove Hammonio degli Arcadi e degli Egizi",
       "ru": "Образ Юпитера Аммона у аркадцев и египтян",
       "en": "The image of Jove Hammon of the Arcadians and Egyptians",
@@ -1510,7 +1510,7 @@
     {
       "id": "cart5",
       "num": "54",
-      "page": "151",
+      "page": "190",
       "fr": "Giunone",
       "ru": "Юнона",
       "en": "Juno",
@@ -1538,7 +1538,7 @@
     {
       "id": "cartm48",
       "num": "55",
-      "page": "155",
+      "page": "194",
       "fr": "Imagine di Iride, messaggera di Giunone",
       "ru": "Образ Ириды, вестницы Юноны",
       "en": "The image of Iris, messenger of Juno",
@@ -1566,7 +1566,7 @@
     {
       "id": "cartm49",
       "num": "56",
-      "page": "157",
+      "page": "196",
       "fr": "Imagine di Giunone Regina degli Dei",
       "ru": "Образ Юноны, царицы богов",
       "en": "The image of Juno, Queen of the Gods",
@@ -1594,7 +1594,7 @@
     {
       "id": "cartm50",
       "num": "57",
-      "page": "159",
+      "page": "198",
       "fr": "Imagine di Castore e Polluce",
       "ru": "Образ Кастора и Поллукса",
       "en": "The image of Castor and Pollux",
@@ -1625,7 +1625,7 @@
     {
       "id": "cartm51",
       "num": "58",
-      "page": "164",
+      "page": "203",
       "fr": "Imagine di Giunone Argiva e Giunone salvatrice",
       "ru": "Образ Юноны Аргивской и Юноны-Спасительницы",
       "en": "The image of Argive Juno and Juno the Saviour",
@@ -1653,7 +1653,7 @@
     {
       "id": "cartm52",
       "num": "59",
-      "page": "166",
+      "page": "205",
       "fr": "Imagine di Giunone protettrice del matrimonio",
       "ru": "Образ Юноны, покровительницы брака",
       "en": "The image of Juno, protectress of marriage",
@@ -1683,7 +1683,7 @@
     {
       "id": "cartm53",
       "num": "60",
-      "page": "170",
+      "page": "209",
       "fr": "Imagine d'Imeneo, dio del matrimonio",
       "ru": "Образ Гименея, бога брака",
       "en": "The image of Hymen, god of marriage",
@@ -1714,7 +1714,7 @@
     {
       "id": "cart6",
       "num": "61",
-      "page": "175",
+      "page": "214",
       "fr": "La Gran Madre",
       "ru": "Великая Матерь (Опа-Берекинфия)",
       "en": "The Great Mother (Ops-Berecynthia)",
@@ -1743,7 +1743,7 @@
     {
       "id": "cartm54",
       "num": "62",
-      "page": "180",
+      "page": "219",
       "fr": "Simulacro della dea Cibele, sul suo carro",
       "ru": "Изваяние богини Кибелы на её колеснице",
       "en": "The likeness of the goddess Cybele, on her chariot",
@@ -1775,7 +1775,7 @@
     {
       "id": "cartm55",
       "num": "63",
-      "page": "186",
+      "page": "225",
       "fr": "Tempio in Roma della dea Vesta",
       "ru": "Храм богини Весты в Риме",
       "en": "The temple in Rome of the goddess Vesta",
@@ -1803,7 +1803,7 @@
     {
       "id": "cartm56",
       "num": "64",
-      "page": "188",
+      "page": "227",
       "fr": "Imagine di Cerere Siciliana",
       "ru": "Образ Цереры Сицилийской",
       "en": "The image of Sicilian Ceres",
@@ -1835,7 +1835,7 @@
     {
       "id": "cartm57",
       "num": "65",
-      "page": "194",
+      "page": "233",
       "fr": "Statua di Cerere nera in Arcadia",
       "ru": "Статуя чёрной Цереры в Аркадии",
       "en": "The statue of black Ceres in Arcadia",
@@ -1864,7 +1864,7 @@
     {
       "id": "cartm58",
       "num": "66",
-      "page": "197",
+      "page": "236",
       "fr": "Imagine di Pomona, dea degli Orti",
       "ru": "Образ Помоны, богини садов",
       "en": "The image of Pomona, goddess of Orchards",
@@ -1892,7 +1892,7 @@
     {
       "id": "cartm59",
       "num": "67",
-      "page": "199",
+      "page": "238",
       "fr": "Imagine della dea Proserpina e della dea Bona",
       "ru": "Образ богини Прозерпины и богини Бона",
       "en": "The image of the goddess Proserpina and the goddess Bona",
@@ -1921,7 +1921,7 @@
     {
       "id": "cartm60",
       "num": "68",
-      "page": "202",
+      "page": "241",
       "fr": "Imagine di Glauco, dio marino",
       "ru": "Образ Главка, морского бога",
       "en": "The image of Glaucus, sea god",
@@ -1949,7 +1949,7 @@
     {
       "id": "cartm61",
       "num": "69",
-      "page": "204",
+      "page": "243",
       "fr": "Imagine dei Tritoni, delle Nereidi e di Galatea",
       "ru": "Образ Тритонов, Нереид и Галатеи",
       "en": "The image of the Tritons, the Nereids, and Galatea",
@@ -1978,7 +1978,7 @@
     {
       "id": "cartm62",
       "num": "70",
-      "page": "207",
+      "page": "246",
       "fr": "Imagine delle Sirene Partenope, Leucosia e Ligia",
       "ru": "Образ сирен Партенопы, Левкосии и Лигии",
       "en": "The image of the Sirens Parthenope, Leucosia, and Ligeia",
@@ -2006,7 +2006,7 @@
     {
       "id": "cartm63",
       "num": "71",
-      "page": "209",
+      "page": "248",
       "fr": "Imagine di Scilla, scoglio siciliano",
       "ru": "Образ Сциллы, сицилийской скалы",
       "en": "The image of Scylla, the Sicilian rock",
@@ -2034,7 +2034,7 @@
     {
       "id": "cart7",
       "num": "72",
-      "page": "211",
+      "page": "250",
       "fr": "Nettuno",
       "ru": "Нептун",
       "en": "Neptune",
@@ -2061,7 +2061,7 @@
     {
       "id": "cartm64",
       "num": "73",
-      "page": "214",
+      "page": "253",
       "fr": "Imagine di Nettuno secondo Filostrato",
       "ru": "Образ Нептуна согласно Филострату",
       "en": "The image of Neptune according to Philostratus",
@@ -2090,7 +2090,7 @@
     {
       "id": "cartm65",
       "num": "74",
-      "page": "217",
+      "page": "256",
       "fr": "Imagine di Eurinome e di Derceto, dee marine",
       "ru": "Образ Евриномы и Дерцето, морских богинь",
       "en": "The image of Eurynome and Derceto, sea goddesses",
@@ -2118,7 +2118,7 @@
     {
       "id": "cartm66",
       "num": "75",
-      "page": "219",
+      "page": "258",
       "fr": "Imagini di Borea, Austro, Euro e Zefiro, i quattro venti",
       "ru": "Образы Борея, Австра, Эвра и Зефира, четырёх ветров",
       "en": "The images of Boreas, Auster, Eurus, and Zephyr, the four winds",
@@ -2146,7 +2146,7 @@
     {
       "id": "cartm67",
       "num": "76",
-      "page": "221",
+      "page": "260",
       "fr": "Imagini dei fiumi Cefiso e Po",
       "ru": "Образы рек Кефис и По",
       "en": "The images of the rivers Cephissus and Po",
@@ -2174,7 +2174,7 @@
     {
       "id": "cartm68",
       "num": "77",
-      "page": "223",
+      "page": "262",
       "fr": "Imagine del Tevere, che mostra l'abbondanza",
       "ru": "Образ Тибра, являющего изобилие",
       "en": "The image of the Tiber, showing abundance",
@@ -2202,7 +2202,7 @@
     {
       "id": "cartm69",
       "num": "78",
-      "page": "225",
+      "page": "264",
       "fr": "Imagine del fiume Nilo, seduto sulla Sfinge",
       "ru": "Образ реки Нил, восседающей на Сфинксе",
       "en": "The image of the river Nile, seated on the Sphinx",
@@ -2230,7 +2230,7 @@
     {
       "id": "cartb18",
       "num": "79",
-      "page": "227",
+      "page": "266",
       "fr": "Vertunno, con Pomona",
       "ru": "Вертумн и Помона",
       "en": "Vertumnus, with Pomona",
@@ -2261,7 +2261,7 @@
     {
       "id": "cart8",
       "num": "80",
-      "page": "234",
+      "page": "273",
       "fr": "Plutone",
       "ru": "Плутон",
       "en": "Pluto",
@@ -2292,7 +2292,7 @@
     {
       "id": "cartm70",
       "num": "81",
-      "page": "241",
+      "page": "280",
       "fr": "Imagini di Aletto, Tisifone e Megera, le tre Furie",
       "ru": "Образы Алекто, Тисифоны и Мегеры, трёх Фурий",
       "en": "The images of Alecto, Tisiphone, and Megaera, the three Furies",
@@ -2321,7 +2321,7 @@
     {
       "id": "cartm71",
       "num": "82",
-      "page": "244",
+      "page": "283",
       "fr": "Imagine delle Arpie, Streghe e Lamie",
       "ru": "Образ Гарпий, Ведьм и Ламий",
       "en": "The image of the Harpies, Witches, and Lamias",
@@ -2350,7 +2350,7 @@
     {
       "id": "cartm72",
       "num": "83",
-      "page": "247",
+      "page": "286",
       "fr": "Imagine della Sfinge Tebana e della Chimera Licia",
       "ru": "Образ Сфинкс Фиванской и Химеры Ликийской",
       "en": "The image of the Theban Sphinx and the Lycian Chimera",
@@ -2379,7 +2379,7 @@
     {
       "id": "cartm73",
       "num": "84",
-      "page": "250",
+      "page": "289",
       "fr": "Imagini di Cloto, Lachesi e Atropo, le tre Parche",
       "ru": "Образы Клото, Лахесис и Атропос, трёх Парок",
       "en": "The images of Clotho, Lachesis, and Atropos, the three Fates",
@@ -2408,7 +2408,7 @@
     {
       "id": "cartm74",
       "num": "85",
-      "page": "253",
+      "page": "292",
       "fr": "Imagine della Necessità e delle tre Parche",
       "ru": "Образ Необходимости и трёх Парок",
       "en": "The image of Necessity and the three Fates",
@@ -2436,7 +2436,7 @@
     {
       "id": "cartm75",
       "num": "86",
-      "page": "255",
+      "page": "294",
       "fr": "Imagini delle tre Parche trovate in Stiria",
       "ru": "Образы трёх Парок, найденные в Штирии",
       "en": "The images of the three Fates found in Styria",
@@ -2464,7 +2464,7 @@
     {
       "id": "cartm76",
       "num": "87",
-      "page": "257",
+      "page": "296",
       "fr": "Imagine di Caronte, nocchiero infernale",
       "ru": "Образ Харона, адского перевозчика",
       "en": "The image of Charon, the infernal ferryman",
@@ -2493,7 +2493,7 @@
     {
       "id": "cart9",
       "num": "88",
-      "page": "260",
+      "page": "299",
       "fr": "Mercurio",
       "ru": "Меркурий",
       "en": "Mercury",
@@ -2522,7 +2522,7 @@
     {
       "id": "cartm77",
       "num": "89",
-      "page": "265",
+      "page": "304",
       "fr": "Imagine della Pace e dei suoi geroglifici",
       "ru": "Образ Мира и его иероглифов",
       "en": "The image of Peace and her hieroglyphs",
@@ -2550,7 +2550,7 @@
     {
       "id": "cartm78",
       "num": "90",
-      "page": "267",
+      "page": "306",
       "fr": "Imagini della Concordia e della Fede",
       "ru": "Образы Согласия и Верности",
       "en": "The images of Concord and Faith",
@@ -2578,7 +2578,7 @@
     {
       "id": "cartm79",
       "num": "91",
-      "page": "269",
+      "page": "308",
       "fr": "Imagine di Mercurio inventore delle Lettere",
       "ru": "Образ Меркурия, изобретателя Письменности",
       "en": "The image of Mercury, inventor of Letters",
@@ -2606,7 +2606,7 @@
     {
       "id": "cartm80",
       "num": "92",
-      "page": "271",
+      "page": "310",
       "fr": "Statue di Mercurio, dette Hermi",
       "ru": "Статуи Меркурия, называемые Гермами",
       "en": "The statues of Mercury, called Herms",
@@ -2648,7 +2648,7 @@
     {
       "id": "cartm81",
       "num": "93",
-      "page": "287",
+      "page": "326",
       "fr": "Imagine d'Ercole armato e banchettante",
       "ru": "Образ вооружённого и пирующего Геркулеса",
       "en": "The image of Hercules armed and feasting",
@@ -2679,7 +2679,7 @@
     {
       "id": "cartm82",
       "num": "94",
-      "page": "292",
+      "page": "331",
       "fr": "Apollo ed Ercole contendono per il Tripode",
       "ru": "Аполлон и Геркулес спорят из-за треножника",
       "en": "Apollo and Hercules contending for the Tripod",
@@ -2707,7 +2707,7 @@
     {
       "id": "cart10",
       "num": "95",
-      "page": "294",
+      "page": "333",
       "fr": "Minerva (con Mercurio)",
       "ru": "Минерва (вместе с Меркурием)",
       "en": "Minerva (with Mercury)",
@@ -2734,7 +2734,7 @@
     {
       "id": "cartm83",
       "num": "96",
-      "page": "297",
+      "page": "336",
       "fr": "Imagine di Vulcano che apre il capo a Giove",
       "ru": "Образ Вулкана, рассекающего голову Юпитеру",
       "en": "The image of Vulcan splitting open Jove's head",
@@ -2763,7 +2763,7 @@
     {
       "id": "cartm84",
       "num": "97",
-      "page": "300",
+      "page": "339",
       "fr": "Imagine di Bellona, dea della guerra",
       "ru": "Образ Беллоны, богини войны",
       "en": "The image of Bellona, goddess of war",
@@ -2792,7 +2792,7 @@
     {
       "id": "cartm85",
       "num": "98",
-      "page": "303",
+      "page": "342",
       "fr": "Imagine di Minerva inventrice del filare e tessere",
       "ru": "Образ Минервы, изобретательницы прядения и ткачества",
       "en": "The image of Minerva, inventress of spinning and weaving",
@@ -2820,7 +2820,7 @@
     {
       "id": "cartm86",
       "num": "99",
-      "page": "305",
+      "page": "344",
       "fr": "Imagine della Virtù e dell'Onore",
       "ru": "Образ Доблести и Чести",
       "en": "The image of Virtue and Honour",
@@ -2848,7 +2848,7 @@
     {
       "id": "cartm87",
       "num": "100",
-      "page": "307",
+      "page": "346",
       "fr": "Imagini della dea Volupia",
       "ru": "Образы богини Волюпии",
       "en": "The images of the goddess Volupia",
@@ -2877,7 +2877,7 @@
     {
       "id": "cartm88",
       "num": "101",
-      "page": "310",
+      "page": "349",
       "fr": "Imagine della dea Angerona e del dio del Silenzio",
       "ru": "Образ богини Ангероны и бога Молчания",
       "en": "The image of the goddess Angerona and the god of Silence",
@@ -2932,7 +2932,7 @@
     {
       "id": "cart11",
       "num": "102",
-      "page": "339",
+      "page": "378",
       "fr": "Baccho",
       "ru": "Вакх",
       "en": "Bacchus",
@@ -2958,7 +2958,7 @@
     {
       "id": "cartm89",
       "num": "103",
-      "page": "341",
+      "page": "380",
       "fr": "Imagine di Como, dio dei Conviti",
       "ru": "Образ Кома, бога пиров",
       "en": "The image of Comus, god of Feasts",
@@ -2987,7 +2987,7 @@
     {
       "id": "cartm90",
       "num": "104",
-      "page": "344",
+      "page": "383",
       "fr": "Imagine di Bacco secondo Macrobio",
       "ru": "Образ Вакха согласно Макробию",
       "en": "The image of Bacchus according to Macrobius",
@@ -3016,7 +3016,7 @@
     {
       "id": "cartm91",
       "num": "105",
-      "page": "347",
+      "page": "386",
       "fr": "Imagini di Bacco e della pompa bacchica",
       "ru": "Образы Вакха и вакхического шествия",
       "en": "The images of Bacchus and the Bacchic procession",
@@ -3045,7 +3045,7 @@
     {
       "id": "cartm92",
       "num": "106",
-      "page": "350",
+      "page": "389",
       "fr": "Imagini di Bacco trionfatore sull'elefante",
       "ru": "Образы Вакха-триумфатора на слоне",
       "en": "The images of Bacchus triumphant upon the elephant",
@@ -3074,7 +3074,7 @@
     {
       "id": "cartm93",
       "num": "107",
-      "page": "353",
+      "page": "392",
       "fr": "Imagine della Nave di Bacco",
       "ru": "Образ Корабля Вакха",
       "en": "The image of the Ship of Bacchus",
@@ -3104,7 +3104,7 @@
     {
       "id": "cartm94",
       "num": "108",
-      "page": "357",
+      "page": "396",
       "fr": "Imagine di Horo, dio degli Egizi, Priapo e Bacco",
       "ru": "Образ Гора, бога египтян, Приапа и Вакха",
       "en": "The image of Horus, god of the Egyptians, Priapus and Bacchus",
@@ -3132,7 +3132,7 @@
     {
       "id": "cartm95",
       "num": "109",
-      "page": "359",
+      "page": "398",
       "fr": "Imagini di Tifone e di Horo",
       "ru": "Образы Тифона и Гора",
       "en": "The images of Typhon and Horus",
@@ -3163,7 +3163,7 @@
     {
       "id": "cartm96",
       "num": "110",
-      "page": "364",
+      "page": "403",
       "fr": "Imagine di Priapo, dio degli Orti",
       "ru": "Образ Приапа, бога садов",
       "en": "The image of Priapus, god of Gardens",
@@ -3190,7 +3190,7 @@
     {
       "id": "cartm97",
       "num": "111",
-      "page": "365",
+      "page": "404",
       "fr": "Imagini degli dei Lari e Penati",
       "ru": "Образы богов Ларов и Пенатов",
       "en": "The images of the gods Lares and Penates",
@@ -3218,7 +3218,7 @@
     {
       "id": "cartm98",
       "num": "112",
-      "page": "367",
+      "page": "406",
       "fr": "Imagini del Genio buono e cattivo",
       "ru": "Образы доброго и злого Гения",
       "en": "The images of the good and evil Genius",
@@ -3251,7 +3251,7 @@
     {
       "id": "cart12",
       "num": "113",
-      "page": "374",
+      "page": "413",
       "fr": "Fortuna",
       "ru": "Фортуна",
       "en": "Fortune",
@@ -3277,7 +3277,7 @@
     {
       "id": "cartm99",
       "num": "114",
-      "page": "376",
+      "page": "415",
       "fr": "Imagini della Fortuna lieta e triste",
       "ru": "Образы радостной и печальной Фортуны",
       "en": "The images of joyful and sorrowful Fortune",
@@ -3305,7 +3305,7 @@
     {
       "id": "cartb20",
       "num": "115",
-      "page": "378",
+      "page": "417",
       "fr": "Nemesi",
       "ru": "Немезида",
       "en": "Nemesis",
@@ -3331,7 +3331,7 @@
     {
       "id": "cartb21",
       "num": "116",
-      "page": "380",
+      "page": "419",
       "fr": "Giustitia",
       "ru": "Справедливость",
       "en": "Justice",
@@ -3357,7 +3357,7 @@
     {
       "id": "cartb22",
       "num": "117",
-      "page": "382",
+      "page": "421",
       "fr": "La Calunnia d'Apelle",
       "ru": "«Клевета» Апеллеса",
       "en": "The Calumny of Apelles",
@@ -3383,7 +3383,7 @@
     {
       "id": "cartm100",
       "num": "118",
-      "page": "384",
+      "page": "423",
       "fr": "Imagini dell'Invidia",
       "ru": "Образы Зависти",
       "en": "The images of Envy",
@@ -3411,7 +3411,7 @@
     {
       "id": "cartm101",
       "num": "119",
-      "page": "386",
+      "page": "425",
       "fr": "Imagine di Momo, dio della riprensione",
       "ru": "Образ Мома, бога порицания",
       "en": "The image of Momus, god of censure",
@@ -3439,7 +3439,7 @@
     {
       "id": "cartm102",
       "num": "120",
-      "page": "388",
+      "page": "427",
       "fr": "Imagine della Frode secondo Dante",
       "ru": "Образ Обмана по Данте",
       "en": "The image of Fraud according to Dante",
@@ -3467,7 +3467,7 @@
     {
       "id": "cartm103",
       "num": "121",
-      "page": "390",
+      "page": "429",
       "fr": "Geroglifico della buona Fortuna e dell'Occasione",
       "ru": "Иероглиф доброй Фортуны и Случая",
       "en": "The hieroglyph of good Fortune and of Occasion",
@@ -3495,7 +3495,7 @@
     {
       "id": "cartm104",
       "num": "122",
-      "page": "392",
+      "page": "431",
       "fr": "Imagine della Fortuna presso gli Sciti",
       "ru": "Образ Фортуны у скифов",
       "en": "The image of Fortune among the Scythians",
@@ -3524,7 +3524,7 @@
     {
       "id": "cartm105",
       "num": "123",
-      "page": "395",
+      "page": "434",
       "fr": "Imagine della Fortuna in Egira",
       "ru": "Образ Фортуны в Эгире",
       "en": "The image of Fortune at Aegira",
@@ -3553,7 +3553,7 @@
     {
       "id": "cartm106",
       "num": "124",
-      "page": "398",
+      "page": "437",
       "fr": "Imagine della Fortuna a cavallo",
       "ru": "Образ Фортуны верхом на коне",
       "en": "The image of Fortune on horseback",
@@ -3581,7 +3581,7 @@
     {
       "id": "cartm107",
       "num": "125",
-      "page": "400",
+      "page": "439",
       "fr": "Imagine del buon Evento e del Favore instabile",
       "ru": "Образ доброго Случая и непостоянной Благосклонности",
       "en": "The image of good Event and of unstable Favour",
@@ -3609,7 +3609,7 @@
     {
       "id": "cartb19",
       "num": "126",
-      "page": "402",
+      "page": "441",
       "fr": "Macaria, ò Felicità",
       "ru": "Макария, или Счастье",
       "en": "Macaria, or Felicity",
@@ -3639,7 +3639,7 @@
     {
       "id": "cart13",
       "num": "127",
-      "page": "408",
+      "page": "447",
       "fr": "Cupido (Eroto & Anterote)",
       "ru": "Купидон (Эрот и Антерот)",
       "en": "Cupid (Eros and Anteros)",
@@ -3671,7 +3671,7 @@
     {
       "id": "cartm108",
       "num": "128",
-      "page": "416",
+      "page": "455",
       "fr": "Trionfo d'Amore",
       "ru": "Триумф Амура",
       "en": "The Triumph of Love",
@@ -3701,7 +3701,7 @@
     {
       "id": "cartm109",
       "num": "129",
-      "page": "420",
+      "page": "459",
       "fr": "Imagini d'Amore e dei suoi effetti",
       "ru": "Образы Амура и его воздействий",
       "en": "The images of Love and its effects",
@@ -3729,7 +3729,7 @@
     {
       "id": "cartm110",
       "num": "130",
-      "page": "422",
+      "page": "461",
       "fr": "Imagine di Pane e Cupido",
       "ru": "Образ Пана и Амура",
       "en": "The image of Pan and Cupid",
@@ -3763,7 +3763,7 @@
     {
       "id": "cart14",
       "num": "131",
-      "page": "430",
+      "page": "469",
       "fr": "Venere",
       "ru": "Венера",
       "en": "Venus",
@@ -3789,7 +3789,7 @@
     {
       "id": "cartm111",
       "num": "132",
-      "page": "432",
+      "page": "471",
       "fr": "Tempio di Venere in Pafo",
       "ru": "Храм Венеры в Пафосе",
       "en": "The Temple of Venus at Paphos",
@@ -3817,7 +3817,7 @@
     {
       "id": "cartm112",
       "num": "133",
-      "page": "434",
+      "page": "473",
       "fr": "Imagine di Venere tirata in carro dai Cigni",
       "ru": "Образ Венеры на колеснице, влекомой лебедями",
       "en": "The image of Venus drawn in a chariot by Swans",
@@ -3846,7 +3846,7 @@
     {
       "id": "cartm113",
       "num": "134",
-      "page": "437",
+      "page": "476",
       "fr": "Imagine di Venere con gli Amorini e le Grazie",
       "ru": "Образ Венеры с Амурами и Грациями",
       "en": "The image of Venus with Cupids and the Graces",
@@ -3874,7 +3874,7 @@
     {
       "id": "cartm114",
       "num": "135",
-      "page": "439",
+      "page": "478",
       "fr": "Imagini di Venere, Cupido, del Giogo e del Capro",
       "ru": "Образы Венеры, Купидона, Ярма и Козла",
       "en": "The images of Venus, Cupid, the Yoke and the He-goat",
@@ -3903,7 +3903,7 @@
     {
       "id": "cartm115",
       "num": "136",
-      "page": "442",
+      "page": "481",
       "fr": "Imagine di Venere armata, vittrice e in catene",
       "ru": "Образ вооружённой, победоносной и закованной Венеры",
       "en": "The image of Venus armed, victorious, and in chains",
@@ -3934,7 +3934,7 @@
     {
       "id": "cartm116",
       "num": "137",
-      "page": "447",
+      "page": "486",
       "fr": "Imagine di Venere maschio e femmina",
       "ru": "Образ Венеры мужской и женской",
       "en": "The image of Venus, male and female",
@@ -3966,7 +3966,7 @@
     {
       "id": "cartb23",
       "num": "138",
-      "page": "453",
+      "page": "492",
       "fr": "Le Hore",
       "ru": "Горы (Часы года)",
       "en": "The Hours",
@@ -3992,7 +3992,7 @@
     {
       "id": "cart15",
       "num": "139",
-      "page": "455",
+      "page": "494",
       "fr": "Le Gratie",
       "ru": "Грации",
       "en": "The Graces",
@@ -4018,7 +4018,7 @@
     {
       "id": "cartm117",
       "num": "140",
-      "page": "457",
+      "page": "496",
       "fr": "Imagine delle Grazie guidate da Mercurio",
       "ru": "Образ Граций, ведомых Меркурием",
       "en": "The image of the Graces guided by Mercury",
@@ -4029,11 +4029,7 @@
         "cartm117.jpg",
         "cartm117_p497.jpg",
         "cartm117_p498.jpg",
-        "cartm117_p499.jpg",
-        "cartm117_p500.jpg",
-        "cartm117_p501.jpg",
-        "cartm117_p502.jpg",
-        "cartm117_p503.jpg"
+        "cartm117_p499.jpg"
       ],
       "group": "Главный текст",
       "group_en": "Main text",
@@ -4050,9 +4046,121 @@
       ]
     },
     {
-      "id": "carta1",
+      "id": "carta46",
       "num": "141",
-      "page": "465",
+      "page": "500",
+      "fr": "Annotationi di Lorenzo Pignoria: proemio (I)",
+      "ru": "Примечания Лоренцо Пиньории: вступление (I)",
+      "en": "Lorenzo Pignoria's Annotations: preface (I)",
+      "img": [
+        "carta46.jpg"
+      ],
+      "scans": [
+        "carta46.jpg"
+      ],
+      "group": "Пиньория: примечания",
+      "group_en": "Pignoria's Annotations",
+      "caption": "Annotationi di Lorenzo Pignoria, al libro Delle Imagini del Cartari. Che a gl'Animali non sia mai stato attribuito da alcuno lume di religione non è in tutto vero. Perche hanno detto gran cose gli Egittij de i loro Animali Sacri, come del Cinocefalo, dello Scarabeo, & d'altri. Intorno che vedansi Horo Apolline, & il nostro Commentario sopra la Tauola Hieroglifica, che fu già del Card. Bembo glor. mem. & hora si vede nella Galleria del Sereniss. Sig. Duca di Mantoua. Anzi che de gl'Elefanti si raccontano particolari di molta marauiglia. Et leggasi Eliano nel 7. dell'Historia de gl'Animali a cap. 39. & nel 4. a cap. 9. Plinio nel lib. 8. al cap. 1. De' moderni il Porcacchi sopra l'Arcadia del Sannazaro a car. 174. dell'editione di Pauia del 1596. Dio i Latini chiamano DEVS, che senza dubio viene dalla voce greca ΖΕΥΣ, mutando la Z in D, com'è stato vsanza di tutte le lingue, per testimonio di Claudio Mitalerio sopra Valerio Massimo. Alcuni altri vogliono, che si deriui dal vocabolo greco ΔΕΟΣ, che significa timore: onde habbia detto Petronio Arbitro: 'Primus in orbe Deos fecit timor.' Et di questa opinione fu Lattantio Placido Commentatore di Statio Papinio nel Lib. 3. della Tebaide a versi 661. doue cita Lucano, & Mintanore Musico, ch'è riferito ancora da Fulgentio nel primo Libro delle Mitologie. Allude a questo sentimento Arnolfo Vescouo di Lisieux in Francia, nel Sermone, ch'egli recitò nel Concilio di Tours, & lo conferma col verso del Salmo LX. 'dedisti hereditatem timentibus nomen tuum Domine.' Alcune cose belle intorno'l nome di Dio scriue Diogene Laertio, nella vita di Zenone verso'l fine. Questo Senato duodenario de' Dei grandi si legge in due versi di Ennio appresso Marciano Capella, nel primo Libro delle nozze di Filologia, & di Mercurio. Anzi che l'Antichità gli haueua in tal maniera compartiti, che ad ogni mese ne toccaua vno, come si vede...",
+      "text_ru": [
+        "«Примечания Лоренцо Пиньории к книге «Об образах Картари». То, что животным никогда не приписывался никакой свет религии, — не вполне верно. Ибо египтяне говорили великие вещи о своих священных животных — Кинокефале, Скарабее и прочих. Об этом смотри Гора Аполлона и наш комментарий к Иероглифической таблице, некогда принадлежавшей кардиналу Бембо славной памяти, а ныне хранящейся в галерее светлейшего герцога Мантуанского. Более того, о слонах рассказывают весьма удивительные подробности — читай Элиана, кн.7 «Истории животных», гл.39, и кн.4, гл.9; Плиния, кн.8, гл.1; из новых — Поркаки, в комментарии к «Аркадии» Саннадзаро, лист 174 павийского издания 1596 года. Латиняне называют бога DEVS, что несомненно происходит от греческого слова ΖΕΥΣ («Зевс»), через смену Z на D, как это было в обычае у всех языков, по свидетельству Клавдия Миталерия в комментарии к Валерию Максиму. Иные же полагают, что оно происходит от греческого слова ΔΕΟΣ, означающего «страх»: отсюда и слова Петрония Арбитра: «Страх первым создал богов на земле». Этого же мнения держался Лактанций Плацид, комментатор Стация Папиния, в 3-й книге «Фиваиды», к стиху 661, где цитирует Лукана и музыканта Минтанора, также упоминаемого Фульгенцием в первой книге «Мифологий». На это же указывает Арнульф, епископ Лизьё во Франции, в проповеди, произнесённой им на Турском соборе, подтверждая это стихом из Псалма 60: «Ты дал наследие боящимся имени Твоего, Господи». Прекрасные вещи об имени Бога пишет Диоген Лаэртский в жизнеописании Зенона, ближе к концу. Этот совет из двенадцати великих богов читается в двух стихах Энния у Марциана Капеллы, в первой книге «Бракосочетания Филологии и Меркурия». Более того, древность разделила их так, что на каждый месяц приходился один бог, как это видно...»"
+      ],
+      "text_en": [
+        "“Annotations of Lorenzo Pignoria to the book Of the Images of Cartari. That no light of religion was ever attributed to Animals is not entirely true. For the Egyptians said great things about their Sacred Animals, such as the Dog-headed Baboon, the Scarab, and others. On this, see Horapollo, and our Commentary on the Hieroglyphic Table, once belonging to Cardinal Bembo of glorious memory, now kept in the Gallery of the Most Serene Duke of Mantua. Indeed, remarkable particulars are told of Elephants — see Aelian, Book 7 of the History of Animals, chapter 39, and Book 4, chapter 9; Pliny, Book 8, chapter 1; among moderns, Porcacchi on Sannazaro's Arcadia, folio 174 of the Pavia edition of 1596. The Latins call God DEVS, which doubtless comes from the Greek word ΖΕΥΣ, changing Z to D, as was the custom in all languages, per the testimony of Claudius Mitalerius on Valerius Maximus. Others hold that it derives from the Greek word ΔΕΟΣ, meaning fear: whence Petronius Arbiter said: 'Fear first made gods in the world.' Of this opinion was Lactantius Placidus, commentator on Statius Papinius, Book 3 of the Thebaid, at verse 661, where he cites Lucan and the musician Mintanor, also cited by Fulgentius in the first Book of Mythologies. Arnulf, Bishop of Lisieux in France, alludes to this view in the sermon he delivered at the Council of Tours, confirming it with the verse of Psalm 60: 'You have given a heritage to those who fear Your name, O Lord.' Diogenes Laertius writes some fine things on the name of God near the end of his life of Zeno. This council of twelve of the greater gods is read in two verses of Ennius, quoted by Martianus Capella in the first Book of the Marriage of Philology and Mercury. Indeed, Antiquity divided them in such a way that each month had one assigned to it, as is seen...”"
+      ],
+      "name_fr": "Annotations de Lorenzo Pignoria : préface (I)",
+      "text_fr": [
+        "« Annotations de Lorenzo Pignoria au livre Des Images de Cartari. Qu'aucune lumière de religion n'ait jamais été attribuée aux Animaux n'est pas tout à fait vrai. Car les Égyptiens ont dit de grandes choses de leurs Animaux sacrés, comme le Cynocéphale, le Scarabée, et d'autres. Voir à ce sujet Horapollon, et notre Commentaire sur la Table hiéroglyphique, qui appartint autrefois au cardinal Bembo de glorieuse mémoire, et se trouve maintenant dans la Galerie du Sérénissime Duc de Mantoue. On raconte d'ailleurs des particularités fort admirables des Éléphants — voir Élien, livre 7 de l'Histoire des Animaux, chapitre 39, et livre 4, chapitre 9 ; Pline, livre 8, chapitre 1 ; parmi les modernes, Porcacchi sur l'Arcadie de Sannazaro, folio 174 de l'édition de Pavie de 1596. Les Latins appellent Dieu DEVS, qui vient sans doute du mot grec ΖΕΥΣ, en changeant le Z en D, comme ce fut l'usage de toutes les langues, selon le témoignage de Claude Mitalerius sur Valère Maxime. D'autres soutiennent que cela dérive du mot grec ΔΕΟΣ, qui signifie la peur : d'où Pétrone a dit : 'La peur créa la première les dieux dans le monde.' De cet avis fut Lactance Placide, commentateur de Stace Papinius, livre 3 de la Thébaïde, au vers 661, où il cite Lucain, et le musicien Mintanor, cité aussi par Fulgence dans le premier Livre des Mythologies. Arnoul, évêque de Lisieux en France, fait allusion à ce sentiment dans le Sermon qu'il prononça au Concile de Tours, le confirmant par le verset du Psaume 60 : 'Tu as donné un héritage à ceux qui craignent ton nom, Seigneur.' Diogène Laërce écrit de belles choses sur le nom de Dieu, vers la fin de la vie de Zénon. Ce sénat de douze grands Dieux se lit en deux vers d'Ennius chez Martianus Capella, dans le premier Livre des Noces de Philologie et de Mercure. L'Antiquité les avait d'ailleurs répartis de telle sorte qu'à chaque mois en revenait un, comme on le voit... »"
+      ],
+      "textOnly": true
+    },
+    {
+      "id": "carta47",
+      "num": "142",
+      "page": "501",
+      "fr": "Annotationi di Lorenzo Pignoria: proemio (II) — statue, altari, Demogorgone",
+      "ru": "Примечания Лоренцо Пиньории: вступление (II) — статуи, алтари, Демогоргон",
+      "en": "Lorenzo Pignoria's Annotations: preface (II) — statues, altars, Demogorgon",
+      "img": [
+        "carta47.jpg"
+      ],
+      "scans": [
+        "carta47.jpg"
+      ],
+      "group": "Пиньория: примечания",
+      "group_en": "Pignoria's Annotations",
+      "caption": "...chiaro nel Calendario Rustico publicato, e dichiarato da Fuluio Orsino esquisitissimo osseruatore delle antiche curiosità. Vedansi Macrobio nel L. 1. de' Saturnali a cap. 12. & i Fasti Sacri di Ambrosio Nouidio; che con lodeuole inuentione s'è ingegnato di correggere la superstitione de gli antichi. Lucano non dice, che facessero quei di Marseglia riuerenza a gl'altri tronchi; & che nei boschi non vi fossero simulacri. Testimonio ne siano i versi di lui: 'Sed barbara ritu Sacra Deum, structæ diris altaribus aræ.' Ecco gli Altari. più giù: 'tum plurima nigris Fontibus vnda cadit simulacraq; mæsta Deorum Arte carent, cæsisq; extant informia truncis.' Ecco le statue. ma non è huomo chi non falla. Del rispetto portato alle Statue vedasi Dione Chrisostomo nella Oratione che ei fece a quelli di Rodi, appresso i quali ei biasima vn'abuso di leuare il nome alle Statue de' passati & mettercene vn'altro. Di più leggasi Cassiodoro nel VII. delle Varie, alla Formula 13. 14. doue dice che in Roma era vn'altro popolo di Statue; & bisogna bene, che fosse così, perche essendosi delle Statue di Roma abbellite le Gallerie de' Principi, & de' priuati, in Italia & fuor d'Italia, tuttauia la maniera non è ancora essausta, & se ne troua ogni giorno in tanta quantità. Veda chi vuole Giusto Lipsio nel 3. Lib. della grandezza Rom. a cap. 9. & l'Incruscato nel suo Ristretto. Di Demogorgone parla Statio nel 4. della Thebaide, secondo la spositione di Lattantio Placido Grammatico antico. & vedasi il Mazzoni sopra Dante, nel Lib. 1. al cap. 63. Et forse a Demogorgone volle alludere la Maga Erichto, appresso Lucano nel 6. Alcuni, che hanno cercato la ragione di questo adiettiuo eterno, hanno detto, che venga da eui terno, come Varrone nel 5. Lib. della Lingua latina. Altri hanno tenuto, che deriui dall'etere, come Isidoro attesta d'alcuni nel Lib. 7. delle sue Origini. Io direi con Varrone, che hauesse origine dall'Euo, che da Arnobio nel Lib. III. aduers. gent. è chiamato Euità. Lo descriue Censorino nel Libro del giorno natale a cap. 16. (io cito la editione di Lodouico Carrione) che sia immenso, senza origine, e senza fine, che sempre fu & sempre sarà nella medesima maniera. Intorno l'Eternità chi vuol vedere qualche pensiero gentile, legga Antonio Agostini nel 3. Dial. delle Medaglie. Theofrasto nei Caratteri scriue, che'l superstitioso abbattendosi nelle pietre vnte, che si trouano doue tre strade fanno capo, che le vnge—",
+      "text_ru": [
+        "«...ясно из опубликованного Сельского календаря, истолкованного Фульвио Орсини, тончайшим наблюдателем древних редкостей. Смотри Макробия, кн.1 «Сатурналий», гл.12, и священные «Фасты» Амброзио Новидио, который с похвальной изобретательностью взялся исправлять суеверия древних. Лукан не говорит, что марсельцы почитали и другие стволы [деревьев]; и что в рощах не было изваяний. Свидетельством тому его стихи: «Но по варварскому обряду — священные алтари богов, воздвигнутые со страшными жертвенниками». Вот и алтари. Ниже: «тогда многая вода стекает из чёрных источников, и печальные изваяния богов, лишённые искусства, стоят бесформенными обрубками». Вот и статуи. Но нет человека, который бы не ошибался. О почитании, оказываемом статуям, смотри Диона Хрисостома в речи, обращённой к родосцам, у которых он порицает злоупотребление — снимать имя со статуй прежних [людей] и ставить на них другое. Далее читай Кассиодора, кн.VII «Разного», формула 13-14, где он говорит, что в Риме был ещё и другой народ — народ статуй; и это должно быть верно, ибо галереи государей и частных лиц, в Италии и за её пределами, украшенные римскими статуями, всё же не исчерпали этот запас, и их находят каждый день в таком количестве. Пусть смотрит, кто хочет, Юста Липсия, кн.3 «О величии Рима», гл.9, и Инкрускато в его «Кратком своде». О Демогоргоне говорит Стаций в 4-й книге «Фиваиды», согласно толкованию древнего грамматика Лактанция Плацида; смотри также Маццони о Данте, кн.1, гл.63. И, возможно, на Демогоргона намекала волшебница Эрихто у Лукана в 6-й книге. Некоторые, искавшие причину этого вечного эпитета, говорили, что оно происходит от «eui terno» [вечного века], как у Варрона, кн.5 «О латинском языке». Другие полагали, что оно происходит от эфира, как свидетельствует Исидор о некоторых в кн.7 своих «Начал». Я бы сказал вслед за Варроном, что оно происходит от Эона, которого Арнобий в кн.III «Против язычников» называет «Euità». Описывает его Цензорин в книге «О дне рождения», гл.16 (цитирую издание Лодовико Каррионе), как безмерного, без начала и без конца, который всегда был и всегда будет неизменным. О Вечности, кто хочет увидеть какую-нибудь изящную мысль, пусть читает Антонио Агостини в 3-м Диалоге о медалях. Теофраст в «Характерах» пишет, что суеверный человек, наткнувшись на умащенные камни, что находятся там, где сходятся три дороги, умащивает их...»"
+      ],
+      "text_en": [
+        "“...clear from the published Rustic Calendar, expounded by Fulvio Orsini, the most exquisite observer of ancient curiosities. See Macrobius, Book 1 of the Saturnalia, chapter 12, and the Sacred Fasti of Ambrosio Nouidio, who with praiseworthy ingenuity undertook to correct the superstition of the ancients. Lucan does not say that the people of Marseille revered other tree-trunks too; nor that there were no images in the woods. Witness his verses: 'But by barbarous rite, sacred to the gods, altars raised with dread sacrifices.' Behold the Altars. Further down: 'then much water falls from black springs, and the sad images of the gods, devoid of art, stand shapeless on hewn trunks.' Behold the statues. But there is no man who does not err. On the respect paid to Statues, see Dio Chrysostom in the Oration he delivered to the people of Rhodes, among whom he censures the abuse of removing the name from statues of the dead and putting another in its place. Further, read Cassiodorus, Book VII of the Varia, Formula 13-14, where he says that in Rome there was another people — a people of Statues; and this must indeed be so, for although the galleries of princes and private men, in Italy and abroad, have been adorned with Roman statues, the supply is still not exhausted, and they are found every day in such quantity. Let whoever wishes consult Justus Lipsius, Book 3 on the Greatness of Rome, chapter 9, and Incrucati in his Compendium. Statius speaks of Demogorgon in Book 4 of the Thebaid, according to the exposition of the ancient grammarian Lactantius Placidus; see also Mazzoni on Dante, Book 1, chapter 63. And perhaps the sorceress Erichtho, in Lucan Book 6, meant to allude to Demogorgon. Some, seeking the reason for this eternal epithet, have said it comes from 'ever-lasting age,' as in Varro, Book 5 of the Latin Language. Others have held that it derives from the ether, as Isidore attests of some in Book 7 of his Origins. I would say with Varro that it originates from the Aeon, which Arnobius, in Book III Against the Gentiles, calls 'Evitas.' Censorinus describes it in the Book on the Birthday, chapter 16 (I cite the edition of Ludovicus Carrio), as immense, without origin and without end, which always was and always will be in the same manner. On Eternity, whoever wishes to see some elegant thought should read Antonio Agostini, 3rd Dialogue on Medals. Theophrastus, in the Characters, writes that the superstitious man, coming upon anointed stones found where three roads meet, anoints them further—”"
+      ],
+      "name_fr": "Annotations de Lorenzo Pignoria : préface (II) — statues, autels, Démogorgon",
+      "text_fr": [
+        "« ...clair d'après le Calendrier Rustique publié, expliqué par Fulvio Orsini, observateur des plus exquis des curiosités antiques. Voir Macrobe, livre 1 des Saturnales, chapitre 12, et les Fastes sacrés d'Ambrosio Novidio, qui entreprit avec une louable ingéniosité de corriger la superstition des anciens. Lucain ne dit pas que les habitants de Marseille vénéraient aussi d'autres troncs ; ni qu'il n'y avait pas de simulacres dans les bois. Témoins ses vers : « Mais selon un rite barbare, des autels sacrés aux dieux, dressés avec de terribles sacrifices. » Voici les Autels. Plus bas : « alors beaucoup d'eau tombe de sources noires, et les tristes images des dieux, dépourvues d'art, se dressent, informes, sur des troncs taillés. » Voici les statues. Mais il n'est point d'homme qui ne se trompe. Sur le respect porté aux Statues, voir Dion Chrysostome dans le Discours qu'il adressa aux habitants de Rhodes, chez qui il blâme un abus consistant à ôter le nom des statues des défunts pour en mettre un autre. Lire aussi Cassiodore, livre VII des Varia, Formule 13-14, où il dit qu'à Rome existait un autre peuple, celui des Statues ; et cela doit être vrai, car bien que les galeries des princes et des particuliers, en Italie et hors d'Italie, se soient parées de statues romaines, le fonds n'est pas encore épuisé, et l'on en trouve chaque jour en telle quantité. Que consulte qui le veut Juste Lipse, livre 3 sur la Grandeur de Rome, chapitre 9, et Incrucati dans son Abrégé. Stace parle de Démogorgon au livre 4 de la Thébaïde, selon l'exposition de l'ancien grammairien Lactance Placide ; voir aussi Mazzoni sur Dante, livre 1, chapitre 63. Et peut-être la magicienne Erichtho, chez Lucain au livre 6, voulut-elle faire allusion à Démogorgon. Certains, cherchant la raison de cette épithète éternelle, ont dit qu'elle vient d'« âge sans fin », comme chez Varron, livre 5 de la Langue latine. D'autres ont soutenu qu'elle dérive de l'éther, comme Isidore l'atteste de certains au livre 7 de ses Origines. Je dirais, avec Varron, qu'elle tire son origine de l'Éon, qu'Arnobe, au livre III Contre les Gentils, appelle « Evitas ». Censorinus le décrit dans le Livre du jour natal, chapitre 16 (je cite l'édition de Louis Carrion), comme immense, sans origine et sans fin, qui toujours fut et toujours sera de la même manière. Sur l'Éternité, qui veut voir quelque pensée élégante lise Antonio Agostini, 3e Dialogue sur les Médailles. Théophraste, dans les Caractères, écrit que le superstitieux, rencontrant des pierres ointes que l'on trouve là où se rejoignent trois chemins, les oint à son tour— »"
+      ],
+      "textOnly": true
+    },
+    {
+      "id": "carta48",
+      "num": "143",
+      "page": "502",
+      "fr": "Annotationi di Lorenzo Pignoria: proemio (III) — pietre unte, Saturno, preghiere",
+      "ru": "Примечания Лоренцо Пиньории: вступление (III) — умащённые камни, Сатурн, молитвы",
+      "en": "Lorenzo Pignoria's Annotations: preface (III) — anointed stones, Saturn, prayers",
+      "img": [
+        "carta48.jpg"
+      ],
+      "scans": [
+        "carta48.jpg"
+      ],
+      "group": "Пиньория: примечания",
+      "group_en": "Pignoria's Annotations",
+      "caption": "...vngerà, ne prima si partirà, che non si sia loro inginocchiato dauanti. Sopra'l qual luogo vedasi quanto scriue il Casaubono. Luciano ancora nel Pseudomante tocca questo costume, dicendo, che quel truffatore doue scorgeua pietra od vnta, o coronata subito s'inginocchiaua. Se ne legge nell'Apologia d'Appuleio, in quella, che chiamano prima, & appresso Prudentio, nel secondo Lib. contra Simmaco. Simile punto và toccando il Capitolare di Carlo Magno, nel Lib. primo al cap. 64. doue dice, che alcuni pazzi a gl'arberi, alle Pietre, & alle Fontane accendeuano luminari. Et nel medesimo Capitolare (nell'imperfetto però, che và in volta sotto nome di Leggi di Longobardi) si vede vna Legge di Liud. Prando Rè, che vieta l'adoratione di Fontane, o dell'Albero, che i Contadini chiamano Santo. è nel Lib. 2. al Tit. 37. Vedansi Carlo Paschalio nel Lib. delle Corone Lib. 4. c. 4. Plinio il giouane Lib. 8. epist. 8. Seneca nell'Epist. 41. Giusto Lipsio al 14. de gl'Annali di Tacito. Marciano Capella non dice, che Saturno hauesse per adornamento del capo tal'hora vn Serpente, tal'hora vn capo di Lione & tal'hora di Cinghiale; ma che pareua che hora hauesse faccia di Dragone, hora di Lione, hora di Cinghiale, & così s'è cercato di rappresentarlo. Et di questi visi io non saprei dir altro, se non che Marciano hauesse l'occhio alla malignità de gl'Influssi di questo Pianeta, che come scriue Natal de' Conti nel 2. della Mithol. al cap. 2. inclina gl'huomini ad essere atrabiliarij, inuidiosi, maligni, superbi, auari, & di colera tenace. Homero parla delle Preghiere nel Lib. 10. dell'Iliade nella ammonitione di Fenice ad Achille. Et vn bellissimo Emblema ne formò Andrea Alciato; che è il centotrenta. Et dalle Lite d'Homero forse ha origine il verbo latino Litare, che significa impetrare, come si legge in Nonio Marcello; tutto che Varrone lo origini da luere, che è pagare, come si può veder appresso il medesimo, Grammato; & lo riferisce Hadriano Turnebo nel Lib. 18. al cap. 20. Però con la mia opinione stà l'autorità di Festo. Chi vuol vedere esattamente questa maniera di conto per le dita non può abbattersi in Libro migliore di quello di Beda citato dall'Aurore. ma auuertasi, che la editione corretta di tale libretto è quella di Elia Vineto. le altre saranno mancheuoli. Et di questa vsanza di annouerare sono pieni gl'Auttori antichi. Suetonio nella vita dell'Imp. Claudio a cap. 21. Quintiliano nel Lib. XI. delle sue Instit. al cap. 3. Plinio nel Lib. 34. a cap. 7. & 8. Seneca nell'Epist. 88. nel Lib. 3. de Ira a cap. 33. Eliano nel 6. dell'Hist. de gl'Animali a cap. 37. Marciano Capella nel Lib. 7. delle Nozze, &c. nel bel principio. Simposio nell'Enimma. 100. Aristide nel 2. de sacri ragionamenti, & altri molti.",
+      "text_ru": [
+        "«...умащивает их, и не уйдёт прежде, чем пред ними не преклонит колени. По этому месту смотри то, что пишет Казобон. Лукиан также в «Псевдопророке» касается этого обычая, говоря, что тот обманщик, где бы ни видел умащенный или увенчанный камень, тотчас преклонял колени. Об этом читается в «Апологии» Апулея, в той, что зовётся первой, и у Пруденция, во второй книге против Симмаха. Схожего касается и Капитулярий Карла Великого, кн.1, гл.64, где говорится, что некие безумцы возжигали светильники деревьям, камням и источникам. И в том же Капитулярии (впрочем, в той несовершенной [редакции], что ходит под именем «Законов лангобардов») есть закон короля Лиутпранда, запрещающий поклонение источникам или дереву, которое крестьяне называют святым; это в кн.2, титул 37. Смотри Карло Паскуале, кн. «О венцах», кн.4, гл.4; Плиния Младшего, кн.8, письмо 8; Сенеку, письмо 41; Юста Липсия к 14-й книге «Анналов» Тацита. Марциан Капелла не говорит, что у Сатурна голову украшали то змея, то львиная голова, то кабанья; но что казалось, будто у него то лик дракона, то льва, то кабана, и так старались его изобразить. Об этих обличиях я не умею сказать ничего иного, кроме того, что Марциан имел в виду зловредность влияний этой планеты, которая, как пишет Натале Конти во 2-й книге «Мифологии», гл.2, склоняет людей быть желчными, завистливыми, злобными, гордыми, скупыми и злопамятными. Гомер говорит о Молитвах в 10-й (sic) книге «Илиады», в увещевании Феникса к Ахиллу. И прекраснейшую эмблему из этого составил Андреа Альчато — это сто тридцатая. И от «Тяжб» (Lite) Гомера, возможно, происходит латинский глагол Litare, означающий «умилостивить», как читается у Нония Марцелла; хотя Варрон производит его от luere, то есть «платить», как можно видеть у него же, грамматика; это же передаёт Адриан Турнеб, кн.18, гл.20. Однако на моей стороне — авторитет Феста. Кто хочет точно увидеть этот способ счёта по пальцам, не найдёт книги лучше той, что у Беды, цитируемой Автором; но следует заметить, что исправленное издание этой книжицы — то, что Элии Винета; прочие будут неполны. И этим обычаем счёта полны древние авторы: Светоний в жизни императора Клавдия, гл.21; Квинтилиан, кн.XI «Наставлений», гл.3; Плиний, кн.34, гл.7 и 8; Сенека, письмо 88, и кн.3 «О гневе», гл.33; Элиан, кн.6 «Истории животных», гл.37; Марциан Капелла, кн.7 «Бракосочетания», в самом начале; Симпосий в загадке 100; Аристид во 2-й книге «Священных речей», и многие другие»."
+      ],
+      "text_en": [
+        "“...anoints them further, nor will he depart until he has knelt before them. On this passage see what Casaubon writes. Lucian too, in the Pseudomantis, touches on this custom, saying that the trickster, wherever he saw an anointed or garlanded stone, would at once kneel. It is read of in the Apology of Apuleius, the one called the first, and in Prudentius, Book 2 Against Symmachus. A similar point is touched upon in the Capitulary of Charlemagne, Book 1, chapter 64, where it says that certain madmen lit lamps to trees, Stones, and Fountains. And in the same Capitulary (though in the imperfect version circulating under the name of the Laws of the Lombards) is found a Law of King Liutprand forbidding the worship of Fountains or of the Tree which peasants call Holy; it is in Book 2, Title 37. See Carlo Paschali, Book on Crowns, Book 4, chapter 4; Pliny the Younger, Book 8, letter 8; Seneca, Letter 41; Justus Lipsius on Book 14 of Tacitus's Annals. Martianus Capella does not say that Saturn had for a head ornament now a Serpent, now a Lion's head, now a Boar's; but that he seemed to have now a Dragon's face, now a Lion's, now a Boar's, and so efforts were made to depict him. Of these faces I know not what else to say, except that Martianus had an eye to the malign Influences of this Planet, which, as Natale Conti writes in Book 2 of the Mythology, chapter 2, inclines men to be melancholic, envious, malicious, proud, avaricious, and tenacious in wrath. Homer speaks of Prayers in Book 9 (sic, 10 in text) of the Iliad, in Phoenix's admonition to Achilles. Andrea Alciato formed a most beautiful Emblem of it — it is the hundred-thirtieth. And from Homer's 'Litai' (Prayers) perhaps derives the Latin verb Litare, meaning to propitiate, as read in Nonius Marcellus; although Varro derives it from luere, to pay, as can be seen in the same grammarian; and Hadrianus Turnebus reports this in Book 18, chapter 20. Yet on my opinion stands the authority of Festus. Whoever wishes to see exactly this manner of reckoning on the fingers cannot find a better Book than that of Bede, cited by the Author; but note that the correct edition of that little book is that of Elias Vinetus; others will be defective. And of this custom of reckoning ancient Authors are full: Suetonius in the life of Emperor Claudius, chapter 21; Quintilian, Book XI of his Institutes, chapter 3; Pliny, Book 34, chapters 7 and 8; Seneca, Letter 88, and Book 3 On Anger, chapter 33; Aelian, Book 6 of the History of Animals, chapter 37; Martianus Capella, Book 7 of the Marriage, etc., at the very start; Symphosius in Riddle 100; Aristides in Book 2 of the Sacred Orations, and many others.”"
+      ],
+      "name_fr": "Annotations de Lorenzo Pignoria : préface (III) — pierres ointes, Saturne, prières",
+      "text_fr": [
+        "« ...les oint à son tour, et ne partira pas avant de s'être agenouillé devant elles. Sur ce passage, voir ce qu'écrit Casaubon. Lucien aussi, dans le Pseudomantis, touche à cette coutume, disant que ce fourbe, partout où il apercevait une pierre ointe ou couronnée, s'agenouillait aussitôt. On en lit dans l'Apologie d'Apulée, celle qu'on appelle la première, et chez Prudence, au second livre Contre Symmaque. Un point semblable est touché par le Capitulaire de Charlemagne, livre 1, chapitre 64, où il est dit que certains insensés allumaient des luminaires aux arbres, aux Pierres et aux Fontaines. Et dans ce même Capitulaire (dans la version imparfaite cependant qui circule sous le nom de Lois des Lombards) se trouve une Loi du roi Liutprand interdisant l'adoration des Fontaines ou de l'Arbre que les Paysans appellent Saint ; c'est au livre 2, titre 37. Voir Carlo Paschali, livre des Couronnes, livre 4, chapitre 4 ; Pline le Jeune, livre 8, lettre 8 ; Sénèque, lettre 41 ; Juste Lipse sur le livre 14 des Annales de Tacite. Martianus Capella ne dit pas que Saturne portait pour ornement de tête tantôt un Serpent, tantôt une tête de Lion, et tantôt de Sanglier ; mais qu'il semblait avoir tantôt un visage de Dragon, tantôt de Lion, tantôt de Sanglier, et c'est ainsi qu'on a cherché à le représenter. De ces visages, je ne saurais dire autre chose, sinon que Martianus avait en vue la malignité des Influences de cette Planète, qui, comme l'écrit Natale Conti au livre 2 de la Mythologie, chapitre 2, incline les hommes à être atrabilaires, envieux, malveillants, orgueilleux, avares et rancuniers. Homère parle des Prières au livre 9 (sic) de l'Iliade, dans l'exhortation de Phénix à Achille. Et André Alciat en forma un très bel Emblème, qui est le cent-trentième. Et des 'Litai' d'Homère dérive peut-être le verbe latin Litare, qui signifie se concilier, comme on le lit chez Nonius Marcellus ; bien que Varron le fasse dériver de luere, qui est payer, comme on peut le voir chez le même grammairien ; et Hadrien Turnèbe le rapporte au livre 18, chapitre 20. Cependant, mon opinion s'appuie sur l'autorité de Festus. Qui veut voir exactement cette manière de compter sur les doigts ne saurait trouver meilleur Livre que celui de Bède, cité par l'Auteur ; mais qu'on remarque que l'édition correcte de ce petit livre est celle d'Élie Vinet ; les autres seront défectueuses. Et de cet usage de compter les anciens Auteurs sont pleins : Suétone dans la vie de l'empereur Claude, chapitre 21 ; Quintilien, livre XI de ses Institutions, chapitre 3 ; Pline, livre 34, chapitres 7 et 8 ; Sénèque, lettre 88, et livre 3 De la Colère, chapitre 33 ; Élien, livre 6 de l'Histoire des Animaux, chapitre 37 ; Martianus Capella, livre 7 des Noces, etc., au tout début ; Symphosius, énigme 100 ; Aristide, livre 2 des Discours sacrés, et bien d'autres encore. »"
+      ],
+      "textOnly": true
+    },
+    {
+      "id": "carta49",
+      "num": "144",
+      "page": "503",
+      "fr": "Annotationi di Lorenzo Pignoria: proemio (IV) — Stagioni, Tempio di Giano, Hebe, Mitra",
+      "ru": "Примечания Лоренцо Пиньории: вступление (IV) — времена года, храм Януса, Геба, Митра",
+      "en": "Lorenzo Pignoria's Annotations: preface (IV) — Seasons, Temple of Janus, Hebe, Mithras",
+      "img": [
+        "carta49.jpg"
+      ],
+      "scans": [
+        "carta49.jpg"
+      ],
+      "group": "Пиньория: примечания",
+      "group_en": "Pignoria's Annotations",
+      "caption": "Le prime imagini delle Stagioni si sono tolte dalla medaglia d'oro di Antonino Caracalla appresso Sebastiano Erizzo; & da vn'altra dell'Imperatore Diocletiano, che si vedeua nello studio del già Sig. Lelio Pasqualini. le seconde sono a mente dell'Autore eccetto che il luogo di Vulcano, & d'Eolo s'è messa Vesta. Questo, che l'Autore chiama Tempio, si vede in Roma, appresso la Chiesa di S. Giorgio, nel Foro Boario. & lo fece disegnare nel suo Libro Bartolomeo Maliano L. 3. cap. 14. & Antonio Agostini nel Dialogo 4. delle Medaglie, il quale lo chiama Arco, & con ragione per mio parere. Vedasi Suetonio nella vita d'Augusto a capi 31. & sopra Suetonio Leuino Torrentio Vesc. d'Anuersa, & il Casaubono. Et l'Autore nostro medesimo poco più sotto chiama Giani gl'Archi trionfali. Ma di Giano chi vuole più copiosa notitia legga Barnaba Brissonio nel Lib. 1. delle Formule. Delle due Imagini d'Hebe, l'vna s'è presa dalla Medaglia di M. Aurelio Imp. l'altra s'è rappresentata nell'habito dei Coppieri antichi, come si può vedere nel mio Libro de' ministerij de' Schiaui appresso l'Antichità. Nella medesima si legge IVVENTAS, che appresso i Latini è quella, che appresso i Greci Hebe. Vedasi Lambino sopra la ode 30. del primo Libro d'Horatio; & Seruio nel 1. dell'Eneide. Chi più vuole delle Muse veda Goffredo Liuocerio in vn suo gentile Libretto, stampato con la Mitologia di Natale de' Conti. Il Testo di Marciano Capella è guasto, com'io ho mostrato già nella mia Spositione della Tauola Hieroglifica, che hora si vede nella Galleria del Ser. di Mantoua. Imperoche s'ha da intendere che nella Naue stassero sette fratelli germani al gouerno. Che nella proda della medesima si veda la figura d'vna Gatta. d'vn Lione nell'Albero. d'vn Cocodrillo nel di fuori. vedasi il testo; che la correttione è chiara. La figura d'Apollo, & Dafne s'è presa da vn bellissimo Cameo, che fu di Monsig. Grimani Patriarca d'Aquileia d'honoratissima memoria. & del Lauro si può leggere Natal de' Conti nella Mitologia, & Ammiano Marcellino nel Lib. 29. Io vidi in Roma l'anno 1606. vn gran pezzo di marmo, nella piazza di Campidoglio, che rappresentaua vna grotta delle cose Mithriache; ma assai guasta e consumata. haueua molta similitudine co'l sostantiale della figura, che s'è rappresentata qui sopra. Nel ventre del Toro si leggeuano queste parole DEO SOL INVICT... MITRHE. in fondo del collo haueua scolpite queste NAMA. SEBESIO in fondo della coscia destra AMYCVS. SERONENSIS. V'erano due figure in piedi, vna per parte, ma rouinate; & sopra la Grotta vna Quadriga...",
+      "text_ru": [
+        "«Первые образы Времён года взяты с золотой медали Антонина Каракаллы у Себастьяно Эриццо, и с другой — императора Диоклетиана, которая хранилась в кабинете покойного синьора Лелио Паскуалини. Вторые же — по памяти Автора, за исключением того, что на месте Вулкана и Эола помещена Веста. Этот [памятник], который Автор называет Храмом, виден в Риме, у церкви Сан-Джорджо, на Бычьем форуме; его велел зарисовать в своей книге Бартоломео Мальяно, кн.3, гл.14, а Антонио Агостини в 4-м Диалоге о медалях называет его Аркой, и, на мой взгляд, с полным основанием. Смотри Светония в жизни Августа, гл.31, и комментарий к Светонию Левина Торрентия, епископа Антверпенского, а также Казобона. И сам наш Автор чуть ниже называет триумфальные арки «Янами». А о Янусе, кто хочет более обширных сведений, пусть читает Барнабу Бриссония, кн.1 «Формул». Из двух образов Гебы один взят с медали императора Марка Аврелия, другой изображён в одеянии древних виночерпиев, как можно видеть в моей книге о должностях рабов у древних. На той же медали читается IVVENTAS, что у латинян означает то же, что у греков — Геба. Смотри Ламбена к 30-й оде первой книги Горация, и Сервия к 1-й [книге] Энеиды. Кто хочет больше узнать о Музах, пусть смотрит Готфрида Лиуочерио в его изящной книжице, напечатанной вместе с «Мифологией» Натале Конти. Текст Марциана Капеллы испорчен, как я уже показал в своём Толковании Иероглифической таблицы, которая теперь хранится в галерее светлейшего герцога Мантуанского. Ибо следует понимать, что на Корабле стояли у кормила семь родных братьев; что на носу его видна фигура Кошки, на мачте — Льва, снаружи — Крокодила; смотри текст — исправление очевидно. Фигура Аполлона и Дафны взята с прекраснейшей камеи, принадлежавшей монсеньору Гримани, патриарху Аквилейскому достохвальной памяти; а о Лавре можно прочесть у Натале Конти в «Мифологии» и у Аммиана Марцеллина, кн.29. Я видел в Риме в 1606 году большой кусок мрамора на площади Капитолия, изображавший грот митраических вещей, но весьма повреждённый и истёртый; он имел большое сходство с сущностью фигуры, что изображена здесь выше. На чреве Быка читались слова DEO SOL INVICT... MITRHE; на задней стороне шеи у него были высечены слова NAMA SEBESIO, а на передней стороне правого бедра — AMYCVS SERONENSIS. Там были две стоящие фигуры, по одной с каждой стороны, но повреждённые; а над гротом — квадрига...»"
+      ],
+      "text_en": [
+        "“The first images of the Seasons are taken from the gold medal of Antoninus Caracalla in Sebastiano Erizzo, and from another of the Emperor Diocletian, which was to be seen in the study of the late Signor Lelio Pasqualini. The second set are from the Author's own memory, except that in the place of Vulcan and Aeolus, Vesta has been put. This, which the Author calls a Temple, is to be seen in Rome, near the Church of San Giorgio, in the Forum Boarium; Bartolomeo Maliano had it drawn in his Book, Book 3, chapter 14, and Antonio Agostini, in the 4th Dialogue on Medals, calls it an Arch, and rightly so, in my opinion. See Suetonius in the life of Augustus, chapter 31, and, on Suetonius, Levinus Torrentius, Bishop of Antwerp, and Casaubon. And our own Author, a little further on, calls triumphal Arches 'Jani.' But whoever wants fuller information on Janus should read Barnabé Brisson, Book 1 of the Formulae. Of the two Images of Hebe, one is taken from the Medal of Emperor Marcus Aurelius, the other is represented in the garb of ancient Cupbearers, as can be seen in my Book on the offices of Slaves among the Ancients. On the same medal is read IUVENTAS, which among the Latins is what Hebe is among the Greeks. See Lambinus on Ode 30 of Horace's first Book; and Servius on Book 1 of the Aeneid. Whoever wants more on the Muses should see Geoffroy Linocier in his elegant little Book, printed together with the Mythology of Natale Conti. The Text of Martianus Capella is corrupted, as I have already shown in my Exposition of the Hieroglyphic Table, now kept in the Gallery of the Serene Duke of Mantua. For it must be understood that on the Ship stood seven full brothers at the helm; that on its prow is seen the figure of a Cat, on the mast a Lion, outside a Crocodile; see the text — the correction is clear. The figure of Apollo and Daphne is taken from a most beautiful Cameo that belonged to Monsignor Grimani, Patriarch of Aquileia, of most honoured memory; and on the Laurel one may read Natale Conti in the Mythology, and Ammianus Marcellinus, Book 29. In the year 1606 I saw in Rome, in the Piazza del Campidoglio, a great piece of marble representing a grotto of Mithraic things, though much damaged and worn; it bore much resemblance to the substance of the figure represented above. On the Bull's belly were read the words DEO SOL INVICT... MITRHE; at the base of its neck were carved these words NAMA SEBESIO; on the front of the right thigh, AMYCUS SERONENSIS. There were two standing figures, one on each side, but ruined; and above the Grotto a Quadriga...”"
+      ],
+      "name_fr": "Annotations de Lorenzo Pignoria : préface (IV) — Saisons, Temple de Janus, Hébé, Mithra",
+      "text_fr": [
+        "« Les premières images des Saisons sont tirées de la médaille d'or d'Antonin Caracalla chez Sebastiano Erizzo, et d'une autre de l'empereur Dioclétien, que l'on voyait dans le cabinet de feu Monsieur Lelio Pasqualini. Les secondes sont de mémoire de l'Auteur, si ce n'est qu'à la place de Vulcain et d'Éole, on a mis Vesta. Ceci, que l'Auteur appelle Temple, se voit à Rome, près de l'église Saint-Georges, au Forum Boarium ; Bartolomeo Maliano le fit dessiner dans son Livre, livre 3, chapitre 14, et Antonio Agostini, au 4e Dialogue sur les Médailles, l'appelle Arc, et à juste titre selon moi. Voir Suétone dans la vie d'Auguste, chapitre 31, et, sur Suétone, Levinus Torrentius, évêque d'Anvers, et Casaubon. Et notre propre Auteur, un peu plus bas, appelle les Arcs de triomphe « Janus ». Mais sur Janus, qui veut une information plus abondante lise Barnabé Brisson, livre 1 des Formules. Des deux Images d'Hébé, l'une est tirée de la Médaille de l'empereur Marc Aurèle, l'autre est représentée dans l'habit des anciens Échansons, comme on peut le voir dans mon Livre sur les fonctions des Esclaves chez les Anciens. Sur la même médaille on lit IUVENTAS, qui chez les Latins est ce qu'Hébé est chez les Grecs. Voir Lambin sur l'Ode 30 du premier livre d'Horace ; et Servius sur le livre 1 de l'Énéide. Qui veut en savoir plus sur les Muses voie Geoffroy Linocier dans son élégant petit Livre, imprimé avec la Mythologie de Natale Conti. Le Texte de Martianus Capella est corrompu, comme je l'ai déjà montré dans mon Exposition de la Table hiéroglyphique, qui se trouve maintenant dans la Galerie du Sérénissime Duc de Mantoue. Car il faut comprendre que sur le Navire se tenaient sept frères germains au gouvernail ; qu'à sa proue se voit la figure d'une Chatte, au mât celle d'un Lion, à l'extérieur celle d'un Crocodile ; voir le texte, la correction est claire. La figure d'Apollon et Daphné est tirée d'un très beau Camée qui appartint à Monseigneur Grimani, Patriarche d'Aquilée de très honorable mémoire ; et sur le Laurier on peut lire Natale Conti dans la Mythologie, et Ammien Marcellin, livre 29. Je vis à Rome, en l'année 1606, sur la Place du Capitole, un grand morceau de marbre représentant une grotte de choses mithriaques, mais fort endommagé et usé ; il avait une grande ressemblance avec le fond de la figure représentée ci-dessus. Sur le ventre du Taureau se lisaient les mots DEO SOL INVICT... MITRHE ; à la base du cou étaient gravés ces mots NAMA SEBESIO ; sur le devant de la cuisse droite, AMYCUS SERONENSIS. Il y avait deux figures debout, une de chaque côté, mais abîmées ; et au-dessus de la Grotte, un Quadrige... »"
+      ],
+      "textOnly": true
+    },
+    {
+      "id": "carta1",
+      "num": "145",
+      "page": "504",
       "fr": "Il Fato sotto tre Imagini di Donna",
       "ru": "Судьба под образом трёх Женщин (Парки)",
       "en": "Fate under the image of three Women (the Fates)",
@@ -4081,8 +4189,8 @@
     },
     {
       "id": "carta2",
-      "num": "142",
-      "page": "467",
+      "num": "146",
+      "page": "506",
       "fr": "Esculapio",
       "ru": "Эскулап",
       "en": "Aesculapius",
@@ -4110,8 +4218,8 @@
     },
     {
       "id": "cartf1",
-      "num": "143",
-      "page": "468",
+      "num": "147",
+      "page": "507",
       "fr": "Lucifero, compagno dell'Aurora",
       "ru": "Люцифер, спутник Авроры",
       "en": "Lucifer, companion of Dawn",
@@ -4137,8 +4245,8 @@
     },
     {
       "id": "cartf2",
-      "num": "144",
-      "page": "469",
+      "num": "148",
+      "page": "508",
       "fr": "Febo (il Sole) sul carro",
       "ru": "Феб (Солнце) на колеснице",
       "en": "Phoebus (the Sun) in his chariot",
@@ -4164,8 +4272,8 @@
     },
     {
       "id": "cartf3",
-      "num": "145",
-      "page": "470",
+      "num": "149",
+      "page": "509",
       "fr": "Giunone nel Cameo",
       "ru": "Юнона на камее",
       "en": "Juno on a cameo",
@@ -4192,8 +4300,8 @@
     },
     {
       "id": "carta3",
-      "num": "146",
-      "page": "472",
+      "num": "150",
+      "page": "511",
       "fr": "Iside in un Cameo",
       "ru": "Изида на камее",
       "en": "Isis on a cameo",
@@ -4220,8 +4328,8 @@
     },
     {
       "id": "carta4",
-      "num": "147",
-      "page": "474",
+      "num": "151",
+      "page": "513",
       "fr": "Satiri in lotta",
       "ru": "Борющиеся сатиры",
       "en": "Satyrs in combat",
@@ -4247,8 +4355,8 @@
     },
     {
       "id": "cartf4",
-      "num": "148",
-      "page": "475",
+      "num": "152",
+      "page": "514",
       "fr": "L'Honore, maschio e femina",
       "ru": "Честь — в мужском и женском облике",
       "en": "Honour, male and female",
@@ -4275,8 +4383,8 @@
     },
     {
       "id": "carta5",
-      "num": "149",
-      "page": "477",
+      "num": "153",
+      "page": "516",
       "fr": "Pallade",
       "ru": "Паллада",
       "en": "Pallas",
@@ -4302,8 +4410,8 @@
     },
     {
       "id": "carta6",
-      "num": "150",
-      "page": "478",
+      "num": "154",
+      "page": "517",
       "fr": "La violenza d'Aiace Oileo",
       "ru": "Неистовство Аякса Оилеева",
       "en": "The violence of Ajax, son of Oileus",
@@ -4331,8 +4439,8 @@
     },
     {
       "id": "carta28",
-      "num": "151",
-      "page": "481",
+      "num": "155",
+      "page": "520",
       "fr": "L'Imagine della Libertà",
       "ru": "Образ Свободы",
       "en": "The image of Liberty",
@@ -4358,8 +4466,8 @@
     },
     {
       "id": "carta29",
-      "num": "152",
-      "page": "482",
+      "num": "156",
+      "page": "520",
       "fr": "Il berretto degli schiavi (nota a Gellio, continua carta28)",
       "ru": "Шапка раба (заметка к Геллию, продолжение carta28)",
       "en": "The slave's cap (note on Gellius, continuing carta28)",
@@ -4387,8 +4495,8 @@
     },
     {
       "id": "carta7",
-      "num": "153",
-      "page": "484",
+      "num": "157",
+      "page": "523",
       "fr": "Cerere (la Madre Idea)",
       "ru": "Церера (Великая Мать)",
       "en": "Ceres (the Idaean Mother)",
@@ -4419,8 +4527,8 @@
     },
     {
       "id": "carta8",
-      "num": "154",
-      "page": "490",
+      "num": "158",
+      "page": "529",
       "fr": "Palemone e il delfino",
       "ru": "Палемон и дельфин",
       "en": "Palaemon and the dolphin",
@@ -4447,8 +4555,8 @@
     },
     {
       "id": "carta30",
-      "num": "155",
-      "page": "492",
+      "num": "159",
+      "page": "531",
       "fr": "Dagon",
       "ru": "Дагон",
       "en": "Dagon",
@@ -4475,8 +4583,8 @@
     },
     {
       "id": "carta9",
-      "num": "156",
-      "page": "494",
+      "num": "160",
+      "page": "533",
       "fr": "Le tre Parche",
       "ru": "Три Парки",
       "en": "The three Fates",
@@ -4505,8 +4613,8 @@
     },
     {
       "id": "carta31",
-      "num": "157",
-      "page": "496",
+      "num": "161",
+      "page": "535",
       "fr": "Mercurio e Pegaso",
       "ru": "Меркурий и Пегас",
       "en": "Mercury and Pegasus",
@@ -4533,8 +4641,8 @@
     },
     {
       "id": "carta10",
-      "num": "158",
-      "page": "498",
+      "num": "162",
+      "page": "537",
       "fr": "Termine (il dio Termine)",
       "ru": "Терм (бог границ)",
       "en": "Terminus (the god of boundaries)",
@@ -4560,8 +4668,8 @@
     },
     {
       "id": "carta11",
-      "num": "159",
-      "page": "499",
+      "num": "163",
+      "page": "538",
       "fr": "Hercole in abito di Mercurio",
       "ru": "Геркулес в облике Меркурия",
       "en": "Hercules in the guise of Mercury",
@@ -4589,8 +4697,8 @@
     },
     {
       "id": "carta32",
-      "num": "160",
-      "page": "502",
+      "num": "164",
+      "page": "541",
       "fr": "Due fatiche di Hercole",
       "ru": "Два подвига Геркулеса",
       "en": "Two labours of Hercules",
@@ -4616,8 +4724,8 @@
     },
     {
       "id": "carta33",
-      "num": "161",
-      "page": "503",
+      "num": "165",
+      "page": "542",
       "fr": "Semo Sanco",
       "ru": "Семон Санк",
       "en": "Semo Sancus",
@@ -4644,8 +4752,8 @@
     },
     {
       "id": "carta13",
-      "num": "162",
-      "page": "505",
+      "num": "166",
+      "page": "544",
       "fr": "Hermathena (Minerva e Mercurio)",
       "ru": "Гермафена (Минерва и Меркурий)",
       "en": "Hermathena (Minerva and Mercury)",
@@ -4675,8 +4783,8 @@
     },
     {
       "id": "carta12",
-      "num": "163",
-      "page": "506",
+      "num": "167",
+      "page": "545",
       "fr": "Minerva con l'egida di Gorgone",
       "ru": "Минерва с эгидой Горгоны",
       "en": "Minerva with the Gorgon's aegis",
@@ -4703,8 +4811,8 @@
     },
     {
       "id": "carta34",
-      "num": "164",
-      "page": "506",
+      "num": "168",
+      "page": "546",
       "fr": "Ercole e Mercurio insieme (Hermeracle)",
       "ru": "Геркулес и Меркурий вместе (Гермеракл)",
       "en": "Hercules and Mercury together (Hermeracles)",
@@ -4731,8 +4839,8 @@
     },
     {
       "id": "carta35",
-      "num": "165",
-      "page": "508",
+      "num": "169",
+      "page": "547",
       "fr": "Minerva e la nave Argo",
       "ru": "Минерва и корабль Арго",
       "en": "Minerva and the ship Argo",
@@ -4759,8 +4867,8 @@
     },
     {
       "id": "carta36",
-      "num": "166",
-      "page": "510",
+      "num": "170",
+      "page": "549",
       "fr": "Marte Graditivo e Marte vincitore",
       "ru": "Марс Градив и Марс-победитель",
       "en": "Mars Gradivus and Mars the Victor",
@@ -4787,8 +4895,8 @@
     },
     {
       "id": "carta37",
-      "num": "167",
-      "page": "512",
+      "num": "171",
+      "page": "551",
       "fr": "Le insegne militari romane",
       "ru": "Римские военные знамёна",
       "en": "Roman military standards",
@@ -4814,8 +4922,8 @@
     },
     {
       "id": "carta14",
-      "num": "168",
-      "page": "513",
+      "num": "172",
+      "page": "552",
       "fr": "Corteo bacchico",
       "ru": "Вакхическое шествие",
       "en": "A Bacchic procession",
@@ -4841,8 +4949,8 @@
     },
     {
       "id": "carta15",
-      "num": "169",
-      "page": "514",
+      "num": "173",
+      "page": "553",
       "fr": "Pompa bacchica tratta da un diaspro (Bagarris)",
       "ru": "Вакхическое шествие с яшмы Баггариса",
       "en": "Bacchic procession, after a jasper gem (Bagarris)",
@@ -4869,8 +4977,8 @@
     },
     {
       "id": "carta38",
-      "num": "170",
-      "page": "516",
+      "num": "174",
+      "page": "555",
       "fr": "Il Genio del popolo Romano",
       "ru": "Гений римского народа",
       "en": "The Genius of the Roman People",
@@ -4896,8 +5004,8 @@
     },
     {
       "id": "carta16",
-      "num": "171",
-      "page": "517",
+      "num": "175",
+      "page": "556",
       "fr": "La Patera e il Corno del Genio",
       "ru": "Патера и рог Гения",
       "en": "The patera and horn of the Genius",
@@ -4923,8 +5031,8 @@
     },
     {
       "id": "carta17",
-      "num": "172",
-      "page": "518",
+      "num": "176",
+      "page": "557",
       "fr": "Il Genio di Antiochia",
       "ru": "Гений Антиохии",
       "en": "The Genius of Antioch",
@@ -4950,8 +5058,8 @@
     },
     {
       "id": "carta39",
-      "num": "173",
-      "page": "519",
+      "num": "177",
+      "page": "558",
       "fr": "Apollo citaredo (Apolloni Sancto)",
       "ru": "Аполлон-кифаред («Святому Аполлону»)",
       "en": "Apollo the lyre-player (“To Holy Apollo”)",
@@ -4977,8 +5085,8 @@
     },
     {
       "id": "carta18",
-      "num": "174",
-      "page": "520",
+      "num": "178",
+      "page": "559",
       "fr": "Genio e Fortuna",
       "ru": "Гений и Фортуна",
       "en": "Genius and Fortune",
@@ -5007,8 +5115,8 @@
     },
     {
       "id": "carta19",
-      "num": "175",
-      "page": "524",
+      "num": "179",
+      "page": "563",
       "fr": "La Fortuna sulle ali di un Cigno",
       "ru": "Фортуна на крыльях Лебедя",
       "en": "Fortune on the wings of a Swan",
@@ -5034,8 +5142,8 @@
     },
     {
       "id": "carta40",
-      "num": "176",
-      "page": "525",
+      "num": "180",
+      "page": "564",
       "fr": "Eroto e Anterote (il carro della Madre)",
       "ru": "Эрот и Антэрот (колесница Матери)",
       "en": "Eros and Anteros (the Mother's chariot)",
@@ -5061,8 +5169,8 @@
     },
     {
       "id": "carta20",
-      "num": "177",
-      "page": "526",
+      "num": "181",
+      "page": "565",
       "fr": "I due Amori e la capra (pensiero d'Ausonio)",
       "ru": "Два Амура и коза (мысль Авзония)",
       "en": "The two Loves and the goat (a thought of Ausonius)",
@@ -5088,8 +5196,8 @@
     },
     {
       "id": "carta41",
-      "num": "178",
-      "page": "527",
+      "num": "182",
+      "page": "566",
       "fr": "Il tempio di Venere a Pafo",
       "ru": "Храм Венеры в Пафосе",
       "en": "The temple of Venus at Paphos",
@@ -5115,8 +5223,8 @@
     },
     {
       "id": "carta21",
-      "num": "179",
-      "page": "528",
+      "num": "183",
+      "page": "567",
       "fr": "Figura fuori ordine (tra il 52 e il 53)",
       "ru": "Фигура не по порядку (между 52-м и 53-м)",
       "en": "A figure out of sequence (between nos. 52 and 53)",
@@ -5143,8 +5251,8 @@
     },
     {
       "id": "carta22",
-      "num": "180",
-      "page": "530",
+      "num": "184",
+      "page": "569",
       "fr": "Giano giovane",
       "ru": "Молодой Янус",
       "en": "The young Janus",
@@ -5171,8 +5279,8 @@
     },
     {
       "id": "carta23",
-      "num": "181",
-      "page": "532",
+      "num": "185",
+      "page": "571",
       "fr": "Il vaso di Giustitia",
       "ru": "Ваза с образом Справедливости",
       "en": "The vase of Justice",
@@ -5199,8 +5307,8 @@
     },
     {
       "id": "carta24",
-      "num": "182",
-      "page": "534",
+      "num": "186",
+      "page": "573",
       "fr": "Statua col sacerdote e le sue insegne",
       "ru": "Статуя священника с его регалиями",
       "en": "A statue of a priest with his insignia",
@@ -5226,8 +5334,8 @@
     },
     {
       "id": "carta42",
-      "num": "183",
-      "page": "535",
+      "num": "187",
+      "page": "574",
       "fr": "Vaso antico con rilievi",
       "ru": "Античная ваза с рельефом",
       "en": "An antique vase with relief work",
@@ -5254,8 +5362,8 @@
     },
     {
       "id": "carta43",
-      "num": "184",
-      "page": "537",
+      "num": "188",
+      "page": "576",
       "fr": "Figura femminile armata",
       "ru": "Вооружённая женская фигура",
       "en": "An armed female figure",
@@ -5282,8 +5390,8 @@
     },
     {
       "id": "carta25",
-      "num": "185",
-      "page": "539",
+      "num": "189",
+      "page": "578",
       "fr": "La prima Mano Pantea",
       "ru": "Первая Пантеистическая Рука",
       "en": "The first Pantheistic Hand",
@@ -5309,8 +5417,8 @@
     },
     {
       "id": "carta44",
-      "num": "186",
-      "page": "540",
+      "num": "190",
+      "page": "579",
       "fr": "La mano simbolica con la lira (quarta Mano Pantea)",
       "ru": "Символическая рука с лирой (четвёртая Пантеистическая рука)",
       "en": "The symbolic hand with a lyre (fourth Pantheistic Hand)",
@@ -5337,8 +5445,8 @@
     },
     {
       "id": "carta26",
-      "num": "187",
-      "page": "541",
+      "num": "191",
+      "page": "580",
       "fr": "La seconda Mano Pantea",
       "ru": "Вторая Пантеистическая Рука",
       "en": "The second Pantheistic Hand",
@@ -5364,8 +5472,8 @@
     },
     {
       "id": "carta45",
-      "num": "188",
-      "page": "542",
+      "num": "192",
+      "page": "581",
       "fr": "Figura giovanile con bastone (TYXAINI)",
       "ru": "Юношеская фигура с посохом (надпись TYXAINI)",
       "en": "A youthful figure with a staff (inscribed “TYXAINI”)",
@@ -5391,8 +5499,8 @@
     },
     {
       "id": "carta27",
-      "num": "189",
-      "page": "543",
+      "num": "193",
+      "page": "582",
       "fr": "La terza Mano Pantea",
       "ru": "Третья Пантеистическая Рука",
       "en": "The third Pantheistic Hand",
@@ -5426,8 +5534,8 @@
     },
     {
       "id": "carti1",
-      "num": "190",
-      "page": "552",
+      "num": "194",
+      "page": "591",
       "fr": "Homoyoca",
       "ru": "Омойока",
       "en": "Homoyoca",
@@ -5454,8 +5562,8 @@
     },
     {
       "id": "carti2",
-      "num": "191",
-      "page": "554",
+      "num": "195",
+      "page": "593",
       "fr": "Idolo messicano con offerenti",
       "ru": "Мексиканский идол с дарителями",
       "en": "Mexican idol receiving offerings",
@@ -5481,8 +5589,8 @@
     },
     {
       "id": "carti3",
-      "num": "192",
-      "page": "555",
+      "num": "196",
+      "page": "594",
       "fr": "Miquitlantecatle e gli dei infernali",
       "ru": "Миктлантекутли и подземные боги",
       "en": "Mictlantecuhtli and the underworld gods",
@@ -5509,8 +5617,8 @@
     },
     {
       "id": "carti4",
-      "num": "193",
-      "page": "557",
+      "num": "197",
+      "page": "596",
       "fr": "Vitzliputzli (coppia di divinita)",
       "ru": "Вицлипуцли и спутник",
       "en": "Vitzliputzli and a companion",
@@ -5536,8 +5644,8 @@
     },
     {
       "id": "carti5",
-      "num": "194",
-      "page": "558",
+      "num": "198",
+      "page": "597",
       "fr": "L'Ambasciatore alato",
       "ru": "Крылатый дух",
       "en": "A winged spirit",
@@ -5565,8 +5673,8 @@
     },
     {
       "id": "carti6",
-      "num": "195",
-      "page": "561",
+      "num": "199",
+      "page": "600",
       "fr": "Quetzalcoatl",
       "ru": "Кецалькоатль",
       "en": "Quetzalcoatl",
@@ -5599,8 +5707,8 @@
     },
     {
       "id": "carti7",
-      "num": "196",
-      "page": "569",
+      "num": "200",
+      "page": "608",
       "fr": "Divinita composite \"egizie\" (introduzione al Giapone)",
       "ru": "«Египетские» божества-кентавры (вступление к Японии)",
       "en": "“Egyptian” composite gods (introducing Japan)",
@@ -5626,8 +5734,8 @@
     },
     {
       "id": "carti8",
-      "num": "197",
-      "page": "570",
+      "num": "201",
+      "page": "609",
       "fr": "Canone, figlio di Amida",
       "ru": "Каннон, сын Амиды",
       "en": "Kannon, son of Amida",
@@ -5653,8 +5761,8 @@
     },
     {
       "id": "carti9",
-      "num": "198",
-      "page": "571",
+      "num": "202",
+      "page": "610",
       "fr": "Un'altra statua di Amida presso Meaco",
       "ru": "Ещё одна статуя Амиды близ Меако",
       "en": "Another statue of Amida near Meaco",
@@ -5680,8 +5788,8 @@
     },
     {
       "id": "carti10",
-      "num": "199",
-      "page": "572",
+      "num": "203",
+      "page": "611",
       "fr": "Il dio-lucertola delle lettere",
       "ru": "Бог-ящерица, покровитель учёности",
       "en": "The lizard-god of learning",
@@ -5707,8 +5815,8 @@
     },
     {
       "id": "carti11",
-      "num": "200",
-      "page": "573",
+      "num": "204",
+      "page": "612",
       "fr": "Una pagoda giapponese",
       "ru": "Японская пагода",
       "en": "A Japanese pagoda",
@@ -5735,8 +5843,8 @@
     },
     {
       "id": "carti12",
-      "num": "201",
-      "page": "574",
+      "num": "205",
+      "page": "613",
       "fr": "Un castello-tempio giapponese",
       "ru": "Японский замок-храм",
       "en": "A Japanese castle-temple",
@@ -5762,8 +5870,8 @@
     },
     {
       "id": "carti13",
-      "num": "202",
-      "page": "575",
+      "num": "206",
+      "page": "614",
       "fr": "Il grande Idolo giapponese",
       "ru": "Великий японский идол",
       "en": "The great Japanese idol",
@@ -5789,8 +5897,8 @@
     },
     {
       "id": "carti14",
-      "num": "203",
-      "page": "576",
+      "num": "207",
+      "page": "615",
       "fr": "Il secondo idoletto d'Aleandro",
       "ru": "Второй идольчик из собрания Алеандро",
       "en": "The second Aleandro idol",
@@ -5816,8 +5924,8 @@
     },
     {
       "id": "carti15",
-      "num": "204",
-      "page": "577",
+      "num": "208",
+      "page": "616",
       "fr": "Un idolo calvo dal volto ridente (primo idoletto)",
       "ru": "Лысый смеющийся идол (первый идольчик)",
       "en": "A bald, laughing idol (the first idol)",
@@ -5843,8 +5951,8 @@
     },
     {
       "id": "carti16",
-      "num": "205",
-      "page": "578",
+      "num": "209",
+      "page": "617",
       "fr": "Uno spirito guerriero (secondo idoletto)",
       "ru": "Воинственный дух (второй идольчик)",
       "en": "A warlike spirit (the second idol)",
@@ -5870,8 +5978,8 @@
     },
     {
       "id": "carti17",
-      "num": "206",
-      "page": "579",
+      "num": "210",
+      "page": "618",
       "fr": "Coppia di figure (terzo e quarto idoletto)",
       "ru": "Пара фигур (третий и четвёртый идольчики)",
       "en": "A pair of figures (the third and fourth idols)",
@@ -5897,8 +6005,8 @@
     },
     {
       "id": "carti18",
-      "num": "207",
-      "page": "580",
+      "num": "211",
+      "page": "619",
       "fr": "L'idolo piangente (quinto idoletto)",
       "ru": "Плачущий идол (пятый идольчик)",
       "en": "The weeping idol (the fifth idol)",
@@ -5924,8 +6032,8 @@
     },
     {
       "id": "carti19",
-      "num": "208",
-      "page": "581",
+      "num": "212",
+      "page": "620",
       "fr": "Coppia di divinita dalla pelle azzurra (sesto e settimo idoletto)",
       "ru": "Синекожая пара божеств (шестой и седьмой идольчики)",
       "en": "A pair of blue-skinned deities (the sixth and seventh idols)",
@@ -5951,8 +6059,8 @@
     },
     {
       "id": "carti20",
-      "num": "209",
-      "page": "582",
+      "num": "213",
+      "page": "621",
       "fr": "Divinita a sei braccia (ottavo idoletto)",
       "ru": "Шестирукое божество с луком (восьмой идольчик)",
       "en": "A six-armed deity with a bow (the eighth idol)",
@@ -5978,8 +6086,8 @@
     },
     {
       "id": "carti21",
-      "num": "210",
-      "page": "583",
+      "num": "214",
+      "page": "622",
       "fr": "Figura aureolata dall'aspetto di santo",
       "ru": "Святоподобная фигура с нимбом",
       "en": "A saint-like haloed figure",
@@ -6005,8 +6113,8 @@
     },
     {
       "id": "carti22",
-      "num": "211",
-      "page": "584",
+      "num": "215",
+      "page": "623",
       "fr": "Una dea con un bambino",
       "ru": "Богиня с младенцем на руках",
       "en": "A goddess holding a child",
@@ -6032,8 +6140,8 @@
     },
     {
       "id": "carti23",
-      "num": "212",
-      "page": "585",
+      "num": "216",
+      "page": "624",
       "fr": "Un idolo azzurro in un'aureola di fiamme",
       "ru": "Синекожий идол в пламенном нимбе",
       "en": "A blue-skinned idol in a flaming halo",
@@ -6059,8 +6167,8 @@
     },
     {
       "id": "carti24",
-      "num": "213",
-      "page": "586",
+      "num": "217",
+      "page": "625",
       "fr": "Un idolo rosso seduto su una bestia",
       "ru": "Красный идол, сидящий на звере",
       "en": "A red idol seated on a beast",
@@ -6086,8 +6194,8 @@
     },
     {
       "id": "carti25",
-      "num": "214",
-      "page": "587",
+      "num": "218",
+      "page": "626",
       "fr": "Un guerriero su una nuvola",
       "ru": "Воин на облаке с пламенным нимбом",
       "en": "A warrior on a cloud, flame-haloed",
@@ -6113,8 +6221,8 @@
     },
     {
       "id": "carti26",
-      "num": "215",
-      "page": "588",
+      "num": "219",
+      "page": "627",
       "fr": "Spirito alato su un corpo abbattuto",
       "ru": "Крылатый дух, попирающий поверженного",
       "en": "A winged spirit trampling a fallen foe",
@@ -6141,8 +6249,8 @@
     },
     {
       "id": "carti27",
-      "num": "216",
-      "page": "590",
+      "num": "220",
+      "page": "629",
       "fr": "Piccolo idolo su un vaso (1)",
       "ru": "Маленький идол на вазе (1)",
       "en": "A small idol on a vase (1)",
@@ -6168,8 +6276,8 @@
     },
     {
       "id": "carti28",
-      "num": "217",
-      "page": "591",
+      "num": "221",
+      "page": "630",
       "fr": "Piccolo idolo su un vaso (2)",
       "ru": "Маленький идол на вазе (2)",
       "en": "A small idol on a vase (2)",
@@ -6196,8 +6304,8 @@
     },
     {
       "id": "carti29",
-      "num": "218",
-      "page": "592",
+      "num": "222",
+      "page": "631",
       "fr": "Piccolo idolo su un vaso (3)",
       "ru": "Маленький идол на вазе (3)",
       "en": "A small idol on a vase (3)",
@@ -6224,8 +6332,8 @@
     },
     {
       "id": "carti30",
-      "num": "219",
-      "page": "593",
+      "num": "223",
+      "page": "632",
       "fr": "Piccolo idolo su un vaso (4)",
       "ru": "Маленький идол на вазе (4) — «IL FINE»",
       "en": "A small idol on a vase (4) — “IL FINE”",
