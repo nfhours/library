@@ -3524,6 +3524,50 @@
       "text_fr": [
         "« Image de Castor et Pollux, dieux des navigateurs, dont l'apparition signifie le calme de la mer ; ils sont aussi protecteurs des chevaux, étant des étoiles des plus rapides en leur course, et l'un des douze signes du Zodiaque, appelés les deux jumeaux, fils de Jupiter et de Léda. »"
       ]
+    },
+    {
+      "id": "cartm52",
+      "num": "52",
+      "page": "52",
+      "fr": "La Virtù e l'Honore",
+      "ru": "Добродетель и Честь",
+      "en": "Virtue and Honour",
+      "name_fr": "La Vertu et l'Honneur",
+      "img": [
+        "cartm52.jpg"
+      ],
+      "caption": "Imagine della Virtù, & dell'Honore, che si riguardano così scolpiti in vna medaglia di Vitellio, dinotante dalla virtù & attioni virtuose prouenir l'honore, & con l'honore l'abondanza del tutto, & ogni humana felicità.",
+      "text_ru": [
+        "«Образ Добродетели и Чести, глядящих друг на друга, как изваяны они на медали Вителлия: означает, что от добродетели и добродетельных деяний проистекает честь, а с честью — изобилие всего и всякое человеческое счастье»."
+      ],
+      "text_en": [
+        "“Image of Virtue and Honour, gazing at one another as they are sculpted on a medal of Vitellius, denoting that honour proceeds from virtue and virtuous deeds, and that with honour comes abundance of all things and every human happiness.”"
+      ],
+      "text_fr": [
+        "« Image de la Vertu et de l'Honneur, se regardant l'un l'autre tels qu'ils sont sculptés sur une médaille de Vitellius, dénotant que l'honneur procède de la vertu et des actions vertueuses, et qu'avec l'honneur vient l'abondance de toutes choses et tout bonheur humain. »"
+      ]
+    },
+    {
+      "id": "cartm53",
+      "num": "53",
+      "page": "53",
+      "fr": "La Dea Volupia",
+      "ru": "Богиня Волупия",
+      "en": "The goddess Volupia",
+      "name_fr": "La déesse Volupia",
+      "img": [
+        "cartm53.jpg"
+      ],
+      "caption": "Imagini della Dea Volupia Dea de piaceri conculcante la Dea Virtù sotto li piedi suoi, denotante la detestanda, & infame vita de' dati à piaceri, in tutto spregiatori della virtù, solo dati ad ogni sorte di vitio, quasi irrationali.",
+      "text_ru": [
+        "«Образ богини Волупии, богини наслаждений, попирающей ногами богиню Добродетель: означает достойную отвращения и бесславную жизнь преданных наслаждениям, во всём презирающих добродетель и предавшихся всякого рода пороку, точно лишённых разума»."
+      ],
+      "text_en": [
+        "“Image of the goddess Volupia, goddess of pleasures, trampling the goddess Virtue beneath her feet: denoting the detestable and infamous life of those given over to pleasures, utter despisers of virtue, given to every kind of vice, as if devoid of reason.”"
+      ],
+      "text_fr": [
+        "« Image de la déesse Volupia, déesse des plaisirs, foulant aux pieds la déesse Vertu : dénotant la vie détestable et infâme de ceux adonnés aux plaisirs, méprisant en tout la vertu, livrés à toute sorte de vice, comme dépourvus de raison. »"
+      ]
     }
   ]
 }
