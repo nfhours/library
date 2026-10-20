@@ -3478,6 +3478,87 @@
       "text_fr": [
         "« L'image du Soleil, aussi appelé Phébus et Apollon, dieu du jour, signifiant ses effets sur les saisons et les signes célestes, et sur la Lune, et que la Lune dans le signe du Bélier est très humide, étant conjointe au Soleil, qui illumine tout et donne vie à tout. »"
       ]
+    },
+    {
+      "id": "cartm29",
+      "num": "29",
+      "page": "29",
+      "fr": "Imagine dell'Aurora e del Cavallo Pegaseo",
+      "ru": "Образ Авроры и коня Пегаса",
+      "en": "The image of Aurora and the horse Pegasus",
+      "img": [
+        "cartm29.jpg"
+      ],
+      "scans": [
+        "cartm29.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine dell'Aurora, & del Cauallo Pegaseo, che tirra il suo carro, dinotante quell'hora essere la più commoda, & di maggior profitto per lo studiare, & la gloria che ne risulta al dotto & virtuoso.",
+      "text_ru": [
+        "«Образ Авроры и коня Пегаса, влекущего её колесницу, означающий, что тот час (рассвет) наиболее удобен и наиболее плодотворен для учёных занятий, и ту славу, что проистекает от этого учёному и добродетельному человеку»."
+      ],
+      "text_en": [
+        "“The image of Aurora, and of the horse Pegasus, who draws her chariot, denoting that that hour is the most convenient and most profitable for study, and the glory that results from it for the learned and virtuous man.”"
+      ],
+      "name_fr": "L'image de l'Aurore et du cheval Pégase",
+      "text_fr": [
+        "« L'image de l'Aurore, et du cheval Pégase, qui tire son char, indiquant que cette heure est la plus propice et la plus profitable à l'étude, et la gloire qui en résulte pour l'homme savant et vertueux. »"
+      ]
+    },
+    {
+      "id": "cartm30",
+      "num": "30",
+      "page": "30",
+      "fr": "Imagine di Diana, dea delle selve e della caccia",
+      "ru": "Образ Дианы, богини лесов и охоты",
+      "en": "The image of Diana, goddess of the woods and the hunt",
+      "img": [
+        "cartm30.jpg"
+      ],
+      "scans": [
+        "cartm30.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine di Diana dea delle selue, & della caccia, la quale s'intende per la Luna da alcune cacciatrici accompagnata. questa fù anco tenuta la dea della pudicitia & castità, punitrice delli violatori di quella.",
+      "text_ru": [
+        "«Образ Дианы, богини лесов и охоты, понимаемой как Луна, в сопровождении нескольких охотниц. Она также почиталась богиней стыдливости и целомудрия, карающей тех, кто их нарушает»."
+      ],
+      "text_en": [
+        "“The image of Diana, goddess of the woods and of the hunt, who is understood as the Moon, accompanied by several huntresses. She was also held to be the goddess of modesty and chastity, punisher of those who violate them.”"
+      ],
+      "name_fr": "L'image de Diane, déesse des forêts et de la chasse",
+      "text_fr": [
+        "« L'image de Diane, déesse des forêts et de la chasse, entendue comme la Lune, accompagnée de quelques chasseresses. Elle fut aussi tenue pour la déesse de la pudeur et de la chasteté, punissant ceux qui les violent. »"
+      ]
+    },
+    {
+      "id": "cartm31",
+      "num": "31",
+      "page": "31",
+      "fr": "Statua di Lucina, dea dei Parti",
+      "ru": "Статуя Люцины, богини родов",
+      "en": "The statue of Lucina, goddess of Childbirth",
+      "img": [
+        "cartm31.jpg"
+      ],
+      "scans": [
+        "cartm31.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Statua di Lucina dea de Parti tolta per la Luna essendo la Luna Pianeta humido atto à facilitare la prestezza del parto, & figurata per la vergogna della donna parturiente.",
+      "text_ru": [
+        "«Статуя Люцины, богини родов, отождествляемой с Луной, поскольку Луна — влажная планета, способная облегчать быстроту родов; изображена закутанной в знак стыдливости рожающей женщины»."
+      ],
+      "text_en": [
+        "“The statue of Lucina, goddess of Childbirth, identified with the Moon, the Moon being a moist planet apt to facilitate the swiftness of childbirth, and figured veiled for the modesty of the woman giving birth.”"
+      ],
+      "name_fr": "La statue de Lucine, déesse des accouchements",
+      "text_fr": [
+        "« La statue de Lucine, déesse des accouchements, assimilée à la Lune, la Lune étant une planète humide propre à faciliter la rapidité de l'accouchement, et représentée voilée pour la pudeur de la femme qui accouche. »"
+      ]
     }
   ]
 }
