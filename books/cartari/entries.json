@@ -2872,8 +2872,108 @@
       ]
     },
     {
-      "id": "cartm81",
+      "id": "cartm_night",
       "num": "101",
+      "page": "314",
+      "fr": "Imagine della Notte nutrice della Morte, & del Sonno",
+      "ru": "Образ Ночи, кормилицы Смерти и Сна",
+      "en": "Image of Night, nurse of Death and Sleep",
+      "img": [
+        "cartm_night.jpg"
+      ],
+      "scans": [],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine della Notte nutrice della Morte, & del Sonno, & imagine del Sonno fratello & compagno della Morte; quiete & dolce ristoro de mortali. & il corno dinota il riposo, & varietà de' sogni.",
+      "name_fr": "Imagine della Notte nutrice della Morte, & del Sonno",
+      "text_ru": [
+        "Образ Ночи, кормилицы Смерти и Сна, и образ Сна, брата и спутника Смерти; покой и сладостное подкрепление смертных. А рог означает отдых и многообразие сновидений."
+      ],
+      "text_en": [
+        "Image of Night, nurse of Death and of Sleep, and image of Sleep, brother and companion of Death; rest and sweet restoration of mortals. And the horn denotes repose and the variety of dreams."
+      ],
+      "text_fr": [
+        "Image de la Nuit, nourrice de la Mort et du Sommeil, et image du Sommeil, frère et compagnon de la Mort ; repos et doux réconfort des mortels. Et la corne signifie le repos et la diversité des songes."
+      ]
+    },
+    {
+      "id": "cartm_merceloq",
+      "num": "102",
+      "page": "318",
+      "fr": "Imagine di Mercurio dio della eloquenza, & del dio Anubi",
+      "ru": "Образ Меркурия, бога красноречия, и бога Анубиса",
+      "en": "Image of Mercury, god of eloquence, and of the god Anubis",
+      "img": [
+        "cartm_merceloq.jpg"
+      ],
+      "scans": [],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine di Mercurio dio della eloquenza, scorta de passeggieri, Dio de Pastori, inteso anco per la forza del Sole; & imagine del dio Anubi dio della sagacità appo gli Egittij, che è vn istesso con Mercurio, & il Caduceo quì significa il Sole & la Luna il demone la fortuna, l'amore, & la necessità che vanno co'l nascimento humano.",
+      "name_fr": "Imagine di Mercurio dio della eloquenza, & del dio Anubi",
+      "text_ru": [
+        "Образ Меркурия, бога красноречия, покровителя путников, бога пастухов, понимаемого также как сила Солнца; и образ бога Анубиса, бога проницательности у египтян, который есть одно и то же с Меркурием; а кадуцей здесь означает Солнце и Луну, демон — судьбу, любовь и необходимость, сопутствующие рождению человека."
+      ],
+      "text_en": [
+        "Image of Mercury, god of eloquence, escort of travellers, God of Shepherds, understood also as the power of the Sun; and image of the god Anubis, god of sagacity among the Egyptians, who is one and the same as Mercury, and the Caduceus here signifies the Sun and the Moon, the demon signifies fortune, love, and the necessity that accompany human birth."
+      ],
+      "text_fr": [
+        "Image de Mercure, dieu de l'éloquence, escorte des voyageurs, Dieu des Bergers, entendu aussi comme la force du Soleil ; et image du dieu Anubis, dieu de la sagacité chez les Égyptiens, qui ne fait qu'un avec Mercure, et le Caducée signifie ici le Soleil et la Lune, le démon la fortune, l'amour et la nécessité qui accompagnent la naissance humaine."
+      ]
+    },
+    {
+      "id": "cartm_anubis",
+      "num": "103",
+      "page": "320",
+      "fr": "Imagine di Anubide Dio della Sagacità",
+      "ru": "Образ Анубиса, бога проницательности",
+      "en": "Image of Anubis, god of sagacity",
+      "img": [
+        "cartm_anubis.jpg"
+      ],
+      "scans": [],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine di Anubide Dio della Sagacità, Custodia, & Fideltà, con il Cocodrillo animale d'Egitto, terrestre, & acquatico, con Api, Gioue Hammone, & altre figure misteriose.",
+      "name_fr": "Imagine di Anubide Dio della Sagacità",
+      "text_ru": [
+        "Образ Анубиса, бога проницательности, стражи и верности, с крокодилом — животным Египта, земноводным и водным, с Аписом, Юпитером-Аммоном и иными таинственными изображениями."
+      ],
+      "text_en": [
+        "Image of Anubis, god of sagacity, guardianship, and fidelity, with the Crocodile, an animal of Egypt, both terrestrial and aquatic, with Apis, Jove Hammon, and other mysterious figures."
+      ],
+      "text_fr": [
+        "Image d'Anubis, dieu de la sagacité, de la garde et de la fidélité, avec le Crocodile, animal d'Égypte, terrestre et aquatique, avec Apis, Jupiter Hammon, et d'autres figures mystérieuses."
+      ]
+    },
+    {
+      "id": "cartm_hercgall",
+      "num": "104",
+      "page": "322",
+      "fr": "Imagine di Hercole appo Francesi, Dio della eloquenza",
+      "ru": "Образ Геркулеса у галлов, бога красноречия",
+      "en": "Image of Hercules among the Gauls, god of eloquence",
+      "img": [
+        "cartm_hercgall.jpg"
+      ],
+      "scans": [],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine di Hercole appo Francesi da loro tenuto Dio della eloquenza, & dell'essercitio, qual fù da alcuni tenuto anco per Mercurio & questa imagine dinota a forza, & disciplina militare, massime in vecchi Capitani, & consumati oratori.",
+      "name_fr": "Imagine di Hercole appo Francesi, Dio della eloquenza",
+      "text_ru": [
+        "Образ Геркулеса, которого галлы почитали как бога красноречия и воинского искусства, а некоторые отождествляли его также с Меркурием; и этот образ означает силу и воинскую дисциплину, особенно в старых военачальниках и опытных ораторах."
+      ],
+      "text_en": [
+        "Image of Hercules, held by the Gauls as the God of eloquence and of military exercise, who was by some also held to be Mercury; and this image denotes strength and military discipline, especially in old Captains and seasoned orators."
+      ],
+      "text_fr": [
+        "Image d'Hercule, tenu par les Français (Gaulois) pour le Dieu de l'éloquence et de l'exercice militaire, et que certains tenaient aussi pour Mercure ; et cette image signifie la force et la discipline militaire, surtout chez les vieux Capitaines et les orateurs consommés."
+      ]
+    },
+    {
+      "id": "cartm81",
+      "num": "105",
       "page": "326",
       "fr": "Imagine d'Ercole armato e banchettante",
       "ru": "Образ вооружённого и пирующего Геркулеса",
@@ -2904,7 +3004,7 @@
     },
     {
       "id": "cartm82",
-      "num": "102",
+      "num": "106",
       "page": "331",
       "fr": "Apollo ed Ercole contendono per il Tripode",
       "ru": "Аполлон и Геркулес спорят из-за треножника",
@@ -2932,7 +3032,7 @@
     },
     {
       "id": "cart10",
-      "num": "103",
+      "num": "107",
       "page": "333",
       "fr": "Minerva (con Mercurio)",
       "ru": "Минерва (вместе с Меркурием)",
@@ -2959,7 +3059,7 @@
     },
     {
       "id": "cartm83",
-      "num": "104",
+      "num": "108",
       "page": "336",
       "fr": "Imagine di Vulcano che apre il capo a Giove",
       "ru": "Образ Вулкана, рассекающего голову Юпитеру",
@@ -2988,7 +3088,7 @@
     },
     {
       "id": "cartm84",
-      "num": "105",
+      "num": "109",
       "page": "339",
       "fr": "Imagine di Bellona, dea della guerra",
       "ru": "Образ Беллоны, богини войны",
@@ -3017,7 +3117,7 @@
     },
     {
       "id": "cartm85",
-      "num": "106",
+      "num": "110",
       "page": "342",
       "fr": "Imagine di Minerva inventrice del filare e tessere",
       "ru": "Образ Минервы, изобретательницы прядения и ткачества",
@@ -3045,7 +3145,7 @@
     },
     {
       "id": "cartm86",
-      "num": "107",
+      "num": "111",
       "page": "344",
       "fr": "Imagine della Virtù e dell'Onore",
       "ru": "Образ Доблести и Чести",
@@ -3073,7 +3173,7 @@
     },
     {
       "id": "cartm87",
-      "num": "108",
+      "num": "112",
       "page": "346",
       "fr": "Imagini della dea Volupia",
       "ru": "Образы богини Волюпии",
@@ -3102,7 +3202,7 @@
     },
     {
       "id": "cartm88",
-      "num": "109",
+      "num": "113",
       "page": "349",
       "fr": "Imagine della dea Angerona e del dio del Silenzio",
       "ru": "Образ богини Ангероны и бога Молчания",
@@ -3156,8 +3256,364 @@
       ]
     },
     {
+      "id": "cartm_minervagorgon",
+      "page": "350",
+      "fr": "Minerva: lo scudo, l'hasta, il Peplo, e la fauola di Medusa",
+      "ru": "Минерва: щит, копьё, пеплос и миф о Медузе",
+      "en": "Minerva: the shield, the spear, the Peplos, and the myth of Medusa",
+      "text_ru": [
+        "О молчании и мудрости Минервы: известно о Волке, что он делает хриплым всякого, кого увидит прежде, чем будет увиден сам, и что, похитив нечто, убегает так тихо, что едва осмеливается дышать. Арпократу был посвящён персик, ибо дерево это имеет листья, подобные человеческому языку, а плоды его напоминают сердце — как бы показывая, что язык должен обнаруживать то, что в сердце, но не всегда обязан это делать, если вдуматься как следует. И потому молчание в должное время есть добродетель, как показала Минерва, отогнавшая от себя Ворону, птицу болтливую и крикливую; ибо благоразумному человеку не подобает тратить время на множество пустых слов, но, храня молчание, должно хорошо обдумать дело, прежде чем о нём судить, и говорить затем лишь то, что необходимо. Это, быть может, желала показать статуя этой богини у мессенийцев, которая, по описанию Павсания, держала в руке Ворону — как бы в знак того, что речь должна быть в руке у мудрого человека, чтобы он мог её то отпускать, то сдерживать, смотря по обстоятельствам и нужде. Также у Минервы было в руке длинное копьё, как я уже говорил, которое ей дают все поэты; и Апулей равным образом описывает её потрясающей им и, подняв руку, вздымающей щит, и что с нею идут двое, подобные юношам, которые с обнажёнными ножами в руках словно угрожающе выступают: один из них — Испуг (Spauento), другой — Страх (Timore), ибо войны никогда не бывают без них. Так, изображая, как Марс по приказу Юпитера идёт сеять войну между аргивянами и фиванцами, Стаций говорит, что он взял с собою Испуг и Страх (Terrore) и послал их впереди себя, и описывает их отчасти образно, отчасти через свойства, которые от них исходят, следующим образом:\n\n«Из жестокой толпы, что его окружает, он избирает Страх (Terror) и посылает его вперёд на коне, коему нет равного в силе — внушать ужас другим, более чем идти вперёд. Из-за него людям кажется, что они презирают правду, если в их робкой груди гнездится этот страшный зверь, обладающий бесчисленными голосами и руками, всегда готовыми и дерзкими на зло. Не одно у него лицо, но многие, и все в различных обличьях, меняющиеся ежечасно, лишь бы ему было угодно сообразовать их со страшными вестями, что он приносит в сердца людей, которые столь сильно подчиняются им, что принуждены верить всему. И с таким ужасом он часто нападает на города, которые потом верят всякому злу...»\n\nПавсаний указывает, что Страх (Terrore) изображался древними двояко: один — с головой Льва, как было изваяно, по его словам, у элейцев на щите Агамемнона; другой — с лицом и обликом женщины, но столь пугающим, сколь только можно описать. И подобное изображение Испуга посвятили коринфяне детям Медеи, убитым за гибельные дары, которые те принесли дочери Креонта, отчего та погибла вместе со всем царским домом. Но не всегда Страх почитался вредоносным, ибо Плутарх пишет, что он был чтим лакедемонянами не потому, что они его боялись, как иных демонов, которых желали бы удалить от города, но потому, что полагали, что благодаря ему сохраняется государство, когда страшатся законов и должностных лиц. Оттого эфоры, высшие должностные лица, вступив в должность, тотчас (как говорит Аристотель) приказывали и велели возглашать по городу, чтобы каждый брился и повиновался законам, дабы не быть принуждёнными поступать дурно с кем-либо, и чтобы приучать юношей к послушанию даже в мелочах. Кроме того, древние не считали истинной доблестью вовсе ничего не бояться, но считали истинной доблестью бояться претерпеть нечто недостойное; и полагали, что тот всегда смелее против врагов, кто боится нарушить законы, нежели тот, кто ни во что их не ставит; и что страх дурной молвы делает людей более стойкими к перенесению всякого труда и опасности. Таков и есть тот страх, который должны испытывать народы; и потому лакедемоняне поставили храм Страха рядом с домом эфоров. Это же, быть может, понимал и Тулл Гостилий, царь римлян, когда повелел (как сообщает Лактанций) почитать вместе Страх и Бледность, ибо редко бывает, чтобы боящийся не бледнел. И по справедливости заслужил он, найдя их столь прекрасными, по словам того же Лактанция, иметь своих богов всегда при себе и никогда с ними не расставаться.\n\nЧто до щита Минервы — он был из прозрачнейшего хрусталя и закрывал тело от всего, что могло бы его поразить, показывая, что душа благоразумного человека хоть и покрыта земными членами лишь для того, чтобы их охранять и оберегать, но не настолько ими затемняется, чтобы не видеть истины вещей. А поскольку щиты обычно имеют круглую форму, хотя щит Минервы иногда изображается иначе, Марциан писал, что щит на руке Минервы означал, что Мир кругл по своей форме и управляется высшей и бесконечной мудростью, а не случаем, как хотели Демокрит и Эпикур. Копьё же означает, что благоразумный человек может вредить другим даже издалека, или что сила благоразумия такова, что пронзает всякую твёрдость самых трудных вещей и часто возносится столь высоко, что достигает Небес. Оттого Клавдиан сделал копьё Минервы столь длинным и высоким, что оно пронзало облака. А Гомер, желая выразить это ещё лучше, представляет, что Минерва, желая явиться Телемаху, дабы внушить ему отправиться на поиски отца своего Улисса, надевает на ноги золотые крылатые сандалии — те самые, что, как мы говорили в образе Меркурия, он носит, — и не берёт с собою ничего иного, кроме копья. Находим также у Марка Туллия, где он пишет о природе богов, что существовала некая Минерва (ибо он насчитывает их пять), которая изображалась имеющей крылья на ногах. Павсаний также пишет, что в руке у того изваяния Минервы, что имело на шлеме, как я уже говорил, Сфинкс и Грифонов, было длинное копьё; и, продолжая его описывать, говорит, что оно стояло прямо, облачённое в некую тунику, покрывавшую его до земли, а под панцирем (лежавшим у его ног) находился щит; добавляют к этому и Сову, и что у подножия копья был Змей. Отсюда взял довод Демосфен, когда был принуждён отправиться в изгнание, сказав, что Минерва, чьим именем собственно называлась Афина, слишком любит трёх странных зверей — Сову, Змея и Народ (Popolo), ибо в республике Афин народ значил очень много и обращал дело к худшему тогда, когда чувствовал себя оскорблённым. Но, как я уже сказал о Сове, так скажу и о Змее — он был дан Минерве в знак проницательности и благоразумия. Оттого в Риме перед великим изваянием Минервы у её ног лежал Змей, весь свившийся в кольцо, лишь подняв голову позади щита, который она держала на руке, — как говорит Сервий, где Вергилий изображает, как два змея, убившие Лаокоона и его сыновей, направились прямо к храму Минервы и там улеглись у ног богини, под щитом. О тунике же, которую она носит поверх панциря, пишет Геродот, что греки переняли этот способ одеваться от африканских женщин, живущих близ Тритонидского озера.\n\nБыла она прекрасна и имела золотые волосы. Оттого влюбился в неё Нептун и возлёг с нею в храме Минервы; та же, разгневанная и сильно вознегодовавшая на это, превратила Медузу — бывшую прежде прекрасной и приятной на вид — во всём ужасную и устрашающую, обратив её золотые волосы в безобразных змей; и пожелала, чтобы всякий, кто взглянет на неё, тотчас обратился в камень. Но поскольку мир не мог стерпеть столь странного чудовища, Персей убил её с той помощью, о которой я уже говорил, и отдал голову её Минерве, которая с тех пор всегда носила её на щите или на груди панциря. Это изображает и Гомер, когда представляет, что богиня вооружается для похода против троянцев: он говорит, что она окружена ужасающим Страхом, и что, помимо головы Медузы, в ней также заключены отважная смелость, твёрдая стойкость и грозные угрозы — всё свойства, подобающие богине войн, как и сама Победа. Оттого Павсаний говорит, что афиняне поместили её на груди вместе с головой Медузы, а у элейцев она стояла рядом без крыльев. Всё это показывает силу знания и благоразумия, ибо оно своими дивными делами и мудрыми советами приводит других в изумление, заставляя их словно каменеть от удивления, так что легко достигает того, чего желает, лишь бы умело это преподносить, — ибо этой ужасной головой означается язык. Покрыта же она была порой прекрасным покровом, который набрасывали на богиню, называемым древними Пеплосом, — особым родом одеяния без рукавов, употреблявшимся на изваяниях богов, как говорит Лактанций, комментируя Стация, — белым и всюду расшитым золотыми звёздами, который изготовляли сами матроны своими руками и подносили каждые три года. Но поскольку это было изобретением афинян, для которых Минерва была главным божеством, чаще всего под Пеплосом разумели именно это великое одеяние или покров, что подносился этой богине каждые пять лет с весьма торжественным обрядом, — хотя Свида говорит, что это была не одежда, а парус некоего корабля, который в упомянутое время украшался прекраснейшими убранствами в честь Минервы на её празднествах; и был также у древних обычай подносить Пеплос, когда в какой-либо великой опасности желали испросить благосклонность богини. Оттого Гомер рассказывает, что Гекуба по совету своего сына Елена, в сопровождении знатнейших матрон, видя троянцев, теснимых греками до самых стен, собирает из своих прекраснейших и драгоценнейших одежд большой и богатый Пеплос и несёт его в храм Паллады, где его подносит Теано, жена Антенора, женщина, в ту пору весьма почитаемая среди троянок, — и все вместе молят богиню быть к ним благосклонной. Этому подражал и Вергилий, изображая войну Трои в храме Юноны в Карфагене, говоря..."
+      ],
+      "text_en": [
+        "On the silence and wisdom of Minerva: it is recorded of the Wolf that it makes hoarse whoever sees it before being seen himself, and that, having stolen something, it flees away so quietly that it scarcely dares to breathe. To Harpocrates was dedicated the peach-tree, for this tree has leaves resembling a human tongue, while its fruits resemble a heart — as if to show that the tongue should reveal what is in the heart, yet need not always do so, if one considers the matter well. And therefore silence, at its proper time, is a virtue, as was shown by Minerva, who drove away from herself the Crow, a garrulous and raucous bird; for the prudent man ought not to waste time in many vain words, but, keeping silent, should weigh matters well before judging them, and afterward say only what is necessary. This perhaps the statue of this goddess among the Messenians intended to show, which, as Pausanias describes it, held a Crow in its hand — as if in sign that speech ought to be in the hand of the wise man, so that he might loosen or restrain it, according to the occasion and the need. Minerva also held a long spear in her hand, as I have said, which all the poets give her; and Apuleius likewise describes her brandishing it, and, raising her arm, lifting her shield, and that with her go two who resemble youths, who with bare blades in hand seem to advance threateningly: one of these is Terror (Spauento), the other is Fear (Timore), for wars are never without them. Thus, depicting Mars going by Jove's command to stir war between the Argives and the Thebans, Statius says he took with him Terror and Fear and sent them ahead of him, and describes them partly through image, partly through the qualities that proceed from them, in this way:\n\n'From the cruel throng that surrounds him he chooses Terror and sends him ahead on a steed to which none can compare in power — in making others afraid, more than in advancing himself. Because of him men seem to despise the truth, when in their timid breast nests this dreadful beast, possessing countless voices and hands ever ready and bold for evil. Not one face is his, but many, and all in varied aspects, changing hourly, as it pleases him to match them to the fearful tidings he brings into men's hearts, who are so greatly subject to them that they are compelled to believe everything. And with such terror he often assails cities, which thereafter believe every evil...'\n\nPausanias notes that Terror was depicted by the ancients in two ways: one with the head of a Lion, as was carved, he says, among the Eleans on the shield of Agamemnon; the other with the face and habit of a woman, but as frightful as can possibly be described. And such an image of Terror was dedicated by the Corinthians to the children of Medea, who had been killed on account of the ruinous gifts they brought to the daughter of Creon, through which she perished along with the whole royal house. But Terror was not always believed to be harmful, for Plutarch writes that it was worshipped by the Lacedaemonians not because they feared it, as they did certain other demons whom they wished kept far from the city, but because they thought the republic was preserved by it, when the laws and the magistrates were feared. Whence it was that the Ephors, who were the highest magistracy, upon entering office at once (as Aristotle says) commanded and had it proclaimed throughout the city that every man should shave and be obedient to the laws, so that they should not be compelled to deal harshly with anyone, and so as to accustom the young to obedience even in trifling matters. Moreover, the ancients did not believe that true fortitude consisted in fearing nothing at all, but believed true fortitude to consist in fearing to suffer something unworthy; and they held that he is always bolder against enemies who fears to break the laws than he who holds them in no account at all; and that the fear of acquiring an evil name makes men more steadfast in enduring every toil and danger. Such is the fear that peoples ought to have; and for this the Lacedaemonians placed the temple of Fear beside the house of the Ephors. This perhaps was also understood by Tullus Hostilius, King of the Romans, when he ordained (as Lactantius relates) that Fear and Pallor should be worshipped together, for it rarely happens that one who fears does not turn pale. And he well deserved, having found them so fitting, as the same Lactantius says, to have his gods always with him and never to abandon them. Returning, however, to Minerva: she shows, while brandishing the spear and raising the shield together, as Apuleius gives it, the threats of war; and if we consider it well in peace, the shield, which was of the clearest crystal and covered the body from whatever might come to harm it, showed that the mind of the prudent man is covered by earthly limbs only to guard and protect it, and not so as to be obscured by them in such a way that it can no longer see the truth of things. And because shields are commonly of round form, though that of Minerva is sometimes seen made otherwise, Martianus wrote that the shield on Minerva's arm signified that the World, which is likewise of round form, is governed with the utmost and infinite prudence, and not by chance, as Democritus and Epicurus held. And the spear signifies that the prudent man can harm others even from afar; or that the force of prudence is such that it pierces every hardness of the most difficult things, and often raises itself so high that it reaches to Heaven. Whence Claudian made Minerva's spear so long and so high that it passed beyond the clouds. And Homer, perhaps to express this even better, imagines that Minerva, wishing to appear to Telemachus, to put it in his mind to go seek his father Ulysses, puts on her feet the golden winged sandals — those same which, as we said in the image of Mercury, he wears — and takes nothing else with her but the spear. It is also found in Marcus Tullius, where he writes of the nature of the gods, that there was a certain Minerva (for he counts five) who was imagined as having wings on her feet. Pausanias likewise writes that in the hand of that image of Minerva which had upon its helmet, as I have already said, the Sphinx and the Griffins, there was a long spear; and, continuing to describe it, says that it stood upright, clothed in a certain tunic covering it down to the ground, and beneath the breastplate (which lay at its feet) was the shield; they add to this also the Owl, and that at the base of the spear was a Serpent. From this Demosthenes drew his argument, when he was forced to go into exile, saying that Minerva, whose name was properly that of Athens, delighted too much in three strange beasts — the Owl, the Serpent, and the People (Popolo) — for in the republic of Athens the people counted for a great deal, and turned matters for the worse whenever they felt themselves offended. But, as I have already said of the Owl, so I say of the Serpent — it was given to Minerva as a sign of acuteness and of prudence. Whence in Rome, before the great image of Minerva, at her feet lay the Serpent, entirely coiled upon itself, raising only its head behind the shield that she held upon her arm — as Servius says, where Virgil relates that the two serpents which killed Laocoön and his sons went straight to the temple of Minerva and there lay down at the feet of the goddess, beneath the shield. Of the tunic, which she wears over the breastplate, Herodotus writes that the Greeks took this manner of dress from the African women who dwell around the Tritonian marsh.\n\nShe [Medusa] was beautiful, and had hair of gold. Whence Neptune, having fallen in love with her, lay with her in the temple of Minerva; and the goddess, greatly offended and angered by this, made Medusa — who before had been beautiful and pleasing to behold — become in every way terrible and frightful, turning her golden hair into hideous serpents, and willed that whoever should look upon her should at once be turned to stone. But since the world could not endure so strange a monster, Perseus slew her with the help already mentioned, and gave her head to Minerva, who thereafter always bore it upon her shield, or upon the breast of her breastplate. This Homer also shows, when he represents the goddess arming herself to go against the Trojans: he says that she is surrounded by dreadful Terror, and that, besides the head of Medusa, there are also contained within it bold daring, sure fortitude, and fearsome threats — all qualities proper to the goddess of wars, as is Victory herself. Whence Pausanias says that the Athenians placed her upon the breast together with the head of Medusa, while among the Eleans she stood beside it without wings. All this shows the power of knowledge and of prudence, for by its marvellous works and wise counsels it brings others to astonishment, making them, as it were, turn to stone with wonder, so that it easily obtains what it wishes, provided it knows how to present itself skilfully — for by this terrible head the tongue is signified. She was at times covered by a beautiful mantle thrown over the goddess, called by the ancients the Peplos — a particular kind of sleeveless garment, used upon the images of the gods, as Lactantius says, commenting on Statius — white, and embroidered all over with golden stars, which the matrons themselves made with their own hands and offered every third year. But because this was an invention of the Athenians, for whom Minerva was the principal deity, the Peplos more often referred to that great garment or mantle which was offered to this goddess every fifth year with a most solemn ceremony — though Suidas says it was not a garment but the sail of a certain ship, which at the aforesaid time was adorned with most beautiful ornaments in honour of Minerva at her festivals; and it was also the custom of the ancients to offer the Peplos when, in some great danger, they wished to entreat the goddess's favour. Whence Homer relates that Hecuba, on the advice of her son Helenus, accompanied by the noblest matrons, seeing the Trojans driven by the Greeks even within the walls, gathers from her most beautiful and precious garments a great and rich Peplos and carries it to the temple of Pallas, where it is offered by Theano, wife of Antenor, a woman at that time held in the greatest veneration among the Trojan women — and all together pray the goddess to be favourable to them. This Virgil also imitated, depicting the war of Troy in the temple of Juno at Carthage, saying..."
+      ],
+      "text_fr": [
+        "Du silence et de la sagesse de Minerve : on rapporte du Loup qu'il rend enroué quiconque le voit avant d'être vu lui-même, et qu'ayant dérobé quelque chose, il s'enfuit si silencieusement qu'il n'ose presque pas respirer. À Harpocrate fut dédié le pêcher, car cet arbre a des feuilles semblables à la langue humaine, tandis que ses fruits ressemblent au cœur — comme pour montrer que la langue doit révéler ce qui est dans le cœur, sans toujours y être tenue, si l'on y songe bien. Et c'est pourquoi le silence, en son temps, est une vertu, comme le montra Minerve, qui chassa loin d'elle la Corneille, oiseau bavard et criard ; car l'homme prudent ne doit pas perdre son temps en multiples paroles vaines, mais, gardant le silence, doit bien peser les choses avant d'en juger, et n'en dire ensuite que ce qui est nécessaire. C'est peut-être ce que voulait montrer la statue de cette déesse chez les Messéniens, laquelle, selon la description de Pausanias, tenait une Corneille à la main — comme en signe que la parole doit être dans la main du sage, pour qu'il puisse la relâcher ou la retenir, selon l'occasion et le besoin. Minerve tenait aussi une longue lance à la main, comme je l'ai dit, que tous les poètes lui donnent ; et Apulée la décrit de même la brandissant, et, levant le bras, soulevant son bouclier, et qu'avec elle marchent deux êtres semblables à des jeunes gens, qui, lames nues à la main, semblent avancer menaçants : l'un est l'Épouvante (Spauento), l'autre la Crainte (Timore), car les guerres ne vont jamais sans eux. Ainsi, dépeignant Mars allant par ordre de Jupiter semer la guerre entre les Argiens et les Thébains, Stace dit qu'il prit avec lui l'Épouvante et la Crainte et les envoya devant lui, et les décrit en partie par l'image, en partie par les qualités qui en procèdent, de cette manière :\n\n« De la cruelle foule qui l'entoure, il choisit l'Épouvante et l'envoie devant, monté sur un coursier à qui nul n'égale en puissance — pour faire craindre les autres, plus que pour avancer lui-même. À cause de lui, les hommes semblent mépriser la vérité, quand dans leur poitrine craintive niche cette bête redoutable, pourvue de voix et de mains innombrables, toujours promptes et hardies au mal. Un seul visage n'est pas le sien, mais plusieurs, tous d'aspects variés, changeant d'heure en heure, selon qu'il lui plaît de les accorder aux nouvelles effrayantes qu'il porte dans le cœur des hommes, lesquels y sont si fort assujettis qu'ils sont contraints de tout croire. Et avec une telle épouvante il assaille souvent les cités, qui ensuite croient tout mal... »\n\nPausanias note que l'Épouvante était représentée de deux manières par les anciens : l'une avec une tête de Lion, telle qu'elle était sculptée, dit-il, chez les Éléens sur le bouclier d'Agamemnon ; l'autre avec le visage et l'habit d'une femme, mais aussi effrayante qu'on puisse le décrire. Et une telle image de l'Épouvante fut dédiée par les Corinthiens aux enfants de Médée, tués à cause des présents funestes qu'ils avaient apportés à la fille de Créon, par lesquels celle-ci périt avec toute la maison royale. Mais l'Épouvante ne fut pas toujours crue nuisible, car Plutarque écrit qu'elle était adorée par les Lacédémoniens non parce qu'ils la craignaient, comme certains autres démons qu'ils voulaient tenir loin de la cité, mais parce qu'ils pensaient que la république se conservait par elle, quand les lois et les magistrats étaient craints. D'où vint que les Éphores, qui étaient le magistrat suprême, dès leur entrée en charge (comme le dit Aristote) ordonnaient aussitôt et faisaient proclamer par la ville que chacun se rasât et obéît aux lois, afin de n'être pas contraints de mal agir envers quiconque, et pour accoutumer les jeunes gens à l'obéissance même dans les petites choses. En outre, les anciens ne croyaient pas que la vraie force fût de ne rien craindre du tout, mais croyaient que la vraie force était de craindre de souffrir quelque chose d'indigne ; et ils estimaient que celui-là est toujours plus hardi contre les ennemis qui craint d'enfreindre les lois, que celui qui n'en tient aucun compte ; et que la crainte d'acquérir mauvaise réputation rend les hommes plus fermes à supporter toute peine et tout péril. Telle est la crainte que doivent avoir les peuples ; et c'est pourquoi les Lacédémoniens placèrent le temple de la Crainte à côté de la maison des Éphores. Ceci, peut-être, Tullus Hostilius, roi des Romains, le comprit aussi, lorsqu'il ordonna (comme le rapporte Lactance) que la Crainte et la Pâleur fussent adorées ensemble, car il arrive rarement que celui qui craint ne pâlisse pas. Et il mérita bien, les ayant trouvées si convenables, comme le dit ce même Lactance, d'avoir toujours ses dieux avec lui et de ne jamais les abandonner. Mais pour en revenir à Minerve : elle montre, tout en brandissant la lance et en levant le bouclier ensemble, comme le donne Apulée, les menaces de la guerre ; et le bouclier, qui était de cristal très limpide et couvrait le corps de tout ce qui pourrait venir le blesser, montrait que l'esprit de l'homme prudent, bien que couvert de membres terrestres, ne l'est que pour le garder et le protéger, et non pour en être obscurci au point de ne plus voir la vérité des choses. Et parce que les boucliers sont communément de forme ronde, bien que celui de Minerve se voie parfois fait autrement, Martianus écrivit que le bouclier au bras de Minerve signifiait que le Monde, lequel est pareillement de forme ronde, est gouverné avec une prudence souveraine et infinie, et non par le hasard, comme le voulurent Démocrite et Épicure. Et la lance signifie que l'homme prudent peut nuire à autrui même de loin ; ou que la force de la prudence est telle qu'elle pénètre toute dureté des choses les plus difficiles, et s'élève souvent si haut qu'elle atteint le Ciel. D'où Claudien fit la lance de Minerve si longue et si haute qu'elle dépassait les nuées. Et Homère, pour exprimer peut-être mieux encore cela, imagine que Minerve, voulant apparaître à Télémaque, pour lui mettre en l'esprit d'aller chercher son père Ulysse, chausse à ses pieds les sandales ailées d'or — celles-là mêmes que, comme nous l'avons dit à propos de l'image de Mercure, il porte — et ne prend avec elle rien d'autre que la lance. On trouve aussi chez Marcus Tullius, où il écrit de la nature des dieux, qu'il y eut une certaine Minerve (car il en compte cinq) qui était imaginée ayant des ailes aux pieds. Pausanias écrit de même que dans la main de cette image de Minerve qui avait sur son casque, comme je l'ai déjà dit, le Sphinx et les Griffons, il y avait une longue lance ; et, continuant à la décrire, dit qu'elle se tenait debout, vêtue d'une certaine tunique la couvrant jusqu'à terre, et sous la cuirasse (qui gisait à ses pieds) se trouvait le bouclier ; on y ajoute aussi la Chouette, et qu'au pied de la lance se trouvait un Serpent. De là Démosthène tira son argument, lorsqu'il fut contraint de s'exiler, disant que Minerve, dont le nom était proprement celui d'Athènes, se complaisait trop en trois étranges bêtes — la Chouette, le Serpent et le Peuple (Popolo) — car dans la république d'Athènes le peuple comptait beaucoup, et tournait les choses au pire chaque fois qu'il se sentait offensé. Mais, comme je l'ai déjà dit de la Chouette, je le dis aussi du Serpent — il fut donné à Minerve en signe de perspicacité et de prudence. D'où à Rome, devant la grande image de Minerve, à ses pieds gisait le Serpent, tout entier lové sur lui-même, ne levant que la tête derrière le bouclier qu'elle tenait au bras — comme le dit Servius, où Virgile relate que les deux serpents qui tuèrent Laocoon et ses fils allèrent droit au temple de Minerve et là se couchèrent aux pieds de la déesse, sous le bouclier. De la tunique qu'elle porte sur la cuirasse, Hérodote écrit que les Grecs prirent cette manière de se vêtir des femmes africaines qui habitent autour du marais Tritonien.\n\nElle [Méduse] était belle, et avait les cheveux d'or. D'où Neptune, épris d'elle, coucha avec elle dans le temple de Minerve ; et la déesse, grandement offensée et irritée de cela, fit que Méduse — qui auparavant avait été belle et agréable à voir — devînt en tout point terrible et effrayante, changeant ses cheveux d'or en hideux serpents, et voulut que quiconque la regarderait fût aussitôt changé en pierre. Mais comme le monde ne pouvait supporter un monstre si étrange, Persée la tua avec l'aide déjà mentionnée, et donna sa tête à Minerve, qui depuis la porta toujours sur son bouclier, ou sur la poitrine de sa cuirasse. Cela, Homère le montre aussi, quand il représente la déesse s'armant pour marcher contre les Troyens : il dit qu'elle est environnée d'une terrible Épouvante, et qu'outre la tête de Méduse s'y trouvent aussi l'audace hardie, la ferme constance et les menaces redoutables — qualités toutes propres à la déesse des guerres, comme l'est la Victoire elle-même. D'où Pausanias dit que les Athéniens la placèrent sur la poitrine avec la tête de Méduse, tandis que chez les Éléens elle se tenait à côté sans ailes. Tout cela montre la force du savoir et de la prudence, car celle-ci, par ses œuvres merveilleuses et ses sages conseils, frappe autrui d'étonnement, le faisant comme se pétrifier d'émerveillement, de sorte qu'elle obtient facilement ce qu'elle veut, pourvu qu'elle sache se présenter avec art — car par cette tête terrible est signifiée la langue. Elle était parfois couverte d'un beau manteau jeté sur la déesse, appelé par les anciens le Péplos — une sorte particulière de vêtement sans manches, utilisé sur les images des dieux, comme le dit Lactance en commentant Stace — blanc, et tout brodé d'étoiles d'or, que les matrones elles-mêmes faisaient de leurs mains et offraient tous les trois ans. Mais parce que ce fut une invention des Athéniens, pour qui Minerve était la divinité principale, le Péplos désignait le plus souvent ce grand vêtement ou manteau qui était offert à cette déesse tous les cinq ans avec une cérémonie des plus solennelles — bien que Suidas dise que ce n'était pas un vêtement, mais la voile d'un certain navire, qui au temps susdit était orné des plus beaux ornements en l'honneur de Minerve lors de ses fêtes ; et c'était aussi la coutume des anciens d'offrir le Péplos quand, dans quelque grand péril, ils voulaient implorer la faveur de la déesse. D'où Homère raconte qu'Hécube, sur le conseil de son fils Hélénus, accompagnée des plus nobles matrones, voyant les Troyens refoulés par les Grecs jusque dans les murs, rassemble parmi ses plus beaux et précieux vêtements un grand et riche Péplos et le porte au temple de Pallas, où il est offert par Théano, femme d'Anténor, femme alors tenue en la plus grande vénération parmi les Troyennes — et toutes ensemble prient la déesse de leur être favorable. Cela, Virgile l'imita aussi, dépeignant la guerre de Troie dans le temple de Junon à Carthage, disant..."
+      ],
+      "num": "114",
+      "img": [
+        "cartm_minervagorgon.jpg"
+      ],
+      "scans": [],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "textOnly": true,
+      "name_fr": "Minerva: lo scudo, l'hasta, il Peplo, e la fauola di Medusa",
+      "caption": "Minerva: lo scudo, l'hasta, il Peplo, e la fauola di Medusa"
+    },
+    {
+      "id": "cartm_jovegiants",
+      "page": "356",
+      "fr": "Imagine di Gioue fulminatore de i Giganti",
+      "ru": "Образ Юпитера, поражающего молнией Гигантов",
+      "en": "Image of Jove, hurler of thunder against the Giants",
+      "img": [
+        "cartm_jovegiants.jpg"
+      ],
+      "caption": "Imagine di Gioue fulminatore de i Giganti, che con le gambe loro di Serpe rappresentano gli empij sprezzatori di Dio, che non fanno mai cosa, che sia dritta nè giusta.",
+      "text_ru": [
+        "Образ Юпитера, поражающего молнией Гигантов, которые своими змеиными ногами представляют нечестивых презрителей Бога, никогда не совершающих ничего правого и справедливого."
+      ],
+      "text_en": [
+        "Image of Jove, hurler of thunder against the Giants, who with their serpent legs represent the impious despisers of God, who never do anything right or just."
+      ],
+      "text_fr": [
+        "Image de Jupiter, lanceur de foudre contre les Géants, qui par leurs jambes de serpent représentent les impies contempteurs de Dieu, ne faisant jamais rien de droit ni de juste."
+      ],
+      "num": "115",
+      "scans": [],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "name_fr": "Imagine di Gioue fulminatore de i Giganti"
+    },
+    {
+      "id": "cartm_vulcanmyth",
+      "page": "358",
+      "fr": "Vulcano: natura, fucina, & le sue fauole",
+      "ru": "Вулкан: природа, кузница и мифы о нём",
+      "en": "Vulcan: his nature, forge, and myths",
+      "text_ru": [
+        "...то, что остроумие изобразило. Это понимается как Минерва, а это — как Вулкан, то есть огонь. Ибо под именем Вулкана понимается огонь, который служит нам орудием для свершения всех вещей, потому что огонь греет и светит, а без света и тепла ничего нельзя сделать. Истинно и то, что искусство не всегда может осуществить всё, что находит остроумие, потому что оно связано с телом и не может от него отделиться, ни сделать больше, чем оно может; но остроумие часто его покидает и рассуждает по своему усмотрению, созерцая дела природы и то, что творит Бог, и порой воображает, что и само способно создать нечто подобное, чего, впрочем, никогда не видно в исполнении, ибо это суетные мечтания. Отсюда и возникла басня, что Вулкан никогда не мог соединиться с Минервой, хотя прилагал к тому все усилия, ведь Юпитер ему это позволил. Но древние, несмотря на это, нередко помещали изваяния обоих в одном храме. И Платон также соединяет их вместе, говоря в своём «Атлантике», что оба они равно божества Афин, ибо там равно процветали все искусства и изучение наук. Как читаем также о Нептуне и Минерве, что по повелению Юпитера они совместно правили Афинами. Поэтому афиняне чеканили на своих монетах с одной стороны голову Минервы, а с другой — Трезубец, знак Нептуна, которого также называли Царём, а Минерве давали имя Гражданской и Градской, ибо управлять городами подобает мирно и с благоразумием. Это нужно не менее и в частных домах, и потому на дверях их, как и на городских воротах, древние обыкновенно изображали Минерву, а Марса изображали вне, за городом, показывая тем самым, что войну следует держать как можно дальше. И поскольку римляне остерегались держать в городе тех божеств, о которых думали, что они заботятся о вредоносных делах, храм Беллоны и храм Марса у них находились за городом. Но был в городе и один из них, почитаемый как мирный, названный Квирином, как я уже писал в Фламине, и привёл причину того и другого. А о нём самом [Квирине] расскажу позже, после того как скажу о Вулкане, о котором читаем следующее у Евсевия. Говорят, Вулкан есть добродетель и сила огня, и делают его статую в виде человека с шапкой на голове лазоревого цвета — в знак вращения небес, а подле него находится истинный огонь, чистый и неподдельный: чего нельзя сказать о том огне, что есть у нас, ибо он сам собою не сохраняется, но непрестанно нуждается в новом веществе, которое бы его питало и поддерживало. И был представлен Вулкан хромым, ибо таким кажется пламя: ведь, горя, оно не идёт вверх по прямой, но изгибается и мечется туда-сюда, потому что оно не чисто и не легко, как огненный пар раскалённый, нисходящий из нижней части воздуха, самой плотной, густой и туманной. Когда Вулкан вырос и, памятуя об обиде, нанесённой ему матерью [Юноной], желая ей отомстить или помешать ей вредить — как он готовился поступить с Геркулесом, согласно тому, что Свида передаёт со слов Пиндара и Эпихарма, — послал ей в дар прекрасное позолоченное седалище, сделанное с таким искусством, что, едва она на него села, оказалась связанной так, что освободить её не было возможно, даже всем богам Неба. Тогда они стали искать способ привлечь его туда наверх, чтобы освободить Юнону, которой слишком претило оставаться так связанной; но он, никому из них не доверяя, не желал туда идти. Наконец он поверился одному лишь Вакху, который, быть может, напоил его как следует, и вместе с ним отправился на Небо освобождать Юнону от хитроумного седалища. Так передаёт Павсаний эти греческие басни и говорит, что среди прочих картин, бывших у афинян, была эта — изображающая Вакха, ведущего Вулкана на Небо развязывать Юнону; а у лакедемонян в храме Минервы равно находился и Вулкан, развязывающий свою мать. Изображают его также пребывающим в огромной пещере вместе с Циклопами у кузницы, куда ходили боги всякий раз, когда им было нужно какое-либо оружие, для себя самих или для других, — как к своему кузнецу, — как ходила к нему Фетида за оружием для Ахилла, своего сына, и так же было сделано на ларце Кипсела, по рассказу Павсания, который не даёт иного знака, что дающий оружие Фетиде — Вулкан, кроме того, что он хром. И при нём стоял один из его [слуг] с большими клещами в руке; а Венера равно получила от него оружие, которое затем отдала Энею. И когда поэты желают описать нечто великое, сделанное с большим искусством, говорят, что оно сделано либо самим Вулканом, либо циклопами в его кузнице. Эти вещи можно согласовать с тем, что, как исторически рассказывает Свида о нём, он был царём в Египте и почитался богом, ибо знал все тайны религии, был весьма воинственен, отчего, раненый в битве, остался хромым, и был первым, кто стал применять железо для изготовления оружия для войны и орудий для возделывания полей. Кроме того, сложены были басни, что Вулкан родился от Юноны: видя, что Юпитер родил детей без неё, она тоже пожелала родить без него и, по некоей силе цветка, показанного ей Флорой, как рассказывает Овидий, — или, как иные говорят, ударив рукою по земле, — зачала от Марса и родила его затем во Фракии, где народ чрезвычайно свиреп и легко склонен к войнам. Что показывает нам, что войны по большей части рождаются от желания обладать царствами и богатствами, обозначенными через Юнону. Марс был сделан древними свирепым и грозным видом, весь вооружённый, с копьём в руке и с бичом, и помещали его порой верхом на коне, порой на колеснице, и особенно поэты, почти все, начиная с Гомера, который говорит, что колесница его влекома двумя конями, коими являются Ужас (Terrore) и Трепет (Tema). А в другом месте представляет, что это не кони, а люди, которые всегда сопровождают Марса, и что с ним же идут равно Стремительность (Impeto), Неистовство (Furore) и Насилие (Violenza). Подражая этому, Стаций, когда заставляет Марса идти сеять войну между двумя братьями Этеоклом и Полиником за царство Фиванское, описав прежде оружие этого бога — а именно: сияющий шлем, казавшийся горящим, как если бы молния была его гребнем, позолоченный панцирь, весь полный страшных и ужасающих чудовищ, и сверкающий щит, блистающий кровавым светом, — говорит, что вокруг него находятся, украшая его голову, Неистовство и Гнев, а Ужас правит поводьями коней, и что перед всем этим летит, потрясая крыльями, Молва (Fama), приносящая не менее ложного, чем истинного, ибо она есть некий слух, зарождающийся из малого начала и возрастающий затем настолько, что наполняет собою города и страны; оттого Гомером она названа вестницей и посланницей Юпитера. Сделали древние Молву также богиней и изобразили её в виде женщины, одетой в тонкую ткань и всю подпоясанную, что являет вид стремительно бегущей, со звучащей трубой у уст. И чтобы лучше показать её быстроту, прибавили ей крылья и сделали её всю покрытой глазами, как описывает её Вергилий, называя её ужасным чудовищем и представляя её всю оперённой, и что сколько у неё перьев, столько же бдительных и всегда открытых глаз, и столько же уст со столькими же языками, никогда не умолкающими, и столько же ушей, всегда напряжённо внимающих; и говорит, что она летает всю ночь напролёт, никогда не спит, а днём садится на высокие башни, откуда устрашает несчастных смертных, принося им по большей части дурные вести. Тем не менее, поскольку порой она приносит и добрые вести, было сказано, что Молва не одна, а две; и доброй называли ту, что возвещала благо, а злой — ту, что несла зло; и эта, в отличие от первой, имела чёрные крылья, отчего Клавдиан, писавший против Алариха, говорит, что Молва распростёрла свои чёрные крылья, которые некоторые уподобляют крыльям летучей мыши. Летит Молва впереди колесницы Марса..."
+      ],
+      "text_en": [
+        "...that which wit has devised. The one is understood as Minerva, the other as Vulcan, that is, as fire. For under the name of Vulcan is understood fire, which serves us as an instrument for doing all things, because fire warms and gives light, and lacking light and heat nothing can be done. It is also true that art cannot always bring into effect everything that wit discovers, because art is bound to the body and cannot depart from it, nor do more than the body allows; but wit often leaves the body behind and reasons at its own pleasure, considering the works of nature and what God does, and sometimes imagines that it too could make similar things, of which, however, no effect is ever seen, for these are vain imaginings. Hence arose the fable that Vulcan could never unite with Minerva, though he made every effort to do so, Jove having granted him leave; yet the ancients nonetheless often placed the images of both in the same temple. Plato too joins them together, saying in his Atlanticus that both are equally deities of Athens, for there all the arts and the study of the sciences equally flourished. As we also read of Neptune and Minerva, that by Jove's order they together governed Athens. For this the Athenians stamped on their coins, on one side, the head of Minerva, and on the other, the Trident, the sign of Neptune, whom they also called King, while to Minerva they gave the name Civil and Urban, since it befits one to govern cities peacefully and with prudence. This is no less needful in private households, and therefore on their doors, as upon the gates of the city, the ancients were accustomed to depict Minerva, while Mars they painted outside, beyond the villages, thereby showing that war ought to be kept as far away as possible. And because the Romans were wary of keeping within the city those deities whom they thought concerned with harmful matters, the temple of Bellona and that of Mars were situated outside the city. Yet one such god was within the city, worshipped as peaceful, named Quirinus, as I already wrote in the Flavius, where I gave the reason for both. Of him I shall speak later, after having spoken of Vulcan, of whom we read the following in Eusebius. They say Vulcan is the virtue and power of fire, and they make his statue in the form of a man with a cap of sky-blue colour upon his head, in sign of the turning of the heavens, and beside him is true fire, pure and genuine — which cannot be said of the fire that we have, for it does not sustain itself, but continually needs fresh matter to feed and maintain it. And Vulcan was represented as lame, because such flame appears to be: for, burning, it does not rise straight upward, but bends and darts about here and there, because it is not pure nor light, like the fiery, heated vapour that descends from the lower part of the air, which is the thickest, densest, and mistiest. When Vulcan had grown up, and, remembering the wrong done him by his mother [Juno], wishing to avenge himself upon her or to prevent her from doing harm — as he was preparing to do against Hercules, according to what Suidas relates from Pindar and Epicharmus — he sent her as a gift a beautiful gilded seat, made with such art that, as soon as she sat upon it, she found herself bound in such a way that it was not possible to free her, even by all the gods of Heaven. Then they sought a way to draw him up there to free Juno, who found it most irksome to remain so bound; but he, trusting none of them, refused to go. At last he trusted Bacchus alone, who perhaps got him thoroughly drunk, and together with him went up to Heaven to free Juno from the ingenious seat. Thus Pausanias relates these Greek fables, and says that among the other paintings possessed by the Athenians was this one, depicting Bacchus leading Vulcan up to Heaven to untie Juno; and among the Lacedaemonians, in the temple of Minerva, Vulcan likewise was found, untying his mother. He is also depicted as dwelling in a vast cave together with the Cyclopes at the forge, to which the gods went whenever they needed some weapon, for themselves or for others — as to their own smith — just as Thetis went to him for weapons for Achilles her son, and likewise it was done on the chest of Cypselus, according to Pausanias, who gives no other sign that it is Vulcan giving the weapons to Thetis than that he is lame. And beside him stood one of his assistants with great tongs in hand; and Venus too received weapons from him, which she then gave to Aeneas. And when poets wish to describe something great, made with great skill, they say it was made either by Vulcan himself or by the Cyclopes at his forge. These things may be reconciled with what Suidas relates historically of him, that he was a king in Egypt and was worshipped as a god, for he knew all the secrets of religion, was very warlike, whence, wounded in battle, he remained lame, and was the first to use iron for making weapons of war and tools for tilling the fields. Fables were also devised that Vulcan was born of Juno: seeing that Jove had had children without her, she too wished to bear a child without him, and by a certain power of a flower shown to her by Flora, as Ovid relates — or, as some others say, by striking the earth with her hand — she conceived by Mars and afterward bore him in Thrace, where the people are exceedingly fierce and readily inclined to wars. This shows us that wars for the most part are born of the desire to possess kingdoms and riches, signified through Juno. Mars was made by the ancients fierce and terrible in appearance, fully armed, with a spear in hand and with a scourge, and they placed him sometimes mounted on a horse, sometimes on a chariot, and especially the poets, almost all of them, beginning with Homer, who says that his chariot is drawn by two horses, which are Terror and Dread. And elsewhere he represents these not as horses but as persons who always accompany Mars, and that with him likewise go Onslaught, Fury, and Violence. Imitating this, Statius, when he makes Mars go to sow war between the two brothers Eteocles and Polynices over the kingdom of Thebes, having first described the weapons of this god — namely: the shining helmet, which seemed to burn, as though lightning were its crest, the gilded breastplate, all full of dreadful and terrifying monsters, and the gleaming shield, glittering with bloody light — says that around him, adorning his head, are Fury and Wrath, while Terror governs the reins of the horses, and that before all this flies, shaking its wings, Fame, bringing no less falsehood than truth, for she is a kind of rumour, arising from a small beginning and afterward growing so great that it fills whole cities and countries; whence she is called by Homer the messenger and envoy of Jove. The ancients also made Fame a goddess, and depicted her in the form of a woman, dressed in fine cloth and wholly girded, appearing as though running swiftly, with a resounding trumpet at her lips. And to better show her swiftness, they added wings to her and made her entirely covered with eyes, as Virgil describes her, calling her a dreadful monster and representing her as wholly feathered, and that as many feathers as she has, so many watchful and ever-open eyes she has, and as many mouths with as many tongues, never silent, and as many ears, always intently listening; and he says that she flies all night long, never sleeping, and by day perches upon high towers, whence she terrifies wretched mortals, bringing them for the most part evil tidings. Nevertheless, since at times she also brings good tidings, it was said that Fame is not one but two; and the good one was called that which announced good, and the evil one that which bore evil; and this latter, unlike the first, had black wings, whence Claudian, writing against Alaric, says that Fame spread her black wings, which some liken to the wings of a bat. Fame flies before the chariot of Mars..."
+      ],
+      "text_fr": [
+        "...ce que l'esprit a conçu. L'une s'entend pour Minerve, l'autre pour Vulcain, c'est-à-dire pour le feu. Car sous le nom de Vulcain on entend le feu, qui nous sert d'instrument pour faire toutes choses, parce que le feu chauffe et resplendit, et qu'à défaut de lumière et de chaleur rien ne peut se faire. Il est bien vrai aussi que l'art ne peut pas toujours mettre en effet tout ce que trouve l'esprit, car celui-ci est lié au corps et ne peut s'en séparer, ni faire plus qu'il ne peut ; mais l'esprit le quitte souvent, et discourt à son gré en considérant les œuvres de la nature et ce que fait Dieu, et s'imagine parfois de pouvoir faire lui aussi des choses semblables, dont on ne voit cependant jamais aucun effet, car ce sont des imaginations vaines. D'où fut forgée la fable que Vulcain ne put jamais s'unir à Minerve, bien qu'il en fît tout son effort, Jupiter le lui ayant pourtant accordé. Mais les anciens, malgré cela, placèrent souvent les simulacres des deux dans un même temple. Et Platon aussi les met ensemble, disant dans son Atlanticus que tous deux sont également les divinités d'Athènes, car là fleurissaient également tous les arts et l'étude des sciences. Comme on lit aussi de Neptune et de Minerve, que par l'ordre de Jupiter ils gouvernèrent ensemble Athènes. C'est pourquoi les Athéniens frappaient sur leurs monnaies, d'un côté la tête de Minerve, et de l'autre le Trident, insigne de Neptune, qu'ils appelaient aussi Roi, et à Minerve ils donnaient le nom de Civile et d'Urbaine, car il convient de gouverner les cités pacifiquement et avec prudence. Cela n'est pas moins nécessaire dans les maisons privées, et c'est pourquoi sur leurs portes, comme sur celles de la ville, les anciens avaient coutume de peindre Minerve, tandis qu'ils peignaient Mars dehors, hors des villages, montrant par là qu'il faut tenir la guerre aussi éloignée que possible. Et parce que les Romains se gardaient de tenir dans la ville ces divinités dont ils pensaient qu'elles s'occupaient de choses nuisibles, le temple de Bellone et celui de Mars se trouvaient hors de la ville. Mais il y en eut un à l'intérieur, honoré comme pacifique, nommé Quirinus, comme je l'ai déjà écrit dans le Flavius, où j'en ai donné la raison des deux. Et de lui je parlerai plus tard, après avoir parlé de Vulcain, duquel on lit ce qui suit chez Eusèbe. On dit que Vulcain est la vertu et la puissance du feu, et l'on fait sa statue en forme d'homme avec un bonnet de couleur azurée sur la tête, en signe de la révolution des cieux, et auprès de lui se trouve le vrai feu, pur et sincère : ce qu'on ne peut dire de celui que nous avons, car il ne se maintient pas de lui-même, mais a continuellement besoin de matière nouvelle qui le nourrisse et l'entretienne. Et Vulcain fut représenté boiteux, car telle paraît être la flamme : car, en brûlant, elle ne monte pas tout droit, mais se tord et se démène çà et là, parce qu'elle n'est pas pure ni légère, comme la vapeur ignée et embrasée qui descend de la partie inférieure de l'air, la plus épaisse, la plus dense et la plus brumeuse. Quand Vulcain eut grandi, et, se souvenant du tort que lui avait fait sa mère [Junon], voulant se venger d'elle ou l'empêcher de nuire — comme il s'apprêtait à le faire contre Hercule, selon ce que rapporte Suidas d'après Pindare et Épicharme — il lui envoya en présent un beau siège doré, fait avec un tel art que, dès qu'elle s'y assit, elle se trouva liée de telle sorte qu'il n'était possible de la délivrer, même à tous les dieux du Ciel. Alors ils cherchèrent le moyen de l'attirer là-haut pour délivrer Junon, à qui il pesait trop de rester ainsi liée ; mais lui, ne se fiant à aucun d'eux, ne voulut jamais y aller. Enfin il ne se fia qu'à Bacchus seul, qui peut-être l'enivra bien, et avec lui monta au Ciel délivrer Junon de l'ingénieux siège. Ainsi Pausanias rapporte ces fables grecques, et dit que parmi les autres peintures que possédaient les Athéniens se trouvait celle-ci, représentant Bacchus menant Vulcain au Ciel pour délier Junon ; et chez les Lacédémoniens, dans le temple de Minerve, se trouvait également Vulcain, déliant sa mère. On le représente aussi demeurant dans une vaste caverne avec les Cyclopes à la forge, où allaient les dieux chaque fois qu'il leur fallait quelque arme, pour eux-mêmes ou pour d'autres — comme à leur propre forgeron — ainsi qu'y alla Thétis chercher des armes pour Achille son fils, et il en fut fait de même sur le coffre de Cypsélos, selon le récit de Pausanias, qui ne donne d'autre signe que celui qui donne les armes à Thétis soit Vulcain, sinon qu'il est boiteux. Et près de lui se tenait l'un des siens avec de grandes tenailles à la main ; et Vénus aussi reçut de lui des armes, qu'elle donna ensuite à Énée. Et quand les poètes veulent décrire quelque chose de grand, fait avec grand art, ils disent que cela fut fait soit par Vulcain lui-même, soit par les Cyclopes à sa forge. Ces choses peuvent s'accorder avec ce que Suidas rapporte historiquement de lui, qu'il fut roi en Égypte et fut adoré comme dieu, car il connaissait tous les secrets de la religion, fut très belliqueux, d'où, blessé en bataille, il resta boiteux, et fut le premier à employer le fer pour fabriquer des armes de guerre et des outils pour cultiver les champs. On forgea aussi des fables selon lesquelles Vulcain naquit de Junon : voyant que Jupiter avait eu des enfants sans elle, elle voulut elle aussi en avoir sans lui, et par une certaine vertu d'une fleur que lui montra Flore, comme le raconte Ovide — ou, comme d'autres le disent, en frappant la terre de sa main — elle conçut de Mars et l'enfanta ensuite en Thrace, où le peuple est extrêmement féroce et porté facilement aux guerres. Ce qui nous montre que les guerres naissent pour la plupart du désir de posséder des royaumes et des richesses, signifiés par Junon. Mars fut fait par les anciens féroce et terrible d'aspect, tout armé, avec une lance à la main et un fouet, et on le plaçait tantôt à cheval, tantôt sur un char, et surtout les poètes, presque tous, à commencer par Homère, qui dit que son char est tiré par deux chevaux, qui sont la Terreur et l'Effroi. Et ailleurs il représente que ce ne sont plus des chevaux, mais des personnes, qui accompagnent toujours Mars, et qu'avec lui vont également l'Impétuosité, la Fureur et la Violence. Imitant cela, Stace, quand il fait aller Mars semer la guerre entre les deux frères Étéocle et Polynice pour le royaume de Thèbes, ayant d'abord décrit les armes de ce dieu — à savoir : le casque brillant, qui semblait brûler, comme si la foudre en était le cimier, la cuirasse dorée, toute pleine de monstres terribles et effrayants, et le bouclier étincelant, resplendissant d'une lumière sanglante — dit qu'autour de lui, ornant sa tête, se trouvent la Fureur et la Colère, et que la Terreur gouverne les rênes des chevaux, et que devant tout cela vole, battant des ailes, la Renommée, n'apportant pas moins de faux que de vrai, car elle est une sorte de rumeur, née d'un petit commencement et croissant ensuite au point de remplir villes et pays ; d'où elle est appelée par Homère la messagère et l'envoyée de Jupiter. Les anciens firent aussi de la Renommée une déesse, et la représentèrent sous la forme d'une femme, vêtue d'un tissu fin et toute ceinte, paraissant courir avec vélocité, une trompette résonnante aux lèvres. Et pour mieux montrer sa rapidité, ils lui ajoutèrent des ailes et la firent toute couverte d'yeux, comme la décrit Virgile, l'appelant monstre effroyable et la représentant toute empennée, et que, autant elle a de plumes, autant elle a d'yeux vigilants et toujours ouverts, et autant de bouches avec autant de langues, ne se taisant jamais, et autant d'oreilles, toujours tendues à écouter ; et il dit qu'elle vole toute la nuit, ne dormant jamais, et le jour se pose sur les hautes tours, d'où elle épouvante les malheureux mortels, leur apportant le plus souvent de mauvaises nouvelles. Néanmoins, comme parfois elle apporte aussi de bonnes nouvelles, on a dit que la Renommée n'est pas une seule, mais deux ; et l'on appelait bonne celle qui annonçait le bien, et mauvaise celle qui portait le mal ; et celle-ci, à la différence de la première, avait les ailes noires, d'où Claudien, écrivant contre Alaric, dit que la Renommée déploya ses ailes noires, que d'aucuns comparent aux ailes de la chauve-souris. La Renommée vole devant le char de Mars..."
+      ],
+      "num": "116",
+      "img": [
+        "cartm_vulcanmyth.jpg"
+      ],
+      "scans": [],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "textOnly": true,
+      "name_fr": "Vulcano: natura, fucina, & le sue fauole",
+      "caption": "Vulcano: natura, fucina, & le sue fauole"
+    },
+    {
+      "id": "cartm_vulcan",
+      "page": "360",
+      "fr": "Imagine di Vulcano Dio del Fuoco con la sua fucina",
+      "ru": "Образ Вулкана, бога огня, с его кузницей",
+      "en": "Image of Vulcan, god of fire, with his forge",
+      "img": [
+        "cartm_vulcan.jpg"
+      ],
+      "caption": "Imagine di Vulcano Dio del Fuoco con la sua fucina, & li Ciclopi, che fabricauano li strali à Gioue & l'armi alli Dei & à gli heroi. E tolto Vulcano ancora per il calore naturale & generatiuo.",
+      "text_ru": [
+        "Образ Вулкана, бога огня, с его кузницей и циклопами, ковавшими стрелы для Юпитера и оружие для богов и героев. Вулканом также обозначают природную, порождающую теплоту."
+      ],
+      "text_en": [
+        "Image of Vulcan, god of fire, with his forge and the Cyclopes, who forged thunderbolts for Jove and weapons for the gods and heroes. Vulcan is also taken for natural, generative heat."
+      ],
+      "text_fr": [
+        "Image de Vulcain, dieu du Feu, avec sa forge et les Cyclopes, qui forgeaient les traits de Jupiter et les armes des dieux et des héros. Vulcain est aussi pris pour la chaleur naturelle et génératrice."
+      ],
+      "num": "117",
+      "scans": [],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "name_fr": "Imagine di Vulcano Dio del Fuoco con la sua fucina"
+    },
+    {
+      "id": "cartm_marschariot",
+      "page": "363",
+      "fr": "Imagine di Marte Dio della guerra, del suo carro",
+      "ru": "Образ Марса, бога войны, на колеснице",
+      "en": "Image of Mars, god of war, on his chariot",
+      "img": [
+        "cartm_marschariot.jpg"
+      ],
+      "caption": "Imagine di Marte Dio della guerra, del suo carro, & della Fama sua messaggiera & anticipatrice, che più dice di quello è in effetto. Et per Marte vien inteso quell'ardor del Sole, che accende il sangue & li spiriti per farli poi facili alle ire, guerre, & furori.",
+      "text_ru": [
+        "Образ Марса, бога войны, его колесницы, и Молвы (Фамы), его вестницы и предвозвестницы, которая всегда говорит больше, чем есть на самом деле. А под Марсом понимается тот жар Солнца, который воспламеняет кровь и дух, делая их легко склонными к гневу, войнам и неистовству."
+      ],
+      "text_en": [
+        "Image of Mars, god of war, of his chariot, and of Fame, his messenger and forerunner, who always says more than is actually true. And by Mars is understood that ardour of the Sun which inflames the blood and the spirits, making them thereafter prone to wrath, wars, and furies."
+      ],
+      "text_fr": [
+        "Image de Mars, dieu de la guerre, de son char, et de la Renommée, sa messagère et avant-courrière, qui dit toujours plus qu'il n'en est en effet. Et par Mars on entend cette ardeur du Soleil qui enflamme le sang et les esprits, les rendant ensuite enclins aux colères, aux guerres et aux fureurs."
+      ],
+      "num": "118",
+      "scans": [],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "name_fr": "Imagine di Marte Dio della guerra, del suo carro"
+    },
+    {
+      "id": "cartm_furore",
+      "page": "365",
+      "fr": "Imagine del Furore, & dell'Ira",
+      "ru": "Образ Неистовства и Гнева",
+      "en": "Image of Fury and of Wrath",
+      "img": [
+        "cartm_furore.jpg"
+      ],
+      "caption": "Imagine del Furore, & dell'Ira, & de suoi mali effetti, che sono sprezzar ogni pericolo, benche manifesto di morte & perdita d'honore non riguardando nè à Dio, nè à gl'huomini, nè ad amici ò consanguinei, nè pur al proprio interesse; perdendo il furioso & iracondo la ragione nel furore & nell'ira.",
+      "text_ru": [
+        "Образ Неистовства и Гнева, и их пагубных последствий — презрения ко всякой опасности, даже явно грозящей смертью и потерей чести, не считаясь ни с Богом, ни с людьми, ни с друзьями или родственниками, ни даже с собственной выгодой; ибо неистовый и гневливый теряет разум в неистовстве и гневе."
+      ],
+      "text_en": [
+        "Image of Fury and of Wrath, and of their evil effects, which are to despise every danger, even one manifestly bringing death and loss of honour, having regard neither for God, nor for men, nor for friends or kinsmen, nor even for one's own interest; for the furious and wrathful man loses reason in his fury and his wrath."
+      ],
+      "text_fr": [
+        "Image de la Fureur et de la Colère, et de leurs mauvais effets, qui sont de mépriser tout danger, fût-il manifestement mortel et ruineux pour l'honneur, sans égard ni pour Dieu, ni pour les hommes, ni pour les amis ou les proches, ni même pour son propre intérêt ; car le furieux et le colérique perdent la raison dans la fureur et dans la colère."
+      ],
+      "num": "119",
+      "scans": [],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "name_fr": "Imagine del Furore, & dell'Ira"
+    },
+    {
+      "id": "cartm_marsnature",
+      "page": "366",
+      "fr": "Marte: la natura della Guerra, la Discordia, e la sua casa",
+      "ru": "Марс: природа войны, Раздор и его обиталище",
+      "en": "Mars: the nature of war, Discord, and his dwelling",
+      "text_ru": [
+        "...ибо при начале войн чаще говорят о том, что за ними последует, хотя сердца с обеих сторон бывают охвачены тягчайшим гневом; ведь редко приходят к жестоким битвам без него. Сенека пишет, что гнев кажется обладающим большей силой в нас, чем многие иные страсти, нас волнующие, ибо не только совращает душу с прямого пути разума, но часто изменяет и само тело. И потому говорят Овидий и равно Сенека, что лицо разгневанных всё вздувается, и глаза их словно воспламеняются, так что разгневанный человек становится страшен и являет собою зрелище не менее пугающее, чем ужасный лик Медузы. Этот краткий набросок я сделал о разгневанном человеке, ибо не нахожу, чтобы древние создали какое-либо изображение самого Гнева, дабы желающий мог по нему составить его портрет, — Гнев, называемый также Неистовством (Furore), который есть не что иное, как воспламенённый и возгоревшийся Гнев.\n\nИзображали его древние страшным в лице, почти окровавленным, скрежещущим зубами, сидящим на панцирях, шлемах, щитах, мечах и иных доспехах, с руками, связанными за спиною крепкими цепями, — так описывает его Вергилий, представляя, что он заключён за вратами войны, которые были вратами храма Януса, как я уже говорил, затворявшимися во время мира и отворявшимися во время войны. Представляли его также развязанным, как видно по описанию Петрония, где он начинает писать о гражданской войне. Но возвращаясь к Марсу: некоторые дали его колеснице четырёх коней, столь грозных и свирепых, что они дышали огнём. А Исидор пишет, что Марса иногда изображали с обнажённой грудью, ибо всякий, кто идёт на битву, должен идти с душою, готовой смело подвергнуть себя всем опасностям. У Геродота читаем, что скифы поклонялись многим богам, но не воздвигали ни храмов, ни алтарей никому, кроме Марса, хотя и приносили жертвы всем одинаковым образом, — обряд, который, думаю, заслуживает быть здесь приведённым, ибо таков он был: жертва стояла со связанными передними ногами, а жрец подходил к ней сзади, дёргал её за голову, и когда она падала, призывал того бога, которому приносил жертву; затем накидывал ей на шею петлю и, обвив её палкой, душил её, а освежевав, варил на огне, разведённом из костей самого животного, предварительно сняв с него всё мясо, ибо в Скифии большой недостаток дров, а если порой у них не было котлов, то клали мясо вместе с водою прямо в желудок животного и там его варили, так что сама жертва становилась сосудом для самой себя и варилась в самой себе. Совершив это, жрец приносил жертву тому богу, которому она предназначалась. И среди прочих животных, которых приносили в жертву эти народы, конь был главной жертвой, особенно же Марсу, чей храм был устроен у скифов таким-то образом..."
+      ],
+      "text_en": [
+        "...for at the outset of wars it is often said more about what will follow than is the case, although hearts on both sides are inflamed with the gravest wrath; for rarely do men come to fierce battles without it. Seneca writes that wrath seems to possess greater force in us than many of the other passions that trouble us, for it not only diverts the mind from the straight path of reason but often also changes the body itself. And therefore Ovid, and likewise Seneca, say that the faces of the wrathful all swell up, and their eyes seem to catch fire, so that the wrathful man becomes terrible and presents a sight no less frightening than the dreadful face of Medusa. This brief sketch I have made of the wrathful person, for I do not find that the ancients made any image of Wrath itself, so that whoever wished might make a portrait of it — Wrath, also called Fury, which is nothing other than wrath inflamed and set ablaze.\n\nThe ancients depicted him terrible of face, almost bloodied, gnashing his teeth, seated upon breastplates, helmets, shields, swords, and other armour, his hands bound behind his back with strong chains — thus Virgil describes him, representing him as shut behind the gates of war, which were the gates of the temple of Janus, as I have already said, closed in time of peace and opened in time of war. He was also represented unbound, as appears from the description of Petronius, where he begins to write of the civil war. But returning to Mars: some gave his chariot four horses, so terrible and fierce that they breathed fire. And Isidore writes that Mars was sometimes depicted with bare chest, for whoever goes to battle ought to go with a mind ready to boldly expose itself to every danger. In Herodotus we read that the Scythians worshipped many gods, but raised neither temples nor altars to any save Mars, though they sacrificed to all in the same manner — a rite which I think deserves to be set down here, for it was thus: the victim stood with its forelegs bound, and the priest approached it from behind, pulled it by the head, and when it fell he called upon the god to whom he was sacrificing; then he cast a noose about its neck and, twisting it with a stick, strangled it, and having skinned it, boiled it over a fire made from the bones of the animal itself, having first stripped away all the flesh, for in Scythia there is a great scarcity of firewood, and if at times they had no cauldrons, they placed the meat together with water directly into the belly of the animal and boiled it there, so that the victim itself became a vessel for itself and was cooked within itself. Having done this, the priest offered the sacrifice to the god for whom it was intended. And among the other animals which these peoples sacrificed, the horse was the chief victim, especially to Mars, whose temple was made among the Scythians in such a manner..."
+      ],
+      "text_fr": [
+        "...car au commencement des guerres on dit souvent davantage de ce qui s'ensuivra qu'il n'en est en réalité, bien que les cœurs des deux côtés soient enflammés d'une très grave colère ; car rarement en vient-on à de cruelles batailles sans elle. Sénèque écrit que la colère semble posséder en nous plus de force que beaucoup d'autres passions qui nous troublent, car elle ne détourne pas seulement l'âme du droit chemin de la raison, mais change souvent aussi le corps lui-même. Et c'est pourquoi Ovide, et de même Sénèque, disent que le visage des gens en colère s'enfle tout entier, et que leurs yeux semblent s'enflammer, de sorte que l'homme en colère devient terrible et offre un spectacle non moins effrayant que l'horrible visage de Méduse. Ce bref croquis, je l'ai fait de la personne en colère, car je ne trouve pas que les anciens aient fait aucune image de la Colère elle-même, afin que qui le voudrait pût en faire le portrait — la Colère, aussi appelée Fureur, qui n'est autre que la colère enflammée et embrasée.\n\nLes anciens le représentaient terrible de visage, presque ensanglanté, grinçant des dents, assis sur des cuirasses, des casques, des boucliers, des épées et autres armures, les mains liées derrière le dos par de fortes chaînes — ainsi Virgile le décrit, le représentant enfermé derrière les portes de la guerre, qui étaient les portes du temple de Janus, comme je l'ai déjà dit, fermées en temps de paix et ouvertes en temps de guerre. On le représenta aussi délié, comme il appert de la description de Pétrone, où il commence à écrire sur la guerre civile. Mais pour en revenir à Mars : certains donnèrent à son char quatre chevaux, si terribles et si féroces qu'ils soufflaient le feu. Et Isidore écrit que Mars était parfois représenté la poitrine nue, car quiconque va au combat doit y aller l'esprit prêt à s'exposer hardiment à tous les dangers. On lit chez Hérodote que les Scythes adoraient de nombreux dieux, mais n'élevèrent ni temples ni autels à aucun sinon à Mars, bien qu'ils sacrifiassent à tous de la même manière — rite que je crois digne d'être rapporté ici, car il était ainsi : la victime se tenait les pattes avant liées, et le prêtre s'approchait d'elle par-derrière, la tirait par la tête, et quand elle tombait, il invoquait le dieu auquel il sacrifiait ; puis il lui mettait un lacet au cou et, le tordant avec un bâton, l'étranglait, et, l'ayant dépecée, la faisait bouillir sur un feu fait des os de l'animal lui-même, après en avoir d'abord ôté toute la chair, car en Scythie le bois manque grandement, et si parfois ils n'avaient pas de chaudrons, ils mettaient la viande avec l'eau directement dans le ventre de l'animal et l'y faisaient bouillir, de sorte que la victime elle-même devenait un récipient pour elle-même et cuisait en elle-même. Cela fait, le prêtre offrait le sacrifice au dieu auquel il était destiné. Et parmi les autres animaux que ces peuples sacrifiaient, le cheval était la victime principale, surtout pour Mars, dont le temple était fait chez les Scythes de telle manière..."
+      ],
+      "num": "120",
+      "img": [
+        "cartm_marsnature.jpg"
+      ],
+      "scans": [],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "textOnly": true,
+      "name_fr": "Marte: la natura della Guerra, la Discordia, e la sua casa",
+      "caption": "Marte: la natura della Guerra, la Discordia, e la sua casa"
+    },
+    {
+      "id": "cartm_marstemple",
+      "page": "367",
+      "fr": "Imagine del Tempio di Marte Dio della guerra",
+      "ru": "Образ Храма Марса, бога войны",
+      "en": "Image of the Temple of Mars, god of war",
+      "img": [
+        "cartm_marstemple.jpg"
+      ],
+      "caption": "Imagine del Tempio di Marte Dio della guerra, che era così fatto appo li Scithi, & della figura di Marte appo quelli d'Arabia petrea, inteso per il Sole ancora, & per la forza di quello in tutte le attioni humane.",
+      "text_ru": [
+        "Образ Храма Марса, бога войны, каким он был устроен у скифов, и образ Марса у жителей Каменистой Аравии, понимаемого также как Солнце и его сила во всех человеческих деяниях."
+      ],
+      "text_en": [
+        "Image of the Temple of Mars, god of war, as it was made among the Scythians, and of the figure of Mars among those of Arabia Petraea, understood also as the Sun, and as its power in all human actions."
+      ],
+      "text_fr": [
+        "Image du Temple de Mars, dieu de la guerre, tel qu'il était fait chez les Scythes, et de la figure de Mars chez ceux d'Arabie pétrée, entendu aussi comme le Soleil, et sa force dans toutes les actions humaines."
+      ],
+      "num": "121",
+      "scans": [],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "name_fr": "Imagine del Tempio di Marte Dio della guerra"
+    },
+    {
+      "id": "cartm_discordia",
+      "page": "369",
+      "fr": "Imagine della Discordia secondo Aristide",
+      "ru": "Образ Раздора по Аристиду",
+      "en": "Image of Discord according to Aristides",
+      "img": [
+        "cartm_discordia.jpg"
+      ],
+      "caption": "Imagine della Discordia secondo Aristide, la quale per li suoi mali effetti fù cacciata dal Cielo, nè fù inuitata con gli altri Dei alle nozze di Peleo e Tetide genitori d'Achille, acciò con suoi veneni non le turbasse; e pur le turbò co'l gettar del pomo d'oro significante, che alli machinatori non mancano occasioni di discordie.",
+      "text_ru": [
+        "Образ Раздора по Аристиду, который за свои пагубные действия был изгнан с Небес и не был приглашён вместе с прочими богами на свадьбу Пелея и Фетиды, родителей Ахилла, дабы он своим ядом не нарушил торжества; и всё же нарушил его, бросив золотое яблоко — что означает, что у злоумышленников никогда не бывает недостатка в поводах для раздора."
+      ],
+      "text_en": [
+        "Image of Discord according to Aristides, who for her evil effects was driven out of Heaven, and was not invited together with the other gods to the wedding of Peleus and Thetis, parents of Achilles, so that she might not disturb it with her poisons; and yet she disturbed it by throwing the golden apple, signifying that schemers never lack occasions for discord."
+      ],
+      "text_fr": [
+        "Image de la Discorde selon Aristide, laquelle, pour ses funestes effets, fut chassée du Ciel et ne fut pas invitée avec les autres dieux aux noces de Pélée et de Thétis, parents d'Achille, afin qu'elle ne les troublât pas de ses poisons ; et pourtant elle les troubla en jetant la pomme d'or, signifiant qu'aux fauteurs de troubles les occasions de discorde ne manquent jamais."
+      ],
+      "num": "122",
+      "scans": [],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "name_fr": "Imagine della Discordia secondo Aristide"
+    },
+    {
+      "id": "cartm_victorydiscordia",
+      "page": "370",
+      "fr": "La Vittoria, la Discordia, e la casa di Marte",
+      "ru": "Победа, Раздор и обиталище Марса",
+      "en": "Victory, Discord, and the house of Mars",
+      "text_ru": [
+        "...по закону справедливости, трибун из плебеев, дерзнувший его назвать. Поэтому, раз священные законы не всегда полностью соблюдаются каждым, древние держали некоторых богов связанными, чтобы те от них не уходили, как сообщает Квинт Курций, что жители Тира в Финикии связали золотыми цепями изваяние Аполлона, одного из главных своих богов, и приковали его к алтарю Геркулеса, которому был вверен город, — дабы тот его удерживал и не дал ему уйти, ибо некий горожанин сказал, что видел во сне, как бог покидал город и уходил прочь, в то время как Александр осаждал его, желая его взять. На что, кажется, похоже и то, что делали афиняне, держа Победу без крыльев, как читаем у Павсания, чтобы она не улетела от них прочь; и была она такой, как говорит Гелиодор, с гранатом в правой руке и шлемом в левой. А римляне, чтобы она охотнее оставалась с ними, дали ей в качестве седалища Капитолий (как пишет Ливий) и посвятили ей храм Юпитера Наилучшего Величайшего, когда Гиерон, после поражения, которое карфагеняне нанесли им при Каннах, послал им в дар золотую Победу вместе с иными дарами большой ценности, которые они все отослали обратно, удержав лишь изваяние Победы как доброе предзнаменование. Делали её древние по большей части с крыльями, в виде прекрасной Девы, летящей по воздуху, подносящей одной рукой венок из лавра или белой оливы, а в другой держащей ветвь пальмы, как видно на древних медалях и на древних мраморах, а порою видим её с одним лишь венком, порою же с одной лишь пальмовой ветвью. Делали её часто римляне с веткою лавра в руке, ибо имели этот знак также единственным знаком Победы, и присоединяли его к тем письмам, что приносили добрые вести, и, радуясь какой-либо победе, шли класть листья в лоно Юпитера Наилучшего Величайшего, а достойнейшие полководцы, торжествуя, делали из него себе венец. Египтяне в своих священных письменах изображали Победу с Орлом, ибо тот превосходит доблестью всех прочих птиц, откуда, быть может, произошло то, что среди всех прочих знамён, которые римляне носили на войну на своих знамёнах, Орёл был главным и наиболее употребительным, ибо читаем, что носили они также Волка, потому что это был зверь Марса; носили Минотавра, дабы показать, что замысел полководца и всякий его план должны оставаться сокрытыми, как тот зверь — в Лабиринте; а Вепря носили также, ибо без него никогда не заключали перемирия, не устанавливали мира, и совершали при этом такой обряд: собирались вместе некоторые, назначенные от той и от другой стороны, которые должны были заключить мир или перемирие, и жрец, которому поручалась эта обязанность и которого называли Фециалом, после некоторых торжественных слов и оглашения условий и соглашений между ними заключённых..."
+      ],
+      "text_en": [
+        "...by the law of justice, a tribune of the plebs who dared to name it. Wherefore, since the sacred laws are not always wholly observed by everyone, the ancients kept some gods bound, so that they should not depart from them, as Quintus Curtius relates, that the people of Tyre in Phoenicia bound with golden chains the image of Apollo, one of their principal gods, and fastened it to the altar of Hercules, to whom the city was entrusted — so that he might restrain it and not let it leave, for a certain citizen said he had seen in a dream the god abandoning the city and going away, at the time when Alexander was besieging it, wishing to take it. To which seems similar also what the Athenians did, keeping Victory without wings, as we read in Pausanias, so that she might not fly away from them; and she was thus, as Heliodorus says, with a pomegranate in her right hand and a helmet in her left. And the Romans, so that she might more willingly remain with them, gave her the Capitol as her seat (as Livy writes) and dedicated to her the temple of Jupiter Optimus Maximus, when Hiero, after the defeat the Carthaginians inflicted on them at Cannae, sent them as a gift a golden Victory together with other gifts of great value, all of which they sent back, keeping only the image of Victory as a good omen. The ancients made her for the most part with wings, in the form of a beautiful Virgin, flying through the air, offering with one hand a crown of laurel or white olive, and holding in the other a palm branch, as is seen on ancient medals and on ancient marbles, and sometimes we see her with the crown alone, sometimes with the palm branch alone. The Romans often made her with a laurel branch in hand, for they also held this as the sole sign of Victory, and attached it to those letters that brought good news, and, rejoicing at some victory, went to place its leaves in the lap of Jupiter Optimus Maximus, and the worthiest generals, triumphing, made of it a crown for themselves. The Egyptians in their sacred writings depicted Victory with the Eagle, for it surpasses all other birds in valour, whence perhaps it came that among all the other standards which the Romans carried to war on their banners, the Eagle was the chief and most commonly used, for we read that they also carried the Wolf, because it was the beast of Mars; they carried the Minotaur, to show that the general's design and every plan of his ought to remain hidden, as that beast was in the Labyrinth; and they also carried the Boar, for without it they never concluded a truce nor established peace, and in this they performed such a rite: there gathered together certain men appointed from the one side and from the other, who were to conclude peace or truce, and the priest, to whom this office was entrusted and who was called the Fecialis, after certain solemn words and the proclamation of the terms and agreements made between them..."
+      ],
+      "text_fr": [
+        "...selon la loi de justice, un tribun de la plèbe qui osa le nommer. C'est pourquoi, puisque les lois sacrées ne sont pas toujours entièrement observées par chacun, les anciens tenaient certains dieux liés, afin qu'ils ne s'en allassent pas d'auprès d'eux, comme le rapporte Quinte-Curce, que les habitants de Tyr, en Phénicie, lièrent de chaînes d'or le simulacre d'Apollon, l'un de leurs principaux dieux, et l'attachèrent à l'autel d'Hercule, à qui la ville était confiée — afin qu'il le retînt et ne le laissât pas partir, car un citoyen avait dit avoir vu en songe le dieu abandonner la ville et s'en aller, au moment où Alexandre l'assiégeait, voulant la prendre. À quoi semble ressembler aussi ce que firent les Athéniens, en tenant la Victoire sans ailes, comme on le lit chez Pausanias, afin qu'elle ne s'envolât pas loin d'eux ; et elle était ainsi, comme le dit Héliodore, avec une grenade dans la main droite et un casque dans la gauche. Et les Romains, afin qu'elle demeurât plus volontiers avec eux, lui donnèrent pour siège le Capitole (comme l'écrit Tite-Live) et lui dédièrent le temple de Jupiter Très bon et Très grand, lorsque Hiéron, après la défaite que les Carthaginois leur infligèrent à Cannes, leur envoya en présent une Victoire d'or avec d'autres dons de grande valeur, qu'ils renvoyèrent tous, ne retenant que le simulacre de la Victoire comme bon augure. Les anciens la firent pour la plupart avec des ailes, sous la forme d'une belle Vierge, volant dans les airs, offrant d'une main une couronne de laurier ou d'olivier blanc, et tenant de l'autre une branche de palme, comme on le voit sur les anciennes médailles et sur les anciens marbres, et parfois on la voit avec la seule couronne, parfois avec la seule branche de palme. Les Romains la firent souvent avec une branche de laurier à la main, car ils tenaient aussi ce signe pour l'unique marque de la Victoire, et l'attachaient aux lettres qui apportaient de bonnes nouvelles, et, se réjouissant de quelque victoire, allaient déposer ses feuilles dans le giron de Jupiter Très bon et Très grand, et les plus dignes généraux, triomphant, s'en faisaient une couronne. Les Égyptiens, dans leurs écrits sacrés, représentaient la Victoire avec l'Aigle, car celui-ci surpasse en valeur tous les autres oiseaux, d'où vint peut-être que, parmi tous les autres étendards que les Romains portaient à la guerre sur leurs enseignes, l'Aigle était le principal et le plus fréquemment employé, car on lit qu'ils portaient aussi le Loup, parce que c'était la bête de Mars ; ils portaient le Minotaure, pour montrer que le dessein du général et tout son plan doivent rester cachés, comme cette bête l'était dans le Labyrinthe ; et ils portaient aussi le Sanglier, car sans lui jamais ils ne concluaient de trêve ni n'établissaient de paix, et ils accomplissaient à cette occasion un tel rite : se rassemblaient certains hommes désignés de part et d'autre, qui devaient conclure la paix ou la trêve, et le prêtre, à qui cette charge était confiée et qu'on appelait le Fécial, après certaines paroles solennelles et la proclamation des conditions et accords conclus entre eux..."
+      ],
+      "num": "123",
+      "img": [
+        "cartm_victorydiscordia.jpg"
+      ],
+      "scans": [],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "textOnly": true,
+      "name_fr": "La Vittoria, la Discordia, e la casa di Marte",
+      "caption": "La Vittoria, la Discordia, e la casa di Marte"
+    },
+    {
+      "id": "cartm_victory1",
+      "page": "372",
+      "fr": "Imagine della Vittoria con le sue insegne",
+      "ru": "Образ Победы с её знаками отличия",
+      "en": "Image of Victory with her insignia",
+      "img": [
+        "cartm_victory1.jpg"
+      ],
+      "caption": "Imagine della Vittoria con le sue insegne, l'Aquila, la Palma, & il Lauro, essendo l'Aquila regina de gli vccelli, & di buono augurio, la Palma resiste ad ogni forza & ne dà parte del vitto, il Lauro sempre verdeggia, nè è tocco dal folgore, così il vittorioso supera la difficoltà con la Virtù, & resta immortale.",
+      "text_ru": [
+        "Образ Победы с её знаками отличия — Орлом, Пальмой и Лавром: Орёл — царь птиц и знак доброго предзнаменования, Пальма противостоит всякой силе и отдаёт часть своей пищи, Лавр же вечно зеленеет и не поражается молнией — так победитель преодолевает трудности добродетелью и остаётся бессмертным."
+      ],
+      "text_en": [
+        "Image of Victory with her insignia — the Eagle, the Palm, and the Laurel: the Eagle, queen of birds and of good omen; the Palm, which resists every force and yields up part of its sustenance; the Laurel, ever green and untouched by lightning — thus the victorious man overcomes difficulty through Virtue and remains immortal."
+      ],
+      "text_fr": [
+        "Image de la Victoire avec ses insignes — l'Aigle, la Palme et le Laurier : l'Aigle, reine des oiseaux et de bon augure ; la Palme, qui résiste à toute force et en cède une part de sa substance ; le Laurier, toujours vert et jamais touché par la foudre — ainsi le vainqueur surmonte la difficulté par la Vertu et demeure immortel."
+      ],
+      "num": "124",
+      "scans": [],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "name_fr": "Imagine della Vittoria con le sue insegne"
+    },
+    {
+      "id": "cartm_victory2",
+      "page": "374",
+      "fr": "Imagine della Vittoria armata, & della medesima senza ale",
+      "ru": "Образ вооружённой Победы и её же без крыльев",
+      "en": "Image of armed Victory, and of the same without wings",
+      "img": [
+        "cartm_victory2.jpg"
+      ],
+      "caption": "Imagine della Vittoria armata, & della medesima senza ale. La prima è fatta per rappresentare le cause di essa, che sono fatica e sudore. La seconda il desiderio di quelli, che così la figurauano, che era di non essere abbandonati dalla Vittoria.",
+      "text_ru": [
+        "Образ вооружённой Победы и её же без крыльев. Первая создана, чтобы представить причины победы — труд и пот. Вторая же выражает желание тех, кто так её изображал, — чтобы Победа никогда их не покидала."
+      ],
+      "text_en": [
+        "Image of armed Victory, and of the same without wings. The first is made to represent the causes of Victory, which are toil and sweat. The second represents the wish of those who depicted her thus — that Victory should never abandon them."
+      ],
+      "text_fr": [
+        "Image de la Victoire armée, et de la même sans ailes. La première est faite pour représenter les causes de la Victoire, qui sont le labeur et la sueur. La seconde représente le souhait de ceux qui la figuraient ainsi — qu'ils ne fussent jamais abandonnés de la Victoire."
+      ],
+      "num": "125",
+      "scans": [],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "name_fr": "Imagine della Vittoria armata, & della medesima senza ale"
+    },
+    {
+      "id": "cartm_marsanimals",
+      "page": "375",
+      "fr": "Gli animali e gli vccelli di Marte, e la festa di Minerua",
+      "ru": "Животные и птицы Марса, и праздник Минервы",
+      "en": "The animals and birds of Mars, and the festival of Minerva",
+      "text_ru": [
+        "...и не от той [Победы], которую глупый народ измыслил прекрасной, юной и дерзкой, с золотыми волосами, то собранными, то распущенными, подпоясанной крест-накрест на груди тонкой тканью, что от ветра и от бега, колеблясь, развевается так, что видна белая нога. И не меньше от Марса, как делали древние римляне, которые, принося ему в жертву того коня, что в беге оказывался самым быстрым из победивших, желали тем показать, что признают от него победу, — хотя иные говорят, что это делалось, дабы наказать быстроту, которая есть не что иное, как лучшая помощница бегущего, и дабы дать понять, что не следует полагаться на бегство. Кроме того, давали Марсу в жертву и в сопровождение различных животных, таких как Пёс и Волк, которых можно присоединять к его изображению: того — потому что он свиреп, как пишет Павсаний, и сильнее прочих животных, живущих при человеке; этого же — либо потому, что он обладает столь острым зрением, что видит ночью, подобно тому как должны многое видеть осторожные полководцы, дабы не попасть в скрытые засады врагов; либо потому, что он хищен по природе и охотно убивает и проливает кровь — всё свойства, подобающие богу войн. Марсу же был дан среди птиц Петух, дабы показать бдительность, которая должна быть у солдат, или же потому, как рассказывают басни и как пишет Лукиан, что Алектрион, воин, весьма дорогой Марсу, был превращён им в эту птицу за то, что не нёс должной стражи, которую тот ему поручил на ночь, пока сам лежал в постели с Венерой; отчего, пока он не заметил того, Вулкан вошёл в спальню и, набросив на них сверху прекраснейшую сеть, поймал их так обнявшимися, как они были. Стервятник также был дан Марсу, ибо о нём читаем, что он с величайшей жадностью следует за мёртвыми телами, и потому идёт за войсками, как если бы сама природа научила его, что те собираются вместе ради совершения убийств. Более того, она научила его ещё большему, ибо он умеет, как пишет Плиний, за три и за четыре, а некоторые говорят, за семь дней прежде знать, где будет сражение, и узнавать, с какой стороны будет больше убитых, и к той стороне чаще обращает взор, как бы в предвидении большей добычи. Отсюда повелось, что в древности цари обыкновенно посылали, когда готовились выступить с войсками для сражения, шпионить, в какую сторону больше смотрят Стервятники, делая по этому суждение о том, с какой стороны будет Победа..."
+      ],
+      "text_en": [
+        "...nor from that [Victory] which the foolish populace imagined as beautiful, young, and bold, with golden hair now gathered, now loose, girded crosswise upon her breast with fine cloth which, stirred by the wind and by her running, flutters so that her white leg is seen. Nor any the less from Mars, as the ancient Romans did, who, sacrificing to him the horse that in the race proved swiftest among the victors, wished thereby to show that they acknowledged victory as coming from him — although some say this was done to punish swiftness, which is nothing other than the best aid to one who flees, and to make it understood that one ought not to rely on flight. They also gave Mars, in sacrifice and as companions, various animals, such as the Dog and the Wolf, which may be added to his image: the latter because it is fierce, as Pausanias writes, and the strongest of the animals that live with man; the former either because it has such keen sight that it sees by night, just as cautious generals must see much, lest they fall into the hidden ambushes of enemies; or because it is rapacious by nature and willingly kills and sheds blood — qualities all befitting the god of wars. To Mars was also given, among birds, the Cock, to show the vigilance that soldiers ought to have, or else, as the fables relate and as Lucian writes, because Alectryon, a soldier very dear to Mars, was turned by him into this bird for not keeping the watch he had been charged to keep by night, while Mars himself lay in bed with Venus; whence, before he noticed it, Vulcan entered the chamber and, casting over them from above a most beautiful net, caught them thus embraced as they were. The Vulture was also given to Mars, for we read of it that it follows dead bodies with the greatest avidity, and therefore goes after armies, as though nature itself had taught it that these gather together for the purpose of killing. Moreover, it taught it even more, for it knows, as Pliny writes, three and four, and some say seven days beforehand, where a battle will be fought, and knows which side will have more slain, and turns its gaze more often toward that side, as though foreseeing greater prey. Hence it came about that in ancient times kings were accustomed, when preparing to march out with their armies for battle, to send scouts to see toward which side the Vultures looked more, forming from this a judgment of which side Victory would favour..."
+      ],
+      "text_fr": [
+        "...ni de celle [la Victoire] que le peuple insensé imagina belle, jeune et hardie, aux cheveux d'or tantôt rassemblés, tantôt dénoués, ceinte en travers de la poitrine d'une étoffe fine qui, agitée par le vent et par sa course, ondoie de sorte qu'on voit sa jambe blanche. Ni moins de Mars, comme le faisaient les anciens Romains, qui, lui sacrifiant le cheval qui s'était montré le plus rapide à la course parmi les vainqueurs, voulaient montrer par là qu'ils reconnaissaient tenir de lui la victoire — bien que certains disent que cela se faisait pour punir la vélocité, qui n'est autre que la meilleure aide de celui qui fuit, et pour faire entendre qu'il ne faut pas espérer dans la fuite. Ils donnaient aussi à Mars, en sacrifice et pour l'accompagner, divers animaux, tels que le Chien et le Loup, qu'on peut ajouter à son image : celui-ci parce qu'il est féroce, comme l'écrit Pausanias, et le plus fort des animaux qui vivent avec l'homme ; celui-là soit parce qu'il a la vue si perçante qu'il voit de nuit, de même que les généraux prudents doivent voir beaucoup, afin de ne pas tomber dans les embûches cachées des ennemis ; soit parce qu'il est rapace de nature et tue et verse volontiers le sang — qualités toutes convenables au dieu des guerres. À Mars fut aussi donné, parmi les oiseaux, le Coq, pour montrer la vigilance que doivent avoir les soldats, ou bien, comme le racontent les fables et comme l'écrit Lucien, parce qu'Alectryon, soldat très cher à Mars, fut changé par lui en cet oiseau pour n'avoir pas monté la garde qu'il lui avait confiée la nuit, tandis que lui-même était couché avec Vénus ; d'où, avant qu'il s'en aperçût, Vulcain entra dans la chambre et, jetant sur eux d'en haut un très beau filet, les surprit ainsi enlacés qu'ils étaient. Le Vautour fut aussi donné à Mars, car on lit de lui qu'il suit avec la plus grande avidité les corps morts, et va donc après les armées, comme si la nature elle-même lui avait appris qu'elles se rassemblent pour commettre des tueries. Bien plus, elle lui a appris davantage encore, car il sait, comme l'écrit Pline, trois et quatre, et certains disent sept jours à l'avance, où se fera la bataille, et il sait de quel côté il y aura le plus de morts, et tourne plus souvent son regard vers ce côté-là, comme prévoyant une plus grande proie. De là vint que, dans l'antiquité, les rois avaient coutume, lorsqu'ils s'apprêtaient à sortir avec leurs armées pour combattre, d'envoyer espionner de quel côté regardaient le plus les Vautours, en tirant de cela un jugement sur le côté que favoriserait la Victoire..."
+      ],
+      "num": "126",
+      "img": [
+        "cartm_marsanimals.jpg"
+      ],
+      "scans": [],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "textOnly": true,
+      "name_fr": "Gli animali e gli vccelli di Marte, e la festa di Minerua",
+      "caption": "Gli animali e gli vccelli di Marte, e la festa di Minerua"
+    },
+    {
+      "id": "cartm_picofestival",
+      "page": "376",
+      "fr": "Il Pico sacro a Marte, e le feste di Marte e Minerua in Egitto",
+      "ru": "Дятел, священный Марсу, и празднества Марса и Минервы в Египте",
+      "en": "The Woodpecker sacred to Mars, and the festivals of Mars and Minerva in Egypt",
+      "text_ru": [
+        "...посвящали Марсу порой и Дятла (Pico), откуда тот был назван Пико Марцием, как бы собственно принадлежащим Марсу, — либо потому, что эта птица, долбя крепким клювом твёрдый дуб, выдалбливает его, подобно тому как частыми приступами солдаты так бьют по стенам городов, что пробивают себе путь силой, чтобы проникнуть внутрь; либо потому, что эта птица издревле весьма почиталась в гаданиях, к которым, кажется, солдаты относились с большим вниманием, — так что каждый древний человек столь полагался на это, что, казалось, не умел делать ничего, ни общественного, ни частного, не взяв прежде какого-либо знамения, как я уже говорил в Фламинии, где рассказал и о способе, каким древние гадали по птицам. О деревьях же я до сих пор не нашёл, чтобы какое-либо было посвящено Марсу как ему собственно принадлежащее, но о Пырее (Gramigna) я действительно читал, что её дали ему древние, быть может, потому, что, как пишет Боккаччо, она растёт по большей части в местах просторных и открытых, где обычно почти всегда располагаются станом войска. И не было у римлян венца более почётного и более высокого достоинства, чем венец из Пырея, который давали лишь тем, кто в какой-либо крайней опасности спас всё войско или снял осаду вокруг него. Не осталось мне более сказать о Марсе, разве что не желаю умолчать о торжественном празднестве, которое в его честь совершалось в Папреме, городе Египта, ибо мне кажется, что обряд, рассказанный Геродотом, заслуживает быть здесь приведённым. Итак, когда наступало время праздника, в который почти весь народ страны собирался в этот город, о котором я сказал, несколько немногих жрецов оставались в храме вокруг алтарей, совершая жертвоприношения и иные относящиеся к ним дела, а все прочие располагались у врат того же храма с добрыми деревянными палицами в руках, против которых шли около тысячи человек чужестранцев, пришедших на праздник, с толстыми палками равным образом в руках. Эти, приготовив накануне большой деревянный позолоченный табернакль с заключённым внутри изваянием Марса и поставив его на четырёхколёсную колесницу, влекомую немногими из них, желали войти с ним в храм, а жрецы, стоявшие у врат, им это возбраняли, отчего начиналась между ними странная потасовка на палках, ибо одни не желали, чтобы тот бог вошёл в храм, а другие силились заставить его войти, что в конце концов и совершалось. И хотя многим доставались жестокие удары по голове, и многие оставались от этого изрядно ранены, никто никогда от этого не умирал. И было дело устроено таким образом, ибо говорили древние, что мать Марса обитала в этом храме, и он, уже выросши, пришёл туда возлечь с нею, но жрецы, заметив это и не зная, однако, кто он таков, не позволили ему войти, отчего он был принуждён удалиться; но немного спустя, собрав с собою людей из некоего города неподалёку оттуда, вернулся и, задав славные тумаки жрецам, вошёл против их воли, чтобы сделать своё дело с матерью. Таков смысл обряда, который я описал, и в котором, без сомнения, заключена некая тайна; но раз Геродот её не открыл, то и я её не привожу и оставляю отыскать её тому, кто любопытен её узнать. И вместо этого расскажу о некоем другом обряде, также описанном Геродотом, который отчасти схож с уже рассказанным и совершался в честь Минервы, дабы её именем завершить тот образ, который её же именем был начат. Праздновался он ежегодно в некоей части Африки, близ Тритонидского болота, где в назначенное для праздника время собирались почти все юные девы страны, и здесь, разделившись как бы на два воинских строя, яростно сражались между собою камнями и палками, и та, что по общему суждению показала себя наиболее доблестной и лучше всех действовала руками, была отделена от прочих и уносима в сторону; её вооружали всю, надевали на неё прекрасный шлем и, поставив на колесницу, возили её кругом всего болота, и все сопровождали её с торжественной пышностью. А те, что оставались мёртвыми в этой схватке — ибо нередко многие из них там погибали, — почитались не бывшими истинными девами, и полагали, что Минерва попустила им погибнуть. Ибо она была всегда девою, поскольку истинная мудрость, явленная через неё, не причастна никакой скверне смертных вещей и всегда в себе самой остаётся чистой и непорочной. И соблюдалось также в жертвоприношениях Минерве давать ей чистые жертвы, каковыми были порой Агница, порой белый Телец, а порою необузданная тёлка с позолоченными рогами — дабы показать, что девство не подвластно игу похоти."
+      ],
+      "text_en": [
+        "...they also at times dedicated to Mars the Woodpecker (Picus), whence it was called Picus Martius, as belonging properly to Mars — either because this bird, pecking with its hard beak the hard oak, hollows it out, just as soldiers by repeated assaults so batter the walls of cities that they force their way in by strength to penetrate within; or because this bird was anciently held in great esteem for divination, to which soldiers seem to have paid great attention — so much so that every ancient person relied upon it so greatly that he seemed able to do nothing, public or private, without first taking some omen, as I have already said in the Flavius, where I also told the manner in which the ancients divined by birds. As for trees, I have not so far found that any was dedicated to Mars as belonging properly to him, but of Dog's-grass (Gramigna) I have indeed read that the ancients gave it to him, perhaps because, as Boccaccio writes, it grows for the most part in spacious and open places, where armies are usually almost always encamped. And the Romans had no crown of greater honour and higher dignity than the crown of Dog's-grass, which was given only to those who, in some extreme danger, had saved an entire army or lifted a siege laid around it. I have nothing more to say of Mars, except that I do not wish to pass over in silence the solemn festival that was celebrated in his honour at Papremis, a city of Egypt, for it seems to me that the rite related by Herodotus deserves to be set down here. When, then, the time of the festival arrived, at which almost all the people of the country gathered in this city of which I spoke, a few priests remained in the temple around the altars, performing the sacrifices and other matters pertaining to them, while all the rest stationed themselves at the gates of the same temple with good wooden clubs in hand, against whom came about a thousand foreign men who had come for the festival, likewise with thick sticks in hand. These, having prepared the day before a great gilded wooden tabernacle containing within it the image of Mars, and having placed it upon a four-wheeled chariot drawn by a few of them, wished to bring it into the temple, and the priests standing at the gates forbade them, whence there began between them a strange scuffle with clubs, for some did not wish that god to enter the temple, while others strove to force him to enter, which in the end came to pass. And although many received cruel blows upon the head, and many were left badly wounded by it, none ever died of it. And the matter was arranged in this way, for the ancients said that the mother of Mars dwelt in this temple, and he, having grown up, came there to lie with her, but the priests, noticing this and not knowing, however, who he was, did not allow him to enter, whence he was forced to withdraw; but a little later, having gathered to himself men from a certain city not far from there, he returned and, having dealt the priests fine blows, entered against their will to do his business with his mother. Such is the meaning of the rite I have described, in which without doubt some mystery is contained; but since Herodotus did not reveal it, neither do I set it forth, and I leave it to whoever is curious to discover it to seek it out. And instead I shall relate a certain other rite, likewise described by Herodotus, which is in part similar to the one already related and was performed in honour of Minerva, so that in her name I might close the image that was begun in her name. It was celebrated yearly in a certain part of Africa, near the Tritonian marsh, where at the time appointed for the festival nearly all the young maidens of the country gathered, and here, dividing themselves as it were into two armed companies, fought fiercely with one another with stones and sticks, and she who by common judgment showed herself most valiant and fought best with her hands was set apart from the rest and carried away; she was armed entirely, a fine helmet was placed upon her, and, set upon a chariot, she was driven all around the marsh, and all accompanied her with solemn pomp. And those who were left dead in this combat — for often many of them perished there — were held not to have been true maidens, and it was believed that Minerva had allowed them to perish. For she was ever a maiden, since the true wisdom manifested through her partakes of no stain of mortal things and ever remains pure and undefiled in itself. And it was also observed, in sacrifices to Minerva, to give her pure victims, which were sometimes a Lamb, sometimes a white Bull-calf, and sometimes an unbroken heifer with gilded horns — to show that virginity is not subject to the yoke of lust."
+      ],
+      "text_fr": [
+        "...ils dédièrent aussi parfois à Mars le Pic (Pico), d'où il fut appelé Pic Martius, comme appartenant proprement à Mars — soit parce que cet oiseau, becquetant de son bec dur le chêne dur, le creuse, tout comme les soldats, par assauts répétés, battent tant les murs des villes qu'ils s'y frayent un chemin par la force pour y pénétrer ; soit parce que cet oiseau fut jadis fort estimé pour la divination, à laquelle les soldats semblent avoir prêté grande attention — si bien que tout homme antique s'y fiait tant qu'il semblait ne savoir rien faire, ni en public ni en privé, sans en prendre d'abord quelque augure, comme je l'ai déjà dit dans le Flavius, où j'ai aussi rapporté la manière dont les anciens devinaient par les oiseaux. Quant aux arbres, je n'ai pas trouvé jusqu'ici qu'aucun fût dédié à Mars comme lui appartenant proprement, mais du Chiendent (Gramigna) j'ai bien lu que les anciens le lui donnèrent, peut-être parce que, comme l'écrit Boccace, il pousse pour la plupart en des lieux spacieux et ouverts, où les armées ont coutume de camper presque toujours. Et les Romains n'eurent point de couronne de plus grand honneur ni de plus haute dignité que la couronne de Chiendent, qu'on ne donnait qu'à ceux qui, en quelque extrême péril, avaient sauvé toute une armée ou levé un siège qui l'entourait. Il ne me reste plus rien à dire de Mars, sinon que je ne veux pas taire la solennelle fête qui se célébrait en son honneur à Papremis, ville d'Égypte, car il me semble que le rite rapporté par Hérodote mérite d'être consigné ici. Lors donc que venait le temps de la fête, où presque tout le peuple du pays se rassemblait en cette ville dont j'ai parlé, quelques rares prêtres demeuraient dans le temple autour des autels, accomplissant les sacrifices et autres choses qui s'y rapportaient, tandis que tous les autres se postaient aux portes de ce même temple avec de bons gourdins de bois à la main, contre lesquels venaient environ mille hommes étrangers venus pour la fête, avec de gros bâtons également à la main. Ceux-ci, ayant préparé la veille un grand tabernacle de bois doré contenant à l'intérieur le simulacre de Mars, et l'ayant posé sur un char à quatre roues tiré par quelques-uns d'entre eux, voulaient l'introduire dans le temple, et les prêtres postés aux portes le leur interdisaient, d'où naissait entre eux une étrange bagarre à coups de bâtons, car les uns ne voulaient pas que ce dieu entrât dans le temple, tandis que les autres s'efforçaient de le faire entrer de force, ce qui finalement advenait. Et bien que beaucoup reçussent de cruels coups sur la tête, et que beaucoup en demeurassent fort blessés, jamais personne n'en mourut. Et la chose était ainsi arrangée, car les anciens disaient que la mère de Mars habitait ce temple, et que lui, devenu grand, y vint coucher avec elle, mais les prêtres, s'en apercevant et ne sachant cependant qui il était, ne le laissèrent pas entrer, d'où il fut contraint de se retirer ; mais peu après, ayant rassemblé avec lui des hommes d'une certaine ville non loin de là, il revint et, ayant donné de bons coups aux prêtres, entra malgré eux pour faire son affaire avec sa mère. Tel est le sens du rite que j'ai décrit, dans lequel sans doute quelque mystère est contenu ; mais puisque Hérodote ne l'a pas révélé, je ne le rapporte pas non plus, et je laisse à qui serait curieux de le découvrir le soin de le chercher. Et je rapporterai à la place un autre rite, également décrit par Hérodote, qui ressemble en partie à celui déjà rapporté et se faisait en l'honneur de Minerve, afin de clore en son nom l'image qui avait été commencée en son nom. Il se célébrait chaque année en une certaine partie de l'Afrique, près du marais Tritonien, où au temps fixé pour la fête se rassemblaient presque toutes les jeunes vierges du pays, et là, se divisant comme en deux troupes armées, combattaient âprement entre elles à coups de pierres et de bâtons, et celle qui, de l'avis commun, s'était montrée la plus vaillante et avait le mieux employé ses mains, était séparée des autres et emportée à l'écart ; on l'armait tout entière, on lui mettait un beau casque, et, placée sur un char, on la promenait tout autour du marais, et toutes l'accompagnaient avec une pompe solennelle. Et celles qui restaient mortes dans ce combat — car souvent beaucoup y périssaient — étaient tenues pour n'avoir pas été de vraies vierges, et l'on croyait que Minerve les avait laissées périr. Car elle fut toujours vierge, puisque la vraie sagesse manifestée par elle ne participe d'aucune souillure des choses mortelles et demeure toujours en elle-même pure et sans tache. Et l'on observait aussi, dans les sacrifices à Minerve, de lui offrir des victimes pures, qui étaient tantôt une Agnelle, tantôt un Taureau blanc, et tantôt une génisse indomptée aux cornes dorées — pour montrer que la virginité n'est pas soumise au joug de la luxure."
+      ],
+      "num": "127",
+      "img": [
+        "cartm_picofestival.jpg"
+      ],
+      "scans": [],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "textOnly": true,
+      "name_fr": "Il Pico sacro a Marte, e le feste di Marte e Minerua in Egitto",
+      "caption": "Il Pico sacro a Marte, e le feste di Marte e Minerua in Egitto"
+    },
+    {
       "id": "cart11",
-      "num": "110",
+      "num": "128",
       "page": "378",
       "fr": "Baccho",
       "ru": "Вакх",
@@ -3183,7 +3639,7 @@
     },
     {
       "id": "cartm89",
-      "num": "111",
+      "num": "129",
       "page": "380",
       "fr": "Imagine di Como, dio dei Conviti",
       "ru": "Образ Кома, бога пиров",
@@ -3212,7 +3668,7 @@
     },
     {
       "id": "cartm90",
-      "num": "112",
+      "num": "130",
       "page": "383",
       "fr": "Imagine di Bacco secondo Macrobio",
       "ru": "Образ Вакха согласно Макробию",
@@ -3241,7 +3697,7 @@
     },
     {
       "id": "cartm91",
-      "num": "113",
+      "num": "131",
       "page": "386",
       "fr": "Imagini di Bacco e della pompa bacchica",
       "ru": "Образы Вакха и вакхического шествия",
@@ -3270,7 +3726,7 @@
     },
     {
       "id": "cartm92",
-      "num": "114",
+      "num": "132",
       "page": "389",
       "fr": "Imagini di Bacco trionfatore sull'elefante",
       "ru": "Образы Вакха-триумфатора на слоне",
@@ -3299,7 +3755,7 @@
     },
     {
       "id": "cartm93",
-      "num": "115",
+      "num": "133",
       "page": "392",
       "fr": "Imagine della Nave di Bacco",
       "ru": "Образ Корабля Вакха",
@@ -3329,7 +3785,7 @@
     },
     {
       "id": "cartm94",
-      "num": "116",
+      "num": "134",
       "page": "396",
       "fr": "Imagine di Horo, dio degli Egizi, Priapo e Bacco",
       "ru": "Образ Гора, бога египтян, Приапа и Вакха",
@@ -3357,7 +3813,7 @@
     },
     {
       "id": "cartm95",
-      "num": "117",
+      "num": "135",
       "page": "398",
       "fr": "Imagini di Tifone e di Horo",
       "ru": "Образы Тифона и Гора",
@@ -3388,7 +3844,7 @@
     },
     {
       "id": "cartm96",
-      "num": "118",
+      "num": "136",
       "page": "403",
       "fr": "Imagine di Priapo, dio degli Orti",
       "ru": "Образ Приапа, бога садов",
@@ -3415,7 +3871,7 @@
     },
     {
       "id": "cartm97",
-      "num": "119",
+      "num": "137",
       "page": "404",
       "fr": "Imagini degli dei Lari e Penati",
       "ru": "Образы богов Ларов и Пенатов",
@@ -3443,7 +3899,7 @@
     },
     {
       "id": "cartm98",
-      "num": "120",
+      "num": "138",
       "page": "406",
       "fr": "Imagini del Genio buono e cattivo",
       "ru": "Образы доброго и злого Гения",
@@ -3476,7 +3932,7 @@
     },
     {
       "id": "cart12",
-      "num": "121",
+      "num": "139",
       "page": "413",
       "fr": "Fortuna",
       "ru": "Фортуна",
@@ -3502,7 +3958,7 @@
     },
     {
       "id": "cartm99",
-      "num": "122",
+      "num": "140",
       "page": "415",
       "fr": "Imagini della Fortuna lieta e triste",
       "ru": "Образы радостной и печальной Фортуны",
@@ -3530,7 +3986,7 @@
     },
     {
       "id": "cartb20",
-      "num": "123",
+      "num": "141",
       "page": "417",
       "fr": "Nemesi",
       "ru": "Немезида",
@@ -3556,7 +4012,7 @@
     },
     {
       "id": "cartb21",
-      "num": "124",
+      "num": "142",
       "page": "419",
       "fr": "Giustitia",
       "ru": "Справедливость",
@@ -3582,7 +4038,7 @@
     },
     {
       "id": "cartb22",
-      "num": "125",
+      "num": "143",
       "page": "421",
       "fr": "La Calunnia d'Apelle",
       "ru": "«Клевета» Апеллеса",
@@ -3608,7 +4064,7 @@
     },
     {
       "id": "cartm100",
-      "num": "126",
+      "num": "144",
       "page": "423",
       "fr": "Imagini dell'Invidia",
       "ru": "Образы Зависти",
@@ -3636,7 +4092,7 @@
     },
     {
       "id": "cartm101",
-      "num": "127",
+      "num": "145",
       "page": "425",
       "fr": "Imagine di Momo, dio della riprensione",
       "ru": "Образ Мома, бога порицания",
@@ -3664,7 +4120,7 @@
     },
     {
       "id": "cartm102",
-      "num": "128",
+      "num": "146",
       "page": "427",
       "fr": "Imagine della Frode secondo Dante",
       "ru": "Образ Обмана по Данте",
@@ -3692,7 +4148,7 @@
     },
     {
       "id": "cartm103",
-      "num": "129",
+      "num": "147",
       "page": "429",
       "fr": "Geroglifico della buona Fortuna e dell'Occasione",
       "ru": "Иероглиф доброй Фортуны и Случая",
@@ -3720,7 +4176,7 @@
     },
     {
       "id": "cartm104",
-      "num": "130",
+      "num": "148",
       "page": "431",
       "fr": "Imagine della Fortuna presso gli Sciti",
       "ru": "Образ Фортуны у скифов",
@@ -3749,7 +4205,7 @@
     },
     {
       "id": "cartm105",
-      "num": "131",
+      "num": "149",
       "page": "434",
       "fr": "Imagine della Fortuna in Egira",
       "ru": "Образ Фортуны в Эгире",
@@ -3778,7 +4234,7 @@
     },
     {
       "id": "cartm106",
-      "num": "132",
+      "num": "150",
       "page": "437",
       "fr": "Imagine della Fortuna a cavallo",
       "ru": "Образ Фортуны верхом на коне",
@@ -3806,7 +4262,7 @@
     },
     {
       "id": "cartm107",
-      "num": "133",
+      "num": "151",
       "page": "439",
       "fr": "Imagine del buon Evento e del Favore instabile",
       "ru": "Образ доброго Случая и непостоянной Благосклонности",
@@ -3834,7 +4290,7 @@
     },
     {
       "id": "cartb19",
-      "num": "134",
+      "num": "152",
       "page": "441",
       "fr": "Macaria, ò Felicità",
       "ru": "Макария, или Счастье",
@@ -3864,7 +4320,7 @@
     },
     {
       "id": "cart13",
-      "num": "135",
+      "num": "153",
       "page": "447",
       "fr": "Cupido (Eroto & Anterote)",
       "ru": "Купидон (Эрот и Антерот)",
@@ -3896,7 +4352,7 @@
     },
     {
       "id": "cartm108",
-      "num": "136",
+      "num": "154",
       "page": "455",
       "fr": "Trionfo d'Amore",
       "ru": "Триумф Амура",
@@ -3926,7 +4382,7 @@
     },
     {
       "id": "cartm109",
-      "num": "137",
+      "num": "155",
       "page": "459",
       "fr": "Imagini d'Amore e dei suoi effetti",
       "ru": "Образы Амура и его воздействий",
@@ -3954,7 +4410,7 @@
     },
     {
       "id": "cartm110",
-      "num": "138",
+      "num": "156",
       "page": "461",
       "fr": "Imagine di Pane e Cupido",
       "ru": "Образ Пана и Амура",
@@ -3988,7 +4444,7 @@
     },
     {
       "id": "cart14",
-      "num": "139",
+      "num": "157",
       "page": "469",
       "fr": "Venere",
       "ru": "Венера",
@@ -4014,7 +4470,7 @@
     },
     {
       "id": "cartm111",
-      "num": "140",
+      "num": "158",
       "page": "471",
       "fr": "Tempio di Venere in Pafo",
       "ru": "Храм Венеры в Пафосе",
@@ -4042,7 +4498,7 @@
     },
     {
       "id": "cartm112",
-      "num": "141",
+      "num": "159",
       "page": "473",
       "fr": "Imagine di Venere tirata in carro dai Cigni",
       "ru": "Образ Венеры на колеснице, влекомой лебедями",
@@ -4071,7 +4527,7 @@
     },
     {
       "id": "cartm113",
-      "num": "142",
+      "num": "160",
       "page": "476",
       "fr": "Imagine di Venere con gli Amorini e le Grazie",
       "ru": "Образ Венеры с Амурами и Грациями",
@@ -4099,7 +4555,7 @@
     },
     {
       "id": "cartm114",
-      "num": "143",
+      "num": "161",
       "page": "478",
       "fr": "Imagini di Venere, Cupido, del Giogo e del Capro",
       "ru": "Образы Венеры, Купидона, Ярма и Козла",
@@ -4128,7 +4584,7 @@
     },
     {
       "id": "cartm115",
-      "num": "144",
+      "num": "162",
       "page": "481",
       "fr": "Imagine di Venere armata, vittrice e in catene",
       "ru": "Образ вооружённой, победоносной и закованной Венеры",
@@ -4159,7 +4615,7 @@
     },
     {
       "id": "cartm116",
-      "num": "145",
+      "num": "163",
       "page": "486",
       "fr": "Imagine di Venere maschio e femmina",
       "ru": "Образ Венеры мужской и женской",
@@ -4191,7 +4647,7 @@
     },
     {
       "id": "cartb23",
-      "num": "146",
+      "num": "164",
       "page": "492",
       "fr": "Le Hore",
       "ru": "Горы (Часы года)",
@@ -4217,7 +4673,7 @@
     },
     {
       "id": "cart15",
-      "num": "147",
+      "num": "165",
       "page": "494",
       "fr": "Le Gratie",
       "ru": "Грации",
@@ -4243,7 +4699,7 @@
     },
     {
       "id": "cartm117",
-      "num": "148",
+      "num": "166",
       "page": "496",
       "fr": "Imagine delle Grazie guidate da Mercurio",
       "ru": "Образ Граций, ведомых Меркурием",
@@ -4273,7 +4729,7 @@
     },
     {
       "id": "carta46",
-      "num": "149",
+      "num": "167",
       "page": "500",
       "fr": "Annotationi di Lorenzo Pignoria: proemio (I)",
       "ru": "Примечания Лоренцо Пиньории: вступление (I)",
@@ -4301,7 +4757,7 @@
     },
     {
       "id": "carta47",
-      "num": "150",
+      "num": "168",
       "page": "501",
       "fr": "Annotationi di Lorenzo Pignoria: proemio (II) — statue, altari, Demogorgone",
       "ru": "Примечания Лоренцо Пиньории: вступление (II) — статуи, алтари, Демогоргон",
@@ -4329,7 +4785,7 @@
     },
     {
       "id": "carta48",
-      "num": "151",
+      "num": "169",
       "page": "502",
       "fr": "Annotationi di Lorenzo Pignoria: proemio (III) — pietre unte, Saturno, preghiere",
       "ru": "Примечания Лоренцо Пиньории: вступление (III) — умащённые камни, Сатурн, молитвы",
@@ -4357,7 +4813,7 @@
     },
     {
       "id": "carta49",
-      "num": "152",
+      "num": "170",
       "page": "503",
       "fr": "Annotationi di Lorenzo Pignoria: proemio (IV) — Stagioni, Tempio di Giano, Hebe, Mitra",
       "ru": "Примечания Лоренцо Пиньории: вступление (IV) — времена года, храм Януса, Геба, Митра",
@@ -4385,7 +4841,7 @@
     },
     {
       "id": "carta1",
-      "num": "153",
+      "num": "171",
       "page": "504",
       "fr": "Il Fato sotto tre Imagini di Donna",
       "ru": "Судьба под образом трёх Женщин (Парки)",
@@ -4415,7 +4871,7 @@
     },
     {
       "id": "carta2",
-      "num": "154",
+      "num": "172",
       "page": "506",
       "fr": "Esculapio",
       "ru": "Эскулап",
@@ -4444,7 +4900,7 @@
     },
     {
       "id": "cartf1",
-      "num": "155",
+      "num": "173",
       "page": "507",
       "fr": "Lucifero, compagno dell'Aurora",
       "ru": "Люцифер, спутник Авроры",
@@ -4471,7 +4927,7 @@
     },
     {
       "id": "cartf2",
-      "num": "156",
+      "num": "174",
       "page": "508",
       "fr": "Febo (il Sole) sul carro",
       "ru": "Феб (Солнце) на колеснице",
@@ -4498,7 +4954,7 @@
     },
     {
       "id": "cartf3",
-      "num": "157",
+      "num": "175",
       "page": "509",
       "fr": "Giunone nel Cameo",
       "ru": "Юнона на камее",
@@ -4526,7 +4982,7 @@
     },
     {
       "id": "carta3",
-      "num": "158",
+      "num": "176",
       "page": "511",
       "fr": "Iside in un Cameo",
       "ru": "Изида на камее",
@@ -4554,7 +5010,7 @@
     },
     {
       "id": "carta4",
-      "num": "159",
+      "num": "177",
       "page": "513",
       "fr": "Satiri in lotta",
       "ru": "Борющиеся сатиры",
@@ -4581,7 +5037,7 @@
     },
     {
       "id": "cartf4",
-      "num": "160",
+      "num": "178",
       "page": "514",
       "fr": "L'Honore, maschio e femina",
       "ru": "Честь — в мужском и женском облике",
@@ -4609,7 +5065,7 @@
     },
     {
       "id": "carta5",
-      "num": "161",
+      "num": "179",
       "page": "516",
       "fr": "Pallade",
       "ru": "Паллада",
@@ -4636,7 +5092,7 @@
     },
     {
       "id": "carta6",
-      "num": "162",
+      "num": "180",
       "page": "517",
       "fr": "La violenza d'Aiace Oileo",
       "ru": "Неистовство Аякса Оилеева",
@@ -4665,7 +5121,7 @@
     },
     {
       "id": "carta28",
-      "num": "163",
+      "num": "181",
       "page": "520",
       "fr": "L'Imagine della Libertà",
       "ru": "Образ Свободы",
@@ -4692,7 +5148,7 @@
     },
     {
       "id": "carta29",
-      "num": "164",
+      "num": "182",
       "page": "520",
       "fr": "Il berretto degli schiavi (nota a Gellio, continua carta28)",
       "ru": "Шапка раба (заметка к Геллию, продолжение carta28)",
@@ -4721,7 +5177,7 @@
     },
     {
       "id": "carta7",
-      "num": "165",
+      "num": "183",
       "page": "523",
       "fr": "Cerere (la Madre Idea)",
       "ru": "Церера (Великая Мать)",
@@ -4753,7 +5209,7 @@
     },
     {
       "id": "carta8",
-      "num": "166",
+      "num": "184",
       "page": "529",
       "fr": "Palemone e il delfino",
       "ru": "Палемон и дельфин",
@@ -4781,7 +5237,7 @@
     },
     {
       "id": "carta30",
-      "num": "167",
+      "num": "185",
       "page": "531",
       "fr": "Dagon",
       "ru": "Дагон",
@@ -4809,7 +5265,7 @@
     },
     {
       "id": "carta9",
-      "num": "168",
+      "num": "186",
       "page": "533",
       "fr": "Le tre Parche",
       "ru": "Три Парки",
@@ -4839,7 +5295,7 @@
     },
     {
       "id": "carta31",
-      "num": "169",
+      "num": "187",
       "page": "535",
       "fr": "Mercurio e Pegaso",
       "ru": "Меркурий и Пегас",
@@ -4867,7 +5323,7 @@
     },
     {
       "id": "carta10",
-      "num": "170",
+      "num": "188",
       "page": "537",
       "fr": "Termine (il dio Termine)",
       "ru": "Терм (бог границ)",
@@ -4894,7 +5350,7 @@
     },
     {
       "id": "carta11",
-      "num": "171",
+      "num": "189",
       "page": "538",
       "fr": "Hercole in abito di Mercurio",
       "ru": "Геркулес в облике Меркурия",
@@ -4923,7 +5379,7 @@
     },
     {
       "id": "carta32",
-      "num": "172",
+      "num": "190",
       "page": "541",
       "fr": "Due fatiche di Hercole",
       "ru": "Два подвига Геркулеса",
@@ -4950,7 +5406,7 @@
     },
     {
       "id": "carta33",
-      "num": "173",
+      "num": "191",
       "page": "542",
       "fr": "Semo Sanco",
       "ru": "Семон Санк",
@@ -4978,7 +5434,7 @@
     },
     {
       "id": "carta13",
-      "num": "174",
+      "num": "192",
       "page": "544",
       "fr": "Hermathena (Minerva e Mercurio)",
       "ru": "Гермафена (Минерва и Меркурий)",
@@ -5009,7 +5465,7 @@
     },
     {
       "id": "carta12",
-      "num": "175",
+      "num": "193",
       "page": "545",
       "fr": "Minerva con l'egida di Gorgone",
       "ru": "Минерва с эгидой Горгоны",
@@ -5037,7 +5493,7 @@
     },
     {
       "id": "carta34",
-      "num": "176",
+      "num": "194",
       "page": "546",
       "fr": "Ercole e Mercurio insieme (Hermeracle)",
       "ru": "Геркулес и Меркурий вместе (Гермеракл)",
@@ -5065,7 +5521,7 @@
     },
     {
       "id": "carta35",
-      "num": "177",
+      "num": "195",
       "page": "547",
       "fr": "Minerva e la nave Argo",
       "ru": "Минерва и корабль Арго",
@@ -5093,7 +5549,7 @@
     },
     {
       "id": "carta36",
-      "num": "178",
+      "num": "196",
       "page": "549",
       "fr": "Marte Graditivo e Marte vincitore",
       "ru": "Марс Градив и Марс-победитель",
@@ -5121,7 +5577,7 @@
     },
     {
       "id": "carta37",
-      "num": "179",
+      "num": "197",
       "page": "551",
       "fr": "Le insegne militari romane",
       "ru": "Римские военные знамёна",
@@ -5148,7 +5604,7 @@
     },
     {
       "id": "carta14",
-      "num": "180",
+      "num": "198",
       "page": "552",
       "fr": "Corteo bacchico",
       "ru": "Вакхическое шествие",
@@ -5175,7 +5631,7 @@
     },
     {
       "id": "carta15",
-      "num": "181",
+      "num": "199",
       "page": "553",
       "fr": "Pompa bacchica tratta da un diaspro (Bagarris)",
       "ru": "Вакхическое шествие с яшмы Баггариса",
@@ -5203,7 +5659,7 @@
     },
     {
       "id": "carta38",
-      "num": "182",
+      "num": "200",
       "page": "555",
       "fr": "Il Genio del popolo Romano",
       "ru": "Гений римского народа",
@@ -5230,7 +5686,7 @@
     },
     {
       "id": "carta16",
-      "num": "183",
+      "num": "201",
       "page": "556",
       "fr": "La Patera e il Corno del Genio",
       "ru": "Патера и рог Гения",
@@ -5257,7 +5713,7 @@
     },
     {
       "id": "carta17",
-      "num": "184",
+      "num": "202",
       "page": "557",
       "fr": "Il Genio di Antiochia",
       "ru": "Гений Антиохии",
@@ -5284,7 +5740,7 @@
     },
     {
       "id": "carta39",
-      "num": "185",
+      "num": "203",
       "page": "558",
       "fr": "Apollo citaredo (Apolloni Sancto)",
       "ru": "Аполлон-кифаред («Святому Аполлону»)",
@@ -5311,7 +5767,7 @@
     },
     {
       "id": "carta18",
-      "num": "186",
+      "num": "204",
       "page": "559",
       "fr": "Genio e Fortuna",
       "ru": "Гений и Фортуна",
@@ -5341,7 +5797,7 @@
     },
     {
       "id": "carta19",
-      "num": "187",
+      "num": "205",
       "page": "563",
       "fr": "La Fortuna sulle ali di un Cigno",
       "ru": "Фортуна на крыльях Лебедя",
@@ -5368,7 +5824,7 @@
     },
     {
       "id": "carta40",
-      "num": "188",
+      "num": "206",
       "page": "564",
       "fr": "Eroto e Anterote (il carro della Madre)",
       "ru": "Эрот и Антэрот (колесница Матери)",
@@ -5395,7 +5851,7 @@
     },
     {
       "id": "carta20",
-      "num": "189",
+      "num": "207",
       "page": "565",
       "fr": "I due Amori e la capra (pensiero d'Ausonio)",
       "ru": "Два Амура и коза (мысль Авзония)",
@@ -5422,7 +5878,7 @@
     },
     {
       "id": "carta41",
-      "num": "190",
+      "num": "208",
       "page": "566",
       "fr": "Il tempio di Venere a Pafo",
       "ru": "Храм Венеры в Пафосе",
@@ -5449,7 +5905,7 @@
     },
     {
       "id": "carta21",
-      "num": "191",
+      "num": "209",
       "page": "567",
       "fr": "Figura fuori ordine (tra il 52 e il 53)",
       "ru": "Фигура не по порядку (между 52-м и 53-м)",
@@ -5477,7 +5933,7 @@
     },
     {
       "id": "carta22",
-      "num": "192",
+      "num": "210",
       "page": "569",
       "fr": "Giano giovane",
       "ru": "Молодой Янус",
@@ -5505,7 +5961,7 @@
     },
     {
       "id": "carta23",
-      "num": "193",
+      "num": "211",
       "page": "571",
       "fr": "Il vaso di Giustitia",
       "ru": "Ваза с образом Справедливости",
@@ -5533,7 +5989,7 @@
     },
     {
       "id": "carta24",
-      "num": "194",
+      "num": "212",
       "page": "573",
       "fr": "Statua col sacerdote e le sue insegne",
       "ru": "Статуя священника с его регалиями",
@@ -5560,7 +6016,7 @@
     },
     {
       "id": "carta42",
-      "num": "195",
+      "num": "213",
       "page": "574",
       "fr": "Vaso antico con rilievi",
       "ru": "Античная ваза с рельефом",
@@ -5588,7 +6044,7 @@
     },
     {
       "id": "carta43",
-      "num": "196",
+      "num": "214",
       "page": "576",
       "fr": "Figura femminile armata",
       "ru": "Вооружённая женская фигура",
@@ -5616,7 +6072,7 @@
     },
     {
       "id": "carta25",
-      "num": "197",
+      "num": "215",
       "page": "578",
       "fr": "La prima Mano Pantea",
       "ru": "Первая Пантеистическая Рука",
@@ -5643,7 +6099,7 @@
     },
     {
       "id": "carta44",
-      "num": "198",
+      "num": "216",
       "page": "579",
       "fr": "La mano simbolica con la lira (quarta Mano Pantea)",
       "ru": "Символическая рука с лирой (четвёртая Пантеистическая рука)",
@@ -5671,7 +6127,7 @@
     },
     {
       "id": "carta26",
-      "num": "199",
+      "num": "217",
       "page": "580",
       "fr": "La seconda Mano Pantea",
       "ru": "Вторая Пантеистическая Рука",
@@ -5698,7 +6154,7 @@
     },
     {
       "id": "carta45",
-      "num": "200",
+      "num": "218",
       "page": "581",
       "fr": "Figura giovanile con bastone (TYXAINI)",
       "ru": "Юношеская фигура с посохом (надпись TYXAINI)",
@@ -5725,7 +6181,7 @@
     },
     {
       "id": "carta27",
-      "num": "201",
+      "num": "219",
       "page": "582",
       "fr": "La terza Mano Pantea",
       "ru": "Третья Пантеистическая Рука",
@@ -5760,7 +6216,7 @@
     },
     {
       "id": "carti1",
-      "num": "202",
+      "num": "220",
       "page": "591",
       "fr": "Homoyoca",
       "ru": "Омойока",
@@ -5788,7 +6244,7 @@
     },
     {
       "id": "carti2",
-      "num": "203",
+      "num": "221",
       "page": "593",
       "fr": "Idolo messicano con offerenti",
       "ru": "Мексиканский идол с дарителями",
@@ -5815,7 +6271,7 @@
     },
     {
       "id": "carti3",
-      "num": "204",
+      "num": "222",
       "page": "594",
       "fr": "Miquitlantecatle e gli dei infernali",
       "ru": "Миктлантекутли и подземные боги",
@@ -5843,7 +6299,7 @@
     },
     {
       "id": "carti4",
-      "num": "205",
+      "num": "223",
       "page": "596",
       "fr": "Vitzliputzli (coppia di divinita)",
       "ru": "Вицлипуцли и спутник",
@@ -5870,7 +6326,7 @@
     },
     {
       "id": "carti5",
-      "num": "206",
+      "num": "224",
       "page": "597",
       "fr": "L'Ambasciatore alato",
       "ru": "Крылатый дух",
@@ -5899,7 +6355,7 @@
     },
     {
       "id": "carti6",
-      "num": "207",
+      "num": "225",
       "page": "600",
       "fr": "Quetzalcoatl",
       "ru": "Кецалькоатль",
@@ -5933,7 +6389,7 @@
     },
     {
       "id": "carti7",
-      "num": "208",
+      "num": "226",
       "page": "608",
       "fr": "Divinita composite \"egizie\" (introduzione al Giapone)",
       "ru": "«Египетские» божества-кентавры (вступление к Японии)",
@@ -5960,7 +6416,7 @@
     },
     {
       "id": "carti8",
-      "num": "209",
+      "num": "227",
       "page": "609",
       "fr": "Canone, figlio di Amida",
       "ru": "Каннон, сын Амиды",
@@ -5987,7 +6443,7 @@
     },
     {
       "id": "carti9",
-      "num": "210",
+      "num": "228",
       "page": "610",
       "fr": "Un'altra statua di Amida presso Meaco",
       "ru": "Ещё одна статуя Амиды близ Меако",
@@ -6014,7 +6470,7 @@
     },
     {
       "id": "carti10",
-      "num": "211",
+      "num": "229",
       "page": "611",
       "fr": "Il dio-lucertola delle lettere",
       "ru": "Бог-ящерица, покровитель учёности",
@@ -6041,7 +6497,7 @@
     },
     {
       "id": "carti11",
-      "num": "212",
+      "num": "230",
       "page": "612",
       "fr": "Una pagoda giapponese",
       "ru": "Японская пагода",
@@ -6069,7 +6525,7 @@
     },
     {
       "id": "carti12",
-      "num": "213",
+      "num": "231",
       "page": "613",
       "fr": "Un castello-tempio giapponese",
       "ru": "Японский замок-храм",
@@ -6096,7 +6552,7 @@
     },
     {
       "id": "carti13",
-      "num": "214",
+      "num": "232",
       "page": "614",
       "fr": "Il grande Idolo giapponese",
       "ru": "Великий японский идол",
@@ -6123,7 +6579,7 @@
     },
     {
       "id": "carti14",
-      "num": "215",
+      "num": "233",
       "page": "615",
       "fr": "Il secondo idoletto d'Aleandro",
       "ru": "Второй идольчик из собрания Алеандро",
@@ -6150,7 +6606,7 @@
     },
     {
       "id": "carti15",
-      "num": "216",
+      "num": "234",
       "page": "616",
       "fr": "Un idolo calvo dal volto ridente (primo idoletto)",
       "ru": "Лысый смеющийся идол (первый идольчик)",
@@ -6177,7 +6633,7 @@
     },
     {
       "id": "carti16",
-      "num": "217",
+      "num": "235",
       "page": "617",
       "fr": "Uno spirito guerriero (secondo idoletto)",
       "ru": "Воинственный дух (второй идольчик)",
@@ -6204,7 +6660,7 @@
     },
     {
       "id": "carti17",
-      "num": "218",
+      "num": "236",
       "page": "618",
       "fr": "Coppia di figure (terzo e quarto idoletto)",
       "ru": "Пара фигур (третий и четвёртый идольчики)",
@@ -6231,7 +6687,7 @@
     },
     {
       "id": "carti18",
-      "num": "219",
+      "num": "237",
       "page": "619",
       "fr": "L'idolo piangente (quinto idoletto)",
       "ru": "Плачущий идол (пятый идольчик)",
@@ -6258,7 +6714,7 @@
     },
     {
       "id": "carti19",
-      "num": "220",
+      "num": "238",
       "page": "620",
       "fr": "Coppia di divinita dalla pelle azzurra (sesto e settimo idoletto)",
       "ru": "Синекожая пара божеств (шестой и седьмой идольчики)",
@@ -6285,7 +6741,7 @@
     },
     {
       "id": "carti20",
-      "num": "221",
+      "num": "239",
       "page": "621",
       "fr": "Divinita a sei braccia (ottavo idoletto)",
       "ru": "Шестирукое божество с луком (восьмой идольчик)",
@@ -6312,7 +6768,7 @@
     },
     {
       "id": "carti21",
-      "num": "222",
+      "num": "240",
       "page": "622",
       "fr": "Figura aureolata dall'aspetto di santo",
       "ru": "Святоподобная фигура с нимбом",
@@ -6339,7 +6795,7 @@
     },
     {
       "id": "carti22",
-      "num": "223",
+      "num": "241",
       "page": "623",
       "fr": "Una dea con un bambino",
       "ru": "Богиня с младенцем на руках",
@@ -6366,7 +6822,7 @@
     },
     {
       "id": "carti23",
-      "num": "224",
+      "num": "242",
       "page": "624",
       "fr": "Un idolo azzurro in un'aureola di fiamme",
       "ru": "Синекожий идол в пламенном нимбе",
@@ -6393,7 +6849,7 @@
     },
     {
       "id": "carti24",
-      "num": "225",
+      "num": "243",
       "page": "625",
       "fr": "Un idolo rosso seduto su una bestia",
       "ru": "Красный идол, сидящий на звере",
@@ -6420,7 +6876,7 @@
     },
     {
       "id": "carti25",
-      "num": "226",
+      "num": "244",
       "page": "626",
       "fr": "Un guerriero su una nuvola",
       "ru": "Воин на облаке с пламенным нимбом",
@@ -6447,7 +6903,7 @@
     },
     {
       "id": "carti26",
-      "num": "227",
+      "num": "245",
       "page": "627",
       "fr": "Spirito alato su un corpo abbattuto",
       "ru": "Крылатый дух, попирающий поверженного",
@@ -6475,7 +6931,7 @@
     },
     {
       "id": "carti27",
-      "num": "228",
+      "num": "246",
       "page": "629",
       "fr": "Piccolo idolo su un vaso (1)",
       "ru": "Маленький идол на вазе (1)",
@@ -6502,7 +6958,7 @@
     },
     {
       "id": "carti28",
-      "num": "229",
+      "num": "247",
       "page": "630",
       "fr": "Piccolo idolo su un vaso (2)",
       "ru": "Маленький идол на вазе (2)",
@@ -6530,7 +6986,7 @@
     },
     {
       "id": "carti29",
-      "num": "230",
+      "num": "248",
       "page": "631",
       "fr": "Piccolo idolo su un vaso (3)",
       "ru": "Маленький идол на вазе (3)",
@@ -6558,7 +7014,7 @@
     },
     {
       "id": "carti30",
-      "num": "231",
+      "num": "249",
       "page": "632",
       "fr": "Piccolo idolo su un vaso (4)",
       "ru": "Маленький идол на вазе (4) — «IL FINE»",
