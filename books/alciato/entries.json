@@ -4831,6 +4831,10 @@
       "text_en": [
         "¶A withered elm, stripped bare of leaves by old age, / a shady vine has embraced with its green foliage. / It acknowledges nature's changing turns, and, grateful to its parent, / repays him with mutual duty in their bond. / By its example it teaches us to seek such friends / as not even our last day shall part from the covenant of friendship."
       ],
+      "name_fr": "Amitié. L'amitié durant même après la mort",
+      "text_frtrans": [
+        "¶L'orme desséché par la vieillesse, et dépouillé même de ses feuilles, / la vigne ombreuse l'a enlacé de son vert feuillage. / Elle reconnaît les vicissitudes de la nature, et, reconnaissante envers son soutien, / lui rend un devoir mutuel. / Par cet exemple elle nous invite à chercher de tels amis / que même le dernier jour ne puisse disjoindre, par la loi de l'amitié."
+      ],
       "group_frtrans": "Amitié."
     },
     {
@@ -4857,6 +4861,10 @@
       ],
       "text_en": [
         "¶The blind man carries the lame man, lifted upon his shoulders, / and he in turn repays his companion with the gift of his eyes. / What each one lacks, the other, in harmony, supplies: / this one lends his eyes, that one lends his feet."
+      ],
+      "name_fr": "Secours mutuel",
+      "text_frtrans": [
+        "¶L'aveugle porte sur ses épaules celui dont les pieds sont perclus : / et celui-ci lui rend en retour le service de ses yeux. / Ce dont manque l'un, l'autre, en bonne entente, le lui fournit ainsi : / celui-ci prête ses yeux, celui-là prête ses pieds."
       ],
       "group_frtrans": "Amitié."
     },
@@ -4885,6 +4893,10 @@
       "text_en": [
         "¶Two perils I diligently escaped by one weapon alone, / when I was oppressed by the sun, and when I was oppressed by the sea. / The shield kept me unharmed in battle; that same shield, / clung to, bore me, shipwrecked, all the way to shore."
       ],
+      "name_fr": "Un secours qui jamais ne fait défaut",
+      "text_frtrans": [
+        "¶J'ai échappé avec soin à deux périls par une seule arme, / quand j'étais accablé par le soleil, et quand j'étais accablé par la mer. / Le bouclier m'a préservé sain et sauf du combat ; ce même bouclier, / saisi par moi, m'a porté, naufragé, jusqu'au rivage."
+      ],
       "group_frtrans": "Amitié."
     },
     {
@@ -4911,6 +4923,10 @@
       ],
       "text_en": [
         "¶The three Graces attend Venus, and follow their mistress, / and hence they provide pleasures and sustenance. / Euphrosyne is joy, Aglaia is radiant splendor, / Peitho is beguilement and a charming grace of speech. / Why are they naked? Because beauty consists in purity of mind, / and pleases by its exceptional simplicity. / Is it not because the ungrateful give nothing back? And that the little casket / of the Graces is empty? He who gives gifts himself remains naked and in need. / Why were winged sandals recently added to their feet? He gives twice / who gives quickly. Gratitude that is slow is worth little. / Why is one of them turned about, her arms entwined with the others? A grateful man / repays with interest; to him two remain, when one departs. / Jupiter is their father; from heavenly seed Eurynome / brought forth these goddesses, welcomed dearly by all."
+      ],
+      "name_fr": "Les Grâces",
+      "text_frtrans": [
+        "¶Trois Grâces assistent Vénus, et suivent leur maîtresse, / et d'elles viennent les plaisirs et les subsistances. / Euphrosyne est la joie, Aglaé l'éclat splendide, / Pitho est la persuasion, et la grâce caressante de la bouche. / Pourquoi nues ? Parce que la beauté réside dans la pureté de l'âme, / et plaît par son excellente simplicité. / Ou bien parce que les ingrats ne rendent rien, et que le coffret / des Grâces est vide ? Qui fait des dons reste lui-même nu et dans le besoin. / Pourquoi leur a-t-on récemment ajouté des sandales ailées aux pieds ? Il donne deux fois, / celui qui donne vite. La gratitude tardive vaut bien peu. / Pourquoi l'une se retourne-t-elle, les bras entrelacés aux autres ? Le reconnaissant / rend au double. Deux lui restent, tandis qu'une s'en va. / Jupiter est leur père ; de la semence du ciel, Eurynomé / enfanta ces déesses, accueillies de tous avec amour."
       ],
       "group_frtrans": "Amitié."
     },
@@ -4939,6 +4955,10 @@
       "text_en": [
         "¶Beaten dunces and stupid schoolmasters dare / to spew upon me the bile of their impure hearts: / what shall I do? shall I repay in kind? But would it not seem absurd / to seize a noisy cicada by a single wing? / What good is it to drive away flies with laborious fanning? / It is better to disregard what you cannot destroy."
       ],
+      "name_fr": "Hostilité. Contre les détracteurs",
+      "text_frtrans": [
+        "¶Osent, ces sots battus de verges et ces maîtres stupides, / vomir sur moi le fiel de leur cœur impur : / que faire ? dois-je rendre la pareille ? mais ne paraîtrait-il pas sauvage / de saisir d'une seule aile une cigale bruyante ? / À quoi bon chasser les mouches à grand renfort d'éventail ? / Mieux vaut négliger ce qu'on ne peut détruire."
+      ],
       "group_frtrans": "Hostilité."
     },
     {
@@ -4965,6 +4985,10 @@
       ],
       "text_en": [
         "¶At night, a dog gazes at the lunar disk as at a mirror: / and, seeing itself, believes there is a dog on high, / and barks; but in vain the futile voice is raised — mere wind, / and deaf Diana continues on her course."
+      ],
+      "name_fr": "Un assaut vain",
+      "text_frtrans": [
+        "¶Le chien, la nuit, contemple le disque de la lune comme un miroir : / et, s'y voyant, croit qu'il y a là-haut un autre chien, / et aboie ; mais en vain s'élève sa voix inutile, pur vent, / et, sourde à lui, Diane poursuit sa course."
       ],
       "group_frtrans": "Hostilité."
     },
@@ -4993,6 +5017,10 @@
       "text_en": [
         "¶A torrent was sweeping along two pots, one of which was of metal, / the other made of clay by a potter's hand. / The metal one then asks the clay one to stay close to it, / so that, joined together, both might withstand the rushing waters. / The clay one replies: 'I have no interest in closeness with you, / lest this proximity bring me many evils. / For whether the wave brings you to me, or me to you, / I, being fragile, alone shall be shattered, while you remain unharmed.'"
       ],
+      "name_fr": "Un peu de mal à cause d'un mauvais voisin. Prosopopée",
+      "text_frtrans": [
+        "¶Un torrent emportait deux marmites, dont l'une était de métal, / l'autre faite de terre par la main du potier. / Celle-ci donc est priée par l'autre de se tenir tout près d'elle, / afin que, jointes, elles résistent toutes deux aux eaux précipitées. / À quoi la marmite d'argile répond : « Je n'ai nul souci de ton commerce, / de peur que cette proximité ne m'apporte bien des maux. / Car, que le flot te porte vers moi, ou moi vers toi, / moi, fragile, seule je me briserai, tandis que toi, tu resteras intacte. »"
+      ],
       "group_frtrans": "Hostilité."
     },
     {
@@ -5019,6 +5047,10 @@
       ],
       "text_en": [
         "¶Against my will, me, a dolphin, the tide drove onto the shore — / an example of how great the perils are in the faithless sea. / For if Neptune spares not even his own nurslings, / who could believe that men are safe in ships?"
+      ],
+      "name_fr": "Sur celui qui périt par la cruauté des siens. Prosopopée",
+      "text_frtrans": [
+        "¶Malgré moi, dauphin, la marée m'a poussé sur le rivage — / exemple de combien grands périls recèle une mer infidèle. / Car si Neptune n'épargne même pas ses propres nourrissons, / qui croirait les hommes en sûreté sur leurs navires ?"
       ],
       "group_frtrans": "Hostilité."
     },
@@ -5047,6 +5079,10 @@
       "text_en": [
         "¶They say that shield-bearing Ajax and Trojan Hector / once began, in turn, to exchange memorial gifts of war. / The son of Priam received a baldric, the son of Telamon a stout sword, / and each received the instrument of his own death. / For the sword finished off Ajax, while Hector, once lifeless, / was dragged by the Thessalian wheels, bound by that same strap. / Thus the gifts which enemies send to enemies, under a show of respect, / carry within them a foreknowledge of fate to come."
       ],
+      "name_fr": "Les dons des ennemis ne sont pas des dons",
+      "text_frtrans": [
+        "¶On rapporte que l'échange de présents de guerre commença entre / Ajax porte-bouclier et Hector d'Ilion. / Le fils de Priam reçut le baudrier, le fils de Télamon le dur glaive ; / l'un et l'autre reçut l'instrument de sa propre mort. / Car le glaive acheva Ajax, et Hector, une fois sans vie, / fut traîné, ses liens noués aux roues thessaliennes. / Ainsi les présents qu'au titre de courtoisie les ennemis envoient à leurs ennemis / portent en eux la prescience du destin à venir."
+      ],
       "group_frtrans": "Hostilité."
     },
     {
@@ -5073,6 +5109,10 @@
       ],
       "text_en": [
         "¶The dung-beetle wages war, and of its own accord challenges its enemy, / and, though inferior in strength, surpasses it by cunning. / For secretly and unseen it hides itself among the eagle's feathers, / so as to reach its enemy's nest through the loftiest stars. / And, piercing the eggs, it prevents the hope of offspring from growing. / In this way it departs avenged for the dishonor inflicted upon it."
+      ],
+      "name_fr": "Il faut craindre même les plus petits",
+      "text_frtrans": [
+        "¶Le scarabée fait la guerre, et provoque lui-même son ennemi, / inférieur en force, il l'emporte par la ruse. / Car, caché et inconnu parmi les plumes de l'aigle, il se dissimule, / afin d'atteindre le nid ennemi à travers les plus hautes étoiles. / Et, perçant les œufs, il empêche l'espoir de la descendance de croître. / Ainsi s'en va-t-il, vengé de l'affront qu'on lui avait fait."
       ],
       "group_frtrans": "Hostilité."
     },
@@ -5101,6 +5141,10 @@
       "text_en": [
         "¶The gilthead seizes little sardine fish in the midst of the sea, / unless, trembling, they flee and make for the surface of the waters. / But there they become food for the voracious divers and coots. / Alas, weakness finds safety nowhere, on any side."
       ],
+      "name_fr": "Une faiblesse vulnérable",
+      "text_frtrans": [
+        "¶La dorade saisit au milieu de la mer les petites sardines, / si, craintives, elles ne fuient vers la surface des eaux. / Mais là elles deviennent la proie des voraces plongeons et foulques. / Hélas, de toutes parts, la faiblesse ne trouve nul lieu sûr."
+      ],
       "group_frtrans": "Hostilité."
     },
     {
@@ -5127,6 +5171,10 @@
       ],
       "text_en": [
         "¶Everything else falls silent, and the sheepskin grows mute, / if drums made of wolf-hide begin to sound. / The sheep's hide so dreads the wolf's, as an enemy, / that even lifeless it cannot bear the lifeless other. / Thus Ziska, his skin stripped off and turned into a drum, / was able, even after death, to vanquish the Bohemian bishops."
+      ],
+      "name_fr": "Redoutables même après la mort",
+      "text_frtrans": [
+        "¶Tout le reste se taira, et le cuir de brebis se taira aussi, / si résonnent des tambours faits de peau de loup. / Cette membrane de brebis redoute tant la peau du loup, comme un ennemi, / que, même sans vie, elle ne supporte pas la peau sans vie. / Ainsi Jizka, s'étant fait écorcher et sa peau changée en tambour, / put vaincre les évêques de Bohême même après sa mort."
       ],
       "group_frtrans": "Hostilité."
     },
@@ -5155,6 +5203,10 @@
       "text_en": [
         "¶While the Cyclops sits in the winding mouth of his cave, / he sings this to himself among his tender sheep: / 'Graze on your grasses; I shall feast on the Achaean companions, / and last of all let our very entrails be borne away.' / The Ithacan [Ulysses] heard this, and left the Cyclops / deprived of his eye. See how the author himself bears the punishment!"
       ],
+      "name_fr": "Juste vengeance",
+      "text_frtrans": [
+        "¶Tandis que le Cyclope siège à l'entrée sinueuse de son antre, / il chante cela pour lui-même parmi ses tendres brebis : / « Paissez, herbes ; moi, je me repaîtrai de mes compagnons achéens, / et pour finir, qu'ils emportent nos entrailles. » / L'Ithacien entendit cela, et priva le Cyclope / de la vue. Voyez comme l'auteur du mal en porte la peine !"
+      ],
       "group_frtrans": "Vengeance."
     },
     {
@@ -5181,6 +5233,10 @@
       ],
       "text_en": [
         "¶A crow was carrying off into the air a scorpion caught in its claws, / a prize won for its bold gullet. / But the scorpion, pouring its poison gradually through its limbs, / as avenger drove its captor down into the Stygian waters. / Oh, a matter worthy of laughter! He who prepared death for others / perished himself, and succumbed to his own tricks."
+      ],
+      "name_fr": "Juste vengeance",
+      "text_frtrans": [
+        "¶Un corbeau emportait dans les airs, saisi par ses serres, / un scorpion, butin acquis pour sa gorge audacieuse. / Mais celui-ci, versant peu à peu son venin dans ses membres, / précipita, vengeur, son ravisseur dans les eaux stygiennes. / Ô chose digne de rire ! Celui qui préparait la mort des autres / périt lui-même, et succomba à ses propres artifices."
       ],
       "group_frtrans": "Vengeance."
     },
@@ -5209,6 +5265,10 @@
       "text_en": [
         "¶The victorious crowd holds captive in a foul prison / a herald who blew the battle-call upon his horn. / He excuses himself: that he is not skilled with weapons, / nor has he wounded anyone's side with a fierce blade. / To him they reply: Nay, you, most cowardly one, sin all the more, / you who with the blast of bronze rouse others to arms."
       ],
+      "name_fr": "La faute du coupable et celle de l'instigateur sont égales",
+      "text_frtrans": [
+        "¶La foule victorieuse tient captif dans une horrible prison / un héraut qui soufflait de son cor les appels au combat. / Il s'excuse, disant qu'il n'est point vaillant aux armes, / ni n'a blessé le flanc de personne de son épée féroce. / On lui répond : « Au contraire, c'est toi qui pèches le plus lâchement, / toi qui, par le fracas de l'airain, pousses les autres aux armes. »"
+      ],
       "group_frtrans": "Vengeance."
     },
     {
@@ -5235,6 +5295,10 @@
       ],
       "text_en": [
         "¶As the puppy snaps at the stone and wearies itself biting it, / yet does no injury back to the one who threw it, / so most people let the true enemies slip away, / and attack with their teeth those burdened by no guilt."
+      ],
+      "name_fr": "L'un pèche, l'autre est châtié",
+      "text_frtrans": [
+        "¶Comme le petit chien saisit une pierre et s'épuise à la mordre, / sans causer en retour aucun dommage à celui qui l'a lancée, / ainsi la plupart laissent échapper leurs véritables ennemis, / et s'attaquent de leurs dents à ceux qu'aucune faute n'accable."
       ],
       "group_frtrans": "Vengeance."
     },
@@ -5263,6 +5327,10 @@
       "text_en": [
         "¶Sword in hand, Ajax stood amid the bristled flock, / slaying his own, believing he was slaying the sons of Tantalus. / Thus the victim-swine, as a substitute, paid the penalty / in place of Laertes's son, in place of the council. / Fury does not know how to harm one's enemies; it strays from its aim, / and, bereft of judgment, rushes to its own ruin."
       ],
+      "name_fr": "L'épée du fou",
+      "text_frtrans": [
+        "¶Ajax, épée en main, se tenait au milieu du troupeau hérissé, / massacrant ses propres bêtes, croyant massacrer les fils de Tantale. / Ainsi la victime porcine, servant de substitut, payait la peine / à la place du fils de Laërte, à la place du conseil des chefs. / La fureur ne sait nuire à ses ennemis, elle manque son coup, / et, privée de raison, se précipite vers sa propre ruine."
+      ],
       "group_frtrans": "Vengeance."
     },
     {
@@ -5289,6 +5357,10 @@
       ],
       "text_en": [
         "¶The tower-bearing elephant, with its ivory tusk, / which is accustomed fiercely to overcome the wars of Mars, / has now placed its neck beneath the yoke; and, driven by goads, / draws Caesar's chariot to the sacred temples. / Even the wild beast recognizes the nations united everywhere, / and, having cast aside its weapons, takes up the duties of peace."
+      ],
+      "name_fr": "Paix",
+      "text_frtrans": [
+        "¶L'éléphant aux épaules chargées de tours, à la dent d'ivoire, / qui d'ordinaire triomphe farouchement des guerres de Mars, / a maintenant plié le cou sous le joug, et, pressé par l'aiguillon, / traîne le char de César vers les temples pieux. / Même la bête sauvage reconnaît de toutes parts les peuples réconciliés, / et, ayant déposé les armes, s'adonne aux travaux de la paix."
       ],
       "group_frtrans": "Paix."
     },
@@ -5317,6 +5389,10 @@
       "text_en": [
         "¶Behold the helmet, which the fearless soldier once wore, and which / was often sprinkled with enemy blood. / Now, peace won, it has been given over to the slender use / of a beehive, and bears honeycombs and pleasant honey. / Let weapons lie far off: it is right to take up war then, / when you cannot otherwise enjoy the art of peace."
       ],
+      "name_fr": "De la guerre naît la paix",
+      "text_frtrans": [
+        "¶Voici le casque qu'un soldat intrépide avait jadis porté, et qui / fut si souvent éclaboussé du sang de l'ennemi. / La paix acquise, il est cédé au mince usage / des abeilles, en forme de ruche ; il porte maintenant rayons et miel agréable. / Que les armes gisent au loin : qu'il soit permis alors de reprendre la guerre, / seulement quand autrement tu ne peux jouir de l'art de la paix."
+      ],
       "group_frtrans": "Paix."
     },
     {
@@ -5343,6 +5419,10 @@
       ],
       "text_en": [
         "¶Weave slender garlands from the great ears of grain, / around which the vine's alternating tendrils may run. / Adorned with these, the halcyons nest in the calm / marble wave, and warm their chicks and fledglings. / The year will be joyful for Ceres, and fruitful for Bacchus too, / if the king shall be like the bird of the sea."
+      ],
+      "name_fr": "De la paix naît l'abondance",
+      "text_frtrans": [
+        "¶Tresse de fins chapeaux faits de grands épis, / autour desquels se love le sarment alterné de la vigne. / Parées de ces couronnes, les alcyons, sur l'onde calme de la mer, / font leur nid, et réchauffent leurs petits sans plumes. / L'année sera joyeuse pour Cérès, et féconde aussi pour Bacchus, / si le roi se montre semblable à cet oiseau des mers."
       ],
       "group_frtrans": "Paix."
     },
