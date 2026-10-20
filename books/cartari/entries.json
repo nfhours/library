@@ -2204,7 +2204,9 @@
       ],
       "scans": [
         "cartf3.jpg"
-      ]
+      ],
+      "needsReview": true,
+      "reviewNote": "Stored caption appears garbled/corrupted (\"si figurata l'imagine di Gione, pleno... quandrina, e facette i fopra barbati\" is not coherent Italian) and does not match the actual text on this image's page (470), which instead discusses an image found in Pope Leo X's time and a later passage about an \"Hecatombe Imperatoria.\" The image itself (a crowned, multi-tiered goddess statue) is plausible for the Juno title, but the caption needs to be re-transcribed from the correct source."
     },
     {
       "id": "cartf4",
