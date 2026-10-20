@@ -1797,7 +1797,9 @@
       ],
       "scans": [
         "carta15.jpg"
-      ]
+      ],
+      "needsReview": true,
+      "reviewNote": "Caption text is confirmed to actually appear on page 515 (not page 514, where the current image carta15.jpg comes from — a dancing bacchic figure with herm pillars that likely belongs to a different, earlier entry). The real accompanying image for this Priapus/Apollo caption has not been located."
     },
     {
       "id": "carta16",
