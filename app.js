@@ -713,8 +713,8 @@
     }).join("");
     var captionLine = it.caption ? '<p class="ic-caption"><b>'+esc(t("captionLbl"))+'</b> '+esc(it.caption)+'</p>' : "";
     var attrs=(it.attrs||[]).map(function(a){
-      var what = state.lang==="fr" && a.what_frtrans ? a.what_frtrans : state.lang==="en" && a.what_en ? a.what_en : a.what;
-      var meaning = state.lang==="fr" && a.meaning_frtrans ? a.meaning_frtrans : state.lang==="en" && a.meaning_en ? a.meaning_en : a.meaning;
+      var what = state.lang==="fr" ? (a.what_frtrans || a.what_en || a.what) : state.lang==="en" && a.what_en ? a.what_en : a.what;
+      var meaning = state.lang==="fr" ? (a.meaning_frtrans || a.meaning_en || a.meaning) : state.lang==="en" && a.meaning_en ? a.meaning_en : a.meaning;
       return '<li><b>'+esc(what)+'</b><span>'+esc(meaning)+'</span></li>';
     }).join("");
     var translArr = textFor(it, book);
@@ -748,7 +748,7 @@
         '<header class="ic-head">'+
           '<p class="ic-kicker">'+(it.num?it.num+". ":"")+esc(it.group_fr?groupOf(it):(book.meta.parts&&book.meta.parts.length>1?partLabel(book,it.part):""))+'</p>'+
           '<h1 class="ic-h-fr">'+esc(it.fr)+'</h1>'+
-          '<p class="ic-h-ru">'+esc(titleOf(it))+'</p>'+
+          (titleOf(it)!==it.fr?'<p class="ic-h-ru">'+esc(titleOf(it))+'</p>':"")+
         '</header>'+
         (imgs?'<div class="ic-figs">'+imgs+'</div>'+captionLine+plateLink:"")+
         (fieldsHtml?'<section class="ic-sec"><h3>'+t("infoSec")+'</h3><ul class="ic-attrs">'+fieldsHtml+'</ul></section>':"")+
