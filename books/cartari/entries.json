@@ -3694,6 +3694,33 @@
       "text_fr": [
         "« L'image d'Isis, déesse égyptienne, qui est la Lune tenue pour la déesse des Navigateurs ; chez les Grecs elle fut Io, transformée par Jupiter en vache après avoir été violée, et, revenue à sa propre forme, s'enfuit par mer en Égypte, où elle fut adorée par ces peuples pour les bienfaits reçus. »"
       ]
+    },
+    {
+      "id": "cartm37",
+      "num": "37",
+      "page": "37",
+      "fr": "Imagine d'Iside, dea degli Egizi, con il sistro",
+      "ru": "Образ Исиды, богини египтян, с систром",
+      "en": "The image of Isis, goddess of the Egyptians, with the sistrum",
+      "img": [
+        "cartm37.jpg"
+      ],
+      "scans": [
+        "cartm37.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine d'Iside dea de gli Egitij, che è la Luna, con arnesi in mano denotanti la natura del Nilo & dell'Egitto, gl'Ecclissi lunari, & altri effetti suoi si nelle acque, come nelle cose elementari.",
+      "text_ru": [
+        "«Образ Исиды, богини египтян, отождествляемой с Луной, с предметами в руках, обозначающими природу Нила и Египта, лунные затмения и иные её воздействия как на воды, так и на стихии»."
+      ],
+      "text_en": [
+        "“The image of Isis, goddess of the Egyptians, who is the Moon, with implements in her hands denoting the nature of the Nile and of Egypt, lunar Eclipses, and her other effects both upon the waters and upon the elements.”"
+      ],
+      "name_fr": "L'image d'Isis, déesse des Égyptiens, avec le sistre",
+      "text_fr": [
+        "« L'image d'Isis, déesse des Égyptiens, qui est la Lune, avec des instruments dans les mains désignant la nature du Nil et de l'Égypte, les Éclipses lunaires, et ses autres effets tant sur les eaux que sur les éléments. »"
+      ]
     }
   ]
 }
