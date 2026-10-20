@@ -3937,6 +3937,60 @@
       "text_fr": [
         "« L'image de Jupiter foudroyant, dispensateur des pluies et des nuages d'orage ; et l'image de Jupiter Labradeus des Lydiens, signifiant que Dieu est prêt à châtier les malfaiteurs, et manifestant la providence divine. »"
       ]
+    },
+    {
+      "id": "cartm46",
+      "num": "46",
+      "page": "46",
+      "fr": "Imagine dell'oracolo di Giove Hammonio dei Trogloditi",
+      "ru": "Образ оракула Юпитера Аммона у троглодитов",
+      "en": "The image of the oracle of Jove Hammon of the Troglodytes",
+      "img": [
+        "cartm46.jpg"
+      ],
+      "scans": [
+        "cartm46.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine dell'oracolo di Gioue Hammonio de Trogloditi significante l'oscurità, & viltà delle cose mondane, & che bisogna riguardare, & inalzarsi con l'acutezza dell'intelletto all'altezza delle diuine.",
+      "text_ru": [
+        "«Образ оракула Юпитера Аммона у троглодитов, означающий тёмность и ничтожность вещей мирских, и что надлежит взирать и возвышаться остротой разума до высоты вещей божественных»."
+      ],
+      "text_en": [
+        "“The image of the oracle of Jove Hammon of the Troglodytes, signifying the obscurity and lowliness of worldly things, and that one must look, and rise with sharpness of intellect, to the height of divine things.”"
+      ],
+      "name_fr": "L'image de l'oracle de Jupiter Hammon des Troglodytes",
+      "text_fr": [
+        "« L'image de l'oracle de Jupiter Hammon des Troglodytes, signifiant l'obscurité et la bassesse des choses du monde, et qu'il faut regarder et s'élever, par l'acuité de l'intellect, jusqu'à la hauteur des choses divines. »"
+      ]
+    },
+    {
+      "id": "cartm47",
+      "num": "47",
+      "page": "47",
+      "fr": "Imagine di Giove Hammonio degli Arcadi e degli Egizi",
+      "ru": "Образ Юпитера Аммона у аркадцев и египтян",
+      "en": "The image of Jove Hammon of the Arcadians and Egyptians",
+      "img": [
+        "cartm47.jpg"
+      ],
+      "scans": [
+        "cartm47.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine di Gioue Hammonio de gli Arcadi, & de gli Egittij, & della quercia, & del montone à lui sacrati, significanti Iddio esser auttore della vita & mantenitore del viuere, & delle risposte dubie del detto oracolo Hammonio.",
+      "text_ru": [
+        "«Образ Юпитера Аммона у аркадцев и египтян, с дубом и бараном, посвящёнными ему, означающими, что Бог есть источник жизни и податель пропитания, а также двусмысленность ответов упомянутого оракула Аммона»."
+      ],
+      "text_en": [
+        "“The image of Jove Hammon of the Arcadians and Egyptians, with the oak and the ram sacred to him, signifying that God is the author of life and sustainer of living, and also the ambiguous answers of the said oracle of Hammon.”"
+      ],
+      "name_fr": "L'image de Jupiter Hammon des Arcadiens et des Égyptiens",
+      "text_fr": [
+        "« L'image de Jupiter Hammon des Arcadiens et des Égyptiens, avec le chêne et le bélier qui lui sont sacrés, signifiant que Dieu est l'auteur de la vie et le soutien de la subsistance, ainsi que le caractère ambigu des réponses dudit oracle d'Hammon. »"
+      ]
     }
   ]
 }
