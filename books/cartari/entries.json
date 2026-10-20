@@ -5605,6 +5605,87 @@
       "text_fr": [
         "« Les images de Bacchus triomphant, et inventeur du Triomphe, après avoir vaincu l'Inde, et de son char tiré par des Tigres et des Panthères, avec diverses plantes qui lui sont sacrées et nombre d'animaux encore, signifiant la nature et les effets du vin et de l'ivresse. »"
       ]
+    },
+    {
+      "id": "cartm93",
+      "num": "93",
+      "page": "93",
+      "fr": "Imagine della Nave di Bacco",
+      "ru": "Образ Корабля Вакха",
+      "en": "The image of the Ship of Bacchus",
+      "img": [
+        "cartm93.jpg"
+      ],
+      "scans": [
+        "cartm93.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine della Naue di Bacco, del monte Timolo di Lidia delle Bacche per quello scorrenti, & de Corsari Tirrheni captori di Bacco da quello tramutati in Delfini per loro misfatti significanti li vitij, & peccati far perder all'huomo la ragione.",
+      "text_ru": [
+        "«Образ Корабля Вакха, лидийской горы Тимол, по которой носятся Вакханки, и тирренских корсаров, пленивших Вакха и обращённых им в дельфинов за свои злодеяния, — означающий, что пороки и грехи лишают человека разума»."
+      ],
+      "text_en": [
+        "“The image of the Ship of Bacchus, of Mount Tmolus in Lydia, over which the Bacchae run, and of the Tyrrhenian corsairs who captured Bacchus and were by him transformed into Dolphins for their misdeeds, signifying that vices and sins cause man to lose his reason.”"
+      ],
+      "name_fr": "L'image du Navire de Bacchus",
+      "text_fr": [
+        "« L'image du Navire de Bacchus, du mont Tmolus en Lydie, sur lequel courent les Bacchantes, et des corsaires tyrrhéniens, qui capturèrent Bacchus et furent par lui changés en Dauphins pour leurs méfaits, signifiant que les vices et les péchés font perdre à l'homme la raison. »"
+      ]
+    },
+    {
+      "id": "cartm94",
+      "num": "94",
+      "page": "94",
+      "fr": "Imagine di Horo, dio degli Egizi, Priapo e Bacco",
+      "ru": "Образ Гора, бога египтян, Приапа и Вакха",
+      "en": "The image of Horus, god of the Egyptians, Priapus and Bacchus",
+      "img": [
+        "cartm94.jpg"
+      ],
+      "scans": [
+        "cartm94.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine di Horo Dio delli Egittij, che è Priapo, & Bacco ancora, il quale viene inteso per la virtù seminale, & per il Sole; con il disegno del Disco significante la rotondità del mondo, che viene dal Sole illuminato, & à cui il Sole influisce la virtù sua.",
+      "text_ru": [
+        "«Образ Гора, бога египтян, который есть также Приап и Вакх, понимаемый как семенная сила и как Солнце; с изображением Диска, означающего округлость мира, освещаемого Солнцем, которому Солнце сообщает свою силу»."
+      ],
+      "text_en": [
+        "“The image of Horus, god of the Egyptians, who is also Priapus and Bacchus, understood as the seminal power and as the Sun; with the device of the Disc signifying the roundness of the world, which is illuminated by the Sun, and into which the Sun infuses its power.”"
+      ],
+      "name_fr": "L'image d'Horus, dieu des Égyptiens, Priape et Bacchus",
+      "text_fr": [
+        "« L'image d'Horus, dieu des Égyptiens, qui est aussi Priape et Bacchus, entendu comme la vertu séminale et comme le Soleil ; avec le dessin du Disque signifiant la rondeur du monde, qui est éclairé par le Soleil, et auquel le Soleil insuffle sa vertu. »"
+      ]
+    },
+    {
+      "id": "cartm95",
+      "num": "95",
+      "page": "95",
+      "fr": "Imagini di Tifone e di Horo",
+      "ru": "Образы Тифона и Гора",
+      "en": "The images of Typhon and Horus",
+      "img": [
+        "cartm95.jpg"
+      ],
+      "scans": [
+        "cartm95.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagini di Tifone fratel d'Osiri, & di Horo figliuolo d'Osiri, che è Baccho appo i Greci, qual Horo superò il detto Tifone, benche in Crocodilo tramutato; con l'Hippopotamo, & Sparauiere hieroglifici denotanti la virtù combattente, & resistente al male, & ch'al fine lo supera e conculca.",
+      "text_ru": [
+        "«Образы Тифона, брата Осириса, и Гора, сына Осириса, который есть Вакх у греков; Гор одолел названного Тифона, хотя тот и обратился в Крокодила; с иероглифами Бегемота и Ястреба, означающими силу, сражающуюся и противостоящую злу, которая в конце концов побеждает его и попирает»."
+      ],
+      "text_en": [
+        "“The images of Typhon, brother of Osiris, and of Horus, son of Osiris, who is Bacchus among the Greeks; which Horus overcame the said Typhon, although he had transformed into a Crocodile; with the Hippopotamus and Hawk hieroglyphs denoting the power that fights and resists evil, and which in the end overcomes and tramples it.”"
+      ],
+      "name_fr": "Les images de Typhon et d'Horus",
+      "text_fr": [
+        "« Les images de Typhon, frère d'Osiris, et d'Horus, fils d'Osiris, qui est Bacchus chez les Grecs ; lequel Horus vainquit ledit Typhon, bien que celui-ci se fût changé en Crocodile ; avec les hiéroglyphes de l'Hippopotame et de l'Épervier signifiant la vertu qui combat et résiste au mal, et qui finit par le vaincre et le fouler aux pieds. »"
+      ]
     }
   ]
 }
