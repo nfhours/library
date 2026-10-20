@@ -2692,7 +2692,9 @@
       ],
       "scans": [
         "carta44.jpg"
-      ]
+      ],
+      "needsReview": true,
+      "reviewNote": "Caption (\"Questo scherzo d'Archesilao...\") is duplicated from page 527 (carta41's page) and does not actually describe this image. The uploaded image itself (page 540, a symbolic hand holding a lyre) has no caption text of its own visible on the page; the correct description for it has not been located."
     },
     {
       "id": "carta45",
