@@ -5767,6 +5767,87 @@
       "text_fr": [
         "« Les images du bon et du mauvais Génie, gardien et observateur de la génération humaine, des actions, et des Villes et lieux privés. »"
       ]
+    },
+    {
+      "id": "cartm99",
+      "num": "99",
+      "page": "99",
+      "fr": "Imagini della Fortuna lieta e triste",
+      "ru": "Образы радостной и печальной Фортуны",
+      "en": "The images of joyful and sorrowful Fortune",
+      "img": [
+        "cartm99.jpg"
+      ],
+      "scans": [
+        "cartm99.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagini della lieta, & trista fortuna, ouero della fortuna passata, presente, & ventura, giudicata da gli antichi, benche sij solo vn nome imaginato, maggiore de tutti li loro dei falsi, & patrona delle cose di qua giù, & questo nume li antichi s'imaginorono per scusa dell'imprudenze loro.",
+      "text_ru": [
+        "«Образы радостной и печальной Фортуны, то есть судьбы прошедшей, настоящей и будущей, как её почитали древние, хотя это лишь воображаемое имя, большее всех их ложных богов и владычица дел здешнего мира; и это божество древние измыслили в оправдание своей неосмотрительности»."
+      ],
+      "text_en": [
+        "“The images of joyful and sorrowful Fortune, that is, of fortune past, present, and to come, as judged by the ancients, although it is but an imagined name, greater than all their false gods, and patroness of things here below; and the ancients imagined this deity as an excuse for their own imprudence.”"
+      ],
+      "name_fr": "Les images de la Fortune joyeuse et triste",
+      "text_fr": [
+        "« Les images de la Fortune joyeuse et triste, c'est-à-dire de la fortune passée, présente et à venir, telle que jugée par les anciens, bien que ce ne soit qu'un nom imaginé, plus grand que tous leurs faux dieux, et patronne des choses d'ici-bas ; et les anciens imaginèrent cette divinité pour excuser leur propre imprudence. »"
+      ]
+    },
+    {
+      "id": "cartm100",
+      "num": "100",
+      "page": "100",
+      "fr": "Imagini dell'Invidia",
+      "ru": "Образы Зависти",
+      "en": "The images of Envy",
+      "img": [
+        "cartm100.jpg"
+      ],
+      "scans": [
+        "cartm100.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagini dell'Inuidia, che à se stessa nuoce, essendo che l'inuidioso si strugge vedendo l'altrui prosperità, & si ottura l'orecchie à l'altrui lodi, & si stringe la gola per soffocarsi, quelle vedendo essaltate, & questo è il pessimo de vitij.",
+      "text_ru": [
+        "«Образы Зависти, которая вредит самой себе, ибо завистник изводит себя, видя чужое благополучие, затыкает уши от чужих похвал и сжимает себе горло, чтобы задохнуться, видя их прославляемыми; это худший из пороков»."
+      ],
+      "text_en": [
+        "“The images of Envy, which harms itself, since the envious man wastes away at the sight of others' prosperity, stops his ears to others' praise, and grips his own throat to choke himself at seeing them exalted; and this is the worst of vices.”"
+      ],
+      "name_fr": "Les images de l'Envie",
+      "text_fr": [
+        "« Les images de l'Envie, qui se nuit à elle-même, car l'envieux se consume à voir la prospérité d'autrui, se bouche les oreilles aux louanges d'autrui, et se serre la gorge pour s'étouffer en les voyant exaltées ; et c'est le pire des vices. »"
+      ]
+    },
+    {
+      "id": "cartm101",
+      "num": "101",
+      "page": "101",
+      "fr": "Imagine di Momo, dio della riprensione",
+      "ru": "Образ Мома, бога порицания",
+      "en": "The image of Momus, god of censure",
+      "img": [
+        "cartm101.jpg"
+      ],
+      "scans": [
+        "cartm101.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine di Momo Dio della reprensione, ò maledicenza, & del biasmo, figliuolo del Sonno, & della Notte, significante li detrattori non esser da niente, ne mai oprar nulla, solo biasimare le operationi altrui, non riguardando mai se non al riprensibile, non mai al lodeuole, simili à talpe, che non riguardano il Sole ne il giorno, ma solo le tenebre & l'oscurità.",
+      "text_ru": [
+        "«Образ Мома, бога порицания, или злоречия, и хулы, сына Сна и Ночи, означающий, что хулители ничего собой не представляют и сами ничего не совершают, а лишь порицают дела других, замечая всегда только достойное осуждения, никогда — похвального, подобно кротам, которые не глядят ни на Солнце, ни на день, но лишь на тьму и мрак»."
+      ],
+      "text_en": [
+        "“The image of Momus, god of censure, or slander, and of blame, son of Sleep and of Night, signifying that detractors are worth nothing and never accomplish anything themselves, only blaming the deeds of others, ever noting only what is reprehensible, never what is praiseworthy, like moles, which look not upon the Sun nor the day, but only upon darkness and gloom.”"
+      ],
+      "name_fr": "L'image de Momos, dieu de la critique",
+      "text_fr": [
+        "« L'image de Momos, dieu de la critique, ou de la médisance, et du blâme, fils du Sommeil et de la Nuit, signifiant que les détracteurs ne valent rien et n'accomplissent jamais rien eux-mêmes, se contentant de blâmer les œuvres d'autrui, ne remarquant toujours que ce qui est répréhensible, jamais ce qui est louable, pareils à des taupes, qui ne regardent ni le Soleil ni le jour, mais seulement les ténèbres et l'obscurité. »"
+      ]
     }
   ]
 }
