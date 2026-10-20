@@ -6071,6 +6071,10 @@
       "text_en": [
         "¶The oak is pleasing to Jupiter, for it preserves and nurtures us; / to one who has saved a citizen's life, an oaken crown is given. / ANOTHER. / With its acorn it once nourished the ancients; now it avails only by its shade: / thus too, thus, the tree of Jove, once dutiful, now gives but shade."
       ],
+      "name_fr": "Le chêne",
+      "text_frtrans": [
+        "¶Le chêne est agréable à Jupiter, qui nous garde et nous protège ; / à qui a sauvé un citoyen, on donne la couronne de chêne. / AUTRE. / Il nourrissait jadis les anciens de son gland, aujourd'hui il ne sert plus que par son ombre : / ainsi va aussi l'arbre de Jupiter, naguère si serviable, aujourd'hui réduit à l'ombre."
+      ],
       "group_frtrans": "Arbres."
     },
     {
@@ -6097,6 +6101,10 @@
       ],
       "text_en": [
         "¶That Homer called the willow 'fruit-losing' [barren], / he thereby likens to it men resembling the Cluterii in character."
+      ],
+      "name_fr": "Le saule",
+      "text_frtrans": [
+        "¶Qu'Homère ait appelé le saule « perdant son fruit », / il compare par là les hommes aux mœurs des Clytériens."
       ],
       "group_frtrans": "Arbres."
     },
@@ -6125,6 +6133,10 @@
       "text_en": [
         "¶The fir, fit for the seas, grows on high mountains: / and even in adverse conditions there lies the greatest benefit."
       ],
+      "name_fr": "Le sapin",
+      "text_frtrans": [
+        "¶Le sapin, propre à la mer, naît sur les hautes montagnes : / même dans l'adversité se trouve la plus grande utilité."
+      ],
       "group_frtrans": "Arbres."
     },
     {
@@ -6151,6 +6163,10 @@
       ],
       "text_en": [
         "¶But the fact that the spruce sends out no shoots from its stock / is a token of one who perishes without offspring."
+      ],
+      "name_fr": "L'épicéa",
+      "text_frtrans": [
+        "¶Que l'épicéa ne pousse jamais de rejetons de sa tige, / voilà le signe de celui qui périt sans descendance."
       ],
       "group_frtrans": "Arbres."
     },
@@ -6179,6 +6195,10 @@
       "text_en": [
         "¶It is said that ancient Solon decreed that quince apples / should be given to newlyweds. / Since they are pleasing to mouth and stomach, so too their breath / becomes sweet, and a gentle charm remains upon the lips."
       ],
+      "name_fr": "Le coing",
+      "text_frtrans": [
+        "¶On dit que l'ancien Solon établit que les pommes de Cydonie / devaient être données aux jeunes mariées. / Comme elles sont agréables à la bouche et à l'estomac, l'haleine aussi / en devient suave, et une douce grâce demeure sur les lèvres."
+      ],
       "group_frtrans": "Arbres."
     },
     {
@@ -6205,6 +6225,10 @@
       ],
       "text_en": [
         "¶Never withering is the little tree of ivy, which, they say, / the boy Cissus once gave as a gift to Bacchus: / wandering, bold, tawny with its golden clusters, / green outside, while all else within is pale. / Hence poets wreathe their brows with its fitting garlands; / they grow pale from their studies, while their fame is lasting"
+      ],
+      "name_fr": "Le lierre",
+      "text_frtrans": [
+        "¶Jamais ne se flétrit l'arbuste du lierre, que, dit-on, / le jeune Cissos offrit en présent à Bacchus : / errant, hardi, fauve de ses corymbes dorés, / vert à l'extérieur, et tout pâle pour le reste. / De là les poètes ceignent leurs tempes de guirlandes assorties ; / ils pâlissent à l'étude, mais leur gloire est durable."
       ],
       "group_frtrans": "Arbres."
     },
@@ -6233,6 +6257,10 @@
       "text_en": [
         "¶That the holm-oak breaks apart from excessive hardness / holds the symbol of civil sedition."
       ],
+      "name_fr": "Le chêne vert",
+      "text_frtrans": [
+        "¶Que le chêne vert se brise de trop grande dureté, / voilà qui porte le symbole de la sédition civile."
+      ],
       "group_frtrans": "Arbres."
     },
     {
@@ -6259,6 +6287,10 @@
       ],
       "text_en": [
         "¶These fruits are the golden apples of Venus: their pleasant bitterness / signifies this, for in Greek love is called 'bittersweet'."
+      ],
+      "name_fr": "Le citronnier",
+      "text_frtrans": [
+        "¶Ce sont là les pommes d'or de Vénus : leur amertume agréable / le montre, car ainsi, chez les Grecs, l'amour est dit « doux-amer »."
       ],
       "group_frtrans": "Arbres."
     },
@@ -6287,6 +6319,10 @@
       "text_en": [
         "¶Ever green, with a curly crown, the box-tree, / from which the pan-pipe, made with unequal reeds, is fashioned — / a tree fitting for tender delights and for lovers. / Paleness dwells in it, and every lover too grows pale."
       ],
+      "name_fr": "Le buis",
+      "text_frtrans": [
+        "¶Toujours vert, et à la cime frisée, le buis, / dont on fait la flûte aux tons inégaux, / est un arbre propre aux tendres délices et aux amants. / Il porte en lui la pâleur, et tout amant est pâle."
+      ],
       "group_frtrans": "Arbres."
     },
     {
@@ -6313,6 +6349,10 @@
       ],
       "text_en": [
         "¶But the mulberry buds latest of all, never except once the cold has passed, / and, though wise, bears a false name."
+      ],
+      "name_fr": "Le mûrier",
+      "text_frtrans": [
+        "¶Le mûrier, plus tardif, ne bourgeonne jamais qu'une fois le froid passé, / et, sage, porte un nom trompeur."
       ],
       "group_frtrans": "Arbres."
     },
@@ -6341,6 +6381,10 @@
       "text_en": [
         "¶Why, almond-tree, in your haste, do you send forth flowers before leaves? / I hate pupils of precocious talent."
       ],
+      "name_fr": "L'amandier",
+      "text_frtrans": [
+        "¶Pourquoi, amandier, te hâtes-tu d'envoyer tes fleurs avant tes feuilles ? / Je hais les enfants d'un talent trop précoce."
+      ],
       "group_frtrans": "Arbres."
     },
     {
@@ -6368,6 +6412,10 @@
       "text_en": [
         "¶The laurel, foreknowing the future, bears signs of well-being. / Placed beneath a pillow, it makes dreams come true. / ANOTHER. / To Charles is owed the laurel for the conquered Carthaginians: / let such garlands adorn victorious locks."
       ],
+      "name_fr": "Le laurier",
+      "text_frtrans": [
+        "¶Le laurier, qui connaît d'avance l'avenir, porte les signes du salut. / Placé sous l'oreiller, il rend les songes véridiques. / AUTRE. / À Charles est due la couronne de laurier pour les Carthaginois vaincus : / que de telles guirlandes ornent les chevelures victorieuses."
+      ],
       "group_frtrans": "Arbres."
     },
     {
@@ -6394,6 +6442,10 @@
       ],
       "text_en": [
         "¶That the two-colored poplar adorns the locks of Hercules / signifies that night and day alternate in the changing of time."
+      ],
+      "name_fr": "Le peuplier blanc",
+      "text_frtrans": [
+        "¶Que le peuplier à deux couleurs orne la chevelure d'Hercule / signifie que la nuit et le jour alternent dans le cours du temps."
       ],
       "group_frtrans": "Arbres."
     }
