@@ -5983,6 +5983,33 @@
       "text_fr": [
         "« L'image de la Fortune à cheval, galopant rapidement, poursuivie par le Destin et le Sort, indiquant sa rapidité, et que là où ceux-ci se trouvent, elle n'a aucun pouvoir ni constance. »"
       ]
+    },
+    {
+      "id": "cartm107",
+      "num": "107",
+      "page": "107",
+      "fr": "Imagine del buon Evento e del Favore instabile",
+      "ru": "Образ доброго Случая и непостоянной Благосклонности",
+      "en": "The image of good Event and of unstable Favour",
+      "img": [
+        "cartm107.jpg"
+      ],
+      "scans": [
+        "cartm107.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine del buono Euento & felice successo, del Fauore instabile, lieue, & caduco, dell'Adulatione, & dell'Inuidia, che spingono, & accompagnano detto Fauore, & l'imagine della ruota volubile della Fortuna, sopra la quale il detto Fauore riposa i piedi e casca al suo girare, effetto che si vede per ordinario nelle Corti e nel Mondo.",
+      "text_ru": [
+        "«Образ доброго Случая и счастливого успеха, непостоянной, лёгкой и преходящей Благосклонности, Лести и Зависти, которые подталкивают и сопровождают названную Благосклонность, а также образ вращающегося колеса Фортуны, на котором названная Благосклонность стоит ногами и падает при его вращении — явление, обычно наблюдаемое при дворах и в мире»."
+      ],
+      "text_en": [
+        "“The image of good Event and happy success, of unstable, light, and fleeting Favour, of Flattery and of Envy, which push and accompany the said Favour, and the image of the turning wheel of Fortune, upon which the said Favour rests its feet and falls as it turns — an effect ordinarily seen at Courts and in the World.”"
+      ],
+      "name_fr": "L'image du bon Événement et de la Faveur instable",
+      "text_fr": [
+        "« L'image du bon Événement et du succès heureux, de la Faveur instable, légère et caduque, de l'Adulation et de l'Envie, qui poussent et accompagnent ladite Faveur, et l'image de la roue mobile de la Fortune, sur laquelle ladite Faveur pose les pieds et tombe lorsqu'elle tourne — effet ordinairement observé dans les Cours et dans le Monde. »"
+      ]
     }
   ]
 }
