@@ -6226,6 +6226,60 @@
       "text_fr": [
         "« L'image de Vénus armée, de Vénus victorieuse, et de Vénus enchaînée, indiquant la fermeté qui doit être celle des époux et des amants ; cette image indique aussi la valeur des Femmes lacédémoniennes contre les Messéniens, qui allaient saccager leur Ville, vaillamment défendue par elles. »"
       ]
+    },
+    {
+      "id": "cartm116",
+      "num": "116",
+      "page": "116",
+      "fr": "Imagine di Venere maschio e femmina",
+      "ru": "Образ Венеры мужской и женской",
+      "en": "The image of Venus, male and female",
+      "img": [
+        "cartm116.jpg"
+      ],
+      "scans": [
+        "cartm116.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine di Venere maschio e femina, significante questa esser sopra l'vniuersal generatione delle cose, essendo tolta per l'aria; & nelli Dei non esser differenza di esso, come ne mortali, & imagine di Venere addolorata per la morte d'Adone morto dal Cinghiale, inteso per la stagione hiemale & fredda.",
+      "text_ru": [
+        "«Образ Венеры мужской и женской, означающий, что она властвует над всеобщим порождением вещей, будучи отождествляема с воздухом; и что у богов в этом нет различия [пола], как у смертных; а также образ Венеры, скорбящей о смерти Адониса, убитого Вепрем, что понимается как зимнее, холодное время года»."
+      ],
+      "text_en": [
+        "“The image of Venus, male and female, signifying that she presides over the universal generation of things, being identified with the air; and that among the Gods there is no difference in this, as there is among mortals; and the image of Venus grieving over the death of Adonis, slain by the Boar, understood as the cold winter season.”"
+      ],
+      "name_fr": "L'image de Vénus, mâle et femelle",
+      "text_fr": [
+        "« L'image de Vénus, mâle et femelle, signifiant qu'elle préside à la génération universelle des choses, étant assimilée à l'air ; et que chez les Dieux il n'y a pas de différence en cela, comme chez les mortels ; et l'image de Vénus affligée par la mort d'Adonis, tué par le Sanglier, entendue comme la froide saison hivernale. »"
+      ]
+    },
+    {
+      "id": "cartm117",
+      "num": "117",
+      "page": "117",
+      "fr": "Imagine delle Grazie guidate da Mercurio",
+      "ru": "Образ Граций, ведомых Меркурием",
+      "en": "The image of the Graces guided by Mercury",
+      "img": [
+        "cartm117.jpg"
+      ],
+      "scans": [
+        "cartm117.jpg"
+      ],
+      "group": "Главный текст",
+      "group_en": "Main text",
+      "caption": "Imagine delle Gratie guidate da Mercurio, dinotante, che il giouare & la benificenza deue esser fatta con ragione, à tempo, & à meriteuoli, senza speranza di premio, con animo sincero, & che il beneficiato deue con occasione render il beneficio & se non in fatti almen con le parole.",
+      "text_ru": [
+        "«Образ Граций, ведомых Меркурием, означающий, что благодеяние и милость должны оказываться разумно, своевременно и достойным, без надежды на награду, с искренним расположением; и что облагодетельствованный должен при случае отплатить за благодеяние, если не делом, то хотя бы словом»."
+      ],
+      "text_en": [
+        "“The image of the Graces guided by Mercury, denoting that helping and benefaction must be done with reason, at the right time, and to the deserving, without hope of reward, with a sincere heart, and that the one who has been benefited must, when occasion arises, return the favour, if not in deed then at least in word.”"
+      ],
+      "name_fr": "L'image des Grâces guidées par Mercure",
+      "text_fr": [
+        "« L'image des Grâces guidées par Mercure, indiquant que l'assistance et la bienfaisance doivent être accomplies avec raison, en temps voulu, et envers ceux qui le méritent, sans espoir de récompense, avec un cœur sincère, et que celui qui a été favorisé doit, à l'occasion, rendre le bienfait, sinon en actes, du moins en paroles. »"
+      ]
     }
   ]
 }
