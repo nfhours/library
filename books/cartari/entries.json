@@ -3480,6 +3480,50 @@
       "text_fr": [
         "« Image de Charon, nocher infernal sur le sombre fleuve Achéron, avec sa barque et sa rame ; il est aussi le Temps, consumateur de la vie, et ses autres traits dénotent de même la misère et le malheur de la vie humaine. »"
       ]
+    },
+    {
+      "id": "cartm50",
+      "num": "50",
+      "page": "50",
+      "fr": "Giunone Regina e Giunone Corinthia",
+      "ru": "Юнона-Царица и Юнона Коринфская",
+      "en": "Juno the Queen and Juno of Corinth",
+      "name_fr": "Junon Reine et Junon de Corinthe",
+      "img": [
+        "cartm50.jpg"
+      ],
+      "caption": "Imagine di Giunone Regina degli Dei, moglie di Gioue, intesa per l'aria, & l'imagine di Giunone Corinthia, & del Cucco vccello, nel quale si mutò Gioue quando da prima giacque con la detta Dea Giunone sua sorella.",
+      "text_ru": [
+        "«Образ Юноны, царицы богов, супруги Юпитера, понимаемой как воздух, и образ Юноны Коринфской, и кукушки — птицы, в которую обратился Юпитер, когда впервые возлёг с этой богиней, своей сестрой Юноной»."
+      ],
+      "text_en": [
+        "“Image of Juno, queen of the gods, wife of Jove, understood as the air, and the image of Juno of Corinth, and of the Cuckoo, the bird into which Jove transformed himself when he first lay with the goddess Juno, his sister.”"
+      ],
+      "text_fr": [
+        "« Image de Junon, reine des dieux, épouse de Jupiter, comprise comme l'air, et image de Junon de Corinthe, et du Coucou, oiseau sous la forme duquel Jupiter se transforma lorsqu'il s'unit pour la première fois à la déesse Junon, sa sœur. »"
+      ]
+    },
+    {
+      "id": "cartm51",
+      "num": "51",
+      "page": "51",
+      "fr": "Castore e Polluce",
+      "ru": "Кастор и Поллукс",
+      "en": "Castor and Pollux",
+      "name_fr": "Castor et Pollux",
+      "img": [
+        "cartm51.jpg"
+      ],
+      "caption": "Imagine di Castore è Polluce, dei de Nauiganti, significanti al lor apparire bonaccia, quali sono anco protettori de Caualli, essendo Stelle velocissime nel corso loro, & vno de dodici segni del Zodiaco, detti i duoi gemelli figliuoli di Gioue, & di Leda.",
+      "text_ru": [
+        "«Образ Кастора и Поллукса, богов мореходов, чьё появление означает штиль; они же покровители коней, будучи звёздами, стремительнейшими в своём движении, и одним из двенадцати знаков Зодиака, называемые двумя близнецами, сыновьями Юпитера и Леды»."
+      ],
+      "text_en": [
+        "“Image of Castor and Pollux, gods of sailors, whose appearance signifies a calm sea; they are also protectors of horses, being stars most swift in their course, and one of the twelve signs of the Zodiac, called the two twins, sons of Jove and Leda.”"
+      ],
+      "text_fr": [
+        "« Image de Castor et Pollux, dieux des navigateurs, dont l'apparition signifie le calme de la mer ; ils sont aussi protecteurs des chevaux, étant des étoiles des plus rapides en leur course, et l'un des douze signes du Zodiaque, appelés les deux jumeaux, fils de Jupiter et de Léda. »"
+      ]
     }
   ]
 }
