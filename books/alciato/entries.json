@@ -25,7 +25,12 @@
       ],
       "text_en": [
         "¶See how the gifted painter made the eagle of Jove / carry the Trojan boy up through the highest stars. / Who would believe Jove touched by a boy's young love? / Tell me, where did the old Maeonian blind man invent this? / Counsel, and the mind, in which a god takes his delight — / whoever possesses them is believed snatched up to highest Jove."
-      ]
+      ],
+      "name_fr": "Il faut se réjouir en Dieu",
+      "text_frtrans": [
+        "¶Vois comme un peintre habile a fait l'aigle de Jupiter / emporter l'enfant troyen à travers les plus hauts astres. / Qui croirait Jupiter touché par l'amour d'un enfant ? / Dis-moi, d'où le vieillard aveugle de Méonie a-t-il inventé cela ? / Le conseil et l'esprit, en qui un dieu trouve sa joie — / celui qui les possède est cru ravi auprès du très-haut Jupiter."
+      ],
+      "group_frtrans": "Dieu, ou la Religion."
     },
     {
       "id": "alc11",
@@ -51,7 +56,12 @@
       ],
       "text_en": [
         "¶What shall I say? By what name shall I call this / two-formed monster — neither man, nor dragon? / A man without feet, a serpent without its upper half, / may be called a serpent-footed man, or a man-headed serpent. / The man ends in a snake, the snake begins in a man, / and it is neither wholly human nor wholly beast. / So once Cecrops reigned over learned Athens; / so too the earth, our mother, bore the giants. / This shape marks the cunning man who lacks true religion — / one who cares only for the things of earth."
-      ]
+      ],
+      "name_fr": "La sagesse humaine est folie devant Dieu",
+      "text_frtrans": [
+        "¶Que dirai-je ? de quel nom appellerai-je ce monstre / biforme, qui n'est ni homme ni dragon ? / Un homme sans pieds, un serpent sans sa partie supérieure — / on peut l'appeler homme aux pieds de serpent, ou serpent à tête d'homme. / L'homme finit en serpent, le serpent commence en homme, / et il n'est ni tout à fait homme, ni tout à fait bête. / Ainsi jadis Cécrops régna sur la docte Athènes, / ainsi la terre, notre mère, enfanta les géants. / Cette figure est l'image de l'homme rusé mais sans religion, / qui ne se soucie que des choses de la terre."
+      ],
+      "group_frtrans": "Dieu, ou la Religion."
     },
     {
       "id": "alc12",
@@ -77,7 +87,12 @@
       ],
       "text_en": [
         "¶A most beautiful harlot sits upon a royal throne, / wearing a robe splendid with purple honour. / To all she pours drink from a brimming bowl, / while around her a drunken crowd lies sprawled. / So they mark Babylon: who by that alluring shape / ensnares the foolish with a feigned religion."
-      ]
+      ],
+      "name_fr": "Religion feinte",
+      "text_frtrans": [
+        "¶Une très belle courtisane siège sur un trône royal, / portant une robe insigne de pourpre honorifique. / À tous elle verse à boire d'une coupe pleine, / tandis qu'autour d'elle gît, ivre, la foule renversée. / Ainsi désigne-t-on Babylone : qui par cette forme séduisante / et par une religion feinte prend au piège les sots."
+      ],
+      "group_frtrans": "Dieu, ou la Religion."
     },
     {
       "id": "alc13",
@@ -103,7 +118,12 @@
       ],
       "text_en": [
         "¶A slow donkey carried the image of Isis, / bearing on its back her sacred, hidden mysteries. / So whoever met it reverently worshipped the goddess, / and offered pious prayers with bended knee. / But the donkey believed that honour was being paid / to itself, and swelled up, greatly puffed with pride — / until the driver, checking it with his whip, said: / \"You are not the god, little donkey — you only carry the god.\""
-      ]
+      ],
+      "name_fr": "Non à toi, mais à la religion",
+      "text_frtrans": [
+        "¶Un âne lent portait l'effigie d'Isis, / ayant sur son dos courbé les vénérables mystères. / Et quiconque le rencontrait adorait révérencieusement la déesse, / offrant de pieuses prières, les genoux fléchis. / Mais l'âne croyait que cet honneur lui était rendu / à lui-même, et s'enflait tout bouffi d'orgueil : / jusqu'à ce que l'ânier, le domptant à coups de fouet, lui dît : / « Tu n'es pas le dieu, baudet ; tu ne fais que porter le dieu. »"
+      ],
+      "group_frtrans": "Dieu, ou la Religion."
     },
     {
       "id": "alc14",
@@ -129,7 +149,12 @@
       ],
       "text_en": [
         "¶At the crossroads there is a heap of stones; above it rises / a truncated image of a god, carved down to the chest. / This, then, is Mercury's mound. Traveller, hang / garlands for the god who shows you the right way. / We are all standing at a crossroads, and on this path of life / we go astray, unless the god himself points out the way."
-      ]
+      ],
+      "name_fr": "Il faut aller où les dieux appellent",
+      "text_frtrans": [
+        "¶Au carrefour s'élève un tas de pierres : au-dessus / se dresse l'image tronquée d'un dieu, sculptée jusqu'à la poitrine. / C'est donc le tertre de Mercure. Voyageur, suspends / des guirlandes au dieu qui te montre le droit chemin. / Nous sommes tous au carrefour, et sur ce sentier de la vie / nous nous égarons, si le dieu lui-même ne nous montre la voie."
+      ],
+      "group_frtrans": "Dieu, ou la Religion."
     },
     {
       "id": "alc15",
@@ -155,7 +180,12 @@
       ],
       "text_en": [
         "¶Let Honour stand painted, clothed in Tyrian purple, / and let bare Truth join her right hand to his. / And let chaste Love stand between them, his temples / wreathed in roses, fairer than Dione's Cupid. / These signs establish Faith: the reverence of honour / which Love fosters, and which Truth brings forth and nourishes."
-      ]
+      ],
+      "name_fr": "Le symbole de la Foi",
+      "text_frtrans": [
+        "¶Que l'Honneur soit peint, vêtu de pourpre de Tyr, / et que la Vérité, nue, joigne sa droite à la sienne. / Et qu'entre eux se tienne l'Amour chaste, dont les tempes / soient ceintes de roses, plus beau que le Cupidon de Dioné. / Ces signes constituent la Foi : la révérence de l'honneur / que l'Amour nourrit, et que la Vérité enfante et fait croître."
+      ],
+      "group_frtrans": "Vertus. La Foi."
     },
     {
       "id": "alc16",
@@ -181,7 +211,12 @@
       ],
       "text_en": [
         "¶This cithara, said to have the shape of a fishing-skiff, / the Latin Muse also claims as her own. / Accept it, Duke: may this gift please you at this time, / when you prepare to enter new alliances with your allies. / It is hard, except for a skilled man, to keep so many strings in tune, / and if even one string is not well tuned, / or breaks (which easily happens), all the charm of the shell is lost, / and that excellent music becomes worthless. / So the Italian princes come together into alliances; there is nothing / to fear, as long as love remains constant among you. / But if one of them defects (as we so often see), / all that harmony dissolves into nothing."
-      ]
+      ],
+      "name_fr": "Les alliances",
+      "text_frtrans": [
+        "¶Cette cithare, qu'on dit avoir la forme d'une barque de pêcheur, / la Muse latine aussi la revendique pour sienne. / Reçois-la, Duc : que ce présent te plaise en ce temps / où tu te prépares à nouer de nouvelles alliances avec tes alliés. / Il est difficile, sinon à un homme savant, d'accorder tant de cordes, / et si une seule corde n'est pas bien tendue, / ou se rompt (ce qui arrive aisément), tout le charme de la conque se perd, / et ce chant excellent devient inutile. / Ainsi s'unissent en alliance les princes d'Italie ; à la concorde / rien n'est à craindre, tant que l'amour demeure constant entre vous. / Mais si l'un d'eux fait défection (comme on le voit si souvent), / toute cette harmonie se résout en néant."
+      ],
+      "group_frtrans": "Vertus. La Foi."
     },
     {
       "id": "alc17",
@@ -207,7 +242,12 @@
       ],
       "text_en": [
         "¶When he is silent, the fool differs in nothing from the wise. / His tongue and his own voice are the tell-tale sign of folly. / Let him, then, press his lips, and with his finger mark his silence, / and turn himself into an Egyptian Harpocrates."
-      ]
+      ],
+      "name_fr": "Sur le silence",
+      "text_frtrans": [
+        "¶Quand il se tait, l'insensé ne diffère en rien du sage. / La langue, et sa propre voix, sont l'indice de la folie. / Qu'il serre donc les lèvres, et du doigt marque le silence, / et qu'il se change lui-même en l'Harpocrate d'Égypte."
+      ],
+      "group_frtrans": "Vertus. La Foi."
     },
     {
       "id": "alc18",
@@ -233,7 +273,12 @@
       ],
       "text_en": [
         "¶The monster that Daedalus shut away behind a blind threshold, / in obscure darkness, in the hidden recesses of Knossos — / the Roman phalanx carries its image into battle, / and the proud standards gleam with the half-man, half-bull. / And they remind us that the secret counsels of leaders / must stay hidden: a scheme known to its enemy does harm."
-      ]
+      ],
+      "name_fr": "Desseins à ne pas divulguer",
+      "text_frtrans": [
+        "¶Le monstre que, derrière un seuil aveugle, dans une obscure / ténèbre, Dédale enferma dans les cachettes de Cnossos — / la phalange romaine en porte l'image dans ses combats, / et les enseignes superbes brillent de l'homme mi-taureau. / Et cela nous avertit que les conseils secrets des chefs / doivent demeurer cachés : un dessein connu de l'ennemi lui nuit."
+      ],
+      "group_frtrans": "Vertus. La Foi."
     },
     {
       "id": "alc19",
@@ -259,7 +304,12 @@
       ],
       "text_en": [
         "¶The lioness you see fashioned on the Cecropian citadel / was Hermodius's beloved — did you not know this, stranger? / Thus it pleased them to show the fierce spirit of a brave woman / in the manner of a wild beast, or because she bore that very name. / Because, racked upon the rack, she betrayed no one / by any disclosure, Iphicrates rendered her tongueless."
-      ]
+      ],
+      "name_fr": "Il ne faut céder même à la question",
+      "text_frtrans": [
+        "¶La lionne que tu vois sculptée sur la citadelle Cécropienne / fut, ô hôte, ne le sais-tu pas, l'amie d'Harmodios. / On voulut ainsi montrer l'âme ardente de cette femme virile / sous la forme d'une bête sauvage, ou parce qu'elle portait ce nom. / Pour n'avoir, torturée sur le chevalet, trahi personne / par aucun aveu, Iphicrate la fit représenter sans langue."
+      ],
+      "group_frtrans": "Vertus. La Foi."
     },
     {
       "id": "alc20",
@@ -285,7 +335,12 @@
       ],
       "text_en": [
         "¶Bellerophon, as a brave horseman, was able to overcome the Chimera / and lay low the monsters of the Lycian land. / So you too, borne on Pegasus's wings, seek the heavens, / and by the counsel of your mind you tame proud monsters."
-      ]
+      ],
+      "name_fr": "Par le conseil et la vertu on surmonte la Chimère",
+      "text_frtrans": [
+        "¶Bellérophon, en cavalier courageux, put vaincre la Chimère / et terrasser les monstres de la terre de Lycie. / Ainsi toi, porté sur les ailes de Pégase, tu aspires à l'éther, / et par le conseil de l'esprit tu domptes les monstres superbes."
+      ],
+      "group_frtrans": "Prudence."
     },
     {
       "id": "alc21",
@@ -311,7 +366,12 @@
       ],
       "text_en": [
         "¶Because the crowing cock gives the signal of approaching dawn, / and calls the servants' hands back to their fresh tasks, / his bronze image is set upon sacred towers, / so that it may recall the watchful mind toward heaven above. / The lion, too, is a guardian, for he sleeps with his eyes open: / and so he is set before the doors of temples."
-      ]
+      ],
+      "name_fr": "Vigilance et garde",
+      "text_frtrans": [
+        "¶Parce que le coq chantant donne le signal de l'aube qui approche, / et rappelle les mains des serviteurs à leurs tâches nouvelles, / on sculpte son image de bronze sur les tours sacrées, / pour qu'elle rappelle à l'esprit vigilant les choses d'en haut. / Le lion aussi est un gardien, car il dort les yeux ouverts : / c'est pourquoi on le place devant les portes des temples."
+      ],
+      "group_frtrans": "Prudence."
     },
     {
       "id": "alc22",
@@ -337,7 +397,12 @@
       ],
       "text_en": [
         "¶\"Do not trust rashly\" (says Epicharmus); \"be not unsober\" — / these shall be the sinews and limbs of a human mind. / Behold the eyed hand, believing only what it sees. Behold / pennyroyal, the herb of ancient sobriety, / by showing which Heraclitus calmed the crowd, / and soothed it when heavy with swollen sedition."
-      ]
+      ],
+      "name_fr": "Il faut vivre sobrement, et ne pas croire à la légère",
+      "text_frtrans": [
+        "¶« Ne crois pas à la légère », dit Épicharme, « et ne sois point intempérant » — / voilà les nerfs et les membres de l'esprit humain. / Voici la main pourvue d'yeux, ne croyant que ce qu'elle voit. Voici / le pouliot, herbe de l'antique sobriété, / par laquelle, la montrant, Héraclite apaisa la foule / et calma ce peuple accablé d'une sédition tumultueuse."
+      ],
+      "group_frtrans": "Prudence."
     },
     {
       "id": "alc23",
@@ -363,7 +428,12 @@
       ],
       "text_en": [
         "¶The Samian, most famous founder of the Italic sect, / himself enclosed his teaching in a brief verse: / 'Where have I overstepped? What am I doing? What duty do I leave undone?' / urging each man to give this accounting to himself. / He is said to have learned this from the flock of flying cranes, / which carry a stone seized in their feet, / so that they do not flag, nor let ill winds sweep them off course — / by this same method human life ought to be governed."
-      ]
+      ],
+      "name_fr": "En quoi ai-je failli ? Que fais-je ? Qu'ai-je omis ?",
+      "text_frtrans": [
+        "¶Le Samien, très célèbre fondateur de l'école italique, / enferma lui-même sa doctrine en un bref vers : / « En quoi ai-je failli ? Que fais-je ? Quel devoir laissé-je inaccompli ? » — / pressant chacun de se rendre à soi-même ce compte. / On dit qu'il apprit cela du vol des grues migrantes, / qui portent dans leurs pattes une pierre saisie, / pour ne point faiblir, et que les vents mauvais ne les emportent de leur route — / de cette même manière la vie des hommes devait être réglée."
+      ],
+      "group_frtrans": "Prudence."
     },
     {
       "id": "alc24",
@@ -389,7 +459,12 @@
       ],
       "text_en": [
         "¶Janus, two-faced, who know well both the past and the future, / and who, looking back, see mockeries just as you see them ahead — / why do they fashion you with so many eyes, so many faces? Is it because / this form teaches that a prudent man must be circumspect?"
-      ]
+      ],
+      "name_fr": "Les prudents. Énigme",
+      "text_frtrans": [
+        "¶Janus aux deux visages, toi qui connais déjà le passé et l'avenir, / et qui, tourné en arrière, vois les railleries comme tu les vois devant toi, / pourquoi te fait-on avec tant d'yeux, tant de visages ? N'est-ce pas / parce que cette forme enseigne que l'homme prudent doit être circonspect ?"
+      ],
+      "group_frtrans": "Prudence."
     },
     {
       "id": "alc25",
@@ -415,7 +490,12 @@
       ],
       "text_en": [
         "¶The owl furnishes the emblem of Cecropian Athens, / the owl, among birds, a bird of sound counsel. / Rightly is she consecrated to the service of armed Minerva, / in the place the chattering crow had held before."
-      ]
+      ],
+      "name_fr": "Prudent, plus que bavard",
+      "text_frtrans": [
+        "¶La chouette donne ses armes à l'Athènes de Cécrops, / la chouette, parmi les oiseaux, oiseau du sage conseil. / À juste titre elle est consacrée au service de Minerve armée, / à la place même qu'occupait jadis la corneille bavarde."
+      ],
+      "group_frtrans": "Prudence."
     },
     {
       "id": "alc26",
@@ -441,7 +521,12 @@
       ],
       "text_en": [
         "¶All things bid us hasten quickly, and yet also to delay — / let there be neither too much haste, nor too long a hesitation. / This is shown to you by the dart bound together with a remora: / the fish is slow, while the arrow flies swift once loosed from the hand."
-      ]
+      ],
+      "name_fr": "Il faut savoir hâter à propos",
+      "text_frtrans": [
+        "¶Toutes choses commandent à la fois de se hâter promptement et de temporiser — / que ce ne soit ni précipitation excessive, ni trop long délai. / Ceci te le montrera : le javelot lié au rémora ; / celui-ci est lent, tandis que les traits lancés de la main volent."
+      ],
+      "group_frtrans": "Prudence."
     },
     {
       "id": "alc27",
@@ -467,7 +552,12 @@
       ],
       "text_en": [
         "¶For a long time now, wherever you flee, I have pursued you: but now / at last you are caught, held fast in our nets. / No longer will you be able to escape our strength. / We have gripped the eel in a fig leaf."
-      ]
+      ],
+      "name_fr": "Sur celui qui est pris",
+      "text_frtrans": [
+        "¶Depuis longtemps déjà, où que tu fuies, je te poursuis : mais maintenant / enfin tu es pris, tombé dans nos filets. / Tu ne pourras plus échapper à nos forces. / Nous avons serré l'anguille dans la feuille de figuier."
+      ],
+      "group_frtrans": "Prudence."
     },
     {
       "id": "alc28",
@@ -493,7 +583,12 @@
       ],
       "text_en": [
         "¶This is the true image of unwed Pallas: here / is the dragon, which stands before its mistress's feet. / Why is this creature the goddess's companion? The guardianship of things / is given to it; thus it keeps watch over groves and sacred temples. / Unmarried girls, too, must be kept with ceaseless, watchful care — / for love stretches its snares everywhere."
-      ]
+      ],
+      "name_fr": "Il faut garder les vierges",
+      "text_frtrans": [
+        "¶Voici la vraie effigie de Pallas, la vierge : ici / le Dragon, qui se tient devant les pieds de sa maîtresse. / Pourquoi cet animal est-il le compagnon de la déesse ? La garde des choses / lui est confiée ; ainsi veille-t-il sur les bois et les temples sacrés. / De même il faut veiller sur les jeunes filles non mariées / d'une attention sans relâche : l'amour tend partout ses filets."
+      ],
+      "group_frtrans": "Prudence."
     },
     {
       "id": "alc29",
@@ -519,7 +614,12 @@
       ],
       "text_en": [
         "¶Here father Bacchus and Pallas together, both, / hold a shared temple, each the true offspring of Jove: / this one burst forth from his head, that one he released from his thigh; / to her is owed the use of the olive, while he first discovered wine. / Rightly are they joined — for if anyone abstains and hates / wine, he shall feel no help from the goddess either."
-      ]
+      ],
+      "name_fr": "Le vin accroît la prudence",
+      "text_frtrans": [
+        "¶Ici le père Bacchus et Pallas, tous deux ensemble, / tiennent un temple commun, l'une et l'autre vrais enfants de Jupiter : / elle naquit de sa tête, lui se dégagea de sa cuisse ; / à elle l'on doit l'usage de l'olivier, lui le premier découvrit le vin pur. / Ils sont unis à bon droit : car si quelque homme abstinent déteste / le vin, il ne ressentira aucun secours de la déesse."
+      ],
+      "group_frtrans": "Prudence."
     },
     {
       "id": "alc30",
@@ -545,7 +645,12 @@
       ],
       "text_en": [
         "¶Why do you trouble my branches? I am Pallas's tree: / take your grape-clusters away from here. The virgin flees Bacchus."
-      ]
+      ],
+      "name_fr": "Les prudents s'abstiennent de vin",
+      "text_frtrans": [
+        "¶Pourquoi tourmentez-vous mes branches ? Je suis l'arbre de Pallas : / emportez d'ici ces grappes. La vierge fuit Bacchus."
+      ],
+      "group_frtrans": "Prudence."
     },
     {
       "id": "alc31",
@@ -571,7 +676,12 @@
       ],
       "text_en": [
         "¶'Father Bacchus: who has known you with mortal eyes? / And whose learned hand fashioned your limbs?' / 'Praxiteles, who saw me seizing the Cnossian maid, / and painted me as I was at that very time.' / 'Why then are you youthful, your beard still flowering with tender down, / though you could outlast even the old man of Pylos?' / 'If you learn sometime to be sparing with my gifts, / you, younger one, will always have a strong heart. / Tambourines are not lacking to his hands, nor horns to his head — / whom (unless mad) do such signs become? / This I teach: that he who abuses my gift takes on / horns, and, insane, shakes soft rattling sistra. / What does that almost fiery color in his limbs mean? (May this / omen be far off) — or do you yourself burn with human hearths? / When my mother Semele drew me from her womb by the thunderbolt / that breathes fire, they dipped me, tainted with the dust, in water. / Hence he is wise who dilutes us well with clear waves, / who does not scorch his liver with burning fire. / But now teach me: how do you wish to be mixed? And by what / rule may a sound man safely take hold of you? / Let him who desires to drink a cup of Falernian add / a quarter of water — thus my cups please in this manner. / Stay within measure, for he who strains to go / further — lively at first, but soon, drunk, raves from it. / This matter is too hard. Throats hang loose and sweet, / you flow on. Alas, no advantages fall easily.'"
-      ]
+      ],
+      "name_fr": "Sur la statue de Bacchus. Dialogue",
+      "text_frtrans": [
+        "¶« Père Bacchus, qui t'a connu de son œil mortel ? / Et quelle main savante a façonné tes membres ? » / « Praxitèle, qui me vit ravissant la fille de Gnosos, / et me peignit tel que j'étais en ce temps-là. » / « Pourquoi es-tu jeune, et ta barbe encore printanière d'un tendre duvet, / toi qui pourrais surpasser en âge le vieillard de Pylos ? » / « Si tu apprends un jour à ménager mes dons, / jeune homme, tu auras toujours le cœur vaillant. / Les tambourins ne manquent point à ses mains, ni les cornes à sa tête : / à qui (sinon aux insensés) de tels signes conviennent-ils ? / Voici ce que j'enseigne : qui abuse de mon présent reçoit / des cornes, et, devenu fou, agite de molles cymbales. / Que signifie cette couleur presque ardente sur ses membres ? (Puisse / ce présage nous être épargné) — ou bien toi-même brûles-tu de feux humains ? / Quand ma mère, du ventre de Sémélé, m'arracha par la foudre / vomissant le feu, on me plongea, couvert de poussière, dans les eaux. / De là vient la sagesse de qui nous dilue bien dans les eaux limpides, / et qui ne brûle point son foie d'un feu trop ardent. / Mais apprends-moi maintenant comment tu veux être mêlé ? et par quelle / règle, en pleine santé, peut-on te prendre sans danger ? / Qu'il ajoute un quart d'eau, celui qui désire boire une coupe / de Falerne : ainsi plaisent mes coupes, selon cet usage. / Tiens-toi dans la limite d'une hémine : car qui s'efforce d'aller / au-delà — vif d'abord, mais bientôt ivre, s'emporte en fureur. / Chose trop pénible, en vérité. Les gorges sont suspendues à toi, douce / tu coules. Hélas, rien d'utile ne s'obtient aisément. »"
+      ],
+      "group_frtrans": "Prudence."
     },
     {
       "id": "alc33",
@@ -597,7 +707,12 @@
       ],
       "text_en": [
         "¶The senators awarded Fabius a crown of grass, / because by delay he had broken the Carthaginians and Hannibal. / The lark hides her nest for herself in bent grass, / they commonly say, and thus she shelters her chicks. / Sacred to Saturn and Mars, by eating which Glaucus / Polyidus is believed to have become a god. / By these ties, rightly, protection and safety are argued for it: / and this grass holds as many finger-joints as it is green."
-      ]
+      ],
+      "name_fr": "L'herbe",
+      "text_frtrans": [
+        "¶Les sénateurs décernèrent à Fabius la couronne d'herbe, / pour avoir par ses atermoiements brisé les Carthaginois et Hannibal. / L'alouette cache son nid dans l'herbe recourbée, / dit-on communément ; ainsi abrite-t-elle ses petits. / Elle est sacrée à Saturne et à Mars ; l'ayant goûtée, Glaucus / Polyidos, croit-on, devint un dieu. / Par ces indices on lui attribue à bon droit protection et salut : / et cette herbe verdoyante a autant de nœuds que de doigts."
+      ],
+      "group_frtrans": "Prudence."
     },
     {
       "id": "alc34",
@@ -623,7 +738,12 @@
       ],
       "text_en": [
         "¶Nemesis pursues and keeps watch over the footsteps of man, / and restrains the elbow, with a hard rein in her hand. / Lest you do evil, or speak improper words — / and she bids that moderation attend all things."
-      ]
+      ],
+      "name_fr": "Il ne faut blesser personne ni en paroles ni en actes",
+      "text_frtrans": [
+        "¶Némésis poursuit et surveille les pas de l'homme, / et retient son coude d'une main au dur frein. / Afin que tu ne fasses point de mal, ni ne profères de méchantes paroles — / elle ordonne qu'en toutes choses règne la mesure."
+      ],
+      "group_frtrans": "Justice."
     },
     {
       "id": "alc35",
@@ -649,7 +769,12 @@
       ],
       "text_en": [
         "¶The shield of Aeacus's grandson, drenched with Hector's blood, / which the unjust assembly of the Greeks gave to the Ithacan, / more just Neptune seized, cast into the sea / by shipwreck, so that it might reach its rightful master. / For the wave carried it to Ajax's tomb on the shore, / where it roars and strikes the sepulchre with such a voice: / 'You have won, son of Telamon, you were more worthy of the arms. / It is right that passion yield to justice.'"
-      ]
+      ],
+      "name_fr": "Enfin, enfin la Justice l'emporte",
+      "text_frtrans": [
+        "¶Le bouclier du petit-fils d'Éaque, trempé du sang d'Hector, / que l'assemblée inique des Grecs donna au fils d'Ithaque, / le plus juste Neptune le saisit, jeté à la mer / dans le naufrage, afin qu'il pût rejoindre son vrai maître. / Car la vague le porta jusqu'au tertre côtier d'Ajax, / où elle mugit, et de cette voix frappe le tombeau : / « Tu as vaincu, fils de Télamon, tu es plus digne de ces armes. / Il est juste que la passion cède à la justice. »"
+      ],
+      "group_frtrans": "Justice."
     },
     {
       "id": "alc36",
@@ -675,7 +800,12 @@
       ],
       "text_en": [
         "¶After Roman eloquence, with Cicero destroyed, / had been lost — a bitter plague upon its own homeland — / the victor mounted his chariot, and yoked lions to it, / and forced their necks to bear the harsh yoke, / Antony wishing, by this riddle, to signify / that great-hearted leaders had yielded to his arms."
-      ]
+      ],
+      "name_fr": "Même les plus farouches sont domptés",
+      "text_frtrans": [
+        "¶Après que l'éloquence romaine, Cicéron détruit, / eut péri, fléau amer de sa propre patrie, / le vainqueur monta en char et y attela des lions, / et contraignit leurs cous rudes à subir le joug, / voulant signifier par cette énigme qu'Antoine / avait soumis par ses armes des chefs magnanimes."
+      ],
+      "group_frtrans": "Justice."
     },
     {
       "id": "alc37",
@@ -701,7 +831,12 @@
       ],
       "text_en": [
         "¶The stork, distinguished for piety in her lofty nest, / cherishes her unfledged chicks, her dear pledges. / And she expects such gifts to be returned to her in turn, / whenever, grown old, the mother shall need this help. / Nor does the pious offspring betray that hope, but carries / the parents' weary bodies on their shoulders, and offers food by mouth."
-      ]
+      ],
+      "name_fr": "Il faut rendre grâce",
+      "text_frtrans": [
+        "¶La cigogne, insigne de piété en son nid aérien, / réchauffe ses petits sans plumes, gage précieux. / Et elle attend que semblables présents lui soient rendus en retour, / chaque fois que sa mère vieillie aura besoin de ce secours. / Et la pieuse progéniture ne trompe point cet espoir, mais porte / les corps las de ses parents sur ses épaules, et leur donne la becquée."
+      ],
+      "group_frtrans": "Justice."
     },
     {
       "id": "alc38",
@@ -727,7 +862,12 @@
       ],
       "text_en": [
         "¶On marble tombs, on one side of the column / stands a jug; on the other a washbasin is to be seen. / This form fittingly reminds us that the word was spoken without corruption, / and that the deceased kept clean hands."
-      ]
+      ],
+      "name_fr": "L'abstinence",
+      "text_frtrans": [
+        "¶Sur les tombeaux de marbre, d'un côté de la colonne / se dresse une aiguière, de l'autre on peut voir un bassin à laver. / Cette figure nous rappelle qu'il convient que la parole soit dite sans souillure, / et que le défunt ait eu les mains pures."
+      ],
+      "group_frtrans": "Justice."
     },
     {
       "id": "alc39",
@@ -753,7 +893,12 @@
       ],
       "text_en": [
         "¶Marius, joined to me by a common wall, and likewise / Subbardus, names well known in our forum, / these well-moneyed men build, and strive, even unprompted, / alas, to block up my windows on every side. / Wretched me, whom, as if I were Phineus, two / Harpies seize, to cast out from his own home. / My integrity, and my spirit, a seeker of honesty — / unless Zetes and Calais come to their aid."
-      ]
+      ],
+      "name_fr": "Des riches, les bons n'ont rien à craindre",
+      "text_frtrans": [
+        "¶Marius, joint à moi par un mur contigu, et aussi / Subbardus, noms connus sur notre forum, / ces hommes bien pourvus d'argent bâtissent et s'emploient, même sans raison, / hélas, à obstruer de toutes parts mes fenêtres. / Malheureux que je suis, que, tel Phinée, deux / Harpyes ravissent, pour me chasser de ma propre demeure. / Mon intégrité, et mon esprit, chercheur d'honnêteté, / périront, si ne viennent à eux ni Zétès ni Calaïs."
+      ],
+      "group_frtrans": "Justice."
     },
     {
       "id": "alc40",
@@ -779,7 +924,12 @@
       ],
       "text_en": [
         "¶'What reason prompts you, bird of Saturn, loftily / to perch upon the tomb of great Aristomenes?' / 'This I declare: as much as I excel in strength among birds, / so much did Aristomenes excel among demigods. / Let timid doves settle upon the tombs of the timid; / we eagles grant our favorable signs to the fearless.'"
-      ]
+      ],
+      "name_fr": "Les signes des braves. Dialogue",
+      "text_frtrans": [
+        "¶« Quelle cause t'engage, oiseau de Saturne, à te percher si haut / sur le tertre du grand Aristomène ? » / « Voici ce que j'annonce : autant je l'emporte en force parmi les oiseaux, / autant Aristomène l'emportait parmi les demi-dieux. / Que les timides colombes se posent sur les tombes des timides ; / nous, les aigles, donnons nos signes propices aux intrépides. »"
+      ],
+      "group_frtrans": "Force."
     },
     {
       "id": "alc41",
@@ -805,7 +955,12 @@
       ],
       "text_en": [
         "¶Sad fortune must be endured and borne by man, / and fortune too happy has often had to be feared. / 'Bear, and forbear' (Epictetus used to say); one must / suffer much, and keep one's hands from forbidden things. / So the bull, bound at the right hock, bears the leader's command; / thus he restrains himself from the pregnant cows."
-      ]
+      ],
+      "name_fr": "Supporte et abstiens-toi",
+      "text_frtrans": [
+        "¶Il faut à l'homme savoir supporter avec patience une triste fortune, / et souvent craindre un bonheur trop grand. / « Supporte et abstiens-toi » (disait Épictète) ; il convient / d'endurer bien des choses, et de retenir ses mains de l'illicite. / Ainsi le taureau, entravé du jarret droit, se soumet / à l'autorité du conducteur ; ainsi se retient-il des génisses pleines."
+      ],
+      "group_frtrans": "Force."
     },
     {
       "id": "alc42",
@@ -831,7 +986,12 @@
       ],
       "text_en": [
         "¶You wish to know why the Thessalian bit so often / changes masters, and seeks to have various riders: / it does not know how to flatter, or to press its caress upon anyone, / the custom that every prince's court maintains. / But like a noble, spirited horse, it throws from its back / any groom who does not know how to control it. / Yet it is not right for the master to rage; his only vengeance / is to make the fierce horse bear a harsher, harder bit."
-      ]
+      ],
+      "name_fr": "Sur celui qui ne sait pas flatter",
+      "text_frtrans": [
+        "¶Tu désires savoir pourquoi les rênes thessaliennes changent si souvent / de maîtres, et cherchent à avoir divers conducteurs : / elles ne savent ni flatter ni caresser qui que ce soit, / coutume que possède toute cour royale. / Mais, tel un coursier de noble race, elle jette de son dos / tout écuyer qui ne sait la gouverner. / Mais il n'est pas non plus permis au maître de s'emporter : la seule vengeance / est de contraindre la bête farouche à porter un mors plus dur."
+      ],
+      "group_frtrans": "Force."
     },
     {
       "id": "alc43",
@@ -857,7 +1017,12 @@
       ],
       "text_en": [
         "¶The palm strains against the weight, and rises into a bow-curve; / the more it is pressed down, the more it lifts its burden. / It also bears fragrant, sweet dainty nuts, / which hold the first place of honor among the tables. / Go, boy, and climb among its branches to gather them: whoever / has a steadfast mind will carry away a worthy reward."
-      ]
+      ],
+      "name_fr": "Il faut tenir bon contre ce qui presse",
+      "text_frtrans": [
+        "¶Le palmier résiste au poids, et se redresse en voûte ; / plus on le presse, plus il soulève le fardeau. / Il porte aussi d'odorantes et douces friandises, des glands / auxquels, sur les tables, revient le premier honneur. / Va, enfant, et, grimpant par les branches, cueille-les : celui dont l'esprit / sera constant emportera une digne récompense."
+      ],
+      "group_frtrans": "Force."
     },
     {
       "id": "alc44",
@@ -883,7 +1048,12 @@
       ],
       "text_en": [
         "¶The poor Hun, most wretched dweller by the Scythian sea, / his livid limbs scorched by endless frost, / who knows neither the wealth of Ceres nor the gifts of Bacchus, / yet always has precious coverings: / for mouse-skin furs wrap him round on every side. / Only his eyes lie open; all else he keeps covered. / So he fears no thief, so he scorns the winds and the rains, / safe among men, and safe among the gods."
-      ]
+      ],
+      "name_fr": "Je porte tout mon bien avec moi",
+      "text_frtrans": [
+        "¶Le pauvre Hun, misérable habitant des rives scythiques, / les membres livides brûlés d'un gel perpétuel, / qui ne connaît ni les richesses de Cérès ni les dons de Bacchus, / possède pourtant toujours de précieuses couvertures : / car des peaux de souris le serrent de toutes parts. / Seuls ses yeux sont découverts, tout le reste il le tient couvert. / Ainsi ne craint-il point le voleur, ainsi méprise-t-il vents et pluies, / en sûreté parmi les hommes, en sûreté parmi les dieux."
+      ],
+      "group_frtrans": "Force."
     },
     {
       "id": "alc45",
@@ -909,7 +1079,12 @@
       ],
       "text_en": [
         "¶The concord among crows in their life together is remarkable, / and their mutual trust is unbroken. / Hence these birds bear the royal scepter — for, clearly, all / leaders stand and fall by the consent of the people; / and if you remove that from the midst, headlong discord / flies in, and drags royal fortunes down with it."
-      ]
+      ],
+      "name_fr": "Le symbole de la concorde",
+      "text_frtrans": [
+        "¶Admirable est la concorde des corneilles dans leur vie commune, / et leur fidélité mutuelle est inviolée. / C'est pourquoi ces oiseaux portent le sceptre : car tous / les chefs, assurément, se maintiennent et tombent par le consentement du peuple ; / et si on l'ôte du milieu, la discorde précipitée / accourt, et entraîne avec elle les destins des royaumes."
+      ],
+      "group_frtrans": "Concorde."
     },
     {
       "id": "alc46",
@@ -935,7 +1110,12 @@
       ],
       "text_en": [
         "¶When Rome was preparing her leaders for civil war, / and the land of Mars was falling by its own strength, / it was the custom, when the companies joined the same side, / for right hands to be clasped as mutual pledges. / This is a form of covenant: Concord has this sign, / that whom love joins, the hand itself should join as well."
-      ]
+      ],
+      "name_fr": "Concorde",
+      "text_frtrans": [
+        "¶Lorsque Rome préparait ses chefs pour la guerre civile, / et que la terre de Mars s'effondrait par ses propres forces, / c'était coutume, quand les troupes se rangeaient du même parti, / de se donner les mains droites jointes comme gage mutuel. / Ceci est une image d'alliance : tel est le signe de la Concorde — / que ceux que l'amour unit, la main elle-même les unisse aussi."
+      ],
+      "group_frtrans": "Concorde."
     },
     {
       "id": "alc47",
@@ -961,7 +1141,12 @@
       ],
       "text_en": [
         "¶Among the triple-born brothers there was concord. / So great was their mutual devotion together, and a single love: / that, unconquered by human strength, they held / a vast kingdom, called by the one name of Geryon."
-      ]
+      ],
+      "name_fr": "Concorde invincible",
+      "text_frtrans": [
+        "¶Entre les trois frères régnait la concorde. / Si grande était leur piété mutuelle, et leur amour unique, / qu'invincibles aux forces humaines ils tenaient / un vaste royaume, appelés d'un seul nom, Géryon."
+      ],
+      "group_frtrans": "Concorde."
     },
     {
       "id": "alc48",
@@ -987,7 +1172,12 @@
       ],
       "text_en": [
         "¶Laertes's son, and together with him Tydeus's son too, / this wax has been shaped by Zenalis's skillful hand. / This one excels in strength, that one is powerful in sharpness of mind, / yet neither lacks need of the other's help. / When the two go joined together, victory is certain. / Alone, either mind or right hand fails a man."
-      ]
+      ],
+      "name_fr": "Seul on ne peut rien, à deux on peut beaucoup",
+      "text_frtrans": [
+        "¶Le fils de Laërte, et avec lui le fils de Tydée, / cette cire habile, œuvre de Zénalis, les a représentés. / L'un excelle par la force, l'autre par l'acuité de l'esprit, / et pourtant ni l'un ni l'autre ne se passe du secours de son compagnon. / Quand deux marchent unis, la victoire est certaine. / Seul, l'homme est délaissé soit par l'esprit, soit par le bras."
+      ],
+      "group_frtrans": "Concorde."
     },
     {
       "id": "alc49",
@@ -1013,7 +1203,12 @@
       ],
       "text_en": [
         "¶Though Ocean the father should stir up all his waves, / and though you, barbarian Turk, should drink up the whole Danube, / still you will not break through and burst past the frontier, while / Charles the Emperor gives the peoples his war-standards. / So the sacred oaks stand firm upon their roots, / though the winds may shake their dry leaves."
-      ]
+      ],
+      "name_fr": "Ce qui est très ferme ne peut être arraché",
+      "text_frtrans": [
+        "¶Que l'Océan, père, soulève toutes ses vagues, / et que toi, Turc barbare, boives tout le Danube — / tu ne forceras pourtant pas la frontière, tant que César / Charles donnera aux peuples ses étendards de guerre. / Ainsi les chênes sacrés se tiennent sur de fermes racines, / quand même les vents secouent leurs feuilles sèches."
+      ],
+      "group_frtrans": "Concorde."
     },
     {
       "id": "alc50",
@@ -1039,7 +1234,12 @@
       ],
       "text_en": [
         "¶Our commonwealth is tossed by countless storms, / and only the hope of coming safety stands by: / no differently than a ship, which, out on the open sea, / the winds seize, and which now gapes under the salt waters. / But if the shining stars of Helen's brothers should arrive, / good hope restores the spirits that were lost."
-      ]
+      ],
+      "name_fr": "L'espoir est proche",
+      "text_frtrans": [
+        "¶Notre république est agitée d'innombrables tempêtes, / et seul demeure l'espoir d'un salut à venir : / tel un navire qu'au milieu de la mer les vents / emportent, et qui déjà s'entrouvre sous les eaux salées. / Mais si paraissent les astres brillants des frères d'Hélène, / le bon espoir rend le courage perdu."
+      ],
+      "group_frtrans": "Espérance."
     },
     {
       "id": "alc51",
@@ -1065,7 +1265,12 @@
       ],
       "text_en": [
         "¶'What goddess are you, gazing at the stars with so joyful a face? / By whose brush was your image rendered?' / 'The hands of Elpidius made it. I am called that goddess / who, as good Hope, offers ready help to the wretched.' / 'Why is your cloak green?' 'Because, with me as guide, all things flourish.' / 'Why do you carry in your hands the broken weapons of death?' / 'What is fitting for the living to hope for, I deny to the buried. / Why do you sit idly, sheltered beneath a little jar's lid?' / 'I alone remained at home, while every evil flew about everywhere, / as the venerable Muse of the old man of Ascra has taught.' / 'What bird attends you?' 'The crow, most faithful of soothsaying birds; / though it cannot say \"It is well,\" it says \"It will be.\"' / 'Who are your companions?' 'Good Fortune, and headlong Cupid.' / 'Who go before you?' 'They call them the vain dreams of those who watch.' / 'Who stands joined beside you?' 'Rhamnusia, avenger of crimes — / namely, so that you may hope for nothing except what is permitted.'"
-      ]
+      ],
+      "name_fr": "Sur l'image de l'Espérance. Dialogue",
+      "text_frtrans": [
+        "¶« Quelle déesse, aux astres contemplés d'un visage si joyeux ? / De quel pinceau fut rendue ton image ? » / « Les mains d'Elpidius l'ont faite. On me nomme celle / qui, Bonne Espérance, offre un prompt secours aux malheureux. » / « Pourquoi ton manteau est-il vert ? » — « Parce que sous ma conduite tout reverdit. » / « Pourquoi portes-tu en main les armes brisées de la mort ? » / « Ce qu'il convient aux vivants d'espérer, je le refuse aux ensevelis. / Pourquoi sièges-tu, oisive, sous le couvercle d'une jarre ? » / « Je restai seule au logis, tandis que tous les maux volaient alentour, / comme l'enseigna la vénérable Muse du vieillard d'Ascra. » / « Quel oiseau t'accompagne ? » — « La corneille, oiseau augural très fidèle ; / même quand elle ne peut dire «c'est bien», elle dit «ce sera». » / « Quels sont tes compagnons ? » — « Le Bon Succès, et le prompt Cupidon. » / « Qui marche devant toi ? » — « On les nomme les songes vains des veilleurs. » / « Qui se tient jointe à toi ? » — « Rhamnusie, vengeresse des crimes — / afin, sans doute, que tu n'espères rien que ce qui est permis. »"
+      ],
+      "group_frtrans": "Espérance."
     },
     {
       "id": "alc53",
@@ -1091,7 +1296,12 @@
       ],
       "text_en": [
         "¶The snout of a young bristly pig he offered me at the new year, / and said: 'Take this gift, a client's offering, for your belly.' / It always moves forward, and never looks back, / devouring the grass with its greedy, curved mouth. / Men should have the same care, that hope, once slipping, / should not fall backward — so that what is further on may also be better."
-      ]
+      ],
+      "name_fr": "De mieux en mieux chaque jour",
+      "text_frtrans": [
+        "¶Le groin d'un jeune porc hérissé m'a offert, au nouvel an, / mon client, disant : « Reçois ce présent pour ton ventre. » / Il avance toujours, et jamais ne regarde en arrière, / arrachant avidement l'herbe de son mufle recourbé. / Même est le souci des hommes : que l'espoir, une fois ébranlé, / ne recule point en arrière — et que ce qui vient après soit meilleur encore."
+      ],
+      "group_frtrans": "Espérance."
     },
     {
       "id": "alc54",
@@ -1117,7 +1327,12 @@
       ],
       "text_en": [
         "¶Hope and Nemesis together stand at our altars, / namely, so that you may hope for nothing except what is permitted."
-      ]
+      ],
+      "name_fr": "Il ne faut rien espérer d'illicite",
+      "text_frtrans": [
+        "¶L'Espérance et Némésis se tiennent ensemble devant nos autels, / afin, sans doute, que tu n'espères rien sinon ce qui est permis."
+      ],
+      "group_frtrans": "Espérance."
     },
     {
       "id": "alc55",
@@ -1143,7 +1358,12 @@
       ],
       "text_en": [
         "¶If the master's wife commits incest within the house, the purple / coot loses heart and dies of grief. / The cause lies hidden in nature's secrets. Let this bird / be the sure token of pure chastity."
-      ]
+      ],
+      "name_fr": "Pudeur",
+      "text_frtrans": [
+        "¶Si l'épouse du maître commet l'inceste dans la maison, le porphyrion / perd courage et meurt de douleur. / La cause en est cachée dans les secrets de la nature : que cet oiseau / soit le signe certain d'une pudeur sincère."
+      ],
+      "group_frtrans": "Pudeur."
     },
     {
       "id": "alc56",
@@ -1169,7 +1389,12 @@
       ],
       "text_en": [
         "¶I, Virtue, wash the tomb of Ajax with my tears, / wretched, my white hair torn apart. / This indeed still remained, that before a Greek judge / I should be defeated, and deceit prevail with the stronger case."
-      ]
+      ],
+      "name_fr": "Sur une victoire obtenue par ruse",
+      "text_frtrans": [
+        "¶Moi, la Vertu, je baigne de mes larmes le tertre d'Ajax, / misérable, les cheveux blanchis et arrachés. / Voilà donc ce qui me restait encore : être vaincue, / devant un juge grec, et que la ruse l'emporte sur la cause la plus forte."
+      ],
+      "group_frtrans": "Vices. Perfidie."
     },
     {
       "id": "alc57",
@@ -1195,7 +1420,12 @@
       ],
       "text_en": [
         "¶The small lizard, its body starred with black spots, / the gecko, which dwells in hiding places and hollow tombs, / bears, in its markings, the emblem of envy and crooked deceit. / Alas, all too well known to jealous young wives. / For whoever drinks wine in which a gecko has been steeped / has their face disfigured with ugly blotches. / Hence frequent vengeance, when a mistress is tricked by such wine, / whom her lover abandons once the flower of her beauty is lost."
-      ]
+      ],
+      "name_fr": "Contre les fourbes",
+      "text_frtrans": [
+        "¶Le petit lézard, le corps semé de taches noires étoilées, / le stellion, qui habite les cachettes et les tombeaux creux, / porte peint sur lui l'emblème de l'envie et de la perfide tromperie. / Hélas, trop bien connu des jeunes épouses jalouses. / Car quiconque boit le vin où fut noyé / un stellion voit son visage se couvrir de taches hideuses. / De là vient la fréquente vengeance, trompant par ce vin la maîtresse / que l'amant délaisse, une fois perdue la fleur de sa beauté."
+      ],
+      "group_frtrans": "Vices. Perfidie."
     },
     {
       "id": "alc58",
@@ -1221,7 +1451,12 @@
       ],
       "text_en": [
         "¶The fattened decoy duck, with its blue-grey feathers, / is trained to go and return to its masters. / Seeing flocks of its own kind flying through the air, / it calls out, and joins itself to their company, / until it leads the unwary under the spread nets. / The captured birds clamor, but the guilty one itself stays silent. / The treacherous bird defiles itself with kindred blood, / helpful to others, but fatal to its own."
-      ]
+      ],
+      "name_fr": "La tromperie contre les siens",
+      "text_frtrans": [
+        "¶Le canard appelant, bien nourri, aux plumes d'azur, / accoutumé à aller et venir vers ses maîtres. / Apercevant voler dans les airs des bandes de ses semblables, / il cancane, et se joint à leur troupe, / jusqu'à les mener, imprudents, sous les filets tendus. / Les captifs se débattent en criant, mais lui-même, complice, se tait. / Oiseau perfide, il se souille du sang de ses proches, / serviable aux autres, funeste aux siens."
+      ],
+      "group_frtrans": "Vices. Perfidie."
     },
     {
       "id": "alc59",
@@ -1247,7 +1482,12 @@
       ],
       "text_en": [
         "¶They say that wasps are carved in marble upon the tomb of Archilochus — / sure emblems of an evil tongue."
-      ]
+      ],
+      "name_fr": "Médisance",
+      "text_frtrans": [
+        "¶On dit que sur le tombeau d'Archiloque sont sculptées dans le marbre / des guêpes, sûrs sceaux d'une langue méchante."
+      ],
+      "group_frtrans": "Vices. Perfidie."
     },
     {
       "id": "alc60",
@@ -1273,7 +1513,12 @@
       ],
       "text_en": [
         "¶A band of robbers and thieves, a sinister company, / goes with you through the city, a troop girded with grim swords. / And thus, prodigal, you think yourself noble-minded, / because your pot lures many evil men. / Behold a new Actaeon, who, after he took on horns, / gave himself as prey to his own dogs."
-      ]
+      ],
+      "name_fr": "Contre les receleurs d'assassins",
+      "text_frtrans": [
+        "¶Une bande de brigands et de voleurs, farouche escorte, t'accompagne / par la ville — cohorte ceinte d'épées terribles. / Et ainsi, prodigue, tu te crois d'âme généreuse, / parce que ta marmite attire une foule de malfaiteurs. / Voici un nouvel Actéon, qui, après avoir pris des cornes, / s'est livré lui-même en proie à ses propres chiens."
+      ],
+      "group_frtrans": "Vices. Perfidie."
     },
     {
       "id": "alc61",
@@ -1299,7 +1544,12 @@
       ],
       "text_en": [
         "¶Always gaping, always drawing in and out the thin / air on which it feeds, the chameleon / changes its face, and takes on various colors, / except red or white. / So too the flatterer feeds on popular breath, / and, gaping, devours everything. / And he imitates only the dark habits of his prince, / knowing nothing of what is pure and chaste."
-      ]
+      ],
+      "name_fr": "Contre les flatteurs",
+      "text_frtrans": [
+        "¶Toujours bouche ouverte, toujours aspirant et rejetant / le ténu souffle d'air dont il se nourrit, le caméléon / change de visage et prend des couleurs variées, / hormis le rouge ou le blanc. / Ainsi le flatteur se nourrit de la faveur populaire, / et, bouche ouverte, dévore tout. / Et il n'imite que les sombres mœurs du prince, / sans rien savoir de ce qui est pur et chaste."
+      ],
+      "group_frtrans": "Vices. Perfidie."
     },
     {
       "id": "alc62",
@@ -1325,7 +1575,12 @@
       ],
       "text_en": [
         "¶Why do you build your nest in the bosom of the Colchian woman? Alas, / foolish bird, why do you so wrongly entrust your chicks to her? / That dreadful mother Medea, most savage, destroyed / her own children — and do you hope that she will spare yours?"
-      ]
+      ],
+      "name_fr": "À qui a dissipé son propre bien, on ne doit pas confier celui d'autrui",
+      "text_frtrans": [
+        "¶Pourquoi amasses-tu ton nid au sein de la Colchidienne ? Hélas, / oiseau sans discernement, pourquoi confies-tu si mal tes petits à cette mère ? / La cruelle Médée, très farouche mère, a perdu / ses propres enfants — et tu espères qu'elle épargnera les tiens ?"
+      ],
+      "group_frtrans": "Vices. Perfidie."
     },
     {
       "id": "alc63",
@@ -1351,7 +1606,12 @@
       ],
       "text_en": [
         "¶He is swept headlong, and in vain the charioteer / pulls at the reins, borne by a horse unbridled in its mouth. / You should not easily trust one whom no reason governs, / and who is led recklessly by his own will alone."
-      ]
+      ],
+      "name_fr": "Témérité",
+      "text_frtrans": [
+        "¶Il est emporté tête baissée, et en vain le cocher / tend les rênes, traîné par un cheval à la bouche effrénée. / Ne te fie pas aisément à celui que nulle raison ne gouverne, / et qui, témérairement, n'est mené que par son propre caprice."
+      ],
+      "group_frtrans": "Folie."
     },
     {
       "id": "alc64",
@@ -1377,7 +1637,12 @@
       ],
       "text_en": [
         "¶The shield bears painted upon it the face of a raging lion, / and at its upper rim an inscribed verse reads: / 'This is the terror of men' — whose possessor, the son of Atreus, / great-hearted Agamemnon, bore such a device."
-      ]
+      ],
+      "name_fr": "Fureur et rage",
+      "text_frtrans": [
+        "¶Un bouclier porte peint le mufle d'un lion furieux, / et sur son rebord supérieur un vers est gravé : / « Ceci est la terreur des hommes » — dont le possesseur, fils d'Atrée, / le magnanime Agamemnon, portait de tels emblèmes."
+      ],
+      "group_frtrans": "Folie."
     },
     {
       "id": "alc65",
@@ -1403,7 +1668,12 @@
       ],
       "text_en": [
         "¶You see Phaëthon, charioteer of his father's chariot, / who dared to guide the fire-breathing horses of the Sun. / After he had scattered the greatest conflagrations upon the earth, / the wretch, reckless and unskilled, fell headlong from the axle. / So many kings, borne by Fortune's wheels to the stars, / driven by youthful ambition, meet the same fate: / after great ruin both to the human race and to themselves, / they pay at last the penalty for all their crimes."
-      ]
+      ],
+      "name_fr": "Contre les téméraires",
+      "text_frtrans": [
+        "¶Tu vois Phaéton, cocher du char paternel, / qui osa diriger les chevaux du Soleil vomissant le feu. / Après avoir répandu sur la terre de très grands incendies, / il tomba, misérable, par témérité et ignorance, du haut de l'essieu. / Ainsi maints rois, portés par les roues de la Fortune jusqu'aux astres, / que pousse une ambition juvénile, finissent de même : / après un grand désastre, et du genre humain, et du leur propre, / ils paient enfin la peine de tous leurs crimes."
+      ],
+      "group_frtrans": "Folie."
     },
     {
       "id": "alc66",
@@ -1429,7 +1699,12 @@
       ],
       "text_en": [
         "¶While he sleeps, while he refreshes his body with sweet slumber / beneath a pine, holding his club and his other arms, / the Pygmy host thinks it can lay great Alcides low / in death — not having well learned its own strength. / But once roused, he tramples his enemies like fleas, / and drives them, tangled, into the fierce lion's skin."
-      ]
+      ],
+      "name_fr": "Contre ceux qui osent au-delà de leurs forces",
+      "text_frtrans": [
+        "¶Pendant qu'il dort, pendant que d'un doux sommeil il restaure son corps / sous le pin, tenant sa massue et ses autres armes, / la tribu des Pygmées croit pouvoir terrasser Alcide / de mort — ne connaissant guère ses propres forces. / Mais lui, réveillé, les écrase comme des puces, / et les emporte, empêtrés, dans la peau du féroce lion."
+      ],
+      "group_frtrans": "Folie."
     },
     {
       "id": "alc67",
@@ -1455,7 +1730,12 @@
       ],
       "text_en": [
         "¶You wash an Ethiopian — why in vain? Ah, stop. No one / can brighten the dark shadows of black night."
-      ]
+      ],
+      "name_fr": "Impossible",
+      "text_frtrans": [
+        "¶Tu laves l'Éthiopien — pourquoi en vain ? Ah, cesse. Nul ne peut / éclaircir les ténèbres de la noire nuit."
+      ],
+      "group_frtrans": "Folie."
     },
     {
       "id": "alc68",
@@ -1481,7 +1761,12 @@
       ],
       "text_en": [
         "¶Why do most people call country folk, that rustic kind, / 'cuckoos'? What reason has been given for this? / The cuckoo sings at the start of spring, the very time when he / who has not yet pruned his vines is rightly marked as lazy. / It lays its egg in another's nest, just like the man / whose wife betrays his marriage-bed with adultery."
-      ]
+      ],
+      "name_fr": "Les coucous",
+      "text_frtrans": [
+        "¶Pourquoi beaucoup appellent-ils les gens des champs, race rustique, / « coucous » ? Quelle en fut la raison alléguée ? / Le coucou chante au début du printemps, au moment même / où qui n'a pas encore taillé sa vigne est, à bon droit, noté pour paresse. / Il pond son œuf dans des nids étrangers, tel celui / dont la femme trahit le lit conjugal par adultère."
+      ],
+      "group_frtrans": "Folie."
     },
     {
       "id": "alc69",
@@ -1507,7 +1792,12 @@
       ],
       "text_en": [
         "¶They say that from this bat-like bird, / authors report that Socrates's follower Chaerephon took his nickname. / The man had a dark face and a shrill little voice; / with such a mark could he be stained by this comparison."
-      ]
+      ],
+      "name_fr": "La chauve-souris",
+      "text_frtrans": [
+        "¶Les auteurs rapportent que de cet oiseau semblable à la chauve-souris, / le disciple de Socrate, Chéréphon, tira son surnom. / L'homme avait le visage sombre et une petite voix stridente — / d'une telle marque il put être ainsi flétri."
+      ],
+      "group_frtrans": "Folie."
     },
     {
       "id": "alc70",
@@ -1533,7 +1823,12 @@
       ],
       "text_en": [
         "¶The creature that flies only at evening, that is half-blind in the light, / that bears wings yet has all else of a mouse — / it is applied to various things; first it marks / those with evil reputations, who hide and fear judgment. / Then also philosophers, who, while they seek the heavens, / grow dim in their eyes, and see only falsehoods. / And finally the cunning ones, who secretly pursue both sides, / and gain trust from neither party."
-      ]
+      ],
+      "name_fr": "Autre [sur la chauve-souris]",
+      "text_frtrans": [
+        "¶Celle qui ne vole que le soir, qui est borgne à la lumière, / qui, tout en portant des ailes, a pour le reste l'aspect d'une souris, / s'applique en premier lieu à ceux qui ont mauvaise renommée, / qui se cachent et redoutent le jugement. / Puis aux philosophes qui, cherchant les choses célestes, / s'aveuglent les yeux et ne voient que le faux. / Enfin aux rusés, qui, ménageant secrètement les deux partis, / n'acquièrent la confiance d'aucun des deux."
+      ],
+      "group_frtrans": "Folie."
     },
     {
       "id": "alc71",
@@ -1559,7 +1854,12 @@
       ],
       "text_en": [
         "¶The ancients called the lion's tail 'Alcaea,' / by which, when stirred, he conceives heavy wrath. / When yellow bile rises, and grief grows raw / with black gall, it rouses untamed furies."
-      ]
+      ],
+      "name_fr": "La colère",
+      "text_frtrans": [
+        "¶Les anciens nommaient Alcée la queue du lion, / par l'aiguillon de laquelle il conçoit une lourde colère. / Quand monte la bile jaune, et que la douleur s'exaspère / de noire bile, elle éveille des fureurs indomptables."
+      ],
+      "group_frtrans": "Folie."
     },
     {
       "id": "alc72",
@@ -1585,7 +1885,12 @@
       ],
       "text_en": [
         "¶I, the goat, now suckle a wolf-cub at my udder, not willingly, / because the shepherd's ill-advised, overcautious care commands it. / Once he has grown up together with me, he will feed on me after my udder. / Wickedness is bent by no kindness shown to it."
-      ]
+      ],
+      "name_fr": "Contre celui qui se prépare lui-même sa ruine",
+      "text_frtrans": [
+        "¶Moi, chèvre, j'allaite maintenant, non de mon gré, un louveteau de mon pis, / parce que le soin mal avisé et trop prévoyant du berger l'ordonne. / Dès qu'il aura grandi à mes côtés, il me dévorera après mon pis. / La méchanceté ne fléchit devant aucun service rendu."
+      ],
+      "group_frtrans": "Folie."
     },
     {
       "id": "alc73",
@@ -1611,7 +1916,12 @@
       ],
       "text_en": [
         "¶You wonder why in my verse you are called 'Otus' [the eared owl], / though your old ancestral name is Otho. / The eared owl is similar, and has feathers like the screech-owl; / when it dances, the clever fowler captures the bird. / Hence we call fools 'otos' — easily caught — / take this fitting name for yourself too."
-      ]
+      ],
+      "name_fr": "Sottise",
+      "text_frtrans": [
+        "¶Tu t'étonnes qu'en mon vers on t'appelle Otus [hibou], / alors que ton vieux nom ancestral est Othon. / Le hibou huppé a des plumes semblables à celles de la chouette ; / quand il danse, l'oiseleur habile s'empare de l'oiseau. / De là nous appelons « otos » les sots, faciles à prendre — / reçois donc toi aussi ce nom qui te convient."
+      ],
+      "group_frtrans": "Folie."
     },
     {
       "id": "alc74",
@@ -1637,7 +1947,12 @@
       ],
       "text_en": [
         "¶When the hungry wolf-hound devours its prey, / and, driven by hunger, swallows the captured fawn, / if by chance it looks elsewhere, or turns its eyes away, / forgetting the food it holds right there in its claw, / it goes seeking an uncertain prize — so great is its forgetfulness. / He who foolishly neglects what is his own, seeks after another's."
-      ]
+      ],
+      "name_fr": "L'oubli est le père de la pauvreté",
+      "text_frtrans": [
+        "¶Quand le loup cervier affamé dévore sa proie, / et que, pressé par la faim, il engloutit le faon capturé, / s'il advient qu'il regarde ailleurs, ou détourne les yeux, / oubliant la nourriture même qu'il tient dans sa griffe, / il se met en quête d'une proie incertaine (tant est grand l'oubli). / Qui par sottise a négligé son bien cherche celui d'autrui."
+      ],
+      "group_frtrans": "Folie."
     },
     {
       "id": "alc75",
@@ -1663,7 +1978,12 @@
       ],
       "text_en": [
         "¶Behold, a statue from a statue, and marble drawn from marble, / Niobe, the insolent one, who dared compare herself to the gods. / Pride is a womanly vice, and it betrays a hardness / of face and mind, like that found in stone."
-      ]
+      ],
+      "name_fr": "Orgueil",
+      "text_frtrans": [
+        "¶Voici statue de statue, et marbre tiré du marbre : / Niobé, qui osa, insolente, se comparer aux dieux. / L'orgueil est vice féminin, et révèle la dureté / du visage et de l'esprit, telle qu'elle réside dans la pierre."
+      ],
+      "group_frtrans": "Orgueil."
     },
     {
       "id": "alc76",
@@ -1689,7 +2009,12 @@
       ],
       "text_en": [
         "¶A woman down to the waist, girded below / with barking monster-pups, Scylla was two-formed. / The monsters are thought to be avarice, boldness, rapine. / But Scylla is one who has no shame in his face."
-      ]
+      ],
+      "name_fr": "Impudence",
+      "text_frtrans": [
+        "¶Femme jusqu'à l'aine, ceinte plus bas de petits / monstres aboyants, telle était Scylla biforme. / On tient pour monstres l'avarice, l'audace, le rapt. / Mais Scylla, c'est quiconque n'a nulle pudeur sur le visage."
+      ],
+      "group_frtrans": "Orgueil."
     },
     {
       "id": "alc77",
@@ -1715,7 +2040,12 @@
       ],
       "text_en": [
         "¶Because your beauty, Narcissus, pleased you too much, / you were turned into a flower, and into the herb of well-known stupor. / Self-love is the withering, the ruin of talent: it has brought / many learned men to ruin, and still brings them. / Who, casting aside the method of the ancients, seek new doctrines, / and hand down nothing but their own fantasies."
-      ]
+      ],
+      "name_fr": "L'amour de soi",
+      "text_frtrans": [
+        "¶Parce que ta beauté, Narcisse, te plaisait trop à toi-même, / tu fus changé en fleur, et en plante d'un fameux engourdissement. / L'amour-propre est le flétrissement et le fléau du génie : il a perdu / et perd encore nombre d'hommes savants, / qui, rejetant la méthode des anciens, cherchent des doctrines nouvelles, / et ne transmettent rien que leurs propres fantaisies."
+      ],
+      "group_frtrans": "Orgueil."
     },
     {
       "id": "alc78",
@@ -1741,7 +2071,12 @@
       ],
       "text_en": [
         "¶Why, chattering Procne, do you break my morning sleep, / and sing with your noisy Daulian mouth? / Tereus, turned hoopoe, deserved rather to cut away / with the sword, than to tear out that uncontrolled tongue with screeching."
-      ]
+      ],
+      "name_fr": "Bavardage",
+      "text_frtrans": [
+        "¶Pourquoi, bavarde Procné, romps-tu mon sommeil matinal, / et chantes-tu, fille de Daulis, de ta bouche bruyante ? / Térée, devenu huppe, méritait bien qu'on préférât / arracher sa langue intempérante au fil de l'épée plutôt qu'au cri."
+      ],
+      "group_frtrans": "Orgueil."
     },
     {
       "id": "alc79",
@@ -1767,7 +2102,12 @@
       ],
       "text_en": [
         "¶A squalid woman, eating viperous flesh, / whose eyes are sore, and who eats her own heart, / whom leanness and pallor possess, and who carries a thorny / weapon in her hand. Thus is Envy painted."
-      ]
+      ],
+      "name_fr": "Envie",
+      "text_frtrans": [
+        "¶Une femme hâve, mangeant chair de vipère, / dont les yeux souffrent, et qui dévore son propre cœur, / que la maigreur et la pâleur accablent, et qui porte une arme / épineuse à la main. Ainsi peint-on l'Envie."
+      ],
+      "group_frtrans": "Envie."
     },
     {
       "id": "alc80",
@@ -1793,7 +2133,12 @@
       ],
       "text_en": [
         "¶The goat-footed Faunus, his temples wreathed with caterpillar, / reports the sure symbols of unrestrained Venus. / The caterpillar is lustful, and the he-goat is a judge of desire, / and satyrs are always wont to love the nymphs."
-      ]
+      ],
+      "name_fr": "Luxure",
+      "text_frtrans": [
+        "¶Faune aux pieds de chèvre, les tempes ceintes de chenille, / porte les symboles certains d'une Vénus sans mesure. / La chenille est lascive, et le bouc juge de la volupté, / et les satyres ont toujours coutume d'aimer les nymphes."
+      ],
+      "group_frtrans": "Luxure."
     },
     {
       "id": "alc81",
@@ -1819,7 +2164,12 @@
       ],
       "text_en": [
         "¶On airy cliffs, at the very edge of the high rock, / the bitter wild fig bears unripe fruit, / which ravens eat, which the shameless crow devours, / fruits that offer no human benefit at all. / So parasites and harlots enjoy the wealth of fools: / and they help honest men with no benefit at all."
-      ]
+      ],
+      "name_fr": "Les richesses des débauchés",
+      "text_frtrans": [
+        "¶Sur des rochers aériens, au rebord du plus haut roc, / le figuier sauvage produit des fruits âpres et immatures, / que mangent les corbeaux, que dévore l'impudente corneille, / fruits qui ne servent en rien à l'usage des hommes. / Ainsi des richesses des sots jouissent parasites et courtisanes : / et par nulle utilité elles n'aident les justes."
+      ],
+      "group_frtrans": "Luxure."
     },
     {
       "id": "alc82",
@@ -1845,7 +2195,12 @@
       ],
       "text_en": [
         "¶'Whose tomb is this? Whose urn?' 'It is Corinthian Lais's. / Ah, did not Fate blush to destroy such beauty?' / 'There was then no beauty left — age had already worn her down; / the cautious old woman had already dedicated her mirror to Venus.' / 'What does the carved ram mean, which the lioness / holds, seized by its hindquarters in her claws?' / 'That she too held her captured lovers in just that way — / the ram is the leader of the flock, the lover is held by the haunch.'"
-      ]
+      ],
+      "name_fr": "Le tombeau de la courtisane",
+      "text_frtrans": [
+        "¶« Quel est ce tombeau ? De qui cette urne ? » — « C'est celle de Laïs de Corinthe. » / « La Parque a-t-elle rougi de perdre une si grande beauté ? » / « Il n'y avait alors plus de beauté ; l'âge déjà l'avait flétrie ; / déjà la vieille, prudente, avait dédié son miroir à Vénus. » / « Que signifie ce bélier sculpté, que par-derrière une lionne / tient saisi de ses griffes ? » / « Que, de même, elle-même tenait ses amants captifs : / le bélier est le mâle du troupeau, l'amant est retenu par la croupe. »"
+      ],
+      "group_frtrans": "Luxure."
     },
     {
       "id": "alc83",
@@ -1871,7 +2226,12 @@
       ],
       "text_en": [
         "¶The fisherman, clothed in the shaggy hide of a goat, / after adding two horns to his own head, / deceives, standing on the shore, the lover-fish, the sargue: / driven into the snares by its desire for the flat-nosed flock. / The goat represents the harlot, the sargue becomes like the lover, / who, wretched, perishes, captured by obscene love."
-      ]
+      ],
+      "name_fr": "Contre les amants des courtisanes",
+      "text_frtrans": [
+        "¶Le pêcheur, revêtu de la toison velue d'une chèvre, / ayant ajouté à sa tête deux cornes, / trompe, debout sur le haut du rivage, le sarge amoureux : / que l'ardeur pour le troupeau camus pousse dans les filets. / La chèvre figure la courtisane, le sarge devient semblable à l'amant, / qui, misérable, pris d'un amour infâme, périt."
+      ],
+      "group_frtrans": "Luxure."
     },
     {
       "id": "alc84",
@@ -1897,7 +2257,12 @@
       ],
       "text_en": [
         "¶So great is said to be the power of Circe, daughter of the Sun, / that she turned many men into strange new monsters. / Witness Picus, the tamer of horses, then two-formed Scylla, / and the swine of Ithaca's men, after they drank her wine. / Under the illustrious name Circe is meant a courtesan, / and that whoever loves loses the reason of his mind."
-      ]
+      ],
+      "name_fr": "Il faut se garder des courtisanes",
+      "text_frtrans": [
+        "¶Si grande, dit-on, est la puissance de Circé, fille du Soleil, / qu'elle changea bien des hommes en monstres inouïs. / Témoin le dompteur de chevaux Picus, puis Scylla biforme, / et les pourceaux que devinrent, après avoir bu son vin, les compagnons d'Ulysse. / Sous le nom illustre de Circé on désigne la courtisane, / et le fait que quiconque aime perd la raison."
+      ],
+      "group_frtrans": "Luxure."
     },
     {
       "id": "alc85",
@@ -1923,7 +2288,12 @@
       ],
       "text_en": [
         "¶Cypris [Venus] buried lifeless Adonis, his groin / pierced by a savage tusk, beneath lettuce leaves. / Hence lettuce resists the generative field as much / as the lustful caterpillar can scarcely stir it."
-      ]
+      ],
+      "name_fr": "L'amulette de Vénus",
+      "text_frtrans": [
+        "¶Cypris ensevelit, sous les feuilles de laitue, Adonis sans vie, / les aines percées par la dent féroce du sanglier. / De là la laitue résiste au champ de la génération / autant que la chenille lascive peut à peine l'exciter."
+      ],
+      "group_frtrans": "Luxure."
     },
     {
       "id": "alc86",
@@ -1949,7 +2319,12 @@
       ],
       "text_en": [
         "¶Lest savage love conquer you, nor any woman tear apart / your mind by magical arts: / let the Bacchic bird, the wagtail, be procured for you, / which you should place within the four-spoked circle, / so that it forms a cross with beak and tail, and with its twin wings folded — / such will be an amulet against every spell. / It is said that by this sign of Venus, Pagasean Jason / could not be harmed by the deceits of Phasian magic."
-      ]
+      ],
+      "name_fr": "Invulnérables au trait de Cupidon",
+      "text_frtrans": [
+        "¶Pour que l'amour cruel ne te vainque, ni qu'aucune femme / ne déchire ton esprit par des arts magiques : / qu'on te procure l'oiseau bachique, la bergeronnette, / que tu placeras dans un cercle à quatre rayons, / de sorte que, du bec et de la queue, et des deux ailes repliées, elle forme une croix — / telle sera l'amulette contre tout sortilège. / On dit que, par ce signe de Vénus, Jason de Pagases / ne put être atteint par les charmes de Phase."
+      ],
+      "group_frtrans": "Luxure."
     },
     {
       "id": "alc87",
@@ -1975,7 +2350,8 @@
       ],
       "text_en": [
         "¶The white mouse is believed to betoken / delicacy and softness, but the reason is not quite clear to me. / Is it because its nature is lustful, and its desire great? / Or because it adorns Roman brides with its fur? / Most people call the Sarmatian mouse 'Zibellum' [sable], / and the Arabian musk is famous for its sweet scent."
-      ]
+      ],
+      "group_frtrans": "Luxure."
     },
     {
       "id": "alc88",
@@ -2001,7 +2377,8 @@
       ],
       "text_en": [
         "¶The Essene sits idle in a bushel, a watcher of the stars, / and beneath it hides his lit torch from the flame. / Sloth, veiled under the appearance of righteousness, under a cowl, / helps neither itself nor others with any benefit."
-      ]
+      ],
+      "group_frtrans": "Paresse."
     },
     {
       "id": "alc89",
@@ -2027,7 +2404,8 @@
       ],
       "text_en": [
         "¶Let whoever is idle depart. For to fix one's seat upon the measure-bushel, / the holy teachings of the Samian elder forbid us. / Rise, then, and accustom your hands to hard labor, / so that the coming hour of tomorrow may grant you your measured food."
-      ]
+      ],
+      "group_frtrans": "Paresse."
     },
     {
       "id": "alc90",
@@ -2053,7 +2431,8 @@
       ],
       "text_en": [
         "¶Just as the tiny remora, scorning the force of the wind, / alone can halt a ship together with its oars, / so some trivial cause holds back, midway, / those borne toward the stars by talent and virtue: / such is anxious litigation — or the lustful passion / that calls noble young men away from their excellent studies."
-      ]
+      ],
+      "group_frtrans": "Paresse."
     },
     {
       "id": "alc91",
@@ -2079,7 +2458,8 @@
       ],
       "text_en": [
         "¶It was an old fable that idle servants / took on, in pursuits and character, the shape of the star-heron (ardeola), / said to have assumed the form of Asteria's attendant bird: / this is a fiction; let the historians vouch for its truth. / Such a degenerate one is like a hawk that wheels idly in the air, / called by the ancient poets an 'ardelio' [a bustling do-nothing]."
-      ]
+      ],
+      "group_frtrans": "Paresse."
     },
     {
       "id": "alc92",
@@ -2105,7 +2485,8 @@
       ],
       "text_en": [
         "¶Alas, wretched Tantalus stands thirsting amid the waters, / and, hungry, cannot reach the fruit so near at hand. / With only the name changed, the same will be said of you, miser, / who, as though you had nothing, do not enjoy what you have."
-      ]
+      ],
+      "group_frtrans": "Avarice."
     },
     {
       "id": "alc93",
@@ -2131,7 +2512,8 @@
       ],
       "text_en": [
         "¶Septitius, richest of all people, is an old man than whom none holds broader fields. / Cheating his own pleasure and his laid tables, / he devours nothing but beets and hard turnips. / To whom shall I compare him, whom abundance makes a pauper? / To a donkey? Just so: he is exactly like it. / For the donkey carries precious delicacies on its back, / yet feeds itself, poor thing, on brambles or coarse sedge."
-      ]
+      ],
+      "group_frtrans": "Avarice."
     },
     {
       "id": "alc94",
@@ -2157,7 +2539,8 @@
       ],
       "text_en": [
         "¶The vain court that rears its courtier-clients / is said to bind them with gilded fetters."
-      ]
+      ],
+      "group_frtrans": "Avarice."
     },
     {
       "id": "alc95",
@@ -2183,7 +2566,8 @@
       ],
       "text_en": [
         "¶The ibis, which with its beak (as with a clyster) washes out its own belly, / known on the shores of the Nile, / has passed into a term of reproach: by which Publius Naso / calls his enemy, and Battiades his own."
-      ]
+      ],
+      "group_frtrans": "Avarice."
     },
     {
       "id": "alc96",
@@ -2209,7 +2593,8 @@
       ],
       "text_en": [
         "¶Whoever hunts eels, if he sweeps through clear / rivers, if he dares approach unmuddied lakes, / will come away empty and waste his effort: let him instead stir up / much mud from hidden depths, and let his oar churn the glassy waters — / then he will grow rich. So too a troubled commonwealth is profit for those / who, in peacetime, constrained by law, go hungry."
-      ]
+      ],
+      "group_frtrans": "Avarice."
     },
     {
       "id": "alc97",
@@ -2235,7 +2620,8 @@
       ],
       "text_en": [
         "¶Arion, mounted on a dolphin, cleaves the blue waters, / and with this sound charms ears and tames mouths. / How fierce is the mind of a greedy man — not even that of wild beasts is so dire: / for we who are robbed by men are rescued by fish."
-      ]
+      ],
+      "group_frtrans": "Avarice."
     },
     {
       "id": "alc98",
@@ -2261,7 +2647,8 @@
       ],
       "text_en": [
         "¶A man is depicted with a belly swollen as if gorged with grain, / carrying in his hands a gull or a pelican. / Such was the form of Dionysius, and such of Apicius, / and of those whom luxurious gluttony makes famous."
-      ]
+      ],
+      "group_frtrans": "Gourmandise."
     },
     {
       "id": "alc99",
@@ -2287,7 +2674,8 @@
       ],
       "text_en": [
         "¶The tireless man never ceases to weave a rope of esparto-grass, / joining the damp strands with skilled hand. / But however much the diligent man twists in many hours, / the she-ass of the idle belly devours it at once. / Likewise a woman, kept by an easygoing husband, / snatches his earnings and squanders his substance too."
-      ]
+      ],
+      "group_frtrans": "Gourmandise."
     },
     {
       "id": "alc100",
@@ -2313,7 +2701,8 @@
       ],
       "text_en": [
         "¶Receive as our gift these river crabs — / such presents suit your character. / They have watchful eyes, and many rows / of claws armed like shears, and a very large belly. / So too your belly hangs heavy with fat, / your feet are swift, and your claws fit for walking. / As you wander restlessly at crossroads and around others' tables and benches, / biting at others with false, mocking jests."
-      ]
+      ],
+      "group_frtrans": "Gourmandise."
     },
     {
       "id": "alc101",
@@ -2339,7 +2728,8 @@
       ],
       "text_en": [
         "¶In meagre fare there is nothing for anyone to gain: and a single / bush does not feed two robins. / ANOTHER. / In slender means there is no hope of profit: nor do two / figpeckers settle well upon a single bush."
-      ]
+      ],
+      "group_frtrans": "Gourmandise."
     },
     {
       "id": "alc102",
@@ -2365,7 +2755,8 @@
       ],
       "text_en": [
         "¶The mouse, gnawer of its master's domain, larder and tables, / saw oysters gaping at their edges. / Applying its tender whiskers, it bit the false bones, / but these, once touched, suddenly shut their house. / And so they held the caught thief in a foul prison — / he who had given himself to a dark tomb."
-      ]
+      ],
+      "group_frtrans": "Gourmandise."
     },
     {
       "id": "alc103",
@@ -2391,7 +2782,8 @@
       ],
       "text_en": [
         "¶It bellows with a harsh voice, its throat is very large; its beak / resembles the many-holed mouth of a trumpet. / This bird, when depicted with a scoop, will mark / a deformed, loud-mouthed pleader, given over to belly and gluttony."
-      ]
+      ],
+      "group_frtrans": "Gourmandise."
     },
     {
       "id": "alc104",
@@ -2417,7 +2809,8 @@
       ],
       "text_en": [
         "¶It is an old custom for professors / to have nicknames added to their names. / One who explains only easy and open passages / is called 'Short Canon' (Curtius). / One who circles back to the same point and repeats too much / is 'Maeander', like Parisius. / The obscure and confused one, as Picus was, / will be called 'Labyrinth'. / The excessively brief one, who cuts off much, like Claudius, / will bear the nickname 'Point' (Mucro). / One who even shatters columns with his voice — Parpalus — / is called by students a 'bogeyman' (truo). / By contrast, thin-voiced Albius / was named, for his voice, 'Bat'. / And one who clips the final syllables / is called 'Fat Swallow'. / One deaf to others, wishing only himself to speak, / is a 'Starling', as the proverb goes. / This one lisps, that one is hoarse, this one chatters. / This one hisses like a viper. / That one is in uproar with gaping mouth and nostrils: / for this one the tongue works like a drill. / One hiccups and coughs haltingly: / another spits as if sprinkling dew. / As many vices as act in human affairs, / just as many names arise."
-      ]
+      ],
+      "group_frtrans": "Surnoms des savants."
     },
     {
       "id": "alc106",
@@ -2443,7 +2836,8 @@
       ],
       "text_en": [
         "¶Peoples worship Pan (this is to call nature of things by name) — / a man half-goat, a god half-man. / He is man down to the loins, for the virtue implanted in us, / rising from the heart, sits enthroned in the high citadel of the crown. / Hence he is goat, because nature propagates us through the ages / by copulation, as it does birds, scaly things, brutes, wild beasts. / What he has in common with other living creatures, the goat signifies — / the mark of lust, bearing the open signs of Venus. / Some have attributed wisdom to the heart, others to the brain. / The parts below obey neither measure nor any reason."
-      ]
+      ],
+      "group_frtrans": "Nature."
     },
     {
       "id": "alc107",
@@ -2469,7 +2863,8 @@
       ],
       "text_en": [
         "¶As Fortune sits upon a sphere, so Hermes sits upon a cube: / he presides over the arts, she over varied chances. / Art was made against the power of Fortune: but art too, / when fortune is bad, often needs help. / Learn good arts, then, studious youth, / which carry with them the benefits of a steady lot."
-      ]
+      ],
+      "group_frtrans": "Nature."
     },
     {
       "id": "alc108",
@@ -2495,7 +2890,8 @@
       ],
       "text_en": [
         "¶Both born of Jove, both tender and beardless — / the one whom Latona bore, and the one whom Semele bore. / Hail, and flourish together in eternal youth; / by your divine will, may it last for me too. / You [Bacchus] heal with wine, you [Apollo] dissolve ills through regimen, / so that late old age may approach with slow foot."
-      ]
+      ],
+      "group_frtrans": "Nature."
     },
     {
       "id": "alc109",
@@ -2521,7 +2917,8 @@
       ],
       "text_en": [
         "¶The finch bird announces that winter has come. / To us, in new spring, the chattering swallow returns. / The cuckoo signals that summer is to be expected. / Only in autumn are figpeckers to be seen."
-      ]
+      ],
+      "group_frtrans": "Nature."
     },
     {
       "id": "alc110",
@@ -2547,7 +2944,8 @@
       ],
       "text_en": [
         "¶Receive this Nestorian mixing-bowl, twice cast, / which a heavy mass of silver poured forth as a work. / Four golden rivets stand around as handles: / upon each one sits a dove. / Only long-lived Nestor alone was able to lift it. / Would you teach, son of Maeonia [Homer], what the Muse means by this? / The cup itself is the heaven: its colour is silver; / golden are the stars of heaven — the rivets. / They think those are the Pleiades, which he called doves. / The twin bosses are the Bear, the greater and the lesser. / Wise Nestor understood this through long experience: / the brave wage wars, the shrewd one holds the stars."
-      ]
+      ],
+      "group_frtrans": "Astrologie."
     },
     {
       "id": "alc112",
@@ -2573,7 +2971,8 @@
       ],
       "text_en": [
         "¶Prometheus, hanging forever on the Caucasian cliff, / has his liver torn by the claw of the sacred bird — / both for having opposed man's making, and, hating the potters [who shaped him], / he is condemned for the torch kindled from the stolen fire. / The hearts of the wise are gnawed by various cares, / those who aspire to know the affairs of heaven, and the changes of the gods."
-      ]
+      ],
+      "group_frtrans": "Astrologie."
     },
     {
       "id": "alc113",
@@ -2599,7 +2998,8 @@
       ],
       "text_en": [
         "¶Icarus, who was carried through the heights and the air, until / the melted wax cast you headlong into the sea — / now that same wax, and the burning fire, rouse you, / so that by your example you may teach certain doctrines. / Let the astrologer beware of predicting anything rashly, / for he too is an impostor, so long as he flies above the stars."
-      ]
+      ],
+      "group_frtrans": "Astrologie."
     },
     {
       "id": "alc114",
@@ -2625,7 +3025,8 @@
       ],
       "text_en": [
         "¶While he deceives thrushes with birdlime, while he snares larks, / and his thrown dart strikes a high-flying crane, / the unwary fowler treads upon a dipsas-serpent with his foot: avenging / the harm, it spews venom from its mouth. / So perishes the one who, bow drawn, gazes up at the stars, / heedless of the fate that lies right before his feet."
-      ]
+      ],
+      "group_frtrans": "Astrologie."
     },
     {
       "id": "alc115",
@@ -2651,7 +3052,8 @@
       ],
       "text_en": [
         "¶Behold how the boy Cupid, vividly rendered in this gem, / conquers the unconquered strength of the lion, his charioteer: / how with one hand he holds the whip, with the other guides the reins, / and how much beauty is in the boy's face. / May this dread plague be far from us: for one able to conquer such a beast — / will he truly hold back his hands from us?"
-      ]
+      ],
+      "group_frtrans": "Amour."
     },
     {
       "id": "alc116",
@@ -2677,7 +3079,8 @@
       ],
       "text_en": [
         "¶See how naked Love smiles and gazes serenely? / He has neither torches nor a bow to bend. / But in one hand he holds flowers, in the other a fish, / that is, so as to give laws to both land and sea."
-      ]
+      ],
+      "group_frtrans": "Amour."
     },
     {
       "id": "alc117",
@@ -2703,7 +3106,8 @@
       ],
       "text_en": [
         "¶The winged god [Cupid] broke the winged thunderbolt [of Jove] with fire, / thereby showing that the fire of love is stronger."
-      ]
+      ],
+      "group_frtrans": "Amour."
     },
     {
       "id": "alc118",
@@ -2729,7 +3133,8 @@
       ],
       "text_en": [
         "¶Immersed in his studies, skilled in pleading and law, / and the greatest drafter of petitions, / he loves Helianira as much as ever the Thracian / prince loved his sister's rival. / Why, O Cyprian, have you again outdone Pallas before another judge? / Was it not enough to win once, beneath Ida?"
-      ]
+      ],
+      "group_frtrans": "Amour."
     },
     {
       "id": "alc119",
@@ -2755,7 +3160,8 @@
       ],
       "text_en": [
         "¶Tell me, where are your curved bows? Where are Cupid's arrows, / with which you are wont to pierce the soft hearts of youths? / Where is the gloomy torch? Where the wings? Why does your hand carry three garlands? / Why does another wreathe your temples? / — I am no common love, stranger: no pleasure, / nor any beauty equal to Cypris, has ever moved us, / but I kindle in men's pure minds the fires / of learning: I draw their souls up to the high stars. / And I myself weave four garlands of virtue, / of which the one belonging to Wisdom crowns the foremost brow."
-      ]
+      ],
+      "group_frtrans": "Amour."
     },
     {
       "id": "alc120",
@@ -2781,7 +3187,8 @@
       ],
       "text_en": [
         "¶Nemesis painted him winged and hostile to the winged Love, / taming bow with bow, and fire with fire, / so that he might suffer what he did to others. And this boy, who once / bore his weapons fearlessly, now, wretched, weeps. / He spits three times, and — a wondrous thing — to his very depths / is burned by fire from fire: Love hates the furies of Love."
-      ]
+      ],
+      "group_frtrans": "Amour."
     },
     {
       "id": "alc121",
@@ -2807,7 +3214,8 @@
       ],
       "text_en": [
         "¶Having left his mother a little way off, the infant had withdrawn a short distance — / but you, dread bees, fell upon him. / He had come to you, thinking you gentle birds, / though even a fierce viper would not be so cruel. / Ah, what stings you give in return for the sweet gift of honey! / Oh the pain — alas, without you no pleasure is given."
-      ]
+      ],
+      "group_frtrans": "Amour."
     },
     {
       "id": "alc122",
@@ -2833,7 +3241,8 @@
       ],
       "text_en": [
         "¶While stealing honey from the hives, a wicked bee / stung thieving Love and left its sting / in the tip of his finger: the boy groans, troubled by his swollen finger, / and wanders about stamping the ground; to Venus / he shows his pain, and complains bitterly that so small / a creature as a bee could inflict such painful wounds. / Laughing at him, Venus said: you too resemble / this creature, my son: small as you are, you deal just as many painful wounds."
-      ]
+      ],
+      "group_frtrans": "Amour."
     },
     {
       "id": "alc123",
@@ -2859,7 +3268,8 @@
       ],
       "text_en": [
         "¶Who Love is, many Poets have sung of old, / relating his deeds under various names. / In this they agree: that he lacks clothing, that he is small of body, / bearing weapons and wings, and holding no eyes. / Such is the god's face, such his form. But if I may say so / against such great bards, I think falsehood lies beneath this. / For why would he act naked? As though a god lacked a cloak, / who possesses all the riches of the conquered world. / Or how could he, naked, endure the snowy north wind / and the Alpine meadows bound in frost? / If he is a boy, do you call him a boy who surpasses even Nestor? / Do you not know the learned songs of the old man of Ascra [Hesiod]? / An inconstant boy — yet stubborn here: a heart he has / once entered, he can never willingly leave. / But he carries quiver and arrows — what use is this useless weight? / Can an infant bend so hard a bow? / He holds curved wings, not knowing how to bear them into the sky? / Unskilled, yet he pierces the liver of flying birds with his dart. / He creeps along the ground, and always wounds the mortal / hearts of men: yet, being stony, he moves no wing at all from there. / If he is blind and wears a blindfold, what use is a band to a blind man? / Does he therefore see any less? / And who would trust an archer deprived of sight? / Yet he surely moves his shafts, though blind, while others' are in vain. / They say he is fiery, and turns flames in his breast. / Why then does he still live? Fire devours everything. / Why, too, is he not quenched by the swelling waves, / whenever he enters the soft hearts of the Naiads? / But you, lest you be caught in such great errors, listen: / what true Love is, our verses will tell. / It is pleasant labor amid wanton leisure; its sign / is a Punic [pomegranate] seed upon a black shield."
-      ]
+      ],
+      "group_frtrans": "Amour."
     },
     {
       "id": "alc125",
@@ -2885,7 +3295,8 @@
       ],
       "text_en": [
         "¶Long ago having sent away your homeland, and having forgotten your own people, / whom either blood or love provided you, / you dwell in Rome: nor does any care to return home enter your mind. / Only the glory of the eternal city holds you. / Thus the band of Ithacans sent ahead, by the sweetness of the Lotus, / had abandoned both their homeland and their leader."
-      ]
+      ],
+      "group_frtrans": "Amour."
     },
     {
       "id": "alc126",
@@ -2911,7 +3322,8 @@
       ],
       "text_en": [
         "¶Birds without wings, girls without legs, / fish without a beak, yet singing with a mouth: / who would believe such things exist? Nature refused their union, / yet they teach that Sirens could nonetheless come to be. / A woman ending in a black fish is a forbidden thing, / for lust carries with it many monsters. / By their look, their words, the seeming candor of their minds, / Parthenope, Ligia, and Leucosia draw men in. / The Muses strip them of their feathers, and Ulysses mocks them. / Clearly the learned have no business with a courtesan."
-      ]
+      ],
+      "group_frtrans": "Amour."
     },
     {
       "id": "alc127",
@@ -2937,7 +3349,8 @@
       ],
       "text_en": [
         "¶While Sophocles (though well advanced in age) draws the / venal girl Archippe to his desires, / and lures her with payment, the mad youth bore it ill, / out of jealousy, and brands them both in such a verse: / 'As an owl sits upon tombs, and a screech-owl over the ashes in urns, / so our girl sits beside Sophocles.'"
-      ]
+      ],
+      "group_frtrans": "Amour."
     },
     {
       "id": "alc128",
@@ -2963,7 +3376,8 @@
       ],
       "text_en": [
         "¶Black is a sign of grief: we all put on / this garb when we offer rites at tombs. / But white, pure linen is the robe of a sincere spirit and an unblemished mind: / hence the linen cloth is pleasing to men of holy service. / Green teaches us to hope. Hope is said to lie / 'in the green', as often as it falls back in vain. / Yellow is the colour of the covetous, and fits lovers too, / and harlots, and those whose hope was once assured. / Let red adorn the cloak of armed horsemen, / and let it signal that boys have blushed with modesty. / Sky-blue suits sailors, and those prophets who, / astonished by excessive piety, seek heavenly things. / Cheap are the dun, naturally-coloured woollen cloths — / such as the wooden-shod peasants commonly have for coverlets. / One whom great cares torment, or jealous love, / is thought not ill clad in tawny garb. / Whoever, perhaps, content with his lot, wears violet, / let him bear the tedium of Fortune with equanimity. / As Nature is varied in producing colours, / so different things suit different people: but each delights in his own."
-      ]
+      ],
+      "group_frtrans": "Amour."
     },
     {
       "id": "alc130",
@@ -2989,7 +3403,8 @@
       ],
       "text_en": [
         "¶The caduceus, entwined with serpents, with its pair of wings, / stands upright between the horns of Amalthea. / Thus it signifies men powerful in mind and skilled in husbandry, / so that a great abundance of goods may bless them."
-      ]
+      ],
+      "group_frtrans": "Fortune."
     },
     {
       "id": "alc131",
@@ -3015,7 +3430,8 @@
       ],
       "text_en": [
         "¶After being defeated by Caesar's soldiery, when he saw / Pharsalia awash with the blood of civil war, / already about to plunge the iron into his dying breast, / Brutus uttered these words with bold mouth: / 'Unhappy Virtue, provident only in words — / why, in affairs, do you follow Fortune as your mistress?'"
-      ]
+      ],
+      "group_frtrans": "Fortune."
     },
     {
       "id": "alc132",
@@ -3041,7 +3457,8 @@
       ],
       "text_en": [
         "¶The right hand holds a stone; the other hand bears up wings. / As the feather lifts me, so the heavy burden drags me down. / By talent I could fly through the highest citadels, / were it not that envious poverty weighs me down."
-      ]
+      ],
+      "group_frtrans": "Fortune."
     },
     {
       "id": "alc133",
@@ -3067,7 +3484,8 @@
       ],
       "text_en": [
         "¶— This is a work of Lysippus, whose homeland is Sicyon. Who are you? — The fleeting joint/instant of seized time, mastering all things. / — Why do you stand on wings? — I am forever whirled about. — Why do you keep / winged sandals on your feet? — The light breeze snatches me away everywhere. / — In your right hand, tell me, whence this slender razor? — This sign teaches / that I am sharper than any blade's edge. / — Why the lock of hair on your forehead? — So that one who meets me may seize me by it. — But hey, / tell me why the back of your head is bald? / — So that, should someone once let me, winged-footed, slip away, / he may not afterward be able to catch me by grasping hair from behind. / — With such art the craftsman fashioned me, stranger, for your sake, / and so that I might warn everyone: my stall stands ever open."
-      ]
+      ],
+      "group_frtrans": "Fortune."
     },
     {
       "id": "alc134",
@@ -3093,7 +3511,8 @@
       ],
       "text_en": [
         "¶Seeing the troops fleeing in a scattered rout, / Faunus says: 'Who now blows into my horns?'"
-      ]
+      ],
+      "group_frtrans": "Fortune."
     },
     {
       "id": "alc135",
@@ -3119,7 +3538,8 @@
       ],
       "text_en": [
         "¶Beyond hope, fearful Antiochus had routed / the half-armed troops of the Galatians, / when the savage force of the 'Lucanian oxen' [elephants], the wrath of their trunks, / had first seized upon the enemy's horses. / So, setting up a trophy, he had it painted with the image of an Elephant, / and added: 'we, the allies, would have been slain, / had not this most foul beast, the barrus, saved us.' / As it is pleasant to have won, so it is shameful to have won thus."
-      ]
+      ],
+      "group_frtrans": "Fortune."
     },
     {
       "id": "alc136",
@@ -3145,7 +3565,8 @@
       ],
       "text_en": [
         "¶A gourd, it is said, grew up beside a towering pine, / and luxuriated with great foliage. / Having embraced its branches, and risen above its very summit, / it believed itself superior to other trees. / To which the pine said: 'This glory is far too brief. For / the coming winter will soon wretchedly destroy you.'"
-      ]
+      ],
+      "group_frtrans": "Fortune."
     },
     {
       "id": "alc137",
@@ -3171,7 +3592,8 @@
       ],
       "text_en": [
         "¶While fierce beasts rushed upon each other with mutual wounds, / the lioness with claw, the fearsome boar with tusk, / the vulture hastens to watch, and seizes a feast. / The glory of the victor shall become its future prey."
-      ]
+      ],
+      "group_frtrans": "Fortune."
     },
     {
       "id": "alc138",
@@ -3197,7 +3619,8 @@
       ],
       "text_en": [
         "¶A thing begun under evil auspices knows not how to turn out well. / What is done under a happy omen is of benefit. / Wherever you go, if a weasel crosses your path, abandon your errand: / this depraved little beast bears the signs of an evil fate."
-      ]
+      ],
+      "group_frtrans": "Fortune."
     },
     {
       "id": "alc139",
@@ -3223,7 +3646,8 @@
       ],
       "text_en": [
         "¶This indeed was all that was lacking: that after so many ills, at last / locusts should seize whatever remained in our fields. / We saw countless hosts advancing, led by the East Wind, / such as not even the camps of Attila or Xerxes held. / These devoured all the hay, the millet, the grain, / and hope now stands in narrow straits, unless our prayers prevail above."
-      ]
+      ],
+      "group_frtrans": "Fortune."
     },
     {
       "id": "alc140",
@@ -3249,7 +3673,8 @@
       ],
       "text_en": [
         "¶The greedy young kite, whom excessive nausea from food had tormented, / says to his mother: 'Woe is me, my innards are flowing from my mouth.' / But she replies: 'Why do you weep? Why should you believe these to be your own innards, / you who, living by plunder, vomit up only what belongs to others?'"
-      ]
+      ],
+      "group_frtrans": "Fortune."
     },
     {
       "id": "alc141",
@@ -3275,7 +3700,8 @@
       ],
       "text_en": [
         "¶Three girls of equal age once played / at lots: to decide which of them would first go to the Stygian waters. / But the one to whom, when the die was cast, the ill lot had fallen, / laughed, blind girl, at her own fate. / When suddenly, struck on the head by a collapsing roof, she died, / and paid the fate owed to her bold jest. / In adverse matters, the evil lot does not deceive; but in / fortunate ones, there is no place for prayers, nor for a watchful hand."
-      ]
+      ],
+      "group_frtrans": "Fortune."
     },
     {
       "id": "alc142",
@@ -3301,7 +3727,8 @@
       ],
       "text_en": [
         "¶After Jupiter cast Ate down from the ethereal abodes, / alas, how grievously does this evil affliction torment men? / She flies swift of foot and with fleet wings, / and leaves nothing untouched by mischance. / Therefore the Litae, daughters of Jove, follow after her going, / to mend whatever harm she has done. / But because they are slow-footed, one-eyed, and wearied with age, / they restore nothing except afterward, after a long while."
-      ]
+      ],
+      "group_frtrans": "Fortune."
     },
     {
       "id": "alc143",
@@ -3327,7 +3754,8 @@
       ],
       "text_en": [
         "¶The sparrow had entrusted its offspring to the branches of a plane tree, / and well indeed — had they not been spied by a savage serpent. / This one devoured all the chicks, and the wretched mother too, / then turned to stone, and was worthy of such a death itself. / These, unless Calchas lies, are the omens of a long labor, / whose fame shall be everlasting."
-      ]
+      ],
+      "group_frtrans": "Honneur."
     },
     {
       "id": "alc144",
@@ -3353,7 +3781,8 @@
       ],
       "text_en": [
         "¶Neptune's trumpeter, whose lower part is a sea-beast, / shows by his form that he is a god of the sea: / Triton is enclosed in the midst of a serpent's ring, / which holds its tail gripped in its mouth. / Fame accompanies men distinguished in spirit, and their illustrious deeds, / and ordains that they be read throughout the whole world."
-      ]
+      ],
+      "group_frtrans": "Honneur."
     },
     {
       "id": "alc145",
@@ -3379,7 +3808,8 @@
       ],
       "text_en": [
         "¶In place of a tomb, imagine Italy, imagine arms and leaders, / and the sea that roars as far as both its gulfs. / Add to these the barbarian host vainly striving to break in, / and troops hired for pay for savage wars. / Let the Serpent-bearer, standing on the very summit, say: / 'Who set me, so great, above things so small?'"
-      ]
+      ],
+      "group_frtrans": "Honneur."
     },
     {
       "id": "alc146",
@@ -3405,7 +3835,8 @@
       ],
       "text_en": [
         "¶While Thrasybulus vindicates his homeland with just arms, / and bids every man lay down enmity, / the whole assembly, with one accord, as though granting a great gift, / gave him to wear a garland of Pallas's leaves. / 'Crown your hair, Thrasybulus, bear this honor alone, / in this great city there is no rival to you.'"
-      ]
+      ],
+      "group_frtrans": "Honneur."
     },
     {
       "id": "alc147",
@@ -3431,7 +3862,8 @@
       ],
       "text_en": [
         "¶You see on the Rhoetean shore the tomb of Aeacus's descendant [Achilles], / which white Thetis often visits on foot. / This stone is always covered with green amaranth, / for a hero's honor shall never die. / He is the wall of the Greeks, the slayer of great Hector. He owes / no more to the son of Maeonia [Homer] than the son of Maeonia owes to him."
-      ]
+      ],
+      "group_frtrans": "Honneur."
     },
     {
       "id": "alc148",
@@ -3457,7 +3889,8 @@
       ],
       "text_en": [
         "¶A golden brooch fastened the garments of the Cecropians, / to which was joined a cicada, clinging fast with its tooth. / Beneath the sandal, in Arcadian fashion, was a crescent buckle, / worn by the patrician fathers among the sons of Romulus. / As a sign that they declared themselves native-born, these emblems were borne / by men illustrious in ancient nobility."
-      ]
+      ],
+      "group_frtrans": "Honneur."
     },
     {
       "id": "alc149",
@@ -3483,7 +3916,8 @@
       ],
       "text_en": [
         "¶Eloquence surpasses the praises of unconquered strength, / and unravels the empty snares of the Sophists' words. / No fury, no madness, is more powerful than virtue. / Before the wise man even ceaseless abundance yields. / He spurns avarice, delights neither in plunder nor usury. / He conquers, and strips women of the marks of their proud deeds. / He purges filth, and adds refinement to minds. / He hates unlawful unions, and drives away the guilty. / Barbarity and savage cruelty are at last given their impious punishment. / The valor of one man scatters the massed enemy. / He brings into his homeland very many goods from foreign shores. / His learned fame flies through the mouths of men, and never perishes."
-      ]
+      ],
+      "group_frtrans": "Honneur."
     },
     {
       "id": "alc151",
@@ -3509,7 +3943,8 @@
       ],
       "text_en": [
         "¶Let bastards ever celebrate the honors of Hercules: / for he was the first of your order. / Nor could he become a god before, as an infant, he sucked / the milk which Juno, unaware of the deceit, gave him."
-      ]
+      ],
+      "group_frtrans": "Honneur."
     },
     {
       "id": "alc152",
@@ -3535,7 +3970,8 @@
       ],
       "text_en": [
         "¶As the falcon, flying aloft, cleaves the thin air, / as the jackdaw, the goose, and the duck feed upon the ground: / so mighty Pindar soars to the very summit, above the ether, / while Bacchylides knows only how to crawl upon the ground."
-      ]
+      ],
+      "group_frtrans": "Honneur."
     },
     {
       "id": "alc153",
@@ -3561,7 +3997,8 @@
       ],
       "text_en": [
         "¶Because you have stained with disgrace your noble origin, / and turned your own duty into harm, / you have done as the goat does, when with her hoof / she strikes and overturns the pail of her own milk, squandering her own wealth."
-      ]
+      ],
+      "group_frtrans": "Honneur."
     },
     {
       "id": "alc154",
@@ -3587,7 +4024,8 @@
       ],
       "text_en": [
         "¶The ignoble kite accompanies the high-flying hawk, / and often gets a share of its falling prey. / So too the sargus-fish pursues the mullet it scorns, / and greedily devours with its mouth the leftover scraps. / So Oenocrates shares with me the deserted pursuits of students; / the court makes use of this bleary-eyed man as though he were an eye."
-      ]
+      ],
+      "group_frtrans": "Honneur."
     },
     {
       "id": "alc155",
@@ -3613,7 +4051,8 @@
       ],
       "text_en": [
         "¶The tree that gave these fruits, a stranger to our sky, / once came from the eastern pole of Persia: / transplanted, it became better; what was once harmful / in its homeland, here bears us sweet fruit. / It bears a leaf like a tongue, it bears fruit very like a heart — / Alciato, learn from this how to lead your life. / Far from your homeland you shall be held in greater worth: / you are wise of heart, and no less powerful of tongue."
-      ]
+      ],
+      "group_frtrans": "Honneur."
     },
     {
       "id": "alc156",
@@ -3639,7 +4078,8 @@
       ],
       "text_en": [
         "¶Whenever the Titan brothers trouble the waters, / then the cast anchor helps the wretched sailors. / This the dolphin, kindly toward men, embraces, so that / it may be fixed more securely in the deep shallows. / How fitting it is for mindful kings to bear this emblem: / what the anchor is to sailors, let the king be to his own people."
-      ]
+      ],
+      "group_frtrans": "Le Prince."
     },
     {
       "id": "alc157",
@@ -3665,7 +4105,8 @@
       ],
       "text_en": [
         "¶Statues without hands, before the altars of the gods, / sit here enthroned: the foremost of them deprived of sight. / These emblems of supreme power, and of the sacred Senate, / were devised by the men of Thebes. / Why do they sit? Because it befits judges to be / grave and calm of mind, and not to waver with light feeling. / Why are they without hands? So that they may accept no gifts, / nor allow themselves to be swayed by promises or bribes. / But their presiding figure is blind: because, guided by hearing alone, without / partiality, he steadfastly carries out the commands of the Senate."
-      ]
+      ],
+      "group_frtrans": "Le Prince."
     },
     {
       "id": "alc158",
@@ -3691,7 +4132,8 @@
       ],
       "text_en": [
         "¶The grasping hand of a greedy prince squeezes the moist / little sponges which it had earlier soaked. / He raises thieves to the very top, then afterward restrains them, / so as to turn into his own treasury what was ill-gotten."
-      ]
+      ],
+      "group_frtrans": "Le Prince."
     },
     {
       "id": "alc159",
@@ -3717,7 +4159,8 @@
       ],
       "text_en": [
         "¶What the spleen is to the human body, in affairs of state / Caesar had called his treasury. / When the spleen grows, the other limbs of the body waste away. / When the treasury grows, the poverty of the citizens is revealed."
-      ]
+      ],
+      "group_frtrans": "Le Prince."
     },
     {
       "id": "alc160",
@@ -3743,7 +4186,8 @@
       ],
       "text_en": [
         "¶It is said that Chiron, in his stable, reared / those born of heroes, and great Achilles among them. / A half-beast teacher, and a half-man centaur — / such it befits whoever sits beside kings to be. / He is a beast, when he harms his enemies' allies, when he tramples enemies; / and he is a man, when he feigns before the people to be dutiful."
-      ]
+      ],
+      "group_frtrans": "Le Prince."
     },
     {
       "id": "alc161",
@@ -3769,7 +4213,8 @@
       ],
       "text_en": [
         "¶That the king of bees will never thrust in his sting, / and that he will be twice as large in body as the others, / shall attest to a clement rule and a moderate kingdom, / and to sacred laws entrusted to good judges."
-      ]
+      ],
+      "group_frtrans": "Le Prince."
     },
     {
       "id": "alc162",
@@ -3795,7 +4240,8 @@
       ],
       "text_en": [
         "¶The Epidaurian son of Phoebus [Aesculapius] sits enthroned upon the raised altars, / a gentle god, housed in the form of a monstrous serpent. / The sick hasten to him, and pray that the healer may come: / he nods assent, and makes their prayers effectual."
-      ]
+      ],
+      "group_frtrans": "La République."
     },
     {
       "id": "alc163",
@@ -3821,7 +4267,8 @@
       ],
       "text_en": [
         "¶Upon the death of Caesar, as though liberty had been recovered, / this coin was struck by the leaders, the Bruti. / Upon it, foremost, are two little daggers, above which stands a cap, / such as freed slaves receive when manumitted by their master's hand."
-      ]
+      ],
+      "group_frtrans": "La République."
     },
     {
       "id": "alc164",
@@ -3847,7 +4294,8 @@
       ],
       "text_en": [
         "¶Weep now, Heraclitus, more than usual over the misfortunes of human life: / it teems with even more evils than before. / And you, Democritus, in turn (if ever at all) raise your laughter: / it has become all the more ridiculous. / Meanwhile, beholding this, I ponder to what end at last / I should weep with you, or with what mood I should jest with you."
-      ]
+      ],
+      "group_frtrans": "La vie."
     },
     {
       "id": "alc165",
@@ -3873,7 +4321,8 @@
       ],
       "text_en": [
         "¶Though sluggish of foot, and burdened with a swollen, hanging belly, / yet by this art the beaver escapes the ambush. / He himself, with his teeth, tears out his own medicinal genitals, / and casts them away, knowing that it is for these that he is hunted. / By his example you shall learn not to spare your possessions, / and, in order to ransom your life, to give money to your enemies."
-      ]
+      ],
+      "group_frtrans": "La vie."
     },
     {
       "id": "alc166",
@@ -3899,7 +4348,8 @@
       ],
       "text_en": [
         "¶Dying from the thrust of Achilles' spear, Hector, / who had so often before conquered his enemies, / could not by his voice restrain those who mocked him, / while they made ready to bind cords to the chariot and to his feet. / 'Tear at me as you please: thus, when a lion is deprived of life, / even timid hares pluck at his beard.'"
-      ]
+      ],
+      "group_frtrans": "La mort."
     },
     {
       "id": "alc167",
@@ -3925,7 +4375,8 @@
       ],
       "text_en": [
         "¶Death was wandering, joined on the way by Cupid. With her / Death carried a quiver, and little Love bore Death's weapons. / They turned aside together, and lay down together for the night, / both were blind — Love as always, and Death this time blind too. / For each, heedlessly, took up the other's arrows: / Death holds the gilded shafts, the boy the bony weapons. / Hence the old man, who ought now to belong to Acheron, / behold, falls in love, and prepares flowery garlands for his head. / But I, since Love has struck me with the exchanged bow, / am failing: and the fates lay their hand upon me. / 'Spare me, boy; Death, holding your victorious emblems, spare me. / Grant that I may love: let the old man go down to Acheron in my place.'"
-      ]
+      ],
+      "group_frtrans": "La mort."
     },
     {
       "id": "alc168",
@@ -3951,7 +4402,8 @@
       ],
       "text_en": [
         "¶Why, O Death, have you dared by trickery to strike the boy Love? / So that he might cast your weapons, thinking them his own."
-      ]
+      ],
+      "group_frtrans": "La mort."
     },
     {
       "id": "alc169",
@@ -3977,7 +4429,8 @@
       ],
       "text_en": [
         "¶The youth who by his beauty allured and tormented tender girls, / the handsomest and noblest in the whole city, / died before his time, to be mourned by none more / than by you, Arestus, to whom he was joined in chaste love. / Therefore you raise for him a tomb, a monument of so great a grief, / and strike the stars with plaintive cries. / 'Do you depart without me, beloved? Shall we go together no more? / Will you no longer while away pleasant leisure with me in study?' / But earth shall cover you; and the Gorgon's faces, / and dolphins, shall give the mournful tokens of your fate."
-      ]
+      ],
+      "group_frtrans": "La mort."
     },
     {
       "id": "alc170",
@@ -4003,7 +4456,8 @@
       ],
       "text_en": [
         "¶A square stone is buried in the earth, a most firm boundary-marker, / over it a curly-haired image rises as far as the breast, / and it declares that it yields to none — such / is Terminus, the one goal that drives all men. / The day is fixed, and the times are set by the fates, / and the last day renders judgment on the first."
-      ]
+      ],
+      "group_frtrans": "La mort."
     },
     {
       "id": "alc171",
@@ -4029,7 +4483,8 @@
       ],
       "text_en": [
         "¶Here the Trojans seize Patroclus in his counterfeit armor, / here his comrades and the whole Pelasgian crowd oppose them. / Hector gains the spoils, the Greeks the corpse. / This same little fable is played out when a wealthy man dies. / The greatest quarrel arises, but at last the heir carries off the prize, / and leaves something for the ravens and the vultures."
-      ]
+      ],
+      "group_frtrans": "La mort."
     },
     {
       "id": "alc172",
@@ -4055,7 +4510,8 @@
       ],
       "text_en": [
         "¶A withered elm, stripped bare of leaves by old age, / a shady vine has embraced with its green foliage. / It acknowledges nature's changing turns, and, grateful to its parent, / repays him with mutual duty in their bond. / By its example it teaches us to seek such friends / as not even our last day shall part from the covenant of friendship."
-      ]
+      ],
+      "group_frtrans": "Amitié."
     },
     {
       "id": "alc173",
@@ -4081,7 +4537,8 @@
       ],
       "text_en": [
         "¶The blind man carries the lame man, lifted upon his shoulders, / and he in turn repays his companion with the gift of his eyes. / What each one lacks, the other, in harmony, supplies: / this one lends his eyes, that one lends his feet."
-      ]
+      ],
+      "group_frtrans": "Amitié."
     },
     {
       "id": "alc174",
@@ -4107,7 +4564,8 @@
       ],
       "text_en": [
         "¶Two perils I diligently escaped by one weapon alone, / when I was oppressed by the sun, and when I was oppressed by the sea. / The shield kept me unharmed in battle; that same shield, / clung to, bore me, shipwrecked, all the way to shore."
-      ]
+      ],
+      "group_frtrans": "Amitié."
     },
     {
       "id": "alc175",
@@ -4133,7 +4591,8 @@
       ],
       "text_en": [
         "¶The three Graces attend Venus, and follow their mistress, / and hence they provide pleasures and sustenance. / Euphrosyne is joy, Aglaia is radiant splendor, / Peitho is beguilement and a charming grace of speech. / Why are they naked? Because beauty consists in purity of mind, / and pleases by its exceptional simplicity. / Is it not because the ungrateful give nothing back? And that the little casket / of the Graces is empty? He who gives gifts himself remains naked and in need. / Why were winged sandals recently added to their feet? He gives twice / who gives quickly. Gratitude that is slow is worth little. / Why is one of them turned about, her arms entwined with the others? A grateful man / repays with interest; to him two remain, when one departs. / Jupiter is their father; from heavenly seed Eurynome / brought forth these goddesses, welcomed dearly by all."
-      ]
+      ],
+      "group_frtrans": "Amitié."
     },
     {
       "id": "alc177",
@@ -4159,7 +4618,8 @@
       ],
       "text_en": [
         "¶Beaten dunces and stupid schoolmasters dare / to spew upon me the bile of their impure hearts: / what shall I do? shall I repay in kind? But would it not seem absurd / to seize a noisy cicada by a single wing? / What good is it to drive away flies with laborious fanning? / It is better to disregard what you cannot destroy."
-      ]
+      ],
+      "group_frtrans": "Hostilité."
     },
     {
       "id": "alc178",
@@ -4185,7 +4645,8 @@
       ],
       "text_en": [
         "¶At night, a dog gazes at the lunar disk as at a mirror: / and, seeing itself, believes there is a dog on high, / and barks; but in vain the futile voice is raised — mere wind, / and deaf Diana continues on her course."
-      ]
+      ],
+      "group_frtrans": "Hostilité."
     },
     {
       "id": "alc179",
@@ -4211,7 +4672,8 @@
       ],
       "text_en": [
         "¶A torrent was sweeping along two pots, one of which was of metal, / the other made of clay by a potter's hand. / The metal one then asks the clay one to stay close to it, / so that, joined together, both might withstand the rushing waters. / The clay one replies: 'I have no interest in closeness with you, / lest this proximity bring me many evils. / For whether the wave brings you to me, or me to you, / I, being fragile, alone shall be shattered, while you remain unharmed.'"
-      ]
+      ],
+      "group_frtrans": "Hostilité."
     },
     {
       "id": "alc180",
@@ -4237,7 +4699,8 @@
       ],
       "text_en": [
         "¶Against my will, me, a dolphin, the tide drove onto the shore — / an example of how great the perils are in the faithless sea. / For if Neptune spares not even his own nurslings, / who could believe that men are safe in ships?"
-      ]
+      ],
+      "group_frtrans": "Hostilité."
     },
     {
       "id": "alc181",
@@ -4263,7 +4726,8 @@
       ],
       "text_en": [
         "¶They say that shield-bearing Ajax and Trojan Hector / once began, in turn, to exchange memorial gifts of war. / The son of Priam received a baldric, the son of Telamon a stout sword, / and each received the instrument of his own death. / For the sword finished off Ajax, while Hector, once lifeless, / was dragged by the Thessalian wheels, bound by that same strap. / Thus the gifts which enemies send to enemies, under a show of respect, / carry within them a foreknowledge of fate to come."
-      ]
+      ],
+      "group_frtrans": "Hostilité."
     },
     {
       "id": "alc182",
@@ -4289,7 +4753,8 @@
       ],
       "text_en": [
         "¶The dung-beetle wages war, and of its own accord challenges its enemy, / and, though inferior in strength, surpasses it by cunning. / For secretly and unseen it hides itself among the eagle's feathers, / so as to reach its enemy's nest through the loftiest stars. / And, piercing the eggs, it prevents the hope of offspring from growing. / In this way it departs avenged for the dishonor inflicted upon it."
-      ]
+      ],
+      "group_frtrans": "Hostilité."
     },
     {
       "id": "alc183",
@@ -4315,7 +4780,8 @@
       ],
       "text_en": [
         "¶The gilthead seizes little sardine fish in the midst of the sea, / unless, trembling, they flee and make for the surface of the waters. / But there they become food for the voracious divers and coots. / Alas, weakness finds safety nowhere, on any side."
-      ]
+      ],
+      "group_frtrans": "Hostilité."
     },
     {
       "id": "alc184",
@@ -4341,7 +4807,8 @@
       ],
       "text_en": [
         "¶Everything else falls silent, and the sheepskin grows mute, / if drums made of wolf-hide begin to sound. / The sheep's hide so dreads the wolf's, as an enemy, / that even lifeless it cannot bear the lifeless other. / Thus Ziska, his skin stripped off and turned into a drum, / was able, even after death, to vanquish the Bohemian bishops."
-      ]
+      ],
+      "group_frtrans": "Hostilité."
     },
     {
       "id": "alc185",
@@ -4367,7 +4834,8 @@
       ],
       "text_en": [
         "¶While the Cyclops sits in the winding mouth of his cave, / he sings this to himself among his tender sheep: / 'Graze on your grasses; I shall feast on the Achaean companions, / and last of all let our very entrails be borne away.' / The Ithacan [Ulysses] heard this, and left the Cyclops / deprived of his eye. See how the author himself bears the punishment!"
-      ]
+      ],
+      "group_frtrans": "Vengeance."
     },
     {
       "id": "alc186",
@@ -4393,7 +4861,8 @@
       ],
       "text_en": [
         "¶A crow was carrying off into the air a scorpion caught in its claws, / a prize won for its bold gullet. / But the scorpion, pouring its poison gradually through its limbs, / as avenger drove its captor down into the Stygian waters. / Oh, a matter worthy of laughter! He who prepared death for others / perished himself, and succumbed to his own tricks."
-      ]
+      ],
+      "group_frtrans": "Vengeance."
     },
     {
       "id": "alc187",
@@ -4419,7 +4888,8 @@
       ],
       "text_en": [
         "¶The victorious crowd holds captive in a foul prison / a herald who blew the battle-call upon his horn. / He excuses himself: that he is not skilled with weapons, / nor has he wounded anyone's side with a fierce blade. / To him they reply: Nay, you, most cowardly one, sin all the more, / you who with the blast of bronze rouse others to arms."
-      ]
+      ],
+      "group_frtrans": "Vengeance."
     },
     {
       "id": "alc188",
@@ -4445,7 +4915,8 @@
       ],
       "text_en": [
         "¶As the puppy snaps at the stone and wearies itself biting it, / yet does no injury back to the one who threw it, / so most people let the true enemies slip away, / and attack with their teeth those burdened by no guilt."
-      ]
+      ],
+      "group_frtrans": "Vengeance."
     },
     {
       "id": "alc189",
@@ -4471,7 +4942,8 @@
       ],
       "text_en": [
         "¶Sword in hand, Ajax stood amid the bristled flock, / slaying his own, believing he was slaying the sons of Tantalus. / Thus the victim-swine, as a substitute, paid the penalty / in place of Laertes's son, in place of the council. / Fury does not know how to harm one's enemies; it strays from its aim, / and, bereft of judgment, rushes to its own ruin."
-      ]
+      ],
+      "group_frtrans": "Vengeance."
     },
     {
       "id": "alc190",
@@ -4497,7 +4969,8 @@
       ],
       "text_en": [
         "¶The tower-bearing elephant, with its ivory tusk, / which is accustomed fiercely to overcome the wars of Mars, / has now placed its neck beneath the yoke; and, driven by goads, / draws Caesar's chariot to the sacred temples. / Even the wild beast recognizes the nations united everywhere, / and, having cast aside its weapons, takes up the duties of peace."
-      ]
+      ],
+      "group_frtrans": "Paix."
     },
     {
       "id": "alc191",
@@ -4523,7 +4996,8 @@
       ],
       "text_en": [
         "¶Behold the helmet, which the fearless soldier once wore, and which / was often sprinkled with enemy blood. / Now, peace won, it has been given over to the slender use / of a beehive, and bears honeycombs and pleasant honey. / Let weapons lie far off: it is right to take up war then, / when you cannot otherwise enjoy the art of peace."
-      ]
+      ],
+      "group_frtrans": "Paix."
     },
     {
       "id": "alc192",
@@ -4549,7 +5023,8 @@
       ],
       "text_en": [
         "¶Weave slender garlands from the great ears of grain, / around which the vine's alternating tendrils may run. / Adorned with these, the halcyons nest in the calm / marble wave, and warm their chicks and fledglings. / The year will be joyful for Ceres, and fruitful for Bacchus too, / if the king shall be like the bird of the sea."
-      ]
+      ],
+      "group_frtrans": "Paix."
     },
     {
       "id": "alc193",
@@ -4575,7 +5050,8 @@
       ],
       "text_en": [
         "¶Why, alas, cruel Procne, do you seize the tuneful cicada, / and prepare dreadful dishes for your offspring? / You, shrill one, harm the shrill one; you, a spring-guest, harm your / spring-guest-host; you, a winged bird, harm a winged bird? / Cast away this prey, then: for musical hearts — it is the greatest / wrong for one to perish by another's tooth."
-      ]
+      ],
+      "group_frtrans": "Science."
     },
     {
       "id": "alc194",
@@ -4601,7 +5077,8 @@
       ],
       "text_en": [
         "¶His left hand holds a bow, his right bears a rigid club, / and the Nemean lion covers his bare body. / This, then, is the likeness of Hercules. Yet it does not fit / that his temples bear the hoary hair of old age. / What of this, that his tongue, pierced through with light chains, / draws men in, caught gently by the ear? / Is it not because they say that the Gallic Hercules gave laws to / peoples, excelling not by strength but by tongue? / Arms yield to the toga, and one strong in eloquence / draws even the hardest hearts to his own wishes."
-      ]
+      ],
+      "group_frtrans": "Science."
     },
     {
       "id": "alc195",
@@ -4627,7 +5104,8 @@
       ],
       "text_en": [
         "¶That Mercury gave this antidote to the Ithacan, against the doctored / cups of Aeaean Circe — such was the report. / They call it moly; it is hardly uprooted, black / at the root, but its flower is like milk. / The brightness of eloquence and fluency allures everyone: / but it is a thing requiring much great labor."
-      ]
+      ],
+      "group_frtrans": "Science."
     },
     {
       "id": "alc196",
@@ -4653,7 +5131,8 @@
       ],
       "text_en": [
         "¶Old man of Pellene, Proteus, whose form is that of an actor, / who now bear the limbs of a man, now the limbs of a beast — / tell me, come, what reasoning turns you into all these shapes, / so that no fixed figure of yours remains amid such variety? / I display the signs of antiquity, of the earliest age, / about which each man dreams according to his own judgment."
-      ]
+      ],
+      "group_frtrans": "Science."
     },
     {
       "id": "alc197",
@@ -4679,7 +5158,8 @@
       ],
       "text_en": [
         "¶There are those who bear noble shields with Jove's eagle upon them, / there are those whose emblems bear the Serpent, or the Lion. / But let these fierce creatures flee from the poets' waxen seals, / and let the beautiful Swan uphold learned coats of arms. / This bird, sacred to Phoebus, and a nursling of our own region: / a king, it still preserves its ancient titles to this day."
-      ]
+      ],
+      "group_frtrans": "Science."
     },
     {
       "id": "alc198",
@@ -4705,7 +5185,8 @@
       ],
       "text_en": [
         "¶Eunomus of Locris set up for you, Delphic Phoebus, this cicada, / a fitting token of his victory palm. / He was competing with the plectrum, matched against his Spartan rival, / and the strings, struck by his thumb, gave forth their sound. / When the worn string began to shriek with a hoarse buzzing, / spoiling the lawful harmony and melody, / then a sweet, chirping bird settled upon the cithara, / a cicada, to fill out the broken string with its voice. / And, drawn in, it came down from the high / groves to the law of the sound, that, chattering, it might bring us aid. / Therefore, so that your honor, O sacred cicada, might stand firm, / this bronze lyre-player itself sits here in place of the cithara."
-      ]
+      ],
+      "group_frtrans": "Science."
     },
     {
       "id": "alc199",
@@ -4731,7 +5212,8 @@
       ],
       "text_en": [
         "¶When Cadmus entrusted the viper's teeth to the fields, / and sowed the dire seeds in Aonian soil, / a shielded band of earth-born men sprang up, / who fell among themselves by hostile hand. / Of these, those who survived, at Tritonis's warning, laid down / their arms, and peace was made, and right hands were joined. / Agenor's son was first to hand down the elements and letters / to teachers, and joined to them a sweet harmony. / Their pupils are vexed by very many contrary difficulties, / which are resolved only by Palladian aid."
-      ]
+      ],
+      "group_frtrans": "Science."
     },
     {
       "id": "alc200",
@@ -4757,7 +5239,8 @@
       ],
       "text_en": [
         "¶Here you may have the sayings of the Seven Sages portrayed, / for whoever wishes to celebrate them in pictures. / 'The best measure in all things' (as Cleobulus said) — / this the scale's testing, or the level, teaches. / Chilon the Spartan bade each man to know himself. / This the mirrors, held one in each hand, will convey. / What Periander the Corinthian said — 'put a bridle on anger' — / pennyroyal, held to the nostrils, will achieve this. / Pittacus said, 'nothing too much'; the same thing, they say, / is shown by those who soften bitter black cumin in the mouth. / Solon bids us look to the end. The boundary-stone at the edge / of the fields would not yield even to great Jove himself. / Alas, how true is Bias's saying: 'there is a great abundance of evils.' / Let the Sardinian horseman be made to sit upon a wild ram. / 'Be no one's surety' (Thales said); thus, smeared with birdlime, / the partridge draws her companion, and the fool, into the snares."
-      ]
+      ],
+      "group_frtrans": "Science."
     },
     {
       "id": "alc202",
@@ -4783,7 +5266,8 @@
       ],
       "text_en": [
         "¶'What monster is this?' 'It is the Sphinx.' 'Why does it have the pale face / of a maiden, the wings of a bird, and the legs of a lion?' / 'Ignorance of things has taken on this form: for, indeed, / there is a threefold cause and origin of this great evil. / There are those made so by a fickle mind, those by beguiling pleasure, / and those whom proud hearts render unlearned. / But those who know what the Delphic letter can do / cut the dreadful throat of the headlong monster. / For man himself is at once two-footed, three-footed, and four-footed — / and the first laurel of the wise is to know man.'"
-      ]
+      ],
+      "group_frtrans": "Ignorance."
     },
     {
       "id": "alc203",
@@ -4809,7 +5293,8 @@
       ],
       "text_en": [
         "¶The fox, having entered the workshop of a Choragus, / found a human head, skillfully finished, / so elegantly crafted that only breath / was lacking; in all else it seemed to live. / When she had taken it up in her paws, she said: / 'What a fine head this is — but it has no brain.'"
-      ]
+      ],
+      "group_frtrans": "Ignorance."
     },
     {
       "id": "alc204",
@@ -4835,7 +5320,8 @@
       ],
       "text_en": [
         "¶Phrixus swims through the waters, seated upon a precious fleece, / and, undaunted, rides the golden ram across the sea. / What does this mean? A man dull of understanding, yet rich in treasure, / whose course is steered by the judgment of his wife or his slave."
-      ]
+      ],
+      "group_frtrans": "Ignorance."
     },
     {
       "id": "alc205",
@@ -4861,7 +5347,8 @@
       ],
       "text_en": [
         "¶Behold the maiden, joined by the right hand to her husband. Behold / how she sits; how a puppy frolics before her feet? / This is the image of fidelity: and if the ardor of Venus nurtures it, / a branch of apples in her left hand will not be amiss. / For apples belong to Venus: thus Hippomenes conquered / the daughter of Schoeneus, thus Galatea sought her man."
-      ]
+      ],
+      "group_frtrans": "Mariage."
     },
     {
       "id": "alc206",
@@ -4887,7 +5374,8 @@
       ],
       "text_en": [
         "¶When inflamed with desire, the viper halts on the shore of the sea / and vomits forth dire venom from its belly. / And, summoning the moray eel, it raises a great hissing, / and she at once seeks the embrace of her mate. / The greatest reverence is owed to the marriage bed; husband and wife / owe one another mutual deference."
-      ]
+      ],
+      "group_frtrans": "Mariage."
     },
     {
       "id": "alc207",
@@ -4913,7 +5401,8 @@
       ],
       "text_en": [
         "¶A plaything for boys throwing stones, me, / a nut-tree, rustic care placed at this crossroads. / With torn branches and stripped bark, standing tall, / I am pelted from every side by rival slings. / What could happen more shameful to a barren tree? Alas, / unhappy one: I bear fruit to my own ruin."
-      ]
+      ],
+      "group_frtrans": "Mariage."
     },
     {
       "id": "alc208",
@@ -4939,7 +5428,8 @@
       ],
       "text_en": [
         "¶Before the vernal day, in the northern cold, the gray dove / builds her nest and warms the premature eggs, / and, so the chicks may lie more softly, plucks her own feathers, / whereby she herself, bared, grows faint with winter frost. / Are you not ashamed, woman of Colchis, or you, wicked Procne, / that a bird accepts death out of love for its own offspring?"
-      ]
+      ],
+      "group_frtrans": "Mariage."
     },
     {
       "id": "alc209",
@@ -4965,7 +5455,8 @@
       ],
       "text_en": [
         "¶Through the midst of his homeland's enemies, when he bore from the fire / Aeneas on his shoulders the sweet burden of his father. / 'Spare him,' he said, 'for by seizing this old man you / will win no glory; but for me, should my father be taken, all is lost.'"
-      ]
+      ],
+      "group_frtrans": "Mariage."
     },
     {
       "id": "alc210",
@@ -4991,7 +5482,8 @@
       ],
       "text_en": [
         "¶'Kindly Venus, what is this form, and what signifies / that tortoise, which you, goddess, press with your soft foot?' / 'Thus did Phidias fashion me, and ordained that by my image / the female sex be known. / And since it befits maidens to stay at home and be silent, / he placed such a sign beneath my feet.'"
-      ]
+      ],
+      "group_frtrans": "Mariage."
     },
     {
       "id": "alc211",
@@ -5017,7 +5509,8 @@
       ],
       "text_en": [
         "¶Penelope, betrothed, wished to follow Ulysses, / had her father Icarius not preferred to keep her with him. / The one offers Ithaca, the other Sparta; the maiden remains anxious. / On one side, her father; on the other, mutual love for her husband: / so, sitting, she veils her face, covers her eyes: / these were the signs of modest shame. / By this Icarius knew that she had preferred Ulysses to him; / and in this form he set up an altar of Modesty."
-      ]
+      ],
+      "group_frtrans": "Mariage."
     },
     {
       "id": "alc212",
@@ -5043,7 +5536,8 @@
       ],
       "text_en": [
         "¶May the gods grant the pious better fates, Mezentius: why then do you / so compel me? Because with a dowry you have bought yourself a son-in-law / whom dire French scab and face-rot consume. / What else is this, tell me, cruel father, / than to bind dead bodies to the living, / and renew the savage deeds of the Etruscan tyrant?"
-      ]
+      ],
+      "group_frtrans": "Mariage."
     },
     {
       "id": "alc213",
@@ -5069,7 +5563,8 @@
       ],
       "text_en": [
         "¶The cone-like shape, and the very name of the Cypress, / signify that one's own kin should be treated on equal terms. / ANOTHER. / The Cypress is a mournful tree, the monument of the great, / just as celery commonly adorns the graves of the common folk. / ANOTHER. / Beautiful is its foliage, and its leaves arranged in beautiful order, / but this beautiful foliage bears no fruit at all."
-      ]
+      ],
+      "group_frtrans": "Arbres."
     },
     {
       "id": "alc214",
@@ -5095,7 +5590,8 @@
       ],
       "text_en": [
         "¶The oak is pleasing to Jupiter, for it preserves and nurtures us; / to one who has saved a citizen's life, an oaken crown is given. / ANOTHER. / With its acorn it once nourished the ancients; now it avails only by its shade: / thus too, thus, the tree of Jove, once dutiful, now gives but shade."
-      ]
+      ],
+      "group_frtrans": "Arbres."
     },
     {
       "id": "alc215",
@@ -5121,7 +5617,8 @@
       ],
       "text_en": [
         "¶That Homer called the willow 'fruit-losing' [barren], / he thereby likens to it men resembling the Cluterii in character."
-      ]
+      ],
+      "group_frtrans": "Arbres."
     },
     {
       "id": "alc216",
@@ -5147,7 +5644,8 @@
       ],
       "text_en": [
         "¶The fir, fit for the seas, grows on high mountains: / and even in adverse conditions there lies the greatest benefit."
-      ]
+      ],
+      "group_frtrans": "Arbres."
     },
     {
       "id": "alc217",
@@ -5173,7 +5671,8 @@
       ],
       "text_en": [
         "¶But the fact that the spruce sends out no shoots from its stock / is a token of one who perishes without offspring."
-      ]
+      ],
+      "group_frtrans": "Arbres."
     },
     {
       "id": "alc218",
@@ -5199,7 +5698,8 @@
       ],
       "text_en": [
         "¶It is said that ancient Solon decreed that quince apples / should be given to newlyweds. / Since they are pleasing to mouth and stomach, so too their breath / becomes sweet, and a gentle charm remains upon the lips."
-      ]
+      ],
+      "group_frtrans": "Arbres."
     },
     {
       "id": "alc219",
@@ -5225,7 +5725,8 @@
       ],
       "text_en": [
         "¶Never withering is the little tree of ivy, which, they say, / the boy Cissus once gave as a gift to Bacchus: / wandering, bold, tawny with its golden clusters, / green outside, while all else within is pale. / Hence poets wreathe their brows with its fitting garlands; / they grow pale from their studies, while their fame is lasting"
-      ]
+      ],
+      "group_frtrans": "Arbres."
     },
     {
       "id": "alc220",
@@ -5251,7 +5752,8 @@
       ],
       "text_en": [
         "¶That the holm-oak breaks apart from excessive hardness / holds the symbol of civil sedition."
-      ]
+      ],
+      "group_frtrans": "Arbres."
     },
     {
       "id": "alc221",
@@ -5277,7 +5779,8 @@
       ],
       "text_en": [
         "¶These fruits are the golden apples of Venus: their pleasant bitterness / signifies this, for in Greek love is called 'bittersweet'."
-      ]
+      ],
+      "group_frtrans": "Arbres."
     },
     {
       "id": "alc222",
@@ -5303,7 +5806,8 @@
       ],
       "text_en": [
         "¶Ever green, with a curly crown, the box-tree, / from which the pan-pipe, made with unequal reeds, is fashioned — / a tree fitting for tender delights and for lovers. / Paleness dwells in it, and every lover too grows pale."
-      ]
+      ],
+      "group_frtrans": "Arbres."
     },
     {
       "id": "alc223",
@@ -5329,7 +5833,8 @@
       ],
       "text_en": [
         "¶But the mulberry buds latest of all, never except once the cold has passed, / and, though wise, bears a false name."
-      ]
+      ],
+      "group_frtrans": "Arbres."
     },
     {
       "id": "alc224",
@@ -5355,7 +5860,8 @@
       ],
       "text_en": [
         "¶Why, almond-tree, in your haste, do you send forth flowers before leaves? / I hate pupils of precocious talent."
-      ]
+      ],
+      "group_frtrans": "Arbres."
     },
     {
       "id": "alc225",
@@ -5381,7 +5887,8 @@
       ],
       "text_en": [
         "¶The laurel, foreknowing the future, bears signs of well-being. / Placed beneath a pillow, it makes dreams come true. / ANOTHER. / To Charles is owed the laurel for the conquered Carthaginians: / let such garlands adorn victorious locks."
-      ]
+      ],
+      "group_frtrans": "Arbres."
     },
     {
       "id": "alc226",
@@ -5407,7 +5914,8 @@
       ],
       "text_en": [
         "¶That the two-colored poplar adorns the locks of Hercules / signifies that night and day alternate in the changing of time."
-      ]
+      ],
+      "group_frtrans": "Arbres."
     }
   ]
 }
