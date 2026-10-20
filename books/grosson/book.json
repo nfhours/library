@@ -3,11 +3,13 @@
   "title": {
     "ru": "Собрание древностей и памятников Марселя",
     "en": "Collection of Marseille Antiquities and Monuments",
-    "original": "Recueil des Antiquités et Monumens Marseillois"
+    "original": "Recueil des Antiquités et Monumens Marseillois",
+    "fr": "Recueil des Antiquités et Monumens Marseillois"
   },
   "subtitle": {
     "ru": "Ж.-Б.-Б. Гроссон, Марсель, 1773 — опись древностей и памятников Марселя: медали, рельефы, надписи, в пяти частях. Первоисточник по античной истории города. Указатель по табличкам (Planches); нажмите на предмет, чтобы открыть карточку.",
-    "en": "J.-B.-B. Grosson, Marseille, 1773 — a catalogue of Marseille's antiquities: medals, reliefs, inscriptions, in five parts. A primary source for the city's classical history. Indexed by plate (Planche); click an object to open its card."
+    "en": "J.-B.-B. Grosson, Marseille, 1773 — a catalogue of Marseille's antiquities: medals, reliefs, inscriptions, in five parts. A primary source for the city's classical history. Indexed by plate (Planche); click an object to open its card.",
+    "fr": "J.-B.-B. Grosson, Marseille, 1773 — description des antiquités et monuments de Marseille : médailles, reliefs, inscriptions, en cinq parties. Source primaire pour l'histoire antique de la ville. Index par planche (Planche) ; cliquez sur un objet pour ouvrir sa fiche."
   },
   "author": "Jean-Baptiste-Bernard Grosson",
   "year": 1773,
@@ -18,62 +20,75 @@
     {
       "n": 1,
       "ru": "Часть первая. Медали",
-      "en": "Part One. Medals"
+      "en": "Part One. Medals",
+      "fr": "Partie première. Médailles"
     },
     {
       "n": 2,
       "ru": "Часть вторая. Рельефы, статуи и архитектурные фрагменты",
-      "en": "Part Two. Reliefs, Statues, and Architectural Fragments"
+      "en": "Part Two. Reliefs, Statues, and Architectural Fragments",
+      "fr": "Partie seconde. Bas-reliefs, Statues et Fragmens d'Architecture"
     },
     {
       "n": 3,
       "ru": "Часть третья. Предметы для религиозных обрядов и домашнего обихода",
-      "en": "Part Three. Objects for Religious Ceremonies and Domestic Use"
+      "en": "Part Three. Objects for Religious Ceremonies and Domestic Use",
+      "fr": "Partie troisième. Objets servans aux cérémonies religieuses et à l'usage domestique"
     },
     {
       "n": 4,
       "ru": "Часть четвёртая. Здания",
-      "en": "Part Four. Buildings"
+      "en": "Part Four. Buildings",
+      "fr": "Partie quatrième. Édifices"
     },
     {
       "n": 5,
       "ru": "Часть пятая. Надписи и эпитафии",
-      "en": "Part Five. Inscriptions and Epitaphs"
+      "en": "Part Five. Inscriptions and Epitaphs",
+      "fr": "Partie cinquième. Inscriptions et Épitaphes"
     }
   ],
   "partsNote": "Структура книги установлена по результатам полной транскрипции: Часть I — медали (завершена); Часть II — рельефы, статуи и архитектурные фрагменты, Таблицы X-XXVIII (завершена); Часть III — лампы и предметы религиозного/бытового обихода, Таблицы XXIX-XXXIII (завершена); Часть IV — здания, Таблицы XXXIV-XXXVI (завершена); Часть V — надписи и эпитафии, Таблицы XXXVII-XLII плюс завершающий безыллюстративный раздел фрагментов (завершена). Книга Гроссона (1773) полностью переведена.",
   "fields": {
     "legend": {
       "ru": "Легенда",
-      "en": "Legend"
+      "en": "Legend",
+      "fr": "Légende"
     },
     "obverse": {
       "ru": "Лицевая сторона",
-      "en": "Obverse"
+      "en": "Obverse",
+      "fr": "Face"
     },
     "reverse": {
       "ru": "Оборот",
-      "en": "Reverse"
+      "en": "Reverse",
+      "fr": "Revers"
     },
     "material": {
       "ru": "Материал",
-      "en": "Material"
+      "en": "Material",
+      "fr": "Matière"
     },
     "dimensions_orig": {
       "ru": "Размер (оригинал)",
-      "en": "Size (original)"
+      "en": "Size (original)",
+      "fr": "Dimension (original)"
     },
     "dimensions_cm": {
       "ru": "Размер (см)",
-      "en": "Size (cm)"
+      "en": "Size (cm)",
+      "fr": "Dimension (cm)"
     },
     "findspot": {
       "ru": "Место находки",
-      "en": "Findspot"
+      "en": "Findspot",
+      "fr": "Lieu de découverte"
     },
     "owner": {
       "ru": "Хранение (1773)",
-      "en": "Held by (1773)"
+      "en": "Held by (1773)",
+      "fr": "Conservé chez (1773)"
     }
   },
   "plates": [
@@ -669,5 +684,6 @@
       "about-21.jpg",
       "about-22.jpg"
     ]
-  }
+  },
+  "sourceIsFrench": true
 }
