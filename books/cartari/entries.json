@@ -6410,25 +6410,22 @@
       "group": "Пиньория: примечания",
       "group_en": "Pignoria's Annotations",
       "img": [
-        "carta1.jpg"
+        "carta9_p534.jpg"
       ],
-      "caption": "Haueuano gl'antichi in vso rationato il Fato sotto tre Imagini di Donna rappresentate... Et si sono tratte da vna Medaglia d'oro antica, & dell'Imperatore Diocletiano, con questa inscrittione, FATIS VICTRICIBVS.",
+      "caption": "(questa tavola dei tre Fati, con la medaglia d'oro di Diocleziano FATIS VICTRICIBVS, è la stessa riportata nella carta9, dove si trova il testo completo di Pignoria)",
       "text_ru": [
-        "«У древних было в обычае представлять Судьбу в образе трёх Женщин... Взяты они с древней золотой медали императора Диоклетиана, с надписью FATIS VICTRICIBVS (Побеждающим Судьбам)»."
+        "(эта гравюра трёх Судеб-Парок с золотой медалью Диоклетиана «FATIS VICTRICIBVS» совпадает с той, что приведена в carta9, где помещён полный текст Пиньории)"
       ],
       "text_en": [
-        "“The ancients had the custom of representing Fate under the image of three Women... These are taken from an ancient gold medal of the Emperor Diocletian, with the inscription FATIS VICTRICIBUS (To the Victorious Fates).”"
+        "(this plate of the three Fates, with Diocletian's gold medal \"FATIS VICTRICIBVS\", is the same one given in carta9, where Pignoria's full text is found)"
       ],
       "name_fr": "Le Destin sous trois images de Femme",
       "text_fr": [
-        "« Les anciens avaient coutume de représenter le Destin sous l'image de trois Femmes... Elles sont tirées d'une médaille d'or antique de l'empereur Dioclétien, avec cette inscription, FATIS VICTRICIBVS (Aux Destins Victorieux). »"
+        "(cette planche des trois Destins, avec la médaille d'or de Dioclétien « FATIS VICTRICIBVS », est la même que celle donnée dans carta9, où se trouve le texte complet de Pignoria)"
       ],
       "scans": [
-        "carta1.jpg",
-        "carta1_p505.jpg"
-      ],
-      "needsReview": true,
-      "reviewNote": "Image mismatch confirmed (shows Mithraic tauroctony, not matching caption). NEW LEAD found via carta30 cross-reference: the real Dagon image is explicitly described as appearing \"a car.1 di questo Libro, in capo alla statua di Semiramide\" (at folio 1 of this book, at the head of the statue of Semiramis). Checked the title page (idx38, no image) and the large folding cosmological plate (idx40-41, high-res examined — shows planetary deities, no clearly labeled Semiramis/Dagon pairing found). Real source page still not conclusively located despite extensive search; needs either a cleaner scan or physical-copy cross-check."
+        "carta9_p534.jpg"
+      ]
     },
     {
       "id": "carta2",
@@ -6945,7 +6942,7 @@
       "group": "Пиньория: примечания",
       "group_en": "Pignoria's Annotations",
       "img": [
-        "carta9.jpg"
+        "carta9_p534.jpg"
       ],
       "caption": "Et si fono tratte da vna Medaglia d'oro antica, & dell'Imperatore Diocletiano veduta da me altre volte in Roma, con questa inscrittione, FATIS VICTRICIBVS.",
       "text_ru": [
@@ -6964,9 +6961,7 @@
       "scans": [
         "carta9.jpg",
         "carta9_p534.jpg"
-      ],
-      "needsReview": true,
-      "reviewNote": "Caption (Diocletian FATIS VICTRICIBVS medal) is duplicated from carta1 and does not match the actual page content (image shows a Three-Graces-style nude relief of three women from behind, discussed alongside Sphinx/Chimera commentary, page 494). The real FATIS VICTRICIBVS / Three Fates plate has not been located."
+      ]
     },
     {
       "id": "carta31",
