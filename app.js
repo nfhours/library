@@ -590,7 +590,7 @@
         part=it.part; grp=null;
       }
       if(grouped){
-        var gk=it.part+"|"+it.group+"|"+it.group_fr;
+        var gk=it.part+"|"+it.group+"|"+(it.group_fr||"")+"|"+(it.group_page||"");
         if(gk!==grp){
           if(open) html+="</ul></section>";
           html+='<section class="ic-group"><h2><span>'+esc(groupOf(it))+'</span>'+(it.group_fr?'<span class="ic-gfr">'+esc(it.group_fr)+'</span>':"")+
@@ -600,7 +600,7 @@
       } else if(!open){ html+='<section class="ic-group"><ul>'; open=true; }
       html+='<li class="ic-row-item" tabindex="0" role="link" data-id="'+it.id+'">'+
         '<span class="ic-pg">'+esc(it.page)+'<small>'+(showPart?t("partN",{n:it.part}):t("pageAbbr"))+'</small></span>'+
-        '<span><span class="ic-ru">'+(it.num?'<span class="ic-num">'+it.num+'</span>':"")+esc(titleOf(it))+(it.flag?" ("+esc(it.flag)+")":"")+'</span></span>'+
+        '<span><span class="ic-ru">'+esc(titleOf(it))+(it.flag?" ("+esc(it.flag)+")":"")+'</span></span>'+
       '</li>';
     });
     if(open) html+="</ul></section>";
