@@ -600,8 +600,8 @@
       } else if(!open){ html+='<section class="ic-group"><ul>'; open=true; }
       html+='<li class="ic-row-item" tabindex="0" role="link" data-id="'+it.id+'">'+
         '<span class="ic-pg">'+esc(it.page)+'<small>'+(showPart?t("partN",{n:it.part}):t("pageAbbr"))+'</small></span>'+
-        '<span><span class="ic-fr">'+(it.num?'<span class="ic-num">'+it.num+'</span>':"")+esc(it.fr)+'</span>'+
-        '<span class="ic-ru">'+esc(titleOf(it))+(it.flag?" ("+esc(it.flag)+")":"")+'</span></span>'+
+        '<span><span class="ic-ru">'+(it.num?'<span class="ic-num">'+it.num+'</span>':"")+esc(titleOf(it))+(it.flag?" ("+esc(it.flag)+")":"")+'</span>'+
+        '<span class="ic-fr">'+esc(it.fr)+'</span></span>'+
       '</li>';
     });
     if(open) html+="</ul></section>";
