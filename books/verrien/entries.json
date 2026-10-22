@@ -1,3 +1,135 @@
 {
-    "items": []
+ "items": [
+  {
+   "id": "v-errata",
+   "part": 1,
+   "plate": null,
+   "num": "",
+   "fr": "Fautes à corriger",
+   "ru": "Список опечаток",
+   "page": "138-141",
+   "group": "errata",
+   "group_fr": "Fautes à corriger",
+   "group_page": "138",
+   "flag": "index",
+   "img": [],
+   "plate_img": "",
+   "bbox": [],
+   "attrs": [],
+   "scans": [
+    "v-errata-1.jpg",
+    "v-errata-2.jpg",
+    "v-errata-3.jpg",
+    "v-errata-4.jpg"
+   ],
+   "text_fr": [
+    "Fautes à corriger. — Список опечаток к Первой книге («Эмблемы и девизы»): четыре страницы исправлений, организованных по номеру страницы (pa.) и номеру эмблемы (nom.) оригинальной пагинации книги — например «Page 2. Nom. 3…», «pa. 60. nom. 2…», вплоть до «pa. 63». Это служебный аппарат издания (список опечаток), а не самостоятельный текст с эмблемами; построчный перевод каждой правки не выполнялся по тому же принципу, что и для алфавитных указателей этой библиотеки — ниже приведены страницы скана для справки."
+   ],
+   "text_ru": [
+    "Fautes à corriger («Ошибки, подлежащие исправлению») — список опечаток к Первой книге («Эмблемы и девизы»): четыре страницы правок, организованных по номеру страницы (pa.) и номеру эмблемы (nom.) исходной пагинации — от «Page 2. Nom. 3…» до «pa. 63». Это справочный аппарат книги, а не содержательный текст с эмблемами; как и в случае алфавитных указателей, исчерпывающий построчный перевод не выполнялся — ниже приложены сканы страниц для справки."
+   ],
+   "motto_fr": "",
+   "meaning_fr": "",
+   "meaning_ru": "",
+   "name_fr": "Fautes à corriger"
+  },
+  {
+   "id": "v2-index-medailles",
+   "part": 2,
+   "plate": null,
+   "num": "",
+   "fr": "Table Alphabétique des Médailles ou Figures Hiéroglyfiques",
+   "ru": "Алфавитная таблица медалей (иероглифических фигур)",
+   "page": "146-157",
+   "group": "index",
+   "group_fr": "Table Alphabétique des Médailles",
+   "group_page": "146",
+   "flag": "index",
+   "img": [],
+   "plate_img": "",
+   "bbox": [],
+   "attrs": [],
+   "scans": [
+    "v2-idx-medailles-1.jpg",
+    "v2-idx-medailles-2.jpg",
+    "v2-idx-medailles-3.jpg",
+    "v2-idx-medailles-4.jpg",
+    "v2-idx-medailles-5.jpg",
+    "v2-idx-medailles-6.jpg",
+    "v2-idx-medailles-7.jpg",
+    "v2-idx-medailles-8.jpg",
+    "v2-idx-medailles-9.jpg",
+    "v2-idx-medailles-10.jpg",
+    "v2-idx-medailles-11.jpg",
+    "v2-idx-medailles-12.jpg"
+   ],
+   "text_fr": [
+    "Table Alphabétique des Médailles ou Figures Hiéroglyfiques — алфавитный указатель (12 страниц, idx 146–157 скана) ко всем аллегорическим медальонам («иероглифическим фигурам»), помещённым среди монограмм Второй книги (например «Zele», «Justice», «Concorde conjugale», «Beati misericordes»): каждое слово-понятие сопровождается номером пластины (Planche), на которой оно встречается. Это служебный указатель-перечень слов с отсылками к пластинам, а не самостоятельный текст; как и для аналогичных указателей в других книгах этой библиотеки, исчерпывающий построчный перевод всех ~150 позиций не выполнялся — вместо этого ниже приложены сканы страниц для справки, а каждый медальон переведён отдельно, по месту, в карточке соответствующей пластины (поле «medal»)."
+   ],
+   "text_ru": [
+    "Table Alphabétique des Médailles ou Figures Hiéroglyfiques («Алфавитная таблица медалей, или иероглифических фигур») — указатель на 12 страницах (idx 146–157 скана) ко всем аллегорическим медальонам, встроенным среди монограмм Второй книги (например «Zele» — Рвение, «Justice» — Правосудие, «Concorde conjugale» — Супружеское согласие, «Beati misericordes» — Блаженны милостивые): каждое понятие сопровождается номером пластины, где оно изображено. Это справочный перечень-указатель, а не отдельный содержательный текст; построчный перевод всех позиций не выполнялся, по тому же принципу, что и для прочих указателей этой библиотеки — сканы страниц приложены для справки, а перевод каждого медальона дан непосредственно в карточке его пластины."
+   ],
+   "motto_fr": "",
+   "meaning_fr": "",
+   "meaning_ru": "",
+   "name_fr": "Table Alphabétique des Médailles ou Figures Hiéroglyfiques"
+  },
+  {
+   "id": "v2-index-chiffres",
+   "part": 2,
+   "plate": null,
+   "num": "",
+   "fr": "Table Alphabétique (des combinaisons de lettres) + Extrait du Privilège du Roy",
+   "ru": "Алфавитная таблица буквенных сочетаний + королевская привилегия",
+   "page": "314-341",
+   "group": "index",
+   "group_fr": "Table Alphabétique",
+   "group_page": "314",
+   "flag": "index",
+   "img": [],
+   "plate_img": "",
+   "bbox": [],
+   "attrs": [],
+   "scans": [
+    "v2-idx-chiffres-1.jpg",
+    "v2-idx-chiffres-2.jpg",
+    "v2-idx-chiffres-3.jpg",
+    "v2-idx-chiffres-4.jpg",
+    "v2-idx-chiffres-5.jpg",
+    "v2-idx-chiffres-6.jpg",
+    "v2-idx-chiffres-7.jpg",
+    "v2-idx-chiffres-8.jpg",
+    "v2-idx-chiffres-9.jpg",
+    "v2-idx-chiffres-10.jpg",
+    "v2-idx-chiffres-11.jpg",
+    "v2-idx-chiffres-12.jpg",
+    "v2-idx-chiffres-13.jpg",
+    "v2-idx-chiffres-14.jpg",
+    "v2-idx-chiffres-15.jpg",
+    "v2-idx-chiffres-16.jpg",
+    "v2-idx-chiffres-17.jpg",
+    "v2-idx-chiffres-18.jpg",
+    "v2-idx-chiffres-19.jpg",
+    "v2-idx-chiffres-20.jpg",
+    "v2-idx-chiffres-21.jpg",
+    "v2-idx-chiffres-22.jpg",
+    "v2-idx-chiffres-23.jpg",
+    "v2-idx-chiffres-24.jpg",
+    "v2-idx-chiffres-25.jpg",
+    "v2-idx-chiffres-26.jpg",
+    "v2-idx-chiffres-27.jpg",
+    "v2-idx-chiffres-28.jpg"
+   ],
+   "text_fr": [
+    "Table Alphabétique — exhaustive finding-aid (idx 314–340 du scan, 27 pages de la pagination propre de la table) listant, par ordre alphabétique, toutes les combinaisons possibles de deux lettres (« Alphabeth à deux Lettres ») puis de trois lettres redoublées (« Alphabeth à trois Lettres redoublés », à partir de la page 4 de la table) qui composent les chiffres/monogrammes de la Seconde partie, chaque combinaison (ex. « ab. ac. ad… », « abc. abd. abe… ») étant suivie du numéro de page où la trouver. La dernière page (idx 341, p. 28) porte l'« Extrait du Privilège du Roy » (autorisation royale d'impression accordée à Nicolas Verrien, datée du 26 juillet 1685, achevé d'imprimer le 25 septembre 1685). Comme pour les autres index de cette bibliothèque, il s'agit d'un pur outil de repérage (des milliers de combinaisons de lettres avec numéros de page) ; la traduction exhaustive ligne par ligne n'a pas été faite — les scans des 28 pages sont joints pour référence."
+   ],
+   "text_ru": [
+    "Table Alphabétique («Алфавитная таблица») — исчерпывающий справочный указатель (idx 314–340 скана, 27 страниц собственной пагинации таблицы), перечисляющий по алфавиту все возможные сочетания из двух букв («Alphabeth à deux Lettres»), а затем из трёх сдвоенных букв («Alphabeth à trois Lettres redoublés», начиная со страницы 4 таблицы), образующие монограммы Второй книги; каждое сочетание (например «ab. ac. ad…», «abc. abd. abe…») сопровождается номером страницы, где его искать. На последней странице (idx 341, с.28) помещён «Extrait du Privilège du Roy» — выписка из королевской привилегии на печать, выданной Никола Веррьену 26 июля 1685 года, со сведениями о завершении печати 25 сентября 1685 года. Как и прочие указатели этой библиотеки, это чисто справочный инструмент (тысячи буквенных сочетаний с номерами страниц); построчный перевод всех позиций не выполнялся — сканы всех 28 страниц приложены для справки."
+   ],
+   "motto_fr": "",
+   "meaning_fr": "",
+   "meaning_ru": "",
+   "name_fr": "Table Alphabétique"
+  }
+ ]
 }
