@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "63";
+  var APP_VER = "64";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -312,6 +312,7 @@
   }
 
   function route(){
+    if(activeSheetClose){ activeSheetClose(); }
     var p = parseHash();
     if(!p.slug){ renderLibraryHome(); return; }
     openBook(p.slug, function(book){
@@ -996,6 +997,15 @@
   // prev/next navigation inside the sheet (locked once, unlocked on close),
   // so swiping through objects doesn't jump or re-trigger the lock.
   var sheetScrollY = null;
+  // openObjectSheet's panel is appended straight to document.body (so it can
+  // sit above everything, including body-scroll-lock), which means it is
+  // never inside the #iconologie root that route() rewrites on every
+  // navigation. Without this, pressing the browser's own Back/Forward (or
+  // any other hash change) while a sheet is open left it stuck on screen,
+  // stacked on top of whatever route() rendered next underneath it. Tracks
+  // the currently-open sheet's own close() so route() can tear it down
+  // first; null when no sheet is open.
+  var activeSheetClose = null;
   function lockBodyScroll(){
     if(sheetScrollY!=null) return;
     sheetScrollY = window.scrollY;
@@ -1034,7 +1044,8 @@
     bindObjectDetail(book, it, body);
     highlightHotspot(it.id);
     function remove(){ d.remove(); document.removeEventListener("keydown",onKey); }
-    function close(){ remove(); unlockBodyScroll(); highlightHotspot(null); }
+    function close(){ remove(); unlockBodyScroll(); highlightHotspot(null); activeSheetClose=null; }
+    activeSheetClose = close;
     function onKey(e){ if(e.key==="Escape") close(); }
     function goTo(j){ if(j<0||j>=objs.length) return; remove(); openObjectSheet(book, objs, j); }
     d.querySelector(".ic-sheet-backdrop").addEventListener("click", close);
