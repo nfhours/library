@@ -74,12 +74,26 @@ select.ic-sort{font-size:.85em;padding:4px 0;border:0;border-bottom:1px solid va
 .ic-count{color:var(--soft);font-size:.78em;margin-top:10px}
 
 .ic-part{font-family:var(--old);font-size:1.6em;font-weight:500;color:var(--accent);margin-top:24px;margin-bottom:18px}
-.ic-group{margin-top:26px}
-.ic-group h2{font-size:1.02em;font-weight:600;display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline;
-  padding-bottom:8px;border-bottom:2px solid transparent;
+/* Each top-level chapter is a <details>, closed by default: a book-length list
+   of a few hundred entries otherwise reads as one undifferentiated scroll —
+   collapsing to "just the chapter names" first (like a printed table of
+   contents) and letting a reader open the ones they actually want mirrors how
+   a physical copy's own index works, and matches the Booking page's already-
+   established disclosure pattern. */
+.ic-group{margin-top:18px}
+.ic-group summary{cursor:pointer;list-style:none;-webkit-tap-highlight-color:transparent}
+.ic-group summary::-webkit-details-marker{display:none}
+.ic-group summary h2{font-size:1.02em;font-weight:600;margin:0;display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline;
+  padding:10px 0;border-bottom:2px solid transparent;
   border-image:linear-gradient(to right,transparent,var(--ink) 12%,var(--ink) 88%,transparent) 1}
+.ic-group[open] summary h2{color:var(--accent)}
+.ic-group summary h2::after{content:"";width:9px;height:9px;flex:none;margin-left:10px;
+  border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;
+  transform:rotate(45deg);transition:transform .2s ease;align-self:center}
+.ic-group[open] summary h2::after{transform:rotate(-135deg)}
 .ic-gfr{font-family:var(--old);font-style:italic;font-weight:400;color:var(--soft);font-size:1.05em}
 .ic-gpg{margin-left:auto;color:var(--accent);font-weight:400;font-size:.9em}
+.ic-gn{margin-left:auto;color:var(--soft);font-weight:400;font-size:.85em}
 .ic-list ul{list-style:none;margin-top:10px}
 .ic-row-item{display:grid;grid-template-columns:4.4rem 1fr;gap:18px;align-items:center;
   padding:22px 6px;border-bottom:1px solid var(--rule);cursor:pointer;color:var(--ink)}
