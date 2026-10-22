@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "65";
+  var APP_VER = "66";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -126,6 +126,22 @@
   }
 
   var state={q:"",filter:"all",sort:"book",scroll:0,lang:"ru"};
+  // Bumped on every route() dispatch (every navigation). toTop()'s snap()
+  // can be deferred an arbitrary amount — it's re-run from an image's "load"
+  // event, and route() swaps root.innerHTML long before a big, un-sized
+  // plate/figure image actually finishes downloading. If the visitor
+  // navigates on (Back, a different plate, next/prev) before that image
+  // loads, the stale listener still fires later, against the SAME shared
+  // `root` element — now showing a completely different page — and both
+  // reads its layout (wrong target) and calls scrollTo against it. That is
+  // what was observed as "scroll back doesn't restore" (the real restore
+  // lands fine, then a late stale snap() yanks it back toward the top a
+  // moment later) and as the overlapping/doubled header screenshots (the
+  // jump lands mid-repaint of the new page, while its own fade-in images are
+  // still settling). Every deferred scroll adjustment below captures the
+  // generation it belongs to and is a no-op once a newer navigation has
+  // moved the counter on.
+  var renderGen = 0;
 
   // язык: ?lang= в URL (приоритет и запоминается) > сохранённый выбор > data-lang на блоке > ru
   (function initLang(){
@@ -312,6 +328,7 @@
   }
 
   function route(){
+    renderGen++;
     if(activeSheetClose){ activeSheetClose(); }
     var p = parseHash();
     if(!p.slug){ renderLibraryHome(); return; }
@@ -397,7 +414,16 @@
     // under that bar instead of below it, so the target is offset by the
     // bar's own height, not the bare top of the viewport.
     var headerOffset = parseFloat(root.dataset.top) || 0;
-    function snap(){ var r=root.getBoundingClientRect(); if(r.top<headerOffset) window.scrollTo(0, window.scrollY+r.top-headerOffset); }
+    // Pin to the navigation this toTop() call belongs to — see renderGen's
+    // comment above. snap() can still be invoked long after the visitor has
+    // moved on (from a slow image's "load" event), and by then root holds a
+    // different page entirely; without this guard snap() would measure and
+    // scroll that unrelated page instead of doing nothing.
+    var gen = renderGen;
+    function snap(){
+      if(gen !== renderGen) return;
+      var r=root.getBoundingClientRect(); if(r.top<headerOffset) window.scrollTo(0, window.scrollY+r.top-headerOffset);
+    }
     snap();
     // The big plate/figure images have no explicit width/height, so the page
     // grows once each one finishes loading. The browser's own scroll
@@ -557,7 +583,7 @@
       var r=e.target.closest(".ic-row-item"); if(r && (e.key==="Enter"||e.key===" ")){ e.preventDefault(); go(book, r.getAttribute("data-id")); }
     });
     fill(book);
-    if(state.scroll){ var y=state.scroll; state.scroll=0; requestAnimationFrame(function(){ window.scrollTo(0,y); }); }
+    if(state.scroll){ var y=state.scroll, gen=renderGen; state.scroll=0; requestAnimationFrame(function(){ if(gen===renderGen) window.scrollTo(0,y); }); }
     nudgeRepaint();
   }
   function chip(v,t_){ return '<button type="button" class="ic-chip" data-f="'+v+'" aria-pressed="'+(state.filter===v)+'">'+t_+'</button>'; }
@@ -712,7 +738,7 @@
       var r=e.target.closest(".ic-plate-row"); if(r && (e.key==="Enter"||e.key===" ")){ e.preventDefault(); state.scroll=window.scrollY; location.hash = hrefFor(book,"plate/"+r.getAttribute("data-n")); }
     });
     refresh();
-    if(state.scroll){ var y=state.scroll; state.scroll=0; requestAnimationFrame(function(){ window.scrollTo(0,y); }); }
+    if(state.scroll){ var y=state.scroll, gen=renderGen; state.scroll=0; requestAnimationFrame(function(){ if(gen===renderGen) window.scrollTo(0,y); }); }
     nudgeRepaint();
   }
 
