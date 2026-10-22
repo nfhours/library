@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "66";
+  var APP_VER = "67";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -635,10 +635,25 @@
         var gk=it.part+"|"+it.group+"|"+(it.group_fr||"")+"|"+(it.group_page||"");
         if(gk!==grp){
           if(open) html+="</ul></"+openTag+">";
-          html+='<details class="ic-group"><summary><h2><span class="ic-gcap">'+esc(groupOf(it))+'</span>'+(it.group_fr?'<span class="ic-gfr">'+esc(it.group_fr)+'</span>':"")+
-            (it.group_page?'<span class="ic-gpg">'+esc(t("pageAbbr"))+' '+esc(it.group_page)+'</span>':"")+
-            '<span class="ic-gn">'+esc(t("groupItems",{n:groupCounts[gk]}))+'</span></h2></summary><ul>';
-          grp=gk; open=true; openTag="details";
+          // Collapsible <details> suits books with long chapters (many items
+          // per group, worth hiding until opened). Books whose groups are
+          // just short alphabetical labels (e.g. Iconologia's letter
+          // headings) read better fully expanded, as they did before
+          // collapsing was introduced — book.meta.flatGroups opts a book
+          // out of the <details> wrapper back to a plain, always-open
+          // <section>, while keeping the same grouped headings.
+          if(book.meta.flatGroups){
+            html+='<section class="ic-group"><h2><span class="ic-gcap">'+esc(groupOf(it))+'</span>'+(it.group_fr?'<span class="ic-gfr">'+esc(it.group_fr)+'</span>':"")+
+              (it.group_page?'<span class="ic-gpg">'+esc(t("pageAbbr"))+' '+esc(it.group_page)+'</span>':"")+
+              '</h2><ul>';
+            openTag="section";
+          } else {
+            html+='<details class="ic-group"><summary><h2><span class="ic-gcap">'+esc(groupOf(it))+'</span>'+(it.group_fr?'<span class="ic-gfr">'+esc(it.group_fr)+'</span>':"")+
+              (it.group_page?'<span class="ic-gpg">'+esc(t("pageAbbr"))+' '+esc(it.group_page)+'</span>':"")+
+              '<span class="ic-gn">'+esc(t("groupItems",{n:groupCounts[gk]}))+'</span></h2></summary><ul>';
+            openTag="details";
+          }
+          grp=gk; open=true;
         }
       } else if(!open){ html+='<section class="ic-group"><ul>'; open=true; openTag="section"; }
       html+='<li class="ic-row-item" tabindex="0" role="link" data-id="'+it.id+'">'+
