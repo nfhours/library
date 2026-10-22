@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "68";
+  var APP_VER = "69";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -1134,10 +1134,23 @@
         'style="left:'+box[0]+'%;top:'+box[1]+'%;width:'+box[2]+'%;height:'+box[3]+'%" '+
         'aria-label="'+esc(it.num||"")+'"><span>'+esc(it.num||"")+'</span></button>';
     }).join("");
+    // Whole-plate prev/next: quickly flipping through consecutive plates to
+    // scan/QA a book shouldn't mean going back to the index and picking the
+    // next row by hand each time. Order is the book's own plates[] order
+    // (already the correct sequence after any renumbering), independent of
+    // the objects-within-a-plate ordering used elsewhere.
+    var plateSeq = (book.meta.plates||[]).map(function(p){ return String(p.n); });
+    var pi = plateSeq.indexOf(n);
+    var prevN = pi>0 ? plateSeq[pi-1] : null, nextN = (pi>=0 && pi<plateSeq.length-1) ? plateSeq[pi+1] : null;
+    var platePager = '<div class="ic-nav-pager">'+
+      '<button type="button" class="ic-nav-pager-b" data-plate="'+(prevN||"")+'"'+(prevN?"":" disabled")+'>'+t("navPrev")+'</button>'+
+      '<button type="button" class="ic-nav-pager-b" data-plate="'+(nextN||"")+'"'+(nextN?"":" disabled")+'>'+t("navNext")+'</button>'+
+    '</div>';
     root.innerHTML =
       '<div class="ic-wrap">'+
         '<div class="ic-nav">'+
           '<button type="button" class="ic-back">'+t("back")+'</button>'+
+          platePager+
           langSwitch()+
         '</div>'+
         '<header class="ic-head"><h1 class="ic-h-fr">'+esc(title)+'</h1></header>'+
@@ -1152,6 +1165,11 @@
       '</div>';
     bindLangSwitch(root);
     root.querySelector(".ic-back").addEventListener("click",function(){ goIndex(book); });
+    root.querySelectorAll(".ic-nav-pager-b[data-plate]").forEach(function(b){
+      b.addEventListener("click",function(){
+        var pn = b.getAttribute("data-plate"); if(pn) location.hash = hrefFor(book,"plate/"+pn);
+      });
+    });
     wireObjList(book, objs);
     var viewBody = root.querySelector(".ic-view-body");
     root.querySelectorAll(".ic-view-toggle .ic-ov-b").forEach(function(b){
