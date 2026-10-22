@@ -1,0 +1,56 @@
+{
+ "slug": "verrien",
+ "title": {
+  "ru": "Книга любопытная и полезная для учёных и художников",
+  "en": "Curious and Useful Book for Scholars and Artists",
+  "original": "Livre curieux et utile pour les sçavans et artistes",
+  "fr": "Livre curieux et utile pour les sçavans et artistes"
+ },
+ "subtitle": {
+  "ru": "Никола Веррьен, Париж, 1685 — три алфавита монограмм (простых, двойных и тройных), множество девизов, эмблем, медалей и иероглифических фигур, а также щитодержатели и нашлемники для украшения гербов. С подробным указателем. Указатель по пластинам (Planche); нажмите на эмблему, чтобы открыть карточку.",
+  "en": "Nicolas Verrien, Paris, 1685 — three alphabets of monograms (simple, double and triple), many devises, emblems, medals and hieroglyphic figures, together with supporters and crests for heraldic ornament. With a detailed index. Indexed by plate (Planche); click an emblem to open its card.",
+  "fr": "Nicolas Verrien, Paris, 1685 — trois alphabets de chiffres (simples, doubles et triples), un très grand nombre de devises, emblêmes, médailles et figures hiéroglyfiques, ensemble plusieurs supports et cimiers pour les ornemens des armes. Avec une table très ample. Index par planche (Planche) ; cliquez sur une emblème pour ouvrir sa fiche."
+ },
+ "author": "Nicolas Verrien",
+ "year": 1685,
+ "place": "Paris",
+ "idPrefix": "v",
+ "viewer": "plate",
+ "source": "https://archive.org/details/livrecurieuxetut00veri",
+ "sourceNote": "Internet Archive — Getty Research Institute, экземпляр первого издания 1685 года. Полный скан.",
+ "parts": [
+  {
+   "n": 1,
+   "ru": "Эмблемы и девизы",
+   "en": "Emblems and Devises",
+   "fr": "Emblèmes et devises"
+  },
+  {
+   "n": 2,
+   "ru": "Алфавиты монограмм",
+   "en": "Monogram Alphabets",
+   "fr": "Alphabets de chiffres"
+  },
+  {
+   "n": 3,
+   "ru": "Щитодержатели и нашлемники",
+   "en": "Supporters and Crests",
+   "fr": "Supports et cimiers"
+  }
+ ],
+ "partsNote": "Структура устанавливается по ходу построчной транскрипции прямо с оригинального скана (archive.org, livrecurieuxetut00veri) — границы частей и точная нумерация пластин будут уточнены и записаны здесь по завершении прохода.",
+ "sourceIsFrench": true,
+ "plates": [],
+ "fields": {
+  "motto": {
+   "ru": "Девиз (лат.)",
+   "en": "Motto (Latin)",
+   "fr": "Devise (latin)"
+  },
+  "meaning": {
+   "ru": "Толкование",
+   "en": "Explanation",
+   "fr": "Explication"
+  }
+ }
+}
