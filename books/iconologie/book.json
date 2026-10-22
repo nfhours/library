@@ -12,7 +12,7 @@
     "fr": "Cesare Ripa, dans la traduction française de Jean Baudoin, Paris, 1644 — le recueil fondateur de l'imagerie allégorique occidentale : vertus, vices et notions abstraites donnés sous des figures reconnaissables avec leurs attributs. Index des deux parties avec traduction ; cliquez sur un sujet pour ouvrir l'article."
   },
   "author": "Cesare Ripa (trad. Jean Baudoin)",
-  "year": 1644,
+  "year": 1677,
   "place": "Paris",
   "idPrefix": "p",
   "viewer": "figure",
@@ -31,5 +31,6 @@
     }
   ],
   "sourceIsFrench": true,
-  "flatGroups": true
+  "flatGroups": true,
+  "publisher": "Louis Billaine"
 }
