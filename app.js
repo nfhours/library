@@ -55,6 +55,7 @@
     sAlpha:       {ru:"По алфавиту", en:"Alphabetical", fr:"Par ordre alphabétique"},
     sPage:        {ru:"По странице", en:"By page", fr:"Par page"},
     found:        {ru:"Найдено: {n}", en:"Found: {n}", fr:"Trouvé : {n}"},
+    groupItems:   {ru:"{n} записей", en:"{n} entries", fr:"{n} fiches"},
     matchTitle:   {ru:"Совпадения в названии", en:"Title matches", fr:"Correspondances dans le titre"},
     matchBody:    {ru:"Совпадения в тексте", en:"Text matches", fr:"Correspondances dans le texte"},
     clearSearch:  {ru:"Очистить поиск", en:"Clear search", fr:"Effacer la recherche"},
@@ -574,36 +575,47 @@
     // match vs. text-only match); it's still per-part the rest of the time.
     // Either way each row also carries its own "pt. 1" / "pt. 2" tag below.
     var nqWords = nq ? norm(nq).split(/\s+/) : null;
-    var html="", part=0, grp=null, open=false, relGroup=null;
+    // Pre-count how many entries fall in each group, so the collapsed <summary>
+    // can show "12 entries" before the group is ever opened — otherwise we'd
+    // only learn the count once we'd already streamed past the whole group.
+    var groupCounts = {};
+    if(grouped){
+      res.forEach(function(it){
+        var gk=it.part+"|"+it.group+"|"+(it.group_fr||"")+"|"+(it.group_page||"");
+        groupCounts[gk]=(groupCounts[gk]||0)+1;
+      });
+    }
+    var html="", part=0, grp=null, open=false, openTag="", relGroup=null;
     res.forEach(function(it){
       if(nq){
         var isTitleHit = nqWords.every(function(w){ return it.titleKey.indexOf(w)>-1; });
         var rg = isTitleHit ? "title" : "body";
         if(rg!==relGroup){
-          if(open){ html+="</ul></section>"; open=false; }
+          if(open){ html+="</ul></"+openTag+">"; open=false; }
           html+='<h2 class="ic-part">'+esc(t(isTitleHit?"matchTitle":"matchBody"))+'</h2>';
           relGroup=rg; grp=null;
         }
       } else if(state.sort!=="ru" && it.part!==part){
-        if(open){ html+="</ul></section>"; open=false; }
+        if(open){ html+="</ul></"+openTag+">"; open=false; }
         if(multiPart) html+='<h2 class="ic-part">'+esc(partLabel(book,it.part))+'</h2>';
         part=it.part; grp=null;
       }
       if(grouped){
         var gk=it.part+"|"+it.group+"|"+(it.group_fr||"")+"|"+(it.group_page||"");
         if(gk!==grp){
-          if(open) html+="</ul></section>";
-          html+='<section class="ic-group"><h2><span>'+esc(groupOf(it))+'</span>'+(it.group_fr?'<span class="ic-gfr">'+esc(it.group_fr)+'</span>':"")+
-            (it.group_page?'<span class="ic-gpg">'+esc(t("pageAbbr"))+' '+esc(it.group_page)+'</span>':"")+'</h2><ul>';
-          grp=gk; open=true;
+          if(open) html+="</ul></"+openTag+">";
+          html+='<details class="ic-group"><summary><h2><span class="ic-gcap">'+esc(groupOf(it))+'</span>'+(it.group_fr?'<span class="ic-gfr">'+esc(it.group_fr)+'</span>':"")+
+            (it.group_page?'<span class="ic-gpg">'+esc(t("pageAbbr"))+' '+esc(it.group_page)+'</span>':"")+
+            '<span class="ic-gn">'+esc(t("groupItems",{n:groupCounts[gk]}))+'</span></h2></summary><ul>';
+          grp=gk; open=true; openTag="details";
         }
-      } else if(!open){ html+='<section class="ic-group"><ul>'; open=true; }
+      } else if(!open){ html+='<section class="ic-group"><ul>'; open=true; openTag="section"; }
       html+='<li class="ic-row-item" tabindex="0" role="link" data-id="'+it.id+'">'+
         '<span class="ic-pg">'+esc(it.page)+'<small>'+(showPart?t("partN",{n:it.part}):t("pageAbbr"))+'</small></span>'+
         '<span><span class="ic-ru">'+esc(titleOf(it))+(it.flag?" ("+esc(it.flag)+")":"")+'</span></span>'+
       '</li>';
     });
-    if(open) html+="</ul></section>";
+    if(open) html+="</ul></"+openTag+">";
     list.innerHTML=html;
   }
 
