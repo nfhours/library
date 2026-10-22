@@ -2652,6 +2652,34 @@
    ]
   },
   {
+   "id": "cartm_ladderofgods",
+   "num": "8",
+   "page": "37.5",
+   "fr": "Figura allegorica degli Dei celesti, delle sfere, e de gli abissi",
+   "ru": "Аллегорическая фигура небесных богов, сфер и бездн",
+   "en": "An allegorical figure of the heavenly gods, the spheres, and the abyss",
+   "img": [
+    "cartm_ladderofgods.jpg"
+   ],
+   "scans": [
+    "cartm_ladderofgods.jpg",
+    "cartm_ladderofgods_verso.jpg"
+   ],
+   "group": "Образы богов древних (вступление)",
+   "group_en": "The Images of the Gods of the Ancients (introduction)",
+   "name_fr": "Figure allégorique des dieux célestes, des sphères, et des abîmes",
+   "caption": "A carte 3.",
+   "text_ru": [
+    "«A carte 3» — отсылка к странице 3 основного текста, перед которой эта гравюра была вплетена в книгу.\n\nЭто большая аллегорическая гравюра (судя по следам сгибов и проколов от переплёта — изначально вклеенный раскладной лист), построенная ярусами сверху вниз. В верхнем ряду изображена вереница из восьми фигур древних богов и богинь с их атрибутами (посохи, чаши, молот, факел и др.) — ряд языческих божеств. Ниже начинается последовательность вложенных дугообразных поясов, каждый из которых несёт собственный небольшой медальон с условным знаком — по всей видимости, это небесные сферы (планетные круги) с их астрологическими символами. Под этими поясами гравюра продолжается нисходящими ярусами с крылатыми и падающими фигурами, сцена завершается внизу клубящимся пламенем с демоническими фигурами среди огня — композиция в целом читается как аллегория нисхождения от небесных богов через сферы мироздания к низшему, инфернальному миру."
+   ],
+   "text_en": [
+    "“A carte 3” (“see page 3”) — a cross-reference to page 3 of the main text, before which this plate was bound in.\n\nThis is a large allegorical engraving (the fold-creases and binding punch-holes visible on the scan suggest it was originally a fold-out leaf), laid out in tiers from top to bottom. The top row shows a line of eight ancient gods and goddesses with their attributes (staffs, cups, a hammer, a torch, and so on) — a procession of pagan deities. Below it begins a sequence of nested arcing bands, each carrying its own small roundel with a symbolic glyph — apparently representing the celestial spheres (the planetary rings) with their astrological signs. Beneath these bands the engraving continues through descending registers of winged and falling figures, and the scene ends at the bottom in roiling flames with demonic figures amid the fire — the composition as a whole reads as an allegory of descent, from the gods of heaven down through the spheres of the cosmos to the lowest, infernal world."
+   ],
+   "text_fr": [
+    "« A carte 3 » — renvoi à la page 3 du texte principal, avant laquelle cette planche avait été reliée.\n\nIl s'agit d'une grande gravure allégorique (les plis et les trous de reliure visibles sur le cliché suggèrent qu'il s'agissait à l'origine d'un feuillet dépliant), composée en registres superposés. La rangée supérieure montre une file de huit dieux et déesses antiques avec leurs attributs (bâtons, coupes, un marteau, une torche, etc.) — un cortège de divinités païennes. Au-dessous commence une suite de bandes arquées emboîtées, chacune portant son propre petit médaillon à signe symbolique — vraisemblablement les sphères célestes (les cercles planétaires) avec leurs signes astrologiques. Sous ces bandes, la gravure se poursuit par des registres descendants de figures ailées et chutant, et la scène s'achève en bas dans des flammes tourbillonnantes peuplées de figures démoniaques — la composition se lit dans son ensemble comme une allégorie de la descente, depuis les dieux du ciel, à travers les sphères du cosmos, jusqu'au plus bas monde infernal."
+   ]
+  },
+  {
    "id": "cartm_intro1",
    "num": "8",
    "page": "38",
