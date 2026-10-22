@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "67";
+  var APP_VER = "68";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -985,6 +985,19 @@
   function wireObjList(book, objs){
     root.querySelectorAll(".ic-obj-d").forEach(function(det){
       var li = det.closest(".ic-obj"), id = li.getAttribute("data-id"), it = book.byId[id];
+      // On a phone, inline-expanding one row at a time means scanning through
+      // a plate's objects means opening, reading, closing and reopening the
+      // next row by hand — there's no way to flip straight to the next item.
+      // The hotspot-click sheet (openObjectSheet) already has prev/next
+      // paging built in, so route list taps there too on phone width instead
+      // of the inline <details> expand (kept as-is on desktop, where the
+      // inline list already reads fine without a modal).
+      var sum = det.querySelector(".ic-obj-sum");
+      sum.addEventListener("click",function(e){
+        if(!isPhoneWidth()) return;
+        e.preventDefault();
+        openObjectSheet(book, objs, objs.indexOf(it));
+      });
       det.addEventListener("toggle",function(){
         if(det.open){
           var body = det.querySelector(".ic-obj-body");
