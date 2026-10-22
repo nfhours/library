@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "62";
+  var APP_VER = "63";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -27,10 +27,14 @@
   if(existingLink && existingLink.getAttribute("data-ic")!==APP_VER){ existingLink.remove(); existingLink=null; }
   if(!existingLink){
     var l=document.createElement("link"); l.rel="stylesheet"; l.href=BASE+"app.css?v="+APP_VER; l.setAttribute("data-ic",APP_VER); document.head.appendChild(l);
-    // "load" doesn't bubble, so a capturing listener on root is how one
-    // handler catches every engraving image as it finishes, however it
-    // got rendered (innerHTML swaps happen all over render*()).
-    root.addEventListener("load", function(e){
+    // "load" doesn't bubble, so a capturing listener is how one handler
+    // catches every engraving image as it finishes, however it got rendered
+    // (innerHTML swaps happen all over render*()). Listening on `document`
+    // rather than `root`: the object-detail sheet (openObjectSheet) appends
+    // its panel directly to document.body, outside root's subtree, so a
+    // listener on root never sees its images load and they stayed stuck at
+    // opacity:0 (the .ic-fade-img default) forever.
+    document.addEventListener("load", function(e){
       var el = e.target;
       if(el && el.tagName==="IMG" && el.classList && el.classList.contains("ic-fade-img")) el.classList.add("ic-img-in");
     }, true);
