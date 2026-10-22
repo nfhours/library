@@ -315,7 +315,7 @@
       var isPlateBook = book.meta.viewer==="plate";
       if(p.view==="about") renderAbout(book);
       else if(p.view==="plate") renderPlate(book, p.plateNum);
-      else if(p.id && book.byId[p.id] && isPlateBook) renderPlate(book, book.byId[p.id].plate, {focus:p.id});
+      else if(p.id && book.byId[p.id] && isPlateBook && book.byId[p.id].plate!=null) renderPlate(book, book.byId[p.id].plate, {focus:p.id});
       else if(p.id && book.byId[p.id]) renderCard(book, book.byId[p.id]);
       else if(isPlateBook) renderPlateIndex(book);
       else renderIndex(book);
@@ -626,7 +626,16 @@
      существующий id-маршрут в renderPlate(book, plate, {focus:id}). */
   function plateRowsOf(book){
     var byPlate = {};
-    book.items.forEach(function(it){ (byPlate[it.plate]=byPlate[it.plate]||[]).push(it); });
+    book.items.forEach(function(it){
+      // Some books carry supplementary entries (errata, alphabetical indices)
+      // that aren't tied to any engraved plate — no plate_img/bbox, just a
+      // scan + translated text. They're reachable by id (renderCard), but
+      // have no place in the plate grid; skip them here so they don't form
+      // a bogus plate:null group, which breaks the Number(key)<->byPlate[key]
+      // round trip below ("null" key can't be found back via Number("null")).
+      if(it.plate==null || it.plate==="") return;
+      (byPlate[it.plate]=byPlate[it.plate]||[]).push(it);
+    });
     return Object.keys(byPlate).map(Number).sort(function(a,b){return a-b;}).map(function(n){
       return {n:n, objs:byPlate[n]};
     });
