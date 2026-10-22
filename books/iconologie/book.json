@@ -30,5 +30,6 @@
       "fr": "Partie seconde"
     }
   ],
-  "sourceIsFrench": true
+  "sourceIsFrench": true,
+  "flatGroups": true
 }
