@@ -84,7 +84,8 @@
         "p1-001-1.jpg"
       ],
       "name_fr": "Abondance",
-      "group_frtrans": "A"
+      "group_frtrans": "A",
+      "crop_verified": true
     },
     {
       "id": "p1-2",
@@ -214,7 +215,8 @@
         "p1-002-5.jpg"
       ],
       "name_fr": "Academie",
-      "group_frtrans": "A"
+      "group_frtrans": "A",
+      "crop_verified": true
     },
     {
       "id": "p1-3",
@@ -307,7 +309,8 @@
         "p1-003-3.jpg"
       ],
       "name_fr": "Acte vertueux",
-      "group_frtrans": "A"
+      "group_frtrans": "A",
+      "crop_verified": true
     },
     {
       "id": "p1-4",
@@ -386,7 +389,8 @@
         "p1-004-3.jpg"
       ],
       "name_fr": "Amitié",
-      "group_frtrans": "A"
+      "group_frtrans": "A",
+      "crop_verified": true
     },
     {
       "id": "p1-5",
@@ -459,7 +463,8 @@
         "p1-005-2.jpg"
       ],
       "name_fr": "Amour dompté",
-      "group_frtrans": "A"
+      "group_frtrans": "A",
+      "crop_verified": true
     },
     {
       "id": "p1-6",
@@ -517,7 +522,8 @@
       ],
       "caption": "Amour de vertu",
       "name_fr": "Amour vertueux",
-      "group_frtrans": "A"
+      "group_frtrans": "A",
+      "crop_verified": true
     },
     {
       "id": "p1-7",
@@ -567,7 +573,8 @@
         "This novelty is not a very great one, to see the picture of a child, to whom a dolphin performs at sea the same office that the horse renders to man on land. Ancient History furnishes us with rather curious examples of this. Witness the one Solinus reports in his Book, namely that near Hippo there was found one of these animals so fond of man, and so tame, that it would very often come to the nearby shore, where it offered its back to some and let itself be handled by others. The same Author says the same thing happened to Flavianus, Proconsul of Africa, whom it once took a fancy to rub with certain ointments; but because the scent was too strong, the poor dolphin nearly died of it, and was several months without returning to shore. I omit that in the time of the Emperor Augustus there was another so tame that a small boy, having ventured to give it bread, also taught it to let him ride upon it, and was carried from Baiae to Puteoli: which continued until the child's death, which was followed by that of the dolphin, to the great astonishment of those who saw it. These two examples prove well enough, in my opinion, what I intend by this figure, which is to make it the emblem of a courteous soul, or, if you will, an obliging and well-born one. The only reason I can give for this is that the dolphin loves man, and caresses him by instinct rather than for gain, or for any benefit it might receive. Pierius believes as much, when, alleging on this point the judgment of an Ancient, he says: Plutarch rightly admires that generous nature which Dolphins have toward men. For it is not for food that they love them, as dogs and horses do, nor from any other necessity — nor because they were delivered from some yoke, as might be said of elephants, lions, and panthers — but from some tenderness, I know not what, that draws them to it, and that is natural to them. Since, then, they hold from their own nature these good impulses they have toward rational creatures, they surely deserve to be the symbol of noble hearts, born to oblige others — moved to this not so much by the reward they expect, as by their own inclination, which of itself inclines them to obliging and charitable actions."
       ],
       "name_fr": "Ame courtoise",
-      "group_frtrans": "A"
+      "group_frtrans": "A",
+      "crop_verified": true
     },
     {
       "id": "p1-8",
@@ -643,7 +650,8 @@
         "I shall note on this subject that there are medals of the Emperor Gordian on the reverse of which the care of Agriculture is represented by a woman who, with both arms outstretched, points to a lion and a bull lying at her feet; where it must be noted that the lion here stands for the earth, as consecrated to the Goddess Cybele, and the bull for plowing, because this untiring animal is eminently suited to it."
       ],
       "name_fr": "Agriculture",
-      "group_frtrans": "A"
+      "group_frtrans": "A",
+      "crop_verified": true
     },
     {
       "id": "p1-9",
@@ -719,7 +727,8 @@
         "Finally, the heart full of flame and pierced by an arrow shows that heavenly Love is of the nature of the diamond, which is purified in fire and refined by patience, as gold is by the cupel; and that he whose heart is wounded by it carries it, as it were, in his hand — that is to say, he never belies his thoughts by the disguises and artifices of worldly lovers, who attach their affection only to perishable objects."
       ],
       "name_fr": "Amour divin",
-      "group_frtrans": "A"
+      "group_frtrans": "A",
+      "crop_verified": true
     },
     {
       "id": "p1-10",
@@ -799,7 +808,8 @@
         "By these examples it is easy to judge that the soldier's calling is most fitting for the good citizen, since, to defend the place of his birth, he always counts it glory to die courageously, weapon in hand. This truth cannot be hidden, being so plain in History, where, as long as noble deeds shall be, there will be noted, above the greatest names, those of these brave Romans, Decius, Horatius, Fabius, and so many others; and among the Greeks that of Gryllus, son of Xenophon, the Athenian Philosopher, who, during a sacrifice over which he presided, having learned that this valiant young man, whom he believed destined to survive him, had died fighting for his country, at once put the crown back upon his head, and, turning to the messenger who had brought him such grievous news, said: Behold, my vows are fulfilled: I have just obtained what I have always asked of the Gods — namely, that they would give me a son who should die for his country, rather than live many years, since it is not known whether it is good or bad to live long."
       ],
       "name_fr": "Amour de la Patrie",
-      "group_frtrans": "A"
+      "group_frtrans": "A",
+      "crop_verified": true
     },
     {
       "id": "p1-11",
@@ -930,7 +940,8 @@
         "And inasmuch as there are certain things in which Art labors not so much to imitate nature in her productions as to make up for her defects, as is seen in Agriculture, it is for this reason that this woman is painted leaning against a stake planted in the ground, because the stake, being straight, makes the crooked and still tender sapling straighten itself by the force of Art, as it grows."
       ],
       "name_fr": "Art",
-      "group_frtrans": "A"
+      "group_frtrans": "A",
+      "crop_verified": true
     },
     {
       "id": "p1-13",
@@ -989,7 +1000,8 @@
         "By the hive he shows, full of bees, their marvelous industry is declared to us, which makes the wisest of all men say: Go to the bee, which will teach you how diligent and laborious she is in her work; and, as the Prince of the Latin Poets says, these marvelous creatures, small as they are, are nonetheless great in their conduct, having their chiefs, their orders, their government, and their economy, from which there forms among them a kind of Kingship."
       ],
       "name_fr": "Artifice",
-      "group_frtrans": "A"
+      "group_frtrans": "A",
+      "crop_verified": true
     },
     {
       "id": "p1-14",
@@ -1104,7 +1116,8 @@
         "Some also give her a scepter, to show thereby that the stars hold a powerful empire over all sublunary bodies; and others place an eagle at her side, to show that, in imitation of that King of birds, who gazes fixedly at the sun, Astrology is so clear-sighted that even in darkness she makes herself lights, to penetrate as far as the Heavens."
       ],
       "name_fr": "Astrologie",
-      "group_frtrans": "A"
+      "group_frtrans": "A",
+      "crop_verified": true
     },
     {
       "id": "p1-16",
@@ -1320,7 +1333,8 @@
         "She is given a wolf as her companion, to show that the miserly man turns his thoughts only to ways of seizing another's goods, whether by covert trickery or by open plunder. In this he is like that gluttonous, insatiable beast which, not content with the prey it has already taken, seeks to surprise either the shepherds or the dogs, and never rests until it has strangled every sheep in a fold, so afraid is it of not having enough to glut itself."
       ],
       "name_fr": "Avarice",
-      "group_frtrans": "A"
+      "group_frtrans": "A",
+      "crop_verified": true
     },
     {
       "id": "p1-19",
@@ -1385,7 +1399,8 @@
         "I say nothing of her nakedness, which means that women, whatever airs they give themselves, take such pride in bodily beauty that, to make it admired, the least modest among them, as an ancient Poet says, would gladly display every part of it, were they not restrained by shame, or by the timidity natural to their sex."
       ],
       "name_fr": "Beauté de femme",
-      "group_frtrans": "B"
+      "group_frtrans": "B",
+      "crop_verified": true
     },
     {
       "id": "p1-20",
@@ -1442,7 +1457,8 @@
         "The flowering lily she mingles among her rays signifies an equal correspondence of lineaments and colors; which is further shown us by the compass and the globe she holds in her other hand. For true Beauty, of whatever nature it be, has its proportions and its measures, fitted to time and place. As, for example, place determines Beauty in the arrangement of Provinces, Cities, Temples, public Squares, of man, and generally of all things subject to the eye, or that please it in any way — whether by symmetry of form, delicacy of feature, or the pleasing blend of colors and shadows that set them off. Time, in like manner, by duly ordering tones, measures, and cadences, forms of them a sweet harmony, which makes these and similar things, when well arranged, please wonderfully, and rightly be called Beautiful. Moreover, just as by the subtlety of its scent the lily delights the senses and awakens the spirits, so Beauty likewise moves hearts to love the things that partake of her nature, and that are lovable in themselves."
       ],
       "name_fr": "Beauté celeste",
-      "group_frtrans": "B"
+      "group_frtrans": "B",
+      "crop_verified": true
     },
     {
       "id": "p1-21",
@@ -1501,7 +1517,8 @@
         "It is not, then, without reason that ingenious Ovid devised so beautiful a metamorphosis, the better to bind women to the love of their husbands. For, to tell the truth, the female kingfisher loves her mate so much that, according to Plutarch, should it happen that the weakness of age makes him too heavy to fly, she carries him upon her shoulders: she feeds him and eases him, takes the greater share of his troubles, and keeps him company until death."
       ],
       "name_fr": "Bien-veillance",
-      "group_frtrans": "B"
+      "group_frtrans": "B",
+      "crop_verified": true
     },
     {
       "id": "p1-22",
@@ -1575,7 +1592,8 @@
         "Here is added, as another symbol of the Benignity of Princes and Lords, the greatest and noblest of all animals, the elephant: the cause of which Naturalists attribute to its having no gall; but one may further say, with Pliny, that this animal has marvelous powers of mind, and feelings that come very close to those of human creatures. The proof given of this is not among the least: namely, that if in some desert it meets a lost person, so as not to frighten them it first steps aside, then, to give them courage, walks ahead and serves as their guide, until it has little by little brought them back to the highway. After so remarkable an act, what else can be said but that it is a prodigious effect of this animal's goodness, which, though able to harm, does not wish to, and delights only in doing good? Of this same nature are good Princes, who by a generous inclination assist their poor subjects, set them right when they have gone astray, and grant them saving refuge against the persecutions of those who would oppress them. And should one leaf carefully through ancient history, one will doubtless find that by acts of clemency and goodness the Alexanders and the Caesars gathered more laurels than by their most memorable feats of arms."
       ],
       "name_fr": "Benignité",
-      "group_frtrans": "B"
+      "group_frtrans": "B",
+      "crop_verified": true
     },
     {
       "id": "p1-23",
@@ -1643,7 +1661,8 @@
         "The tree painted near her has an allegorical and mysterious meaning, drawn from the express words of the royal Prophet, who, speaking of the just man who follows the law of God, compares him to a tree planted on the bank of a clear stream."
       ],
       "name_fr": "Bonté",
-      "group_frtrans": "B"
+      "group_frtrans": "B",
+      "crop_verified": true
     },
     {
       "id": "p1-24",
@@ -1709,7 +1728,8 @@
         "To all this relates fairly closely the medal of the Emperor Hadrian, representing a man standing, watching a bird fly, and holding in one hand the Augural staff called the Lituus, which most ancient Authors, and particularly Cicero and Aulus Gellius, have described at some length."
       ],
       "name_fr": "Bon-augure",
-      "group_frtrans": "B"
+      "group_frtrans": "B",
+      "crop_verified": true
     },
     {
       "id": "p1-25",
@@ -2393,7 +2413,8 @@
         "The same is further shown us by her bare head, her bristling hair, her raised arms, and the swiftness of her wings, which attest that she does nothing but come and go, to see and ferret out here and there what is said and what happens; being so enamored of novelties that the more she knows of them, the more she wants to learn."
       ],
       "name_fr": "Curiosité",
-      "group_frtrans": "C"
+      "group_frtrans": "C",
+      "crop_verified": true
     },
     {
       "id": "p1-37",
@@ -2550,7 +2571,8 @@
         "Here the word burden serves to explain that of Dignity, since it is a weight as heavy as that of public affairs, which can best be compared to the rock of Sisyphus; so that, short of having the shoulders of an Atlas or a Hercules, it is hard even for the greatest men to bear these burdens; and one may well say that those who carry them courageously and without tiring are rightly owed the same offerings and thanksgivings once given to the ancient Heroes."
       ],
       "name_fr": "Dignité",
-      "group_frtrans": "D"
+      "group_frtrans": "D",
+      "crop_verified": true
     },
     {
       "id": "p1-40",
@@ -2618,7 +2640,8 @@
         "The cock seen at her feet is also a symbol of this — whether because this bird, being greatly solar, announces the day to us and wakens us to work; or because of itself it attends to this punctually, picking out even the smallest grains, and distinguishing them from refuse, never ceasing to scratch the earth until it has found what it seeks for its food."
       ],
       "name_fr": "Diligence",
-      "group_frtrans": "D"
+      "group_frtrans": "D",
+      "crop_verified": true
     },
     {
       "id": "p1-41",
@@ -2733,7 +2756,8 @@
         "The golden tripod is likewise a symbol of this — whether for the nobility of that metal, which adorns the finest things; or for the perfection of the number three, to which Aristotle gives the advantage over all other numbers. Science likewise surpasses all that is most exquisite in nature, since it is she who perfects our soul, and raises it to the knowledge of divine mysteries. Of which the wise Socrates prudently advises us in Plutarch, where he says that it is already much to acquire some sample of it here below, since it belongs to God alone to know all things, and to penetrate the knowledge of all their causes."
       ],
       "name_fr": "Doctrine",
-      "group_frtrans": "D"
+      "group_frtrans": "D",
+      "crop_verified": true
     },
     {
       "id": "p1-43",
@@ -2948,7 +2972,8 @@
         "The extinguished torch signifies that our soul, which is nothing but fire, according to some Philosophers, either nearly goes out from the violence of grief, or at the very least is no longer so clear-sighted as to discern in its actions what is most proper and useful to it: besides, to tell the truth, an unfortunate man who finds himself persecuted on every side can best be compared to a torch that has just been put out; for then all its flame dissolves into smoke, just as whatever life remains to him serves only to keep him in languor, and to make his misfortune more keenly felt."
       ],
       "name_fr": "Douleur",
-      "group_frtrans": "D"
+      "group_frtrans": "D",
+      "crop_verified": true
     },
     {
       "id": "p1-47",
@@ -3048,7 +3073,8 @@
         "The same is signified for us by the swallow, which the Egyptians took as a true father of a family, dividing his goods equally among his children, in imitation of this charitable bird, which makes equal the portion of its young, and never takes from one to give to another."
       ],
       "name_fr": "Egalité",
-      "group_frtrans": "E"
+      "group_frtrans": "E",
+      "crop_verified": true
     },
     {
       "id": "p1-49",
@@ -3329,7 +3355,8 @@
         "I pass over that there is a medal of the Emperor Hadrian, on which she supports two crowned heads, with these words, AETERNITAS AUGUSTI and S.C.; and that there is a very ancient one, where she is seated upon a throne, holding a lance in one hand, and in the other the figure of a Genius, with this inscription, CLOD. SEPT. ALB. AUG."
       ],
       "name_fr": "Eternité",
-      "group_frtrans": "E"
+      "group_frtrans": "E",
+      "crop_verified": true
     },
     {
       "id": "p1-54",
@@ -3790,7 +3817,8 @@
         "As for his wings and his caduceus, these teach us two things: one, that although words are light, and seem to fly, yet, when uttered with weight and judiciously, they nonetheless make a strong impression upon the memory. The other, that solid eloquence brings men back to life through the memory of their noble deeds — just as Mercury revived the dead through the secret virtue the ancients attributed to his caduceus."
       ],
       "name_fr": "Fermeté de langage",
-      "group_frtrans": "F"
+      "group_frtrans": "F",
+      "crop_verified": true
     },
     {
       "id": "p1-61",
@@ -3951,7 +3979,8 @@
         "As for the rope she holds in her left hand, this teaches us, as Saint Augustine says, that there is nothing that binds men so fast to sin as Flattery: for she delights in certain things which, however vicious they may be, make this accursed brood praise those who are their authors, far from deigning to reprove them for it."
       ],
       "name_fr": "Flatterie",
-      "group_frtrans": "F"
+      "group_frtrans": "F",
+      "crop_verified": true
     },
     {
       "id": "p1-64",
@@ -4020,7 +4049,8 @@
         "The little foxes she tramples underfoot are the Heretics, so called in Scripture because of their malice, in which they must be caught unawares, as Saint Paul says in his 1st Epistle to the Corinthians."
       ],
       "name_fr": "Foy Chrestienne",
-      "group_frtrans": "F"
+      "group_frtrans": "F",
+      "crop_verified": true
     },
     {
       "id": "p1-65",
@@ -4174,7 +4204,8 @@
         "Now because she is defined as an excellent quality in the person endowed with it, held by their own virtue, to convey this she leans upon the head of a lion, which of all animals has the greatest grandeur and generosity of courage. For he is invincible in whatever encounter, and if forced to withdraw, he does so with such grace that he never loses sight of his pursuer."
       ],
       "name_fr": "Generosité",
-      "group_frtrans": "G"
+      "group_frtrans": "G",
+      "crop_verified": true
     },
     {
       "id": "p1-68",
@@ -4225,7 +4256,8 @@
         "On some medals the Genius of the Romans is crowned with laurel, because this people delighted only in war and triumphs. On others he is made to bear ears of grain, flowers, and olive branches, as on those of Trajan and Marcus Aurelius Antoninus. But the most remarkable of all is that of Nero, holding in his right hand a sacrificial cup before an altar, and in his left a horn of abundance. One must well believe that out of an excess of flattery this medal was struck in his favor, since it is certain that the genius of this Prince, that is, his disposition, inclined to evil rather than good, to impiety rather than Religion, and more readily to the ruin of wealth than to its increase."
       ],
       "name_fr": "Genie",
-      "group_frtrans": "G"
+      "group_frtrans": "G",
+      "crop_verified": true
     },
     {
       "id": "p1-69",
@@ -4272,7 +4304,8 @@
         "There are some who place upon her head a golden crown, with a trumpet in her left hand, and in her right a horn of abundance. By the first of these things they mean to show that the prize of Glory is always illustrious, since she possesses the most precious marks of honor one could have, which are scepters and crowns. By the second, that her lofty undertakings never fail to be proclaimed by the mouth of Fame: And by the third, that being lawful, and founded on Virtue, she cannot lack true goods, nor fail to be victorious in many ways over ill fortune."
       ],
       "name_fr": "Gloire",
-      "group_frtrans": "G"
+      "group_frtrans": "G",
+      "crop_verified": true
     },
     {
       "id": "p1-70",
@@ -4548,7 +4581,8 @@
         "The sealed letter she wears about her neck is, as it were, the mark of her nobility, which makes her appear more exalted; and the torch she holds is another mark of her worth, which, suiting only grave and serious matters, serves as a beacon to all the people, giving her the same advantage over them that the Sun has over the lesser lights."
       ],
       "name_fr": "Gravité",
-      "group_frtrans": "G"
+      "group_frtrans": "G",
+      "crop_verified": true
     },
     {
       "id": "p1-75",
@@ -4599,7 +4633,8 @@
         "Moreover, by that same Jupiter escaped from Saturn's hands is understood the purest, incorruptible part of Heaven, which the violence of time, which little by little devours the elements and consumes all material things, cannot harm. Whereupon I conclude, in praise of Harmony, that there have been pagans who believed the Gods were composed of it, and likewise of numbers, as we are of soul and body; so much so that for this reason they willingly listened to music, and often let themselves be swayed by the sweetness of its ravishing chords."
       ],
       "name_fr": "Harmonie",
-      "group_frtrans": "H"
+      "group_frtrans": "H",
+      "crop_verified": true
     },
     {
       "id": "p1-76",
@@ -4650,7 +4685,8 @@
         "It is for this that she leans upon Saturn's shoulders, because she bears true witness to time, over which she is victorious. In a word, she is the mistress of life, the light of memory, the spirit of deeds, and the support of truth: for she must never let herself be corrupted by falsehood, nor by her own interests, but must plainly state what is, bringing no adornment to this naive sincerity, of which her white robe is the symbol."
       ],
       "name_fr": "Histoire",
-      "group_frtrans": "H"
+      "group_frtrans": "H",
+      "crop_verified": true
     },
     {
       "id": "p1-77",
@@ -4704,7 +4740,8 @@
         "The proofs of this truth are manifest in the good she does to the child and the pilgrim at her sides: indeed she could have no two more worthy subjects on which to exercise her charity, the one unable to seek a living because of the weakness of his age, nor the other able to find one but with difficulty, being out of his own country. By which one may surely see that all acts of Hospitality are most pleasing to God, who, to testify His good pleasure toward those who perform them, says to them: I count as done to Myself what you have done to the least of Mine. Which can only turn to the shame of those ill-advised men who, as Saint John says, have houses where great thieves and the rich are always welcome, while entry is forbidden to men of honor and to the poor."
       ],
       "name_fr": "Hospitalité",
-      "group_frtrans": "H"
+      "group_frtrans": "H",
+      "crop_verified": true
     },
     {
       "id": "p1-78",
@@ -4836,7 +4873,8 @@
         "Wings are furthermore placed on her feet, to teach us that she may be defined as a sudden movement that makes us love or hate things, according to the affinity we have with them, whether by nature, by temperament, or by habit. But whether she drives us toward good or toward evil, this can nonetheless happen only successively, since otherwise there would be a contradiction, in that it would come about that at the same time the same person would both want and not want the same thing; which is impossible."
       ],
       "name_fr": "Inclination",
-      "group_frtrans": "I"
+      "group_frtrans": "I",
+      "crop_verified": true
     },
     {
       "id": "p1-80",
@@ -4951,7 +4989,8 @@
         "Imagination is thus formed from this same faculty, which all the others obey. It is also true that it does not cease to operate when the external senses are idle, and that it acts quite often even when we sleep: of which we have several proofs among the authors, besides which experience confirms it to us."
       ],
       "name_fr": "Imagination",
-      "group_frtrans": "I"
+      "group_frtrans": "I",
+      "crop_verified": true
     },
     {
       "id": "p1-82",
@@ -4999,7 +5038,8 @@
         "He is represented naked, because he operates by means of his own form, without being aided by elemental qualities, or by any outward artifice; and he seems to run, to signify the inclination and movement that are found immediately within himself, operating without any obstacle. From this it also comes that we feel love for some, and hatred for others; that we sometimes do harm to the innocent, and good to those unworthy of it: to such a point that there are some whom fortune has heaped with riches, who nevertheless, to have yet more, do not cease to steal by every means, and prostitute themselves to the most infamous actions; which, however, is said without prejudice to free will."
       ],
       "name_fr": "Instinct naturel",
-      "group_frtrans": "I"
+      "group_frtrans": "I",
+      "crop_verified": true
     },
     {
       "id": "p1-83",
@@ -5046,7 +5086,8 @@
         "We may add to this the figure of that high Intelligence which, according to the Philosophers, moves the celestial spheres: but our principal design being to treat of things that depend on human knowledge, we shall speak only of this latter one, which, by the sphere and the serpent it holds in hand, teaches us that to properly understand lofty matters, one must first crawl like the serpent, and keep close to the ground among the principles of earthly things, which are incomparably less perfect than the heavenly ones, and consequently more suited to the reach of our minds."
       ],
       "name_fr": "Intelligence",
-      "group_frtrans": "I"
+      "group_frtrans": "I",
+      "crop_verified": true
     },
     {
       "id": "p1-84",
@@ -5125,7 +5166,8 @@
         "By her nakedness we learn that she is engendered, most of the time, by the discomforts of life: by her helmet, that she subsists by her spirit, which prudence fortifies: by her sword, that she is always ready to defend what she has brought to light, so that the glory and the profit of it may remain hers: and by her sash strewn with flowers, that all the pains she takes in inventing excellent things rest on the hope of one day gathering their fruit, and sharing it with the public."
       ],
       "name_fr": "Invention",
-      "group_frtrans": "I"
+      "group_frtrans": "I",
+      "crop_verified": true
     },
     {
       "id": "p1-85",
@@ -5231,7 +5273,8 @@
         "I omit not to mention that among several medals of Liberty there are some where she is seen holding a club in one hand, and a cap in the other, with these words, LIBERTAS AUGUSTI EX SC, which signifies a liberty acquired by valor, as is observed on the medal of Antoninus Heliogabalus, where a broken yoke is added."
       ],
       "name_fr": "Liberté",
-      "group_frtrans": "L"
+      "group_frtrans": "L",
+      "crop_verified": true
     },
     {
       "id": "p1-87",
@@ -5287,7 +5330,8 @@
         "It is for this very reason that she is given a compass to hold, because she is no less judicious than sincere in her generosity: for she measures it by her means, and by the merit of the persons to whom she gives."
       ],
       "name_fr": "Liberalité",
-      "group_frtrans": "L"
+      "group_frtrans": "L",
+      "crop_verified": true
     },
     {
       "id": "p1-88",
@@ -5331,7 +5375,8 @@
         "Free Will, according to St. Thomas, is a free power, attributed to intelligent nature, for the greater glory of God, to choose one thing rather than another among several that contribute to our end. To this definition is related that of Aristotle, who says that it is a faculty of being able to choose various things to arrive at the same end. Now this end is none other than the sovereign good, that is, eternal felicity, toward which all human actions aim."
       ],
       "name_fr": "Libre arbitre",
-      "group_frtrans": "L"
+      "group_frtrans": "L",
+      "crop_verified": true
     },
     {
       "id": "p1-89",
@@ -5394,7 +5439,8 @@
         "The four nails she carries signify that in every syllogistic figure there are four means of discovering the truth, which are taught by the Professors of this art: and by her white robe, that she proposes to herself no other end but the truth; for as this color is the most perfect of all, so Logic likewise is the knowledge most capable of clearing away the clouds of a soul, so as to make it understand the truth, provided that he who undertakes it acquits himself as a good Logician, and not as a bad Sophist."
       ],
       "name_fr": "Logique",
-      "group_frtrans": "L"
+      "group_frtrans": "L",
+      "crop_verified": true
     },
     {
       "id": "p1-90",
@@ -5477,7 +5523,8 @@
         "By this celestial Courier, so highly esteemed for his speed and for his fair speech, is to be understood the efficacy of speech, which spreads on every side from the mouth of him who praises. This is further signified to us by this god's winged sandals, and by the horse Pegasus he leads by hand; for this means that the faster the praise of great men travels, the more it increases. This the Roman people once wished to signify by the medal they had struck in honor of Domitian, on which was engraved the same horse, which seemed at once to run and to fly."
       ],
       "name_fr": "Loüange",
-      "group_frtrans": "L"
+      "group_frtrans": "L",
+      "crop_verified": true
     },
     {
       "id": "p1-91",
@@ -5524,7 +5571,8 @@
         "It is likewise with very good reason that a garland of olive is the prize of this virtue; for this fine tree has at all times been a mark of Mansuetude: and this is why the ancient Egyptian Priests wished all the figures of their gods to be made of this wood. By which they doubtless meant to say that it is proper to God to communicate His graces liberally to men, to forgive them their offenses, and to treat them with every kind of gentleness and mildness. To which may be added that the olive is not only peaceable, but that the oil which comes from it has such force against fury that, cast into the sea, it calms it, and stills the violence of the winds that trouble it."
       ],
       "name_fr": "Mansuetude",
-      "group_frtrans": "M"
+      "group_frtrans": "M",
+      "crop_verified": true
     },
     {
       "id": "p1-92",
@@ -5574,7 +5622,8 @@
         "The viper beneath her feet shows that a woman of honor must reject every thought that in the least offends the faith promised to her husband, not acting like the viper, which, through an excess of brutish pleasure, kills the serpent in whose embraces she is entwined."
       ],
       "name_fr": "Mariage",
-      "group_frtrans": "M"
+      "group_frtrans": "M",
+      "crop_verified": true
     },
     {
       "id": "p1-93",
@@ -5618,7 +5667,8 @@
         "Her somewhat advanced age shows us that this science, being among the most beautiful and the most certain, because it operates only by demonstrations, one should not be surprised if it takes time to acquire. Her transparent garment, that the proofs she gives are so clear that they cannot be put in doubt: and the wings on her head, that by the strength of her mind she rises to the contemplation of the highest matters. This is further declared by the celestial globe she holds; and also by the compass, an instrument proper to this profession, which studies to know the measures and proportions of all things."
       ],
       "name_fr": "Mathematique",
-      "group_frtrans": "M"
+      "group_frtrans": "M",
+      "crop_verified": true
     },
     {
       "id": "p1-94",
@@ -5671,7 +5721,8 @@
         "As for the other book she holds closed, this means that she makes various reflections on the knowledge of things, so as to form from them good judgments, no less glorious than profitable."
       ],
       "name_fr": "Meditation",
-      "group_frtrans": "M"
+      "group_frtrans": "M",
+      "crop_verified": true
     },
     {
       "id": "p1-95",
@@ -5724,7 +5775,8 @@
         "And inasmuch as it is difficult to succeed in Medicine, this difficulty is shown by the knotted staff encircled by a serpent, which is held to have been the device of Aesculapius."
       ],
       "name_fr": "Medecine",
-      "group_frtrans": "M"
+      "group_frtrans": "M",
+      "crop_verified": true
     },
     {
       "id": "p1-96",
@@ -5784,7 +5836,8 @@
         "But as some abound in memory, experience shows that others have none at all; as is told of Atticus, son of Herod, for whom it was impossible to learn the alphabet; and likewise of Coroebus, of Margites, and of Melitides, who never learned to count beyond the number five. There are some who lose it again through various accidents, as is noted of that Athenian, whom a blow from a stone received on the head made forget all he had learned; and of Messala Corvinus, who no longer remembered his own name after a long illness. To these examples I could add others, such as that of Orbilius Pupillus, the illustrious Grammarian, and of Hermogenes the Sophist, to whom the same misfortunes happened: but it suffices me to say that time makes us forget everything, since it is time that in the long run abolishes vexations, enmities, promises, loves, and even friendship itself, if it is not cultivated by conversation, or by means of letters. It is true that there are only too many false friends, who by a black malice willfully forget what one ought to be careful to retain, and remember only too well what a generous soul ought to forget. This truth cannot be better expressed than by these verses of M. Bertauld: ¶One remembers only the ill, / Ingratitude reigns in the world, / The injury is engraved in metal, / And the kindness is written upon the wave."
       ],
       "name_fr": "Memoire",
-      "group_frtrans": "M"
+      "group_frtrans": "M",
+      "crop_verified": true
     },
     {
       "id": "p1-97",
@@ -5835,7 +5888,8 @@
         "She stands between a lion and an eagle, inasmuch as these animals have often shown how grateful they were, and how hostile to ingratitude. Witness the lion of Androcles, reported by Aulus Gellius and by Aelian, who say that at the public games held in the great circus of Rome, in the presence of all the people, so generous an animal saved the life of this slave, in reward for his having drawn a thorn from its paw, in a forest where it had fled to shake off its master's yoke. Witness also that grateful eagle, which, to repay the food a maiden of Sestos had given it, afterward shared with her all the game it caught; and seeing her dead, was so grieved that, in the presence of the people, it threw itself into the pyre that had been lit to burn the girl's body. If we consider that the lion is King of the quadrupeds, and the eagle that of birds, we shall conclude from this that the nobler a person is, the more dearly they preserve the memory of the kindnesses they have received."
       ],
       "name_fr": "Memoire des bien-faits receus",
-      "group_frtrans": "M"
+      "group_frtrans": "M",
+      "crop_verified": true
     },
     {
       "id": "p1-98",
@@ -5888,7 +5942,8 @@
         "The scepter and the book he carries signify two kinds of merit, namely arms and letters: for by their means man gains command over others; the laurel being no less fitting for learned men than for great Captains."
       ],
       "name_fr": "Merite",
-      "group_frtrans": "M"
+      "group_frtrans": "M",
+      "crop_verified": true
     },
     {
       "id": "p1-99",
@@ -5953,7 +6008,8 @@
         "This is further shown to us by the level, which is a mystical figure of the justice and equality we must observe here below. And as by means of the plumb the dimension of height is taken, so we ought likewise to measure that of our thoughts with prudence and judgment; since, as Seneca says, ¶\"A work made without weight and without measure / Is not a thing that lasts.\" And as experience shows us, ¶\"For heavy burdens one must always have / Sufficient strength.\""
       ],
       "name_fr": "Mesure",
-      "group_frtrans": "M"
+      "group_frtrans": "M",
+      "crop_verified": true
     },
     {
       "id": "p1-100",
@@ -6000,7 +6056,8 @@
         "By her crown and her scepter, that she is Queen of all the other sciences, which are acquired by the natural light of reason; and by the clock and the globe, that, despising all that is subject to the revolutions of time, she occupies herself only with the contemplation of heavenly things."
       ],
       "name_fr": "Metaphysique",
-      "group_frtrans": "M"
+      "group_frtrans": "M",
+      "crop_verified": true
     },
     {
       "id": "p1-101",
@@ -6159,7 +6216,8 @@
         "She might further be crowned with a garland of laurel, to show that her dominion is universal over all men; for it is her custom to treat the poor and the rich, the great and the small, the strong and the weak, the ignorant and the learned, alike; to be bent neither by prayers nor by reasons; to keep her eyes bandaged when she looses her arrows; to spare neither age nor condition; and to respect the scepters of Princes no more than the crooks of shepherds; which cannot be better expressed than by these fine verses of M. Malherbe, the most ingenious and the most polished of all our Lyric Poets: ¶\"Death with one fatal blow reaps all things; / And the sovereign decree, / Which wills that her rigor know no one, / Is written in bronze. / The poor man in his hut, thatched with straw, / Is subject to her laws; / And the guard that watches at the gates of the Louvre / Defends not Kings from her.\""
       ],
       "name_fr": "Mort",
-      "group_frtrans": "M"
+      "group_frtrans": "M",
+      "crop_verified": true
     },
     {
       "id": "p1-104",
@@ -6222,7 +6280,8 @@
         "And inasmuch as Music was invented only to combat melancholy, she can have no better second than the wine placed beside her; for it has the specific virtue of making cares vanish; moreover, if it is good and delicate, it strengthens the voice; for which reason the ancients were right to place Bacchus in the company of the Muses."
       ],
       "name_fr": "Musique",
-      "group_frtrans": "M"
+      "group_frtrans": "M",
+      "crop_verified": true
     },
     {
       "id": "p1-105",
@@ -6266,7 +6325,8 @@
         "Nature, which according to Aristotle can be no better defined than as \"a principle of motion and of change in the thing in which it resides, by which all that is corruptible is engendered,\" is not without reason painted as a naked woman; for as this principle is divided into active and passive, of which the one is called form and the other matter, the active can be denoted no better than by breasts full of milk, because form is what sustains created things, just as a woman's breasts nourish her child; nor the passive better shown than by the vulture, a very gluttonous bird, it being true that through matter, which is moved and altered at the pleasure of form, all corruptible things are little by little destroyed."
       ],
       "name_fr": "Nature",
-      "group_frtrans": "N"
+      "group_frtrans": "N",
+      "crop_verified": true
     },
     {
       "id": "p1-106",
@@ -6359,7 +6419,8 @@
         "Others paint her with a star upon her head, and a scepter in hand, to make known that Nobility is born of the virtue of an illustrious courage, and that it is easily preserved by means of riches."
       ],
       "name_fr": "Noblesse",
-      "group_frtrans": "N"
+      "group_frtrans": "N",
+      "crop_verified": true
     },
     {
       "id": "p1-108",
@@ -6430,7 +6491,8 @@
         "We, who are rational creatures, ought therefore to imitate them well, and never tire of doing useful works. And if we labor nonchalantly toward our salvation, let us remember that punishment will sooner or later follow, and that every tree that bears no good fruit shall be cut down and cast into the fire."
       ],
       "name_fr": "Nonchalance",
-      "group_frtrans": "N"
+      "group_frtrans": "N",
+      "crop_verified": true
     },
     {
       "id": "p1-109",
@@ -6493,7 +6555,8 @@
         "The explanation of this figure is drawn from the Bible, where it is said that Moses went about touching the tips of the ears of the high Priest Aaron, and of his sons, with the same fingers he had dipped in the blood of the victim: by which, as the Theologians say, we are advised to be obedient, and to carry out point by point all that belongs to the sacred worship of God."
       ],
       "name_fr": "Obeïssance",
-      "group_frtrans": "O"
+      "group_frtrans": "O",
+      "crop_verified": true
     },
     {
       "id": "p1-110",
@@ -6589,7 +6652,8 @@
         "And if, instead of a finished work, someone wishes to represent one that cannot succeed, he need only paint an astonished woman, looking at several spiderwebs she holds between her fingers; for as these webs, though woven with much pains and care, are nevertheless too fine, and consequently so fragile that the least thing is enough to ruin them entirely, so vain works, which have no reason for a true and solid foundation, are shaken all at once, and no sooner shaken than they are seen brought down to the ground."
       ],
       "name_fr": "Oeuvre parfaite",
-      "group_frtrans": "O"
+      "group_frtrans": "O",
+      "crop_verified": true
     },
     {
       "id": "p1-112",
@@ -6646,7 +6710,8 @@
         "Prayer, moreover, is painted old, inasmuch as in that decline we devote ourselves to it more than at any other age, being then nearer our final end."
       ],
       "name_fr": "Oraison",
-      "group_frtrans": "O"
+      "group_frtrans": "O",
+      "crop_verified": true
     },
     {
       "id": "p1-113",
@@ -6705,7 +6770,8 @@
         "In this truth all the other Poets who have written of Love in various tongues agree with Musaeus; so that it would not be difficult for me to avail myself of their authority, had I undertaken to do so: but instead of amusing myself with proofs of a thing that has so little need of them, and that men learn to their own cost, it is far more fitting that I counsel them to close their eyes, rather than open them to objects that may ruin them. Let them remember only that the beauty of the apple, as soon as our first mother had seen it, drew on the common ruin of mankind; that the waters of Heaven would never have been seen to overflow the earth, and make a universal flood, had not the wantonness of the eye been the cause of it; that neither Timnah, the fair Philistine, nor the famous Delilah, could have overcome Samson, thought invincible, had he not looked upon them too fixedly; that for having seen the fair Bathsheba in her bath, the wisest King of his time was corrupted. And that in the eyes of Cleopatra was kindled the love Mark Antony bore her, a love as contagious and fatal to that unhappy lover, as it was glorious and profitable to the victorious Augustus. To all these examples I could add a great many others, had I not resolved to explain these figures succinctly, rather than dwell on long arguments."
       ],
       "name_fr": "Origine d'Amour",
-      "group_frtrans": "O"
+      "group_frtrans": "O",
+      "crop_verified": true
     },
     {
       "id": "p1-114",
@@ -6772,7 +6838,8 @@
         "For the same reason they are also compared to Ostriches, which, to hatch their eggs in Summer, bury them in the sand, and a little while after no longer remember having put them there: which the patient Job notes very well, when he exclaims, ¶\"The Ostrich leaveth her eggs on the earth, and forgetteth them, at the risk of trampling them underfoot.\""
       ],
       "name_fr": "Oubly d'Amour",
-      "group_frtrans": "O"
+      "group_frtrans": "O",
+      "crop_verified": true
     },
     {
       "id": "p1-115",
@@ -6842,7 +6909,8 @@
         "The sixth is that of Claudius, representing a woman who leans on a caduceus wrapped in a dreadful serpent, and who covers her eyes with the other hand, so as not to see it spread its venom; wherein it is to be noted that she is quite fittingly given here the caduceus, so called from the Latin verb cadere, which means to fall, inasmuch as this ensign of Peace no sooner appeared than it struck down every kind of discord and division, of whatever nature they were. And if she veils her eyes, it is to show that war, figured by the serpent, has objects so tragic that they mostly inspire horror in whoever knows how to consider them well: which makes the most illustrious of all the Poets rightly exclaim, ¶\"Come give us on earth / The Peace we ask for; / If it is true that from War / We expect nothing good.\""
       ],
       "name_fr": "Paix",
-      "group_frtrans": "P"
+      "group_frtrans": "P",
+      "crop_verified": true
     },
     {
       "id": "p1-116",
@@ -6899,7 +6967,8 @@
         "As for the purse she carries in the other hand, with these words, IN MELIUS SERVAT, this means that it is a far greater honor for us to preserve what we have, than to acquire what we lack."
       ],
       "name_fr": "Parsimonie, ou Espargne",
-      "group_frtrans": "P"
+      "group_frtrans": "P",
+      "crop_verified": true
     },
     {
       "id": "p1-117",
@@ -6947,7 +7016,8 @@
         "Let us say further that by her dangerous cup are denoted love potions, which must be feared no less than the juice of those poisonous plants, with which Circe turned into stones and beasts those to whom she gave them to drink, as is well shown by the fine description Virgil and Ovid have given of it. By which we are all warned that this tyrant of life called Love ordinarily subjects to his empire those who, plunged in idleness, let themselves be basely surprised by a taste for pleasant things, and whose senses are enchanted by false objects: so that it is no wonder if by such dangerous allurements he blinds their minds, and robs them entirely of reason; for experience shows that he renders their inclinations brutish, transforming choleric men into bears, the carnal into swine, the envious into dogs, gluttons into wolves, and so on for the rest."
       ],
       "name_fr": "Passion d'Amour",
-      "group_frtrans": "P"
+      "group_frtrans": "P",
+      "crop_verified": true
     },
     {
       "id": "p1-118",
@@ -6998,7 +7068,8 @@
         "By this is denoted, if I am not mistaken, that it is very difficult for a man who gives himself the patience to wait not to meet with good success in the end; for whatever persecutions good people suffer, their merit receives, sooner or later, the reward owed to it; but taking it at its worst, even if we could not in this life acquire the freedom desired, and even if it were impossible for us to attain it through long suffering — which sometimes has no less power to dissolve troubles than water's force has to wear away iron — we ought not, nevertheless, to lose courage, but always remember the promise made to us by Jesus Christ, when He commands us, above all things, to possess our souls in patience; for He is accustomed to chastise in this life only those whom He desires to reward in the other."
       ],
       "name_fr": "Patience",
-      "group_frtrans": "P"
+      "group_frtrans": "P",
+      "crop_verified": true
     },
     {
       "id": "p1-119",
@@ -7046,7 +7117,8 @@
         "The wings on the left hand signify the extreme desire ordinarily felt by the best minds to rise to the highest knowledge; which would not be difficult for them, were it not that Poverty, a burden more unbearable to them than the stone of Sisyphus, brings them low just as they think to take flight: which is why, by a certain necessity that seems fatal to most honest people, they wallow in the mire, and become the plaything of vulgar souls: ¶\"For without income, study deceives them, / And the mind is not fed by the songs of the Muse.\""
       ],
       "name_fr": "Pauvreté",
-      "group_frtrans": "P"
+      "group_frtrans": "P",
+      "crop_verified": true
     },
     {
       "id": "p1-120",
@@ -7113,7 +7185,8 @@
         "She is given a whip in hand, and a wooden leg, to show that she acts not of her own will, but by the force brought to bear upon her; and that by a secret judgment of God, men are often led to the precipice, as a just chastisement for the faults they have committed."
       ],
       "name_fr": "Peché",
-      "group_frtrans": "P"
+      "group_frtrans": "P",
+      "crop_verified": true
     },
     {
       "id": "p1-121",
@@ -7163,7 +7236,8 @@
         "By the cross, moreover, is to be understood patience, and self-correction, for the marvelous conformity the penitent acquires with Jesus Christ, in renouncing the vanities of the earth: to which he is exhorted by these words, Whoever wishes to be My disciple, let him take up his cross, and follow Me."
       ],
       "name_fr": "Penitence",
-      "group_frtrans": "P"
+      "group_frtrans": "P",
+      "crop_verified": true
     },
     {
       "id": "p1-122",
@@ -7265,7 +7339,8 @@
         "This is further shown by the various instruments she carries, which display her different operations. But they are especially noted in the mirror, where straight figures are reflected; so that by the repercussion of rays and light, this science shows marvelous things, which pass for enchantments in the minds of those who do not know their cause."
       ],
       "name_fr": "Perspective",
-      "group_frtrans": "P"
+      "group_frtrans": "P",
+      "crop_verified": true
     },
     {
       "id": "p1-124",
@@ -7442,7 +7517,8 @@
         "As for the elephant, the example is drawn from Plutarch, who says that in the city of Rome some children, having for sport pricked this animal's trunk, it seized one of them among the others, and would have hurled him into the air; but seeing that his companions, who already held him for dead, began to cry out, it set him gently down on the ground, without doing him any harm, and contented itself with the fright it had given them as punishment for their boldness."
       ],
       "name_fr": "Pieté",
-      "group_frtrans": "P"
+      "group_frtrans": "P",
+      "crop_verified": true
     },
     {
       "id": "p1-127",
@@ -7515,7 +7591,8 @@
         "As for the hooks, spoken of above, these are the various lures found in worldly pleasures. But these sweetnesses are always mixed with some bitterness; for it happens in the end that man feels himself pricked deeply by the goads of his conscience, and yet cannot bring himself to give up fleeting pleasures, here denoted by the Rainbow, because they vanish in an instant, and have nothing beautiful but appearance."
       ],
       "name_fr": "Plaisir, ou Volupté",
-      "group_frtrans": "P"
+      "group_frtrans": "P",
+      "crop_verified": true
     },
     {
       "id": "p1-128",
@@ -7575,7 +7652,8 @@
         "She holds, moreover, an ermine in her other hand, as a mark of purity: for as this little animal would rather die than soil itself in the least, so we likewise see that God takes life from the Predestined, rather than allow him to be sullied by the filth of obstinacy, in keeping with these words of Scripture: He was taken away, lest wickedness should alter his understanding."
       ],
       "name_fr": "Predestination",
-      "group_frtrans": "P"
+      "group_frtrans": "P",
+      "crop_verified": true
     },
     {
       "id": "p1-129",
@@ -7620,7 +7698,8 @@
         "The wren, spoken of in Aristotle and in Pliny, belongs to that species of birds which Suetonius says presaged the death of Caesar: for on the eve of the Ides of March one was seen flying into the courtyard of Pompey with a small branch of laurel in its beak, and was torn to pieces by other birds, which had pursued it ceaselessly from the nearby wood. By which one may see that this bird, small as it is, nonetheless has preeminence over the others; which is the cause, as Aristotle observes, of the antipathy between it and the eagle; for the eagle, being great and strong, cannot bear to have so small and weak a thing compared to it: in which ambitious men quite often imitate it, who, finding themselves well with fortune, can scarcely endure that the most virtuous and noble, whom they surpass in credit and riches, should go on equal footing with them. But precedence, if I am not mistaken, ought not to be taken from men of merit, however ill fortune treats them, so as to give it to those who have none: and this is why the eagle is here placed beneath the wren, to which it is an enemy."
       ],
       "name_fr": "Preeminence de rang",
-      "group_frtrans": "P"
+      "group_frtrans": "P",
+      "crop_verified": true
     },
     {
       "id": "p1-130",
@@ -7933,7 +8012,8 @@
         "The open compass shows that to foresee events, one must know how to measure the qualities and order of the times with a judicious mind and solid reasoning."
       ],
       "name_fr": "Prevoyance",
-      "group_frtrans": "P"
+      "group_frtrans": "P",
+      "crop_verified": true
     },
     {
       "id": "p1-136",
@@ -7981,7 +8061,8 @@
         "As for the white garment and the golden girdle, this shows truth, when it is accompanied by an eminent virtue: for one can only unjustly call a reward the good that is done to persons who are unworthy of it."
       ],
       "name_fr": "Prix",
-      "group_frtrans": "P"
+      "group_frtrans": "P",
+      "crop_verified": true
     },
     {
       "id": "p1-137",
@@ -8042,7 +8123,8 @@
         "And by the remora that is wound about an arrow, that we ought not to delay doing good, when we know the means to do it, and when time permits it."
       ],
       "name_fr": "Prudence",
-      "group_frtrans": "P"
+      "group_frtrans": "P",
+      "crop_verified": true
     },
     {
       "id": "p1-138",
@@ -8097,7 +8179,8 @@
         "As for the tortoise that she tramples underfoot, this means that chaste women ought no more to stir from their house than this animal from beneath the shell where nature has enclosed it. This thought belongs to the famous Sculptor Phidias, and to the great Historian Thucydides, who says, according to Plutarch's report, that a woman of worth ought to confine her walks within the enclosure of her dwelling."
       ],
       "name_fr": "Pudicité",
-      "group_frtrans": "P"
+      "group_frtrans": "P",
+      "crop_verified": true
     },
     {
       "id": "p1-139",
@@ -8212,7 +8295,8 @@
         "She leans upon a lion, because by their maxims the great of the world seek to subject to themselves the most powerful, in imitation of this imperious animal, which sets all others beneath itself; whereby it is also shown that for the preservation of a State vigilance must be joined with strength."
       ],
       "name_fr": "Raison d'Estat",
-      "group_frtrans": "R"
+      "group_frtrans": "R",
+      "crop_verified": true
     },
     {
       "id": "p1-141",
@@ -8273,7 +8357,8 @@
         "By the yoke that he tramples underfoot must be understood the power of the laws; and it is in this same sense that Virgil takes it, when speaking of the destiny of Aeneas, he says that under the yoke of the laws he would range men. For one can truly say that subjects are under the yoke of their Prince; and if rebels try to shake it off, it is their haughty and ungrateful humor that drives them to it, and that carries them to contempt of the laws, without any regard for the obedience they are bound to render to their Sovereigns. It is therefore with good right that, to show here the insolence of rebellion, we place beneath its feet a yoke, which it tramples with manifest contempt."
       ],
       "name_fr": "Rebellion",
-      "group_frtrans": "R"
+      "group_frtrans": "R",
+      "crop_verified": true
     },
     {
       "id": "p1-142",
@@ -8332,7 +8417,8 @@
         "As for the two Cupids that she holds by the hand, this signifies that friendships are strengthened after Reconciliation; for then, as Plautus says, lovers and friends vie with one another as to who shall caress the more. This would seem scarcely credible, if experience did not assure it, besides the examples that the ancients give us of it, and particularly Aelian, speaking of Pausanias and the Poet Agathon."
       ],
       "name_fr": "Reconciliation d'Amour",
-      "group_frtrans": "R"
+      "group_frtrans": "R",
+      "crop_verified": true
     },
     {
       "id": "p1-143",
@@ -8444,7 +8530,8 @@
         "The book that she carries is that of the laws, according to which men must regulate themselves, and reform their lives. Which they cannot do better than by obeying the holy decrees and the salutary instructions of their Superiors, whom God has established to watch over their conduct."
       ],
       "name_fr": "Reformation",
-      "group_frtrans": "R"
+      "group_frtrans": "R",
+      "crop_verified": true
     },
     {
       "id": "p1-145",
@@ -8544,7 +8631,8 @@
         "Ariosto calls it on this account a bloody firebrand, and makes it hold a flintlock in hand, to show that anger is kindled by the clash of two obstinate persons, just as we see fire kindled by striking the flint."
       ],
       "name_fr": "Rumeur, ou Discorde",
-      "group_frtrans": "R"
+      "group_frtrans": "R",
+      "crop_verified": true
     },
     {
       "id": "p1-147",
@@ -8589,7 +8677,8 @@
         "The cock is consecrated to Aesculapius, inventor of Medicine, to show that it is necessary that a good Physician be vigilant and always careful to visit his patients. It is indeed true that this solar bird, to which the ancients sacrificed as to some God, so greatly did they revere it, is the true symbol of vigilance. It was for this that Socrates, a little before dying, bequeathed by his will his cock to Aesculapius, to teach the Philosophers of his time, of whom he was the wisest, that only the gods, from whom they held their being, could cure the anxieties and languors of life."
       ],
       "name_fr": "Santé",
-      "group_frtrans": "S"
+      "group_frtrans": "S",
+      "crop_verified": true
     },
     {
       "id": "p1-148",
@@ -8640,7 +8729,8 @@
         "As for the book that she carries, it is that of the Holy Scriptures, which is the only one where perfect Wisdom is learned, and all the things that are necessary to salvation."
       ],
       "name_fr": "Sapience",
-      "group_frtrans": "S"
+      "group_frtrans": "S",
+      "crop_verified": true
     },
     {
       "id": "p1-149",
@@ -8702,7 +8792,8 @@
         "The Paschal Lamb is set with very good right upon the book, because according to these words of the Apocalypse, This same Lamb that was slain is a worthy subject of Power, of Wisdom, and of Divinity. The other reason concerns the condition of human creatures, who ought to be neither proud nor malicious, if they aspire to Wisdom; for she makes her dwelling only in souls pure and clean, having as she does for her solid foundation the fear of God; which has been declared to us by the example of the lamb, which is the most innocent and the most timid of all the animals of the earth."
       ],
       "name_fr": "Sapience divine",
-      "group_frtrans": "S"
+      "group_frtrans": "S",
+      "crop_verified": true
     },
     {
       "id": "p1-150",
@@ -8751,7 +8842,8 @@
         "Now if one must speak of true Wisdom, I say that she does not belong to the number of those virtuous habits that are acquired by use and by experience, but is indeed a particular gift of the Holy Spirit, who communicates His graces and His favors to whom it pleases Him. Even the ancients seem to have recognized this truth; for although they were not enlightened by the light of our faith, they nevertheless spoke of supernatural Wisdom with great religion and reverence. They said on this subject that she was a gift of heaven, and that unless one were perfect and irreproachable in his actions, not one of mortals could be honored with the glorious title of Sage. Indeed in all ancient Greece, mother of sciences and virtues, there were never found more than seven persons who deserved this name: which makes me believe that this virtue must necessarily have marvelous advantages over all the others. Thus she has been, as Solomon says, before the Heavens and the earth were, and has been preserved from all eternity in the bosom of the Eternal Father, whence according to His just judgments she spreads into the souls of the Faithful. He therefore finds salvation, who acquires true Wisdom by dint of seeking her, and who knows how to discern her from the false wisdom of worldly men."
       ],
       "name_fr": "Sagesse humaine",
-      "group_frtrans": "S"
+      "group_frtrans": "S",
+      "crop_verified": true
     },
     {
       "id": "p1-151",
@@ -8802,7 +8894,8 @@
         "Moreover, the globe shows that Science suffers no contrariety of opinions, as the globe receives no motion but a circular one; and the triangle, that in every proposition there are three terms which produce demonstrations and the knowledge of things, just as the three angles make but a single figure."
       ],
       "name_fr": "Science",
-      "group_frtrans": "S"
+      "group_frtrans": "S",
+      "crop_verified": true
     },
     {
       "id": "p1-152",
@@ -9008,7 +9101,8 @@
         "Some others clothe this virtue in an extremely fine garment, and cover her with a white veil. They wish moreover that she have her hair disheveled in careless fashion, her bosom uncovered, and a caduceus, upon which a dove is perched."
       ],
       "name_fr": "Sincerité",
-      "group_frtrans": "S"
+      "group_frtrans": "S",
+      "crop_verified": true
     },
     {
       "id": "p1-156",
@@ -9094,7 +9188,8 @@
         "As for the lion, we know how great an enemy he is to idleness, since according to Pierius's report, his eyes are never so wide open as when he rests."
       ],
       "name_fr": "Soin",
-      "group_frtrans": "S"
+      "group_frtrans": "S",
+      "crop_verified": true
     },
     {
       "id": "p1-157",
@@ -9205,7 +9300,8 @@
         "As for the torch that he holds in his hand, its light is a symbol of the glory of the just, and of the brilliance of their name, which shall endure without end, both in this world and in the other; which no one can doubt, since it is said in the Holy Scriptures, That the just shall shine like the Sun in the Kingdom of their Father."
       ],
       "name_fr": "Splendeur de Nom",
-      "group_frtrans": "S"
+      "group_frtrans": "S",
+      "crop_verified": true
     },
     {
       "id": "p1-159",
@@ -9253,7 +9349,8 @@
         "As for the elephant, it is, according to Pierius, of all animals the one that best accords with Temperance; for once it has been accustomed to a regulated routine, it keeps to it always: proof of which is this example from Plutarch, who says that in Syria one of the servants of a great Lord, having had express orders from his Master to give a certain measure of grain each day to an elephant, gave him only half of it for some time; but that at last, wishing to give him the whole measure at once, the elephant divided it in two with his trunk, and ate only one half in the presence of his Master, who by this means discovered the dishonesty of his servant, and was no less astonished at this than at the Temperance of this ingenious animal."
       ],
       "name_fr": "Temperance",
-      "group_frtrans": "T"
+      "group_frtrans": "T",
+      "crop_verified": true
     },
     {
       "id": "p1-160",
@@ -9425,7 +9522,8 @@
         "I shall add here, that those curious in medals may have remarked some on this subject; as that which Vespasian had struck in his third Consulate, with the word, Tvtela Avgvsta; and these two others of Nerva, which have for a reverse two small children, with this inscription, Tvtela Italiæ."
       ],
       "name_fr": "Tutele",
-      "group_frtrans": "T"
+      "group_frtrans": "T",
+      "crop_verified": true
     },
     {
       "id": "p1-163",
@@ -9476,7 +9574,8 @@
         "As for the lion that he caresses, and by which he is caressed, this signifies that it is the property of a man of heart to know how to win over wills, and to subject by gentleness and by address the most barbarous hearts, stripping them of their natural fierceness."
       ],
       "name_fr": "Valeur",
-      "group_frtrans": "V"
+      "group_frtrans": "V",
+      "crop_verified": true
     },
     {
       "id": "p1-164",
@@ -9584,7 +9683,8 @@
         "Now inasmuch as all excess is ordinarily vicious, it is for this that this figure bears in her left hand these words written, Dysoria Procvl, that is to say, that we ought not to be ashamed to such a point that we lose both our courage and our eyes together: for as Catesia is the name given to a secret distress, which takes from us the boldness to look people in the face; so by the word Dysoria is understood that craven shame, which, ending in an extreme baseness of heart, prevents those seized by it from doing in public any action that is honest and praiseworthy. Let us add on this subject, that Isocrates, the famous Athenian Orator, said of Theopompus and Ephorus, his pupils, that he used the bridle to restrain the boldness of the one, and the spur to chasten the overly bashful humor of the other; which he did, doubtless, with very good reason, since experience shows every day that, as the saying goes, it is only the bashful who lose; that an overly reserved humor sometimes degenerates into folly; and that fortune resembles those crafty women, who are quite willing that it should appear they are being forced, although nonetheless they do not fail to be pleased by it."
       ],
       "name_fr": "Vergogne honneste",
-      "group_frtrans": "V"
+      "group_frtrans": "V",
+      "crop_verified": true
     },
     {
       "id": "p1-166",
@@ -9639,7 +9739,8 @@
         "The book that she holds open signifies that in the writings of good Authors who teach us the sciences is found the truth of things; and the palm branch, that Truth has no less strength to stiffen itself against the efforts that oppose it than the palm has to rise up again, the more one tries to beat it down. Which makes Aeschines say that so powerful a Queen triumphs over all human thoughts; and Bacchylides, that being this immortal Wisdom whom nothing can resist, she is consequently stronger than all the things of the world: it is for this same reason too that she tramples a globe beneath one of her feet."
       ],
       "name_fr": "Verité",
-      "group_frtrans": "V"
+      "group_frtrans": "V",
+      "crop_verified": true
     },
     {
       "id": "p1-167",
@@ -9749,7 +9850,8 @@
         "The same Hercules is ever represented as a perfect model of the highest qualities of the great Heroes, on most of the ancient medals; as on that of the Emperor Gordian, where he carries a lion's skin on one arm, and in the other a club; on that of Maximinus, where he leans upon the head of a hind, which once served to exercise his Valor; on that of Geta, where he is depicted raising his arms to strike down the dragon that guarded the apples of the Hesperides; and on that of Trajan, where he holds a club in his right hand, and in his left a lion and a boar, which he leads on a leash."
       ],
       "name_fr": "Vertu Heroïque",
-      "group_frtrans": "V"
+      "group_frtrans": "V",
+      "crop_verified": true
     },
     {
       "id": "p1-169",
@@ -9897,7 +9999,8 @@
         "It would be superfluous to describe and explain here this figure, since I have done both the one and the other in the hundred and fifty-sixth, which bears for its title the word Care, to which I refer the Reader for his enlightenment. Besides, there is no one who does not know well that the lamp, the book, and the crane are the true symbols of Vigilance; and inasmuch as there are several kinds of it, it must be noted that several different pictures of it are likewise made; and that the one whose chief aim is either to attack or to defend itself is represented with a serpent in the right hand, and in the left an arrow, to show thereby that one labors in vain to bring a matter to success, however much care one brings to it, if prudence is not joined to the execution."
       ],
       "name_fr": "Vigilance",
-      "group_frtrans": "V"
+      "group_frtrans": "V",
+      "crop_verified": true
     },
     {
       "id": "p1-172",
@@ -10007,7 +10110,8 @@
         "As for the wings given her, it is not out of place that she should have them on her feet as well as on her shoulders, as a mark of the restlessness in which she ceaselessly dwells, laboring toward the establishment of her repose; and inasmuch as, having long sought it upon the earth, she cannot find it there, she makes a noble effort, and soars toward Heaven; to which the little wings she bears upon her feet greatly serve her, by means of which she more easily detaches herself from the encumbrance of earthly things."
       ],
       "name_fr": "Volonté",
-      "group_frtrans": "V"
+      "group_frtrans": "V",
+      "crop_verified": true
     },
     {
       "id": "p1-174",
@@ -10055,7 +10159,8 @@
         "One may discharge both the one and the other if one takes care to instruct the ignorant and to correct those who err; which is declared to us by the lamp, and by the discipline that this figure holds in hand. Our Savior Jesus Christ perfectly practiced these two things when he drove from the Temple of Jerusalem those who made of that holy and sacred place a public market; and when, following upon that, he set himself to instructing them doubly, both by his salutary teachings and by the miraculous examples of his life."
       ],
       "name_fr": "Zele",
-      "group_frtrans": "Z"
+      "group_frtrans": "Z",
+      "crop_verified": true
     },
     {
       "id": "p2-1",
@@ -10143,7 +10248,8 @@
         "She is figured by a naked woman, seated upon a cloud. She holds a scepter in her right hand, and leans with her left upon an urn, from which water pours forth in abundance, having behind her a quantity of reeds and rushes. The scepter is not given to this element without good reason, it being true that there is nothing so necessary to human life as water, of which the Poet Hesiod and Thales of Miletus wrote that it is not only the principle of all things, but the Queen of all the elements. Indeed it is she who wastes away the Earth, who quenches Fire, and who, spreading through the Air whence she falls, is the cause that all the things man needs are born here below; for which reason the ancients held her in such great veneration that, when they swore by her, as Virgil remarks, that oath had to be held irrevocable: which is likewise reported by Thomas Thomay in his Idea of the Garden of the World, chapter 4, 44."
       ],
       "name_fr": "L'Eau",
-      "group_frtrans": "Des quatre Elemens"
+      "group_frtrans": "Des quatre Elemens",
+      "crop_verified": true
     },
     {
       "id": "p2-3",
@@ -10186,7 +10292,8 @@
         "She whom you see here seated, and crowned with flowers, represents to you the Earth. She holds in her right hand a globe, and in her left a horn of plenty, full of all sorts of fruits. She is painted as a venerable Lady, or if you will, a fertile one, for being, as the Poets say, the mother of all animals; and with a globe in hand, to show that she is spherical and immovable. As for the garland and the horn of plenty that she bears, both the one and the other signify that she produces abundantly every sort of flower and fruit for the nourishment of living creatures."
       ],
       "name_fr": "La Terre",
-      "group_frtrans": "Des quatre Elemens"
+      "group_frtrans": "Des quatre Elemens",
+      "crop_verified": true
     },
     {
       "id": "p2-4",
@@ -10231,7 +10338,8 @@
         "This is near enough to what may be said succinctly of the four Elements, whose principal powers, according to Empedocles, are friendship and discord, the one of which unites things together, and the other separates them. The same author also physically calls by the name of Jupiter the Fire that is above the Air, just as the Air itself is denoted by Juno. To which relate the sentiments of all the Poets when they fable that the Goddess Juno is sister and wife of Jupiter: to show thereby that their quality is almost one and the same thing, or that there is at least but very little difference between the one and the other. To which I add, that father Dis is likewise taken for the Earth, that is, that he is Lord and sovereign King of this element, from whose bowels are drawn the most precious treasures, such as gold, silver, and gems."
       ],
       "name_fr": "Le Feu",
-      "group_frtrans": "Des quatre Elemens"
+      "group_frtrans": "Des quatre Elemens",
+      "crop_verified": true
     },
     {
       "id": "p2-5",
@@ -10291,7 +10399,8 @@
         "As for the camel placed at the foot of this figure, it is not without good reason, inasmuch as it is, of all animals, the one that the people of that country most commonly make use of."
       ],
       "name_fr": "L'Asie",
-      "group_frtrans": "Les quatre parties du Monde"
+      "group_frtrans": "Les quatre parties du Monde",
+      "crop_verified": true
     },
     {
       "id": "p2-6",
@@ -10680,7 +10789,8 @@
         "It must not be forgotten here that on the medal of Antoninus Caracalla these same seasons are denoted by the figures of four children of unequal age, of whom the first bears upon his shoulders a basket full of flowers; the second, a scythe in his right hand; the third, a hamper filled with fruits; and the fourth, who is clothed, whereas the others are naked, has his head veiled, and upon his back a staff, at the ends of which are seen dead birds, differing one from another."
       ],
       "name_fr": "L'Hyver",
-      "group_frtrans": "Les quatre Saisons de l'année"
+      "group_frtrans": "Les quatre Saisons de l'année",
+      "crop_verified": true
     },
     {
       "id": "p2-13",
@@ -10754,7 +10864,8 @@
         "The smoke that exhales from the fair vessel he holds with his left hand teaches us that in the Oriental parts are born the spices, the drugs, the balms, and other precious wares, whose perfumes are no less delightful than agreeable to the sense of smell. The Poet Bembo says on this subject, That the Sun, being born in the kindled Sky, Makes felt the odors with which the air is perfumed. And the ingenious Petrarch, That on the shores of the Orient and throughout that Empire Are exhaled the odors that the people there breathe."
       ],
       "name_fr": "L'Orient",
-      "group_frtrans": "Les quatre quartiers du Monde"
+      "group_frtrans": "Les quatre quartiers du Monde",
+      "crop_verified": true
     },
     {
       "id": "p2-14",
@@ -10815,7 +10926,8 @@
         "As for the flowers and herbs that are seen at his feet, all arid and dried up, this signifies the excessive ardor of the Sun, to which it is impossible to bring any tempering; so that by this means the burnt plants lose all their vigor and their substance."
       ],
       "name_fr": "Le Midy",
-      "group_frtrans": "Les quatre quartiers du Monde"
+      "group_frtrans": "Les quatre quartiers du Monde",
+      "crop_verified": true
     },
     {
       "id": "p2-15",
@@ -10877,7 +10989,8 @@
         "As for the clouds and the frost with which the Heaven is laden, and toward which side this warrior turns his gaze, this relates to what the same Petrarch says, speaking of the northern lands. That one may call a clime without equal, Far from the Sun, Where on every side the ice lies spread, And the snows never melted."
       ],
       "name_fr": "Le Septentrion",
-      "group_frtrans": "Les quatre quartiers du Monde"
+      "group_frtrans": "Les quatre quartiers du Monde",
+      "crop_verified": true
     },
     {
       "id": "p2-16",
@@ -10944,7 +11057,8 @@
         "Let us add here, in conclusion of this last quarter of the World, that the shadow of the man who represents it surpasses himself in size, because the farther the Sun withdraws from us, the greater becomes the shadow of all bodies, since, as Virgil says, With the setting Sun the shadows redouble."
       ],
       "name_fr": "L'Occident",
-      "group_frtrans": "Les quatre quartiers du Monde"
+      "group_frtrans": "Les quatre quartiers du Monde",
+      "crop_verified": true
     },
     {
       "id": "p2-17",
@@ -11001,7 +11115,8 @@
         "As for the Sun that is seen behind him, it is placed here as a prognostic of the time at which this Wind must blow; as Virgil remarks when he says, That the East Wind presages rain to us."
       ],
       "name_fr": "Le vent d'Orient",
-      "group_frtrans": "Les quatre Vents"
+      "group_frtrans": "Les quatre Vents",
+      "crop_verified": true
     },
     {
       "id": "p2-18",
@@ -11092,7 +11207,8 @@
         "He is represented as a robust man, with puffed-out cheeks, holding a watering-can in his hand, to show on the one hand that his violence is great, and on the other that he commonly brings rain."
       ],
       "name_fr": "Le vent de Midy",
-      "group_frtrans": "Les quatre Vents"
+      "group_frtrans": "Les quatre Vents",
+      "crop_verified": true
     },
     {
       "id": "p2-20",
@@ -11134,7 +11250,8 @@
         "He lies stretched out at full length upon dark clouds and upon frost, to show thereby, as Boccaccio says in his Genealogy of the Gods, that this Wind is by nature cold and dry; although, nevertheless, to reach us, it passes through the Torrid Zone, and, changing its nature thereafter toward the South, covers the air with clouds, which afterward resolve themselves into rain."
       ],
       "name_fr": "Le vent de Bise",
-      "group_frtrans": "Les quatre Vents"
+      "group_frtrans": "Les quatre Vents",
+      "crop_verified": true
     },
     {
       "id": "p2-21",
@@ -11253,7 +11370,8 @@
         "And if he holds in his right hand the sign of the Bull, it is to give to understand that the Sun, passing in this month through this same Sign, little by little increases its strength."
       ],
       "name_fr": "Avril",
-      "group_frtrans": "Les douze mois de l'année"
+      "group_frtrans": "Les douze mois de l'année",
+      "crop_verified": true
     },
     {
       "id": "p2-23",
@@ -11663,7 +11781,8 @@
         "He likewise has for his hieroglyph the Capricorn, because the Sun then moves in this same Sign; and he is made to bear truffles, because they are never so good and in such great abundance as in this month."
       ],
       "name_fr": "Decembre",
-      "group_frtrans": "Les douze mois de l'année"
+      "group_frtrans": "Les douze mois de l'année",
+      "crop_verified": true
     },
     {
       "id": "p2-31",
@@ -11718,7 +11837,8 @@
         "He holds the Sign of the Water-Bearer, because at this time more than at any other season of the year the rain and snow lay waste the countryside."
       ],
       "name_fr": "Ianvier",
-      "group_frtrans": "Les douze mois de l'année"
+      "group_frtrans": "Les douze mois de l'année",
+      "crop_verified": true
     },
     {
       "id": "p2-32",
@@ -11763,7 +11883,8 @@
         "He is made to bear the Water-Bearer, because the Sun passing through this celestial Sign is the symbol of the same month. And as the Fish is an aquatic animal, it likewise figures for us the waters and rains that then flood the fields."
       ],
       "name_fr": "Fevrier",
-      "group_frtrans": "Les douze mois de l'année"
+      "group_frtrans": "Les douze mois de l'année",
+      "crop_verified": true
     },
     {
       "id": "p2-33",
@@ -11916,7 +12037,8 @@
         "As for the small wings placed on his feet, they signify, as we have said, the movement of Time, of which the three black parts denote the Night, and the white one the Day. And if this one is placed on the right foot, it is to show the inequality that exists between the one and the other, inasmuch as light precedes darkness."
       ],
       "name_fr": "Solstice d'Hyver",
-      "group_frtrans": "Les Solstices & les Equinoxes"
+      "group_frtrans": "Les Solstices & les Equinoxes",
+      "crop_verified": true
     },
     {
       "id": "p2-35",
@@ -12029,7 +12151,8 @@
         "The Balance is one of the twelve Signs of the Zodiac, which the Sun enters in the month of September. It is then that the Equinox occurs, that is to say the equality of day and night. Which is shown to us by the two globes, half white, half black, turned contrary to one another, and balanced with exactness."
       ],
       "name_fr": "L'Equinoxe de l'Automne",
-      "group_frtrans": "Les Solstices & les Equinoxes"
+      "group_frtrans": "Les Solstices & les Equinoxes",
+      "crop_verified": true
     },
     {
       "id": "p2-37",
@@ -13143,7 +13266,8 @@
         "This Geryon, according to some, was a King of Spain, of whom it was feigned that he had three bodies, because he possessed three Kingdoms, which he lost together with his life by the valor of Hercules: but those who speak of it more plausibly say that by this Geryon are to be understood three brothers, who lived together in such good understanding that they seemed to be but a single person."
       ],
       "name_fr": "Concorde Invincible",
-      "group_frtrans": "Diverses Concordes"
+      "group_frtrans": "Diverses Concordes",
+      "crop_verified": true
     },
     {
       "id": "p2-58",
@@ -13291,7 +13415,8 @@
         "She is painted as a woman of pleasing appearance, who with her left hand holds a horn of abundance, and caresses with her right a Cupid who plays about her. Which can be understood as nothing other than the favors that Fortune bestows upon lovers."
       ],
       "name_fr": "Fortune d'amour",
-      "group_frtrans": "Diverses Fortunes"
+      "group_frtrans": "Diverses Fortunes",
+      "crop_verified": true
     },
     {
       "id": "p2-61",
@@ -14220,7 +14345,8 @@
         "He is painted clothed royally, with a grave bearing, a garland of laurel on his head, a hunting horn in his right hand, and these words in his left, Non nisi grandia canto, which signify, My song has for its object only the grandest things."
       ],
       "name_fr": "Poëme Heroïque",
-      "group_frtrans": "Les quatre Poëmes"
+      "group_frtrans": "Les quatre Poëmes",
+      "crop_verified": true
     },
     {
       "id": "p2-80",
@@ -14304,7 +14430,8 @@
         "He is depicted without clothing, with the face of a mocker, a thyrsus in his left hand, and a placard in his right, on which are read these words, Irridens cuspide figo: as if he meant to say, roughly, I mock and I sting all at once."
       ],
       "name_fr": "Poëme Satyrique",
-      "group_frtrans": "Les quatre Poëmes"
+      "group_frtrans": "Les quatre Poëmes",
+      "crop_verified": true
     },
     {
       "id": "p2-82",
@@ -14350,7 +14477,8 @@
         "She has two great wings with which she rises into the air, a flowing robe such as I have just described, and two trumpets in hand, which she ordinarily sounds, appearing seated upon the clouds. All these things together are clear enough to show that it is her custom never to remain in the same place, and to proclaim, without distinction, falsehood and truth everywhere she passes."
       ],
       "name_fr": "Renommée peinte à l'ordinaire",
-      "group_frtrans": "Diverses Renommées"
+      "group_frtrans": "Diverses Renommées",
+      "crop_verified": true
     },
     {
       "id": "p2-83",
@@ -14524,7 +14652,8 @@
         "Her picture is that of a Pallas, having a helmet upon her head, a lance in her right hand, and in her left a shield, on which are read these words, Nec sorte, nec fato. Which signifies nothing other than that Virtue, ever victorious and triumphant, is in no way subject to the empire of Destiny."
       ],
       "name_fr": "Vertu invincible",
-      "group_frtrans": "Diverses Vertus"
+      "group_frtrans": "Diverses Vertus",
+      "crop_verified": true
     },
     {
       "id": "p2-86",
@@ -14615,7 +14744,8 @@
         "In the other figure, the same Hercules, wholly naked, leans upon the head of a stag, a symbol of one of his twelve labors; and in the last he holds his club raised to strike down a dragon with it. This is understood to be the one that guarded the apples of the Hesperides, of which I have just spoken. Whereby we are advised that Virtue, proposing to herself no other reward than herself, and the goods that raise her to heaven, disdains the false glitter of earthly riches."
       ],
       "name_fr": "Vertu Heroïque",
-      "group_frtrans": "Diverses Vertus"
+      "group_frtrans": "Diverses Vertus",
+      "crop_verified": true
     },
     {
       "id": "p2-88",
@@ -14714,7 +14844,8 @@
         "As for the child to whom this woman gives drink, this signifies that without suitable drink and food it is impossible for life to be maintained, since it is nourishment that strengthens and preserves the natural heat."
       ],
       "name_fr": "Vie humaine",
-      "group_frtrans": "Diverses Vies"
+      "group_frtrans": "Diverses Vies",
+      "crop_verified": true
     },
     {
       "id": "p2-90",
@@ -14804,7 +14935,8 @@
         "By her two wings is signified the elevation of the understanding, which never debases its thoughts to things low and corruptible, but always carries them aloft with a perfect resignation of herself. It is for this reason too that she is painted gazing at Heaven, whence descend upon her resplendent rays, which surround her on every side. Whence it is manifest that one cannot have a soul fit for contemplation except by a particular grace of God."
       ],
       "name_fr": "Vie contemplative",
-      "group_frtrans": "Diverses Vies"
+      "group_frtrans": "Diverses Vies",
+      "crop_verified": true
     },
     {
       "id": "p2-92",
@@ -15023,7 +15155,8 @@
         "As for the grains that are in the sacks, they figure the provisions that Communities are accustomed to make, who have more ambition for food than for honors."
       ],
       "name_fr": "Democratie",
-      "group_frtrans": "Divers Gouvernemens"
+      "group_frtrans": "Divers Gouvernemens",
+      "crop_verified": true
     },
     {
       "id": "p2-96",
@@ -15150,7 +15283,8 @@
         "As for the bird they make him hold, which the Greeks call Κιρκνος, and the Latins Cinclus, which is extremely lean and wasted, it is a symbol of the wretched state of lovers, whom the force of their passion ordinarily renders thin. But inasmuch as, according to Crates the Theban, there are three things capable of taming Love, namely hunger, time, and despair, it would not be unreasonable to put a rope about Cupid's neck, to show that despairing lovers are accustomed to wish for death at every hour, and even sometimes to hasten toward it. Witness Phaedra, who in Euripides' Hippolytus, unable to suffer any longer the furious assaults of Love, resolves to put an end to her life. Where it is to be noted, however, that most lovers who resolve to live no longer, in the end lose that desire, and soon change this fatal resolution, when the least good fortune befalls them. Tasso says it thus: It is the custom of a Lover To speak of mortal outrage; But as Love is fickle, The effect rarely follows. And the Cavalier Guarini, having brought in Myrtillo, who in the access of his passion concludes, like a man despairing, That death alone can remedy it, has Amaryllis answer him thus: Thou speakest of dying, O unhappy Shepherd! And wouldst end thy days to end thy pain; But this is rather the effect of a lover's speech, Than of a will that is firm and certain."
       ],
       "name_fr": "Amour dompté",
-      "group_frtrans": "Amours divers"
+      "group_frtrans": "Amours divers",
+      "crop_verified": true
     },
     {
       "id": "p2-98",
@@ -15299,7 +15433,8 @@
         "I would cite many more examples in confirmation of this truth, did I not know that it would be superfluous after those left us by the Horatii, the Decii, the Fabii, and others like them, who once made it their glory to sacrifice themselves for the city of Rome, their common fatherland."
       ],
       "name_fr": "Amour de la Patrie",
-      "group_frtrans": "Amours divers"
+      "group_frtrans": "Amours divers",
+      "crop_verified": true
     },
     {
       "id": "p2-101",
@@ -15782,7 +15917,8 @@
         "THE help that one must give to one's neighbor is well enough expressed by the figure of an agreeable man. By the garland of olive that girds his head is denoted compassion; by the rays surrounding him, divine assistance; by the heart hanging from the chain he wears about his neck, that man must assist the poor with both his goods and his counsel, of which the heart is the symbol; by the stake that supports the vine, that one must likewise prop up the weakness of one's neighbor; and by the stork, that it is for us to imitate this bird, which never tires of being helpful, and especially to those nearest to it."
       ],
       "name_fr": "Aide",
-      "group_frtrans": "Добродетели и благочестие (в книге без заголовка)"
+      "group_frtrans": "Добродетели и благочестие (в книге без заголовка)",
+      "crop_verified": true
     },
     {
       "id": "p2-110",
@@ -16361,7 +16497,8 @@
         "CONCORD, being a mutual union of wills, is not painted here without reason, as a woman who holds in one hand two ears of wheat, and in the other a cup full of hearts; which signifies the reciprocal conformity of several persons, from which ordinarily follows abundance, here denoted by the ears of wheat."
       ],
       "name_fr": "Concorde",
-      "group_frtrans": "Добродетели и благочестие (в книге без заголовка)"
+      "group_frtrans": "Добродетели и благочестие (в книге без заголовка)",
+      "crop_verified": true
     },
     {
       "id": "p2-123",

@@ -240,6 +240,7 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
 .ic-fig figcaption{font-size:.75em;color:var(--soft);margin-top:8px;text-align:center}
 .ic-caption{margin-top:10px;font-size:.82em;color:var(--soft);font-style:italic}
 .ic-caption b{font-style:normal;font-weight:600;color:var(--ink);margin-right:5px}
+.ic-crop-verified{margin-top:6px;font-size:.78em;font-weight:600;color:#2f6b3a;display:inline-block;padding:3px 8px;border:1px solid #2f6b3a;border-radius:4px;background:rgba(47,107,58,.08)}
 
 .ic-sec{margin-top:34px}
 .ic-sec h3{font-size:.85em;font-weight:600;color:var(--accent);padding-bottom:6px;border-bottom:1px solid var(--rule);margin-bottom:12px}
