@@ -15919,7 +15919,9 @@
       "group_en": "Various Kinds of Love",
       "group_frtrans": "Amours divers",
       "flag": "",
-      "img": [],
+      "img": [
+        "p2-105a.jpg"
+      ],
       "attrs": [
         {
           "what": "Венера на триумфальной колеснице, влекомой голубями, подле круглого храма, со сферой и тремя яблоками в руках, с младенцем у ног и тремя Грациями позади",
@@ -15956,7 +15958,8 @@
         "She holds a globe in her right hand, because of the sovereign empire she claims over all the world; and three apples in the left, in memory of the judgment of Paris, where the prize of beauty was given to her.",
         "As for the three Graces, they are placed here behind her chariot, inasmuch as they are like her attendant daughters, who by the force of their charms easily shake those not yet firmly established in solid virtue."
       ],
-      "name_fr": "Chariot d'Amour"
+      "name_fr": "Chariot d'Amour",
+      "crop_verified": true
     },
     {
       "id": "p2-105b",
@@ -15971,7 +15974,9 @@
       "group_en": "Various Kinds of Love",
       "group_frtrans": "Amours divers",
       "flag": "",
-      "img": [],
+      "img": [
+        "p2-105b.jpg"
+      ],
       "attrs": [
         {
           "what": "Три Грации, ведомые Меркурием с кадуцеем",
@@ -15993,7 +15998,8 @@
       "text_en": [
         "ALTHOUGH lovers are ordinarily so transported with passion that they can sometimes not say a single word, and remain as if struck dumb before their mistresses, it is nevertheless seen by experience that after this first access, which is like the shiver of their fever, Love unties their tongue, and makes them so eloquent that they need no other precepts than those which it naturally inspires in them, to persuade the beloved of what they wish: which cannot, it seems to me, be better represented than by the reverse of this medal, where Mercury, God of persuasion, guides the three Graces, to make us understand that as they are closely joined together, and never forsake one another, Eloquence likewise is inseparable from them."
       ],
-      "name_fr": "Eloquence d'Amour"
+      "name_fr": "Eloquence d'Amour",
+      "crop_verified": true
     },
     {
       "id": "p2-105c",
@@ -16008,7 +16014,9 @@
       "group_en": "Various Kinds of Love",
       "group_frtrans": "Amours divers",
       "flag": "",
-      "img": [],
+      "img": [
+        "p2-105c.jpg"
+      ],
       "attrs": [
         {
           "what": "Нагая крылатая Венера, играющая на арфе, рядом с Купидоном, подносящим ей шутовской жезл",
@@ -16036,7 +16044,8 @@
         "Her nakedness shows her lascivious humor; her wings, her inconstancy; and the harp she plays, that being ingenious in her charms, she draws hearts not only by sight, but also by hearing.",
         "To this must be added, that her son Cupid presents her with a fool's bauble, to show that she loves only to frolic and to laugh; which the Lyric Poet expresses very well, when he says on this subject: \"That of all the Deities being the most charming, as well as the most fair; Laughter, Play, Delights, and the little Loves fly about her.\""
       ],
-      "name_fr": "Charmes d'Amour"
+      "name_fr": "Charmes d'Amour",
+      "crop_verified": true
     },
     {
       "id": "p2-105d",
@@ -16051,7 +16060,9 @@
       "group_en": "Various Kinds of Love",
       "group_frtrans": "Amours divers",
       "flag": "",
-      "img": [],
+      "img": [
+        "p2-105d.jpg"
+      ],
       "attrs": [
         {
           "what": "Геркулес и Меркурий, сопровождающие крылатого младенца с венцом из ириса на голове и молнией в руке; лев у ног Геркулеса, кадуцей в руке Меркурия",
@@ -16085,7 +16096,8 @@
         "As for the crown of iris, it is not given to Love without good reason: this plant, as Pierius observes, being the true symbol of what is most lovable in eloquence. From this also comes that the Prince of the Greek Poets, to say that the Trojan Ambassadors were very eloquent, uses this manner of speaking, that they had eaten of the iris, as if wishing to show thereby that their manner of expressing themselves is elegant and flowery.",
         "The thunderbolt he carries is likewise a hieroglyph of his power, since he seems to have snatched it from Jupiter himself, in order to render himself formidable not only to mortals, but also to the celestial powers."
       ],
-      "name_fr": "Authorité d'Amour"
+      "name_fr": "Authorité d'Amour",
+      "crop_verified": true
     },
     {
       "id": "p2-106",
