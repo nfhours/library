@@ -15108,7 +15108,8 @@
         "The rose is also a hieroglyph of this same fragility of our days: for, as Athenaeus says, the more beautiful it is above the other flowers, the more swiftly too its brightness and its beauty pass away."
       ],
       "name_fr": "Vie courte",
-      "group_frtrans": "Diverses Vies"
+      "group_frtrans": "Diverses Vies",
+      "crop_verified": true
     },
     {
       "id": "p2-93",
@@ -15153,7 +15154,8 @@
         "The life of the crow is even longer than that of the stag, and this is why we have also placed it in the left hand of this figure."
       ],
       "name_fr": "Vie longue",
-      "group_frtrans": "Diverses Vies"
+      "group_frtrans": "Diverses Vies",
+      "crop_verified": true
     },
     {
       "id": "p2-94",
