@@ -15907,6 +15907,187 @@
       "crop_verified": true
     },
     {
+      "id": "p2-105a",
+      "part": 2,
+      "num": "",
+      "fr": "Chariot d'Amour",
+      "ru": "Колесница Любви",
+      "page": "131",
+      "group": "Разные виды любви",
+      "group_fr": "Amours divers",
+      "group_page": "115",
+      "group_en": "Various Kinds of Love",
+      "group_frtrans": "Amours divers",
+      "flag": "",
+      "img": [],
+      "attrs": [
+        {
+          "what": "Венера на триумфальной колеснице, влекомой голубями, подле круглого храма, со сферой и тремя яблоками в руках, с младенцем у ног и тремя Грациями позади",
+          "meaning": "Круглый храм и сфера означают её владычество над миром; нагота — сладострастие и разорение, что оно несёт; мирт — символ сладострастия; голуби — крайнюю похотливость; три яблока — память о суде Париса; три Грации — спутниц Любви, чьи чары легко колеблют нетвёрдых в добродетели",
+          "what_en": "Venus on a chariot of triumph drawn by doves, beside a round temple, holding a globe and three apples, with an infant at her feet and the three Graces behind",
+          "meaning_en": "The round temple and globe signify her dominion over the world; her nakedness, lust and the ruin it brings; the myrtle, the symbol of lust; the doves, extreme lasciviousness; the three apples, the judgment of Paris; the three Graces, Love's attendants, whose charms easily sway those not yet firm in virtue",
+          "what_frtrans": "Venus sur un char de triomphe tiré par des pigeons, près d'un temple rond, tenant un globe et trois pommes, avec un enfant à ses pieds et les trois Grâces derrière elle",
+          "meaning_frtrans": "Le temple rond et le globe signifient son empire sur le monde ; sa nudité, la luxure et la ruine qu'elle entraîne ; le myrte, le symbole de la luxure ; les pigeons, l'extrême lasciveté ; les trois pommes, le jugement de Pâris ; les trois Grâces, les suivantes de l'Amour, dont les attraits ébranlent facilement ceux qui ne sont pas affermis dans la vertu"
+        }
+      ],
+      "text_ru": [
+        "На этом изображении прекрасная Венера, восседающая на своей триумфальной колеснице, словно направляется в Пафос или Аматунт, дабы принять там, посреди своего Храма, который почитают имевшим круглую форму, обеты своих почитателей.",
+        "Она изображена нагой — либо дабы представить неистовый пыл сладострастных утех, либо дабы показать, что предающиеся им бывают совершенно лишены ею же самой благ и почестей.",
+        "Мирт, коим она увенчана, — символ сладострастия, которому это растение весьма способствует, как отмечают натуралисты.",
+        "Её колесницу влекут голуби — по причине чрезвычайной похотливости этих птиц, пребывающих в любовном пылу круглый год.",
+        "В правой руке она держит сферу — по причине верховной власти, которую она себе присваивает над всем миром; а в левой — три яблока, в память о суде Париса, где ей была присуждена награда красоты.",
+        "Что до трёх Граций, их помещают здесь позади её колесницы, ибо они суть как бы её дочери-спутницы, которые силой своих прелестей легко колеблют тех, кто ещё не утвердился твёрдо в добродетели."
+      ],
+      "text_fr": [
+        "DANS cette figure la belle Venus montée sur son char de triomphe, semble s'en aller à Paphos, ou à Amathonte, pour y recevoir les vœux de ses adorateurs au milieu de son Temple, que l'on tient avoir esté de forme ronde.",
+        "Elle est peinte nuë, soit pour representer l'ardeur violente des plaisirs lascifs, soit pour faire voir que ceux qui s'y adonnent, sont entierement dépouillez par elle-mesme de biens & d'honneurs.",
+        "Le myrthe dont elle est couronnée, est le symbole de la luxure, à laquelle cette plante contribuë grandement, comme le remarquent les Naturalistes.",
+        "Son chariot est tiré par des pigeons, à cause de l'extreme lasciveté de ces oiseaux, qui sont en amour toute l'année.",
+        "Elle tient vn globe de la main droite, à cause du souverain empire qu'elle s'attribuë sur tout le monde; & trois pommes de la gauche, pour memoire du jugement de Pâris, où le prix de la beauté luy fut donné.",
+        "Quant aux trois Graces, on les met icy derriere son chariot, dautant qu'elles sont comme ses filles suivantes, qui par la force de leurs attraits ébranlent facilement ceux qui ne sont pas encore bien affermis sur vne vertu solide."
+      ],
+      "en": "Chariot of Love",
+      "scans": [],
+      "text_en": [
+        "IN this figure the fair Venus, mounted upon her chariot of triumph, seems to be going to Paphos, or to Amathus, there to receive, in the midst of her Temple, which is held to have been of round form, the vows of her worshippers.",
+        "She is painted naked, either to represent the violent ardor of lascivious pleasures, or to show that those who give themselves over to them are entirely stripped by her of goods and honors.",
+        "The myrtle with which she is crowned is the symbol of lust, to which this plant greatly contributes, as the Naturalists observe.",
+        "Her chariot is drawn by doves, because of the extreme lasciviousness of these birds, which are in love all year round.",
+        "She holds a globe in her right hand, because of the sovereign empire she claims over all the world; and three apples in the left, in memory of the judgment of Paris, where the prize of beauty was given to her.",
+        "As for the three Graces, they are placed here behind her chariot, inasmuch as they are like her attendant daughters, who by the force of their charms easily shake those not yet firmly established in solid virtue."
+      ],
+      "name_fr": "Chariot d'Amour"
+    },
+    {
+      "id": "p2-105b",
+      "part": 2,
+      "num": "",
+      "fr": "Eloquence d'Amour",
+      "ru": "Красноречие Любви",
+      "page": "132",
+      "group": "Разные виды любви",
+      "group_fr": "Amours divers",
+      "group_page": "115",
+      "group_en": "Various Kinds of Love",
+      "group_frtrans": "Amours divers",
+      "flag": "",
+      "img": [],
+      "attrs": [
+        {
+          "what": "Три Грации, ведомые Меркурием с кадуцеем",
+          "meaning": "Меркурий — бог убеждения; три неразлучные Грации означают, что Красноречие Любви неотделимо от их прелести",
+          "what_en": "The three Graces led by Mercury with his caduceus",
+          "meaning_en": "Mercury, the god of persuasion; the three inseparable Graces signify that the Eloquence of Love is likewise inseparable from their charm",
+          "what_frtrans": "Les trois Grâces guidées par Mercure portant son caducée",
+          "meaning_frtrans": "Mercure, dieu de la persuasion ; les trois Grâces inséparables signifient que l'Éloquence de l'Amour est de même inséparable de leur charme"
+        }
+      ],
+      "text_ru": [
+        "Хотя влюблённые обычно бывают столь охвачены страстью, что порою не могут вымолвить ни единого слова и остаются как бы оцепеневшими перед своими госпожами, однако на опыте видно, что после этого первого приступа, подобного ознобу их лихорадки, Любовь развязывает им язык и делает их столь красноречивыми, что им не нужно иных наставлений, кроме тех, что она внушает им от природы, дабы убедить предмет своей любви в желаемом: что не может быть, как мне кажется, лучше представлено, нежели оборотной стороной этой медали, где Меркурий, бог убеждения, ведёт трёх Граций, дабы дать нам понять, что как они тесно соединены между собою и никогда друг друга не покидают, так и Красноречие неотделимо от них."
+      ],
+      "text_fr": [
+        "QUOY que les amans soient d'ordinaire si transportez de passion, qu'ils ne peuvent quelquefois dire vn seul mot, & demeurent comme interdits devant leurs maistresses; il se voit neanmoins par épreuve, qu'aprés ce premier accés, qui est comme le frisson de leur fievre, Amour leur dénoüe la langue, & les rend si éloquens, qu'ils n'ont pas besoin d'autres preceptes, que de ceux qu'il leur inspire naturellement, pour persuader ce qu'ils veulent à la chose aimée: ce qui ne peut mieux estre representé ce me semble que par le revers de cette medaille, où Mercure, Dieu de la persuasion, guide les trois Graces, pour nous faire entendre que comme elles sont étroitement jointes ensemble, & ne s'abandonnent jamais; l'Eloquence de mesme est inseparable d'avec elles."
+      ],
+      "en": "Eloquence of Love",
+      "scans": [],
+      "text_en": [
+        "ALTHOUGH lovers are ordinarily so transported with passion that they can sometimes not say a single word, and remain as if struck dumb before their mistresses, it is nevertheless seen by experience that after this first access, which is like the shiver of their fever, Love unties their tongue, and makes them so eloquent that they need no other precepts than those which it naturally inspires in them, to persuade the beloved of what they wish: which cannot, it seems to me, be better represented than by the reverse of this medal, where Mercury, God of persuasion, guides the three Graces, to make us understand that as they are closely joined together, and never forsake one another, Eloquence likewise is inseparable from them."
+      ],
+      "name_fr": "Eloquence d'Amour"
+    },
+    {
+      "id": "p2-105c",
+      "part": 2,
+      "num": "",
+      "fr": "Charmes d'Amour",
+      "ru": "Чары Любви",
+      "page": "133",
+      "group": "Разные виды любви",
+      "group_fr": "Amours divers",
+      "group_page": "115",
+      "group_en": "Various Kinds of Love",
+      "group_frtrans": "Amours divers",
+      "flag": "",
+      "img": [],
+      "attrs": [
+        {
+          "what": "Нагая крылатая Венера, играющая на арфе, рядом с Купидоном, подносящим ей шутовской жезл",
+          "meaning": "Нагота — сладострастный нрав; крылья — непостоянство; арфа — то, что чары Любви пленяют не только взором, но и слухом; шутовской жезл — склонность лишь к забаве и смеху",
+          "what_en": "Naked winged Venus playing a harp, beside Cupid offering her a fool's bauble",
+          "meaning_en": "Her nakedness signifies her lascivious humor; her wings, inconstancy; the harp, that Love's charms captivate not only by sight but by hearing; the bauble, a delight in mere frolic and laughter",
+          "what_frtrans": "Venus nue et ailée jouant de la harpe, auprès de Cupidon qui lui présente une marotte",
+          "meaning_frtrans": "Sa nudité signifie son humeur lascive ; ses ailes, son inconstance ; la harpe, que les charmes de l'Amour captivent non seulement par la vue, mais par l'ouïe ; la marotte, un goût pour le seul badinage et le rire"
+        }
+      ],
+      "text_ru": [
+        "Это изображение заимствовано с древней медали, где Венера предстаёт совершенно нагой, с крыльями на спине и арфой в руках.",
+        "Её нагота являет её сладострастный нрав; крылья — её непостоянство; а арфа, на которой она играет, — то, что, будучи изобретательна в своих прелестях, она привлекает сердца не только взором, но и слухом.",
+        "К этому надобно прибавить, что сын её Купидон подносит ей шутовской жезл, дабы показать, что она любит лишь резвиться и смеяться; что весьма хорошо выражает Лирический Поэт, говоря по этому поводу: «Из всех богинь она — самая чарующая и самая прекрасная; Смех, Игра, Сладострастие и малые Амуры реют вокруг неё.»"
+      ],
+      "text_fr": [
+        "CETTE figure est tirée d'vne ancienne medaille, où Venus se voit toute nuë, avec des aisles au dos, & vne harpe entre ses mains.",
+        "Sa nudité montre son humeur lascive; ses aisles, son inconstance; & la harpe dont elle joüe, qu'estant ingenieuse en ses attraits, elle n'attire pas seulement les cœurs par la veuë, mais encore par l'ouye.",
+        "Il faut ajoûter à cecy, que son fils Cupidon luy presente vne marotte, pour montrer qu'elle n'aime qu'à folastrer & à rire; Ce que le Poëte Lyrique exprime fort bien, quand il dit à ce propos, Que de toutes les Deitez Estant la plus charmante, ainsi que la plus belle; Le Ris, le Jeu, les Voluptez Et les petits Amours volent à l'entour d'elle."
+      ],
+      "en": "Charms of Love",
+      "scans": [],
+      "text_en": [
+        "THIS figure is taken from an ancient medal, where Venus is seen entirely naked, with wings on her back, and a harp in her hands.",
+        "Her nakedness shows her lascivious humor; her wings, her inconstancy; and the harp she plays, that being ingenious in her charms, she draws hearts not only by sight, but also by hearing.",
+        "To this must be added, that her son Cupid presents her with a fool's bauble, to show that she loves only to frolic and to laugh; which the Lyric Poet expresses very well, when he says on this subject: \"That of all the Deities being the most charming, as well as the most fair; Laughter, Play, Delights, and the little Loves fly about her.\""
+      ],
+      "name_fr": "Charmes d'Amour"
+    },
+    {
+      "id": "p2-105d",
+      "part": 2,
+      "num": "",
+      "fr": "Authorité d'Amour",
+      "ru": "Власть Любви",
+      "page": "133",
+      "group": "Разные виды любви",
+      "group_fr": "Amours divers",
+      "group_page": "115",
+      "group_en": "Various Kinds of Love",
+      "group_frtrans": "Amours divers",
+      "flag": "",
+      "img": [],
+      "attrs": [
+        {
+          "what": "Геркулес и Меркурий, сопровождающие крылатого младенца с венцом из ириса на голове и молнией в руке; лев у ног Геркулеса, кадуцей в руке Меркурия",
+          "meaning": "Геркулес и Меркурий означают силу и красноречие, служащие Любви; венец из ириса — прелесть красноречия; молния, похищенная у Юпитера, — власть Любви над смертными и небесными силами",
+          "what_en": "Hercules and Mercury accompanying a winged infant crowned with iris and holding a thunderbolt; a lion at Hercules's feet, a caduceus in Mercury's hand",
+          "meaning_en": "Hercules and Mercury signify the strength and eloquence that serve Love; the iris crown, the charm of eloquence; the thunderbolt, snatched from Jupiter, Love's power over mortals and celestial powers alike",
+          "what_frtrans": "Hercule et Mercure accompagnant un enfant ailé couronné d'iris et tenant une foudre; un lion aux pieds d'Hercule, un caducée à la main de Mercure",
+          "meaning_frtrans": "Hercule et Mercure signifient la force et l'éloquence au service de l'Amour ; la couronne d'iris, le charme de l'éloquence ; la foudre, arrachée à Jupiter, le pouvoir de l'Amour sur les mortels et les puissances célestes"
+        }
+      ],
+      "text_ru": [
+        "Она, как мне кажется, не может быть больше, чем она есть, ибо это властное дитя Венеры, дающее законы самым могущественным, имеет на своей стороне красноречие и силу, кои представлены здесь двумя изображениями — Геркулеса и Меркурия. Ведь несомненно, что Любовь примиряет их меж собою, когда ей угодно, и заставляет действовать в свою пользу. Так что неудивительно, что она одерживает столь многие победы, имея двух столь добрых помощников, которые идут повсюду, куда она пожелает, и день ото дня прибавляют к её миртам новые лавры новыми завоеваниями.",
+        "Дабы показать эту же власть Любви и её удивительную силу, некоторые изображают совершенно нагое дитя, лицо коего прекрасно сверх всякого чуда. Сверх того, ему возлагают на голову венец из ириса, а в правую руку дают держать молнию, которую оно, кажется, готово метнуть с чрезвычайной яростью.",
+        "По его нежному возрасту и по его красоте мы узнаём, что влюблённые, когда они молоды и красивы, имеют весьма большие преимущества для завоевания своих госпож. Ибо хотя, как я уже говорил, случается, что в их присутствии они порою не могут раскрыть уста, настолько они поглощены страстью, однако их молчание, соединяясь с приятной наружностью и обходительностью, им свойственными, не перестаёт быть в них своего рода немым красноречием, посредством коего они убеждают не хуже, нежели украшениями речи.",
+        "Что до венца из ириса, он дан Любви не без важной причины: это растение, как отмечает Пиерий, есть истинный символ того, что наиболее приятно в красноречии. Отсюда и происходит, что Князь греческих Поэтов, желая сказать, что послы Троянцев были весьма красноречивы, прибегает к такому обороту речи, что они «вкусили ириса», как бы желая показать этим, что их манера выражаться изящна и цветиста.",
+        "Молния, которую оно несёт, равным образом есть иероглиф его могущества, ибо оно, кажется, вырвало её у самого Юпитера, дабы сделаться грозным не только для смертных, но и для небесных сил."
+      ],
+      "text_fr": [
+        "ELLE ne peut estre, ce me semble, plus grande qu'elle est, veu que cet imperieux enfant de Venus, qui donne des loix aux plus puissans, a pour luy l'eloquence & la force, qui se voyent icy representées par les deux effigies d'Hercule & de Mercure. Car il est indubitable qu'Amour les accorde ensemble quand il luy plaist, & les fait agir en sa faveur. Tellement que ce n'est pas merveille s'il gagne tant de victoires, ayant deux si bons seconds, qui se portent par tout où il veut, & qui ajoûtent de jour en jour à ses myrthes de nouveaux lauriers par de nouvelles conquestes.",
+        "Pour montrer cette mesme authorité d'Amour, & sa merveilleuse force, quelques-vns dépeignent vn enfant tout nud, dont le visage est charmant au delà de toute merveille. De plus, ils luy mettent sur la teste vne guirlande d'iris; & de la main droite luy font tenir vne foudre, qu'il semble vouloir darder avec vne extreme violence.",
+        "Par son âge tendre, & par sa beauté, nous apprenons que les amans, quand ils sont jeunes & beaux, ont de tres-grands avantages pour conquerir leurs maistresses. Car bien qu'il avienne, comme j'ay déja dit, qu'en leur presence ils ne peuvent quelquefois ouvrir la bouche, tant ils sont préoccupez de passion; leur silence neanmoins se rencontrant avec la bonne mine & l'agréement qui leur est naturel, ne laisse pas d'estre en eux vne espece de rhetorique muette, par le moyen de laquelle ils ne persuadent pas moins bien que par les ornemens du langage.",
+        "Quant à la couronne d'iris, elle n'est pas donnée à l'Amour sans vne grande raison, cette plante, comme le remarque Pierius, estant le vray symbole de ce que l'eloquence a de plus aimable. De là vient aussi que le Prince des Poëtes Grecs, pour dire que les Ambassadeurs des Troyens estoient tres-eloquens, se sert de cette façon de parler, qu'ils ont mangé de l'iris, comme s'il vouloit montrer par là que leur maniere de s'exprimer est elegante & fleurie.",
+        "La foudre qu'il porte est pareillement vn hieroglyphe de son pouvoir, puisqu'il semble l'avoir arrachée à Jupiter mesme, afin de se rendre redoutable non seulement aux mortels, mais encore aux puissances celestes."
+      ],
+      "en": "Authority of Love",
+      "scans": [],
+      "text_en": [
+        "IT cannot, it seems to me, be greater than it is, seeing that this imperious child of Venus, who gives laws to the most powerful, has on his side eloquence and strength, which are here represented by the two effigies of Hercules and Mercury. For it is beyond doubt that Love reconciles them together when it pleases him, and makes them act in his favor. So that it is no wonder he wins so many victories, having two such good seconds, who go everywhere he wishes, and who add day by day to his myrtles new laurels by new conquests.",
+        "To show this same authority of Love, and his marvelous strength, some depict an entirely naked child, whose face is charming beyond all wonder. Moreover, they place upon his head a garland of iris, and in his right hand make him hold a thunderbolt, which he seems to wish to hurl with extreme violence.",
+        "By his tender age, and by his beauty, we learn that lovers, when they are young and handsome, have very great advantages for conquering their mistresses. For although it happens, as I have already said, that in their presence they can sometimes not open their mouths, so preoccupied are they with passion, their silence nevertheless, meeting with the good countenance and charm that is natural to them, does not fail to be in them a kind of mute rhetoric, by means of which they persuade no less well than by the ornaments of speech.",
+        "As for the crown of iris, it is not given to Love without good reason: this plant, as Pierius observes, being the true symbol of what is most lovable in eloquence. From this also comes that the Prince of the Greek Poets, to say that the Trojan Ambassadors were very eloquent, uses this manner of speaking, that they had eaten of the iris, as if wishing to show thereby that their manner of expressing themselves is elegant and flowery.",
+        "The thunderbolt he carries is likewise a hieroglyph of his power, since he seems to have snatched it from Jupiter himself, in order to render himself formidable not only to mortals, but also to the celestial powers."
+      ],
+      "name_fr": "Authorité d'Amour"
+    },
+    {
       "id": "p2-106",
       "part": 2,
       "num": "",
