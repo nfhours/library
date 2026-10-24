@@ -3575,7 +3575,8 @@
         "As for the touchstone, it is with very good right that it figures Experience, being an infallible test of the worth of metals, and particularly of gold."
       ],
       "name_fr": "Experience",
-      "group_frtrans": "E"
+      "group_frtrans": "E",
+      "crop_verified": true
     },
     {
       "id": "p1-57",
@@ -3946,7 +3947,8 @@
         "As for the dog, experience shows every day that it is the most faithful of all animals, and man's greatest friend: witness that of Titus Labienus, according to Pliny, which never left its master's side, and which, seeing him thrown into the Tiber from the Gemonian Stairs, at once leapt in after him, and in the end drowned from ceaseless swimming and diving after him."
       ],
       "name_fr": "Fidelité",
-      "group_frtrans": "F"
+      "group_frtrans": "F",
+      "crop_verified": true
     },
     {
       "id": "p1-63",
@@ -7332,7 +7334,8 @@
         "In a word, the thunderbolt that threatens this wretched young man serves to teach us that we are exposed not only to an infinity of dangers on land and sea, but subject also to the influences of the heavens, as it pleases God to make them act: for He sometimes permits us to be chastised for our demerits, which are the cause of the misfortunes that befall us; it being certain, as St. Paul says, that sin engenders death. Whence it must be concluded that human powers, however great, cannot stand against Him who has set bounds, and given laws, to all the things He has created."
       ],
       "name_fr": "Peril",
-      "group_frtrans": "P"
+      "group_frtrans": "P",
+      "crop_verified": true
     },
     {
       "id": "p1-123",
@@ -7429,7 +7432,8 @@
         "She traces a circle with a compass, inasmuch as this figure is the most perfect of all those of Mathematics. This is what the ancients wished to show, when, after sacrificing, they had a great circle brought to the altar, which they dipped in the blood of the victim with much veneration and ceremony; by which they marked Perfection, as also by the circle of the Zodiac, which is still its true symbol."
       ],
       "name_fr": "Perfection",
-      "group_frtrans": "P"
+      "group_frtrans": "P",
+      "crop_verified": true
     },
     {
       "id": "p1-125",
@@ -7839,7 +7843,8 @@
         "And if Philosophy holds books in one hand, and a scepter in the other, it is to show that men of high birth ought not to neglect this fair Queen, and that the counsel of wise Ministers is altogether necessary to the government of States. History notes on this point, that Solon, Lycurgus, and Zaleucus were Princes and Legislators together, namely of the Athenians, the Lacedaemonians, and those of Locris: and that the Egyptians never elected as their Chief any but the wisest of their Priests, or the most seasoned of their soldiers, so as to maintain public tranquility through valor, or through good conduct."
       ],
       "name_fr": "Philosophie",
-      "group_frtrans": "P"
+      "group_frtrans": "P",
+      "crop_verified": true
     },
     {
       "id": "p1-132",
@@ -9286,7 +9291,8 @@
         "The golden crown and the rope are the ensigns of what is called good and bad Destiny. As for telling you, moreover, whether there is such a thing or not; this is a matter in which I would find myself much embarrassed, were I obliged to rely on the reveries of the ancients, who were so foolish as to subject even Jupiter to it. But without dwelling on these fables, which are refuted in Christian wise by the holy Fathers, it suffices me to remark in general, that the common people call Destiny the outcome of things that runs contrary to the intention of the agent. Which seems to me quite well expressed by this thought of a Greek author, who says, that a wretched man, having taken a rope to go hang himself, cast it away very quickly when he chanced to find a great treasure in the pit he had dug to be buried in; but that a little after, he who had hidden this gold, no longer finding it there, gave himself up cravenly to despair, and hanged himself with the same rope that the other had left there."
       ],
       "name_fr": "Sort, ou Destin",
-      "group_frtrans": "S"
+      "group_frtrans": "S",
+      "crop_verified": true
     },
     {
       "id": "p1-158",
@@ -9855,7 +9861,8 @@
         "Some ancient Emperors made this known through the medals they struck of her. In that of Lucius Verus she is represented by valiant Bellerophon, mounted on the horse Pegasus, and armed with a javelin, with which he strikes down the chimera, that is, the deformity of vice. In that of Alexander, by an armed woman who holds in one hand a globe, and a lance in the other, to show that Virtue subjects the whole world to herself: and in that of Galba and of Domitian, by an Amazon, whose arms are a cuirass with a lance and a scimitar, and under her feet a morion."
       ],
       "name_fr": "Vertu",
-      "group_frtrans": "V"
+      "group_frtrans": "V",
+      "crop_verified": true
     },
     {
       "id": "p1-168",
@@ -10685,7 +10692,8 @@
         "This figure explains itself well enough, without need of any fuller account, since by the garland and the bouquets of various flowers that she carries, it is shown that all plants renew themselves in this fair season, the most agreeable of all those of the year."
       ],
       "name_fr": "Le Printemps",
-      "group_frtrans": "Les quatre Saisons de l'année"
+      "group_frtrans": "Les quatre Saisons de l'année",
+      "crop_verified": true
     },
     {
       "id": "p2-10",
@@ -15339,7 +15347,8 @@
         "Some still represent Monarchy with golden buskins all gleaming with gems at her feet, as a more notable mark of preeminence, inasmuch as this kind of footwear was formerly given only to Princes and to Heroes."
       ],
       "name_fr": "Monarchie",
-      "group_frtrans": "Divers Gouvernemens"
+      "group_frtrans": "Divers Gouvernemens",
+      "crop_verified": true
     },
     {
       "id": "p2-97",
@@ -15436,7 +15445,8 @@
         "THIS Love is here depicted as a naked child, who has wings on his back, a crown of laurel upon his head, and three other garlands in his hands. Which teaches us that among so many Loves described by the Poets, there is none that should not yield to that of virtue, which surpasses them all the more, inasmuch as virtue herself has the advantage and pre-eminence over all things of this lower world. By which it is further signified that the love one has for her is in no way corruptible, but ever green as the laurel, and such as a garland or a crown that has no end, being of spherical form. To all of which may be added, that the garland with which this Love is crowned is the symbol of the Moral or Cardinal Virtues, namely Justice, Prudence, Fortitude, and Temperance, the round figure and the ternary number doubly representing the worth of the Virtues."
       ],
       "name_fr": "Amour de vertu",
-      "group_frtrans": "Amours divers"
+      "group_frtrans": "Amours divers",
+      "crop_verified": true
     },
     {
       "id": "p2-99",
@@ -16531,7 +16541,8 @@
         "HERE is the emblem of Compassion, which this helpful woman sets before our eyes. In her left hand she holds a nest of vultures, and with her right she scatters pieces of gold and silver: by which is plainly marked the true assistance we owe to our fellow creatures; the vulture having so natural a tenderness for its young, that when it lacks prey, it pierces its own thighs with great blows of its beak, and feeds them with the blood that spurts forth from it."
       ],
       "name_fr": "Compassion",
-      "group_frtrans": "Добродетели и благочестие (в книге без заголовка)"
+      "group_frtrans": "Добродетели и благочестие (в книге без заголовка)",
+      "crop_verified": true
     },
     {
       "id": "p2-121",
@@ -23470,7 +23481,8 @@
         "I should explain this figure in vain, since but a little common sense is needed to know what it signifies. For as Venus here depicted with her son Cupid burns and wounds together those whom she reaches, whether with her flames or with her arrows, producing her chief effects in the hearts of living creatures when they enter the middle of their age; the Sun likewise is never so ardent as when, being at its Noon, and beating straight down upon us, it hurls upon all things here below its flaming darts, or if you will its rays, which are the true symbols thereof."
       ],
       "name_fr": "Le Midy",
-      "group_frtrans": "Les quatre parties du Jour"
+      "group_frtrans": "Les quatre parties du Jour",
+      "crop_verified": true
     },
     {
       "id": "p2-241",
@@ -23520,7 +23532,8 @@
         "It could not be better represented than it is here by this figure of Diana, who holds in one hand a bow, and in the other dogs which she leads on a leash. Whereby it is made known, that of all the parts of the day, there is none more fitting nor more favorable to hunters than the evening."
       ],
       "name_fr": "Le Soir",
-      "group_frtrans": "Les quatre parties du Jour"
+      "group_frtrans": "Les quatre parties du Jour",
+      "crop_verified": true
     },
     {
       "id": "p2-242",
@@ -23578,7 +23591,8 @@
         "It is quite fittingly that she is depicted under the image of Proserpine, Queen of the underworld. The poppies with which she is crowned show that she is the mother of Sleep. This comes from the fact that by her moisture she increases the vapors of the stomach, which rise to the highest part of the body, and which, redoubling their coldness by that of the brain, descend lower, and make us sleep, to which, according to Aristotle, the darkness contributes exceedingly. Here it is to be noted that the Poets name Night the sweet nurse of Sleep, because she not only begets him, but indeed sustains and nourishes him. As for the trident and the lit torch which she is made to carry in her hand, it is to show the dominion she has over the darkness, through which it is impossible to act, unless it be dispelled by light, for which reason some draw the etymology of Nox from the Latin verb nocere, to show that Night is assuredly harmful to the eyes, in that she deprives them of the act of seeing, by hiding from them the colors of things in which the eye naturally delights."
       ],
       "name_fr": "La Nuit",
-      "group_frtrans": "Les quatre parties du Jour"
+      "group_frtrans": "Les quatre parties du Jour",
+      "crop_verified": true
     },
     {
       "id": "p2-243",
@@ -23667,7 +23681,8 @@
         "To all that I have just said must be added, that she endeavors to make a child grasp her demonstrations, to give us to understand that from that age we are fit to imprint them in our memory, because of their marvelous evidentness which sustains itself, as is figured to us by the nakedness of her feet, which rest upon a strong base."
       ],
       "name_fr": "Mathematique",
-      "group_frtrans": "Науки и искусства (в книге без заголовка)"
+      "group_frtrans": "Науки и искусства (в книге без заголовка)",
+      "crop_verified": true
     },
     {
       "id": "p2-244",
@@ -23760,7 +23775,8 @@
         "By the word Planimetry is to be understood that geometrical knowledge by means of which one may measure the length and breadth of all sorts of surfaces. This seems to me fairly well represented by the figure of this woman, who holds in one hand Jacob's staff, because this instrument is of all the most fitting to perform this operation well, as is more particularly observed in the figure of Geometry."
       ],
       "name_fr": "Planemetrie",
-      "group_frtrans": "Науки и искусства (в книге без заголовка)"
+      "group_frtrans": "Науки и искусства (в книге без заголовка)",
+      "crop_verified": true
     },
     {
       "id": "p2-246",
@@ -23824,7 +23840,8 @@
         "She is painted old, to show that she is so indeed. For the first thing that God did was to divide chaos, and to separate the four elements, which are fire, air, water, and earth, represented by the globe seen here. She holds in her right hand the geometrical square, inasmuch as this instrument is altogether fit to take the widths, the lengths, the heights and the depths of the places one wishes to measure."
       ],
       "name_fr": "Geographie",
-      "group_frtrans": "Науки и искусства (в книге без заголовка)"
+      "group_frtrans": "Науки и искусства (в книге без заголовка)",
+      "crop_verified": true
     },
     {
       "id": "p2-247",
@@ -23913,7 +23930,8 @@
         "As for her gown, which is of changeable color, this signifies her diverse graces, which seem to charm the eyes of those who behold them; as by the feet which she has covered, it is likewise denoted that the proportions, which are the foundation of this fine art, must remain as it were hidden, and not appear until the picture is entirely finished. For just as among Orators it is a great art to know how to feign that one speaks without art, so in the profession of Painters it is a marvelous secret to know how to paint in such a way that what is most commendable in the Painting be perceived only by those who best understand it."
       ],
       "name_fr": "Peinture",
-      "group_frtrans": "Науки и искусства (в книге без заголовка)"
+      "group_frtrans": "Науки и искусства (в книге без заголовка)",
+      "crop_verified": true
     },
     {
       "id": "p2-248",
@@ -24006,7 +24024,8 @@
         "She holds besides a lyre in one hand, and a trumpet in the other, inasmuch as by the sweetness of fine verses she renders those who hear them as if enchanted, and awakens courage by the example of Heroes, whose great deeds she never ceases to proclaim."
       ],
       "name_fr": "Poësie",
-      "group_frtrans": "Науки и искусства (в книге без заголовка)"
+      "group_frtrans": "Науки и искусства (в книге без заголовка)",
+      "crop_verified": true
     },
     {
       "id": "p2-249",
@@ -24055,7 +24074,8 @@
         "This figure of Harmony, whose copy is drawn from the original seen at Florence in the Palace of the Grand Duke, needs not, it seems to me, to be explained, since she makes herself sufficiently known by the viol, or double lyre, on which she plays, and by the crown which she wears, true symbols of the dominion that her agreeable and charming concerts win for her over hearts."
       ],
       "name_fr": "Harmonie",
-      "group_frtrans": "Науки и искусства (в книге без заголовка)"
+      "group_frtrans": "Науки и искусства (в книге без заголовка)",
+      "crop_verified": true
     },
     {
       "id": "p2-250",
@@ -24270,7 +24290,8 @@
         "I omit that the hoe and the pick are placed at her feet, as being the instruments most necessary to fortify a camp, whether it be needful to make ditches and trenches, or to move earth, and dig foundations whereon to build."
       ],
       "name_fr": "Architecture Militaire",
-      "group_frtrans": "Науки и искусства (в книге без заголовка)"
+      "group_frtrans": "Науки и искусства (в книге без заголовка)",
+      "crop_verified": true
     },
     {
       "id": "p2-252",
@@ -24323,7 +24344,8 @@
         "She is painted young, because, being daughter of Geometry, so as not to degenerate from her mother's qualities, she observes punctiliously all the measurements that her mother has shown her, and holds for this purpose the geometrical square, as an instrument altogether fit for her design."
       ],
       "name_fr": "Altimetrie",
-      "group_frtrans": "Науки и искусства (в книге без заголовка)"
+      "group_frtrans": "Науки и искусства (в книге без заголовка)",
+      "crop_verified": true
     },
     {
       "id": "p2-253",
@@ -24389,7 +24411,8 @@
         "This Queen of fair knowledges, crowned with stars, and having her gown all strewn with them, not without reason has a Sun before her, a scepter in one of her hands, a celestial globe in the other, and an eagle at her feet, to show that she keeps her eyes ever fixed on considering the course of the Stars, upon which she bestows all her study in the search for the most curious and most noble secrets that depend on their influences."
       ],
       "name_fr": "Astrologie",
-      "group_frtrans": "Науки и искусства (в книге без заголовка)"
+      "group_frtrans": "Науки и искусства (в книге без заголовка)",
+      "crop_verified": true
     },
     {
       "id": "p2-254",
@@ -24531,7 +24554,8 @@
         "She is painted old, for the reason we have given in the figure of Geography. As for her gauze gown, it is a symbol of water, and of its movement; the chief object of this art consisting in the description of the seas, whose dimensions she takes with the mariner's compass, altogether fitting for navigation, which is the reason for which she is given a compass in one hand, and a ship in the other."
       ],
       "name_fr": "Hydrographie",
-      "group_frtrans": "Науки и искусства (в книге без заголовка)"
+      "group_frtrans": "Науки и искусства (в книге без заголовка)",
+      "crop_verified": true
     },
     {
       "id": "p2-256",
@@ -24660,7 +24684,8 @@
         "I shall not stop to give the understanding of this figure, inasmuch as it explains itself well enough of itself through its relation to the preceding ones."
       ],
       "name_fr": "Iconographie",
-      "group_frtrans": "Науки и искусства (в книге без заголовка)"
+      "group_frtrans": "Науки и искусства (в книге без заголовка)",
+      "crop_verified": true
     },
     {
       "id": "p2-258",
@@ -24793,7 +24818,8 @@
         "that as the mirror represents the images of things set opposite it, the mind in like manner retains the ideas of what is shown to it; of which it may be said that the dog is yet another symbol, inasmuch as it allows itself to be instructed and trained by its master with very great ease."
       ],
       "name_fr": "Desir d'apprendre",
-      "group_frtrans": "Науки и искусства (в книге без заголовка)"
+      "group_frtrans": "Науки и искусства (в книге без заголовка)",
+      "crop_verified": true
     },
     {
       "id": "p2-260",
@@ -24860,7 +24886,8 @@
         "As for the eye, I believe it is placed here to give us to understand that it is chiefly this which presides over the Industry of all Workmen, and which guides their hand."
       ],
       "name_fr": "Industrie",
-      "group_frtrans": "Науки и искусства (в книге без заголовка)"
+      "group_frtrans": "Науки и искусства (в книге без заголовка)",
+      "crop_verified": true
     },
     {
       "id": "p2-261",
@@ -24920,7 +24947,8 @@
         "Of this consideration, or if you will this prudence of which we speak here, the crane is the true emblem, reported by Alciato in verses thus translated,\nSo as not to raise its flight too high nor too low,\nThe crane carries pebbles in its feet;\nAnd by this counterweight it makes itself stronger,\nTo keep itself from falling down."
       ],
       "name_fr": "Consideration",
-      "group_frtrans": "Науки и искусства (в книге без заголовка)"
+      "group_frtrans": "Науки и искусства (в книге без заголовка)",
+      "crop_verified": true
     },
     {
       "id": "p2-262",
