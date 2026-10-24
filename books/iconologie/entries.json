@@ -13062,7 +13062,6 @@
       "group_page": "66",
       "flag": "",
       "img": [
-        "p2-52-overview.jpg",
         "p2-52.jpg"
       ],
       "attrs": [
@@ -13232,7 +13231,6 @@
       "group_page": "70",
       "flag": "",
       "img": [
-        "p2-55-overview.jpg",
         "p2-55.jpg"
       ],
       "attrs": [
@@ -13427,7 +13425,6 @@
       "group_page": "74",
       "flag": "",
       "img": [
-        "p2-59-overview.jpg",
         "p2-59.jpg"
       ],
       "attrs": [
@@ -13623,8 +13620,6 @@
       "group_page": "78",
       "flag": "",
       "img": [
-        "p2-63-overview.jpg",
-        "p2-63-force.jpg",
         "p2-63.jpg"
       ],
       "attrs": [
@@ -13777,8 +13772,6 @@
       "group_page": "82",
       "flag": "",
       "img": [
-        "p2-66-overview.jpg",
-        "p2-66-fureur.jpg",
         "p2-66.jpg"
       ],
       "attrs": [
@@ -14557,7 +14550,6 @@
       "group_page": "96",
       "flag": "",
       "img": [
-        "p2-82-overview.jpg",
         "p2-82.jpg"
       ],
       "attrs": [
@@ -14708,8 +14700,6 @@
       "group_page": "99",
       "flag": "",
       "img": [
-        "p2-85-overview.jpg",
-        "p2-85-vertu.jpg",
         "p2-85.jpg"
       ],
       "attrs": [
@@ -14874,7 +14864,6 @@
       "group_page": "103",
       "flag": "",
       "img": [
-        "p2-88-overview.jpg",
         "p2-88.jpg"
       ],
       "attrs": [
@@ -15065,9 +15054,7 @@
       "group_fr": "Diverses Vies",
       "group_page": "103",
       "flag": "",
-      "img": [
-        "p2-88-overview.jpg"
-      ],
+      "img": [],
       "attrs": [
         {
           "what": "Юная дева, увенчанная цветами и листьями, с эмблемой однодневной мухи (Hemerrobium) на груди и розами с латинской надписью в правой руке",
@@ -15119,9 +15106,7 @@
       "group_fr": "Diverses Vies",
       "group_page": "103",
       "flag": "",
-      "img": [
-        "p2-88-overview.jpg"
-      ],
+      "img": [],
       "attrs": [
         {
           "what": "Морщинистая старуха в одеянии старинного покроя, с вороной в левой руке и опирающаяся правой рукой на оленя с длинными рогами",
@@ -15362,7 +15347,6 @@
       "group_page": "115",
       "flag": "",
       "img": [
-        "p2-97-overview.jpg",
         "p2-97.jpg"
       ],
       "attrs": [
