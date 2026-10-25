@@ -817,7 +817,7 @@
           '<h1 class="ic-h-fr">'+esc(it.fr)+'</h1>'+
           (titleOf(it)!==it.fr?'<p class="ic-h-ru">'+esc(titleOf(it))+'</p>':"")+
         '</header>'+
-        (imgs?'<div class="ic-figs">'+imgs+'</div>'+captionLine+cropVerifiedLine+plateLink:"")+
+        (imgs?cropVerifiedLine+'<div class="ic-figs">'+imgs+'</div>'+captionLine+plateLink:"")+
         (fieldsHtml?'<section class="ic-sec"><h3>'+t("infoSec")+'</h3><ul class="ic-attrs">'+fieldsHtml+'</ul></section>':"")+
         (attrs?'<section class="ic-sec"><h3>'+t("whatSec")+'</h3><ul class="ic-attrs">'+attrs+'</ul></section>':"")+
         (transl?'<section class="ic-sec"><h3>'+t("translSec")+'</h3><div class="ic-text">'+transl+'</div></section>':"")+
