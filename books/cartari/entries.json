@@ -6745,6 +6745,34 @@
       "group_en": "Bacchus"
     },
     {
+      "id": "cartm_baccotrionfo",
+      "num": "140.8",
+      "page": "350",
+      "fr": "Bacchus triomphateur",
+      "ru": "Вакх-триумфатор",
+      "en": "Bacchus triumphant",
+      "img": [
+        "cartm_baccotrionfo.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagini di Bacco trionfatore, & inuentore del Trionso, doppo hauer superata l'India, & del suo carro tirato da Tigri, & da Pantere con diuerse piante à lui sacrate, & molti animali ancora che significano la natura, & effetti del vino, & ebrietà.",
+      "text_it": [
+        "Imagini di Bacco trionfatore, & inuentore del Trionso, doppo hauer superata l'India, & del suo carro tirato da Tigri, & da Pantere con diuerse piante à lui sacrate, & molti animali ancora che significano la natura, & effetti del vino, & ebrietà."
+      ],
+      "text_ru": [
+        "Изображения Вакха-триумфатора и изобретателя Триумфа, после того как покорил он Индию, и его колесницы, влекомой Тиграми и Пантерами, с различными растениями, ему посвящёнными, и многими также животными, означающими природу и действия вина и опьянения."
+      ],
+      "text_en": [
+        "Images of Bacchus triumphant, and inventor of the Triumph, after having conquered India, and of his chariot drawn by Tigers, and by Panthers, with various plants sacred to him, and many animals too, signifying the nature and effects of wine, and of drunkenness."
+      ],
+      "text_fr": [
+        "Images de Bacchus triomphateur, et inventeur du Triomphe, après avoir vaincu l'Inde, et de son char tiré par des Tigres, et par des Panthères, avec diverses plantes qui lui sont consacrées, et aussi de nombreux animaux, signifiant la nature et les effets du vin, et de l'ébriété."
+      ],
+      "name_fr": "Bacchus triomphateur",
+      "group": "Вакх",
+      "group_en": "Bacchus"
+    },
+    {
       "id": "cartm_martescithi",
       "num": "138",
       "page": "328-329",
