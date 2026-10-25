@@ -7183,6 +7183,34 @@
       "group_en": "Cupid"
     },
     {
+      "id": "cartm_trionfoamore",
+      "num": "154",
+      "page": "416",
+      "fr": "Le Triomphe d'Amour",
+      "ru": "Триумф Любви",
+      "en": "The Triumph of Love",
+      "img": [
+        "cartm_trionfoamore.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Trionfo d'Amore descritto da Filostrato, dal Petrarca, & da altri antichi & moderni, significante la forza d'Amore.",
+      "text_it": [
+        "Trionfo d'Amore descritto da Filostrato, dal Petrarca, & da altri antichi & moderni, significante la forza d'Amore."
+      ],
+      "text_ru": [
+        "Триумф Любви, описанный Филостратом, Петраркой и иными древними и новыми авторами, означающий силу Любви."
+      ],
+      "text_en": [
+        "Triumph of Love, described by Philostratus, by Petrarch, and by other ancient and modern authors, signifying the force of Love."
+      ],
+      "text_fr": [
+        "Triomphe d'Amour, décrit par Philostrate, par Pétrarque, et par d'autres auteurs anciens et modernes, signifiant la force de l'Amour."
+      ],
+      "name_fr": "Le Triomphe d'Amour",
+      "group": "Купидон",
+      "group_en": "Cupid"
+    },
+    {
       "id": "cartm_fortunalieta",
       "num": "144.6",
       "page": "376-377",
