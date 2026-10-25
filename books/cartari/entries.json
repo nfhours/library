@@ -6963,6 +6963,34 @@
       "group_en": "Fortune"
     },
     {
+      "id": "cartm_fortunascithi",
+      "num": "148.7",
+      "page": "392",
+      "fr": "La Fortune chez les Scythes",
+      "ru": "Фортуна у скифов",
+      "en": "Fortune among the Scythians",
+      "img": [
+        "cartm_fortunascithi.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagine della Fortuna appò gli Scithi significante la sua velocità & instabilità nelle cose mondane, & che bisogna secondare l'Occasione, perche velocemente se ne vola & in vano poi si segue, & in vano si pente delle occasioni perdute & tralasciate.",
+      "text_it": [
+        "Imagine della Fortuna appò gli Scithi significante la sua velocità & instabilità nelle cose mondane, & che bisogna secondare l'Occasione, perche velocemente se ne vola & in vano poi si segue, & in vano si pente delle occasioni perdute & tralasciate."
+      ],
+      "text_ru": [
+        "Изображение Фортуны у скифов, означающее её быстроту и непостоянство в вещах мирских, и что должно следовать за Случаем, ибо стремительно он улетает, и тщетно потом его преследуют, и тщетно раскаиваются в случаях упущенных и оставленных без внимания."
+      ],
+      "text_en": [
+        "Image of Fortune among the Scythians, signifying her speed, and instability in worldly things, and that one must follow Occasion, because swiftly she flies away, and in vain is she then pursued, and in vain do men repent of occasions lost, and let slip."
+      ],
+      "text_fr": [
+        "Image de la Fortune chez les Scythes, signifiant sa vitesse, et son instabilité dans les choses mondaines, et qu'il faut suivre l'Occasion, car rapidement elle s'envole, et en vain la poursuit-on ensuite, et en vain se repent-on des occasions perdues et négligées."
+      ],
+      "name_fr": "La Fortune chez les Scythes",
+      "group": "Фортуна",
+      "group_en": "Fortune"
+    },
+    {
       "id": "cartm_fortunalieta",
       "num": "144.6",
       "page": "376-377",
