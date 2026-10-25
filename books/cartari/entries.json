@@ -6854,6 +6854,34 @@
       "group_en": "Bacchus"
     },
     {
+      "id": "cartm_genio",
+      "num": "143",
+      "page": "367",
+      "fr": "Le Génie bon et mauvais",
+      "ru": "Добрый и злой Гений",
+      "en": "The good and evil Genius",
+      "img": [
+        "cartm_genio.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagini del Genio buono, & cattiuo, custode & osseruatore della generatione humana, delle attioni, & delle Città, & luoghi priuati.",
+      "text_it": [
+        "Imagini del Genio buono, & cattiuo, custode & osseruatore della generatione humana, delle attioni, & delle Città, & luoghi priuati."
+      ],
+      "text_ru": [
+        "Изображения доброго и злого Гения, хранителя и наблюдателя человеческого рождения, деяний, Городов и частных мест."
+      ],
+      "text_en": [
+        "Images of the good, and evil Genius, guardian and observer of human generation, of actions, and of Cities, and private places."
+      ],
+      "text_fr": [
+        "Images du bon Génie, et du mauvais, gardien et observateur de la génération humaine, des actions, et des Cités, et lieux privés."
+      ],
+      "name_fr": "Le Génie bon et mauvais",
+      "group": "Вакх",
+      "group_en": "Bacchus"
+    },
+    {
       "id": "cartm_baccotrionfo",
       "num": "140.8",
       "page": "350",
