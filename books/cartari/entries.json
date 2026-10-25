@@ -6162,16 +6162,12 @@
     {
       "id": "cartm_night",
       "num": "128",
-      "page": "314",
+      "page": "275",
       "fr": "Imagine della Notte nutrice della Morte, & del Sonno",
       "ru": "Образ Ночи, кормилицы Смерти и Сна",
       "en": "Image of Night, nurse of Death and Sleep",
       "img": [
         "cartm_night.jpg"
-      ],
-      "scans": [
-        "cartm_night_p315.jpg",
-        "cartm_night_p316.jpg"
       ],
       "group": "Меркурий",
       "group_en": "Mercury",
