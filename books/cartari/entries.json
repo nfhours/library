@@ -6636,6 +6636,34 @@
       "group_en": "Mars"
     },
     {
+      "id": "cartm_bacco",
+      "num": "140",
+      "page": "339",
+      "fr": "Bacchus",
+      "ru": "Вакх",
+      "en": "Bacchus",
+      "img": [
+        "cartm_bacco.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagine di Bacco significante li varij effetti del vino del quale esso fù l'inuentore, & di più gli effetti della vbbriachezza, che sono riuelationi di cose occulte, furore, libidine, & simili. Questi con Hercole tutti due Thebani, & figlioli di Gioue, di gloria tutti gl'antichi superarono.",
+      "text_it": [
+        "Imagine di Bacco significante li varij effetti del vino del quale esso fù l'inuentore, & di più gli effetti della vbbriachezza, che sono riuelationi di cose occulte, furore, libidine, & simili. Questi con Hercole tutti due Thebani, & figlioli di Gioue, di gloria tutti gl'antichi superarono."
+      ],
+      "text_ru": [
+        "Изображение Вакха, означающее различные действия вина, коего он был изобретателем, а также и действия опьянения, каковые суть откровение сокрытых вещей, неистовство, похоть и тому подобное. Сей бог вместе с Геркулесом, оба фиванцы и сыновья Юпитера, славою превзошли всех древних."
+      ],
+      "text_en": [
+        "Image of Bacchus, signifying the various effects of wine, of which he was the inventor, and further the effects of drunkenness, which are the revealing of hidden things, fury, lust, and the like. He, together with Hercules, both Thebans and sons of Jove, surpassed all the ancients in glory."
+      ],
+      "text_fr": [
+        "Image de Bacchus, signifiant les divers effets du vin, dont il fut l'inventeur, et de plus les effets de l'ivresse, qui sont la révélation des choses cachées, la fureur, la luxure, et choses semblables. Celui-ci, avec Hercule, tous deux Thébains et fils de Jupiter, surpassèrent en gloire tous les anciens."
+      ],
+      "name_fr": "Bacchus",
+      "group": "Вакх",
+      "group_en": "Bacchus"
+    },
+    {
       "id": "cartm_martescithi",
       "num": "138",
       "page": "328-329",
