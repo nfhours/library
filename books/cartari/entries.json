@@ -6991,6 +6991,34 @@
       "group_en": "Fortune"
     },
     {
+      "id": "cartm_giustitia",
+      "num": "146",
+      "page": "380",
+      "fr": "La Justice",
+      "ru": "Справедливость",
+      "en": "Justice",
+      "img": [
+        "cartm_giustitia.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagine della Giustitia custoditrice de buoni, & punitrice de rei; & imagine della Giustitia conculcante, & castigante l'ingiuria, & hieroglifico denotante detta Giustitia, & quale deue essere, apparere, & operare.",
+      "text_it": [
+        "Imagine della Giustitia custoditrice de buoni, & punitrice de rei; & imagine della Giustitia conculcante, & castigante l'ingiuria, & hieroglifico denotante detta Giustitia, & quale deue essere, apparere, & operare."
+      ],
+      "text_ru": [
+        "Изображение Справедливости, хранительницы добрых и карательницы виновных; и изображение Справедливости, попирающей и наказующей обиду, и иероглиф, означающий названную Справедливость, и какою должна она быть, являться и действовать."
+      ],
+      "text_en": [
+        "Image of Justice, guardian of the good, and punisher of the guilty; and image of Justice, trampling, and chastising injury, and a hieroglyph denoting the said Justice, and what she must be, appear, and do."
+      ],
+      "text_fr": [
+        "Image de la Justice, gardienne des bons, et punisseuse des coupables ; et image de la Justice, foulant aux pieds, et châtiant l'injure, et hiéroglyphe dénotant ladite Justice, et ce qu'elle doit être, paraître, et faire."
+      ],
+      "name_fr": "La Justice",
+      "group": "Фортуна",
+      "group_en": "Fortune"
+    },
+    {
       "id": "cartm_baccotrionfo",
       "num": "140.8",
       "page": "350",
