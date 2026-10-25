@@ -9745,30 +9745,31 @@
       ]
     },
     {
-      "id": "cartf1",
-      "num": "209",
-      "page": "507",
-      "fr": "Lucifero, compagno dell'Aurora",
-      "ru": "Люцифер, спутник Авроры",
-      "en": "Lucifer, companion of Dawn",
+      "id": "cartm_pignorialucifero",
+      "num": "carta2.6",
+      "page": "469",
+      "fr": "Lucifer sur son char tiré par un coq",
+      "ru": "Люцифер на колеснице, запряжённой петухом",
+      "en": "Lucifer on his chariot drawn by a rooster",
+      "img": [
+        "cartm_pignorialucifero.jpg"
+      ],
       "group": "Пиньория: примечания",
       "group_en": "Pignoria's Annotations",
-      "img": [
-        "cartf1.jpg"
+      "textOnly": true,
+      "name_fr": "Lucifer sur son char tiré par un coq",
+      "caption": "nella quale però io non vedo osseruata la regola di Lattantio Placido, sopra'l sesto della Thebaide di Statio, cioè, che'l suo carro sia tirato da vn Cauallo solo, poiche dice egli, che i Poeti danno al Sole quattro Caualli, due alla Luna, vn solo alle Stelle. E ben vero, che lo Scoltore della Gioia può essere, che non fosse Poeta.",
+      "text_it": [
+        "nella quale però io non vedo osseruata la regola di Lattantio Placido, sopra'l sesto della Thebaide di Statio, cioè, che'l suo carro sia tirato da vn Cauallo solo, poiche dice egli, che i Poeti danno al Sole quattro Caualli, due alla Luna, vn solo alle Stelle. E ben vero, che lo Scoltore della Gioia può essere, che non fosse Poeta."
       ],
-      "caption": "Sigillaremo questo Capo con la figura di Lucifero compagno dell'Aurora, ch'io vidi vna volta in vna Corniolina antica di valente Maestro.",
       "text_ru": [
-        "«Завершим эту главу образом Люцифера, спутника Авроры, которого я однажды видел на древней сердоликовой гемме работы искусного мастера»."
+        "в котором, однако, я не вижу соблюдённым правило Лактанция Плацида к шестой книге «Фиваиды» Стация, а именно, что его колесница должна быть запряжена одним лишь Конём, ибо он говорит, что Поэты дают Солнцу четырёх Коней, Луне — двух, а Звёздам — одного. Впрочем, весьма вероятно, что резчик этой Геммы не был Поэтом."
       ],
       "text_en": [
-        "“We shall seal this chapter with the figure of Lucifer, companion of Dawn, which I once saw on an ancient carnelian gem by a skilled master.”"
+        "in which, however, I do not see the rule of Lactantius Placidus observed, on the sixth book of Statius's Thebaid — namely, that his chariot should be drawn by a single Horse, since he says that the Poets give the Sun four Horses, the Moon two, and the Stars one alone. Though it is quite true that the Carver of this Gem may not have been a Poet."
       ],
-      "name_fr": "Lucifer, compagnon de l'Aurore",
       "text_fr": [
-        "« Nous scellerons ce chapitre par la figure de Lucifer, compagnon de l'Aurore, que j'ai vue une fois sur une antique gemme de cornaline, œuvre d'un habile maître. »"
-      ],
-      "scans": [
-        "cartf1.jpg"
+        "dans laquelle cependant je ne vois pas observée la règle de Lactance Placide, sur le sixième livre de la Thébaïde de Stace, à savoir que son char doit être tiré par un seul Cheval, puisqu'il dit que les Poètes donnent au Soleil quatre Chevaux, à la Lune deux, et aux Étoiles un seul. Il est bien vrai cependant que le Graveur de cette Gemme n'était peut-être pas Poète."
       ]
     },
     {
@@ -9804,7 +9805,7 @@
     {
       "id": "cartf3",
       "num": "211",
-      "page": "509",
+      "page": "469",
       "fr": "Giunone nel Cameo",
       "ru": "Юнона на камее",
       "en": "Juno on a cameo",
