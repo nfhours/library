@@ -7345,6 +7345,34 @@
       "group_en": "Venus"
     },
     {
+      "id": "cartm_venerepiaceri",
+      "num": "160",
+      "page": "437",
+      "fr": "Vénus, déesse des plaisirs",
+      "ru": "Венера, богиня наслаждений",
+      "en": "Venus, goddess of pleasures",
+      "img": [
+        "cartm_venerepiaceri.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagine di Venere Dea de piaceri, madre d'Amore, accompagnata da gl'Amorini, dalle Hore, & dalle tre gratie significanti le delitie amorose, & il buono augurio, che faceuano gl'antichi con tal imagini alle nouelle Spose, di concorde matrimonio, & di ardente amore.",
+      "text_it": [
+        "Imagine di Venere Dea de piaceri, madre d'Amore, accompagnata da gl'Amorini, dalle Hore, & dalle tre gratie significanti le delitie amorose, & il buono augurio, che faceuano gl'antichi con tal imagini alle nouelle Spose, di concorde matrimonio, & di ardente amore."
+      ],
+      "text_ru": [
+        "Изображение Венеры, богини наслаждений, матери Любви, сопровождаемой маленькими Амурами, Орами и тремя Грациями, означающими любовные услады, и доброе предзнаменование, что творили древние таковыми изображениями новобрачным, согласного брака и пламенной любви."
+      ],
+      "text_en": [
+        "Image of Venus, Goddess of pleasures, mother of Love, accompanied by little Loves, by the Hours, and by the three Graces, signifying amorous delights, and the good omen that the ancients made with such images for newlywed brides, of harmonious marriage, and of ardent love."
+      ],
+      "text_fr": [
+        "Image de Vénus, Déesse des plaisirs, mère de l'Amour, accompagnée de petits Amours, des Heures, et des trois Grâces, signifiant les délices amoureuses, et le bon augure que faisaient les anciens par de telles images aux nouvelles Épouses, de mariage concorde, et d'amour ardent."
+      ],
+      "name_fr": "Vénus, déesse des plaisirs",
+      "group": "Венера",
+      "group_en": "Venus"
+    },
+    {
       "id": "cartm_fortunalieta",
       "num": "144.6",
       "page": "376-377",
