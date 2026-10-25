@@ -7399,6 +7399,34 @@
       "group_en": "Venus"
     },
     {
+      "id": "cartm_venerearmata",
+      "num": "162",
+      "page": "442",
+      "fr": "Vénus armée, victrice et enchaînée",
+      "ru": "Венера вооружённая, победительница и в оковах",
+      "en": "Venus armed, victorious, and in chains",
+      "img": [
+        "cartm_venerearmata.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagine di Venere armata, di Venere vitrice, & di Venere in ceppi dinotante la fermezza, che deue essere nelli maritati & amanti, dinota ancora questa imagine il valore delle Donne Lacedemonie contro i Messenij, che andauano à saccheggiar la loro Città, da esse valorosamente difesa.",
+      "text_it": [
+        "Imagine di Venere armata, di Venere vitrice, & di Venere in ceppi dinotante la fermezza, che deue essere nelli maritati & amanti, dinota ancora questa imagine il valore delle Donne Lacedemonie contro i Messenij, che andauano à saccheggiar la loro Città, da esse valorosamente difesa."
+      ],
+      "text_ru": [
+        "Изображение Венеры вооружённой, Венеры победительницы, и Венеры в оковах, означающее твёрдость, что должна быть в супругах и влюблённых, означает также это изображение доблесть Лакедемонских Женщин против Мессенцев, что шли разграбить их Город, доблестно ими защищённый."
+      ],
+      "text_en": [
+        "Image of Venus armed, of Venus victorious, and of Venus in chains, denoting the firmness that must be in married couples, and lovers; this image also denotes the valor of the Lacedaemonian Women against the Messenians, who went to sack their City, valorously defended by them."
+      ],
+      "text_fr": [
+        "Image de Vénus armée, de Vénus victorieuse, et de Vénus enchaînée, dénotant la fermeté qui doit être chez les époux, et les amants ; cette image dénote aussi la valeur des Femmes Lacédémoniennes contre les Messéniens, qui allaient saccager leur Cité, vaillamment défendue par elles."
+      ],
+      "name_fr": "Vénus armée, victrice et enchaînée",
+      "group": "Венера",
+      "group_en": "Venus"
+    },
+    {
       "id": "cartm_fortunalieta",
       "num": "144.6",
       "page": "376-377",
