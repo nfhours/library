@@ -6580,6 +6580,34 @@
       "group_en": "Mars"
     },
     {
+      "id": "cartm_vittoria",
+      "num": "139",
+      "page": "333",
+      "fr": "La Victoire",
+      "ru": "Победа",
+      "en": "Victory",
+      "img": [
+        "cartm_vittoria.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagine della Vittoria con le sue insegne, l'Aquila, la Palma, & il Lauro, essendo l'Aquila regina de gli vccelli, & di buono augurio, la Palma resiste ad ogni forza & ne dà parte del vitto, il Lauro sempre verdeggia, nè è tocco dal folgore, così il vittorioso supera la difficoltà con la Virtù, & resta immortale.",
+      "text_it": [
+        "Imagine della Vittoria con le sue insegne, l'Aquila, la Palma, & il Lauro, essendo l'Aquila regina de gli vccelli, & di buono augurio, la Palma resiste ad ogni forza & ne dà parte del vitto, il Lauro sempre verdeggia, nè è tocco dal folgore, così il vittorioso supera la difficoltà con la Virtù, & resta immortale."
+      ],
+      "text_ru": [
+        "Изображение Победы с её знаками — Орлом, Пальмой и Лавром, ибо Орёл есть царица птиц и доброе предзнаменование, Пальма противостоит всякой силе и даёт долю от своей снеди, Лавр же вечно зеленеет и не поражается молнией, — так и победитель преодолевает трудность Добродетелью и остаётся бессмертным."
+      ],
+      "text_en": [
+        "Image of Victory with her emblems, the Eagle, the Palm, and the Laurel, the Eagle being queen of the birds and of good omen, the Palm resisting every force and giving a share of its fruit, the Laurel ever green, and untouched by the thunderbolt, so the victorious man overcomes difficulty by Virtue, and remains immortal."
+      ],
+      "text_fr": [
+        "Image de la Victoire avec ses emblèmes, l'Aigle, la Palme, et le Laurier, l'Aigle étant reine des oiseaux, et de bon augure, la Palme résistant à toute force et donnant part de sa nourriture, le Laurier toujours verdoyant, et non touché par la foudre, ainsi le victorieux surmonte la difficulté par la Vertu, et demeure immortel."
+      ],
+      "name_fr": "La Victoire",
+      "group": "Марс",
+      "group_en": "Mars"
+    },
+    {
       "id": "cartm_martescithi",
       "num": "138",
       "page": "328-329",
