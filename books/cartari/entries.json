@@ -11696,30 +11696,32 @@
     {
       "id": "carta44",
       "num": "253",
-      "page": "579",
+      "page": "541",
       "fr": "La mano simbolica con la lira (quarta Mano Pantea)",
       "ru": "Символическая рука с лирой (четвёртая Пантеистическая рука)",
       "en": "The symbolic hand with a lyre (fourth Pantheistic Hand)",
-      "group": "Пиньория: примечания",
-      "group_en": "Pignoria's Annotations",
+      "group": "Добавление («Aggionta»)",
+      "group_en": "Addendum (“Aggionta”)",
       "img": [
         "carta44.jpg"
       ],
-      "caption": "(nessun testo proprio accompagna questa tavola nel libro; è un'ulteriore variante della serie delle \"Mani Pantee\" votive trattate da Pignoria nelle carte precedenti — vedi carta25, carta26, carta27)",
+      "caption": "Chi ha qualche conformità con vna mano posta sopra vn'Hasta del Dio Tillino, dichiarata & esposta dal Sig. Ottauio Rossi nelle sue memorie Bresciane a facciate 128. 129.",
       "text_ru": [
-        "(собственного текста к этой гравюре в книге нет; это ещё один вариант из серии вотивных «Пантеистических рук», рассматриваемых Пиньорией на предыдущих карточках — см. carta25, carta26, carta27)"
+        "Та, что имеет некое сходство с рукою, помещённой на Копье Бога Тиллина, разъяснённая и представленная синьором Оттавио Росси в его «Брешианских записках», на страницах 128, 129."
       ],
       "text_en": [
-        "(no text of its own accompanies this plate in the book; it is a further variant in the series of votive \"Pantheistic Hands\" discussed by Pignoria on the preceding plates — see carta25, carta26, carta27)"
+        "The one that bears some likeness to a hand set upon a Spear of the God Tillinus, explained and set forth by Signor Ottavio Rossi in his Brescian Memoirs, pages 128, 129."
       ],
       "name_fr": "La main symbolique avec la lyre (quatrième Main Panthée)",
       "text_fr": [
-        "(aucun texte propre n'accompagne cette planche dans le livre ; il s'agit d'une nouvelle variante de la série des « Mains Panthées » votives traitées par Pignoria dans les planches précédentes — voir carta25, carta26, carta27)"
+        "Celle qui a quelque ressemblance avec une main posée sur une Lance du Dieu Tillinus, expliquée et exposée par Monsieur Ottavio Rossi dans ses Mémoires Brescianes, pages 128, 129."
       ],
       "scans": [
         "carta44.jpg"
       ],
-      "textOnly": true
+      "text_it": [
+        "Chi ha qualche conformità con vna mano posta sopra vn'Hasta del Dio Tillino, dichiarata & esposta dal Sig. Ottauio Rossi nelle sue memorie Bresciane a facciate 128. 129."
+      ]
     },
     {
       "id": "carta26",
