@@ -9660,33 +9660,6 @@
       "textOnly": true
     },
     {
-      "id": "carta1",
-      "num": "207",
-      "page": "504",
-      "fr": "Il Fato sotto tre Imagini di Donna",
-      "ru": "Судьба под образом трёх Женщин (Парки)",
-      "en": "Fate under the image of three Women (the Fates)",
-      "group": "Пиньория: примечания",
-      "group_en": "Pignoria's Annotations",
-      "img": [
-        "carta9_p534.jpg"
-      ],
-      "caption": "(questa tavola dei tre Fati, con la medaglia d'oro di Diocleziano FATIS VICTRICIBVS, è la stessa riportata nella carta9, dove si trova il testo completo di Pignoria)",
-      "text_ru": [
-        "(эта гравюра трёх Судеб-Парок с золотой медалью Диоклетиана «FATIS VICTRICIBVS» совпадает с той, что приведена в carta9, где помещён полный текст Пиньории)"
-      ],
-      "text_en": [
-        "(this plate of the three Fates, with Diocletian's gold medal \"FATIS VICTRICIBVS\", is the same one given in carta9, where Pignoria's full text is found)"
-      ],
-      "name_fr": "Le Destin sous trois images de Femme",
-      "text_fr": [
-        "(cette planche des trois Destins, avec la médaille d'or de Dioclétien « FATIS VICTRICIBVS », est la même que celle donnée dans carta9, où se trouve le texte complet de Pignoria)"
-      ],
-      "scans": [
-        "carta9_p534.jpg"
-      ]
-    },
-    {
       "id": "carta2",
       "num": "208",
       "page": "466",
@@ -10468,7 +10441,7 @@
     {
       "id": "cartm_pignoriasfinge",
       "num": "carta30.6",
-      "page": "494",
+      "page": "494-495",
       "fr": "Les Nymphées, Dion le Philosophe, le Sphinx et la Chimère",
       "ru": "Нимфеи, Дион-философ, Сфинкс и Химера",
       "en": "The Nymphaea, Dio the Philosopher, the Sphinx and the Chimera",
@@ -10481,22 +10454,22 @@
       "name_fr": "Les Nymphées, Dion le Philosophe, le Sphinx et la Chimère",
       "caption": "Et simile scoltura io vidi già in Roma in casa de' Vittorij, doue staua il nome d'vn'Epitteto seruo Aquario d'vn'Imperatore. Et di qua vengono i Ninfei, luoghi deputati ad'acque, che si leggono appresso Publio Vittore, & in qualche altro luogo. Tutto che Zonara gli deputi ad altro vso. Et nel disegno sopra posto pare a me, che lo Scoltore si sia marauigliosamente seruito della regola di Vitruuio, nel Lib. 1. a cap. 2. cioè, che a Venere, a Flora, a Proserpina, alle Ninfe si fabrichi d'ordine Corinthio, per la sueltezza, & gracilità per così dire, che ne' loro corpi si vede.\n\nDione non è l'historico, ma'l Filosofo, nella Oratione quinta, ch'esso intitola, fauola Libica.\n\nLa Sfinge. & la Chimera sono cauate dalle memorie antiche, & li due Camei sono pure di tagli antichi. In vno Edipo inanzi la Sfinge, che stà su la rupe Fycea, come la chiama Apollodoro. nell'altro Bellerofonte, che combatte con la Chimera, & quest'vltima si vede frequen-\n\nte-",
       "text_it": [
-        "Et simile scoltura io vidi già in Roma in casa de' Vittorij, doue staua il nome d'vn'Epitteto seruo Aquario d'vn'Imperatore. Et di qua vengono i Ninfei, luoghi deputati ad'acque, che si leggono appresso Publio Vittore, & in qualche altro luogo. Tutto che Zonara gli deputi ad altro vso. Et nel disegno sopra posto pare a me, che lo Scoltore si sia marauigliosamente seruito della regola di Vitruuio, nel Lib. 1. a cap. 2. cioè, che a Venere, a Flora, a Proserpina, alle Ninfe si fabrichi d'ordine Corinthio, per la sueltezza, & gracilità per così dire, che ne' loro corpi si vede.\n\nDione non è l'historico, ma'l Filosofo, nella Oratione quinta, ch'esso intitola, fauola Libica.\n\nLa Sfinge. & la Chimera sono cauate dalle memorie antiche, & li due Camei sono pure di tagli antichi. In vno Edipo inanzi la Sfinge, che stà su la rupe Fycea, come la chiama Apollodoro. nell'altro Bellerofonte, che combatte con la Chimera, & quest'vltima si vede frequen-\n\nte-"
+        "Et simile scoltura io vidi già in Roma in casa de' Vittorij, doue staua il nome d'vn'Epitteto seruo Aquario d'vn'Imperatore. Et di qua vengono i Ninfei, luoghi deputati ad'acque, che si leggono appresso Publio Vittore, & in qualche altro luogo. Tutto che Zonara gli deputi ad altro vso. Et nel disegno sopra posto pare a me, che lo Scoltore si sia marauigliosamente seruito della regola di Vitruuio, nel Lib. 1. a cap. 2. cioè, che a Venere, a Flora, a Proserpina, alle Ninfe si fabrichi d'ordine Corinthio, per la sueltezza, & gracilità per così dire, che ne' loro corpi si vede.\n\nDione non è l'historico, ma'l Filosofo, nella Oratione quinta, ch'esso intitola, fauola Libica.\n\nLa Sfinge. & la Chimera sono cauate dalle memorie antiche, & li due Camei sono pure di tagli antichi. In vno Edipo inanzi la Sfinge, che stà su la rupe Fycea, come la chiama Apollodoro. nell'altro Bellerofonte, che combatte con la Chimera, & quest'vltima si vede frequen-\n\nte- quentissima nelle monete di Corinto. Delle Lamie vedasi il Del-rio nelle disquisitione Magiche.\n\nPlinio non dice che la Sfinge fosse nume saluatico. le parole di lui sono queste; ante has est Sphynx Vel magis miranda: qua siluestria sunt accolentium; le quali il Landino traduce così, inanzi a queste è Sfinge tanto piu marauigliosa, perche è in luoghi seluaggi. Et bene."
       ],
       "text_ru": [
-        "Подобную же резьбу видел я прежде в Риме, в доме Витториев, где стояло имя некоего Эпиктета, слуги-водоноса одного Императора. И отсюда происходят Нимфеи, места, предназначенные для вод, о коих читается у Публия Виктора и в некоторых иных местах. Хотя Зонара отводит им иное назначение. И в вышепомещённом рисунке мне кажется, что Ваятель дивно воспользовался правилом Витрувия, в 1-й книге, гл. 2, а именно, что Венере, Флоре, Прозерпине, Нимфам надлежит строить [храмы] Коринфского ордера, по стройности и, так сказать, тонкости, какая видна в их телах.\n\nДион здесь не историк, а Философ, в пятой своей Речи, которую он сам озаглавил «Ливийская басня».\n\nСфинкс и Химера взяты с древних памятников, и обе Камеи также сделаны с древних резных камней. На одной — Эдип перед Сфинксом, восседающей на скале Фикейской, как называет её Аполлодор. На другой — Беллерофонт, сражающийся с Химерой, а эта последняя часто\n\nвстреча-"
+        "Подобную же резьбу видел я прежде в Риме, в доме Витториев, где стояло имя некоего Эпиктета, слуги-водоноса одного Императора. И отсюда происходят Нимфеи, места, предназначенные для вод, о коих читается у Публия Виктора и в некоторых иных местах. Хотя Зонара отводит им иное назначение. И в вышепомещённом рисунке мне кажется, что Ваятель дивно воспользовался правилом Витрувия, в 1-й книге, гл. 2, а именно, что Венере, Флоре, Прозерпине, Нимфам надлежит строить [храмы] Коринфского ордера, по стройности и, так сказать, тонкости, какая видна в их телах.\n\nДион здесь не историк, а Философ, в пятой своей Речи, которую он сам озаглавил «Ливийская басня».\n\nСфинкс и Химера взяты с древних памятников, и обе Камеи также сделаны с древних резных камней. На одной — Эдип перед Сфинксом, восседающей на скале Фикейской, как называет её Аполлодор. На другой — Беллерофонт, сражающийся с Химерой, а эта последняя часто\n\nвстреча- встречается на монетах Коринфа. О Ламиях смотри Дельрио, в его «Магических изысканиях».\n\nПлиний не говорит, что Сфинкс был диким божеством. Слова его таковы: «ante has est Sphynx Vel magis miranda: qua siluestria sunt accolentium» — что Ландино переводит так: «перед этими есть Сфинкс, ещё более достойный удивления, ибо он обитает в диких местах». И справедливо."
       ],
       "text_en": [
-        "And I once saw a similar carving in Rome in the house of the Vittorii, where stood the name of a certain Epictetus, water-bearing slave of an Emperor. And from this come the Nymphaea, places assigned to waters, which are read of in Publius Victor, and in some other places — though Zonaras assigns them another use. And in the design placed above it seems to me that the Sculptor marvelously made use of Vitruvius's rule, in Book 1, chapter 2, namely that for Venus, Flora, Proserpina, and the Nymphs one should build in the Corinthian order, for the slenderness and, so to speak, the delicacy that is seen in their bodies.\n\nDio here is not the historian, but the Philosopher, in his fifth Oration, which he himself entitles the Libyan Fable.\n\nThe Sphinx and the Chimera are taken from ancient relics, and the two Cameos are likewise made from ancient engravings. In one, Oedipus before the Sphinx, who sits upon the Phicean rock, as Apollodorus calls it. In the other, Bellerophon, fighting with the Chimera, and this latter is frequently\n\nseen"
+        "And I once saw a similar carving in Rome in the house of the Vittorii, where stood the name of a certain Epictetus, water-bearing slave of an Emperor. And from this come the Nymphaea, places assigned to waters, which are read of in Publius Victor, and in some other places — though Zonaras assigns them another use. And in the design placed above it seems to me that the Sculptor marvelously made use of Vitruvius's rule, in Book 1, chapter 2, namely that for Venus, Flora, Proserpina, and the Nymphs one should build in the Corinthian order, for the slenderness and, so to speak, the delicacy that is seen in their bodies.\n\nDio here is not the historian, but the Philosopher, in his fifth Oration, which he himself entitles the Libyan Fable.\n\nThe Sphinx and the Chimera are taken from ancient relics, and the two Cameos are likewise made from ancient engravings. In one, Oedipus before the Sphinx, who sits upon the Phicean rock, as Apollodorus calls it. In the other, Bellerophon, fighting with the Chimera, and this latter is frequently\n\nseen on the coins of Corinth. Of the Lamiae, see Delrio in his Magical Disquisitions.\n\nPliny does not say that the Sphinx was a wild deity. His words are these: \"ante has est Sphynx Vel magis miranda: qua siluestria sunt accolentium\" — which Landino translates thus: before these is the Sphinx, still more marvelous, because it dwells in wild places. And rightly so."
       ],
       "text_fr": [
-        "Et j'ai vu jadis une sculpture semblable à Rome, dans la maison des Vittorii, où se trouvait le nom d'un certain Épictète, esclave porteur d'eau d'un Empereur. Et de là viennent les Nymphées, lieux affectés aux eaux, dont on lit chez Publius Victor, et en quelque autre endroit — bien que Zonaras leur assigne un autre usage. Et dans le dessin placé ci-dessus, il me semble que le Sculpteur s'est merveilleusement servi de la règle de Vitruve, au livre 1, chapitre 2, à savoir que pour Vénus, Flore, Proserpine, les Nymphes, il faut bâtir d'ordre Corinthien, pour la sveltesse, et pour ainsi dire la gracilité, que l'on voit en leurs corps.\n\nDion ici n'est pas l'historien, mais le Philosophe, dans son cinquième Discours, qu'il intitule lui-même la Fable Libyque.\n\nLe Sphinx et la Chimère sont tirés de vestiges antiques, et les deux Camées sont également faits de gravures antiques. Sur l'un, Œdipe devant le Sphinx, assis sur le rocher Phicéen, comme l'appelle Apollodore. Sur l'autre, Bellérophon, combattant la Chimère, et cette dernière se voit fréquemment\n\nrepré-"
+        "Et j'ai vu jadis une sculpture semblable à Rome, dans la maison des Vittorii, où se trouvait le nom d'un certain Épictète, esclave porteur d'eau d'un Empereur. Et de là viennent les Nymphées, lieux affectés aux eaux, dont on lit chez Publius Victor, et en quelque autre endroit — bien que Zonaras leur assigne un autre usage. Et dans le dessin placé ci-dessus, il me semble que le Sculpteur s'est merveilleusement servi de la règle de Vitruve, au livre 1, chapitre 2, à savoir que pour Vénus, Flore, Proserpine, les Nymphes, il faut bâtir d'ordre Corinthien, pour la sveltesse, et pour ainsi dire la gracilité, que l'on voit en leurs corps.\n\nDion ici n'est pas l'historien, mais le Philosophe, dans son cinquième Discours, qu'il intitule lui-même la Fable Libyque.\n\nLe Sphinx et la Chimère sont tirés de vestiges antiques, et les deux Camées sont également faits de gravures antiques. Sur l'un, Œdipe devant le Sphinx, assis sur le rocher Phicéen, comme l'appelle Apollodore. Sur l'autre, Bellérophon, combattant la Chimère, et cette dernière se voit fréquemment\n\nrepré- sur les monnaies de Corinthe. Sur les Lamies, voyez Delrio dans ses Disquisitions Magiques.\n\nPline ne dit pas que le Sphinx fût une divinité sauvage. Ses mots sont ceux-ci : « ante has est Sphynx Vel magis miranda : qua siluestria sunt accolentium » — que Landino traduit ainsi : avant celles-ci est le Sphinx, plus admirable encore, car il habite des lieux sauvages. Et à juste titre."
       ]
     },
     {
       "id": "carta9",
       "num": "223",
-      "page": "533",
+      "page": "495",
       "fr": "Le tre Parche",
       "ru": "Три Парки",
       "en": "The three Fates",
@@ -10505,23 +10478,31 @@
       "img": [
         "carta9_p534.jpg"
       ],
-      "caption": "Et si fono tratte da vna Medaglia d'oro antica, & dell'Imperatore Diocletiano veduta da me altre volte in Roma, con questa inscrittione, FATIS VICTRICIBVS.",
+      "caption": "Haueuano gl'antichi in veneratione il Fato sotto tre Imagini di Donna rappresentate come qui sotto.",
       "text_ru": [
+        "Чтили древние Судьбу (Fato) в образе трёх Женских Изображений, представленных как здесь ниже.",
         "«Взяты они с древней золотой медали императора Диоклетиана, которую я не раз видел в Риме, с надписью FATIS VICTRICIBVS».",
-        "«Правда и то, что, по разумению Прокопия, это суть Парки. Ибо он пишет в 1-й [книге] «О войне с Готами», что храм Януса находился на Форуме, перед Курией, невдалеке от трёх Фатов (Fati), которых римляне таким образом называют Парками. Того же мнения держится и Апулей в своей книге «О мире» («De Mundo»). И отсюда берут своё происхождение Феи (Fate) простонародья и наших сочинителей рыцарских романов. Смотри отца Дельрио»."
+        "«Правда и то, что, по разумению Прокопия, это суть Парки. Ибо он пишет в 1-й [книге] «О войне с Готами», что храм Януса находился на Форуме, перед Курией, невдалеке от трёх Фатов (Fati), которых римляне таким образом называют Парками. Того же мнения держится и Апулей в своей книге «О мире» («De Mundo»). И отсюда берут своё происхождение Феи (Fate) простонародья и наших сочинителей рыцарских романов. Смотри отца Дельрио». Камеи взяты с Корнеол и иных древних Самоцветов. На одной виден Меркурий, извлекающий из Преисподней некую душу, с жезлом, как о том поют Поэты. На другой — Меркурий и Филология, или нечто подобное.\n\nИзображения Мира, что видны в Овалах, взяты с Ме-\n\nдалей."
       ],
       "text_en": [
+        "The ancients held Fate in veneration under three Images of a Woman, represented as below.",
         "\"They are taken from an ancient gold medal of the Emperor Diocletian, which I have seen more than once in Rome, with the inscription FATIS VICTRICIBUS.\"",
-        "\"It is indeed true that, according to the understanding of Procopius, these would be the Parcae. For he writes in Book 1 of the Gothic War that the temple of Janus was in the Forum, before the Curia, not far from the three Fati, as the Romans in this manner call the Parcae. And of this same opinion is Apuleius too, in his book De Mundo. And from this the Fays (Fate) of the common folk, and of our Romance-writers, draw their origin. See Father Delrio.\""
+        "\"It is indeed true that, according to the understanding of Procopius, these would be the Parcae. For he writes in Book 1 of the Gothic War that the temple of Janus was in the Forum, before the Curia, not far from the three Fati, as the Romans in this manner call the Parcae. And of this same opinion is Apuleius too, in his book De Mundo. And from this the Fays (Fate) of the common folk, and of our Romance-writers, draw their origin. See Father Delrio.\" The Cameos are taken from Cornelians, and other ancient Gems. In one is seen Mercury, drawing a soul out of the Underworld, with his wand, as the Poets sing. In another, Mercury and Philology, or something similar.\n\nThe images of Peace, seen in the Ovals, are taken from Me-\n\ndals."
       ],
       "name_fr": "Les trois Parques",
       "text_fr": [
+        "Les anciens tenaient le Destin en vénération sous trois Images de Femme, représentées comme ci-dessous.",
         "« Elles sont tirées d'une médaille d'or antique de l'empereur Dioclétien, que j'ai vue plus d'une fois à Rome, avec cette inscription, FATIS VICTRICIBVS. »",
-        "« Il est bien vrai que, selon l'interprétation de Procope, ce seraient là les Parques. Car il écrit, au livre 1 de la Guerre des Goths, que le temple de Janus se trouvait sur le Forum, devant la Curie, non loin des trois Fati, ainsi que les Romains appellent les Parques. Et de cet avis est aussi Apulée, dans son livre De Mundo. Et c'est de là que tirent leur origine les Fées du peuple, et de nos Romanciers. Voir le Père Delrio. »"
+        "« Il est bien vrai que, selon l'interprétation de Procope, ce seraient là les Parques. Car il écrit, au livre 1 de la Guerre des Goths, que le temple de Janus se trouvait sur le Forum, devant la Curie, non loin des trois Fati, ainsi que les Romains appellent les Parques. Et de cet avis est aussi Apulée, dans son livre De Mundo. Et c'est de là que tirent leur origine les Fées du peuple, et de nos Romanciers. Voir le Père Delrio. » Les Camées sont tirés de Cornalines, et d'autres Gemmes antiques. Sur l'un on voit Mercure, tirant une âme des Enfers, avec son caducée, comme le chantent les Poètes. Sur l'autre, Mercure et la Philologie, ou chose semblable.\n\nLes images de la Paix, que l'on voit dans les Ovales, sont tirées de Mé-\n\ndailles."
       ],
       "scans": [
         "carta9.jpg",
         "carta9_p534.jpg"
+      ],
+      "text_it": [
+        "Haueuano gl'antichi in veneratione il Fato sotto tre Imagini di Donna rappresentate come qui sotto.",
+        "Et si sono tratte da vna Medaglia d'oro antica, & dell'Imperatore Diocletiano veduta da me altre volte in Roma, con questa inscrittione, FATIS VICTRICIBVS.",
+        "È ben vero, che secondo l'intelligenza di Procopio queste saranno le Parche. Perche scriue nel 1. de' Gothi, che'l tempio di Giano era nel Foro, inanzi la Curia poco lontano da i tre Fati, che in tal maniera i Romani chiamano le Parche. Et di questo parere è Appuleio ancora nel suo Libro de Mundo. Et di qua traggono origine le Fate del volgo, & de' nostri Romanzatori. vedasi il Padre Del-rio. I Camei si sono cauati da Corniole, & altre Gioie antiche. in vno si vede Mercurio, che caua dall'Inferno vn'anima, con la verga, come cantano i Poeti. in vn'altro Mercurio e Filologia, ò simile.\n\nLe imagini della Pace, che si vedono ne gl'Ouati sono tolte da Me-\n\ndaglie."
       ]
     },
     {
