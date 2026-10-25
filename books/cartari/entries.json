@@ -9746,36 +9746,6 @@
       ]
     },
     {
-      "id": "cartf2",
-      "num": "210",
-      "page": "508",
-      "fr": "Febo (il Sole) sul carro",
-      "ru": "Феб (Солнце) на колеснице",
-      "en": "Phoebus (the Sun) in his chariot",
-      "group": "Пиньория: примечания",
-      "group_en": "Pignoria's Annotations",
-      "img": [
-        "cartf2.jpg"
-      ],
-      "caption": "(figura del Sole su carro tirato da galli, con una stella — discussa nel commento alle immagini di Giunone e Diana)",
-      "text_ru": [
-        "(образ Солнца на колеснице, запряжённой петухами, со звездой — обсуждается в примечаниях к образам Юноны и Дианы)",
-        "«...в котором, однако, я не вижу соблюдённым правило Лактанция Плацида, [высказанное] к шестой [книге] «Фиваиды» Стация, а именно, что его колесница должна быть запряжена одним-единственным Конём, — ибо он говорит, что Поэты дают Солнцу четырёх Коней, Луне — двух, Звёздам — одного. Правда и то, что резчик геммы, возможно, не был Поэтом»."
-      ],
-      "text_en": [
-        "(the image of the Sun on a chariot drawn by cockerels, with a star — discussed in the commentary on the images of Juno and Diana)",
-        "\"...in which, however, I do not see observed the rule of Lactantius Placidus, on the sixth book of Statius's Thebaid, namely that his chariot should be drawn by a single Horse, since he says that the Poets give the Sun four Horses, the Moon two, the Stars one only. It is indeed true that the engraver of the gem may not have been a Poet.\""
-      ],
-      "name_fr": "Phébus (le Soleil) sur son char",
-      "text_fr": [
-        "(l'image du Soleil sur un char tiré par des coqs, avec une étoile — évoquée dans le commentaire sur les images de Junon et de Diane)",
-        "« ...où cependant je ne vois pas observée la règle de Lactance Placide, sur le sixième livre de la Thébaïde de Stace, à savoir que son char soit tiré par un seul Cheval, car il dit que les Poètes donnent au Soleil quatre Chevaux, à la Lune deux, aux Étoiles un seul. Il est bien vrai que le graveur de la gemme pouvait n'être pas Poète. »"
-      ],
-      "scans": [
-        "cartf2.jpg"
-      ]
-    },
-    {
       "id": "cartf3",
       "num": "211",
       "page": "469-470",
@@ -10015,33 +9985,6 @@
       ],
       "text_fr": [
         "Sur Jupiter adoré à Tarracine, voyez Stephanus Pighius, dans son Hercule de Prodicus, page 433, ainsi que Vincenzo Mirabella sur la troisième médaille de Syracuse.\n\nL'Auteur note que la Foudre ne fut jamais donnée à Minerve, ni en statue, ni en Peinture. Ce qui pourtant est peu vrai. Et nous voyons sur les Médailles de l'Empereur Domitien la Foudre dans la main de Minerve sur plus d'une d'entre elles, comme par exemple dans les Douze Césars d'Enea Vico, dans l'édition de bronze, Planche 2, n° 22, dans celle d'argent, Planche 2, n° 24. Et Antonio Agostini en traite dans le Dialogue 5."
-      ]
-    },
-    {
-      "id": "carta5",
-      "num": "215",
-      "page": "516",
-      "fr": "Pallade",
-      "ru": "Паллада",
-      "en": "Pallas",
-      "group": "Пиньория: примечания",
-      "group_en": "Pignoria's Annotations",
-      "img": [
-        "carta5.jpg"
-      ],
-      "caption": "Et hebbe Domitiano riguardo per auentura a i versi di Virgilio: Pallas ne exurere classem Arginum, atq; ipsos potuit submergere ponto Vnius ob noxam, & furias Aiacis Oilei? Ipsa Iouis rapidum iaculata e nubibus Ignem Disiecitq; rates, euertitq; aequora ventis. Et di questa violenza d'Aiace Oileo mette Antonio Agostini vn disegno cauato da vn marmo antico assai bello.",
-      "text_ru": [
-        "«И, быть может, Домициан имел в виду стихи Вергилия: „Может ли Паллада сжечь флот Аргивян и самих их потопить в пучине за вину и неистовство одного лишь Аякса Оилеева? Сама она, метнув из туч быстрый огонь Юпитера, разметала суда и взволновала пучины ветрами“. А об этом неистовстве Аякса Оилеева Антонио Агостини приводит рисунок, снятый с прекрасного античного мрамора»."
-      ],
-      "text_en": [
-        "\"And Domitian perhaps had regard for the verses of Virgil: 'Could Pallas burn the fleet of the Argives, and sink the men themselves in the deep, for the offence and madness of one man, Ajax son of Oileus? She herself, hurling Jove's swift fire from the clouds, scattered their ships and overturned the seas with winds.' And of this violence of Ajax, son of Oileus, Antonio Agostini gives a drawing taken from a very fine antique marble.\""
-      ],
-      "name_fr": "Pallas",
-      "text_fr": [
-        "« Et Domitien eut peut-être égard aux vers de Virgile : « Pallas a-t-elle pu brûler la flotte des Argiens, et les engloutir eux-mêmes dans la mer, pour la faute et la fureur d'un seul, Ajax fils d'Oilée ? Elle-même, lançant des nuées le feu rapide de Jupiter, dispersa les navires et souleva les flots par les vents. » Et de cette violence d'Ajax, fils d'Oilée, Antonio Agostini donne un dessin tiré d'un très beau marbre antique. »"
-      ],
-      "scans": [
-        "carta5.jpg"
       ]
     },
     {
