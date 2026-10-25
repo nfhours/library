@@ -10017,6 +10017,34 @@
       ]
     },
     {
+      "id": "cartm_pignoriatarracina",
+      "num": "carta4.5",
+      "page": "476",
+      "fr": "Jupiter à Tarracina ; la Foudre dans la main de Minerve",
+      "ru": "Юпитер в Таррацине; Молния в руке Минервы",
+      "en": "Jove at Tarracina; the Thunderbolt in Minerva's hand",
+      "img": [
+        "cartm_pignoriatarracina.jpg"
+      ],
+      "group": "Пиньория: примечания",
+      "group_en": "Pignoria's Annotations",
+      "textOnly": true,
+      "name_fr": "Jupiter à Tarracina ; la Foudre dans la main de Minerve",
+      "caption": "Di Gioue adorato a Tarracina vedasi Stefano Pighio, nell'Hercole di Prodico, a car. 433. & insieme Vincenzo Mirabella sopra la terza medaglia di Siracusa.\n\nNota l'Autore, che'l Fulmine non fosse mai datto a Minerua, nè in statoa, nè in Pittura. Il che però è poco vero. Et vediamo nelle Medaglie di Domitiano Imperatore il Fulmine in mano a Minerua in più d'vna di esse, come sarebbe a dire nei 12. Cesari d'Enea Vico di Rame nella Tauola 2. al n. 22. d'Argento nella Tauola 2. al num. 24. Et lo tocca Antonio Agostini nel Dial. 5.",
+      "text_it": [
+        "Di Gioue adorato a Tarracina vedasi Stefano Pighio, nell'Hercole di Prodico, a car. 433. & insieme Vincenzo Mirabella sopra la terza medaglia di Siracusa.\n\nNota l'Autore, che'l Fulmine non fosse mai datto a Minerua, nè in statoa, nè in Pittura. Il che però è poco vero. Et vediamo nelle Medaglie di Domitiano Imperatore il Fulmine in mano a Minerua in più d'vna di esse, come sarebbe a dire nei 12. Cesari d'Enea Vico di Rame nella Tauola 2. al n. 22. d'Argento nella Tauola 2. al num. 24. Et lo tocca Antonio Agostini nel Dial. 5."
+      ],
+      "text_ru": [
+        "О Юпитере, почитаемом в Таррацине, смотри Стефана Пигио, в его «Геркулесе Продика», стр. 433, а также Винченцо Мирабеллу, о третьей сиракузской медали.\n\nОтмечает Автор, что Молния никогда не придавалась Минерве — ни в статуе, ни в Живописи. Что, однако, малоправдиво. И мы видим на Медалях императора Домициана Молнию в руке Минервы более чем на одной из них, как например, в «Двенадцати Цезарях» Энеа Вико, в медном издании, Таблица 2, №22, в серебряном — Таблица 2, №24. Касается этого и Антонио Агостини, в Диалоге 5."
+      ],
+      "text_en": [
+        "On Jove worshipped at Tarracina, see Stephanus Pighius, in his Hercules Prodicius, page 433, together with Vincenzo Mirabella on the third medal of Syracuse.\n\nThe Author notes that the Thunderbolt was never given to Minerva, neither in statue nor in Painting. This, however, is scarcely true. For we see on the Medals of the Emperor Domitian the Thunderbolt in Minerva's hand on more than one of them, as for instance in the Twelve Caesars of Enea Vico, in the bronze edition, Plate 2, no. 22, in the silver one, Plate 2, no. 24. And Antonio Agostini touches on this in Dialogue 5."
+      ],
+      "text_fr": [
+        "Sur Jupiter adoré à Tarracine, voyez Stephanus Pighius, dans son Hercule de Prodicus, page 433, ainsi que Vincenzo Mirabella sur la troisième médaille de Syracuse.\n\nL'Auteur note que la Foudre ne fut jamais donnée à Minerve, ni en statue, ni en Peinture. Ce qui pourtant est peu vrai. Et nous voyons sur les Médailles de l'Empereur Domitien la Foudre dans la main de Minerve sur plus d'une d'entre elles, comme par exemple dans les Douze Césars d'Enea Vico, dans l'édition de bronze, Planche 2, n° 22, dans celle d'argent, Planche 2, n° 24. Et Antonio Agostini en traite dans le Dialogue 5."
+      ]
+    },
+    {
       "id": "carta5",
       "num": "215",
       "page": "516",
