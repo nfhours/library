@@ -5678,7 +5678,7 @@
     {
       "id": "cart8",
       "num": "112",
-      "page": "273",
+      "page": "234",
       "fr": "Plutone",
       "ru": "Плутон",
       "en": "Pluto",
@@ -5695,15 +5695,6 @@
       "name_fr": "Pluton",
       "text_fr": [
         "Images de Pluton, dieu des Enfers, de Proserpine son épouse, d'Eurynome dévorant la chair des morts, et de Cerbère, chien à trois gueules, gardien des Enfers. Pluton est pris pour le Soleil au temps de l'Hiver, quand la vertu de la terre demeure resserrée en elle-même ; et Proserpine est comprise comme la terre."
-      ],
-      "scans": [
-        "cart8.jpg",
-        "cart8_p274.jpg",
-        "cart8_p275.jpg",
-        "cart8_p276.jpg",
-        "cart8_p277.jpg",
-        "cart8_p278.jpg",
-        "cart8_p279.jpg"
       ],
       "group": "Плутон",
       "group_en": "Pluto"
