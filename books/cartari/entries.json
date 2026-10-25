@@ -7482,6 +7482,34 @@
       ]
     },
     {
+      "id": "cartm_horeruota",
+      "num": "162.8",
+      "page": "453",
+      "fr": "Les Heures (ou Grâces) et Apollon faisant tourner la roue de l'année",
+      "ru": "Оры (или Грации) и Аполлон, вращающие колесо года",
+      "en": "The Hours (or Graces) and Apollo turning the wheel of the year",
+      "img": [
+        "cartm_horeruota.jpg"
+      ],
+      "group": "Грации",
+      "group_en": "Graces",
+      "textOnly": true,
+      "name_fr": "Les Heures (ou Grâces) et Apollon faisant tourner la roue de l'année",
+      "caption": "Imagine delle Hore dette anco da alcuni Gratie, & di Apolline, intese quelle per le quattro stagioni dell'anno, questo per il Sole che varia le stagioni, tenute ancora per Dee dell'amicitia, bellezza, venustà, & amabilità, Dee dell'allegrezza, gioco, & piacere, dinotano ancora la misericordia di Dio verso li colpeuoli.",
+      "text_it": [
+        "Imagine delle Hore dette anco da alcuni Gratie, & di Apolline, intese quelle per le quattro stagioni dell'anno, questo per il Sole che varia le stagioni, tenute ancora per Dee dell'amicitia, bellezza, venustà, & amabilità, Dee dell'allegrezza, gioco, & piacere, dinotano ancora la misericordia di Dio verso li colpeuoli."
+      ],
+      "text_ru": [
+        "Изображение Ор, называемых некоторыми также Грациями, и Аполлона; те понимаются как четыре времени года, сей же — как Солнце, что изменяет времена года; почитаются они также богинями дружбы, красоты, прелести и благосклонности, богинями веселья, игры и наслаждения, означая также милосердие Божие к грешным."
+      ],
+      "text_en": [
+        "Image of the Hours, also called by some the Graces, and of Apollo; those are understood as the four seasons of the year, this one as the Sun, which varies the seasons; they are also held to be Goddesses of friendship, beauty, comeliness, and amiability, Goddesses of gladness, play, and pleasure, and likewise denote the mercy of God toward the guilty."
+      ],
+      "text_fr": [
+        "Image des Heures, appelées aussi par certains les Grâces, et d'Apollon ; celles-là sont entendues pour les quatre saisons de l'année, celui-ci pour le Soleil qui fait varier les saisons ; elles sont tenues aussi pour Déesses de l'amitié, de la beauté, de la grâce, et de l'amabilité, Déesses de l'allégresse, du jeu, et du plaisir, et dénotent encore la miséricorde de Dieu envers les coupables."
+      ]
+    },
+    {
       "id": "cartm_fortunalieta",
       "num": "144.6",
       "page": "376-377",
