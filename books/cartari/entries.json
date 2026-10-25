@@ -6553,6 +6553,34 @@
       "group_en": "Vulcan"
     },
     {
+      "id": "cartm_marte",
+      "num": "137",
+      "page": "324",
+      "fr": "Mars",
+      "ru": "Марс",
+      "en": "Mars",
+      "img": [
+        "cartm_marte.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagine di Marte Dio della guerra, del suo carro, & della Fama sua messaggiera & anticipatrice, che più dice di quello è in effetto. Et per Marte vien inteso quell'ardor del Sole, che accende il sangue & li spiriti per farli poi facili alle ire, guerre, & furori.",
+      "text_it": [
+        "Imagine di Marte Dio della guerra, del suo carro, & della Fama sua messaggiera & anticipatrice, che più dice di quello è in effetto. Et per Marte vien inteso quell'ardor del Sole, che accende il sangue & li spiriti per farli poi facili alle ire, guerre, & furori."
+      ],
+      "text_ru": [
+        "Изображение Марса, бога войны, его колесницы, и Славы, его вестницы и предвозвестницы, которая говорит более, чем есть на самом деле. А под Марсом разумеется тот жар Солнца, что воспламеняет кровь и духи, делая людей склонными к гневу, войнам и неистовству."
+      ],
+      "text_en": [
+        "Image of Mars, God of war, of his chariot, and of Fame, his messenger and forerunner, who says more than is in fact true. And by Mars is understood that ardor of the Sun which kindles the blood and the spirits, making men prone thereafter to wrath, wars, and furies."
+      ],
+      "text_fr": [
+        "Image de Mars, Dieu de la guerre, de son char, et de la Renommée, sa messagère et avant-courrière, qui dit plus qu'il n'en est en effet. Et par Mars est entendue cette ardeur du Soleil, qui enflamme le sang et les esprits pour les rendre ensuite enclins aux colères, aux guerres, et aux fureurs."
+      ],
+      "name_fr": "Mars",
+      "group": "Марс",
+      "group_en": "Mars"
+    },
+    {
       "id": "cartm83",
       "num": "136",
       "page": "297-299",
