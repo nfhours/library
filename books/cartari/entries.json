@@ -11431,6 +11431,34 @@
       ]
     },
     {
+      "id": "cartm_pignoriaerrata",
+      "num": "carta41.5",
+      "page": "528",
+      "fr": "Figure d'errata (femme assise à la longue lance) — à replacer entre les planches 52 et 53",
+      "ru": "Опечатка-вставка (сидящая женщина с длинным копьём) — должна стоять между таблицами 52 и 53",
+      "en": "Errata figure (seated woman with a long spear) — meant to stand between plates 52 and 53",
+      "img": [
+        "cartm_pignoriaerrata.jpg"
+      ],
+      "group": "Пиньория: примечания",
+      "group_en": "Pignoria's Annotations",
+      "textOnly": true,
+      "name_fr": "Figure d'errata (femme assise à la longue lance)",
+      "caption": "Questa figura si è dimenticata di ponerla al suo luoco, però và posta trà il numero 52. & 53.",
+      "text_it": [
+        "Questa figura si è dimenticata di ponerla al suo luoco, però và posta trà il numero 52. & 53."
+      ],
+      "text_ru": [
+        "Эту фигуру забыли поместить на её место, однако её следует вставить между таблицами 52 и 53."
+      ],
+      "text_en": [
+        "This figure was forgotten to be placed in its proper spot; it should however be inserted between plate 52 and plate 53."
+      ],
+      "text_fr": [
+        "Cette figure a été oubliée à sa place ; elle doit cependant être insérée entre la planche 52 et la planche 53."
+      ]
+    },
+    {
       "id": "carta21",
       "num": "246",
       "page": "567",
