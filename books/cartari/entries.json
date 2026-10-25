@@ -6607,6 +6607,34 @@
       "group_en": "Mars"
     },
     {
+      "id": "cartm_discordia",
+      "num": "138.5",
+      "page": "330",
+      "fr": "La Discorde",
+      "ru": "Раздор",
+      "en": "Discord",
+      "img": [
+        "cartm_discordia.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagine della Discordia secondo Aristide, la quale per li suoi mali effetti fù cacciata dal Cielo, nè fù inuitata con gli altri Dei alle nozze di Peleo e Tetide genitori d'Achille, acciò con suoi veneni non le turbasse; e pur le turbò co'l gettar del pomo d'oro significante, che alli machinatori non mancano occasioni di discordie.",
+      "text_it": [
+        "Imagine della Discordia secondo Aristide, la quale per li suoi mali effetti fù cacciata dal Cielo, nè fù inuitata con gli altri Dei alle nozze di Peleo e Tetide genitori d'Achille, acciò con suoi veneni non le turbasse; e pur le turbò co'l gettar del pomo d'oro significante, che alli machinatori non mancano occasioni di discordie."
+      ],
+      "text_ru": [
+        "Изображение Раздора по Аристиду, который за злые свои действия был изгнан с Небес, и не был зван вместе с прочими богами на свадьбу Пелея и Фетиды, родителей Ахилла, дабы не возмутил он её своими ядами; и всё же возмутил её, бросив золотое яблоко, что означает, что у злоумышленников никогда не бывает недостатка в поводах для раздоров."
+      ],
+      "text_en": [
+        "Image of Discord according to Aristides, who for her evil effects was driven from Heaven, nor was invited with the other Gods to the wedding of Peleus and Thetis, parents of Achilles, lest she disturb it with her poisons; and yet she did disturb it, by throwing the golden apple, signifying that schemers never lack occasions for discord."
+      ],
+      "text_fr": [
+        "Image de la Discorde selon Aristide, laquelle pour ses mauvais effets fut chassée du Ciel, et ne fut pas conviée avec les autres Dieux aux noces de Pélée et Thétis, parents d'Achille, de peur qu'elle ne les troublât de ses poisons ; et pourtant elle les troubla en jetant la pomme d'or, signifiant qu'aux machinateurs ne manquent jamais les occasions de discorde."
+      ],
+      "name_fr": "La Discorde",
+      "group": "Марс",
+      "group_en": "Mars"
+    },
+    {
       "id": "cartm_furoreira",
       "num": "137.5",
       "page": "326-327",
