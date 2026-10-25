@@ -6580,6 +6580,34 @@
       "group_en": "Mars"
     },
     {
+      "id": "cartm_martescithi",
+      "num": "138",
+      "page": "328",
+      "fr": "Temple de Mars chez les Scythes",
+      "ru": "Храм Марса у скифов",
+      "en": "Temple of Mars among the Scythians",
+      "img": [
+        "cartm_martescithi.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagine del Tempio di Marte Dio della guerra, che era così fatto appo li Scithi, & della figura di Marte appo quelli d'Arabia petrea, inteso per il Sole ancora, & per la forza di quello in tutte le attioni humane.",
+      "text_it": [
+        "Imagine del Tempio di Marte Dio della guerra, che era così fatto appo li Scithi, & della figura di Marte appo quelli d'Arabia petrea, inteso per il Sole ancora, & per la forza di quello in tutte le attioni humane."
+      ],
+      "text_ru": [
+        "Изображение Храма Марса, бога войны, каковой был устроен так у скифов, и изображения Марса у жителей каменистой Аравии, разумеемого также под Солнцем, и под силою его во всех человеческих действиях."
+      ],
+      "text_en": [
+        "Image of the Temple of Mars, God of war, which was made thus among the Scythians, and of the figure of Mars among those of Arabia Petraea, understood also as the Sun, and as the force thereof in all human actions."
+      ],
+      "text_fr": [
+        "Image du Temple de Mars, Dieu de la guerre, qui était ainsi fait chez les Scythes, et de la figure de Mars chez ceux de l'Arabie pétrée, entendu aussi pour le Soleil, et pour la force de celui-ci dans toutes les actions humaines."
+      ],
+      "name_fr": "Temple de Mars chez les Scythes",
+      "group": "Марс",
+      "group_en": "Mars"
+    },
+    {
       "id": "cartm_furoreira",
       "num": "137.5",
       "page": "326-327",
