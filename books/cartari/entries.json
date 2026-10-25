@@ -6441,6 +6441,34 @@
       "group_en": "Minerva"
     },
     {
+      "id": "cartm_volupia",
+      "num": "135.7",
+      "page": "307",
+      "fr": "Volupia",
+      "ru": "Волупия",
+      "en": "Volupia",
+      "img": [
+        "cartm_volupia.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagini della Dea Volupia Dea de piaceri conculcante la Dea Virtù sotto li piedi suoi, denotante la detestanda, & infame vita de' dati à piaceri, in tutto spreggiatori della virtù, solo dati ad ogni sorte di vitio, quasi irrationali.",
+      "text_it": [
+        "Imagini della Dea Volupia Dea de piaceri conculcante la Dea Virtù sotto li piedi suoi, denotante la detestanda, & infame vita de' dati à piaceri, in tutto spreggiatori della virtù, solo dati ad ogni sorte di vitio, quasi irrationali."
+      ],
+      "text_ru": [
+        "Изображение богини Волупии, богини наслаждений, попирающей богиню Добродетель под ногами своими, означающее презренную и позорную жизнь преданных наслаждениям, во всём презирающих добродетель, предавшихся лишь всякого рода пороку, словно существа неразумные."
+      ],
+      "text_en": [
+        "Image of the Goddess Volupia, Goddess of pleasures, trampling the Goddess Virtue beneath her feet, denoting the detestable and infamous life of those given over to pleasures, in every way despisers of virtue, given only to every sort of vice, as though irrational creatures."
+      ],
+      "text_fr": [
+        "Images de la Déesse Volupia, Déesse des plaisirs, foulant aux pieds la Déesse Vertu, dénotant la vie détestable et infâme de ceux adonnés aux plaisirs, en tout contempteurs de la vertu, livrés seulement à toute sorte de vice, comme des êtres presque irrationnels."
+      ],
+      "name_fr": "Volupia",
+      "group": "Минерва",
+      "group_en": "Minerva"
+    },
+    {
       "id": "cartm83",
       "num": "136",
       "page": "297-299",
