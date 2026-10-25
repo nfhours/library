@@ -6663,6 +6663,34 @@
       "group_en": "Bacchus"
     },
     {
+      "id": "cartm_como",
+      "num": "140.5",
+      "page": "341",
+      "fr": "Comus, dieu des banquets",
+      "ru": "Ком, бог пиршеств",
+      "en": "Comus, god of feasts",
+      "img": [
+        "cartm_como.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagine di Como Dio de Conuiuij, secondo Filostrato, significante, che li Conuiti modesti allegrano li huomini & sueglian do li spiriti li fanno diuenir arditi, & che all'incontro l'immoderato cibo fà l'huomo sonnolento, inetto, o tuso d'ingegno, & debole di corpo.",
+      "text_it": [
+        "Imagine di Como Dio de Conuiuij, secondo Filostrato, significante, che li Conuiti modesti allegrano li huomini & sueglian do li spiriti li fanno diuenir arditi, & che all'incontro l'immoderato cibo fà l'huomo sonnolento, inetto, o tuso d'ingegno, & debole di corpo."
+      ],
+      "text_ru": [
+        "Изображение Кома, бога пиршеств, согласно Филострату, означающее, что умеренные пиршества веселят людей и, пробуждая дух, делают их дерзновенными, тогда как, напротив, невоздержанная пища делает человека сонливым, непригодным и притупленным разумом, и слабым телом."
+      ],
+      "text_en": [
+        "Image of Comus, God of banquets, according to Philostratus, signifying that modest feasts cheer men and, awakening the spirits, make them bold, whereas, on the contrary, immoderate eating makes a man drowsy, inept, dull of wit, and weak of body."
+      ],
+      "text_fr": [
+        "Image de Comus, Dieu des banquets, selon Philostrate, signifiant que les banquets modérés réjouissent les hommes et, en éveillant les esprits, les rendent hardis, tandis qu'au contraire, la nourriture immodérée rend l'homme somnolent, inapte, l'esprit émoussé, et le corps faible."
+      ],
+      "name_fr": "Comus, dieu des banquets",
+      "group": "Вакх",
+      "group_en": "Bacchus"
+    },
+    {
       "id": "cartm_martescithi",
       "num": "138",
       "page": "328-329",
