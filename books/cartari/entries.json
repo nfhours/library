@@ -11552,34 +11552,6 @@
       ]
     },
     {
-      "id": "carta42",
-      "num": "250",
-      "page": "574",
-      "fr": "Vaso antico con rilievi",
-      "ru": "Античная ваза с рельефом",
-      "en": "An antique vase with relief work",
-      "group": "Пиньория: примечания",
-      "group_en": "Pignoria's Annotations",
-      "img": [
-        "carta42.jpg"
-      ],
-      "caption": "(vaso ornato, continuazione della serie di vasi antichi illustrati nella sezione precedente del libro)",
-      "text_ru": [
-        "(украшенная ваза — продолжение серии античных ваз, показанных в предыдущей части книги)"
-      ],
-      "text_en": [
-        "(an ornamented vase, continuing the series of antique vases shown earlier in this part of the book)"
-      ],
-      "name_fr": "Vase antique orné de reliefs",
-      "text_fr": [
-        "(un vase orné, poursuivant la série de vases antiques montrés plus tôt dans cette partie du livre)"
-      ],
-      "scans": [
-        "carta42.jpg",
-        "carta42_p575.jpg"
-      ]
-    },
-    {
       "id": "carta43",
       "num": "251",
       "page": "538",
