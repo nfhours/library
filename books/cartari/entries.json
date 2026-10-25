@@ -6385,6 +6385,34 @@
       ]
     },
     {
+      "id": "cartm_minervafilare",
+      "num": "135.5",
+      "page": "303",
+      "fr": "Minerve, inventrice du filage",
+      "ru": "Минерва, изобретательница прядения",
+      "en": "Minerva, inventress of spinning",
+      "img": [
+        "cartm_minervafilare.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagine di Minerua inuentrice del filare, tessere, cucire, & altri donneschi essercitij; inuentrice dell'vliuo simbolo del lungo & necessario studio, con gli vccelli à lei sacrati. La Ciuetta significa il consiglio del prudente, il gallo la vigilanza del saggio, & l'ardire de soldati.",
+      "text_it": [
+        "Imagine di Minerua inuentrice del filare, tessere, cucire, & altri donneschi essercitij; inuentrice dell'vliuo simbolo del lungo & necessario studio, con gli vccelli à lei sacrati. La Ciuetta significa il consiglio del prudente, il gallo la vigilanza del saggio, & l'ardire de soldati."
+      ],
+      "text_ru": [
+        "Изображение Минервы, изобретательницы прядения, тканья, шитья и иных женских занятий; изобретательницы оливы, символа долгого и необходимого учения, с птицами, ей посвящёнными. Сова означает совет благоразумного, петух — бдительность мудрого и дерзание воинов."
+      ],
+      "text_en": [
+        "Image of Minerva, inventress of spinning, weaving, sewing, and other womanly exercises; inventress of the olive, symbol of long and necessary study, with the birds sacred to her. The Owl signifies the counsel of the prudent man, the cock the vigilance of the wise and the boldness of soldiers."
+      ],
+      "text_fr": [
+        "Image de Minerve, inventrice du filage, du tissage, de la couture, et des autres exercices féminins ; inventrice de l'olivier, symbole de l'étude longue et nécessaire, avec les oiseaux qui lui sont consacrés. La Chouette signifie le conseil du prudent, le coq la vigilance du sage, et la hardiesse des soldats."
+      ],
+      "name_fr": "Minerve, inventrice du filage",
+      "group": "Минерва",
+      "group_en": "Minerva"
+    },
+    {
       "id": "cartm83",
       "num": "136",
       "page": "297-299",
