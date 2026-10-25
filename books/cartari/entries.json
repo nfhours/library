@@ -7426,6 +7426,34 @@
       "group_en": "Venus"
     },
     {
+      "id": "cartm_venerebarba",
+      "num": "162.5",
+      "page": "447",
+      "fr": "Vénus mâle et femelle, et Vénus pleurant Adonis",
+      "ru": "Венера-мужеженщина и Венера, оплакивающая Адониса",
+      "en": "Venus male and female, and Venus mourning Adonis",
+      "img": [
+        "cartm_venerebarba.jpg"
+      ],
+      "group": "Венера",
+      "group_en": "Venus",
+      "textOnly": true,
+      "name_fr": "Vénus mâle et femelle, et Vénus pleurant Adonis",
+      "caption": "Imagine di Venere maschio e femina, significante questa esser sopra l'vniversal generatione delle cose, essendo tolta per l'aria; & nelli Dei non esser differenza di esso, come nè mortali, & imagine di Venere addolorata per la morte d'Adone morto dal Cinghiale, inteso per la stagione hiemale & fredda.",
+      "text_it": [
+        "Imagine di Venere maschio e femina, significante questa esser sopra l'vniversal generatione delle cose, essendo tolta per l'aria; & nelli Dei non esser differenza di esso, come nè mortali, & imagine di Venere addolorata per la morte d'Adone morto dal Cinghiale, inteso per la stagione hiemale & fredda."
+      ],
+      "text_ru": [
+        "Изображение Венеры мужеженщины, означающее, что стоит она над всеобщим порождением вещей, будучи взятою из воздуха; и что у богов нет различия пола, как и у смертных; и изображение Венеры, скорбящей о смерти Адониса, убитого Вепрем, понимаемое как зимнее и холодное время года."
+      ],
+      "text_en": [
+        "Image of Venus male and female, signifying that she is above the universal generation of things, being drawn from the air; and that among the Gods there is no difference of sex, any more than among mortals; and image of Venus grieving for the death of Adonis, killed by the Boar, understood as the wintry and cold season."
+      ],
+      "text_fr": [
+        "Image de Vénus mâle et femelle, signifiant qu'elle est au-dessus de la génération universelle des choses, étant tirée de l'air ; et que chez les Dieux il n'y a pas de différence de sexe, non plus que chez les mortels ; et image de Vénus affligée par la mort d'Adonis tué par le Sanglier, entendue pour la saison hivernale et froide."
+      ]
+    },
+    {
       "id": "cartm_fortunalieta",
       "num": "144.6",
       "page": "376-377",
