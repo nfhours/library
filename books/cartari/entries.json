@@ -6772,6 +6772,34 @@
       "group_en": "Bacchus"
     },
     {
+      "id": "cartm_horopriapo",
+      "num": "141.5",
+      "page": "359",
+      "fr": "Horus, dieu des Égyptiens",
+      "ru": "Гор, бог египтян",
+      "en": "Horus, god of the Egyptians",
+      "img": [
+        "cartm_horopriapo.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagine di Horo Dio delli Egittij, che è Priapo, & Bacco ancora, il quale viene inteso per la virtù seminale, & per il Sole; con il disegno del Disco significante la rotondità del mondo, che viene dal Sole illuminato, & à cui il Sole influisce la virtù sua.",
+      "text_it": [
+        "Imagine di Horo Dio delli Egittij, che è Priapo, & Bacco ancora, il quale viene inteso per la virtù seminale, & per il Sole; con il disegno del Disco significante la rotondità del mondo, che viene dal Sole illuminato, & à cui il Sole influisce la virtù sua."
+      ],
+      "text_ru": [
+        "Изображение Гора, бога египтян, каковой есть Приап, и также Вакх, разумеемый под семенной силою и под Солнцем; с изображением Диска, означающим округлость мира, который освещается Солнцем, и в который Солнце вливает свою силу."
+      ],
+      "text_en": [
+        "Image of Horus, God of the Egyptians, who is Priapus, and Bacchus too, understood as the seminal virtue, and as the Sun; with the depiction of the Disc signifying the roundness of the world, which is illuminated by the Sun, and into which the Sun infuses its virtue."
+      ],
+      "text_fr": [
+        "Image d'Horus, Dieu des Égyptiens, qui est Priape, et aussi Bacchus, entendu pour la vertu séminale, et pour le Soleil ; avec le dessin du Disque signifiant la rotondité du monde, qui est illuminé par le Soleil, et auquel le Soleil insuffle sa vertu."
+      ],
+      "name_fr": "Horus, dieu des Égyptiens",
+      "group": "Вакх",
+      "group_en": "Bacchus"
+    },
+    {
       "id": "cartm_baccotrionfo",
       "num": "140.8",
       "page": "350",
