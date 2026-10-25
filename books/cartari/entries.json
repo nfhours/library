@@ -7318,6 +7318,34 @@
       "group_en": "Venus"
     },
     {
+      "id": "cartm_venerecigni",
+      "num": "159",
+      "page": "434",
+      "fr": "Vénus tirée par des Cygnes",
+      "ru": "Венера, влекомая Лебедями",
+      "en": "Venus drawn by Swans",
+      "img": [
+        "cartm_venerecigni.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagine di Venere tirata in carro da' Cigni, retti da gl'Amorini; per mostrare, che il canto, & la placidità della natura hanno molto confacimento co' piaceri d'Amore.",
+      "text_it": [
+        "Imagine di Venere tirata in carro da' Cigni, retti da gl'Amorini; per mostrare, che il canto, & la placidità della natura hanno molto confacimento co' piaceri d'Amore."
+      ],
+      "text_ru": [
+        "Изображение Венеры, влекомой в колеснице Лебедями, управляемыми маленькими Амурами; дабы показать, что пение и безмятежность природы весьма сообразны с наслаждениями Любви."
+      ],
+      "text_en": [
+        "Image of Venus drawn in a chariot by Swans, guided by little Loves; to show that song, and the placidity of nature, have much affinity with the pleasures of Love."
+      ],
+      "text_fr": [
+        "Image de Vénus tirée en char par des Cygnes, conduits par de petits Amours; pour montrer que le chant, et la placidité de la nature ont beaucoup d'affinité avec les plaisirs de l'Amour."
+      ],
+      "name_fr": "Vénus tirée par des Cygnes",
+      "group": "Венера",
+      "group_en": "Venus"
+    },
+    {
       "id": "cartm_fortunalieta",
       "num": "144.6",
       "page": "376-377",
