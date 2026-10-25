@@ -6909,6 +6909,34 @@
       "group_en": "Fortune"
     },
     {
+      "id": "cartm_fortunadatrice",
+      "num": "144.5",
+      "page": "374",
+      "fr": "La Fortune, dispensatrice des richesses",
+      "ru": "Фортуна, подательница и раздательница",
+      "en": "Fortune, giver and dispenser",
+      "img": [
+        "cartm_fortunadatrice.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagine della Fortuna datrice, & dispensatrice, & patrona delle ricchezze & beni humani, & gouernatrice delle cose di quà giù, nelle quali non è fermezza ò stabilità alcuna più di quello si può dire habbi vna Naue fluttuante nelle instabili onde marine.",
+      "text_it": [
+        "Imagine della Fortuna datrice, & dispensatrice, & patrona delle ricchezze & beni humani, & gouernatrice delle cose di quà giù, nelle quali non è fermezza ò stabilità alcuna più di quello si può dire habbi vna Naue fluttuante nelle instabili onde marine."
+      ],
+      "text_ru": [
+        "Изображение Фортуны, подательницы и раздательницы, владычицы богатств и благ человеческих, и правительницы вещей здесь внизу, в коих нет никакой твёрдости или устойчивости более той, что можно приписать Кораблю, колеблемому в непостоянных волнах морских."
+      ],
+      "text_en": [
+        "Image of Fortune, giver, and dispenser, and patroness of riches and human goods, and governess of the things here below, in which there is no steadiness or stability any more than one could say a Ship has, tossing upon the unstable waves of the sea."
+      ],
+      "text_fr": [
+        "Image de la Fortune, donatrice, et dispensatrice, et patronne des richesses et des biens humains, et gouvernante des choses d'ici-bas, dans lesquelles il n'y a aucune fermeté ou stabilité, pas plus qu'on ne pourrait dire qu'en a un Navire flottant sur les ondes instables de la mer."
+      ],
+      "name_fr": "La Fortune, dispensatrice des richesses",
+      "group": "Фортуна",
+      "group_en": "Fortune"
+    },
+    {
       "id": "cartm_baccotrionfo",
       "num": "140.8",
       "page": "350",
