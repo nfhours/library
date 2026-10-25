@@ -12792,10 +12792,10 @@
     {
       "id": "carti28",
       "num": "291",
-      "page": "630",
-      "fr": "Piccolo idolo su un vaso (2)",
-      "ru": "Маленький идол на вазе (2)",
-      "en": "A small idol on a vase (2)",
+      "page": "586",
+      "fr": "Idoletto d'avorio di Peiresc: première vue",
+      "ru": "Идол Пейреска из слоновой кости: первый вид",
+      "en": "Peiresc's ivory idol: first view",
       "img": [
         "carti28.jpg"
       ],
@@ -12820,10 +12820,10 @@
     {
       "id": "carti29",
       "num": "292",
-      "page": "631",
-      "fr": "Piccolo idolo su un vaso (3)",
-      "ru": "Маленький идол на вазе (3)",
-      "en": "A small idol on a vase (3)",
+      "page": "587",
+      "fr": "Idoletto d'avorio di Peiresc: deuxième vue",
+      "ru": "Идол Пейреска из слоновой кости: второй вид",
+      "en": "Peiresc's ivory idol: second view",
       "img": [
         "carti29.jpg"
       ],
@@ -12846,12 +12846,40 @@
       "textOnly": true
     },
     {
+      "id": "carti29b",
+      "num": "293.5",
+      "page": "586",
+      "fr": "Idoletto d'avorio di Peiresc: troisième vue",
+      "ru": "Идол Пейреска из слоновой кости: третий вид",
+      "en": "Peiresc's ivory idol: third view",
+      "img": [
+        "carti29b.jpg"
+      ],
+      "group": "Япония",
+      "group_en": "Japan",
+      "textOnly": true,
+      "name_fr": "Idoletto d'avorio di Peiresc: troisième vue",
+      "caption": "(questa è una delle quattro facce dell'Idoletto d'avorio delle Indie del Sig. di Peiresc; il testo completo di Pignoria, che introduce tutte e quattro le vedute, è riportato alla carti27)",
+      "text_it": [
+        "(questa è una delle quattro facce dell'Idoletto d'avorio delle Indie del Sig. di Peiresc; il testo completo di Pignoria, che introduce tutte e quattro le vedute, è riportato alla carti27)"
+      ],
+      "text_ru": [
+        "(это один из четырёх видов идола из слоновой кости Индий синьора Пейреска; полный текст Пиньории, вводящий все четыре вида, приведён в записи carti27)"
+      ],
+      "text_en": [
+        "(this is one of the four faces of Signor Peiresc's ivory idol from the Indies; Pignoria's full text introducing all four views is given in entry carti27)"
+      ],
+      "text_fr": [
+        "(ceci est l'une des quatre faces de l'idole d'ivoire des Indes de Monsieur de Peiresc ; le texte complet de Pignoria, introduisant les quatre vues, se trouve dans l'entrée carti27)"
+      ]
+    },
+    {
       "id": "carti30",
       "num": "293",
-      "page": "632",
-      "fr": "Piccolo idolo su un vaso (4)",
-      "ru": "Маленький идол на вазе (4) — «IL FINE»",
-      "en": "A small idol on a vase (4) — “IL FINE”",
+      "page": "587",
+      "fr": "Idoletto d'avorio di Peiresc: quatrième vue (IL FINE)",
+      "ru": "Идол Пейреска из слоновой кости: четвёртый вид (КОНЕЦ КНИГИ)",
+      "en": "Peiresc's ivory idol: fourth view (THE END of the book)",
       "img": [
         "carti30.jpg"
       ],
