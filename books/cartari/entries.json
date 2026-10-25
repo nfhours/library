@@ -7156,6 +7156,34 @@
       "group_en": "Cupid"
     },
     {
+      "id": "cartm_eroteanterote",
+      "num": "153",
+      "page": "408",
+      "fr": "Éros et Anteros",
+      "ru": "Эрот и Антэрот",
+      "en": "Eros and Anteros",
+      "img": [
+        "cartm_eroteanterote.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagine de gli Dei Erote, & Anterote fratelli & figliuoli di Venere, intesi l'vno per l'amare l'altro per il riamare, ouero l'amor reciproco, & l'imagine dell'amor Letheo che fà disamare, & dimenticare la persona amata.",
+      "text_it": [
+        "Imagine de gli Dei Erote, & Anterote fratelli & figliuoli di Venere, intesi l'vno per l'amare l'altro per il riamare, ouero l'amor reciproco, & l'imagine dell'amor Letheo che fà disamare, & dimenticare la persona amata."
+      ],
+      "text_ru": [
+        "Изображение богов Эрота и Антэрота, братьев и сыновей Венеры, разумеемых — один как любящий, другой как отвечающий взаимностью, то есть любовь взаимная, и изображение любви Летейской, что заставляет разлюбить и забыть любимого человека."
+      ],
+      "text_en": [
+        "Image of the Gods Eros, and Anteros, brothers, and sons of Venus, understood — the one for loving, the other for loving in return, that is, reciprocal love, and the image of Lethean love, which makes one cease to love, and forget the beloved person."
+      ],
+      "text_fr": [
+        "Image des Dieux Éros, et Anteros, frères, et fils de Vénus, entendus — l'un pour aimer, l'autre pour aimer en retour, c'est-à-dire l'amour réciproque, et l'image de l'amour léthéen, qui fait cesser d'aimer, et oublier la personne aimée."
+      ],
+      "name_fr": "Éros et Anteros",
+      "group": "Купидон",
+      "group_en": "Cupid"
+    },
+    {
       "id": "cartm_fortunalieta",
       "num": "144.6",
       "page": "376-377",
