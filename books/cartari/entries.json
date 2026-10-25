@@ -11465,8 +11465,8 @@
       "fr": "Aggionta: Saturne et sa Faux",
       "ru": "Aggionta: Сатурн и его Серп",
       "en": "Aggionta (Addition): Saturn and his Scythe",
-      "group": "Пиньория: примечания",
-      "group_en": "Pignoria's Annotations",
+      "group": "Добавление («Aggionta»)",
+      "group_en": "Addendum (“Aggionta”)",
       "img": [
         "carta21.jpg"
       ],
@@ -11489,7 +11489,7 @@
     {
       "id": "carta22",
       "num": "247",
-      "page": "569",
+      "page": "530",
       "fr": "Giano giovane",
       "ru": "Молодой Янус",
       "en": "The young Janus",
