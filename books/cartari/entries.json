@@ -6360,7 +6360,7 @@
     {
       "id": "cart10",
       "num": "135",
-      "page": "333",
+      "page": "294",
       "fr": "Minerva (con Mercurio)",
       "ru": "Минерва (вместе с Меркурием)",
       "en": "Minerva (with Mercury)",
@@ -6377,11 +6377,6 @@
       "name_fr": "Minerve (avec Mercure)",
       "text_fr": [
         "Images de Mercure et de Minerve — lui dieu de l'Éloquence, elle de la Prudence, inventrice des bons arts — signifiant que l'Éloquence et la Prudence doivent nécessairement être unies, si les paroles doivent servir aux actions humaines."
-      ],
-      "scans": [
-        "cart10.jpg",
-        "cart10_p334.jpg",
-        "cart10_p335.jpg"
       ],
       "group": "Минерва",
       "group_en": "Minerva"
