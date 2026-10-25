@@ -6745,6 +6745,34 @@
       "group_en": "Bacchus"
     },
     {
+      "id": "cartm_tifone",
+      "num": "141",
+      "page": "357",
+      "fr": "Typhon et Horus",
+      "ru": "Тифон и Гор",
+      "en": "Typhon and Horus",
+      "img": [
+        "cartm_tifone.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagini di Tifone fratel d'Osiri, & di Horo figliuolo d'Osiri, che è Baccho appo i Greci, qual Horo superò il detto Tifone, benche in Crocodilo tramutato; con l'Hippopotamo, & Sparauiere hieroglisici denotanti la Virtù combattente, & resistente al male, & ch'al fine lo supera e conculca.",
+      "text_it": [
+        "Imagini di Tifone fratel d'Osiri, & di Horo figliuolo d'Osiri, che è Baccho appo i Greci, qual Horo superò il detto Tifone, benche in Crocodilo tramutato; con l'Hippopotamo, & Sparauiere hieroglisici denotanti la Virtù combattente, & resistente al male, & ch'al fine lo supera e conculca."
+      ],
+      "text_ru": [
+        "Изображения Тифона, брата Осириса, и Гора, сына Осирисова, каковой есть Вакх у греков, и который превозмог названного Тифона, хотя и обращённого в Крокодила; с Бегемотом и Ястребом, иероглифами, означающими Доблесть, сражающуюся и сопротивляющуюся злу, и в конце его превозмогающую и попирающую."
+      ],
+      "text_en": [
+        "Images of Typhon, brother of Osiris, and of Horus, son of Osiris, who is Bacchus among the Greeks, who overcame the said Typhon, even though transformed into a Crocodile; with the Hippopotamus, and Sparrowhawk, hieroglyphs denoting Virtue fighting, and resisting evil, and in the end overcoming and trampling it."
+      ],
+      "text_fr": [
+        "Images de Typhon, frère d'Osiris, et d'Horus, fils d'Osiris, qui est Bacchus chez les Grecs, lequel surmonta ledit Typhon, bien que changé en Crocodile ; avec l'Hippopotame, et l'Épervier, hiéroglyphes dénotant la Vertu combattante, et résistant au mal, et qui à la fin le surmonte et le foule aux pieds."
+      ],
+      "name_fr": "Typhon et Horus",
+      "group": "Вакх",
+      "group_en": "Bacchus"
+    },
+    {
       "id": "cartm_baccotrionfo",
       "num": "140.8",
       "page": "350",
