@@ -6936,6 +6936,34 @@
       "group_en": "Fortune"
     },
     {
+      "id": "cartm_fortunalieta",
+      "num": "144.6",
+      "page": "376",
+      "fr": "La Fortune joyeuse et triste",
+      "ru": "Весёлая и печальная Фортуна",
+      "en": "Joyful and sad Fortune",
+      "img": [
+        "cartm_fortunalieta.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagini della lieta, & trista fortuna, ouero della fortuna passata, presente, & ventura, giudicata da gli antichi, benche sij solo vn nome imaginato, maggiore de tutti li loro dei falsi, & patrona delle cose di qua giù, & questo nume li antichi s'imaginorono per scusa dell'imprudenze loro.",
+      "text_it": [
+        "Imagini della lieta, & trista fortuna, ouero della fortuna passata, presente, & ventura, giudicata da gli antichi, benche sij solo vn nome imaginato, maggiore de tutti li loro dei falsi, & patrona delle cose di qua giù, & questo nume li antichi s'imaginorono per scusa dell'imprudenze loro."
+      ],
+      "text_ru": [
+        "Изображения весёлой и печальной Фортуны, или же Фортуны прошедшей, настоящей и грядущей, почитаемой древними, хотя и было это лишь воображаемое имя, более всех ложных богов их, и владычицы вещей здесь внизу, и это божество измыслили древние в оправдание своего неразумия."
+      ],
+      "text_en": [
+        "Images of joyful, and sad Fortune, or of Fortune past, present, and to come, held by the ancients, although it was only an imagined name, greater than all their false gods, and patroness of the things here below, and this deity the ancients imagined as an excuse for their own imprudence."
+      ],
+      "text_fr": [
+        "Images de la Fortune joyeuse, et triste, ou de la fortune passée, présente, et à venir, tenue par les anciens, bien que ce ne fût qu'un nom imaginé, plus grand que tous leurs faux dieux, et patronne des choses d'ici-bas, et cette divinité, les anciens l'imaginèrent pour excuser leur propre imprudence."
+      ],
+      "name_fr": "La Fortune joyeuse et triste",
+      "group": "Фортуна",
+      "group_en": "Fortune"
+    },
+    {
       "id": "cartm_baccotrionfo",
       "num": "140.8",
       "page": "350",
