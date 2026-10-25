@@ -6608,6 +6608,34 @@
       "group_en": "Mars"
     },
     {
+      "id": "cartm_vittoriaarmata",
+      "num": "139.5",
+      "page": "335",
+      "fr": "La Victoire armée et sans ailes",
+      "ru": "Вооружённая Победа и Победа без крыльев",
+      "en": "Armed Victory and wingless Victory",
+      "img": [
+        "cartm_vittoriaarmata.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagine della Vittoria armata, & della medesima senza ale. La prima è fatta per rappresentare le cause di essa, che sono fatica e sudore. La seconda il desiderio di quelli, che così la figurauano, che era di non essere abbandonati dalla Vittoria.",
+      "text_it": [
+        "Imagine della Vittoria armata, & della medesima senza ale. La prima è fatta per rappresentare le cause di essa, che sono fatica e sudore. La seconda il desiderio di quelli, che così la figurauano, che era di non essere abbandonati dalla Vittoria."
+      ],
+      "text_ru": [
+        "Изображение Победы вооружённой, и её же без крыльев. Первая сделана, дабы изобразить причины её, каковые суть труд и пот. Вторая же — желание тех, кто так её изображал, состоявшее в том, чтобы не быть покинутыми Победой."
+      ],
+      "text_en": [
+        "Image of Victory armed, and of the same without wings. The first is made to represent the causes of her, which are toil and sweat. The second, the wish of those who depicted her so, which was not to be abandoned by Victory."
+      ],
+      "text_fr": [
+        "Image de la Victoire armée, et de la même sans ailes. La première est faite pour représenter les causes de celle-ci, qui sont la peine et la sueur. La seconde, le désir de ceux qui la figuraient ainsi, qui était de ne pas être abandonnés par la Victoire."
+      ],
+      "name_fr": "La Victoire armée et sans ailes",
+      "group": "Марс",
+      "group_en": "Mars"
+    },
+    {
       "id": "cartm_martescithi",
       "num": "138",
       "page": "328-329",
