@@ -10598,6 +10598,34 @@
       ]
     },
     {
+      "id": "cartm_pignoriaherculearm",
+      "num": "carta11.5",
+      "page": "501",
+      "fr": "Hercule en armes avec un Trophée (médailles de Dioclétien et Maximien)",
+      "ru": "Геркулес в доспехах с трофеем (медали Диоклетиана и Максимиана)",
+      "en": "Hercules armed with a Trophy (medals of Diocletian and Maximian)",
+      "img": [
+        "cartm_pignoriaherculearm.jpg"
+      ],
+      "group": "Пиньория: примечания",
+      "group_en": "Pignoria's Annotations",
+      "textOnly": true,
+      "name_fr": "Hercule en armes avec un Trophée (médailles de Dioclétien et Maximien)",
+      "caption": "Hercole nelle Medaglie degl'Imperatori Diocletiano, & Massimiano si vede armato quasi di tutte armi, hauendo di più in mano vn Trofeo.",
+      "text_it": [
+        "Hercole nelle Medaglie degl'Imperatori Diocletiano, & Massimiano si vede armato quasi di tutte armi, hauendo di più in mano vn Trofeo."
+      ],
+      "text_ru": [
+        "Геркулес на медалях императоров Диоклетиана и Максимиана предстаёт вооружённым почти всеми видами оружия, держа в руке к тому же ещё и Трофей."
+      ],
+      "text_en": [
+        "Hercules on the medals of the Emperors Diocletian and Maximian is seen armed with almost every kind of weapon, holding besides in his hand a Trophy."
+      ],
+      "text_fr": [
+        "Hercule sur les médailles des Empereurs Dioclétien et Maximien se voit armé de presque toutes les armes, tenant de surcroît en main un Trophée."
+      ]
+    },
+    {
       "id": "carta32",
       "num": "227",
       "page": "541",
