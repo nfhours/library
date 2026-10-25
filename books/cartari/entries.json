@@ -11726,7 +11726,7 @@
     {
       "id": "carta45",
       "num": "255",
-      "page": "581",
+      "page": "542",
       "fr": "Figura giovanile con bastone (TYXAINI)",
       "ru": "Юношеская фигура с посохом (надпись TYXAINI)",
       "en": "A youthful figure with a staff (inscribed “TYXAINI”)",
@@ -11735,16 +11735,16 @@
       "img": [
         "carta45.jpg"
       ],
-      "caption": "(statua antica con iscrizione greca/romanizzata alla base, leggibile come 'TYXXINI'; nessun testo discorsivo accompagna questa tavola nelle pagine fornite)",
+      "caption": "(questa tavola non è accompagnata da testo proprio nell'originale stampato; l'iscrizione alla base si legge TYXAINI)",
       "text_ru": [
-        "(античная статуя с надписью у основания, которая читается как «TYXXINI», а не «TYXAINI»; связного текста к этой гравюре на предоставленных страницах нет)"
+        "(эта гравюра не сопровождается собственным текстом в оригинальном издании; надпись у основания читается TYXAINI)"
       ],
       "text_en": [
-        "(an antique statue with an inscription at its base legible as \"TYXXINI\", not \"TYXAINI\"; no discursive text accompanies this plate on the pages provided)"
+        "(this plate is not accompanied by its own text in the original printing; the base inscription reads TYXAINI)"
       ],
       "name_fr": "Figure juvénile au bâton (inscrite « TYXAINI »)",
       "text_fr": [
-        "(une statue antique avec une inscription à sa base, lisible « TYXXINI » et non « TYXAINI » ; aucun texte discursif n'accompagne cette planche dans les pages fournies)"
+        "(cette planche n'est accompagnée d'aucun texte propre dans l'édition originale ; l'inscription à la base se lit TYXAINI)"
       ],
       "scans": [
         "carta45.jpg"
