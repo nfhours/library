@@ -6963,6 +6963,34 @@
       "group_en": "Fortune"
     },
     {
+      "id": "cartm_nemesi",
+      "num": "145",
+      "page": "378",
+      "fr": "La déesse Némésis",
+      "ru": "Богиня Немезида",
+      "en": "The goddess Nemesis",
+      "img": [
+        "cartm_nemesi.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagine della dea Nemesi dimostratrice delle buone opere, & seuera punitrice de superbi, & maluagi; & cortese, & larga donatrice, & premiatrice delle buone operationi; essendo tenuta la conoscitrice de tutte: figliuola della Giustitia, che ci ammaestra nelle attioni douersi vsare misura e seno.",
+      "text_it": [
+        "Imagine della dea Nemesi dimostratrice delle buone opere, & seuera punitrice de superbi, & maluagi; & cortese, & larga donatrice, & premiatrice delle buone operationi; essendo tenuta la conoscitrice de tutte: figliuola della Giustitia, che ci ammaestra nelle attioni douersi vsare misura e seno."
+      ],
+      "text_ru": [
+        "Изображение богини Немезиды, являющей добрые дела и суровой карательницы гордецов и злодеев; и учтивой и щедрой дарительницы, и наградительницы добрых деяний; почитаемой знающей всё: дочери Справедливости, что наставляет нас, что в деяниях должно соблюдать меру и рассудительность."
+      ],
+      "text_en": [
+        "Image of the goddess Nemesis, who shows forth good works, and is a severe punisher of the proud, and the wicked; and a courteous, and generous giver, and rewarder of good deeds; being held the knower of all things: daughter of Justice, who teaches us that in our actions we must use measure and discretion."
+      ],
+      "text_fr": [
+        "Image de la déesse Némésis, qui montre les bonnes œuvres, et est sévère punisseuse des orgueilleux, et des méchants ; et courtoise, et généreuse donatrice, et récompenseuse des bonnes actions ; étant tenue pour la connaisseuse de toutes choses : fille de la Justice, qui nous enseigne qu'il faut, dans les actions, user de mesure et de discernement."
+      ],
+      "name_fr": "La déesse Némésis",
+      "group": "Фортуна",
+      "group_en": "Fortune"
+    },
+    {
       "id": "cartm_baccotrionfo",
       "num": "140.8",
       "page": "350",
