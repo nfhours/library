@@ -10754,62 +10754,6 @@
       ]
     },
     {
-      "id": "carta12",
-      "num": "230",
-      "page": "545",
-      "fr": "Minerva con l'egida di Gorgone",
-      "ru": "Минерва с эгидой Горгоны",
-      "en": "Minerva with the Gorgon's aegis",
-      "group": "Пиньория: примечания",
-      "group_en": "Pignoria's Annotations",
-      "img": [
-        "carta13b.jpg"
-      ],
-      "caption": "(questa tavola armata di Minerva e Mercurio fa parte del medesimo lungo discorso di Pignoria su Minerva, Hermathena ed Egide; il testo completo è riportato nella tavola seguente, carta13)",
-      "text_ru": [
-        "(эта пластина с вооружёнными Минервой и Меркурием — часть того же пространного рассуждения Пиньории о Минерве, Гермафене и эгиде; полный текст приведён в следующей карточке, carta13)"
-      ],
-      "text_en": [
-        "(this plate of armed Minerva and Mercury belongs to the same lengthy discourse by Pignoria on Minerva, Hermathena, and the Aegis; the full text is given on the following plate, carta13)"
-      ],
-      "name_fr": "Minerve à l'égide de Gorgone",
-      "text_fr": [
-        "(cette planche de Minerve et Mercure armés fait partie du même long discours de Pignoria sur Minerve, Hermathena et l'Égide ; le texte complet figure sur la planche suivante, carta13)"
-      ],
-      "scans": [
-        "carta13b.jpg"
-      ],
-      "textOnly": true
-    },
-    {
-      "id": "carta34",
-      "num": "231",
-      "page": "546",
-      "fr": "Ercole e Mercurio insieme (Hermeracle)",
-      "ru": "Геркулес и Меркурий вместе (Гермеракл)",
-      "en": "Hercules and Mercury together (Hermeracles)",
-      "group": "Пиньория: примечания",
-      "group_en": "Pignoria's Annotations",
-      "img": [
-        "carta34.jpg"
-      ],
-      "caption": "(questa tavola duplica la stessa pagina usata per carta12/carta13; il testo completo del lungo discorso di Pignoria su Hermeracle, Minerva armata ed Egide è riportato in carta13)",
-      "text_ru": [
-        "(эта пластина дублирует ту же страницу, что использована для carta12/carta13; полный текст пространного рассуждения Пиньории о Гермеракле, вооружённой Минерве и эгиде приведён в carta13)"
-      ],
-      "text_en": [
-        "(this plate duplicates the same page used for carta12/carta13; the full text of Pignoria's lengthy discourse on Hermeracles, armed Minerva, and the Aegis is given at carta13)"
-      ],
-      "name_fr": "Hercule et Mercure réunis (Hermeracle)",
-      "text_fr": [
-        "(cette planche reprend la même page que carta12/carta13 ; le texte complet du long discours de Pignoria sur Hermeracles, Minerve armée et l'Égide figure à carta13)"
-      ],
-      "scans": [
-        "carta34.jpg"
-      ],
-      "textOnly": true
-    },
-    {
       "id": "carta35",
       "num": "232",
       "page": "508",
