@@ -7291,6 +7291,34 @@
       "group_en": "Venus"
     },
     {
+      "id": "cartm_tempiopafo",
+      "num": "158",
+      "page": "432",
+      "fr": "Le Temple de Vénus à Paphos",
+      "ru": "Храм Венеры в Пафосе",
+      "en": "The Temple of Venus at Paphos",
+      "img": [
+        "cartm_tempiopafo.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Tempio di Venere in Pafo Città di Cipro con gieroglifico lei & sua natura dimostrante. Carro di Venere tirato da Cigni & da Colombe à lei sacrate, con la sua imagine sopra detto carro nuda con le tre Gratie seco, come li Sassoni la dipingeuano, con tre pomi d'oro in Una mano, & Una palla nell'altra, & dimostra l'oro farsi via alla lasciuia, & dinota il tutto il natural desiderio carnale per generare.",
+      "text_it": [
+        "Tempio di Venere in Pafo Città di Cipro con gieroglifico lei & sua natura dimostrante. Carro di Venere tirato da Cigni & da Colombe à lei sacrate, con la sua imagine sopra detto carro nuda con le tre Gratie seco, come li Sassoni la dipingeuano, con tre pomi d'oro in Una mano, & Una palla nell'altra, & dimostra l'oro farsi via alla lasciuia, & dinota il tutto il natural desiderio carnale per generare."
+      ],
+      "text_ru": [
+        "Храм Венеры в Пафосе, городе Кипра, с иероглифом, являющим её самоё и её природу. Колесница Венеры, влекомая Лебедями и Голубями, ей посвящёнными, с её изображением на этой колеснице, нагим, с тремя Грациями при ней, как изображали её саксонцы, с тремя золотыми яблоками в одной руке, и шаром в другой, что являет, что золото пролагает путь сладострастию, и означает всё это природное плотское желание к порождению."
+      ],
+      "text_en": [
+        "Temple of Venus at Paphos, a City of Cyprus, with a hieroglyph showing her and her nature. The chariot of Venus, drawn by Swans, and by Doves sacred to her, with her image upon the said chariot, naked, with the three Graces beside her, as the Saxons depicted her, with three golden apples in one hand, and a ball in the other, showing that gold makes its way to wantonness, and all this denotes the natural carnal desire to generate."
+      ],
+      "text_fr": [
+        "Temple de Vénus à Paphos, Ville de Chypre, avec hiéroglyphe la montrant elle et sa nature. Char de Vénus tiré par des Cygnes, et par des Colombes qui lui sont consacrées, avec son image sur ledit char, nue, avec les trois Grâces auprès d'elle, comme la peignaient les Saxons, avec trois pommes d'or dans une main, et une boule dans l'autre, montrant que l'or se fraie un chemin vers la lascivité, et tout ceci dénote le désir charnel naturel pour engendrer."
+      ],
+      "name_fr": "Le Temple de Vénus à Paphos",
+      "group": "Венера",
+      "group_en": "Venus"
+    },
+    {
       "id": "cartm_fortunalieta",
       "num": "144.6",
       "page": "376-377",
