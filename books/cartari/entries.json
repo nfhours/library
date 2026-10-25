@@ -11281,6 +11281,34 @@
       ]
     },
     {
+      "id": "cartm_pignoriafortunacorradino",
+      "num": "carta18.7",
+      "page": "523",
+      "fr": "La fortune d'un arbre dépouillé par des pillards (gemme de Luigi Corradino)",
+      "ru": "Фортуна дерева, разоряемого грабителями (гемма Луиджи Коррадино)",
+      "en": "Fortune of a tree stripped by plunderers (Luigi Corradino's gem)",
+      "img": [
+        "cartm_pignoriafortunacorradino.jpg"
+      ],
+      "group": "Пиньория: примечания",
+      "group_en": "Pignoria's Annotations",
+      "textOnly": true,
+      "name_fr": "La fortune d'un arbre dépouillé par des pillards (gemme de Luigi Corradino)",
+      "caption": "Tutta questa Imagine s'è tratta da vn taglio antico.\n\nChe le raccontate siano inuentioni moderne io tengo di nò; perche oltra l'hauere vna Corniola antica, nella quale si vede la Fortuna in mare, con la vela, come apunto la dipingono i Pittori nostri, il Signor LVIGI CORRADINO, homo di esquisita intelligenza intorno a queste cose, ha vn taglio antico in Corniola d'eccellente Maestro, del quale questa è la figura.\n\nQui",
+      "text_it": [
+        "Tutta questa Imagine s'è tratta da vn taglio antico.\n\nChe le raccontate siano inuentioni moderne io tengo di nò; perche oltra l'hauere vna Corniola antica, nella quale si vede la Fortuna in mare, con la vela, come apunto la dipingono i Pittori nostri, il Signor LVIGI CORRADINO, homo di esquisita intelligenza intorno a queste cose, ha vn taglio antico in Corniola d'eccellente Maestro, del quale questa è la figura.\n\nQui"
+      ],
+      "text_ru": [
+        "Всё это Изображение взято с древней резьбы.\n\nЧто рассказанное суть новые измышления, я не считаю верным; ибо помимо того, что у меня есть древняя Корнеола, на коей видна Фортуна в море, под парусом, именно так, как изображают её наши Живописцы, — синьор Луиджи Коррадино, муж, обладающий тончайшим пониманием в этих вещах, имеет древнюю резьбу на Корнеоле работы превосходного Мастера, изображение коей здесь.\n\nЗдесь"
+      ],
+      "text_en": [
+        "This whole Image is taken from an ancient engraving.\n\nThat the things recounted are modern inventions, I do not hold to be so; for besides my own having an ancient Cornelian, on which Fortune is seen at sea, under sail, in just the way our Painters depict her, Signor Luigi Corradino, a man of exquisite understanding in these matters, has an ancient engraving on a Cornelian by an excellent Master, of which this is the figure.\n\nHere"
+      ],
+      "text_fr": [
+        "Toute cette Image est tirée d'une gravure antique.\n\nQue les choses racontées soient des inventions modernes, je ne le crois pas ; car outre que je possède moi-même une Cornaline antique, où l'on voit la Fortune en mer, à la voile, exactement comme la peignent nos Peintres, Monsieur Luigi Corradino, homme d'une intelligence exquise en ces matières, possède une gravure antique sur Cornaline d'un excellent Maître, dont voici la figure.\n\nIci"
+      ]
+    },
+    {
       "id": "carta19",
       "num": "242",
       "page": "563",
