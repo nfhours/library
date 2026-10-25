@@ -7372,6 +7372,34 @@
       "group_en": "Venus"
     },
     {
+      "id": "cartm_venerecupidogiogo",
+      "num": "161",
+      "page": "439",
+      "fr": "Vénus, Cupidon, le Joug et le Bouc",
+      "ru": "Венера, Купидон, Ярмо и Козёл",
+      "en": "Venus, Cupid, the Yoke, and the Goat",
+      "img": [
+        "cartm_venerecupidogiogo.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagini di Venere, di Cupido, del Giogo, & del Capro, quali significano la generatione, & l'imagine della Testudine hieroglifico, che dinota il pericolo delle Donne maritate, e parturienti, & qual deue essere il loro vfficio nella cura familiare & alleuar figliuoli, & il silentio esser necessario alle donne sopra ogni virtù.",
+      "text_it": [
+        "Imagini di Venere, di Cupido, del Giogo, & del Capro, quali significano la generatione, & l'imagine della Testudine hieroglifico, che dinota il pericolo delle Donne maritate, e parturienti, & qual deue essere il loro vfficio nella cura familiare & alleuar figliuoli, & il silentio esser necessario alle donne sopra ogni virtù."
+      ],
+      "text_ru": [
+        "Изображения Венеры, Купидона, Ярма и Козла, кои означают порождение, и изображение Черепахи, иероглиф, означающий опасность замужних и рожающих женщин, и каковою должна быть должность их в попечении о доме и воспитании детей, и что молчание необходимо женщинам более всякой иной добродетели."
+      ],
+      "text_en": [
+        "Images of Venus, of Cupid, of the Yoke, and of the Goat, which signify generation, and the image of the Tortoise, a hieroglyph, which denotes the danger of married, and childbearing Women, and what their office must be in the care of the household, and the raising of children, and that silence is necessary to women above every other virtue."
+      ],
+      "text_fr": [
+        "Images de Vénus, de Cupidon, du Joug, et du Bouc, qui signifient la génération, et l'image de la Tortue, hiéroglyphe, qui dénote le danger des Femmes mariées, et en couches, et quel doit être leur office dans le soin du ménage et l'éducation des enfants, et que le silence est nécessaire aux femmes par-dessus toute autre vertu."
+      ],
+      "name_fr": "Vénus, Cupidon, le Joug et le Bouc",
+      "group": "Венера",
+      "group_en": "Venus"
+    },
+    {
       "id": "cartm_fortunalieta",
       "num": "144.6",
       "page": "376-377",
