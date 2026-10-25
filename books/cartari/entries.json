@@ -6413,6 +6413,34 @@
       "group_en": "Minerva"
     },
     {
+      "id": "cartm_virtuhonore",
+      "num": "135.6",
+      "page": "305",
+      "fr": "Vertu et Honneur",
+      "ru": "Добродетель и Честь",
+      "en": "Virtue and Honor",
+      "img": [
+        "cartm_virtuhonore.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagine della Virtù, & dell'Honore, che si risguardano così scolpiti in vna medaglia di Vitellio, dinotante dalla virtù & attioni virtuose prouenir l'honore, & con l'honore l'abondanza del tutto, & ogni humana felicità.",
+      "text_it": [
+        "Imagine della Virtù, & dell'Honore, che si risguardano così scolpiti in vna medaglia di Vitellio, dinotante dalla virtù & attioni virtuose prouenir l'honore, & con l'honore l'abondanza del tutto, & ogni humana felicità."
+      ],
+      "text_ru": [
+        "Изображение Добродетели и Чести, взирающих друг на друга, так изваянных на медали Вителлия, означающее, что от добродетели и добродетельных деяний происходит честь, а с честью — изобилие всего и всякое человеческое счастье."
+      ],
+      "text_en": [
+        "Image of Virtue and Honor, gazing upon each other thus carved on a medal of Vitellius, denoting that from virtue and virtuous actions comes honor, and with honor the abundance of all things, and every human felicity."
+      ],
+      "text_fr": [
+        "Image de la Vertu et de l'Honneur, se regardant l'un l'autre ainsi sculptés sur une médaille de Vitellius, dénotant que de la vertu et des actions vertueuses provient l'honneur, et qu'avec l'honneur vient l'abondance de toutes choses, et toute félicité humaine."
+      ],
+      "name_fr": "Vertu et Honneur",
+      "group": "Минерва",
+      "group_en": "Minerva"
+    },
+    {
       "id": "cartm83",
       "num": "136",
       "page": "297-299",
