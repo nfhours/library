@@ -6718,6 +6718,34 @@
       "group_en": "Bacchus"
     },
     {
+      "id": "cartm_baccopompa",
+      "num": "140.7",
+      "page": "347",
+      "fr": "Bacchus et le cortège bachique",
+      "ru": "Вакх и вакхическое шествие",
+      "en": "Bacchus and the bacchanalian procession",
+      "img": [
+        "cartm_baccopompa.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagini di Bacco, & della pompa, feste, & cerimonie bacchanali, & l'habito delle Bacche, o Menadi sue seguaci, significante che li sacrificij bacchanali purgauan gl'animi dalle colpe, come il vino li purga da pensieri.",
+      "text_it": [
+        "Imagini di Bacco, & della pompa, feste, & cerimonie bacchanali, & l'habito delle Bacche, o Menadi sue seguaci, significante che li sacrificij bacchanali purgauan gl'animi dalle colpe, come il vino li purga da pensieri."
+      ],
+      "text_ru": [
+        "Изображения Вакха, и торжественного шествия, празднеств и обрядов вакхических, и одеяния Вакханок, или Менад, его спутниц, означающее, что жертвоприношения вакхические очищали души от вины, подобно тому как вино очищает их от мыслей."
+      ],
+      "text_en": [
+        "Images of Bacchus, and of the pomp, feasts, and bacchanalian ceremonies, and of the attire of the Bacchae, or Maenads, his followers, signifying that the bacchanalian sacrifices purged souls of guilt, just as wine purges them of thoughts."
+      ],
+      "text_fr": [
+        "Images de Bacchus, et de la pompe, des fêtes, et des cérémonies bachiques, et de l'habit des Bacchantes, ou Ménades, ses suivantes, signifiant que les sacrifices bachiques purgeaient les âmes des fautes, comme le vin les purge des pensées."
+      ],
+      "name_fr": "Bacchus et le cortège bachique",
+      "group": "Вакх",
+      "group_en": "Bacchus"
+    },
+    {
       "id": "cartm_martescithi",
       "num": "138",
       "page": "328-329",
