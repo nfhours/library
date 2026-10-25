@@ -6580,6 +6580,34 @@
       "group_en": "Mars"
     },
     {
+      "id": "cartm_furoreira",
+      "num": "137.5",
+      "page": "326",
+      "fr": "Fureur et Colère",
+      "ru": "Неистовство и Гнев",
+      "en": "Fury and Wrath",
+      "img": [
+        "cartm_furoreira.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagine del Furore, & dell'Ira, & de suoi mali effetti, che sono sprezzar ogni pericolo, benche manifesto di morte & perdita d'honore non riguardando nè à Dio, nè à gl'huomini, nè ad amici ò consanguinei, nè pur al proprio interesse; perdendo il furioso & iracondo la ragione nel furore & nell'ira.",
+      "text_it": [
+        "Imagine del Furore, & dell'Ira, & de suoi mali effetti, che sono sprezzar ogni pericolo, benche manifesto di morte & perdita d'honore non riguardando nè à Dio, nè à gl'huomini, nè ad amici ò consanguinei, nè pur al proprio interesse; perdendo il furioso & iracondo la ragione nel furore & nell'ira."
+      ],
+      "text_ru": [
+        "Изображение Неистовства и Гнева, и их злых последствий, кои суть презрение всякой опасности, хотя бы и явной смерти и утраты чести, не взирая ни на Бога, ни на людей, ни на друзей или кровных родичей, ни даже на собственную выгоду; теряя неистовый и гневливый разум в неистовстве и в гневе."
+      ],
+      "text_en": [
+        "Image of Fury and of Wrath, and of their evil effects, which are to scorn every danger, even manifest death and loss of honor, having regard neither for God, nor for men, nor for friends or kinsmen, nor even for one's own interest; the furious and wrathful man losing his reason in fury and in wrath."
+      ],
+      "text_fr": [
+        "Image de la Fureur, et de la Colère, et de leurs mauvais effets, qui sont de mépriser tout péril, fût-il manifeste de mort et de perte d'honneur, sans égard ni pour Dieu, ni pour les hommes, ni pour les amis ou les parents, ni même pour son propre intérêt ; l'homme furieux et colérique perdant la raison dans la fureur et dans la colère."
+      ],
+      "name_fr": "Fureur et Colère",
+      "group": "Марс",
+      "group_en": "Mars"
+    },
+    {
       "id": "cartm83",
       "num": "136",
       "page": "297-299",
