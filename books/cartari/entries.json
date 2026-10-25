@@ -7237,6 +7237,34 @@
       "group_en": "Cupid"
     },
     {
+      "id": "cartm_panecupido",
+      "num": "156",
+      "page": "422",
+      "fr": "Pan et Cupidon",
+      "ru": "Пан и Купидон",
+      "en": "Pan and Cupid",
+      "img": [
+        "cartm_panecupido.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagine di Pane, & Cupido, l'vno vinto, l'altro vincitore, per mostrare il potere d'Amore sopra la Natura vniuersale, che inuaghita del diletto delle operationi sue, non pensa ad altro, che à farle belle, & adorne.",
+      "text_it": [
+        "Imagine di Pane, & Cupido, l'vno vinto, l'altro vincitore, per mostrare il potere d'Amore sopra la Natura vniuersale, che inuaghita del diletto delle operationi sue, non pensa ad altro, che à farle belle, & adorne."
+      ],
+      "text_ru": [
+        "Изображение Пана и Купидона, один побеждённый, другой победитель, дабы показать власть Любви над всеобщей Природой, что, прельщённая услаждением дел своих, не помышляет ни о чём ином, кроме как делать их прекрасными и нарядными."
+      ],
+      "text_en": [
+        "Image of Pan, and Cupid, the one conquered, the other victor, to show the power of Love over universal Nature, which, enamored of the delight of its own operations, thinks of nothing else, than of making them beautiful, and adorned."
+      ],
+      "text_fr": [
+        "Image de Pan, et de Cupidon, l'un vaincu, l'autre vainqueur, pour montrer le pouvoir de l'Amour sur la Nature universelle, qui, éprise du plaisir de ses propres opérations, ne pense à rien d'autre qu'à les rendre belles, et parées."
+      ],
+      "name_fr": "Pan et Cupidon",
+      "group": "Купидон",
+      "group_en": "Cupid"
+    },
+    {
       "id": "cartm_fortunalieta",
       "num": "144.6",
       "page": "376-377",
