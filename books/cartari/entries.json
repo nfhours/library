@@ -9717,6 +9717,34 @@
       ]
     },
     {
+      "id": "cartm_pignoriamarsia",
+      "num": "carta2.5",
+      "page": "467",
+      "fr": "La Victoire d'Apollon sur Marsyas",
+      "ru": "Победа Аполлона над Марсием",
+      "en": "Apollo's Victory over Marsyas",
+      "img": [
+        "cartm_pignoriamarsia.jpg"
+      ],
+      "group": "Пиньория: примечания",
+      "group_en": "Pignoria's Annotations",
+      "textOnly": true,
+      "name_fr": "La Victoire d'Apollon sur Marsyas",
+      "caption": "Vedasi Seruio sopra la terza Ecloga di Virgilio, & Probo nel medesimo luogo; Palefato, & Filostrato, il vecchio e'l giouane, nelle Imagini.\n\nNe meno celebre appresso i Scrittori è la Vittoria ch'Apolline riportò di Marsia, spiegata nell'infrascritte figure tolte dall'antico doue in vn Cameo si vede Marsia, che suona le Piue, di che vedasi Appuleio nel primo de' Floridi; & in vn'altro la medesima vittoria d'Apoline. in proposito delle quali racconta Apollodoro, che Apolline fece mostra del suo sapere con la Citara suonata a ritroso, & comandando a Marsia, che'l medesimo facesse de' Flauti, che non riuscendo, Marsia vi lasciò la pelle.",
+      "text_it": [
+        "Vedasi Seruio sopra la terza Ecloga di Virgilio, & Probo nel medesimo luogo; Palefato, & Filostrato, il vecchio e'l giouane, nelle Imagini.\n\nNe meno celebre appresso i Scrittori è la Vittoria ch'Apolline riportò di Marsia, spiegata nell'infrascritte figure tolte dall'antico doue in vn Cameo si vede Marsia, che suona le Piue, di che vedasi Appuleio nel primo de' Floridi; & in vn'altro la medesima vittoria d'Apoline. in proposito delle quali racconta Apollodoro, che Apolline fece mostra del suo sapere con la Citara suonata a ritroso, & comandando a Marsia, che'l medesimo facesse de' Flauti, che non riuscendo, Marsia vi lasciò la pelle."
+      ],
+      "text_ru": [
+        "Смотри Сервия к третьей Эклоге Вергилия, и Проба там же; Палефата, и Филострата, старшего и младшего, в «Изображениях».\n\nНе менее славна у Писателей и Победа, которую Аполлон одержал над Марсием, разъяснённая в нижеследующих изображениях, взятых с древности, где на одной Камее виден Марсий, играющий на свирели, о чём смотри у Апулея в первой из «Флорид»; а на другой — та же победа Аполлона. По поводу чего Аполлодор рассказывает, что Аполлон явил своё искусство, играя на Кифаре в обратную сторону, и повелел Марсию сделать то же самое с Флейтами, что тому не удалось, и за то Марсий поплатился там своей кожей."
+      ],
+      "text_en": [
+        "See Servius on Virgil's third Eclogue, and Probus in the same place; Palaephatus, and Philostratus, the elder and the younger, in the Images.\n\nNo less celebrated among Writers is the Victory which Apollo won over Marsyas, explained in the figures given below, taken from antiquity, where in one Cameo is seen Marsyas playing the Pipes, concerning which see Apuleius in the first of the Florida; and in another the same victory of Apollo — regarding which Apollodorus relates that Apollo displayed his skill by playing the Cithara upside down, and commanded Marsyas to do the same with the Flutes, which, not succeeding, cost Marsyas his skin."
+      ],
+      "text_fr": [
+        "Voyez Servius sur la troisième Églogue de Virgile, et Probus au même endroit ; Paléphate, et Philostrate, l'ancien et le jeune, dans les Images.\n\nNon moins célèbre chez les Écrivains est la Victoire qu'Apollon remporta sur Marsyas, expliquée dans les figures ci-dessous, tirées de l'antique, où sur un Camée on voit Marsyas jouant du Chalumeau, sur quoi voyez Apulée au premier livre des Florides ; et sur un autre la même victoire d'Apollon — à propos de quoi Apollodore raconte qu'Apollon fit montre de son savoir en jouant de la Cithare à l'envers, et ordonna à Marsyas d'en faire autant avec les Flûtes, ce qui, n'y parvenant pas, coûta la peau à Marsyas."
+      ]
+    },
+    {
       "id": "cartf1",
       "num": "209",
       "page": "507",
