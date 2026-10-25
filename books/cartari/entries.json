@@ -7017,6 +7017,34 @@
       "group_en": "Fortune"
     },
     {
+      "id": "cartm_fortunacauallo",
+      "num": "148.9",
+      "page": "398",
+      "fr": "La Fortune à cheval",
+      "ru": "Фортуна верхом на коне",
+      "en": "Fortune on horseback",
+      "img": [
+        "cartm_fortunacauallo.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagine della Fortuna à cauallo che velocemente corre, dal Fato & dal Destino seguitata, dinotante la velocità di quella, & doue questi sono, quella non hauer possa ò fermezza alcuna.",
+      "text_it": [
+        "Imagine della Fortuna à cauallo che velocemente corre, dal Fato & dal Destino seguitata, dinotante la velocità di quella, & doue questi sono, quella non hauer possa ò fermezza alcuna."
+      ],
+      "text_ru": [
+        "Изображение Фортуны верхом на коне, стремительно бегущей, преследуемой Роком и Судьбою, означающее быстроту её, и что там, где они есть, она не имеет никакой власти или твёрдости."
+      ],
+      "text_en": [
+        "Image of Fortune on horseback, running swiftly, pursued by Fate, and by Destiny, denoting her speed, and that where these are, she has no power, or steadiness at all."
+      ],
+      "text_fr": [
+        "Image de la Fortune à cheval, courant rapidement, poursuivie par le Destin, et par la Fatalité, dénotant sa vitesse, et que là où ceux-ci se trouvent, elle n'a aucun pouvoir, ni aucune fermeté."
+      ],
+      "name_fr": "La Fortune à cheval",
+      "group": "Фортуна",
+      "group_en": "Fortune"
+    },
+    {
       "id": "cartm_fortunalieta",
       "num": "144.6",
       "page": "376-377",
