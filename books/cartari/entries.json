@@ -6690,6 +6690,34 @@
       "group_en": "Bacchus"
     },
     {
+      "id": "cartm_baccosole",
+      "num": "140.6",
+      "page": "344",
+      "fr": "Bacchus, allégorie solaire",
+      "ru": "Вакх, солнечная аллегория",
+      "en": "Bacchus, solar allegory",
+      "img": [
+        "cartm_baccosole.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagine di Bacco significante li effetti del vino, del quale fù l'inuentore; & secondo Macrobio li varij effetti del Sole essendo da lui per il Sole inteso, cioè la varietà delle stagioni dell'anno: & animali à lui sacrati.",
+      "text_it": [
+        "Imagine di Bacco significante li effetti del vino, del quale fù l'inuentore; & secondo Macrobio li varij effetti del Sole essendo da lui per il Sole inteso, cioè la varietà delle stagioni dell'anno: & animali à lui sacrati."
+      ],
+      "text_ru": [
+        "Изображение Вакха, означающее действия вина, коего он был изобретателем; а согласно Макробию — различные действия Солнца, поскольку под ним разумеется Солнце, то есть разнообразие времён года: и животных, ему посвящённых."
+      ],
+      "text_en": [
+        "Image of Bacchus, signifying the effects of wine, of which he was the inventor; and according to Macrobius the various effects of the Sun, he being understood as the Sun, that is, the variety of the seasons of the year: and the animals sacred to him."
+      ],
+      "text_fr": [
+        "Image de Bacchus, signifiant les effets du vin, dont il fut l'inventeur ; et selon Macrobe les divers effets du Soleil, étant entendu par lui pour le Soleil, c'est-à-dire la variété des saisons de l'année : et les animaux qui lui sont consacrés."
+      ],
+      "name_fr": "Bacchus, allégorie solaire",
+      "group": "Вакх",
+      "group_en": "Bacchus"
+    },
+    {
       "id": "cartm_martescithi",
       "num": "138",
       "page": "328-329",
