@@ -5752,7 +5752,7 @@
     {
       "id": "cartm70",
       "num": "115",
-      "page": "238-240",
+      "page": "238-241",
       "fr": "Imagini di Aletto, Tisifone e Megera, le tre Furie",
       "ru": "Образы Алекто, Тисифоны и Мегеры, трёх Фурий",
       "en": "The images of Alecto, Tisiphone, and Megaera, the three Furies",
@@ -5779,18 +5779,12 @@
     {
       "id": "cartm71",
       "num": "116",
-      "page": "283",
+      "page": "241-243",
       "fr": "Imagine delle Arpie, Streghe e Lamie",
       "ru": "Образ Гарпий, Ведьм и Ламий",
       "en": "The image of the Harpies, Witches, and Lamias",
       "img": [
         "cartm71.jpg"
-      ],
-      "scans": [
-        "cartm71.jpg",
-        "cartm71_p284.jpg",
-        "cartm71_p285.jpg",
-        "cartm72_p287.jpg"
       ],
       "group": "Плутон",
       "group_en": "Pluto",
