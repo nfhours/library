@@ -6497,6 +6497,34 @@
       "group_en": "Minerva"
     },
     {
+      "id": "cartm_giouefulmgiganti",
+      "num": "135.9",
+      "page": "317",
+      "fr": "Jupiter foudroyant les Géants",
+      "ru": "Юпитер, поражающий молнией Гигантов",
+      "en": "Jove thunderbolting the Giants",
+      "img": [
+        "cartm_giouefulmgiganti.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Imagine di Gioue fulminatore de i Giganti, che con le gambe loro di Serpe rappresentano gli empij sprezzatori di Dio, che non fanno mai cosa, che sia dritta nè giusta.",
+      "text_it": [
+        "Imagine di Gioue fulminatore de i Giganti, che con le gambe loro di Serpe rappresentano gli empij sprezzatori di Dio, che non fanno mai cosa, che sia dritta nè giusta."
+      ],
+      "text_ru": [
+        "Изображение Юпитера, поражающего молнией Гигантов, которые своими змеиными ногами представляют нечестивых презрителей Бога, никогда не совершающих ничего прямого и справедливого."
+      ],
+      "text_en": [
+        "Image of Jove thunderbolting the Giants, who with their serpent legs represent the impious despisers of God, who never do anything that is straight or just."
+      ],
+      "text_fr": [
+        "Image de Jupiter foudroyant les Géants, qui par leurs jambes de Serpent représentent les impies contempteurs de Dieu, qui ne font jamais rien qui soit droit ni juste."
+      ],
+      "name_fr": "Jupiter foudroyant les Géants",
+      "group": "Минерва",
+      "group_en": "Minerva"
+    },
+    {
       "id": "cartm83",
       "num": "136",
       "page": "297-299",
