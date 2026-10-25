@@ -6936,6 +6936,34 @@
       "group_en": "Fortune"
     },
     {
+      "id": "cartm_occasione",
+      "num": "148.6",
+      "page": "390",
+      "fr": "L'Occasion (le dieu Kairos)",
+      "ru": "Случай (бог Кер)",
+      "en": "Occasion (the god Kairos)",
+      "img": [
+        "cartm_occasione.jpg"
+      ],
+      "textOnly": true,
+      "caption": "Hieroglifico denotante la buona Fortuna quasi sempre andare con l'Eloquenza, & con la Dottrina, & l'imagine dell'Occasione, & opportunità da Greci detta il Dio Chero qual chi non prende quando si appresenta in vano poi si cerca e si pentisce.",
+      "text_it": [
+        "Hieroglifico denotante la buona Fortuna quasi sempre andare con l'Eloquenza, & con la Dottrina, & l'imagine dell'Occasione, & opportunità da Greci detta il Dio Chero qual chi non prende quando si appresenta in vano poi si cerca e si pentisce."
+      ],
+      "text_ru": [
+        "Иероглиф, означающий, что добрая Фортуна почти всегда идёт вместе с Красноречием и с Учёностью, и изображение Случая, или удобного мгновения, называемого греками богом Кер, которого кто не ухватит, когда он является, тот после тщетно его ищет и раскаивается."
+      ],
+      "text_en": [
+        "A hieroglyph denoting that good Fortune almost always goes together with Eloquence, and with Learning, and the image of Occasion, or opportunity, called by the Greeks the God Kairos, whom whoever does not seize when he presents himself afterward seeks in vain, and repents."
+      ],
+      "text_fr": [
+        "Hiéroglyphe dénotant que la bonne Fortune va presque toujours avec l'Éloquence, et avec la Doctrine, et l'image de l'Occasion, ou opportunité, appelée par les Grecs le Dieu Kairos, lequel celui qui ne saisit pas quand il se présente le cherche ensuite en vain, et s'en repent."
+      ],
+      "name_fr": "L'Occasion (le dieu Kairos)",
+      "group": "Фортуна",
+      "group_en": "Fortune"
+    },
+    {
       "id": "cartm_fortunalieta",
       "num": "144.6",
       "page": "376-377",
