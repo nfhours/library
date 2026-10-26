@@ -5,16 +5,17 @@
   "verdict": "minor",
   "issues": [
     {
-      "field": "text_ru",
+      "field": "ru",
       "issue_id": "v1-45-5-1",
       "fields": [
+        "ru",
         "text_ru"
       ],
-      "paragraph": 1,
+      "paragraph": null,
       "type": "name",
       "original": "Une branche d'Olives qui entoure une masse d'armes.",
-      "current": "Оливковая ветвь, обвивающая связку оружия.",
-      "suggested": "masse d'armes — булава (палица), не «связка оружия»; на гравюре (v1-45 №5) ветвь обвивает булаву: «Оливковая ветвь, обвивающая булаву»",
+      "current": "Оливковая ветвь, обвивающая связку оружия. (ru и text_ru §1)",
+      "suggested": "masse d'armes — булава (палица), не «связка оружия»; на гравюре (v1-45 №5) ветвь обвивает булаву: заголовок и text_ru «Оливковая ветвь, обвивающая булаву»",
       "confidence": "medium"
     }
   ]

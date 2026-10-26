@@ -1,0 +1,21 @@
+{
+  "id": "v1-47-5",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-47-5-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "La bonté de Dieu nous rend joyeux.",
+      "current": "Благость Божья дарит нам этот досуг.",
+      "suggested": "«дарит нам этот досуг» — из латинского девиза (Deus nobis hæc otia fecit); французское: «Благость Божья делает нас радостными»",
+      "confidence": "medium"
+    }
+  ]
+}
