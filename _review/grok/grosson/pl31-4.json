@@ -1,0 +1,21 @@
+{
+  "id": "pl31-4",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl29-5-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "faisoit partie du quartier de Paradis,",
+      "current": "входила в состав квартала Paradis",
+      "suggested": "топоним оставлен латиницей; в pl21-2 RU — «кладбище Паради» (та же ошибка, что pl29-5-1). Унифицировать: «Паради»: «…квартала Паради»",
+      "confidence": "low"
+    }
+  ]
+}

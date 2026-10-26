@@ -1,0 +1,23 @@
+{
+  "id": "pl32-1",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "pl32-1-1",
+      "fields": [
+        "ru",
+        "material_ru",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Patère en pierre de Jade, trouvée dans les terrains des quartiers de la Major, en 1766.",
+      "current": "ru «Патера из яшмы (нефрита)»; material_ru «яшма (нефрит)»; text_ru «Патера из яшмы (нефрита)»",
+      "suggested": "jade — «нефрит» (жадеит); «яшма» — jaspe, другой камень. ru «Патера из нефрита»; material_ru «нефрит»; text_ru «Патера из нефрита…»",
+      "confidence": "high"
+    }
+  ]
+}

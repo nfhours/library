@@ -1,0 +1,22 @@
+{
+  "id": "pl31-2",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl31-2-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 2,
+      "type": "addition",
+      "original": "sa forme singulière n'avoit été adoptée que par les seuls Marseillois.",
+      "current": "RU «была принята, как мне казалось, лишь одними марсельцами»; EN «its singular shape, I believed, had been adopted by the Marseillais alone»",
+      "suggested": "оговорка «как мне казалось» / «I believed» добавлена переводчиками (видимо, ради согласования с прим. 83, где Гроссон сам признаёт ошибку). В тексте — прямое утверждение: RU «…была принята лишь одними марсельцами»; EN «…had been adopted by the Marseillais alone»; поправку оставить прим. 83",
+      "confidence": "medium"
+    }
+  ]
+}

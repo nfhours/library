@@ -1,0 +1,22 @@
+{
+  "id": "pl30-6",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl29-5-1",
+      "fields": [
+        "text_ru",
+        "findspot_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "trouvée dans les terrains du quartier de Paradis,",
+      "current": "text_ru «на землях квартала Paradis»; findspot_ru «квартал Paradis»",
+      "suggested": "топоним оставлен латиницей; в pl21-2 RU — «кладбище Паради» (та же ошибка, что pl29-5-1). Унифицировать: «Паради»: «…квартала Паради» / «квартал Паради»",
+      "confidence": "low"
+    }
+  ]
+}

@@ -34,3 +34,5 @@ pl22-2,legend,,"engraving medallion: D·M / IVLIÆ QVIN/TINÆ COSSV/TIA HYCLA / 
 pl25-2..pl30-3,structured,,"batch 8: material/legend/findspot ru/en checked against fr; no meaning-changing contradictions (pl29-5 findspot_ru Latin script → pl29-5-1)",ok
 pl29-3,legend,,"engraving underside cartouche ΑΝΙΣΣΕΝ — matches legend_*",info
 pl29-8,legend,,"engraving shows the seal face retrograde, abbreviated: M·COS(ligature?) / CHRESIMI; legend_* gives Grosson's expanded reading MARCI COSSVTII CHRESIMI — consistent with text, not a contradiction; exact ligature проверить по фото",info
+pl30-4..pl33-1,structured,,"batch 9: material/legend/findspot ru/en checked against fr; pl32-1 material_ru mistranslates jade (→ pl32-1-1); pl30-6 findspot_ru Latin script (→ pl29-5-1); pl32-3 heading over-states attribution (→ pl32-3-1)",ok
+pl32-7,legend,,"engraving: ΛΕΥΔΗΜΟΣ ΔΙΟΝΥΣΙΟΥ / ΓΕΒΑΙΤΕΡΟΣ ΝΙΚΗΣΑΣ / ΕΦΗΒΟΥΣ ΕΥ ΤΑΞΙΑΙ / ΚΑΙ ΓΙΜΑΣΙΑΡΧΗΣΑΣ ΔΙΣ — matches legend_* (incl. Grosson's ΓΕΒΑΙΤΕΡΟΣ / ΓΙΜΑΣΙΑΡΧΗΣΑΣ spellings)",info

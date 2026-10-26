@@ -1,0 +1,24 @@
+{
+  "id": "pl32-3",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "fr",
+      "issue_id": "pl32-3-1",
+      "fields": [
+        "fr",
+        "name_fr",
+        "ru",
+        "en"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "ce n'est qu'un Autel consacré à Cybèle, ou à telle autre Divinité à qui on attribuoit la protection & la conservation des productions de la terre.",
+      "current": "fr/name_fr «Autel en marbre blanc (consacré à Cybèle)»; ru «…(посвящённый Кибеле)»; en «…(consecrated to Cybele)»",
+      "suggested": "заголовок делает атрибуцию категоричной; у Гроссона — «Кибеле или иному божеству плодов земли». fr «Autel en marbre blanc (Cybèle ou divinité des productions de la terre)»; ru «Алтарь из белого мрамора (Кибеле или иному божеству плодородия)»; en «White-marble altar (to Cybele or another deity of the earth's produce)»",
+      "confidence": "medium"
+    }
+  ]
+}

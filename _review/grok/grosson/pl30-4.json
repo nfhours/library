@@ -1,0 +1,21 @@
+{
+  "id": "pl30-4",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl30-4-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Mr. Cresp, Commissaire de la Marine, est possesseur d'une toute semblable;",
+      "current": "Г-н Крепс, комиссар флота, владеет совершенно подобной;",
+      "suggested": "фамилия искажена (перестановка букв): Cresp → «Кресп». EN «M. Cresp» верно",
+      "confidence": "high"
+    }
+  ]
+}

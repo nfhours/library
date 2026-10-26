@@ -1,0 +1,22 @@
+{
+  "id": "pl31-7",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl31-7-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "Tous ces monumens sont de différentes proportions, & ne sortent point du même moule, ils étoient donc d'un usage multiplié:",
+      "current": "RU «следовательно, их назначение было множественным»; EN «they were therefore put to multiple uses»",
+      "suggested": "d'un usage multiplié — «в широком (частом) употреблении»: разные формы → много изготовлялось, а не «много назначений». RU «…следовательно, они были в широком употреблении»; EN «…they were therefore in widespread use»",
+      "confidence": "medium"
+    }
+  ]
+}
