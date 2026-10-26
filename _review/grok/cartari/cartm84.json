@@ -32,8 +32,9 @@
       "type": "ocr",
       "original": "dapoi spiegaua vn'hasta ne' capi de' nemici",
       "current": "вонзал копьё в земли вождей неприятелей",
-      "suggested": "метал копьё в поля (земли) неприятелей — «capi», вероятно, опечатка за «campi»; «вождей» — контаминация; EN «in the chiefs' lands of the enemies» → «into the enemies' fields», не уверен",
-      "confidence": "medium"
+      "suggested": "метал копьё в поля (земли) неприятелей — «capi» — опечатка издания (так в печати), вероятно за «campi»; «вождей» — контаминация; EN «in the chiefs' lands of the enemies» → «into the enemies' fields», не уверен",
+      "confidence": "medium",
+      "scan_check": "Сверка со сканом (с. 301): в печати «capi» — опечатка издания (вероятно за «campi», не уверен); text_it верен печати."
     },
     {
       "field": "text_ru",
@@ -87,8 +88,9 @@
       "type": "mistranslation",
       "original": "dapoi spiegaua vn'hasta ne' capi de' nemici",
       "current": "il plantait une pique dans les terres des chefs ennemis",
-      "suggested": "il lançait une pique dans les champs des ennemis («capi», вероятно, опечатка за «campi»; не уверен; та же ошибка в RU/EN)",
-      "confidence": "low"
+      "suggested": "il lançait une pique dans les champs des ennemis («capi» — опечатка издания (так в печати), вероятно за «campi»; не уверен; та же ошибка в RU/EN)",
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 301): в печати «capi» — опечатка издания (вероятно за «campi», не уверен); text_it верен печати."
     },
     {
       "field": "text_fr",
@@ -103,6 +105,27 @@
       "current": "Que j'offre humblement à ta divine dévotion.",
       "suggested": "Que moi, dévot, j'offre humblement à ta Divinité («diuoto» относится к молящемуся; та же ошибка в EN; RU верно)",
       "confidence": "medium"
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm84-2",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/301.jpg",
+      "page": "301",
+      "region": "нижняя часть",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "O Dea feroce del gran padre honore,\nDe le guerre terribile padrona,\nCui orna il capo con vn vago horrore\nIl forte elmo, & il petto la Gorgona\nDi sangue sparsa, e de la qual maggiore\nForza non haue Marte, nè Bellona\nNe le battaglie, accetta hor il mio voto,\nCh'io porgo humile al tuo Nume diuoto.\n\nFu dunque Bellona appresso de gli antichi vna Dea tutta piena d'ira, & di furore, & alla quale credettero che dilettasse assai di veder spargere il sangue humano, onde fu; che ne' suoi sacrificij in vece di vittima i Sacerdoti stessi si pungeuano con le coltella le braccia, e le spalle, & la placauano col proprio sangue. Questa fu fatta alcuna volta con vna sferza in mano, con la quale attaccaua le fere battaglie, e talhora la faceuano anco con vna tromba alla bocca, come che desse il segno del fatto d'arme, e alle volte la fecero con vna ardente face in mano; perciòche si legge appresso di Licrofone, che soleuano gli antichi prima che fossero trouate le trombe, quando eran per fare battaglia, mandare dauanti à gli esserciti alcuni con accese faci in mano, le quali si gittauano contra dall'vna parte, & dall'altra, e cominciauano poi la sanguinosa battaglia. Di che intese Statio, quando disse, che al cominciare di vn fatto d'arme Bellona fu la prima, che mostrasse l'ardente facella. Et Claudiano parimente parlò secondo questa vsanza de gli antichi dicendo,\n\nTisifone l'acceso pino scuote\nCon mano, che miseria sempre apporta:\nEt a le triste insegne fa raccore\nLe pallide ombre à la battaglia preste.\n\nLeggesi ancora che dauanti al tempio di Bellona fu certa colonna non molto grande, la quale i Romani chiamauano la colonna Bellica, perche deliberato che haueuano di fare alcuna guerra, à quella andaua l'vno de i Consoli, poscia che haueua aperto il tempio di Giano, & quindi lanciaua vn'hasta verso la parte, oue era il populo nimico, & intendeuasi, che allhora fosse, come diremmo noi gridata la guerra. Ma innanzi, che hauessero i Romani tanto dilatato i confini, così dichiarauano la guerra. Mandauano à questi vn Sacerdote à ciò deputato, ilquale quiui narraua le giuste cagioni, che essi haueuano di mouere la guerra, dapoi spiegaua vn'hasta ne' capi de' nemici. Fu anco in altre maniere gridata & dichiarata la guerra appresso de gli antichi, come hò già detto nella imagine di Giano, & dirò\n\ndirò in quella di Marte, se verrà à proposito. Et concludendo di Bellona, dico, ch'ella fu differente almeno di imagine da Minerua.",
+      "orig_after": null,
+      "verdict": "edition_error",
+      "translation_affected": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "note": "В печати «capi» — опечатка издания (вероятно вместо «campi», не уверен). text_it верен печати. Маргиналия «Licrofonte» (в тексте «Licrofone») — пометка на полях, не ошибка.",
+      "pass": "B",
+      "batch": 1
     }
   ]
 }

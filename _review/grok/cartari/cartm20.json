@@ -33,7 +33,8 @@
       "original": "così grande, che stendendo do le mani toccaua ambi gli lati del tempio",
       "current": "что, простираясь... простирая руки, касался",
       "suggested": "что, простирая руки, касался обеих стен храма",
-      "confidence": "high"
+      "confidence": "high",
+      "scan_check": "Сверка со сканом (с. 67/69): «do» — кустода с. 67, внесённая при транскрипции; в печати «stendendo le mani»."
     },
     {
       "field": "text_en",
@@ -48,7 +49,8 @@
       "original": "così grande, che stendendo do le mani toccaua ambi gli lati del tempio",
       "current": "so great that, stretching... stretching out, touched both sides",
       "suggested": "so great that, stretching out its hands, it touched both sides of the temple",
-      "confidence": "high"
+      "confidence": "high",
+      "scan_check": "Сверка со сканом (с. 67/69): «do» — кустода с. 67, внесённая при транскрипции; в печати «stendendo le mani»."
     },
     {
       "field": "text_fr",
@@ -62,8 +64,30 @@
       "type": "ocr",
       "original": "che stendendo do le mani toccaua ambi gli lati del tempio",
       "current": "si grand qu'en s'étendant... s'étendant, touchait",
-      "suggested": "si grand qu'en étendant les mains il touchait les deux côtés du temple («do le mani» — сбой набора; «руки» потеряны)",
-      "confidence": "low"
+      "suggested": "si grand qu'en étendant les mains il touchait les deux côtés du temple («do» — кустода, внесённая при транскрипции; в издании «stendendo le mani»)",
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 67/69): «do» — кустода с. 67, внесённая при транскрипции; в печати «stendendo le mani»."
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm20-2",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/067.jpg",
+      "page": "67 → 69",
+      "region": "с. 67, последняя строка «stenden-» + кустода «do»; с. 69, 1-я строка (с. 68 — гравюра)",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "Leggesi ancora, che sotto il nome di Serapi intesero del Sole in Egitto, benche lo mettessero pur'anco alle volte per Gioue. Onde faceuano la sua statoa in forma di huomo, che portaua in capo vn moggio quasi, volesse mostrare, che in tutte le cose bisogna vsare la conueneuole misura. Et Suida riferisce, che alcuni dissero che egli era il Nilo, ilquale con quel moggio che haueua in capo, & con certo bastone, che si adopera a misurare, voleua dire, che bisognaua che le acque sue si spargessero con certa misura, per fare fecondo l'Egitto. A canto a costui staua, come scriue Macrobio, vna figura con tre capi, che si vniuano in vn corpo solo, intorno alquale era auolto vn serpente in modo, che lo nascondeua tutto, & porgeua la testa sotto la sua destra mano, come che egli sia padrone di tutto il tempo mostrato per gli tre capi, ch'io dissi. Delli quali l'vno, quel di mezo, che era di Lione; significaua il tempo presente, perche questo, posto frà il passato, & quello che hà da venire, è in fatti, & hà forza maggiore, che gli altri. L'altro dalla parte destra di piaceuole cane mostraua che il tempo a venire con noue speranze ci lusinga sempre. Et il terzo dalla sinistra di lupo rapace, voleua dire, che il tempo passato rapisce tutte le cose, & se le diuora in modo, che di molte non lascia memoria alcuna. Hebbe ancora questo Dio in Alessandria Città dello Egitto nel tempio a lui dedicato vn simulacro, fatto di tutte le sorti metalli, & legni, così grande, che stendendo do le mani toccaua ambi gli lati del tempio, & eraui vna picciola finestretta fatta con tal arte, che il Sole sempre al primo suo apparire entrando per quella veniua ad illustrare la faccia del gran simulacro, il che vedendo il popolo cominciò a credere, & dire, che il Sole ogni mattina veniua a salutare Serapi, & a baciarlo.\n\nEt in Thebe Città parimente dell'Egitto, nel tempio pure di costui (come scriue Plinio) fu vna statoa di certo marmo duro, & fosco, come il ferro, che fu creduta Mennone; laquale ogni mattina tocca da' raggi del Sole al suo primo apparire faceua certo stridore, & lieue mormorio, come volesse parlare.",
+      "orig_after": "Leggesi ancora, che sotto il nome di Serapi intesero del Sole in Egitto, benche lo mettessero pur'anco alle volte per Gioue. Onde faceuano la sua statoa in forma di huomo, che portaua in capo vn moggio quasi, volesse mostrare, che in tutte le cose bisogna vsare la conueneuole misura. Et Suida riferisce, che alcuni dissero che egli era il Nilo, ilquale con quel moggio che haueua in capo, & con certo bastone, che si adopera a misurare, voleua dire, che bisognaua che le acque sue si spargessero con certa misura, per fare fecondo l'Egitto. A canto a costui staua, come scriue Macrobio, vna figura con tre capi, che si vniuano in vn corpo solo, intorno alquale era auolto vn serpente in modo, che lo nascondeua tutto, & porgeua la testa sotto la sua destra mano, come che egli sia padrone di tutto il tempo mostrato per gli tre capi, ch'io dissi. Delli quali l'vno, quel di mezo, che era di Lione; significaua il tempo presente, perche questo, posto frà il passato, & quello che hà da venire, è in fatti, & hà forza maggiore, che gli altri. L'altro dalla parte destra di piaceuole cane mostraua che il tempo a venire con noue speranze ci lusinga sempre. Et il terzo dalla sinistra di lupo rapace, voleua dire, che il tempo passato rapisce tutte le cose, & se le diuora in modo, che di molte non lascia memoria alcuna. Hebbe ancora questo Dio in Alessandria Città dello Egitto nel tempio a lui dedicato vn simulacro, fatto di tutte le sorti metalli, & legni, così grande, che stendendo le mani toccaua ambi gli lati del tempio, & eraui vna picciola finestretta fatta con tal arte, che il Sole sempre al primo suo apparire entrando per quella veniua ad illustrare la faccia del gran simulacro, il che vedendo il popolo cominciò a credere, & dire, che il Sole ogni mattina veniua a salutare Serapi, & a baciarlo.\n\nEt in Thebe Città parimente dell'Egitto, nel tempio pure di costui (come scriue Plinio) fu vna statoa di certo marmo duro, & fosco, come il ferro, che fu creduta Mennone; laquale ogni mattina tocca da' raggi del Sole al suo primo apparire faceua certo stridore, & lieue mormorio, come volesse parlare.",
+      "verdict": "transcription_error",
+      "translation_affected": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "note": "«do» — кустода, а не сбой набора; в печати «stenden-|do le mani». Исправления переводов в issue верны.",
+      "pass": "B",
+      "batch": 1
     }
   ]
 }

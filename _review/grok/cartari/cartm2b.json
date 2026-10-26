@@ -90,7 +90,8 @@
       "original": "e à gli altri rai s'inchina",
       "current": "before his other rays bows",
       "suggested": "before his lofty rays bows (вероятно «alti rai»; «other» бессмысленно) — не уверен в чтении оригинала",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 19): в издании «altri» — text_it верен; «alti» — конъектура, не уверен."
     },
     {
       "field": "text_ru",
@@ -187,7 +188,8 @@
       "original": "e à gli altri rai s'inchina",
       "current": "devant ses autres rayons s'incline",
       "suggested": "devant ses hauts rayons s'incline (вероятно «alti rai»; «autres» бессмысленно) — не уверен",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 19): в издании «altri» — text_it верен; «alti» — конъектура, не уверен."
     },
     {
       "field": "text_fr",
@@ -201,6 +203,23 @@
       "current": "que Dieu est Éternel et le monde perpétuel [à la façon d'une continuité]",
       "suggested": "que Dieu est Éternel et le monde perpétuel (пояснение в скобках — добавление переводчика, в text_it его нет)",
       "confidence": "low"
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm2b-4",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/019.jpg",
+      "page": "19",
+      "region": "верхняя треть, стихи",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "Però dico, che la Eternita stava sempre con quelli Dei, che erano creduti immortali; la quale chi ella fosse dimostra assai bene col nome solo che viene a dire cosa, che in sè còtiene tutte le età, & tutti i secoli, sì che spatio alcuno di tempo non la può misurare: benche si possa dire a certo modo, che ella sia parimente tempo, ma che non hà mai fine. Et perciò Trismegisto, i Pitagorici, & Platone dissero, che era il tempo la imagine della Eternità; perche questo in se stesso si riuolue, & pare che non se ne veggia mai il fine. Ma questa si può dire più tosto Perpetuità; perche, ancora che non habbia mai fine, non possiede però interamente tutta in vn medesimo punto questa sua vita infinita; che è proprio della Eternità, secondo Boetio; ilquale dice, che, se bene parue a Platone che il mondo non habbi hauuto principio, nè sia per hauere mai fine, si ingannano però quelli, liquali seguitando questa opinione lo chiamano coeterno a Dio; perche a dare il suo proprio nome alle cose, hanno da dire, tenendo anco la opinione di Platone, che Dio è Eterno & il modo perpetuo. Descriue dunque Boetio la Eternità, che sia vn possesso presentaneo di tutti i tempi, & questa è propria di Dio, perche a lui non passa, nè viene il tempo, come a tutte le cose create; ancora che qualch'vna fosse per non hauere mai fine. Ma non la cerchiamo per hora tanto a minuto, come forse non la cercarono gli antichi, quando dissero eterni li suoi Dei, volendo perciò intendere che fossero immortali, & per non hauere mai fine, & che la Eternità fosse questa infinità di tempo. Onde Claudiano, che largamente la descriue nelle laudi di Stilicone, fà che vn serpente circonda l'antro, oue ella stà, in modo che si caccia la coda in bocca, che viene a mostrare l'effetto del tempo, ilquale in se stesso si và girando sempre, hauendone tolto l'essempio da quelli di Egitto, liquali mostrauano l'anno parimente col serpente, che si mordeua la coda; perche sono i tempi giunti insieme così, che il fine del passato è quasi principio di quel che hà da venire. Vedesi la Eternità in vna medaglia di Faustina fatta in questa guisa. Stà vna donna vestita da matrona in piè con vna palla nella destra mano, & hà sopra'l capo vn largo velo disteso, che la cuopre dall'vno homero all'altro. Ma vediamo tutto il disegno, che ne fà Claudiano, da me ritratto in nostra lingua à questo modo.\n\nIn parte sì da noi lunge, e secreta,\nCh'alcun mortal vestigio non v'appare,\nOu'a l'humana mente il gir si vieta,\nNè vi ponno anco i Dei forse arriuare,\nVna spelonca giace d'anni lieta,\nMadre d'infiniti anni, e d'età pare,\nLaqual con modo, ch'unqua non vien meno,\nManda, e richiama i tempi a l'ampio seno.\n\nQuesta col flessuoso corpo cinge\nUn serpe pien di verdeggianti squame,\nQual ciò, che troua auidamente stringe\nCome che diuorar ei tutto brame,\nE la coda si caccia in gola, e finge\nVoler mangiarla con auida fame.\nVassene in giro, e con l'usate tempre,\nOnde partì, cheto ritorna sempre.\n\nA la porta con faccia riuerenda,\nEt d'anni piena stà l'alma Natura,\nCome custode, che fedele attenda\nChi vien', & và con diligente cura;\nD'intorno volan l'anime, e che penda\nCiascuna par con debita figura\nDa le membra, ch'à lei son date in sorte,\nE stan con lei fino che piace à Morte.\n\nNe l'antro poi, ne la spelonca immensa\nVn Vecchio, c'hà di bianca neue asperso\nIl mento, e'l crine, stà, scriue e dispensa\nLe ferme leggi date à l'Vniuerso.\nE mentre ch'à disporre il tutto pensa\nCon l'animo al bell'ordine conuerso,\nCerti numeri parte tra le stelle,\nOnde n'appaion poi sì vaghe e belle.\n\nCon ordine immutabili prescriue\nA ciascuna quando habbia à gir, ò stare\nDa che quanto tra noi si more, ò viue,\nHà vita, e morte, poi torna à guardare\nE riueder come al suo corso arriue\nMarte, qual, bench'auezzo à caminare\nPer via certa, và pur à certo fine;\nChe così voglion le leggi diuine.\n\nCome con certo passo giri intorno\nGioue portando giouamento al mondo,\nCome la Luna si nasconda il giorno,\nE tosto muti il bel lume fecondo,\nCome partendo sia tardo al ritorno\nSaturno horrido, mesto, & infecondo,\nQuanto Venere bella, e doppo lei\nErrando vada il messaggier de i Dei.\n\nE quando Febo à l'antro s'auuicina\nSubito ad incontrarlo la potente\nNatura viene, e à gli altri rai s'inchina\nIl bianco Vecchio humile, e riuerente.\nAll'hora da sè s'apre la diuina\nSpelonca, allhor si vegono patente\nL'adamantine porte, e a poco à poco\nTutti i secreti appaion di quel loco.\n\nQuiui i secoli sono di diuersi\nMetalli fatti in variati aspetti,\nE pare ciaschedun di lor tenersi\nNel seggio suo con suoi compagni eletti,\nQuesto è di ferro, onde souente fersi\nI mortali frà lor danni, e dispetti;\nDi rame quello, al cui gouerno è stato\nIl mondo tutto Vn poco men turbato.\n\nVn n'è d'argento, che risplende\nIn bel seggio eleuato d'ogn'intorno;\nMa di rado trà noi mortai discende\nA far di sì bel lume il mondo adorno.\nQuello, che più de gli altri in alto ascende\nÈ d'oro, e d'oro son quei, ch'egli hà intorno,\nTutti pieni di fede, e di prudenza,\nDi bontà, di giustitia, e di clemenza.\n\nE son gli anni beati, ch'à mortali\nApporteran felicitade immensa,\nAll'hor, ch'haurà pietà de' nostri mali\nFebo, che questi à modo suo dispensa,\nEt farà, che dal Ciel spiegando l'ali\nLa bella Astrea di nuouo amor' accensa\nDi riueder il mondo à star frà noi\nVerrà senza più mai partirne poi.\n\nLa descrittione, & il disegno di questo antro, ò spelonca, che vogliamo dire, ci mostra, come l'espone il Boccaccio; che la Eternità va sopra a tutti i tempi. & perciò ella è di lunge, & incognita non solamente à mortali, ma quasi ancora a Dei celesti, cioè a quelle beate anime, che sono sù ne i Cieli. Et dal gran seno manda alla spelonca i tempi, & questi richiama pur'anco al medesimo; perche in lei hanno hauuto già principio, & riuolgendosi in se stessi paiono vscire da quella, & ritornare anco alla medesima. Et fassi questo tacitamente, perche non ce n'auuedendo noi, passa il tempo, come di nascosto. Alla porta, oue stà la Natura, vanno volando molte anime intorno, perche scendono ne i corpi mortali, d'onde vscendo poi vanno in grembo alla Eternità, il che tutto si fà per opra della Natura, & perciò ella stà quiui alla porta.",
+      "orig_after": null,
+      "verdict": "ok",
+      "translation_affected": [],
+      "note": "В издании напечатано «altri» — text_it совпадает. «alti» — только конъектура, не уверен.",
+      "pass": "B",
+      "batch": 1
     }
   ]
 }

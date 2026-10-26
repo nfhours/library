@@ -33,7 +33,8 @@
       "original": "in vna notte i Topi rosero loro",
       "current": "в некую ночью мыши изгрызли",
       "suggested": "в одну ночь мыши изгрызли (в EN «in a in the night» → «in one night»)",
-      "confidence": "high"
+      "confidence": "high",
+      "scan_check": "Сверка со сканом (с. 76/78): text_it совпадает с изданием; ошибка только в переводах."
     },
     {
       "field": "text_ru",
@@ -91,7 +92,25 @@
       "original": "in vna notte i Topi rosero",
       "current": "en une de nuit",
       "suggested": "en une nuit (опечатка)",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 76/78): text_it совпадает с изданием; ошибка только в переводах."
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm26-2",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/076.jpg",
+      "page": "76 → 78",
+      "region": "с. 76, последняя строка + кустода «notte»; с. 78, 1-я строка",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "Lo qual nome fu nome della figliuola di Esculapio, come hò detto, adorata da gli antichi insieme con il padre, con il quale posero spesso la statoa di costei, come dice Pausania, che fu in certo luoco del paese di Corinto, oue la statoa di Esculapio era vestita di vna tonica di lana con vn manto sopra, che lo copriua tutto, nè gli vedea altro, che la faccia, le mani, & i piedi. Et Higeia parimente tutta coperta, parte con capelli, che si haueuano tagliati le donne, & offerti alla Dea, parte con alcuni sottilissimi veli tutti frastagliati. Mà ritorniamo al Sole, i cui raggi purgando l'aria fanno, che la terra ancora produce largamente, come vollero forze mostrare quelli, liquali nel paese Troiano fecero la statoa di Apollo Sminthio, così detto da Topi, perche ne calcaua vno col piede, & sono detti Sminthi i Topi in quelle parti. Et mi pare, che lo confermi la nouella che si racconta del Sacerdote di Apollo sprezzatore delle cose sacre; cui perciò guastauano i Topi, la ricolta ogni anno, liquali furono poi vccisi da questo Dio, ritornato che fu colui a far conto della religione. Perche i Topi, e gli altri animaletti, che sorgono della terra, nascono per l'aria male temperata, onde quella non può produrre le cose vtili a' mortali, se non quando che i raggi del Sole leuando ogni mala qualità, vccidono quelli, & alla terra danno forza di produrre queste. Di vn'altra statoa si legge appresso di Plinio fatta da Prassitele per Apollo, laquale si potrebbe dire, che da questa, ch'io dissi pur mò de' Topi, non fosse molto dissimile di significato, perche staua con lo strale sù l'arco, come in aguato per ammazzare vna Lucertola, che gli era poco da lunge. Trouasi ancora vn'altra ragione, perche Apollo fosse chiamato Sminthio, & hauesse la statoa col Topo, & è che volendo quelli di Creta mandare fuori vna colonia, hebbero per consilio dall'oracolo di Apollo, di mettere la Città, oue i figliuoli della terra dessero loro maggiore fastidio. Et mandati quelli della colonia ne i campi Troiani, in vna notte i Topi rosero loro tutte le correggie de gli scudi, di che auueduttisi la mattina, intesero che quiui doueuano fermarsi pel consiglio dell'Oracolo, perche erano nati que' Topi della terra, & posta la Città fecero vn tempio ad Apollo chiamandolo Sminthio. Et quella gente hebbe dapoi sempre gli Sminthi, cioè i Topi, in molta veneratione, & ne haueuano alcuni domestici nodriti del publico, che stauano in certe cauernette a canto all'altare maggiore, e perciò ne fù anco posto vno, come hò detto con la statoa di Apollo. Onde si può vedere, che le statoe de i Dei, & le altre parimente, che erano dedicate loro, mostrauano souente, come dissi già, le cose ottenute da quelli, & le attioni, che per loro consiglio, & fauore erano successe felicemente, come si vede anco appresso di Pausania di tante, e tante che furono in Delfo; delle quali basterà per hora porne due. L'vna fù di vn Capro di metallo offerto ad Apollo da Cleonei gente della Grecia, perche vna volta che erano mal trattati dalla peste, hebbero consiglio da questo Dio, di sacrificare vn Capro all'apparire del Sole, come fecero; e cessò la peste, & perciò mandarono poi ad offerire il Capro di metallo. L'altra fù di vno Asino per questa cagione. Guerreggiauano insieme gli Ambracioti, & i Sicionij tutti popoli della Grecia, & hauendo fatto vna imboscata à quelli, che erano per vscire della terra, vna notte auenne, che vn'Asino cacciato dal somaro cò qualche carica addosso verso la Città, sentì per forte andarsi innanzi vna asina & la cominciò à seguitare raggiando il più forte del mondo, & caminando più assai che non hauerebbe voluto il somaro, ilquale diede perciò a gridare parimente, e come che la bestia sua lo douesse meglio intendere, alzaua la voce ogni volta più asinescamente, sì che il rumore fù grande, del quale spauentati i Sicionij, come che i nemici gli hauessero scoperti, vsciti da le insidie si diedero à fuggire, e gli Ambracioti auertiti di ciò andarono loro addosso, & li ruppero, & fatto dapoi vn bel Asino di metallo lo mandarono ad offerire in Delfo nel tempio di Apollo, per memoria del beneficio, che pareua loro hauere hauuto da quella bestia, & perche voleuano pur'anco riconoscere quella vittoria da quel Dio. Riferisce parimente Alessandro Napolitano, che fù già fatta à Napoli vna statoa di Apollo, laquale oltre altre insegne, & ornamenti, che à questo Dio si danno communemente, haueua vna colomba sù la spalla, & vi staua vna donna dauanti, che la guardaua, & pareua adorarla, & che questa era Partenope, che adoraua la colomba sù la spalla di Apollo, perche questo buono vccello, dal quale ella pigliò buono augurio, le fù scorta, quando di Grecia andò ne i campi Napolitani. Conciosia che non soleuano mà i Greci, passare di vno in vn altro luoco, se prima non ne pigliauano augurio, e non ne dimandauano consiglio alli Dei. Hanno poi dato i Poeti à Febo, qual'è il medesimo che Apollo, come dissi già, oltre alle",
+      "orig_after": null,
+      "verdict": "ok",
+      "translation_affected": [],
+      "note": "text_it совпадает с изданием; ошибки только в переводах (RU/EN/FR), issue остаётся.",
+      "pass": "B",
+      "batch": 1
     }
   ]
 }

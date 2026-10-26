@@ -62,8 +62,9 @@
       "type": "addition",
       "original": "benche le porti benche le porti per insegne di Minerua",
       "current": "хотя их носит хотя она и носит их также как знаки Минервы",
-      "suggested": "хотя их носят также как знаки Минервы (повтор — опечатка оригинала; в EN аналогично «though it bears though it also bears»)",
-      "confidence": "high"
+      "suggested": "хотя их носят также как знаки Минервы (повтор внесён при транскрипции; в издании «benche le porti Minerua parimente»; в EN аналогично «though it bears though it also bears»)",
+      "confidence": "high",
+      "scan_check": "Сверка со сканом (с. 64/67): в печати «benche le por-|ti Minerua parimente» — повтор и «per insegne di» внесены при транскрипции; это не опечатка издания. Смысл: «хотя их носит также Минерва»."
     },
     {
       "field": "text_fr",
@@ -92,8 +93,30 @@
       "type": "ocr",
       "original": "benche le porti benche le porti per insegne di Minerua",
       "current": "bien qu'elle les porte bien qu'elle les porte",
-      "suggested": "bien qu'elle les porte (повтор — опечатка оригинала)",
-      "confidence": "low"
+      "suggested": "bien qu'elle les porte (повтор внесён при транскрипции; в издании «benche le porti Minerua parimente»)",
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 64/67): в печати «benche le por-|ti Minerua parimente» — повтор и «per insegne di» внесены при транскрипции; это не опечатка издания. Смысл: «хотя их носит также Минерва»."
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm19-3",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/064.jpg",
+      "page": "64 → 67",
+      "region": "с. 64, последняя строка «benche le por-» + кустода «ti»; с. 67, 1-я строка (с. 65–66 — гравюры)",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "A questi due diceuano quelle genti che vbbidiuano tutte le cose, & per quello intendeuano il Sole, la terra per questa. Onde il simulacro di Adad haueua i raggi, che guardauano in giù, perche il Sole sparge i raggi sopra la terra, & quello di Adargate mandaua i suoi in sù, mostrando, che ciò, che nasce in terra, vi nasce per virtù de superni lumi, & acciòche meglio s'intendesse la terra per questa Dea, le posero sotto i Lioni, perche finsero quelli di Frigia, che la madre de i Dei creduta da loro essere la terra, fosse menata da' Lioni, come si vedrà poi nella sua imagine. Le altre due donne, che a quella di mezo sono a lato, mostrano la materia, onde sono fatte le cose, & la natura; che le fà; Le quali pare, che insieme seruano alla terra facendo tanto per ornamento suo. Il serpente, che le annoda ci dà ad intendere la torta via che fà il Sole. Le Aquile perche velocissimamente volano, & in alto, significano l'altezza, & la velocità del Sole. Fu poi aggiunto alle spalle il panno con il capo di Medusa, che è insegna propria di Minerua, perche (come dice Porfirio) Minerua non è altro, che quella virtù del Sole, laquale rischiara gli humani intelletti, e manda la prudenza nella mente de i mortali.\n\nEt che volessero gli antichi per Marte ancora intendere alcune proprietà del Sole, oltre a quello, che hò detto, & ne dirò nella sua imagine, fà assai intiera fede vna statoa grande non meno di trenta cubiti, laquale, dice Pausania, che era in certa parte della Laconia consecrata ad Apollo, & pareua molto anticha, & fatta in quel tempo, che non sapeuano ancora gli huomini troppo ben fare le statoe; che fù innanzi a Dedalo; perche egli fù il primo, come riferisce Suida, che aprisse gli occhi alle statoe, & le facesse co' piedi distanti l'vno da l'altro. Questa, dalla faccia, dalle mani, e da i piedi in fuori, nel resto pareua vna colonna, & haueua vn'elmo in capo, & nell'vna mano l'arco, & vn'hasta nell'altra che sono insegne proprie di Marte, benche le porti benche le porti per insegne di Minerua parimente, ma per diuersa ragione però, come nelle imagini loro si può vedere.",
+      "orig_after": "A questi due diceuano quelle genti che vbbidiuano tutte le cose, & per quello intendeuano il Sole, la terra per questa. Onde il simulacro di Adad haueua i raggi, che guardauano in giù, perche il Sole sparge i raggi sopra la terra, & quello di Adargate mandaua i suoi in sù, mostrando, che ciò, che nasce in terra, vi nasce per virtù de superni lumi, & acciòche meglio s'intendesse la terra per questa Dea, le posero sotto i Lioni, perche finsero quelli di Frigia, che la madre de i Dei creduta da loro essere la terra, fosse menata da' Lioni, come si vedrà poi nella sua imagine. Le altre due donne, che a quella di mezo sono a lato, mostrano la materia, onde sono fatte le cose, & la natura; che le fà; Le quali pare, che insieme seruano alla terra facendo tanto per ornamento suo. Il serpente, che le annoda ci dà ad intendere la torta via che fà il Sole. Le Aquile perche velocissimamente volano, & in alto, significano l'altezza, & la velocità del Sole. Fu poi aggiunto alle spalle il panno con il capo di Medusa, che è insegna propria di Minerua, perche (come dice Porfirio) Minerua non è altro, che quella virtù del Sole, laquale rischiara gli humani intelletti, e manda la prudenza nella mente de i mortali.\n\nEt che volessero gli antichi per Marte ancora intendere alcune proprietà del Sole, oltre a quello, che hò detto, & ne dirò nella sua imagine, fà assai intiera fede vna statoa grande non meno di trenta cubiti, laquale, dice Pausania, che era in certa parte della Laconia consecrata ad Apollo, & pareua molto anticha, & fatta in quel tempo, che non sapeuano ancora gli huomini troppo ben fare le statoe; che fù innanzi a Dedalo; perche egli fù il primo, come riferisce Suida, che aprisse gli occhi alle statoe, & le facesse co' piedi distanti l'vno da l'altro. Questa, dalla faccia, dalle mani, e da i piedi in fuori, nel resto pareua vna colonna, & haueua vn'elmo in capo, & nell'vna mano l'arco, & vn'hasta nell'altra che sono insegne proprie di Marte, benche le porti Minerua parimente, ma per diuersa ragione però, come nelle imagini loro si può vedere.",
+      "verdict": "transcription_error",
+      "translation_affected": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "note": "В печати «benche le por-|ti Minerua parimente»: повтора нет, слов «per insegne di» тоже нет. Это ошибки транскрипции, не издания. Смысл («хотя их носит также Минерва») переводы передают; повтор убрать.",
+      "pass": "B",
+      "batch": 1
     }
   ]
 }

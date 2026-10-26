@@ -33,7 +33,8 @@
       "original": "quando taglia via tutti gli effetti del corpo",
       "current": "когда отсекает все действия тела",
       "suggested": "не уверен: вероятно «affetti» — «когда отсекает все страсти (влечения) тела»",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 145): в печати «effetti» — text_it верен; «affetti» остаётся конъектурой, не уверен."
     },
     {
       "field": "text_en",
@@ -48,7 +49,8 @@
       "original": "quando taglia via tutti gli effetti del corpo",
       "current": "when it cuts away all the effects of the body",
       "suggested": "не уверен: probably «affetti» — «all the passions of the body»",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 145): в печати «effetti» — text_it верен; «affetti» остаётся конъектурой, не уверен."
     },
     {
       "field": "text_fr",
@@ -76,7 +78,25 @@
       "original": "quando taglia via tutti gli effetti del corpo",
       "current": "quand il retranche tous les effets du corps",
       "suggested": "не уверен: вероятно «affetti» — «quand il retranche toutes les passions du corps» (так же отмечено в RU/EN)",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 145): в печати «effetti» — text_it верен; «affetti» остаётся конъектурой, не уверен."
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm46-2",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/145.jpg",
+      "page": "145",
+      "region": "верхняя треть",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "infin'a tanto, che venne l'hora del maturo parto, perche queste fauole per le trasformationi di Ouidio sono già così volgari, che le sà ogni vno homai. Hanno gli scultori antichi parimente tolto molte volte l'essempio delle statoe, che hanno fatte, da' Poeti. Onde Pausania scriue, che alcuni Leontini, gente della Grecia, fecero à loro priuate spese vn Gioue alto sette cubiti, ilquale haueua vn'Aquila nella sinistra mano, & con la destra portaua vn dardo, perche l'haueuano già veduto così descritto da alcuni Poeti. Strabone, oue racconta del tempio di Gioue Olimpio, ilquale per l'oracolo, che era quiui, fù già vn tempo celebrato in modo, che da ogni parte della Grecia vi concorreuano persone à portare di molti, & ricchi doni, come fece Cipsello tiranno di Corinto, che vi offerse vn simulacro di Gioue tutto d'oro massiccio, dice, che in esso fù vna statoa pure di Gioue, fatta di auorio da Fidia Atheniese tanto grande, che benche fosse il tempio grandissimo, era piccolo nondimeno alla grandezza della statoa, & per ciò parue l'artefice di hauer male osseruato la proportione del luogo, perche fece quella, che sedendo toccaua col capo lo alto tetto, onde se si fosse drizzato bisognaua romperlo, conciosia ch'ella veniua ad esser più alta assai del tempio: ma nè per questo fù ella men lodata, che meritasse la bellezza sua, imperoche Quintiliano scriue, che questa parue aggiugnere non sò che alla religione, & à quella riuerenza, ch'era portata à Gioue, tanto rappresentaua bene la maestà diuina, della quale tolse Fidia (come ei disse à Pandenno suo nipote, che gliene dimandò) l'essempio da Homero, oue così dice:\n\nMostrò col graue, e riuerendo cenno\nIl figlio di Saturno il suo volere.\nMouendo il capo, che d'ambrosia sparso\nFece mouersi insieme l'vniuerso.\n\nEt hanno finto i dipintori alle volte anchora alcuna cosa da loro stessi, come fece Apelle, quando fù accusato della congiura, secondo che si può vedere nella imagine della calunnia. Et Plinio scriue, che Nealce dipintore di grande ingegno haueua dipinto vna guerra nauale de gli Egittij, & de i Persi, nè potendo con la sola dipintura de i luoghi mostrare, che quella fosse stata fatta su'l Nilo, come egli voleua, che s'intendesse, imaginossi di mostrare ciò in questo modo; Ei dipinse vn'Asino, che beueua sù la ripa, & vn Crocodilo staua in agguato per fargli male, perciòche il Crocodilo è animale proprio dello Egitto, & in Persia è copia grande di Asini. Per le qual cose voglio dire, che fu ritrouamento forse de' Pittori anchora, ouero de' Scultori il fare le imagini de i Dei senza forma alcuna d'huomo, ò di altro animale, come di Venere si legge, che ella ne hebbe vna in Pafo: il Sole parimente fu così fatto appresso de i Fenici: & i Sicionij gente de la Morea hebbero Gioue fatto in guisa di Piramide, come scriue Pausania. Il che crederò che voglia significare quel medesimo, che significa la statoa pur di Gioue (della quale hò già detto) nuda dal mezo in sù, & vestita nel resto. Perche la base di queste imagini ci rappresenta lo scuro delle tenebre, per le quali caminiamo in questo mondo, sì che tenendo l'animo applicato alle cose humane non potiamo hauere alcuna cognitione delle diuine, nelle quali bisogna guardare con l'acutezza della mente, mostrata per l'acuta cima della piramide. Et lo può fare l'animo nostro, quando taglia via tutti gli effetti del corpo, & si assottiglia sì che penetra gli Cieli; ouero quando mette giù la corporea mole, & tutto scarico, & leggiero se ne riuola à godere la beata vista delle cose eterne. Et perciò, ò questo od altro che ne fosse la cagione, scriue Quinto Curtio, che appresso de i Trogloditi in Egitto, oue fù vn bosco consecrato al Dio Hammonio, che era Gioue, nel mezo del quale sorgeua vn fonte dimandato l'acqua del Sole (che come riferisce anco Pomponio Mela) al cominciare del giorno era tiepida, al mezo giorno fredda; verso la sera si riscaldaua vn poco, & alla mezza notte tanto era calda che bolliua, & andando verso il giorno veniua intiepidendosi, fù adorata certa cosa, che non era, come si sogliono fare i simulacri de gli Dei; ma in forma di ombelico composto di smeraldi, & di altre gemme, largo di sotto & rotondo che si và assottigliando verso la cima, & che quando da questo voleuano intendere alcuna cosa, lo portauano i Sacerdoti in volta sopra vna nauicela dorata, alla quale erano attaccate intorno molte tazze di argento, & vi andauano dentro donne, & donzelle cantando certi incomposti versi, per li quali pensauano di fare, che Gioue desse poi loro certi responsi di ciò, che desiderauano sapere. Sotto l'imagine di vn Montone fù adorato ancora questo Gioue Hammonio, & dicono alcuni esserne stata la cagione, perche caminando già Bacco per i deserti della Libia, era per perirsene di sete con tutto il suo essercito, se dopò l'hauere fatto diuote orationi al Padre, non veniua vn Montone, ilquale andandogli sempre dauanti lo condusse oue trouò d'abbeuerare tutto l'essercito: & credendo che in quello animale fosse venuto Gioue à mostrargli le desiderate acque, gli pose quiui vn'altare, & fece il suo simulacro in forma di Montone. Ouidio seguitando le fauole, vuole che ciò fosse, perche, quando i Dei del Cielo fuggirono dalla furia de' Giganti in Egitto, Gioue per maggiore sua sicurezza si cangiò quiui in Montone. Et Herodoto rendendo la ragione, per la quale era vietato à Tebani in Egitto di sacrificare le pecore, scriue che non volendo Gioue esser veduto da Hercole, che lo desideraua grandemente, & ne lo pregaua tutto dì, nè potendo più resistere",
+      "orig_after": null,
+      "verdict": "ok",
+      "translation_affected": [],
+      "note": "В печати «effetti» — text_it совпадает. «affetti» остаётся конъектурой, не уверен. Конец строки рядом («cose [e]terne») на скане неясен — проверить по фото.",
+      "pass": "B",
+      "batch": 1
     }
   ]
 }

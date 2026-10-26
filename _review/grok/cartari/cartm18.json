@@ -32,8 +32,9 @@
       "type": "mistranslation",
       "original": "che dall'vn lato, & dall'altro haueua due altre figure tre imagini parimente di femina",
       "current": "имевшей с одной и с другой стороны ещё по две фигуры равным образом три изображения женщин",
-      "suggested": "по обе стороны от которой были ещё две женские фигуры (всего три женских изображения) — в оригинале, вероятно, сбой набора; «по две» с каждой стороны неверно",
-      "confidence": "medium"
+      "suggested": "по обе стороны от которой были ещё два изображения, тоже женских (по одному с каждой стороны; в издании «due altre imagini parimente di femina»; «figure tre» — ошибка транскрипции)",
+      "confidence": "medium",
+      "scan_check": "Сверка со сканом (с. 62/64): в печати «due al-|tre imagini parimente di femina» — «figure» в издании нет, «tre» = окончание «altre». Сбоя набора нет: «по обе стороны ещё два изображения, тоже женских». Прежнее «всего три» неверно."
     },
     {
       "field": "text_en",
@@ -47,8 +48,9 @@
       "type": "mistranslation",
       "original": "che dall'vn lato, & dall'altro haueua due altre figure tre imagini parimente di femina",
       "current": "who had on one side and on the other two further figures three likewise female images",
-      "suggested": "who had on either side two further female figures (three female images in all)",
-      "confidence": "medium"
+      "suggested": "who had on either side two other images, likewise of women (edition: «due altre imagini parimente di femina»)",
+      "confidence": "medium",
+      "scan_check": "Сверка со сканом (с. 62/64): в печати «due al-|tre imagini parimente di femina» — «figure» в издании нет, «tre» = окончание «altre». Сбоя набора нет: «по обе стороны ещё два изображения, тоже женских». Прежнее «всего три» неверно."
     },
     {
       "field": "text_ru",
@@ -90,8 +92,30 @@
       "type": "ocr",
       "original": "haueua due altre figure tre imagini parimente di femina",
       "current": "deux autres figures trois images pareillement de femme",
-      "suggested": "deux autres figures de femme (в оригинале сбой «due altre figure / tre imagini»; дословный перенос бессмыслен) — не уверен",
-      "confidence": "low"
+      "suggested": "qui avait de part et d'autre deux autres images, pareillement de femmes (в издании «due altre imagini…»; «figure tre» — ошибка транскрипции)",
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 62/64): в печати «due al-|tre imagini parimente di femina» — «figure» в издании нет, «tre» = окончание «altre». Сбоя набора нет: «по обе стороны ещё два изображения, тоже женских». Прежнее «всего три» неверно."
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm18-2",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/062.jpg",
+      "page": "62 → 64",
+      "region": "с. 62, последняя строка «due al-» + кустода «tre»; с. 64, 1-я строка (с. 63 — гравюра)",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "Oltre di ciò mostrauano gli Assirij il potere che hà il Sole in questo mondo, & gli effetti, che egli vi fà, con vn simulacro di Apollo, che haueua la barba lunga, & aguzza, con certa cosa sù'l capo simile ad vna cesta. Et scriue Luciano, che alcuni de gli Assirij solamente fecero Apollo con la barba, & riprendeuano gli altri, che lo faceuano senza, quasi che l'essere tanto giouine mostri qualche imperfettione, laquale non deue essere nelle statoe de i Dei; & perciò bisogna farle in forma di huomo già perfetto, come è chi hà barba. Intorno al petto haueua poi vna corazza; con la destra mano teneua vn'hasta, cui era in cima vna breue figuretta della Vittoria, & con la sinistra porgeua vn fiore; a gli homeri haueua vn panno con il capo di Medusa circondato di Serpenti; à canto gli stauano alcune Aquile, che pareuano volare: & dauanti a i piedi vna imagine di femina, che dall'vn lato, & dall'altro haueua due altre figure tre imagini parimente di femina, le quali con flessuosi giri annodaua vn gran Serpente. Così descriue Macrobio questo simulacro, & così l'interpreta ancora. La barba, che pende giù per lo petto, significa, che di Cielo in terra sparge il Sole i suoi raggi. La cesta d'orata, che sorge in alto mostra il celeste fuoco, di che si crede, che sia fatto il Sole. L'hasta corazza si fà per Marte, perche dicono, che per lui si mostra il vehemente ardore del Sole. Vuol dire la Vittoria, che tutto è soggeto alla virtù del Sole. Il fiore significa la bellezza delle cose, le quali la occulta virtù del Sole femina, & fomenta e'l suo temperato calore fà nascere, nodrisce, e conserua. La donna che gli stà dauanti a i piedi è la terra, laquale il Sole illustra dal Cielo con suoi raggi. Il che mostrauano i medesimi Assirij ancora, secondo che riferisce pur'anco Macrobio, con la imagine del loro maggior Dio, che essi chiamauano Adad, cui faceuano essere soggetta la Dea Adargate.",
+      "orig_after": "Oltre di ciò mostrauano gli Assirij il potere che hà il Sole in questo mondo, & gli effetti, che egli vi fà, con vn simulacro di Apollo, che haueua la barba lunga, & aguzza, con certa cosa sù'l capo simile ad vna cesta. Et scriue Luciano, che alcuni de gli Assirij solamente fecero Apollo con la barba, & riprendeuano gli altri, che lo faceuano senza, quasi che l'essere tanto giouine mostri qualche imperfettione, laquale non deue essere nelle statoe de i Dei; & perciò bisogna farle in forma di huomo già perfetto, come è chi hà barba. Intorno al petto haueua poi vna corazza; con la destra mano teneua vn'hasta, cui era in cima vna breue figuretta della Vittoria, & con la sinistra porgeua vn fiore; a gli homeri haueua vn panno con il capo di Medusa circondato di Serpenti; à canto gli stauano alcune Aquile, che pareuano volare: & dauanti a i piedi vna imagine di femina, che dall'vn lato, & dall'altro haueua due altre imagini parimente di femina, le quali con flessuosi giri annodaua vn gran Serpente. Così descriue Macrobio questo simulacro, & così l'interpreta ancora. La barba, che pende giù per lo petto, significa, che di Cielo in terra sparge il Sole i suoi raggi. La cesta d'orata, che sorge in alto mostra il celeste fuoco, di che si crede, che sia fatto il Sole. L'hasta corazza si fà per Marte, perche dicono, che per lui si mostra il vehemente ardore del Sole. Vuol dire la Vittoria, che tutto è soggeto alla virtù del Sole. Il fiore significa la bellezza delle cose, le quali la occulta virtù del Sole femina, & fomenta e'l suo temperato calore fà nascere, nodrisce, e conserua. La donna che gli stà dauanti a i piedi è la terra, laquale il Sole illustra dal Cielo con suoi raggi. Il che mostrauano i medesimi Assirij ancora, secondo che riferisce pur'anco Macrobio, con la imagine del loro maggior Dio, che essi chiamauano Adad, cui faceuano essere soggetta la Dea Adargate.",
+      "verdict": "transcription_error",
+      "translation_affected": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "note": "В печати «due al-|tre imagini parimente di femina»; слова «figure» в издании нет, «tre» — вторая половина «altre». Сбоя набора нет: по обе стороны ещё два изображения, тоже женских. Переводы («по две фигуры… три изображения») надо исправить.",
+      "pass": "B",
+      "batch": 1
     }
   ]
 }

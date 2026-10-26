@@ -1169,3 +1169,27 @@ caption_source: engraving (caption_orig прочитан с гравюры в bo
 - Без fix — confidence medium (2): `cartm44-2`, `cartm44-3`.
 - Без fix — отдельные поля с confidence ниже high (7): `cartm_intro2-7` FR (medium), `cartm37-3` FR (medium), `cartm37-4` FR (low), `cartm81-5` FR (medium), `cartm_marte-4` FR (medium), `cartm_lare-2` EN и FR (low).
 - `cartm_gratieintro-1`: ошибочное место включает повтор «или / or they / ou» между переносами `\n\n`, он убран вместе с правкой смысла.
+
+## Сверка со сканом (проход B, адресный)
+
+Источник: Heidelberg UB, Cartari, *Imagini de gli Dei delli Antichi*, Padova 1626 (IIIF: https://digi.ub.uni-heidelberg.de/diglit/cartari1626). Нумерация страниц совпадает с полем `page`. Проверяются только помеченные места (~87: ocr / «не уверен» / «проверить по фото» / упоминания скана + 5 пилотных), партиями по 20. Результаты — массив `source_check` в `<id>.json` и `source_check.csv`; в связанных issue добавлено поле `scan_check`. entries.json не менялся.
+
+Вердикты: `transcription_error` — text_it расходится с печатью (`orig_after` = абзац по скану); `edition_error` — опечатка самого издания, text_it верен печати, меняется только пояснение в issue; `ok` — text_it совпадает с печатью; «проверить по фото» — на скане не читается. Разница в акцентах (fù/fu) не считается ошибкой; маргиналии отмечаются отдельно.
+
+### Партия 1 (20 мест, проверено 20 из ~87)
+
+| вердикт | мест |
+|---|---|
+| transcription_error | 10 |
+| edition_error | 3 |
+| ok | 7 |
+| проверить по фото | 0 |
+
+Затронуты переводы: в 13 местах (10 transcription_error + 3 edition_error).
+
+Главное:
+- **Кустоды (слово-отсылка внизу страницы) попали в text_it** и дали повторы, которые в проходе A считались «опечатками оригинала»: `cartm16-4` (anco anco), `cartm20-2` (stendendo do), `cartm23-2` (bacchette chette), `cartm32-2` (metallo metallo), `cartm19-3` (benche le porti benche le porti — плюс вставлено «per insegne di», в печати «benche le porti Minerua parimente»), `cartm28-8` (потеряно «Merig-»: в печати «& da Meriggie la sinistra»), `cartm18-2` (в печати «due al-|tre imagini», «figure» лишнее). Пояснения в issue исправлены. Почти все сбои на стыках страниц (часто через гравюру), в остальные партии смотреть на них в первую очередь.
+- `cart2-4`: подтверждено. При транскрипции пропущена последняя строка с. 52: «Riparano poi gli Scarauaggi la loro progenie in questo modo: Spargo-[no]». Все три перевода надо дополнить.
+- `cartm23-3` (all'intorno) и `cartm80-3` (в печати «grãdi» = grandi, тильда потеряна): подтверждены. Для `cartm23-3` добавлена FR-строка («à l'intérieur»), для `cartm28-8` — EN-строка («and and»).
+- Опечатки издания: `cartm81-3` «ferro» (= fero), `cartm84-2` «capi» (вероятно campi, не уверен), `cartm28-5` «ascinga» (= asciuga).
+- Попутно: text_it `cart2` «rinolgono» (с. 54) — в печати, по-видимому, «riuolgono»: проверить по фото. Страница 85 в издании ошибочно напечатана как «95». `cartm46-2`: в печати «effetti», «affetti» остаётся конъектурой; соседнее «cose [e]terne» — проверить по фото. На полях с. 301 «Licrofonte» (в тексте «Licrofone») — маргиналия, не ошибка. Тильды в этих местах раскрыты верно («fiãma» → fiamma, «Cãbise» → Cambise), кроме `cartm80-3`.
