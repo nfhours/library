@@ -1,0 +1,35 @@
+{
+  "id": "cartm_bacco",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "come mostrò chi fece la vbbriachezza; che gli daua bere appresso de gli Elei",
+      "current": "как показал тот, кто создал [аллегорию] опьянения; и наливали ему питьё у элейцев",
+      "suggested": "как показал тот, кто изваял Опьянение, подающее ему питьё, у элейцев (Павсаний: статуя Мете с чашей); то же EN «they gave him drink»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Baccho lasciuo, e molle, e lieui Thirsi",
+      "current": "Вакх сладострастный, и мягкие, лёгкие тирсы",
+      "suggested": "Вакх сладострастный и изнеженный, и лёгкие тирсы («molle» относится к Вакху; то же EN «and soft, light Thyrsi»)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "name",
+      "original": "imparò Anfitrione Rè de gli Atheniesi innanzi",
+      "current": "Amphictyon, King of the Athenians",
+      "suggested": "в оригинале «Anfitrione» (RU «Анфитрион»); исправление на Амфиктиона верно по Афинею, но не помечено — оставить с примечанием",
+      "confidence": "low"
+    }
+  ]
+}

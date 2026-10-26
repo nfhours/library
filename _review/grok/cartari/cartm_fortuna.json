@@ -1,0 +1,17 @@
+{
+  "id": "cartm_fortuna",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "in forma di donna, che sul capo haueua vn polo",
+      "current": "who upon her head had a celestial sphere",
+      "suggested": "who upon her head had a polos (pole) — далее речь о вращении вокруг «двух полюсов»",
+      "confidence": "medium"
+    }
+  ]
+}

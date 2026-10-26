@@ -1,0 +1,26 @@
+{
+  "id": "cartm_volcano",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "name",
+      "original": "Et in certa altra sorte di sacrificio chiamato Proteruia, come scriue Macrobio",
+      "current": "a certain other kind of sacrifice called Proterva",
+      "suggested": "called Propter viam (в оригинале «Proteruia»; EN исказил в «Proterva», RU «Протервия» — ближе к оригиналу)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_it",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "& gli sforzarono a fuggirsi nelle Egitto.",
+      "current": "RU «принудили их бежать в Египет»; EN «forced them to flee into Egypt»",
+      "suggested": "по смыслу (Геродот II 141) арабы бегут из Египта; «nelle Egitto» — вероятно, порча текста; не уверен, нужна сверка в проходе B",
+      "confidence": "low"
+    }
+  ]
+}

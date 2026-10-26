@@ -1,0 +1,26 @@
+{
+  "id": "cartm_baccopompa",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Come insegnò di fare Osiri pure.",
+      "current": "Как научил делать чистый Осирис.",
+      "suggested": "Как тому же научил Осирис («pure» = «также», не «чистый»; то же EN «As pure Osiris taught»)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "faceuano più conto della Hedera (perche à tutte le stagioni hà le",
+      "current": "they made more account of Ivy … than the vine does, which loses them in winter",
+      "suggested": "they made more account of Ivy … than of the vine, which loses them in winter (RU «нежели у виноградной лозы» → «нежели лозе»)",
+      "confidence": "medium"
+    }
+  ]
+}

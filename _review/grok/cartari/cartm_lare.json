@@ -1,0 +1,26 @@
+{
+  "id": "cartm_lare",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "d'onde vna serua della sua moglie detta Ocrisia, che quiui era stata assisa",
+      "current": "некая служанка жены его, именуемой Окрисия",
+      "suggested": "некая служанка его жены, по имени Окрисия (Окрисия — служанка, мать Сервия Туллия, а не жена Тарквиния)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "d'onde vna serua della sua moglie detta Ocrisia, che quiui era stata assisa",
+      "current": "a servant of his wife, called Ocrisia",
+      "suggested": "a servant of his wife, a woman called Ocrisia (снять двусмысленность)",
+      "confidence": "low"
+    }
+  ]
+}

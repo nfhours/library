@@ -1,0 +1,35 @@
+{
+  "id": "cartm_genio",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "della quale Vlisse passando via non si fece alcun conto",
+      "current": "за которую Улисс, проходя мимо, не понёс никакого наказания",
+      "suggested": "на которое Улисс, проплывая мимо, не обратил никакого внимания",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "di che sdegnata questa bestia crudele gli venne contra",
+      "current": "at which this cruel beast, scorned, came against him",
+      "suggested": "at which this cruel beast, enraged, came against him",
+      "confidence": "low"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "o perch'egli di questa hauesse la cura, ò perch'egli di questa hauesse la cura",
+      "current": "either because he had charge of this, or because he had charge of this",
+      "suggested": "either because he had charge of this (дубль — опечатка оригинала; RU его верно опустил)",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "cartm_fortunadatrice",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Ciò ch'ella vnqua mi diede Risuto, e se ne riede L'animo",
+      "current": "То, что она когда-либо мне дала, / Возвращаю я, и уходит она, / А дух мой",
+      "suggested": "То, что она мне когда-либо дала, / Я отвергаю, и возвращается / Дух мой… (Гораций III 29: resigno quae dedit)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Ciò ch'ella vnqua mi diede Risuto, e se ne riede L'animo",
+      "current": "Whatever she ever gave me / I refuse, and it goes back to her, / My spirit",
+      "suggested": "Whatever she ever gave me / I renounce, and there returns / My spirit…",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "la quale fu fatta Dea da gli antichi",
+      "current": "который был сделан древними богом",
+      "suggested": "которая (Occasione) была сделана древними богиней",
+      "confidence": "low"
+    }
+  ]
+}

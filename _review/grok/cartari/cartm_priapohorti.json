@@ -1,0 +1,35 @@
+{
+  "id": "cartm_priapohorti",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Dimmi con che arte fai tù, che ti Vole Ogni bel giouinetto sì gran bene",
+      "current": "каким искусством делаешь ты, что желает / Тебе всякий прекрасный юноша столь великого блага",
+      "suggested": "каким искусством ты достигаешь того, что так любит тебя всякий прекрасный юноша («voler bene» = любить)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "E quanto può ti riuerisce, e cole?",
+      "current": "И сколь может, чтит тебя и чтит?",
+      "suggested": "И сколь может, чтит тебя и почитает?",
+      "confidence": "low"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "perche Priapo sdegnato di ciò l'vccise",
+      "current": "for Priapus, scorned by this, killed him",
+      "suggested": "for Priapus, indignant at this, killed him",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cartm_como",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "lasciandosi cadere la colorita faccia su'l petto",
+      "current": "роняя раскрашенное лицо на грудь",
+      "suggested": "роняя раскрасневшееся лицо на грудь",
+      "confidence": "medium"
+    }
+  ]
+}

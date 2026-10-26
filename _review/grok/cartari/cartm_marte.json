@@ -1,0 +1,98 @@
+{
+  "id": "cartm_marte",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "battendosi la natura con mano ingrauidò di Marte",
+      "current": "ударив рукою по земле, зачала она от природы Марса",
+      "suggested": "ударив себя рукою по лону, зачала Марса («la natura» = детородные части, не «земля»)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "battendosi la natura con mano ingrauidò di Marte",
+      "current": "striking the ground with her hand, she was made pregnant by nature with Mars",
+      "suggested": "striking her own womb with her hand, she conceived Mars",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& fu fatto morire per mano … vn Tribuno della plebe, che hebbe ardire di nomarlo",
+      "current": "был предан смерти от руки справедливости, рукою некоего Трибуна простонародья, осмелившегося его назвать",
+      "suggested": "и был казнён по приговору правосудия некий плебейский трибун, осмелившийся его назвать (казнён сам трибун)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& fu fatto morire per mano … vn Tribuno della plebe, che hebbe ardire di nomarlo",
+      "current": "a man was put to death by the hand of justice, by a Tribune of the plebs, who had the boldness to name it",
+      "suggested": "a Tribune of the plebs who dared to name it was put to death by the hand of justice",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "quello perche è feroce, come scriue Pausania, & il più forte",
+      "current": "the latter because it is fierce … the former either because … sees by night",
+      "suggested": "the former (the Dog) because it is fierce … the latter (the Wolf) either because… («quello/questo» перепутаны; RU верно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Ma chi da gli antichi non sà fare ritratto della Discordia",
+      "current": "Но кто из древних не умеет создать изображение Раздора",
+      "suggested": "Но кто не сумеет сделать изображение Раздора по древним (то же EN «whoever among the ancients» → «whoever cannot portray Discord from the ancients»)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "con le mani legate alle spalle con salde catene",
+      "current": "с руками, привязанными к плечам крепкими цепями",
+      "suggested": "с руками, связанными за спиной крепкими цепями (то же EN «bound to his shoulders» → «bound behind his back»)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& il Porco portauano ancora, perche senza questo non si faceua mai tregua",
+      "current": "и Вепря также носили",
+      "suggested": "и Свинью также носили (porco — свинья, жертва фециалов; то же EN «Boar» → «Pig»)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "come io dissi già nel Flauio",
+      "current": "as I already said in the chapter on Flavius",
+      "suggested": "as I already said in the Flavio (книга Картари, не глава)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Quiui sono l'impetuoso Furore, l'Ira arrabbiata",
+      "current": "неистовый Ярость … являл себя весёлым Ярость",
+      "suggested": "неистовое Неистовство / Ярость (согласование рода: «неистовая Ярость», «весёлой Ярость»)",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "cartm_angerona",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "facendone cessare il male della squilantia chiamata angina da' Latini",
+      "current": "прекращающие болезнь ангины, называемую у латинян squilantia",
+      "suggested": "прекратив болезнь squilantia (жабу), которую латиняне называют angina (термины переставлены)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "come che la lingua manifesti quello, che è nel core, ma non lo debba però fare",
+      "current": "язык должен являть то, что в сердце, но не всегда это делать обязан",
+      "suggested": "как будто язык являет то, что в сердце, но делать этого не должен (в оригинале нет «всегда»; то же EN «yet ought not always do so»)",
+      "confidence": "low"
+    }
+  ]
+}

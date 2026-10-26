@@ -1,0 +1,44 @@
+{
+  "id": "cartm_virtuhonore",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Et perche a questa si accostò Hercole, hebbe così glorioso nome.",
+      "current": "И поскольку к ней приблизился Геркулес, получила она столь славное имя.",
+      "suggested": "И поскольку Геркулес примкнул к ней, он стяжал столь славное имя (подлежащее — Геркулес, не Добродетель)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Et perche a questa si accostò Hercole, hebbe così glorioso nome.",
+      "current": "And because Hercules drew near to this one, she received so glorious a name.",
+      "suggested": "And because Hercules joined himself to her, he won so glorious a name.",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "che la sua via gli mostraua prima stretta, & certa, & difficile",
+      "current": "whose way she showed him at first narrow, uncertain, and difficult",
+      "suggested": "narrow, steep, and difficult («certa» здесь, вероятно, «erta» — крутая; во всяком случае не «uncertain»); RU «тесным» → «крутым» — не уверен",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "in forma di Giouane vestito succintamente con elmo in testa",
+      "current": "в виде Юноши, одетого скромно",
+      "suggested": "в виде Юноши в подпоясанной (короткой) одежде («succintamente» — подпоясанно/коротко, не «скромно»); то же EN «modestly dressed» → «girt up»",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "cartm_tifone",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "e per quello intendeuano Tifone imagine di tutto il male, che viene dalla terra, & per questo la virtù",
+      "current": "и под этим разумели Тифона … и потому добродетель",
+      "suggested": "под первым (бегемотом) разумели Тифона … а под вторым (ястребом) — добродетель («per questo» = «под этим», не «потому»; то же EN «and therefore the virtue»)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "stasse. Et di Horo auuene quasi anco il medesimo",
+      "current": "довольно. И с Гором случилось…",
+      "suggested": "«stasse» — обрывок слова с предыдущей страницы; «довольно» / EN «suffice.» — догадка переводчика; лучше «…» — не уверен",
+      "confidence": "low"
+    }
+  ]
+}
