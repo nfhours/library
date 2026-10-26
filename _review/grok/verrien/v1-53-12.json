@@ -2,21 +2,6 @@
   "id": "v1-53-12",
   "book": "verrien",
   "pass": "A",
-  "verdict": "minor",
-  "issues": [
-    {
-      "field": "text_fr",
-      "issue_id": "v1-53-12-1",
-      "fields": [
-        "text_fr",
-        "meaning_fr"
-      ],
-      "paragraph": 2,
-      "type": "omission",
-      "original": "Decor, candor & amor.",
-      "current": "Decor, candor & amor.",
-      "suggested": "разбивка: после девиза нет французского толкования (meaning_fr и meaning_ru пусты), как в v1-49-6, v1-52-2; возможно, потеряно при извлечении. Скана текста нет; не уверен",
-      "confidence": "low"
-    }
-  ]
+  "verdict": "ok",
+  "issues": []
 }

@@ -1,0 +1,21 @@
+{
+  "id": "v1-61-1",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-61-1-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 3,
+      "type": "ocr",
+      "original": "Vne seule mé suffit.",
+      "current": "Vne seule mé suffit.",
+      "suggested": "«me suffit» — лишний акцент (mé), вероятно OCR. Перевод верен. Скана текста нет",
+      "confidence": "low"
+    }
+  ]
+}

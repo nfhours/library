@@ -2,21 +2,6 @@
   "id": "v1-58-7",
   "book": "verrien",
   "pass": "A",
-  "verdict": "minor",
-  "issues": [
-    {
-      "field": "text_fr",
-      "issue_id": "v1-58-7-1",
-      "fields": [
-        "text_fr",
-        "meaning_fr"
-      ],
-      "paragraph": 2,
-      "type": "omission",
-      "original": "Mellifica piaga.",
-      "current": "Mellifica piaga.",
-      "suggested": "разбивка: после девиза нет французского толкования (meaning_fr и meaning_ru пусты), как в v1-56-2/4. Скана текста нет; не уверен",
-      "confidence": "low"
-    }
-  ]
+  "verdict": "ok",
+  "issues": []
 }

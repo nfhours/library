@@ -1,0 +1,21 @@
+{
+  "id": "v1-61-4",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-61-4-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "J'éleve ou je consomme.",
+      "current": "Я возношусь или сгораю.",
+      "suggested": "глаголы переходные, говорит Солнце: élever — «возвышать», consommer (consumer) — «сжигать, истреблять»: «Я возвышаю или сжигаю»",
+      "confidence": "medium"
+    }
+  ]
+}

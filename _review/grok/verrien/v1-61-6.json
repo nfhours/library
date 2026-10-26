@@ -1,0 +1,21 @@
+{
+  "id": "v1-61-6",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-61-6-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "Vn même penchant nous unit.",
+      "current": "Нас соединяет общий наклон.",
+      "suggested": "penchant — игра слов «наклон / склонность»; «наклон» теряет любовный смысл: «Нас соединяет одна склонность»",
+      "confidence": "low"
+    }
+  ]
+}
