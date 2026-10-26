@@ -1,0 +1,30 @@
+{
+  "id": "v2-92-6",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "issue_id": "v2-92-6-1",
+      "fields": [
+        "fr",
+        "name_fr",
+        "text_fr",
+        "ru",
+        "text_ru"
+      ],
+      "field": "fr",
+      "type": "typo",
+      "original": "SYZ",
+      "current": "SYZ",
+      "suggested": "вероятно «SZA» — по закономерности ряда (QXY, [QXZ], RYZ, [SZA]) и повтору SYZ; на гравюре «SYZ». Не уверен: возможно, гравёр сознательно не стал делать переход через конец алфавита",
+      "confidence": "low",
+      "paragraph": 1
+    }
+  ],
+  "scan": "monogram",
+  "anomaly": {
+    "kind": "caption_typo",
+    "note": "на той же доске после RYZ выгравировано «SYZ»; по логике ряда (с переходом через конец алфавита, как YZA, XAZ, VZA, TZA, RZA) ожидается «SZA»; SYZ уже есть в предыдущем ряду (v2-80). На гравюре именно «SYZ»"
+  }
+}

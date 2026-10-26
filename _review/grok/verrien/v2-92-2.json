@@ -1,0 +1,30 @@
+{
+  "id": "v2-92-2",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "issue_id": "v2-92-2-1",
+      "fields": [
+        "fr",
+        "name_fr",
+        "text_fr",
+        "ru",
+        "text_ru"
+      ],
+      "field": "fr",
+      "type": "typo",
+      "original": "QYZ",
+      "current": "QYZ",
+      "suggested": "«QXZ» — по ряду QXY, [QXZ], RYZ и отсутствию QXZ в наборе; на гравюре также «QYZ» (опечатка издания). Подпись сверена со сканом; чтение вензеля не проверялось",
+      "confidence": "medium",
+      "paragraph": 1
+    }
+  ],
+  "scan": "monogram",
+  "anomaly": {
+    "kind": "caption_typo",
+    "note": "на доске v2-92 (гравир. «90») в ряду «через пять» (PVX…PVZ, QXY, [QXZ], RYZ, [SZA]) выгравировано «QYZ»; QXZ во всей части отсутствует, а QYZ встречается ещё раз на своём месте (v2-102-6). Опечатка издания, повторённая в данных и переводе"
+  }
+}
