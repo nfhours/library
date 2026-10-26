@@ -1,0 +1,21 @@
+{
+  "id": "v1-17-7",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-17-7-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "Entreprenez quelque chose de grand.",
+      "current": "Предпримите что-нибудь достойное и великое.",
+      "suggested": "«достойное и» — из латинского девиза (dignum), во французском только grand: «Предпримите что-нибудь великое»",
+      "confidence": "low"
+    }
+  ]
+}

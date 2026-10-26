@@ -1,0 +1,21 @@
+{
+  "id": "v1-18-2",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-18-2-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "Il est tout fier de resister aux vents.",
+      "current": "Он горд тем, что неподвижен и сопротивляется ветрам.",
+      "suggested": "«что неподвижен и» — из латинского immota, во французском нет: «Он весь горд тем, что противостоит ветрам»",
+      "confidence": "low"
+    }
+  ]
+}

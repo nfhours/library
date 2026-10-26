@@ -1,0 +1,21 @@
+{
+  "id": "v1-17-5",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-17-5-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "Il y a plus de douceur que d'amertume.",
+      "current": "В ней больше мёда, чем желчи.",
+      "suggested": "переведён латинский девиз (Plus mellis quam fellis), а не толкование: «В нём больше сладости, чем горечи»",
+      "confidence": "low"
+    }
+  ]
+}
