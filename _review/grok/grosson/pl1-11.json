@@ -1,0 +1,22 @@
+{
+  "id": "pl1-11",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl1-11-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "le revers varie, par les lettres MASSA au haut, & en bas, TAA.",
+      "current": "RU «[На гравюре внизу читается ТАΛ, а не ТАА — расхождение с текстом Гроссона.]»; EN «[The engraving reads TAΛ at the bottom, not TAA — a discrepancy with Grosson's text.]»",
+      "suggested": "в переводах добавлено примечание переводчика в квадратных скобках — у Гроссона его нет. Из text_ru/text_en убрать; наблюдение по гравюре (оно верно, см. legend_*) перенести в отдельное поле примечания",
+      "confidence": "high"
+    }
+  ]
+}

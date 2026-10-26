@@ -1,0 +1,22 @@
+{
+  "id": "pl1-4",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl1-4-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "les lettres MASSA sont au haut, & dans le bas, AAE.",
+      "current": "RU «[На гравюре внизу читается ΛΛΕ, а не AAE — расхождение с текстом Гроссона.]»; EN «[The engraving reads ΛΛΕ at the bottom, not AAE — a discrepancy with Grosson's text.]»",
+      "suggested": "в переводах добавлено примечание переводчика в квадратных скобках — у Гроссона его нет. Из text_ru/text_en убрать; наблюдение по гравюре (оно верно, см. legend_*) перенести в отдельное поле примечания",
+      "confidence": "high"
+    }
+  ]
+}

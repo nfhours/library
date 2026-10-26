@@ -1,0 +1,22 @@
+{
+  "id": "pl1-9",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl1-9-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "La contre-marque est une étoile: on y lit les lettres MASSA.",
+      "current": "RU «Клеймо — звезда; на ней читаются буквы MASSA»; EN «The countermark is a star: the letters MASSA are read on it»",
+      "suggested": "y — «на ней (на монете)», а не «на звезде»: на гравюре (pl1-9) ΜΑΣΣΑ идёт вдоль края оборота, звёздочка рядом. RU «Клеймо — звезда; на монете читаются буквы MASSA»; EN «The countermark is a star; the letters MASSA can be read on the coin»",
+      "confidence": "low"
+    }
+  ]
+}

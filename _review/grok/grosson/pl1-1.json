@@ -1,0 +1,21 @@
+{
+  "id": "pl1-1",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl1-1-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "désignent le costume de ces temps, qui ont encore réparu de nos jours.",
+      "current": "означают костюм того времени, который ещё встречается и в наши дни",
+      "suggested": "réparu — «снова появились», а не «ещё встречается»: «…означают костюм того времени, который вновь вошёл в моду в наши дни»",
+      "confidence": "low"
+    }
+  ]
+}

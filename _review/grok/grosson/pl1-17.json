@@ -1,0 +1,21 @@
+{
+  "id": "pl1-17",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl1-17-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Tunc post Athenopolis, & Olbia, & Taurois, & Citharistes, & Lacydon, Massiliensium Portus, & in eo ipsa Massilia.",
+      "current": "«Затем после Афенополиса, и Ольбии, и Тавроиса, и Цитаристы, и Лакидона — порт марсельцев, а в нём и сама Массалия»",
+      "suggested": "post здесь наречие («далее»), названия — в им. п., а Lacydon и есть «порт марсельцев» (ради этого Гроссон и приводит цитату); в переводе выходит, что порт идёт после Лакидона. «Далее — Афинополь, и Ольбия, и Тавроис, и Китарист, и Лакидон, порт массилийцев, а при нём и сама Массилия»",
+      "confidence": "medium"
+    }
+  ]
+}

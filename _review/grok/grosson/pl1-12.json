@@ -1,0 +1,21 @@
+{
+  "id": "pl1-12",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl1-12-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "placée entre Toulon & la Ciotat,",
+      "current": "между Тулоном и Сьота",
+      "suggested": "la Ciotat — Ла-Сьота (артикль входит в название): «между Тулоном и Ла-Сьота»",
+      "confidence": "low"
+    }
+  ]
+}

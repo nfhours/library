@@ -1,0 +1,21 @@
+{
+  "id": "pl1-6",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl1-6-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "omission",
+      "original": "la coiffure est en tresses retroussées, nouées avec des rubans;",
+      "current": "причёска — в заплетённых косах, подвязанных лентами",
+      "suggested": "пропущено retroussées («подобранные, поднятые»; EN «swept up» передаёт): «причёска — из подобранных кос, подвязанных лентами»",
+      "confidence": "low"
+    }
+  ]
+}
