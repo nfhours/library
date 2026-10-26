@@ -1,0 +1,23 @@
+{
+  "id": "v1-30-5",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-30-5-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Modo vita superfit.",
+      "current": "Modo vita superfit.",
+      "suggested": "[LA] «Modo vita supersit» (долгое ſ прочитано как f; ср. «pourvû qu'il n'en meure pas»); скопировано и в text_ru. Скана текста нет — по смыслу",
+      "confidence": "high"
+    }
+  ]
+}

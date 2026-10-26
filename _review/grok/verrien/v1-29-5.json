@@ -1,0 +1,21 @@
+{
+  "id": "v1-29-5",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-29-5-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 3,
+      "type": "ocr",
+      "original": "Ou je feray rompuë ou bandée.",
+      "current": "Ou je feray rompuë ou bandée.",
+      "suggested": "«seray» (долгое ſ прочитано как f); text_ru переведён верно (по смыслу). Скана текста нет — по смыслу",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "v1-30-1",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-30-1-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "Sa naissance est modeste, & sa vieillesse honorable.",
+      "current": "Его юность скромна, а старость почтенна.",
+      "suggested": "«юность» — из латинского juventus; французское: «Его рождение скромно, а старость почтенна»",
+      "confidence": "low"
+    }
+  ]
+}
