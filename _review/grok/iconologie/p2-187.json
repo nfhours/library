@@ -1,0 +1,21 @@
+{
+  "id": "p2-187",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-187-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "L'embleme de la Concupiscence se voit icy",
+      "current": "Эмблема Вожделения",
+      "suggested": "заголовок ru «Похоть»; в тексте «Вожделения» — унифицировать",
+      "confidence": "low"
+    }
+  ]
+}

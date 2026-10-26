@@ -1,0 +1,34 @@
+{
+  "id": "p2-198",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-198-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& de la gauche vn masque, ayant vne queuë de scorpion",
+      "current": "а в левой — маску, с хвостом скорпиона и вместо ног — когтями орла",
+      "suggested": "хвост и когти — у самой фигуры, не у маски: «…а в левой — маску; у неё хвост скорпиона, а вместо ног — орлиные когти»",
+      "confidence": "low"
+    },
+    {
+      "field": "attrs",
+      "issue_id": "p2-198-2",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "avec deux testes entées sur vn mesme col",
+      "current": "Две головы на одной шее (юная и старая) — двуличие обмана",
+      "suggested": "две головы в тексте не истолкованы; толкование добавлено",
+      "confidence": "low"
+    }
+  ]
+}

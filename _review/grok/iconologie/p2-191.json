@@ -1,0 +1,21 @@
+{
+  "id": "p2-191",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-191-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Elle a dans le sein vn poignard, qu'elle s'y est enfoncé jusques à la garde",
+      "current": "Кинжал, вонзённый в грудь — крайняя степень отчаяния, гибельная для самой жизни",
+      "suggested": "кинжал в тексте не истолкован (толкуются только кипарис и циркуль); толкование добавлено",
+      "confidence": "low"
+    }
+  ]
+}

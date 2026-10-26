@@ -1,0 +1,21 @@
+{
+  "id": "p2-196",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-196-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "rend les hommes ardens à tout entreprendre sans rien craindre",
+      "current": "делает людей пылкими в любом начинании, не ведающем страха",
+      "suggested": "«…делает людей пылкими и готовыми на всё, ничего не страшась» («sans rien craindre» относится к людям, не к начинанию)",
+      "confidence": "low"
+    }
+  ]
+}

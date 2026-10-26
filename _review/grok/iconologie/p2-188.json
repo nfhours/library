@@ -1,0 +1,21 @@
+{
+  "id": "p2-188",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-188-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "est peinte nuë, avec des aisles, & les yeux bandez, pour montrer que c'est son ordinaire de découvrir devant tout le monde ses propres defauts",
+      "current": "Нагота и крылья — открытая всем страсть, не знающая границ",
+      "suggested": "по тексту нагота — выставление напоказ своих пороков, крылья — погоня за ложными благами; «страсть, не знающая границ» — общее определение, а не значение атрибутов",
+      "confidence": "low"
+    }
+  ]
+}

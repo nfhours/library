@@ -1,0 +1,21 @@
+{
+  "id": "p2-192",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-192-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "l'oisiveté est la principale cause de la Detraction",
+      "current": "главная причина Злословия",
+      "suggested": "заголовок ru «Очернение»; в тексте «Злословия» — унифицировать",
+      "confidence": "low"
+    }
+  ]
+}

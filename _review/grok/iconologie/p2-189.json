@@ -1,0 +1,21 @@
+{
+  "id": "p2-189",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-189-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "C'est la Discorde, avec ses cheveux herissez",
+      "current": "Это Раздор, с взъерошенными волосами… В её правой руке… которых она несёт",
+      "suggested": "несогласование рода: «Раздор» (м. р.) при «её/она» и «фурий»; либо «Это Распря/Вражда» (ж. р.), либо местоимения м. р.; ср. заголовок «Раздор»",
+      "confidence": "low"
+    }
+  ]
+}

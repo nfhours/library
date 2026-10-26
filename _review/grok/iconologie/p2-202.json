@@ -1,0 +1,21 @@
+{
+  "id": "p2-202",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-202-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Voilà pourquoy ce n'est pas sans cause qu'on luy en donne icy les pieds",
+      "current": "Оно бледно… Вот почему не без причины ей здесь даны волчьи лапы",
+      "suggested": "несогласование: Лицемерие во всём абзаце — «оно», в конце «ей» → «ему здесь даны волчьи лапы»",
+      "confidence": "low"
+    }
+  ]
+}
