@@ -1,0 +1,23 @@
+{
+  "id": "v2-149-9",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v2-149-9-1",
+      "fields": [
+        "ru",
+        "text_ru",
+        "meaning_ru"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "BEATI CONFREGIT",
+      "current": "Блаженны разделяющие [хлеб]",
+      "suggested": "в переводе — догадка переводчика в квадратных скобках; латинская подпись (как на гравюре «BEATI CON / FREGIT») неполна и неграмматична (confregit — «сокрушил/преломил»). Убрать служебную скобку либо дать буквально «Блаженны… сокрушил» с пометкой в примечании",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "v2-152-7",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v2-152-7-1",
+      "fields": [
+        "ru",
+        "text_ru",
+        "meaning_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "EMBUCHE",
+      "current": "Коварство",
+      "suggested": "embûche — «засада, ловушка» (фигура с сетью и щитом), не «коварство»: «Засада (ловушка)»",
+      "confidence": "low"
+    }
+  ]
+}
