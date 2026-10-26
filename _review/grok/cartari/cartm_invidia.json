@@ -23,7 +23,8 @@
       "field": "text_ru",
       "issue_id": "cartm_invidia-2",
       "fields": [
-        "text_ru"
+        "text_ru",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
@@ -31,6 +32,20 @@
       "current": "Всё, что видит, вызывает в ней ненависть и отвращение … бежит она … сердце её",
       "suggested": "в стихах речь о завистнике (м. р., «gli»): «вызывает в нём», «бежит он», «сердце его» (EN верно)",
       "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_invidia-2",
+      "fields": [
+        "text_ru",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Ciò che vede gli porge odio, e disdegno",
+      "current": "Elle mord… Ce qu'elle voit lui porte haine… Aussi fuit-elle… son cœur",
+      "suggested": "Il mord… Ce qu'il voit lui porte haine… Aussi fuit-il… (в стихах речь о завистнике, м. р., «gli»; ср. конец предыдущей записи «Il mord»; та же ошибка в RU)",
+      "confidence": "medium"
     }
   ]
 }

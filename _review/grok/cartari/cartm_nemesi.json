@@ -31,6 +31,19 @@
       "current": "see that you make little account of my prayers, and scorn me not",
       "suggested": "see that you do not make little account of my prayers, and scorn me (отрицание пропущено в первой части; RU верно)",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_nemesi-3",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "poscia che ha pregato assai Licinio bellissimo giouine",
+      "current": "Licinius, très bel jeune homme",
+      "suggested": "Licinius, très beau jeune homme (грамматика: «bel» только перед гласной)",
+      "confidence": "low"
     }
   ]
 }

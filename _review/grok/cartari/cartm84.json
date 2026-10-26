@@ -24,6 +24,7 @@
       "issue_id": "cartm84-2",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -50,7 +51,8 @@
       "field": "text_en",
       "issue_id": "cartm84-4",
       "fields": [
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
@@ -58,6 +60,48 @@
       "current": "Which I offer humbly to your devout Godhead.",
       "suggested": "Which I, devout, humbly offer to your Godhead («diuoto» относится к молящемуся; RU верно)",
       "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm84-5",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Cui orna il capo con vn vago horrore Il forte elmo",
+      "current": "Dont la tête orne d'une belle horreur / Le fort heaume, et la poitrine la Gorgone",
+      "suggested": "À qui le fort heaume orne la tête d'une belle horreur, / Et la Gorgone la poitrine (подлежащее — шлем, а не голова; RU верно)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm84-2",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "dapoi spiegaua vn'hasta ne' capi de' nemici",
+      "current": "il plantait une pique dans les terres des chefs ennemis",
+      "suggested": "il lançait une pique dans les champs des ennemis («capi», вероятно, опечатка за «campi»; не уверен; та же ошибка в RU/EN)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm84-4",
+      "fields": [
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Ch'io porgo humile al tuo Nume diuoto.",
+      "current": "Que j'offre humblement à ta divine dévotion.",
+      "suggested": "Que moi, dévot, j'offre humblement à ta Divinité («diuoto» относится к молящемуся; та же ошибка в EN; RU верно)",
+      "confidence": "medium"
     }
   ]
 }

@@ -9,6 +9,7 @@
       "issue_id": "carta3-1",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -23,6 +24,7 @@
       "issue_id": "carta3-2",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -30,6 +32,62 @@
       "original": "non intese altro, che Sistri",
       "current": "не означали, полагаю, ничего иного, как Систры",
       "suggested": "не разумел ничего иного, как Систры («полагаю» добавлено; глагол в ед. ч.); EN «meant, I think» → «meant»",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "carta3-1",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "come si può vedere nel mio Commentario de' Serui, a car. 88. & 91.",
+      "current": "mon Commentaire sur Servius … notre Livre sur Servius",
+      "suggested": "mon Commentaire sur les Esclaves (De servis) … notre Livre sur les Esclaves («Serui» = рабы, не Сервий; та же ошибка в RU/EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "carta3-3",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "che il Timpano chiama con nome di Crotalo",
+      "current": "le Timbale du nom de Crotale … le Timbale n'était pas non plus",
+      "suggested": "le Tympanon du nom de Crotale … le Tympanon n'était pas non plus («Timpano» — тимпан, ручной бубен; «timbale» — литавра и ж. р.; так же в абзаце 3; не уверен в выборе слова)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "carta3-4",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "che si vedono con figure hierogliifiche",
+      "current": "demi-cercles d'Or- / oret d'Argent",
+      "suggested": "demi-cercles d'Or et d'Argent (искажение переноса «O-/ro» на стыке)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "carta3-2",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "non intese altro, che Sistri",
+      "current": "ne signifiaient, je pense, rien d'autre que des Sistres",
+      "suggested": "n'entendit rien d'autre que des Sistres (подлежащее — Меркати, ед. ч.; «je pense» добавлено; та же ошибка в RU/EN)",
       "confidence": "low"
     }
   ]

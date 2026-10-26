@@ -37,6 +37,7 @@
       "issue_id": "cartm_fortunalieta-3",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -44,6 +45,34 @@
       "original": "la quale mostra la passata Fortuna, e perciò stà mesta",
       "current": "что стоит, опираясь рукою о седалище матроны, каковая являет прошедшую Фортуну",
       "suggested": "…о седалище матроны; матрона же являет прошедшую Фортуну (относится к матроне, не к отроковице — уточнить, чтобы не было двусмысленности; то же EN «who represents Fortune past»)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_fortunalieta-4",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Ricercate pur prima le ricchezze,",
+      "current": "Vous recherchez d'abord les richesses,",
+      "suggested": "Recherchez donc d'abord les richesses, (ироничный императив у Горация, не изъявительное наклонение)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_fortunalieta-3",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "la quale mostra la passata Fortuna, e perciò stà mesta",
+      "current": "sur le siège de la matrone, laquelle représente la Fortune passée",
+      "suggested": "sur le siège de la matrone ; cette matrone représente la Fortune passée (двусмысленность: относится к матроне, не к девочке; та же ошибка в RU/EN)",
       "confidence": "low"
     }
   ]
