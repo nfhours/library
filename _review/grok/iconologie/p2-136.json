@@ -1,0 +1,22 @@
+{
+  "id": "p2-136",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-136-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "Ce qu'elle tient la main droite voilée fut autrefois de l'institution de Numa Pompilius",
+      "current": "То, что она держит в правой, покрытой покрывалом руке, восходит к обычаю / That which she holds in her veiled right hand formerly belonged to the institution",
+      "suggested": "«Ce qu'elle tient la main droite voilée» = «то, что она держит правую руку покрытой»: «То, что правая рука её покрыта, восходит к обычаю, установленному Нумой…» / «Her keeping her right hand veiled goes back to the institution of Numa…»; ср. attrs — там верно",
+      "confidence": "medium"
+    }
+  ]
+}

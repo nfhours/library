@@ -1,0 +1,21 @@
+{
+  "id": "p2-123",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-123-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "est le vray emblême de la Docilité",
+      "current": "есть истинная эмблема Послушания",
+      "suggested": "заголовок ru «Послушливость»; «Docilité» — понятливость/восприимчивость к учению, не «послушание»: «…эмблема Послушливости» (унифицировать с заголовком)",
+      "confidence": "low"
+    }
+  ]
+}

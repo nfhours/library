@@ -1,0 +1,21 @@
+{
+  "id": "p2-138",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-138-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "sur la sagesse, sur les forces de la guerre, & sur les biens de la paix, qui ont pour symboles le morion, le dard, le bouclier, & l'olivier",
+      "current": "Шишак (морион) — военная сила как основа доброго правления",
+      "suggested": "по порядку перечня шишак соответствует мудрости (как атрибут Паллады), дротик и щит — военной силе: «Шишак — мудрость»",
+      "confidence": "low"
+    }
+  ]
+}

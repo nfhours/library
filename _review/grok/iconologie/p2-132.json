@@ -1,0 +1,21 @@
+{
+  "id": "p2-132",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-132-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "de peur qu'elles ne s'enracinent, & ne prennent pied toûjours plus avant",
+      "current": "дабы они не укоренились и не ступали всё дальше вперёд",
+      "suggested": "«prendre pied» — закрепляться: «…не укоренились и не закреплялись всё глубже»",
+      "confidence": "low"
+    }
+  ]
+}

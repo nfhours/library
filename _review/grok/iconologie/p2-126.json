@@ -1,0 +1,21 @@
+{
+  "id": "p2-126",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-126-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "l'ardent zele que produit la Devotion",
+      "current": "порождаемого Благочестием",
+      "suggested": "заголовок ru «Набожность»; в тексте «Благочестием» (и в attrs) — унифицировать",
+      "confidence": "low"
+    }
+  ]
+}

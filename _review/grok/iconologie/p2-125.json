@@ -1,0 +1,34 @@
+{
+  "id": "p2-125",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-125-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "est la vraye image de la Doctrine",
+      "current": "есть истинный образ Учения",
+      "suggested": "заголовок ru «Учёность»; в тексте «Учения» — унифицировать",
+      "confidence": "low"
+    },
+    {
+      "field": "attrs",
+      "issue_id": "p2-125-2",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "vn grand livre, posé sur deux palmes",
+      "current": "Книга на пальмовых ветвях — учёность, увенчанная победой",
+      "suggested": "пальмы в тексте не истолкованы; «увенчанная победой» добавлено",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "p2-139",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-139-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "Que les regards lascifs sont des traits dangereux",
+      "current": "«Сколь опасны похотливые взгляды, что ранят влюблённые сердца»",
+      "suggested": "пропущен образ «traits» (стрелы): «Что похотливые взгляды — опасные стрелы, Что ранят влюблённые сердца»",
+      "confidence": "low"
+    }
+  ]
+}

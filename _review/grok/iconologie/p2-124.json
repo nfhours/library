@@ -1,0 +1,34 @@
+{
+  "id": "p2-124",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-124-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "LA Diligence, qui est vn desir ardent",
+      "current": "Усердие, представляющее собою … измеряет Усердие",
+      "suggested": "заголовок ru «Прилежание»; в тексте «Усердие» — унифицировать",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "p2-124-2",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "L'vn éveille nos soins par sa grande vitesse, / Et l'autre est l'aiguillon",
+      "current": "Одни пробуждают наши заботы своей великой быстротой, / А другая — то острие",
+      "suggested": "«L'vn … l'autre» — часы и шпора: «Одни (часы) будят наши заботы своей быстротой, / А другая (шпора) — то жало, что колет и торопит нас»; сейчас неясно, о чём речь; EN «The one … the other» верно",
+      "confidence": "low"
+    }
+  ]
+}
