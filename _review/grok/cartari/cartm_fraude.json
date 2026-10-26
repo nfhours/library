@@ -2,6 +2,16 @@
   "id": "cartm_fraude",
   "book": "cartari",
   "pass": "A",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "omission",
+      "original": "La Fraude poi, quale fece Apelle in forma di donna, fu disegnata",
+      "current": "— (подписи нет)",
+      "suggested": "подпись к гравюре в переводах отсутствует (в text_ru/text_en/text_fr её нет); добавить caption_ru / caption_en / caption_fr после сверки по фото; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "medium"
+    }
+  ]
 }

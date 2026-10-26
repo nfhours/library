@@ -5,6 +5,15 @@
   "verdict": "minor",
   "issues": [
     {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Et oltre alla statoa del Dio, che era nel Tempio, di fuori",
+      "current": "Образы Аполлона и животных и птиц, ему посвящённых, которые означают действия Солнца; а также то, что Аполлон был богом прорицания. Он держит в руке благодати, означающие ту пользу, что мы получаем от Солнца, и ту выгоду, что от него нам проистекает.",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: отдельный абзац, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"Образы Аполлона и животных и птиц, ему посвящённых, которые означают действия Солнца; а также то, что Аполлон был богом прорицания. Он держит в руке благодати, означающие ту пользу, что мы получаем от Солнца, и ту выгоду, что от него нам проистекает.\"; caption_en: \"Images of Apollo and the animals and birds sacred to him, which signify the effects of the Sun; and that Apollo was the god of divination. He holds in his hand the graces, signifying the benefit we have from the Sun, and the usefulness that comes to us from it.\"; caption_fr: \"Images d'Apollon et des animaux et oiseaux qui lui sont consacrés, lesquels signifient les effets du Soleil ; et qu'Apollon fut le dieu de la divination. Il tient en main les grâces, qui signifient le bienfait que nous recevons du Soleil, et l'utilité qui nous en provient.\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
       "field": "text_en",
       "paragraph": 2,
       "type": "mistranslation",

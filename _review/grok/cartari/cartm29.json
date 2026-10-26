@@ -2,6 +2,16 @@
   "id": "cartm29",
   "book": "cartari",
   "pass": "A",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "giallo, & rosso, che spargono per l'aria i primi raggi del Sole.",
+      "current": "«Образ Авроры и коня Пегаса, влекущего её колесницу, означающий, что тот час (рассвет) наиболее удобен и наиболее плодотворен для учёных занятий, и ту славу, что проистекает от этого учёному и добродетельному человеку».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: отдельный абзац, конец текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Авроры и коня Пегаса, влекущего её колесницу, означающий, что тот час (рассвет) наиболее удобен и наиболее плодотворен для учёных занятий, и ту славу, что проистекает от этого учёному и добродетельному человеку».\"; caption_en: \"“The image of Aurora, and of the horse Pegasus, who draws her chariot, denoting that that hour is the most convenient and most profitable for study, and the glory that results from it for the learned and virtuous man.”\"; caption_fr: \"« L'image de l'Aurore, et du cheval Pégase, qui tire son char, indiquant que cette heure est la plus propice et la plus profitable à l'étude, et la gloire qui en résulte pour l'homme savant et vertueux. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    }
+  ]
 }

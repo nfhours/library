@@ -7,6 +7,15 @@
     {
       "field": "text_ru",
       "paragraph": 1,
+      "type": "addition",
+      "original": "& nientedimeno la sua statoa, che quiui era nel suo tempio, mostraua",
+      "current": "Образ Юноны Люцины и Сирийской богини из Гиераполя в Ассирии, которая есть одна и та же с Юноной, и птиц, ей посвящённых, означающих, что Юнона — царица Неба, владычица воздуха, госпожа царств и богатств. Её же понимали и как Добродетель.",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"Образ Юноны Люцины и Сирийской богини из Гиераполя в Ассирии, которая есть одна и та же с Юноной, и птиц, ей посвящённых, означающих, что Юнона — царица Неба, владычица воздуха, госпожа царств и богатств. Её же понимали и как Добродетель.\"; caption_en: \"Image of Juno Lucina, and of the Syrian Goddess of Hierapolis in Assyria, who is one and the same as Juno, and of the birds sacred to her, signifying that Juno is queen of Heaven, ruler of the air, mistress of kingdoms and of riches. She was also understood as Virtue.\"; caption_fr: \"Image de Junon Lucine, et de la Déesse Syrienne d'Hiérapolis en Assyrie, qui n'est qu'une seule et même chose avec Junon ; et des oiseaux qui lui sont consacrés, signifiant que Junon est reine du Ciel, maîtresse de l'air, souveraine des royaumes et des richesses. On la comprenait aussi comme la Vertu.\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
       "type": "mistranslation",
       "original": "gli huomini non non haueuano altre statoe de i Dei, che le haste",
       "current": "люди не не имели иных статуй богов",

@@ -2,6 +2,16 @@
   "id": "cartm33",
   "book": "cartari",
   "pass": "A",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "al Dio dell'Inferno come Cerbero, dalle fauole tanto celebrato, ne fà fede.",
+      "current": "«Образ Гекаты, трёхликой богини, называемой также Прозерпиной, супругой Плутона и царицей Преисподней, означающий три фазы Луны и её власть над стихийными вещами».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: отдельный абзац, конец текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Гекаты, трёхликой богини, называемой также Прозерпиной, супругой Плутона и царицей Преисподней, означающий три фазы Луны и её власть над стихийными вещами».\"; caption_en: \"“The image of Hecate, the triform goddess, also called Proserpina, wife of Pluto and queen of the Underworld, signifying the three aspects of the Moon, and lunar power over elemental things.”\"; caption_fr: \"« L'image d'Hécate, déesse triforme, aussi appelée Proserpine, épouse de Pluton et reine des Enfers, signifiant les trois aspects de la Lune, et le pouvoir lunaire sur les choses élémentaires. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    }
+  ]
 }

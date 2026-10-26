@@ -2,6 +2,16 @@
   "id": "cartm_martescithi",
   "book": "cartari",
   "pass": "A",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Imagine del Tempio di Marte Dio della guerra, che era così fatto appo li Scithi, & della figura di Marte",
+      "current": "Изображение Храма Марса, бога войны, каковой был устроен так у скифов, и изображения Марса у жителей каменистой Аравии, разумеемого также под Солнцем, и под силою его во всех человеческих действиях.",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; структурное замечание: подпись слита с текстом и в оригинале, и в переводах; сам перевод подписи по смыслу не проверялся отдельно сверх прохода A). caption_ru: \"Изображение Храма Марса, бога войны, каковой был устроен так у скифов, и изображения Марса у жителей каменистой Аравии, разумеемого также под Солнцем, и под силою его во всех человеческих действиях.\"; caption_en: \"Image of the Temple of Mars, God of war, which was made thus among the Scythians, and of the figure of Mars among those of Arabia Petraea, understood also as the Sun, and as the force thereof in all human actions.\"; caption_fr: \"Image du Temple de Mars, Dieu de la guerre, qui était ainsi fait chez les Scythes, et de la figure de Mars chez ceux de l'Arabie pétrée, entendu aussi pour le Soleil, et pour la force de celui-ci dans toutes les actions humaines.\"; caption_orig: \"Imagine del Tempio di Marte Dio della guerra, che era così fatto appo li Scithi, & della figura di Marte appo quelli d'Arabia petrea, inteso per il Sole ancora, & per la forza di quello in tutte le attioni humane.\" (найдено в начале text_it — отделить от основного текста)",
+      "confidence": "high"
+    }
+  ]
 }

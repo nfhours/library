@@ -7,6 +7,15 @@
     {
       "field": "text_ru",
       "paragraph": 1,
+      "type": "addition",
+      "original": "do ei descriue l'Achaia, che era in certa parte di quel paese",
+      "current": "Образ Анубиса, бога проницательности, стражи и верности, с крокодилом — животным Египта, земноводным и водным, с Аписом, Юпитером-Аммоном и иными таинственными изображениями.",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"Образ Анубиса, бога проницательности, стражи и верности, с крокодилом — животным Египта, земноводным и водным, с Аписом, Юпитером-Аммоном и иными таинственными изображениями.\"; caption_en: \"Image of Anubis, god of sagacity, guardianship, and fidelity, with the Crocodile, an animal of Egypt, both terrestrial and aquatic, with Apis, Jove Hammon, and other mysterious figures.\"; caption_fr: \"Image d'Anubis, dieu de la sagacité, de la garde et de la fidélité, avec le Crocodile, animal d'Égypte, terrestre et aquatique, avec Apis, Jupiter Hammon, et d'autres figures mystérieuses.\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
       "type": "mistranslation",
       "original": "Et vn'altra ne era appresso de' Tanagrei gente della Beotia, che portaua vn montone in collo",
       "current": "у Танагрейцев, народа Беотии, который носил барана на шее",

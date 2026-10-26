@@ -7,6 +7,15 @@
     {
       "field": "text_ru",
       "paragraph": 1,
+      "type": "addition",
+      "original": "Imagine de gli Dei Erote, & Anterote fratelli & figliuoli di Venere, intesi l'vno per l'amare l'altro per il riamare,",
+      "current": "Изображение богов Эрота и Антэрота, братьев и сыновей Венеры, разумеемых — один как любящий, другой как отвечающий взаимностью, то есть любовь взаимная, и изображение любви Летейской, что заставляет разлюбить и забыть любимого человека.",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; структурное замечание: подпись слита с текстом и в оригинале, и в переводах; сам перевод подписи по смыслу не проверялся отдельно сверх прохода A). caption_ru: \"Изображение богов Эрота и Антэрота, братьев и сыновей Венеры, разумеемых — один как любящий, другой как отвечающий взаимностью, то есть любовь взаимная, и изображение любви Летейской, что заставляет разлюбить и забыть любимого человека.\"; caption_en: \"Image of the Gods Eros, and Anteros, brothers, and sons of Venus, understood — the one for loving, the other for loving in return, that is, reciprocal love, and the image of Lethean love, which makes one cease to love, and forget the beloved person.\"; caption_fr: \"Image des Dieux Éros, et Anteros, frères, et fils de Vénus, entendus — l'un pour aimer, l'autre pour aimer en retour, c'est-à-dire l'amour réciproque, et l'image de l'amour léthéen, qui fait cesser d'aimer, et oublier la personne aimée.\"; caption_orig: \"Imagine de gli Dei Erote, & Anterote fratelli & figliuoli di Venere, intesi l'vno per l'amare l'altro per il riamare, ouero l'amor reciproco, & l'imagine dell'amor Letheo che fà disamare, & dimenticare la persona amata.\" (найдено в начале text_it — отделить от основного текста)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
       "type": "mistranslation",
       "original": "li quali diceuano gli antichi tutti venire da Cupido, che accendergli alla virtù",
       "current": "исходящими от Купидона, воспламеняющего их к добродетели",

@@ -8,6 +8,15 @@
       "field": "text_ru",
       "paragraph": 1,
       "type": "addition",
+      "original": "Ma, che in vero furono certi scogli, tra gli quali le onde",
+      "current": "«Образ Сциллы, сицилийской скалы, называемой поэтами жесточайшим морским чудовищем, означающей опасности, которым подвержены мореплаватели: бури, скалы, мели, корсары и тысячи тяжких и смертельных бед».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Сциллы, сицилийской скалы, называемой поэтами жесточайшим морским чудовищем, означающей опасности, которым подвержены мореплаватели: бури, скалы, мели, корсары и тысячи тяжких и смертельных бед».\"; caption_en: \"“The image of Scylla, the Sicilian rock, called by the Poets a most savage sea monster, signifying the dangers to which sailors are exposed: storms, rocks, shoals, corsairs, and a thousand grave and deadly ills.”\"; caption_fr: \"« L'image de Scylla, l'écueil sicilien, appelé par les Poètes un très cruel monstre marin, signifiant les dangers auxquels sont exposés les navigateurs : tempêtes, écueils, bas-fonds, corsaires, et mille maux graves et mortels. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
       "original": "fuori della spelonca horrenda porgeua spesso in mare le spauenteuoli teste, guardando se naue",
       "current": "…высматривая, не проплывёт ли там корабль, дабы чтобы не учинить… Харибда… Нереиды… Палемон… Портун…»",
       "suggested": "text_it обрывается на «guardando se naue»; всё дальнейшее (Харибда, превращение Сциллы, Платон о Нереидах, Павсаний, Палемон-Портун) отсутствует в оригинале этой записи — удалить или перенести в следующую запись после сверки (проход B)",

@@ -6,6 +6,15 @@
   "issues": [
     {
       "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "ne di bel corpo, grande, e sodo, cui comincino à spuntare alcuni",
+      "current": "«Статуи Меркурия, называемые Гермами, поскольку он был изобретателем всех благородных искусств, которые не боятся ударов времени или фортуны, и добродетельные люди не страшатся никакой им обиды; означают они также стойкость правдивой речи».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Статуи Меркурия, называемые Гермами, поскольку он был изобретателем всех благородных искусств, которые не боятся ударов времени или фортуны, и добродетельные люди не страшатся никакой им обиды; означают они также стойкость правдивой речи».\"; caption_en: \"“Statues of Mercury, called Herms, he having been the inventor of all the liberal arts, which fear no blows of time or fortune, and virtuous men fear no injury to them; they also signify the steadfastness of truthful speech.”\"; caption_fr: \"« Statues de Mercure, appelées Herms, celui-ci ayant été l'inventeur de tous les arts libéraux, qui ne craignent ni les coups du temps ni de la fortune, et les hommes vertueux ne craignent aucune offense qui leur soit faite ; elles signifient aussi la fermeté de la parole véridique. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
       "paragraph": 2,
       "type": "addition",
       "original": "ne di bel corpo, grande, e sodo",

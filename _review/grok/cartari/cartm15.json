@@ -6,6 +6,15 @@
   "issues": [
     {
       "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Apuleio fà fede, che il Sole veda ogni cosa, quando dice, che",
+      "current": "«Образ Аполлона-Митры, означающий силу и воздействие Солнца на Луну и на все вещи; и что Солнце среди звёзд подобно Льву среди зверей, и в этом знаке (созвездии) оно являет нам наибольшую свою силу».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: отдельный абзац, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Аполлона-Митры, означающий силу и воздействие Солнца на Луну и на все вещи; и что Солнце среди звёзд подобно Льву среди зверей, и в этом знаке (созвездии) оно являет нам наибольшую свою силу».\"; caption_en: \"“The image of Apollo Mithras, signifying the power and effects of the Sun upon the Moon and upon all things, and that the Sun is among the Stars as the Lion is among the beasts, and in that sign shows us here its greatest strength.”\"; caption_fr: \"« L'image d'Apollon Mithra, signifiant la force et les effets du Soleil sur la Lune et sur toutes choses, et que le Soleil est parmi les étoiles comme le Lion parmi les bêtes, et que dans ce signe il nous montre ici sa plus grande force. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
       "paragraph": 2,
       "type": "mistranslation",
       "original": "così di nascosto, che non sarebbono pure state viste da gli occhi del Sole",

@@ -2,6 +2,16 @@
   "id": "cartm_volupia",
   "book": "cartari",
   "pass": "A",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Imagini della Dea Volupia Dea de piaceri conculcante la Dea Virtù sotto li piedi suoi, denotante la detestanda, & infame",
+      "current": "Изображение богини Волупии, богини наслаждений, попирающей богиню Добродетель под ногами своими, означающее презренную и позорную жизнь преданных наслаждениям, во всём презирающих добродетель, предавшихся лишь всякого рода пороку, словно существа неразумные.",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; структурное замечание: подпись слита с текстом и в оригинале, и в переводах; сам перевод подписи по смыслу не проверялся отдельно сверх прохода A). caption_ru: \"Изображение богини Волупии, богини наслаждений, попирающей богиню Добродетель под ногами своими, означающее презренную и позорную жизнь преданных наслаждениям, во всём презирающих добродетель, предавшихся лишь всякого рода пороку, словно существа неразумные.\"; caption_en: \"Image of the Goddess Volupia, Goddess of pleasures, trampling the Goddess Virtue beneath her feet, denoting the detestable and infamous life of those given over to pleasures, in every way despisers of virtue, given only to every sort of vice, as though irrational creatures.\"; caption_fr: \"Images de la Déesse Volupia, Déesse des plaisirs, foulant aux pieds la Déesse Vertu, dénotant la vie détestable et infâme de ceux adonnés aux plaisirs, en tout contempteurs de la vertu, livrés seulement à toute sorte de vice, comme des êtres presque irrationnels.\"; caption_orig: \"Imagini della Dea Volupia Dea de piaceri conculcante la Dea Virtù sotto li piedi suoi, denotante la detestanda, & infame vita de' dati à piaceri, in tutto spreggiatori della virtù, solo dati ad ogni sorte di vitio, quasi irrationali.\" (найдено в начале text_it — отделить от основного текста)",
+      "confidence": "high"
+    }
+  ]
 }

@@ -7,6 +7,15 @@
     {
       "field": "text_ru",
       "paragraph": 1,
+      "type": "addition",
+      "original": "Imagini del Genio buono, & cattiuo, custode & osseruatore della generatione humana, delle attioni, & delle Città, & luoghi priuati.",
+      "current": "Изображения доброго и злого Гения, хранителя и наблюдателя человеческого рождения, деяний, Городов и частных мест.",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; структурное замечание: подпись слита с текстом и в оригинале, и в переводах; сам перевод подписи по смыслу не проверялся отдельно сверх прохода A). caption_ru: \"Изображения доброго и злого Гения, хранителя и наблюдателя человеческого рождения, деяний, Городов и частных мест.\"; caption_en: \"Images of the good, and evil Genius, guardian and observer of human generation, of actions, and of Cities, and private places.\"; caption_fr: \"Images du bon Génie, et du mauvais, gardien et observateur de la génération humaine, des actions, et des Cités, et lieux privés.\"; caption_orig: \"Imagini del Genio buono, & cattiuo, custode & osseruatore della generatione humana, delle attioni, & delle Città, & luoghi priuati.\" (найдено в начале text_it — отделить от основного текста)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
       "type": "mistranslation",
       "original": "della quale Vlisse passando via non si fece alcun conto",
       "current": "за которую Улисс, проходя мимо, не понёс никакого наказания",

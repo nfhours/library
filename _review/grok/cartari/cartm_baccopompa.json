@@ -7,6 +7,15 @@
     {
       "field": "text_ru",
       "paragraph": 1,
+      "type": "addition",
+      "original": "Imagini di Bacco, & della pompa, feste, & cerimonie bacchanali, & l'habito delle Bacche, o Menadi sue seguaci, significante che",
+      "current": "Изображения Вакха, и торжественного шествия, празднеств и обрядов вакхических, и одеяния Вакханок, или Менад, его спутниц, означающее, что жертвоприношения вакхические очищали души от вины, подобно тому как вино очищает их от мыслей.",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; структурное замечание: подпись слита с текстом и в оригинале, и в переводах; сам перевод подписи по смыслу не проверялся отдельно сверх прохода A). caption_ru: \"Изображения Вакха, и торжественного шествия, празднеств и обрядов вакхических, и одеяния Вакханок, или Менад, его спутниц, означающее, что жертвоприношения вакхические очищали души от вины, подобно тому как вино очищает их от мыслей.\"; caption_en: \"Images of Bacchus, and of the pomp, feasts, and bacchanalian ceremonies, and of the attire of the Bacchae, or Maenads, his followers, signifying that the bacchanalian sacrifices purged souls of guilt, just as wine purges them of thoughts.\"; caption_fr: \"Images de Bacchus, et de la pompe, des fêtes, et des cérémonies bachiques, et de l'habit des Bacchantes, ou Ménades, ses suivantes, signifiant que les sacrifices bachiques purgeaient les âmes des fautes, comme le vin les purge des pensées.\"; caption_orig: \"Imagini di Bacco, & della pompa, feste, & cerimonie bacchanali, & l'habito delle Bacche, o Menadi sue seguaci, significante che li sacrificij bacchanali purgauan gl'animi dalle colpe, come il vino li purga da pensieri.\" (найдено в начале text_it — отделить от основного текста)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
       "type": "mistranslation",
       "original": "Come insegnò di fare Osiri pure.",
       "current": "Как научил делать чистый Осирис.",

@@ -7,6 +7,15 @@
     {
       "field": "text_ru",
       "paragraph": 1,
+      "type": "addition",
+      "original": "Giunone, come hò detto, alcuni da Venere, & alcuni altri da Himeneo,",
+      "current": "«Образ Гименея, бога брака и свадеб, с изображениями нескольких детей, собирающих рассыпанные орехи, означающий вечность и нерасторжимость брака, девичий румянец, и что тому, кто принимает на себя заботу о доме, надлежит оставить детские забавы».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Гименея, бога брака и свадеб, с изображениями нескольких детей, собирающих рассыпанные орехи, означающий вечность и нерасторжимость брака, девичий румянец, и что тому, кто принимает на себя заботу о доме, надлежит оставить детские забавы».\"; caption_en: \"“The image of Hymen, god of marriage and weddings, with the images of some children gathering scattered nuts, signifying the perpetuity and indissolubility of marriage, virginal blushing, and that whoever takes on the charge of a household must leave behind childish things.”\"; caption_fr: \"« L'image d'Hyménée, dieu du mariage et des noces, avec les images de quelques enfants ramassant des noix éparpillées, signifiant la perpétuité et l'indissolubilité du mariage, la rougeur virginale, et que celui qui prend la charge d'une maison doit délaisser les choses enfantines. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
       "type": "name",
       "original": "Giunone, come hò detto, alcuni da Venere",
       "current": "Юпитером, как я сказал; одни — Венерой, а иные иные — Гименеем",

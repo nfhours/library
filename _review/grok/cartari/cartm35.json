@@ -2,6 +2,16 @@
   "id": "cartm35",
   "book": "cartari",
   "pass": "A",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "Flacco, che le dà parimente il Ciembalo in mano. Ouidio, quando la",
+      "current": "«Образ богини Природы, вся покрытая грудями, — чтобы показать, что вселенная получает питание от её сокрытой силы».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: отдельный абзац, конец текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ богини Природы, вся покрытая грудями, — чтобы показать, что вселенная получает питание от её сокрытой силы».\"; caption_en: \"“The image of the goddess Nature, all covered with breasts, to show that the universe takes nourishment from her hidden power.”\"; caption_fr: \"« L'image de la déesse Nature, toute couverte de seins, pour montrer que l'univers tire sa nourriture de sa vertu cachée. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    }
+  ]
 }

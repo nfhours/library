@@ -6,6 +6,15 @@
   "issues": [
     {
       "field": "text_ru",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "così, come il fuoco stringe tutto ciò, a che si appiglia; ouero",
+      "current": "«Статуя Люцины, богини родов, отождествляемой с Луной, поскольку Луна — влажная планета, способная облегчать быстроту родов; изображена закутанной в знак стыдливости рожающей женщины».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: отдельный абзац, конец текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Статуя Люцины, богини родов, отождествляемой с Луной, поскольку Луна — влажная планета, способная облегчать быстроту родов; изображена закутанной в знак стыдливости рожающей женщины».\"; caption_en: \"“The statue of Lucina, goddess of Childbirth, identified with the Moon, the Moon being a moist planet apt to facilitate the swiftness of childbirth, and figured veiled for the modesty of the woman giving birth.”\"; caption_fr: \"« La statue de Lucine, déesse des accouchements, assimilée à la Lune, la Lune étant une planète humide propre à faciliter la rapidité de l'accouchement, et représentée voilée pour la pudeur de la femme qui accouche. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
       "paragraph": 1,
       "type": "mistranslation",
       "original": "& tutta sfella, e destra l'aiutò a partorire il fratello Apollo",

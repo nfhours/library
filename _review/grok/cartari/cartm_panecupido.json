@@ -7,6 +7,15 @@
     {
       "field": "text_ru",
       "paragraph": 1,
+      "type": "addition",
+      "original": "Imagine di Pane, & Cupido, l'vno vinto, l'altro vincitore, per mostrare il potere d'Amore sopra la Natura vniuersale, che inuaghita",
+      "current": "Изображение Пана и Купидона, один побеждённый, другой победитель, дабы показать власть Любви над всеобщей Природой, что, прельщённая услаждением дел своих, не помышляет ни о чём ином, кроме как делать их прекрасными и нарядными.",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; структурное замечание: подпись слита с текстом и в оригинале, и в переводах; сам перевод подписи по смыслу не проверялся отдельно сверх прохода A). caption_ru: \"Изображение Пана и Купидона, один побеждённый, другой победитель, дабы показать власть Любви над всеобщей Природой, что, прельщённая услаждением дел своих, не помышляет ни о чём ином, кроме как делать их прекрасными и нарядными.\"; caption_en: \"Image of Pan, and Cupid, the one conquered, the other victor, to show the power of Love over universal Nature, which, enamored of the delight of its own operations, thinks of nothing else, than of making them beautiful, and adorned.\"; caption_fr: \"Image de Pan, et de Cupidon, l'un vaincu, l'autre vainqueur, pour montrer le pouvoir de l'Amour sur la Nature universelle, qui, éprise du plaisir de ses propres opérations, ne pense à rien d'autre qu'à les rendre belles, et parées.\"; caption_orig: \"Imagine di Pane, & Cupido, l'vno vinto, l'altro vincitore, per mostrare il potere d'Amore sopra la Natura vniuersale, che inuaghita del diletto delle operationi sue, non pensa ad altro, che à farle belle, & adorne.\" (найдено в начале text_it — отделить от основного текста)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
       "type": "mistranslation",
       "original": "Da chi lasciò di lor l'altra sù'l lito,",
       "current": "Коего оставила одна из них на берегу,",

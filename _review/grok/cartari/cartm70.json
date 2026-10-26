@@ -8,6 +8,15 @@
       "field": "text_ru",
       "paragraph": 1,
       "type": "addition",
+      "original": "Atheniesi le dimandauano le Dee Seuere, & i Sicionij le chiamarono Eumenide,",
+      "current": "«Образы Алекто, Тисифоны и Мегеры, трёх адских фурий, карательниц зла, а вместе и его причинительниц, понимаемых как три страсти души — Гнев, Алчность и Похоть, с чёрной овцой, им посвящённой, и горлицами — знаком печали».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образы Алекто, Тисифоны и Мегеры, трёх адских фурий, карательниц зла, а вместе и его причинительниц, понимаемых как три страсти души — Гнев, Алчность и Похоть, с чёрной овцой, им посвящённой, и горлицами — знаком печали».\"; caption_en: \"“The images of Alecto, Tisiphone, and Megaera, three infernal Furies, punishers of evil, and also bringers of it, understood as three passions of the soul — Wrath, Avarice, and Lust — with the black sheep sacred to them, and the turtledoves, a sign of sorrow.”\"; caption_fr: \"« Les images d'Alecto, Tisiphone et Mégère, trois Furies infernales, punisseuses du mal, et aussi pourvoyeuses de celui-ci, entendues comme trois passions de l'âme — la Colère, l'Avarice et la Luxure — avec la brebis noire qui leur est sacrée, et les tourterelles, signe de tristesse. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
       "original": "Quà, quà venite à vdir le mie querele Contra questo maluagio, empio, e crudele.",
       "current": "людям совершать всякое зло … Гнев … Алчность … Распутство … Стаций … Овидий … Стигийского Болота … амброзию».",
       "suggested": "text_it кончается стихами Катулла; весь последующий блок (страсти души, Стаций о Тисифоне, Овидий, Стикс) в оригинале этой записи отсутствует — удалить/перенести после сверки",

@@ -7,6 +7,15 @@
     {
       "field": "text_ru",
       "paragraph": 1,
+      "type": "addition",
+      "original": "se loro, le quali consecrauano poi, & vsauano in vece di altari",
+      "current": "«Храм в Риме богини Весты, матери богов, и Весты, богини огня и девственности, означающей тот животворящий жар, что даёт жизнь всем вещам, то есть невидимую божественную душу, с двумя весталками-хранительницами, следящими, чтобы вечный огонь не угас».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Храм в Риме богини Весты, матери богов, и Весты, богини огня и девственности, означающей тот животворящий жар, что даёт жизнь всем вещам, то есть невидимую божественную душу, с двумя весталками-хранительницами, следящими, чтобы вечный огонь не угас».\"; caption_en: \"“The temple in Rome of the goddess Vesta, mother of the Gods, and of Vesta, goddess of fire and of Virginity, signifying that life-giving heat which gives life to things, that is, the invisible divine spirit, with the two Vestal guardians, so that the perpetual fire should not be extinguished.”\"; caption_fr: \"« Le temple à Rome de la déesse Vesta, mère des Dieux, et de Vesta, déesse du feu et de la Virginité, signifiant cette chaleur vivifiante qui donne vie aux choses, c'est-à-dire l'âme divine invisible, avec les deux Vestales gardiennes, afin que le feu perpétuel ne s'éteigne pas. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
       "type": "mistranslation",
       "original": "e perciò non era fatto mai sacrificio senza fuoco, & che non fosse chiamata Vesta nel principio",
       "current": "и ни одно не называлось так без призывания сначала Весты",

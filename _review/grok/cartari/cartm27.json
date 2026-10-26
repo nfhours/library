@@ -2,6 +2,16 @@
   "id": "cartm27",
   "book": "cartari",
   "pass": "A",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "perche è tale, che ogniuno da sè la può molto bene intendere.",
+      "current": "«Колесница Солнца, бога света, с образом и убранством самого Солнца, влекомая четырьмя конями, означающими четыре проявления его сияния в течение дня и года, а также быстроту его движения и его тело».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: отдельный абзац, конец текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Колесница Солнца, бога света, с образом и убранством самого Солнца, влекомая четырьмя конями, означающими четыре проявления его сияния в течение дня и года, а также быстроту его движения и его тело».\"; caption_en: \"“The Chariot of the Sun, god of light, with the image and ornament of the Sun itself, drawn by four Horses, signifying the four splendours and effects of the Sun through the day and the year, and the swiftness of its motion and its body.”\"; caption_fr: \"« Le Char du Soleil, dieu de la lumière, avec l'image et l'ornement du Soleil lui-même, tiré par quatre Chevaux, signifiant les quatre splendeurs et effets du Soleil au long du jour et de l'année, ainsi que la rapidité de son mouvement et son corps. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    }
+  ]
 }

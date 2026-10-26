@@ -7,6 +7,15 @@
     {
       "field": "text_ru",
       "paragraph": 1,
+      "type": "addition",
+      "original": "Hieroglifico denotante la buona Fortuna quasi sempre andare con l'Eloquenza, & con la Dottrina, & l'imagine dell'Occasione, & opportunità da",
+      "current": "Иероглиф, означающий, что добрая Фортуна почти всегда идёт вместе с Красноречием и с Учёностью, и изображение Случая, или удобного мгновения, называемого греками богом Кер, которого кто не ухватит, когда он является, тот после тщетно его ищет и раскаивается.",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; структурное замечание: подпись слита с текстом и в оригинале, и в переводах; сам перевод подписи по смыслу не проверялся отдельно сверх прохода A). caption_ru: \"Иероглиф, означающий, что добрая Фортуна почти всегда идёт вместе с Красноречием и с Учёностью, и изображение Случая, или удобного мгновения, называемого греками богом Кер, которого кто не ухватит, когда он является, тот после тщетно его ищет и раскаивается.\"; caption_en: \"A hieroglyph denoting that good Fortune almost always goes together with Eloquence, and with Learning, and the image of Occasion, or opportunity, called by the Greeks the God Kairos, whom whoever does not seize when he presents himself afterward seeks in vain, and repents.\"; caption_fr: \"Hiéroglyphe dénotant que la bonne Fortune va presque toujours avec l'Éloquence, et avec la Doctrine, et l'image de l'Occasion, ou opportunité, appelée par les Grecs le Dieu Kairos, lequel celui qui ne saisit pas quand il se présente le cherche ensuite en vain, et s'en repent.\"; caption_orig: \"Hieroglifico denotante la buona Fortuna quasi sempre andare con l'Eloquenza, & con la Dottrina, & l'imagine dell'Occasione, & opportunità da Greci detta il Dio Chero qual chi non prende quando si appresenta in vano poi si cerca e si pentisce.\" (найдено в начале text_it — отделить от основного текста)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
       "type": "name",
       "original": "era il suo nome Chero, che questa voce appresso de i Greci significa opportunità di tempo",
       "current": "было имя его Кер",

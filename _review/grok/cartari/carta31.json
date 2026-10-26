@@ -10,7 +10,7 @@
       "type": "addition",
       "original": "che tanto può essere Mercurio, quanto Bellerofonte.",
       "current": "«Вторая же [камея] взята с древней резьбы».",
-      "suggested": "абзаца 3 в text_it нет (это первая фраза следующей записи cartm_pignoriahermi, где она уже переведена) — удалить; то же EN абз. 3",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: отдельные абзацы [3], конец текста) — фраза продолжает подпись к двум камеям; та же фраза стоит в начале cartm_pignoriahermi — оставить в одной записи. caption_ru: \"«Вторая же [камея] взята с древней резьбы».\"; caption_en: \"\"The second [cameo] is taken from an ancient carving.\"\"; caption_fr: \"« La seconde [camée] est tirée d'une taille antique. »\"; caption_orig: «проверить по фото» (в text_it подписи нет)",
       "confidence": "medium"
     }
   ]

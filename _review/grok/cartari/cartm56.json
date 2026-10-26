@@ -2,6 +2,16 @@
   "id": "cartm56",
   "book": "cartari",
   "pass": "A",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Hora dichiamo di Cerere, che fù stimata la prima, che mostrasse di",
+      "current": "«Образ Цереры Сицилийской, изобретательницы и богини злаков, и её колесницы, влекомой драконами, означающей плодородную землю и её возделывание, поскольку злаки не слишком высоко поднимаются и кажутся почти стелющимися, а также означает извилистые борозды вспаханной земли».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Цереры Сицилийской, изобретательницы и богини злаков, и её колесницы, влекомой драконами, означающей плодородную землю и её возделывание, поскольку злаки не слишком высоко поднимаются и кажутся почти стелющимися, а также означает извилистые борозды вспаханной земли».\"; caption_en: \"“The image of Sicilian Ceres, inventress and goddess of grain, and of her chariot drawn by Dragons, signifying the fruitful earth and its cultivation, since the grain does not rise very high and seems almost to creep, and also denoting the winding furrows of the ploughed earth.”\"; caption_fr: \"« L'image de Cérès de Sicile, inventrice et déesse du blé, et de son char tiré par des Dragons, signifiant la terre fertile et sa culture, le blé ne s'élevant guère et semblant presque ramper, et indiquant aussi les sillons sinueux de la terre labourée. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    }
+  ]
 }

@@ -6,6 +6,15 @@
   "issues": [
     {
       "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Melampigo, che viene a dire, dal negro culo, perche così chiamarono i",
+      "current": "«Образ вооружённого Геркулеса, Геркулеса-едока и пьяницы, а также птицы Лысухи, посвящённой ему за её прожорливость, и жертвенника, называемого «ярмом быка», знака его благодарной природы и благости; увенчанного тополем, поскольку он также принимается за Время, которое всё поглощает и уничтожает».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ вооружённого Геркулеса, Геркулеса-едока и пьяницы, а также птицы Лысухи, посвящённой ему за её прожорливость, и жертвенника, называемого «ярмом быка», знака его благодарной природы и благости; увенчанного тополем, поскольку он также принимается за Время, которое всё поглощает и уничтожает».\"; caption_en: \"“The image of Hercules armed, of Hercules the eater and drinker, and of the Coot bird sacred to him for its voracity, and of the altar sacred to him called the yoke of the ox, a sign of his grateful nature and benignity; crowned then with the poplar tree, being also taken for Time, which devours and consumes all things.”\"; caption_fr: \"« L'image d'Hercule armé, d'Hercule mangeur et buveur, et de l'oiseau Foulque qui lui est sacré pour sa voracité, et de l'autel qui lui est sacré appelé le joug du bœuf, signe de sa nature reconnaissante et de sa bonté ; couronné ensuite du peuplier, étant aussi pris pour le Temps, qui dévore et consume toutes choses. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
       "paragraph": 2,
       "type": "addition",
       "original": "Melampigo, che viene a dire, dal negro culo",

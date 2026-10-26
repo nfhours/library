@@ -6,6 +6,15 @@
   "issues": [
     {
       "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "A questi due diceuano quelle genti che vbbidiuano tutte le cose, &",
+      "current": "«Образ Адада и Адаргатис, богов ассирийцев, понимаемых ими как Солнце и Земля, означающий, что всё, что рождается на земле, происходит от силы Солнца и солнечных лучей».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: отдельный абзац, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Адада и Адаргатис, богов ассирийцев, понимаемых ими как Солнце и Земля, означающий, что всё, что рождается на земле, происходит от силы Солнца и солнечных лучей».\"; caption_en: \"“The image of Adad, and of Adargatis, gods of the Assyrians, understood by them as the Sun and the Earth, denoting that everything born on earth comes from the power of the Sun and from solar rays.”\"; caption_fr: \"« L'image d'Adad et d'Adargatis, dieux des Assyriens, entendus par eux comme le Soleil et la Terre, indiquant que tout ce qui naît sur terre provient de la vertu du Soleil et des rayons solaires. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
       "paragraph": 2,
       "type": "mistranslation",
       "original": "& per quello intendeuano il Sole, la terra per questa",

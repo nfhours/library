@@ -6,6 +6,15 @@
   "issues": [
     {
       "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Dal quale non era differente quello che fu fatto à Pomona Dea",
+      "current": "«Образ Помоны, богини садов и супруги Вертумна: с серпом в руке для срезания плодов, которым, как считалось, она дарует зрелость; рядом с ней — пёс, страж садов».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Помоны, богини садов и супруги Вертумна: с серпом в руке для срезания плодов, которым, как считалось, она дарует зрелость; рядом с ней — пёс, страж садов».\"; caption_en: \"“The image of Pomona, goddess of Orchards, and wife of Vertumnus: with a Sickle in her hand for cutting Fruits, to which she was believed to give ripeness. With a Dog nearby, guardian of Gardens.”\"; caption_fr: \"« L'image de Pomone, déesse des Vergers, et épouse de Vertumne : avec une Faucille à la main pour couper les Fruits, auxquels on la croyait donner la maturité. Avec, auprès d'elle, un Chien, gardien des Jardins. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
       "paragraph": 2,
       "type": "addition",
       "original": "Queste cose si operauano a' 28. d'Aprile, & il primo giorno di Maggio",

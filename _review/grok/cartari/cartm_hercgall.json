@@ -6,6 +6,15 @@
   "issues": [
     {
       "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "quenza, in questa guisa, come racconta Luciano. Era vn vecchio quasi all'vltima",
+      "current": "Образ Геркулеса, которого галлы почитали как бога красноречия и воинского искусства, а некоторые отождествляли его также с Меркурием; и этот образ означает силу и воинскую дисциплину, особенно в старых военачальниках и опытных ораторах.",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"Образ Геркулеса, которого галлы почитали как бога красноречия и воинского искусства, а некоторые отождествляли его также с Меркурием; и этот образ означает силу и воинскую дисциплину, особенно в старых военачальниках и опытных ораторах.\"; caption_en: \"Image of Hercules, held by the Gauls as the God of eloquence and of military exercise, who was by some also held to be Mercury; and this image denotes strength and military discipline, especially in old Captains and seasoned orators.\"; caption_fr: \"Image d'Hercule, tenu par les Français (Gaulois) pour le Dieu de l'éloquence et de l'exercice militaire, et que certains tenaient aussi pour Mercure ; et cette image signifie la force et la discipline militaire, surtout chez les vieux Capitaines et les orateurs consommés.\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
       "paragraph": 2,
       "type": "addition",
       "original": "quenza, in questa guisa, come racconta Luciano",

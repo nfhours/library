@@ -6,6 +6,15 @@
   "issues": [
     {
       "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Leggesi ancora, che sotto il nome di Serapi intesero del Sole in",
+      "current": "«Образ Сераписа, бога египтян, понимаемого ими как Солнце и как Нил, с изваянием тела о трёх главах, означающих три времени — прошедшее, настоящее и будущее, — и что Солнце движется в порядке и мере, никогда не отклоняясь».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: отдельный абзац, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Сераписа, бога египтян, понимаемого ими как Солнце и как Нил, с изваянием тела о трёх главах, означающих три времени — прошедшее, настоящее и будущее, — и что Солнце движется в порядке и мере, никогда не отклоняясь».\"; caption_en: \"“The image of Serapis, god of the Egyptians, understood by them as the Sun, and as the Nile, with the likeness of a body with three heads, signifying the three times — past, present, and to come — and that the Sun proceeds with order and measure, never deviating.”\"; caption_fr: \"« L'image de Sérapis, dieu des Égyptiens, entendu par eux comme le Soleil et comme le Nil, avec la représentation d'un corps à trois têtes, signifiant les trois temps — passé, présent et à venir — et que le Soleil avance avec ordre et mesure, sans jamais dévier. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
       "paragraph": 2,
       "type": "mistranslation",
       "original": "così grande, che stendendo do le mani toccaua ambi gli lati del tempio",

@@ -7,6 +7,15 @@
     {
       "field": "text_ru",
       "paragraph": 1,
+      "type": "addition",
+      "original": "Hora ritorno à Gioue riputato, come dissi, il maggior di tutti i",
+      "current": "«Образ бога-творца египтян и Юпитера, бога богов древних язычников, означающих природу Божества, Его провидение, благость, общение [с миром] и правление всеми вещами».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ бога-творца египтян и Юпитера, бога богов древних язычников, означающих природу Божества, Его провидение, благость, общение [с миром] и правление всеми вещами».\"; caption_en: \"“The image of the creator-god of the Egyptians, and of Jove, god of the gods of the ancient pagans, denoting the nature of God, and His providence, goodness, communication, and government of all things.”\"; caption_fr: \"« L'image du dieu créateur des Égyptiens, et de Jupiter, dieu des dieux des anciens païens, indiquant la nature de Dieu, et sa providence, sa bonté, sa communication et son gouvernement de toutes choses. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
       "type": "mistranslation",
       "original": "perche la Terra, hauuto rispetto al Cielo, e Inferno",
       "current": "ибо Земля, в сравнении с Небом и Преисподней, и потому",

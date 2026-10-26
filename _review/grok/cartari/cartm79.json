@@ -7,6 +7,15 @@
     {
       "field": "text_ru",
       "paragraph": 1,
+      "type": "addition",
+      "original": "Ma già è tempo che ritorniamo a Mercurio disegnato con l'ali a",
+      "current": "«Образ Меркурия, изобретателя Письменности, Музыки, Геометрии и благородных искусств, и образ Палестры, его дочери, богини борьбы, держащей на коленях ветвь оливы, поскольку борцы имели обычай умащаться маслом».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Меркурия, изобретателя Письменности, Музыки, Геометрии и благородных искусств, и образ Палестры, его дочери, богини борьбы, держащей на коленях ветвь оливы, поскольку борцы имели обычай умащаться маслом».\"; caption_en: \"“The image of Mercury, inventor of Letters, Music, Geometry, and the liberal arts, and the image of Palaestra, his daughter, goddess of wrestling, who holds in her lap a branch of olive, it being the custom of wrestlers to anoint themselves with oil.”\"; caption_fr: \"« L'image de Mercure, inventeur des Lettres, de la Musique, de la Géométrie et des arts libéraux, et l'image de Palestre, sa fille, déesse de la lutte, qui tient sur ses genoux une branche d'olivier, les lutteurs ayant coutume de s'oindre d'huile. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
       "type": "mistranslation",
       "original": "nõ ne volle essere senza, benche dicesse di farlo; perche gli spettatori conoscessero lui",
       "current": "не пожелал быть без них, хотя и говорил, что сделает это; дабы зрители узнавали его",

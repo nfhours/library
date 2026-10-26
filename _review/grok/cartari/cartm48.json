@@ -7,6 +7,15 @@
     {
       "field": "text_ru",
       "paragraph": 1,
+      "type": "addition",
+      "original": "Oltre di ciò dissero i Poeti, che Iride, che significa l'arco Celeste,",
+      "current": "«Образ Ириды, вестницы Юноны, дочери Тавманта, то есть Удивления: символ того, что богатства, подобно её цветам, вызывают изумление у глупцов и быстро исчезают».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Ириды, вестницы Юноны, дочери Тавманта, то есть Удивления: символ того, что богатства, подобно её цветам, вызывают изумление у глупцов и быстро исчезают».\"; caption_en: \"“The image of Iris, messenger of Juno, daughter of Thaumas, that is, of Wonder: a symbol, through her colours, of riches, which are a marvel to fools and soon vanish.”\"; caption_fr: \"« L'image d'Iris, messagère de Junon, fille de Thaumas, c'est-à-dire de l'Émerveillement : symbole, par ses couleurs, des richesses, qui émerveillent les sots et disparaissent bien vite. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
       "type": "mistranslation",
       "original": "le ricchezze fanno marauigliare i sciocchi li quali così tosto se ne vanno",
       "current": "у глупцов, которые так же скоро их теряют",

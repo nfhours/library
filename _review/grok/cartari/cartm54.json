@@ -5,6 +5,15 @@
   "verdict": "minor",
   "issues": [
     {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "ni di conto, li quali si mutauano di habito per non essere",
+      "current": "«Изваяние богини Кибелы, то есть Земли, и колесница, на которой её провозили в процессиях, влекомая двумя коровами, означающими плодородие земли и ту пользу, что проистекает от неё для смертных».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Изваяние богини Кибелы, то есть Земли, и колесница, на которой её провозили в процессиях, влекомая двумя коровами, означающими плодородие земли и ту пользу, что проистекает от неё для смертных».\"; caption_en: \"“The likeness of the goddess Cybele, who is the earth, and the chariot on which she was led in procession, drawn by two Cows denoting the fertility of the earth, and the benefit that comes from it to mortals.”\"; caption_fr: \"« Le simulacre de la déesse Cybèle, qui est la terre, et le char sur lequel elle était conduite en procession, tiré par deux Vaches indiquant la fertilité de la terre, et l'utilité qui en revient aux mortels. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
       "field": "text_en",
       "paragraph": 1,
       "type": "mistranslation",

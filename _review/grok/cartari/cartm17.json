@@ -2,6 +2,16 @@
   "id": "cartm17",
   "book": "cartari",
   "pass": "A",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Ma ritorniamo ad Apollo, ilquale per le cose già dette, & per",
+      "current": "«Образ нагого Аполлона, любящего быков, означает, что Солнце даёт жизнь земледелию, ибо своим умеренным теплом придаёт силу семени, травам, растениям и всему, дабы они достигли должного совершенства, зрелости и завершения».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: отдельный абзац, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ нагого Аполлона, любящего быков, означает, что Солнце даёт жизнь земледелию, ибо своим умеренным теплом придаёт силу семени, травам, растениям и всему, дабы они достигли должного совершенства, зрелости и завершения».\"; caption_en: \"“The image of naked Apollo, lover of Oxen, signifies that the Sun gives life to the things of agriculture, because with its moderate heat it gives strength to the seed, to herbs, to plants, and to everything, so that they may come to their due perfection, ripeness, and end.”\"; caption_fr: \"« L'image d'Apollon nu, amateur de Bœufs, signifie que le Soleil donne vie aux choses de l'agriculture, car par sa chaleur modérée il donne force à la semence, aux herbes, aux plantes et à toutes choses, afin qu'elles parviennent à leur juste perfection, maturité et fin. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    }
+  ]
 }

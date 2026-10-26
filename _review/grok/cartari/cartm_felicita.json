@@ -7,6 +7,15 @@
     {
       "field": "text_ru",
       "paragraph": 1,
+      "type": "omission",
+      "original": "Perche questa fu da gli antchi adorata parimente, & chiamata Macaria da'",
+      "current": "— (подписи нет)",
+      "suggested": "подпись к гравюре в переводах отсутствует (в text_ru/text_en/text_fr её нет); добавить caption_ru / caption_en / caption_fr после сверки по фото; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
       "type": "mistranslation",
       "original": "in bel seggio, bene ornata, ma non però con molta arte",
       "current": "на прекрасном седалище, хорошо украшенном, но не с большим, однако, искусством",

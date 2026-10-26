@@ -6,6 +6,15 @@
   "issues": [
     {
       "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Et il Bue era la più grata vittima, che si desse ad",
+      "current": "«Образ священных быков у египтян; они означали Солнце, Осириса и Земледелие».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: отдельный абзац, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ священных быков у египтян; они означали Солнце, Осириса и Земледелие».\"; caption_en: \"“The image of the sacred Oxen among the Egyptians, which signified the Sun, Osiris, and Agriculture.”\"; caption_fr: \"« L'image des Bœufs sacrés chez les Égyptiens, qui signifiaient le Soleil, Osiris et l'Agriculture. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
       "paragraph": 2,
       "type": "addition",
       "original": "diceuano, che Api appariua alle volte",

@@ -7,6 +7,15 @@
     {
       "field": "text_ru",
       "paragraph": 1,
+      "type": "addition",
+      "original": "questo era adorato, & trouasi fra le cose antiche di Roma fatto",
+      "current": "«Образ Верности (Веры), означенной богом Фидием, почитавшимся в древности. Истина изображена здесь как Мать, Честь — как Отец, Любовь — как связующее звено».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Верности (Веры), означенной богом Фидием, почитавшимся в древности. Истина изображена здесь как Мать, Честь — как Отец, Любовь — как связующее звено».\"; caption_en: \"“The image of Faith, signified by the god Fidius, worshipped in ancient times. Truth is represented here as the Mother, Honour as the Father, Love as the bond between them.”\"; caption_fr: \"« L'image de la Foi, signifiée par le dieu Fidius, adoré dans l'Antiquité. La Vérité est représentée ici comme la Mère, l'Honneur comme le Père, l'Amour comme le lien entre eux. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
       "type": "mistranslation",
       "original": "Et per punire Gioue lo spergiuro, come hò detto",
       "current": "А чтобы покарать Юпитера-клятвопреступника, как я сказал",

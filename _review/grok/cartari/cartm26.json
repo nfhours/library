@@ -6,6 +6,15 @@
   "issues": [
     {
       "field": "text_ru",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "à Febo, qual'è il medesimo che Apollo, come dissi già, oltre alle",
+      "current": "«Образ Гигиеи, дочери Эскулапа, с Псом и Змеем — символами её отца, означающими усердие доброго врача и те следствия, что проистекают из него».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: отдельный абзац, конец текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Гигиеи, дочери Эскулапа, с Псом и Змеем — символами её отца, означающими усердие доброго врача и те следствия, что проистекают из него».\"; caption_en: \"“The image of Hygieia, daughter of Aesculapius, with the Dog and the Serpent, symbols of her father, signifying the diligence of the good Physician, and the effects that result from it.”\"; caption_fr: \"« L'image d'Hygie, fille d'Esculape, avec le Chien et le Serpent, symboles de son père, signifiant la diligence du bon Médecin, et les effets qui en résultent. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
       "paragraph": 1,
       "type": "mistranslation",
       "original": "in vna notte i Topi rosero loro",
@@ -17,7 +26,7 @@
       "field": "text_ru",
       "paragraph": 1,
       "type": "mistranslation",
-      "original": "sentì per sorte andarsi innanzi vna asina",
+      "original": "sentì per forte andarsi innanzi vna asina",
       "current": "по некой причине почуял впереди себя ослицу",
       "suggested": "случайно почуял впереди себя ослицу (per sorte = случайно; в EN «for some reason» → «by chance»)",
       "confidence": "medium"

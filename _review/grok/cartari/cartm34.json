@@ -6,6 +6,15 @@
   "issues": [
     {
       "field": "text_ru",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "che l'vniuerso pigli nutrimento dalla terra, ouero dalla virtù occulta della Natura,",
+      "current": "«Изваяние Луны, означающее, что Луна получает свой свет от Солнца и не имеет в себе никакого собственного света, но, напротив, является тёмным и помрачённым телом, сделанным сияющим Солнцем, которое означено головой ястреба».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: отдельный абзац, конец текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Изваяние Луны, означающее, что Луна получает свой свет от Солнца и не имеет в себе никакого собственного света, но, напротив, является тёмным и помрачённым телом, сделанным сияющим Солнцем, которое означено головой ястреба».\"; caption_en: \"“The likeness of the Moon, signifying that the Moon receives its light from the Sun and has no light of its own, but rather is a dark and shadowed body made to shine by the Sun, signified by the hawk's head.”\"; caption_fr: \"« Le simulacre de la Lune, signifiant que la Lune reçoit sa lumière du Soleil et n'a en elle-même aucune lumière, mais est au contraire un corps obscur et assombri, rendu brillant par le Soleil, signifié par la tête d'épervier. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Dona à Megera, e come lor regina",

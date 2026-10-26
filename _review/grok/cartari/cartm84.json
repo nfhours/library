@@ -2,15 +2,15 @@
   "id": "cartm84",
   "book": "cartari",
   "pass": "A",
-  "verdict": "major",
+  "verdict": "minor",
   "issues": [
     {
       "field": "text_ru",
       "paragraph": 1,
       "type": "addition",
-      "original": "O Dea feroce del gran padre honore,",
-      "current": "«Образ Беллоны, богини войны и колесничей Марса, а также её жрецов… свойственные войне следствия».",
-      "suggested": "в text_it запись начинается со стиха «O Dea feroce…»; вводной подписи про Беллону нет — удалить или перенести в подпись к гравюре (источник подписи — не уверен); то же в EN",
+      "original": "O Dea feroce del gran padre honore, De le guerre terribile padrona,",
+      "current": "«Образ Беллоны, богини войны и колесничей Марса, а также её жрецов, которые сами себя ранят, и сосны, ей посвящённой; она понимается как приносящая убийства, разрушения, резню — свойственные войне следствия».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Беллоны, богини войны и колесничей Марса, а также её жрецов, которые сами себя ранят, и сосны, ей посвящённой; она понимается как приносящая убийства, разрушения, резню — свойственные войне следствия».\"; caption_en: \"“The image of Bellona, goddess of war and charioteer of Mars, and of her Priests, who wound themselves, and of the Pine sacred to her; she is understood as the bringer of killings, ruin, and slaughter, effects proper to war.”\"; caption_fr: \"« L'image de Bellone, déesse de la guerre et conductrice du char de Mars, et de ses Prêtres, qui se blessent eux-mêmes, et du Pin qui lui est sacré ; elle est entendue comme l'apporteuse des tueries, des ruines, des massacres, effets propres à la guerre. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
       "confidence": "high"
     },
     {

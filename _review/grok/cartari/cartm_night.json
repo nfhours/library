@@ -6,6 +6,15 @@
   "issues": [
     {
       "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "qualche poco, & è così dipinta, che rappresenta l'ornamento del Cielo. Tibullo",
+      "current": "Образ Ночи, кормилицы Смерти и Сна, и образ Сна, брата и спутника Смерти; покой и сладостное подкрепление смертных. А рог означает отдых и многообразие сновидений.",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"Образ Ночи, кормилицы Смерти и Сна, и образ Сна, брата и спутника Смерти; покой и сладостное подкрепление смертных. А рог означает отдых и многообразие сновидений.\"; caption_en: \"Image of Night, nurse of Death and of Sleep, and image of Sleep, brother and companion of Death; rest and sweet restoration of mortals. And the horn denotes repose and the variety of dreams.\"; caption_fr: \"Image de la Nuit, nourrice de la Mort et du Sommeil, et image du Sommeil, frère et compagnon de la Mort ; repos et doux réconfort des mortels. Et la corne signifie le repos et la diversité des songes.\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
       "paragraph": 2,
       "type": "addition",
       "original": "qualche poco, & è così dipinta, che rappresenta l'ornamento del Cielo",

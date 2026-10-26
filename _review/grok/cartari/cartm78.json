@@ -6,6 +6,15 @@
   "issues": [
     {
       "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Percioche la Fede hà da stare secreta, cioè le cose, che altrui",
+      "current": "«Образы Согласия и иероглифов, означающих Верность и Согласие, с образом Верности, означающим её сокровенность и чистоту, а также то, что благодаря Согласию умножаются изобилие вещей, народы и земледелие, с птицами — аистом и вороной, — посвящёнными Согласию и означающими те же следствия».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образы Согласия и иероглифов, означающих Верность и Согласие, с образом Верности, означающим её сокровенность и чистоту, а также то, что благодаря Согласию умножаются изобилие вещей, народы и земледелие, с птицами — аистом и вороной, — посвящёнными Согласию и означающими те же следствия».\"; caption_en: \"“The images of Concord, and of hieroglyphs denoting Faith and Concord, with the image of Faith, signifying her secrecy and purity, and that through Concord the abundance of things, peoples, and agriculture is multiplied, with the Stork and the Crow, birds sacred to concord, denoting the same effects.”\"; caption_fr: \"« Les images de la Concorde, et des hiéroglyphes désignant la Foi et la Concorde, avec l'image de la Foi, signifiant son caractère secret et sa pureté, et que par la Concorde se multiplient l'abondance des choses, les peuples et l'agriculture, avec la Cigogne et la Corneille, oiseaux sacrés à la concorde, indiquant les mêmes effets. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
       "paragraph": 2,
       "type": "addition",
       "original": "Percioche la Fede hà da stare secreta",

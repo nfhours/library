@@ -6,6 +6,15 @@
   "issues": [
     {
       "field": "text_ru",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "che baciauano anco i piedi a' Caualli, che tirauano il suo carro.",
+      "current": "«Образ Дианы Кинфии, то есть Луны, богини-охотницы, с леопардом в правой руке и львом в левой — так она была изваяна в Коринфе, в храме Юноны, на ковчеге тирана Кипсела».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: отдельный абзац, конец текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Дианы Кинфии, то есть Луны, богини-охотницы, с леопардом в правой руке и львом в левой — так она была изваяна в Коринфе, в храме Юноны, на ковчеге тирана Кипсела».\"; caption_en: \"“The image of Diana Cynthia, or the Moon, huntress goddess, with a Leopard in her right hand, and a Lion in her left, thus carved in Corinth in the temple of Juno, on the chest of the tyrant Cypselus.”\"; caption_fr: \"« L'image de Diane Cynthia, ou la Lune, déesse chasseresse, avec un Léopard dans la main droite et un Lion dans la main gauche, ainsi sculptée à Corinthe dans le temple de Junon, sur le coffre du tyran Cypsélos. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
       "paragraph": 1,
       "type": "mistranslation",
       "original": "era vn bellissimo simulacro di metallo metallo di Hercole",

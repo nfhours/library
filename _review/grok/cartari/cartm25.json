@@ -7,11 +7,11 @@
     {
       "field": "text_ru",
       "paragraph": 1,
-      "type": "omission",
-      "original": "chi segno di sanità, perche come il serpente",
-      "current": "«Образ богини Здоровья … означено Змеем». служил знаком здоровья…",
-      "suggested": "разнести перевод подписи (caption) и текст статьи в отдельные абзацы, как в других записях; сейчас подпись слита с началом фрагмента (то же в text_en)",
-      "confidence": "medium"
+      "type": "addition",
+      "original": "chi segno di sanità, perche come il serpente posta giù la vecchia",
+      "current": "«Образ богини Здоровья и посвящённого ей Змея, означающий, что благодаря питью лекарств — как очистительных, так и укрепляющих, — к нам возвращается утраченное здоровье, долголетие и стойкость жизни; а само здоровье означено Змеем»",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ богини Здоровья и посвящённого ей Змея, означающий, что благодаря питью лекарств — как очистительных, так и укрепляющих, — к нам возвращается утраченное здоровье, долголетие и стойкость жизни; а само здоровье означено Змеем»\"; caption_en: \"“The image of the goddess Health, and of the Serpent sacred to her, signifying that through the drinking of medicines, both purgative and preservative, lost health comes back to us, together with length and stability of life, health itself being signified by the Serpent.”\"; caption_fr: \"« L'image de la déesse Santé, et du Serpent qui lui est sacré, signifiant que par la prise de médicaments, tant purgatifs que conservatifs, la santé perdue nous revient, ainsi que la longueur et la stabilité de la vie, la santé elle-même étant signifiée par le Serpent. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
     }
   ]
 }

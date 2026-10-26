@@ -7,6 +7,15 @@
     {
       "field": "text_ru",
       "paragraph": 1,
+      "type": "addition",
+      "original": "Trionfo d'Amore descritto da Filostrato, dal Petrarca, & da altri antichi & moderni, significante la forza d'Amore.",
+      "current": "Триумф Любви, описанный Филостратом, Петраркой и иными древними и новыми авторами, означающий силу Любви.",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; структурное замечание: подпись слита с текстом и в оригинале, и в переводах; сам перевод подписи по смыслу не проверялся отдельно сверх прохода A). caption_ru: \"Триумф Любви, описанный Филостратом, Петраркой и иными древними и новыми авторами, означающий силу Любви.\"; caption_en: \"Triumph of Love, described by Philostratus, by Petrarch, and by other ancient and modern authors, signifying the force of Love.\"; caption_fr: \"Triomphe d'Amour, décrit par Philostrate, par Pétrarque, et par d'autres auteurs anciens et modernes, signifiant la force de l'Amour.\"; caption_orig: \"Trionfo d'Amore descritto da Filostrato, dal Petrarca, & da altri antichi & moderni, significante la forza d'Amore.\" (найдено в начале text_it — отделить от основного текста)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
       "type": "mistranslation",
       "original": "Perdon lor primi ben per leggier cura.",
       "current": "Прощают они первому встречному своё благо по лёгкой заботе.",

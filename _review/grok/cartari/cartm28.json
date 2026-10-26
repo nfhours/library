@@ -6,6 +6,15 @@
   "issues": [
     {
       "field": "text_ru",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "vigore assai di questa, della quale dirò subito, che hauerò disegnata l'Aurora,",
+      "current": "«Образ Солнца, называемого также Фебом и Аполлоном, богом дня, означающий его воздействие на времена года и небесные знаки, а также на Луну; и что Луна в знаке Овна становится весьма влажной, соединяясь с Солнцем, которое всё освещает и всему даёт жизнь».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: отдельный абзац, конец текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Солнца, называемого также Фебом и Аполлоном, богом дня, означающий его воздействие на времена года и небесные знаки, а также на Луну; и что Луна в знаке Овна становится весьма влажной, соединяясь с Солнцем, которое всё освещает и всему даёт жизнь».\"; caption_en: \"“The image of the Sun, also called Phoebus and Apollo, god of the day, signifying his effects upon the seasons and the celestial signs, and upon the Moon, and that the Moon in the sign of Aries is most moist, being joined with the Sun, which illuminates all things and gives life to all.”\"; caption_fr: \"« L'image du Soleil, aussi appelé Phébus et Apollon, dieu du jour, signifiant ses effets sur les saisons et les signes célestes, et sur la Lune, et que la Lune dans le signe du Bélier est très humide, étant conjointe au Soleil, qui illumine tout et donne vie à tout. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Quiui ad vn parto il Sole, e la sorella / Finto ella stessa hauea",

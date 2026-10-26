@@ -2,6 +2,16 @@
   "id": "cartm22",
   "book": "cartari",
   "pass": "A",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "più honorato luoco, ritorta in bei giri, con somma quiete si la-",
+      "current": "«Образ Эскулапа, бога Медицины, со священными ему животными, означающими трудность врачебного искусства и обязанность доброго врача; понимается также как очищенный воздух, приносящий здоровье».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: отдельный абзац, конец текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Эскулапа, бога Медицины, со священными ему животными, означающими трудность врачебного искусства и обязанность доброго врача; понимается также как очищенный воздух, приносящий здоровье».\"; caption_en: \"“The image of Aesculapius, god of Medicine, with the animals sacred to him, signifying the difficulty of Medicine, and the office of the good Physician; understood also as purified air, bringer of health.”\"; caption_fr: \"« L'image d'Esculape, dieu de la Médecine, avec les animaux qui lui sont sacrés, signifiant la difficulté de la Médecine et le devoir du bon Médecin ; entendu aussi comme l'air purifié, porteur de santé. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    }
+  ]
 }

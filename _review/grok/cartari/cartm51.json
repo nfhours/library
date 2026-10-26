@@ -7,6 +7,15 @@
     {
       "field": "text_ru",
       "paragraph": 1,
+      "type": "addition",
+      "original": "farla ritornare, ma non sapea in che modo, ne dimandò consiglio a",
+      "current": "«Образ Юноны Аргивской, Юноны-Спасительницы в Лавинии и Юноны, царицы богов, владычицы воздуха, мачехи и ненавистницы Вакха и Геркулеса, очистительницы и освятительницы вещей — что есть истинное действие воздуха».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Юноны Аргивской, Юноны-Спасительницы в Лавинии и Юноны, царицы богов, владычицы воздуха, мачехи и ненавистницы Вакха и Геркулеса, очистительницы и освятительницы вещей — что есть истинное действие воздуха».\"; caption_en: \"“The image of Argive Juno, of Juno the Saviour at Lavinium, and of Juno Queen of the Gods, patroness of the air, stepmother and hater of Bacchus and of Hercules, purifier and cleanser of things — the proper effect of the air.”\"; caption_fr: \"« L'image de Junon Argienne, de Junon Sauveuse à Lavinium, et de Junon Reine des dieux, patronne de l'air, marâtre et ennemie de Bacchus et d'Hercule, purificatrice et épuratrice des choses — effet propre de l'air. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
       "type": "mistranslation",
       "original": "come quella, che ad ambi fu bi fu madregna, secondo le fauole",
       "current": "как та, которой оба они были обеим мачехой, по басням",

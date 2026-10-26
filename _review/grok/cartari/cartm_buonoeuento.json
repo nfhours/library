@@ -5,6 +5,15 @@
   "verdict": "minor",
   "issues": [
     {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Imagine del buono Euento, cioè prospero successo & felice fine delle imprese, il cui simulacro appresso de' Romani fu nel",
+      "current": "Изображение доброго Исхода, то есть благополучного успеха и счастливого конца предприятий, чьё изваяние у римлян было на Капитолии вместе с изваянием доброй Фортуны, в виде весёлого юноши с чашей, колосом и маком.",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; структурное замечание: подпись слита с текстом и в оригинале, и в переводах; сам перевод подписи по смыслу не проверялся отдельно сверх прохода A). caption_ru: \"Изображение доброго Исхода, то есть благополучного успеха и счастливого конца предприятий, чьё изваяние у римлян было на Капитолии вместе с изваянием доброй Фортуны, в виде весёлого юноши с чашей, колосом и маком.\"; caption_en: \"Image of Good Event, that is, prosperous success, and happy end of enterprises, whose image among the Romans was on the Capitol together with that of good Fortune, in the form of a cheerful youth with a cup, an ear of grain, and a poppy.\"; caption_fr: \"Image du bon Événement, c'est-à-dire du succès prospère et de l'heureuse fin des entreprises, dont le simulacre chez les Romains fut sur le Capitole avec celui de la bonne Fortune, sous la forme d'un jeune homme gai avec coupe, épi, et pavot.\"; caption_orig: \"Imagine del buono Euento, cioè prospero successo & felice fine delle imprese, il cui simulacro appresso de' Romani fu nel Campidoglio con quello della buona Fortuna, in forma di giouane allegro con tazza, spica, & papauero.\" (найдено в начале text_it — отделить от основного текста)",
+      "confidence": "high"
+    },
+    {
       "field": "text_en",
       "paragraph": 1,
       "type": "addition",

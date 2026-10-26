@@ -2,15 +2,15 @@
   "id": "cartm83",
   "book": "cartari",
   "pass": "A",
-  "verdict": "major",
+  "verdict": "minor",
   "issues": [
     {
       "field": "text_ru",
       "paragraph": 1,
       "type": "addition",
-      "original": "denti, & accorte che lo fanno mentire.",
-      "current": "«Образ Вулкана, который алмазной секирой рассёк голову Юпитеру… Означает также, что у женщин нет ни совета, ни знания».",
-      "suggested": "в text_it запись начинается с «denti, & accorte…»; вводная подпись про Вулкана отсутствует — удалить или перенести в подпись к гравюре (откуда она взята — не уверен); то же в EN",
+      "original": "denti, & accorte che lo fanno mentire. Et se non che il",
+      "current": "«Образ Вулкана, который алмазной секирой рассёк голову Юпитеру, откуда родилась Минерва, богиня мудрости, означающая, что всякое знание исходит от Бога, и что мыслительная способность пребывает в мозгу. Означает также, что у женщин нет ни совета, ни знания».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Вулкана, который алмазной секирой рассёк голову Юпитеру, откуда родилась Минерва, богиня мудрости, означающая, что всякое знание исходит от Бога, и что мыслительная способность пребывает в мозгу. Означает также, что у женщин нет ни совета, ни знания».\"; caption_en: \"“The image of Vulcan, who with a Diamond axe split open Jove's head, from which Minerva, goddess of wisdom, was born, denoting that all knowledge comes from God, and that the intellectual faculty resides in the brain. It also signifies that in women there is neither counsel nor knowledge.”\"; caption_fr: \"« L'image de Vulcain, qui d'une hache de Diamant fendit la tête de Jupiter, d'où naquit Minerve, déesse de la sagesse, signifiant que tout savoir vient de Dieu, et que la vertu intellective réside dans le cerveau. Elle signifie aussi que chez les femmes il n'y a ni conseil ni savoir. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
       "confidence": "high"
     },
     {

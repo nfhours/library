@@ -7,6 +7,15 @@
     {
       "field": "text_ru",
       "paragraph": 1,
+      "type": "addition",
+      "original": "gli mette frà gli honorati doni, e premij, che Enea apparecchia ne'",
+      "current": "«Образ Аполлона и Геркулеса, спорящих друг с другом из-за треножника, а также Латоны и Дианы, примиряющих Аполлона, и Минервы, примиряющей Геркулеса: означающих гнев Геркулеса на оракул Аполлона за то, что не получил от него ответа, смягчившийся же после того, как ответ был получен; треножник же есть знак чести, уважения, героической доблести и истины».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Аполлона и Геркулеса, спорящих друг с другом из-за треножника, а также Латоны и Дианы, примиряющих Аполлона, и Минервы, примиряющей Геркулеса: означающих гнев Геркулеса на оракул Аполлона за то, что не получил от него ответа, смягчившийся же после того, как ответ был получен; треножник же есть знак чести, уважения, героической доблести и истины».\"; caption_en: \"“The image of Apollo and Hercules, contending together over the Tripod, and of Latona and Diana making peace with Apollo, and of Minerva making peace with Hercules: signifying the wrath of Hercules at Apollo's oracle for not having received an answer from it, afterward mitigated once he had received one; and the Tripod is a sign of honour, of esteem, of heroic virtue, and of truth.”\"; caption_fr: \"« L'image d'Apollon et d'Hercule, se disputant ensemble le Trépied, et de Latone et Diane apaisant Apollon, et de Minerve apaisant Hercule : signifiant la colère d'Hercule contre l'oracle d'Apollon pour n'en avoir pas reçu de réponse, apaisée ensuite une fois la réponse obtenue ; et le Trépied est signe d'honneur, d'estime, de vertu héroïque et de vérité. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
       "type": "mistranslation",
       "original": "dice, che l'vso ha ottenuto, che siano chiamati Lebeti gli vni, e gli altri",
       "current": "называть одни из них Лебетами, а другие — чашами и прочими винными сосудами",

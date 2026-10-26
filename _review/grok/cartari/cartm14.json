@@ -2,6 +2,16 @@
   "id": "cartm14",
   "book": "cartari",
   "pass": "A",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "della quale hebbe pur'anco cura Apollo, anzi la medicina nacque da lui,",
+      "current": "«Образ Аполлона, или Солнца, означающий, что он — бог благоразумия и власти, и что мудрый человек должен много слушать и действовать, но мало говорить; а также означает, что Солнце, то есть Бог, всё слышит и видит».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: отдельный абзац, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Аполлона, или Солнца, означающий, что он — бог благоразумия и власти, и что мудрый человек должен много слушать и действовать, но мало говорить; а также означает, что Солнце, то есть Бог, всё слышит и видит».\"; caption_en: \"“The image of Apollo, or of the Sun, signifying that he is the god of prudence and of power, and that the wise man should listen and act much, but speak little; it also signifies that the Sun, that is, God, hears and sees all things.”\"; caption_fr: \"« L'image d'Apollon, ou du Soleil, signifiant qu'il est le dieu de la prudence et du pouvoir, et que l'homme sage doit beaucoup écouter et agir, mais peu parler ; cela signifie aussi que le Soleil, c'est-à-dire Dieu, entend et voit tout. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    }
+  ]
 }

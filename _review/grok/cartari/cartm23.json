@@ -6,6 +6,15 @@
   "issues": [
     {
       "field": "text_ru",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "era il medesimo che Trofonio. Furono i Serpenti appresso de gli anti-",
+      "current": "«Образ Эскулапа, бога медицины, с петухами, посвящёнными ему птицами, означающими бдительность, необходимую врачам, и змеем — символом здоровья и долголетия, проистекающих от врачебного попечения».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: отдельный абзац, конец текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Эскулапа, бога медицины, с петухами, посвящёнными ему птицами, означающими бдительность, необходимую врачам, и змеем — символом здоровья и долголетия, проистекающих от врачебного попечения».\"; caption_en: \"“The image of Aesculapius, god of medicine, with the roosters, birds sacred to him, signifying the vigilance necessary to Physicians, and the serpent, symbol of health and length of life, which comes from the care of Physicians.”\"; caption_fr: \"« L'image d'Esculape, dieu de la médecine, avec les coqs, oiseaux qui lui sont sacrés, signifiant la vigilance nécessaire aux Médecins, et le serpent, symbole de santé et de longévité, qui provient du soin des Médecins. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
       "paragraph": 1,
       "type": "addition",
       "original": "con bacchette chette come scettri in mano",

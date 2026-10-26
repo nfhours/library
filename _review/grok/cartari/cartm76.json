@@ -6,6 +6,15 @@
   "issues": [
     {
       "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Ma questa distintione non faceuano gli antichi; imperoche voleuano che l'anime tutte",
+      "current": "«Образ Харона, адского перевозчика на чёрной реке Ахеронт, с его ладьёй и веслом, понимаемого как время, пожирающее жизнь, разрушителя всех вещей; прочие же его свойства означают нищету и злосчастие жизни человеческой».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Харона, адского перевозчика на чёрной реке Ахеронт, с его ладьёй и веслом, понимаемого как время, пожирающее жизнь, разрушителя всех вещей; прочие же его свойства означают нищету и злосчастие жизни человеческой».\"; caption_en: \"“The image of Charon, infernal ferryman on the black river Acheron, with his boat and oar, understood as time, the consumer of life, destroyer of all things; his other effects also denote the misery and unhappiness of human life.”\"; caption_fr: \"« L'image de Charon, nocher infernal sur le fleuve noir de l'Achéron, avec sa barque et sa rame, entendu comme le temps, consumateur de la vie, destructeur de toutes choses ; ses autres effets indiquent aussi la misère et le malheur de la vie humaine. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
       "paragraph": 2,
       "type": "addition",
       "original": "Ma questa distintione non faceuano gli antichi",

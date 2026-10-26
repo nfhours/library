@@ -6,6 +6,15 @@
   "issues": [
     {
       "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Oltre di ciò mostrauano gli Assirij il potere che hà il Sole",
+      "current": "«Образ Аполлона и Земли у ассирийцев, означающий воздействие Солнца на землю и на все вещи, с образами природы и материи, из которой вещи образованы и происходят. Змей, которым они заканчиваются, означает извилистый путь Солнца».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: отдельный абзац, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Аполлона и Земли у ассирийцев, означающий воздействие Солнца на землю и на все вещи, с образами природы и материи, из которой вещи образованы и происходят. Змей, которым они заканчиваются, означает извилистый путь Солнца».\"; caption_en: \"“The image of Apollo and the Earth among the Assyrians, signifying the effects of the Sun upon the earth, and upon all things, with the images of nature and of the matter from which things are formed and take their origin. The serpent in which they end denotes the winding course of the Sun.”\"; caption_fr: \"« L'image d'Apollon et de la Terre chez les Assyriens, signifiant les effets du Soleil sur la terre et sur toutes choses, avec les images de la nature et de la matière dont les choses sont formées et tirent leur origine. Le serpent par lequel elles se terminent indique la course sinueuse du Soleil. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
       "paragraph": 2,
       "type": "mistranslation",
       "original": "che dall'vn lato, & dall'altro haueua due altre figure tre imagini parimente di femina",

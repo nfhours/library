@@ -7,6 +7,15 @@
     {
       "field": "text_ru",
       "paragraph": 1,
+      "type": "addition",
+      "original": "Imagini della lieta, & trista fortuna, ouero della fortuna passata, presente, & ventura, giudicata da gli antichi, benche sij solo",
+      "current": "Изображения весёлой и печальной Фортуны, или же Фортуны прошедшей, настоящей и грядущей, почитаемой древними, хотя и было это лишь воображаемое имя, более всех ложных богов их, и владычицы вещей здесь внизу, и это божество измыслили древние в оправдание своего неразумия.",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; структурное замечание: подпись слита с текстом и в оригинале, и в переводах; сам перевод подписи по смыслу не проверялся отдельно сверх прохода A). caption_ru: \"Изображения весёлой и печальной Фортуны, или же Фортуны прошедшей, настоящей и грядущей, почитаемой древними, хотя и было это лишь воображаемое имя, более всех ложных богов их, и владычицы вещей здесь внизу, и это божество измыслили древние в оправдание своего неразумия.\"; caption_en: \"Images of joyful, and sad Fortune, or of Fortune past, present, and to come, held by the ancients, although it was only an imagined name, greater than all their false gods, and patroness of the things here below, and this deity the ancients imagined as an excuse for their own imprudence.\"; caption_fr: \"Images de la Fortune joyeuse, et triste, ou de la fortune passée, présente, et à venir, tenue par les anciens, bien que ce ne fût qu'un nom imaginé, plus grand que tous leurs faux dieux, et patronne des choses d'ici-bas, et cette divinité, les anciens l'imaginèrent pour excuser leur propre imprudence.\"; caption_orig: \"Imagini della lieta, & trista fortuna, ouero della fortuna passata, presente, & ventura, giudicata da gli antichi, benche sij solo vn nome imaginato, maggiore de tutti li loro dei falsi, & patrona delle cose di qua giù, & questo nume li antichi s'imaginorono per scusa dell'imprudenze loro.\" (найдено в начале text_it — отделить от основного текста)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
       "type": "name",
       "original": "la chiamarono spesso i Poeti Rhannusia da certo luoco nel paese di Athene",
       "current": "называли её поэты Раммузия",

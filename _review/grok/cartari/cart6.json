@@ -7,6 +7,15 @@
     {
       "field": "text_ru",
       "paragraph": 1,
+      "type": "addition",
+      "original": "in mano, che significa, che i terra sono i regni tutti, &",
+      "current": "Образ богини Опы, также называемой Берекинфией, матери богов, толкуемой как Земля; и животных, и деревьев, ей посвящённых, воспевающих плодоносное возделывание земли, и что всякий, сколь бы он ни был велик, подвластен природе. Есть здесь также образ её жрецов, именуемых Корибантами, показывающий, что каждый должен усердно упражняться в добродетели и не пребывать в праздности.",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"Образ богини Опы, также называемой Берекинфией, матери богов, толкуемой как Земля; и животных, и деревьев, ей посвящённых, воспевающих плодоносное возделывание земли, и что всякий, сколь бы он ни был велик, подвластен природе. Есть здесь также образ её жрецов, именуемых Корибантами, показывающий, что каждый должен усердно упражняться в добродетели и не пребывать в праздности.\"; caption_en: \"Image of the goddess Ops, also called Berecynthia, mother of the gods, interpreted as the Earth; and of the animals and trees sacred to her, singing the fruitful cultivation of the soil, and that every man, however great, is subject to nature. There is also here the image of her priests, called Corybantes, showing that everyone must exercise themselves virtuously, and not remain idle.\"; caption_fr: \"Image de la déesse Ops, dite aussi Bérécynthie, mère des dieux, interprétée comme la Terre ; et des animaux et des arbres qui lui sont consacrés, chantant la culture fructueuse du sol, et que chacun, si grand soit-il, est soumis à la nature. Il y a ici aussi l'image de ses prêtres, appelés Corybantes, montrant que chacun doit s'exercer vertueusement et ne pas demeurer oisif.\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
       "type": "mistranslation",
       "original": "in mano, che significa, che i terra sono i regni tutti, & tutte le ricchezze humane",
       "current": "что означает, что земля есть все царства и все людские богатства",

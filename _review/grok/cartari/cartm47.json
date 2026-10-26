@@ -7,6 +7,15 @@
     {
       "field": "text_ru",
       "paragraph": 1,
+      "type": "addition",
+      "original": "resistere à così affetuosi preghi, gli si mostrò vestito di vna pelle",
+      "current": "«Образ Юпитера Аммона у аркадцев и египтян, с дубом и бараном, посвящёнными ему, означающими, что Бог есть источник жизни и податель пропитания, а также двусмысленность ответов упомянутого оракула Аммона».",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Юпитера Аммона у аркадцев и египтян, с дубом и бараном, посвящёнными ему, означающими, что Бог есть источник жизни и податель пропитания, а также двусмысленность ответов упомянутого оракула Аммона».\"; caption_en: \"“The image of Jove Hammon of the Arcadians and Egyptians, with the oak and the ram sacred to him, signifying that God is the author of life and sustainer of living, and also the ambiguous answers of the said oracle of Hammon.”\"; caption_fr: \"« L'image de Jupiter Hammon des Arcadiens et des Égyptiens, avec le chêne et le bélier qui lui sont sacrés, signifiant que Dieu est l'auteur de la vie et le soutien de la subsistance, ainsi que le caractère ambigu des réponses dudit oracle d'Hammon. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
       "type": "mistranslation",
       "original": "volendo à colui dare la insegna della vita, che fu cagione altrui di viuere",
       "current": "желая дать ему знак жизни, ставшей причиной жизни другого",

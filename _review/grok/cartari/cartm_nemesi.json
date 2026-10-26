@@ -5,6 +5,15 @@
   "verdict": "minor",
   "issues": [
     {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Imagine della dea Nemesi dimostratrice delle buone opere, & seuera punitrice de superbi, & maluagi; & cortese, & larga donatrice,",
+      "current": "Изображение богини Немезиды, являющей добрые дела и суровой карательницы гордецов и злодеев; и учтивой и щедрой дарительницы, и наградительницы добрых деяний; почитаемой знающей всё: дочери Справедливости, что наставляет нас, что в деяниях должно соблюдать меру и рассудительность.",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; структурное замечание: подпись слита с текстом и в оригинале, и в переводах; сам перевод подписи по смыслу не проверялся отдельно сверх прохода A). caption_ru: \"Изображение богини Немезиды, являющей добрые дела и суровой карательницы гордецов и злодеев; и учтивой и щедрой дарительницы, и наградительницы добрых деяний; почитаемой знающей всё: дочери Справедливости, что наставляет нас, что в деяниях должно соблюдать меру и рассудительность.\"; caption_en: \"Image of the goddess Nemesis, who shows forth good works, and is a severe punisher of the proud, and the wicked; and a courteous, and generous giver, and rewarder of good deeds; being held the knower of all things: daughter of Justice, who teaches us that in our actions we must use measure and discretion.\"; caption_fr: \"Image de la déesse Némésis, qui montre les bonnes œuvres, et est sévère punisseuse des orgueilleux, et des méchants ; et courtoise, et généreuse donatrice, et récompenseuse des bonnes actions ; étant tenue pour la connaisseuse de toutes choses : fille de la Justice, qui nous enseigne qu'il faut, dans les actions, user de mesure et de discernement.\"; caption_orig: \"Imagine della dea Nemesi dimostratrice delle buone opere, & seuera punitrice de superbi, & maluagi; & cortese, & larga donatrice, & premiatrice delle buone operationi; essendo tenuta la conoscitrice de tutte: figliuola della Giustitia, che ci ammaestra nelle attioni douersi vsare misura e seno.\" (найдено в начале text_it — отделить от основного текста)",
+      "confidence": "high"
+    },
+    {
       "field": "text_en",
       "paragraph": 1,
       "type": "mistranslation",

@@ -7,6 +7,15 @@
     {
       "field": "text_ru",
       "paragraph": 1,
+      "type": "addition",
+      "original": "MINERVA Dicesi, che fra le marauigliose cose date da Dio alla Natura",
+      "current": "Образы Меркурия и Минервы — тот бог Красноречия, эта — Благоразумия, изобретательница добрых искусств; означают, что Красноречие и Благоразумие необходимо должны быть соединены вместе, если слова должны приносить пользу делам человеческим.",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"Образы Меркурия и Минервы — тот бог Красноречия, эта — Благоразумия, изобретательница добрых искусств; означают, что Красноречие и Благоразумие необходимо должны быть соединены вместе, если слова должны приносить пользу делам человеческим.\"; caption_en: \"Images of Mercury and of Minerva — he the god of Eloquence, she of Prudence, inventress of the good arts; signifying that Eloquence and Prudence must needs be joined together, if words are to be of benefit to human actions.\"; caption_fr: \"Images de Mercure et de Minerve — lui dieu de l'Éloquence, elle de la Prudence, inventrice des bons arts — signifiant que l'Éloquence et la Prudence doivent nécessairement être unies, si les paroles doivent servir aux actions humaines.\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
       "type": "mistranslation",
       "original": "Giuano intanto con le chiome sparse Le donne d'Ilio",
       "current": "Между тем Юнона с распущенными власами / Жёны Илиона…",
