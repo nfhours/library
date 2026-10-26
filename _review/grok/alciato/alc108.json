@@ -1,0 +1,22 @@
+{
+  "id": "alc108",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc108-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Tu vino curas, tu victu diluis morbos,",
+      "current": "Ты [Вакх] врачуешь вином / You [Bacchus] heal with wine",
+      "suggested": "curas — сущ. «заботы» (общий глагол diluis): «ты вином смываешь заботы, ты образом жизни — болезни»; EN «you wash away cares with wine» (FR «soignes les soucis» → «dissous les soucis»)",
+      "confidence": "low"
+    }
+  ]
+}

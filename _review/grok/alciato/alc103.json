@@ -1,0 +1,23 @@
+{
+  "id": "alc103",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc103-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "volucer cum truo pictus erit.",
+      "current": "когда будет изображена с черпаком / when depicted with a scoop / peint avec une louche",
+      "suggested": "truo — название птицы (пеликан-«трубач», ср. описание клюва), а не черпак (trulla): RU «обозначит его птица труон (пеликан), когда будет изображена»; EN «when the bird truo is painted»; FR «quand l'oiseau truo sera peint»",
+      "confidence": "medium"
+    }
+  ]
+}

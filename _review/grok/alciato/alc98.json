@@ -1,0 +1,23 @@
+{
+  "id": "alc98",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc98-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Curculione gruis tumida vir pingitur aluo,",
+      "current": "с чревом, раздутым, точно от зерна, [что пожирают] журавли / a belly swollen as if gorged with grain / au ventre gonflé comme de blé, pareil à celui des grues",
+      "suggested": "curculio gruis — журавлиная глотка (шея): обжора изображён с журавлиной шеей и раздутым брюхом (так и на гравюре). RU «Муж изображён с журавлиной шеей и вздутым брюхом»; EN «with a crane's gullet and a swollen belly»; FR «avec un cou de grue et le ventre gonflé»",
+      "confidence": "medium"
+    }
+  ]
+}

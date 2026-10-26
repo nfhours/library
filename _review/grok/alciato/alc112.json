@@ -1,0 +1,23 @@
+{
+  "id": "alc112",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc112-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Et noluisse hominem fecisse: figulosque perosus / Accensam rapto damnat ab igne facem.",
+      "current": "не желал, чтобы человек был создан… осуждён за факел / for having opposed man's making… he is condemned / pour n'avoir pas voulu que l'homme fût fait… il est condamné",
+      "suggested": "Прометей жалеет, что создал человека, и проклинает (damnat) факел: RU «и жалеет, что сотворил человека; возненавидев гончаров, проклинает факел, зажжённый от похищенного огня»; EN «and he wishes he had never made man, and, hating potters, curses the torch…»; FR «il regrette d'avoir fait l'homme… maudit le flambeau…»",
+      "confidence": "medium"
+    }
+  ]
+}

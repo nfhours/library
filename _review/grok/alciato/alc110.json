@@ -1,0 +1,22 @@
+{
+  "id": "alc110",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc110-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Nestoreum geminis cratera hunc accipe fundis,",
+      "current": "отлитый дважды / twice cast",
+      "suggested": "geminis fundis — «с двойным дном» (Гомер, Ил. XI, 634): RU «Прими сей кубок Нестора с двойным дном»; EN «with a double base» (FR «à double fond» верно)",
+      "confidence": "low"
+    }
+  ]
+}

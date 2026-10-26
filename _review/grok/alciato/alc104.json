@@ -1,0 +1,53 @@
+{
+  "id": "alc104",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc104-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Canon vocatur Curtius.",
+      "current": "«Коротышка-Канон» (Curtius) / 'Short Canon' (Curtius) / Curtius le Bref-Canon",
+      "suggested": "Curtius — имя профессора, прозвище — «Канон»: RU «Курция зовут Каноном»; EN «Curtius is called Canon»; FR «Curtius est appelé Canon»",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc104-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Hirundo Crassius dicitur.",
+      "current": "«Толстой Ласточкой» / 'Fat Swallow' / l'Hirondelle-Épaisse",
+      "suggested": "Crassius — имя: «Крассия зовут Ласточкой»; EN «Crassius is called Swallow»; FR «Crassius est dit l'Hirondelle»",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc104-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Dictus truo est scholasticis.",
+      "current": "«Бирюком» (truo) / a 'bogeyman' (truo) / Butor",
+      "suggested": "truo — птица (пеликан, ср. alc103): «школяры прозвали Пеликаном (truo)»; EN «Pelican»; FR «Pélican»",
+      "confidence": "low"
+    }
+  ]
+}

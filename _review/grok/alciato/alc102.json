@@ -1,0 +1,36 @@
+{
+  "id": "alc102",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "alc102-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "barba falsa ossa momordit,",
+      "current": "[LA] falsa",
+      "suggested": "[LA] вероятно «salsa ossa» (долгое ſ прочитано как f) — «солёные кости», т. е. раковины устриц; не уверен по скану",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc102-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "barba falsa ossa momordit,",
+      "current": "мнимые кости / the false bones / les os trompeurs",
+      "suggested": "при чтении salsa: «укусила солёные раковины (створки)»; EN «bit the salty shells»; FR «mordit les écailles salées». Зависит от alc102-1",
+      "confidence": "low"
+    }
+  ]
+}

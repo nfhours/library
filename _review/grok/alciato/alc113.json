@@ -1,0 +1,36 @@
+{
+  "id": "alc113",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "alc113-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Nam eadem impostor, dum super astra volat.",
+      "current": "[LA] eadem",
+      "suggested": "[LA] «Nam cadet impostor» («ибо обманщик упадёт»); «eadem» — сбой распознавания (c→e, t→m)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc113-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Nam eadem impostor, dum super astra volat.",
+      "current": "ибо и он — самозванец / for he too is an impostor / car lui aussi est un imposteur",
+      "suggested": "при чтении cadet: «ибо обманщик рухнет, пока парит над звёздами»; EN «for the impostor will fall while he flies above the stars»; FR «car l'imposteur tombera…»",
+      "confidence": "medium"
+    }
+  ]
+}
