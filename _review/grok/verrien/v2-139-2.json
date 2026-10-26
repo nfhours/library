@@ -1,0 +1,24 @@
+{
+  "id": "v2-139-2",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "fr",
+      "issue_id": "v2-139-2-1",
+      "fields": [
+        "fr",
+        "name_fr",
+        "text_fr",
+        "meaning_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "AMOUR VERS TA PATRIE",
+      "current": "AMOUR VERS TA PATRIE",
+      "suggested": "на медальоне «AMOUR VERS / SA PATRIE» (S прочитано как T). Читать «AMOUR VERS SA PATRIE». Перевод «Любовь к отечеству» верен. Подтверждено сканом",
+      "confidence": "high"
+    }
+  ]
+}
