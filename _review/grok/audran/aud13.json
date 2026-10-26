@@ -2,6 +2,23 @@
   "id": "aud13",
   "book": "audran",
   "pass": "A",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "aud13-1",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "Echelle de 2 pieds",
+      "current": "ярлыка нет ни в text_fr/caption, ни в переводах",
+      "suggested": "вынести в отдельные поля (сейчас: гравированный ярлык вертикально у шкалы справа, в нижней половине доски). caption_orig: «Echelle de 2 pieds»; caption_ru: «Шкала в 2 фута»; caption_en: «Scale of 2 feet». Сверено по aud13.jpg",
+      "confidence": "high",
+      "caption_source": "engraving"
+    }
+  ]
 }

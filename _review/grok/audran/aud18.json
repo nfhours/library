@@ -2,6 +2,23 @@
   "id": "aud18",
   "book": "audran",
   "pass": "A",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "aud18-1",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "Épaisseur de la Cuisse droite veüe en racourcy par le Genoüil",
+      "current": "подписи нет ни в text_fr/caption, ни в переводах",
+      "suggested": "вынести в отдельные поля (сейчас: гравированная подпись под круговой схемой — разрез бедра с точками A, B, C и мерками 3 p. 4 m, 3 p. 3 m — справа от фигуры, ниже середины доски). caption_orig: «Épaisseur de la Cuisse droite veüe en racourcy par le Genoüil»; caption_ru: «Толщина правого бедра, видимая в ракурсе со стороны колена»; caption_en: «Thickness of the right thigh seen foreshortened from the knee». Сверено по aud18.jpg",
+      "confidence": "high",
+      "caption_source": "engraving"
+    }
+  ]
 }

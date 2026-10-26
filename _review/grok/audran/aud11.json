@@ -2,7 +2,7 @@
   "id": "aud11",
   "book": "audran",
   "pass": "A",
-  "verdict": "minor",
+  "verdict": "major",
   "issues": [
     {
       "field": "fr",
@@ -32,7 +32,7 @@
       "type": "omission",
       "original": "La Statue d'Antinous surnommée l'admi[…] / a Rome au Jardin du Vatican (вертикально у левого края доски aud11.jpg)",
       "current": "подписи нет ни в text_fr/caption, ни в переводах; text_ru «Она имеет высоту 7 голов 2 части.» без указания, о какой статуе речь",
-      "suggested": "вынести в отдельные поля (сейчас: вторая подпись гравюры, вертикально вдоль левого края, слева от фигуры; в text_fr/caption отсутствует). caption_orig: «La Statue d'Antinous surnommée l'admi[…] a Rome au Jardin du Vatican» — конец первой строки стёрт, читается только «l'admi…» (вероятно «l'admirable», не уверен), остальное не дописывать; caption_ru: «Статуя Антиноя, прозванная „дивной“ (?) […], в Риме, в саду Ватикана»; caption_en: «The statue of Antinous called the 'admirable' (?) […], in Rome, in the Vatican Garden». Сверено по aud11.jpg",
+      "suggested": "вынести в отдельные поля (сейчас: вторая подпись гравюры, вертикально вдоль левого края, слева от фигуры; в text_fr/caption отсутствует). caption_orig: «La Statue d'Antinous surnommée l'admi[…] a Rome au Jardin du Vatican» — конец первой строки стёрт, читаемо только «l'admi», дальше «[…]»; проверить по фото, не достраивать; caption_ru: «Статуя Антиноя, прозванная […], в Риме, в саду Ватикана»; caption_en: «The statue of Antinous called […], in Rome, in the Vatican Garden». Сверено по aud11.jpg; стёртая часть — проверить по фото",
       "confidence": "medium",
       "caption_source": "engraving"
     }

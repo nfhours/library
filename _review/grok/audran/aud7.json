@@ -2,6 +2,55 @@
   "id": "aud7",
   "book": "audran",
   "pass": "A",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "aud7-1",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "Hauteur de la veüe / de celuy qui dessigne",
+      "current": "ярлыка нет ни в text_fr/caption, ни в переводах",
+      "suggested": "вынести в отдельные поля (сейчас: гравированный ярлык чертежа в две части по сторонам фигуры на уровне плеч — слева «Hauteur de la veüe», справа «de celuy qui dessigne», у горизонтали высоты глаза). caption_orig: «Hauteur de la veüe de celuy qui dessigne»; caption_ru: «Высота глаза рисующего»; caption_en: «Eye level of the draughtsman». Сверено по aud7.jpg",
+      "confidence": "high",
+      "caption_source": "engraving"
+    },
+    {
+      "field": "caption",
+      "issue_id": "aud7-2",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "Mesure de la Jambe marquée A",
+      "current": "ярлыка нет ни в text_fr/caption, ни в переводах",
+      "suggested": "вынести в отдельные поля (сейчас: гравированный ярлык вертикально слева внизу, над шкалой с мерками 7 p. 11 m и 4 p. 7 m ½). caption_orig: «Mesure de la Jambe marquée A»; caption_ru: «Мера ноги, отмеченной A»; caption_en: «Measurement of the leg marked A». Сверено по aud7.jpg",
+      "confidence": "high",
+      "caption_source": "engraving"
+    },
+    {
+      "field": "caption",
+      "issue_id": "aud7-3",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "Echelle mise en perspective",
+      "current": "ярлыка нет ни в text_fr/caption, ни в переводах",
+      "suggested": "вынести в отдельные поля (сейчас: гравированный ярлык вертикально слева внизу, под шкалой). caption_orig: «Echelle mise en perspective»; caption_ru: «Шкала, построенная в перспективе»; caption_en: «Scale set in perspective». Сверено по aud7.jpg",
+      "confidence": "high",
+      "caption_source": "engraving"
+    }
+  ]
 }
