@@ -1,0 +1,21 @@
+{
+  "id": "p2-88",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-88-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 2,
+      "type": "addition",
+      "original": "une besche en la main droite, & en la gauche un soc de charruë",
+      "current": "с заступом на плече и лемехом плуга в руке",
+      "suggested": "в тексте заступ в правой руке, лемех в левой: «с заступом в правой руке и лемехом плуга в левой»",
+      "confidence": "low"
+    }
+  ]
+}

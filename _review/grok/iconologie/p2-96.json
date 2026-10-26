@@ -1,0 +1,21 @@
+{
+  "id": "p2-96",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-96-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "un écriteau avec ces mots, Omnibus unus",
+      "current": "свиток со словами Omnibus unus (Единая для всех)",
+      "suggested": "«unus» — м. р., и в абз. 6 девиз произносит Монарх: «(Один над всеми / Один для всех)»",
+      "confidence": "medium"
+    }
+  ]
+}

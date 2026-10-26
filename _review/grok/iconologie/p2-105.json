@@ -1,0 +1,24 @@
+{
+  "id": "p2-105",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "p2-105-1",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "CVPIDITE (надпись на гравюре)",
+      "current": "заголовки ru «Алчность, или вожделение» / en «Cupidity, or Covetousness» переводят fr «Cupidité ou Convoitise»; на гравюре только «CVPIDITE»",
+      "suggested": "вынести подпись к гравюре в отдельные поля (сейчас: подпись только на гравюре, над медальоном; в text_fr и переводах отсутствует; в entries.json поля caption нет). caption_orig: \"Cupidité\" (сверено по фото img/p2-105.jpg: CVPIDITE; в text_fr подписи нет); caption_ru: \"Алчность\"; caption_en: \"Cupidity\".",
+      "confidence": "high",
+      "caption_source": "engraving"
+    }
+  ]
+}

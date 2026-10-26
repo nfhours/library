@@ -1,0 +1,22 @@
+{
+  "id": "p2-100",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-100-1",
+      "fields": [
+        "text_ru",
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "En sa main droite il porte une couronne de gramen",
+      "current": "венец из травы гламен … венец из гламена / (гламен)",
+      "suggested": "«грамен» (лат. gramen — трава), не «гламен» — абз. 1, 3 и attrs; ср. p2-99 «Gramen»",
+      "confidence": "high"
+    }
+  ]
+}

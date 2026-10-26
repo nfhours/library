@@ -1,0 +1,34 @@
+{
+  "id": "p2-105a",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-105a-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "semble s'en aller à Paphos, ou à Amathonte",
+      "current": "направляется в Пафос или Аматунт",
+      "suggested": "принятая форма — «Амафунт» (так и в дубле этого текста, p2-101 абз. 5); унифицировать",
+      "confidence": "low"
+    },
+    {
+      "field": "attrs",
+      "issue_id": "p2-105a-2",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "au milieu de son Temple, que l'on tient avoir esté de forme ronde",
+      "current": "Круглый храм и сфера означают её владычество над миром",
+      "suggested": "в тексте толкуется только шар (власть над миром); круглая форма храма не истолкована: «сфера — её владычество над миром; круглый храм — (не истолкован)»",
+      "confidence": "low"
+    }
+  ]
+}

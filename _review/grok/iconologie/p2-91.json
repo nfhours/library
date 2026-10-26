@@ -1,0 +1,21 @@
+{
+  "id": "p2-91",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-91-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "les porte toûjours en haut avec une parfaite resignation de soy-mesme",
+      "current": "всегда возносящего их ввысь с совершенной преданностью себя",
+      "suggested": "…с совершенным самоотречением (полной отдачей себя Богу); «преданностью себя» неясно; EN «resignation of herself» допустимо",
+      "confidence": "low"
+    }
+  ]
+}

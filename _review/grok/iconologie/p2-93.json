@@ -1,0 +1,21 @@
+{
+  "id": "p2-93",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-93-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 2,
+      "type": "addition",
+      "original": "Cet animal est de tres-longue vie, comme le remarque Pline",
+      "current": "олень — животное-долгожитель, по преданию достигающее сотен лет",
+      "suggested": "в тексте нет «сотен лет» — только «весьма долговечен» и «необычайный возраст»; убрать число",
+      "confidence": "low"
+    }
+  ]
+}

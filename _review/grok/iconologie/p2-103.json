@@ -1,0 +1,21 @@
+{
+  "id": "p2-103",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-103-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "En la main gauche vn écriteau, avec ce mot Grec Φιλαυτία",
+      "current": "надпись «Познай самого себя» (Дельфийский оракул) — трудность истинного самопознания",
+      "suggested": "на фигуре надпись только «Φιλαυτία»; «Познай самого себя» — цитата в рассуждении (абз. 3), не надпись: «изречение «Познай самого себя»…»",
+      "confidence": "low"
+    }
+  ]
+}

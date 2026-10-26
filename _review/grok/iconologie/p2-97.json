@@ -1,0 +1,21 @@
+{
+  "id": "p2-97",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-97-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "il n'est rien qui dompte si bien l'Amour, comme font le temps & la pauvreté, l'un est demonstré fort à propos par l'horloge",
+      "current": "песочные часы и потухший факел — время и нищета, укрощающие любовную страсть",
+      "suggested": "в тексте часами означено только время; потухший факел не истолкован и с бедностью не связан (бедность, по Кратету, — голод; символ не назван); «песочные часы — время, укрощающее страсть; потухший факел — угасшая страсть (не в тексте)»",
+      "confidence": "low"
+    }
+  ]
+}

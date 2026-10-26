@@ -1,0 +1,21 @@
+{
+  "id": "p2-102",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-102-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "bien qu'il semble veritablement avoir en luy toutes les choses qui luy sont opposées",
+      "current": "хотя и кажется, что оно действительно содержит в себе всё противоположное самому себе",
+      "suggested": "«opposées» — поставленные перед ним: «кажется, что оно воистину содержит всё, что перед ним поставлено»; EN «opposed to it» тоже двусмысленно — не уверен для EN",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "p2-92",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-92-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 2,
+      "type": "addition",
+      "original": "bien qu'il soit vray neanmoins que l'industrie manque à la Nature humaine plûtost que la force ny le temps",
+      "current": "ответ Саллюстия Теофрасту — жизнь не коротка, если дорожить её мгновениями ради заслуги вечной жизни",
+      "suggested": "у Саллюстия — нехватка усердия, не времени; «ради заслуги вечной жизни» — вывод самого автора; разделить: «ответ Саллюстия — человеку недостаёт усердия, а не времени; вывод автора — использовать мгновения жизни ради жизни вечной»",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "p2-104",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-104-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "name",
+      "original": "Le Contentement d'où dépend ce peu de bonheur",
+      "current": "Удовлетворение, от коего зависит … представляющий то же Удовлетворение",
+      "suggested": "заголовок «Довольство», в тексте «Удовлетворение»: унифицировать — «Довольство, от коего зависит … представляющий то же Довольство»",
+      "confidence": "low"
+    }
+  ]
+}

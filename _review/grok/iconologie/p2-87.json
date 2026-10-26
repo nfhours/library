@@ -1,0 +1,34 @@
+{
+  "id": "p2-87",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-87-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "il tient sa massuë haussée pour en assommer un dragon",
+      "current": "держит занесённую палицу, дабы оглушить ею дракона",
+      "suggested": "«assommer» здесь — сразить, убить ударом: «дабы сразить ею дракона»; EN «strike down» верно",
+      "confidence": "low"
+    },
+    {
+      "field": "attrs",
+      "issue_id": "p2-87-2",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 2,
+      "type": "addition",
+      "original": "Ce qui s'entend de celuy qui gardoit les pommes des Hesperides",
+      "current": "занесённая на дракона палица — защита этих же плодов добродетели от хищного порока",
+      "suggested": "в тексте дракон — страж яблок Гесперид, а вывод — добродетель презирает земные богатства; «защита плодов добродетели от порока» добавлено",
+      "confidence": "low"
+    }
+  ]
+}
