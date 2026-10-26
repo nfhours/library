@@ -1,0 +1,23 @@
+{
+  "id": "v2-115-5",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v2-115-5-1",
+      "fields": [
+        "ru",
+        "text_ru",
+        "meaning_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "OECONOMIE",
+      "current": "Экономия",
+      "suggested": "OECONOMIE (аллегория Oeconomia) — «домоводство, управление хозяйством»; «экономия» по-русски читается как «бережливость»: «Домоводство (хозяйствование)»",
+      "confidence": "low"
+    }
+  ]
+}
