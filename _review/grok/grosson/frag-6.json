@@ -1,0 +1,48 @@
+{
+  "id": "frag-6",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl16-4-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "typo",
+      "original": "L'inscription trouvée dans les caves de St. Sauveur, dans laquelle il est fait mention du Collége des Dendrophores,",
+      "current": "Сен-Соверa",
+      "suggested": "латинская «a» в «Сен-Соверa» (как pl16-4, pl36-1, pl42-3): «в подвалах Сен-Совёра»",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "frag-6-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Elle est due à la dévotion d'un Officier de quelqu'un des Colléges d'Artisans établis dans Marseille,",
+      "current": "офицера",
+      "suggested": "Officier здесь — должностное лицо ремесленной коллегии, не военный; ниже в том же абзаце RU сам пишет «должностных лиц». «…благочестию некоего должностного лица одной из марсельских ремесленных коллегий». EN «Officer» допустимо",
+      "confidence": "medium"
+    },
+    {
+      "field": "ru",
+      "issue_id": "frag-6-2",
+      "fields": [
+        "ru",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "DEO APOLLINI LIELIVS NIMPII CVSTOS LIIII IVRVM CORPORITATIS.",
+      "current": "ru «Обет Лелия, сына Нимпия…»; text_ru «Лелий, сын Нимпия»",
+      "suggested": "LIELIVS / Lielius ≠ Laelius; «Лелий» подменяет имя. «Лиелий» (ru «Обет Лиелия…»). Не уверен в принятой передаче — low",
+      "confidence": "low"
+    }
+  ]
+}

@@ -58,3 +58,8 @@ pl42-2,legend,,"engraving shows full text through ANN. III MENS. VII DIEB XVI; l
 pl42-3,legend,,"legend_* gives only the first line(s) of an 11-line Greek inscription (ΤΠΟΡΚΙΩΠΡΟΚΛΟΥ … ΚΑΙ ΠΡΟΦΗΤΟΥ, words run together); text gives only Grosson's Latin version. Incomplete, not contradictory — проверить по фото if full legend wanted",info
 frag-1..3,legend,,"fragplate-1 nos. 1–3 match the readings in text_fr (VOL. EVTICHE / EVTICHVS FILIAE DVLCISSIMAE; FLAVO LVCIANO … ANIAE DEFVNCTIS; L. VALERIO FELICI VALERIA AMILIA P PATRI PIISSIMA); entries have no legend_* fields",info
 pl39-1..frag-3,structured,,"batch 11: material/findspot ru/en checked against fr — no contradictions; legend_* untranslated transcriptions identical in fr/ru/en",ok
+frag-4..frag-23,structured,,"batch 12: fragment entries have no material/findspot/legend fields; headings checked against fr — no contradictions; no sponsor lines or engraver marks on fragplate-1..4",ok
+frag-10,structure,,"fragplate-2 no. 10 shows only AVGVSTIVS … PONENDVM CVRAVIT; FLAVIA IVLIANA NEPOTES is no. 17. text_fr of frag-10 opens with the frag-17 sentence (segmentation slip in the data, repeated in RU/EN) — not ours to fix, noted",info
+frag-21,legend,,"fragplate-3 no. 21: SPORTVLARVM (text_fr §1 «SPONTVLARVM», §3 «SPORTVLARVM») — source inconsistency, translations follow",info
+frag-22,legend,,"fragplate-4 no. 22: VIXIT A. XI. M. VII. D. XIII — text_fr expansion reads «ANNOS XII» but Grosson translates «onze ans»; engraving supports XI. Source slip, translations follow",info
+frag-20,legend,,"fragplate-3 no. 20: «…IDEN HERES» on plate vs «IDEM HERES» in text — not meaning-changing",info

@@ -1,0 +1,36 @@
+{
+  "id": "frag-13",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "pl20-1-1",
+      "fields": [
+        "ru",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Marcus Caris Pacatus a élevé ce monument à son très-pieux frere (46).",
+      "current": "ru «…от его брата Марка Кария Пакату»; text_ru «Марк Карий Пакату воздвиг»",
+      "suggested": "Pacatus — мужское имя (как pl20-1-1): ru «…от его брата Марка Кария Паката»; text_ru «Марк Карий Пакат воздвиг…»",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "frag-13-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Marcus Caris Pacatus a élevé ce monument à son très-pieux frere (46).",
+      "current": "RU «своему прелюбящему брату»; EN «his most loving brother»",
+      "suggested": "у Гроссона «très-pieux», и примечание 46 объясняет именно PIVS (семейная почтительность). RU «своему преблагочестивому брату» (как в других записях); EN «his most dutiful brother»",
+      "confidence": "low"
+    }
+  ]
+}

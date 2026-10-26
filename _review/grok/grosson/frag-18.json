@@ -1,0 +1,22 @@
+{
+  "id": "frag-18",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "frag-18-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "omission",
+      "original": "Palleat ut nudis pressit qui calcibus anguem, Aut Lugdunensem Rhetor dicturus ad aram.",
+      "current": "RU «Pallet, kak будто попрал босыми ногами змею, или как ритор, готовящийся говорить перед лионским алтарём». (затем повтор перевода); EN — латинский стих пропущен («Juvenal say (28): let him grow pale…»)",
+      "suggested": "RU: испорченная вставка (латиница «Pallet, kak» в русском тексте, латинский стих потерян, перевод дан дважды) — восстановить: «…заставляет Ювенала (28) сказать: Palleat ut nudis pressit qui calcibus anguem, Aut Lugdunensem Rhetor dicturus ad aram. Пусть он побледнеет от страха…». EN: вернуть латинский стих перед переводом: «…makes Juvenal say (28): Palleat ut nudis pressit qui calcibus anguem, Aut Lugdunensem Rhetor dicturus ad aram. Let him grow pale…»",
+      "confidence": "high"
+    }
+  ]
+}

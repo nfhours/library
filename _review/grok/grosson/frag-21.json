@@ -1,0 +1,61 @@
+{
+  "id": "frag-21",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl16-4-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "typo",
+      "original": "Le fragment d'inscription indiqué par ce numéro, se trouvoit autrefois placé dans les caves de St. Sauveur.",
+      "current": "Сен-Соверa",
+      "suggested": "латинская «a»: «в подвалах Сен-Совёра»",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "frag-21-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "Qu'on nous rapporte de pareilles preuves en faveur de l'opinion contradictoire; mais on n'en a aucune à nous montrer.",
+      "current": "но нам нечего предъявить",
+      "suggested": "смысл перевёрнут: доказательств нет у противников, а не «у нас». «…но им нечего нам предъявить». EN «none can be produced» верно",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "frag-21-2",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "En rendant le compte de la dépense faite par la Communauté à l'occasion de la consécration, de douze corbeilles, a donné ce monument.",
+      "current": "RU «дал двенадцать корзин для этого памятника»; EN «gave twelve baskets for this monument»",
+      "suggested": "у Гроссона дан памятник, а двенадцать корзин — предмет освящения (отчёт о расходах на освящение двенадцати корзин). RU «Отчитавшись в расходе, понесённом общиной по случаю освящения двенадцати корзин, дал этот памятник»; EN «Having rendered account of the expense incurred by the Community for the consecration of twelve baskets, gave this monument»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "frag-21-3",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "typo",
+      "original": "C'est le Collège des Flamines d'Apollon qu'on fait parler dans cette inscription, ou quelque Officier du Collége des Dendrophores;",
+      "current": "некий должностной лица",
+      "suggested": "ошибка согласования: «некое должностное лицо»",
+      "confidence": "high"
+    }
+  ]
+}

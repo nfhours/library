@@ -1,0 +1,21 @@
+{
+  "id": "frag-20",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "frag-20-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Caius Postumius l'Affranchi, Mignon de Caius ayant ordonné qu'on lui dressât en marbre ce monument,",
+      "current": "миловидный раб Гая",
+      "suggested": "«раб» добавлен — он вольноотпущенник; mignon здесь «любимец, фаворит». «Гай Постумий Вольноотпущенник, любимец Гая, завещав…». EN «Caius's pretty favorite» близко к тексту",
+      "confidence": "medium"
+    }
+  ]
+}

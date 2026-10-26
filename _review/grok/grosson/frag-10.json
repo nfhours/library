@@ -1,0 +1,22 @@
+{
+  "id": "frag-10",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "frag-10-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "C'est-à-dire, Augustius, tuteur d'Augustalis, avec la participation de Dunnius son frere & son héritier, a fait élever ce monument.",
+      "current": "RU «с согласия Дунния»; EN «with the consent of Dunnius»",
+      "suggested": "у Гроссона «avec la participation» — «при участии», а не «с согласия». RU «при участии Дунния…»; EN «with the participation of Dunnius…»",
+      "confidence": "low"
+    }
+  ]
+}

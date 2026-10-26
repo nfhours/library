@@ -1,0 +1,21 @@
+{
+  "id": "frag-16",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "frag-16-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Elles employoient pour lors ces mots de tendresse ALVMNA DVLCISSIMA. Sa douce, sa tendre, ou sa chere éleve.",
+      "current": "«его милая, его нежная, или его дорогая воспитанница»",
+      "suggested": "говорят кормилицы (Elles) — «sa» здесь «её», не «его». «её милая, её нежная или её дорогая воспитанница». EN «his/her» допустимо",
+      "confidence": "low"
+    }
+  ]
+}
