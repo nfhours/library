@@ -30,6 +30,15 @@
       "current": "he did not wish to be without them, although he said he would be; so that the spectators",
       "suggested": "he would not be without them, and said he did so in order that the spectators might tell him apart",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "benche dicesse di farlo; perche gli spettatori conoscessero lui",
+      "current": "bien qu'il eût dit qu'il le ferait ; afin que",
+      "suggested": "et il disait le faire afin que les spectateurs le distinguent (та же ошибка в RU/EN)",
+      "confidence": "medium"
     }
   ]
 }

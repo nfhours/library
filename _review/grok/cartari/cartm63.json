@@ -30,6 +30,15 @@
       "current": "…so that no ship passed that way without her making a wretched prey… Charybdis… Palaemon… Portunus…”",
       "suggested": "то же: текст после «guardando se naue» в оригинале этой записи отсутствует",
       "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "guardando se naue",
+      "current": "…guettant si quelque navire… [Charybde, histoire de Scylla, Néréides, Palémon]",
+      "suggested": "всё после «guettant si quelque navire» в абзаце 1 (Харибда, история Сциллы, Нереиды, Палемон) отсутствует в text_it этой записи — удалить (текст соседних записей)",
+      "confidence": "high"
     }
   ]
 }

@@ -48,6 +48,15 @@
       "current": "о Менипте Кинике",
       "suggested": "о Мениппе Кинике",
       "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Atheniesi le dimandauano le Dee Seuere, & i Sicionij le",
+      "current": "les hommes à commettre tout mal sans le moindre égard… (Stace, Ovide, Styx; дважды)",
+      "suggested": "блок после стиха Катулла (Стаций, Овидий, Стикс) отсутствует в text_it этой записи, к тому же повторён дважды — удалить",
+      "confidence": "high"
     }
   ]
 }

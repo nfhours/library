@@ -39,6 +39,24 @@
       "current": "as the fables say, and as Marcus Marcus Tullius, that it swelled",
       "suggested": "as the fables say, and as Marcus Tullius reports, that it swelled",
       "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Et vn'altra ne era appresso de' Tanagrei gente della Beotia, che portaua vn montone in collo",
+      "current": "chez les Tanagréens, peuple de Béotie, qui portait un bélier",
+      "suggested": "chez les Tanagréens, peuple de Béotie, une autre [statue] qui portait un bélier sur le cou (относительное придаточное относится к статуе, а не к народу; та же правка в RU)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "& lo riferisce Marco Marco Tullio",
+      "current": "Marc Marc Tullius",
+      "suggested": "Marc Tulle [Cicéron] (дубль — опечатка оригинала)",
+      "confidence": "medium"
     }
   ]
 }

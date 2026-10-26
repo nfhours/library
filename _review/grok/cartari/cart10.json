@@ -84,6 +84,51 @@
       "current": "as I already wrote in the chapter on Flavius",
       "suggested": "as I already wrote in the Flavio (книга Картари «Il Flavio», а не глава)",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Giuano intanto con le chiome sparse",
+      "current": "Junon cependant, les cheveux épars, / Les femmes d'Ilion",
+      "suggested": "Allaient cependant, les cheveux épars, / Les femmes d'Ilion (Giuano = givano, «шли»; не Юнона; та же ошибка в RU/EN)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "spiccò fuori della terra vn rampollo di oglio",
+      "current": "sortit de terre un rejeton d'olivier",
+      "suggested": "jaillit de terre une source d'huile (rampollo di oglio; та же ошибка в RU/EN)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Crederan, che non più sia Sol vn Sole",
+      "current": "Croiront qu'il n'est plus un seul Soleil",
+      "suggested": "Croiront qu'il n'y a plus un Soleil unique (т. е. солнц много; формулировка двусмысленна)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "name",
+      "original": "accusò le figliole di Cercope",
+      "current": "les filles de Cercops",
+      "suggested": "les filles de Cécrops (Cercope в оригинале — ошибка; та же правка в RU/EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "come già scrissi nel Flauio",
+      "current": "au chapitre de Flavius",
+      "suggested": "dans mon «Flavio» (книга Картари «Il Flavio», не глава о Флавии; та же ошибка в RU/EN)",
+      "confidence": "medium"
     }
   ]
 }

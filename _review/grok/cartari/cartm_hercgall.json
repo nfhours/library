@@ -30,6 +30,15 @@
       "current": "[2] ...eloquence, in this manner, as Lucian relates… Melampygus [Black-Buttocks]",
       "suggested": "абзац 2 — дубль уже переведённого текста (и/или текст соседней записи / редакторская пометка); в text_it этой записи его нет — удалить",
       "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "quenza, in questa guisa, come racconta Luciano. Era vn vecchio",
+      "current": "[FR2] ...quence, en cette manière, comme le rapporte Lucien…",
+      "suggested": "абзац 2 — дубль абзаца 1; удалить",
+      "confidence": "high"
     }
   ]
 }

@@ -30,6 +30,15 @@
       "current": "some are called Lebetes, and others cups, and other wine-vessels",
       "suggested": "both kinds are called Lebetes, like cups and other wine-vessels",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "che siano chiamati Lebeti gli vni, e gli altri come tazze",
+      "current": "les uns sont appelés Lébès, et les autres coupes",
+      "suggested": "les uns et les autres sont appelés Lébès, comme des coupes et autres vases à vin (та же ошибка в RU/EN)",
+      "confidence": "medium"
     }
   ]
 }

@@ -21,6 +21,15 @@
       "current": "что означает, что земля есть все царства и все людские богатства",
       "suggested": "что означает, что на земле — все царства и все людские богатства («i terra» = «in terra»)",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "che i terra sono i regni tutti",
+      "current": "tous les royaumes et toutes les richesses humaines appartiennent à la terre",
+      "suggested": "que sur la terre sont tous les royaumes et toutes les richesses humaines («i terra» = «in terra»)",
+      "confidence": "low"
     }
   ]
 }

@@ -66,6 +66,51 @@
       "current": "adorning them with virtue, and with just works, and just works",
       "suggested": "adorning them with virtue, and with just and honest works",
       "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "Melampigo, che viene a dire, dal negro culo, perche così",
+      "current": "[FR2] Mélampyge, ce qui veut dire, au cul noir…",
+      "suggested": "абзац 2 — сокращённый дубль начала абзаца 1; удалить",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 3,
+      "type": "addition",
+      "original": "Melampigo, che viene a dire, dal negro culo, perche così",
+      "current": "[FR3] …allé Hercule, pour certaines de ses affaires…",
+      "suggested": "абзац 3 — сокращённый дубль абзаца 1; удалить",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "che se ne portasse in collo vn ferro cinghiale",
+      "current": "portant sur ses épaules un sanglier de fer",
+      "suggested": "portant sur ses épaules un sanglier féroce (ferro = fero; та же ошибка в RU/EN)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Furono due fratelli maluagi, e tristi quanto si possa dire",
+      "current": "deux frères méchants, et tristes autant qu'on peut le dire",
+      "suggested": "deux frères méchants et scélérats au dernier point (tristi = порочные; та же ошибка в RU/EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "omission",
+      "original": "ornandole di virtù, & di opere giuste, & honeste",
+      "current": "d'œuvres justes, et d'œuvres justes",
+      "suggested": "d'œuvres justes et honnêtes («honeste» пропущено, вместо него повтор)",
+      "confidence": "medium"
     }
   ]
 }

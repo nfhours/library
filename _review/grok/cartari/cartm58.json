@@ -30,6 +30,15 @@
       "current": "[2] [Continuing, from page 198] ...the Roman people made her their heir… the Good Goddess (Dea Bona)…",
       "suggested": "абзац 2 — дубль уже переведённого текста (и/или текст соседней записи / редакторская пометка); в text_it этой записи его нет — удалить",
       "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "Dal quale non era differente quello che fu fatto à Pomona",
+      "current": "[Suite, depuis la page 198] ...le peuple Romain la fit son héritière…",
+      "suggested": "абзац 2 удалить: дубль абзаца 1 плюс текст следующей записи (Bona Dea), в text_it этой записи его нет",
+      "confidence": "high"
     }
   ]
 }

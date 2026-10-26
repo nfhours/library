@@ -57,6 +57,42 @@
       "current": "низко идут целовать руки другим рабам",
       "suggested": "низко идут целовать руки чужим рабам (речь о свободных, не о рабах)",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "Percioche la Fede hà da stare secreta, cioè le cose,",
+      "current": "[FR2] [Extrait du texte précédant la planche, page imprimée 266…] ...cette description dépeint la Concorde…",
+      "suggested": "абзац 2 — текст соседней записи (Мир/Согласие) плюс дубль абзаца 1, с редакционной пометкой; удалить",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 3,
+      "type": "addition",
+      "original": "Percioche la Fede hà da stare secreta, cioè le cose,",
+      "current": "[FR3] [Suite, page 268] Et parce qu'on croyait…",
+      "suggested": "абзац 3 — дубль абзаца 1; удалить",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "vanno vilmente a baciar le mani a gli altri serui",
+      "current": "vont bassement baiser les mains d'autres esclaves",
+      "suggested": "vont bassement baiser les mains des esclaves d'autrui (чужим рабам; та же ошибка в RU/EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "name",
+      "original": "Et Macrobio facendo parlare Pretestato",
+      "current": "Préextatus",
+      "suggested": "Prétextat (Praetextatus)",
+      "confidence": "low"
     }
   ]
 }

@@ -48,6 +48,24 @@
       "current": "they often honoured ranks and valorous Captains",
       "suggested": "they often honoured great and valorous Captains",
       "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "con simili statoe honorauano spesso i gradi, & valorosi Capitani",
+      "current": "on honorait souvent les grades et les vaillants Capitaines",
+      "suggested": "on honorait souvent les grands et vaillants Capitaines (gradi = grandi; та же ошибка в RU/EN)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "ne di bel corpo, grande, e sodo, cui comincino à",
+      "current": "[FR2] [Suite, page 272…] ...de belle stature…",
+      "suggested": "абзац 2 — дубль начала абзаца 1 с редакционной пометкой; удалить",
+      "confidence": "high"
     }
   ]
 }

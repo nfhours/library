@@ -30,6 +30,33 @@
       "current": "держит щит, упёртый в колено, и / и с каждой стороны у неё по Льву",
       "suggested": "…упёртый в колено, и с каждой стороны у неё по Льву (дубль «и» на стыке страниц; то же в EN «and / and»)",
       "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "ni di conto, li quali si mutauano di habito",
+      "current": "de qualité, qui changeaient d'habit",
+      "suggested": "не уверен: начало фразы оборвано на стыке страниц; «…ni di conto» может значить «люди без положения» — сверить с предыдущей записью, не дописывать",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "& & ad ciascheduno de i lati hà vn Lione",
+      "current": "et / et à chacun des côtés",
+      "suggested": "et à chacun des côtés (дубль «et» — повтор «& &» оригинала)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "così dice Ouidio di questa Dea: Per",
+      "current": "Ovide dit ainsi de cette Déesse : Car / Car on croit",
+      "suggested": "Ovide dit ainsi de cette Déesse : Car on croit (дубль «Car»)",
+      "confidence": "low"
     }
   ]
 }

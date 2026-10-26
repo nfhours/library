@@ -48,6 +48,24 @@
       "current": "whence time does not take away his strength with the years",
       "suggested": "for time does not lose its strength with the years",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "onde per il tempo non perde con gli anni le sue forze",
+      "current": "d'où le temps ne lui ôte pas avec les années ses forces",
+      "suggested": "car il ne perd pas ses forces avec les années (смысл смещён; та же ошибка в RU/EN; в абзаце 3 передано верно)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "Ma questa distintione non faceuano gli antichi; imperoche voleuano che",
+      "current": "[FR2] [Extrait du texte précédant la planche de Charon…]",
+      "suggested": "абзацы 2–4 — полный повтор абзаца 1 с редакционными пометками в скобках; удалить",
+      "confidence": "high"
     }
   ]
 }

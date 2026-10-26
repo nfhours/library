@@ -30,6 +30,15 @@
       "current": "nor was it called such without Vesta being invoked first",
       "suggested": "nor one in which Vesta was not invoked at the beginning",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& che non fosse chiamata Vesta nel principio",
+      "current": "ni qui ne fût appelé tel sans que Vesta fût d'abord invoquée",
+      "suggested": "ni dans lequel Vesta ne fût invoquée au commencement (смысл слегка смещён)",
+      "confidence": "medium"
     }
   ]
 }

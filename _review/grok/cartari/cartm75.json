@@ -21,6 +21,24 @@
       "current": "некоторые называли их Канцлером богов",
       "suggested": "некоторые называли их Канцлерами (писцами) богов",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "nella nostra lingua significa euocatione",
+      "current": "signifie dans notre langue « invocation »",
+      "suggested": "signifie dans notre langue « évocation » (euocatione; в подписи стоит верно)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "che suol venire senza ordine, ò legge di sorte alcuna",
+      "current": "sans aucun ordre ni loi de hasard",
+      "suggested": "sans aucun ordre ni loi d'aucune sorte («di sorte alcuna» = «никакой», не «жребий»)",
+      "confidence": "low"
     }
   ]
 }

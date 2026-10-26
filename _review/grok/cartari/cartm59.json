@@ -57,6 +57,51 @@
       "current": "жители Саиса, народ Египта",
       "suggested": "савватии (Sauatij — почитатели Сабазия у Евсевия), не жители Саиса; так же EN «the Saites» → «the Sabatii»",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "Oltre alle già dette Dee vi fu la Dea Bona",
+      "current": "[Suite, depuis la page 200] ...l'entraîner à ses désirs",
+      "suggested": "абзац 2 — дубль абзаца 1; удалить",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 3,
+      "type": "addition",
+      "original": "Oltre alle già dette Dee vi fu la Dea Bona",
+      "current": "[Note de constat : …NEPTUNE… cart7…]",
+      "suggested": "абзац 3 — редакционная заметка, не перевод; удалить",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "name",
+      "original": "i Sauatij",
+      "current": "les Saïtes, peuple d'Égypte",
+      "suggested": "les Sabaziens (Sauatij = савазии/Sabazii у Евсевия; в абзаце 2 стоит «Sabatiens»)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "con parole di di trarla",
+      "current": "par des paroles de de l'attirer",
+      "suggested": "par des paroles de l'attirer (дубль — опечатка оригинала)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "scriuendo del do della Beotia",
+      "current": "à propos du la Béotie",
+      "suggested": "à propos de la Béotie (сбой «del do» оригинала)",
+      "confidence": "low"
     }
   ]
 }

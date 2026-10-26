@@ -30,6 +30,33 @@
       "current": "[2] ...a little more, and thus is [Night] depicted… / [3] ...[Sleep is depicted]…",
       "suggested": "абзацы 2–3 — повтор абзаца 1 с добавкой из следующей записи; удалить",
       "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "qualche poco, & è così dipinta, che rappresenta l'ornamento del",
+      "current": "[FR2] ...quelque peu, et elle est ainsi peinte…",
+      "suggested": "абзац 2 — дубль абзаца 1 (с сокращениями «...»); удалить",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 3,
+      "type": "addition",
+      "original": "qualche poco, & è così dipinta, che rappresenta l'ornamento del",
+      "current": "[FR3] [...ce]tte figure toute languissante… […suite dans la fiche …]",
+      "suggested": "абзац 3 — дубль абзаца 1 плюс начало следующей записи (Ахайя) и редакционная пометка; удалить",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Seguono il carro de la madre, quali … Il ciel' in bel drapello accolte tiene",
+      "current": "Suivent le char de leur mère, qu' / Le ciel tient rassemblées",
+      "suggested": "Suivent le char de leur mère, que / Le ciel tient rassemblées en une belle troupe (обрыв «qu'»)",
+      "confidence": "low"
     }
   ]
 }
