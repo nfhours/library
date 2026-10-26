@@ -1,0 +1,38 @@
+{
+  "id": "alc198",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc198-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Certabat plectro Sparthyn commissus in hostem,",
+      "current": "спартанским соперником / his Spartan rival / son ennemi spartiate",
+      "suggested": "Sparthyn (Sparthis/Spartis) — имя соперника Эвнома, не этноним: «состязался плектром с противником Спартином»; не уверен в форме имени",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc198-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Pro cithara hic fidicen æneus ipsa sedet.",
+      "current": "сам этот бронзовый кифаред вместо кифары / this bronze lyre-player itself sits here in place of the cithara / ce joueur de cithare de bronze",
+      "suggested": "ipsa — сама цикада: «здесь на кифаре сидит она сама, бронзовая, как кифаред» (на гравюре — цикада на кифаре); не уверен",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "alc202",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "alc202-1",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en",
+        "caption_fr"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "Submouendam ignorantiam. Διαλογισμός. (на странице скана)",
+      "current": "заголовки fr / ru / en / name_fr без подзаголовка «Διαλογισμός» (ср. alc82-2; у alc210 «Dialogismus» в заголовке есть)",
+      "suggested": "вынести подпись в отдельные поля (сейчас: под девизом набран греческий подзаголовок; в text_fr и переводах отсутствует; в entries.json поля caption нет). caption_orig: «Διαλογισμός.» (сверено по скану pages/alc202.jpg); caption_ru: «Диалог»; caption_en: «A dialogue»; caption_fr: «Dialogue».",
+      "confidence": "high",
+      "caption_source": "engraving"
+    }
+  ]
+}

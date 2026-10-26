@@ -1,0 +1,21 @@
+{
+  "id": "alc212",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc212-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "typo",
+      "original": "Dij meliora pijs",
+      "current": "пиям",
+      "suggested": "«пиям» — калька pijs: «благочестивым»",
+      "confidence": "high"
+    }
+  ]
+}

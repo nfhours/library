@@ -1,0 +1,34 @@
+{
+  "id": "alc208",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "alc208-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Ecqd Colchi",
+      "current": "[LA] Ecqd",
+      "suggested": "[LA] «Ecquid» (сокращение Ecq̃d с потерянной тильдой)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc208-2",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "cana palumbes",
+      "current": "седая горлица",
+      "suggested": "palumbes — вяхирь (лесной голубь), не горлица (turtur): «седой вяхирь / голубка-вяхирь»",
+      "confidence": "low"
+    }
+  ]
+}

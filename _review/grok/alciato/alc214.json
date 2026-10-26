@@ -1,0 +1,37 @@
+{
+  "id": "alc214",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc214-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Grata Ioui est quercus, qui nos seruatq́, fouetq́,",
+      "current": "ибо он нас хранит / for it preserves",
+      "suggested": "qui — Юпитер (м. р.), не дуб: «Дуб угоден Юпитеру, который нас хранит и лелеет» (FR верно)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc214-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Sic quoque sic arbos officiosa Iouis.",
+      "current": "некогда щедрое услугами, ныне лишь тенью / once dutiful, now gives but shade / naguère si serviable, aujourd'hui réduit à l'ombre",
+      "suggested": "в тексте: «так и так [и плодом, и тенью] служит древо Юпитера»; «ныне лишь тенью» — добавка: RU «и так, и этак дерево Юпитера услужливо»",
+      "confidence": "low"
+    }
+  ]
+}

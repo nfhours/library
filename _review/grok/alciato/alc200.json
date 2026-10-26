@@ -1,0 +1,36 @@
+{
+  "id": "alc200",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "alc200-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Hac habeas:",
+      "current": "[LA] Hac",
+      "suggested": "[LA] «Hæc» (так на скане)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc200-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "In laqueos sociam parra, neropsq; trahit.",
+      "current": "куропатка … и подругу, и глупца / the partridge … her companion, and the fool / la perdrix … sa compagne, et le sot",
+      "suggested": "[LA] neropsq; = meropsq; (merops — щурка): «так обмазанные клеем parra и щурка тянут в силки подругу»; parra — птица дурного знамения, не куропатка; «глупца» нет. EN «the parra and the bee-eater draw their mate into the snares»; FR «la parra et le guêpier entraînent leur compagne»",
+      "confidence": "medium"
+    }
+  ]
+}

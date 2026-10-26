@@ -1,0 +1,21 @@
+{
+  "id": "alc213",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc213-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Tractandos parili conditione suos.",
+      "current": "своих близких следует обходить в равном состоянии",
+      "suggested": "tractare — «обращаться с»: «что со своими следует обходиться на равных»",
+      "confidence": "low"
+    }
+  ]
+}
