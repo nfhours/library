@@ -1,0 +1,23 @@
+{
+  "id": "v1-56-13",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-56-13-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Virgo ille juventa est.",
+      "current": "Virgo ille juventa est.",
+      "suggested": "[LA] «Virgo ille» не согласуется (ille м. р.); вероятно «Virgo illi juventa est» (Aen. VII 53: «iam matura viro… virgo»?) — искажено; толкование «de ma jeunesse» тоже странно. Скана текста нет; не уверен",
+      "confidence": "low"
+    }
+  ]
+}

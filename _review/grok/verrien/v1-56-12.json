@@ -1,0 +1,23 @@
+{
+  "id": "v1-56-12",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-56-12-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Ostendit navos non contrahit.",
+      "current": "Ostendit navos non contrahit.",
+      "suggested": "[LA] «Ostendit nævos, non contrahit» (nævus — пятно; лигатура æ потеряна); скопировано и в text_ru. Скана текста нет — по смыслу",
+      "confidence": "high"
+    }
+  ]
+}

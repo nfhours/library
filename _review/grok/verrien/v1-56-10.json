@@ -1,0 +1,21 @@
+{
+  "id": "v1-56-10",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-56-10-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "Sa fuite le rend plus beau.",
+      "current": "Его полёт делает его прекраснее.",
+      "suggested": "fuite — «бегство» (ср. лат. fuga), не «полёт»: «Бегство делает его прекраснее»",
+      "confidence": "low"
+    }
+  ]
+}

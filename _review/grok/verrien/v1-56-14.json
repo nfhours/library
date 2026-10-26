@@ -1,0 +1,23 @@
+{
+  "id": "v1-56-14",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-56-14-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Segura alos soplos.",
+      "current": "Segura alos soplos.",
+      "suggested": "[ES] «Segura a los soplos» (слитное «alos» — вероятно, орфография издания); скопировано и в text_ru. Не уверен",
+      "confidence": "low"
+    }
+  ]
+}
