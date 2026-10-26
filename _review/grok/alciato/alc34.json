@@ -1,0 +1,23 @@
+{
+  "id": "alc34",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc34-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Continet & cubitum, duraque fræna manu.",
+      "current": "сдерживает локоть / restrains the elbow / retient son coude",
+      "suggested": "cubitus здесь — локоть как мера длины (атрибут Немезиды — мерило и узда): «и держит в руке локоть-мерило и суровую узду»; EN «and holds a cubit-rule and a hard bridle in her hand»; FR «et tient en main la coudée et le dur frein»",
+      "confidence": "medium"
+    }
+  ]
+}

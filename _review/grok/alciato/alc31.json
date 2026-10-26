@@ -1,0 +1,77 @@
+{
+  "id": "alc31",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc31-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Praxiteles, qui me rapientem Gnosida vidit.",
+      "current": "Праксителес",
+      "suggested": "принятая форма — «Пракситель»",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc31-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Muneribus quandoque meis si parcere disces / Iunior, & forti pectore semper eris.",
+      "current": "юноша, у тебя всегда будет крепкое сердце / you, younger one, will always have… / jeune homme, tu auras…",
+      "suggested": "Iunior — сказуемое, не обращение: «ты всегда будешь моложе и крепок сердцем». EN «you will always be younger, and strong of heart»; FR «tu seras toujours plus jeune, et d'un cœur vaillant» (ответ на вопрос, почему Вакх юн)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "alc31-3",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Cùm Semeles de vetre parens me fulmine traxit",
+      "current": "[LA] vetre",
+      "suggested": "[LA] «ventre» (потеряна тильда «vẽtre»)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc31-4",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Cùm Semeles de vetre parens me fulmine traxit",
+      "current": "Когда мать моя Семела извлекла меня… из чрева / When my mother Semele drew me from her womb / Quand ma mère, du ventre de Sémélé, m'arracha",
+      "suggested": "Semeles — род. п., parens — отец (Юпитер): «Когда родитель извлёк меня из чрева Семелы огнедышащей молнией». EN «When my father drew me from Semele's womb with the fire-spewing thunderbolt»; FR «Quand mon père m'arracha du ventre de Sémélé»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "alc31-5",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "hoc sum pocula more iuuat",
+      "current": "[LA] hoc sum pocula more iuuat",
+      "suggested": "[LA] строка не разбирается («sum» без смысла); вероятно «hoc sumi pocula more iuuat» — «так пить чаши приятно»; не уверен, сверить по скану",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "alc45",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "alc45-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "q, scilicet omnes / Consensu populi stantq, caduntq, duces:",
+      "current": "[LA] q, … stantq, caduntq,",
+      "suggested": "[LA] знак сокращения передан запятой: «quòd scilicet omnes / … stantque, caduntque duces» (или как в других записях «q;»)",
+      "confidence": "low"
+    }
+  ]
+}

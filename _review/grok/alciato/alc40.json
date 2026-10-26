@@ -1,0 +1,23 @@
+{
+  "id": "alc40",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc40-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Quæ te causa monet volucris Saturnia",
+      "current": "птица Сатурна / bird of Saturn / oiseau de Saturne",
+      "suggested": "volucris Saturnia — орёл Юпитера (сына Сатурна): «сатурнийская птица» или «птица Сатурнида»; «птица Сатурна» сбивает. EN «Saturnian bird»; FR «oiseau saturnien»",
+      "confidence": "low"
+    }
+  ]
+}

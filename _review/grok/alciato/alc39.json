@@ -1,0 +1,23 @@
+{
+  "id": "alc39",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc39-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Integritas nostra, atq; animus quæsitor honesti, / His nisi sint Zetes, his nisi sint Calais.",
+      "current": "…если не явятся к ним Зет и Калай / …unless Zetes and Calais come to their aid / …périront, si ne viennent à eux ni Zétès ni Calaïs",
+      "suggested": "смысл: «если только моя честность и дух, ищущий честного, не станут для них (гарпий) Зетом и Калаем» (Бореады прогнали гарпий от Финея). EN «unless my integrity and my mind, seeker of the honourable, be Zetes and Calais to them»; FR «à moins que mon intégrité et mon esprit… ne soient pour elles Zétès et Calaïs»; «périront» в FR добавлено",
+      "confidence": "medium"
+    }
+  ]
+}

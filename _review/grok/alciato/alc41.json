@@ -1,0 +1,25 @@
+{
+  "id": "alc41",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "alc41-1",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en",
+        "caption_fr"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "Ἀνέχου καὶ ἀπέχου. (на странице скана)",
+      "current": "заголовок fr — латинская транслитерация «Anechou kai apechou»; на странице девиз набран греческим шрифтом",
+      "suggested": "вынести подпись в отдельные поля (сейчас: девиз набран по-гречески над гравюрой; в text_fr и переводах отсутствует; в entries.json поля caption нет). caption_orig: «Ἀνέχου καὶ ἀπέχου.» (сверено по скану pages/alc41.jpg); caption_ru: «Терпи и воздерживайся»; caption_en: «Bear, and forbear»; caption_fr: «Supporte et abstiens-toi». Не опечатка, а смена письма; caption_orig дать по-гречески, транслитерацию можно оставить в заголовке.",
+      "confidence": "high",
+      "caption_source": "engraving"
+    }
+  ]
+}

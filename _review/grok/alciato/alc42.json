@@ -1,0 +1,23 @@
+{
+  "id": "alc42",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc42-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Scire cupis dominos toties cur Thessalis ora / Mutet,",
+      "current": "фессалийские удила… меняют хозяев / the Thessalian bit… changes masters / les rênes thessaliennes changent",
+      "suggested": "Thessalis ora — «фессалийский край», а не удила: страна (родина коней) часто меняет правителей и, как благородный конь, сбрасывает неумелого конюха. RU «почему фессалийский край так часто меняет господ»; EN «why the Thessalian land so often changes its masters»; FR «pourquoi la contrée thessalienne change si souvent de maîtres»; дальше «узда сбрасывает» → «(страна,) как конь, сбрасывает»",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "alc38",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc38-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Ius hæc forma monet dictum sine sordibus esse,",
+      "current": "Этот образ подобающе напоминает, что слово было сказано без скверны / fittingly reminds us that the word was spoken without corruption / qu'il convient que la parole soit dite sans souillure",
+      "suggested": "ius dicere — вершить суд, sordes — корысть (взятки); «подобающе» — неверно прочитанное ius: «Этот образ напоминает, что усопший вершил суд без корысти и имел чистые руки». EN «This form reminds us that he administered justice without corruption»; FR «Cette figure rappelle qu'il rendit la justice sans corruption»",
+      "confidence": "medium"
+    }
+  ]
+}

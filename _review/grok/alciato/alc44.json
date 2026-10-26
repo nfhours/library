@@ -1,0 +1,38 @@
+{
+  "id": "alc44",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "alc44-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "sic vetos temnit & imbres,",
+      "current": "[LA] vetos",
+      "suggested": "[LA] «ventos» (потеряна тильда «vẽtos»)",
+      "confidence": "medium"
+    },
+    {
+      "field": "caption",
+      "issue_id": "alc44-2",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en",
+        "caption_fr"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "SCYTHICVM MARE (на странице скана)",
+      "current": "заголовок fr «Omnia mea mecum porto»; ярлыка гравюры нет ни в тексте, ни в переводах",
+      "suggested": "вынести подпись в отдельные поля (сейчас: надпись вырезана на гравюре, справа внизу, у моря; в text_fr и переводах отсутствует; в entries.json поля caption нет). caption_orig: «SCYTHICVM MARE» (сверено по скану pages/alc44.jpg); caption_ru: «Скифское море»; caption_en: «The Scythian Sea»; caption_fr: «La mer de Scythie».",
+      "confidence": "high",
+      "caption_source": "engraving"
+    }
+  ]
+}

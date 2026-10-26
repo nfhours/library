@@ -1,0 +1,36 @@
+{
+  "id": "alc36",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "alc36-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Cicerone peremptо,",
+      "current": "[LA] peremptо (последняя буква — кириллическая «о»)",
+      "suggested": "[LA] «perempto» — заменить кириллическую «о» на латинскую (ломает поиск)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc36-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Romanum postquàm eloquium, Cicerone peremptо, / Perdiderat patriæ pestis acerba suæ:",
+      "current": "римское красноречие… погибло — горьким мором для собственного отечества / had been lost — a bitter plague upon its own homeland / eut péri, fléau amer",
+      "suggested": "pestis acerba patriæ suæ — подлежащее (Антоний), eloquium — дополнение: «после того как горькая язва своего отечества, убив Цицерона, погубила римское красноречие». EN «After the bitter plague of his country had destroyed Roman eloquence by killing Cicero»; FR «Après que le fléau amer de sa patrie eut détruit l'éloquence romaine en tuant Cicéron»",
+      "confidence": "medium"
+    }
+  ]
+}

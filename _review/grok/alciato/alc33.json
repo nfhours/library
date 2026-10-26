@@ -1,0 +1,51 @@
+{
+  "id": "alc33",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc33-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "quo Glaucus adeso / Polybides, factus creditur esse Deus.",
+      "current": "Главк Полиид / Glaucus Polyidus / Glaucus Polyidos",
+      "suggested": "Polybides — отчество: «Главк, сын Полиба» (Главк Анфедонский, ставший морским богом, отведав травы); Полиид — другой персонаж. EN «Glaucus, son of Polybus»; FR «Glaucus, fils de Polybe»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "alc33-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Herbaque tot viret hæc digitalis habet.",
+      "current": "[LA] viret",
+      "suggested": "[LA] вероятно «vires» («столько сил имеет эта пальчатая трава»); «viret» ломает синтаксис — не уверен, сверить по скану",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc33-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Herbaque tot viret hæc digitalis habet.",
+      "current": "столько суставов-пальцев имеет эта зеленеющая трава / as many finger-joints as it is green / autant de nœuds que de doigts",
+      "suggested": "при чтении vires: «и столько сил у этой пальчатой травы (digitalis)»; EN «and this finger-grass has so many powers»; FR «et cette herbe digitale a tant de vertus». Не уверен — зависит от alc33-2",
+      "confidence": "low"
+    }
+  ]
+}
