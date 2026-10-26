@@ -1,0 +1,24 @@
+{
+  "id": "aud15",
+  "book": "audran",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "aud15-1",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "Si la Pointe du Compas eut esté placée dans la Cavité des reins ou des fesses Ces mesure[s] seroient venues plus petites. Elles sont marquées de deux etoiles",
+      "current": "примечания нет ни в text_fr/caption, ни в переводах",
+      "suggested": "вынести в отдельные поля (сейчас: гравированное примечание вертикально у левого края, между двумя звёздочками у бедра левой фигуры; в text_fr/caption отсутствует). caption_orig: «Si la Pointe du Compas eut esté placée dans la Cavité des reins ou des fesses, ces mesures seroient venues plus petites. Elles sont marquées de deux etoiles.»; caption_ru: «Если бы ножку циркуля поставили в углубление поясницы или ягодиц, эти мерки вышли бы меньше. Они отмечены двумя звёздочками»; caption_en: «Had the point of the compass been set in the hollow of the loins or buttocks, these measurements would have come out smaller. They are marked with two stars». Сверено по aud15.jpg",
+      "confidence": "high",
+      "caption_source": "engraving"
+    }
+  ]
+}

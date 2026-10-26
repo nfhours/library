@@ -1,0 +1,6 @@
+id,label_orig,position,note
+aud7,Hauteur de la veüe de celuy qui dessigne,"в двух частях по сторонам фигуры, на уровне плеч (слева «Hauteur de la veüe», справа «de celuy qui dessigne»)","ярлык чертежа (высота глаза рисовальщика); в text_fr/caption и переводах нет. Не issue — ждёт решения, выносить ли ярлыки в caption_*"
+aud7,Mesure de la Jambe marquée A,"вертикально слева внизу, над шкалой","ярлык чертежа; в данных нет. Не issue"
+aud7,Echelle mise en perspective,"вертикально слева внизу, под шкалой","ярлык чертежа; в данных нет. Не issue"
+aud13,Echelle de 2 pieds,"вертикально у правой шкалы","ярлык шкалы; в данных нет. Не issue"
+aud18,Épaisseur de la Cuisse droite veüe en racourcy par le Genoüil,"под круговой схемой (разрез бедра A–B–C) справа от фигуры","подпись к врезке-схеме; в данных нет. Не issue — ждёт решения (ср. примечания aud15-1, aud20-1, заведённые как caption)"

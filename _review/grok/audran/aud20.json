@@ -1,0 +1,24 @@
+{
+  "id": "aud20",
+  "book": "audran",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "aud20-1",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "La perspective empesche que lon ne voye le haut de la Figure aussi grand quil est",
+      "current": "примечания нет ни в text_fr/caption, ни в переводах",
+      "suggested": "вынести в отдельные поля (сейчас: гравированное примечание наклонно слева от головы, под основной подписью; в text_fr/caption отсутствует). caption_orig: «La perspective empesche que l'on ne voye le haut de la Figure aussi grand qu'il est»; caption_ru: «Перспектива не позволяет видеть верх фигуры таким большим, каков он есть»; caption_en: «The perspective prevents the top of the figure from being seen as large as it is». Сверено по aud20.jpg",
+      "confidence": "high",
+      "caption_source": "engraving"
+    }
+  ]
+}

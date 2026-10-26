@@ -1,0 +1,5 @@
+id,kind,note
+aud1..aud20,imprint,"Внизу досок — выходные строки гравюры («Avec privilege du Roy», на aud1 «Se Vend a Paris chez Audran Rue S. Jacques aux deux Piliers d'or»), номер доски. В данных их нет; как подписи не помечались"
+aud1..aud20,data_format,"text_fr = caption (одно и то же поле дважды); орфография нормализована непоследовательно: «testes» везде заменено на «têtes», «dessignateurs» → «dessinateurs», имена скульпторов модернизированы (Agesander → Agésandre, Athenedore → Athénodore), а «haulteur», «minuttes», «mesme», «suposant», «egallement» сохранены. Косметика, не issue"
+aud13,data_format,"на гравюре сокращение «l'Echelle de l'Antin», в text_fr раскрыто «l'eschelle de l'Antinoüs» (с другой орфографией). Перевод верен. Не issue"
+aud30,no_original,"text_fr и caption пусты, но text_ru/text_en есть («Ещё одна пара декоративных голов того же цикла, завершающая книгу» — современное описание, не перевод). По GROK.md не проверяется (нет оригинала); отметить в SUMMARY"

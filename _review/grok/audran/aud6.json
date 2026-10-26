@@ -1,0 +1,21 @@
+{
+  "id": "aud6",
+  "book": "audran",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "aud6-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "typo",
+      "original": "Le même Hercule veu de côté",
+      "current": "Тот же Геркулес, если смотреть с боку,",
+      "suggested": "«сбоку» пишется слитно: «Тот же Геркулес, если смотреть сбоку,»",
+      "confidence": "high"
+    }
+  ]
+}

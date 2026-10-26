@@ -1,0 +1,22 @@
+{
+  "id": "aud17",
+  "book": "audran",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "aud17-1",
+      "fields": [
+        "text_fr",
+        "caption"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Apollon pythien decochant ses flesches",
+      "current": "Apollon pythien decochant ses flesches",
+      "suggested": "на гравюре «ses fleches» (без s); в остальном старая орфография в text_fr сохранена. Переводы верны. Сверено по aud17.jpg",
+      "confidence": "low"
+    }
+  ]
+}

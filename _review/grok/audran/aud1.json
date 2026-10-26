@@ -1,0 +1,53 @@
+{
+  "id": "aud1",
+  "book": "audran",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "aud1-1",
+      "fields": [
+        "text_fr",
+        "caption",
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "omission",
+      "original": "Le tout est d'un seul bloc de marbre, travaillé par trois célèbres sculpteurs",
+      "current": "text_fr/caption: «travaillé par trois célèbres sculpteurs»; RU «обработанного тремя знаменитыми скульпторами»; EN «worked by three celebrated sculptors»",
+      "suggested": "на гравюре «travaillé de concert par trois celebres Sculpteurs» — пропущено «de concert» (сообща). text_fr/caption: «travaillé de concert par trois célèbres sculpteurs»; RU «обработанного сообща тремя знаменитыми скульпторами»; EN «worked in concert by three celebrated sculptors». Сверено по aud1.jpg",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "aud1-2",
+      "fields": [
+        "text_fr",
+        "caption",
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "omission",
+      "original": "Agésandre, Polydore et Athénodore.",
+      "current": "ссылки на источник нет ни в text_fr/caption, ни в переводах",
+      "suggested": "на гравюре после имён скульпторов, справа отдельной строкой: «Pl. Liu. 36 Ch. 5.» (Плиний, «Естественная история», кн. 36, гл. 5). Добавить в конец text_fr/caption «Pl. Liv. 36 Ch. 5.»; RU «(Плиний, кн. 36, гл. 5)»; EN «(Pliny, book 36, ch. 5)». Сверено по aud1.jpg",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "aud1-3",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "plusieurs n'ont point fait de difficulté de luy donner le premier rang",
+      "current": "многие без труда отдавали ей первое место",
+      "suggested": "ne pas faire difficulté de — «не колебаться, не стесняться», а не «без труда»: «многие не колеблясь отдавали ей первое место»",
+      "confidence": "low"
+    }
+  ]
+}
