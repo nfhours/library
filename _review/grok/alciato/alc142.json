@@ -1,0 +1,21 @@
+{
+  "id": "alc142",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "alc142-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Mil nisi pòst,",
+      "current": "[LA] Mil",
+      "suggested": "[LA] «Nil» (M вместо N)",
+      "confidence": "high"
+    }
+  ]
+}

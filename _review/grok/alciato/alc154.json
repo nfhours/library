@@ -1,0 +1,36 @@
+{
+  "id": "alc154",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "alc154-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Prætervasq́",
+      "current": "[LA] Prætervasq́",
+      "suggested": "[LA] на скане «Præteritasq́» («пропущенные»)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc154-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Mullum prosequitur qui spretas sargus ab illo,",
+      "current": "спар преследует отвергнутую им кефаль / the sargus-fish pursues the mullet it scorns / le sargue poursuit le mulet dédaigné par lui",
+      "suggested": "spretas … dapes: «спар следует за краснобородкой (mullus) и жадно пожирает отвергнутую и пропущенную ею пищу». EN «the sargus follows the red mullet and greedily devours the food it has scorned and passed by»; FR «le sargue suit le rouget et dévore les mets dédaignés par lui». Также mullus — краснобородка/rouget, не кефаль/mulet",
+      "confidence": "medium"
+    }
+  ]
+}

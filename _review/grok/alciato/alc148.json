@@ -1,0 +1,23 @@
+{
+  "id": "alc148",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc148-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "omission",
+      "original": "Gestatur patribus mullea Romulidis:",
+      "current": "которую носят отцы-патриции / worn by the patrician fathers / que portent … les patriciens",
+      "suggested": "пропущено mullea (красный башмак-mulleus патрициев): RU «красный башмак (муллей), под которым по аркадскому обычаю был полумесяц, носят отцы-римляне»; EN «the red mulleus shoe…»; FR «le soulier rouge (mulleus)…»",
+      "confidence": "low"
+    }
+  ]
+}

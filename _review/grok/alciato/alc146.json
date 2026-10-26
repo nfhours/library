@@ -1,0 +1,34 @@
+{
+  "id": "alc146",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "alc146-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Dumq́ sinultates",
+      "current": "[LA] sinultates",
+      "suggested": "[LA] «simultates» (так на скане)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc146-2",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "omission",
+      "original": "Concors ordo omnis",
+      "current": "единодушное сословие",
+      "suggested": "omnis пропущено: «все сословия единодушно» (EN/FR передают)",
+      "confidence": "low"
+    }
+  ]
+}

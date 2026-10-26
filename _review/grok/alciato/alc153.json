@@ -1,0 +1,21 @@
+{
+  "id": "alc153",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "fr",
+      "issue_id": "alc153-1",
+      "fields": [
+        "fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "In descifcentes",
+      "current": "[LA] descifcentes",
+      "suggested": "[LA] «desciscentes» (ſ прочитано как f; так на скане «deſciſcentes»)",
+      "confidence": "high"
+    }
+  ]
+}
