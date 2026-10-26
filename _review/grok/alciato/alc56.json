@@ -1,0 +1,22 @@
+{
+  "id": "alc56",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc56-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& causa stet potiore dolus.",
+      "current": "обман одержал верх с более сильным делом / deceit prevail with the stronger case",
+      "suggested": "«и чтобы обман одержал верх над правым (более сильным) делом»; EN «and guile prevail over the better cause» (FR верно)",
+      "confidence": "low"
+    }
+  ]
+}

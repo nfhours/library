@@ -1,0 +1,22 @@
+{
+  "id": "alc66",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc66-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Et sæui implicitum pelle leonis agit.",
+      "current": "загоняет их, запутавшихся, в шкуру / drives them, tangled, into the lion's skin",
+      "suggested": "agit — уносит: «и уносит их, завернув в шкуру свирепого льва»; EN «and carries them off wrapped in the fierce lion's skin» (FR «les emporte» верно)",
+      "confidence": "low"
+    }
+  ]
+}

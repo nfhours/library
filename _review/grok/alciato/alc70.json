@@ -1,0 +1,23 @@
+{
+  "id": "alc70",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc70-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "mala nomina primùm / Signat: quæ latitant iudiciumq; timent.",
+      "current": "тех, кто имеет дурную славу / those with evil reputations / ceux qui ont mauvaise renommée",
+      "suggested": "mala nomina — юридический термин: «плохие долги», несостоятельные должники (прячутся и боятся суда). RU «во-первых, означает несостоятельных должников, что скрываются и боятся суда»; EN «first it signifies bad debtors, who lie low and fear the court»; FR «d'abord les mauvais débiteurs, qui se cachent et craignent le tribunal»",
+      "confidence": "medium"
+    }
+  ]
+}

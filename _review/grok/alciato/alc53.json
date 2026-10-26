@@ -1,0 +1,23 @@
+{
+  "id": "alc53",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc53-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Rostra nouo mihi setigeri suis obtulit anno,",
+      "current": "Рыло молодой щетинистой свиньи / The snout of a young bristly pig / Le groin d'un jeune porc",
+      "suggested": "novo относится к anno («в Новый год»), «молодой / young / jeune» лишнее: «Рыло щетинистой свиньи преподнёс мне клиент в Новый год»",
+      "confidence": "low"
+    }
+  ]
+}

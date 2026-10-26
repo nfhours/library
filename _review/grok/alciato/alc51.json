@@ -1,0 +1,36 @@
+{
+  "id": "alc51",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "alc51-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Quæ miseris proptâ Spes bona præstat opem.",
+      "current": "[LA] proptâ",
+      "suggested": "[LA] «promptam» (на скане сокращение «prōptā»; при распознавании тильды переданы неверно, получилось «proptâ»)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc51-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Quòd viuos sperare decet, præcido sepultis. / Cur in dolioli tegmine pigra sedes?",
+      "current": "«То, на что… погребённых. Почему ты сидишь праздно…?» (вопрос внутри ответа Надежды)",
+      "suggested": "строка 8 — снова реплика спрашивающего: закрыть кавычки после «погребённых» и открыть новые перед «Почему ты сидишь…». То же в EN и FR. Заодно смысл строки 7: «Потому что живым подобает надеяться, а мёртвым я (надежду) отсекаю»",
+      "confidence": "low"
+    }
+  ]
+}
