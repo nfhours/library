@@ -1,0 +1,21 @@
+{
+  "id": "alc19",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc19-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Cecropia effictam quam cernis in arce Leænam,",
+      "current": "на Кекропийском кремле",
+      "suggested": "arx Cecropia — афинский Акрополь: «на Кекроповой твердыне (акрополе)»; «кремль» — русизм (EN «citadel», FR «citadelle» верно)",
+      "confidence": "low"
+    }
+  ]
+}

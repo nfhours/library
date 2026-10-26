@@ -1,0 +1,21 @@
+{
+  "id": "alc29",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "alc29-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Hac caput, ille femur soluit",
+      "current": "[LA] Hac caput",
+      "suggested": "[LA] «Hæc caput, ille femur soluit» (она — голову, он — бедро; пара hæc/ille); «Hac» здесь — сбой распознавания (в строке 1 «Hac» = «здесь» верно)",
+      "confidence": "low"
+    }
+  ]
+}

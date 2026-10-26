@@ -1,0 +1,55 @@
+{
+  "id": "alc23",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "alc23-1",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en",
+        "caption_fr"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "Πῆ παρέβην; τί δ’ ἔρεξα; τί μοι δέον οὐκ ἐτελέσθη; Quid excessi? quid admisi? quid omisi? (на странице скана)",
+      "current": "заголовки передают только латинскую часть; греческий стих (пифагорейские «Золотые стихи», 42) опущен",
+      "suggested": "вынести подпись в отдельные поля (сейчас: над латинским девизом набран греческий стих; в text_fr и переводах отсутствует; в entries.json поля caption нет). caption_orig: «Πῆ παρέβην; τί δ’ ἔρεξα; τί μοι δέον οὐκ ἐτελέσθη; Quid excessi? quid admisi? quid omisi?» (сверено по скану pages/alc23.jpg); caption_ru: «В чём я преступил? что совершил? что из должного не исполнил? В чём я преступил? Что совершил? Что упустил?»; caption_en: «Where have I transgressed? What have I done? What duty have I left undone? Where have I overstepped? What have I committed? What have I omitted?»; caption_fr: «En quoi ai-je transgressé ? Qu’ai-je fait ? Quel devoir n’ai-je pas accompli ? En quoi ai-je failli ? Qu’ai-je commis ? Qu’ai-je omis ?».",
+      "confidence": "high",
+      "caption_source": "engraving"
+    },
+    {
+      "field": "ru",
+      "issue_id": "alc23-2",
+      "fields": [
+        "ru",
+        "en",
+        "name_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "quid admisi?",
+      "current": "Что делаю? / What am I doing? / Que fais-je ?",
+      "suggested": "admisi — перфект: «что я совершил (допустил)?»: ru «Что совершил?», en «What have I committed?», fr «Qu’ai-je commis ?»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc23-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Quò pretergressus? quid agis? quod omittis agendum?",
+      "current": "«В чём я преступил? Что делаю? Какой долг оставляю…» (1-е лицо во всех трёх)",
+      "suggested": "в латыни 2-е лицо (самовопрошание к себе на «ты»): RU «Где ты преступил? что делаешь? что должное упускаешь?»; EN «Where did you overstep? What are you doing? What that ought to be done do you omit?»; FR «Où as-tu passé la mesure ? que fais-tu ? qu’omets-tu de ce qu’il faut faire ?». Не уверен: 1-е лицо могло быть сознательно взято из девиза",
+      "confidence": "low"
+    }
+  ]
+}

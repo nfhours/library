@@ -1,0 +1,23 @@
+{
+  "id": "alc18",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc18-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Consilia, autori cognita techna nocet.",
+      "current": "замысел, известный врагу, вредит / a scheme known to its enemy does harm / un dessein connu de l'ennemi lui nuit",
+      "suggested": "autori = «своему автору»: раскрытая хитрость вредит тому, кто её задумал; «враг» добавлен. RU «раскрытая хитрость вредит её автору»; EN «a stratagem once known harms its author»; FR «une ruse connue nuit à son auteur»",
+      "confidence": "medium"
+    }
+  ]
+}

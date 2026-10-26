@@ -1,0 +1,37 @@
+{
+  "id": "alc12",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc12-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "quæ gentes illice forma, / Et ficta stolidas relligione capit.",
+      "current": "уловляет глупцов / ensnares the foolish / prend au piège les sots",
+      "suggested": "пропущено gentes: stolidas gentes — «глупые народы». RU «…уловляет глупые народы»; EN «ensnares foolish nations»; FR «prend au piège les nations sottes»",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc12-2",
+      "fields": [
+        "text_ru",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "At circum cubitans ebria turba iacet.",
+      "current": "пьяная, опрокинутая толпа / la foule renversée",
+      "suggested": "cubitans = возлежащая (как на пиру), не «опрокинутая»: «а вокруг, возлегая, лежит пьяная толпа»; FR «la foule ivre gît, couchée» (EN «sprawled» допустимо)",
+      "confidence": "low"
+    }
+  ]
+}

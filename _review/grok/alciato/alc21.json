@@ -1,0 +1,36 @@
+{
+  "id": "alc21",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "alc21-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Ad superos reuocet, quod vigilem,",
+      "current": "[LA] Ad superos reuocet, quod vigilem,",
+      "suggested": "[LA] строка испорчена (не держит размер пентаметра, нет слова): стандартное чтение — «Ad superos pigram quod reuocet vigilem.» — сверить по скану; не уверен в точном виде строки в издании 1551",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc21-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "ærea mentem / Ad superos reuocet, quod vigilem,",
+      "current": "чтобы оно напоминало бодрствующему уму о небесах / recall the watchful mind toward heaven / rappelle à l'esprit vigilant les choses d'en haut",
+      "suggested": "смысл (при чтении pigram … vigilem): петух обращает к небесам ленивый ум, делая его бодрым. RU «чтобы, пробудив, обращать ленивый ум к небесам»; EN «to recall the sluggish mind, made wakeful, to the gods above»; FR «pour ramener vers les dieux l'esprit paresseux, rendu vigilant»",
+      "confidence": "medium"
+    }
+  ]
+}

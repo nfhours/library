@@ -1,0 +1,22 @@
+{
+  "id": "alc13",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc13-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "omission",
+      "original": "Pando verenda dorso habens mysteria.",
+      "current": "неся на спине её сокровенные таинства / bearing on its back",
+      "suggested": "пропущено pando — «на согнутой (прогнувшейся) спине»; RU «неся на прогнувшейся спине чтимые таинства»; EN «on its sagging back» (FR «dos courbé» верно). Мелочь — minor",
+      "confidence": "low"
+    }
+  ]
+}

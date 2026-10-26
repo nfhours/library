@@ -1,0 +1,37 @@
+{
+  "id": "alc15",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc15-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "reuerentia honoris / Quam fouet, alit Amor, parturitque Veritas.",
+      "current": "благоговение чести, которое питает Любовь и рождает… Истина / the reverence of honour which Love fosters… / la révérence de l'honneur que l'Amour nourrit…",
+      "suggested": "quam относится к fidem; три подлежащих: reverentia honoris fovet, Amor alit, Veritas parturit. RU «…Верность, которую лелеет почтение к Чести, питает Любовь и рождает Истина»; EN «…Faith, which reverence for Honour fosters, Love nourishes, and Truth brings forth»; FR «…la Foi, que la révérence de l'Honneur entretient, que l'Amour nourrit et que la Vérité enfante»",
+      "confidence": "medium"
+    },
+    {
+      "field": "ru",
+      "issue_id": "alc15-2",
+      "fields": [
+        "ru",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Constituunt hæc signa fidem",
+      "current": "Символ Веры / «составляют Веру»",
+      "suggested": "Fides здесь — верность, честное слово (раздел Virtutes. Fides: союзы, тайна, молчание под пыткой), а «Символ Веры» читается как Credo: «Символ верности», «составляют Верность». Не уверен, что редактор хочет менять устоявшийся заголовок раздела",
+      "confidence": "low"
+    }
+  ]
+}

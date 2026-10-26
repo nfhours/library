@@ -1,0 +1,25 @@
+{
+  "id": "alc22",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "alc22-1",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en",
+        "caption_fr"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "Νῆφε καὶ μέμνησ’ ἀπιστεῖν· ἄρθρα ταῦτα τῶν φρενῶν. Sobriè viuendum: & non temerè credendum. (на странице скана)",
+      "current": "заголовки передают только латинскую часть девиза; греческий стих Эпихарма опущен",
+      "suggested": "вынести подпись в отдельные поля (сейчас: над латинским девизом набран греческий стих; в text_fr и переводах отсутствует; в entries.json поля caption нет). caption_orig: «Νῆφε καὶ μέμνησ’ ἀπιστεῖν· ἄρθρα ταῦτα τῶν φρενῶν. Sobriè viuendum: & non temerè credendum.» (сверено по скану pages/alc22.jpg); caption_ru: «Будь трезв и помни, что не всему надо верить: вот суставы разума. Жить трезво и не верить поспешно»; caption_en: «Be sober and remember to distrust: these are the joints of the mind. One must live soberly, and not believe rashly»; caption_fr: «Sois sobre et souviens-toi de te méfier : ce sont là les articulations de l’esprit. Il faut vivre sobrement, et ne pas croire à la légère». Греческий стих — источник строк 1–2 эпиграммы (Epicharmus ait … hi nervi … membra mentis).",
+      "confidence": "high",
+      "caption_source": "engraving"
+    }
+  ]
+}

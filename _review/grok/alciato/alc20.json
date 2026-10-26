@@ -1,0 +1,25 @@
+{
+  "id": "alc20",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "alc20-1",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en",
+        "caption_fr"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "Consilio, & virtute Chimæram superari, id est, fortiores & deceptores. (на странице скана)",
+      "current": "заголовки fr «Consilio, & virtute Chimæram superari» / ru / en / name_fr — без второй половины девиза «id est, fortiores & deceptores»",
+      "suggested": "вынести подпись в отдельные поля (сейчас: девиз набран над гравюрой полностью, в заголовке обрезан; в text_fr и переводах отсутствует; в entries.json поля caption нет). caption_orig: «Consilio, & virtute Chimæram superari, id est, fortiores & deceptores.» (сверено по скану pages/alc20.jpg); caption_ru: «Советом и доблестью побеждают Химеру, то есть более сильных и обманщиков»; caption_en: «The Chimera is overcome by counsel and courage, that is, the stronger and the deceivers»; caption_fr: «Par le conseil et la vertu on surmonte la Chimère, c’est-à-dire les plus forts et les trompeurs». Это девиз, набранный над гравюрой (не надпись внутри неё); caption_source engraving = прочитан со скана страницы.",
+      "confidence": "high",
+      "caption_source": "engraving"
+    }
+  ]
+}

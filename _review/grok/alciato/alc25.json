@@ -1,0 +1,22 @@
+{
+  "id": "alc25",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "alc25-1",
+      "fields": [
+        "ru",
+        "name_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Prudens, magis quàm loquax",
+      "current": "Благоразумный, более чем болтливый / Prudent, plus que bavard",
+      "suggested": "magis quam = «скорее…, чем»; «более чем болтливый» читается как «болтливее болтливого»: ru «Скорее благоразумный, чем болтливый»; fr «Prudent plutôt que bavard» (en «Prudent, rather than talkative» верно)",
+      "confidence": "low"
+    }
+  ]
+}

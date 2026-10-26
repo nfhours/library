@@ -1,0 +1,64 @@
+{
+  "id": "alc16",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "alc16-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Hac cithara, à lembi quæ forma halieutica fertur,",
+      "current": "[LA] Hac cithara",
+      "suggested": "[LA] «Hanc citharam» (дополнение к Accipe; на скане тильды-сокращения «Hãc citharã» потеряны при распознавании)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "alc16-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "perit omnis gratia cochæ",
+      "current": "[LA] cochæ",
+      "suggested": "[LA] «conchæ» (сокращение с тильдой «cõchæ»; переводы «раковины / shell / conque» уже верны)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc16-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Hac cithara, à lembi quæ forma halieutica fertur,",
+      "current": "по форме, говорят, подобная рыбацкому челну / said to have the shape of a fishing-skiff / qu'on dit avoir la forme d'une barque",
+      "suggested": "fertur здесь «зовётся»: кифара, которую по форме лодки называют halieutica (рыбацкой). RU «эта кифара, что по форме челна зовётся «рыбацкой» (halieutica)»; EN «which from the shape of a boat is called halieutica»; FR «qu'on appelle halieutica d'après la forme d'une barque». Не уверен, что название нужно сохранять в переводе",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc16-4",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "concors / Nil est quod timeas, si tibi constet amor.",
+      "current": "согласию нечего бояться, пока в вас пребывает любовь / as long as love remains constant among you / tant que l'amour demeure constant entre vous",
+      "suggested": "concors согласуется с amor, tibi — «тебе» (герцогу): RU «нечего тебе бояться, если согласная любовь пребудет тебе неизменной»; EN «there is nothing for you to fear, if harmonious love stays constant for you»; FR «tu n'as rien à craindre, si un amour concordant te demeure constant»",
+      "confidence": "low"
+    }
+  ]
+}

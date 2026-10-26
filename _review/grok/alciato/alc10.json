@@ -1,0 +1,81 @@
+{
+  "id": "alc10",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "alc10-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "puerum Ioues alite pictor",
+      "current": "[LA] Ioues alite",
+      "suggested": "[LA] «Iouis alite» (род. п.: «птицей Юпитера»); «Ioues» — сбой распознавания",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "alc10-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "tactum pueruli credat amore",
+      "current": "[LA] pueruli",
+      "suggested": "[LA] «puerili … amore» (детской любовью); «pueruli» — сбой распознавания",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc10-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Dic, hæc Mæonius finxerit vnde senex?",
+      "current": "слепой меонийский старец / old Maeonian blind man / vieillard aveugle de Méonie",
+      "suggested": "«слепой» в латыни нет (Mæonius senex = Гомер, но слепота не названа): «меонийский старец» / «the old Maeonian» / «le vieillard de Méonie»",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc10-4",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Consilium, mens atque Dei cui gaudia præstant: / Creditur is summo raptus adesse Ioui.",
+      "current": "Разум и ум, в которых бог находит отраду, — тот, кто ими владеет… / Counsel, and the mind, in which a god takes his delight… / Le conseil et l'esprit, en qui un dieu trouve sa joie…",
+      "suggested": "cui = тот, у кого; подлежащие consilium, mens и gaudia Dei (радость о Боге), præstant = превосходны. RU: «Тот, в ком превосходны совет, ум и радость о Боге, — тот, верят, восхищен к высшему Юпитеру»; EN «He in whom counsel, mind and joy in God excel is believed to be snatched up to highest Jove»; FR «Celui en qui excellent le conseil, l'esprit et la joie en Dieu est cru ravi auprès du très-haut Jupiter»",
+      "confidence": "medium"
+    },
+    {
+      "field": "caption",
+      "issue_id": "alc10-5",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en",
+        "caption_fr"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "ΓΑΝΝΥΣΘΑΙ ΜΗΔΕΣΙ / GANYMEDES (на странице скана)",
+      "current": "девиз-заголовок fr «In Deo lætandum» / ru «Должно радоваться в Боге» с подписью не совпадает; надписей гравюры нет ни в тексте, ни в переводах",
+      "suggested": "вынести подпись в отдельные поля (сейчас: надписи вырезаны на самой гравюре (греческая — вверху, GANYMEDES — посередине); в text_fr и переводах отсутствует; в entries.json поля caption нет). caption_orig: «ΓΑΝΝΥΣΘΑΙ ΜΗΔΕΣΙ (γάνυσθαι μήδεσι). GANYMEDES» (сверено по скану pages/alc10.jpg); caption_ru: «Радоваться замыслами. Ганимед»; caption_en: «To rejoice in counsels. Ganymede»; caption_fr: «Se réjouir en ses desseins. Ganymède». Греческая надпись — этимология имени Ганимеда (γάνυσθαι + μήδεσι), на ней держится смысл эпиграммы.",
+      "confidence": "high",
+      "caption_source": "engraving"
+    }
+  ]
+}
