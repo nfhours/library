@@ -1,0 +1,23 @@
+{
+  "id": "v1-63-6",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-63-6-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Menos luz, ma vida.",
+      "current": "Menos luz, ma vida.",
+      "suggested": "[ES] «Menos luz, mas vida» (ср. «je vivrois plus long-temps»); ma — итальянизм/потеря s. Скопировано и в text_ru. Скана текста нет — по смыслу",
+      "confidence": "medium"
+    }
+  ]
+}

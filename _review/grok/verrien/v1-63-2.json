@@ -1,0 +1,23 @@
+{
+  "id": "v1-63-2",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-63-2-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Mordendo sanati.",
+      "current": "Mordendo sanati.",
+      "suggested": "[LA] «Mordendo sanat» (кусая, исцеляет; ср. «Sa morsure guerit»); «sanati» не согласуется. Скопировано и в text_ru. Скана текста нет; не уверен в точной форме",
+      "confidence": "medium"
+    }
+  ]
+}

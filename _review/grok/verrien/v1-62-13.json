@@ -1,0 +1,22 @@
+{
+  "id": "v1-62-13",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v1-62-13-1",
+      "fields": [
+        "ru",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Un Amour qui bat le fusil.",
+      "current": "Амур, высекающий огонь кремнём.",
+      "suggested": "battre le fusil — бить огнивом (стальным кресалом) о кремень; fusil — огниво, не кремень (ср. v1-27-13, v1-49-5, v1-52-14): «Амур, высекающий огонь огнивом»",
+      "confidence": "medium"
+    }
+  ]
+}
