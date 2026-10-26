@@ -1,0 +1,21 @@
+{
+  "id": "p2-114",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-114-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 2,
+      "type": "addition",
+      "original": "se lisent ces mots tirez de Salomon, MANSVETI HÆREDITABVNT TERRAM",
+      "current": "Каждый медальон сопровождён латинской цитатой из Евангелия от Матфея (Нагорная проповедь) либо иным изречением",
+      "suggested": "в тексте надписи упомянуты только при II (Соломон) и III (св. Августин); о цитатах из Матфея на каждом медальоне текст не говорит — убрать или смягчить",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "p2-108",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-108-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "a les deux mains cachées sous sa robe",
+      "current": "Скрытые руки — тайная подаяние",
+      "suggested": "«тайное подаяние» (согласование рода)",
+      "confidence": "high"
+    }
+  ]
+}

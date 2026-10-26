@@ -1,0 +1,21 @@
+{
+  "id": "p2-111",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-111-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "le plus glorieux & le plus invincible est celuy de la Renommée",
+      "current": "Любовь к Молве (Славе)",
+      "suggested": "заголовок ru «Любовь к известности»; в тексте «Любовь к Молве (Славе)» — унифицировать термин (напр. «Любовь к Славе» и в заголовке, или «к известности» в тексте)",
+      "confidence": "low"
+    }
+  ]
+}

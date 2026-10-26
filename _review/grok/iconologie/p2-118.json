@@ -1,0 +1,21 @@
+{
+  "id": "p2-118",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-118-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "le lion est le plus redoutable de tous les animaux",
+      "current": "Как лев — грозное из всех животных",
+      "suggested": "«Как лев — самое грозное из всех животных» (пропущена превосходная степень)",
+      "confidence": "medium"
+    }
+  ]
+}

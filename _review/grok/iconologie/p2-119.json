@@ -1,0 +1,35 @@
+{
+  "id": "p2-119",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-119-1",
+      "fields": [
+        "text_ru",
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "tient vne cicogne de la main gauche",
+      "current": "держит в левой руке цаплю / цапля/аист",
+      "suggested": "«cicogne» — аист (так и далее в том же абзаце: «как делают аисты»): «держит в левой руке аиста»; в attrs — «аист»",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "p2-119-2",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "CET homme ne denote pas mal le Commerce de la vie",
+      "current": "Этот муж неплохо означает Оборот жизни … взаимного оборота людей",
+      "suggested": "заголовок ru «Общение в человеческой жизни»; в тексте «Оборот жизни» — унифицировать: «Общение в жизни … взаимного общения людей»",
+      "confidence": "low"
+    }
+  ]
+}

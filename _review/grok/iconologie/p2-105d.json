@@ -1,0 +1,34 @@
+{
+  "id": "p2-105d",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-105d-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "vne espece de rhetorique muette",
+      "current": "своего рода немым красноречием",
+      "suggested": "«своего рода немой риторикой» — так в дубле этого текста (p2-101, абз. 17) и в EN «mute rhetoric»; унифицировать",
+      "confidence": "low"
+    },
+    {
+      "field": "attrs",
+      "issue_id": "p2-105d-2",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 2,
+      "type": "addition",
+      "original": "quelques-vns dépeignent vn enfant tout nud",
+      "current": "Геркулес и Меркурий, сопровождающие крылатого младенца с венцом из ириса на голове и молнией в руке",
+      "suggested": "по тексту дитя с венцом из ириса и молнией — отдельный, альтернативный образ («некоторые изображают…»), а не спутник Геркулеса и Меркурия; развести: «Геркулес и Меркурий при Купидоне; вариант — нагое дитя с венцом из ириса и молнией»",
+      "confidence": "low"
+    }
+  ]
+}
