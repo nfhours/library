@@ -1,0 +1,22 @@
+{
+  "id": "p2-204",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-204-1",
+      "fields": [
+        "text_ru",
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "qui se tient à genoux devant vn taureau d'airain",
+      "current": "перед бронзовым тельцом / Бронзовый телец",
+      "suggested": "«taureau» — бык (EN «bull»), не телец; «телец» отсылает к золотому тельцу, чего в тексте нет: «перед медным (бронзовым) быком»",
+      "confidence": "low"
+    }
+  ]
+}

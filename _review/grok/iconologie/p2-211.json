@@ -1,0 +1,21 @@
+{
+  "id": "p2-211",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-211-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "porte l'vne de ses mains sur le flanc",
+      "current": "Рука, упертая в бок — вызывающая, воинственная поза",
+      "suggested": "поза руки в тексте отдельно не истолкована (вывод о злобе — из позы в целом); толкование добавлено",
+      "confidence": "low"
+    }
+  ]
+}

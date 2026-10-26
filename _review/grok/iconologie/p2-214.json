@@ -1,0 +1,34 @@
+{
+  "id": "p2-214",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-214-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Voicy l'emblême de la Luxure",
+      "current": "Вот эмблема Распутства",
+      "suggested": "заголовок ru «Сладострастие, блуд»; в тексте «Распутства» — унифицировать",
+      "confidence": "low"
+    },
+    {
+      "field": "attrs",
+      "issue_id": "p2-214-2",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "ayant à costé vn bouc & vn sep de vigne",
+      "current": "Козёл рядом — похотливость",
+      "suggested": "козёл в тексте не истолкован (толкуются поза, скорпион и лоза); толкование добавлено",
+      "confidence": "low"
+    }
+  ]
+}

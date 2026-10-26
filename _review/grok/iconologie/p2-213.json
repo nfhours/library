@@ -1,0 +1,21 @@
+{
+  "id": "p2-213",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-213-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "aussi n'est-ce pas sans raison qu'on la definit",
+      "current": "Гнев изображён… недаром её определяют",
+      "suggested": "несогласование: «Гнев» (м. р.) — «недаром его определяют как…»",
+      "confidence": "low"
+    }
+  ]
+}

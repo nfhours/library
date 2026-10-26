@@ -1,0 +1,21 @@
+{
+  "id": "p2-208",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "p2-208-1",
+      "fields": [
+        "ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "vn esprit grossier, & qui ne peut rien apprendre",
+      "current": "Непослушание",
+      "suggested": "«Indocilité» — неспособность к учению, непонятливость (весь текст о неспособности учиться), не «непослушание»: «Непонятливость» / «Неспособность к учению»; ср. p2-123 Docilité",
+      "confidence": "medium"
+    }
+  ]
+}
