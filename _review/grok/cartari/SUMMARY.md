@@ -1160,3 +1160,12 @@ caption_source: engraving (caption_orig прочитан с гравюры в bo
 - `carta41-2` — RU/FR/EN — mistranslation, medium: «Nel Cameo si vede Venere Calliga come stà nelle Medaglie.» → Венера Каллига — пояснение «(Обутая)» добавлено и сомнительно (вероятно, искажённое «Callipyga»), не уверен; убрать глоссу; то же EN «(Booted)»
 - `carti6-4` — FR — name, low: «che i Cumani, che furono scoperti già vicini al Perù non lontani dal Mare» → [FR] les Cumani (Cumanais), découverts déjà près du Pérou (в оригинале «Cumani»; «Cumanagotos» — модернизирующая догадка; не уверен)
 
+## Fix
+
+Готовые исправления (`fix`) добавлены только к замечаниям из раздела Major с confidence high (по каждому объекту-замечанию). Нумерация абзацев: `text_ru` / `text_en` / `text_fr` в `books/<book>/entries.json` — список строк; `paragraph` — номер элемента списка, с 1 (переводы строк `\n\n` внутри элемента абзац не делят). `paragraph: null` — fix к строковому полю (заголовок, `legend_*`, `findspot_*`), `before` = значение поля целиком. `fix` — объект, если правка одна, или массив объектов (несколько полей или абзацев). `before` скопирован из entries.json побайтно; в `after` изменено только ошибочное место. Проверка: `python3 _review/grok/fix_check.py` (`-v` печатает каждую правку с контекстом). entries.json не изменялся.
+
+- issue_id с fix: 40; объектов-замечаний с fix: 90; всего fix (поле + абзац): 92 (`cartm21-3` — по два абзаца в RU и EN).
+- Без fix — проблемы разбивки текста (20): `cartm_intro1-3`, `cartm_isismoonjove-1`, `cartm_isismoonjove-2`, `cartm_pan1-1`, `cartm_pan1-3`, `cartm53-2`, `cartm58-2`, `cartm59-2`, `cartm59-3`, `cartm63-2`, `cartm70-2`, `cartm70-5`, `cartm76-2`, `cartm78-2`, `cartm78-3`, `cartm80-2`, `cartm_night-2`, `cartm_hercgall-2`, `cartm81-2`, `cartm_pignorialisimaco-1`.
+- Без fix — confidence medium (2): `cartm44-2`, `cartm44-3`.
+- Без fix — отдельные поля с confidence ниже high (7): `cartm_intro2-7` FR (medium), `cartm37-3` FR (medium), `cartm37-4` FR (low), `cartm81-5` FR (medium), `cartm_marte-4` FR (medium), `cartm_lare-2` EN и FR (low).
+- `cartm_gratieintro-1`: ошибочное место включает повтор «или / or they / ou» между переносами `\n\n`, он убран вместе с правкой смысла.

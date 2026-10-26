@@ -18,7 +18,33 @@
       "original": "Elle a de hauteur 7 têtes 2 parties.",
       "current": "заголовки fr/name_fr «Terme égyptien (vue 2)», ru «Египетский герм (вид 2)», en «Egyptian herm (view 2)»",
       "suggested": "на доске aud11 не египетский герм, а Антиной (кудрявый юноша с плащом, три вида; ср. aud12 «Le mesme Antinous»), и вертикальная подпись слева: «La Statue d'Antinous surnommée l'admi[rable …] a Rome au Jardin du Vatican». «Elle» в тексте = «La Statue». Заголовки: fr/name_fr «Antinoüs», ru «Антиной», en «Antinous»",
-      "confidence": "high"
+      "confidence": "high",
+      "fix": [
+        {
+          "field": "fr",
+          "paragraph": null,
+          "before": "Terme égyptien (vue 2)",
+          "after": "Antinoüs"
+        },
+        {
+          "field": "name_fr",
+          "paragraph": null,
+          "before": "Terme égyptien (vue 2)",
+          "after": "Antinoüs"
+        },
+        {
+          "field": "ru",
+          "paragraph": null,
+          "before": "Египетский герм (вид 2)",
+          "after": "Антиной"
+        },
+        {
+          "field": "en",
+          "paragraph": null,
+          "before": "Egyptian herm (view 2)",
+          "after": "Antinous"
+        }
+      ]
     },
     {
       "field": "caption",

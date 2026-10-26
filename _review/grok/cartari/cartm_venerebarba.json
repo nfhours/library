@@ -17,7 +17,13 @@
       "original": "& nelli Dei non esser differenza di esso, come nè mortali",
       "current": "и что у богов нет различия пола, как и у смертных",
       "suggested": "и что у богов нет различия пола, какое есть у смертных (смысл инвертирован; ср. в тексте ниже «che è trà mortali»)",
-      "confidence": "high"
+      "confidence": "high",
+      "fix": {
+        "field": "text_ru",
+        "paragraph": 1,
+        "before": "Изображение Венеры мужеженщины, означающее, что стоит она над всеобщим порождением вещей, будучи взятою из воздуха; и что у богов нет различия пола, как и у смертных; и изображение Венеры, скорбящей о смерти Адониса, убитого Вепрем, понимаемое как зимнее и холодное время года.",
+        "after": "Изображение Венеры мужеженщины, означающее, что стоит она над всеобщим порождением вещей, будучи взятою из воздуха; и что у богов нет различия пола, какое есть у смертных; и изображение Венеры, скорбящей о смерти Адониса, убитого Вепрем, понимаемое как зимнее и холодное время года."
+      }
     },
     {
       "field": "text_en",
@@ -32,7 +38,13 @@
       "original": "& nelli Dei non esser differenza di esso, come nè mortali",
       "current": "there is no difference of sex, any more than among mortals",
       "suggested": "there is no difference of sex, as there is among mortals",
-      "confidence": "high"
+      "confidence": "high",
+      "fix": {
+        "field": "text_en",
+        "paragraph": 1,
+        "before": "Image of Venus male and female, signifying that she is above the universal generation of things, being drawn from the air; and that among the Gods there is no difference of sex, any more than among mortals; and image of Venus grieving for the death of Adonis, killed by the Boar, understood as the wintry and cold season.",
+        "after": "Image of Venus male and female, signifying that she is above the universal generation of things, being drawn from the air; and that among the Gods there is no difference of sex, as there is among mortals; and image of Venus grieving for the death of Adonis, killed by the Boar, understood as the wintry and cold season."
+      }
     },
     {
       "field": "text_ru",
@@ -62,7 +74,13 @@
       "original": "& nelli Dei non esser differenza di esso, come nè mortali",
       "current": "chez les Dieux il n'y a pas de différence de sexe, non plus que chez les mortels",
       "suggested": "chez les Dieux il n'y a pas de différence de sexe, comme il y en a chez les mortels (смысл инвертирован; та же ошибка в RU/EN)",
-      "confidence": "high"
+      "confidence": "high",
+      "fix": {
+        "field": "text_fr",
+        "paragraph": 1,
+        "before": "Image de Vénus mâle et femelle, signifiant qu'elle est au-dessus de la génération universelle des choses, étant tirée de l'air ; et que chez les Dieux il n'y a pas de différence de sexe, non plus que chez les mortels ; et image de Vénus affligée par la mort d'Adonis tué par le Sanglier, entendue pour la saison hivernale et froide.",
+        "after": "Image de Vénus mâle et femelle, signifiant qu'elle est au-dessus de la génération universelle des choses, étant tirée de l'air ; et que chez les Dieux il n'y a pas de différence de sexe, comme il y en a chez les mortels ; et image de Vénus affligée par la mort d'Adonis tué par le Sanglier, entendue pour la saison hivernale et froide."
+      }
     },
     {
       "field": "text_fr",

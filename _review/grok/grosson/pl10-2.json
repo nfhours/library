@@ -24,7 +24,69 @@
       "original": "Le Bas-relief trouvé dans ces quartiers, aujourd'hui placé sur la porte de la Paroisse des Pennes, l'atteste d'une façon non équivoque. Ce marbre étoit un vœu, dont Navius Januarius s'acquittoit envers la Déesse;",
       "current": "заголовок «Autel de Cybèle (ex-voto de Navius Januarius)» / «Алтарь Кибелы (обет Навия Януария)» / «Altar of Cybele (votive offering of Navius Januarius)»; legend_* = надпись Навия Януария; findspot_* = «quartier des Pennes» / «квартал Пеннес» / «Les Pennes district»",
       "suggested": "структурные поля смешивают два памятника. По тексту № 2 — алтарь со сфинксом и львом, долго служивший купелью в церкви Сен-Лоран (место находки не названо; «il n'en reste plus aujourd'hui de vestiges»); надпись MATRIS DEVM… NAVIVS IANVARIVS стоит на другом мраморе — барельефе из Ле-Пенн над дверью приходской церкви, который Гроссон приводит лишь как довод. На гравюре (pl10, № 2) на алтаре надписи нет. Предлагается (атрибуция Кибеле — по самому Гроссону: «Cet Autel paroît avoir été destiné au culte de Cybèle», т.е. предположительно): заголовок «Autel de Cybèle (sphinx et lion)» / «Алтарь Кибелы (сфинкс и лев)» / «Altar of Cybele (sphinx and lion)»; legend_* — пусто (надпись перенести в примечание как текст сопоставляемого барельефа); findspot_* — «église paroissiale de St. Laurent (servait de fonts baptismaux)» / «приходская церковь Сен-Лоран (служил купелью)» / «parish church of St. Laurent (used as a baptismal font)»",
-      "confidence": "high"
+      "confidence": "high",
+      "fix": [
+        {
+          "field": "fr",
+          "paragraph": null,
+          "before": "Autel de Cybèle (ex-voto de Navius Januarius)",
+          "after": "Autel de Cybèle (sphinx et lion)"
+        },
+        {
+          "field": "name_fr",
+          "paragraph": null,
+          "before": "Autel de Cybèle (ex-voto de Navius Januarius)",
+          "after": "Autel de Cybèle (sphinx et lion)"
+        },
+        {
+          "field": "ru",
+          "paragraph": null,
+          "before": "Алтарь Кибелы (обет Навия Януария)",
+          "after": "Алтарь Кибелы (сфинкс и лев)"
+        },
+        {
+          "field": "en",
+          "paragraph": null,
+          "before": "Altar of Cybele (votive offering of Navius Januarius)",
+          "after": "Altar of Cybele (sphinx and lion)"
+        },
+        {
+          "field": "legend_fr",
+          "paragraph": null,
+          "before": "MATRIS DEVM MAGNAE IDEAE PALATINAE EIVSQ. M. RELIGIONIS AD PARNOR NAVIVS IANVARIVS.",
+          "after": ""
+        },
+        {
+          "field": "legend_ru",
+          "paragraph": null,
+          "before": "MATRIS DEVM MAGNAE IDEAE PALATINAE EIVSQ. M. RELIGIONIS AD PARNOR NAVIVS IANVARIVS.",
+          "after": ""
+        },
+        {
+          "field": "legend_en",
+          "paragraph": null,
+          "before": "MATRIS DEVM MAGNAE IDEAE PALATINAE EIVSQ. M. RELIGIONIS AD PARNOR NAVIVS IANVARIVS.",
+          "after": ""
+        },
+        {
+          "field": "findspot_fr",
+          "paragraph": null,
+          "before": "quartier des Pennes (ancien territoire marseillais)",
+          "after": "église paroissiale de St. Laurent (servait de fonts baptismaux)"
+        },
+        {
+          "field": "findspot_ru",
+          "paragraph": null,
+          "before": "квартал Пеннес (древняя территория Марселя)",
+          "after": "приходская церковь Сен-Лоран (служил купелью)"
+        },
+        {
+          "field": "findspot_en",
+          "paragraph": null,
+          "before": "Les Pennes district (ancient Marseille territory)",
+          "after": "parish church of St. Laurent (used as a baptismal font)"
+        }
+      ]
     },
     {
       "field": "text_ru",
