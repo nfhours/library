@@ -1,0 +1,21 @@
+{
+  "id": "v1-12-2",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-12-2-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "Il se renouvelle.",
+      "current": "Она обновляется, сбросив старую кожу.",
+      "suggested": "«сбросив старую кожу» — из латинского девиза (positis exuviis), во французском нет: «Она обновляется»",
+      "confidence": "low"
+    }
+  ]
+}

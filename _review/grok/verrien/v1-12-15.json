@@ -1,0 +1,21 @@
+{
+  "id": "v1-12-15",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-12-15-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "La vertu croist toûjours.",
+      "current": "Добродетель не знает убывания, она всегда растёт.",
+      "suggested": "«не знает убывания,» — перевод латинского девиза, вставленный в толкование: «Добродетель всегда растёт»",
+      "confidence": "medium"
+    }
+  ]
+}

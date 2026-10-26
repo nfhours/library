@@ -1,0 +1,21 @@
+{
+  "id": "v1-12-3",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-12-3-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "Elle a tous ses feux.",
+      "current": "Прометей ничего у неё не отнял: все её огни при ней.",
+      "suggested": "«Прометей ничего у неё не отнял:» — перевод латинского девиза, вставленный в толкование: «Все её огни при ней»",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "v1-11-15",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v1-11-15-1",
+      "fields": [
+        "ru",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Vne Force à tondre des draps, sur une piéce de drap.",
+      "current": "Ворсовальная шишка на куске сукна / Ворсовальные ножницы для стрижки сукна",
+      "suggested": "forces à tondre — стригальные (суконные) ножницы, не ворсовальная шишка (это chardon); заголовок неверен по предмету, в text_ru «ворсовальные» лишнее: «Суконные ножницы на куске сукна»",
+      "confidence": "medium"
+    }
+  ]
+}
