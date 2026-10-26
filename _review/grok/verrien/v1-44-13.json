@@ -1,0 +1,21 @@
+{
+  "id": "v1-44-13",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-44-13-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "Il y restera tant que je vivray.",
+      "current": "Он останется там, пока я жив и помню себя.",
+      "suggested": "«и помню себя» — из латинского memor ipse mei, во французском нет: «Он останется там, пока я жив»",
+      "confidence": "low"
+    }
+  ]
+}

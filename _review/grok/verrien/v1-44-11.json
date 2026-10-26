@@ -1,0 +1,23 @@
+{
+  "id": "v1-44-11",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-44-11-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Haret inexpletum lachrymans.",
+      "current": "Haret inexpletum lachrymans.",
+      "suggested": "[LA] «Hæret inexpletum lachrymans» (лигатура æ потеряна; ср. v1-42-11); скопировано и в text_ru. Скана текста нет — по смыслу",
+      "confidence": "medium"
+    }
+  ]
+}

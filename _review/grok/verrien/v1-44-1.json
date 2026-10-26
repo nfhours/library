@@ -1,0 +1,21 @@
+{
+  "id": "v1-44-1",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-44-1-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "Ces choses ne me briseront pas.",
+      "current": "Это мне не повредит.",
+      "suggested": "«не повредит» — из латинского nocent; французское: «Это меня не сломит»",
+      "confidence": "low"
+    }
+  ]
+}
