@@ -1,0 +1,17 @@
+{
+  "id": "p1-6",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Il est icy figuré par vn enfant qui a des aisles au dos, & quatre guirlandes de laurier",
+      "current": "Крылатый юноша с венком из лавра на голове и двумя гирляндами лавра в руках",
+      "suggested": "Крылатый ребёнок с лавровой гирляндой на голове и тремя гирляндами в руках («enfant», «les trois autres en ses deux mains»); то же в what_en",
+      "confidence": "medium"
+    }
+  ]
+}

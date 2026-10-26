@@ -1,0 +1,17 @@
+{
+  "id": "p1-12",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 3,
+      "type": "omission",
+      "original": "les meilleurs Ouvriers ne s'estudient à perfectionner la nature par le moyen de l'Art, qu'à cause de l'esperance",
+      "current": "лучшие Мастера стремятся усовершенствовать природу средствами Искусства в надежде",
+      "suggested": "лучшие Мастера стремятся усовершенствовать природу средствами Искусства лишь в надежде (пропущено ограничение «ne … qu'à cause»; EN «only because» верно)",
+      "confidence": "medium"
+    }
+  ]
+}

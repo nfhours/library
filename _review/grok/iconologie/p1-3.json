@@ -1,0 +1,17 @@
+{
+  "id": "p1-3",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "C'est la peinture d'vn homme, qui n'a rien d'extraordinaire",
+      "current": "изображение мужа, в котором нет ничего чрезмерного",
+      "suggested": "изображение мужа, в котором нет ничего необычного (EN «nothing extraordinary» верно)",
+      "confidence": "low"
+    }
+  ]
+}

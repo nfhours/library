@@ -1,0 +1,17 @@
+{
+  "id": "p1-16",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 7,
+      "type": "mistranslation",
+      "original": "& les livres vn signe exprés de l'authorité des écritures",
+      "current": "книги — явный знак власти Писания (EN «Scripture»)",
+      "suggested": "книги — явный знак авторитета писаний/письменных текстов (строчное «écritures» здесь скорее «писания» вообще; не уверен)",
+      "confidence": "low"
+    }
+  ]
+}

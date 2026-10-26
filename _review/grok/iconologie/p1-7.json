@@ -1,0 +1,17 @@
+{
+  "id": "p1-7",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "Cette nouveauté n'est pas bien grande, de voir la peinture d'vn enfant",
+      "current": "У фигуры нет иных атрибутов, кроме дельфина и волн — Простота образа подчёркивает…",
+      "suggested": "утверждение о «простоте образа» и отсутствии атрибутов в тексте статьи не содержится — это добавление составителя; убрать или пометить как наблюдение по гравюре",
+      "confidence": "low"
+    }
+  ]
+}

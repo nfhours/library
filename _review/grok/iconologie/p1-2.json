@@ -1,0 +1,35 @@
+{
+  "id": "p1-2",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 13,
+      "type": "mistranslation",
+      "original": "le chesne, qui servoit encore de prix à la vertu des vainqueurs",
+      "current": "дуб, который служил некогда наградой доблести",
+      "suggested": "дуб, который служил также наградой доблести («encore» = «также/ещё и», а не «некогда»); EN «once served» → «also served»",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 11,
+      "type": "mistranslation",
+      "original": "Aussi estoient-elles anciennement dediées à Junon",
+      "current": "Потому в древности их посвящали Юноне",
+      "suggested": "Также в древности их посвящали Юноне («Aussi» в начале фразы = «также», не причинная связь)",
+      "confidence": "low"
+    },
+    {
+      "field": "attrs",
+      "paragraph": 5,
+      "type": "addition",
+      "original": "en vne maison qu'avoit prés d'Athenes vn de ses principaux Citoyens, qu'on appelloit Academus",
+      "current": "Напоминание о роще афинянина Академа",
+      "suggested": "в тексте — дом/поместье («maison», «metairie») Академа, о роще не говорится: «о доме (поместье) Академа близ Афин»",
+      "confidence": "low"
+    }
+  ]
+}

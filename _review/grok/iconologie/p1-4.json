@@ -1,0 +1,26 @@
+{
+  "id": "p1-4",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_en",
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "il est tres-content de vivre & de mourir pour les interests d'vne veritable affection",
+      "current": "she is quite content to live and die",
+      "suggested": "he is quite content to live and die (подлежащее — «vn parfait amy», мужской род; RU «он» верно)",
+      "confidence": "medium"
+    },
+    {
+      "field": "attrs",
+      "paragraph": 4,
+      "type": "addition",
+      "original": "l'Amitié ne doit pas moins paroistre dans les disgraces que dans les succés favorables",
+      "current": "как в несчастье (сухое дерево), так и в благополучии (цветущая лоза) — друг всегда находит способ отплатить добром",
+      "suggested": "соответствие «вяз = несчастье, лоза = благополучие» в тексте не утверждается; и текст говорит «нет друга столь бесполезного, чтобы не нашёл способа отплатить», а не «всегда находит» — убрать скобки или смягчить",
+      "confidence": "low"
+    }
+  ]
+}

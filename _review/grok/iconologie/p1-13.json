@@ -1,0 +1,17 @@
+{
+  "id": "p1-13",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 3,
+      "type": "name",
+      "original": "en vn vers qu'Ariste a pris plaisir de citer en ses Mecaniques, le Poëte Antiphon",
+      "current": "Арист … в своей «Механике» (EN «Aristus»)",
+      "suggested": "Аристотель (Ariste — сокращение; стих Антифона цитируется в начале псевдоаристотелевых «Механических проблем»)",
+      "confidence": "medium"
+    }
+  ]
+}

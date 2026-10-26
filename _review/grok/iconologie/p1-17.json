@@ -1,0 +1,17 @@
+{
+  "id": "p1-17",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 9,
+      "type": "mistranslation",
+      "original": "parce qu'elle aime les Muses, & que les Poëtes qui en sont inspirez",
+      "current": "Поэты, вдохновляемые ею",
+      "suggested": "Поэты, вдохновляемые ими (Музами) — «en» отсылает к Музам; EN «inspired by her» → «inspired by them»",
+      "confidence": "medium"
+    }
+  ]
+}
