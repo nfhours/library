@@ -1,0 +1,35 @@
+{
+  "id": "p1-42",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_en",
+      "issue_id": "p1-42-1",
+      "fields": [
+        "text_en"
+      ],
+      "paragraph": 5,
+      "type": "mistranslation",
+      "original": "cette grande abondance de choses, qui engendre la Science en nous à force d'estudier",
+      "current": "that great abundance of things which Science engenders in us through diligent study",
+      "suggested": "that great abundance of things which engenders Science in us through diligent study («qui» — подлежащее, это изобилие порождает Науку, а не наоборот); RU «которое рождает в нас Науку» верно",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "p1-42-2",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "& deffait entierement les monstres & les chimeres qu'elle produit",
+      "current": "совершенно рассеивает порождаемых ими чудищ и химер (EN «they produce»)",
+      "suggested": "чудищ и химер, порождаемых невежеством («qu'elle produit» — ед. ч., отсылает к «l'ignorance», а не к облакам); EN «they produce» → «that it (ignorance) produces»",
+      "confidence": "low"
+    }
+  ]
+}

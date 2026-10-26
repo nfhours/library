@@ -1,0 +1,21 @@
+{
+  "id": "p1-45",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-45-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 4,
+      "type": "mistranslation",
+      "original": "l'homme s'ouvre vn chemin à l'eternité par ses œuvres meritoires",
+      "current": "своими заслуживающими дела́ми",
+      "suggested": "своими достохвальными (богоугодными) делами («œuvres meritoires» — дела, заслуживающие награды; «заслуживающими делами» без дополнения неграмматично); EN «meritorious works» верно",
+      "confidence": "low"
+    }
+  ]
+}

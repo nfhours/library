@@ -1,0 +1,21 @@
+{
+  "id": "p1-46",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_en",
+      "issue_id": "p1-46-1",
+      "fields": [
+        "text_en"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "parce que cet accident est vne des marques de la douleur",
+      "current": "because this occurrence is one of the marks of grief",
+      "suggested": "because this pallor (this accident, i.e. outward quality) is one of the marks of grief («accident» — филос. «акциденция, внешний признак», а не «происшествие»); RU «бледность» верно",
+      "confidence": "low"
+    }
+  ]
+}

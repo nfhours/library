@@ -1,0 +1,34 @@
+{
+  "id": "p1-57",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-57-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "à cause que ceux qui les possedent en sont le plus souvent aveuglez",
+      "current": "оттого что обладающие ею чаще всего ею же ослеплены",
+      "suggested": "оттого что те, кто обладает ими (земными благами, «prosperitez»), чаще всего ими же и ослеплены («les … en» — мн. ч., отсылает к благам, а не к повязке); EN верно",
+      "confidence": "low"
+    },
+    {
+      "field": "attrs",
+      "issue_id": "p1-57-2",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "& les pieds sur vne roüe",
+      "current": "Ноги на колесе — переменчивость и непостоянство благосклонности",
+      "suggested": "в тексте значение колеса не объясняется (толкуются только крылья и повязка) — толкование добавлено составителем; убрать или пометить как предположение",
+      "confidence": "low"
+    }
+  ]
+}

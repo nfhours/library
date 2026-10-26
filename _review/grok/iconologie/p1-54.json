@@ -1,0 +1,21 @@
+{
+  "id": "p1-54",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p1-54-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "vne horloge à la teste",
+      "current": "часы — постоянство труда во времени",
+      "suggested": "в тексте статьи значение часов на голове не объясняется (толкуются только юность, разноцветная одежда и обнажённые руки) — это добавление составителя; убрать или пометить как предположение",
+      "confidence": "low"
+    }
+  ]
+}

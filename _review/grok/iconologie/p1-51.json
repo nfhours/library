@@ -1,0 +1,21 @@
+{
+  "id": "p1-51",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_en",
+      "issue_id": "p1-51-1",
+      "fields": [
+        "text_en"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "Son visage pasle marque, comme dit Juvenal Sat. 5.",
+      "current": "His pale face is marked, as Juvenal says in Satire 5:",
+      "suggested": "His pale face signifies, as Juvenal says in Satire 5: («marque» — глагол «означает», лицо ничем не «отмечено»); RU «означает» верно",
+      "confidence": "low"
+    }
+  ]
+}

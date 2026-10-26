@@ -1,0 +1,23 @@
+{
+  "id": "p1-48",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-48-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& de la gauche le nid d'vne hirondelle, qui donne à manger à ses petits",
+      "current": "ласточкино гнездо, из которого она кормит птенцов (EN «from which she feeds its young»; attrs [2] «где она кормит птенцов поровну»)",
+      "suggested": "а в левой — гнездо ласточки, которая кормит своих птенцов («qui» = ласточка, а не женщина; ср. абзац 3 «cet oiseau … fait égale la portion de ses petits»); EN → «the nest of a swallow feeding its young»; в attrs [2] — «гнездо ласточки, кормящей птенцов поровну»",
+      "confidence": "medium"
+    }
+  ]
+}

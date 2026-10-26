@@ -1,0 +1,21 @@
+{
+  "id": "p1-59",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-59-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 5,
+      "type": "name",
+      "original": "puisqu'Aule-Gelle, Iules Capitolin, Boterus, & Martin Cromer nous asseurent",
+      "current": "Ботерус",
+      "suggested": "Ботеро (Boterus — латинизированная форма имени Джованни Ботеро; в RU остальные авторы даны в принятых русских формах). EN «Boterus» допустимо",
+      "confidence": "low"
+    }
+  ]
+}

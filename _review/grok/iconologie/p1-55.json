@@ -1,0 +1,21 @@
+{
+  "id": "p1-55",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p1-55-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 2,
+      "type": "addition",
+      "original": "& vn faucon de la gauche",
+      "current": "Сокол в левой руке — неизменный атрибут странствующего путника",
+      "suggested": "в тексте значение сокола не объясняется — толкование «неизменный атрибут странствующего путника» добавлено составителем; убрать или пометить как предположение",
+      "confidence": "low"
+    }
+  ]
+}

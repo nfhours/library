@@ -1,0 +1,23 @@
+{
+  "id": "p1-60",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "p1-60-1",
+      "fields": [
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "FERMETE·DV·LANGAGE (надпись на гравюре)",
+      "current": "заголовки ru «Твёрдость речи» / en «Firmness of Speech» переводят fr «Fermeté de langage»; по смыслу совпадают с подписью, но отдельных полей нет",
+      "suggested": "вынести подпись к гравюре в отдельные поля (сейчас: подпись только на гравюре, над медальоном; в text_fr и переводах отсутствует; в entries.json есть поле caption «Fermeté du langage», но caption_ru/caption_en нет). caption_orig: \"Fermeté du langage\" (сверено по фото img/p1-60.jpg: FERMETE·DV·LANGAGE; в text_fr подписи нет); caption_ru: \"Твёрдость речи\"; caption_en: \"Firmness of Speech\".",
+      "confidence": "high",
+      "caption_source": "engraving"
+    }
+  ]
+}

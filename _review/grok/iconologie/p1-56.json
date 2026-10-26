@@ -1,0 +1,21 @@
+{
+  "id": "p1-56",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-56-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "Ce que l'Art suiet à sa loy, A de plus admirable en soy",
+      "current": "то, что Искусство, подвластное её закону, являет в себе ещё более дивным",
+      "suggested": "то, что есть самого дивного в Искусстве, подвластном её закону («de plus admirable» = «самое дивное», а не сравнение); EN «holds most admirable» верно",
+      "confidence": "low"
+    }
+  ]
+}
