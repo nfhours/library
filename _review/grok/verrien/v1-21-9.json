@@ -1,0 +1,23 @@
+{
+  "id": "v1-21-9",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-21-9-1",
+      "fields": [
+        "text_fr",
+        "fr",
+        "name_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Vne Coc qui chante.",
+      "current": "Vne Coc qui chante.",
+      "suggested": "«Vn Coq» (род и написание; ср. «Coc-d'Inde» в v1-21-8 — возможно, орфография издания, но «Vne» явная ошибка); перевод верен",
+      "confidence": "low"
+    }
+  ]
+}

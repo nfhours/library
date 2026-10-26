@@ -1,0 +1,21 @@
+{
+  "id": "v1-21-14",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-21-14-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "C'est pour moy.",
+      "current": "Это мне пригодится.",
+      "suggested": "переведён латинский девиз (Hoc mihi usu est); французское: «Это для меня»",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "v1-21-2",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-21-2-1",
+      "fields": [
+        "text_fr",
+        "ru",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Vn Vautour sur une Chambre, qui attend quelque petit Oiseau pour se jetter dessus.",
+      "current": "Vn Vautour sur une Chambre… / Стервятник на доме…",
+      "suggested": "«sur une Chambre» не сходится с гравюрой (v1-21 №2: птица на ветви дерева у скалы, никакого дома); вероятно, искажение (Branche?). Перевод «на доме» основан на этом чтении. Скана текста нет; не уверен",
+      "confidence": "low"
+    }
+  ]
+}
