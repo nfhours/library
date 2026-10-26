@@ -97,20 +97,30 @@ class CropsStore:
             return dict(entry)
 
 
+def box_label(box, i):
+    label = (box.get("label") or "").strip() if isinstance(box, dict) else ""
+    return label or str(i + 1)
+
+
+def box_coords(box):
+    if isinstance(box, dict):
+        x, y, w, h = box.get("x"), box.get("y"), box.get("w"), box.get("h")
+    else:
+        x, y, w, h = box
+    return "{:.2f},{:.2f},{:.2f},{:.2f}".format(x, y, w, h)
+
+
 def write_inventory_csv(csv_path, images, crops_data):
     os.makedirs(os.path.dirname(csv_path), exist_ok=True)
     with open(csv_path, "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f)
-        w.writerow(["страница", "число_гравюр", "координаты_рамок", "без_гравюры", "флажок"])
+        w.writerow(["страница", "подпись", "координаты", "флажок"])
         for img in images:
             e = crops_data.get(img)
             boxes = (e or {}).get("boxes") or []
-            no_plate = bool((e or {}).get("noPlate"))
             flagged = bool((e or {}).get("flagged"))
-            coords = ";".join(
-                "{:.2f},{:.2f},{:.2f},{:.2f}".format(*b) for b in boxes
-            )
-            w.writerow([img, len(boxes), coords, "да" if no_plate else "", "да" if flagged else ""])
+            for i, box in enumerate(boxes):
+                w.writerow([img, box_label(box, i), box_coords(box), "да" if flagged else ""])
 
 
 def make_handler(book, book_dir, images, store):
