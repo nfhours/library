@@ -1,0 +1,23 @@
+{
+  "id": "v1-54-9",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-54-9-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Sibi mihi libertas.",
+      "current": "Sibi mihi libertas.",
+      "suggested": "[LA] «Sibi mihi» не согласуется с толкованием «Si je puis une fois estre libre…»; вероятно «Si sit mihi libertas» (слито/искажено). Скана текста нет; не уверен",
+      "confidence": "low"
+    }
+  ]
+}

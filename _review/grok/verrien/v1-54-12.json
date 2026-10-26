@@ -1,0 +1,22 @@
+{
+  "id": "v1-54-12",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v1-54-12-1",
+      "fields": [
+        "ru",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Une Carabine ou arme à feu bandée.",
+      "current": "Взведённый мушкет.",
+      "suggested": "carabine — карабин, не мушкет; «ou arme à feu» опущено: «Карабин, или взведённое огнестрельное оружие»",
+      "confidence": "low"
+    }
+  ]
+}

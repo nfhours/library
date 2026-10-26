@@ -1,0 +1,21 @@
+{
+  "id": "v1-55-5",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-55-5-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "La societé n'est bonne que parmy ses semblables.",
+      "current": "Союз между непохожими ненадёжен.",
+      "suggested": "перевод латинского девиза (Dissimilium infida societas), а не французского толкования: «Общество хорошо лишь среди себе подобных»",
+      "confidence": "low"
+    }
+  ]
+}

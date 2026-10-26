@@ -1,0 +1,23 @@
+{
+  "id": "v1-55-3",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-55-3-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Da mi grido mi honor.",
+      "current": "Da mi grido mi honor.",
+      "suggested": "[ES/IT] смесь: исп. «De mi grito mi honor» или ит. «Dal mio grido il mio onore»; ср. итальянизмы в испанских девизах (v1-15-9, v1-37-15). Возможно, орфография издания; не уверен",
+      "confidence": "low"
+    }
+  ]
+}

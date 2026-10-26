@@ -1,0 +1,22 @@
+{
+  "id": "v1-54-13",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v1-54-13-1",
+      "fields": [
+        "ru",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "une masse de Chancelier",
+      "current": "жезл канцлера",
+      "suggested": "masse — булава (церемониальная), не жезл; повтор «жезл… жезл» стирает различие: «Маршальский жезл Франции и булава канцлера»",
+      "confidence": "low"
+    }
+  ]
+}
