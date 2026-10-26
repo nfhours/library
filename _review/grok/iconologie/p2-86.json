@@ -1,0 +1,21 @@
+{
+  "id": "p2-86",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-86-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "menant de l'autre un lion & un sanglier qui marchent ensemble",
+      "current": "ведущий связанных льва и вепря в другой",
+      "suggested": "в тексте лев и вепрь «идут вместе», не связаны: «ведущий льва и вепря, идущих вместе»",
+      "confidence": "low"
+    }
+  ]
+}

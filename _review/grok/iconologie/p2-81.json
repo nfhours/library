@@ -1,0 +1,21 @@
+{
+  "id": "p2-81",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-81-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "ON le dépeint sans habillement, avec le visage d'un rieur, un thyrse en la main gauche",
+      "current": "Нагота и насмешливое лицо — открытая, язвительная природа сатиры; тирс — вакхическая вольность жанра",
+      "suggested": "в тексте истолкован только девиз; толкования наготы и тирса добавлены — убрать или пометить как комментарий",
+      "confidence": "low"
+    }
+  ]
+}

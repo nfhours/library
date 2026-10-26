@@ -1,0 +1,21 @@
+{
+  "id": "p2-76",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-76-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& des brodequins aux pieds",
+      "current": "а на ногах — котурны (лёгкая комическая обувь)",
+      "suggested": "котурны — обувь трагических актёров; комическая обувь — сокки: «а на ногах — сокки (лёгкая комическая обувь)» или «полусапожки»; в абз. 2 и attrs уже нейтрально («обувь»). EN «buskins» тоже обычно = котурн, но как перевод «brodequins» допустимо — не уверен",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "p2-71",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-71-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "name",
+      "original": "la punition des filles de Pierius & d'Enippe",
+      "current": "дочерей Пиэра и Эниппы",
+      "suggested": "дочерей Пиэра и Эвиппы (у Овидия, Met. V, — Euippe; «Enippe» — искажение у автора); EN «Evippe» уже так — унифицировать",
+      "confidence": "medium"
+    }
+  ]
+}

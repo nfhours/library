@@ -1,0 +1,24 @@
+{
+  "id": "p2-82",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "p2-82-1",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "RENOMMEE (надпись на гравюре)",
+      "current": "заголовки ru «Молва в обычном изображении» / en «Fame Depicted in the Ordinary Manner» переводят fr «Renommée peinte à l'ordinaire»; на гравюре только «RENOMMEE»",
+      "suggested": "вынести подпись к гравюре в отдельные поля (сейчас: подпись только на гравюре, над медальоном; в text_fr и переводах отсутствует; в entries.json поля caption нет). caption_orig: \"Renommée\" (сверено по фото img/p2-82.jpg: RENOMMEE; в text_fr подписи нет); caption_ru: \"Молва\"; caption_en: \"Fame\".",
+      "confidence": "high",
+      "caption_source": "engraving"
+    }
+  ]
+}

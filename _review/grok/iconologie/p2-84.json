@@ -1,0 +1,21 @@
+{
+  "id": "p2-84",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-84-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 4,
+      "type": "mistranslation",
+      "original": "qui est encore denotée par la naïve blancheur des aisles",
+      "current": "означенного ещё и наивной белизной крыльев",
+      "suggested": "«naïve» здесь = природная, чистая: «природной (чистой) белизной крыльев»; «наивной» — ложный друг; EN «simple» допустимо",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "p2-75",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-75-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "Quelques-uns veulent que cette Muse soit au dessus de la Dialectique",
+      "current": "Некоторые полагают, что эта Муза выше Диалектики",
+      "suggested": "Некоторые полагают, что эта Муза ведает Диалектикой (начальствует над ней) — «être au dessus de» здесь «стоять во главе», не сравнение; EN «presides over» верно",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "p2-75-2",
+      "fields": [
+        "text_ru",
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "outre les clerons, les hauts-bois, & tels autres instrumens",
+      "current": "помимо корнетов, гобоев… / у ног её корнеты, гобои",
+      "suggested": "«clerons» (clairons) — горны / трубы-кларины, не корнеты: «помимо горнов (труб), гобоев…» — не уверен, можно оставить",
+      "confidence": "low"
+    }
+  ]
+}
