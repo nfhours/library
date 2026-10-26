@@ -1,0 +1,44 @@
+{
+  "id": "cartm31",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& tutta sfella, e destra l'aiutò a partorire il fratello Apollo",
+      "current": "вся блистающая, правой рукою помогла разрешиться от бремени брату своему Аполлону",
+      "suggested": "проворная и ловкая, помогла разрешиться… («sfella [snella], e destra» = проворная и ловкая; не «блистающая» и не «правой рукой»)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& tutta sfella, e destra l'aiutò a partorire il fratello Apollo",
+      "current": "all radiant, with her right hand helped her brother Apollo to be born",
+      "suggested": "all nimble and deft, helped her brother Apollo to be born",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "name",
+      "original": "Et così pare, che s'intendesse vn Licio poeta, ilquale, come riferisce Pausania",
+      "current": "некий поэт Ликий",
+      "suggested": "некий ликийский поэт (Licio = ликиец; у Павсания — Олен Ликиец)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "name",
+      "original": "Et così pare, che s'intendesse vn Licio poeta, ilquale, come riferisce Pausania",
+      "current": "a certain poet Licius",
+      "suggested": "a certain Lycian poet (Olen the Lycian, per Pausanias)",
+      "confidence": "high"
+    }
+  ]
+}

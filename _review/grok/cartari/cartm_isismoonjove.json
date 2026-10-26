@@ -1,0 +1,71 @@
+{
+  "id": "cartm_isismoonjove",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "saggi, che Gioue fosse, quale si vede nel Campidoglio",
+      "current": "[Завершение главы об Изиде-Луне] ...и были по краю одеяния … [Переход к Юпитеру]",
+      "suggested": "удалить вводный блок о конце главы об Изиде: text_it начинается с «saggi, che Gioue fosse…»; этот текст принадлежит другой записи (нужна сверка в проходе B)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "saggi, che Gioue fosse, quale si vede nel Campidoglio",
+      "current": "[Concluding the chapter on Isis-the-Moon] ...and around the … [Transition]",
+      "suggested": "удалить вводный блок о конце главы об Изиде (нет в text_it)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "wrong_article",
+      "original": "saggi, che Gioue fosse, quale si vede nel Campidoglio",
+      "current": "[2]–[4] ...которых хотели. А у Апулея одна из этих волшебниц... / ...вещами, поверили, что эта — иная…",
+      "suggested": "абзацы 2–4 — сокращённый дубль конца cartm37 (Луна, волшебницы, Фавн и Пик); в text_it этой записи их нет — удалить",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 2,
+      "type": "wrong_article",
+      "original": "saggi, che Gioue fosse, quale si vede nel Campidoglio",
+      "current": "[2]–[4] ...that they wished. And in Apuleius one of these sorceresses… / ...things, believed that this one was a different Moon…",
+      "suggested": "абзацы 2–4 — сокращённый дубль конца cartm37; удалить",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "saggi, che Gioue fosse, quale si vede nel Campidoglio",
+      "current": "древние мудрецы не верили мудры, чем верить, что Юпитер таков, каким его видят на Капитолии",
+      "suggested": "древние мудрецы не верили, что Юпитер таков, каким его видят на Капитолии",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "saggi, che Gioue fosse, quale si vede nel Campidoglio",
+      "current": "the ancient sages did not believe wise, than to believe Jove to be such as he is seen on the Capitol",
+      "suggested": "the ancient sages did not believe Jove to be such as he is seen on the Capitol",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "— (фрагмента нет в text_it)",
+      "current": "которых силою магии и заклятий стянули с Неба заставить отвечать",
+      "suggested": "искажено: это Фавн и Пик стягивали Юпитера с Неба; но фрагмент вообще лишний (см. выше)",
+      "confidence": "medium"
+    }
+  ]
+}

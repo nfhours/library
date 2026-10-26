@@ -1,0 +1,44 @@
+{
+  "id": "cartm44",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Ne altra insegna pare, che sia propria a Gioue del Fulmine, benche lo dessero i Romani",
+      "current": "Да и молния, по-видимому, не была исключительной эмблемой одного Юпитера, хотя её и придавали ему римляне",
+      "suggested": "И никакая иная эмблема не кажется столь свойственной Юпитеру, как молния, хотя римляне давали её и богу Сумману (смысл инвертирован)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Ne altra insegna pare, che sia propria a Gioue del Fulmine, benche lo dessero i Romani",
+      "current": "Nor does the thunderbolt seem to be a device proper to Jove alone, although the Romans gave it to him",
+      "suggested": "Nor does any other emblem seem so proper to Jove as the thunderbolt, although the Romans gave it also to the god Summanus",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "in alcune medaglie pure antiche di Antonino Pio",
+      "current": "на некоторых чисто древних медалях",
+      "suggested": "на некоторых также древних медалях (pure = тоже)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "in alcune medaglie pure antiche di Antonino Pio",
+      "current": "on some purely ancient medals",
+      "suggested": "on some likewise ancient medals",
+      "confidence": "medium"
+    }
+  ]
+}

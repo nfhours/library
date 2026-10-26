@@ -1,0 +1,35 @@
+{
+  "id": "cartm47",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "volendo à colui dare la insegna della vita, che fu cagione altrui di viuere",
+      "current": "желая дать ему знак жизни, ставшей причиной жизни другого",
+      "suggested": "желая дать знак жизни тому, кто стал причиной жизни другого (che относится к colui)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "tutti quelli che sono quiui, vanno à battere lo scorticato Montone",
+      "current": "все присутствующие идут бить ободранного Барана",
+      "suggested": "не уверен: у Геродота (II, 42) присутствующие бьют себя в грудь, оплакивая барана; перевод буквален, допустимо пояснение",
+      "confidence": "low"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "tutti quelli che sono quiui, vanno à battere lo scorticato Montone",
+      "current": "all who are present go to strike the flayed Ram",
+      "suggested": "не уверен: у Геродота — бьют себя в грудь, оплакивая барана",
+      "confidence": "low"
+    }
+  ]
+}

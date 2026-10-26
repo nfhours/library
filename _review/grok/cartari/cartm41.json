@@ -1,0 +1,26 @@
+{
+  "id": "cartm41",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Et per punire Gioue lo spergiuro, come hò detto",
+      "current": "А чтобы покарать Юпитера-клятвопреступника, как я сказал",
+      "suggested": "А поскольку Юпитер, как я сказал, карает клятвопреступника (Юпитер — субъект, не объект)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Et per punire Gioue lo spergiuro, come hò detto",
+      "current": "And to punish Jove the perjurer, as I have said",
+      "suggested": "And as for Jove punishing the perjurer, as I have said",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "cartm50",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "sì che temeuano temeuano tutti di perire",
+      "current": "так что боялись все боялись погибнуть",
+      "suggested": "так что все боялись погибнуть (дубль — опечатка оригинала)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "sì che temeuano temeuano tutti di perire",
+      "current": "so that they feared all feared to perish",
+      "suggested": "so that they all feared to perish",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "name",
+      "original": "secondo che si raccoglie da Plutarco ne i suoi problemi",
+      "current": "из Плутарховых «Застольных вопросов»",
+      "suggested": "из Плутарховых «Римских вопросов» (о пяти факелах — Quaest. Rom. 2)",
+      "confidence": "high"
+    }
+  ]
+}

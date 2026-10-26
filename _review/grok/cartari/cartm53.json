@@ -1,0 +1,80 @@
+{
+  "id": "cartm53",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "name",
+      "original": "Giunone, come hò detto, alcuni da Venere",
+      "current": "Юпитером, как я сказал; одни — Венерой, а иные иные — Гименеем",
+      "suggested": "Юноной, как я сказал; иные — Венерой, а иные — Гименеем (Giunone; конец cartm51 «da Giu[none]»; также дубль «иные иные»)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "name",
+      "original": "Giunone, come hò detto, alcuni da Venere",
+      "current": "by Jove, as I said",
+      "suggested": "by Juno, as I said",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "coronato di diuersi fiori, & di verde persa",
+      "current": "увенчанного различными цветами и зелёным мёртом",
+      "suggested": "…и зелёным майораном (persa = майоран; у Катулла amaracus); то же в стихе «Благоухающего мирта» → «душистого майорана»",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "coronato di diuersi fiori, & di verde persa",
+      "current": "crowned with various flowers and green myrtle",
+      "suggested": "…and green marjoram (also in the poem: «Of the fragrant myrtle» → «Of the fragrant marjoram»)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "name",
+      "original": "il che Plutarco ancora conferma ne i suoi problemi",
+      "current": "Плутарх в своих «Застольных вопросах»",
+      "suggested": "Плутарх в своих «Римских вопросах» (Талассий, Гай/Гая — Quaest. Rom. 30–31)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "name",
+      "original": "Et à questo fare chiamaua in suo aiuto la Dea Virginense",
+      "current": "богиню Вирхинензу",
+      "suggested": "богиню Виргиненсу (Virginensis; дважды в тексте)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Et adorno del bel dorato socco.",
+      "current": "Украшенной прекрасным золотым котурном.",
+      "suggested": "Украшенной прекрасной золочёной сандалией (сокк — обувь комедии, противоположность котурну)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Et adorno del bel dorato socco.",
+      "current": "And adorned with the fair gilded buskin.",
+      "suggested": "And adorned with the fair gilded sock (soccus, not buskin)",
+      "confidence": "medium"
+    }
+  ]
+}

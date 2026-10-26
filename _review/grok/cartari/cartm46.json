@@ -1,0 +1,26 @@
+{
+  "id": "cartm46",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "quando taglia via tutti gli effetti del corpo",
+      "current": "когда отсекает все действия тела",
+      "suggested": "не уверен: вероятно «affetti» — «когда отсекает все страсти (влечения) тела»",
+      "confidence": "low"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "quando taglia via tutti gli effetti del corpo",
+      "current": "when it cuts away all the effects of the body",
+      "suggested": "не уверен: probably «affetti» — «all the passions of the body»",
+      "confidence": "low"
+    }
+  ]
+}

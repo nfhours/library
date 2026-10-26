@@ -1,0 +1,53 @@
+{
+  "id": "cartm38",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "perche la Terra, hauuto rispetto al Cielo, e Inferno",
+      "current": "ибо Земля, в сравнении с Небом и Преисподней, и потому",
+      "suggested": "ибо Земля в сравнении с Небом есть преисподняя; потому (e = è)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "perche la Terra, hauuto rispetto al Cielo, e Inferno",
+      "current": "for the Earth, in respect to Heaven and the Underworld — and therefore",
+      "suggested": "for the Earth, with respect to Heaven, is an underworld; and therefore",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "onde i Greci chiamauano questa l'acqua di Gioue spergiuro",
+      "current": "the water of perjured Jove",
+      "suggested": "the water of Jove [avenger] of perjury (Зевс Горкий — каратель клятвопреступления, а не клятвопреступник)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "onde i Greci chiamauano questa l'acqua di Gioue spergiuro",
+      "current": "водой Юпитера-клятвопреступников",
+      "suggested": "водой Юпитера, карающего клятвопреступников",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_it",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "giurauano parimente di non torre doro alcuno da' giuocatori",
+      "current": "torre doro",
+      "suggested": "не уверен: возможно «dono» (дар, подкуп); нужна сверка со сканом в проходе B",
+      "confidence": "low"
+    }
+  ]
+}

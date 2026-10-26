@@ -1,0 +1,26 @@
+{
+  "id": "cartm48",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "le ricchezze fanno marauigliare i sciocchi li quali così tosto se ne vanno",
+      "current": "у глупцов, которые так же скоро их теряют",
+      "suggested": "у глупцов, — а богатства так же скоро уходят, как скоро исчезает Радуга (уходят богатства, ср. подпись «presto spariscono»)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "le ricchezze fanno marauigliare i sciocchi li quali così tosto se ne vanno",
+      "current": "who then lose them as quickly as we see the rainbow vanish",
+      "suggested": "riches, which then go away as quickly as we see the rainbow vanish",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "cartm51",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "come quella, che ad ambi fu bi fu madregna, secondo le fauole",
+      "current": "как та, которой оба они были обеим мачехой, по басням",
+      "suggested": "как та, что была мачехой им обоим, по басням («bi fu» — дубль в оригинале)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "omission",
+      "original": "come quella, che ad ambi fu bi fu madregna, secondo le fauole",
+      "current": "as one to whom both had been to both, according to the fables",
+      "suggested": "as she who was stepmother to both, according to the fables",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "name",
+      "original": "in Roma fu chiamato certo luoco Vico giugario",
+      "current": "некое место называлось Виколо Югарио",
+      "suggested": "некое место называлось Викус Югарий (Vicus Iugarius)",
+      "confidence": "high"
+    }
+  ]
+}

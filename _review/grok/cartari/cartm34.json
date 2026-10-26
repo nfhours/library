@@ -1,0 +1,44 @@
+{
+  "id": "cartm34",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Dona à Megera, e come lor regina",
+      "current": "Законы Мегере и, как царица их,",
+      "suggested": "Даёт закон Мегере и, как царица их, (стих начинается «[legge] Dona» — «даёт закон», а не «читает Законы»)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Dona à Megera, e come lor regina",
+      "current": "Law to Megaera, and, as their queen,",
+      "suggested": "Gives law to Megaera, and, as their queen, (проверить предыдущую строку: «gives», не «reads»)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "name",
+      "original": "Porfirio, come riferisce Theodorito Vescouo Cirense",
+      "current": "Феодорит, епископ Киренский",
+      "suggested": "Феодорит, епископ Кирский (Cyrrhus, не Кирена)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "name",
+      "original": "Porfirio, come riferisce Theodorito Vescouo Cirense",
+      "current": "Theodoret, Bishop of Cyrene",
+      "suggested": "Theodoret, Bishop of Cyrrhus",
+      "confidence": "high"
+    }
+  ]
+}

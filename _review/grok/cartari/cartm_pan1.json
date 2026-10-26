@@ -1,0 +1,53 @@
+{
+  "id": "cartm_pan1",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "— (в text_it фрагмент один раз)",
+      "current": "И Читаем же о нём, что он был одним из тех богов, которые обитали в горах… Заботу о стадах…",
+      "suggested": "удалить повторный фрагмент (дублирует уже переведённый выше отрывок; в text_it один раз)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "La picciol coda, & hà d'acuto pino Le tempie cinte",
+      "current": "и у него острое, как сосна [ухо], виски опоясаны",
+      "suggested": "и виски его увенчаны острой сосновой хвоей («ухо» выдумано)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "La picciol coda, & hà d'acuto pino Le tempie cinte",
+      "current": "and his [ear] is sharp as pine, his temples are girded",
+      "suggested": "and has his temples girt with sharp pine (the [ear] is invented)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "lunge, & hirte,",
+      "current": "[2] Уши, как у далёкой лохматой Козы… и это измыслил некий учёный муж…",
+      "suggested": "абзац 2 — дубль конца стихотворения и комментария Сервия/Боккаччо; удалить. Попутно: «lunge» = «длинные» (не «далёкой»), «questi fu vn'huomo dotto» = «он (Пан) был учёным мужем»",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "lunge, & hirte,",
+      "current": "[2] The ears like those of a far-off, shaggy Goat… and this was devised by a learned man…",
+      "suggested": "абзац 2 — дубль; удалить (в абзаце 1 этот фрагмент передан верно: «this man was a learned man»). «lunge» = long, не far-off",
+      "confidence": "high"
+    }
+  ]
+}

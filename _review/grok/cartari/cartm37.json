@@ -1,0 +1,62 @@
+{
+  "id": "cartm37",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "che tirassero per arte magica, & a forza d'incanti Gioue di Cielo a venire a rispondere",
+      "current": "которых волшебным искусством и силою заклятий заставляли спуститься с Неба Юпитеру, дабы тот им отвечал",
+      "suggested": "которые волшебным искусством и силою заклятий стягивали Юпитера с Неба, дабы тот являлся им отвечать (субъект — Фавн и Пик)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Là già perduta luce, se con fosche",
+      "current": "Там уже утраченный свет, если тёмными",
+      "suggested": "Её (Луны) уже утраченный свет… («Là» = «La», артикль/местоимение, а не «там»)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Là già perduta luce, se con fosche",
+      "current": "There her already lost light, if with dusky",
+      "suggested": "Her already lost light, if with dusky (убрать «There»)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "vna Luna tutta risplendente, dente",
+      "current": "Луна, вся сияющая, сияющая",
+      "suggested": "Луна, вся сияющая (дубль «dente» — опечатка оригинала)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "vna Luna tutta risplendente, dente",
+      "current": "a Moon, all radiant, radiant",
+      "suggested": "a Moon, all radiant",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "fosse perita insieme con le altre che cose",
+      "current": "had perished along with the others that things",
+      "suggested": "had perished along with the other things",
+      "confidence": "medium"
+    }
+  ]
+}

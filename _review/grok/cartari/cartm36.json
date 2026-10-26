@@ -1,0 +1,26 @@
+{
+  "id": "cartm36",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Bubaste santa, & Api, e chi conforta",
+      "current": "Святая Бубаста, и Апис, и тот, кто утешает / Людей в молчании",
+      "suggested": "…и тот, кто призывает / Людей к молчанию (Гарпократ; conforta = побуждает, увещевает)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Bubaste santa, & Api, e chi conforta",
+      "current": "Holy Bubastis, and Apis, and he who comforts",
+      "suggested": "…and he who exhorts / People to silence (Harpocrates)",
+      "confidence": "medium"
+    }
+  ]
+}

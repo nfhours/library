@@ -1,0 +1,26 @@
+{
+  "id": "cartm32",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "era vn bellissimo simulacro di metallo metallo di Hercole",
+      "current": "прекраснейший кумир из металла металлический",
+      "suggested": "прекраснейший бронзовый кумир Геркулеса (дубль «metallo» — опечатка оригинала; Геркулес в RU потерян)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "era vn bellissimo simulacro di metallo metallo di Hercole",
+      "current": "a most beautiful idol of bronze of bronze, of Hercules",
+      "suggested": "a most beautiful bronze idol of Hercules",
+      "confidence": "high"
+    }
+  ]
+}

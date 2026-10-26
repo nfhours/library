@@ -1,0 +1,62 @@
+{
+  "id": "cart5",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "gli huomini non non haueuano altre statoe de i Dei, che le haste",
+      "current": "люди не не имели иных статуй богов",
+      "suggested": "люди не имели иных статуй богов (дубль «non» — опечатка оригинала)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "gli huomini non non haueuano altre statoe de i Dei, che le haste",
+      "current": "men did not had no other statues of the Gods than spears",
+      "suggested": "men had no other statues of the Gods than spears",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Il che dicono de gli altri ancora esser pur troppo vero, se per lei intendiamo la terra",
+      "current": "То же, говорят, верно и в отношении прочего",
+      "suggested": "Что, по словам и других [авторов], слишком верно, если под нею разуметь землю (de gli altri = иные авторы)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Il che dicono de gli altri ancora esser pur troppo vero",
+      "current": "Which is said to be all too true of the others as well",
+      "suggested": "Which others also say is all too true",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& per quello che le ricchezze stanno coperte, & nascoste nella terra",
+      "current": "и потому что богатства лежат скрытыми",
+      "suggested": "а тем (покрывалом на голове) — что богатства лежат скрытыми (per quello = через то, т. е. ткань)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& per quello che le ricchezze stanno coperte, & nascoste nella terra",
+      "current": "and, as for the fact that riches lie covered",
+      "suggested": "and by that [the cloth] that riches lie covered",
+      "confidence": "medium"
+    }
+  ]
+}
