@@ -1,0 +1,21 @@
+{
+  "id": "p2-17",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-17-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "ce qui suffira pour servir d'explication à tous les autres à qui l'on en donne",
+      "current": "сеемые цветы — атрибут, общий для всех четырёх ветров / the sown flowers, an attribute shared by all four winds",
+      "suggested": "в тексте общим для всех ветров объявлено толкование крыльев (абз. 5), а не цветов; цветы в тексте не истолкованы — убрать или исправить",
+      "confidence": "medium"
+    }
+  ]
+}

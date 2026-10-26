@@ -1,0 +1,21 @@
+{
+  "id": "p2-14",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-14-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "cette merveilleuse plante, qui selon les Naturalistes se trouve dans le fond de l'Euphrate",
+      "current": "лотос, восходящий и прячущийся вслед за солнцем, — южное, экваториальное растение / a plant of the southern, equatorial regions",
+      "suggested": "в тексте лотос растёт в Евфрате и поднимается/опускается вместе с солнцем (полдень); «южное, экваториальное растение» — не из текста; предлагается: «лотос, поднимающийся из воды вслед за солнцем, — полуденное солнце»",
+      "confidence": "low"
+    }
+  ]
+}

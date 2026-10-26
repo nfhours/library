@@ -1,0 +1,21 @@
+{
+  "id": "p2-13",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-13-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 4,
+      "type": "mistranslation",
+      "original": "Son teint vermeil & sa chevelure blonde",
+      "current": "Его румяный цвет лица и русые волосы (абз. 1: «волосами, златовидными как золото»)",
+      "suggested": "…и золотистые (белокурые) волосы — в абз. 1 «blonds comme l'or», «русые» противоречит; в абз. 1 убрать тавтологию: «волосами золотистыми, как золото»; EN верно",
+      "confidence": "low"
+    }
+  ]
+}

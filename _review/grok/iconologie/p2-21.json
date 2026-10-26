@@ -1,0 +1,21 @@
+{
+  "id": "p2-21",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-21-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "les Heures sont en enfance, les Jours en adolescence, les Mois en leur jeunesse",
+      "current": "Юность месяцев — первая из четырёх возрастных ступеней времени (часы-дни-месяцы-год-время) / the first of time's four age-grades",
+      "suggested": "в тексте пять ступеней (часы — детство, дни — отрочество, месяцы — юность, год — зрелость, время — старость); месяцы — третья: «Юность месяцев — третья из пяти возрастных ступеней времени» / «the third of time's five age-grades»",
+      "confidence": "medium"
+    }
+  ]
+}

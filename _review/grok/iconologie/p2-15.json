@@ -1,0 +1,22 @@
+{
+  "id": "p2-15",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-15-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 7,
+      "type": "mistranslation",
+      "original": "Et les neiges fonduës",
+      "current": "И нерастаявшие снега / And the snows never melted",
+      "suggested": "в оригинале «fonduës» — без отрицания: «И талые снега» / «And the melted snows» (или, если fondre = «обрушиться», «выпавшие снега») — не уверен в трактовке, но «нерастаявшие/never melted» — обратный смысл",
+      "confidence": "low"
+    }
+  ]
+}
