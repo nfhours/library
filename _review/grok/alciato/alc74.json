@@ -1,0 +1,22 @@
+{
+  "id": "alc74",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc74-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Cùm lupus esuriens mandit ceruarius escam,",
+      "current": "волк-гончая / wolf-hound",
+      "suggested": "lupus cervarius — рысь («волк-оленеед»); RU «голодная рысь», EN «the hungry lynx» (FR «loup cervier» = рысь, верно)",
+      "confidence": "low"
+    }
+  ]
+}

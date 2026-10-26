@@ -1,0 +1,38 @@
+{
+  "id": "alc82",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "alc82-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Ephyrææ est Laidos.",
+      "current": "[LA] …Ephyrææ est Laidos. (конец строки 1)",
+      "suggested": "[LA] пропущено «ah, non» в конце строки 1 (на скане «…Laidos. ah, non / Erubuit…»; без него строка короче гекзаметра). Переводы «Ах, не постыдилась ли» уже его передают",
+      "confidence": "medium"
+    },
+    {
+      "field": "caption",
+      "issue_id": "alc82-2",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en",
+        "caption_fr"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "Tumulus meretricis. Διαλογισμός. (на странице скана)",
+      "current": "заголовки fr «Tumulus meretricis» / ru / en / name_fr без подзаголовка «Διαλογισμός» (у других диалогов — alc31, alc40, alc51 — «Dialogismus» в заголовке есть)",
+      "suggested": "вынести подпись в отдельные поля (сейчас: под девизом набран греческий подзаголовок; в text_fr и переводах отсутствует; в entries.json поля caption нет). caption_orig: «Tumulus meretricis. Διαλογισμός.» (сверено по скану pages/alc82.jpg); caption_ru: «Гробница блудницы. Диалог»; caption_en: «The tomb of a courtesan. A dialogue»; caption_fr: «Le tombeau de la courtisane. Dialogue».",
+      "confidence": "high",
+      "caption_source": "engraving"
+    }
+  ]
+}

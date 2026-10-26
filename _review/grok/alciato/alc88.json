@@ -1,0 +1,22 @@
+{
+  "id": "alc88",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc88-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Subtus & accensam contegit igne facem.",
+      "current": "скрывает зажжённый факел от огня / hides his lit torch from the flame",
+      "suggested": "igne относится к accensam: «и под ней (мерой) прячет факел, зажжённый огнём» (свет под спудом); EN «and beneath it hides a torch kindled with fire» (FR без «огня», допустимо)",
+      "confidence": "low"
+    }
+  ]
+}

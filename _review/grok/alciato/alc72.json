@@ -1,0 +1,23 @@
+{
+  "id": "alc72",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc72-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Creuerit ille simul, mea me post vbera pascet.",
+      "current": "Как только он вырастет вместе со мной / Once he has grown up together with me / Dès qu'il aura grandi à mes côtés",
+      "suggested": "simul здесь = simul ac («как только»), «вместе со мной» лишнее: RU «Как только он вырастет, после моего вымени он съест и меня»; EN «As soon as he has grown…»; FR «Dès qu'il aura grandi…»",
+      "confidence": "low"
+    }
+  ]
+}

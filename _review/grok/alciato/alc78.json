@@ -1,0 +1,23 @@
+{
+  "id": "alc78",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc78-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Dignus Epops Tereus, qui maluit ense putare, / Quàm linguam immodicam stridibus eruere.",
+      "current": "Терей, ставший удодом, заслуживал скорее отсечь мечом, чем вырывать… / …deserved rather to cut away… / …méritait bien qu'on préférât…",
+      "suggested": "смысл, вероятно: «Достоин (похвалы) Терей-удод, что предпочёл отсечь мечом (язык Филомелы), а не терпеть её неумеренный язык с его криками»; во всех трёх переводах синтаксис спутан. Не уверен в чтении «stridibus» (возможно сбой в оригинале) — сверить",
+      "confidence": "low"
+    }
+  ]
+}
