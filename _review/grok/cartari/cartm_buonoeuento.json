@@ -1,0 +1,17 @@
+{
+  "id": "cartm_buonoeuento",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Lasciamolo dunque, & dichiamo del buono Euento",
+      "current": "But what has this to do with images? Nothing. Let us leave it then, and speak of Good Event",
+      "suggested": "Let us leave it then, and speak of Good Event (фразы «But what has this to do with images? Nothing.» в оригинале нет — удалить)",
+      "confidence": "high"
+    }
+  ]
+}

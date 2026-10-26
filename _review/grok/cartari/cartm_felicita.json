@@ -1,0 +1,26 @@
+{
+  "id": "cartm_felicita",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "in bel seggio, bene ornata, ma non però con molta arte",
+      "current": "на прекрасном седалище, хорошо украшенном, но не с большим, однако, искусством",
+      "suggested": "на прекрасном седалище, сама хорошо убранная, но без большой изысканности («ornata» относится к женщине)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "che quì brama alla cieca ogniuno in questo modo",
+      "current": "коего здесь жаждет вслепую всякий таким образом",
+      "suggested": "коего здесь вслепую жаждет всякий в этом мире («modo» = опечатка за «mondo»; EN «this life» верно); то же ниже: «весь путь сей таким образом» → «весь путь этого мира»",
+      "confidence": "medium"
+    }
+  ]
+}

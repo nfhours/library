@@ -1,0 +1,35 @@
+{
+  "id": "cartm_venerebarba",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& nelli Dei non esser differenza di esso, come nè mortali",
+      "current": "и что у богов нет различия пола, как и у смертных",
+      "suggested": "и что у богов нет различия пола, какое есть у смертных (смысл инвертирован; ср. в тексте ниже «che è trà mortali»)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& nelli Dei non esser differenza di esso, come nè mortali",
+      "current": "there is no difference of sex, any more than among mortals",
+      "suggested": "there is no difference of sex, as there is among mortals",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "essendo tolta per l'aria",
+      "current": "будучи взятою из воздуха",
+      "suggested": "будучи понимаемой как воздух («tolta per» = принятая за); EN «being drawn from the air» → «being taken for the air»",
+      "confidence": "medium"
+    }
+  ]
+}

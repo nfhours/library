@@ -1,0 +1,35 @@
+{
+  "id": "cartm_cupido",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& non ch'ei facesse disamare",
+      "current": "а не того, кто заставляет разлюбить",
+      "suggested": "а не то, чтобы он заставлял разлюбить (Антэрот карает нелюбящего, а не внушает нелюбовь)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Melete giouane Atheniese niun conto",
+      "current": "Мелет, юноша афинский, ни во что не ставил / рассказывал",
+      "suggested": "«contò facendosi» на переносе — повтор «conto/contò», а не «рассказывал»: «ни во что не ставил [Тимагора], издеваясь…»; убрать «рассказывал» — не уверен в точной реконструкции",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "name",
+      "original": "Melete giouane Atheniese niun conto",
+      "current": "Meles, an Athenian youth",
+      "suggested": "Meles — допустимо (у Павсания Μέλης), но далее в тексте «Meletus» — унифицировать имя (Meles)",
+      "confidence": "low"
+    }
+  ]
+}

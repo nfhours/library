@@ -1,0 +1,17 @@
+{
+  "id": "cartm_fortunascithi",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "questi la fecero bene senza piedi, ma le posero poi le ali intorno alle mani",
+      "current": "сделали они её изрядно без ног",
+      "suggested": "сделали они её, правда, без ног, но… («bene» здесь уступительное «хотя и», не «изрядно»)",
+      "confidence": "medium"
+    }
+  ]
+}

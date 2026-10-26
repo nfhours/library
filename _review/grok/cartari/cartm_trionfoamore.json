@@ -1,0 +1,35 @@
+{
+  "id": "cartm_trionfoamore",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Perdon lor primi ben per leggier cura.",
+      "current": "Прощают они первому встречному своё благо по лёгкой заботе.",
+      "suggested": "Теряют свои первые блага из-за пустой заботы («perdon» = perdono, теряют); EN «They forgive at first their own good» → «They lose their prime goods for a light care»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Od'egli hà sempre le sue mani armate,",
+      "current": "Или же всегда имеет он руки свои вооружёнными,",
+      "suggested": "Коими всегда вооружены его руки («Od'» = ond', «которыми», не «или»); EN «Or else he always has» → «With which he always has his hands armed»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "in Un passo men'Varco:",
+      "current": "В одном шаге меньше пройду",
+      "suggested": "Одним шагом (одним словом) перейду — «me ne varco», «men» не «меньше»; EN «In one step less I pass» → «In one step I pass on»",
+      "confidence": "medium"
+    }
+  ]
+}

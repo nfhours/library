@@ -1,0 +1,26 @@
+{
+  "id": "cartm_occasione",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "name",
+      "original": "era il suo nome Chero, che questa voce appresso de i Greci significa opportunità di tempo",
+      "current": "было имя его Кер",
+      "suggested": "было имя его Кайрос (греч. Καιρός; «Кер» — иное божество, Κήρ); EN «Kairos» верно; то же в заглавии и далее «бог Кер»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "chi lascia passar la buona occasione",
+      "current": "кто упускает доброй случай",
+      "suggested": "кто упускает добрый случай (опечатка)",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cartm_venere2",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Et ho che far'anch'io pur qualche cosa",
+      "current": "И есть у меня причина, чтобы мне самой свершить нечто,",
+      "suggested": "И я тоже имею кое-какое отношение (к этим волнам) — «aver che fare» = иметь касательство; EN «I too have cause to do something» → «I too have something to do with these waves»",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "cartm_gratieintro",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "che non ne rompono; … o torcono pure vna",
+      "current": "что не ломают их; или оборачивают лишь одну",
+      "suggested": "что не ломают и не сгибают ни одного (колоса) — отрицание распространяется на «torcono»; смысл инвертирован",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "che non ne rompono; … o torcono pure vna",
+      "current": "so lightly that they do not break them; or they turn but a single one",
+      "suggested": "so lightly that they do not break, or even bend, a single one",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Et alcune di lor spoglian la chioma,",
+      "current": "And some of them doff their locks,",
+      "suggested": "And some of them strip his (Phoebus') head of the crown of rays — «chioma» Солнца, не их собственные волосы; RU «снимают с главы убор» → «снимают с его главы [лучистый венец]», не уверен",
+      "confidence": "medium"
+    }
+  ]
+}

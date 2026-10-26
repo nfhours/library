@@ -1,0 +1,26 @@
+{
+  "id": "cartm_tempiopafo",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "rossa, come dice Anacreonte, che è Venere, oue ei la chiama porporea",
+      "current": "красная, как говорит Анакреонт, называя её Венерой, где именует он её пурпурной",
+      "suggested": "красная, какова, по словам Анакреонта, Венера, когда он называет её пурпурной (пурпурной названа Венера, а не голубка «названа Венерой»); EN «calling her Venus» → «as Anacreon says Venus is»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Egli fù poi dato parimente a Venere come a gli altri Dei vn carro",
+      "current": "Был затем дан равно Венере, как и прочим богам, колесница",
+      "suggested": "Была затем дана равно Венере … колесница (согласование)",
+      "confidence": "low"
+    }
+  ]
+}

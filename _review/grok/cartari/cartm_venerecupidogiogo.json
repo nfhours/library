@@ -1,0 +1,17 @@
+{
+  "id": "cartm_venerecupidogiogo",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "prepone la salute al libidinoso piacere",
+      "current": "предпочитает здоровье сладострастному наслаждению",
+      "suggested": "предпочитает безопасность (спасение) сладострастному наслаждению («salute» = спасение; EN «safety» верно)",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "cartm_imaginiamore",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& alcuni altri mostrauano di volerla calciare",
+      "current": "а иные иные показывали, что желают её оседлать",
+      "suggested": "а иные показывали, что хотят её пнуть / обуть (у Плиния «calciarent» — обувают); «оседлать» неверно, точный смысл — не уверен; убрать повтор «иные иные»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& alcuni altri mostrauano di volerla calciare",
+      "current": "still others showed that they wished to mount her",
+      "suggested": "still others made as if to kick her (or put shoes on her) — не уверен; «mount» неверно",
+      "confidence": "medium"
+    }
+  ]
+}

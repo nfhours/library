@@ -1,0 +1,26 @@
+{
+  "id": "cartm_venerecigni",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Va nuotando Venere pel mare, dicono, per dare … ad intendere quanto sia amara",
+      "current": "дабы показать / дабы дать понять",
+      "suggested": "дабы дать понять (на переносе удвоено; EN «to show / to understand» → «to make understood»)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "correndo per dare aiuto all'amato Adone",
+      "current": "бегя, дабы помочь",
+      "suggested": "бежа (или: устремившись), дабы помочь",
+      "confidence": "low"
+    }
+  ]
+}

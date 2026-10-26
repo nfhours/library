@@ -1,0 +1,35 @@
+{
+  "id": "cartm_fortunaegira",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "più assai del danno, che per gli auari vostri desiderij hò sentito già più volte",
+      "current": "гораздо более из-за вреда, что от корыстолюбивых ваших желаний уже не раз я испытывал",
+      "suggested": "гораздо более (движимая ревностью о вашей чести), нежели вредом, что я не раз терпела от ваших корыстных желаний (сравнение «больше, чем», а не причина)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "più assai del danno, che per gli auari vostri desiderij hò sentito già più volte",
+      "current": "far more because of the harm which, through your avaricious desires, I have already felt",
+      "suggested": "far more than by the harm which I have already suffered many times through your avaricious desires",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& il Fato ouero Destino, come si pare dire, la seguita",
+      "current": "а Рок, или Судьбу, как бы желая сказать, преследующей её",
+      "suggested": "а Рок, или Судьба, как можно сказать, преследует её (Фортуну) — фраза рассогласована",
+      "confidence": "low"
+    }
+  ]
+}

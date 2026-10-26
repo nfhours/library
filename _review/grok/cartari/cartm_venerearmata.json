@@ -1,0 +1,35 @@
+{
+  "id": "cartm_venerearmata",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Tu mi ti puoi oppor senza temere Vnqua di me",
+      "current": "Ты можешь противостать мне без страха / Никогда",
+      "suggested": "Ты можешь мне противостать, никогда не страшась меня (у RU «Никогда» инвертирует смысл); EN: «You alone can stand against me» — «alone» добавлено в эту строку",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "nè scriuendo si può mettere così interamente tutto, che non … vi rimanga qualche cosa sempre",
+      "current": "чтобы не / древние люди не оставили всегда что-нибудь ещё сказать",
+      "suggested": "чтобы не осталось всегда чего-нибудь ещё (кустода «an-» ошибочно развёрнута в «древние»); EN «so fully everything that / the ancients / something always remains» → убрать «the ancients»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Ma alcuni altri hanno detto, che Tindareo fece Venere così in Ceppi",
+      "current": "Но иные иные сказали",
+      "suggested": "Но иные сказали",
+      "confidence": "low"
+    }
+  ]
+}

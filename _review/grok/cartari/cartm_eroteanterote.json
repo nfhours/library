@@ -1,0 +1,62 @@
+{
+  "id": "cartm_eroteanterote",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "li quali diceuano gli antichi tutti venire da Cupido, che accendergli alla virtù",
+      "current": "исходящими от Купидона, воспламеняющего их к добродетели",
+      "suggested": "…приходят от Купидона (скорее), чем то, что он воспламеняет их к добродетели — «che» сравнительное; смысл инвертирован",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "li quali diceuano gli antichi tutti venire da Cupido, che accendergli alla virtù",
+      "current": "which the ancients said all came from Cupid, who kindled them to virtue",
+      "suggested": "which the ancients said all came from Cupid, rather than his kindling them to virtue",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Cui egli mostra l'arco, che gli pende",
+      "current": "Коему она показывает лук",
+      "suggested": "Которой он показывает лук (Амур показывает Венере/Кинфии); EN «To whom she shows» → «To whom he shows»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Vn piccol'arco hà in man, sour'esso è sempre.",
+      "current": "A small bow he holds in hand, ever upon it he leans.",
+      "suggested": "A small bow he holds in hand; upon it there is always a piercing shaft (следующая строка «Vn pungente quadrel» — подлежащее); RU «при нём он всегда» → «на нём всегда лежит колкая стрела»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Ch'in sette dì Vedrommi (e d'hora in hora)",
+      "current": "Что через семь дней увижу я (час от часу) Тебя, от того питания, прекраснее становящейся.",
+      "suggested": "Что через семь дней увижу себя (час от часу), съев его, похорошевшим («Vedrommi» = увижу себя: хорошеет поэт; отсюда колкость — Геллия зайца не ела); EN «I shall see you grow» → «I shall see myself grow»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Ch'al carro de la madre erano giunti,",
+      "current": "Which had come to his mother's chariot,",
+      "suggested": "Which were yoked to his mother's chariot («giunti» = запряжены, не «пришли»), не уверен",
+      "confidence": "low"
+    }
+  ]
+}

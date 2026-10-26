@@ -1,0 +1,35 @@
+{
+  "id": "cartm_panecupido",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Da chi lasciò di lor l'altra sù'l lito,",
+      "current": "Коего оставила одна из них на берегу,",
+      "suggested": "Тем, кто оставил одну из них на берегу (Тесей убил брата-Минотавра и бросил Ариадну); EN верно",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "De l'hospite quell'altro, c'hauea Dido.",
+      "current": "Он тем чужеземцем, коего имела Дидона.",
+      "suggested": "а тот другой [меч], что был у Дидоны, — от гостя (Энея); EN «Of that stranger-guest that other, whom Dido had» → «and that other, which Dido had, was her guest's»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "vendicatomi a questo modo",
+      "current": "отомстив себе таким образом",
+      "suggested": "отомстив за себя таким образом",
+      "confidence": "low"
+    }
+  ]
+}

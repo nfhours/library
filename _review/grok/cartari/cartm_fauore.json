@@ -1,0 +1,26 @@
+{
+  "id": "cartm_fauore",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "ma ella s'è beata, e di lei punto non teme",
+      "current": "но оно блаженно и ни капли её не страшится",
+      "suggested": "но она (Счастье) блаженна и ничуть её (Зависти) не боится; «ella» = Felicità, ж. р.; EN «it is blessed» лучше «she is blessed»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "perche vuole ogni hora salire più sù, che non gli conuiene",
+      "current": "than is fitting for it",
+      "suggested": "than is fitting for him (Фавор, м. р.); на переносе страницы текст EN спутан («to come») — проверить стык, не уверен",
+      "confidence": "low"
+    }
+  ]
+}
