@@ -1,0 +1,23 @@
+{
+  "id": "v1-1-8",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-1-8-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Defidia.",
+      "current": "Defidia.",
+      "suggested": "[LA] «Desidia» (долгое ſ прочитано как f; desidia — праздность, ср. «C'est la paresse»); латинский девиз скопирован в text_ru с той же ошибкой. Скана текстовой страницы нет — по смыслу",
+      "confidence": "high"
+    }
+  ]
+}

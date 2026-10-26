@@ -1,0 +1,22 @@
+{
+  "id": "v1-2-3",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v1-2-3-1",
+      "fields": [
+        "ru",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Une Epine blanche, avec un Arc en Ciel au dessus.",
+      "current": "Белый шиповник",
+      "suggested": "épine blanche — боярышник, не шиповник: «Боярышник с радугой» / «Боярышник, над которым радуга»",
+      "confidence": "low"
+    }
+  ]
+}

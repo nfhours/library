@@ -1,0 +1,21 @@
+{
+  "id": "v1-1-10",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v1-1-10-1",
+      "fields": [
+        "ru"
+      ],
+      "paragraph": null,
+      "type": "mistranslation",
+      "original": "Femme maigre coëffée avec des Serpens",
+      "current": "Женщина с завистью",
+      "suggested": "заголовок: «Худая женщина со змеями в волосах» (Зависть — толкование, а не изображение; text_ru верно)",
+      "confidence": "low"
+    }
+  ]
+}

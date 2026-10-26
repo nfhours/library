@@ -1,0 +1,22 @@
+{
+  "id": "v1-1-11",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v1-1-11-1",
+      "fields": [
+        "ru",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Une Chévre qui est taitée par un jeune Loup.",
+      "current": "Коза, вскормленная волком / Коза, которую кормит молодой волк",
+      "suggested": "tetée (taitée) par un jeune Loup — «которую сосёт волчонок»: коза кормит волка себе на погибель (Sibi damna parat). Заголовок «Коза, вскармливающая волчонка»; text_ru «Коза, которую сосёт молодой волк»",
+      "confidence": "medium"
+    }
+  ]
+}

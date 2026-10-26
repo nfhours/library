@@ -1,0 +1,21 @@
+{
+  "id": "v1-1-1",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v1-1-1-1",
+      "fields": [
+        "ru"
+      ],
+      "paragraph": null,
+      "type": "mistranslation",
+      "original": "Vaisseau en Mer",
+      "current": "Корабль в порту",
+      "suggested": "заголовок: «Корабль в море» (в порт он только входит; text_ru верно)",
+      "confidence": "low"
+    }
+  ]
+}

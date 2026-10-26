@@ -1,0 +1,22 @@
+{
+  "id": "v1-1-15",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v1-1-15-1",
+      "fields": [
+        "ru",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Un Loup qui veut devorer un Chevreüil,",
+      "current": "оленёнка",
+      "suggested": "chevreuil — косуля, не оленёнок: «Волк, бросающий косулю ради барана» / «…сожрать косулю…»",
+      "confidence": "low"
+    }
+  ]
+}
