@@ -6,6 +6,11 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm_pignoriafortunaletto-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "l'ho per la Fortuna sicura, & non mutabile.",

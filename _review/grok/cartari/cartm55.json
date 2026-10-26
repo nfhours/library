@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm55-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "se loro, le quali consecrauano poi, & vsauano in vece di altari",
@@ -15,6 +21,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm55-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "e perciò non era fatto mai sacrificio senza fuoco, & che non fosse chiamata Vesta nel principio",
@@ -24,6 +36,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm55-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "e perciò non era fatto mai sacrificio senza fuoco, & che non fosse chiamata Vesta nel principio",
@@ -33,6 +51,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm55-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "& che non fosse chiamata Vesta nel principio",

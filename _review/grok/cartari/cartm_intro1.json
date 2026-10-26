@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm_intro1-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "fù creduto più vniversalmente, che fosse di esso Prometheo",
@@ -15,6 +21,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm_intro1-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "fù creduto più vniversalmente, che fosse di esso Prometheo",
@@ -24,6 +36,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_intro1-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "& che hauendolo a questo fine condotto in cielo, egli auuedutosi",
@@ -33,6 +51,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm_intro1-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "& che hauendolo a questo fine condotto in cielo, egli auuedutosi",
@@ -42,6 +66,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_intro1-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "come vedremo poi nella sua imagine, & pure sacrificauano a tutti in vn medesimo modo",
@@ -51,6 +81,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm_intro1-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "come vedremo poi nella sua imagine, & pure sacrificauano a tutti in vn medesimo modo",
@@ -60,6 +96,11 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_intro1-4",
+      "fields": [
+        "text_ru",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "succedendo sempre quello, che era più vicino a chi andaua innanzi à lui",
@@ -69,6 +110,11 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm_intro1-5",
+      "fields": [
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "quando sentiuano di hauerlo offeso",
@@ -78,6 +124,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_intro1-6",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "à quelle perche fossero presenti sempre, & giouassero",
@@ -87,6 +137,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_intro1-7",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "hauendo già Pilato portato in Giudea alcuni stendardi",
@@ -96,6 +152,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm_intro1-7",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "hauendo già Pilato portato in Giudea alcuni stendardi",
@@ -105,6 +167,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_intro1-8",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Tertulliano dicendo, che la religione in Roma fù ordinata da Numa",
@@ -114,6 +180,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm_intro1-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "& pure sacrificauano a tutti in vn medesimo modo",
@@ -123,6 +195,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm_intro1-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "& che hauendolo a questo fine condotto in cielo",
@@ -132,6 +210,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm_intro1-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "fù creduto più vniversalmente, che fosse di esso Prometheo",
@@ -141,6 +225,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm_intro1-7",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "hauendo già Pilato portato in Giudea alcuni stendardi",
@@ -150,6 +240,11 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm_intro1-5",
+      "fields": [
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "quando sentiuano di hauerlo offeso",
@@ -159,6 +254,11 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm_intro1-4",
+      "fields": [
+        "text_ru",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "succedendo sempre quello, che era più vicino a chi andaua innanzi à lui",
@@ -168,6 +268,10 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm_intro1-9",
+      "fields": [
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "volle, che si perdonasse, & rimettesse qual si voglia misfatto",

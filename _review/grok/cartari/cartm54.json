@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm54-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "ni di conto, li quali si mutauano di habito per non essere",
@@ -15,6 +21,10 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm54-2",
+      "fields": [
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Per lei si creda che sia la fierezza Vinta, e fatta piaceuole, & humile.",
@@ -24,6 +34,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm54-3",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "con la sinistra mano sostiene vno scudo fermato sopra il ginocchio, & & ad ciascheduno de i lati",
@@ -33,6 +49,10 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm54-4",
+      "fields": [
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "ni di conto, li quali si mutauano di habito",
@@ -42,6 +62,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm54-3",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "ocr",
       "original": "& & ad ciascheduno de i lati hà vn Lione",
@@ -51,6 +77,10 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm54-5",
+      "fields": [
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "ocr",
       "original": "così dice Ouidio di questa Dea: Per",

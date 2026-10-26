@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cart10-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "MINERVA Dicesi, che fra le marauigliose cose date da Dio alla Natura",
@@ -15,6 +21,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cart10-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Giuano intanto con le chiome sparse Le donne d'Ilio",
@@ -24,6 +36,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cart10-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Giuano intanto con le chiome sparse Le donne d'Ilio",
@@ -33,6 +51,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cart10-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "spiccò fuori della terra vn rampollo di oglio",
@@ -42,6 +66,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cart10-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "spiccò fuori della terra vn rampollo di oglio",
@@ -51,6 +81,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cart10-4",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Crederan, che non più sia Sol vn Sole",
@@ -60,6 +96,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cart10-4",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Crederan, che non più sia Sol vn Sole",
@@ -69,6 +111,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cart10-5",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "name",
       "original": "& la tenne al suo seruitio fin, che accusò le figliole di Cercope",
@@ -78,6 +126,11 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cart10-6",
+      "fields": [
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "come già scrissi nel Flauio",
@@ -87,6 +140,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cart10-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Giuano intanto con le chiome sparse",
@@ -96,6 +155,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cart10-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "spiccò fuori della terra vn rampollo di oglio",
@@ -105,6 +170,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cart10-4",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Crederan, che non più sia Sol vn Sole",
@@ -114,6 +185,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cart10-5",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "name",
       "original": "accusò le figliole di Cercope",
@@ -123,11 +200,16 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cart10-6",
+      "fields": [
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "come già scrissi nel Flauio",
       "current": "au chapitre de Flavius",
-      "suggested": "dans mon «Flavio» (книга Картари «Il Flavio», не глава о Флавии; та же ошибка в RU/EN)",
+      "suggested": "dans mon «Flavio» (книга Картари «Il Flavio», не глава о Флавии; та же ошибка в EN; в RU «во Флавии» верно)",
       "confidence": "medium"
     }
   ]

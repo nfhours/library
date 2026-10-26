@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm13-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "Et perche oltre a gli animali consecrarono anco gli Antichi arbori, &",

@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm_fortunalieta-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "Imagini della lieta, & trista fortuna, ouero della fortuna passata, presente, & ventura, giudicata da gli antichi, benche sij solo",
@@ -15,6 +21,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_fortunalieta-2",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "name",
       "original": "la chiamarono spesso i Poeti Rhannusia da certo luoco nel paese di Athene",
@@ -24,6 +34,11 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_fortunalieta-3",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "la quale mostra la passata Fortuna, e perciò stà mesta",

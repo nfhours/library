@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm_occasione-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "Hieroglifico denotante la buona Fortuna quasi sempre andare con l'Eloquenza, & con la Dottrina, & l'imagine dell'Occasione, & opportunità da",
@@ -15,6 +21,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_occasione-2",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "name",
       "original": "era il suo nome Chero, che questa voce appresso de i Greci significa opportunità di tempo",
@@ -24,6 +34,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_occasione-3",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "ocr",
       "original": "chi lascia passar la buona occasione",

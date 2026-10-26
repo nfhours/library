@@ -6,6 +6,11 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "carta15-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "nel suo primo Libro della Poesia Satirica, a capitoli due.",

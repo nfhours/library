@@ -6,6 +6,10 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "carta2-1",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Questa figura s'è tolta da i Camei del Reuerendiss. Patriarca Grimani.",
@@ -15,6 +19,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "carta2-2",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "ocr",
       "original": "Et sono Iaso, Egele, Higià, & Panacea.",

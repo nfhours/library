@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm35-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "addition",
       "original": "Flacco, che le dà parimente il Ciembalo in mano. Ouidio, quando la",

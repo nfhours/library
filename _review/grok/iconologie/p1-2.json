@@ -6,6 +6,11 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "p1-2-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
       "paragraph": 13,
       "type": "mistranslation",
       "original": "le chesne, qui servoit encore de prix à la vertu des vainqueurs",
@@ -15,6 +20,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "p1-2-2",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 11,
       "type": "mistranslation",
       "original": "Aussi estoient-elles anciennement dediées à Junon",
@@ -24,6 +33,10 @@
     },
     {
       "field": "attrs",
+      "issue_id": "p1-2-3",
+      "fields": [
+        "attrs"
+      ],
       "paragraph": 5,
       "type": "addition",
       "original": "en vne maison qu'avoit prés d'Athenes vn de ses principaux Citoyens, qu'on appelloit Academus",

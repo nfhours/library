@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm_volupia-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "Imagini della Dea Volupia Dea de piaceri conculcante la Dea Virtù sotto li piedi suoi, denotante la detestanda, & infame",

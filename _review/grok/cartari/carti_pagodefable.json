@@ -6,6 +6,11 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "carti_pagodefable-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "(per darne la lode à chi viene)",
@@ -15,6 +20,10 @@
     },
     {
       "field": "text_en",
+      "issue_id": "carti_pagodefable-2",
+      "fields": [
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "name",
       "original": "detto per nome Ganissone",

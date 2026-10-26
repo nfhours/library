@@ -6,6 +6,10 @@
   "issues": [
     {
       "field": "text_en",
+      "issue_id": "p1-4-1",
+      "fields": [
+        "text_en"
+      ],
       "paragraph": 3,
       "type": "mistranslation",
       "original": "il est tres-content de vivre & de mourir pour les interests d'vne veritable affection",
@@ -15,6 +19,10 @@
     },
     {
       "field": "attrs",
+      "issue_id": "p1-4-2",
+      "fields": [
+        "attrs"
+      ],
       "paragraph": 4,
       "type": "addition",
       "original": "l'Amitié ne doit pas moins paroistre dans les disgraces que dans les succés favorables",

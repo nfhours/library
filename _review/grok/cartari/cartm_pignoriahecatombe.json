@@ -6,6 +6,11 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm_pignoriahecatombe-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "Ma io credo, che'l nostro Autore parli de' poueri",

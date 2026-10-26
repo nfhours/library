@@ -6,6 +6,10 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "carta24-1",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "tirano il carro di Trittolemo fatte in questa maniera.",

@@ -6,6 +6,10 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "carta41-1",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 2,
       "type": "name",
       "original": "ritrouato già nelle rouine di Spello",
@@ -15,6 +19,11 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "carta41-2",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
       "paragraph": 2,
       "type": "mistranslation",
       "original": "Nel Cameo si vede Venere Calliga come stà nelle Medaglie.",

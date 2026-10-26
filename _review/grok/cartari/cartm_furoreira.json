@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm_furoreira-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "Imagine del Furore, & dell'Ira, & de suoi mali effetti, che sono sprezzar ogni pericolo, benche manifesto di morte &",
@@ -15,6 +21,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_furoreira-2",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "perdendo il furioso & iracondo la ragione nel furore & nell'ira",

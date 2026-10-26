@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm27-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "addition",
       "original": "perche è tale, che ogniuno da sè la può molto bene intendere.",

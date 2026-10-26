@@ -6,6 +6,10 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "p1-13-1",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 3,
       "type": "name",
       "original": "en vn vers qu'Ariste a pris plaisir de citer en ses Mecaniques, le Poëte Antiphon",

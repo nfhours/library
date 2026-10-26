@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm_invidia-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "Imagini dell'Inuidia, che à se stessa nuoce, essendo che l'inuidioso si strugge vedendo l'altrui prosperità, & si ottura l'orecchie à",
@@ -15,6 +21,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_invidia-2",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Ciò che vede gli porge odio, e disdegno",

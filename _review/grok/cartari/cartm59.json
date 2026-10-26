@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm59-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "Oltre alle già dette Dee vi fu la Dea Bona ancora, Nume",
@@ -15,6 +21,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm59-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "addition",
       "original": "cercò più volte con parole di di trarla alle sue voglie",
@@ -24,6 +36,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm59-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 3,
       "type": "addition",
       "original": "era questa Proserpina, figliuola di Cerere.",
@@ -33,6 +51,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm59-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "addition",
       "original": "cercò più volte con parole di di trarla alle sue voglie",
@@ -42,6 +66,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm59-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 3,
       "type": "addition",
       "original": "era questa Proserpina, figliuola di Cerere.",
@@ -51,6 +81,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm59-4",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "name",
       "original": "& quindi fu che i Sauatij popolo di Egitto voleuano",
@@ -60,6 +96,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm59-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "addition",
       "original": "Oltre alle già dette Dee vi fu la Dea Bona",
@@ -69,6 +111,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm59-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 3,
       "type": "addition",
       "original": "Oltre alle già dette Dee vi fu la Dea Bona",
@@ -78,6 +126,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm59-4",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "name",
       "original": "i Sauatij",
@@ -87,6 +141,10 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm59-5",
+      "fields": [
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "ocr",
       "original": "con parole di di trarla",
@@ -96,6 +154,10 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm59-6",
+      "fields": [
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "ocr",
       "original": "scriuendo del do della Beotia",

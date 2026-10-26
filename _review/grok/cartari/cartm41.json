@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm41-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "questo era adorato, & trouasi fra le cose antiche di Roma fatto",
@@ -15,6 +21,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm41-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Et per punire Gioue lo spergiuro, come hò detto",
@@ -24,6 +36,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm41-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Et per punire Gioue lo spergiuro, come hò detto",
@@ -33,6 +51,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm41-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Et per punire Gioue lo spergiuro, come hò detto",
@@ -42,6 +66,10 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm41-3",
+      "fields": [
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Et alcuni gli diedero parimente il nume di Bacco",

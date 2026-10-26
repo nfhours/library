@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm_marte-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "Imagine di Marte Dio della guerra, del suo carro, & della Fama sua messaggiera & anticipatrice, che più dice di",
@@ -15,6 +21,11 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_marte-2",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "battendosi la natura con mano ingrauidò di Marte",
@@ -24,6 +35,11 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm_marte-2",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "battendosi la natura con mano ingrauidò di Marte",
@@ -33,6 +49,11 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_marte-3",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "& fu fatto morire per mano … vn Tribuno della plebe, che hebbe ardire di nomarlo",
@@ -42,6 +63,11 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm_marte-3",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "& fu fatto morire per mano … vn Tribuno della plebe, che hebbe ardire di nomarlo",
@@ -51,6 +77,10 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm_marte-4",
+      "fields": [
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "quello perche è feroce, come scriue Pausania, & il più forte",
@@ -60,6 +90,11 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_marte-5",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Ma chi da gli antichi non sà fare ritratto della Discordia",
@@ -69,6 +104,11 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_marte-6",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "con le mani legate alle spalle con salde catene",
@@ -78,6 +118,11 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_marte-7",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "& il Porco portauano ancora, perche senza questo non si faceua mai tregua",
@@ -87,6 +132,10 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm_marte-8",
+      "fields": [
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "come io dissi già nel Flauio",
@@ -96,6 +145,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_marte-9",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Quiui sono l'impetuoso Furore, l'Ira arrabbiata",

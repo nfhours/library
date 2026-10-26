@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm_venerearmata-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "Imagine di Venere armata, di Venere vitrice, & di Venere in ceppi dinotante la fermezza, che deue essere nelli maritati",
@@ -15,6 +21,11 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_venerearmata-2",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Tu mi ti puoi oppor senza temere Vnqua di me",
@@ -24,6 +35,11 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_venerearmata-3",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "nè scriuendo si può mettere così interamente tutto, che non … vi rimanga qualche cosa sempre",
@@ -33,6 +49,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_venerearmata-4",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "ocr",
       "original": "Ma alcuni altri hanno detto, che Tindareo fece Venere così in Ceppi",

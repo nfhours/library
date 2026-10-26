@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm46-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "infin'a tanto, che venne l'hora del maturo parto, perche queste fauole per",
@@ -15,6 +21,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm46-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "quando taglia via tutti gli effetti del corpo",
@@ -24,6 +36,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm46-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "quando taglia via tutti gli effetti del corpo",
@@ -33,6 +51,10 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm46-3",
+      "fields": [
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "nè per questo fù ella men lodata, che meritasse la bellezza sua",
@@ -42,6 +64,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm46-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "quando taglia via tutti gli effetti del corpo",

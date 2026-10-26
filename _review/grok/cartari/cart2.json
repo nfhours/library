@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cart2-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "Et oltre alla statoa del Dio, che era nel Tempio, di fuori",
@@ -15,6 +21,10 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cart2-2",
+      "fields": [
+        "text_en"
+      ],
       "paragraph": 2,
       "type": "mistranslation",
       "original": "di cui le fauole lo fecero anco ministro, & seruidore",
@@ -24,6 +34,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cart2-3",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 2,
       "type": "mistranslation",
       "original": "dalla quale tutto riscaldato, pare che di dolcezza si disfaccia",
@@ -33,6 +47,10 @@
     },
     {
       "field": "text_it",
+      "issue_id": "cart2-4",
+      "fields": [
+        "text_it"
+      ],
       "paragraph": 1,
       "type": "ocr",
       "original": "non punto affeminato. no il seme nello sterco",

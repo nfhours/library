@@ -6,6 +6,10 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "p1-12-1",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 3,
       "type": "omission",
       "original": "les meilleurs Ouvriers ne s'estudient à perfectionner la nature par le moyen de l'Art, qu'à cause de l'esperance",

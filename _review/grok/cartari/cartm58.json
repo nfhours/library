@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm58-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "Dal quale non era differente quello che fu fatto à Pomona Dea",
@@ -15,6 +21,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm58-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "addition",
       "original": "Queste cose si operauano a' 28. d'Aprile, & il primo giorno di Maggio",
@@ -24,6 +36,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm58-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "addition",
       "original": "Queste cose si operauano a' 28. d'Aprile, & il primo giorno di Maggio",
@@ -33,6 +51,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm58-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "addition",
       "original": "Dal quale non era differente quello che fu fatto à Pomona",

@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm78-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "Percioche la Fede hà da stare secreta, cioè le cose, che altrui",
@@ -15,6 +21,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm78-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "addition",
       "original": "Percioche la Fede hà da stare secreta",
@@ -24,6 +36,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm78-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 3,
       "type": "addition",
       "original": "Erano oltre di ciò i pomi granati ancora segno di Concordia",
@@ -33,6 +51,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm78-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "addition",
       "original": "Percioche la Fede hà da stare secreta",
@@ -42,6 +66,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm78-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 3,
       "type": "addition",
       "original": "Erano oltre di ciò i pomi granati ancora segno di Concordia",
@@ -51,6 +81,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm78-4",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "per la ingordigia del guadagno vanno vilmente a baciar le mani a gli altri serui",
@@ -60,6 +96,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm78-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "addition",
       "original": "Percioche la Fede hà da stare secreta, cioè le cose,",
@@ -69,6 +111,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm78-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 3,
       "type": "addition",
       "original": "Percioche la Fede hà da stare secreta, cioè le cose,",
@@ -78,6 +126,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm78-4",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "vanno vilmente a baciar le mani a gli altri serui",
@@ -87,6 +141,10 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm78-5",
+      "fields": [
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "name",
       "original": "Et Macrobio facendo parlare Pretestato",

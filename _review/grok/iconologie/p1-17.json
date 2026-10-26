@@ -6,6 +6,11 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "p1-17-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
       "paragraph": 9,
       "type": "mistranslation",
       "original": "parce qu'elle aime les Muses, & que les Poëtes qui en sont inspirez",

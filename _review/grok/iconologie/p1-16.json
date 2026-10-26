@@ -6,6 +6,10 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "p1-16-1",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 7,
       "type": "mistranslation",
       "original": "& les livres vn signe exprés de l'authorité des écritures",

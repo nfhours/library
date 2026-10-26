@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm_venerecupidogiogo-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "Imagini di Venere, di Cupido, del Giogo, & del Capro, quali significano la generatione, & l'imagine della Testudine hieroglifico, che",
@@ -15,6 +21,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_venerecupidogiogo-2",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "prepone la salute al libidinoso piacere",

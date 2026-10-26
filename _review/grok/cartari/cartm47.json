@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm47-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "resistere à così affetuosi preghi, gli si mostrò vestito di vna pelle",
@@ -15,6 +21,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm47-2",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "volendo à colui dare la insegna della vita, che fu cagione altrui di viuere",
@@ -24,6 +34,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm47-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "tutti quelli che sono quiui, vanno à battere lo scorticato Montone",
@@ -33,6 +49,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm47-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "tutti quelli che sono quiui, vanno à battere lo scorticato Montone",
@@ -42,6 +64,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm47-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "tutti quelli che sono quiui, vanno à battere lo scorticato Montone",

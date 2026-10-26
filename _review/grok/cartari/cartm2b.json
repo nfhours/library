@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm2b-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "In parte sì da noi lunge, e secreta, / Ch'alcun mortal vestigio non v'appare",
@@ -15,6 +21,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm2b-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "In parte sì da noi lunge, e secreta, / Ch'alcun mortal vestigio non v'appare",
@@ -24,6 +36,11 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm2b-2",
+      "fields": [
+        "text_ru",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "mistranslation",
       "original": "Laqual con modo, ch'unqua non vien meno, / Manda, e richiama i tempi",
@@ -33,6 +50,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm2b-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "mistranslation",
       "original": "Che così voglion le leggi diuine.",
@@ -42,6 +65,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm2b-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "mistranslation",
       "original": "Che così voglion le leggi diuine.",
@@ -51,6 +80,11 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm2b-4",
+      "fields": [
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 3,
       "type": "mistranslation",
       "original": "e à gli altri rai s'inchina",
@@ -60,6 +94,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm2b-5",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "con vna palla nella destra mano",
@@ -69,6 +107,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm2b-6",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 4,
       "type": "mistranslation",
       "original": "perche non ce n'auuedendo noi, passa il tempo, come di nascosto",
@@ -78,6 +120,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm2b-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "In parte sì da noi lunge, e secreta,",
@@ -87,6 +135,11 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm2b-2",
+      "fields": [
+        "text_ru",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "mistranslation",
       "original": "Laqual con modo, ch'unqua non vien meno,",
@@ -96,6 +149,10 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm2b-7",
+      "fields": [
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "mistranslation",
       "original": "Questa col flessuoso corpo cinge … Un serpe pien di verdeggianti squame,",
@@ -105,6 +162,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm2b-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "mistranslation",
       "original": "Che così voglion le leggi diuine.",
@@ -114,6 +177,11 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm2b-4",
+      "fields": [
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 3,
       "type": "mistranslation",
       "original": "e à gli altri rai s'inchina",
@@ -123,6 +191,10 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm2b-8",
+      "fields": [
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "che Dio è Eterno & il modo perpetuo",

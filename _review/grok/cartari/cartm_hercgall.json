@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm_hercgall-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "quenza, in questa guisa, come racconta Luciano. Era vn vecchio quasi all'vltima",
@@ -15,6 +21,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_hercgall-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "addition",
       "original": "quenza, in questa guisa, come racconta Luciano",
@@ -24,6 +36,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm_hercgall-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "addition",
       "original": "quenza, in questa guisa, come racconta Luciano",
@@ -33,6 +51,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm_hercgall-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "addition",
       "original": "quenza, in questa guisa, come racconta Luciano. Era vn vecchio",

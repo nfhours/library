@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm_nemesi-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "Imagine della dea Nemesi dimostratrice delle buone opere, & seuera punitrice de superbi, & maluagi; & cortese, & larga donatrice,",
@@ -15,6 +21,10 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm_nemesi-2",
+      "fields": [
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "guarda che tu non ti facci poco conto de' miei prieghi, e mi disprezzi",

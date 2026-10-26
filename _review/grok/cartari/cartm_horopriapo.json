@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm_horopriapo-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "Imagine di Horo Dio delli Egittij, che è Priapo, & Bacco ancora, il quale viene inteso per la virtù seminale,",

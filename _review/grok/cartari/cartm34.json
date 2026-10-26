@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm34-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "addition",
       "original": "che l'vniuerso pigli nutrimento dalla terra, ouero dalla virtù occulta della Natura,",
@@ -15,6 +21,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm34-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Dona à Megera, e come lor regina",
@@ -24,6 +36,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm34-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Dona à Megera, e come lor regina",
@@ -33,6 +51,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm34-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "name",
       "original": "Porfirio, come riferisce Theodorito Vescouo Cirense",
@@ -42,6 +66,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm34-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "name",
       "original": "Porfirio, come riferisce Theodorito Vescouo Cirense",
@@ -51,6 +81,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm34-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "E quando in alto seggio assisa, legge … Dona à Megera",
@@ -60,6 +96,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm34-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "name",
       "original": "come riferisce Theodorito Vescouo Cirense",
@@ -69,6 +111,10 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm34-4",
+      "fields": [
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Seguita poi, che la verità è, che questo è vn tristo Demonio",

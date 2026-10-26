@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm48-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "Oltre di ciò dissero i Poeti, che Iride, che significa l'arco Celeste,",
@@ -15,6 +21,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm48-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "le ricchezze fanno marauigliare i sciocchi li quali così tosto se ne vanno",
@@ -24,6 +36,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm48-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "le ricchezze fanno marauigliare i sciocchi li quali così tosto se ne vanno",
@@ -33,6 +51,10 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm48-3",
+      "fields": [
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "promettendogli Deiopea la più bella moglie",
@@ -42,6 +64,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm48-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "li quali così tosto se ne vanno poi",

@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm_trionfoamore-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "Trionfo d'Amore descritto da Filostrato, dal Petrarca, & da altri antichi & moderni, significante la forza d'Amore.",
@@ -15,6 +21,11 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_trionfoamore-2",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Perdon lor primi ben per leggier cura.",
@@ -24,6 +35,11 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_trionfoamore-3",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Od'egli hà sempre le sue mani armate,",
@@ -33,6 +49,11 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_trionfoamore-4",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "in Un passo men'Varco:",

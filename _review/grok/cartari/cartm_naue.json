@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm_naue-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "Imagine della Naue di Bacco, del monte Timolo di Lidia delle Bacche per quello scorrenti, & de Corsari Tirrheni captori",
@@ -15,6 +21,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_naue-2",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "ocr",
       "original": "Vedesi à tempi nostri ancora quasi la medesima Naue",

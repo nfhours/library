@@ -6,6 +6,11 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm_pignoriatarracina-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "nei 12. Cesari d'Enea Vico di Rame nella Tauola 2. al n. 22. d'Argento nella Tauola 2.",

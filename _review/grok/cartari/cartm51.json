@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm51-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "farla ritornare, ma non sapea in che modo, ne dimandò consiglio a",
@@ -15,6 +21,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm51-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "come quella, che ad ambi fu bi fu madregna, secondo le fauole",
@@ -24,6 +36,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm51-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "omission",
       "original": "come quella, che ad ambi fu bi fu madregna, secondo le fauole",
@@ -33,6 +51,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm51-3",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "name",
       "original": "in Roma fu chiamato certo luoco Vico giugario",
@@ -42,6 +64,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm51-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "come quella, che ad ambi fu bi fu madregna",

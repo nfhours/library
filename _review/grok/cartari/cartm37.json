@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm37-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "addition",
       "original": "delicatamente si voleuano adornare, di mettersi alcune cicalette d'oro intorno alla fronte.",
@@ -15,6 +21,11 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm37-2",
+      "fields": [
+        "text_ru",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "che tirassero per arte magica, & a forza d'incanti Gioue di Cielo a venire a rispondere",
@@ -24,6 +35,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm37-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Là già perduta luce, se con fosche",
@@ -33,6 +50,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm37-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Là già perduta luce, se con fosche",
@@ -42,6 +65,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm37-4",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "vna Luna tutta risplendente, dente",
@@ -51,6 +80,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm37-4",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "vna Luna tutta risplendente, dente",
@@ -60,6 +95,11 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm37-5",
+      "fields": [
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "fosse perita insieme con le altre che cose",
@@ -69,6 +109,11 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm37-2",
+      "fields": [
+        "text_ru",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "che tirassero per arte magica, & a forza d'incanti Gioue di Cielo",
@@ -78,6 +123,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm37-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Quando la Luna à racquistar comincia … Là già perduta luce",
@@ -87,6 +138,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm37-4",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "ocr",
       "original": "nel mezo delle quali era vna Luna tutta risplendente, dente",
@@ -96,6 +153,11 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm37-5",
+      "fields": [
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "ocr",
       "original": "fosse perita insieme con le altre che cose",
@@ -105,6 +167,10 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm37-6",
+      "fields": [
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "ocr",
       "original": "vi erano due altre te- … ste, che si moueuano",

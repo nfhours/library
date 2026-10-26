@@ -6,6 +6,10 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm_angerona-1",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "omission",
       "original": "Nel tempio di costei era posta sopra vn'altare Angerona creduta parimente Dea",
@@ -15,6 +19,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_angerona-2",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "facendone cessare il male della squilantia chiamata angina da' Latini",
@@ -24,6 +32,11 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_angerona-3",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "come che la lingua manifesti quello, che è nel core, ma non lo debba però fare",

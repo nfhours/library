@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm_intro2-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Et sarebbe, dice Plinio, stato meglio assai, che mandarle come in bando alle ville",
@@ -15,6 +21,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm_intro2-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Et sarebbe, dice Plinio, stato meglio assai, che mandarle come in bando alle ville",
@@ -24,6 +36,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_intro2-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "ma di legno di vliuo non saluatico",
@@ -33,6 +51,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm_intro2-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "ma di legno di vliuo non saluatico",
@@ -42,6 +66,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_intro2-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "E fur con grata pouertà adorati / Nè le pouere case i Dei di legno.",
@@ -51,6 +81,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm_intro2-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "E fur con grata pouertà adorati / Nè le pouere case i Dei di legno.",
@@ -60,6 +96,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_intro2-4",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "fatte da pittori, & scultori eccellenti",
@@ -69,6 +109,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_intro2-5",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "della terra sterile & infecoda",
@@ -78,6 +122,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_intro2-6",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "& come che Gioue gli mostrasse tutto quello, che douea fare",
@@ -87,6 +135,11 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm_intro2-7",
+      "fields": [
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "da quella di Scipione in fuori, che era leuata del Campidoglio",
@@ -96,6 +149,10 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm_intro2-8",
+      "fields": [
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "cò Mitridate, simo nimico, nondimeno non mossero mai",
@@ -105,6 +162,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_intro2-9",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Osseruarono poi gli antichi di fare le statoe in modo",
@@ -114,6 +175,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm_intro2-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Et sarebbe, dice Plinio, stato meglio assai, che mandarle come in bando alle ville.",
@@ -123,6 +190,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm_intro2-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "ma di legno di vliuo non saluatico",
@@ -132,6 +205,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm_intro2-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "E fur con grata pouertà adorati … Nè le pouere case i Dei di legno.",
@@ -141,6 +220,11 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm_intro2-7",
+      "fields": [
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "da quella di Scipione in fuori, che era leuata del Campidoglio",

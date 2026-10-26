@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm_anubis-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "do ei descriue l'Achaia, che era in certa parte di quel paese",
@@ -15,6 +21,11 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_anubis-2",
+      "fields": [
+        "text_ru",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Et vn'altra ne era appresso de' Tanagrei gente della Beotia, che portaua vn montone in collo",
@@ -24,6 +35,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_anubis-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "perche dissero le fauole, & lo riferisce Marco Marco Tullio",
@@ -33,6 +50,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm_anubis-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "perche dissero le fauole, & lo riferisce Marco Marco Tullio",
@@ -42,6 +65,11 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm_anubis-2",
+      "fields": [
+        "text_ru",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Et vn'altra ne era appresso de' Tanagrei gente della Beotia, che portaua vn montone in collo",
@@ -51,6 +79,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm_anubis-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "ocr",
       "original": "& lo riferisce Marco Marco Tullio",

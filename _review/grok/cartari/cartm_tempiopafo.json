@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm_tempiopafo-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "Tempio di Venere in Pafo Città di Cipro con gieroglifico lei & sua natura dimostrante. Carro di Venere tirato da",
@@ -15,6 +21,11 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_tempiopafo-2",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "rossa, come dice Anacreonte, che è Venere, oue ei la chiama porporea",
@@ -24,6 +35,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_tempiopafo-3",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Egli fù poi dato parimente a Venere come a gli altri Dei vn carro",

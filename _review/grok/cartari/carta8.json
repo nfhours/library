@@ -6,6 +6,10 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "carta8-1",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 2,
       "type": "name",
       "original": "Il Canopo tirato in Cameo è figura hor mai tanto conosciuta",

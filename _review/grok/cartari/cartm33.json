@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm33-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "addition",
       "original": "al Dio dell'Inferno come Cerbero, dalle fauole tanto celebrato, ne fà fede.",
@@ -15,6 +21,10 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm33-2",
+      "fields": [
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "ocr",
       "original": "vn numero grande di minuti nuti granelli",

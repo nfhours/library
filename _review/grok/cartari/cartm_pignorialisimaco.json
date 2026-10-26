@@ -6,6 +6,11 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm_pignorialisimaco-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Antichità, tenne sempre, che l'effiggie con le corna, che si vede nelle Medaglie di Lisimaco",

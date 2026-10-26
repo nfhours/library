@@ -6,6 +6,11 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "carta31-1",
+      "fields": [
+        "text_ru",
+        "text_fr"
+      ],
       "paragraph": 3,
       "type": "addition",
       "original": "che tanto può essere Mercurio, quanto Bellerofonte.",

@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm_isismoonjove-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "saggi, che Gioue fosse, quale si vede nel Campidoglio",
@@ -15,6 +21,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm_isismoonjove-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "saggi, che Gioue fosse, quale si vede nel Campidoglio",
@@ -24,6 +36,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_isismoonjove-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "wrong_article",
       "original": "saggi, che Gioue fosse, quale si vede nel Campidoglio",
@@ -33,6 +51,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm_isismoonjove-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "wrong_article",
       "original": "saggi, che Gioue fosse, quale si vede nel Campidoglio",
@@ -42,6 +66,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_isismoonjove-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "saggi, che Gioue fosse, quale si vede nel Campidoglio",
@@ -51,6 +81,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm_isismoonjove-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "saggi, che Gioue fosse, quale si vede nel Campidoglio",
@@ -60,6 +96,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_isismoonjove-4",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "— (фрагмента нет в text_it)",
@@ -69,6 +109,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm_isismoonjove-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "wrong_article",
       "original": "saggi, che Gioue fosse, quale si vede nel Campidoglio",
@@ -78,6 +124,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm_isismoonjove-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "wrong_article",
       "original": "saggi, che Gioue fosse, quale si vede nel Campidoglio",
@@ -87,6 +139,10 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm_isismoonjove-5",
+      "fields": [
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "saggi, che Gioue fosse, quale si vede nel Campidoglio",
@@ -96,6 +152,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm_isismoonjove-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "saggi, che Gioue fosse, quale si vede nel Campidoglio",

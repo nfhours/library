@@ -6,6 +6,10 @@
   "issues": [
     {
       "field": "attrs",
+      "issue_id": "p1-7-1",
+      "fields": [
+        "attrs"
+      ],
       "paragraph": 2,
       "type": "addition",
       "original": "Cette nouveauté n'est pas bien grande, de voir la peinture d'vn enfant",

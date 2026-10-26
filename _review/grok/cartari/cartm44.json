@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm44-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "su due Tori. Ma all'incontro poi in alcune medaglie pure antiche di",
@@ -15,6 +21,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm44-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Ne altra insegna pare, che sia propria a Gioue del Fulmine, benche lo dessero i Romani",
@@ -24,6 +36,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm44-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Ne altra insegna pare, che sia propria a Gioue del Fulmine, benche lo dessero i Romani",
@@ -33,6 +51,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm44-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "in alcune medaglie pure antiche di Antonino Pio",
@@ -42,6 +66,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm44-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "in alcune medaglie pure antiche di Antonino Pio",
@@ -51,6 +81,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm44-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Ne altra insegna pare, che sia propria a Gioue del Fulmine",
@@ -60,6 +96,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm44-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "in alcune medaglie pure antiche di Antonino Pio",

@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm_priapohorti-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "Imagine di Priapo Dio delli Horti, & del membro virile, & dell'Asino, & del Becco à lui sacrati, essendo inteso",
@@ -15,6 +21,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_priapohorti-2",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Dimmi con che arte fai tù, che ti Vole Ogni bel giouinetto sì gran bene",
@@ -24,6 +34,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm_priapohorti-3",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "E quanto può ti riuerisce, e cole?",
@@ -33,6 +47,10 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm_priapohorti-4",
+      "fields": [
+        "text_en"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "perche Priapo sdegnato di ciò l'vccise",

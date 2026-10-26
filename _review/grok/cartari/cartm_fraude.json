@@ -6,6 +6,10 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm_fraude-1",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "omission",
       "original": "La Fraude poi, quale fece Apelle in forma di donna, fu disegnata",

@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm18-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "addition",
       "original": "Oltre di ciò mostrauano gli Assirij il potere che hà il Sole",
@@ -15,6 +21,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm18-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "mistranslation",
       "original": "che dall'vn lato, & dall'altro haueua due altre figure tre imagini parimente di femina",
@@ -24,6 +36,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm18-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "mistranslation",
       "original": "che dall'vn lato, & dall'altro haueua due altre figure tre imagini parimente di femina",
@@ -33,6 +51,11 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm18-3",
+      "fields": [
+        "text_ru",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "mistranslation",
       "original": "alcuni de gli Assirij solamente fecero Apollo con la barba",
@@ -42,6 +65,11 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm18-3",
+      "fields": [
+        "text_ru",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "mistranslation",
       "original": "alcuni de gli Assirij solamente fecero Apollo con la barba",
@@ -51,6 +79,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm18-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "ocr",
       "original": "haueua due altre figure tre imagini parimente di femina",

@@ -6,6 +6,12 @@
   "issues": [
     {
       "field": "text_ru",
+      "issue_id": "cartm28-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 2,
       "type": "addition",
       "original": "vigore assai di questa, della quale dirò subito, che hauerò disegnata l'Aurora,",
@@ -15,6 +21,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm28-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Quiui ad vn parto il Sole, e la sorella / Finto ella stessa hauea",
@@ -24,6 +36,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm28-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Quiui ad vn parto il Sole, e la sorella / Finto ella stessa hauea",
@@ -33,6 +51,11 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm28-3",
+      "fields": [
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "che disegna Claudiano nella veste di Proserpina",
@@ -42,6 +65,10 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm28-4",
+      "fields": [
+        "text_ru"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "ò Ver nel grembo / Grata gli tiene",
@@ -51,6 +78,12 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm28-5",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "A Thetide pietosa ascinga il petto.",
@@ -60,6 +93,12 @@
     },
     {
       "field": "text_en",
+      "issue_id": "cartm28-5",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "A Thetide pietosa ascinga il petto.",
@@ -69,6 +108,11 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm28-6",
+      "fields": [
+        "text_ru",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Ma non voglio entrare in queste cose Sole de gli Astrologi",
@@ -78,6 +122,11 @@
     },
     {
       "field": "text_ru",
+      "issue_id": "cartm28-7",
+      "fields": [
+        "text_ru",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Tale era il finto Sol ne gli anni primi",
@@ -87,6 +136,11 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm28-3",
+      "fields": [
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "che disegna Claudiano nella veste di Proserpina",
@@ -96,6 +150,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm28-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Quiui ad vn parto il Sole, e la sorella … Finto ella stessa hauea",
@@ -105,6 +165,12 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm28-5",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "A Thetide pietosa ascinga il petto.",
@@ -114,6 +180,11 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm28-7",
+      "fields": [
+        "text_ru",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Tale era il finto Sol ne gli anni primi",
@@ -123,6 +194,11 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm28-6",
+      "fields": [
+        "text_ru",
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Ma non voglio entrare in queste cose Sole de gli Astrologi",
@@ -132,6 +208,10 @@
     },
     {
       "field": "text_fr",
+      "issue_id": "cartm28-8",
+      "fields": [
+        "text_fr"
+      ],
       "paragraph": 1,
       "type": "ocr",
       "original": "& da gie la sinistra",
