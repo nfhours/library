@@ -1,0 +1,21 @@
+{
+  "id": "v1-27-15",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-27-15-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "La vertu ne craint rien.",
+      "current": "Благородная доблесть ничего не боится.",
+      "suggested": "«Благородная» — из латинского generosa, во французском нет: «Доблесть ничего не боится»",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "v1-27-13",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v1-27-13-1",
+      "fields": [
+        "ru",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Vn fusil frapé d'un Caillou.",
+      "current": "Кремень, ударяемый камнем.",
+      "suggested": "fusil — огниво (стальное кресало), caillou — кремень; в переводе предметы спутаны: «Огниво, по которому бьют кремнём»",
+      "confidence": "medium"
+    }
+  ]
+}

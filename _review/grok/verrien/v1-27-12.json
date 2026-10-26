@@ -1,0 +1,21 @@
+{
+  "id": "v1-27-12",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-27-12-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "Il est plus clair quand il paroist.",
+      "current": "Выходя из своей темницы, она становится ярче.",
+      "suggested": "переведён латинский девиз (De carcere clarior exit), а не толкование: «Она ярче, когда появляется»",
+      "confidence": "medium"
+    }
+  ]
+}

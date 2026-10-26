@@ -1,0 +1,23 @@
+{
+  "id": "v1-28-12",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-28-12-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Quis metiet?",
+      "current": "Quis metiet?",
+      "suggested": "[LA] классически «Quis metietur?» (metior — отложительный глагол); возможно, так в издании. Скана текста нет; не уверен",
+      "confidence": "low"
+    }
+  ]
+}
