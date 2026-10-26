@@ -1,0 +1,47 @@
+{
+  "id": "pl42-3",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl16-4-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "typo",
+      "original": "se trouve dans une des caves antiques de l'Abbaye St. Sauveur (32).",
+      "current": "Сен-Соверa",
+      "suggested": "латинская «a» в «Сен-Соверa» (§1 и §3), как в pl16-4 / pl36-1. «Сен-Совёр» (§1 «аббатства Сен-Совёр», как в findspot_ru; §3 «подвалах Сен-Совёра»)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "pl42-3-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "typo",
+      "original": "se trouve dans une des caves antiques de l'Abbaye St. Sauveur (32).",
+      "current": "в одной из античных подвалов",
+      "suggested": "ошибка согласования (подвал — м. р.): «в одном из античных подвалов»",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "pl42-3-2",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "Préfet de la cohorte des Troyens;",
+      "current": "префекту дарданской когорты",
+      "suggested": "у Гроссона — «когорты троянцев» (так он понимает DARDANORVM); RU подставляет правильное латинское значение. По тексту: «префекту когорты троянцев». EN «Trojan» верно. Не уверен, нужна ли правка (смысл близок)",
+      "confidence": "low"
+    }
+  ]
+}

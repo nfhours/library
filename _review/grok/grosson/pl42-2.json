@@ -1,0 +1,22 @@
+{
+  "id": "pl42-2",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl42-2-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "Elle étoit si douce qu'elle étoit à désirer autant que les aromates toujours mieilleux;",
+      "current": "RU «как самые изысканные благовония»; EN «as much as ever-improving spices»",
+      "suggested": "mieilleux = mielleux, «медвяные, сладкие как мёд» (перевод MELEARITA); EN «ever-improving» — ошибка, RU потерял «toujours mieilleux». RU «…как всегда медвяные благовония»; EN «…as much as ever-honeyed spices»",
+      "confidence": "medium"
+    }
+  ]
+}

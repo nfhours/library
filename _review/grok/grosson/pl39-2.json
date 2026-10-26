@@ -1,0 +1,24 @@
+{
+  "id": "pl39-2",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "fr",
+      "issue_id": "pl39-2-1",
+      "fields": [
+        "fr",
+        "name_fr",
+        "ru",
+        "en"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "C'est-à-dire, Aux Dieux Manes. Thallusa a élevé ce monument à Zosime son compagnon. Zosime est un nom Grec.",
+      "current": "fr/name_fr «Épitaphe grecque de Zosime, par Thallusa»; ru «Греческая эпитафия Зосима от Таллусы»; en «Greek-named epitaph of Zosimus, by Thallusa»",
+      "suggested": "надпись латинская (D.M. ZOSIMO SODALI THALLVSA); у Гроссона греческое только имя. К тому же en не совпадает с fr/ru. fr «Épitaphe de Zosime (nom grec), par Thallusa»; ru «Эпитафия Зосима (греческое имя) от Таллусы»; en «Epitaph of Zosimus (a Greek name), by Thallusa»",
+      "confidence": "medium"
+    }
+  ]
+}

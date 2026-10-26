@@ -2,20 +2,6 @@
   "id": "pl38-3",
   "book": "grosson",
   "pass": "A",
-  "verdict": "minor",
-  "issues": [
-    {
-      "field": "text_ru",
-      "issue_id": "pl38-3-1",
-      "fields": [
-        "text_ru"
-      ],
-      "paragraph": 1,
-      "type": "name",
-      "original": "on distinguoit, selon le Père Guesnay (16), celle représentée sous ce numéro.",
-      "current": "Генэ",
-      "suggested": "Guesnay в pl20-1 RU — «Гене»; здесь «Генэ» (§1, §4). Унифицировать: «Гене»",
-      "confidence": "low"
-    }
-  ]
+  "verdict": "ok",
+  "issues": []
 }

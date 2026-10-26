@@ -1,0 +1,21 @@
+{
+  "id": "pl41-3",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_en",
+      "issue_id": "pl41-3-1",
+      "fields": [
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Tombeau trouvé à la plaine St. Michel, qui est l'ancien champ de Mars (26).",
+      "current": "Tomb found on the plain of St. Michael",
+      "suggested": "топоним переведён на английский, тогда как findspot_en и вся книга оставляют французские названия (Saint-Victor, Saint-Sauveur). «Tomb found on the plain of St. Michel»",
+      "confidence": "low"
+    }
+  ]
+}

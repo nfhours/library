@@ -48,3 +48,13 @@ pl38-2,legend,,"engraving: D M / COSSVTIAE / VICTORIA / OMP. ABAS / CANTVS CO / 
 pl38-3,legend,,"engraving matches legend_*",info
 pl38-4,legend,,"engraving: ♡D♡M♡ / HIO♡POMPEIO / FELICIANO / POMPEIA / MVSKA ALVMNO / DVLCISSIMO — matches legend_*; engraver mark «Lant.me Sculp.» on plate",info
 pl33-2..pl38-4,structured,,"batch 10: material/legend/findspot ru/en checked against fr; legends are untranslated transcriptions; no meaning-changing contradiction; ru heading pl37-4 gender → pl37-4-1; heading pl37-3 → pl37-3-1",ok
+pl39-1,legend,,"engraving: ♡D♡M / T·MACCI° MARCELL° / MACCIA♡IANVARIA / FILI° PIISSIM° / ET LICINIA CARPIME VXOR (small superscript o's, ligatures) — legend_* normalizes to MARCELLO/FILIO/PIISSIMO/CARPIMAE; consistent with text, CARPIME vs CARPIMAE проверить по фото",info
+pl39-5,legend,,"engraving reads COLVCI OPTIMO (not CONIVGI); text_fr §1 and legend_* give CONIVGI, §3 mentions COLVCI as a variant — source/engraving discrepancy, translations follow the text; not logged",info
+pl40-1,legend,,"engraving: D M / LICY RIAE / SEBASTEO / IVNI·TYRAN / MIS AMICAE / MIRE NTISSI / MAE — matches legend_* (IVNI TYRANMIS); text §1 normalizes to IVNIA TIRANMIS",info
+pl40-3,legend,,"engraving: MARCII·♡ / LENAEVS E / TYCHECIA IA / DEO FILIO / PIENTISSIM — has «IA DEO» (= Jadéus of the text); legend_* and text_fr §1 give «TYCHECIA DEO» without IA. legend follows Grosson's transcription; проверить по фото",info
+pl41-*,sponsor,"Aux depens de l'Auteur","engraved sponsor line with Grosson's coat of arms on pl41 — note only",info
+pl41-5,legend,,"engraving: Q MINATI CELERIS / CLAVDIANI FECER / PLARIA·VERA·VXOR / ET Q MINATIVS TI / RIDA STAT — legend_* MINANTIVS (as text_fr §1); engraving MINATIVS. Not meaning-changing; проверить по фото",info
+pl42-2,legend,,"engraving shows full text through ANN. III MENS. VII DIEB XVI; legend_* stops at DOLOREM (truncated, consistent where present). Engraving DIEB XVI vs Grosson's «quinze jours» — source discrepancy, translations follow Grosson",info
+pl42-3,legend,,"legend_* gives only the first line(s) of an 11-line Greek inscription (ΤΠΟΡΚΙΩΠΡΟΚΛΟΥ … ΚΑΙ ΠΡΟΦΗΤΟΥ, words run together); text gives only Grosson's Latin version. Incomplete, not contradictory — проверить по фото if full legend wanted",info
+frag-1..3,legend,,"fragplate-1 nos. 1–3 match the readings in text_fr (VOL. EVTICHE / EVTICHVS FILIAE DVLCISSIMAE; FLAVO LVCIANO … ANIAE DEFVNCTIS; L. VALERIO FELICI VALERIA AMILIA P PATRI PIISSIMA); entries have no legend_* fields",info
+pl39-1..frag-3,structured,,"batch 11: material/findspot ru/en checked against fr — no contradictions; legend_* untranslated transcriptions identical in fr/ru/en",ok

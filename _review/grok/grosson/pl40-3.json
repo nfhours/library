@@ -1,0 +1,24 @@
+{
+  "id": "pl40-3",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "fr",
+      "issue_id": "pl40-3-1",
+      "fields": [
+        "fr",
+        "name_fr",
+        "ru",
+        "en"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "Lenaeus a élevé ce monument aux Dieux Manes de Marcius & Etyches [Eutyches] à Jadéus son fils très-respectueux;",
+      "current": "fr/name_fr «Épitaphe de Marcius Eutyches, par son père Lenaeus»; ru «Эпитафия Марция Эвтиха от его отца Ленея»; en «Epitaph of Marcius Eutyches, by his father Lenaeus»",
+      "suggested": "у Гроссона Марций и Эвтих — двое, а сын — Жадей (Jadéus); заголовок сливает имена и делает сыном «Марция Эвтиха». По тексту: fr «Épitaphe de Marcius et Eutyches, par Lenaeus (à son fils Jadéus)»; ru «Эпитафия Марция и Эвтиха от Ленея (сыну Жадею)»; en «Epitaph of Marcius and Eutyches, by Lenaeus (to his son Jadeus)». Чтение Гроссона само по себе путаное — Не уверен в лучшей формулировке",
+      "confidence": "medium"
+    }
+  ]
+}

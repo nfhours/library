@@ -1,0 +1,21 @@
+{
+  "id": "pl40-1",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl40-1-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "typo",
+      "original": "Junie de la famille Tiranmis a élevé ce monument aux Dieux Manes de sa très-méritante Amie Licyria de la famille Sebastea, ou Sebastes.",
+      "current": "Лициии",
+      "suggested": "пропущен слог: «Лицирии» (как в заголовке)",
+      "confidence": "high"
+    }
+  ]
+}

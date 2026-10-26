@@ -1,0 +1,61 @@
+{
+  "id": "pl41-5",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl38-1-2",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "sur la principale face étoit sculptée en creux l'épitaphe suivante:",
+      "current": "RU «была рельефно высечена»; EN «was carved in relief»",
+      "suggested": "en creux — врезано, углублённо (не рельеф). RU «была врезана (высечена углублённо)»; EN «was carved in intaglio (incised)»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "pl41-5-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 4,
+      "type": "typo",
+      "original": "Les deux freres Tiberius & Caius Gracchus, devenus tribuns du peuple, firent de l'ordre Equestre un corps séparé,",
+      "current": "всаднический сословие",
+      "suggested": "ошибка согласования: «всадническое сословие»",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "issue_id": "pl41-5-2",
+      "fields": [
+        "text_en"
+      ],
+      "paragraph": 6,
+      "type": "mistranslation",
+      "original": "ce qui avoit fait donner le nom de couleur de Tyr, Tirida à la couleur de pourpre.",
+      "current": "which gave rise to naming the color of Tyre, Tirida, after purple",
+      "suggested": "смысл перевёрнут: это пурпур получил название «тирский цвет», Tirida, а не наоборот. «…which had led to purple being given the name of Tyrian color, Tirida». RU верно",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "pl41-5-3",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 6,
+      "type": "mistranslation",
+      "original": "Les mots Tirida stat pour désigner que l'Angusticlave, qui étoit la robbe des Chevaliers Romains, se trouvoit renfermée dans le monument,",
+      "current": "узкая пурпурная полоса (Angusticlave) — одеяние римских всадников — хранилась",
+      "suggested": "у Гроссона Angusticlave — одежда всадников (в §7 — одеяние с узкими пурпурными полосами), а не сама полоса. «…что Angusticlave, одеяние римских всадников, хранилась…». EN верно",
+      "confidence": "low"
+    }
+  ]
+}

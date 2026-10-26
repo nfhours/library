@@ -1,0 +1,24 @@
+{
+  "id": "pl42-1",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "fr",
+      "issue_id": "pl42-1-1",
+      "fields": [
+        "fr",
+        "name_fr",
+        "ru",
+        "en"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "On voit seulement que ce monument avoit été élevé aux Mânes de Calpurnia par deux personnes dont l'une de la même famille Calpurnia étoit élève d'Onesime.",
+      "current": "fr/name_fr «Épitaphe de Calpurnia, élève d'Onesime»; ru «Эпитафия Кальпурнии, воспитанницы Онесима»; en «Epitaph of Calpurnia, pupil of Onesimus»",
+      "suggested": "у Гроссона воспитанница Онесима — одна из двух посвятительниц (тоже из рода Кальпурниев), а не покойная. fr «Épitaphe de Calpurnia, élevée par deux personnes, dont une Calpurnia élève d'Onesime»; ru «Эпитафия Кальпурнии, воздвигнутая двумя лицами, одно из которых — Кальпурния, воспитанница Онесима»; en «Epitaph of Calpurnia, raised by two persons, one a Calpurnia, pupil of Onesimus»",
+      "confidence": "medium"
+    }
+  ]
+}

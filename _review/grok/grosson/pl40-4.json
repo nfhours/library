@@ -1,0 +1,22 @@
+{
+  "id": "pl40-4",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "pl40-4-1",
+      "fields": [
+        "ru",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "name",
+      "original": "Caius l'Ingénu [c'est-à-dire, petit fils d'Affranchi] a élevé ce monument à Decimus Marcius son très-pieux fils;",
+      "current": "ru «Эпитафия Децимуса Марция от Гая Ингенуя»; text_ru «Децимусу Марцию»",
+      "suggested": "латинское личное имя Decimus по-русски передаётся «Децим» (ср. «Тит», «Квинт» в этой же книге): ru «Эпитафия Децима Марция от Гая Ингенуя»; text_ru «Дециму Марцию»",
+      "confidence": "low"
+    }
+  ]
+}
