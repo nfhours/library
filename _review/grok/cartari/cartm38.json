@@ -57,6 +57,24 @@
       "current": "torre doro",
       "suggested": "не уверен: возможно «dono» (дар, подкуп); нужна сверка со сканом в проходе B",
       "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "perche la Terra, hauuto rispetto al Cielo, e Inferno",
+      "current": "car la Terre, par rapport au Ciel et aux Enfers — et c'est pourquoi",
+      "suggested": "car la Terre, par rapport au Ciel, est un enfer ; et c'est pourquoi (e = è; та же ошибка в RU/EN)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "onde i Greci chiamauano questa l'acqua di Gioue spergiuro",
+      "current": "l'eau de Jupiter parjure",
+      "suggested": "l'eau de Jupiter [vengeur] du parjure (Зевс Горкий — каратель клятвопреступлений)",
+      "confidence": "medium"
     }
   ]
 }

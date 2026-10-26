@@ -48,6 +48,33 @@
       "current": "[2] The ears like those of a far-off, shaggy Goat… and this was devised by a learned man…",
       "suggested": "абзац 2 — дубль; удалить (в абзаце 1 этот фрагмент передан верно: «this man was a learned man»). «lunge» = long, не far-off",
       "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& hà d'acuto pino … Le tempie cinte",
+      "current": "il a [l'oreille] aiguë comme le pin, les tempes ceintes",
+      "suggested": "et a les tempes ceintes de pin aigu («[l'oreille]» выдумано; та же ошибка в RU/EN)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "L'orecchie qual di Capra lunge, & hirte,",
+      "current": "[FR2] Les oreilles, telles celles d'une Chèvre lointaine et hérissées, … et [...]",
+      "suggested": "абзац 2 — дубль конца стихотворения и комментария (Сервий, Боккаччо, Эхо), уже переданных в абзаце 1; удалить. Попутно «lointaine» — ошибка, «lunge» = длинные",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& tenuto padre à tutti gli altri piu potenti Dei",
+      "current": "tenu pour père de tous les autres dieux, plus puissants que lui",
+      "suggested": "tenu pour père de tous les autres dieux les plus puissants (сравнения «que lui» в оригинале нет)",
+      "confidence": "medium"
     }
   ]
 }

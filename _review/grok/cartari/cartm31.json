@@ -48,6 +48,24 @@
       "current": "a certain poet Licius",
       "suggested": "a certain Lycian poet (Olen the Lycian, per Pausanias)",
       "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "tutta sfella, e destra l'aiutò a partorire il fratello Apollo",
+      "current": "toute rayonnante, de la main droite aida son frère Apollon à naître",
+      "suggested": "toute agile et adroite, aida son frère Apollon à naître («sfella [snella], e destra» — проворная и ловкая, не «сияющая» и не «правой рукой»; та же ошибка в RU/EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "name",
+      "original": "Et così pare, che s'intendesse vn Licio poeta",
+      "current": "un certain poète Licius",
+      "suggested": "un certain poète lycien (Licio = ликиец; у Павсания — Олен Ликиец)",
+      "confidence": "high"
     }
   ]
 }

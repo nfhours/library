@@ -66,6 +66,42 @@
       "current": "которых силою магии и заклятий стянули с Неба заставить отвечать",
       "suggested": "искажено: это Фавн и Пик стягивали Юпитера с Неба; но фрагмент вообще лишний (см. выше)",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "wrong_article",
+      "original": "saggi, che Gioue fosse, quale si vede nel Campidoglio",
+      "current": "[Conclusion du chapitre sur Isis-la-Lune] ...et autour de l'ourlet du vêtement … comme le fait la nourrice de Phèdre … tes belles cornes … ravi ton amour. »",
+      "suggested": "удалить вводный блок абзаца 1 до «[Transition vers Jupiter]»: это пересказ конца cartm37 (Исида, затмения, Сенека), в text_it этой записи его нет (та же ошибка в RU/EN)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 2,
+      "type": "wrong_article",
+      "original": "saggi, che Gioue fosse, quale si vede nel Campidoglio",
+      "current": "[FR2]–[FR4] ...qu'ils voulaient. Et chez Apulée, une de ces enchanteresses... / ...ils crurent qu'elle avait été faite",
+      "suggested": "абзацы 2–4 — сокращённый дубль конца cartm37 (Эндимион, систр, лунки на обуви, цикады); в text_it этой записи нет — удалить",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "saggi, che Gioue fosse, quale si vede nel Campidoglio",
+      "current": "[Transition vers Jupiter] Sur ce, je termine au sujet d'Isis-la-Lune … D'où Sénèque, dans les Questions naturelles, écrivit que les anciens",
+      "suggested": "не уверен: вступление о Юпитере (Сатурн, Ямвлих, лотос) в text_it этой записи отсутствует — возможно, текст соседней записи; сверить по фото, не дописывать",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "saggi, che Gioue fosse, quale si vede nel Campidoglio",
+      "current": "les anciens sages ne croyaient pas sages, que de croire que Jupiter fût tel",
+      "suggested": "les anciens sages ne croyaient pas que Jupiter fût tel qu'on le voit au Capitole (сбой синтаксиса; та же ошибка в RU/EN)",
+      "confidence": "high"
     }
   ]
 }

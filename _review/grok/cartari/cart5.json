@@ -66,6 +66,42 @@
       "current": "and, as for the fact that riches lie covered",
       "suggested": "and by that [the cloth] that riches lie covered",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "gli huomini non non haueuano altre statoe de i Dei",
+      "current": "les hommes ne n'avaient d'autres statues",
+      "suggested": "les hommes n'avaient d'autres statues des Dieux que des lances (дубль «non» — опечатка оригинала)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Il che dicono de gli altri ancora esser pur troppo vero",
+      "current": "Ce qui, dit-on, est bien trop vrai aussi des autres",
+      "suggested": "Ce que d'autres aussi disent être bien trop vrai, si par elle on entend la terre (та же ошибка в RU/EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& per quello che le ricchezze stanno coperte",
+      "current": "et quant à ce que les richesses demeurent couvertes",
+      "suggested": "et par celui-là [le linge sur la tête] que les richesses demeurent couvertes (per quello — через покрывало; та же ошибка в RU/EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& nell'vna mano teneua vno scettro, & vn fuso nell'altra",
+      "current": "et de l'autre une quenouille",
+      "suggested": "et de l'autre un fuseau («fuso» = веретено, не прялка)",
+      "confidence": "low"
     }
   ]
 }

@@ -66,6 +66,51 @@
       "current": "had perished along with the others that things",
       "suggested": "had perished along with the other things",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "che tirassero per arte magica, & a forza d'incanti Gioue di Cielo",
+      "current": "qu'on attirait par art magique et par force d'enchantements, Jupiter du Ciel",
+      "suggested": "qui, par art magique et par force d'enchantements, tiraient Jupiter du Ciel pour qu'il vînt leur répondre (подлежащее — Фавн и Пик; та же ошибка в RU)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Quando la Luna à racquistar comincia … Là già perduta luce",
+      "current": "Là sa lumière déjà perdue",
+      "suggested": "Sa lumière déjà perdue («Là» = «La», а не «там»; та же ошибка в RU/EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "nel mezo delle quali era vna Luna tutta risplendente, dente",
+      "current": "une Lune toute resplendissante, resplendissante",
+      "suggested": "une Lune toute resplendissante (повтор «dente» — опечатка оригинала)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "fosse perita insieme con le altre che cose",
+      "current": "avec les autres qui choses",
+      "suggested": "avec les autres choses (сбой «che cose»)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "vi erano due altre te- … ste, che si moueuano",
+      "current": "deux autres têtes / têtes, qui se mouvaient",
+      "suggested": "deux autres têtes, qui se mouvaient (повтор на стыке страниц)",
+      "confidence": "low"
     }
   ]
 }

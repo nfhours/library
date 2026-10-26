@@ -39,6 +39,15 @@
       "current": "all who are present go to strike the flayed Ram",
       "suggested": "не уверен: у Геродота — бьют себя в грудь, оплакивая барана",
       "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "tutti quelli che sono quiui, vanno à battere lo scorticato Montone",
+      "current": "tous ceux qui sont là vont frapper le Bélier écorché",
+      "suggested": "не уверен: у Геродота (II, 42) присутствующие бьют себя в грудь, оплакивая барана; текст оригинала двусмыслен (так же отмечено в RU/EN)",
+      "confidence": "low"
     }
   ]
 }

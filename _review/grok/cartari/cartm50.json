@@ -39,6 +39,24 @@
       "current": "из Плутарховых «Застольных вопросов»",
       "suggested": "из Плутарховых «Римских вопросов» (о пяти факелах — Quaest. Rom. 2)",
       "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "name",
+      "original": "secondo che si raccoglie da Plutarco ne i suoi problemi",
+      "current": "Plutarque dans ses Propos de table",
+      "suggested": "Plutarque dans ses Questions romaines (о пяти факелах — Quaest. Rom. 2)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "sì che temeuano temeuano tutti di perire",
+      "current": "qu'ils craignaient tous craignaient de périr",
+      "suggested": "qu'ils craignaient tous de périr (дубль — опечатка оригинала)",
+      "confidence": "medium"
     }
   ]
 }

@@ -12,6 +12,15 @@
       "current": "«Образ Гекаты, трёхликой богини, называемой также Прозерпиной, супругой Плутона и царицей Преисподней, означающий три фазы Луны и её власть над стихийными вещами».",
       "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: отдельный абзац, конец текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Гекаты, трёхликой богини, называемой также Прозерпиной, супругой Плутона и царицей Преисподней, означающий три фазы Луны и её власть над стихийными вещами».\"; caption_en: \"“The image of Hecate, the triform goddess, also called Proserpina, wife of Pluto and queen of the Underworld, signifying the three aspects of the Moon, and lunar power over elemental things.”\"; caption_fr: \"« L'image d'Hécate, déesse triforme, aussi appelée Proserpine, épouse de Pluton et reine des Enfers, signifiant les trois aspects de la Lune, et le pouvoir lunaire sur les choses élémentaires. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
       "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "vn numero grande di minuti nuti granelli",
+      "current": "un grand nombre de menues grains menus",
+      "suggested": "un grand nombre de menus grains (повтор «nuti» — опечатка оригинала)",
+      "confidence": "low"
     }
   ]
 }

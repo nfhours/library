@@ -30,6 +30,24 @@
       "current": "Holy Bubastis, and Apis, and he who comforts",
       "suggested": "…and he who exhorts / People to silence (Harpocrates)",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "e chi conforta … Le persone al silentio",
+      "current": "et celui qui conforte / Les gens au silence",
+      "suggested": "et celui qui exhorte / Les gens au silence (Гарпократ; conforta = побуждает; та же ошибка в RU/EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "omission",
+      "original": "Anubi, che con Voci à buoni amiche",
+      "current": "Anubis, qui de voix amicales",
+      "suggested": "Anubis, qui de voix amicales aux bons («à buoni» пропущено)",
+      "confidence": "low"
     }
   ]
 }

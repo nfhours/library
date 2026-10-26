@@ -48,6 +48,24 @@
       "current": "on some purely ancient medals",
       "suggested": "on some likewise ancient medals",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Ne altra insegna pare, che sia propria a Gioue del Fulmine",
+      "current": "La foudre ne semble pas non plus être un attribut propre au seul Jupiter",
+      "suggested": "Et nul autre attribut ne semble aussi propre à Jupiter que la foudre, bien que les Romains l'aient aussi donnée au dieu Summanus (смысл перевёрнут; та же ошибка в RU/EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "in alcune medaglie pure antiche di Antonino Pio",
+      "current": "sur certaines médailles purement antiques",
+      "suggested": "sur certaines médailles, elles aussi antiques (pure = тоже)",
+      "confidence": "medium"
     }
   ]
 }

@@ -30,6 +30,24 @@
       "current": "when it cuts away all the effects of the body",
       "suggested": "не уверен: probably «affetti» — «all the passions of the body»",
       "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "nè per questo fù ella men lodata, che meritasse la bellezza sua",
+      "current": "mais elle n'en fut pas moins louée pour autant, méritant sa beauté",
+      "suggested": "mais elle n'en fut pas moins louée que ne le méritait sa beauté (сбой синтаксиса)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "quando taglia via tutti gli effetti del corpo",
+      "current": "quand il retranche tous les effets du corps",
+      "suggested": "не уверен: вероятно «affetti» — «quand il retranche toutes les passions du corps» (так же отмечено в RU/EN)",
+      "confidence": "low"
     }
   ]
 }

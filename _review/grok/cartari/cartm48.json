@@ -30,6 +30,24 @@
       "current": "who then lose them as quickly as we see the rainbow vanish",
       "suggested": "riches, which then go away as quickly as we see the rainbow vanish",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "promettendogli Deiopea la più bella moglie",
+      "current": "lui promettant Déiopée, la plus belle de ses épouses",
+      "suggested": "lui promettant pour épouse Déiopée, la plus belle [des quatorze nymphes] («de ses épouses» — у Эола нет жён; искажение)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "li quali così tosto se ne vanno poi",
+      "current": "les sots, qui les perdent ensuite aussi vite",
+      "suggested": "les sots — richesses qui s'en vont aussi vite que nous voyons disparaître l'Iris (уходят богатства, а не глупцы их теряют; та же правка в RU/EN)",
+      "confidence": "medium"
     }
   ]
 }

@@ -12,6 +12,15 @@
       "current": "«Образ громовержца Юпитера, подателя дождей и туч; и образ Юпитера Лабрадея лидийского, означающий, что Бог готов карать злодеев, а также являющий Божественное провидение».",
       "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ громовержца Юпитера, подателя дождей и туч; и образ Юпитера Лабрадея лидийского, означающий, что Бог готов карать злодеев, а также являющий Божественное провидение».\"; caption_en: \"“The image of thundering Jove, bringer of rains and storm-clouds; and the image of Jove Labradeus of the Lydians, signifying that God is ready to punish evildoers, and showing divine providence.”\"; caption_fr: \"« L'image de Jupiter foudroyant, dispensateur des pluies et des nuages d'orage ; et l'image de Jupiter Labradeus des Lydiens, signifiant que Dieu est prêt à châtier les malfaiteurs, et manifestant la providence divine. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
       "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "dipingendole così bene, come scriuendo le habbiano finte i Poeti",
+      "current": "comme si les Poètes eux-mêmes, en écrivant, les avaient inventées",
+      "suggested": "en les peignant aussi bien que les Poètes les ont inventées en écrivant",
+      "confidence": "low"
     }
   ]
 }

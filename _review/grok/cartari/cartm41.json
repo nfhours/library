@@ -30,6 +30,24 @@
       "current": "And to punish Jove the perjurer, as I have said",
       "suggested": "And as for Jove punishing the perjurer, as I have said",
       "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Et per punire Gioue lo spergiuro, come hò detto",
+      "current": "Et pour punir Jupiter le parjure, comme je l'ai dit",
+      "suggested": "Et comme Jupiter, ainsi que je l'ai dit, punit le parjure (Юпитер — субъект; та же ошибка в RU/EN)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Et alcuni gli diedero parimente il nume di Bacco",
+      "current": "certains lui donnèrent aussi le nom de Bacchus",
+      "suggested": "certains lui donnèrent aussi la divinité (le numen) de Bacchus («nume» ≠ «nome»)",
+      "confidence": "medium"
     }
   ]
 }

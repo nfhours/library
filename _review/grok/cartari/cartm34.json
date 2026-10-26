@@ -48,6 +48,33 @@
       "current": "Theodoret, Bishop of Cyrene",
       "suggested": "Theodoret, Bishop of Cyrrhus",
       "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "E quando in alto seggio assisa, legge … Dona à Megera",
+      "current": "Et quand, assise sur un haut siège, elle lit / La loi à Mégère",
+      "suggested": "Et quand, assise sur un haut siège, elle donne / La loi à Mégère («legge / Dona» — «даёт закон», а не «читает»; та же ошибка в RU/EN)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "name",
+      "original": "come riferisce Theodorito Vescouo Cirense",
+      "current": "Théodoret, évêque de Cyrène",
+      "suggested": "Théodoret, évêque de Cyr (Cyrrhus, не Кирена)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Seguita poi, che la verità è, che questo è vn tristo Demonio",
+      "current": "Il s'ensuit alors que la vérité est que c'est un méchant Démon",
+      "suggested": "Il [Prudence] poursuit en disant que la vérité est que c'est un méchant Démon («Seguita» — «далее говорит», а не логическое «следует»)",
+      "confidence": "medium"
     }
   ]
 }

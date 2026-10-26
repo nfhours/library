@@ -30,6 +30,24 @@
       "current": "a most beautiful idol of bronze of bronze, of Hercules",
       "suggested": "a most beautiful bronze idol of Hercules",
       "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "se il sacrificio, ilquale, perciò fù dimandato Hecatombe",
+      "current": "pour lequel elle fut donc appelée Hécatombe",
+      "suggested": "le sacrifice, qui pour cela fut appelé Hécatombe (Гекатомбой назывался обряд, а не богиня)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "vn bellissimo simulacro di metallo metallo di Hercole",
+      "current": "un très beau simulacre de métal de métal, d'Hercule",
+      "suggested": "un très beau simulacre de bronze d'Hercule (повтор — опечатка оригинала)",
+      "confidence": "medium"
     }
   ]
 }

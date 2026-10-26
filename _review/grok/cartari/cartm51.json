@@ -39,6 +39,15 @@
       "current": "некое место называлось Виколо Югарио",
       "suggested": "некое место называлось Викус Югарий (Vicus Iugarius)",
       "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "come quella, che ad ambi fu bi fu madregna",
+      "current": "comme celle à qui tous deux avaient été belle-mère de l'un et de l'autre",
+      "suggested": "comme celle qui fut marâtre de l'un et de l'autre («bi fu» — дубль в оригинале; та же ошибка в RU/EN)",
+      "confidence": "high"
     }
   ]
 }
