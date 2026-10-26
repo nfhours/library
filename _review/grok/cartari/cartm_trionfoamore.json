@@ -24,6 +24,7 @@
       "issue_id": "cartm_trionfoamore-2",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -38,6 +39,7 @@
       "issue_id": "cartm_trionfoamore-3",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -52,6 +54,7 @@
       "issue_id": "cartm_trionfoamore-4",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -59,6 +62,51 @@
       "original": "in Un passo men'Varco:",
       "current": "В одном шаге меньше пройду",
       "suggested": "Одним шагом (одним словом) перейду — «me ne varco», «men» не «меньше»; EN «In one step less I pass» → «In one step I pass on»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_trionfoamore-2",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Perdon lor primi ben per leggier cura.",
+      "current": "Ils pardonnent d'abord leur propre bien pour un léger souci.",
+      "suggested": "Ils perdent leurs premiers biens pour un léger souci («perdon» = perdono, теряют; та же ошибка в RU/EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_trionfoamore-3",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Od'egli hà sempre le sue mani armate,",
+      "current": "Ou bien il a toujours les mains armées",
+      "suggested": "Dont il a toujours les mains armées («Od'» = ond'; та же ошибка в RU/EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_trionfoamore-4",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "in Un passo men'Varco:",
+      "current": "En un pas de moins je passe",
+      "suggested": "En un seul pas je passe outre («me ne varco»; та же ошибка в RU/EN)",
       "confidence": "medium"
     }
   ]

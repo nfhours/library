@@ -21,7 +21,8 @@
       "field": "text_ru",
       "issue_id": "cartm_felicita-2",
       "fields": [
-        "text_ru"
+        "text_ru",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
@@ -34,13 +35,42 @@
       "field": "text_ru",
       "issue_id": "cartm_felicita-3",
       "fields": [
-        "text_ru"
+        "text_ru",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "che quì brama alla cieca ogniuno in questo modo",
       "current": "коего здесь жаждет вслепую всякий таким образом",
       "suggested": "коего здесь вслепую жаждет всякий в этом мире («modo» = опечатка за «mondo»; EN «this life» верно); то же ниже: «весь путь сей таким образом» → «весь путь этого мира»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_felicita-2",
+      "fields": [
+        "text_ru",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "in bel seggio, bene ornata, ma non però con molta arte",
+      "current": "sur un beau siège, bien orné, mais non pourtant avec grand art",
+      "suggested": "sur un beau siège, elle-même bien parée, mais sans grand artifice («ornata» относится к женщине; та же ошибка в RU)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_felicita-3",
+      "fields": [
+        "text_ru",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "che quì brama alla cieca ogniuno in questo modo",
+      "current": "que chacun ici désire aveuglément de cette manière",
+      "suggested": "que chacun ici désire aveuglément en ce monde («modo» — опечатка за «mondo»; та же ошибка в RU)",
       "confidence": "medium"
     }
   ]

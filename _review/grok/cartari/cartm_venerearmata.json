@@ -24,6 +24,7 @@
       "issue_id": "cartm_venerearmata-2",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -38,6 +39,7 @@
       "issue_id": "cartm_venerearmata-3",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -59,6 +61,36 @@
       "current": "Но иные иные сказали",
       "suggested": "Но иные сказали",
       "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_venerearmata-2",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Tu mi ti puoi oppor senza temere Vnqua di me",
+      "current": "Tu peux seule t'opposer à moi sans crainte / Jamais",
+      "suggested": "Tu peux t'opposer à moi sans jamais / Me craindre («seule» добавлено, «Jamais» оторвано; та же ошибка в RU/EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_venerearmata-3",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "nè scriuendo si può mettere così interamente tutto, che non … vi rimanga qualche cosa sempre",
+      "current": "tout ce que / les anciens / disent toujours quelque chose",
+      "suggested": "tout, qu'il n'en reste toujours quelque chose à dire (кустода ошибочно развёрнута в «les anciens»; та же ошибка в RU/EN)",
+      "confidence": "medium"
     }
   ]
 }

@@ -42,6 +42,19 @@
       "current": "than is fitting for it",
       "suggested": "than is fitting for him (Фавор, м. р.); на переносе страницы текст EN спутан («to come») — проверить стык, не уверен",
       "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_fauore-4",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "spinto dall'Adulatione, che l'accompagna sempre",
+      "current": "plus haut qu'il ne lui convient / qu'il ne lui convient, poussée par la Flatterie",
+      "suggested": "plus haut qu'il ne lui convient, poussée par la Flatterie (повтор «qu'il ne lui convient» на стыке страниц — удалить дубль)",
+      "confidence": "low"
     }
   ]
 }

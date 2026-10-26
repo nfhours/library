@@ -31,6 +31,19 @@
       "current": "предпочитает здоровье сладострастному наслаждению",
       "suggested": "предпочитает безопасность (спасение) сладострастному наслаждению («salute» = спасение; EN «safety» верно)",
       "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_venerecupidogiogo-3",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "che noi potiamo dire Auersatrice",
+      "current": "l'Détourneuse",
+      "suggested": "la Détourneuse (Auersatrice — Отвращающая; сбой артикля)",
+      "confidence": "low"
     }
   ]
 }

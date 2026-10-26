@@ -24,7 +24,8 @@
       "issue_id": "cartm_imaginiamore-2",
       "fields": [
         "text_ru",
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
@@ -38,13 +39,29 @@
       "issue_id": "cartm_imaginiamore-2",
       "fields": [
         "text_ru",
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "& alcuni altri mostrauano di volerla calciare",
       "current": "still others showed that they wished to mount her",
       "suggested": "still others made as if to kick her (or put shoes on her) — не уверен; «mount» неверно",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_imaginiamore-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& alcuni altri mostrauano di volerla calciare",
+      "current": "d'autres encore montraient vouloir la chevaucher",
+      "suggested": "d'autres encore faisaient mine de la frapper du pied / la chausser (у Плиния «calciarent»); «chevaucher» неверно — точный смысл не уверен (та же ошибка в RU/EN)",
       "confidence": "medium"
     }
   ]

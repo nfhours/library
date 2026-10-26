@@ -24,6 +24,7 @@
       "issue_id": "cartm_tempiopafo-2",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -45,6 +46,21 @@
       "current": "Был затем дан равно Венере, как и прочим богам, колесница",
       "suggested": "Была затем дана равно Венере … колесница (согласование)",
       "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_tempiopafo-2",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "rossa, come dice Anacreonte, che è Venere, oue ei la chiama porporea",
+      "current": "rouge, comme le dit Anacréon, l'appelant Vénus, où il la nomme pourprée",
+      "suggested": "rouge, telle qu'est Vénus selon Anacréon, quand il la nomme pourprée (пурпурной названа Венера; та же ошибка в RU/EN)",
+      "confidence": "medium"
     }
   ]
 }

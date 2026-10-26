@@ -24,7 +24,8 @@
       "issue_id": "cartm_eroteanterote-2",
       "fields": [
         "text_ru",
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
@@ -38,7 +39,8 @@
       "issue_id": "cartm_eroteanterote-2",
       "fields": [
         "text_ru",
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
@@ -52,6 +54,7 @@
       "issue_id": "cartm_eroteanterote-3",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -66,6 +69,7 @@
       "issue_id": "cartm_eroteanterote-4",
       "fields": [
         "text_en",
+        "text_fr",
         "text_ru"
       ],
       "paragraph": 1,
@@ -80,6 +84,7 @@
       "issue_id": "cartm_eroteanterote-5",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -93,13 +98,88 @@
       "field": "text_en",
       "issue_id": "cartm_eroteanterote-6",
       "fields": [
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "Ch'al carro de la madre erano giunti,",
       "current": "Which had come to his mother's chariot,",
       "suggested": "Which were yoked to his mother's chariot («giunti» = запряжены, не «пришли»), не уверен",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_eroteanterote-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "li quali diceuano gli antichi tutti venire da Cupido, che accendergli alla virtù",
+      "current": "lesquels les anciens disaient tous venir de Cupidon, qui les enflammait à la vertu",
+      "suggested": "lesquels les anciens disaient tous venir de Cupidon, plutôt que de les enflammer à la vertu («che» сравнительное; смысл инвертирован; та же ошибка в RU/EN)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_eroteanterote-3",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Cui egli mostra l'arco, che gli pende",
+      "current": "À qui elle montre l'arc",
+      "suggested": "À qui il montre l'arc (показывает Амур; та же ошибка в RU/EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_eroteanterote-4",
+      "fields": [
+        "text_en",
+        "text_fr",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Vn piccol'arco hà in man, sour'esso è sempre.",
+      "current": "Un petit arc il tient en main, toujours appuyé dessus.",
+      "suggested": "Un petit arc il tient en main ; dessus est toujours / Un trait piquant… (подлежащее — стрела из следующей строки; та же ошибка в RU/EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_eroteanterote-5",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Ch'in sette dì Vedrommi (e d'hora in hora)",
+      "current": "Qu'en sept jours je te verrai (d'heure en heure) / Devenir plus belle",
+      "suggested": "Qu'en sept jours je me verrai (d'heure en heure) / Devenir plus beau («Vedrommi» = увижу себя; та же ошибка в RU/EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_eroteanterote-6",
+      "fields": [
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Ch'al carro de la madre erano giunti,",
+      "current": "Qui étaient venus au char de sa mère",
+      "suggested": "Qui étaient attelés au char de sa mère («giunti» = запряжены; не уверен, как в EN)",
       "confidence": "low"
     }
   ]

@@ -23,7 +23,8 @@
       "field": "text_ru",
       "issue_id": "cartm_fortunascithi-2",
       "fields": [
-        "text_ru"
+        "text_ru",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
@@ -31,6 +32,20 @@
       "current": "сделали они её изрядно без ног",
       "suggested": "сделали они её, правда, без ног, но… («bene» здесь уступительное «хотя и», не «изрядно»)",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_fortunascithi-2",
+      "fields": [
+        "text_ru",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "questi la fecero bene senza piedi, ma le posero poi le ali intorno alle mani",
+      "current": "ils la firent bien sans pieds, mais lui placèrent ensuite des ailes",
+      "suggested": "ils la firent, il est vrai, sans pieds, mais lui placèrent des ailes («bene» уступительное; та же ошибка в RU)",
+      "confidence": "low"
     }
   ]
 }

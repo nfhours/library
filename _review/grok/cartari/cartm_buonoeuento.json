@@ -23,7 +23,8 @@
       "field": "text_en",
       "issue_id": "cartm_buonoeuento-2",
       "fields": [
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "addition",
@@ -31,6 +32,20 @@
       "current": "But what has this to do with images? Nothing. Let us leave it then, and speak of Good Event",
       "suggested": "Let us leave it then, and speak of Good Event (фразы «But what has this to do with images? Nothing.» в оригинале нет — удалить)",
       "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_buonoeuento-2",
+      "fields": [
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Lasciamolo dunque, & dichiamo del buono Euento",
+      "current": "Mais quel rapport cela a-t-il avec les images ? Aucun. Laissons donc cela",
+      "suggested": "Laissons donc cela, et parlons du bon Événement (фразы «Mais quel rapport… Aucun.» в оригинале нет — удалить; та же ошибка в EN)",
+      "confidence": "medium"
     }
   ]
 }

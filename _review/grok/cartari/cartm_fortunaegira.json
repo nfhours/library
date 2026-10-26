@@ -24,7 +24,8 @@
       "issue_id": "cartm_fortunaegira-2",
       "fields": [
         "text_ru",
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
@@ -38,7 +39,8 @@
       "issue_id": "cartm_fortunaegira-2",
       "fields": [
         "text_ru",
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
@@ -59,6 +61,21 @@
       "current": "а Рок, или Судьбу, как бы желая сказать, преследующей её",
       "suggested": "а Рок, или Судьба, как можно сказать, преследует её (Фортуну) — фраза рассогласована",
       "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_fortunaegira-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "più assai del danno, che per gli auari vostri desiderij hò sentito già più volte",
+      "current": "bien plus à cause du dommage que, par vos désirs avares, j'ai déjà ressenti plus d'une fois",
+      "suggested": "bien plus que par le dommage que j'ai déjà souffert plus d'une fois de vos désirs avares (сравнение, а не причина; та же ошибка в RU/EN)",
+      "confidence": "medium"
     }
   ]
 }

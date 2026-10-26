@@ -9,7 +9,8 @@
       "issue_id": "cartm_gratieintro-1",
       "fields": [
         "text_ru",
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
@@ -23,7 +24,8 @@
       "issue_id": "cartm_gratieintro-1",
       "fields": [
         "text_ru",
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
@@ -37,6 +39,7 @@
       "issue_id": "cartm_gratieintro-2",
       "fields": [
         "text_en",
+        "text_fr",
         "text_ru"
       ],
       "paragraph": 1,
@@ -45,6 +48,36 @@
       "current": "And some of them doff their locks,",
       "suggested": "And some of them strip his (Phoebus') head of the crown of rays — «chioma» Солнца, не их собственные волосы; RU «снимают с главы убор» → «снимают с его главы [лучистый венец]», не уверен",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_gratieintro-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "che non ne rompono; … o torcono pure vna",
+      "current": "qu'elles ne les brisent point ; / ou n'en tournent qu'une seule",
+      "suggested": "qu'elles n'en brisent ni n'en plient un seul (отрицание распространяется на «torcono»; смысл инвертирован; та же ошибка в RU/EN)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_gratieintro-2",
+      "fields": [
+        "text_en",
+        "text_fr",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Et alcune di lor spoglian la chioma,",
+      "current": "Et certaines d'entre elles dépouillent leur chevelure",
+      "suggested": "Et certaines d'entre elles le dépouillent de sa chevelure [de rayons] («chioma» Солнца; не уверен; та же ошибка в RU/EN)",
+      "confidence": "low"
     }
   ]
 }
