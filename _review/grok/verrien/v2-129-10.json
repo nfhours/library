@@ -1,0 +1,23 @@
+{
+  "id": "v2-129-10",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v2-129-10-1",
+      "fields": [
+        "ru",
+        "text_ru",
+        "meaning_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "ERASTO",
+      "current": "Эрасто (аллегорическая фигура влюблённого)",
+      "suggested": "на медальоне действительно «ERASTO», но это Эрато — муза любовной поэзии (женская фигура со струнным инструментом и Амуром; в той же серии EUTERPE, POLYMNIE, CALLIOPEE). Перевод с догадкой в скобках: «Эрато (муза любовной поэзии)»; написание гравюры — см. summary_notes",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "v2-125-4",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "fr",
+      "issue_id": "v2-125-4-1",
+      "fields": [
+        "fr",
+        "name_fr",
+        "text_fr",
+        "meaning_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "LEVSNE",
+      "current": "LEVSNE",
+      "suggested": "на медальоне «IEVSNE» = JEUSNE (jeûne, «пост»; I/J и V/U — старая графика); первая буква прочитана как L. Фигура с рыбой/крокодилом — аллегория Поста. Читать «IEVSNE» (JEUSNE)",
+      "confidence": "medium"
+    },
+    {
+      "field": "ru",
+      "issue_id": "v2-125-4-2",
+      "fields": [
+        "ru",
+        "text_ru",
+        "meaning_ru"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "LEVSNE",
+      "current": "Пост(?) [IEVSNE — Жёсне/Пост, чтение не вполне однозначно]",
+      "suggested": "в поле перевода оставлена служебная пометка переводчика с сомнением; значение однозначно — jeûne. Должно быть просто «Пост»",
+      "confidence": "high"
+    }
+  ]
+}
