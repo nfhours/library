@@ -1,0 +1,21 @@
+{
+  "id": "v1-14-5",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-14-5-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "Heureux si nous pouvions trouver de pareils amis.",
+      "current": "Да сохранится такая любовь; счастливы были бы мы, найдя подобных друзей.",
+      "suggested": "«Да сохранится такая любовь;» — перевод латинского девиза (Talis amor teneat), вставленный в толкование: «Счастливы были бы мы, найдя подобных друзей»",
+      "confidence": "medium"
+    }
+  ]
+}

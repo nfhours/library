@@ -1,0 +1,23 @@
+{
+  "id": "v1-14-1",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-14-1-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Va illi quem tetigerit.",
+      "current": "Va illi quem tetigerit.",
+      "suggested": "[LA] «Væ illi» (горе ему; лигатура æ потеряна, ср. «Malheur à celuy»); скопировано и в text_ru. Скана текста нет — по смыслу",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "v1-13-2",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-13-2-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Non capio, ni capior.",
+      "current": "Non capio, ni capior.",
+      "suggested": "[LA] «ni» — не латинское слово (вероятно «nisi»/«nec»; ср. толкование «Il a voulu estre pris»). Скана текста нет; не уверен",
+      "confidence": "low"
+    }
+  ]
+}

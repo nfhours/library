@@ -1,0 +1,21 @@
+{
+  "id": "v1-14-2",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-14-2-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "La prudence les fait voir de tous côtez.",
+      "current": "Осторожные люди: благоразумие заставляет их видеть со всех сторон.",
+      "suggested": "«Осторожные люди:» — перевод латинского девиза (Prudentes), вставленный в толкование: «Благоразумие заставляет их видеть со всех сторон»",
+      "confidence": "medium"
+    }
+  ]
+}
