@@ -1,0 +1,36 @@
+{
+  "id": "v1-27-4",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-27-4-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "Je travaille pour les Autels & pour les Malades, ou je travaille pour Dieu & pour les hommes.",
+      "current": "Я тружусь для алтарей и для полей, то есть для Бога и для людей.",
+      "suggested": "«pour les Malades» — «для больных» (французский читает девиз как ægris — больным), а не «для полей»: «Я тружусь для алтарей и для больных, или: для Бога и для людей»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "v1-27-4-2",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Aris, agrisque laboro.",
+      "current": "Aris, agrisque laboro.",
+      "suggested": "[LA] по толкованию («Malades») ожидается «ægrisque» (больным) — возможно, потеряна лигатура æ; но «agris» (полям) тоже осмысленно. Скана текста нет; не уверен",
+      "confidence": "low"
+    }
+  ]
+}

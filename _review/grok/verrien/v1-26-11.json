@@ -1,0 +1,21 @@
+{
+  "id": "v1-26-11",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-26-11-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "Il recompense les doctes & les braves.",
+      "current": "Он венчает учёных и храбрецов.",
+      "suggested": "«венчает» — из латинского coronat; французское: «Он награждает учёных и храбрых»",
+      "confidence": "low"
+    }
+  ]
+}

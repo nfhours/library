@@ -1,0 +1,23 @@
+{
+  "id": "v1-27-8",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-27-8-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Pormi limpiezza me quieren.",
+      "current": "Pormi limpiezza me quieren.",
+      "suggested": "[ES] «Por mi limpieza me quieren» (слитное «Pormi», итальянизированное -zz-); скопировано и в text_ru. Скана текста нет; возможно, орфография издания",
+      "confidence": "medium"
+    }
+  ]
+}

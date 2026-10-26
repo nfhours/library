@@ -1,0 +1,21 @@
+{
+  "id": "v1-26-15",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-26-15-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 3,
+      "type": "ocr",
+      "original": "Il est étonnant que je sois si grand, n'estant forty que d'un œuf.",
+      "current": "Il est étonnant que je sois si grand, n'estant forty que d'un œuf.",
+      "suggested": "«sorty» (долгое ſ прочитано как f); text_ru переведён верно. Скана текста нет — по смыслу",
+      "confidence": "medium"
+    }
+  ]
+}

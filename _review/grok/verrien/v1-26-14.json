@@ -1,0 +1,21 @@
+{
+  "id": "v1-26-14",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-26-14-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "Elle se consomme dans la guerre.",
+      "current": "Он сгорает, но на войне.",
+      "suggested": "«но» — из латинского sed, во французском противопоставления нет: «Он сгорает на войне»",
+      "confidence": "low"
+    }
+  ]
+}
