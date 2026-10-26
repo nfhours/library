@@ -1,0 +1,17 @@
+{
+  "id": "cartm_furoreira",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "perdendo il furioso & iracondo la ragione nel furore & nell'ira",
+      "current": "теряя неистовый и гневливый разум в неистовстве и в гневе",
+      "suggested": "ибо неистовый и гневливый теряет разум в неистовстве и гневе (подлежащее — человек, «разум» — дополнение)",
+      "confidence": "medium"
+    }
+  ]
+}

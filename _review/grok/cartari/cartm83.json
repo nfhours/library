@@ -1,0 +1,35 @@
+{
+  "id": "cartm83",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "denti, & accorte che lo fanno mentire.",
+      "current": "«Образ Вулкана, который алмазной секирой рассёк голову Юпитеру… Означает также, что у женщин нет ни совета, ни знания».",
+      "suggested": "в text_it запись начинается с «denti, & accorte…»; вводная подпись про Вулкана отсутствует — удалить или перенести в подпись к гравюре (откуда она взята — не уверен); то же в EN",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "ma ne anco poteua vederlo altri, che quella delle Vergini Vestali; alla quale era data questa cura",
+      "current": "не мог его видеть и никто иной, кроме Дев-Весталок, коим было поручено это попечение",
+      "suggested": "не мог его видеть никто, кроме той из Дев-Весталок, которой было поручено это попечение (ед. ч.); EN «but that of the Virgin Vestals» → «save that one of the Vestal Virgins to whom»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Et alcuni altri dicono, che ella fu così chiamata da certa voce Greca",
+      "current": "А иные иные говорят",
+      "suggested": "А иные говорят",
+      "confidence": "low"
+    }
+  ]
+}

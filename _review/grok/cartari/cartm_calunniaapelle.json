@@ -1,0 +1,35 @@
+{
+  "id": "cartm_calunniaapelle",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "quello che per capelli tiene la Calumnia e il Calumniato",
+      "current": "тот, что держит за волосы Клевету и Оклеветанного",
+      "suggested": "тот, кого Клевета держит за волосы, — Оклеветанный (по описанию ниже Клевета тащит юношу за волосы); EN «the one who holds Calumny and the Calumniated by the hair» → «the one whom Calumny holds by the hair is the Calumniated»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& porgeua la mano alla Calumnia, che veniua à lui",
+      "current": "и подавали руку Клевете",
+      "suggested": "и (судья) протягивал руку Клевете — глагол в ед. ч., у Лукиана руку протягивает судья; EN «and extended her hand» → «and he held out his hand», не уверен",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "vna falsa accusatione creduta dal Giudice di chi non sia presente à dire il fatto suo",
+      "current": "ложное обвинение, принятое на веру Судьёй от того, кто не присутствует",
+      "suggested": "ложное обвинение против того, кто не присутствует, чтобы защититься, принятое на веру Судьёй (EN «against one» верно)",
+      "confidence": "medium"
+    }
+  ]
+}

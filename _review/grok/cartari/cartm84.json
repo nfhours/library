@@ -1,0 +1,44 @@
+{
+  "id": "cartm84",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "O Dea feroce del gran padre honore,",
+      "current": "«Образ Беллоны, богини войны и колесничей Марса, а также её жрецов… свойственные войне следствия».",
+      "suggested": "в text_it запись начинается со стиха «O Dea feroce…»; вводной подписи про Беллону нет — удалить или перенести в подпись к гравюре (источник подписи — не уверен); то же в EN",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "dapoi spiegaua vn'hasta ne' capi de' nemici",
+      "current": "вонзал копьё в земли вождей неприятелей",
+      "suggested": "метал копьё в поля (земли) неприятелей — «capi», вероятно, опечатка за «campi»; «вождей» — контаминация; EN «in the chiefs' lands of the enemies» → «into the enemies' fields», не уверен",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "name",
+      "original": "poscia che haueua aperto il tempio di Giano",
+      "current": "открывал храм Янов … в изображении Янова",
+      "suggested": "храм Януса … в изображении Януса",
+      "confidence": "low"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Ch'io porgo humile al tuo Nume diuoto.",
+      "current": "Which I offer humbly to your devout Godhead.",
+      "suggested": "Which I, devout, humbly offer to your Godhead («diuoto» относится к молящемуся; RU верно)",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cartm_naue",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Vedesi à tempi nostri ancora quasi la medesima Naue",
+      "current": "Видна в наши дни ещё почти та же Наве",
+      "suggested": "Виден в наши дни ещё почти тот же Корабль",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "carta2",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Questa figura s'è tolta da i Camei del Reuerendiss. Patriarca Grimani.",
+      "current": "взято с камей преблаженной памяти Патриарха Гримани",
+      "suggested": "взято с камей преподобнейшего Патриарха Гримани («glor. mem.» относится к Контарини ниже); EN «most reverend Patriarch Grimani, of glorious memory» — убрать «of glorious memory»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Et sono Iaso, Egele, Higià, & Panacea.",
+      "current": "Иaco",
+      "suggested": "Иасо (в слове латинские буквы a, c, o)",
+      "confidence": "low"
+    }
+  ]
+}

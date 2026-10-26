@@ -1,0 +1,26 @@
+{
+  "id": "cartm_fortunalieta",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "name",
+      "original": "la chiamarono spesso i Poeti Rhannusia da certo luoco nel paese di Athene",
+      "current": "называли её поэты Раммузия",
+      "suggested": "называли её поэты Рамнусия (от Рамнунта; EN «Rhamnusia» верно)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "la quale mostra la passata Fortuna, e perciò stà mesta",
+      "current": "что стоит, опираясь рукою о седалище матроны, каковая являет прошедшую Фортуну",
+      "suggested": "…о седалище матроны; матрона же являет прошедшую Фортуну (относится к матроне, не к отроковице — уточнить, чтобы не было двусмысленности; то же EN «who represents Fortune past»)",
+      "confidence": "low"
+    }
+  ]
+}

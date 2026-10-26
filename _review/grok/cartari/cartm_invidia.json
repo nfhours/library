@@ -1,0 +1,17 @@
+{
+  "id": "cartm_invidia",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Ciò che vede gli porge odio, e disdegno",
+      "current": "Всё, что видит, вызывает в ней ненависть и отвращение … бежит она … сердце её",
+      "suggested": "в стихах речь о завистнике (м. р., «gli»): «вызывает в нём», «бежит он», «сердце его» (EN верно)",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cartm_nemesi",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "guarda che tu non ti facci poco conto de' miei prieghi, e mi disprezzi",
+      "current": "see that you make little account of my prayers, and scorn me not",
+      "suggested": "see that you do not make little account of my prayers, and scorn me (отрицание пропущено в первой части; RU верно)",
+      "confidence": "medium"
+    }
+  ]
+}

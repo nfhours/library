@@ -1,0 +1,26 @@
+{
+  "id": "carta3",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "name",
+      "original": "come si può vedere nel mio Commentario de' Serui, a car. 88. & 91.",
+      "current": "в моём Комментарии к Сервию",
+      "suggested": "в моём комментарии «О рабах» (Pignoria, «De servis»; «Serui» = рабы, не Сервий); ниже «в нашей Книге о Сервии» → «в нашей книге о рабах»; EN «Commentary on Servius», «Book on Servius» → «Commentary on Slaves», «Book on Slaves»",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "non intese altro, che Sistri",
+      "current": "не означали, полагаю, ничего иного, как Систры",
+      "suggested": "не разумел ничего иного, как Систры («полагаю» добавлено; глагол в ед. ч.); EN «meant, I think» → «meant»",
+      "confidence": "low"
+    }
+  ]
+}

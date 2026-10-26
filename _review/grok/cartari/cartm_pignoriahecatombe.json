@@ -1,0 +1,17 @@
+{
+  "id": "cartm_pignoriahecatombe",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Ma io credo, che'l nostro Autore parli de' poueri",
+      "current": "говорит о бедных [животных]",
+      "suggested": "говорит о бедняках (людях; вставка «[животных]» не обоснована — не уверен в толковании, но «poveri» без существительного = бедные люди); то же EN «the poor [animals]»",
+      "confidence": "medium"
+    }
+  ]
+}
