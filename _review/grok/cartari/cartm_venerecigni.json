@@ -17,7 +17,8 @@
       "original": "Imagine di Venere tirata in carro da' Cigni, retti da gl'Amorini; per mostrare, che il canto, & la placidità della",
       "current": "Изображение Венеры, влекомой в колеснице Лебедями, управляемыми маленькими Амурами; дабы показать, что пение и безмятежность природы весьма сообразны с наслаждениями Любви.",
       "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; структурное замечание: подпись слита с текстом и в оригинале, и в переводах; сам перевод подписи по смыслу не проверялся отдельно сверх прохода A). caption_ru: \"Изображение Венеры, влекомой в колеснице Лебедями, управляемыми маленькими Амурами; дабы показать, что пение и безмятежность природы весьма сообразны с наслаждениями Любви.\"; caption_en: \"Image of Venus drawn in a chariot by Swans, guided by little Loves; to show that song, and the placidity of nature, have much affinity with the pleasures of Love.\"; caption_fr: \"Image de Vénus tirée en char par des Cygnes, conduits par de petits Amours; pour montrer que le chant, et la placidité de la nature ont beaucoup d'affinité avec les plaisirs de l'Amour.\"; caption_orig: \"Imagine di Venere tirata in carro da' Cigni, retti da gl'Amorini; per mostrare, che il canto, & la placidità della natura hanno molto confacimento co' piaceri d'Amore.\" (найдено в начале text_it — отделить от основного текста)",
-      "confidence": "high"
+      "confidence": "high",
+      "caption_source": "text"
     },
     {
       "field": "text_ru",

@@ -29,7 +29,8 @@
       "original": "AMOVR·DE·VERTV (надпись на гравюре)",
       "current": "заголовки ru «Добродетельная любовь» / en «Virtuous Love» переводят fr «Amour vertueux», а не подпись",
       "suggested": "вынести подпись к гравюре в отдельные поля (сейчас: подпись только на гравюре, над медальоном; в text_fr и переводах отсутствует; в entries.json есть поле caption «Amour de vertu», но caption_ru/caption_en нет). caption_orig: \"Amour de vertu\" (сверено по фото img/p1-6.jpg: AMOVR·DE·VERTV; в text_fr подписи нет); caption_ru: \"Любовь к добродетели\"; caption_en: \"Love of Virtue\".",
-      "confidence": "high"
+      "confidence": "high",
+      "caption_source": "engraving"
     }
   ]
 }

@@ -17,7 +17,8 @@
       "original": "Imagine della Fortuna appò gli Scithi significante la sua velocità & instabilità nelle cose mondane, & che bisogna secondare l'Occasione,",
       "current": "Изображение Фортуны у скифов, означающее её быстроту и непостоянство в вещах мирских, и что должно следовать за Случаем, ибо стремительно он улетает, и тщетно потом его преследуют, и тщетно раскаиваются в случаях упущенных и оставленных без внимания.",
       "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; структурное замечание: подпись слита с текстом и в оригинале, и в переводах; сам перевод подписи по смыслу не проверялся отдельно сверх прохода A). caption_ru: \"Изображение Фортуны у скифов, означающее её быстроту и непостоянство в вещах мирских, и что должно следовать за Случаем, ибо стремительно он улетает, и тщетно потом его преследуют, и тщетно раскаиваются в случаях упущенных и оставленных без внимания.\"; caption_en: \"Image of Fortune among the Scythians, signifying her speed, and instability in worldly things, and that one must follow Occasion, because swiftly she flies away, and in vain is she then pursued, and in vain do men repent of occasions lost, and let slip.\"; caption_fr: \"Image de la Fortune chez les Scythes, signifiant sa vitesse, et son instabilité dans les choses mondaines, et qu'il faut suivre l'Occasion, car rapidement elle s'envole, et en vain la poursuit-on ensuite, et en vain se repent-on des occasions perdues et négligées.\"; caption_orig: \"Imagine della Fortuna appò gli Scithi significante la sua velocità & instabilità nelle cose mondane, & che bisogna secondare l'Occasione, perche velocemente se ne vola & in vano poi si segue, & in vano si pente delle occasioni perdute & tralasciate.\" (найдено в начале text_it — отделить от основного текста)",
-      "confidence": "high"
+      "confidence": "high",
+      "caption_source": "text"
     },
     {
       "field": "text_ru",

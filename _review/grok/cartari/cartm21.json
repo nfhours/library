@@ -16,8 +16,9 @@
       "type": "addition",
       "original": "quali nascono poi diuersi accidenti, quando buoni, & quando tristi frà mortali,",
       "current": "«Образ Солнца, изменяющего и порождающего все времена и времена года, и все вещи, жизнь и смерть, с четырьмя сосудами, в которых заключено разнообразие благ и зол, именуемых: кузница Вулкана, смех Юпитера, смерть Сатурна и грудь Юноны, из коих происходит всё».",
-      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: отдельный абзац, конец текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Солнца, изменяющего и порождающего все времена и времена года, и все вещи, жизнь и смерть, с четырьмя сосудами, в которых заключено разнообразие благ и зол, именуемых: кузница Вулкана, смех Юпитера, смерть Сатурна и грудь Юноны, из коих происходит всё».\"; caption_en: \"“The image of the Sun, changer and producer of all times and seasons, and of all things, of life and death, and of four vessels in which lies the variety of goods and ills, named the forge of Vulcan, the laughter of Jove, the death of Saturn, and the breast of Juno, from which all things proceed.”\"; caption_fr: \"« L'image du Soleil, qui change et produit tous les temps et toutes les saisons, et toutes choses, la vie et la mort, et de quatre vases où se trouve la variété des biens et des maux, nommés la forge de Vulcain, le rire de Jupiter, la mort de Saturne et le sein de Junon, d'où procède toute chose. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
-      "confidence": "high"
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: отдельный абзац, конец текста; в text_it подписи нет — это перевод подписи к гравюре, вставленный в основной текст). caption_ru: \"«Образ Солнца, изменяющего и порождающего все времена и времена года, и все вещи, жизнь и смерть, с четырьмя сосудами, в которых заключено разнообразие благ и зол, именуемых: кузница Вулкана, смех Юпитера, смерть Сатурна и грудь Юноны, из коих происходит всё».\"; caption_en: \"“The image of the Sun, changer and producer of all times and seasons, and of all things, of life and death, and of four vessels in which lies the variety of goods and ills, named the forge of Vulcan, the laughter of Jove, the death of Saturn, and the breast of Juno, from which all things proceed.”\"; caption_fr: \"« L'image du Soleil, qui change et produit tous les temps et toutes les saisons, et toutes choses, la vie et la mort, et de quatre vases où se trouve la variété des biens et des maux, nommés la forge de Vulcain, le rire de Jupiter, la mort de Saturne et le sein de Junon, d'où procède toute chose. »\"; caption_orig: \"Imagine del Sole variatore & produttore di tutti li tempi, e stagioni, & de tutte le cose, della vita & morte, & de quattro vasi oue stà la varietà de beni & mali nominati capo di Vulcano, riso di Gioue, morte di Saturno, & poppa di Giunone, da quali prouiene il tutto.\" (сверено по гравюре img/cartm21.jpg; совпадает с полем caption в entries.json)",
+      "confidence": "high",
+      "caption_source": "engraving"
     },
     {
       "field": "text_ru",
@@ -118,7 +119,8 @@
       "original": "& era chiamato capo di Volcano",
       "current": "était appelé la forge de Vulcain",
       "suggested": "était appelé la tête de Vulcain («capo»; то же в подписи — caption_fr)",
-      "confidence": "high"
+      "confidence": "high",
+      "caption_source": "engraving"
     }
   ]
 }

@@ -29,7 +29,8 @@
       "original": "CONFIDENCE (надпись на гравюре)",
       "current": "заголовки ru «Уверенность, доверие» / en «Confidence» переводят fr «Confiance»; по смыслу подходят и к подписи, но отдельных полей нет",
       "suggested": "вынести подпись к гравюре в отдельные поля (сейчас: подпись только на гравюре, над медальоном; в text_fr и переводах отсутствует; в entries.json есть поле caption «Confidence», но caption_ru/caption_en нет). caption_orig: \"Confidence\" (сверено по фото img/p1-28.jpg: CONFIDENCE; в text_fr подписи нет); caption_ru: \"Уверенность, доверие\"; caption_en: \"Confidence\".",
-      "confidence": "high"
+      "confidence": "high",
+      "caption_source": "engraving"
     }
   ]
 }

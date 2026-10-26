@@ -17,7 +17,8 @@
       "original": "Imagine di Horo Dio delli Egittij, che è Priapo, & Bacco ancora, il quale viene inteso per la virtù seminale,",
       "current": "Изображение Гора, бога египтян, каковой есть Приап, и также Вакх, разумеемый под семенной силою и под Солнцем; с изображением Диска, означающим округлость мира, который освещается Солнцем, и в который Солнце вливает свою силу.",
       "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; структурное замечание: подпись слита с текстом и в оригинале, и в переводах; сам перевод подписи по смыслу не проверялся отдельно сверх прохода A). caption_ru: \"Изображение Гора, бога египтян, каковой есть Приап, и также Вакх, разумеемый под семенной силою и под Солнцем; с изображением Диска, означающим округлость мира, который освещается Солнцем, и в который Солнце вливает свою силу.\"; caption_en: \"Image of Horus, God of the Egyptians, who is Priapus, and Bacchus too, understood as the seminal virtue, and as the Sun; with the depiction of the Disc signifying the roundness of the world, which is illuminated by the Sun, and into which the Sun infuses its virtue.\"; caption_fr: \"Image d'Horus, Dieu des Égyptiens, qui est Priape, et aussi Bacchus, entendu pour la vertu séminale, et pour le Soleil ; avec le dessin du Disque signifiant la rotondité du monde, qui est illuminé par le Soleil, et auquel le Soleil insuffle sa vertu.\"; caption_orig: \"Imagine di Horo Dio delli Egittij, che è Priapo, & Bacco ancora, il quale viene inteso per la virtù seminale, & per il Sole; con il disegno del Disco significante la rotondità del mondo, che viene dal Sole illuminato, & à cui il Sole influisce la virtù sua.\" (найдено в начале text_it — отделить от основного текста)",
-      "confidence": "high"
+      "confidence": "high",
+      "caption_source": "text"
     }
   ]
 }

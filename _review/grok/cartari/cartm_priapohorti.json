@@ -17,7 +17,8 @@
       "original": "Imagine di Priapo Dio delli Horti, & del membro virile, & dell'Asino, & del Becco à lui sacrati, essendo inteso",
       "current": "Изображение Приапа, бога Садов, и мужского члена, и Осла, и Козла, ему посвящённых, разумеемого под силою семенной или порождающей. Он бог, карающий Воров, и воровство, означаемое серпом, а животные суть знак мощного порождения.",
       "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; структурное замечание: подпись слита с текстом и в оригинале, и в переводах; сам перевод подписи по смыслу не проверялся отдельно сверх прохода A). caption_ru: \"Изображение Приапа, бога Садов, и мужского члена, и Осла, и Козла, ему посвящённых, разумеемого под силою семенной или порождающей. Он бог, карающий Воров, и воровство, означаемое серпом, а животные суть знак мощного порождения.\"; caption_en: \"Image of Priapus, God of Gardens, and of the virile member, and of the Ass, and of the Billy-goat sacred to him, understood as the seminal or generative virtue. He is a God who punishes Thieves, and theft signified by the sickle, and the animals are a sign of potent generation.\"; caption_fr: \"Image de Priape, Dieu des Jardins, et du membre viril, et de l'Âne, et du Bouc, qui lui sont consacrés, entendu pour la vertu séminale ou génératrice. Il est Dieu punisseur des Voleurs, et du vol signifié par la faucille, et les animaux sont signe de puissante génération.\"; caption_orig: \"Imagine di Priapo Dio delli Horti, & del membro virile, & dell'Asino, & del Becco à lui sacrati, essendo inteso per la virtù seminale ò generatiua. è Dio punitore de Ladri, & del furto significato nella falce, & li animali sono segno di potente generatione.\" (найдено в начале text_it — отделить от основного текста)",
-      "confidence": "high"
+      "confidence": "high",
+      "caption_source": "text"
     },
     {
       "field": "text_ru",

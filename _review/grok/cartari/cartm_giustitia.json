@@ -17,7 +17,8 @@
       "original": "Imagine della Giustitia custoditrice de buoni, & punitrice de rei; & imagine della Giustitia conculcante, & castigante l'ingiuria, & hieroglifico",
       "current": "Изображение Справедливости, хранительницы добрых и карательницы виновных; и изображение Справедливости, попирающей и наказующей обиду, и иероглиф, означающий названную Справедливость, и какою должна она быть, являться и действовать.",
       "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; структурное замечание: подпись слита с текстом и в оригинале, и в переводах; сам перевод подписи по смыслу не проверялся отдельно сверх прохода A). caption_ru: \"Изображение Справедливости, хранительницы добрых и карательницы виновных; и изображение Справедливости, попирающей и наказующей обиду, и иероглиф, означающий названную Справедливость, и какою должна она быть, являться и действовать.\"; caption_en: \"Image of Justice, guardian of the good, and punisher of the guilty; and image of Justice, trampling, and chastising injury, and a hieroglyph denoting the said Justice, and what she must be, appear, and do.\"; caption_fr: \"Image de la Justice, gardienne des bons, et punisseuse des coupables ; et image de la Justice, foulant aux pieds, et châtiant l'injure, et hiéroglyphe dénotant ladite Justice, et ce qu'elle doit être, paraître, et faire.\"; caption_orig: \"Imagine della Giustitia custoditrice de buoni, & punitrice de rei; & imagine della Giustitia conculcante, & castigante l'ingiuria, & hieroglifico denotante detta Giustitia, & quale deue essere, apparere, & operare.\" (найдено в начале text_it — отделить от основного текста)",
-      "confidence": "high"
+      "confidence": "high",
+      "caption_source": "text"
     }
   ]
 }

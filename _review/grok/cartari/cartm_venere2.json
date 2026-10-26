@@ -14,8 +14,9 @@
       "type": "omission",
       "original": "VENERE. Prima che dissegnare la imagine di Venere voglio fare vno schizzo",
       "current": "— (подписи нет)",
-      "suggested": "подпись к гравюре в переводах отсутствует (в text_ru/text_en/text_fr её нет); добавить caption_ru / caption_en / caption_fr после сверки по фото; caption_orig: «проверить по фото» (в text_it подписи нет; в entries.json есть поле caption — сверить с ним, не переводить обратно)",
-      "confidence": "medium"
+      "suggested": "подпись к гравюре в переводах отсутствует (в text_ru/text_en/text_fr её нет); добавить caption_ru / caption_en / caption_fr после сверки по фото; caption_orig: «проверить по фото» (в text_it подписи нет; изображения books/cartari/img/cartm_venere2.jpg в репозитории нет; в entries.json есть поле caption — сверить с ним)",
+      "confidence": "medium",
+      "caption_source": null
     },
     {
       "field": "text_ru",

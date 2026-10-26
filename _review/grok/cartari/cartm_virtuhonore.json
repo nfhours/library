@@ -17,7 +17,8 @@
       "original": "Imagine della Virtù, & dell'Honore, che si risguardano così scolpiti in vna medaglia di Vitellio, dinotante dalla virtù & attioni",
       "current": "Изображение Добродетели и Чести, взирающих друг на друга, так изваянных на медали Вителлия, означающее, что от добродетели и добродетельных деяний происходит честь, а с честью — изобилие всего и всякое человеческое счастье.",
       "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: слита с началом абзаца, начало текста; структурное замечание: подпись слита с текстом и в оригинале, и в переводах; сам перевод подписи по смыслу не проверялся отдельно сверх прохода A). caption_ru: \"Изображение Добродетели и Чести, взирающих друг на друга, так изваянных на медали Вителлия, означающее, что от добродетели и добродетельных деяний происходит честь, а с честью — изобилие всего и всякое человеческое счастье.\"; caption_en: \"Image of Virtue and Honor, gazing upon each other thus carved on a medal of Vitellius, denoting that from virtue and virtuous actions comes honor, and with honor the abundance of all things, and every human felicity.\"; caption_fr: \"Image de la Vertu et de l'Honneur, se regardant l'un l'autre ainsi sculptés sur une médaille de Vitellius, dénotant que de la vertu et des actions vertueuses provient l'honneur, et qu'avec l'honneur vient l'abondance de toutes choses, et toute félicité humaine.\"; caption_orig: \"Imagine della Virtù, & dell'Honore, che si risguardano così scolpiti in vna medaglia di Vitellio, dinotante dalla virtù & attioni virtuose prouenir l'honore, & con l'honore l'abondanza del tutto, & ogni humana felicità.\" (найдено в начале text_it — отделить от основного текста)",
-      "confidence": "high"
+      "confidence": "high",
+      "caption_source": "text"
     },
     {
       "field": "text_ru",
