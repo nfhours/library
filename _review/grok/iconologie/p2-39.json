@@ -1,0 +1,24 @@
+{
+  "id": "p2-39",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "p2-39-1",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "LE SIECLE D'ARGENT (надпись на гравюре)",
+      "current": "заголовок fr «L'âge d'argent»; на гравюре «LE SIECLE D'ARGENT»",
+      "suggested": "вынести подпись к гравюре в отдельные поля (сейчас: подпись только на гравюре, над медальоном; в text_fr и переводах отсутствует; в entries.json поля caption нет). caption_orig: \"Le Siecle d'argent\" (сверено по фото img/p2-39.jpg: LE SIECLE D'ARGENT; в text_fr подписи нет); caption_ru: \"Серебряный век\"; caption_en: \"The Silver Age\". Перевод подписи совпадает с текущими заголовками ru/en; различие только в caption_orig.",
+      "confidence": "high",
+      "caption_source": "engraving"
+    }
+  ]
+}

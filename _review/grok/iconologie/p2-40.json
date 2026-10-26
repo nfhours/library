@@ -1,0 +1,24 @@
+{
+  "id": "p2-40",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "p2-40-1",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "LE SIECLE DE BRONZE (надпись на гравюре)",
+      "current": "заголовки ru «Медный век» / en «The Bronze Age» переводят fr «L'âge d'airain»; на гравюре «LE SIECLE DE BRONZE»",
+      "suggested": "вынести подпись к гравюре в отдельные поля (сейчас: подпись только на гравюре, над медальоном; в text_fr и переводах отсутствует; в entries.json поля caption нет). caption_orig: \"Le Siecle de bronze\" (сверено по фото img/p2-40.jpg: LE SIECLE DE BRONZE; в text_fr подписи нет); caption_ru: \"Бронзовый век\"; caption_en: \"The Bronze Age\". caption_ru отличается от заголовка (бронзовый, не медный).",
+      "confidence": "high",
+      "caption_source": "engraving"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "p2-41",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "p2-41-1",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "LE SIECLE DE FER (надпись на гравюре)",
+      "current": "заголовок fr «L'âge de fer»; на гравюре «LE SIECLE DE FER»",
+      "suggested": "вынести подпись к гравюре в отдельные поля (сейчас: подпись только на гравюре, над медальоном; в text_fr и переводах отсутствует; в entries.json поля caption нет). caption_orig: \"Le Siecle de fer\" (сверено по фото img/p2-41.jpg: LE SIECLE DE FER; в text_fr подписи нет); caption_ru: \"Железный век\"; caption_en: \"The Iron Age\". Перевод подписи совпадает с текущими заголовками ru/en; различие только в caption_orig.",
+      "confidence": "high",
+      "caption_source": "engraving"
+    },
+    {
+      "field": "attrs",
+      "issue_id": "p2-41-2",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "car elle porte un heaume qui a pour symbole une teste de loup",
+      "current": "волчья голова на шлеме — хищническая жестокость; боевые трофеи — всеобщая война, пришедшая на смену миру золотого века",
+      "suggested": "в тексте истолкованы только Сирена и Чудовище (Обман); толкования волчьей головы и трофеев добавлены — убрать или пометить как не из текста",
+      "confidence": "low"
+    }
+  ]
+}

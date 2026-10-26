@@ -1,0 +1,21 @@
+{
+  "id": "p2-35",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-35-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 4,
+      "type": "mistranslation",
+      "original": "Il est representé de juste taille",
+      "current": "Его изображают стройным",
+      "suggested": "Его изображают среднего (соразмерного) роста — «juste taille» = ни большой, ни малый, ср. абз. 1 «de moyenne taille» и пояснение про равенство дня и ночи; EN «of just stature» допустимо",
+      "confidence": "low"
+    }
+  ]
+}

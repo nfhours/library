@@ -1,0 +1,50 @@
+{
+  "id": "p2-42",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "p2-42-1",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "LES CINQ SENS DE NATVRE (надпись на гравюре)",
+      "current": "заголовки ru «Общие замечания о пяти чувствах» / en «General Remarks on the Five Senses of Nature» переводят fr «Remarques generales sur les cinq sens de Nature»; на гравюре (общий лист с пятью медальонами) «LES CINQ SENS DE NATVRE», ниже повтор «LES CINCQ SENS DE NATVRE»",
+      "suggested": "вынести подпись к гравюре в отдельные поля (сейчас: подпись только на гравюре, над медальоном; в text_fr и переводах отсутствует; в entries.json поля caption нет). caption_orig: \"Les cinq sens de nature\" (сверено по фото img/p2-42.jpg: LES CINQ SENS DE NATVRE; в text_fr подписи нет); caption_ru: \"Пять чувств природы\"; caption_en: \"The Five Senses of Nature\".",
+      "confidence": "high",
+      "caption_source": "engraving"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "p2-42-2",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 5,
+      "type": "name",
+      "original": "certains peuples appellez Astons",
+      "current": "некие безротые народы, именуемые Астонами",
+      "suggested": "…именуемые Астомами (у Плиния Astomi, «безротые»; EN «Astomi» верно) — не уверен, не сохранять ли форму оригинала с пометкой",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "p2-42-3",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 8,
+      "type": "mistranslation",
+      "original": "le rude & le doux, la premiere estant douce naturellement, & l'autre piquante",
+      "current": "а именно грубое и мягкое, первое будучи от природы мягким, а второй — колючим",
+      "suggested": "…грубое и мягкое: первый (горностай) от природы мягок, а второй (ёж) колюч — «la premiere» = hermine; «первое» сейчас читается как «грубое» и даёт противоречие",
+      "confidence": "low"
+    }
+  ]
+}

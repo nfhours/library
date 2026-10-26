@@ -1,0 +1,34 @@
+{
+  "id": "p2-44",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-44-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "auprés de laquelle est couchée une biche, & qui tient un luth de la main gauche",
+      "current": "женщина, подле коей возлежит лань, держащая лютню в левой руке",
+      "suggested": "женщина, держащая лютню в левой руке, а в правой — бычье ухо; подле неё возлежит лань (сейчас причастие «держащая» относится к лани)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "p2-44-2",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 4,
+      "type": "mistranslation",
+      "original": "qu'il faut ouïr soigneusement & avec une diligence tres-particuliere, ce qui est necessaire",
+      "current": "что должно слушать тщательно и с совершенно особым усердием, что необходимо для длительности и сохранения нас самих",
+      "suggested": "что должно тщательно и с особым усердием слушать то, что необходимо для продления и сохранения нас самих («ce qui» — дополнение к «ouïr»; EN верно)",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "p2-37",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "p2-37-1",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "LES QVATRE AGES (надпись на гравюре)",
+      "current": "заголовки ru «О возрасте человека вообще» / en «Of the Age of Man in General» переводят fr «De l'âge de l'homme en general»; на гравюре общий лист «LES QVATRE AGES» с медальонами «Le Siecle d'or / d'argent / de bronze / de fer»",
+      "suggested": "вынести подпись к гравюре в отдельные поля (сейчас: подпись только на гравюре, над медальоном; в text_fr и переводах отсутствует; в entries.json поля caption нет). caption_orig: \"Les quatre âges\" (сверено по фото img/p2-37.jpg: LES QVATRE AGES; в text_fr подписи нет); caption_ru: \"Четыре века\"; caption_en: \"The Four Ages\". Лист относится к статьям p2-38..p2-41 (века мира), а не к возрастам человека — не уверен, стоит ли вообще связывать эту подпись с p2-37; attrs это уже отмечают.",
+      "confidence": "high",
+      "caption_source": "engraving"
+    }
+  ]
+}
