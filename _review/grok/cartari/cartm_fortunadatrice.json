@@ -24,7 +24,8 @@
       "issue_id": "cartm_fortunadatrice-2",
       "fields": [
         "text_ru",
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
@@ -38,7 +39,8 @@
       "issue_id": "cartm_fortunadatrice-2",
       "fields": [
         "text_ru",
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
@@ -59,6 +61,21 @@
       "current": "который был сделан древними богом",
       "suggested": "которая (Occasione) была сделана древними богиней",
       "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_fortunadatrice-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Ciò ch'ella vnqua mi diede Risuto, e se ne riede L'animo",
+      "current": "Ce qu'elle m'a jamais donné / Je refuse, et le lui rends, / Mon âme",
+      "suggested": "Ce qu'elle m'a jamais donné / Je le résigne, et me revient / Mon âme (Гораций III 29: resigno quae dedit; та же ошибка в RU/EN)",
+      "confidence": "medium"
     }
   ]
 }

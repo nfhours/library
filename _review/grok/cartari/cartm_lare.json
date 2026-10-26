@@ -22,7 +22,8 @@
       "issue_id": "cartm_lare-2",
       "fields": [
         "text_ru",
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
@@ -36,13 +37,29 @@
       "issue_id": "cartm_lare-2",
       "fields": [
         "text_ru",
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "d'onde vna serua della sua moglie detta Ocrisia, che quiui era stata assisa",
       "current": "a servant of his wife, called Ocrisia",
       "suggested": "a servant of his wife, a woman called Ocrisia (снять двусмысленность)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_lare-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "d'onde vna serua della sua moglie detta Ocrisia, che quiui era stata assisa",
+      "current": "une servante de son épouse appelée Ocrisia",
+      "suggested": "une servante de son épouse, nommée Ocrisia (Окрисия — служанка, а не жена Тарквиния; снять двусмысленность, как в EN)",
       "confidence": "low"
     }
   ]

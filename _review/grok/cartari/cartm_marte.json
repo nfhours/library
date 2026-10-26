@@ -24,7 +24,8 @@
       "issue_id": "cartm_marte-2",
       "fields": [
         "text_ru",
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
@@ -38,7 +39,8 @@
       "issue_id": "cartm_marte-2",
       "fields": [
         "text_ru",
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
@@ -52,7 +54,8 @@
       "issue_id": "cartm_marte-3",
       "fields": [
         "text_ru",
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
@@ -66,7 +69,8 @@
       "issue_id": "cartm_marte-3",
       "fields": [
         "text_ru",
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
@@ -79,7 +83,8 @@
       "field": "text_en",
       "issue_id": "cartm_marte-4",
       "fields": [
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
@@ -93,6 +98,7 @@
       "issue_id": "cartm_marte-5",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -107,6 +113,7 @@
       "issue_id": "cartm_marte-6",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -121,6 +128,7 @@
       "issue_id": "cartm_marte-7",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -134,7 +142,8 @@
       "field": "text_en",
       "issue_id": "cartm_marte-8",
       "fields": [
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
@@ -155,6 +164,109 @@
       "current": "неистовый Ярость … являл себя весёлым Ярость",
       "suggested": "неистовое Неистовство / Ярость (согласование рода: «неистовая Ярость», «весёлой Ярость»)",
       "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_marte-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "battendosi la natura con mano ingrauidò di Marte",
+      "current": "frappant la terre de la main, fut par la nature rendue enceinte de Mars",
+      "suggested": "se frappant le sein [la nature] de la main, conçut Mars («la natura» — лоно, не земля; та же ошибка в RU/EN)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_marte-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& fu fatto morire per mano … vn Tribuno della plebe, che hebbe ardire di nomarlo",
+      "current": "un homme fut mis à mort de la main / de justice, par un Tribun de la plèbe, qui eut l'audace de le nommer",
+      "suggested": "et un Tribun de la plèbe qui eut l'audace de le nommer fut mis à mort par la main de la justice (казнён сам трибун; та же ошибка в RU/EN)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_marte-4",
+      "fields": [
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "quello perche è feroce, come scriue Pausania, & il più forte",
+      "current": "celui-ci parce qu'il est féroce … celui-là soit parce que",
+      "suggested": "celui-là [le Chien] parce qu'il est féroce … celui-ci [le Loup] soit parce que («quello/questo» перепутаны; та же ошибка в EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_marte-5",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Ma chi da gli antichi non sà fare ritratto della Discordia",
+      "current": "Mais que quiconque, parmi les anciens, ne sait faire le portrait de la Discorde",
+      "suggested": "Mais que quiconque ne sait faire le portrait de la Discorde d'après les anciens (та же ошибка в RU/EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_marte-6",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "con le mani legate alle spalle con salde catene",
+      "current": "les mains liées aux épaules par de solides chaînes",
+      "suggested": "les mains liées derrière le dos par de solides chaînes (та же ошибка в RU/EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_marte-7",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& il Porco portauano ancora, perche senza questo non si faceua mai tregua",
+      "current": "ils portaient aussi le Sanglier … et tuait un Sanglier",
+      "suggested": "ils portaient aussi le Porc … et tuait un Porc (porco — свинья фециалов; та же ошибка в RU/EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_marte-8",
+      "fields": [
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "come io dissi già nel Flauio",
+      "current": "comme je l'ai déjà dit au chapitre de Flavius",
+      "suggested": "comme je l'ai déjà dit dans le «Flavio» (книга Картари, не глава; та же ошибка в EN)",
+      "confidence": "medium"
     }
   ]
 }

@@ -21,7 +21,8 @@
       "field": "text_en",
       "issue_id": "cartm_volcano-2",
       "fields": [
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "name",
@@ -34,13 +35,42 @@
       "field": "text_it",
       "issue_id": "cartm_volcano-3",
       "fields": [
-        "text_it"
+        "text_it",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "ocr",
       "original": "& gli sforzarono a fuggirsi nelle Egitto.",
       "current": "RU «принудили их бежать в Египет»; EN «forced them to flee into Egypt»",
       "suggested": "по смыслу (Геродот II 141) арабы бегут из Египта; «nelle Egitto» — вероятно, порча текста; не уверен, нужна сверка в проходе B",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_volcano-2",
+      "fields": [
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Et in certa altra sorte di sacrificio chiamato Proteruia, come scriue Macrobio",
+      "current": "appelée Proterva",
+      "suggested": "appelée Propter viam (у Макробия; в оригинале «Proteruia»; та же ошибка в EN; дважды в абзаце)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_volcano-3",
+      "fields": [
+        "text_it",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "& gli sforzarono a fuggirsi nelle Egitto.",
+      "current": "les contraignirent à fuir en Égypte",
+      "suggested": "не уверен: по смыслу (Геродот II 141) арабы бегут из Египта; «nelle Egitto» — вероятно, порча оригинала; сверить в проходе B (как и в RU/EN)",
       "confidence": "low"
     }
   ]

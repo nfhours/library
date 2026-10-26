@@ -36,7 +36,8 @@
       "field": "text_en",
       "issue_id": "cartm_genio-3",
       "fields": [
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
@@ -49,13 +50,42 @@
       "field": "text_en",
       "issue_id": "cartm_genio-4",
       "fields": [
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "o perch'egli di questa hauesse la cura, ò perch'egli di questa hauesse la cura",
       "current": "either because he had charge of this, or because he had charge of this",
       "suggested": "either because he had charge of this (дубль — опечатка оригинала; RU его верно опустил)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_genio-3",
+      "fields": [
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "di che sdegnata questa bestia crudele gli venne contra",
+      "current": "cette bête cruelle, dédaignée, vint contre lui",
+      "suggested": "cette bête cruelle, irritée, vint contre lui (та же ошибка в EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_genio-4",
+      "fields": [
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "o perch'egli di questa hauesse la cura, ò perch'egli di questa hauesse la cura",
+      "current": "soit parce qu'il en avait le soin, soit parce qu'il en avait le soin",
+      "suggested": "soit parce qu'il en avait le soin (дубль — опечатка оригинала; та же ошибка в EN)",
       "confidence": "low"
     }
   ]

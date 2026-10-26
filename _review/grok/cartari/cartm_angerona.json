@@ -35,6 +35,7 @@
       "issue_id": "cartm_angerona-3",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -43,6 +44,21 @@
       "current": "язык должен являть то, что в сердце, но не всегда это делать обязан",
       "suggested": "как будто язык являет то, что в сердце, но делать этого не должен (в оригинале нет «всегда»; то же EN «yet ought not always do so»)",
       "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_angerona-3",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "come che la lingua manifesti quello, che è nel core, ma non lo debba però fare",
+      "current": "comme si la langue devait manifester ce qui est dans le cœur, mais ne devrait pas toujours le faire",
+      "suggested": "comme si la langue manifestait ce qui est dans le cœur, mais ne devait pourtant pas le faire («toujours» добавлено; та же ошибка в RU/EN)",
+      "confidence": "medium"
     }
   ]
 }

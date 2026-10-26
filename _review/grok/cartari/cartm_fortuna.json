@@ -21,13 +21,28 @@
       "field": "text_en",
       "issue_id": "cartm_fortuna-2",
       "fields": [
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "in forma di donna, che sul capo haueua vn polo",
       "current": "who upon her head had a celestial sphere",
       "suggested": "who upon her head had a polos (pole) — далее речь о вращении вокруг «двух полюсов»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_fortuna-2",
+      "fields": [
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "in forma di donna, che sul capo haueua vn polo",
+      "current": "qui sur la tête avait une sphère céleste",
+      "suggested": "qui sur la tête avait un polos (pôle) — далее речь о вращении вокруг «двух полюсов» (та же ошибка в EN)",
       "confidence": "medium"
     }
   ]

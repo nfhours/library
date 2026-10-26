@@ -24,6 +24,7 @@
       "issue_id": "cartm_bacco-2",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -38,6 +39,7 @@
       "issue_id": "cartm_bacco-3",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -51,13 +53,58 @@
       "field": "text_en",
       "issue_id": "cartm_bacco-4",
       "fields": [
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "name",
       "original": "imparò Anfitrione Rè de gli Atheniesi innanzi",
       "current": "Amphictyon, King of the Athenians",
       "suggested": "в оригинале «Anfitrione» (RU «Анфитрион»); исправление на Амфиктиона верно по Афинею, но не помечено — оставить с примечанием",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_bacco-2",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "come mostrò chi fece la vbbriachezza; che gli daua bere appresso de gli Elei",
+      "current": "comme le montra celui qui fit l'ivresse ; on lui donnait à boire chez les Éléens",
+      "suggested": "comme le montra celui qui fit l'Ivresse lui donnant à boire, chez les Éléens (статуя Мете с чашей у Павсания; та же ошибка в RU/EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_bacco-3",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Baccho lasciuo, e molle, e lieui Thirsi",
+      "current": "Bacchus lascif, et les Thyrses mous, légers",
+      "suggested": "Bacchus lascif et efféminé, et les Thyrses légers («molle» относится к Вакху; та же ошибка в RU/EN)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_bacco-4",
+      "fields": [
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "imparò Anfitrione Rè de gli Atheniesi innanzi",
+      "current": "Amphictyon, Roi des Athéniens",
+      "suggested": "в оригинале «Anfitrione»; исправление на Амфиктиона верно по Афинею, но не помечено — оставить с примечанием (как в EN)",
       "confidence": "low"
     }
   ]

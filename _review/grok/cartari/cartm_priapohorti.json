@@ -23,7 +23,8 @@
       "field": "text_ru",
       "issue_id": "cartm_priapohorti-2",
       "fields": [
-        "text_ru"
+        "text_ru",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
@@ -49,13 +50,42 @@
       "field": "text_en",
       "issue_id": "cartm_priapohorti-4",
       "fields": [
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
       "original": "perche Priapo sdegnato di ciò l'vccise",
       "current": "for Priapus, scorned by this, killed him",
       "suggested": "for Priapus, indignant at this, killed him",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_priapohorti-2",
+      "fields": [
+        "text_ru",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Dimmi con che arte fai tù, che ti Vole Ogni bel giouinetto sì gran bene",
+      "current": "que te veut / Tout beau jeune homme si grand bien",
+      "suggested": "que t'aime tant / Tout beau jeune homme («voler bene» = любить; та же ошибка в RU)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_priapohorti-4",
+      "fields": [
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "perche Priapo sdegnato di ciò l'vccise",
+      "current": "Priape, dédaigné de cela, le tua",
+      "suggested": "Priape, indigné de cela, le tua («sdegnato» = разгневанный; та же ошибка в EN)",
       "confidence": "medium"
     }
   ]

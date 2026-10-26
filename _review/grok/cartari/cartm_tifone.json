@@ -24,6 +24,7 @@
       "issue_id": "cartm_tifone-2",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -37,13 +38,45 @@
       "field": "text_ru",
       "issue_id": "cartm_tifone-3",
       "fields": [
-        "text_ru"
+        "text_ru",
+        "text_fr",
+        "text_en"
       ],
       "paragraph": 1,
       "type": "addition",
       "original": "stasse. Et di Horo auuene quasi anco il medesimo",
       "current": "довольно. И с Гором случилось…",
       "suggested": "«stasse» — обрывок слова с предыдущей страницы; «довольно» / EN «suffice.» — догадка переводчика; лучше «…» — не уверен",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_tifone-2",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "e per quello intendeuano Tifone imagine di tutto il male, che viene dalla terra, & per questo la virtù",
+      "current": "par cela on entendait Typhon … et donc la vertu",
+      "suggested": "par celui-là [l'Hippopotame] on entendait Typhon … et par celui-ci [l'Épervier] la vertu («per questo» — «под этим», не «donc»; та же ошибка в RU/EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_tifone-3",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "stasse. Et di Horo auuene quasi anco il medesimo",
+      "current": "suffît.",
+      "suggested": "«…» вместо «suffît»: «stasse» — обрывок слова с предыдущей страницы, «suffît» — догадка переводчика (как в RU/EN) — не уверен",
       "confidence": "low"
     }
   ]

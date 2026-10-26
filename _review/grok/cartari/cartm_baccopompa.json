@@ -24,6 +24,7 @@
       "issue_id": "cartm_baccopompa-2",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -38,6 +39,7 @@
       "issue_id": "cartm_baccopompa-3",
       "fields": [
         "text_en",
+        "text_fr",
         "text_ru"
       ],
       "paragraph": 1,
@@ -46,6 +48,36 @@
       "current": "they made more account of Ivy … than the vine does, which loses them in winter",
       "suggested": "they made more account of Ivy … than of the vine, which loses them in winter (RU «нежели у виноградной лозы» → «нежели лозе»)",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_baccopompa-2",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Come insegnò di fare Osiri pure.",
+      "current": "Comme l'enseigna à faire le pur Osiris.",
+      "suggested": "Comme l'enseigna aussi à faire Osiris («pure» = «также»; та же ошибка в RU/EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_baccopompa-3",
+      "fields": [
+        "text_en",
+        "text_fr",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "faceuano più conto della Hedera (perche à tutte le stagioni hà le",
+      "current": "plus de cas du Lierre … que la vigne, laquelle au temps de l'hiver les perd",
+      "suggested": "plus de cas du Lierre … que de la vigne, laquelle les perd en hiver (двусмысленно, как в EN)",
+      "confidence": "low"
     }
   ]
 }

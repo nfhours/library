@@ -24,7 +24,8 @@
       "issue_id": "cartm_virtuhonore-2",
       "fields": [
         "text_ru",
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
@@ -38,7 +39,8 @@
       "issue_id": "cartm_virtuhonore-2",
       "fields": [
         "text_ru",
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "mistranslation",
@@ -52,6 +54,7 @@
       "issue_id": "cartm_virtuhonore-3",
       "fields": [
         "text_en",
+        "text_fr",
         "text_ru"
       ],
       "paragraph": 1,
@@ -66,6 +69,7 @@
       "issue_id": "cartm_virtuhonore-4",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -73,6 +77,51 @@
       "original": "in forma di Giouane vestito succintamente con elmo in testa",
       "current": "в виде Юноши, одетого скромно",
       "suggested": "в виде Юноши в подпоясанной (короткой) одежде («succintamente» — подпоясанно/коротко, не «скромно»); то же EN «modestly dressed» → «girt up»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_virtuhonore-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Et perche a questa si accostò Hercole, hebbe così glorioso nome.",
+      "current": "Et parce qu'Hercule s'approcha de celle-ci, elle reçut un nom si glorieux.",
+      "suggested": "Et parce qu'Hercule s'attacha à celle-ci, il acquit un nom si glorieux (подлежащее — Геркулес; та же ошибка в RU/EN)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_virtuhonore-3",
+      "fields": [
+        "text_en",
+        "text_fr",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "che la sua via gli mostraua prima stretta, & certa, & difficile",
+      "current": "d'abord étroit, incertain et difficile",
+      "suggested": "d'abord étroit, escarpé et difficile («certa», вероятно, = «erta»; во всяком случае не «incertain»; та же ошибка в EN) — не уверен",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_virtuhonore-4",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "in forma di Giouane vestito succintamente con elmo in testa",
+      "current": "un Jeune homme vêtu sobrement",
+      "suggested": "un Jeune homme en habit retroussé (court, ceint) («succintamente»; та же ошибка в RU/EN)",
       "confidence": "medium"
     }
   ]
