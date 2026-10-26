@@ -1,0 +1,17 @@
+{
+  "id": "carta24",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "tirano il carro di Trittolemo fatte in questa maniera.",
+      "current": "они влекут колесницу Триптолема, выполненную таким же образом",
+      "suggested": "они (змеи), сделанные таким же образом, влекут колесницу Триптолема («fatte» относится к змеям)",
+      "confidence": "low"
+    }
+  ]
+}

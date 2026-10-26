@@ -1,0 +1,17 @@
+{
+  "id": "cartm_pignoriafortunaletto",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "l'ho per la Fortuna sicura, & non mutabile.",
+      "current": "Я её за Фортуну надёжную и неизменную.",
+      "suggested": "Я же считаю её Фортуной надёжной и неизменной (пропущен глагол); EN «I have for the sure» → «I take it for the sure…»",
+      "confidence": "low"
+    }
+  ]
+}

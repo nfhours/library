@@ -1,0 +1,26 @@
+{
+  "id": "cartm_aggiontathemis",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "io sò bene, che l'Abrotano femina ora pianta de i Sacerdoti d'Iside",
+      "current": "женская Полынь ныне есть растение жрецов Изиды",
+      "suggested": "женская Полынь была растением жрецов Изиды («ora» — опечатка за «era»; речь о древности); EN «is now a plant» → «was a plant»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "sarà l'Equità, che i primi Imperatori nelle loro monete figurarono in piedi",
+      "current": "то это будет Справедливость, которую первые Императоры изображали",
+      "suggested": "то это будет Равенство (Aequitas, «Справедливость-соразмерность»), — далее текст противопоставляет её Giustitia, а RU обоих называет «Справедливость»; EN «Equity» верно",
+      "confidence": "medium"
+    }
+  ]
+}

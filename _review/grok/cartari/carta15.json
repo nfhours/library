@@ -1,0 +1,17 @@
+{
+  "id": "carta15",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "nel suo primo Libro della Poesia Satirica, a capitoli due.",
+      "current": "в его первой Книге о Сатирической Поэзии, в двух главах",
+      "suggested": "в первой книге «О сатирической поэзии», во второй главе («a capitoli due» = на гл. 2, как «a cap. 7» в других ссылках); EN «in two chapters» → «in chapter two»",
+      "confidence": "medium"
+    }
+  ]
+}

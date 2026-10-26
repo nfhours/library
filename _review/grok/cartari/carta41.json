@@ -1,0 +1,26 @@
+{
+  "id": "carta41",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "name",
+      "original": "ritrouato già nelle rouine di Spello",
+      "current": "в развалинах Сполето",
+      "suggested": "в развалинах Спелло (EN верно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "Nel Cameo si vede Venere Calliga come stà nelle Medaglie.",
+      "current": "Венера Каллига (Обутая)",
+      "suggested": "Венера Каллига — пояснение «(Обутая)» добавлено и сомнительно (вероятно, искажённое «Callipyga»), не уверен; убрать глоссу; то же EN «(Booted)»",
+      "confidence": "medium"
+    }
+  ]
+}

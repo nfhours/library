@@ -1,0 +1,17 @@
+{
+  "id": "cartm_pignoriagiganti",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "come molti le ne vedono nel mio Lib. della spositione della Mensa Isiaca",
+      "current": "какими многие их видят в моей Книге",
+      "suggested": "каких много можно видеть в моей Книге («le ne vedono» = se ne vedono, безличное); EN «as many see them» → «as many of them are seen»",
+      "confidence": "low"
+    }
+  ]
+}

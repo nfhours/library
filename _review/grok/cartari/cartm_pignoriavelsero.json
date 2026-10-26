@@ -1,0 +1,17 @@
+{
+  "id": "cartm_pignoriavelsero",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "essere errata la sottoscritta di passa vinti leggi del Codice",
+      "current": "ошибочность подписи, [гласящей] «прошло двадцать» законов Кодекса",
+      "suggested": "ошибочность подписи (датировки) более чем двадцати законов Кодекса («passa vinti» = свыше двадцати); EN «the subscription reading \"twenty laws\"» → «the subscriptions of more than twenty laws» — не уверен",
+      "confidence": "medium"
+    }
+  ]
+}

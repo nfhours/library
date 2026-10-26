@@ -1,0 +1,26 @@
+{
+  "id": "cartm_pignoriapriapo",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "name",
+      "original": "per sodisfar al patto, che haueua con Profumno",
+      "current": "с Профумном",
+      "suggested": "с Просимном (Prosymnus; «Profumno» — опечатка; EN верно)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "non che gl'occhi di chi hauesse vn … tantino di rossore honorato",
+      "current": "имел хоть каплю / свято- хоть каплю почтенного стыда",
+      "suggested": "кустода «santi-» (sic, = tantino) ошибочно переведена как «свято-» — удалить; EN «shred a shred» — убрать повтор",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "carti6",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "che sarà stato appresso questi più stimato senza dubio, che'l fauoloso",
+      "current": "was doubtless held in no less esteem than the fabled horn",
+      "suggested": "was doubtless held in greater esteem than the fabled horn («più stimato»; RU верно)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "nel bisogno, che teneuano i seminati, d'acqua",
+      "current": "в нужде, какую испытывали посевы в воде",
+      "suggested": "в нужде посевов в воде → «когда посевы нуждались в воде» (EN верно)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "name",
+      "original": "lo racconta il Vvitfliet nella sua relatione di Iucatan",
+      "current": "Вицлиет",
+      "suggested": "Витфлит (Wytfliet), то же ниже",
+      "confidence": "low"
+    }
+  ]
+}
