@@ -1,0 +1,44 @@
+{
+  "id": "cartm80",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "ne di bel corpo, grande, e sodo",
+      "current": "[2] [Продолжение, стр. 272…] ...прекрасного телосложения… [Текст обрывается…]",
+      "suggested": "абзац 2 — дубль уже переведённого текста (и/или текст соседней записи / редакторская пометка); в text_it этой записи его нет — удалить (повтор начала абзаца 1 + редакторская пометка)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "ne di bel corpo, grande, e sodo",
+      "current": "[2] [Continuing, page 272…] ...of fair body… [Text cut off…]",
+      "suggested": "абзац 2 — дубль уже переведённого текста (и/или текст соседней записи / редакторская пометка); в text_it этой записи его нет — удалить",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& con simili statoe honorauano spesso i gradi, & valorosi Capitani",
+      "current": "такими статуями часто чтили чины и доблестных Полководцев",
+      "suggested": "такими статуями часто чтили великих и доблестных Полководцев («gradi» = опечатка «grandi»)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& con simili statoe honorauano spesso i gradi, & valorosi Capitani",
+      "current": "they often honoured ranks and valorous Captains",
+      "suggested": "they often honoured great and valorous Captains",
+      "confidence": "high"
+    }
+  ]
+}

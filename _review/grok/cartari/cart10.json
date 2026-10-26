@@ -1,0 +1,80 @@
+{
+  "id": "cart10",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Giuano intanto con le chiome sparse Le donne d'Ilio",
+      "current": "Между тем Юнона с распущенными власами / Жёны Илиона…",
+      "suggested": "Шли между тем с распущенными власами / Жёны Илиона… («Giuano» = «givano», шли; Юноны здесь нет)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Giuano intanto con le chiome sparse Le donne d'Ilio",
+      "current": "Meanwhile Juno, with disheveled hair, / The women of Ilium…",
+      "suggested": "Meanwhile, with disheveled hair, there went / The women of Ilium…",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "spiccò fuori della terra vn rampollo di oglio",
+      "current": "выступил из земли побег оливы",
+      "suggested": "забил из земли родник масла (rampollo di oglio = струя масла; у Павсания перед храмом потекло масло)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "spiccò fuori della terra vn rampollo di oglio",
+      "current": "there sprang forth from the earth a shoot of olive",
+      "suggested": "there gushed forth from the earth a spring of oil",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Crederan, che non più sia Sol vn Sole",
+      "current": "Поверят, что уже не единое солнце есть Солнце",
+      "suggested": "Поверят, что солнце уже не одно",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Crederan, che non più sia Sol vn Sole",
+      "current": "Will believe that there is no longer but a single Sun",
+      "suggested": "Will believe that there is no longer one Sun only",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "name",
+      "original": "& la tenne al suo seruitio fin, che accusò le figliole di Cercope",
+      "current": "покуда она не обвинила дочерей Керкопа",
+      "suggested": "дочерей Кекропа (в оригинале искажено «Cercope»; то же EN «Cercops» → «Cecrops»)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "come già scrissi nel Flauio",
+      "current": "as I already wrote in the chapter on Flavius",
+      "suggested": "as I already wrote in the Flavio (книга Картари «Il Flavio», а не глава)",
+      "confidence": "medium"
+    }
+  ]
+}

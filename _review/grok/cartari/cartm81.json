@@ -1,0 +1,62 @@
+{
+  "id": "cartm81",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "Melampigo, che viene a dire, dal negro culo",
+      "current": "[2] Мелампиг — что означает «черножопый»… / [3] …отправился по неким своим делам в Спарту…",
+      "suggested": "абзацы 2–3 — сокращённый (с «...») повтор начала абзаца 1; удалить",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "Melampigo, che viene a dire, dal negro culo",
+      "current": "[2] Melampygus, meaning 'black-arsed'… / [3] …having gone on certain affairs of his own to Sparta…",
+      "suggested": "абзацы 2–3 — сокращённый повтор абзаца 1; удалить",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "che se ne portasse in collo vn ferro cinghiale",
+      "current": "как нёс на плечах некоего железного кабана",
+      "suggested": "как нёс на плечах свирепого кабана («ferro» = «fero», Эриманфский вепрь)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "che se ne portasse in collo vn ferro cinghiale",
+      "current": "carrying on his shoulders an iron boar",
+      "suggested": "carrying on his shoulders a fierce boar",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Furono due fratelli maluagi, e tristi quanto si possa dire",
+      "current": "были два злых брата, печальных настолько, насколько можно сказать",
+      "suggested": "были два брата, злые и негодные до крайности (tristi = дурные, не «печальные»)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "ornandole di virtù, & di opere giuste, & honeste",
+      "current": "adorning them with virtue, and with just works, and just works",
+      "suggested": "adorning them with virtue, and with just and honest works",
+      "confidence": "high"
+    }
+  ]
+}

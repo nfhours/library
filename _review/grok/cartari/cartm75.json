@@ -1,0 +1,17 @@
+{
+  "id": "cartm75",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "alcuni le chiamarono Cancelliere de i Dei",
+      "current": "некоторые называли их Канцлером богов",
+      "suggested": "некоторые называли их Канцлерами (писцами) богов",
+      "confidence": "medium"
+    }
+  ]
+}

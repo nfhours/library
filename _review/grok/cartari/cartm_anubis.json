@@ -1,0 +1,35 @@
+{
+  "id": "cartm_anubis",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Et vn'altra ne era appresso de' Tanagrei gente della Beotia, che portaua vn montone in collo",
+      "current": "у Танагрейцев, народа Беотии, который носил барана на шее",
+      "suggested": "…у Танагрейцев, народа Беотии, — статуя, нёсшая барана на плечах («che» относится к статуе, не к народу)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "perche dissero le fauole, & lo riferisce Marco Marco Tullio",
+      "current": "о чём сообщает и Марк Марк Туллий",
+      "suggested": "о чём сообщает и Марк Туллий (дубль — опечатка оригинала)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "perche dissero le fauole, & lo riferisce Marco Marco Tullio",
+      "current": "as the fables say, and as Marcus Marcus Tullius, that it swelled",
+      "suggested": "as the fables say, and as Marcus Tullius reports, that it swelled",
+      "confidence": "high"
+    }
+  ]
+}

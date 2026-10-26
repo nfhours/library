@@ -1,0 +1,17 @@
+{
+  "id": "cart6",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "in mano, che significa, che i terra sono i regni tutti, & tutte le ricchezze humane",
+      "current": "что означает, что земля есть все царства и все людские богатства",
+      "suggested": "что означает, что на земле — все царства и все людские богатства («i terra» = «in terra»)",
+      "confidence": "medium"
+    }
+  ]
+}

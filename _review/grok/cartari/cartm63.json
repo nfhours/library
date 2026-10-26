@@ -1,0 +1,26 @@
+{
+  "id": "cartm63",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "fuori della spelonca horrenda porgeua spesso in mare le spauenteuoli teste, guardando se naue",
+      "current": "…высматривая, не проплывёт ли там корабль, дабы чтобы не учинить… Харибда… Нереиды… Палемон… Портун…»",
+      "suggested": "text_it обрывается на «guardando se naue»; всё дальнейшее (Харибда, превращение Сциллы, Платон о Нереидах, Павсаний, Палемон-Портун) отсутствует в оригинале этой записи — удалить или перенести в следующую запись после сверки (проход B)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "fuori della spelonca horrenda porgeua spesso in mare le spauenteuoli teste, guardando se naue",
+      "current": "…so that no ship passed that way without her making a wretched prey… Charybdis… Palaemon… Portunus…”",
+      "suggested": "то же: текст после «guardando se naue» в оригинале этой записи отсутствует",
+      "confidence": "high"
+    }
+  ]
+}

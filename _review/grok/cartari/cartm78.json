@@ -1,0 +1,53 @@
+{
+  "id": "cartm78",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "Percioche la Fede hà da stare secreta",
+      "current": "[2] [Из текста, предшествующего образу на стр. 266…] ...[это] изображение описывает Согласие… Силий Италик…",
+      "suggested": "абзац 2 — текст из предыдущей записи (Согласие, Силий Италик) + повтор абзаца 1; в text_it нет — удалить",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 3,
+      "type": "addition",
+      "original": "Erano oltre di ciò i pomi granati ancora segno di Concordia",
+      "current": "[3] [Продолжение, стр. 268] И поскольку верили…",
+      "suggested": "абзац 3 — дубль уже переведённого текста (и/или текст соседней записи / редакторская пометка); в text_it этой записи его нет — удалить",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "Percioche la Fede hà da stare secreta",
+      "current": "[2] [From the text preceding the plate on printed page 266…] ...this description depicts Concord…",
+      "suggested": "абзац 2 — чужой текст + повтор; удалить",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 3,
+      "type": "addition",
+      "original": "Erano oltre di ciò i pomi granati ancora segno di Concordia",
+      "current": "[3] [Continuing, page 268] And because it was believed…",
+      "suggested": "абзац 3 — дубль уже переведённого текста (и/или текст соседней записи / редакторская пометка); в text_it этой записи его нет — удалить",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "per la ingordigia del guadagno vanno vilmente a baciar le mani a gli altri serui",
+      "current": "низко идут целовать руки другим рабам",
+      "suggested": "низко идут целовать руки чужим рабам (речь о свободных, не о рабах)",
+      "confidence": "medium"
+    }
+  ]
+}

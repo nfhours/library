@@ -1,0 +1,26 @@
+{
+  "id": "cartm58",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "Queste cose si operauano a' 28. d'Aprile, & il primo giorno di Maggio",
+      "current": "[2] [Продолжение, со страницы 198] ...сделала наследником своим народ Римский… богиня Бона… […продолжение см. в карточке…]",
+      "suggested": "абзац 2 — дубль уже переведённого текста (и/или текст соседней записи / редакторская пометка); в text_it этой записи его нет — удалить (повтор конца абзаца 1 + текст о Доброй Богине из cartm59)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "Queste cose si operauano a' 28. d'Aprile, & il primo giorno di Maggio",
+      "current": "[2] [Continuing, from page 198] ...the Roman people made her their heir… the Good Goddess (Dea Bona)…",
+      "suggested": "абзац 2 — дубль уже переведённого текста (и/или текст соседней записи / редакторская пометка); в text_it этой записи его нет — удалить",
+      "confidence": "high"
+    }
+  ]
+}

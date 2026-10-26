@@ -1,0 +1,26 @@
+{
+  "id": "cartm55",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "e perciò non era fatto mai sacrificio senza fuoco, & che non fosse chiamata Vesta nel principio",
+      "current": "и ни одно не называлось так без призывания сначала Весты",
+      "suggested": "и такого, при котором вначале не призывалась бы Веста",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "e perciò non era fatto mai sacrificio senza fuoco, & che non fosse chiamata Vesta nel principio",
+      "current": "nor was it called such without Vesta being invoked first",
+      "suggested": "nor one in which Vesta was not invoked at the beginning",
+      "confidence": "medium"
+    }
+  ]
+}

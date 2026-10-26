@@ -1,0 +1,44 @@
+{
+  "id": "cartm70",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Quà, quà venite à vdir le mie querele Contra questo maluagio, empio, e crudele.",
+      "current": "людям совершать всякое зло … Гнев … Алчность … Распутство … Стаций … Овидий … Стигийского Болота … амброзию».",
+      "suggested": "text_it кончается стихами Катулла; весь последующий блок (страсти души, Стаций о Тисифоне, Овидий, Стикс) в оригинале этой записи отсутствует — удалить/перенести после сверки",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Quà, quà venite à vdir le mie querele Contra questo maluagio, empio, e crudele.",
+      "current": "of men to commit every evil … Statius … Ovid … Stygian Marsh … ambrosia.”",
+      "suggested": "то же: блок после Катулла отсутствует в text_it",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "sacrificauano loro ogni anno in certo dì a ciò destinato, alcune pecore pregne",
+      "current": "неких супоросых овец",
+      "suggested": "неких суягных овец («супоросая» — о свинье)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "name",
+      "original": "Et Suida riferendo di Menippo Cinico",
+      "current": "о Менипте Кинике",
+      "suggested": "о Мениппе Кинике",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "cartm82",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "dice, che l'vso ha ottenuto, che siano chiamati Lebeti gli vni, e gli altri",
+      "current": "называть одни из них Лебетами, а другие — чашами и прочими винными сосудами",
+      "suggested": "называть Лебетами и те, и другие — как чаши и прочие винные сосуды",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "dice, che l'vso ha ottenuto, che siano chiamati Lebeti gli vni, e gli altri",
+      "current": "some are called Lebetes, and others cups, and other wine-vessels",
+      "suggested": "both kinds are called Lebetes, like cups and other wine-vessels",
+      "confidence": "medium"
+    }
+  ]
+}

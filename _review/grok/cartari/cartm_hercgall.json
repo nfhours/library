@@ -1,0 +1,26 @@
+{
+  "id": "cartm_hercgall",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "quenza, in questa guisa, come racconta Luciano",
+      "current": "[2] ...красноречия, таким образом, как рассказывает Лукиан… Меланпигом [«Черножопым»]",
+      "suggested": "абзац 2 — дубль уже переведённого текста (и/или текст соседней записи / редакторская пометка); в text_it этой записи его нет — удалить; глосса «Черножопым» и окончание имени — уже текст следующей записи",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "quenza, in questa guisa, come racconta Luciano",
+      "current": "[2] ...eloquence, in this manner, as Lucian relates… Melampygus [Black-Buttocks]",
+      "suggested": "абзац 2 — дубль уже переведённого текста (и/или текст соседней записи / редакторская пометка); в text_it этой записи его нет — удалить",
+      "confidence": "high"
+    }
+  ]
+}

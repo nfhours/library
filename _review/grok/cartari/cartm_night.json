@@ -1,0 +1,26 @@
+{
+  "id": "cartm_night",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "qualche poco, & è così dipinta, che rappresenta l'ornamento del Cielo",
+      "current": "[2] ...чуть больше, и так изображена [Ночь]… / [3] ...[Сон изображён] весь томным…",
+      "suggested": "абзацы 2–3 — повтор абзаца 1; в конце абз. 3 добавлено «описывает Ахайю… […продолжение см. в карточке…]», чего в text_it нет — удалить",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "qualche poco, & è così dipinta, che rappresenta l'ornamento del Cielo",
+      "current": "[2] ...a little more, and thus is [Night] depicted… / [3] ...[Sleep is depicted]…",
+      "suggested": "абзацы 2–3 — повтор абзаца 1 с добавкой из следующей записи; удалить",
+      "confidence": "high"
+    }
+  ]
+}

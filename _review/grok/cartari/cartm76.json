@@ -1,0 +1,44 @@
+{
+  "id": "cartm76",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "Ma questa distintione non faceuano gli antichi",
+      "current": "[2] [Из текста, предшествующего образу Харона…] Но такого различения не делали древние…",
+      "suggested": "абзацы 2–4 — полный повторный перевод абзаца 1 (с редакторскими пометками); удалить",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "Ma questa distintione non faceuano gli antichi",
+      "current": "[2] [From the text preceding the Charon plate…] But this distinction the ancients did not make…",
+      "suggested": "абзацы 2–4 — повтор абзаца 1; удалить",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Egli è vecchio, ma però robusto, & feroce, onde per il tempo non perde con gli anni le sue forze",
+      "current": "отчего время не отнимает с годами его силы",
+      "suggested": "ибо время с годами не теряет своих сил (Харон = время; ср. верный вариант в абз. 3)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Egli è vecchio, ma però robusto, & feroce, onde per il tempo non perde con gli anni le sue forze",
+      "current": "whence time does not take away his strength with the years",
+      "suggested": "for time does not lose its strength with the years",
+      "confidence": "medium"
+    }
+  ]
+}

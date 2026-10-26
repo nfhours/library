@@ -1,0 +1,26 @@
+{
+  "id": "cartm54",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Per lei si creda che sia la fierezza Vinta, e fatta piaceuole, & humile.",
+      "current": "For / For it is believed that through her fierceness / Is conquered, and made gentle and humble.",
+      "suggested": "Through her, it is believed, fierceness / Is conquered and made gentle and humble (убрать дубль «For»; «per lei» = благодаря ей, не «her fierceness»)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "con la sinistra mano sostiene vno scudo fermato sopra il ginocchio, & & ad ciascheduno de i lati",
+      "current": "держит щит, упёртый в колено, и / и с каждой стороны у неё по Льву",
+      "suggested": "…упёртый в колено, и с каждой стороны у неё по Льву (дубль «и» на стыке страниц; то же в EN «and / and»)",
+      "confidence": "high"
+    }
+  ]
+}

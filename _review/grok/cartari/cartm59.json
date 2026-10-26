@@ -1,0 +1,53 @@
+{
+  "id": "cartm59",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "cercò più volte con parole di di trarla alle sue voglie",
+      "current": "[2] [Продолжение, со страницы 200] ...склонить её к своим желаниям…",
+      "suggested": "абзац 2 — дубль уже переведённого текста (и/или текст соседней записи / редакторская пометка); в text_it этой записи его нет — удалить (повтор второй половины абзаца 1)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 3,
+      "type": "addition",
+      "original": "era questa Proserpina, figliuola di Cerere.",
+      "current": "[3] [Примечание к находке: … глава «НЕПТУН» … cart7 …]",
+      "suggested": "удалить редакторскую пометку — это не перевод",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "cercò più volte con parole di di trarla alle sue voglie",
+      "current": "[2] [Continuing, from page 200] ...to draw her to his desires…",
+      "suggested": "абзац 2 — дубль уже переведённого текста (и/или текст соседней записи / редакторская пометка); в text_it этой записи его нет — удалить",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 3,
+      "type": "addition",
+      "original": "era questa Proserpina, figliuola di Cerere.",
+      "current": "[3] [Finding note: … 'NEPTUNE' … cart7 …]",
+      "suggested": "удалить редакторскую пометку",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "name",
+      "original": "& quindi fu che i Sauatij popolo di Egitto voleuano",
+      "current": "жители Саиса, народ Египта",
+      "suggested": "савватии (Sauatij — почитатели Сабазия у Евсевия), не жители Саиса; так же EN «the Saites» → «the Sabatii»",
+      "confidence": "medium"
+    }
+  ]
+}
