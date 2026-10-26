@@ -1,0 +1,37 @@
+{
+  "id": "p2-257",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "p2-257-1",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "ICHONOGRAPHIE (надпись на гравюре)",
+      "current": "заголовки fr «Iconographie» / ru «Иконография» / en «Iconography»; на гравюре «ICHONOGRAPHIE» — это не орфография, а другой термин: ихнография (ichnographia, Витрувий) — чертёж плана здания",
+      "suggested": "вынести подпись к гравюре в отдельные поля (сейчас: подпись только на гравюре, над медальоном; в text_fr и переводах отсутствует; в entries.json поля caption нет). caption_orig: \"Ichnographie\" (сверено по фото img/p2-257.jpg: ICHONOGRAPHIE; в text_fr подписи нет); caption_ru: \"Ихнография (план)\"; caption_en: \"Ichnography\". Attrs [2] («линейка у плана здания — черчение фасадов и планов») и соседство с Planemetrie/Symmetrie поддерживают чтение «ихнография»; возможно, ошибочен и сам заголовок fr — не уверен, это решение за редактором (заголовки не правлю).",
+      "confidence": "high",
+      "caption_source": "engraving"
+    },
+    {
+      "field": "attrs",
+      "issue_id": "p2-257-2",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "elle s'explique assez d'elle-mesme par son rapport avec les precedentes",
+      "current": "Линейка у плана здания — черчение фасадов и планов построек",
+      "suggested": "текст ничего не толкует (объяснение опущено автором); attrs [2] — толкование по гравюре, не по тексту",
+      "confidence": "low"
+    }
+  ]
+}

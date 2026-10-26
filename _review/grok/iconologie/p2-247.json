@@ -1,0 +1,35 @@
+{
+  "id": "p2-247",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-247-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "profession des plus nobles que l'esprit humain ait inventées",
+      "current": "самое благородное из занятий, изобретённых человеческим умом",
+      "suggested": "«des plus nobles» — одно из самых благородных (EN верно «among the noblest»): «одно из благороднейших занятий, изобретённых человеческим умом»",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "p2-247-2",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 5,
+      "type": "addition",
+      "original": "Et comme ils rejettoient du nombre des Poëtes ceux qui manquoient de cette partie",
+      "current": "И подобно тому, как древние исключали… этой способности / as the ancients excluded… this quality",
+      "suggested": "«древние» / «the ancients» — догадка переводчика: у «ils» и «cette partie» в тексте нет антецедента (¶4 кончается Цицероном и маской). Возможно, перед ¶5 выпал фрагмент оригинала — не уверен; сверить со страницей издания. Если догадка остаётся, пометить её как конъектуру",
+      "confidence": "low"
+    }
+  ]
+}

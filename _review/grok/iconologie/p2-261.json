@@ -1,0 +1,35 @@
+{
+  "id": "p2-261",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-261-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "se voit vne gruë en l'air, tenant vn caillou",
+      "current": "видна летящая в воздухе журавль, держащая камешек",
+      "suggested": "«журавль» м. р. (в ¶4 верно): «виден летящий в воздухе журавль, держащий камешек в одной из лап»",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "p2-261-2",
+      "fields": [
+        "text_ru",
+        "attrs"
+      ],
+      "paragraph": 4,
+      "type": "name",
+      "original": "De cette consideration, ou si vous voulez de cette prudence",
+      "current": "этой Рассудительности, или, если угодно, этой Осмотрительности / attrs [2] «эмблема Рассудительности»",
+      "suggested": "consideration = заглавное понятие (заголовок ru «Обдумывание»); в тексте и attrs «Рассудительность» — унифицировать: «этого Обдумывания (Рассмотрения), или, если угодно, этой Осмотрительности»",
+      "confidence": "low"
+    }
+  ]
+}

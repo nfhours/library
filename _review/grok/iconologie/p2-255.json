@@ -1,0 +1,21 @@
+{
+  "id": "p2-255",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-255-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "ayant par dessus sa teste quantité d'étoilles",
+      "current": "Звёзды над головой — ориентиры мореходства",
+      "suggested": "звёзды в тексте не истолкованы (толкуются старость, газовое платье, буссоль, циркуль, корабль); толкование добавлено",
+      "confidence": "low"
+    }
+  ]
+}

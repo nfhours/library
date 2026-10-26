@@ -1,0 +1,22 @@
+{
+  "id": "p2-262",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-262-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "quatre raisons principales, dont la premiere est dite vocale",
+      "current": "четыре главные причины, из коих первая зовётся голосовой / four principal reasons",
+      "suggested": "raisons здесь, вероятно, «отношения (числовые соотношения)», а не «причины» — не уверен: ru «четыре главных рода отношений», en «four principal ratios»",
+      "confidence": "low"
+    }
+  ]
+}

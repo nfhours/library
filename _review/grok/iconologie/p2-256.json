@@ -1,0 +1,21 @@
+{
+  "id": "p2-256",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-256-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "le mouvement successif qu'elles font l'vne aprés l'autre",
+      "current": "последовательное движение, которое они совершают один за другим",
+      "suggested": "несогласование: «часы» (мн. ч.) — «одни за другими» (или «час за часом»)",
+      "confidence": "low"
+    }
+  ]
+}

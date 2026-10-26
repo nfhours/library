@@ -1,0 +1,35 @@
+{
+  "id": "p2-251",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-251-1",
+      "fields": [
+        "text_ru",
+        "attrs"
+      ],
+      "paragraph": 5,
+      "type": "name",
+      "original": "l'Architecture de mesme est le plus illustre de tous les travaux militaires",
+      "current": "Фортификация равным образом — славнейшее из всех военных занятий / attrs [3] «Фортификация — благороднейшее…»",
+      "suggested": "FR «l'Architecture», заголовок ru «Военная архитектура» — в тексте и attrs «Фортификация»; унифицировать: «Военная архитектура равным образом…»",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "p2-251-2",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "se doivent montrer invincibles à la fatigue",
+      "current": "должны являть себя неутомимыми в усталости",
+      "suggested": "плеоназм; «invincibles à la fatigue»: «должны выказывать себя неодолимыми для усталости (неутомимыми)»",
+      "confidence": "low"
+    }
+  ]
+}
