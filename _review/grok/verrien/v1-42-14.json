@@ -1,0 +1,21 @@
+{
+  "id": "v1-42-14",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-42-14-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "Jusqu'à ce qu'on me lâche.",
+      "current": "Пока меня не спустят на врага.",
+      "suggested": "«на врага» — из латинского in hostem, во французском нет: «Пока меня не спустят»",
+      "confidence": "low"
+    }
+  ]
+}
