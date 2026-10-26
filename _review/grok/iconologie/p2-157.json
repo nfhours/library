@@ -1,0 +1,21 @@
+{
+  "id": "p2-157",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-157-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "O Mort, que de ton nom la memoire est amere!",
+      "current": "О Смерть, сколь горька память о имени твоём!",
+      "suggested": "«…память об имени твоём!»",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "p2-162",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-162-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Pour embleme de la Pudicité se voit icy peinte",
+      "current": "Эмблемой Целомудрия / For an emblem of Chastity",
+      "suggested": "заголовки «Стыдливость» / «Pudicity»; Целомудрие (Chasteté) — отдельная статья p2-116; «Эмблемой Стыдливости» / «an emblem of Pudicity»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "p2-162-2",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "en tirant à terre à contremont vn gros navire avec vn simple filet",
+      "current": "одной лишь простой сетью / with a mere net",
+      "suggested": "«filet» здесь, вероятно, тонкая верёвка, бечёвка (у Ливия/Овидия — Клавдия Квинта тянет корабль поясом/верёвкой): «простой бечёвкой» / «a mere cord» — не уверен",
+      "confidence": "low"
+    }
+  ]
+}

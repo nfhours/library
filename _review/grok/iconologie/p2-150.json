@@ -1,0 +1,21 @@
+{
+  "id": "p2-150",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-150-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "tenant d'vne main vne maniere de falot ou de lanterne allumée",
+      "current": "Зажжённый фонарь — свет истины и верности",
+      "suggested": "фонарь отдельно не истолкован: в тексте свет сквозь стекло — сравнение для прозрачного платья (искренность); «свет истины и верности» добавлено",
+      "confidence": "low"
+    }
+  ]
+}

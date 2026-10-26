@@ -1,0 +1,21 @@
+{
+  "id": "p2-154",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-154-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Cette dame couronnée ne tient pas sans raison vne palme",
+      "current": "Корона — прославленное имя и память, которые Государи оставляют потомству",
+      "suggested": "корона в тексте не истолкована; память потомству — следствие постройки храмов и дворцов (план), не короны",
+      "confidence": "low"
+    }
+  ]
+}

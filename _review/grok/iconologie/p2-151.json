@@ -1,0 +1,21 @@
+{
+  "id": "p2-151",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-151-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 2,
+      "type": "addition",
+      "original": "Toutes lesquelles choses jointes ensemble signifient, la Foy, la Justice, la Dignité, la Science, la Sagesse, & l'illustre éclat de la gloire",
+      "current": "Весы… — Вера, Правосудие и Достоинство; Митра на книге — Наука и Мудрость; Зеркало — правило и руководство в важнейших поступках жизни",
+      "suggested": "в тексте значения даны списком для всех атрибутов вместе, без распределения; «правило и руководство» относится к самому Закону, не к зеркалу — не уверен, допустимо ли распределение, но зеркало истолковано неверно",
+      "confidence": "low"
+    }
+  ]
+}

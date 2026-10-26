@@ -1,0 +1,21 @@
+{
+  "id": "p2-144",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-144-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 2,
+      "type": "addition",
+      "original": "Ce qui nous est enseigné par cet homme de robe longue",
+      "current": "Длинная мантия учёного мужа — наставление через пример людей безупречной честности",
+      "suggested": "мантия в тексте не истолкована (это лишь описание фигуры); толкование добавлено",
+      "confidence": "low"
+    }
+  ]
+}

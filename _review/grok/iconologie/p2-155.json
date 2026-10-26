@@ -1,0 +1,22 @@
+{
+  "id": "p2-155",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-155-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 2,
+      "type": "name",
+      "original": "Or est-il que ce milieu n'est autre chose que la Mediocrité",
+      "current": "есть не что иное, как Умеренность / is nothing other than Moderation",
+      "suggested": "заголовки «Золотая середина» / «The Golden Mean»; в тексте «Умеренность» / «Moderation» — унифицировать («…как Золотая середина» / «the Golden Mean»)",
+      "confidence": "low"
+    }
+  ]
+}
