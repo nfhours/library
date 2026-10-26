@@ -1,0 +1,21 @@
+{
+  "id": "v1-18-15",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-18-15-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "Je repousse aprés avoir esté blessé.",
+      "current": "Я вновь прорастаю после того, как был поражён и изранен.",
+      "suggested": "«поражён и» — двойка, во французском только blessé: «Я вновь отрастаю после того, как был ранен»",
+      "confidence": "low"
+    }
+  ]
+}

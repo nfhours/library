@@ -1,0 +1,23 @@
+{
+  "id": "v1-19-9",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-19-9-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Propriis non parcis.",
+      "current": "Propriis non parcis.",
+      "suggested": "[LA] вероятно «Propriis non parcit» (3-е лицо, ср. «Il ne pardonne pas»); скопировано и в text_ru. Скана текста нет; не уверен",
+      "confidence": "low"
+    }
+  ]
+}

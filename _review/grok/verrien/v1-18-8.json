@@ -1,0 +1,21 @@
+{
+  "id": "v1-18-8",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-18-8-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "Il faut le ployer & non pas le rompre.",
+      "current": "Его нужно гнуть покорностью, а не силой, не ломая.",
+      "suggested": "«покорностью, а не силой» — перевод латинского девиза (Obsequio non vi), вставленный в толкование: «Его нужно сгибать, а не ломать»",
+      "confidence": "medium"
+    }
+  ]
+}

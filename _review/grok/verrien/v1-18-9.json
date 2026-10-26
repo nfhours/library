@@ -1,0 +1,21 @@
+{
+  "id": "v1-18-9",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "meaning_ru",
+      "issue_id": "v1-18-9-1",
+      "fields": [
+        "meaning_ru"
+      ],
+      "paragraph": null,
+      "type": "addition",
+      "original": "Virescit vulnere virtus.",
+      "current": "Доблесть крепнет от раны.",
+      "suggested": "во французском толкования нет (meaning_fr пуст, text_fr из двух абзацев) — meaning_ru переводит латинский девиз; перевод верен, но это добавление. Возможно, толкование потеряно в самом text_fr — проверить по изданию",
+      "confidence": "low"
+    }
+  ]
+}
