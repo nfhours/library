@@ -1,0 +1,36 @@
+{
+  "id": "v1-23-9",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-23-9-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Pacatis ludit in unidis.",
+      "current": "Pacatis ludit in unidis.",
+      "suggested": "[LA] «in undis» (лишняя i); скопировано и в text_ru. Скана текста нет — по смыслу",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "v1-23-9-2",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "Il se joüe aprés l'orage.",
+      "current": "Оно резвится на волнах после бури.",
+      "suggested": "«на волнах» — из латинского девиза, во французском нет: «Оно резвится после бури»",
+      "confidence": "low"
+    }
+  ]
+}

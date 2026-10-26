@@ -1,0 +1,23 @@
+{
+  "id": "v1-23-1",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-23-1-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "No quiere chi no descança.",
+      "current": "No quiere chi no descança.",
+      "suggested": "[ES] «quien» (chi — итальянское; ср. v1-15-9 «che»); возможно, ошибка самого издания. Скана текста нет; не уверен",
+      "confidence": "low"
+    }
+  ]
+}

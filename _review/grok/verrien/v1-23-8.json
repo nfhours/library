@@ -1,0 +1,23 @@
+{
+  "id": "v1-23-8",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-23-8-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Splandidor motu.",
+      "current": "Splandidor motu.",
+      "suggested": "[LA] «Splendidior motu» (ср. «plus brillant quand on m'agite»); скопировано и в text_ru. Скана текста нет — по смыслу",
+      "confidence": "high"
+    }
+  ]
+}
