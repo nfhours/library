@@ -3,3 +3,9 @@ pl1-1..pl1-11; pl1-13..pl1-19; pl2-1,material_fr/ru/en,argent / серебро /
 pl1-12,material_fr/ru/en,bronze / бронза / bronze,"текст: «on la trouve communément en bronze» — подтверждается (хотя речь о типе вообще, не о самом экземпляре)",ok
 pl1-4; pl1-5; pl1-10; pl1-11,legend_fr/ru/en и reverse_*,ΛΛΕ; ΑΗΠΙ; A Λ; TAΛ,"легенды записаны по гравюре, а не по тексту Гроссона (AAE; A, H; A + deux Lambda; TAA); по гравюре чтения верны (pl1-5 «ΑΗΠΙ» предположительно). Расхождение текста и гравюры — свойство издания",info
 pl1-17,reverse_fr/ru/en,"croix … sans lettres visibles sur la gravure","текст: «avec les lettres MA»; на гравюре (pl1-17) крест без букв — атрибут верен по гравюре, но противоречит тексту",info
+all material_* (pattern),material_fr/ru/en,argent / bronze / plaqué argent,"Решение пользователя: не issue по записям. Металл в тексте статьи обычно не назван; источник, вероятно, вводный текст к доске (нет в данных). Проверяется только перевод ru/en ← fr и явные противоречия тексту/гравюре",pattern note
+pl1-1..pl2-1,obverse/reverse/legend/material ru/en,—,"перепроверено после решения: ru/en верно передают fr; противоречий, меняющих смысл, нет (pl1-17 reverse оговаривает «на гравюре» — оставлено как info)",ok
+pl2-2..pl4-4,obverse/reverse/legend/material ru/en,—,"ru/en верно передают fr (pl2-6 plaqué argent (fourrée) → «плакированная (посеребрённая)» / «silver-plated (fourrée)» — ок); противоречий, меняющих смысл, нет",ok
+pl3-1,legend_*,MASSA,"в тексте буквы не названы, на гравюре ΜΑΣΣΑ над конём — взято с гравюры, не противоречит",info
+pl2-7,legend_*,MASSA ΙΠΛ,"по Гроссону (IPL); на гравюре ΜΑΣΣΛ / приблизительно ΗΤΠΛ — проверить по фото",info
+pl2-8,reverse_*,contremarque Lambda et O,"по тексту; на гравюре второй знак клейма неотчётлив (похож на Δ/ромб) — проверить по фото",info

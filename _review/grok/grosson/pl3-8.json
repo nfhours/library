@@ -1,0 +1,21 @@
+{
+  "id": "pl3-8",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl3-8-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& l'Aile seule désigneroit la durée infinie, comme ayant été coupée au temps?",
+      "current": "а одно лишь крыло означало бы бесконечную длительность — как бы отсечённую от времени?",
+      "suggested": "coupée относится к l'Aile (крыло, отрезанное у Времени — Сатурна/Кроноса), а не к durée: «…а одно лишь крыло, как бы отсечённое у Времени, означало бы бесконечную длительность?»",
+      "confidence": "low"
+    }
+  ]
+}

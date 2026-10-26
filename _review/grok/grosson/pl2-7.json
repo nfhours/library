@@ -1,0 +1,22 @@
+{
+  "id": "pl2-7",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl2-7-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "on voit dans le bas, les lettres IPL en caractères grecs.",
+      "current": "RU «[Начертание нижних букв на самой гравюре читается не вполне однозначно; следуем чтению Гроссона.]»; EN «[The engraving's lower letters are not entirely unambiguous on close inspection; Grosson's own reading is followed here.]»",
+      "suggested": "в переводах добавлено примечание переводчика в квадратных скобках — у Гроссона его нет (тот же случай, что pl1-4-1/pl1-5-1/pl1-10-1/pl1-11-1). Из text_ru/text_en убрать; наблюдение (на гравюре внизу четыре знака, приблизительно ΗΤΠΛ — проверить по фото) перенести в отдельное поле примечания",
+      "confidence": "high"
+    }
+  ]
+}

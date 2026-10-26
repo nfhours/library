@@ -1,0 +1,21 @@
+{
+  "id": "pl3-4",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_en",
+      "issue_id": "pl3-4-1",
+      "fields": [
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "La contre-marque du revers est une étoile: on y lit l'abréviation MASSA, en caractères grecs.",
+      "current": "The countermark on the reverse is a star: on it one reads the abbreviation MASSA, in Greek characters.",
+      "suggested": "y — «на нём (на обороте)», а не «на звезде»: на гравюре (pl3-4) ΜΑΣΣΑ идёт вдоль края оборота, звёздочка в поле рядом с орлом (как в pl1-9-1). «The countermark on the reverse is a star; on the reverse one reads the abbreviation MASSA, in Greek characters». RU «на нём» двусмысленно, но допустимо (= на обороте)",
+      "confidence": "low"
+    }
+  ]
+}

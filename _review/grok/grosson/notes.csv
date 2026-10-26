@@ -3,3 +3,8 @@ pl1 (pl1-full.jpg),plate_line,"Внизу доски I гравированна�
 pl1-1..pl1-19,coin_marks,"Буквы-клейма на гравированных монетах (напр. B на аверсе pl1-4, pl1-9; Β/Δ pl1-6; Α в поле pl1-5) — надписи на изображённых предметах; легенды монет уже вынесены в legend_*; как подписи не помечались"
 pl1-17,latin_quote,"Цитата из Помпония Мелы: RU переводит её, EN оставляет по-латыни без перевода. Не issue (цитата сохранена как в оригинале), но непоследовательно между языками"
 pl1-1,data_format,"RU пишет легенду кириллицей «МАССАЛИЕТОН» в тексте, а в других записях и в legend_ru — латиницей MASSALIETON. Косметика"
+pl2 (pl2-full.jpg),plate_line,"Внизу доски II: «Aux depens de Mr. Barrigue de Fontainieu de l'ac. Royall de peint. & sculp. de Mars.lle»; вверху «Pl. 2». Только заметка"
+pl3 (pl3-full.jpg),plate_line,"Внизу доски III: «aux depens de Mr. Roux deputé du Commerce de Mars.lle»; вверху «Pl. 3». Только заметка"
+pl4 (pl4-full.jpg),plate_line,"Внизу доски IV: «Aux depens de Mr. M…tre ß[?] de Marseille» — имя читается не полностью, проверить по фото; вверху «Pl. 4». Только заметка"
+pl2-3; pl3-4,name_consistency,"EN передаёт Saliens как «Salyens» (pl2-3, pl3-4), в других записях «Saly» (pl26-1), «Salii» (pl31-7); RU — «салии» везде. Унифицировать EN (напр. Salyes) — решить в SUMMARY; пока не issue"
+pl3-8,latin_quote,"Цитата из Плиния переведена в скобках и в RU, и в EN — последовательно (в отличие от pl1-17, где EN оставил Мелу без перевода)"
