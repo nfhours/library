@@ -1,0 +1,21 @@
+{
+  "id": "p2-164",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-164-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Quant aux fers & au joug qu'on luy fait porter, l'vn & l'autre signifient la captivité d'vne ame affligée",
+      "current": "Ярмо на плечах — бремя, которое терпение помогает нести",
+      "suggested": "по тексту и оковы, и ярмо означают плен скорбящей души; «бремя, которое терпение помогает нести» добавлено",
+      "confidence": "low"
+    }
+  ]
+}

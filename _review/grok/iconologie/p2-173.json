@@ -1,0 +1,21 @@
+{
+  "id": "p2-173",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-173-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "omission",
+      "original": "Doce me facere voluntatem tuam, quia Deus meus es tu",
+      "current": "с окружающими словами: «Научи меня творить волю Твою, ибо Ты Бог мой»",
+      "suggested": "опущен латинский текст надписи (везде он сохраняется): «…словами Doce me facere voluntatem tuam, quia Deus meus es tu («Научи меня творить волю Твою, ибо Ты Бог мой»)»; смысл передан — minor",
+      "confidence": "medium"
+    }
+  ]
+}

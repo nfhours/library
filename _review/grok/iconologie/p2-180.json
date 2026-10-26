@@ -1,0 +1,21 @@
+{
+  "id": "p2-180",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-180-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "la robe courte, les pieds nuds, & la mer irritée, qu'ils ont beaucoup à souffrir",
+      "current": "Короткая зелёная одежда… — тяготы; Бурное море и убегающий лев — трудности и тщетность погони за скипетрами",
+      "suggested": "зелёный цвет и убегающий лев в тексте не истолкованы; море по тексту — в одном ряду с короткой одеждой и босыми ногами (тяготы), «тщетность» относится к притязаниям; толкование льва добавлено",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "p2-167",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "p2-167-1",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "REPENTANCE DES PECHEZ (надпись на гравюре)",
+      "current": "заголовки ru «Раскаяние в грехе» / en «Repentance for Sin» переводят fr «Repentance de peché»; на гравюре мн. ч. «REPENTANCE DES PECHEZ»",
+      "suggested": "вынести подпись к гравюре в отдельные поля (сейчас: подпись только на гравюре, над медальоном; в text_fr и переводах отсутствует; в entries.json поля caption нет). caption_orig: \"Repentance des pechez\" (сверено по фото img/p2-167.jpg: REPENTANCE DES PECHEZ; в text_fr подписи нет); caption_ru: \"Раскаяние в грехах\"; caption_en: \"Repentance for Sins\".",
+      "confidence": "high",
+      "caption_source": "engraving"
+    }
+  ]
+}

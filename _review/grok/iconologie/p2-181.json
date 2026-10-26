@@ -1,0 +1,21 @@
+{
+  "id": "p2-181",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-181-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "est vn symbole de l'Aveuglement d'esprit",
+      "current": "символ Слепоты ума",
+      "suggested": "заголовок ru «Ослепление ума»; в тексте «Слепоты ума» — унифицировать",
+      "confidence": "low"
+    }
+  ]
+}

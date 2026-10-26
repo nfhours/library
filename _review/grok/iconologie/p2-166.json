@@ -1,0 +1,21 @@
+{
+  "id": "p2-166",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-166-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "il importe beaucoup de considerer toûjours la fin des choses; & l'œil demontre le mesme",
+      "current": "Сияющее око на груди — прозорливость, видящая суть и исход вещей",
+      "suggested": "по тексту око значит то же, что череп, — память о конце вещей; «прозорливость, видящая суть» добавлено",
+      "confidence": "low"
+    }
+  ]
+}

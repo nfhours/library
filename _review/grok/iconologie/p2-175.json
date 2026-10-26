@@ -1,0 +1,21 @@
+{
+  "id": "p2-175",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-175-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "omission",
+      "original": "Domine, ante te omne desiderium meum",
+      "current": "этими священными словами: «Господи, пред Тобою всё желание моё»",
+      "suggested": "опущен латинский текст: «…словами Domine, ante te omne desiderium meum («Господи, пред Тобою всё желание моё»)»; смысл передан — minor",
+      "confidence": "medium"
+    }
+  ]
+}

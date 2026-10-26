@@ -1,0 +1,34 @@
+{
+  "id": "p2-171",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-171-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "pour voir les dépouilles & les trophées qu'elle a remportez",
+      "current": "добычу и трофеи, которые он одержал",
+      "suggested": "в абз. 1 Рим — «она», «Царица»; «…которые она стяжала» (и «одержал добычу» — неудачно: «добычу и трофеи, взятые ею у всех народов»)",
+      "confidence": "low"
+    },
+    {
+      "field": "attrs",
+      "issue_id": "p2-171-2",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "assise sur trois boucliers, avec vne lance à la main gauche",
+      "current": "Три щита … — военная мощь, на которой зиждется власть Рима; Копьё … — военная доблесть",
+      "suggested": "щиты и копьё в тексте не истолкованы (толкуется только Победа с венком, через «историю» подвигов); толкования добавлены",
+      "confidence": "low"
+    }
+  ]
+}

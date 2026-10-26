@@ -1,0 +1,23 @@
+{
+  "id": "p2-176",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "p2-176-1",
+      "fields": [
+        "ru",
+        "text_ru",
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "donne à connoistre la Substance que nous tirons de la plus pure de toutes les nourritures",
+      "current": "Сущность / даёт понять Сущность, которую мы извлекаем из самой чистой из всех пищ / сущность, извлекаемая из самой чистой пищи",
+      "suggested": "«Substance» здесь — пропитание, средства к жизни (Рипа: Sostanza — грудь с молоком, колосья, лоза): «Пропитание (Достаток)»; «даёт понять Пропитание, которое мы получаем из чистейшей пищи»; EN «Substance» в старом значении допустимо",
+      "confidence": "medium"
+    }
+  ]
+}

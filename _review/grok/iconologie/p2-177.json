@@ -1,0 +1,21 @@
+{
+  "id": "p2-177",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-177-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "C'est icy l'emblême de la Virginité",
+      "current": "Вот эмблема Девственности",
+      "suggested": "заголовок ru «Девство»; в тексте «Девственности» — унифицировать",
+      "confidence": "low"
+    }
+  ]
+}

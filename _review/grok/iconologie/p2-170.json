@@ -1,0 +1,21 @@
+{
+  "id": "p2-170",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-170-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Par la Reformation se doit entendre le reglement des abus",
+      "current": "Под Преобразованием следует понимать",
+      "suggested": "заголовок ru «Исправление нравов»; в тексте «Преобразование» — унифицировать («Под Исправлением нравов…»)",
+      "confidence": "low"
+    }
+  ]
+}
