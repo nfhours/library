@@ -1,0 +1,22 @@
+{
+  "id": "v1-40-9",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v1-40-9-1",
+      "fields": [
+        "ru",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Une Cavale toute nuë sans selle & sans bride, & courant.",
+      "current": "Совсем нагая кобылица, без седла и без узды, скачущая.",
+      "suggested": "toute nuë о лошади — «неосёдланная, без сбруи», «нагая» звучит нелепо: «Кобылица без всякой сбруи, без седла и без узды, скачущая»",
+      "confidence": "low"
+    }
+  ]
+}

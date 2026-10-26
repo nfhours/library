@@ -1,0 +1,23 @@
+{
+  "id": "v1-40-1",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-40-1-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Mas firmezza chè luz.",
+      "current": "Mas firmezza chè luz.",
+      "suggested": "[ES] «Mas firmeza que luz» (итальянизированные «chè», «-zz-»; ср. v1-15-9, v1-23-1, v1-37-15); возможно, орфография издания. Скана текста нет; не уверен",
+      "confidence": "low"
+    }
+  ]
+}
