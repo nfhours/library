@@ -1,0 +1,21 @@
+{
+  "id": "v1-41-1",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-41-1-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "Il menace & n'a point peur.",
+      "current": "Он грозит бедой и сам не ведает страха.",
+      "suggested": "«бедой» — из латинского damnum, во французском нет: «Он грозит и ничего не боится»",
+      "confidence": "low"
+    }
+  ]
+}

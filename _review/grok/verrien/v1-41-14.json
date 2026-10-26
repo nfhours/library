@@ -1,0 +1,23 @@
+{
+  "id": "v1-41-14",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-41-14-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Si tempus fuverit.",
+      "current": "Si tempus fuverit.",
+      "suggested": "[LA] «Si tempus faverit» (ср. «Si le temps m'est favorable»); скопировано и в text_ru. Скана текста нет — по смыслу",
+      "confidence": "high"
+    }
+  ]
+}

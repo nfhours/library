@@ -1,0 +1,23 @@
+{
+  "id": "v1-42-2",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-42-2-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Servat que fovet que.",
+      "current": "Servat que fovet que.",
+      "suggested": "[LA] «Servatque fovetque» (энклитика -que пишется слитно; ср. v1-25-6, v1-27-6); скопировано и в text_ru. Скана текста нет — по смыслу",
+      "confidence": "medium"
+    }
+  ]
+}

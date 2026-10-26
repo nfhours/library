@@ -1,0 +1,21 @@
+{
+  "id": "v1-41-7",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-41-7-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 3,
+      "type": "ocr",
+      "original": "Je suis devoyé au Soleil & à Mars.",
+      "current": "Je suis devoyé au Soleil & à Mars.",
+      "suggested": "«devoüé» (dévoué — «посвящён»; devoyé — «сбит с пути»); text_ru «предан» переведён верно. Скана текста нет — по смыслу",
+      "confidence": "medium"
+    }
+  ]
+}
