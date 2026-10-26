@@ -1,0 +1,21 @@
+{
+  "id": "v1-45-5",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-45-5-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Une branche d'Olives qui entoure une masse d'armes.",
+      "current": "Оливковая ветвь, обвивающая связку оружия.",
+      "suggested": "masse d'armes — булава (палица), не «связка оружия»; на гравюре (v1-45 №5) ветвь обвивает булаву: «Оливковая ветвь, обвивающая булаву»",
+      "confidence": "medium"
+    }
+  ]
+}

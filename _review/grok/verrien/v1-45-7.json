@@ -1,0 +1,23 @@
+{
+  "id": "v1-45-7",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-45-7-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Lex ex lex.",
+      "current": "Lex ex lex.",
+      "suggested": "[LA] «Lex ex lex» бессмысленно; по толкованию («Oüy & non») вероятно «Lex & exlex» (закон и беззаконие — паутина держит малых и рвётся большими). Скана текста нет; не уверен",
+      "confidence": "low"
+    }
+  ]
+}
