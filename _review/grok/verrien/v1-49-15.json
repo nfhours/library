@@ -1,0 +1,23 @@
+{
+  "id": "v1-49-15",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-49-15-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Transfundit pasta venenum.",
+      "current": "Transfundit pasta venenum.",
+      "suggested": "[LA] вероятно «pastus» / «pastu» (пища передаёт яд, ср. «Ce repas les empoisonne»); «pasta» сомнительно. Скана текста нет; не уверен",
+      "confidence": "low"
+    }
+  ]
+}
