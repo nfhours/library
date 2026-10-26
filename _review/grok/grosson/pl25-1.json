@@ -1,0 +1,22 @@
+{
+  "id": "pl25-1",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl25-1-1",
+      "fields": [
+        "text_ru",
+        "findspot_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "en creusant les fondations de la maison du sieur Moulieres, au bout du Cours de Marseille;",
+      "current": "text_ru «дома г-на Мульер»; findspot_ru «фундамент дома г-на Мульер, в конце Курса»",
+      "suggested": "фамилия не склонена: «дома г-на Мульера» (text_ru и findspot_ru)",
+      "confidence": "low"
+    }
+  ]
+}

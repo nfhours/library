@@ -25,3 +25,9 @@ pl14-1,legend,,"legend matches engraved inscription (D M flanking; DVLCISSIMO �
 pl16-4,legend,,"engraving reads ΜΑΣΣΙ / ΦΩ … / Κ ΑΣΥΑ·ΑΥΤ (Greek letters); legend_* gives Latin transliteration as in text_fr — consistent",info
 pl17-1,legend,,"engraving: ΟΔΗΜΟΣ in wreath; ΑΡΤΕΜΟΥΝ ΑΠΟΛΛΩΝΙΟΥ ΙΚΕΣΙΟΥ ΔΕ ΓΥΝΑΙΚΑ — consistent with text_fr",info
 pl10-2,legend,,"engraving pl10 No.2 (altar with sphinx and lion) shows no inscription; Navius text belongs to the Les Pennes bas-relief (see pl10-2-1)",info
+pl17-2..pl25-1,structured,,"batch 7: material/legend/findspot ru/en checked against fr; no contradictions with text or engraving (pl25-1 findspot_ru declension → pl25-1-1)",ok
+pl18-1,legend,,"engraving: ΜΕΛΙΤΙΝΗΝ ΔΗΜΗΤΡΙΟΥ ΕΡΜΟΓΕΝ / ΔΕ ΙΑΤΡΟΥ ΔΕ ΓΥΝΑΙΚΑ — matches legend_* (Greek); text_fr gives Latin transliteration",info
+pl19-2,legend,,"engraving reads DEO DOLIGHENIO (G?) vs text/legend DOLICHENIO — engraver's variant, legend follows text; проверить по фото",info
+pl20-1,legend,,"engraving reads approx. VALISINIVS·MARCARIIANEONTVSID· (ligature after ANE unclear) vs text VALISINIVS MAR CARII ANEON VSID — проверить по фото; legend follows text",info
+pl20-2,legend,,"engraving: MATRIS DEVM / MAGNÆ IDEÆ PALATINÆ / EIVSQ M. RELIGIONIS AD PARNOR / NAVIVS IANVARIVS — matches legend_*",info
+pl22-2,legend,,"engraving medallion: D·M / IVLIÆ QVIN/TINÆ COSSV/TIA HYCLA / MATER FILI/Æ PIISSIM(Æ) — matches legend_*",info

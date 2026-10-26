@@ -1,0 +1,21 @@
+{
+  "id": "pl17-2",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_en",
+      "issue_id": "pl17-2-1",
+      "fields": [
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "représente une corne ou un cornet à bouquin,",
+      "current": "represents a horn or hunting-cup,",
+      "suggested": "cornet à bouquin — рожок из рога (пастушья/сигнальная труба), а не «чаша»: «…represents a horn or a cow-horn trumpet (cornet à bouquin)». RU «охотничий рожок» допустимо",
+      "confidence": "medium"
+    }
+  ]
+}

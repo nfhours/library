@@ -1,0 +1,21 @@
+{
+  "id": "pl19-2",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl19-2-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "typo",
+      "original": "qui l'envoya à M. le Comte de Brienne.",
+      "current": "который отослал его графу де Брienne.",
+      "suggested": "смешение алфавитов (латинские «ienne» в кириллическом слове) и нет падежа: «…графу де Бриенну»",
+      "confidence": "high"
+    }
+  ]
+}

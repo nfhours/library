@@ -1,0 +1,21 @@
+{
+  "id": "pl18-1",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl18-1-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "c'étoit une espèce de Rochet, dont les modernes Citoyennes de la Grèce se servent encore sous le nom d'Antheri.",
+      "current": "это была своего рода риза, которую современные гречанки…",
+      "suggested": "rochet — короткое белое облачение (роше, род стихаря), а «риза» — фелонь/казула, длинное верхнее облачение священника; смысл «короткая верхняя туника до колен» теряется. «…своего рода роше (короткий стихарь)…». EN «rochet» верно",
+      "confidence": "low"
+    }
+  ]
+}

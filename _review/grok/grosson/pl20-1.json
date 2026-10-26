@@ -1,0 +1,21 @@
+{
+  "id": "pl20-1",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl20-1-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 7,
+      "type": "typo",
+      "original": "font mention d'un Marcus Caris Maximinus & d'un Marcus Caris Pacatus.",
+      "current": "упоминают некоего Марка Кария Максимина и некоего Марка Кария Пакату.",
+      "suggested": "Pacatus — мужское имя; вин. п. «Паката»: «…и некоего Марка Кария Паката»",
+      "confidence": "medium"
+    }
+  ]
+}
