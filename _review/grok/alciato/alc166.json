@@ -1,0 +1,21 @@
+{
+  "id": "alc166",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "alc166-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Connellunt barbam",
+      "current": "[LA] Connellunt",
+      "suggested": "[LA] «Conuellunt» (так на скане; n вместо u)",
+      "confidence": "high"
+    }
+  ]
+}

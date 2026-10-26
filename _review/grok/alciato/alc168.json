@@ -1,0 +1,21 @@
+{
+  "id": "alc168",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "alc168-1",
+      "fields": [
+        "ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "In formosam fato præreptam",
+      "current": "О прекрасном, похищенном роком",
+      "suggested": "formosam … præreptam — жен. род: «О красавице, похищенной роком» (FR «une belle» верно)",
+      "confidence": "low"
+    }
+  ]
+}

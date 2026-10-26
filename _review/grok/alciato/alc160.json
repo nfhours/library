@@ -1,0 +1,22 @@
+{
+  "id": "alc160",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc160-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Est fera, dum violat socios,",
+      "current": "карает союзников врага / harms his enemies' allies",
+      "suggested": "«врага / enemies'» нет в тексте: «зверь — когда притесняет союзников» (FR «viole les alliés» буквально); не уверен — возможно, толкование комментаторов",
+      "confidence": "low"
+    }
+  ]
+}

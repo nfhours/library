@@ -1,0 +1,22 @@
+{
+  "id": "alc167",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc167-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Mors pharetras, paruus tela gerebat Amor.",
+      "current": "а малый Амор — её стрелы / little Love bore Death's weapons",
+      "suggested": "каждый нёс своё; обмен происходит позже (alter alterius … sumpsit): «а малый Амур — [свои] стрелы» / «little Love his darts» (FR «ses traits» верно)",
+      "confidence": "low"
+    }
+  ]
+}

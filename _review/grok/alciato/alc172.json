@@ -1,0 +1,23 @@
+{
+  "id": "alc172",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc172-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Agnoscitq́ vices naturæ:",
+      "current": "переменчивость природы / nature's changing turns / les vicissitudes de la nature",
+      "suggested": "vices здесь — «очередь, ответная услуга»: лоза признаёт долг взаимности природы (ср. mutua iura). RU «и признаёт черёд природы — платить за добро»; EN «acknowledges nature's give-and-take»; FR «reconnaît le retour que veut la nature»; не уверен",
+      "confidence": "low"
+    }
+  ]
+}

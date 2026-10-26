@@ -1,0 +1,38 @@
+{
+  "id": "alc177",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc177-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Audent flagriferi matulæ,",
+      "current": "битые розгой тупицы / Beaten dunces / sots battus de verges",
+      "suggested": "flagriferi — «носящие розги» (школьные учителя с плетью), не «битые»: RU «дураки с розгами»; EN «rod-wielding dolts»; FR «sots porteurs de verges»",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc177-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "sed nonne cicadam / Ala vna obstreperam corripuisse feras?",
+      "current": "разве не покажется диким / would it not seem absurd / ne paraîtrait-il pas sauvage",
+      "suggested": "feras — от fero («скажешь»), не ferus; поговорка «cicadam ala corripere» — раздразнить цикаду, чтобы она трещала громче: RU «но разве не скажешь, что я схватил шумную цикаду за крыло?»; EN «would you not say I had seized a noisy cicada by the wing?»; FR «ne dirais-tu pas que j'ai saisi par l'aile une cigale bruyante ?»",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "alc157",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc157-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Thebanis fuerant ista reperta viris.",
+      "current": "были найдены мужами фиванскими",
+      "suggested": "reperta — «изобретены, придуманы» (EN devised, FR imaginés): «были придуманы фиванцами»",
+      "confidence": "low"
+    }
+  ]
+}
