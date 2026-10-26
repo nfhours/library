@@ -29,7 +29,7 @@
       "type": "addition",
       "original": "croix clechée (с расширяющимися, process концами), légende MASILIA",
       "current": "reverse_fr «croix clechée (с расширяющимися, process концами), légende MASILIA»",
-      "suggested": "во французское поле попал мусор — русские слова и «process»; это поле оригинала (не перевод), но значение испорчено. Должно быть «croix clechée, légende MASILIA» (ср. text_fr: «une Croix clechée, avec ce mot, MASILIA»)",
+      "suggested": "во французское поле попал мусор — русские слова «с расширяющимися … концами» и «process»; это поле оригинала (не перевод). Убрать только мусор: «croix clechée, légende MASILIA». Обе части подтверждены текстом статьи — «une Croix clechée, avec ce mot, MASILIA» (text_fr §1); на гравюре (pl8-full, №3) MASILIA тоже читается вокруг креста. Пояснение о форме концов в fr-поле не нужно: в тексте его нет",
       "confidence": "high"
     },
     {

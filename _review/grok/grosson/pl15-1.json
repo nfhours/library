@@ -1,0 +1,22 @@
+{
+  "id": "pl15-1",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl15-1-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 4,
+      "type": "mistranslation",
+      "original": "(hauteur 1/2 pied jusqu'à l'écrou).",
+      "current": "RU «(высота 1/2 фута до кольца)»; EN «(height 1/2 foot up to the ring)»",
+      "suggested": "écrou — «гайка» (крепёж внизу фигуры, виден на гравюре pl15 № 1 под ногами), не «кольцо»: RU «(высота 1/2 фута до гайки)»; EN «(height 1/2 foot up to the nut)»",
+      "confidence": "medium"
+    }
+  ]
+}

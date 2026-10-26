@@ -1,0 +1,21 @@
+{
+  "id": "pl14-3",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_en",
+      "issue_id": "pl14-3-1",
+      "fields": [
+        "text_en"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "à Santa Maria della Navicella, à qui ce monument a fait donner ce surnom:",
+      "current": "at Santa Maria della Navicella, which gave this monument its surname:",
+      "suggested": "наоборот: памятник (ладья) дал церкви прозвание «della Navicella». «…at Santa Maria della Navicella, which owes this surname to the monument:». RU верно",
+      "confidence": "low"
+    }
+  ]
+}

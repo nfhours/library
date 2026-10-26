@@ -1,0 +1,22 @@
+{
+  "id": "pl15-2",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_en",
+      "issue_id": "pl15-2-1",
+      "fields": [
+        "text_en",
+        "en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Ce petit bronze représente un Prêtre de Jupiter, jouant de la sarbacane.",
+      "current": "text_en «playing a blow-gun (sarbacane)»; en «Small bronze: Priest of Jupiter playing a blow-gun»",
+      "suggested": "jouer de — «играть на» (инструменте); на гравюре (pl15 № 2) фигура дует в длинную трубу с раструбом — духовой инструмент, а не духовое ружьё. EN «playing a pipe (sarbacane)»; en «Small bronze: Priest of Jupiter playing a pipe». RU «на сарбакане (духовой трубке)» допустимо",
+      "confidence": "medium"
+    }
+  ]
+}

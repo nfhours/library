@@ -1,0 +1,60 @@
+{
+  "id": "pl11-1",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl11-1-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "addition",
+      "original": "O Cicero, si sic egisses, barbatos pisces Milo non ederet!",
+      "current": "(«О Цицерон, если бы ты так говорил [на суде], Милону не пришлось бы есть бородатых рыб [т.е. питаться в изгнании]!»)",
+      "suggested": "в скобочный перевод цитаты вставлены пояснения переводчика в квадратных скобках — у Гроссона их нет (тот же тип, что pl1-4-1). Оставить перевод без вставок: «(О Цицерон, если бы ты так говорил, Милон не ел бы бородатых рыб!)»; толкование при желании — в отдельное примечание",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "issue_id": "pl11-1-2",
+      "fields": [
+        "text_en"
+      ],
+      "paragraph": 2,
+      "type": "addition",
+      "original": "C'est au sujet de ce plaidoyer, que Milon s'écria, après l'avoir lu:",
+      "current": "It was of this speech that Milo is said to have exclaimed, after reading it:",
+      "suggested": "«is said to» — добавленная оговорка: Гроссон утверждает прямо («Milon s'écria»). «It was of this speech that Milo exclaimed, after reading it:»",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "pl11-1-3",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "name",
+      "original": "selon ce que rapporte Ruffi (22),",
+      "current": "по свидетельству Руффи (22); …если верить историку Руффи",
+      "suggested": "во всех остальных записях RU — «Рюффи» (pl8-3, pl9-4, pl15-3 и др., 43 записи); здесь дважды «Руффи» (§3, §9). Унифицировать: «Рюффи»",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "pl11-1-4",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 6,
+      "type": "typo",
+      "original": "tel que je l'ai vu en dernier lieu à Aix sur un Edifice bâti par les Romains,",
+      "current": "как я недавно видел в Экс(е) на здании, построенном римлянами",
+      "suggested": "служебный вариант «Экс(е)» остался в тексте: «…как я недавно видел в Эксе…»",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "pl15-4",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl15-4-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "typo",
+      "original": "De même que les Marseilloises pouvoient avoir adopté des Romaines l'usage des imaguncules,",
+      "current": "Подобно тому как марселькие женщины могли перенять…",
+      "suggested": "опечатка: «марсельские» (лучше «марсельянки»/«марсельские женщины»)",
+      "confidence": "low"
+    }
+  ]
+}

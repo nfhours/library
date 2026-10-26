@@ -1,0 +1,22 @@
+{
+  "id": "pl17-1",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_en",
+      "issue_id": "pl17-1-1",
+      "fields": [
+        "text_en",
+        "en"
+      ],
+      "paragraph": 3,
+      "type": "name",
+      "original": "ce qui signifie que le peuple a érigé ce monument à Artemone, femme d'Apollonius Icessius.",
+      "current": "text_en «to Artemon, wife of Apollonius Icesius»; en «…for Artemon, wife of Apollonius Icesius»",
+      "suggested": "Artemon — мужская форма; у Гроссона женское имя Artemone (греч. ΑΡΤΕΜΟΥΝ, вин. п.). EN «Artemone» в text_en и en. RU «Артемоне» верно",
+      "confidence": "medium"
+    }
+  ]
+}

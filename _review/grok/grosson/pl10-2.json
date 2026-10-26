@@ -1,0 +1,43 @@
+{
+  "id": "pl10-2",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "fr",
+      "issue_id": "pl10-2-1",
+      "fields": [
+        "fr",
+        "name_fr",
+        "ru",
+        "en",
+        "legend_fr",
+        "legend_ru",
+        "legend_en",
+        "findspot_fr",
+        "findspot_ru",
+        "findspot_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Le Bas-relief trouvé dans ces quartiers, aujourd'hui placé sur la porte de la Paroisse des Pennes, l'atteste d'une façon non équivoque. Ce marbre étoit un vœu, dont Navius Januarius s'acquittoit envers la Déesse;",
+      "current": "заголовок «Autel de Cybèle (ex-voto de Navius Januarius)» / «Алтарь Кибелы (обет Навия Януария)» / «Altar of Cybele (votive offering of Navius Januarius)»; legend_* = надпись Навия Януария; findspot_* = «quartier des Pennes» / «квартал Пеннес» / «Les Pennes district»",
+      "suggested": "структурные поля смешивают два памятника. По тексту № 2 — алтарь со сфинксом и львом, долго служивший купелью в церкви Сен-Лоран (место находки не названо; «il n'en reste plus aujourd'hui de vestiges»); надпись MATRIS DEVM… NAVIVS IANVARIVS стоит на другом мраморе — барельефе из Ле-Пенн над дверью приходской церкви, который Гроссон приводит лишь как довод. На гравюре (pl10, № 2) на алтаре надписи нет. Предлагается: заголовок «Autel de Cybèle (sphinx et lion)» / «Алтарь Кибелы (сфинкс и лев)» / «Altar of Cybele (sphinx and lion)»; legend_* — пусто (надпись перенести в примечание как текст сопоставляемого барельефа); findspot_* — «église paroissiale de St. Laurent (servait de fonts baptismaux)» / «приходская церковь Сен-Лоран (служил купелью)» / «parish church of St. Laurent (used as a baptismal font)»",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "pl10-2-2",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "dans le lieu appellé les Pennes, qui étoit autrefois entièrement couvert de Pins.",
+      "current": "в местности, называемой Пеннес; …на двери прихода Пеннес",
+      "suggested": "Les Pennes (ныне Ле-Пенн-Мирабо) — по-русски «Ле-Пенн», конечное -s не читается: «…в местности, называемой Ле-Пенн…», «…прихода Ле-Пенн». (findspot_ru — в составе pl10-2-1)",
+      "confidence": "medium"
+    }
+  ]
+}
