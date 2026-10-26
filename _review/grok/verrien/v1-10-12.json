@@ -1,0 +1,23 @@
+{
+  "id": "v1-10-12",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-10-12-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Quò molius, eò suavius.",
+      "current": "Quò molius, eò suavius.",
+      "suggested": "[LA] «Quò mollius» (mollis — мягкий; ср. «plus doucement»); скопировано и в text_ru. Скана текста нет — по смыслу",
+      "confidence": "medium"
+    }
+  ]
+}

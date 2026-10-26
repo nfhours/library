@@ -1,0 +1,23 @@
+{
+  "id": "v1-10-10",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-10-10-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Non metentis, sed ferentis.",
+      "current": "Non metentis, sed ferentis.",
+      "suggested": "[LA] «sed serentis» (долгое ſ прочитано как f; serere — сеять, ср. «celuy qui l'a semée»); скопировано и в text_ru. Скана текста нет — по смыслу",
+      "confidence": "high"
+    }
+  ]
+}

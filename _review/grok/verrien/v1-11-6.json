@@ -1,0 +1,22 @@
+{
+  "id": "v1-11-6",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v1-11-6-1",
+      "fields": [
+        "ru",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Une Lunette d'approche sur son genou.",
+      "current": "Подзорная труба на колене / Подзорная труба, установленная на колене.",
+      "suggested": "genou — шарнир (коленчатое крепление) штатива, не колено; на гравюре труба на треноге: «Подзорная труба на шарнирном штативе»",
+      "confidence": "medium"
+    }
+  ]
+}

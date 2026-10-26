@@ -1,0 +1,23 @@
+{
+  "id": "v1-11-9",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-11-9-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Hostem vocat & fucat.",
+      "current": "Hostem vocat & fucat.",
+      "suggested": "[LA] «& fugat» (обращает в бегство, ср. «il le fait fuir»; fucat — «подкрашивает»); скопировано и в text_ru. Скана текста нет — по смыслу",
+      "confidence": "high"
+    }
+  ]
+}

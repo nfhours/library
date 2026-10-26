@@ -1,0 +1,21 @@
+{
+  "id": "v1-10-6",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-10-6-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "A force de se froter, le feu en sort.",
+      "current": "Сила рождается от силы: от трения возникает огонь.",
+      "suggested": "«Сила рождается от силы:» — перевод латинского девиза (Vim ex vi), вставленный в толкование: «От трения возникает огонь»",
+      "confidence": "medium"
+    }
+  ]
+}

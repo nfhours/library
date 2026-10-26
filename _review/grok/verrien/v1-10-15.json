@@ -1,0 +1,21 @@
+{
+  "id": "v1-10-15",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-10-15-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "Il a toujours de la vertu.",
+      "current": "Добродетель её всегда славна.",
+      "suggested": "переведён латинский девиз (Semper inclita virtus), а не толкование: «В ней всегда есть добродетель / сила»",
+      "confidence": "low"
+    }
+  ]
+}
