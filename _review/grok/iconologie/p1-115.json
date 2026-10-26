@@ -1,0 +1,35 @@
+{
+  "id": "p1-115",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-115-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 5,
+      "type": "mistranslation",
+      "original": "La premiere est celle d'Auguste, où elle est gravée tenant d'vne main",
+      "current": "медаль Августа, где он изображён держащим… которым он сжигает… он уничтожает (так же абзацы 6–9: «где ему дают держать», «где он отмечен», «изображающего его в виде женщины-воительницы», «где он восседает на троне… воспользовался, подобно Геркулесу»)",
+      "suggested": "«elle» — фигура Мира (женская), а RU «он» читается как сам император (Август, Гальба). Поправить на «где Мир изображён в виде женщины, держащей…/ где она (фигура Мира) держит…», и так в абзацах 5–9; EN («she») верно",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "p1-115-2",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "l'autre pour le soûtient de la Guerre, qui se la propose pour but ordinairement",
+      "current": "для поддержки Войны, которая обычно ставит это себе целью (EN «which ordinarily sets this as its aim»)",
+      "suggested": "для поддержки Войны, которая обычно ставит своей целью Мир («la» = la Paix); EN «which ordinarily has Peace as its aim»",
+      "confidence": "low"
+    }
+  ]
+}

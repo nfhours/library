@@ -1,0 +1,21 @@
+{
+  "id": "p1-109",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-109-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "la divine Bonté nous accorde tres-volontiers nos prieres, & l'accomplissement de nos desirs",
+      "current": "божественная Благость весьма охотно внимает нашим молитвам и исполнению наших желаний",
+      "suggested": "божественная Благость весьма охотно исполняет наши молитвы и дарует исполнение наших желаний («accorder» — даровать; «внимает исполнению» бессмысленно); EN верно",
+      "confidence": "low"
+    }
+  ]
+}

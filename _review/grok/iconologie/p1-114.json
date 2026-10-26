@@ -1,0 +1,34 @@
+{
+  "id": "p1-114",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-114-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 6,
+      "type": "name",
+      "original": "n'attribuoit vne pareille vertu à la riviere Sellienne",
+      "current": "реке Селлеенте",
+      "suggested": "реке Селемн (Павсаний VII, 23, как в EN «Selemnus»); «Селлеента» не соответствует ни FR «Sellienne», ни традиционному имени. Не уверен в выборе формы — можно «Селлиенской реке» буквально",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "p1-114-2",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 7,
+      "type": "name",
+      "original": "la pierre que les Grecs appellent Galathite",
+      "current": "камень, который греки называют галатитом (так же в абзаце 8)",
+      "suggested": "галактит (galactites, «молочный камень» у Плиния XXXVII; ср. абзац 8 про молоко у кормилиц); EN «Galactite» верно",
+      "confidence": "low"
+    }
+  ]
+}

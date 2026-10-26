@@ -1,0 +1,22 @@
+{
+  "id": "p1-111",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-111-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "l'on trouve à la fin, qu'on peut achever ce qu'inutilement on a commencé",
+      "current": "обнаруживают, что можно было и не начинать того, что сделано впустую (EN «one might as well not have begun»)",
+      "suggested": "буквально: «в конце концов видят, что [не] могут завершить то, что тщетно начали» — вероятно, в оригинале пропущено «ne»; перевод передаёт другой смысл. Не уверен: предложить «обнаруживают, что не в силах довести до конца то, что напрасно начали» с пометкой о вероятной опечатке",
+      "confidence": "low"
+    }
+  ]
+}

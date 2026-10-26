@@ -1,0 +1,34 @@
+{
+  "id": "p1-113",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-113-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "il ne s'ensuit pas pourtant qu'elle soit vn sujet d'amour",
+      "current": "отсюда не следует, что он есть предмет любви",
+      "suggested": "отсюда не следует, что он есть причина (источник) любви («sujet» здесь = причина, повод); EN «a cause of love» верно",
+      "confidence": "low"
+    },
+    {
+      "field": "text_en",
+      "issue_id": "p1-113-2",
+      "fields": [
+        "text_en"
+      ],
+      "paragraph": 6,
+      "type": "name",
+      "original": "que ny Themnata la belle Philistine",
+      "current": "neither Timnah, the fair Philistine",
+      "suggested": "neither the woman of Timnah, the fair Philistine (Тимна — город, не имя; RU «Фимнафянка» верно)",
+      "confidence": "low"
+    }
+  ]
+}

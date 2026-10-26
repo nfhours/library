@@ -1,0 +1,22 @@
+{
+  "id": "p1-101",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-101-1",
+      "fields": [
+        "text_ru",
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& à ses pieds vne corneille",
+      "current": "с галкой у ног (так же в абзаце 5 и в attrs: «галка»)",
+      "suggested": "с вороной у ног («corneille» — ворона; галка — «choucas»); заменить в абзацах 1 и 5 и в attrs meaning/what; EN «crow» верно",
+      "confidence": "low"
+    }
+  ]
+}
