@@ -42,6 +42,19 @@
       "current": "Вицлиет",
       "suggested": "Витфлит (Wytfliet), то же ниже",
       "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "carti6-4",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "che i Cumani, che furono scoperti già vicini al Perù non lontani dal Mare",
+      "current": "les Cumanagotos, découverts déjà près du Pérou",
+      "suggested": "les Cumani (Cumanais), découverts déjà près du Pérou (в оригинале «Cumani»; «Cumanagotos» — модернизирующая догадка; не уверен)",
+      "confidence": "low"
     }
   ]
 }

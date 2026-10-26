@@ -9,6 +9,7 @@
       "issue_id": "cartm_pignorialisimaco-1",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -16,6 +17,21 @@
       "original": "Antichità, tenne sempre, che l'effiggie con le corna, che si vede nelle Medaglie di Lisimaco",
       "current": "Древность всегда считала, что изображение с рогами…",
       "suggested": "[Фульвио Орсини, муж весьма сведущий в] Древностях, всегда полагал… — фраза продолжает конец carta15 («Fuluio Orsino homo intendentissimo delle / Anti-»); подлежащее — Орсини, а не «Древность»; EN «Antiquity always held» → «[Fulvio Orsini, most expert in] Antiquities, always held»",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_pignorialisimaco-1",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Antichità, tenne sempre, che l'effiggie con le corna, che si vede nelle Medaglie di Lisimaco",
+      "current": "L'Antiquité a toujours tenu que l'effigie à cornes",
+      "suggested": "[Fulvio Orsini, homme très versé dans les] Antiquités, a toujours tenu que l'effigie à cornes… (фраза продолжает конец carta15; подлежащее — Орсини, не «Древность»; та же ошибка в RU/EN)",
       "confidence": "high"
     }
   ]

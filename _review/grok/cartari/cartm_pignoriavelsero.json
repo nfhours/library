@@ -9,6 +9,7 @@
       "issue_id": "cartm_pignoriavelsero-1",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -17,6 +18,21 @@
       "current": "ошибочность подписи, [гласящей] «прошло двадцать» законов Кодекса",
       "suggested": "ошибочность подписи (датировки) более чем двадцати законов Кодекса («passa vinti» = свыше двадцати); EN «the subscription reading \"twenty laws\"» → «the subscriptions of more than twenty laws» — не уверен",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_pignoriavelsero-1",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "essere errata la sottoscritta di passa vinti leggi del Codice",
+      "current": "la souscription portant « vingt » lois du Code était erronée",
+      "suggested": "la souscription (datation) de plus de vingt lois du Code était erronée («passa vinti» = свыше двадцати; не уверен; та же ошибка в RU/EN)",
+      "confidence": "low"
     }
   ]
 }

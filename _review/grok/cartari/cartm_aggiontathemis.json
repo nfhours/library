@@ -9,6 +9,7 @@
       "issue_id": "cartm_aggiontathemis-1",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -29,6 +30,21 @@
       "original": "sarà l'Equità, che i primi Imperatori nelle loro monete figurarono in piedi",
       "current": "то это будет Справедливость, которую первые Императоры изображали",
       "suggested": "то это будет Равенство (Aequitas, «Справедливость-соразмерность»), — далее текст противопоставляет её Giustitia, а RU обоих называет «Справедливость»; EN «Equity» верно",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_aggiontathemis-1",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "io sò bene, che l'Abrotano femina ora pianta de i Sacerdoti d'Iside",
+      "current": "l'Aurone femelle est aujourd'hui une plante des prêtres d'Isis",
+      "suggested": "l'Aurone femelle était une plante des prêtres d'Isis («ora» — опечатка за «era»; та же ошибка в RU/EN)",
       "confidence": "medium"
     }
   ]

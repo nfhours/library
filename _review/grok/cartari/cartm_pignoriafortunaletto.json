@@ -9,6 +9,7 @@
       "issue_id": "cartm_pignoriafortunaletto-1",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -16,6 +17,21 @@
       "original": "l'ho per la Fortuna sicura, & non mutabile.",
       "current": "Я её за Фортуну надёжную и неизменную.",
       "suggested": "Я же считаю её Фортуной надёжной и неизменной (пропущен глагол); EN «I have for the sure» → «I take it for the sure…»",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_pignoriafortunaletto-1",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "l'ho per la Fortuna sicura, & non mutabile.",
+      "current": "Je l'ai pour la Fortune sûre, et immuable.",
+      "suggested": "Je la tiens pour la Fortune sûre, et immuable (калька «avoir pour»; та же ошибка в RU/EN)",
       "confidence": "low"
     }
   ]

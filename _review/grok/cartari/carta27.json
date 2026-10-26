@@ -9,7 +9,8 @@
       "issue_id": "carta27-1",
       "fields": [
         "text_ru",
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 3,
       "type": "mistranslation",
@@ -23,13 +24,29 @@
       "issue_id": "carta27-1",
       "fields": [
         "text_ru",
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 3,
       "type": "mistranslation",
       "original": "la sferza, che passim si effigiaua in mano d'Oro, al qual Oro spetta ancora la testuggine",
       "current": "the whip, which was commonly depicted in a golden hand, to which Gold the tortoise also belongs",
       "suggested": "the whip, which was commonly depicted in the hand of Horus, to which Horus the tortoise also belongs; «golden Harpocrates» → «Horus Harpocrates»",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "carta27-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "la sferza, che passim si effigiaua in mano d'Oro, al qual Oro spetta ancora la testuggine",
+      "current": "le fouet, qu'on représentait communément dans une main d'Or, à cet Or appartenant encore la tortue … du même Harpocrate doré",
+      "suggested": "le fouet, qu'on représentait communément dans la main d'Horus, auquel Horus appartient aussi la tortue … du même Horus Harpocrate («Oro» = Гор, не золото; та же ошибка в RU/EN)",
       "confidence": "high"
     }
   ]

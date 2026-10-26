@@ -22,6 +22,7 @@
       "issue_id": "carta41-2",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 2,
@@ -30,6 +31,34 @@
       "current": "Венера Каллига (Обутая)",
       "suggested": "Венера Каллига — пояснение «(Обутая)» добавлено и сомнительно (вероятно, искажённое «Callipyga»), не уверен; убрать глоссу; то же EN «(Booted)»",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "carta41-2",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "Nel Cameo si vede Venere Calliga come stà nelle Medaglie.",
+      "current": "Vénus Calliga (Chaussée)",
+      "suggested": "Vénus Calliga (глосса «(Chaussée)» добавлена и сомнительна — вероятно, искажённое «Callipyga»; не уверен; та же ошибка в RU/EN)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "carta41-3",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Si vede in esso il tiro felicissimo appresso gl'antichi, del giuoco de i",
+      "current": "au jeu des / Osselets Osselets",
+      "suggested": "au jeu des Osselets (кустода «Tali» повторена — удалить дубль)",
+      "confidence": "low"
     }
   ]
 }

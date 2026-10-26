@@ -9,6 +9,7 @@
       "issue_id": "carta15-1",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -16,6 +17,21 @@
       "original": "nel suo primo Libro della Poesia Satirica, a capitoli due.",
       "current": "в его первой Книге о Сатирической Поэзии, в двух главах",
       "suggested": "в первой книге «О сатирической поэзии», во второй главе («a capitoli due» = на гл. 2, как «a cap. 7» в других ссылках); EN «in two chapters» → «in chapter two»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "carta15-1",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "nel suo primo Libro della Poesia Satirica, a capitoli due.",
+      "current": "dans son premier Livre sur la Poésie Satirique, en deux chapitres",
+      "suggested": "dans son premier Livre sur la Poésie Satirique, au chapitre deux («a capitoli due» = гл. 2; та же ошибка в RU/EN)",
       "confidence": "medium"
     }
   ]
