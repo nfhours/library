@@ -1,0 +1,22 @@
+{
+  "id": "pl4-12",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl4-12-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "rendoient le même hommage à la Déesse qui en étoit la protectrice.",
+      "current": "RU «воздавали ту же честь Богине, которая им покровительствовала»; EN «paid the same homage to the Goddess who was their protectress»",
+      "suggested": "en = «Наук и Искусств», а не «марсельцев»: в переводах выходит, что Минерва покровительствовала марсельцам. RU «…воздавали ту же честь Богине, покровительнице Наук и Искусств»; EN «…to the Goddess who was the protectress of the Sciences and Arts»",
+      "confidence": "low"
+    }
+  ]
+}

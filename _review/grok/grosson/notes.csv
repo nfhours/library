@@ -8,3 +8,5 @@ pl3 (pl3-full.jpg),plate_line,"Внизу доски III: «aux depens de Mr. Ro
 pl4 (pl4-full.jpg),plate_line,"Внизу доски IV: «Aux depens de Mr. M…tre ß[?] de Marseille» — имя читается не полностью, проверить по фото; вверху «Pl. 4». Только заметка"
 pl2-3; pl3-4,name_consistency,"EN передаёт Saliens как «Salyens» (pl2-3, pl3-4), в других записях «Saly» (pl26-1), «Salii» (pl31-7); RU — «салии» везде. Унифицировать EN (напр. Salyes) — решить в SUMMARY; пока не issue"
 pl3-8,latin_quote,"Цитата из Плиния переведена в скобках и в RU, и в EN — последовательно (в отличие от pl1-17, где EN оставил Мелу без перевода)"
+pl5 (pl5-full.jpg),plate_line,"Внизу доски V: «Aux depens de Mr. M.tre Lavabre[?] avocat en la Cour» — фамилия читается неуверенно, проверить по фото; вверху «Pl. 5». Только заметка"
+pl4-16,modern_text,"Запись целиком — современное примечание составителей (flag «non décrit par Grosson»); RU/EN переводят его верно. Утверждение «[MA]MA» по гравюре сомнительно (видно ΜΑΣ) — для составителей, не issue перевода"

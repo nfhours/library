@@ -1,0 +1,22 @@
+{
+  "id": "pl5-4",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl5-4-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "sur les monnoies de bon aloi qu'on présentoit à la monnoie,",
+      "current": "RU «на доброкачественных монетах, предъявляемых к обмену»; EN «onto sound coins that were presented for exchange»",
+      "suggested": "la monnoie здесь — Монетный двор (куда монету приносили на проверку/перечеканку), а не «обмен». RU «…на доброкачественных монетах, которые приносили на Монетный двор»; EN «…onto sound coins brought to the Mint»",
+      "confidence": "low"
+    }
+  ]
+}

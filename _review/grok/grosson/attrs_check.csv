@@ -9,3 +9,8 @@ pl2-2..pl4-4,obverse/reverse/legend/material ru/en,—,"ru/en верно пер�
 pl3-1,legend_*,MASSA,"в тексте буквы не названы, на гравюре ΜΑΣΣΑ над конём — взято с гравюры, не противоречит",info
 pl2-7,legend_*,MASSA ΙΠΛ,"по Гроссону (IPL); на гравюре ΜΑΣΣΛ / приблизительно ΗΤΠΛ — проверить по фото",info
 pl2-8,reverse_*,contremarque Lambda et O,"по тексту; на гравюре второй знак клейма неотчётлив (похож на Δ/ромб) — проверить по фото",info
+pl4-5 … pl5-8,obverse/reverse/legend/material ru/en,—,"ru/en верно передают fr; противоречий, меняющих смысл, нет",ok
+pl4-5,legend_*,MASSALIETON,"по тексту («l'abréviation MASSALIETON»); на гравюре ΜΑΣΣΑ / внизу ΙΔΑ(?) — info",info
+pl4-15,fr/name_fr/en/ru heading и reverse_*,Cornupète / Procumbens,"в тексте статьи названия «Cornupète/Procumbens» нет — добавлено составителями данных; не противоречит, info",info
+pl4-16,obverse_*,lettres [MA]MA,"современное описание (flag); на гравюре на аверсе скорее ΜΑΣ — проверить по фото. Поле оригинала, не перевод — info",info
+pl5-4,reverse_*,lion frappé après coup … ; trépied ; pot/croix,"по тексту; на гравюре льва не видно (аверс: голова в шлеме + ΜΑΣΣΑ; реверс: треножник, MA, круг с крестом, голова) — расхождение текста и гравюры, info",info
