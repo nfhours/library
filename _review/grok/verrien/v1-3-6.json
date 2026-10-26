@@ -1,0 +1,22 @@
+{
+  "id": "v1-3-6",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-3-6-1",
+      "fields": [
+        "text_ru",
+        "meaning_ru"
+      ],
+      "paragraph": 3,
+      "type": "typo",
+      "original": "Toute sorte de chair,",
+      "current": "Всякая плоть таково же:",
+      "suggested": "опечатка/несогласование: «Всякая плоть, то есть вся человеческая красота, подобна мне и есть лишь сено» (c'est à dire передать как пояснение)",
+      "confidence": "medium"
+    }
+  ]
+}

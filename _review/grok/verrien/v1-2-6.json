@@ -1,0 +1,23 @@
+{
+  "id": "v1-2-6",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-2-6-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Nil mihi vobiscam est.",
+      "current": "Nil mihi vobiscam est.",
+      "suggested": "[LA] «vobiscum» (a вместо u); латинский девиз скопирован в text_ru с той же ошибкой. Скана текстовой страницы нет — по грамматике",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "v1-3-3",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v1-3-3-1",
+      "fields": [
+        "ru",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Une Herbe nommée Anjoubarde,",
+      "current": "анжубард / анжубардой",
+      "suggested": "Anjoubarde = joubarbe — молодило (живучка, «заячья капуста»), его и сажали на крыши: «Трава, называемая молодилом…» / «Молодило на крыше»",
+      "confidence": "medium"
+    }
+  ]
+}

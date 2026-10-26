@@ -1,0 +1,35 @@
+{
+  "id": "v1-3-5",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v1-3-5-1",
+      "fields": [
+        "ru"
+      ],
+      "paragraph": null,
+      "type": "mistranslation",
+      "original": "Plante qui produit des Calebaces",
+      "current": "Растение-тыква и сами наполняющиеся сосуды",
+      "suggested": "сосуды не наполняются сами — это тыквы сами тянутся к сосудам с водой: «Растение-горлянка, тянущееся к сосудам с водой»",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "v1-3-5-2",
+      "fields": [
+        "text_ru",
+        "meaning_ru"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "Elles le font naturellement.",
+      "current": "Они делают это естественно, без наставника.",
+      "suggested": "«без наставника» — из девиза, в толковании нет: «Они делают это сами по природе»; не уверен, что это нужно править",
+      "confidence": "low"
+    }
+  ]
+}
