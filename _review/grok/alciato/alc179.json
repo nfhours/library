@@ -1,0 +1,34 @@
+{
+  "id": "alc179",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "alc179-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Iuncta vt præcipites viraque sistat aquas.",
+      "current": "[LA] viraque",
+      "suggested": "[LA] «vtraque» (так на скане)",
+      "confidence": "high"
+    },
+    {
+      "field": "fr",
+      "issue_id": "alc179-2",
+      "fields": [
+        "fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Prosopopoeia",
+      "current": "[LA] Prosopopoeia",
+      "suggested": "на скане подзаголовок по-гречески «Προσωποποιΐα»; в данных латинская транслитерация (ср. alc149-1)",
+      "confidence": "low"
+    }
+  ]
+}

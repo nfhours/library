@@ -1,0 +1,23 @@
+{
+  "id": "alc181",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "alc181-1",
+      "fields": [
+        "ru",
+        "en",
+        "name_fr"
+      ],
+      "paragraph": 1,
+      "type": "omission",
+      "original": "In dona hostium",
+      "current": "Дары врагов — не дары / Enemies' gifts are no gifts / Les dons des ennemis ne sont pas des dons",
+      "suggested": "переведён только греческий девиз; пропущено латинское «In dona hostium»: «… На дары врагов» / «… On the gifts of enemies» / «… Sur les dons des ennemis»",
+      "confidence": "low"
+    }
+  ]
+}

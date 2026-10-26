@@ -1,0 +1,21 @@
+{
+  "id": "alc184",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc184-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Sic cute detracta Cischas,",
+      "current": "содрав с себя кожу",
+      "suggested": "cute detracta — «когда с него (после смерти) содрали кожу» (FR «s'étant fait écorcher» передаёт завещание Жижки): «Так Жижка, чью кожу содрали и обратили в барабан…»",
+      "confidence": "low"
+    }
+  ]
+}

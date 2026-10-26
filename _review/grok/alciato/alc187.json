@@ -1,0 +1,21 @@
+{
+  "id": "alc187",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc187-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "typo",
+      "original": "Quin ipse magis timidißime peccas,",
+      "current": "труслив ейший",
+      "suggested": "опечатка: «трусливейший»",
+      "confidence": "high"
+    }
+  ]
+}

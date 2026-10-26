@@ -1,0 +1,21 @@
+{
+  "id": "alc186",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "alc186-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "captum pede corruus in auras",
+      "current": "[LA] corruus",
+      "suggested": "[LA] «coruus» (ворон; на скане «coruus/cornus» с плохим оттиском)",
+      "confidence": "medium"
+    }
+  ]
+}

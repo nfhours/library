@@ -1,0 +1,38 @@
+{
+  "id": "alc196",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "alc196-1",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en",
+        "caption_fr"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "Antiquissima quæque commentitia. Apologesis. (на странице скана)",
+      "current": "заголовки fr / ru / en / name_fr без подзаголовка «Apologesis» (ср. alc82-2, alc179, alc180 — подзаголовки Dialogismus/Prosopopoeia в заголовке есть)",
+      "suggested": "вынести подпись в отдельные поля (сейчас: под девизом набран подзаголовок «APOLOGESIS»; в text_fr и переводах отсутствует; в entries.json поля caption нет). caption_orig: «Apologesis.» (сверено по скану pages/alc196.jpg); caption_ru: «Апологесис (рассказ-притча)»; caption_en: «Apologesis (a fable)»; caption_fr: «Apologèse (récit allégorique)».",
+      "confidence": "high",
+      "caption_source": "engraving"
+    },
+    {
+      "field": "text_frtrans",
+      "issue_id": "alc196-2",
+      "fields": [
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Signa vetustatis,",
+      "current": "les signes de la vieillesse",
+      "suggested": "vetustas — «древность», не старость: «les signes de l'antiquité» (RU/EN верно)",
+      "confidence": "low"
+    }
+  ]
+}

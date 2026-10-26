@@ -1,0 +1,22 @@
+{
+  "id": "alc189",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc189-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Cæde suum, credens cædere Tantalidas.",
+      "current": "убивая своих / slaying his own",
+      "suggested": "suum — род. мн. от sus: «избивая свиней, думая, что рубит Атридов»; EN «slaughtering swine» (FR «ses propres bêtes» близко, но тоже неточно)",
+      "confidence": "medium"
+    }
+  ]
+}

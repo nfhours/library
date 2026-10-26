@@ -1,0 +1,36 @@
+{
+  "id": "alc195",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc195-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Antidotum Aeææ medicata in pocula Circes",
+      "current": "Цирцеи Эгейской",
+      "suggested": "Aeaea — остров Ээя: «Цирцеи Ээйской» (EN Aeaean, FR d'Éa верно)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc195-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "omission",
+      "original": "Purpureus: sed flos,",
+      "current": "—",
+      "suggested": "пропущено purpureus (корень чёрный, [стебель/цветок] пурпурный, но цветок как молоко); не уверен в разборе",
+      "confidence": "low"
+    }
+  ]
+}
