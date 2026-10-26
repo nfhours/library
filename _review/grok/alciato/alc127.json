@@ -1,0 +1,36 @@
+{
+  "id": "alc127",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "alc127-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "super vrnq́ cadauera bubo,",
+      "current": "[LA] vrnq́",
+      "suggested": "[LA] на скане «super vtq́ cadauera bubo» («и как филин над трупами»)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc127-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "super vrnq́ cadauera bubo,",
+      "current": "над прахом в урнах / over the ashes in urns / sur les cadavres des urnes",
+      "suggested": "«урны» — из ошибки распознавания: «а филин — над трупами» / «and as the eagle-owl over corpses» / «et le hibou sur les cadavres»",
+      "confidence": "medium"
+    }
+  ]
+}

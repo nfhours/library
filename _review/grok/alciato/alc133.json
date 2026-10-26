@@ -1,0 +1,21 @@
+{
+  "id": "alc133",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "fr",
+      "issue_id": "alc133-1",
+      "fields": [
+        "fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Διχλογισμῶς",
+      "current": "[LA] Διχλογισμῶς",
+      "suggested": "[LA] вероятно «Διαλογικῶς» (ср. alc119; χ вместо α); не уверен по скану",
+      "confidence": "low"
+    }
+  ]
+}

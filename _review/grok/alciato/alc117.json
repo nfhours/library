@@ -1,0 +1,23 @@
+{
+  "id": "alc117",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc117-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Dum demonstrat vti est fortior ignis amor.",
+      "current": "переломил … огнём … что огонь любви сильнее / broke … with fire … the fire of love is stronger / a brisé par le feu … le feu de l'amour est plus fort",
+      "suggested": "igne относится к fortior: «показывая, что любовь — огонь сильнее огня». RU «Крылатый бог сломал крылатую молнию, показав, что любовь — огонь, сильнейший огня»; EN «showing that love is a fire stronger than fire»; FR «montrant que l'amour est un feu plus fort que le feu»",
+      "confidence": "low"
+    }
+  ]
+}

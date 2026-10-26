@@ -1,0 +1,36 @@
+{
+  "id": "alc130",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "alc130-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "fundiq́ peritos",
+      "current": "[LA] fundiq́",
+      "suggested": "[LA] «fandiq́» (так на скане) — «искусных в речи»",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc130-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "fundiq́ peritos",
+      "current": "искусных в хозяйстве / skilled in husbandry / habiles à gérer leurs biens",
+      "suggested": "fandi peritos — красноречивых (кадуцей Меркурия): RU «искусных в слове»; EN «skilled in speech»; FR «habiles à parler». Зависит от alc130-1",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "alc121",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc121-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "omission",
+      "original": "secesserat infans / Lydius:",
+      "current": "младенец / the infant",
+      "suggested": "пропущено Lydius («лидийский младенец», FR «l'enfant lydien» есть)",
+      "confidence": "low"
+    }
+  ]
+}

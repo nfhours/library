@@ -1,0 +1,22 @@
+{
+  "id": "alc128",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_en",
+      "issue_id": "alc128-1",
+      "fields": [
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Quisquis forte sua contentus, ianthina gestet,",
+      "current": "Whoever … wears violet, let him bear / quiconque … porte le violet, supporte",
+      "suggested": "gestet — повелительное к довольному судьбой, ferat — второй субъект (как в RU): EN «Let whoever is content with his lot wear violet, and whoever bears Fortune's troubles calmly»; FR «Que quiconque est content de son sort porte le violet, ainsi que celui qui supporte…»",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "alc118",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc118-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Princeps sororis pellicem.",
+      "current": "соперницу своей сестры / his sister's rival / la rivale de sa sœur",
+      "suggested": "Терей любил Филомелу — сестру жены (Прокны), ставшую её соперницей; «своей сестры» искажает: RU «фракийский царь — сестру-наложницу (Филомелу)»; EN «the Thracian king loved the sister who became his concubine»; не уверен в лучшей формулировке",
+      "confidence": "low"
+    }
+  ]
+}

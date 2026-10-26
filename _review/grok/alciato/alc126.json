@@ -1,0 +1,36 @@
+{
+  "id": "alc126",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "alc126-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Illicitum est mulier,",
+      "current": "[LA] Illicitum",
+      "suggested": "[LA] «Illicium» (так на скане) — «приманка»",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc126-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Illicitum est mulier, quæ in piscem desinit atrum,",
+      "current": "Запретна женщина / A woman … is a forbidden thing / Est illicite la femme",
+      "suggested": "illicium — приманка: RU «Приманка — женщина, что оканчивается чёрной рыбой»; EN «A lure is the woman…»; FR «Un appât est la femme…». Зависит от alc126-1",
+      "confidence": "medium"
+    }
+  ]
+}

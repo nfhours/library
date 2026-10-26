@@ -1,0 +1,23 @@
+{
+  "id": "alc123",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "alc123-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Hic certa, ast cæci spicula vana mouet.",
+      "current": "Он уверенно, хоть и слепой, посылает стрелы, [а чужие] — впустую / Yet he surely moves his shafts, though blind, while others' are in vain / Lui, visant juste, bien qu'aveugle, lance des traits que d'autres lancent en vain",
+      "suggested": "смысл обратный: «Зрячий (hic) пускает меткие стрелы, а слепой — напрасные» (довод против слепоты Амура). EN «The sighted man shoots sure shafts, the blind man vain ones»; FR «Celui qui voit lance des traits sûrs, l'aveugle des traits vains»",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "alc115",
+  "book": "alciato",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "alc115-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Expressius gemma pusio vincat amor:",
+      "current": "[LA] Expressius",
+      "suggested": "[LA] «Expressus» (так на скане)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "alc115-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Aspice vt inuictus vires auriga leonis,",
+      "current": "льва-колесничего / the lion, his charioteer / du cocher-lion",
+      "suggested": "auriga (колесничий) — сам Амур, правящий львом: RU «Взгляни, как непобедимый возница — мальчик-Амур, выточенный на камне, побеждает силу льва»; EN «how Love, an unconquered charioteer, … conquers the lion's strength»; FR «comme l'Amour, cocher invincible, … vainc la force du lion»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_frtrans",
+      "issue_id": "alc115-3",
+      "fields": [
+        "text_frtrans"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "a nobis temperet anne manus?",
+      "current": "épargnerait-il nos mains ?",
+      "suggested": "temperare manus a nobis — «удержит руки от нас»: «retiendrait-il ses mains loin de nous ?» (RU/EN верно)",
+      "confidence": "low"
+    }
+  ]
+}
