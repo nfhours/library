@@ -1,0 +1,26 @@
+{
+  "id": "carti_pagodefable",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "(per darne la lode à chi viene)",
+      "current": "(дабы воздать хвалу тому, кто придёт [за ними])",
+      "suggested": "(дабы воздать хвалу тому, кому она причитается) — идиома; EN «to whoever comes upon them» → «to give credit where it is due»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "name",
+      "original": "detto per nome Ganissone",
+      "current": "named Ganesha",
+      "suggested": "named Ganissone (так в оригинале; модернизация «Ganesha» — допустима лишь в примечании; RU «Ганиссоне» верно)",
+      "confidence": "low"
+    }
+  ]
+}

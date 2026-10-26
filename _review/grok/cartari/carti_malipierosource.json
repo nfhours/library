@@ -1,0 +1,26 @@
+{
+  "id": "carti_malipierosource",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Et perche fuor della Galleria del Serenis. di BAVIERA io ho hauuto alcuni disegni d'Idoli del Mexico",
+      "current": "поскольку, помимо Галереи Светлейшего Баварского [герцога], я получил несколько рисунков",
+      "suggested": "поскольку из Галереи Светлейшего [герцога] Баварского я получил несколько рисунков («fuor della» = «из», ср. следующую запись: «Nella soprascritta Galleria…»); EN «besides the Gallery» → «from the Gallery»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "name",
+      "original": "Scriue in conformità Pietro Martire, che i caratteri delle scritture loro sono Dadi",
+      "current": "Пётр Мученик",
+      "suggested": "Пётр Мартир (Англерский) — это имя (Pietro Martire d'Anghiera), не «мученик»; то же ниже и в carti6",
+      "confidence": "low"
+    }
+  ]
+}
