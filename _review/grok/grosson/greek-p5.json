@@ -1,0 +1,39 @@
+{
+  "id": "greek-p5",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "fr",
+      "issue_id": "greek-p4-1",
+      "fields": [
+        "fr",
+        "name_fr",
+        "ru",
+        "en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "J'avoue que ceux désignés depuis le No. 1 jusqu'au No. 6 de cette gravure en bois (38), ne nous dévoilent pour le moment présent que le nom de PARMENON répété sur trois inscriptions.",
+      "current": "fr/name_fr «Fragment grec 5 (nom de Parmenon)»; ru «Греческий фрагмент 5 (имя Пармено)»; en «Greek fragment 5 (the name Parmenon)»",
+      "suggested": "на гравюре (fragplate-5) имя ΠΑΡΜΕΝΟΝ есть только в № 1, 2, 3 — Гроссон и говорит «sur trois inscriptions»; в № 5 его нет. fr «Fragment grec 5»; ru «Греческий фрагмент 5»; en «Greek fragment 5»",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "greek-p1-2",
+      "fields": [
+        "text_fr",
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Quoique les Fragmens Grecs par lesquels je termine cet ouvrage, soient cités par Ruffi, par Guesnay & les Auteurs du manuscrit de la Massiliographie, ils ne présentent rien d'intéressant pour le lecteur.",
+      "current": "§1 (вступление к греческим фрагментам) и §2 (прим. 38) целиком повторены в greek-p1…greek-p5",
+      "suggested": "общий вводный абзац Гроссона ко всем фрагментам гравюры размножен по пяти записям; относится к группе, а не к фрагменту № 5. Оставить в greek-p1 (или в поле группы) и убрать из greek-p2…p5 во всех трёх языках. Не уверен, не задумано ли дублирование намеренно",
+      "confidence": "medium"
+    }
+  ]
+}

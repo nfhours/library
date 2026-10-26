@@ -17,6 +17,21 @@
       "current": "RU «с согласия Дунния»; EN «with the consent of Dunnius»",
       "suggested": "у Гроссона «avec la participation» — «при участии», а не «с согласия». RU «при участии Дунния…»; EN «with the participation of Dunnius…»",
       "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "frag-10-2",
+      "fields": [
+        "text_fr",
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Autre fragment d'inscription cité par Ruffi; c'est le reste de la dédicace d'un monument élevé par des neveux en l'honneur d'un oncle ou d'une tante, ainsi que le dénotent les mots FLAVIA IVLIANA NEPOTES.",
+      "current": "text_fr «Autre fragment d'inscription cité par Ruffi; c'est le reste de la dédicace d'un monument élevé par des neveux en l'honneur d'un oncle ou d'une tante, ainsi que le dénotent les mots FLAVIA IVLIANA NEPOTES.»; text_ru «Другой фрагмент надписи, приводимый Рюффи; это остаток посвящения памятника, воздвигнутого племянниками в честь дяди или тётки, на что указывают слова FLAVIA IVLIANA NEPOTES.»; text_en «Another inscription fragment cited by Ruffi; it is the remainder of the dedication of a monument raised by nephews in honor of an uncle or aunt, as shown by the words FLAVIA IVLIANA NEPOTES.»",
+      "suggested": "ошибка разбивки текста: первое предложение §1 относится к фрагменту № 17 (FLAVIA IVLIANA NEPOTES — на fragplate-2 это № 17; в frag-17 то же предложение стоит на своём месте), на гравюре № 10 только AVGVSTIVS … PONENDVM CVRAVIT. Удалить это предложение из text_fr/text_ru/text_en записи frag-10; соответственно убрать связку «Une autre citation, dans le même ordre d'idées:» / «Другая, сходная по смыслу, цитата:» / «Another, related citation:», начав с описания надписи Августия (Не уверен, как Гроссон вводит № 10 в оригинале — проверить по фото страницы)",
+      "confidence": "high"
     }
   ]
 }

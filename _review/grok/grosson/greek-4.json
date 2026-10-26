@@ -1,0 +1,35 @@
+{
+  "id": "greek-4",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "greek-4-1",
+      "fields": [
+        "ru",
+        "en"
+      ],
+      "paragraph": 1,
+      "type": "omission",
+      "original": "DIONISI DIONISI SIDEITI METRIMA, ce qui me paroît devoir être expliqué ainsi: Metrima a élevé ce monument à Denis, fils de Denis de la Ville de Sida.",
+      "current": "ru «Греческий фрагмент 6: Дионисий, сын Дионисия, из города Сиды»; en «Greek fragment 6: Dionysius, son of Dionysius, of the city of Sida»",
+      "suggested": "fr-заголовок содержит чтение «Dionisi Dionisi Sideiti Metrima» и имя посвятителя (Metrima); ru/en его опускают. ru «Греческий фрагмент 6: Dionisi Dionisi Sideiti Metrima (Дионисий, сын Дионисия, из города Сиды)»; en «Greek fragment 6: Dionisi Dionisi Sideiti Metrima (Dionysius, son of Dionysius, of the city of Sida)»",
+      "confidence": "low"
+    },
+    {
+      "field": "text_en",
+      "issue_id": "greek-4-2",
+      "fields": [
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "& la Ville de Sida dut profiter comme les autres, des avantages que Marseille leur offroit.",
+      "current": "the City of Sida, like the others, must have profited, as the others did, from the advantages",
+      "suggested": "«comme les autres» передано дважды. «…and the City of Sida, like the others, must have profited from the advantages Marseille offered them»",
+      "confidence": "low"
+    }
+  ]
+}

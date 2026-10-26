@@ -1,0 +1,24 @@
+{
+  "id": "frag-26",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "fr",
+      "issue_id": "frag-26-1",
+      "fields": [
+        "fr",
+        "name_fr",
+        "ru",
+        "en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Aux Dieux Manes Secundus a élevé ce monument à Publius Aelius, Affranchi d'Eutiches.",
+      "current": "fr/name_fr «Épitaphe de Publius Aelius Eutyches, par son affranchi Secundus»; ru «…от его вольноотпущенника Секунда»; en «…by his freedman Secundus»",
+      "suggested": "у Гроссона Публий Элий — вольноотпущенник Эвтиха, а Секунд его вольноотпущенником не назван (COLLIBERTO — «соотпущеннику»). fr «Épitaphe de Publius Aelius, affranchi d'Eutiches, par Secundus»; ru «Эпитафия Публия Элия, вольноотпущенника Эвтиха, от Секунда»; en «Epitaph of Publius Aelius, freedman of Eutyches, by Secundus»",
+      "confidence": "medium"
+    }
+  ]
+}

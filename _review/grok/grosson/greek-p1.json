@@ -1,0 +1,21 @@
+{
+  "id": "greek-p1",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "greek-p1-1",
+      "fields": [
+        "ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "J'avoue que ceux désignés depuis le No. 1 jusqu'au No. 6 de cette gravure en bois (38), ne nous dévoilent pour le moment présent que le nom de PARMENON répété sur trois inscriptions.",
+      "current": "«Греческий фрагмент 1 (имя Пармено)»",
+      "suggested": "ΠΑΡΜΕΝΟΝ / PARMENON — «Парменон» (en «Parmenon», text_ru «PARMENON»); «Пармено» обрезано. ru «Греческий фрагмент 1 (имя Парменон)»",
+      "confidence": "medium"
+    }
+  ]
+}

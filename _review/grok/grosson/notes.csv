@@ -84,3 +84,6 @@ frag-21,flag,"entry flag notes modern archaeology contradicts Grosson on the Tem
 frag-22,style,"RU last sentence on the TI ligature («что и обозначало стоящую над буквой I») is clumsy but not wrong in meaning — not logged"
 pl16-4-1,shared,"pl16-4-1 also applied to frag-6 and frag-21 — all known occurrences now logged (pl16-4, pl36-1, pl42-3, frag-6, frag-21)"
 pl20-1-1,shared,"pl20-1-1 (Пакату → Пакат) also applied to frag-13 (ru heading + text_ru)"
+greek-4,data,"id «greek-4» but num 6 and heading «Fragment grec 6» — id naming inconsistent with greek-p1..p5 (ids not ours to change)"
+greek-4,style,"RU «Метрима воздвигла» assumes a woman; Grosson's «Metrima a élevé» is ungendered — Не уверен, not logged"
+frag-10-2,data,"frag-10 misplaced FLAVIA IVLIANA sentence (belongs to frag-17) logged as issue frag-10-2 per user decision (data-fix reports are issues, not notes); verdict unchanged (minor)"
