@@ -1,0 +1,21 @@
+{
+  "id": "v1-35-14",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-35-14-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "L'arbre croît, & l'amour naît.",
+      "current": "Дерево растёт, и любовь разгорается.",
+      "suggested": "«разгорается» — из латинского gliscit ardor; французское: «Дерево растёт, и любовь рождается»",
+      "confidence": "low"
+    }
+  ]
+}

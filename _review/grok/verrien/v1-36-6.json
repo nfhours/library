@@ -1,0 +1,21 @@
+{
+  "id": "v1-36-6",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-36-6-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "typo",
+      "original": "Si j'endommage je recompense.",
+      "current": "Если я вредлю, то и вознаграждаю.",
+      "suggested": "«вредлю» — несуществующая форма: «Если я наношу ущерб, то и вознаграждаю»",
+      "confidence": "medium"
+    }
+  ]
+}

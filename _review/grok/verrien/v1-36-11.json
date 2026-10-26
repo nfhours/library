@@ -1,0 +1,23 @@
+{
+  "id": "v1-36-11",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-36-11-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Non fregit qui quærit hostes.",
+      "current": "Non fregit qui quærit hostes.",
+      "suggested": "[LA] вероятно «Non fugit qui quærit hostes» («не бежит тот, кто ищет врагов», ср. «Il ne craint pas, mais il cherche»); fregit по смыслу не подходит. Скана текста нет; не уверен",
+      "confidence": "low"
+    }
+  ]
+}
