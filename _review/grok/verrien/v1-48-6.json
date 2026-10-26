@@ -1,0 +1,21 @@
+{
+  "id": "v1-48-6",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-48-6-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "Mon odeur en est plus douce.",
+      "current": "От противоположности мой запах становится слаще.",
+      "suggested": "«От противоположности» — из латинского девиза (Per opposita), во французском нет: «Мой запах от этого становится слаще»",
+      "confidence": "low"
+    }
+  ]
+}
