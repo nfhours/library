@@ -1,0 +1,250 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box}[hidden]{display:none!important}</style></head><body>
+<title>Monogram Box Editor</title>
+<style>
+  :root{
+    --paper:#f6f3ec; --ink:#1c1813; --ink-2:#6b6256; --rule:rgba(28,24,19,.14);
+    --accent:#8e2b1d; --accent-2:#a8491f; --ok:#2f6b3a; --box:rgba(142,43,29,.9);
+    --box-saved:rgba(47,107,58,.9); --panel:#ffffff;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#17140f; --ink:#ece6d8; --ink-2:#a79d8a; --rule:rgba(236,230,216,.14);
+      --panel:#221e17; color-scheme: dark;
+    }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;padding-inline:16px}
+  h1{font-size:19px;font-weight:600;margin:0}
+  .topbar{position:sticky;top:0;background:var(--paper);z-index:10;padding-block:14px 10px;border-bottom:1px solid var(--rule);display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;margin-inline:-16px;padding-inline:16px}
+  .nav{display:flex;gap:6px;align-items:center}
+  button{font:inherit;cursor:pointer;border:1px solid var(--rule);background:var(--panel);color:var(--ink);border-radius:6px;padding:7px 12px;font-size:13px}
+  button:hover{border-color:var(--accent)}
+  button:disabled{opacity:.4;cursor:default}
+  button.primary{background:var(--accent);color:#fff;border-color:var(--accent);font-weight:600}
+  button.primary:hover{background:var(--accent-2)}
+  button.ghost{background:transparent}
+  .progress{font-size:12px;color:var(--ink-2);margin-left:auto;white-space:nowrap}
+  .platejump{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--ink-2)}
+  .platejump input{width:52px;font:inherit;padding:6px 8px;border-radius:6px;border:1px solid var(--rule);background:var(--panel);color:var(--ink)}
+  main{max-width:900px;margin:0 auto;padding-block:18px 48px}
+  .stage{position:relative;width:100%;max-width:620px;margin:0 auto;user-select:none;-webkit-user-select:none;touch-action:none}
+  .stage img{display:block;width:100%;height:auto;border:1px solid var(--rule);border-radius:2px}
+  .hb{position:absolute;border:2px solid var(--box);background:rgba(142,43,29,.08);cursor:move}
+  .hb.saved{border-color:var(--box-saved);background:rgba(47,107,58,.08)}
+  .hb .num{position:absolute;top:-1px;left:-1px;background:var(--box);color:#fff;font-size:11px;line-height:1;padding:3px 5px;border-radius:0 0 4px 0;font-weight:700;pointer-events:none}
+  .hb.saved .num{background:var(--box-saved)}
+  .handle{position:absolute;width:14px;height:14px;background:var(--box);border:2px solid #fff;border-radius:50%;touch-action:none}
+  .hb.saved .handle{background:var(--box-saved)}
+  .handle.nw{left:-8px;top:-8px;cursor:nwse-resize}
+  .handle.ne{right:-8px;top:-8px;cursor:nesw-resize}
+  .handle.sw{left:-8px;bottom:-8px;cursor:nesw-resize}
+  .handle.se{right:-8px;bottom:-8px;cursor:nwse-resize}
+  .controls{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:16px}
+  .hint{text-align:center;font-size:12px;color:var(--ink-2);margin-top:10px;max-width:60ch;margin-inline:auto}
+  .legend{display:flex;gap:16px;justify-content:center;font-size:12px;color:var(--ink-2);margin-top:14px}
+  .legend span{display:inline-flex;align-items:center;gap:5px}
+  .sw{width:10px;height:10px;border-radius:2px;display:inline-block}
+  .status{text-align:center;font-size:13px;margin-top:10px;min-height:18px;color:var(--ok)}
+</style>
+
+<div class="topbar">
+  <h1>Monogram Box Editor — локально</h1>
+  <div class="nav">
+    <button id="prevB" class="ghost">‹ Пред.</button>
+    <button id="nextB" class="ghost">След. ›</button>
+  </div>
+  <div class="platejump">
+    Пластина <input id="jumpInput" type="number" min="1" max="155" /> <button id="jumpB" class="ghost">→</button>
+  </div>
+  <div class="progress" id="progress">—</div>
+</div>
+
+<main>
+  <div class="stage" id="stage">
+    <img id="plateImg" src="" alt="">
+  </div>
+  <div class="controls">
+    <button id="resetB">Сбросить к сетке</button>
+    <button id="saveB" class="primary">Сохранить пластину</button>
+  </div>
+  <div class="status" id="status"></div>
+  <div class="legend">
+    <span><i class="sw" style="background:var(--box)"></i> не сохранено в этой сессии</span>
+    <span><i class="sw" style="background:var(--box-saved)"></i> подтверждено</span>
+  </div>
+  <p class="hint">Тащите рамку целиком за центр, тащите угловой кружок — чтобы изменить размер. Правки сохраняются по кнопке «Сохранить пластину», отдельно для каждой страницы, сразу в файл на диске.</p>
+</main>
+
+<script>
+(function(){
+  var plateOrder = [];
+  var platesDefault = {};
+  var state = { idx: 0, boxes: [], monograms: {}, dirty: false };
+
+  var stage = document.getElementById('stage');
+  var img = document.getElementById('plateImg');
+  var progressEl = document.getElementById('progress');
+  var statusEl = document.getElementById('status');
+
+  function currentPlateImg(){ return plateOrder[state.idx]; }
+
+  function updateProgress(){
+    var n = 0;
+    plateOrder.forEach(function(p){ if(state.monograms[p] && state.monograms[p].confirmed) n++; });
+    progressEl.textContent = n + ' из ' + plateOrder.length + ' подтверждено';
+  }
+
+  function loadPlate(idx){
+    state.idx = Math.max(0, Math.min(plateOrder.length-1, idx));
+    state.dirty = false;
+    var pimg = currentPlateImg();
+    img.src = '/photos/' + encodeURIComponent(pimg);
+    statusEl.textContent = '';
+    document.getElementById('jumpInput').value = state.idx+1;
+    document.getElementById('prevB').disabled = state.idx===0;
+    document.getElementById('nextB').disabled = state.idx===plateOrder.length-1;
+
+    var entry = state.monograms[pimg];
+    var items = (entry && entry.items && entry.items.length) ? entry.items : (platesDefault[pimg]||[]);
+    state.boxes = items.map(function(it){ return {id:it.id, num:it.num, bbox:it.bbox.slice()}; });
+    renderBoxes();
+  }
+
+  function renderBoxes(){
+    stage.querySelectorAll('.hb').forEach(function(el){ el.remove(); });
+    var entry = state.monograms[currentPlateImg()];
+    var isSaved = !!(entry && entry.confirmed) && !state.dirty;
+    state.boxes.forEach(function(box, i){
+      var el = document.createElement('div');
+      el.className = 'hb' + (isSaved ? ' saved' : '');
+      el.style.left = box.bbox[0]+'%';
+      el.style.top = box.bbox[1]+'%';
+      el.style.width = box.bbox[2]+'%';
+      el.style.height = box.bbox[3]+'%';
+      var numEl = document.createElement('div');
+      numEl.className = 'num';
+      numEl.textContent = box.num;
+      el.appendChild(numEl);
+      ['nw','ne','sw','se'].forEach(function(corner){
+        var h = document.createElement('div');
+        h.className = 'handle ' + corner;
+        h.addEventListener('pointerdown', function(e){ startResize(e, i, corner); });
+        el.appendChild(h);
+      });
+      el.addEventListener('pointerdown', function(e){
+        if(e.target.classList.contains('handle')) return;
+        startMove(e, i);
+      });
+      stage.appendChild(el);
+    });
+  }
+
+  function pct(v, total){ return v/total*100; }
+  function round2(v){ return Math.round(v*100)/100; }
+
+  function startMove(e, i){
+    e.preventDefault();
+    var rect = stage.getBoundingClientRect();
+    var box = state.boxes[i];
+    var startX = e.clientX, startY = e.clientY;
+    var orig = box.bbox.slice();
+    function onMove(ev){
+      var dxPct = pct(ev.clientX-startX, rect.width);
+      var dyPct = pct(ev.clientY-startY, rect.height);
+      var nx = Math.max(0, Math.min(100-orig[2], orig[0]+dxPct));
+      var ny = Math.max(0, Math.min(100-orig[3], orig[1]+dyPct));
+      box.bbox[0] = round2(nx); box.bbox[1] = round2(ny);
+      renderBoxes();
+    }
+    function onUp(){ document.removeEventListener('pointermove', onMove); document.removeEventListener('pointerup', onUp); markUnsaved(); }
+    document.addEventListener('pointermove', onMove);
+    document.addEventListener('pointerup', onUp);
+  }
+
+  function startResize(e, i, corner){
+    e.preventDefault(); e.stopPropagation();
+    var rect = stage.getBoundingClientRect();
+    var box = state.boxes[i];
+    var startX = e.clientX, startY = e.clientY;
+    var orig = box.bbox.slice();
+    function onMove(ev){
+      var dxPct = pct(ev.clientX-startX, rect.width);
+      var dyPct = pct(ev.clientY-startY, rect.height);
+      var x0=orig[0], y0=orig[1], w=orig[2], h=orig[3];
+      var x1=x0+w, y1=y0+h;
+      if(corner.indexOf('n')>-1) y0 = Math.min(y1-2, y0+dyPct);
+      if(corner.indexOf('s')>-1) y1 = Math.max(y0+2, y1+dyPct);
+      if(corner.indexOf('w')>-1) x0 = Math.min(x1-2, x0+dxPct);
+      if(corner.indexOf('e')>-1) x1 = Math.max(x0+2, x1+dxPct);
+      x0 = Math.max(0,x0); y0 = Math.max(0,y0); x1 = Math.min(100,x1); y1 = Math.min(100,y1);
+      box.bbox = [round2(x0), round2(y0), round2(x1-x0), round2(y1-y0)];
+      renderBoxes();
+    }
+    function onUp(){ document.removeEventListener('pointermove', onMove); document.removeEventListener('pointerup', onUp); markUnsaved(); }
+    document.addEventListener('pointermove', onMove);
+    document.addEventListener('pointerup', onUp);
+  }
+
+  function markUnsaved(){
+    state.dirty = true;
+    renderBoxes();
+  }
+
+  document.getElementById('prevB').addEventListener('click', function(){ loadPlate(state.idx-1); });
+  document.getElementById('nextB').addEventListener('click', function(){ loadPlate(state.idx+1); });
+  document.getElementById('jumpB').addEventListener('click', function(){
+    var v = parseInt(document.getElementById('jumpInput').value, 10);
+    if(v>=1 && v<=plateOrder.length) loadPlate(v-1);
+  });
+  document.getElementById('jumpInput').addEventListener('keydown', function(e){
+    if(e.key==='Enter'){ document.getElementById('jumpB').click(); }
+  });
+  document.getElementById('resetB').addEventListener('click', function(){
+    var pimg = currentPlateImg();
+    state.boxes = (platesDefault[pimg]||[]).map(function(it){ return {id:it.id, num:it.num, bbox:it.bbox.slice()}; });
+    state.dirty = true;
+    renderBoxes();
+  });
+  document.getElementById('saveB').addEventListener('click', function(){
+    var pimg = currentPlateImg();
+    var items = state.boxes.map(function(b){ return {id:b.id, num:b.num, bbox:b.bbox}; });
+    fetch('/api/monograms', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({plate: pimg, items: items})
+    }).then(function(r){ return r.json(); }).then(function(res){
+      if(res && res.ok){
+        state.monograms[pimg] = res.entry;
+        state.dirty = false;
+        updateProgress();
+        renderBoxes();
+        statusEl.style.color = 'var(--ok)';
+        statusEl.textContent = 'Сохранено.';
+        setTimeout(function(){ statusEl.textContent=''; }, 1800);
+      } else {
+        statusEl.style.color = 'var(--accent)';
+        statusEl.textContent = 'Не удалось сохранить, попробуйте ещё раз.';
+      }
+    }).catch(function(){
+      statusEl.style.color = 'var(--accent)';
+      statusEl.textContent = 'Сервер недоступен.';
+    });
+  });
+
+  fetch('/api/config').then(function(r){ return r.json(); }).then(function(cfg){
+    plateOrder = cfg.plateOrder;
+    platesDefault = cfg.platesDefault;
+    return fetch('/api/monograms');
+  }).then(function(r){ return r.json(); }).then(function(monograms){
+    state.monograms = monograms || {};
+    updateProgress();
+    if(plateOrder.length) loadPlate(0);
+  }).catch(function(){
+    statusEl.style.color = 'var(--accent)';
+    statusEl.textContent = 'Не удалось загрузить данные с сервера.';
+  });
+})();
+</script>
+
+</body></html>
