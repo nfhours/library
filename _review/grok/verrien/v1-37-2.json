@@ -1,0 +1,21 @@
+{
+  "id": "v1-37-2",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-37-2-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "Je ne me soucie pas de disparoistre pourveu que j'aye brulé.",
+      "current": "Мне всё равно исчезнуть, лишь бы я успела сиять.",
+      "suggested": "«сиять» — из латинского luceam; французское brulé — «гореть»: «…лишь бы я успела сгореть / погореть»",
+      "confidence": "low"
+    }
+  ]
+}

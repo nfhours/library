@@ -1,0 +1,23 @@
+{
+  "id": "v1-37-15",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-37-15-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Mas che en la tierra nocivo.",
+      "current": "Mas che en la tierra nocivo.",
+      "suggested": "[ES] «Mas que en la tierra nocivo» (che — итальянское; ср. v1-15-9, v1-23-1); возможно, орфография издания. Скана текста нет; не уверен",
+      "confidence": "low"
+    }
+  ]
+}
