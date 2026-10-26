@@ -1,0 +1,34 @@
+{
+  "id": "p1-68",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-68-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "qu'on le couronne de feuilles de Plane, arbre genial",
+      "current": "листьями платана, дерева гениального",
+      "suggested": "листьями платана, дерева радостного/праздничного («genial» < лат. genialis — «посвящённый Гению, весёлый», а не «гениальный»); EN «genial tree» допустимо",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "p1-68-2",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "à quoy sert d'explication l'epigramme qui se voit au dessous",
+      "current": "объяснением чему служит приведённая ниже эпиграмма",
+      "suggested": "объяснением чему служит эпиграмма, помещённая под ним (на барельефе) («qui se voit au dessous» — видна под изображением, а не «приведённая ниже» в тексте); EN «the epigram seen below» верно",
+      "confidence": "low"
+    }
+  ]
+}

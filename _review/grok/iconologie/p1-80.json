@@ -1,0 +1,21 @@
+{
+  "id": "p1-80",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-80-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 6,
+      "type": "mistranslation",
+      "original": "prend toutes les couleurs qui luy sont opposées",
+      "current": "принимает все цвета, ей противоположные",
+      "suggested": "принимает цвет всего, что оказывается перед ним/рядом («opposées» = «поставленные напротив», а не «противоположные по цвету»); EN «set against it» верно",
+      "confidence": "low"
+    }
+  ]
+}

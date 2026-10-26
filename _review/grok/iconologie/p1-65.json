@@ -1,0 +1,21 @@
+{
+  "id": "p1-65",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p1-65-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Ses armes sont des symboles de la force de son corps; & le rameau qu'elle tient en main, en est vn de celle de son esprit",
+      "current": "Дуб — крепчайшее из деревьев, символ силы тела; лев … — образ силы духа",
+      "suggested": "по тексту оружие — символ силы тела, а ветвь (дубовая) — силы духа (абзац 3: «Ses armes … la force de son corps; & le rameau … celle de son esprit»); «Дуб — символ силы тела» противоречит тексту. Лев и вепрь по Пиерию означают обе силы — тела и духа (абзац 4); прочтение «лев = сила духа» по контексту возможно, не уверен. Поправить meaning и meaning_en",
+      "confidence": "medium"
+    }
+  ]
+}

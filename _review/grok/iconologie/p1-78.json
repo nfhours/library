@@ -1,0 +1,22 @@
+{
+  "id": "p1-78",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-78-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 8,
+      "type": "mistranslation",
+      "original": "La main qu'elle porte sur sa gorge",
+      "current": "Рука, которую она держит на горле (EN «upon her throat»)",
+      "suggested": "Рука, которую она держит на груди («gorge» в XVII в. = «грудь»; ср. абзац 7 «la main gauche sur le sein»); EN «upon her breast»",
+      "confidence": "low"
+    }
+  ]
+}

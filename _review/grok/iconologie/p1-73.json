@@ -1,0 +1,38 @@
+{
+  "id": "p1-73",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-73-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "& leur donne à manger en attendant que leurs bonnes soient revenuës",
+      "current": "пока их добрая сила не вернётся (EN «the return of their strength»)",
+      "suggested": "пока у них не отрастут добрые (новые) перья («leurs bonnes» = «leurs bonnes plumes», ср. выше «leurs plumes inutiles»); EN «until their good feathers have grown back». Попутно: гнездо — «из их сброшенных перьев» (родителей), в RU «их» потеряно",
+      "confidence": "medium"
+    },
+    {
+      "field": "caption",
+      "issue_id": "p1-73-2",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "GRATITVDE (надпись на гравюре)",
+      "current": "заголовки ru «Благодарность, или признательность» / en «Gratitude, or Thankfulness» переводят fr «Gratitude, ou Reconnoissance»; на гравюре только «Gratitude»",
+      "suggested": "вынести подпись к гравюре в отдельные поля (сейчас: подпись только на гравюре, над медальоном; в text_fr и переводах отсутствует; в entries.json поля caption нет). caption_orig: \"Gratitude\" (сверено по фото img/p1-73.jpg: GRATITVDE; в text_fr подписи нет); caption_ru: \"Благодарность\"; caption_en: \"Gratitude\".",
+      "confidence": "high",
+      "caption_source": "engraving"
+    }
+  ]
+}

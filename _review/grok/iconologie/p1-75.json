@@ -1,0 +1,22 @@
+{
+  "id": "p1-75",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-75-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "la lyre d'Orphée, qui par ses melodieux accords se rendoit sensible aux rochers",
+      "current": "делала чувствительными скалы (EN «made rocks sensible»)",
+      "suggested": "заставляла внимать себе даже скалы («se rendre sensible à» — «быть ощутимой, доходить до», а не «делать чувствительными»); EN «made itself felt even by the rocks»",
+      "confidence": "low"
+    }
+  ]
+}

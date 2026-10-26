@@ -1,0 +1,21 @@
+{
+  "id": "p1-71",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-71-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "ravit d'amour & d'admiration tous ceux qui la contemplent",
+      "current": "похищает любовь и восхищение всех, кто на неё смотрит",
+      "suggested": "приводит в восторг любовью и восхищением всех, кто на неё смотрит («ravir d'amour» — восхищать, а не «похищать любовь»); EN «ravishes with love and admiration» верно",
+      "confidence": "low"
+    }
+  ]
+}

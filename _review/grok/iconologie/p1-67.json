@@ -1,0 +1,21 @@
+{
+  "id": "p1-67",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-67-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "Aussi appelle-t'on proprement genereux, ce qui ne degenere point de sa nature",
+      "current": "Потому щедрым по праву зовётся то, что не вырождается из своей природы",
+      "suggested": "Потому благородным (великодушным) по праву зовётся то, что не вырождается из своей природы (игра слов genereux — genus/degenerer; «щедрый» её теряет, и в заголовке RU — «Великодушие»); EN «generous» сохраняет",
+      "confidence": "low"
+    }
+  ]
+}

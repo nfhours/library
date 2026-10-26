@@ -1,0 +1,22 @@
+{
+  "id": "p1-77",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-77-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "à cause qu'estant le siege de la Vertu, il ne peut mieux convenir qu'aux charitables actions",
+      "current": "ибо, будучи седалищем Добродетели, лучше всего подобает милосердным делам (EN «being the seat of Virtue, nothing suits her better»)",
+      "suggested": "ибо этот (средний) возраст, будучи седалищем Добродетели, лучше всего подходит для милосердных дел («il» = средний возраст, а не Гостеприимство); EN «because that age, being the seat of Virtue, is best suited to…»",
+      "confidence": "low"
+    }
+  ]
+}

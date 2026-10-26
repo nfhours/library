@@ -1,0 +1,21 @@
+{
+  "id": "p1-63",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-63-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "que cette douceur, comme celle des mouches à miel, est suivie d'vne dangereuse piqueure",
+      "current": "эта сладость, как и сладость мёда, сопровождается опасным укусом",
+      "suggested": "эта сладость, как и сладость пчёл, влечёт за собой опасное жало («comme celle des mouches à miel» — пчёл, а не мёда: жалит пчела); EN «like that of bees» верно",
+      "confidence": "low"
+    }
+  ]
+}
