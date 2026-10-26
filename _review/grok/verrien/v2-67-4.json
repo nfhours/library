@@ -17,7 +17,7 @@
       "type": "omission",
       "original": "[illegible]",
       "current": "[illegible] / [неразборчиво]",
-      "suggested": "«ORV» (в fr/name_fr/text_fr и ru/text_ru) — восстановлено по последовательности ORT, [ORV], ORX; на гравюре подпись отсутствует, поэтому стоит пометить как восстановленную",
+      "suggested": "«ORV — реконструкция по ряду, подписи на гравюре нет»: по последовательности ORT, [ORV], ORX и отсутствию ORV во всей части; в fr/name_fr/text_fr и ru/text_ru вместо «[illegible]» / «[неразборчиво]» поставить «ORV» с пометкой, что это реконструкция, а не прочитанная подпись",
       "confidence": "medium",
       "paragraph": 1
     }
