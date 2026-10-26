@@ -1,0 +1,21 @@
+{
+  "id": "v3-17-i",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v3-17-i-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "surmonté d'un oiseau échassier",
+      "current": "увенчанный птицей-брод",
+      "suggested": "«oiseau échassier» — голенастая (болотная) птица; «птица-брод» — не существующее слово (калька): «увенчанный голенастой птицей»",
+      "confidence": "medium"
+    }
+  ]
+}
