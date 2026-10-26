@@ -1,0 +1,12 @@
+{
+  "id": "v2-111-10",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "ok",
+  "issues": [],
+  "scan": "monogram",
+  "anomaly": {
+    "kind": "caption_wraparound_edition",
+    "note": "«QZA» на доске v2-111 (гравир. «109»): ряд …OXZ, PYZ продолжен через конец алфавита (ср. YZA, XAZ, ZBC, VZA, TZA, RZA); на гравюре «QZA», данные совпадают со сканом. Особенность издания"
+  }
+}
