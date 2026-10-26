@@ -1,0 +1,17 @@
+{
+  "id": "carta31",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 3,
+      "type": "addition",
+      "original": "che tanto può essere Mercurio, quanto Bellerofonte.",
+      "current": "«Вторая же [камея] взята с древней резьбы».",
+      "suggested": "абзаца 3 в text_it нет (это первая фраза следующей записи cartm_pignoriahermi, где она уже переведена) — удалить; то же EN абз. 3",
+      "confidence": "medium"
+    }
+  ]
+}

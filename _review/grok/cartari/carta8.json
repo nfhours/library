@@ -1,0 +1,17 @@
+{
+  "id": "carta8",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "name",
+      "original": "Il Canopo tirato in Cameo è figura hor mai tanto conosciuta",
+      "current": "Канопа, запечатлённая на Камее",
+      "suggested": "Каноп, запечатлённый на Камее (м. р.; далее «видна она» → «виден он»)",
+      "confidence": "low"
+    }
+  ]
+}

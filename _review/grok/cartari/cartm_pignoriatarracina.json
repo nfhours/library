@@ -1,0 +1,17 @@
+{
+  "id": "cartm_pignoriatarracina",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "nei 12. Cesari d'Enea Vico di Rame nella Tauola 2. al n. 22. d'Argento nella Tauola 2.",
+      "current": "в медном издании, Таблица 2, №22, в серебряном — Таблица 2, №24",
+      "suggested": "среди медных [медалей] — Таблица 2, №22, среди серебряных — Таблица 2, №24 (речь о монетах, а не об изданиях книги Вико); EN «in the bronze edition … in the silver one» → «among the bronze [coins] … among the silver»",
+      "confidence": "medium"
+    }
+  ]
+}

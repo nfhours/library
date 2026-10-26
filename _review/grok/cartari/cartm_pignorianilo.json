@@ -1,0 +1,17 @@
+{
+  "id": "cartm_pignorianilo",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "in Dinio appresso Ateneo, nel 6. Libro",
+      "current": "у Диния, у Афинея, в 6-й книге",
+      "suggested": "у Диния, [цитируемого] Афинеем в 6-й книге (это одна ссылка, не две); EN «in Dinias, in Athenaeus» → «in Dinias as cited by Athenaeus»",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "carta13",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Si che essendo la Chiesa la maniera di questo Oro",
+      "current": "поскольку Церковь и есть образ этого Золота",
+      "suggested": "поскольку Церковь есть рудник (копь) этого Золота («maniera» = опечатка за «miniera», ср. в предыдущей записи «maniere de' monti»); EN «the manner of this Gold» → «the mine of this Gold»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "'Dum vocat haec Caesar, poterit lorica vocari: Pectore cum sacro federit, Aegis erit.'",
+      "current": "«Пока это зовётся [доспехом] Цезаря, оно может зваться лорикой…»",
+      "suggested": "«Пока он пуст (vacat), Цезарь, его можно звать панцирем; когда же ляжет (sederit) на священную грудь — станет эгидой» (Марциал VII.1; «vocat», «federit» — опечатки); EN аналогично, не уверен в степени, в какой переводчик должен исправлять",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 2,
+      "type": "name",
+      "original": "che fu d'Antonio Baifio, tagliata di mano d'Artifilo",
+      "current": "which belonged to Antonio Baisio",
+      "suggested": "Antonio Baifio (Baïf), как в оригинале; RU «Байфио» верно",
+      "confidence": "low"
+    }
+  ]
+}

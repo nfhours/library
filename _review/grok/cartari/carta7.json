@@ -1,0 +1,35 @@
+{
+  "id": "carta7",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "S. Agostino nel 2. della Città di Dio, a cap. 4. & 5.",
+      "current": "святой Августин в 6-й книге «О Граде Божием»",
+      "suggested": "святой Августин во 2-й книге «О Граде Божием» (EN верно)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "inanzi la quale i Senatori correuano a piedi scalzi.",
+      "current": "«Но поскольку мы коснулись предмета Земли…» (абзацы 2–4: о Земле STABILE, Плодородии и храме Весты)",
+      "suggested": "в text_it запись заканчивается на «…a piedi scalzi.»; абзацев 2–4 в оригинале нет — удалить или перенести в соответствующую запись (откуда они — не уверен); то же в EN абз. 2–4",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "ne và lontano da questi Prudentio nelle sue Corone, all'Hinno X.",
+      "current": "and Saint Augustine … does not stray far from these. Prudentius too, in his Crowns",
+      "suggested": "and Saint Augustine…; nor does Prudentius, in his Crowns, Hymn X, stray far from these («ne và lontano» относится к Пруденцию); RU аналогично: «и недалеко от них отходит Пруденций»",
+      "confidence": "low"
+    }
+  ]
+}

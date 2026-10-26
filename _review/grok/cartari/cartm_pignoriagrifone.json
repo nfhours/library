@@ -1,0 +1,26 @@
+{
+  "id": "cartm_pignoriagrifone",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& appresso la Simia di Plinio Solino, s'io non fallo",
+      "current": "и у Симии Плиния Солина",
+      "suggested": "и у Солина, «обезьяны Плиния» (Simia — прозвище Солина как подражателя Плинию, не имя); EN верно",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "frà varij animali, che co' presenti lo honorarono",
+      "current": "среди различных животных, почтивших её дарами",
+      "suggested": "почтивших его (Орфея) дарами; EN «honored it» → «honored him»",
+      "confidence": "low"
+    }
+  ]
+}
