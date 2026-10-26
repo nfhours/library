@@ -14,8 +14,8 @@
       "type": "typo",
       "original": "d'après l'Inscription trouvée dans les caves de St. Sauveur.",
       "current": "«в подвалах Сен-Соверa» (§4 и примечание 48) — последняя буква латинская a",
-      "suggested": "смешение алфавитов: «Сен-Совера» с кириллической «а» (2 места). Та же ошибка в pl36-1, pl42-3, frag-6, frag-21 — см. notes.csv",
-      "confidence": "low"
+      "suggested": "смешение алфавитов: «Сен-Совёра» с кириллической «а» (2 места), в форме заголовков/findspot_ru («Сен-Совёр»). Та же ошибка в pl36-1, pl42-3, frag-6, frag-21 — см. notes.csv",
+      "confidence": "high"
     }
   ]
 }

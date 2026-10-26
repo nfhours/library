@@ -75,7 +75,7 @@ pl38-1-2,shared,"pl38-1-2 (en creux rendered as relief) applied to pl38-1 §5 an
 pl39-1,source,"Grosson's translation makes Marcellus a dedicator («Marcellus son fils très-pieux … ont élevé»), though the dative MARCELLO makes him the deceased's name; translations follow Grosson — not logged"
 pl39-2,style,"RU §2 «Zosimo — греческое имя» uses the Latin dative form where Grosson writes «Zosime»; trivial, not logged"
 pl42-2,source,"Grosson translates DIEB. XVI as «quinze jours»; RU/EN follow (fifteen) — source slip, not logged"
-pl38-3-1,correction,"batch-10 issue pl38-3-1 reversed: «Генэ» is the book-wide RU form (18×); pl38-3 set to ok, issue moved to pl20-1 («Гене» → «Генэ»). pl20-1 stays minor"
+pl20-1-2,correction,"batch-10 issue pl38-3-1 reversed and renamed pl20-1-2: «Генэ» is the book-wide RU form (18×); pl38-3 set to ok, issue moved to pl20-1 as pl20-1-2 («Гене» → «Генэ»). pl20-1 stays minor"
 pl16-4-1,shared,"pl16-4-1 also applied to pl42-3 (2 occurrences). Remaining unreviewed occurrences: frag-6, frag-21"
 pl38-1-2,shared,"pl38-1-2 (en creux rendered as relief) also applied to pl41-5 §1"
 frag-14,source,"«ANN. XXL» translated by Grosson as thirty years; translations follow — not logged"

@@ -15,11 +15,11 @@
       "original": "font mention d'un Marcus Caris Maximinus & d'un Marcus Caris Pacatus.",
       "current": "упоминают некоего Марка Кария Максимина и некоего Марка Кария Пакату.",
       "suggested": "Pacatus — мужское имя; вин. п. «Паката»: «…и некоего Марка Кария Паката»",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "field": "text_ru",
-      "issue_id": "pl38-3-1",
+      "issue_id": "pl20-1-2",
       "fields": [
         "text_ru"
       ],
@@ -27,7 +27,7 @@
       "type": "name",
       "original": "Les inscriptions rapportées par Ruffi & par Guesnay (66) font mention d'un Marcus Caris Maximinus & d'un Marcus Caris Pacatus.",
       "current": "Гене",
-      "suggested": "Guesnay в RU по всей книге — «Генэ» (18 вхождений в 14 записях: pl38-3, pl39-4, pl40-1, pl40-2, pl42-2, frag-*, greek-p*); здесь «Гене» (2 вхождения: «Рюффи и Гене (66)» и далее). Унифицировать: «Генэ». (Исправление к батчу 10: issue pl38-3-1 перенесён с pl38-3 сюда — в pl38-3 стоит правильная форма.)",
+      "suggested": "Guesnay в RU по всей книге — «Генэ» (18 вхождений в 14 записях: pl38-3, pl39-4, pl40-1, pl40-2, pl42-2, frag-*, greek-p*); здесь «Гене» (2 вхождения: «Рюффи и Гене (66)» и далее). Унифицировать: «Генэ». (Исправление к батчу 10: бывший pl38-3-1 перенесён сюда и переименован — в pl38-3 форма верная.)",
       "confidence": "medium"
     }
   ]
