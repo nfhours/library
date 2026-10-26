@@ -1,0 +1,23 @@
+{
+  "id": "v1-57-13",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-57-13-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Mas vejente ningunt.",
+      "current": "Mas vejente ningunt.",
+      "suggested": "[ES] «Mas vigilante ninguno» (ср. «Nul n'est plus vigilant»); «vejente ningunt» — искажение; скопировано и в text_ru. Скана текста нет — по смыслу",
+      "confidence": "medium"
+    }
+  ]
+}

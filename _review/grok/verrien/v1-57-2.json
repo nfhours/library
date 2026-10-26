@@ -1,0 +1,21 @@
+{
+  "id": "v1-57-2",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-57-2-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "Il n'est rien de plus ardant.",
+      "current": "Нет ничего более яростного.",
+      "suggested": "ardant (ardent) — «пылающий, жгучий», не «яростный» (оттенок из лат. vehementior): «Нет ничего более пылающего / жгучего»",
+      "confidence": "low"
+    }
+  ]
+}

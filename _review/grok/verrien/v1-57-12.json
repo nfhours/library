@@ -1,0 +1,23 @@
+{
+  "id": "v1-57-12",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-57-12-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Mas cubrido mas seguro.",
+      "current": "Mas cubrido mas seguro.",
+      "suggested": "[ES] причастие от cubrir — «cubierto»: «Mas cubierto, mas seguro»; возможно, орфография издания. Скана текста нет; не уверен",
+      "confidence": "low"
+    }
+  ]
+}
