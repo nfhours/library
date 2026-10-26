@@ -1,0 +1,12 @@
+{
+  "id": "v2-3-5",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "ok",
+  "issues": [],
+  "scan": "monogram",
+  "anomaly": {
+    "kind": "dup_on_plate_caption_typo",
+    "note": "подпись «AE» выгравирована дважды (v2-3-5, v2-3-6); первая — верна (идёт после AD). См. v2-3-6"
+  }
+}
