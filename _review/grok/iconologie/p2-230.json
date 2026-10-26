@@ -1,0 +1,21 @@
+{
+  "id": "p2-230",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-230-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "vn cercle d'estoilles en vne main",
+      "current": "Круг звёзд в руке — ложное толкование небесных знамений",
+      "suggested": "в тексте все предметы названы лишь символами Суеверия вообще, круг звёзд отдельно не истолкован; «ложное толкование небесных знамений» добавлено",
+      "confidence": "low"
+    }
+  ]
+}

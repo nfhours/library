@@ -1,0 +1,34 @@
+{
+  "id": "p2-228",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-228-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "que la Severité convient mieux aux vieillards",
+      "current": "что Строгость подобает скорее старцам",
+      "suggested": "заголовок ru «Суровость», в тексте «Строгость» — унифицировать",
+      "confidence": "low"
+    },
+    {
+      "field": "attrs",
+      "issue_id": "p2-228-2",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "avec vn tygre à ses pieds",
+      "current": "Тигр у ног — суровость и неумолимость в преследовании порока",
+      "suggested": "тигр (и скипетр, attrs [3]) в тексте отдельно не истолкованы; толкование добавлено",
+      "confidence": "low"
+    }
+  ]
+}

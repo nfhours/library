@@ -1,0 +1,21 @@
+{
+  "id": "p2-239",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_en",
+      "issue_id": "p2-239-1",
+      "fields": [
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Il nous est signifié par vne belle femme nuë",
+      "current": "She is signified to us by a beautiful naked woman",
+      "suggested": "«Il» = le Matin (RU верно «Оно»): «It is signified to us…»; «she» далее относится к Aurore",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "p2-223",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-223-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "engourdit les mains de ceux qui le touchent",
+      "current": "немеет руки тех, кто к ней прикасается",
+      "suggested": "«неметь» непереходный; engourdir = вызывать онемение: «и вызывает онемение (сковывает) руки тех, кто к ней прикасается»",
+      "confidence": "medium"
+    }
+  ]
+}
