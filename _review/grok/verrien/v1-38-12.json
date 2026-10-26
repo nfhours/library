@@ -1,0 +1,21 @@
+{
+  "id": "v1-38-12",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-38-12-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "Ma durée est dans ma bonté.",
+      "current": "Моя жизнь — в моей доброте.",
+      "suggested": "«жизнь» — из итальянского vita; французское durée: «Моя долговечность — в моих достоинствах (доброте)»",
+      "confidence": "low"
+    }
+  ]
+}
