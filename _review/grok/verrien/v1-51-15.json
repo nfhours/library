@@ -1,0 +1,22 @@
+{
+  "id": "v1-51-15",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v1-51-15-1",
+      "fields": [
+        "ru",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "qui le quitte pour aller prendre un Mouton qu'il manque.",
+      "current": "но оставляет её, чтобы погнаться за ускользающей овцой.",
+      "suggested": "qu'il manque — «которого он упускает» (промахивается), а не «ускользающей»: «…бросает её, чтобы схватить барана/овцу, и упускает его»",
+      "confidence": "low"
+    }
+  ]
+}

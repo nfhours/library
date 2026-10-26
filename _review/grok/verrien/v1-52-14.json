@@ -1,0 +1,22 @@
+{
+  "id": "v1-52-14",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v1-52-14-1",
+      "fields": [
+        "ru",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Deux mains qui tiennent, l'une une pierre, l'autre un fusil & faisant du feu.",
+      "current": "Две руки, держащие одна камень, другая кремень, высекающие огонь.",
+      "suggested": "fusil — огниво (кресало), не кремень (ср. v1-27-13, v1-49-5); иначе выходит «камень и кремень»: «…одна камень, другая огниво…»",
+      "confidence": "medium"
+    }
+  ]
+}
