@@ -1,0 +1,80 @@
+{
+  "id": "cartm28",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Quiui ad vn parto il Sole, e la sorella / Finto ella stessa hauea",
+      "current": "Здесь при одних родах Солнце и сестра / Подобными себе самим рождены были",
+      "suggested": "Здесь Солнце и сестру его, рождённых одними родами, / Она [Прозерпина] сама изобразила (finto = изобразила; речь о вышивке на одеянии)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Quiui ad vn parto il Sole, e la sorella / Finto ella stessa hauea",
+      "current": "Here at one birth the Sun and his sister / Were born alike to themselves",
+      "suggested": "Here she herself had portrayed the Sun and his sister, born at one birth",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "che disegna Claudiano nella veste di Proserpina",
+      "current": "which Claudian depicts in the lap of Proserpina",
+      "suggested": "which Claudian depicts on the robe of Proserpina",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "ò Ver nel grembo / Grata gli tiene",
+      "current": "иль во чреве / Приятно их держит",
+      "suggested": "или на лоне (на коленях) / с радостью их держит",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "A Thetide pietosa ascinga il petto.",
+      "current": "К Фетиде милосердной прижимает грудь.",
+      "suggested": "Осушает грудь милосердной Фетиды (ascinga = asciuga) — не уверен в чтении слова",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "A Thetide pietosa ascinga il petto.",
+      "current": "Presses her breast to merciful Thetis.",
+      "suggested": "Drains the breast of merciful Thetis",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Ma non voglio entrare in queste cose Sole de gli Astrologi",
+      "current": "в эти материи Солнце у Астрологов",
+      "suggested": "в эти дела астрологов («Sole» — колонтитул/сбой набора в оригинале; в EN «these matters The Sun of the Astrologers» — так же)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Tale era il finto Sol ne gli anni primi",
+      "current": "Таково было мнимое Солнце в первые годы",
+      "suggested": "Таково было изображённое Солнце в первые годы",
+      "confidence": "medium"
+    }
+  ]
+}

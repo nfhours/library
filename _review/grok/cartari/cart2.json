@@ -1,0 +1,35 @@
+{
+  "id": "cart2",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_en",
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "di cui le fauole lo fecero anco ministro, & seruidore",
+      "current": "whom the fables also made its master and attendant",
+      "suggested": "whose minister and servant the fables also made it (ворон — слуга Аполлона, а не наоборот)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "dalla quale tutto riscaldato, pare che di dolcezza si disfaccia",
+      "current": "от которой, вся разгорячённая, она словно тает от сладости",
+      "suggested": "от которой он, весь разгорячённый, словно тает от сладости (речь о лебеде, м. р.)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_it",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "non punto affeminato. no il seme nello sterco",
+      "current": "оригинал оборван: «...affeminato. no il seme nello sterco»; оба перевода воспроизводят обрыв («семя в навоз» / «the seed into dung»)",
+      "suggested": "проверить по скану (проход Б): похоже, пропущен фрагмент вроде «...Spargono il seme»; переводы дополнить после сверки",
+      "confidence": "medium"
+    }
+  ]
+}

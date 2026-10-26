@@ -1,0 +1,44 @@
+{
+  "id": "cartm16",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "diceuano, che Api appariua alle volte",
+      "current": "Апис порою являлся сам собою",
+      "suggested": "Апис порою являлся («сам собою» в оригинале нет)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "diceuano, che Api appariua alle volte",
+      "current": "Apis sometimes appeared of his own accord",
+      "suggested": "Apis sometimes appeared",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "name",
+      "original": "la conduceuano nella Città del Nilo",
+      "current": "отводили в город на Ниле",
+      "suggested": "отводили в Город Нила (Нилополь; у Диодора — Νείλου πόλις) — не уверен, что Картари имел в виду именно название",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "& il Crocodilo anco anco",
+      "current": "а также и Крокодилу также",
+      "suggested": "а также Крокодилу (повтор «anco anco» — опечатка оригинала, переносить не нужно); в EN аналогично «too too»",
+      "confidence": "medium"
+    }
+  ]
+}

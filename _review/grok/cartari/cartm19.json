@@ -1,0 +1,35 @@
+{
+  "id": "cartm19",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "& per quello intendeuano il Sole, la terra per questa",
+      "current": "и под ними разумели Солнце и землю — под вторым",
+      "suggested": "и под первым разумели Солнце, а под второй — землю",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "& per quello intendeuano il Sole, la terra per questa",
+      "current": "and by them they understood the Sun, and the earth by the latter",
+      "suggested": "and by the former they understood the Sun, and the earth by the latter",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "benche le porti benche le porti per insegne di Minerua",
+      "current": "хотя их носит хотя она и носит их также как знаки Минервы",
+      "suggested": "хотя их носят также как знаки Минервы (повтор — опечатка оригинала; в EN аналогично «though it bears though it also bears»)",
+      "confidence": "high"
+    }
+  ]
+}

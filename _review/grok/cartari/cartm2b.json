@@ -1,0 +1,80 @@
+{
+  "id": "cartm2b",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "In parte sì da noi lunge, e secreta, / Ch'alcun mortal vestigio non v'appare",
+      "current": "Ты удалена от нас далеко и сокровенно, / Так что не является тебе никакой смертный след",
+      "suggested": "В месте, столь далёком от нас и сокровенном, / Что никакого следа смертных там не видно (в оригинале нет обращения на «ты»)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "In parte sì da noi lunge, e secreta, / Ch'alcun mortal vestigio non v'appare",
+      "current": "You depart from us far and secret, / So that no mortal trace of you appears",
+      "suggested": "In a place so far from us and secret / That no mortal trace appears there",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "Laqual con modo, ch'unqua non vien meno, / Manda, e richiama i tempi",
+      "current": "Которая [Вечность] таким образом…",
+      "suggested": "Которая [пещера] … (антецедент «laqual» — spelonca; у Клавдиана тоже пещера посылает и призывает времена)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "Che così voglion le leggi diuine.",
+      "current": "Ибо так бдят божественные законы.",
+      "suggested": "Ибо так хотят божественные законы. (voglion = vogliono, не vegliano)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "Che così voglion le leggi diuine.",
+      "current": "For thus the divine laws keep watch.",
+      "suggested": "For thus the divine laws will it.",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "e à gli altri rai s'inchina",
+      "current": "before his other rays bows",
+      "suggested": "before his lofty rays bows (вероятно «alti rai»; «other» бессмысленно) — не уверен в чтении оригинала",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "con vna palla nella destra mano",
+      "current": "с шаром (паллой) в правой руке",
+      "suggested": "с шаром в правой руке («палла» по-русски — плащ, пояснение вводит в заблуждение)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 4,
+      "type": "mistranslation",
+      "original": "perche non ce n'auuedendo noi, passa il tempo, come di nascosto",
+      "current": "ибо, не замечая того, мы видим, как время проходит, словно украдкой",
+      "suggested": "ибо время проходит, словно украдкой, а мы того не замечаем",
+      "confidence": "medium"
+    }
+  ]
+}

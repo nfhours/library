@@ -1,0 +1,53 @@
+{
+  "id": "cartm21",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "vn fosco, & oscuro, l'altro chiaro, e lucido, & questo chiamauano celeste, quello infernale",
+      "current": "и первый называли небесным, а второй — преисподним",
+      "suggested": "и светлый называли небесным, а тёмный — преисподним (questo = последний упомянутый, светлый; ср. Макробий Sat. I, 19: clarum superum, caeruleum inferum)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "vn fosco, & oscuro, l'altro chiaro, e lucido, & questo chiamauano celeste, quello infernale",
+      "current": "and the former they called celestial, the latter infernal",
+      "suggested": "and the bright one they called celestial, the dark one infernal",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "name",
+      "original": "& era chiamato capo di Volcano",
+      "current": "назывался «кузница Вулкана» (и в абзаце 3)",
+      "suggested": "назывался «глава (голова) Вулкана» — в оригинале и в подписи «capo di Vulcano»",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 2,
+      "type": "name",
+      "original": "& era chiamato capo di Volcano",
+      "current": "was called the forge of Vulcan (also para 3)",
+      "suggested": "was called the head of Vulcan",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "Il terzo di liuido piombo",
+      "current": "The third of leaden hue",
+      "suggested": "The third of livid lead (сосуд именно из свинца, ниже: «the dark lead»)",
+      "confidence": "medium"
+    }
+  ]
+}

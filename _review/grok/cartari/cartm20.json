@@ -1,0 +1,26 @@
+{
+  "id": "cartm20",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "così grande, che stendendo do le mani toccaua ambi gli lati del tempio",
+      "current": "что, простираясь... простирая руки, касался",
+      "suggested": "что, простирая руки, касался обеих стен храма",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 2,
+      "type": "omission",
+      "original": "così grande, che stendendo do le mani toccaua ambi gli lati del tempio",
+      "current": "so great that, stretching... stretching out, touched both sides",
+      "suggested": "so great that, stretching out its hands, it touched both sides of the temple",
+      "confidence": "high"
+    }
+  ]
+}

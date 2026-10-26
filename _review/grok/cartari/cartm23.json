@@ -1,0 +1,35 @@
+{
+  "id": "cartm23",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "con bacchette chette come scettri in mano",
+      "current": "с жезлами с жезлами наподобие скипетров",
+      "suggested": "с жезлами наподобие скипетров (повтор; в EN аналогично «rods rods»)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "perche il bosco, che era quiui all'interno",
+      "current": "роща, что была там внутри",
+      "suggested": "роща, что была там вокруг (вероятно «all'intorno»; в EN «within there» — так же) — не уверен в чтении оригинала",
+      "confidence": "low"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Fù fatto anco talhora auolto intorno al bastone",
+      "current": "He was also sometimes made coiled about the staff",
+      "suggested": "It [the Serpent] was also sometimes made coiled about the staff",
+      "confidence": "medium"
+    }
+  ]
+}

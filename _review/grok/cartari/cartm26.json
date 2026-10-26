@@ -1,0 +1,26 @@
+{
+  "id": "cartm26",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "in vna notte i Topi rosero loro",
+      "current": "в некую ночью мыши изгрызли",
+      "suggested": "в одну ночь мыши изгрызли (в EN «in a in the night» → «in one night»)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "sentì per sorte andarsi innanzi vna asina",
+      "current": "по некой причине почуял впереди себя ослицу",
+      "suggested": "случайно почуял впереди себя ослицу (per sorte = случайно; в EN «for some reason» → «by chance»)",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "cartm18",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "che dall'vn lato, & dall'altro haueua due altre figure tre imagini parimente di femina",
+      "current": "имевшей с одной и с другой стороны ещё по две фигуры равным образом три изображения женщин",
+      "suggested": "по обе стороны от которой были ещё две женские фигуры (всего три женских изображения) — в оригинале, вероятно, сбой набора; «по две» с каждой стороны неверно",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "che dall'vn lato, & dall'altro haueua due altre figure tre imagini parimente di femina",
+      "current": "who had on one side and on the other two further figures three likewise female images",
+      "suggested": "who had on either side two further female figures (three female images in all)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "alcuni de gli Assirij solamente fecero Apollo con la barba",
+      "current": "некоторые из ассирийцев делали Аполлона исключительно с бородой",
+      "suggested": "только некоторые из ассирийцев (у Лукиана — одни лишь ассирийцы) делали Аполлона с бородой",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cartm25",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "omission",
+      "original": "chi segno di sanità, perche come il serpente",
+      "current": "«Образ богини Здоровья … означено Змеем». служил знаком здоровья…",
+      "suggested": "разнести перевод подписи (caption) и текст статьи в отдельные абзацы, как в других записях; сейчас подпись слита с началом фрагмента (то же в text_en)",
+      "confidence": "medium"
+    }
+  ]
+}

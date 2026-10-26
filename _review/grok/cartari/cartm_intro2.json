@@ -1,0 +1,116 @@
+{
+  "id": "cartm_intro2",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Et sarebbe, dice Plinio, stato meglio assai, che mandarle come in bando alle ville",
+      "current": "И было бы, говорит Плиний, куда лучше, если бы их, словно в изгнание, отослали в поместья.",
+      "suggested": "И это, говорит Плиний, было бы куда лучше, чем отсылать их, словно в изгнание, по виллам. (смысл перевёрнут; ср. Плиний XXXV, 26: satius … quam in villarum exilia pelli)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Et sarebbe, dice Plinio, stato meglio assai, che mandarle come in bando alle ville",
+      "current": "And it would have been, says Pliny, far better, had they been banished, as it were, to the villas.",
+      "suggested": "And this, says Pliny, would have been far better than banishing them, as it were, to the villas.",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "ma di legno di vliuo non saluatico",
+      "current": "но из дерева дикой оливы",
+      "suggested": "но из дерева оливы не дикой (садовой) — у Геродота V, 82 тоже культурная олива",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "ma di legno di vliuo non saluatico",
+      "current": "but of wild olive wood",
+      "suggested": "but of cultivated (not wild) olive wood",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "E fur con grata pouertà adorati / Nè le pouere case i Dei di legno.",
+      "current": "и были вы чтимы благодарной бедностью, / и бедные дома не чуждались деревянных богов",
+      "suggested": "и с благодарной бедностью чтили / в бедных домах деревянных богов («Nè le» = «nelle», не отрицание; ср. Тибулл I, 10)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "E fur con grata pouertà adorati / Nè le pouere case i Dei di legno.",
+      "current": "and you were worshipped by a grateful poverty, / nor did poor houses scorn gods of wood",
+      "suggested": "and with grateful poverty the wooden gods / were worshipped in poor houses",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "fatte da pittori, & scultori eccellenti",
+      "current": "writen лучшими живописцами и ваятелями",
+      "suggested": "созданных превосходными живописцами и ваятелями (в русском тексте осталось английское слово «writen»)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "della terra sterile & infecoda",
+      "current": "отбросами бесплодной и зачатой земли",
+      "suggested": "отбросами бесплодной и неплодородной земли",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& come che Gioue gli mostrasse tutto quello, che douea fare",
+      "current": "и как бы Юпитер ни показывал ему всё, что надлежало делать",
+      "suggested": "и словно Юпитер показывал ему всё, что надлежало делать",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "da quella di Scipione in fuori, che era leuata del Campidoglio",
+      "current": "except that of Scipio, which was kept on the Capitol",
+      "suggested": "except that of Scipio, which was taken from the Capitol",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "cò Mitridate, simo nimico, nondimeno non mossero mai",
+      "current": "with Mithridates, nevertheless most hated enemy, nevertheless never moved",
+      "suggested": "with Mithridates, their most bitter enemy, nevertheless never moved (испорченный фрагмент; в оригинале OCR «simo nimico» = «grauissimo nimico»)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Osseruarono poi gli antichi di fare le statoe in modo",
+      "current": "Заметили также древние обычай делать статуи",
+      "suggested": "Соблюдали также древние обычай делать статуи (osservare = соблюдать)",
+      "confidence": "medium"
+    }
+  ]
+}

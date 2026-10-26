@@ -1,0 +1,116 @@
+{
+  "id": "cartm_intro1",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "fù creduto più vniuersalmente, che fosse di esso Prometheo",
+      "current": "более распространённым было мнение, что это останки самого Прометея",
+      "suggested": "более распространённым было мнение, что это [статуя] самого Прометея (речь о статуе, а не об останках)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "fù creduto più vniuersalmente, che fosse di esso Prometheo",
+      "current": "it was more generally believed that these were the remains of Prometheus himself",
+      "suggested": "it was more generally believed that it [the statue] was of Prometheus himself",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& che hauendolo a questo fine condotto in cielo, egli auuedutosi",
+      "current": "и что, приведя её ради этого на небо, он заметил",
+      "suggested": "и что, когда она [Минерва] ради этого вознесла его на небо, он заметил (lo = Прометея; субъект — Минерва)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& che hauendolo a questo fine condotto in cielo, egli auuedutosi",
+      "current": "having for this end led her up to heaven, he observed",
+      "suggested": "she having for this end led him up to heaven, he observed",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "come vedremo poi nella sua imagine, & pure sacrificauano a tutti in vn medesimo modo",
+      "current": "…а жертвы всем приносили одинаковым образом. имели на своём языке собственные имена, однако не воздвигали храма… — и всем прочим приносили жертвы одним и тем же образом.",
+      "suggested": "удалить повторный фрагмент «имели на своём языке собственные имена … одним и тем же образом.» (дубль предыдущего предложения, в оригинале его нет)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "come vedremo poi nella sua imagine, & pure sacrificauano a tutti in vn medesimo modo",
+      "current": "…sacrificed to all of them in the same manner. had proper names in their own tongue, yet built no temple… and sacrificed to all the rest in one and the same manner.",
+      "suggested": "удалить повторный фрагмент «had proper names in their own tongue … in one and the same manner.» (дубль)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "succedendo sempre quello, che era più vicino a chi andaua innanzi à lui",
+      "current": "всегда побеждал тот, кто оказывался ближе всех к бегущему впереди",
+      "suggested": "причём [светильник] всегда принимал тот, кто был ближе всех к бегущему впереди (succedere = сменять, а не побеждать)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "quando sentiuano di hauerlo offeso",
+      "current": "whenever they felt they had offended the statue",
+      "suggested": "whenever they felt they had offended him [the master] (lo = хозяин дома, не статуя)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "à quelle perche fossero presenti sempre, & giouassero",
+      "current": "первым — чтобы были всегда благосклонны и помогали",
+      "suggested": "первым — чтобы всегда были рядом (присутствовали) и помогали",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "hauendo già Pilato portato in Giudea alcuni stendardi",
+      "current": "когда Пилат впервые принёс в Иудею некие знамёна",
+      "suggested": "когда Пилат однажды (некогда) принёс в Иудею некие знамёна («già» ≠ «впервые»)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "hauendo già Pilato portato in Giudea alcuni stendardi",
+      "current": "when Pilate first brought into Judea certain standards",
+      "suggested": "when Pilate once brought into Judea certain standards",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Tertulliano dicendo, che la religione in Roma fù ordinata da Numa",
+      "current": "Тертуллиан говорит, что religия в Риме",
+      "suggested": "Тертуллиан говорит, что религия в Риме (опечатка: латиница «relig» внутри русского слова)",
+      "confidence": "high"
+    }
+  ]
+}

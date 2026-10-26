@@ -1,0 +1,26 @@
+{
+  "id": "cartm15",
+  "book": "cartari",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "text_ru",
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "così di nascosto, che non sarebbono pure state viste da gli occhi del Sole",
+      "current": "так тайно, что их всё же не могли не увидеть очи Солнца",
+      "suggested": "так тайно, что их не увидели бы даже очи Солнца (смысл перевёрнут)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "così di nascosto, che non sarebbono pure state viste da gli occhi del Sole",
+      "current": "so secretly that they would still not escape the eyes of the Sun",
+      "suggested": "so secretly that they would not have been seen even by the eyes of the Sun",
+      "confidence": "high"
+    }
+  ]
+}
