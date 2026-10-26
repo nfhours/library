@@ -29,8 +29,9 @@
       "type": "mistranslation",
       "original": "Nel Cameo si vede Venere Calliga come stà nelle Medaglie.",
       "current": "Венера Каллига (Обутая)",
-      "suggested": "Венера Каллига — пояснение «(Обутая)» добавлено и сомнительно (вероятно, искажённое «Callipyga»), не уверен; убрать глоссу; то же EN «(Booted)»",
-      "confidence": "medium"
+      "suggested": "Венера Каллипига (в печати «Calli piga», скан с. 527; «Calliga» — ошибка транскрипции); глосса «(Обутая)» неверна",
+      "confidence": "high",
+      "scan_check": "Сверка со сканом (с. 527): ПОДТВЕРЖДЕНО — в печати «Venere Calli piga» (= Callipyga); «Calliga» — ошибка транскрипции."
     },
     {
       "field": "text_fr",
@@ -44,21 +45,116 @@
       "type": "mistranslation",
       "original": "Nel Cameo si vede Venere Calliga come stà nelle Medaglie.",
       "current": "Vénus Calliga (Chaussée)",
-      "suggested": "Vénus Calliga (глосса «(Chaussée)» добавлена и сомнительна — вероятно, искажённое «Callipyga»; не уверен; та же ошибка в RU/EN)",
-      "confidence": "low"
+      "suggested": "Vénus Callipyge (в печати «Calli piga», скан с. 527; «Calliga» — ошибка транскрипции); глосса «(Chaussée)» неверна",
+      "confidence": "high",
+      "scan_check": "Сверка со сканом (с. 527): ПОДТВЕРЖДЕНО — в печати «Venere Calli piga» (= Callipyga); «Calliga» — ошибка транскрипции."
     },
     {
       "field": "text_fr",
       "issue_id": "carta41-3",
       "fields": [
-        "text_fr"
+        "text_fr",
+        "text_ru",
+        "text_en"
       ],
       "paragraph": 2,
       "type": "ocr",
       "original": "Si vede in esso il tiro felicissimo appresso gl'antichi, del giuoco de i",
       "current": "au jeu des / Osselets Osselets",
       "suggested": "au jeu des Osselets (кустода «Tali» повторена — удалить дубль)",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 527→528): дубль «Tali» — кустода; в печати «Tali» один раз. RU/EN тоже дублируют."
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "carta41-3",
+      "fields": [
+        "text_fr",
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "del giuoco de i Tali Tali",
+      "current": "Кости Кости (Tali)",
+      "suggested": "Кости (Tali) (дубль — кустода «Tali», скан с. 527→528)",
+      "confidence": "medium",
+      "added_in": "pass B",
+      "scan_check": "Сверка со сканом (с. 527→528): дубль «Tali» — кустода; в печати «Tali» один раз. RU/EN тоже дублируют."
+    },
+    {
+      "field": "text_en",
+      "issue_id": "carta41-3",
+      "fields": [
+        "text_fr",
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "del giuoco de i Tali Tali",
+      "current": "Knucklebones Knucklebones",
+      "suggested": "Knucklebones (дубль — кустода «Tali», скан с. 527→528)",
+      "confidence": "medium",
+      "added_in": "pass B",
+      "scan_check": "Сверка со сканом (с. 527→528): дубль «Tali» — кустода; в печати «Tali» один раз. RU/EN тоже дублируют."
+    },
+    {
+      "field": "text_en",
+      "issue_id": "carta41-2",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "Nel Cameo si vede Venere Calliga come stà nelle Medaglie.",
+      "current": "Venus Calliga (Booted)",
+      "suggested": "Venus Callipyga (в печати «Calli piga», скан с. 527); глосса «(Booted)» неверна",
+      "confidence": "high",
+      "added_in": "pass B",
+      "scan_check": "Сверка со сканом (с. 527): ПОДТВЕРЖДЕНО — в печати «Venere Calli piga» (= Callipyga); «Calliga» — ошибка транскрипции."
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "carta41-3",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/527.jpg",
+      "page": "527 → 528",
+      "region": "с. 527, последняя строка + кустода «Tali»; с. 528, 1-я строка «Tali Questo era…»",
+      "orig_field": "text_it",
+      "paragraph": 2,
+      "orig_before": "La figura principale, & l'Amorino, che scherza co'l Cigno, sono dall'antico. Et è da notare la forma della sferza in mano a Venere, che ha del Flabello più, che d'altro.\n\nIl Cameo, nel quale Cupido assiste a Venere sua Madre, che si bagna, è fattura antica. ma voleua essere meglio fatto. Et in tale atto, Venere si vede in mille antichaglie.\n\nLa figura principale ha da stare rotonda, ma'l Pittore l'ha fatta ouata per suo commodo. Et questo dissegno di Gioia è posto non solamente dall'Appiano, ma da Gio. Mario Mattio ancora nel Lib. 3. delle Opinioni, & dal Ramirez sopra Martiale. La figura poi, ch'è intitolata IOCVS io l'ho veduta espressa in qualche altro taglio antico.\n\nNel Cameo si vede Venere Calliga come stà nelle Medaglie.\n\nNel Cameo stà il ritratto d'vn'Anello antico ritrouato già nelle rouine di Spello egli è in Foligno in mano del Sig. NATALITIO BENEDETTI esquisito raccoglitore delle gentilezze antiche. Si vede in esso il tiro felicissimo appresso gl'antichi, del giuoco de i\n\nTali Tali Questo era quello, che chiamauano VENVS. Et era in quattro Tali, quando tutte le faccie del Talo veniuano diuerse, come si vede nella gioia disegnata. Che questo fosse il tiro di Venere si caua ancora da Cicerone nel primo Lib. della Diuinatione, & da Martiale ne gl'Aposoreti all'Epigr. 14. con titolo, TALI EBOREI.\n\nIL FINE.",
+      "orig_after": "La figura principale, & l'Amorino, che scherza co'l Cigno, sono dall'antico. Et è da notare la forma della sferza in mano a Venere, che ha del Flabello più, che d'altro.\n\nIl Cameo, nel quale Cupido assiste a Venere sua Madre, che si bagna, è fattura antica. ma voleua essere meglio fatto. Et in tale atto, Venere si vede in mille antichaglie.\n\nLa figura principale ha da stare rotonda, ma'l Pittore l'ha fatta ouata per suo commodo. Et questo dissegno di Gioia è posto non solamente dall'Appiano, ma da Gio. Mario Mattio ancora nel Lib. 3. delle Opinioni, & dal Ramirez sopra Martiale. La figura poi, ch'è intitolata IOCVS io l'ho veduta espressa in qualche altro taglio antico.\n\nNel Cameo si vede Venere Calliga come stà nelle Medaglie.\n\nNel Cameo stà il ritratto d'vn'Anello antico ritrouato già nelle rouine di Spello egli è in Foligno in mano del Sig. NATALITIO BENEDETTI esquisito raccoglitore delle gentilezze antiche. Si vede in esso il tiro felicissimo appresso gl'antichi, del giuoco de i\n\nTali Questo era quello, che chiamauano VENVS. Et era in quattro Tali, quando tutte le faccie del Talo veniuano diuerse, come si vede nella gioia disegnata. Che questo fosse il tiro di Venere si caua ancora da Cicerone nel primo Lib. della Diuinatione, & da Martiale ne gl'Aposoreti all'Epigr. 14. con titolo, TALI EBOREI.\n\nIL FINE.",
+      "verdict": "transcription_error",
+      "translation_affected": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "note": "Дубль «Tali» — кустода. RU «Кости Кости», EN «Knucklebones Knucklebones», FR «Osselets Osselets» — следствие (RU/EN-строки добавлены).",
+      "pass": "B",
+      "batch": 2
+    },
+    {
+      "issue_id": "carta41-2",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/527.jpg",
+      "page": "527",
+      "region": "нижняя треть, строка «Nel Cameo si vede Venere Calli piga…»",
+      "orig_field": "text_it",
+      "paragraph": 2,
+      "orig_before": "La figura principale, & l'Amorino, che scherza co'l Cigno, sono dall'antico. Et è da notare la forma della sferza in mano a Venere, che ha del Flabello più, che d'altro.\n\nIl Cameo, nel quale Cupido assiste a Venere sua Madre, che si bagna, è fattura antica. ma voleua essere meglio fatto. Et in tale atto, Venere si vede in mille antichaglie.\n\nLa figura principale ha da stare rotonda, ma'l Pittore l'ha fatta ouata per suo commodo. Et questo dissegno di Gioia è posto non solamente dall'Appiano, ma da Gio. Mario Mattio ancora nel Lib. 3. delle Opinioni, & dal Ramirez sopra Martiale. La figura poi, ch'è intitolata IOCVS io l'ho veduta espressa in qualche altro taglio antico.\n\nNel Cameo si vede Venere Calliga come stà nelle Medaglie.\n\nNel Cameo stà il ritratto d'vn'Anello antico ritrouato già nelle rouine di Spello egli è in Foligno in mano del Sig. NATALITIO BENEDETTI esquisito raccoglitore delle gentilezze antiche. Si vede in esso il tiro felicissimo appresso gl'antichi, del giuoco de i\n\nTali Tali Questo era quello, che chiamauano VENVS. Et era in quattro Tali, quando tutte le faccie del Talo veniuano diuerse, come si vede nella gioia disegnata. Che questo fosse il tiro di Venere si caua ancora da Cicerone nel primo Lib. della Diuinatione, & da Martiale ne gl'Aposoreti all'Epigr. 14. con titolo, TALI EBOREI.\n\nIL FINE.",
+      "orig_after": "La figura principale, & l'Amorino, che scherza co'l Cigno, sono dall'antico. Et è da notare la forma della sferza in mano a Venere, che ha del Flabello più, che d'altro.\n\nIl Cameo, nel quale Cupido assiste a Venere sua Madre, che si bagna, è fattura antica. ma voleua essere meglio fatto. Et in tale atto, Venere si vede in mille antichaglie.\n\nLa figura principale ha da stare rotonda, ma'l Pittore l'ha fatta ouata per suo commodo. Et questo dissegno di Gioia è posto non solamente dall'Appiano, ma da Gio. Mario Mattio ancora nel Lib. 3. delle Opinioni, & dal Ramirez sopra Martiale. La figura poi, ch'è intitolata IOCVS io l'ho veduta espressa in qualche altro taglio antico.\n\nNel Cameo si vede Venere Callipiga come stà nelle Medaglie.\n\nNel Cameo stà il ritratto d'vn'Anello antico ritrouato già nelle rouine di Spello egli è in Foligno in mano del Sig. NATALITIO BENEDETTI esquisito raccoglitore delle gentilezze antiche. Si vede in esso il tiro felicissimo appresso gl'antichi, del giuoco de i\n\nTali Tali Questo era quello, che chiamauano VENVS. Et era in quattro Tali, quando tutte le faccie del Talo veniuano diuerse, come si vede nella gioia disegnata. Che questo fosse il tiro di Venere si caua ancora da Cicerone nel primo Lib. della Diuinatione, & da Martiale ne gl'Aposoreti all'Epigr. 14. con titolo, TALI EBOREI.\n\nIL FINE.",
+      "verdict": "transcription_error",
+      "translation_affected": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "note": "В печати «Venere Calli piga» (с пробелом) = Callipyga; «Calliga» — пропуск слога при транскрипции. Догадка issue («Callipyga») подтверждена; глоссы «(Обутая)/(Booted)/(Chaussée)» неверны. orig_after даёт слитное «Callipiga»; буквально в печати «Calli piga».",
+      "pass": "B",
+      "batch": 2
     }
   ]
 }

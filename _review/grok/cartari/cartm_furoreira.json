@@ -38,6 +38,7 @@
       "issue_id": "cartm_furoreira-3",
       "fields": [
         "text_fr",
+        "text_ru",
         "text_en"
       ],
       "paragraph": 1,
@@ -45,7 +46,63 @@
       "original": "re, perche al cominciare delle guerre più se dice spesso di quello, che se ne seguita poi",
       "current": "la Renommée, car au commencement des guerres",
       "suggested": "[…]re, car au commencement des guerres (обрывок слова со стыка страниц; «la Renommée» — догадка, не уверен; EN «Fame» → «[…]re»)",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 325→327): «re,» — искажённый остаток «Mar-|te,» (кустода «te,»); фраза «Và la Fama dinanzi al carro di Marte, perche…» начинается в cartm_marte. Догадка «Fama» по смыслу верна, но слово из предыдущей записи — обрывок убрать."
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "cartm_furoreira-3",
+      "fields": [
+        "text_fr",
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "re, perche al cominciare delle guerre",
+      "current": "Молву, ибо при начале войн",
+      "suggested": "Ибо при начале войн… (обрывок «re,» = «[Mar]te,» из фразы cartm_marte; «Молву» — догадка, слово из предыдущей записи)",
+      "confidence": "medium",
+      "added_in": "pass B",
+      "scan_check": "Сверка со сканом (с. 325→327): «re,» — искажённый остаток «Mar-|te,» (кустода «te,»); фраза «Và la Fama dinanzi al carro di Marte, perche…» начинается в cartm_marte. Догадка «Fama» по смыслу верна, но слово из предыдущей записи — обрывок убрать."
+    },
+    {
+      "field": "text_en",
+      "issue_id": "cartm_furoreira-3",
+      "fields": [
+        "text_fr",
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "re, perche al cominciare delle guerre",
+      "current": "Fame, for at the starting of wars",
+      "suggested": "For at the starting of wars… (обрывок «re,» = «[Mar]te,»; «Fame» — из предыдущей записи)",
+      "confidence": "medium",
+      "added_in": "pass B",
+      "scan_check": "Сверка со сканом (с. 325→327): «re,» — искажённый остаток «Mar-|te,» (кустода «te,»); фраза «Và la Fama dinanzi al carro di Marte, perche…» начинается в cartm_marte. Догадка «Fama» по смыслу верна, но слово из предыдущей записи — обрывок убрать."
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm_furoreira-3",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/325.jpg",
+      "page": "325 → 327",
+      "region": "с. 325, последняя строка «Và la Fama dinanzi al carro di Mar-» + кустода «te,»; с. 327, 1-я строка (с. 326 — гравюра «Furore»)",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "Imagine del Furore, & dell'Ira, & de suoi mali effetti, che sono sprezzar ogni pericolo, benche manifesto di morte & perdita d'honore non riguardando nè à Dio, nè à gl'huomini, nè ad amici ò consanguinei, nè pur al proprio interesse; perdendo il furioso & iracondo la ragione nel furore & nell'ira.\n\nre, perche al cominciare delle guerre più se dice spesso di quello, che se ne seguita poi, benche siano gli animi dall'vna parte, & dall'altra accesi di grauissima ira; conciosia che di rado si venga alle fere battaglie senza questa, la quale come scriue Seneca, pare hauere maggior forza in noi di molti altri affetti, che ci turbano; perche non solamente suia gli animi dal dritto sentiero della ragione, ma spesso muta il corpo ancora. Et però dice Ouidio, e Seneca parimente, che la faccia de gli adirati tutta si gonfia, e quasi auuampa gli occhi sono infiammati, & così diuenta la persona adirata terribile, che non meno quasi spauenteuole si mostra della horribil faccia di Medusa. Questo breue disegno hò fatto della persona adirata, perche non trouo che gli antichi habbiano fatta imagine alcuna dell'Ira, acciòche da quello chi vuole, possa fare ritratto di questa, che è chiamata Furore ancora; il quale non è altro che Ira, quanto può esser accesa, & infiammata.",
+      "orig_after": "Imagine del Furore, & dell'Ira, & de suoi mali effetti, che sono sprezzar ogni pericolo, benche manifesto di morte & perdita d'honore non riguardando nè à Dio, nè à gl'huomini, nè ad amici ò consanguinei, nè pur al proprio interesse; perdendo il furioso & iracondo la ragione nel furore & nell'ira.\n\nperche al cominciare delle guerre più se dice spesso di quello, che se ne seguita poi, benche siano gli animi dall'vna parte, & dall'altra accesi di grauissima ira; conciosia che di rado si venga alle fere battaglie senza questa, la quale come scriue Seneca, pare hauere maggior forza in noi di molti altri affetti, che ci turbano; perche non solamente suia gli animi dal dritto sentiero della ragione, ma spesso muta il corpo ancora. Et però dice Ouidio, e Seneca parimente, che la faccia de gli adirati tutta si gonfia, e quasi auuampa gli occhi sono infiammati, & così diuenta la persona adirata terribile, che non meno quasi spauenteuole si mostra della horribil faccia di Medusa. Questo breue disegno hò fatto della persona adirata, perche non trouo che gli antichi habbiano fatta imagine alcuna dell'Ira, acciòche da quello chi vuole, possa fare ritratto di questa, che è chiamata Furore ancora; il quale non è altro che Ira, quanto può esser accesa, & infiammata.",
+      "verdict": "transcription_error",
+      "translation_affected": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "note": "«re,» — искажённый остаток «[Mar]te,»; фраза начинается в cartm_marte («…carro di Marte,» — там уже есть). Догадка переводчиков (Молва/Fame/Renommée) по смыслу верна, но это слово из предыдущей записи: обрывок лучше убрать или отметить «[…]».",
+      "pass": "B",
+      "batch": 2
     }
   ]
 }

@@ -8,14 +8,52 @@
       "field": "text_fr",
       "issue_id": "cartm_pignoriasfinge-1",
       "fields": [
-        "text_fr"
+        "text_fr",
+        "text_ru"
       ],
       "paragraph": 1,
       "type": "ocr",
       "original": "& quest'vltima si vede frequen- te- quentissima nelle monete di Corinto",
       "current": "se voit fréquemment / repré- sur les monnaies de Corinthe",
       "suggested": "se voit très fréquemment sur les monnaies de Corinthe (лишний обрывок «repré-» на стыке страниц)",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 494→495): в печати «fre-|quentissima» (кустода «quen-»); обрывки «frequen-», «te-» — ошибки транскрипции. RU «встреча- встречается» — то же."
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "cartm_pignoriasfinge-1",
+      "fields": [
+        "text_fr",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "quest'vltima si vede frequen- te- quentissima",
+      "current": "часто\n\nвстреча- встречается",
+      "suggested": "часто встречается (обрывки на стыке страниц, скан с. 494→495)",
+      "confidence": "medium",
+      "added_in": "pass B",
+      "scan_check": "Сверка со сканом (с. 494→495): в печати «fre-|quentissima» (кустода «quen-»); обрывки «frequen-», «te-» — ошибки транскрипции. RU «встреча- встречается» — то же."
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm_pignoriasfinge-1",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/494.jpg",
+      "page": "494 → 495",
+      "region": "с. 494, последняя строка «fre-» + кустода «quen-»; с. 495, 1-я строка «quentissima»",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "Et simile scoltura io vidi già in Roma in casa de' Vittorij, doue staua il nome d'vn'Epitteto seruo Aquario d'vn'Imperatore. Et di qua vengono i Ninfei, luoghi deputati ad'acque, che si leggono appresso Publio Vittore, & in qualche altro luogo. Tutto che Zonara gli deputi ad altro vso. Et nel disegno sopra posto pare a me, che lo Scoltore si sia marauigliosamente seruito della regola di Vitruuio, nel Lib. 1. a cap. 2. cioè, che a Venere, a Flora, a Proserpina, alle Ninfe si fabrichi d'ordine Corinthio, per la sueltezza, & gracilità per così dire, che ne' loro corpi si vede.\n\nDione non è l'historico, ma'l Filosofo, nella Oratione quinta, ch'esso intitola, fauola Libica.\n\nLa Sfinge. & la Chimera sono cauate dalle memorie antiche, & li due Camei sono pure di tagli antichi. In vno Edipo inanzi la Sfinge, che stà su la rupe Fycea, come la chiama Apollodoro. nell'altro Bellerofonte, che combatte con la Chimera, & quest'vltima si vede frequen-\n\nte- quentissima nelle monete di Corinto. Delle Lamie vedasi il Del-rio nelle disquisitione Magiche.\n\nPlinio non dice che la Sfinge fosse nume saluatico. le parole di lui sono queste; ante has est Sphynx Vel magis miranda: qua siluestria sunt accolentium; le quali il Landino traduce così, inanzi a queste è Sfinge tanto piu marauigliosa, perche è in luoghi seluaggi. Et bene.",
+      "orig_after": "Et simile scoltura io vidi già in Roma in casa de' Vittorij, doue staua il nome d'vn'Epitteto seruo Aquario d'vn'Imperatore. Et di qua vengono i Ninfei, luoghi deputati ad'acque, che si leggono appresso Publio Vittore, & in qualche altro luogo. Tutto che Zonara gli deputi ad altro vso. Et nel disegno sopra posto pare a me, che lo Scoltore si sia marauigliosamente seruito della regola di Vitruuio, nel Lib. 1. a cap. 2. cioè, che a Venere, a Flora, a Proserpina, alle Ninfe si fabrichi d'ordine Corinthio, per la sueltezza, & gracilità per così dire, che ne' loro corpi si vede.\n\nDione non è l'historico, ma'l Filosofo, nella Oratione quinta, ch'esso intitola, fauola Libica.\n\nLa Sfinge. & la Chimera sono cauate dalle memorie antiche, & li due Camei sono pure di tagli antichi. In vno Edipo inanzi la Sfinge, che stà su la rupe Fycea, come la chiama Apollodoro. nell'altro Bellerofonte, che combatte con la Chimera, & quest'vltima si vede frequentissima nelle monete di Corinto. Delle Lamie vedasi il Del-rio nelle disquisitione Magiche.\n\nPlinio non dice che la Sfinge fosse nume saluatico. le parole di lui sono queste; ante has est Sphynx Vel magis miranda: qua siluestria sunt accolentium; le quali il Landino traduce così, inanzi a queste è Sfinge tanto piu marauigliosa, perche è in luoghi seluaggi. Et bene.",
+      "verdict": "transcription_error",
+      "translation_affected": [
+        "text_ru",
+        "text_fr"
+      ],
+      "note": "В печати «fre-|quentissima» (кустода «quen-»). В text_it обрывки «frequen-» и «te-» с разрывом абзаца. RU «встреча- встречается», FR «repré-» — следствие; EN верен.",
+      "pass": "B",
+      "batch": 2
     }
   ]
 }

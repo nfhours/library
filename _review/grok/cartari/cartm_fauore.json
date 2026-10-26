@@ -42,20 +42,76 @@
       "original": "perche vuole ogni hora salire più sù, che non gli conuiene",
       "current": "than is fitting for it",
       "suggested": "than is fitting for him (Фавор, м. р.); на переносе страницы текст EN спутан («to come») — проверить стык, не уверен",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 399→401): в печати «con-|uiene, spinto»; «viene» — кустода с разрывом абзаца. EN «to come» — перевод обрывка, удалить."
     },
     {
       "field": "text_fr",
       "issue_id": "cartm_fauore-4",
       "fields": [
-        "text_fr"
+        "text_fr",
+        "text_ru"
       ],
       "paragraph": 1,
       "type": "ocr",
       "original": "spinto dall'Adulatione, che l'accompagna sempre",
       "current": "plus haut qu'il ne lui convient / qu'il ne lui convient, poussée par la Flatterie",
       "suggested": "plus haut qu'il ne lui convient, poussée par la Flatterie (повтор «qu'il ne lui convient» на стыке страниц — удалить дубль)",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 399→401): то же место, что cartm_fauore-3; «viene» — кустода. FR и RU повторяют «convient/подобает»."
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "cartm_fauore-4",
+      "fields": [
+        "text_fr",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "che non gli conuiene … viene, spinto dall'Adulatione",
+      "current": "нежели ему подобает\n\nподобает, подгоняемое",
+      "suggested": "нежели ему подобает, подгоняемое (дубль на стыке страниц: «viene» — кустода)",
+      "confidence": "medium",
+      "added_in": "pass B",
+      "scan_check": "Сверка со сканом (с. 399→401): то же место, что cartm_fauore-3; «viene» — кустода. FR и RU повторяют «convient/подобает»."
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm_fauore-3",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/399.jpg",
+      "page": "399 → 401",
+      "region": "с. 399, последняя строка «con-» + кустода «uiene»; с. 401, 1-я строка «uiene, spinto» (с. 400 — гравюра)",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "Et con la Fortuna và anco il Fauore, che fu adorato parimente da gli antichi, perche pare, che da lei venga per lo più, benche nasce egli dalla bellezza ancora molte volte, e souente dalla virtù, & in soma da tutte quelle cose, che ci fanno grati altrui, & ci acquistano fauore, il quale ci fa spesso insuperbire; perche quanto più succedono a gli huomini le cose felicemente, tanto più si inalzano, & poggiando con l'ali del fauore humano, montano sopra gli altri, fin tanto che la ruota giri, onde cadendo trabocchevolmente sono sprezzati poi non meno, che fossero riueriti prima. Però guardisi ogn'vno di fidarsi troppo in questo frale, & lieue Fauore, perche tosto passa, come la sua imagine ci dimostra, la quale era di giouine con le ali: ò sia perche per le cose prospere, & liete si leua alto tanto, che non degna più di guardare al basso, onde perciò fu anco dipinto cieco, perche pare, che gli huomini non guardino più a persona ò ben poco poscia, che a grandi honori sono inalzati: ouero perche poco si ferma con noi, ma tosto passa via; & perciò staua co' piedi sopra vna ruota, conciosia ch'egli imiti la Fortuna; & sì come questa gira, così ei gira parimente, e và sempre ouunque ella porta de' suoi beni, mostrandosi però tuttauia timido, perche vuole ogni hora salire più sù, che non gli conuiene\n\nviene, spinto dall'Adulatione, che l'accompagna sempre. Gli vå dietro etiandio la Inuidia, ma con passi tardi, e lenti, la quale guarda sempre con occhio torto l'altrui Felicità, ma ella s'è beata, e di lei punto non teme.",
+      "orig_after": "Et con la Fortuna và anco il Fauore, che fu adorato parimente da gli antichi, perche pare, che da lei venga per lo più, benche nasce egli dalla bellezza ancora molte volte, e souente dalla virtù, & in soma da tutte quelle cose, che ci fanno grati altrui, & ci acquistano fauore, il quale ci fa spesso insuperbire; perche quanto più succedono a gli huomini le cose felicemente, tanto più si inalzano, & poggiando con l'ali del fauore humano, montano sopra gli altri, fin tanto che la ruota giri, onde cadendo trabocchevolmente sono sprezzati poi non meno, che fossero riueriti prima. Però guardisi ogn'vno di fidarsi troppo in questo frale, & lieue Fauore, perche tosto passa, come la sua imagine ci dimostra, la quale era di giouine con le ali: ò sia perche per le cose prospere, & liete si leua alto tanto, che non degna più di guardare al basso, onde perciò fu anco dipinto cieco, perche pare, che gli huomini non guardino più a persona ò ben poco poscia, che a grandi honori sono inalzati: ouero perche poco si ferma con noi, ma tosto passa via; & perciò staua co' piedi sopra vna ruota, conciosia ch'egli imiti la Fortuna; & sì come questa gira, così ei gira parimente, e và sempre ouunque ella porta de' suoi beni, mostrandosi però tuttauia timido, perche vuole ogni hora salire più sù, che non gli conuiene, spinto dall'Adulatione, che l'accompagna sempre. Gli vå dietro etiandio la Inuidia, ma con passi tardi, e lenti, la quale guarda sempre con occhio torto l'altrui Felicità, ma ella s'è beata, e di lei punto non teme.",
+      "verdict": "transcription_error",
+      "translation_affected": [
+        "text_en"
+      ],
+      "note": "В печати «con-|uiene, spinto»: «viene» — кустода (u/v) с разрывом абзаца. EN «to come» — перевод обрывка «viene».",
+      "pass": "B",
+      "batch": 2
+    },
+    {
+      "issue_id": "cartm_fauore-4",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/399.jpg",
+      "page": "399 → 401",
+      "region": "то же место, что cartm_fauore-3",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "Et con la Fortuna và anco il Fauore, che fu adorato parimente da gli antichi, perche pare, che da lei venga per lo più, benche nasce egli dalla bellezza ancora molte volte, e souente dalla virtù, & in soma da tutte quelle cose, che ci fanno grati altrui, & ci acquistano fauore, il quale ci fa spesso insuperbire; perche quanto più succedono a gli huomini le cose felicemente, tanto più si inalzano, & poggiando con l'ali del fauore humano, montano sopra gli altri, fin tanto che la ruota giri, onde cadendo trabocchevolmente sono sprezzati poi non meno, che fossero riueriti prima. Però guardisi ogn'vno di fidarsi troppo in questo frale, & lieue Fauore, perche tosto passa, come la sua imagine ci dimostra, la quale era di giouine con le ali: ò sia perche per le cose prospere, & liete si leua alto tanto, che non degna più di guardare al basso, onde perciò fu anco dipinto cieco, perche pare, che gli huomini non guardino più a persona ò ben poco poscia, che a grandi honori sono inalzati: ouero perche poco si ferma con noi, ma tosto passa via; & perciò staua co' piedi sopra vna ruota, conciosia ch'egli imiti la Fortuna; & sì come questa gira, così ei gira parimente, e và sempre ouunque ella porta de' suoi beni, mostrandosi però tuttauia timido, perche vuole ogni hora salire più sù, che non gli conuiene\n\nviene, spinto dall'Adulatione, che l'accompagna sempre. Gli vå dietro etiandio la Inuidia, ma con passi tardi, e lenti, la quale guarda sempre con occhio torto l'altrui Felicità, ma ella s'è beata, e di lei punto non teme.",
+      "orig_after": "Et con la Fortuna và anco il Fauore, che fu adorato parimente da gli antichi, perche pare, che da lei venga per lo più, benche nasce egli dalla bellezza ancora molte volte, e souente dalla virtù, & in soma da tutte quelle cose, che ci fanno grati altrui, & ci acquistano fauore, il quale ci fa spesso insuperbire; perche quanto più succedono a gli huomini le cose felicemente, tanto più si inalzano, & poggiando con l'ali del fauore humano, montano sopra gli altri, fin tanto che la ruota giri, onde cadendo trabocchevolmente sono sprezzati poi non meno, che fossero riueriti prima. Però guardisi ogn'vno di fidarsi troppo in questo frale, & lieue Fauore, perche tosto passa, come la sua imagine ci dimostra, la quale era di giouine con le ali: ò sia perche per le cose prospere, & liete si leua alto tanto, che non degna più di guardare al basso, onde perciò fu anco dipinto cieco, perche pare, che gli huomini non guardino più a persona ò ben poco poscia, che a grandi honori sono inalzati: ouero perche poco si ferma con noi, ma tosto passa via; & perciò staua co' piedi sopra vna ruota, conciosia ch'egli imiti la Fortuna; & sì come questa gira, così ei gira parimente, e và sempre ouunque ella porta de' suoi beni, mostrandosi però tuttauia timido, perche vuole ogni hora salire più sù, che non gli conuiene, spinto dall'Adulatione, che l'accompagna sempre. Gli vå dietro etiandio la Inuidia, ma con passi tardi, e lenti, la quale guarda sempre con occhio torto l'altrui Felicità, ma ella s'è beata, e di lei punto non teme.",
+      "verdict": "transcription_error",
+      "translation_affected": [
+        "text_ru",
+        "text_fr"
+      ],
+      "note": "То же место, что cartm_fauore-3. FR «qu'il ne lui convient / qu'il ne lui convient», RU «подобает / подобает» — следствие (RU-строка добавлена).",
+      "pass": "B",
+      "batch": 2
     }
   ]
 }
