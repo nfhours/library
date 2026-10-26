@@ -1,0 +1,22 @@
+{
+  "id": "pl5-9",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl5-9-1",
+      "fields": [
+        "text_ru",
+        "reverse_ru"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "au milieu des deux constellations de Castor & Pollux représentées par deux étoiles & les deux bonnets de la liberté.",
+      "current": "text_ru «…и двух фригийских колпаков свободы»; reverse_ru «…и двумя фригийскими колпаками свободы»",
+      "suggested": "«фригийских» добавлено переводчиком: у Гроссона просто bonnets de la liberté (reverse_fr — «deux bonnets de la liberté», EN «caps of liberty» без добавки); на гравюре (pl5-9) колпаки колоколовидные (пилосы Диоскуров), не фригийские. RU «…и двух колпаков свободы»; reverse_ru «…и двумя колпаками свободы»",
+      "confidence": "low"
+    }
+  ]
+}

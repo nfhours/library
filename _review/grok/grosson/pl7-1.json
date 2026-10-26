@@ -1,0 +1,47 @@
+{
+  "id": "pl7-1",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl7-1-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Clotaire II n'étant que dans sa 29e. année, lorsqu'il fut seul Roi de la Monarchie Françoise.",
+      "current": "поскольку Хлотарю II было лишь 29 лет, когда он стал единственным королём",
+      "suggested": "dans sa 29e année — «шёл 29-й год» (т.е. 28 лет; ср. 584 + 4 мес. → 613). «…поскольку Хлотарю II шёл лишь 29-й год, когда он стал единственным королём Французской монархии». EN «in his 29th year» верно",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "pl7-1-2",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "qui avoient toujours tenu tête aux François, même en-deçà des Pyrenées dans le Languedoc, depuis la grande défaite de l'armée de Clovis devant Arles, furent tributaires des Rois François,",
+      "current": "испанские готы, всегда противостоявшие франкам, даже по эту сторону Пиренеев в Лангедоке, со времени великого поражения войска Хлодвига под Арлем платили дань французским королям",
+      "suggested": "depuis… относится к «toujours tenu tête» (противостояли со времени поражения под Арлем), а в RU выходит, что дань платили со времени поражения. «…испанские готы, которые со времени великого поражения войска Хлодвига под Арлем всегда противостояли франкам, даже по эту сторону Пиренеев, в Лангедоке, стали данниками французских королей во времена, когда в Испании правил Гондемар». EN (с запятыми) передаёт верно",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "pl7-1-3",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "omission",
+      "original": "pour venger leur sœur Clotilde des cruautés d'Amauri ou Amalaric, Roi des Visigoths,",
+      "current": "чтобы отомстить за их сестру Хлотильду жестокости Амальрика, короля вестготов",
+      "suggested": "пропущен вариант имени «Amauri ou» (EN сохраняет «Amauri or Amalaric»), и конструкция «отомстить … жестокости» неграмматична. «…чтобы отомстить за жестокости, которые терпела их сестра Хлотильда от Амори, или Амальриха, короля вестготов» (Не уверен в форме «Амори» — можно оставить Amauri латиницей)",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "pl7-4",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl7-4-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "& sert à confirmer l'opinion qui attribue notre Médaille à Caribert, dit Cherebert.",
+      "current": "«Карибера, или Керебера» (начало) … «приписывающего нашу монету Кариберу, иначе Хереберу» (конец)",
+      "suggested": "одно имя (Cherebert) передано в одной статье двумя способами — Керебер и Херебер; также pl7-9 — «Керебер». Унифицировать: «…Кариберу, иначе Кереберу»",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "pl7-4-2",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "typo",
+      "original": "On ne peut attribuer cette Médaille à Aribert, Fils de Clotaire II,",
+      "current": "«Арибер­ту», «Арибер­т» (внутри слов мягкий перенос U+00AD)",
+      "suggested": "убрать невидимые мягкие переносы (U+00AD) в «Ариберту», «Ариберт» — единственный такой символ во всём entries.json; мешает поиску",
+      "confidence": "low"
+    }
+  ]
+}

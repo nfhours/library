@@ -14,3 +14,6 @@ pl4-5,legend_*,MASSALIETON,"по тексту («l'abréviation MASSALIETON»); 
 pl4-15,fr/name_fr/en/ru heading и reverse_*,Cornupète / Procumbens,"в тексте статьи названия «Cornupète/Procumbens» нет — добавлено составителями данных; не противоречит, info",info
 pl4-16,obverse_*,lettres [MA]MA,"современное описание (flag); на гравюре на аверсе скорее ΜΑΣ — проверить по фото. Поле оригинала, не перевод — info",info
 pl5-4,reverse_*,lion frappé après coup … ; trépied ; pot/croix,"по тексту; на гравюре льва не видно (аверс: голова в шлеме + ΜΑΣΣΑ; реверс: треножник, MA, круг с крестом, голова) — расхождение текста и гравюры, info",info
+pl5-9 … pl7-9,obverse/reverse/legend/material ru/en,—,"ru/en верно передают fr, кроме pl5-9 reverse_ru («фригийскими» — issue pl5-9-1); противоречий тексту/гравюре, меняющих смысл, нет",ok
+pl5-9,legend_*,MASSEILS,"по тексту Гроссона; на гравюре ΜΑΣΣΕΙΑΣ — info",info
+pl6-1..pl7-9,material_*,or / золото / gold,"в тексте металл не назван, кроме «tiers de sol d'or» (pl6-3, pl7-1) — общий паттерн",info

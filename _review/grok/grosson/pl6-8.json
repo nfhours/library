@@ -1,0 +1,21 @@
+{
+  "id": "pl6-8",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl6-8-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "typo",
+      "original": "qui me paroît être un de ces Surtouts nommés Chlamys par les Anciens;",
+      "current": "которая представляется мне одним из тех накидок, что древние называли хламидой",
+      "suggested": "согласование: «…одной из тех накидок, что древние называли хламидой»",
+      "confidence": "low"
+    }
+  ]
+}
