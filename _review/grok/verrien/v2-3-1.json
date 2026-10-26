@@ -1,0 +1,27 @@
+{
+  "id": "v2-3-1",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "fr",
+      "issue_id": "v2-3-1-1",
+      "fields": [
+        "fr",
+        "name_fr",
+        "text_fr",
+        "meaning_fr",
+        "ru",
+        "text_ru",
+        "meaning_ru"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "AMI HEUREUX",
+      "current": "AMI HEUREUX / Счастливый друг",
+      "suggested": "на медальоне (кроп v2-3-1.jpg) подпись «AME HEUREUSE» (перенос «AME HEVR / EVSE»); фигура — крылатая женщина. Читать «AME HEUREUSE», перевод — «Счастливая душа». Подтверждено сканом",
+      "confidence": "high"
+    }
+  ]
+}
