@@ -1,0 +1,21 @@
+{
+  "id": "v1-9-13",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v1-9-13-1",
+      "fields": [
+        "ru"
+      ],
+      "paragraph": null,
+      "type": "addition",
+      "original": "Coq sur une Trompette",
+      "current": "Петух на боевой трубе",
+      "suggested": "«боевой» в оригинале нет: «Петух на трубе» (text_ru верно)",
+      "confidence": "low"
+    }
+  ]
+}

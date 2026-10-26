@@ -1,0 +1,21 @@
+{
+  "id": "v1-9-11",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-9-11-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Un Champ de Blé prest à couper.",
+      "current": "Поле пшеницы, готовое к сенокосу-жатве.",
+      "suggested": "«сенокос» — о траве, не о хлебе; дефисная двойка — след черновика: «Поле пшеницы, готовое к жатве»",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "v1-9-4",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v1-9-4-1",
+      "fields": [
+        "ru"
+      ],
+      "paragraph": null,
+      "type": "mistranslation",
+      "original": "Ours qui attaque des Mouches à",
+      "current": "Медведь, атакуемый пчёлами",
+      "suggested": "заголовок перевёрнут: медведь сам нападает на пчёл — «Медведь, нападающий на пчёл» (text_ru верно)",
+      "confidence": "medium"
+    }
+  ]
+}
