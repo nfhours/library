@@ -1,0 +1,12 @@
+{
+  "id": "v2-132-9",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "ok",
+  "issues": [],
+  "scan": "monogram",
+  "anomaly": {
+    "kind": "caption_wraparound_edition",
+    "note": "«NZA» на доске v2-132 (гравир. «130»): ряд продолжен через конец алфавита (ср. YZA, XAZ, ZBC, VZA, TZA, RZA, QZA); данные совпадают со сканом. Особенность издания"
+  }
+}

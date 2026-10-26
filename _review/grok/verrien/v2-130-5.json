@@ -1,0 +1,30 @@
+{
+  "id": "v2-130-5",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "issue_id": "v2-130-5-1",
+      "fields": [
+        "fr",
+        "name_fr",
+        "text_fr",
+        "ru",
+        "text_ru"
+      ],
+      "field": "fr",
+      "type": "typo",
+      "original": "EQR",
+      "current": "EQR",
+      "suggested": "«FQR» — по ряду [FQR], [FQS], FQT и отсутствию FQR в наборе; на гравюре «EQR». Подпись сверена со сканом; чтение вензеля не проверялось",
+      "confidence": "medium",
+      "paragraph": 1
+    }
+  ],
+  "scan": "monogram",
+  "anomaly": {
+    "kind": "caption_typo",
+    "note": "на доске v2-130 (гравир. «128») после EPZ выгравировано «EQR», «EQS», затем FQT…: ожидается FQR, FQS. FQR/FQS во всей части отсутствуют, EQR/EQS встречаются ещё раз на своём месте (v2-135-8/9). Опечатка издания (E вместо F), повторённая в данных и переводе"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "v2-130-6",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "issue_id": "v2-130-6-1",
+      "fields": [
+        "fr",
+        "name_fr",
+        "text_fr",
+        "ru",
+        "text_ru"
+      ],
+      "field": "fr",
+      "type": "typo",
+      "original": "EQS",
+      "current": "EQS",
+      "suggested": "«FQS» — по ряду и отсутствию FQS в наборе; на гравюре «EQS»",
+      "confidence": "medium",
+      "paragraph": 1
+    }
+  ],
+  "scan": "monogram",
+  "anomaly": {
+    "kind": "caption_typo",
+    "note": "то же, «EQS» на месте ожидаемого «FQS» (см. v2-130-5)"
+  }
+}

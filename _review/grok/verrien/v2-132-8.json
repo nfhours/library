@@ -1,0 +1,30 @@
+{
+  "id": "v2-132-8",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "issue_id": "v2-132-8-1",
+      "fields": [
+        "fr",
+        "name_fr",
+        "text_fr",
+        "ru",
+        "text_ru"
+      ],
+      "field": "fr",
+      "type": "typo",
+      "original": "MXZ",
+      "current": "MXZ",
+      "suggested": "«MYZ» — по ряду LXZ, [MYZ], NZA и отсутствию MYZ в наборе; на гравюре «MXZ»",
+      "confidence": "medium",
+      "paragraph": 1
+    }
+  ],
+  "scan": "monogram",
+  "anomaly": {
+    "kind": "caption_typo",
+    "note": "на доске v2-132 (гравир. «130») ряд LXY, LXZ, MXZ, NZA: ожидается MYZ (MYZ во всей части отсутствует, MXZ уже есть на своём месте — v2-126-6). На гравюре «MXZ» — опечатка издания, повторённая в данных и переводе"
+  }
+}

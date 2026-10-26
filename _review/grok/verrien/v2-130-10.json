@@ -1,0 +1,12 @@
+{
+  "id": "v2-130-10",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "ok",
+  "issues": [],
+  "scan": "monogram",
+  "anomaly": {
+    "kind": "dup_on_plate_caption_typo",
+    "note": "второй «FQY» на доске v2-130 — верный (после FQX). См. v2-130-8"
+  }
+}

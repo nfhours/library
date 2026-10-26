@@ -1,0 +1,30 @@
+{
+  "id": "v2-130-8",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "issue_id": "v2-130-8-1",
+      "fields": [
+        "fr",
+        "name_fr",
+        "text_fr",
+        "ru",
+        "text_ru"
+      ],
+      "field": "fr",
+      "type": "typo",
+      "original": "FQY",
+      "current": "FQY",
+      "suggested": "«FQV» — по ряду FQT, [FQV], FQX и отсутствию FQV в наборе; на гравюре «FQY»",
+      "confidence": "medium",
+      "paragraph": 1
+    }
+  ],
+  "scan": "monogram",
+  "anomaly": {
+    "kind": "dup_on_plate_caption_typo",
+    "note": "на доске v2-130 ряд выгравирован FQT, FQY, FQX, FQY, FQZ: первый «FQY» стоит на месте ожидаемого «FQV» (FQV во всей части отсутствует); второй FQY (v2-130-10) — на своём месте. Опечатка издания"
+  }
+}
