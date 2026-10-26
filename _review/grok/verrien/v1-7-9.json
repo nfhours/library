@@ -1,0 +1,21 @@
+{
+  "id": "v1-7-9",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-7-9-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 3,
+      "type": "ocr",
+      "original": "Je péris parce qui me devoit conserver.",
+      "current": "Je péris parce qui me devoit conserver.",
+      "suggested": "«par ce qui» (слитно «parce» — ошибка набора/OCR); text_ru переведён верно. Скана текста нет",
+      "confidence": "low"
+    }
+  ]
+}

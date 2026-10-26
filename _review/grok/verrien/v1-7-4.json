@@ -1,0 +1,34 @@
+{
+  "id": "v1-7-4",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-7-4-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "Il faut nous contenter de ce qui nous est destiné.",
+      "current": "То, что выше нас, нас не касается; нужно довольствоваться тем, что нам предназначено.",
+      "suggested": "«То, что выше нас, нас не касается;» — перевод латинского девиза, вставленный во французское толкование: «Нужно довольствоваться тем, что нам предназначено.»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "v1-7-4-2",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Un Faucon qui pointe & fond sur une perdrix.",
+      "current": "Сокол, высматривающий и бросающийся на куропатку.",
+      "suggested": "pointer (о соколе) — «взмывать, устремляться ввысь», не «высматривать»: «Сокол, который взмывает и падает на куропатку»",
+      "confidence": "low"
+    }
+  ]
+}

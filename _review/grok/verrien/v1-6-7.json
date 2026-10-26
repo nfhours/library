@@ -1,0 +1,23 @@
+{
+  "id": "v1-6-7",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-6-7-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Non bene conveninnt.",
+      "current": "Non bene conveninnt.",
+      "suggested": "[LA] «Non bene conveniunt» (ni → in; ср. v1-5-11 «Non conveniunt»); опечатка скопирована и в text_ru. Скана текста нет — по смыслу",
+      "confidence": "high"
+    }
+  ]
+}

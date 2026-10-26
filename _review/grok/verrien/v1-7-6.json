@@ -1,0 +1,21 @@
+{
+  "id": "v1-7-6",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-7-6-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "Les courageux vont par tout.",
+      "current": "Для смелых нет ничего недоступного.",
+      "suggested": "переведён латинский девиз, а не французское толкование: «Смелые проходят повсюду»",
+      "confidence": "low"
+    }
+  ]
+}

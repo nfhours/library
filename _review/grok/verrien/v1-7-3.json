@@ -1,0 +1,21 @@
+{
+  "id": "v1-7-3",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-7-3-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "Il est juste que les gourmans perissent.",
+      "current": "Справедливо, чтобы хищные-ненасытные погибали.",
+      "suggested": "gourmands — «обжоры, жадные»: «Справедливо, чтобы обжоры погибали» (дефисная двойка «хищные-ненасытные» — следы черновика)",
+      "confidence": "low"
+    }
+  ]
+}
