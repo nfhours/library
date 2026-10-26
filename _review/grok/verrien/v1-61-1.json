@@ -8,7 +8,8 @@
       "field": "text_fr",
       "issue_id": "v1-61-1-1",
       "fields": [
-        "text_fr"
+        "text_fr",
+        "meaning_fr"
       ],
       "paragraph": 3,
       "type": "ocr",

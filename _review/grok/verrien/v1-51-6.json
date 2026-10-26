@@ -8,7 +8,8 @@
       "field": "text_ru",
       "issue_id": "v1-51-6-1",
       "fields": [
-        "text_ru"
+        "text_ru",
+        "meaning_ru"
       ],
       "paragraph": 3,
       "type": "mistranslation",

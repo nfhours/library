@@ -23,7 +23,8 @@
       "field": "text_ru",
       "issue_id": "v1-23-9-2",
       "fields": [
-        "text_ru"
+        "text_ru",
+        "meaning_ru"
       ],
       "paragraph": 3,
       "type": "addition",

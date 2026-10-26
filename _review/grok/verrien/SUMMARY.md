@@ -8,11 +8,11 @@
 
 | Часть | Проверено записей | ok | minor | major | Уникальных ошибок (issue_id) | Вхождений по полям |
 |---|---|---|---|---|---|---|
-| Часть 1 (эмблемы) | 945 | 744 | 201 | 0 | 210 | 416 |
+| Часть 1 (эмблемы) | 945 | 744 | 201 | 0 | 210 | 499 |
 | Часть 2, медальоны | 248 | 239 | 9 | 0 | 10 | 36 |
 | Часть 2, монограммы | 2062 | 2051 | 11 | 0 | 11 | 55 |
 | Часть 3 (картуши) | 34 | 32 | 2 | 0 | 2 | 2 |
-| **всего** | **3289** | **3066** | **223** | **0** | **233** | **509** |
+| **всего** | **3289** | **3066** | **223** | **0** | **233** | **592** |
 
 Монограммы: из 2062 записей 2013 — обычные записи из одних букв (только посчитаны, отдельных файлов нет, в таблице учтены как ok); 49 записей со странностями получили свой JSON (38 ok, 11 minor).
 
@@ -20,7 +20,7 @@
 
 Одна ошибка = один `issue_id` (`<id>-<n>`), считается один раз. «Вхождения» — сумма длин списков `fields`: одна ошибка, повторённая в нескольких полях (например девиз в `text_fr`, `motto_fr` и скопированный в `text_ru`), даёт несколько вхождений.
 
-Вхождения по полям: text_ru — 214, text_fr — 111, motto_fr — 88, ru — 46, fr — 16, name_fr — 16, meaning_ru — 14, meaning_fr — 4.
+Вхождения по полям: text_ru — 214, text_fr — 111, meaning_ru — 91, motto_fr — 88, ru — 46, fr — 16, name_fr — 16, meaning_fr — 10.
 
 Уникальные ошибки по типу: ocr — 97, mistranslation — 64, addition — 41, typo — 13, name — 12, omission — 6. Уверенность: low — 119, medium — 83, high — 31.
 
@@ -53,7 +53,7 @@
 - `v1-4-14-2` — text_fr/motto_fr/text_ru — ocr, low: «Privo dite moriro.» → [IT] «Privo di te morirò» (di te слито; скана текста нет — по грамматике)
 - `v1-5-7-1` — text_fr/motto_fr/text_ru — ocr, low: «Volenter trahimur.» → [LA] «Volenter» — не латинское слово; вероятно «Volentes trahimur» («нас влечёт по доброй воле»). Скана текста нет; не уверен
 - `v1-6-7-1` — text_fr/motto_fr/text_ru — ocr, high: «Non bene conveninnt.» → [LA] «Non bene conveniunt» (ni → in; ср. v1-5-11 «Non conveniunt»); опечатка скопирована и в text_ru. Скана текста нет — по смыслу
-- `v1-7-9-1` — text_fr — ocr, low: «Je péris parce qui me devoit conserver.» → «par ce qui» (слитно «parce» — ошибка набора/OCR); text_ru переведён верно. Скана текста нет
+- `v1-7-9-1` — text_fr/meaning_fr — ocr, low: «Je péris parce qui me devoit conserver.» → «par ce qui» (слитно «parce» — ошибка набора/OCR); text_ru переведён верно. Скана текста нет
 - `v1-10-10-1` — text_fr/motto_fr/text_ru — ocr, high: «Non metentis, sed ferentis.» → [LA] «sed serentis» (долгое ſ прочитано как f; serere — сеять, ср. «celuy qui l'a semée»); скопировано и в text_ru. Скана текста нет — по смыслу
 - `v1-10-12-1` — text_fr/motto_fr/text_ru — ocr, medium: «Quò molius, eò suavius.» → [LA] «Quò mollius» (mollis — мягкий; ср. «plus doucement»); скопировано и в text_ru. Скана текста нет — по смыслу
 - `v1-11-9-1` — text_fr/motto_fr/text_ru — ocr, high: «Hostem vocat & fucat.» → [LA] «& fugat» (обращает в бегство, ср. «il le fait fuir»; fucat — «подкрашивает»); скопировано и в text_ru. Скана текста нет — по смыслу
@@ -79,18 +79,18 @@
 - `v1-25-6-1` — text_fr/motto_fr/text_ru — ocr, medium: «Stat recta ferax que.» → [LA] «Stat recta feraxque» (энклитика -que пишется слитно); скопировано и в text_ru. Скана текста нет — по смыслу
 - `v1-26-3-1` — text_fr/motto_fr/text_ru — ocr, high: «Non morietur innultus.» → [LA] «inultus» (неотомщённый; лишняя n); скопировано и в text_ru. Скана текста нет — по смыслу
 - `v1-26-5-1` — text_fr/motto_fr/text_ru — ocr, medium: «Nec justus capta relaxat.» → [LA] вероятно «Nec jussus capta relaxat» («и по приказу не отпускает добычу», ср. «Il n'obeit pas pour rendre…»); скопировано и в text_ru. Скана текста нет — по смыслу
-- `v1-26-15-1` — text_fr — ocr, medium: «Il est étonnant que je sois si grand, n'estant forty que d'un œuf.» → «sorty» (долгое ſ прочитано как f); text_ru переведён верно. Скана текста нет — по смыслу
+- `v1-26-15-1` — text_fr/meaning_fr — ocr, medium: «Il est étonnant que je sois si grand, n'estant forty que d'un œuf.» → «sorty» (долгое ſ прочитано как f); text_ru переведён верно. Скана текста нет — по смыслу
 - `v1-27-4-2` — text_fr/motto_fr/text_ru — ocr, low: «Aris, agrisque laboro.» → [LA] по толкованию («Malades») ожидается «ægrisque» (больным) — возможно, потеряна лигатура æ; но «agris» (полям) тоже осмысленно. Скана текста нет; не уверен
 - `v1-27-6-1` — text_fr/motto_fr/text_ru — ocr, medium: «Solus que regit me spiritus.» → [LA] «Solusque» (энклитика -que пишется слитно; ср. v1-25-6); скопировано и в text_ru. Скана текста нет — по смыслу
 - `v1-27-8-1` — text_fr/motto_fr/text_ru — ocr, medium: «Pormi limpiezza me quieren.» → [ES] «Por mi limpieza me quieren» (слитное «Pormi», итальянизированное -zz-); скопировано и в text_ru. Скана текста нет; возможно, орфография издания
 - `v1-28-12-1` — text_fr/motto_fr/text_ru — ocr, low: «Quis metiet?» → [LA] классически «Quis metietur?» (metior — отложительный глагол); возможно, так в издании. Скана текста нет; не уверен
-- `v1-29-5-1` — text_fr — ocr, medium: «Ou je feray rompuë ou bandée.» → «seray» (долгое ſ прочитано как f); text_ru переведён верно (по смыслу). Скана текста нет — по смыслу
+- `v1-29-5-1` — text_fr/meaning_fr — ocr, medium: «Ou je feray rompuë ou bandée.» → «seray» (долгое ſ прочитано как f); text_ru переведён верно (по смыслу). Скана текста нет — по смыслу
 - `v1-29-6-1` — text_fr/motto_fr/text_ru — ocr, medium: «Nunc fatibus apta.» → [LA] вероятно «Nunc fœtibus (fetibus) apta» («теперь пригоден к порождению», ср. «Je puis à present produire»); скопировано и в text_ru. Скана текста нет; не уверен
 - `v1-29-7-1` — text_fr/motto_fr/text_ru — ocr, medium: «Non capio ni capior.» → [LA] тот же девиз, что v1-13-2; толкование «Je ne prend rien si on ne me prend» подтверждает «nisi capior»; скопировано и в text_ru. Скана текста нет
 - `v1-30-5-1` — text_fr/motto_fr/text_ru — ocr, high: «Modo vita superfit.» → [LA] «Modo vita supersit» (долгое ſ прочитано как f; ср. «pourvû qu'il n'en meure pas»); скопировано и в text_ru. Скана текста нет — по смыслу
 - `v1-31-2-1` — text_fr/motto_fr/text_ru — ocr, medium: «Nec casus cedam.» → [LA] «Nec cæsus cedam» (лигатура æ потеряна; cæsus — раненый, ср. «Tout blessé que je suis»); скопировано и в text_ru. Скана текста нет — по смыслу
 - `v1-31-3-1` — text_fr/motto_fr/text_ru — ocr, high: «Ad me delam.» → [LA] «Ad medelam» (для лечения, ср. «pour me guerir»; слово ошибочно разорвано); скопировано и в text_ru. Скана текста нет — по смыслу
-- `v1-32-5-1` — text_fr — ocr, low: «La bonté s'épreuve dans l'aversité.» → «l'adversité» (пропущена d; ср. девиз Adversa); возможно, опечатка издания. text_ru переведён верно
+- `v1-32-5-1` — text_fr/meaning_fr — ocr, low: «La bonté s'épreuve dans l'aversité.» → «l'adversité» (пропущена d; ср. девиз Adversa); возможно, опечатка издания. text_ru переведён верно
 - `v1-32-8-1` — text_fr/motto_fr/text_ru — ocr, low: «Quebrantar lo cosa fea.» → [ES] девиз искажён: по толкованию («Rompre la foy c'est chose honteuse») ожидается «Quebrantar la fe, cosa fea» — пропущено «fe», «lo» вместо «la». Скана текста нет; не уверен
 - `v1-33-9-1` — text_fr/motto_fr/text_ru — ocr, medium: «Qui en se me oppone me corona.» → [ES] «Quien se me opone me corona» (слово «Quien» разорвано; итальянизированное «oppone»); скопировано и в text_ru. Скана текста нет; возможно, орфография издания
 - `v1-33-15-1` — text_fr/motto_fr/text_ru — ocr, medium: «Demi canto mi carcel.» → [ES] «De mi canto mi carcel» («от моего пения — моя темница»; слитное «Demi», ср. v1-27-7 «De mi regla mi valor»); скопировано и в text_ru. Скана текста нет — по смыслу
@@ -104,7 +104,7 @@
 - `v1-40-1-1` — text_fr/motto_fr/text_ru — ocr, low: «Mas firmezza chè luz.» → [ES] «Mas firmeza que luz» (итальянизированные «chè», «-zz-»; ср. v1-15-9, v1-23-1, v1-37-15); возможно, орфография издания. Скана текста нет; не уверен
 - `v1-40-8-1` — text_fr/motto_fr/text_ru — ocr, high: «Qui me alit extenguit.» → [LA] «extinguit» (ср. «me fait mourir»; известный девиз «Qui me alit me extinguit»); скопировано и в text_ru. Скана текста нет — по смыслу
 - `v1-40-12-1` — text_fr/motto_fr/text_ru — ocr, medium: «Ostendit navos, non contrahit.» → [LA] «nævos» (пятна/недостатки; лигатура æ потеряна, ср. «les défauts»); скопировано и в text_ru. Скана текста нет — по смыслу
-- `v1-41-7-1` — text_fr — ocr, medium: «Je suis devoyé au Soleil & à Mars.» → «devoüé» (dévoué — «посвящён»; devoyé — «сбит с пути»); text_ru «предан» переведён верно. Скана текста нет — по смыслу
+- `v1-41-7-1` — text_fr/meaning_fr — ocr, medium: «Je suis devoyé au Soleil & à Mars.» → «devoüé» (dévoué — «посвящён»; devoyé — «сбит с пути»); text_ru «предан» переведён верно. Скана текста нет — по смыслу
 - `v1-41-14-1` — text_fr/motto_fr/text_ru — ocr, high: «Si tempus fuverit.» → [LA] «Si tempus faverit» (ср. «Si le temps m'est favorable»); скопировано и в text_ru. Скана текста нет — по смыслу
 - `v1-42-2-1` — text_fr/motto_fr/text_ru — ocr, medium: «Servat que fovet que.» → [LA] «Servatque fovetque» (энклитика -que пишется слитно; ср. v1-25-6, v1-27-6); скопировано и в text_ru. Скана текста нет — по смыслу
 - `v1-42-11-1` — text_fr/motto_fr/text_ru — ocr, medium: «Solo haret cœlum spectat.» → [LA] «Solo hæret» (лигатура æ потеряна; ср. v1-28-7 «Cœlo hæret, solo lucet»); скопировано и в text_ru. Скана текста нет — по смыслу
@@ -134,7 +134,7 @@
 - `v1-59-12-1` — text_fr/motto_fr/text_ru — ocr, low: «Pale san lardore.» → [IT] слова слиты/искажены, смысла не дают; возможно «Palesa l'ardore» (обнаруживает жар — для алембика). Скана текста нет; не уверен
 - `v1-59-14-1` — text_fr/motto_fr/text_ru — ocr, low: «Mas dulcura che alteza.» → [ES] «Mas dulzura que alteza» (che — итальянизм, ср. v1-37-15; dulcura — вероятно, орфография издания). Скана текста нет; не уверен
 - `v1-60-8-1` — text_fr/motto_fr/text_ru — ocr, low: «Ne piu ardente, ne piu fidelle.» → [IT] «Né più ardente, né più fedele» (fidelle — офранцуженное написание; возможно, орфография издания). Не уверен
-- `v1-61-1-1` — text_fr — ocr, low: «Vne seule mé suffit.» → «me suffit» — лишний акцент (mé), вероятно OCR. Перевод верен. Скана текста нет
+- `v1-61-1-1` — text_fr/meaning_fr — ocr, low: «Vne seule mé suffit.» → «me suffit» — лишний акцент (mé), вероятно OCR. Перевод верен. Скана текста нет
 - `v1-61-3-1` — text_fr/motto_fr/text_ru — ocr, medium: «In flama & pur non arde.» → [IT] «In fiamma, e pur non arde» (fi → f, потеряна буква); скопировано и в text_ru. Скана текста нет — по смыслу
 - `v1-61-15-1` — text_fr/motto_fr/text_ru — ocr, medium: «Al fuoco solsi rende.» → [IT] «Al fuoco sol si rende» (слияние слов); скопировано и в text_ru. Скана текста нет — по смыслу
 - `v1-62-4-1` — text_fr/motto_fr/text_ru — ocr, low: «Deorsum non ovam.» → [LA] «ovam» смысла не даёт; для пламени ожидается что-то вроде «Deorsum nunquam» (никогда вниз); искажено. Скана текста нет; не уверен
@@ -148,59 +148,59 @@
 - `v1-1-10-1` — ru — mistranslation, low: «Femme maigre coëffée avec des Serpens» → заголовок: «Худая женщина со змеями в волосах» (Зависть — толкование, а не изображение; text_ru верно)
 - `v1-1-11-1` — ru/text_ru — mistranslation, medium: «Une Chévre qui est taitée par un jeune Loup.» → tetée (taitée) par un jeune Loup — «которую сосёт волчонок»: коза кормит волка себе на погибель (Sibi damna parat). Заголовок «Коза, вскармливающая волчонка»; text_ru «Коза, которую сосёт молодой волк»
 - `v1-3-5-1` — ru — mistranslation, low: «Plante qui produit des Calebaces» → сосуды не наполняются сами — это тыквы сами тянутся к сосудам с водой: «Растение-горлянка, тянущееся к сосудам с водой»
-- `v1-6-9-1` — text_ru — mistranslation, low: «Ne t'y fie, ni ne t'en défie.» → «Не доверяйся ему и не остерегайся его» (Fide & diffide); «вполне», «совсем», «отвергай» — пересказ, а не перевод
-- `v1-7-3-1` — text_ru — mistranslation, low: «Il est juste que les gourmans perissent.» → gourmands — «обжоры, жадные»: «Справедливо, чтобы обжоры погибали» (дефисная двойка «хищные-ненасытные» — следы черновика)
+- `v1-6-9-1` — text_ru/meaning_ru — mistranslation, low: «Ne t'y fie, ni ne t'en défie.» → «Не доверяйся ему и не остерегайся его» (Fide & diffide); «вполне», «совсем», «отвергай» — пересказ, а не перевод
+- `v1-7-3-1` — text_ru/meaning_ru — mistranslation, low: «Il est juste que les gourmans perissent.» → gourmands — «обжоры, жадные»: «Справедливо, чтобы обжоры погибали» (дефисная двойка «хищные-ненасытные» — следы черновика)
 - `v1-7-4-2` — text_ru — mistranslation, low: «Un Faucon qui pointe & fond sur une perdrix.» → pointer (о соколе) — «взмывать, устремляться ввысь», не «высматривать»: «Сокол, который взмывает и падает на куропатку»
-- `v1-7-6-1` — text_ru — mistranslation, low: «Les courageux vont par tout.» → переведён латинский девиз, а не французское толкование: «Смелые проходят повсюду»
-- `v1-7-15-1` — text_ru — mistranslation, low: «Bacchus l'accommode.» → переведён латинский девиз (Cum Baccho melius), а не французское толкование: «Вакх её настраивает / ей к лицу Вакх»
-- `v1-8-10-1` — text_ru — mistranslation, low: «Je vis où les autres meurent.» → переведён латинский девиз, а не французское толкование: «Я живу там, где другие умирают»
+- `v1-7-6-1` — text_ru/meaning_ru — mistranslation, low: «Les courageux vont par tout.» → переведён латинский девиз, а не французское толкование: «Смелые проходят повсюду»
+- `v1-7-15-1` — text_ru/meaning_ru — mistranslation, low: «Bacchus l'accommode.» → переведён латинский девиз (Cum Baccho melius), а не французское толкование: «Вакх её настраивает / ей к лицу Вакх»
+- `v1-8-10-1` — text_ru/meaning_ru — mistranslation, low: «Je vis où les autres meurent.» → переведён латинский девиз, а не французское толкование: «Я живу там, где другие умирают»
 - `v1-9-4-1` — ru — mistranslation, medium: «Ours qui attaque des Mouches à» → заголовок перевёрнут: медведь сам нападает на пчёл — «Медведь, нападающий на пчёл» (text_ru верно)
 - `v1-9-11-1` — text_ru — mistranslation, low: «Un Champ de Blé prest à couper.» → «сенокос» — о траве, не о хлебе; дефисная двойка — след черновика: «Поле пшеницы, готовое к жатве»
-- `v1-10-15-1` — text_ru — mistranslation, low: «Il a toujours de la vertu.» → переведён латинский девиз (Semper inclita virtus), а не толкование: «В ней всегда есть добродетель / сила»
+- `v1-10-15-1` — text_ru/meaning_ru — mistranslation, low: «Il a toujours de la vertu.» → переведён латинский девиз (Semper inclita virtus), а не толкование: «В ней всегда есть добродетель / сила»
 - `v1-11-6-1` — ru/text_ru — mistranslation, medium: «Une Lunette d'approche sur son genou.» → genou — шарнир (коленчатое крепление) штатива, не колено; на гравюре труба на треноге: «Подзорная труба на шарнирном штативе»
-- `v1-11-12-1` — text_ru — mistranslation, low: «On la connoît en la touchant.» → «по звону» — толкование латинского pulsu; французское: «Его узнают, когда по нему ударят / прикоснувшись к нему»
-- `v1-12-6-1` — text_ru — mistranslation, low: «L'amour nous tuë.» → «безудержная страсть» — из латинского Venus improba; французское: «Любовь нас убивает»
+- `v1-11-12-1` — text_ru/meaning_ru — mistranslation, low: «On la connoît en la touchant.» → «по звону» — толкование латинского pulsu; французское: «Его узнают, когда по нему ударят / прикоснувшись к нему»
+- `v1-12-6-1` — text_ru/meaning_ru — mistranslation, low: «L'amour nous tuë.» → «безудержная страсть» — из латинского Venus improba; французское: «Любовь нас убивает»
 - `v1-15-2-1` — ru/text_ru — mistranslation, low: «Vn Aigle posé avec ce mot.» → «avec ce mot» — «с таким девизом» (mot = девиз, т. е. следующий Fortis à forte), не «со словом рядом»: «Сидящий орёл с таким девизом»
-- `v1-16-3-1` — text_ru — mistranslation, medium: «Si je ne suis pas beau j'ay de la vertu en recompense.» → переведён латинский девиз, а не французское толкование: «Если я не красив, то взамен у меня есть доблесть»
-- `v1-16-8-1` — text_ru — mistranslation, low: «On ne me voit point sans s'en repentir.» → переведён латинский девиз (Nusquam visus impunè); французское: «Меня не видят, не пожалев об этом»
-- `v1-17-5-1` — text_ru — mistranslation, low: «Il y a plus de douceur que d'amertume.» → переведён латинский девиз (Plus mellis quam fellis), а не толкование: «В нём больше сладости, чем горечи»
-- `v1-17-14-1` — text_ru — mistranslation, low: «J'apporte la paix.» → «предвещаю» — из латинского prænuntia; французское: «Я приношу мир»
-- `v1-18-13-1` — text_ru — mistranslation, low: «L'envie fait la Cour à l'integrité.» → integrité — честность, непорочность, не «добродетель»; fait la Cour — «увивается»: «Зависть увивается за честностью»
-- `v1-19-14-1` — text_ru — mistranslation, medium: «Je suis assez fort pour aller seul.» → переведён латинский девиз, а не французское толкование: «Я достаточно силён, чтобы ходить одному»
-- `v1-20-8-1` — text_ru — mistranslation, low: «Il prend chez luy sa recompense.» → переведён латинский девиз (Sibi pulcherrima merces); французское: «Свою награду он находит в самом себе»
-- `v1-21-14-1` — text_ru — mistranslation, low: «C'est pour moy.» → переведён латинский девиз (Hoc mihi usu est); французское: «Это для меня»
-- `v1-22-11-1` — text_ru — mistranslation, low: «Elles ne travaillent qu'à la même chose.» → переведён латинский девиз (Labor omnibus unus); французское: «Они трудятся только над одним и тем же»
-- `v1-23-12-1` — text_ru — mistranslation, low: «Les nuages me dérobent ma lumiere.» → «солнце» — из латинского девиза (solem); французское: «Облака похищают у меня мой свет»
-- `v1-24-13-1` — text_ru — mistranslation, low: «Je r'accommoderay mon travail interrompu.» → «сотку» — из латинского retexam; французское: «Я исправлю свою прерванную работу»
-- `v1-25-2-1` — text_ru — mistranslation, low: «Elle se soustient d'elle-même.» → «собственной массой» — из латинского девиза (Mole sua stat); французское: «Она держится сама собой»
-- `v1-26-11-1` — text_ru — mistranslation, low: «Il recompense les doctes & les braves.» → «венчает» — из латинского coronat; французское: «Он награждает учёных и храбрых»
-- `v1-27-4-1` — text_ru — mistranslation, medium: «Je travaille pour les Autels & pour les Malades, ou je travaille pour Dieu & pour les homm …» → «pour les Malades» — «для больных» (французский читает девиз как ægris — больным), а не «для полей»: «Я тружусь для алтарей и для больных, или: для Бога и для людей»
-- `v1-27-12-1` — text_ru — mistranslation, medium: «Il est plus clair quand il paroist.» → переведён латинский девиз (De carcere clarior exit), а не толкование: «Она ярче, когда появляется»
-- `v1-30-1-1` — text_ru — mistranslation, low: «Sa naissance est modeste, & sa vieillesse honorable.» → «юность» — из латинского juventus; французское: «Его рождение скромно, а старость почтенна»
-- `v1-31-15-1` — text_ru — mistranslation, low: «Il en faut user sobrement.» → en — «им» (вином), не «всем» (обобщение из латинского modus in rebus): «Им следует пользоваться умеренно»
-- `v1-34-3-1` — text_ru — mistranslation, low: «On se ruine quand on attaque un plus fort que soy.» → se ruiner здесь — «губить себя», не «разоряться» (о деньгах): «Губишь себя, нападая на того, кто сильнее тебя»
-- `v1-34-5-1` — text_ru — mistranslation, low: «C'est l'épreuve de la fidelité.» → «истинное свидетельство» — из латинского vera notitia; французское: «Это проверка верности»
-- `v1-35-14-1` — text_ru — mistranslation, low: «L'arbre croît, & l'amour naît.» → «разгорается» — из латинского gliscit ardor; французское: «Дерево растёт, и любовь рождается»
-- `v1-37-2-1` — text_ru — mistranslation, low: «Je ne me soucie pas de disparoistre pourveu que j'aye brulé.» → «сиять» — из латинского luceam; французское brulé — «гореть»: «…лишь бы я успела сгореть / погореть»
-- `v1-38-12-1` — text_ru — mistranslation, low: «Ma durée est dans ma bonté.» → «жизнь» — из итальянского vita; французское durée: «Моя долговечность — в моих достоинствах (доброте)»
-- `v1-39-4-1` — text_ru — mistranslation, low: «Il annonce le printemps.» → переведён латинский девиз (Renovatum nuntiat annum); французское: «Он возвещает весну»
+- `v1-16-3-1` — text_ru/meaning_ru — mistranslation, medium: «Si je ne suis pas beau j'ay de la vertu en recompense.» → переведён латинский девиз, а не французское толкование: «Если я не красив, то взамен у меня есть доблесть»
+- `v1-16-8-1` — text_ru/meaning_ru — mistranslation, low: «On ne me voit point sans s'en repentir.» → переведён латинский девиз (Nusquam visus impunè); французское: «Меня не видят, не пожалев об этом»
+- `v1-17-5-1` — text_ru/meaning_ru — mistranslation, low: «Il y a plus de douceur que d'amertume.» → переведён латинский девиз (Plus mellis quam fellis), а не толкование: «В нём больше сладости, чем горечи»
+- `v1-17-14-1` — text_ru/meaning_ru — mistranslation, low: «J'apporte la paix.» → «предвещаю» — из латинского prænuntia; французское: «Я приношу мир»
+- `v1-18-13-1` — text_ru/meaning_ru — mistranslation, low: «L'envie fait la Cour à l'integrité.» → integrité — честность, непорочность, не «добродетель»; fait la Cour — «увивается»: «Зависть увивается за честностью»
+- `v1-19-14-1` — text_ru/meaning_ru — mistranslation, medium: «Je suis assez fort pour aller seul.» → переведён латинский девиз, а не французское толкование: «Я достаточно силён, чтобы ходить одному»
+- `v1-20-8-1` — text_ru/meaning_ru — mistranslation, low: «Il prend chez luy sa recompense.» → переведён латинский девиз (Sibi pulcherrima merces); французское: «Свою награду он находит в самом себе»
+- `v1-21-14-1` — text_ru/meaning_ru — mistranslation, low: «C'est pour moy.» → переведён латинский девиз (Hoc mihi usu est); французское: «Это для меня»
+- `v1-22-11-1` — text_ru/meaning_ru — mistranslation, low: «Elles ne travaillent qu'à la même chose.» → переведён латинский девиз (Labor omnibus unus); французское: «Они трудятся только над одним и тем же»
+- `v1-23-12-1` — text_ru/meaning_ru — mistranslation, low: «Les nuages me dérobent ma lumiere.» → «солнце» — из латинского девиза (solem); французское: «Облака похищают у меня мой свет»
+- `v1-24-13-1` — text_ru/meaning_ru — mistranslation, low: «Je r'accommoderay mon travail interrompu.» → «сотку» — из латинского retexam; французское: «Я исправлю свою прерванную работу»
+- `v1-25-2-1` — text_ru/meaning_ru — mistranslation, low: «Elle se soustient d'elle-même.» → «собственной массой» — из латинского девиза (Mole sua stat); французское: «Она держится сама собой»
+- `v1-26-11-1` — text_ru/meaning_ru — mistranslation, low: «Il recompense les doctes & les braves.» → «венчает» — из латинского coronat; французское: «Он награждает учёных и храбрых»
+- `v1-27-4-1` — text_ru/meaning_ru — mistranslation, medium: «Je travaille pour les Autels & pour les Malades, ou je travaille pour Dieu & pour les homm …» → «pour les Malades» — «для больных» (французский читает девиз как ægris — больным), а не «для полей»: «Я тружусь для алтарей и для больных, или: для Бога и для людей»
+- `v1-27-12-1` — text_ru/meaning_ru — mistranslation, medium: «Il est plus clair quand il paroist.» → переведён латинский девиз (De carcere clarior exit), а не толкование: «Она ярче, когда появляется»
+- `v1-30-1-1` — text_ru/meaning_ru — mistranslation, low: «Sa naissance est modeste, & sa vieillesse honorable.» → «юность» — из латинского juventus; французское: «Его рождение скромно, а старость почтенна»
+- `v1-31-15-1` — text_ru/meaning_ru — mistranslation, low: «Il en faut user sobrement.» → en — «им» (вином), не «всем» (обобщение из латинского modus in rebus): «Им следует пользоваться умеренно»
+- `v1-34-3-1` — text_ru/meaning_ru — mistranslation, low: «On se ruine quand on attaque un plus fort que soy.» → se ruiner здесь — «губить себя», не «разоряться» (о деньгах): «Губишь себя, нападая на того, кто сильнее тебя»
+- `v1-34-5-1` — text_ru/meaning_ru — mistranslation, low: «C'est l'épreuve de la fidelité.» → «истинное свидетельство» — из латинского vera notitia; французское: «Это проверка верности»
+- `v1-35-14-1` — text_ru/meaning_ru — mistranslation, low: «L'arbre croît, & l'amour naît.» → «разгорается» — из латинского gliscit ardor; французское: «Дерево растёт, и любовь рождается»
+- `v1-37-2-1` — text_ru/meaning_ru — mistranslation, low: «Je ne me soucie pas de disparoistre pourveu que j'aye brulé.» → «сиять» — из латинского luceam; французское brulé — «гореть»: «…лишь бы я успела сгореть / погореть»
+- `v1-38-12-1` — text_ru/meaning_ru — mistranslation, low: «Ma durée est dans ma bonté.» → «жизнь» — из итальянского vita; французское durée: «Моя долговечность — в моих достоинствах (доброте)»
+- `v1-39-4-1` — text_ru/meaning_ru — mistranslation, low: «Il annonce le printemps.» → переведён латинский девиз (Renovatum nuntiat annum); французское: «Он возвещает весну»
 - `v1-40-9-1` — ru/text_ru — mistranslation, low: «Une Cavale toute nuë sans selle & sans bride, & courant.» → toute nuë о лошади — «неосёдланная, без сбруи», «нагая» звучит нелепо: «Кобылица без всякой сбруи, без седла и без узды, скачущая»
-- `v1-44-1-1` — text_ru — mistranslation, low: «Ces choses ne me briseront pas.» → «не повредит» — из латинского nocent; французское: «Это меня не сломит»
-- `v1-47-5-1` — text_ru — mistranslation, medium: «La bonté de Dieu nous rend joyeux.» → «дарит нам этот досуг» — из латинского девиза (Deus nobis hæc otia fecit); французское: «Благость Божья делает нас радостными»
-- `v1-49-3-1` — text_ru — mistranslation, low: «Double assurance.» → assurance здесь — «защита, безопасность» (ср. Securitas altera): «Двойная защита»
-- `v1-50-5-1` — text_ru — mistranslation, low: «Je vis de ce qui m'est contraire.» → contraire — «противоположное, враждебное», не «противно» (отвратительно): «Я живу тем, что мне противоположно»
-- `v1-51-6-1` — text_ru — mistranslation, low: «C'est une temerité que cet insulte.» → insulte (м. р., XVII в.) — «нападение, натиск», ср. «un enfant armé qui l'attaque»: «Это нападение — безрассудство»
+- `v1-44-1-1` — text_ru/meaning_ru — mistranslation, low: «Ces choses ne me briseront pas.» → «не повредит» — из латинского nocent; французское: «Это меня не сломит»
+- `v1-47-5-1` — text_ru/meaning_ru — mistranslation, medium: «La bonté de Dieu nous rend joyeux.» → «дарит нам этот досуг» — из латинского девиза (Deus nobis hæc otia fecit); французское: «Благость Божья делает нас радостными»
+- `v1-49-3-1` — text_ru/meaning_ru — mistranslation, low: «Double assurance.» → assurance здесь — «защита, безопасность» (ср. Securitas altera): «Двойная защита»
+- `v1-50-5-1` — text_ru/meaning_ru — mistranslation, low: «Je vis de ce qui m'est contraire.» → contraire — «противоположное, враждебное», не «противно» (отвратительно): «Я живу тем, что мне противоположно»
+- `v1-51-6-1` — text_ru/meaning_ru — mistranslation, low: «C'est une temerité que cet insulte.» → insulte (м. р., XVII в.) — «нападение, натиск», ср. «un enfant armé qui l'attaque»: «Это нападение — безрассудство»
 - `v1-51-15-1` — ru/text_ru — mistranslation, low: «qui le quitte pour aller prendre un Mouton qu'il manque.» → qu'il manque — «которого он упускает» (промахивается), а не «ускользающей»: «…бросает её, чтобы схватить барана/овцу, и упускает его»
-- `v1-55-1-1` — text_ru — mistranslation, low: «Il a seul toute mon amour.» → перевод латинского девиза, а не французского толкования: «Он один владеет всей моей любовью»
-- `v1-55-5-1` — text_ru — mistranslation, low: «La societé n'est bonne que parmy ses semblables.» → перевод латинского девиза (Dissimilium infida societas), а не французского толкования: «Общество хорошо лишь среди себе подобных»
-- `v1-56-10-1` — text_ru — mistranslation, low: «Sa fuite le rend plus beau.» → fuite — «бегство» (ср. лат. fuga), не «полёт»: «Бегство делает его прекраснее»
-- `v1-57-2-1` — text_ru — mistranslation, low: «Il n'est rien de plus ardant.» → ardant (ardent) — «пылающий, жгучий», не «яростный» (оттенок из лат. vehementior): «Нет ничего более пылающего / жгучего»
-- `v1-61-4-1` — text_ru — mistranslation, medium: «J'éleve ou je consomme.» → глаголы переходные, говорит Солнце: élever — «возвышать», consommer (consumer) — «сжигать, истреблять»: «Я возвышаю или сжигаю»
-- `v1-61-6-1` — text_ru — mistranslation, low: «Vn même penchant nous unit.» → penchant — игра слов «наклон / склонность»; «наклон» теряет любовный смысл: «Нас соединяет одна склонность»
-- `v1-63-10-1` — text_ru — mistranslation, low: «Elle paroist plus grande estant tombée.» → пересказ латинского девиза; французское толкование: «Упав, она кажется больше»
+- `v1-55-1-1` — text_ru/meaning_ru — mistranslation, low: «Il a seul toute mon amour.» → перевод латинского девиза, а не французского толкования: «Он один владеет всей моей любовью»
+- `v1-55-5-1` — text_ru/meaning_ru — mistranslation, low: «La societé n'est bonne que parmy ses semblables.» → перевод латинского девиза (Dissimilium infida societas), а не французского толкования: «Общество хорошо лишь среди себе подобных»
+- `v1-56-10-1` — text_ru/meaning_ru — mistranslation, low: «Sa fuite le rend plus beau.» → fuite — «бегство» (ср. лат. fuga), не «полёт»: «Бегство делает его прекраснее»
+- `v1-57-2-1` — text_ru/meaning_ru — mistranslation, low: «Il n'est rien de plus ardant.» → ardant (ardent) — «пылающий, жгучий», не «яростный» (оттенок из лат. vehementior): «Нет ничего более пылающего / жгучего»
+- `v1-61-4-1` — text_ru/meaning_ru — mistranslation, medium: «J'éleve ou je consomme.» → глаголы переходные, говорит Солнце: élever — «возвышать», consommer (consumer) — «сжигать, истреблять»: «Я возвышаю или сжигаю»
+- `v1-61-6-1` — text_ru/meaning_ru — mistranslation, low: «Vn même penchant nous unit.» → penchant — игра слов «наклон / склонность»; «наклон» теряет любовный смысл: «Нас соединяет одна склонность»
+- `v1-63-10-1` — text_ru/meaning_ru — mistranslation, low: «Elle paroist plus grande estant tombée.» → пересказ латинского девиза; французское толкование: «Упав, она кажется больше»
 - `v1-63-14-1` — ru/text_ru — mistranslation, medium: «Une Pyramide dans la mer batuë des flos & des vents.» → batuë des flots — страдательный оборот («битая волнами»), пирамида неподвижна: «Пирамида в море, которую бьют волны и ветры»
-- `v1-63-14-2` — text_ru — mistranslation, medium: «Je suis en vain batuë de toutes parts.» → тот же страдательный оборот: «Меня тщетно бьют со всех сторон»
-- `v1-63-15-1` — text_ru — mistranslation, low: «On se repentira de m'attaquer dans mon repos.» → перевод латинского девиза, а не французского толкования: «Пожалеет тот, кто нападёт на меня, пока я в покое»
+- `v1-63-14-2` — text_ru/meaning_ru — mistranslation, medium: «Je suis en vain batuë de toutes parts.» → тот же страдательный оборот: «Меня тщетно бьют со всех сторон»
+- `v1-63-15-1` — text_ru/meaning_ru — mistranslation, low: «On se repentira de m'attaquer dans mon repos.» → перевод латинского девиза, а не французского толкования: «Пожалеет тот, кто нападёт на меня, пока я в покое»
 
 #### addition — 39
 
@@ -209,46 +209,46 @@
 - `v1-4-15-1` — text_ru/meaning_ru — addition, low: «non may ingrata.» → толкования в оригинале нет (meaning_fr пуст), RU добавил перевод девиза; к тому же ingrata — жен. р.: «Никогда не бываю неблагодарной». Пометить как перевод девиза или убрать; не уверен, что нужно править
 - `v1-5-4-1` — text_ru — addition, high: «Une Harpe.» → «Без строя — нет гармонии» в оригинале нет (первый абзац — только «Une Harpe.»): «Арфа.»
 - `v1-5-11-1` — ru — addition, low: «Olivier chargé d'un sep de vigne» → «привитой» в оригинале нет (chargé — «обременённая, обвитая»): «Маслина, обвитая виноградной лозой» (ср. девиз Non conveniunt)
-- `v1-7-4-1` — text_ru — addition, medium: «Il faut nous contenter de ce qui nous est destiné.» → «То, что выше нас, нас не касается;» — перевод латинского девиза, вставленный во французское толкование: «Нужно довольствоваться тем, что нам предназначено.»
+- `v1-7-4-1` — text_ru/meaning_ru — addition, medium: «Il faut nous contenter de ce qui nous est destiné.» → «То, что выше нас, нас не касается;» — перевод латинского девиза, вставленный во французское толкование: «Нужно довольствоваться тем, что нам предназначено.»
 - `v1-7-12-1` — text_ru — addition, low: «Vn Renard qui tient la teste d'une statuë humaine.» → «в пасти» в оригинале нет: «Лис, держащий голову человеческой статуи»
-- `v1-8-6-1` — text_ru — addition, medium: «Elle a servy à beaucoup de victoires.» → «Скольких чудовищ она одолела —» — перевод латинского девиза, вставленный в толкование: «Она послужила многим победам.»
+- `v1-8-6-1` — text_ru/meaning_ru — addition, medium: «Elle a servy à beaucoup de victoires.» → «Скольких чудовищ она одолела —» — перевод латинского девиза, вставленный в толкование: «Она послужила многим победам.»
 - `v1-8-12-1` — text_ru/meaning_ru — addition, high: «Vn Niveau, ny çà, ny là.» → служебная заглушка переводчика: во французском один абзац, meaning_fr пуст — второй абзац text_ru и meaning_ru удалить (пустая строка)
 - `v1-9-13-1` — ru — addition, low: «Coq sur une Trompette» → «боевой» в оригинале нет: «Петух на трубе» (text_ru верно)
-- `v1-10-6-1` — text_ru — addition, medium: «A force de se froter, le feu en sort.» → «Сила рождается от силы:» — перевод латинского девиза (Vim ex vi), вставленный в толкование: «От трения возникает огонь»
-- `v1-12-2-1` — text_ru — addition, low: «Il se renouvelle.» → «сбросив старую кожу» — из латинского девиза (positis exuviis), во французском нет: «Она обновляется»
-- `v1-12-3-1` — text_ru — addition, medium: «Elle a tous ses feux.» → «Прометей ничего у неё не отнял:» — перевод латинского девиза, вставленный в толкование: «Все её огни при ней»
-- `v1-12-15-1` — text_ru — addition, medium: «La vertu croist toûjours.» → «не знает убывания,» — перевод латинского девиза, вставленный в толкование: «Добродетель всегда растёт»
-- `v1-14-2-1` — text_ru — addition, medium: «La prudence les fait voir de tous côtez.» → «Осторожные люди:» — перевод латинского девиза (Prudentes), вставленный в толкование: «Благоразумие заставляет их видеть со всех сторон»
-- `v1-14-5-1` — text_ru — addition, medium: «Heureux si nous pouvions trouver de pareils amis.» → «Да сохранится такая любовь;» — перевод латинского девиза (Talis amor teneat), вставленный в толкование: «Счастливы были бы мы, найдя подобных друзей»
-- `v1-15-13-1` — text_ru — addition, medium: «Elle est au dessus du hazard.» → «он не боится фортуны» — перевод латинского девиза, вставленный в толкование: «Он выше случая»
-- `v1-15-14-1` — text_ru — addition, low: «On ne le cüeille point sans travail.» → «и горечи» — из латинского девиза (amaritudine), во французском только travail: «Его не срывают без труда»
-- `v1-16-2-1` — text_ru — addition, low: «Il nous met à couvert du mauvais temps.» → «— летом и зимой» — из латинского девиза, во французском нет: «Он укрывает нас от непогоды»
-- `v1-16-10-2` — text_ru — addition, low: «Elle deffend sa maison avec ses armes.» → «жалом-» — из латинского mucrone, дефисная двойка: «Она защищает свой дом своим оружием»
-- `v1-16-12-1` — text_ru — addition, medium: «Il sçait se deffendre.» → «Он отражает летящие стрелы и» — перевод латинского девиза, вставленный в толкование: «Он умеет защищаться»
-- `v1-17-7-1` — text_ru — addition, low: «Entreprenez quelque chose de grand.» → «достойное и» — из латинского девиза (dignum), во французском только grand: «Предпримите что-нибудь великое»
-- `v1-17-15-1` — text_ru — addition, low: «Elle sort plus freche & plus gaye.» → «Погружаясь,» — из латинского девиза (Dum mergitur), во французском нет: «Она выходит более свежей и бодрой»
-- `v1-18-2-1` — text_ru — addition, low: «Il est tout fier de resister aux vents.» → «что неподвижен и» — из латинского immota, во французском нет: «Он весь горд тем, что противостоит ветрам»
-- `v1-18-8-1` — text_ru — addition, medium: «Il faut le ployer & non pas le rompre.» → «покорностью, а не силой» — перевод латинского девиза (Obsequio non vi), вставленный в толкование: «Его нужно сгибать, а не ломать»
+- `v1-10-6-1` — text_ru/meaning_ru — addition, medium: «A force de se froter, le feu en sort.» → «Сила рождается от силы:» — перевод латинского девиза (Vim ex vi), вставленный в толкование: «От трения возникает огонь»
+- `v1-12-2-1` — text_ru/meaning_ru — addition, low: «Il se renouvelle.» → «сбросив старую кожу» — из латинского девиза (positis exuviis), во французском нет: «Она обновляется»
+- `v1-12-3-1` — text_ru/meaning_ru — addition, medium: «Elle a tous ses feux.» → «Прометей ничего у неё не отнял:» — перевод латинского девиза, вставленный в толкование: «Все её огни при ней»
+- `v1-12-15-1` — text_ru/meaning_ru — addition, medium: «La vertu croist toûjours.» → «не знает убывания,» — перевод латинского девиза, вставленный в толкование: «Добродетель всегда растёт»
+- `v1-14-2-1` — text_ru/meaning_ru — addition, medium: «La prudence les fait voir de tous côtez.» → «Осторожные люди:» — перевод латинского девиза (Prudentes), вставленный в толкование: «Благоразумие заставляет их видеть со всех сторон»
+- `v1-14-5-1` — text_ru/meaning_ru — addition, medium: «Heureux si nous pouvions trouver de pareils amis.» → «Да сохранится такая любовь;» — перевод латинского девиза (Talis amor teneat), вставленный в толкование: «Счастливы были бы мы, найдя подобных друзей»
+- `v1-15-13-1` — text_ru/meaning_ru — addition, medium: «Elle est au dessus du hazard.» → «он не боится фортуны» — перевод латинского девиза, вставленный в толкование: «Он выше случая»
+- `v1-15-14-1` — text_ru/meaning_ru — addition, low: «On ne le cüeille point sans travail.» → «и горечи» — из латинского девиза (amaritudine), во французском только travail: «Его не срывают без труда»
+- `v1-16-2-1` — text_ru/meaning_ru — addition, low: «Il nous met à couvert du mauvais temps.» → «— летом и зимой» — из латинского девиза, во французском нет: «Он укрывает нас от непогоды»
+- `v1-16-10-2` — text_ru/meaning_ru — addition, low: «Elle deffend sa maison avec ses armes.» → «жалом-» — из латинского mucrone, дефисная двойка: «Она защищает свой дом своим оружием»
+- `v1-16-12-1` — text_ru/meaning_ru — addition, medium: «Il sçait se deffendre.» → «Он отражает летящие стрелы и» — перевод латинского девиза, вставленный в толкование: «Он умеет защищаться»
+- `v1-17-7-1` — text_ru/meaning_ru — addition, low: «Entreprenez quelque chose de grand.» → «достойное и» — из латинского девиза (dignum), во французском только grand: «Предпримите что-нибудь великое»
+- `v1-17-15-1` — text_ru/meaning_ru — addition, low: «Elle sort plus freche & plus gaye.» → «Погружаясь,» — из латинского девиза (Dum mergitur), во французском нет: «Она выходит более свежей и бодрой»
+- `v1-18-2-1` — text_ru/meaning_ru — addition, low: «Il est tout fier de resister aux vents.» → «что неподвижен и» — из латинского immota, во французском нет: «Он весь горд тем, что противостоит ветрам»
+- `v1-18-8-1` — text_ru/meaning_ru — addition, medium: «Il faut le ployer & non pas le rompre.» → «покорностью, а не силой» — перевод латинского девиза (Obsequio non vi), вставленный в толкование: «Его нужно сгибать, а не ломать»
 - `v1-18-9-1` — meaning_ru — addition, low: «Virescit vulnere virtus.» → во французском толкования нет (meaning_fr пуст, text_fr из двух абзацев) — meaning_ru переводит латинский девиз; перевод верен, но это добавление. Возможно, толкование потеряно в самом text_fr — проверить по изданию
-- `v1-18-15-1` — text_ru — addition, low: «Je repousse aprés avoir esté blessé.» → «поражён и» — двойка, во французском только blessé: «Я вновь отрастаю после того, как был ранен»
-- `v1-19-11-1` — text_ru — addition, medium: «Il vaut mieux étant vieux.» → «и достоин похвалы в старости» — перевод латинского девиза (Non illaudata senectus), вставленный в толкование: «Старея, он становится лучше»
-- `v1-20-10-1` — text_ru — addition, low: «Il chante ou du moins il annonce sa mort & celle des autres.» → «для себя и для мира» — из латинского девиза (Sibi canit & orbi), во французском нет: «Он поёт или по крайней мере возвещает свою смерть и смерть других»
-- `v1-23-9-2` — text_ru — addition, low: «Il se joüe aprés l'orage.» → «на волнах» — из латинского девиза, во французском нет: «Оно резвится после бури»
-- `v1-24-11-1` — text_ru — addition, low: «Ce n'est pas pour elle qu'elle sonne.» → «одного» — из латинского uni; французское: «Он звонит не для себя»
-- `v1-26-14-1` — text_ru — addition, low: «Elle se consomme dans la guerre.» → «но» — из латинского sed, во французском противопоставления нет: «Он сгорает на войне»
-- `v1-27-15-1` — text_ru — addition, low: «La vertu ne craint rien.» → «Благородная» — из латинского generosa, во французском нет: «Доблесть ничего не боится»
-- `v1-28-13-1` — text_ru — addition, low: «Je ne cherche que la justice.» → «прямое и» — из испанского девиза (retto), во французском только justice: «Я ищу только справедливости»
-- `v1-41-1-1` — text_ru — addition, low: «Il menace & n'a point peur.» → «бедой» — из латинского damnum, во французском нет: «Он грозит и ничего не боится»
-- `v1-42-14-1` — text_ru — addition, low: «Jusqu'à ce qu'on me lâche.» → «на врага» — из латинского in hostem, во французском нет: «Пока меня не спустят»
-- `v1-44-13-1` — text_ru — addition, low: «Il y restera tant que je vivray.» → «и помню себя» — из латинского memor ipse mei, во французском нет: «Он останется там, пока я жив»
-- `v1-48-6-1` — text_ru — addition, low: «Mon odeur en est plus douce.» → «От противоположности» — из латинского девиза (Per opposita), во французском нет: «Мой запах от этого становится слаще»
-- `v1-52-6-1` — text_ru — addition, low: «La vertu m'a élevée.» → «к небесам» — из латинского ad æthera; во французском толковании нет: «Доблесть возвысила меня»
+- `v1-18-15-1` — text_ru/meaning_ru — addition, low: «Je repousse aprés avoir esté blessé.» → «поражён и» — двойка, во французском только blessé: «Я вновь отрастаю после того, как был ранен»
+- `v1-19-11-1` — text_ru/meaning_ru — addition, medium: «Il vaut mieux étant vieux.» → «и достоин похвалы в старости» — перевод латинского девиза (Non illaudata senectus), вставленный в толкование: «Старея, он становится лучше»
+- `v1-20-10-1` — text_ru/meaning_ru — addition, low: «Il chante ou du moins il annonce sa mort & celle des autres.» → «для себя и для мира» — из латинского девиза (Sibi canit & orbi), во французском нет: «Он поёт или по крайней мере возвещает свою смерть и смерть других»
+- `v1-23-9-2` — text_ru/meaning_ru — addition, low: «Il se joüe aprés l'orage.» → «на волнах» — из латинского девиза, во французском нет: «Оно резвится после бури»
+- `v1-24-11-1` — text_ru/meaning_ru — addition, low: «Ce n'est pas pour elle qu'elle sonne.» → «одного» — из латинского uni; французское: «Он звонит не для себя»
+- `v1-26-14-1` — text_ru/meaning_ru — addition, low: «Elle se consomme dans la guerre.» → «но» — из латинского sed, во французском противопоставления нет: «Он сгорает на войне»
+- `v1-27-15-1` — text_ru/meaning_ru — addition, low: «La vertu ne craint rien.» → «Благородная» — из латинского generosa, во французском нет: «Доблесть ничего не боится»
+- `v1-28-13-1` — text_ru/meaning_ru — addition, low: «Je ne cherche que la justice.» → «прямое и» — из испанского девиза (retto), во французском только justice: «Я ищу только справедливости»
+- `v1-41-1-1` — text_ru/meaning_ru — addition, low: «Il menace & n'a point peur.» → «бедой» — из латинского damnum, во французском нет: «Он грозит и ничего не боится»
+- `v1-42-14-1` — text_ru/meaning_ru — addition, low: «Jusqu'à ce qu'on me lâche.» → «на врага» — из латинского in hostem, во французском нет: «Пока меня не спустят»
+- `v1-44-13-1` — text_ru/meaning_ru — addition, low: «Il y restera tant que je vivray.» → «и помню себя» — из латинского memor ipse mei, во французском нет: «Он останется там, пока я жив»
+- `v1-48-6-1` — text_ru/meaning_ru — addition, low: «Mon odeur en est plus douce.» → «От противоположности» — из латинского девиза (Per opposita), во французском нет: «Мой запах от этого становится слаще»
+- `v1-52-6-1` — text_ru/meaning_ru — addition, low: «La vertu m'a élevée.» → «к небесам» — из латинского ad æthera; во французском толковании нет: «Доблесть возвысила меня»
 
 #### typo — 3
 
 - `v1-3-6-1` — text_ru/meaning_ru — typo, medium: «Toute sorte de chair,» → опечатка/несогласование: «Всякая плоть, то есть вся человеческая красота, подобна мне и есть лишь сено» (c'est à dire передать как пояснение)
 - `v1-31-6-1` — ru/text_ru — typo, medium: «Un Laurier soutenant un Sep de vigne.» → тавтология «лозу виноградной лозы»: «Лавр, поддерживающий виноградную лозу»
-- `v1-36-6-1` — text_ru — typo, medium: «Si j'endommage je recompense.» → «вредлю» — несуществующая форма: «Если я наношу ущерб, то и вознаграждаю»
+- `v1-36-6-1` — text_ru/meaning_ru — typo, medium: «Si j'endommage je recompense.» → «вредлю» — несуществующая форма: «Если я наношу ущерб, то и вознаграждаю»
 
 #### name — 12
 
@@ -269,7 +269,7 @@
 
 - `v1-8-12-2` — text_fr/motto_fr — omission, low: «Vn Niveau, ny çà, ny là.» → разбивка: «ny çà, ny là» («ни туда, ни сюда»), вероятно, — девиз/толкование, слитый с описанием; motto_fr пуст. Скана текста нет — проверить по изданию; не уверен
 - `v1-14-6-1` — text_ru — omission, low: «Vne Borne ou bute de terre dans un Carrefour, avec une tête de Mercure dessus.» → пропущено «ou bute de terre»: «Межевой столб, или земляной холмик, на перекрёстке, с головой Меркурия наверху»
-- `v1-20-11-1` — text_ru — omission, medium: «Mon innocence ne craint point la foudre.» → переведён латинский девиз; пропущено «Mon innocence»: «Моя невинность не страшится молнии»
+- `v1-20-11-1` — text_ru/meaning_ru — omission, medium: «Mon innocence ne craint point la foudre.» → переведён латинский девиз; пропущено «Mon innocence»: «Моя невинность не страшится молнии»
 - `v1-26-4-1` — text_fr/motto_fr/meaning_fr — omission, low: «Un Lion vaillant & veillant.» → разбивка: только описание, девиза и толкования нет (motto_fr, meaning_fr пусты), в отличие от соседних эмблем; возможно, потеряны при извлечении текста. Перевод того, что есть, верен. Скана текста нет; не уверен
 - `v1-60-2-1` — text_fr/motto_fr/text_ru — omission, low: «Decoris, roboris & custod... [illegible]» → девиз оборван в источнике извлечения («custod…» — вероятно custodiæ); нужно сверить с изданием и дописать в оригинал и перевод. Скана текста нет
 
@@ -340,7 +340,7 @@
 - Заголовки `fr`/`name_fr` в начале части 1 (86 записей, v1-1-1…v1-15-13) — укороченное начало описания, у части из них (не меньше 35) обрыв посреди фразы на служебном слове («Homme qui se fait traîner dans», «Faucon qui pointe & fond sur»). Начиная с v1-16 заголовки полные. Перевод `ru` дан по полному описанию.
 - В 9 записях части 1 (v1-19-1, v1-19-8, v1-20-3, v1-21-2, v1-22-8, v1-24-14, v1-28-1, v1-30-9, v1-31-12) `fr` обрезан ровно на 80 символах, а `name_fr` полный.
 - Абзацев в `text_ru` больше, чем в `text_fr`, у 3 записей: v1-4-14, v1-4-15, v1-8-12 (в переводе добавлено толкование или заглушка; см. issue выше).
-- Девиз и толкование продублированы: девиз — в `text_fr` §2 и `motto_fr`, толкование — в последнем абзаце `text_fr`/`text_ru` и в `meaning_fr`/`meaning_ru`. Правку надо вносить в оба места (см. «Расхождения JSON и CSV»).
+- Девиз и толкование продублированы: девиз — в `text_fr` §2 и `motto_fr`, толкование — в последнем абзаце `text_fr`/`text_ru` и в `meaning_fr`/`meaning_ru`. В замечаниях указаны оба поля.
 
 ## Подписи к гравюрам
 
@@ -634,8 +634,11 @@
 
 ## Расхождения JSON и CSV
 
-- В 77 замечаниях части 1 к толкованию указано только поле `text_ru`, хотя тот же текст лежит и в `meaning_ru`; в 6 замечаниях к французскому толкованию нет `meaning_fr` (`v1-7-9-1`, `v1-26-15-1`, `v1-29-5-1`, `v1-32-5-1`, `v1-41-7-1`, `v1-61-1-1`). Правку надо вносить в оба поля; счёт вхождений выше занижен на эти поля. JSON не менялись.
-- Строки `verrien-p2-mono` в `progress.csv` записаны в своём формате (проверено, обычные, со странностями, issue), а не «проверено, ok, minor, major» по заголовку. В формате заголовка итог был бы `verrien-p2-mono,2062,2051,11,0`. Не исправлено.
-- Тип `typo` (13 замечаний: 3 в части 1, 10 в монограммах) не входит в список типов GROK.md; так же, как в alciato.
+Найдены при сборке сводки и исправлены (только в файлах `_review/grok/`, `entries.json` не трогался):
+
+- **Поля толкования.** В 77 замечаниях части 1 к толкованию было указано только `text_ru`, хотя тот же текст лежит в `meaning_ru`; в 6 замечаниях к французскому толкованию не было `meaning_fr` (`v1-7-9-1`, `v1-26-15-1`, `v1-29-5-1`, `v1-32-5-1`, `v1-41-7-1`, `v1-61-1-1`). Поля добавлены в JSON, счёт вхождений по полям в «Итоге» пересчитан (было 509, стало 592). Число уникальных ошибок не изменилось.
+- **progress.csv, монограммы.** Строки `verrien-p2-mono` по пакетам записаны в формате сканирования (проверено, обычные, со странностями, issue), а не «проверено, ok, minor, major» по заголовку. Они оставлены как есть; в конец добавлена итоговая строка в формате заголовка `verrien-p2-mono,2062,2051,11,0` (2051 ok = 2013 обычных + 38 ok среди 49 со странностями). Для итогов брать её.
+- **Тип `typo`.** Не входит в список типов GROK.md, но используется последовательно (опечатки в переводе и в подписях: 3 в части 1, 10 в монограммах) и так же, как в alciato; оставлен.
+- **v1-8-12 и v1-26-4** (нет ни девиза, ни толкования) оставлены с замечаниями: это проблемы разбивки текста, а не «девиз без толкования», под снятие 8 замечаний не подпадают.
 - Остальное сходится: вердикты в JSON совпадают с последними строками `progress.csv` по каждой части; 49 JSON монограмм = 49 строк `monograms_anomalies.csv` (без 2 строк-пропусков), вердикты совпадают; сумма `monograms_scan.csv` = 2062 / 2013 / 49 / 11; `motto_gloss_pattern.csv` совпадает с данными; повторов issue_id нет.
 
