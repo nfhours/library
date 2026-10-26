@@ -1,0 +1,23 @@
+{
+  "id": "v2-102-7",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v2-102-7-1",
+      "fields": [
+        "ru",
+        "text_ru",
+        "meaning_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "REFORMATION",
+      "current": "Реформация",
+      "suggested": "в аллегорическом словаре REFORMATION — «исправление, преобразование (нравов)», а не историческая Реформация; тот же заголовок в v2-18-15 переведён «Исправление». Предлагается «Исправление (нравов)» — единообразно с v2-18-15",
+      "confidence": "medium"
+    }
+  ]
+}
