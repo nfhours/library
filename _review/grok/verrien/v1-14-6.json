@@ -1,0 +1,21 @@
+{
+  "id": "v1-14-6",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-14-6-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "omission",
+      "original": "Vne Borne ou bute de terre dans un Carrefour, avec une tête de Mercure dessus.",
+      "current": "Межевой столб на перекрёстке, с головой Меркурия наверху.",
+      "suggested": "пропущено «ou bute de terre»: «Межевой столб, или земляной холмик, на перекрёстке, с головой Меркурия наверху»",
+      "confidence": "low"
+    }
+  ]
+}

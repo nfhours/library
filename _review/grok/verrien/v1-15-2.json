@@ -1,0 +1,22 @@
+{
+  "id": "v1-15-2",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v1-15-2-1",
+      "fields": [
+        "ru",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Vn Aigle posé avec ce mot.",
+      "current": "Сидящий орёл с надписью / Сидящий орёл со словом рядом.",
+      "suggested": "«avec ce mot» — «с таким девизом» (mot = девиз, т. е. следующий Fortis à forte), не «со словом рядом»: «Сидящий орёл с таким девизом»",
+      "confidence": "low"
+    }
+  ]
+}
