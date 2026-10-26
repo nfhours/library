@@ -1,0 +1,30 @@
+{
+  "id": "v2-150-14",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "issue_id": "v2-150-14-1",
+      "fields": [
+        "fr",
+        "name_fr",
+        "text_fr",
+        "ru",
+        "text_ru"
+      ],
+      "field": "fr",
+      "type": "typo",
+      "original": "GXZ",
+      "current": "GXZ",
+      "suggested": "«GYZ» — по ряду FXZ, [GYZ] и отсутствию GYZ в наборе; на гравюре «GXZ». Подпись сверена со сканом; чтение вензеля не проверялось",
+      "confidence": "medium",
+      "paragraph": 1
+    }
+  ],
+  "scan": "monogram",
+  "anomaly": {
+    "kind": "caption_typo",
+    "note": "на доске v2-150 (гравир. «148») ряд EVX, EVY, EVZ, FXY, FXZ, GXZ: ожидается GYZ (ср. DVX…EXY, EXZ, FYZ; CTV…DXY, DXZ, EYZ). GYZ во всей части отсутствует, GXZ уже есть на своём месте (v2-148-7). На гравюре «GXZ» — опечатка издания, повторённая в данных и переводе"
+  }
+}
