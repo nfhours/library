@@ -1,0 +1,34 @@
+{
+  "id": "p1-132",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-132-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "vne expression des choses divines, dont vne fureur celeste embraze l'entendement",
+      "current": "выражение божественных вещей, чьё небесное неистовство воспламеняет разум",
+      "suggested": "выражение божественных вещей, которыми небесное неистовство воспламеняет разум (неистовство — небесное, а не «принадлежит вещам»); EN верно",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "p1-132-2",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 5,
+      "type": "mistranslation",
+      "original": "Sur tous les actes vicieux / Leur fait haïr l'ingratitude",
+      "current": "Всем порочным деяниям / Внушает ненависть к неблагодарности",
+      "suggested": "Более всех порочных деяний / Внушает им ненависть к неблагодарности («sur tous» = превыше всех; «leur» = Музам); EN «Above all vicious deeds» верно",
+      "confidence": "low"
+    }
+  ]
+}

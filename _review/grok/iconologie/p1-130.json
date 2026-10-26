@@ -1,0 +1,21 @@
+{
+  "id": "p1-130",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-130-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "mais il faut necessairement que la Perseverance y soit jointe",
+      "current": "необходимо, чтобы с ней непременно соединялось Постоянство (заголовок RU — «Настойчивость»)",
+      "suggested": "держать один термин для Perseverance: в заголовке «Настойчивость», в тексте «Постоянство» (ср. отдельную статью Constance). Предлагается «Настойчивость» или сменить заголовок на «Упорство/Постоянство» — не уверен, какой термин выбран для книги",
+      "confidence": "low"
+    }
+  ]
+}

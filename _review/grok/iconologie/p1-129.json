@@ -1,0 +1,34 @@
+{
+  "id": "p1-129",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-129-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "qui depuis le bois prochain l'avoient toûjours poursuivy",
+      "current": "которые с тех пор из ближнего леса неотступно его преследовали",
+      "suggested": "которые неотступно гнались за ним от самого ближнего леса («depuis» здесь — «от», пространственное, а не «с тех пор»); EN верно",
+      "confidence": "low"
+    },
+    {
+      "field": "attrs",
+      "issue_id": "p1-129-2",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "qui a sur le haut de la teste l'oiseau qu'on appelle roitelet",
+      "current": "Величественная женщина с королём-птицей на голове",
+      "suggested": "Величественная женщина с корольком на голове («roitelet» — птица королёк, как в тексте RU; «король-птица» — ошибка)",
+      "confidence": "low"
+    }
+  ]
+}

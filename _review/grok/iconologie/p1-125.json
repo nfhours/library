@@ -1,0 +1,35 @@
+{
+  "id": "p1-125",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-125-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "& en tient vne des deux mains, à laquelle est attaché vn animal à trois testes",
+      "current": "одной из двух рук она держит привязанное к ним трёхглавое животное (EN «holds in one of her two hands one to which is tied»)",
+      "suggested": "и держит одну из них (верёвок) обеими руками, к ней привязано трёхглавое животное («des deux mains» = обеими руками; ср. абзац 7 «elle tient ferme avec les deux mains la corde»); EN «and holds one of them with both hands, to which is tied…»",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "p1-125-2",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 7,
+      "type": "mistranslation",
+      "original": "La seconde, de le rendre docile",
+      "current": "Вторая — сделать его послушным",
+      "suggested": "Вторая — сделать его восприимчивым (понятливым) — риторический термин docilem parare, «готовым к восприятию»; «послушный» искажает смысл; EN «docile» допустимо",
+      "confidence": "low"
+    }
+  ]
+}

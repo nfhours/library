@@ -1,0 +1,21 @@
+{
+  "id": "p1-126",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_en",
+      "issue_id": "p1-126-1",
+      "fields": [
+        "text_en"
+      ],
+      "paragraph": 9,
+      "type": "mistranslation",
+      "original": "c'est pour cela qu'on luy fait tenir sur vn autel vne épée en main",
+      "current": "it is for this that he is made to hold a sword in hand upon an altar",
+      "suggested": "it is for this that she is made to hold a sword in hand upon an altar («luy» — фигура Благочестия, ср. абзац 7; RU «ей» верно)",
+      "confidence": "low"
+    }
+  ]
+}

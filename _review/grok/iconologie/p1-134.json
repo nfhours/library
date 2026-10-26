@@ -1,0 +1,21 @@
+{
+  "id": "p1-134",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p1-134-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Ils peignoient vn homme, qui en la main droite avoit vne horloge",
+      "current": "Человек в облачении прелата с часами (на шесте)… затменным солнечным диском, окружённым латинской надписью",
+      "suggested": "в тексте только «человек» с часами в правой руке и затмившимся Солнцем в левой и надписью; «в облачении прелата», «на шесте», «окружённым надписью» — из гравюры, не из текста; убрать или пометить как описание гравюры (meaning_en этих деталей не содержит)",
+      "confidence": "low"
+    }
+  ]
+}
