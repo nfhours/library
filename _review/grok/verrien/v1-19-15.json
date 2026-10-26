@@ -1,0 +1,23 @@
+{
+  "id": "v1-19-15",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-19-15-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Æstu non vi.",
+      "current": "Æstu non vi.",
+      "suggested": "[LA] «Astu non vi» (astus — хитрость, ср. «La ruse… que la force»; æstus — зной/прилив); скопировано и в text_ru. Скана текста нет — по смыслу",
+      "confidence": "high"
+    }
+  ]
+}

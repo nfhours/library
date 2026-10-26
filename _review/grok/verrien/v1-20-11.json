@@ -1,0 +1,21 @@
+{
+  "id": "v1-20-11",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-20-11-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "omission",
+      "original": "Mon innocence ne craint point la foudre.",
+      "current": "Молнии меня не страшат.",
+      "suggested": "переведён латинский девиз; пропущено «Mon innocence»: «Моя невинность не страшится молнии»",
+      "confidence": "medium"
+    }
+  ]
+}

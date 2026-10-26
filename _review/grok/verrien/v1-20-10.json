@@ -1,0 +1,21 @@
+{
+  "id": "v1-20-10",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-20-10-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "Il chante ou du moins il annonce sa mort & celle des autres.",
+      "current": "Он поёт для себя и для мира, или по крайней мере возвещает свою смерть и смерть других.",
+      "suggested": "«для себя и для мира» — из латинского девиза (Sibi canit & orbi), во французском нет: «Он поёт или по крайней мере возвещает свою смерть и смерть других»",
+      "confidence": "low"
+    }
+  ]
+}

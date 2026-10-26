@@ -1,0 +1,21 @@
+{
+  "id": "v1-19-14",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-19-14-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "Je suis assez fort pour aller seul.",
+      "current": "Повзрослев, я уже брожу один.",
+      "suggested": "переведён латинский девиз, а не французское толкование: «Я достаточно силён, чтобы ходить одному»",
+      "confidence": "medium"
+    }
+  ]
+}

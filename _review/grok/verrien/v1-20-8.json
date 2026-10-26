@@ -1,0 +1,21 @@
+{
+  "id": "v1-20-8",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-20-8-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "Il prend chez luy sa recompense.",
+      "current": "Он сам себе прекраснейшая награда.",
+      "suggested": "переведён латинский девиз (Sibi pulcherrima merces); французское: «Свою награду он находит в самом себе»",
+      "confidence": "low"
+    }
+  ]
+}
