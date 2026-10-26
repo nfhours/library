@@ -2,6 +2,22 @@
   "id": "pl7-9",
   "book": "grosson",
   "pass": "A",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl7-4-1",
+      "fields": [
+        "text_ru",
+        "ru",
+        "obverse_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Cette Médaille présente d'un côté le Buste de Cherebert, dit Caribert;",
+      "current": "text_ru «бюст Керебера, иначе Карибера»; ru «… — Керебер»; obverse_ru «бюст Керебера (Карибера)»",
+      "suggested": "Caribert / Cherebert у Гроссона — один король, Хариберт I (сын Хлотаря I, ум. 567); стандартная русская форма — «Хариберт». Сейчас в RU два варианта — «Карибер» и «Керебер» (плюс один раз «Херебер»). Предлагается: при первом упоминании «Хариберт (Caribert, или Cherebert)», дальше везде «Хариберт»; ru-заголовок «… — Хариберт»; obverse_ru «бюст Хариберта». Применить ко всем записям, где это тот же король (pl7-4, pl7-9, далее pl8-5). Здесь: «…бюст Хариберта (Cherebert, или Caribert)»; ru «Бюст (B) / крест — Хариберт»; obverse_ru «бюст Хариберта»",
+      "confidence": "high"
+    }
+  ]
 }

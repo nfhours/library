@@ -1,0 +1,21 @@
+{
+  "id": "pl8-2",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl8-2-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "typo",
+      "original": "ils ont également possédé la Souveraineté de Marseille,",
+      "current": "оба они в равной мере обладали сувереном над Марселем",
+      "suggested": "Souveraineté — «суверенитет», не «суверен»: «…оба они в равной мере обладали суверенитетом над Марселем»",
+      "confidence": "low"
+    }
+  ]
+}

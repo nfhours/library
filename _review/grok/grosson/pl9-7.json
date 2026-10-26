@@ -1,0 +1,21 @@
+{
+  "id": "pl9-7",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl9-7-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "typo",
+      "original": "La Ville d'Athenes avoit des Médailles pareilles.",
+      "current": "У города Афины были подобные монеты.",
+      "suggested": "«У Афин были подобные монеты» (или «У города Афин…»)",
+      "confidence": "low"
+    }
+  ]
+}

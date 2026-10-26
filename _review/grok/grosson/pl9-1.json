@@ -1,0 +1,21 @@
+{
+  "id": "pl9-1",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl9-1-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "name",
+      "original": "La Seigneurie de St. Marcel, Hieres, Bréganson,",
+      "current": "Сеньория Сен-Марсель, Йер, Бреганзон",
+      "suggested": "Bréganson/Brégançon — «Брегансон» (форт Брегансон): «…Йер, Брегансон…»",
+      "confidence": "low"
+    }
+  ]
+}

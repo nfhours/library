@@ -1,0 +1,49 @@
+{
+  "id": "pl8-3",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl8-3-1",
+      "fields": [
+        "text_ru",
+        "ru",
+        "reverse_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& au revers, une Croix clechée, avec ce mot, MASILIA.",
+      "current": "text_ru «процветший крест» (дважды); ru «… / процветший крест — эпоха виконтов»; reverse_ru «процветший крест (с расширяющимися концами)»",
+      "suggested": "croix cléchée — крест с концами в виде ушка ключа (тулузский/окситанский крест, о котором и говорит Гроссон: «ainsi que les Comtes de Toulouse»), а «процветший» — это croix fleuronnée/fleurie. Предлагается «ключевидный крест (croix cléchée)» в text_ru, ru и reverse_ru. Не уверен в устоявшемся русском геральдическом термине — допустимо оставить «croix cléchée» с пояснением «тулузского типа»",
+      "confidence": "medium"
+    },
+    {
+      "field": "reverse_fr",
+      "issue_id": "pl8-3-2",
+      "fields": [
+        "reverse_fr"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "croix clechée (с расширяющимися, process концами), légende MASILIA",
+      "current": "reverse_fr «croix clechée (с расширяющимися, process концами), légende MASILIA»",
+      "suggested": "во французское поле попал мусор — русские слова и «process»; это поле оригинала (не перевод), но значение испорчено. Должно быть «croix clechée, légende MASILIA» (ср. text_fr: «une Croix clechée, avec ce mot, MASILIA»)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "pl8-3-3",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Cette Médaille est rapportée par M. Bouterove, dans ses recherches curieuses des monnoies de France,",
+      "current": "упомянута г-ном Бутрувом в его любопытных изысканиях о монетах Франции",
+      "suggested": "Bouterove — типографское написание (v вместо u) фамилии Claude Bouteroue, автора «Recherches curieuses des monoyes de France» (1666); по-русски «Бутру». «…упомянута г-ном Бутру (у Гроссона — Bouterove) в его «Любопытных изысканиях о монетах Франции»». EN сохраняет написание оригинала — допустимо",
+      "confidence": "medium"
+    }
+  ]
+}

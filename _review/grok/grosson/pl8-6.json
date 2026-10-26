@@ -1,0 +1,22 @@
+{
+  "id": "pl8-6",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl8-6-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "On lit souvent dans les revers des Médailles des époques, de prima, secunda, &c. par des lettres ajoutées à la fin des derniers mots de la légende, sans séparation:",
+      "current": "RU «На оборотах монет тех эпох нередко читаются prima, secunda и т. д.»; EN «One often reads on the reverses of medals of these periods, prima, secunda, etc.»",
+      "suggested": "des époques — дополнение к «on lit» («читаются обозначения очерёдности/эпох — prima, secunda…»), а не «монет тех эпох». RU «На оборотах монет нередко читаются обозначения очерёдности — prima, secunda и т. д. — буквами, прибавленными без разделения в конце последних слов легенды»; EN «One often reads on medal reverses ordinal marks — prima, secunda, etc. — given by letters added…»",
+      "confidence": "low"
+    }
+  ]
+}

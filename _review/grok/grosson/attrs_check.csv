@@ -17,3 +17,6 @@ pl5-4,reverse_*,lion frappé après coup … ; trépied ; pot/croix,"по тек
 pl5-9 … pl7-9,obverse/reverse/legend/material ru/en,—,"ru/en верно передают fr, кроме pl5-9 reverse_ru («фригийскими» — issue pl5-9-1); противоречий тексту/гравюре, меняющих смысл, нет",ok
 pl5-9,legend_*,MASSEILS,"по тексту Гроссона; на гравюре ΜΑΣΣΕΙΑΣ — info",info
 pl6-1..pl7-9,material_*,or / золото / gold,"в тексте металл не назван, кроме «tiers de sol d'or» (pl6-3, pl7-1) — общий паттерн",info
+pl7-10 … pl9-11,obverse/reverse/legend/material ru/en,—,"ru/en верно передают fr, кроме pl8-3 reverse_ru («процветший», issue pl8-3-1), pl8-5/pl7-9 obverse_ru/ru (имя, issue pl7-4-1), pl9-5 obverse_ru (имя, pl9-5-2); pl8-3 reverse_fr испорчен (issue pl8-3-2)",ok
+pl8-2,legend_*,CHLOTARIVS REX CONOB,"в тексте Гроссона CLOTARIVS; на гравюре CHLOTARIVS — поле взято с гравюры, info",info
+pl9-1..pl9-5; pl9-10; pl9-11,material_*,argent / or,"здесь металл назван в тексте (monnoie d'argent, Médaille d'or/en argent) — подтверждается",ok

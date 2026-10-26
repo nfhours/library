@@ -1,0 +1,22 @@
+{
+  "id": "pl8-4",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl8-4-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Cette époque ne date que d'après l'établissement de ces premiers dans les Gaules;",
+      "current": "RU «Эта эпоха начинается лишь с утверждения последних в Галлии»; EN «This period dates only from the establishment of the latter in Gaul»",
+      "suggested": "ces premiers — «первые», т.е. франки (а не остготы — «последние»): дальше Гроссон и объясняет, что франков в Галлию привёл лишь Хлодвиг. RU «…лишь с утверждения первых из них (франков) в Галлии»; EN «…from the establishment of the former (the Franks) in Gaul»",
+      "confidence": "medium"
+    }
+  ]
+}

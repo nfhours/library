@@ -1,0 +1,35 @@
+{
+  "id": "pl9-6",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl9-6-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "elles sont toutes en moyen bronze.",
+      "current": "все они из среднебронзового сплава",
+      "suggested": "moyen bronze — нумизматическая категория по размеру («средняя бронза»), а не сплав: «все они — средней бронзы (среднего модуля)». EN «medium bronze» верно",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "pl9-6-2",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "en plaçant sur leurs monnoies la Divinité qui en étoit la protectrice;",
+      "current": "RU «помещая на своих монетах Божество, бывшее их покровителем»; EN «the Divinity that was their protectress»",
+      "suggested": "en = «этих Искусств» (как в pl4-12-1): RU «…Божество, покровительствовавшее этим Искусствам»; EN «…the Divinity who was the protectress of those Arts»",
+      "confidence": "low"
+    }
+  ]
+}

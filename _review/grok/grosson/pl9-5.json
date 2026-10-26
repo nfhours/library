@@ -1,0 +1,35 @@
+{
+  "id": "pl9-5",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl9-5-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "par allusion à ses entreprises, qu'il coloroit du faux prétexte du bien public.",
+      "current": "в намёке на его предприятия, которые он выдавал за ложный предлог общественного блага",
+      "suggested": "colorer de — «прикрывать, приукрашивать»: он прикрывал свои предприятия ложным предлогом общественного блага, а не «выдавал их за предлог». «…намекая на свои предприятия, которые он прикрывал ложным предлогом общественного блага». EN верно",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "pl9-5-2",
+      "fields": [
+        "text_ru",
+        "obverse_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "C'est au trop célèbre Charles de Casaulx, à qui elle est due.",
+      "current": "text_ru «Карлу де Казо»; obverse_ru «герб Карла де Казо»",
+      "suggested": "марсельский консул XVI в. — по-русски «Шарль де Казо» (Карл — для государей: Карл I Анжуйский). «…слишком печально известному Шарлю де Казо»; obverse_ru «герб Шарля де Казо»",
+      "confidence": "low"
+    }
+  ]
+}

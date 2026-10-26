@@ -1,0 +1,34 @@
+{
+  "id": "pl9-10",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl9-10-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "Atque ubi Rhoda Rhodiorum fuit, unde dictus multò Galliarum fertilissimus Rhodanus amnis.",
+      "current": "(и там, где была Рода родосцев, откуда назван самый полноводный из галльских рек — Родан)",
+      "suggested": "в скобочном переводе цитаты рассогласование («самый … из рек»), пропущено multò («намного»), fertilissimus — «самый плодородный/обильный», а не «полноводный»: «(и где была Рода родосцев, откуда получила имя Родан — намного самая плодоносная из рек Галлии)». EN цитату не переводит",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "pl9-10-2",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "Pourquoi ceux-ci n'auroient-ils jamais figuré dans les divisions entre les Marseillois & les Gaulois?",
+      "current": "Почему эти последние никогда не фигурировали в разделах владений между марсельцами и галлами?",
+      "suggested": "divisions — «распри, раздоры», не «разделы владений»: «Почему эти последние никогда не участвовали в распрях между марсельцами и галлами?»",
+      "confidence": "low"
+    }
+  ]
+}
