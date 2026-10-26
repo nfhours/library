@@ -47,7 +47,8 @@
       "original": "correndo per dare aiuto all'amato Adone",
       "current": "бегя, дабы помочь",
       "suggested": "бежа (или: устремившись), дабы помочь",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 436): text_it совпадает с печатью; замечание к переводу остаётся."
     },
     {
       "field": "text_fr",
@@ -85,6 +86,21 @@
       "note": "Ложный разрыв абзаца на стыке страниц; тильда «intẽdere» раскрыта верно. Удвоение в переводах («показать/дать понять», «to show/to understand», «pour montrer/pour faire comprendre») — следствие разрыва.",
       "pass": "B",
       "batch": 3
+    },
+    {
+      "issue_id": "cartm_venerecigni-3",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/436.jpg",
+      "page": "436",
+      "region": "середина страницы",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "Imagine di Venere tirata in carro da' Cigni, retti da gl'Amorini; per mostrare, che il canto, & la placidità della natura hanno molto confacimento co' piaceri d'Amore.\n\nTirauano etiandio i Cigni il carro di Venere, che Horatio, Ouidio, e Statio così lo mettono; o sia perche questo è vccello innocentissimo, e che à niuno fa male, o sia pure per la soauità del suo canto, perche alle lasciuie, & à gli amorosi piaceri pare, che'l canto gioui assai. Fu questa Dea fatta nuda per mostrare come vogliono alcuni quello, a che sempre ella è apparecchiata, che sono i lasciui abbracciamenti, e perche questi godiamo meglio nudi, che vestiti, ouero perche chi va dietro sempre a' lasciui piaceri rimane spesso spogliato, e priuo di ogni bene, perciòche perde le ricchezze, che sono dalle lasciue donne diuorate, debilita il corpo, e macchia l'anima di tale bruttura, che niente le resta piu di bello. Oueramente si faceua Venere nuda, per dare a conoscere, che i furti amorosi non ponno stare occulti, e se pure vi stanno qualche poco, si scuoprono anco poi, e spesso auuiene, che si mostrino allhora, che meno vi si pensa, e se ne dubita meno. Onde ò a questo, ò a che altro hauesse mente Prassitele quel nobile scultore fece a quelli di Gnido vna Venere tutta nuda di marmo bianchissimo, tanto bella, che molti nauigauano in Cipro tratti dal desiderio solo di vedere questa statoa, della quale si legge, che si innamorò vno sì fattamente, che non hauendo risguardo à pericolo alcuno, nè da alcun male, che gliene potesse intrauenire, si nascose vna notte nel tempio, oue ella staua, & abbracciandola, stringendola, e baciandola, facendole tutti que' vezzi che alle piu delicate giouani si fanno, quando son ben care; diede compimento al suo desiderio amoroso, donde rimase poi sempre certa macchia in vn fianco della bella statoa. Va nuotando Venere pel mare, dicono, per dare\n\nad intendere quanto sia amara la vita de gli huomini lasciui, agitata del continuo dalle tempestose onde de' pensieri incerti e da spesso naufragio, che fanno i disegni loro. Leggesi nelle historie de i Sessoni, che questa Dea appo loro staua dritta sopra vn carro tirato da due Cigni, e da altrettante Colombe, nuda, col capo cinto di mortine, & haueua nel petto vna facella ardente, nella mano destra teneua certa palla rotonda in forma del mondo, e nella sinistra portaua tre pomi d'oro, e di dietro stauano le Gratie tutte tre con le braccia insieme auuiticchiate: come appar nel sopra notato disegno. Quello che questa imagine; o statoa significhi, non sarebbe troppo difficile da dire: ma poi che il Giraldo, che la riferisce oue scriue de i Dei de' Gentili, non ne hà detto altro io lascio, che se la interpreti ogn'vno a modo suo, Dirò bene che si legge del Mirto, che fosse dato a Venere, perche era creduto hauere in sè forza di far nascere amore fra le persone, e di conseruarlo. E Plutarco dice, che è pianta significatrice di pace, donde era, che appresso de' Romani, quelli, li quali menauano certo piccolo trionfo, per hauer vinto i nemici con pochissima fatica, e senza vccisione, erano coronati di mirto, pianta propria di Venere, perche ella hà in odio grandemente la violenza le guerre, e le discordie; & altri hanno detto, che questo fu piu tosto, perche il mirto felicemente nasce, e cresce nelle maremme, & intorno a i liti del mare, oue habbiamo già detto che nacque Venere. Alla quale furono date le rose parimente, perche queste hanno soaue odore, che rappresenta la soauità de i piaceri amorosi; ouero perche come le rose sono colorite, malageuolmente si possono cogliere senza sentire le punture delle acute spine, così pare che la libidine seco porti il farci arrossire ogni volta, che della bruttezza di quella ci ricordiamo, onde la conscienza de i già commessi errori ci punge, e ci trafigge modo, che ne sentiamo grauissimo dolore. Oltre di ciò la bellezza della rosa, onde porge diletto a' riguardanti, dura breuissimo tempo; e tosto langue, come fanno etiandio gli amorosi piaceri, e perciò metteuano in capo a Venere le ghirlande di queste. Le quali non furono però sempre colorite, anzi da principio erano tutte bianche, ma furono tinte poi del sangue di questa Dea vna volta, che ella correndo per dare aiuto all'amato Adone, volendolo vccidere Marte, che n'era diuentato geloso, pose i piedi sopra le acute spine delle bianche rose, e ne fu punta grauemente, onde il sangue che vscì, fu cagione, che da indi in poi nascessero le rose colorite. E benche questo, ch'io sono hora per dire, poco faccia à dipingere Venere, nientedimeno, perche mi pare essere cosa gratiosa, e diletteuole, la dirò come la racconta Atheneo, dicendo che gli antichi di que' tempi furono grandemente dati a lasciui piaceri, onde dedicarono vn tempio à Venere, chiamandola Callipiga, che vuole proprio dire,",
+      "orig_after": null,
+      "verdict": "ok",
+      "translation_affected": [],
+      "note": "text_it совпадает с печатью. На полях «Rose colorite.». Замечание к RU остаётся.",
+      "pass": "B",
+      "batch": 4
     }
   ]
 }

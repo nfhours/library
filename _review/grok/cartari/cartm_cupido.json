@@ -14,9 +14,10 @@
       "type": "omission",
       "original": "CVPIDO. Di tutti gli affetti de gli animi nostri non vi è",
       "current": "— (подписи нет)",
-      "suggested": "подпись к гравюре в переводах отсутствует (в text_ru/text_en/text_fr её нет); добавить caption_ru / caption_en / caption_fr после сверки по фото; caption_orig: «проверить по фото» (в text_it подписи нет; изображения books/cartari/img/cartm_cupido.jpg в репозитории нет; в entries.json есть поле caption — сверить с ним)",
+      "suggested": "подпись к гравюре в переводах отсутствует (в text_ru/text_en/text_fr её нет); добавить caption_ru / caption_en / caption_fr после сверки по фото; caption_orig: «проверить по фото» (в text_it подписи нет; изображения books/cartari/img/cartm_cupido.jpg в репозитории нет; в entries.json есть поле caption — сверить с ним) Скан (проход B): на с. 403–407 гравюры нет; в caption английское «blindfolded» — не брать caption как caption_orig; проверить по фото.",
       "confidence": "medium",
-      "caption_source": null
+      "caption_source": null,
+      "scan_check": "Сверка со сканом (с. 403–407): гравюры с этой подписью нет (с. 408 — Эрот и Антэрот); в поле caption английское «blindfolded» — подпись печатью не подтверждена. Проверить по фото."
     },
     {
       "field": "text_ru",
@@ -79,6 +80,21 @@
       "note": "«conto» — кустода (без акцента) с разрывом абзаца; в печати «niun contò facendosi». Подтверждает issue («ни во что не ставил»).",
       "pass": "B",
       "batch": 2
+    },
+    {
+      "issue_id": "cartm_cupido-1",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/403.jpg",
+      "page": "403–407",
+      "region": "с. 403–407 просмотрены по миниатюрам",
+      "orig_field": "caption",
+      "paragraph": null,
+      "orig_before": null,
+      "orig_after": null,
+      "verdict": "проверить по фото",
+      "translation_affected": [],
+      "note": "На с. 403–407 гравюры нет (с. 403 — заголовок CVPIDO с инициалом; с. 408 — доска Эрота и Антэрота, cartm_eroteanterote). Доски с подписью из поля caption cartm_cupido на просмотренных страницах нет. В самом caption английское слово «blindfolded» — подпись, по-видимому, не из печати. caption_orig не заполнять, проверить по фото.",
+      "pass": "B",
+      "batch": 4
     }
   ]
 }

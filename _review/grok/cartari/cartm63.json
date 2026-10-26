@@ -32,8 +32,9 @@
       "type": "addition",
       "original": "fuori della spelonca horrenda porgeua spesso in mare le spauenteuoli teste, guardando se naue",
       "current": "…высматривая, не проплывёт ли там корабль, дабы чтобы не учинить… Харибда… Нереиды… Палемон… Портун…»",
-      "suggested": "text_it обрывается на «guardando se naue»; всё дальнейшее (Харибда, превращение Сциллы, Платон о Нереидах, Павсаний, Палемон-Портун) отсутствует в оригинале этой записи — удалить или перенести в следующую запись после сверки (проход B)",
-      "confidence": "high"
+      "suggested": "text_it обрывается на «guardando se naue»; всё дальнейшее (Харибда, превращение Сциллы, Платон о Нереидах, Павсаний, Палемон-Портун) отсутствует в оригинале этой записи — удалить или перенести в следующую запись после сверки (проход B) — ПЕРЕСМОТРЕНО по скану (проход B): НЕ удалять. Текст после «guardando se naue» в печати есть (с. 210–211), перевод ему соответствует; неполон text_it (cartm63-3).",
+      "confidence": "high",
+      "scan_check": "Сверка со сканом (с. 208→210, с. 209 — гравюра): text_it оборван на кустоде «naue»; в печати текст продолжается на с. 210 (Харибда, Сцилла, Платон о Нереидах, Павсаний, Палемон-Портун → с. 211). Переводы соответствуют печати — вывод «удалить» снят, см. cartm63-3."
     },
     {
       "field": "text_en",
@@ -47,8 +48,9 @@
       "type": "addition",
       "original": "fuori della spelonca horrenda porgeua spesso in mare le spauenteuoli teste, guardando se naue",
       "current": "…so that no ship passed that way without her making a wretched prey… Charybdis… Palaemon… Portunus…”",
-      "suggested": "то же: текст после «guardando se naue» в оригинале этой записи отсутствует",
-      "confidence": "high"
+      "suggested": "то же: текст после «guardando se naue» в оригинале этой записи отсутствует — ПЕРЕСМОТРЕНО по скану (проход B): НЕ удалять. Текст после «guardando se naue» в печати есть (с. 210–211), перевод ему соответствует; неполон text_it (cartm63-3).",
+      "confidence": "high",
+      "scan_check": "Сверка со сканом (с. 208→210, с. 209 — гравюра): text_it оборван на кустоде «naue»; в печати текст продолжается на с. 210 (Харибда, Сцилла, Платон о Нереидах, Павсаний, Палемон-Портун → с. 211). Переводы соответствуют печати — вывод «удалить» снят, см. cartm63-3."
     },
     {
       "field": "text_fr",
@@ -62,8 +64,41 @@
       "type": "addition",
       "original": "guardando se naue",
       "current": "…guettant si quelque navire… [Charybde, histoire de Scylla, Néréides, Palémon]",
-      "suggested": "всё после «guettant si quelque navire» в абзаце 1 (Харибда, история Сциллы, Нереиды, Палемон) отсутствует в text_it этой записи — удалить (текст соседних записей)",
-      "confidence": "high"
+      "suggested": "всё после «guettant si quelque navire» в абзаце 1 (Харибда, история Сциллы, Нереиды, Палемон) отсутствует в text_it этой записи — удалить (текст соседних записей) — ПЕРЕСМОТРЕНО по скану (проход B): НЕ удалять. Текст после «guardando se naue» в печати есть (с. 210–211), перевод ему соответствует; неполон text_it (cartm63-3).",
+      "confidence": "high",
+      "scan_check": "Сверка со сканом (с. 208→210, с. 209 — гравюра): text_it оборван на кустоде «naue»; в печати текст продолжается на с. 210 (Харибда, Сцилла, Платон о Нереидах, Павсаний, Палемон-Портун → с. 211). Переводы соответствуют печати — вывод «удалить» снят, см. cartm63-3."
+    },
+    {
+      "field": "text_it",
+      "issue_id": "cartm63-3",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 1,
+      "type": "omission",
+      "original": "naue alcuna passasse di là, per fare miserabile preda de’ nauiganti (с. 210)",
+      "current": "guardando se naue",
+      "suggested": "text_it оборван на кустоде «naue» внизу с. 208; продолжение — с. 210 «naue alcuna passasse di là…» до «…i Latini Por-|tuno» (→ с. 211); дописать по скану (не транскрибировано здесь, проверить по фото)",
+      "confidence": "high",
+      "added_in": "pass B",
+      "scan_check": "Сверка со сканом (с. 208→210)."
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm63-2",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/208.jpg",
+      "page": "208 → 210",
+      "region": "с. 208, последняя строка «…guardando se» + кустода «naue»; с. 209 — гравюра (Сцилла, cartm63); с. 210 «naue alcuna passasse di là, per fare miserabile preda de’ nauiganti…» и до конца с. 210 (→ с. 211 «tuno»)",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "Ma, che in vero furono certi scogli, tra gli quali le onde del mare faceuano vn così soaue mormorio, che i nauiganti tratti dalla dolcezza del suono volontieri passauano per là, oue miseramente periuano poi. Et Plinio, parlando de gli vccelli fauolosi, dice, che furono creduti essere in India gli vccelli Sirene, li quali con la soauità del canto addormentauano altrui, & poi lo diuorauano. Ma pesci, come dissi, ò vccelli che fossero le Sirene, basta, che sono cosa in tutto finta: onde vogliono alcuni, che per loro sia intesa la bellezza, la lasciuia, & gli allettamenti delle meretrici, anzi che fossero le istesse meretrici, & che fosse finto, che cantando addormentassero i nauiganti, & che accostatesi alle naui, gli vccidessero poi: perche così intrauiene à quelli miseri, li quali vinti dalle piaceuolezze delle rapaci donne, chiudono gli occhi dell'intelletto sì, che elle poi ne fanno ricca preda, & quasi se gli diuorano. Per la qual cosa riferisce il Boccacio, che gli antichi dipingono le Sirene in verdi prati sparsi tutti di ossa di morti: come che volessero perciò mostrare la rouina, & la morte, che accompagna, ouero vien dietro a i lasciui pensieri. Et appresso di Virgilio gli scogli delle Sirene sono parimente descritti coperti quasi tutti di ossi di morti, & grandemente difficili, & molto pericolosi. Ma Xenofonte al contrario hà voluto, che le Sirene siano cosa piaceuole, & virtuosa; perciòche, narrando gli detti & fatti di Socrate, scriue, che elle cantauano solo le vere lodi di coloro, che erano degni, essaltando in quelle le virtù, & che perciò appresso di Homero cantarono di Vlisse, che egli era degno di essere lodato sommamente, perche era ornamento grande a tutti i Greci, & che questi erano gli incanti, & i soaui accenti, con li quali tirauano à sè gli huomini virtuosi; perche questi, vdendo lodare la virtù, che amano tanto cercano di accostarsi ogni volta più à quella, & facilmente, & volontieri vanno dietro al dolce canto del lodatore. Et per questo forse fu, che, come scriue Aristotele nelle cose marauigliose del mondo, in certe Isole, chiamate delle Sirene, poste frà i termini della Italia, elle hebbero tempij, & altari, & furono da quelle genti adorate con molta solennità, & erano i nomi loro Partenope, Leucosia, & Ligia. Hora ritorniamo à Nettuno, perche, se ben nel mare sono de gli altri mostri assai, & veri, & finti ancora da' Poeti, come finge Homero di Scilla, la quale staua in vno antro oscuro, & spauenteuole, & con terribile latrato faceua risonare il mare, & che haueua questo mostro dodici piedi, & sei colli, con altretanti capi, & ciascheduna bocca haueua tre ordini di denti, dalli quali pareua che stillasse del continuo mortifero veleno, & fuori della spelonca horrenda porgeua spesso in mare le spauenteuoli teste, guardando se naue",
+      "orig_after": null,
+      "verdict": "transcription_error",
+      "translation_affected": [],
+      "note": "text_it оборван на кустоде «naue» внизу с. 208. В печати текст продолжается на с. 210: Харибда («de’ quali l’vno è Cariddi…»), Сцилла, «Et delle Nereide scriue Platone…», «come recita Pausania…», «Fù Palemone appresso de i Greci quello, che chiamarono i Latini Por-|tuno» (→ с. 211). Переводы этот текст содержат и ему соответствуют. Вывод issue («удалить») неверен: удалять из переводов нечего, в text_it нужно дописать продолжение (с. 210–211; конец записи на с. 211 — проверить по фото).",
+      "pass": "B",
+      "batch": 4
     }
   ]
 }

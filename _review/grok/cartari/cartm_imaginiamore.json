@@ -33,7 +33,8 @@
       "original": "& alcuni altri mostrauano di volerla calciare",
       "current": "а иные иные показывали, что желают её оседлать",
       "suggested": "а иные показывали, что хотят её пнуть / обуть (у Плиния «calciarent» — обувают); «оседлать» неверно, точный смысл — не уверен; убрать повтор «иные иные»",
-      "confidence": "medium"
+      "confidence": "medium",
+      "scan_check": "Сверка со сканом (с. 421): text_it совпадает с печатью; замечание к переводу остаётся."
     },
     {
       "field": "text_en",
@@ -48,7 +49,8 @@
       "original": "& alcuni altri mostrauano di volerla calciare",
       "current": "still others showed that they wished to mount her",
       "suggested": "still others made as if to kick her (or put shoes on her) — не уверен; «mount» неверно",
-      "confidence": "medium"
+      "confidence": "medium",
+      "scan_check": "Сверка со сканом (с. 421): text_it совпадает с печатью; замечание к переводу остаётся."
     },
     {
       "field": "text_fr",
@@ -63,7 +65,25 @@
       "original": "& alcuni altri mostrauano di volerla calciare",
       "current": "d'autres encore montraient vouloir la chevaucher",
       "suggested": "d'autres encore faisaient mine de la frapper du pied / la chausser (у Плиния «calciarent»); «chevaucher» неверно — точный смысл не уверен (та же ошибка в RU/EN)",
-      "confidence": "medium"
+      "confidence": "medium",
+      "scan_check": "Сверка со сканом (с. 421): text_it совпадает с печатью; замечание к переводу остаётся."
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm_imaginiamore-2",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/421.jpg",
+      "page": "421",
+      "region": "нижняя половина страницы",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "Imagini d'Amore significanti gli varij effetti & potenze d'Amore, qual ne cuori nobili & gentili facilmente hà luogo, & li duri & ostinati spezza & rompe. dinota ancora quanto facilmente ci lasciano adescare da gli effetti lasciui, & libidinosi massime in giouentù.\n\nTrouo Cupido alle volte ancora fatto in altra guisa, con l'arco, come è appresso di Pausania, il quale scriuendo di Corinto dice, che quiui sopra il tempio di Esculapio in certa cappelletta tonda di bianco marmo era Cupido, fatto da Pausia dipintore, che haueua gettato l'arco, & le saette, & teneua vna lira in mano. Et il medesimo ragionando dell'Achaia dice, che in Egira Città di quel paese era certo piccolo tempio, oue ei vide Cupido stare à lato alla Fortuna, volendo mostrare, che questa ancora nelle cose d'Amore può assai, benchè egli da sè tanto possa, che vince tutte le piu ostinate voglie, spezza ogni indurato cuore, e gli animi piu superbi, e piu feroci fà diuentare humili, & mansueti in modo, che volontieri poi porgono le mani à gli amorosi lacci. E questo forse volle mostrare Archesilao laudato perciò da Varrone assai, come scriue Plinio benche dicono alcuni, che lo laudò non per questo, ma per la bella arte, e per lo gran giuditio, ch'ei mostrò nella scultura, quando di vn solo pezzo di marmo fece vna Leonza, con la quale scherzauano i pargoletti Amori, & di loro alcuni la teneuano legata, alcuni le porgeuano vn corno, & voleuano, ch'ella vi beesse dentro, e la sforzauano a farlo, & alcuni altri mostrauano di volerla calciare. Tra tutti gli animali il Lione è ferocissimo, ma dicono poi, che la Leonza è di più feroce animo ancora, più crudele assai, & perciò questa fece Archesilao per esprimere meglio la forza de gli affetti amorosi. Li quali furono molto bene anco mostrati da i Poeti, quando finsero Marte starsene sollazzando in braccio à Venere; la imagine della quale insieme con quella",
+      "orig_after": null,
+      "verdict": "ok",
+      "translation_affected": [],
+      "note": "text_it совпадает с печатью. Толкование «calciare» — не уверен, замечание остаётся.",
+      "pass": "B",
+      "batch": 4
     }
   ]
 }

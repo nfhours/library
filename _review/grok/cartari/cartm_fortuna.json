@@ -14,9 +14,10 @@
       "type": "omission",
       "original": "FORTVNA. Questa è colei che tanto è posta in croce, Pur da",
       "current": "— (подписи нет)",
-      "suggested": "подпись к гравюре в переводах отсутствует (в text_ru/text_en/text_fr её нет); добавить caption_ru / caption_en / caption_fr после сверки по фото; caption_orig: «проверить по фото» (в text_it подписи нет; изображения books/cartari/img/cartm_fortuna.jpg в репозитории нет; в entries.json есть поле caption — сверить с ним)",
+      "suggested": "подпись к гравюре в переводах отсутствует (в text_ru/text_en/text_fr её нет); добавить caption_ru / caption_en / caption_fr после сверки по фото; caption_orig: «проверить по фото» (в text_it подписи нет; изображения books/cartari/img/cartm_fortuna.jpg в репозитории нет; в entries.json есть поле caption — сверить с ним) Скан (проход B): на с. 370–377 доски с этой подписью нет — проверить по фото.",
       "confidence": "medium",
-      "caption_source": null
+      "caption_source": null,
+      "scan_check": "Сверка со сканом (с. 370–377): доски с подписью «…biasimata a torto…» нет (с. 374 — cartm_fortunadatrice, с. 376 — cartm_fortunalieta). Проверить по фото."
     },
     {
       "field": "text_en",
@@ -45,6 +46,23 @@
       "current": "qui sur la tête avait une sphère céleste",
       "suggested": "qui sur la tête avait un polos (pôle) — далее речь о вращении вокруг «двух полюсов» (та же ошибка в EN)",
       "confidence": "medium"
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm_fortuna-1",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/372.jpg",
+      "page": "370–377",
+      "region": "с. 370–377 просмотрены по миниатюрам",
+      "orig_field": "caption",
+      "paragraph": null,
+      "orig_before": null,
+      "orig_after": null,
+      "verdict": "проверить по фото",
+      "translation_affected": [],
+      "note": "Доски с подписью «Imagine della Fortuna, biasimata a torto…» на с. 370–377 нет: с. 372 — заголовок FORTVNA, с. 374 — доска cartm_fortunadatrice («Fortuna datrice…»), с. 376 — доска cartm_fortunalieta («lieta, & trista fortuna…»). caption cartm_fortuna печатью не подтверждён — проверить по фото.",
+      "pass": "B",
+      "batch": 4
     }
   ]
 }

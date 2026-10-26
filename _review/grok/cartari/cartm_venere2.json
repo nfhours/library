@@ -14,9 +14,10 @@
       "type": "omission",
       "original": "VENERE. Prima che dissegnare la imagine di Venere voglio fare vno schizzo",
       "current": "— (подписи нет)",
-      "suggested": "подпись к гравюре в переводах отсутствует (в text_ru/text_en/text_fr её нет); добавить caption_ru / caption_en / caption_fr после сверки по фото; caption_orig: «проверить по фото» (в text_it подписи нет; изображения books/cartari/img/cartm_venere2.jpg в репозитории нет; в entries.json есть поле caption — сверить с ним)",
+      "suggested": "подпись к гравюре в переводах отсутствует (в text_ru/text_en/text_fr её нет); добавить caption_ru / caption_en / caption_fr после сверки по фото; caption_orig: «проверить по фото» (в text_it подписи нет; изображения books/cartari/img/cartm_venere2.jpg в репозитории нет; в entries.json есть поле caption — сверить с ним) Скан (проход B, с. 430): подпись на доске совпадает с полем caption (конец сверен) — caption_orig брать из caption.",
       "confidence": "medium",
-      "caption_source": null
+      "caption_source": "engraving",
+      "scan_check": "Сверка со сканом (с. 430): подпись на доске принадлежит этой записи; конец подписи совпадает с полем caption → caption_orig можно взять из caption (caption_source: engraving). Переводов подписи нет — issue в силе."
     },
     {
       "field": "text_ru",
@@ -31,6 +32,23 @@
       "current": "И есть у меня причина, чтобы мне самой свершить нечто,",
       "suggested": "И я тоже имею кое-какое отношение (к этим волнам) — «aver che fare» = иметь касательство; EN «I too have cause to do something» → «I too have something to do with these waves»",
       "confidence": "medium"
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm_venere2-1",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/430.jpg",
+      "page": "430",
+      "region": "гравюра во всю страницу, подпись в рамке",
+      "orig_field": "caption",
+      "paragraph": null,
+      "orig_before": null,
+      "orig_after": null,
+      "verdict": "ok",
+      "translation_affected": [],
+      "note": "Подпись на доске с. 430 принадлежит самой записи cartm_venere2. Конец подписи сверен по кропу («…detta ancor Lucifero, & Hespero, che induce la virtù generatiua nelle cose.») и совпадает с полем caption. caption_orig можно брать из caption (caption_source = engraving). Переводов подписи по-прежнему нет — issue остаётся.",
+      "pass": "B",
+      "batch": 4
     }
   ]
 }

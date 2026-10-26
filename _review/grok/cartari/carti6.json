@@ -54,7 +54,25 @@
       "original": "che i Cumani, che furono scoperti già vicini al Perù non lontani dal Mare",
       "current": "les Cumanagotos, découverts déjà près du Pérou",
       "suggested": "les Cumani (Cumanais), découverts déjà près du Pérou (в оригинале «Cumani»; «Cumanagotos» — модернизирующая догадка; не уверен)",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 558): text_it совпадает с печатью; замечание к переводу остаётся."
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "carti6-4",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/558.jpg",
+      "page": "558",
+      "region": "середина страницы",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "Ne gli ornamenti di questa figura io noto quattro cose degne à mio giudicio d'essere auuertite nella materia, che trattiamo. La prima è quell'apice in figura di meta, che tiene in capo, della quale figura il demonio si serui & nelle cerimonie di Cibele, & nel tempio di Venere in Pafo, & forse la Pietra manale, della quale si seruiuano nel tempo della siccità per impetrare la pioggia dal Cielo non era di figura molto dissimile. La seconda è il Lituo, che tiene nella mano destra, dato da' gentili a gl'Auguri loro e tenuto in tanta riputatione. La terza il Cornucopia, che gli si vede inanzi à piedi, che sarà stato appresso questi più stimato senza dubio, che'l fauoloso, o d'Acheloo, o della Capra Amaltea. La quarta piu notabile & piu riguardeuole dell'altre è la figura della Croce, che si vede in tre luochi, due nel mantello, & vna nel corpo dall'Incensiere, che così chiamauano i paesani quello che noi habbiamo nominato Cornucopia. E veramente che questa non sia Croce io non dubito punto, & questo tanto più, quanto si vede, che nostro Signore Iddio, per sua misericordia, fece strada grande alla preparatione dell'Euangelio in alcuno di questi paesi. In Acuzamil vna croce si riueriua sopra modo da quelli Idolatri: nelle siccità particolarmente & nel bisogno, che teneuano i seminati, d'acqua; & lo racconta il Vvitfliet nella sua relatione di Iucatan ilquale aggionge per testimonianza di Pietro Martire d'Anghiari Milanese, che raccontauano i paesani, come questo rito era stato lasciato in quell'Isola da vn huomo più rilucente del Sole, che morì in Croce, e passò per la al tempo de maggiori. E ben vero, ch'io non trouo queste cose nel resto di P. Martire, poiche egli dice nelle sue Deche Oceaniche stampate in Basilea, che i Cozumellani erano circoncisi, e narrauano d'hauere riceuuto la circoncisione da vn tale, che passò molti anni sono per là &c. Oltra ciò il medesimo Vvitfliet racconta per detto del Gomara, che i Cumani, che furono scoperti già vicini al Perù non lontani dal Mare, honorauano la Croce di S. Andrea, & si segnauano contra le apparitioni de' Demonij & metteuano la Croce addosso i figliolini loro, subito ch'erano nati. Molte altre cose, che seruirono per ispianare la strada all'Euangelio, racconta il Botero, che le ha studiosamente raccolte. Hora sia come si voglia, notabili sono queste Croci di Topilczin, & degne d'essere auuertite da chi à composto vltimamente vn molto grosso volume della Croce, in lingua nostra. Et in proposito mi souuiene di notare, come vna similissima se ne vede in vna rarissima Medaglia di Costantino il Grande, non publicata ne auuertita da alcuno, ch'io sappia, à quest'hora, della quale ho posto il dissegno per hauerla io appresso di me.",
+      "orig_after": null,
+      "verdict": "ok",
+      "translation_affected": [],
+      "note": "text_it совпадает с печатью («i Cumani»). Замечание к FR остаётся.",
+      "pass": "B",
+      "batch": 4
     }
   ]
 }

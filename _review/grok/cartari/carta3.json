@@ -60,7 +60,8 @@
       "original": "che il Timpano chiama con nome di Crotalo",
       "current": "le Timbale du nom de Crotale … le Timbale n'était pas non plus",
       "suggested": "le Tympanon du nom de Crotale … le Tympanon n'était pas non plus («Timpano» — тимпан, ручной бубен; «timbale» — литавра и ж. р.; так же в абзаце 3; не уверен в выборе слова)",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 472): text_it совпадает с печатью; замечание к переводу остаётся."
     },
     {
       "field": "text_fr",
@@ -147,6 +148,21 @@
       "note": "Перенос «d’O-|ro» через страницу превращён в разрыв абзаца посреди слова; «hierogliifiche» — лишнее «i» (в печати «hieroglifiche»). RU «зо-/лота», EN «Go-/ldand», FR «d’Or-/oret» — следствие.",
       "pass": "B",
       "batch": 3
+    },
+    {
+      "issue_id": "carta3-3",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/472.jpg",
+      "page": "472",
+      "region": "нижняя часть, примечание «Cembalo chiama l’Autore il Sistro…»",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "Nel Cameo s'è rappresentata Iside come si vede nelle Medaglie antiche di Hadriano, & Antonino Pio. è ben vero, che'l disegnatore s'è scordato di metterle in mano il Sistro, che vi si vede chiaramente. Et significa questa figura a mio giudicio il Nauigio d'Iside, del quale si fa mentione nel calendario Rustico antico. Et nella Med. d'Antonino si vede vn Faro di Porto, che tanto piu conferma la congettura. Leggasi Appuleio nell'11.\n\nCembalo chiama l'Autore il Sistro; & s'inganna, perche questi due stromenti furono molto differenti fra di se, come si può vedere nel mio Commentario de' Serui, a car. 88. & 91. E simile licenza si vede in Antonio Agostini (se però il Traduttore non ne tiene colpa) che il Timpano chiama con nome di Crotalo.\n\nMarciano Capella citato dall'Autore non fa mentione di Cembali, ma dei Sistri Niliaci. Che cosa fosse Sistro si vede nella precedente Imagine; & si vede figurato nel nostro Libro de' Serui a car. 88. Ne era Crotalo come vuole Gioseffo Scaligero, anzi molto differente. Ne il Timpano era altrimenti Crotalo, come scrisse Antonio Agostini nel Dialogo secondo & quinto (se non vogliamo dire, che questo fosse errore del Traduttore) Vn bellissimo Sistro antico, e tutto intiero si vedeua altre volte in mano di Monsignor Mocenico Vescouo di Nona. Et forse, che Michele Mercato nel suo Libro degl'Obelischi di Roma, a cap. XL car. 120. doue fa mentione di mezi cerchi d'O-\n\nro, & d'Argento, che si vedono con figure hierogliifiche, non intese altro, che Sistri, poiche & d'Oro, & d'Argento se ne fabricauano come pure si legge in Appuleio nel Lib. XI. dell'Asino d'Oro.",
+      "orig_after": null,
+      "verdict": "ok",
+      "translation_affected": [],
+      "note": "text_it совпадает с печатью. На полях «Car. 108 / Lin. 12». Замечание к FR (выбор слова) остаётся.",
+      "pass": "B",
+      "batch": 4
     }
   ]
 }

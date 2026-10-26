@@ -17,7 +17,8 @@
       "original": "Ma io credo, che'l nostro Autore parli de' poueri",
       "current": "говорит о бедных [животных]",
       "suggested": "говорит о бедняках (людях; вставка «[животных]» не обоснована — не уверен в толковании, но «poveri» без существительного = бедные люди); то же EN «the poor [animals]»",
-      "confidence": "medium"
+      "confidence": "medium",
+      "scan_check": "Сверка со сканом (с. 471): text_it совпадает с печатью; замечание к переводу остаётся."
     },
     {
       "field": "text_fr",
@@ -32,7 +33,25 @@
       "original": "Ma io credo, che'l nostro Autore parli de' poueri",
       "current": "parle des pauvres [animaux]",
       "suggested": "parle des pauvres (бедняки-люди; вставка «[animaux]» не обоснована; не уверен в толковании; та же ошибка в RU/EN)",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 471): text_it совпадает с печатью; замечание к переводу остаётся."
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm_pignoriahecatombe-1",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/471.jpg",
+      "page": "470 → 471",
+      "region": "с. 471, 2-я строка",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "Questa Hecatombe Imperatoria è raccontata da Giul. Capitolino nella vita de gl'Imperatori Massimo, & Balbino. Hora mose gl'Imperatori potessero hauere carestia di questi Animali veri io non ardirei imaginarmelo, perche essendo essi padroni del Mondo, che marauiglia sarà se ne haueuano le centinaia? Quel Democare, del quale fa mentione Appuleio nel 4. dell'Asino d'Oro, non hebbe pochi Animali per i Giochi, che haueua a rappresentare. Pompeo il grande, come scriue Dione, nella dedicatione del suo Theatro fece ammazzare 500. Leoni. Ne haueuano già questi la maniera, c'hebbero poi gl'Imperatori di mettere insieme tante Bestie. Vedasi Suetonio nella Vita di Tito a capi 7. Claudiano nel 3. Panegirico di Stilicone; & frà moderni Giulio Cesare Bulengero nel suo Trattato de Venatione. Ma io credo, che'l nostro Autore parli de' poueri, come pare che si dichiari più appresso.",
+      "orig_after": null,
+      "verdict": "ok",
+      "translation_affected": [],
+      "note": "text_it совпадает с печатью («…parli de’ poueri, come pare che si dichiari piu appresso.»). На полях ниже «Car. 167 / Lin. 5». Замечание остаётся.",
+      "pass": "B",
+      "batch": 4
     }
   ]
 }

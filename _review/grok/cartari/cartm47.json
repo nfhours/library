@@ -46,7 +46,8 @@
       "original": "tutti quelli che sono quiui, vanno à battere lo scorticato Montone",
       "current": "все присутствующие идут бить ободранного Барана",
       "suggested": "не уверен: у Геродота (II, 42) присутствующие бьют себя в грудь, оплакивая барана; перевод буквален, допустимо пояснение",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 147): text_it совпадает с печатью; замечание к переводу остаётся."
     },
     {
       "field": "text_en",
@@ -61,7 +62,8 @@
       "original": "tutti quelli che sono quiui, vanno à battere lo scorticato Montone",
       "current": "all who are present go to strike the flayed Ram",
       "suggested": "не уверен: у Геродота — бьют себя в грудь, оплакивая барана",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 147): text_it совпадает с печатью; замечание к переводу остаётся."
     },
     {
       "field": "text_fr",
@@ -76,7 +78,25 @@
       "original": "tutti quelli che sono quiui, vanno à battere lo scorticato Montone",
       "current": "tous ceux qui sont là vont frapper le Bélier écorché",
       "suggested": "не уверен: у Геродота (II, 42) присутствующие бьют себя в грудь, оплакивая барана; текст оригинала двусмыслен (так же отмечено в RU/EN)",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 147): text_it совпадает с печатью; замечание к переводу остаётся."
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm47-3",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/147.jpg",
+      "page": "147",
+      "region": "верхняя треть страницы",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "resistere à così affetuosi preghi, gli si mostrò vestito di vna pelle di Montone: & che da questo poi tolsero gli Egittij il simulacro di Gioue in forma di Montone. E questa bestia appò loro riuerita molto, & non l'ammazzano mai per farne sacrificio, se non il dì della festa di Gioue nel quale ogni anno tagliano il capo ad vn Montone, & lo scorticano vestendo di quella pelle il simulacro di Gioue, al quale portano poi quello di Hercole, perche lo veggia, & finalmente tutti quelli che sono quiui, vanno à battere lo scorticato Montone, & postolo in vna vrna sacrata lo sepeliscono con grandissima riuerenza. Nè fu in Egitto solamente questo Gioue Hammonio, ma in Grecia ancora, & appresso de gli Arcadi (come recita Pausania) era fatto in forma quadrata alla foggia de gli Hermi, statoe di Mercurio, & haueua in capo le corna di Montone, & alcuni anco gli faceuano tutto il capo di Montone, & ciò, perche erano così dubbie le sue risposte, come è il capo di Montone inuolto in quella sua pelle. Oltre di ciò trouasi, come riferisce Alessandro Napolitano, che i Celti gente della Francia, metteuano per l'imagine, & statoa di Gioue vna altissima Quercia, & per lui l'adorauano, forse perche sapeuano, che trà gli arbori la Quercia era consecrata à Gioue, come quella del frutto della quale vissero gli huomini già ne' primi tempi, & à lui staua di pascer, & nodrir quelli, li quali egli era creduto di hauere prodotti al mondo, & di hauerne l'vniuersal gouerno. Per la qual cosa gli antichi coronauano di Quercia quasi tutte le statoe di Gioue, come che questa fosse segno di vita, la quale era creduta essere data da lui a' mortali. Onde soleuano i Romani dare corona della Quercia à chi hauesse in guerra difeso da morte vn Cittadino Romano, volendo à colui dare la insegna della vita, che fu cagione altrui di viuere. Ma di Vliuo ancora fecero ghirlande alle volte à Gioue, perche questo è sempre verde, di molto vtile a' mortali, & paiono le sue foglie essere quasi del colore del Cielo, benche si tenghi più tosto essere arbore di Pallade, ò di Minerua, ch'è la medesima, come nella sua imagine si può vedere. Et Pausania scriue, che in certa parte della Grecia fù vn simulacro di Gioue, che teneua vn'vccello con l'vna delle mani, & con l'altra il fulmine, & haueua in capo vna bella ghirlanda di diuersi fiori di primauera. Hebbe anco Gioue souente la corona di Rè secondo che di sopra lo descriue Martiano; perche, come la dipinse Pallade contendendo con Aragne appresso di Ouidio, è regale la imagine di Gioue, conciosia che egli era creduto Rè de i Dei, de gli huomini, & dell'vniuerso. Et Seruio sopra la decima Egloga di Virgiglio dice, che le proprie insegne di Gioue, le quali soleuano portare quelli, che trionfauano, erano lo scettro, & la toga palmata, che era vna veste di porpora grande, & ampla, nella quale hanno detto alcuni, che era tessuta la palma per dentro; & altri che era dipinta a gran bolle d'oro. Lo Scettro, era d'Auorio con vn'Aquila in cima, & si caua da Giuuenale, nella Sat. X. & da Prudentio nell'Himno di S. Romano Martire. il Ritratto si vede nelle Medaglie antiche dell'Imp. Probo, & in alcune Consolari, come le chiamano. Lo hauere dipinta la faccia di rosso, fu perciòche, come scriue anco Plinio, soleuano i Romani ogni festa tingere la faccia a Gioue di minio, & era vna delle principali cose che faceuano i Censori, dare a miniar Gioue. Et quelli che trionfauano, parimente si faceuano tutti rossi col minio; Donde tolsero le donne la vsanza che poi è passata fin'a i tempi nostri, di farsi colorite, & rosse, parendo di diuentarne più belle, oue molte si fanno souente spauenteuoli da vedere. Et nella Ethiopia vsauano parimente i grandi huomini di dipingersi non solo la faccia, ma tutto il corpo col minio, & dauano il medesimo colore a tutti i simulacri de i loro Dei. Furono poi vittime di Gioue sacrificategli da' Romani per diuerse cagioni in diuersi tempi, & sotto diuersi cognomi, la Capra, l'Agnella di due anni, & vn Toro bianco con le corna dorate; ancor che sacrificassero anco alle volte senza vittima con farro, sale, & incenso. Presso gli Atheniesi se gli sacrificaua vn Bue, con cerimonia forte ridicolosa, & era tale, come racconta Pausania. Metteuano vn poco di farro, & di frumento mescolato insieme in su l'altare di Gioue, & il bue destinato al sacrificio accostandouisi l'andaua a mangiare; allhora veniua vno de i Sacerdoti, chiamato da' Greci per l'officio che haueua Bufono; che viene à dire in nostra lingua percussore del bue, & dato di vna scure su'l capo à quella bestia, se ne fuggiua via di subito, lasciata iui la scure, la quale era chiamata poscia in giudicio da quelli, che erano quiui all'intorno, come che non hauessero visto chi altri hauesse ferito il Bue, che la scure. Questa vsanza, come scriue Suida, venne da quello, che successe già in certa festa di Gioue, nella quale vn Bue mangiò le schiacciate, che erano preste al sacrificio; di che sdegnato vno, che quiui era presente, parendogli, che quella bestia fosse stata troppo prosontuosa, diede di piglio ad vna scure, & l'vccise, & se ne fuggì via. La scure che restò fu chiamata in giudicio, & hauendo i giudici vdite le ragioni delle parti, la assolsero; & fu dapoi osseruato di fare ogni anno il medesimo. Et non è gran marauiglia, che fosse vna scure chiamata in giudicio appò gli Atheniesi, perciòche frà le prime leggi che furono loro date da Dracone, fù, che le cose ancora inanimate, come riferiscono Pausania, & Suida, quando non si trouasse la persona, che hauesse fatto il male, fossero condannate in giudicio, bandite, e gittate fuori della Città, secondo li demeriti loro.",
+      "orig_after": null,
+      "verdict": "ok",
+      "translation_affected": [],
+      "note": "text_it совпадает с печатью. Попутно: в печати «in vna / vrna sacrata» (перенос строки), в text_it «in vna vrna» — верно.",
+      "pass": "B",
+      "batch": 4
     }
   ]
 }

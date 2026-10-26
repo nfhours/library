@@ -14,9 +14,10 @@
       "type": "omission",
       "original": "Et con la Fortuna và anco il Fauore, che fu adorato parimente",
       "current": "— (подписи нет)",
-      "suggested": "подпись к гравюре в переводах отсутствует (в text_ru/text_en/text_fr её нет); добавить caption_ru / caption_en / caption_fr после сверки по фото; caption_orig: «проверить по фото» (в text_it подписи нет; изображения books/cartari/img/cartm_fauore.jpg в репозитории нет; в entries.json есть поле caption — сверить с ним)",
+      "suggested": "подпись к гравюре в переводах отсутствует (в text_ru/text_en/text_fr её нет); добавить caption_ru / caption_en / caption_fr после сверки по фото; caption_orig: «проверить по фото» (в text_it подписи нет; изображения books/cartari/img/cartm_fauore.jpg в репозитории нет; в entries.json есть поле caption — сверить с ним) — ПЕРЕСМОТРЕНО по скану (проход B): подпись — на доске с. 400 (запись cartm107); в этой textOnly-записи не добавлять.",
       "confidence": "medium",
-      "caption_source": null
+      "caption_source": null,
+      "scan_check": "Сверка со сканом (с. 400): подпись стоит на доске, это отдельная запись cartm107 с caption и переводом; в textOnly-записи подпись — дубль, добавлять caption_* не нужно."
     },
     {
       "field": "text_ru",
@@ -112,6 +113,21 @@
       "note": "То же место, что cartm_fauore-3. FR «qu'il ne lui convient / qu'il ne lui convient», RU «подобает / подобает» — следствие (RU-строка добавлена).",
       "pass": "B",
       "batch": 2
+    },
+    {
+      "issue_id": "cartm_fauore-1",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/400.jpg",
+      "page": "400",
+      "region": "гравюра во всю страницу",
+      "orig_field": "caption",
+      "paragraph": null,
+      "orig_before": null,
+      "orig_after": null,
+      "verdict": "ok",
+      "translation_affected": [],
+      "note": "Подпись к гравюре стоит на доске с. 400; доска в entries — отдельная запись cartm107, у неё есть caption и его перевод. Конец подписи на доске сверен по кропу и совпадает с caption cartm107 (и с caption cartm_fauore, это дубль). В text_it записи cartm_fauore подписи нет, и в печати её там нет. Добавлять caption_* в textOnly-запись cartm_fauore не нужно. (Начало подписи на доске в реестре — «проверить по фото».)",
+      "pass": "B",
+      "batch": 4
     }
   ]
 }

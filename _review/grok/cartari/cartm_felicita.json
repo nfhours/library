@@ -14,9 +14,10 @@
       "type": "omission",
       "original": "Perche questa fu da gli antchi adorata parimente, & chiamata Macaria da'",
       "current": "— (подписи нет)",
-      "suggested": "подпись к гравюре в переводах отсутствует (в text_ru/text_en/text_fr её нет); добавить caption_ru / caption_en / caption_fr после сверки по фото; caption_orig: «проверить по фото» (в text_it подписи нет; изображения books/cartari/img/cartm_felicita.jpg в репозитории нет; в entries.json есть поле caption — сверить с ним)",
+      "suggested": "подпись к гравюре в переводах отсутствует (в text_ru/text_en/text_fr её нет); добавить caption_ru / caption_en / caption_fr после сверки по фото; caption_orig: «проверить по фото» (в text_it подписи нет; изображения books/cartari/img/cartm_felicita.jpg в репозитории нет; в entries.json есть поле caption — сверить с ним) — ПЕРЕСМОТРЕНО по скану (проход B): подпись — на доске с. 402 (запись cartb19); в этой textOnly-записи не добавлять.",
       "confidence": "medium",
-      "caption_source": null
+      "caption_source": null,
+      "scan_check": "Сверка со сканом (с. 402): подпись стоит на доске, это отдельная запись cartb19 с caption и переводом; в textOnly-записи подпись — дубль, добавлять caption_* не нужно."
     },
     {
       "field": "text_ru",
@@ -30,7 +31,8 @@
       "original": "in bel seggio, bene ornata, ma non però con molta arte",
       "current": "на прекрасном седалище, хорошо украшенном, но не с большим, однако, искусством",
       "suggested": "на прекрасном седалище, сама хорошо убранная, но без большой изысканности («ornata» относится к женщине)",
-      "confidence": "medium"
+      "confidence": "medium",
+      "scan_check": "Сверка со сканом (с. 401): text_it совпадает с печатью; замечание к переводу остаётся."
     },
     {
       "field": "text_ru",
@@ -58,7 +60,8 @@
       "original": "in bel seggio, bene ornata, ma non però con molta arte",
       "current": "sur un beau siège, bien orné, mais non pourtant avec grand art",
       "suggested": "sur un beau siège, elle-même bien parée, mais sans grand artifice («ornata» относится к женщине; та же ошибка в RU)",
-      "confidence": "medium"
+      "confidence": "medium",
+      "scan_check": "Сверка со сканом (с. 401): text_it совпадает с печатью; замечание к переводу остаётся."
     },
     {
       "field": "text_fr",
@@ -73,6 +76,38 @@
       "current": "que chacun ici désire aveuglément de cette manière",
       "suggested": "que chacun ici désire aveuglément en ce monde («modo» — опечатка за «mondo»; та же ошибка в RU)",
       "confidence": "medium"
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm_felicita-1",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/402.jpg",
+      "page": "402",
+      "region": "гравюра во всю страницу",
+      "orig_field": "caption",
+      "paragraph": null,
+      "orig_before": null,
+      "orig_after": null,
+      "verdict": "ok",
+      "translation_affected": [],
+      "note": "Подпись к гравюре стоит на доске с. 402; доска в entries — отдельная запись cartb19, у неё есть caption и его перевод. Конец подписи на доске сверен по кропу и совпадает с caption cartb19 (и с caption cartm_felicita, это дубль). В text_it записи cartm_felicita подписи нет, и в печати её там нет. Добавлять caption_* в textOnly-запись cartm_felicita не нужно.",
+      "pass": "B",
+      "batch": 4
+    },
+    {
+      "issue_id": "cartm_felicita-2",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/401.jpg",
+      "page": "401",
+      "region": "нижняя половина страницы",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "Perche questa fu da gli antchi adorata parimente, & chiamata Macaria da' Greci, e fu come si raccoglie da Euripide, & che riferisce Pausania, figliuola di Hercole, & acquistossi gli diuini honori, perche hauendo l'Oracolo risposto a gli Atheniesi, che poteuano esser vincitori di certa guerra mossa loro da' Lacedemonij per gli figliuoli di Hercole, se qualchuno di questi occidendosi da sè si fosse offerto alli Dei dell'Inferno, ella subito che questo intese, si tagliò la gola, & fece di sè la miserabile offerta, acquistandone la vittoria a gli Atheniesi, li quali perciò l'adorarono poi, come quelli, che per lei erano stati vittoriosi, & felici. La imagine di costei, cioè della Felicità, che questo è il nome Latino, & Macaria il Greco, come hò detto, fu da gli antichi fatta, come si vede in alcune medaglie, di Giulia Mammea, vna donna sopra vn bello seggio, che tiene nella destra il Caduceo, & hà nella sinistra vn corno di douitia. Si può dire, che quello significhi la virtù, questo le ricchezze come che, nè le virtù da sè, nè le ricchezze per loro medesime possono fare quì l'huomo felice, che fu opinione di Aristotele. Imperoche quale felicità può essere di vn virtuoso, che si troui in tanta pouertà, che patisca disagio non solamente di molte cose, che gli sarebbono commode, ma di quelle ancora, che gli sono necessarie? Et allo incontro chi si troua priuo di ogni virtù, se bene hauesse tutte le ricchezze del mondo, non si potrà mai chiamare felice, anzi sarà infelicissimo, non hauendo punto di quello, che è proprio dell'huomo. Potransi dunque chiamare felici quì frà noi secondo il parere di Aristotele, & come ci mostra la imagine della Felicità, pur mò disegnata, solo quelli, che sono virtuosi, e ricchi, cioè che hanno tanto de' beni della Fortuna; che ponno prouedere a' suoi disagi, & alle sue commodità. Cebete nella sua tauola fà la Felicità vna donna, che siede allentrare di certa rocca in bel seggio, bene ornata, ma non però con molta arte, & coronata di bellissimi, & vaghi fiori. Alla quale ben pare che voglia andare ogniuno, ma non vi arriuano però se nò quelli, che caminano con la scorta della virtù, lasciandosi alle spalle tutte l'altre cose; perche fu opinione di costui, come di molti altri ancora innanzi a lui, che la virtù sola potesse fare l'huomo felice. Ilche dobbiamo noi dire ancora parlando christianamente, & intendendo non della Felicità, che quì brama alla cieca ogniuno in questo modo, perche non è, se bene pare, Felicità, ma di quella, che nelle celesti sedi godono le anime beate, vera, immutabile, & eterna. Alla quale hà da sperare di giugnere fermamente ogniuno, che scorto da' lucidissimi raggi della diuina bontà camini tutto il viaggio di questo modo i compagnia della Fede, calcando l'arido, & sterile terreno co' piedi della Carità.",
+      "orig_after": null,
+      "verdict": "ok",
+      "translation_affected": [],
+      "note": "text_it совпадает с печатью («…in bel seggio, bene ornata, ma non però con molta arte, & coronata…»). Замечание к RU остаётся.",
+      "pass": "B",
+      "batch": 4
     }
   ]
 }

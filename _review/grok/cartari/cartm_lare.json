@@ -14,9 +14,10 @@
       "type": "omission",
       "original": "Ma dirò più tosto che la forma del membro detto già tante",
       "current": "— (подписи нет)",
-      "suggested": "подпись к гравюре в переводах отсутствует (в text_ru/text_en/text_fr её нет); добавить caption_ru / caption_en / caption_fr после сверки по фото; caption_orig: «проверить по фото» (в text_it подписи нет; изображения books/cartari/img/cartm_lare.jpg в репозитории нет; в entries.json есть поле caption — сверить с ним)",
+      "suggested": "подпись к гравюре в переводах отсутствует (в text_ru/text_en/text_fr её нет); добавить caption_ru / caption_en / caption_fr после сверки по фото; caption_orig: «проверить по фото» (в text_it подписи нет; изображения books/cartari/img/cartm_lare.jpg в репозитории нет; в entries.json есть поле caption — сверить с ним) — ПЕРЕСМОТРЕНО по скану (проход B): подпись — на доске с. 365 (запись cartm97); в этой textOnly-записи не добавлять.",
       "confidence": "medium",
-      "caption_source": null
+      "caption_source": null,
+      "scan_check": "Сверка со сканом (с. 365): подпись стоит на доске, это отдельная запись cartm97 с caption и переводом; в textOnly-записи подпись — дубль, добавлять caption_* не нужно."
     },
     {
       "field": "text_ru",
@@ -68,6 +69,23 @@
       "current": "une servante de son épouse appelée Ocrisia",
       "suggested": "une servante de son épouse, nommée Ocrisia (Окрисия — служанка, а не жена Тарквиния; снять двусмысленность, как в EN)",
       "confidence": "low"
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm_lare-1",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/365.jpg",
+      "page": "365",
+      "region": "гравюра во всю страницу",
+      "orig_field": "caption",
+      "paragraph": null,
+      "orig_before": null,
+      "orig_after": null,
+      "verdict": "ok",
+      "translation_affected": [],
+      "note": "Подпись к гравюре стоит на доске с. 365; доска в entries — отдельная запись cartm97, у неё есть caption и его перевод. Конец подписи на доске сверен по кропу и совпадает с caption cartm97 (и с caption cartm_lare, это дубль). В text_it записи cartm_lare подписи нет, и в печати её там нет. Добавлять caption_* в textOnly-запись cartm_lare не нужно.",
+      "pass": "B",
+      "batch": 4
     }
   ]
 }

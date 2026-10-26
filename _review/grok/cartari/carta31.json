@@ -15,9 +15,27 @@
       "type": "addition",
       "original": "che tanto può essere Mercurio, quanto Bellerofonte.",
       "current": "«Вторая же [камея] взята с древней резьбы».",
-      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: отдельные абзацы [3], конец текста) — фраза продолжает подпись к двум камеям; та же фраза стоит в начале cartm_pignoriahermi — оставить в одной записи. caption_ru: \"«Вторая же [камея] взята с древней резьбы».\"; caption_en: \"\"The second [cameo] is taken from an ancient carving.\"\"; caption_fr: \"« La seconde [camée] est tirée d'une taille antique. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; на странице img/carta31.jpg этой фразы нет — под гравюрой только примечание «Ne due Camei…»)",
+      "suggested": "перенести подпись к гравюре в отдельные поля (сейчас: отдельные абзацы [3], конец текста) — фраза продолжает подпись к двум камеям; та же фраза стоит в начале cartm_pignoriahermi — оставить в одной записи. caption_ru: \"«Вторая же [камея] взята с древней резьбы».\"; caption_en: \"\"The second [cameo] is taken from an ancient carving.\"\"; caption_fr: \"« La seconde [camée] est tirée d'une taille antique. »\"; caption_orig: «проверить по фото» (в text_it подписи нет; на странице img/carta31.jpg этой фразы нет — под гравюрой только примечание «Ne due Camei…») Скан (проход B): «che tanto può…» — конец примечания на с. 496; «Il secondo s’è preso da vn taglio antico.» — с. 497 под гравюрой.",
       "confidence": "medium",
-      "caption_source": null
+      "caption_source": null,
+      "scan_check": "Сверка со сканом (с. 496→497): «che tanto può essere Mercurio, quanto Bellerofonte.» — последняя фраза примечания на с. 496 (основной текст, не надпись на доске); «Il secondo s’è preso da vn taglio antico.» — с. 497, первая строка под гравюрой, по смыслу конец примечания carta31 (в entries — начало cartm_pignoriahermi)."
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "carta31-1",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/496.jpg",
+      "page": "496 → 497",
+      "region": "с. 496, конец примечания перед виньеткой; с. 497, 1-я строка под гравюрой",
+      "orig_field": "text_it",
+      "paragraph": 2,
+      "orig_before": "Ne due Camei s'è rappresentato, in vno Mercurio, che frena il Pegaso, & nell'altro il medesimo che corre con la Corona in mano, simbolo di qualche Vittoria ottenuta nel corso. il primo s'è tolto da vna Medaglia d'Antinoo appresso Sebastiano Erizzo, & simile figura si vedeua in vno de' Camei di Monsig. Patriarca Grimani glor. mem. che tanto può essere Mercurio, quanto Bellerofonte.",
+      "orig_after": null,
+      "verdict": "ok",
+      "translation_affected": [],
+      "note": "text_it совпадает с печатью: «…Grimani glor. mem. che tanto può essere Mercurio, quanto Bellerofonte.» — последняя фраза примечания на с. 496, в печати это текст, а не надпись на доске. Фраза «Il secondo s’è preso da vn taglio antico.» (RU абзац 3) стоит на с. 497 первой строкой под гравюрой (всадник на Пегасе) и по смыслу завершает примечание carta31 («il primo… il secondo»); в entries она — начало cartm_pignoriahermi. Решение issue (оставить в одной записи) в силе.",
+      "pass": "B",
+      "batch": 4
     }
   ]
 }

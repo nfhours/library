@@ -72,7 +72,7 @@
 
 **cartm_isismoonjove**
 
-- `cartm_isismoonjove-1` — RU/EN/FR — addition, high: «saggi, che Gioue fosse, quale si vede nel Campidoglio» → удалить вводный блок о конце главы об Изиде: text_it начинается с «saggi, che Gioue fosse…»; этот текст принадлежит другой записи (нужна сверка в проходе B)
+- `cartm_isismoonjove-1` — RU/EN/FR — addition, high: «saggi, che Gioue fosse, quale si vede nel Campidoglio» → удалить вводный блок о конце главы об Изиде: text_it начинается с «saggi, che Gioue fosse…»; этот текст принадлежит другой записи (нужна сверка в проходе B) Скан (проход B): УТОЧНЕНО — удалить только блок о конце главы об Изиде (дубль cartm37); вступление о Юпитере — с. 113 этой записи, оставить; в text_it оно пропущено (cartm_isismoonjove-6).
 - `cartm_isismoonjove-2` — RU/EN/FR — wrong_article, high: «saggi, che Gioue fosse, quale si vede nel Campidoglio» → абзацы 2–4 — сокращённый дубль конца cartm37 (Луна, волшебницы, Фавн и Пик); в text_it этой записи их нет — удалить
 - `cartm_isismoonjove-3` — RU/EN/FR — mistranslation, high: «saggi, che Gioue fosse, quale si vede nel Campidoglio» → древние мудрецы не верили, что Юпитер таков, каким его видят на Капитолии
 
@@ -109,7 +109,7 @@
 
 **cartm63**
 
-- `cartm63-2` — RU/EN/FR — addition, high: «fuori della spelonca horrenda porgeua spesso in mare le spauenteuoli teste, guardando se naue» → text_it обрывается на «guardando se naue»; всё дальнейшее (Харибда, превращение Сциллы, Платон о Нереидах, Павсаний, Палемон-Портун) отсутствует в оригинале этой записи — удалить или перенести в следующую запись после сверки …
+- `cartm63-2` — RU/EN/FR — addition, high: «fuori della spelonca horrenda porgeua spesso in mare le spauenteuoli teste, guardando se naue» → text_it обрывается на «guardando se naue»; всё дальнейшее (Харибда, превращение Сциллы, Платон о Нереидах, Павсаний, Палемон-Портун) отсутствует в оригинале этой записи — удалить или перенести в следующую запись после сверки … Скан (проход B, с. 208→210): ПЕРЕСМОТРЕНО — текст после «guardando se naue» в печати есть (с. 210–211), переводы ему соответствуют; не удалять. Неполон text_it (cartm63-3).
 
 **cartm70**
 
@@ -192,9 +192,9 @@
 - `cartm_intro1-3` — RU/EN/FR — addition, high: «come vedremo poi nella sua imagine, & pure sacrificauano a tutti in vn medesimo modo» → удалить повторный фрагмент «имели на своём языке собственные имена … одним и тем же образом.» (дубль предыдущего предложения, в оригинале его нет)
 - `cartm28-6` — RU/FR — mistranslation, medium: «Ma non voglio entrare in queste cose Sole de gli Astrologi» → в эти дела астрологов («Sole» — колонтитул/сбой набора в оригинале; в EN «these matters The Sun of the Astrologers» — так же)
 - `cartm37-6` — FR — ocr, low: «vi erano due altre te- … ste, che si moueuano» → [FR] deux autres têtes, qui se mouvaient (повтор на стыке страниц)
-- `cartm_isismoonjove-1` — RU/EN/FR — addition, high: «saggi, che Gioue fosse, quale si vede nel Campidoglio» → удалить вводный блок о конце главы об Изиде: text_it начинается с «saggi, che Gioue fosse…»; этот текст принадлежит другой записи (нужна сверка в проходе B)
+- `cartm_isismoonjove-1` — RU/EN/FR — addition, high: «saggi, che Gioue fosse, quale si vede nel Campidoglio» → удалить вводный блок о конце главы об Изиде: text_it начинается с «saggi, che Gioue fosse…»; этот текст принадлежит другой записи (нужна сверка в проходе B) Скан (проход B): УТОЧНЕНО — удалить только блок о конце главы об Изиде (дубль cartm37); вступление о Юпитере — с. 113 этой записи, оставить; в text_it оно пропущено (cartm_isismoonjove-6).
 - `cartm_isismoonjove-2` — RU/EN/FR — wrong_article, high: «saggi, che Gioue fosse, quale si vede nel Campidoglio» → абзацы 2–4 — сокращённый дубль конца cartm37 (Луна, волшебницы, Фавн и Пик); в text_it этой записи их нет — удалить
-- `cartm_isismoonjove-5` — FR — addition, medium: «saggi, che Gioue fosse, quale si vede nel Campidoglio» → [FR] не уверен: вступление о Юпитере (Сатурн, Ямвлих, лотос) в text_it этой записи отсутствует — возможно, текст соседней записи; сверить по фото, не дописывать
+- `cartm_isismoonjove-5` — FR — addition, medium: «saggi, che Gioue fosse, quale si vede nel Campidoglio» → [FR] не уверен: вступление о Юпитере (Сатурн, Ямвлих, лотос) в text_it этой записи отсутствует — возможно, текст соседней записи; сверить по фото, не дописывать Скан (проход B, с. 113): РЕШЕНО — вступление о Юпитере есть в печати на с. 113 и относится к этой записи; пропущено в text_it (cartm_isismoonjove-6), FR оставить.
 - `cartm_pan1-1` — RU — addition, high: «— (в text_it фрагмент один раз)» → удалить повторный фрагмент (дублирует уже переведённый выше отрывок; в text_it один раз)
 - `cartm_pan1-3` — RU/EN/FR — addition, high: «lunge, & hirte,» → абзац 2 — дубль конца стихотворения и комментария Сервия/Боккаччо; удалить. Попутно: «lunge» = «длинные» (не «далёкой»), «questi fu vn'huomo dotto» = «он (Пан) был учёным мужем»
 - `cartm53-2` — RU/EN/FR — name, high: «Giunone, come hò detto, alcuni da Venere» → Юноной, как я сказал; иные — Венерой, а иные — Гименеем (Giunone; конец cartm51 «da Giu[none]»; также дубль «иные иные»)
@@ -203,7 +203,7 @@
 - `cartm58-2` — RU/EN/FR — addition, high: «Queste cose si operauano a' 28. d'Aprile, & il primo giorno di Maggio» → абзац 2 — дубль уже переведённого текста (и/или текст соседней записи / редакторская пометка); в text_it этой записи его нет — удалить (повтор конца абзаца 1 + текст о Доброй Богине из cartm59)
 - `cartm59-2` — RU/EN/FR — addition, high: «cercò più volte con parole di di trarla alle sue voglie» → абзац 2 — дубль уже переведённого текста (и/или текст соседней записи / редакторская пометка); в text_it этой записи его нет — удалить (повтор второй половины абзаца 1)
 - `cartm59-3` — RU/EN/FR — addition, high: «era questa Proserpina, figliuola di Cerere.» → удалить редакторскую пометку — это не перевод
-- `cartm63-2` — RU/EN/FR — addition, high: «fuori della spelonca horrenda porgeua spesso in mare le spauenteuoli teste, guardando se naue» → text_it обрывается на «guardando se naue»; всё дальнейшее (Харибда, превращение Сциллы, Платон о Нереидах, Павсаний, Палемон-Портун) отсутствует в оригинале этой записи — удалить или перенести в следующую запись после сверки …
+- `cartm63-2` — RU/EN/FR — addition, high: «fuori della spelonca horrenda porgeua spesso in mare le spauenteuoli teste, guardando se naue» → text_it обрывается на «guardando se naue»; всё дальнейшее (Харибда, превращение Сциллы, Платон о Нереидах, Павсаний, Палемон-Портун) отсутствует в оригинале этой записи — удалить или перенести в следующую запись после сверки … Скан (проход B, с. 208→210): ПЕРЕСМОТРЕНО — текст после «guardando se naue» в печати есть (с. 210–211), переводы ему соответствуют; не удалять. Неполон text_it (cartm63-3).
 - `cartm70-2` — RU/EN — addition, high: «Quà, quà venite à vdir le mie querele Contra questo maluagio, empio, e crudele.» → text_it кончается стихами Катулла; весь последующий блок (страсти души, Стаций о Тисифоне, Овидий, Стикс) в оригинале этой записи отсутствует — удалить/перенести после сверки
 - `cartm70-5` — FR — addition, high: «Atheniesi le dimandauano le Dee Seuere, & i Sicionij le» → [FR] блок после стиха Катулла (Стаций, Овидий, Стикс) отсутствует в text_it этой записи, к тому же повторён дважды — удалить
 - `cartm76-2` — RU/EN/FR — addition, high: «Ma questa distintione non faceuano gli antichi» → абзацы 2–4 — полный повторный перевод абзаца 1 (с редакторскими пометками); удалить
@@ -744,6 +744,7 @@ caption_source: engraving (caption_orig прочитан с гравюры в bo
 - caption_source: null
 - caption_orig: «проверить по фото» (в text_it подписи нет; изображения books/cartari/img/cartm_angerona.jpg в репозитории нет; в entries.json есть поле caption — сверить с ним)
 - Текущий текст: подписи в text_ru/text_en/text_fr нет
+- Скан (проход B, с. 310): подпись — на доске, это запись cartm88 (caption и перевод там есть); в textOnly-записи не добавлять (дубль).
 
 ### cartm_volcano (`cartm_volcano-1`, поля: RU)
 
@@ -751,6 +752,7 @@ caption_source: engraving (caption_orig прочитан с гравюры в bo
 - caption_source: null
 - caption_orig: «проверить по фото» (в text_it подписи нет; изображения books/cartari/img/cartm_volcano.jpg в репозитории нет; в entries.json есть поле caption — сверить с ним)
 - Текущий текст: подписи в text_ru/text_en/text_fr нет
+- Скан (проход B, с. 321): подпись — на доске, это запись cartm_vulcan; в textOnly-записи не добавлять (дубль).
 
 ### cartm_marte (`cartm_marte-1`, поля: RU/EN/FR)
 
@@ -821,6 +823,7 @@ caption_source: engraving (caption_orig прочитан с гравюры в bo
 - caption_source: null
 - caption_orig: «проверить по фото» (в text_it подписи нет; изображения books/cartari/img/cartm_lare.jpg в репозитории нет; в entries.json есть поле caption — сверить с ним)
 - Текущий текст: подписи в text_ru/text_en/text_fr нет
+- Скан (проход B, с. 365): подпись — на доске, это запись cartm97; в textOnly-записи не добавлять (дубль).
 
 ### cartm_genio (`cartm_genio-1`, поля: RU/EN/FR)
 
@@ -837,6 +840,7 @@ caption_source: engraving (caption_orig прочитан с гравюры в bo
 - caption_source: null
 - caption_orig: «проверить по фото» (в text_it подписи нет; изображения books/cartari/img/cartm_fortuna.jpg в репозитории нет; в entries.json есть поле caption — сверить с ним)
 - Текущий текст: подписи в text_ru/text_en/text_fr нет
+- Скан (проход B, с. 370–377): доски с этой подписью нет (с. 374 — cartm_fortunadatrice, с. 376 — cartm_fortunalieta); проверить по фото.
 
 ### cartm_fortunadatrice (`cartm_fortunadatrice-1`, поля: RU/EN/FR)
 
@@ -898,6 +902,7 @@ caption_source: engraving (caption_orig прочитан с гравюры в bo
 - caption_source: null
 - caption_orig: «проверить по фото» (в text_it подписи нет; изображения books/cartari/img/cartm_fauore.jpg в репозитории нет; в entries.json есть поле caption — сверить с ним)
 - Текущий текст: подписи в text_ru/text_en/text_fr нет
+- Скан (проход B, с. 400): подпись — на доске, это запись cartm107; в textOnly-записи не добавлять (дубль).
 
 ### cartm_felicita (`cartm_felicita-1`, поля: RU)
 
@@ -905,6 +910,7 @@ caption_source: engraving (caption_orig прочитан с гравюры в bo
 - caption_source: null
 - caption_orig: «проверить по фото» (в text_it подписи нет; изображения books/cartari/img/cartm_felicita.jpg в репозитории нет; в entries.json есть поле caption — сверить с ним)
 - Текущий текст: подписи в text_ru/text_en/text_fr нет
+- Скан (проход B, с. 402): подпись — на доске, это запись cartb19; в textOnly-записи не добавлять (дубль).
 
 ### cartm_cupido (`cartm_cupido-1`, поля: RU)
 
@@ -912,6 +918,7 @@ caption_source: engraving (caption_orig прочитан с гравюры в bo
 - caption_source: null
 - caption_orig: «проверить по фото» (в text_it подписи нет; изображения books/cartari/img/cartm_cupido.jpg в репозитории нет; в entries.json есть поле caption — сверить с ним)
 - Текущий текст: подписи в text_ru/text_en/text_fr нет
+- Скан (проход B, с. 403–407): гравюры с этой подписью нет; в caption английское «blindfolded» — не использовать как caption_orig; проверить по фото.
 
 ### cartm_eroteanterote (`cartm_eroteanterote-1`, поля: RU/EN/FR)
 
@@ -955,6 +962,7 @@ caption_source: engraving (caption_orig прочитан с гравюры в bo
 - caption_source: null
 - caption_orig: «проверить по фото» (в text_it подписи нет; изображения books/cartari/img/cartm_venere2.jpg в репозитории нет; в entries.json есть поле caption — сверить с ним)
 - Текущий текст: подписи в text_ru/text_en/text_fr нет
+- Скан (проход B, с. 430): подпись на доске совпадает с полем caption (конец сверен) → caption_orig = caption, caption_source: engraving; переводов подписи нет.
 
 ### cartm_tempiopafo (`cartm_tempiopafo-1`, поля: RU/EN/FR)
 
@@ -1061,6 +1069,7 @@ caption_source: engraving (caption_orig прочитан с гравюры в bo
 - caption_source: null
 - caption_orig: «проверить по фото» (в text_it подписи нет; изображения books/cartari/img/cartm_fraude.jpg в репозитории нет; в entries.json есть поле caption — сверить с ним)
 - Текущий текст: подписи в text_ru/text_en/text_fr нет
+- Скан (проход B, с. 388): подпись — на доске, это запись cartm102; в textOnly-записи не добавлять (дубль).
 
 ### cartm_naue (`cartm_naue-1`, поля: RU/EN/FR)
 
@@ -1135,30 +1144,30 @@ caption_source: engraving (caption_orig прочитан с гравюры в bo
 - `cartm18-2` — RU/EN/FR — mistranslation, medium: «che dall'vn lato, & dall'altro haueua due altre figure tre imagini parimente di femina» → по обе стороны от которой были ещё две женские фигуры (всего три женских изображения) — в оригинале, вероятно, сбой набора; «по две» с каждой стороны неверно
 - `cartm23-3` — RU/EN — mistranslation, low: «perche il bosco, che era quiui all'interno» → роща, что была там вокруг (вероятно «all'intorno»; в EN «within there» — так же) — не уверен в чтении оригинала
 - `cartm28-5` — RU/EN/FR — mistranslation, medium: «A Thetide pietosa ascinga il petto.» → Осушает грудь милосердной Фетиды (ascinga = asciuga) — не уверен в чтении слова
-- `cartm_isismoonjove-5` — FR — addition, medium: «saggi, che Gioue fosse, quale si vede nel Campidoglio» → [FR] не уверен: вступление о Юпитере (Сатурн, Ямвлих, лотос) в text_it этой записи отсутствует — возможно, текст соседней записи; сверить по фото, не дописывать
+- `cartm_isismoonjove-5` — FR — addition, medium: «saggi, che Gioue fosse, quale si vede nel Campidoglio» → [FR] не уверен: вступление о Юпитере (Сатурн, Ямвлих, лотос) в text_it этой записи отсутствует — возможно, текст соседней записи; сверить по фото, не дописывать Скан (проход B, с. 113): РЕШЕНО — вступление о Юпитере есть в печати на с. 113 и относится к этой записи; пропущено в text_it (cartm_isismoonjove-6), FR оставить.
 - `cartm38-4` — IT — ocr, low: «giurauano parimente di non torre doro alcuno da' giuocatori» → [IT] не уверен: возможно «dono» (дар, подкуп); нужна сверка со сканом в проходе B Скан (проход B, с. 133): в печати, по-видимому, «dono» — ошибка транскрипции «doro»; RU/EN/FR «золота/gold/or» → «дара/gift/don» (уверенность средняя).
 - `cartm46-2` — RU/EN/FR — mistranslation, low: «quando taglia via tutti gli effetti del corpo» → не уверен: вероятно «affetti» — «когда отсекает все страсти (влечения) тела»
-- `cartm47-3` — RU/EN/FR — mistranslation, low: «tutti quelli che sono quiui, vanno à battere lo scorticato Montone» → не уверен: у Геродота (II, 42) присутствующие бьют себя в грудь, оплакивая барана; перевод буквален, допустимо пояснение
+- `cartm47-3` — RU/EN/FR — mistranslation, low: «tutti quelli che sono quiui, vanno à battere lo scorticato Montone» → не уверен: у Геродота (II, 42) присутствующие бьют себя в грудь, оплакивая барана; перевод буквален, допустимо пояснение Скан (проход B, с. 147): text_it верен печати; толкование — не уверен.
 - `cartm54-4` — FR — mistranslation, low: «ni di conto, li quali si mutauano di habito» → [FR] не уверен: начало фразы оборвано на стыке страниц; «…ni di conto» может значить «люди без положения» — сверить с предыдущей записью, не дописывать
 - `cartm_virtuhonore-3` — EN/FR/RU — mistranslation, medium: «che la sua via gli mostraua prima stretta, & certa, & difficile» → [EN] narrow, steep, and difficult («certa» здесь, вероятно, «erta» — крутая; во всяком случае не «uncertain»); RU «тесным» → «крутым» — не уверен Скан (проход B, с. 306): в печати «certa» — так в издании, text_it верен печати; «erta» остаётся догадкой — не уверен.
 - `cartm_volcano-3` — IT/FR — ocr, low: «& gli sforzarono a fuggirsi nelle Egitto.» → [IT] по смыслу (Геродот II 141) арабы бегут из Египта; «nelle Egitto» — вероятно, порча текста; не уверен, нужна сверка в проходе B Скан (проход B, с. 320): в печати «nelle Egitto» — так в издании, text_it верен печати; смысл («в»/«из» Египта) — не уверен.
 - `cartm_tifone-3` — RU/FR/EN — addition, low: «stasse. Et di Horo auuene quasi anco il medesimo» → «stasse» — обрывок слова с предыдущей страницы; «довольно» / EN «suffice.» — догадка переводчика; лучше «…» — не уверен
 - `cartm_fauore-3` — EN — mistranslation, low: «perche vuole ogni hora salire più sù, che non gli conuiene» → [EN] than is fitting for him (Фавор, м. р.); на переносе страницы текст EN спутан («to come») — проверить стык, не уверен
 - `cartm_cupido-3` — RU/EN — ocr, medium: «Melete giouane Atheniese niun conto» → «contò facendosi» на переносе — повтор «conto/contò», а не «рассказывал»: «ни во что не ставил [Тимагора], издеваясь…»; убрать «рассказывал» — не уверен в точной реконструкции
-- `cartm_eroteanterote-6` — EN/FR — mistranslation, low: «Ch'al carro de la madre erano giunti,» → [EN] Which were yoked to his mother's chariot («giunti» = запряжены, не «пришли»), не уверен
-- `cartm_imaginiamore-2` — RU/EN/FR — mistranslation, medium: «& alcuni altri mostrauano di volerla calciare» → а иные показывали, что хотят её пнуть / обуть (у Плиния «calciarent» — обувают); «оседлать» неверно, точный смысл — не уверен; убрать повтор «иные иные»
-- `cartm_gratieintro-2` — EN/FR/RU — mistranslation, medium: «Et alcune di lor spoglian la chioma,» → [EN] And some of them strip his (Phoebus') head of the crown of rays — «chioma» Солнца, не их собственные волосы; RU «снимают с главы убор» → «снимают с его главы [лучистый венец]», не уверен
-- `cartm_calunniaapelle-3` — RU/FR/EN — mistranslation, medium: «& porgeua la mano alla Calumnia, che veniua à lui» → и (судья) протягивал руку Клевете — глагол в ед. ч., у Лукиана руку протягивает судья; EN «and extended her hand» → «and he held out his hand», не уверен
+- `cartm_eroteanterote-6` — EN/FR — mistranslation, low: «Ch'al carro de la madre erano giunti,» → [EN] Which were yoked to his mother's chariot («giunti» = запряжены, не «пришли»), не уверен Скан (проход B, с. 412): text_it верен печати.
+- `cartm_imaginiamore-2` — RU/EN/FR — mistranslation, medium: «& alcuni altri mostrauano di volerla calciare» → а иные показывали, что хотят её пнуть / обуть (у Плиния «calciarent» — обувают); «оседлать» неверно, точный смысл — не уверен; убрать повтор «иные иные» Скан (проход B, с. 421): text_it верен печати («calciare»); толкование — не уверен.
+- `cartm_gratieintro-2` — EN/FR/RU — mistranslation, medium: «Et alcune di lor spoglian la chioma,» → [EN] And some of them strip his (Phoebus') head of the crown of rays — «chioma» Солнца, не их собственные волосы; RU «снимают с главы убор» → «снимают с его главы [лучистый венец]», не уверен Скан (проход B, с. 452): text_it верен печати; толкование — не уверен.
+- `cartm_calunniaapelle-3` — RU/FR/EN — mistranslation, medium: «& porgeua la mano alla Calumnia, che veniua à lui» → и (судья) протягивал руку Клевете — глагол в ед. ч., у Лукиана руку протягивает судья; EN «and extended her hand» → «and he held out his hand», не уверен Скан (проход B, с. 383): text_it верен печати; подлежащее неоднозначно и в печати — не уверен.
 - `cartm_furoreira-3` — FR/EN — addition, low: «re, perche al cominciare delle guerre più se dice spesso di quello, che se ne seguita poi» → [FR] […]re, car au commencement des guerres (обрывок слова со стыка страниц; «la Renommée» — догадка, не уверен; EN «Fame» → «[…]re»). Скан (проход B, с. 325→327): «re,» = остаток «Mar-|te,», фраза из cartm_marte — снято, см. «Партия 2»
 - `cartm84-2` — RU/FR/EN — ocr, medium: «dapoi spiegaua vn'hasta ne' capi de' nemici» → метал копьё в поля (земли) неприятелей — «capi», вероятно, опечатка за «campi»; «вождей» — контаминация; EN «in the chiefs' lands of the enemies» → «into the enemies' fields», не уверен. Скан (проход B, с. 301): в печати «capi» — опечатка издания, text_it верен печати; чтение «campi» остаётся догадкой — не уверен
-- `cartm_pignoriahecatombe-1` — RU/FR/EN — addition, medium: «Ma io credo, che'l nostro Autore parli de' poueri» → говорит о бедняках (людях; вставка «[животных]» не обоснована — не уверен в толковании, но «poveri» без существительного = бедные люди); то же EN «the poor [animals]»
-- `carta3-3` — FR — mistranslation, low: «che il Timpano chiama con nome di Crotalo» → [FR] le Tympanon du nom de Crotale … le Tympanon n'était pas non plus («Timpano» — тимпан, ручной бубен; «timbale» — литавра и ж. р.; так же в абзаце 3; не уверен в выборе слова)
-- `cartm_pignoriaspinola-1` — FR/RU/EN — mistranslation, low: «Et la medesima Inuentione della fauola principale tiene dipinta in vn Quadretto vagamente il S. Andrea Spinola» → [FR] le Seigneur Andrea Spinola possède, peinte avec grâce dans un petit tableau, la même invention («tiene dipinta» = держит у себя написанной, владеет картиной, а не сам написал; не уверен; та же ошибка в RU/EN)
-- `carta7-2` — RU/FR — addition, medium: «inanzi la quale i Senatori correuano a piedi scalzi.» → перенести подпись к гравюре в отдельные поля (сейчас: отдельные абзацы [2, 3, 4], конец текста) — абзацы 2–4 похожи на подписи Пиньории к фигурам (Земля STABILE / Плодородие; храм Весты); к какой гравюре относятся — не уверен. …
+- `cartm_pignoriahecatombe-1` — RU/FR/EN — addition, medium: «Ma io credo, che'l nostro Autore parli de' poueri» → говорит о бедняках (людях; вставка «[животных]» не обоснована — не уверен в толковании, но «poveri» без существительного = бедные люди); то же EN «the poor [animals]» Скан (проход B, с. 471): text_it верен печати; толкование — не уверен.
+- `carta3-3` — FR — mistranslation, low: «che il Timpano chiama con nome di Crotalo» → [FR] le Tympanon du nom de Crotale … le Tympanon n'était pas non plus («Timpano» — тимпан, ручной бубен; «timbale» — литавра и ж. р.; так же в абзаце 3; не уверен в выборе слова) Скан (проход B, с. 472): text_it верен печати; выбор слова — не уверен.
+- `cartm_pignoriaspinola-1` — FR/RU/EN — mistranslation, low: «Et la medesima Inuentione della fauola principale tiene dipinta in vn Quadretto vagamente il S. Andrea Spinola» → [FR] le Seigneur Andrea Spinola possède, peinte avec grâce dans un petit tableau, la même invention («tiene dipinta» = держит у себя написанной, владеет картиной, а не сам написал; не уверен; та же ошибка в RU/EN) Скан (проход B, с. 482): text_it верен печати; толкование — не уверен.
+- `carta7-2` — RU/FR — addition, medium: «inanzi la quale i Senatori correuano a piedi scalzi.» → перенести подпись к гравюре в отдельные поля (сейчас: отдельные абзацы [2, 3, 4], конец текста) — абзацы 2–4 похожи на подписи Пиньории к фигурам (Земля STABILE / Плодородие; храм Весты); к какой гравюре относятся — не уверен. … Скан (проход B, с. 484): абзацы 2–4 — основной текст с. 484, а не подписи; caption_* не создавать. В text_it этот текст пропущен (carta7-4).
 - `carta13-2` — RU/FR/EN — mistranslation, medium: «'Dum vocat haec Caesar, poterit lorica vocari: Pectore cum sacro federit, Aegis erit.'» → «Пока он пуст (vacat), Цезарь, его можно звать панцирем; когда же ляжет (sederit) на священную грудь — станет эгидой» (Марциал VII.1; «vocat», «federit» — опечатки); EN аналогично, не уверен в степени, в какой переводчик должен … Скан (проход B, с. 507): в печати «Dum Vacat hæc, & Cæsar… ſederit» — конъектура подтверждена, «vocat/federit» — ошибки транскрипции; вопрос снят.
 - `cartm_pignoriavelsero-1` — RU/FR/EN — mistranslation, medium: «essere errata la sottoscritta di passa vinti leggi del Codice» → ошибочность подписи (датировки) более чем двадцати законов Кодекса («passa vinti» = свыше двадцати); EN «the subscription reading "twenty laws"» → «the subscriptions of more than twenty laws» — не уверен Скан (проход B, с. 511): в печати «passa vinti» — text_it верен; толкование «свыше двадцати» остаётся.
 - `carta41-2` — RU/FR/EN — mistranslation, medium: «Nel Cameo si vede Venere Calliga come stà nelle Medaglie.» → Венера Каллига — пояснение «(Обутая)» добавлено и сомнительно (вероятно, искажённое «Callipyga»), не уверен; убрать глоссу; то же EN «(Booted)». Скан (проход B, с. 527): в печати «Calli piga» = Callipyga — подтверждено, снято
-- `carti6-4` — FR — name, low: «che i Cumani, che furono scoperti già vicini al Perù non lontani dal Mare» → [FR] les Cumani (Cumanais), découverts déjà près du Pérou (в оригинале «Cumani»; «Cumanagotos» — модернизирующая догадка; не уверен)
+- `carti6-4` — FR — name, low: «che i Cumani, che furono scoperti già vicini al Perù non lontani dal Mare» → [FR] les Cumani (Cumanais), découverts déjà près du Pérou (в оригинале «Cumani»; «Cumanagotos» — модернизирующая догадка; не уверен) Скан (проход B, с. 558): в печати «Cumani» — text_it верен.
 
 ## Fix
 
@@ -1209,7 +1218,7 @@ caption_source: engraving (caption_orig прочитан с гравюры в bo
 
 Главное:
 - **Кустоды снова дают почти все ошибки.** Места, которые в проходе A считались «опечатками оригинала», на деле — кустоды, внесённые в text_it при транскрипции: `cart5-2` (non non), `cartm33-2` (minuti nuti), `cartm37-4` (risplendente, dente), `cartm50-2` (temeuano temeuano), `cartm54-3` (& &), `cartm59-5` (di di), `cartm59-6` (del do), `cartm_anubis-3` (Marco Marco), `carta41-3` (Tali Tali) и др. Пояснения в issue исправлены. Ещё 6 мест — слово, разорванное на стыке страниц с ложным разрывом абзаца: `cartm37-6` (te-/ste), `cartm_fauore-3/4` (conuiene/viene), `cartm_cupido-3` (conto/contò), `cartm54-5` («Per» отделено от стиха), `cartm_pignoriasfinge-1` (frequen-/te-/quentissima).
-- **Обрывки слов из соседних записей.** `cartm_furoreira-3`: «re,» — это остаток «Mar-|te,», фраза «Và la Fama dinanzi al carro di Marte, perche…» начинается в cartm_marte. `cartm_tifone-3`: «stasse.» — конец «ba-|stasse.», уже есть в cartm_baccopompa. Переводы этих обрывков («Молву/Fame», «довольно/suffice») надо убрать. `cartm54-4`: text_it начинается с «ni di conto»; в печати это «huomi-|ni di conto» = знатные люди. Начало фразы — в cartm_cibeleatys, у которой **text_it пустой** (переводы есть, RU кончается дублем «но и многие знатные,, но и многие знатные»). Для cartm_cibeleatys нужна отдельная проверка, review-файла у неё нет (создан в партии 3: `cartm_cibeleatys.json`).
+- **Обрывки слов из соседних записей.** `cartm_furoreira-3`: «re,» — это остаток «Mar-|te,», фраза «Và la Fama dinanzi al carro di Marte, perche…» начинается в cartm_marte. `cartm_tifone-3`: «stasse.» — конец «ba-|stasse.», уже есть в cartm_baccopompa. Переводы этих обрывков («Молву/Fame», «довольно/suffice») надо убрать. `cartm54-4`: text_it начинается с «ni di conto»; в печати это «huomi-|ni di conto» = знатные люди. Начало фразы — в cartm_cibeleatys, у которой **text_it пустой** (переводы есть, RU кончается дублем «но и многие знатные,, но и многие знатные»). Для cartm_cibeleatys нужна отдельная проверка, review-файла у неё нет (создан в партии 3: `cartm_cibeleatys.json`; в партии 4 добавлен proposed_text_it).
 - `carta41-2` подтверждено: в печати «Venere Calli piga» (= Callipyga). «Calliga» — ошибка транскрипции, глоссы «(Обутая)/(Booted)/(Chaussée)» неверны.
 - Опечатка издания: `cartm_genio-4` — повтор «ò perch'egli di questa hauesse la cura» есть в самой печати (с. 368, внутри строки). text_it верен, EN/FR повторяют, RU верно опускает. Попутно: в `cartm37-5` сама кустода издания («che» внизу с. 111) не совпадает с началом с. 112 («cose»). Тильда в `cartm59-6` («scriuẽ-» = scriuendo) раскрыта верно.
 
@@ -1235,9 +1244,45 @@ caption_source: engraving (caption_orig прочитан с гравюры в bo
 - Мелочи (не issue): `carta2-2` — имя в печати, по-видимому, греческими прописными (ΙΑΣΩ); `cartm_naue-2` — в печати «Bacco», в text_it «Baccho» (не уверен); `cartm_occasione-3` — «Ausonio» в печати читается как «Asonio» (бледно, проверить по фото). Маргиналии: «Car. 79» (с. 466), «Car. 118 / Lin. 27» (с. 531), «Catullo» (с. 379), «Morpho Venere co i piè legati» (с. 445).
 - Гравюры: +12 строк в реестре (с. 128, 130, 132, 134, 136, 307 — доски cartm39–cartm43, cartm87; с. 472, 482, 505, 506, 507, 516 — фигуры Пиньории). С. 128: в печати подписи, по-видимому, «gli horbi celesti» (в caption «orbi») — проверить по фото. С. 307: та же подпись в entries у cartm87 и у cartm_volupia (textOnly) — дубль подписи.
 
+### Партия 4 (25 мест + cart6-3, проверено 87 из ~87 — очередь cartari закрыта)
+
+| вердикт (25 мест очереди) | мест |
+|---|---|
+| transcription_error | 4 (`carta7-2`, `cartm63-2`, `cartm_isismoonjove-1`, `cartm_isismoonjove-5`) |
+| edition_error | 0 |
+| ok | 19 |
+| проверить по фото | 2 (`cartm_cupido-1`, `cartm_fortuna-1`) |
+
+Ещё одна строка — `cart6-3` (transcription_error), найдена при транскрипции cartm_cibeleatys. Всего строк source_check в партии: 26.
+
+Затронуты переводы: 2 места (`cartm_isismoonjove-1` — удалить дубль конца главы об Изиде; `cart6-3` — пропущена фраза). В трёх местах вывод прохода A по скану **снят или сужен**: переводы там верны, неполон text_it. Новые issue (`added_in: "pass B"`): `carta7-4`, `cartm63-3`, `cartm_isismoonjove-6` (text_it), `cart6-3` (text_it + RU/EN/FR), `cartm_cibeleatys-4` (RU/EN/FR), `cartm_cibeleatys-5` (RU).
+
+Главное:
+- **Оборванный text_it, а не лишний перевод.** `cartm63-2`: text_it кончается кустодой «naue» (с. 208); в печати текст идёт дальше на с. 210 (Харибда, Сцилла, Нереиды у Платона, Павсаний, Палемон-Портун), и переводы ему соответствуют. Вывод «удалить» снят, нужно дописать text_it (`cartm63-3`). `cartm_isismoonjove-1/-5`: весь текст с. 113 (начало главы GIOVE: Сатурн, Ямвлих, Лотос, Сенека) в text_it пропущен, text_it начинается кустодой «saggi». Вступление о Юпитере в переводах верно; удалить надо только блок «[Завершение главы об Изиде]» — это дубль cartm37. `carta7-2`: абзацы 2–4 переводов — основной текст с. 484 («Ma poiche siamo a proposito della Terra…», «Questa chiamauano essi STABILE…», «Il Tempio di Vesta…»), а не подписи. В text_it его нет (`carta7-4`).
+- **Подписи в textOnly-записях — дубли.** У `cartm_angerona`, `cartm_fauore`, `cartm_felicita`, `cartm_fraude`, `cartm_lare`, `cartm_volcano` подпись стоит на доске, а доска — отдельная запись (cartm88, cartm107, cartb19, cartm102, cartm97, cartm_vulcan), где caption и его перевод уже есть. Добавлять caption_* в textOnly-записи не нужно. У `cartm_venere2` доска своя (с. 430), caption подтверждён — caption_orig можно брать из него. Для `cartm_cupido` и `cartm_fortuna` доски с такой подписью на их страницах нет; в caption cartm_cupido стоит английское слово «blindfolded». Эти подписи печатью не подтверждены — проверить по фото.
+- **cartm_cibeleatys транскрибирован.** В `cartm_cibeleatys.json` записано поле `proposed_text_it` (3 абзаца: текст с. 178–179, стихи Овидия, текст до «& huomi-»), с примечанием `proposed_text_it_note`: орфография печати не нормализована, раскрыты тильды, есть маргиналии и 2 места «проверить по фото». Сверка переводов с ним: переводы полные и в целом точные. Найдено: `-4` во всех трёх пропущено «da seruire alla Dea» («годился тогда служить Богине»); `-5` RU «Павсания пишет» → «Павсаний». `-2` (дубль в конце) в силе. `-3` решено: начало с. 178 «fece egli correndo già forsenato per gli alti mõti.» — конец фразы cart6. Отсюда новый `cart6-3`: в text_it cart6 есть только кустода «fece», во всех переводах cart6 нет «бегая в исступлении по высоким горам».
+- В остальных 15 местах text_it совпадает с печатью; замечания к переводам (толкования, помеченные «не уверен») остаются.
+- Гравюры: +13 строк (с. 209, 310, 321, 362, 365, 374, 376, 386, 388, 430, 432 — доски; с. 484, 497 — фигуры Пиньории). На с. 497 под доской — «Il secondo s’è preso da vn taglio antico.», по смыслу это конец примечания carta31 (в entries — начало cartm_pignoriahermi).
+
+### Итог прохода B по cartari
+
+Адресная сверка закончена: проверены все места из очереди (~87), плюс попутные находки на тех же стыках — всего 92 строки source_check (партии 1–4; пилотные 5 мест вошли в партию 1).
+
+| вердикт | мест |
+|---|---|
+| transcription_error | 45 |
+| edition_error | 8 |
+| ok | 37 |
+| проверить по фото | 2 |
+| **всего** | **92** |
+
+Затронуты переводы: 48 мест; по полям — RU 39, EN 41, FR 46. Главный источник ошибок text_it — кустоды и стыки страниц: дубли кустод, ложные разрывы абзаца, слова, разорванные через страницу, и text_it, оборванный на кустоде перед гравюрой (cartm63, cartm_isismoonjove, carta7). Записи без text_it: cartm_cibeleatys (предложена транскрипция). Опечатки издания (8) в text_it не правились.
+
+Реестр гравюр: 83 гравюры (67 полностраничных досок + 16 фигур в тексте Пиньории) и 3 виньетки — 86 строк на 84 страницах. Реестр охватывает только страницы, просмотренные в проходе B, а не все доски книги.
+
 ## Реестр гравюр
 
-Файл `engravings.csv` содержит все гравюры, виньетки и вставные фигуры на страницах скана, просмотренных в проходе B: пилот, партии 1–3. Колонки: `engr_id` (`cart-g-<стр.>-<n>`), `page` (печатная), `iiif_page_url`, `position`, `entry_id`, `between_entries`, `caption_on_plate`, `subject_ru`, `repo_image`, `notes`.
+Файл `engravings.csv` содержит все гравюры, виньетки и вставные фигуры на страницах скана, просмотренных в проходе B: пилот, партии 1–4 (не все доски книги). Колонки: `engr_id` (`cart-g-<стр.>-<n>`), `page` (печатная), `iiif_page_url`, `position`, `entry_id`, `between_entries`, `caption_on_plate`, `subject_ru`, `repo_image`, `notes`.
 
 Как заполнено:
 - `caption_on_plate` — подпись из `caption` в entries.json, если она совпала с гравюрой при визуальной сверке по кропу. Сверка шла по словам, акценты и u/v построчно не сверялись. Если подпись не видна или кроп её не захватил — «проверить по фото».
@@ -1245,19 +1290,21 @@ caption_source: engraving (caption_orig прочитан с гравюры в bo
 
 | что | число |
 |---|---|
-| строк в реестре | 73 |
-| гравюры (доски и фигуры в тексте) | 70 |
+| строк в реестре | 86 |
+| гравюры (доски и фигуры в тексте) | 83 |
 | виньетки-концовки (с. 112, 496, 526) | 3 |
-| страниц | 71 |
-| полностраничные доски в рамке (с. 49–408) | 56 |
-| фигуры в тексте Пиньории (с. 472–529) | 14 |
-| с entry_id | 69 (без записи: гравюра с. 494 и 3 виньетки) |
-| «проверить по фото» (подпись или сюжет) | 15 строк (подписи не видны: с. 472, 482, 492, 494, 496, 505, 506, 507, 516, 526, 527, 529; уточнить: с. 100, 128, 400) |
-| `img` указан, файла нет в `books/cartari/img/` | 9 (cartm_furoreira, cartm_martescithi, cartm_tifone, cartm_horopriapo, cartm_genio, cartm_fortunacauallo, cartm_eroteanterote, cartm_pignoriaspinola; у carta21 img не указан) |
+| страниц | 84 |
+| полностраничные доски в рамке (с. 49–432) | 67 |
+| фигуры в тексте Пиньории (с. 472–529) | 16 |
+| с entry_id | 82 (без записи: гравюра с. 494 и 3 виньетки) |
+| «проверить по фото» (подпись или сюжет) | 18 строк (подписи не видны: с. 472, 482, 484, 492, 494, 496, 497, 505, 506, 507, 516, 526, 527, 529; уточнить: с. 100, 128, 376, 400) |
+| `img` указан, файла нет в `books/cartari/img/` | 13 (cartm_furoreira, cartm_martescithi, cartm_tifone, cartm_horopriapo, cartm_priapohorti, cartm_genio, cartm_fortunadatrice, cartm_fortunalieta, cartm_fortunacauallo, cartm_eroteanterote, cartm_venere2, cartm_tempiopafo, cartm_pignoriaspinola); у carta21 img не указан |
 
 Расхождения с entries.json, найденные по реестру (проверить, не исправлялось):
 - с. 100: гравюра с подписью cartm34 («Simulacro della Luna…»), а `page: 100` стоит у cartm_dianamoon. Её гравюры («Imagine di Diana della caccia…») на просмотренных страницах нет.
 - с. 157: гравюра cartm49 (Юнона, кукушка), а в entries у cartm49 `page: 150`.
 - с. 495: гравюра Парок (carta9), а в entries у carta9 `page: 494`. Гравюра на с. 494 (три обнажённые фигуры) к записи не привязана.
 - с. 529: гравюра к carta21, у записи нет `img` (известно по HANDOFF).
+- Подписи досок продублированы в textOnly-записях: cartm88/cartm_angerona (с. 310), cartm_vulcan/cartm_volcano (с. 321), cartm97/cartm_lare (с. 365), cartm101/cartm_momo (с. 386), cartm102/cartm_fraude (с. 388), cartm107/cartm_fauore (с. 400), cartb19/cartm_felicita (с. 402), cartm87/cartm_volupia (с. 307).
+- caption cartm_cupido и cartm_fortuna на доски на страницах этих записей не ложится (cartm_cupido: в caption английское «blindfolded»).
 

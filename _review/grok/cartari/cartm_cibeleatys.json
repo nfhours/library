@@ -3,7 +3,7 @@
   "book": "cartari",
   "pass": "B",
   "verdict": "major",
-  "note": "Файл создан в проходе B (партия 3): в entries у записи нет text_it, полная сверка перевода с оригиналом (проход A) не проводилась.",
+  "note": "Файл создан в проходе B (партия 3): в entries у записи нет text_it. В партии 4 по скану с. 178–179 записан proposed_text_it, переводы RU/EN/FR сверены с ним.",
   "issues": [
     {
       "field": "text_it",
@@ -15,7 +15,7 @@
       "type": "omission",
       "original": "(с. 178–179 печати: «fece egli correndo già forsenato per gli alti mõti. Et furono oltre à gli altri nomi… ma molti nobili ancora, & huomi-»)",
       "current": "(поле text_it отсутствует)",
-      "suggested": "транскрибировать с. 178–179 по скану (https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/178.jpg, …/179.jpg); здесь текст не транскрибирован — проверить по фото",
+      "suggested": "добавить text_it по скану: предлагаемый текст — поле proposed_text_it этого файла (3 абзаца, с. 178–179; 2 места для сверки по фото — см. proposed_text_it_note)",
       "confidence": "high",
       "added_in": "pass B",
       "scan_check": "Сверка со сканом (с. 177→178→179→181): текст записи — с. 178–179; начало с. 178 «fece egli correndo già forsenato per gli alti mõti.» (кустода «fece» с. 177 уже в cart6.text_it); конец «…& huomi-» (кустода «ni»), продолжение «ni di conto» — в cartm54."
@@ -83,10 +83,10 @@
       "type": "omission",
       "original": "fece egli correndo già forsenato per gli alti mõti. (с. 178, 1-я строка)",
       "current": "И были, сверх прочих имён, которые носили, названы эти жрецы также Галлами, по и",
-      "suggested": "не передано начало с. 178 «[come il medesimo] fece egli correndo già forsenato per gli alti mõti» — «бегая в исступлении по высоким горам»; переводы cart6 кончаются на «как сделал он сам», здесь начинаются с «Et furono…». Куда отнести (конец cart6 или начало этой записи) — решить при транскрипции; не уверен",
-      "confidence": "medium",
+      "suggested": "РЕШЕНО по скану (партия 4): «fece egli correndo già forsenato per gli alti mõti.» — конец фразы cart6 («come il medesimo fece egli correndo…»), а не этой записи. Переводы этой записи начинаются верно («Et furono…»); пропуск — в cart6 (см. cart6-3).",
+      "confidence": "high",
       "added_in": "pass B",
-      "scan_check": "Сверка со сканом (с. 177→178): с. 177 кончается «…come il medesimo» + кустода «fece»; с. 178 начинается «fece egli correndo già forsenato per gli alti mõti. Et furono…»."
+      "scan_check": "Сверка со сканом (с. 177→178): фраза продолжает последнее предложение cart6."
     },
     {
       "field": "text_en",
@@ -100,10 +100,10 @@
       "type": "omission",
       "original": "fece egli correndo già forsenato per gli alti mõti. (с. 178, 1-я строка)",
       "current": "And these priests, besides the other names they bore, were also called Galli, af",
-      "suggested": "не передано начало с. 178 «[come il medesimo] fece egli correndo già forsenato per gli alti mõti» — «бегая в исступлении по высоким горам»; переводы cart6 кончаются на «как сделал он сам», здесь начинаются с «Et furono…». Куда отнести (конец cart6 или начало этой записи) — решить при транскрипции; не уверен",
-      "confidence": "medium",
+      "suggested": "РЕШЕНО по скану (партия 4): «fece egli correndo già forsenato per gli alti mõti.» — конец фразы cart6 («come il medesimo fece egli correndo…»), а не этой записи. Переводы этой записи начинаются верно («Et furono…»); пропуск — в cart6 (см. cart6-3).",
+      "confidence": "high",
       "added_in": "pass B",
-      "scan_check": "Сверка со сканом (с. 177→178): с. 177 кончается «…come il medesimo» + кустода «fece»; с. 178 начинается «fece egli correndo già forsenato per gli alti mõti. Et furono…»."
+      "scan_check": "Сверка со сканом (с. 177→178): фраза продолжает последнее предложение cart6."
     },
     {
       "field": "text_fr",
@@ -117,10 +117,76 @@
       "type": "omission",
       "original": "fece egli correndo già forsenato per gli alti mõti. (с. 178, 1-я строка)",
       "current": "Et ces prêtres, outre les autres noms qu'ils portaient, furent aussi appelés Gal",
-      "suggested": "не передано начало с. 178 «[come il medesimo] fece egli correndo già forsenato per gli alti mõti» — «бегая в исступлении по высоким горам»; переводы cart6 кончаются на «как сделал он сам», здесь начинаются с «Et furono…». Куда отнести (конец cart6 или начало этой записи) — решить при транскрипции; не уверен",
+      "suggested": "РЕШЕНО по скану (партия 4): «fece egli correndo già forsenato per gli alti mõti.» — конец фразы cart6 («come il medesimo fece egli correndo…»), а не этой записи. Переводы этой записи начинаются верно («Et furono…»); пропуск — в cart6 (см. cart6-3).",
+      "confidence": "high",
+      "added_in": "pass B",
+      "scan_check": "Сверка со сканом (с. 177→178): фраза продолжает последнее предложение cart6."
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "cartm_cibeleatys-4",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "omission",
+      "original": "& era buono all'hora da seruire alla Dea, perche arditamente faceua tutte le pazzie",
+      "current": "и способен был, не колеблясь, на всякое безумство из тех, что я назвал",
+      "suggested": "и годился тогда служить Богине, ибо смело творил все те безумства, о которых я сказал (пропущено «da seruire alla Dea»; «all’hora» = тогда)",
       "confidence": "medium",
       "added_in": "pass B",
-      "scan_check": "Сверка со сканом (с. 177→178): с. 177 кончается «…come il medesimo» + кустода «fece»; с. 178 начинается «fece egli correndo già forsenato per gli alti mõti. Et furono…»."
+      "scan_check": "Сверка с proposed_text_it (скан с. 178)."
+    },
+    {
+      "field": "text_en",
+      "issue_id": "cartm_cibeleatys-4",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "omission",
+      "original": "& era buono all'hora da seruire alla Dea, perche arditamente faceua tutte le pazzie",
+      "current": "and was capable, without hesitation, of every madness of the kind I have named",
+      "suggested": "and was then fit to serve the goddess, since he boldly committed all the madnesses I have described (пропущено «da seruire alla Dea»)",
+      "confidence": "medium",
+      "added_in": "pass B",
+      "scan_check": "Сверка с proposed_text_it (скан с. 178)."
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_cibeleatys-4",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "omission",
+      "original": "& era buono all'hora da seruire alla Dea, perche arditamente faceua tutte le pazzie",
+      "current": "et était capable, sans hésiter, de toute folie du genre que j'ai nommé",
+      "suggested": "et était alors propre à servir la déesse, car il faisait hardiment toutes les folies que j'ai dites (пропущено «da seruire alla Dea»)",
+      "confidence": "medium",
+      "added_in": "pass B",
+      "scan_check": "Сверка с proposed_text_it (скан с. 178)."
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "cartm_cibeleatys-5",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Pausania scriue",
+      "current": "Павсания пишет",
+      "suggested": "Павсаний пишет",
+      "confidence": "medium",
+      "added_in": "pass B",
+      "scan_check": "Сверка с proposed_text_it (скан с. 178)."
     }
   ],
   "source_check": [
@@ -143,5 +209,11 @@
       "pass": "B",
       "batch": 3
     }
-  ]
+  ],
+  "proposed_text_it": [
+    "Et furono oltre à gli altri nomi che hebbero, detti anco Galli questi Sacerdoti, da vn fiume della Frigia di questo nome, delle acque del quale chi beeua impazziua subito, & era buono all'hora da seruire alla Dea, perche arditamente faceua tutte le pazzie; che hò dette. Pausania scriue, che in certa parte della Grecia fu vn tempio dedicato alla Dea, & ad Ati insieme, che alcuni dissero, che ei fù ammazzato da vn Cinghiale mandato per questo da Gioue, che si hebbe à male, che egli fosse tanto domestico della Dea, & tanto amato da lei; & racconta poi vn'altra fauola del medesimo, la quale è tanto fauola apunto, che mi pare, che meriti di esser rifferita, & è, che del seme sparso in terra da Gioue, ( che sognaua di essere forse con qualche bella giouane ) nacque vn Genio, ò Demone, che vogliamo dirlo, in forma di huomo; ma che haueua però l'vno, & l'altro sesso, & fu chiamato Agdiste. Di che spauentati gli altri Dei, come di cosa mostruosa, & gli furono subito attorno, & gli tagliarono la parte maschile, & la gittarono via. Di questa da indi à poco nacque vn'arbore di pomo granato, de' frutti del quale la figliuola di Sangario fiume passando di là se n'empiè il grembo per mangiarseli: ma questi sparuero quasi subito, & ella restò grauida, & al suo tempo partorì vn bel bambino, qual per vergogna nascose in certa selua, oue vna capra andò sempre à dargli il latte, sì che non perì; ma fatto già grande fu nomato Ati, & era tanto bello, che più tosto cosa diuina, che humana pareua essere: onde il Genio Agdiste ne fu ardentissimamente innamorato. Auenne che il bel giouane mandato da i suoi andò à Pessinunte città principale della Frigia, oue il Rè del paese se lo fece genero; dandogli per moglie la figliuola: & già era tutto in punto per celebrarsi le nozze quando Agdiste, che andaua dietro all'amato giouane, arriuò quiui; è tutto pieno d'ira, & di rabbia, vedendo che altrui era per godere la cosa da lui tanto amata, cacciò subito con suoi incanti, ò come si facesse, vna così fatta pazzia nel capo di Ati & del Rè suo suocero, che furiosamente si tagliorono ambi con le proprie mani il membro genitale. Ma pentito dapoi Agdiste di ciò che haueua fatto, perche l'amore che portaua ad Ati non se ne era anco del tutto andato, pregò Gioue, & l'ottenne, che le altre parti del corpo dell'amato giouane non potessero corrompersi, nè infracidirsi più mai. Et altro non ho letto di questo Ati, se non che per lui voleuano gli antichi intender quei fiori, alli quali non succede mai frutto alcuno, nè producono seme, come riferisce Eusebio, & perciò finsero le fauole, che ei si castrasse come hò detto. Ma ritorniamo alla gran Madre, la quale con solenni cerimonie fu portata di Frigia à Roma da huomini mandati colà à posta, secondo che haueuano inteso i Romani da i versi della Sibilla douersi fare, & che bisognaua che fosse riceuuta da casta mano. Onde si fermò la naue, che la portaua, alla foce del Tebro, oue era andata quasi tutta Roma ad incontrarla; nè era possibile mouerla quindi, benche molti & molti si sforzassero di tirarla sù per le acque del fiume. Allhora Claudia Vergine Vestale, della pudicitia della quale molti dubitauano, perche andaua più vagamente ornata, & conuersaua, & parlaua più liberamente, che non le sarebbe forse conuenuto, inginocchiatasi sù la riua del fiume, e stendendo le mani giunte verso la Dea: Tu sai, disse, alma Dea, ch'io sono stimata poco casta; se così è, ti prego fanne segno: che condennata da te mi confesserò meriteuole della morte; ma se anco è altrimente, tu, che casta sei, & pura, facendo fede della integrità mia, seguita la mia pudica mano. Et questo detto dette di piglio ad vna picciola fune, è tirò la naue a suo piacere, mostrando la Dea di seguitarla volontieri con non poco stupore di chi vide. Et non fu da poi piu chi osasse pensare male di Claudia, della quale hò ciò raccontato, perche questo fatto potrebbe seruire a chi volesse dipingere la Pudicitia: benche si possa fare in molti altri modi ancora, come potrà chi ne vorrà la fatica, raccogliere da molte imagini già disegnate, & che restano a disegnare. Il simulacro di questa Dea portato alhora dalla Frigia, fu vna gran pietra negra, che era adorata da quelle genti sotto il nome della Madre de i Dei. La quale arriuata oue Almone piccolo fiume entra nel Tebro, fù quiui lauata da vno de i suoi Sacerdoti; & posta poi sopra vn carro, tirato da due vacche; fu portata nella Città con grande allegrezza del popolo; onde fu osseruato di portarla poscia ogni anno con solenne pompa nel medesimo modo, & al medesimo luoco a farla lauare da i suoi Sacerdoti, li quali lauauano sè stessi ancora, & le sue coltella, come si vede appresso di Ouidio, oue dice:",
+    "Vn luoco è doue il fiumicello Almone\nEntra nel Tebro, e lascia il proprio nome;\nQuiui l'antico Sacerdote ornato\nDi porpora, con molta riuerenza\nLaua ne l'acque di quel picciol fiume\nL'alma sua Dea con le sue sacre cose.",
+    "Et a questa cerimonia andauano innanzi al carro molti co i piedi scalzi, come dice Prudentio, & cantauano le più dishoneste cose, che sapeuano dire di questa Dea, & di Ati suo innamorato. Onde Santo Agostino dannando quelle diaboliche feste dice, che non si vergognauano quelle pazze genti di gridare dinanzi alla Madre de i Dei cose, che le madri loro si sariano vergognate di ascoltare. Et Herodiano scriue, che andauano gridando allhora in quel modo non solamente persone vili & plebeie, ma molti nobili ancora, & huomi-"
+  ],
+  "proposed_text_it_note": "Транскрипция по скану Heidelberg (с. 178: https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/178.jpg; с. 179: …/179.jpg), прочитано по кропам полной ширины. Разбивка на абзацы — по печати: сплошной текст, стихи Овидия (курсив, отдельным блоком, строки через \\n), сплошной текст. Орфография печати сохранена (u/v, h, акценты, «hò», «fù/fu», «è tirò», «tagliorono», «rifferita», «apunto», «alhora» и «Allhora», «da poi»), не нормализовалась. Как в остальном text_it: ſ → s, переносы строк внутри слов соединены, «&» оставлено. Раскрыты две тильды: «mõti» → «monti» (с. 178, первая строка, относится к cart6, сюда не входит) и «nõ solamente» → «non solamente» (с. 179). Начало с. 178 «fece egli correndo già forsenato per gli alti mõti.» сюда не включено: это конец фразы cart6 («…come il medesimo | fece egli correndo…»), см. cart6-3. Конец «& huomi-» — так в печати (кустода «ni»), слово продолжается в cartm54 («ni di conto»). Маргиналии (в text не включены): с. 178 — «Fauole di Ati.», «Agdiste.», «Ati che significhi.»; с. 179 — «Claudia Vestale.», «Ouidio.», «Prudentio.», «S. Agostino.». Внизу с. 179 сигнатура «M 2». Места для сверки по фото: «fu vn tempio» (акцент над u не различим); «da poi piu» (в печати «da» в конце строки, «poi» в начале следующей, без дефиса). Остальное читается уверенно."
 }

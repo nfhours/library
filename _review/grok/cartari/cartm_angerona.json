@@ -14,9 +14,10 @@
       "type": "omission",
       "original": "Nel tempio di costei era posta sopra vn'altare Angerona creduta parimente Dea",
       "current": "— (подписи нет)",
-      "suggested": "подпись к гравюре в переводах отсутствует (в text_ru/text_en/text_fr её нет); добавить caption_ru / caption_en / caption_fr после сверки по фото; caption_orig: «проверить по фото» (в text_it подписи нет; изображения books/cartari/img/cartm_angerona.jpg в репозитории нет; в entries.json есть поле caption — сверить с ним)",
+      "suggested": "подпись к гравюре в переводах отсутствует (в text_ru/text_en/text_fr её нет); добавить caption_ru / caption_en / caption_fr после сверки по фото; caption_orig: «проверить по фото» (в text_it подписи нет; изображения books/cartari/img/cartm_angerona.jpg в репозитории нет; в entries.json есть поле caption — сверить с ним) — ПЕРЕСМОТРЕНО по скану (проход B): подпись — на доске с. 310 (запись cartm88, там caption и перевод есть); в этой textOnly-записи не добавлять.",
       "confidence": "medium",
-      "caption_source": null
+      "caption_source": null,
+      "scan_check": "Сверка со сканом (с. 310): подпись стоит на доске, это отдельная запись cartm88 с caption и переводом; в textOnly-записи подпись — дубль, добавлять caption_* не нужно."
     },
     {
       "field": "text_ru",
@@ -60,6 +61,23 @@
       "current": "comme si la langue devait manifester ce qui est dans le cœur, mais ne devrait pas toujours le faire",
       "suggested": "comme si la langue manifestait ce qui est dans le cœur, mais ne devait pourtant pas le faire («toujours» добавлено; та же ошибка в RU/EN)",
       "confidence": "medium"
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm_angerona-1",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/310.jpg",
+      "page": "310",
+      "region": "гравюра во всю страницу, подпись в рамке",
+      "orig_field": "caption",
+      "paragraph": null,
+      "orig_before": null,
+      "orig_after": null,
+      "verdict": "ok",
+      "translation_affected": [],
+      "note": "Подпись к гравюре стоит на доске с. 310; доска в entries — отдельная запись cartm88, у неё есть caption и его перевод. Конец подписи на доске сверен по кропу и совпадает с caption cartm88 (и с caption cartm_angerona, это дубль). В text_it записи cartm_angerona подписи нет, и в печати её там нет. Добавлять caption_* в textOnly-запись cartm_angerona не нужно.",
+      "pass": "B",
+      "batch": 4
     }
   ]
 }

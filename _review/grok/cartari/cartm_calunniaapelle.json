@@ -48,7 +48,8 @@
       "original": "& porgeua la mano alla Calumnia, che veniua à lui",
       "current": "и подавали руку Клевете",
       "suggested": "и (судья) протягивал руку Клевете — глагол в ед. ч., у Лукиана руку протягивает судья; EN «and extended her hand» → «and he held out his hand», не уверен",
-      "confidence": "medium"
+      "confidence": "medium",
+      "scan_check": "Сверка со сканом (с. 383): text_it совпадает с печатью; замечание к переводу остаётся."
     },
     {
       "field": "text_ru",
@@ -92,7 +93,8 @@
       "original": "& porgeua la mano alla Calumnia, che veniua à lui",
       "current": "et tendait la main à la Calomnie",
       "suggested": "et lui (le Juge) tendait la main à la Calomnie (подлежащее — судья; во FR читается как «le Soupçon»; не уверен; та же ошибка в RU/EN)",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 383): text_it совпадает с печатью; замечание к переводу остаётся."
     },
     {
       "field": "text_fr",
@@ -120,6 +122,23 @@
       "current": "le nom de l'autre était Perfidie",
       "suggested": "le nom de l'autre était Embûche (Insidia; в подписи FR «l'Embûche» — унифицировать)",
       "confidence": "low"
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm_calunniaapelle-3",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/383.jpg",
+      "page": "383",
+      "region": "верх страницы",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "Tauola della Calumnia dipinta d'Apelle, nella quale vi è il Giudice con le orecchie d'Asino dinotante l'Ignoranza, e due donne li fauellano all'orecchie, vna è l'Ignoranza l'altra la Suspitione. Il vecchio che precede alla Calumnia è l'inuidioso, quello che per capelli tiene la Calumnia e il Calumniato. Le due Donne, che accompagnano la Calumnia l'vna è la Fraude, & l'altra l'Insidia. Delle due donne abasso vna è la Penitenza riguardante la Verità, effetto del Calumniare, che per ricompensa aspetta la vergogna, il danno, & il vituperio.\n\ncui due donne, vna per lato mostrauano di dire non sò che pian piano all'orecchie, era l'vna di queste la Ignoranza, l'altra la Sospittione, & porgeua la mano alla Calumnia, che veniua à lui in forma di donna bella, & ornata, ma che nel aspetto mostraua di essere tutta piena di ira, e di sdegno, & haueua nella sinistra mano vna facella accesa, & con la destra tiraua dietro per i capelli vn giouine nudo, qual miserabilmente si doleua alzando le giunte mani al Cielo. Andaua innanzi a costei il Liuore, cioè la Inuidia, ch'era vn'huomo vecchio, magro e pallido, come chi sia stato lungamente infermo, & dietro le veniuano due donne le quali pareuano lusingarla facendo festa della bellezza sua, & adornandola tuttauia il più, che poteuano, & dimandauasi l'vna Fraude, & il nome dell'altra era Insidia. Dietro a queste seguitaua poi vna altra donna chiamata Penitenza, con certi pochi panni intorno tutti logori, e squarciati, che largamente piangendo si affliggeua oltra modo, & pareua volersene morire della vergogna, perche vedeua venire la Verità. Così descriue Luciano la Calumnia già dipinta da Apelle, onde ne raccoglie poi, che questa non è altro, che vna falsa accusatione creduta dal Giudice di chi non sia presente à dire il fatto suo; la quale per lo più è causata da la Inuidia, & perciò gliela messe dauanti Apelle, & è questa vn morbo dell'animo humano il peggiore che possa essere, perche non solamente fà male altrui; ma à gl'inuidi stessi nuoce grandemente. Onde Silio Italico mette tra le peste, e tra i mostri, che sono in inferno, la inuidia che con ambe le mani si stringe la gola: & perciò ben disse Horatio, che\n\nNon seppero i Tiranni di Sicilia\nTrouar maggior tormento della Inuidia.\n\nConciosia che, come dicono alcuni versi creduti di Virgilio, e tirati in questa guisa al volgare,\n\nVn veneno è la Inuidia, che diuora\nLe midolle, & il sangue tutto sugge.\nOnde l'inuido n'hà debita pena;\nPerche mentre l'altrui sorte l'accora,\nSospira, freme, e come Leon rugge,\nMostrando, ch'à la misera alma piena\nD'odio crudel, che'l mena\nA veder l'altrui ben con occhio torto.\nPerò dentro si fà ghiaccio, e di fuore\nBagnasi di furore,\nCh'altrui può far del suo dolore accorto;\nE con la lingua di veleno armata\nMorde,",
+      "orig_after": null,
+      "verdict": "ok",
+      "translation_affected": [],
+      "note": "text_it совпадает с печатью. Подлежащее «porgeua» в печати так же неоднозначно; замечание остаётся (не уверен). На полях «Calumnia».",
+      "pass": "B",
+      "batch": 4
     }
   ]
 }
