@@ -1,0 +1,21 @@
+{
+  "id": "v1-5-4",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-5-4-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Une Harpe.",
+      "current": "Арфа. Без строя — нет гармонии.",
+      "suggested": "«Без строя — нет гармонии» в оригинале нет (первый абзац — только «Une Harpe.»): «Арфа.»",
+      "confidence": "high"
+    }
+  ]
+}

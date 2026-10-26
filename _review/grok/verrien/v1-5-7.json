@@ -1,0 +1,23 @@
+{
+  "id": "v1-5-7",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-5-7-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Volenter trahimur.",
+      "current": "Volenter trahimur.",
+      "suggested": "[LA] «Volenter» — не латинское слово; вероятно «Volentes trahimur» («нас влечёт по доброй воле»). Скана текста нет; не уверен",
+      "confidence": "low"
+    }
+  ]
+}
