@@ -1,0 +1,22 @@
+{
+  "id": "pl29-6",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl29-6-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Ces lampes avoient trois lumignons, & deux petites brochettes, qui servoient à les tenir en équilibre, & à les suspendre.",
+      "current": "RU «две небольшие цепочки»; EN «two small chains»",
+      "suggested": "brochettes — «стерженьки, штырьки», не цепочки; на гравюре (pl29 № 6) сбоку торчит короткий штырёк, цепей нет. RU «…и два небольших стерженька…»; EN «…and two small pins…»",
+      "confidence": "medium"
+    }
+  ]
+}

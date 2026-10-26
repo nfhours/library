@@ -31,3 +31,6 @@ pl19-2,legend,,"engraving reads DEO DOLIGHENIO (G?) vs text/legend DOLICHENIO �
 pl20-1,legend,,"engraving reads approx. VALISINIVS·MARCARIIANEONTVSID· (ligature after ANE unclear) vs text VALISINIVS MAR CARII ANEON VSID — проверить по фото; legend follows text",info
 pl20-2,legend,,"engraving: MATRIS DEVM / MAGNÆ IDEÆ PALATINÆ / EIVSQ M. RELIGIONIS AD PARNOR / NAVIVS IANVARIVS — matches legend_*",info
 pl22-2,legend,,"engraving medallion: D·M / IVLIÆ QVIN/TINÆ COSSV/TIA HYCLA / MATER FILI/Æ PIISSIM(Æ) — matches legend_*",info
+pl25-2..pl30-3,structured,,"batch 8: material/legend/findspot ru/en checked against fr; no meaning-changing contradictions (pl29-5 findspot_ru Latin script → pl29-5-1)",ok
+pl29-3,legend,,"engraving underside cartouche ΑΝΙΣΣΕΝ — matches legend_*",info
+pl29-8,legend,,"engraving shows the seal face retrograde, abbreviated: M·COS(ligature?) / CHRESIMI; legend_* gives Grosson's expanded reading MARCI COSSVTII CHRESIMI — consistent with text, not a contradiction; exact ligature проверить по фото",info

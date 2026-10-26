@@ -1,0 +1,23 @@
+{
+  "id": "pl28-3",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl28-3-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "son couvercle est remarquable par sept têtes de lions qui tiennent à de larges baguettes;",
+      "current": "RU «семью львиными головами, держащими широкие прутья»; EN «seven lion's heads holding broad rods»; en «Tomb with lion-head handles…»",
+      "suggested": "tenir à — «быть прикреплённым к»; baguettes — широкие рёбра (валики) крышки. На гравюре (pl28 № 3) семь львиных масок на концах рёбер двускатной крышки, ничего не держат; ручек нет. RU «…семью львиными головами на концах широких рёбер»; EN «…seven lion's heads set at the ends of broad ribs»; en «Tomb with lion heads and a medallion of a magistrate or man of letters»",
+      "confidence": "medium"
+    }
+  ]
+}
