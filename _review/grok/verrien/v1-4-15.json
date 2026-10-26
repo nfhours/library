@@ -1,0 +1,22 @@
+{
+  "id": "v1-4-15",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-4-15-1",
+      "fields": [
+        "text_ru",
+        "meaning_ru"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "non may ingrata.",
+      "current": "Никогда неблагодарный.",
+      "suggested": "толкования в оригинале нет (meaning_fr пуст), RU добавил перевод девиза; к тому же ingrata — жен. р.: «Никогда не бываю неблагодарной». Пометить как перевод девиза или убрать; не уверен, что нужно править",
+      "confidence": "low"
+    }
+  ]
+}

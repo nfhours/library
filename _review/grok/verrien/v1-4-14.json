@@ -1,0 +1,37 @@
+{
+  "id": "v1-4-14",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-4-14-1",
+      "fields": [
+        "text_ru",
+        "meaning_ru"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "Privo dite moriro.",
+      "current": "Лишённый тебя, я умру.",
+      "suggested": "в оригинале толкования нет (meaning_fr пуст), RU добавил перевод итальянского девиза третьим абзацем. Перевод верен по смыслу (Privo di te morirò), но это добавка; пометить как перевод девиза или убрать. Не уверен, что нужно править",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "v1-4-14-2",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Privo dite moriro.",
+      "current": "Privo dite moriro.",
+      "suggested": "[IT] «Privo di te morirò» (di te слито; скана текста нет — по грамматике)",
+      "confidence": "low"
+    }
+  ]
+}
