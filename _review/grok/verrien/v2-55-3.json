@@ -1,0 +1,12 @@
+{
+  "id": "v2-55-3",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "ok",
+  "issues": [],
+  "scan": "monogram",
+  "anomaly": {
+    "kind": "caption_wraparound_edition",
+    "note": "«ZBC» на v2-55 — продолжение того же ряда через конец алфавита (ср. YZA, v2-40-2); данные совпадают со сканом. Особенность издания"
+  }
+}

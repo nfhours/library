@@ -1,0 +1,12 @@
+{
+  "id": "v2-53-3",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "ok",
+  "issues": [],
+  "scan": "monogram",
+  "anomaly": {
+    "kind": "caption_letter_order_edition",
+    "note": "на доске v2-53 (гравир. «51») «OQT» выгравирован перед OQR, OQS (ожидалось OQR, OQS, OQT, OQV); данные повторяют порядок гравюры. Набор вензелей полный, порядок кружков — особенность издания"
+  }
+}

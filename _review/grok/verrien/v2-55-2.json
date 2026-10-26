@@ -1,0 +1,12 @@
+{
+  "id": "v2-55-2",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "ok",
+  "issues": [],
+  "scan": "monogram",
+  "anomaly": {
+    "kind": "caption_wraparound_edition",
+    "note": "на доске v2-55 (гравир. «53») «XAZ»: ряд «через одну» (…TXY, VYZ) с переходом через конец алфавита — ожидалось бы XZA; на гравюре именно «XAZ», данные совпадают. Особенность издания"
+  }
+}
