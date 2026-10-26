@@ -1,0 +1,36 @@
+{
+  "id": "v1-8-12",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-8-12-1",
+      "fields": [
+        "text_ru",
+        "meaning_ru"
+      ],
+      "paragraph": 2,
+      "type": "addition",
+      "original": "Vn Niveau, ny çà, ny là.",
+      "current": "[неразборчиво/без пояснения в тексте]",
+      "suggested": "служебная заглушка переводчика: во французском один абзац, meaning_fr пуст — второй абзац text_ru и meaning_ru удалить (пустая строка)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "v1-8-12-2",
+      "fields": [
+        "text_fr",
+        "motto_fr"
+      ],
+      "paragraph": 1,
+      "type": "omission",
+      "original": "Vn Niveau, ny çà, ny là.",
+      "current": "Vn Niveau, ny çà, ny là.",
+      "suggested": "разбивка: «ny çà, ny là» («ни туда, ни сюда»), вероятно, — девиз/толкование, слитый с описанием; motto_fr пуст. Скана текста нет — проверить по изданию; не уверен",
+      "confidence": "low"
+    }
+  ]
+}

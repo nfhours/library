@@ -1,0 +1,21 @@
+{
+  "id": "v1-7-15",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-7-15-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "Bacchus l'accommode.",
+      "current": "С Вакхом ей лучше.",
+      "suggested": "переведён латинский девиз (Cum Baccho melius), а не французское толкование: «Вакх её настраивает / ей к лицу Вакх»",
+      "confidence": "low"
+    }
+  ]
+}

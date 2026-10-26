@@ -1,0 +1,21 @@
+{
+  "id": "v1-7-12",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-7-12-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Vn Renard qui tient la teste d'une statuë humaine.",
+      "current": "Лис, держащий в пасти голову человеческой статуи.",
+      "suggested": "«в пасти» в оригинале нет: «Лис, держащий голову человеческой статуи»",
+      "confidence": "low"
+    }
+  ]
+}
