@@ -16,6 +16,19 @@
       "current": "Канопа, запечатлённая на Камее",
       "suggested": "Каноп, запечатлённый на Камее (м. р.; далее «видна она» → «виден он»)",
       "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "carta8-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "La imagine principale s'è cauata da vn Taglio antico in vn mezo rilieuo antico trouato in vna Vigna.",
+      "current": "d'un bas-relief ancien trouvé dans une Vigne",
+      "suggested": "d'un demi-relief (mezzo-rilievo) ancien trouvé dans une Vigne (термин: «mezo rilieuo» — не «bas-relief»)",
+      "confidence": "low"
     }
   ]
 }

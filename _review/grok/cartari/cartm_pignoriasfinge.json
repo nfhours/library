@@ -2,6 +2,20 @@
   "id": "cartm_pignoriasfinge",
   "book": "cartari",
   "pass": "A",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_pignoriasfinge-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "& quest'vltima si vede frequen- te- quentissima nelle monete di Corinto",
+      "current": "se voit fréquemment / repré- sur les monnaies de Corinthe",
+      "suggested": "se voit très fréquemment sur les monnaies de Corinthe (лишний обрывок «repré-» на стыке страниц)",
+      "confidence": "low"
+    }
+  ]
 }

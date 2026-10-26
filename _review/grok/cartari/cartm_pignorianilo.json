@@ -9,6 +9,7 @@
       "issue_id": "cartm_pignorianilo-1",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -17,6 +18,21 @@
       "current": "у Диния, у Афинея, в 6-й книге",
       "suggested": "у Диния, [цитируемого] Афинеем в 6-й книге (это одна ссылка, не две); EN «in Dinias, in Athenaeus» → «in Dinias as cited by Athenaeus»",
       "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_pignorianilo-1",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "in Dinio appresso Ateneo, nel 6. Libro",
+      "current": "chez Dinias, chez Athénée, au livre 6",
+      "suggested": "chez Dinias cité par Athénée, au livre 6 (одна ссылка, не две; та же ошибка в RU/EN)",
+      "confidence": "medium"
     }
   ]
 }

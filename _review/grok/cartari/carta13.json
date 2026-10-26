@@ -9,6 +9,7 @@
       "issue_id": "carta13-1",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -22,7 +23,9 @@
       "field": "text_ru",
       "issue_id": "carta13-2",
       "fields": [
-        "text_ru"
+        "text_ru",
+        "text_fr",
+        "text_en"
       ],
       "paragraph": 2,
       "type": "mistranslation",
@@ -35,13 +38,84 @@
       "field": "text_en",
       "issue_id": "carta13-3",
       "fields": [
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 2,
       "type": "name",
       "original": "che fu d'Antonio Baifio, tagliata di mano d'Artifilo",
       "current": "which belonged to Antonio Baisio",
       "suggested": "Antonio Baifio (Baïf), как в оригинале; RU «Байфио» верно",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "carta13-1",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Si che essendo la Chiesa la maniera di questo Oro",
+      "current": "l'Église étant la manière de cet Or",
+      "suggested": "l'Église étant la mine de cet Or («maniera» — опечатка за «miniera»; та же ошибка в RU/EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "carta13-3",
+      "fields": [
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 2,
+      "type": "name",
+      "original": "che fu d'Antonio Baifio, tagliata di mano d'Artifilo",
+      "current": "qui appartint à Antonio Baisio",
+      "suggested": "qui appartint à Antonio Baifio (Baïf), как в оригинале (та же ошибка в EN; RU верно)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "carta13-2",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "'Dum vocat haec Caesar, poterit lorica vocari: Pectore cum sacro federit, Aegis erit.'",
+      "current": "Tant que ceci s'appelle [l'armure] de César, on peut l'appeler cuirasse ; mais dès qu'elle touchera sa poitrine sacrée",
+      "suggested": "Tant qu'elle est vide (vacat), César, on peut l'appeler cuirasse ; quand elle reposera (sederit) sur ta poitrine sacrée, ce sera une Égide (Марциал VII.1; «vocat», «federit» — опечатки; не уверен, насколько переводчику следует исправлять; та же ошибка в RU/EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "carta13-4",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 2,
+      "type": "name",
+      "original": "Poteua dire l'Autore, che questo era Hercole, come apunto è, vedasi l'Ocone",
+      "current": "voir Ocon, cité par Giraldi",
+      "suggested": "voir Occo (Adolf Occo), cité par Giraldi («l'Ocone» = Оккон, ср. «Adolfo Occone» в соседних записях)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "carta13-5",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "si vede però senza ale ancora, & co'l solo Cornucopia, come quì",
+      "current": "on le voit néanmoins, toujours sans ailes, avec la seule Corne d'abondance",
+      "suggested": "on le voit cependant aussi sans ailes, avec la seule Corne d'abondance («ancora» = также, не «toujours»)",
       "confidence": "low"
     }
   ]

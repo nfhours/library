@@ -2,6 +2,20 @@
   "id": "cartf4",
   "book": "cartari",
   "pass": "A",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "cartf4-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "però in vna gioia anticha, il disegno della quale registriamo qui sotto",
+      "current": "sur une gemme antique, cependant, dont nous reportons ici le dessin",
+      "suggested": "c'est pourquoi, sur une gemme antique dont nous reportons ici le dessin («però» = поэтому, не «однако»)",
+      "confidence": "low"
+    }
+  ]
 }

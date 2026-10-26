@@ -2,6 +2,35 @@
   "id": "cartm_pignoriaspinola",
   "book": "cartari",
   "pass": "A",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_pignoriaspinola-1",
+      "fields": [
+        "text_fr",
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Et la medesima Inuentione della fauola principale tiene dipinta in vn Quadretto vagamente il S. Andrea Spinola",
+      "current": "est peinte avec grâce dans un petit tableau par le Seigneur Andrea Spinola",
+      "suggested": "le Seigneur Andrea Spinola possède, peinte avec grâce dans un petit tableau, la même invention («tiene dipinta» = держит у себя написанной, владеет картиной, а не сам написал; не уверен; та же ошибка в RU/EN)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_pignoriaspinola-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Bisogna dunque, che'l nostro Autore si sia abbatuto in vna Medaglia o logora",
+      "current": "Il faut donc que notre Auteur est tombé sur une Médaille",
+      "suggested": "Il faut donc que notre Auteur soit tombé sur une Médaille (грамматика: subjonctif)",
+      "confidence": "low"
+    }
+  ]
 }
