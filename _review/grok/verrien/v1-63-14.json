@@ -1,0 +1,35 @@
+{
+  "id": "v1-63-14",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v1-63-14-1",
+      "fields": [
+        "ru",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Une Pyramide dans la mer batuë des flos & des vents.",
+      "current": "Пирамида в море, бьющаяся о волны и ветры.",
+      "suggested": "batuë des flots — страдательный оборот («битая волнами»), пирамида неподвижна: «Пирамида в море, которую бьют волны и ветры»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "v1-63-14-2",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "Je suis en vain batuë de toutes parts.",
+      "current": "Я тщетно бьюсь со всех сторон.",
+      "suggested": "тот же страдательный оборот: «Меня тщетно бьют со всех сторон»",
+      "confidence": "medium"
+    }
+  ]
+}
