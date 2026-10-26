@@ -16,8 +16,9 @@
       "type": "ocr",
       "original": "io sò bene, che l'Abrotano femina ora pianta de i Sacerdoti d'Iside",
       "current": "женская Полынь ныне есть растение жрецов Изиды",
-      "suggested": "женская Полынь была растением жрецов Изиды («ora» — опечатка за «era»; речь о древности); EN «is now a plant» → «was a plant»",
-      "confidence": "medium"
+      "suggested": "женская Полынь была растением жрецов Изиды («ora» — так в печати (опечатка издания, скан с. 531), «era» — конъектура; речь о древности); EN «is now a plant» → «was a plant»",
+      "confidence": "medium",
+      "scan_check": "Сверка со сканом (с. 531): в печати «ora» — опечатка издания (так в печати), text_it верен; «era» — конъектура по смыслу. На полях «Car. 118 / Lin. 27»."
     },
     {
       "field": "text_ru",
@@ -44,8 +45,30 @@
       "type": "ocr",
       "original": "io sò bene, che l'Abrotano femina ora pianta de i Sacerdoti d'Iside",
       "current": "l'Aurone femelle est aujourd'hui une plante des prêtres d'Isis",
-      "suggested": "l'Aurone femelle était une plante des prêtres d'Isis («ora» — опечатка за «era»; та же ошибка в RU/EN)",
-      "confidence": "medium"
+      "suggested": "l'Aurone femelle était une plante des prêtres d'Isis («ora» — так в печати (опечатка издания, скан с. 531), «era» — конъектура; та же ошибка в RU/EN)",
+      "confidence": "medium",
+      "scan_check": "Сверка со сканом (с. 531): в печати «ora» — опечатка издания (так в печати), text_it верен; «era» — конъектура по смыслу. На полях «Car. 118 / Lin. 27»."
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm_aggiontathemis-1",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/531.jpg",
+      "page": "531",
+      "region": "середина страницы",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "Questa corona di Abrotano il Cartari l'ha tolta dal Giraldi, nel Sintagma XII. a car.369. che lo dice però per parere di altri. Autore antico, il quale lo dica io non lo sò, rimettomi però al vero. io sò bene, che l'Abrotano femina ora pianta de i Sacerdoti d'Iside, & lo dico nel mio Commentario sopra la Tauola Hieroglifica del Sereniss. di Mantoua. & forse di quà è nato l'errore, se però c'è errore.\n\nChi vuol vedere qualche cosa intorno al terrore Panico, legga le nostre note intorno all'Emblema CXXII. dell'Alciato; & il Rheso di Euripide. a' nostri giorni fu notabile vna notte dell'anno MDCVI. su'l Padouano, per vn terrore più che Panico.\n\nDel Sacerdote, che chiamauano gl'Ateniesi Bufono, il Sig. Ottauio Rossi ha registrato molte belle particularità, ne le sue memorie Bresciane a car. 187. Et di questa cerimonia tocca qui dal Cartari parla lungamente Porfirio nel Lib. II. dell'astinenza dal mangiare delle carni a car. 40. della versione latina.\n\nIn Licofrone io non ho saputo ritrouare ciò, che dice qui l'Autore. si bene in Alessandro Sardo, che ha scritto de moribus & ritibus gentium, nel Lib. 3. a capi 6. in Celio Rodigino, nel lib. 8. a capi 2. Et di questi Πυρφοροι, che così le chiamauano anticamente, fanno mentione Herodoto nel lib. 8. a car. 452. della editione Vecheliana Suida, & Giulio Polluce, da' quali autori si caua, che erano inuiolabili, come hora i Trombetti & i Tamburini.\n\nIl luogo di Pausania citato dall'Autore è nel lib. 4. doue racconta, che Pindaro la chiamò Ferepoli, cioè tutrice delle Città. che per questo forse in vna statuina di metallo, di grandezza d'vn palmo, appresso il Sig. Pompeo Pasqualino in Roma, si vedono le Torri in capo alla Fortuna.\n\nE' gran marauiglia, che il Cartari non habbia fatto mentione alcuna della Dea Themis, che pure Pausania in più luoghi ne fece mentione. & queste per quanto ne scriue Eusebio nel lib. 2. della Praepar. Euang. a capi 4. fù moglie di Gioue, & Madre di Minerua. ne parla ancora Diodoro Sicolo nel lib. 5. a capi 15. Arnobio racconta nel lib. 5. che di commandamento di lei Deucalione & Pirrha presero le pietre dal Monte Agdo in Frigia, per reparare il genere humano. & così si vede, ch'era Dea fatidica, come raccontano Appolledoro nel 1. lib. della sua Bibliotheca, & Diodoro Sicolo, & Ouidio nel 1. lib. delle Metam. Hora se Themis (come scriue Fornuto) era cuius praesidio contractus celebramus & paciscimur pactaque bona fide seruamus, sarà l'Equità, che i primi Imperatori nelle loro monete figurarono in piedi, con le bilancie nella mano dritta, & nella manca vn'hasta. quelli poi, che succederono le diedero il Cornucopia in vece dell'hasta. voledo inferire, che l'Abondanza era più confaceuole all'Equità, che l'Hasta simbolo molte volte di guerra. Ma se Themis fosse la\n\nGiu-",
+      "orig_after": null,
+      "verdict": "edition_error",
+      "translation_affected": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "note": "В печати «ora» — так в издании; text_it верен. «era» — конъектура по смыслу. На полях «Car. 118 / Lin. 27». Переводы передают «ora» буквально («ныне/now/aujourd’hui»).",
+      "pass": "B",
+      "batch": 3
     }
   ]
 }

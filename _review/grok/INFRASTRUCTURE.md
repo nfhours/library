@@ -59,7 +59,19 @@ _review/grok/               — всё, что пишет проверка (см
 | iconologie | 448 (+.gitkeep) | 978 | 440 |
 | verrien | 3524 | 44 | 1276 |
 
-- Файла `GROK.md` в репозитории нет (проверено `git ls-tree -r HEAD | grep -i grok.md`: пусто). Папок `_work/` в git тоже нет, они в `.gitignore`.
+- `GROK.md` — инструкция пользователя для ревьюера (Grok). В репозитории её нет и не должно быть (проверено `git ls-tree -r HEAD | grep -i grok.md`: пусто); правила из неё передаются в задании. Кратко (по состоянию на 2026-10-26):
+  - проверять только переводы (RU/EN/FR) против оригинала; ветка только `grok-review`, писать только в `_review/grok/`; `main` не трогать, не мержить, `entries.json` не править, без force-push;
+  - проход A — перевод против оригинала (text_it / text_fr / латынь); если французский — сам перевод, проверять и text_fr; подписи к гравюрам разрешено читать с изображений репо (`img/`, `pages/`);
+  - пакеты по 20 записей: после каждого commit + push и отчёт ok/minor/major;
+  - ничего не выдумывать: нечитаемое — «проверить по фото», сомнительное — «Не уверен» (раздел в SUMMARY.md);
+  - подписи: раздельные поля caption_orig / caption_ru / caption_en (+caption_fr), подписи не удалять, а переводить; в SUMMARY — раздел со списком подписей и их положением; `caption_source` = `engraving` | `text` (null при «проверить по фото»);
+  - одна ошибка во многих языках — один `issue_id`, считается один раз (объекты по полям, общий список `fields`);
+  - `fix` только для major + high: `{field, paragraph, before, after}`; не давать `fix` для сбоев разбиения текста, «проверить по фото» и «не уверен»;
+  - опечатки издания не исправлять (вердикт `edition_error`, правится только объяснение в issue); ударения и u/v — не ошибка; маргиналии — в note; раскрытие тильд проверять;
+  - проход B (сверка со сканами) по порядку: cartari, verrien, alciato, iconologie, audran, grosson; партии по 20 мест, после каждой commit + push + стоп + отчёт;
+  - verrien, монограммы: партии по 200 только со сканом аномалий (часть 1 — по 20);
+  - вести реестр гравюр (`<book>/engravings.csv`) и этот файл.
+- Папок `_work/` в git нет, они в `.gitignore`.
 - Подробности по проекту — `HANDOFF.md`, особенно раздел 2 (поля) и раздел 4 (cartari).
 
 ### Поля `entries.json` (cartari; у других книг см. HANDOFF.md, раздел 2)
@@ -94,9 +106,11 @@ _review/grok/audran/labels.csv, notes.csv
 _review/grok/grosson/attrs_check.csv, notes.csv
 _review/grok/verrien/medal_ru_collisions.csv, monograms_anomalies.csv, monograms_scan.csv,
                      motto_gloss_pattern.csv, plate_notes.csv, summary_notes.csv
+_review/grok/verrien/tally.py         — сводка монограмм verrien по партиям (см. §9)
+_review/grok/verrien/scan.py          — поиск аномалий в монограммах одной партии (см. §9)
 ```
 
-Скрипта `tally.py` нет. Счётчики считаются однострочником (§8).
+`_review/grok/verrien/tally.py` использовался при проверке монограмм verrien (часть 2), но до коммита 2026-10-26 (партия 3 cartari) лежал только вне репозитория, в рабочей папке ревьюера (`git log --all -- '*tally*'` был пуст). Теперь добавлен в ветку вместе с `scan.py`; пути сделаны относительными. Общие счётчики по книгам считаются однострочником (§8).
 
 ## 5. Схема review JSON (`_review/grok/<book>/<id>.json`)
 
@@ -221,17 +235,22 @@ PY
   - `source_check_batch.py` — пишет `source_check` в `<id>.json` и строки в `source_check.csv`. Кортеж: `(issue_id, стр_для_URL, метка стр., region, find, replace|None, verdict, [поля], note)`. `find` должен встречаться в одном элементе `text_it` ровно один раз, иначе assert. Повторный запуск заменяет записи по issue_id.
   - `scan_check_issues.py` — `scan_check`, правка формулировок, новые объекты issue и выравнивание `fields`.
   - `engravings_build.py` — сборка `engravings.csv` из ручного списка (страница, запись, позиция, сюжет, примечание).
+- `_review/grok/verrien/scan.py <первый_id> <n>` — монограммы verrien, часть 2 (`part==2`, `flag==''`): для n записей подряд печатает аномалии (пустые поля, не-буквы, расхождение fr/ru/name_fr/text_*, лишние поля, J/U/W, дубль на одной доске, порядок букв, повтор буквы). Сырой список пишет в `/tmp/verrien_last.json`. Вердикты по каждой аномалии вносятся в `monograms_anomalies.csv` вручную, по фото доски.
+- `_review/grok/verrien/tally.py` — без аргументов. Читает `monograms_scan.csv` (берёт batch, first, last, scanned) и `monograms_anomalies.csv` (kind, verdict); **перезаписывает** `monograms_scan.csv` пересчитанными колонками (plain_letters_only, anomalous_entries, real_text_entries, empty, dup_on_plate, caption_typo, edition_quirk, fr_ru_mismatch, issues) и печатает строку `verrien-p2-mono,<scanned>,<обычных>,<со странностями>,<issue>`. Повторный запуск на текущих данных файл не меняет (проверено 2026-10-26: `git diff` пуст). Порядок: сначала добавить строку партии (batch, first, last, scanned) в `monograms_scan.csv` и аномалии в `monograms_anomalies.csv`, потом запустить. Внимание: печатаемая строка — в формате сканирования, а не «ok, minor, major» заголовка `progress.csv`; итог в формате заголовка — `verrien-p2-mono,2062,2051,11,0` (см. verrien/SUMMARY.md).
 - Нужны: `python3` с Pillow, `tesseract` с языком `ita` (или `fra`), `curl`.
 
 ## 10. Источники сканов
 
+Источники сверены 2026-10-26 (метаданные archive.org через `https://archive.org/metadata/<id>`, сравнение с `books/<slug>/book.json`). Расхождений с перечнем пользователя нет.
+
 | книга | источник | статус |
 |---|---|---|
-| cartari | Heidelberg UB, Cartari, *Imagini de gli Dei delli Antichi*, Padova 1626. Манифест: https://digi.ub.uni-heidelberg.de/diglit/iiif/cartari1626/manifest.json; просмотр: https://digi.ub.uni-heidelberg.de/diglit/cartari1626 | проверено, используется в проходе B |
-| audran | Internet Archive `gri_proportionsd00audr` — https://archive.org/details/gri_proportionsd00audr (= `source_url` в `books/audran/book.json`) | проверено (HANDOFF, раздел 0) |
-| grosson | Gallica: https://gallica.bnf.fr/ark:/12148/bpt6k10402852 | найдено поиском 2026-10-26; **с данными репо не сверялось** |
-| verrien | Gallica: https://gallica.bnf.fr/ark:/12148/bpt6k1511636n и http://gallica.bnf.fr/ark:/12148/bpt6k134409n (издания 1685/1696/1724 различаются) | найдено поиском; **какое издание = репо, не проверено** |
-| iconologie, alciato | источник в репо не указан. HANDOFF: у пользователя локальные фото, alciato — PDF `alciato_1871.pdf` | неизвестно |
+| cartari | Heidelberg UB, Cartari, *Imagini de gli Dei delli Antichi*, Padova 1626, IIIF. Манифест: https://digi.ub.uni-heidelberg.de/diglit/iiif/cartari1626/manifest.json; просмотр: https://digi.ub.uni-heidelberg.de/diglit/cartari1626 | проверено, используется в проходе B |
+| iconologie | Internet Archive `iconologieounouv00ripa` — https://archive.org/details/iconologieounouv00ripa (Paris, Louis Billaine, 1677; 550 изображений; совпадает с book.json: 1677, Billaine). Плюс в репо `books/iconologie/pages/` — 978 полных страниц | проверено |
+| alciato | Основной источник — `books/alciato/pages/`: факсимиле Holbein Society 1871 (Internet Archive `andreaealciatie00alcigoog`, 295 изобр.; `bib_fict_1727159`, 312 изобр.). Оригинал Lyon, Rouille 1551 — `emblemata00alci_0` (246 изобр.), для спорных мест. book.json: 1551 Lyon — факсимиле воспроизводит это издание | проверено |
+| verrien | Internet Archive `livrecurieuxetut00veri` — https://archive.org/details/livrecurieuxetut00veri (Paris 1685; 372 изобр.; совпадает с book.json: 1685) | проверено |
+| audran | Internet Archive `gri_proportionsd00audr` — https://archive.org/details/gri_proportionsd00audr (1683; 77 изобр.; = `source_url` в book.json) | проверено |
+| grosson | Gallica `bpt6k10402852` — https://gallica.bnf.fr/ark:/12148/bpt6k10402852 (book.json: 1773). Нужен браузер (Gallica не отдаёт страницы простым fetch) | вероятно то же издание; **не проверено** |
 | все | сканы в репо: `books/<slug>/pages/` (читать через `git show HEAD:…`) | есть в git |
 
 Cartari, детали:

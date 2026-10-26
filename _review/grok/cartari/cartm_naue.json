@@ -31,7 +31,116 @@
       "original": "Vedesi à tempi nostri ancora quasi la medesima Naue",
       "current": "Видна в наши дни ещё почти та же Наве",
       "suggested": "Виден в наши дни ещё почти тот же Корабль",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 355): text_it совпадает с печатью; замечание к переводу остаётся."
+    },
+    {
+      "field": "text_it",
+      "issue_id": "cartm_naue-3",
+      "fields": [
+        "text_it",
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "si gittarono in mare, oue furono poi Delfini",
+      "current": "in mare, oue\n\noue furono",
+      "suggested": "in mare, oue furono (кустода «oue», скан с. 354→355)",
+      "confidence": "high",
+      "added_in": "pass B",
+      "scan_check": "Сверка со сканом (с. 354→355): дубль «oue» — кустода, внесённая при транскрипции, с разрывом абзаца."
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "cartm_naue-3",
+      "fields": [
+        "text_it",
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "si gittarono in mare, oue furono poi Delfini",
+      "current": "в море, где\n\nгде затем",
+      "suggested": "в море, где затем (дубль — кустода, скан с. 354→355)",
+      "confidence": "high",
+      "added_in": "pass B",
+      "scan_check": "Сверка со сканом (с. 354→355): дубль «oue» — кустода, внесённая при транскрипции, с разрывом абзаца."
+    },
+    {
+      "field": "text_en",
+      "issue_id": "cartm_naue-3",
+      "fields": [
+        "text_it",
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "si gittarono in mare, oue furono poi Delfini",
+      "current": "into the sea, where\n\nwhere they",
+      "suggested": "into the sea, where they (дубль — кустода, скан с. 354→355)",
+      "confidence": "high",
+      "added_in": "pass B",
+      "scan_check": "Сверка со сканом (с. 354→355): дубль «oue» — кустода, внесённая при транскрипции, с разрывом абзаца."
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_naue-3",
+      "fields": [
+        "text_it",
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "si gittarono in mare, oue furono poi Delfini",
+      "current": "à la mer, où\n\noù ils",
+      "suggested": "à la mer, où ils (дубль — кустода, скан с. 354→355)",
+      "confidence": "high",
+      "added_in": "pass B",
+      "scan_check": "Сверка со сканом (с. 354→355): дубль «oue» — кустода, внесённая при транскрипции, с разрывом абзаца."
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm_naue-2",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/355.jpg",
+      "page": "355",
+      "region": "верх страницы",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "Imagine della Naue di Bacco, del monte Timolo di Lidia delle Bacche per quello scorrenti, & de Corsari Tirrheni captori di Bacco da quello tramutati in Delfini per loro misfatti significanti li vitij, & peccati far perder all'huomo la ragione.\n\nEra tirato il carro di Baccho da Tigri, & da Pantere, perche il vino fa gli huomini feroci, e terribili, come è la natura di questi animali. Filostrato dice, che vanno le Pantere con Baccho, perche sono animali caldissimi, & che leggiermente saltano, come faceuano le Bacche, & come sono gli huomini souente riscaldati dal vino più assai, che non è di lor natura. Et descriue la sua Naue, che hauesse la prora in forma di Pantera, & che le fossero appesi all'intorno di fuori molti risonanti ciembali: nel mezo era piantato vn lungo Tirso in vece di arbore, alla cui cima erano attaccate le porporee & risplendenti vele oue era tessuto con oro Timolo monte della Lidia, & le Bacche, che quiui andauano scorrendo. Era questa Naue di sopra tutta coperta di verde Hedera, & di Vite con bellissime vue, che pendeuano da verdi rami, & di sotto dal più basso fondo spicciaua fuori vn fonte di suauissimo vino, del quale beeuano largamente tutti quelli, che erano quiui. Così dipinge Filostrato la Naue di Baccho, nella tauola, ch'ei fa de' Corsali Tirrheni quali pensando di hauer fatto vna buona preda di questo Dio giouinetto ancora, & quasi fanciullo, furono da lui mutati in tanti Delfini, mentre che lo voleuano condurre in parte diuersa da quella, oue egli domandaua di andare, come ne racconta Ouidio la fauola interamente, dicendo che Baccho auueduto si dell'inganno di coloro, fece subito fermare la naue, & veniua la Hedera in copia sì grande che legò tutti i remi, & si distese per l'arbore, per l'antenne, e per le vele, & à sè cinse il capo di verdi rami di vite con l'vua attaccate, e tenendo il Thirso in mano mostrossi accompagnato da Tigri, da Pantere, & da Liopardi, di che que' perfidi Corsali hebbero sì gran paura, che si gittarono in mare, oue\n\noue furono poi Delfini, come hò detto. Vedesi à tempi nostri ancora quasi la medesima Naue fatta à bellissime figure di Musaico in Roma nella Chiesa di Santa Agnese, che fu già tempio di Baccho.",
+      "orig_after": null,
+      "verdict": "ok",
+      "translation_affected": [],
+      "note": "text_it совпадает с печатью. Замечание к RU («Наве») остаётся. Попутно: в печати на этой странице «Bacco», в text_it «Baccho» — мелочь, не уверен.",
+      "pass": "B",
+      "batch": 3
+    },
+    {
+      "issue_id": "cartm_naue-3",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/354.jpg",
+      "page": "354 → 355",
+      "region": "с. 354, последняя строка «…in mare, oue» + кустода «oue»; с. 355, 1-я строка «furono poi Delfini»",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "Imagine della Naue di Bacco, del monte Timolo di Lidia delle Bacche per quello scorrenti, & de Corsari Tirrheni captori di Bacco da quello tramutati in Delfini per loro misfatti significanti li vitij, & peccati far perder all'huomo la ragione.\n\nEra tirato il carro di Baccho da Tigri, & da Pantere, perche il vino fa gli huomini feroci, e terribili, come è la natura di questi animali. Filostrato dice, che vanno le Pantere con Baccho, perche sono animali caldissimi, & che leggiermente saltano, come faceuano le Bacche, & come sono gli huomini souente riscaldati dal vino più assai, che non è di lor natura. Et descriue la sua Naue, che hauesse la prora in forma di Pantera, & che le fossero appesi all'intorno di fuori molti risonanti ciembali: nel mezo era piantato vn lungo Tirso in vece di arbore, alla cui cima erano attaccate le porporee & risplendenti vele oue era tessuto con oro Timolo monte della Lidia, & le Bacche, che quiui andauano scorrendo. Era questa Naue di sopra tutta coperta di verde Hedera, & di Vite con bellissime vue, che pendeuano da verdi rami, & di sotto dal più basso fondo spicciaua fuori vn fonte di suauissimo vino, del quale beeuano largamente tutti quelli, che erano quiui. Così dipinge Filostrato la Naue di Baccho, nella tauola, ch'ei fa de' Corsali Tirrheni quali pensando di hauer fatto vna buona preda di questo Dio giouinetto ancora, & quasi fanciullo, furono da lui mutati in tanti Delfini, mentre che lo voleuano condurre in parte diuersa da quella, oue egli domandaua di andare, come ne racconta Ouidio la fauola interamente, dicendo che Baccho auueduto si dell'inganno di coloro, fece subito fermare la naue, & veniua la Hedera in copia sì grande che legò tutti i remi, & si distese per l'arbore, per l'antenne, e per le vele, & à sè cinse il capo di verdi rami di vite con l'vua attaccate, e tenendo il Thirso in mano mostrossi accompagnato da Tigri, da Pantere, & da Liopardi, di che que' perfidi Corsali hebbero sì gran paura, che si gittarono in mare, oue\n\noue furono poi Delfini, come hò detto. Vedesi à tempi nostri ancora quasi la medesima Naue fatta à bellissime figure di Musaico in Roma nella Chiesa di Santa Agnese, che fu già tempio di Baccho.",
+      "orig_after": "Imagine della Naue di Bacco, del monte Timolo di Lidia delle Bacche per quello scorrenti, & de Corsari Tirrheni captori di Bacco da quello tramutati in Delfini per loro misfatti significanti li vitij, & peccati far perder all'huomo la ragione.\n\nEra tirato il carro di Baccho da Tigri, & da Pantere, perche il vino fa gli huomini feroci, e terribili, come è la natura di questi animali. Filostrato dice, che vanno le Pantere con Baccho, perche sono animali caldissimi, & che leggiermente saltano, come faceuano le Bacche, & come sono gli huomini souente riscaldati dal vino più assai, che non è di lor natura. Et descriue la sua Naue, che hauesse la prora in forma di Pantera, & che le fossero appesi all'intorno di fuori molti risonanti ciembali: nel mezo era piantato vn lungo Tirso in vece di arbore, alla cui cima erano attaccate le porporee & risplendenti vele oue era tessuto con oro Timolo monte della Lidia, & le Bacche, che quiui andauano scorrendo. Era questa Naue di sopra tutta coperta di verde Hedera, & di Vite con bellissime vue, che pendeuano da verdi rami, & di sotto dal più basso fondo spicciaua fuori vn fonte di suauissimo vino, del quale beeuano largamente tutti quelli, che erano quiui. Così dipinge Filostrato la Naue di Baccho, nella tauola, ch'ei fa de' Corsali Tirrheni quali pensando di hauer fatto vna buona preda di questo Dio giouinetto ancora, & quasi fanciullo, furono da lui mutati in tanti Delfini, mentre che lo voleuano condurre in parte diuersa da quella, oue egli domandaua di andare, come ne racconta Ouidio la fauola interamente, dicendo che Baccho auueduto si dell'inganno di coloro, fece subito fermare la naue, & veniua la Hedera in copia sì grande che legò tutti i remi, & si distese per l'arbore, per l'antenne, e per le vele, & à sè cinse il capo di verdi rami di vite con l'vua attaccate, e tenendo il Thirso in mano mostrossi accompagnato da Tigri, da Pantere, & da Liopardi, di che que' perfidi Corsali hebbero sì gran paura, che si gittarono in mare, oue furono poi Delfini, come hò detto. Vedesi à tempi nostri ancora quasi la medesima Naue fatta à bellissime figure di Musaico in Roma nella Chiesa di Santa Agnese, che fu già tempio di Baccho.",
+      "verdict": "transcription_error",
+      "translation_affected": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "note": "Дубль «oue» с разрывом абзаца — кустода (слово-отсылка внизу страницы) попала в text_it при транскрипции. RU «где/где», EN «where/where», FR «où/où» — следствие.",
+      "pass": "B",
+      "batch": 3
     }
   ]
 }

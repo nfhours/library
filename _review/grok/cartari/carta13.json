@@ -16,8 +16,9 @@
       "type": "ocr",
       "original": "Si che essendo la Chiesa la maniera di questo Oro",
       "current": "поскольку Церковь и есть образ этого Золота",
-      "suggested": "поскольку Церковь есть рудник (копь) этого Золота («maniera» = опечатка за «miniera», ср. в предыдущей записи «maniere de' monti»); EN «the manner of this Gold» → «the mine of this Gold»",
-      "confidence": "medium"
+      "suggested": "поскольку Церковь есть рудник (копь) этого Золота («maniera» — так в печати (опечатка издания, скан с. 505), «miniera» — конъектура, ср. в предыдущей записи «maniere de' monti»); EN «the manner of this Gold» → «the mine of this Gold»",
+      "confidence": "medium",
+      "scan_check": "Сверка со сканом (с. 505): в печати «la maniera di questo Oro» — опечатка издания (так в печати), text_it верен; «miniera» — конъектура по смыслу, не уверен."
     },
     {
       "field": "text_ru",
@@ -31,8 +32,9 @@
       "type": "mistranslation",
       "original": "'Dum vocat haec Caesar, poterit lorica vocari: Pectore cum sacro federit, Aegis erit.'",
       "current": "«Пока это зовётся [доспехом] Цезаря, оно может зваться лорикой…»",
-      "suggested": "«Пока он пуст (vacat), Цезарь, его можно звать панцирем; когда же ляжет (sederit) на священную грудь — станет эгидой» (Марциал VII.1; «vocat», «federit» — опечатки); EN аналогично, не уверен в степени, в какой переводчик должен исправлять",
-      "confidence": "medium"
+      "suggested": "«Пока он пуст (vacat), Цезарь, его можно звать панцирем; когда же ляжет (sederit) на священную грудь — станет эгидой» (Марциал VII.1; в печати «Vacat… & Cæsar… ſederit»: «vocat», «federit» — ошибки транскрипции, скан с. 507); EN аналогично",
+      "confidence": "high",
+      "scan_check": "Сверка со сканом (с. 507): в печати «Dum Vacat hæc, & Cæsar, poterit lorica vocari: / Pectore cum ſacro ſederit Aegis erit.» — «vocat», «federit» — ошибки транскрипции (ſ прочитано как f), не опечатки издания. Конъектура vacat/sederit ПОДТВЕРЖДЕНА."
     },
     {
       "field": "text_en",
@@ -60,8 +62,9 @@
       "type": "ocr",
       "original": "Si che essendo la Chiesa la maniera di questo Oro",
       "current": "l'Église étant la manière de cet Or",
-      "suggested": "l'Église étant la mine de cet Or («maniera» — опечатка за «miniera»; та же ошибка в RU/EN)",
-      "confidence": "medium"
+      "suggested": "l'Église étant la mine de cet Or («maniera» — так в печати (опечатка издания, скан с. 505), «miniera» — конъектура; та же ошибка в RU/EN)",
+      "confidence": "medium",
+      "scan_check": "Сверка со сканом (с. 505): в печати «la maniera di questo Oro» — опечатка издания (так в печати), text_it верен; «miniera» — конъектура по смыслу, не уверен."
     },
     {
       "field": "text_fr",
@@ -89,8 +92,9 @@
       "type": "mistranslation",
       "original": "'Dum vocat haec Caesar, poterit lorica vocari: Pectore cum sacro federit, Aegis erit.'",
       "current": "Tant que ceci s'appelle [l'armure] de César, on peut l'appeler cuirasse ; mais dès qu'elle touchera sa poitrine sacrée",
-      "suggested": "Tant qu'elle est vide (vacat), César, on peut l'appeler cuirasse ; quand elle reposera (sederit) sur ta poitrine sacrée, ce sera une Égide (Марциал VII.1; «vocat», «federit» — опечатки; не уверен, насколько переводчику следует исправлять; та же ошибка в RU/EN)",
-      "confidence": "medium"
+      "suggested": "Tant qu'elle est vide (vacat), César, on peut l'appeler cuirasse ; quand elle reposera (sederit) sur ta poitrine sacrée, ce sera une Égide (Марциал VII.1; в печати «Vacat… & Cæsar… ſederit»: «vocat», «federit» — ошибки транскрипции, скан с. 507; та же ошибка в RU/EN)",
+      "confidence": "high",
+      "scan_check": "Сверка со сканом (с. 507): в печати «Dum Vacat hæc, & Cæsar, poterit lorica vocari: / Pectore cum ſacro ſederit Aegis erit.» — «vocat», «federit» — ошибки транскрипции (ſ прочитано как f), не опечатки издания. Конъектура vacat/sederit ПОДТВЕРЖДЕНА."
     },
     {
       "field": "text_fr",
@@ -117,6 +121,46 @@
       "current": "on le voit néanmoins, toujours sans ailes, avec la seule Corne d'abondance",
       "suggested": "on le voit cependant aussi sans ailes, avec la seule Corne d'abondance («ancora» = также, не «toujours»)",
       "confidence": "low"
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "carta13-1",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/505.jpg",
+      "page": "505",
+      "region": "середина страницы",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "nostri era assomigliata all'Oro, che però de' Martiri canta la Chiesa, che come l'Oro nella Fornace, siano stati prouati: & per questo San Pietro, & San Paolo nelle Epistole loro, si sono seruiti piu di vna volta di questo simile Si che essendo la Chiesa la maniera di questo Oro, contenendosi in essa; i Sacramenti, che sono compendij della Fede nostra, a ragione si vedono alle porte d'essa i Grifoni. In vna corniola anticha (per tornare alle profanità) io ho veduto vn'Apoline vestito di lungo con la Faretra al Fianco, in habito d'Apolline Actio nel resto, che stà inanzi ad vn'Arula, o Altaretto, sopra'l quale si vede vn Grifone.",
+      "orig_after": null,
+      "verdict": "edition_error",
+      "translation_affected": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "note": "В печати «la maniera di questo Oro» — так в издании; text_it верен. «miniera» (рудник) — конъектура по смыслу, не уверен. Переводы передают «maniera» буквально («образ/manner/manière»); issue остаётся как вопрос к конъектуре.",
+      "pass": "B",
+      "batch": 3
+    },
+    {
+      "issue_id": "carta13-2",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/507.jpg",
+      "page": "507",
+      "region": "верхняя половина, цитата из Марциала",
+      "orig_field": "text_it",
+      "paragraph": 2,
+      "orig_before": "Minerua nella figura principale abbracciata con Mercurio s'è tratta da vna Gioia anticha. sopra ne' Camei si vede vn'Hermathena cauata dalla Medaglia dell'Imperatore Hadriano citata da Aldo Manutio nella spositione delle Epistole scritte ad Atico da Cicerone: l'Hermeracla citato pure da Cicerone s'è preso dal Pighio: tutto che ancor questo potesse essere Hercole & Mercurio, intieri abbracciati insieme, come s'è veduto di Mercurio, & di Minerua. Quest'vltima armata era rappresentata come qui sotto. Et la serpe inuolta intorno l'arco s'è presa da vna bellissima, & antichissima grande corniola, che fu d'Antonio Baifio, tagliata di mano d'Artifilo, nel riuerso della quale si leggeua, che Dracone figliolo di Theagene, valente arciere, la dedicaua a Minerua. I due altri camei si sono tratti da vna Medaglietta di Domitiano, ch'io ho appresso di me bellissima, & conseruatissima con alcune altre del medesimo argomento. Antonio Agostino, huomo singolarissimo, nel suo Dialogo 5. delle Medaglie, dice, che la Egide era vn'armatura del collo, e del petto. Il che veramente non è vero. E del collo io tengo di nò. Del petto solo ne' maschi questo è vero, poiche in vna mia Statua di Pallade la Egide cuopre anco la schiena. Et vna simile era già in Roma, in mano d'vn mio amico. Ma molto a proposito di questo luogo sono le parole di Seruio, sopra l'ottauo dell'Eneide, in quel verso: 'Horrificam turbata Palladis arma.' La Egide (dice Seruio) è propriamente vna coperta del petto fatta di rame, che tiene nel mezzo il capo della Gorgone. E questo se cuopre il petto di qualche deità, si chiama Egide, se cuopre il petto d'vn'huomo, come vediamo nelle statue antiche de gl'Imperatori, si chiama corazza. Et di quà prese argomento Martiale di adulare l'Imperatore Domitiano, nel principio del Libro VII: 'Dum vocat haec Caesar, poterit lorica vocari: Pectore cum sacro federit, Aegis erit.' E volle forse il Poeta dare (come si dice) nell'humore a Domitiano, che voleua esser tenuto (come si caua da Filostrato) figliolo di Pallade. Nel cameo s'è rappresentata la colonna bellica, tratta dalle Medaglie, come la chiama Festo. Et di essa, & dell'vso antico di mouere guerra vedasi il Padre Valtrino. Poteua dire l'Autore, che questo era Hercole, come apunto è, vedasi l'Ocone, che cita il Giraldi. Questa fauola di Prodico è tocca da Filostrato nella vita d'Apollonio Tianeo, da Silio Italico, che la trasferì a Scipione Africano il maggiore, da Giustino Martire nell'Apologetico, & da altri ancora. L'Harpocrate alato non è così ben rappresentato, come bisognaua, perche sopra il braccio manco haueua da stare appoggiato vn Cornucopia, che l'Intagliatore se lo ha scordato, si vede però senza ale ancora, & co'l solo Cornucopia, come quì.",
+      "orig_after": "Minerua nella figura principale abbracciata con Mercurio s'è tratta da vna Gioia anticha. sopra ne' Camei si vede vn'Hermathena cauata dalla Medaglia dell'Imperatore Hadriano citata da Aldo Manutio nella spositione delle Epistole scritte ad Atico da Cicerone: l'Hermeracla citato pure da Cicerone s'è preso dal Pighio: tutto che ancor questo potesse essere Hercole & Mercurio, intieri abbracciati insieme, come s'è veduto di Mercurio, & di Minerua. Quest'vltima armata era rappresentata come qui sotto. Et la serpe inuolta intorno l'arco s'è presa da vna bellissima, & antichissima grande corniola, che fu d'Antonio Baifio, tagliata di mano d'Artifilo, nel riuerso della quale si leggeua, che Dracone figliolo di Theagene, valente arciere, la dedicaua a Minerua. I due altri camei si sono tratti da vna Medaglietta di Domitiano, ch'io ho appresso di me bellissima, & conseruatissima con alcune altre del medesimo argomento. Antonio Agostino, huomo singolarissimo, nel suo Dialogo 5. delle Medaglie, dice, che la Egide era vn'armatura del collo, e del petto. Il che veramente non è vero. E del collo io tengo di nò. Del petto solo ne' maschi questo è vero, poiche in vna mia Statua di Pallade la Egide cuopre anco la schiena. Et vna simile era già in Roma, in mano d'vn mio amico. Ma molto a proposito di questo luogo sono le parole di Seruio, sopra l'ottauo dell'Eneide, in quel verso: 'Horrificam turbata Palladis arma.' La Egide (dice Seruio) è propriamente vna coperta del petto fatta di rame, che tiene nel mezzo il capo della Gorgone. E questo se cuopre il petto di qualche deità, si chiama Egide, se cuopre il petto d'vn'huomo, come vediamo nelle statue antiche de gl'Imperatori, si chiama corazza. Et di quà prese argomento Martiale di adulare l'Imperatore Domitiano, nel principio del Libro VII: 'Dum vacat haec, & Caesar, poterit lorica vocari: Pectore cum sacro sederit, Aegis erit.' E volle forse il Poeta dare (come si dice) nell'humore a Domitiano, che voleua esser tenuto (come si caua da Filostrato) figliolo di Pallade. Nel cameo s'è rappresentata la colonna bellica, tratta dalle Medaglie, come la chiama Festo. Et di essa, & dell'vso antico di mouere guerra vedasi il Padre Valtrino. Poteua dire l'Autore, che questo era Hercole, come apunto è, vedasi l'Ocone, che cita il Giraldi. Questa fauola di Prodico è tocca da Filostrato nella vita d'Apollonio Tianeo, da Silio Italico, che la trasferì a Scipione Africano il maggiore, da Giustino Martire nell'Apologetico, & da altri ancora. L'Harpocrate alato non è così ben rappresentato, come bisognaua, perche sopra il braccio manco haueua da stare appoggiato vn Cornucopia, che l'Intagliatore se lo ha scordato, si vede però senza ale ancora, & co'l solo Cornucopia, come quì.",
+      "verdict": "transcription_error",
+      "translation_affected": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "note": "В печати «Dum Vacat hæc, & Cæsar, poterit lorica vocari: / Pectore cum ſacro ſederit Aegis erit.» — «vocat» и «federit» (ſ→f) — ошибки транскрипции, не издания. В печати также «, &» перед «Cæsar» (в text_it пропущено). Конъектура issue (vacat/sederit) подтверждена; переводы шли за ошибочным «vocat».",
+      "pass": "B",
+      "batch": 3
     }
   ]
 }

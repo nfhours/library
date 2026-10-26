@@ -66,14 +66,17 @@
       "field": "text_fr",
       "issue_id": "carta3-4",
       "fields": [
-        "text_fr"
+        "text_fr",
+        "text_ru",
+        "text_en"
       ],
       "paragraph": 1,
       "type": "ocr",
       "original": "che si vedono con figure hierogliifiche",
       "current": "demi-cercles d'Or- / oret d'Argent",
       "suggested": "demi-cercles d'Or et d'Argent (искажение переноса «O-/ro» на стыке)",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 472→473): в печати «d’O-|ro, & d’Argento… hieroglifiche» — перенос через страницу; в text_it разрыв абзаца посреди слова и «hierogliifiche» (лишнее i). RU «зо-/лота», EN «Go-/ldand» — то же."
     },
     {
       "field": "text_fr",
@@ -89,6 +92,61 @@
       "current": "ne signifiaient, je pense, rien d'autre que des Sistres",
       "suggested": "n'entendit rien d'autre que des Sistres (подлежащее — Меркати, ед. ч.; «je pense» добавлено; та же ошибка в RU/EN)",
       "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "carta3-4",
+      "fields": [
+        "text_fr",
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "mezi cerchi d'O- … ro, & d'Argento",
+      "current": "полукружиях из зо-\n\nлота, и из Серебра",
+      "suggested": "полукружиях из золота и из серебра (перенос «O-|ro» через страницу, скан с. 472→473)",
+      "confidence": "medium",
+      "added_in": "pass B",
+      "scan_check": "Сверка со сканом (с. 472→473): в печати «d’O-|ro, & d’Argento… hieroglifiche» — перенос через страницу; в text_it разрыв абзаца посреди слова и «hierogliifiche» (лишнее i). RU «зо-/лота», EN «Go-/ldand» — то же."
+    },
+    {
+      "field": "text_en",
+      "issue_id": "carta3-4",
+      "fields": [
+        "text_fr",
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "mezi cerchi d'O- … ro, & d'Argento",
+      "current": "half-circles of Go-\n\nldand Silver",
+      "suggested": "half-circles of Gold and Silver (перенос «O-|ro» через страницу, скан с. 472→473)",
+      "confidence": "medium",
+      "added_in": "pass B",
+      "scan_check": "Сверка со сканом (с. 472→473): в печати «d’O-|ro, & d’Argento… hieroglifiche» — перенос через страницу; в text_it разрыв абзаца посреди слова и «hierogliifiche» (лишнее i). RU «зо-/лота», EN «Go-/ldand» — то же."
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "carta3-4",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/472.jpg",
+      "page": "472 → 473",
+      "region": "с. 472, последняя строка «d’O-» + кустода «ro,»; с. 473, 1-я строка «ro, & d’Argento…»",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "Nel Cameo s'è rappresentata Iside come si vede nelle Medaglie antiche di Hadriano, & Antonino Pio. è ben vero, che'l disegnatore s'è scordato di metterle in mano il Sistro, che vi si vede chiaramente. Et significa questa figura a mio giudicio il Nauigio d'Iside, del quale si fa mentione nel calendario Rustico antico. Et nella Med. d'Antonino si vede vn Faro di Porto, che tanto piu conferma la congettura. Leggasi Appuleio nell'11.\n\nCembalo chiama l'Autore il Sistro; & s'inganna, perche questi due stromenti furono molto differenti fra di se, come si può vedere nel mio Commentario de' Serui, a car. 88. & 91. E simile licenza si vede in Antonio Agostini (se però il Traduttore non ne tiene colpa) che il Timpano chiama con nome di Crotalo.\n\nMarciano Capella citato dall'Autore non fa mentione di Cembali, ma dei Sistri Niliaci. Che cosa fosse Sistro si vede nella precedente Imagine; & si vede figurato nel nostro Libro de' Serui a car. 88. Ne era Crotalo come vuole Gioseffo Scaligero, anzi molto differente. Ne il Timpano era altrimenti Crotalo, come scrisse Antonio Agostini nel Dialogo secondo & quinto (se non vogliamo dire, che questo fosse errore del Traduttore) Vn bellissimo Sistro antico, e tutto intiero si vedeua altre volte in mano di Monsignor Mocenico Vescouo di Nona. Et forse, che Michele Mercato nel suo Libro degl'Obelischi di Roma, a cap. XL car. 120. doue fa mentione di mezi cerchi d'O-\n\nro, & d'Argento, che si vedono con figure hierogliifiche, non intese altro, che Sistri, poiche & d'Oro, & d'Argento se ne fabricauano come pure si legge in Appuleio nel Lib. XI. dell'Asino d'Oro.",
+      "orig_after": "Nel Cameo s'è rappresentata Iside come si vede nelle Medaglie antiche di Hadriano, & Antonino Pio. è ben vero, che'l disegnatore s'è scordato di metterle in mano il Sistro, che vi si vede chiaramente. Et significa questa figura a mio giudicio il Nauigio d'Iside, del quale si fa mentione nel calendario Rustico antico. Et nella Med. d'Antonino si vede vn Faro di Porto, che tanto piu conferma la congettura. Leggasi Appuleio nell'11.\n\nCembalo chiama l'Autore il Sistro; & s'inganna, perche questi due stromenti furono molto differenti fra di se, come si può vedere nel mio Commentario de' Serui, a car. 88. & 91. E simile licenza si vede in Antonio Agostini (se però il Traduttore non ne tiene colpa) che il Timpano chiama con nome di Crotalo.\n\nMarciano Capella citato dall'Autore non fa mentione di Cembali, ma dei Sistri Niliaci. Che cosa fosse Sistro si vede nella precedente Imagine; & si vede figurato nel nostro Libro de' Serui a car. 88. Ne era Crotalo come vuole Gioseffo Scaligero, anzi molto differente. Ne il Timpano era altrimenti Crotalo, come scrisse Antonio Agostini nel Dialogo secondo & quinto (se non vogliamo dire, che questo fosse errore del Traduttore) Vn bellissimo Sistro antico, e tutto intiero si vedeua altre volte in mano di Monsignor Mocenico Vescouo di Nona. Et forse, che Michele Mercato nel suo Libro degl'Obelischi di Roma, a cap. XL car. 120. doue fa mentione di mezi cerchi d'Oro, & d'Argento, che si vedono con figure hieroglifiche, non intese altro, che Sistri, poiche & d'Oro, & d'Argento se ne fabricauano come pure si legge in Appuleio nel Lib. XI. dell'Asino d'Oro.",
+      "verdict": "transcription_error",
+      "translation_affected": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "note": "Перенос «d’O-|ro» через страницу превращён в разрыв абзаца посреди слова; «hierogliifiche» — лишнее «i» (в печати «hieroglifiche»). RU «зо-/лота», EN «Go-/ldand», FR «d’Or-/oret» — следствие.",
+      "pass": "B",
+      "batch": 3
     }
   ]
 }

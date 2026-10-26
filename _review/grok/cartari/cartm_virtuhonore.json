@@ -75,7 +75,8 @@
       "original": "che la sua via gli mostraua prima stretta, & certa, & difficile",
       "current": "whose way she showed him at first narrow, uncertain, and difficult",
       "suggested": "narrow, steep, and difficult («certa» здесь, вероятно, «erta» — крутая; во всяком случае не «uncertain»); RU «тесным» → «крутым» — не уверен",
-      "confidence": "medium"
+      "confidence": "medium",
+      "scan_check": "Сверка со сканом (с. 306): в печати «certa» — опечатка издания или чтение издания (так в печати), text_it верен; «erta» — конъектура, не уверен."
     },
     {
       "field": "text_ru",
@@ -126,7 +127,8 @@
       "original": "che la sua via gli mostraua prima stretta, & certa, & difficile",
       "current": "d'abord étroit, incertain et difficile",
       "suggested": "d'abord étroit, escarpé et difficile («certa», вероятно, = «erta»; во всяком случае не «incertain»; та же ошибка в EN) — не уверен",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 306): в печати «certa» — опечатка издания или чтение издания (так в печати), text_it верен; «erta» — конъектура, не уверен."
     },
     {
       "field": "text_fr",
@@ -142,6 +144,117 @@
       "current": "un Jeune homme vêtu sobrement",
       "suggested": "un Jeune homme en habit retroussé (court, ceint) («succintamente»; та же ошибка в RU/EN)",
       "confidence": "medium"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "cartm_virtuhonore-5",
+      "fields": [
+        "text_it",
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "in amenissimi campi pieni di soauissimi frutti",
+      "current": "amenissimi campi\n\ncampi pieni",
+      "suggested": "amenissimi campi pieni (кустода «campi», скан с. 306→308)",
+      "confidence": "high",
+      "added_in": "pass B",
+      "scan_check": "Сверка со сканом (с. 306→308, с. 307 — гравюра): дубль «campi» — кустода, внесённая при транскрипции, с разрывом абзаца."
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "cartm_virtuhonore-5",
+      "fields": [
+        "text_it",
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "in amenissimi campi pieni di soauissimi frutti",
+      "current": "прекраснейшие поля\n\nполя, полные",
+      "suggested": "прекраснейшие поля, полные (дубль — кустода, скан с. 306→308)",
+      "confidence": "high",
+      "added_in": "pass B",
+      "scan_check": "Сверка со сканом (с. 306→308, с. 307 — гравюра): дубль «campi» — кустода, внесённая при транскрипции, с разрывом абзаца."
+    },
+    {
+      "field": "text_en",
+      "issue_id": "cartm_virtuhonore-5",
+      "fields": [
+        "text_it",
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "in amenissimi campi pieni di soauissimi frutti",
+      "current": "most pleasant fields\n\nfields full",
+      "suggested": "most pleasant fields full (дубль — кустода, скан с. 306→308)",
+      "confidence": "high",
+      "added_in": "pass B",
+      "scan_check": "Сверка со сканом (с. 306→308, с. 307 — гравюра): дубль «campi» — кустода, внесённая при транскрипции, с разрывом абзаца."
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_virtuhonore-5",
+      "fields": [
+        "text_it",
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "in amenissimi campi pieni di soauissimi frutti",
+      "current": "très agréables\n\ndes champs pleins",
+      "suggested": "très agréables pleins (дубль — кустода, скан с. 306→308)",
+      "confidence": "high",
+      "added_in": "pass B",
+      "scan_check": "Сверка со сканом (с. 306→308, с. 307 — гравюра): дубль «campi» — кустода, внесённая при транскрипции, с разрывом абзаца."
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm_virtuhonore-3",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/306.jpg",
+      "page": "306",
+      "region": "нижняя часть страницы",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "Imagine della Virtù, & dell'Honore, che si risguardano così scolpiti in vna medaglia di Vitellio, dinotante dalla virtù & attioni virtuose prouenir l'honore, & con l'honore l'abondanza del tutto, & ogni humana felicità.\n\nsia il vero premio di questa, che fu per ciò fatta con due ali, conciosia che l'honore; & la gloria quasi leggerissime ali solleuino da terra le persone virtuose, & le portino à volo con non poca merauiglia di ogniuno. Il che non era nel tempo di Luciano forse, come ne gli altri tempi ancora non è stato per non dire di quello di hoggidì, che pur troppo se lo vede ogni vno come sia; imperoche egli descriue in certo suo dialogo la virtù tutta mesta addolorata, vestita con certi pochi stracci intorno, & molto malamente trattata dalla Fortuna in modo, che le era tolto di andare etiandio à farsi vedere à Gioue. Et dirò questo poco pur anche de' nostri tempi, che alcuni hanno dipinta la Virtù in forma di Pellegrino, come ch'ella non troui qui stanza, & perciò se ne camini via. Ritrouasi ancora, che gli antichi la fecero a guisa di matrona, che siede sopra vn sasso quadro; & in certa medaglia antica si vede la virtù fatta in modo, che si vede vna Donna appoggiata col sinistro braccio ad vna colonna, & che con la destra mano tiene vn serpente. Fu poi la virtù maschile, come ha vna medaglia di Gordiano Imperatore, formata come huomo vecchio, barbuto, tutto nudo, appoggiato ad vna mazza, che ha la pelle del Lione inuolta all'vno delle braccia, cui sono lettere intorno, che dicono: Alla virtù di Augusto. Et hà vna medaglia ancora di Numeriano la medesima figura. Ma in vna di Vittellio è la Virtù in forma di Giouane vestito succintamente con elmo in testa, & cimiero di alcune penne, tien la sinistra alta appoggiata ad vn'hasta dritta in terra, & la destra con lo scettro appoggia al destro ginocchio più eleuato dell'altro, perche hà sotto il piede vna testuggine, & hà gli stiualetti in gamba; e stà dritto, e guarda fiso ad vna giouene, che gli è dirimpetto fatta per l'Honore, la quale alzando il destro braccio tiene l'hasta, come l'altro, & da questa parte è nuda fin sotto la mammella: nella sinistra il corno di douitia, & vn'elmo sotto il piede, & il capo adorno di belle treccie bionde, che con vago modo gli sono auolte d'intorno. Prodico Filosofo, come si legge appresso di Xenofonte, & lo riferisce Marco Tullio, finse, che Hercole, mentre ch'egli era giouine, andò non sò come in certo luoco diserto, oue trouò due vie, che andauano in diuerse parti, & non sapendo a quale si douesse appigliare, mentre ch'ei staua sospeso, e tutto pensoso sopra di ciò, gli apparuero due femine, l'vna delle quali era la Volutà bella in vista, tutta lasciua, & vaga, per gli artificiosi ornamenti, che haueua d'intorno, la quale lo persuadeua a caminare per la via de i piaceri larga al principio, piana, & facile, piena di verdi herbe, & di coloriti fiori, ma stretta poi al fine, sassosa, & piena di acutissime spine. L'altra più seuera nello aspetto, semplicemente vestita, era la Virtù, che la sua via gli mostraua prima stretta, & certa, & difficile; ma che dopò menaua in fioriti prati, & in amenissimi campi\n\ncampi pieni di soauissimi frutti. Et perche a questa si accostò Hercole, hebbe così glorioso nome. Dante fingendo nel suo Purgatorio di hauer visto in sogno la Volutà, la descriue vna femina balba, con gli occhi guerchi, & co i piè storti, & man monche, & di colore scialba, la quale cominciaua poi a parlare speditamente, si drizzaua tutta, e lo smarrito volto, come amor vuole, così lo coloraua, & hauerebbe tratto lui à sè con sue dolci parole, se non che apparue vna donna santa, & honesta, la quale dice egli.\n\nL'altra prendeua, & dinanzi l'apriua,\nFendendo i drappi, e mostrauami il Ventre;\nQuel mi sueglio col puzzo che n'Usciua,\n\nLe quali cose si confanno molto bene alle vie de' piaceri vitiosi, & della virtù. Ma chi volesse in altro modo ancora mostrare queste due vie potrebbe far la lettera di Pithagora, sopra della quale scrisse Virgilio que' pochi versi, mostrando ch'ella ci figuraua la vita humana, li quali vengono à dire questo in nostra lingua.\n\nLa lettera à Pithagora già data\nMostra la forma dell'humana vita,\nCon le due corna, in che ella è separata.\nPerch'à la destra uà l'erta salita\nDe la virtude con angusto calle,\nDifficile à principio è mal gradita.\nMa poi facile à chi la via non falle,\nPerche ascendendo giugne, oue s'oblia\nLe fatiche lasciatesi à le spalle,\nDa la sinistra uà più larga uia\nFacile, e piana, ma che poi l'huom mena\nOue sol pianto, e pentimento sia.\nPerò qualunque il suo desir affrena,\nNe lo lascia seguire il Van piacere,\nCh'à principio par gioia, al fin è pena.\nE virtù segue con fermo Volere\nDi patir i disagi, che fortuna\nCui meno ella douria fà sostenere.\nS'acquista tanto honor, che poi più d'Una\nEtà ne tien memoria, e illustre, e chiara\nSua fama fà, che saria stata bruna.\nMa chi soll'ocio, e la lasciua hà cara,\nCon biasmo viue, e quella vita al fine,\nChe si gli parue dolce sente amara,\nEt trafiggonli il cor pungenti spine.\n\nPerche non danno i mondani piaceri all'vltimo altro, che pentimento, e vergogna: ma le virtù oltre che in noi stessi ci acquetano l'animo, appresso de gli altri anco poi ci acquistano gloria, & honore. La imagine del quale faceuano gli antichi, come la descriue l'Alciato, di fanciullo vestito di vn panno porporeo, con ghirlanda di lauro in capo, cui daua mano il Dio Cupido, & lo pareua menare alla Dea Virtù, che andaua innanzi.",
+      "orig_after": null,
+      "verdict": "edition_error",
+      "translation_affected": [
+        "text_en",
+        "text_fr"
+      ],
+      "note": "В печати «certa» — так в издании; text_it верен. «erta» (крутая) — конъектура, не уверен. EN «uncertain», FR «incertain» — в любом случае неточно.",
+      "pass": "B",
+      "batch": 3
+    },
+    {
+      "issue_id": "cartm_virtuhonore-5",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/306.jpg",
+      "page": "306 → 308",
+      "region": "с. 306, последняя строка «…amenissimi campi» + кустода «campi»; с. 308, 1-я строка «pieni di soauissimi frutti» (с. 307 — гравюра Volupia)",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "Imagine della Virtù, & dell'Honore, che si risguardano così scolpiti in vna medaglia di Vitellio, dinotante dalla virtù & attioni virtuose prouenir l'honore, & con l'honore l'abondanza del tutto, & ogni humana felicità.\n\nsia il vero premio di questa, che fu per ciò fatta con due ali, conciosia che l'honore; & la gloria quasi leggerissime ali solleuino da terra le persone virtuose, & le portino à volo con non poca merauiglia di ogniuno. Il che non era nel tempo di Luciano forse, come ne gli altri tempi ancora non è stato per non dire di quello di hoggidì, che pur troppo se lo vede ogni vno come sia; imperoche egli descriue in certo suo dialogo la virtù tutta mesta addolorata, vestita con certi pochi stracci intorno, & molto malamente trattata dalla Fortuna in modo, che le era tolto di andare etiandio à farsi vedere à Gioue. Et dirò questo poco pur anche de' nostri tempi, che alcuni hanno dipinta la Virtù in forma di Pellegrino, come ch'ella non troui qui stanza, & perciò se ne camini via. Ritrouasi ancora, che gli antichi la fecero a guisa di matrona, che siede sopra vn sasso quadro; & in certa medaglia antica si vede la virtù fatta in modo, che si vede vna Donna appoggiata col sinistro braccio ad vna colonna, & che con la destra mano tiene vn serpente. Fu poi la virtù maschile, come ha vna medaglia di Gordiano Imperatore, formata come huomo vecchio, barbuto, tutto nudo, appoggiato ad vna mazza, che ha la pelle del Lione inuolta all'vno delle braccia, cui sono lettere intorno, che dicono: Alla virtù di Augusto. Et hà vna medaglia ancora di Numeriano la medesima figura. Ma in vna di Vittellio è la Virtù in forma di Giouane vestito succintamente con elmo in testa, & cimiero di alcune penne, tien la sinistra alta appoggiata ad vn'hasta dritta in terra, & la destra con lo scettro appoggia al destro ginocchio più eleuato dell'altro, perche hà sotto il piede vna testuggine, & hà gli stiualetti in gamba; e stà dritto, e guarda fiso ad vna giouene, che gli è dirimpetto fatta per l'Honore, la quale alzando il destro braccio tiene l'hasta, come l'altro, & da questa parte è nuda fin sotto la mammella: nella sinistra il corno di douitia, & vn'elmo sotto il piede, & il capo adorno di belle treccie bionde, che con vago modo gli sono auolte d'intorno. Prodico Filosofo, come si legge appresso di Xenofonte, & lo riferisce Marco Tullio, finse, che Hercole, mentre ch'egli era giouine, andò non sò come in certo luoco diserto, oue trouò due vie, che andauano in diuerse parti, & non sapendo a quale si douesse appigliare, mentre ch'ei staua sospeso, e tutto pensoso sopra di ciò, gli apparuero due femine, l'vna delle quali era la Volutà bella in vista, tutta lasciua, & vaga, per gli artificiosi ornamenti, che haueua d'intorno, la quale lo persuadeua a caminare per la via de i piaceri larga al principio, piana, & facile, piena di verdi herbe, & di coloriti fiori, ma stretta poi al fine, sassosa, & piena di acutissime spine. L'altra più seuera nello aspetto, semplicemente vestita, era la Virtù, che la sua via gli mostraua prima stretta, & certa, & difficile; ma che dopò menaua in fioriti prati, & in amenissimi campi\n\ncampi pieni di soauissimi frutti. Et perche a questa si accostò Hercole, hebbe così glorioso nome. Dante fingendo nel suo Purgatorio di hauer visto in sogno la Volutà, la descriue vna femina balba, con gli occhi guerchi, & co i piè storti, & man monche, & di colore scialba, la quale cominciaua poi a parlare speditamente, si drizzaua tutta, e lo smarrito volto, come amor vuole, così lo coloraua, & hauerebbe tratto lui à sè con sue dolci parole, se non che apparue vna donna santa, & honesta, la quale dice egli.\n\nL'altra prendeua, & dinanzi l'apriua,\nFendendo i drappi, e mostrauami il Ventre;\nQuel mi sueglio col puzzo che n'Usciua,\n\nLe quali cose si confanno molto bene alle vie de' piaceri vitiosi, & della virtù. Ma chi volesse in altro modo ancora mostrare queste due vie potrebbe far la lettera di Pithagora, sopra della quale scrisse Virgilio que' pochi versi, mostrando ch'ella ci figuraua la vita humana, li quali vengono à dire questo in nostra lingua.\n\nLa lettera à Pithagora già data\nMostra la forma dell'humana vita,\nCon le due corna, in che ella è separata.\nPerch'à la destra uà l'erta salita\nDe la virtude con angusto calle,\nDifficile à principio è mal gradita.\nMa poi facile à chi la via non falle,\nPerche ascendendo giugne, oue s'oblia\nLe fatiche lasciatesi à le spalle,\nDa la sinistra uà più larga uia\nFacile, e piana, ma che poi l'huom mena\nOue sol pianto, e pentimento sia.\nPerò qualunque il suo desir affrena,\nNe lo lascia seguire il Van piacere,\nCh'à principio par gioia, al fin è pena.\nE virtù segue con fermo Volere\nDi patir i disagi, che fortuna\nCui meno ella douria fà sostenere.\nS'acquista tanto honor, che poi più d'Una\nEtà ne tien memoria, e illustre, e chiara\nSua fama fà, che saria stata bruna.\nMa chi soll'ocio, e la lasciua hà cara,\nCon biasmo viue, e quella vita al fine,\nChe si gli parue dolce sente amara,\nEt trafiggonli il cor pungenti spine.\n\nPerche non danno i mondani piaceri all'vltimo altro, che pentimento, e vergogna: ma le virtù oltre che in noi stessi ci acquetano l'animo, appresso de gli altri anco poi ci acquistano gloria, & honore. La imagine del quale faceuano gli antichi, come la descriue l'Alciato, di fanciullo vestito di vn panno porporeo, con ghirlanda di lauro in capo, cui daua mano il Dio Cupido, & lo pareua menare alla Dea Virtù, che andaua innanzi.",
+      "orig_after": "Imagine della Virtù, & dell'Honore, che si risguardano così scolpiti in vna medaglia di Vitellio, dinotante dalla virtù & attioni virtuose prouenir l'honore, & con l'honore l'abondanza del tutto, & ogni humana felicità.\n\nsia il vero premio di questa, che fu per ciò fatta con due ali, conciosia che l'honore; & la gloria quasi leggerissime ali solleuino da terra le persone virtuose, & le portino à volo con non poca merauiglia di ogniuno. Il che non era nel tempo di Luciano forse, come ne gli altri tempi ancora non è stato per non dire di quello di hoggidì, che pur troppo se lo vede ogni vno come sia; imperoche egli descriue in certo suo dialogo la virtù tutta mesta addolorata, vestita con certi pochi stracci intorno, & molto malamente trattata dalla Fortuna in modo, che le era tolto di andare etiandio à farsi vedere à Gioue. Et dirò questo poco pur anche de' nostri tempi, che alcuni hanno dipinta la Virtù in forma di Pellegrino, come ch'ella non troui qui stanza, & perciò se ne camini via. Ritrouasi ancora, che gli antichi la fecero a guisa di matrona, che siede sopra vn sasso quadro; & in certa medaglia antica si vede la virtù fatta in modo, che si vede vna Donna appoggiata col sinistro braccio ad vna colonna, & che con la destra mano tiene vn serpente. Fu poi la virtù maschile, come ha vna medaglia di Gordiano Imperatore, formata come huomo vecchio, barbuto, tutto nudo, appoggiato ad vna mazza, che ha la pelle del Lione inuolta all'vno delle braccia, cui sono lettere intorno, che dicono: Alla virtù di Augusto. Et hà vna medaglia ancora di Numeriano la medesima figura. Ma in vna di Vittellio è la Virtù in forma di Giouane vestito succintamente con elmo in testa, & cimiero di alcune penne, tien la sinistra alta appoggiata ad vn'hasta dritta in terra, & la destra con lo scettro appoggia al destro ginocchio più eleuato dell'altro, perche hà sotto il piede vna testuggine, & hà gli stiualetti in gamba; e stà dritto, e guarda fiso ad vna giouene, che gli è dirimpetto fatta per l'Honore, la quale alzando il destro braccio tiene l'hasta, come l'altro, & da questa parte è nuda fin sotto la mammella: nella sinistra il corno di douitia, & vn'elmo sotto il piede, & il capo adorno di belle treccie bionde, che con vago modo gli sono auolte d'intorno. Prodico Filosofo, come si legge appresso di Xenofonte, & lo riferisce Marco Tullio, finse, che Hercole, mentre ch'egli era giouine, andò non sò come in certo luoco diserto, oue trouò due vie, che andauano in diuerse parti, & non sapendo a quale si douesse appigliare, mentre ch'ei staua sospeso, e tutto pensoso sopra di ciò, gli apparuero due femine, l'vna delle quali era la Volutà bella in vista, tutta lasciua, & vaga, per gli artificiosi ornamenti, che haueua d'intorno, la quale lo persuadeua a caminare per la via de i piaceri larga al principio, piana, & facile, piena di verdi herbe, & di coloriti fiori, ma stretta poi al fine, sassosa, & piena di acutissime spine. L'altra più seuera nello aspetto, semplicemente vestita, era la Virtù, che la sua via gli mostraua prima stretta, & certa, & difficile; ma che dopò menaua in fioriti prati, & in amenissimi campi pieni di soauissimi frutti. Et perche a questa si accostò Hercole, hebbe così glorioso nome. Dante fingendo nel suo Purgatorio di hauer visto in sogno la Volutà, la descriue vna femina balba, con gli occhi guerchi, & co i piè storti, & man monche, & di colore scialba, la quale cominciaua poi a parlare speditamente, si drizzaua tutta, e lo smarrito volto, come amor vuole, così lo coloraua, & hauerebbe tratto lui à sè con sue dolci parole, se non che apparue vna donna santa, & honesta, la quale dice egli.\n\nL'altra prendeua, & dinanzi l'apriua,\nFendendo i drappi, e mostrauami il Ventre;\nQuel mi sueglio col puzzo che n'Usciua,\n\nLe quali cose si confanno molto bene alle vie de' piaceri vitiosi, & della virtù. Ma chi volesse in altro modo ancora mostrare queste due vie potrebbe far la lettera di Pithagora, sopra della quale scrisse Virgilio que' pochi versi, mostrando ch'ella ci figuraua la vita humana, li quali vengono à dire questo in nostra lingua.\n\nLa lettera à Pithagora già data\nMostra la forma dell'humana vita,\nCon le due corna, in che ella è separata.\nPerch'à la destra uà l'erta salita\nDe la virtude con angusto calle,\nDifficile à principio è mal gradita.\nMa poi facile à chi la via non falle,\nPerche ascendendo giugne, oue s'oblia\nLe fatiche lasciatesi à le spalle,\nDa la sinistra uà più larga uia\nFacile, e piana, ma che poi l'huom mena\nOue sol pianto, e pentimento sia.\nPerò qualunque il suo desir affrena,\nNe lo lascia seguire il Van piacere,\nCh'à principio par gioia, al fin è pena.\nE virtù segue con fermo Volere\nDi patir i disagi, che fortuna\nCui meno ella douria fà sostenere.\nS'acquista tanto honor, che poi più d'Una\nEtà ne tien memoria, e illustre, e chiara\nSua fama fà, che saria stata bruna.\nMa chi soll'ocio, e la lasciua hà cara,\nCon biasmo viue, e quella vita al fine,\nChe si gli parue dolce sente amara,\nEt trafiggonli il cor pungenti spine.\n\nPerche non danno i mondani piaceri all'vltimo altro, che pentimento, e vergogna: ma le virtù oltre che in noi stessi ci acquetano l'animo, appresso de gli altri anco poi ci acquistano gloria, & honore. La imagine del quale faceuano gli antichi, come la descriue l'Alciato, di fanciullo vestito di vn panno porporeo, con ghirlanda di lauro in capo, cui daua mano il Dio Cupido, & lo pareua menare alla Dea Virtù, che andaua innanzi.",
+      "verdict": "transcription_error",
+      "translation_affected": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "note": "Дубль «campi» с разрывом абзаца — кустода (слово-отсылка внизу страницы) попала в text_it при транскрипции. RU «поля/поля», EN «fields/fields», FR «champs/des champs» — следствие.",
+      "pass": "B",
+      "batch": 3
     }
   ]
 }

@@ -30,7 +30,8 @@
       "original": "non che gl'occhi di chi hauesse vn … tantino di rossore honorato",
       "current": "имел хоть каплю / свято- хоть каплю почтенного стыда",
       "suggested": "кустода «santi-» (sic, = tantino) ошибочно переведена как «свято-» — удалить; EN «shred a shred» — убрать повтор",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 515→516): кустода «santi-» в самом издании не совпадает с началом с. 516 «tantino» (сбой кустоды издания); в text_it она внесена при транскрипции с разрывом абзаца. В связном тексте «vn tantino di rossore»."
     },
     {
       "field": "text_fr",
@@ -45,7 +46,8 @@
       "original": "non che gl'occhi di chi hauesse vn … tantino di rossore honorato",
       "current": "brin un brin de pudeur honorée",
       "suggested": "un brin de pudeur honorée (кустода «santi-» дала повтор «brin un brin» — удалить; та же ошибка в RU/EN)",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 515→516): кустода «santi-» в самом издании не совпадает с началом с. 516 «tantino» (сбой кустоды издания); в text_it она внесена при транскрипции с разрывом абзаца. В связном тексте «vn tantino di rossore»."
     },
     {
       "field": "text_fr",
@@ -59,6 +61,27 @@
       "current": "et d'aucuns en avaient sous le pied de la Table",
       "suggested": "et elle en avait quelques-uns sous les pieds de la Table (подлежащее — табличка, «alcuni» = несколько [членов], не «некоторые люди»)",
       "confidence": "low"
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm_pignoriapriapo-2",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/515.jpg",
+      "page": "515 → 516",
+      "region": "с. 515, последняя строка «…hauesse vn» + кустода «santi-»; с. 516, 1-я строка «tantino di rossore»",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "Nel Cameo s'è ritratta vn'antichissima statuetta d'Apolline, ch'io ho, nella quale si vede conformità grande tra Priapo & Apolline. Et perche Priapo si faceua di legno di Fico, si come si vede ne' prossimi versi d'Horatio, auuertasi, che questo non fu a caso, ma a bello studio per la commemoratione della ribalderia, che Bacco vsò, per sodisfar al patto, che haueua con Profumno. Leggasi Arnobio nel Lib. 5. contra i Gentili, & la spositione della Tauola Hieroglifica al luogo citato. Ma mi viene in taglio qui il dire, che in Napoli appresso il Sig. GIO. VICENZO della PORTA, si vedeua già vna Tauola di piombo antica, longa piedi due, palmi tre, alta la meta della longhezza, nella quale in caratteri, che chiamano Maiuscoli, Greci, si leggeuano parole di questo sentimento; Nelle Selue si viue vita senza pensieri, fuora d'ambitione. Nelle selue s'acquista Libertà, & si troua riposo. Nel mezo della detta Tauola era vna Finestretta ouata, co'l suo coperchio di bronzo, che haueua dal di fuora la faccia d'vn Satiro; di dentro vna Labrusca, che lo adornaua, con vna picciola cartella in mezo, nella quale si leggeua cosa di questo senso; amiamo i boschi, e gl'antri. nel vacuo della Finestretta si vedeua vna Tauola, che haueua sopra vn membro virile, & alcuni ne haueua sotto a' piedi della Tauola. Nel lembo della Tauola era questa voce ΘΕΩ appresso vi si vedeua vn'Asino, alcune piante di canne, la Falce, & vn vaso da bere, con due manichi. Chi ne ha veduto il disegno, ha ben detto, che con ragione amauano i boschi & le spelonche, che forfanterie simili in aria libera non poteuano non contaminare il Cielo, e'l Sole, non che gl'occhi di chi hauesse vn\n\nsanti- tantino di rossore honorato. Et a questo proposito hanno notato altri il Sacerdotio d'Hercole rustico, & l'epiteto d'Hercole siluano, che se non era Priapo, era poco differente.\n\nLe imagini de' Lari si sono tolte da vn Denario della famiglia Cesia.",
+      "orig_after": "Nel Cameo s'è ritratta vn'antichissima statuetta d'Apolline, ch'io ho, nella quale si vede conformità grande tra Priapo & Apolline. Et perche Priapo si faceua di legno di Fico, si come si vede ne' prossimi versi d'Horatio, auuertasi, che questo non fu a caso, ma a bello studio per la commemoratione della ribalderia, che Bacco vsò, per sodisfar al patto, che haueua con Profumno. Leggasi Arnobio nel Lib. 5. contra i Gentili, & la spositione della Tauola Hieroglifica al luogo citato. Ma mi viene in taglio qui il dire, che in Napoli appresso il Sig. GIO. VICENZO della PORTA, si vedeua già vna Tauola di piombo antica, longa piedi due, palmi tre, alta la meta della longhezza, nella quale in caratteri, che chiamano Maiuscoli, Greci, si leggeuano parole di questo sentimento; Nelle Selue si viue vita senza pensieri, fuora d'ambitione. Nelle selue s'acquista Libertà, & si troua riposo. Nel mezo della detta Tauola era vna Finestretta ouata, co'l suo coperchio di bronzo, che haueua dal di fuora la faccia d'vn Satiro; di dentro vna Labrusca, che lo adornaua, con vna picciola cartella in mezo, nella quale si leggeua cosa di questo senso; amiamo i boschi, e gl'antri. nel vacuo della Finestretta si vedeua vna Tauola, che haueua sopra vn membro virile, & alcuni ne haueua sotto a' piedi della Tauola. Nel lembo della Tauola era questa voce ΘΕΩ appresso vi si vedeua vn'Asino, alcune piante di canne, la Falce, & vn vaso da bere, con due manichi. Chi ne ha veduto il disegno, ha ben detto, che con ragione amauano i boschi & le spelonche, che forfanterie simili in aria libera non poteuano non contaminare il Cielo, e'l Sole, non che gl'occhi di chi hauesse vn tantino di rossore honorato. Et a questo proposito hanno notato altri il Sacerdotio d'Hercole rustico, & l'epiteto d'Hercole siluano, che se non era Priapo, era poco differente.\n\nLe imagini de' Lari si sono tolte da vn Denario della famiglia Cesia.",
+      "verdict": "transcription_error",
+      "translation_affected": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "note": "Кустода «santi-» в самом издании не совпадает с началом с. 516 («tantino») — сбой кустоды в издании; в text_it она попала с разрывом абзаца при транскрипции. В связном тексте «vn tantino di rossore». RU «свято-», EN «shred a shred», FR «brin un brin» — следствие.",
+      "pass": "B",
+      "batch": 3
     }
   ]
 }

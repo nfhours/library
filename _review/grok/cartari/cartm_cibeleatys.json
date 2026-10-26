@@ -1,0 +1,147 @@
+{
+  "id": "cartm_cibeleatys",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "major",
+  "note": "Файл создан в проходе B (партия 3): в entries у записи нет text_it, полная сверка перевода с оригиналом (проход A) не проводилась.",
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "cartm_cibeleatys-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "(с. 178–179 печати: «fece egli correndo già forsenato per gli alti mõti. Et furono oltre à gli altri nomi… ma molti nobili ancora, & huomi-»)",
+      "current": "(поле text_it отсутствует)",
+      "suggested": "транскрибировать с. 178–179 по скану (https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/178.jpg, …/179.jpg); здесь текст не транскрибирован — проверить по фото",
+      "confidence": "high",
+      "added_in": "pass B",
+      "scan_check": "Сверка со сканом (с. 177→178→179→181): текст записи — с. 178–179; начало с. 178 «fece egli correndo già forsenato per gli alti mõti.» (кустода «fece» с. 177 уже в cart6.text_it); конец «…& huomi-» (кустода «ni»), продолжение «ni di conto» — в cartm54."
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "cartm_cibeleatys-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "ma molti nobili ancora, & huomi- (с. 179)",
+      "current": "но и многие знатные,, но и многие знатные",
+      "suggested": "но и многие знатные, и даже люди с положением (дубль на стыке; в печати «ma molti nobili ancora, & huomi-|ni di conto»)",
+      "confidence": "medium",
+      "added_in": "pass B",
+      "scan_check": "Сверка со сканом (с. 179): в печати фраза одна, без повтора."
+    },
+    {
+      "field": "text_en",
+      "issue_id": "cartm_cibeleatys-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "ma molti nobili ancora, & huomi- (с. 179)",
+      "current": "but many of noble birth too,, but many nobles too",
+      "suggested": "but many of noble birth too, and even men of standing (дубль; в печати «ma molti nobili ancora, & huomi-|ni di conto»)",
+      "confidence": "medium",
+      "added_in": "pass B",
+      "scan_check": "Сверка со сканом (с. 179): в печати фраза одна, без повтора."
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_cibeleatys-2",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "ma molti nobili ancora, & huomi- (с. 179)",
+      "current": "mais beaucoup de nobles aussi,, mais aussi beaucoup de nobles",
+      "suggested": "mais beaucoup de nobles aussi, et même des hommes de condition (дубль; в печати «ma molti nobili ancora, & huomi-|ni di conto»)",
+      "confidence": "medium",
+      "added_in": "pass B",
+      "scan_check": "Сверка со сканом (с. 179): в печати фраза одна, без повтора."
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "cartm_cibeleatys-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "omission",
+      "original": "fece egli correndo già forsenato per gli alti mõti. (с. 178, 1-я строка)",
+      "current": "И были, сверх прочих имён, которые носили, названы эти жрецы также Галлами, по и",
+      "suggested": "не передано начало с. 178 «[come il medesimo] fece egli correndo già forsenato per gli alti mõti» — «бегая в исступлении по высоким горам»; переводы cart6 кончаются на «как сделал он сам», здесь начинаются с «Et furono…». Куда отнести (конец cart6 или начало этой записи) — решить при транскрипции; не уверен",
+      "confidence": "medium",
+      "added_in": "pass B",
+      "scan_check": "Сверка со сканом (с. 177→178): с. 177 кончается «…come il medesimo» + кустода «fece»; с. 178 начинается «fece egli correndo già forsenato per gli alti mõti. Et furono…»."
+    },
+    {
+      "field": "text_en",
+      "issue_id": "cartm_cibeleatys-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "omission",
+      "original": "fece egli correndo già forsenato per gli alti mõti. (с. 178, 1-я строка)",
+      "current": "And these priests, besides the other names they bore, were also called Galli, af",
+      "suggested": "не передано начало с. 178 «[come il medesimo] fece egli correndo già forsenato per gli alti mõti» — «бегая в исступлении по высоким горам»; переводы cart6 кончаются на «как сделал он сам», здесь начинаются с «Et furono…». Куда отнести (конец cart6 или начало этой записи) — решить при транскрипции; не уверен",
+      "confidence": "medium",
+      "added_in": "pass B",
+      "scan_check": "Сверка со сканом (с. 177→178): с. 177 кончается «…come il medesimo» + кустода «fece»; с. 178 начинается «fece egli correndo già forsenato per gli alti mõti. Et furono…»."
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "cartm_cibeleatys-3",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "omission",
+      "original": "fece egli correndo già forsenato per gli alti mõti. (с. 178, 1-я строка)",
+      "current": "Et ces prêtres, outre les autres noms qu'ils portaient, furent aussi appelés Gal",
+      "suggested": "не передано начало с. 178 «[come il medesimo] fece egli correndo già forsenato per gli alti mõti» — «бегая в исступлении по высоким горам»; переводы cart6 кончаются на «как сделал он сам», здесь начинаются с «Et furono…». Куда отнести (конец cart6 или начало этой записи) — решить при транскрипции; не уверен",
+      "confidence": "medium",
+      "added_in": "pass B",
+      "scan_check": "Сверка со сканом (с. 177→178): с. 177 кончается «…come il medesimo» + кустода «fece»; с. 178 начинается «fece egli correndo già forsenato per gli alti mõti. Et furono…»."
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm_cibeleatys-1",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/178.jpg",
+      "page": "177 → 178–179 → 181",
+      "region": "с. 178 целиком (с 1-й строки «fece egli correndo già forsenato per gli alti mõti. Et furono oltre à gli altri nomi…») и с. 179 до «…ma molti nobili ancora, & huomi-» + кустода «ni»",
+      "orig_field": "text_it",
+      "paragraph": null,
+      "orig_before": null,
+      "orig_after": null,
+      "verdict": "transcription_error",
+      "translation_affected": [
+        "text_ru",
+        "text_en",
+        "text_fr"
+      ],
+      "note": "У записи нет поля text_it, хотя переводы есть. По скану текст записи — с. 178–179 (Галлы, жрецы Кибелы, Аттис…); предыдущая запись cart6 кончается на с. 177 «…come il medesimo» + кустода «fece» (в cart6.text_it «fece» уже есть), следующая cartm54 начинается «ni di conto» (с. 181, с. 180 — гравюра). Начало с. 178 «fece egli correndo già forsenato per gli alti mõti.» не передано ни в cart6, ни в cartm_cibeleatys: RU/EN/FR cart6 кончаются на «как сделал он сам / as he himself did / comme lui-même le fit», а переводы cartm_cibeleatys начинаются с «Et furono oltre…» — пропущено «бегая в исступлении по высоким горам». Конец переводов дублирован: RU «но и многие знатные,, но и многие знатные», EN «but many of noble birth too,, but many nobles too», FR «mais beaucoup de nobles aussi,, mais aussi beaucoup de nobles». text_it здесь не транскрибирован (правило: не выдумывать текст) — нужна транскрипция с. 178–179 по скану.",
+      "pass": "B",
+      "batch": 3
+    }
+  ]
+}

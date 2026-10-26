@@ -30,7 +30,8 @@
       "original": "Et sono Iaso, Egele, Higià, & Panacea.",
       "current": "Иaco",
       "suggested": "Иасо (в слове латинские буквы a, c, o)",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 466): text_it совпадает с печатью; замечание к переводу остаётся. В печати имя, по-видимому, набрано греческими прописными (ΙΑΣΩ)."
     },
     {
       "field": "text_fr",
@@ -46,6 +47,23 @@
       "current": "des camées de feu le très révérend Patriarche Grimani, de glorieuse mémoire",
       "suggested": "des camées du très révérend Patriarche Grimani («feu» и «de glorieuse mémoire» — «glor. mem.» относится к Контарини ниже; та же ошибка в RU/EN)",
       "confidence": "medium"
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "carta2-2",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/466.jpg",
+      "page": "466",
+      "region": "верхняя часть, перечень дочерей Эскулапа",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "Appresso l'imagine d'Apollo si vede il Bue Api, tratto da vna Medaglia di Giuliano Apostata, il quale come riferisce Ammiano Marcellino nel Lib. 22. fece cercare diligentemente questa bestia. Et chi più ne vole veda la mia spositione della Mensa Isiaca.\n\nDa due Tagli antichi habbiamo cauato le Imagini, che qui si vedono di Sarapide, & Iside; per le quali chi più vuole legga il primo capo della Mensa Isiaca, & veda nel fine del medesimo Libro certi disegni di figure antiche, che furono del Signor Lelio Pasqualino.\n\nLa figura d'Esculapio, che si vede picciola in vn Cameo è tratta dalla Medaglia di M. Antonino Caracalla Imperatore, & è simile ad vna statoa anticha, che io viddi in Roma ott'anni sono, in casa de SS. Massimi, alla Valle. Ma bisogna auuertire, che l'Intagliatore in questa nostra, non intendendo la chioma d'Esculapio l'ha fatto vn Giano.\n\nPietro Appiano (s'io non fallo) in questa figura d'Esculapio notabilmente s'ingannò. Perche se è cosa antica, che alli abbigliamenti mi sembra di nò, io direi che fosse piu tosto ouero la Dea Copia, ouero vna delle stagioni dell'Anno. Ne parerà strano ad alcuno, ch'io dia questa nota all'Appiano; perche Antonio Agostini ancora, nel suo Dial. 11. dice, che'l Libro del detto è pieno d'Inscrittioni antiche finte.\n\nNel Cameo s'è rappresentata la Prouidentia, come stà figurata in vna Medaglia dell'Imperatore Antonino Pio, appresso di me. Et si vede chiaro, che chi la formò volle dire, la Prouidentia del Imp. essere la salute del mondo.\n\nQuesta figura s'è tolta da i Camei del Reuerendiss. Patriarca Grimani. Et in proposito delle figliole d'Esculapio è da notarsi che egli n'hebbe quattro, che tante ne nomina Aristide nella oratione, ch'egli compose in lode di Podalirio, & Macaone figlioli d'Esculapio. Et sono Iaso, Egele, Higià, & Panacea. & io mi ricordo vedere vna Medaglia antica di rame, nella quale d'vna Ara vsciua vna Serpe, & haueua scritto sotto IAΣΩ.\n\nNello studio dell'Illustrissimo Signor Federico Contarini Procuratore di S. Marco glor. mem. si vedeua vna bellissima corniola antica, nella quale, stando a vedere Cupido, Apolline scriueua in vn Fiore questi Caratteri IA. & nel Fiore era inserito vn bellissimo Giouannetto fino al bellico, che con le braccia aperte pareua, che si lagnasse della sua miseria. Vedasi la fauola appresso Ouidio nel Lib. 10. delle Metamorfosi, ilquale vuole, che nel Fiore stasse scritto AI AI, contra l'autorità della Scoltura nostra, la quale tirata in grande è quella, che seguita.\n\nvedasi",
+      "orig_after": null,
+      "verdict": "ok",
+      "translation_affected": [],
+      "note": "text_it совпадает с печатью. В печати имя набрано, по-видимому, греческими прописными (ΙΑΣΩ); латинские I, A в text_it визуально совпадают — не ошибка. На полях «Car. 79». Замечание к RU (латиница в «Иaco») остаётся.",
+      "pass": "B",
+      "batch": 3
     }
   ]
 }

@@ -44,7 +44,25 @@
       "original": "poscia che ha pregato assai Licinio bellissimo giouine",
       "current": "Licinius, très bel jeune homme",
       "suggested": "Licinius, très beau jeune homme (грамматика: «bel» только перед гласной)",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 379): text_it совпадает с печатью; замечание к переводу остаётся."
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm_nemesi-3",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/379.jpg",
+      "page": "379",
+      "region": "середина страницы",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "Imagine della dea Nemesi dimostratrice delle buone opere, & seuera punitrice de superbi, & maluagi; & cortese, & larga donatrice, & premiatrice delle buone operationi; essendo tenuta la conoscitrice de tutte: figliuola della Giustitia, che ci ammaestra nelle attioni douersi vsare misura e seno.\n\nali, perche credeuano, ch'ella fosse con mirabile velocità presta ad ogn'vno, & a canto le posero vn temone da Naue, & vna ruota sotto i piedi. Fu fatta Nemesi alle volte ancora che nell'vna mano tiene vn freno, & nell'altra vn legno, con che si misura, volendo perciò mostrare, che debbono gli huomini porre freno alla lingua, & fare tutto con misura, come dicono due versi Greci, li quali furono già fatti sopra questa statoa, & in volgare il senso loro è tale.\n\nCon questo freno, e con questa misura\nIo Nemesi dimostro, che frenare\nDebba ciascun la lingua, nè mai fare\nCosa se prima ben non la misura.\n\nScriue Pausania, che Nemesi fù vna Dea nimica oltra modo a gli huomini insolenti, e troppo superbi, & seguita così poi. E furono puniti già dalla ira di costei i Barbari, li quali sprezzando gli Atheniesi, e venuti ne' paesi loro, come che già gli hauessero superati affatto, vi fecero condurre vn bellissimo marmo per farne dopò superbo trofeo; ma tutto fu il contrario: perche restarono vincitori gli Atheniesi, e Phidia fece poi di quel marmo condotto da' Barbari, vn simulacro alla Dea Nemesi, del quale fà Ausonio vn'epigramma, fingendo che la stessa Dea dica essere stata fatta per segno della vittoria de i Greci, & per mostrare, ch'ella non lasciò impunita la vana superbia de i Persi. Haueua questo simulacro vna corona in capo scolpita à cerui, & a breui imagini della vittoria, e teneua vn ramo di frassino nella sinistra mano, e nella destra vn vaso con alcuni Ethiopi scolpiti dentro, delle quali cose dice Pausania, che non sà renderne alcuna ragione, nè che pensarne pure, & io manco lo sò. Soggiunge poi il medesimo Pausania, che le statoe di Nemesi non haueuano da principio le ali, come le hebbero poscia appresso de gli Smirnei, che questi furono i primi, che la facessero alata alla similianza di Cupido: perche credeuano ch'ella hauesse che fare assai con gli innamorati, come che punisse quelli, li quali andauano, della sua bellezza troppo alteri, e superbi, come Ouidio mostra nella fauola di Narcisso. Et Catullo parimente, poscia che ha pregato assai Licinio bellissimo giouine, che venga à lui dice alla fine: guarda che tu non ti facci poco conto de' miei prieghi, e mi disprezzi, acciòche talhora non te ne gastighi poi Nemesi Dea terribile. Perche dunque puniua questa Dea i mortali delle loro opere superbe, & ingiuste, la credettero alcuni essere la medesima con la Giustitia. Della quale è descritta la imagine da Chrisippo, secondo che riferisce Aulo Gellio, in forma di bella vergine, terribile nello aspetto, non superba, nè humile; ma tale, che con honesta seuerità si mostri degna di ogni riuerenza; con occhi di acu",
+      "orig_after": null,
+      "verdict": "ok",
+      "translation_affected": [],
+      "note": "text_it совпадает с печатью. На полях «Catullo». Замечание к FR остаётся.",
+      "pass": "B",
+      "batch": 3
     }
   ]
 }

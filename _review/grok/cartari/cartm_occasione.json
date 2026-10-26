@@ -44,7 +44,25 @@
       "original": "chi lascia passar la buona occasione",
       "current": "кто упускает доброй случай",
       "suggested": "кто упускает добрый случай (опечатка)",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 393): text_it совпадает с печатью; замечание к переводу остаётся."
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm_occasione-3",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/393.jpg",
+      "page": "393",
+      "region": "середина страницы",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "Hieroglifico denotante la buona Fortuna quasi sempre andare con l'Eloquenza, & con la Dottrina, & l'imagine dell'Occasione, & opportunità da Greci detta il Dio Chero qual chi non prende quando si appresenta in vano poi si cerca e si pentisce.\n\nL'animo mio sicuro à quella sola\nVirtù, che lo contenta,\nE ricchezza maggior hauer non tenta.\n\nFu adunque la imagine della Occasione così fatta: staua vna donna nuda con i piedi sopra vna ruota, ouero sù vna rotonda palla, & haueua i lunghi capelli tutti riuolti sopra la fronte, sì che ne restaua la nuca scoperta, e come pelata, & a' piedi haueua l'ali, come si dipinge Mercurio, & era con lei vna altra donna tutta addolorata, mesta nello aspetto, & piena di pentimento. Vn simulacro tale fu già fatto da Phidia, & se ne legge vno epigramma di Ausonio, nel quale ei descriue la Occasione così come hò detto, e mette con lei la Penitenza per compagna. Imperoche chi lascia passar la buona occasione, che si appresenta in qual si voglia cosa, altro non hà poi che pentirsi, & lagnarsi di sè medesimo. Questa che chiamarono i Latini Occasione, & opportunità & riuerirono come Dea, fu da' Greci detta Tempo opportuno, & perciò da loro fatto Dio, non Dea, & era il suo nome Chero, che questa voce appresso de i Greci significa opportunità di tempo, come scriue Pausania ancora, oue mette, che a costei fu consecrato vn'altare appresso de gli Elei, & che certo Poeta antico in vn'hinno fatto per lui lo chiama il più giouine di tutti i figliuoli di Saturno. Fù dunque il Dio Chero de i Greci, il medesimo, che era la Occasione de i Latini; del quale Posidippo fece vn'epigrãma descriuendo la sua imagine; onde Ausonio tolse forse l'argomento del suo, quando dipinse la Occasione, perche sono in tutto simili, se non che Posidippo mette di più vn rasoio in mano al suo, & Ausonio alla sua dà la Penitenza di più per compagna. Callistrato parimente nobile scultore fece il Dio Chero in forma di giouine\n\nne nella sua più fiorita età bello, & vago con i crini al vento sparsi, & in tutto il resto come lo descriue apunto Posidoppo. Bisogna dunque stare con gli occhi aperti, e con le mani pronte per dare di piglio alle cose, quando la Occasione ce le mostra, perche ella tosto gira, e volta la nuca pelata poi a chi non seppe cacciare le mani ne i lunghi crini, che hà sopra la fronte, & via se ne camina con velocissimi piedi.",
+      "orig_after": null,
+      "verdict": "ok",
+      "translation_affected": [],
+      "note": "text_it совпадает с печатью. Замечание к RU остаётся. Попутно: имя «Ausonio» на этой странице в печати читается как «Asonio» (бледный оттиск) — не уверен, проверить по фото.",
+      "pass": "B",
+      "batch": 3
     }
   ]
 }

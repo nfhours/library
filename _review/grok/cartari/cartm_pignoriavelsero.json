@@ -17,7 +17,8 @@
       "original": "essere errata la sottoscritta di passa vinti leggi del Codice",
       "current": "ошибочность подписи, [гласящей] «прошло двадцать» законов Кодекса",
       "suggested": "ошибочность подписи (датировки) более чем двадцати законов Кодекса («passa vinti» = свыше двадцати); EN «the subscription reading \"twenty laws\"» → «the subscriptions of more than twenty laws» — не уверен",
-      "confidence": "medium"
+      "confidence": "medium",
+      "scan_check": "Сверка со сканом (с. 511): text_it совпадает с печатью; замечание к переводу остаётся. («di passa vinti leggi»)."
     },
     {
       "field": "text_fr",
@@ -32,7 +33,25 @@
       "original": "essere errata la sottoscritta di passa vinti leggi del Codice",
       "current": "la souscription portant « vingt » lois du Code était erronée",
       "suggested": "la souscription (datation) de plus de vingt lois du Code était erronée («passa vinti» = свыше двадцати; не уверен; та же ошибка в RU/EN)",
-      "confidence": "low"
+      "confidence": "low",
+      "scan_check": "Сверка со сканом (с. 511): text_it совпадает с печатью; замечание к переводу остаётся. («di passa vinti leggi»)."
+    }
+  ],
+  "source_check": [
+    {
+      "issue_id": "cartm_pignoriavelsero-1",
+      "scan_url": "https://digi.ub.uni-heidelberg.de/diglitData/image/cartari1626/4/511.jpg",
+      "page": "511",
+      "region": "середина страницы",
+      "orig_field": "text_it",
+      "paragraph": 1,
+      "orig_before": "...ÆL. MONT\nHÆDER. PRO\nSALVTE SVA. ET. P\nHISP. CANAVILI\nFILI. ET. ÆL. MON\nTESTINÆ. CON\nLVGI. V. S. L. L. M\nD. D. D. VII. KAL\nSEPT. GETA. II. E\nPLAVTIANO\nII. COS.\n\nEt con l'autorità di questa Inscrittione diceua il sopradetto eruditissimo gentil'homo, che si poteua dimostrare, essere errata la sottoscritta di passa vinti leggi del Codice. Et con queste figure di questa pietra si vede la religione de' Germani, che adorauano principalmente Mercurio, poi Marte & Hercole, come scriue Tacito nel suo Libro de' costumi de' Grimani; tutto che questo terzo non vi si veda.",
+      "orig_after": null,
+      "verdict": "ok",
+      "translation_affected": [],
+      "note": "text_it совпадает с печатью («di passa vinti leggi»). Замечание к переводам остаётся.",
+      "pass": "B",
+      "batch": 3
     }
   ]
 }
