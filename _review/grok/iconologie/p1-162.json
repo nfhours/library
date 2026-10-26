@@ -1,0 +1,21 @@
+{
+  "id": "p1-162",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-162-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "au dessus duquel se voit vn petit lezard",
+      "current": "над коим виден небольшой ящерка",
+      "suggested": "над коим видна небольшая ящерица (ошибка согласования рода; ср. абз. 5 «небольшая ящерица»)",
+      "confidence": "high"
+    }
+  ]
+}

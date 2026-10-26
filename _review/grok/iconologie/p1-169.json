@@ -1,0 +1,22 @@
+{
+  "id": "p1-169",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-169-1",
+      "fields": [
+        "text_ru",
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "en la main droite vne branche de rosier",
+      "current": "с веткой шиповника в правой руке (attrs: «веткой шиповника»)",
+      "suggested": "с веткой розового куста (розы) в правой руке — rosier = розовый куст; в абз. 5 речь именно о розе; EN «rose bush» верно",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "p1-164",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p1-164-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "vne tasse sur la teste, & vn cœur au milieu",
+      "current": "с чашей на голове и сердцем на груди",
+      "suggested": "с чашей на голове и сердцем посередине (в тексте «au milieu» — вероятно, посреди чаши, как у Рипы; «на груди» в тексте нет) — не уверен",
+      "confidence": "low"
+    }
+  ]
+}

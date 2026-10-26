@@ -1,0 +1,21 @@
+{
+  "id": "p2-5",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-5-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "name",
+      "original": "d'vne fille de Thetis & de l'Ocean",
+      "current": "от дочери Фетиды и Океана",
+      "suggested": "от дочери Тефии (Тефиды) и Океана — супруга Океана Тефия (Tethys), не Фетида (Thetis); EN «Tethys» верно",
+      "confidence": "medium"
+    }
+  ]
+}

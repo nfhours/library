@@ -1,0 +1,21 @@
+{
+  "id": "p2-4",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-4-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Le Soleil darde ses rayons à plomb sur sa teste",
+      "current": "Солнечные лучи над головой — небесное происхождение огня / The sun's rays overhead signify fire's heavenly origin",
+      "suggested": "в тексте солнце не истолковано; толкование «небесное происхождение огня» добавлено — убрать или пометить. Также в описании: «саламандрой и фениксом по сторонам» — по тексту по сторонам саламандра и пиралии",
+      "confidence": "low"
+    }
+  ]
+}

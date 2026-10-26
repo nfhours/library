@@ -1,0 +1,21 @@
+{
+  "id": "p1-171",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p1-171-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "la lampe, le livre & la gruë sont les vrais symboles de la Vigilance",
+      "current": "Женщина с книгой, зажжённой лампой на подставке и журавлём у ног",
+      "suggested": "в тексте фигура не описана (отсылка к статье 156), названы лишь символы: лампа, книга, журавль; «на подставке», «у ног» — не из текста (вероятно, с гравюры) — пометить или убрать",
+      "confidence": "low"
+    }
+  ]
+}
