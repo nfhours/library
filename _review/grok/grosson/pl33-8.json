@@ -1,0 +1,21 @@
+{
+  "id": "pl33-8",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl33-8-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "typo",
+      "original": "Ces sortes de Lampes étoient ordinairement placées dans les Larraires ou dans les Temples,",
+      "current": "лараriях",
+      "suggested": "смешение кириллицы и латиницы («ri» латинскими буквами): «в ларариях»",
+      "confidence": "high"
+    }
+  ]
+}

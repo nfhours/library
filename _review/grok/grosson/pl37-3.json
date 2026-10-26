@@ -1,0 +1,24 @@
+{
+  "id": "pl37-3",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "fr",
+      "issue_id": "pl37-3-1",
+      "fields": [
+        "fr",
+        "name_fr",
+        "ru",
+        "en"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "C'est-à-dire, Charles l'Affranchi a érigé ce monument à Carmolaus fils de Thrason nommé aussi Menon.",
+      "current": "fr/name_fr «Pierre sépulcrale de Carmolaus, affranchi par Charles»; ru «Надгробный камень Кармолая, отпущенного на волю Карлом»; en «Sepulchral stone of Carmolaus, freed by Charles»",
+      "suggested": "заголовок искажает смысл: у Гроссона вольноотпущенник — Карл, воздвигший памятник Кармолаю, сыну Фрасона; Кармолая никто не отпускал. fr «Pierre sépulcrale de Carmolaus, érigée par Charles l'affranchi»; ru «Надгробный камень Кармолая, воздвигнутый вольноотпущенником Карлом»; en «Sepulchral stone of Carmolaus, raised by Charles the freedman». Major по правилу aud11 (ошибка в заголовке)",
+      "confidence": "high"
+    }
+  ]
+}

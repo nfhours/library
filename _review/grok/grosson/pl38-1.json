@@ -1,0 +1,36 @@
+{
+  "id": "pl38-1",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl38-1-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 4,
+      "type": "mistranslation",
+      "original": "On voit sur une des faces latérales un marteau taillant.",
+      "current": "RU «плотничий топорик (ascia)»; EN «a carpenter's adze»",
+      "suggested": "marteau taillant — каменотёсный молоток; Гроссон дальше прямо говорит, что это «le marteau taillant des Maçons, le vrai Ascia», а не топор. RU «каменотёсный молоток (ascia)»; EN «a mason's cutting hammer (ascia)»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "pl38-1-2",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 5,
+      "type": "mistranslation",
+      "original": "elle représente en creux, d'un côté la figure de l'Ascia & celle d'un Equerre,",
+      "current": "RU «рельефно изображены»; EN «shows in relief»",
+      "suggested": "en creux — углублённо, врезанным контуром (не рельеф). RU «на ней врезаны…»; EN «it shows, incised, …»",
+      "confidence": "medium"
+    }
+  ]
+}

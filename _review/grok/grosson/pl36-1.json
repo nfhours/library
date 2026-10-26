@@ -1,0 +1,49 @@
+{
+  "id": "pl36-1",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl16-4-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "typo",
+      "original": "l'Abbaye St. Sauveur située sur la place de Lenche.",
+      "current": "Сен-Соверa",
+      "suggested": "в «Сен-Соверa» последняя «a» латинская (5 вхождений: §1, §3, §11, §13, §16), та же ошибка, что в pl16-4. Заменить на кириллическую и унифицировать с заголовком/findspot_ru: «Сен-Совёра»",
+      "confidence": "high"
+    },
+    {
+      "field": "text_en",
+      "issue_id": "pl36-1-1",
+      "fields": [
+        "text_en"
+      ],
+      "paragraph": 6,
+      "type": "mistranslation",
+      "original": "A la partie de l'ouest & à l'extrémité du côté gauche, dans la partie du nord, on rencontre deux arceaux & des niches en voûte dans l'épaisseur du mur:",
+      "current": "On the west side, at the far left end, in the northern part … Everything else indicates this hall was intended",
+      "suggested": "1) у Гроссона два места (западная часть И левый конец в северной части — отсюда «deux arceaux»; ниже «celle qui est à la partie de l'ouest» отличает одну нишу от другой); EN сливает их в одно. «On the west side, and at the far end of the left side in the northern part, there are two arches…». 2) «Tout indique au reste» — «впрочем, всё указывает», а не «всё прочее»: «Moreover, everything indicates that this hall was intended…». Не уверен в точной топографии — проверить по плану (пл. 36)",
+      "confidence": "low"
+    },
+    {
+      "field": "caption_ru",
+      "issue_id": "pl36-1-2",
+      "fields": [
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": 1,
+      "type": "omission",
+      "original": "Nord / Sud / Est / ouest; Echele de [8 4?] … 1–20 cannes",
+      "current": "надписей плана в полях нет (буквенные отсылки A–R объяснены в §17, но стороны света и масштаб — нет)",
+      "suggested": "гравированные надписи на плане вынести в отдельные поля подписи (не удалять, не вставлять в текст). caption_orig: «Nord · Sud · Est · ouest · Echele de [8 4 — проверить по фото] … 20 cannes»; caption_ru: «Север · Юг · Восток · Запад · Масштаб … 20 канн»; caption_en: «North · South · East · West · Scale … 20 cannes». Мелкие цифры после «Echele de» неразборчивы — проверить по фото",
+      "confidence": "medium",
+      "caption_source": "engraving"
+    }
+  ]
+}

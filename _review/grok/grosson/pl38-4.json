@@ -1,0 +1,22 @@
+{
+  "id": "pl38-4",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl38-1-2",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "la figure de l'Ascia sculptée en creux sur une des faces latérales.",
+      "current": "RU «рельефно высеченная»; EN «carved in relief»",
+      "suggested": "en creux — углублённо (врезано), не рельеф. RU «врезанная фигура ascia»; EN «carved in intaglio (incised)»",
+      "confidence": "medium"
+    }
+  ]
+}

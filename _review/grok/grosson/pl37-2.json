@@ -1,0 +1,21 @@
+{
+  "id": "pl37-2",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "pl37-2-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 4,
+      "type": "name",
+      "original": "«C'est à Dias Nicus que Denis Jule son fils & Caia Lephena, fille de Posidonax, sa belle-fille ont érigé ce monument.»",
+      "current": "Денис Жюль",
+      "suggested": "одно лицо названо то «Денис Жюль» (§4 и в §8), то «Дени Жюль» (§8). Унифицировать (французская передача — «Дени Жюль»; Не уверен, какую форму принять по всей книге)",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "pl37-4",
+  "book": "grosson",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "pl37-4-1",
+      "fields": [
+        "ru",
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "adressoit cet apostrophe aux mânes du défunt dans cette idée, ou dans le désir que personne ne vînt troubler ses cendres;",
+      "current": "ru «Киппа Огнеты»; text_ru «Огнета, покойся…», «к манам усопшей», «её прах»; text_en «her ashes»",
+      "suggested": "у Гроссона Огнет — мужчина («du défunt»). ru «Киппа Огнета»; text_ru «Огнет, покойся…», «к манам усопшего», «его прах»; text_en «his ashes»",
+      "confidence": "medium"
+    }
+  ]
+}

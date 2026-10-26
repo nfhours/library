@@ -36,3 +36,15 @@ pl29-3,legend,,"engraving underside cartouche ΑΝΙΣΣΕΝ — matches legend_
 pl29-8,legend,,"engraving shows the seal face retrograde, abbreviated: M·COS(ligature?) / CHRESIMI; legend_* gives Grosson's expanded reading MARCI COSSVTII CHRESIMI — consistent with text, not a contradiction; exact ligature проверить по фото",info
 pl30-4..pl33-1,structured,,"batch 9: material/legend/findspot ru/en checked against fr; pl32-1 material_ru mistranslates jade (→ pl32-1-1); pl30-6 findspot_ru Latin script (→ pl29-5-1); pl32-3 heading over-states attribution (→ pl32-3-1)",ok
 pl32-7,legend,,"engraving: ΛΕΥΔΗΜΟΣ ΔΙΟΝΥΣΙΟΥ / ΓΕΒΑΙΤΕΡΟΣ ΝΙΚΗΣΑΣ / ΕΦΗΒΟΥΣ ΕΥ ΤΑΞΙΑΙ / ΚΑΙ ΓΙΜΑΣΙΑΡΧΗΣΑΣ ΔΙΣ — matches legend_* (incl. Grosson's ΓΕΒΑΙΤΕΡΟΣ / ΓΙΜΑΣΙΑΡΧΗΣΑΣ spellings)",info
+pl34-1,sponsor,"Aux depens De Mr *** Negociant","engraved sponsor line + engraver mark «Lant.me F.» — note only, not a caption issue",info
+pl35-1,sponsor,"Aux Depens de Mr Magnan de l'acad. de P. et Sc. de Marse.lle","engraved sponsor line (abbreviations проверить по фото) — note only",info
+pl36-1,sponsor,"Aux Depens De Mr Martin lieutenant Gl en l'Amirauté de St Tropez","engraved sponsor line — note only; plan labels (Nord/Sud/Est/ouest, scale in cannes) → caption issue pl36-1-2",info
+pl37-1,legend,,"engraving: ΕΤΟΥΣ ΣΙΤ ΛΛΗ/ΝΟΣ ΑΥΑΝΑΙΟΥ(?) / Κ Θ / … ΖΗΣ ΑΣΕ ΤΗ ΨΒ / ΕΥΣΕΒ ΦΙΛΟΤΕΚΝΕ; legend_* ΑΓΑΝΑΙΟΥ — Γ/Υ проверить по фото; legend_* identical fr/ru/en (untranslated transcription)",info
+pl37-2,legend,,"engraving line 4 reads ΝΙΚΟΥΣ (as in Grosson's note), and ΙΟΥΛΙ/ΟΣ ΚΑΙ without ΔΣ; legend_* gives «ΙΟΥΛΙΟΣ ΔΣ ΚΑΙ ΔΙΑΣ ΝΙΚΟΣ». Name form only, not meaning-changing — not logged; проверить по фото",info
+pl37-3,legend,,"engraving: ΧΑΡΜΟΛΑΩ ΘΡΑ/ΣΩΝΟΣ ΚΑΙ ΜΕ/ΝΩΝ ΧΑΡΗΣ(?) ΟΑΠ/ΕΛΕΥΘΕΡΟΣ; legend_* ΧΑΡΙΣ — Η/Ι проверить по фото. Heading error logged as pl37-3-1",info
+pl37-4,legend,,"engraving: ΟΓΝΗΤΕ / ΗΣΤΕ ΚΑΙ / ΡΕ ΧΑΙΡΕ / ‑ΛΣ(?)· ΕΤΗ / Η(?) ΜΗ Ε — numeral sign and abbreviation, not the word; legend_* gives expanded «Ω ΓΝΗΤΕ … ΤΡΙΣΧΙΛΙΑΚΙΣ ΕΤΗ Ζ ΜΗΝΙ Ε» (Grosson's reading, same meaning) — проверить по фото",info
+pl38-1,legend,,"engraving: D M / T PVBL RVFINI / T PVBL CHA TO / SEX LVC[?] FLAVIANVS / FRATRES; legend_* gives expanded names — consistent; ascia drawn on the side face",info
+pl38-2,legend,,"engraving: D M / COSSVTIAE / VICTORIA / OMP. ABAS / CANTVS CO / IVGI EIIS / S I F Æ — legend_* POMPEA/CONIVGI/EIVS/SACRVM IVSSIT FIERI AERE is Grosson's restored and expanded reading (text says P and N are missing and EIS stands for EIVS); consistent, not a contradiction",info
+pl38-3,legend,,"engraving matches legend_*",info
+pl38-4,legend,,"engraving: ♡D♡M♡ / HIO♡POMPEIO / FELICIANO / POMPEIA / MVSKA ALVMNO / DVLCISSIMO — matches legend_*; engraver mark «Lant.me Sculp.» on plate",info
+pl33-2..pl38-4,structured,,"batch 10: material/legend/findspot ru/en checked against fr; legends are untranslated transcriptions; no meaning-changing contradiction; ru heading pl37-4 gender → pl37-4-1; heading pl37-3 → pl37-3-1",ok
