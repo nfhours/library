@@ -1,0 +1,23 @@
+{
+  "id": "v1-24-5",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-24-5-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Quo cito fit, cito perit.",
+      "current": "Quo cito fit, cito perit.",
+      "suggested": "[LA] «Quod cito fit, cito perit» (известная сентенция; ср. «Ce qui vient vîte»); скопировано и в text_ru. Скана текста нет — по смыслу",
+      "confidence": "medium"
+    }
+  ]
+}

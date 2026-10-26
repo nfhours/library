@@ -1,0 +1,21 @@
+{
+  "id": "v1-23-12",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-23-12-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "Les nuages me dérobent ma lumiere.",
+      "current": "Облака отнимают у меня моё солнце.",
+      "suggested": "«солнце» — из латинского девиза (solem); французское: «Облака похищают у меня мой свет»",
+      "confidence": "low"
+    }
+  ]
+}

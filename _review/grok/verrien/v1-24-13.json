@@ -1,0 +1,21 @@
+{
+  "id": "v1-24-13",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-24-13-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "Je r'accommoderay mon travail interrompu.",
+      "current": "Я заново сотку прерванный труд.",
+      "suggested": "«сотку» — из латинского retexam; французское: «Я исправлю свою прерванную работу»",
+      "confidence": "low"
+    }
+  ]
+}
