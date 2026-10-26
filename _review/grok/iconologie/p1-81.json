@@ -1,0 +1,22 @@
+{
+  "id": "p1-81",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-81-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "où la voulant distinguer, il dit qu'elle se rencontre parfaite ou imparfaite",
+      "current": "где, желая его определить (EN «wishing to define it»)",
+      "suggested": "где, желая его разграничить (различить), говорит… («distinguer» — «различать, проводить различие»: речь о делении на совершенное и несовершенное, а не об определении); EN «wishing to distinguish it»",
+      "confidence": "low"
+    }
+  ]
+}

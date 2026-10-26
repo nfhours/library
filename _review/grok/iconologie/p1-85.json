@@ -1,0 +1,21 @@
+{
+  "id": "p1-85",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_en",
+      "issue_id": "p1-85-1",
+      "fields": [
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& qui a la gorge découverte",
+      "current": "with her throat bare",
+      "suggested": "with her breast bare («gorge» в XVII в. = «грудь», ср. абзац 3 «son sein découvert»; RU «с открытой грудью» верно)",
+      "confidence": "low"
+    }
+  ]
+}

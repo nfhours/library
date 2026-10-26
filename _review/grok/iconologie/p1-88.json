@@ -1,0 +1,51 @@
+{
+  "id": "p1-88",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-88-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "avec vn equipage de Roy",
+      "current": "со свитой, подобающей Царю (EN «with the retinue of a King»)",
+      "suggested": "в царском убранстве («equipage» здесь — наряд, снаряжение; дальше перечислены корона и скипетр, свиты на изображении нет); EN «in the attire of a King»",
+      "confidence": "low"
+    },
+    {
+      "field": "attrs",
+      "issue_id": "p1-88-2",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "au dessus duquel est la lettre Grecque Y",
+      "current": "Царское убранство — власть разума над выбором; буква Y (путь Пифагора) — развилка между добром и злом… (то же в meaning_en)",
+      "suggested": "в тексте ни корона/скипетр, ни буква Y не истолкованы (абзац 2 — только определения Фомы и Аристотеля); толкование «пифагорова Y» — внешний домысел, пометить как таковой или убрать",
+      "confidence": "low"
+    },
+    {
+      "field": "caption",
+      "issue_id": "p1-88-3",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "LIBRE·OV·FRANC / ARBITRE (надпись на гравюре)",
+      "current": "заголовки ru «Свобода воли» / en «Free Will» переводят fr «Libre arbitre»; на гравюре (две строки) полнее: «Libre ou Franc Arbitre»",
+      "suggested": "вынести подпись к гравюре в отдельные поля (сейчас: подпись только на гравюре, над медальоном; в text_fr и переводах отсутствует; в entries.json поля caption нет). caption_orig: \"Libre ou Franc Arbitre\" (сверено по фото img/p1-88.jpg: LIBRE·OV·FRANC / ARBITRE; в text_fr подписи нет); caption_ru: \"Свободная, или вольная, воля\"; caption_en: \"Free or Unconstrained Will\". Перевод подписи: «вольная воля»/«Unconstrained» — не уверен, можно «Свобода, или вольность, воли» / «Free or Frank Will».",
+      "confidence": "high",
+      "caption_source": "engraving"
+    }
+  ]
+}

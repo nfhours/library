@@ -1,0 +1,22 @@
+{
+  "id": "p1-90",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-90-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 12,
+      "type": "addition",
+      "original": "est representée de cette sorte l'illustre Louange",
+      "current": "изображена славная, истинная Похвала (EN «illustrious, true Praise»)",
+      "suggested": "изображена славная Похвала — «истинная» добавлено переводчиком; EN «illustrious Praise»",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "p1-99",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-99-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "name",
+      "original": "au temps que Procax regnoit en Albanie",
+      "current": "в Албании царствовал Прокс",
+      "suggested": "в Альбе (Alba Longa) царствовал Прока (EN «Procas»); «Албания» — буквально, но речь об Альбе Лонге — не уверен, можно оставить «Албания» с примечанием",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "p1-99-2",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 7,
+      "type": "mistranslation",
+      "original": "Il n'est rien de si beau qu'vne égale justesse",
+      "current": "«Нет ничего прекраснее равной справедливости» (EN «an even-handed justice»)",
+      "suggested": "«Нет ничего прекраснее ровной соразмерности (верной меры)» — «justesse» = точность, соразмерность (Гесиод о мере), а не «справедливость»; EN «There is nothing so beautiful as a steady just measure»",
+      "confidence": "low"
+    },
+    {
+      "field": "text_en",
+      "issue_id": "p1-99-3",
+      "fields": [
+        "text_en"
+      ],
+      "paragraph": 7,
+      "type": "name",
+      "original": "puisque selon Hesiode",
+      "current": "according to Hesiode",
+      "suggested": "according to Hesiod",
+      "confidence": "low"
+    }
+  ]
+}

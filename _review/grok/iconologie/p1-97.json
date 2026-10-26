@@ -1,0 +1,34 @@
+{
+  "id": "p1-97",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_en",
+      "issue_id": "p1-97-1",
+      "fields": [
+        "text_en"
+      ],
+      "paragraph": 4,
+      "type": "mistranslation",
+      "original": "dans vne forest où il s'estoit sauvé pour secouër le joug de son maistre",
+      "current": "in a forest where it had fled to shake off its master's yoke",
+      "suggested": "in a forest where he had fled to shake off his master's yoke (бежал раб, не лев; RU «куда тот бежал» верно)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "p1-97-2",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 4,
+      "type": "name",
+      "original": "qu'vne fille de Ceste luy avoit donnée",
+      "current": "некоей девушкой из Кесты",
+      "suggested": "некоей девушкой из Сеста (Ceste = Сест, Sestos; история у Плиния X, 18; EN «of Sestos» верно)",
+      "confidence": "low"
+    }
+  ]
+}

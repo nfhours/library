@@ -1,0 +1,21 @@
+{
+  "id": "p1-84",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p1-84-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "Elle tient en main l'image de la Nature, pour montrer par là qu'elle invente toutes choses",
+      "current": "образ Природы — её неисчерпаемый источник (EN «its inexhaustible source»)",
+      "suggested": "образ Природы — знак того, что она изобретает всё сущее (абзац 5); «неисчерпаемый источник» в тексте не сказано",
+      "confidence": "low"
+    }
+  ]
+}

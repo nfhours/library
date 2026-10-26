@@ -1,0 +1,21 @@
+{
+  "id": "p1-83",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-83-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "L'Intelligence, qui peut estre definie, vne mutuelle vnion",
+      "current": "Разум, который можно определить… одет (в заголовке RU — «Разумение»; в абзаце 3 «Разума»)",
+      "suggested": "Разумение, которое можно определить… одето — держать термин заголовка («Разумение»), «Разум» путается с entendement/esprit; так же в абзаце 3 («того высшего Разумения»)",
+      "confidence": "low"
+    }
+  ]
+}
