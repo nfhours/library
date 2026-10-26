@@ -1,0 +1,25 @@
+{
+  "id": "v1-59-2",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "fr",
+      "issue_id": "v1-59-2-1",
+      "fields": [
+        "fr",
+        "name_fr",
+        "text_fr",
+        "ru",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Une Barque qui fuit de loin de grands Vaisseaux.",
+      "current": "Une Barque qui fuit de loin de grands Vaisseaux. / Лодка, бегущая вдали от больших кораблей.",
+      "suggested": "вероятно «qui suit de loin» (длинное s прочитано как f): девиз «Sequar & attingam» и толкование «Je les suivray & je les joindray» — лодка следует за кораблями, а не бежит от них; на гравюре (v1-57.jpg №2) лодка позади кораблей. Перевод повторяет ошибку: «Лодка, следующая издали за большими кораблями»",
+      "confidence": "medium"
+    }
+  ]
+}

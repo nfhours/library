@@ -1,0 +1,23 @@
+{
+  "id": "v1-58-6",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-58-6-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Esto tien esu remedio y non yo.",
+      "current": "Esto tien esu remedio y non yo.",
+      "suggested": "[ES] вероятно «Este tiene su remedio, y no yo» (tien/esu — разрыв/слияние слов, non — итальянизм; ср. v1-55-3); скопировано и в text_ru. Скана текста нет; не уверен",
+      "confidence": "medium"
+    }
+  ]
+}
