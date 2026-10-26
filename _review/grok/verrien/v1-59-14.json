@@ -1,0 +1,23 @@
+{
+  "id": "v1-59-14",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-59-14-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Mas dulcura che alteza.",
+      "current": "Mas dulcura che alteza.",
+      "suggested": "[ES] «Mas dulzura que alteza» (che — итальянизм, ср. v1-37-15; dulcura — вероятно, орфография издания). Скана текста нет; не уверен",
+      "confidence": "low"
+    }
+  ]
+}

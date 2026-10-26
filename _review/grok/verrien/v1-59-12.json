@@ -1,0 +1,23 @@
+{
+  "id": "v1-59-12",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-59-12-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Pale san lardore.",
+      "current": "Pale san lardore.",
+      "suggested": "[IT] слова слиты/искажены, смысла не дают; возможно «Palesa l'ardore» (обнаруживает жар — для алембика). Скана текста нет; не уверен",
+      "confidence": "low"
+    }
+  ]
+}
