@@ -1,0 +1,22 @@
+{
+  "id": "p1-25",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-25-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 8,
+      "type": "mistranslation",
+      "original": "Mais il l'est sur tout de la plus ardente de toutes les passions",
+      "current": "Но важнее всего это в отношении самой пылкой из всех страстей",
+      "suggested": "Но прежде всего она (праздность) — источник самой пылкой из всех страстей («il l'est» = «le vice des feineants est la source»; отсюда стих Овидия о Купидоне). EN «But this matters above all with regard to» → «But above all it is the source of the most ardent of all passions»",
+      "confidence": "medium"
+    }
+  ]
+}

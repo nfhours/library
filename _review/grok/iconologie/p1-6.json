@@ -16,6 +16,20 @@
       "current": "Крылатый юноша с венком из лавра на голове и двумя гирляндами лавра в руках",
       "suggested": "Крылатый ребёнок с лавровой гирляндой на голове и тремя гирляндами в руках («enfant», «les trois autres en ses deux mains»); то же в what_en",
       "confidence": "medium"
+    },
+    {
+      "field": "caption",
+      "issue_id": "p1-6-2",
+      "fields": [
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "AMOVR·DE·VERTV (надпись на гравюре)",
+      "current": "заголовки ru «Добродетельная любовь» / en «Virtuous Love» переводят fr «Amour vertueux», а не подпись",
+      "suggested": "вынести подпись к гравюре в отдельные поля (сейчас: подпись только на гравюре, над медальоном; в text_fr и переводах отсутствует; в entries.json есть поле caption «Amour de vertu», но caption_ru/caption_en нет). caption_orig: \"Amour de vertu\" (сверено по фото img/p1-6.jpg: AMOVR·DE·VERTV; в text_fr подписи нет); caption_ru: \"Любовь к добродетели\"; caption_en: \"Love of Virtue\".",
+      "confidence": "high"
     }
   ]
 }

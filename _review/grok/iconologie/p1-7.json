@@ -16,6 +16,21 @@
       "current": "У фигуры нет иных атрибутов, кроме дельфина и волн — Простота образа подчёркивает…",
       "suggested": "утверждение о «простоте образа» и отсутствии атрибутов в тексте статьи не содержится — это добавление составителя; убрать или пометить как наблюдение по гравюре",
       "confidence": "low"
+    },
+    {
+      "field": "caption",
+      "issue_id": "p1-7-2",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "AME·COVRTOISE·ET·TRAICTABLE (надпись на гравюре)",
+      "current": "подписи нет нигде; заголовки ru «Благородная, учтивая душа» / en «Courteous Soul» переводят fr «Ame courtoise»",
+      "suggested": "вынести подпись к гравюре в отдельные поля (сейчас: подпись только на гравюре, над медальоном; в text_fr и переводах отсутствует; в entries.json поля caption нет). caption_orig: \"Ame courtoise et traictable\" (сверено по фото img/p1-7.jpg: AME·COVRTOISE·ET·TRAICTABLE; в text_fr подписи нет); caption_ru: \"Душа учтивая и обходительная\"; caption_en: \"Courteous and Tractable Soul\". Попутно: «Благородная» в заголовке ru нет ни в fr, ни на гравюре (не уверен, откуда взято).",
+      "confidence": "high"
     }
   ]
 }

@@ -1,0 +1,35 @@
+{
+  "id": "p1-28",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_en",
+      "issue_id": "p1-28-1",
+      "fields": [
+        "text_en"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "dont on ne sçauroit s'imaginer la vaste estenduë, & ne trembler pas, à moins que d'estre plus insensible",
+      "current": "whose vast extent cannot even be imagined, and not to tremble before it, unless he be more insensible",
+      "suggested": "whose vast extent no one could imagine without trembling, unless he were more insensible than the very reefs («ne trembler pas» зависит от «on ne sçauroit», а не от «il ose»); RU верно",
+      "confidence": "low"
+    },
+    {
+      "field": "caption",
+      "issue_id": "p1-28-2",
+      "fields": [
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "CONFIDENCE (надпись на гравюре)",
+      "current": "заголовки ru «Уверенность, доверие» / en «Confidence» переводят fr «Confiance»; по смыслу подходят и к подписи, но отдельных полей нет",
+      "suggested": "вынести подпись к гравюре в отдельные поля (сейчас: подпись только на гравюре, над медальоном; в text_fr и переводах отсутствует; в entries.json есть поле caption «Confidence», но caption_ru/caption_en нет). caption_orig: \"Confidence\" (сверено по фото img/p1-28.jpg: CONFIDENCE; в text_fr подписи нет); caption_ru: \"Уверенность, доверие\"; caption_en: \"Confidence\".",
+      "confidence": "high"
+    }
+  ]
+}

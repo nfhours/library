@@ -1,0 +1,22 @@
+{
+  "id": "p1-30",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-30-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "la pourpre a esté de tout temps la livrée des Senateurs, l'éclat de laquelle les semble exhorter",
+      "current": "пурпур издавна был одеянием Сенаторов, чей блеск словно призывает их",
+      "suggested": "«laquelle» = пурпур, а не сенаторы: «…одеянием Сенаторов, и блеск его (пурпура) словно призывает их…»; EN «whose brilliance» → «the brilliance of which (the purple)»",
+      "confidence": "low"
+    }
+  ]
+}

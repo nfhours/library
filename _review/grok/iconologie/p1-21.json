@@ -1,0 +1,34 @@
+{
+  "id": "p1-21",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-21-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "La perte qu'elle avoit songée, / Celle de qui les passions, / Firent voir à la mer Egée",
+      "current": "Подтверждение той потери, что ей привиделась во сне, — / Утраты той, чьи муки / Впервые явили Эгейскому морю / Гнездо зимородков.",
+      "suggested": "«Celle de qui les passions» — это сама Алкиона (подлежащее строфы «Ainsi fut sourde au reconfort … Celle»), а не «утрата»: «…Ту потерю, что ей приснилась, — / Та, чьи страдания / Явили Эгейскому морю / Первое гнездо алкионов». EN «She whose sorrows» верно",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "p1-21-2",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 4,
+      "type": "mistranslation",
+      "original": "afin d'obliger plus fort les femmes à l'amour de leurs maris",
+      "current": "дабы тем сильнее побудить женщин к любви их мужей",
+      "suggested": "дабы тем сильнее побудить женщин любить своих мужей («l'amour de leurs maris» — любовь к мужьям; «любви их мужей» читается наоборот)",
+      "confidence": "low"
+    }
+  ]
+}

@@ -2,6 +2,21 @@
   "id": "p1-11",
   "book": "iconologie",
   "pass": "A",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "p1-11-1",
+      "fields": [
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "AME·RAISONNABLE·ET·HEVREVSE (надпись на гравюре)",
+      "current": "заголовки ru «Блаженная душа» / en «Blessed Soul» переводят fr «Ame bien-heureuse»; «raisonnable» подписи в них нет",
+      "suggested": "вынести подпись к гравюре в отдельные поля (сейчас: подпись только на гравюре, над медальоном; в text_fr и переводах отсутствует; в entries.json есть поле caption «Ame raisonnable et heureuse», но caption_ru/caption_en нет). caption_orig: \"Ame raisonnable et heureuse\" (сверено по фото img/p1-11.jpg: AME·RAISONNABLE·ET·HEVREVSE; в text_fr подписи нет); caption_ru: \"Разумная и счастливая душа\"; caption_en: \"Rational and Happy Soul\".",
+      "confidence": "high"
+    }
+  ]
 }

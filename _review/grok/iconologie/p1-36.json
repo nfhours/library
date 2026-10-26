@@ -1,0 +1,22 @@
+{
+  "id": "p1-36",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-36-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 4,
+      "type": "mistranslation",
+      "original": "Le mesme nous est encore demontré par sa teste à l'évent",
+      "current": "её непокрытой головой",
+      "suggested": "её головой, выставленной на ветер / вскинутой («à l'évent»; ср. абзац 1 «la teste en dehors»), а не «непокрытой»; EN «bare head» → «her head thrust out to the wind»; не уверен в оттенке",
+      "confidence": "low"
+    }
+  ]
+}

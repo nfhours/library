@@ -1,0 +1,22 @@
+{
+  "id": "p1-37",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "p1-37-1",
+      "fields": [
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "DESIR·VERS·DIEV (надпись на гравюре)",
+      "current": "заголовки ru «Стремление к Богу» / en «Desire toward God» переводят fr «Desir envers Dieu»; по смыслу совпадают с подписью, но отдельных полей нет",
+      "suggested": "вынести подпись к гравюре в отдельные поля (сейчас: подпись только на гравюре, над медальоном; в text_fr и переводах отсутствует; в entries.json есть поле caption «Desir vers Dieu», но caption_ru/caption_en нет). caption_orig: \"Desir vers Dieu\" (сверено по фото img/p1-37.jpg: DESIR·VERS·DIEV; в text_fr подписи нет); caption_ru: \"Стремление к Богу\"; caption_en: \"Desire toward God\".",
+      "confidence": "high"
+    }
+  ]
+}

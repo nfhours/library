@@ -1,0 +1,34 @@
+{
+  "id": "p1-27",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-27-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "marque l'abondance de toutes choses par sa guirlande de fleurs & de fruits",
+      "current": "отмечено изобилием всего сущего через её гирлянду из цветов и плодов",
+      "suggested": "своей гирляндой из цветов и плодов обозначает изобилие всего сущего (Согласие — подлежащее, а не «отмечено изобилием»); EN верно",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "p1-27-2",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 9,
+      "type": "mistranslation",
+      "original": "& qu'il appuye les trois autres sur vn escu",
+      "current": "а на три другие опирается, держа щит",
+      "suggested": "а три другие руки опирает на щит; EN «rests the other three upon a shield» верно",
+      "confidence": "low"
+    }
+  ]
+}

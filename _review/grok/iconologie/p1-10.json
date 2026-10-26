@@ -2,6 +2,21 @@
   "id": "p1-10",
   "book": "iconologie",
   "pass": "A",
-  "verdict": "ok",
-  "issues": []
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "p1-10-1",
+      "fields": [
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "AMOVR·VERS·SA·PATRIE (надпись на гравюре)",
+      "current": "заголовки ru «Любовь к отечеству» / en «Love of One's Country» переводят fr «Amour de la Patrie»",
+      "suggested": "вынести подпись к гравюре в отдельные поля (сейчас: подпись только на гравюре, над медальоном; в text_fr и переводах отсутствует; в entries.json есть поле caption «Amour vers sa Patrie», но caption_ru/caption_en нет). caption_orig: \"Amour vers sa Patrie\" (сверено по фото img/p1-10.jpg: AMOVR·VERS·SA·PATRIE; в text_fr подписи нет); caption_ru: \"Любовь к своему отечеству\"; caption_en: \"Love toward One's Country\".",
+      "confidence": "high"
+    }
+  ]
 }

@@ -1,0 +1,22 @@
+{
+  "id": "p1-39",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-39-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "puisque c'en est vne si pesante que celle des affaires publiques, qu'elle ne peut mieux estre comparée",
+      "current": "ибо это ноша столь же тяжёлая, как и бремя государственных дел, которую лучше всего можно сравнить со скалой Сизифа",
+      "suggested": "ибо бремя государственных дел столь тяжело, что его лучше всего сравнить со скалой Сизифа (в оригинале нет сравнения «столь же тяжёлая, как»: «si … que» = «столь … что»); EN «a weight as heavy as that of public affairs, which» → «that of public affairs is so heavy a one that it». Попутно: «charge» = и «должность», и «бремя» — игра слов в переводах теряется (можно пояснить)",
+      "confidence": "medium"
+    }
+  ]
+}

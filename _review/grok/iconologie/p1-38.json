@@ -1,0 +1,21 @@
+{
+  "id": "p1-38",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p1-38-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "par les deux plumes, que le vent ne les ébranle pas avec plus de facilité qu'en a cet art",
+      "current": "перья, неколебимые ветром (EN «the wind-proof feathers»)",
+      "suggested": "перья, которые ветер колеблет так же легко, как диалектика отстаивает и истину, и ложь правдоподобными доводами («pas avec plus de facilité que» = «не легче, чем», т. е. так же легко; перья — образ шаткости, а не стойкости); то же в meaning_en",
+      "confidence": "medium"
+    }
+  ]
+}
