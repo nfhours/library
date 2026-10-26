@@ -9,6 +9,7 @@
       "issue_id": "carti_malipierosource-1",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -30,6 +31,21 @@
       "current": "Пётр Мученик",
       "suggested": "Пётр Мартир (Англерский) — это имя (Pietro Martire d'Anghiera), не «мученик»; то же ниже и в carti6",
       "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "carti_malipierosource-1",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Et perche fuor della Galleria del Serenis. di BAVIERA io ho hauuto alcuni disegni d'Idoli del Mexico",
+      "current": "outre la Galerie du Sérénissime de Bavière, j'ai obtenu",
+      "suggested": "de la Galerie du Sérénissime [Duc] de Bavière, j'ai obtenu («fuor della» = «из», ср. следующую запись «Nella soprascritta Galleria»; та же ошибка в RU/EN)",
+      "confidence": "medium"
     }
   ]
 }

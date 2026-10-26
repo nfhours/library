@@ -9,6 +9,7 @@
       "issue_id": "carti_pagodefable-1",
       "fields": [
         "text_ru",
+        "text_fr",
         "text_en"
       ],
       "paragraph": 1,
@@ -22,13 +23,43 @@
       "field": "text_en",
       "issue_id": "carti_pagodefable-2",
       "fields": [
-        "text_en"
+        "text_en",
+        "text_fr"
       ],
       "paragraph": 1,
       "type": "name",
       "original": "detto per nome Ganissone",
       "current": "named Ganesha",
       "suggested": "named Ganissone (так в оригинале; модернизация «Ganesha» — допустима лишь в примечании; RU «Ганиссоне» верно)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "carti_pagodefable-1",
+      "fields": [
+        "text_ru",
+        "text_fr",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "(per darne la lode à chi viene)",
+      "current": "(pour en donner la louange à qui vient)",
+      "suggested": "(pour rendre l'honneur à qui il revient) — идиома «à qui de droit» (та же ошибка в RU/EN)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "carti_pagodefable-2",
+      "fields": [
+        "text_en",
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "detto per nome Ganissone",
+      "current": "nommée Ganesha",
+      "suggested": "nommée Ganissone (так в оригинале; модернизация «Ganesha» — лишь в примечании; та же ошибка в EN; RU верно)",
       "confidence": "low"
     }
   ]
