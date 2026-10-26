@@ -1,0 +1,21 @@
+{
+  "id": "v1-32-5",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-32-5-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 3,
+      "type": "ocr",
+      "original": "La bonté s'épreuve dans l'aversité.",
+      "current": "La bonté s'épreuve dans l'aversité.",
+      "suggested": "«l'adversité» (пропущена d; ср. девиз Adversa); возможно, опечатка издания. text_ru переведён верно",
+      "confidence": "low"
+    }
+  ]
+}

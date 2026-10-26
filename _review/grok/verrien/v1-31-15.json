@@ -1,0 +1,21 @@
+{
+  "id": "v1-31-15",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-31-15-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "Il en faut user sobrement.",
+      "current": "Всем надо пользоваться умеренно.",
+      "suggested": "en — «им» (вином), не «всем» (обобщение из латинского modus in rebus): «Им следует пользоваться умеренно»",
+      "confidence": "low"
+    }
+  ]
+}

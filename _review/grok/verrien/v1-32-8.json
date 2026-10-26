@@ -1,0 +1,23 @@
+{
+  "id": "v1-32-8",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-32-8-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Quebrantar lo cosa fea.",
+      "current": "Quebrantar lo cosa fea.",
+      "suggested": "[ES] девиз искажён: по толкованию («Rompre la foy c'est chose honteuse») ожидается «Quebrantar la fe, cosa fea» — пропущено «fe», «lo» вместо «la». Скана текста нет; не уверен",
+      "confidence": "low"
+    }
+  ]
+}
