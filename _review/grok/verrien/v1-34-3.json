@@ -1,0 +1,21 @@
+{
+  "id": "v1-34-3",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-34-3-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "On se ruine quand on attaque un plus fort que soy.",
+      "current": "Разоряешься, нападая на того, кто сильнее тебя.",
+      "suggested": "se ruiner здесь — «губить себя», не «разоряться» (о деньгах): «Губишь себя, нападая на того, кто сильнее тебя»",
+      "confidence": "low"
+    }
+  ]
+}

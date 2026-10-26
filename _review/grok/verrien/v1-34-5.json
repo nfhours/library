@@ -1,0 +1,21 @@
+{
+  "id": "v1-34-5",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-34-5-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "C'est l'épreuve de la fidelité.",
+      "current": "Это истинное свидетельство верности.",
+      "suggested": "«истинное свидетельство» — из латинского vera notitia; французское: «Это проверка верности»",
+      "confidence": "low"
+    }
+  ]
+}
