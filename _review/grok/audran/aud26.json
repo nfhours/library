@@ -1,0 +1,24 @@
+{
+  "id": "aud26",
+  "book": "audran",
+  "pass": "A",
+  "verdict": "major",
+  "issues": [
+    {
+      "field": "fr",
+      "issue_id": "aud26-1",
+      "fields": [
+        "fr",
+        "name_fr",
+        "ru",
+        "en"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "Il a 5 têtes de hauteur.",
+      "current": "заголовки fr/name_fr «Enfant de Laocoon (suite)», ru «Сын Лаокоона (продолжение)», en «Son of Laocoön (continued)»",
+      "suggested": "на доске aud26 не сын Лаокоона, а маленький ребёнок (путто) с кувшином, из которого льётся вода, в двух видах; рост 5 голов — пропорции младенца, у сыновей Лаокоона 7 голов (aud24, aud25). Какая это статуя, по доске не установить — не достраивать. Заголовки: fr/name_fr «Enfant à l'urne» или просто «Enfant», ru «Ребёнок с кувшином», en «Child with an urn»",
+      "confidence": "medium"
+    }
+  ]
+}

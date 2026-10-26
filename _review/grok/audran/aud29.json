@@ -1,0 +1,22 @@
+{
+  "id": "aud29",
+  "book": "audran",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "aud29-1",
+      "fields": [
+        "text_fr",
+        "caption"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "R. Vrbm. in.",
+      "current": "R. Vrbm. in.",
+      "suggested": "на гравюре внизу слева, мелко: вероятно «R. Vrbin. in.» (= Raphael Urbinas invenit; переводы так и толкуют); «Vrbm» — похоже на слитые минимы. Не уверен — проверить по фото",
+      "confidence": "low"
+    }
+  ]
+}

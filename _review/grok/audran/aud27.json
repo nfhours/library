@@ -1,0 +1,40 @@
+{
+  "id": "aud27",
+  "book": "audran",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "aud27-1",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "Livre pour aprendre à désigner avec les proportions des parties qui ont esté choisie dans les ouvrages de N. Poussin, et gravé par J. Pesne.",
+      "current": "подписи нет ни в text_fr/caption, ни в переводах",
+      "suggested": "вынести в отдельные поля (сейчас: две гравированные строки внизу слева, под рисунками глаз; ниже — выходная строка «A Paris chez Audran…», она в notes). caption_orig: «Livre pour aprendre à désigner avec les proportions des parties qui ont esté choisie dans les ouvrages de N. Poussin, et gravé par J. Pesne.»; caption_ru: «Книга для обучения рисованию с пропорциями частей, выбранных из произведений Н. Пуссена; гравировал Ж. Пен»; caption_en: «A book for learning to draw, with the proportions of the parts selected from the works of N. Poussin, and engraved by J. Pesne». Сверено по aud27.jpg",
+      "confidence": "high",
+      "caption_source": "engraving"
+    },
+    {
+      "field": "caption",
+      "issue_id": "aud27-2",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "Eschelle de 12 minuttes",
+      "current": "ярлыка нет ни в text_fr/caption, ни в переводах",
+      "suggested": "вынести в отдельные поля (сейчас: гравированный ярлык вертикально у правого края, под шкалой). caption_orig: «Eschelle de 12 minuttes»; caption_ru: «Шкала в 12 минут»; caption_en: «Scale of 12 minutes». Сверено по aud27.jpg",
+      "confidence": "high",
+      "caption_source": "engraving"
+    }
+  ]
+}

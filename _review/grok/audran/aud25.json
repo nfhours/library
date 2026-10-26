@@ -1,0 +1,24 @@
+{
+  "id": "aud25",
+  "book": "audran",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "aud25-1",
+      "fields": [
+        "text_fr",
+        "caption",
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "omission",
+      "original": "L'un des enfans de Laocoon, marqué B.",
+      "current": "text_fr/caption без второй строки; RU «Один из сыновей Лаокоона, обозначенный буквой B.»; EN «One of the children of Laocoon, marked B.»",
+      "suggested": "на гравюре вторая строка подписи: «a 7 têtes de hauteur.» Добавить: text_fr/caption «L'un des enfans de Laocoon, marqué B, a 7 têtes de hauteur.»; RU «Один из сыновей Лаокоона, обозначенный буквой B, имеет высоту 7 голов»; EN «One of the children of Laocoon, marked B, is 7 heads in height». Сверено по aud25.jpg",
+      "confidence": "high"
+    }
+  ]
+}

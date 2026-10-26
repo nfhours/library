@@ -1,0 +1,24 @@
+{
+  "id": "aud28",
+  "book": "audran",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "aud28-1",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "Echelle de 12 minutes",
+      "current": "ярлыка нет ни в text_fr/caption, ни в переводах",
+      "suggested": "вынести в отдельные поля (сейчас: гравированный ярлык внизу посередине, под горизонтальной шкалой). caption_orig: «Echelle de 12 minutes»; caption_ru: «Шкала в 12 минут»; caption_en: «Scale of 12 minutes». Сверено по aud28.jpg",
+      "confidence": "high",
+      "caption_source": "engraving"
+    }
+  ]
+}

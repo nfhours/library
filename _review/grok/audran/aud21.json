@@ -1,0 +1,22 @@
+{
+  "id": "aud21",
+  "book": "audran",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "aud21-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "On croit que c'est du même qui a fait le Lantin.",
+      "current": "RU «тем же мастером, что и «Лантен»»; EN «by the same [sculptor] who made the Lantin»",
+      "suggested": "«le Lantin» = l'Antin(ous), Антиной (так называли статую в XVII в.; ср. aud13 «l'Echelle de l'Antin», в text_fr раскрыто «l'Antinoüs»). RU «Полагают, что он выполнен тем же мастером, что и Антиной»; EN «It is believed to be by the same sculptor who made the Antinous»",
+      "confidence": "medium"
+    }
+  ]
+}
