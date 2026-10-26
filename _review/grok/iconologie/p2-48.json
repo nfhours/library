@@ -1,0 +1,21 @@
+{
+  "id": "p2-48",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-48-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "une marque qui manifeste l'humeur du corps",
+      "current": "знаком, являющим нрав тела … кровяной нрав",
+      "suggested": "знаком, являющим преобладающий в теле гумор (сок) … сангвинический гумор (кровь) — «humeur» здесь медицинский термин (флегма, желчь, кровь, меланхолия), не «нрав»; EN «humor» верно",
+      "confidence": "low"
+    }
+  ]
+}

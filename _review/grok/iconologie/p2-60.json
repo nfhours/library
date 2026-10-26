@@ -1,0 +1,24 @@
+{
+  "id": "p2-60",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "p2-60-1",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "FORTVNE EN AMOVR (надпись на гравюре)",
+      "current": "заголовки ru «Фортуна любви» / en «Fortune of Love» переводят fr «Fortune d'amour»; на гравюре «FORTVNE EN AMOVR»",
+      "suggested": "вынести подпись к гравюре в отдельные поля (сейчас: подпись только на гравюре, над медальоном; в text_fr и переводах отсутствует; в entries.json поля caption нет). caption_orig: \"Fortune en amour\" (сверено по фото img/p2-60.jpg: FORTVNE EN AMOVR; в text_fr подписи нет); caption_ru: \"Удача в любви\"; caption_en: \"Fortune in Love\". Перевод подписи — не уверен; можно «Фортуна в любви».",
+      "confidence": "high",
+      "caption_source": "engraving"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "p2-47",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p2-47-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "IL a pour symbole une femme, dont le bras droit est tout nud",
+      "current": "Обнажённая рука — непосредственность осязания как чувства, требующего прямого контакта / Her bare arm signifies touch's directness",
+      "suggested": "в тексте обнажённая рука не истолкована (истолкованы только сокол и черепаха как иероглифы); толкование добавлено — убрать или пометить",
+      "confidence": "low"
+    }
+  ]
+}

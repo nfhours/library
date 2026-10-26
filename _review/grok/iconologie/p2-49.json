@@ -1,0 +1,22 @@
+{
+  "id": "p2-49",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-49-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "en ceux qui abondent d'un sens parfaitement temperé",
+      "current": "у тех, кто изобилует совершенно уравновешенным чувством / in those who abound in a sense perfectly tempered",
+      "suggested": "вероятно, в оригинале опечатка «sens» вместо «sang»: «у тех, кто изобилует совершенно уравновешенной кровью» / «abound in a perfectly tempered blood» (речь о сангвинике, ср. абз. 4) — не уверен; при сохранении буквального чтения стоит пометить",
+      "confidence": "low"
+    }
+  ]
+}

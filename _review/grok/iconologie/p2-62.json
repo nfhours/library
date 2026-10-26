@@ -1,0 +1,22 @@
+{
+  "id": "p2-62",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-62-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 4,
+      "type": "name",
+      "original": "tirée d'vne medaille d'Antonin le Debonnaire",
+      "current": "Фортуна Мирная … Антонина Благочестивого / Pacific Fortune … Antoninus the Kind",
+      "suggested": "абз. 4–5 дословно повторяют абз. 4–5 статьи p2-59, но переведены иначе (там «Фортуна Миротворная», «Антонина Благодушного» / «Peaceful Fortune», «Antoninus the Debonair»); унифицировать имя и термин в обеих статьях",
+      "confidence": "low"
+    }
+  ]
+}

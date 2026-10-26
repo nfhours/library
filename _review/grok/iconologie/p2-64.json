@@ -1,0 +1,24 @@
+{
+  "id": "p2-64",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "p2-64-1",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "FORCE ET PRVDENCE (надпись на гравюре)",
+      "current": "заголовки ru «Сила и благоразумие вместе» / en «Strength and Prudence Together» переводят fr «Force & Prudence ensemble»; на гравюре без «ensemble»: «FORCE ET PRVDENCE»",
+      "suggested": "вынести подпись к гравюре в отдельные поля (сейчас: подпись только на гравюре, над медальоном; в text_fr и переводах отсутствует; в entries.json поля caption нет). caption_orig: \"Force et Prudence\" (сверено по фото img/p2-64.jpg: FORCE ET PRVDENCE; в text_fr подписи нет); caption_ru: \"Сила и благоразумие\"; caption_en: \"Strength and Prudence\".",
+      "confidence": "high",
+      "caption_source": "engraving"
+    }
+  ]
+}

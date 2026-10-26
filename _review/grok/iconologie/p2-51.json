@@ -1,0 +1,23 @@
+{
+  "id": "p2-51",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-51-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "name",
+      "original": "avec un passereau solitaire sur le haut de sa teste",
+      "current": "одинокий воробей / a solitary sparrow",
+      "suggested": "«passereau solitaire» — название птицы (Passer solitarius, синий каменный дрозд / blue rock thrush), а не «одинокий воробей»; можно «каменный дрозд (passereau solitaire)» — не уверен, не оставить ли буквально, т.к. абз. 4 обыгрывает «solitaire»",
+      "confidence": "low"
+    }
+  ]
+}

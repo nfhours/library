@@ -1,0 +1,34 @@
+{
+  "id": "p2-58",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-58-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "Ces deux freres, de qui les guerres Durerent jusques au tombeau",
+      "current": "Те два брата, чья война Не прекратилась и в могиле",
+      "suggested": "…чьи войны Длились до самой могилы (в оригинале «до могилы», не «и в могиле»); EN верно",
+      "confidence": "low"
+    },
+    {
+      "field": "attrs",
+      "issue_id": "p2-58-2",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "& à nuire aux autres par le venin que la colere produit",
+      "current": "змеи — яд гнева, которым согласие, нарушенное раздором, может вредить другим",
+      "suggested": "в тексте само воинское согласие готово вредить другим ядом гнева; «нарушенное раздором» добавлено: «змеи — яд гнева, которым воинское согласие вредит врагам»",
+      "confidence": "low"
+    }
+  ]
+}

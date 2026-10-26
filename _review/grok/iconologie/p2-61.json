@@ -1,0 +1,21 @@
+{
+  "id": "p2-61",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p2-61-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "où les hommes sont toûjours battus de quelque orage",
+      "current": "где люди всегда бьются с какой-либо бурей",
+      "suggested": "где людей всегда треплет какая-нибудь буря («battus de» — страдательный оборот; EN «buffeted by» верно)",
+      "confidence": "low"
+    }
+  ]
+}
