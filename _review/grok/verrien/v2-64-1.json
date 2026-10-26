@@ -1,0 +1,12 @@
+{
+  "id": "v2-64-1",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "ok",
+  "issues": [],
+  "scan": "monogram",
+  "anomaly": {
+    "kind": "dup_on_plate_caption_typo",
+    "note": "подпись «IMP» выгравирована на доске v2-64 (гравир. «62») дважды (v2-64-1, v2-64-3); первая верна (после IMO). См. v2-64-3"
+  }
+}

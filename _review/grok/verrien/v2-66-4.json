@@ -1,0 +1,30 @@
+{
+  "id": "v2-66-4",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "issue_id": "v2-66-4-1",
+      "fields": [
+        "fr",
+        "name_fr",
+        "text_fr",
+        "ru",
+        "text_ru"
+      ],
+      "field": "fr",
+      "type": "typo",
+      "original": "MRT",
+      "current": "MRT",
+      "suggested": "«MPT» — по последовательности (MPS, [MPT], MPV) и полному набору; на гравюре также «MRT» (опечатка издания). Подпись сверена со сканом",
+      "confidence": "medium",
+      "paragraph": 1
+    }
+  ],
+  "scan": "monogram",
+  "anomaly": {
+    "kind": "caption_typo",
+    "note": "на доске v2-66 (гравир. «64») подпись «MRT» в ряду MPQ, MPR, MPS, [MPT], MPV; MPT во всей части отсутствует, MRT встречается дважды (здесь и на своём месте). На гравюре тоже «MRT» — опечатка издания, повторённая в данных и переводе"
+  }
+}

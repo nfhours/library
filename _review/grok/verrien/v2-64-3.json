@@ -1,0 +1,30 @@
+{
+  "id": "v2-64-3",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "issue_id": "v2-64-3-1",
+      "fields": [
+        "fr",
+        "name_fr",
+        "text_fr",
+        "ru",
+        "text_ru"
+      ],
+      "field": "fr",
+      "type": "typo",
+      "original": "IMP",
+      "current": "IMP",
+      "suggested": "«IMR» — по последовательности (IMQ, [IMR], IMS) и отсутствию IMR в наборе; на гравюре также «IMP» (опечатка издания). Подпись сверена со сканом; чтение самого вензеля не проверялось",
+      "confidence": "medium",
+      "paragraph": 1
+    }
+  ],
+  "scan": "monogram",
+  "anomaly": {
+    "kind": "dup_on_plate_caption_typo",
+    "note": "повтор «IMP» на месте ожидаемого «IMR»: ряд IMN, IMO, IMP, IMQ, [IMR], IMS; IMR во всей части отсутствует. На гравюре тоже «IMP» — опечатка издания, повторённая в данных и переводе"
+  }
+}

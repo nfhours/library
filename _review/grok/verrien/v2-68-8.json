@@ -1,0 +1,12 @@
+{
+  "id": "v2-68-8",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "ok",
+  "issues": [],
+  "scan": "monogram",
+  "anomaly": {
+    "kind": "caption_wraparound_edition",
+    "note": "«VZA» на доске v2-68 (гравир. «66»): ряд …SXZ, TYZ продолжен через конец алфавита (ср. YZA, XAZ, ZBC); данные совпадают со сканом. Особенность издания"
+  }
+}
