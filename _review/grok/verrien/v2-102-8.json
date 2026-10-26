@@ -1,0 +1,12 @@
+{
+  "id": "v2-102-8",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "ok",
+  "issues": [],
+  "scan": "monogram",
+  "anomaly": {
+    "kind": "caption_wraparound_edition",
+    "note": "«RZA» на доске v2-102.jpg: ряд «через шесть» (…PXZ, QYZ) продолжен через конец алфавита (ср. YZA, XAZ, ZBC, VZA, TZA); особенность издания. На гравюре (доска v2-102, гравир. «100») подпись «RZA» — данные совпадают со сканом"
+  }
+}
