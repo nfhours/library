@@ -39,6 +39,24 @@
       "current": "хотя их носит хотя она и носит их также как знаки Минервы",
       "suggested": "хотя их носят также как знаки Минервы (повтор — опечатка оригинала; в EN аналогично «though it bears though it also bears»)",
       "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "& per quello intendeuano il Sole, la terra per questa",
+      "current": "et par eux ils entendaient le Soleil",
+      "suggested": "et par celui-là (Adad) ils entendaient le Soleil, et la terre par celle-ci (Adargatis)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "benche le porti benche le porti per insegne di Minerua",
+      "current": "bien qu'elle les porte bien qu'elle les porte",
+      "suggested": "bien qu'elle les porte (повтор — опечатка оригинала)",
+      "confidence": "low"
     }
   ]
 }

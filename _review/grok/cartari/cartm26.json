@@ -30,6 +30,33 @@
       "current": "по некой причине почуял впереди себя ослицу",
       "suggested": "случайно почуял впереди себя ослицу (per sorte = случайно; в EN «for some reason» → «by chance»)",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "e come che la bestia sua lo douesse meglio intendere, alzaua la voce ogni volta più asinescamente",
+      "current": "et sa bête, comme si elle voulait mieux se faire comprendre, élevait la voix chaque fois plus ânonnement",
+      "suggested": "et, comme si sa bête devait mieux le comprendre, il (l'ânier) élevait la voix toujours plus à la manière d'un âne (подлежащее — погонщик)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "sentì per forte andarsi innanzi vna asina",
+      "current": "sentit pour quelque raison une ânesse",
+      "suggested": "sentit par hasard une ânesse aller devant lui («per forte» = «per sorte»)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "in vna notte i Topi rosero",
+      "current": "en une de nuit",
+      "suggested": "en une nuit (опечатка)",
+      "confidence": "low"
     }
   ]
 }

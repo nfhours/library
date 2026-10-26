@@ -39,6 +39,24 @@
       "current": "некоторые из ассирийцев делали Аполлона исключительно с бородой",
       "suggested": "только некоторые из ассирийцев (у Лукиана — одни лишь ассирийцы) делали Аполлона с бородой",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "alcuni de gli Assirij solamente fecero Apollo con la barba",
+      "current": "certains Assyriens firent Apollon avec la barbe seulement",
+      "suggested": "seuls certains Assyriens firent Apollon barbu («solamente» относится к «alcuni», а не к бороде)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "haueua due altre figure tre imagini parimente di femina",
+      "current": "deux autres figures trois images pareillement de femme",
+      "suggested": "deux autres figures de femme (в оригинале сбой «due altre figure / tre imagini»; дословный перенос бессмыслен) — не уверен",
+      "confidence": "low"
     }
   ]
 }

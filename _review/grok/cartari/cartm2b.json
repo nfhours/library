@@ -75,6 +75,60 @@
       "current": "ибо, не замечая того, мы видим, как время проходит, словно украдкой",
       "suggested": "ибо время проходит, словно украдкой, а мы того не замечаем",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "In parte sì da noi lunge, e secreta,",
+      "current": "Tu te sépares de nous, lointaine et secrète,",
+      "suggested": "En un lieu si éloigné de nous et si secret,",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "Laqual con modo, ch'unqua non vien meno,",
+      "current": "Laquelle [l'Éternité], d'une manière qui jamais ne faiblit,",
+      "suggested": "Laquelle [la grotte], d'une manière qui jamais ne faiblit, (антецедент «laqual» — spelonca)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "Questa col flessuoso corpo cinge … Un serpe pien di verdeggianti squame,",
+      "current": "Celle-ci [la grotte] ceint son corps flexible / D'un serpent tout couvert d'écailles verdoyantes,",
+      "suggested": "Celle-ci [la grotte], un serpent couvert d'écailles verdoyantes la ceint de son corps flexible (подлежащее — змей)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "Che così voglion le leggi diuine.",
+      "current": "Car ainsi veillent les lois divines.",
+      "suggested": "Car ainsi le veulent les lois divines (voglion = vogliono)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "e à gli altri rai s'inchina",
+      "current": "devant ses autres rayons s'incline",
+      "suggested": "devant ses hauts rayons s'incline (вероятно «alti rai»; «autres» бессмысленно) — не уверен",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "che Dio è Eterno & il modo perpetuo",
+      "current": "que Dieu est Éternel et le monde perpétuel [à la façon d'une continuité]",
+      "suggested": "que Dieu est Éternel et le monde perpétuel (пояснение в скобках — добавление переводчика, в text_it его нет)",
+      "confidence": "low"
     }
   ]
 }

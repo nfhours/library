@@ -57,6 +57,24 @@
       "current": "The third of leaden hue",
       "suggested": "The third of livid lead (сосуд именно из свинца, ниже: «the dark lead»)",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& questo chiamauano celeste, quello infernale",
+      "current": "l'on appelait le premier céleste, l'autre infernal",
+      "suggested": "on appelait celui-ci (le clair) céleste, et celui-là (le sombre) infernal («questo» — последний названный, светлый; та же ошибка в RU/EN)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 2,
+      "type": "name",
+      "original": "& era chiamato capo di Volcano",
+      "current": "était appelé la forge de Vulcain",
+      "suggested": "était appelé la tête de Vulcain («capo»; то же в подписи — caption_fr)",
+      "confidence": "high"
     }
   ]
 }

@@ -111,6 +111,42 @@
       "current": "Заметили также древние обычай делать статуи",
       "suggested": "Соблюдали также древние обычай делать статуи (osservare = соблюдать)",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Et sarebbe, dice Plinio, stato meglio assai, che mandarle come in bando alle ville.",
+      "current": "Et il eût été, dit Pline, bien meilleur de les envoyer comme en exil dans les villas.",
+      "suggested": "Et cela eût été, dit Pline, bien meilleur que de les envoyer comme en exil dans les villas (смысл перевёрнут; та же ошибка была в RU/EN)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "ma di legno di vliuo non saluatico",
+      "current": "mais de bois d'olivier sauvage",
+      "suggested": "mais de bois d'olivier non sauvage (cultivé) — пропущено отрицание",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "E fur con grata pouertà adorati … Nè le pouere case i Dei di legno.",
+      "current": "et vous fûtes adorés par une pauvreté reconnaissante, / et les pauvres maisons ne dédaignaient point les dieux de bois.",
+      "suggested": "et dans les pauvres maisons les dieux de bois furent adorés avec une pauvreté reconnaissante («Nè le» = «nelle»; отрицание и «ne dédaignaient point» выдуманы)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "da quella di Scipione in fuori, che era leuata del Campidoglio",
+      "current": "sauf celle de Scipion, qui était gardée sur le Capitole",
+      "suggested": "sauf celle de Scipion, qu'on prenait au Capitole («leuata del Campidoglio» — её выносили с Капитолия, а не с площади)",
+      "confidence": "medium"
     }
   ]
 }

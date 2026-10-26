@@ -8,7 +8,7 @@
       "field": "text_ru",
       "paragraph": 1,
       "type": "mistranslation",
-      "original": "fù creduto più vniuersalmente, che fosse di esso Prometheo",
+      "original": "fù creduto più vniversalmente, che fosse di esso Prometheo",
       "current": "более распространённым было мнение, что это останки самого Прометея",
       "suggested": "более распространённым было мнение, что это [статуя] самого Прометея (речь о статуе, а не об останках)",
       "confidence": "high"
@@ -17,7 +17,7 @@
       "field": "text_en",
       "paragraph": 1,
       "type": "mistranslation",
-      "original": "fù creduto più vniuersalmente, che fosse di esso Prometheo",
+      "original": "fù creduto più vniversalmente, che fosse di esso Prometheo",
       "current": "it was more generally believed that these were the remains of Prometheus himself",
       "suggested": "it was more generally believed that it [the statue] was of Prometheus himself",
       "confidence": "high"
@@ -111,6 +111,69 @@
       "current": "Тертуллиан говорит, что religия в Риме",
       "suggested": "Тертуллиан говорит, что религия в Риме (опечатка: латиница «relig» внутри русского слова)",
       "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "addition",
+      "original": "& pure sacrificauano a tutti in vn medesimo modo",
+      "current": "avaient des noms propres dans leur langue, ils ne bâtirent cependant ni temple, ni autel, ni statue à nul autre qu'à Mars … d'une seule et même manière.",
+      "suggested": "удалить повторный фрагмент «avaient des noms propres dans leur langue … d'une seule et même manière.» — дубль предыдущей фразы (в text_it один раз; та же ошибка в RU/EN)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "& che hauendolo a questo fine condotto in cielo",
+      "current": "qu'ayant à cette fin conduit la déesse au ciel",
+      "suggested": "qu'ayant été à cette fin conduit par elle au ciel («hauendolo … condotto» — Минерва привела Прометея на небо, а не он богиню)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "fù creduto più vniversalmente, che fosse di esso Prometheo",
+      "current": "on crut plus communément que c'étaient là les restes de Prométhée lui-même",
+      "suggested": "on crut plus communément que [la statue] était celle de Prométhée lui-même (речь о статуе, «останков» в оригинале нет)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "hauendo già Pilato portato in Giudea alcuni stendardi",
+      "current": "Pilate ayant pour la première fois apporté",
+      "suggested": "Pilate ayant jadis (un jour) apporté («già» ≠ «впервые»)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "quando sentiuano di hauerlo offeso",
+      "current": "lorsqu'ils sentaient l'avoir offensée",
+      "suggested": "lorsqu'ils sentaient l'avoir offensé (lo = хозяин дома, а не статуя)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "succedendo sempre quello, che era più vicino a chi andaua innanzi à lui",
+      "current": "celui-là l'emportant toujours qui se trouvait le plus proche de celui qui le précédait",
+      "suggested": "le flambeau passant toujours à celui qui était le plus proche de celui qui le précédait (succedere = сменять, принимать эстафету, а не «побеждать»)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "volle, che si perdonasse, & rimettesse qual si voglia misfatto",
+      "current": "fût pardonné et vu remettre quelque crime",
+      "suggested": "fût pardonné et se vît remettre quelque crime que ce fût (грамматический сбой)",
+      "confidence": "low"
     }
   ]
 }

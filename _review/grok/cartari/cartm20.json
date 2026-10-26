@@ -30,6 +30,15 @@
       "current": "so great that, stretching... stretching out, touched both sides",
       "suggested": "so great that, stretching out its hands, it touched both sides of the temple",
       "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "che stendendo do le mani toccaua ambi gli lati del tempio",
+      "current": "si grand qu'en s'étendant... s'étendant, touchait",
+      "suggested": "si grand qu'en étendant les mains il touchait les deux côtés du temple («do le mani» — сбой набора; «руки» потеряны)",
+      "confidence": "low"
     }
   ]
 }

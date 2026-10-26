@@ -30,6 +30,15 @@
       "current": "so secretly that they would still not escape the eyes of the Sun",
       "suggested": "so secretly that they would not have been seen even by the eyes of the Sun",
       "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "così di nascosto, che non sarebbono pure state viste da gli occhi del Sole",
+      "current": "si secrètement qu'elles n'auraient pourtant pas échappé aux yeux du Soleil",
+      "suggested": "si secrètement qu'elles n'auraient pas même été vues des yeux du Soleil (смысл перевёрнут; та же ошибка была в RU/EN)",
+      "confidence": "high"
     }
   ]
 }

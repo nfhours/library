@@ -48,6 +48,33 @@
       "current": "а также и Крокодилу также",
       "suggested": "а также Крокодилу (повтор «anco anco» — опечатка оригинала, переносить не нужно); в EN аналогично «too too»",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 2,
+      "type": "addition",
+      "original": "diceuano, che Api appariua alle volte",
+      "current": "Apis apparaissait parfois de lui-même",
+      "suggested": "Apis apparaissait parfois («de lui-même» в оригинале нет; та же вставка в RU/EN)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "il Crocodilo anco anco",
+      "current": "le Crocodile aussi aussi",
+      "suggested": "le Crocodile aussi (повтор — опечатка оригинала, переносить не нужно)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "vn suo ragazzo era stato guasto da vna di quelle bestie",
+      "current": "un de ses jeunes serviteurs avait été dévoré",
+      "suggested": "un de ses jeunes serviteurs avait été mis à mal (estropié) par une de ces bêtes («guasto» не обязательно «съеден») — не уверен",
+      "confidence": "low"
     }
   ]
 }

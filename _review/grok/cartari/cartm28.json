@@ -84,6 +84,60 @@
       "current": "Таково было мнимое Солнце в первые годы",
       "suggested": "Таково было изображённое Солнце в первые годы",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "che disegna Claudiano nella veste di Proserpina",
+      "current": "que Claudien dépeint sur le giron de Proserpine",
+      "suggested": "que Claudien dépeint sur la robe de Proserpine («veste» — одеяние; та же ошибка была в EN)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Quiui ad vn parto il Sole, e la sorella … Finto ella stessa hauea",
+      "current": "Furent engendrés semblables à eux-mêmes",
+      "suggested": "Ici elle-même avait figuré [brodé] le Soleil et sa sœur, nés d'un même enfantement («finto» = изобразила)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "A Thetide pietosa ascinga il petto.",
+      "current": "Presse son sein contre la pitoyable Thétis.",
+      "suggested": "Tarit le sein de la pitoyable Thétis (ascinga = asciuga) — не уверен в чтении слова",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Tale era il finto Sol ne gli anni primi",
+      "current": "Tel était le Soleil feint dans ses premières années",
+      "suggested": "Tel était le Soleil figuré (brodé) en ses premières années",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "Ma non voglio entrare in queste cose Sole de gli Astrologi",
+      "current": "ces matières Le Soleil des Astrologues",
+      "suggested": "dans ces matières des Astrologues («Sole» — колонтитул/сбой набора в оригинале)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "& da gie la sinistra",
+      "current": "et et le gauche le Midi",
+      "suggested": "et le gauche du Midi (повтор «et et»)",
+      "confidence": "low"
     }
   ]
 }

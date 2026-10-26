@@ -39,6 +39,15 @@
       "current": "He was also sometimes made coiled about the staff",
       "suggested": "It [the Serpent] was also sometimes made coiled about the staff",
       "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "con bacchette chette come scettri in mano",
+      "current": "des baguettes baguettes en façon de sceptres",
+      "suggested": "des baguettes en façon de sceptres (повтор; та же ошибка в RU/EN)",
+      "confidence": "low"
     }
   ]
 }
