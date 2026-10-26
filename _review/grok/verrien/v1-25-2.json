@@ -1,0 +1,21 @@
+{
+  "id": "v1-25-2",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-25-2-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "Elle se soustient d'elle-même.",
+      "current": "Она держится собственной массой.",
+      "suggested": "«собственной массой» — из латинского девиза (Mole sua stat); французское: «Она держится сама собой»",
+      "confidence": "low"
+    }
+  ]
+}

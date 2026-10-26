@@ -1,0 +1,23 @@
+{
+  "id": "v1-26-4",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-26-4-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "meaning_fr"
+      ],
+      "paragraph": 1,
+      "type": "omission",
+      "original": "Un Lion vaillant & veillant.",
+      "current": "Un Lion vaillant & veillant.",
+      "suggested": "разбивка: только описание, девиза и толкования нет (motto_fr, meaning_fr пусты), в отличие от соседних эмблем; возможно, потеряны при извлечении текста. Перевод того, что есть, верен. Скана текста нет; не уверен",
+      "confidence": "low"
+    }
+  ]
+}
