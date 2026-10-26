@@ -1,0 +1,37 @@
+{
+  "id": "p1-152",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "p1-152-1",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "SECRET (надпись на гравюре)",
+      "current": "заголовки ru «Тайна, или молчание» / en «Secrecy, or Silence» переводят fr «Secret, ou Silence»; на гравюре только «SECRET»",
+      "suggested": "вынести подпись к гравюре в отдельные поля (сейчас: подпись только на гравюре, над медальоном; в text_fr и переводах отсутствует; в entries.json поля caption нет). caption_orig: \"Secret\" (сверено по фото img/p1-152.jpg: SECRET; в text_fr подписи нет); caption_ru: \"Тайна\"; caption_en: \"Secrecy\".",
+      "confidence": "high",
+      "caption_source": "engraving"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "p1-152-2",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 4,
+      "type": "name",
+      "original": "dans les Devises Heroïques de Paradin",
+      "current": "в Героических Эмблемах Паладина",
+      "suggested": "в Героических девизах Парадена (Claude Paradin, Devises héroïques); EN «Paradin» верно",
+      "confidence": "high"
+    }
+  ]
+}

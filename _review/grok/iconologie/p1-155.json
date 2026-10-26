@@ -1,0 +1,21 @@
+{
+  "id": "p1-155",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-155-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "mistranslation",
+      "original": "tient si fort dans l'indifference que ses actions soient éclairées, qu'il les manifeste luy-mesme, & met à découvert l'interieur de son cœur, sçachant bien qu'il ne peche que le moins qu'il peut volontairement, & par vne malice noire",
+      "current": "столь сильно держится того, чтобы поступки его были на виду… грешит лишь как можно менее, да и то невольно, по чёрному злому умыслу",
+      "suggested": "настолько безразличен к тому, видны ли его поступки, что сам их являет…; «невольно, по чёрному злому умыслу» противоречиво: смысл — он лишь как можно реже грешит умышленно, по чёрному злу (не уверен в точной трактовке); EN ближе к оригиналу",
+      "confidence": "low"
+    }
+  ]
+}

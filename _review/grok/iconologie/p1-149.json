@@ -1,0 +1,22 @@
+{
+  "id": "p1-149",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-149-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "il sert de rempart à l'estomach, où quelques anciens l'ont placée",
+      "current": "служат оплотом желудку (чреву) / serves as a rampart to the stomach",
+      "suggested": "служат оплотом груди / to the breast — estomach в XVII в. часто «грудь» (латы защищают грудь, thorax); «желудок» сомнителен — не уверен",
+      "confidence": "low"
+    }
+  ]
+}

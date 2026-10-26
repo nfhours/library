@@ -1,0 +1,24 @@
+{
+  "id": "p1-150",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "caption",
+      "issue_id": "p1-150-1",
+      "fields": [
+        "caption_orig",
+        "caption_ru",
+        "caption_en"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "SAPIENCE HVMAINE (надпись на гравюре)",
+      "current": "заголовки ru «Человеческая мудрость» / en «Human Wisdom» переводят fr «Sagesse humaine»; на гравюре иначе: «Sapience humaine»",
+      "suggested": "вынести подпись к гравюре в отдельные поля (сейчас: подпись только на гравюре, над медальоном; в text_fr и переводах отсутствует; в entries.json поля caption нет). caption_orig: \"Sapience humaine\" (сверено по фото img/p1-150.jpg: SAPIENCE HVMAINE; в text_fr подписи нет); caption_ru: \"Человеческая премудрость\"; caption_en: \"Human Sapience\". Перевод подписи: «Human Sapience» — не уверен, можно «Human Wisdom» с пометкой.",
+      "confidence": "high",
+      "caption_source": "engraving"
+    }
+  ]
+}

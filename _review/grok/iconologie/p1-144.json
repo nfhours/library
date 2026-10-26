@@ -1,0 +1,36 @@
+{
+  "id": "p1-144",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-144-1",
+      "fields": [
+        "text_ru",
+        "text_en",
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "vne petite serpe",
+      "current": "маленький серп / a small sickle (абз. 4 RU «серп», EN «little bill-hook»; attrs «садовым серпом»)",
+      "suggested": "маленький садовый нож (секач) / a small pruning-hook; serpe/serpete — садовый нож для обрезки ветвей (абз. 4), не серп; EN унифицировать с абз. 4 (bill-hook)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "p1-144-2",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "pereunt discrimine nullo Amissæ leges",
+      "current": "pereunt discrimine nullo Amissa leges",
+      "suggested": "Amissæ leges (как в оригинале и EN)",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "p1-145",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p1-145-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "mistranslation",
+      "original": "la couronne d'épines, le cilice & le cœur enflammé que porte ce pecheur repentant",
+      "current": "Увенчанный лавром кающийся грешник",
+      "suggested": "в тексте венец терновый, не лавровый (и в той же строке attrs: «Терновый венец»): «Увенчанный терновым венцом кающийся грешник»",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "p1-147",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p1-147-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 1,
+      "type": "addition",
+      "original": "vn baston noueux, où s'entortille vn serpent",
+      "current": "змея на посохе — атрибут бога врачевания, символ самого искусства медицины / the serpent on the staff, the attribute of the god of healing…",
+      "suggested": "в тексте статьи змея на посохе не толкуется; это толкование не из текста — убрать или пометить как общеизвестное — не уверен, нет ли его в соседних абзацах",
+      "confidence": "low"
+    }
+  ]
+}

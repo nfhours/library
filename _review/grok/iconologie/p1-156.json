@@ -1,0 +1,21 @@
+{
+  "id": "p1-156",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "attrs",
+      "issue_id": "p1-156-1",
+      "fields": [
+        "attrs"
+      ],
+      "paragraph": 5,
+      "type": "addition",
+      "original": "prés de laquelle est vne gruë qui se soûtient sur vn pied",
+      "current": "журавль на одной ноге — традиционный символ неусыпной стражи; [1] петух — бодрствующее начало дня",
+      "suggested": "в тексте ни журавль (абз. 5), ни петух (абз. 1) не истолкованы; толкования добавлены — убрать или пометить как не из текста",
+      "confidence": "low"
+    }
+  ]
+}

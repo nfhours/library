@@ -1,0 +1,22 @@
+{
+  "id": "p1-151",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-151-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 4,
+      "type": "addition",
+      "original": "comme le globe n'en reçoit aucune de mouvement",
+      "current": "как шар не приемлет никакого иного движения кроме кругового / as the globe receives no motion but a circular one",
+      "suggested": "как шар не приемлет никакого противоречия движений / as the globe admits no contrariety of motion; «кругового» — добавлено",
+      "confidence": "low"
+    }
+  ]
+}

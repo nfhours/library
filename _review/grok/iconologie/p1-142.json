@@ -1,0 +1,22 @@
+{
+  "id": "p1-142",
+  "book": "iconologie",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "p1-142-1",
+      "fields": [
+        "text_ru",
+        "text_en"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "il ne peut plus tenir sa colere",
+      "current": "уже не может сдержать своего гнева / he can no longer contain his anger",
+      "suggested": "больше не может сохранять гнев (гнев проходит — он раскаивается и винит себя) / he can no longer keep up his anger; «сдержать гнев» даёт обратный смысл — не уверен",
+      "confidence": "low"
+    }
+  ]
+}
