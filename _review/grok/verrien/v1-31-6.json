@@ -1,0 +1,22 @@
+{
+  "id": "v1-31-6",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v1-31-6-1",
+      "fields": [
+        "ru",
+        "text_ru"
+      ],
+      "paragraph": 1,
+      "type": "typo",
+      "original": "Un Laurier soutenant un Sep de vigne.",
+      "current": "Лавр, поддерживающий лозу виноградной лозы.",
+      "suggested": "тавтология «лозу виноградной лозы»: «Лавр, поддерживающий виноградную лозу»",
+      "confidence": "medium"
+    }
+  ]
+}
