@@ -1,0 +1,21 @@
+{
+  "id": "v1-16-3",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-16-3-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "Si je ne suis pas beau j'ay de la vertu en recompense.",
+      "current": "Добродетель даёт то, в чём отказывает красота.",
+      "suggested": "переведён латинский девиз, а не французское толкование: «Если я не красив, то взамен у меня есть доблесть»",
+      "confidence": "medium"
+    }
+  ]
+}

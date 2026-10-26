@@ -1,0 +1,36 @@
+{
+  "id": "v1-15-11",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "ru",
+      "issue_id": "v1-15-11-1",
+      "fields": [
+        "ru"
+      ],
+      "paragraph": null,
+      "type": "name",
+      "original": "Branche de Rosier avec une rose",
+      "current": "Ветка шиповника с розой",
+      "suggested": "rosier — розовый куст, не шиповник: «Ветка розового куста с розой» (text_ru верно)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "v1-15-11-2",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Epiace, è punge.",
+      "current": "Epiace, è punge.",
+      "suggested": "[IT] «E piace, e punge» (слитно «Epiace» — ошибка разбивки слов). Скана текста нет — по смыслу",
+      "confidence": "medium"
+    }
+  ]
+}

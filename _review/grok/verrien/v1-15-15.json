@@ -1,0 +1,23 @@
+{
+  "id": "v1-15-15",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-15-15-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Gio vane è maturo.",
+      "current": "Gio vane è maturo.",
+      "suggested": "[IT] «Giovane è maturo» (слово разорвано пробелом). Скана текста нет — по смыслу",
+      "confidence": "medium"
+    }
+  ]
+}

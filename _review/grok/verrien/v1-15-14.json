@@ -1,0 +1,21 @@
+{
+  "id": "v1-15-14",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-15-14-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "On ne le cüeille point sans travail.",
+      "current": "Его не собирают без труда и горечи.",
+      "suggested": "«и горечи» — из латинского девиза (amaritudine), во французском только travail: «Его не срывают без труда»",
+      "confidence": "low"
+    }
+  ]
+}

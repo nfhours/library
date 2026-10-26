@@ -1,0 +1,21 @@
+{
+  "id": "v1-15-13",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-15-13-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "Elle est au dessus du hazard.",
+      "current": "Он выше случая, он не боится фортуны.",
+      "suggested": "«он не боится фортуны» — перевод латинского девиза, вставленный в толкование: «Он выше случая»",
+      "confidence": "medium"
+    }
+  ]
+}

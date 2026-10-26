@@ -1,0 +1,21 @@
+{
+  "id": "v1-16-8",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_ru",
+      "issue_id": "v1-16-8-1",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "mistranslation",
+      "original": "On ne me voit point sans s'en repentir.",
+      "current": "Меня нигде не видят безнаказанно.",
+      "suggested": "переведён латинский девиз (Nusquam visus impunè); французское: «Меня не видят, не пожалев об этом»",
+      "confidence": "low"
+    }
+  ]
+}

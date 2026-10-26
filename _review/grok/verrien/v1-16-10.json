@@ -1,0 +1,36 @@
+{
+  "id": "v1-16-10",
+  "book": "verrien",
+  "pass": "A",
+  "verdict": "minor",
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "v1-16-10-1",
+      "fields": [
+        "text_fr",
+        "motto_fr",
+        "text_ru"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Domum mucrone tuctum.",
+      "current": "Domum mucrone tuctum.",
+      "suggested": "[LA] «tuctum» — не латинская форма; вероятно «Domum mucrone tuetur» (защищает дом жалом; ср. «Elle deffend sa maison»). Скана текста нет; не уверен",
+      "confidence": "low"
+    },
+    {
+      "field": "text_ru",
+      "issue_id": "v1-16-10-2",
+      "fields": [
+        "text_ru"
+      ],
+      "paragraph": 3,
+      "type": "addition",
+      "original": "Elle deffend sa maison avec ses armes.",
+      "current": "Она защищает свой дом своим жалом-оружием.",
+      "suggested": "«жалом-» — из латинского mucrone, дефисная двойка: «Она защищает свой дом своим оружием»",
+      "confidence": "low"
+    }
+  ]
+}
