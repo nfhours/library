@@ -7,3 +7,6 @@
 | 0005 | Titelblatt_1r | Рукописно | Ce Liure Apartien à M.r francois Alexandre Mion, M.tre de Dance De S.M. Le Roi De Sardaigne, Et de la famille Royal page de Naple No. 12. (чернила выцвели, часть букв читается неуверенно) |
 | 0007 | Titelblatt_2r | Рукописно | a Partien à M.r f. A. Mion, M.tre de Dance (частично неразборчиво) |
 | 0008 | Titelblatt_2v | Штамп | UNIVERSITÄTS-BIBLIOTHEK HEIDELBERG (овальный) |
+| 0074 | 32 | Рукописно | под словами «dice hauere la guardia delle» и «vn Dio guardiano, & custode delle» в тексте — тонкие подчёркивания чернилами (почерк отличается от печати, похоже на позднюю владельческую разметку); текст пометок отсутствует. |
+| 0076 | 34 | Рукописно | на полях напротив «Ora ritorno a Giano, che è il Sole» — пометка «Ianus. Sol.» курсивным почерком, начертание отличается от печатных маргиналий на этой странице (не типографский курсив) — рукописная владельческая пометка. Под фрагментами «Ora ritorno a Giano, che è il Sole» и «le due faccie di Giano» в тексте — тонкие подчёркивания чернилами, также похожие на владельческую разметку; текст пометок отсутствует. |
+| 0077 | 35 | Рукописно | под фрагментами «le due faccie mostrano la prudenza» и «come Dio de i principij» в тексте — тонкие подчёркивания чернилами, похожие на владельческую разметку; текст пометок отсутствует. |
