@@ -1349,26 +1349,28 @@ Tre vie, che poi riescon tutte in vna.
 
 Benche fossero poi tutte vna medesima cosa, & i nomi solamente erano diuersi, per mostrare con questi, come tante volte hò già detto le diuerse potenze, & qualità diuerse, che dauano gli antichi a' suoi Dei, & i varij effetti, che da quelli erano creduti venire. Et perciò dissero le fauole, che Hecate nata di Gioue hebbe da lui autorità, e potere sopra tutti gli elementi, & che fu così nomata, perche appresso de' Greci vna simile voce viene a dire cento, che appo loro spesse volte è tolto per numero infinito, come ch'ella fosse di possanza infinita; perche pare che da lei qual'è come hò detto la Luna, siano gouernati gli Elementi, & quali tutte le cose composte di quelli & che
 
-Колонтитул:
-Кустод:
+Колонтитул: 96 Imagini de i Dei
+Кустод: si mu-
 Маргиналии:
 - Diana.
 - M. Tullio.
 - Cipfello Tiranno di Corintio.
-- Diana triforme. Ouidio.
+- Diana triforme.
+- Ouidio.
 
 ## Скан 0139 · с. 97
 
 si mutino secondo, che ella si muta. O fu pure così detta, perche, come dicono alcuni, le sacrificauano con cento altari di verdi cespugli, & vccideuanle cento vittime, come porci, ò pecore, ma se il sacrificio, il quale, perciò fu dimandato Hecatombe, era fatto in nome dello Imperatore; le vittime erano cento Leoni, ouero cento Aquile ne credo io però, che hauessero sempre questi animali veri, ma più tosto, che ne fingessero talhora; perche vsarono souente gli antichi ne' sacrificij loro; di fingere di pasta, ò di qualche altra materia, quello animale che si doueua sacrificare, ne si trouaua, se non con grandissima difficultà & i poueri, che non poteuano fare la spesa de i veri animali, come riferisce Suida, spesso faceuano questo, che ne sacrificauano de i simulati, e finti, come si vede appresso di Herodoto ancora, ilquale dice, che quelli di Egitto non sacrificauano il Porco ad altro Dio, che alla Luna, & a Bacco, & in quelle feste ancora solamente, che faceuano a ten po di piena Luna, guardandosi in tutte le altre di toccare questa bestia, della quale mangiavano quel di solo, che si sacrificaua, e non più mai in tutto il resto dell'anno, & quelli, che per pouertà non poteuano sacrificare vn Porco vero, ne fingeuano vno, & quello sacrificauano. Et Appiano scriue, che i Ciziceni popoli della Grecia, la Città de i quali viueuano, che fu data da Gioue in dote Proserpina, & la adorauano perciò sopra tutti gli altri Numi, sacrificandole vna vacca tutta negra, essendo già assediati, dall'armata di Mitridate, nè potendo trouare la vacca, che era necessaria al solenne sacrificio della Dea loro, ne fecero vna di pasta per sacrificiarla; ma in tanto, che apprestrauano il sacrificio, ne venne vna di mezzo il mare tutta negra, come haueua da essere, la quale nuotando per di sotto le naui di Mitridate passò nella Città, & andatasi a porre dinanzi all'altare della Dea, fu sacrificata da quel popolo, che prese per ciò buona speranza di douere essere liberato dall'assedio, come fu perche non molto dapoi Mitridate per molti incommodi, che gli auennero, fu sforzato di andarsene. Didone, appresso di Virgilio nell'vltimo sacrificio, che ella fa alla partita di Enea, sparge le simulate acque d'Auerno; & quiui nota Seruio, che ne i sacrificij fingeuano spesso gli antichi le cose, che non poteuano, ò se non con difficultà grande, hauere. Et in altro luoco ancora dice, che per questo l'acqua, che spargeuano nel Tempio di Iside, se bene non era, la diceuano però essere del Nilo. Et non solo le finte vittime vsauano quelli, che non poteuano sacrificare le vere, ma l'andare humilmente a baciare la mano del Dio, cui si haueua da sacrificare, fu souente in vece di sacrificio a chi non poteua fare altro. Soleuano anco gli antichi baciare per diuotione li consecrati simulacri, come si raccoglie da Cicerone, quando parla contra Verre, oue dice; che in Agrigento Città della Sicilia era vn bellissimo simulacro di
 
-Колонтитул:
-Кустод:
+Колонтитул: De gli Antichi. 97
+Кустод: metallo
 Маргиналии:
 - Hecatombe.
 - Vittime finte.
 - Appiano.
 - Didone.
 - Baciar la mano.
+Сигнатура: G
 
 ## Скан 0140 · с. 98
 
@@ -1376,7 +1378,7 @@ si mutino secondo, che ella si muta. O fu pure così detta, perche, come dicono 
 
 Imagine di Hecate dea triforme detta anco Proserpina moglie di Plutone reina dell'Inferno significante li tre aspetti della Luna, & la potenza lunare nelle cose elementari.
 
-Колонтитул:
+Колонтитул: 98 Imagini de i Dei
 Кустод:
 Маргиналии:
 
@@ -1384,20 +1386,22 @@ Imagine di Hecate dea triforme detta anco Proserpina moglie di Plutone reina del
 
 metallo di Hercole, che haueua la bocca, & il mento quasi logori, così spesso era baciato da chi l'andaua ad adorare. Et Prudentio scriuendo, come fosse adorato il Sole creduto Apollo, mette alla fine, che baciauano anco i piedi a' Caualli, che tirauano il suo carro. Ma ritornando ad Hecate, ella fu adorata su i crocicchi delle vie, & quiui le sacrificauano il cane, pregandola con parole incomposte, & con gridori per imitare quello, che gia fece Cerere, quando andaua cercando la figliuola Proserpina, che era la medesima, che Hecate; alla quale soleuano i ricchi appresso de gli antichi sacrificare ogni mese ne i crocicchi delle vie, lasciando quiui del pane, & delle altre cose necessarie al viuere, le quali erano poscia leuate via da pouerelli, & dimandauasi questa la cena di Hecate come riferisce Suida, il quale dice anco, che la medesima si mostraua talhora in forma horribile, & spauenteuole, che era di huomo molto grande col capo di serpente. Ella fu detta, & fatta triforme per guardare meglio quelle strade, che a lei erano consecrate, le quali venendosi a congiungere insieme faceuano crocicchio, come hanno detto alcuni; ma altri hanno voluto, & forse meglio, che il dare a costei tre faccie fossero fintioni di Orfeo, volendo lui in questo modo mostrare i variati aspetti, che di sè si fa vedere la Luna; & che la virtù sua ha forza non solamente in Cielo, oue la chiamano Luna, ma in terra ancora, oue la dicono Diana; & fin giù nell'Inferno, oue Hecate la dimandano, & Proserpina, perch'ella è creduta scendere in Inferno tutto quel tempo, che a noi stà nascosta. Le quali cose da Eusebio sono così esposte. E chiamata Luna Hecate e Triforme per le varie figure, ch'ella mostra nel corpo suo, secondo che più, o meno si troua essere discosto dal Sole, onde sono parimente tre le virtù sue. L'vna è quando comincia a mostrare il lume a' mortali, porgendo con quello accrescimento alle cose, & questo primo, & nuouo aspetto era da gli antichi mostrato con vesti bianche, & dorate, che metteuano intorno al suo simulacro, & con la face accesa, che il medesimo hauena in mano. L'altra è, quando hà già la metà di tutto il lume, & fu questa mostrata con la cesta, nella quale portauano le sue cose sacre: perche, mentre che và crescendo il lume della Luna, ogni dì più si maturano i frutti, quali si raccogliono poi con le ceste. La terza è, nello intiero lume mostrato con vesti, che hanno del fosco. A costei dauano il lauro ancora, il quale è proprio d'Apollo, perch'ella riceue il lume dal Sole, & quel colore infocato, che mostra talhora in viso. Et le dierono il Papauero parimente per la moltitudine delle anime, le quali erano credute habitare nel suo orbe, quasi che quel fosse vna gran Città tutta piena di numeroso popolo, conciosia, che il Papauero mostri, & significhi le Città, perche ha i capi così intagliati in cima, come sono le mura di quelle, & tiene in sè raccolto vn numero grande di minuti
 
-Колонтитул:
-Кустод:
+Колонтитул: De gli Antichi. 99
+Кустод: nuti
 Маргиналии:
 - Prudentio.
 - Hecate triforme.
-- Lauro alla Luna, consecrato. Papauero consecrato alla Luna.
+- Lauro alla Luna, consecrato.
+- Papauero consecrato alla Luna.
+Сигнатура: G2
 
 ## Скан 0142 · с. 100
 
 [ГРАВЮРА — полностраничная]
 
-Simulacro della Luna significante la Luna riceuer il suo lume dal Sole & non hauer in se luce alcuna, anti esser corpo oscuro & ottenebrato fatto risplendente dal Sole significato dal capo di Spirauiere.
+Simulacro della Luna significante la Luna riceuer il suo lume dal Sole & non hauer in se luce alcuna, anzi esser corpo oscuro & ottenebrato fatto risplendente dal Sole significato dal capo di Spirauiere.
 
-Колонтитул:
+Колонтитул: 100 Imagini de i Dei
 Кустод:
 Маргиналии:
 
@@ -1422,18 +1426,19 @@ Dona a Megera, e come lor regina
 Grida, e comanda a l'anime perdute,
 E Proserpina moglie di Plutone.
 
-Колонтитул:
-Кустод:
+Колонтитул: De gli Antichi. 101
+Кустод: Seguita
 Маргиналии:
 - Pausania.
 - Prudentio.
+Сигнатура: G3
 
 ## Скан 0144 · с. 102
 
 Seguita poi, che la verità è, che questo è vn tristo Demonio, il quale inganna i mortali, persuadendo loro, che in tre diuersi luoghi siano molti, & diuersi Dei, in Cielo, in Terra, e nell'Inferno. Porfirio, come riferisce Theodorito Vescouo Cirense, scriuendo de' tristi Demonij quello, che se ne dirà nella imagine di Plutone. mette, che Hecate sia padrona di quelli, & che gli tenga in tre elementi, nell'aere, nell'acqua, & nella terra. Oltre di ciò dissero anco gli antichi, che Hecate faceua souente vedere a chi si trouaua in qualche calamità grande, & in qualche gran miseria, certa ombra, ouero fantasma, che si muttaua tuttavia, & quasi subito di vna in vn'altra figura, come Aristofane dice, & lo riferisce Suida; & si mostraua hora Bue, hora Mula talhora pareua essere vna bellissima femina, e tale altra vn cane, & fu detta questa così fatta cosa Empusa perche pareua, che andasse co vn piè solo, & alcuni hanno voluto, che ella fosse Hecate stessa, la quale si mostrasse in questa foggia di bel mezo dì, quando con certe cerimonie si placauano le ombre de i morti. Et per gli varij, & diuersi aspetti, che di sè faceua altrui vedere questa bestia, fu tirato in prouerbio da gli antichi, & diceuano cangiarsi piu, che non faceua Empusa, che mostraua di volere hora vna cosa, & tantosto vn'altra, & che non si lasciaua mai conoscere quale ei si fosse. Et Luciano parlando de' balli, disse che fanno mutare la persona in tanti modi, che si può dire, che rappresenti Empusa, che si cangia in mille forme. Era oltre di ciò, come scriue Eusebio, in Apollinopoli Città dello Egitto vna statua di costei, la quale mostraua pur'anco, che la Luna non hà luce da sè, ma la riceue dal Sole, percioche era fatta in forma di huomo tutto bianco, che haueua il capo di Sparuiere, Significa la bianchezza, che la Luna da sè non hà luce, ma da altri la riceue, cioè dal Sole, che le dà spirito ancora, & forza: & ciò significa la testa dello Sparuiere, perche questo vccello era consecrato al Sole, come hò detto nella sua imagine. Leggefi ancora che in Egitto faceuano Iside vestita di negro, per mostrare, ch'ella da sè è corpo fosco, & oscuro: & era questa pur'anco la Luna come si conosceua dalla sua statua fatta in forma di donna con due cornette di bue in testa, come scriue Herodoto, onde non poteuano gli Egitij sacrificare le vacche, come che fossero tutte di questa Deita, benche sacrificassero buoi, & vitelli. O forse era anco perche le fauole dicono che ella fu mutata già in questa bestia da Gioue, poscia, che hebbe goduto di lei, accioche Giunone non se ne auedesse, & che haueua nome allhora Io, & così la chiamano i Greci, & la dissegnano parimente con le corna in capo, ma passata poi in Egitto fu chiamata quiui Iside, & teneua il suo simulacro certo Ciembalo nella destra mano, & nella sinistra haueua vn vaso. Onde come dice Seruio, credettero alcuni, ch'ella fosse il Genio dell'Egitto, quasi che per lei si vedesse la Natura di quel paese,
 
-Колонтитул:
-Кустод:
+Колонтитул: 102 Imagini de i Dei
+Кустод: mo-
 Маргиналии:
 - Theodorito.
 - Aristofane.
@@ -1445,16 +1450,17 @@ Seguita poi, che la verità è, che questo è vn tristo Demonio, il quale ingann
 
 Imagine della Dea Natura tutta piena di poppe, per mostrare, che l'vniuerso piglia nutrimento dalla virtù occulta della medesima.
 
-Колонтитул:
+Колонтитул: De gli Antichi. 103
 Кустод:
 Маргиналии:
+Сигнатура: G4
 
 ## Скан 0146 · с. 104
 
 mostrando il Ciembalo quel rumore, che fà il Nilo, quando cresce, sì, che affonda tutti i campi; & il vaso i laghi, che quiui sono. Altri hanno detto, ch'ella è la terra come riferisce il medesimo Seruio, & Macrobio ancora, ò veramente la Natura delle cose, che al Sole stà soggetta, & quindi viene, che faceuano il corpo di questa Dea tutto pieno, & carico di poppe, come che l'vniuerso pigli nutrimento dalla terra, ouero dalla virtù occulta della Natura, perche fù rappresentata etiandio la Natura con questa imagine da gli antichi. Et intendo, che vn così fatto simulacro fù già trouato in Roma al tempo di Papa Leone decimo, & vedesi questa medesima figura con tante poppe in vna medaglia antica di Adriano. In Egitto quando voleuano dissegnar la Natura nelle loro sacre figure, faceuano l'Auoltoio, & era la ragione di ciò, dice Marcellino, perche tra gli Auoltoi non se ne troua alcuno di maschio, ma tutti sono femine, come scriue Eliano ancora: & fu creduto, che Euro vento di Leuante così seruisse a questi vccelli in vece di maschi, come pare, che Zefiro impregn i la terra: & gli alberi di Primavera. Sono poi stati di quelli, li quali hanno posto in capo al simulacro di Iside vna ghirlanda di Abrotano, & le hanno dato nella sinistra mano la medesima herba, & nella destra vna Nauicella, con la quale voleuano forsi mostrare, che ella passò in Egitto, conciosia, che quiui fosse celebrata vna festa come scriue Lattantio dedicata alla Naue di Iside, perche se bene le fauole finsero, ch'ella mutata in vacca nuotando passasse il mare, nondimeno la historia hà scritto, che lo passò nauigando, & per questo gli Egittij la credettero essere sopra alle nauigationi, & che potesse dare col Nume suo felice corso a' nauiganti. Onde Luciano fà, che Gioue comanda a Mercurio, che vadi a condurre Io per mare in Egitto; & quiui la facci domandare poi Iside, & la facci adorare, come Nume, il quale habbi potere di spargere il Nilo, di fare soffiare i venti, & di conseruare li Nauiganti. Et Apuleio fà, che Iside stessa così parla della sua festa. La mia religione comincierà dimane per durare poi eternamente, & essendo già mitigate le tempeste dell'Inuerno, & fatto il mare di turbato, & tempestoso quieto & nauigabile, i miei sacerdoti mi sacrificheranno vna picciola nauicella a dimostratione del mio passaggio. Alla quale cosa hebbero anco forse mente alcuni popoli della Germania, li quali, come riferisce Alessandro Napolitano, adorauano vna Liburna, che è certa sorte di naue picciola, & veloce, & potremo forse dire, che fosse, come hoggi sono i bergantini, ouero le fregate, credendo, che fosse questa la vera imagine di Iside, il cui simulacro, dice Eliano, che in Egitto haueua il capo cinto, & coronato di vn serpente, & il medesimo si legge appresso di Valerio Flacco, che le dà parimente il Ciembalo in mano. Ouidio, quando
 
-Колонтитул:
-Кустод:
+Колонтитул: 104 Imagini de i Dei
+Кустод: la
 Маргиналии:
 - Seruio Macrobio.
 - Natura.
@@ -1463,7 +1469,7 @@ mostrando il Ciembalo quel rumore, che fà il Nilo, quando cresce, sì, che affo
 - Eliano.
 - Lattantio.
 - Luciano.
-- Apuleio.
+- Epuleio.
 - Valerio Flacco. Ouidio.
 
 ## Скан 0147 · с. 105
@@ -1472,7 +1478,7 @@ mostrando il Ciembalo quel rumore, che fà il Nilo, quando cresce, sì, che affo
 
 Imagine d'Iside Dea Egittia, che è la Luna tenuta la Dea de Nauiganti, & fù Io apo Greci, la quale transformata in vacca da Gioue essendo stata stuprata & ritornata nella sua propria forma fuggì per mare in Egitto, & quiui fu da quelli popoli adorata per beneficij riceuuti.
 
-Колонтитул:
+Колонтитул: De gli Antichi. 105
 Кустод:
 Маргиналии:
 
@@ -1499,8 +1505,8 @@ E le sono i Serpenti, e i Sistri accosto.
 
 Apuleio medesimamente finge di hauerla vista in sogno già quando egli era Asino, & così la descriue che molto bene si può vedere, ch'ella era la Luna, la quale quelli di Egitto con adombrati misterij adorauano. Onde Martiano, fa che Filologia entra nell'orbe della Luna vede quiui i Ciembali, che tante volte hò già nominati, le facelle di Cerere, l'arco di Diana, i timpani di Cibele, & quella figura triforme, della quale hò detto già, che haueua pur'anco le corna in capo, & vna Cerua: quasi che tutte queste cose insieme, & ciascheduna da per sè significasse la Luna. Ma ritornando ad Apuleio, ei dice, che dormendo li parue vedere questa Dea, la quale con riuerenda faccia vsciva del mare (perche finsero i Poeti, che il Sole la Luna, e tutte l'altre stelle tramontando si andassero a tuffar nel mare, & che quindi vscissero al primo loro apparire) & a poco a poco mostrò poi tutto il lucido corpo. Ella haueua il capo ornato di longa & folta chioma lieue mente crespa, & che per lo collo si spargeua, cinta da bella ghirlanda di diuersi fiori, & nel mezo della fronte portaua certa cosa rotonda, schiacciata; & liscia, che risplendeua come specchio, & dall'vna parte, & dall'altra le stauano alcuni serpenti, sopra de' quali erano alcune poche spiche di grano. La veste di diuersi colori era di sottilissimo velo, & hora bianca, hora gialla, & dorata, hora infiammata, & rossa pareua essere. Et vn'altra ne haueua anco poi tutta negra, ma ben però chiara & lucida: & coperta quasi tutta di risplendenti stelle, nel mezo delle quali era vna Luna tutta risplendente,
 
-Колонтитул:
-Кустод:
+Колонтитул: 106 Imagini de i Dei
+Кустод: dente,
 Маргиналии:
 - Apuleio.
 - Martiano.
@@ -1511,7 +1517,7 @@ Apuleio medesimamente finge di hauerla vista in sogno già quando egli era Asino
 
 Imagine d Iside dea de gli Egitij, che è la Luna, con arnesi in mano denotanti la natura del Nilo & dell'Egitto, gl'Ecclissi lunari, & altri effetti suoi si nelle acque, come nelle cose elementari.
 
-Колонтитул:
+Колонтитул: De gli Antichi. 107
 Кустод:
 Маргиналии:
 
@@ -1534,8 +1540,8 @@ Per tutto il mese, siano asciutti, e quieti.
 
 L'altra veste tutta negra mostra, che la Luna, come hò già detto più volte, non hà lume da sè, ma da altri lo riceue. Hanno poi detto alcuni, che Apuleio mette quel ciembalo in mano a questa Dea, per mostrare la vsanza de gli antichi, li quali vsciti allo scoperto faceuano certo strepito, & rumore con vasi di rame, & di ferro, pensando di giouare in quel modo alla Luna, allhora ch'e la perde il lume per intraporfi la terra frà lei, & il Sole, che è nel tempo della Ecclisse, della quale non sapendo la causa, diceuano, che la Luna era tirata in terra per forza d'incanti, perche allhora alcuni Incantatori haueuano dato ad intendere al mondo di potere fare questo, e più ancora. Onde Virgilio disse in persona di certa maga, che gli incantati versi hanno forza di ritirare la Luna giù dal Cielo: & di Medea si legge spesso, che ella faceua discendere la Luna a suo dispetto: & Lucano parlando de gl'incantatori della Thessaglia dice, che essi furono i primi, che facessero forza alle stelle, & che faceuano diuentar la Luna negra, & oscura allhora, che ella doueua essere più chiara, e più lucida, & la teneuano tale fin che ella fosse venuta in terra a fare quello, che
 
-Колонтитул:
-Кустод:
+Колонтитул: 108 Imagini de i Dei
+Кустод: che
 Маргиналии:
 - Virgilio.
 
