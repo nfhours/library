@@ -3287,7 +3287,7 @@ In questo loco mi pare, che non sia fuor di proposito, ma anzi che debba recare 
 - lenta.
 - petto.
 - occhi.
-- varo.
+- raro.
 - core.
 - dei.
 - anco.
@@ -3303,7 +3303,7 @@ In questo loco mi pare, che non sia fuor di proposito, ma anzi che debba recare 
 - tristi.
 - lice.
 - Vita.
-- spene.
+- pene.
 - tema.
 
 ## Скан 0163 · с. 121
@@ -3383,24 +3383,24 @@ In questo loco mi pare, che non sia fuor di proposito, ma anzi che debba recare 
 *Altro ci Vuol ancor? non basta questo?*
 *Deh dimmi'l ver non mi lasciar incerto?*
 *Che ci vol dunque dì per cortesia,*
-*Perche di goia sia l'alma conforte?*
+*Perche di goia sia l'alma consorte?*
 *Sorte? hor altro ci vuol accioche in fine*
-*Voglia, e speme in Van nè starò in forte?*
+*Voglia, e speme in Van nè starò in sorte?*
 *In somma di sopra tutto che gioua,*
-*Perche non sia'l desir indarno, e forte?*
+*Perche non sia'l desir indarno, e sorte?*
 *Hor resta in pace Ninfa; io ti ringratio,*
 *Che co'l tuo ragionar par che mi quiui?*
 
-Hora ritorno à Pan, le cui parti di sotto sono pelose, & aspre, con i piedi di Capra, perche ci rappresentano la terra, la quale è dura, & aspra, & tutta disuguale, coperta di arbori, di infinite piante, e di molta herba. Alcuni, volendo per questo Dio intendersi il Sole, Padre, e Signore di tutte le cose (frà li quali à Macrobio) dicono, che le corna in lui mostrano la effigie della nuoua Luna: la faccia rubiconda, il rossore, che nell'aria si vede all'apparire, & al tramontare del Sole, i cui raggi, che scendono fin giù in terra, sono intesi per la prolissa barba: la pelle maculosa mostra le stelle, che appaiono al dipartire del Sole, la verga la potenza, ch'egli hà sopra le cose; e la fistula l'armonia de i Cieli, la quale vogliono, che dal mouimento del Sole sia stata conosciuta. Ma ò questo, ò altro, che significasse il Dio Pan (per che Platone vuole, che per lui s'intenda il ragionare, e sia biforme, cioè huomo, e Capra, perche si ragiona il vero talhora, e talhora il falso: e perciò la parte di sopra mostra il vero, il quale è accompagnato dalla ragione, & come leggiero, e cosa diuina tende sempre in alto; e quella di sotto il falso, che è tutto bestiale, duro, & aspero, nè altroue habita, che quà giù trà mortali) ma significhi, che si voglia, come dissi questo Dio, egli fù così dipinto da gli antichi; huomo dal mezo in sù con due corna in capo, con faccia sgrignuta, tutta rubiconda, & con vna pelle di Pantera, ò di Pardo, che gli cinge il petto, & le spalle, con l'vna mano tiene vna verga pastorale, & con l'altra vna zampogna di sette canne, dal mezo in giù poi è Capra, con coscie, gambe, e piedi di Capra. Furono nel medesimo modo ancora fatti Fauno, Siluano, & i Satiri, li quali perciò paiono essere di vna medesima natura, tutti hanno certa picciola, e breue coda, & a tutti diedero gli antichi ghirlande di gigli, & di canne, & leggefi, che talhora furono coronati ancora di pioppa, e di finocchi. Onde Virgilio nella vltima Egloga fa Siluano ornato rozzamente il capo di ferole fiorite, &
+Hora ritorno à Pan, le cui parti di sotto sono pelose, & aspre, con i piedi di Capra, perche ci rappresentano la terra, la quale è dura, & aspra, & tutta disuguale, coperta di arbori, di infinite piante, e di molta herba. Alcuni, volendo per questo Dio intendersi il Sole, Padre, e Signore di tutte le cose (frà li quali à Macrobio) dicono, che le corna in lui mostrano la effigie della nuoua Luna: la faccia rubiconda, il rossore, che nell'aria si vede all'apparire, & al tramontare del Sole, i cui raggi, che scendono fin giù in terra, sono intesi per la prolissa barba: la pelle maculosa mostra le stelle, che appaiono al dipartire del Sole, la verga la potenza, ch'egli hà sopra le cose; e la fistola l'armonia de i Cieli, la quale vogliono, che dal mouimento del Sole sia stata conosciuta. Ma ò questo, ò altro, che significasse il Dio Pan (per che Platone vuole, che per lui s'intenda il ragionare, e sia biforme, cioè huomo, e Capra, perche si ragiona il vero talhora, e talhora il falso: e perciò la parte disopra mostra il vero, ilquale è accompagnato dalla ragione, & come leggiero, e cosa diuina tende sempre in alto; e quella di sotto il falso, che è tutto bestiale, duro, & aspero, nè altroue habita, che quà giù trà mortali) ma significhi, che si voglia, come dissi questo Dio, egli fù così dipinto da gli antichi; huomo dal mezo in sù con due corna in capo, con faccia sgrignuta, tutta rubiconda, & con vna pelle di Pantera, ò di Pardo, che gli cinge il petto, & le spalle, con l'vna mano tiene vna verga pastorale, & con l'altra vna zampogna di sette canne, dal mezo in giù poi è Capra, con coscie, gambe, e piedi di Capra. Furono nel medesimo modo ancora fatti Fauno, Siluano, & i Satiri, li quali perciò paiono essere di vna medesima natura, tutti hanno certa picciola, e breue coda, & a tutti diedero gli antichi ghirlande di gigli, & di canne, & leggesi, che talhora furono coronati ancora di pioppa, e di finocchi. Onde Virgilio nella vltima Egloga fa Siluano ornato rozzamente il capo di ferole fiorite, &
 
 Колонтитул: Imagini de i Dei. 122
 Кустод: di
 Маргиналии:
 - Vole.
 - certo.
-- forte.
-- forte.
-- forte.
+- sorte.
+- sorte.
+- sorte.
 - viui.
 - Parti inferiori di Pan.
 - Pan pel Sole.
