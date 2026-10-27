@@ -1432,27 +1432,43 @@ Il Cartari medesimo nel Libro 11. del suo Dialogo, ch'egli intitolò il Flauio, 
 
 ## Скан 0042 · с. 1
 
-LE IMAGINI DE I DEI DE GLI ANTICHI.
+[ВИНЬЕТКА: декоративная наборная полоса из орнаментов вверху страницы]
 
-Raccolte da M. Vicenzo Cartari Reggiano.
+LE IMAGINI
+DE I DEI
+DE GLI ANTICHI,
 
-Di tutte le perfettioni date alla natura humana altra non è, che sia maggiore, nè più propria all'huomo della Religione: & perciò non fù gente alcuna mai, che di questa non participasse in qualche modo. Et benche si dica, che la ragione principalmente fa l'huomo differente da gli animali bruti, nondimeno si vede, che anco innanzi a l'vso di questa, la religione si mostra in lui, come che naturalmente accompagni l'animo humano, secondo che diceua Iamblico Filosofo Platonico, il quale vuole, che certo lume diuino uenghia ferire gli animi nostri, & che in questi risuegli vn'appetito naturale di bene, sopra del quale si discorre poi, & se ne fa giudicio. La qual cosa è stata posta da alcuni sotto la fauola di Prometheo, come che quel fuoco diuino, col quale egli diede vita al primo huomo, tiri di continuo a sè per certe vie occulte, l'anime humane, & che queste parimente sentendo donde sono venute, & da cui hanno hauuto la loro prima origine, a quello naturalmente si riuolghino. Et da questo ancora, dicono, viene, che quando qualche gran cosa si presenta di bene, ò di male, subito, prima che farne altra consideratione, l'huomo alza gli occhi al Cielo, & spesso anco le mani insieme giunte, quasi che naturalmente senta, che di là sù viene ogni bene, & ne voglia perciò rendere gratie,
+Raccolte da *M. Vicenzo Cartari Reggiano.*
 
-Колонтитул:
-Кустод:
+[ВИНЬЕТКА: небольшой орнаментальный разделитель]
+
+[ИНИЦИАЛ: D]i tutte le perfettioni date alla natura humana altra non è, che sia maggiore, nè più propria all'huomo della Religione: & perciò non fù gente alcuna mai, che di questa non participasse in qualche modo. Et benche si dica, che la ragione principalmente fa l'huomo differente da gli animali bruti, nondimeno si vede, che anco innanzi a l'vso di questa, la religione si mostra in lui, come che naturalmente accompagni l'animo humano, secondo che diceua Iamblico Filosofo Platonico, il quale vuole, che certo lume diuino venghi a ferire gli animi nostri, & che in questi risuegli vn'appetito naturale di bene, sopra del quale si discorre poi, & se ne fa giudicio. Laqual cosa è stata posta da alcuni sotto la fauola di Prometheo, come che quel fuoco diuino, col quale egli diede vita al primo huomo, tiri di continuo a sè per certe vie occulte, l'anime humane, & che queste parimente sentendo donde sono venute, & da cui hanno hauuto la loro prima origine, a quello naturalmente si riuolghino. Et da questo ancora, dicono, viene, che quando qualche gran cosa si presenta di bene, ò di male, subito, prima che farne altra consideratione, l'huomo alza gli occhi al Cielo, & spesso anco le mani insieme giunte, quasi che naturalmente senta, che di là sù viene ogni bene, & ne voglia perciò rendere gra
+
+Колонтитул: I
+Кустод: tie,
+Сигнатура: A
 Маргиналии:
 - Religione perfettione principale de gli huomini.
 
 ## Скан 0043 · с. 2
 
-tie, & laude à chi lo manda, & che di là parimente si hà da aspettare aiuto contra ogni male, e perciò lo dimandi humilmente in quel modo; che sono, tutti effetti di religione, la quale fa amare, & temere Dio, che non si può fare però senza hauerne qualche cognitione. Adunque anchora innanzi al discorso della ragione, l'huomo, à certo modo, conosce, & riuerisce Dio, il che lo fa differente dalle bestie, nelle quali hanno ben voluto dire alcuni, che sia qualche cosa ragioneuole, ma, chi habbi dato loro lume alcuno di religione, non si è trouato mai. Et però questa è tutta & solamente de gli huomini, & essi scorti da questa hanno leuato gli occhi al Cielo, & considerando la miracolosa dispositione dell'vniuerso, hanno detto esserui chi con infinito amore, & potere, & con somma prouidenza ordina tutte le cose, le gouerna, & ne hà continua cura. Et fù questo chiamato Dio, perche è datore di tutti i beni, eterno, infinito, & inuisibile. Ma non si attenne però ogn'vno sempre à questa verità, perche cominciando gli huomini à consentire alla dapochezza sua & dilettarsene troppo, non guardarono più oltre, che vedessero con gli occhi del corpo; & quindi prefero occasione di credere, che le Stelle, il Sole, la Luna, & il Cielo stesso fossero Dei, come scriue Platone, che questi furono i primi adorati così da' Greci, come già innanzi à loro da molte nationi barbare; & vuole che dal continuo mouimento, che vedeuano loro fare, tirando il nome da certa voce Greca, gli chiamassero Dei. Venne questo inganno crescendo dapoi in modo, che molti huomini ancora furono giudicati Dei, & come Dei furono adorate parimente alcune bestie, & a tutti erano drizzati diuersi simulacri, come fu anco fatto non solo alle virtù, ma a gli vitij anchora, dando a ciascheduno di loro nome di Dio, & di Nume; a quelle perche fossero presenti sempre, & giouassero; a questi perche non nocessero, & stessero lontani. Onde fù quasi infinita la moltitudine de i Dei appresso de gli antichi; perche non solamente le nationi, ma ciascheduna Città, ogni luogo, ogni casa, & ogni persona se ne faceua a modo suo, & non vi fù quasi alcuna delle attioni humane, dalla quale non fosse nominato qualche Dio. Nè fu questa moltitudine di Dei appresso de gli antichi nel volgo solamente, ma frà quelli anchora, li quali erano stimati sapere assai. Perche questi oltre a certo primo, & vnico bene, qual diceuano esser causa di tutte le cose, metteuano poi vn numero quasi infinito di altra gente, che adorauano pur'anche, & ne domandano alcuni Dei, altri Demoni, altri Heroi, & a tutti dauano officij loro appropriati, & luochi distinti; sì come era anco distinto il modo del sacrificare a gli vni & a gli altri. Herodoto scriue, che quelli di Egitto nominarono dodici Dei solamente da principio; & parvero imitarli i Pitagorici, perche si legge, che i Greci tolsero queste
+tie, & laude à chi lo manda, & che di là parimente si hà da aspettare aiuto contra ogni male, e perciò lo dimandi humilmente in quel modo; che sono, tutti effetti di religione, la quale fa amare, & temere Dio, che non si può fare però senza hauerne qualche cognitione. Adunque anchora innanzi al discorso della ragione, l'huomo, à certo modo, conosce, & riuerisce Dio, il che lo fa differente dalle bestie, nelle quali hanno ben voluto dire alcuni, che sia qualche cosa ragioneuole, ma, chi habbi dato loro lume alcuno di religione, non si è trouato mai. Et però questa è tutta & solamente de gli huomini, & essi scorti da questa hanno leuato gli occhi al Cielo, & considerando la miracolosa dispositione dell'vniuerso, hanno detto esserui chi con infinito amore, & potere, & con somma prouidenza ordina tutte le cose, le gouerna, & ne hà continua cura. Et fù questo chiamato Dio, perche è datore di tutti i beni, eterno, infinito, & inuisibile. Ma non si attenne però ogn'vno sempre à questa verità, perche cominciando gli huomini à consentire alla dapochezza sua & dilettarsene troppo, non guardarono più oltre, che vedessero con gli occhi del corpo; & quindi presero occasione di credere, che le Stelle, il Sole, la Luna, & il Cielo stesso fossero Dei, come scriue Platone, che questi furono i primi adorati così da' Greci, come già innanzi à loro da molte nationi barbare; & vuole che dal continuo mouimento, che vedeuano loro fare, tirando il nome da certa voce Greca, gli chiamassero Dei. Venne questo inganno crescendo dapoi in modo, che molti huomini ancora furono giudicati Dei, & come Dei furono adorate parimente alcune bestie, & a tutti erano drizzati diuersi simulacri, come fu anco fatto non solo alle virtù, ma a gli vitij anchora, dando a ciascheduno di loro nome di Dio, & di Nume; a quelle perche fossero presenti sempre, & giouassero; a questi perche non nocessero, & stessero lontani. Onde fù quasi infinita la moltitudine de i Dei appresso de gli antichi; perche non solamemente le nationi, ma ciascheduna Città, ogni luoco, ogni casa, & ogni persona se ne faceua a modo suo, & non vi fù quasi alcuna delle attioni humane, dalla quale non fosse nominato qualche Dio. Nè fu questa moltitudine di Dei appresso de gli antichi nel volgo solamente, ma frà quelli anchora, li quali erano stimati sapere assai. Perche questi oltre a certo primo, & vnico bene, qual diceuano esser causa di tutte le cose, metteuano poi vn numero quasi infinito di altra gente, che adorauano pur'anche, & ne domandano alcuni Dei, altri Demoni, altri Heroi, & a tutti dauano officij loro appropriati, & luochi distinti; sì come era anco distinto il modo del sacrificare a gli vni & a gli altri. Herodoto scriue, che quelli di Egitto nominarono dodici Dei solamente da principio; & parvero imitarli i Pitagorici, perche si legge, che i Greci tolsero
 
-Колонтитул:
-Кустод:
+Колонтитул: 2 · Imagini de i Dei
+Кустод: queste
 Маргиналии:
 - Plutarco nel dialogo detto Grillo.
 - Moltitudine di Dei.
 - Herodoto Dei principali dodeci.
+
+## Скан 0044 · с. 3a
+
+[ГРАВЮРА: A carte 3 — вставная полностраничная гравюра: иерархическая схема мироздания в виде веера концентрических дуг; наверху сонм языческих божеств на облаках, ниже пояс зодиакальных созвездий и зверей, далее семь планетных знаков в медальонах, затем пояса с летящими и борющимися обнажёнными фигурами (гении/души), внизу пламя с рогатыми демонами и страждущими душами]
+
+Колонтитул:
+Кустод:
+Сигнатура:
+Маргиналии:
 
 ## Скан 0045 · с. 3
 

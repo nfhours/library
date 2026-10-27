@@ -40,9 +40,9 @@ scan,label,printed_number,state,unclear,engravings,note,method,discrepancies,err
 0039,XXVIII,,done,0,1,,double,0,0,0
 0040,XXIX,,done,0,0,,double,0,0,0
 0041,1a,,done,0,1,,double,0,0,0
-0042,1,,draft,0,0,,,,,
-0043,2,,draft,0,0,,,,,
-0044,3a,,todo,0,0,,,,,
+0042,1,,done,0,3,,double,7,6,1
+0043,2,,done,0,0,,double,7,6,1
+0044,3a,,done,0,1,,double,2,1,1
 0045,3,,draft,0,0,,,,,
 0046,4,,draft,0,0,,,,,
 0047,5,,draft,0,0,,,,,
