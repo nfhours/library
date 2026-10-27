@@ -4,10 +4,14 @@ Cartari 1626 - сборочный скрипт.
 Чистый код, без вызовов AI/LLM.
 
 1) Собирает pages/*.md по порядку сканов (как в PAGES.tsv) в единый TEXT.md
-   с заголовками "## Скан NNNN · с. X" (X = label из PAGES.tsv).
+   с заголовками "## Скан NNNN · с. X" (X = label из PAGES.tsv). Строки
+   "Рукописно: ..." и "Штамп: ..." (владельческие записи, пометки, штампы
+   библиотеки - не текст книги) в TEXT.md не попадают.
 2) Собирает ENGRAVINGS.md из пометок [ГРАВЮРА: ...], [ВИНЬЕТКА: ...],
    [ИНИЦИАЛ: ...] - одна строка-находка на пометку, по порядку сканов,
    без дублей. Сюжет на русском оставлен пустым.
+3) Собирает PROVENANCE.md (история экземпляра) из строк "Рукописно: ..."
+   и "Штамп: ..." по всем pages/*.md, по порядку сканов.
 """
 import csv
 import os
@@ -18,8 +22,10 @@ PAGES_TSV = os.path.join(BASE, "PAGES.tsv")
 PAGES_DIR = os.path.join(BASE, "pages")
 TEXT_OUT = os.path.join(BASE, "TEXT.md")
 ENGRAVINGS_OUT = os.path.join(BASE, "ENGRAVINGS.md")
+PROVENANCE_OUT = os.path.join(BASE, "PROVENANCE.md")
 
 MARK_RE = re.compile(r"\[(ГРАВЮРА|ВИНЬЕТКА|ИНИЦИАЛ)\s*:?\s*([^\]]*)\]")
+PROVENANCE_LINE_RE = re.compile(r"^(Рукописно|Штамп):[ \t]*(.*)$")
 
 
 def load_pages_tsv():
@@ -45,11 +51,26 @@ def strip_header_line(body):
     return "\n".join(lines).rstrip("\n")
 
 
+def extract_provenance(body):
+    """Pulls out "Рукописно: ..." / "Штамп: ..." lines, returns
+    (body_without_them, [(kind, value), ...])."""
+    kept_lines = []
+    found = []
+    for line in body.split("\n"):
+        m = PROVENANCE_LINE_RE.match(line.strip())
+        if m:
+            found.append((m.group(1), m.group(2).strip()))
+            continue
+        kept_lines.append(line)
+    return "\n".join(kept_lines), found
+
+
 def main():
     pages_tsv = load_pages_tsv()
     seen_marks = set()
     text_parts = []
     engraving_rows = []
+    provenance_rows = []
 
     n_included = 0
     for scan, label in pages_tsv:
@@ -60,6 +81,9 @@ def main():
         with open(fpath, encoding="utf-8") as f:
             raw = f.read()
         body = strip_header_line(raw)
+        body, provenance = extract_provenance(body)
+        for kind, value in provenance:
+            provenance_rows.append((scan, label, kind, value))
         header = f"## Скан {scan} · с. {label}"
         text_parts.append(header + "\n\n" + body)
 
@@ -85,8 +109,22 @@ def main():
             caption_md = caption.replace("|", "\\|")
             f.write(f"| {scan} | {label} | {type_ru} | {caption_md} | |\n")
 
+    with open(PROVENANCE_OUT, "w", encoding="utf-8") as f:
+        f.write("# Cartari 1626: история экземпляра (провенанс)\n\n")
+        f.write(
+            "Рукописные пометки, владельческие записи и библиотечные штампы — "
+            "не текст книги, собраны сюда отдельно из pages/*.md скриптом "
+            "build.py, по порядку сканов. В TEXT.md не входят.\n\n"
+        )
+        f.write("| Скан | Стр. | Тип | Текст |\n")
+        f.write("|---|---|---|---|\n")
+        for scan, label, kind, value in provenance_rows:
+            value_md = value.replace("|", "\\|")
+            f.write(f"| {scan} | {label} | {kind} | {value_md} |\n")
+
     print(f"TEXT.md собран: {n_included} разделов -> {TEXT_OUT}")
     print(f"ENGRAVINGS.md собран: {len(engraving_rows)} находок -> {ENGRAVINGS_OUT}")
+    print(f"PROVENANCE.md собран: {len(provenance_rows)} записей -> {PROVENANCE_OUT}")
 
 
 if __name__ == "__main__":

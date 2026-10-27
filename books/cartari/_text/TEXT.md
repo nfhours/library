@@ -42,15 +42,6 @@ IMAGINI
 DELLI DEI
 DEL CARTARI.
 
-(Ниже напечатанного заголовка — рукописная владельческая запись пером, чернила выцвели, часть букв читается неуверенно:)
-
-Ce Liure Apartien à M.r
-francois Alexandre
-Mion, M.tre de Dance
-De S.M. Le Roi De Sardaigne,
-Et de la famille Royal
-page de Naple No. 12.
-
 Колонтитул:
 Кустод:
 Сигнатура:
@@ -66,10 +57,6 @@ page de Naple No. 12.
 Маргиналии:
 
 ## Скан 0007 · с. Titelblatt_2r
-
-(Над печатной рамкой — рукописная помета пером, частично неразборчива:)
-a Partien à M.r f. A. Mion,
-M.tre de Dance
 
 SECONDA NOVISSIMA EDITIONE
 DELLE
@@ -103,9 +90,6 @@ Nella stamparia di Pietro Paolo Tozzi.   M.DC.XXVI.
 ## Скан 0008 · с. Titelblatt_2v
 
 [ПУСТАЯ СТРАНИЦА]
-
-UNIVERSITÄTS-BIBLIOTHEK HEIDELBERG
-(овальный библиотечный штамп)
 
 Колонтитул:
 Кустод:
