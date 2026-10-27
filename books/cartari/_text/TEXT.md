@@ -1661,10 +1661,10 @@ Et Propertio fà dire in questo modo a Vertunno della sua statoa.
 
 ## Скан 0057 · с. 15
 
-Nelle Isole scoperte gl'anni passati da Spagnoli, che hora si addimandano il Mondo Nouo perche a gli antichi furono incognite, si è trouato che quei popoli, adorauano alcuni Idoli fatti qual di creta, qual di legno, & qual di pietra. Et Plinio scriue, che benche il fare delle statue fosse in Italia cosa molto antica, come si può conoscere da l'Hercole, che fù consecrato sino da Euandro nel foro Boario, qual soleuano vestire con ornamenti trionfali sempre ne' tempi de' Trionfi, non furono però dati a i Dei, nè a' tempij loro simulacri di altro, che di legno, prima che fosse da' Romani soggiogata l'Asia, dalla quale passarono in Italia le preciose statue, perche non si contentò sempre la Grecia del legno solo per farne gli suoi Dei, ma gli fece anco d'oro. & di altri diuersi metalli, & per mostrarfi più splendida, & magnifica verso quelli, dice Pausania, che ella fece spesso venire l'Auorio sino d'India, & da gli Ethiopi per farne loro delle statue: & che di ferro ancora ne fù fatta qualch'vna, come l'Hercole che combatte l'Hidra appresso de i Focesi; ma che questo fù così difficile, che poche ne erano fatte delle statue di ferro. Onde in Pergamo città dell'Asia andauano molti a vedere, come cose marauigliose, due teste di ferro consecrate a Bacco, l'vna di Lione, l'altra di Cingiale. Coridone cantando con Tirsi appresso di Vergilio promette a Diana farla tutta di polito marmo, & quiui Seruio auertisce, che soleuano spesso gli antichi fare il capo solamente, & il petto di marmo alle statue. Oltre di ciò fecero quasi sempre alcuni Dei vili, e plebei, come Priapo, & altri a lui simili, che stauano per lo più nei campi, & allo scoperto, di legno solamente, di terra, ò di altra simile materia vile; & gli altri più nobili, come i Dei del Cielo, di materia più degna. Nè furono tutti i Dei de gli antichi fatti in forma humana sempre, ma souente alla similitudine di diuersi animali, & di huomo, & di bestia insieme giunti anco talhora; onde se, come scriue Seneca, & lo riferisce Santo Agostino, fossero stati viui, nella forma, che erano fatti loro i simulacri, farebbono stati non come Numi adorati, ma fuggiti come mostri. Et in Egitto più che in altro paese furono questi mostruosi simulacri, come si vedrà in molte imagini alle quali darò principio dalla Eternità: perche se bene non erano tutti i Dei de gli antichi eterni, & immortali, erano però tenuti tali i più degni, & perciò fù creduto, che la Eternità gli accompagnasse sempre: benche il Boccaccio oue racconta la Genealogia de i Dei, dica che la diedero gli antichi per compagna a Demorgogone solamente, quale ei mette, che fosse il primo di tutti i Dei, & che habitasse nel mezo della terra tutto pallido, e circondato di scurissima nebbia, coperto di certa humidità lanuginosa, come sono apunto quelle cose che stanno in luoco humido. Ma io non hò trouato ancora mai, ne visto scrittore antico, che parli di costui.
+Nelle Isole scoperte gl'anni passati da Spagnoli, che hora si addimandano il Mondo Nouo perche a gli antichi furono incognite, si è trouato che quei popoli, adorauano alcuni Idoli fatti qual di creta, qual di legno, & qual di pietra. Et Plinio scriue, che benche il fare delle statoe fosse in Italia cosa molto antica, come si può conoscere da l'Hercole, che fù consecrato fino da Euandro nel foro Boario, qual soleuano vestire con ornamenti trionfali sempre ne' tempi de' Trionfi, non furono però dati a i Dei, nè a' tempij loro simulacri di altro, che di legno, prima che fosse da' Romani soggiogata l'Asia, dalla quale passarono in Italia le preciose statoe, perche non si contentò sempre la Grecia del legno solo per farne gli suoi Dei, ma gli fece anco d'oro. & di altri diuersi metalli, & per mostrarsi più splendida, & magnifica verso quelli, dice Pausania, che ella fece spesso venire l'Auorio fino d'India, & da gli Ethiopi per farne loro delle statoe: & che di ferro ancora ne fù fatta qualch'vna, come l'Hercole che combatte l'Hidra appresso de i Focesi; ma che questo fù così difficile, che poche ne erano fatte delle statoe di ferro. Onde in Pergamo città dell'Asia andauano molti a vedere, come cose marauigliose, due teste di ferro consecrate a Bacco, l'vna di Lione, l'altra di Cingiale. Coridone cantando con Tirsi appresso di Vergilio promette a Diana farla tutta di polito marmo, & quiui Seruio auertisce, che soleuano spesso gli antichi fare il capo solamente, & il petto di marmo alle statoe. Oltre di ciò fecero quasi sempre alcuni Dei vili, e plebei, come Priapo, & altri a lui simili, che stauano per lo più nei campi, & allo scoperto, di legno solamente, di terra, ò di altra simile materia vile; & gli altri più nobili, come i Dei del Cielo, di materia più degna. Nè furono tutti i Dei de gli antichi fatti in forma humana sempre, ma souente alla similitudine di diuersi animali, & di huomo, & di bestia insieme giunti anco talhora; onde se, come scriue Seneca, & lo riferisce Santo Agostino, fossero stati viui, nella forma, che erano fatti loro i simulacri, farebbono stati non come Numi adorati, ma fuggiti come mostri. Et in Egitto più che in altro paese furono questi mostruosi simulacri, come si vedrà in molte imagini alle quali darò principio dalla Eternità: perche se bene non erano tutti i Dei de gli antichi eterni, & immortali, erano però tenuti tali i più degni, & perciò fù creduto, che la Eternità gli accompagnasse sempre: benche il Boccaccio oue racconta la Genealogia de i Dei, dica che la diedero gli antichi per compagna a Demorgogone solamente, quale ei mette, che fosse il primo di tutti i Dei, & che habitasse nel mezo della terra tutto pallido, e circodato di scurissima nebbia, coperto di certa humidità lanuginosa, come sono apunto quelle cose che stanno in luoco humido. Ma io non hò trouato ancora mai, ne visto scrittore antico, che parli di costui.
 
-Колонтитул:
-Кустод:
+Колонтитул: De gli Antichi. · с. 15
+Кустод: Però
 Маргиналии:
 - Plinio.
 - Euandro.
@@ -1674,27 +1674,27 @@ Nelle Isole scoperte gl'anni passati da Spagnoli, che hora si addimandano il Mon
 
 ## Скан 0058 · с. 16
 
-[ГРАВЮРА — полностраничная]
+[ГРАВЮРА: Imagini della Eternità, con l'imagine del dio Demogorgone compagno della Eternità, co'l serpente, che si morde la coda, significante l'anno, & sua reuolutione.]
 
-Imagini della Eternità, con l'imagine del dio Demiogorgone compagno della Eternità, co'l serpente, che si morde la coda, significante l'anno, & sua reuolutione.
-
-Колонтитул:
+Колонтитул: Imagini de i Dei · с. 16
 Кустод:
+Сигнатура:
 Маргиналии:
 
 ## Скан 0059 · с. 17
 
-Però dico, che la Eternita staua sempre con quelli Dei, che erano creduti immortali; la quale chi ella fosse dimostra assai bene col nome solo che viene a dire cosa, che in sè contiene tutte le età, & tutti i secoli, sì che spatio alcuno di tempo non la può misurare: benche si possa dire a certo modo, che ella sia parimente tempo, ma che non ha mai fine. Et perciò Trismegisto, i Pitagorici, & Platone dissero, che era il tempo la imagine della Eternità; perche questo in se stesso si riuolue, & parte che non se ne veggia mai il fine. Ma questa si può dire più tosto Perpetuità; perche, ancora che non habbia mai fine, non possiede però interamente tutta in vn medesimo punto questa sua vita infinita; che è proprio della Eternità, secondo Boetio; il quale dice, che se bene parue a Platone che il mondo non habbi hauuto principio, nè sia per hauere mai fine, si ingannano però quelli, liquali seguitando questa opinione lo chiamano coeterno a Dio; perche a dare il suo proprio nome alle cose, hanno da dire, tenendo anco la opinione di Platone, che Dio è Eterno & il mondo perpetuo. Descriue dunque Boetio la Eternità, che sia vn possesso presentaneo di tutti i tempi, & questa è propria di Dio, perche a lui non passa, nè viene il tempo, come a tutte le cose create; ancora che qualch'vna fosse per non hauere mai fine. Ma non la cerchiamo per hora tanto a minuto, come forse non la cercarono gli antichi, quando dissero eterni li suoi Dei, volendo perciò intendere che fossero immortali, & per non hauere mai fine, & che la Eternità fosse questa infinità di tempo. Onde Claudiano, che largamente la descriue nelle laudi di Stilicone, fà che vn serpente circonda l'antro, oue ella stà, in modo che si caccia la coda in bocca, che viene a mostrare l'effetto del tempo, il quale in se stesso si va girando sempre, hauendone tolto l'essempio da quelli di Egitto, liquali mostrauano l'anno parimente col serpente, che si mordeua la coda; perche sono i tempi giunti insieme così, che il fine del passato è quasi principio di quel che hà da venire. Vede si la Eternità in vna medaglia di Faustina fatta in questa guisa. Stà vna donna vestita da matrona in piè con vna palla nella destra mano, & hà sopra'l capo vn largo velo disteso, che la cuopre dall'vno homero all'altro. Ma vediamo tutto il disegno, che ne fà Claudiano, da me ritratto in nostra lingua a questo modo.
+Però dico, che la Eternita staua sempre con quelli Dei, che erano creduti immortali; la quale chi ella fosse dimostra assai bene col nome solo che viene a dire cosa, che in sè contiene tutte le età, & tutti i secoli, sì che spatio alcuno di tempo non la può misurare: benche si possa dire a certo modo, che ella sia parimente tempo, ma che non ha mai fine. Et perciò Trismegisto, i Pitagorici, & Platone dissero, che era il tempo la imagine della Eternità; perche questo in se stesso si riuolue, & pare che non se ne veggia mai il fine. Ma questa si può dire più tosto Perpetuità; perche, ancora che non habbia mai fine, non possiede però interamente tutta in vn medesimo punto questa sua vita infinita; che è proprio della Eternità, secondo Boetio; ilquale dice, che se bene parue a Platone che il mondo non habbi hauuto principio, nè sia per hauere mai fine, si ingannano però quelli, liquali seguitando questa opinione lo chiamano coeterno a Dio; perche a dare il suo proprio nome alle cose, hanno da dire, tenendo anco la opinione di Platone, che Dio è Eterno & il mondo perpetuo. Descriue dunque Boetio la Eternità, che sia vn possesso presentaneo di tutti i tempi, & questa è propria di Dio, perche a lui non passa, nè viene il tempo, come a tutte le cose create; ancora che qualch'vna fosse per non hauere mai fine. Ma non la cerchiamo per hora tanto a minuto, come forse non la cercarono gli antichi, quando dissero eterni li suoi Dei, volendo perciò intendere che fossero immortali, & per non hauere mai fine, & che la Eternità fosse questa infinità di tempo. Onde Claudiano, che largamente la descriue nelle laudi di Stilicone, fà che vn serpente circonda l'antro, oue ella stà, in modo che si caccia la coda in bocca, che viene a mostrare l'effetto del tempo, ilquale in se stesso si va girando sempre, hauendone tolto l'essempio da quelli di Egitto, liquali mostrauano l'anno parimente col serpente, che si mordeua la coda; perche sono i tempi giunti insieme così, che il fine del passato è quasi principio di quel che hà da venire. Vedesi la Eternità in vna medaglia di Faustina fatta in questa guisa. Stà vna donna vestita da matrona in piè con vna palla nella destra mano, & hà sopra'l capo vn largo velo disteso, che la cuopre dall'vno homero all'altro. Ma vediamo tutto il disegno, che ne fà Claudiano, da me ritratto in nostra lingua a questo modo.
 
-In parte sì da noi lunge, e secreta,
-Ch'alcun mortal vestigio non v'appare,
-Ou' a l'humana mente il gir si vieta,
-Nè vi ponno anco i Dei forse arriuare,
-Vna spelonca giace d'anni lieta,
-Madre d'infiniti anni, e d'età pare,
+*In parte sì da noi lunge, e secreta,*
+*Ch'alcun mortal vestigio non v'appare,*
+*Ou' a l'humana mente il gir si vieta,*
+*Nè vi ponno anco i Dei forse arriuare,*
+*Vna spelonca giace d'anni lieta,*
+*Madre d'infiniti anni, e d'età pare,*
 
-Колонтитул:
-Кустод:
+Колонтитул: De gli Antichi. · с. 17
+Кустод: Laqual
+Сигнатура: B
 Маргиналии:
 - Eternità.
 - Trismegisto.
@@ -1707,14 +1707,14 @@ Madre d'infiniti anni, e d'età pare,
 ## Скан 0060 · с. 18
 
 Laqual con modo, ch'Vnqua non vien meno,
-Manda, e richiama i tempi al'ampio seno.
+Manda, e richiama i tempi a l'ampio seno.
 Questa col flessuoso corpo cinge
-Vn serpe pien di Verdeggiante squame,
+Vn serpe pien di verdeggianti squame,
 Qual ciò, che troua auidamente stringe
 Come che diuorar ei tutto brame,
 E la coda si caccia in gola, e finge
 Voler mangiarla con auida fame.
-Vaffene in giro, e con l'Vsate tempre
+Vassene in giro, e con l'Vsate tempre
 Onde parti, cheto ritorna sempre.
 A la porta con faccia riuerenda,
 Et d'anni piena stà l'alma Natura,
@@ -1726,7 +1726,7 @@ Da le membra, ch'a lei son date in sorte,
 E stan con lei sino che piace a Morte.
 Ne l'antro poi, ne la spelonca immensa
 Vn Vecchio, c'hà di bianca neue asperso
-Il mento, e'l crine stà, scriue e dispersa
+Il mento, e'l crine stà, scriue e dispensa
 Le ferme leggi date a l'Vniuerso.
 E mentre ch'a disporre il tutto pensa
 Con l'animo al bell'ordine conuerso,
@@ -1738,24 +1738,25 @@ Da che quanto tra noi si more, ò viue,
 Ha vita, e morte, poi torna a guardare.
 E riueder come al suo corso arriue
 Marte, qual, bench'auezzò a caminare
-Per Via certa, và pur a certo fine;
+Per Via certa, và pur'à certo fine;
 Che così voglion le leggi diuine.
 Come con certo passo giri intorno
 Gioue portando giouamento al mondo,
 Come la Luna si nasconda il giorno,
-E tosto muti il bel lume secondo,
+E tosto muti il bel lume feconde,
 Come partendo sia tardo al ritorno
-Saturno horrido, mesto, & infcondo;
+Saturno horrido, mesto, & infecondo;
 Quanto Venere bella, e doppo lei
 Errando Vada il messaggier de i Dei.
 
-Колонтитул:
-Кустод:
+Колонтитул: Imagini de i Dei · с. 18
+Кустод: E quando
+Сигнатура:
 Маргиналии:
 
 ## Скан 0061 · с. 19
 
-E quando Febo a l'antro s'auicina
+E quando Febo a l'antro s'auuicina
 Subito ad incontrarlo la potente
 Natura viene, e a gli altri rai s'inchina
 Il bianco Vecchio humile, e riuerente.
@@ -1774,13 +1775,13 @@ Il mondo tutto Vn poco men turbato.
 Vno ve n'è d'argento, che risplende
 In bel seggio eleuato d'ogn'intorno;
 Ma di rado tra noi mortai discende
-A far di sè bel lume il mondo adorno.
+A far di sì bel lume il mondo adorno.
 Quello, che più de gli altri in alto ascende
 È d'oro, e d'oro son quei, ch'egli ha intorno,
 Tutti pieni di fede, e di prudenza,
 Di bontà, di giustitia, e di clemenza.
 E son gli anni beati, ch'a mortali
-Apporteran felicità immense,
+Apporteran felicitade immensa,
 All'hor, ch'haurà pietà de' nostri mali
 Febo, che questi a modo suo dispensa,
 Et farà, che dal Ciel spiegando l'ali
@@ -1788,10 +1789,11 @@ La bella Astrea di nuouo amor' accensa
 Di riueder il mondo a star frà noi
 Verrà senza più mai partirne poi.
 
-La descritione, & il disegno di questo antro, ò spelonca, che la vogliamo dire, ci mostra, come l'espone il Boccaccio; che la Eternità va sopra a tutti i tempi. & perciò ella è di lunge, & incognita non solamente a mortali, ma quasi ancora a Dei celesti, cioè a quelle beate anime, che sono sù ne i Cieli. Et dal gran seno manda alla spelonca i tempi, & questi richiama pur'anco al medesimo; perche in lei hanno hauuto già principio, & riuolgendosi in se stessi paiono vscire da quella, & ritornare anco alla medesima. Et fassi questo tacitamente, perche non ce ne auuedendo noi, passa il tempo, come di nascosto. Alla porta, oue stà la Natura, vanno volando
+La descrittione, & il disegno di questo antro, ò spelonca, che la vogliamo dire, ci mostra, come l'espone il Boccaccio; che la Eternità va sopra a tutti i tempi. & perciò ella è di lunge, & incognita non solamente a mortali, ma quasi ancora a Dei celesti, cioè a quelle beate anime, che sono sù ne i Cieli. Et dal gran seno manda alla spelonca i tempi, & questi richiama pur'anco al medesimo; perche in lei hanno hauuto già principio, & riuolgendosi in se stessi paiono vscire da quella, & ritornare anco alla medesima. Et fassi questo tacitamente, perche non ce ne auuedendo noi, passa il tempo, come di nascosto. Alla porta, oue stà la Natura, vanno volando
 
-Колонтитул:
-Кустод:
+Колонтитул: De gli Antichi. · с. 19
+Кустод: molte
+Сигнатура: B 2
 Маргиналии:
 - Espositione dell'antro dell'Eternità.
 
@@ -1801,20 +1803,22 @@ La descritione, & il disegno di questo antro, ò spelonca, che la vogliamo dire,
 
 Antro dell'Eternità, con l'imagine del Tempo, ò del Fato, di Febo, della Natura, & delli quattro secoli, che significano da Dio venir il tutto, & da quello il tutto esser compreso, & la reuolutione delle cose humane.
 
-Колонтитул:
+Колонтитул: Imagini de i Dei · с. 20
 Кустод:
+Сигнатура:
 Маргиналии:
 
 ## Скан 0063 · с. 21
 
-molte anime intorno, perche scendono ne i corpi mortali, d'onde vscendo poi vanno in grembo alla Eternità, il che tutto si fà per opra della Natura, & perciò ella stà quiui alla porta. Il Vecchio che parte per numero le stelle forse è Dio, non perche ei sia vecchio, che in lui non si può dire, che sia termine alcuno di età, ma perche sogliono parlare così gli huomini, che chiamano di molta età quelli etiandio, che non ponno morire, il quale dando ordine al mouimento delle stelle distingue i tempi. Ma forse che più proprio sarebbe dire, che il vecchio fosse il Fato, perche quello s'inchina a Febo, che si potrebbe torre per Dio, quando si presenta alla spelonca. Altro non dice poi il Boccaccio de i secoli, che sono quiui, come che sia cosa facile ad ogn'vno, & io parimente non ne dirò più, per venire alla imagine di Saturno, perche lo tolsero gli antichi pe'l tempo, & del tempo habbiamo già cominciato a dire ragionando della Eternità.
+molte anime intorno, perche scendono ne i corpi mortali, d'onde vscendo poi vanno in grembo alla Eternità, il che tutto si fà per opra della Natura, & perciò ella stà quiui alla porta. Il Vecchio che parte per numero le stelle forse è Dio, non perche ei sia vecchio, che in lui non si può dire, che sia termine alcuno di età, ma perche sogliono parlare così gli huomini, che chiamano di molta età quelli etiandio, che non ponno morire, ilquale dando ordine al mouimento delle stelle distingue i tempi. Ma forse che più proprio sarebbe dire, che il vecchio fosse il Fato, perche quello s'inchina a Febo, che si potrebbe torre per Dio, quando si presenta alla spelonca. Altro non dice poi il Boccaccio de i secoli, che sono quiui, come che sia cosa facile ad ogn'vno, & io parimente non ne dirò più, per venire alla imagine di Saturno, perche lo tolsero gli antichi pe'l tempo, & del tempo habbiamo già cominciato a dire ragionando della Eternità.
 
 La quale non ardisco già di desiderare a questa mia fatica, ma prego bene, chi lo può fare, che voglia darle vita per qualche tempo.
 
 [ВИНЬЕТКА внизу страницы — декоративный мотив с путти]
 
-Колонтитул:
-Кустод:
+Колонтитул: De gli Antichi. · с. 21
+Кустод: SATVR-
+Сигнатура: B 3
 Маргиналии:
 
 ## Скан 0064 · с. 22
@@ -1827,9 +1831,9 @@ Ed a forza priuato de' suoi regni,
 Venne a mostrar a gli huomini, ch'allhora
 Come le fere andauano dispersi
 Per gli alti monti, il modo di raccorsi
-Insieme, e d'obbidire a certe leggi.
+Insieme, e d'vbbidire a certe leggi.
 Et il paese, oue a principio ei stette
-Latente, fù perciò chiamato Latio.
+Latente, fù perciò chiamvto Latio.
 Sotto'l gouerno di costui si dice
 Che fù il felice secolo de l'oro
 Così reggeua ei giustamente i suoi
@@ -1837,8 +1841,9 @@ Popoli dando lor riposo, e pace.
 
 In questo modo canta Virgilio di Saturno, mettendo la historia con le fauole, conciosia che quella reciti che Saturno andò in Italia scacciato di Grecia dal figliuolo, & queste habbino finto poi, che egli era prima Signore del Cielo, & che Gioue ne lo scacciò, & lo fece scendere al basso; perche la Grecia è più verso l'Oriente, & perciò più alta della Italia, che rende verso l'Occidente. Ritiratosi adunque Saturno in Italia, fù da Giano Rè di quel paese, oue poi fù messa Roma, che se ne viueua con suoi popoli quella roza vita de più antichi mortali, tolto a parte del regno, perche gli mostrò la coltiuatione de i campi, & il fare gli denari di metallo, che prima erano di cuoio. Et fù perciò fatta sù questi poi dall'vno de lati vna naue, perche Saturno nauigando andò in Italia, e dall'altro vna testa con due faccie, che tale era la imagine di Giano, come vederemo poi. Edificarono questi due Rè communemente terre, & castelli vicini, che dal loro nome i chiamarono; come Saturnia da Saturno, & Gianicolo da Giano. Onde tanto fu stimato Saturno da quelle genti, che insieme col Rè loro cominciarono a riuerirlo come Dio, perche erano all'hora stimati Dei quelli, liquali sapeuano trouare, & là insegnauano, qualche arte che fosse vtile alla vita humana; & questa di coltiuare il terreno, & farlo con arte più fecondo, che non è di sua natura, e vtilissima; & perciò Saturno ne meritò gli sacri honori, & fu chiamato Stercutio dallo stercorare i campi, cioè dare
 
-Колонтитул:
-Кустод:
+Колонтитул: Imagini de i Dei · с. 22
+Кустод: loro
+Сигнатура:
 Маргиналии:
 - Virgilio.
 - Stercutio.
@@ -1847,31 +1852,34 @@ In questo modo canta Virgilio di Saturno, mettendo la historia con le fauole, co
 
 [ГРАВЮРА — полностраничная]
 
-Imagine di Saturno, ò del Tempo diuoratore de suoi figliuoli, cioè del tutto consumatore, eccettuati Gioue, Giunone, Nettuno, & Plutone, intesi per li quattro elementi Fuoco, Aria, Aqua, & Terra, che non si distruggono.
+Imagine di Saturno, ò del Tempo diuoratore de suoi figliuoli, cioè del tutto consumatore, eccettuati Gioue, Giunone, Nettuno, & Plutone, intesi per li quattro elemenei Fuoco, Aria, Aqua, & Terra, che non si distruggono.
 
-[Примечание: на скане эта страница пронумерована как 32]
-
-Колонтитул:
+Колонтитул: De gli Antichi. · с. 32
 Кустод:
+Сигнатура: B 4
 Маргиналии:
+Нумерация: на странице напечатано 32, в PAGES.tsv 23
 
 ## Скан 0066 · с. 24
 
-loro il letame, onde diuengono poi più fertili. Per questo hanno voluto alcuni, che la sua statua hauesse la falce in mano, per dare ad intendere, che la coltiuatione de i campi fu insegnata da lui già da principio in Italia, conciosia che con la falce si miete il grano prodotto da ben coltiuati campi. Ne' sacrificij Saturnali poi anco si adoperauano candele accese: la qual cosa dichiarando Macrobio dice, che era, perche sotto il reggimento di Saturno gli huomini da vna incolta vita, & piena di tenebre, passarono alla lucida & bella scientia delle buone arti. Oltre di ciò intesero gli antichi il tempo sotto il nome di Saturno, del quale dissero i Latini molte ragioni tutte confacentisi al tempo, ma non già al proposito nostro. Et i Greci parimente lo chiamarono Crono, che viene a dire tempo, & quello, che significa il nome, fu mostrato nella imagine di questo Dio; perche le fecero quasi sempre di huomo vecchio, mal vestito, senza nulla in capo, con vna falce nell'vna mano, & nell'altra haueua certa cosa auiluppata in vn panno, quale pareua cacciarsi in gola, come che la volesse diuorare, e quattro piccioli fanciullini gli erano quiui appresso. Queste cose sono interpretate in questo modo: Il tempo è vecchio e mal vestito perche ò sempre è stato, ouero cominciò ad essere insieme con il mondo, cioè quando fatta la separatione del Chaos gli elementi furono distinti, & fu dato principio alla generatione delle cose, cominciando allhora il Cielo ad aggirarsi intorno, dal mouimento del quale cominciarono parimente gli huomini di misurare il tempo: & quindi fu, che le fauole appresso de i Greci dissero Saturno essere stato figliuolo di Vrano, che significa Cielo. Fu detto anco Satuno, Vitifatore, quasi cultor delle vitti, perche dicono, che essendo passato nell'Italia, come s'è detto, & accettato da' Latini, ne hebbe della figlia di vno d'essi Enotria nominata, alcuni figliuoli, trà quali vien connumerato Gian; a chi egli insegnò il modo di piantare, & coltiuar la vite, & di fare il vino; ilche hauendo essi operato, & guadagnatone perciò il nome di inuentori, auenne che vn giorno alcuni li quali forse haueuano beuuto più di quello, che loro si conueniua, si addormentarono, & fecero vn longhissimo sonno, dal quale poi suegliati & accortisi, che questo era accaduto per il beuuto vino, credendo che fosse qualche cosa venenata, lapidarono, & occisero Giano, come inuentor di quello; per il che quattro figliuole di lui rimaste, per doglia con vna fune ligatasi al collo si leuarono la vita: mà da Saturno furono poste nel Cielo in loco di Stelle, & a noi si dimostrano poco auanti il tempo della vendemmia. Essendo poscia vn tempo i Romani aggrauati di pestilenza, & hauendo perciò consultato l'oracolo d'Apolline, hebbero in risposta, che bisognaua placar prima l'ira di Saturno riceuuta per la morte di Giano suo figliuolo, da che mossi i Romani gli edificarono
+loro il letame, onde diuengono poi più fertili. Per questo hanno voluto alcuni, che la sua statoa hauesse la falce in mano, per dare ad intendere, che la coltiuatione de i campi fu insegnata da lui già da principio in Italia, conciosia che con la falce si miete il grano prodotto da ben coltiuati campi. Ne' sacrificij Saturnali poi anco si adoperauano candele accese: la qual cosa dichiarando Macrobio dice, che era, perche sotto il reggimento di Saturno gli huomini da vna incolta vita, & piena di tenebre, passarono alla lucida & bella scientia delle buone arti. Oltre di ciò intesero gli antichi il tempo sotto il nome di Saturno, del quale dissero i Latini molte ragioni tutte confacentisi al tempo, ma non già al proposito nostro. Et i Greci parimente lo chiamarono Crono, che viene a dire tempo, & quello, che significa il nome, fu mostrato nella imagine di questo Dio; perche le fecero quasi sempre di huomo vecchio, mal vestito, senza nulla in capo, con vna falce nell'vna mano, & nell'altra haueua certa cosa auiluppata in vn panno, quale pareua cacciarsi in gola, come che la volesse diuorare, e quattro piccioli fanciullini gli erano quiui appresso. Queste cose sono interpretate in questo modo: Il tempo è vecchio e mal vestito perche ò sempre è stato, ouero cominciò ad essere insieme con il mondo, cioè quando fatta la separatione del Chaos gli elementi furono distinti, & fu dato principio alla generatione delle cose, cominciando allhora il Cielo ad aggirarsici intorno, dal mouimento del quale cominciarono parimente gli huomtni di misurare il tempo: & quindi fu, che le fauole appresso de i Greci dissero Saturno essere stato figliuolo di Vrano, che significa Cielo. Fu detto anco Satuno, Vitisatore, quasi cultor delle vitti, perche dicono, che essendo passato nell'Italia, come s'è detto, & accettato da' Latini, ne hebbe della figlia di vno d'essi Enotria nominata, alcuni figliuoli, trà quali vien connumerato Gian; a chi egli insegnò il modo di piantare, & coltiuar la vite, & di fare il vino; ilche hauendo essi operato, & guadagnatone perciò il nome di inuentori, auenne che vn giorno alcuni li quali forse haueuano beuuto più di quello, che loro si conueniua, si addormentarono, & fecero vn longhissimo sonno, dal quale poi suegliati & accortisi, che questo era accaduto per il beuuto vino, credendo che fosse qualche cosa venenata, lapidarono, & occisero Giano, come inuentor di quello; per il che quattro figliuole di lui rimaste, per doglia con vna fune ligatasi al collo si leuarono la vita: mà da Saturno furono poste nel Cielo in loco di Stelle, & a noi si dimostrano poco auanti il tempo della vendemmia. Essendo poscia vn tempo i Romani aggrauati di pestilentia, & hauendo perciò consultato l'oracolo d'Apolline, hebbero in risposta, che bisognaua placar prima l'ira di Saturno riceuuta per la morte di Giano suo figliuolo, da che mossi i Romani gli edificarono
 
-Колонтитул:
-Кустод:
+Колонтитул: Imagini de i Dei · с. 24
+Кустод: vn
+Сигнатура:
 Маргиналии:
-- Macrobio. Saturno pel tempo.
+- Macrobio.
+- Saturno pel tempo.
 - Imagine di Saturno.
 - Espositione di Saturno.
 
 ## Скан 0067 · с. 25
 
-vn tempio fu'l Monte Tarpeio, & vi posero Giano con quattro faccie; ò dal numero delle figliuole, ò dalle quattro stagioni dell'anno. Soleuano gli antichi porre sù la cima del tempio di Saturno vn Tritone con la buccina alla bocca, & sepelir iui sotterra la coda di quello, volendo con ciò mostrare, come dice Macrobio, che da Saturno cominciò la historia a farsi palese, & ad esser conosciuta, perche senza dubio, innanzi che fossero distinti i tempi, ella non poteua essere se non muta, & incognita; il che significaua il nasconder la coda. Fu Saturno vestito così vilmente, perche in quel principio del mondo non cercauano le persone pompe nelle vesti, ma si contentauano di essere coperte. O che queste mostrauano di essere tutte logore per confarsi meglio alla vecchiezza di lui, il quale haueua il capo nudo, perche in que' primi tempi, quando egli fu creduto gouernare tutto, & che correua la età dell'oro, la verità fu aperta, & manifesta a tutti; non nascosta, come fu dapoi sotto tante menzogne, & tanti inganni. Et per questo ancora gli antichi sacrificauano a Saturno a capo scoperto, & se lo copriuano in sacrificando a gli altri Dei. Mostra la falce in mano di Saturno, che'l tempo miete, e taglia tutte le cose. Et quello, che ei si mette alla bocca per diuorarlo, che le cose tutte nate in tempo sono anco dal tempo diuorate, sopra di che finsero gli antichi vna così fatta fauola. Temendo Saturno di essere scacciato di regno da vn suo figliuolo, come i Fati gli haueuano predetto, comandò ad Ope, la quale fu anco detta Rhea, sua moglie, che ogni volta, che partoriuà gli presentasse subito quello, che hauesse fatto, perche non voleua in modo che fosse, che si alleuasse alcun figlio maschio, se bene douesse egli stesso diuorarsegli tutti. Partorì Ope la prima volta Gioue, & Giunone insieme; ma presentò Giunone sola al marito, sapendo che per esser femina non le farebbe male, & nascose Gioue: di che essendosi accorto Saturno cominciò a gridar per hauerlo; la onde Ope gli presentò certa pietra auuolta in vn panno, dicendo quello essere il figliuolo, che egli domandaua. Et egli, senza guardare altrimente che fosse, se la cacciò in gola, e diuorossela: ma la rigittò poi, come faceua anco de i figliuoli, poscia che gli haueua diuorati, che gli rigittaua. Onde si legge appresso di Pausania, che in Delso nel tempio di Apollo era vna pietra non molto grande guardata con grandissimo rispetto, perche diceuano quelle genti, che era la pietra qual fu diuorata da Saturno in vece di Gioue, & ogni dì, ma più le feste, vi spargeuano sù dell'oglio, poi le auuolgeuano attorno lana non lauata. Et i Romani la credettero essere quella, che nel Campidoglio non volle cedere a Gioue, & fu adorata pel Dio Termino. Fu seruato parimente Nettuno dalla madre con simile inganno, che finse di hauere partorito vn picciolo cauallino, & lo diede a diuorare al marito, come diceuano quelli di
+vn tempio su'l Monte Tarpeio, & vi posero Giano con quattro faccie; ò dal numero delle figliuole, ò dalle quattro stagioni dell'anno. Soleuano gli antichi porre sù la cima del tempio di Saturno vn Tritone con la buccina alla bocca, & sepelir iui sotterra la coda di quello, volendo con ciò mostrare, come dice Macrobio, che da Saturno cominciò la historia a farsi palese, & ad esser conosciuta, perche senza dubio, innanzi che fossero distinti i tempi, ella non poteua essere se non muta, & incognita; il che significaua il nasconder la coda. Fu Saturno vestito così vilmente, perche in quel principio del mondo non cercauano le persone pompe nelle vesti, ma si contentauano di essere coperte. O che queste mostrauano di essere tutte logore per confarsi meglio alla vecchiezza di lui, ilquale haueua il capo nudo, perche in que' primi tempi, quando egli fu creduto gouernare tutto, & che correua la età dell'oro, la verità fu aperta, & manifesta a tutti; non nascosta, come fu dapoi sotto tante menzogne, & tanti inganni. Et per questo ancora gli antichi sacrificauano a Saturno a capo scoperto, & se lo copriuano in sacrificando a gli altri Dei. Mostra la falce in mano di Saturno, che'l tempo miete, e taglia tutte le cose. Et quello, che ei si mette alla bocca per diuorarlo, che le cose tutte nate in tempo sono anco dal tempo diuorate, sopra di che finsero gli antichi vna così fatta fauola. Temendo Saturno di essere scacciato di regno da vn suo figliuolo, come i Fati gli haueuano predetto, comandò ad Ope, la quale fu anco detta Rhea, sua moglie, che ogni volta, che partoriuà gli presentasse subito quello, che hauesse fatto, perche non voleua in modo che fosse, che si alleuasse alcun figlio maschio, se bene douesse egli stesso diuorarsegli tutti. Partorì Ope la prima volta Gioue, & Giunone insieme; ma presentò Giunone sola al marito, sapendo che per esser femina non le farebbe male, & nascose Gioue: di che essendosi accorto Saturno cominciò a gridar per hauerlo; la onde Ope gli presentò certa pietra auuolta in vn panno, dicendo quello essere il figliuolo, che egli domandaua. Et egli, senza guardare altrimente che fosse, se la cacciò in gola, e diuorossela: ma la rigittò poi, come faceua anco de i figliuoli, poscia che gli haueua diuorati, che gli rigittaua. Onde si legge appresso di Pausania, che in Delfo nel tempio di Apollo era vna pietra non molto grande guardata con grandissimo rispetto, perche diceuano quelle genti, che era la pietra qual fu diuorata da Saturno in vece di Gioue, & ogni dì, ma più le feste, vi spargeuano sù dell'oglio, poi le auuolgeuano attorno lana non lauata. Et i Romani la credettero essere quella, che nel Campidoglio non volle cedere a Gioue, & fu adorata pel Dio Termino. Fu seruato parimente Nettuno dalla madre con simile inganno, che finse di hauere partorito vn picciolo cauallino, & lo diede a diuorare al marito, come diceuano quelli di
 
-Колонтитул:
-Кустод:
+Колонтитул: De gli Antichi. · с. 25
+Кустод: Arca-
+Сигнатура:
 Маргиналии:
 - Historia quando cominciò.
 - Fauola di Saturno.
@@ -1883,8 +1891,9 @@ vn tempio fu'l Monte Tarpeio, & vi posero Giano con quattro faccie; ò dal numer
 
 Imagine di Saturno, del Tempo, & dell'anno, che significa li tristi effetti, che vengono da questo pianeta, & la renouatione dell'anno; con la freddezza, e tardità del pianeta di Saturno.
 
-Колонтитул:
+Колонтитул: Imagini de i Dei · с. 26
 Кустод:
+Сигнатура:
 Маргиналии:
 
 ## Скан 0069 · с. 27

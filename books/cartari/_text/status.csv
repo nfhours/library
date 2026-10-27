@@ -55,18 +55,18 @@ scan,label,printed_number,state,unclear,engravings,note,method,discrepancies,err
 0054,12,12,done,0,0,both_wrong/noise: reconstructed,double,13,9,4,0,0
 0055,13,13,done,0,0,both_wrong/noise: reconstructed,double,14,11,2,0,1
 0056,14,14,done,0,0,both_wrong/noise: reconstructed,double,14,12,2,0,0
-0057,15,,draft,0,0,,,,,,,
-0058,16,,draft,0,1,,,,,,,
-0059,17,,draft,0,0,,,,,,,
-0060,18,,draft,0,0,,,,,,,
-0061,19,,draft,0,0,,,,,,,
-0062,20,,draft,0,1,,,,,,,
-0063,21,,draft,0,1,,,,,,,
-0064,22,,draft,0,0,,,,,,,
-0065,23,,draft,0,1,,,,,,,
-0066,24,,draft,0,0,,,,,,,
-0067,25,,draft,0,0,,,,,,,
-0068,26,,draft,0,1,,,,,,,
+0057,15,15,done,0,0,,double,13,11,2,0,0
+0058,16,16,done,0,1,,double,2,2,0,0,0
+0059,17,17,done,0,0,,double,9,7,2,0,0
+0060,18,18,done,0,0,,double,10,9,1,0,0
+0061,19,19,done,0,0,,double,7,7,0,0,0
+0062,20,20,done,0,1,,double,1,1,0,0,0
+0063,21,21,done,0,1,,double,4,4,0,0,0
+0064,22,22,done,0,0,,double,5,4,1,0,0
+0065,23,32,done,0,1,"Нумерация: на странице напечатано 32, в PAGES.tsv 23",double,3,3,0,0,0
+0066,24,24,done,0,0,,double,8,8,0,0,0
+0067,25,25,done,0,0,,double,7,5,2,0,0
+0068,26,26,done,0,1,,double,1,1,0,0,0
 0069,27,,draft,0,0,,,,,,,
 0070,28,,draft,0,1,,,,,,,
 0071,29,,draft,0,0,,,,,,,
