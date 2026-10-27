@@ -137,6 +137,431 @@ Pietro Paolo Tozzi.
 Сигнатура: ✳ 3
 Маргиналии:
 
+## Скан 0012 · с. I
+
+Prefatione al Lettore.
+
+[ИНИЦИАЛ: N]ON così fuora di proposito, come parue à Plutarco, & prima di lui ad Aristotele, disse Anassagora, che l'huomo era prudentissimo, perche solo fra tutti gl'altri animali haueua le mani. Perche pensaua quell'huomo grande, in così dire, alla congiontione, che le mani per ordinario tengono con la mente. Ilche è tanto vero, che Aristotele in qualche luogo ci lasciò scritto, che la natura haueua dato all'huomo due grandi instrumenti, la mano al corpo, & la mente all'animo. Hora sì come questi vniti fanno operationi degne di lode, & di marauiglia, così disuniti non si può imaginare che confussione operino & che disordine in qual si voglia per altro ben regolata inuentione. Tutto questo s'è verificato segnalatamente fin'hora in molti casi; ma principalmente in molte opere d'ingegno bisognose di Figure, che per mala ventura loro, abandonate o per morte o per altro accidente, dagli Autori proprij, sono venute alle mani di Pittori, o Disegnatori, che sapeuano bene che cosa fosse vn tratto di Penna, o di Pennello; ma erano spogliati poi di quella cognitione, che la compita perfettione di quella tal'opera ricercaua. Io per me, sò d'hauerne osseruate molte, & molte altre ne hauerà osseruato chi più di me hauerà trauagliato in cose simili; ma per prouare la mia intentione, à me bastarà il toccarne solamente alcune così per trascorso. Hor Apolline (per cominciare di quà) se d'Hor Apolline è quel Libro, ch'habbiamo
+
+Колонтитул:
+Кустод: biamo
+Сигнатура:
+Маргиналии:
+
+## Скан 0013 · с. II
+
+biamo di Hieroglifici, o se più tosto compendio del medesimo fatto da altri, Hor-Apolline dico, e stato stampato in Italia, & altroue più d'vna volta con le figure, e con tutto ciò non ce n'è forse pur'vna, che stia a verso. La Notitia dell'Imperio Orientale, & Occidentale, quella, che con vn dotto Commentario ha dechiarato Guido Poncirolo mio Maestro homo chiarissimo, va in volta con molti disegni, che ritengo pure qualche colore dell'Antichità, ma con molti spropositi interseritici, che d'vn Libro molto vtile l'hanno ridotto poco meno, che ad vn passatempo di fanciulli. Gl'Astronomi antichi medesimamente quanto habbiano patito in questo genere, dicanlo le figure che in essi si vedono sgratiatissime, trattane però la editione di Hugone Grotio, che a gl'anni passati diede fuori i Fenomeni (s'io non erro) di Germanico Cesare, con gentilissime figure, & eruditissime annotationi. Gio. Pierio Valeriano indarno riuoltò, & lesse accuratamente tutto'l bello, e'l buono dell'Antichità, per formarne il suo curioso Commentario de' Hieroglifici, se haueua poi ad essere assassinato (perdonimi la Modestia) nel rappresentare in figure quello, che esso haueua così gentilmente espresso con la penna. Andrea Alciato se risuscitasse non riconoscerebbe al sicuro per suoi gl'Emblemi, che vanno in volta con figure piene d'errori quanto al decoro, e quanto alla verità. Le Fauole di Gabriel Faerno, componimento gentilissimo non hanno potuto sfuggire questa audacia de' Pittori; con tuttoche l'Autor loro procurasse, com'io hò veduto in vna sua Lettera non stampata, che Pirrò Ligorio, homo peritissimo delle Antichità, facesse a questo suo Libro le figure, conformi alla mente dell'Autore, & non lontane
+
+Колонтитул:
+Кустод: lontane
+Сигнатура: [?] 4 (орнамент перед цифрой, похож на крестик/четырёхлистник)
+Маргиналии:
+
+## Скан 0014 · с. III
+
+lontane dal vero negl'habiti, & nel portamento. I Dialoghi di D. Antonio Agostini vsciti alla nostra memoria due volte in luce per opere di huomini diligenti, & intelligenti di quello, che hauevano per le mani, hanno nondimeno molti nei (per non dir più) & si scostano assai dalla delicata maniera di quello esquisitissimo homo. Fuluio Orsino ne ancor esso seppe tenire in registro i Disegnatori, poiche il suo Libro delle Famiglie Romane (opera dotta e gentile per per altro) vscì tanto guasto (per quello, che tocca alle Figure) che in Roma ci fu al mio tempo, chi stimò fatica non gettata il correggerlo. E però Abramo Gorleo in Hollanda faticò ancor esso intorno questo mancamento con vn suo curioso Libro, che però ritiene ancor'esso qualche erroruccio in questo genere. Giusto Lipsio honore della nostra età, io sò che si lamenta in qualche luogo della fatica durata a tenire in freno i Pittori, de' quali haueua bisogno, per rappresentare certe figure ne' suoi Libri de' Saturnali. E veramente nell'Autore, ch'habbiamo per le mani, quanto sconciamente si sia peccato per lo passato, lo vederà agevolmente, chi si prenderà cura di confrontare questa nostra Editione con le anteriori, che tutte sono state diffettose, e manchevoli, quanto à questa parte, non ne eccettuando ne anco quella, della quale, per quello che spetta alle figure, fu l'Architetto il Saluiati Pittore valente. E tutto che io habbia fatto, quant'ho saputo trauagliare in materia di questa sorte; & ancor che il Signor Filippo Ferrouerde con la sua peritia e facilità di disegnare, non habbia tralasciato cosa alcuna per ridurre a compita perfettione quest'opera; tuttavia ha potuto più la negligenza di qualche In-
+
+Колонтитул:
+Кустод: In-
+Сигнатура:
+Маргиналии:
+
+## Скан 0015 · с. IV
+
+Intagliatore da dozina, che tutto lo sforzo nostro. Ne s'è potuto veramente far di meno, di non dar alle mani di alcuno di questi Guastatori, perche i buoni, & intendenti erano molto occupati, ne si poteua eternare l'opera, co'l tedio di chi tantotempo fà l'aspettaua. Si che si lasciarà ad altri questo pensiero; sì come anco l'accrescere le Annotationi, che io in breuissimo spatio di tempo, fra mille occupationi d'altra sorte, ho poste insieme, & l'aggiongere alla seconda parte qualche curiosa figura delle Deità Indiane, che non mi sono venute alle mani, non per poca diligenza, ch'io m'habbia vsato, ma per poca cortesia di chi etiandio ricercato, ha inuidiato al publico quello, che in qualche luogo nelli armarij priuati, per gusto d'occhio inuidioso, si tiene nascosto. Confesso però d'hauere molto obligo a gl'amici, & padroni, de' quali per entro l'opera ho fatto mentione, se non quale meritauano, almeno quale m'ha dettato l'affetto congionto co' veri termini della creanza & gentilezza. Quello poi, ch'io m'habbia fatto in quest'opera, non tocca a me il dirlo. Sò bene d'hauerci durato intorno fatica grande, essendomi conuenuto andare in traccia delle vere, & reali Imagini, delle quali questo Libro, in quante Editioni io ho vedute, e stato fin'hora primo. Ne m'è riuscità poca fatica, il riuedere (per così dire) il testo dell'Autore, & formarci sopra alcune poche Annotationi, nelle quali per desiderio della verità, & di disingannare i Lettori, sono stato necessitato a dissentire alcuna volta dal Cartari. Il che mi sarà credo perdonato dalla benignità di chi leggerà queste cose: poiche non per voglia di fare il Maestro addosso ad alcuno, ma per termine poco meno che di conscienza sono ar-riuato
+
+Колонтитул:
+Кустод: riuato
+Сигнатура:
+Маргиналии:
+
+## Скан 0016 · с. V
+
+riuato alle volte a segno, doue non soglio per ordinario mio arriuare. E ben vero, ch'io credo, che la Modestia non si lamentarà di me. In somma i Galant'homini vederanno la mia fatica; & della amoreuole censura di questi io mi contenterò. A Dio.
+
+[ВИНЬЕТКА: концовка — путто с растительным орнаментом из завитков и цветов]
+
+Колонтитул:
+Кустод: CATA-
+Сигнатура:
+Маргиналии:
+
+## Скан 0017 · с. VI
+
+[ВИНЬЕТКА: заставка с двумя масками и орнаментальными завитками]
+
+Catalogo di cento più famosi Dei De gli Antichi,
+
+con la loro natura, & proprietà cauato dal Cartari, & altri Autori trattanti di tal materia.
+
+Per Cesare Malfatto Padoano.
+
+1 [ИНИЦИАЛ: E]ternità Dea della Sempiternità, & della Immortalità.
+2 Natura Dea della Produtione, & Procreatrice di tutte le cose.
+3 Adad, & Adargate appo de gli Assirij Dei della produttione, & generatione di tutte le cose.
+4 Vranio Padre vniuersale de gli Dei, Dio del Cielo, & del firmamento.
+5 Cibele ouer Ope, detta la gran Madre vniuersale de gli Dei & de gli huomini, Dea de la Terra.
+6 Saturno Dio del Tempo e de poueri, Padre di Gioue, Giunone, Nettuno, & Plutone.
+7 Gioue Dio de gli Dei de gli Antichi fulgurante, & tonante sopra l'Hospitio, & il giouare.
+8 Marte Dio della Guerra, del Valore, & della brauura.
+9 Apolline detto anco Febo e Sole, Dio della luce del giorno de Poeti, del predire, & dell'indouinare.
+10 Venere Dea della bellezza, della libidine, & della lasciuia.
+11 Mercurio messaggiero de gli Dei, Dio dell'Eloquenza, de Ladri, & de Mercanti.
+
+Колонтитул:
+Кустод: 12 Dia-
+Сигнатура:
+Маргиналии:
+
+## Скан 0018 · с. VII
+
+12 Diana Dea de boschi, de Cacciatori, della Castità, & della Virginità.
+13 Matuta ouero Aurora, Dea dell'Alba, & dell'Albore.
+14 Vesta Dea dell'Elemento del fuoco, e delle sacre Vergini Vestali.
+15 Giunone moglie, & sorella à Gioue, Dea dell'Aria, de Matrimonij, de Regni, & de Parti. (Mare
+16 Nettuno, & Anfitrite sua moglie, Dei, & imperatori del
+17 Glauco Dio Marino di augusto aspetto, il primo delli Dei marini dopo Nettuno.
+18 Tethide Dea Marina bellissima di tutte le Dee dopo Venere, & la prima de Dei marini dopo Nettuno, Anfitrite, & Glauco.
+19 Portunno detto anco Palemone, Dio de porti, & del giunger saluo à casa de nauiganti.
+20 Castore } Fratelli, figli di Gioue, Dei de Nauiganti, del-
+21 Polluce } la Tranquillità del mare, & de Caualli.
+21 Iside apo de gli Egittij, detta Io da Greci, Dea de Nauiganti.
+23 Eolo Dio de Venti. & delle tempeste maritime, & terrestri.
+14 Cercre Dea Eleusina, inuentrice delle biade, & della coltiuatione de campi.
+25 Bacco Thebano Dio del vino, & suo inuentore & inuentore del trionfo, spassi, & solazzi.
+26 Buona Dea conseruatrice de semi, & della fertilità di tutte le cose.
+27 Priapo Dio de gl'Orti, & della natura generatrice, & del seme.
+28 Vertunno Dio de gl'Orti, & de giardini, & anco de pensieri humani.
+29 Pomona moglie d Vertunno Dea de gl'Orti & de giardini coltiuatrice delle piante.
+30 Flora Dea de fiori e vaghezze, & della stagione della Primauera.
+31 Pane Dio de Pastori, & de gli greggi, inuentore del Flauto.
+32 Pluto fanciullo Dio delle Ricchezze, & de Thesori.
+
+Колонтитул:
+Кустод: 33 Vulcano
+Сигнатура:
+Маргиналии:
+- В конце строки с пунктом 15 в правом поле напечатано «(Mare» — это окончание фразы пункта 16 («…imperatori del Mare»), вынесенное печатником вбок из-за нехватки места в строке; место вставки сохранено как в книге, без переноса слова в основной текст пункта 16.
+
+## Скан 0019 · с. VIII
+
+33 Vulcano Dio del suoco materiale, & terreno, fabricatore de folgori à Gioue.
+34 Plutone Dio dell'Inferno, de dannati, de tormenti, & delle ricchezze.
+35 Proserpina moglie di Plutone, Dea dell'Inferno, de dannati, & della fertilità della Terra.
+36 Caronte Dio, barcarolo dell'Inferno sopra il fiume Acheronte traghetta l'anime de dannati.
+37 Giudici Infernali tre, & il primo Minos esamina l'anime delle sue colpe.
+38 Eaco legge li processi formati contro le anime de dannati.
+39 Radamanto nota le sentenze date da loro tre giudici contro li dannati.
+40 Nemesi Dea del Castigo à cattiui, & dimostratrice del bene à buoni.
+41 Aletto } Queste sono letre Dee ouero furie Infernali
+42 Tesifone } incitanti li mortali alle maggiori sceleraggini, & poi li scelerati
+43 Megera } nell'Inferno aspramente puniscono, dette le Dee crinite.
+44 Parche tre la prima è Cloto fila il filo della Vita.
+45 Lachessis inaspa il filo della vita.
+46 Atropo taglia e tronca il filo della vita, queste tre sono sorelle, & habitano nell'Inferno.
+47 Verita Dea del vero, & scopritrice della falsità, questa è fortissima di tutte le cose.
+48 Virtù Dea delle buone, & generose operationi, datrice, & apportatrice di ogni bene.
+49 Giustitia Dea del premio, & della pena, apportatrice del bene a buoni, & castigatrice de cattiui.
+50 Honore Dio della fama, & della gloria, & dell'Immortalità.
+51 Fama Dea apportatrice de buoni, & cattiui successi, conseruatrice dell'humane attioni.
+52 Vittorria Dea del Vincere, & del superare altrui, & Dea della Gloria.
+53 Concordia Dea della Pace, vnione, & amore, & Dea del buono essere di tutte le cose.
+
+Колонтитул:
+Кустод: 54 Pace
+Сигнатура:
+Маргиналии:
+
+## Скан 0020 · с. IX
+
+54 Pace Dea della quiete, & del riposo, dell'Abondanza, & moltiplicatione di tutte le cose.
+55 Macaria figliola del Dio Hercole, Dea della felicità.
+56 Fidio della Fede, e Fedeltà, & dell'osseruatione de patti, & delle promissioni.
+57 Anubi detto anco Serapi, Dio del tempo, della produttione, sagacità, custodia, & fedeltà
+58 Silentio detto anco Arpocrate, Dio della secretezza, & della tacurnità.
+59 Termine dio della stabilità.
+60 Anteuorta, & Postuorta, dee che fanno il passato, & l'auenire.
+61 Genij dei de gl'animi; & della quiete, osseruatori del genere humano, & delle sue attioni.
+62 Lari dei, Custodi de Prouincie, luoghi, Città, & case, inuestigatori de fatti humani.
+63 Penati dei familiari, custodi delle Prouincie luoghi, Città, & Case, come li dei Lari.
+64 Portuno, Dio delle Porte, chiaue, & seragli.
+65 Fortuna dea delle attioni humane, Signora, & patrona del tutto, potentissima de tutti li dei.
+66 Necessita dea del Fato, & del Destino.
+67 Iride messaggiera de gli dei, & in particolare della Dea Giunone.
+68 Hebe figliola di Giunone, pincerna de gli dei, dea della giouentù, & della libertà.
+69 Pallade dea della Sapienza, inuentrice delle buone arti, & dea della guerra.
+70 Maia madre del dio Mercurio, Dea de Responsi, & concitratrice delle battaglie.
+71 Bellona dea della Guerra, & carrettiera di Marte il bellicoso Dio.
+72 Hercole dio della Fortezza, domator de Mostri, & de Tiranni.
+73 Palestra figliuola del Dio Mercurio, Dea de Lottatori.
+74 Pitho Dea della Lingua, & dell'Eloquenza.
+75 Esculapio figliol d'Apolline Dio della Medicina.
+
+Колонтитул:
+Кустод: 76 Salute
+Сигнатура:
+Маргиналии:
+
+## Скан 0021 · с. X
+
+76 Salute Dea della Sanità, & liberatrice dell'Infirmità.
+77 Iano Dio bifronte, Dio della Pace, & ciuiltà, protettore de gl'Italiani.
+78 Momo Dio della maledicenza, riprensione & mormoratione.
+79 Discordia Dea delle risse, maleuolenze, odij: mali euenti, & ruine.
+80 Cupidine ò Amore figliuol di Venere, Dio dell'amare, del ben volere, & della propagatione.
+81 Anterote fratello d'Amore, Dio del riamare, & del reciproco amore.
+82 Gratie tre, la prima delle quali è Eufrosina sopra l'allegrezza, & giocondità, fà il benefitio.
+83 Agalia sopra la maestà, & venustà, riceue il benefitio.
+84 Talia sopra la piaceuolezza, rende il benefitio, queste tre sono le Dee della bellezza, della gratitudine, & delle stagioni dell'anno.
+85 Himeneo Dio del Matrimonio, & delle nozze.
+86 Partenope } Tre Dee Sirene allettatrici alla
+87 Leucasia } Lasciuia, & quelle anco
+88 Ligia } punienti.
+89 Volupia Dea de piaceri, & della Volutà.
+90 Angerona Dea de piaceri, & delle humane operationi, & Dea della gola.
+91 Sonno Dio del sonno, riposo, & quiete, & dell'ombre.
+92 Muse noue, & la prima Clio sopra l'historia assegnata alla Luna.
+
+Колонтитул:
+Кустод: 93 Eu-
+Сигнатура:
+Маргиналии:
+
+## Скан 0022 · с. XI
+
+93 Euterpe sopra tutte le scienze in vniuersale, assegnata à Mercurio.
+94 Thalia sopra la Musica, le Comedie, & la Memoria, assegnata à Venere.
+95 Melpomene sopra l'Armonia, & le Tragedie assegnata al Sole.
+96 Tersicore sopra il furor Poetico, ritrouatrice del saltero, assegnata à Marte.
+97 Erato sopra le cose amorose, & sopra la Geometria, assegnata à Gioue.
+98 Polinnia sopra la Rethorica, arte Oratoria, & sopra il verso, assegnata à Saturno.
+99 Vrania sopra l'Astrologia, & di quella inuentrice, assegnata ad Vranio ouero al Cielo.
+190 Calliope sopra il verso Eroico, assegnata superiore a tutte l'altre come la più nobile.
+
+Queste noue Muse con Apolline loro Maestro sono dette patrone, & ritrouatrici della Musica, & di tutte l'altre scienze ed Arti.
+
+*Questi sono gli cento Dei, che erano di più nome, & più famosi appo gli antichi, come si hà sì da Poeti, come da Historici, e Pittori.*
+
+Колонтитул:
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0023 · с. XII
+
+[ВИНЬЕТКА: заставка с маской и орнаментальными завитками]
+
+Catalogo d'Autori Antichi, & Moderni che sono in essere; & di proposito.
+
+Hanno descritto Historie, ouero Imagini delle Deità antiche.
+
+[ИНИЦИАЛ: A]pollodoro Atheniese, la Origine delli Dei.
+Diodoro Sicolo, la medesima.
+Cicerone, la Natura delli Dei.
+Fornuto, o come altri lo chiamano, Cornuto il medesimo.
+Filostrato, alcune Imagini.
+Giulio Higino, & Vettio Basso, le fauole, & le Genealogie.
+Palefato, alcune delle fauole.
+Antonino Liberale, il medesimo.
+Ouidio ne i Fasti, & nelle Metamorfosi, le Feste, & le Fauole.
+Pausania descriue spesso le statue degli Dei.
+Callistrato ne descriue alcune.
+Fulgentio, le Allegorie.
+Di passaggio ne trattano Lattantio Firmiano, Minucio Felice Giulio Firmico, Arnobio, Tertulliano. & poco meno, che tutti Padri Greci, & Latini.
+
+MODERNI.
+
+[ИНИЦИАЛ: A]lbrico Filosofo le Imagini.
+Giouanni Boccaccio la Genealogia.
+Lilio Gregorio Giraldi le Imagini, & i cognomi.
+Basilio Zanco. }
+Giuliano Aurelio. }
+Pier Giacomo Montefalco. } I cognomi.
+Huberto Goltzio. }
+Giano Grutero. }
+Giorgio Pittorio la Consatratione.
+Melchior Barleo, in verso, in tre libri.
+Guglielmo Choul, della religione.
+Pier Giacomo Montefalco &
+Vicenzo Cartari, nel Flauio. } Le Feste, & Celebrità.
+
+Колонтитул:
+Кустод: Sico-
+Сигнатура: ✝✝ (два крестика)
+Маргиналии:
+
+## Скан 0024 · с. XIII
+
+Si come ancora tutti quelli, che hanno dichiarato Calendarij vrbani & rustici antichi, come F. Orsino, Piero Ciaccone, Aldo Manutio & altri.
+Natal de' Conti le Allegorie o Mitologie.
+Vlisse Aldrouandi ha descritto le Statue delle Deità, & altre che sono in Roma.
+Abramo Ortelio ha posto in luce le teste di LIV. Deità, cauate da le Medaglie antiche. con occasione della quale fatica Andrea Scotto homo eruditissimo ha fatto vn gentilissimo Dialogo, stampato in Anuersa con i Dialoghi fatti Latini di A. Agostini. & Francesco Suuertio ha illustrato il detto Ortelio con vn racconto gentile, stampato in Anuersa del 1612.
+Lorenzo Pignoria scriuendo sopra la mensa d'Iside, ha descritto molte particularità curiose delle Deità dell'Egitto.
+Il medesimo nelli Misterij della Gran Madre delli Dei le antichità della Frigia. & molte cose ha raccolto nelle sue Annotationi sopra'l Cartari.
+Giouanni Seldeno, delle Deità della Soria.
+Girolamo Aleandro, del Sole & di Plutone accuratamente, nella sua Heliaca.
+Di passaggio tutti quelli, che hanno esposto, & dichiarito le Medaglie delli antichi.
+Corrado Dinnero gli Epiteti Greci delli Dei.
+Gio. Rauisio Testore, & Basilio Zanco i Latini.
+
+Testimonianze di questo Libro.
+
+L'Autore è nominato malamente Vicenzo Catarro dall'Ortelio, & Carterio dal Gesnero, & dall'Autore della Bibliotheca Classica.
+Il Cartari medesimo nel Libro II. del suo Dialogo, ch'egli intitolò il Flauio, dice così;
+
+Non vi dirò, che la Cicogna fosse vccello della Concordia secondo alcuni, e secondo alcuni altri la Cornacchia, ne come la dipingessero gl'antichi, perche sò che tosto vedrete vn Libretto, nel quale tutte queste cose sono raccontate interamente, con le Imagini quasi di tutti i Dei, & le ragioni perche fossero così dipinti; &c.
+
+Колонтитул:
+Кустод: TAVOLA
+Сигнатура:
+Маргиналии:
+
+## Скан 0025 · с. XIV
+
+TAVOLA
+DELLE COSE NOTABILI
+Che nell'Opera si contengono.
+
+A
+
+[ИНИЦИАЛ: A]cheolo. 224
+    Acheleo in Bue. 135
+    Acheronte. 235
+    Achordio. 290
+Aci. 224
+Acisculo, & Acisculario. 486
+Acilio Glabrione. 9
+Acqua del Sole. 145
+    del Nilo non si guasta. 493
+    posta nel vino. 334
+Adad, & Adargate. 64
+Adianto, ò Capeluenere è corona di Plutone. 238
+Admeto e suoi armenti. 62
+Adone. 489
+Adrastia. 378
+Adulatione. 499
+Affetti, tre potentissimi. 241
+Agdiste. 178
+Agrippa, e suo pensiero intorno le Statue. 9
+Aiace Oileo. 477
+Ale in capo a Saturno perche. 29
+Almone fiume. 180
+Altari ne' boschi, & nelle cime de' Monti. 555
+Amaltea nutrice di Gioue. 135
+Ambasciatori pacifici. 216
+Amida dio del Giapan. 565.566.567.
+Ammeto. vedi Admeto.
+Ammone. vedi Gioue.
+Amore non è Vno. 403. sue ali, e suoi strali. 404. simile al Sole. 404.
+
+Amor Letheo. 407.408. Amori molti. 409.410. Amore più giouane de gl'altri dei. 413. tra i fiori. 414. fugitiuo. 414.415. trionfatore. 456. fiamma, & raffredda. 417. perche fanciullo. 418. perche ha le ali. 418. perche le saette. 418
+Amore co'l fulmine. 418
+Amore e suoi diuersi effetti. 420
+Amore citharedo, & senz'Arco. 421
+Amore con la Fortuna 421
+    vincitore di Pan 422
+Amore tormentato 423.&c.
+Amore celeste 416.417.
+Anella, & loro vso 589
+Angerona 309
+Anno come figurato 17.558
+Anterote 406.407.525
+Antro dell'Eternità 20.21
+Anubide 281
+Anxuro cognome di Gioue 135
+Api dio d'Egitto 58.60.62
+Api Re de gl'Argiui 60
+Apollo 41. in mezo alle Muse 47.48. pastore 62. barbato 64. Sminthio 76.78
+Apollo e Marsia 468
+Apolline e Priapo 362.515
+Aquila di Gioue 126.138. segno di Vittoria 332
+Arcadi inanzi la Luna 111
+Ariadna 346
+Ariete machina bellica 512
+Arimaspi 398
+
+Колонтитул:
+Кустод: Arme
+Сигнатура: a
+Маргиналии:
+
+## Скан 0026 · с. XV
+
+Arme di Marte 326
+Arpie 244.245
+Arpocrate 60
+Asino offerto ad Apolline 78
+Astarte 29
+Astaroth-carnaim chi fosse 470.471
+Ate 413.414
+Atheniesi primi de gl'homini 112
+Ati 177.178.179
+Atropo 253
+Attilio Calatino 488
+Auerrunci dei 238
+Aurora 95
+
+B
+
+[ИНИЦИАЛ: B]aciar la mano & le Statue 97.268
+Bacco 339.340. capo delle Muse 342. Il medesimo, che'l Sole 345. sue corna 345.346. suo Cribro, & Sacramento 348. detto Bassareo 349. dio dell'Inferno, e nato di Proserpina 349. trionfatore 350. suoi Animali, Piante, e Ghirlande 351.352.354. sua Naue 353.355.354. suo carro 352.354. sbranato da i Titanni 360. con le dee Eleusine 360. sua congiontione con Priapo 364
+Baccanti 513
+Bacche 347.349.355
+Becco adorato in Egitto 60.215
+Bellerofonte 249
+Bellona 229.231
+Belzebu 390
+Beni mondani in potere della Fortuna 137
+Berecintho monte 177
+Bestie senza religione 2
+Bona dea 188.198.290.291.487
+Boschi in veneratione 555
+
+Buono Euento 499
+Buoi d'Apollo 56.58.60.61. di Diana 101
+
+C
+
+[ИНИЦИАЛ: C]aduceo 262.282
+Calumnia d'Apelle. 382.383
+Cani di Volcano 323
+    dei Lari 366
+Canone dio 565.566
+Canopo 212.214.491
+Capelli tagliati offerti a Deità 223.493
+Cappello rosso da chi portato 52
+Cappello segno di Libertà 160. 160.311.481
+Capra Amaltea 135
+Capre rispettate in Egitto, & in Grecia 124
+Capro offerto ad Apollo 89
+    Vittima di Bacco 364
+Carboni co' Termini 498
+Cariddi 210
+Carna dea, o Cardinea 32
+Carro del Sole 90
+    di Diana 101
+    di Giunone 152.153
+Carri di quattro ruote 515
+Carreni & loro vsanza 448
+Casa in Agriento detta la Galea 354
+Castori 157.158.159
+Cauallo del Sole 80. del Sole, Luna, Stelle 470. della Luna 101
+Cauallo dell'Aurora 95
+    di Nettuno 212
+Cembalo 433
+Cerbero 233.235
+Cercopi fratelli 285
+Cercopitheco d'Egitto 562
+Cerere 189
+Cerimonia di tregua, o pace 332
+Cero dio 393.397
+Cerui di Diana 98.101
+
+Колонтитул: TAVOLA.
+Кустод: Cha-
+Сигнатура:
+Маргиналии:
+
 ## Скан 0042 · с. 1
 
 LE IMAGINI DE I DEI DE GLI ANTICHI.
