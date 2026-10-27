@@ -1547,43 +1547,43 @@ L'altra veste tutta negra mostra, che la Luna, come hò già detto più volte, n
 
 ## Скан 0151 · с. 109
 
-che voleuano. Et appresso di Apuleio vna di queste incantatrici si vanta di potere fare ogni gran male alli Dei, & di poter oscurare a suo piacere la luce delle stelle, perche la forza di quei diabolici incanti valeuan non solamente contra la Luna, ma contra il Sole ancora, e tutte le stelle, e contra tutti gli altri Dei così del Cielo, come dell'Inferno; alli quali oltre a tutte le altre maladette cerimonie soleuano minacciare (come scriue Porfirio a certo gran Sacerdote dell'Egitto, & lo riferisce Theodorito) di rompere, e spezzare il Cielo (forse perche cadessero tutti a basso) di riuelare gli occulti misterij di Iside, & di publicare tutte le cose sue più secrete, di fare che la barca di Caronte non passerà più anime, di dare le membra di Osiri a Tifone, che le squarci, & sparga per tutto, & altre simili pazzie, mettendo sempre innanzi quello, che pensauano, che più dispiacesse a quel Dio cui voleuano fare forza, perche venisse ad vbbidire loro. Et forse che a questo fu simile quello, che si legge appresso di Ouidio di Fauno, & di Pico Numi, ouero Demonij habitatori del monte Auentino, che tirassero per arte magica, & a forza d'incanti Gioue di Cielo a venire a rispondere loro, benche dannassero poi i Romani questa diabolica arte, ne la volessero in modo alcuno, come si vede per Apuleio, che ne fu accusato: & ne furono riputati maestri quelli di Tessaglia; perche come riferisce Suida, Medea passando per la sù versò la cesta de' suoi veleni, & delle sue malie. Et perciò quando i poeti fanno qualche preghi alla Luna sotto quale nome che si sia, ò di Diana, ò di Hecate, ò di altra, per renderla più facile ad esaudirli, le desiderano, che ella possa hauere il suo lume puro, & chiaro, e che gl'incanti di Thessaglia non possano mai trarla di Cielo, come fà la nutrice di Fedra nella Tragedia di Hippolito appresso di Seneca, dicendo:
+che voleuano. Et appresso di Apuleio vna di queste incantatrici si vanta di potere fare ogni gran male alli Dei, & di poter oscurare a suo piacere la luce delle stelle, perche la forza di quei diabolici incanti valeuan non solamente contra la Luna, ma contra il Sole ancora, e tutte le stelle, e contra tutti gli altri Dei così del Cielo, come dell'Inferno; alli quali oltre a tutte le altre maladette cerimonie soleuano minacciare (come scriue Porfirio a certo gran Sacerdote dell'Egitto, & lo riferisce Theodorito) di rompere, e spezzare il Cielo (forse perche cadessero tutti a basso) di riuelare gli occulti misterij di Iside, & di publicare tutte le cose sue più secrete, di fare che la barca di Caronte non passerà più anime, di dare le membra di Osiri a Tifone, che le squarci, & sparga per tutto, & altre simili pazzie, mettendo sempre innanzi quello, che pensauano, che più dispiacesse a quel Dio cui voleuano fare forza, perche venisse ad vbbidire loro. Et forse che a questo fù simile quello, che si legge appresso di Ouidio di Fauno, & di Pico Numi, ouero Demonij habitatori del monte Auentino, che tirassero per arte magica, & a forza d'incanti Gioue di Cielo a venire a rispondere loro, benche dannassero poi i Romani questa diabolica arte, ne la volessero in modo alcuno, come si vede per Apuleio, che ne fù accusato: & ne furono riputati maestri quelli di Tessaglia; perche come riferisce Suida, Medea passando per la sù versò la cesta de' suoi veleni, & delle sue malie. Et perciò quando i poeti fanno qualche preghi alla Luna sotto quale nome che si sia, ò di Diana, ò di Hecate, ò di altra, per renderla più facile ad esaudirli, le desiderano, che ella possa hauere il suo lume puro, & chiaro, e che gl'incanti di Thessaglia non possano mai trarla di Cielo, come fà la nutrice di Fedra nella Tragedia di Hippolito appresso di Seneca, dicendo:
 
-O regina de i boschi, habitatrice
-De gli alti monti, oue adorata sei,
-O gran Dea de le selue, ò chiaro lume
-Del Cielo, ò de la scura humida notte
-Vero ornamento la cui face dona
-Alterna luce al mondo, ò Dea triforme
-Hecate santa, porgi il tuo fauore
-A l'opra cominciata.
+*O regina de i boschi, habitatrice*
+*De gli alti monti, oue adorata sei,*
+*O gran Dea de le selue, ò chiaro lume*
+*Del Cielo, ò de la scura humida notte*
+*Vero ornamento la cui face dona*
+*Alterna luce al mondo, ò Dea triforme*
+*Hecate santa, porgi il tuo fauore*
+*A l'opra cominciata.*
 
 Et poco dapoi soggiunge:
 
-Così lucida, & pura appaia sempre
-La tua faccia, nè possa alcuna nube
-Nasconder vnqua a noi le belle corna,
-Così non habbin gl'incantati versi
-Di Thessaglia in se forza alcuna, mentre
-Che del notturno lume i freni reggi;
-Nè pastor sia mai più, che gloria alcuna
-Possa hauerne del tuo amor, e girne altero.
+*Così lucida, & pura appaia sempre*
+*La tua faccia, nè possa alcuna nube*
+*Nasconder vnqua a noi le belle corna,*
+*Così non habbin gl'incantati versi*
+*Di Thessaglia in se forza alcuna, mentre*
+*Che del notturno lume i freni reggi;*
+*Nè pastor sia mai più, che gloria alcuna*
+*Possa hauerne del tuo amor, e girne altero.*
 
-Колонтитул:
-Кустод:
+Колонтитул: De gli Antichi. 109
+Кустод: Questo
 Маргиналии:
 - Porfirio.
 - Seneca.
 
 ## Скан 0152 · с. 110
 
-Questo dice, perche le fauole finsero, che la Luna s'innamorasse di Endimione pastore, & l'adormentasse sopra certo monte, solo per baciarlo a suo piacere. Ma come riferisce Pausania, altro vi fu, che bacci fra loro, perche dicono alcuni, che ei ne hebbe cinquanta figliuole. Et leggefi ancora, che non per amore solamente fece la Luna copia di se ad Endimione, ouero a Pan, Dio dell'Arcadia, come canta Virgilio, ma per hauere da lui vn gregge di belle pecore bianche. Et tutte sono fauole, ma che hanno però qualche sentimento di verità, perche Plinio scriue che Endimione fu il primo, che intendesse la natura della Luna, & che perciò fu finto, che fossero innamorati insieme. Et Alessandro Afrodiso dice ne' suoi problemi, che Endimione fu huomo molto studioso delle cose del Cielo, & che cercò con diligenza grande d'intendere il corso della Luna, & le cagioni de i diuersi aspetti, che ella si mostra; & perche dormiua il dì, & vegghiaua la notte, fu detto, che la Luna pigliaua piacere de lui. Et così si potrebbe dire di quelli di Thessaglia ancora, che per hauere voluto inuestigare il corso, & la natura della Luna, fosse stato finto poi di loro, che la tirauano di cielo in terra, all'hora che'l volgo credeua, che ella patisse assai, & sopportasse grauissima fatica, & che quel suono, rappresentato per lo Ciembalo posto in mano ad Iside, alleggerisse molto la pena della violenza, che le era fatta, come cantano souente i Poeti, & ne scriue anco Plinio, quasi che quel rumore non lasciasse passare il mormorio de gl'incanti alle orecchie della Luna, & perciò non hauessero poi forza contra di lei. Onde Propertio dice, che gl'incanti tirerebbono la Luna giù del carro, se i risonanti metalli non vi rimediaffero. Et Giuuenale parlando di certa femina loquacissima dice, che non accade più fare romore con vasi di rame, ne con altri metalli, perche ella sola col cicalare fà tanto strepito, che può diffendere la Luna da gl'incanti. Scriuesi di alcuni popoli che adorauano il Sole, & la Luna, credendo che fossero marito, & moglie & che digiunauano nell'Ecclissi specialmente le donne; & le maritate si scapigliauano, & graffiauano, & le donzelle si salsauano con spine di pesce, & cauauano il sangue pensandosi esse che la Luna all'hora fosse ferita dal Sole per qualche dispiacere, che gli hauesse fatto. Altri hanno voluto, che il Ciembalo, chiamato da gli antichi Sistro in mano di Iside, mostri il suono, che fà la Luna nel girare de gli Orbi celesti. Nè di rame solamente lo faceuano, ma di argento ancora, & d'oro, come dice Apuleio, quando ragiona de i misterij di Iside, & (come riferisce Celio Calcagnino) vi erano quattro faccie, che si moueuano pel circuito di sopra, le quali significauano, che la parte del mondo, che si genera, & si corrompe, è sotto il globo della Luna, oue le cose si mutano secondo il mouimento de gli Elementi mostrati per le quattro faccie. Di dentro, nella parte pure di sopra, vi intagliauano vn Gatto con faccia di huomo, & vi erano due altre teste,
+Questo dice, perche le fauole finsero, che la Luna s'innamorasse di Endimione pastore, & l'adormentasse sopra certo monte, solo per baciarlo a suo piacere. Ma come riferisce Pausania, altro vi fu, che bacci fra loro, perche dicono alcuni, che ei ne hebbe cinquanta figliuole. Et leggefi ancora, che non per amore solamente fece la Luna copia di se ad Endimione, ouero a Pan, Dio dell'Arcadia, come canta Virgilio, ma per hauere da lui vn gregge di belle pecore bianche. Et tutte sono fauole, ma che hanno però qualche sentimento di verità, perche Plinio scriue che Endimione fu il primo, che intendesse la natura della Luna, & che perciò fu finto, che fossero innamorati insieme. Et Alessandro Afrodiseo dice ne' suoi problemi, che Endimione fu huomo molto studioso delle cose del Cielo, & che cercò con diligenza grande d'intendere il corso della Luna, & le cagioni de i diuersi aspetti, che ella si mostra; & perche dormiua il dì, & vegghiaua la notte, fu detto, che la Luna pigliaua piacere de lui. Et così si potrebbe dire di quelli di Thessaglia ancora, che per hauere voluto inuestigare il corso, & la natura della Luna, fosse stato finto poi di loro, che la tirauano di cielo in terra, all'hora che'l volgo credeua, che ella patisse assai, & sopportasse grauissima fatica, & che quel suono, rappresentato per lo Ciembalo posto in mano ad Iside, alleggerisse molto la pena della violenza, che le era fatta, come cantano souente i Poeti, & ne scriue anco Plinio, quasi che quel rumore non lasciasse passare il mormorio de gl'incanti alle orecchie della Luna, & perciò non hauessero poi forza contra di lei. Onde Propertio dice, che gl'incanti tirerebbono la Luna giù del carro, se i risonanti metalli non vi rimediaffero. Et Giuuenale parlando di certa femina loquacissima dice, che non accade più fare romore con vasi di rame, ne con altri metalli, perche ella sola col cicalare fà tanto strepito, che può diffendere la Luna da gl'incanti. Scriuesi di alcuni popoli che adorauano il Sole, & la Luna, credendo che fossero marito, & moglie & che digiunauano nell'Ecclissi specialmente le donne; & le maritate si scapigliauano, & graffiauano, & le donzelle si falassauano con spine di pesce, & cauauano il sangue pensandosi esse che la Luna all'hora fosse ferita dal Sole per qualche dispiacere, che gli hauesse fatto. Altri hanno voluto, che il Ciembalo, chiamato da gli antichi Sistro in mano di Iside, mostri il suono, che fà la Luna nel girare de gli Orbi celesti. Nè di rame solamente lo faceuano, ma di argento ancora, & d'oro, come dice Apuleio, quando ragiona de i misterij di Iside, & (come riferisce Celio Calcagnino) vi erano quattro faccie, che si moueuano pel circuito di sopra, le quali significauano, che la parte del mondo, che si genera, & si corrompe, è sotto il globo della Luna, oue le cose si mutano secondo il mouimento de gli Elementi mostrati per le quattro faccie. Di dentro, nella parte pure di sopra, vi intagliauano vn Gatto con faccia di huomo, & vi erano due altre teste,
 
-Колонтитул:
+Колонтитул: Imagini de i Dei. 110
 Кустод:
 Маргиналии:
 - Endimione.
-- Alessandro Afrodiso.
+- Alessandro Afrodiseo.
 - Giuuenale.
 - Sistro.
 - Celio Calcagnino.
@@ -1592,8 +1592,8 @@ Questo dice, perche le fauole finsero, che la Luna s'innamorasse di Endimione pa
 
 che si moueuano sotto alle quattro, ch'io dissi, l'vna era di Iside, l'altra di Nephthia, & significauano queste il nascimento, & la morte delle cose, che vengono dalle mutationi de gli Elementi. Il Gatto significaua la Luna, onde le fauole fingendo come racconta Ouidio, che i Dei fuggissero dalla furia di Tifone fino in Egitto, nè quiui si tenessero sicuri, se non si cangiauano in diuersi animali, dissero, che Diana si mutò in Gatto, perche è animale molto vario, & che vi vede la notte, & cui si mutano gli occhi crescendo, ò diminuendosi la luce secondo che cala, ò cresce il lume della Luna; & lo faceuano con faccia humana, per dimostrare, che i mouimenti della Luna non sono senza superiore intelligenza. Questi erano i misterij contenuti nel Sistro tanto celebrato nelle cerimonie di Iside, & posto souente in mano alla sua imagine, come hò già detto, che Apuleio glielo pose nella destra. Et del vaso, che le pendeua dalla sinistra, oltre a quello, che ne hò già detto, si legge ancora, che può significare il mouimento delle acque gonfiate dalla humida natura della Luna. Onde è, che hanno voluto alcuni, che il crescimento, & decrescimento di questa sia cagione del flusso, & riflusso, che fanno le acque del mare. Et accioche questa imagine della Luna, oltre alle cose naturali, che in essa sono mostrate, ce ne insegni qualche altra ancora piu vtile alla vita humana, riguardiamo a quello, che dice il B. Ambrogio, il quale con l'esempio di questa, il cui lume si può chiamare ragioneuolmente incerto, perche mutandosi tuttavia hor cresce, & hora scema, ci ammonisce, che fra le cose humane non è fermezza alcuna, & che tutte col tempo si disfanno. Et per questo diceuano alcuni, che gli antichi Romani di famiglia nobile portauano ne i piedi certe Lunette, per essere con quelle spesso ammoniti della instabilità delle cose humane, accioche non insuperbissero ancora che fossero di molti beni copiosi, & abondanti, perche le ricchezze, & altre cose tanto stimate da' mortali fanno apunto come la Luna, la quale hora è tutta luminosa, e risplendente, hora assottiglia in modo il lume, che di se mostra piu poco, & all'vltimo così diuenta oscura, che più non vi pare essere. Però non dichiamo più di lei, ma sì di quella vsanza de i Romani di portare le Lunette nelle scarpe, perche alcuni altri la tirano da gli Arcadi, dicendo, che questi fra tutti i popoli della Grecia si tennero di essere i piu antichi, & perciò piu nobili, perche voleuano essere stati fino innanzi, che nascesse, ò fosse fatta la Luna. Et a credere questo si erano indotti, perche l'Arcadia è nel mezzo per lo lungo del Peloponneso, alta più di tutti gli altri paesi della Grecia, & montuosa, onde fu detto, che nel tempo del diluuio gli Arcadi soli si saluarono, ritiratisi alle sommità de i monti, fin che le acque furono abbassate. Onde allhora vscendo delle cauerne, & vedendo la Luna, come che quella, che era innanzi al Diluuio, fosse perita insieme con le altre che
 
-Колонтитул:
-Кустод:
+Колонтитул: De gli Antichi. 111
+Кустод: che
 Маргиналии:
 - S. Ambrogio.
 
@@ -1603,8 +1603,8 @@ cose, & fosse questa vn'altra, la credettero essere stata fatta, ò nata allhora
 
 [ВИНЬЕТКА — солнце с лицом]
 
-Колонтитул:
-Кустод:
+Колонтитул: Imagini de i Dei. 112
+Кустод: GIOVE
 Маргиналии:
 - Atheneo.
 
@@ -1612,24 +1612,25 @@ cose, & fosse questa vn'altra, la credettero essere stata fatta, ò nata allhora
 
 GIOVE.
 
-Tanta riputatione acquistò Gioue appresso de gli antichi, cacciato che egli hebbe Saturno suo padre dal regno del Cielo, come raccontano le fauole, che da tutti fu in grandissima riuerenza hauuto, & creduto il maggiore di tutti gli altri Dei. Per la qual cosa gli posero molti tempij; & ne fecero diuersi simulacri, chiamandolo Re, & Signore dell'vniuerso, come che tutto fosse in suo potere. Et lo dissero ancora Ottimo, e Massimo, con ciò fosse che a tutti per la sua bontà volesse giouare, & far bene, e lo potesse anco fare per la maggioraza sua, che andaua sopra tutti gli altri. Et dal giouare discesi, che ei fu chiamato Gioue da' Latini, sì come appresso de' Greci hebbe vn nome, qual mostraua, che da lui venisse la vita a tutte le cose. Et perciò lo posero i Platonici per l'anima del Mondo, & lo credettero alcuni quella diuina mente, che hà prodotto, & gouerna l'vniuerso, & che communemente è chiamato Dio. Di questo, Iamblico parlando delli misterij dello Egitto, così dice: Perche Dio và sopra tutte le cose, risplende come separato da quelle, & solo tutto in se stesso camina, per di su l'vniuerso. Quelli di Egitto lo posero a sedere sopra il Loto arbore acquatico, volendo perciò dare ad intendere, che la materia del mondo è foggetta a lui, il quale la regge, & gouerna senza toccarla, perche il gouerno suo è tutto intellectuale, come significa il Loto, nel quale le foglie, & i frutti sono rotondi, perche la mente diuina si riuolge in se stessa, & ad vn medesimo modo intendendo sempre gouerna. Donde viene quel sommo principato, che regge il tutto, & separato da tutte le cose del mondo fà, che si muouono tutte, stando lui in se stesso quieto sempre, riposato, & immobile; Ilche mostrauano gli Egittij mettendolo a sedere, come hò detto. Et questo intesero gli antichi per quel gran Gioue Rè del Cielo, che habitaua nella più sublime parte dell'vniuerso, il quale considerato poi secondo le cose, che tutte procedono da lui, discende più basso, & souente presta il nome suo alle cause inferiori, & alle cose medesime. Onde Seneca nelle questioni naturali scriue, che non hanno creduto gli antichi più
+[ИНИЦИАЛ: T]anta riputatione acquistò Gioue appresso de gli antichi, cacciato che egli hebbe Saturno suo padre dal regno del Cielo, come raccontano le fauole, che da tutti fu in grandissima riuerenza hauuto, & creduto il maggiore di tutti gli altri Dei. Per la qual cosa gli posero molti tempij; & ne fecero diuersi simulacri, chiamandolo Re, & Signore dell'vniuerso, come che tutto fosse in suo potere. Et lo dissero ancora Ottimo, e Massimo, con ciò fosse che a tutti per la sua bontà volesse giouare, & far bene, e lo potesse anco fare per la maggioranza sua, che andaua sopra tutti gli altri. Et dal giouare discesi, che ei fu chiamato Gioue da' Latini, sì come appresso de' Greci hebbe vn nome, qual mostraua, che da lui venisse la vita a tutte le cose. Et perciò lo posero i Platonici per l'anima del Mondo, & lo credettero alcuni quella diuina mente, che hà prodotto, & gouerna l'vniuerso, & che communemente è chiamato Dio. Di questo, Iamblico parlando delli misterij dello Egitto, così dice: Perche Dio và sopra tutte le cose, risplende come separato da quelle, & solo tutto in se stesso camina, per di su l'vniuerso. Quelli di Egitto lo posero a sedere sopra il Loto arbore acquatico, volendo perciò dare ad intendere, che la materia del mondo è foggetta a lui, il quale la regge, & gouerna senza toccarla, perche il gouerno suo è tutto intellectuale, come significa il Loto, nel quale le foglie, & i frutti sono rotondi, perche la mente diuina si riuolge in se stessa, & ad vn medesimo modo intendendo sempre gouerna. Donde viene quel sommo principato, che regge il tutto, & separato da tutte le cose del mondo fà, che si muouono tutte, stando lui in se stesso quieto sempre, riposato, & immobile; Ilche mostrauano gli Egittij mettendolo a sedere, come hò detto. Et questo intesero gli antichi per quel gran Gioue Rè del Cielo, che habitaua nella più sublime parte dell'vniuerso, il quale considerato poi secondo le cose, che tutte procedono da lui, discende più basso, & souente presta il nome suo alle cause inferiori, & alle cose medesime. Onde Seneca nelle questioni naturali scriue, che non hanno creduto gli antichi più
 
-Колонтитул:
-Кустод:
+Колонтитул: De gli Antichi. 113
+Кустод: saggi
 Маргиналии:
 - Gioue.
 - Iamblico.
 - Gioue siede sopra il Loto.
 - Gioue è tutto.
 - Seneca.
+Сигнатура: H
 
 ## Скан 0156 · с. 114
 
 [ГРАВЮРА — полностраничная]
 
-Imagine di Gioue & di Pan significante l'vniuerso, l'vno Dio delli del Celesti, l'altro Dio de Pastori, quello sedente per significar l'immutabilità di Dio, & sua prouidenza, & questo il corpo del mondo stando in piedi & in moto.
+Imagine di Gioue & di Pan significante l'vniuerso, l'vno Dio delli del Celesti, l'altro Dio de Pastori, quello sedente per significar l'immutabilità di Dio, & sua prouidenza, & questo il corso del mondo stando in piedi & in moto.
 
-Колонтитул:
+Колонтитул: Imagini de i Dei. 114
 Кустод:
 Маргиналии:
 
@@ -1637,87 +1638,90 @@ Imagine di Gioue & di Pan significante l'vniuerso, l'vno Dio delli del Celesti, 
 
 faggi, che Gioue fosse, quale si vede nel Campidoglio, & ne gli altri tempij, col fulmine in mano, ma che per lui intesero vn'animo, & vno spirito custode, & rettore dell'vniuerso, che habbi fatto questa gran machina del mondo, & la gouerni a modo suo, & che perciò gli si confaceua ogni nome, sì che si poteua dimandare Fato, come che da lui dependessero tutte le cose, & l'ordine delle cause, che sono l'vna sopra l'altra, tutto venisse da lui. Si poteua chiamare Prouidenza, percioche prouedeua, che il Mondo andasse del continuo al suo ordinato corso. Lo poteuano dire Natura, perche da lui nasceuano tutte le cose, per lui viueua ciò, che ha vita. Et mondo parimente poteuano chiamarlo, perche ciò che si vede tutto è lui, che di sua virtù propria si sostiene, & così era creduto essere in tutti i luoghi, & empire di sè ogni cosa, come dice Virgilio.
 
-Del sommo Gioue l'vniuerso è pieno.
+*Del sommo Gioue l'vniuerso è pieno.*
 
 Et Orfeo diceua parimente, che Gioue è primo, & vltimo di tutte le cose, fu innanzi a tutti i tempi, che vnqua sono stati, & sarà doppo tutti quelli, che verranno, & che tiene la più alta parte del Mondo, & tocca la più bassa ancora, & è tutto in tutti i luoghi. Et facendone vna imagine poi, perche hà detto già, che in lui sono tutte le cose, la Terra, l'Acqua, l'Aria, & il Fuoco, il giorno, & la notte, lo dipinge in forma di tutto il Mondo, facendo che'l capo con la dorata chioma sia il lucido Cielo, ornato di risplendenti stelle, dal quale si veggono due corna vscire parimente dorate, che significano, l'vno l'Oriente, & l'altro l'Occidente; gli occhi sono il Sole, & la Luna; l'aria il largo petto, & gli homeri spatiosi, li quali hanno due grandi ali per la velocità de i venti, & perche Iddio si fà prestissimo a tutte le cose; l'ampio ventre è la gran Terra cinta dalle acque del Mare; & i piedi sono la più bassa parte del Mondo, la quale fanno essere nel centro della Terra. Questa imagine di Gioue fatta da Orfeo in forma dell'vniuerso mi tira a porre quella di Pan, per la similitudine, che hanno tra loro, & perche mostrarono pure anco gli antichi sotto la forma di questo Dio l'vniuerso. Oltre che Gioue Liceo appresso quelli fu il medesimo, che era Pan, come lo mostra il suo simulacro, il quale era tutto nudo, se non che haueua intorno vna pelle di Capra: & hebbe questo, come scriue Giustino vn tempio in Roma alle radici del monte Palatino. Leggefi dunque di costui, che fu vno di que' Dei, che habitauano i monti, le selue, & i boschi, perche non poteuano stare tutti i Dei de gli antichi in Cielo, ma bisognaua che ne stessero molti in terra, & l'adorauano più de gli altri i Pastori, come ch'ei fosse lor Dio particolare, & hauesse piu de gli altri la guardia de i greggi, come disse Virgilio:
 
-La cura ha Pan de i greggi, e de i pastori.
+*La cura hà Pan de i greggi, e de i pastori.*
 
-Колонтитул:
-Кустод:
+Колонтитул: De gli Antichi. 115
+Кустод: Et
 Маргиналии:
 - Gioue è Fato.
 - Prouidenza.
-- Natura Mondo.
+- Natura.
+- Mondo.
 - Virgilio.
 - Pan.
 - Virgilio.
+Сигнатура: H2
 
 ## Скан 0158 · с. 116
 
 Et perche talhora pare, che nelle selue si spauentino i greggi, nè si possa vedere donde la ragione proceda di tale spauento, dissero gli antichi, che veniua da Pan, & dimandauano Panico terrore ogni paura, che venisse d'improuiso, nè sapessero dirne la cagione, o per questo, che hò detto, ouero perche Pan fu creduto il primo, che trouasse di sonare quella grà cocchiglia, che portano i Tritoni, con la quale ei fece sì gran rumore nella guerra contra i Titani, che gli mise tutti in fuga spauentati di modo, che non sapeuano doue si andassero: come si legge appresso di Pausania, che intrauen ne anco a' Francesi nella guerra, che hebbero guidati da Brenno contra Greci. Imperoche, hauendo hauuta il dì vna gran rotta, la notte seguēte furono assaliti da questo Panico terrore, & parse da prima ad alcuni pochi dapoi a tutto il campo di vdire vn gran calpestio di caualli, & di vedere, che i nimici venissero loro contra con impeto grandissimo, onde presero tutte le armi, nè si conoscendo punto l'vn l'altro (così gli haueua tratti di senno quel pazzo spauento) e parendo ad ogni vno, che tutti gli altri di habito, & di lingua fossero Greci cominciarono a combattere fra loro, & fuggire chi quà, chi là; di che auertiti i Greci furono loro addosso, & ne ammazzarono quanti vollero. Questa sorte dunque di paura pazza, che par'essere senza cagione, era creduta venire da Pan, il quale fu adorato principalmente nell'Arcadia, & tenuto padre a tutti gli altri piu potenti Dei; onde fu guardato il fuoco perpetuo nel suo tempio, oue diceuano, che fu anticamente vn'Oracolo, che rispondeua per bocca di vna Ninfa nomata Erato. Gli Atheniesi parimente cominciarono ad hauerlo in rispetto grande, dapoi che egli apparue ad vn mandato da loro a dimandare aiuto a' Lacedemonij contra gli Persi, & dissegli; ch'ei si trouerebbe in loro aiuto ne' campi Maratonij. Ma come poscia lo facesse non si legge, se non che in quella battaglia fu visto vn'huomo di viso, & di habito contadino, il quale dopò hauere ammazzato con vn aratro gran numero de' Persi, sparue via, ne fu poi veduto: Et oue Pan incontrò colui prima, ch'io dissi, che fu nella selua Partenia, gli fu fatto vn tempio; nella qual selua leggefi, che sono testuggini buonissime da farne lire, ma che quelli del paese non le osano pigliare, & manco le lasciano pigliare a stranieri, perche tengono, che siano tutte consecrate a Pan. Et per questo se ne porrà vna a piè della sua imagine & vi si porrà anco la cocchiglia per segno del Panico terrore. Viene questi descritto da Silio Italico con le corna, con le orecchie di capra; & con la coda in questa guisa.
 
-Lieto de le sue feste Pan dimena
-La picciol coda, & ha d'acuto pino
-Le tempie cinte, e da la rubiconda
-Fronte escono due breui corna, e sono
+*Lieto de le sue feste Pan dimena*
+*La picciol coda, & hà d'acuto pino*
+*Le tempie cinte, e da la rubiconda*
+*Fronte escono due breui corna, e sono*
 
-Колонтитул:
-Кустод:
+Колонтитул: Imagini de i Dei. 116
+Кустод: L'orec-
 Маргиналии:
 - Panico terrore.
 - Silio Italico.
 
 ## Скан 0159 · с. 117
 
-L'orecchie qual di Capra lunge, & hirte,
-E'hisbida barba scende sopra il petto
-Dal duro mento, e porta questo Dio
-Sempre vna Verga Pastorale in mano,
-Cui cigne i fianchi di timida Dama
-La maculosa pelle, il petto e'l desso.
+*L'orecchie qual di Capra lunge, & hirte,*
+*L'hispida barba scende sopra il petto*
+*Dal duro mento, e porta questo Dio*
+*Sempre vna Verga Pastorale in mano,*
+*Cui cigne i fianchi di timida Dama*
+*La maculosa pelle, il petto e'l dosso.*
 
 Et seguita poi, che ei camina per l'erte rupi, & siano quante vogliono ruuinose, & che nel correre è velocissimo, si come il Mondo parimente con somma velocità si gira, mostrato nella imagine di questo Dio, il cui nome è greco, & tirato in nostra lingua significa l'vniuerso. Et perciò disse Seruio, che gli fecero le corna volendo mostrare in lui per quelle gli antichi raggi del Sole le corna della Luna. Et il Boccaccio vuole, che queste, le quali escono dalla fronte, & tendono in verso il Cielo mostrino i corpi celesti, de' quali habbiamo cognitione in due modi: l'vno con l'arte, la quale con gli istromenti astronomici misura il corso delle stelle & le distanze loro; l'altro con gli effetti, quali vediamo da quelli prodursi nelle cose di quà giù. La faccia porporea, rossa, & infocata, (che la dipinguno tale a Pan) significa quel fuoco puro, che sopra a tutti gli altri elementi stà in confine delle celesti sfere. La barba lunga, che và giu per lo petto, mostra che i due Elementi superiori cioè l'Aria, & il Fuoco, sono di natura, & forza maschile, e mandano le loro impressioni ne gli altri due di natura feminile. Ci rappresenta la maculosa pelle, che gli copre il petto, e le spalle, l'ottaua Sfera tutta dipinta di fulgenti Stelle, la quale parimente cuopre tutto quello, che appartiene alla natura delle cose. La verga pastorale, che hà nell'vna mano, significa secondo il Boccaccio il gouerno, che hà la natura delle cose tutte, la quale così le regge, che prescriue loro etiandio il fine determinato delle loro operationi, lasciandone però fuori gli animali ragioneuoli: & Seruio dice, che, perche questa verga era ritorta, mostraua l'anno, che si ritorce in se stesso. Nell'altra mano hà poi la fistula delle sette canne, perche fu Pan il primo, che trouasse il modo di compor piu canne insieme con cera, e'l primo ancor, che le sonasse, come dice Virgilio: & questa ci dimostra l'armonia celeste, la quale hà sette suoni, & sette voci differenti, così come sono sette i Cieli, che le fanno. Et questa vuole Macrobio che s'intenda ancora per l'echo, la quale finsero gli antichi essere stata molto amata dal Dio Pan. Di che rende la ragione Alessandro Afrodiso, dicendo, che fu errore del volgo di credere, che Echo fosse Dea, & amata da Pan: perche quella nò fu altro mai, che quel rimbombo, che fanno le voci sparse per luoghi alti, e concaui; & questi fu vn'huomo dotto, che cercò con grandissimo studio d'intendere, perche risonauano le voci in quel modo; &
 
-Колонтитул:
-Кустод:
+Колонтитул: De gli Antichi. 117
+Кустод: non
 Маргиналии:
 - Boccaccio.
 - Macrobio.
 - Echo.
+Сигнатура: H3
 
 ## Скан 0160 · с. 118
 
-non potendo talhora trouarlo, ne pigliaua quel dispiacere, che spesso si piglia chi non può godere l'amata sua. Raccontano poi le fauole, come riferisce Ouidio, che fu Echo vna Ninfa innamorata di Narcisso bellissimo giouane, la quale non potendo godere dell'amor suo, si cacciò di vergogna ne gli antri, & nelle caue spelonche, & quiui si consumò di affanno, & di dolore in modo, che il corpo diuentò sasso, nè vi rimase di lei altro che la voce, la quale Lucretio scriue di hauere vdito replicare in certi luoghi sei, & sette volte. Et Pausania recita, che fu in Grecia appresso de gli Elei vn portico, oue si vdiuano le voci replicate da Echo fino sette volte, e più ancora. Leggefi poi anco di costei, che ella fu Dea, figliuola dell'aria, e della lingua, e perciò inuisibile. Onde Ausonio Gallo fa, ch'ella riprende chi cerca di dipingerla, facendone vno Epigramma, che questo vuol dire.
+non potendo talhora trouarlo, ne pigliaua quel dispiacere, che spesso si piglia chi non può godere l'amata sua. Raccontano poi le fauole, come riferisce Ouidio, che fù Echo vna Ninfa innamorata di Narcisso bellissimo giouane, la quale non potendo godere dell'amor suo, si cacciò di vergogna ne gli antri, & nelle caue spelonche, & quiui si consumò di affanno, & di dolore in modo, che il corpo diuentò sasso, nè vi rimase di lei altro che la voce, la quale Lucretio scriue di hauere vdito replicare in certi luoghi sei, & sette volte. Et Pausania recita, che fù in Grecia appresso de gli Elei vn portico, oue si vdiuano le voci replicate da Echo fino sette volte, e più ancora. Leggefi poi anco di costei, che ella fu Dea, figliuola dell'aria, e della lingua, e perciò inuisibile. Onde Ausonio Gallo fa, ch'ella riprende chi cerca di dipingerla, facendone vno Epigramma, che questo vuol dire.
 
-A che cerchi pur tu sciocco Pittore
-Di far di me Pittura? che son tale
-Che non mi vide mai occhio mortale,
-E non hò forma, corpo, nè colore.
-De l'aria, e de la lingua a tutte l'hore
-Nasco, e son madre poi di cosa, quale
-Nulla vol dir, però che nulla vale
-La voce, che gridando i' mando fore.
-Quando son per perir, gli vltimi accenti
-Rinono, e con le mie l'altrui parole
-Seguo, che van per l'aria poi co i venti.
-Stò ne le vostre orecchie, e come suole
-Chi quel, che far non può, pur tenti,
-Dipinga il suon chi me dipinger vole.
+*A che cerchi pur tu sciocco Pittore*
+*Di far di me Pittura? che son tale*
+*Che non mi vide mai occhio mortale,*
+*E non hò forma, corpo, nè colore.*
+*De l'aria, e de la lingua à tutte l'hore*
+*Nasco, e son madre poi di cosa, quale*
+*Nulla vol dir, però che nulla vale*
+*La voce, che gridando i' mando fore.*
+*Quando son per perir, gli vltimi accenti*
+*Rinouo, e con le mie l'altrui parole*
+*Seguo, che van per l'aria poi co i venti.*
+*Stò ne le vostre orecchie, e come suole*
+*Chi quel, che far non può, pur tenti,*
+*Dipinga il suon chi me dipinger vole.*
 
-Il che a me non dà già l'animo di fare, ma porrò bene la imagine, che ne fece già Monsignor Barbaro, eletto di Aquileggia, in due stanze a questo modo.
+Il che à me non dà già l'animo di fare, ma porrò bene la imagine, che ne fece già Monsignor Barbaro, eletto di Aquileggia, in due stanze à questo modo.
 
-Echo figlia de i boschi, e de le valli,
-Ignudo spirto, e voce errante, e sciolta,
-Eterno essempio d'amorosa folli,
-Che tanto altrui ricide, quanto ascolta;
-E'amor ti torne a' suoi piu lieti balli,
-E che ti renda la tua forma tolta,
-Fuor d'este valli abbandonate, e sole;
-Sciogli i miei dubbi in semplici parole.
+*Echo figlia de i boschi, e de le valli,*
+*Ignudo spirto, e voce errante, e sciolta,*
+*Eterno essempio d'amorosa folli,*
+*Che tanto altrui ricide, quanto ascolta;*
+*S'amor ti torne à suoi piu lieti balli,*
+*E che ti renda la tua forma tolta,*
+*Fuor d'este valli abbandonate, e sole;*
+*Sciogli i miei dubbi in semplici parole.*
 
-Колонтитул:
-Кустод:
+Колонтитул: Imagini de i Dei. 118
+Кустод: Echo
 Маргиналии:
 - Ouidio.
 - Ausonio Gallo.
@@ -1725,110 +1729,111 @@ Sciogli i miei dubbi in semplici parole.
 
 ## Скан 0161 · с. 119
 
-Echo, che cosa è il fin d'Amore?
-Chi fa sua strada men sicura?
-Viue ella sempre, ò pur son more?
-Debbo fuggir la sorte dura?
-Chi darà fine al gran dolore?
-Com'hò da vincer chi è svergna?
-Dunque l'inganno ad amor piace?
-Che fin'è d'esso, guerra, ò pace?
+*Echo, che cosa è il fin d'Amore?*
+*Chi fa sua Strada men sicura?*
+*Viue ella sempre, ò pur sen more?*
+*Debbo fuggir la sorte dura?*
+*Chi darà fine al gran dolore?*
+*Com'hò dà Vincer chi è spergiura?*
+*Dunque l'inganno ad amor piace?*
+*Che fin'è d'esso, guerra, ò pace?*
 
 In questo loco mi pare, che non sia fuor di proposito, ma anzi che debba recare a' leggenti diletto grandissimo, il porui quello di Echo, che leggiadramente scriue vn nostro moderno poeta, cauandone dalla sua voce risposte corrispondenti a quanto egli va da lei richiedendo. Dice adunque.
 
-Valli, Sassi, Montagne, Antri, Herbe, & Piagge,
-Colli, Selue, Fontane, Augelli, & Fere,
-Satiri, Fauni, & Voi Ninfe leggiadre
-Odi te per pietà la pena mia.
-V'dite come Amor mi mena a Morte
-Legato in duro, e indissolubil nodo?
-Voce odo; Deh chi sei tu, che rispondi
-A l'amaro, & dolente pianger mio?
-Ninfa sei forse? di se Ninfa sei
-Tu, che di questa Voce formi il suono?
-Ninfa sei dunque? deh dimmi anco il nome,
-Ch'io sappia chi si moue a pianger meco?
-Hora poi ch'Echo sei, porgimi orecchio,
-Odimi, se l'vdir non ti dispiace.
-Tu vedi com'io piango amaramente,
-Deh mouati pietà del mio cordoglio?
-Se di me duolti, voi porger consiglio,
-Al profondo pensier, in cui m'inuoglio?
-Ma che premio sia'l tuo, se'l mio tormento
-In qualche parte almen per te si annulla?
-I' ti ringratio. Hor dunque mi consiglia,
-Poi che piu altro premio non richiedi?
-Tu vedi Ninfa com' Amor mi strugge,
-Ch'io corro a morte, e a pena me n'aueggo?
-Che mi consigli? che farò perch'io
-Troui pietà la dou' Amor mi chiama?
-Vorrei saper che cosa è quest'Amore,
-Questo, che tutto m'arde, e che m'infiamma?
+*Valli, Sassi, Montagne, Antri, Herbe, & Piagge,*
+*Colli, Selue, Fontane, Augelli, & Fere,*
+*Satiri, Fauni, & Voi Ninfe leggiadre*
+*Odite per pietà la pena mia.*
+*Vdite come Amor mi mena à Morte*
+*Legato in duro, e indissolubil nodo?*
+*Voce odo; Deh chi sei tu, che rispondi*
+*A l'amaro, & dolente pianger mio?*
+*Ninfa sei forse? di se Ninfa sei*
+*Tu, che di questa Voce formi il suono?*
+*Ninfa sei dunque? deh dimmi anco il nome,*
+*Ch'io sappia chi si moue à pianger meco?*
+*Hora poi ch'Echo sei, porgimi orecchio,*
+*Odimi, se l'vdir non ti dispiace.*
+*Tu vedi com'io piango amaramente,*
+*Deh mouati pietà del mio cordoglio?*
+*Se di me duolti, voi porger consiglio,*
+*Al profondo pensier, in cui m'inuoglio?*
+*Ma che premio sia'l tuo, se'l mio tormento*
+*In qualche parte almen per te si annulla?*
+*I' ti ringratio. Hor dunque mi consiglia,*
+*Poi che piu altro premio non richiedi?*
+*Tu vedi Ninfa com' Amor mi strugge,*
+*Ch'io corro à morte, e a pena me n'aueggo?*
+*Che mi consigli? che farò perch'io*
+*Troui pietà la dou' Amor mi chiama?*
+*Vorrei saper che cosa è quest'Amore,*
+*Questo, che tutto m'arde, e che m'infiamma?*
 
-Колонтитул:
-Кустод:
+Колонтитул: De gli Antichi. 119
+Кустод: Che
 Маргиналии:
-- Amore. cura. more. dura. l'hore. giu ra. piace. pace.
+- Amore. cura. more. dura. l'hore. giura. piace. pace.
 - odo.
 - io.
 - sono.
 - Echo.
 - piace.
 - doglio?
-- voglio.
+- Voglio.
 - nulla.
 - chiedi.
-- veggo.
+- Veggo.
 - ama.
 - fiamma.
+Сигнатура: H4
 
 ## Скан 0162 · с. 120
 
-Che fiamma è questa, come non finisce
-Di consumar, se mai non mi rallenta?
-In che loco s'annida? oue soggiorna?
-Che parte è quella, ou'arde a mio dispetto?
-Com'entra dimmi? oue troua la Via,
-Perch'ella dentro al petto si trabocchi?
-Entra per gli occhi? parmi hauer inteso,
-Che molti per vdir s'innamorano.
-Dimmi, che cibo e'l suo? oue si pasce?
-Che par che di continuo ella m'accore?
-Se m'arde il cor, debbo durare ancora
-Al giogo, ou'io mia libertà perdei?
-Adunque vnoi, ch'in stia nel mio pensiero,
-Costante ancor, benche sia afflitto, e stanco?
-Tante lagrime spargo, e nulla gioua?
-Dimmi sarebbe forsi il pianto in vano?
-Che farò dunque, accio al mio caso ardire,
-Che m'arde, honesto premio si riserui?
-Credi, che l'Amor mio le sarà grato,
-Et ch'ella sia del mio seruir contenta?
-Ogni via tentarò, se credi, ch'io
-Possa alcun premio riportarne poi?
-Hor qual esser deurò, se pur talhora
-Il dolor mi farà tremante infermo?
-Ma che farò, s'egli così mi strugge,
-Ch'in pianto la mia vita si distempra?
-Così io la temprerò, s'Amor non cessa
-Di saettarmi da la terza sfera?
-Dunque Ninfa gentil lo sperar gioua,
-E la mortale passion rassrena?
-Qual sia la vita mia, se senza speme
-Terrammi preso Amor con man'accorta?
-Se siano corti i giorni di mia vita
-Non saran lieti almen benc'hor m'attristi?
-Che spererò? mi lice sperar forse,
-Che far mi debba vn giorno Amor felice?
-Vorrei saper chi mi darà speranza,
-Poi ch'a sperar la tua ragion m'inuia?
-Vita haurò dunque? haurò poi altro s'io
-Non mi lascio giamai mancar di spene?
-Spene è sperando dunque che mi gioua?
-Ma chi sia causa, che di pene'e tema?
+*Che fiamma è questa, come non finisce*
+*Di consumar, se mai non mi rallenta?*
+*In che loco s'annida? oue soggiorna?*
+*Che parte è quella, ou'arde a mio dispetto?*
+*Com'entra dimmi? oue troua la Via,*
+*Perch'ella dentro al petto si trabocchi?*
+*Entra per gli occhi? parmi hauer inteso,*
+*Che molti per vdir s'innamoraro.*
+*Dimmi, che cibo e'l suo? oue si pasce?*
+*Che par che di continuo ella m'accore?*
+*Se m'arde il cor, debbo durare ancora*
+*Al giogo, ou'io mia libertà perdei?*
+*Adunque Vuoi, ch'in stia nel mio pensiero,*
+*Costante ancor, benche sia afflito, e stanco?*
+*Tante lagrime spargo, e nulla gioua?*
+*Dimmi sarebbe forsi il pianto in vano?*
+*Che farò dunque, acciò al mio casto ardire,*
+*Che m'arde, honesto premio si riserui?*
+*Credi, che l'Amor mio le sarà grato,*
+*Et ch'ella sia del mio seruir contenta?*
+*Ogni via tentarò, se credi, ch'io*
+*Possa alcun premio riportarne poi?*
+*Hor qual esser deurò, se pur talhora*
+*Il dolor mi farà tremante infermo?*
+*Ma che farò, s'egli così mi strugge,*
+*Ch'in pianto la mia vita si distempra?*
+*Com'io la temprerò, s'Amor non cessa*
+*Di saettarmi da la terza sfera?*
+*Dunque Ninfa gentil lo sperar gioua,*
+*E la mortale passion rafrena?*
+*Qual sia la vita mia, se senza speme*
+*Terrammi preso Amor con man'accorta?*
+*Se siano corti i giorni di mia Vita*
+*Non saran lieti almen benc'hor m'attristi?*
+*Che spererò? mi lice sperar forse,*
+*Che far mi debba Vn giorno Amor felice?*
+*Vorrei saper chi mi darà speranza,*
+*Poi ch'à sperar la tua ragion m'inuita?*
+*Vita haurò dunque? haurò poi altro s'io*
+*Non mi lascio giamai mancar di spene?*
+*Pene è sperando dunque che mi gioua?*
+*Ma chi sia causa, che di pene i' tema?*
 
-Колонтитул:
-Кустод:
+Колонтитул: Imagini de i Dei. 120
+Кустод: Tema
 Маргиналии:
 - lenta.
 - petto.
@@ -1847,58 +1852,58 @@ Ma chi sia causa, che di pene'e tema?
 - frena.
 - corta.
 - tristi.
-- lise.
+- lice.
 - Vita.
 - spene.
-- tema. Tema.
+- tema.
 
 ## Скан 0163 · с. 121
 
-Tema la causa sia? Deh dimmi il vero
-Dunque tema potrà farmi mendico?
-Ahi lasso, ahi discorte se, empio timore,
-Hor questo dunque il mio piacer conturba?
-Puommi far peggio? dimmi se può peggio
-Seguir a queste membra afflitte, e smorte?
-Morte? se dunque il timor passa'l segno,
-Tal hor si more per souerchio Amore?
-Come lo scaccierò? l'alma si strugge,
-Che non lo vuole, piange, e si dispera?
-Tu pur dici ch'io speri, speme forse
-Credi, che sola sia, ch'altrui consola?
-Lenerà tutto, ò parte del tormento
-Lasso, che mi consuma, e'l cor mi parte?
-Adunque la speranza per se sola
-Beato non potrà farmi giamai?
-Ma oltre Amore seruitute, e speme,
-Che ci vuol? dimmi'l tutto a parte a parte?
-Chi mi darà quest'arte forsi Amore;
-Altri chi sia? se non è Amor istesso?
-Insegna dunque Amor, dunque a gli amanti
-Amor del Vero Amor l'arte dimostra?
-Dimmi di gratia, scoprirò la fiamma,
-O mi consigli, ch'io non la discopri?
-A cui debbo scoprirla? ad ogn'Vn forse?
-O basterà, che sol l'intenda alcuno?
-Vnoi che ad Vn sol amico sia palese,
-Celato a gli altri sia'l corpo mortale?
-Sapremo soli tre dunque il mio ardore,
-Se vnoi, che con Vn solo mi consoli?
-Ma dimmi quale deue esser colui,
-A cui l'ardor secreto mio confido?
-Trouerans'in Amor fedeli amici,
-E'habbin riguardo poi d'amico al grado?
-Come dunque farò, perche lo troui,
-Che sia fidel, sì come si ricerca?
-E s'io lo trouo, che potrà giouarmi?
-Forsi tal'hor la passion rilena?
-Hor questo, che mi detti dimmi'l modo
-Vero d'Amor, dimmi di gratia'l Vero?
-Se questo è il Vero modo, i' son felice
-Homai non temo, ch'l dolor m'atterri?
+*Tema la causa sia? Deh dimmi il vero*
+*Dunque tema potrà farmi mendico?*
+*Ahi lasso, ahi discortese, empio timore,*
+*Hor questo dunque il mio piacer conturba?*
+*Puommi far peggio? dimmi se può peggio*
+*Seguir a queste membra afflitte, e smorte?*
+*Morte? se dunque il timor passa'l segno,*
+*Tal hor si more per souerchio Amore?*
+*Come lo scaccierò? l'alma si strugge,*
+*Che non lo Vuole, piange, e si dispera?*
+*Tu pur dici ch'io speri, speme forse*
+*Credi, che sola sia, ch'altri consola?*
+*Leuerà tutto, ò parte del tormento*
+*Lasso, che mi consuma, e'l cor mi parte?*
+*Adunque la speranza per se sola*
+*Beato non potrà farmi giamai?*
+*Ma oltre Amore seruitute, e speme,*
+*Che ci Vuol? dimmi'l tutto a parte a parte?*
+*Chi mi darà quest'arte forsi Amore;*
+*Altri chi sia? se non è Amor istesso?*
+*Insegna dunque Amor, dunque a gli amanti*
+*Amor del Vero Amor l'arte dimostra?*
+*Dimmi di gratia, scoprirò la fiamma,*
+*O mi consigli, ch'io non la discopri?*
+*A cui debbo scoprirla? ad ogn'Vn forse?*
+*O basterà, che sol l'intenda alcuno?*
+*Vnoi che ad Vn sol amico sia palese,*
+*Celato à gli altri sia'l corpo mortale?*
+*Sapremo soli tre dunque il mio ardore,*
+*Se Vuoi, che con Vn solo mi consoli?*
+*Ma dimmi quale deue esser colui,*
+*A cui l'ardor secreto mio confido?*
+*Trouerans'in Amor fedeli amici,*
+*E'habbin riguardo poi d'amico al grado?*
+*Come dunque farò, perche lo troui,*
+*Che sia fidel, sì come si ricerca?*
+*E s'io lo trouo, che potrà giouarmi?*
+*Forsi tal'hor la passion rileua?*
+*Hor questo, che mi detti dimmi'l modo*
+*Vero d'Amor, dimmi di gratia'l Vero?*
+*Se questo è il Vero modo, i' son felice*
+*Homai non temo, ch'l dolor m'atterri?*
 
-Колонтитул:
-Кустод:
+Колонтитул: De gli Antichi. 121
+Кустод: Per-
 Маргиналии:
 - dico.
 - turba.
@@ -1912,53 +1917,52 @@ Homai non temo, ch'l dolor m'atterri?
 - esso.
 - mostra.
 - scopri.
-- vno.
+- Vno.
 - tale.
 - soli.
 - fido.
-- vado.
+- rado.
 - cerca.
-- lena.
+- leua.
 - Vero.
 - erri.
-- Per-
 
 ## Скан 0164 · с. 122
 
-Perch'erro? forsi ancor altro ci vuole?
-Perche senz'ale il mio pensier non vole?
-Altro ci vuol ancor? non basta questo?
-Deh dimmi'l ver non mi lasciar incerto?
-Che ci vol dunque di per cortesia,
-Perche di gioia sia l'alma conforte?
-Sorte? hor altro ci vuol accioche in fine
-Voglia, e speme in Van nè stard in sorte?
-In somma di sopra tutto che gioua,
-Perche non sia'l desir indarno, e sorte?
-Hor resta in pace Ninfa; io ti ringratio,
-Che co'l tuo ragionar par che mi quini?
+*Perch'erro? forsi ancor altro ci vuole?*
+*Perche senz'ale il mio pensier non Vole?*
+*Altro ci Vuol ancor? non basta questo?*
+*Deh dimmi'l ver non mi lasciar incerto?*
+*Che ci vol dunque dì per cortesia,*
+*Perche di goia sia l'alma conforte?*
+*Sorte? hor altro ci vuol accioche in fine*
+*Voglia, e speme in Van nè starò in forte?*
+*In somma di sopra tutto che gioua,*
+*Perche non sia'l desir indarno, e forte?*
+*Hor resta in pace Ninfa; io ti ringratio,*
+*Che co'l tuo ragionar par che mi quiui?*
 
-Hora ritorno a Pan, le cui parti di sotto sono pelose, & aspre, con i piedi di Capra, perche ci rappresentano la terra, la quale è dura, & aspra, & tutta disuguale, coperta di arbori, di infinite piante, e di molta herba. Alcuni, volendo per questo Dio intender si il Sole, Padre, e Signore di tutte le cose (frà li quali a Macrobio) dicono, che le corna in lui mostrano la effigie della nuoua Luna: la faccia rubiconda, il rossore, che nell'aria si vede all'apparire, & al tramontare del Sole, i cui raggi, che scendono fin giù in terra, sono intesi per la prolissa barba: la pelle maculosa mostra le stelle, che appaiono al dipartire del Sole, la verga la potenza, ch'egli hà sopra le cose; e la fistula l'armonia de i Cieli, la quale vogliono, che dal mouimento del Sole sia stata conosciuta. Ma ò questo, ò altro, che significasse il Dio Pan (per che Platone vuole, che per lui s'intenda il ragionare, e sia biforme, cioè huomo, e Capra, perche si ragiona il vero talhora, e talhora il falso: e perciò la parte di sopra mostra il vero, il quale è accompagnato dalla ragione, & come leggiero, e cosa diuina tende sempre in alto; e quella di sotto il falso, che è tutto bestiale, duro, & aspero, nè altroue habita, che quà giù trà mortali) ma significhi, che si voglia, come dissi questo Dio, egli fu così dipinto da gli antichi; huomo dal mezo in sù con due corna in capo, con faccia sgrignuta, tutta rubiconda, & con vna pelle di Pantera, ò di Pardo, che gli cinge il petto, & le spalle, con l'vna mano tiene vna verga pastorale, & con l'altra vna zampogna di sette canne, dal mezo in giù poi è Capra, con coscie, gambe, e piedi di Capra. Furono nel medesimo modo ancora fatti Fauno, Siluano, & i Satiri, li quali perciò paiono essere di vna medesima natura, tutti hanno certa picciola, e breue coda, & a tutti diedero gli antichi ghirlande di gigli, & di canne, & leggefi, che talhora furono coronati ancora di pioppa, e di finocchi. Onde Virgilio nella vltima Egloga fa Siluano ornato rozzamente il capo di ferole fiorite, &
+Hora ritorno à Pan, le cui parti di sotto sono pelose, & aspre, con i piedi di Capra, perche ci rappresentano la terra, la quale è dura, & aspra, & tutta disuguale, coperta di arbori, di infinite piante, e di molta herba. Alcuni, volendo per questo Dio intendersi il Sole, Padre, e Signore di tutte le cose (frà li quali à Macrobio) dicono, che le corna in lui mostrano la effigie della nuoua Luna: la faccia rubiconda, il rossore, che nell'aria si vede all'apparire, & al tramontare del Sole, i cui raggi, che scendono fin giù in terra, sono intesi per la prolissa barba: la pelle maculosa mostra le stelle, che appaiono al dipartire del Sole, la verga la potenza, ch'egli hà sopra le cose; e la fistula l'armonia de i Cieli, la quale vogliono, che dal mouimento del Sole sia stata conosciuta. Ma ò questo, ò altro, che significasse il Dio Pan (per che Platone vuole, che per lui s'intenda il ragionare, e sia biforme, cioè huomo, e Capra, perche si ragiona il vero talhora, e talhora il falso: e perciò la parte di sopra mostra il vero, il quale è accompagnato dalla ragione, & come leggiero, e cosa diuina tende sempre in alto; e quella di sotto il falso, che è tutto bestiale, duro, & aspero, nè altroue habita, che quà giù trà mortali) ma significhi, che si voglia, come dissi questo Dio, egli fù così dipinto da gli antichi; huomo dal mezo in sù con due corna in capo, con faccia sgrignuta, tutta rubiconda, & con vna pelle di Pantera, ò di Pardo, che gli cinge il petto, & le spalle, con l'vna mano tiene vna verga pastorale, & con l'altra vna zampogna di sette canne, dal mezo in giù poi è Capra, con coscie, gambe, e piedi di Capra. Furono nel medesimo modo ancora fatti Fauno, Siluano, & i Satiri, li quali perciò paiono essere di vna medesima natura, tutti hanno certa picciola, e breue coda, & a tutti diedero gli antichi ghirlande di gigli, & di canne, & leggefi, che talhora furono coronati ancora di pioppa, e di finocchi. Onde Virgilio nella vltima Egloga fa Siluano ornato rozzamente il capo di ferole fiorite, &
 
-Колонтитул:
-Кустод:
+Колонтитул: Imagini de i Dei. 122
+Кустод: di
 Маргиналии:
-- vbic.
+- Vole.
+- certo.
 - forte.
-- sorte.
 - forte.
 - forte.
-- vini.
+- viui.
 - Parti inferiori di Pan.
 - Pan pel Sole.
 - Virgilio.
 
 ## Скан 0165 · с. 123
 
-di gran gigli. Et in altro luogo gli dà a portare in mano vna tenera pianta di Cipresso, perche, come quiui dichiara Seruio, fu mutato in quest'arbore di Ciparisso bellissimo giouane amato da lui grandemente. Fu stimato Siluano da gli antichi Dio non solamente delle selue, ma de i campi ancora, & che la cura hauesse della coitiuatione di questi, alla quale lo prouocauano con certa cerimonia, quando le donne erano in letto di parto, accioche occupato in quella non andasse la notte a dar noia a queste. Imperoche egli era creduto essere quella certa cosa graue, e pesante, qual pare, che si senta talhora venire addosso chi dorme. Perche dunque Siluano non andasse a molestare le donne di parto, vsauano gli antichi, come scriue Varrone, & lo riferisce Santo Agostino nella Città di Dio, di mandare tre giouani intorno alla casa, li quali arriuati alla porta percotenuano quiui la terra l'vno con vna scure chiamando Intercidone Dio del tagliare gli alberi; l'altro con vn pestello, perche senza questo non si poteua ben mondare il ferro, e chiamaua il Dio Pilunno, che la cura haueua del pestare; & il terzo vi scopaua, perche scopando si raccogliono le biade insieme, e chiamaua Deuerra Dea dello scopare accioche Siluano, se ne andasse con questi trè Dei, e non entrasse nella casa, ou'era la donna di parto. De' Satiri Luciano scriue, che hanno le orecchie acute, come quelle delle Capre, e sono calui, con due cornette in capo: & aggiunge Filostrato, che hanno la faccia rossa di effigie humana con piedi di Capra. Onde sono velocissimi, come riferisce Plinio, e trouansene ne' monti della India: ma per la loro velocità non è possibile pigliarli se non vecchi, ouero infermi; come racconta Plutarco, che ne fu menato vno a Silla, quando ritornaua dalla guerra fatta contra Mitridate. Pausania scriue essergli stato riferito da vno, che fu già spinto dal vento a certe Isole deserte, nel Mare Oceano, chiamate Satiride, che quiui habitauano huomini seluatici, rossicci tutti con la coda poco minore di quella di vn Cauallo, li quali correuano al lito, subito che vedeuano qualche naue, e se vi erano femine, si auuentauano loro addosso con la maggiore furia del mondo, vsandone a tutte le vie: ilche si confà molto bene a quello, che si legge della natura de i Satiri. Et il B. Girolamo recita nella vita di Santo Antonio, che ne gli heremi dello Egitto questo santo huomo vide vn'homicciuolo, che haueua le corna su la fronte, & il naso sgrignuto, & era dal mento in giù nelle coscie, e ne i piedi simile alle Capre, e fattosi il segno della Croce, gli dimandò che ei fosse: & egli rispose, che era mortale, habitatore delle Selue, & vno di quelli cui la Gentilità ingannata rendeua diuini honori dimandando Fauni, e Satiri. E questi non andauano in Cielo mai, ma stauano sempre in terra insieme con le Ninfe, & altri boscherecci Dei, come dice apunto Gioue, che vuole, che siano, quando appresso di Ouidio dichiara al Concilio de i Dei
+di gran gigli. Et in altro luogo gli dà a portare in mano vna tenera pianta di Cipresso, perche, come quiui dichiara Seruio, fu mutato in quest'arbore di Ciparisso bellissimo giouane amato da lui grandemente. Fu stimato Siluano da gli antichi Dio non solamente delle selue, ma de i campi ancora, & che la cura hauesse della coitiuatione di questi, alla quale lo prouocauano con certa cerimonia, quando le donne erano in letto di parto, accioche occupato in quella non andasse la notte a dar noia a queste. Imperoche egli era creduto essere quella certa cosa graue, e pesante, qual pare, che si senta talhora venire addosso chi dorme. Perche dunque Siluano non andasse a molestare le donne di parto, vsauano gli antichi, come scriue Varrone, & lo riferisce Santo Agostino nella Città di Dio, di mandare tre giouani intorno alla casa, li quali arriuati alla porta percotenuano quiui la terra l'vno con vna scure chiamando Intercidone Dio del tagliare gli alberi; l'altro con vn pestello, perche senza questo non si poteua ben mondare il ferro, e chiamaua il Dio Pilunno, che la cura haueua del pestare; & il terzo vi scopaua, perche scopando si raccogliono le biade insieme, e chiamaua Deuerra Dea dello scopare accioche Siluano, se ne andasse con questi trè Dei, e non entrasse nella casa, ou'era la donna di parto. De' Satiri Luciano scriue, che hanno le orecchie acute, come quelle delle Capre, e sono calui, con due cornette in capo: & aggiunge Filostrato, che hanno la faccia rossa di effigie humana con piedi di Capra. Onde sono velocissimi, come riferisce Plinio, e trouansene ne' monti della India: ma per la loro velocità non è possibile pigliarli se non vecchi, ouero infermi; come racconta Plutarco, che ne fu menato vno a Silla, quando ritornaua dalla guerra fatta contra Mitridate. Pausania scriue essergli stato riferito da vno, che fu già spinto dal vento a certe Isole deserte, nel Mare Oceano, chiamate Satiride, che quiui habitauano huomini seluatici, rossicci tutti con la coda poco minore di quella di vn Cauallo, li quali correuano al lito, subito che vedeuano qualche naue, e se vi erano femine, si auuentauano loro addosso con la maggiore furia del mondo, vsandone à tutte le vie: ilche si confà molto bene a quello, che si legge della natura de i Satiri. Et il B. Girolamo recita nella vita di Santo Antonio, che ne gli heremi dello Egitto questo santo huomo vide vn'homicciuolo, che haueua le corna su la fronte, & il naso sgrignuto, & era dal mento in giù nelle coscie, e ne i piedi simile alle Capre, e fattosi il segno della Croce, gli dimandò che ei fosse: & egli rispose, che era mortale, habitatore delle Selue, & vno di quelli cui la Gentilità ingannata rendeua diuini honori dimandando Fauni, e Satiri. E questi non andauano in Cielo mai, ma stauano sempre in terra insieme con le Ninfe, & altri boscherecci Dei, come dice apunto Gioue, che vuole, che stiano, quando appresso di Ouidio dichiara al Concilio de i Dei
 
-Колонтитул:
-Кустод:
+Колонтитул: De gli Antichi. 123
+Кустод: di
 Маргиналии:
 - Siluano.
 - S. Agostino.
