@@ -108,8 +108,8 @@
 | 0197 | 155 | гравюра | — полностраничная | |
 | 0199 | 157 | гравюра | — полностраничная | |
 | 0201 | 159 | гравюра | — полностраничная | |
-| 0206 | 164 | гравюра | — полностраничная | |
-| 0208 | 166 | гравюра | — полностраничная | |
+| 0206 | 164 | гравюра | Imagine di Giunone Argiua, di Giunone saluatrice in Launio, & di Giunone regina de gli Dei, dell'aria patrona, matrigna, & odiatrice di Bacco, & di Hercole, purgatrice, & mondatrice delle cose proprio effetto dell'aria. | |
+| 0208 | 166 | гравюра | Imagine di Giunone inuentrice ò protettrice del matrimonio, detta Giunone giugale, & del giogo & vccelli a lei sacrati, significanti l'offitio de maritati, & la successione ò prole che ne viene dal matrimonio concorde. | |
 | 0212 | 170 | гравюра | — полностраничная | |
 | 0217 | 175 | гравюра | — полностраничная | |
 | 0222 | 180 | гравюра | — полностраничная | |
