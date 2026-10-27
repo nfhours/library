@@ -1,5 +1,158 @@
 # Cartari 1626: текст книги (собрано из pages/*.md)
 
+## Скан 0001 · с. Einband
+
+[ПУСТАЯ СТРАНИЦА]
+
+Колонтитул:
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0002 · с. Vorderspiegel
+
+[ПУСТАЯ СТРАНИЦА]
+
+Колонтитул:
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0003 · с. Vorsatz_r
+
+[ПУСТАЯ СТРАНИЦА]
+
+Колонтитул:
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0004 · с. Vorsatz_v
+
+[ПУСТАЯ СТРАНИЦА]
+
+Колонтитул:
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0005 · с. Titelblatt_1r
+
+IMAGINI
+DELLI DEI
+DEL CARTARI.
+
+(Ниже напечатанного заголовка — рукописная владельческая запись пером, чернила выцвели, часть букв читается неуверенно:)
+
+Ce Liure Apartien à M.r
+francois Alexandre
+Mion, M.tre de Dance
+De S.M. Le Roi De Sardaigne,
+Et de la famille Royal
+page de Naple No. 12.
+
+Колонтитул:
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0006 · с. Titelblatt_1v
+
+[ПУСТАЯ СТРАНИЦА]
+
+Колонтитул:
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0007 · с. Titelblatt_2r
+
+(Над печатной рамкой — рукописная помета пером, частично неразборчива:)
+a Partien à M.r f. A. Mion,
+M.tre de Dance
+
+SECONDA NOVISSIMA EDITIONE
+DELLE
+IMAGINI
+DE GLI DEI DELLI ANTICHI
+DI VICENZO CARTARI REGGIANO.
+
+*Ridotte da capo a piedi alle loro reali, & non più per l'adietro osseruate simiglianze.*
+
+*Cauate da' Marmi, Bronzi, Medaglie, Gioie, & altre memorie antiche; con esquisito studio, & particolare diligenza*
+
+DA LORENZO PIGNORIA PADOVANO.
+
+*Aggionteui le Annotationi del medesimo sopra tutta l'opera, & vn Discorso intorno le Deità dell'Indie Orientali, & Occidentali, con le loro Figure tratte da gl'originali, che si conseruano nelle Gallerie de' Principi, & ne' Musei delle persone priuate.*
+
+*Con le Allegorie sopra le Imagini di* CESARE MALFATTI Padouano, *migliorate, & accresciute nouamente.*
+B.V. *Et vn Catalogo di cento più famosi Dei della gentilità. in Salem.*
+
+*Con l'aggiunta d'vn'altro Catalogo de gl'Autori Antichi, & Moderni, che hanno trattato questa materia, ordinato & raccolto dal medesimo Pignoria, che ha accresciute le Annotationi, & aggiunte molte Imagini.*
+
+[ГРАВЮРА: издательская марка — в центре аллегорическая женская фигура в короне, с копьём в одной руке и жезлом с фигуркой наверху в другой; по бокам два шлема с нашлемниками (слева — крылатый дракон, справа — фигурка со знаменем), под ними два овальных картуша: слева — дракон на горе, справа — крепостная башня с воротами]
+
+IN PADOVA.
+Nella stamparia di Pietro Paolo Tozzi.   M.DC.XXVI.
+
+Колонтитул:
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0008 · с. Titelblatt_2v
+
+[ПУСТАЯ СТРАНИЦА]
+
+UNIVERSITÄTS-BIBLIOTHEK HEIDELBERG
+(овальный библиотечный штамп)
+
+Колонтитул:
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0009 · с. Widmung_1r
+
+[ВИНЬЕТКА: наборная орнаментальная заставка над заголовком — путти и гротескные фигуры среди растительных завитков]
+
+ALL'ILLVSTRISS. SIG.
+Et Patron mio Colendissimo
+
+IL SIGNOR
+FRANCESCO DRAGO,
+Signor di Riofreddo, &c.
+
+[ИНИЦИАЛ: S]aranno sei anni, che hauendo io date in luce le Imagini de gli Dei del Cartari, le honorai col nome di V.S. Illustriss. si per dar loro nome, come apunto mi riuscì, si per dare qualche segno al Mondo della mia molta osseruanza verso il nome di chi m'haueua e fauorito, e protetto sempre. Hora hauendo io con spesa nota-
+
+Колонтитул:
+Кустод: bile,
+Сигнатура: ✳ 2
+Маргиналии:
+
+## Скан 0010 · с. Widmung_1v
+
+bile, & industria di persona molto intendente in queste cose, ristampate le medesime, & ridottele a forma poco meno, che noua, non ho saputo proueder loro d'altro padrone, e difensore, che del nome di V. Sig. Illustriss. che sò gradirà in quest'opera familiare hoggimai a gl'occhi suoi, l'affetto d'vn'antico Seruidore, che professa tanto quanto egli è, tutto hauere, & riconoscere in gran parte dalla humanità di V.S. Illustriss. Et perche questa noua Editione esce arricchita d'vna seconda parte d'imagini delle Deità delle Indie, ho giudicato bene di donare questa seconda all'amicitia, ch'ella tiene co'l Signor Piero Buarno, acciò che si come
+
+Колонтитул:
+Кустод: la
+Сигнатура:
+Маргиналии:
+
+## Скан 0011 · с. Widmung_2r
+
+la conformità de' studi, & degl'animi le ha legate insieme, cosi esteriormente ancora vedano gl'huomini segno di si nobile, & honorato legame, & qualche vestigio di gratitudine in persona, che si ricorda d'hauere & da V.S. Illustriss. & dal Sig. Buarno riceuuti fauori, che non si possono per la grandezza loro, se non additare da lunghi con la memoria, & co'l desiderio di fare assai, doue'l molto riesce nulla. Faccio riuerenza a V.S. Illustriss. & le desidero dal Signore il compimento d'ogni suo desiderio.
+
+Di Padoua il dì 1. Nou. 1614.
+Di V.S. Illustriss.
+Seruitore humilissimo
+Pietro Paolo Tozzi.
+
+Колонтитул:
+Кустод: Prefa-
+Сигнатура: ✳ 3
+Маргиналии:
+
 ## Скан 0042 · с. 1
 
 LE IMAGINI DE I DEI DE GLI ANTICHI.
