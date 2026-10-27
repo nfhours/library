@@ -136,7 +136,7 @@ scan,label,printed_number,state,unclear,engravings,note
 0135,93,93,done,0,1,
 0136,94,,done,0,0,
 0137,95,,draft,0,1,
-0138,96,,done,0,0,
+0138,96,,done,1,0,
 0139,97,97,done,0,0,
 0140,98,,done,0,1,
 0141,99,99,done,0,0,
