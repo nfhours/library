@@ -1148,9 +1148,9 @@ Perche Thetide hauesse il Sole su'l braccio destro, & la Luna su'l sinistro, dic
 
 [ГРАВЮРА — полностраничная]
 
-Imagine dell'Aurora, & del Cauallo Pegaso, che tira il suo carro, dinotante quell'hora essere la più commoda, & di maggior profitto per lo studiare, & la gloria che ne risulta al dotto & virtuoso.
+Imagine dell'Aurora, & del Cauallo Pegaseo, che tira il suo carro, dinotante quell'hora essere la più commoda, & di maggior profitto per lo studiare, & la gloria che ne risulta al dotto & virtuoso.
 
-Колонтитул:
+Колонтитул: 84 Imagine de i Dei
 Кустод:
 Маргиналии:
 
@@ -1167,22 +1167,164 @@ Meriggio la sinistra. Potrebbesi dire ancora, che mettesse Claudiano il Sole nel
 - Homero.
 Нумерация: на странице напечатано 95, в PAGES.tsv 85 (сверено по фото скана 0127).
 
+## Скан 0128 · с. 86
+
+[ГРАВЮРА — полностраничная]
+
+Imagine di Diana dea delle selue, & della caccia, la quale s'intende per la Luna da alcune cacciatrici accompagnata. questa fu anco tenuta la dea della pudicitia & castità, punitrice delli violatori di quella.
+
+Колонтитул: 96 Imagine de i Dei
+Кустод:
+Маргиналии:
+Нумерация: на странице напечатано 96, в PAGES.tsv 86.
+
+## Скан 0129 · с. 87
+
+DIANA
+
+[ВИНЬЕТКА: декоративная разделительная полоса из растительного орнамента, двойная строка]
+
+[ИНИЦИАЛ: D]omandarono gli antichi Diana la Dea della caccia, e dissero che le erano raccomandate le selue, & i boschi, perche ella quiui si essercitaua souente nelle caccie, fuggendo la conuersatione de gli huomini, per meglio guardare la virginità. Et perciò fù fatta in habito di Ninfa tutta succinta con l'arco in mano, & con la faretra piena di quadrella al fianco, come la descriue Claudiano, il quale dissegnato che hà Pallade così dice di lei.
+
+*Men fera assai, ma più leggiadra, e bella*
+*Diana era, ch'in lei gli occhi, e le guancie*
+*Parean di Febo, lo splendore, e'l sesso*
+*Sol chi fusse di lor scoperto haurebbe.*
+*Le ignude braccia di candor celeste*
+*Splendeanle, e sparsi da le spalle al seno*
+*Scherzando se ne giano i capei sciolti.*
+*L'arco allentato, e le quadrella al tergo*
+*Pendeano, e da due cinti ben ristretta*
+*La sottil veste con minute falde*
+*Fin sotto le ginocchia discorrea.*
+
+Et le dauano in compagnia alcune poche verginelle, le quali sono parimente descritte da Claudiano in questa guisa.
+
+*Le braccia han nude, e gli homeri, da i quali*
+*Pendon faretre di saette piene:*
+*Le man di lieui dardi sono armate,*
+*Ei non hanno ornamento alcuno intorno*
+*Fatto con arte, nè però men belle*
+*Appaion, mentre che van seguitando*
+*Le faticose caccie, e di sudore*
+
+Колонтитул: De gli Antichi. 97
+Кустод: Bagnan
+Маргиналии:
+- Imagine di Diana.
+- Claudiano.
+- Compagni di Diana.
+Нумерация: на странице напечатано 97, в PAGES.tsv 87.
+
+## Скан 0130 · с. 88
+
+*Bagnan talhor le colorite guancie,*
+*Da le quali a fatica si conosce.*
+*S'elle sian Verginelle ardite, e vaghe,*
+*O pur feroci giouani, le chiome*
+*Sono annodate senza ordine, e sciolte,*
+*Rittengon di sottil vesti duo cinti,*
+*Sì, che van sol fin sotto le ginocchia.*
+
+Et il medesimo Claudiano dice, che l'arco di Diana è di corno, contra quello che ne scrisse Ouidio, il quale lo fà dorato, & di corno quello delle Ninfe, dicendo di Siringa, che tanto era bella, che poteua essere creduta Diana, se stato non fosse, che questa ha l'arco d'oro, & ella l'haueua di corno. Così hanno finto le fauole, perche come sotto il nome di Apollo fu adorato il Sole, così fù adorato la Luna sotto il nome di costei chiamata Diana, quasi Deuiana; perche la Luna deuia nel Cielo dal dritto sentiero della Ecclittica, che tiene sempre il Sole, non altrimenti, che vadano i cacciatori souente per deuie strade seguitando le fere; delle quali altra non fu più grata a questa Dea de i Cerui; come si vide, quando per hauere Agamennone ammazzato vn Ceruo, ella si sdegnò sì fattamente contra i Greci, & fece loro tanto di male in Aulide; che fu deliberato di placarla col sangue di colui, che l'haueua offesa, sacrificandole Ifigenia sua figliuola; & era il sacrificio in punto, quando Diana mossa a pietà della giouane, la fece subito sparire rimettendo vna Cerua in suo luogo, con la quale fecero i Greci l'ordinato sacrificio, & placarono la Dea. Et Ifigenia portata nella Taurica regione fu fatta quiui Sacerdotessa di Diana, oue erano sacrificati i forestieri, & massimamente Greci, che vi capitauano, dando loro di vna scure sù'l capo doppo fatti alcuni preghi, & il corpo era gittato da vn'alta rupe, oue fu il tempio della Dea in mare, & il capo restaua quiui attaccato ad vn palo. Hauendo dunque Ifigenia la cura di questo tristo sacrificio, auenne che Oreste suo fratello, il quale era andato in Colco a purgarsi del peccato di hauere ammazzato la madre, vi capitò, & fu riconosciuto da lei, nè volle perciò, che fosse sacrificato, come gli altri: ma perche la gente del paese pareua non volerlo sopportare, se ne fuggì via con lui portando seco il simulacro della Dea auolto in certi fasci di bacchette, dalli quali ella fu poi cognominata Diana Fascellina, & andò a porlo ad Aricia lungi da Roma da dieci miglia continuando quiui medesimamente l'empio sacrificio delle vittime humane, quale parue poi troppo crudele a' Romani, benche fossero sacrificati i serui solamente, & perciò lasciarono passare questa Dea con suoi sacrificij a Lacedemonij, li quali si conuertirono all'vso di tale ceremonia in questa maniera. Scieglieuano a sorte alcuni giouanetti della Città,
+
+Колонтитул: 98 Imagini de i Dei
+Кустод: &
+Маргиналии:
+- Sacrificij di sangue humano.
+- Costume di Lacedemonij di battere à giouani.
+Нумерация: на странице напечатано 98, в PAGES.tsv 88.
+
+## Скан 0131 · с. 89
+
+& postili sù l'altare della Dea gli batteuano in modo, che i miserelli spargeuano largamente il sangue dalle tenere, & delicate membra; di che non solamente non si doleuano, ma leggesi, che souente contendeuano insieme, chi di loro sostenesse più virilmente le agre battiture. In questo mezzo la Sacerdotessa andaua col simulacro della Dea in braccio intorno all'altare, & scriue Pausania, che se colui, cui era dato l'officio di battere i giouani, hauesse forse hauuto più rispetto all'vno, che all'altro, o perche fosse stato più bello, ò più nobile, il simulacro della Dea, che era assai picciolo, & leggiero, diuentaua così graue, & pesante, che la Sacerdotessa non lo poteua sostenere a pena: & perciò, quando questo aueniua, ella gridaua, che per colpa del battitore si sentiua opprimere dal graue peso del simulacro, che doueua pur hauere tuttauia quelle bacchette intorno, con le quai ei fu portato via. Et benche paia, che così crudele sacrificio male si confacesse ad vna Dea vergine, & piaceuole qual'era Diana; nondimeno alcuni de gli antichi credettero, che ella si dilettasse di vedere spargere sù gli suoi altari il sangue humano, come fù fatto, secondo che si legge appresso del medesimo Pausania, anco in Patra Città dell'Achaia, sacrificandole ogni anno vn giouanetto, & vna verginella, i più belli della Città, per placare l'ira sua conceputa per la poca riuerenza hauutale da vna sua Sacerdotessa, la quale amorosamente stette più volte con vn giouine suo innamorato nel tempio stesso della Dea, onde di là a poco morirono ambidue miseramente, & ne seguitò vna carestia, & vna pestilenza grandissima alla Città, alla quale fù rimediato con il crudele sacrificio, ch'io dissi. Ma forse, che la colpa di così nefandi sacrificij fù delle nationi, alle quali piaceua di essercitare in quel modo la sua crudeltà come si può vedere da quello, che fù fatto a molti altri, Dei alli quali furono date parimente le vittime humane; perche Diana mostrò assai bene, che queste non le erano grate, quando in luogo di Ifigenia rimesse la Cerua, donde vogliono alcuni, che fosse introdotto di sacrificare la Cerua a Diana, che fù osseruato anco poi da' Romani à certi tempi, & erano perciò appese le corna de i Cerui in tutti i tempij di Diana, da vno in fuori, che era su'l monte Auentino, oue in quella vece attaccauano le corna de i Buoi. Et si legge esserne stata la cagione, che appresso de i Sabini nacque già vno bellissimo bue, ò vacca che fosse, ad vno nomato Antonio, & fù detto da gli indouini, che chi prima lo sacrificasse a Diana su'l monte Auentino, guadagnarebbe alla patria sua l'Imperio dell'Italia, Antonio allegrò di ciò andossene à Roma col bue per farne il gran sacrificio, ma auertito di nascosto il Sacerdote di Diana da vn seruo di colui, fece andare Antonio à lauarsi nel Tebro, dicendo, che altrimente ei non poteua fare sacrificio, che fossero grato alla Dea, & così egli in questo mezzo sacrificò
+
+Колонтитул: De gli Antichi. 99
+Кустод: il bue
+Маргиналии:
+- Pausania.
+- Vedi Liuio.
+Нумерация: на странице напечатано 99, в PAGES.tsv 89.
+
+## Скан 0132 · с. 90
+
+[ГРАВЮРА — полностраничная]
+
+Imagine di Diana della caccia, & de boschi, & amatrice de Cerui à lei sacrati, che dinotano il presto suo corso in 29. giorni, & esser la illuminatrice della notte essendo tolta per la Luna, & scorta de viandanti nella notte.
+
+Колонтитул: 100 Imagini de i Dei
+Кустод:
+Маргиналии:
+Нумерация: на странице напечатано 100, в PAGES.tsv 90.
+
+## Скан 0133 · с. 91
+
+il bue & ne appiccò le corna alle porte del tempio: onde perche egli era Romano, fù acquistato à Roma l'Imperio della Italia; & fù poscia introdotta la vsanza di mettere le corna de i buoi à questo tempio solo di Diana, che era come dissi, su l'Auentino. Et potrebbe anco forse essere, che ciò fosse stato fatto, perche questo animale si confà assai à Diana, mentre che per lei intendiamo la Luna, come dirò poi; che hora ritorno a dire de i Cerui; li quali furono creduti tanto grati a Diana, che vestirono talhora gli antichi i suoi simulacri delle pelli di quelli come si legge appresso di Pausania nell'Arcadia ne era vno vestito di vna pelle di Ceruo, da gli homeri del quale pendeua vna faretra piena di strali, & haueua nell'vna delle mani vna facella accesa & nell'altra duo serpenti, & a lato gli staua vn cane da caccia. Et in certa parte dell'Acaia, come riferisce il medesimo Pausania (oue faceuano solennissimo sacrificio à Diana, il cui simulacro era d'oro, & di auorio in forma di cacciatrice) il dì innanzi, che si sacrificasse andaua in volta, come diremmo noi vna gran processione con bellissima pompa, & dietro à tutti era la Vergine sacerdotessa della Dea sù vn bel carro tirato da duo Cerui. Et i Poeti danno a Diana il carro tirato parimente da bianchissimi Cerui, come fà Claudiano, quando dice:
+
+*Scende la Dea, che de la caccia ha cura,*
+*Da gli alti monti, e co'l veloce carro*
+*Tratto da bianchi Cerui passa il Mare.*
+
+Et dicesi, che posero Diana su'l carro tirato da velocissimi animali per mostrare la sua velocità, conciosia, che la Luna fà in pochissimo tempo, che son vintinoue giorni, & dodici hore in circa, il suo giro, come quella, che ha l'orbe minore de gli altri. Et à gli altri Dei parimente furono dati i carri per segno del rotare, che fanno le Celesti sfere, alle quali essi sono sopra; & secondo le qualità loro così hanno gli animali, che gli tirano. Et perciò Propertio fà, che il carro della Luna sia tirato da Caualli, quando dice:
+
+*Benche gli occhi cadenti non calcasse*
+*Il pigro sonno e con gli suoi Caualli.*
+*La Luna à mezo il Cielo rosseggiasse.*
+
+Di questi l'vno era negro, e l'altro bianco, dice il Boccaccio; perche non solamente appare di notte la Luna, ma si vede anco il dì. Festo Pompeio scriue, che vn Mulo tiraua il carro della Luna, & che la ragione di ciò era, che ella da sè è sterile per esser fredda di sua natura, & il Mulo parimente non genera. Ouero che voleuano mostra
+
+Колонтитул: De gli Antichi. 101
+Кустод: re
+Маргиналии:
+- Simulacro di Diana.
+- Carro di Diana.
+- Caualli della Luna.
+- Propertio.
+- Boccaccio.
+- Mulo al carro della Luna.
+Нумерация: на странице напечатано 101, в PAGES.tsv 91.
+
+## Скан 0134 · с. 92
+
+re gli antichi con questo animale, che non ha la Luna luce da sè, ma risplende con l'altrui lume, quasi che il Sole gliela presti; sì come il Mulo non nasce di animali di sua razza, ma dall'altrui, che sono Asini, e Caualle. Pausania, oue racconta le gran cose, che erano nel tempio di Gioue Olimpio appresso de gli Elei in Grecia, dice, che vi era vna Diana, la quale pareua a lui, che cacciasse vn Cauallo; benche soggiunge poi, hauer detto alcuni, che questa sia tirata non da Caualli, ma da Muli per certa vana fauola, che si racconta del Mulo; & altro non ne dice. Prudentio contra Simaco scriue, che gli antichi Romani sacrificauano vna vacca sterile alla Luna, & che due vacche, le quali doueuano essere parimente sterili; tirauano il suo carro. Oltre di ciò sonoui stati di quelli, che hanno posto al carro della Luna i Giouenchi, come Claudiano, quando finse, che Cerere, per cercare la perduta figlia, accendesse in Mongibello gli tagliati pini dicendo;
+
+*Acciò tengano in sè Virtù maggiore*
+*Di quel liquor, che Febo i destrier suole,*
+*E i suoi Giouenchi la bicorne Luna*
+*In quant' vopo lor la sia gli asperge, e bagna.*
+
+Et Ausonio Gallo fece il medesimo, quando scriuendo à Paolino disse:
+
+*Già fea veder la Luna i bei Giouenchi.*
+
+Di questi si legge la medesima ragione, che hò detto de i Muli, cioè, che mostrano la sterilità. Imperoche, come scriue Xenofonte, & si vede fare etiandio tutto dì, si castrano i Tori, per farli più mansueti, & più commodi a coltiuare il terreno, donde è che non ponno poi più generare. Oueramente fu dato questo animale alla Luna, per la simiglianza, che è frà loro delle corna: conciosia, che al simulacro di quella, che era di vaga Ninfa, come hò detto, metteuano due piccole cornette in capo. Et in Egitto era consecrato alla Luna quel bue, che quiui haueuano in tanta riuerenza, il quale bisognaua, che hauesse vna macchia bianca nel destro fianco, & le corna picciole, come sono quelle della Luna quando comincia à crescere, secondo che si legge appresso di Plinio. Et glie ne sacrificauano vno ancora di sei mesi, dicono alcuni il settimo dì, & alcuni altri il decimo dopò il parto, che era quando con le loro cerimonie metteuano il nome a' figliuoli nati. Et faceuano gli antichi questo all'hora alla Luna forse ringratiandola, quasi che per lei il maturo parto fosse venuto in luce, perche dicono, che la Luna per esser pianeta humido affretta il tempo tal hora con il suo influsso, onde ne
+
+Колонтитул: 103 Imagini de i Dei
+Кустод: nascono
+Маргиналии:
+- Pausania.
+- Prudentio.
+- Giouenchi al carro della Luna.
+- Ausonio Gallo.
+- Luna aiuta il partorire.
+Нумерация: на странице напечатано 103, в PAGES.tsv 92 (разрыв нумерации печатника: 102 пропущена в печати).
+
 ## Скан 0135 · с. 93
 
 [ГРАВЮРА — полностраничная]
 
 Statua di Lucina dea de Parti tolta per la Luna essendo la Luna Pianeta humido atto à facilitare la prestezza del parto, & figurata per la vergogna della donna parturiente.
 
-Колонтитул:
+Колонтитул: De gli Antichi. 93
 Кустод:
 Маргиналии:
 
 ## Скан 0136 · с. 94
 
-nascono alle volte i figliuoli nel settimo mese, che e a lei sottoposto, & fa quasi sempre il parto più facile. Et per questo lo chiamauano all'hora, & la pregauano nominandola Lucina, quasi che tosto, & senza pericolo della madre facesse vscire il parto già maturo in luce. Ma le fauole hanno detto, che Diana era chiamata dalle donne ne i parti sotto il nome di Lucina, perche vscita che ella fu del ventre di Latona sua madre, le si voltò subito, & tutta snella, e destra l'aiutò a partorire il fratello Apollo, come che la pregassero, che vscisse col Nume suo a dare loro l'aiuto, che ella diede già alla madre con le proprie mani. Nè fu intesa Diana solamente sotto il nome di Lucina, ma Giunone ancora, come si vede nella sua imagine. Et alcuni hanno detto, che non fu quella, nè questa, ma che fu certa femina, la quale venne fin da gli Hiperborij monti in Delo per aiutare Latona a partorire; & che quindi si sparse poi il nome suo in modo, che fu adorata quasi per tutto, & hebbe tempij, altari, e simulacri, come gli altri Dei: innanzi alli quali bisognò, che ella fosse, poscia, che gli aiutaua a nascere. Et così pare, che s'intendesse vn Licio poeta, il quale, come riferisce Pausania, in certi hinni, che ei fece a questa Dea, la disse essere stata fino innanzi a Saturno, & le diede certi nomi, per li quali si potrebbe anco facilmente credere, che ella fosse stata vna delle Parche; perche queste haueuano parimente che fare assai nel nascimento humano, come vederemo, quando si ragionerà di loro. Ma lasciando cercare ad altri, chi ella fusse, ò donde, venisse questa Dea Lucina, diciamo de' suoi simulacri, li quali erano tenuti sempre tutti coperti da gli Atheniesi però solamente, come scriue Pausania. Onde appresso di costoro la statua di Lucina poteua così essere vn pezzo di legno, ò di altra materia senza figura alcuna, come formato in donna, ò in altra cosa, poi che staua sempre coperta, ne si vedeua mai. In certa parte dell'Achaia fu vn tempio di questa Dea molto antico, con vn simulacro tutto di legno, fuori che la faccia, la quale era tale, che poteua rappresentare Diana; le mani, & i piedi erano di marmo, & lo copriua tutto vn velo sottile di lino, da quelle parte in fuori, che erano di marmo, le quali stauano scoperte. L'vna delle mani era distesa, senza alcuna cosa, & vi hauerebbono ben potuto mettere vna chiave, perche Festo scriue, che la soleuano donare gli antichi alle donne mostrando con questa (che è stromento da aprire) che desiderauano loro vn parto facile, & piaceuole, perche aprendosi bene la via al bambino, quando hà da nascere, egli se ne esce senza dare tormento alla madre: ma forse, che volsero mostrare il medesimo con quella mano di Lucina distesa, & aperta. L'altra portaua vna facella ardente, la quale mostraua, ouero che le donne al partorire sentono grauissimi dolori, che le stringono così, come il fuoco stringe tutto ciò, a che si appiglia;
+nascono alle volte i figliuoli nel settimo mese, che è a lei sottoposto, & fà quasi sempre il parto più facile. Et per questo lo chiamauano all'hora, & la pregauano nominandola Lucina, quasi che tosto, & senza pericolo della madre facesse vscire il parto già maturo in luce. Ma le fauole hanno detto, che Diana era chiamata dalle donne ne i parti sotto il nome di Lucina, perche vscita che ella fu del ventre di Latona sua madre, le si voltò subito, & tutta snella, e destra l'aiutò a partorire il fratello Apollo, come che la pregassero, che vscisse col Nume suo a dare loro l'aiuto, che ella diede già alla madre con le proprie mani. Nè fu intesa Diana solamente sotto il nome di Lucina, ma Giunone ancora, come si vede nella sua imagine. Et alcuni hanno detto, che non fu quella, nè questa, ma che fu certa femina, la quale venne fin da gli Hiperborij monti in Delo per aiutare Latona a partorire; & che quindi si sparse poi il nome suo in modo, che fu adorata quasi per tutto, & hebbe tempij, altari, e simulacri, come gli altri Dei: innanzi alli quali bisognò, che ella fosse, poscia, che gli aiutaua a nascere. Et così pare, che s'intendesse vn Licio poeta, il quale, come riferisce Pausania, in certi hinni, che ei fece a questa Dea, la disse essere stata fino innanzi a Saturno, & le diede certi nomi, per li quali si potrebbe anco facilmente credere, che ella fosse stata vna delle Parche; perche queste haueuano parimente che fare assai nel nascimento humano, come vederemo, quando si ragionerà di loro. Ma lasciando cercare ad altri, chi ella fusse, ò donde, venisse questa Dea Lucina, diciamo de' suoi simulacri, li quali erano tenuti sempre tutti coperti da gli Atheniesi però solamente, come scriue Pausania. Onde appresso di costoro la statua di Lucina poteua così essere vn pezzo di legno, ò di altra materia senza figura alcuna, come formato in donna, ò in altra cosa, poi che staua sempre coperta, ne si vedeua mai. In certa parte dell'Achaia fu vn tempio di questa Dea molto antico, con vn simulacro tutto di legno, fuori che la faccia, la quale era tale, che poteua rappresentare Diana; le mani, & i piedi erano di marmo, & lo copriua tutto vn velo sottile di lino, da quelle parte in fuori, che erano di marmo, le quali stauano scoperte. L'vna delle mani era distesa, senza alcuna cosa, & vi hauerebbono ben potuto mettere vna chiave, perche Festo scriue, che la soleuano donare gli antichi alle donne mostrando con questa (che è stromento da aprire) che desiderauano loro vn parto facile, & piaceuole, perche aprendosi bene la via al bambino, quando hà da nascere, egli se ne esce senza dare tormento alla madre: ma forse, che volsero mostrare il medesimo con quella mano di Lucina distesa, & aperta. L'altra portaua vna facella ardente, la quale mostraua, ouero che le donne al partorire sentono grauissimi dolori, che le stringono così, come il fuoco stringe tutto ciò, a che si appiglia;
 
-Колонтитул:
-Кустод:
+Колонтитул: 94 Imagini de i Dei
+Кустод: ouero
 Маргиналии:
 - Simulacri di Lucina.
 - Festo.
