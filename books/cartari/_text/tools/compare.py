@@ -21,6 +21,7 @@ Cartari 1626 - сравнение pages/NNNN.md (done, сверено постр
 
 Ничего не правит, только печатает расхождения и считает их количество.
 """
+import argparse
 import difflib
 import os
 import re
@@ -36,6 +37,23 @@ SCANS = [
     "0147", "0148", "0149", "0150", "0151", "0154", "0156", "0159", "0161",
     "0163", "0165",
 ]
+
+
+def parse_args():
+    p = argparse.ArgumentParser(
+        description="Сравнивает две папки с транскрипцией одних и тех же сканов "
+                    "(done/pages vs blind, или read1 vs read2 для метода двойного "
+                    "чтения новых страниц) — та же нормализация, что в check.py."
+    )
+    p.add_argument("--dir-a", default=PAGES_DIR, help="первая папка (по умолчанию pages/)")
+    p.add_argument("--dir-b", default=BLIND_DIR, help="вторая папка (по умолчанию _blind/)")
+    p.add_argument("--label-a", default="done", help="подпись первой папки в выводе")
+    p.add_argument("--label-b", default="blind", help="подпись второй папки в выводе")
+    p.add_argument(
+        "--scans", default=None,
+        help="сканы через запятую, напр. 0001,0002,0003 (по умолчанию — встроенный список SCANS)",
+    )
+    return p.parse_args()
 
 HEADER_RE = re.compile(r"^<!--.*-->\s*$")
 FIELD_RE = re.compile(
@@ -257,22 +275,27 @@ def compare_marginalia(scan, done_marg, blind_marg, blind_echo):
 
 
 def main():
+    args = parse_args()
+    dir_a, dir_b = args.dir_a, args.dir_b
+    label_a, label_b = args.label_a, args.label_b
+    scans = args.scans.split(",") if args.scans else SCANS
+
     total_body_diffs = 0
     total_field_mismatches = 0
     total_marginalia_mismatches = 0
 
-    print("=== Cartari compare.py: done (pages/) vs blind (_blind/) ===")
-    print(f"Сканов для сверки: {len(SCANS)}")
+    print(f"=== Cartari compare.py: {label_a} ({dir_a}) vs {label_b} ({dir_b}) ===")
+    print(f"Сканов для сверки: {len(scans)}")
     print()
 
-    for scan in SCANS:
-        done_path = os.path.join(PAGES_DIR, f"{scan}.md")
-        blind_path = os.path.join(BLIND_DIR, f"{scan}.md")
+    for scan in scans:
+        done_path = os.path.join(dir_a, f"{scan}.md")
+        blind_path = os.path.join(dir_b, f"{scan}.md")
         if not os.path.isfile(done_path):
-            print(f"[{scan}] НЕТ файла pages/{scan}.md — пропуск")
+            print(f"[{scan}] НЕТ файла {label_a}/{scan}.md — пропуск")
             continue
         if not os.path.isfile(blind_path):
-            print(f"[{scan}] НЕТ файла _blind/{scan}.md — пропуск")
+            print(f"[{scan}] НЕТ файла {label_b}/{scan}.md — пропуск")
             continue
 
         done = parse_page(done_path, is_blind=False)
@@ -295,23 +318,23 @@ def main():
         if body_diffs:
             print(f"  Расхождения текста ({len(body_diffs)}):")
             for d in body_diffs:
-                print(f"    done:  ...{d['done_ctx']}...")
-                print(f"    blind: ...{d['blind_ctx']}...")
-                print(f"      [done='{d['done_changed']}' | blind='{d['blind_changed']}']")
+                print(f"    {label_a}:  ...{d['done_ctx']}...")
+                print(f"    {label_b}: ...{d['blind_ctx']}...")
+                print(f"      [{label_a}='{d['done_changed']}' | {label_b}='{d['blind_changed']}']")
             total_body_diffs += len(body_diffs)
 
         if field_mismatches:
             print(f"  Расхождения служебных полей ({len(field_mismatches)}):")
             for name, dv, bv in field_mismatches:
-                print(f"    {name}: done='{dv}' | blind='{bv}'")
+                print(f"    {name}: {label_a}='{dv}' | {label_b}='{bv}'")
             total_field_mismatches += len(field_mismatches)
 
         if only_done_marg or only_blind_marg:
-            print(f"  Расхождения маргиналий (done {len(only_done_marg)} без пары / blind {len(only_blind_marg)} без пары):")
+            print(f"  Расхождения маргиналий ({label_a} {len(only_done_marg)} без пары / {label_b} {len(only_blind_marg)} без пары):")
             for x in only_done_marg:
-                print(f"    только в done:  {x}")
+                print(f"    только в {label_a}:  {x}")
             for x in only_blind_marg:
-                print(f"    только в blind: {x}")
+                print(f"    только в {label_b}: {x}")
             total_marginalia_mismatches += len(only_done_marg) + len(only_blind_marg)
 
         print()
