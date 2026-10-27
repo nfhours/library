@@ -125,7 +125,7 @@ scan,label,printed_number,state,unclear,engravings,note,method,discrepancies,err
 0124,82,,draft,0,1,,,,,
 0125,83,,draft,0,0,,,,,
 0126,84,,done,0,1,,double,2,2,0
-0127,85,95,draft,0,0,"Нумерация: на странице напечатано 95, в PAGES.tsv 85 (сверено по фото скана 0127).",,,,
+0127,85,95,done,0,0,"Нумерация: на странице напечатано 95, в PAGES.tsv 85 (сверено по фото скана 0127).",double,6,6,0
 0128,86,96,done,0,1,"Нумерация: на странице напечатано 96, в PAGES.tsv 86.",double,1,1,0
 0129,87,97,done,0,2,"Нумерация: на странице напечатано 97, в PAGES.tsv 87.",double,3,1,1
 0130,88,98,done,0,0,"Нумерация: на странице напечатано 98, в PAGES.tsv 88.",double,3,2,1
@@ -135,7 +135,7 @@ scan,label,printed_number,state,unclear,engravings,note,method,discrepancies,err
 0134,92,102,done,0,0,"Нумерация: на странице напечатано 102, в PAGES.tsv 92.",double,5,3,2
 0135,93,93,done,0,1,,double,0,0,0
 0136,94,,done,0,0,,double,5,4,1
-0137,95,,draft,0,1,,,,,
+0137,95,95,done,0,1,,double,2,2,0
 0138,96,,done,1,0,,,,,
 0139,97,97,done,0,0,,,,,
 0140,98,,done,0,1,,,,,

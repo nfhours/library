@@ -2602,10 +2602,11 @@ Imagine dell' Aurora, & del Cauallo Pegaseo, che tirra il suo carro, dinotante q
 
 ## Скан 0127 · с. 85
 
-Meriggio la sinistra. Potrebbesi dire ancora, che mettesse Claudiano il Sole nel braccio destro, & la Luna nel sinistro, perche quello hà più forza, & è di maggior vigore assai di questa, della quale dirò subito, che hauerò disegnata l'Aurora, la quale se ben in Cielo và innanzi al Sole, non credo però, che debba hauersi a male di esserli stata posta dietro tra queste mie imagini, perche ad ogni modo ella nasce da lui, conciosia, che l'Aurora non è altro che il primo rosseggiare, che fanno i raggi del Sole in Oriente, quando cominciano a spuntare sopra il nostro Hemispero. Onde ne hanno finte i Poeti poi molte fauole, e l'hanno descritta in diuersi modi, quali fanno più assai per chi scriue, che per chi voglia farne imagine: & perciò non dirò di tutti, ma di alcuni pochi solamente, secondo che mi paiono più commodi a farne dipintura. Io non trouo, che se bene posero gli Antichi l'Aurora tra li Dei del Cielo, le facessero però mai statua alcuna; se non, che come scriue Pausania, ne fu vna di terra in Athene, che rapina Cefalo, ma non dice però come fosse fatta. Adunque ne farò ritratto da quello; che ne dissero i Poeti. Homero la fa con chiome bionde, & dorate, & che habbia vn seggio parimente dorato, & la veste pur del medesimo colore. Virgilio dice, ch'ella viene con le mani colorite a cacciare via le Stelle. Et Ouidio, che apre le rosseggianti porte piene tutte di bellissime rose, quando Febo vuole vscire dall'oriente. Alcuni oltre di ciò le mettono in mano vna accesa facella, & fanno ch'ella habbia vn Carro tirato dal cauallo Pegaso, che haueua l'ali; & dicono, che ella l'impetrò da Gioue, poi che ne fu caduto giù Bellerofonte. La qual cosa ci dà forse ad intendere, che quella hora del mattino sia la più commoda, & la migliore a chi poetando scriue di tutte l'altre, perche quel cauallo fu, che percotendo co'l piè fece spiccare fuori l'acqua del fonte, per ciò nominato anco caballino, tanto frequentato dalle Muse. Nondimeno Homero non questo, ma due altri caualli le dà, ambi lucidi e risplendenti. Fingono ancora alcuni, che venga l'Aurora al primo suo apparire tutta colorita, spargendo per l'aria canestri di fiori, & di rose gialle, & vermiglie. Et in somma la descriue ogn'vno come più gli piace, mostrando pure sempre quel colore tra giallo, & rosso, che spargono per l'aria i primi raggi del Sole.
+Meriggie la sinistra. Potrebbesi dire ancora, che mettesse Claudiano il Sole nel braccio destro, & la Luna nel sinistro, perche quello hà più forza, & è di maggior vigore assai di questa, della quale dirò subito, che hauerò disegnata l'Aurora, la quale se ben in Cielo và innanzi al Sole, non credo però, che debba hauersi a male di esserli stata posta dietro tra queste mie imagini, perche ad ogni modo ella nasce da lui, conciosia, che l'Aurora non è altro che il primo rosseggiare, che fanno i raggi del Sole in Oriente, quando cominciano a spuntare sopra il nostro Hemispero. Onde ne hanno finte i Poeti poi molte fauole, e l'hanno descritta in diuersi modi, quali fanno più assai per chi scriue, che per chi voglia farne imagine: & perciò non dirò di tutti, ma di alcuni pochi solamente, secondo che mi paiono più commodi a farne dipintura. Io non trouo, che se bene posero gli Antichi l'Aurora tra li Dei del Cielo, le facessero però mai statoa alcuna; se non, che come scriue Pausania, ne fu vna di terra in Athene, che rapiua Cefalo, ma non dice però come fosse fatta. Adunque ne farò ritratto da quello; che ne dissero i Poeti. Homero la fa con chiome bionde, & dorate, & che habbia vn seggio parimente dorato, & la veste pur del medesimo colore. Virgilio dice, ch'ella viene con le mani colorite a cacciare via le Stelle. Et Ouidio, che apre le rosseggianti porte piene tutte di bellissime rose, quando Febo vuole vscire dall'oriente. Alcuni oltre di ciò le mettono in mano vna accesa facella, & fanno ch'ella habbia vn Carro tirato dal cauallo Pegaso, che haueua l'ali; & dicono, che ella l'impetrò da Gioue, poi che ne fu caduto giù Bellerofonte. La qual cosa ci dà forse ad intendere, che quella hora del mattino sia la più commoda, & la migliore a chi poetando scriue di tutte l'altre, perche quel cauallo fu, che percotendo co'l piè fece spiccare fuori l'acqua del fonte, per ciò nominato anco caballino, tanto frequentato dalle Muse. Nondimeno Homero non questo, ma due altri caualli le dà, ambi lucidi e risplendenti. Fingono ancora alcuni, che venga l'Aurora al primo suo apparire tutta colorita, spargendo per l'aria canestri di fiori, & di rose gialle, & vermiglie. Et in somma la descriue ogn'vno come più gli piace, mostrando pure sempre quel colore tra giallo, & rosso, che spargono per l'aria i primi raggi del Sole.
 
-Колонтитул:
-Кустод:
+Колонтитул: De gli Antichi.  95
+Кустод: DIANA
+Сигнатура: F3
 Маргиналии:
 - Aurora.
 - Pausania.
@@ -2781,10 +2782,11 @@ nascono alle volte i figliuoli nel settimo mese, che è a lei sottoposto, & fà 
 
 [ГРАВЮРА — полностраничная]
 
-Imagine di Diana Cinthia ò Luna dea cacciatrice con vn Pardo nella destra, & vn Leone nella sinistra, così scolpita in Corinto nel tempio di Giunone nell'Arca di Cipfello tiranno.
+Imagine di Diana Cinthia ò Luna dea cacciatrice con vn Pardo nella destra, & vn Leone nella sinistra, così scolpita in Corinto nel tempio di Giunone nell'Arca di Cipsello tiranno.
 
-Колонтитул:
+Колонтитул: De gli Antichi.  95
 Кустод:
+Сигнатура:
 Маргиналии:
 
 ## Скан 0138 · с. 96
