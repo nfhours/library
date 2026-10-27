@@ -562,6 +562,874 @@ Cerui di Diana 98.101
 Сигнатура:
 Маргиналии:
 
+## Скан 0027 · с. XVI
+
+TAVOLA.
+
+Charonte 256
+Chiaue della gran Madre 176
+Chimalman Vergine 553
+Chimera 247
+Choro di Ariadna 346
+Ciato giouinetto 288
+Cibele 182. sua festa per suo lauarsi 483
+Cicale d'oro 112.434
+Ciclopi 141
+Cicogna della Concordia 268
+Ciglio di Giunone 150
+Cigno Vccello d'Apollo 50
+Cigno di Venere 434.435
+Vccello di buon augurio 524
+Cillenio 245
+Cime de' Monti in veneratione 556
+Cinocefalo adorato in Egitto 59
+Cipresso di Plutone 238
+Cisso fanciullo 352
+Citlallatonac dio del Mexico 553
+Ciuetta 304
+Clamide 588
+Claudia Vestale 179
+Claua d'Hercole 287.493
+Clemenza de' Prencipi espressa nel fulminare di Gioue 141
+Cleomene Capitano d'Alessandro.60
+Cloto 253
+Cocito 244
+Colombe di Venere 435. Colomba su la spalla d'Apollo 89
+Colonna bellica 301.507
+Colori de' fulmini 140
+Como 341.342.513
+Conca di Venere 433
+Concordia 265. Conopeo 515
+Conquiste de gli Egittij 145.146.147
+Conso dio 214
+Contemoque dio del Mexico 551
+Conto con le dita 34.463
+Corazza di Minerua 316
+
+Coribanti 176
+Corna per bere 345.514
+Cornachia della Concordia 268. di Minerua 311
+Cornocopia 136.475
+Corno di douitia 226.538
+Corona del Sole 80. corona murale. 182. di Quercia 147. d'Vliuo. 147.479
+Coruo vccello d'Apollo 50
+Carna ninfa 32
+Croce decussata 526. nell'Indie 559.560
+Crocodilo adorato in Egitto 60
+Cucco vccello di chi 156
+Cunina dea 173
+Cupido 403. con Mercurio & Hercole 409. vincitore di Pan 423. con Venere 449. Citharedo 525
+
+D
+
+[ИНИЦИАЛ: D]agon dio 492
+Decima Parca 251
+Dedalo, intorno alle statue che cosa operasse 66
+Dee bianche 239
+Delfini di Nettuno 212.491
+Demogorgone 15.462
+Demonio simia d'Iddio 553
+Dei xij.in Egitto 3
+Consenti 3
+Dei senza figura humana 144
+hanno i piedi di lana 29
+rappresentati con figura Piramidale,& perche 145
+Dei genetlij 282
+legati 331
+chiamati fuora delle Città 331
+tutti maschi e femine 446
+Destra, e sinistra come s'intendano nel Cielo 94
+Decreto 217.492
+Deuerra dea 123
+Deus onde venga 461
+
+Колонтитул: TAVOLA.
+Кустод: Dia-
+Сигнатура: a 2
+Маргиналии:
+
+## Скан 0028 · с. XVII
+
+TAVOLA.
+
+Diademi de' nostri Santi 519.585
+Diana Efesia 472
+Dea delle caccie 97. suo arco 98. perche così detta. la medesima con la Luna 98
+Diana Fascellina 98
+con l'arco,con la man aperta,
+con la face 104
+triforme 96
+Diftera libro di Gioue 142
+Dio senza figura 3.4.5
+solo appresso i Giudei 4
+Dio delle Lettere,& della Eruditione appresso i Giaponesi 568
+Discordia 328.330
+Domiduca 169
+Donne senza consiglio 298. riprese 395
+Donne di Tracia 291. cacciate da i Tempij d'Hercole 295
+Doride 217
+Dracone Atheniese arciere 507
+Due cose mirabili date da Dio all'huomo 295
+
+E
+
+[ИНИЦИАЛ: E]aco 230.231
+Echo 24
+Ecclisse della Luna 108
+Edusa dea 173
+Ega figliuola del Sole 314
+Egida 141.314
+Egittij imitati da' Greci 125
+Elementi maschio e femina 446
+loro communanza 183
+Eleusi & sue feste 190
+Eloquenza 244
+Empusa 472.102
+Encelado 318
+Endimione 110
+Ennosigeo 216
+Eolo 219
+Eono cugino d'Hercole 286
+Epidauro famosa per Esculapio 70
+
+Ercina compagna di Proserpina 75
+Erinne 192
+Erote 408.525
+Esculapio con barba grande 42
+senza barba 70. figliuolo d'Apolline. 69. come risuscitasse Glauco 75. nutrito da' Cani 183
+Esculapio Cotileo 286
+Eternità 12
+Eterno,& euiterno 462
+Eurinomo. 235. Eurinome 217
+Eutimo heroe 371
+Excelsa della Scrittura 555
+
+F
+
+[ИНИЦИАЛ: F]accie dell'Anima 36
+Fallo di Bacco. 348. Fallofori 361
+Fama buona e mala 362
+Fantaso 277
+Fascini 359.515
+Fato. 251.495. Fate 496
+Fauno 109.122
+Fauna 198
+Fauore 399
+Faue legume impuro 19.484
+Feciale 332
+Fede 266
+Felicità 401.&c.
+Ferro adoprato prima da chi 322
+Ferula 350
+Feste di Adone 448
+Feste del Nilo 493
+Fibula 449
+Fidio 134
+Figliuole d'Esculapio 467
+Fiori in che Vso anticamente 342
+Fiumi 221
+Flammeo 161.483
+Flegetonte 171.244
+Flora 188.196.222
+Fobetore 276
+Focolare 187
+Foche altrimenti Vitelli marini 218
+
+Колонтитул: TAVOLA.
+Кустод: For-
+Сигнатура:
+Маргиналии:
+
+## Скан 0029 · с. XVIII
+
+TAVOLA.
+
+Fortuna 372. di due sorti. 373.376. tenuta gia per gouernatrice delle cose humane 375. Fortuna sedente. 389. cieca e pazza 391
+Fortuna de gli Scithi. 394.522. aurea.394.521. in compagnia d'Amore 396. Fortuna a cauallo 398. Fortuna per la Luna 499
+Fortuna manente.520.del Doni 522
+Forculo dio 33
+Forza della Fortuna 136
+Fraude 384.387.388
+Frigia dea 177
+Fulmine di Gioue. 140. finto per spauentare i scelerati 141
+Fulmine di Minerua 476
+Fuoco adorato 491
+Furie. 238.239.241.tre 114
+Furia quarta 245
+Furore 325.329
+
+G
+
+[ИНИЦИАЛ: G]alatea Nereide. 204.205
+Gallo d'Apolline 51
+di Esculapio 70
+di Mercurio 274
+di Marte 337
+di Minerua 298
+Ganissone dio 594
+Gemini in Cielo,& loro segno 479.480
+Genio.368.doppio.469.470.del Principe,& di luoghi particolari.368.469.del popolo Romano.516.del Senato 517.suo Lettisternio.18. in altre maniere.508.d'Antiochia 519
+Genitali doue adorati 125
+Germani & loro religione 511
+Giano con quattro faccie 24.30.31.34.35
+Giapan & suoi Idoli 565
+Giaponesi hanno hauuto anticamente notitia della Religione Christiana. 585
+
+Giganti 317.509
+Gigli ghirlande di Giunone 165
+Giunone maggiore di tutti gl'altri Dei. 113. che intendessero i Sauij con questo nome. 115. come figurato 125. da Marciano Capella. 127. con orecchie & senza. 129. con tre occhi. 129. punitore de' Spergiuri. 130. con le saette.137
+Gioue di Fidia 138
+Gioue custode, statore, conseruatore 139
+Gioue Cario, e Labradeo 142
+Amone. 145.431. sua vera figura. 478. pluuio 434
+Giouenchi della Luna 102
+Giouentù 42.43
+Giudei che sentissero della Religione 4
+Giudici dell'Inferno 230
+Giudici come figurati in Thebe.129
+quali deuono essere 381
+Giudici falsi 231
+Giugatino dio 169
+G unone 149
+GiunoneLucina 103.104.152 legata con catene d'oro. 161. sposa. 162. sospita 165. dea delle nozze 166 suoi cognomi. 169. legata da Vulcano 322
+Giuoco di lumi accesi. 7
+de' Falli 527
+Giuramento come religioso appresso gl'antichi 132.133.135
+Giustitia diuina lenta 29.30
+Giustitia 380.381.521
+Glauca sorella di Plutone 26
+Glauco 203
+Glauco figliolo di Minos 75
+Gorgone 314.315
+Gran Madre 173
+
+Колонтитул: TAVOLA.
+Кустод: Gratie
+Сигнатура: a 3
+Маргиналии:
+
+## Скан 0030 · с. XIX
+
+TAVOLA.
+
+Gratie con Gioue. 139. con Venere. 414
+Gratie. 451. le medesime con le Hore. 451. sono quattro 454. due e tre 454. sono Vergini; & i nomi loro 456.458. guidate da Mercurio 457. loro insegne 456.491.458. loro Tempio in mezo delle piazze 456
+Gratie in mano ad Apolline 458
+Grifoni d'Apolline 504.505. adoperati da' Christiani anticamente 504.505. custodi delle minere dell'oro 504.307
+Grifoni di Minerua 307
+
+H
+
+[ИНИЦИАЛ: H]arpocrate 310.507.566
+Hasti di Minerua 313
+Haste degli Dei 152.153.in vece del Diadema regio 153. donate a gl'homini valorosi 153. nuncie di guerra 153
+Hebe dea 42
+Hecate 97.98.99.101.102.97
+Hecatombe 98.102.471
+Hedera pianta d'Osiride 351
+Hera dea 192
+Hercole gallico. 283.500.con Mercurio 284.armato 285.sue fatiche.289.spositione della sua imagine 289
+Hercole di Prodico 307.507
+Hercole Musagete 500.501
+Hercole senza barba.503.rustico,& siluano.515.alle poppe di Giunone 165
+Hermathena 295
+Hermi statue 147
+Hermi 272.273.497
+Herodoto sensato scrittore 545
+Hespero 449
+
+Hiacinto fiore 469
+Hieroglifici Mexicani 561
+Higia filiola d'Esculapio 77.79
+Historia quando cominciò 25
+Himeneo 167.171
+Homeyoca dio del Mexico 549
+Homini Marini 205.206
+Honore 135.574.304.319
+Hore con Gioue. 137. con Venere. 437.451.452.453
+Hore dette da Horo 358
+Horo figliolo d'Iside 356.359.562
+Horta 309
+
+I
+
+[ИНИЦИАЛ: I]bi Vccello 282
+Idolatria d'onde 2.6.7
+Idoli del Giapan 572
+Isigenia 98
+Ignoranza 383
+Inaco fiume 223
+Incanti, con che parole fatti 108
+Incubo, ouer Efialte 123
+Indie conosciute dalli Egitij 546.547
+Insegne militari 334
+Insidia 384
+Intercidone 123
+Inuidi simili a gl'Auoltoi,& alle Mosche 385
+Inuidia 384.385.399
+Io altrimente Iside 103
+Ioco 439.527
+Ira 327
+Iride. 155.243. passo de gli Dei 479
+Iside. 102.103.105.104. con Oro in braccio 585
+Isole dei Beati 230
+Isole delle Sirene 209
+Iterduca Giunone 260
+
+Колонтитул: TAVOLA.
+Кустод: La-
+Сигнатура:
+Маргиналии:
+
+## Скан 0031 · с. XX
+
+TAVOLA.
+
+L
+
+[ИНИЦИАЛ: L]achesi Parca. 253
+Lamie 244.495
+Lari 187.365.366
+Laro vccello d'Hercole 288
+Lasciuia come dipinta 125
+Latona cangiata in Lupo 49
+Lauro della Vittoria 322
+d'Apolline 352.53.54
+della Luna 97
+Lebeti 293
+Leggi del Codice errate nella data 511
+Leonza d'Archesilao 471.525
+Lepre animale di Venere 411.412
+Lete fiume 244
+Lettera di Pitagora 308
+Leuana 173
+Libero Padre 344
+Limentino dio 34
+Libitina Venere 253
+Lingua sacra a Mercurio 264
+Lione perche d'Ope 176.182.183
+Lioni animali di che Deità 64
+di Vulcano 323.324
+Lira d'Apollo 44
+Lismaco segnò le sue monete con l'imagine d'Alessandro Magno,non con la propria 505
+Lissa furia 245
+Lituo 558
+Lite & litare 463
+Loto pianta,e suoi misterij 113.434
+Lotta, o Palestra figliola di Mercurio 270
+Luci della Scrittura 555
+Lucifero 449.469
+Lucina 102.103.104
+Luna non luce da se 100.102. innamorata. 110.suo sentimento morale. 118. Luna Diana 98
+Lunette nelle calze de' Nobili 111
+Luno dio 448
+Lupo animale d'Apollo 48
+
+M
+
+[ИНИЦИАЛ: M]acaria de i Greci era la Felicità appresso i Latini 401
+Maghi di Thessaglia 109
+Maloco Idolo del Giapan 571.572
+Manie dee 239
+Mano consecrata alla Fede 267.496
+Manubie di fulmine 140
+Marauiglie del Fulmine 140
+Marsia 339
+Marte il medesimo, che'l Sole 64
+Marte con Venere 324.422.449
+Marte con raggi intorno'l capo 323. come nacque 324. sua imagine. 325.326. suoi Caualli 326. adorato da' Scithi 327.328. dagl'Arabi 328. sua vittima,suo simolacro in Persia, sua casa 329. sua statua legata 331. Cauallo sua vittima 335. suoi animali 337. sua pianta, e sua festa 337
+Materia delle statue 13.14
+Matrimonio co'l giogo e ceppi 167
+Mazza d'Hercole 28
+Medusa di chi insegna 64
+Medusa 315
+Melissa nutrice di Gioue 137
+Mensa del Sole 60.63
+Meragete dio 254
+Mercurio 260.278
+Mercurio con barba 278. con tre capi 278. protettore de' Pastori 278. il medesimo, che'l Sole 281. il medesimo, che Anubi 282. il medesimo con Hercole 282. suo oracolo in Achaia 293
+Meta di Venere 527.558
+Miagro,& Miode 290
+
+Колонтитул: TAVOLA.
+Кустод: Mida
+Сигнатура:
+Маргиналии:
+
+## Скан 0032 · с. XXI
+
+TAVOLA.
+
+Mida 343
+Minerua co'l fulmine 140
+Minerua prouida 508
+Minerua 295 armata 296.299. sua lucerna 302. sue arti 302
+Minerua frenatrice 318. sua Festa 338. su le porte della Città 319
+Minos 230.232
+Minotauro 333
+Miode dio 290
+Miquitlantecatle dio del Mexico 551
+Mirto di Venere 352.436
+Mithra Sole 561.465
+Mithra frigiana 453
+Momo 385.387
+Montone in Egitto 147. dato al Sole 453
+Morso Venere 445
+Morta Parca 251
+Morte 26
+Mulo animale della Luna 101
+Muse 44.45. perche noue 46. nomi loro interpretati di 46
+Mutino 169.361
+
+N
+
+[ИНИЦИАЛ: N]arciso fiore corona di chi 238.352
+Natura dea 103.104
+Naue del Sole 53
+Naue d'Argo 508
+Nauigio d'Iside 473
+Necessità 253
+Nemesi 377.378.369.521
+Nereidi 211
+Nettuno 201.212
+Nextepeua dio del Mexico 551
+Nilo adorato sotto'l nome di Serapi 62
+Nilo 225.226.493
+Ninfe 453.97.98. di Giunone 156
+
+Ninfei 494
+Nodo d'Hercole 483
+Nomi de' Dei 3.5
+Nona 251
+Notte 275. Madre delle; Parche 252
+Nozze & loro cerimonie 161.163.167.169
+
+O
+
+[ИНИЦИАЛ: O]ccasione 393
+Oceano 216.491
+Ombrella 515
+Ope moglie di Saturno 29.174.214
+Opinione 305
+Oracolo di Verità 293
+d'Orecchie 293
+Oreste 98
+Oro piouuto 238
+Osiri in Egitto il medesimo, che Bacco appresso i Greci. 355. come fatto da gl'Egitij 356.549
+
+P
+
+[ИНИЦИАЛ: P]ace 264
+Pagode dell'Elefante 564.565
+Pale 188.195. dio 487
+Palemone 410.490
+Palestra 269.272
+Pallade, e Palladio 298
+Pallidezza 312
+Palme date agl'Auuocati 500
+Pan innamorato della Luna 116. è l'Vniuerso 115. sua imagine 116.117.120
+Pan dio principale appresso gl'Egitij 124.126
+Panico terrore 116
+Panno gonfio 487
+Papauero della Luna 98. simbolo di
+
+Колонтитул: TAVOLA.
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0033 · с. XXII
+
+TAVOLA.
+
+Parche 209.250.253. Vestite di bianco 252. come figurate 255.
+Parsimonia de gl'antichi 32
+Partunda 169
+Pataici dei 329
+Pauentia 173
+Pauone 153
+Pegaso cauallo dell'Aurora 95.319
+Pelli delle Baccanti 349
+Penati 366
+Penitenza 383
+Penne in capo alle Muse 46
+Penne d'Auoltoio segno di che 154
+Penne di Mercurio 270
+Peplo di Minerua 316
+Peristera 435
+Persico di Harpocrate 311
+Pertunda 483
+Pico 109
+Pierie mutate in Piche 46
+Pietre adorate 5
+Pietra deuorata da Saturno 25
+Pietra nera de' Fenici significatiua del Sole 507
+Pietre gettate alla Statua di Mercurio 278
+Pietra manale 558
+Pilo de' Ladri 366
+Pilunno 123
+Pino di Pan 126. per la Fraude 177. della gran Madre 389
+Pioppa arbore di Hercole 290. arbore infernale 349
+Pitho dea 441
+Pithone Vcciso da Apolline 48
+Platano albero del Genio 37
+Pluto dio delle ricchezze 237.375
+Plutone 230. suo colore, sua corona suo scettro 233. sua Celata, sua Chiaue.235. suoi Caualli 237
+Pò fiume 224
+Pomi granati 270.483.512
+
+Pomona 196.227
+Potina dea 173
+Porgere herba 263
+Porpora di varij colori 486
+Porte del Cielo 16
+Portuno 16.211
+Preghiere 463. zoppe 31
+Prencipe come figurato in Thebe 131
+Priapo 357.360.361.362.363
+Becco sue animale 364. perche di Fico 515
+Proserpina 174.188.189.200.233
+Prosumno 515
+Proteo 216
+Pronostici, dai colori della Luna 107.108
+Proteruia sacrificio 331
+Prometheo,& sua fauola 1.7.8
+Pudore 171
+
+Q
+
+[ИНИЦИАЛ: Q]Vaneuoa 585
+Quercia adorata per Gioue 147
+Quercia primo albero 163
+di chi ghirlanda 177
+Querimonia dell'Autore contra le donne 394
+Ques tempij del Mexico 555
+Quetzalcoatl dio del Mexico 553.555.557
+
+R
+
+[ИНИЦИАЛ: R]Adamanto giudice all'Inferno 230.231
+Ragione attribuita a gl'animali da chi 461
+Rè d'Egitto che insegne portauano in capo quando comparivano in publico 217
+
+Колонтитул: TAVOLA.
+Кустод: Re-
+Сигнатура:
+Маргиналии:
+
+## Скан 0034 · с. XXIII
+
+TAVOLA.
+
+Relatione del Giapone 585
+Religione propria dell'homo 1
+Rhamnusia 378
+Rhea 25
+Ricchezze allettano come le piume del Pauone 153.154
+Romani molti anni stetero senza statue de gli Dei 5
+Rose di Venere 436. come colorite 436
+Rossore negl'Amanti 418
+Rumina dea 173
+Ruota aggiunta alla Fortuna 520
+
+S
+
+[ИНИЦИАЛ: S]Acerdoti castrati 176
+Sacrificij di sangue 555. di Diana con battiture,& vittime humane 99
+Sacrificio di Scithi 327
+Sacrificio bi bestemmie 288
+Saette d'Apollo 48
+Salute,& suo segno 75.77
+Sangue sparso per Cibele 181
+Sarapide Dio 29. per il Sole,& per Gioue 68. imitato come da Mexicani 567
+Satiri 123.124.473.474
+Saturno 22.24.26.27.29.30.31.135.463 gli si sacrificaua a capo scoperto 290
+Scarauaggi 52
+Scettro con l'occhio in cima 54.131
+Scettro de Trionfanti 147
+Schifo, ouero Battello 286
+Schifo d'Hercole 286
+Scilla 208.487
+Scudo di Minerua 312. d'Apollo 93
+Scure sacra di Caria 142. chiamata in giudicio 148
+Semirami nodrita dagl'vccelli 183.
+
+di chi figliuola 218
+Senati de' Dei grandi 461
+Sepolcri fuor delle Città,& su le strade 488
+Serpe perche d'Esculapio 70.73
+Serpi tenuti di natura diuina appresso i Fenici 127
+Serpi di Cerere 189.485
+Serpe di Minerua 295
+Serpe dell'Hesperidi 502
+Seruch primo Idolatra 6
+Sethone Re 328
+Seuere dee 239
+Sfinge 247.298.494
+Sicilia di Cerere 190
+Sigalione 310
+Sileno 126.343.344.513
+Sileni & Ninfe morti 3
+Siluano 123
+Simone sanco 503.514
+Sirene 206.487
+Siria dea 152
+Siringa canna 126
+Sistro d'Iside 111.453
+Smeraldo non si tagliaua anticamente 489
+Smintio Apolline 76
+Sogni 277
+Soldati di Mario amazzati dalla Gorgone 315
+Sole,& Gioue 40
+Sole,& Luna senza statue appresso chi 41
+Sole senza barba 42. occhio di Gioue 55
+Sole e suoi effetti 64. sue Statoe in Egitto 67. padrone de' Tempi 69
+Sole,e suoi Caualli 80. suo caro 80
+sua corona 82
+Sole co'l capo d'Ariete 82
+Sonno adorato con le Muse 174
+Sorapi in Serapi 59
+Sorte 377
+
+Колонтитул: TAVOLA.
+Кустод: Sosi-
+Сигнатура:
+Маргиналии:
+
+## Скан 0035 · с. XXIV
+
+TAVOLA.
+
+Sosipoli dio 133
+Sospicione 383
+Sparuiere d'Apollo 52
+Sparuiere 127
+Spauento 311
+Stafile Ninfa 352
+Stagioni dell'anno 37
+Statue 5.7.9.11.12
+Statua micidiale condanata 149
+Statue con le corna 346
+Statue & loro rispetto 462
+Stelle nudrirsi delle humidità terrestri,& marine 48
+Stercutio 23
+Stigia palude 244
+Stimula dea 309
+Streghe 244
+Suadela 442
+Subigo dio 165
+Sumano dio 140
+Superstitiosi 462
+
+T
+
+[ИНИЦИАЛ: T]Acita dea 309
+Talassione 168
+Tanaquille 168
+Tarasippo dio 213
+Tarrutio marito di Flora 197
+Tauola di piombo antica 515
+Tebro 224
+Telefo nudrito da cerui 183
+Tempij del Mexico 555. di Giano 38. della Pace 263
+Tempo,& sua Velocità. 31. sua diuisione 69
+Termine dio 26.498
+Terra 173. sua imagine 174.175
+adorata dà Germani 181. stabile 484
+Terremoto di Nettuno 216
+Terrore 311.326
+Teschio da chi adorato 5
+Testuggine 423
+
+Thetide 85.216.331
+Thirso 137.349.351
+Thoit,e Theut 272
+Tifone 355.356.357.358
+Timore 311.312
+Titano fratello di Saturno 27
+Titani 314
+Toga palmata 147
+Toga ricca di panno 488
+Topi di Volcano 320. da chi odiati 320.321
+Trasformationi di Gioue 149
+Tridente di Nettuno 203
+Tripode 291.292
+Trionfo ritrouato da chi 351
+Tritoni 487. sopra'l tempio di Saturno 24. dei del mare 203.206
+Tritoria 399
+Tritolemo 485
+Trifonio & sua cauerna 74. il medesimo,che Mercurio 74
+Tubalcain 509
+Tzitzimul 551
+
+V
+
+[ИНИЦИАЛ: V]Agitano dio 173
+Vasi di corna per bere 345
+Vccelli Giunone 154
+Veioue 135
+Venere fra le Parche 252. moglie di Volcano.324. dea della bellezza,& della libidine.451. come nata.432. suo Tempio in Pafo.432. nuda.434. come rappresentata.437. Callipiga.437. Verticordia.440. Celeste.440. con Mercurio 442. Machinatrice,& Inuentrice.443. Armata Vincitrice,& in Ceppi 442.443
+Venere Monso.445. barbata.446.447. vincitrice.509.510. tormentata 526.527
+
+Колонтитул: TAVOLA.
+Кустод: Ve-
+Сигнатура:
+Маргиналии:
+
+## Скан 0036 · с. XXV
+
+TAVOLA.
+
+Venere, & Proserpina per la Terra 413
+Venere dichiarata 449
+Venere tiro nel gioco de' Tali 527
+Venti 219
+Vento 555
+Verga gianale 32
+Verga del Sonno 378
+Verità 306
+Verminaca o verbena 263
+Vertuno 227
+Vesta & sue Vergini. 183. suo fuoco,& Palladio 484
+Vestibolo 189
+Vestiti antichi doue,& quando trouati 487
+Via Appia 588
+Via Lattea 173.483
+Violenza dea 252.326
+Verginense dea 165
+Virtù corno della Copia 176
+Virtù. 305. maschile 203
+Vittime per qual causa diuerse 192
+Vittime di Gioue.148. di Cerere.192. di Proserpina 97. della gran Madre 181. di Marte.328.335. di Minerua 338
+Vittoria 332.333.334.336. in mano di Gioue 126
+
+Vliuo segno di Pace. 262. è di Minerua. 302. di Gioue. 138. della Vittoria 332
+Vnxia Giunone 169
+Volcano che 127. co'l Fulmine.141
+Volupia dea 298.309
+Vso de' Carboni 499
+Volcano 319.320.322.397
+
+X
+
+[ИНИЦИАЛ: X]Aca Chinese 565.566
+Xiri figliolo d'Amida 566
+
+Y
+
+[ИНИЦИАЛ: Y]Zputzteque dio del Mexico 551
+
+Z
+
+[ИНИЦИАЛ: Z]Attera co'l simulacro di Hercole 291
+Zefiro marito di Flora 222
+Zodiaco,& suoi dei. 3. si parte in quattro parti 280
+Nel Zodiaco il Leone è casa del Sole 56
+
+IL FINE.
+
+Con Licenza de' Superiori.
+
+Колонтитул: TAVOLA.
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0037 · с. XXVI
+
+[ВИНЬЕТКА: наборная орнаментальная рамка-бордюр из повторяющихся растительных мотивов]
+
+Catalogo d'Autori antichi, & moderni che sono in essere;
+& di proposito
+
+hanno descritto Historie, ouero Imagini delle Deità antiche.
+
+[ИНИЦИАЛ: A]pollodoro Atheniese, la origine delli Dei.
+Diodoro Sicolo, la medesima.
+Cicerone, la natura delli Dei.
+Fornuto, o come altri lo chiamano, Cornuto il medesimo.
+Filostrato, alcune imagine.
+Giulio Higino & Vettio Basso, le fauole,& le Genealogie.
+Palefato, alcune delle fauole.
+Antonino Liberale, il medesimo.
+Ouidio ne i Fasti & nelle Metamorfosi, le Feste & le Fauole.
+Pausania descriue spesso le statue degli Dei,
+Callistrato ne descriue alcune.
+Fulgentio, le Allegorie.
+Di passaggio ne trattano Lattantio Firmiano, Minucio Felice, Giulio Firmico, Arnochio, Tertulliano. & poco meno, che tutti i Padri greci & latini.      Moderni.
+Albrico filosofo le imagini.
+Gio. Rocaccio la Genealogia.
+Lilio Gregorio Geraldi le Imagini & i cognomi.
+Basilio Zanco
+Giuliano Aurelio
+Pier Giacomo Montefalco     I cognomi.
+Huberto Goltzio
+Giano Grutero
+
+✻✻
+
+Колонтитул:
+Кустод: Gior-
+Сигнатура:
+Маргиналии:
+
+## Скан 0038 · с. XXVII
+
+Giorgio Pittorio la Consucratiene.
+Melchior Barleo,& in verso, in tre libri.
+Guglielmo Choul, della religione.
+Pier Giacomo Montefalco &     Le Feste,& Celebrità.
+Vicenzo Cartari,nel Flauio
+Si come ancora tutti quelli, che hanno dichiarato Calendarij vrbani & rustici antichi, come F.Orsino, Piero Ciaccone, Aldo Manutio & altri.
+Natal de' Conti le Allegorie o Mitologie.
+Vlisse Aldrouandi ha descritto le Statue delle Deità & altre, che sono in Roma.
+Abramo Ortelio ha posto in luce le teste LIV. Deità, cauate da le Medaglie antiche. con occasione della quale fatica Andrea Schotto homo eruditissimo ha fatto vn gentilissimo Dialogo, stampato in Auersa con i Dialoghi fatti latini di A.Agostini.& Francesco Suuertio ha illustrato il detto Ortelio con vn racconto gentile, stampato in Anuersa del 1612.
+Lorenzo Pignoria scriuendo sopra la mensa d'Iside, ha descritto molte particularità curiose delle Deità dell'Egitto.
+Il medesimo nelli Misterij della Gran Madre delli Dei, le antichità della Frigia,& molte cose ha raccolto nelle sue Annotationi sopra'l Cartari.
+Giouanni Seldeno, delle Deità della Soria.
+Girolamo Aleandro, del Sole & di Plutone accuratamente nella sua Heliaca.
+Di passaggio tutti quelli, che hanno esposto,& dichiarito le Medaglie delli antichi.
+Corrado Dinneuo gli Epiteti greci delli Dei.
+Gio. Rauisio Testore,& Basilio Zanco i latini.
+
+*Testimonianze di questo Libro.*
+
+L'Autore è nominato malamente Vicenzo Catarro dall'Ortelio,& Carterio dal Gesnero,& dall'Autore della Bibliotheca Classica.
+
+Колонтитул:
+Кустод:
+Сигнатура: II
+Маргиналии:
+
+## Скан 0039 · с. XXVIII
+
+Il Cartari medesimo nel Libro 11. del suo Dialogo, ch'egli intitolò il Flauio, dice così; non vi dirò, che la Cicogna fosse vccello della Concordia secondo alcuni, e secondo alcuni altri la Cornacchia, ne come la dipingessero gl'antichi, perche sò che tosto vedrete vn Libretto, nel quale tutte queste cose sono raccontate interamente, con le Imagini quasi di tutti i Dei,& le ragioni perche fossero così dipinti, &c.
+
+[ВИНЬЕТКА: печатная марка — крылатая фигура (гений) с чашей в поднятой руке, возлежащая на драпировке]
+
+Колонтитул:
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0040 · с. XXIX
+
+[ПУСТАЯ СТРАНИЦА]
+
+Колонтитул:
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0041 · с. 1a
+
+[ГРАВЮРА: Principio dell'Idolatria in Belo, in Semiramis, & nel figliolo di Sirofane. A carte 1.]
+
+Колонтитул:
+Кустод:
+Сигнатура:
+Маргиналии:
+
 ## Скан 0042 · с. 1
 
 LE IMAGINI DE I DEI DE GLI ANTICHI.
