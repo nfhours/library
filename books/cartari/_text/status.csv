@@ -115,15 +115,15 @@ scan,label,printed_number,state,unclear,engravings,note,method,discrepancies,err
 0114,72,,done,0,1,,double,1,1,0,0,0
 0115,73,73,done,0,0,,double,12,11,1,0,0
 0116,74,,done,0,0,,double,10,10,0,0,0
-0117,75,,draft,0,1,,,,,,,
-0118,76,,draft,0,0,,,,,,,
-0119,77,,draft,0,1,,,,,,,
-0120,78,,draft,0,0,,,,,,,
-0121,79,,draft,0,1,,,,,,,
-0122,80,,draft,0,0,,,,,,,
-0123,81,,draft,0,1,,,,,,,
-0124,82,,draft,0,1,,,,,,,
-0125,83,,draft,0,0,,,,,,,
+0117,75,75,done,0,1,,double,1,1,0,0,0
+0118,76,76,done,0,0,,double,14,11,3,0,0
+0119,77,77,done,0,1,,double,2,2,0,0,0
+0120,78,78,done,0,0,,double,11,8,4,1,0
+0121,79,79,done,0,1,,double,1,1,0,0,0
+0122,80,80,done,0,0,,double,6,5,1,0,0
+0123,81,81,done,0,1,,double,2,2,0,0,0
+0124,82,82,done,0,1,,double,2,2,0,0,0
+0125,83,83,done,0,0,,double,8,6,2,0,0
 0126,84,,done,0,1,both_wrong/noise: reconstructed,double,2,2,0,0,0
 0127,85,95,done,0,0,"Нумерация: на странице напечатано 95, в PAGES.tsv 85 (сверено по фото скана 0127). | both_wrong/noise: reconstructed",double,6,6,0,0,0
 0128,86,96,done,0,1,"Нумерация: на странице напечатано 96, в PAGES.tsv 86. | both_wrong/noise: reconstructed",double,1,1,0,0,0

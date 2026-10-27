@@ -2533,16 +2533,18 @@ chette come scettri in mano, intorno alle quali erano auolti de i serpenti. Onde
 
 Anello antico, nella gioia del quale è intagliato il simbolo della Salute, cioè il Pentagono, forma soda, che per tutti i versi stà in piede.
 
-Колонтитул:
+Колонтитул: De gli Antichi. · с. 75
 Кустод:
+Сигнатура:
 Маргиналии:
 
 ## Скан 0118 · с. 76
 
-chi segno di sanità, perche come il serpente posta giù la vecchia spoglia si rinoua, così paiono gli huomini risanandosi esser rinouati. Et perciò fu da questi fatta la imagine della Salute in questo modo. Staua vna donna a sedere in alto seggio con vna tazza in mano, & hauea vn'altare appresso, sopra del quale era vn serpente tutto in se riuolto, se non che pure alzaua il capo. Fassi anco il segno della salute in forma di Pentagono, come si vede nelle medaglie antiche di Antiocho, del quale si legge che facendo guerra già contra i Galati, & trouandosi a mal partito, vide (ò che per fare animo a soldati sinse di hauere visto) Alessandro Magno, che gli porgeua questo segno, dicendogli, che lo douesse dare a' Soldati, & fare che lo portassero adosso, che resterebbe vincitore, come fu poi, di quella guerra. Le lettere che sono intorno al segno, le Latine dicono Salus, e le Greche significano il medesimo, dicendo Higeia. Lo qual nome fu nome della figliuola di Esculapio, come hò detto, adorata da gli antichi insieme con il padre, con il quale posero spesso la statua di costei, come dice Pausania, che fu in certo luoco del paese di Corinto, oue la statua di Esculapio era vestita di vna tonica di lana con vn manto sopra, che lo copriua tutto, nè gli vedea altro, che la faccia, le mani, & i piedi. Et Higeia parimente tutta coperta, parte con capelli, che si haueuano tagliati le donne, & offerti alla Dea, parte con alcuni sottilissimi veli tutti frastagliati. Mà ritorniamo al Sole, i cui raggi purgando l'aria fanno, che la terra ancora produce largamente, come vollero forse mostrare quelli, li quali nel paese Troiano fecero la statua di Apollo Sminthio, così detto da Topi, perche ne calcaua vno col piede, & sono detti Sminthi i Topi in quelle parti. Et mi pare, che lo confermi la nouella che si racconta del Sacerdote di Apollo sprezzatore delle cose sacre; cui perciò guastauano i Topi, la ricolta ogni anno, i quali furono poi vccisi da questo Dio, ritornato che fu colui a far conto della religione. Perche i Topi, e gli altri animaletti, che sorgono della terra, nascono per l'aria male temperata, onde quella non può produrre le cose vtili a' mortali, se non quando che i raggi del Sole leuando ogni mala qualità, vccidono quelli, & alla terra danno forza di produrre queste. Di vn'altra statua si legge appresso di Plinio fatta da Prassitele per Apollo, la quale si potrebbe dire, che da questa, ch'io dissi pur mò de' Topi, non fosse molto dissimile di significato, perche staua con lo strale su l'arco, come in aguzato per ammazzare vna Lucertola, che gli era poco da lunge. Trouasi ancora vn'altra ragione, perche Apollo fosse chiamato Sminthio, & hauesse la statua col Topo, & è che volendo quelli di Creta mandare fuori vna colonia, hebbero per consilio dall'oracolo di Apollo, di mettere la Città, oue i figliuoli della terra dessero loro maggiore fastidio. Et mandati quelli della colonia ne i campi Troiani, in vna
+chi segno di sanità, perche come il serpente posta giù la vecchia spoglia si rinoua, così paiono gli huomini risanandosi esser rinouati. Et perciò fu da questi fatta la imagine della Salute in questo modo. Staua vna donna a sedere in alto seggio con vna tazza in mano, & hauea vn'altare appresso, sopra del quale era vn serpente tutto in se riuolto, se non che pure alzaua il capo. Fassi anco il segno della salute in forma di Pentagono, come si vede nelle medaglie antiche di Antiocho, del quale si legge che facendo guerra già contra i Galati, & trouandosi a mal partito, vide (ò che per fare animo a soldati finse di hauere visto) Alessandro Magno, che gli porgeua questo segno, dicendogli, che lo douesse dare a' Soldati, & fare che lo portassero adosso, che resterrebbe vincitore, come fu poi, di quella guerra. Le lettere che sono intorno al segno, le Latine dicono Salus, e le Greche significano il medesimo, dicendo Higeia. Lo qual nome fu nome della figliuola di Esculapio, come hò detto, adorata da gli antichi insieme con il padre, con il quale posero spesso la statoa di costei, come dice Pausania, che fu in certo luoco del paese di Corinto, oue la statoa di Esculapio era vestita di vna tonica di lana con vn manto sopra, che lo copriua tutto, nè gli vedea altro, che la faccia, le mani, & i piedi. Et Higeia parimente tutta coperta, parte con capelli, che si haueuano tagliati le donne, & offerti alla Dea, parte con alcuni sottilissimi veli tutti frastagliati. Mà ritorniamo al Sole, i cui raggi purgando l'aria fanno, che la terra ancora produce largamente, come vollero forze mostrare quelli, li quali nel paese Troiano fecero la statoa di Apollo Sminthio, così detto da Topi, perche ne calcaua vno col piede, & sono detti Sminthi i Topi in quelle parti. Et mi pare, che lo confermi la nouella che si racconta del Sacerdote di Apollo sprezzatore delle cose sacre; cui perciò guastauano i Topi, la ricolta ogni anno, i quali furono poi vccisi da questo Dio, ritornato che fu colui a far conto della religione. Perche i Topi, e gli altri animaletti, che sorgono della terra, nascono per l'aria male temperata, onde quella non può produrre le cose vtili a' mortali, se non quando che i raggi del Sole leuando ogni mala qualità, vccidono quelli, & alla terra danno forza di produrre queste. Di vn'altra statoa si legge appresso di Plinio fatta da Prassitele per Apollo, la quale si potrebbe dire, che da questa, ch'io dissi pur mò de' Topi, non fosse molto dissimile di significato, perche staua con lo strale su l'arco, come in aguato per ammazzare vna Lucertola, che gli era poco da lunge. Trouasi ancora vn'altra ragione, perche Apollo fosse chiamato Sminthio, & hauesse la statoa col Topo, & è che volendo quelli di Creta mandare fuori vna colonia, hebbero per consilio dall'oracolo di Apollo, di mettere la Città, oue i figliuoli della terra dessero loro maggiore fastidio. Et mandati quelli della colonia ne i campi Troiani, in vna
 
-Колонтитул:
-Кустод:
+Колонтитул: Imagini de i Dei · с. 76
+Кустод: notte
+Сигнатура:
 Маргиналии:
 - Segno di sanità.
 - Imagine della Salute.
@@ -2555,18 +2557,20 @@ chi segno di sanità, perche come il serpente posta giù la vecchia spoglia si r
 
 [ГРАВЮРА — полностраничная]
 
-Imagine della dea Salute, & del Serpente à lei sacrato significante della beuanda delle medicine sì purgatiue, come conseruatiue, peruenerir à noi la sanità perduta, la longhezza, & stabilità della vita, & la sanità significata per il Serpente.
+Imagine della dea Salute, & del Serpente à lei sacrato significante della beuanda delle medicine sì purgatiue, come conseruatiue, peruenir à noi la sanità perduta, la longhezza, & stabilità della vita, & la sanità significata per il Serpente.
 
-Колонтитул:
+Колонтитул: De gli Antichi. · с. 77
 Кустод:
+Сигнатура:
 Маргиналии:
 
 ## Скан 0120 · с. 78
 
-notte i Topi rosero loro tutte le correggie de gli scudi, di che auuedutisi la mattina, intesero che qui doueuano fermarsi pel consiglio dell'Oracolo, perche erano nati que' Topi della terra, & posta la Città fecero vn tempio ad Apollo chiamandolo Sminthio. Et quella gente hebbe dapoi sempre gli Sminthi, cioè i Topi, in molta veneratione, & ne haueuano alcuni domestici nodriti del publico, che stauano in certe cauernette a canto all'altare maggiore, e perciò ne fu anco posto vno, come hò detto con la statua di Apollo. Onde si può vedere, che le statue de i Dei, & le altre parimente, che erano dedicate loro, mostrauano souente, come dissi già, le cose ottenute da quelli, & le attioni, che per loro consiglio, & fauore erano succedute felicemente, come si vede anco appresso di Pausania di tante, e tante che furono in Delfo; delle quali basterà per hora porne due. L'vna fu di vn Capro di metallo offerto ad Apollo da Cleonei gente della Grecia, perche vna volta che erano mal trattati dalla peste, hebbero consiglio da questo Dio, di sacrificare vn Capro all'apparire del Sole, come fecero; e cessò la peste, & perciò mandarono poi ad offerire il Capro di metallo. L'altra fu di vno Asino per questa cagione. Guerreggiauno insieme gli Ambracioti, & i Sicionij tutti popoli della Grecia, & hauendo fatto vna imboscata a quelli, che erano per vscire della terra, vna notte aueinne, che vn'Asino cacciato dal somaro co qualche carica addosso verso la Città, sentì per sorte andarsi innanzi vna asina & la cominciò a seguitare raggiando il più forte del mondo, & caminando più assai che non hauerebbe voluto il somaro, il quale diede perciò a gridare parimente, e come che la bestia sua lo douesse meglio intendere, alzaua la voce ogni volta più asinescamente, sì che il rumore fu grande, del quale spauentati i Sicionij, come che i nemici gli hauessero scoperti, vsciti da le insidie si diedero a fuggire, e gli Ambracioti auertiti di ciò andarono loro adosso, & li ruppero, & fatto dapoi vn bel Asino di metallo lo mandarono ad offerire in Delfo nel tempio di Apollo, per memoria del beneficio, che pareua loro hauere hauuto da quella bestia, & perche voleuano pur'anco riconoscere quella vittoria da quel Dio. Riferisce parimente Alessandro Napolitano, che fu già fatta a Napoli vna statua di Apollo, la quale oltre altre insegne, & ornamenti, che a questo Dio si danno communemente, haueua vna colomba sù la spalla, & vi staua vna donna dauanti, che la guardaua, & pareua adorarla, & che questa era Partenope, che adoraua la colomba sù la spalla di Apollo, perche questo buono vccello, dal quale ella pigliò buono augurio, le fu scorta, quando di Grecia andò ne i campi Napolitani. Conciosia che non soleuano ma i Greci, passare di vno in vn altro luoco, se prima non ne pigliauano augurio, e non ne dimandauano consiglio alli Dei. Hanno poi dato i Poeti a Febo, qual'è il medesimo che Apollo, come dissi già, oltre
+notte i Topi rosero loro tutte le correggie de gli scudi, di che auuedutisi la mattina, intesero che qui doueuano fermarsi pel consiglio dell'Oracolo, perche erano nati que' Topi della terra, & posta la Città fecero vn tempio ad Apollo chiamandolo Sminthio. Et quella gente hebbe dapoi sempre gli Sminthi, cioè i Topi, in molta veneratione, & ne haueuano alcuni domestici nodriti del publico, che stauano in certe cauernette a canto all'altare maggiore, e perciò ne fu anco posto vno, come hò detto con la statoa di Apollo. Onde si può vedere, che le statoe de i Dei, & le altre parimente, che erano dedicate loro, mostrauano souente, come dissi già, le cose ottenute da quelli, & le attioni, che per loro consiglio, & fauore erano succedute felicemente, come si vede anco appresso di Pausania di tante, e tante che furono in Delfo; delle quali basterà per hora porne due. L'vna fu di vn Capro di metallo offerto ad Apollo da Cleonei gente della Grecia, perche vna volta che erano mal trattati dalla peste, hebbero consiglio da questo Dio, di sacrificare vn Capro all'apparire del Sole, come fecero; e cessò la peste, & perciò mandarono poi ad offerire il Capro di metallo. L'altra fu di vno Asino per questa cagione. Guerreggiauano insieme gli Ambracioti, & i Sicionij tutti popoli della Grecia, & hauendo fatto vna imboscata a quelli, che erano per vscire della terra, vna notte auenne, che vn'Asino cacciato dal somaro co qualche carica addosso verso la Città, sentì per sorte andarsi innanzi vna asina & la cominciò a seguitare raggiando il più forte del mondo, & caminando più assai che non hauerebbe voluto il somaro, ilquale diede perciò a gridare parimente, e come che la bestia sua lo douesse meglio intendere, alzaua la voce ogni volta più asinescamente, sì che il rumore fu grande, del quale spauentati i Sicionij, come che i nemici gli hauessero scoperti, vsciti da le insidie si diedero a fuggire, e gli Ambracioti auertiti di ciò andarono loro adosso, & li ruppero, & fatto dapoi vn bel Asino di metallo lo mandarono ad offerire in Delfo nel tempio di Apollo, per memoria del beneficio, che pareua loro hauere hauuto da quella bestia, & perche voleuano pur'anco riconoscere quella vittoria da quel Dio. Riferisce parimente Alessandro Napolitano, che fu già fatta à Napoli vna statoa di Apollo, la quale oltre altre insegne, & ornamenti, che a questo Dio si danno communemente, haueua vna colomba sù la spalla, & vi staua vna donna dauanti, che la guardaua, & pareua adorarla, & che questa era Partenope, che adoraua la colomba sù la spalla di Apollo, perche questo buono vccello, dal quale ella pigliò buono augurio, le fu scorta, quando di Grecia andò ne i campi Napolitani. Conciosia che non soleuano ma i Greci, passare di vno in vn altro luoco, se prima non ne pigliauano augurio, e non ne dimandauano consiglio alli Dei. Hanno poi dato i Poeti a Febo, qual'è il medesimo che Apollo, come dissi già, oltre
 
-Колонтитул:
-Кустод:
+Колонтитул: Imagini de i Dei · с. 78
+Кустод: alle
+Сигнатура:
 Маргиналии:
 - Topi hauuti in veneratione.
 - Capro offerto ad Apollo.
@@ -2580,18 +2584,20 @@ notte i Topi rosero loro tutte le correggie de gli scudi, di che auuedutisi la m
 
 Imagine d'Higia figliuola d'Esculapio co'l Cane, & Serpe simboli di suo Padre, significanti la diligenza del buon Medico, & gli effetti, che da questa ne risultano.
 
-Колонтитул:
+Колонтитул: De gli Antichi. · с. 79
 Кустод:
+Сигнатура:
 Маргиналии:
 
 ## Скан 0122 · с. 80
 
-alle altre cose, vn carro tirato da quattro velocissimi destrieri, come dice Ouidio; ancor che Martiano di due solamente faccia mentione; Questi furon nominati, Piroo il primo, che dinota rosseggiante, essendo che la mattina, quando si leua il Sole pare a noi rosso di colore; il secondo Eoo, che vuol dire risplendente, essendo che il Sole alzatosi per alquanto sopra il nostro Hemispero si vede da noi risplendere chiaramente; il terzo Eton, che ardente significa, poi che nel mezzo giorno sembrano i raggi solari ardere douunque percuotono; il quarto Flegon, che è vn colore tra il giallo, & il nero, & val quanto, amator della terra, poi che a punto sembra il Sole, quando la sera se ne và per tramontare di vn tal colore, & par che quasi amante se ne corra velocissimo per riposare nel grembo dell'ampia terra; per queste proprietà dunque, & per essere animali di molta viuacità, e velocissimi, furono posti al suo carro, quale Ouidio dice, che era tutto d'oro se non che i raggi delle ruote erano di argento, & che vi erano con bellissimo ordine assisi per tutto Crisoliti, & altre lucidissime gemme, le quai tocche dal lume di Febo rendeuano mirabile splendore. Tutto questo, che Ouidio mette nel carro di Febo, & altro di più ancora pose Martiano intorno al corpo stesso di lui, quando così ne fa ritratto. Hà Febo vna Corona in capo di dodici lucidissime gemme, delle quali tre gli adornano la fronte, & tanto risplendono, che abbagliano qualunque drizzi gli occhi verso lui; & sono queste Lichnite, Astrite, e Cerauno; sei gli ne stanno da ambi lati delle tempie, tre per lato che sono Smeraldo, Scythi, Diaspro, Giacinto, Dendrite, & Helitropia, le quali a certi tempi così dipingono la terra con suoi colori, che tutta la fanno verdeggiare; & credesi che la Primavera, e l'Autunno glie la habbino date, perch'ei ritornando a' suoi tempi, se ne serua. L'altre tre chiamate Hydatide, Diamante, e Cristallo, generate dallo agghiacciato Inuerno sono nella parte di dietro della corona. La chioma così è bionda, che par d'oro. La faccia al suo primo apparire si mostra di tenero fanciullo, poi di feroce giouane, & all'vltimo di freddo vecchio. Pare il resto del corpo essere tutto di fiamma: & hà le penne a piedi ornati di ardentissimi carbonchi. Intorno hà vn manto tessuto d'oro, & di porpora. Con la sinistra mano tiene vn lucidissimo scudo, & con la destra porge vna accefa face. Non mi fermo a dire altro di questa imagine, perche è tale, che ogniuno da se la può molto bene intendere. Ma vengo a porne vn'altra, la quale scriue Eusebio, che era in Elefantinopoli Città dello Egitto, fatta in forma di huomo, che haueua il capo di Montone con le corna, & era tutta di color ceruleo, che per essere il colore del mare, qual rappresenta nello vniuerso la humidità, significa (come la interpreta il medesimo Eusebio) che la Luna, congiunta al Sole nel segno dello Ariete è più humida assai, che ne gli altri tempi. Ma non voglio entrare in queste
+alle altre cose, vn carro tirato da quattro velocissimi destrieri, come dice Ouidio; ancor che Martiano di due solamente faccia mentione; Questi furon nominati, Piroo il primo, che dinota rosseggiante, essendo che la mattina, quando si leua il Sole pare a noi rosso di colore; il secondo Eoo, che vuol dire risplendente, essendo che il Sole alzatosi per alquanto sopra il nostro Hemispero si vede da noi risplendere chiaramente; il terzo Eton, che ardente significa, poi che nel mezzo giorno sembrano i raggi solari ardere douunque percuotono; il quarto Flegon, che è vn colore tra il giallo, & il nero, & val quanto, amator della terra, poi che a punto sembra il Sole, quando la sera se ne và per tramontare di vn tal colore, & par che quasi amante se ne corra velocissimo per riposare nel grembo dell'ampia terra; per queste proprietà dunque, & per essere animali di molta viuacità, e velocissimi, furono posti al suo carro, quale Ouidio dice, che era tutto d'oro se non che i raggi delle ruote erano di argento, & che vi erano con bellissimo ordine affissi per tutto Crisoliti, & altre lucidissime gemme, le quai tocche dal lume di Febo rendeuano mirabile splendore. Tutto questo, che Ouidio mette nel carro di Febo, & altro di più ancora pose Martiano intorno al corpo stesso di lui, quando così ne fa ritratto. Hà Febo vna Corona in capo di dodici lucidissime gemme, delle quali tre gli adornano la fronte, & tanto risplendono, che abbagliano qualunque drizzi gli occhi verso lui; & sono queste Lichnite, Astrite, e Cerauno; sei gli ne stanno da ambi lati delle tempie, tre per lato che sono Smeraldo, Scythi, Diaspro, Giacinto, Dendrite, & Helitropia, le quali a certi tempi così dipingono la terra con suoi colori, che tutta la fanno verdeggiare; & credesi che la Primavera, e l'Autunno glie la habbino date, perch'ei ritornando a' suoi tempi, se ne serua. L'altre tre chiamate Hydatide, Diamante, e Cristallo, generate dallo agghiacciato Inuerno sono nella parte di dietro della corona. La chioma così è bionda, che par d'oro. La faccia al suo primo apparire si mostra di tenero fanciullo, poi di feroce giouane, & all'vltimo di freddo vecchio. Pare il resto del corpo essere tutto di fiamma: & hà le penne a piedi ornati di ardentissimi carbonchi. Intorno hà vn manto tessuto d'oro, & di porpora. Con la sinistra mano tiene vn lucidissimo scudo, & con la destra porge vna accesa face. Non mi fermo a dire altro di questa imagine, perche è tale, che ogniuno da se la può molto bene intendere. Ma vengo a porne vn'altra, la quale scriue Eusebio, che era in Elefantinopoli Città dello Egitto, fatta in forma di huomo, che haueua il capo di Montone con le corna, & era tutta di color ceruleo, che per essere il colore del mare, qual rappresenta nello vniuerso la humidità, significa (come la interpreta il medesimo Eusebio) che la Luna, congiunta al Sole nel segno dello Ariete è più humida assai, che ne gli altri tempi. Ma non voglio entrare in queste
 
-Колонтитул:
-Кустод:
+Колонтитул: Imagine de i Dei · с. 80
+Кустод: cose
+Сигнатура:
 Маргиналии:
-- Quali al carro di Febo.
+- Caualli al carro di Febo.
 - Carro di Febo.
 - Corona di Febo.
 - Eusebio.
@@ -2602,56 +2608,59 @@ alle altre cose, vn carro tirato da quattro velocissimi destrieri, come dice Oui
 
 Carro del Sole Dio della luce con l'imagine & ornamento di esso Sole, tirato da quattro Caualli, significante li quattro effetti splendori del Sole del giorno & dell'anno, & la velocità del moto suo, & suo corpo.
 
-Колонтитул:
+Колонтитул: De gli Antichi. · с. 81
 Кустод:
+Сигнатура: F
 Маргиналии:
 
 ## Скан 0124 · с. 82
 
 [ГРАВЮРА — полностраничная]
 
-Imagine del Sole detto anco Febo, & Apolline dio del giorno significante gli effetti suoi nelle stagioni & ne segni celesti, & nella Luna, & che la Luna nel segno d'Ariete, è humidissima essendo congiunta con il Sole, che tutto illumina, & a tutto dà vita.
+Imagine del Sole detto anco Febo, & Apolline dio del giorno significante gli effetti suoi nelle stagioni & ne segni celesti, & nella Luna, & che la Luna nel segno d'Ariete, è humidissima essendo congionta con il Sole, che tutto illumina, & a tutto dà vita.
 
-Колонтитул:
+Колонтитул: Imagini de i Dei · с. 82
 Кустод:
+Сигнатура:
 Маргиналии:
 
 ## Скан 0125 · с. 83
 
-cose de gli Astrologi, perche le imagini da loro poste poco fanno a mio proposito. Adunque porrò fine homai a quanto io haueua che dire del Sole, ma non prima però, che io habbia posto vn suo ritratto ancora, che disegna Claudiano nella veste di Proserpina, oue era disegnata anco la Luna sua sorella, la imagine della quale farà messa perciò subito dopò questa. Così dice dunque Claudiano in nostra lingua.
+*cose de gli Astrologi, perche le imagini da loro poste poco fanno a mio proposito. Adunque porrò fine homai a quanto io haueua che dire del Sole, ma non prima però, che io habbia posto vn suo ritratto ancora, che disegna Claudiano nella veste di Proserpina, oue era disegnata anco la Luna sua sorella, la imagine della quale sarà messa perciò subito dopò questa. Così dice dunque Claudiano in nostra lingua.*
 
-Quini ad vn parto il Sole, e la sorella
-Finto ella stessa hauea, ma non conformi
-Già di sembianti, che diuerso assai
-Del volto era il color, i quai dal Cielo
-Al giorno, & a la notte fosser duci.
-Dolce cantando poi Thetide in culla
-I piccioli bambini lusingando
-Acqueta; e raddormenta, ò ver nel grembo
-Grata gli tiene. Se le paion tristi,
-Piena d'Amor li pasce, & li consola.
-Titan col braccio destro ella sostiene,
-Et al seno l'appoggia, che di forze
-Deboli, & ancor tenere il camino
-E poco fermo, e mal sicuro tenta.
-Tale era il finto Sol ne gli anni primi,
-Quando de' raggi le fiammelle ancora
-Non tenea al capo, e la corona ardente,
-Ma tepido calor sol da la bocca
-Gli vsciva fuor, & al suo picciol grido
-Si vedea di splendor qualche scintilla.
-La sua sorella de la poppa molle
-Nel lato manco fuor il latte fugge.
-E de l'almo liquor non ben satolla,
-A Thetide pietosa ascinga il petto.
-Si leuan gonfie a lei le tempie alquanto,
-E da la fronte di color d'argento
-Fuor spuntan già le giouanette corna.
+*Quini ad vn parto il Sole, e la sorella*
+*Finto ella stessa hauea, ma non conformi*
+*Già di sembianti, che diuerso assai*
+*Del volto era il color, i quai dal Cielo*
+*Al giorno, & a la notte fosser duci.*
+*Dolce cantando poi Thetide in culla*
+*I piccioli bambini lusingando*
+*Acqueta; e raddormenta, ò ver nel grembo*
+*Grata gli tiene. Se le paion tristi,*
+*Piena d'Amor li pasce, & li consola.*
+*Titan col braccio destro ella sostiene,*
+*Et al seno l'appoggia, che di forze*
+*Deboli, & ancor tenere il camino*
+*E poco fermo, e mal sicuro tenta.*
+*Tale era il finto Sol ne gli anni primi,*
+*Quando de' raggi le fiammelle ancora*
+*Non tenea al capo, e la corona ardente,*
+*Ma tepido caler sol da la bocca*
+*Gli vsciva fuor, & al suo picciol grido*
+*Si vedea di splendor qualche scintilla.*
+*La sua sorella de la poppa molle*
+*Nel lato manco fuor il latte fugge.*
+*E de l'almo liquor non ben satolla,*
+*A Thetide pietosa ascinga il petto.*
+*Si leuan gonfie a lei le tempie alquanto,*
+*E da la fronte di color d'argento*
+*Fuor spuntan già le giouanette corna.*
 
-Perche Thetide hauesse il Sole su'l braccio destro, & la Luna su'l sinistro, dice Seueriano autore Greco, come riferisce Iano Parrhasio, che l'eterno Dio facitore dello vniuerso fece prima il Sole, e dopò la Luna, & pose questa a i confini dell'Occidente, & quello allo incontro nell'Oriente, & secondo Higino dimandasi in Cielo l'Oriente parte destra, & sinistra l'Occidente, benche gli indiuni della Toscana, come riferisce il medesimo Higino, partiuano l'vniuerso in questo modo, & che faceuano essere la destra parte da Settentrione, & da
+*Perche Thetide hauesse il Sole su'l braccio destro, & la Luna su'l sinistro, dice Seueriano autore Greco, come riferisce Iano Parrhasio, che l'eterno Dio facitore dello vniuerso fece prima il Sole, e dopò la Luna, & pose questa a i confini dell'Occidente, & quello allo incontro nell'Oriente, & secondo Higino dimandasi in Cielo l'Oriente parte destra, & sinistra l'Occidente, benche gli indiuini della Toscana, come riferisce il medesimo Higino, partiuano l'vniuerso in questo modo, & che faceuano essere la destra parte da Settentrione, & da*
 
-Колонтитул:
-Кустод:
+Колонтитул: De gli Antichi. · с. 83
+Кустод: Merig-
+Сигнатура: F 2
 Маргиналии:
 - Claudiano.
 - Higino.
