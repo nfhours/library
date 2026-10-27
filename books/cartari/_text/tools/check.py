@@ -72,6 +72,7 @@ ERRORS_R1_RE = re.compile(r"errors_r1:\s*(\d+)")
 ERRORS_R2_RE = re.compile(r"errors_r2:\s*(\d+)")
 BOTH_WRONG_RE = re.compile(r"both_wrong:\s*(\d+)")
 NOISE_RE = re.compile(r"noise:\s*(\d+)")
+BW_SOURCE_RE = re.compile(r"bw_noise:\s*(\S+)")
 KUSTOD_RE = re.compile(r"^Кустод:[ \t]*(.*)$", re.M)
 KOLONTITUL_RE = re.compile(r"^Колонтитул:[ \t]*(.*)$", re.M)
 NUMERATION_RE = re.compile(r"^Нумерация:.*$", re.M)
@@ -267,6 +268,11 @@ def main():
                 num_m = re.search(r"^Нумерация:.*$", body, re.M)
                 if num_m:
                     note_parts.append(num_m.group(0))
+                hm2 = HEADER_RE.search(body)
+                tail2 = hm2.group(5) if hm2 else ""
+                bw_src_m = BW_SOURCE_RE.search(tail2)
+                if bw_src_m:
+                    note_parts.append(f"both_wrong/noise: {bw_src_m.group(1)}")
             note = " | ".join(note_parts)
             dr = double_reading.get(scan, {})
             w.writerow([scan, label, printed, state, unclear, engr, note,
