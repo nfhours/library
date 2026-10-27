@@ -14,7 +14,9 @@ Cartari 1626 - проверочный скрипт.
   - считает количество "[?]" по всем страницам
   - сравнивает печатный номер (если есть в тексте/колонтитуле) с label из PAGES.tsv
   - обновляет/создаёт _text/status.csv: scan, label, printed_number, state,
-    unclear, engravings, note
+    unclear, engravings, note, method, discrepancies, errors_r1, errors_r2
+    (последние 4 колонки — из метода двойного чтения, см. ALGORITHM.md; пустые
+    для страниц, обработанных старым однопрочтенческим способом)
 """
 import csv
 import os
@@ -60,8 +62,12 @@ def list_page_files():
 
 
 HEADER_RE = re.compile(
-    r"<!--\s*scan:\s*(\S+)\s*\|\s*label:\s*(\S+)\s*\|\s*state:\s*(\S+)\s*\|\s*source:\s*(\S+)\s*-->"
+    r"<!--\s*scan:\s*(\S+)\s*\|\s*label:\s*(\S+)\s*\|\s*state:\s*(\S+)\s*\|\s*source:\s*(\S+)\s*(.*?)-->"
 )
+METHOD_RE = re.compile(r"method:\s*(\S+)")
+DISCREPANCIES_RE = re.compile(r"discrepancies:\s*(\d+)")
+ERRORS_R1_RE = re.compile(r"errors_r1:\s*(\d+)")
+ERRORS_R2_RE = re.compile(r"errors_r2:\s*(\d+)")
 KUSTOD_RE = re.compile(r"^Кустод:[ \t]*(.*)$", re.M)
 KOLONTITUL_RE = re.compile(r"^Колонтитул:[ \t]*(.*)$", re.M)
 NUMERATION_RE = re.compile(r"^Нумерация:.*$", re.M)
@@ -203,7 +209,9 @@ def main():
             numbering_discrepancies.append((scan, label, printed))
 
     # state: read from header if present, else "draft" if file exists w/o header, else "todo"
+    # double-reading extras (method/discrepancies/errors_r1/errors_r2), if present in header tail
     states = {}
+    double_reading = {}
     for scan in scans_in_tsv:
         if scan not in page_files:
             states[scan] = "todo"
@@ -211,6 +219,17 @@ def main():
         body = body_cache.get(scan, "")
         hm = HEADER_RE.search(body)
         states[scan] = hm.group(3) if hm else "draft"
+        tail = hm.group(5) if hm else ""
+        method_m = METHOD_RE.search(tail)
+        disc_m = DISCREPANCIES_RE.search(tail)
+        r1_m = ERRORS_R1_RE.search(tail)
+        r2_m = ERRORS_R2_RE.search(tail)
+        double_reading[scan] = {
+            "method": method_m.group(1) if method_m else "",
+            "discrepancies": disc_m.group(1) if disc_m else "",
+            "errors_r1": r1_m.group(1) if r1_m else "",
+            "errors_r2": r2_m.group(1) if r2_m else "",
+        }
 
     # count engraving markers per page (for status.csv "engravings" column)
     engraving_counts = {}
@@ -226,7 +245,8 @@ def main():
     # write status.csv
     with open(STATUS_CSV, "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f)
-        w.writerow(["scan", "label", "printed_number", "state", "unclear", "engravings", "note"])
+        w.writerow(["scan", "label", "printed_number", "state", "unclear", "engravings", "note",
+                    "method", "discrepancies", "errors_r1", "errors_r2"])
         for scan in scans_in_tsv:
             label = label_by_scan.get(scan, "")
             printed = printed_numbers.get(scan, "")
@@ -240,7 +260,10 @@ def main():
                 if num_m:
                     note_parts.append(num_m.group(0))
             note = " | ".join(note_parts)
-            w.writerow([scan, label, printed, state, unclear, engr, note])
+            dr = double_reading.get(scan, {})
+            w.writerow([scan, label, printed, state, unclear, engr, note,
+                        dr.get("method", ""), dr.get("discrepancies", ""),
+                        dr.get("errors_r1", ""), dr.get("errors_r2", "")])
 
     # ---- Report ----
     print("=== Cartari check.py отчёт ===")
