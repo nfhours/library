@@ -9564,3 +9564,230 @@ Questo lauarsi di Cibele fu talmente solenne, che nei Calendarij antichi se ne v
 - Car. 175.
 - Car. 178. Lin. 5.
 - Car. 179. Lin. 21.
+
+## Скан 0526 · с. 484
+
+rie, & S. Agostino nel 2. della Città di Dio, a cap. 4. & 5. ne và lontano da questi Prudentio nelle sue Corone, all'Himno X. Ma bel punto nota Arnobio nel fine del Lib. 7. contra i Gentili, che Attalo non mandò a Roma altro che vna pietra non molto grande, nera, e fatta a botte di rilieuo, che fu poi posta nella statua della gran Madre in luogo di volto. Et questo volle dire Prudentio nel luogo sopracitato, quando disse per bocca di S. Romano Martire, che in carro si portaua in volta vna pietra nera di viso di Donna, legata in argento. Et questo nella pompa della Madre Idea, inanzi la quale i Senatori correuano a piedi scalzi. Ma poiche siamo a proposito della Terra, non disdirà il metter qui la sua imagine in quella positura, che appresso gl'antichi significaua la sua fermezza.
+
+[ГРАВЮРА: без подписи]
+
+Questa chamauano essi STABILE, come si legge in vna Medaglia di Commodo Imperatore che in vn'altra di Giulia moglie di Settimo Seuero è chiamata Fecondità. Et a ragione, perche la Terra è sommamente feconda; secondo che i Poeti le danno epiteto di omniparente. Et sopra questa Medaglia vedasi Sebastiano Erizzo.
+
+Il Tempio di Vesta s'è tratto da vna Medaglia d'Oro dell'Imperator Tito, doue si vedono due figure con haste in mano fuori del Tempio, ch'io non ardirei chiamare Vestali. Ne'Camei si vede l'imagine
+
+Колонтитул: 484 · Annotationi
+Кустод: di
+Сигнатура:
+Маргиналии:
+- Car. 186
+
+## Скан 0527 · с. 485
+
+di Vesta pure tratta dalle medaglie antiche. Vna tiene in mano la lucerna per mostrare il fuoco eterno (se non è vna Capeduncula). L'altra il Palladio, che per quanto si vede in vn Cameo antico registrato in questo Libro a car. 321. era vna figura armata, di positura simile alle deità Egittie, come raccontano Apollodoro nel lib. 3. della Bibliotheca; & Procopio nel 1. della guerra Gothica. Et intorno questo Tempio non so quanto mi credere al Landino citato poco piu giu nella prossima facciata.
+
+Ne' Camei s'è fatta Cerere con le facelle, tratta da' Denarij antichi: con l'Aratro, & con la Scrofa. Sotto'l Carro della medesima si vede il simbolo antichissimo della Sicilia posto in molte memorie antiche, del quale si veda Ant. Agostini nel Dialogo Terzo, & le Siracuse di D. Vicenzo Mirabella in piu d'vn luogo. Circa le Serpi, che tirano il Carro di Cerere, intolerabilmente peccano i Pittori moderni, facendole alate, & con quattro piedi, contro'l testimonio di tutte le memorie antiche. O i Poeti le Chiamano Dracones. è vero. ma con tutto cio non intesero mai altro, che le Serpi della figura, che noi habbiamo rappresentata. & che sia vero, leggasi Virgilio nel fatto di Laocoonte, & vadasi a vedere la statua del medesimo, in Beluedere. Et il simile si vede nel carro di Trittolemo più a basso, a car. 209. & in altri luochi. Io certo mi ricordo d'hauer veduto altre volte vn vaso antichissimo d'Agata, historiato dal di fuori d'historie di basso rilieuo, nel quale pure si vedeua Cerere, co'l carro tirato da Serpi di questa fatta. E'l medesimo si vede in molte Medaglie, dou'è rappresentato Esculapio, & in altre si fatte historie, o fauole de gl'antichi. come nel Drago delle Hesperidi &c. Et le Serpi del Caduceo Macrobio chiama Dracones nel 1. de' Saturnali, al cap. 19.
+
+Ne' due Camei superiori si rappresenta Trittolemo. il 1. è cauato da vna Corniola ben lauorata. il secondo da vna Medaglia greca d'Antonino Pio, che si troua appresso di me. con l'vno & con l'altro si vede il Carro tirato dalle Serpi. Ne' due Camei inferiori si rappresenta Libero, & Libera, cioè Proserpina, della quale vedasi Arnobio nel Lib. V. contra i Gentili, che fa mentione dei misteri Sebadij, che non erano come dice l'autore a car. 216. popoli d'Egitto, ma cerimonie di Gioue Sebadio, o Sauazio come alcuni lo chiamano vedasi il Mitaliero sopra Val. Massimo.
+
+A tutto questo, che s'è detto della profanità (per così dire) delle Faue, aggiongasi l'opinione del commentatore antico di Giuenale, il quale nel fine della Sat. 15. scriue che le Faue nascono del sangue humano, & che i fiori di esse si mutano pure in sangue Vedasi Acrone sopra Horatio, nel Lib. 2. alla Sat. 7. & Lattantio Placido, sopra'l 4. della Thebaide di Statio.
+
+La imagine principale s'è cauata da vn Taglio antico, si come pu-
+
+Колонтитул: All'Imagini del Cartari. · 485
+Кустод: re
+Сигнатура: Hh 3
+Маргиналии:
+- Car. 188
+- Car. 194
+- Car. 195 / Lin. 23
+- Car. 197
+
+## Скан 0528 · с. 486
+
+re i Camei, in vno de' quali si vede Vertuno, nell'altro Pale.
+
+Appresso questa Dea Pale femina c'era vn Dio Pale maschio, Ministro di Gioue, & Castaldo come dicono. cosi scriue Cesio appresso Arnobio nel Lib. 3. contra Gentili, & di Pale pur maschio fanno mentione Marciano, & Seruio.
+
+Questo che dice l'autore delle Pitture coperte è preso da Giuuenale, che nella Sat. 6. dal verso 312. a 343. falsissimamente tocca queste radunanze di femine, & le ribalderie, che vi si commetteuano al suo tempo. Ne fu questa Dea così schifa del Vino, come qui si racconta, anzi ne beuè vna Seria piena, che perciò fu molto bene battuta dal marito con verghe di Mirto; come racconta Sesto Clodio grammatico appresso Arnobio nel lib. 5. contra i Gentili, & lo tocca per passaggio nel 1. Lib. ancora.
+
+Scriue l'Autore dell'historia miscella, che nell'Imperio di Mauricio, Mena Gouernatore dell'Egitto vidde nel fiume Nilo, nel luogo che alhora si chiamaua Delta, due animali di forma humana; & che vno haueua sembianza di maschio; l'altro di femina. Il maschio haueua gran petto, volto terribile, capelli rossi con alcuni canuti per dentro, & era nudo sino a'lombi; e'l rimanente staua sott'acqua. La femina haueua mammelle; & viso di donna, & capelli lunghi. Stettero in pelo d'acqua gran tempo, mirati e rimirati dal popolo, che a gran schiere era concorso a lo spetacolo. S'attuffarono poi sott'acqua, ne comparsero più. Et di tutto questo diede conto Mena all'Imperatore. Il medesimo si legge appresso Cedreno.
+
+Questa distesa di panno si vede in quasi tutte le deità antiche, che haueuano a fare con l'acqua. Et si può notare in questo Libro a car. 239. Et mi ricordo io hauer veduto in Roma, in S. Pietro sotto confessione vn Pilo antico di marmo, che serui già per le ceneri di Giunio Basso Prefetto di Roma, doue si vede il Nilo dal ventre in su sotto i piedi di Giuseppe il Patriarca. sostenta il detto fiume con ambe le braccia vn Velo volante, che gli fa arco sopra il capo, del quale si serui mirabilmente Virgilio.
+
+*Contra autem magno mẽrentem corpore Nilum,*
+*Pindentemq; sinus, & tota veste vocantem*
+*Cæruleum in gremium, latebrosaq; flumina victos.*
+
+Delle Sirene vedasi A. Agostini ne' Dialoghi, & F. Orsino nelle famiglie Romane: nella Petronia, & nella Valeria, ma quanto a quest'vltima io pendo assai nella opinione di Gio. Viuano, riferita da Leuino Torrentio sopra Suetonio; nella vita dell'Imperat. Claudio a capi 13. che non sia Sirena, ma Gioue Cario. & quanto spetta al cognome di Aciscolo non tengo ne con l'Orsino, ne co'l Viuiano, vedendo che Aciscolo come si legge ne gl'antichi Glossarij, è il Martello del Muratore; & Acisculario ne' medesimi è il Tagliapetre, o Scarpelli-
+
+Колонтитул: 486 · Annotationi
+Кустод: no,
+Сигнатура:
+Маргиналии:
+- Car. 198. Lin. 37.
+- Car. 205. Lin. 29.
+- Car. 206. Lin. 1.
+- Car. 207.
+
+## Скан 0529 · с. 487
+
+no, che lo vogliamo dire, leggasi Hadr. Turnebo nel Lib. 27. cap. 10. & nel Lib. 28. cap. 5. oltre che nella Medaglia medesimamente si vede il Martello ouero Ascia, simile a quello, che in molte Inscrittioni antiche si ritroua segno che quel Monumento non haueua che fare con quel capo delle 12. Tauole. *ROGVM ASCIA NE POLITO.*
+
+La imagine principale s'è tolta da vn mezo rilieuo antico trouato in vn Pilo a mio tempo in Roma, del quale, & d'altro si leggerà qui sotto vn poco di racconto, ch'io all'hora ne fei. Il Cameo s'è preso da vn taglio in corniola di bellissimo colore, ch'era altre volte in mano di Mons. di PEIRESC Senator Regio nella corte di Parlamento d'Aix in Prouenza gentil'huomo intendentissimo di tutte queste cose.
+
+L'Anno M. DC. VIII. il mese di Febraro, lauorandosi vna Vigna de' Sig. Leni fuor della Porta detta di S. Bastiano, vicino a Capo di Boue, oltre molti altri vestigi d'antichita, come d'vn Tempio di Minerua e Ramnusia fabricato come si crede da Herode Attico Sofista nobile del tempo d'Hadriano, oltre alcune Statue, e Teste d'Imperatori, Herme d'Huomini illustri, e Colonne preciose; s'è scoperto vn Pilo, antico, coperto, di lauoro schietto, ma bene inteso, e senza memoria di forte alcuna. Si trouò in esso vn Panno ben conseruato di finissima Lana, & vn vestito serico, ambedue di quel colore, che mostra la Foglia secca, e tirauano al ferrugineo come dicono i Latini, con certe striscie larghe nel Panno di Lana, ch'erano di colore purpureo, & adorauano molto ambidoi questi vestiti di odore, che teniua dell'aromato. Nel Pilo c'era dell'acqua, che per humidità o per pioggia era forse trapelata iui entro. Oltre i detti vestiti c'era vna Bulla di rame stata già dorata, nella quale di mezo rilieuo si vede vna morbida giouane, che posa in vn cerchio d'onde vestita sopra le carni d'vna sottile Camiscia, e termina da la cintura in giù in Cepi di Cani marini, & altri Animali che le escono da' fianchi, e da le coscie, che porta intagliate come Sirena. Alza appresso la mano e braccio dritti in atto di colpire, e con la manca mano stringe il collo d'vn Cauallo di mare quasi che ferire lo voglia. C'erano di piu nel Pilo due anella d'oro di molto peso. In vno di grossezza vniforme, piu stretto di quello che potesse entrare nel fondo d'vn dito era incastrato vno Smeraldo piatto e non tagliata, molto bello, nell'altro di garbo più moderno vn Diaspro verde cò vn Fanciullo intagliatoci, che posto a sedere coglie fiori. Et perche il desiderio di sapere di chi si fossero i detti abbigliamenti ha fatto dire ad alcuni di strane cose, ho determinato io di far proua se posso con qualche verisimilitudine ragionarne; stimando che non sia disdiceuole a persona amatrice di questi studij andare inuestigando que' particolari che l'Antichità, e'l Tépo hanno cercato di sottrarre a gl'occhi, & a la cognitio-
+
+Колонтитул: All'Imagini del Cartari. · 487
+Кустод: ne
+Сигнатура: Hh 4
+Маргиналии:
+- Car. 209.
+
+## Скан 0530 · с. 488
+
+ne nostra. Hora s'ha da sapere, che questo Pilo, o Sepoltura era sopra la via Appia,la quale ritenne il nome da Appio Claudio Censore, il quale per trauerso dell'Italia fin'a Brindisi la fece lastricare. Di più che sopra le strade costumauano gl'Antichi di fabricare le sepolture loro, acciò che come dice Varrone in tal maniera ammoniscero i passaggieri che haueuano ancor efsi a morire. Et si sa molto bene, che nelle Città non era lecito sepelire, il che fu in vso non solamente appresso i Romani, ma appresso gl'Hebrei ancora, come si caua dal Sepolcro di Lazaro in S. Giouanni, e dal figliuolo della Vedoua risuscitato in S. Luca, per cio fare s'eleggeuano per lo più le Vie come ho detto, & lo proua Plinio il giouane, il quale parlando della sepoltura di Pallante Liberto dell'Imper.Claudio dice così. *Est via Triburtina, intra primum lapidem ( proxime adnotaui ) Monimentum Pallantis ita inscriptum HVIC SENATVS OBFIDEM &c.* e per questo rispetto molti Cemeteri de' Christiani stauano appresso le strade Salaria, Ardeatina, Ostiense, & altre. A Capo di Bue per testimonio di Cicerone nel primo delle Tusculane è chiara cosa che haueuano le sepolture loro molte famiglie nobili. Scriue egli. *an tu egressus Porta Capena, cum Calatini, Scipionum, Seruiliorũ, Metellorum sepulcra vides miseros putas illos ?* Si che bisogna quasi concludere, che la presente della quale trattiamo sia vna delle nominate, e si può prouare non difficilmente quanto comportano l'Antichità, e l'Ingiuria di chi ha lasciato la cassa nuda,e portatosene il resto *Quandoquidem data sunt ipsis quoque fata Sepulcris* dice Giuuenale. E veramente attestano i cauatori, che intorno a questo Pilo si sono trouati sodi contraforti di Peperino, che arguiscono fabrica notabile. Ma di chi voremo che sia ? Io per me, se m'è lecito indouinare inchino ad Attilio Calatino, il quale l'Anno Ab. V. C. 496. come sta ne' Fasti, & inanzi la Natiuità di Christo 254.trionfò EX SICILIA DE POENEIS; huomo di gran valore, come si legge appresso Floro, e Cornelio Nepote. E se bene non si vede nel Pilo quello, che al tempo di Cicerone vi si leggeua nel sepolcro. *Vno ore plurimæ consentiunt Gentes populi primarium fuisse Virum*, gia habbiamo detto, che gl'ornamenti della Sepoltura se ne sono andati; il che è accaduto a tante altre, che intorno questa strada si vedono restate spogliate. Le ragioni della mia congettura sono, la mostra detta di sepolcro grande, e magnifico, i fragmenti d'vna Statua equestre veduti da me, il Panno ch'io stimo che fosse Clamide molto ricco, e copioso di robba. Hanno però stimato certi, che fossero molti vestiti. Io credo di no, poi che le statoe ci mostrano, che vn'huomo portaua intorno la robba sì grande, che i Fondachi hora non ci stanno per nulla. Che non per altro penso io, che Giuuenale chiamasse la Toga Auloca, o come diressimo noi panni d'Arazzo. Il colore di detto Panno io non dubito che fosse di Por-
+
+Колонтитул: 488 · Annotationi
+Кустод: pora
+Сигнатура:
+Маргиналии:
+
+## Скан 0531 · с. 489
+
+pora nell'estremità,poi che se ne vede ancora il segno. Ne era la Porpora d'vn solo colore, come alcuni s'imaginano. Poiche scriue Vitruuio,che se ne trouaua di tirate al nero,di rossa,e di violacea,le quali differenze egli ascriue a diuerse positure del Mondo, doue si pescauano le Cocchiglie. Questa nostra sarà dell'atra, del colore del Porfido, che da la Purpura s'è pure buscato il nome di Porfirite. L'Odore è quello medesimo, che si proua ne' Cadaueri, che d'Egitto ci vengono, chiamati con nome Arabico Numie, & è di Mirra se l'Odorato non c'inganna. La Bulla di rame seruiua per coperchio della Fibula, con la quale s'affibbiaua la Clamide sopra l'homero,manco,& se ne vede essempio in Campidoglio nel Cortile de' Conseruadori in vna statua loricata di Costantino, & in casa de' medesimi in vna testa co'l petto di Giulio Cesare; o come faceuano piu frequentemente sopra la destra spalla. *Chlamys* ( dice Isidoro ) *est quæ ex vna parte induitur neq; consuitur,sed Fibula infrenatur*. Et questa Fibula ouero era tornita schietta nel Coperchio, o fatta di qualche gioia; ouero haueua alcuna Figura, come in vna testa di marmo co'l petto dell'Imperatore Hadriano ho vedut'io nel coperchio della Fibula : i ritratti d'Hadriano, e Sabina marito, e moglie, di basso rilieuo ben fatti. Nella presente sta scolpita gentilmente Scilla simbolo della Sicilia, nella quale hebbe che fare Calatino. Et pare che'l Maestro ( se bene piu antico ) hauesse auanti gli occhi que' Versi di Virgilio nell'Ecloga 6. ripetiti vn poco diuersamente nella Ciri.
+
+*Quid loquar aut Scillam Nisi ? aut quam fama secuta est*
+*Candida succinctam latrantibus inguina Monstris*
+*Dulchias Vexape rates, & gurgite in alto*
+*Ah timidos nautas Canibus lacerasse marinis ?*
+
+E quelli altri di Silio Italico, da' quali si caua, ch'era portata per impresa in guerra anco sopra l'Elmo
+
+*Cassis erat munita Viro, cui vertice surgens*
+*Triplex crista, iubas effundit crine Sueuo.*
+*Scylla super fracti contorquens pondera remi*
+*Instabat, sæuosq; Canum pandebat hiatus.*
+
+Nota il Dalechampio sopra Atheneo, che i Maghi di Persia accendeuano il fuoco ne' Monti,& con certi fascetti di Verbena in mano cantauano certi suoi versi, & profetauano. Et io mi ricordo leggere in Massimo Tirio,che in Persia,aggiongendo legna al fuoco sacro,costumauano di dire, mangia Signor Fuoco. Non rida chi può. Onde non sarà marauiglia se Calatino la portaua per ornamento della Clamide, o Paludamento che lo vogliamo chiamare. Le anella ancor'esse spirano molta antichità; e primieramente quello, che tiene lo Smeraldo per essere stretto di foro ha dato a pensare ad alcuni, che potesse essere di Donna, ò Fanciullo. ma non hanno auer-
+
+Колонтитул: All'Imagini del Cartari. · 489
+Кустод: tito
+Сигнатура:
+Маргиналии:
+
+## Скан 0532 · с. 490
+
+tito in Plinio ciò ch'egli scriue, che costumauano al suo tempo portare anella in tutte le ditta, & in tutti gl'articoli. *hic nunc solus ( parla del Dito infame ) excipitur; ceteri omnes oncrantur, atq; etiam priuatim articuli minoribus alijs.* E non sara marauiglia, che Attilio Calatino molto prima, come homo eccellente vsasse qualche singolarità, poiche ancora Duillio, che vinse in mare i Cartaginesi, contemporaneo di Calatino, come scriue Cicerone *delectabatur crebro Funali, & Tibicine, quæ sibi nullo exemplo priuatus sumpserat.* Lo Smeraldo non è tagliato, perche come scriue il medesimo Plinio; si vagliono i Maestri che tagliano Gioie di questa ricreare la vista, *quapropter,* scriue egli, *decreto hominum ijs parcitur scalpi vetitis.* ne è marauiglia che siano gl'anelli di tanto peso; poiche il medesimo Autore altroue parlando pure d'anella dice *iam alij pondera eorum ostentant,* al contrario di Crispino, ilquale effeminato, come scriue Giuuenale trouò per delicie le anella da State sottili e leggiere. E tanto basti all'huomo occupato in altro circa questo particolare. Et se la narratione è piu congeturale, che difinitiua diasene la colpa a la lunga età, la quale *non pauca deprauat, multa tollit* per trionfare non solo de gl'huomini, ma de' nomi loro ancora.
+
+La figura di Palemone si vede nelle Medaglie di Corinto, in vn Cameo del Patriarca Grimani, & in vn taglio antico, nella Dactiliotheca d'Abramo Gorleo. delle quali tutte cose s'è formata l'infrascritta figura.
+
+[ГРАВЮРА: без подписи]
+
+Колонтитул: 490 Annotationi
+Кустод: Nel
+Сигнатура:
+Маргиналии:
+- Car. 210. Lin. vlt.
+
+## Скан 0533 · с. 491
+
+Nel piu alto cameo si vede Nettuno co'l Dolfino in mano: perche ( come scriue Eratosthene appresso Higino ) volendo Nettuno prendere per moglie Anfitrite, & volendo ella viuere in verginità, se ne fuggì ad Atlante, per stare iui di nascoso. Hora Nettuno mandò molti a cercarla, & fra questi vno chiamato per nome Dolfino, che dopo molto girare la trouò finalmente, & le persuadè a contentarsi prendere Nettuno per marito. Et di quà viene ( dice Eratosthene ) che i statuarij nel fare Nettuno gli pongono vn Dolfino in mano, ò sotto il piede.
+
+Il Canopo tirato in Cameo è figura hor mai tanto conosciuta, che non è necessario il dirne altro. Et si vede in tante Medaglie, Gioie, e marmi, ch'è marauiglia. Il foco posto più sopra s'è cauato da vna Medaglia antica d'vn Re di Persia che ha intorno la testa lettere Persiane. Et questo s'è posto per occasione di quanto scriue l'autore, piu sopra a car. 227. & era costume de' Rè di questi popoli, di portare in volta ne gl'eserciti ancora il fuoco sacro: come si legge in Euagrio. nel V. Lib. dell'Histor. Eccl. al cap. 14. Et hauere luoghi particolari per adorarlo come scriue Socrate nel lib. 7. al cap. 8. & Gio. Zonara nel 3. tomo de gl'Annali.
+
+La Medaglia di Vespasiano con Nettuno non ha Sferza, ma vn'Acrostolio, ouer punta di Naue; come si può vedere appresso Enea Vico, nella 3. Tauola delle Medaglie d'argento di Vespasiano numeri 28.
+
+La imagine dell'Oceano si vede in Roma, come qui sotto, descritta & dichiarata da Steffano Pighio nel suo Hercole di Prodico.
+
+[ВИНЬЕТКА: наборная орнаментальная концовка из растительных завитков]
+
+Колонтитул: All'Imagini del Cartari. 491
+Кустод: Vuole
+Сигнатура:
+Маргиналии:
+- Car. 211.
+- Car. 214.
+- Car. 215. Lin. 22.
+- Car. 216. Lin. 34.
+
+## Скан 0534 · с. 492
+
+[ГРАВЮРА: без подписи]
+
+Vuole il Pighio, che questa imagine contenga misteri grandi, & chi gli vuol vedere, leggali appresso di lui, che certo dice di belle cose. A me bastarà toccare breuemente certi punti piu principali riferiti dal medesimo per dichiaratione delle fattezze di corpo & di habito, che tiene intorno. Tiene in capo ( dice egli ) vn velo sottile, per mostrare, che'l Cielo à vestito e bendato dalle nuuole, ch'escono dal mare, & che di quà nasce la fecondità nella Terra in prò delle Piante, & d'ogni sorte d'Herbe, che perciò i capelli, barba, & peli di questa statua, rassembrano ingegnosamente Acantho, & altre herbe molli e piegheuoli. E bello e specioso di faccia, & dalla fronte gli spuntauano due picciole corna, si per mostrare lo strepito del mare concitato da' venti; si per dare ad intendere, che'l suo moto, che noi chiamiamo flusso, e riflusso, è cauato dalla Luna, che da Orfeo è chiamata tauricorne. Aggiongasi, ch'è origine delle fonti, & de' fiumi, che l'antichità, come s'è detto, pure finse con le corna. ha nella mano manca vn remo, o timone che sia, per mostrare, che con questo stromento hanno preso ardire gl'huomini d'internarsi in lui, sta appoggiato ad vn mostro marino, per essere genitore di bestie grandi e prodigiose. Fin qui il Pighio in ristretto.
+
+Questa Derceto era la medesima, che Dagon, della quale si fa mentione nella Scrittura Sacra, come nel 1. de' Re, a cap. 5. nel 1. di Macabei, a cap. 10. & vedasi Antonio di Lebrissa, nella sua Quin-
+
+Колонтитул: 492 · Annotationi
+Кустод: quagena
+Сигнатура:
+Маргиналии:
+- Car. 218. Lin. 13.
+
+## Скан 0535 · с. 493
+
+quagena, a cap. 6. La Imagine di Dagon, o Decreto, si vede a car. 1. di questo Libro, in capo alla statua di Semiramide.
+
+Nella figura principale, in camei si sono rappresentati cauati dalle Medaglie i Fiumi Hibero, Bragada, e Danubio.
+
+Questo costume di tagliarsi i capelli, & offerirli a' fiumi è tocco da Filostrato nel 4. della vita d'Apollonio Tianeo; dal medesimo negl'Heroici, in Aiace Telamonio. gli offeriuano ancora ad altre Deità, come si vede in Dione Chrisostomo, nell'oratione 35.; in Difilo appresso Ateneo, nel 6. Libro, in Censorino; in Statio in più luoghi. In Ammiano Marcellino al Lib. 22.
+
+Nella figura del Nilo il disegnatore s'è preso licenza di non mettere tutti i fanciulli, che ci andauano. & haueuano ad essere 16. Leggasi Stefano Pighio nel suo Hercole di Prodico; Filostrato nel primo delle Imagini; Luciano nei prec. Retorici. Le Feste, che in Egitto si faceuano ad honore di questo fiume sono tocche da S. Gregorio Nazianzeno, nella 2. oratione contra Giuliano Apostata; da Nonno scholiaste del medesimo; da Heliodoro nel 9. delle cose Etiopiche. vedasi la nostra spositione della mensa d'Iside. E scriue marauiglioso particolare, dell'acqua di questo fiume, Aristide; che portata lontano non si guasta; & che in Egitto si conserua per tre, quattro, & piu anni, & che prende lode dalla vecchiezza, come appresso noi il vino. Aggiunge Ateneo, che Tolomeo Filadelfo mandaua di quest'acqua in Soria, a Berenice sua figliuola maritata nel Re Antiocho, accioche le seruisse per bere. Et non è incredibile, poiche Seneca scriue, che non è fiume, ch'habbia acqua di gusto piu dolce, & lo conferma Spartiano nella vita di Pescennio Negro.
+
+Scriue Plutarco nell'Opuscolo, *de Iside, & Osiride,* che l'acqua di questo fiume ingrassa chi ne beue; & m'è stato confermato questo detto con la viua prattica di persona di molta auttorità, ch'è stata qualche tempo in Egitto, & ha sperimentato in se medesima questo particolare.
+
+La imagine principale, & il Cameo si sono presi da tagli antichi.
+
+Qui di necessità haueuano a stare le Ninfe, Deità de' fiumi, fonti, laghi; tanto nominate ne' Poeti appresso Claudiano, & Martiale in particolare. le imacini loro si vedono in vn marmo antico, in Roma, nel quale si legge il nome d'vna tale Priscilla.
+
+Колонтитул: All'Imagini del Cartari. · 493
+Кустод: Et
+Сигнатура:
+Маргиналии:
+- Car. 221.
+- Car. 222. Lin. 27.
+- Car. 225.
+- Car. 227.
+- Car. 219. in fine.
+
+## Скан 0536 · с. 494
+
+[ГРАВЮРА: без подписи]
+
+Et simile scoltura io vidi già in Roma in casa de' Vittorij, doue staua il nome d'vn'Epitteto seruo Aquario d'vn'Imperatore. Et di qua vengono i Ninfei, luoghi deputati ad'acque, che si leggono appresso Publio Vittore, & in qualche altro luogo. Tutto che Zonara gli deputi ad altro vso. Et nel disegno sopra posto pare a me, che lo Scoltore si sia marauigliosamente seruito della regola di Vitruuio, nel Lib. 1. a cap. 2. cioè, che a Venere, a Flora, a Proserpina, alle Ninfe si fabrichi d'ordine Corinthio, per la sueltezza, & gracilità per così dire, che ne' loro corpi si vede.
+
+Dione non è l'historico, ma'l Filosofo, nella Oratione quinta, ch'esso intitola, fauola Libica.
+
+La Sfinge. & la Chimera sono cauate dalle memorie antiche, & li due Camei sono pure di tagli antichi. In vno Edipo inanzi la Sfinge, che stà su la rupe Fycea, come la chiama Apollodoro. nell'altro Bellerofonte, che combatte con la Chimera, & quest'vltima si vede fre-
+
+Колонтитул: 494 · Annotationi
+Кустод: quen-
+Сигнатура:
+Маргиналии:
+- Car. 246. Lin. 32.
+- Car. 247.
+
+## Скан 0537 · с. 495
+
+quentissima nelle monete di Corinto. Delle Lamie vedasi il Del-rio nelle disquisitione Magiche.
+
+Plinio non dice che la Sfinge fosse nume saluatico. le parole di lui sono queste; *ante has est Sphynx Vel magis miranda : qua siluestria sunt accolentium* ; le quali il Landino traduce così, inanzi a queste è Sfinge tanto piu marauigliosa, perche è in luoghi seluaggi. Et bene.
+
+Haueuano gl'antichi in veneratione il Fato sotto tre Imagini di Donna rappresentate come qui sotto.
+
+[ГРАВЮРА: без подписи]
+
+Et si sono tratte da vna Medaglia d'oro anticha, & dell'Imperatore Diocletiano veduta da me altre volte in Roma, con questa inscritione, FATIS VICTRICIBVS. è ben vero, che secondo l'intelligenza di Procopio queste saranno le Parche. Perche scriue nel 1. della de' Gothi, che'l tempio di Giano era nel Foro, inanzi la Curia poco lontano da i tre Fati, che in tal maniera i Romani chiamano le Parche. Et di questo parere è Appuleio ancora nel suo Libro de Mundo. Et di qua traggono origine le Fate del volgo, & de' nostri Romanzatori. vedasi il Padre Del-rio.
+
+I Camei si sono cauati da Corniole, & altre Hioie antiche. in vno si vede Mercurio, che caua dall'Inferno vn'anima, con la verga, come cantano i Poeti. in vn'altro Mercurio e Filologia, ò simile.
+
+Le imagini della Pace, che si vedono ne gl'Ouati sono tolte da Medaglie.
+
+Колонтитул: All'Imagine del Cartari. · 495
+Кустод:
+Сигнатура: [?]
+Маргиналии:
+- Car. 248. Lin. 34.
+- Car. 251. Lin. 30.
+- Car. 260.
+- Car. 275.
