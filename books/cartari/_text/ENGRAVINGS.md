@@ -228,3 +228,11 @@
 | 0497 | 455 | гравюра | Imagini delle tre Gratie Dee della bellezza, & gratia; Dee ancora della gratitudine, & del beneficio, nominate Eufrosina o giocondità, Aglaia ò venustà, Thalia ò piaceuolezza; Dee della conuersatione, sociabilità, & amicitia, & di quella allegra vita, che gli huomini desiderano di viuere. | |
 | 0499 | 457 | гравюра | Imagine delle Gratie guidate da Mercurio dinotante, che il giouare & la benificenza deue esser fatta con ragione, à tempo, & à meriteuoli, senza speranza di premio, con animo sincero, & che il beneficiato deue con occasione render il beneficio & se non in fatti almen con le parole. | |
 | 0501 | 459 | виньетка | концовка — гравированный орнамент с фигурой путто (амура) среди растительных завитков | |
+| 0502 | 460 | виньетка | орнаментальная рамка-бордюр по всем четырём краям страницы; в центре, в свободном от рамки поле — гравированный картуш (волюты, маскарон/путти наверху) с овальным медальоном, внутри которого — крылатая фигура (гений или птица с человеческой головой); подписи нет | |
+| 0503 | 461 | инициал | C | |
+| 0507 | 465 | гравюра | без подписи | |
+| 0509 | 467 | гравюра | без подписи | |
+| 0510 | 468 | гравюра | без подписи | |
+| 0510 | 468 | виньетка | наборный орнамент-разделитель из флеронов и цветочных виньеток в ряд | |
+| 0511 | 469 | гравюра | без подписи | |
+| 0512 | 470 | гравюра | без подписи | |

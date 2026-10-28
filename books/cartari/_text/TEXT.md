@@ -9116,3 +9116,231 @@ IL FINE.
 Кустод:
 Сигнатура:
 Маргиналии:
+
+## Скан 0502 · с. 460
+
+[ВИНЬЕТКА: орнаментальная рамка-бордюр по всем четырём краям страницы; в центре, в свободном от рамки поле — гравированный картуш (волюты, маскарон/путти наверху) с овальным медальоном, внутри которого — крылатая фигура (гений или птица с человеческой головой); подписи нет]
+
+Колонтитул:
+Кустод:
+Сигнатура:
+Маргиналии:
+
+
+Нумерация: печатный номер на странице отсутствует (ничего не напечатано); в PAGES.tsv — 460.
+
+## Скан 0503 · с. 461
+
+ANNOTATIONI
+DI LORENZO PIGNORIA,
+AL LIBRO
+Delle Imagini del Cartari.
+
+[ИНИЦИАЛ: C]HE a gl'Animali non sia mai stato attribuito da alcuno lume di religione non è in tutto vero. Perche hanno detto gran cose gli Egittij de i loro Animali Sacri, come del Cinocefalo, dello Scarabeo, & d'altri. Intorno che vedansi Horo Apolline, & il nostro Commentario sopra la Tauola Hieroglifica, che fu già del Card. Bembo glor. mem. & hora si vede nella Galleria del Sereniss. Sig. Duca di Mantona. Anzi che de gl'Elefanti si raccontano particolari di molta marauiglia. Et leggasi Eliano nel 7. dell'Historia de gl'Animali a cap. 39. & nel 4. a cap. 9. Plinio nel lib. 8. al cap. 1. De' moderni il Porcacchi sopra l'Arcadia del Sannazaro a car. 174. dell'editione di Pauia del 1596.
+
+Dio i Latini chiamano DEVS, che senza dubio viene dalla voce greca ΖΕΥΣ, mutando la Z in D, com'è stato vsanza di tutte le lingue, per testimonio di Claudio Mitalerio sopra Valerio Massimo. Alcuni altri vogliono, che si deriui dal vocabolo greco ΔΕΣ, che significa timore: onde habbia detto Petronio Arbitro
+
+*Primus in orbe Deos fecit timor.*
+
+Et di questa opinione fu Lattantio Placido Commentatore di Statio Papinio nel Lib. 3. della Tebaide a versi 661. doue cita Lucano, & Mintanore Musico, ch'è riferito ancora da Fulgentio nel primo Libro delle Mitologie. Allude a questo sentimento Arnolfo Vescouo di Lisieux in Francia, nel Sermone, ch'egli recitò nel Concilio di Tours, & lo conferma col verso del Salmo LX. *dedisti hereditatem timentibus nomen tuum Domine.* Alcune cose belle intorno'l nome di Dio scriue Diogene Laertio, nella vita di Zenone verso'l fine.
+
+Questo Senato duodenario de' Dei grandi si legge in due versi di Ennio appresso Marciano Capella, nel primo Libro delle nozze di Filologia, & di Mercurio. Anzi che l'Antichità gli haueua in tal maniera compratiti, che ad ogni mese ne toccaua vno, come si vede chiaro
+
+Колонтитул: 461
+Кустод: chiaro
+Сигнатура:
+Маргиналии:
+- Car. 2. Lin. 3.
+- Lin. 14.
+- Car. 3. Lin. 18.
+
+## Скан 0504 · с. 462
+
+chiaro nel Calendario Rustico publicato, e dichiarato da Fuluio Orsino esquisitissimo osseruatore delle antiche curiosità. Vedansi Macrobio nel L. 1. de' Saturnali a cap. 12. & i Fasti Sacri di Ambrosio Nouidio; che con lodeuole inuentione s'è ingegnato di correggere la superstitione de gli antichi.
+
+Lucano non dice, che facessero quei di Marseglia riuerenza a gl'altitronchi; & che nei boschi non vi fossero simulacri. Testimonio ne siano i versi di lui.
+
+*-- Sed barbara ritu*
+*Sacra Deum, structæ diris altaribus aræ.*
+
+Ecco gli Altari. più giù,
+
+*-- tum plurima nigris*
+*Fontibus Vnda cadit, simulacraq; mæsta Deorum*
+*Arte carent, cæsisq; extant informia truncis.*
+
+Ecco le statue. ma non è huomo chi non falla.
+
+Del rispetto portato alle Statue vedasi Dione Chrisostomo nella Oratione che ei fecce a quelli di Rodi, appresso i quali ei biasima vn'abuso di leuare il nome alle Statue de' passati, & mettercene vn'altro. Di più leggasi Cassiodoro nel. VII. delle Varie, alla Formula 13. 14. doue dice, che in Roma era vn'altro popolo di Statue; & bisogna bene, che fosse così, perche essendosi delle Statue di Roma abbellite le Gallerie de' Principi, & de' priuati, in Italia & fuor d'Italia, tuttauia la maniera non è ancora essausta, & se ne troua ogni giorno in tanta quantità. Veda chi vuole Giusto Lipsio nel 3. Lib. della grandezza Rom. a cap. 9. & l'Incruscato nel suo Ristretto.
+
+Di Demogorgone parla Statio nel 4. della Thebaide, secondo la spositione di Lattantio Placido Grammatico antico. & vedasi il Mazzoni sopra Dante, nel Lib. 1. al cap. 63. Et forse a Demogorgone volle alludere la Maga Erichto, appresso Lucano nel 6.
+
+Alcuni, che hanno cercato la ragione di questo adiettiuo eterno, hanno detto, che venga da eui terno, come Varrone nel 5. Lib. della Lingua latina. Altri hanno tenuto, che deriui dall'etere, come Isidoro attesta d'alcuni nel Lib. 7. delle sue Origini. Io direi con Varrone, che hauesse origine dall'Euo, che da Arnobio nel Lib. III. aduers. gent. è chiamato Euità. Lo descriue Censorino nel Libro del giorno natale a cap. 16. (io cito la editione di Lodouico Carrione) che sia immenso, senza origine, e senza fine, che sempre fu & sempre sarà nella medesima maniera. Intorno l'Eternità chi vuol vedere qualche pensiero gentile, legga Antonio Agostini nel 2. Dial. delle Medaglie.
+
+Theofrasto nei Caratteri scriue, che'l superstitioso abbattendosi nelle pietre vnte, che si trouano doue tre strade fanno capo, che le vnge-
+
+Колонтитул: 462 Annotationi
+Кустод: vnge-
+Сигнатура:
+Маргиналии:
+- Car. 5. Lin. 20.
+- Car. 9. Lin. 39.
+- Car. 15. Lin. 39.
+- Car. 17. Lin. 7.
+- Car. 25. Lin. 39.
+
+## Скан 0505 · с. 463
+
+vngerà, ne prima si partirà, che non si sia loro inginocchiato dauanti. Sopra'l qual luogo vedasi quanto scriue il Casaubono. Luciano ancora nel Pseudomante tocca questo costume, dicendo, che quel truffatore doue scorgeua pietra od vnta, o coronata subito s'inginocchiaua. Se ne legge nell'Apologia d'Appuleio, in quella, che chiamano prima, & appresso Prudentio, nel secondo Lib. contra Simmaco. Simile punto và toccando il Capitolare di Carlo Magno, nel Lib. primo al cap. 64. doue dice, che alcuni pazzi a gl'arberi, alle Pietre, & alle Fontane accendeuano luminari. Et nel medesimo Capitolare (nell'imperfetto però, che và in volta sotto nome di Leggi di Longobardi) si vede vna Legge di Liud. Prando Rè, che vieta l'adoratione di Fontane, o dell'Albero, che i Contadini chiamano Santo. è nel Lib. 2. al Tit. 37. Vedansi Carlo Paschalio nel Lib. delle Corone Lib. 4. c. 4. Plinio il giouane Lib. 8. epist. 8. Seneca nell'Epist. 41. Giusto Lipsio al 14. de gl'Annali di Tacito.
+
+Marciano Capella non dice, che Saturno hauessi per adornamento del capo tal'hora vn Serpente, tal'hora vn capo di Lione & tal'hora di Cinghiale; ma che pareua che hora hauesse faccia di Dragone, hora di Lione, hora di Cinghiale, & così s'è cercato di rappresentarlo. Et di questi visi io non saprei dir altro, se non che Marciano hauesse l'occhio alla malignità de gl'Influssi di questo Pianeta, che come scriue Natal de' Conti nel 2. della Mithol. al cap. 2. inclina gl'huomini ad essere atrabiliarij, inuidiosi, maligni, superbi, auari, & di colera tenace.
+
+Homero parla delle Preghiere nel Lib. 10. dell'Iliade nella ammonitione di Fenice ad Achille. Et vn bellissimo Emblema ne formò Andrea Alciato; che è il centotrenta. Et dalle Lite d'Homero forse ha origine il verbo latino Litare, che significa impetrare, come si legge in Nonio Marcello; tutto che Varrone lo origini da luere, che è pagare, come si può veder appresso il medesimo, Grammato; & lo riferisce Hadriano Turnebo nel Lib. 18. al cap. 20. Però con la mia opinione stà l'autorità di Festo.
+
+Chi vuol vedere esattamente questa maniera di conto per le dita non può abbattersi in Libro migliore di quello di Beda citato dall'Aurore. ma auuertasi, che la editione corretta di tale libretto è quella di Elia Vineto. le altre saranno mancheuoli. Et di questa vsanza di annouerare sono pieni gl'Auttori antichi. Suetonio nella vita dell'Imp. Claudio a cap. 21. Quintiliano nel Lib. XI. delle sue Instit. al cap. 3. Plinio nel Lib. 34. a cap. 7. & 8. Seneca nell'Epist. 88. nel Lib. 3. de Ira a cap. 33. Eliano nel 6. dell'Hist. de gl'Animali a cap. 57. Marciano Capella nel Lib. 7. delle Nozze, &c. nel bel principio. Simposio nell'Enimma. 100. Aristide nel 2. de sacri ragionamenti, & altri molti.
+
+Колонтитул: All'Imagini del Cartari. 463
+Кустод: Le
+Сигнатура:
+Маргиналии:
+- Car. 29. Lin. 8.
+- Car. 31. Lin. vlt.
+- Car. 34. Lin. 12.
+
+## Скан 0506 · с. 464
+
+Le prime imagini delle Stagioni si sono tolte dalla medaglia d'oro di Antonino Caracalla appresso Sebastiano Erizzo; & da vn'altra dell'Imperatore Diocletiano, che si vedeua nello studio del già Sig. Lelio Pasqualini. le seconde sono a mente dell'Autore eccetto che il luogo di Vulcano, & d'Eolo s'è messa Vesta.
+
+Questo, che l'Autore chiama Tempio, si vede in Roma, appresso la Chiesa di S. Giorgio, nel Foro Boario. & lo fece disegnare nel suo Libro Bartolomeo Maliano L. 3. cap. 14. & Antonio Agostini nel Dialogo 4. delle Medaglie, il quale lo chiama Arco, & con ragione per mio parere. Vedasi Suetonio nella vita d'Augusto a capi 31. & sopra Suetonio Leuino Torrentio Vesc. d'Anuersa, & il Casaubono. Et l'Autore nostro medesimo poco piu sotte chiama Giani gl'Archi trionfali. Ma di Giano chi vuole piu copiosa notitia legga Barnaba Brissonio nel Lib. 1. delle Formule.
+
+Delle due Imagini d'Hebe, l'vna s'è presa dalla Medaglia di M. Aurelio Imp. l'altra s'è rappresentata nell'habito dei Coppieri antichi, come si può vedere nel mio Libro de' ministerij de' Schiaui appresso l'Antichità. Nella medesima si legge IVVENTAS, che appresso i Latini è quella, che appresso i Greci Hebe. Vedasi Lambino sopra la ode 30. del primo Libro d'Horatio; & Seruio nel 1. dell'Eneide.
+
+Chi piu vuole delle Muse veda Goffredo Liuocerio in vn suo gentile Libretto, stampato con la Mitologia di Natale de' Conti.
+
+Il Testo di Marciano Capella è guasto, com'io ho mostrato già nella mia Spositione della Tauola Hieroglifica, che hora si vede nella Galleria del Ser. di Mantoua. Imperoche s'ha da intendere che nella Naue stassero sette fratelli germani al gouerno. Che nella proda della medesima si veda la figura d'vna Gatta. d'vn Lione nell'Albero. d'vn Cocodrillo nel di fuori. vedasi il testo; che la correttione è chiara.
+
+La figura d'Apollo, & Dafne s'è presa da vn bellissimo Cameo, che fu di Mons. Grimani Patriarca d'Aquileia d'honoratissima memoria. & del Lauro si può leggere Natal de' Conti nella Mitologia, & Ammiano Marcellino nel Lib. 29.
+
+Io vidi in Roma l'anno 1606. vn gran pezzo di marmo, nella piazza di Campidoglio, che rappresentaua vna grotta delle cose Mithriache; ma assai guasta e consumata. haueua molta similitudine co'l sostantiale della figura, che s'è rappresentata qui sopra. Nel ventre del Toro si leggeuano queste parole DEO SOL INVICT.. MITRHE. in fondo del collo haueua scolpite queste NAMA. SEBESIO in fondo della coscia destra AMYCVS. SERONENSIS. V'erano due figure in piedi, vna per parte, ma rouinate; & sopra la Grotta vna Quadri-
+
+Колонтитул: 464 Annotationi
+Кустод: ga
+Сигнатура:
+Маргиналии:
+- Car. 36.
+- Car. 37. Lin. 27.
+- Car. 43.
+- Car. 46. Lin. 26.
+- Car. 52. Lin. 28.
+- Car. 53.
+- Car. 60. Lin. 33.
+
+## Скан 0507 · с. 465
+
+ga del Sole, & vna Biga della Luna. Et questo gran pezzo di marmo io ho pensato alcuna volta, che sia delli auanzi della Gentilità, la rouina de' quali fu procurata da quel Gracco, del quale fano mentione S. Girolamo scriuendo a Leta, & Prudentio nel fine del Lib. 1. contra Simmaco. Le parole di S. Girolamo sono. *Ante paucos annos propinquus vester Gracchus, nobilitatem patriciam sonans nomine, cum Præfecturam gereret Vrbanam, non ne Specum Mithræ, & omnia portentosa simulacra, quibus Corax, Misus, Meles,* (così legge Martiano Vittorio) *Leo, Perses, Helios, Bromius Pater initiantur, subuertit, fregit, exussit?*
+
+Et a proposito di questi nomi rammemorati da S. Girolamo fa marauigliosamente vn luogo di Porfirio nel Lib. 4. dell'Astinenza, doue raconta, che ne' misterij di Mitra gl'huomini si chiamauano Leoni, le donne Leonze, altri Corui, alcuni Aquile, & certi Sparuieri.
+
+Nelle anticaglie di Roma stampate già, & messe insieme in vn Volume assai grande, si vedeua vna di queste imagini delle cose Mithriache, la quale non so da chi è stata esposta, & riferita per vn ritratto dell'Agricoltura, ma fuora di proposito a mio parere.
+
+[ГРАВЮРА: без подписи]
+
+Колонтитул: All'Imagini del Cartari. 465
+Кустод:
+Сигнатура: Gg
+Маргиналии:
+
+## Скан 0508 · с. 466
+
+Appresso l'imagine d'Apollo si vede il Bue Api, tratto da vna Medaglia di Giuliano Apostata, il quale come riferisce Ammiano Marcellino nel Lib. 22. fece cercare diligentemente questa bestia. Et chi piu ne vole veda la mia spositione della Mensa Isiaca.
+
+Da due Tagli antichi habbiamo cauato le Imagini, che qui si vedono di Sarapide, & Iside; per le quali chi più vuole legga il primo capo della Mensa Isiaca, & veda nel fine del medesimo Libro certi disegni di figure antiche, che furono del Signor Lelio Pasqualini.
+
+La figura d'Esculapio, che si vede picciola in vn Cameo è tratta dalla Medaglia di M. Antonino Caracalla Imperatore, & è simile ad vna statoa anticha, che io viddi in Roma ott'anni sono, in casa de' SS. Massimi, alla Valle. Ma bisogna auuertire, che l'Intagliatore in questa nostra, non intendendo la chioma d'Esculapio l'ha fatto vn Giano.
+
+Pietro Appiano (s'io non fallo) in questa figura d'Esculapio notabilmente s'ingannò. Perche se è cosa antica, che alli abbigliamenti mi sembra di nò, io direi che fosse piu tosto ouero la Dea Copia, ouero vna delle stagioni dell'Anno. Ne parerà strano ad alcuno, ch'io dia questa nota all'Appiano; perche Antonio Agostini ancora, nel suo Dial. 11. dice, che'l Libro del detto è pieno d'Inscrittioni antiche finte.
+
+Nel Cameo s'è rappresentata la Prouidentia, come stà figurata in vna Medaglia dell'Imperatore Antonino Pio, appresso di me. Et si vede chiaro, che chi la formò volle dire, la Prouidentia dell'Imp. essere la salute del mondo.
+
+Questa figura s'è tolta da i Camei del Reuerendiss. Patriarca Grimani. Et in proposito delle figliole d'Esculapio è da notarsi che egli n'hebbe quattro, che tante ne nomina Aristide nella oratione, ch'egli compose in lode di Podalirio, & Macaone figlioli d'Esculapio. Et sono Iaso, Egele, Higià, & Panacea. & io mi ricordo vedere vna Medaglia antica di rame, nella quale d'vna Ara vsciua vna Serpe, & haueua scritto sotto ΙΑΣΩ.
+
+Nello studio dell'Illustrissimo Signor Federico Contarini Procuratore di S. Marco glor. mem. si vedeua vna bellissima corniola antica, nella quale, stando a vedere Cupido, Apolline scriueua in vn Fiore questi Caratteri I A. & nel Fiore era inserito vn bellissimo Giouannetto fino al bellico, che con le braccia aperte pareua, che si lagnasse della sua miseria. Vedasi la fauola appresso Ouidio nel Lib. 10. delle Metamorfosi, ilquale vuole, che nel Fiore stasse scritto A I A I, contra l'autorità della Scoltura nostra, la quale tirata in grande è quella, che seguita.
+
+Колонтитул: 466 Annotationi
+Кустод: vedasi
+Сигнатура:
+Маргиналии:
+- Car. 63.
+- Car. 66.
+- Car. 70.
+- Car. 71. Lin. 17.
+- Car. 77.
+- Car. 79.
+- Car. 95. in fine.
+
+## Скан 0509 · с. 467
+
+[ГРАВЮРА: без подписи]
+
+Vedasi Seruio sopra la terza Ecloga di Virgilio, & Probo nel medesimo luogo; Palefato, & Filostrato, il vecchio e'l giouane, nelle Imagini.
+
+Ne meno celebre appresso i Scrittori è la Vittoria ch'Apolline riportò di Marsia, spiegata nell'infrascritte figure tolte dall'antico doue in vn Cameo si vede Marsia, che suona le Piue, di che vedasi Appuleio nel primo de' Floridi; & in vn'altro la medesima vittoria d'Apoline. in proposito delle quali racconta Apollodoro, che Apolline fece mostra del suo sapere con la Citara suonata a ritroso, & comandando a Marsia, che'l medesimo facesse de' Flauti, che non riuscendo, Marsia vi lasciò la pelle.
+
+Колонтитул: All'Imagini del Cartari. 467
+Кустод: Sigil-
+Сигнатура: Gg 2
+Маргиналии:
+
+## Скан 0510 · с. 468
+
+[ГРАВЮРА: без подписи]
+
+Sigillaremo questo Capo con la figura di Lucifero compagno dell'Aurora, ch'io vidi vna volta in vna Corniolina antica di valente Maestro.
+
+[ВИНЬЕТКА: наборный орнамент-разделитель из флеронов и цветочных виньеток в ряд]
+
+Колонтитул: 468 Annotationi
+Кустод: nella
+Сигнатура:
+Маргиналии:
+
+## Скан 0511 · с. 469
+
+[ГРАВЮРА: без подписи]
+
+nella quale pero io non vedo osseruata la regola di Lattantio Placido, sopra'l sesto della Thebaide di Statio, cioè, che'l suo carro sia tirato da vn Cauallo solo. poiche dice egli, che i Poeti danno al Sole quattro Caualli, due alla Luna, vn solo alle Stelle. E ben vero, che lo Scoltore della Gioia può essere, che non fosse Poeta.
+
+Per mostrare questa vniformità di Giunone, & Diana, appresso la imagine di Lucina s'è posto il ritratto di Giunone Lucina cauato dalle medaglie antiche. Ma in questo proposito è da notarsi quanto scriue Martin Delrio sopra il 14. capitolo della Genesi; cioè che la Città d'Astroth. Carnaim riceuesse questo nome da vn Idolo di Giunone o Diana bicorne, che in quella città si adoraua. Et chi legge i Theologhi del Gentilesmo non giudicarà strano questo cambio, poiche appresso i medesimi si leggono pazzie maggiori, intorno a queste mascherate massime secondo il costume de gl'Orientali. Et io ne ho tocco alcuna cosa nella mia spositione sopra la Mensa d'Iside. Ma chi sà, che questa Astarte bicorne non fosse Iside; Io per me lo credo. ne mi da impaccio il nome d'Astarte, perche forse gl'Hebrei l'addattauano a tutte le Deità femine in quella maniera che'l Baal, o Beel a tutti i maschi. La vera interpretatione però di Astaroth Carnaim io penso, che si possa cauare da quanto scriue Eusebio nel Lib. 1. della prepar. Euang. al cap. vlt. cioè, che Astarte mo-
+
+Колонтитул: All'Imagini del Cartari. 469
+Кустод: glie
+Сигнатура: Gg 3
+Маргиналии:
+- Car. 94. Lin. 10.
+
+## Скан 0512 · с. 470
+
+glie di Cielo si facesse in capo per adornamento vn paio di corna. L'imagine trouata al tempo di Papa Lione X. sarà l'infraposta.
+
+[ГРАВЮРА: без подписи]
+
+Questa Hecatombe Imperatoria è raccontata da Giul. Capitolino nella vita de gl'Imperatori Massimo, & Balbino. Hora mose gl'Imperatori potessero hauere carestia di questi Animali veri io non ardirei imaginarmelo, perche essendo essi padroni del Mondo, che marauiglia sarà se ne haueuano le centinaia? Quel Democare, del quale fa mentione Appuleio nel 4. dell'Asino d'Oro, non hebbe pochi Animali per i Giochi, che haueua a rappresentare. Pompeo il grande, come scriue Dione, nella dedicatione del suo Theatro fece ammazzare 500. Leoni. Ne haueuano già questi la maniera, c'hebbero poi gl'Imperatori di mettere insieme tante Bestie. Vedasi Suetonio nella Vita di Tito a capi 7. Claudiano nel 3. Panegirico di Sti-
+
+Колонтитул: 470 Annotationi
+Кустод: licone;
+Сигнатура:
+Маргиналии:
+- Car. 104. Lin. 9.
+- Car. 106. Lin. 7.
+
+## Скан 0513 · с. 471
+
+licone; & frà moderni Giulio Cesare Bulengero nel suo Trattato de Venatione. Ma io credo, che'l nostro Autore parli de' poueri, come pare che si dichiari piu appresso.
+
+Nicolo Remigio Conseg iero intimo delle Altezze di Lorena ha composto tre belli, e curiosi Libri con titolo di Demono-latria, ne' quali da' Processi legitimamente formati contro Maghi, e Strehge, va Mostrando la tirannide Diabolica sopra quei meschini, che dell'Anime loro hanno fatto homaggio al nemico dell'Anime. Hora questi nel Lib. 1. a cap. 7. nel fine mostra, che Empusa & Hecate siano demonij, che & di notte & di mezo giorno appresso gl'antichi ancora, costumauano d'apparire, massime quando si faceua sacrificio per l'anime de' morti. Et a questo sentimento egli accommoda il verso del Salmo XC, *a sagitta volante in die, a negocio perambulante in tenebris; ab incursu & dæmonio meridiano.* Il medesimo Autore a capi 23. del medesimo Libro và raccontando in che sembianze si trasformi il Demonio quando si vuol far vedere ad alcuno. Hora in Cane, hora in Cauallo, hora in Mosca, hora in Gatto: & molte volte in forma humana vestito però di nero, & alla lunga, ne' primi congressi, per non spauentare con la mostruosità de' piedi, che tiene inseparabilmente. Et io ho vdito raccontare da persona di fede, come in Padoua apparì ad vn pouer homo, così vestito; ma che di sotto del lembo della veste si vedeuano vnghie come d'Aquila, o d'altro vccello di rapina. D'Hecate pure ragiona Martin Delrio nelle sue Disquis. Magiche. li. 2. quest 27. Sect. 2. & la descriue in quella maniera appunto, che si vede effigiata in molte memorie antiche di Gioie, & pietre diuerse per Annelli, & per Amuleti come diceuano gl'antichi. Et auuertasi, che Diana Efesia fu pure rappresentata così, & si vede ne' Camei a car. 109. & 91 & nelle Medaglie antiche di continuo, & ne fa mentione Minucio Felice nell'Ottauio con queste parole; *Diana interim est alte succincta venatrix, & Ephesia mammis multis, & vberibus extructa, & Triuia trinis capitibus & multis manibus horrifica.* Et queste vltime parole dichiarano i Camei, che si sono posti a car. 104. Ma grande conformità ha questa figura con Iside che porge il latte ad Oro, come si vede in vna Corniola antica, & altroue.
+
+Колонтитул: All'Imagini del Cartari. 471
+Кустод: Nel
+Сигнатура: Gg 4
+Маргиналии:
+- Car. 107. Lin. 5.
