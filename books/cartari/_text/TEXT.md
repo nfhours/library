@@ -10983,3 +10983,125 @@ restai più stupito poi, quando per la esatta sollecitudine del medesimo Sig. AL
 Кустод: Esi-
 Сигнатура:
 Нумерация: на странице напечатано 755, в PAGES.tsv 575
+
+## Скан 0622 · с. 576
+
+[ГРАВЮРА: без подписи]
+
+[ИНИЦИАЛ: E] Simle al primo, se non che ha piu tosto il volto piangente, che allegro. la parte manca della soprauesta, che gli copre anco il corpo dauanti, è d'oro, la veste di sotto è lionata. Et è d'auuertire, che le maniche larghe sono della veste di sotto. questo ancora è caluo & ha le mani non incrocicchiate *pectinatim*, ma congiunte à dirittura, *more supplicantium*.
+
+Колонтитул: 576 Seconda Parte
+Кустод: Tutta
+Сигнатура:
+
+## Скан 0623 · с. 577
+
+[ГРАВЮРА: без подписи]
+
+[ИНИЦИАЛ: T]Vtta la carnaggione è di color azurro, i capelli e le sopraciglie d'oro, il piccolo ornamento, che porta in capo è nella parte superiore d'oro, nella di sotto bianco, la veste è d'oro foderata di verde, e di rosso, sono di rame i due stromenti, che tiene in ambedue le mani.
+
+[ВИНЬЕТКА: наборная линейка с цветочными украшениями по краям]
+
+[ИНИЦИАЛ: E]Di color di carne ordinario il volto, e le mani, ha il cappelletto nero, il vestimento tutto nero; ma che mostra esser foderato di rosso, lo stromento che tiene nella mano dritta è di rame indorato, il coscino, o che si sia, sopra il quale riposa, è di colore di fior di perco, ma tempestato di color bianco.
+
+Колонтитул: Delle Imagini de i Dei. 577
+Кустод: Tutta
+Сигнатура:
+
+## Скан 0624 · с. 578
+
+[ГРАВЮРА: без подписи]
+
+[ИНИЦИАЛ: T]Vtta la carnaggione è rossissima dipinta di cenaprio, ha sei braccia e sei mani, nelle quali gli strumenti, che tiene, sono di rame dorato; mancandoui quelle, che haueua nella mano sinistra superiore. Sono anche del medesimo rame le due insule, che li dipendono dal capo, e tutto l'ouato, che li sta dietro. L'elmo, che ha in testa in forma di capo di lione, è dorato, la banda, che dalla spalla sinistra viene al fianco diritto, è verde; il rimanente della veste è dorato con punti rossi e azurri. Il vaso nel quale sta sedendo, è depinto di cinaprio, ma il piede è dorato.
+
+Колонтитул: 578 Parte Seconda
+Кустод: La
+Сигнатура:
+
+## Скан 0625 · с. 579
+
+[ГРАВЮРА: без подписи]
+
+[ИНИЦИАЛ: L]A carnaggione è bianchissima, e in luogo de capelli ha solamente vna leggerissima tintura di verde rame. La vestimenta sono in tutto simili à quelle del 4.
+
+Колонтитул: Delle Imagini de i Dei. 579
+Кустод:
+Сигнатура: Oo 2
+
+## Скан 0626 · с. 580
+
+[ГРАВЮРА: без подписи]
+
+[ИНИЦИАЛ: Q]Vesto ancora ha la carne bianchissima come di gesso, e del medemo colore è il bambino, che tiene in braccio. L'ornamento della testa è tutto negro, ma le insule dipendenti sono di rame dorato, si come è anco il cerchio, che tiene intorno il capo; e così sono gli altri doi seguenti idoli. Le vestimenta sono di vari colori, quella, che li copre le spalle è verde, la sopraueste azurra, la veste di sotto, che non arriua à piedi, è dorata, quella, che arriua à piedi, è di color di fior di persico scarpe sono rosse.
+
+Колонтитул: 580 Seconda Parte
+Кустод: La
+Сигнатура:
+
+## Скан 0627 · с. 581
+
+[ГРАВЮРА: без подписи]
+
+[ИНИЦИАЛ: L]A carnaggione è di colore azurro, l'armatura è d'oro con varij lauori di linee nere. La sopraueste, che si vede dietro le spalle, è rossa, ma foderata di verde, e parte della fodera è quella, che li pende dauanti notata B. I calzoni che gli arriuano al piede, sono dorati. Il cappello e rosso, ma i diuersi ornamenti delineati con l'inchiostro sono di rame indorato si come anco gli strumenti, che tiene nelle mani, quelle *planæ rotunditates* (che hauerebbe detto Appuleio) che li dipendono dalle vesti le quali si veggono anco nelle due sequenti statuette. Il mostro medesimamente, che ha sotto i piedi, ha la carne azurra, la parte di veste che li copre il capo, è di color lionato, l'altra è bianca.
+
+Колонтитул: Delle Imagini dei Dei. 581
+Кустод: E assai
+Сигнатура: Oo 3
+
+## Скан 0628 · с. 582
+
+[ГРАВЮРА: без подписи]
+
+[ИНИЦИАЛ: E]Assai simile al prossimamente descritto, se non che ha il colore ordinario della carne tanto esso, quanto il mostro, che tiene sotto i piedi, si bene tira assai al rosso l'armatura è pur d'oro, ma la veste è azzura foderata di lionato, e lionato è il cappello. lo stromento, che haueua nella mancina è perduto, e quello della mano dritta è mezo rotto.
+
+Колонтитул: 582 Parte Seconda
+Кустод: E si-
+Сигнатура:
+
+## Скан 0629 · с. 583
+
+[ГРАВЮРА: без подписи]
+
+[ИНИЦИАЛ: E]Simile questo ancora a i due antedetti; ma la carnaggion sua è del nostro sotto à piedi, è verde. la veste, che pende dall'armatura, è lionata, si come anche il cappelletto, che tiene in testa.
+
+Колонтитул: Delle Imagini de i Dei. 583
+Кустод: Tutta
+Сигнатура: Oo 4
+
+## Скан 0630 · с. 584
+
+[ГРАВЮРА: без подписи]
+
+[?]
+
+Колонтитул: 584 Parte Seconda
+Кустод:
+Сигнатура:
+
+## Скан 0631 · с. 585
+
+[ИНИЦИАЛ: T]Vtta questa statuetta tanto nella carnaggione, quanto nelle vesti e nel vaso, sopra il quale riposa, è dorata, e così la sella, o che si sia dell'animale, che la porta. Il cappelletto è azurro; ma le due ali, e le insule dependenti sono di rame dorate, come anche gli strumenti, che tiene in mano. L'animale è di color azurro, ma la pancia e i piedi sono di color di carne humana. La bocca è rossa, le ciglia, le penne, che stanno attaccate sopra i piedi, e certo fogliame che gli pende dalla testa, sono verdi, si come è anco la coda. In questi tutti mi pare di vedere gran diuersità; in alcuni lo spirito delli Egittij, & delli Orientali, in alcuni cose di nostro fare. Et forse tanto vuole dire chi scrisse vna Relatione del Giapone in lingua latina, stampata in Louanio del 1566. nella quale si legge, che i Giaponesi haueuano imagine di Santi e Sante co' diademi al modo nostro. Et di più, che vsauano dipingere vna donne, con vn fanciullino in braccio, chiamara Quaneuoa; alla quale, come à commune Auuocata, soleuano ricorrere ne' bisogni loro i paesani. Et di queste imagini saranno la prima, la quarta, la ottaua, la nona, la decima. L'Autore della Relatione vuole, che altre volte habbiano hauuto i Giaponesi notitia della legge Christiana; & è pensiero molto verisimile; ma che l'Idolatria poi oscurasse questo lume, del quale in queste statue ne rimanesse alcun vestigio. Ma se volessimo ridurre queste cose ancora al nostro primo pensiero, non ci mancherebbe che dire. Poiche del Diadema basta quanto habbiamo detto nella spositione della mensa Isiaca, & quanto ne ha tocco il Sig. GIROLAMO ALEANDRO in vn suo eruditissimo commentarietto latino nõ stampato, & la Donna co'l fanciullo è tanto simile ad Iside con Oro in braccio, che niente più. La seconda poi, settima, vndecima, dnodecima, decimaterza, & decimaquarta seruono al proposito nostro marauigliosamente.
+
+Vn'Idoletto dell'Indie d'Auorio fornito di Gioie tiene fra le molte sue preciose curiosità il Sig. di Peiresc, da me tante volte nominato, & non mai a bastanza lodato. io l'ho fatto rappresentare qui in quattro faccie. che cosa possa significare ce lo direi forse il Tempo, ottimo manifestatore di tutte le cose occulte.
+
+Колонтитул: Delle Imagini de i Dei. 585
+Кустод:
+Сигнатура:
+
+## Скан 0632 · с. 586a
+
+[ГРАВЮРА: без подписи]
+
+Колонтитул: 586 Parte Seconda
+Кустод:
+Сигнатура:
+Нумерация: на странице напечатано 586, в PAGES.tsv 586a
+
+## Скан 0633 · с. 587a
+
+[ГРАВЮРА: без подписи]
+
+Колонтитул: Delle Imagini de i Dei. 587
+Кустод:
+Сигнатура:
+Нумерация: на странице напечатано 587, в PAGES.tsv 587a
