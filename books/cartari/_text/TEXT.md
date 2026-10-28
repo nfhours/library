@@ -8924,3 +8924,195 @@ Nè solamente con le chiome la fecero gli antichi, ma con la barba ancora che vn
 Кустод:
 Сигнатура:
 Маргиналии:
+
+## Скан 0490 · с. 448
+
+trà mortali. Et leggesi che appresso de i Carreni, gente dell'Arabia, fu osseruato questo, che stauano sotto dalle donne, & erano obligati di seruire alle loro mogliere tutti quelli, li quali credeuano la Luna essere femina, & con nome di femina la chiamauano, & all'incontro chi la credeua maschio, & così la nominauano, non era ingannato dalle donne mai, & la moglie lo vbbidiua, & gli staua soggetta, come pare; che voglia il douere. Quelli di Egitto benche communemente chiamassero la Luna con nome di femina, nondimeno ne' misterij loro la diceuano poi non Dea, ma Dio. Et perciò fu per lei adorato il vitello tanto celebrato, da quelli. Et i Parthi adorauano il Dio Luno, e Philocoro, il quale tiene, che Venere sia vna medesima con la Luna, come anco credettero alcuni dello Egitto, li quali perciò faceuano le corna alla sua statoa ( perche si fa la Luna con le corna, come nella sua imagine si può vedere ) dice, che soleuano anticamente farle sacrificio gli huomini in habito feminile, & le donne vestite da huomo. Nè da questa discorda molto quello, che scrisse Seneca nelle sue questioni naturali, oue mette, che gli Egittij di ciascheduno de i quattro elementi da loro posti ne faceuano due, l'vn maschio, & l'altra femina. Imperoche diceuano, che dell'aere il vento è il maschio, & la femina quello, che non pare mouersi, & è quasi sempre calignoso: che'l mare è il maschio, dell'acqua; & la dolce tutta la femina: che del fuoco quello, che abbruccia è maschio, & femina quello, che luce, & non fà male alcuno: & che della terra è maschio il più duro, come i sassi, gli scogli, & femina quella, che è più molle, & si può coltiuare. Faceuasi oltre di ciò vn simulacro di Venere simile a quello che nel monte Libano si vedeua, il quale haueua vn manto d'intorno, che cominciando dal capo lo copriua tutto, & pareua stare tutto mesto, sconsolato, & con mano pure auuolta nel manto sosteneua la cadente faccia, & come dice Macrobio, credeua ogn'vno, che lo vedeua, che le lagrime gli cadessero da gli occhi. Et quiui si mostraua Venere così addolorata per la morte di Adone vcciso da vn Cinghiale. Per la qual cosa furono guardati alcuni dì come sacri chiamati le feste Adonie, & allhora le donne vniuersalmente per le Città metteuano alcune imagini simili a'corpi morti sù certi letticiuoli fatti a posta, & quelle, come fossero persone pur dianzi morte, piangendo portauano alle sepolture; questo, dice Plutarco, faceuano in Athene per la rimembanza delle lagrime sparse da Venere alla morte di Adone suo innamoratto. Et appresso de gli Argiui le donne, come scriue Pausania, andauano à piangere Adone in certa cappella poco lontana dal tempio di Gioue Seruatore. La quale cosa, tirandola alle cose della Natura, è così interpretata da Macrobio, che di tutta la terra questa metà di sopra, la quale noi habbiamo, fu intesa da gli antichi sotto il nome di Venere, &
+
+Колонтитул: 448 Imagini de i Dei
+Кустод: chia-
+Сигнатура:
+Маргиналии:
+- Vsanza notabile.
+- Luno Dio.
+- Feste Adonie
+- Venere per la metà della terra.
+
+## Скан 0491 · с. 449
+
+chiamarono Proserpina l'altra metà di sotto. Oltre di ciò de i dodeci segni del Zodiaco, che la circonda, sei sono detti superiori, & inferiori altri sei questi dello Inuerno, quelli della Està. Quando dunque il Sole, il qual è significato per Adone, và nel tempo della Està per gli sei segni di sopra, Venere hà seco l'innamorato suo, e stà tutta lieta: ma poi è creduta piangere, & si mostra mesta, quando lo vede scendere al tempo dello Inuerno ne i segni di sotto, quasi ch'ei se ne muoia allhora, & se lo tenga Proserpina per sè. Et dissero le fauole, che vn Cinghiale l'vccise perche pare, che questo animale rappresenti molto bene l'Inuerno, conciosia ch'egli è coperto tutto di peli duri, & aspri, stà volontieri nei luochi fangosi, & pascesi, di ghiande, le quale sono frutti dello Inuerno: & è l'Inuerno quasi ferita mortale al Sole, percioche fà, che pochissimo tempo luce à noi, & ci dà poco del suo calore. Le quali due cose fa la morte, che priua di luce, e di calore. Adonque la imagine di Venere, che piange sotto il manto, ci rappresenta la terra al tempo dell'Inuerno, quando è per lo più coperta di nuuoli, & pare tutta aflitta, perche non vede il Sole. Allhora i fonti, che sono gli occhi della terra spargono larghissime acque, & i campi priuati di ogni adornamento si mostrano tutti mesti. Et parlando naturalmente pur'anche Eusebio di Venere dice, che da lei viene la virtù del generare, & ch'ella è, che al seme dà forza: & la fanno in forma di donna, per mostrare, che la generatione procede da lei; la fingono bella, perche è quella stella, che di tutte l'altre, che sono in Cielo pare essere la piu bella, chiamata Hespero la sera, come dice Marco Tullio, & la mattina Lucifero. Cupido le stà a lato per segno, che da lei nasce ogni lasciuo desiderio, & ogni cupidità libidinosa, ha le poppe, & i membri genitali coperti, perche dentro da questi stà rinchiuso il seme, & in quelle il nutrimento di chi del conceputo seme già sia nato: & la dicono nata del mare, perche l'acqua sua è creduta essere calda, & humida, & che spesso si muoue, & agitata forte fa di molta spuma, le quali cose sono tutte nel seme, perch'egli è bianco parimente, & spumoso, & di natura sua humido, e caldo. Molte altre cose ancora si potrebbono dire di Venere per chi volesse ragionare di lei come di Pianeta, & de gli effetti, che vengono dalla sua stella, che adorna il terzo Cielo; onde si potrebbe etiandio conoscere per quale cagione fingessero gli antichi, che Marte Dio tanto terribile, & feroce, così piaceuolmente se ne stesse con lei, ma perche questo mi suierebbe troppo dal mio proponimento di ragionare delle imagini de i Dei, non della natura loro, più non dirò di lei, poscia che non mi ricordo di hauer letto, che in altro modo l'habbiano fatta gli antichi. Et potrebbe bene anco essere, che l'hauessero fatta, ma non lo sò io, nè scriuendo si può mettere così interamente tutto, che non
+
+Колонтитул: De gli Antichi. 449
+Кустод:
+Сигнатура: Ff vi
+Маргиналии:
+- Adone pel Sole.
+- Adone vcciso dal Cinghiale.
+- Spositione di Venere.
+- M.Tullio.
+
+## Скан 0492 · с. 450
+
+vi rimanga qualche cosa sempre, & è bene il douere, accioche ogn'vno habbia che dire. Basta che leggendo questo poco, ch'io scriuo, non mancherà assai buono essempio di dipingere, ò scolpire gli Dei de gli antichi à chi lo vorrà fare; & saprà ancora perche faccia così. Passerò dunque a dire della compagnia di Venere, che sono le Gratie, & le Hore, come hò promesso, mettendo prima però quello, che Marte dice, mentre che tiene questa dea in braccio, hauendosi di lei pigliato amoroso solazzo, quando gli comanda Gioue, che vada a mouer guerra per lo regno di Thebe trà Etheocle, & Polinice, come scriue Statio: da che, senza altro dirne, si potrà comprendere molto bene, quale, & quanta sia la forza di Venere: onde non hauerà da marauigliarsi più alcuno quando vederà talhora gli più saldi animi, & le più ferme menti essere vinte da lei, in modo che a gli amorosi piaceri si siano poscia date in preda. Queste dunque sono le parole di Marte tratte al volgare, con le quali pongo fine alla imagine di Venere.
+
+*O mio dolce riposo almo piacere,*
+*Vera pace de l'animo turbato,*
+*Tu mi ti puoi oppor senza temere*
+*Vnqua di me, se ben sono adirato;*
+*Tu sola puoi frenare, e ritenere*
+*Questi destrier dal lor corso sfrenato*
+*Nelle fere battaglie, e se ti pare,*
+*Tu sola queste man puoi disamare.*
+
+[ВИНЬЕТКА: два орнаментальных картуша-розетки]
+
+Колонтитул: 450 Imagini de i Dei
+Кустод: LE
+Сигнатура:
+Маргиналии:
+
+## Скан 0493 · с. 451
+
+[ВИНЬЕТКА: орнаментальная наборная рамка-бордюр]
+
+LE GRATIE.
+
+[ВИНЬЕТКА: орнаментальная наборная рамка-бордюр]
+
+[ИНИЦИАЛ: P (гравированный, со сценой внутри)]Oscia che habbiamo disegnata Venere madre di Amore già da noi ritratto parimente, hora è ben honesto che diciamo delle Gratie, & delle Hore insieme, le quali con quella vanno sempre in compagria. Percioche come Venere, & Amore sono cagione che venga succedendo tuttauia nuoua prole, & che perciò si conserui la humana generatione, così le Gratie tengono i mortali insieme raccolti, perche i beneficij, che a vicenda si fanno gli huomini l'vno all'altro, è caro, & grato, onde stanno congiunti insieme del bel nodo della amicitia: senza la quale non è dubbio alcuno, che gli huomini sarebbono inferiori di gran lunga à gli altri animali, & le città diuerebbono spelonche, anzi pure non sarebbono. Per la quale cosa potrebbesi quasi dire, che meglio fosse stato a' mortali non essere, che essendo, viuere senza le Gratie. Ma la prouidenza diuina, che dello vniuerso hà cura, vuole che queste pure fossero. le quali secondo alcuni nacquero di Venere: & di Bacco, & habitarono trà mortali; il che finsero le fauole, perche non pare quasi che altra cosa sia più grata à gli huomini di quelle che da questi Dei vengono, le quali non replico, perche nelle loro imagini si ponno vedere, Alcuni altri le fanno essere nate in altro modo: ma questo hora non tocca à noi dire, ma solamente che statoe habbiano hauuto da gli antichi, ò come siano state dipinte. Et benche siano i nomi loro diuersi, sono però credute essere vna medesima cosa le Gratie, & le Hore, ma che pur'anche habbiano diuersi officij trà loro. Et diceua Chrisippo, che le Gratie erano vn poco più giouinette delle Hore, & più belle ancora, & che perciò le dauano gli antichi per compagne a Venere. Scriue Homero che le Hore sono Dee, le quali stanno alle porte del Cielo, & quiui fanno la guardia. e che à queste stà di mandare sopra gli mortali la densa nebbia, & di leuarnela ancora. Statio descriuendo il tramontare
+
+Колонтитул: De gli Antichi. 451
+Кустод: del
+Сигнатура: Ff 2
+Маргиналии:
+- Gratie di cui figliuole.
+- Chrisippo.
+- Hore Dee.
+- Statio.
+
+## Скан 0494 · с. 452
+
+del Sole, fà, che elle vengono preste à leuare le briglie a i velocissimi destrieri, così dicendo i nostra lingua.
+
+*Poscia sceso Phebo à l'Occidente*
+*A gli ardenti destrier rallenta il corso*
+*Nascondendosi sotto l'Oceano,*
+*Le belle, e vaghe figlie di Nereo*
+*Habitatrici del profondo mare*
+*Gli sono intorno; e con Veloci passe*
+*A lui subito Vengon l'Hore preste*
+*A sciore i fren' da le spumose bocche*
+*De i feroci cauai, ch'à le verdi herbe*
+*Mandano poi accioche le fatiche*
+*Ristorino del corso già passato,*
+*Et alcune di lor Spoglian la chioma,*
+*Qual dà luce, al mondo, de bei raggi,*
+*Che l'adornano in forma di corona.*
+
+Nè altro sono le Hore, che le stagioni de i tempi; da che viene che le fanno essere quattro, sì come quattro sono le parti dell'anno, così distinte dal Sole, & nominate parimente da lui; perche appresso de gli Egitij il Sole, oltre à molti altri nomi, che hebbe quiui, fu detto etiandio Horo. Onde scriue di loro Eusebio in questo modo. Le Hore, le quali dicono essere i quattro tempi dell'anno, & aprire, e serrar le porte del Cielo, sono date talhora al Sole, e tale altra a Cerere, & perciò portano due ceste, l'vna di fiori, per la quale si mostra la Primauera, l'altra piena di spiche, che significa la Està. Et Ouidio parimente dice ne i Fasti, che queste stanno in compagnia di Giano alla guardia delle porte del Cielo: & quando poi racconta di Flora, in potere della quale sono i fioriti prati, dice che le Hore vestite di sottilissimi veli vengono in questi talhora a rccoglie diuersi fiori da farsene belle ghirlande. E Pausania scriue, che gli antichi le metteuano sul capo a Gioue, insieme con le Parche, volendo mostrare in questa guisa forse, che'l Fato altro non è che'l volere di Dio, dal quale vengono ancora le mutationi de i tempi. Ma più ho detto homai dalla natura delle Hore, che quanto fa bisogno per sapere come si habbiano da dipingere. Venendo à questo dunque, io ne farò vn ritratto solo, secondo che ne dipinge Filostrato vna bella tauola, dicendo che le Hore scese in terra vanno riuolgendo l'anno ( il qual'è in forma di certa cosa rotonda ) con le mani, dal qual riuolgimento viene, che la terra produce poi di anno in anno tutto quello, che nasce, & sono bionde, vestite di veli sottilissimi, e caminano sopra le aride spiche tanto leggiermente, che non ne rompono;
+
+Колонтитул: 452 Imagini de i Dei
+Кустод: o tor-
+Сигнатура:
+Маргиналии:
+- Eusebio.
+- Hore quante sono.
+- Ouidio.
+- Pausania.
+
+## Скан 0495 · с. 453
+
+[ГРАВЮРА: Imagine delle Hore dette anco da alcuni Gratie, & di Apolline, intese quelle per le quattro stagioni dell'anno, questo per il Sole che varia le stagioni, tenute ancora per Dee dell'amicitia, bellezza, venustà, & amabilità, Dee dell'allegrezza, gioco, & piacere, dinotano ancora la misericordia di Dio verso li colpeuoli.]
+
+Колонтитул: De gli Antichi. 453
+Кустод:
+Сигнатура: Ff 3
+Маргиналии:
+
+## Скан 0496 · с. 454
+
+o torcono pure vna: sono di aspetto soaue, e giocondo: cantano dolcissimamente; nel riuolgere quello orbe, ò palla, ò circolo che sia, pare che porgano mirabile diletto a' risguardanti, e vanno come saltando quasi sempre, leuando spesso in alto le belle braccia, hanno i biondi crini sparsi alle spalle, le guancie colorite, come chi dal corso già si sente riscaldato, e gli occhi lucenti, & al mouersi presti. Perche queste dunque fanno, che la terra ci rende il seminato grano, e gli altri frutti con vsura grande, come ch'ella mostrandosi grata di quello, che diamo a lei, ci rimuneri in questo modo, fu detto, che le Gratie erano quattro, perche tante sono le stagioni dell'anno chiamate Hore, come hò detto, volendo intendere, che queste & le Gratie siano le medesime. Le quali perciò furono fatte con ghirlande in capo, & vna l'haueua di fiori, & l'altra di spiche; la terza di vue, & pampani, & l'vltima di vliuo. Et finsero gli antichi, che Apollo le hauesse nella man destra, perche dal Sole viene la diuersità delle stagioni. Et conciosia che, come dice Diodoro, fossero adorate da gli antichi, perche pensauano, ch'elle potessero dare la bellezza della faccia, e di tutte l'altre parti del corpo con quella vaghezza, che tanto diletta talhora a chi le mira, furono perciò messe in compagnia di Venere. Et a queste toccaua etiandio di fare, che non siano gli huomini infrà di loro ingrati, ma che ricambino con allegro animo gli riceuuti beneficij. Per la quale cosa dissero alcuni, che le Gratie erano due, & appresso de i Lacedemonij due ne adorauano solamente, secondo che scriue Pausania, perche pare, che solo due parimente siano gli effetti, che da quelle vengono; L'vno fare beneficio altrui, l'altro ricambiare gli beneficij riceuuti. Ma dice poi anco il medesimo Pausania, che tutti quelli li quali posero in Delo con le statoe di Mercurio, & di Bacco, & di Apollo le Gratie, le fecero tre, che tre parimente erano allo entrare della rocca di Athene. Onde communemente è stato tenuto poi sempre, che siano tre, perche non si dee rendere il benficio tale, quale l'habbiamo riceuuto, maggiore assai: & molte volte duplicato. Da che viene, che di loro vna stà con le spalle verso noi; & due ci guardano, dandoci perciò ad intendere, che nel ricambiare il bene fattoci, habbiamo da essere più liberali assai, che quando siamo noi i primi à fare beneficio altrui, qual non si dee però fare aspettandone rimuneratione, perche chi questo fa, vsuraio più tosto può essere detto, che liberale benefattore. Dicesi che le Gratie sono verginelle, liete, & ridenti, per mostrare, che chi fa beneficio non hà da vsare alcunno inganno, ma farlo con animo sincero, & allegro. Ilche meglio conoscerà ancora chi porrà mente, ch'elle furono fatte ignude, & sciolte da ogni nodo, come di loro cantò Horatio, perche hanno da essere gli huomini insieme l'vno con l'altro di animo libero, e sciolto da
+
+Колонтитул: 454 Imagini de i Dei
+Кустод: ogni
+Сигнатура:
+Маргиналии:
+- Gratie quattro.
+- Diodoro.
+- Gratie perche compagne di Venere.
+- Gratie due.
+- Gratie tre.
+- Gratie vergini liete.
+
+## Скан 0497 · с. 455
+
+[ГРАВЮРА: Imagini delle tre Gratie Dee della bellezza, & gratia; Dee ancora della gratitudine, & del beneficio, nominate Eufrosina o giocondità, Aglaia ò venustà, Thalia ò piaceuolezza; Dee della conuersatione, sociabilità, & amicitia, & di quella allegra vita, che gli huomini desiderano di viuere.]
+
+Колонтитул: De gli Antichi. 455
+Кустод:
+Сигнатура: C 4
+Маргиналии:
+
+## Скан 0498 · с. 456
+
+ogni inganno, ignudo, & aperto. Benche Pausania scriue di non hauere trouato mai chi fosse il primo à fare le Gratie ignude, perciochè già da principio le faceua ogn'vno vestite, & ch'ei non sà per qual cagione sia poscia stato mutato l'ornamento loro, sì che tutti le hanno fatte ignude, & i pittori, e gli scultori. Oltre di ciò mette, Ethocle di Beotia fosse il primo, che ordinasse, che fossero adorate le Gratie, & fossero tre, ma non sà però quali nomi ei mettesse loro. Onde le nominiamo hora secondo, che da Hesiodo furono nominate, il quale ne chiamò vna Eufrosina, che vuole dire allegrezza, & giocondità, l'altra Aglaia, che maestà significa, & venustà, la terza Thaglia, che viene à dire piaceuolezza. Et Homero ne chiamò vna Pasithea, quella la quale Giunone promette di dare per moglie al Sonno, s'ei và à Gioue, & l'addormenta, & ne chiama ancora vna Gratia per nome proprio, la quale dice che fu moglie di Volcano, & che stette con lui sempre. Questa con bei veli in capo viene ad incontrare Thetide, quando ella và à pregare Volcano, che le voglia dare armi per Achille suo figliuolo. In Grecia appresso de gli Elei haueuano le Gratie vn tempio, nel quale le statoe loro erano di legno con le vesti dorate, & haueuano la faccia, & le mani, & i piedi di bianco Auorio. L'vna di loro haueua vna rosa in mano, l'altra, certa cosa fatta come vn dado: la terza vn ramo di mirto. Et di queste cose rendono questa ragione. La rosa, & il mirto sono di Venere, & perciò furono date à quelle, che per lo più sono con lei, & quella cosa quadra significa i giuochi, che trà loro fanno le semplici verginelle con piacer suo, & di chi le vede il che non auuiene delle donne di maggiore età, alle quali conuengono le cose più seuere, non giuochi. Tutto questo dice Pausania. Ma delle tre insegne delle Gratie altri rendono altra ragione, & dicono, che la rosa significa la piaceuolezza di quelle; il dado, che hanno ad andare, & ritornare à vicenda, come vanno i dadi, quando si giuoca con essi; & il mirto, che bisogna, che, siano sempre verdi, nè si secchino mai, come questa pianta è verde sempre. Et come riferisce Alessandro Napolitano, & lo scrisse innanzi à lui Aristotile nelle Morali, soleuano gli antichi fare il tempio delle Gratie nel mezo delle piazze, accioche fosse dauanti à gli occhi ad ogniuno il fare volentieri seruitio altrui, & ricambiare gli riceuuti beneficij, perche questo è proprio officio delle Gratie. La quale cosa non si dee però fare senza buona consideratione, perche così è mal dare a chi non merita, ò non ne hà cui fa dibisogno, & merita, che gli sia dato: come ci insegnarono gli antichi parimente nella imagine delle Gratie, facendo che fosse loro scorta & ducc Mercurio, il quale mostra la ragione, & il sano discorso, accioche seguitando le vestigie di quella sappiano gli huomini, come, & quando, cui hanno da dare, & fare beneficio,
+
+Колонтитул: 456 Imagini de i Dei
+Кустод: imi-
+Сигнатура:
+Маргиналии:
+- Ethocle.
+- Nomi delle Gratie, Eufrosina, Aglaia, Thalia. Pasithea.
+- Alessandro Napolitano. Aristotile.
+
+## Скан 0499 · с. 457
+
+[ГРАВЮРА: Imagine delle Gratie guidate da Mercurio dinotante, che il giouare & la benificenza deue esser fatta con ragione, à tempo, & à meriteuoli, senza speranza di premio, con animo sincero, & che il beneficiato deue con occasione render il beneficio & se non in fatti almen con le parole.]
+
+Колонтитул: De gli Antichi. 457
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0500 · с. 458
+
+imitando, quanto per loro si può la bontà diuina, la quale al farti bene è sempre presta. Da che viene, dice Macrobio, che posero ad Apollo gli antichi le Gratie nella destra mano, & l'arco con le saette nella sinistra, per dare ad intendere, che molto più pronta è la diuina mano à farsi bene, che male, e mentre che può ( che non sia sforzata dal nostro maluagio operare, perche all'hora ella adopra quel, che tiene nella sinistra mano, per gastigarci )e larga donatrice a'mortali delle gratie sue. Et questo hanno da fare gli huomini parimente, imparandolo, se altrimente non lo sanno, dalla imagine delle Gratie, la quale dichiara Seneca molto bene, oue ei scriue del fare beneficio altrui, dicendo, che queste sono tre, perche vna fà il beneficio, l'altra lo riceue, & la terza ne rende il cambio. Ouero che vna fà, l'altra rende, la terza fà, & rende, che vengono ad essere tre maniere di fare beneficio. Stanno con le mani, & braccia insieme giunte; perche l'ordine del far bene altrui è, che passi di mano in mano, e ritorni pur'anche ad vtile di chi lo fece prima, & in questo modo il grato nodo dell'amicitia tiene gli huomini insieme giunti. Sono allegre, & gioconde nello aspetto, perciòche tale si ha da mostrare chi fa beneficio altrui, & tali sono per lo più quelli, che lo riceuono. Sono giouani, perche non dee inuecchiarsi mai la memoria de' riceuuti beneficij. Sono Vergini, perche facendo bene altrui, bisogna farlo con animo puro, & sincero, e senza nodo alcuno di obligo: come mostrano ancora le vesti scinte, & sciolte, le quali sono lucide, e trasparenti; perche tale hà da essere di dentro l'animo di chi fa beneficio, quale si mostra fuori nelle opere, perche chi riceue il beneficio non lo dè nascondere, ma farlo vedere da ogniuno. Imperoche questa è vna gratitudine, quando non si può ricambiare con l'opre il riceuuto beneficio, confessar almeno con le parole, & fare sì, che a tutti sia palese la liberalità del benefattore. Et qui sia finita la imagine delle Gratie con vna scultura di queste, che in Roma si vede in casa Colonna con versi latini, li quali in volgare voglio no così dire.
+
+*Ben son le Gratie ignude, che già furo*
+*Fatte di bianco marmo, terso, & bello;*
+*Han tutte tre frà lor faccia simile,*
+*Onde le puoi conoscere sorelle,*
+*Tutte tre son d'età pari, & bellezza*
+*Pur'anco pari in tutte tre si vede.*
+*Stà con la faccia alle sorelle Volta*
+*Thalia, & le sue braccia, aggiugne, e annoda*
+*Con le loro, che sono a la sinistra,*
+*Et a la destra risguardando a noi.*
+
+Колонтитул: 458 Imagini de i Dei
+Кустод: Questa
+Сигнатура:
+Маргиналии:
+
+## Скан 0501 · с. 459
+
+*Questa Eufrosina, quella Aglaia, hà nome;*
+*Con grati nodi de le belle braccia*
+*A la terza sorella insieme auinte.*
+*Gioue è lor padre, e del celeste seme*
+*Fur concepute da la madre Eunomia,*
+*Ch'al mondo poscia con felice parto*
+*Le produsse ministre liete, e grate*
+*A l'alma Citherea, si che per loro*
+*Ella souente con il bel Cupido*
+*Gli amorosi piaceri accresce in modo,*
+*Ch'ogni animo gentil ne resta Vinto.*
+
+IL FINE.
+
+[ВИНЬЕТКА: концовка — гравированный орнамент с фигурой путто (амура) среди растительных завитков]
+
+Колонтитул: De gli Antichi. 459
+Кустод:
+Сигнатура:
+Маргиналии:
