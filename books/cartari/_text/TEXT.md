@@ -4526,3 +4526,177 @@ certo coperchio rotondo, che copriua quiui nella pietra la effigie di Cerere. Qu
 - Pitagora.
 - Pale Dea de' Pastori.
 - Palilia.
+
+## Скан 0238 · с. 196
+
+sacrificij, & di quelle della stoppia della faua, & dapoi purgauano i greggi col fumo del zolfo, mettendoui anco l'vliuo, la teda, la sauina, il lauro, & il rosmarino: poi saltando passauano per mezo la fiamma accesa con certo poco fieno, & indi offeriuano, alla Dea latte, formaglio, sapa, alcuni vasetti pieni di miglio, & certe schiacciate pur anco di miglio, cibi tutti vsati da Pastori, & con solenni preghi finiuano il sacrificio. Dal quale non era differente quello che fu fatto à Pomona Dea de i pomi, & de gli altri frutti, de i quali sacrificandole le offeriuano. Ouidio la fà hauere la cura de gli horti, & che fosse moglie di Vertunno, cui erano parimente raccomandati gli horti, & le dà in mano vna piccola falce da tagliare i rami superflui de gli alberi fruttiferi, & da innestare. Onde chi volesse ancor meglio ornare la sua imagine, potrebbe farla con tutti quelli stromenti, che vsano i giardinieri intorno à gli alberi, alli quali ella era creduta dare virtù di produrre gli maturi frutti, sì come Flora gli faceua prima fiorire, & era perciò la Dea de i fiori, & non de gli arbori solamente, ma di tutte le piante, & de i verdi prati ancora; della imagine di costei dirò, poi quando verrò à disegnare Zefiro, che fu suo marito, secondo le fauole; perche le historia dicono, che ella fu vna meretrice, ò quella, che diede il latte à Romulo, & Remo, ò pure vn'altra, laquale lasciò vna grossa heredità al popolo Romano. Et leggesi di costei vna così fatta nouella. Trouandosi vn dì vn Sacerdote di Hercole à spasseggiare nel suo tempio tutto ocioso, & spensierato riuoltosi al suo Dio, lo inuitò à giuocare seco à dadi con questa conditione, che restando il Dio perditore gli hauesse à dar qualche segnale di douere far per lui cosa degna della grandezza di Hercole; ma se vinceua, ch'egli farebbe apprestar à lui vna bellissima cena, & farebbegli anco venire vna delle piu belle donne, che potesse trouare, la qual si starebbe vna notte con lui. Dapoi cominciò à giuocare tirando gli dadi con l'vna mano per sè, & con l'altra per Hercole, & auenne, che il Dio restò vincitore, onde, il Sacerdote secondo il patto, che egli stesso haueua proposto, apparecchiò la cena douuta, con vn letto benissimo ornato, e fatto venire vna bellissima donna detta per nome Larentia, la quale segretamente faceua volontieri piacere altrui, la serrò nel tempio con Hercole, & la lasciò quiui tutta sola quella notte, come che hauesse da cenare con quel Dio, & giacersi anco poi con lui. Dicono che Hercole mostrò di hauerla hauuta cara, & che perciò le apparue, & le disse che douesse mostrarsi facile, & piaceuole al primo, che trouasse la mattina andando in piazza sù la Aurora, come ella fece: onde venne ad innamorarsi di lei vn Tarrutio ricchissimo huomo, ilquale l'amò tanto; che venendo à morte la lasciò herede, della maggior parte delle sue facoltà sì che ella in poco tempo diuenne molto ricca; & morendo poi
+
+Колонтитул: 196 Imagini de i Dei
+Кустод: fece
+Сигнатура:
+Маргиналии:
+- Pomona.
+- Ouidio.
+- Flora.
+- Nouella di Flora.
+- Tarrutio.
+
+## Скан 0239 · с. 197
+
+[ГРАВЮРА: Imagine di Pomona dea de gl'Horti, & moglie di Vertunno: con la Falce in mano per tagliare i Frutti, a' quali essa era creduta dare la maturità. co'l Cane appresso custode de' Giardini.]
+
+Колонтитул: De gli Antichi. 197
+Кустод:
+Сигнатура: N 3
+Маргиналии:
+
+## Скан 0240 · с. 198
+
+fece suo herede il popolo Romano; il qual come dice Plutarco, che racconta tutto questo, la hebbe perciò in grandissima veneratione sempre; ma perche si vergognò forse di fare tanto honore ad vna meretrice, le cangiò il nome, & chiamolla Flora, & furonle ordinate le sacre ceremonie, & certi giuochi, li quali con grandissima lasciuia erano celebrati dalle meretrici, & faceuano anco gli antichi nelle feste di costei caccie di timide lepri, & di fugaci capri, perche questi sono animali guardati souente ne i giardini che erano sotto la cura di questa Dea, come ella stessa dice appresso di Ouidio, Queste cose si operauano a' 28. d'Aprile, & il primo giorno di Maggio, onde poi è venuto l'vsanza sino al dì d'hoggi osseruata tra noi, che il primo giorno di Maggio, si sogliono adornare per le Città molti luoghi con fiori, & con frondi di diuerse sorti. Oltre alle già dette Dee vi fu la Dea Bona ancora, Nume parimente della terra; perche Porfirio vuole, come riferisce Eusebio, che quella virtù della terra, la quale abbraccia lo sparso seme, & in sè lo tiene, & nodrisce, fosse intesa da gli antichi per la Dea Bona: & dice, che di ciò fà segno la sua statoa, la quale porge con mano alcune verdi piante, quasi pur mò germogliate. Et la vittima ancora, che le sacrificauano, qual'era vna Porca pregna, mostraua, che gli antichi intendeuano della terra per questa Dea; la quale fu chiamata Bona, come hò già detto, perche dalla terra ci vengono infiniti beni; & fu detta ancora Fauna, perche è fauoreuole à tutti i bisogni de i viuenti: oltre à molti altri nomi, che le dà Plutarco, oue racconta ciò che auenne, quando Clodio, innamorato della moglie di Cesare, entrò vestito da donna alle cerimonie di costei. Si legge, che ella fu già donna di castità che non vide mai, ne vdì pure nominare altro huomo, che suo marito & non fu veduta mai vscire della sua stanza; da che venne, che non poteua huomo alcuno entrare nel suo tempio, ne trouarsi à i suoi sacrificij, nè alle sue cerimonie, ma erano fatte souente in casa del Pontefice massimo, ò dell'vno de i Consoli, ò di qualche Pretore, & all'hora partiuano tutti gli huomini di quella casa, & vi si congregauano le donne solamente, le quali con canti, & suoni trapassauano tutta la notte; che di notte si faceuano queste feste. Et mostraua la Dea Bona hauere tanto à schifo il sesso maschile, che nelle sue cerimonie copriuano tutto quello che fosse stato nella casa dipinto di maschio. Nel tempio di costei erano herbe di quasi tutte le sorti, delle quali daua spesso, chi ne haueua la cura, a molti per medicina di diuerse infirmità; & per questo hanno voluto dire alcuni che ella fu Medea, la quale non voleua vedere gli huomini; per la ingratitudine vsatale da Giasone. Ma le fauole narrano che questa Dea Bona, ò Fauna così anco detta perche fauorisce all'vso commune di ciascuno, fu figliuola di Fauno; il quale innamoratosene cercò più volte con paro-
+
+Колонтитул: 198 Imagini de i Dei
+Кустод: le di
+Сигнатура:
+Маргиналии:
+- Dea Bona.
+- Porfirio.
+- Fauna.
+- Plutarco.
+- Cerimonie della Dea Bona.
+
+## Скан 0241 · с. 199
+
+[ГРАВЮРА: Imagine della Dea Proserpina figliuola di Cerere intesa per le biade, & imagine della dea Bona intesa per la terra, & per quella virtù che conserua li sparsi semi, co'l serpente & oca alle dette sacrati.]
+
+Колонтитул: De gli Antichi. 199
+Кустод:
+Сигнатура: N 4
+Маргиналии:
+
+## Скан 0242 · с. 200
+
+le di trarla alle sue voglie, ma sempre in vano, stando quella tuttauia ferma nel suo casto pensiero. Il perche egli si voltò à far le forza, & ella difendendosi, lo ferì su'l capo con vna verga di mirto, & ributtollo da sè: onde fu osseruato dapoi di non portare il mirto nel suo tempio, & chi ve l'hauesse portato peccaua grandemente. Ma nè per questo l'innamorato Padre si ritirò dall'amore suo, ma con inganno cercò di imbriacare l'amata figlia pensando di potere dapoi fare di lei il suo piacere; che non gli venne però fatto. Et per memoria di ciò vna vite spandeua i rami sopra il capo di questa Dea; nè dimandauano il vino, che adoperauano nelle sue cerimonie, vino, ma latte. Vedendo dunque Fauno di non hauere potuto in tanti modi da lui tentati godere della figlia, & desiderandolo pure ogni volta più, si cangiò alla fine in serpente, & in quel modo giacque con lei, & perciò nel suo tempio appariuano souente delle biscie, le quali nè temeuano di altri, ne porgeuano esse altrui alcuna tema. Per le quali cose la statoa della Dea Bona, alla quale fu posto anco talhora vno scettro nella sinistra mano, perche la credettero alcuni di auttorità eguale à Giunone, hebbe sopra il capo vn ramo di vite; & a lato vn serpente con vna bacchetta di mirto. A questa Dea fu molto simile di potere Proserpina, hauendo inteso parimente gli antichi per lei quella virtù della terra, che conserua il seminato grano, & se ne legge anco vna fauola, che è quasi la medesima con quella, che hò detta pur hora, riferita da Eusebio, quando scriue delle sacre cerimonie di Cerere, celebrate in Egitto. La fauola è, che Cerere hauendo partorito di Gioue Proserpina, la quale fu anco detta da alcuni Perefate, & essendo ella cresciuta, di lei s'innamorò il padre, che l'hauea generata, & si cangiò in serpente, per godersela a maggiore commodità, come fece: & quindi fu che i Sauatij popolo di Egitto voleuano, che come cosa misteriosa fosse presente sempre alli loro sacrificij vn gran serpente tutto in sè riuolto, & raggirato. Perefate fatta grauida dal padre partorì vn figliuolo in forma di toro, onde cantano souente i Poeti le laudi del serpente padre del toro. Leggesi ancora, che Proserpina significa le biade, le quali nascono della terra, che è Cerere, ma non senza il temperato calore, che in quella infonde il Cielo, mostrato per Gioue, & sono rapite da Plutone, ouero perche talhora seminate non rinascono, onde la terra pare attristarsi, & starne mesta, perche non si vede adorna di quelle, hora verdi & hora tutte biancheggianti, quando sono mature; ouero perche il calor naturale rapisce il seminato grano, l'abbraccia, & lo fomenta fino al maturire delle noue biade. Significa perimente la Luna alle volte, & perciò se ne può fare imagine in tutti quei modi, che gli antichi fecero la Luna, come credo di hauere detto già, quando la disegnai. Fassi ancora alle volte Proserpina con vna Oça in mano, come Pausania scriuen
+
+Колонтитул: 200 Imagini de i Dei
+Кустод: do del-
+Сигнатура:
+Маргиналии:
+- Imagine della Dea Bona.
+- Proserpina.
+- Proserpina per lo biade.
+- Proserpina con vna Oça
+
+## Скан 0243 · с. 201
+
+do della Beotia racconta, che in certa parte di quel paese nel bosco di Trofonio, giocando vna giouane detta Ercina con la figliuola di Cerere Proserpina, si lasciò vscire di mano à dispetto suo vna oca, la quale andò à nascondersi in vna cauernetta quindi poco lontana sotto alcuni sassi. Proserpina correndole subito appresso la trouò, & presela, leuando la pietra, sotto la quale staua nascosta l'oca d'onde spicciarono subito acque viue, che fecero poi il fiume chiamato Ercino, lungo la ripa del quale era vn piccolo tempio con la statoa di vna Giouane, che teneua vna oca con la mano, & era questa Proserpina, figliuola di Cerere.
+
+NETTVNO.
+
+[ИНИЦИАЛ: F]V Nettuno de i tre fratelli quello, al quale toccò per sorte il regno delle Acque, & perciò fu detto Dio del mare, & lo dipinsero gli antichi in diuersi modi, facendolo hora tranquillo, quieto, & pacifico, & hora tutto turbato, come si vede appresso di Homero, & di Vergilio, perche tale si mostra parimente il mare secondo la varietà de' tempi. Et l'hanno messo alle volte gli antichi con il tridente in mano, & dritto in piè in vna gran conca marina, la quale à lui sia in vece di carro, tirato da caualli che dal mezo in dietro erano pesci, come sono descriti da Statio, quando così dice:
+
+*Varcando il mar' Egeo Nettuno in porto*
+*Mena gli affaticati suoi destrieri:*
+*Che'l capo, il collo, il petto, e l'Vgne prime*
+*Han di Cauallo ch'vbbidisce al freno;*
+*E son nel resto poi guizzanti pesci.*
+
+Et alle volte l'hanno vestito ancora, mettendogli intorno vn panno di colore cilestre, come dice Fornuto, che rappresenta il color del mare. Et Lusciano nei suoi sacrificij lo finge hauere i capegli pari-
+
+Колонтитул: De gli Antichi. 201
+Кустод: mente
+Сигнатура:
+Маргиналии:
+- Statio.
+- Luciano.
+
+## Скан 0244 · с. 202
+
+[ГРАВЮРА: Imagine di Glauco dio marino dinotante il colore, & spuma del mare, & li pesci viuer lunga vita, & sani. dinota ancora gli effetti della humidità delle acque.]
+
+Колонтитул: 202 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0245 · с. 203
+
+mente cilestri, & negri ancora; benche Seruio dica, che appresso de gli antichi tutti i Dei del mare erano fatti con capegli canuti, e bianchi, & per lo più vecchi, conciosia che i capi loro biancheggino per la spuma del mare. Onde Filostrato dipingendo Glauco, che fu parimente Dio marino, dice, che egli hà la barba bianca tutta bagnata, e molle, & le chiome medesimamente bagnate si spargono sopra gli homeri, le ciglia sono spesse, folte, & raggiunte insieme, & le braccia à guisa di chi volendo nuotare con quelle taglia l'onde, & al nuotare le fa facili, il petto è tutto carico di verde lanugine, e di alga marina, & il ventre a poco a poco si vien mutando in modo, che il resto del corpo, le coscie, & le gambe diuentano pesce, qual si mostra con la coda alzata fuor dell'acqua. Et Ouidio, quando lo fa raccontare à Scilla sua inamorata, come di pescatore diuentasse Dio marino, poi che vide il pesce da lui preso non si tosto messo sù l'herba, che tornò gittarsi in mare, onde lui hauendo parimente gustato di quella herba, fu spinto à gittarsi dietro à quello, fa che ei disegna insieme la figura sua in questa guisa.
+
+*Allhor subito vidi questa barba,*
+*E questa chioma tutta verdeggiante*
+*Coprirmi il petto, e l'empie terga, & vidi,*
+*Verdeggiar queste braccia parimente,*
+*E le coscie, e le gambe farsi pesce.*
+
+Il medesimo Filostrato dice poi di Nettuno, ò che ei và per lo mare tranquillo, & quieto sopra vna gran conca tirata da Balene, e Caualli marini, hauendo in mano il tridente, qual dicono alcuni, che significa gli tre golfi del mare Mediterraneo, che vengono dall'Oceano, & secondo altri dimostra le tre nature delle acque; perche quelle de' fonti, & de i fiumi sono dolci, le marine sono salse, & amare, & quelle de i laghi sono amare, ma ne anco grate al gusto. Se li dà parimente la Buccina, che è quella conchiglia sonora, la quale portano sempre i Tritoni. Li quali ancora da gli antichi furono posti tra i Dei del mare, & accompagnano Nettuno quasi sempre. Onde Statio fa, che gliene vadino due a' freni de' caualli, dicendo,
+
+*Viensene il Rè del mar alto e sublime*
+*Tratto da ferocissimi destrieri,*
+*A gli spumosi fren de i quali vanno*
+*I Tritoni nuotando, e fanno segno*
+*A l'onde che si debbano quetare.*
+
+Et dicono le fauole che i Tritoni sono i trombetti, e gli Araldi del mare, perche portano in mano quella conchiglia in sè ritorta, con la
+
+Колонтитул: De gli Antichi. 203
+Кустод: quale
+Сигнатура:
+Маргиналии:
+- Filostrato.
+- Glauco.
+- Ouidio.
+- Tridente, che significhi.
+- Tritone.
+- Statio.
+
+## Скан 0246 · с. 204
+
+[ГРАВЮРА: Imagini de' Tritoni & delle Nereide huomini & donne marine secondo Alessandro Napolitano, Theodoro Gaza, & altri antichi, & moderni; con l'imagine di Galatea nereide principale, & suo carro significante la doppia virtù delle acque.]
+
+Колонтитул: 204 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0247 · с. 205
+
+quale fanno terribile suono. Onde scriue Higino, che quando combatteuano i Giganti con gli Dei del Cielo, venne vn Tritone con la Buccina, che pur dianzi hauea trouata, & con quella fece vn suono tanto terribile, e spauenteuole, che non lo potendo sopportare i Giganti, se n'andarono in fuga tutti. Et erano questi animali, che mi pare douersi così più ragioneuolmente chiamare Tritoni, che Dei, ouero huomini, la metà di sopra di forma humana, & di pesce quella di sotto, come dice Virgilio,
+
+*Che il primo aspetto e d'huomo, e pesce il resto.*
+
+La quale doppia forma, come dicono alcuni, significaua la doppia virtù dell'acqua, perche questa gioua talhora, e talhora nuoce. Nè fu però cosa in tutto finta da' Poeti questa de' Tritoni; imperoche raccontano le historie, che veramente si trouano huomini marini, li quali sono la metà pesce. Et scriue Plinio, che al tempo di Tiberio Imperatore vennero à Roma ambasciatori à posta di Lisbona, terra principale di Portogallo, per dire che ne i loro liti era stato vdito vn Tritone sonare la Buccina & veduto ancora da molti. Et Alessandro Napolitano racconta di vn gentilhuomo di sua terra, il quale diceua di hauere visto vn'huomo marino, condito nel mele, mandato in Hispagna fin dalle vltime parti dell'Africa, come cosa mostruosa, & lo dipingeua in questo modo, egli haueua la faccia di huomo vecchio, capegli, & la barba horridi, & aspri, il colore cilestre, & era di statura grande, & maggiore di huomo, haueua alcune ali, come hanno i pesci, & era coperto di vn cuoio tutto lucido, & quasi trasparente. Et soggiunge il medesimo Alessandro, che Theodoro Gaza affermaua di hauere veduto, essendo nel Poloponesso, vna Nereide, gittata sul lito del mare per fortuna grande, di faccia humana, & assai bella, coperta dal collo in giù tutta di dure scaglie insin'alle coscie, le quali raggiunte insieme diuentaua pesce. Onde non è marauiglia, che i Poeti fingessero poi, le Nereide essere bellissime Ninfe, le quali accompagnauano gli loro Dei, come l'Oceano, Nereo lor padre, Nettuno, Tetide, Dorida, & altri molti; li quali mostrano le diuerse qualità, & i varij effetti delle acque: & furono adorati da gli antichi, come che loro potesser giouare, & nuocere assai. Et benche siano state le Nereide molte, che Hesiodo le conta cinquanta, & le nomina tutte; nondimeno dirò di vna solamente che è Galatea, la quale fù così chiamata dalla bianchezza: che rappresenta in lei forse la spuma dell'acqua, ò per meglio dire dal nome Gala, che latte significa; onde Hesiodo le fà hauere le chiome bianche, & la faccia simile al latte. Polifemo innamorato di lei, volendola laudare appresso di Ouidio, la chiama parimente più bianca de i bianchissimi Ligustri. Et Filostrato in vna tauola, ch'ei fa del Ciclope, mette Galatea andarsene per lo quieto mare sopra vn carro tirato da Delfini, li qua-
+
+Колонтитул: De gli Antichi. 205
+Кустод: li so-
+Сигнатура:
+Маргиналии:
+- Virgilio.
+- Huomini marini.
+- Plinio.
+- Alessandro Napolitano.
+- Theodoro Gaza.
+- Nereide.
+- Galatea.
+- Filostrato.
+
+## Скан 0248 · с. 206
+
+li sono gouernati, e retti da alcune figliuole di Tritone, che stanno intorno alla bella Ninfa, preste sempre a seruirla, & ella, alzando le belle braccia stende alla dolce aura di Zefiro vn porporeo panno, per fare coperta al carro, & a se ombra, & ha le chiome sue non sparse al vento, ma che bagnate stanno stese parte per i bianchi humeri. Non lascierò di dire questo ancora, che per cosa vera riferisce il medesimo Alessandro accaduta già nell'Albania: che vn Tritone, ò dichiamolo huomo marino, se così ne pare, da certa cauerna, nel lito del mare hauendo visto vna donna andare per acqua indi non molto lontano, tanto stette in agguato, che d'improuiso le fu alle spalle, che ella non se ne auide, & pigliatala, & fattale forza seco la trasse nelle onde. Per lo che tanto lo spiarono le genti di quel paese, che lo presero: ma tratto che i fu fuor delle acque non campò guari. Pausania scriuendo della Beotia così dipinge i Tritoni. Hanno le chiome simili all'apio palustre di colore, come che non si discerne l'vn capel dall'altro, ma sono contesti insieme a guisa delle foglie del petrosello, & il corpo tutto è coperto di minuta scaglia aspera, & dura. Hanno le branche sotto le orecchie il naso di huomo, la bocca più larga assai della humana, gli denti come quelli delle Panthere, e gli occhi di colore verdeggiante, le dita delle mani, e le vgne sono come il guscio di sopra delle gongole, & hanno nel petto, & nel ventre, come i Delfini, alcune alette in vece di piedi. Da questi, & dalle Nereide non sono dissimili molto le Sirene, perche di loro raccontano le fauole, che hanno parimente il viso di donna, & il resto del corpo ancora, se non che dal mezo in giù diuentano pesce, & le fanno alcuni con le ali, e vi aggiungono gli piedi di Gallo. Et dicono, che furono tre figliuole di Acheloo, & di Calliope Musa: delle quali l'vna cantaua; l'altra sonaua di piua, ò di flauto, come vogliamo dire; la terza di lira, e tutte insieme faceuano vn così soaue concento, che facilmente tirauano i miseri nauiganti à rompere in certi scogli della Sicilia, oue elle habitauano. Ma, che vedendosi sprezzare da Vlisse, il quale passando per là, fece legare sè all'albero della naue, & à i compagni suoi fece chiudere le orecchie con cera, accioche non le vdissero, si gittarono in mare disperate, & fu all'hora forse, che diuentarono pesce dal mezo in giù. Si dice, che loro era concesso viuere sino a tanto, che venisse, chi non ostante il lor canto, con che conduceuano ciascuno alla morte, si partisse libero da loro; & che perciò alla partenza d'Vlisse si morissero, come s'è detto. Seruio non pesce, ma vccello le fa in quella parte, che non è di donna, come fa Ouidio pur anche, quando racconta, che queste erano compagne di Proserpina, le quali, dopo ch'ella fu rapita da Plutone, si mutarono in così fatti animali, che haueuano il viso, & il petto di donna, & era vccello poi il rimanente. Suida parimente rife-
+
+Колонтитул: 206 Imagini de i Dei
+Кустод: rife-
+Сигнатура:
+Маргиналии:
+- Pausania.
+- Tritoni.
+- Sirene.
+- Seruio.
+
+## Скан 0249 · с. 207
+
+[ГРАВЮРА: Imagini di Partenope, Leucosia, & Ligia Sirene dee del mare figliuole di Acheloo fiume, & di Calliope musa, tutte quali imagini significano le meretrici & loro blanditie & allettamenti, dinotano anco alcuni scogli, & gli eloquenti lodatori, & gli adulatori.]
+
+Колонтитул: De gli Antichi. 207
+Кустод:
+Сигнатура:
+Маргиналии:

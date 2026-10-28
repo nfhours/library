@@ -120,3 +120,9 @@
 | 0228 | 186 | гравюра | — полностраничная | |
 | 0230 | 188 | гравюра | — полностраничная | |
 | 0236 | 194 | гравюра | — полностраничная | |
+| 0239 | 197 | гравюра | Imagine di Pomona dea de gl'Horti, & moglie di Vertunno: con la Falce in mano per tagliare i Frutti, a' quali essa era creduta dare la maturità. co'l Cane appresso custode de' Giardini. | |
+| 0241 | 199 | гравюра | Imagine della Dea Proserpina figliuola di Cerere intesa per le biade, & imagine della dea Bona intesa per la terra, & per quella virtù che conserua li sparsi semi, co'l serpente & oca alle dette sacrati. | |
+| 0243 | 201 | инициал | F | |
+| 0244 | 202 | гравюра | Imagine di Glauco dio marino dinotante il colore, & spuma del mare, & li pesci viuer lunga vita, & sani. dinota ancora gli effetti della humidità delle acque. | |
+| 0246 | 204 | гравюра | Imagini de' Tritoni & delle Nereide huomini & donne marine secondo Alessandro Napolitano, Theodoro Gaza, & altri antichi, & moderni; con l'imagine di Galatea nereide principale, & suo carro significante la doppia virtù delle acque. | |
+| 0249 | 207 | гравюра | Imagini di Partenope, Leucosia, & Ligia Sirene dee del mare figliuole di Acheloo fiume, & di Calliope musa, tutte quali imagini significano le meretrici & loro blanditie & allettamenti, dinotano anco alcuni scogli, & gli eloquenti lodatori, & gli adulatori. | |
