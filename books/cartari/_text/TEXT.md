@@ -6654,3 +6654,178 @@ alle Pecore, o come altri vogliono, a' Vitelli, di così pernicioso fiato, che a
 - Diodoro.
 - Gorgone.
 - Medusa.
+
+## Скан 0358 · с. 316
+
+bella, & haueua i capelli d'oro. Onde innamoratosene Nettuno giacque con lei nel tempio di Minerua, la quale perciò sdegnata, & adirata grandemente fece diuentare Medusa di bella, e piaceuole, ch'ella era prima da vedere, tutta terribile, e spauenteuole, cangiandole i dorati crini in brutti serpenti: e volle, che fosse mutato subito in sasso chiunque piu la guardasse; ma non potendo il mondo sopportare così strano mostro, Perseo l'vccise con l'aiuto, ch'io dissi, e ne diede il capo a Minerua, che lo portò poi sempre nello scudo, ò nel petto della corazza. La qual Homero, quando fa, che questa Dea s'arma per andare contra gli Troiani; dice, che è circondata di horribile spauento, e che, oltre al capo di Medusa, vi è dentro ancora l'animoso ardire, & la sicura fortezza, & le spauenteuoli minaccie, cose tutte proprie alla Dea delle guerre, sì come è la Vittoria ancora. Onde Pausania dice, che gli Atheniesi gliela posero nel petto insieme col capo di Medusa, & che appresso de gli Elei le staua a canto senza ali. Le quali cose mostrano la forza del sapere, e della prudenza: perche questa con l'opere marauigliose, e co'saggi consigli fa stupire altrui, e restare quasi sasso immobile di marauiglia, sì che facilmente ottiene poi, ciò, che vuole, pure che lo sappi acconciamente esporre, che per questo horribile capo mostra la lingua. Et era coperto talhora dal bel manto, che metteuano intorno alla Dea, chiamato da gli antichi Peplo, & era vna forte di veste, vsata intorno a i simulacri de i Dei, senza maniche, come dice Lattantio sopra Statio, bianca, e macchiata tutta di bolle dorate, la quale faceuano le matrone di sua mano, e la offeriuano poi ogni terzo anno. Ma perche questa fu inuentione de gli Atheniesi, de quali Minerua fu nume principale, era tolto più souente il Peplo per quella gran veste, o manto che fosse, qual'offerto, e consecrato a questa Dea di cinque in cinque anni con solennissima cerimonia, ancora che Suida dica, che era non veste, ma la vela di certa naue, che à quel tempo, che hò detto, era apprestata con bellissimi ornamenti in honore di Minerua a certe sue feste. & vsarono anco gli antichi di offerire il Peplo, quando in qualche graue pericolo voleuano impetrare il fauore della Dea. Onde Homero fa, che Hecuba per consiglio di Heleno suo figliuolo, & indiuino, quando vede i Troiani esser cacciati dà Greci fin dentro le mura, mette in ordine con le sue piu belle, & piu pretiose vesti vn grande, & ricco Peplo, & accompagnata da tutte le piu nobili matrone lo porta al tempio di Pallade, & quiui lo fa offerire da Theano moglie di Antenore, femina all'hora fra le Troiane di grandissima veneratione, e tutte insieme pregano la Dea, che voglia essere loro fauoreuole. La qual cosa fù imitata da Virgilio, quando dipinge la guerra di Troia à Cartagin nel tempio di Giunone, dicendo;
+
+Колонтитул: 316 Imagini de i Dei
+Кустод: Giuano
+Сигнатура:
+Маргиналии:
+- Corazza di Minerua.
+- Pausania.
+- Peplo veste di Minerua.
+- Lattantio.
+- Homero.
+
+## Скан 0359 · с. 317
+
+[ГРАВЮРА — полностраничная]
+
+Imagine di Gioue fulminatore de i Giganti, che con le gambe loro di Serpe rappresentano gli empij sprezzatori di Dio, che non fanno mai cosa, che sia dritta nè giusta.
+
+Колонтитул: De gli Antichi. 317
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0360 · с. 318
+
+[ИНИЦИАЛ: G]
+
+*Giuano intanto con le chiome sparse*
+*Le donne d'Ilio al tempio dell'ingiusta*
+*Pallade, & humilmente tutte il Peplo*
+*Portauano alla Dea, sempre con mano*
+*Gli addolorati petti percotendo.*
+
+Et in questo solenne manto vsarono gli Atheniesi di tessere, ricamare, ò dipingere Encelado, ò qual altro si fosse Gigante, che fu vcciso da Minerua; oltre che alle volte vi fecero anco quelli, li quali erano stati piu valorosi in battaglia, e meritauano perciò gloria maggiore. Era quel gigante huomo dal mezo in sù, & serpe nel resto, che così sono descritti da' poeti tutti que' Giganti, li quali hebbero ardire di andare ad assalire il Cielo. Onde Suida riferisce di Commodo Imperadore insolente, e crudele fuor di modo, ch'egli per essere chiamato Hercole, & figliuolo di Gioue si vestiua souente la pelle del Lione, e portaua la mazza in mano, con la quale ammazzaua per suo piacere molti huomini, & come ch'ei volesse parere di combattere all'hora per gli Dei, faceua loro prima acconciare le coscie, & le gambe in forma di biscia, ò di serpente, accioche rappresentassero i Giganti. Quali Apollodoro scriue, che erano di faccia horribile, e spauenteuole con capelli lunghi, e distesi fino sù le spalle, & con barba prolissa discendente sopra gli horridi petti. Et intendesi per lo di sotto di costoro, che gli huomini empij, e sprezzatori di Dio non fanno cosa mai, che sia dritta, nè giusta, nè honesta, ma tutto il contrario, & perciò rassimigliano il Serpente, che non può alzarsi da terra, nè caminare per lo dritto, ma bisogna, che andando tutto si torca. Et à questi Minerua dà la morte, perche stanno sempre nelle tenebre della ignoranza humana, nè vnqua leuano gli occhi à quel diuino lume, che scorge altrui à gloriosa, & eterna vita, & è l'aiuto, & il fauore, che da Minerua a chi và a lei, come si legge di Perseo, & ne hò già detto, e di Bellerofonte, che vccise la Chimera, hauendo hauuto da lei il cauallo Pegaso domo, & commodo a caualcare. Onde quelli di Corinto, come scriue Pausania, hebbero vn simulacro tutto di legno (eccetto che la faccia, le mani, & i piedi, ch'erano di bianco marmo) di Minerua, da loro chiamato Frenatrice, perche diceano, che ella fu la prima, che frenasse il Cauallo Pegaso, & lo desse a Bellerofonte. Prometheo parimente con l'aiuto di costei andò in Cielo, & inuolò il fuoco del carro del Sole, col quale diede poi le arti al mondo, che sono perciò dette esser venute da Minerua, perche l'ingegno humano hà trouato ciò, che tra noi si fa, e troua anco tutto di, & fallo, con il mezo del fuoco, conciosia che in tutte le arti due cose faccino dibisogno; L'vna è l'industria, & l'inuentione, l'altra il porre in opera, & far quello, che
+
+Колонтитул: 318 Imagini de i Dei
+Кустод: che
+Сигнатура:
+Маргиналии:
+- Gigante.
+- Commodo crudele, & insolente.
+- Apollodoro.
+- Spositione de' Giganti.
+- Minerua frenatrice.
+
+## Скан 0361 · с. 319
+
+che l'ingegno hà disegnato. Quella s'intende per Minerua, & questo per Volcano, cioè pel foco. Perche sotto il nome di Volcauo è inteso il fuoco, il quale ci è instrumento a fare tutte le cose, perche il fuoco scalda e risplende, & mancando la luce, & il calore, nulla si può fare. Egli è ben vero, che non può sempre l'arte porre in effetto tutto quello, che l'ingegno troua, perche quella stà legata al corpo, e non può da lui partire, nè fare più di quanto egli può, ma questo lo lascia souente, e discorre a suo piacere considerando l'opere della natura, & quello che fa Dio, & imagina talhora di fare anch'egli cose simili, di che non si vede però mai effetto alcuno, perche sono imaginationi vane. Onde fù finto dalle fauole, che non potesse mai Volcano congiungersi a Minerua, benche ne facesse ogni suo sforzo, hauendogliele concesso Gioue. Ma non perciò lasciarono gli antichi di mettere spesso i simulacri di amendui in vn medesimo tempio. Et Platone parimente gli mette insieme, dicendo nel suo Atlantico, che ambi sono egualmente Numi di Athene; percioche quiui non meno erano essercitate a que' tempi tutte le arti, che vi fiorisse lo studio delle scienze. Come si legge anco di Nettuno, e di Minerua, che per ordine di Gioue hebbero ambi insieme il gouerno di Athene. Per la quale cosa stampauano gli Atheniesi sù le loro monete il capo di Minerua dall'vn lato, & dall'altro il Tridente insegna di Nettuno, qual chiamauano etiandio Rè, & a Minerua dauano nome di ciuile, & di vrbana, come che bisogni gouernar le città pacificamente, e con prudenza. Il che non meno fa dibisogno nelle priuate case, & perciò così sù le porte di queste, come sù quelle della Città soleuano gli antichi dipingere Minerua, & dipingeuano Marte fuori alle Ville mostrando in cotal guisa, che si hà da tenere la guerra lontana sempre più che si può; & perche si guardauano i Romani di tenere nella città que' Numi, quali pensauano, che hauessero cura di cose noceuoli; hebbero di fuori il tempio di Bellona, & quel di Marte ancora. Ma di costui ne fu pur'anche vno nella Città, oue fu come pacifico adorato, e chiamato Quirino, come già scrissi nel Flauio, & resi la ragione dell'vno, & dell'altro. Et di lui dirò come fosse fatto poscia che haurò detto di Volcano, del quale così si legge appresso di Eusebio. Dicono Volcano essere la virtù, & il potere del fuoco, e gli fanno vna statoa in forma di huomo con vn cappello in capo di color cilestre per segno del riuolgimento de' cieli, & appresso de' quali si troua il vero foco, puro, e sincero: cosa che non si può dire di questo, che habbiamo noi, perche non si mantiene da sè, ma di continuo ha bisogno di noua materia, che lo nodrisca, e sostenti. Et fu finto Volcano zoppo, perche tale pare essere la fiamma, conciosia che ardendo non và sù per lo dritto, ma si torce, & si dibatte di quà, e di là perche non è pura, & leggiera, come
+
+Колонтитул: De gli Antichi. 319
+Кустод: le
+Сигнатура:
+Маргиналии:
+- Volcano.
+- Platone.
+- Nettuno con Minerua.
+- Minerua sù le porte.
+- Volcano.
+- Volcano zoppo.
+
+## Скан 0362 · с. 320
+
+le farebbe di bisogno per ascendere dritta al luoco suo. Riferisce Alessandro Napolitano, & credo, che l'habi tolto da Herodoto, benche l'vno dica Volcano, l'altro di Setone Rè, che in Egitto su vna statoa, che teneua con le mani vn topo, & che la fecero tale quelle genti, perche credettero che Volcano hauesse già mandato vna copia grãde di topi contra gli Arabi in tempo che erano grossissimo numero per occupare il loro paese, perciò furono sforzati ritornarsene. Herodoto narra la cosa in questo modo: Setone Sacerdote di Volcano, & insieme Rè di Egitto ritrouandosi abbandonato da tutti gli huomini da guerra, perche non si era mai fatto conto di loro, & essendogli andato addosso Sanacarib Rè de gli Arabi con grossissimo essercito, non sapeua in così strano partito, che si fare, onde si ramaricaua, & doleuasi della sua miseria. in tanto auuenne, che addormentatosi à lato al simulacro di Volcano gli parue in sogno quel Dio, che lo confortasse à stare di buona voglia, & dicessegli che andasse pure arditamente contra gli nemici, ne dubitasse di non cacciargli via con l'aiuto che egli gli mandarebbe. Hauendo dunque Setone perciò pigliato ardire, vscì fuori con la poca gente, che haueua, & andò ad accamparsi poco lontano da gli Arabi nel campo de' quali la notte seguente apparue sì gran moltitudine di Topi, che rosero loro gli archi, gli scudi, e tutti gli arnesi di cuoio, & gli sforzarono a fuggirsi nelle Egitto. Et perciò nel tempio di Volcano staua esso Rè Setone fatto di pietra co vn topo in mano, e con vn motto che diceua: Da me si impari di esser pio, & religioso. Et forse posero allhora gli Arabi tanto odio a' Topi, che vollero poi loro sempre male, perche Plutarco scriue, che vccideuano tutti quelli, che poteuano hauere, come faceuano gli Ethiopi ancora, & i Magi della Persia dicendo che il rodere, che faceuano questi animaletti era troppo noioso, & molesto alli Dei. Nè mi ricordo di hauere letto per quale ragione credessero gli antichi in Egitto che Volcano hauesse mandato i Topi; ma potrebbesi forse intendere per lui la siccità della stagione, & del paese, conciosia che Plinio scriuendo della fecondità de' Topi dica, che questi moltiplicano grandemente ne' campi, quando i tempi vanno asciutti, e secchi, onde è che l'inuerno appaiono poi più, nè si può sapere, che diuenga di loro, perche non si trouano viui, nè morti, nè sopra, nè sotto terra. Le fauole poi, che si leggono di Volcano, sono molte, e tutte ponno darci argomento di farne dipinture in diuersi modi, cominciando dal nascimento suo; perche si legge, che ei nacque di Giunone, & che questa, vedendolo così brutto, lo sdegnò, e gittollo via, onde il misero andò a cadere in Lenno Isola nel mare Egeo, e dalla cui caduta restò sciancato, sì che fu poi sempre zoppo. Il che viene a dire, come l'espongono i naturali, che il fulmine, quale non è altro, che
+
+Колонтитул: 320 Imagine de i Dei
+Кустод: vapore
+Сигнатура:
+Маргиналии:
+- Volcano co' topi.
+- Setone Rè.
+- Topi mandati da Volcano
+- Topi odiati.
+- Volcano gitrato dal Cielo.
+
+## Скан 0363 · с. 321
+
+[ГРАВЮРА — полностраничная]
+
+Imagine di Vulcano Dio del Fuoco con la sua fucina, & li Ciclopi, che fabricauano li strali à Gioue & l'armi alli Dei & à gli heroi. E tolto Vulcano ancora per il calore naturale & generatiuo.
+
+Колонтитул: De gli Antichi. 321
+Кустод:
+Сигнатура: X
+Маргиналии:
+
+## Скан 0364 · с. 322
+
+vapore infocato, discende dalla parte di sotto dell'aere, che è la piu grossa, piu densa, & caliginosa. Volcano fatto grande, e ricordeuole della ingiuria fattagli dalla madre, per vendicarsene, ouero per impedirla, che non facesse, come si apprestaua di fare male ad Hercole, secondo che Suida riferisce da Pindaro; e da Epicarmo, le mãdò a donare vn bel seggio dorato fatto con tale arte, che postiuisi ella sù a sedere, vi restò legata in modo, che possibile non era, ne anco a tutti gli Dei del Cielo, di sciorgliernela, onde essi cercarono di tirare lui colà sù di sopra per liberare Giunone, cui rincresceua troppo di stare così legata, ma egli, che di niuno di loro si fidaua, non volle mai andarui. Pure all'vltimo si fidò di Bacco solo, che gli diede forse ben da bere, & con lui andò in Cielo a liberare Giunone dall'artificioso seggio. Così riferisce Pausania delle fauole de i Greci, & dice, che frà l'altre pitture, ch'erano appresso de gli Atheniesi, vi fu questa di Bacco, che rimenaua Volcano in Cielo a sciogliere Giunone, & che appresso de i Lacedemoni nel tempio di Minerua era Volcano parimente, che slegaua la madre. Fassi anco costui in vna spelonca grande, come stà con gli Ciclopi alla fucina a fabricare quando l'altra, perche ogni volta, che i Dei haueuano bisogno di qual si fosse sorte d'arme ò per loro stessi, ò per altri, andauano à lui; quasi al fabro loro, come vi andò Thetide per le arme di Achille suo figliuolo, & così fu fatto sù l'arca di Cipselo, secondo che racconta Pausania, il quale non dà altro segno che colui, che daua le arme a Thetide fosse Volcano, se non ch'egli era zoppo, & haueua dietro vn de'suoi con vna gran tenaglia in mano: & Venere parimente hebbe da lui le arme, ch'ella diede poscia ad Enea. Et quando vogliono i Poeti descriuere qualche gran cosa fatta con molta arte, & con industria grande la dicono fatta ò da Volcano, ò da Ciclopi alla fucina di Volcano. Le quali cose si ponno accommodare a ciò, che come historia racconta Suida di costui, ch'egli fu Rè in Egitto, & fu stimato Dio, perche sapeua tutti gli secreti della religione, fu bellicoso molto, onde ferito in battaglia rimase sciancato, e zoppo, & fu il primo, che adoprasse il ferro à farne le arme da guerra, e gli stromenti da coltiuare i campi. Oltre di ciò finsero le fauole, che Volcano legasse con vna rete sottilissima di acciaio Venere, e Marte, mentre che amorosamente sollazzauano insieme; che cercasse di fare forza a Minerua, & altre simili cose, le quali hora non fa bisogno di raccontare, perche non seruono alla imagine sua, che era di huomo zoppo, negro nel viso, brutto, & assumicato, come apunto sono i Fabri. Nudo lo fanno alcuni, & alcuni altri nudo, nè vestito, ma con certi pochi cenci solamente attorno, e con cappello in capo, come dissi. Et appresso di Herodoto si legge, che in Mensi Città dello Egitto, il simulacro di Volcano era simile a cer-
+
+Колонтитул: 322 Imagini de i Dei
+Кустод: ti Dei
+Сигнатура:
+Маргиналии:
+- Giunone legata.
+- Volcano alla fucina.
+- Volcano Rè.
+- Ferro da cui prima adoperato.
+- Imagine di Volcano.
+
+## Скан 0365 · с. 323
+
+ti Dei detti Pataici da quelli di Fenicia, che gli portauano sù le prore delle Naui, & erano alla forma de' Pigmei, delli quali Cambise Rè entrato nel suo tempio si fece beffe grandemente. A costui furono consecrati da gli Egittij, come scriue Eliano, i Lioni, perche sono di natura molto calda, & focosa onde è che per l'ardore, che hanno di dentro temono assai quando veggono il fuoco, e fuggono. Alessandro Napolitano scriue, che in Roma stauano i Cani al tempio di Volcano come custodi, e guardiani, nè latrauano mai, se non a chi fosse andato per inuolare quindi alcuna cosa. Et appresso Mongibello in Sicilia guardauano medesimamente i Cani il tempio di Volcano, e la sacra selua, che vi era intorno. Oltre di ciò, chi restaua vincitore di alcuna guerra, soleua raccogliere insieme gli scudi, e le altre arme de i nemici in vn monte, & abbrucciandole farne sacrificio à Volcano, come fa dire Virgilio ad Euandro di hauere fatto di lui, quando ancora giouinetto fu vincitore sotto Preneste. Il che dice Seruio, è tolte dall'historia, la qual narra, che Tarquinio Prisco hauendo vinto gli Sabini abbruciò tutte le loro arme in honore di Volcano, & che gli altri hanno dapoi sempre fatto il medesimo, nascendo l'vsanza di bruciare tutto quello, che era offerto ne' sacrificij di Volcano. Et in certa altra sorte di sacrificio chiamato Proteruia, come scriue Macrobio soleuano anco gli antichi bruciare tutto quello, che restaua, poscia che i Sacerdoti, e gli altri haueuano mangiato, donde Catone fece il motto contra certo Albidio, cui era bruciata la casa restatagli sola di vn grosso, & ricco patrimonio che ei si haueua mangiato tutto, disse dunque Catone, che Albidio haueua fatto il sacrificio Proteruia. Hanno poi le fauole accompagnata Venere a Volcano & fattegli amendui insieme marito, e moglie; perche la generatione delle cose mostrata per Venere non è senza calore, quale non è chi significhi meglio del fuoco inteso per Volcano. Et per questo ancora posero Marte parimente con Venere, volendo intendere per lui l'ardor del Sole; oltre a questo, dice Aristotele, che fu con buona ragione finto questi dei esser congiunti insieme, perche gli huomini di guerra sono forte inclinati alla libidine. Onde gli Acitani gente della Spagna, faceuano, come riferisce Macrobio, il simulacro di Marte ornato di raggi, come quello del Sole, e con riuerenza grande l'adorauano. Et è cosa naturale, soggionge il medesimo Macrobio, che autori del calor celeste siano differenti solo di nome, percioche fu creduto Marte essere quello ardore, che viene dal Sole, & accende in noi il sangue, & gli spiriti, sì che poscia sono facili all'ire, a i furori, & alle guerre; delle quali cose egli fu detto il Dio da gli antichi, come Minerua ne fu detta la Dea: & come questa nacque senza il seruitio della moglie, così quello senza l'vfficio del marito. Perche dicono le fauole, che Giunone inuidio
+
+Колонтитул: De gli Antichi. 323
+Кустод: sa,
+Сигнатура: X 2
+Маргиналии:
+- Lioni dati à Volcano.
+- Cani custodi di Volcano.
+- Sacrificio di Volcano.
+- Proteruia sacrificio.
+- Venere con Volcano.
+- Marte con Venere.
+- Marte.
+
+## Скан 0366 · с. 324
+
+[ГРАВЮРА — полностраничная]
+
+Imagine di Marte Dio della guerra, del suo carro, & della Fama sua messaggiera & anticipatrice, che più dice di quello è in effetto. Et per Marte vien inteso quell'ardor del Sole, che accende il sangue & li spiriti per farli poi facili alle ire, guerre, & furori.
+
+Колонтитул: 324 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0367 · с. 325
+
+sa, che Gioue hauesse fatto figliuoli senza lei, volle ella parimente farne senza lui, & per virtù di certo fiore mostratole da Flora, come racconta Ouidio, ò come alcuni altri hanno detto, battendosi la natura con mano ingrauidò di Marte, e l'andò a partorire poi colà nella Traccia oue la gente è fuor di modo terribile, & facile alle guerre. La quale cosa viene a mostrarci, che le guerre per lo piu nascono dal desiderio di hauere regni, & ricchezze mostrate per Giunone. Fu Marte fatto da gli antichi feroce, e terribile nell'aspetto, armato tutto, con l'hasta in mano, e con la sferza, & lo posero a cauallo talhora sopra vn carro, e massimamente i Poeti quasi tutti, cominciando da Homero, il qual dice, che il carro di costui era tirato da due caualli, che sono il terrore, & la tema. Et in altro loco finge poi, che questi siano non più caualli, ma persone, le quali vadano sempre con Marte, e che l'accompagnino parimente l'Impeto, il Furore, & la Violenza. La quale cosa imitando Statio quando fa andare Marte a metter guerra frà gli duo fratelli Eteocle, & Polinice nel regno di Thebe, poscia che hà descritte le arme di questo Dio; che erano, l'elmo lucido sì, che mostraua di ardere; quasi hauesse l'ardente fulmine per cimiero, la corazza dorata, e tutta piena di terribili, e spauentosi mostri, & lo scudo risplendente di luce sanguinosa, dice, che gli stanno intorno adornandogli il capo il Furore, & l'Ira, e che il Terrore gouerna i freni de' caualli, e che dinanzi a questi và scuotendo l'ali la Fama apportatrice non meno del falso, che del vero, perche questa è certo rumore, che si leua da piccolo principio, & cresce tanto poi, che di sè riempie le Città, & i paesi; onde è da Homero chiamata nuncia, & messaggiera di Gioue. Fecero gli antichi la Fama ancora Dea, & la dipinsero in forma di donna vestita di vn panno sottile, e tutta succinta, che mostra di correre via velocemente con vna strideuole tromba alla bocca. Et per meglio mostrare la sua velocità, le aggiunsero l'ali, e la fecero tutta carica di occhi, come la descriue Virgilio, il quale la chiama horribile mostro, & la finge tutta pennuta, e che quante hà penne, habbia tanti occhi ancora vigilanti, e sempre desti, e tante bocche con altretante lingue, che non tacciono mai, & altretante orecchie, che stanno ad vdire sempre intente; e dice, ch'ella và volando la notte sẽpre; nè mai dorme, & il dì poi si mette sopra le alte torri, onde spauenta i miseri mortali, apportando loro per lo più rie nouelle. Nientedimeno, perche alle volte ne apporta di buone ancora, fu detto che la Fama non era vna sola, ma due; & chiamauasi buona quella, che nunciaua il bene, & ria quella, che portaua il male; e questa a differenza dell'altra haueua l'ali negre, onde Claudiano scriuendo contra Alarico, dice, che la fama stese le negre ali, le quali fanno alcuni alle volte di pipistrello. Và la Fama dinanzi al carro di Mar-
+
+Колонтитул: De gli Antichi. 325
+Кустод: te,
+Сигнатура: X 3
+Маргиналии:
+- Marte come nacque.
+- Caualli di Marte.
+- Imagine di Marte.
+- Statio.
+- Armature di Marte.
+- Fama.
+- Fama doppia.
+- Claudiano.
+
+## Скан 0368 · с. 326
+
+[ГРАВЮРА — полностраничная]
+
+Imagine del Furore, & dell'Ira, & de suoi mali effetti, che sono sprezzar ogni pericolo, benche manifesto di morte & perdita d'honore non riguardando nè à Dio, nè à gl'huomini, nè ad amici ò consanguinei, nè pur al proprio interesse; perdendo il furioso & iracondo la ragione nel furore & nell'ira.
+
+Колонтитул: 326 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0369 · с. 327
+
+te, perche al cominciare delle guerre più se dice spesso di quello, che se ne seguita poi, benche siano gli animi dall'vna parte, & dall'altra accesi di grauissima ira; conciosia che di rado si venga alle fere battaglie senza questa, la quale come scriue Seneca, pare hauere maggior forza in noi di molti altri affetti, che ci turbano; perche non solamente suia gli animi dal dritto sentiero della ragione, ma spesso muta il corpo ancora. Et però dice Ouidio, e Seneca parimente, che la faccia de gli adirati tutta si gonfia, e quasi auuampa gli occhi sono infiammati, & così diuenta la persona adirata terribile, che non meno quasi spauenteuole si mostra della horribil faccia di Medusa. Questo breue disegno hò fatto della persona adirata, perche non trouo che gli antichi habbiano fatta imagine alcuna dell'Ira, acciòche da quello chi vuole, possa fare ritratto di questa, che è chiamata Furore ancora; il quale non è altro che Ira, quanto può esser accesa, & infiammata.
+
+Lo dipingeuano gli antichi terribile nella faccia quasi sanguinolêta, che mostri di fremere stando a sedere sopra corazze, elmi, scudi, spade, & altre arme con le mani legate alle spalle con falde catene: che lo descriue così Virgilio, & lo finge essere dentro dalle porte della guerra, le quali erano quelle del tempio di Iano; come già hò detto, che stauano chiuse al tempo della pace, & in tempo di guerra erano aperte. Et sciolto lo hanno fatto ancora, come si vede esser stato descritto da Petronio, oue cominciò a scriuere della guerra ciuile. ma ritornando à Marte, posero alcuni al suo carro quattro Caualli tanto terribili, & feroci, che spirauano fuoco. E scriue Isidoro, che fu fatto talhora per Marte col petto nudo, perche qualunque và in battaglia dee andarui con animo di douersi francamente esporre a tutti i pericoli. Leggesi appresso di Herodoto, che gli Scithi adorauano molti Dei, ma non fecero però tempij, nè altari, nè simulacri ad altri, che à Marte, benche sacrificassero poi à tutti ad vn medesimo modo, qual mi pare, che merti di esser riferito, & era tale. Staua la vittima co' piedi dinanzi legati, & il sacrificatore le veniua di dietro, & dauale sù la testa, & cadendo lei, egli chiamaua quel Dio, cui la sacrificaua, poi le metteua vn laccio al collo, col quale intortigliandolo con certo bastone la strangolaua, e scorticatala poi, la metteua à cuocere al fuoco fatto delle ossa della bestia medesima, hauendone leuata prima tutta la carne, perche la Scithia hà carestia grande di legna, & se talhora anco non haueua certi loro paiuoli, metteua la carne tutta con acqua nel medesimo ventrino della bestia, & quiui la faceua bollire, onde la stessa vittima si faceua fuoco di se medesima, & cuoceuasi anco in se medesima. Fatto questo il Sacerdote offeriua poi il sacrificio al Dio di cui era. Et frà l'altre bestie, che sacrificauano quelle genti, il Cauallo era vittima principale, massi-
+
+Колонтитул: De gli Antichi. 327
+Кустод: mamente
+Сигнатура: X 6
+Маргиналии:
+- Seneca.
+- Ira.
+- Ouidio.
+- Furore.
+- Petronio.
+- Herodoto.
+- Sacrificio notabile.
+- Vittima di Marte.

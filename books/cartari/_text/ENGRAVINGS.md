@@ -165,3 +165,8 @@
 | 0347 | 305 | гравюра | *Imagine della Virtù, & dell'Honore, che si risguardano così scolpiti in vna medaglia di Vitellio, dinotante dalla virtù & attioni virtuose prouenir l'honore, & con l'honore l'abondanza del tutto, & ogni humana felicità.* | |
 | 0349 | 307 | гравюра | *Imagini della Dea Volupia Dea de piaceri conculcante la Dea Virtù sotto li piedi suoi, denotante la detestanda, & infame vita de' dati à piaceri, in tutto spreggiatori della virtù, solo dati ad ogni sorte di vitio, quasi irrationali.* | |
 | 0352 | 310 | гравюра | *Imagine della Dea Angerona da alcuni tenuta Dea del Piacere & delle humane operationi, & anco sopra il male della gola, del silentio, & del sopportare, & imagine del Dio del Silentio detto Harpocate ò Sigalione.* | |
+| 0359 | 317 | гравюра | — полностраничная | |
+| 0360 | 318 | инициал | G | |
+| 0363 | 321 | гравюра | — полностраничная | |
+| 0366 | 324 | гравюра | — полностраничная | |
+| 0368 | 326 | гравюра | — полностраничная | |
