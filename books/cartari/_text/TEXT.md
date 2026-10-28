@@ -10205,3 +10205,235 @@ La imagine principale s'è tratta da vna Medaglina antica, nel riuerso della qua
 
 Маргиналии:
 - источник: Филострат, Жизнь Аполлония Тианского, кн. 1 (в тексте: «Filostrato nel primo Lib. della vita d'Apollonio»)
+
+## Скан 0562 · с. 520
+
+[ГРАВЮРА: без подписи]
+
+La Sferza in mano del Genio è cosa mostruosa.  Per ordinario tiene il Cornucopia; & si vede così fatto in migliara di Medaglie.  E ben vero, che il Bon'Euento si vede con le Spiche, & Papauero, che l'Autore forse haverà preso per la sferza.  Et questo pure è giouane, e nudo, & ha la Patera in mano.
+
+Il Cameo superiore s'è preso da vna Medaglia di Commodo Imperatore, nella quale così è figurata la Fortuna Manente, che noi diressimo stabile, & ferma.  Et a questo pensiero tende vn passo d'Horatio, nella Oda 29. del Lib. 3.
+
+*Fortuna sæuo læta negotio, &*
+*Ludum insolentem ludere pertinax,*
+*Trasmutat incertos honores,*
+
+*Nunc mihi nunc alij benigna.*  Laudo MANENTEM.  Et chi fece coniare la Medaglia forse volle alludere a qualche vittoria di Circensi.  Il Cameo inferiore è d'vna Medaglia di Traiano: ma vi s'è tralasciata vna prora di Naue, che si vede a mezo del Timone, che la Fortuna tiene in mano.  Et questa sarà battuta in memoria di qualche bon successo per mare, o fiume, hauendo molta conformità con l'Annona, o sia Abondanza.  Che per ordinario la Fortuna di terra haueua aggionta vna Ruota, come si vede nelle Medaglie, doue si rappresenta la Fortuna reduce.  Et vedasi A. Agostini nel Dialogo secondo.
+
+Колонтитул: Annotationi · с. 520
+Кустод: Queste
+Сигнатура:
+Маргиналии:
+- Car. 370. Lin. 6.
+- Car. 374.
+
+## Скан 0563 · с. 521
+
+Queste Figure si vedono frequentissime nelle memorie sepolcrali de' Greci.  Et io per me non credo, che chi le faceua fare, ci ponesse tanto misterio, quanto ci va rintracciando l'Autore.
+
+La Nemesi con le Ale s'è cauata da vna mia Corniola antica, l'altra senz'ale, da vna Medaglia greca d'Aurelio Cesare, nella quale si legge, la sopraposta figura essere Nemesi de i Tianei.  E ben vero, che nella Medaglia quello, che si tira inanzi la faccia, non è velo ma piu tosto vn non so che, che si caua dalla veste intorno'l Co lo, in quella maniera, che piu sopra, a car. 286. si vede nel Cameo della Pace alata.  In alto si vede la Giustitia, come nelle Medaglie d'Hadriano.
+
+Nel Cameo superiore s'è rappresentato il taglio d'vna Gioia antica, nel quale si vede l'Abondanza congionta con la Giustitia, in nodo di figura molto gentile.in mano alla Giustitia si è questo vn fascio di quelle Verghe, da' Littori anticamente si portaua inanzi a' Magistrati, preso da vn Sepolcro antico.
+
+Pensiero poco differente da quello d'Apelle ha hauuto a' nostri giorni Federigo Zucchero pittore valente.
+
+[ГРАВЮРА: без подписи]
+
+Nel Cameo si vede la Fortuna stesa in letto, che secondo il pare dell'Erizzo sarà la Fortuna aurea della Camera degl'Imperatori.  Io
+
+Колонтитул: All'Imagini del Cartari. · с. 521
+Кустод: l'ho
+Сигнатура:
+Маргиналии:
+- Car. 376.
+- Car. 378.
+- Car. 380.
+- Car. 383. Lin. 15.
+- Car. 392.
+
+## Скан 0564 · с. 522
+
+l'ho per la Fortuna sicura, & non mutabile.  Et forse, che la Fortuna aurea haueua altra forma.  Et ne fa mentione Giulio Capitolino nella vita d'Antonino Pio, nella fine. vedasi l'Autore a car. 427.
+
+Il Dio Chero o Cero è gentilmente descritto da Fedro Liberto dell'Imperator Tiberio, nel V. Lib. delle sue fauole tutto che il titolo dica TEMPVS; che non contradice ponto all'essentialità dell'Occasione, poiche questa non è altro, che oportunità di tempo.  Et in quello, che segue di Callistrato scultore, io dubito che, si sia equiuocato in qualche maniera. perche Callistrato ha bene descritto in parole il Dio Cero già da Lisippo, ma non già scolpitolo, ò formatolo.  De' Scithi poi non dice Q. Curtio, che hauessero la Fortuna senza piedi, ne che hauesse appresso d'essi le ali intorno alle mani: ma mette in bocca d'vno de' loro Ambasciatori mandati ad Alessandro parole o simili, o poco dissimili. metti freno alla tua Felicità, che in tal maniera piu felicemente la reggerai.  Dicono, che la Fortuna è senza piedi, & che habbia solamente le mani & le penne; auuerti, che quando porge le mani, non lascia però, che si dia di mano alle penne, &c. voleua l'Ambasciatore in tal maniera la lubricità della Fortuna dare ad intendere ad Alessandro.
+
+Questa inuentione fu stampata già in forma assai grande, ad imitatione della quale s'è fatta la picciola. che diamo qui.  Et alcuni la tengono per inuentione del Doni.
+
+[ВИНЬЕТКА: концевая наборная виньетка]
+
+Колонтитул: Annotationi · с. 522
+Кустод: Tutta
+Сигнатура:
+Маргиналии:
+- Car. 397. Lin. vlt.
+- Car. 412. Lin. 18.
+
+## Скан 0565 · с. 523
+
+[ГРАВЮРА: без подписи]
+
+Tutta questa Imagine s'è tratta da vn taglio antico.
+
+Che le raccontate siano inuentioni moderne io tengo di nò; perche oltra l'hauere vna Corniola antica, nella quale si vede la Fortuna in mare, con la vela, come apunto la dipingono i Pittori nostri, il Signor LVIGI CORRADINO, homo di esquisita intelligenza intorno a queste cose, ha vn taglio antico in Corniola d'eccellente Maestro, del quale questa è la figura.
+
+Колонтитул: All'Imagine del Cartari. · с. 523
+Кустод: Qui
+Сигнатура:
+Маргиналии:
+- Car. 395
+- Car. 397. Lin. 35.
+
+## Скан 0566 · с. 524
+
+[ГРАВЮРА: без подписи]
+
+Qui si vedono l'Onde, & la Vela & di più vn Cigno, che porta la Fortuna come sù l'ale; vccello di molto prospero augurio, che però in Virgiiio dice ad Enea nel pr. dell'Eneide.
+
+*Aspice bis senos lætantes agmine Cycnos,*
+*Aetheria quos lapsa plage Iouis ales aperto*
+*Turbabat cœlo : nunc Terras ordnie longo*
+*Aut capere, aut captas iam despectare videntur.*
+*Vt reduces illi ludunt stridentibus alis. &c.*
+
+sopra'l qual luogo vedasi Seruio.
+
+L'Amore celeste si vede in vn bellissimo Quadro di Pittura nella Galleria del Signor LVIGI CORRADINO, d'inuentione del già Signor PAOLO AICARDO, dottissimo, & cortesissimo gentil'homo.
+
+Колонтитул: Annotationi · с. 524
+Кустод:
+Сигнатура: Ee
+Маргиналии:
+- Car. 404. Lin. 8.
+
+## Скан 0567 · с. 525
+
+[ГРАВЮРА: без подписи]
+
+Et il Cameo s'è preso da vn taglio antico.
+
+Ne' Camei si vede rappresentato Erote; & Anterote : o sotto'l carro della Madre, o lottando insieme, Vedasi di questi Enea Vico nelle Medaglie di Giulio Cesare, & il Giraldo nel Sintagma XIII.  Et notisi a proposito di Seruio nel 4. dell'Eneide, citato dal Giraldi, che io ho veduto in piu d'vn taglio antico Cupido in atto di tormentare, & punire chi non ama reciprocamente.  Et forse erano fatture Magiche.
+
+Nel Cameo superiore il Cupido Citharedo s'è preso da vn Sardonio antico donatomi dal Signor MARTINO SANDELLI huomo di esquisite lettere, & di giudicio finissimo, del quale piu direi se l'amicitia non me lo vietasse. gl'inferiori sono presi, vno dalla Medaglia l'altro da vna Gioia.
+
+Questo scherzo d'Archesilao, à di nostri ha gentilmente espresso Theodoro Gallo Pittore Fiamingo.
+
+Колонтитул: All'Imagini del Cartari. · с. 525
+Кустод: Il
+Сигнатура:
+Маргиналии:
+- Car. 408.
+- Car. 420.
+- Car. 421. Lin. 3.
+
+## Скан 0568 · с. 526
+
+[ГРАВЮРА: без подписи]
+
+Il pensiero d'Ausonio s'è rappresentato qui sotto; & in vn Cameo il ritratto d'vna Gioia antica, ch'era nello studio di Monsignor Patriarca d'Aquileia, nella quale si vedeuano due Amorini legare alla Croce che Lipsio chiama decussata, & noi diressimo di S. Andrea, Venere loro Madre.
+
+[ВИНЬЕТКА: наборная виньетка]
+
+Колонтитул: Annotationi · с. 526
+Кустод: Nel
+Сигнатура:
+Маргиналии:
+- Car. 423. Lin. 30.
+
+## Скан 0569 · с. 527
+
+[ГРАВЮРА: без подписи]
+
+Nel Cameo s'è rappresentato il tempio di Venere, come staua in Paso Città dell'Isola di Cipro cauato dalle Medaglie, o tagli antichi.  Et io ho vna Medaglina dell'Imperatrice Scuerina, nel riuerso della quale Venere tiene in mano questa, che da altri è chiamata Pomo, poco veramente.
+
+La figura principale, & l'Amorino, che scherza co'l Cigno, sono dall'antico.  Et è da notare la forma della sferza in mano a Venere, che ha del Flabello più, che d'altro.
+
+Il Cameo, nel quale Cupido assiste a Venere sua Madre, che si bagna, è fattura antica. ma voleua essere meglio fatto.  Et in tale atto, Venere si vede in mille antichaglie.
+
+La figura principale ha da stare rotonda, ma'l Pittore l'ha fatta ouata per suo commodo.  Et questo dissegno di Gioia è posto non solamente dall'Appiano, ma da Gio. Mario Mattio ancora nel Lib. 3. delle Opinioni, & dal Ramirez sopra Martiale.  La figura poi, ch'è intitolata IOCVS io l'ho veduta espressa in qualche altro taglio antico.
+
+Nel Cameo si vede Venere Calli piga come stà nelle Medaglie.
+
+Nel Cameo stà il ritratto d'vn'Anello antico ritrouato già nelle rouine di Spello egli è in Foligno in mano del Sig. NATALITIO BENEDETTI esquisito raccoglitore delle gentilezze antiche.
+
+Si vede in esso il tiro felicissimo appresso gl'antichi, del giuoco de i
+
+Колонтитул: All'Imagini del Cartari. · с. 527
+Кустод: Tali
+Сигнатура:
+Маргиналии:
+- Car. 432.
+- Car. 334.
+- Car. 437.
+- Car. 439.
+- Car. 443.
+- Car. 457.
+
+## Скан 0570 · с. 528
+
+Tali Questo era quello, che chiamauano VENVS.  Et era in quattro Tali, quando tutte le faccie del Talo veniuano diuerse, come si vede nella gioia disegnata.  Che questo fosse il tiro di Venere si caua ancora da Cicerone nel primo Lib. della Diuinatione, & da Martiale ne gl'Apoforeti all'Epigr. 14. con titolo, TALI EBOREI.
+
+IL FINE.
+
+[ГРАВЮРА: без подписи]
+
+Questa figura si è dimenticata di ponerla al suo luoco, però và posta trà il numero 52. & 53.
+
+Колонтитул: Annotationi · с. 528
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0571 · с. 529
+
+AGGIVNTA
+
+ALL'IMAGINI DEL CARTARI
+
+DEL SIG. LORENZO PIGNORIA.
+
+[ИНИЦИАЛ: S]aturno haueua vna falce, come si vede ne' Denarij antichi della famiglia Memmia, d'onde lo ha cauato l'Ortelio. & nella mia di Cepione, & nella Statua di Mithra, che fu di Horatio Marij Tigrino.  Anzi che nell'Aratro del Grotio, stampato dal Rafelengio l'anno 1600. alla facciata 81. si vede la testa di Saturno circondata dal nimbo con l'harpe appresso, che ha similitudine di Falce, come nota il Grotio, nel medesimo Libro, alla figura di Perseo.
+
+[ГРАВЮРА: без подписи]
+
+Колонтитул: с. 529
+Кустод: Giano
+Сигнатура: Li
+Маргиналии:
+- Car. 25. Lin. 10.
+
+## Скан 0572 · с. 530
+
+Giano fù finto dall'antichità bene spesso con due faccie giouanili. & così lo ha rappresentato l'Ortelio.come anco stà in vn Denario antico, & in vna pezza di moneta di quella sorte, che gli antichi chiamauano Aes graue; appresso di me. & è di quella sorte di robba, che il vulgo delli Antiquarij chiama Pesi, che non sono.che i Pesi anticamente furono bene di rame, ma in forma di Palle, schiacciate però nel fondo per fermarle, & nel disopra per notarui o la cifra del peso, o'l nome del Magistrato.ma per lo piu furono di pietra, verde, o nera, durissima. & molti ne registrano Sebastiano Erizzo, & Luca Peto. io ne ho alquanti, & in vno con lettere formate di punti si legge vn Marco Fusio. & è d'vna oncia perfetta. due altri ne ho con la Cifra della Semuncia, & altri maggiori. ne' tempi poi piu bassi se ne fecero di rame in forma quadra, & rotonda in diuerse maniere. & è degna di vedersi la raccolta fattane dallo Smetio, & dal Grutero. la Imag. di Giano giouane è questa. se però nò fosse la Iana di Nigidio.
+
+[ГРАВЮРА: без подписи]
+
+Колонтитул: Aggionta · с. 530
+Кустод: Questa
+Сигнатура:
+Маргиналии:
+- Car. 39. Lin. 12.
+
+## Скан 0573 · с. 531
+
+Questa corona di Abrotano il Cartari l'ha tolta dal Giraldi, nel Sintagma XII. a car. 369. che lo dice però per parere di altri.  Autore antico, il quale lo dica io non lo sò, rimettomi però al vero. io sò bene, che l'Abrotano femina ora pianta de i Sacerdoti d'Iside, & lo dico nel mio Commentario sopra la Tauola Hieroglifica del Sereniss. di Mantoua. & forse di quà è nato l'errore, se però c'è errore.
+
+Chi vuol vedere qualche cosa intorno al terrore Panico, legga le nostre note intorno all'Emblema CXXII. dell'Alciato; & il Rheso di Euripide. a' nostri giorni fu notabile vna notte dell'anno MDCVI. su'l Padouano, per vn terrore più che Panico.
+
+Del Sacerdote, che chiamauano gl'Ateniesi Bufono, il Sig. Ottauio Rossi ha registrato molte belle particularità, ne le sue memorie Bresciane a car. 187.  Et di questa cerimonia tocca qui dal Cartari parla lungamente Porfirio nel Lib. II. dell'astinenza dal mangiare delle carni a car. 40. della versione latina.
+
+In Licofrone io non ho saputo ritrouare ciò, che dice qui l'Autore. si bene in Alessandro Sardo, che ha scritto *de moribus & ritibus gentium*, nel Lib. 3. a capi 6. in Celio Rodigino, nel lib. 8. a capi 2.  Et di questi Πυρφοροι, che così le chiamauano anticamente, fanno mentione Herodoto nel lib. 8. a car. 452. della editione Vecheliana Suida, & Giulio Polluce, da' quali autori si caua, che erano inuiolabili, come hora i Trombetti & i Tamburini.
+
+Il luogo di Pausania citato dall'Autore è nel lib. 4. doue racconta, che Pindaro la chiamò Ferepoli, cioè tutrice delle Città. che per questo forse in vna statuina di metallo, di grandezza d'vn palmo, appresso il Sig. Pompeo Pasqualino in Roma, si vedono le Torri in capo alla Fortuna.
+
+E' gran marauiglia, che il Cartari non habbia fatto mentione alcuna della Dea Themis, che pure Pausania in piu luoghi ne fece mentione. & queste per quanto ne scriue Eusebio nel lib. 2. della Præpar. Euang. a capi 4. fu moglie di Gioue, & Madre di Minerua. ne parla ancora Diodoro Sicolo nel lib. 5. a capi 15.  Arnobio racconta nel lib. 5. che di commandamento di lei Deucalione & Pirrha presero le pietre dal Monte Agdo in Frigia, per reparare il genere humano. & così si vede, ch'era Dea fatidica, come raccontano Apolledoro nel 1. lib. della sua Bibliotheca, & Diodoro Sicolo, & Ouidio nel 1. lib. delle Metam.  Hora se Themis (come scriue Fornuto) era *cuius præsidio contractus celebramus & paciscimur pactaque bona fide seruamus*, sarà l'Equità, che i primi Imperatori nelle loro monete figura ono in piedi, con le bilancie nella mano dritta, & nella manca vn'hasta. quelli poi, che succederono le diedero il Cornucopia in vece dell'hasta. volendo inferire, che l'Abondanza era più contraceuole all'Equità, che l'Hasta simbolo molte volte di guerra.  Ma se Themis fosse la
+
+Колонтитул: All'Imagine de i Dei. · с. 531
+Кустод: Giu-
+Сигнатура: Li 2
+Маргиналии:
+- Car. 110. Lin. 27.
+- Car. 188.
+- Car. 158.
+- Car. 325. Lin. 32.
+- Car. 406. Lin. 2.
+- Car. 412.
