@@ -12,6 +12,10 @@
 | 0057 | 15 | Pausunia | Pausania | перепутанная буква |
 | 0066 | 24 | huomtni | huomini | перепутанная буква |
 | 0066 | 24 | Satuno | Saturno | пропущена буква |
+| 0094 | 52 | Er | Et | перепутанная буква |
+| 0098 | 56 | rorza | forza | перепутанная буква |
+| 0104 | 62 | Enconomia | Economia | лишняя буква |
+| 0106 | 64 | cetta | certa | перепутанная буква |
 | 0227 | 185 | segnitauano | seguitauano | перепутанная буква |
 | 0227 | 185 | sotterranano | sotterrauano | перепутанная буква |
 | 0229 | 187 | connitati | conuitati | перепутанная буква |
