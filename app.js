@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "69";
+  var APP_VER = "70";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -110,7 +110,16 @@
     objCount:     {ru:"Предметов: {n}", en:"Objects: {n}", fr:"Objets : {n}"},
     progressShort:{ru:"{done} из {total} переведено", en:"{done} of {total} translated", fr:"{done} sur {total} traduits"},
     viewList:     {ru:"Список предметов", en:"Object list", fr:"Liste des objets"},
-    viewBook:     {ru:"Как в книге", en:"As printed", fr:"Comme imprimé"}
+    viewBook:     {ru:"Как в книге", en:"As printed", fr:"Comme imprimé"},
+    favAdd:       {ru:"Добавить в избранное", en:"Add to favorites", fr:"Ajouter aux favoris"},
+    favRemove:    {ru:"Убрать из избранного", en:"Remove from favorites", fr:"Retirer des favoris"},
+    favFilter:    {ru:"Избранное", en:"Favorites", fr:"Favoris"},
+    favEmpty:     {ru:"Отметьте звёздочкой статьи, чтобы они появились здесь.", en:"Star articles to see them here.", fr:"Marquez des articles d'une étoile pour les voir apparaître ici."},
+    shareList:    {ru:"Поделиться списком", en:"Share list", fr:"Partager la liste"},
+    shareCopied:  {ru:"Ссылка скопирована", en:"Link copied", fr:"Lien copié"},
+    favImportMsg: {ru:"Добавить {n} статей из ссылки в избранное?", en:"Add {n} articles from this link to your favorites?", fr:"Ajouter {n} articles de ce lien à vos favoris ?"},
+    favImportYes: {ru:"Добавить", en:"Add", fr:"Ajouter"},
+    favImportNo:  {ru:"Не сейчас", en:"Not now", fr:"Pas maintenant"}
   };
   function t(key, vars){
     var s = (DICT[key] && (DICT[key][state.lang] || DICT[key].en || DICT[key].ru)) || key;
@@ -260,6 +269,77 @@
       !!(book && book.meta && book.meta.sourceIsFrench);
   }
 
+  /* ---------- избранное ----------
+     Хранится в localStorage, ключ "fav:<slug>" -> JSON-массив id статей.
+     Включается на книгу флагом book.json -> "favorites": true (любая книга,
+     без правок кода). Если localStorage недоступен (приватный режим, запрет
+     в настройках) — FAV_OK=false, и звёздочки/фильтр/шаринг просто не
+     показываются нигде, сайт работает как раньше. */
+  var FAV_OK = (function(){
+    try{ var k="__ic_fav_probe__"; localStorage.setItem(k,"1"); localStorage.removeItem(k); return true; }
+    catch(e){ return false; }
+  })();
+  var favCache = {}; // slug -> {id:true,...}, заполняется лениво из localStorage
+  function favKey(slug){ return "fav:"+slug; }
+  function loadFavs(slug){
+    if(favCache[slug]) return favCache[slug];
+    var set = {};
+    if(FAV_OK){
+      try{
+        var raw = localStorage.getItem(favKey(slug));
+        if(raw){ JSON.parse(raw).forEach(function(id){ set[id]=true; }); }
+      }catch(e){}
+    }
+    favCache[slug] = set;
+    return set;
+  }
+  function isFav(slug,id){ return !!loadFavs(slug)[id]; }
+  // Возвращает новое состояние (true = теперь в избранном).
+  function toggleFav(slug,id){
+    var set = loadFavs(slug);
+    if(set[id]) delete set[id]; else set[id] = true;
+    if(FAV_OK){ try{ localStorage.setItem(favKey(slug), JSON.stringify(Object.keys(set))); }catch(e){} }
+    return !!set[id];
+  }
+  function addFavs(slug, ids){
+    var set = loadFavs(slug);
+    ids.forEach(function(id){ set[id] = true; });
+    if(FAV_OK){ try{ localStorage.setItem(favKey(slug), JSON.stringify(Object.keys(set))); }catch(e){} }
+  }
+  function favIds(slug){ return Object.keys(loadFavs(slug)); }
+  function favEnabled(book){ return FAV_OK && !!(book && book.meta && book.meta.favorites); }
+  function favBtnHtml(slug, id, extraClass){
+    var on = isFav(slug, id);
+    return '<button type="button" class="ic-fav-b'+(extraClass?" "+extraClass:"")+'" data-fav-id="'+esc(id)+'" '+
+      'aria-pressed="'+on+'" aria-label="'+esc(t(on?"favRemove":"favAdd"))+'" title="'+esc(t(on?"favRemove":"favAdd"))+'">'+
+      (on?"★":"☆")+'</button>';
+  }
+  // Ссылка на разбор "fav=<id>,<id>…" в хэше — см. parseHash()/route() ниже.
+  var pendingFavImport = null;
+  function favShareHref(book, ids){
+    return (forcedBook ? "#/fav=" : "#/"+book.slug+"/fav=") + ids.map(encodeURIComponent).join(",");
+  }
+  function favShareUrl(book, ids){
+    return location.origin + location.pathname + location.search + favShareHref(book, ids);
+  }
+  function copyText(s){
+    var ok = false;
+    try{ if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(s); ok = true; } }catch(e){}
+    if(!ok){
+      try{
+        var ta=document.createElement("textarea"); ta.value=s; ta.setAttribute("readonly","");
+        ta.style.position="fixed"; ta.style.opacity="0"; document.body.appendChild(ta);
+        ta.select(); document.execCommand("copy"); document.body.removeChild(ta); ok=true;
+      }catch(e){}
+    }
+    return ok;
+  }
+  // Closes the "add these shared articles?" hash without a full reload,
+  // so re-opening the page (or hitting Back) later doesn't ask again.
+  function clearFavImportHash(book){
+    try{ history.replaceState(null, "", location.pathname + location.search + (forcedBook ? "#/" : "#/"+book.slug)); }catch(e){}
+  }
+
   /* ---------- загрузка библиотеки и книг ---------- */
   var library = null;        // содержимое library.json
   var books = {};            // кэш: slug -> {meta, items, byId} | "error" | undefined(загружается)
@@ -324,6 +404,10 @@
     if(!rest.length) return {slug:slug};
     if(rest[0]==="about") return {slug:slug, view:"about"};
     if(rest[0]==="plate" && rest[1]) return {slug:slug, view:"plate", plateNum:rest[1]};
+    if(/^fav=/.test(rest[0])){
+      var ids = rest[0].slice(4).split(",").map(decodeURIComponent).filter(Boolean);
+      return {slug:slug, view:"favImport", favIds:ids};
+    }
     return {slug:slug, id:rest[0]};
   }
 
@@ -336,6 +420,11 @@
       if(!book){ if(!forcedBook) renderLibraryHome(); return; }
       var isPlateBook = book.meta.viewer==="plate";
       if(p.view==="about") renderAbout(book);
+      else if(p.view==="favImport"){
+        if(favEnabled(book)) pendingFavImport = {slug:book.slug, ids:p.favIds};
+        else clearFavImportHash(book);
+        if(isPlateBook) renderPlateIndex(book); else renderIndex(book);
+      }
       else if(p.view==="plate") renderPlate(book, p.plateNum);
       else if(p.id && book.byId[p.id] && isPlateBook && book.byId[p.id].plate!=null) renderPlate(book, book.byId[p.id].plate, {focus:p.id});
       else if(p.id && book.byId[p.id]) renderCard(book, book.byId[p.id]);
@@ -523,6 +612,7 @@
       if(state.filter==="ready" && !ready(it, book)) return false;
       if(state.filter==="withimg" && it.textOnly) return false;
       if(state.filter==="noimg" && !it.textOnly) return false;
+      if(state.filter==="fav" && !isFav(book.slug, it.id)) return false;
       return !nq || nq.split(/\s+/).every(function(w){ return it.key.indexOf(w)>-1; });
     });
     if(state.sort==="ru") res.sort(function(a,b){ return titleOf(a).localeCompare(titleOf(b),state.lang==="ru"?"ru":state.lang); });
@@ -546,6 +636,9 @@
     restoreState(book.slug);
     var multiPart = book.meta.parts && book.meta.parts.length > 1;
     var hasTextOnly = book.items.some(function(it){ return it.textOnly; });
+    var favOn = favEnabled(book);
+    var importIds = (favOn && pendingFavImport && pendingFavImport.slug===book.slug)
+      ? pendingFavImport.ids.filter(function(id){ return book.byId[id]; }) : null;
     root.innerHTML =
       '<div class="ic-wrap">'+
         '<div class="ic-top-row">'+(forcedBook?"":'<button type="button" class="ic-to-lib-link ic-back">'+t("toLibrary")+'</button>')+
@@ -553,15 +646,18 @@
           langSwitch()+'</div>'+
         '<h1 class="ic-title">'+esc(bt(book.meta.title))+'</h1>'+
         '<p class="ic-sub">'+esc(bt(book.meta.subtitle))+'</p>'+
+        (importIds && importIds.length ? favImportHtml(importIds.length) : "")+
         '<div class="ic-controls">'+
           '<span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("searchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("searchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
           '<div class="ic-row"><div class="ic-seg" role="group" aria-label="Filter">'+
             chip("all",t("fAll"))+(multiPart?chip("1",t("fPart1"))+chip("2",t("fPart2")):"")+
             (hasTextOnly?chip("withimg",t("fWithImg"))+chip("noimg",t("fNoImg")):"")+
+            (favOn?chip("fav",t("favFilter")):"")+
           '</div><select class="ic-sort" aria-label="Sort">'+
             opt("book",t("sBook"))+opt("ru",t("sAlpha"))+opt("page",t("sPage"))+
           '</select></div>'+
           '<p class="ic-count"></p>'+
+          (favOn?'<button type="button" class="ic-fav-share" hidden>'+esc(t("shareList"))+'</button>':"")+
         '</div>'+
         '<div class="ic-list"></div>'+
       '</div>';
@@ -577,14 +673,46 @@
       fill(book);
     });});
     root.querySelector(".ic-list").addEventListener("click",function(e){
+      var fb=e.target.closest(".ic-fav-b");
+      if(fb){ toggleFav(book.slug, fb.getAttribute("data-fav-id")); fill(book); return; }
       var r=e.target.closest(".ic-row-item"); if(r) go(book, r.getAttribute("data-id"));
     });
     root.querySelector(".ic-list").addEventListener("keydown",function(e){
+      if(e.target.closest(".ic-fav-b")) return;
       var r=e.target.closest(".ic-row-item"); if(r && (e.key==="Enter"||e.key===" ")){ e.preventDefault(); go(book, r.getAttribute("data-id")); }
     });
+    if(favOn) bindFavShare(book);
+    if(importIds && importIds.length) bindFavImport(book, importIds);
     fill(book);
     if(state.scroll){ var y=state.scroll, gen=renderGen; state.scroll=0; requestAnimationFrame(function(){ if(gen===renderGen) window.scrollTo(0,y); }); }
     nudgeRepaint();
+  }
+  function favImportHtml(n){
+    return '<div class="ic-fav-import">'+
+      '<p>'+esc(t("favImportMsg",{n:n}))+'</p>'+
+      '<div class="ic-fav-import-actions">'+
+        '<button type="button" class="ic-fav-import-yes">'+esc(t("favImportYes"))+'</button>'+
+        '<button type="button" class="ic-fav-import-no">'+esc(t("favImportNo"))+'</button>'+
+      '</div>'+
+    '</div>';
+  }
+  function bindFavImport(book, ids){
+    var el = root.querySelector(".ic-fav-import"); if(!el) return;
+    el.querySelector(".ic-fav-import-yes").addEventListener("click",function(){
+      addFavs(book.slug, ids); pendingFavImport=null; clearFavImportHash(book); renderIndex(book);
+    });
+    el.querySelector(".ic-fav-import-no").addEventListener("click",function(){
+      pendingFavImport=null; clearFavImportHash(book); renderIndex(book);
+    });
+  }
+  function bindFavShare(book){
+    var btn = root.querySelector(".ic-fav-share"); if(!btn) return;
+    var label = t("shareList");
+    btn.addEventListener("click",function(){
+      var ids = favIds(book.slug); if(!ids.length) return;
+      var ok = copyText(favShareUrl(book, ids));
+      if(ok){ btn.textContent = t("shareCopied"); setTimeout(function(){ btn.textContent = label; }, 1800); }
+    });
   }
   function chip(v,t_){ return '<button type="button" class="ic-chip" data-f="'+v+'" aria-pressed="'+(state.filter===v)+'">'+t_+'</button>'; }
   function opt(v,t_){ return '<option value="'+v+'"'+(state.sort===v?" selected":"")+'>'+t_+'</option>'; }
@@ -593,9 +721,12 @@
     var list=root.querySelector(".ic-list"), count=root.querySelector(".ic-count");
     var res=filtered(book), nq=state.q.trim();
     var multiPart = book.meta.parts && book.meta.parts.length > 1;
+    var favOn = favEnabled(book);
+    var shareBtn = root.querySelector(".ic-fav-share");
+    if(shareBtn) shareBtn.hidden = favIds(book.slug).length===0;
     count.textContent = res.length ? t("found",{n:res.length}) : "";
     if(!res.length){
-      list.innerHTML = '<p class="ic-empty">'+(state.filter==="ready" && !nq ? t("emptyReady") : t("emptySearch"))+'</p>';
+      list.innerHTML = '<p class="ic-empty">'+(state.filter==="fav" ? t("favEmpty") : state.filter==="ready" && !nq ? t("emptyReady") : t("emptySearch"))+'</p>';
       return;
     }
     var grouped = state.sort==="book" && !nq, showPart = multiPart && (state.sort==="ru" || (!grouped && state.filter!=="1" && state.filter!=="2"));
@@ -659,6 +790,7 @@
       html+='<li class="ic-row-item" tabindex="0" role="link" data-id="'+it.id+'">'+
         '<span class="ic-pg">'+esc(it.page)+'<small>'+(showPart?t("partN",{n:it.part}):t("pageAbbr"))+'</small></span>'+
         '<span><span class="ic-ru">'+esc(titleOf(it))+(it.flag?" ("+esc(it.flag)+")":"")+'</span></span>'+
+        (favOn?favBtnHtml(book.slug, it.id):"")+
       '</li>';
     });
     if(open) html+="</ul></"+openTag+">";
@@ -813,7 +945,8 @@
           langSwitch()+
         '</div>'+
         '<header class="ic-head">'+
-          '<p class="ic-kicker">'+(it.num?it.num+". ":"")+esc(it.group_fr?groupOf(it):(book.meta.parts&&book.meta.parts.length>1?partLabel(book,it.part):""))+'</p>'+
+          '<div class="ic-head-row"><p class="ic-kicker">'+(it.num?it.num+". ":"")+esc(it.group_fr?groupOf(it):(book.meta.parts&&book.meta.parts.length>1?partLabel(book,it.part):""))+'</p>'+
+            (favEnabled(book)?favBtnHtml(book.slug, it.id, "ic-fav-b-lg"):"")+'</div>'+
           '<h1 class="ic-h-fr">'+esc(it.fr)+'</h1>'+
           (titleOf(it)!==it.fr?'<p class="ic-h-ru">'+esc(titleOf(it))+'</p>':"")+
         '</header>'+
@@ -837,6 +970,14 @@
       var id=b.getAttribute("data-go"); if(id) go(book, id);
     });});
     root.querySelectorAll(".ic-fig").forEach(function(f){ f.addEventListener("click",function(){ lightbox(f.getAttribute("data-src")); }); });
+    var cardFav = root.querySelector(".ic-head .ic-fav-b");
+    if(cardFav) cardFav.addEventListener("click",function(){
+      var on = toggleFav(book.slug, it.id);
+      cardFav.setAttribute("aria-pressed", on);
+      cardFav.setAttribute("aria-label", t(on?"favRemove":"favAdd"));
+      cardFav.title = t(on?"favRemove":"favAdd");
+      cardFav.textContent = on?"★":"☆";
+    });
     if(showOrig && (hasScans||hasFr)) bindOriginal(it, pagesBase);
     toTop();
     nudgeRepaint();
