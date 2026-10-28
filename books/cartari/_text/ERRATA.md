@@ -44,7 +44,17 @@
 | 0234 | 192 | Cerrere | Cerere | лишняя буква |
 | 0235 | 193 | Sratoa | Statoa | перепутанная буква |
 | 0252 | 210 | tetribile | terribile | перепутанная буква |
+| 0253 | 211 | Anfitrice | Anfitrite | перепутанная буква |
+| 0258 | 216 | Ennofigeo | Ennosigeo | перепутанная буква |
+| 0258 | 216 | Ennofigeo | Ennosigeo | перепутанная буква |
+| 0262 | 220 | effetri | effetti | перепутанная буква |
+| 0262 | 220 | alcuoi | alcuni | перепутанная буква |
+| 0262 | 220 | dicc | dice | перепутанная буква |
+| 0264 | 222 | l'argamente | largamente | лишняя буква |
 | 0268 | 226 | qnale | quale | перепутанная буква |
+| 0273 | 231 | gindici | giudici | перепутанная буква |
+| 0274 | 232 | Qintiliano | Quintiliano | пропущена буква |
+| 0277 | 235 | caminamente | caninamente | перепутанная буква |
 | 0482 | 440 | licentiosamenre | licentiosamente | перепутанная буква |
 | 0493 | 451 | compagria | compagnia | перепутанная буква |
 | 0494 | 452 | rccoglie | raccoglie | пропущена буква |
