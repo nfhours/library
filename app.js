@@ -43,9 +43,9 @@
   /* ---------- i18n ---------- */
   var DICT = {
     libTitle:     {ru:"Библиотека", en:"Library", fr:"Bibliothèque"},
-    libSub:       {ru:"Старые книги об образах и древностях, с переводом на русский и английский.",
-                    en:"Old books on allegory and antiquities, translated into Russian and English.",
-                    fr:"D'anciens livres sur les emblèmes et les antiquités, traduits en russe et en anglais."},
+    libSub:       {ru:"Старые книги об образах и древностях, с переводом на русский, английский и французский.",
+                    en:"Old books on allegory and antiquities, translated into Russian, English and French.",
+                    fr:"D'anciens livres sur les emblèmes et les antiquités, traduits en russe, en anglais et en français."},
     libEmpty:     {ru:"Книги ещё не добавлены.", en:"No books added yet.", fr:"Aucun livre n'a encore été ajouté."},
     progress:     {ru:"Переведено статей: {done} из {total}", en:"Articles translated: {done} of {total}", fr:"Articles traduits : {done} sur {total}"},
     searchPh:     {ru:"Найти: сюжет, предмет, слово по-русски, по-французски или по-английски", en:"Search: subject, motif, a word in English, French, or Russian", fr:"Rechercher : sujet, motif, un mot en français, en anglais ou en russe"},

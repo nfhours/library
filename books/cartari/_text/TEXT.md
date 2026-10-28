@@ -6087,3 +6087,157 @@ Voleuano poi gli antichi ancora, che Mercurio hauesse cura de' Pastori; di che f
 Кустод:
 Сигнатура: S 4
 Маргиналии:
+
+## Скан 0322 · с. 280
+
+te della Beotia, che portaua vn montone in collo, perche dicesi che Mercurio andando già in quel modo intorno alle mura della Città, fece cessare vna grauissima pestilenza. Questo Mercurio Tanagreo ha dato occasione al volgo delli Antiquarij di credere, che molti tagli antichi della Christianità primitiua siano altro di quello, che veramente sono. Costumauano i nostri di portare ne gl'Anelli da sigillare Christo intagliatoci, in figura di Pastore, con la Pecora in collo per alludere alle parole, *Ego sum pastor bonus*. Et io mi ricordo di vedere in Roma vna Corniola, nella quale staua intagliata questa figura, co'l nome appresso ΕΙΗϹΟΥ. Et vn'amico mio haueua due altre Gioie di fattura simile; & in vna di esse era la Cifra. Et in S. Lorenzo fuor delle Mura, mi souuiene d'hauer veduto vn Sepolcro di marmo, a mano manca nell'entrare per la Porta maggiore, nel quale si vedeua vn Pastore con la Pecora in spalla, in mezo a certi adornamenti del Parapetto del detto Sepolcro. In proposito di che scriue Tertulliano, riferito dal Card. Baronio nel 1. de gl'Annali, che i Christiani costumauano anticamente di mettere questa figura ne i Calici. Onde fu osseruato poi, che quando si celebraua quiui la sua festa, andaua vn bellissimo giouane intorno alla città con vn'agnello in collo. Vn'altra statoa fu pur anche di Mercurio portata dell'Arcadia, come recita il medesimo Pausania, & offerta al tempio di Gioue Olimpio, armata con vn'elmo in capo, & vestita di vna tonica con vna breue vesticciuola di sopra da soldato, & portaua vn montone sotto il braccio. Macrobio, il qual vuole, che per tutti gli altri Dei siano intese le molte virtù del Sole, à queste tira parimente la imagine di Mercurio, dicendo, che l'ali mostrano la velocità del Sole, & che il finger le fauole, che vccidesse Argo guardiano della figlia di Inaco mutata in vacca onde posero alle volte ancora vna scimitarra in mano alla sua statoa, fu perche Argo con tanti occhi è il Cielo pieno di stelle, che guarda la terra, la quale faceuano quelli di Egitto nelle loro sacre lettere in forma di vacca, ma lo vccidè Mercurio, cioè il Sole, come quello, che fa sparire le stelle, quando il dì comincia a mostrarsi. Oltre di ciò le figure quadrate di Mercurio, che haueuano il capo solo & il membro virile, mostrano che'l Sole è capo del mondo, & feminatore di tutte le cose, & quattro lati significano quello, che significa la Cetra dalle quattro corde data medesimamente a Mercurio, cioè le quattro parti del Mondo, ouero le quattro stagioni dell'anno, ò che due equinotij, & due solstitij vengono a fare quattro parti di tutto il Zodiaco. Et fu ritrouamento proprio de i Greci, come scriue Herodoto, & gli Atheniesi furono i primi, che facessero, & mostrassero a gli altri di fare parimente, le statoe di Mercurio col membro genitale dritto, & questo fecero essi forse, perche dissero le fauole, & lo riferisce
+
+Колонтитул: 280 Imagini de i Dei
+Кустод: Marco
+Сигнатура:
+Маргиналии:
+- Macrobio.
+- Mercurio pel Sole.
+
+## Скан 0323 · с. 281
+
+[ГРАВЮРА: Imagine di Anubide Dio della Sagacità, Custodia, & Fideltà, con il Cocodrillo animale d'Egitto, terrestre, & acquatico, con Api, Gioue Hammone, & altre figure misteriose.]
+
+Колонтитул: De gli Antichi. 281
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0324 · с. 282
+
+Marco Tullio, che a lui si gonfiò, & drizzossi in quel modo per la voglia, che gli venne di Proserpina la prima volta, che la vide, sì come si può vedere il disegno nella nostra tauola 91. a car. 293. Accommodasi poi il Caduceo al nascimento dell'huomo come dice il medesimo Macrobio, in questa guisa secondo quelli di Egitto. Sono con l'huomo, quando ci nasce questi quattro Dei, il Demone, la Fortuna, l'Amore, & la Necessità. De' quali i due primi significano il Sole, & la Luna, così detto quello, perche da lui vengono, & sono conseruati lo spirito, il calore, & il lume della humana vita, & perciò è egli creduto Demone, cioè Dio di chi ci nasce. Et questa è detta la Fortuna, perche tutta la forza sua si stende sopra i corpi, li quali sono sogetti a molti, & diuersi accidenti. L'Amore è mostrato da due capi de i serpenti, li quali si giungono insieme, come che si bascino; & la Necessità è intesa per quel nodo, che questi fanno di sè nel mezo. Martiano scriue, che Philologia entrata nel secondo Cielo vide venirsi incontra vna vergine con vna tauola in mano, nella quale erano intagliate queste cose tutte dimostratrici di Mercurio. Nel mezo era quello vccello dell'Egitto simile alla Cicogna, che chiamano Ibis, & vn capo di bellissima faccia, coperto di vn cappello, che hauea d'intorno due serpenti. Sotto vi era vna bella verga dorata nella cima, nel mezo verdeggiaua, & diuentaua negra nel calce. Dalla destra vi era vna testuggine, & vno scorpione, & dalla sinistra vn capro con certo vccello simile allo sparuiere. Queste cose quasi tutte sono tolte da i misterij de gli Egittij, appresso de i quali si crede che fosse adorato Mercurio sotto il nome di quel Dio, che da loro fu chiamato Anubi. Perche lo faceuano con il Caduceo in mano, come lo descriue Apuleio, il quale raccontando di quelli, li quali andauano con Iside dice così. Erauì Anubi, qual dissero esser Mercurio, con la faccia hor negra, & hor dorata, alzaua il collo di cane, & nella sinistra portaua il Caduceo, oue con la destra scuoteua vn ramo di verde palma. Fu fatto questo Dio in Egitto con capo di cane per mostrare la sagacità, che da Mercurio ci viene, conciosia che altro animale non si troui quasi più sagace del cane. O pure lo faceuano così, perche, come recita Diodoro Siculo, fu Anubi figliuolo di Osiride, & seguitando il padre, in tutte le guerre mostrossi valoroso sempre, onde come Dio fu riuerito doppo morte, & perche viuendo ei portò per cimiero vn cane sopra l'armi, fu poi fatta la sua imagine con capo di cane; volendo pur' anco per questo intendere, che egli fu sempre sagace custode, & fedele del padre, difendendolo tuttauia da qualunque hauesse tentato di fargli male. Oltre di ciò, se non fu Hercole il medesimo che Mercurio, bè fu da lui poco differente, come ne fa fede la imagine sua fatta da' Francesi, che l'adorauano per lo Dio della prudenza, & della eloquenza,
+
+Колонтитул: 282 Imagini de i Dei
+Кустод: quenza,
+Сигнатура:
+Маргиналии:
+- Caduceo s'accommoda al nascimento dell'huomo.
+- Martiano.
+- Anubi.
+- Diodoro Siculo.
+- Hercole.
+
+## Скан 0325 · с. 283
+
+[ГРАВЮРА: Imagine di Hercole appo Francesi da loro tenuto Dio della eloquenza, & dell'essercitio, qual fù da alcuni tenuto anco per Mercurio & questa imagine dinota a forza, & disciplina militare, massime in vecchi Capitani, & consumati, oratori.]
+
+Колонтитул: De gli Antichi. 283
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0326 · с. 284
+
+quenza, in questa guisa, come racconta Luciano. Era vn vecchio quasi all'vltima vecchiaia, tutto caluo, se non che haueua alcuni pochi capegli in capo, di colore fosco in viso, e tutto crespo, & rugoso, vestito di vna pelle di Lione, & che nella destra teneua vna mazza, & vn'arco nella sinistra; gli pendeua vna faretra da gli homeri, & haueua allo estremo della lingua attaccate molte catene di oro, & di argento sottilissime, con le quali ei si traheua dietro per le orecchie vna moltitudine grande di gente, che lo seguitaua però volontieri. Facile cosa è da vedere, che questa imagine significa la forza della eloquenza, la quale dauano quelle genti ad Hercole, perche, come dice il medesimo Luciano, fu Hercole creduto piu forte assai, & più gagliardo di Mercurio; & lo faceuano vecchio, perche ne i vecchi la eloquenza è piu perfetta assai, che ne'giouani, come Homero ci mostra per Nestore, dalla cui bocca, quando parlaua, pareua che stillasse dolcissimo mele. Et per questo hebbero anco forse questi duo Dei vn tempio solo frà lo commune nell'Arcadia: gli Atheniesi, che haueuano nella loro Accademia altari delle Muse, di Minerua, & di Mercurio, vollero hauerne vno parimente di Hercole, come che il Nume di costui non meno, che de gli altri potesse giouare a chi quiui si essercitaua; & Pausania scriue, che non solamente i Greci, ma molte barbare nationi ancora credettero, che Mercurio, & Hercole fossero sopra allo essercitarsi, & che erano principalmente adorati ne' luochi, oue si faceua questo. Onde appresso de i Lacedemonij nel Dromo, luoco oue si essercitauano i giouani nelle correrie, fu vn'antichissimo simulacro di Hercole, al quale andauano a sacrificare quelli che erano già di maggiore età. Et in certa parte del paese di Corinto diceuano quelle genti, che Hercole haueua già quiui offerto, & dedicato a Mercurio la sua mazza, che era di vliuo saluatico, la quale fu creduta hauere dapoi fatto le radici, & essere cresciuta, & diuentata vn grande arbore. Non dico se sia stato vn Hercole solo, ò molti; bench'io sappi, che Varrone ne mette quarantaquattro, & dice, che già tutti gli huomini di grande, & mirabil valore, & quelli, che hauessero superato qualche feroce Mostro, erano detti Hercoli: nè de i molti, qual fosse riposto nel numero de i Dei, perche questo non tocca a chi vuole solamente far ritratto de i simulacri, & delle statoe, che ne fecero gli antichi; li quali adorarono come Dio vn Hercole, & à lui fecero di quelli honori, che faceuano a gli altri Dei; & quelli di Egitto lo posero nel numero de i dodici (come scriue Herodoto) che furono prima da loro adorati. Ma se ben le molte cose, che si leggono di Hercole, siano state fatte da diuerse persone di questo nome, sono attribuite nondimeno tutte ad vn solo, che fu fatto Dio. Il cui simulacro era grande per lo più & che mostraua forza, & robustezza, per la quale viuendo fu cognominato Melam-
+
+Колонтитул: 284 Imagini de i Dei
+Кустод: Melam-
+Сигнатура:
+Маргиналии:
+- Luciano.
+- Eloquenza, e sua forza.
+- Dei dello essercito.
+- Simulacro d'Hercole.
+
+## Скан 0327 · с. 285
+
+Melampigo, che viene a dire, dal negro culo, perche così chiamarono i Greci gli huomini forti, e robusti: & all'incontro diceuano Leucopigo, cioè, che hà bianco culo, à chi era molle, & essemina to. Et à questo proposito leggesi vna cotal nouelletta; Furono due fratelli maluagi, e tristi quanto si possa dire, nominati l'vno Passalo, & l'altro Alcmone, ma erano detti Cercopi, & furono figliuoli di Mennone: questi più volte furono ripresi dalla madre, & pregati à mutar vna così pessima loro natura, ma poscia che vide di non poterli ritirare dalle loro opere maluagie, li pregò che si guardassero almeno di non dare fra piedi a Melampigo. Hor' auenne, che essendosi vn dì Hercole posto à riposar sotto vn'arbore, al quale haueua appoggiato l'arco, & la mazza, questi gli sopragiunsero, & vedendolo dormire, disegnarono di farli qualche strano scherzo, & erano già in punto, quando Hercole si destò; il quale leuatosi non fece loro altro male, se non che gli prese, & legatigli insieme per i piedi, come fossero stati duo lepri, attacatigli alla mazza se gli pose alle spalle, & andossene via. I Cercopi, mentre stauano pendolone à quel modo, videro, che Hercole haueua il culo, & le natiche negre, & pelose, onde cominciarono à ragionare pian pian frà loro di quello, che tante volte haueua loro detto la madre, & diceuano, che certo quegli era il Melampigo. Di che Hercole, hauendo inteso il tutto, prese il maggiore piacere del mondo, & perciò ridendo gli sciolse, & lasciolli andare, ma furono poi trasformati in Gatti Mammoni, come scriue Suida, perche vollero ingannare Gioue. Onde per gli Cercopi furono souente intesi i fraudolenti, & adulatori, come si vede appresso di Plutarco, il quale parlando della differenza, che è da veri amici à gli adulatori dice che così si dilettano i Principi di questi, come Hercole si dilettaua de i Cercopi. De' quali fece anco mentione Herodoto, descriuendo il camino che fece Xerse a passare con l'essercito i monti della Grecia, & dice che andò a passare il fiume Asopo per certa via, che fu dimandata la fede de i Cercopi, cioè de' malitiosi, oue era anco vn sasso, che fu detto Melampigo, cioè negrofonte, che questa voce tanto può significare questo quanto quello ch'io dissi di Hercole. Al simulacro del quale ritorno, che fu di huomo forte, & robusto, c fu parimente tutto nudo, se non che haueua vna pelle di Lione intorno, il cui capo con la bocca aperta gli faceua celatta, & teneua la mazza nell'vna mano, e l'arco nell'altra, & la faretra gli pendeua dalle spalle, come hò già detto. Vn simile tutto di metallo alto diece cubiti fu dedicato in Olimpia città della Grecia da alcuni andati col figliuolo di Agenore a cercare Europa, come si legge appresso di Pausania, il quale scriue ancora, che i Lacedemoni hebbero vn simulacro di Hercole, con pelle del Lione intorno, & tutto armato; la ragione di che auenne, perche essendo già
+
+Колонтитул: De gli Antichi. 285
+Кустод: andato
+Сигнатура:
+Маргиналии:
+- Nouella piaceuole.
+- Cercopi.
+- Hercole armato.
+
+## Скан 0328 · с. 286
+
+andato Hercole per certi suoi affari a Sparta città principale de' Lacedemonij, haueua menato seco vn giouinetto suo cugino nomato Eono, ouero Licinio (come dice Apollodoro raccontando il medesimo fatto) il quale andando tutto solo a suo piacere per vedere la città, arriuò dinanzi alla casa di Hippocoonte, che era all'hora quiui Signore, & Rè, oue fu subito assalito da vn terribile cane, cui egli ferì di vna pietra, & lo fece ritornare in casa; ma i figliuoli di Hippocoonte, che questo intesero, vsciti si auuentarono addosso di Eono con bastoni, & l'vccisero. Hercole, risaputa la cosa, tratto dallo sdegno, e dal dolore del morto cogino se n'andò tutto solo senza alcun indugio contra gli homicidi; & con quelli fu vn pezzo alle mani: all'vltimo Hercole ferito in vna coscia si ritirò, e tolsesi di sotto per allhora, non potendo resistere alla gran moltitudine delle persone, che gli veniuano addosso: ma poco dapoi messine egli parimente insieme molti, tanto fece, che ammazzò non solamente i figliuoli, ma il padre Hippocoonte ancora, & roinò tutta quella casa. Et per questo lo fecero armato i Lacedemoni. E gli Arcadi fecero dapoi al suo simulacro vna cicatrice nella coscia per memoria della ferita, ch'io dissi; per la quale, guarito che egli fu, dedicò vn tempio ad Esculapio sotto cognome di Cotileo, perche Cotile appresso de' Greci è il medesimo, che appò noi coscia, come che per lui fusse guarito della ferita, che hebbe nella coscia. Apollodoro scriue, che Hercole fu parimente armato: quando per la difesa di Thebe combattè contra gli Minei, & che Minerua gli diede le armi, & soggiunge, che hauendo Hercole imparato di tirar l'arco da Eurito, hebbe dapoi li strali da Apollo, da Mercurio la spada, da Volcano la corazza, & da Minerua il manto; & che la mazza se la tagliò & fece egli da se stesso nella selua Nemea.
+
+Plinio, riferendo alcune delle più degne statoe di metallo, che fossero appresso de gli antichi, dice, che in Roma ne fu vna di Hercole terribile nell'aspetto, & vestita di vna tonica alla Greca. Che fosse terribile da vedere, lo mostra quello, che si legge di vno, il quale ne hebbe tanta paura, che diuentò tutto sasso, vedendolo passare perlà, oue ei si era nascosto in certa spelonca, & era quel sasso, come riferisce Suida, in forma di huomo che mette fuori il capo per vedere. Hanno poi detto le fauole, che il Sole donò vn gran vaso da bere ad Hercole, con il quale egli passò il mare, come riferisce Atheneo. Macrobio l'interpreta, che fosse vna sorte di naue detta Scifo, che tale era anco il nome del vaso, & si potrebbe accomodare à quello, che noi dichiamo Schifo, ouero Battello, onde non vsarono poi altro vaso mai ne' suoi sacrificij, & Virgilio parlando delle cerimonie di Hercole celebrate da Euandro, quando Enea andò a lui; disse che il sacro Scifo ingombraua le mani ad esso Euandro, che mostra
+
+Колонтитул: 286 Imagini de i Dei
+Кустод: la
+Сигнатура:
+Маргиналии:
+- Apollodoro.
+- Esculapio Cotile.
+- Arme di Hercole.
+- Plinio.
+- Atheneo.
+- Scifo vaso di Hercole.
+
+## Скан 0329 · с. 287
+
+[ГРАВЮРА: Imagine d'Ercole armato, d'Hercole mangiatore, & beuitore, & dell'vccello Folica à lui sacrato per la sua voracità, & dell'altare sacratogli detto il giogo del bue, segno della sua grata natura, & benignità; coronato poi dell'albero pioppa, essendo tolto anco per il tempo che tutto diuora & consuma.]
+
+Колонтитул: De gli Antichi. 287
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0330 · с. 288
+
+la grandezza di questo vaso, col quale in mano fu fatto Hercole alle volte, ò per la fauola, ch'io dissi, ouero per mostrare, che Hercole fu gran beuitore, come recita Atheneo; il che vollero forse anco mostrare quelli, che nel paese di Corinto in certa sua capella fecero vn giouinetto, che gli porgeua bere: benche Pausania scriue, che Hercole cenando quiui appresso di vn suo suocero diede vn sì fatto circo sù la testa a Ciato giouinettto che li daua bere, che l'vccise, parendogli, che non facesse quel officio garbatamente, & che per memoria di questo furono poi fatte quelle statoe. Leggesi ancora appresso di Apollodoro, di Atheneo, & di altri, che Hercole fu gran mangiatore, & vorace fuor di modo, sì che mangiaua spesso egli solo vn bue tutto intiero, & che per questo gli fu consecrato da gli antichi quell'vccello, che da' Greci è detto Laro, & da' nostri Folica; perche, come scriue anco Suida, egli è di sua natura grandemente vorace, & ingordo. Da questa voracità di Hercole nacquero alcuni suoi sacrificij, ne' quali non era lecito dire pur vna buona parola; perche come riferisce Lattantio, & si legge appresso di Apollodoro, vn dì, ch'ei passaua per l'Isola di Rhodo, & haueua vna gran fame, tolse per forza ad vn Contadino, che non volle vendergliene vno ambi li buoi, con li quali araua allhora il terreno, & se gli mangiò con alcuni suoi compagni. Il pouero huomo disperato per la perdita de' buoi, non potendo farne altra vendetta, si voltò, à bestemmiare; & maledire Hercole, & à dire tutti i mali del mondo di lui, & di tutti i suoi, di che egli rise sempre, & disse, che non mangiò mai, che più gli dilettasse, che vedendo colui dirli tanto male. Onde poscia che fu fatto Dio, le genti del paese gli consecrarono vn'altare detto il Giogo del bue, & quiui gli sacrificauano à certo tempo vn paio di buoi col giogo su'l collo; si sentiuano in questo mentre il Sacerdote con tutti gli altri, che vi si trouauano a bestemmiar, & dir tutti i mali possibili, perche credeuano in quel modo di rinouare ad Hercole il piacere, ch'egli hebbe di sentirsi bestemmiare, & maledire dal contadino, cui mangiò gli buoi. Et a questo proposito non tacerò vn'altro sacrificio non meno pazzo, & sciocco, che si fosse tristo, & nefando quelllo, che hò detto, nato parimente dal piacere, che prese Hercole di veder, che alcuni Contadini, come riferisce Suida, per non ritardare il sacrificio apprestato, essendosene fuggito il bue, che si doueua sacrificare, ne fecero vno subito di vn pomo, ficcandoui quattro bacchette in vece, di piedi; e due al luoco delle corna. Ouero fu la cosa, come Giulio Polluce la racconta, che non hauendo potuto passare il fiume Asopo, quelli, che portauano la vittima (qual'era vn Montone) a certa festa di Hercole, essendo già l'hora destinata al sacrificio, alcuni fanciulli, ch'erano quiui, piantarono quattro fistuche in loco de' piedi, & due per le corna in vn pomo, lo
+
+Колонтитул: 288 Imagini de i Dei
+Кустод: quale
+Сигнатура:
+Маргиналии:
+- Hercole beuitore.
+- Ciato vcciso da Hercole.
+- Hercole mangiatore.
+- Vccello di Hercole.
+- Lattantio.
+- Apollodoro.
+- Suida.
+- Giulio Polluce.
+
+## Скан 0331 · с. 289
+
+quale fingendo il montone; che si doueua sacrificare, fecero come per giuoco tutte le cerimonie, che vi andauano. La quale cosa fu di sì gran piacere, e tanto cara ad Hercole, che restò l'vsanza poi appresso de' Thebani di sacrificargli de' pomi nella maniera, che gli fu sacrificato quel pomo per difetto di vittima. Ma perche non fu minore il valor di Hercole in altri più degni, & piu gloriosi fatti, che fosse in mangiare, & in bere, furono anco per ciò fattegli molte statoe, & dipinture, & quelle dedicategli così ne' suoi, come nelli Tempij de gli altri Dei. Trà queste si vedeua che piccolo bambino strozzasse con le mani duo serpenti andatigli alla culla; & fatto poi grande tagliasse le teste, che rinasceuano all'Hidra, e le abbrusciasse, che prendesse correndo la cerua, qual'haueua gli piedi di metallo, & le corna d'oro, & quarciasse le mascelle ad vn terribile Lione, ouero l'affogasse: che stesse a vedere alcuni caualli, che mangiauano vn Re posto loro dinanti; che se ne portasse in collo vn ferro cinghiale; che ferisse con le saette in aria certi vccellacci tanto grandi, che stendendo l'ali toglieuano la luce del Sole al Mondo; che menasse legato vno spauenteuole toro, che spiraua fuoco; che si stringesse sopra il petto vn gigante, e lo facesse morire che ammazzasse vn fero drago, e leuasse di certi horti gli pomi d'oro, che da quello erano guardati; che mettesse le spalle à sostenere il cielo, che ammazzasse vn Rè, che haueua tre corpi; & ne menasse vn grosso armento di buoi, che occidesse dinanzi ad vna spelonca vn terribil ladrone che spiraua fumo, & fiamma dalla bocca; che si tirasse dietro Cerbero con tre teste da lui incatenato; che tirando l'arco ammazzasse l'aquila, che diuoraua il fegato à Prometheo legato ad vn'alto monte; & che ammazzasse parimente molti ladroni, & molti tiranni, che troppo lungo sarebbe à dire tutti i gloriosi fatti, che si raccontano di costui, danno materia di farne diuerse imagini, per li quali fu chiamato domatore de' mostri; ma perche non sono piu brutti, nè più spauenteuoli mostri, nè tiranni più crudeli frà mortali de i vitij dell'animo, hanno voluto dire alcuni, che la fortezza di Hercole fu dell'animo, non del corpo, con la quale ei superò tutti quelli appetiti disordinati li quali ribelli alla ragione, come ferocissimi mostri turbano l'huomo del continuo, & lo trauagliano. Et à questo proposito Suida scriue, che per dimostrare gli antichi, che Hercole fu grande amatore di prudenza, & di virtù, lo dipinsero vestito di vna pelle di Lione, che significa la grandezza, & generosità dell'animo, gli posero la mazza nella destra, che mostra desiderio de prudenza, & di sapere, & con essa finsero le fauole, che egli ammazzasse il fero drago, & portasse via tre pomi d'oro, ch'ei teneua nella sinistra mano, & erano prima guardati da quello, che superò l'appetito sensuale, & da quello liberò le tre potenze dell'animo ornandole di virtù, & di opere giuste,
+
+Колонтитул: De gli Antichi. 289
+Кустод: &
+Сигнатура: T
+Маргиналии:
+- Fatiche di Hercole.
+- Hercole forte di animo.
+- Spositione di Hercole.
+
+## Скан 0332 · с. 290
+
+& honeste. Macrobio, il quale come hò già detto più volte, da vna intelligenza à gli altri Dei, vuole intendere di Hercole, ch'ei sia il Sole, & che i gloriosi suoi fatti, che sono dodici i più celebrati, siano i dodici segni del Zodiaco superati dal Sole, perche scorre per quelli in tutto l'anno. Altri hanno voluto, che Hercole sia il tempo, il quale vince, & doma ogni cosa, & perciò gli metteuano in capo ghirlande de i rami della pioppa, che questo è l'arbore, che à lui diedero gli antichi; onde Virgilio, fa, che Euandro sacrificandogli se ne cinge il capo, & la chiama Herculea fronde, perche questa con due colori, che ha, mostra le due parti del tempo, l'vno bianco, che mostra il dì, & l'altro fosco, che significa ta notte, delli quali dicono le fauole essere stata la cagione, che quando Hercole andò in Inferno per trarne quindi Cerbero, si auolse intorno al capo alcuni rami di pioppa, & che le foglie di questi diuentarono bianche di sotto dalla parte, che toccaua le carni tutte bagnate, e molli di sudore, & di sopra verso l'aere infernale fosche, & assumicate, & che perciò egli volle dapoi, che tutte fossero sempre tali, & a molle poscia sempre, perche gli difesero il capo dal noioso fumo della casa infernale. Et a questo, che Hercole fosse tolto pel tempo, si confaceuano alcune cerimonie de' suoi sacrificij, le quali, oltre all'vso osseruato in quelle de gli altri Dei, erano celebrate a capo scoperto, come scriue Macrobio, se ne può rendere la istessa ragione, che fu detta nella Imagine di Saturno, cui sacrificauano parimente a capo scoperto. Leggesi ancora appresso di Plinio, che non andauano cani, nè mosche nel tempio di Hercole, ch'era a Roma nel foro Boario: quelli, ò perche sentiuano à naso la mazza, che staua appoggiata quiui di fuori, ouero perche furono da costui odiati per le cause, che scriue Plutarco, oue rende la ragione, perche non andassero i cani nel suo tempio: queste, perche sacrificando vna volta Hercole à Gioue, & hauendolo pregato, che ei gli leuasse d'attorno le mosche, che lo noiauano fuor di modo, & per questo ammazzatogli vna vittima di più, quelle se ne volarono via subito tutte insieme, ne vennero poi mai più a' suo sacrificij. Et perciò in quella parte della Grecia, oue questo auenne, fu datto cognome à Gioue discacciatore di mosche. Benche alcuni hanno detto, che non fu Gioue che discacciasse le mosche allhora, ma Miagro Dio proprio delle mosche, il quale è nomato ancora da alcuni altri Miode; & quando faceuano sacrificio a costui in certa parte della Grecia tutte le mosche volauano fuor del paese. Adorauano parimente i Cirenei gente della Libia il Dio delle mosche da loro detto Achoro, egli sacrificauano per fare cessare la peste causata talhora dalla gran moltitudine di quelle. E gli Accaroni nella Giudea hebbero medesimamente l'Idolo delle mosche Belzebu, che così l'interpreta il Beato Gieronimo. Et come le mo-
+
+Колонтитул: 290 Imagini de i Dei
+Кустод: che;
+Сигнатура:
+Маргиналии:
+- Macrobio.
+- Hercole pel Sole.
+- Hercole pel tempo.
+- Pioppa arbore di Hercole.
+- Cerimonie di Hercole.
+- Gioue scacciatore di mosche.
+- Miagro oro Miode, Dio delle mosche.
+- Achoro.
+- Belzebu.
+
+## Скан 0333 · с. 291
+
+sche andauano alli sacrificij di Hercole, così le donne ne erano scacciate; ne gli poteuano pure vedere, il che dicono fu ordinato da lui medesimo per lo sdegno, che egli hebbe già vna volta, che vna donna non volle dargli bere, scusandosi, che all'hora era la festa della Dea Bona, tempo, nel quale non poteuano le donne apprestare, nè dare cosa alcuna a gli huomini. Onde fu osseruato dapoi, che come gli huomini erano scacciati da quelli della Dea Bona, così le donne non poteuano vedere gli sacrificij, nè entrare ne' tempij di Hercole, se non alcune appò gli Eritrei, li quali hebbero vn simulacro di Hercole, secondo che recita Pausania, intralciato, & come intessuto frà certi legni attaccati insieme in forma di Zattera, la quale portata dal mare Ionio dicono che prese terra ad vna Isoletta, che è nel mezo frà gli Eritrei, & Chio; & che gli vni, & gli altri cercarono di hauerla, hauendo già visto il simulacro, ma per quanta forza vi mettessero, non fu mai possibile leuarla quindi, fin che vn pouero huomo Eritreo, qual era già stato pescatore, quando vi vedeua (che all'hora era cieco) disse, parendogli di esser stato auertito in sogno, che con vna fune de i capelli delle donne si potrebbe tirare la Zattera col simulacro ouunque si volesse, ma non hauendo mai voluto le donne della Città dare gli suoi capelli per fare questo, alcune femine di Tracia, le quali, benche fossero nate libere, nondimeno, perche non haueuano allhora altro argomento di viuere, quiui seruiuano altrui, offersero spontaneamente, & diedero gli loro, onde fu fatta la fune, con la quale gli Eritrei tirarono la Zattera, & hebbero il simulacro, & perciò vollero, & ne fecero editto publico, che alle donne di Tracia solamente fosse lecito appò loro di entrare nel tempio di Hercole. Scriue ancora il medesimo Pausania, che delle molte statoe, che erano in Delfo, ve ne furono due l'vna di Hercole, & l'altra di Apollo, che teneuano ambe il Tripode come che se lo volessero torre l'vn l'altro, perche furono già per venire alle mani stranamente, come si legge appresso di Cicerone, ma che Latona, & Diana, che erano quiui parimente, pareuano mitigare l'ira di Apollo, & Minerua quella di Hercole. Fu questo così finto, perche adirato Hercole già vna volta, che ei non puote hauere certa risposta dal Oracolo, tolse il Tripode, & se lo portò via; ma tornato in buona poi lo rese, & hebbe perciò dall'Oracolo quello che dimandaua. Chiamarono gli antichi Tripodi certi vasi di metallo da tre piedi, che erano a loro, come hoggi sono a noi i paiuoli, & alrri vasi da cucina, li quali Homero fà che siano di due sorti, & ne chiama vna come diremo noi da fuoco, l'altra senza fuoco, perche questi erano tenuti nelle case, e ne' tempij solo per ornamento, & erano perciò offerti alli Dei, come dono di molto stima, & alle persone degne, & di valore erano parimente donati. Onde Virgilio
+
+Колонтитул: De gli Antichi. 291
+Кустод: gli
+Сигнатура: T 2
+Маргиналии:
+- Donne scacciate dalle cerimonie di Hercole.
+- Donne priuilegiate.
+- Hercole & Apollo alle mani.
+- Tripode che sia.
