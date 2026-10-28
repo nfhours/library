@@ -7663,3 +7663,227 @@ Per le qual cose i Thebani posero Pluto, come io dissi nella sua imagine, in man
 Маргиналии:
 - Virgilio.
 - Martiano.
+
+## Скан 0418 · с. 376
+
+[ГРАВЮРА — полностраничная]
+
+*Jmagini della lieta, & trista fortuna, ouero della fortuna passata, presente, & ventura, giudicata da gli antichi, benche sij solo vn nome imaginato, maggiore de tutti li loro dei falsi, & patrona delle cose di qua giù, & questo nume li antichi s'imaginorono per scusa dell'imprudenze loro.*
+
+Колонтитул: 376 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0419 · с. 377
+
+ciosia che le ricchezze siano della Fortuna, & le virtù nostre, e noi mettiamo sempre queste dietro à quelle, come dice Horatio, quando sdegnatamente così grida.
+
+*O Cittadini, Cittadini sciocchi,*
+*Ricercate pur prima le richezze,*
+*E le Virtù lasciate dietro a queste.*
+
+Mostrarono poi gli antichi la buona, & lieta Fortuna, che è quando ella à noi porge de' suoi beni, & la mesta, & sconsolata, come siamo noi, quando di quelli restiamo priuati, amendue insieme in questo modo, benche la iscrittione dica alla buona Fortuna solamente, come spesso si vede ne gli antichi marmi de' Greci. Stà à sedere vna dõna honestamẽte vestita in habito di matrona mesta in vista, & scõsolata, alla quale è dauanti vna giouine bella, & vaga nello aspetto, che le dà la destra mano, & di dietro è vna fanciulla, che stà con vna mano appoggiata alla fede della matrona, la quale mostra la passata Fortuna, e perciò stà mesta: la giouane, che le dà la mano, & si mostra lieta, è la Fortuna presente, & la fanciulla, di dietro stà appoggiata alla fede, è quella, che viene, ouero ha da venire. Ma prima ch'io vada più oltre parlando della Fortuna, voglio dire chi fosse Nemesi; perche sono queste due molto simili tra loro, e tanto, che le hanno credute alcuni vna medesima cosa, come da quello si vede, che pur dinanzi hò riferito di Martiano: nondimeno fù pure adorata ciaschena da sè, & hebbero quella, & questa imagine trà loro differenti, come apparirà per lo mio disegno. Fù dunque Nemesi vna Dea, la quale era creduta mostrare a ciascheduno quello, che gli stesse bene a fare: & Ammiano Marcellino così dice di lei. Questa è la Dea, che punisce i maluagi, & dà premio a' buoni, conoscitrice di tutte le cose, onde la finsero gli antichi Theologi figliuola della Giustita, che da certa secreta parte della Eternità, se ne stesse a riguardare le opere de' Mortali. Macrobio dice di costei, ch'ella fu adorata come vendicatrice della superbia, & alla vsanza sua la tira al potere del Sole. Percio che'l Sole è di questa natura, che douunque appare, oscura lo splendore di ogni altro lume, & fa spesso apparire, & risplendere quello, che prima staua occulto, & pareua oscuro. così fà Nemesi parimente, che opprime i troppo superbi, & solleua gli humili, & a ben viuere gli aiuta, & in somma era creduta questa Dea punire tutti quelli, li quali troppo si insuperbiuano del bene, che haueuano, & la chiamarono spesso i Poeti Rhannusia da certo luoco nel paese di Athene, oue ella hebbe vn bellissimo simulacro di marmo. Fù detta ancora alle volte Adrastia da Adrasto Rè, perch'ei fù il primo che mettesse tempio a costei: la quale fù da gli antichi fatta con le ali,
+
+Колонтитул: De gli Antichi. 377
+Кустод: ali,
+Сигнатура:
+Маргиналии:
+- Horatio.
+- Fortuna buona, e ria.
+- Nemesi.
+- Ammiano, Marcellino.
+- Macrobio.
+- Rhannusia.
+- Adrastia.
+
+## Скан 0420 · с. 378
+
+[ГРАВЮРА — полностраничная]
+
+*Imagine della dea Nemesi dimostratrice delle buone opere, & seuera punitrice de superbi, & maluagi; & cortese, & larga donatrice, & premiatrice delle buone operationi; essendo tenuta la conoscitrice de tutte: figliuola della Giustitia, che ci ammaestra nelle attioni douersi vsare misura e sẽno.*
+
+Колонтитул: 378 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0421 · с. 379
+
+ali, perche credeuano, ch'ella fosse con mirabile velocità presta ad ogn'vno, & a canto le posero vn temone da Naue, & vna ruota sotto i piedi. Fu fatta Nemesi alle volte ancora che nell'vna mano tiene vn freno, & nell'altra vn legno, con che si misura, volendo perciò mostrare, che debbono gli huomini porre freno alla lingua, & fare tutto con misura, come dicono due versi Greci, li quali furono già fatti sopra questa statoa, & in volgare il senso loro è tale.
+
+*Con questo freno, e con questa misura*
+*Io Nemesi dimostro, che frenare*
+*Debba ciascun la lingua, nè mai fare*
+*Cosa se prima ben non la misura.*
+
+Scriue Pausania, che Nemesi fù vna Dea nimica oltra modo a gli huomini insolenti, e troppo superbi, & seguita così poi. E furono puniti già dalla ira di costei i Barbari, li quali sprezzando gli Atheniesi, e venuti ne' paesi loro, come che già gli hauessero superati affatto, vi fecero condurre vn bellissimo marmo per farne dopò superbo trofeo; ma tutto fu il contrario: perche restarono vincitori gli Atheniesi, e Phidia fece poi di quel marmo condotto da' Barbari, vn simulacro alla Dea Nemesi, del quale fà Ausonio vn'epigramma, fingendo che la stessa Dea dica essere stata fatta per segno della vittoria de i Greci, & per mostrare, ch'ella non lasciò impunita la vana superbia de i Persi. Haueua questo simulacro vna corona in capo scolpita à cerui, & a breui imagini della vittoria, e teneua vn ramo di frassino nella sinistra mano, e nella destra vn vaso con alcuni Ethiopi scolpiti dentro, delle quali cose dice Pausania, che non sà renderne alcuna ragione, nè che pensarne pure, & io manco lo sò. Soggiunge poi il medesimo Pausania, che le statoe di Nemesi non haueuano da principio le ali, come le' hebbero poscia appresso de gli Smirnei, che questi furono i primi, che la facessero alata alla simiglianza di Cupido: perche credeuano ch'ella hauesse che fare assai con gli innamorati, come che punisse quelli, li quali andauano, della sua bellezza troppo alteri, e superbi, come Ouidio mostra nella fauola di Narcisso. Et Catullo parimente, poscia che ha pregato assai Licinio bellissimo giouine, che venga à lui dice alla fine: guarda che tu non ti facci poco conto de' miei prieghi, e mi disprezzi, accioche talhora non te ne gastighi poi Nemesi Dea terribile. Perche dunque puniua questa Dea i mortali delle loro opere superbe, & ingiuste, la credettero alcuni essere la medesima con la Giustitia. Della quale è descritta la imagine da Chrisippo, secondo che riferisce Aulo Gellio, in forma di bella vergine, terribile nello aspetto, non superba, nè humile; ma tale, che con honesta seuerità si mostri degna di ogni riuerenza; con occhi di acu-
+
+Колонтитул: De gli Antichi. 379
+Кустод: tissima
+Сигнатура:
+Маргиналии:
+- Pausania.
+- Ausonio.
+- Nemesi senza ali.
+- Catullo.
+- Giustitia.
+- A. Gellio.
+
+## Скан 0422 · с. 380
+
+[ГРАВЮРА — полностраничная]
+
+*Imagine della Giustitia custoditrice de buoni, & punitrice de rei; & imagine della Giustitia conculcante, & castigante l'ingiuria, & hieroglifico denotante detta Giustitia, & quale deue essere, apparere, & operare.*
+
+Колонтитул: 380 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0423 · с. 381
+
+tissima vista: onde Platone disse, che la Giustitia vede tutto, e che da gli antichi sacerdoti fu chiamata vendicatrice di tutte le cose. Et Apuleio giura per l'occhio del Sole, & della Giustitia insieme, come che non vegga questo meno di quello. Le quali cose habbiamo noi da intendere, che deono essere ne i ministri della giustitia, perche bisogna, che questi con acutissimo vedere penetrino infino alla nascosta, & occulta verità, & siano come le caste Virgini puri, sì che nè pretiosi doni, nè false lusinghe, nè altra cosa gli possa corrompere: ma con fermissima seuerità giudichino sempre per la ragione: & si mostrino a' rei, & a' maluagi terribili, e spauenteuoli, & a' buoni, & innocenti piaceuoli, & benigni. Hanno poi posto in mano alla Giustitia vna bilancia alle volte, & alle volte, quel fascio di verghe legate con la scure, che portauano i Littori dauanti a' Consoli Romani. E talhora fu la Giustitia da gli antichi fatta in questa guisa ancora. Staua vna Vergine nuda à sedere sopra vn sasso quadro, e teneua con l'vna mano vna bilancia, & con l'altra vna spada nuda, Scriue Diodoro, ch'in certa parte dell'Egitto, oue erano le porte della Verità, fù la statoa ancora della Giustitia: la quale non haueua capo: & non ne rende alcuna ragione, come farò anche io, venendo a dire, che in Egitto pure faceuano la Giustitia in questo modo ancora. Dipingeuano la sinistra mano distesa, & aperta; perche questa è naturalmente più fredda, e più pigra della destra; & perciò meno atta à fare ingiuria altrui. Onde trà l'altre cose, che nell'arca di Cipsello erano scolpite, scriue Pausania, che vi fù vna bella donna, la quale vn'altra se ne tiraua dietro, ma brutta, tenendola stretta nel collo con la sinistra mano; e con la destra percotendola stranamente con vn legno & che quella era la Giustitia, & questa la Ingiuria. Imperoche i giusti giudici deono tenere oppressa sempre la ingiuria, sì che non sia fatto mai torto ad alcuno, come hanno da vedere bene onde la verità non sia loro occulta mai, & così hanno da vdire tutto quello, che ciascuno dice à sua diffesa, & non condannare gli accusati per le parole solamente de gli accusatori, se non vogliono essere simili à quel giudice, qual dipinse già Apelle, come recita Luciano, dopò ch'ei fu liberato da Tolomeo Re dello Egitto, che fu per farlo morire, hauendo creduto troppo scioccamente ad Antifilo, il qual per inuidia l'haueua accusato come consapeuole di certa ribellione: ma fu scoperto la verità poi da vno de i congiurati: & il Rè conosciuto l'inganno liberò Apelle, e gli donò cento talenti, & volle, che Antifilo, il quale l'haueua accusato à torto, fosse poi sempre suo schiauo. Apelle dunque, volendo dimostrare il pericolo, à che era stato, dipinse vna bellissima tauola, che fu chiamata poi la Calunnia di Apelle, in questo modo: Staua sedendo à guisa di Giudice vno, che haueua le orecchie lunghe simile a quelle dell'Asino, & come si legge, che le hebbe il Rè Mida,
+
+Колонтитул: De gli Antichi. 381
+Кустод: cui,
+Сигнатура:
+Маргиналии:
+- Giustitia vede il tutto.
+- Apuleio.
+- Giudici quali deono essere.
+- Dipintura di Apelle.
+
+## Скан 0424 · с. 382
+
+[ГРАВЮРА — полностраничная]
+
+*Tauola della Calumnia dipinta d'Apelle, nella quale vi è il Giudice con le orecchie d'Asino dinotante l'Ignoranza, e due donne li fauellano all'orecchie, vna è l'Ignoranza l'altra la Suspitione. Il vecchio che precede alla Calumnia è l'inuidioso, quello che per capelli tiene la Calumnia e il Calumniato. Le due Donne, che accompagnano la Calumnia l'vna è la Fraude, & l'altra l'Insidia. Delle due donne abasso vna è la Penitenza riguardante la Verità, effetto del Calumniare, che per ricompensa aspetta la vergogna, il danno, & il vituperio.*
+
+Колонтитул: 382 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0425 · с. 383
+
+cui due donne, vna per lato mostrauano di dire non sò che pian piano all'orecchie, era l'vna di queste la Ignoranza, l'altra la Sospittione, & porgeua la mano alla Calumnia, che veniua à lui in forma di donna bella, & ornata, ma che nel aspetto mostraua di essere tutta piena di ira, e di sdegno, & haueua nella sinistra mano vna facella accesa, & con la destra tiraua dietro per i capelli vn giouine nudo, qual miserabilmente si doleua alzando le giunte mani al Cielo. Andaua innanzi a costei il Liuore, cioè la Inuidia, ch'era vn'huomo vecchio, magro e pallido, come chi sia stato lungamente infermo, & dietro le veniuano due donne le quali pareuano lusingarla facendo festa della bellezza sua, & adornandola tuttauia il più, che poteuano, & dimandauasi l'vna Fraude, & il nome dell'altra era Insidia. Dietro a queste seguitaua poi vna altra donna chiamata Penitenza, con certi pochi panni intorno tutti logori, e squarciati, che largamente piangendo si affliggeua oltra modo, & pareua volersene morire della vergogna, perche vedeua venire la Verità. Così descriue Luciano la Calumnia già dipinta da Apelle, onde ne raccoglie poi, che questa non è altro, che vna falsa accusatione creduta dal Giudice di chi non sia presente à dire il fatto suo; la quale per lo più è causata da la Inuidia, & perciò gliela messe dauanti Apelle, & è questa vn morbo dell'animo humano il peggiore che possa essere, perche non solamente fà male altrui; ma à gl'inuidi stessi nuoce grandemente. Onde Silio Italico mette tra le peste, e tra i mostri, che sono in inferno, la inuidia che con ambe le mani si stringe la gola: & perciò ben disse Horatio, che
+
+*Non seppero i Tiranni di Sicilia*
+*Trouar maggior tormento della Inuidia.*
+
+Conciosia che, come dicono alcuni versi creduti di Virgilio, e tirati in questa guisa al volgare,
+
+*Vn veneno è la Inuidia, che diuora*
+*Le midolle, & il sangue tutto fugge.*
+*Onde l'inuido n'hà debita pena;*
+*Perche mentre l'altrui sorte l'accora,*
+*Sospira, freme, e come Leon rugge,*
+*Mostrando, ch'à la misera alma piena*
+*D'odio crudel, che'l mena*
+*A veder l'altrui ben con occhio torto.*
+*Però dentro si fà ghiaccio, e di fuore*
+*Bagnasi di furore,*
+*Ch'altrui può far del suo dolore accorto;*
+*E con la lingua di veleno armata*
+
+Колонтитул: De gli Antichi. 383
+Кустод: Morde,
+Сигнатура:
+Маргиналии:
+- Calumnia.
+- Penitenza.
+- Inuidia.
+- Silio Italico.
+- Horatio.
+- Virgilio.
+
+## Скан 0426 · с. 384
+
+[ГРАВЮРА — полностраничная]
+
+*Imagini dell'Inuidia, che à se stessa nuoce, essendo che l'inuidioso si strugge vedendo l'altrui prosperità, & si ottura l'orecchie à l'altrui lodi, & si stringe la gola per soffocarsi, quelle vedendo essaltate, & questo è il pessimo de vitij.*
+
+Колонтитул: 384 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0427 · с. 385
+
+*Morde, e biasima sempre ciò che guata.*
+*Vn pallido color tinge la faccia,*
+*Qual dà del duolo interno certo segno,*
+*Et il misero corpo diuien tale,*
+*Che par che si distrugga, e si disfaccia.*
+*Ciò che vede gli porge odio, e disdegno:*
+*Però fugge la luce, e tutto à male*
+*Gli torna, e con vguale*
+*Dispiacer schifa il cibo, annoia il bere,*
+*Vnqua non dorme, mai non hà riposo,*
+*E sempre il cor gli è roso*
+*Da quella inuida rabbia, qual'hauere*
+*Non può mai fine; & al cui graue male*
+*Rimedio alcun di medico non Vale.*
+
+Et Ouidio facendola in forma di donna, perche come dicemmo poco fà nella dipintura di Apelle, i Greci la fecero huomo così la descriue.
+
+*Pallido ha il Volto, il corpo magro, e asciutto,*
+*Gli occhi son biechi, e rugginoso il dente,*
+*Il petto arde d'amaro fele, e brutto*
+*Velen colma la lingua, nè mai sente*
+*Piacer alcun, se non de l'altrui lutto:*
+*Alhor ride la Inuidia, ch'altrimente*
+*Si mostra ogni hor addolorata, e mesta,*
+*E sempre à l'altrui mal Vigile, e desta.*
+
+Et descriuendo prima la sua casa trista, fredda, & caliginosa, haueua detto, che ella quiui se ne staua mangiando serpenti. Plutarco scrisse assai lungamente della Inuidia, & il gran Basilio facendone vna Oratione, dice, che gl'inuidiosi sono simili a gli auoltoi, & alle mosche: perche, come quelli volando passano sopra lieti campi, & sopra fioriti prati, ne si calano, se non oue veggono qualche puzzolente corpo, e di questo ancora lasciando le intere parti vanno ricercando le corrotte, & guaste; così gli inuidiosi non guardano mai, ò che dissimulano di vedere quello, che in altrui meriti di esser lodato, & à quello solo pongono mente, che possa essere biasimato in qualche modo. Come fù creduto fare Momo fra gli Dei, il quale fù parimente Dio appresso de gli antichi, & nacque secondo Hesiodo del Sonno, e della Notte: nè faceua egli cosa alcuna mai; ma guardaua quello, che gli altri Dei faceuano, & riprendeua liberamente, & biasimaua ciò che non era fatto à modo suo. Onde Esopo scrisse, e lo riferisce Aristotele, che Momo biasimaua chi fece il
+
+Колонтитул: De gli Antichi. 385
+Кустод: bue
+Сигнатура: Bb
+Маргиналии:
+- Ouidio.
+- Momo.
+- Esopo.
+
+## Скан 0428 · с. 386
+
+[ГРАВЮРА — полностраничная]
+
+*Imagine di Momo Dio della reprensione, ò maledicenza, & del biasmo, figliuolo del Sonno, & della Notte, significante li detrattori non esser da niente, ne mai oprar nulla, solo biasimare le operationi altrui, non riguardando mai se non al riprensibile, non mai al lodeuole, simili à talpe, che non riguardano il Sole ne il giorno, ma solo le tenebre & l'oscurità.*
+
+Колонтитул: 386 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0429 · с. 387
+
+bue dicendo che fu mal auisato a farli le corna su'l capo, perche doueua fargliele sù le spalle, accioche con forza maggiore potesse ferire. Et dell'huomo diceua, come racconta Luciano; che errò grandemente chi lo fece à non fargli vna finestretta nel petto, accioche si potesse ageuolmente vedere ciò, che egli hauesse in cuore. A Venere non trouò che dire, come Filostrato scriue se non che le pianelle faceuano troppo rumore, quendo ella caminaua. La imagine di costui è descritta da certi Epigrammi Greci in forma di vecchio magro, e secco, tutto pallido, con bocca aperta, e chinato verso terra, la quale ei và percotendo con vn bastone, che hà in mano, forse perche tutti i Dei de gli antichi furono detti figliuoli della terra. Fra gli quali Momo Dio della riprensione, & del biasimo faceua l'vfficio, che fanno alcuni fra noi, & perciò sono parimente detti Momi: li quali mossi solo da vaghezza di dire male d'altrui a loro piacere, & senza ragione alcuna, biasimano ciò che veggono: ilche viene per lo più, come hò già detto, dalla Inuidia, qual'è come diceua Euripide, & lo riferisce Eliano, cosa fuor di modo trista, maluagia, & vergognosa; & si legge, che gli antichi la disegnauano facendo l'anguilla: perche questa, come dice il medesimo Eliano, se ne stà da sè, ne và con gli altri pesci mai. La Fraude poi, quale fece Apelle in forma di donna, fu disegnata da Dante con faccia solamente di huomo da Bene, & giusto, ma che habbia il resto del corpo tutto di serpente, macchiato di diuersi colori, & che termini, & finisca in coda di Scorpione. Le parole sue sono queste.
+
+*E quella sozza imagine di froda*
+*Sen' Venne, & arriuò la testa, e'l busto.*
+*Ma in sù la riua non trasse la coda.*
+*La faccia sua era faccia d'huom giusto,*
+*Tanto benigna hauea di fuor la pelle,*
+*E d'Vn serpente l'Vno, e l'altro fusto.*
+*Due branche hauea pelose in fin l'ascelle,*
+*Lo dosso, il petto, & amendue le coste*
+*Dipinte hauea di nodi, e di rotelle.*
+*Con più color sommesse, e sopraposte*
+*Non fur mai drappi Tartari, nè Turchi;*
+*Ne fur tal tele per Aragne imposte.*
+
+La spositione di questa imagine è, che la natura de gli huomini ingannatori, & fraudolenti è dimostrarsi nell'aspetto, & in parole benigni, piaceuoli, e modesti, ma di essere altrimente in fatti, sì che tutte le loro opere alla fine si mostrano piene di mortifero veleno. Per la qual cosa posero gli antichi il Pino ancora alle volte volendo dise-
+
+Колонтитул: De gli Antichi. 387
+Кустод: gnare
+Сигнатура: Bb 2
+Маргиналии:
+- Euripide.
+- Eliano.
+- Fraude.
+- Dante.
+- Natura de fraudolente.
+- Pino per la Fraude.
