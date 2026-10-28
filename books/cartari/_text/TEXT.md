@@ -7212,3 +7212,226 @@ la ragione, tolta da Diodoro, dicendo che concio fosse cosa che già da principi
 - Cisso.
 - Thirso.
 - Diodoro.
+
+## Скан 0394 · с. 352
+
+hà le foglie verdi) che della vite, la quale al tempo dello inuerno la perde. E fu questo da gli antichi osseruato ne gli altri arbori ancora, che stanno verdi sempre, & perciò a Venere consecrarono il Mirto, & il Lauro ad Apollo. Nè fu però Baccho coronato sempre di Hedera solamente, ma con le foglie del Fico ancora alle volte per memoria di vna Ninfa, la quale hebbe nome Syca, che appresso de Greci vale il medesimo, che Fico appò noi, amata già da lui, come dicono le fauole, & mutata poi in questo arbore, come si legge anco di Cisso fanciullo da lui pur'amato, che diuentò poi Hedera, & di Staphile Ninfa, che medesimamente fu cangiata in vite, quando egli l'amaua, onde non è marauiglia, se gli furono poscia grate tutte queste piante, & se voleua spesso hauerne ghirlande in capo: oltre che delle medesime gli adornauano gli antichi il carro, lo scudo, le haste, e gli faceuano anco poi ghirlande col Narciso alle volte, & alle volte con molti altri diuersi fiori, come lo descriuono i Poeti; & Diodoro scriue, che al tempo della pace ne i giorni solenni Baccho portaua belle veste, molli, delicate, e tutte dipinte a fiori. Et a ragione fu sua pianta la vite, come quella che più si confà con lui di alcuna altra; perche se Baccho mostra il vino spremuto dalle vue, che nascono dalle viti, che altro si può dare a costui, che più gli sia proprio della vite; Per la quale causa Statio finge il suo carro coperto, e circondato tutto di vite quando dice.
+
+*Già s'auuicina à le materne mura*
+*Baccho col carro tutto circondato,*
+*E coperto di vite: le Pantere*
+*Da l'Vn lato, e da l'altro Van con lui*
+*E leccano le briglie, e gli altri arnesi*
+*Di Vino aspersi le Veloci Tigri.*
+
+Del carro dato à Baccho rende il Boccaccio questa ragione, che il troppo vino fa spesso così aggirare il ceruello à gli huomini, come si aggirano le ruote de' carri, di che oltre alla proua, che se ne vede tutto dì, fa anco fede certa nouelletta assai piaceuole scritta già da Timeo Taurominitano, & riferita da Atheneo nelle sue cene, di alcuni giouani di Agrigento Città della Sicilia, li quali ragunatisi a banchettare insieme in certa casa vna sera, tanto beuerono, & imbriacaronsi di sì fatta maniera, che cominciò loro à parere di essere sù vna Galea, la quale fosse stranamete agitata dalle turbate onde del mare: e così si voltò loro il ceruello, che anco il dì seguente pensauano tutti di essere in gran fortuna di mare: e temendo non forse la Galea andasse à fondo, gittarono fuori dalle finestre letti, tauole, banche, casse, & ciò che si trouarono della masseritia di casa, parendo loro, che'l nocchiero
+
+Колонтитул: 352 Imagini de i Dei
+Кустод: nocchiero
+Сигнатура:
+Маргиналии:
+- Statio.
+- Timeo Taurominitano.
+- Nouella piaceuole.
+- Vbbriacchi soleni.
+
+## Скан 0395 · с. 353
+
+[ГРАВЮРА — полностраничная]
+Imagine della Naue di Bacco, del monte Timolo di Lidia delle Bacche per quello scorrenti, & de Corsari Tirrheni captori di Bacco da quello tramutati in Delfini per loro misfatti significanti li vitij, & peccati far perder all huomo la ragione.
+
+Колонтитул: De gli Antichi. 353
+Кустод:
+Сигнатура: Z
+Маргиналии:
+
+## Скан 0396 · с. 354
+
+nocchiero lo comandasse per allegerirla. Onde i Sergenti della giustitia non sapendo, che ciò fosse entrarono colà dentro, e trouarono tutti que' giouani trattisi chi quà, chi là per terra, che niente sentiuano; & hauendogli tanto scossi, che paruero destarsi pur'vn poco, dimandarono loro, che voleuano fare; & essi risposero, che'l trauaglio del mare gli haueua sì forte stancati, che non poteuano più, gionta la fatica, che haueuano fatta di mettere fuori di Naue le tante robbe, che la caricauano troppo: & io, disse vn di loro, per la gran paura, che hò hauuta, mi sono tirato quà sotto coperta. Quelli Sergenti voleuano pure fargli rauuedere della loro follia, ma visto, che perdeuano tempo, se ne andarono, hauendo detto loro, che si guardassero all'auenire di bere più di quello, che hauessero bisogno. Et i giouani stupidi pur'anco; vi ringratiamo, dissero, & se mai potiamo vscire di tanta fortuna, seguitò vn di loro, & arriuare à saluamento in porto, vi porremo, poscia che saremo ritornati alla patria, frà gli altri Dei del mare, riconoscendo la salute nostra da voi. Et durò la buona vbbriachezza molti dì: onde quella casa fu chiamata sempre la Galea. Era tirato il carro di Baccho da Tigri, & da Pantere, perche il vino fa gli huomini feroci, e terribili, come è la natura di questi animali. Filostrato dice, che vanno le Pantere con Baccho, perche sono animali caldissimi, & che leggiermente saltano, come faceuano le Bacche, & come sono gli huomini souente riscaldati dal vino più assai, che non è di lor natura. Et descriue la sua Naue, che hauesse la prora in forma di Pantera, & che le fossero appesi all'intorno di fuori molti risonanti ciembali: nel mezo era piantato vn lungo Tirso in vece di arbore, alla cui cima erano attaccate le porporee & risplendenti vele oue era tessuto con oro Timolo monte della Lidia, & le Bacche, che quiui andauano scorrendo. Era questa Naue di sopra tutta coperta di verde Hedera, & di Vite con bellissime vue, che pendeuano da verdi rami, & di sotto dal più basso fondo spicciaua fuori vn fonte di suauissimo vino, del quale beeuano largamente tutti quelli, che erano quiui. Così dipinge Filostrato la Naue di Baccho, nella tauola, ch'ei fa de' Corsali Tirrheni quali pensando di hauer fatto vna buona preda di questo Dio giouinetto ancora, & quasi fanciullo, furono da lui mutati in tanti Delfini, mentre che lo voleuano condurre in parte diuersa da quella, oue egli domandaua di andare, come ne racconta Ouidio la fauola interamente, dicendo che Baccho auueduto si dell'inganno di coloro, fece subito fermare la naue, & veniua la Hedera in copia sì grande che legò tutti i remi, & si distese per l'arbore, per l'antenne, e per le vele, & à sè cinse il capo di verdi rami di vite con l'vua attaccate, e tenendo il Thirso in mano mostrossi accompagnato da Tigri, da Pantere, & da Liopardi, di che que' perfidi Corsali hebbero sì gran paura, che si gittarono in mare,
+
+Колонтитул: 354 Imagini de i Dei
+Кустод: oue
+Сигнатура:
+Маргиналии:
+- Casa detta Galea.
+- Pantere perche con Baccho.
+- Naue di Baccho.
+- Filostrato.
+
+## Скан 0397 · с. 355
+
+oue furono poi Delfini, come hò detto. Vedesi à tempi nostri ancora quasi la medesima Naue fatta à bellissime figure di Musaico in Roma nella Chiesa di Santa Agnese, che fu già tempio di Baccho. Hanno detto le fauole anco di costui, che quando egli era fanciullino, le Parche lo cinsero con ferocissimi serpenti, che senza offenderlo punto gli andauano per lo petto, e per la faccia. D'onde venne poi, che le Bacche celebrando le sue cerimonie maneggiauano gli serpenti, senza sentirne alcuna offesa, come scriue Plutarco nella vita di Alessandro, quando parla di Olimpia sua madre, alla quale parue di essere stata fatta grauida da vn serpente: il che fu creduto anco dalla madre di Scipione, secondo che riferisce il medesimo Plutarco, perche fu vista vna gran biscia entrarle souente in camera. Della cerimonia, ch'io dissi di maneggiare i Serpenti, intese Catullo, quando de i ministri, e seguaci di Baccho disse, che alcuni si cingeuano con serpenti: sì come mostrò vn'altra misteriosa cerimonia ancora, dicendo che portauano alcuni le membra dello squarciato giouenco. Imperoche si legge che Pentheo Re di Thebe fu sprezzatore di Baccho, & delle sue cerimonie, nè voleua che fossero celebrate in modo alcuno, di che egli così si vendicò, che alla madre di lui, & alle altre femine, che celebrauano le feste bacchanali, lo fece parere vn giouenco, ouero vn cinghiale, come dice Ouidio, che venuto fosse a turbare le sacre cerimonie; onde gli furono intorno subito tutte, & lo squarciarono in pezzi, li quali portarono poi in mano, mentre che furiosamente andauano scorrendo liete della vendettà: & per memoria di questo soleuano le Bacche alle volte nelle feste del lor Dio stracciare vn vitello, e portarsene ciascheduna vno de' stracciati membri. La quale cosa si potrebbe forse dire, che fosse fatta per rappresentare quello, che raccontano le fauole, che fece Tifone con i compagni di Osiri, perche questi era in Egitto quel, che fu Baccho appresso de i Greci: onde Tibullo a lui da tutto quello, che già habbiamo detto di Baccho, & lo descriue così, dicendo;
+
+*Il primo, che l'aratro vnqua facesse*
+*Osiri fu, e il primo che mostrasse*
+*Come la terra a coltiuar s'hauesse.*
+*E come quella poi si seminasse*
+*Mostrò pur'anco, e quando i dolci frutti*
+*Ne l'arbor sconosciuto l'huom trouasse.*
+*Impararono già da costui tutti*
+*Gli altri di maritar la debil vite*
+*Al palo, accio che meglio poscia frutti.*
+*E di tagliar que' rami onde impedite*
+*Son le forze à la pianta di produrre*
+
+Колонтитул: De gli Antichi. 359
+Кустод: L'vue
+Сигнатура: Z 2
+Маргиналии:
+- Plutarco.
+- Vitello squarciato nelle cerimonie di Baccho.
+- Osiri.
+- Tibullo.
+Нумерация: на странице напечатано 359, в PAGES.tsv 355
+
+## Скан 0398 · с. 356
+
+*L'Vue cotanto da mortai gradite.*
+*Perche di queste al tempo suo mature*
+*Spremono i rozzi piedi il dolce succo,*
+*Come insegnò di fare Osiri pure.*
+E dopò per alcuni versi seguita così,
+*In te mai non si Vede segno Osiri*
+*Di mestitia, e da te Stan lunge sempre*
+*I pensier tristi, il pianto, & i sospiri.*
+*Ma bel choro Cantando in liete tempre*
+*Tuttauia t'accompagna ouunqua Vai,*
+*Si ch'amor, gioco, e riso è teco sempre.*
+*Tu sei ornato di bei fiori, & hai*
+*La fronte cinta d'Hedera, e dorata*
+*Veste, ch'à terra và, dietro ti trahi.*
+*Di porpora tal'hor ancho t'è data,*
+*E t'accompagna con soaue suono*
+*La caua Thibia, e la Cesta ingombrata*
+*De' misterij, ch'occulti sempre sono.*
+
+Trouasi questo Osiri fatto alle volte da gli Egittij in forma di sparuiere, vccello, che vi vede benissimo, e vola velocissimamente, come fà anco il Sole, di cui egli era imagine. Onde più souente anco lo fecero pur'in Egitto, come scriue Plutarco, in forma di huomo, che hà il membro naturale dritto & vn panno rosso intorno. Di che renderò la ragione poco di sotto, quando metterò mano à Priapo, che fu parte, e membro di Osiri. Perche di costui si legge, che Tifone suo fratello, hauendo fatto vna congiura di molti contra di lui, l'vccise, e fattolo in molti pezzi, lo distribuì tutto frà congiurati, dal membro virile in fuori, che non volle alcun di loro, & fu perciò gittato nel Nilo, che se lo portò via. Iside sua moglie addolorata per la perdita del marito, di cui non sapeua che diuenuto fosse, & l'haueua cercato già buona pezza, subito che questo intese, andò contra Tifone, & lo vinse, e recuperò da' congiurati le membra partite infra di loro, le quali ripose tutte insieme ordinatamente, e non vi trouando quello, che fu gittato nel Nilo, ne fu dolente fuor di modò, & ordinò, che nell'auenire, la imagine sua fosse riuerita, & adorata con molte cerimonie, come fu poi sempre sotto il nome di Priapo. E per memoria di tutto questo ordinò anco, che ogni anno a certo tempo con solenne cerimonia piangendo, & lamentandosi si andasse cercando Osiri, & indi à poco si facesse poi festa, con allegrezza grande, portando in volta con solennità vn bel fanciullo, che rappresentasse Osiri già trouato. Onde, perche questa cerimonia si rinouaua ogni anno, Lucano disse di costui, ch'ei non era cercato mai tanto, che ba-
+
+Колонтитул: 356 Imagini de i Dei
+Кустод: stasse.
+Сигнатура:
+Маргиналии:
+- Osiri in forma di sparuiere.
+- Osiri vcciso, e sbranato.
+- Cerimonie di Osiri.
+
+## Скан 0399 · с. 357
+
+[ГРАВЮРА — полностраничная]
+Imagini di Tifone fratel d'Osiri, & di Horo figliuolo d'Osiri, che è Baccho appo i Greci, qual Horo superò il detto Tifone, benche in Crocodilo tramutato; con l'Hippopotamo, & Sparauiere hieroglifici denotanti la Virtù combattente, & resistente al male, & ch'al fine lo supera e conculca.
+
+Колонтитул: De gli Antichi. 357
+Кустод:
+Сигнатура: Z 3
+Маргиналии:
+
+## Скан 0400 · с. 358
+
+stasse. Et di Horo auuene quasi anco il medesimo, che Iside sua madre lo pianse vn pezzo pensando di hauerlo perduto, ma pure lo ritrouò poi, & funne molto allegra. Per costui, che fu parimente adorato in Eggito, alcuni, come Macrobio, hanno voluto intendere il Sole, & che da lui siano state dette Hore quelle piccole parte del tépo, che misurano il dì. Et alcuni altri hanno inteso il mondo. Era il suo simulacro di giouane, che teneua con l'vna mano le parti vergognose di Tifone, perche si legge ch'ei lo vinse; ne lo vccise già, ma ben rese vano ogni suo potere, ancora che mutato in Crocodilo fuggisse da lui. Onde fu vna legge in Apollinopoli Città dello Egitto, la quale comandaua, che non fosse hauuto rispetto alcuno à Crocodili, ma gli cacciasse ognuno, & ne ammazzasse più che poteua, e tutti quelli, ch'erano presi, e morti, erano posti dinanzi del tempio di Horo. Di Tifone finsero le fauole, come recita Apollodoro, ch'ei fosse generato dalla Terra, a vendetta de' Giganti ammazzati già da i Dei del Cielo. Egli era di due nature, humana, e bestiale. Onde Platone parimente nel Fedro lo chiamaua bestia di molte nature, ardente e furioso; & auanzaua di grandezza di corpo, & di forza quanti fossero mai nati dalla terra. Il di sopra era in forma di huomo tutto coperto di penne tanto grande, & alto, che andaua sopra à tutti i più alti monti, e toccaua souente col capo le stelle, & distendendo le braccia arriuaua con l'vna mano all'Occidéte, e cò l'altra all'Oriéte, & da quella, & da questa vsciuano cento serpenti, che porgeuano le teste innanzi. Le gambe erano serpenti, che ne haueuano de gli altri attorno, quali andauano auuolgendosi sù pel terribile corpo tanto, che arriuauano all'alto capo, qual copriuano horridi, e squalidi crini, che pendeuano giù per lo collo, & per le spalle, e tale era anco la barba, che discendeua dal gran mento sopra l'ampio petto: gli occhi erano terribili, e sfauillauano, come fossero stati di fuoco, & la larga bocca versaua parimente ardentissime fiamme. Di costui hebbero tanta paura i Dei Celesti, perch'ei si era voltato contra di loro, gittando pietre infocate verso il Cielo, che fuggirono in Egitto, nè qui si tenero sicuri prima, che fossero mutati in diuersi animali, come di molti hò già detto nelle imagini fin quì segnate. Ma pure fu vinto alla fine da Gioue, secondo Apollodoro; ouero, come altri hanno voluto, ch'io dissi poco di sopra, da Horo il quale se bene hebbe nome diuerso fù però il medesimo che Osiri. Onde in Hermipoli Città dello Egitto faceuano l'Hippopotamo con vn Sparuiere, che lo combatteua standogli sopra, e per quello intendeuano Tifone imagine di tutto il male, che viene dalla terra, & per questo la virtù che gli resiste, e rende vano ogni suo furioso impeto mostrata per Osiri, ouero Horo che sono perciò il Sole, sì come per altre ragioni furono Baccho, per le quali come di Osiri fu detto in Egitto, che Tifone lo tagliò in
+
+Колонтитул: 358 Imagini de i Dei
+Кустод: pezzi,
+Сигнатура:
+Маргиналии:
+- Lucano.
+- Horo.
+- Tifone.
+- Platone.
+
+## Скан 0401 · с. 359
+
+[ГРАВЮРА — полностраничная]
+Imagine di Horo Dio delli Egittij, che è Priapo, & Bacco ancora, il quale viene inteso per la virtù seminale, & per il Sole; con il disegno del Disco significante la rotondità del mondo, che viene dal Sole illuminato, & à cui il Sole influisce la virtù sua.
+
+Колонтитул: De gli Antichi. 359
+Кустод:
+Сигнатура: Z 4
+Маргиналии:
+
+## Скан 0402 · с. 360
+
+pezzi, così dissero i Greci, che i Titani fecero il medesimo di Baccho. Et questo era ch'io dissi, che rapresentauano forse le Bacche con le membra dello squarciato vitello. Ma che Baccho fosse vcciso da' Titani, fatto in pezzi, e cotto, & di nouo poi ritornato insieme e tinto di gesso, perche piu non fosse conosciuto, come riferisce Suida, significa che le vue sono peste, e tutte rotte da' Contadini, che ne spremono il vino, il quale bolle purgandosi ne i gran vasi non solamente di legno, ma di pietra ancora, e talhora di gesso, & pare quasi cuocerlo, e lo cuocono anco alcuni, come che così poscia si conserui meglio; & sono dopò riposte insieme le stracciate membra, perche la vite al tempo suo riproduce le vue intere. Oltre di ciò, perche Baccho era anco creduto da alcuni de gli antichi essere quella virtù occulta, che à tutte le piante dà forza di produrre gli maturi frutti, scriue Herodoto, ch'egli fu Nume famigliare alle Dee Eleusine, & che andaua spesso con loro. Queste erano, come dissi già, Cerere, & Proserpina, le quali erano credute fare, che lo sparso seme germogliasse. Et leggesi appresso di Pausania parimente, che gli Atheniesi haueuano nel tempio di Cerere frà gli altri simulacri quel di Baccho ancora, il quale porgeua con mano vn'ardente face. Onde Porfirio diceua, secondo che riferisce Eusebio, che à Baccho erano fatte le corna, & lo vestiuano da femina, per mostrar, che nelle piante sono ambe le virtù di maschio, & di femina; e ben che si legga della Palma, che hà l'vno, e l'altra, & che malamente produce, se non sono ambe accosto insieme; nondimeno si vede, che generalmente ogni pianta produce le foglie, e i frutti da sè, senza che altra le congiunga, il che non è de gli animali, perche questi non ponno generare, se non si congiungono insieme il maschio, & la femina. Da che venne forse, che le fauole fingessero Priapo esser nato di Baccho, per mostrare la intera virtù feminale, che piglia sua forza dal Sole, così nelle piante, e nelle altre cose prodotte dalla terra. La quale cosa fu anco intesa nella imagine di Osiri, che io disegnai poco di sopra, mostrando il panno rosso, che haueua intorno, quel celeste calore, qual dà forza al seme fin nelle viscere della terra. Et Suida scriue, che Priapo è il medesimo che Baccho, il quale in Egitto era chiamato Horo, la cui imagine era in forma di giouane, che tiene vno scettro con la destra, come ch'ei sia Signore di ciò, che ci nasce in questo mondo, & con la sinistra il membro naturale dritto, e disteso, perche la occulta virtù feminale viene da lui; hà le ali, per mostrare quanto ei sia veloce, e gli stà à canto il disco, che era certa cosa larga, schicciata, e rotonda fatta di pietra, ò di metallo, con la quale si essercitauano gli antichi gittandola in alto, e mostraua quiui la rotondità dell'vniuerso; perche il Sole, che di lui s'intende, per gli tre, ch'io dissi, circonda il mondo. Et per mostrare quanto fossero Baccho, & Priapo conformi insieme, ò for-
+
+Колонтитул: 360 Imagini de i Dei
+Кустод: se.
+Сигнатура:
+Маргиналии:
+- Baccho sbranato.
+- Baccho con le Dee Eleusine.
+- Porfirio.
+- Suida.
+- Priapo.
+
+## Скан 0403 · с. 361
+
+se anco vna medesima cosa, vsarono gli antichi nelle feste Bacchanali di portare al collo la figura del membro virile fatta del legno del fico, & chiamata da loro Phallo, la quale fecero anco dapoi di cuoio rosso, come riferisce Suida. & attaccatasela dinanzi tra le coscie andauano con questa saltando in honore di Baccho, & erano dimandati allhora Phallofori. Si copriuano anco la faccia con sottilissime scorze di arbore, ò con qualche pelle, & si cingeuano il capo di Hedera, ò di Viole. Herodoto scriue, che in vece di questo fu trouato da gli Egittij di fare alcune piccole statoe, lunge vn cubito solamente, col membro naturale disteso, e grande quasi più di tutto il corpo, le quali portauano le donne in volta à certi tempi per gli Villaggi, sù certi piccoli carretti fatti a posta per questo, con le piue innanzi cantando in honore di Baccho. Et il medesimo fecero poi anco le Donne Romane, che portarono questo membro in volta con solenne pompa, & per lui furono ordinate molte cerimonie, le quali taccio per degni rispetti, oltre che di nulla seruono a disegnare la imagine di Priapo, che fu di fanciullo grosso, brutto, e mal fatto con la insegna virile grande, quanto tutto il resto del corpo simile alle piccole statoe, ch'io dissi pur mò, come le descriue anco Suida, il quale dice, che Giunone toccando il ventre a Venere lo fece nascere tale per dispetto di Gioue suo marito, che ne l'haueua ingrauidata, benche si legga ancora, che Baccho fu padre di Priapo, come hò detto di sopra, & che riferisce Theodorito, il quale di ciò rende la ragione dicendo, che per Venere s'intende il piacere lasciuo, & per Baccho il calore del vino beuuto senza misura, & che quando questi diuersi si congiungono insieme, ne nasce Priapo, perche tale si leua, & si fà vedere, che giaceua prima, nè si sapeua forse che vi fosse. Simile à costui, anzi pure il medesimo, fu il Dio Mutino, che stando assiso mostraua parimente il gran membro, & andauano le nouelle spose prima, che accompagnarsi con lo sposo, à sedergli in grembo con solenne cerimonia, volendo mostrare in quel modo di dare à colui il primo fiore della virginità, come scrisse Varrone, & l'hà riferito Lattantio, e Santo Agostino nella Città di Dio. Fu anco Priapo detto da gli antichi Dio de gli horti, e fatto perciò in forma di huomo con barba, e chioma rabbuffata, tutto nudo, & che nella destra habbia vna torta falce, come lo descriue Tibullo, fingendo dimandargli, onde sia, che i giouinetti belli amino lui non punto bello, nè ornato, & dice così tirando i suoi versi in lingua nostra.
+
+*Deh se tu possi hauer a'mo Priapo*
+*Ombrosi tetti sì che neue, ò Sole*
+*Non Venga Vnqua à toccarti il nudo capo.*
+
+Колонтитул: De gli Antichi. 361
+Кустод: Dimmi
+Сигнатура:
+Маргиналии:
+- Cerimoniæ de Bacchanali.
+- Phallofori.
+- Herodoto.
+- Priapo.
+- Mutino Dio.
+- Varrone.
+- Lattantio
+- S. Agostino.
+- Dio de gli horti.
+- Tibullo.
+
+## Скан 0404 · с. 362
+
+[ГРАВЮРА — полностраничная]
+Imagine di Priapo Dio delli Horti, & del membro virile, & dell'Asino, & del Becco à lui sacrati, essendo inteso per la virtù seminale ò generatiua. è Dio punitore de Ladri, & del furto significato nella falce, & li animali sono segno di potente generatione.
+
+Колонтитул: 362 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0405 · с. 363
+
+*Dimmi con che arte fai tù, che ti Vole*
+*Ogni bel giouinetto sì gran bene,*
+*E quanto può ti riuerisce, e cole?*
+*Non sei già bello, & hai di squallor piene*
+*L'inculte chiome, e barba rabbuffata,*
+*Che t'ami ogn'vno dunque donde Viene?*
+*Tù così nudo Vai à l'agghiacciata*
+*Staggion del freddo Inuerno com'al Sole*
+*De la rouente State inarsicciata.*
+*Furono tutte queste mie parole,*
+*E mi rispose con la falce in mano*
+*Così di Baccho la rustica prole.*
+
+Lo vestirono alle volte ancora con vn panno, ch'ei teneua raccolto con mano, & portaua nel grembo frutti di ogni sorte. E gli fecero ghirlande di tutto quello, che nasceua ne gli horti, alla guardia de' quali si staua con vna lunga canna sù la testa per ispauentare gli vccelli, sì come minacciaua col gran Menchione, che teneua con mano à chi fosse andato per inuolare alcuna di quelle cose, che da lui erano guardate. Onde Horatio, quando vuole descriuerlo, così lo fà dire di se medesimo.
+
+*Vn tronco fui di fico, ch'a niente*
+*Potea seruir già quando il fabro m'hebbe,*
+*Che dubioso lo fece star souente.*
+*Perche non sà che farne, & hor vorrebbe*
+*Vederne fatto qualche scanno, pensa*
+*Che far Priapo assai meglio sarebbe.*
+*A questo si risolue, e si dispensa*
+*L'opra sua, che me fa, ch'el Dio son stato*
+*Poi à i ladri, e à gli augei di tema immensa.*
+*Peroche, della incurua falce armato*
+*La destra, porgo à i ladri assai spauento,*
+*E col membro, onde ognun di voi è nato,*
+*La canna poi ch'in testa hauer mi sento*
+*Piantata, fà, ch'ogni importuno augello*
+*Fugge da gli horti ratto come Vento.*
+
+Potrassi fare anco talhora l'Asino con Priapo, perche glielo sacrificorono gli Antichi, come vittima a lui propria, ò per la simiglianza, ch'era fra loro del gran membro, secondo che riferisce Lattantio: ouero per l'odio, che portaua colui à questa bestia, perche l'Asino di Sileno con l'importuno suo raggiare gli disturbò il piacere, ch'ei si
+
+Колонтитул: De gli Antichi. 363
+Кустод: apparec-
+Сигнатура:
+Маргиналии:
+- Horatio.
