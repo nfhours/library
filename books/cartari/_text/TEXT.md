@@ -6241,3 +6241,180 @@ sche andauano alli sacrificij di Hercole, così le donne ne erano scacciate; ne 
 - Donne priuilegiate.
 - Hercole & Apollo alle mani.
 - Tripode che sia.
+
+## Скан 0334 · с. 292
+
+[ГРАВЮРА: Imagine d'Apolline, & d'Hercole, che contendono insieme del Tripode, & di Latona, & Diana che pacificano Apollo, & di Minerua che pacifica Hercole: significanti l'ira di Hercole con l'oracolo d'Apolline per non hauerne hauuta risposta, mitigata poi hauendola hauuta, & il Tripode è segno d'honore, di stima, e virtù heroica, & di verità.]
+
+Колонтитул: 292 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0335 · с. 293
+
+Gli mette fra gli honorati doni, e premij, che Enea apparecchia ne' giuochi da lui fatti in honore del padre Anchise, & furono quelli forse, che gli haueua già donati Heleno, insieme con altri presenti di gran valore, quando partì da lui: benche Virgilio gli chiami quiui Lebeti con voce Greca, & Seruio voglia, che questi fossero come bacini da dare acqua alle mani, dicendo, che non pareua conueniente donare a tale personaggio, quale era Enea, vasi da cucina. Ma Atheneo, riferendo la distintione de i Tripodi fatta da Homero, come ho detto, dice, che l'vso ha ottenuto, che siano chiamati Lebeti gli vni, e gli altri come tazze, & altri vasi da vino. Ma fossero come che si volesse, che ciò non serue molto al proposito nostro, ma sì bene che il Tripode era certa tauola consecrata, perche vi sedesse sù quella giouane, che daua i sacri risponsi, poscia che era ripiena dello spirito di Apollo, il quale se le andaua à cacciare in corpo per di sotto; & perciò vollero alcuni che'l Tripode fusse vno scanno pertugiato nel mezzo, accioche lo spirto hauesse per doue entrare in corpo alla femina, che vi sedeua sopra. E lo potremmo porre per segno di Verità; perche l'Oracolo, che veniua da quello, era creduto dire sempre il vero. Onde riferisce Atheneo, che diceuano gli antichi parlare dal Tripode ogni vno, che dicesse cose vere. E che per questo Bacco parimente hebbe il Tripode, che era come vna tazza, o altro vaso da vino, conciosia che il vino scuopra souente la verità delle cose non meno, che gli Oracoli de i Dei, perche quasi tutti i Dei hebbero Oracoli; ciascheduno il suo. E ben che potesse essere, ch'io scriuessi vn dì di tutti, nondimeno hora non lasciarò di dire di vno, che fu di Mercurio, per finire con questo la sua imagine. Scriue Pausania, che in certa parte dell'Achaia nel mezzo di vna gran piazza fu vn simulacro di Mercurio tutto di marmo, con la barba leuato sopra vna quadrata base non molto grande, dinanzi del quale ne era vn'altro della Dea Vesta parimente di marmo, & che à canto a questo erano alcune lucernette di metallo, le quali accendeua chi andaua per consiglio à Mercurio, hauendo prima abbruciato certo poco incenso, indi offeriua sù l'altare della destra parte certo denaso, che haueua allhora quella gente in commune vso, e dimandato poi quello, che, voleua, accostaua la orecchia al simulacro di Mercurio, e staua ad vdire per vn poco, poi leuatosi quindi si metteua subito ambe le mani alle orecchie, tenendole sì ben chiuse fin, che fosse fuori della piazza, che allhora le apriua, e la prima voce, che vdiua gli era in vece della risposta dell'Oracolo.
+
+Колонтитул: De gli Antichi. 293
+Кустод: MINER-
+Сигнатура: T 3
+Маргиналии:
+- Lebeti.
+- Verità.
+- Tripode di Bacco.
+- Oracolo di Mercurio.
+
+## Скан 0336 · с. 294
+
+[ГРАВЮРА: Imagini di Mercurio, & di Minerua, quello dio della Eloquenza, questa della Prudenza, & delle arti buone inuentrice, dinotante esser necessario la Eloquenza, & la Prudenza esser congionte insieme, se deuono giouare le parole alle operationi humane.]
+
+Колонтитул: 294 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0337 · с. 295
+
+MINERVA.
+
+[ИНИЦИАЛ: D]icesi, che fra le marauigliose cose date da Dio alla Natura humana, due sono grandemente mirabili, l'vna è il parlare, l'altra l'vso delle mani. Imperoche quello esprimendo gli concetti dell'animo con marauigliosa forza persuade altrui ciò, che vuole; questo con molta industria mette in opera tutto quello, che può conseruare la vita de gli huomini, & difenderla, come sono tutte le arti già ritrouate, ò che si troueranno all'auuenire. Et perche non il bel parlare gioua, ma più tosto nuoce, & fa male qual volta non sia accompagnato da buon volere, & da prudenza, nè la prudenza può essere di vtile al mondo, quando non sappi persuadere altrui à fuggire il male, & seguitare il bene, & à fare quelle cose, che alla vita ciuile fanno di mestiere, gli antichi lo mostrarono accoppiando insieme Mercurio, del quale hò detto già, è Minerua, della quale dirò hora, stimata Dea della prudenza, & inuentrice di tutte le arti. Et perciò delle statoe di ambi questi Dei, giungendole insieme, ne fecero vna, e la chiamarono con voce Greca Hermathena, perche chiamano i Greci Mercurio Herme, e Minerua Athena, e la tennero nelle Academie, per mostrare à chi quiui si essercitaua, che la eloquenza, & la prudenza hanno da essere insieme giunte, come questa da sè poco gioui, e quella da sè parimente nuoca spesso, e forse sempre, secondo che assai lungamente ne discorre Marco Tullio nel principio della Inuentione, il quale scriue anco ad Attico suo della statoa, ch'io dissi in questo modo. La tua Hermathena mi piace assai, & è così ben posta nella Academia, che la pare tener tutta. Volendo dunque fare Minerua, ò sola, ouero accompagnata con Mercurio facisi di faccia quasi virile,, & assai seuera nell'aspetto con occhi di color cilestre, che questo le dà sempre Homero, come suo proprio. Et Pausania doppo hauer scritto di certo simulacro di Minerua, che era in Athene nel tempio di Volcano, suggiunge di ha-
+
+Колонтитул: De gli Antichi. 295
+Кустод: uer
+Сигнатура: T 4
+Маргиналии:
+- Hermathena.
+- Minerua come fatta occhi di Minerua.
+
+## Скан 0338 · с. 296
+
+uer trouato certa fauola, che la fa figliuola di Nettuno, & che ella haueua gli occhi cilestri, perche tali erano anco quelli del Padre. Ma Cicerone, oue parla della natura de i Dei, dice, che gli occhi di Minerua erano cesij, & cerulei quelli di Nettuno, che potrebbe dimostrare qualche differenza frà loro, ma non credo io però che fosse molta, perche l'vna, e l'altra voce appresso de i Latini significa vn colore verdiccio ben chiaro, quale si vede ne gli occhi de i gatti, & delle ciuette; se non voranno forse dire, che in questi di Minerua fosse vno splendore più infocato a simiglianza di quello, che mostrano gli occhi de i Leoni. Faccisi parimente armata con vna lunga hasta in mano, e con lo scudo di cristallo al braccio, come Ouidio fa, che ella medesimamente si disegna da sè stessa, quando lauora di ricamo a proua con Aragne, e dice seguitando quel disegno.
+
+*Fà sè con l'hasta, e con lo scudo, e s'arma*
+*Il capo d'elmo, e di corazza il petto,*
+
+Le quali cose mostrano la natura dell'huomo prudente, come dirò poi. Claudiano ancora, & altri hanno descritto Minerua nel medesimo modo, togliendone forse, come hanno fatto souente di molte altre cose il ritratto da Homero, il quale quando la fa andare persuasa da Giunone ad aiutare i Greci contra Marte, che combatteua allhora per gli Troiani, la descriue in forma di valorosa guerriera, e le dà vn'elmo in capo tutto dorato, perche l'ingegno dell'huomo accorto armato di saggi consigli, facilmente si difende da ciò che sia per fargli male, e tutto risplende nelle belle, & degne opere, che fà. E l'oro sù l'elmo di Minerua anco vuol dire, che ella souente è tolta per lo diuino splendore, che rischiara gli humani intelletti, & d'onde viene ogni prudenza, & ogni sapere. Fù anco finto che Minerua nascesse del capo di Gioue, come scriue Pausania, che ne fù vn simulacro nella rocca d'Athene; hauendoglielo aperto Volcano con vna tagliente scure di diamante, senza il seruitio della moglie, perche la virtù intellettiua dell'anima sta nel ceruello; & discende ella, e tutta la sua cognitione dal supremo intelletto, che è Gioue: conciosia che ogni sapienza venghi da Dio, e nasca dalla bocca dello Altissimo, nò da queste cose basse, e terrene mostrate per Giunone. Et questa è miglior dispositione di quella, che ha fatto Martiano à dispregio delle donne, il quale perche non fu forse troppo loro amico dice, fingersi Minerua essere nata senza madre, perche le donne non hanno consiglio, nè prudenza alcuna; ò forse, che disse così per andare dietro ad Aristotele, il quale scriue nelle sue morali, che le donne non hanno punto buon consiglio. Cui non ardisco già di oppormi, ma dico bene, che molte donne à tempi nostri si mostrano così pru-
+
+Колонтитул: 296 Imagini de i Dei
+Кустод: denti,
+Сигнатура:
+Маргиналии:
+- Minerua armata.
+- Ouidio.
+- Elmo di Minerua.
+- Claudiano.
+- Nascimento di Minerua.
+- Contra le donne.
+- Donne: difese.
+
+## Скан 0339 · с. 297
+
+[ГРАВЮРА: Imagine di Vulcano, che con vna secure di Diamante aprì il capo à Gioue, ilquale ne nasce Minerua dea della sapientia, che dinota ogni sapere venir da Dio, & star nel ceruello la virtù intellettiua.. significa ancora nelle donne non esser nè consiglio nè sapere.]
+
+Колонтитул: De gli Antichi. 297
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0340 · с. 298
+
+denti, & accorte che lo sanno mentire. Et se non che il valor loro, le fa assai note al mondo, mettendo gli nomi porrei anco infiniti essempi del senno, & della prudenza loro mostrando quello, che altri forse non ha voluto vedere: & è, che se bene Minerua nacque senza il seruitio della femina, nacque ella però femina, e vuole perciò il douere, che si confacci più alle donne, che à gli huomini. Oltre di ciò copersero à costei il capo di elmo per darci ad intendere che l'huomo prudente non iscuopre sempre tutto quello, che sà; non manifesta ad ognuno il suo consiglio, nè parla sempre in modo, che sia inteso da ognuno, ma da chi solamente è simile à lui, secondo che gli affari lo ricercano; sì che le sue parole à gli altri poi paiono simili a gl'intricati detti della Sfinge. Donde fu forse, che in certa parte dello Egitto posero innanzi al tempio di Minerua, che fu adorata quiui, e creduta Iside, a Sfinge, benche si legge anco, che ciò fu fatto per mostrare, che le cose della religione hanno da star nascoste sotto sacri misterij in modo, che non siano intese dal volgo, più che fossero intesi gli enimmi della Sfinge. Pausania scriue, che in Athene fu vn simulacro di Minerua, qual haueua sù l'elmo nel mezo come si direbbe per cimiero la Sfinge, e di quà, & di là erano due Griffi, li quali non sono bestie, nè vccelli, ma participano di quelle, e di questi, perche hanno il capo di Aquila, e le ali, & sono Lioni nel resto. Trouansi questi animali fieri, e terribili ( se pure se ne troua, perche Plinio gli crede fauolosi ) nella Scithia, oue guardano le minere dell'oro, come scriue Dionisio Afro, sì che gli Arimaspi gente di quel paese, che hanno vn'occhio solo in fronte, non lo ponno raccogliere senza gran pericolo, & è perciò, guerra quasi continua frà loro Onde si può conoscere quale guardia debba hauere ciascheduno del proprio ingegno, accioche non venghino gli Arimaspi ad inuolargliele. Posero anco il Gallo gli antichi alle volte sù l'elmo à Minerua, come mostraua certa sua statoa fatta da Fidia à gli Elei d'oro, e di auorio, il che Pausania par credere, che fosse perche il Gallo è ardito, e feroce, come bisogna essere nelle guerre: ma aggiungiamo noi anco, che ciò mostraua la vigilanza, che hà de essere ne' saggi, & valorosi Capitani. Imperoche credettero, che Minerua hauesse la cura non meno delle arti della guerra, che della pace, & però la fecero armata, come dissi. Et le fauole finsero, che ella vccidesse di sua mano Pallante gigante ferocissimo; dal quale vollero alcuni che ella fosse detta poi Pallade. Et alcuni altri dicono, che ella fu così chiamata da certa voce Greca, che significa mouere, o crollare, perche la sua statoa era fatta in guisa, che pareua crollar l'asta, che teneua in mano, alla similitudine del Palladio simulacro di legno di questa Dea, il quale veramente la crollaua da sè & moueua gli occhi, & fu creduto essere disceso di Cielo, come dissi nella imagine di
+
+Колонтитул: 298 Imagini de i Dei
+Кустод: Vesta,
+Сигнатура:
+Маргиналии:
+- Sfinge con Minerua.
+- Griffi.
+- Arimaspi.
+- Pallade.
+- Palladio.
+
+## Скан 0341 · с. 299
+
+Vesta, nel tempio della quale egli era guardato così secretamente, che non toccarlo, ma ne anco poteua vederlo altri, che quella delle Vergini Vestali; alla quale era data questa cura. E fu cognominata Minerua da principio Tritonia; ò fosse da certa Palude della Libia di questo nome; della quale alcuni l'hanno poi fatta figlia, forse perche ella fu prima veduta quiui; ouero perche sono le parti della sapienza, conoscere le cose presenti, preuedere quelle, che hanno da venire, & ricordarsi delle passate: oueramente perche tre cose hà da fare l'huomo saggio principalmente, consigliare bene, giudicare direttamente, & operare con giustitia. Lascio le altre ragioni, che si leggono di questo nome, perche di nulla seruono è quello, che hò da dire, come poco serue anco riferire, che Minerua fosse detta, ò dallo ammonirsi, perche la sapienza mostrata per lei dà sempre buone ammonitioni, ò dal minuire, & scemare le forze di colori, che alli continui studij sono sempre intenti, ouero dal minacciare, perche come Dea della guerra, & armata, sempre pareua terribile, & minaccieuole. Nondimeno questo vltimo viene ancora assai à mio proposito, perche alcuni hanno voluto, che Minerua fosse la medesima, che Bellona, la quale fu parimente adorata come Dea delle guerre. Et Cesare scriue che in Cappadocia la hebbero in riuerenza sì grande, che vollero quelle genti, che il suo Sacerdote fosse il primo dopò il Rè di auttorità, & di potere, parendo loro, che la Maestà della Dea lo meritasse. Ma per quello, che ne mostrano le imagini, si può dire che frà Minerua, & Bellona fosse tale differenza, che quella mostrasse l'accorto prouedimento, il buon gouerno, & il saggio consiglio, che vsano i prudenti, & valorosi Capitani nel guerreggiare, & questa l'vccisioni, il furore, la strage, & la roina, che ne i fatti d'arme si veggono, perche la fingono i Poeti auriga di Marte, come Statio, quando dice:
+
+*Con sanguinosa man Bellona regge*
+*I feroci destrieri, e batte, e sferza.*
+
+& sparsa per lo più di sangue, onde Silio Italico la fa andare scorrendo per le armate squadre, & così la descriue.
+
+*Scuote l'accesa face, e'l biondo crine*
+*Sparso di molto sangue, & và scorrendo*
+*La gran Bellona per l'armate squadre.*
+
+Nientedimeno Statio dà pur'anco la medesima forza à Minerua, & la fa non punto meno impetuosa, & violenta di Bellona, quando mette che Tideo pregandola, così dice:
+
+Колонтитул: De gli Antichi. 299
+Кустод: O Dea
+Сигнатура:
+Маргиналии:
+- Tritonia.
+- Minerua.
+- Cesare.
+- Bellona.
+- Statio.
+- Silio Italico.
+- Statio.
+
+## Скан 0342 · с. 300
+
+[ГРАВЮРА: Imagine di Bellona Dea della guerra & carrattiera di Marte, & de suoi Sacerdoti, che da sè stessi feriscono, & del Pino à lei sacrato, questa vien intesa per l'apportatrice delle vccisioni, ruine, stragi, effetti proprij della guerre.]
+
+Колонтитул: 300 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0343 · с. 301
+
+*O Dea feroce del gran padre honore,*
+*De le guerre terribile padrona,*
+*Cui orna il capo con Vn Vago horrore*
+*Il forte elmo, & il petto la Gorgona*
+*Di sangue sparsa, e de la qual maggiore*
+*Forza non haue Marte, nè Bellona*
+*Ne le battaglie, accetta hor il mio voto,*
+*Ch'io porgo humile al tuo Nume diuoto.*
+
+Fu dunque Bellona appresso de gli antichi vna Dea tutta piena d'ira, & di furore, & alla quale credettero che dilettasse assai di veder spargere il sangue humano, onde fu; che ne' suoi sacrificij in vece di vittima i Sacerdoti stessi si pungeuano con le coltella le braccia, e le spalle, & la placauano col proprio sangue. Questa fu fatta alcuna volta con vna sferza in mano, con la quale attaccaua le fere battaglie, e talhora la faceuano anco con vna tromba alla bocca, come che desse il segno del fatto d'arme, e alle volte la fecero con vna ardente face in mano; percioche si legge appresso di Licrofone, che soleuano gli antichi prima che fossero trouate le trombe, quando eran per fare battaglia, mandare dauanti à gli esserciti alcuni con accese faci in mano, le quali si gittauano contra dall'vna parte, & dall'altra, e cominciauano poi la sanguinosa battaglia. Di che intese Statio, quando disse, che al cominciare di vn fatto d'arme Bellona fu la prima, che mostrasse l'ardente facella. Et Claudiano parimente parlò secondo questa vsanza de gli antichi dicendo,
+
+*Tisifone l'acceso pino scuote*
+*Con mano, che miseria sempre apporta:*
+*Et a le triste insegne fa raccore*
+*Le pallide ombre à la battaglia preste.*
+
+Leggesi ancora che dauanti al tempio di Bellona fu certa colonna non molto grande, la quale i Romani chiamauano la colonna Bellica, perche deliberato che haueuano di fare alcuna guerra, à quella andaua l'vno de i Consoli, poscia che haueua aperto il tempio di Giano, & quindi lanciaua vn'hasta verso la parte, oue era il populo nimico, & intendeuasi, che allhora fosse, come diremmo noi gridata la guerra. Ma innanzi, che hauessero i Romani tanto dilatato i confini, così dichiarauano la guerra. Mandauano à questi vn Sacerdore à ciò deputato, il quale quiui narraua le giuste cagioni, che essi haueuano di mouere la guerra, dapoi spiegaua vn'hasta ne' capi de' nemici. Fu anco in altre maniere gridata & dichiarata la guerra appresso de gli antichi, come hò già detto nella imagine di Giano, & dirò
+
+Колонтитул: De gli Antichi. 301
+Кустод: dirò
+Сигнатура:
+Маргиналии:
+- Sangue sparso a Bellona.
+- Licofronte.
+- Claudiano.
+- Colonna bellica.
+
+## Скан 0344 · с. 302
+
+dirò in quella di Marte, se verrà à proposito. Et concludendo di Bellona, dico, ch'ella fu differente almeno di imagine da Minerua, alla quale, per ritornare al suo disegno, Apuleio mette sopra l'elmo vna ghirlanda di vliuo, che questo arbore fù dato come proprio à lei da gli antichi, perche ella ne fu ritrouatrice, come la chiama anco Virgilio, & come racconta la fauola della contesa, che fu trà lei, & Nettuno sopra il possesso di Athene; oue Herodoto scriue, che fu il medesimo vliuo, che Minerua fece nascere all'hora, & che abruciò insieme con la Città abbruciata già da' Persi, ma che lo stesso dì anco rigermogliò, & crebbe all'altezza di due cubiti. Et dicono alcuni, che fu così finto, perche Minerua fu la prima che mostrasse il modo di spremere l'oglio dalle vliue,& anco perche non si può acquistare le scienze senza frequente studio, & lunghe vigilie. Onde si legge, che pur andò in Athene fu dedicata a questa Dea vna lucerna d'oro, la quale ardeua di continuo, ne vi metteuano però olio più di vna volta l'anno, & questo era dice Pausania, perche il lucignolo era di certa sorte lino: che non si lascia consumare dal fuoco. Et il medesimo racconta. che appresso de' Corinthi hauendo Epopeo per certa vittoria fatto vn tempio a Minerua, la pregò, che mostrasse qualche segno di hauerlo caro, & che subito quiui dinanzi al dedicato tempio spiccò fuori della terra vn rampollo di oglio. D'onde si può vedere, che a ragione fu dato a costei l'vliuo, nè per lo studio solamente del sapere, ma per l'essercitio ancora delle arti da lei trouate, come filare, cucire, tessere, & fare delle altre cose, che sono proprie alle donne. Per le quali i Greci hebbero vna grande statoa di legno di questa Dea che sedeua sopra vn'alto seggio, e teneua vna conocchia con ambe le mani: Et i Romani in certo dì delle feste celebrate di Marzo à Minerua, faceuano, che le padrone conuitauano le fanti, & le seruiuano di loro mano, quasi che volessero mostrare di riconoscere da quella l'vtile che traheuano dalle serue col filare, tessere cucire,& fare l'altre cose, delle quali ella era stata l'inuentrice; & che le serue parimente per lei hauessero questo premio delle fatiche tolerare tutto l'anno nelle arti tronate da lei. La Ciuetta ancora fu posta alle volte sù l'elmo à Minerua, come vccello suo proprio, e da lei amato di modo, che ò siale sul capo, ouero à piedi ella l'ha quasi sempre seco; di che vogliono alcuni essere la ragione, che in Athene città cara à questa Dea sopra tutte l'altre, come mostra il nome, che ella hebbe commune con questa, per lo studio delle scienze, e delle buone arti, che quiui fiorirono tutte già gran tempo, fu copia grande di questi vccelli. Onde nacque il prouerbio di portare Ciuette ad Athene, per quelli, li quali vogliono dare altrui quello, di che egli ha grande abondanza. Ma le fauole dicono, che Minerua amaua prima la Cornacchia, hauendola fatta diuentare vccello di bella giouane, che fu
+
+Колонтитул: 302 Imagini de i Dei
+Кустод: fu
+Сигнатура:
+Маргиналии:
+- Herodoto.
+- Vliuo dato à Minerua.
+- Lucerna di Minerua.
+- Arti di Minerua.
+- Minerua con la conocchia.
+- Ciuetta con Minerua.
+
+## Скан 0345 · с. 303
+
+[ГРАВЮРА: Imagine di Minerua inuentrice del filare, tessere, cucire, & altri donneschi essercitij; inuentrice dell'vliuo simbolo del lungo & necessario studio, con gli vccelli à lei sacrati. la Ciuetta significa il consiglio del prudente, il gallo la vigilanza del saggio, & l'ardire de soldati.]
+
+Колонтитул: De gli Antichi. 303
+Кустод:
+Сигнатура:
+Маргиналии:
