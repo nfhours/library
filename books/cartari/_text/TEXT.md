@@ -8288,3 +8288,287 @@ Gli altri due poi, che si saettano confermano l'Amore gia cominciato, quasi che 
 Маргиналии:
 - Virgilio.
 - Lepre confà si à Venere.
+
+## Скан 0454 · с. 412
+
+cuni, che la carne della Lepre facesse più bello assai, & più gratioso, che non era prima, chi ne mangiaua per sette dì & soggiunge, ch'egli crede bene che sia cosa, vana, ma che si può però pensare, che vi sia pure qualche ragione, poi che tanto vniuersalmente si crede così. Da questo tolse argomento Martiale di mottegggiare vna sua amica nomata Gellia, scriuendole questo Epigramma.
+
+*Quando mi mandi Gellia mia talhora*
+*A donar Lepre, mi mandi anco à dire,*
+*Ch'in sette dì vedrommi (e d'hora in hora)*
+*Più bel quella mangiando diuenire.*
+*Se vero è, vita mia, cotesto, fora*
+*Ver' anco, e si potria senza mentire*
+*Giurare, che non habbi mai mangiata*
+*Carne di Lepre tu, da che sei nata.*
+
+Et perche Alessandro Seuero vsaua di mangiare souente la Lepre, fu chi con in alcuni versi lo motteggiò come scriue Lampridio dicendo, che bench'ei fosse Siro di razza, non era marauiglia che fosse bello, & gratioso, perche la carne della Lepre, ch'ei mangiaua volontieri, lo faceua tale. Di più vi è stato anco chi hà detto, che sia nella Lepre certo non sò che, con il quale si possano fare de gl'incantesmi amorosi, la quale cosa non dice già Filostrato, che la riferisce, che non sia, ma bene danna chi la fa, & giudica non degni di essere amati quelli, li quali vogliono farsi amare storzatamente in questa guisa, & quì finisce la sua tauola. Nella quale mi pare, che siano molto bene dipinti gli Amori: & io per questo solamente l'hò ritratta, acciòche si veggia, che gli Amori sono molti, & tutti fanciullini nudi, con i crini crespi, e biondi, & con l'ali di diuersi colori, & quando hanno le accese faci in mano, & quando nò, & hanno l'arco alle volte, & la faretra con le saette, & alle volte ne sono senza. Onde Silio Italico descriuendo come gli Amori accompagnassero Venere, quando lei andò con Pallade, & con Giunone in giudicio dinanzi à Paride, ad vno solamente dà l'arco, & le saette, e fa che gli altri le stanno d'intorno adornandola, & i versi suoi tirati al volgare sono tali.
+
+*Allhora il bel Cupido: ch'aspettato*
+*Haueua il tempo già de la gran lite,*
+*Reggea con destra mano i bianchi Cigni,*
+*Ch'al carro de la madre erano giunti,*
+*Cui egli mostra l'arco, che gli pende*
+*Da gli homeri, e la piccola faretra*
+*Sol per lei piena di pungenti strali,*
+
+Колонтитул: 412 Imagini de i Dei
+Кустод: Accenan-
+Сигнатура:
+Маргиналии:
+- Martiale.
+- Alessandro Seuero.
+- Silio Italico.
+
+## Скан 0455 · с. 413
+
+*Accenandole, che per ciò non tema*
+*De la Vittoria, ma ne Vadi certa.*
+*E gli altri Amori vezzosetti, e lieti*
+*Le sono intorno, e chi raccoglie, e Stringe*
+*I biondi crini da la bianca fronte*
+*In vaghi nodi, chi la sottil veste*
+*Rassetta, e chi la cinge oue hà bisogno.*
+
+Apuleio, quando fà comparir Venere in scena accompagnata da gli Amori, dice, che questi sono fanciulli bianchissimi, li quali scendono di Cielo, oueramente escono del mare con le ali alle spalle, con le saette al fianco, e con le facelle in mano. Et, per mostrare la moltitudine di questi, dice in altro luoco, che vn popolo d'Amori accompagnaua Venere, perciòche sono quasi infiniti i desiderij humani, e quanto si desidera, tanto si ama, di rado considerando se bene sia, ò male, ma solo mettendo mente à contentare ogni nostro desiderio, benche sia disordinato, e contra la ragione, la quale Amor non prezza, mentre che à lasciui piaceri tutto si volge; & perciò noi lega sì, che restiamo in suo potere: & questo mostrano i lacci, che gli si danno. Ma non più di molti, ma ragioniamo hora di vno Amore solamente, facendone ritratto secondo che ce ne hanno gli Antichi lasciato essempio. Platone, facendo nel suo conuiuio, che Agathone laudi Amore, e mostri, come egli è fatto, così dice; Amore è bellissimo, perche è il più giouane di tutti i Dei; & che sia vero, lo mostra ch'ei fugge la vecchiezza sempre, benche questa sia assai veloce, & spesso venghi più tosto, che non farebbe di bisogno, & di sua natura l'ha in odio, e stassene trà giouani, secondo il prouerbio, qual dice, che le cose trà loro simili volontieri stanno insieme. Egli è poi tenero, e molle, & prouasi ciò nel modo, che Homero proua Ate hauere i piedi teneri, e molli. Ate è voce Greca, & noi la potiamo dire calamità; ma Homero la finge essere vna Dea figliuola di Gioue, la quale turba le menti de i mortali, e mette loro male in cuore, & dice, ch'ella camina sù per le teste de gli huomini, nè calca mai la terra co i piedi, & perciò gli hà molli, e teneri: così dunque Amore è tenero parimente, & molle, perche non camina mai nè per terra, nè per sassi, nè per luoco alcuno, che sia duro, & aspero; si caccia trà le piu molli, & delicate cose del mondo, e stassi quiui. Queste sono gli animi humani: nè in tutti però habita egli, ma in quelli solamente che sono piaceuoli, e gentili, & fugge i rozzi, e duri, e tanto è da lui lontana ogni durezza, che quasi è liquido, come l'acqua, perche se ciò non fosse, ei non potrebbe andare, come và, ricercando tutto l'animo, nè entrarui di nascosto, & vscirne quando vuole. Oltre di ciò Amore è di corpo benissimo fatto, & in ogni sua parte così bene composto,
+
+Колонтитул: De gli Antichi. 413
+Кустод: che
+Сигнатура:
+Маргиналии:
+- Apuleio.
+- Lacci de gli Amori.
+- Amore più giouine de gli altri Dei.
+- Amore tenero, e molle.
+- Ate.
+
+## Скан 0456 · с. 414
+
+che la bellezza sua auanza tutte le altre, per laquale trà la brutezza, & lui è discordia grande, & hà in tutta la persona vn colore così bello, e così vago, che meglio non si può vedere, di che fa fede il vederlo spesso habitare; & quasi sempre tra fiori, anzi oue non sono fiori, nò habita egli mai, & per ciò di lui rimangono priuati tutti gli animi, & i corpi, li quali sono senza fiori di giouinezza, e di bellezza; che Amore nò vuole stare altroue, che in luochi belli, floridi, odorati, e lieti. Molte altre cose ancora si potrebbon dire della bellezza d'Amore, ma più non ne dice per hora Platone, dal quale potiamo raccorre, che Amore è giouine, tenero, molle, e delicato, di corpo ben fatto, & di buonissimo colore. Più minutamente lo dipinse Apuleio nella nouella di Psiche, quando racconta, ch'ella contra il comandamento dalui hauuto, stà con la lucerna in mano a rimirarlo, & lo vide tale, che hà la dorata chioma tutta molle per l'ambrosia sparsaui sopra il collo bianchissimo, le guancie colorite sì, che paiono di porpora, & i bei crini in varie guise ritorti, o crespi pendono parte per gli homeri bianchissimi, & parte si spargono sopra la bella faccia, e sono così lucidi, e tanto risplendono, che non lasciano apparire il lume della lucerna, che stà loro sopra: a gli homeri hà due ali sparse di freschissima rugiada, le lieui piume delle quali, benche stiano ferme quasi da soauissimo vento tocche si muouono lieuemente, & è poi tutto il corpo così pulito, & lucido, che non hà Venere da pentirsi di hauerlo partorito; l'arco, la faretra, & le saette sono quiui in terra dauanti al letto. Non gli lega Apuleio gli occhi, ò perche non bisognaua forse, ch'ei dormiua all'hora, ò perche tenne con quelli, li quali non lo fanno cieco, come il Petrarca, quando scriue di hauerlo visto ne gli occhi della sua donna, e dice,
+
+*Cieco non già, ma faretrato il Veggio,*
+*Nudo, se non quanto Vergogna il Vela,*
+*Garzon con l'ali, non pinto, ma Viuo.*
+
+E Mosco poeta Greco lo fa parimente con gli occhi lucidi, & infiammati, quando finge, che Venere lo vada cercando, la quale interamente lo dipinge, accioche chi lo troua lo riconosca, lo pigli, e lo rimeni; cui ella promette di dare vn baccio poi, & maggior premio ancora. Fu questa cosa fatta latina dal Politiano, e tirata in volgare poi da molti, ma meglio de gli altri mi pare, che habbia fatto M. Luigi Alamanni, voltandola in certi versi pari, che vanno a due a due: & perciò oltre, ch'io non haurei saputo; nè anco hò voluto prouare di fare meglio di lui, & per fare peggio, mi sono seruito della sua tradottione. Questo dunque è Amore fuggitiuo di Mosco, che così pose egli nome a' suoi versi, fatti volgari dallo Alamanni.
+
+Колонтитул: 414 Imagini de i Dei
+Кустод: Venere
+Сигнатура:
+Маргиналии:
+- Amore tra fiori.
+- Petrarca.
+- Mosco.
+- Amore fuggitiuo.
+- Luigi Alamanni.
+
+## Скан 0457 · с. 415
+
+*Venere il figlio Amor cercando giua,*
+*E chiamando dicea per ogni riua.*
+*A chi m'insegna Amor da me fuggito*
+*Dono vn bacio in mercede, e à chi sia ardito*
+*Di rimenarlo à me, prometto, e giuro*
+*Ch'assai più gli darò d'Vn bacio puro.*
+*Hà tai segni il fanciullo, e tali arnesi,*
+*Ch'al suo primo apparir saran palesi.*
+*Non hà bianco il color, ma sembra foco,*
+*Gli occhi ardenti, e mouenti, e pien di gioco.*
+*Dolce voce, e parlar, crudele il core,*
+*Nè quel dentro vorria, che mostra fore.*
+*Mentitor, disleale, e s'ei s'adira,*
+*Furor, fiamma, veleno, e rabbia spira.*
+*Traditor, garzoncel, fallace, e scherza*
+*Sempre in danno d'altrui con laccio, ò sferza.*
+*Crinita egli hà la fronte, e fero il volto.*
+*Picciol braccio, e sottil, ma snello, e sciolto.*
+*Ond'ei lunge auuentar può vn dardo acuto*
+*Fin nel basso Acheronte in braccio à Pluto.*
+*Hà Velato il pensier il corpo nudo,*
+*A lato come augello, ardito, e crudo.*
+*Hor'in questo, hor'in quello drizza il volo,*
+*E nel mezzo de i cuori alloggia solo.*
+*Vn piccol'arco ha in man, sour'esso è sempre.*
+*Vn pungente quadrel d'amare tempre.*
+*Ben'è breue lo stral, ma il ciel offende;*
+*Vna faretra d'oro a gli homer pende*
+*E son l'empie saette, ond'io talhora*
+*Impiagata ne fu dolente ancora.*
+*Aspro à tutti, e crudel, ma com'io veggio*
+*Il disleal'à suoi fa sempre peggio.*
+*Breue facella hà in man, ch'io vidi spesso*
+*Far nell'acque auampar Nettuno stesso.*
+*Se tu il, puoi ripigliare a forza il mena,*
+*E non hauer pietà se'l vedi in pena*
+*Lagrimando restar, pon mente fiso*
+*Ch'ei non fugga in quel, se moue riso,*
+*Ma tu lo stringi alhor. Se vuol baciarte,*
+*Fuggi, perche le labra in ogni parte*
+*Son di tosco ripiene, s'ei dicesse*
+*Prendi queste arme mie, vatten con esse,*
+*Non l'ardir di toccar rifiuta il dono,*
+*Fiamma, peste tormento, e morte sono.*
+
+Колонтитул: De gli Antichi. 415
+Кустод: Tocca
+Сигнатура:
+Маргиналии:
+
+## Скан 0458 · с. 416
+
+[ГРАВЮРА: Trionfo d'Amore descritto da Filostrato, dal Petrarca, & da altri antichi & moderni, significante la forza d'Amore.]
+
+Колонтитул: 416 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0459 · с. 417
+
+Tocca questo disegno buona parte della forza, e de gli effetti d'Amore, & perciò lo fa di color rosso, & quasi acceso per tutto il corpo, onde forse ne tolse l'essempio il Petrarca, quando lo pose sopra vno affocato carro, facendolo trionfare, oue dice:
+
+*Fidi Vn vittorioso e sommo duce*
+*Pur com'Vn di color, che'n Campidoglio*
+*Trionfal carro à gran gloria conduce.*
+*Quattro destrier via piu che neue bianchi;*
+*Sopr'Vn carro di foco Vn garzon crudo*
+*Con arco in mano, e con saette à fianchi:*
+*Contra a le qua' non Val elmo, nè scudo;*
+*Sopra gli homeri hauea sol due grand'ali*
+*Di color mille, e tutto l'altro ignudo:*
+*D'intorno innumerabili mortali*
+*Parte presi in battaglia, parte Vccisi,*
+*Parte feriti da pungenti strali.*
+*Che debb'io dir? in Vn passo men'Varco:*
+*Tutti son qui prigion gli Dei di Varro;*
+*E di laccinoli innumerabil carco*
+*Vien catenato Gioue inanzi al carro.*
+*Quest'è colui, che'l mondo chiama Amore;*
+*Amaro come vedi, & Vedrai meglio,*
+*Quando sia tuo, com'è nostro Signore;*
+*Mansueto fanciullo, e fiero Veglio;*
+*Ei nacque d'otio, & di lasciuia humana*
+*Nudrito di pensier dolci, e soaui,*
+*Fatto signor, e Dio da gente vana.*
+*Qual'è morto da lui; qual con più graui*
+*Leggi mena sua Vita aspra, & acerba*
+*Sotto mille catene, e mille chiaui.*
+
+Che mostra l'ardente desiderio de gl'innamorati, il quale acompagnato dalla speranza si raccende, e s'infiamma più sempre, come dice Alessandro in vn suo quesito, ch'ei fà perche sia, che l'estreme parti del corpo de gli innamorati sono fredde talhora, e talhora calde; & vuole, che di tutto questo sia cagione la tema, & la speranza. Perche essendo il cuore la sede, & il fonte della vita, il quale manda per tutto il corpo gli spiriti, che gli danno forza, & viuacità; ogni volta, ch'egli da qualche dolore è oppresso, non solamente non può mandare più vigore alle parti lontane, ma riuoca etiandio a sè il già mandato, per esser più forte a sostenere il dolore; che l'opprime. Ma chi sente maggiore dolore di colui, che teme di non potere conseguire quello, che tanto brama, & perciò di non douere essere mai
+
+Колонтитул: De gli Antichi. 417
+Кустод: lieto?
+Сигнатура: D d
+Маргиналии:
+- Petrarca.
+- Quesito.
+
+## Скан 0460 · с. 418
+
+lieto? Onde non è marauiglia, se le parti estreme del corpo suo sono fredde talhora. Diuentano calde poi, quando ei spera di hauere ciò, che desidera, imperoche il core per l'allegrezza, che sente all'hora si apre quasi, e si dilata, & alle parti lontane manda segni dell'allegrezza sua, che sono viuacissimi spirti, li quali riscaldano tutto il corpo, & lo fanno colorito, come pur dinanzi dicemmo di Amore. Benche vogliono alcuni, che la rossezza ne gli amanti venga più tosto dalla vergogna, quasi che l'animo consapeuole a sè di scostarsi dalla honestà, quando alli piaceri del corpo attende & quelli desidera solamente, voglia nascondersi: e perciò come che cuopra con vn colorito velo quella parte, oue ei più si mostra, sparge la faccia di rossore. Ma benissimo pare a me, che scoprì il potere, & la natura di Amore, quel Poeta, ò altri che si fosse, il quale in vn sonetto và descriuendo che cosa egli si sia, in fine concludendo, che egli è impossibile di cauarne la vera interpretatione. Il sonetto per esser artificioso, & vago mi spinge a porlo qui sotto, & dice così.
+
+*Amor è Vn non sò, che Vien non sò d'onde;*
+*Mandollo non sò chi, non sò in che modo,*
+*Nacque non sò dir come, ò con qual frodo,*
+*Per sè Stesso è confuso, e altri confonde.*
+*Quiui si pasce, e si nodrisce altronde,*
+*Viue non sò di che, non pretia lodo,*
+*Si gloria nel dolor, non hà in se modo.*
+*Nè sò come hor si scopre, hor si nasconde.*
+*Ferisce non sò come in mezzo il core,*
+*Nè ferita, nè segno, ò sangue appare,*
+*E'l ferito da lui Viuendo more.*
+*Col cor non con la lingua fa parlare,*
+*E tace dentro, & poi silentio fore*
+*Hor chi sà questo pazzo interpretare?*
+
+Le parti di Cupido con tutti i suoi arnesi sono così interpretate da Seruio, là doue Virgilio fa, che Venere lo prega a trasformarsi in Ascanio, quando hà da essere condotto a Didone. Dipingesi Amore fanciullo, perche non è altro, che vn pazzo desiderio, mentre che alla libidine solamente è intento; perche il ragionare de gli innamorati così è mozzo, & imperfetto, come quello de' fanciulli, la quale cosa mostra Virgilio in Didone, quando dice,
+
+*Incomincia talhor'a ragionare,*
+*E nel mezo del dir, lassa, s'arresta.*
+
+Колонтитул: 418 Imagini de i Dei
+Кустод: Hà
+Сигнатура:
+Маргиналии:
+- Rossore ne gli Amanti.
+- Spositione di Amore.
+- Virgilio.
+
+## Скан 0461 · с. 419
+
+Hà poi l'ali per mostrare la leggierezza de gli amanti presti à mutarsi di volere, come nella medesima Didone si può vedere, la qual appresso di Virgilio pur'anche pensa di dare morte a colui, che prima amaua cotanto. E Terentio benissimo mostrò la poca fermezza de gl'innamorati, quando disse: Questi mali tutti sono in Amore, ingiurie, sospetti, inimicitie, tregua, guerra, e pace anco poi. Onde il Petrarca, poscia che hà raccontati varij, e diuersi affetti amorosi, così conclude,
+
+*In somma sò, come e inconstante, e vaga,*
+*Timida, ardita vita de gli amanti,*
+*Che poco dolce molto amaro appaga.*
+
+Porta Amore le saette, ouero perche queste parimente sono veloci, nè sempre vanno a ferire, oue sono indrizzate, come habbiamo detto de gli innamorati, che sono prestissimi a mutarsi di volere, nè sempre ponno arriuare, a quello, che più bramauano, oueramente, perche come elle sono acute, e pungono, così le punture della conscienza dopò l'hauere peccato, ci trafiggono l'animo, che dopò il fatto conosce di hauer operato male. O pure s'intende per le saette d'Amore la prestezza, con che egli scende nel cuore de' mortali. Percioche ad vno sguardo solamente, senza quasi auedersene, resta l'huomo talhora tanto acceso dalla bellezza altrui, che gli pare essere già tutto di fuoco. La quale cosa, credo io, che volesse mostrare colui, che fece Cupido con il fulmine in mano, che non si sà chi e' fosse, come scriue Plinio, che lo portaua Alcibiade nello scudo, & vn tale n'era parimente in Roma nella Curia di Ottauia, il quale diceuano alcuni, che fu fatto per Alcibiade, poscia ch'egli così lo portaua nello scudo, volendo in quel modo mostrare la bellezza di lui, che fu bellissimo, quasi che come Gioue, di cui è proprio il fulmine, è il maggiore di tutti gli altri Dei, così di bellezza andasse sopra a tutti gli altri di gran lunga. Ma si può dire ancora, & forsi meglio, che a colui sia paruto: che vna face non mostri intieramente la forza dello amoroso ardore, & che perciò pose in mano a Cupido il fulmine, conciosia che questo non solo arde le cose, che facilmente abbruciano, ma quelle ancora subito incende, alle quali altro fuoco non così tosto si attaccherebbe; rompe, e spezza ciò che troua, che se gli opponga, & sia pure quanto voglia saldo, e duro, & penetra con mirabile prestezza in ogni luoco. Le quali cose molto bene si confanno alla forza di Amore, il quale in gentil cor ratto s'appiglia, e gli duri, & ostinati rompe, e spezza, e con mirabile prestezza ouunque vuole penetra, come dice Propertio in vna Elegia, nella quale ei dipinge Amore, fatta già volgare da Girolamo Beniuieni in terza rima: & è questa.
+
+Колонтитул: De gli Antichi. 419
+Кустод: Non
+Сигнатура: Dd 2
+Маргиналии:
+- Terentio.
+- Petrarca.
+- Forza di Amore.
+- Propertio.
+- Girolamo Beniuieni.
+
+## Скан 0462 · с. 420
+
+[ГРАВЮРА: Imagini d'Amore significanti gli varij effetti & potenze d'Amore, qual ne cuori nobili & gentili facilmente hà luogo, & li duri & ostinati spezza & rompe. dinota ancora quanto facilmente ci lasciano adescare da gli effetti lasciui, & libidinosi massime in giouentù.]
+
+Колонтитул: 420 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0463 · с. 421
+
+*Non fur'al tuo parer marauigliose*
+*Le man di quel, ch'in giouenil figura,*
+*Qualunque è fosse, Amor pingendo pose?*
+*Questi de' ciechi amanti la natura*
+*Conobbe, e come fuor d'ogni ragione*
+*Perdon lor primi ben per leggier cura.*
+*Nè hà l'ali à gli homer suoi senza cagione*
+*Che da questo, e quel cor lo fan Volare,*
+*Perche quelle alme in cui suo nido pone.*
+*Mentre per questo tempestoso mare*
+*Corron, dall'onde alterne ributtate*
+*Son così, che giamai si pon fermare.*
+*L'arco suo incuruo, e le saette hamate,*
+*Che da gli homeri suoi sospese pendono,*
+*Od'egli hà sempre le sue mani armate,*
+*Certo null'altro à nostri occhi pretendono,*
+*Se non che pria, ch'alcun di lor s'accorga,*
+*Dal neruo scosse in mezo al cor suo scendono.*
+
+Trouo Cupido alle volte ancora fatto in altra guisa, con l'arco, come è appresso di Pausania, il quale scriuendo di Corinto dice, che quiui sopra il tempio di Esculapio in certa cappelletta tonda di bianco marmo era Cupido, fatto da Pausia dipintore, che haueua gettato l'arco, & le saette, & teneua vna lira in mano. Et il medesimo ragionando dell'Achaia dice, che in Egira Città di quel paese era certo piccolo tempio, oue ei vide Cupido stare à lato alla Fortuna, volendo mostrare, che questa ancora nelle cose d'Amore può assai, bench'egli da sè tanto possa, che vince tutte le piu ostinate voglie, spezza ogni indurato cuore, e gli animi piu superbi, e piu feroci fà diuentare humili, & mansueti in modo, che volontieri poi porgono le mani à gli amorosi lacci. E questo forse volle mostrare Archesilao laudato perciò da Varrone assai, come striue Plinio benche dicono alcuni, che lo laudò non per questo, ma per la bella arte, e per lo gran giuditio, ch'ei mostrò nella scultura, quando di vn solo pezzo di marmo fece vna Leonza, con la quale scherzauano i pargoletti Amori, & di loro alcuni la teneuano legata, alcuni le porgeuano vn corno, & voleuano, ch'ella vi beesse dentro, e la sforzauano a farlo, & alcuni altri mostrauano di volerla calciare. Tra tutti gli animali il Lione è ferocissimo, ma dicono poi, che la Leonza è di più feroce animo ancora, più crudele assai, & perciò questa fece Archesilao per esprimere meglio la forza de gli affetti amorosi. Li quali furono molto bene anco mostrati da i Poeti, quando finsero Marte starsene sollazando in braccio à Venere; la imagine della quale insieme con quella
+
+Колонтитул: De gli Antichi. 421
+Кустод: della
+Сигнатура: Dd 3
+Маргиналии:
+- Cupido con la Fortuna.
+
+## Скан 0464 · с. 422
+
+[ГРАВЮРА: Imagine di Pane, & Cupido, l'vno vinto, l'altro vincitore, per mostrare il potere d'Amore sopra la Natura vniuersale, che inuaghita del diletto delle operationi sue, non pensa ad altro, che à farle belle, & adorne.]
+
+Колонтитул: 422 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0465 · с. 423
+
+delle Gratie, e delle Hore, che andauano con costei sempre, aggiungerò à questa di Cupido, accioche non sia il figlio senza la madre, & habbia la madre così tra queste mie imagini chi l'accompagni, come hebbe appresso de gli antichi. Adunque perche tanto può Amore, fù detto vincere tutto, come che nullo altro à lui sia pare di forza, e finsero perciò le fauole, ch'ei vincesse già pur'anche il Dio Pan, che l'haueua prouocato prima. Il che tirato alle cose naturali, significa, che la natura vniuersale facitrice di tutto mostrata per lo Dio Pan, quando cominciò da principio ad operare, cominciò parimente a dilettarsi di quelle cose, che faceua, e seguitando poi quasi inuaghita di quelle, hà cercato sempre, e tuttauia cerca di adornarle più, ch'ella può. Per la dilettatione dunque, che pende la Natura delle cose da sè fatte, venne come à prouocare Amore: il quale potè tanto più di lei, che se la fece soggetta in modo, ch'ella fà solamete quanto piace à lui. Da che nasce la concordia de gli Elementi trà loro diuersi alla generatione delle cose. E le anime, come vogliono i Platonici, scendono parimente per Amore, di Cielo quà giù ne' corpi mortali, hauendo già per lui contratto certa affettione, & desiderio di quelli, sì come rimontano poi in cielo, quando spogliatesi in tutto l'amore terreno, si riuolgono ad amare le cose celesti solamente. Et perche dissero gli consideratori delle cose del Cielo, che vi erano due porte, per le quali passauano le anime humane scendendo di cielo in terra, e ritornado di terra al cielo, & era detta questa de gli Dei, quella de gli huomini: voleua Orfeo, che Amore tenesse le chiaui di queste porte, sì che non vi si potesse passare senza lui & perciò chi lo dipingesse anco con le chiaui in mano, potrebbe renderne la ragione, perche così l'hauesse fatto. Ma non è stato Amore di tanto potere però sempre, che altri non habbia potuto piu di lui ancora alcuna volta, come Ausonio mostra in certa sua fittione, la quale io voglio porre solo per dare con gli scherni, co i tormenti, e con la croce di Amore fine alla sua imagine, vendicatomi a questo modo, poi che altro non gli posso fare, di mille ingiurie, ch'egli mi hà già fatte, e mi fà tutto dì. Perche non è poca la vendetta, che si piglia di chi fa male, raccontare le pene sue, & i suoi dispregi, & pare che consoli assai ricordarsi, che quelli parimente siano stati in grauissimi pericoli li quali furono già, e tuttauia sono cagione altrui di penosa vita. Fà dunque Ausonio che Cupido non se auuedendo volasse là, doue stanno quelle anime, le quali per Amore vscirono di questa vita miseramente, e che pigliato da loro fosse legato, e posto come in croce sopra vn alto mirto, e mentre che queste li propongono diuersi tormeti, viene Venere, la quale non solamente non cerca di mitigare le adirate alme contra suo figlio, ma si mostra adirata anch'ella contra di lui, e fatte alcune sferze di rose, e di fiori lo batte stranamente sì; che
+
+Колонтитул: De gli Antichi. 423
+Кустод: moue
+Сигнатура: Dd 4
+Маргиналии:
+- Cupido vincitore di Pane.
+- Amor tormentato.

@@ -208,3 +208,6 @@
 | 0444 | 402 | гравюра | — полностраничная | |
 | 0445 | 403 | инициал | D | |
 | 0450 | 408 | гравюра | — полностраничная | |
+| 0458 | 416 | гравюра | Trionfo d'Amore descritto da Filostrato, dal Petrarca, & da altri antichi & moderni, significante la forza d'Amore. | |
+| 0462 | 420 | гравюра | Imagini d'Amore significanti gli varij effetti & potenze d'Amore, qual ne cuori nobili & gentili facilmente hà luogo, & li duri & ostinati spezza & rompe. dinota ancora quanto facilmente ci lasciano adescare da gli effetti lasciui, & libidinosi massime in giouentù. | |
+| 0464 | 422 | гравюра | Imagine di Pane, & Cupido, l'vno vinto, l'altro vincitore, per mostrare il potere d'Amore sopra la Natura vniuersale, che inuaghita del diletto delle operationi sue, non pensa ad altro, che à farle belle, & adorne. | |
