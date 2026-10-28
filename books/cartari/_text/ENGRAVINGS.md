@@ -211,3 +211,9 @@
 | 0458 | 416 | гравюра | Trionfo d'Amore descritto da Filostrato, dal Petrarca, & da altri antichi & moderni, significante la forza d'Amore. | |
 | 0462 | 420 | гравюра | Imagini d'Amore significanti gli varij effetti & potenze d'Amore, qual ne cuori nobili & gentili facilmente hà luogo, & li duri & ostinati spezza & rompe. dinota ancora quanto facilmente ci lasciano adescare da gli effetti lasciui, & libidinosi massime in giouentù. | |
 | 0464 | 422 | гравюра | Imagine di Pane, & Cupido, l'vno vinto, l'altro vincitore, per mostrare il potere d'Amore sopra la Natura vniuersale, che inuaghita del diletto delle operationi sue, non pensa ad altro, che à farle belle, & adorne. | |
+| 0471 | 429 | виньетка | декоративная наборная линейка из растительных орнаментов | |
+| 0471 | 429 | виньетка | декоративная наборная линейка из растительных орнаментов, меньшего размера | |
+| 0471 | 429 | инициал | P | |
+| 0472 | 430 | гравюра | Imagine di Venere nata dalla spuma del mare, della bellezza Dea, & della libidine, madre d'Amore, simbolo della lasciuia, qual fù anco tenuta Dea delle nozze & del matrimonio, intesa per il pianeta di Venere, detta ancor Lucifero, & Hespero, che induce la virtù generatiua nelle cose. | |
+| 0474 | 432 | гравюра | Tempio di Venere in Pafo Città di Cipro con gieroglifico lei & sua naturn dimostrante. Carro di Venere tirato da Cigni & da Colombe à lei sacrate, con la sua imagine sopra detto carro nuda con le tre Gratie seco, come li Sassoni la dipingeuano, con tre pomi d'oro in Vna mano, & Vna palla nell'altra, & dimostra l'oro farci via alla lasciuia, & dinota il tutto il natural desiderio carnale per generare. | |
+| 0476 | 434 | гравюра | Imagine di Venere tirata in carro da' Cigni, retti da gl'Amorini; per mostrare, che il canto, & la placidità della natura hanno molto confacimento co' piaceri d'Amore. | |

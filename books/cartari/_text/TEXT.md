@@ -8402,3 +8402,365 @@ delle Gratie, e delle Hore, che andauano con costei sempre, aggiungerò à quest
 Маргиналии:
 - Cupido vincitore di Pane.
 - Amor tormentato.
+
+## Скан 0466 · с. 424
+
+moue quelle à pietà, le quali la pregano à perdonargli, & esse parimente gli perdonano, e lo sciogliono lasciandolo andare, cosa che non hauerei già fatta io: ma poi che tutte erano donne quelle, che lo pigliarono, altro non se ne poteua aspettare. La cosa è nel Latino, molto bella, non sò che sia di lei nel volgare: ma chi sà Latino, legila nella sua lingua; e chi nò, si contenti di questa, ch'io hò ridotta al volgare per hora, fin che venga chi la ritiri in miglior forma.
+
+*Ne i mesti campi, doue i Verdi Mirti*
+*Fanno la selua ombrosa, ch'in se chiude*
+*Gl'innamorati, & infelici spirti,*
+*Eran l'alme, ch'in sè fur empie, e crude*
+*Per troppo amar altrui, sì ch'anzi tempo*
+*De la spoglia mortal restare ignude.*
+*E la memoria del passato tempo*
+*Rinouando mastraua ciascheduna*
+*Come, e perche morì così per tempo.*
+*Hà la gran selua poca luce, e bruna,*
+*Come talhor, ch'oscuro Vel nasconde*
+*A noi la bianca faccia della Luna.*
+*Taciti Lachi, che le torbide onde*
+*Non mostran mai, e fiumi lenti, e cheti,*
+*Che stretti van trà le fiorite sponde.*
+*L'aer caliginoso par che vieti*
+*Ogni allegrezza à i fiori, che son quiui*
+*Sì ch'Vnqui non si ponno mostrar lieti,*
+*I quali furon, mentre ch'eran viui,*
+*Giouani tutti di somma bellezza,*
+*Che ne restar miseramente priui.*
+*Narcisso, c'hà di sè tanta vaghezza,*
+*Perche si crede vn'altro, e'l bel Hiacinto,*
+*Cui morte dà chi più l'ama, & apprezza.*
+*Croco da l'aurea chioma, Aiace vinto*
+*Da sdegno sì, che dandosi nel petto*
+*Lascia il terren del sangue suo dipinto.*
+*Adone, che già tante Volte Stretto*
+*Da la madre d'Amor fu nel bel seno*
+*Cogliendone piaceuole diletto,*
+*Et hora fatto fior orna il terreno*
+*Di pordoreo color con altri assai,*
+*Ond'è di Varij fior quel luoco pieno.*
+*E rimembrando i già passati guai,*
+
+Колонтитул: 424 Imagini de i Dei
+Кустод: Le
+Сигнатура:
+Маргиналии:
+
+## Скан 0467 · с. 425
+
+*Le lagrime, i sospir, i mesti amori,*
+*I dolorosi accenti, e i tristi lai,*
+*Rinouano con quelli anco i dolori,*
+*C'hanno sentiti all'vltima partita,*
+*Quando lasciar morendo i primi ardori.*
+*Trà questi, e le Verdi herbe, ond'è gradita*
+*La densa selua, Van le donne antiche,*
+*Ch'amar miseramente in questa vita.*
+*E fanno proua allhor quanto nimiche*
+*A sè Stesse fur già, mentre che furo*
+*A le Voglie d'Amor già troppo amiche.*
+*Mostra piangendo Semele, a che duro*
+*Partito fosse quando fulminata*
+*Produsse al mondo il parto non maturo.*
+*E Vorebbe poter non esser Stata*
+*Compiacciuta di quel, che chiese a Gioue*
+*Alhor che da Giunone fu ingannata.*
+*Onde si scuote, e con la mano moue*
+*Spesso la veste, e fassi Vento, e finge*
+*Che la fulminca fiamma si rinoue*
+*Ira, di sdegno, e graue duolo astringe*
+*Cenida poi che femina si Vede*
+*Di nuouo, e in viso l'animo dipinge.*
+*Procri Vicina à morte in terra siede,*
+*Le piaghe asciuga, & al suo feritore*
+*Serua pur'anco l'amorosa fede,*
+*Col lume in mano Vinta dal dolore,*
+*Salta nel mar la giouane di Sesto,*
+*Oue affogato Vede il suo amatore.*
+*Nè di lei mostra hauere il piè men presto*
+*Saffo à salire sopra il duro sasso*
+*Per gittarsi ne l'onde, e'l dishonesto*
+*Amor, ch'infiammò Creta, à lento passo*
+*Andar fa l'infelice, che si duole,*
+*Che si sia posto il cor suo così basso,*
+*E mostra vn bianco Toro, e dopò Vuole,*
+*Che non men del suo error si Vegga quello,*
+*Che per Amor'han fatto le figliuole,*
+*Per le quali restò morto il fratello*
+*Da chi lasciò di lor l'altra su'l lito,*
+*E seco trasse l'altra, che del bello*
+*Hippolito hebbe il cor già sì inuaghito;*
+*Ma non potendo poi trarlo a sue Voglie,*
+
+Колонтитул: De gli Antichi. 425
+Кустод: Tanto
+Сигнатура:
+Маргиналии:
+
+## Скан 0468 · с. 426
+
+*Tanto l'odiò, quanto l'hauea gradito,*
+*Par che Laodamia s'allegri, e doglie*
+*De' falsi sogni, nè dopò la morte*
+*Del suo Protesilao più Viuer Voglie.*
+*Et altre poi, le quai con braccio forte*
+*L'infelici alme trassero de i petti,*
+*Mostrano i duri ferri, onde son morte.*
+*Tisbe quel del suo Sposo, i cui diletti*
+*Amorosi da sorte troppo fera,*
+*Quando men si douea, furo intercetti.*
+*Canace l'hebbe dal fratello, & era,*
+*De l'hospite quell'altro, c'hauea Dido.*
+*Che già no'lascia acciò, ch'ella ne pera.*
+*E com'hà detto già il publico grido*
+*Quiui mostra la Luna, ch'ella spesso*
+*D'Endimion scese a l'amato nido.*
+*Più di mille altre poi veniamo appresso*
+*Mostrando ciascheduna quel, c'haueua*
+*Già per Amor contra di sè commesso.*
+*E mentre che ciascuna si doleua*
+*De' suoi antichi danni dolcemente,*
+*Che'l lamentarsi in parte i' duol rileua,*
+*Ecco che vien inauedutamente*
+*Battendo l'ali per la selua ombrosa*
+*Amor tra questa addolorata gente*
+*La qual, benche sia quasi come ascosa,*
+*L'ardente face, e la faretra d'oro*
+*L'arco, e li strai per l'aria nebulosa,*
+*Lo riconosce nondimeno, e foro*
+*Subito quelle donne tutte insieme*
+*Per tener il commun nemico loro.*
+*Cui l'aria humida, e graue così preme*
+*L'ali, che'l miserello, che si sforza*
+*Pur di fuggir, e de i nimici teme.*
+*In vano s'affatita, e si rinforza*
+*L'impeto feminile in modo tale,*
+*Che Vinto se ne resta in altrui foza.*
+*Era ne la gran selua Vn Mirto, quale*
+*Era il tormento di chi fosse stato*
+*Ingiustamente altrui cagion di male.*
+*Que già da Proserpina legato*
+*Adone fu punito dell'hauere*
+*Per Venere l'amor di lei sprezzato.*
+
+Колонтитул: 426 Imagini de i Dei
+Кустод: A que-
+Сигнатура:
+Маргиналии:
+
+## Скан 0469 · с. 427
+
+*A questo vengon tutte le seuere,*
+*E meste donne, e con lor tranno Amore,*
+*Qual fanno a l'alto tronco sostenere.*
+*Gli hanno legati le mani, e piedi; e fuore*
+*D'ogni Vso di pietà cercan di fare*
+*Nel misero, contento il lor furore.*
+*L'accusan tutte, nè però trouare*
+*Sano giusta cagion di dargli pena,*
+*Ma giusto fan che sia quanto lor pare.*
+*Ond'ei si sente andar per ogni Vena*
+*Vn timor freddo, che l'aghiaccia, e turba*
+*Il mesto duol la faccia già serena,*
+*Poi che si vede in mano à l'empia turba,*
+*La qual'incolpa lui de i propri errori,*
+*Et ogni legge, & ordine conturba.*
+*A lui ciascuna improuera i dolori*
+*De la passata morte, e poi gli dice,*
+*Com'io già, così Voglio, ch'hor tu mori.*
+*E pensano di far lieto, e felice*
+*Tutte lo Stato lor, se fan Vendetta*
+*Di lui, come lor par, se ben lice.*
+*Però mostrano quel, onde intercetta*
+*Fù lor la vita, e nel medesmo modo*
+*Che si tormenti Amor ciascuna affretta.*
+*Porta questa Vn coltello, e grida i' lodo,*
+*Che sia questo ad Amor tormento, e morte.*
+*Quella mostra d'Vn laccio il saldo nodo.*
+*Quella altra par, ch'assai si riconforte*
+*Mostrando i caui fiumi, perche spera*
+*Veder'in altri l'Vltima sua sorte.*
+*Chi l'erte rupi, chi l'irata, e fera*
+*Onda del mar, chi mostra il mar quieto,*
+*Secondo che piu brama, ch'Amor pera.*
+*Alcuna dice, hora farò pur lieto*
+*Il mio cor con la morte di questo empio*
+*Se la vendetta à me stessa non Vieto.*
+*Queste fiamme faranno il crudo scempio,*
+*E scuotendo l'ardenti fiamme Vuole,*
+*Ch'Amor del suo morir sia nuouo essempio.*
+*Mirrha scoprendo la matura prole*
+*Squarcia il bel ventre e piglia poi con mano*
+*Le lagrime, onde mesta ancor si duole.*
+
+Колонтитул: De gli Antichi. 427
+Кустод: E quelle
+Сигнатура:
+Маргиналии:
+
+## Скан 0470 · с. 428
+
+*E quelle arditamente di lontano*
+*Verso lui spiega, che di sè pauenta,*
+*Vedendosi a partito troppo strano.*
+*Alcuna di schernirlo si contenta,*
+*Mostrando perdonargli, e che quell'ira*
+*C'hebbe già contra lui tutta sia spenta,*
+*Ma lo scherno, è ben tal, che ne sospira*
+*Amor non men, che s'aspettasse morte,*
+*Perche graue tormento seco tira,*
+*Chà da far vno Stil pungente, a forte*
+*Spicciar fuor de le membra delicate*
+*Il sangue, che le rose hebbero in sorte.*
+*Oueramente che siano infiammate*
+*Con lumi accesi quelle belle parte,*
+*Onde son le persone generate,*
+*La bella Citherea, ch'era in disparte,*
+*Quando intende del figlio, lieta Vuole*
+*Anch'essa hauer ne' suoi tormenti parte.*
+*A lui subito Vien, nè come sole*
+*Piaceuol parla, ma turbata in Vista*
+*Gli accresce duolo, e tema con parole*
+*Chiamandolo cagion d'ogni sua trista*
+*Fama, e li grida, ahi scelerato sai*
+*Ben tu, che per te sol biasmo s'acquista.*
+*Poi gli improuera quanto fece mai,*
+*Gli adulterij di Marte, che scoperse*
+*Al Ciel Febo con suoi lucidi rai.*
+*Il membruto Priapo, che le aperse*
+*Il Ventre con figura dishonesta,*
+*Di che non poco scorno già sofferse.*
+*L'Hermafrodito, il cui nome anco resta*
+*A chi d'huomo e di donna habbia l'insegna,*
+*Nè Veramente sia poi quel, nè questa*
+*L'empio Erice, del qual'ella si sdegna*
+*Per la sua crudeltade, e ch'habbia fatto*
+*Ch'a Star con huom mortal più volte Vegna.*
+*Nè del dirsi contenta, ma con atto*
+*Di chi gastigar voglia il proprio errore*
+*In colui, ch'ad errar già l'habbia tratto,*
+*Raccoglie insieme Vno, & Vn'altro fiore*
+*E le Vermiglie rose, con le quali*
+*Poi batte il mesto, e sconsolato Amore.*
+
+Колонтитул: 428 Imagini de i Dei
+Кустод: E tan-
+Сигнатура:
+Маргиналии:
+
+## Скан 0471 · с. 429
+
+*E tante gli ne dà, che de' suoi mali*
+*Quelle donne diuennero pietose,*
+*Che pria gli minacciar pene mortali.*
+*Però la pregar tanto, che depose*
+*La bella madre l'ira, e il graue sdegno,*
+*Che mal contra il figliuol già la dispose.*
+*E ciascheduna dice essere indegno*
+*Amor di tante pene, e che per lui*
+*Non giunse alcuna mai al tristo segno*
+*Di darsi morte, ma che furo i sui*
+*Fati cagion del miserabil fine,*
+*Che destinar così, disser, di nui,*
+*Placata dunque Vener le meschine*
+*Donne ringratia del pietoso officio,*
+*Poi scioglie il figlio con le man diuine,*
+*Quel già sicuro dal crudele esitio,*
+*Che gli fu apparecchiato, Via sen'Vola,*
+*Così foss'egli andato in precipitio,*
+*Nè più di lui s'Vdisse mai parola.*
+
+[ВИНЬЕТКА: декоративная наборная линейка из растительных орнаментов]
+
+VENERE.
+
+[ВИНЬЕТКА: декоративная наборная линейка из растительных орнаментов, меньшего размера]
+
+[ИНИЦИАЛ: P]RIMA che dissegnare la imagine di Venere voglio fare vno schizzo della natura sua, perche sarà di non poco giouamento à conoscere la ragione di diuerse cose, che in quella dirò poi. Fu dunque Venere, secondo le fauole, la Dea della libidine, e della lasciuia, come ch'ella mandasse nel cuore de i mortali i libidinosi desiderij, e gli appetiti lasciui, e che à questi con l'aiuto suo si desse il desiderato compimento. Onde la fecero madre di Amore, perche non pare, che si con-
+
+Колонтитул: De gli Antichi. 429
+Кустод: giunga
+Сигнатура:
+Маргиналии:
+- Dea della libidine.
+
+## Скан 0472 · с. 430
+
+[ГРАВЮРА: Imagine di Venere nata dalla spuma del mare, della bellezza Dea, & della libidine, madre d'Amore, simbolo della lasciuia, qual fù anco tenuta Dea delle nozze & del matrimonio, intesa per il pianeta di Venere, detta ancor Lucifero, & Hespero, che induce la virtù generatiua nelle cose.]
+
+Колонтитул: 430 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0473 · с. 431
+
+giunga quasi mai huomo, e donna insieme, se questo non v'intrauiene: & à costei dettero parimente gli antichi, oltra Himeneo, e Giunone, la cura delle nozze, percioche, queste si fanno, accioche ne seguiti il carnale congiungimeno, onde ne habbia da seguirare poi la generatione de i figliuoli. Fu la bellezza ancora data in guardia à Venere, sì ch'ella potesse darla, e torre come pareua à lei. Ma secondo le cose della natura poi, le quali sotto il nome di questa Dea ci sono in diuersi modi significate, ella mostra quella virtù occulta, per la quale gli animali tutti sono tirati al desiderio di generare. Onde quelli, li quali vogliono, che l'anima humana di Cielo scenda ne i corpi nostri, e passãdo disfera in sfera tragga da ciascheduna di quelle affetti particolari, dicono che da Venere ella piglia l'appetito concupiscibile, che la moue alla libidine, & à i lasciui desiderij, e fanno ancora alcuni, tirando pure le fauole alle cose naturali, che Venere, Giunone, la Luna, Proserpina, Diana, & alcune altre siano vna Dea sola, ma siano tanti i nomi, e così diuersi, perche tante sono le diuerse virtù, che da quella vengono, come si vederà ancora per diuersi disegni della sua imagine, cominciando da quello, che riferisce il suo primo nascimento; percioche raccontano le fauole, ch'ella nacque della spuma del mare hauendoui Saturno gittato dentro i testicoli, ch'ei tagliò à Celo suo padre. La qual cosa hanno esposta molti, e più chiaramente forse di tutti Leone Hebreo ne i suoi dialoghi di Amore. Volendo dunque gli antichi mostrare, che Venere fosse nata del mare, la dipingeuano, che ella quindi vsciua fuori, stando in vna gran conca marina, giouane e bella, quanto era possibile di farla, e tutta nuda, e la faceuano ancora ch'ella se n'andaua à suo diletto nuotando pel mare. Onde Ouidio risguardando à questo la fa così dire à Nettuno.
+
+*Et ho che far'anch'io pur qualche cosa*
+*Tra queste onde se Vero è ch'io sia Stata*
+*Nel mar già densa Spuma, dalla quale*
+*Ho hauuto il nome, c'hoggi ancora serbo.*
+
+Perche Aphrodite la chiamarono i Greci dalla spuma, la quale essi nominano con voce da questo poco dissimile, Virgilio parimente fa che Nettuno così risponde a lei, quando ella lo prega, che voglia acquetare homai la tempesta del mare, onde il so figliuolo Enea era già tanto trauagliato.
+
+*Giustissimo è, che tu ne' regni miei*
+*Ti fidi, ona'è l'origine tua prima.*
+
+Колонтитул: De gli Antichi. 431
+Кустод: Onde
+Сигнатура:
+Маргиналии:
+- Venere secondo i naturali.
+- Nascimento di Venere.
+- Ouidio.
+- Aphrodite.
+- Virgilio.
+
+## Скан 0474 · с. 432
+
+[ГРАВЮРА: Tempio di Venere in Pafo Città di Cipro con gieroglifico lei & sua naturn dimostrante. Carro di Venere tirato da Cigni & da Colombe à lei sacrate, con la sua imagine sopra detto carro nuda con le tre Gratie seco, come li Sassoni la dipingeuano, con tre pomi d'oro in Vna mano, & Vna palla nell'altra, & dimostra l'oro farci via alla lasciuia, & dinota il tutto il natural desiderio carnale per generare.]
+
+Колонтитул: 432 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0475 · с. 433
+
+Onde frà gli altri simulacri, che furono nel tempio di Gioue appresso de gli Elei in Grecia, come scriue Pausania, ve ne fu vno di Venere, che sorgendo dal mare era raccolta da Cupido. Alcuna volta poi fu per Venere fatta vna bellissima donna con vna conca marina in mano, e con vna ghirlanda di rose in capo, perche le rose sono proprie di questa Dea, come dirò poi rendendone la ragione, e la conca marina mostra sempre, che sia Venere nata del mare, ò in mano ch'ella l'habbia, o pure che vi sia dentro co' piedi. Benche vogliono alcuni, che perche la conca marina nel coito tutta s'apre, e tutta si mostra, sia data à Venere, per dimostrare quello che nei Venerei congiongimenti si fà, e ne i piaceri amorosi. Alli quali, ò sia perche quella parte del Cielo, cui è soggetta, così volesse, o pure che la natura de gli habitanti per altro fosse tale, pareua che l'Isola, di Cipro fosse dedita oltra modo, e perciò diceuano quelli di Pafo Cittrà di questa Isola, che vscendo Venere dal mare apparue prima appresso di loro, onde l'adorauano con grandissima riuerenza, & era appo costoro vn tempio dedicato a lei, nel quale la sua statoa non era come l'altre fatta con figura humana, ma certa cosa rotonda, e larga nel fondo, che verso la cima si veniua stringendo a poco a poco. Della quale, come riferisce Cornelio Tacito, non pare, che si sappia alcuna ragione. Pure io mi ricordo di hauere letto, che questa figura rappresenta l'ombilico del corpo humano, & è data a Venere, perche si crede, che la libidine alle donne stia, e cominci in questa parte. Ma quando anco questo fosse vero, che diremo poi del simulacro di Gioue Ammonio, il quale in certa parte di Egitto era medesimamente fatto in questa guisa, come nella sua imagine si può vedere. Io voglio credere, che qualche misterio contenesse in se questa figura, quale non vollero dire forse i primi, che la fecero, ò per dare da pensarui sopra a quelli, che veniuano dopò loro, ò perche questa fu sempre la opinione de' piu antichi, che ben fatto fosse nascondere le cose della religione, o mostrarle in modo, che non potessero essere conosciute, se non da chi vi metteua grande studio intorno, & à quelle solamente attendeua, parendo loro, che in questo modo douessero essere piu risguardate assai da tutti, & hauute in maggiore rispetto, come hò detto altroue. Egli fu poi dato parimente a Venere come a gli altri Dei vn carro, sopra del quale oltre alla conca marina ella andaua e per l'aria, e per lo mare, & ouunque pareua à lei. Benche Claudiano, quando la finge andare alle nozze di Honorio, & di Maria, fa che Tritone la porti su la lubrica schiena, facendole ombra con l'alzata coda. E perche ciascun Dio ha animali a se proprij, che tirano il suo Carro, quel di Venere è tirato da candidissime colombe, come dice Apuleio, perche questi vccelli piu di alcun'altro paiono essere conformi a lei, e sono perciò chiamati ancora gli vccel-
+
+Колонтитул: De gli Antichi. 433
+Кустод: li
+Сигнатура: Ee
+Маргиналии:
+- Conca marina data à Venere.
+- Cornelio Tacito.
+- Gioue Ammonio.
+- Carri dati alli Dei.
+
+## Скан 0476 · с. 434
+
+[ГРАВЮРА: Imagine di Venere tirata in carro da' Cigni, retti da gl'Amorini; per mostrare, che il canto, & la placidità della natura hanno molto confacimento co' piaceri d'Amore.]
+
+Колонтитул: 434 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0477 · с. 435
+
+li di Venere, imperoche sono oltra modo lasciui, nè è tempo alcuno dell'anno, nel quale non istiano insieme; e dicesi, che non monta mai il colombo la colomba, che non la baci prima, come apunto fanno gl'innamorati. E le fauole raccontano, che fu il colombo tanto caro a Venere, perche Peristera Ninfa già molto amata da lei fu mutata in questo vccello. Oltre di ciò Eliano mostra, che le colombe fossero consecrate a Venere da questo, che in Erice monte della Sicilia erano celebrati alcuni di dì festa, li quali chiamauano tutti i Siciliani giorni di passaggio, perche diceuano, che in questi Venere passaua nella Libia, e perciò in tutto quel paese non si vedeua allhora pure vna colomba, come che tutte fossero andate ad accompagnare la Dea loro. Da indi poi a noue dì se ne vedeua riuolare vna dal mare della Libia bellissima, e non fatta come le altre, ma rossa, come dice Anacreonte, che è Venere, oue ei la chiama porporea, e dietro à questa ne veniuano poi le torme delle altre colombe. Onde celebrauano quelli del monte Erice allhora, per essere queste già ritornate, li giorni del ritorno, facendo quelli che erano ricchi, belli, e copiosi conuiuij; come riferisce Atheneo. Tirauano etiandio i Cigni il carro di Venere, che Horatio, Ouidio, e Statio così lo mettono; o sia perche questo è vccello innocentissimo, e che à niuno fa male, o sia pure per la soauità del suo canto, perche alle lasciuie, & a gli amorosi piaceri pare, che'l canto gioui assai. Fu questa Dea fatta nuda per mostrare come vogliono alcuni quello, a che sempre ella è apparecchiata, che sono i lasciui abbracciamenti, e perche questi godiamo meglio nudi, che vestiti, ouero perche chi va dietro sempre a' lasciui piaceri rimane spesso spogliato, e priuo di ogni bene, percioche perde le ricchezze, che sono dalle lasciue donne diuorate, debilita il corpo, e macchia l'anima di tale bruttura, che niente le resta piu di bello. Oueramente si faceua Venere nuda, per dare a conoscere, che i furti amorosi non ponno stare occulti, e se pure vi stanno qualche poco, si scuoprono anco poi, e spesso auuiene, che si mostrino allhora, che meno vi si pensa, e se ne dubita meno. Onde ò a questo, ò a che altro hauesse mente Praffitele quel nobile scultore fece a quelli di Gnido vna Venere tutta nuda di marmo bianchissimo, tanto bella, che molti nauigauano in Cipro tratti dal desiderio solo di vedere questa statoa, della quale si legge, che si innamorò vno sì fattamente, che non hauendo risguardo à pericolo alcuno, nè da alcun male, che gliene potesse intrauenire, si nascose vna notte nel tempio, oue ella staua, & abbracciandola, stringendola, e baciandola, facendole tutti que' vezzi che alle più delicate giouani si fanno, quando son ben care; diede compimento al suo desiderio amoroso, donde rimase poi sempre certa macchia in vn fianco della bella statoa. Va nuotando Venere pel mare, dicono, per dare
+
+Колонтитул: De gli Antichi. 435
+Кустод: ad
+Сигнатура: Ee 2
+Маргиналии:
+- Colombe vccelli di Venere.
+- Fauola di Peristera.
+- Eliano.
+- Anacreonte.
+- Cigni dati à Venere.
+- Venere perche nuda.
+- Statoa miracolosa.
