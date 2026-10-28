@@ -10569,3 +10569,176 @@ Ma perche il Sig. Girolamo Aleandro mi ha fauorito di scriuermi il suo parere in
 Сигнатура:
 
 Маргиналии:
+
+## Скан 0586 · с. 544
+
+ta da alcuno per sua deuotione, ilquale fosse initiato così ne i misteri di Cibele, come d'Iside & anco di Bacco, parendomi che a tutti i tre possano spettare le figure in essa comprese. perche non ha dubbio, che a Cibele spettano la Pigna, i Flauti, e i Cembali, a Bacco la Falce da vendemiare, il Veretro, ilquale può medesimamente appartenere ad Iside, per quello, che fù scritto d'Osiri. Il Tirso, che Tirso credo sia quello, che V. Sig. chiama *sceptrum Pinea insignitum*, perche ne' murari antichi ho osseruato esser della medesima forma i Tirsi, che tengono in mano le Baccanti. può anco à Bacco appartenere la Cetra, che si vede appresso la falce vinitoria. Ad Iside è chiaro, che spetta il Sistro, e forse ancora la mezza Luna, e la sferza, che passim si effigiaua in mano d'Oro, al qual Oro spetta ancora la testuggine, stimando io verissima la spositione datali dal nostro Sandelli, poiche in vn libro di disegni, che fu di Fuluio Orsino, c'hoggidì si conserua nella Bibliotheca Vaticana, fra gl'altri dissegni di Statuette dell'istesso Oro Harpocrate, due ve n'ha, a piedi de' quali si vede vn Cane e vna testuggine. Il Serpente come a V. Sig. è noto può riguardare e Bacco, e Iside e forse anco i misteri d'Attide, com'ella discorre. fin quà il Sig. Aleandro molto dottamente.
+
+[ВИНЬЕТКА: типографская концовка-гравюра в виде короны]
+
+Колонтитул: 544 Aggionta
+Кустод: (отсутствует — страница заканчивается виньеткой и сигнатурой, отдельной строки-кустода нет)
+Сигнатура: S[?]. — после «S» стоит сильно переиспачканный типографской краской знак (блот), в котором неразличимы границы буквы; визуально ближе всего к «f»/декоративной «E», но определить однозначно по увеличенному фрагменту фото не удалось
+Маргиналии: (нет)
+
+## Скан 0587 · с. Titelblatt_r
+
+NOVA SECONDA
+EDITIONE
+DELLE VERE ET NOVE
+IMAGINI
+DE GLI DEI
+INDIANI.
+
+Колонтитул: (нет)
+Кустод: (нет)
+Сигнатура: (нет)
+Маргиналии: (нет)
+
+Нумерация: второй (внутренний) титульный лист вставки без печатного номера страницы; печатная пагинация книги прерывается между сканами 0586 (с. 544) и 0591 (с. 545) — сканы 0587–0590 (второй титул и посвящение издателя Pietro Paolo Tozzi) номера страницы не несут, см. PAGES.tsv (Titelblatt_r).
+
+## Скан 0588 · с. Titelblatt_v
+
+[ПУСТАЯ СТРАНИЦА]
+
+Колонтитул: (нет)
+Кустод: (нет)
+Сигнатура: (нет)
+Маргиналии: (нет)
+
+Нумерация: без печатного номера страницы (оборот второго титульного листа вставки, см. PAGES.tsv: Titelblatt_v).
+
+## Скан 0589 · с. Widmung_r
+
+[ВИНЬЕТКА: наборная виньетка-заставка с двумя гротескными маскаронами по краям и крылатой фигурой в центре]
+
+AL MOLT'ILLVSTRE
+Sig. mio osseruandiss.
+
+IL SIGNOR
+PIERO BVARNO.
+
+[ИНИЦИАЛ: L]A memoria, ch'io tengo dei fauori riceuuti per lunga mano di tempo da Vostra Sig. molt'Illustre, è così fresca & viua nel mio pensiero, che se io hauessi occasione alle mani così pronta di mostrarmele grato, come so desiderarla, ardirei di promettermi qualche allegerimento di quel peso, di che la cortesia sua m'ha caricato in buona somma. Però mentre qualche corso di fauoreuole occasione mi portarà innanzi cosa di momento maggiore per le mie pretensioni, porgo a Vostra Sig. molt'Illustre questo Trattato, che sotto nome della parte delle Imagini delli Dei, esce in luce fuor della mia Stamperia; di mente ancora dell'Autore di esso, che fa stima singolare del valore di lei, & m'ha dato segno d'hauer caro, ch'io mi rissol-
+
+Колонтитул: (нет)
+Кустод: uesse
+Сигнатура: ✠✠ 2 (два одинаковых типографских орнамента в форме креста-патте/мальтийского креста с раздвоенными лепестковидными концами лучей, затем цифра «2»)
+Маргиналии: (нет)
+
+Нумерация: без печатного номера страницы (начало посвящения издателя Pietro Paolo Tozzi, см. PAGES.tsv: Widmung_r).
+
+## Скан 0590 · с. Widmung_v
+
+uesse à così fare. Io lo vedo piccolo quanto alla mole, ma lo stimo non picciolo quanto al concetto, che ne ho sentito a formare da gl'intendenti, che tengono l'Autore per homo, che nella cognitione di questa sorte d'Antichità habbia pochi pari. Gradisca Vostra Sig. molt'Illustre per hora il mio affetto, & mi conserui la sua bona gratia, della quale io faccio tanto capitale, quanto ella sà. Il Nostro Sig. Iddio le doni prosperità. Di Padoua il dì 1. di Nouembre 1614.
+
+Di Vostra Sig. molt'Illustre
+
+Seruitore humilissimo
+
+Pietro Paolo Tozzi.
+
+Колонтитул: (нет)
+Кустод: (отсутствует — конец письма, подпись без кустода)
+Сигнатура: (нет)
+Маргиналии: (нет)
+
+Нумерация: без печатного номера страницы (посвящение, PAGES.tsv: Widmung_v). Текст — завершение посвятительного письма издателя Пьетро Паоло Тоцци; переноса на следующий скан нет, страница завершена подписью.
+
+## Скан 0591 · с. 545
+
+SECONDA PARTE
+DELLE
+IMAGINI DE GLI DEI
+INDIANI.
+
+*Aggionta al Cartari da Lorenzo Pignoria.*
+
+[ИНИЦИАЛ: H]ERODOTO sensato scrittore, & non così bugiardo, come volgarmente è tenuto, parlando dell'Egitto, scriue, che ha cose piu marauigliose, che qual si voglia altro paese; & che sopra ogn'altra parte del mondo, si vedono in questa opere, alle quali la penna de' Scrittori non arriua. E veramente questa d'Herodoto non si può chiamre hiperbole, vedendosi piene le carte e sacre e profane, della grandezza, delle forze, delle ricchezze di quel grandissimo, e nobilissimo Regno. Ne poca fu la gloria de gl'antichi Re suoi ne gl'acquisti, e nel portare intorno le armi vittoriose sopra i popoli e circonuicini, e molto lontani. Poiche & di Sesostri si legge, che l'Etiopia, la Scithia, la Tracia, i Colchi & bona parte dell'Asia minore soggiogasse, & di Amasi, che la Isola di Cipro rendesse tributaria. Nè tempi più antichi (come si caua da Diodoro Sicolo) Osiride viaggiò pe'l Mondo, dai deserti confini dell'India, fino alle fontane dell'Istro, & alla vista dell'Oceano: & d'vn'altro scriue Manethone, che sottomettesse alla sua corona i Fenici, i Medi, e gl'Assiri. Et d'altri in simil proposito molte altre cose si leggono. Hora se con l'Imperio di questi passasse ne' popoli soggiogati la Religione ancora, mi pare sproposito il dubitarne. Racconta Herodoto, che quelli di Colco in questa maniera riceuessero da gl'Egittij la circocisione, che in tal modo quelli di Fenicia, & di Soria; il che tutto che non fosse molto vero (poiche de gli Hebrei in particolare sappiamo quello, che ci bisogna credere), tuttauia ha molto del ragioneuole; poiche è costume de' vinti l'acomodarsi a' costumi, alle vsanze, & a' riti de' vincitori. Et chi sà, ch'l culto di Iside appresso i Sueui in Germania, notato ancora da Tacito, non hauesse origine di qua? tanto piu, che il simulacro di lei
+
+Колонтитул: 545
+Кустод: appresso
+Сигнатура: M m
+Маргиналии: (нет)
+
+Примечание к сверке (скрытые совпавшие ошибки, см. ALGORITHM.md п.7):
+- «Nè» (не «Ne») перед «tempi più antichi» — read1 и read3 независимо дали «Ne» без грависа, read2 — верно «Nè». hidden_errors_text.
+- «circocisione» (опечатка наборщика, без «n») — read2 и read3 независимо «исправили» на «circoncisione», read1 сохранил опечатку верно, по фото подтверждено «circocisione». hidden_errors_text (ошибочная «правка» опечатки печатника).
+- Сигнатура «M m» (с явным зазором между буквами по фото) — read2 и read3 дали «Mm» слитно, read1 верно передал зазор. hidden_errors_margin.
+- Колонтитул: верно только «545» (число страницы) — раздельская «SECONDA PARTE...» это заголовок тела страницы, не колонтитул; все три прочтения ошибочно включили заголовок в колонтитул в разных вариантах (both_wrong).
+- Декоративный инициал «H» перед «ERODOTO»: read1 ошибочно продублировал букву H как отдельный символ с пробелом; по фото — инициал слит с «ERODOTO» без пробела, read2/read3 верно.
+
+## Скан 0592 · с. 546
+
+appresso questi popoli, fatto in maniera di fregata, mostraua qualche orma delle rissolute nauigationi de gl'arditi marinari dell'Egitto. Ne lasciarono quieti gl'Egittij que' popoli, che scoperti & domati alla memoria de' nostri Padri dalla valorosissima natione Portoghese, sono compresi sotto'l nome generale d'Indie Orientali; poiche scriue; pure Herodoto, che Sesostri vinse i popoli, che sono intorno al Mare, che hora chiamiamo Rosso, (con armata di Galere grosse diressimo noi), & che penetrando pure innanzi ritrouasse vn mare pieno di secche & per consequenza non nauigabile; sì che fu necessitato à ritornarsene in dietro. Passarono piu oltre i Tolomei, animati forse da qualche scoperta de' Re precedenti, poiche il Filadelfo studioso d'inten lere e vedere cose noue, come pure lo chiama Strabone, mandò vn tale Dionisio à scoprire le Indie, che ne scrisse poi libri e relationi. Et Cornelio Nepote racconta, che vn certo Eudosso fugendo dal Rè Lathyro, vscito del seno Arabico, hoggidì Mare dell i Meca ò mar Rosso, andasse tanto aggirandosi, che arriuasse à Caliz: rissolutione, che mostra commercio e notitia di paese. E forse questo Eudosso è quel medesimo, che al tempo di Tolomeo Euergete nauigò in India, & in molte altre parti all'hora incognite, come per testimonio di Heraclide Pontico racconta Strabone, che se ne ride però per certi suoi argomenti poco sodi per dir il vero. Ma questa fu vniuersale heresia de' Geografi antichi, di tenere per fauole tutte le narrationi del nouo Mondo. E trasmessero questa loro vana opinione ne gl'animi degl'huomini con tanta forza, che fino gl'auoli nostri si risero di Narco Polo, al quale per ischerno addossarono il cognome di Millione. Et Christoforo Colombo per la medesima cagione fu gran tempo riputato pazzo. Et in Vicenza il Carnouale le brigate si faceuano maschera, narrando spropositi, ad imitatione di Antonio Pigafetta, che l'anno 1522. con Magaglianes, passò nell'Indie. Continuarono i Romani padroni dell'Egitto questo viaggio, poiche Strabone fa pur mentione del tributo Indico, che al suo tempo faceua scala à Capto città dell'Egitto. E bel particolare racconta Solino, che sotto l'Imperio di Claudio, vn Liberto d'Annio Proclamo, ch'era Gabelliere del Mar Rosso, andando in Arabia, portato da forza di vento, in capo di quindeci giorni prese terra nell'Isola Taprobana, doue dopo sei mesi di tempo, hauendo imparato la lingua del paese, introdotto al Re, disse poi molte cose, che haueua vedute e notate, fra le quali notabile fu la marauiglia di quel Re, che nella Moneta Romana coniata con diuersi volti auuerti nondimeno il peso medesimo, & vniforme. Racconta le medesime cose Plinio; intorno che mi occorre dire ch'io non sò vedere sopra che si fondasse la marauiglia di quel barbaro, poiche fra molti Denarij Romani, con la Bilancia in mano, pochissimi ne ho trouati, che del mede-
+
+Колонтитул: 546 SecondPaarte
+Кустод: mede-
+Сигнатура: (нет)
+Маргиналии: (нет)
+
+Примечание к сверке (скрытые совпавшие ошибки, см. ALGORITHM.md п.7):
+- «trasmessero» (не «trasmissero») — по фото чётко «trafmeffero» (долгая ſ+ſ передаётся как ff = «ss»); read1 и read3 независимо дали «trasmissero», read2 верно. hidden_errors_text.
+- Колонтитул «546 SecondPaarte» (без пробела между Second и Paarte, опечатка наборщика «Paarte» с двумя «a» сохранена как напечатано) — read1 и read3 независимо вставили лишний пробел «Second Paarte», read2 верно передал слитное написание (число пробелов после «546» нормализовано до одного — широкий зазор в наборе типографский, не два отдельных пробела). hidden_errors_margin.
+- «Narco Polo» (не «Marco Polo») — проверено по фото: буква действительно «N» (не «M», сравнение с «Millione» в той же колонке подтверждает форму буквы) — опечатка самого печатника, не исправлять. read1 и read3 верно сохранили опечатку, read2 молча «исправил» на «Marco» — это ошибка read2, НЕ скрытая (большинство 2 из 3 верны).
+- «d'inten lere» (с реальным пробелом и буквой l, не d) — подтверждено по фото зумом, три прочтения разошлись на три разных варианта (read1 «d'inten dere», read2 «d'inten lere», read3 «d'intendere» слитно) — верен read2, явно опечатка/дефект литеры в оригинале, транскribируется буквально.
+- «Mare dell i Meca» — подтверждено по фото: три отдельных токена «dell», «i» (без апострофа), «Meca»; read2 единственный передал верно (read1 пропустил «i», read3 нормализовал в «della»).
+
+## Скан 0593 · с. 547
+
+medesimo peso siano; (& pure ne ho pesato & maneggiato piu d'vno). ma al caso nostro. Solino, in confermatione di quanto habbiamo detto, registra il viaggio, che si cominciaua al suo tempo in Alessandria, per l'India; & di questa descrittione di Solino si vede ancora qualche vestigio nell'antica Tauola Itineraria publicata da ABR. ORTELIO ad istanza del nobilissimo Signor MARCO VELSERO gentil'huomo di rarissime qualità, al quale i litterati non hanno questo solo obligo. Arriano con tutto ciò niega, che alcuno sia arriuato mai à scopire l'Oceano perfettamente per la strada del Mare Rosso: ma io gli credo poco, hauendo per me le testimonianze soprascritte; tanto piu che esso si ristringe à tempi di Tolomeo il primo figliuolo di Lago; & di Alessandro il Magno. Concede però, che Hannone Carthaginese osasse passare le colonne d'Hercole, e nauigasse trentacinque giornate verso Leuante, ma che torcendo à mezo giorno, superato dalla sete e dal caldo se ne ritornasse indietro. Hora se gl'Egitij hauessero cognitione dell'Indie Occidentali ò nò, molto c'è che dubitare; tuttauia Benedetto Aria Montano nel suo Apparato alla Biblia Reggia, tiene, che la terra Ophir nominata ne' Libri de Re, & nei Paralipomeni fosse il Perù & la Noua Spagna; e forsi non si discosta dal vero; che se gl'Hebrei, & que' di Tito n'hebbero notitia, sarebbe impertinenza il dire, che gl'Egitij non l'hauessero, poiche l'armata di Salamone per quel viaggio s'apprestaua come dice la scrittura, nel porto d'Asion Gaber, apresso Ailath, nel lido del Mar Rosso; che si può dire in casa de gl'Egittij. Io sò bene, che Gasparo Varriero Portoghese, & Cornelio Vvytflier di Louanio hanno cercato di prouare, che la terra d'Ophir fosse Malaca: ma sò ancora, che ABR. ORTELIO, huomo di quella esquisita cognitione delle cose Geografiche, che'l Mondo sà, ha abbracciato l'opinione d'Aria Montano, e rifiutata quella del Variero, e con ORTELIO tengono altri auttori ancora. Ma lasciando da parte le auttorità, io mi voglio valere in questo proposito d'vna congettura non ponto debole, & è, che i popoli di questa parte di mondo si sono conformati in maniera nella fabrica de gl'Idoli loro con le imagini delle Deità Egittie, che niente più. Et innanzi gl'Egitij io vado discorrendo, che gl'habitatori di questi paesi adorassero il Sole, & la Luna, & la Militia del Cielo, come dice la scrittura, che fu la più antica sorte d'Idolatria, che si vedesse mai nel Mondo; & di questa ancor qui si teneua memoria, ne se n'erano scordati i successori, anzi ne haueuano formato vn miscuglio, che durò fin'all'introduttione dell'Euangelio. Ma per dare qualche principio à questo curioso discorso, io darò qui il ritratto di Homoyoca Dio del Mexico, ch'era appresso quella misera Gentilità il loro Gioue.
+
+Колонтитул: Delle Imagini de i Dei. 547
+Кустод: Vole-
+Сигнатура: M m 2
+Маргиналии: (нет)
+
+Примечание к сверке:
+- «Vvytflier» (не «Vvytfliet») — по фото увеличенному крупному зуму последняя буква чётко «r» (не «t»); read1 и read2 верно, read3 единственный ошибся. Не скрытая ошибка (большинство верно).
+- «fin'all'introduttione» (не «sin'all'introduttione») — по фото чёткое «f»; read2 и read3 верны, read1 один ошибся.
+- «medesimo peso» в начале страницы — read3 вставил посторонний текст «Delle Imagini de i Dei» вместо начала слова «me-», явная ошибка read3 (продублировал колонтитул соседней страницы); read1 и read2 верно «medesimo». Подтверждено по фото.
+- Сигнатура «M m 2» (с зазором между M и m, как и на скане 0591) — read1/read3 верно, read2 дал «Mm 2» слитно.
+- Множество (≈16) случаев, где read1 и read3 сохраняют перенос слова через конец печатной строки с дефисом (напр. «hab-/biamo», «lit-/terati», «apres-/so», «gl'E-/gitij» и т.п.), а read2 даёт тот же текст слитным абзацем без переносов — это не содержательное расхождение, а артефакт формата (tools/compare.py не склеивает перенесённые через дефис слова при сравнении reflow-текста против текста с сохранёнными переносами строк); отмечено как noise, не ошибка ни одного из прочтений. Тот же паттерн подтверждён явной проверкой по фото на сканах 0590–0593.
+
+## Скан 0594 · с. 548
+
+[ГРАВЮРА: без подписи]
+
+Колонтитул: 548 Parte Seconda
+Кустод: (отсутствует — страница целиком занята гравюрой с орнаментальной рамкой, отдельной строки-кустода нет)
+Сигнатура: (нет)
+Маргиналии: (нет)
+
+Нумерация: полностраничная гравюра (изображение Homoyoca, бога мексиканцев, упомянутого на предыдущей странице); печатной подписи под гравюрой нет, текст о ней дан на с. 547 (скан 0593).
+
+## Скан 0595 · с. 549
+
+[ИНИЦИАЛ: V]Oleua dire questo in quell'Idioma tanto, quanto il Creatore del tutto, ouero la prima causa, & lo chiamauano ancora Hometeutle, quasi signore di tre dignità, o signore tre, Eli olomies. Chiamauano la stanza di questo loro Dio Narihnepaniuhca, che volea dire sopra le noue compositioni, o per altro nome Homeiocam, cioè luoco del signor trino. Et questi secondo l'opinione de' loro saui generò con la parola Cipatoual, & vna Donna chiamata Xumoco, che sono li due, che furono innanti al Diluuio, li quali generarono poi Tocatiutle. Et di qua si vede apertamente quanto sia vero quello, che scriue S. Paolo, che le cose inuisibili di Dio, dall'homo si comprendono bene spesso per mezo di quelle, che si vedono; poiche in mezo à questa barbarie riluceua pure vn poco di lume di noue cause superiori, che noi chiamo Cieli, & di più della prima causa, nella quale adombrauano così a modo loro l'ineffabile misterio della Santissima Trinità. Hora questo Homoyoca & nelli abbigliamenti, & nella positura io direi, che fosse tolto poco meno che di peso da gl'Egittij, appresso à quali Osiride in tale maniera si figuraua, come si vede, & io notai già nell'antichissima mensa Isiaca del Serenissimo Signor Duca di Mantoua, nell'orlo della qule dicisette volte si vede vna simile Imagine, variata però in qu anto à gli ornamenti.
+
+[ГРАВЮРА: без подписи]
+
+Колонтитул: Delle Imagini de i Dei. 549
+Кустод: (отсутствует — страница заканчивается гравюрой и сигнатурой, отдельной строки-кустода нет)
+Сигнатура: M m 3
+Маргиналии: (нет)
+
+## Скан 0596 · с. 550
+
+[ИНИЦИАЛ: V]N'altra Imagine di Homopoca, o di simile deità mi è venuta per le mani. la quale però altri chiamano di Quetzalcoatl. & s'è hauuta fuora di certi fogli, che furono di Filippo Vinghernio da Tornay, dottissimo giouane. & esso asseriua d'hauerla cauata da vn Libro grande, ch'è nella Libreria Vaticana, compilato da F. Pietro de los Rios.
+
+[ГРАВЮРА: без подписи]
+
+Колонтитул: 550 Parte Seconda
+Кустод: Ha-
+Сигнатура: (нет; снизу страницы видны лишь слабые отпечатки текста с оборота листа — не печатная сигнатура)
+Маргиналии: (нет)
+
+## Скан 0597 · с. 551
+
+[ИНИЦИАЛ: H]Aueuano oltre questo i Mexicani il Dio Miquitlantecatle, che voleua dire il Signore dell'Inferno, per altro nome Tzitzimitl, il medesimo che Lucifero; & questo con alcuni altri della medesima classe, haueua la gamba dritta rannicchiata, & la manca stesa, con le braccia & mani stese & aperte. Il Dio Yzpuzteque, cioe il Diauolo zoppo, che appariua loro per le strade, co' piedi di Gallo; il medesimo che Satanasso il Dio Nextepeua, lo spargitore della cenere. Il Dio Contemoque, detto così perche piombasse dal Cielo co'l capo in giu; che noi lo diressimo Diauolo. A ciascuno di questi assegnauano la sua moglie, che saranno, o le quattro Parche de' Poeti, o le tre Furie de medesimi con Proserpina, ò Persefone, che la chiamino.
+
+[ГРАВЮРА: без подписи]
+
+Колонтитул: Delle Imagini de i Dei. 551
+Кустод: (отсутствует — страница заканчивается гравюрой и сигнатурой, отдельной строки-кустода нет)
+Сигнатура: Mm 4
+Маргиналии: (нет)
