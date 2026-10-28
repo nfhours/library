@@ -8764,3 +8764,163 @@ li di Venere, imperoche sono oltra modo lasciui, nè è tempo alcuno dell'anno, 
 - Cigni dati à Venere.
 - Venere perche nuda.
 - Statoa miracolosa.
+
+## Скан 0478 · с. 436
+
+ad intẽdere quanto sia amara la vita de gli huomini lasciui, agitata del continuo dalle tempestose onde de' pẽsieri incerti e da spesso naufragio, che fanno i disegni loro. Leggesi nelle historie de i Sessoni, che questa Dea appo loro staua dritta sopra vn carro tirato da due Cigni, e da altrettante Colombe, nuda, col capo cinto di mortine, & haueua nel petto vna facella ardente, nella mano destra teneua certa palla rotonda in forma del mondo, e nella sinistra portaua tre pomi d'oro, e di dietro stauano le Gratie tutte tre con le braccia insieme auuiticchiate: come appar nel sopra notato disegno. Quello che questa imagine; o statoa significhi, non sarebbe troppo difficile da dire: ma poi che il Giraldo, che la riferisce oue scriue de i Dei de' Gentili, non ne ha detto altro io lascio, che se la interpreti ogn'vno a modo suo, Dirò bene che si legge del Mirto, che fosse dato a Venere, perche era creduto hauere in se forza di far nascere amore fra le persone, e di conseruarlo. E Plutarco dice, che è pianta significatrice di pace, donde era, che appresso de' Romani, quelli, li quali menauano certo piccolo trionfo, per hauer vinto i nemici con pochissima fatica, e senza vccisione, erano coronati di mirto, pianta propria di Venere, perche ella ha in odio grandemente la violenza le guerre, e le discordie; & altri hanno detto, che questo fu piu tosto, perche il mirto felicemente nasce, e cresce nelle maremme, & intorno a i liti del mare, oue habbiamo già detto che nacque Venere. Alla quale furono date le rose parimente, perche queste hanno soaue odore, che rappresenta la soauità de i piaceri amorosi; ouero perche come le rose sono colorite, malageuolmente si possono cogliere senza sentire le punture delle acute spine, così pare che la libidine seco porti il farci arrossire ogni volta, che della bruttezza di quella ci ricordiamo, onde la conscienza de i già commessi errori ci punge, e ci trafigge modo, che ne sentiamo grauissimo dolore. Oltre di ciò la bellezza della rosa, onde porge diletto a' riguardanti, dura breuissimo tempo; e tosto langue, come fanno etiandio gli amorosi piaceri, e perciò metteuano in capo a Venere le ghirlande di queste. Le quali non furono però sempre colorite, anzi da principio erano tutte bianche, ma furono tinte poi del sangue di questa Dea vna volta, che ella correndo per dare aiuto all'amato Adone, volendolo vccidere Marte, che n'era diuentato geloso, pose i piedi sopra le acute spine delle bianche rose, e ne fu punta grauemente, onde il sangue che vscì, fu cagione, che da indi in poi nascessero le rose colorite. E benche questo, ch'io sono hora per dire, poco faccia à dipingere Venere, nientedimeno, perche mi pare essere cosa gratiosa, e diletteuole, la dirò come la racconta Atheneo, dicendo che gli antichi di que' tempi furono grandemente dati a lasciui piaceri, onde dedicarono vn tempio à Venere, chiamandola Callipiga, che vuole proprio di-
+
+Колонтитул: 436 Imagini de i Dei
+Кустод: re,
+Сигнатура:
+Маргиналии:
+- Historie de i Sessoni.
+- Giraldo.
+- Mirto dato a Venere.
+- Rose date à Venere.
+- Rose colorite.
+- Atheneo Nouella piaceuole. Venere Callipiga.
+
+## Скан 0479 · с. 437
+
+[ГРАВЮРА: Imagine di Venere Dea de piaceri, madre d'Amore, accompagnata da gl'Amorini, dalle Hore, & dalle tre gratie significanti le delitie amorose, & il buono augurio, che faceuano gl'antichi con tal imagini alle nouelle Spose, di concorde matrimonio, & di ardente amore.]
+
+Колонтитул: De gli Antichi. 437
+Кустод:
+Сигнатура: Ee 3
+Маргиналии:
+
+## Скан 0480 · с. 438
+
+re, che ha belle natiche per questa cagione. Due figliuole di vn Contadino, giouinette, belle, & gratiose, vennero a contesa insieme, qual di loro hauesse più belle natiche, nè potendosi accordare infra di loro, perche non voleua l'vna cedere all'altra, se n'andaro sù la via publica, e trouato quiui vn giouine a caso non conosciuto da alcuna di loro, gli si mostrarono, acciò ch'egli ne facesse giudicio, promettendo ciascheduna di stare a quello, ch'ei giudicasse. Il giouane guardata molto bene quella parte, sopra della quale era nata la contesa, e fattane trà sè diligente consideratione, giudicò, che la maggiore hauesse più belle natiche; & innamorato perciò se la menò a casa, oue egli haueua vn fratello, cui raccontò il fatto come era passato. A costui venne voglia di vedere ciò, che fosse, & andatosene là, doue gli haueua mostrato il fratello, trouò l'altra delle due sorelle, che se ne staua tutta mesta, perche fu giudicata hauer men belle natiche, le quali ei si fece mostrare, e tanto il paruero belle, che se ne innamorò subito, e confortando la giouane la pregò à stare di buona voglia, come che hauesse così belle natiche, che non fosse possibile, che altra le hauesse piu belle, che ne hauesse giudicato suo fratello, & la persuase poi ad andarsi con lui: ilche ella fece volentieri; & così i due fratelli tolsero per moglie le due sorelle dalle belle natiche, le quali in breue tempo diuennero molto ricche; nè si legge però come, ma facilmente se lo può da sè imaginare ogn'vno, & fecero vn tempio poi à Venere chiamandola Callipiga, che noi diremo dalle belle natiche, perche tutta la loro ventura venne da questa parte. La quale se in quelle giouani fu bella, & amata, pẽsi ogn'vno, che habbia qualche poco di giudicio, qual doueua essere in Venere, che in tutto il corpo fu bellissima, come la descriue molto bene Apuleio, quando la fa rappresentare in scena dicendo, ch'ella era di bellissimo aspetto, e di colore soaue, & giocondo, e quasi tutta nuda mostraua interamente la sua perfetta bellezza, perciochè non haueua intorno altro, che vn sottilissimo velo, il quale non copriua, ma solamente adombraua quelle belle parti tanto soaui, le quali stando cõ esso nascoste quasi sempre, auueniua alle volte che il soaue vento leggiermente soffiando lo alzaua vn poco gonfiandolo, perche si vedesse il bel fiore della giouinezza, e talhora lo ristringeua, & accostaua alle belle membra in modo, che quasi più non appariua. Il bel corpo tutto era bianco, sì che facilmente si poteua dire, che fosse sceso di Cielo, il sottil velo era ceruleo, che tale è il colore del mare, onde vscì prima questa Dea. Dinanzi gli andauano i vezzosi Amori con ardenti facellette in mano, come era la vsanza de li antichi, che cinque fanciulli con le faci accese in mano andauano dinanzi alla nuoua sposa la prima volta, che alla casa andaua dello sposo, & dall'vn lato haueua le Gratie dall'altro le bellissime Hore, le quali
+
+Колонтитул: 438 Imagini de i Dei
+Кустод: con
+Сигнатура:
+Маргиналии:
+- Apuleio.
+
+## Скан 0481 · с. 439
+
+[ГРАВЮРА: Imagini di Venere, di Cupido, del Giogo, & del Capro, quali significano la generatione, & l'imagine della Testudine hieroglifico, che dinota il pericolo delle Donne maritate, e parturienti, & qual deue essere il loro vfficio nella cura familiare & alleuar figliuoli, & il silentio esser necessario alle donne sopra ogni virtù. (надписи на гравюре: IOCVS, VENVS, CVPIDO)]
+
+Колонтитул: De gli Antichi. 439
+Кустод:
+Сигнатура: Ee 4
+Маргиналии:
+
+## Скан 0482 · с. 440
+
+con belle ghirlande di fiori in mille vaghi modi pareuano adornare la Dea de i piaceri. Questo è il ritratto, che fa Apuleio di Venere, alla quale fanno alcuni altri, che vadino dietro le Gratie, oue egli gliele mette dall'vn de' lati, & che dall'vna mano poi habbia Cupido, & Anterote dall'altra. Horatio cantando di lei la fa allegra & ridente, e dice che'l Gioco (che significa scherzo con motti allegri; & piaceuoli, & fu da gli antichi pure anco fatto in forma humana) le va volando all'intorno insieme con Cupido. Et Homero la chiama quasi sempre amatrice del riso, perche il riso è segno di allegrezza, che accompagna la lasciuia. Onde frà le cose antiche raccolte da Pietro Appiano si troua, che fa a questo proposito vn fanciullo nudo con l'ali, e coronato di Mirto, che siede in terra, e suona vna Harpa, che tiene fra le gambe, & stà scritto sù la testa, VENVS, dinanzi del quale ne stà vn altro simile a lui dritto in piè, e lo guarda tenendo con ambe le mani distese in alto vna di due treccie, in capo alle quali è vn bel viso di donna ornato di vn panno che discende giù fin'al mezzo delle treccie: sopra questo capo è scritto: IOCVS, e sopra il fanciullo, CVPIDO. E come che da Venere venghino non meno gli honesti pensieri, che le lasciuie voglie, le votarono già i Romani pel consiglio de i libri Sibillini vn tempio, acciochella rinoltasse gli animi delle donne loro(le quali si erano date in preda alla libidine troppo licentiosamenre) a più honeste voglie, & la chiamarono Verticordia poi, perche voltò i cuori di quelle lasciue femine, come scriue Ouidio, a più honesta vita. Et fu questo il tempio forse, che fece Marcello, poscia ch'egli hebbe vinta la Sicilia, fuori di Roma quasi vn miglio, accioche così stesse ogni lasciuia lungi dalle Donne Romane, come quello era lontano dalle mura di Roma. Al quale leggesi, che andauano le giouinette già grandi ad offerire certe figurette fatte, ò di stucco, ò di stracci, con le quali sogliono scherzare nella loro fanciullezza. Et era questa Venere de' Romani simile à quella, che da' Greci fù chiamata Apostrofia, che noi potiamo dire Auersatrice, perche era contraria a'dishonesti desiderij, & rimoueua dalle menti humane le libidinose voglie, che così la nomò Harmonia moglie di Cadmo a' Thebani, come scriue Pausania. Appresso di costoro fu anco vna Venere celeste, dalla quale veniua quel puro, e sincero Amore, che in tutto è alieno dal congiungimento de i corpi: & vn'altra ve ne fu detta popolare, & commune, che faceua l'Amore, d'onde viene la generatione humana: & fu fatta già da Scopa eccellente scultore in questa guisa. Ella staua a sedere sopra vn Capro, e con l'vn piè calcaua vna testuggine, come riferisce Alessandro Napolitano, & haueua già scritto Plutarco ne gli ammaestramenti, ch'ei dà a' mariti, e resane anco la ragione dicendo, che Phidia fece già a gli Elei vna Venere, che staua con vn piè sopra vna testuggine, per mostrare
+
+Колонтитул: 440 Imagini de i Dei
+Кустод: alle
+Сигнатура:
+Маргиналии:
+- Horatio.
+- Homero.
+- Pietro Appiano.
+- Verticordia.
+- Venere Celeste.
+
+## Скан 0483 · с. 441
+
+alle Donne, che toccaua loro di hauere la cura de la casa: & di ragionare manco, che fosse possibile, perche in vna Donna, il tacere è giudicato bellissima cosa. Et esso Plutarco in vn altro luoco, volendo esporre quello, che significhi questa imagine, della quale fa mentione parimente Pausania, dice, che le giouani, mentre che sono vergini, hanno da stare sotto l'altrui custodia; ma poi, che sono maritate, bisogna che habbiano la cura del gouerno della casa, che se ne stiano chete, quasi che i mariti habbiano da parlare per loro. Imperoche scriue Plinio, che la testuggine non ha lingua. Et leggendo appresso del medesimo, & di Eliano ancora la natura di questo animale, trouo che gli antichi scultori dettero vna bella, e santa ammonitione alle donne, mettendo la testuggine sotto il piè di Venere; perciochè questa sà il pericolo, a che và, quando si congiunge con il maschio, conciosia, che le bisogni riuersarsi con la pancia in sù, & il maschio, compiuto che hà il fatto suo, se ne và via, & lascia quella, che da sè non può ridrizzarsi, in preda a gli altri animali, ma sopra tutti a l'Aquila. Per la qual cosa essa con somma continenza si astiene da coito e fuggendo il maschio prepone la salute al libidinoso piacere, al quale è sforzata pure di consentire poi tocca da certa herba, che tutta l'accende di libidine, sì che più non teme poscia di cosa alcuna. Adunque le donne parimente hanno da considerare à che pericolo si metteno, quando perdono la honestà, & perciò deono fuggire i piaceri lasciui, & i libidinosi appetiti, se non quando le sforza à questi il debito del matrimonio per la successione della noua prole. Oltre alle Gratie, & a gli Amori scriue Plutarco, che soleuano gli antichi mettere con la statoa di Venere quella di Mercurio ancora volendo in questa guisa dare ad intendere, che gli amorosi congiungimenti hanno bisogno di trattenimenti dolci, e soaui, & di parole piaceuoli, perche queste fanno spesso nascere, & conseruano Amore frà le persone. Il perche metteuano anche trà le Gratie, che andauano con Venere, quella che da' Greci fu chiamata Pitho, e Suadela da' Latini, & era la Dea del persuadere. Questa nel tempio di Gioue appresso de gli Elei in Grecia presentaua vna corona a Venere, che sorgeua del mare, & era raccolta da Cupido, come dissi di sopra. Et i Megaresi parimente posero il simulacro della Suadela nel tempio di Venere: & il primo, che facesse adorare l'vna, & l'altra appresso de gli Atheniesi fu Theseo, come recita Pausania, poscia ch'egli hebbe raccolte in vna Città quelle genti, che stauano prima sparse per gli campi. Et in altri luochi ancora della Grecia furono tempij della Dea Suadela; onde si vede, ch'ella parimente fu adorata da gli antichi, e posta souente in compagnia di Venere, perche come dice Ouidio.
+
+*Venere fù la prima, che facesse*
+*Di rozzi ch'eran, gl'huomini gentili.*
+
+Колонтитул: De gli Antichi. 441
+Кустод: Et
+Сигнатура:
+Маргиналии:
+- Plutarco.
+- Natura della testuggine.
+- Venere con Mercurio.
+- Pitho.
+- Megaresi.
+- Ouidio.
+
+## Скан 0484 · с. 442
+
+[ГРАВЮРА: Imagine di Venere armata, di Venere vitrice, & di Venere in ceppi dinotante la fermezza, che deue essere nelli maritati & amanti, dinota ancora questa imagine il valore delle Donne Lacedemonie contro i Messenij, che andauano à saccheggiar la loro Città, da esse valorosamente difesa.]
+
+Колонтитул: 442 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0485 · с. 443
+
+Et la prima eloquenza fu de gl'innamorati, quali cercarono di persuadere alle amate giouani, che fossero facili a' desiderij loro, & per piacere anch'essi a quelle trouarono mille belle cose, che prima non erano conosciute. Onde gli Arcadi adorando Venere la chiamauano Machinatrice, & Inuentrice, & à ragione, dice Pausania, conciosia che per gli piaceri, che vengono da Venere gli huomini hanno trouato diuersi modi da poter tirare alle voglie loro le belle giouani, menando poi con quelle vita gioiosa, perche pare che Venere habbi cura solo delle cose liete, e piaceuoli, & perciò Gioue appresso di Homero l'ammonisce, che sia lontana dalle triste guerre; allhora ch'ella voleua aiutare Enea contra Diomede, che la ferì in vna mano, perche queste sono proprie di Marte, & di Minerua, non di lei, cui appartiene la cura de i piaceri amorosi. Ma nè per questo lasciarono gli antichi di fare Venere armata, di che fu la cagione, come scriue Lattantio, che mentre i Lacedemonij assediauano Messene, i Messenij vsciti di nascosto andarono per saccheggiare Lacedemone, & per depredare tutto il paese all'intorno, credendo di poterlo fare facilmente, poi che tutti gli huomini di guerra del luoco erano andati all'assedio. Ma non successe loro il disegno, imperoche le donne Lacedemonie, che questo intesero, armatesi tutte quelle, che a ciò erano buone, & andate contra gli nemici non solamente difesero la città, & il paese dal sacco, ma quelli ancora mandarono in rotta, e sforzarono à ritornarsene. In tanto i Lacedemonij auuedutisi dell'inganno de i nemici andarono per incontrarli, ma perche quelli ritornauano fuggendo per altra via, non poterono trouarli, onde vennero ad incontrare le Donne loro tutte armate, le quali credendo esser i nemici, si metteuano in ordinanza per combattere, quando quelle si scopersero, e fecersi vedere da gli huomini loro, che le conobbero incontinente, & andarono subito ad abbracciarsi tutti insieme; e perche non vi era tempo allhora da trouare ciascheduno la sua, così come erano armati amorosamente si solazzorono vn pezzo insieme ciascuno con quella, che a caso gli abbattè dare frà piedi, quasi fosse il più caro, e più grato guiderdone, che potessero dare a quelle valorose guerriere delle fatiche loro. Onde per memoria di questo fatto, e della bella impresa fatta dalle donne posero vn tempio à Venere con vna sua statoa armata, della quale fa Ausonio vn bello Epigramma, & finge che Pallade vedendo Venere armata, come ella parimente andaua sempre, voglia di nouo venire a contesa con lei etiandio sotto il giudicio di Pari, ma Venere la schernisce come temeraria, hauendo ardire di prouocarla hora, che la vede armata, se da lei fù vinta già mentre, che era nuda. Lo Epigramma fatto volgare è tale.
+
+*Vedendo à Sparta Pallade la bella*
+*Venere armata à guisa di guerriera*
+
+Колонтитул: De gli Antichi. 443
+Кустод: Hor,
+Сигнатура:
+Маргиналии:
+- Arcadi.
+- Lattantio.
+- Ausonio.
+
+## Скан 0486 · с. 444
+
+*Hor, disse, è tempo da terminar quella*
+*Lite, ch'andar ti fa cotanto altiera,*
+*E siane pur giudice Pari, & ella*
+*Rispose, ah temeraria, dunque spera*
+*L'animo tuo di Vincer' hor me armata,*
+*Che nuda già ti Vinsi, e disarmata?*
+
+Et ò per questo, ò perche altro fosse, fu chiamata Venere anco talhora Vittrice: e trouasi, che in certa parte del paese Corintho fu vna statoa, che porgeua vna Vittoria con la mano, & era perciò detta Nicofora con voce Greca, che viene a dire appo noi che porta la Vittoria. Et scriue Pausania, che questa fu dedicata da Hipermestra, poscia che fu liberata dal giudicio, che le haueua mosso contra Danao suo padre, perche ella non le haueua voluto vbbidire di ammazzare il marito, come haueuano fatto tutte le altre sue sorelle. Et i Romani faceuano Venere Vittrice in questo modo, come si vede in vna medaglia di Numeriano Imperadore. Dipingeuano, & scolpiuano vna donna bellissima con veste lunga fino a terra la quale con la mano destra porgeua vna breue imagine della Vittoria, e nella sinistra haueua certa cosa fatta in questa guisa, la quale voleuano alcuni, che rappresentasse la imagine, che adorauano quelli di Paffo sotto il nome di Venere, come hò già detto; & alcuni altri hanno voluto, che piu tosto sia vno specchio, perche scriue Filostrato nella dipintura, ch'ei fa de gli Amori, che le Ninfe posero vna statoa a Venere, perch'ella le fece madri di così bella prole, come sono gli Amori, & le dedicarono vno specchio d'argento, con alcuni adornamenti da i piedi dorati. In altro modo ancora si vede Venere in vna medaglia antica di Faustina Augusta la quale con la sinistra mano tiene vno scudo appoggiato in terra, che hà due piccole figurette scolpite nel mezo, e con la destra porge vna vittoria, & hà le lettere intorno, che dicono, Venere Vitrice. Ricordomi di hauere veduta vn'altra medaglia ancora antica pur di Faustina, oue erano lettere, che diceuano, Venere, con vna donna in piè vestita, la quale con la sinistra mano da vna parte teneua il lembo della veste, & lo tiraua sù con l'altra porgeua certo non sò che, che pareua vn pomo, forse per memoria di quello, che le fu dato Pari, quando la giudicò piu bella di Giunone, e di Pallade. Onde Pausania le mette parimente vn pomo in mano, quando riferisce vna certa statoa di Venere, la quale era appresso de i Sicionij in Grecia dicendo, che quiui era vn Tempio dedicato a questa Dea, nel quale non poteua entrare mai piu di due Donne: & di queste l'vna, che ne haueua la guardia, staua casta sempre, nè giaceua con il marito mai, mentre che era à questo officio; l'altra bisognaua, che fosse vergine: perche maneggia le cose de gli sacrifici, nè staua à questa cura piu di vn'anno. E tutti gli altri, che a questo
+
+Колонтитул: 444 Imagini de i Dei
+Кустод: tempio
+Сигнатура:
+Маргиналии:
+- Venere Vittrice.
+- Medaglia di Faustina.
+- Pausania.
+
+## Скан 0487 · с. 445
+
+tempio andauano per pregare la Dea di alcuna cosa, stauano fuori dinanzi alle porte. La statoa sua era d'oro, che staua a sedere, & con l'vna mano teneua alcuni capi di Papauero, e con l'altra vn pomo, & haueua sù la cima della testa certa cosa, che rappresenta vn polo, ò vogliamo dire ganghero. E quella, che fu fatta da Tindareo, vi haueua certo velo, che vsauano di portare per adornamento le Donne di que' tempi. Della quale il medesimo Pausania dice, che appresso i Lacedemonij sopra il tempio di Venere armata era, come diremo noi, vna capella, oue ella staua à sedere, chiamata quiui Morpho, con certo velo in capo, come dissi con lacci, o ceppi che fossero, a' piedi; basta ch'ella gli haueua legati per mostrare, come dicono alcuni, che hanno da essere le donne di fermissima fede verso quelli, alli quali di nodo maritale si sono già legate. Ma alcuni altri hanno detto, che Tindareo fece Venere così in Ceppi, per vendicarsi de gli adulterij commessi dalle figliuole, quasi che per sua colpa ciò fosse auenuto. Della quale cosa Pausania si fa beffe, nè la vuole credere, dicendo, che troppo sciocca cosa sarebbe pensare che si facesse male alcuno a Venere per fare vna sua statoa di cedro come era questa, della quale ragioniamo, & metterli i ceppi à i piedi. E parmi, ch'ei dica molto bene, perche nè per dispregio faceuano gli antichi le statoe de i Dei, nè per vendetta, che di quelli volessero pigliare, ma per la riuerenza, che portauano loro, per l'aiuto, & fauore, che da quelli aspettauano in tutte le cose, & alle volte ancora per mostrare nelle statoe di quelli, à chi non lo sapeua, diuerse loro virtù. Onde come in alcune altre imagini ancora si può vedere, non solo à Venere, ma à gli altri Dei ancora posero gli antichi i ceppi à i piedi, e non per dispregio, nè per vendetta, ma per altre cagioni, le quali sò di hauere dette altroue, & perciò non le replico. Ma dico, che se bene Venere parue essere nume principale delle meritrici, come ch'ella hauesse già trouato, e messa in vso l'arte loro, onde elle celebrauano solenemente la sua festa, pregandola che desse loro gratia, bellezza, & leggiadria, sì che da tutti fossero amate con loro vtile, & guadagno; nondimeno fu pure anche adorata con non minore affetto dalle honeste giouani, le quali pensauano, ch'ella potesse dar loro tale venustà, & così buona forma, che fosse loro ageuole poi il maritarsi, perche, come altre volte hò detto, diedero gli antichi anco à Venere la cura del matrimonio. Et appresso de i Greci, fu certa spelonca, oue Pausania scriue, che erano dati i sacri honori à Venere, & che per molte cause andauano colà le persone, ma pareua però che fosse proprio delle vedoue di andarui, come faceuano, à pregare la Dea, che desse loro con felicità le seconde nozze. Et le maritate parimente la pregauano, & non solamente quiui, ma anco ne gli altri suoi tempij, che le tenesse vnite sempre co' mariti di commune amo-
+
+Колонтитул: De gli Antichi. 445
+Кустод: re, &
+Сигнатура:
+Маргиналии:
+- Morpho Venere co i piè legati.
+
+## Скан 0488 · с. 446
+
+re, & le facesse liete di noua prole, & di bella successione. Si che fu Venere nume commune à tutte le qualità di Donne, le quali, come che fossero forse più de gli altri obligate a questa Dea, riconosceuano da lei quasi tutto ciò, che succedeua loro felicemente, e gli huomini ancora la ringratiauano di ogni ben fatto, che da quella fosse venuto. Onde perche le donne tutte si tagliarono i capelli per farne le funi da tirare le machine, che vsauano allhora alla guerra, quando i Romani assediati da' Francesi nel Campidoglio erano all'estremo bisogno di tutte le cose, questi liberati dall'assedio dedicarono, come riferisce Lattantio, vn tempio à Venere, oue la fecero Calua, & così la chiamarono per memoria di ciò, che le donne haueuano fatto a beneficio publico, conciosia che altrimenti si faccia Venere sempre con bellissimi capelli, come la descriue Claudiano, dicendo:
+
+*Venere allhora in bel dorato seggio*
+*Stando à compor le Vaghe, e bionde chiome*
+*Hauea le Gratie intorno, de le quali*
+*Sparge l'vna di Nettare soaue*
+*I dorati capegli, e quelli l'altra*
+*Distende, e scioglie con l'eburneo dente,*
+*La terza con bel ordine gli annoda*
+*Con bianca mano, e in Vaghe treccie accoglie.*
+
+Nè solamente con le chiome la fecero gli antichi, ma con la barba ancora che vna così fatta statoa era adorata in Cipro per Venere, come riferice Alessandro Napolitano, la quale di faccia, e di aspetto pareua huomo, ma poi haueua intorno vesti di donna. Et Suida scriue, che fu fatta la statoa di Venere con vn pettine in mano, e con la barba al viso, perche già venne alle donne Romane certo male, che cadeuano loro tutti i capelli, come spesso ancora intrauiene a' tempi nostri, onde più non era loro bisogno di adoprar pettine: il perche le donne da così brutto male trauagliate si votarono à Venere, e con infiniti voti la pregarono, che volesse prouedere alla loro miseria: & essa, che benigna fu sempre, eccettando gli diuoti preghi, fece sì che alle donne più non caddero i capelli, & i già caduti rinacquero. E queste per segno di gratitudine le posero poi vna statoa, che teneua in mano vn pettine. Et alla medesima fecero la barba, accioche questa Dea hauesse l'insegna di maschio, & di femina, come quella, che alla vniuersal generatione de gli animali era sopra, & perciò dal mezzo in sù la faceuano in forma di maschio, & dal resto in giù era di femina. Nè di Venere solamente dissero questo gli antichi, ma di tutti gli altri Dei ancora, dando à ciaschedano nome di maschio, & di femina, come che fra quelli non sia la differenza di sesso, che è trà
+
+Колонтитул: 446 Imagini de i Dei
+Кустод: trà
+Сигнатура:
+Маргиналии:
+- Claudiano.
+- Venere con la barba.
+- Dei tutti maschi, e femine.
+
+## Скан 0489 · с. 447
+
+[ГРАВЮРА: Imagine di Venere maschio e femina, significante questa esser sopra l'vniuersal generatione delle cose, essendo tolta per l'aria; & nelli Dei non esser differenza di esso, come ne mortali, & imagine di Venere addolorata per la morte d'Adone morto dal Cinghiale, inteso per la stagione biemale & fredda.]
+
+Колонтитул: De gli Antichi. 447
+Кустод:
+Сигнатура:
+Маргиналии:
