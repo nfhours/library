@@ -9344,3 +9344,223 @@ Nicolo Remigio Conseg iero intimo delle Altezze di Lorena ha composto tre belli,
 Сигнатура: Gg 4
 Маргиналии:
 - Car. 107. Lin. 5.
+
+## Скан 0514 · с. 472
+
+[ГРАВЮРА: без подписи]
+
+Nel Cameo s'è rappresentata Iside come si vede nelle Medaglie antiche di Hadriano, & Antonino Pio. è ben vero, che'l disegnatore s'è scordato di metterle in mano il Sistro, che vi si vede chiaramente. Et significa questa figura a mio giudicio il Nauigio d'Iside, del quale si fa mentione nel calendario Rustico antico. Et nella Med. d'Antonino si vede vn Faro di Porto, che tanto piu conferma la conget tura. Leggasi Appuleio nell' 11.
+
+Cembalo chiama l'Autore il Sistro; & s'inganna, perche questi due stromenti furono molto differenti fra di se, come si può vedere nel mio Commentario de' Serui, a car. 88. & 91. E simile licenza si vede in Antonio Agostini (se però il Traduttore non ne tiene colpa) che il Timpano chiama con nome di Crotalo.
+
+Marciano Capella citato dall'Autore non fa mentione di Cembali, ma dei Sistri Niliaci. Che cosa fosse Sistro si vede nella precedente Imagine; & si vede figurato nel nostro Libro de' Serui a car. 88. Ne era Crotalo come vuole Gioseffo Scaligero, anzi molto differente. Ne il Timpano era altrimenti Crotalo, come scrisse Antonio Agostini nel Dialogo secondo & quinto (se non vogliamo dire, che questo fosse errore del Traduttore) Vn bellissimo Sistro antico, e tutto intiero si vedeua altre volte in mano di Monsignor Mocenico Vescouo di Nona. Et forse, che Michele Mercato nel suo Libro degl'Obelischi di Roma, a cap. XI. car. 120. doue fa mentione di mezi cerchi d'O-
+
+Колонтитул: 472 Annotationi
+Кустод:
+Сигнатура: 103
+Маргиналии:
+- Car. 108.
+- Car. 108. Lin. 12.
+- Car. 110. Lin. vlt.
+
+## Скан 0515 · с. 473
+
+ro, & d'Argento, che si vedono con figure hieroglifiche, non intese altro, che Sistri. poiche & d'Oro, & d'Argento se ne fabricauano come pure si legge in Appuleio nel Lib. XI. dell'Asino d'Oro.
+
+Filostrato scriue nelle Imagini, che in Athene il Dragone di Pallade, che fin'all'hora haueua stanza nella Rocca di essa Città, amaua gl'Atheniesi per l'Oro; poiche di esso si seruiuano a farne adornamento per lo capo, con figure di Cicale d'oro. Isidoro nel Lib. 19. delle origini al cap. 30. così vuol dire; tutto che il resto corrotto habbia *Cyclades per Cicadas*. Tocca il medesimo vso Gregorio Nazianzeno scriuendo a Nicobulo.
+
+Del Loto gran conto faceuano anticamente gl'Egittij, & del suo Fiore in particolare, poiche nella Tauola Isiaca esposta da me, si vede il Fiore in molti luoghi. Et nel detto mio Libro ne ho notato qualche cosa. Et particolarmente, che i Basilidiani heretici antichi chiamati così da Basilide Alessandrino, che visse intorno gl'anni del Signore 124., faceuano intagliare ne' loro mostruosi Sigilli molto frequentemente il Fiore del Loto, sopra'l quale stà a sedere Harpocrate. Et nel sopracitato mio Libro se ne vedono sei disegni, nell'vltima Tauola delle cinque poste nel fine.
+
+Nel Cameo (come dicono i Pittori) s'è figurata l'imagine di Gioue pluuio, & fulguratore; tratta dalla Colonna Antonina nella scultura della quale la gentilità, per non dare l'honor a' Christiani della Vittoria Marcomannica, fece rappresentare Gioue nella maniera, che si vede in aria, che versa aqua, grandine, e saette i sopra barbari. Ma la verità della Historia vedasi appresso Onofrio Panuinio, nel 2. Libro de' suoi Fasti: & appresso il Card. Baronio nel 2. T. de gl'Annali Eccl.
+
+Nelle memorie antiche, cioè nelle Gioie, & ne' Marmi si vedono Satiri di due sorti; alcuni con coscie, & gambe di Capra; alcuni con forma totalmente humana, se non che hanno di dietro vna piccola codetta, & l'orecchie di bestia. Noi habbiamo fatte ritrarre qui l'vna & l'altra in vna Tauoletta.
+
+[ВИНЬЕТКА: наборная концовка из трёх орнаментальных блоков]
+
+Колонтитул: All'Imagini del Cartari. 473
+Кустод:
+Сигнатура: Sç
+Маргиналии:
+- Car. 112. in fine.
+- Car. 113. Lin. 30.
+- Car. 114.
+- Car. 123. Lin. 38.
+
+## Скан 0516 · с. 474
+
+[ГРАВЮРА: без подписи]
+
+Se veramente fossero o non fossero i Satiri c'è gran che dire. Et oltre quello, che ne scriue il Cartari e da leggere il Casaubono ne' suoi Libri de Satira, al Lib. 1. cap. 2. dou'è vna raccolta d'auuertimenti in simile proposito. Et narra quest'autore, che non sono molti anni, che fu condotto inanzi al Re Henrico IV di Francia di glo. mem. vn tale, che faceua'l Carbonaio, di sett'anni di sua età cominciò a metter fuora vn Corno in capo, & alcuni altri particolari degni di consideratione. Et vedasi al tutto S. Girolamo nella Vita di S. Antonio Abbate, & Plutarco nella Vita di Silla, citati dal Cartari medesimo, ne i quali io non sò come dubitare come pare che'l Casaubono vada accennando. Il fatto del Carbonaio Francese fu del 1595. & lo nota l'Autore del Chronicum Chronicorum; nel 2. Lib.
+
+Plinio, descriuendo la pittura di Filosseno Eretrio, non dice che dipingesse tre Satiri, che con vasi in mano beeuano largamente; ma che tre Sileni mangiauano insieme.
+
+Колонтитул: 474 Annotationi
+Кустод: L'Ho-
+Сигнатура:
+Маргиналии:
+- Car. 114. Lin. 36.
+
+## Скан 0517 · с. 475
+
+L'Honore era figurato maschio e femina dell'Antichità. Maschio in questo marmo, & in vna Medaglia dell'Imperatore M. Aurelio il Filosofo. Femina nelle Medaglie di Galba, Vitellio, & Vespasiano.
+
+[ГРАВЮРА: без подписи]
+
+chi lo fece maschio hebe forse mira al concetto, che generalmente ne formano gli huomini, appresso de' quali gran conto se ne tiene. Chi femina alla sostanza, per essere esso l'ombra della Virtù. Vedasi a car. 330 l'Autore.
+
+Perche molti fra gl'antichi non si sapeuano ben risoluere, se'l corno della copia era d'Acheloo, o della Capra Amaltea, però in vna gioia anticha, il disegno della quale registriamo qui sotto, la Dea copia stà a sedere con due papaueri in mano, sopra le spalle d'vna Capra & d'vn Toro. Apresso. questa. ne stà vn'altra, con vna Ninfa, che adorna il Corno di fiori & frutti, come si legge in Ouidio s'io non m'inganno. La Figura principale poi è tratta da vna medaglia anticha di Traiano mia, conseruatissima; nella quale si vede chiaro ciò, che auuertì Antonio Agostini nel suo 2. Dialogo, cioè che in mezo al corno si vede la punta del Vomero dell'Aratro. E tutto ciò fu fatto per dare ad intendere, che la terra coltiuata è quella che produce l'abondanza, o Copia come dire vogliamo.
+
+Колонтитул: All'Imagine del Cartari. 475
+Кустод: Di
+Сигнатура:
+Маргиналии:
+- Car. 135. Lin. 5.
+- Car. 135. Lin. 32.
+
+## Скан 0518 · с. 476
+
+[ГРАВЮРА: без подписи]
+
+Di Gioue adorato a Tarracina vedasi Stefano Pighio, nell'Hercole di Prodico, a car. 433. & insieme Vincenzo Mirabella sopra la terza medaglia di Siracusa.
+
+Nota l'Autore, che'l Fulmine non fosse mai datto a Minerua, nè in statoa, nè in Pittura. Il che però è poco vero. Et vediamo nelle Medaglie di Domitiano Imperatore il Fulmine in mano a Minerua in piu d'vna di esse. come sarebbe a dire nei 12. Cesari d'Enea Vico di Rame nella Tauola 2. al n. 22. d'Argento nella Tauola 2. al num. 24. Et lo tocca Antonio Agostini nel Dial. 5.
+
+Колонтитул: 476 Annotationi
+Кустод: Et
+Сигнатура:
+Маргиналии:
+- Car. 137. Lin. 14.
+- Car. 143. Lin. 1.
+
+## Скан 0519 · с. 477
+
+[ГРАВЮРА: без подписи]
+
+Et hebbe Domitiano riguardo per auentura a i versi di Virgilio:
+
+*-- Pallas ne exurere classem*
+*Argiuum, atq; ipsos potuit submergere ponto*
+*Vnius ob noxam, & furias Aiacis Oilei?*
+*Ipsa Iouis rapidum iaculata e nubibus Ignem*
+*Disiecitq; rates, euertitq; æquora ventis.*
+
+Et di questa violenza d'Aiace Oileo mette Antonio Agostini vn disegno cauato da vn marmo antico assai bello.
+
+Колонтитул: All'Imagini del Cartari. 477
+Кустод: Di
+Сигнатура:
+Маргиналии:
+
+## Скан 0520 · с. 478
+
+[ГРАВЮРА: без подписи]
+
+Di questo Aiace bel racconto si legge appresso Filostrato ne' suoi Heroi, & nel Libro 2. delle Imagini. & vedasi la pittura di Polignoto descrita da Pausania al Lib. 10.
+
+L'hauere l'Autore non ben'inteso le parole di Q. Curtio ha fatto, che fin'hora tutte le figure che rappresentano. in questo Libro il simulacro di Gioue Ammone siano riuscite false. Q. Curtio nel Lib. 4. scriue così, quella cosa che per Dio in questo luogo s'adora, non è simile alle, figure, che formano delle deità communemente gl'artefici. Fino al bellico è simile ad vn'Ariete, & è composto di Smeraldi e gioie. Et in tal maniera bisognaua rappresentarlo. Ma per la difficolta d'hauere il Disegnatore, & per il tedio (sia lecito a confessarlo) patito in si lunga impresa, riuscita piu malageuole di quello che da principio si stimò; s'è creduto, che basti auuisare il Lettore di quello, che bisognaua fare: lasciando la cura a chi vorrà, di formare l'Ima-
+
+Колонтитул: 478 Annotationi
+Кустод: gine
+Сигнатура:
+Маргиналии:
+- Car. 145. Lin. 14.
+
+## Скан 0521 · с. 479
+
+gine conformare l'Imagine conforme al vero. E che Ammone, & Sarapide non fossero differenti da Gioue, fu pensiero di chi fece intagliare la Gioia d'Anello, che habbiamo rappresentata nella Figura precedente.
+
+Che Gioue fosse coronato di Vliua, lo ha notato ancora Carlo Pascalio nelle sue Corone, & lo proua con auttorità di Fornuto, & forse di Sofocle. ma'l medesimo auuertisce, che l'antichità diede à Gioue tre sorti di corone; di Fiori, di Frondi, di Metalli; & in altro luogo cita Tertulliano, che riferisce per testimonio di Diodoro, Gioue essere stato'l primo, ch'adoperasse corona: & questo dopo la Vittoria de i Titani.
+
+Iride fu messaggiera non solamente di Giunone, ma de gl'altri Dei ancora, come nota Lattantio Placido nel lib. 2. della Achilleide di Statio, e nota il medesimo nel Lib. 1. della Thebaide che l'Iride è'l passo de gli Dei.
+
+I due Legni significanti Castore, & Polluce appresso i Lacedemoni erano chiamati Δίκαρα come mi pare che racconti Plutarco. & la loro figura nol metteremo qui sotto, insieme co'l carattere o Zifra, che hanno di essi introdotta nel Zodiaco gl'Astrologi, tolta senza fallo dall'antico. Ond'è, ch'io do poco credito in questo particolare, al pensiero di Gioseffo Scaligero, che nelle sue Annotationi sopra Manilio vuole, che deriui questa cifra da altra figura.
+
+[ВИНЬЕТКА: наборная концовка из двух симметричных орнаментальных блоков]
+
+Колонтитул: All'Imagini del Cartari. 479
+Кустод: Et
+Сигнатура:
+Маргиналии:
+- Car. 147. Lin. 27.
+- Car. 154. Lin. 36.
+- Car. 158. Lin. 4.
+
+## Скан 0522 · с. 480
+
+[ГРАВЮРА: без подписи]
+
+Et oltre l'apparitione di questi fratelli fatta a' Locresi, descritta da Giustino, & riferita dal Cartari, fu molto notabile appresso i Romani quella de i medesimi Castori, succeduta (come scriuono Dionisio Halica masseo, Val. Massimo. Plutarco, & altri) al Lago Regillo, nella Vittoria, che riportò de' Latini Aulo Postumio Dittatore. In segno di che ne furno poi battute le monete, vna delle quali è stata rappresentata nella figura principale.
+
+La Imagine della Libertà posta quì sotto s'è cauata dal riuerso d'vna Medaglia dell'Imperator Claudio. In essa la mano aperta significa quelle guanciate, che a' Serui si dauano nell'atto medesimo di farli liberi, delle quali molti hanno scritto; & singolarmente il Cuiacio, nel Lib. V. delle Osseru. a cap. 13. Ne altro volle dire Sedulio nel V. doue descriue le guanciate date a CHRISTO Signor nostro.
+
+*Namque per hos colaphos caput est sanabile nostrum,*
+*Hæc sputa per Dominum nostrum lauere figuram;*
+*His alapis nobis Libertas maxima plausit.*
+
+Колонтитул: 480 Annotationi
+Кустод: Il
+Сигнатура:
+Маргиналии:
+- Car. 158. Lin. 40.
+
+## Скан 0523 · с. 481
+
+[ГРАВЮРА: без подписи]
+
+Il luogo di Gellio è nel Lib. 7. al c. 4. cauato da Celio Sabino Giure consulto antico, dal quale pare a me di sottrarre più tosto il contrario; cioè che si vendessero co'l Cappello in testa alcuni Serui, per conto de' quali il venditor non hauesse poi in cosa alcuna a rifare al compratore. poiche il Cappello voleua dire, che ogn'vno nel cõperarli badasse a casi suoi. per lo che statuirono altre volte gl'Edili, che i venditori di Schiaui si dechiarassero in publicare le qualità loro, & in vn come Cedolone dicessero s'erano fugitiui, vagabondi, ò simili. Et ciò si legge nel medesimo Gellio al Lib. 4. al cap. 2. & nel mio Commentario de' Serui a carte 31. Si che l'hauere il Cappello in capo (secondo il mio credere) voleua dire chi da in zara suo danno, & habbisi cura chi compra.
+
+Questa fauola di Giunone hebbe in core Tomaso Filologo Rauegnano Medico eccellente all'età de' nostri padri, che in molte
+
+Колонтитул: All'Imagini del Cartari. 481
+Кустод: sue
+Сигнатура: Hh
+Маргиналии:
+- Car. 160. Lin. 27.
+- Car. 163. Lin. 41.
+
+## Скан 0524 · с. 482
+
+sue Medaglie la fece segnare; & ad imitatione di lui s'è rappresenqui sotto.
+
+[ГРАВЮРА: без подписи]
+
+Et la medesima Inuentione della fauola principale tiene dipinta in vn Quadretto vagamente il S. Andrea Spinola del già Franc. Gentil'huomo Genouese, degno dell'amore di tutti i galant'huomini. Et questa inuentione poetica quanto al colorimento de' Gigli, è molto simile a quella, che delle Rose si legge in Costantino Cesare al Lib. 11, cap. 18. che danzando Cupido in Cielo versasse con vn'Ala vna gran tazza di Nettare, & che quel liquore colorisse stilando in Terra le Rose che prima vogliono, che fossero bianche. Altri l'attribuiscono alla puntura d'vna spina nel piede di Venere come si legge appresso'l medesimo.
+
+Questa Medaglia, che si cita di Nerua Imperatore io l'ho tenuta sempre per vna vanità. Et mi confermo nella mia opinione maggiormente, vedendo che Adolfo Occone diligentissimo raccoglitore di così fatte antichità, cita due Medaglie di Nerua con questa inscrittione FORTVNA P. R. & dice, che nella prima si vede vna figura sedente con vn ramo nella destra, e nella sinistra vn'Hasta pura. nell'altra Medaglia racconta, che la medesima figura tiene nella mano dritta spiche & papauero, nella manca vn'hasta. Bisogna dunque, che'l nostro
+
+Колонтитул: 482 Annotationi
+Кустод: nostro
+Сигнатура:
+Маргиналии:
+- Car. 165. Lin. 16.
+
+## Скан 0525 · с. 483
+
+nostro Autore si sia abbatuto in vna Medaglia o logora, o guasta da rinettatori, che con molto pregiudicio dall'Antichità ci formano e lettere. & figure noue a loro piacere.
+
+Il nodo d'Ercole chi volesse sapere com'era fatto lo può cauare da queste parole di Macrobio nel Lib. 1. de' Saturnali al cap. 19.
+
+*In Mercurio Solem coli, etiam ex Caduceo claret, quod Aegyptij in specie draconum maris, & fœminæ coniunctorum figurauerunt, Mercurio consecrandum. Hi dracones parte media voluminis sui, inuicem, nodo, quem Vocant Herculis, obligantur: primæque partes eorum reflexæ in circulum, pressis, oculis ambitum circuli iungunt: & postmodum caudæ reuocantur ad capulum Caducei, ornaturq; alis ex eadem capuli parte nascentibus.*
+
+Si che chi vede il Caduceo de gl'Antichi, intende che sia il nodo d'Ercole. ho detto de gl'Antichi; perche i nostri Pittori non lo sanno disegnare.
+
+La Dea Partunda io credo, che s'habbia a leggere Pertunda, con autorità d'Arnobio nel 4. contra Gentiles. E ben vero, che S. Agostino nel 6. della Città d'Iddio al cap. 7. la chiama Partunda: ma io l'ho per errore dei copisti.
+
+Nel Cameo della figura principale s'è rappresentata la Pudicitia, come si vede nelle Medaglie antiche di molte Imperatrici. Et questo per mostrare il Flammeo, del quale ragiona l'Auttore piu sopra a car. 172. & di sotto a car. 183.
+
+Il Cameo nella figura principale rappresenta Ati il diletto di Cibele, cauato da vna Gioia antica. & è in questo da notare il Cappello, ouero Mitra Frigiaua, simile apunto a quello, che si vede nel Virgilio della Vaticana, in capo a' Troiani, nelle medaglie d'Hadriano Imperatore in capo alla Frigia, & in testa al Ganimede, che fu di Monf. R. Grimani Patriarca d'Acquileia. ma di questo ragioneremo altroue piu copiosamente.
+
+Questa narratione è tolta da Pausania nel 7. ma doue l'autore riferisce, che dal membro d'Agdesti nascesse il pomo granato. Pausania scriue altramente; & vuole, che fosse il Mandorlo. del Pomo granato però fà mentione Arnobio, che descriue tutta questa fauola con diligenza grande nel L. 5. contra i gentili.
+
+Questo lauarsi di Cibele fu talmente solenne, che nei Calendarij antichi se ne vede notabile mentione, come nei Rustico publicato da Fuluio Orsino, che dichiara questo termine, detto LAVATIO, molto gentilmente. Il medesimo si vede in vn'altro Calendario antico de' tempi di Constantino il magno, publicato nouamente dall'Illustrissimo Sig. GIO. GIORGIO HERVVARTO d'Hochenburg &c. Et in questo si legge HILARIA. REQVETIO. LAVATIO. de gl'Hilarij fa mentioneVospico nel bel principio della vita dell'Imperatore Aureliano, le parole del quale saranno intese da chi le accoppiarà con quanto scriuono Herodiano nel Lib. 1. delle sue Histo-
+
+Колонтитул: All'Imagini del Cartarï. 483
+Кустод: rie,
+Сигнатура: Hh 2
+Маргиналии:
+- Car. 168. Lin. vlt.
+- Car. 169. Lin. 18.
+- Car. 170.
+- Car. 175.
+- Car. 178. Lin. 5.
+- Car. 179. Lin. 21.
