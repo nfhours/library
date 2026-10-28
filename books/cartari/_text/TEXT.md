@@ -6418,3 +6418,239 @@ dirò in quella di Marte, se verrà à proposito. Et concludendo di Bellona, dic
 Кустод:
 Сигнатура:
 Маргиналии:
+
+## Скан 0346 · с. 304
+
+fu prima, per difenderla dalla forza di Ntttuno, che innamorato di lei le correua dietro sul lito del mare, & la tenne al suo seruitio fin, che accusò le figliole di Cercope: perche sdegnata all'hora la Dea del tristo officio fatto da costei, la fece subito di bianca, che fu prima, diuentare negra come è hora, & discacciolla da sè, & in suo loco tolse la Ciuetta, onde fu poi sempre, & dura tuttauia grauissima nimistà frà questi duo vccelli. Et signfica la Ciuetta il saggio, e buon consiglio de l'huomo prudente, come si legge appresso di Giustino, che essendo volata vna Ciuetta sù l'hasta à Hierone la prima volta che egli ancora giouinetto andò alla guerra, fu interpretato che sarebbe di consiglio molto accorto; & fù vero perche diuentò Re di Siracusa, benche fosse nato di basso luoco. Et perche gli occhi di Minerua sono di vn medesimo colore con quelli della Ciuetta, la quale vi vede benissimo la notte, intendesi che l'huomo saggio vede, & conosce le cose quantunque siano difficili, & occulte, e che leuatosi dall'animo il velo delle mézogne penetra alla Verità con la vista dell'intelletto; perche questa stà occulta, nè si lascia vedere ad ogn'uno: onde Democrito la pose nel profondo di vn pozzo, dicendo ch'ella quindi non vsciua mai, se il tempo, ouero Saturno suo padre (come dice Plutarco) non ne la traheua fuori alle volte. Et Hippocrate scriuendo ad vn suo amico disegna la Verità in forma di donna bella, grande, honestamente ornata, e tutta lucida, & risplendente, ma ne gli occhi piu assai, perche questi paiono due lucidissime stelle, & soggiunge poi della Opinione, che ella medesimamente è donna, ma non così bella, nè brutta però, ma che si mostra tutta audace, e presta ad appgliarsi a ciò, che le si rappresenta. Appresso di Epifanio si legge, che dipingeuano la Verità alcuni Heretici con lettere Greche in questo modo. Metteuano che l'α, & la ω fosse il capo, & β, e la ψ il collo, e così venendo giù formauano tutto il corpo, mettendo sempre quelle due lettere, che di mano in mano sono piu vicine alla prima, & all'vltima. Et Filostrato, dicendo che la Verità era dipinta nel sacro antro di Anfiarao, la fa vestita di bianchissimi panni, & in altro luogo la chiama poi madre della Virtù. La quale fu da gli antichi parimente creduta Dea, & adorata, & a lei come à gli altri Dei posero i Romani vn tempio dauanti à quello dell'Honore, che di vno votato a questi da Marcello, come riferisce Valerio Massimo, bisognò farne due, perche i Pontefici dissero; che la religione non comportaua, che vn tempio solo fusse dedicato à duo Numi: conciosia che auuenendo in quello qualche prodigio, non si potea sapere cui di loro si hauesse da sacrificare. Sì che alla Virtù, & all'Honore fu dato il suo à parte, & à questo non poteua entrare se non chi passaua per quello, volendo perciò mostrare, che non vi è altra via da acquistarsi honore, che quella della virtù, come che quello sia il
+
+Колонтитул: 304 Imagini de i Dei
+Кустод: sia il
+Сигнатура:
+Маргиналии:
+- Giustino.
+- Ciuetta, che significhi.
+- Hierone.
+- Democrito.
+- Hippocrate.
+- Verità.
+- Opinione.
+- Epitafio.
+- Virtù.
+- Honore.
+- Valerio.
+- Valerio Massimo.
+
+## Скан 0347 · с. 305
+
+[ГРАВЮРА: *Imagine della Virtù, & dell'Honore, che si risguardano così scolpiti in vna medaglia di Vitellio, dinotante dalla virtù & attioni virtuose prouenir l'honore, & con l'honore l'abondanza del tutto, & ogni humana felicità.*]
+
+Колонтитул: De gli Antichi. 305
+Кустод:
+Сигнатура: V
+Маргиналии:
+
+## Скан 0348 · с. 306
+
+sia il vero premio di questa, che fu per ciò fatta con due ali, conciosia che l'honore; & la gloria quasi leggerissime ali solleuino da terra le persone virtuose, & le portino à volo con non poca merauiglia di ogniuno. Il che non era nel tempo di Luciano forse, come ne gli altri tempi ancora non è stato per non dire di quello di hoggidì, che pur troppo se lo vede ogni vno come sia; imperoche egli descriue in certo suo dialogo la virtù tutta mesta addolorata, vestita con certi pochi stracci intorno, & molto malamente trattata dalla Fortuna in modo, che le era tolto di andare etiandio a farsi vedere a Gioue. Et dirò questo poco pur anche de' nostri tempi, che alcuni hanno dipinta la Virtù in forma di Pellegrino, come ch'ella non troui qui stanza, & perciò se ne camini via. Ritrouasi ancora, che gli antichi la fecero a guisa di matrona, che siede sopra vn sasso quadro; & in certa medaglia antica si vede la virtù fatta in modo, che si vede vna Donna appoggiata col sinistro braccio ad vna colonna, & che con la destra mano tiene vn serpente. Fu poi la virtù maschile, come ha vna medaglia di Gordiano Imperatore, formata come huomo vecchio, barbuto, tutto nudo, appoggiato ad vna mazza, che ha la pelle del Lione inuolta all'vno delle braccia, cui sono lettere intorno, che dicono: Alla virtù di Augusto. Et hà vna medaglia ancora di Numeriano la medesima figura. Ma in vna di Vittellio è la Virtù in forma di Giouane vestito succintamente con elmo in testa, & cimiero di alcune penne, tien la sinistra alta appoggiata ad vn'hasta dritta in terra, & la destra con lo scettro appoggia al destro ginocchio più eleuato dell'altro, perche hà sotto il piede vna testuggine, & hà gli stiualetti in gamba; e stà dritto, e guarda fiso ad vna giouene, che gli è dirimpetto fatta per l'Honore, la quale alzando il destro braccio tiene l'hasta, come l'altro, & da questa parte è nuda fin sotto la manmella: nella sinistra il corno di douitia, & vn'elmo sotto il piede, & il capo adorno di belle treccie bionde, che con vago modo gli sono auolte d'intorno. Prodico Filosofo, come si legge appresso di Xenofonte, & lo riferisce Marco Tullio, finse, che Hercole, mentre ch'egli era giouine, andò non sò come in certo luoco diserto, oue trouò due vie, che andauano in diuerse parti, & non sapendo a quale si douesse appigliare, mentre ch'ei staua sospeso, e tutto pensoso sopra di ciò, gli apparuero due femine, l'vna delle quali era la Voluttà bella in vista, tutta lasciua, & vaga, per gli artificiosi ornamenti, che haueua d'intorno, la quale lo persuadeua a caminare per la via de i piaceri larga al principio, piana, & facile, piena di verdi herbe, & di coloriti fiori, ma stretta poi al fine, sassosa, & piena di acutissime spine. L'altra piu seuera nello aspetto, semplicemente vestita, era la Virtù, che la sua via gli mostraua prima stretta, & certa, & difficile; ma che dopò menaua in fioriti prati, & in amenissimi campi
+
+Колонтитул: 306 Imagini de i Dei
+Кустод: campi
+Сигнатура:
+Маргиналии:
+- Virtù maschile.
+- Medaglia di Gordiano.
+- Medaglia di Numeriano.
+- Medaglia di Vitellio.
+
+## Скан 0349 · с. 307
+
+[ГРАВЮРА: *Imagini della Dea Volupia Dea de piaceri conculcante la Dea Virtù sotto li piedi suoi, denotante la detestanda, & infame vita de' dati à piaceri, in tutto spreggiatori della virtù, solo dati ad ogni sorte di vitio, quasi irrationali.*]
+
+Колонтитул: De gli Antichi. 307
+Кустод:
+Сигнатура: V 2
+Маргиналии:
+
+## Скан 0350 · с. 308
+
+campi pieni di soauissimi frutti. Et perche a questa si accostò Hercole, hebbe così glorioso nome. Dante fingendo nel suo Purgatorio di hauer visto in sogno la Voluttà, la descriue vna femina balba, con gli occhi guerchi, & co i piè storti, & man monche, & di colore scialba, la quale cominciaua poi a parlare speditamente, si drizzaua tutta, e lo smarritto volto, come amor vuole, così lo coloraua, & hauerebbe tratto lui à sè con sue dolci parole, se non che apparue vna donna santa, & honesta, la quale dice egli.
+
+*L'altra prendeua, & dinanzi l'apriua,*
+*Fendendo i drappi, e mostrauami il Ventre,*
+*Quel mi sueglio col puzzo che n'Vsciua,*
+
+Le quali cose si confanno molto bene alle vie de' piaceri vitiosi, & della virtù. Ma chi volesse in altro modo ancora mostrare queste due vie potrebbe far la lettera di Pithagora, sopra della quale scrisse Virgilio que' pochi versi, mostrando ch'ella ci figuraua la vita humana, li quali vengono à dire questo in nostra lingua.
+
+*La lettera à Pithagora già data*
+*Mostra la forma dell'humana vita,*
+*Con le due corna, in che ella è separata.*
+*Perch'à la destra Và l'erta salita*
+*De la virtude con angusto calle,*
+*Difficile à principio è mal gradita.*
+*Ma poi facile à chi la via non falle,*
+*Perche ascendendo giugne, oue s'oblia*
+*Le fatiche lasciatesi à le spalle,*
+*Da la sinistra uà più larga Via*
+*Facile, e piana, ma che poi l'huom mena*
+*Oue sol pianto, e pentimento sia.*
+*Però qualunque il suo desir affrena,*
+*Ne lo lascia seguire il Van piacere,*
+*Ch'à principio par gioia, al fin è pena.*
+*E virtù segue con fermo Volere*
+*Di patir i disagi, che fortuna*
+*Cui meno ella douria fà sostenere.*
+*S'acquista tanto honor, che poi più d'Vna*
+*Età ne tien memoria, e illustre, e chiara*
+*Sua fama fà, che saria stata bruna.*
+*Ma chi soll'ocio, e la lasciua hà cara,*
+*Con biasmo Viue, e quella Vita al fine,*
+*Che si gli parue dolce sente amara,*
+*Et traffigonli il cor pungenti spine.*
+
+Колонтитул: 308 Imagini de i Dei
+Кустод: Perche
+Сигнатура:
+Маргиналии:
+- Dante.
+- Virgilio.
+
+## Скан 0351 · с. 309
+
+Perche non danno i mondani piaceri all'vltimo altro, che pentimento, e vergogna: ma le virtù oltre che in noi stessi ci acquetano l'animo, appresso de gli altri anco poi ci acquistano gloria, & honore. La imagine del quale faceuano gli antichi, come la descriue l'Alciato, di fanciullo vestito di vn panno porporeo, con ghirlanda di lauro in capo, cui daua mano il Dio Cupido, & lo pareua menare alla Dea Virtù, che andaua innanzi. Adorarono gli antichi vna Dea ancora de i piaceri, la quale chiamarono Volupia, come scriue Varrone, & era la sua statoa vna donna pallida in faccia, la quale a guisa di Regina se ne staua in alto seggio, & pareua tenersi la Virtù sotto i piedi.
+
+Nel tempio di costei era posta sopra vn'altare Angerona creduta parimente Dea del piacere, ouero (come riferisce S. Agostino da Varrone) del fare che i Latini dicono agere. Onde ella hebbe il nome, perche pareua che ella mouesse gli huomini alle attioni, come la Dea Stimula gli stimulaua, & Horta gli essortaua. Et, come Plutarco scriue, il tempio di costei staua sempre aperto, acciòche quella, che essortaua tuttauia gli huomini a qualche degna opera fosse vista sempre da ogni vno. Di Angerona hanno anco detto alcuni, che ella fù così nomata dallo Angore, cioè affanno, & trauaglio, ch'ella leuò via subito, che a lei non meno, che a gli altri Dei furono ordinate le sacre cerimonie, facendone cessare il male della squilantia chiamata angina da' Latini, che ammazzaua gran numero di persone in Roma, & per questo forse il suo simulacro haueua qualche panno intorno al collo, che gli legaua anco la bocca. Ma Macrobio vuole, che Angerona con la bocca legata, & suggellata mostrasse, che chi sà patire, e tacere dissimulando gli affanni, vince quelli al fine, & se ne gode poi vita lieta & piaceuole. Plinio & Solino scriuono, che questa Dea fu così fatta per dar à vedere, che non bisogna parlare de' secreti misterij della religione per diuulgarli: come volle anco Numa far conoscere, quando introdusse di adorare certa Dea da lui nomato Tacita, secondo che Plutarco scriue, che bisogna tacere le cose de i Dei, Per la quale cosa adorarono parimente quelli di Egitto il Dio del silenio, & lo tennero in compagnia de i loro Dei principali. Il nome di costui appò loro fu Harpocrate, e Sigalione appresso de i Greci, & la sua statoa, secondo Apuleio, & Martiano, era di giouinetto, che si teneua il dito alla bocca, come si fa quando si mostra altrui con cenno che taccia. Egli fu anco talhora fatto pel Dio del silentio vna figura senza faccia con vn piccolo cappelletto in capo, & con vna pelle di Lupo intorno, & era quasi tutta coperta di occhi, & di orecchie, perche bisogna vedere, & vdire assai, ma parlar poco. Et può ogniuno sempre che gli piace tacere, ma non può sempre dir ciò, che vuole; il che mostra il cappello, che è segno di
+
+Колонтитул: De gli Antichi. 309
+Кустод: liberta
+Сигнатура: V 3
+Маргиналии:
+- Honore.
+- Volupia.
+- Angerona.
+- Stimula.
+- Horta.
+- Tacere necessario.
+- Tacita.
+- Harpocrate.
+
+## Скан 0352 · с. 310
+
+[ГРАВЮРА: *Imagine della Dea Angerona da alcuni tenuta Dea del Piacere & delle humane operationi, & anco sopra il male della gola, del silentio, & del sopportare, & imagine del Dio del Silentio detto Harpocate ò Sigalione.*]
+
+Колонтитул: 310 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0353 · с. 311
+
+libertà, come altroue è stato detto. Et del Lupo si legge, che fa diuentare roco qualunque ei veggia prima che sia veduto, & che quando hà rapito alcuna cosa se ne fugge via così tacitamente, che non ardisce à pena di fiatare. Ad Harpocrate fu dedicato il persico, perche questo arbore ha le foglie simili alla lingua humana, & i suoi frutti rassimigliano il core, come che la lingu manifesti quello, che è nel core, ma non lo debba però fare; se vi considera ben sopra. Et perciò il tacere a' suoi tempi è virtù, come mostrò Minerua cacciando da sè la Cornacchia vccello garrulo, & loquace; perche non dee l'huomo prudente perdere tempo in molte parole, & vane; ma tacendo ha da considerare le cose molto bene prima che ne ragioni, & dirne poi quello che bisogna solamente. Il che voleua forse mostrare la statoa di questa Dea, che fu appresso de' Messenij, la quale secondo che Pausania la descriue, teneua vna Cornacchia con mano, come che'l parlare habbi da esser così in mano dell'huomo saggio, ch'ei lo possa allentare, & stringere, secondo che si presenta la occasione, che ricerca il bisogno. Hebbe poi Minerua vna lunga hasta in mano, come dissi, che le danno tutti i Poeti; & Apuleio parimente la descriue, che crolli questa con mano, & che leuando il braccio alzi lo scudo, & fa che vanno con lei duo simili a' fanciulli, i quali con le nude coltella in mano paiono andare minacciando: de' quali vno è lo Spauento, l'altro il Timore, perche non sono le guerre mai senza questi. Però fingendo Statio, che Marte commandato da Gioue vada à metter guerra frà gli Argiui, e i Thebani, dice ch'ei tolse lo spauento, e'l Terrore, & se lo fece andare auanti, & lo disegna in parte, & in parte, descriue gli affetti, che da lui vengono in questo modo.
+
+*De la plebe crudel, c'hà intorno, elegge*
+*Il Terrore, e à destrier lo manda innanzi,*
+*Al cui poter non è chi il suo paregge,*
+*In far temer altrui, non che l'auanzi.*
+*Per costui par, che l'huomo il Ver dispregge,*
+*Se nel timido petto auien che stanzi*
+*Il mostro horrendo, c'hà Voci infinite,*
+*E mani sempre al mal preste, & ardite.*
+*Vna sola non è sempre la faccia,*
+*Ma molte, e tutte in variati aspetti,*
+*Che si cangiano ogni hor, pur ch'à lui piaccia*
+*D'accordar quei co i pauentosi detti;*
+*Quali ne i cori human sì forte caccia,*
+*Ch'à dar loro ogni fede sono astretti.*
+*E con tanto Spauento Spesso assale*
+
+Колонтитул: De gli Antichi. 311
+Кустод: le
+Сигнатура: V 4
+Маргиналии:
+- Lupo col silentio.
+- Persico di Harpocrate.
+- Cornacchia cacciata da Minerua.
+- Cornacchia in mano di Minerua.
+- Statio.
+- Terrore.
+
+## Скан 0354 · с. 312
+
+*Le Città, che poi credeno ogni male.*
+*Crederan, che non piu sia Sol Un Sole,*
+*E parrà lor quel, che non è Vedere,*
+*Se i miseri mortali a le parole*
+*Del tremendo Terror di rado Vere,*
+*Porgon l'orecchie, e che le stelle inuole*
+*Vn nembo, ond'habbiam poi tutti a cadere*
+*Che la terra pauenti, e tutta trieme;*
+*E si scuotan con lei le selue insieme.*
+
+Pausania mette il Terrore fatto in due modi da gli antichi: l'vno è con capo di Lione, che tale era intagliato, come ei dice, appresso de gli Elei nello scudo di Agamennome: l'altro con faccia, & habito di femina, ma spauenteuole piu che si possa dire. Et vna così fatta imagine dello Spauéto dedicarono i Corinthi alli figliuoli di Medea, da loro vccisi già per gli perniciosi doni, che essi portarono alla figliuola di Creonte, onde ella ne perì con tutta la casa regale. Ma non fu però creduto sempre il Timore noceuole, perche Plutarco scriue, che questo fu adorato da' Lacedemonij, non perche hauessero paura di lui, come di alcuni altri Demoni, li quali voleuano, che fossero lontani dalla città, ma perche pensarono, che la Republica si conseruasse per lui, quando le leggi, & i Magistrati erano temuti. D'onde fu, che gli Efori; che erano il sommo magistrato, entrati in vfficio, subito (come dice Aristotele) comandauano, & lo faceuano gridare per la città, che ogn'vno si tagliasse la barba, & fosse vbidiente alle leggi; acciòche essi non fossero sforzati di far male a persona, & faceuano questo per vsare i giouani ad vbbidire anco nelle cose leggiere. Oltre di ciò non credettero gli antichi, che fosse vera fortezza il non temere di cosa alcuna, ma sì l'hauere paura di patire cosa indegna: & stimarono, che hauesse da essere sempre piu ardito contra gli nimici chi temeua di offendere le leggi, che chi non ne faceua conto alcuno; & che la tema di acquistare tristo nome, facesse gli huomini piu gagliardi à sopportare ogni fatica, & ogni pericolo. Et questa è la paura, che debbono hauere i popoli; & per questo posero i Lacedemonij il tempio del Timore à canto alla casa de gli Efori. Et di questo intese forse anco Tullo Hostilio, Rè de' Romani quando ordinò (come riferisce Lattantio) che si adorasse il Timore, & la Pallidezza insieme, perche di rado auuiene, che non impallidisca chi teme. Et meritaua bene egli, che trouato gli haueua così belli, come dice esso Lattantio, di hauere i suoi Dei sempre seco, & che non l'abbandonassero mai. Ma ritornando à Minerua, ella mostra, mentre che crolla l'hasta, & alza lo scudo con la compagnia, che le dà Apuleio, le minaccie della guerra; & se la conside-
+
+Колонтитул: 312 Imagini de i Dei
+Кустод: riamo
+Сигнатура:
+Маргиналии:
+- Pausania.
+- Scudo d'Agamenonne.
+- Timore adorato.
+- Fortezza vera.
+- Tullio Hostilio.
+- Scudo di Minerua.
+
+## Скан 0355 · с. 313
+
+deriamo in pace, lo scudo, ch'era di lucidissimo cristallo, e copriua il corpo da ciò, che fosse venuto per offenderlo, mostraua, che l'animo dell'huomo prudente è coperto dalle membra terrene, solo per guardario, e custodirlo, & non perche da quelle gli sia oscurata la vista in modo, che non possa piu vedere la verità delle cose. Et perche gli scudi communemente sono di forma orbiculare, benche quello di Minerua si veggia talhora fatto altrimenti. Martiano scrisse, che lo scudo nel braccio di Minerua siguificaua, che il Mondo, qual'è parimente di forma rotonda, e gouernato con somma, & infinita prudenza, & non a caso come vollero Democrito, & l'Epicuro. E l'hasta vuol dire, che l'huomo prudente può far male altrui etiandio di lontano; ouero che la forza della prudenza è tanta, che penetra ogni durezza di tutte le piu difficili cose, e souente si leua tanto alto, che và fin'al Cielo. Onde Claudiano fece l'hasta di Minerua tanto lunga, & alta, che passaua le nuuole. Et Homero, forse per esprimere ancor meglio questo, finge, che Minerua, volendo, andare a Telemaco, per mettergli in animo, che vadi a cercare Vlisse suo padre, si mette a' piedi gli dorati talari, di quella sorte che nella imagine di Mercurio habbiamo detto che siano, nè porta seco altro, che l'hasta. Trouasi ancora appresso di Marco Tullio, oue ei scriue della natura de i Dei che vi fu vna Minerua (conciosia che egli racconti di cinque) la quale era finta hauere le ali a' piedi. Pausania parimente scriue, che fu vna lunga hasta in mano a quel simulacro di Minerua, il quale haueua sù l'elmo, come hò già detto, la Sfinge, e gli Grifi; & seguita descriuendolo, che staua dritto con certa tonica che lo copriua tutto fin'a terra, & era sotto la corazza (che le giaceua a' piedi) lo scudo, & vi aggiungono anco la Ciuetta, e che al calce dell'hasta era vn serpente. Da che prese argumento Demosthene, quando fu forzato andarsene in bando, di dire che Minerua, la quale era proprio nume di Athene, si dilettaua troppo di tre strane bestie, che erano la Ciuetta, il Serpente, & il Popolo: perche nella republica di Athene haueua che fare assai il popolo, & pigliaua egli le cose al peggio all'hora, che si sentiua offeso. Ma, come hò già detto della Ciuetta, così dico del Serpente, che fu dato a Minerua per segno di accortezza, & di prudenza. Onde in Roma dinanzi al gran simulacro di Minerua giù a' piedi staua il Serpente tutto in se riuolto, se non che alzaua la testa sù dietro allo scudo, ch'ella teneua al braccio, come dice Seruio, oue Virgilio le fa, che i due serpenti, quali vccisero Laocoonte, e i figliuoli, se ne andarono dritto al tempio di Minerua, & quiui si posero a' piedi della Dea, & sotto lo scudo. Della tonica, che costei porta con la corazza sopra, scriue Herodoto, che i Greci tolsero questo modo di vestire dalle donne di Africa, che habitano intorno alla Tritonide palude, nè vi
+
+Колонтитул: De gli Antichi. 313
+Кустод: è altra
+Сигнатура:
+Маргиналии:
+- Martiano.
+- Hasta di Minerua.
+- Claadiano.
+- Minerua co Talari.
+- Pausania.
+- Demosthene.
+- Serpente di Minerua.
+- Seruio.
+
+## Скан 0356 · с. 314
+
+è altra differenza, se non che la tonica di sotto di questa è di pelli, & le fimbrie, ò frangie, che vogliamo dire, del farsetto di sopra non sono di serpentelli, ma ci cuoio tagliato a minute liste, il quale farsetto vsauano fare quelle donne di Africa parimente di cuoio di Capra, & perciò lo chiamarono i Greci Egida, perche Ega appò loro significa Capra, & è questo, che noi habbiamo detta corazza, che hebbe forse le simbrie all'intorno di minuti serpenti, come pare volesse intendere Herodoto, quando pose la differenza, come hò detto, che è frà il vestire delle donne d'Africa, & l'habito di Minerua. Alla quale fecero di più gli antichi nel petto la Gorgone, che fu il capo di Medusa crinito di serpenti, che caciaua fuori la lingua, e gliele posero anco alle volte nello scudo, che fu parimente chiamato Egida da alcuni; perche Diodoro scriue, che Gioue lo coperse della pelle della capra Amalthea, e lo donò poi a Minerua. Ma più souente per la Egida si intende della armatura del petto, la quale scriue Higino, che fu così detta non da Ega, tolta per la Capra; ma da vna figliuola del Sole di questo nome, che fu come raccontano le fauole, di marauigliosa bianchezza con vno splendore stupendo, ma non bella però, anzi tanto horribile a vedere, che subito che si mostraua a i Titani nimici di Gioue, restauano tutti spauentati, e storditi. Onde la terra, pregata da quelli di leuarla loro dinanzi da gli occhi, la nascose in Creta in certa spelonca, oue stette fin che Gioue ne la leuò, quando volle hauere anco il capo di Medusa, perche l'Oracolo haueua detto, che senza questo egli non poteua vincere i Titani, come gli vinse poi, e doppo la vittoria donò la Egida, fatta della pelle di Ega col capo di Medusa à Minerua, che la portò poi sempre. Virgilio, quando fa, che Volcano va a mettere in opera i Ciclopi per fare le armi ad Enea, come l'haueua pregato Venere, e racconta i lauori, che quelli haueuano all'hora fra le mani, che erano i fulmini di Gioue, il carro di Marte, e l'armatura di Minerua, che è la medesima, che Pallade, così dice di questa.
+
+*Et à dorate scaglie di Serpente*
+*Componean con industria la tremenda*
+*Egida, de la qual Pallade irata*
+*Souente s'arma, e gli attrecciatti serpi;*
+*E la Gorgonea testa, ch'anche tronca*
+*Volgeua gli occhi in vista scura, e fera*
+*Adattauano al petto de la Diua.*
+
+E però la Gorgone s'intende sempre il capo di Medusa, che visto solamente vccideua altrui, ancora che scriue Atheneo, che appresso de i Nomadi nella Libia fu certa bestia di questo nome simile alle
+
+Колонтитул: 314 Imagini de i Dei
+Кустод: alle
+Сигнатура:
+Маргиналии:
+- Habito di Minerua.
+- Egida.
+- Gorgone.
+- Diodoro.
+- Ega figliuola del Sole.
+- Higinio.
+- Virgilio.
+- Gorgone.
+
+## Скан 0357 · с. 315
+
+alle Pecore, o come altri vogliono, a' Vitelli, di così pernicioso fiato, che ammazzaua con questo solamente tutte le altre bestie, che le si accostauano, e con la vista parimente vccideua altrui, qual volta scuotendo il capo si leuaua dinanzi certo crine, che discendendo giù per la fronte, le copriua gli occhi, come prouarono alcuni soldati di Mario, quando egli andò contra Giugurta, li quali cacciando questa bestia caderò morti, subito che da lei furono visti. E quelli del paese ne contarono poi la narura ad esso Mario, e glie la fecero anco hauere morta, perche essi sapeuano, come, stando in aguato, si poteua ammazzarla di lontano. La pelle era di così mirabile varietà di colore, che mandata a Roma, non vi fu alcuno, che sapesse di che bestia fosse, e come cosa marauigliosa fu posta nel tempio di Hercole. Proclo Cartaginese scrisse, come riferisce Pausania, che fra le molte, e diuerse bestie, che erano ne i deserti dell'Africa, vi furono anco huomini, e femine seluaggie e bestiali, ch'ei ne vide già vno portato a Roma, e voleua credere, che Medusa fosse stata vna di quelle femine, la quale andata alla Tritonide palude hauesse fatto quiui di molto male a gli habitatori del paese, fin che fu vccisa da Perseo con l'aiuto di Minerua, perch'ella fu proprio Nume di quel luoco. Diodoro scriue, che le Gorgone furono femine bellicose nell'Africa, le quali furono superate da Perseo, che vccise anco Medusa loro regina, e questa potrebbe essere historia. Ma le fauole dicono come si legge appresso di Apollodoro, che le Gorgone furono tre sorelle, delle quali Medusa solamente poteua morire; le altre due nomate Euriale, e Steno, erano immortali, & haueuano tutte il capo inuolto di scagliosi serpi, haueuano i denti grandi come di porco, le mani di rame, l'ali d'oro, con le quali volauano a loro piacere, e mutauano in sasso qualunque era visto da loro, e che Perseo, hauendole trouate, che dormiuano, tagliò il capo a Medusa, lo portò via, e donollo poi a Minerua; dalle quale fu aiutato assai a questo fare, perche da lei hebbe lo scudo, sì come da Mercurio hebbe la scimitarra, e i Talari, l'elmo di Orco, che faceua altrui inuisibile, e certa bisaccia, nella quale portò il terribile capo, da alcune ninfe, che gli furono insegnate da tre sorelle delle Gorgone, per rihauere l'occhio, & il dente rubato loro da lui; percioche di queste si legge, ch'elle nacquero vecchie, & hebbero vn'occhio solamente, & vn dente solo frà loro, e se ne seruiuano a vicenda mò l'vna, mò l'altra. E fù perciò in certa parte della Grecia, come scriue Pausania, nel tempio di Minerua vna statoa di Perseo, alla quale, come ch'ei fosse per andare all'hora in Africa contra Medusa, alcune Ninfe dauano vn'elmo, & attacauano i Talari a i piedi. Dicono ancora, e questa è la fauola più commune, che di tre bellissime sorelle, chiamate le Gorgone da certe Isole di simil nome, oue elle habitauano, Medusa fu la più
+
+Колонтитул: De gli Antichi. 315
+Кустод: bella,
+Сигнатура:
+Маргиналии:
+- Medusa.
+- Diodoro.
+- Gorgone.
+- Medusa.
