@@ -6829,3 +6829,183 @@ Lo dipingeuano gli antichi terribile nella faccia quasi sanguinolêta, che mostr
 - Herodoto.
 - Sacrificio notabile.
 - Vittima di Marte.
+
+## Скан 0370 · с. 328
+
+[ГРАВЮРА — полностраничная]
+
+Imagine del Tempio di Marte Dio della guerra, che era così fatto appo li Scithi, & della figura di Marte appo quelli d'Arabia petrea, inteso per il Sole ancora, & per la forza di quello in tutte le attioni humane.
+
+Колонтитул: 328 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0371 · с. 329
+
+mamente di Marte, il cui tempio perche le pioggie, & la mala temperie dell'aria di quel paese lo guastauano presto, rifaceuano ogni anno in questo modo. Raccoglievano insieme cento cinquanta carra di sarmenti, e ne faceuano come vn gran legnaio in quanto, che da tre lati era alto, & il quarto veniua abbassandosi in modo, che per là si poteua commodamente andare di sopra, oue metteuano certo coltello da loro vsato, & detto Acinace, che forse era, come vna scimitarra, e fu coltello proprio de' Persiani. Questo à loro era il simulacro di Marte, questo adorauano, & à questo faceuano più frequenti sacrificij, che ad alcun'altro Dio. Come faceuano quelli dell'Arabia Petrea, secondo che riferisce Suida, à certa pietra negra, & quadra senza altra figura, alta quattro, & larga duo piedi, che staua sù vna base d'oro, perche l'haueuano per il vero simulacro di Marte, che da loro era principalmente adorato. Descriuendo Statio la casa di Marte, la finge essere in Thracia, oue egli anco nacque, come ho detto, perche le genti di quel paese amano assai la guerra; che sia tutta di ferro non lucido, e risplendente, nè anco rugginoso, e fosco, ma quasi affocato, & che a risguardarla solamente spauenta, & attrista. Quiui sono l'impetuoso Furore, l'Ira arrabbiata, la Impietà crudele, il pallido Timore, le occulte Insidie, che vanno di nascosto, nè lasciano vedere altrui gli acuti coltelli, che tengono coperti, & la Discordia armata ambe le mani di tagliente ferro. Questa fù da gli antichi posta frà que' Dei, che adorauano; non perche potessero giouare, ma accioche non nocessero; percioche ouunque ella si troua, non è mai pace, nè riposo, & Gioue per questo la cacciò di Cielo, nè fu chiamata alle nozze di Tetide, & di Peleo, oue erano quasi tutti gli altri Dei, di che ella sdegnata gittò frà quelli il pomo donde nacque la rouina di Troia pel giudicio, che ne fece Paride. Era la Disdordia fatta in forma di Furia infernale, come la descriue Virgilio, quando dice:
+
+*Annoda, e stringe a la Discordia pazza*
+*Il crin Vipereo sanguinosa benda.*
+
+Et il medesimo ne disse Petronio. Aristide la finge vna donna, che hà il capo alto, le labbra liuide, e smorte, gli occhi biechi, guasti, & pregni di lagrime, che del continuo rigano le pallide gote; non tiene a sè le mani mai, & è prestissima al mouerle, porta vn coltello cacciato nel petto, & hà le gambe torte: & i piedi sottili, & intorno vna tenebrosa, & oscura nebbia, che a guisa di rete la circonda tutta. Pausania scriue, che da vn lato dell'arca di Cipselo erano intagliati Aiace, & Hettore, quali combatteuano insieme alla presenza della Discordia, ch'era quiui loro appresso, & era vna donna di faccia bruttissima. Nè altro ne dice, e meno come la facesse Califonte Sa-
+
+Колонтитул: De gli Antichi. 329
+Кустод: mio,
+Сигнатура:
+Маргиналии:
+- Simulacro di Marte.
+- Casa di Marte.
+- Discordia. Virgilio.
+- Pausania.
+
+## Скан 0372 · с. 330
+
+[ГРАВЮРА — полностраничная]
+
+Imagine della Discordia secondo Aristide, la quale per li suoi mali effetti fù cacciata dal Cielo, ne fù inuitata con gli altri Dei alle nozze di Peleo e Tetide genitori d'Achille, acciò con suoi veneni non le turbasse; e pur le turbò co'l gettar del pomo d'oro significante, che alli machinatori non mancano occasioni di discordie.
+
+Колонтитул: 330 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0373 · с. 331
+
+mio, il quale com'ei soggiunge, ad essempio di quella la dipinse nel tempio di Diana Esesia, oue fece la guerra, che fu poco lungi dalle naui de' Greci. Ma chi da gli antichi non sà fare ritratto della Discordia, lo faccia da quello, che n'hanno detto i moderni, e tra questi ancora contentisi dell'Ariosto solo, il quale benissimo la dipinge, quando ei fa, che l'Angelo Michele la và a trouare, e dice così.
+
+*La conobbe al Vestir di color cento*
+*Fatto à liste ineguali, & infinite,*
+*C'hor la cuoprono, hor nò, che i passi, e'l vento*
+*Le gieno aprendo, ch'erano sdruscite,*
+*I crini hauea qual d'oro, e qual d'argento,*
+*E neri, e bigi, e hauer pareano lite;*
+*Altri in treccia, altri in nastro eran raccolti,*
+*Molti a le spalle, alcuni al petto sciolti.*
+
+Risonaua poi il palagio di Marte tutto di minaccieuoli voci: e vi staua nel mezo la Virtù mesta, & addolorata, & allo incontro si mostraua lieto il Furore. Qui sedeua la Morte con il viso insanguinato, & era sù gli altari il sangue sparso nelle crudeli battaglie, del quale era fatto sacrificio al terribile Dio con il fuoco tolto dalle abbrucciate Città. Et intorno intorno stauano appese le spoglie riportate quasi da ogni parte del mondo, e per le mura, e sù le porte eran'intagliate vccisioni; abbrucciamenti, & altre roine, che portano seco le guerre. Questo è tutto il disegno, che fa Statio della casa di Marte, la statoa del quale teneuano legata i Lacedemonij, come recita Pausania, con stretti nodi, pensando di tenere in quel modo lui ancora, sì che da loro non partisse mai, e gli hauesse da fare poi col fauor suo vincitori in ogni guerra: & il medesimo fecero molte altre nationi ancora, & i Romani parimente legauano alcuni simulacri, & massimamente di que' Dei, alli quali era raccomandata la Città. Imperoche di tanti Dei adorati da gli antichi vno, ò due ne haueua ciascheduna città, che la guardauano più de gli altri, e temeuano fino i nemici di offendere questi. Da che venne la vsanza di chiamare fuori, & inuitar à sè con certe parole à ciò ordinate, e dette dal Sacerdote, gli Dei custodi di quella città, alla quale si faceua la guerra, mostrando in questa guisa di non volere la gara co' Dei. E perciò non volero i Romani, che vnqua si sapesse il vero nome del Dio, cui era data la città in guardia particolare, accioche chiamato da' nemici non se n'andasse. Et oue Virgilio noma la madre. Vesta custode del Tebro, & di Roma, Seruio nota che ciò è detto poeticamente, non che quel fosse il nome proprio del vero Nume di Roma, perche, suggiunge egli le leggi della religione non voleuano, che si sapesse, & fu fatto morire per mano
+
+Колонтитул: De gli Antichi. 331
+Кустод: mano
+Сигнатура:
+Маргиналии:
+- Ariosto.
+- Palagio di Marte.
+- Statoa di Marte legata
+- Dei legati.
+- Dei chiamati fuori delle città.
+- Nume occultato.
+
+## Скан 0374 · с. 332
+
+mano di giustitia vn Tribuno della plebe, che hebbe ardire di nomarlo. Perche dunque non sono osseruate sempre interamente da ogni vno le sacre leggi, teneuano gli antichi legati alcuni Dei, accioche non partissero da loro, come recita Quinto Curtio, che quelli di Tiro nella Fenicia legarono con catene d'oro il simulacro di Apollo, vno de i suoi Dei principali, e l'attacarono all'altare di Hercole, cui era raccomandata la Città, come ch'ei l'hauesse da ritenere, che non se ne andasse, perche vn Cittadino disse d'hauerlo visto in sogno, che abbandonaua la città, e se ne andaua via, vna volta che Alessandro vi era intorno per espugnarla. A che mi pare, che si confacci quello che faceuano gli Atheniesi tenendo la Vittoria senza ali, come si legge appresso di Pausania, accioche ella non se ne volasse via, & haueua questa come dice Heliodoro, nella destra vn melagrano, & vn'elmo nella sinistra. Et i Romani, accioch'ella stesse più volontieri con loro, le dierono per suo seggio il Campidoglio (come scriue Liuio) & le dedicarono il tempio di Gioue Ottimo Massimo, quando Gierone, dopò la rotta, che hebbero da' Cartaginesi a Canne, ne mandò loro à donare vna tutta d'oro con altri doni di molto prezzo, li quali essi rimandarono tutti, & ritenero solo il simulacro della Vittoria per buono augurio. Questa fu fatta per lo più da gli antichi con l'ali in forma di bella Vergine, che se ne voli per l'aria, & con l'vna mano porga vna corona di Lauro, ouero di bianco Vliuo, e nell'altra tenga vn ramo di Palma, come nelle antiche medaglie si vede, & ne' marmi antichi, & talhora la veggiamo con la corona sola, & talhora col solo ramo della Palma. La fecero souente i Romani col ramo del Lauro in mano, perche, hebbero anco questo solo per segno di Vittoria, & lo metteuano con quelle lettere, che ne portauano le nouelle, e facendosi allegrezza di qualche Vittoria andauano à porne alcune foglie nel grembo di Gioue Ottimo Massimo, & i più degni Capitani trionfando se ne faceuano corona. Quelli di Egitto nelle loro sacre lettere mostrauano la Vittoria con l'Aquila, perche questa vince di valore tutti gli altri vccelli, da che venne forse, che fra tutte le altre insegne, che portauano i Romani alla guerra nelle bandiere, l'Aquila fu la principale, & la più frequente imperoche si legge, che portauano anco il Lupo, perche era bestia di Marte; portauano il Minotauro, per mostrare, che'l consiglio del Capitano, & ogni suo disegno così hà da stare occulto, come staua quella bestia nel Laberinto; & il Porco portauano ancora, perche senza questo non si faceua mai tregua, ne si formaua la pace, & vi vsauano così fatta cerimonia. Trouauansi insieme alcuni à ciò deputati dall'vna, & dall'altra parte di coloro, che erano per fare Pace, ò Tregua, & il Sacerdote, cui era dato questo officio, & chiamauasi Feciale dopò alcune solenni parole, & d'hauer recitato le conuentioni, & patti fra loro accordati,
+
+Колонтитул: 332 Imagini de i Dei
+Кустод: accordati,
+Сигнатура:
+Маргиналии:
+- Q. Curtio.
+- Apollo legato.
+- Vittoria senza ali.
+- Heliodoro.
+- Vittoria.
+- Lauro segno di Vittoria.
+- Aquila segno di Vittoria.
+- Insegne de' Romani.
+- Cerimonie della tregua o pace.
+
+## Скан 0375 · с. 333
+
+[ГРАВЮРА — полностраничная]
+
+Imagine della Vittoria con le sue insegne, l'Aquila, la Palma, & il Lauro, essendo l'Aquila regina de gli vccelli, & di buono augurio, la Palma resiste ad ogni forza & ne dà parte del vitto, il Lauro sempre verdeggia, ne è tocco dal folgore, così il vittorioso supera la difficoltà con la Virtù, & resta immortale.
+
+Колонтитул: De gli Antichi. 333
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0376 · с. 334
+
+accordati, feriua con certa pietra; & vccideua vn Porco, ch'era quiui presente per questo, pregando Gioue, che così volesse ferire qualunque di loro hauesse prima rotto la tregua, ò pace che fosse. Oltre di ciò lasciando hora di dire del mazzetto del fieno in capo ad vna lunga pertica, che fu la prima insegna de' Romani, & della mano aperta, & di certo velo, o Zendado che era, come à punto à dì nostri vediamo la cornetta del Generale, dirò solamente, che'l Cauallo ancora fu ne gli stendardi Romani, & il Bue. Ma gli è vero, che questi duo, e gli altri tre, che hò detti, stauano quasi sempre ne gli steccati, & l'Aquila sola andaua in battaglia, perche stimauano, come dice Gioseffo, che questa fosse la vera insegna del principiato, e che portasse seco contra nemici buono augurio di Vittoria. Onde si legge, & lo riferisce Giustino, che per vna Aquila. che volò sù lo scudo à Gierone, quando ancora giouinetto cominciò andare alla guerra, fu detto, ch'egli doueua essere Re, e molto valoroso, come fu, benche fosse di casa bassa, e vile. Ciro ancora portò vn'Aquila d'oro con l'ali aperte, come scriue Xenofonte, in capo di vna lunga hasta, e gli altri Rè de' Persi la portarono parimente poi sempre. Pausania dice, che nel tempio di Gioue appresso de' Lacedemoni erano due Aquile, che portauano due Vittorie, ciascheduna la sua, le quali haueua offerto quiui Lisandro per memoria di hauer due volte vinto gli Atheniesi. Nel grande spettacolo, che fu rappresentato da Tolomeo Filadelfo (il che racconta Atheneo per cosa miracolosa) erano alcune Vittorie con le ali, che haueuano vesti tessute a diuersi animali, con molti ornamenti d'oro attorno, e portauano in mano turibuli d'oro fatti à foglie di hedera, forse perche seruiuano allhora à Bacco, andauano dinanzi di vn'altare ornato parimente di rami di hedera fatti d'oro. Claudiano, quando lauda Stilicone, descriue la Vittoria vestita di trofei con la verde palma in mano, e con le ali a gli homeri, le quali mostrano gl'incerti successi delle guerre, conciosia che souente la Vittoria pare esser dall'vna parte, e subito dall'altra, & al vincitore accresce forza, & fallo viuere lungamente nella memoria de' posteri, si come la Palma si rinforza contra ogni peso, che le sia posto sopra, nè si corrompe il suo legno, come gli altri, & le sue foglie stanno verdi lungo tempo. Et perche il fine delle guerre è dubbioso, fu chiamata la Vittoria Dea commune, come che ella sia nel mezo, & si accosti à chi meglio la sà tirare à sè. Et Marte per questa parimente fu detto Dio commune, perche frà nimici è commune il vincere, & l'esser vinto, Hanno anco fatta alcuni la Vittoria armata, allegra, & gioconda nell'aspetto, ma tutta piena di polue, & di sudore, & che porge cò le mani insanguinate le spoglie, e gli prigioni a' vincitori. Di costei, & di chi l'adoraua, pensando che'l fauor suo gli hauesse da valere, si fà beffe Prudentio Poeta Christiano, &
+
+Колонтитул: 334 Imagini de i Dei
+Кустод: &
+Сигнатура:
+Маргиналии:
+- Gioseffo.
+- Giustino.
+- Aquila insegna de' Persi.
+- Atheneo.
+- Claudiano
+- Vittoria Dea commune.
+- Prudentio.
+
+## Скан 0377 · с. 335
+
+[ГРАВЮРА — полностраничная]
+
+Imagine della Vittoria armata, & della medesima senza ale. La prima è fatta per rappresentare le cause di essa, che sono fatica e sudore. La seconda il desiderio di quelli, che così la figurauano, che era di non essere abbandonati dalla Vittoria.
+
+Колонтитул: De gli Antichi. 335
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0378 · с. 336
+
+& dice, che si hà da cercare la Vittoria dall'eterno, e vero Dio, & della virtù propria.
+
+*E non da quella, che le sciocche genti*
+*Finsero bella, giouane, & ardita,*
+*Con biondi crini hor'annodati, hor sciolti,*
+*Cinta a trauerso al petto il sottil panno,*
+*Che la veste, e da lieue vento mossa*
+*Ondeggia sì, che'l bianco piè si scuopre.*
+
+Et manco da Marte, come faceuano gli antichi Romani, che sacrificandogli quel cauallo, che nel corso fosse stato più vincitore, voleuano mostrare di riconoscere da lui la vittoria, benche dicano alcuni, che quello si faceua per punire la velocità, della quale altra cosa non è, che meglio aiuti chi fugge, & per dare ad intender, che non bisogna sperare nel fuggire. Oltre di ciò furono dati a Marte quando in sacrificio, e quando in compagnia solamente diuersi animali, come il Cane, & il Lupo, che si ponno aggiungere alla sua imagine: quello perche è feroce, come scriue Pausania, & il più forte de gli altri animali, che stanno con l'huomo; questo ouero perche, come egli hà tanto buono occhio, che vi vede di notte, così hanno da vedere assai gli accorti Capitani, accioche non caschino nelle occulte insidie de' nimici. ouero perche è di natura sua rapace, & volontieri vccide, & fa sangue, cose tutte confacientisi al Dio delle guerre: al quale fu dato frà gli vccelli il Gallo, per mostrare la vigilanza, che hà da essere ne' soldati, oueramente perche; come raccontano le fauole, & che scriue Luciano, Aletrione soldato assai ben caro à Marte fu mutato da lui in questo vccello, perche non fece la buona guardia, che ei gli haueua comandato la notte, che staua in letto con Venere; onde senza, che ei se ne auedesse, entrò Volcano nella camera, & gittata loro sopra la bellissima rete gli prese, così abbracciati insieme come erano. L'Auoltoio ancora fu dato a Marte, perche di lui si legge, che seguita con auidità grandissima i corpi morti, e perciò va dietro a gli esserciti, come che la natura gli habbia insegnato, che questi si mettono insieme per fare delle vccisioni. Anzi gli ha insegnato di più ancora, ch'ei sà, come scriue Plinio, di tre, e di quattro, & alcuni dicono di sette dì prima che si faccia, oue hà da essere il fatto d'arme, & conoscere da qual parte ne habbia da morire più, & à quella và guardando più sempre, che all'altra, come che quindi gli si apparecchi preda maggiore. Da che venne, che soleuano anticamente i Re mandare, quando si metteuano all'ordine con gli esserciti per fare fatto d'arme, a spiare oue guardauano più li Auoltoi, da ciò facendo giudicio poi da qual parte douesse essere la vittoria. Dipin-
+
+Колонтитул: 336 Imagini de i Dei
+Кустод: gesi
+Сигнатура:
+Маргиналии:
+- Cauallo sacrificato.
+- Animali di Marte.
+- Auoltoio sacrato à Marte.
+
+## Скан 0379 · с. 337
+
+gesi con Marte il Pico ancora alle volte. onde fu chiamato Pico Martio, come che proprio fosse di Marte, ò sia perche, come questo vccello percotendo col forte becco il duro rouere lo caua, così con le spesse batterie i soldati tanto battono le mura delle Città, che si fanno strada per forza da poteruj entrare dentro, ouero perche questo vccello era osseruato molto ne gli augurij, alli quali, pare, che i soldati pongano mente assai; anzi così vi attendeua ogni vno anticamente, che non pareuano sapere fare cosa alcuna ò publica, ò priuata, se non ne pigliauano prima augurio in qualche modo, come io dissi già nel Flauio, oue raccontai anco il modo, che vsauano gli antichi nel pigliare gli augurij. De gli alberi non hò trouato fin quì, che ne fosse consecrato à Marte, come suo proprio, ma della Gramigna hò ben letto, che à lui la dierono gli antichi, forse perche, come scriue il Boccaccio, questa nasce per lo più ne' luochi spatiosi, & aperti, oue sogliono quasi sempre accamparsi gli esserciti. E non hebbero i Romani corona piu degna, nè di maggiore honore di quella della Gramigna, che dauano à quelli solamente, che in qualche estremo pericolo hauessero saluato tutto l'esercito, ò si hauessero leuato l'assedio d'attorno. Nè mi resta à dire altro di Marte, se non ch'io non voglio tacere la solenne festa, che a suo honore era fatta in Papremo città dello Egitto, perche mi pare, che la cerimonia raccontata da Herodoto meriti di essere riferita. Hora, venuto il tempo della festa, nel qual andauano quasi tutte le genti del paese alla città, ch'io dissi, alcuni pochi Sacerdoti stauan nel tempio intorno à gli altari à fare gli sacrificij, e l'altre cose appartenenti à questi, e gli altri tutti si metteuano alle porte del medesimo tempio con buone mazze di legno in mano, contra li quali andauano da mille huomini de' stranieri venuti di fuori alla festa con grossi bastoni parimente in mano. Questi hauendo il dì innanzi apparecchiato vn gran tabernacolo di legno tutto dorato con dentro il simulacro di Marte; e postolo sù vn carro da quattro ruote tirato da certi pochi di loro, voleuano entrare con esso nel tempio & i Sacerdoti, che erano alle porte, lo vietauano loro, onde cominciauano à battersi quiui stranamente con bastoni non volendo gli vni, che quel Dio entrasse nel tempio, & sforzandosi gli altri di farglielo entrare, come faceuano pur'alfine. E benche si dessero di sconcie mazzate sù la testa e molti di loro ne restassero malamente feriti, non ne moriua però alcuno mai. Et fu la cosa ordinata in questo modo, perche dissero gli antichi, che habitando la madre di Marte in quel tempio, egli fatto già grande vi andò per giacersi con lei, ma i Sacerdoti accortisi di ciò, nè sapendo però ch'ei fosse, non lo lasciarono entrare, onde fu sforzato di andarsene; ma non dopo molto hauendo racolto seco gente di certa città quindi poco lontana, ritornò, e date di buone busse a' Sacerdoti entrò à dispetto loro à fare
+
+Колонтитул: De gli Antichi. 337
+Кустод: à fare
+Сигнатура: Y
+Маргиналии:
+- Pico vccello di Marte.
+- Boccaccio.
+- Gramigna data à Marte.
+- Herodoto.
+- Festa di Marte.
+- Cerimonia ridicolosa.
+
+## Скан 0380 · с. 338
+
+à fare il suo piacere della madre. Questo è il fatto rappresentato nella cerimonia, ch'io hò detto, la quale non è dubbio, che contiene in se qualche misterio; ma poi che Herodoto non l'hà detto, ne io lo riferisco, & lascio cercarlo à chi è curioso di saperlo. Et in questa vece dirò di certa altra cerimonia scritta parimente da Herodoto, che in parte è simile alla già detta, & era fatta in honore di Minerua, accioche col nome di costei si metta fine alla imagine, che dal nome suo fu cominciata. Celebrauasi questa ogni anno in certa parte dell'Africa intorno alla Palude Tritonide, oue al tempo deputato alla festa si congregauano quasi tutte le giouani pulzelle del paese, & quiui partitesi come in due ordinanze di soldati combatteuano fieramente insieme con pietre, e con bastoni, & quella che per commune giudicio si fosse mostrata più valorosa, & hauesse menato meglio le mani, era tolta da tutte l'altre, e portata in disparte l'armauano tutta con vn bello elmo in capo, & postala sopra vn carro la menauano tutte all'intorno della palude, e tutte l'accompagnauano con solenne pompa, & quelle che restauano morte in questa zuffa perche souente ve ne moriuano molte, erano credute non esser state veramente vergini, & che Minerua le hauesse lasciate perire. Impero ch'ella fu vergine sempre, conciosia che la vera sapienza mostrata talhora per lei non sente macchia alcuna delle cose mortali, e sia sempre in sè tutta pura, & monda. Et fu osseruato anco ne' sacrificij di Minerua di darle vittime pure, che erano talhora vna Agnella, talhora vn Toro bianco, e talhora vna giouenca indomita con le corne dorate, per mostrare, che la Verginità non è soggetta al giogo della libidine, & è tutta pura & candida.
+
+Колонтитул: 338 Imagini de i Dei
+Кустод: BACCO
+Сигнатура:
+Маргиналии:
+- Festa di Minerua.
+- Minerua Vergine.
+
+## Скан 0381 · с. 339
+
+[ГРАВЮРА — полностраничная]
+
+Imagine di Bacco significante li varij effetti del vino del quale esso fù l'inuentore, & di più gli effetti della vbbriachezza, che sono riuelationi di cose occulte, furore, libidine, & simili. Questi con Hercole tutti due Thebani, & figlioli di Gioue, di gloria tutti gl'antichi superarono.
+
+Колонтитул: De gli Antichi. 339
+Кустод:
+Сигнатура: Y 2
+Маргиналии:
