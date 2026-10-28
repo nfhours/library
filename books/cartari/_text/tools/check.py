@@ -76,6 +76,15 @@ HIDDEN_RE = re.compile(r"hidden_errors:\s*(\d+)")
 HIDDEN_LATIN_RE = re.compile(r"hidden_errors_latin:\s*(\d+)")
 HIDDEN_MARGIN_RE = re.compile(r"hidden_errors_margin:\s*(\d+)")
 HIDDEN_TEXT_RE = re.compile(r"hidden_errors_text:\s*(\d+)")
+HIDDEN_ACCENTS_RE = re.compile(r"hidden_accents:\s*(\d+)")
+HIDDEN_OTHER_RE = re.compile(r"hidden_other:\s*(\d+)")
+ERRATA_COUNT_RE = re.compile(r"errata:\s*(\d+)")
+ERRATA_RE = re.compile(r"\{([^{}|]+)\|([^{}|]+)\}")
+ERRATA_MARK_RE = re.compile(r"[{|]")
+# Note: a bare "}" is intentionally NOT flagged - some pages (e.g. index-style
+# entries like "Castore } Fratelli, figli di Gioue...") legitimately use it
+# as printed typographic brace grouping several names, unrelated to errata
+# markup. A leftover "{" or "|" still catches a broken/unclosed {a|b} pair.
 BW_SOURCE_RE = re.compile(r"bw_noise:\s*(\S+)")
 KUSTOD_RE = re.compile(r"^Кустод:[ \t]*(.*)$", re.M)
 KOLONTITUL_RE = re.compile(r"^Колонтитул:[ \t]*(.*)$", re.M)
@@ -205,6 +214,19 @@ def main():
         if normalize_word(kustod) != normalize_word(next_first):
             kustod_mismatches.append((scan, kustod, nxt, next_first))
 
+    # errata-marker syntax check: {printed|corrected} must be well-formed
+    # (no unmatched/unclosed braces, no nesting, exactly one '|' per pair)
+    errata_syntax_errors = []
+    for scan in scans_in_tsv:
+        if scan not in page_files:
+            continue
+        body = body_cache.get(scan, "")
+        body_no_header = HEADER_RE.sub("", body, count=1)
+        stripped = ERRATA_RE.sub("", body_no_header)
+        leftover = ERRATA_MARK_RE.findall(stripped)
+        if leftover:
+            errata_syntax_errors.append((scan, "".join(leftover)))
+
     unclear_total = sum(unclear_counts.values())
 
     # numbering discrepancies: printed number in text vs PAGES.tsv label
@@ -239,6 +261,9 @@ def main():
         hidden_latin_m = HIDDEN_LATIN_RE.search(tail)
         hidden_margin_m = HIDDEN_MARGIN_RE.search(tail)
         hidden_text_m = HIDDEN_TEXT_RE.search(tail)
+        hidden_accents_m = HIDDEN_ACCENTS_RE.search(tail)
+        hidden_other_m = HIDDEN_OTHER_RE.search(tail)
+        errata_m = ERRATA_COUNT_RE.search(tail)
         double_reading[scan] = {
             "method": method_m.group(1) if method_m else "",
             "discrepancies": disc_m.group(1) if disc_m else "",
@@ -250,6 +275,9 @@ def main():
             "hidden_errors_latin": hidden_latin_m.group(1) if hidden_latin_m else "",
             "hidden_errors_margin": hidden_margin_m.group(1) if hidden_margin_m else "",
             "hidden_errors_text": hidden_text_m.group(1) if hidden_text_m else "",
+            "hidden_accents": hidden_accents_m.group(1) if hidden_accents_m else "",
+            "hidden_other": hidden_other_m.group(1) if hidden_other_m else "",
+            "errata": errata_m.group(1) if errata_m else "",
         }
 
     # count engraving markers per page (for status.csv "engravings" column)
@@ -268,7 +296,8 @@ def main():
         w = csv.writer(f)
         w.writerow(["scan", "label", "printed_number", "state", "unclear", "engravings", "note",
                     "method", "discrepancies", "errors_r1", "errors_r2", "both_wrong", "noise",
-                    "hidden_errors", "hidden_errors_latin", "hidden_errors_margin", "hidden_errors_text"])
+                    "hidden_errors", "hidden_errors_latin", "hidden_errors_margin", "hidden_errors_text",
+                    "hidden_accents", "hidden_other", "errata"])
         for scan in scans_in_tsv:
             label = label_by_scan.get(scan, "")
             printed = printed_numbers.get(scan, "")
@@ -293,7 +322,8 @@ def main():
                         dr.get("errors_r1", ""), dr.get("errors_r2", ""),
                         dr.get("both_wrong", ""), dr.get("noise", ""),
                         dr.get("hidden_errors", ""), dr.get("hidden_errors_latin", ""),
-                        dr.get("hidden_errors_margin", ""), dr.get("hidden_errors_text", "")])
+                        dr.get("hidden_errors_margin", ""), dr.get("hidden_errors_text", ""),
+                        dr.get("hidden_accents", ""), dr.get("hidden_other", ""), dr.get("errata", "")])
 
     # ---- Report ----
     print("=== Cartari check.py отчёт ===")
@@ -317,6 +347,10 @@ def main():
     print("  (ожидаемо: у черновиков Grok кустоды почти везде пустые, поэтому список короткий или пустой)")
     for scan, kustod, nxt, nf in kustod_mismatches:
         print(f"  scan {scan}: кустод='{kustod}' != первое слово скана {nxt} ('{nf}')")
+    print()
+    print(f"Синтаксис опечаток {{напечатано|исправлено}}: ошибок {len(errata_syntax_errors)}")
+    for scan, leftover in errata_syntax_errors:
+        print(f"  scan {scan}: непарные символы {{ }} | вне разметки: {leftover!r}")
     print()
     print(f"status.csv записан: {STATUS_CSV}")
 
