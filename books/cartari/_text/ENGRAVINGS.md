@@ -126,3 +126,8 @@
 | 0244 | 202 | гравюра | Imagine di Glauco dio marino dinotante il colore, & spuma del mare, & li pesci viuer lunga vita, & sani. dinota ancora gli effetti della humidità delle acque. | |
 | 0246 | 204 | гравюра | Imagini de' Tritoni & delle Nereide huomini & donne marine secondo Alessandro Napolitano, Theodoro Gaza, & altri antichi, & moderni; con l'imagine di Galatea nereide principale, & suo carro significante la doppia virtù delle acque. | |
 | 0249 | 207 | гравюра | Imagini di Partenope, Leucosia, & Ligia Sirene dee del mare figliuole di Acheloo fiume, & di Calliope musa, tutte quali imagini significano le meretrici & loro blanditie & allettamenti, dinotano anco alcuni scogli, & gli eloquenti lodatori, & gli adulatori. | |
+| 0251 | 209 | гравюра | крылатая женская фигура (Сцилла) с обнажённой грудью, поднимающая меч, в окружении морских чудовищ с драконьими головами и змеиными/рыбьими хвостами; в верхнем правом медальоне — две фигуры в море | |
+| 0253 | 211 | гравюра | Нептун с короной и трезубцем рядом с Амфитритой, оба стоят на колеснице, запряжённой двумя морскими чудовищами (коне-драконами); вверху слева медальон с фигурой на лодке, справа медальон с всадником | |
+| 0256 | 214 | гравюра | получеловек-полукозёл (Тарасиппо) с копьём, стоящий рядом с повозкой/плугом; вверху медальон с пылающей чашей на подставке, справа медальон с женской фигурой в сосуде/урне | |
+| 0259 | 217 | гравюра | две плывущие в волнах женские фигуры с рыбьими хвостами (морские богини) | |
+| 0261 | 219 | гравюра | группа из четырёх крылатых фигур ветров вверху (с солнцем в центре) и две пары обнимающихся фигур внизу (ветры с их супругами) | |

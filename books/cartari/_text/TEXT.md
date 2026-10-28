@@ -4700,3 +4700,164 @@ li sono gouernati, e retti da alcune figliuole di Tritone, che stanno intorno al
 Кустод:
 Сигнатура:
 Маргиналии:
+
+## Скан 0250 · с. 208
+
+riferisce, che le fauole greche finsero, le Sirene essere vccelli con bella faccia di donna, che cantauano soauissimamente. Ma, che in vero furono certi scogli, tra gli quali le onde del mare faceuano vn così soaue mormorio, che i nauiganti tratti dalla dolcezza del suono volontieri passauano per là, oue miseramente periuano poi. Et Plinio, parlando de gli vccelli fauolosi, dice, che furono creduti essere in India gli vccelli Sirene, li quali con la soauità del canto addormentauano altrui, & poi lo diuorauano. Ma pesci, come dissi, ò vccelli che fossero le Sirene, basta, che sono cosa in tutto finta: onde vogliono alcuni, che per loro sia intesa la bellezza, la lasciuia, e gli allettamenti delle meretrici, anzi che fossero le istesse meretrici, & che fosse finto, che cantando addormentassero i nauiganti, & che accostatesi alle naui, gli vccidessero poi: perche così intrauiene à quelli miseri, li quali vinti dalle piaceuolezze delle rapaci donne, chiudono gli occhi dell'intelletto sì, che elle poi ne fanno ricca preda, & quasi se gli diuorano. Per la qual cosa riferisce il Boccacio, che gli antichi dipingono le Sirene in verdi prati sparsi tutti di ossa di morti: come che volessero perciò mostrare la rouina, & la morte, che accompagna, ouero vien dietro a i lasciui pensieri. Et appresso di Virgilio gli scogli delle Sirene sono parimente descritti coperti quasi tutti di ossi di morti, & grandemente difficili, & molto pericolosi. Ma Xenofonte al contrario ha voluto, che le Sirene siano cosa piaceuole, & virtuosa; perciòche, narrando gli detti & fatti di Socrate, scriue, che elle cantauano solo le vere lodi di coloro, che erano degni, essaltando in quelle le virtù, & che perciò appresso di Homero cantarono di Vlisse, che egli era degno di essere lodato sommamente, perche era ornamento grande a tutti i Greci, & che questi erano gli incanti, & i soaui accenti, con li quali tirauano à sè gli huomini virtuosi; perche questi, vdendo lodare la virtù, che amano tanto cercano di accostarsi ogni volta più à quella, & facilmente, & volontieri vanno dietro al dolce canto del lodatore. Et per questo forse fu, che, come scriue Aristotele nelle cose marauigliose del mondo, in certe Isole, chiamate delle Sirene, poste frà i termini della Italia, elle hebbero tempij, & altari, & furono da quelle genti adorate con molta solennità, & erano i nomi loro Partenope, Leucosia, & Ligia. Hora ritorniamo à Nettuno, perche, se ben nel mare sono de gli altri mostri assai, & veri, & finti ancora da' Poeti, come finge Homero di Scilla, la quale staua in vno antro oscuro, & spauenteuole, & con terribile latrato faceua risonare il mare, & che haueua questo mostro dodici piedi, & sei colli, con altretanti capi, & ciascheduna bocca haueua tre ordini di denti, dalli quali pareua che stillasse del continuo mortifero veleno, & fuori della spelonca horrenda porgeua spesso in mare le spauenteuoli reste, guardando se naue
+
+Колонтитул: 208 Imagini de i Dei
+Кустод: naue
+Сигнатура:
+Маргиналии:
+- Plinio.
+- Virgilio.
+- Xenofonte.
+- Aristotele.
+- Scilla.
+
+## Скан 0251 · с. 209
+
+[ГРАВЮРА: крылатая женская фигура (Сцилла) с обнажённой грудью, поднимающая меч, в окружении морских чудовищ с драконьими головами и змеиными/рыбьими хвостами; в верхнем правом медальоне — две фигуры в море]
+
+*Imagine di Scilla scoglio Siciliano detto da Poeti atrocissimo mostro marino, & significa li pericoli à quali sono sottoposti li nauiganti; di fortune, scogli, secche, corsari, & mille graui, & mortali mali.*
+
+Колонтитул: De gli Antichi. 209
+Кустод:
+Сигнатура: O
+Маргиналии:
+
+## Скан 0252 · с. 210
+
+naue alcuna passasse di là, per fare miserabile preda de' nauiganti, come già fece de i compagni di Vlisse, che tanti ne rapì, & crudelmente se gli diuorò, quante erano le voraci bocche; & quando Virgilio fa, che Heleno mostra ad Enea il corso, che ha da tenere, per nauigare sicuro in Italia, gli fa dire, che si guardi da duo mostri crudeli, & spauenteuoli à chi passa lo stretto della Sicilia; de' quali l'vno è Cariddi, qual sorbe, & inghiottisce miserabilmente le naui, & le tira quasi nel profondo, & le regitta anco poi spinte da furiose onde che le leuano quasi fino al Cielo. Di cui le fauole contano, che fu vna femina rapacissima, che rubbò gli buoi di Hercole, onde fù fulminata da Gioue, & gittata nel mare diuentò lo scoglio che hà seruata dapoi sempre la rapace sua natura di prima. L'altro Scilla; che stà nascosta in vna horribile spelonca, & mette spesso fuori il capo, per vedere se naue passa da poterne fare preda crudele. Hà questo mostro aspetto di bella giouane fin sotto la cintura, oue sono poi le altre membra Lupi, & Cani giunti insieme con code di Delfini, che fanno risonare quiui per tutto di horribili latrati. Et diuentò tale la misera Scilla, che fu già bellissima ninfa, per la gelosia di Circe innamorata di Glauco, il quale amaua non lei ma Scilla; onde la tetribile incantatrice sparse suoi incantati succhi, oue la bella Ninfa andaua souente a lauarsi, & la fece diuentare quale l'hò disegnata, sì che non potendo la infelice Scilla sopportare lo spauento de gli animali, che le erano nati d'intorno, andò a gittarsi in mare, & restò quiui l'horrendo mostro, che io dissi secondo le fauole, le quali à questo modo hanno voluto con qualche vaghezza esprimere la natura di questi pericolosi scogli. Se ben dunque, come hò detto, sono nel mare de gli altri mostri ancora, à me non tocca però dire di tutti, ma di qualch'vno solamente, che da gli antichi fosse posto frà gli Dei, ouero aggiunto a quelli per compagnia, come furono le Ninfe marine, & i Tritoni, delli quali ho già detto, perche questi accompagnauano Nettuno. Et delle Neriede scriue Platone, che gliene erano cento, che sedeuano sù altretanti Delfini, quando disegna quel gran tempio, & miracoloso, il quale era appresso de gli Atlantici consecrato à questo Dio, che quiui staua sopra vn carro, tenendo con mano le briglie de i caualli alati, & era così grande, che toccaua con il capo il tetto dell'alto tempio. Vedeuasi anco buona parte della compagnia di Nettuno in vn suo tempio nel paese di Corintho, come recita Pausania, percioche egli con Anfitrite sua moglie staua sù vn carro, oue era anco Palemone fanciullo appoggiato da vn Delfino: erano tirati da quattro caualli, & haueuano a lato duo Tritoni. Nel mezo della base, che sosteneua il carro era intagliato il mare, & Venere, che ne vsciua fuori accompagnata da bellissime Nereide. Fù Palemone appresso de i Greci quello, che chiamarono i Latini Por-
+
+Колонтитул: 210 Imagini de i Dei
+Кустод: tuno,
+Сигнатура:
+Маргиналии:
+- Caridi.
+- Nereide.
+- Palemone.
+
+## Скан 0253 · с. 211
+
+[ГРАВЮРА: Нептун с короной и трезубцем рядом с Амфитритой, оба стоят на колеснице, запряжённой двумя морскими чудовищами (коне-драконами); вверху слева медальон с фигурой на лодке, справа медальон с всадником]
+
+*Imagini di Nettuno dio del mare, & di Anfitrice sua moglie, dinotanti la spuma del mare, & le tre qualità dell'acqua marina, de fiumi, & de laghi, salata, dolce, & neutrale, con il veloce & frequente moto delle acque.*
+
+Колонтитул: De gli Antichi. 211
+Кустод:
+Сигнатура: O 2
+Маргиналии:
+
+## Скан 0254 · с. 212
+
+tuno, Dio de i porti, alquale sacrificauano i nauiganti ritornati a saluamento in porto: perciò và con Nettuno Dio vniuersale del mare. Nel tempio del quale in Egitto fu anco adorato Canopo nocchiero già di Menelao, & riposto poi fra le stelle. La imagine di costui era quiui grossa, corta, & quasi tutta rotonda, con collo torto: & con breuissime gambe. La cagione di tale figura fu, che i Persiani andauano in volta col Dio Fuoco da loro principalmente adorato, & disfaceuano tutti gli altri Dei di qualunque materia che fossero, alli quali l'accostauano, per vedere chi di loro hauesse maggiore forza, & il Sacerdote di Canopo per non lasciare distruggere il suo Dio, tolse quella hidria, con la quale purgauano l'acqua del Nilo, & hauendo turato ben bene con cera tutti i fori, che vi erano d'intorno, la empiè d'acqua, & postoui sopra il capo di Canopo, la dipinse, & acconciò in modo, che pareua essere il simulacro di quel Dio, & così lo pose alla proua col Dio Fuoco, nella quale hauendo il fuoco disfatto la cera, gli fori si apersero, & ne vscì l'acqua così in abondanza, che estinse il fuoco, & perciò il Dio Canopo restò vincitore del Dio de i Persiani, come riferisce Suida, & fu poi sempre per questo fatto il suo simulacro nella forma, che io dissi, & come si può vedere in vna medaglia antica di Antonino Pio. Leggesi anco, che furono cari i Delfini più di tutti gli altri pesci à Nettuno: onde Higino scriue, che à tutte le sue statoe ne metteuano vno in mano, ouero sotto vn piede, come anco si vede a quella posta sù in cima la scala, che và nel palagio a Venetia al par di quella di Marte, forse perche secondo Eliano, così sono i Delfini Rè de i pesci, come sono i Lioni delle fere, & le Aquile de gli vccelli. Fà Martiano nelle nozze di Filologia, che vi sia pur Nettuno, & lo descriue nudo, tutto verdeggiante come l'acqua del mare, con vna corona bianca in capo, che rappresenta la spuma, la qual fanno le agitate onde marine. Et quando Pallade tessendo contende con Arachne appresso di Ouidio, & mette in tela la lite, che hebbe con Nettuno, della Città di Athene, dauanti a dodici Dei.
+
+*Fà, che Nettuno nel sembiante altero*
+*Col tridente percuote vn duro sasso,*
+*Onde vn destrier vien fuor superbo, e fiero.*
+
+Virgilio parimente nel principio della sua agricoltura dice, che Nettuno percotendo la terra col tridente ne fece vscire vn feroce Cauallo. Ilche vuole Seruio, che sia stato finto, per mostrare con questo animale il veloce, & frequente moto delle acque del mare. Onde furono detti i caualli essere etiandio sotto la guardia di Castore, & Polluce, perche le loro stelle sono velocissime. Altri hanno detto,
+
+Колонтитул: 212 Imagini de i Dei
+Кустод: detto,
+Сигнатура:
+Маргиналии:
+- Canopo.
+- Delfini cari à Nettuno.
+- Eliano.
+- Martiano.
+- Ouidio.
+- Virgilio.
+
+## Скан 0255 · с. 213
+
+detto, che fu dato a Nettuno il ritrouamento del cauallo, perche è animale, che vuole hauere luochi piani, aperti, & spatiosi, che sono benissimo rappresentati dal mare. Et il medesimo Seruio, oue Virgilio fa, che Turno mette fuori gli stendardi della guerra contra Enea, dice, che i Romani parimente ne metteuano fuori duo a certi tempi, & che l'vno era vermiglio della gente da piè, l'altro ceruleo di quella da Cauallo, perche questo è il colore del mare, & che il Dio del mare fu il ritrouatore del cauallo. Diodoro scriue, che Nettuno fu il primo, che domasse caualli, & insegnasse l'arte del caualcare, & che perciò fu cognominato Equestre, come scriue anco Pausania, & dice, che perciò Homero descriuendo il giuoco del correre de i caualli introduce Menelao, che fa giurar pel Nume di Nettuno, che non vi si vserà fraude alcuna. Et soggiunge, che il cognome di Equestre in questo Dio è piu notabile di tutti gli altri, perche è commune a tutte le nationi. Donde fu anco forse, che appresso de' Romani i giuochi Circensi, oue correuano i caualli, fossero celebrati in honore di Nettuno, & la festa si chiamaua Consuale, nel cui giorno cessauano i caualli dalle fatiche, & i muli si vedeuano inghirlandati il capo di varie sorti di fiori, che fu quella, come scriue Liuio, che fece celebrare Romulo, quando rapì le donne Sabine; perche secondo che riferisce Plutarco, egli haueua già trouato quiui sotto terra vn'altare, oue fu vn Dio chiamato Conso; ò perche fosse creduto dare consiglio altrui, ouero perche bisogna, che'l consiglio de i grandi affari sia secreto, & occulto; & perciò non si apriua mai quello altare, se non alla festa, che io dissi, de i giuochi Circensi, il che fece credere, che il Dio Conso fosse Nettuno, del quale bastarà di hauere fatto questo poco schizzo, perche non ne ho trouato ancora simulacro alcuno. Ma, che i caualli appartenessero à Nettuno, lo mostra ancora quello, che scriue Pausania, che in Grecia in certo luoco, oue correuano i caualli, era dall'vna delle bande del corso vno altare tutto rotondo, oue adorauano Tarasippo, così detto dal mettere paura a i caualli; perche questi ariuati à quello altare subito si spauentauano così forte che faceuano le maggiori stranezze del mondo, con grauissimo danno di chi gli guidaua. Da che ne nacque, che andauano sempre, prima che si mettessero al corso a detto altare, & pregauano quel Dio con certe cerimonie, e voti che volesse essere a loro & à loro caualli benigno, & piaceuole. Seguita poi Pausania, e recita molte opinioni di costui, che ei fosse: ma di tutte si rissolue a credere, che la piu vera sia, che quel Tarasippo fosse cognome di Nettuno Equestre, perche la origine prima de i Caualli venne da lui; dal quale si legge anco, che Giunone hebbe duo caualli in dono, donati poscia da lei parimente à Castore, & Polluce. Et à tutto ciò accorda, che Ope mostrasse à Saturno di hauere fatto vn cauallino, quando
+
+Колонтитул: De gli Antichi. 213
+Кустод: partorì
+Сигнатура: O 3
+Маргиналии:
+- Pausania.
+- Conso Dio.
+
+## Скан 0256 · с. 214
+
+[ГРАВЮРА: получеловек-полукозёл (Тарасиппо) с копьём, стоящий рядом с повозкой/плугом; вверху медальон с пылающей чашей на подставке, справа медальон с женской фигурой в сосуде/урне]
+
+*Imagine di Nettuno dio del mare appo Filostrato, o sia imagine di Tarasippo spauentatore de' Caualli tolto per Nettuno. & questa dinota per il mare condursi tutte le cose necessarie al vitto, & ogni sorte di mercantia all'vso humano destinata.*
+
+Колонтитул: 214 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0257 · с. 215
+
+partorì Nettuno; il che Festo mette frà le ragioni, che ei rende, perche Nettuno fosse detto Equestre: & dice, che per questo nella Illiria di noue in noue anni gittauano quattro caualli in mare à Nettuno. Et hanno ancora voluto alcuni, che il cauallo si confaccia à costui, perche così ci porta il mare da ogni parte le cose necessarie, come fanno i caualli. Onde Filostrato dipingendo due Isolette, le quali hauenano vna piazza sola tra loro commune, oue l'vna portaua quello, che coglieua da' coltinati campi, l'altra quello, che andaua depredando per il mare, dice che quiui fu drizzata vna statoa di Nettuno con l'aratro, & col carro, come di coltiuatore di terra; volendo mostrare chi la fece, che da lui riconosceuano le genti di quelle Isole etiandio ciò che dalla terra viene; ma perche non paresse poi, che terrestre lo hauesse fatto solamente, aggiunse all'aratro vna prora di naue, sì che pareua, che Nettuno nauigando arasse la terra. Et appresso de gli Elei in Grecia fu certa statoa, come scriue Pausania di giouane senza barba, che si teneua l'vn piede sopra l'altro, e staua con ambe le mani appoggiato ad vna hasta, questa si vestiua poi à certi tempi hora con veste di lino, & hora di lana; Et fu ella creduta essere di Nettuno, che portato quiui di certo altro luoco della Grecia, fu poi hauuto in grandissima riuerenza da tutti del paese, benche non Nettuno, ma Satrape fosse nominato. Veggonsi ancora due medaglie antiche, l'vna di Vespasiano, & l'altra di Adriano, nelle quali è la imagine di Nettuno fatta à guisa di huomo, che stà in piè tutto nudo, se non che dal sinistro homero gli pende vn panno, & hà nella destra mano vna sferza di tre correggie, tenendo il tridente in alto con la sinistra. Et in certa altra medaglia pure antica, Nettuno è ben fatto nudo, & dritto in piè, ma che hà la sinistra alta appoggiata al tridente, porge vn Delfino con la destra, e tiene l'vno de i piedi sopra vna prora di naue. Oltre di ciò voleuano gli antichi, che delle Città le porte fossero date à Giunone, le rocche, & le fortezze à Minerua, & à Nettuno le mura, & i fondamenti, come nota Seruio, oue Virgilio fà che Venere mostra ad Enea la rouina di Troia non essere reparabile, perche questi Dei vi si affaticauano à metterla in terra, rouinando ciascheduno quello, che era suo & così gli dice.
+
+*Quì, doue vedi, che gli alti edifici*
+*Rotti, e disfatti in terra vanno, e'l fumo*
+*Con polue misto ondeggia fin'al Cielo.*
+*Nettun col gran tridente scuote, e abbatte*
+*Le mura, e da' profondi fondamenti*
+*Le suelle, e le Città tutta roina.*
+
+Колонтитул: De gli Antichi. 215
+Кустод: Et
+Сигнатура: O 4
+Маргиналии:
+- Filostrato.
+- Fondamenti di Nettuno.
+- Virgilio.
+
+## Скан 0258 · с. 216
+
+Et per questo egli fu chiamato da Greci Ennosigeo, che viene à dire concussore della terra, volendo che lo spauenteuole Terremoto venisse da lui, & fosse fatto dal mouimento delle acque. Per la quale cosa quelli di Tessaglia dissero, che Nettuno haueua dato esito all'acque, che allagauano prima tutto quel paese circondato da alti monti, perche scuotendo la terra aperse frà quelli vna assai larga via al fiume Peneo, come recita Herodoto, & dice, che à lui pare, che la separatione di quei monti non sia venuta da altro, che dal terremoto, & che diranno sempre, che l'habbi fatta Nettuno tutti quelli, li quali vogliono; che da lui venghi lo scuotimento della terra, & le rouine, che ne seguono. Questo hò detto, non perche serua molto alla imagine di Nettuno, ma perche mostra; che egli serue assai à disegnare il terremoto. Da costui non fu molto dissimile la imagine dell'Oceano: qual dissero gli antichi padre di tutti i Dei, & intesero per lui oltre al mare di fuori, che circonda tutta la terra, l'vniuersal potere anco dell'acqua; la qual voleua Thalete Milesio, che fosse stata principio di tutte le cose; da che presero le fauole occasione di chiamare l'Oceano padre de' Dei; & gli diedero perciò moglie, che fu Thetide Dea parimente, la quale partorì vn numero grande di Dei marini, di Fiumi, di Fonti, & di Ninfe. Era vecchia, tutta canuta, & bianca, onde i Poeti la chiamano souente madre, & veneranda, & di tal aspetto si può mettere col marito, che fu come riferisce il Boccaccio, dipinto sopra vn carro tirato da Balene per l'ampio mare, & gli andauano i Tritoni dauanti con le buccine in mano, i quali hauenano la parte di sopra humana, & quella di sotto di Delfino, o di Balena, come vuole Fornuto, & d'intorno l'accompagnauano molte Ninfe, & lo seguitaua poi vn numeroso gregge di bestie marine sotto la custodia di Proteo, che ne era il pastore, & fu parimente vno de i Dei del mare che prediceua souente altrui le cose à venire, ma non lo faceua però se non sforzato, & cercaua anco d'ingannare chi voleua fargli forza, mutandosi in diuerse forme per vscirgli di mano; perche bisognaua legarlo, & tenerlo stretto, fin che fosse ritornato alla sua prima figura, che allhora poi rispondeua di ciò che era dimandato. Di costui scriue Diodoro, che egli fu già eletto Rè in Egitto, come il piu sauio, che si trouasse allhora in quel paese, & perito in tutte le arti, con le quali ei si cangiaua à suo piacere in diuerse forme, che veniua forse à dire appresso di quelle genti che egli sapeua con la molta sua prudenza accomodarsi à tutte le cose. Et i Greci vollero, che ciò fosse detto di Proteo per la vsanza, che haueuano i Rè in Egitto di portare, quando si mostrauano in publico; sù'l capo come per insegna di Rè, quando il dinanzi di vn Lione, quando di vn toro, ò di serpente, & alle volte vno arbore, ò qualche pianta, & altre vna fiamma di fuoco, come che in quel modo fossero piu risguar-
+
+Колонтитул: 216 Imagini de i Dei
+Кустод: risguar-
+Сигнатура:
+Маргиналии:
+- Ennosigeo.
+- Terremoto dato a Nettuno.
+- Oceano.
+- Thetide.
+- Proteo.
+- Diodoro.
+- Proteo perche in diuerse forme.
+
+## Скан 0259 · с. 217
+
+[ГРАВЮРА: две плывущие в волнах женские фигуры с рыбьими хвостами (морские богини)]
+
+*Imagini di Eurinome, & di Decreto dee marine l'vna figliuola di Proteo l'altra madre di Semirami, significanti la proprietà dell'acque, & gli effetti, & accidenti che se veggono di quelle.*
+
+Колонтитул: De gli Antichi. 217
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0260 · с. 218
+
+risguardeuoli. Finsero dunque i Greci, che Proteo così si cangiasse in diuerse forme, come essi cangiauano la insegna reale. Leggesi ancora, che egli fu Signore in Carpato Isola, dalla quale è cognominato il mare Carpatio, di verso l'Egitto: & perche questo mare hà gran numero di Foche, chiamate altrimente Vitelli marini, perche hanno le parti dinanzi con cuoio, & pelo di vitello, & di altre simili bestie, fu finto che Proteo fosse, come dissi, pastore, & custode de i greggi dell'Oceano. Del quale fu anco detta figliuola Eurinome; perche Homero fà, che ella accompagna Tetide, quando và a trouare Volcano, se bene qualcuno hà voluto crederla piu tosto Diana, come dice Pausania; che non si confà però punto al suo simulacro, quale era in forma di femina il di sopra, & il di sotto di pesce legato attrauerso con catene d'oro. Questa fu certo Nume adorato nell'Arcadia di Figalesi in vn tempio a loro santissimo, qual non apriuano, fuor che vn certo dì dell'anno, & all'hora celebrauano solenne festa, & faceuano molti sacrificij in publico, & in priuato. E mi riduce a mente certa altra Dea fauolosa, come la chiama Plinio, nomata Decreto da gli antichi, che fu parimente tutta pesce, dal capo in fuori, che era di donna. Di costei scriue Diodoro, che ella fu prima Ninfa, & che fatta grauida senza sapersi mai da cui, partorì Semirami con grauissimo sdegno di hauere perduta la virginità, per il che gittatasi in certo laco della Siria, fu poi come Dea adorata nella forma, che io dissi, da quelle genti, le quali non hauerebbono poscia mangiato piu per cosa del mondo pesce alcuno di quel laco; perche stimarono, che tutti fossero consecrati a lei. Ma ritornando all'Oceano, per dichiarare il resto della sua imagine; il carro mostra, che egli và intorno alla terra, la rotondità della quale è mostrata per le ruote, & lo tirano le Balene, perche queste così scorrono tutto il mare, come le acque del mare circondano tutta la terra, & sparseui per dentro ancora, ne occupano la maggior parte. Le Ninfe poi vogliono significare la proprietà delle acque, & gli diuersi accidenti, che spesso si veggono di quelle: le quali da gli antichi furono intese non solamente sotto il nome dell'Oceano, di Nettuno, di Tetide, di Dorida, di Amphitrite, & di altri Dei del mare, ma di Acheloo ancora. Benche vogliono alcuni, che quelli significassero la natura delle acque salate, & per costui si intendesse delle dolci, come sono quelle de i Fiumi, li quali da gli antichi furono parimente adorati, & fatti in forma humana. Ma prima che io dica di loro, disegnerò i venti, perche hauendo detto del mare, oue essi mostrano meglio forse, che in altro luoco le forze loro, parmi che sia ragioneuole mettergli quì. Et benche nè anco sarebbono stati male con Giunone dimostratrice dell'aria, perche vogliono i naturali, che non sia altro il vento, che aria mossa con impeto; onde Eolo Rè de i venti così rispose à Giuno-
+
+Колонтитул: 218 Imagini de i Dei
+Кустод: ne
+Сигнатура:
+Маргиналии:
+- Pastori di greggi marini.
+- Decreto.
+- Diodoro.
+- Venti.
+
+## Скан 0261 · с. 219
+
+[ГРАВЮРА: группа из четырёх крылатых фигур ветров вверху (с солнцем в центре) и две пары обнимающихся фигур внизу (ветры с их супругами)]
+
+*Imagini di Borea, Austro, Euro, & Zefiro quattro venti principali, & di Orithia & Flora l'vna moglie di Borea, l'altra di Zefiro, che dimostrano gli effetti de detti venti mentre soffiano, & dominano nelle stagioni & paesi sottoposti al lor soffiare.*
+
+Колонтитул: De gli Antichi. 219
+Кустод:
+Сигнатура:
+Маргиналии:
