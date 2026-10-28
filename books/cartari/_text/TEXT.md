@@ -7887,3 +7887,183 @@ La spositione di questa imagine è, che la natura de gli huomini ingannatori, & 
 - Dante.
 - Natura de fraudolente.
 - Pino per la Fraude.
+
+## Скан 0430 · с. 388
+
+[ГРАВЮРА — полностраничная]
+Imagine della Fraude secondo Dante, qual dinota che li fraudolenti & ingannatori sotto il manto & volto de piaceuoli, modesti, & amoreuoli cercano di peruenire à loro rei disegni, essendo nell'intrinseco auuelenati d'ogni vitio, fraude, & inganno.
+
+Колонтитул: 388 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0431 · с. 389
+
+gnare la Fraude: percioche questo arbore, & per l'altezza, e drittura sua, & perche sempre è verde, e bello, e vago a vedere, ma dannoso poi souente a chi ò riposa all'ombra sua, ò senza altro riguardo vi passa sotto, perche cadendo i frutti suoi già maturi, e perciò durissimi, da gli alti rami, se gli danno per sorte su'l capo, così seramente lo percuotono, che l'vccidono ò gli fanno sentire almeno grauissimo dolore, se pur in altra parte del corpo lo vengono a ferire. Ma ritorniamo alla imagine della Fortuna, dalla quale mi suiò Nemesi, & io poi passando di vna in altra cosa non mi sono ricordato di ritornare a lei prima di hora, che più non mi resta che dire della dipintura di Apelle: il quale dipingendo anco la Fortuna la pose à sedere, & dimandato perche ciò hauesse fatto, rispose ch'ei non l'haueua mai veduta stare, & appresso de i Latini stare significa non solamente esser fermo, ma in piedi ancora, e quindi ne fece egli motto, perche la fortuna è detta volubile, & instabile. Il che volendo mostrare gli antichi nella sua imagine, la fecero, come scriue Eusebio, sedere sopra vna gran palla, e le aggiunsero l'ali, che velocissimamente la portano mò da questo, mò da quello: onde Horatio così canta di lei tirando i versi suoi in nostra lingua.
+
+*L'instabile Fortuna*
+*A vn crudel gioco attende,*
+*E scherza sempre à danno de' mortali,*
+*Senza regola alcuna*
+*Muta le cose, e rende*
+*Honor à questo, à quel dà graui mali,*
+*E poscia quelli, quali*
+*Eran pel suo fauore,*
+*Prima lieti, e contenti,*
+*Fà miseri, e scontenti,*
+*E mutandosi quasi à tutte l'hore,*
+*A l'Vn dà, à l'altro toglie,*
+*Cui sian benigne, ò auerse le sue Voglie.*
+*Però ringratio lei*
+*Quando per me si ferma,*
+*Et i suoi beni godo volontieri.*
+*Ma non sì, che de' miei*
+*Non mi ricordi e ferma*
+*Speme non v'habbino anco i miei pensieri.*
+*Dunque s'ella i leggieri*
+*Vanni spiegando vola,*
+*Ciò ch'ella vnqua mi diede*
+*Rifiuto, e se ne riede*
+
+Колонтитул: De gli Antichi. 389
+Кустод: l'animo
+Сигнатура: Bb 3
+Маргиналии:
+- Horatio.
+
+## Скан 0432 · с. 390
+
+[ГРАВЮРА — полностраничная]
+Hieroglifico denotante la buona Fortuna quasi sempre andare con l'Eloquenza, & con la Dottrina, & l'imagine dell'Occasione, & opportunità da Greci detta il Dio Chero qual chi non prende quando si appresenta in vano poi si cerca e si pentisce.
+
+Колонтитул: 390 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0433 · с. 391
+
+*L'animo mio sicuro à quella sola*
+*Virtù, che lo contenta,*
+*E ricchezza maggior hauer non tenta.*
+
+Cebete in quella tauola, nella quale dipinse tutta la vita humana, fà la Fortuna vna donna cieca, & pazza, che stà con i piedi sopra vn rotondo sasso. Et Artemidoro l'ha posta alle volte à sedere sopra vna distesa colonna, & la fa talhora bella, & ornata, e talhora sozza, e mal vestita, & che tenga la mano a vn temone di naue. Et in questa guisa la vediamo spesso sù le medaglie antiche, & ne gli antichi marmi. Galeno parimente, quando essorta i giouani allo studio delle lettere, così dice di costei. Volendoci gli antichi porre dauanti à gli occhi con pitture, & con statoe le maluagità della Fortuna, non bastò loro farla in forma di femina, che questo ben doueua esser assai per mostrare e ch'ella fosse pazza, e maluagia, & che non istesse in vn proposito mai; ma le aggiunsero vna rotonda palla sotto i piedi facendola senza occhi; & dandole poi vn temone in mano, come che alla cieca, & senza prouidenza alcuna gouerni le cose del mondo. Disegnano ancora molto bene la Fortuna, & espongono parimente il suo disegno alcuni versi di Pacuuio, che si leggono ne i libri della Retorica di Cicerone, & in volgare così suonano.
+
+*Pazza, cieca, e bestiale è la Fortuna,*
+*Secondo che i Filosofi hanno detto,*
+*Quai sopra vn sasso, che s'aggira, e volue*
+*L'hanno posta, però douunque questo*
+*Si piega, ella và presta, e non sà doue,*
+*Nè vede; onde a ragion fu detta cieca.*
+*E perche troppo spesso ella si muta.*
+*L'hanno chiamata pazza, e bestiale*
+*E stata detta; perche non conosce*
+*Qual sia degno, qual nò, qual buon, qual rio.*
+
+Oltre di ciò fu fatto alle volte il Caduceo con vn cappello in cima, che haueua due piccole ali, vna per lato, & con due corni di douitia, quali abbracciauano esso Caduceo, & significaua questa pitura secondo alcuni, che la buona Fortuna và quasi sempre insieme con la Eloquenza, & con la Dottrina; & in somma fu creduta questa essere di tanta forza, che non vi mancò chi dicesse, che valesse poco la virtù senza lei: & che se bene quella si scorge ad alte imprese, & a glorioso nome, non mai però, ò malageuolmente vi arriuaremo, se questa non ci accompagna, mettendo pure, come credeuano gli antichi, che la Fortuna sia qualche Nume, il quale nelle cose mondane possa
+
+Колонтитул: De gli Antichi. 391
+Кустод: assai.
+Сигнатура: Bb 4
+Маргиналии:
+- Cebete.
+- Artemidoro.
+- Galeno.
+- Pacuuio.
+- Buona Fortuna.
+
+## Скан 0434 · с. 392
+
+[ГРАВЮРА — полностраничная]
+Imagine della Fortuna appò gli Scithi significante la sua velocità & instabilità nelle cose mondane, & che bisogna secondare l'Occasione, perche velocemente se ne vola & in vano poi si segue, & in vano si pente delle occasioni perdute & tralasciate.
+
+Колонтитул: 392 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0435 · с. 393
+
+assai. Et che noi medesimi siamo a noi stessi la buona fortuna, ò la ria, secondo che ò bene, ò male ci sappiamo gouernare, & appigliarci a ciò, che di buono ci si rappresenta, ouero lasciarlo. Onde Seneca scriue a Lucillo suo, che s'inganano quelli, li quali giudicano, che bene ò male alcuno ci venga dalla Fortuna; perche se bene ella dà materia di quello, e di questo, & alcuni principij alle cose, che ponno dapoi riuscire a bene. ò male nondimeno l'animo nostro può molto più di lei, e tira le cose sue come vuole, di modo che egli stesso a se medesimo è causa ò di felice, ò di misera vita. E perciò, quando al male ci appigliamo, di tutte le disauenture, che ci intrauengono poi, habbiamo da dolerci della dapochezza nostra, & del nostro poco vedere, non della Fortuna: come mostrarono pur'anco gli antichi nella imagine della Occasione, la quale fanno alcuni essere vna medesima con la Fortuna, ma se non sono vna medesima cosa queste due, ben sono tra loro molto simili, come dal ritratto di questa si potrà vedere, la quale fu fatta Dea da gli antichi, forse accioche dalla imagine sua riuerita, & spesso guardata imparasse ogn'vno di pigliare le cose in tempo, perche quelle con questo si mutano, & vanno via, lasciando poi chi non le seppe torre pieno di mestitia, & di pentimento. Fu adunque la imagine della Occasione così fatta: staua vna donna nuda con i piedi sopra vna ruota, ouero sù vna rotonda palla, & haueua i lunghi capelli tutti riuolti sopra la fronte, sì che ne restaua la nuca scoperta, e come pelata, & a' piedi haueua l'ali, come si dipinge Mercurio, & era con lei vna altra donna tutta addolorata, mesta nello aspetto, & piena di pentimento. Vn simulacro tale fu già fatto da Phidia, & se ne legge vno epigramma di Asonio, nel quale i descriue la Occasione così come hò detto, e mette con lei la Penitenza per compagna. Imperoche chi lascia passar la buona occasione, che si appresenta in qual si voglia cosa, altro non hà poi che pentirsi, & lagnarsi di sè medesimo. Questa che chiamarono i Latini Occasione, & opportunità & riuerirono come Dea, fu da' Greci detta Tempo opportuno, & perciò da loro fatto Dio, non Dea, & era il suo nome Chero, che questa voce appresso de i Greci significa opportunità di tempo, come scriue Pausania ancora, oue mette, che a costei fu consecrato vn'altare appresso de gli Elei, & che certo Poeta antico in vn'hinno fatto per lui lo chiama il più giouine di tutti i figliuoli di Saturno. Fù dunque il Dio Chero de i Greci, il medesimo, che era la Occasione de i Latini; del quale Posidippo fece vn'epigrama descriuendo la sua imagine; onde Ausonio tolse forse l'argomento del suo, quando dipinse la Occasione, perche sono in tutto simili, se non che Posidippo mette di più vn rasoio in mano al suo, & Ausonio alla sua dà la Penitenza di più per compagna. Callistrato parimente nobile scultore fece il Dio Chero in forma di gioui-
+
+Колонтитул: De gli Antichi. 393
+Кустод: ne
+Сигнатура:
+Маргиналии:
+- Seneca.
+- Ausonio.
+- Occasione.
+- Chero Dio.
+- Posidoppo, Ausonio.
+
+## Скан 0436 · с. 394
+
+ne nella sua più fiorita età bello, & vago con i crini al vento sparsi, & in tutto il resto come lo descriue apunto Posidoppo. Bisogna dunque stare con gli occhi aperti, e con le mani pronte per dare di piglio alle cose, quando la Occasione ce le mostra, perche ella tosto gira, e volta la nuca pelata poi a chi non seppe cacciare le mani ne i lunghi crini, che hà sopra la fronte, & via se ne camina con velocissimi piedi. Mostrarono quasi il medesimo gli Scithi ancora nella imagine della loro Fortuna, imperoche, come riferisce Quinto Curtio, questi la fecero bene senza piedi, ma le posero poi le ali intorno alle mani, perche ella dà, & porge con queste i beni, ma con tanta velocità, che appena altri hà stesa la mano per pigliarli, che ella già è volata via. Oltre di ciò benche talhora giunga la Fortuna con noi mano a mano, non però mai ci lascia pigliar le penne, ch'ella vi hà d'intorno; perche vuole potersene riuolare a suo piacere, e riuolarsene senza fare tropo indugio, perche non sà fermarsi, & poco durano le felicità, che vengono da lei. Onde fu, che alcuni già come scriue Alessandro Napolitano, la fecero di vetro; perche come questo subito si spezza ad ogni lieue intoppo, così tosto vanno a terra i fauori della Fortuna. Ma non perciò lasciarono di crederle gli antichi, anzi mostrarono di fidarsi tanto in lei, che la vollero sempre hauere con loro, massimamente i Principi, e gli Imperadori; perche questi nella loro piu secreta stanza teneuano sempre vn dorato simulacro della Fortuna, & come cosa sacra l'adorauano, & voleuano ancora, che fosse con loro ogni volta, che vsciuano in publico. Onde Spartiano scriue, che Seuero Imperadore giunto allo estremo della vita, volle fare, che vi fossero due di queste sacrate statoe della Fortuna, acciòche ciascuno de i figliuoli, ch'erano due, ne hauesse vna che l'accompagnasse, e stesse con lui sempre: ma non vi potendo attendere, perche troppo l'agrauaua il male, comandò morendo, che a vicenda, fosse posto il sacrato simulacro della Fortuna nella secreta stanza a' figliuoli, l'vn di all'vno, & l'altro all'altro, quasi fosse questo segno del partito Imperio tra loro egualmente. Et Antonino Pio Imperadore, secondo che dice il medesimo Spartiano, sentendosi vicino al morire, comandò che la dorata statoa della Fortuna fosse portata nella stanza di Marco Antonino, che fu certissimo segno dello Imperio trasferito in lui, come che l'Imperadore, il quale moriua, senza dire altro lo disegnasse in questo modo suo successore. Alcuni, & benissimo hanno dipinta la Fortuna sopra vn grande Arbore con vn lungo bastone in mano, co'l quale và battendo giù i frutti di quello, che sono scettri di Rè, mitre, borse, naui, aratri, & altre cose, che dinotano le dignità, & tutte le arti humane. Di sotto poi si vede a stare gran moltitudine di persone, & d'ogni sorte grado, quali aspettano di coglier il frutto che loro vien sopra. & si vede che ad
+
+Колонтитул: Imagini de i Dei 394
+Кустод: alcuno
+Сигнатура:
+Маргиналии:
+- Fortuna de gli Scithi.
+- Fortuna di vetro.
+- Simulacro della Fortuna con gl'Imperadori. Spartiano.
+- Antonino Pio Imperadore.
+
+## Скан 0437 · с. 395
+
+[ГРАВЮРА — полностраничная]
+Imagine della Fortuna in Egira, significante nell'Amore volerui buona fortuna, & ricchezze, altrimenti senza non si ottenere lo bramato desiderio. ma io credo, che si in questa come in tutte le attioni bisogna hauer delle virtù, che quelle fanno la buona Fortuna, perche non ci è Fortuna alcuna, ma è nome imaginato.
+
+Колонтитул: De gli Antichi. 395
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0438 · с. 396
+
+alcuno di stirpe regale toccando vn'aratro gli bisogna di Principe, che era già, diuenire pouero agricoltore, oue ad vn contadino cadendo sopra vn scettro, ò alcuna borsa diuenta egli Prencipe, & ricco: sì che bisogna acconciarsi in buon loco, & che prosperando la Fortuna venghi a toccare qualche buona ventura. Scriue Pausania, che la Fortuna in Grecia appresso de gli Elei hebbe vn tempio, oue era vn suo simulacro di legno molto grande, e tutto dorato, fuor che le mani, & i piedi, quali erano di marmo. Et dice anco poi di alcune altre statoe della Fortuna fatte dà Greci in diuersi luochi, ma non le riferisce, perche niente hanno di notabile più di quello, che già è stato detto. Dirò bene di quella, che fu in Egira città dell'Achaia, benche ne dicessi pur'anche già nella imagine di Amore: la quale era fatta in cotal guisa. Dall'vn lato haueua il corno della copia, & lo teneua con mano, dall'altro il Dio Cupido, & significaua questo come lo interpreta Pausania, che poco vale a gl'innamorati essere belli, vaghi, e gentili, quando non habbiano la Fortuna con loro, che pare voler dire, che bisogna in Amore non meno, che nell'altre cose hauere ventura, & buona sorte; e pur troppo lo vuole dire; ma questo vi si hà da aggiungere ancora, che bisogna, che la Fortuna seco porti il corno di douitia, perche senza sarà di poco giouamento ad Amore, mercè dello auaro animo feminile, che nè beltà risguarda, nè à virtù, nè à gentilezza, ma solo si piega a' pretiosi doni. Onde si può dire sicuramente, che sarà bene auenturoso, & felice sempre in amore qualunque habbia oro, argento, & pretiose gemme, doni tutti di Fortuna, & mostrati per il corno della copia. Perdonatemi donne, che il zelo del vostro honore mi sforza hora à ragionare con voi in questo modo, piu assai del danno, che per gli auari vostri desiderij hò sentito già più volte. Non vi vergognate voi, & à quelle dico solamente, che lo fanno, di dare voi medesime à prezzo non altrimente, che come si vendono le bestie; ancor che come queste restate in libero potere di chi vi compra, ma ritornate pure ancora sì, che dare vi potete quando ad vno, e quando ad altro, secondo che maggior prezzo vi viene offerto: ma ben rimane la honestà vostra, & il vostro buon nome in preda sempre alla infamia, al biasimo, & alla vergogna. Et se mi diceste forse, che importa più, che noi siamo impudiche per prezzo; che per amore solamente? ad ogni modo così per questo, come per quello perdiamo la honestà nostra, la quale voi huomini hauete ristrerta trà breuissimi termini, in modo che se tra questi vorremo stare, non sarà per noi amore: & come volete dunque poi, che per amore ci mettiamo a fare gli piaceri vostri? Vi risponderei, che alcune opere sono le quali benche in sè forse non siamo molto buone, ridotte però al suo fine pel mezzo della virtù, contentano chi le fà, & sono anco per lo piu lodate, & all'incontro chi vitiosamente opera, nè contenta sè stesso
+
+Колонтитул: Imagini de i Dei 396
+Кустод: stando
+Сигнатура:
+Маргиналии:
+- Pausania.
+- Fortuna giouevole ad Amore.
+- Alle Donne.
+- Ammonitione.
+- Contra le Donne auare
+
+## Скан 0439 · с. 397
+
+stando occulto, nè, quando si manifesta, troua alcuno, che lo laudi. L'Amore è virtù, & è vitio l'Auaritia. Adunque quello, che fare per amore, oltre che a voi stesse non turba l'animo consapeuole di hauere operato virtuosamente, è lodato ancora da qualunque lo sà. Ma quello, a che l'auaro desiderio vi tira, vi stimula sempre, non vi dà riposo mai, onde sempre sentite vn cotale rimordimento, che vi dice; a, che pure facesti male. Et quando da altri è risaputo poi, di gentili, & honorate diuentate vili, & infami, e souente si cangia il nome di gentil donna honesta in impudica meretrice, ilche non sia mai di chi per amore compiaccia a chi l'ama; perche sole queste, che fanno ciò per mercede sono dimandate meretrici. Ne sono i termini posti alla honestà vostra così ristretti, come pensano forse alcune di voi, che vi sia vietato l'amore, anzi vi si dà come vostro proprio, essendo che da voi sole senza l'huomo poco valete: & come vi accostarete voi all'huomo con piacere di amendui, se non vi si intrapone amore, che vi leghi insieme? Adunque non vi si toglie Amore: ma sapete voi che vi si toglie? il fare ingiuria ad Amore, come fanno molte, venendo a mercato di quello, che per lui solo dourebbono fare. Sì che non per Amore, ne perche, vinte dalla fragilità humana non possano resistere alle carnali passioni, cose che molto ben cuoprono, & iscusano gli nostri errori, si dano nelle braccia a cui mostrano di amare, ma perche troppo sono auide, e rapaci, & par loro dandosi a molti, per hauere da molti, di potere meglio empire le loro auare, & ingorde voglie. Et perciò di loro può facilmente godere ogn'vno, il quale habbia che dare. Per questo dunque Amore stà congiunto alla Fortuna, che tiene il corno della copia, e mostra pur anche la loro poca fermezza, perche non meno sono mutabili in Amore le auare femine, che sia la Fortuna: alla imagine della quale ritorno, & lascio voi donne, che viuete ne' vostri vergognosi errori; & a quelle, che sono lontane, prometto di dire vn dì tutti i beni del mondo di loro, & in modo tale, che forse anco se ne faranno qualche conto. Adunque, oltre alli disegni fatti sin qui della Fortuna, trouo, che alcuni l'hanno dipinta in mare, che fa vela tra le turbate onde; alcuni l'hanno posta sù l'acuta cima d'vn'alto sasso, ouero di vn monte, sì che ogni poco di vento, che spiri la fa voltare. Et credo, che queste siano state dipinture moderne, perche non ne trò fatta mentione da gli antichi come è stata questa parimente, che riferisce il Giraldi scriuendo de i Gentili, oue così dice: Hanno alcuni a' tempi nostri con assai bella inuentione fatto la Fortuna a cauallo e che velocissimamete se ne corre via, & il Fato ouero Destino, come si pare dire, la seguita tenendo l'arco con la saetta di arciere per ferirla. Mostra questa dipintura la velocità della Fortuna, come che ella non riposi mai, ma corra via sempre scacciata dal Fato, perche oue è il Destino, non
+
+Колонтитул: De gli Antichi. 397
+Кустод: vi ha
+Сигнатура:
+Маргиналии:
+- Gregorio Giraldi.
+
+## Скан 0440 · с. 398
+
+[ГРАВЮРА — полностраничная]
+Imagine della Fortuna à cauallo che velocemente corre, dal Fato & dal Destino seguitata, dinotante la velocità di quella, & doue questi sono, quella non hauer possa ò fermezza alcuna.
+
+Колонтитул: 398 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0441 · с. 399
+
+vi ha luoco la Fortuna. Questa fa Apuleio essere vna medesima con Iside, quando finge, che à sè di Asino ritornato huomo così dice il Sacerdote della Dea: Hora tu sei sotto la custodia della Fortuna non di quella, che è cieca, ma di quella che vede, & dà luce ancora a gli altri Dei con il suo splendore. E potiamo dire, ch'egli perciò volesse intendere della buona Fortuna, sotto il nome della quale intese Macrobio la Luna mostrata per Iside, come già è stato detto nella sua imagine: perche questa può assai ne i corpi di quà giù, li quali sono soggetti à varij casi di Fortuna, e vannosi mutando del continuo. Metendo dunque la Luna, & la Fortuna insieme, come che siano vna medesima Dea, dalla quale venga il nascimento, & la morte delle cose, potremo dire, che Pausania niente si ingannasse, quando disse, che facilmente gli farebbe creder Pindaro, che la Fortuna fosse vna delle Parche, & che potesse più assai delle sorelle. Benche mi pare, che le Parche si accordino molto più con il Fato, ò Destino, che vogliamo dirlo, che con la Fortuna, perche questo è fisso, e certo, sì come elle sono immutabili parimente, mentre che filando la vita de i mortali, à ciascheduno assegnano il determinato tempo del morire. Ma questo, che alle imagini? niente. Lasciamolo dunque, & dichiamo del buono Euento, cioè prospero successo, & felice fine delle imprese, perche il simulacro di costui appresso de' Romani fu nel Campidoglio con quello della buona Fortuna, come scriue Plinio, in forma di Giouane allegro, & ben vestito, che teneua nella destra vna tazza, e nella sinistra vna spica, & vn papauero. Et con la Fortuna và anco il Fauore, che fu adorato parimente da gli antichi, perche pare, che da lei venga per lo più, benche nasce egli dalla bellezza ancora molte volte, e souente dalla virtù, & in soma da tutte quelle cose, che ci fanno grati altrui, & ci acquistano fauore, il quale ci fa spesso insuperbire; perche quanto più succedono a gli huomini le cose felicemente, tanto più si inalzano, & poggiando con l'ali del fauore humano, montano sopra gli altri, fin tanto che la ruota giri, onde cadendo trabocchevolmente sono sprezzati poi non meno, che fossero riueriti prima. Però guardisi ogn'vno di fidarsi troppo in questo frale, & lieue Fauore, perche tosto passa, come la sua imagine ci dimostra, la quale era di giouine con le ali: ò sia perche per le cose prospere, & liete si leua alto tanto, che non degna più di guardare al basso, onde perciò fu anco dipinto cieco, perche pare, che gli huomini non guardino più a persona ò ben poco poscia, che a grandi honori sono inalzati: ouero perche poco si ferma con noi, ma tosto passa via; & perciò staua co' piedi sopra vna ruota, conciosia ch'egli imiti la Fortuna; & sì come questa gira, così ei gira parimente, e và sempre ouunque ella porta de' suoi beni, mostrandosi però tuttauia timido, perche vuole ogni hora salire più sù, che non gli con-
+
+Колонтитул: De gli Antichi. 399
+Кустод: uiene
+Сигнатура:
+Маргиналии:
+- Apuleio.
+- Fortuna per la Luna.
+- Buono Euento.
+- Fauore.
+- Fauore timido.
