@@ -36,9 +36,14 @@
 | 0175 | 133 | Geci | Greci | пропущена буква |
 | 0190 | 148 | po | poi | пропущена буква |
 | 0195 | 153 | ttouano | trouano | перепутанная буква |
+| 0225 | 183 | egi | egli | пропущена буква |
+| 0225 | 183 | aspetro | aspetto | перепутанная буква |
 | 0227 | 185 | segnitauano | seguitauano | перепутанная буква |
 | 0227 | 185 | sotterranano | sotterrauano | перепутанная буква |
 | 0229 | 187 | connitati | conuitati | перепутанная буква |
+| 0234 | 192 | Cerrere | Cerere | лишняя буква |
+| 0235 | 193 | Sratoa | Statoa | перепутанная буква |
+| 0252 | 210 | tetribile | terribile | перепутанная буква |
 | 0268 | 226 | qnale | quale | перепутанная буква |
 | 0482 | 440 | licentiosamenre | licentiosamente | перепутанная буква |
 | 0493 | 451 | compagria | compagnia | перепутанная буква |
