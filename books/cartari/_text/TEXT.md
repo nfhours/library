@@ -5842,3 +5842,248 @@ Percioche la Fede hà da stare secreta, cioè le cose, che altrui sono credute i
 Кустод:
 Сигнатура:
 Маргиналии:
+
+## Скан 0310 · с. 268
+
+Et per esser creduto, che la sede propria della Fede fosse nella destra mano, & che questa perciò le fosse consecrata, come dissi, ella fu anco souente mostrata con due destre insieme giunte, & alle volte ancora erano fatte due figurette, che si dauano la mano l'vna all'altra. Onde gli antichi hebbero la destra mano in gran rispetto, come cosa sacra. Da che è venuto, come dicono alcuni, che quando vogliamo racquetare vn rumore subito nato, mostriamo questa, leuandola in alto, & porgendola aperta significhiamo di apportare pace. Et perciò si vede, che molte statoe di Principi, & di Capitani illustri furono già fatte à cauallo, & a piè, che stendono la mano destra. Et Gioseffo scriuédo le antichità de i Giudei, mette che frà i Barbari era segno certissimo di hauersi a fidare l'vno dell'altro, quando si porgeuano la destra mano, & che, fatto questo, non si poteua più ne l'vno ingannare, nè l'altro non fidarsi. Et quindi forse anco venne l'vsanza di baciare la mano a i Signori, & ad altri Superiori, che fu così bene appresso de gli antichi, come hoggi frà noi, come si vede appresso di Plutarco, oue Popilio Lena, poscia che hebbe parlato assai a Cesare, andante in Senato il dì medesimo, che fu vcciso, gli baciò la mano, & se ne andò. Et Macrobio facendo parlare Pretestato a fauore de i serui, dice, che molti di loro sono, che per grandezza di animo sprezzano le ricchezze, & che allo incontro si vede spesso, che molti liberi, & padroni per la ingordigia del guadagno vanno vilmente a baciar le mani a gli altri serui: & questo atto mostraua, che chi lo faceua, si raccomandaua alla fede di colui, cui baciaua la mano, & perciò lo riconosceua per suo superiore, & Signore. Et è venuta parimente fin'a' tempi nostri l'vsanza di dare la destra mano in segno di Fede, la quale fu mostrata anco alle volte con vn cane tutto bianco, perche si leggono i miracoli della fedeltà de i cani. Ma ritornando alla Concordia, dalla quale mi hà suiato il disegno delle due mani à lei commune con la Fede, le consecrarono gli antichi la Cicogna; onde erano perciò nel suo tempio molte Cicogne; benche vuole il Politiano, che non la Cicogna, ma la Cornice fosse data alla Concordia, & di ciò chiama in testimonio alcune medaglie antiche, & Eliano, il quale dice, che soleuano gli antichi dopo l'hauere inuocato Himeneo nelle nozze chiamare la Cornacchia ancora per augurio di Concordia, che douesse essere poi tra quelli, li quali per generare figliuoli si congiungeuano insieme. Ma questo era etiandio per la Fede, che si deono seruare insieme marito, & moglie, come dice il medesimo Eliano, raccontando, che sono le Cornacchie tra loro fedeli di modo, che di due che si siano accompagnate vna volta: morendo vna, l'altra se ne stà vedoua sempre. Erano oltre di ciò i pomi granati ancora segno di Concordia appresso de gli antichi, come dicono gli scrittori de gli Hebrei, & perciò gli metteuano intorno alle vesti de i
+
+Колонтитул: 268 Imagini de i Dei
+Кустод: loro
+Сигнатура:
+Маргиналии:
+- Mano consecrata alla Fede.
+- Gioseffo.
+- Baciare la mano.
+- Plutarco.
+- Cicogna cõsecrata alla Concordia.
+- Cornice vccello della Concordia.
+- Pomi granati per la Concordia.
+
+## Скан 0311 · с. 269
+
+[ГРАВЮРА: Меркурий в крылатом шлеме, с кадуцеем в руке, касается им сидящей на скале Палестры, держащей на коленях ветвь оливы; справа — герма с крылатой головой на сужающемся книзу постаменте; в верхнем левом медальоне — две крылатые борющиеся фигуры, в нижнем левом медальоне — обнажённая бегущая фигура]
+
+*Imagine di Mercurio inuentore delle Lettere,*
+*della Musica, della Geometria, & delle buone*
+*arti, & imagine di Palestra sua figliuola,*
+*Dea della lotta, che tiene in grembo vn ra-*
+*mo di vliuo, essendo vso de lottatori di vn-*
+*gersi con olio.*
+
+Колонтитул: De gli Antichi. 269
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0312 · с. 270
+
+loro sacerdoti. Ma già è tempo che ritorniamo a Mercurio disegnato con l'ali a i piedi, & con la verga in mano da Homero, quando Gioue lo manda a Calipso, perche ella lasci partire da sè Vlisse, & a condurre Priamo nel campo de' Greci per dimandare il corpo di Hettore, qual fu così bene imitato da Virgilio poi, che pare quasi tradotto da lui in questa parte, quando egli fa parimente, che Mercurio comandato da Gioue và ad Enea, mentre che si trouaua appresso di Didone, così dicendo:
+
+*Mercurio ad obedir il padre intento*
+*Ne i dorati Talari i piedi asconde,*
+*I quai con ali preste ad ogni vento*
+*Alto il porta da terra, e sopra l'onde,*
+*Prende la Verga con cui in Vn momento*
+*L'anime trahe da le Tartaree sponde,*
+*Et altre Vi ripone, e dona, e toglie*
+*I sonni, e molti ancor di Vita scioglie.*
+
+Potrei porre de gli altri Poeti ancora, li quali nel medesimo modo l'hanno descritto: ma parmi, che questi due siano di tanta auttorità, che quando essi fanno fede di vna cosa, non se ne debba cercare altro poi, se forse non fosse per dare meglio ad intendere quello che da loro fu detto, il che non fa hora dibisogno. Furono poi date le penne a Mercurio, come hò detto, perche nel parlare, di che egli era il Dio (ò che significaua forse anco la cosa stessa) le parole se ne volano per l'aria non altrimenti, che se hauessero l'ali. Onde Homero chiama quasi sempre le parole veloci, alate, & che hanno penne. Che Mercurio hauesse sempre le penne in capo, si vede appresso di Plauto, quando per poco di hora, ch'ei si trauestì, nò ne volle essere senza, benche dicesse di farlo; perche gli spettatori conoscessero lui dal seruo di Anfitrione, nel quale si era mutato, & queste sono sue parole.
+
+*E perche riconoscere mi possono,*
+*Queste penne haurò sempre nel cappello.*
+
+Perche haueua Mercurio il cappello ancora, & à questo erano anco attacate l'ali; quantunque Apuleio lo mostri senza, quando racconta il giudicio di Paride rappresentato in scena, facendo che per Mercurio comparisce vn giouane tutto bello, e vago nell'aspetto, con biondi, & crespi crini, frà li quali erano alcune dorate penne poco da quelle differenti, che in forma d'ali spuntauano fuori, & haueua intorno vn panno solamête, che annodato al collo gli pendeua giù dal l'homero finistro, & il Caduçeo in mano. Martiano lo descriue gioui-
+
+Колонтитул: 270 Imagini de i Dei
+Кустод: ne
+Сигнатура:
+Маргиналии:
+- Virgilio.
+- Penne perche date à Mercurio.
+- Plauto.
+- Apuleio.
+
+## Скан 0313 · с. 271
+
+[ГРАВЮРА: герма (бюст) крылатого Меркурия на сужающемся книзу квадратном постаменте, по бокам — две курильницы с гирляндами, из которых поднимается пламя; в верхнем левом медальоне — сцена со стадом овец и пастухом, в верхнем правом медальоне — погрудный портрет бородатого мужчины в венке]
+
+*Statue di Mercurio, dette Hermi, per esser lui*
+*stato l'inuentore di tutte le buone arti, quali*
+*non temono colpi di tempo ò di fortuna, & li*
+*virtuosi non temono niuna loro ingiuria. si-*
+*gnificano ancora la saldezza del parlar veri-*
+*dico.*
+
+Колонтитул: De gli Antichi. 271
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0314 · с. 272
+
+ne di bel corpo, grande, e sodo, cui comincino à spuntare alcuni peluzzi dalle pulite guancie, come dice anco Luciano, & mezo nudo, perche vna breue vesticciola gli copre gli homeri solamente; & non fa egli mentione d'ali, ne di Caduceo, ma ben dice, che mostra di essere spedito, & essercitato assai nel correre, & nella Lotta. La quale hor mi riduce a mente quello, che già hò letto appresso di Filostrato, & è che Palestra, la quale potiamo chiamare Lotta, fu figliuola di Mercurio, & era tale, che malageuolmente si poteua conoscere, se fosse maschio, ò femina, conciosia che al viso tutto polito, & vago pareua essere non meno fanciullo, che fanciulla. le bionde chiome erano ben lunghe, ma non sì però, che potessero annodarsi. il petto era di pura virginella; nè più rileuauano le belle poppe in lei, che rileuino in vn delicato giouine; nè erano le braccia bianche solamente, ma colorite ancora, & sedendo ella teneua in seno vn ramo di verde Vliuo, imperoche ella amaua questa pianta assai, forse perche si vngeuano prima con olio quelli, li quali lottauano. Così dipinge Filostrato la Palestra, & la dice figliuola di Mercurio, perche egli fu il ritrouatore di questa sorte di essercitio, come cantò anco Horatio in certo hinno, ch'ei fece a costui. Et non ritrouò Mercurio, & mostrò a' mortali il modo di essercitare il corpo solamente, ma l'animo ancora, e Iamblico dice, che à lui dettero quelli di Egitto il ritrouamento di tutte le buone arti, & che perciò gli dedicauano sempre tutto quello, che scriueuano. Cicerone, scriue che Mercurio mostrò in Egitto le lettere, & le Leggi, & che ei fu nomato da quelle genti Thoit, ouero Theut, come si legge appresso di Platone. Et altri hanno detto, che oltre alle lettere, fu ritrouata anco da Mercurio la musica, la geometria, e la palestra, per le quali quattro cose soleuano fare anticamente la sua imagine di figura quadrata, & porla nelle scuole, come era in certa parte dell'Arcadia, secondo che recita Pausania, il quale lo descriue fatto in guisa, che pareua vestirsi vn manto, & non hauea di sotto gambe, nè piedi, ma era come vna piccola colonetta quadra. Galeno quando essorta i giouani alle buone arti, dice, che elle furono tutte ritrouate da Mercurio, & lo disegna giouine, bello, non per arte, ma per propria natura, allegro in vista, con occhi lucidi, e risplendenti, & che stia sopra vna quadrata base: perche chi seguita la virtù si leua di mano alla Fortuna, e col star fermo, & saldo non teme di alcuna sua ingiuria. E Suida scriue, che la figura quadra è data a Mercurio per rispetto del parlare veriteuole, il qual così sta fermo sempre, e saldo contra chi si sia, come il bugiardo, & mendace tosto si muta, & souente si volge hor quà, hor là. Mà ò per questo, ò per altro che fosse, riferisce anco Alessandro Napolitano, che i Greci faceuano spesso la statoa di Mercurio in forma quadra col capo solo senza alcun'altro membro; &
+
+Колонтитул: 272 Imagini de i Dei
+Кустод: con
+Сигнатура:
+Маргиналии:
+- Martiano.
+- Filostrato.
+- Palestra.
+- Lotta.
+- Horatio.
+- Mercurio ritrouatore di tutte le arti.
+- Thoit.
+- Thout.
+- Figura quadrata di Mercurio.
+- Galeno.
+- Suida.
+
+## Скан 0315 · с. 273
+
+con simili statoe honorauano spesso i gradi, & valorosi Capitani mettendole in publico, & ne metteuano anco molte dinanzi alle priuate case, come riferisce Suida. Et Thucidide ancora scriue, & lo replica Plutarco, che in Athene era gran numero di queste statoe, le quali vna notte furono quasi tutte guaste, allhor subito, che gli Atheniesi hebbero deliberato di mandare vna grossa armata addosso a Siracusa, di che Alcibiade, che era vno de i capi dell'armata, & ne haueua egli guaste alcune, fu trauagliato grandemente, come che hauesse dato segno di mutatione di stato della republica, alterando quelle statoe, le quali erano dette Hermi, perche Mercurio fu parimente detto Herme da' Greci, & erano poste, come dissi sopra, per ornamento nelle scuole, & nelle Academie. Onde Cicerone rispondendo ad Attico chiama Herme ornamento commune à tutte le Academie. Et vn'altra volta risponde al medesimo; che già gli piacciono, se bene non gli hà anco veduti, gli Hermi di marmo con le teste di metallo, ch'ei scriue di hauergli comprati; & lo prega à raccoglierne quante più ne può hauere, & lo sollecita à mandarle presto per adornare la sua Academia, ò libraria, che la vogliamo dire. Leggesi, che gli Atheniesi furono i primi, che facessero simili statoe. Et non solamente in queste di Mercurio, ma in quelle anco di molti altri Dei vsarono parimente gli altri Greci tale figura quadra; & più di tutti forse gli Arcadi, come scriue Pausania, perche appò loro era vn'altare dedicato à Gioue con vna statoa fatta in simile forma. Et benche molti scriuano, che Mercurio fu chiamato Cillenio da vn monte dell'Arcadia di questo nome; oue ei nacque: nondimeno vi sono stati anco di quelli, che hanno voluto, ch'ei fosse così cognominato da queste imagini quadre, le quali si poteuano dire, tronche, e mozze, non hauendo altro membro, che il capo, perche i Greci chiamano Cilli quelli, alli quali sia mozzo alcun membro; & mostrauano la forza del parlare, il quale non hà bisogno dell'aiuto delle mani, come scriue Festo, per fare ciò che vuole, ma quando è bene ordinato, & si fa vdire a conueneuoli tempi, tanto può, che facilmente piega gli animi humani, come gli piace, & souente fa forza altrui à suo piacere. Onde Horatio canta di Mercurio, che egli da principio persuase a' mortali di lasciare le selue, e i monti, per li quali andauano in que' primi tempi dispersi, come le fere, & vnirsi à viuere insieme ciuilmente. Il che tolse egli forse da certa fauola de i Greci, la quale racconta, che Prometheo andò imbasciadore à Gioue à pregarlo, ch'ei volesse prouedere, che lasciassero homai gli huomini quella vita rozza, & bestiale, che menauano già dal cominciamento del mondo. Onde egli mandò con lui Mercurio con commissione di insegnare à quelli che piu riputasse degni, il modo di ben parlare, col quale essi potessero persuadere à gli altri quello che era necessario à fare pe-
+
+Колонтитул: De gli Antichi. 273
+Кустод: viuere
+Сигнатура: S
+Маргиналии:
+- Thucidide.
+- Hermi.
+- Cicerone.
+- Hermida cuĩ prima fatti.
+- Cillenio.
+- Forza del parlare.
+- Horatio.
+
+## Скан 0316 · с. 274
+
+viuere vna vita domestica, honesta, & ciuile. Et per questo consecrarono gli antichi la lingua à Mercurio, & oltre a tutti gli altri sacrificij, questo era à lui proprio, & particolare, di sacrificargli, beendo certo poco vino, le lingue delle vittime. Fù anco creduto Mercurio il primo, che mostrasse il modo di guadagnare, & perciò era Dio de' mercatanti. Anzi dicono che fosse detto Mercurio dalla cura che egli hà delle merci; onde Suida scriue, che per questo metteuano vna borsa in mano al suo simulacro. Fulgentio vuole, che l'ali a piè di Mercurio significhino il veloce, & quasi continuo mouimento di quelli, che trafficano, li quali solleciti ne' loro affari vãno quasi sempre, hor quà, hor là. Onde scriue Cesare, che i Francesi adorauano Mercurio piu di tutti gli altri Dei, & ne haueuano molti simulacri; perche, oltre che lo discessero essere stato ritrouatore di quasi tutte le arti, credeuano, che particolarmente ei potesse assai giouare altrui ne i guadagni, & nelle mercantie; nelle quali quanto habbino da essere vigilanti gli huomini mostrò il Gallo posto à canto a questo Dio, come dissi già, benche vogliono alcuni, che significhi piu tosto la vigilanza, che deono vsare gli huomini saggi, e dotti, perche à questi è brutto fuor di modo dormendo consumar tutta la notte. Conciosia che mettendo Mercurio per la ragione, & per quella luce, che si scorge alla cognitione delle cose, ei non vuole che stiamo longamente sepolti nel sonno, ma poscia che sono rinfrancati gli spirti, che ritorniamo alle vsate opere. Perche non ponno gli huomini stare in continua attione nè del corpo, nè della mente, onde è loro necessario quel breue riposo che apporta il sonno, come mostrano i Filosofi. Et Pausania scriuendo del paese di Corinto mette, che quiui era vn'altare, oue si faceua sacrificio alle Muse, & al Sonno insieme, come che fossero ben grandi amici trà loro. Impero che tennero gli antichi il Sonno parimente Dio, & gli ne fecero statoe, come de gli altri Dei, credendolo come dice Hesiodo, & Homero, fratello della morte. Il che mostrauano etiãdio le imagini scolpite nell'Arca di Cipselo, oue era vna femina, che teneua su'l sinistro braccio vn fanciullo bianco, che dormiua, & vn negro su'l destro, che medesimamente dormiua, & haueua gli piedi storti, per questo significando la Morte, & per quello il Sonno, & la femina era la Notte nutrice di amendui. Fu questa da gli antichi fatta in forma di donna con due grandi ale alle spalle negre, & distese in guisa, che pareua volare, & abbracciare con esse la Terra, come disse Virgilio. Ouidio le da vna ghirlanda di papauero, che le cinge la fronte, & manda con lei vna gran compagnia di negri sogni. Gli altri Poeti poi la fingono hauere vn carro da quattro ruote, che significano; come dice il Boccaccio, le quattro parti della notte, così diuise da' soldati, & da' nocchieri nelle guardie loro. Ella è tutta di colore fosco, ma la veste, che hà intorno risplende
+
+Колонтитул: 274 Imagini de i Dei
+Кустод: qual-
+Сигнатура:
+Маргиналии:
+- Lingua consecrata a Mercurio.
+- Dio de' Mercãti.
+- Cesare.
+- Gallo à canto à Mercurio.
+- Pausania.
+- Sonno con le Muse.
+- Hesiodo.
+- Homero.
+- Notte disegnata.
+- Ouidio.
+
+## Скан 0317 · с. 275
+
+[ГРАВЮРА: крылатый Сон парит над сидящей женской фигурой (Ночь) в усыпанном звёздами одеянии, держащей на коленях двух спящих детей (белого и тёмного) и крылатого мальчика рядом с собой; в одной руке летящей фигуры — дымящийся факел, в другой — рог]
+
+*Imagine della Notte nutrice della Morte, & del*
+*Sonno, & imagine del Sonno fratello & com-*
+*pagno della Morte; quiete & dolce ristoro de*
+*mortali. & il corno dinota il riposo, & va-*
+*rietà de' sogni.*
+
+Колонтитул: De gli Antichi. 275
+Кустод:
+Сигнатура: S 2
+Маргиналии:
+
+## Скан 0318 · с. 276
+
+qualche poco, & è così dipinta, che rappresenta l'ornamento del Cielo. Tibullo fà, che con costei vanno le Stelle sue figliuole, il Sonno, & i Sogni quando così dice:
+
+*Dateui pur piacer che homai la notte*
+*I suoi destrier' hà giunti insieme, e Viene*
+*Correndo à noi dalle Cimmerie grotte:*
+*E le Stelle di Vaga luce piene*
+*Seguono il carro de la madre, quali*
+*Il ciel' in bel drapello accolte tiene.*
+*Et il Sonno spiegando le negre ali*
+*Và lor dietro, e vi Van gl'incerti Sogni*
+*Con piè non fermo, e passi disuguali.*
+
+Dalle quali parole si conosce, che'l Sonno parimente haueua l'ali, il che disse Statio ancora, quando si duole, che già sono tanti dì, ch'ei non può dormire, & lo prega, che a sè voglia venire homai, e scuotergli sopra il capo le lieui penne, & il medesimo disse Silio Italico. Oltre di ciò il Sonno è giouine, che il medesimo Statio lo fatale, chiamalo piaceuolissimo di tutti i Dei, come che non sia cosa più grata, nè che piaccia più a' mortali dopò le fatiche del riposo, che ci apporta il piaceuole Sonno, onde Seneca disse così di lui:
+
+*O Sonno almo ristoro à le fatiche*
+*De' mortali, de l'animo quiete,*
+*E del Viuer human la miglior parte,*
+*O de la bella Astrea Veloce figlio,*
+*E de la Morte languido fratello,*
+*Ch'insieme mesci il vero, & la bugia,*
+*E quel, che dee Venir chiaro ci mostri*
+*Con corto, e spesso ( ohime ) con tristo nuncio;*
+*Padre di tutto, porto de la vita,*
+*Riposo de la luce, e de la Notte*
+*Fido compagno, tu non più risguardi*
+*Al Rè, ch'al seruo, ma vieni egualmente*
+*A l'Vno, e à l'altro, ne le stanche membra,*
+*Placido entrando la stanchezza scacci,*
+*E à quel, che tanto temono i mortali*
+*Gli auezzi sì, ch'imparano il morire.*
+
+Filostrato nella tauola, ch'ei fa di Ansiarao, nell'antro del quale dice, che era la porta de i Sogni, perche dormendo quiui si vedeua, & vdinasi in sogno quello, che si cercaua di intendere, dipinge il Son-
+
+Колонтитул: 276 Imagini de i Dei
+Кустод: no
+Сигнатура:
+Маргиналии:
+- Tibullo.
+- Sonno con l'ali.
+- Silio Italico.
+- Seneca.
+- Filostrato.
+
+## Скан 0319 · с. 277
+
+no tutto languido con due vesti, l'vna di sopra bianca, l'altra di sotto negra, intendendo per quella il dì, & per questa la notte, & gli mette in mano vn Corno, come fanno anco quasi tutti i Poeti, dal quale par, che sparga il riposo sopra de' mortali. Il che dicono essere stato finto, perche il corno assottigliato traspare, & così ci mostra le cose, come le veggiamo in sogno, quando però sono i Sogni veri, ma quando sono falsi, il Sonno non porta il corno, ma vn dente di Elefante, perche assottiglisi l'auorio quanto si vuole, non traspare mai sì che per quello passi la vista humana. Però Virgilio finse, che due fossero le porte, per le quali ei vengono i Sogni, l'vna di corno, l'altra di auorio, & che per quella passano i veri, & per questa i falsi. Sopra di che Porfirio così discorre, come riferisce Macrobio, dicendo che l'anima ritiratasi, quando l'huomo dorme, in buona parte da gli officij del corpo, se bene drizza gli occhi alla verità, non la può vedere però mai drittamente, per la scurezza dell'humana natura; ma se pure questa si assottiglia in modo, che l'occhio dell'animo ci passi per dentro, vede Sogni veri per la porta del corno; ma se sta densa sì, che l'animo non la possa penetrare con la vista, vengono per la porta dell'auorio i falsi Sogni. Et il medesimo Virgilio hà finto ancora, che al mezzo della entrata dell'inferno sia vn grande olmo, che sparga gli fronzuti rami, & che sotto le foglie di queste stiano attaccati i Sogni vani & falsi. La qual cosa vuole dire, come l'espone Seruio, che alla stagione, che cadono le foglie à gli alberi, i Sogni sono sempre vani. Et altri hanno detto, che l'olmo arbore sterile, & che non fa frutto, esprime da sè la vanità de i Sogni, quali furono detti ciechi da gli antichi, come scriue Suida, ò perche sono fallaci, ouero perche parlano sempre con chi hà gli occhi serrati. Oltre di ciò porta il Sonno anco talhora vna verga in mano, con la quale tocca i mortali, & gli fa dormire. Onde Statio vna volta, che non poteua dormire, lo pregaua che venisse à toccarlo con quella. Ouidio, poscia che ha descrito il luoco, oue habita il Sonno, qual fa che sia appresso de' Cimmerij popoli, che hanno quasi sempre notte, ancor che in Lenno lo mette Homero, isola nel mare Egeo, & Statio appresso de gli Ethiopi, & l'Ariosto vltimamente l'ha posto nell'Arabia: Ouidio, dico, descritta ch'egli hà la casa del Sonno, mette lui à dormire sopra vn letto di Hebeno coperto tutto di panni negri, intorno al quale stanno innumerabili Sogni in diuerse forme figurati: de' quali tre sono i ministri piu degni; l'vno, che rappresenta solo la forma humana, si dimanda Morfeo; l'altro è detto Fobetore, che mostra ogni sorte di bestia; & il terzo, che fa vedere terra, acque, sassi, arbori, monte, piano, & ogni altra cosa inanimata, ha nome Fantaso. Nè piu dico di loro, ma ritorno alla imagine di Mercurio fatta pure in forma quadra, come si legge appresso di Pausania quan-
+
+Колонтитул: De gli Antichi. 277
+Кустод: do ei
+Сигнатура: S 3
+Маргиналии:
+- Vesti del Sonno.
+- Sogni.
+- Porte de' sogni.
+- Porfirio.
+- Sogni vani.
+- Seruio.
+- Verga del Sono.
+- Ministri de' Sogni.
+
+## Скан 0320 · с. 278
+
+do ei descriue l'Achaia, che era in certa parte di quel paese sù la via con la barba, & con il cappello in capo. Ne mi ricordo di hauere letto in altra statoa di Mercurio, che di questa, la quale hauesse la barba, essendo che i Poeti tutti lo descriuono senza, il che, dicono, voler mostrar che'l parlar, quando è bello, vago, e puro, non inuecchia mai. Ma fanno ben però molti, che gli cominci a dare fuori la prima lanugine, come già hò detto di Martiano, & come di Luciano posso dire il medesimo, poi che ne i suoi sacrificij descriue Mercurio con alcuni pochi peluzzi della prima barba, che gli cominciauano ad apparire su'l viso. Homero parimente fà, che Vlisse lo vede tale, quando a lui và, e gli porta quella herba, con la quale ei si difese poi da gli incanti di Circe. Leggesi oltre di ciò, che alle statue di Mercurio, le quali erano sù le publiche vie, gittaua pietre ogn'vno, che passaua di là, secondo che le trouaua a caso, in modo che vi se ne vedeuano i monti raccolti intorno, ò fosse per mostrare, che si debbe far honore alli Dei con offerire quello, che primo se ne appresenta, & si hà alla mano, ouero perche paressero in quel modo purgare le publiche strade, sì che non trouassero poi gli altri, che passauano di là, & i corrieri raccomandati a questo Dio, cosa, che gli potesse offendere, ò veramente ciò era per dare ad intendere, che così è tutto il ragionare composto di piccole particelle, come quei monti di piccole pietre raccolte insieme. Suida scriue; che questi cumuli, ò monticelli di pietre, erano consecrati a Mercurio nelle vie incerte, forse perche non deuiasse dal buon camino, chi passaua per là. Et che fu anco vsanza de gli antichi di porre sù le strade publiche dinanzi alle alle statoe di Mercurio le primitie de i frutti a seruitio de' passaggieri, li quali secondo il bisogno ne mangiauano. Leggesi ancora, che Mercurio alle volte fu fatto con tre capi; ò per mostrare la gran forza, che hà l'ornato parlare; ò perche à costui scorta de passaggieri non bastaua vn capo per mostrare altrui le diuerse strade, & specialmente ne' triuij, cioè doue erano tre vie, & perciò in ciascheduno de' tre era segnato, oue questa, ò quella, ò quell'altra via andasse.
+
+Voleuano poi gli antichi ancora, che Mercurio hauesse cura de' Pastori; di che fà Homero fede, quando dice, che infra Troiani Phorba fu ricchissimo di armenti, & di greggi, perche Mercurio, cui egli fu grato piu di tutti gli altri, così l'haueua arricchito, forse perche ne' primi tempi non conosceuano gli buomini altro guadagno, che quello che traheano da i greggi, & da gli armenti. Et perciò scriue Pausania, che nel paese di Corinto sù certa via era vna statoa di Mercurio fatta di bronzo, che sedeua, & haueua vn'agnello a lato. Di che ei tace la ragione à posta, come cosa misteriosa, & che non si possa, nè si debba dire. Et vn'altra ne era appresso de' Tanagrei gen-
+
+Колонтитул: 278 Imagini de i Dei
+Кустод: te
+Сигнатура:
+Маргиналии:
+- Mercurio perche sbarbato.
+- Homero.
+- Pietre gittare alla Statoa di Mercurio.
+- Suida.
+- Mercurio cõ tre capi.
+- Homero.
+- Pausania.
+
+## Скан 0321 · с. 279
+
+[ГРАВЮРА: двое воинов с поднятыми мечами по сторонам гермы с двуликой (Янус-подобной) головой на сужающемся книзу постаменте; справа обнажённый крылатый Меркурий в крылатом шлеме с кадуцеем в руке, несущий на плечах барана; внизу справа медальон с маленькой фигурой]
+
+*Imagine di Mercurio dio della eloquenza, scor-*
+*ta de passeggieri, Dio de Pastori, inteso anco per*
+*la forza del Sole; & imagine del dio Anubi*
+*dio della sagacità appo gli Egittij, che è vn*
+*istesso con Mercurio, & il Caduceo quì signi-*
+*fica il Sole & la Luna il demone la fortuna,*
+*l'amore, & la necessità che vanno co'l nasci-*
+*mento humano.*
+
+Колонтитул: De gli Antichi. 279
+Кустод:
+Сигнатура: S 4
+Маргиналии:
