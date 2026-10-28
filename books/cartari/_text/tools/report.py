@@ -90,6 +90,37 @@ def scans_touched_since(since):
     return scans
 
 
+def range_breakdown(rows, bucket=50):
+    buckets = {}
+    for r in rows:
+        if r.get("method") != "double":
+            continue
+        scan = int(r["scan"])
+        start = (scan // bucket) * bucket
+        b = buckets.setdefault(start, {"pages": 0, "r1": 0, "r2": 0, "bw": 0, "disc": 0})
+        b["pages"] += 1
+        b["r1"] += int(r["errors_r1"] or 0)
+        b["r2"] += int(r["errors_r2"] or 0)
+        b["bw"] += int(r["both_wrong"] or 0)
+        b["disc"] += int(r["discrepancies"] or 0)
+    return buckets
+
+
+def print_range_breakdown(rows, bucket=50):
+    buckets = range_breakdown(rows, bucket)
+    print(f"Разбивка по диапазонам (каждые {bucket} сканов, только method=double):")
+    header = f"  {'диапазон':<14}{'стр.':>5}{'disc/стр':>10}{'err_r1/стр':>12}{'err_r2/стр':>12}{'both_wrong/стр':>16}"
+    print(header)
+    for start in sorted(buckets):
+        b = buckets[start]
+        end = start + bucket - 1
+        n = b["pages"]
+        if n == 0:
+            continue
+        print(f"  {start:04d}-{end:04d}   {n:>5}{b['disc']/n:>10.1f}{b['r1']/n:>12.2f}{b['r2']/n:>12.2f}{b['bw']/n:>16.2f}")
+    print()
+
+
 def recent_commits(n=5):
     out = git_log([f"-{n}", "--pretty=format:%h\t%ad\t%s", "--date=format:%Y-%m-%d %H:%M"])
     return [line.split("\t", 2) for line in out.splitlines() if line.strip()]
@@ -117,6 +148,8 @@ def main():
     for part in format_ranges(ranges(done)):
         print(f"  {part}")
     print()
+
+    print_range_breakdown(rows)
 
     all_time = double_totals(rows)
     last24 = scans_touched_since("24 hours ago")
