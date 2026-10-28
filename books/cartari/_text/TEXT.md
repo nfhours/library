@@ -5587,3 +5587,258 @@ Dea della generatione, & il farla la più vecchia delle Parche voleua à punto d
 Кустод:
 Сигнатура:
 Маргиналии:
+
+## Скан 0298 · с. 256
+
+Ma questa distintione non faceuano gli antichi; imperoche voleuano che l'anime tutte vi andassero dopò morte benche non fossero tutte passate ad vn modo, come si raccoglie da Virgilio quando fa andare Enea in inferno, che in arriuando passauano quelle solamente, i corpi de i quali erano già stati sepolti: ma quelle, che non haueuano ancor hauuto sepoltura al corpo, andauano errando cento anni, prima che potero entrare nella piccola barca di Charonte, che le portaua all'altra ripa, Charon Dimonio, con gli occhi di bragia. Il quale da Seneca è descritto in questa guisa, quando nelle Tragedie di Hercole furioso, fa, che Theseo racconta ad Anfitrione ciò, che egli hà visto giù in Inferno.
+
+*Guarda quel fiume Vn vecchio horrido, è tristo*
+*Ne l'aspetto, e ne l'habito, e da l'vna*
+*A l'altra ripa porta le meste ombre*
+*Con la piccola barca, al cui gouerno*
+*Adopra solamente vn lungo palo.*
+*Le guancie hà caue, e di brutto squalore*
+*Tutte piene, e dal vecchio mento pende*
+*La rabbuffata barba, e il negro panno,*
+*Che cuopre in parte pur le sozze membra,*
+*Raccoglie Vn nodo senza ordine, od arte.*
+
+Et bassi da credere, che ei ne togliesse il ritratto da Virgilio, quale buon tempo prima di lui così lo dipinse.
+
+*Quiui è la Strada, che per l'aria nera*
+*Diritto ad Acheronte ci conduce,*
+*E la Palude, ch'ogn' hor più s'annera,*
+*E calda arena entro Cocito adduce.*
+*A l'entrar de l'horribile riuiera*
+*Stassi Caron per traghettiero, e duce.*
+*Gli occhi hà di foco, e pallido è in aspetto è*
+*Bianca la barba, e lunga insino al petto.*
+*La vesta giù da gli homeri gli pende,*
+*Legata à Vn nodo, di lordezza carca.*
+*Esso al gouerno di continuo attende*
+*Con remo, e vela d'vna lieue barca.*
+*La qual de l'alme onde gran copia scende*
+*Giù ne l'Inferno, ogn' hor, non d'altro carca*
+*Già vecchio, e pien d'orgoglio, e pien d'asprezza,*
+*Ma d'Vna cruda, e Verde in lui vecchiezza.*
+
+Колонтитул: Imagini de i Dei · с. 256
+Кустод: Et
+Сигнатура:
+Маргиналии:
+- Charonte.
+- Seneca.
+- Virgilio.
+
+## Скан 0299 · с. 257
+
+[ГРАВЮРА: Imagine di Charonte nocchiero infernale nel fiume nero di Acheronte, con vna sua barca, & remo, inteso per il tempo consumatore della vita, distruggitore di tutte le cose, & altri effetti suoi dinota ancora la miseria, & infelicità della vita humana.]
+
+Колонтитул: De gli Antichi · с. 257
+Кустод:
+Сигнатура: R
+Маргиналии:
+
+## Скан 0300 · с. 258
+
+Et così l'haueua dipinto anco Polignoto in certe tauole, che ei ne fece nel tempio di Apollo appresso de i Focesi, hauendone tolto il disegno da i Poeti antichi, come riferisce Pausania, il quale dice, che vi era anco certa acqua, la quale si può credere, che fosse il fiume Acheronte pel nocchiero, che la passaua, & vi era per dentro molta canna palustre, & alcuni, che pareuano più tosto ombre, di pesci, che pesci veri. Volendo il Boccaccio esporre questa imagine, dice, che per Charonte s'intende il tempo, come l'intese Seruio ancora, il quale è figliuolo di Herebo, che si piglia per lo secreto consiglio della Diuina mente, dal quale il tempo, e tutte l'altre cose sono create; & la madre fu la Notte, imperoche prima che fosse il tempo, non si vedeua ancora alcuna luce, & perciò fù egli fatto nelle tenebre, & dalle tenebre parue nascere. Fu posto in Inferno poi, perche quelli, che sono in Cielo, non hanno di tempo bisogno, come noi mortali, che habitiamo la piu bassa parte del mondo; onde se riguardiamo à loro, si può dire a ragione, che noi siamo in Inferno. Porta Charonte i mortali dall'vna ripa all'altra, perche, nati, che siamo, il tempo ne porta alla morte, & ci fa passare il fiume Acheronte, che vuole dire senza allegrezza, come appunto ne auiene trascorrendo questa vita frale, caduca, e tutta piena di miserie. Egli è vecchio, ma però robusto, & feroce, onde per il tempo non perde con gli anni le sue forze; & ha d'intorno vn panno negro, e sordido, perche mentre noi siamo soggetti al tempo, poco curiamo altro, che le cose terrene, le quali proueremo vili, & sordide, se vogliamo paragonarle a quelle del Cielo, alle quali noi doueremo stare sempre con ogni nostro disio intenti. Ma questa frale spoglia del corpo mortale, che habbiamo intorno, così ci cuopre il lume della ragione, che quasi ciechi ne andiamo per l'Inferno di questo mondo, scorti dal senso solamente, & da mille disordinati appetiti. Onde non è da marauigliarsi, se da infiniti mali siamo poi circondati sempre, li quali ci si rappresentano subito che l'anime scèdono nell'Inferno di questo nostro mondo, & si cacciano ne i corpi mortali, che così si può esporre Virgilio, quando dice de i mali, che stanno alle porte dell'Inferno, i cui versi tirati in nostra lingua sono tali.
+
+*Del cieco Regno fiero, e horribil, quanto*
+*Sà l'alma, che la giù dannata scende,*
+*Sù la primiera entrata ha seggio il Pianto,*
+*E'l rio Pensier, ch'a la Vendetta intende.*
+*Con faccia smorta, e con lugubre manto*
+*Quiui l'Infermitade il piè sospende,*
+*E giace di dolor ripiena il petto,*
+*Con la Vecchiezza in Vn medesimo letto.*
+
+Колонтитул: Imagini de i Dei · с. 258
+Кустод: V'habita
+Сигнатура:
+Маргиналии:
+- Pausania.
+- Boccaccio.
+- Spositione di Charonte.
+- Virgilio.
+
+## Скан 0301 · с. 259
+
+*V'habita à lei da presso la Paura*
+*E languida la Fame al furto amica,*
+*La Pouertà, che d'honor poco cura,*
+*La morte ( horribil forme ) e la Fatica.*
+*E quel che l'huomo à sè medesimo fura,*
+*E spesso lo ristora, e lo nutrica,*
+*Il Sonno, che parente è de la Morte,*
+*E i tristi Gaudij de le menti torte.*
+
+*V'hauea luogo à l'incontro l'empia Guerra*
+*Col petto, e con le man tinte di sangue:*
+*Si come quella, che Volge la terra*
+*Spesso sossopra, ond'ella plora, e langue;*
+*Poi di ferrigne mura vn tetto serra*
+*Le trè Furie, ch'al crine han più d'Vn'Angue;*
+*Anzi in vece di crin, di rabbia ardenti*
+*Cingon le tempie lor mille serpenti.*
+
+*Stà seco, nè giamai da quelle bande*
+*La rea pazza Discordia arretra il piede;*
+*Di cui pender sù'l collo copia grande*
+*D'auuelenate biscie anco si Vede.*
+*Nel mezo ancor l'antiche braccia spande*
+*Vn grand'Olmo, sù'l qual tengon lor sede*
+*Accolti trà le foglie i folli Sogni,*
+*Che fan, che spesso l'huom vegliando agogni.*
+
+[ВИНЬЕТКА: гравированная печатная виньетка-марка с маской/лицом в центре и растительным орнаментом, внизу страницы]
+
+Колонтитул: De gli Antichi · с. 259
+Кустод: MER-
+Сигнатура: R 2
+Маргиналии:
+
+## Скан 0302 · с. 260
+
+[ГРАВЮРА: Imagini di Mercurio messaggiero de i dei, Dio della eloquenza, & de mercanti. Questo dinota la fauella esser messaggiera, & discopritrice della mente & del core, il Caduceo poi è segno di concordia, vnione, & pace, con alcuni animali à lui sacrati, dinotanti la industria & vigilanza nel contrattare, e ne' negotij.]
+
+Колонтитул: Imagini de i Dei · с. 260
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0303 · с. 261
+
+MERCVRIO
+
+[ИНИЦИАЛ: H]
+
+Aueuano i fauolosi Dei de gli antichi così partiti gli offici frà loro, che à duo solamente fu dato carico di portare le diuine imbasciate. L'vno era Mercurio Nuncio di Gioue, & l'altra Iride, che seruiua a Giunone; ma nè però sì che Gioue non le comandasse ancora alle volte. Bene è vero, che di questa egli non si seruiua, se non quando voleua, che fosse annunciata a i mortali guerrra, peste, fame, ò qualche altro gran male; & per le cose piu piaceuoli poi mandaua Mercurio, che parola significa, il quale parimente non solo di Gioue, ma di altri Dei ancora fu nuncio, e messaggiero, secondo le fauole, le quali sotto la fittione di costui intesero l'interprete de i Dei, essendo che la fauella frà noi espone quello, che l'animo, il quale è di noi la parte diuina, hà già conceputo. Ma lasciando queste spositioni per hora, veggiamo come la vana credenza de gli antichi lo fece, hauendolo per lo Dio non solamente de i Nuncij, ma che al guadagno ancora fosse sopra, secondo che egli di sè medesimo dice appresso di Plauto.
+
+*Hanno à me gli altri Dei, concessa, e data*
+*La cura de i messaggi, e del guadagno.*
+
+Nel libro delle anticaglie raccolte da Pietro Appiano si vede che fù già fatto per Mercurio, vn giouane senza barba, con due alette sopra le orecchie, tutto nudo, se non che da gli homeri gli pendeua di dietro vn panno non troppo grande, e teneua con la destra mano vna borsa appoggiata sopra il capo di vn capro, che gli giaceua à i piedi insieme con vn Gallo, & nella sinistra haueua il Caduceo. Questo era insegna propria di Mercurio, come l'hauere anco l'ali in capo, & à piedi: onde i Poeti quasi tutti lo disegnano in questo modo, facendo, che egli habbi le penne a i piedi, le quali chiamano Talari, & in
+
+Колонтитул: De gli Antichi · с. 261
+Кустод: mano
+Сигнатура: R 3
+Маргиналии:
+- Messaggieri de i Dei.
+- Mercurio, e suo officio.
+- Caduceo.
+
+## Скан 0304 · с. 262
+
+mano il Caduceo da loro detto verga, perche da principio fu semplice verga, quando ei l'hebbe da Appollo in iscambio della Lira, che donò à lui, come raccontano le fauole, allhora che dopò le rubbate vacche si rappacificorono insieme. Onde Homero nell'hinno, che canta di Mercurio, narrando quasi tutta la fauola, gli fa così dire da Appollo.
+
+*E poi darotti la dorata verga*
+*De la felicità de le ricchezze.*
+
+A questa furono dapoi aggiunti i serpenti, ouero perche si legge, che hauendone già Mercurio trouato duo combattere insieme la gittò frà quelli, & subito furono rappacificati, ouero perche, come dice Iamblico; hauendo Mercurio insegnato à noi la Dialettica, li fu però dato per insegna quella verga, poi che tanto à punto significano i due serpi, che si risguardano l'vno con l'altro; oueramente pure per quello, che mette Plinio, il quale poscia, che hà detto, come si annodano insieme i serpenti le estate, soggiunge: Et questo, che mostra concordia tra crudelissimi serpi, par essere la cagione, per la quale è stato fatto il Caduceo con i serpenti intorno; perche si legge, che gli Egittij, che furono forse i primi à farlo, lo fecero in questa guisa. Staua vna verga dritta, ò bacchetta, che vogliamo dirla, con duo serpi intorno, l'vno maschio, l'altro femina, annodati insieme nel mezo, & faceuano quasi vn'arco della parte di sopra del corpo, sì che veniuano ad aggiungere le fere bocche alla cima della bacchetta, & le code si auuolgeuano intorno alla medesima di sotto, onde vsciuano fuori due piccole ali. Et lo chiamarono i Latini Caduceo, perche al suo apparire faceua cadere tutte le discordie, & fu perciò la insegna della pace. Onde lo portauano gli ambasciadori, che andauano per quella, li quali furono anco poi chiamati Caduceatori. Benche trouasi, che portauano l'vliuo parimente appresso de gli antichi gli Ambasciadori, che andauano come amici, secondo che Virgilio dice, quando fa, che Enea ne manda cento al Re Latino tutti coronati di verde vliuo, & che quando egli và ad Euandro, mostra a Pallante, il quale prima gli viene incontra, che va come amico, stendendo la mano con vn ramo di pacifico vliuo. Statio medesimamente, quando fà andar Tideo à chieder per nome di Polinice il regno di Thebe ad Etheocle, gli mette in mano vn ramo di vliuo, per mostrare, che andaua come ambasciatore pacifico, e glielo fa gittare via poi, quando non può ottenere quello, che dimanda: onde hebbe principio la scelerata guerra. Et Appiano recita, che vedendo Hasdrubale di non poter più tenere la rocca di Cartagine espngnata già, & presa quasi che in tutto da i Romani, lasciati quiui i figliuoli, &
+
+Колонтитул: Imagini de i Dei · с. 262
+Кустод: la mo-
+Сигнатура:
+Маргиналии:
+- Serpenti perche col Caduceo.
+- Ambasciatori pacifici.
+- Vliuo segno di pace.
+- Statio.
+
+## Скан 0305 · с. 263
+
+la moglie nel tempio di Esculapio con molti altri, li quali si abbruciarono poi tutti insieme di commun volere, se ne fuggì di nascosto a Scipione, portando in mano alcuni rami di vliuo, con li quali mostraua di andare solamente per hauere pace. Il che haueuano fatto parimente molti de' suoi innanzi à lui, che erano fuggiti à Scipione per ottenere, come fecero, che, chi voleua, potesse vscire saluo della rocca, & andarsene, hauendo portata però questi in mano non l'vliuo, ma la Verbena, che volgarmente è detta Verminaca: benche si possa anco intendere per le parole di Appiano non di quella herba solamente, ma di tutte le altre herbe, & foglie, delle quali era adornato l'altare, & il tempio di Esculapio, che fu in quella rocca molto bello, e ricco; conciosia che sotto il nome della Verbena fossero anticamente intese tutte le herbe, & frondi, delle quali erano adornati gli altri il dì della festa. Et era anco il porgere altrui herba con mano segno appresso de gli antichi di cofessarsi vinto da colui, cui si porgeua, & di offerirsi à lui, come soggetto. La quale cosa scriue Festo, che fu introdotta ne i primi tempi da' pastori, perche quando questi faceuano à correre insieme, ò contendeuano in qualche altro modo frà loro, chi era vinto, si chinaua à terra, & pigliando herba con mano la porgeua al vincitore. Nondimeno fu pur anco la vera Verbena segno di pace, come scriue Plinio, & di questa si coronauano gli Imbasciadori, che andauano per tregua; ò per pace, massimamente de' Romani, perche altre genti vsarono forse qualche altra cosa, come si legge appresso di Appiano di alcuni popoli della Spagna, li quali mandarono ambasciadori à Marcello per ottenere da lui perdono, e pace, & questi si portauano innanzi vna pelle di Lupo in vece del Caduceo, ò de i rami dell'vliuo, & della Verbena, che furono però quasi vniuersalmente i piu adoprati ne gli affari della pace, & soleuano anco gli antichi auuolgere intorno alcune piccole bende, ò fascie di lana, che significauano la debolezza, & humiltà di chi lo portaua, perche la lana si trahe della pecora animal debole, & humile, come dichiara Seruio sopra il primo ragionamento, che fa Enea ad Euandro appresso di Virgilio. Et perciò il Caduceo talhora solamente; talhora il ramo dell'Vliuo solo è stato fatto per la Pace. La quale fu Dea parimente appresso de gli antichi, & hebbe in Roma vn gran tempio tanto bello, & così ricco, che molti andauano à Roma solamente per vederlo. Questo fu fatto da Vespasiano, essendo però già principiato da Claudio, & dopo la Vittoria hauuta della Giudea vi portò tutti gli ornamenti del Tempio Hierosolomitano, & si può credere, che vi fosse anco qualche bel simulacro della Pace, ma non hò trouato però fin quì fattane mentione da alcuno. Vediamo dunque come altroue ella sia stata fatta, ò disegnata. Aristofane la descriue tutta bella nell'aspetto, & è secondo lui compagna di Venere,
+
+Колонтитул: De gli Antichi · с. 263
+Кустод: & delle
+Сигнатура: R 4
+Маргиналии:
+- Verminaca.
+- Porgere herba che mostri.
+- Seruio.
+- Pace Dea.
+- Disegno della Pace.
+
+## Скан 0306 · с. 264
+
+& delle Gratie. Pausania scriue, che la sua statoa in Athene era di donna, che teneua in mano, come altra volta hò detto, il fanciullo Pluto Dio delle ricchezze, perche queste meglio si acquistano, e si conseruano nella pace, che al tempo della guerra; conciosia che allhora non si possa attendere à coltiuare i campi. Et però dissero gli antichi, che la Pace fu amica grande di Cerere, & à lei molto cara: & Tibullo così dice.
+
+*La Pace fu, che prima giunse i buoi*
+*Sotto l'incuruo giogo, onde il terreno*
+*Fu coltiuato, e'l gran produsse poi.*
+*E il bel frutto di dolce succo pieno*
+*Per la pace si coglie da la vite,*
+*Ch'ella à la terra già rispose in seno.*
+
+Et le guerre sono cagione del contrario. Onde Claudiano finge, che Cerere non volle maritar la figliuola Proserpina à Marte, nè a Febo, che ambi la dimandauano, perche i vehementi ardori del Sole, se troppo durano, così nuocono alle biade, come le guerre. Il perche fecero gli antichi alle volte per la Pace, come si vede in alcune medaglie antiche, vna donna, qual teneua con mano vna spica di formento. E Tibullo perciò disse.
+
+*Vieni alma Pace con la Spica in mano,*
+*Et di bei frutti pieno il bianco senno.*
+
+Et la coronauano talhora di vliuo, & alle volte di Lauro. Et vedesi ancora in alcune medaglie antiche la Pace con ghirlanda di rose. Ma beche siano i nomi diuersi, & ne fossero ancora fatte diuerse imagini, nondimeno mi pare, che la Pace, & la Concordia siano vna medesima cosa, & furono l'vna, e l'altra adorate da gli antichi, accioche dessero loro vita quieta, & riposata. Sarà dunque bene, che hauendo disegnata, quella io disegni questa ancora, la quale era fatta in forma di donna, che teneua con la destra mano vna tazza, & nella sinistra haueua il corno della copia, onde così disse Seneca di lei.
+
+*Et à colei, che può del fiero Marte*
+*Stringe le sanguinose man porgendo*
+*Tregua, e riposo à le noiose guerre,*
+*E seco porta il corno della copia*
+*Faccisi sacrificio tutto mite.*
+
+Et alle volte ancora fu posto vno scettro in mano alla Concordia, dal quale pareuano nascere alcuni frutti. Aristide in certa sua ora-
+
+Колонтитул: Imagini de i Dei · с. 264
+Кустод: tione
+Сигнатура:
+Маргиналии:
+- Pace amica di Cerere.
+- Tibullo.
+- Claudiano.
+- Concordia.
+- Seneca.
+
+## Скан 0307 · с. 265
+
+[ГРАВЮРА: imagine della Pace, & de Hieroglifici ò segni che quella dimostrano, cioè il fanciullo Pluto che hà in mano dio delle ricchezze moltiplicanti nella pace, spiche di grano, che dinotano la coltiuatione de campi nella pace, & lor fertilità, coronata di lauro hauendo sotto li piedi l'vliuo segno di trionfo, & di quiete.]
+
+Колонтитул: De gli Antichi · с. 265
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0308 · с. 266
+
+tione descriue la Concordia, che sia di aspetto bello, & graue, compressa di corpo, e ben fatta, di buonissimo colore, e tutta vaga, & non habbia in sè cosa, che punto discordi dalla bellezza sua. Et dice, che ella scese già per bontà de i Dei di Cielo in terra, accioche per le cose de i mortali andassero con certo ordine; imperoche per costei sono coltiuati i campi, & ciascheduno sicuramente possiede quel, che è suo; da costei sono gouernate le Città, sono fatte, e conseruate le liete nozze, & nodriti erano, & ammaestrati i figliuoli poi. Fu mostrata la Concordia qualche volta ancora con due mani insieme giunte; il che si vede in certa medaglia antica di Nerone: come faceuano etiandio della Fede gli antichi, la quale hebbero parimente per Dea, & la fa Silio Italico habitare nella più secreta parte del Cielo, fra gli altri Dei, quando finge, che Hercole la và a trouare per la difesa di Sagunto, & le comincia à parlare in questo modo.
+
+*O santa Fè, che innanzi al sommo Gioue*
+*Fosti creata, e adorni huomini, e Dei:*
+*Per te tutte le cose han pace, & oue*
+*Talhora per difetto human non sei,*
+*Di rado è, che Giustitia vi si troue,*
+*Perche tu sempre vai à par con lei.*
+*Et habiti ne i casti, e giusti petti,*
+*Oue i santi pensier sono ristretti.*
+
+Percioche la Fede hà da stare secreta, cioè le cose, che altrui sono credute in fede, & hà da essere pura, & monda da ogni inganno. Per la quale cosa fu ordinato da Numa secondo Rè de i Romani, che il Sacerdote sacrificando alla Fede hauesse la mano coperta di vn velo bianco, come recita Liuio, per dare ad intendere, che si hà da guardare la fede con ogni sincerità, & che ella era consecrata nella destra mano, perche la dobbiamo difendere con ogni prontezza, & forza. Virgilio parimente chiamò la Fede bianca, & canuta, il che Seruio interpreta detto ancora, perche pare, che si troui più fede ne gli huomini già canuti, & vecchi. Et Horatio dolendosi de i suoi tempi dice, che la Fede vestita di bianco è poco adorata, oue Acrone nota, che in sacrificando alla Fede il Sacerdote si copriua non solo la destra mano con bianco velo, ma il capo ancora, & quasi tutta la persona a dimostratione della candidezza dell'animo, che hà da accompagnare sempre la Fede. Per la quale cosa disse l'Ariosto.
+
+*Non par che da gli antichi si dipinga*
+*La santa Fè vestita in altro modo,*
+*Che d'Vn vel bianco, che la cuopre tutta,*
+*Che Vn sol punto Vn sol neo la può far brutta.*
+
+Колонтитул: Imagini de i Dei · с. 266
+Кустод: Et
+Сигнатура:
+Маргиналии:
+- Fede Dea.
+- Silio Italico.
+- Colore proprio della Fede.
+- Horatio.
+- Ariosto.
+
+## Скан 0309 · с. 267
+
+[ГРАВЮРА: Imagini della Concordia, & hieroglifici denotanti la Fede, & la Concordia. con la imagine della Fede, significanti la secretezza della medesima, & la sua purità, & che per la Concordia multiplica l'abondanza delle cose, le genti, & l'agricoltura, con gli vccelli Cicogna, & Cornice alla concordia sacrati, che dinotano l'istessi effetti.]
+
+Колонтитул: De gli Antichi · с. 267
+Кустод:
+Сигнатура:
+Маргиналии:
