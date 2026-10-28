@@ -131,3 +131,8 @@
 | 0256 | 214 | гравюра | получеловек-полукозёл (Тарасиппо) с копьём, стоящий рядом с повозкой/плугом; вверху медальон с пылающей чашей на подставке, справа медальон с женской фигурой в сосуде/урне | |
 | 0259 | 217 | гравюра | две плывущие в волнах женские фигуры с рыбьими хвостами (морские богини) | |
 | 0261 | 219 | гравюра | группа из четырёх крылатых фигур ветров вверху (с солнцем в центре) и две пары обнимающихся фигур внизу (ветры с их супругами) | |
+| 0263 | 221 | гравюра | Imagini di Cefiso, & del Pò fiumi, quello di Grecia, questo d'Italia, & d'vn giouanetto che tagliatisi li capelli à quello gli offerisce, & dinotano la natura & impeto de fiumi con il lor mormorio, & tortuoso corso. | |
+| 0265 | 223 | гравюра | Imagine del Teuere mostrante l'abondanza, e'l principio dell'Imperio di Roma, ve' due fratelli. | |
+| 0267 | 225 | гравюра | Imagini del fiume Nilo sedente sopra la Sfinge con molti fanciulli intorno che dinotano li gradi del crescimento del detto fiume, che sono sedeci cubiti per ordinario. | |
+| 0269 | 227 | гравюра | Imagine di Vertunno, con Pomona appresso; tenuto per Dio de pensieri humani, dell'anno, de gli horti; mutatore di diuerse faccie, inteso anco per il fiume Tebro. | |
+| 0272 | 230 | инициал | B | |

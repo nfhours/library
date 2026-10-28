@@ -4861,3 +4861,272 @@ risguardeuoli. Finsero dunque i Greci, che Proteo così si cangiasse in diuerse 
 Кустод:
 Сигнатура:
 Маргиналии:
+
+## Скан 0262 · с. 220
+
+ne, quando ella lo pregò appresso di Virgilio, che turbasse il mare con grandissima tempesta à danno de' Troiani, che nauigauano in Italia.
+
+*Tù, qualunque il mio regno sia, mi fai*
+*Rè, tù mi rendi il sommo Gioue amico,*
+*E da te vien, che sono in mio potere*
+*I fieri Venti, i nembi e le tempeste.*
+
+Nondimeno nè hora sarà fuori di proposito dirne quel poco, che ne hò trouato scritto, hauendo gli antichi adorati questi ancora come Dei, & fatto loro sacrificio, ò perche fossero già stati, ò perche hauessero ad essere fauoreuoli all'auenire: & gli dipinsero con le ali, con il capo tutto rabbuffato, & con le guancie gonfie in guisa di chi soffia con gran forza, & secondo poi, che diuersi sono gli effetri, che essi operano col soffiar loro; perche alcuoi raccogliono le nuuole insieme, & fanno le pioggie, alcuni le scacciano, & in molti altri modi mostrano il poter loro, così furono da' Poeti descritti diuersamente. E ben che di molti si legga, quattro però solamente sono i principali, che soffiano dalle quattro parti del mondo, ciascheduno dalla sua, come sono disegnati da Ouidio nel partimento primo dell'vniuerso. Ma vi sono stati ancora secondo Strabone alcuni, che hanno voluto, che non fossero più di due. L'vno detto Aquilone, & chiamato Borea ancora, & da' marinari de' nostri tempi Tramontana, che soffia da Settentrione, & questo scriue Pausania, che era scolpito da vn lato dell'arca di Cipsello nel tempio di Giunone appresso de gli Elei in Grecia, che rapiua Orithia, come fingono le fauole, ne dicc, come ei fosse fatto, se non che in vece di piedi haueua code di serpenti: ma perche ei fa col suo soffiare freddo grande, porta le neui; & indurisce il ghiaccio, gli si fà la barba, i capegli, & l'ali tutte coperte di neue. L'altro è l'Austro detto etiandio Noto, & Ostro da' marinari, che viene dalle parti mezzo dì: di doue perche questo con il suo soffiare adduce per lo più pioggie, così lo descriue Ouidio.
+
+*Spiega l'ali guazzose Noto, e Viene*
+*Con viso oscuro, e carco di spauento.*
+*Le bianche chiome son di pioggia piene,*
+*E di nembi il barbuto horrido mento.*
+*La fronte cinge densa nebbia, e tiene*
+*Il Ciglio graue al tempestoso vento,*
+*Cui bagnan l'acque ogni hor le piume, e'l petto,*
+*Nè mai serena al nubiloso aspetto.*
+
+Колонтитул: 220 Imagini de i Dei
+Кустод: Et
+Сигнатура:
+Маргиналии:
+- Virgilio.
+- Venti principali.
+- Ouidio.
+- Borea.
+- Noto.
+- Ouidio.
+
+## Скан 0263 · с. 221
+
+[ГРАВЮРА: Imagini di Cefiso, & del Pò fiumi, quello di Grecia, questo d'Italia, & d'vn giouanetto che tagliatisi li capelli à quello gli offerisce, & dinotano la natura & impeto de fiumi con il lor mormorio, & tortuoso corso.]
+
+Колонтитул: De gli Antichi. 221
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0264 · с. 222
+
+Et dei quattro che io dissi, il terzo è detto Euro, ò Leuante da nostri, che soffia dalle parti dell'Oriente, & si fà tutto negro per gli Etiopi, che sono nel Leuante. d'onde egli viene; & si dipinge con vn Sole infocato sul capo, però che, se il Sole, quando tramonta, è rosso, mostra, che questo vento hà da soffiare il dì, che vien dietro, come scrisse Virgilio. Il quarto, il cui lieue spirare si sente con vna aura temperata, e soaue dall'Occidente, è Zefiro, ò Ponente secondo i moderni, il quale perciò di primauera veste la terra di verdi herbe, & fa fiorire i verdeggianti prati. Onde venne che le fauole lo finsero marito di Flora, che già dicemmo adorata da gli antichi come Dea de i fiori, la imagine della quale fù di bella ninfa: onde ella stessa quando racconta ad Ouidio le ragioni delle sue feste, così gli dice della bellezza sua.
+
+*E per modestia non ti dico, s'io*
+*Fossi bella: ma basta, che fui tale,*
+*Che vn Dio non isdegnò, sol per hauermi*
+*Venire à farsi genero à mia madre.*
+
+Portaua ghirlanda in capo di diuersi fiori, & veste parimente tutta dipinta a fiori di colori diuersi: perche dicono, che pochi sono i colori, de i quali non si adorni la terra: quando fiorisce. Et di Zefiro fà Filostrato vn disegno tale. Egli è giouane di faccia molle, & delicata, hà le ali a gli homeri, & in capo vna ghirlanda di belli, e vaghi fiori, Nè più dico de i venti, ma ritorno a i fiumi, li quali da gli antichi furono parimente stimati Dei, ò Numi, come si voglia dire, & gli pregauano con solenni voti, & faceuano loro sacrificio non meno che a gli altri, & soleuano offerirgli de i capegli tagliatisi perciò con certa cerimonia, & lo faceuano tutti i Greci per antico costume, come dice Pausania, che si può raccogliere da Homero, quando mette; che Peleo fa voto al fiume Sperchio di tagliarsi i capegli, & darli a lui, se Achille ritorna sano, & saluo dalla guerra di Troia. Et nel paese di Athene appresso a Cefiso fiume era certa statoa di vn giouinetto, che si tagliaua i capegli per dargli a quello. Erano i fiumi fatti in forma di huomo con barba, e con capelli lunghi, che stia giacendo, & appoggiato sopra l'vn braccio, come dice Filostrato, quando dipinge la Thessaglia, perche non si lieuano i fiumi mai dritti in alto; & alle volte ancora, & per lo più, si appoggia sopra vna grande vrna, che versa acqua, & però Statio così dice di Inaco fiume, che passa per la Grecia.
+
+*Inacho ornato il capo di due corna*
+*Sedendo appoggia la sinistra all'vrna,*
+*Che prona l'argamente l'acque versa.*
+
+Колонтитул: 222 Imagini de i Dei
+Кустод: Et
+Сигнатура:
+Маргиналии:
+- Euro.
+- Zefiro.
+- Flora
+- Pausania.
+- Filostrato.
+- Inacho.
+- Statio.
+
+## Скан 0265 · с. 223
+
+[ГРАВЮРА: Imagine del Teuere mostrante l'abondanza, e'l principio dell'Imperio di Roma, ve' due fratelli.]
+
+Колонтитул: De gli Antichi. 223
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0266 · с. 224
+
+Et fansi con le corna i fiumi, dice Seruio, ouero perche il mormorio dell'onde rappresenta il muggiare de i buoi, ouero perche veggiamo spesso le ripe de i fiumi incuruate a guisa di corna. Onde Virgilio, oue chiama il Tebro Re de i fiumi della Italia, lo chiama cornuto ancora, & così lo dipinge quando fa, che ad Enea,
+
+*Trà le populee frondi par mostrarsi*
+*Già vecchio, cinto gli homeri, & il petto*
+*Di verdeggiante velo, e ombrosa canna*
+*Cuopre, e circonda le bagnate chiome.*
+
+Et del Pò chiamato Eridano ancora dice in vn'altro luoco, che hà la faccia di Toro con ambe le corna dorate. Oue Probo espone fingersi il Pò con faccia di Toro, perche il suono, che fà il corso suo è simile al muggito de i Tori, & le ripe sue sono torte come corna, & Eliano parimente scriue, che le statoe de' fiumi, le quali da prima erano fatte senza alcuna forma, furono poscia fatte in forma di Bue. Come si legge anco appresso di Festo Pompeo, oue dice, che i simulacri de i fiumi erano fatti in forma di Tori, cioè con le corna, perche sono fieri, & atroci come i Tori. Oltre di ciò coronauano gli antichi i fiumi di canne, perche la canna nasce, & cresce meglio ne i luochi acquosi, che altroue, & quindi venne che Virgilio fece, come dissi pur mò, il Tebro hauere il capo coperto di canna. Et Ouidio raccontando la fauola di Aci già mutato in fiume, quando Polifemo gli hebbe gittato quel sasso addosso, che lo schiacciò tutto, fa così dire a Galatea di lui.
+
+*Subito sopra l'acque tutto aparue*
+*Il giouinetto fin alla cintura,*
+*Et in altro mutato non mi parue,*
+*Se non, ch'era d'assai maggior statura.*
+*Et il color di prima anco disparue,*
+*Onde la faccia già lucida, e pura*
+*Verdeggia, e ornato è d'vno, e d'altro corno*
+*Il capo, cui và verde canna intorno.*
+
+Vedesi però a Roma in Vaticano vna statoa del Tebro, che non hà le corna, nè il capo cinto di canne, ma di diuerse foglie, & di frutti volendo forse in quel modo mostrare chi la fece, la fertilità, & l'abondanza, che fa questo fiume in quel paese, nè lasciò però costui in tutto la fittione de i Poeti, perche gli pose vna canna in mano. Quando appresso di Ouidio Acheloo racconta a Theseo il rumore, che ei fece con Hercole per Deianira, dice, che stà apoggiato sopra l'vno
+
+Колонтитул: 224 Imagini de i Dei
+Кустод: l'vno
+Сигнатура:
+Маргиналии:
+- Tebro.
+- Virgilio.
+- Pò fiume.
+- Probo.
+- Eliano.
+- Aci fiume.
+- Ouidio.
+- Acheloo.
+
+## Скан 0267 · с. 225
+
+[ГРАВЮРА: Imagini del fiume Nilo sedente sopra la Sfinge con molti fanciulli intorno che dinotano li gradi del crescimento del detto fiume, che sono sedeci cubiti per ordinario.]
+
+Колонтитул: De gli Antichi. 225
+Кустод:
+Сигнатура: P
+Маргиналии:
+
+## Скан 0268 · с. 226
+
+l'vno delle braccia, & hà cinto il capo di verde canna, & è con vn manto pur verde intorno, & non hà due corna come gli altri, ma vno solamente, perche l'altro gli fu rotto da Hercole, secondo le fauole, il quale pieno di diuersi fiori, & frutti fu poi donato a quelli di Etolia, che lo chiamorono corno di douitia. Et fu così finto, come recita Diodoro, perche Hercole con non poca fatica torse vn ramo di quel fiume dal suo primo corso, & lo riuoltò in altra parte, la quale, oue era da prima arida, & non fruttaua, diuenne per l'acque che vi spargeua sopra alle volte questo fiume co'l riuoltato ramo, fruttifera sopra modo. Et perciò sono i fiumi descritti diuersamente da' Poeti, risguardando essi talhora alla qualità delle acque, & al corso loro, & talhora alla natura del paese, per lo quale passano. Onde è, che scriuendo Pausania dell'Arcadia dice, che in certa parte di quel paese sono alcune statoe de i più nobili fiumi, & celebrati da gli antichi tutte di bianchissimo marmo, eccetto però quella del Nilo che la hà di pietra negra. Et soggiunge poi, che ragioneuolmente fu fatta la statoa del Nilo di pietra negra, perche ei correndo al mare passa per gli Ethiopi gente tutta negra. Luciano scriue, che dipingendo quelli di Egitto il Nilo, lo metteuano a sedere sopra vn Crocodilo, ouero su vn cauallo Fluuiatile, qual'è certa bestia da quattro piedi, come la descriue Herodoto, della grandezza di vn gran Toro, & hà la testa come i buoi, il naso schiacciato, come le capre, le crine come di cauallo, & la voce; gli denti in fuori, & incerti, la coda splendida, & il cuoio così grosso, & duro, che quando è secco, ne fanno dardi; & fu detto questo animale da i Greci Hippopotamo, & gli faceuano intorno alcuni fanciullini, li quali tutti lieti scherzauano, come si legge anco appresso di Plinio, il quale scriuendo di certa sorte di marmo duro, e rozzo come il ferro, dice, che Vespasiano pose nel gran Tempio della Pace vna statoa del Nilo la maggiore, che fosse mai vista, con sedeci figliuolini, che gli scherzauano intorno, & significauano, che le acque di quel fiume al maggior crescere, che facessero, arriuauano fino all'altezza di sedeci cubiti. Leggesi ancora, che la statoa di Vertunno posta nel foro Romano rappresentaua il Tebro, che prima passaua quindi, ma fu poi riuoltato in altra parte, & era adornata di fiori, & di frutti, per mostrare, come dissi pur dianzi, la fertilità de i campi à lui vicini. Benche fu Vertunno ancora creduto vn Dio, che fosse sopra à gli humani pensieri, & che si mutasse in diuerse forme, perche spesso mutano gli huomini pensiero. Et alcuni lo dissero il Dio dell'anno, il quale secondo le stagioni piglia diuerse faccie, & à gli huomini porge occasione di fare quando vna, & quando altra cosa, come dice Propertio, ilqnale rende la ragione del nome suo, & insieme lo descriue così bene, che non dando a me l'animo di dirne più, ne meglio, porrò solo quello che ei ne dice, tirando al volgare alcuni suoi versi in questo modo.
+
+Колонтитул: 226 Imagini de i Dei
+Кустод: VER-
+Сигнатура:
+Маргиналии:
+- Cerere di douitia.
+- Nilo fiume.
+- Vertunno.
+- Propertio.
+
+## Скан 0269 · с. 227
+
+[ГРАВЮРА: Imagine di Vertunno, con Pomona appresso; tenuto per Dio de pensieri humani, dell'anno, de gli horti; mutatore di diuerse faccie, inteso anco per il fiume Tebro.]
+
+Колонтитул: De gli Antichi. 227
+Кустод:
+Сигнатура: P 2
+Маргиналии:
+
+## Скан 0270 · с. 228
+
+VERTVNNO.
+
+*A che [?] marauigli di Vedere,*
+*Tante forme in Vn capo? se m'ascolti*
+*Che sia Vertunno tu potrai sapere.*
+*Quà venni di Toscana, oue da molti*
+*Visitato non son, nè mi dier mai*
+*Tempi, con archi, ò con superbi volti.*
+*Di che punto non curo, perche assai*
+*Mi basta di veder il Roman Foro,*
+*Et vnqua d'altri honor non mi curai.*
+*Passauan di quà via col corso loro*
+*L'acque del Tebro già, come si dice,*
+*Che in altra parte poi voltate foro.*
+*Perche'l bel Tebro con lieto, e felice*
+*Successo al popol suo volse dar loco,*
+*E ciò fù del mio nome la radice.*
+*O che da l'anno, qual a poco a poco*
+*Si và volgendo, fui Vertunno detto,*
+*E consecrato ancora in questo loco.*
+*Quasi che per me sotto l'humil tetto*
+*Riponga il contadino la ricolta,*
+*Che poscia gode, e per cotal rispetto*
+*Vedi che circondato son di molta*
+*Vua, che porporeggia, e la mia testa*
+*E' tutta di mature spiche auolta.*
+*Et par che'l tempo ogni anno mi riuesta*
+*Secondo la stagion di dolci frutti,*
+*Che mi porge la mano al mio honor presta.*
+*Però qui vedi i pomi già produtti*
+*Dal pero a suo dispetto, che l'accorto*
+*Inseritor m'offerse, nè di tutti*
+*Gli altri ti vò dir hora, perche scorto*
+*Da la mendace fama altra ragione*
+*Di nouo del mio nome anco t'apporto.*
+*Ma tu, non quel, che dicon le persone*
+*Di me, ma quel ch'io stesso dico credi,*
+*Ch'al ver non son tutte le lingue buone.*
+*La mia natura è atta, come vedi,*
+*A trasformarsi in tutte le figure,*
+*Pommi in carro, à cauallo, ò fammi à piedi.*
+*Io mi confaccio a tutto, e se tu cure*
+*Vedermi giouinetta delicata,*
+*Dammi feminil vesti monde, e pure*
+
+Колонтитул: 228 Imagini de i Dei
+Кустод: Huom
+Сигнатура:
+Маргиналии:
+
+## Скан 0271 · с. 229
+
+*Huom farò, se la toga mi sia data,*
+*E farò con la falce vn mettitore,*
+*S'haurò di fien la fronte coronata.*
+*Vestito d'arme già non poco honore*
+*Per quelle hò meritato, sì pareua*
+*A tutti ch'io fossi huom di gran Valore,*
+*Et chi l'arme d'intorno poi mi leua,*
+*E mi veste da graue litigante,*
+*Paio nato a le liti, e se l'aggreua*
+*Vedermi sì seuero, conuiuante*
+*Quasi ebbro mi vedrai, se'l capo m'orni*
+*Di rose, e che giocondo, e lieto cante.*
+*Parrotti Bacco poi, se tu mi adorni*
+*De la mitra, ch'ei porta, e giurerai*
+*Che veduto non hai vnqua a tuoi giorni*
+*Che più Febo assomigli, se mi dai*
+*L'arco, e la cetra, & vn gran cacciatore*
+*S'haurò le reti tu mi crederai.*
+*Mi dirà ogn'Vno Vago Vccellatore*
+*Simile a Fauno, che mi veggia in mano*
+*La lieue canna; e che? non mi dà il core*
+*Dimostrarmiti ancor à mano à mano*
+*Vn dotto auriga, simile a chi regge*
+*I correnti destrier con forte mano?*
+*I somma non hà termino, nè legge*
+*Alcuna il mio cangiarmi in varie forme,*
+*Qual fò sì ben, ch'alcun mai nol corregge,*
+*S'io vorrò, sarò simile à chi l'orme*
+*Guarda de i vaghi greggi, e de gli armenti,*
+*Ouer farommi a vn pescator conforme.*
+*E quel, che fa più forse che mi senti*
+*Nominar spesso, e che de i ben colti horti*
+*I bei frutti mi son sempre presenti.*
+*Come la Zucca, e'l cauol con ritorti*
+*Giunchi legato, e me notano ancora*
+*I cocomeri, quali mi son porti.*
+*Et ti concludo che quanto orna, e infiora*
+*I lieti prati, tutto mi vien dato,*
+*Et perche mi riuolto adhora adhora*
+*In forme assai, Vertunno fui chiamato.*
+
+Колонтитул: De gli Antichi. 229
+Кустод: PLV
+Сигнатура: P 3
+Маргиналии:
+
+## Скан 0272 · с. 230
+
+PLVTONE.
+
+[ИНИЦИАЛ: B]Enche nella partigione, che fecero frà loro dell'vniuerso i figliuoli di Saturno, toccasse all'vno il regno del Cielo, all'altro quello delle Acque, & al terzo quello dell'Inferno, secondo le fauole che viene a dire, come lo raccontano le historie, che Gioue hebbe le parti dell'Oriente, Plutone dell'Occidente, e Nettuno le Isole del mare: nondimeno pare, che ciascheduno di loro habbi che fare per tutto, onde Nettuno appresso di Virgilio minaccia i Venti; perche senza intendere il suo volere hanno hauuto ardire di turbare il Cielo, & la terra; & Gioue souente mette ordine alle cose dell'Inferno & Plutone parimente alza il suo potere fino in Cielo: da che vien detto che Gioue hà il fulmine con tre punte, Nettuno il tridente. la imagine di costui, la porremo talhora di potere pare al Sole, & talhora simile alla terra, ma sarà egli però il Rè dell'Inferno, come che quiui più, che in altra parte valesse il suo potere, oue gouernaua le anime vscite già de i corpi de i mortali. Et acciòche a ciascheduna fosse dato luoco, & pena secondo i meriti haueua tre giudici a ciò deputati, Eaco l'vno, l'altro Radamanto, & il terzo Minos, che come si è altroue detto, furono figliuoli di Gioue, & di Europa l'vno, & li due di Asia. Delli quali dirò prima, quello, che se ne legge appresso di Platone, & dapoi verrò alla imagine di Plutone, perche mi pare ciò debba essere cosa assai bella, e diletteuole, & dalla quale si può vedere come questi tre si habbiano a dipingere, oltre che vi s'impara anco quali debbano essere i Giudici, così dunque disse Platone. Fù già al tempo di Saturno vna legge tale, la quale hoggi ancora è appresso de i Dei, & vi fu sempre, che tutti quelli huomini, li quali viuendo erano stati giusti, & buoni, morendo poi ne andassero alle Isole de i Beati, & all'incontro chi hauesse operato male in vita, doppo morte in luoco
+
+Колонтитул: 230 Imagini de i Dei
+Кустод: luoco
+Сигнатура:
+Маргиналии:
+- Giudici dell'Inferno.
+- Platone.
+
+## Скан 0273 · с. 231
+
+luoco a ciò deputato fosse meriteuolmente punito. Et al tempo di Saturno, & quando cominciò Gioue a regnare, parimente erano giudicati gli huomini viui ancora, & da Giudici pur anche viui nel dì medesimo, che doueuano morire; onde auueniua, che molti erano ingiustamente giudicati. La qual cosa intendendo Gioue da Plutone, & da quelli, che al gouerno stauano delle Isole Beate, perche molti senza meritarlo andauano à loro, disse; Ben prouederò io a questo disordine, poiche conosco, che di esso la cagione è, che gli huomini hora sono giudicati prima che moiano, & essendo anco vestiti del corpo mortale, doue hanno chi dice bene, & chi male di loro: & perciò molte anime empie, & maluagie hanno ardire di presentarsi a i Giudici come buone, perche cuoprono la maluagità loro con la bellezza del corpo, con la nobilità del casato, & con la splendidezza delle ricchezze; nè mancano loro testimonij, quali dicano, che in tutta la loro vita furono sempre buoni, & giusti. Onde i Giudici vestiti parimente delle membra terrene, le quali sono quasi oscuro velo intorno all'anima, non ponno se non marauigliarsi della bontà di quelli, & giudicarli perciò degni di ogni bene. Bisogna dunque fare prima, che gli huomini non sappiano, quando hanno da morire, come hora sanno (Et così si fù comandato a Prometheo, che douesse fare) Dapoi che spogliati di tutte le cose terrene, & già morti vadino dinanzi à gli Giudici, li quali siano parimente nudi, & morti, sì che veggiano con l'animo solo gli animi solamente nudi, & aperti & così riuscirà facilmente, che sia giusto il giudicio, che si farà di loro. Per la qual cosa voglio, come già trà me medesimo hò deliberato, che i miei figliuoli, due nati in Asia, cioè Minos, e Radamanto, & vno di Europa, il quale è Eaco, poscia che saranno morti, stando in certo prato (questo era chiamato il campo della verità) oue la strada in due parti si diuide, l'vna delle quali và all'Inferno, l'altra alle Isole de i Beati, siano Giudici delle anime de i mortali; & giudicherà Radamanto tutti gli Asiatici, & Eaco quelli, che verranno di Europa, & se qualche dubio vi sarà talhora, toccherà a Minos di conoscerlo, acciòche senza inganno alcuno siano mandate le anime a i meritati luochi. Questo fu l'ordine posto da Gioue, perche le anime fossero giustamente giudicate. Il perche stanno Radamanto, & Eaco, quando giudicano, ciascheduno di loro con vna verga in mano; & Minos separato da quelli siede solo, & considera, tenendo anche egli in mano vno scettro dorato che così dice Vlisse appresso di Homero di hauerlo veduto in inferno rendere ragione à i morti: le anime de i quali portano sopra di sè segnati, & impressi tutti gli affetti, che hebbero, & ciò, che operarono mentre, che furono congionte à i corpi. Di modo che i giusti gindici quando se le veggono dauanti, non dimandano, nè vogliono sapere chi furono, ma guardano quel, che
+
+Колонтитул: De gli Antichi. 231
+Кустод: fecero
+Сигнатура: P 4
+Маргиналии:
+- Giudici perche falsi.
+- Ordine buono per giudicare le anime.
+- Radamanto
+- Eaco.
+- Minos.
