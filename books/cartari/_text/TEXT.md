@@ -7435,3 +7435,231 @@ Potrassi fare anco talhora l'Asino con Priapo, perche glielo sacrificorono gli A
 Сигнатура:
 Маргиналии:
 - Horatio.
+
+## Скан 0406 · с. 364
+
+apparecchiaua di cogliere di Vesta già vna volta, che la trouò addormentata in certa festa della gran Madre, come racconta la fauola riferita da Ouidio; ouero perche come pongono quelli, che scriuono delle stelle del Cielo, frà le quali due nel segno del Granchio furono dette Asinelli, vn'Asino insuperbito già per la fauella humana, datagli da Baccho in premio di hauerlo portato oltre à certo fiume, venne à contesa con Priapo della grandezza del membro naturale, & lo vinse, ma con suo grauissimo danno, perche Priapo sdegnato di ciò l'vccise: & forse che imitarono questo dapoi gli antichi, sacrificandogli l'Asino. In Egitto, quando voleuano mostrare questo Dio ne' loro sacri segni, faceuano vn Becco, perche si legge di questo animale, che nato di sette dì solamente comincia à montare, & è apparecchiato al coito quasi sempre; onde non è marauiglia, che per lui fosse mostrato il membro, che si adopra al generare, adorato da gli antichi sotto il nome di Priapo. E col medesimo animale fu anco mostrato Baccho alle volte: perche trouasi ch'egli si cangiò in questo, quando con gli altri Dei fuggì dalle mani di Tifone in Egitto. Apollodoro scriue, che Gioue mutò Baccho ancor fanciullino in capretto per nasconderlo da Giunone, & che lo mandò per Mercurio alle Ninfe a nudrire, & perciò fu il Capro poi sempre vittima molto grata à Baccho; ò pur fu forse perche questa bestia è grandemente noceuole alle viti. Oltre di ciò si legge, che fu posto talhora in mano à Baccho vno scettro col membro virile in cima, che mostraua forse il commune potere, che haueua Priapo con lui, benche ne rendono alcuni certa altra ragione così poco honesta, che non mi pare di douerla dire, se bene la riferisce l'interprete della prima oratione di Gregorio Nazianzeno contra Giuliano Apostata, & l'acenna anco Theodorito Vescouo Cirense. Ma dirò più tosto che la forma del membro detto già tante volte apparue in casa di Tarquinio Prisco sul focolare, come recitano le historie, d'onde vna serua della sua moglie detta Ocrisia, che quiui era stata assisa, se ne leuò grauida di vn figliuolo ch'ella partorì poi al suo tempo, & fu alleuato con diligenza grande, come ch'ei fosse stato conceputo del seme del Lare Dio domestico, e perciò hauesse da essere grande huomo, come fù, che fù Rè de' Romani detto Seruio Tullo. Era il Lare, ouero i Lari, perche erano molti, certi Dei, ò piu tosto Demonij, adorati da gli antichi nelle proprie case, come custodi di quelle, in certo luoco à questo deputato oltre al focolare, del quale dissi già, che per ciò era detto Larario, ou'erano anco delle altre imagini, come si legge appresso di Lampridio, che Alessandro Imperadore di Roma hebbe due Lararij. Nell'vno, che era il maggiore, teneua Apollonio, Abramo, & Orfeo, & haueua nell'altro, che era il minore, Cicerone & Virgilio. Nè erano i Lari custodi delle priuate case solamente ma di tutta la Cittade anchora, & de i campi etiandio fuori alla Villa, come mostra Tibullo, quando dice.
+
+Колонтитул: 364 Imagini de i Dei
+Кустод: Et
+Сигнатура:
+Маргиналии:
+- Becco per Priapo.
+- Apollodoro.
+- Capro datto à Baccho.
+- Gregorio Nazianzeno.
+- Lare.
+- Lampridio.
+- Tibullo.
+
+## Скан 0407 · с. 365
+
+[ГРАВЮРА — полностраничная]
+
+*Imagini delli Dei Lari, cioè custodi delle priuate case, & delle particolari Città, & inuestigatori de fatti humani, ouero Dei noceuoli; & imagine delli Dei Penati, & hieroglifico loro, dinotanti ancora loro Dei familiari, & custodi delle Città, & case de priuati.*
+
+Колонтитул: De gli Antichi. 365
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0408 · с. 366
+
+*Et voi Lari custodi gia de' ricchi.*
+*Hor de' poueri campi, i vostri doni*
+*Accettate, c'humil Vi porgo, e sacro.*
+
+Onde furono adorati souente sù i crocicchi delle vie, oue appendeuano loro in certi dì alcune palle, & figurette di lana; quelle erano per gli serui, queste per gli altri; & tante ne metteua ciascheduno delle vne, & delle altre, quanti erano tutti di casa, accioche venendo i Lari si appigliassero a queste, ne facessero poi male alle persone; perche credettero alcuni, ch'eglino fossero Demonij d'inferno, li quali venuti sopra terra allhora, ch'erano celebrati alcuni dì per loro, haurebbono fatto del male alle persone; se trouato non hauessero da trastullarsi intorno alle figurette, ch'io dissi. O veramente fu fatto questo da gli antichi, perche alcuni altri dissero che i Lari erano le anime nostre vscite già de' corpi mortali, le quali veniuano a queste feste, & bisognaua, che trouassero qualche corpo, oue riposare, che l'vno, e l'altro si raccoglie da Festo. Ma per lo più erano stimati i Lari certi Demoni custodi priuati delle case & erano perciò fatti in forma di giouanetti vestiti con pelle di Cane, che habbino a' piedi pur anco il Cane; volendo gli antichi mostrare per questo animale, ch'eglino erano fideli, e diligenti guardiani delle case, formidabili a gli stranieri, & piaceuoli a' domestici, come apunto sono i cani, secondo che Plutarco riferisce; & Ouidio parimente haueua già scritto il medesimo rendendo la ragione, perche il cane fosse co i Lari. Li quali erano anco alle volte vestiti con panni succinti, & riuolti sopra la spalla sinistra, in modo che vengono sotto la destra, per esser più spediti al loro vfficio, qual'era, come dice il medesimo Plutarco, di andare cercando tutto quello, che faceua ciascheduno, & spiare con diligenza tutte le opere humane, accioche per loro fossero poi gastigati gli empij, & maluagi huomini de' misfatti loro. A questi Lari furono simili i Penati, almeno nel guardare le città, & hauerne buona custodia: & alcuni vollero, che appresso de' Romani fossero Gioue, Giunone, e Minerua. Altri dissero, che furono Apollo, e Nettuno, li quali fecero le mura a Troia. Cicerone scrisse, che Penati erano certi numinati nelle priuate case, & adorati nelle più secrete parti di quelle. Onde Demisonte appresso di Terentio dice di volere andare a casa a salutare i Penati, per ritornar dapoi alla piazza alle facende: & quindi si vede, che questi etiandio non meno de i Lari stauano dimesticamente nelle case; & la imagine loro, come scriue Timeo Historico, furono due verghe di ferro lunghe, & intorte, come quelle, che teneuano gli indiuini in mano, quando pigliauano augurio, con certo vaso di terra: e teneuano gli antichi queste cose frà loro sacri misterij.
+
+Колонтитул: 366 Imagini de i Dei
+Кустод: Leggesi
+Сигнатура:
+Маргиналии:
+- Figure offerte a i Lari.
+- Lari.
+- Cane co' Lari.
+- Penati.
+- Cicerone.
+
+## Скан 0409 · с. 367
+
+[ГРАВЮРА — полностраничная]
+
+*Imagini del Genio buono, & cattiuo, custode & osseruatore della generatione humana, delle attioni, & delle Città, & luoghi priuati.*
+
+[ВИНЬЕТКА: декоративный типографский орнамент под подписью]
+
+Колонтитул: De gli Antichi. 367
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0410 · с. 368
+
+Leggesi appresso di Dionisio, che in certo piccolo tempio, poco lunge dal Foro Romano, furono due figure di giouani, che sedeuano, & haueua in mano ciascun di loro vn Pilo, che era certa hasta vsata già da Romani in guerra, con lettere che diceuano, Dei Penati, & che in molti altri antichi tempij si vedeuano simili imagini di giouani con habito, & ornamento militare, e veggonsene anco di così fatte in alcune medaglie antiche. Oltre di questi fu il Genio parimente vn Nume domestico, e proprio di ciascheduno, qual vollero alcuni, che fosse il Dio della hospitalità, del piacere, & buon tempo e della natura: & perciò è detto di accordarsi col Genio chi si dà bel tempo, & fa tutto quello, che la natura gli mette innanzi, ma che gli fa torto, chi fa il contrario. Horatio scriuendo a Giulio Floro discorre sopra la instabilità delle cose de mondo, & i varij voleri de gli huomini: poi fa vn quesito, d'onde viene, che di due fratelli vno si diletterà di stare sempre a piacere, l'altro di trauagliarsi sempre, e risponde anco così
+
+*Sasselo il Genio Dio de la Natura,*
+*Che tempra, e regge la stella natia*
+*Di ciascheduno, e l'accompagna sempre,*
+*E si cangia souente, onde si mostra*
+*Hor bianco, e bello, & hora brutto, e negro.*
+
+Alcuni altri, come Censorino, hanno detto, che il Genio fù adorato da gli antichi come Dio della generatione, o perch'egli di questa hauesse la cura, ò perch'egli di questa hauesse la cura, ò perche fosse generato insieme con noi, e con noi stesse poi sempre, come nostro custode, & voleuano perciò, che tanti fossero i Genij, quanti erano gli huomini, come che a ciascheduno fosse dato il suo; ò che pure fossero due volte tanti, & che ciascuno n'hauesse due, vn buono, & vn rio: quello essorta, & inanimisce sempre al bene, questo al male, come diciamo apunto noi Christiani de gli Angeli nostri custodi, & de i Demonij solleciti tentatori, se non che questi non nascono con noi, come intendeuano gli antichi, che i Genij nascessero non ciascheduno; & il medesimo dissero anco de i Lari: sì che furono questi fra loro poco differenti, & perciò posero i Romani sù i crocicchi delle strade, e per le ville il Genio di Augusto co' Lari, e gli adorarono insieme. Benche adoraua anco ciascuno il suo Genio da sè, celebrando il suo dì Natale allegramente, e con molto piacere, ma quel del Prencipe era riuerito da ogn'vno più di tutti gli altri. Onde chi hauesse giurato il falso per lo Genio del Prencipe sarebbe stato subito punito, perche questo appresso de gli antichi era giuramento grauissimo. Et perciò Caligola Prencipe molto crudele facendo morire molti
+
+Колонтитул: 368 Imagini de i Dei
+Кустод: molti
+Сигнатура:
+Маргиналии:
+- Dionisio.
+- Genio.
+- Horatio.
+- Censorino.
+- Genio doppio.
+- Genio del Prencipe.
+
+## Скан 0411 · с. 369
+
+molti per leggerissime cause, come recita Suetonio, soleua dire questo di alcuni, che gli faceua morire, perche non haueuano giurato mai per lo suo Genio, come che perciò lo sprezzassero, e mostrassero di giudicarlo non degno di esser adorato. Era dunque il Genio certo nume, che infino dal loro primo nascimento accompagnaua gli homini sempre: & à i luochi ancora erano dati alle volte questi Numi, come dice Iamblico Filosofo, mostrando, che a quelli Dei, li quali sono particolari custodi, e guardiani di alcun luoco, si hà da fare sacrificio di quelle cose, che nascono quiui, perche le cose gouernate sono piu care delle altre a chi le gouerna. E Virgilio, quando fa che ad Enea, mentre che rinoua le esequie al padre Anchise, appare vn gran serpente.
+
+*Il cui tergo Verdeggia di dorate*
+*Macchie dipinto, e lo squammoso dosso*
+*Risplendendo rassembra il celeste arco,*
+*Che tra le nubi al Sole apposto mostra*
+*Con gran Vaghezza assai color diuersi.*
+
+Lascia in dubbio se quello fosse il genio del luoco, ò che altro fosse. Da che viene, che alcuni hanno fatto il Genio in forma di serpente alcuni altri di fanciullo, altri di giouane, & altri di vecchio, come Cebete nella sua tauola. Pausania scriue, che gli Elei adorarono certo Dio sotto il nome di Sosipoli, che viene a dire Saluatore della Città, come Genio loro, proprio del paese. Questi era nel tempio di Lucina, e gli sacrificauano ogni anno con certe cerimonie; di che fu la ragione, che essendo andati già gli Arcadi addosso a gli Elei per certa guerra, ch'era fra loro, vna femina, che haueua vn piccolo fanciullino in braccio, che poppaua, disse a' Capitani de gli Elei: Signori, questo è mio figliuolo, & quando io lo partorì, che non ha molto, mi fu comandato in sogno, che ve lo douessi dare per compagno di guerra, & perciò eccouelo, ch'io ve lo dò. Gli Elei non isdegnarono punto la buona femina, anzi dandosi à credere, che ciò non fosse senza qualche gran misterio, & tolsero il mammolino, & lo posero tutto nudo alla fronte del loro essercito: oue gli Arcadi andati indi a poco ad assaltargli, lo videro cangiarsi subito in gran serpente: di che restarono tutti spauentati in modo, che non osarono più di andare innanzi, ma voltando le spalle si dierono a fuggire, sì che fu facile a gli Elei cauarli de' loro confini, li quali perciò vittoriosi chiamarono quel bambino Sosipoli, riconoscendo la conseruatione della Città da lui, il quale così serpente, come era, parue cacciarsi sottera in certa cauerna, oue gli Elei drizzarono poi vn tempio a nome di Lucina, & vi fecero anco, comme diremmo noi, vna cappella à Sospoli, ordinando
+
+Колонтитул: De gli Antichi. 369
+Кустод: dinando
+Сигнатура: Aa
+Маргиналии:
+- Imblico.
+- Genio de' luochi.
+- Virgilio.
+- Sosipoli.
+
+## Скан 0412 · с. 370
+
+dinando quiui honori, e cerimonie proprie all'vna, & all'altro, perche credettero, che quella hauesse fatto nascere questo, & l'hauesse mandato per la saluezzza loro. & fu la imagine di costui, bench'egli si cangiasse in serpente, come hò detto di fanciullo, con veste intorno di varij colori, e carica di stelle, che porgeua con mano il corno della copia, perche tale apparue già; come dice Pausania, ad vno, che lo riferì poi. Vedesi in alcune medaglie antiche di Adriano, & di altri Imperadori ancora il Genio fatto in guisa di huomo, che porge con la destra mano vn vaso da bere, quale mostra di versare sopra vn'altare tutto ornato di fiori, e gli pende dalla banda sinistra vna sferza. Et in altre medaglie pure di Adriano è la imagine di vn'huomo di guerra con veste attorno inuolta giù sino a meza gamba, che nella destra tiene come vna tazza a modo di chi sacrifica, & hà il corno della copia nella sinistra, e sonoui lettere intorno, che dicono: Al Genio del Popolo Romano, che doueua forse mostrare quel Nume tenuto tanto secreto da' Romani, che non voleuano a modo alcuno, che se ne sapesse il nome, come altra volta ho detto. Faceuano oltre di ciò gli antichi ghirlande al Genio de i rami del Platano, le cui foglie sono poco dissimili da quelle della vite; & alle volte ancora di diuersi fiori, come si legge appresso di Tibullo, oue così scriue.
+
+*Hor cinto di bei fior le sante chiome*
+*Venga il Genio à veder quel, ch'à suo honore*
+*Facciamo celebrando il lieto nome.*
+
+Ma, perche hò detto già, che due erano i Genij, come vuol Euclide Socratico, secondo che riferisce Censorino, hora vediamo l'altro, cioè il rio, come fosse fatto, che il buono è quello che fin qui habbiamo disegnato. Di questo non hò trouato, che gli antichi habbino fatto statoa, nè imagine alcuna; ma ben si legge, ch'egli apparue già a molti, & io così lo ritrarò, come essi lo videro, secondo l'essempio, che ci hanno seruato le historie. Scriuono Plutarco, Appiano, Floro, & altri, che ritiratosi di notte Bruto in camera tutto solo, ma ben col lume a pensare trà sè, come egli era vsato di fare, vide apparirsi dauanti vna imagine di huomo tutta negra, & spauenteuole, la quale disse a lui, che gliene dimandò, che era il suo mal Genio, & subito sparue poi. Valerio Massimo ancora scriue, che apparue parimente il tristo Genio a certo Cassio parimente, qual fù della fattione di Marco Antonio, pochi dì prima, che Cesare gli facesse tagliare la testa, & era questo in forma di huomo molto grande, di colore fosco con capelli lunghi, & con barba horrida, inculta: e tutta rabbuffata. Et appresso de' Temessesi già popolo d'Italia nell'Abruzzo, fu vn Genio molto cattiuo, e tristo, il quale era di colore fosco, & oscu-
+
+Колонтитул: 370 Imagini de i Dei
+Кустод: ro,
+Сигнатура:
+Маргиналии:
+- Madeglie d'Adriano.
+- Platano dato al Genio. Tibullo.
+- Euclide Socratico.
+- Plutarco. Appiano. Floro.
+- Genio cattiuo. Valerio Massimo.
+
+## Скан 0413 · с. 371
+
+ro, tutto formidabile da vedere, vestito di vna pelle di Lupo, & faceua tanto male a quelle genti, che come racconta Pausania, & lo riferisce anco Suida, haurebbono abbandonato il paese, se l'Oracolo non mostraua loro il modo di placare l'ombra di vn compagno di Vlisse, che fu quiui ammazzato, perche vbriaco fece violenza ad vna giouane: che questo era il tristo Genio che andaua facendo la vendetta, della quale Vlisse passando via non si fece alcun conto. Drizzarono dunque i Temessesi per consiglio dell'Oracolo vn tempio a colui, & votarono di sacrificargli ogni anno vna delle piu belle giouani della Città; & così facendo quel diabolico Genio non diede loro piu molestia alcuna; ma stette nel tempio a riceuere il crudele sacrificio, fin che ne fu cacciato da Eutimo huomo di molto valore, il quale capitato quiui nel tempo apunto, che il miserabile sacrificio si doueua fare, & intesane la cagione, fu mosso à pietà della miseria di quel popolo, ma più della bella giouane destinata al crudele sacrificio, per la quale si sentì subito acceso di ardentissimo amore, & fece perciò cessare tutto, di che sdegnata questa bestia crudele gli venne contra con grandissimo furore: ma così bene la sostenne Eutimo, che dopò l'hauere combattuto buon pezzo insieme, ne restò vincitore, & la cacciò tanto, che la spinse ad andarsi a sommergere in mare, & liberò quel popolo da così grande calamità: il quale perciò gli diede la liberata giouane per moglie, ch'egli non volle hauerne altro premio, & con grandissima festa, & allegrezza fece celebrare, le liete nozze.
+
+Колонтитул: De gli Antichi. 371
+Кустод: FORTVNA
+Сигнатура: Aa 2
+Маргиналии:
+- Genio tristo scacciato.
+
+## Скан 0414 · с. 372
+
+[ВИНЬЕТКА: типографская орнаментальная полоса под колонтитулом]
+
+FORTVNA.
+
+[ВИНЬЕТКА: двойная орнаментальная полоса под заглавием]
+
+*Questa è colei che tanto è posta in croce,*
+*Pur da color, che le deurian dar lode,*
+*Dandole biasmo à torto, e mala Voce.*
+
+[ИНИЦИАЛ: C]osì dice Dante della Fortuna, da che hò voluto cominciare, douendo già proporre la sua imagine, conciosia che à costei danno i mortali colpa di tutto quello, che intrauiene fuori del loro pensamento, recandosi a male spesso quello, che più tosto grã bene dourebbono giudicare. E par, che vogliono, che l'acquisto, la perdita de gli honori, & delle ricchezze venghi dalla Fortuna, & il riuolgimento di tutte le cose mondane. Onde il Petrarca nella Canzone,
+
+*Tacer non posso, e temo, &c.*
+*fa, che ella così gli dice di sè stessa :*
+*Io son d'altro poter, che tu non credi,*
+*E sò far lieti, e tristi in vn momento;*
+*Più leggiera che Vento:*
+*E reggo, e Volmo quanti al mondo Vedi.*
+
+Et quindi nascono gli infiniti biasmi, ch'ella di sè ode poi tutto il dì; percioche pare, che queste cose, le quali dimandiamo beni di Fortuna, vadino per lo più a chi n'è men degno, & che ne resti miseramente priuato chi piu gli meriterebbe. Ilche se sia bene, ò male, lascio considerare a chi può vedere quanti noiosi pensieri, quanti trauagli, e quanti pericoli portino seco i beni di questo mondo: imperoche pochi sono, che mettano mente a questo; ma ricerchiamo quasi tutti sempre di hauerne; e perche non potiamo satiare il disordinato nostro desiderio, ci lamentiamo poi della Fortuna, la quale secondo la opinione di molti non è; onde Giuuenale così ne disse;
+
+Колонтитул: 372 Imagini de i Dei
+Кустод: Oue
+Сигнатура:
+Маргиналии:
+- Dante.
+- Petrarca.
+- Fortuna perche biasimata.
+- Fortuna nõ è Giuuenale.
+
+## Скан 0415 · с. 373
+
+*Oue prudenza sia, non ha potere*
+*Alcuno la Fortuna, & il suo nume*
+*E tutto Vano: ma noi sciocchi, e stolti*
+*Pur Vogliam farla Dea, chabiti in Cielo.*
+
+E Lattantio parimente dice, che la Fortuna, non è altro, che vn nome vano, che dimostra il poco sapere de gli huomini, accordandosi con Marco Tullio, il quale prima di lui haueua scritto, che fu introdotto il nome della Fortuna per coprire la ignoranza humana, la quale dà colpa a costei di tutto ciò, ch'ella non sa renderne ragione. Ma non meno si ingannarono gli antichi in questa, che ne gli altri Dei, & perciò la adorarono come Dea dispensatrice di tutti i beni mondani: e pensarono, che da lei venisse ancora il male. Per la qual cosa due erano credute le Fortune, vna bona, l'altra ria, da quella veniuano i beni, & le felicità, & da questa le disauenture tutte, e gli altri mali. Onde viene, che hanno talhora alcuni fatta la Fortuna con due faccie, l'vna era bianca, che mostraua la buona, l'altra era negra, che significaua la cattiua. Et à Preneste, oue ella hebbe vn tempio molto celebrato per gli certi responsi, che quindi si riportauano, fu adorata, secondo che riferisce Alessandro Napolitano, sotto la imagine di due sorelle. Et per la medesima ragione forse anco Pindaro, come riferisce Plutarco, la fece volgere due temoni con mano. Nientedimeno per lo più si tiene, che vna solamente sia la Fortuna, la quale verrò dipingendo secondo i varij disegni lasciatici da gli Scrittori, cominciando da quello, che mette Pausania, oue scriue, che tra le memorie de gli antichi non si troua statoa alcuna della Fortuna più antica di quella, che fece Bupalo architetto, e scultore eccellente à gli Smirnei, gente della Grecia, in forma di donna, che sul capo haueua vn polo, & con l'vna delle mani teneua il corno della copia. Mostraua questa statoa qual fosse l'vfficio della Fortuna, che è dare, e torre le ricchezze rappresentate per lo corno di douitia, le quali cose si aggirano del continuo, come si aggira il Cielo intorno à i due poli. Et hanno mostrato il medesimo poi sempre tutti quelli, li quali hanno dipinto la Fortuna, e ne hanno fatte statoe in qual si voglia modo, volendoci dare ad intendere, ch'ella habbia il gouerno delle cose di qua giù, & che la possa dispensare come vuole. Il che si legge appresso di Lattantio ancora, il quale descriue, che gli antichi finsero la Fortuna con il corno della copia, & le posero à canto vn temone da naue, come che a lei stesse il dare le ricchezze, & fosse in sua mano il gouerno delle humane cose, & de i beni temporali, perche in questi non si troua fermezza alcuna, nè paiono ragioneuolmente partiti, conciosia che i buoni per lo più ne patiscono disagi grandi, & i rei huomini ne abondano copiosamente. Et percio fu detta la Fortuna essere in-
+
+Колонтитул: De gli Antichi. 373
+Кустод: constante,
+Сигнатура: Aa 3
+Маргиналии:
+- Lattantio.
+- M. Tullio.
+- Fortune due.
+- Pindaro.
+- Gouerno delle cose humane.
+
+## Скан 0416 · с. 374
+
+[ГРАВЮРА — полностраничная]
+
+*Imagine della Fortuna datrice, & dispensatrice, & patrona delle ricchezze & beni humani, & gouernatrice delle cose di quà giù, nelle quali non è fermezza ò stabilità alcuna più di quello si può dire habbi vna Naue fluttuante nelle instabili onde marine.*
+
+Колонтитул: 374 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0417 · с. 375
+
+constante, cieca, pazza, & amica molto più a' maluagi, che a' buoni, come si legge in certi versi creduti di Virgilio, li quali suonano in volgare,
+
+*O possente Fortuna come Spesso*
+*Ti cangi, e quanta forza, ohime, crudele*
+*T'vsurpi? tu da te discacci i buoni,*
+*E chiami i rei, nè Stai però fedele*
+*A questi sempre tu fai, che concesso*
+*E più a chi merta meno de' tuoi doni,*
+*Priuando chi n'à degno, e sì disponi*
+*Le cose tue, che trista pouertade*
+*Opprime i giusti con graui disaggi*
+*E godono i maluagi*
+*Ogni tuo ben. tù ne la verde etade*
+*A gli huomini dai morte acerba, e alhora*
+*Che d'anni carchi annoia lor la Vita,*
+*(Perche dispensi i tempi con Volere.*
+*Non giusto) gli Vuoi pur qui ritenere.*
+*A gli empi Và ciò, che per te partita*
+*Fà da' migliori, nè per far dimora*
+*Con questi, si ti muti in poco d'hora,*
+*Fragile, incerta, perfida, e fugace,*
+*Per cui non sempre l'huom si leua, ò giace,*
+
+Per le qual cose i Thebani posero Pluto, come io dissi nella sua imagine, in mano della Fortuna, quasi che quel Dio, il quale era creduto hauere in suo potere tutte le ricchezze, le desse, & se le ripigliasse secondo che pareua à costei, la quale descriue Martiano nelle nozze di Philologia in questo modo. Eraui dice egli vna giouinetta più loquace assai di tutte l'altre che non parena sapere star ferma mai, tutta leggiera, e snella, cui soffiando di dietro il vento sempre faceua dauanti tremolare la gonfiata veste. Era il suo nome Sorte, secondo alcuni, & alcuni la chiamauano Fortuna, alcuni altri Nemesi, & portaua nell'ampio, e largo grembo tutti gli ornamenti del mondo, li quali ella porgeua ad alcuni con velocissima mano, ad alcuni poi, quasi fanciullescamente scherzasse, sueleua i capelli, & ad alcuni altri stranamente percuoteua il capo con vna verga. Et à quelli stessi, alli quali ella si era mostrata prima tanto piaceuole, & amica, daua sù la testa dopò con la mano, quasi che di loro si beffasse. Et è creduta così fare apunto la Fortuna di noi, quando ella si ritoglie i suoi beni, lasciandoci sconsolati; il che non auerrebbe, se di quello, che è di costei, noi non facessimo maggiore conto assai, che del nostro: con-
+
+Колонтитул: De gli Antichi. 375
+Кустод: ciosia
+Сигнатура: Aa 4
+Маргиналии:
+- Virgilio.
+- Martiano.
