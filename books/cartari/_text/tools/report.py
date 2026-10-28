@@ -188,6 +188,78 @@ def print_triple_hidden(rows):
     print()
 
 
+THIRD_READING_SCOPE = (5, 636)  # scans 0005-0636, text-bearing pages only
+
+
+def is_text_page(scan):
+    fn = os.path.join(HERE, "pages", f"{scan:04d}.md")
+    try:
+        with open(fn, encoding="utf-8") as f:
+            body = f.read()
+    except FileNotFoundError:
+        return False
+    lines = body.split("\n")
+    content = "\n".join(lines[1:]).strip()
+    stripped = re.sub(r"\[(ГРАВЮРА|ВИНЬЕТКА|ИНИЦИАЛ)[^\]]*\]", "", content)
+    stripped = re.sub(r"(?m)^(Колонтитул|Кустод|Сигнатура|Маргиналии|Рукописно|Штамп|Нумерация):.*$", "", stripped)
+    return len(stripped.strip()) > 50
+
+
+def third_reading_planned():
+    lo, hi = THIRD_READING_SCOPE
+    return [n for n in range(lo, hi + 1) if is_text_page(n)]
+
+
+def third_reading_totals(rows, bucket=50):
+    planned = set(third_reading_planned())
+    by_row = {int(r["scan"]): r for r in rows if r["scan"].isdigit()}
+    done = 0
+    total = {"accents": 0, "other": 0, "errata": 0, "unclear": 0}
+    buckets = {}
+    for n in sorted(planned):
+        r = by_row.get(n)
+        if not r or r.get("hidden_accents", "") == "":
+            continue
+        done += 1
+        accents = int(r.get("hidden_accents") or 0)
+        other = int(r.get("hidden_other") or 0)
+        errata = int(r.get("errata") or 0)
+        unclear = int(r.get("unclear") or 0)
+        total["accents"] += accents
+        total["other"] += other
+        total["errata"] += errata
+        total["unclear"] += unclear
+        b = (n // bucket) * bucket
+        bd = buckets.setdefault(b, {"pages": 0, "accents": 0, "other": 0, "errata": 0, "unclear": 0})
+        bd["pages"] += 1
+        bd["accents"] += accents
+        bd["other"] += other
+        bd["errata"] += errata
+        bd["unclear"] += unclear
+    return {"planned": len(planned), "done": done, "total": total, "buckets": buckets}
+
+
+def print_third_reading(rows):
+    t = third_reading_totals(rows)
+    print(f"Третье слепое прочтение (сканы {THIRD_READING_SCOPE[0]:04d}-{THIRD_READING_SCOPE[1]:04d}, только текстовые):")
+    print(f"  пройдено: {t['done']} из {t['planned']} запланированных ({t['done'] / t['planned'] * 100:.1f}%)" if t['planned'] else "  запланировано: 0")
+    tot = t["total"]
+    if t["done"]:
+        print(f"  всего: hidden_accents={tot['accents']} | hidden_other={tot['other']} | "
+              f"новых опечаток={tot['errata']} | [?]={tot['unclear']}")
+        print(f"  на страницу: hidden_accents={tot['accents']/t['done']:.2f} | hidden_other={tot['other']/t['done']:.2f} | "
+              f"новых опечаток={tot['errata']/t['done']:.2f} | [?]={tot['unclear']/t['done']:.2f}")
+    print("  по диапазонам (каждые 50 сканов):")
+    print(f"    {'диапазон':<14}{'стр.':>5}{'accents/стр':>13}{'other/стр':>11}{'errata/стр':>12}{'[?]/стр':>9}")
+    for b in sorted(t["buckets"]):
+        bd = t["buckets"][b]
+        n = bd["pages"]
+        if n == 0:
+            continue
+        print(f"    {b:04d}-{b+49:04d}   {n:>5}{bd['accents']/n:>13.2f}{bd['other']/n:>11.2f}{bd['errata']/n:>12.2f}{bd['unclear']/n:>9.2f}")
+    print()
+
+
 def recent_commits(n=5):
     out = git_log([f"-{n}", "--pretty=format:%h\t%ad\t%s", "--date=format:%Y-%m-%d %H:%M"])
     return [line.split("\t", 2) for line in out.splitlines() if line.strip()]
@@ -219,6 +291,7 @@ def main():
     print_range_breakdown(rows)
     print_pignoria_split(rows)
     print_triple_hidden(rows)
+    print_third_reading(rows)
 
     all_time = double_totals(rows)
     last24 = scans_touched_since("24 hours ago")
