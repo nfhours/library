@@ -5130,3 +5130,260 @@ luoco a ciò deputato fosse meriteuolmente punito. Et al tempo di Saturno, & qua
 - Radamanto
 - Eaco.
 - Minos.
+
+## Скан 0274 · с. 232
+
+secero mentre, che stettero al Mondo, & secondo quello le giudicano, & mandano al meritato luoco, ò delle pene, ò de i piaceri. Qui seguita Platone dicendo qual siano le anime, che per lo più vanno al luoco de i dannati, & quali à quello de i Beati: ma non lo riferirò già io, che mi basta di questo che ho detto, per far vn poco di disegno de i tre Giudici dell'inferno; de i quali Dante pare hauere figurato Minos in forma di bestia, percioche nel suo Inferno ei lo mette con la coda, & lo fa ringhiare, come fanno a punto i Cani, quando dice:
+
+*Stauui Minos horribilmente, e ringhia,*
+*Esamina le colpe ne l'entrata*
+*Giudica, e manda secondo, ch'auinghia.*
+*Dico, che quando l'anima mal nata*
+*Gli vien dinanzi, tutta si confessa,*
+*E quel conoscitor de le peccata,*
+*Vede qual luoco d'Inferno è da essa,*
+*Cigensi con la coda tante volte*
+*Quantunque gradi vuol, che giù sia messa.*
+
+Et per costui vogliono alcuni intendere il rimordimento, che ha ciascheduno nell'animo de i proprij errori, il quale del continuo lo trauaglia, lo accusa, se non ad altri, alla conscienza propria, & li mostra il suplicio, & le pene, di che lo fan meriteuole i commessi peccati. Et quindi viene, che sono, come dissi, tre giudici in inferno, per lo quale è stato inteso questo nostro mondo, oue regna Plutone, che dalle ricchezze fu così nominato, appresso de i Greci, con ciò fosse che per lui intendessero la terra, dalla quale traggono i mortali tutto quello, che hoggi più si apprezza. Et l'hanno dimandato Dite i Latini per la medesima ragione, cioè, perche da lui venghino le ricchezze, le quali latinamente sono dette con voce a quella molto simile, ò come vuole Qintiliano, fu così detto per contrario senso, quasi che egli non possa esser ricco, essendo che i morti sono creduti priui di ogni ricchezza. Ma lasciamo queste spositioni da parte, & quello ancora, che ne dice, che Plutone fu Dio, ò Rè de i morti, perche trouò le pompe funerali, & tutto quello, che intorno a i morti si fa, & facciamo ritrato di lui secondo le fauole, le quali lo fanno stare in Inferno sedendo come Re sopra vn'alto seggio & così lo descriue Claudiano, quando racconta, che egli manda Mercurio à Gioue à dimandargli moglie, come lo haueuano pregato à fare le Parche.
+
+*Sopra de l'infernal horendo seggio,*
+*Con maesta Dite sedeasi, tutto*
+
+Колонтитул: 232 Imagini de i Dei
+Кустод: Hor-
+Сигнатура:
+Маргиналии:
+- Dante.
+- Minos che significhi.
+- Plutone perche Rè dei morti.
+- Claudiano.
+
+## Скан 0275 · с. 233
+
+*Horrido, e d'atra nebbia il capo cinto,*
+*Lo Scettro rugginoso in man tenea.*
+
+Martiano parimente gli dà la corona, come a Rè quando lo descriue insieme con il fratello Nettuno, dicendo, che egli è di colore fosco, & ha in capo vna corona di negro hebeno tinta della scurezza della ombrosa notte. Lo scettro, che tiene in mano, medesimamente lo mostra Re, & è piccolo, perche mostra il Regno di questo basso mondo, che così l'espone Porfirio, come riferisce Eusebio, & intende sotto nome di Plutone il Sole, detto Re dell'Inferno, perche poco si mostra a noi nel tempo de l'inuerno: ma stassene per lo piu con quelle genti, le quali sono nella parte di sotto del mondo, se pur è vero, che noi siamo in quella di sopra, perche esse l'hanno intesa altrimente, come riferisce Seruio, che Tiberiano scrisse essere già venuta vna lettera da gli Antipodi portata dal vento, la qual incominciaua così. Noi che siamo di sopra, salutiamo voi, che ci sete di sotto. Et Aristotele parimente mostra con ragione; che siamo noi quelli di sotto. Ma questo niente serue al proposito nostro; basta, che Plutone, intendendo il Sole per lui, e creduto stare sotterra tutto il tempo, che non appare sopra il nostro orizonte, & tiene seco la rapita Proserpina, che mostra la virtù del seme, perche questo allhora stà serrato nel ventre della terra. Egli hà vn'elmo, come disse Homero, Platone, & Higino, perche la sommità del Sole a noi è occulta. E secondo le fauole l'elmo di Plutone, ò di Orco, che Plutone fu detto ancora Orco, rendeua inuisibile chiunque lo portaua in modo, che vedendo lui gli altri, ei non era punto veduto. Et dicono, che Perseo l'hauea, quando taglio il capo à Medusa, & che con questo si nascose dalle sorelle di lei, che gli furono subito dietro, & lo hauerebbono trattato male, se non era lo elmo di Orco, datogli da Minerua, la quale appresso di Homero se ne serui parimente per non esser vista da Marte combattere contra Troiani. Il cane Cerbero con tre capi, che gli stà a' piedi, come scriue etiandio Fulgentio, il qual chiama Plutone preside, & custode della terra, & lo fa circondato di oscure tenebre con vno scettro in mano, significa la inuidia ne i mortali nascere di tre maniere, cioè ò per natura, ò per caso, ò per accidente, ouero anco, come vogliono altri, che tre cose fanno dibisogno al seme, se debbe produrre il frutto: prima che sia sparso in terra, poi che quiui sia coperto, & vltimamente che germogli. Pindaro finge: che Plutone habbia in mano vna verga, & dice che egli con questa conduce le anime in inferno. Et alcuni gli posero vna chiaue, come che egli così tenga serrato il regno dello inferno, che le anime colà giù discese vna volta non possano vscirne più mai. Onde leggesi appresso di Pausania, che nel tempio di Giunone in certa par-
+
+Колонтитул: De gli Antichi. 233
+Кустод: te
+Сигнатура:
+Маргиналии:
+- Colore di Plutone.
+- Corona di Plutone.
+- Scettro di Plutone.
+- Plutone per il Sole.
+- Proserpina.
+- Fulgentio.
+- Pausania.
+
+## Скан 0276 · с. 234
+
+[ГРАВЮРА: Imagini di Plutone dio dell'Inferno, di Proserpina sua moglie, di Eurinomo diuoratore delle carni de morti; di Cerbero cane trifauce custode dell'Inferno. Plutone è tolto per il Sole nel tempo dell'Inuerno, nel quale la virtù della terra stà in se ristretta; & Proserpina è intesa per la terra; il cane per le tre cose necessarie al seme, il nascere, crescere, & perfettionarsi.]
+
+Колонтитул: 234 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0277 · с. 235
+
+te della Grecia fu posta vna tauola, nella quale erano intagliate molte cose, & eraui tra le altre Plutone, & Proserpina con due Ninfe; delle quali teneua l'vna con mano vna palla, l'altra vna chiaue, perche, ( soggiunge esso Pausania ) la chiaue è insegna di Plutone, conciosia che ei tenga serrata la casa infernale in modo, che quindi niuno può vscire. Il che diede occasione alle fauole di fingere, che Cerbero stia alla porta dello inferno, nè latri se non a chi tenta di partire, spauentando quiui le anime perdute, come dice Seneca descriuendolo in questo modo.
+
+*Il terribile cane, che à la guardia*
+*Stà del perduto regno, e con tre bocche*
+*Lo fa d'horribil voce risonare,*
+*Porgendo graue tema a le triste ombre,*
+*Il capo, e'l collo ha cinto di serpenti,*
+*Et è la coda vn fero Drago, il quale*
+*Fischia, s'aggira, e tutto si dibatte.*
+
+Così lo descriue anco Appollodoro; se non che dice di più, che i peli del dosso sono tutti serpentelli. Et Dante così dice del medesimo.
+
+*Cerbero fera crudele, e diuersa*
+*Con tre gole caminamente latra*
+*Soura a la gente, che quiui è sommersa.*
+*Gli occhi ha vermigli, la barba vnta & atra,*
+*Il ventre largo, & onghiate le mani.*
+*Graffia gli spirti, gl'ingoia, & i squatra.*
+
+Hesiodo lo fece con cento teste, & dice che era il portinaio di Plutone, & che faceua carezze à tutti quelli, che entrauano in inferno, ma a chi voleua vscirne si auuentaua subito, & lo diuoraua. Il che si confà molto bene al suo nome, perche tirando dal Greco, Cerbero viene à dire, che diuora la carne. Et per questo hanno detto alcuni, che per lui s'intende la terra, la quale diuora gli corpi morti. Et vn simile fu fra gli Dei dell'inferno in Deiso, chiamato da quelle genti Eurinomo, il quale era creduto mangiare la carne de'morti in modo, che ne lasciaua l'ossa tutte nude, come recita Pausania, che lo descriue tutto negriccio, & del colore delle mosche star à sedere sù vna pelle di auoltoio, & mostrare gli denti. Hanno anco voluto alcuni, che per Cerbero si intenda questo nostro corpo, il quale si mostra piaceuole à chi entra in inferno cioè si dona à i vitij, & a' lasciui piaceri, & grida poi a chi ne vuole vscire, cioè lasciare questi, & darsi alla vir-
+
+Колонтитул: De gli Antichi. 235
+Кустод: tu.
+Сигнатура:
+Маргиналии:
+- Chiaue in mano a Plutone.
+- Seneca.
+- Apollodoro.
+- Dante.
+- Hesiodo.
+- Eurinomo.
+
+## Скан 0278 · с. 236
+
+tù. Et così l'intese forse Virgilio, quando fece che questa bestia si leuasse contro Enea andante in inferno, il che se ben pare esser contrario a quello, che di lei scrissero Hesiodo, & gli altri, dicendo che ella si mostri piaceuole all'entrata a chi và, non è però; perche bisogna auertire, che tutti quelli li quali sono andati in inferno, non vi sono andati per vna medesima cagione, nè ad vn medesimo fine perciò ne sono anco auenuti diuersi successi. Imperoche chi và in inferno(che altro non vuole hora dire, che discendere frà la perduta turba de vitij) per starsene sempre frà vitiosi piaceri, troua all'entrata Cerbero piaceuole, perche questo corpo tace, & gode contentando gli suo lasciui & disordinati appetiti, ma grida poi quando vede, che l'huomo vuole tornarsi in dietro, & partire da questi per seguitar la ragione. Onde chi fa questo viaggio per andare alla consideratione de i vitij, acciòche sappi, come egli ha da fuggire, & farsi perciò più spedito alle operationi virtuose, come fece Enea, troua Cerbero, che gli si leua contra, che vien a dire, che l'appetito sensuale grida, perche vede di non potere godere quelli piaceri, che piu desidera. Et per questo ancora fu finto che Hercole andasse in inferno, & quindi ne trahesse Cerbero legato, come figura dell'huomo prudente, il quale lega, & stringe questi sensi del corpo in modo, che facilmente se gli tira dietro fuori dell'inferno de i vitij e gli guida per la luce della virtù. Et che Piritoo all'incontro andato a leuare la moglie à Plutone, per contentare l'appetito lasciuo, vi restasse morto da Cerbero, perche chi tutto si immerge ne' brutti piaceri, & vitiosi, non torna poi piu ad operare virtuosamente, ma frà quelli se ne muore. Hecateo scrisse, come riferisce Pausania, che non vi fu cane alcuno di inferno, ma che ciò fu finto, perche in certa cauerna, per la quale fu creduto potersi discendere in inferno, staua vn terribile serpente, che faceua subito morire chi vi si accostaua, & che questa fu la bestia, che trasse Hercole ad Euristeo d'inferno, alla quale Homero diede nome di cane solamente, ma altri doppo lui lo chiamarono Cerbero, & lo finsero hauere tre teste: di che, & di molte altre cose, che restano di questa bestia, non dico piu per hora, perche sarà piu a proposito metterle poi in certa scrittura, che hò già disegnata dell'anima. Ma ritorno a Plutone, del quale Seneca fa ritratto in questa guisa dicendo nella tragedia di Hercole furioso.
+
+*Con maesta terribile, e crudele*
+*Siede Pluto seuero, e tristo in fronte;*
+*Ma non tanto però, che non si mostri*
+*Pur anco in parte simile a' fratelli,*
+*E nato del celeste seme. Il volto*
+*Par esser di Gioue allhora, ch'egli*
+
+Колонтитул: 236 Imagini de i Dei
+Кустод: Spiega
+Сигнатура:
+Маргиналии:
+- Discendere all'Inferno, che significhi.
+- Hecateo.
+- Seneca.
+
+## Скан 0279 · с. 237
+
+*Spiega l'ardente fulmine, e l'oscuro*
+*Regno cosa non ha, che più tremenda*
+*Sia d'esso, poi ch'al suo tremendo aspetto*
+*Pauenta ciò, che altrui spauento porge.*
+
+A costui dettero gli antichi vn carro tirato da quattro ferocissimi caualli negri, che spirauano fuoco, nominati Orfneo, Tone, Nitteo, & Alastore, che tanti ne mette Claudiano, benche dica il Boccaccio, che erano tre solamente, & che'l carro parimente non haueua piu di tre ruote, volendo mostrare in questo modo chi lo fece, quale sia la fatica, & il pericolo di coloro, che cercano arricchire, & la incertitudine delle cose venture; perche lo tolsero anco per lo Dio delle ricchezze. Benche ne hauessero vn'altro ancora i Greci de i Dei ricchezze, il quale bene hebbe quasi vn medesimo nome con questo, perche lo chiamarono Pluto; fù però diuerso da lui, almeno di imagine: perche Aristofane lo descriue huomo cieco, & dice, che Gioue gli cauò gli occhi, acciòche ei non potesse conoscere gli huomini da bene, dotti, & modesti, perche mostraua fin da fanciullo di amargli tanto, che andaua dicendo per tutto di volere stare sempre con quelli. Luciano parimente lo fa non solo cieco, ma anco zoppo, & che vadi con lettrica talhora che sia tutto spedito, & veloce nel caminare, perciòche dicesi, che nel dare le ricchezze a' maluagi, egli è presto, & veloce, ma che quando le porta a'buoni và a passi tardi, & lenti, che è proprio anco della Fortuna. Et però scriue Pausania, che fu vn'accorto consiglio di colui, che appresso de i Thebani pose il Dio Pluto in mano della Fortuna, come che ella sia di lui madre, & nutrice. Et soggiunge poi, che non meno accortamente fece Cefisodoto, scultore eccellente, il quale fece a gli Atheniesi vna statoa della pace, & le pose in grembo il Dio Pluto, & perche la pace è conseruatrice delle ricchezze, & le guerre le dissipano. Stobeo nella comparation, che fanno di sè medesimi insieme questo Pluto, & la Virtù, fa che egli si gloria di condur al desiato fine i desiderij de gli huomini, & del nascere suo dice Hesiodo; che essendo vn certo Iasio amato dalla Dea Cerere, del loro congiungimento ne nacque Pluto, che fu poi totalmente felice in ogni suo affare. che ad altri anco soleua applicar questa sua felicità. Questo interpretando alcuni, dicono del a terra intesa per Cerere, congiunta con Iasio, che significa lo agricoltore, ne nasce questo Pluto, che vien interpretato ricchezza. Essendo che veramente dalla fertilità del terreno, & la quale si fa col ben coltiuarlo, l'huomo si acquista ricchezze, & beni. Plutarco scriue, che appresso de i Lacedemonij era il Dio Pluto cieco, & che staua giacendo sempre. Et quelli di Rhodo l'haueuano che vedeua, & era cõ l'ali, e dorato, come si raccoglie da Filostrato, il quale dice,
+
+Колонтитул: De gli Antichi. 237
+Кустод: dice,
+Сигнатура:
+Маргиналии:
+- Carro di Plutone.
+- Dio delle ricchezze. Pluto.
+- Aristofane.
+- Luciano.
+- Stobeo.
+- Filostrato.
+
+## Скан 0280 · с. 238
+
+dice, che Pluto staua alla guardia della rocca di quella Città dipinto con le ali, come quello, che dalle nuuole era era disceso; dorato perche oro fu la materia, in che egli apparue prima, & con gli occhi, perche venne dalla diuina prouidenza. Conciosia che dica, che nel nascimento di Minerua piouue oro sopra gli Rhodij, & ciò si legge appresso di Claudiano ancora, oue egli lauda Stilicone. La qual cosa, fu secondo il medesimo Filostrato, perche ben conobbero quelli di Rhodo Minerua, & la adorarono ancora, ma non come si doueua fare, perciòche senza foco le sacrificauano, & però concesse loro Gioue la pioggia dell'oro. Ma a quelli di Athene fu data la Dea come a più saggi, & che ne' suoi sacrificij vsarono il fuoco. Fu poi dato al Dio dell'inferno Plutone il Cipresso, & de i rami, & delle foglie gliene fecero ghirlande gli antichi, come di arbore trista, & mesta, & che nei funerali era adoperata, ò fosse perche come vna volta è tagliato, più non rigermoglia, ouero perche, come dice Varrone, circondauano de' suoi rami il foco, che abbruciaua i corpi morti, acciòche il graue odore de gli abbruciati corpi non offendesse quelli, che quiui stauano d'intorno; essendo vsanza de gli antichi, che i parenti; e gli amici andauano ad accompagnare il morto sin'al luoco apprestato per abbruciarlo, oue gli si metteuano poi tutti all'intorno, & con alcune lamenteuoli voci rispondeuano a certa femina, la quale condotta a prezzo per questo piangendo gridaua, & si lamentaua quanto poteua, & diceua anco talhora qualche bene del morto; nè partiuano fin che fossero raccolte le ceneri, & riposte hauendo allhora la femina lasciato di piangere, & detto le vltime parole, che tanto valeuano, quanto farebbe a dire; Hora potere andaruene. Et di Adianto herba, che volgarmente si chiama Capeluenere, fu inghirlandato anco alle volte Plutone. Et vi sono stati di quelli etiandio, che gli hanno posto intorno al capo di Narciso, facendogliene pure ghirlanda, perche questo fiore era creduto essere grato a i morti, forse per lo infelice fine del giouane già mutato in esso; onde ne faceuano ghirlande parimente, come dice Fornuto, alle Furie infernali. Queste erano seruenti, & ministre di Plutone, & veniuano spesso a punire i mortali delle loro empie, & maluagie opere, ò che a farne delle altre gli tirauano, & erano, tre, i nomi delle quali sono Aletto, Tisifone, e Megera. Furono da gli antichi adorate piu perche non facessero male, che perche hauessero da fare alcun bene, come furono anco adorati i Dei Auerrunci, perche rimouessero, & discacciassero ogni male, & per questo solamente dice Pausania, che sacrificauano loro anco i Greci. Et il nome stesso mostra apunto la forza del Dio Auerrunco, perche auerruncare già appresso de i Latini era il medesimo, che rimouere, & discacciare. Hebbero dunque le Furie tempij, & altari, come gli altri Dei, & appresso de i Greci gli Atheniesi
+
+Колонтитул: 238 Imagini de i Dei
+Кустод: Atheniesi
+Сигнатура:
+Маргиналии:
+- Ore piouute.
+- Varrone.
+- Narciso fiore.
+
+## Скан 0281 · с. 239
+
+Atheniesi le dimandauano le Dee Seuere, & i Sicionij le chiamarono Eumenide, & sacrificauano loro ogni anno in certo dì a ciò destinato, alcune pecore pregne, & oltre alle altre cerimonie le offeriuano anco certe ghirlandette di fiori. Nell'Achaia ancora hebbero le Furie vn tempio con simulacri di legno assai piccoli, nel quale se alcuno macchiato di qualche graue sceleraggine fosse andato, ancor che per veder solamente, come si fa diuentaua subito forsennato, & pareua che gli entrasse in cuore tutto lo spauento del mondo, & perciò non vi lasciauano andare persona, come nota Pausania: il quale descriuendo l'Arcadia racconta anco, che in certa parte di quel paese fu vn tempio, & vn campo consecrato alle Dee Manie, le quali ei pensa che fossero le Furie; perche diceuasi, che quiui Oreste perdè il senno, & diuentò furioso hauendo ammazzato la madre, & che indi non molto lungi fu certo poggetto chiamato il Dito, perche iui si vedeua vn gran Dito tagliato in pietra per memoria, che Oreste forsennato si mangiò in quel luoco vn dito della mano. D'onde passò poi sù certo altro piccolo colle poco lontano, oue trouò rimedio al suo furore, & in vn'altro tempio delle Furie, le quali, come ei le haueua viste tutte nere già, quando incominciò ad impazzire, così le vide allhora bianche, onde ritornò subito in suo senno. Et fu perciò osseruato poi da gli habitatori del paese di fare sacrificio alle Dee bianche, & alle Gratie insiememente. Cicerone scriue, che i Romani parimente hebbero certo boschetto consecrato alla Dea Furina, oue con solenni cerimonie adorauano le Furie, i simulacri delle quali haueuano serpenti sul capo in vece di capegli, che così le finse Eschilo innanzi à tutti gli altri, che l'hanno seguitato poi, come riferisce Pausania. Onde Seneca finge, che Giunone così dica, quando vuol far che Hercole diuenti forsennato.
+
+*Hor cominciate voi serue di Pluto,*
+*Venite via con adirata mano*
+*Scotendo l'empie faci, sù, Megera*
+*Capo, e guida di voi, c'horrendi Serpi*
+*In vece di capegli hauete, leui*
+*La mesta face dal funereo rogo,*
+*E con quella ne venga apportatrice*
+*Di lagrimosi affanni, e di dolore.*
+
+Dante dice, che trouandosi egli nel profondo infernale drizzò gli occhi a certa torre.
+
+*Oue in vn punto vide dritte ratto*
+*Tre furie infernal di sangue tinte,*
+*Che membra feminil haueano, & atto,*
+*E con Hidre verdissime eran cinte,*
+
+Колонтитул: De gli Antichi. 239
+Кустод: Serpen-
+Сигнатура:
+Маргиналии:
+- Seneca.
+- Dante.
+
+
+## Скан 0282 · с. 240
+
+*Serpentelli, e ceraste hauean per crine,*
+*Onde le fiere tempie erano auuinte.*
+
+Ma quali elle fossero poscia nel resto si può raccoglier da Strabone, il quale scriuendo delle Isole Cassiteride dice, che vna di quelle è habitata da huomini tutti di color fosco, vestiti con toniche, che vanno lor insin'a i piedi, e cinti atrauerso il petto, con bastoni in mano, simili apunto a quelle Furie, che mostrano spesso le Tragedie sù le scene. Et Suida riferendo di Menippo Cinico (cui era entrato in capo vna tal pazzia di farsi credere officiale d'Inferno, & che i Dei di là giù l'hauessero mandato per veder il male, che faceuano gli huomini, & riferirlo poi loro) che egli vsaua l'habito delle Furie, & lo descriue à questo modo dicendo, con veste negra, lunga sin'à terra, nè molto larga, & cinto attrauerso ben stretto con vna grossa fascia, haueua vn capello in capo, nel quale erano disegnate le dodici figure del Zodiaco, & le sue scarpe erano, quali vsauano i recitatori delle Tragedie, portando vn grosso bastone di frassine in mano; & hauendo la barba (che era sua propria) come di Filosofo, ancor che questa hauesse niente da fare con le Furie, come anco si può dire del cappello: onde la veste negra solamente lunga, & cinta attrauerso, & il bastone che haueua in mano saranno in Menippo, secondo Suida, la imagine dell'habito furiale, come lo descrisse anco Strabone. Quãdo fu lasciata Ariedna sul lito del mare da Thesea, che se n'andò via con Fedra, oue doppo l'essersi lamentata la misera assai, voltatasi à pregar vendetta di chi l'haueua tradita, chiamò le Furie così dicendo appresso di Catullo.
+
+*Voi Furie, ch'à mortai de le male opre*
+*Solete dar le meritate pene,*
+*A le quali il vipereo crine cuopre*
+*La trista fronte, che segnato tiene*
+*In sè l'empio furor, & apre e scuopre*
+*L'ira arrabbiata, che dal petto viene,*
+*Quà, quà venite à vdir le mie querele*
+*Contra questo maluagio, empio, e crudele.*
+
+Quasi che altri non fosse che meglio lo potesse punire della sua impietà. Conciosia che gli affetti stessi dell'animo siano quelli, che piu ci trauagliano di qual'altra si voglia cosa, quando torcono dal dritto, & diuentano disordinati; nè altro sono in noi le Furie infernali: che di quelli intesero i Poeti sotto il nome di queste. Onde Lattantio così dice: Finsero i Poeti che tre fossero le Furie, le quali venissero à turbare le menti humane, perche tre sono gli affetti, che ti-
+
+Колонтитул: 240 Imagini de i Dei
+Кустод: rano
+Сигнатура:
+Маргиналии:
+- Strabone.
+- Catullo.
+- Lattantio.
+- Furie perche tre.
+
+## Скан 0283 · с. 241
+
+[ГРАВЮРА: Imagini di Aletto, Tesifone, & Megera tre furie infernali punitrici del male, & di quello anco apportatrici, intese per tre passioni dell'animo, Ira, Auaritia, & Libidine, con la pecora nera à loro sacrata, & con le tortore segno di mestitia.]
+
+Колонтитул: De gli Antichi. 241
+Кустод:
+Сигнатура: Q
+Маргиналии:
+
+## Скан 0284 · с. 242
+
+rano gli huomini à fare ogni male senza pure hauer alcun minimo rispetto, nè alla propria fama, nè alla famiglia, da che si scende, nè alla propria vita; La Ira, che cerca vendetta; la Cupidigia, che brama ricchezze, & la Libine che si da in preda à dishonesti piaceri. Benche ci furono questi affetti dati da Dio perche a ben viuere ci aiutassero, & perciò pose loro la diuina prouidenza certi termini, oltre alli quali non piu ci giouano, ma ci nuocono; perche mutano la natura loro, & di virtù, che erano prima diuentano vitij. Imperoche il desiderar di hauer fu aggiunto all'animo nostro, acciòche si procaciasse ciascheduno di conseguir quello, che alla vita è necessario. Fugli dato l'appetito lasciuo, perche solamente à generar figliuoli l'adoperasse, & così per la continua successione fosse conseruata la humana prole, & ordinato fu che quando voleua, si potesse adirare, acciòche mglio castigasse gli altrui errori, e mettesse freno a quelli li quali sono in suo potere, & si pigliano ogni libertà di far male. Questi affetti dunque, & passioni dell'animo nostro, mentre che stanno nella natura loro, ne più oltre passano di quello, à che furono ordinati, ci danno vita quieta, & tranquilla: ma se altrimenti fanno, tutta ce la turbano, & ci tranagliano à guisa di Furie infernali. Alle quali dauano gli antichi accese facelle in mano, per mostrare gli ardori, che nel petto ci pongono gli affetti, che io dissi, come si vedrà meglio ancora nella imagine di Tisifone, della quale, quando ella và per seminare odio, & discordia tra gli empi fratelli Etheocole, & Polinice, Statio mostrando la letitia, che ella sentiua per lo andare ad operare cosa simile, fu ritratto in questa guisa.
+
+*Non và più lieta altroue, ò più veloce,*
+*Nè sà meglio di questa alcuna via;*
+*Ne la ue à l'alme peccatrici noce*
+*V'è bolgia tal, ch'à lei più grata sia.*
+*Mille Ceraste da la fronte atroce*
+*Fanno ombra al volto spauentosa, & ria,*
+*Sotto duo cigli in fuor pendenti, e caui*
+*Torti, & nel capo spinti hà gli occhi praui.*
+
+*Tinta hà la faccia di color sanguigno,*
+*Qual trà le nebbie è l'incantata Luna;*
+*Il rimanente è pallido, & ferrigno,*
+*Sparso di sanie congelata, & bruna.*
+*Di bocca esce vn vapor grosso, & maligno,*
+*Che non pur l'herba attosca, & l'aria imbruna;*
+*Ma sparge trà mortai con fiera sorte*
+*Fame, sete, impietadi, horrori, & morte.*
+
+Колонтитул: 242 Imagini de i Dei
+Кустод: Nè
+Сигнатура:
+Маргиналии:
+- Statio.
+
+## Скан 0285 · с. 243
+
+*Nè da sì strano & spauentoso aspetto*
+*E l'habito, che porta, differente,*
+*Sdruscito à tergo se l'allaccia al petto*
+*Con le fibbie; ogni fibbia è d'vn serpente.*
+*Atropo, & Proserpina per diletto*
+*La sogliono adornar sì vagamente.*
+*D'Hidre la destra man ruota vna sferza,*
+*L'altra col foco horribilmente scherza.*
+
+Et quando Giunone la manda à leuare il senno ad Athamante, Ouidio la descriue di turbata vista, con chiome canute, miste di serpenti, che le scendeno giù per la faccia, vestita di gonna tutta sparsa di sangue, & la fa cinta à trauerso con serpenti insieme ritorti, & che habbi in mano vna facella tinta parimente di sangue, & che con lei sen vadi la tema, & lo spauento. Non seruiuano dunque à Plutone solamente le Furie, benche fossero di sua famiglia, ma à Giunone ancora, & à Gioue parimente: li quali paruero hauer che fare anco in Inferno, onde fu chiamato souente l'vno, & l'altro infernale, & Stigio dalla Stigia Palude, che cinge l'Inferno intorno intorno, come cantano i Poeti; dicendo anco, che giurauano sempre i Dei per le acque di questa con pena à qualunque di loro hauesse giurato il falso di essere subito priuato della dignità per vn'anno, di non bere nettare, & non mangiare ambrosia. Et fu dato quel priuilegio alla Palude Stigia, che i Dei giurassero per lei, in consideratione della Vittoria sua figliuola, che fu con Gioue nella guerra contra Giganti. Ma leggesi anco, che ciò fu finto, perche Stige significa merore, e tristezza, dalla quale sono sempre lontani i Dei, che godono perpetua allegrezza; & gioia; come che giurassero per quello, da che sono in tutto alieni. Circonda questa Palude l'Inferno, perche altroue non si troua mestitia maggiore, & per ciò vi fu anco il fiume Lete, Acheronte. Flegetonte, Cocito, & altri fiumi, che significano pianto, dolore, tristezza, ramarico, & altre simili passioni, che sentono del continuo i dannati. Le quali i Platonici vogliono intendere, che siano in questo modo dicendo, che l'anima allhora va in Inferno, quando discende nel corpo mortale, oue troua il fiume Lete, che induce obliuione, da questo passa all'Acheronte, che vuol dire priuatione di allegrezza, perche scordatasi l'anima le cose del Cielo, perde tutta la gioia, che sentiua dalla cognitione di quelle, onde stà tutta trista, e mesta & è perciò circondata dalla Palude Stigia, & se ne ramarica souente, & ne piange, che viene à fare il fiume Cocito, le cui acque sono tutte di lagrime, & di pianto; sì come Flegetonte le ha di fuoco, & di fiamme; che mostrano l'ardore dell'ira, e de gli altri affetti, che ci tormentano, mentre che siamo nell'inferno di questo
+
+Колонтитул: De gli Antichi. 243
+Кустод: corpo,
+Сигнатура: Q 2
+Маргиналии:
+- Stigia Palude.
+- Platonici.
+- Lete fiume.
+- Acheronte.
+- Cocito.
+- Flegetonte.

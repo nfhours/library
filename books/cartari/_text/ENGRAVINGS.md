@@ -136,3 +136,5 @@
 | 0267 | 225 | гравюра | Imagini del fiume Nilo sedente sopra la Sfinge con molti fanciulli intorno che dinotano li gradi del crescimento del detto fiume, che sono sedeci cubiti per ordinario. | |
 | 0269 | 227 | гравюра | Imagine di Vertunno, con Pomona appresso; tenuto per Dio de pensieri humani, dell'anno, de gli horti; mutatore di diuerse faccie, inteso anco per il fiume Tebro. | |
 | 0272 | 230 | инициал | B | |
+| 0276 | 234 | гравюра | Imagini di Plutone dio dell'Inferno, di Proserpina sua moglie, di Eurinomo diuoratore delle carni de morti; di Cerbero cane trifauce custode dell'Inferno. Plutone è tolto per il Sole nel tempo dell'Inuerno, nel quale la virtù della terra stà in se ristretta; & Proserpina è intesa per la terra; il cane per le tre cose necessarie al seme, il nascere, crescere, & perfettionarsi. | |
+| 0283 | 241 | гравюра | Imagini di Aletto, Tesifone, & Megera tre furie infernali punitrici del male, & di quello anco apportatrici, intese per tre passioni dell'animo, Ira, Auaritia, & Libidine, con la pecora nera à loro sacrata, & con le tortore segno di mestitia. | |
