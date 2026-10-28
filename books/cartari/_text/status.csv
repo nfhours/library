@@ -107,41 +107,41 @@ scan,label,printed_number,state,unclear,engravings,note,method,discrepancies,err
 0106,64,,done,0,0,,double,14,10,5,1,0,,,,,1,0,1
 0107,65,65,done,0,1,,double,2,2,0,0,0,,,,,,,
 0108,66,,done,0,1,,double,3,3,0,0,0,,,,,,,
-0109,67,67,done,0,0,,double,10,10,1,1,0,,,,,,,
+0109,67,67,done,0,0,,double,10,10,1,1,0,,,,,1,1,1
 0110,68,,done,0,1,,double,1,1,0,0,0,,,,,,,
-0111,69,69,done,0,0,,double,12,10,3,1,0,,,,,,,
+0111,69,69,done,0,0,,double,12,10,3,1,0,,,,,3,0,0
 0112,70,,done,0,1,,double,1,1,0,0,0,,,,,,,
-0113,71,71,done,0,0,,double,8,7,1,0,0,,,,,,,
+0113,71,71,done,0,0,,double,8,7,1,0,0,,,,,2,2,0
 0114,72,,done,0,1,,double,1,1,0,0,0,,,,,,,
-0115,73,73,done,0,0,,double,12,11,1,0,0,,,,,,,
-0116,74,,done,0,0,,double,10,10,0,0,0,,,,,,,
+0115,73,73,done,0,0,,double,12,11,1,0,0,,,,,8,1,1
+0116,74,,done,0,0,,double,10,10,0,0,0,,,,,3,3,1
 0117,75,75,done,0,1,,double,1,1,0,0,0,,,,,,,
-0118,76,76,done,0,0,,double,14,11,3,0,0,,,,,,,
+0118,76,76,done,0,0,,double,14,11,3,0,0,,,,,0,0,0
 0119,77,77,done,0,1,,double,2,2,0,0,0,,,,,,,
-0120,78,78,done,0,0,,double,11,8,4,1,0,,,,,,,
+0120,78,78,done,0,0,,double,11,8,4,1,0,,,,,9,0,0
 0121,79,79,done,0,1,,double,1,1,0,0,0,,,,,,,
-0122,80,80,done,0,0,,double,6,5,1,0,0,,,,,,,
+0122,80,80,done,0,0,,double,6,5,1,0,0,,,,,9,0,0
 0123,81,81,done,0,1,,double,2,2,0,0,0,,,,,,,
 0124,82,82,done,0,1,,double,2,2,0,0,0,,,,,,,
-0125,83,83,done,0,0,,double,8,6,2,0,0,,,,,,,
+0125,83,83,done,0,0,,double,8,6,2,0,0,,,,,4,0,0
 0126,84,,done,0,1,both_wrong/noise: reconstructed,double,2,2,0,0,0,,,,,,,
-0127,85,95,done,0,0,"Нумерация: на странице напечатано 95, в PAGES.tsv 85 (сверено по фото скана 0127). | both_wrong/noise: reconstructed",double,6,6,0,0,0,,,,,,,
+0127,85,95,done,0,0,"Нумерация: на странице напечатано 95, в PAGES.tsv 85 (сверено по фото скана 0127). | both_wrong/noise: reconstructed",double,6,6,0,0,0,,,,,4,0,0
 0128,86,96,done,0,1,"Нумерация: на странице напечатано 96, в PAGES.tsv 86. | both_wrong/noise: reconstructed",double,1,1,0,0,0,,,,,,,
-0129,87,97,done,0,2,"Нумерация: на странице напечатано 97, в PAGES.tsv 87. | both_wrong/noise: reconstructed",double,3,1,1,0,1,,,,,,,
-0130,88,98,done,0,0,"Нумерация: на странице напечатано 98, в PAGES.tsv 88. | both_wrong/noise: reconstructed",double,3,2,1,0,0,,,,,,,
-0131,89,99,done,0,0,"Нумерация: на странице напечатано 99, в PAGES.tsv 89. | both_wrong/noise: reconstructed",double,7,0,7,0,0,,,,,,,
+0129,87,97,done,0,2,"Нумерация: на странице напечатано 97, в PAGES.tsv 87. | both_wrong/noise: reconstructed",double,3,1,1,0,1,,,,,1,0,0
+0130,88,98,done,0,0,"Нумерация: на странице напечатано 98, в PAGES.tsv 88. | both_wrong/noise: reconstructed",double,3,2,1,0,0,,,,,2,0,0
+0131,89,99,done,0,0,"Нумерация: на странице напечатано 99, в PAGES.tsv 89. | both_wrong/noise: reconstructed",double,7,0,7,0,0,,,,,5,4,1
 0132,90,100,done,0,1,"Нумерация: на странице напечатано 100, в PAGES.tsv 90. | both_wrong/noise: reconstructed",double,0,0,0,0,0,,,,,,,
-0133,91,101,done,0,0,"Нумерация: на странице напечатано 101, в PAGES.tsv 91. | both_wrong/noise: reconstructed",double,3,1,1,0,1,,,,,,,
-0134,92,102,done,0,0,"Нумерация: на странице напечатано 102, в PAGES.tsv 92. | both_wrong/noise: reconstructed",double,5,3,2,0,0,,,,,,,
+0133,91,101,done,0,0,"Нумерация: на странице напечатано 101, в PAGES.tsv 91. | both_wrong/noise: reconstructed",double,3,1,1,0,1,,,,,0,1,1
+0134,92,102,done,0,0,"Нумерация: на странице напечатано 102, в PAGES.tsv 92. | both_wrong/noise: reconstructed",double,5,3,2,0,0,,,,,4,1,1
 0135,93,93,done,0,1,both_wrong/noise: reconstructed,double,0,0,0,0,0,,,,,,,
-0136,94,,done,0,0,both_wrong/noise: reconstructed,double,5,4,1,0,0,,,,,,,
+0136,94,,done,0,0,both_wrong/noise: reconstructed,double,5,4,1,0,0,,,,,1,1,0
 0137,95,95,done,0,1,both_wrong/noise: reconstructed,double,2,2,0,0,0,,,,,,,
-0138,96,,done,1,0,,,,,,,,,,,,,,
-0139,97,97,done,0,0,,,,,,,,,,,,,,
+0138,96,,done,1,0,,,,,,,,,,,,2,1,4
+0139,97,97,done,0,0,,,,,,,,,,,,2,4,2
 0140,98,,done,0,1,,,,,,,,,,,,,,
-0141,99,99,done,0,0,,,,,,,,,,,,,,
+0141,99,99,done,0,0,,,,,,,,,,,,7,1,0
 0142,100,,done,0,1,,,,,,,,,,,,,,
-0143,101,101,done,0,0,,,,,,,,,,,,,,
+0143,101,10,done,0,0,"Нумерация: на странице напечатано 10, в PAGES.tsv 101",,,,,,,,,,,0,3,0
 0144,102,,done,0,0,,,,,,,,,,,,,,
 0145,103,103,done,0,1,,,,,,,,,,,,,,
 0146,104,,done,0,0,,,,,,,,,,,,,,
