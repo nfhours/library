@@ -106,6 +106,29 @@ def range_breakdown(rows, bucket=50):
     return buckets
 
 
+PIGNORIA_START = 502
+
+
+def pignoria_split_totals(rows):
+    main = double_totals(rows, scans_filter={r["scan"] for r in rows if r["scan"].isdigit() and int(r["scan"]) < PIGNORIA_START})
+    pign = double_totals(rows, scans_filter={r["scan"] for r in rows if r["scan"].isdigit() and int(r["scan"]) >= PIGNORIA_START})
+    return main, pign
+
+
+def print_pignoria_split(rows):
+    main, pign = pignoria_split_totals(rows)
+    print(f"Основной текст (<{PIGNORIA_START}) vs «Annotationi di Pignoria» (>={PIGNORIA_START}):")
+    for label, b in (("основной текст", main), ("Pignoria", pign)):
+        n = b["pages"]
+        if n == 0:
+            print(f"  {label:<16} страниц: 0")
+            continue
+        print(f"  {label:<16} страниц: {n:>4} | disc/стр: {b['discrepancies']/n:>5.2f} | "
+              f"err_r1/стр: {b['errors_r1']/n:>5.2f} | err_r2/стр: {b['errors_r2']/n:>5.2f} | "
+              f"both_wrong/стр: {b['both_wrong']/n:>5.2f}")
+    print()
+
+
 def print_range_breakdown(rows, bucket=50):
     buckets = range_breakdown(rows, bucket)
     print(f"Разбивка по диапазонам (каждые {bucket} сканов, только method=double):")
@@ -150,6 +173,7 @@ def main():
     print()
 
     print_range_breakdown(rows)
+    print_pignoria_split(rows)
 
     all_time = double_totals(rows)
     last24 = scans_touched_since("24 hours ago")
