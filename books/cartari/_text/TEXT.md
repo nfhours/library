@@ -10437,3 +10437,135 @@ E' gran marauiglia, che il Cartari non habbia fatto mentione alcuna della Dea Th
 - Car. 325. Lin. 32.
 - Car. 406. Lin. 2.
 - Car. 412.
+
+## Скан 0574 · с. 532
+
+Giustitia, come vuole il Budeo nelle Annotationi sopra le Pandette, era figurata sedente con la Patera in mano, appoggiata ad vn'Hasta. & così stà nelle medaglie di Hadriano, di Antonino Pio, di Alessandro Seuero. della Dea Themis ha stampato vn gentil discorso Stefano Pighio.
+
+Questa autorità di Macrobio riferita dal Cartari mi ha fatto credere, che l'infraposto fragmento sia di vna statua di Proserpina, o Libera che la vogliamo chiamare;
+
+[ГРАВЮРА: без подписи]
+
+Колонтитул: Aggionta · с. 532
+Кустод:
+Сигнатура:
+
+Маргиналии:
+- Car. 488. Lin. 27.
+
+## Скан 0575 · с. 533
+
+[ГРАВЮРА: без подписи]
+
+Колонтитул: All'Imagini de i Dei. · с. 533
+Кустод:
+Сигнатура: Li 3
+
+Маргиналии:
+
+## Скан 0576 · с. 534
+
+[ГРАВЮРА: без подписи]
+
+Колонтитул: Aggionta · с. 534
+Кустод:
+Сигнатура:
+
+Маргиналии:
+
+## Скан 0577 · с. 535
+
+[ГРАВЮРА: без подписи]
+
+Колонтитул: All'Imagini de i Dei. · с. 535
+Кустод:
+Сигнатура: Li 4
+
+Маргиналии:
+
+## Скан 0578 · с. 536
+
+Io ne ho haunto il disegno dal gia Sig. Paolo Gualdo, ch'era possessore della Statua, & fu Arciprete della nostra Cathedrale, mio amoreuolissimo padrone *dum fata sinebant*. & sopra la fascia figurata, che le va intorno al petto & sopra le spalle vn gentilissimo Sonetto ha scritto Monsig. Antonio Querenghi splendore grande della nostra Città. & la medesima fascia ha dichiarato latinamente il mio Sig. Girolamo Aleandro nella sua Heliaca, con apparato singolare di varia & copiosa eruditione, lodato per tale dal medesimo Monsig. Querenghi in vn'altro Sonetto. Et è degno di essere auuertito (in quanto nella fascia si veggono Minerua, Diana & Hercole) il racconto di Pausania nelle cose di Arcadia, ch'è il Libro ottauo; che in Megalopoli si vedeuano le Statue di Proserpina & di Cerere; & che inanzi a Proserpina stauano due giouanette, che portauano in capo vn canestrello per vna pieno di fiori. & che le chiamauano le figliole di Damofonte. ma che altri voleuano, che fossero Minerua & Diana, che in compagnia di Proserpina raccoglieuano fiori. inanzi a Cerere staua Hercole di grandezza di vn cubito. & che Onomacrito scriue, che questo Hercole fu vno de' Dattili Idei. i Lioni in quella maniera conuengono a Plutone, piu che a Cibele. Plutone si sà, che era Dio della terra. e tuttauia, come dice il Sig. Aleandro, non si troua chi gli dia a Plutone, per quanto si sia potuto osseruare. le Serpi, che tirano il Carro di Cerere io mi ricordo di hauerle vedute cosi fatte di rilieuo in vn antichissimo vaso di Gioia. & in vna medaglia antica appresso di me tirano il carro di Trittolemo fatte in questa maniera.
+
+La Imagine di Atide si vede 188. cauata da vn marmo antico, che stà in Roma, & da vna gioia di Annello. tuttauia essendosene trouata vna in Fiandra gl'anni passati assai bella ho voluto riporla in questo luogo.
+
+Колонтитул: Aggionta · с. 536
+Кустод: Et
+Сигнатура:
+
+Маргиналии:
+- Car. 191. Lin. 22.
+
+## Скан 0579 · с. 537
+
+[ГРАВЮРА: без подписи]
+
+Колонтитул: All'Imagini de i Dei. · с. 537
+Кустод:
+Сигнатура:
+
+Маргиналии:
+
+## Скан 0580 · с. 538
+
+[ГРАВЮРА: без подписи]
+
+Et chi piu ne vuol vedere può leggerne à bastanza in vn nostro Commentario stampato in Parigi & ristampato in Venetia con titolo M. D. M. I. & Attidis initia. & vna simile ne ha il Sig. di Peiresc, Consigliero Regio in Ayx di Prouenza, dottissimo & nobilissimo Signore. ma la sua è in getto piu concitato. & di volto più rozzo. con quella di Fiandra fu trouata vna mano della medesima materia, cioè di brõzo, la quale io ho pure spiegata nel sopra citato Libretto
+
+Колонтитул: Aggionta · с. 538
+Кустод: Chi
+Сигнатура:
+
+Маргиналии:
+
+## Скан 0581 · с. 539
+
+[ГРАВЮРА: без подписи]
+
+Колонтитул: All'Imagini de i Dei. · с. 539
+Кустод:
+Сигнатура:
+
+Маргиналии:
+
+## Скан 0582 · с. 540
+
+[ГРАВЮРА: без подписи]
+
+Колонтитул: Aggionta · с. 540
+Кустод:
+Сигнатура:
+
+Маргиналии:
+
+## Скан 0583 · с. 541
+
+[ГРАВЮРА: Chi ha qualche conformità con vna mano posta sopra vn'Hasta del Dio Tillino, dichiarata & esposta dal Sig. Ottauio Rossi nelle sue memorie Bresciane a facciate 128. 129.]
+
+Колонтитул: All'Imagini de i Dei. · с. 541
+Кустод:
+Сигнатура: Mm
+
+Маргиналии:
+
+## Скан 0584 · с. 542
+
+[ГРАВЮРА: TYΛΛINI]
+
+Колонтитул: Aggionta · с. 542
+Кустод:
+Сигнатура:
+
+Маргиналии:
+
+## Скан 0585 · с. 543
+
+[ГРАВЮРА: без подписи]
+
+Ma perche il Sig. Girolamo Aleandro mi ha fauorito di scriuermi il suo parere intorno alla mano di Tornax, diuerso alquanto da quello, ch'io ne ho scritto, non ho voluto fraudarne i studiosi che hanno gusto di questa erudita cognitione. scriue egli cosi. con occasione di hauer considerata l'operetta di V. Sig. piena di bellissima eruditione, non lascierò di dirli, che la mano di bronzo potrebbe essere stata fat-
+
+Колонтитул: All'Imagini de i Dei. · с. 543
+Кустод: ta da
+Сигнатура:
+
+Маргиналии:
