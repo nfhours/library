@@ -4,6 +4,14 @@
 
 | Скан | Стр. | Напечатано | Исправлено | Тип опечатки |
 |---|---|---|---|---|
+| 0046 | 4 | ordiui | ordini | перепутанная буква |
+| 0049 | 7 | diceso | disceso | пропущена буква |
+| 0053 | 11 | rare | fare | перепутанная буква |
+| 0055 | 13 | massiunamente | massimamente | лишняя буква |
+| 0055 | 13 | stari | stati | перепутанная буква |
+| 0057 | 15 | Pausunia | Pausania | перепутанная буква |
+| 0066 | 24 | huomtni | huomini | перепутанная буква |
+| 0066 | 24 | Satuno | Saturno | пропущена буква |
 | 0227 | 185 | segnitauano | seguitauano | перепутанная буква |
 | 0227 | 185 | sotterranano | sotterrauano | перепутанная буква |
 | 0229 | 187 | connitati | conuitati | перепутанная буква |
