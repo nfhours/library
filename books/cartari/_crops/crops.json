@@ -6159,5 +6159,77 @@
     "noPlate": true,
     "flagged": false,
     "updatedAt": "2026-10-28T06:13:14.941566Z"
+  },
+  "0000_Einband.jpg": {
+    "boxes": [],
+    "noPlate": true,
+    "flagged": false,
+    "updatedAt": "2026-10-28T06:28:12.859Z"
+  },
+  "0001_Vorderspiegel.jpg": {
+    "boxes": [],
+    "noPlate": true,
+    "flagged": false,
+    "updatedAt": "2026-10-28T06:28:12.859Z"
+  },
+  "0002_Vorsatz_r.jpg": {
+    "boxes": [],
+    "noPlate": true,
+    "flagged": false,
+    "updatedAt": "2026-10-28T06:28:12.859Z"
+  },
+  "0003_Vorsatz_v.jpg": {
+    "boxes": [],
+    "noPlate": true,
+    "flagged": false,
+    "updatedAt": "2026-10-28T06:28:12.859Z"
+  },
+  "0005_Titelblatt_1v.jpg": {
+    "boxes": [],
+    "noPlate": true,
+    "flagged": false,
+    "updatedAt": "2026-10-28T06:28:12.859Z"
+  },
+  "0007_Titelblatt_2v.jpg": {
+    "boxes": [],
+    "noPlate": true,
+    "flagged": false,
+    "updatedAt": "2026-10-28T06:28:12.859Z"
+  },
+  "0017_VII.jpg": {
+    "boxes": [],
+    "noPlate": true,
+    "flagged": false,
+    "updatedAt": "2026-10-28T06:28:12.859Z"
+  },
+  "0018_VIII.jpg": {
+    "boxes": [],
+    "noPlate": true,
+    "flagged": false,
+    "updatedAt": "2026-10-28T06:28:12.859Z"
+  },
+  "0019_IX.jpg": {
+    "boxes": [],
+    "noPlate": true,
+    "flagged": false,
+    "updatedAt": "2026-10-28T06:28:12.859Z"
+  },
+  "0020_X.jpg": {
+    "boxes": [],
+    "noPlate": true,
+    "flagged": false,
+    "updatedAt": "2026-10-28T06:28:12.859Z"
+  },
+  "0021_XI.jpg": {
+    "boxes": [],
+    "noPlate": true,
+    "flagged": false,
+    "updatedAt": "2026-10-28T06:28:12.859Z"
+  },
+  "0039_XXIX.jpg": {
+    "boxes": [],
+    "noPlate": true,
+    "flagged": false,
+    "updatedAt": "2026-10-28T06:28:12.859Z"
   }
 }
