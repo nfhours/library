@@ -5387,3 +5387,203 @@ Et quando Giunone la manda à leuare il senno ad Athamante, Ouidio la descriue d
 - Acheronte.
 - Cocito.
 - Flegetonte.
+
+## Скан 0286 · с. 244
+
+[ГРАВЮРА: Imagine dell'Arpie, Streghe, & Lamie, punitrici, & apportatrici di male, & mostri ancora spauenteuoli di Libia, significanti la finta & artificiosa bellezza, & allettamenti delle meretrici, & le adulationi de maluagi adulatori, che apportan prima diletto, poi danno all'anima, & al corpo, all'honore, & alla vita.]
+
+Колонтитул: Imagini de i Dei · с. 244
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0287 · с. 245
+
+corpo, come habbiamo detto, che faceuano anco le Furie; alle quali Virgilio aggiunge le ali, & dice, che elle sono preste sempre dinanzi à Gioue, qualunque volta egli vuole mandare à mortali qualche spauento grande di morte, di guerra, di peste, ò di altro grauissimo male. Et Eliano scriue, che le Tortorelle furono consecrate da gli antichi alle Furie; nè trouo, che altro animale fosse proprio loro, se nò che Virgilio ne fa cangiare vna in Ciuetta, ò Gufo che fosse, quando Gioue la manda à spauentare Turno, mentre che combatte con Enea. Sono stati di quelli poi, li quali alle tre furie già dette aggiungono la quarta, che chiamano Lissa. Questa significa appò noi rabbia, & perciò vogliono, che ella sia, che faccia arrabbiare i mortali, e perdere il senno. Onde Euripide finge, che Iride comandata da Giunone mena costei ad Hercole, perche lo faccia diuentar furioso, & arrabbiato. Ella hà il capo cinto di serpenti, & porta vno stimolo, ouero vna ferza in mano. Alle Furie potiamo aggiungere le Arpie, perche credeuano gli antichi, che mandassero i Dei queste parimente talhora à punire i mortali del loro maluagio operare; le quali stauano pure in Inferno, quantunque Virgilio le facesse vna volta habitare le Isole Strofade nel mare Ionio: ma quiui, od altroue che stessero, non importa à me nel dipingerle, & meno à chi vorrà sapere come fossero fatte. Haueuano queste adunque la faccia di donna assai bella, ma magra, & il resto del corpo era di vccello, con ali grandi, & con adunchi artigli, che così le descriue Virgilio, qual dall'Ariosto è stato molto bene imitato, & quasi tradotto in questa parte; il che fa, che io lascio i versi di Virgilio, e pongo quelli solamente dell'Ariosto, che così dicono dell'Arpie,
+
+*Erano sette in Vna schiera à tutte*
+*Volto di donna hauean pallide, e smorte,*
+*Per lunga fame attenuate, e asciutte,*
+*Horribili à Veder più, che la morte.*
+*L'alacce grande hauean deformi, e brutte,*
+*Le man rapaci, e l'vgne incurue, e torte.*
+*Grande, e fetido il Ventre, e lunga coda,*
+*Come di Serpe, che s'aggira, e snoda.*
+
+Et Dante parimente, togliendone pur'il ritratto da Virgilio, ne fece vno schizzo, dicendo nel suo Inferno.
+
+*Quiui le brutte Arpie lor nidi fanno,*
+*Che cacciar de le Strofade i Troiani*
+*Con tristo annuncio di futuro danno.*
+*Ali hanno late, colli e visi humani.*
+*Piè con artigli, e pennuto il gran Ventre*
+*Fanno lamenti in sù gli alberi strani.*
+
+Колонтитул: De gli Antichi · с. 245
+Кустод: Dalle
+Сигнатура: Q3
+Маргиналии:
+- Eliano.
+- Lissa.
+- Arpie.
+- Ariosto.
+- Dante.
+
+## Скан 0288 · с. 246
+
+Dalle Arpie dice Ouidio che nacquero le Streghe, le quali erano certi vccellacci grandi, spauenteuoli, & auidissimi del sangue humano, & così le descriue.
+
+*Han grande il capo, e gli occhi sono fuore*
+*Del commun Vso grossi, & eminenti,*
+*Pieni di brutto, e di crudele horrore.*
+*Gli artigli incurui, & à la preda intenti,*
+*Adunco il rostro, e di color canuto*
+*Le penne, e par che ognun di lor pauenti.*
+
+Andauano queste volando la notte, & cacciatesi nelle case, oue fossero teneri fanciulli succhiauano lor il dolce sangue, onde ne moriuano i miserelli. Statio le fa nate in Inferno, & con faccia, collo, e petto di donna, & che habbino alcuni serpentelli, che scendono dal capo sù la fronte, & sul viso; dice parimente, che vanno la notte nelle case à pascersi del sangue de i piccoli fanciulli. Et per rimediare a questo male adorauano gli antichi quella Dea Carna ouero Cardinea, della quale dissi nella imagine di Giano. Pensa Plinio, che sia fauola ciò che si disse delle Streghe, & che gli antichi vsassero questa voce solo in fare onta, & dire villania altrui: come hoggi ancor noi chiamiamo Streghe le malefiche vecchie, e tutte le donne incantatrici, le quali sono preste sempre a fare male altrui. Hanno poi voluto alcuni, che le Lamie fossero il medesimo appresso de i Greci, che le streghe appresso de i Latini. Ma Filostrato nella vita di Apollonio dice, che le Lamie sono spiriti, ò vogliam dire demonij maluagi, & crudeli, libidinosi oltra modo, & auidi delle humane carni. Scriue Suida, & Fauorino ancora, che Lamia fu vna bella donna, della quale s'innamorò Gioue, & ne hebbe vn figliuolo che la gelosa Giunone fece poi malamente perire, onde la misera madre tanto pianse, che tutta si disfece, & a vendetta del suo è andata sempre facendo male a gli altri figliuoli. Altri dicono, che furono le Lamie animali, che haueuano aspetto di donna, e piedi di cauallo. Ma Dione historico le descriue in altro modo, & perche ne hà detto più di tutti gli altri: voglio riferire tutto quello, che egli ne scriue. Leggesi dunque appresso di costui, che in certi luochi deserti della Libia sono alcune crudelissime fere, le quali hanno il viso, & il petto di donna bello in modo che meglio non si potrebbe dipingere, e si vede loro nell'aspetto, e ne gli occhi tanta gratia, & vna vaghezza tale, che chi le mira, le giudica tutte mansuete, & piaceuoli. Il resto del corpo poi è coperto di durissime scaglie, & và diuentando serpente: sì che finisce in capo di serpente terribile, & spauenteuole. Non hanno queste bestie ali, ne parlano; & non hanno altra voce, se non che fischia-
+
+Колонтитул: Imagini de i Dei · с. 246
+Кустод: no
+Сигнатура:
+Маргиналии:
+- Streghe.
+- Ouidio.
+- Statio.
+- Plinio.
+- Lamie.
+- Filostrato.
+- Dione.
+
+## Скан 0289 · с. 247
+
+[ГРАВЮРА: Imagine della Sfinge Thebana superata da Edipo, & della Chimera Licia superata da Bellerofonte, qual fu vn monte della Licia pieno di feroci animali, & deserto; da Bellerofonte ridotto à coltura, & habitale.]
+
+Колонтитул: De gli Antichi · с. 247
+Кустод:
+Сигнатура: Q4
+Маргиналии:
+
+## Скан 0290 · с. 248
+
+no, & sono tanto veloci, che non è animale alcuno, che da loro possa fuggire, & fanno caccia de gli huomini in questo modo. Mostrano il bel petto, come disse Gieremia Profeta ancora: benche volesse intendere d'altro, che di queste bestie, oue scrisse. E haueuano le Lamie scoperti i bianchi petti. De' quali chi gli vede così diuenta vago che desidera di essere con quelle, & da cotal desiderio sforzato, a loro ne và, come à bellissime donne, le quali non si muouono punto, ma quasi vergognose chinano gli occhi spesso a terra, nè mostrano però mai gli adunchi artigli, se non quando chi andò a loro è ben appresso, per che lo pigliano allhora con quelli, nè lo lasciano prima che il Serpente, che è di loro fine, & quasi coda con venenati morsi l'habbia vcciso, che all'hora poi se lo diuorano. Et più non dico delle Lamie, ma vengo a dissegnare le Sfinge, le quali sono mostri non molto dissimili da quelle, fauolosi in parte, & in parte veri. Perciò che scriue Plinio, che sono queste bestie nella Ethiopia di pelo fosco, con due poppe al petto, di faccia mostruosa. Et Alberto Magno scriuendo de gli animali le mette trà le Simie, & per quello, che ei ne dice, sono quasi quelli, che noi dichiamo Gatti Mammoni. Ma ne scriuono i Poeti in altro modo, dalli quali ne hanno tolto il ritratto poi gli scultori tutti, & i Dipintori; perche questi, come dice Eliano, fanno la Sfinge la metà donna, e la metà Lione, che così la descriue la fauola, qual si racconta di Thebe, oue ella staua sù certa rupe proponendo dubbiosi detti a qualunche passaua di là, & chi non sapeua sciorgerli, da lei restaua miseramente vcciso, e diuorato. Il dubbio era, qual fosse quell'animale, che prima di quattro, poscia di due, & in fine si seruiua di tre piedi: & dicono, che hauendolo dichiarato Edipo dicendo, che era l'huomo, il quale nella infantia adopra caminando le mani, & i piedi, & così se ne và in quattro, fatto poi grande, và con due solamente, & in fine quando è da gli anni agrauato và con tre, adoperando vn bastone per suo sostegno, ella di dolor ripiena da se stessa si precipitò giù della detta rupe, & così rimase priua di vita. La vera imagine di questa, secondo le fauole, è che habbia la faccia, & il petto di donna con grandi ale, & il resto sia di Lione, come si raccoglie pur anche da certi versi di Ausonio Gallo. Leggesi appresso di Plinio, che in Egitto, oue erano quelle grandissime Piramidi, fu vna Sfinge, la quale riueriuano le genti del paese, come Nume saluatico, fatta di pietra viua, & così grande, che il capo haueua di circuito cento due piedi, & cento quarantatre di lunghezza, & dal ventre fin'alla cima della testa, erano cento sessanta duo piedi. Non tacerò la Chimera ancora Mostro in tutto fauoloso, & finto da i Poeti, il quale, secondo che lo descriue Homero, & dopò lui Lucretio, haueua il capo di Lione, il ventre di Capra, & la coda di fiero Drago, & gittaua ardenti fiamme dalla boc-
+
+Колонтитул: Imagini de i Dei · с. 248
+Кустод: ca,
+Сигнатура:
+Маргиналии:
+- Gieremia.
+- Sfinge.
+- Alberto Magno.
+- Eliano.
+- Chimera.
+
+## Скан 0291 · с. 249
+
+ca, come dice Virgilio ancora, che la mette nella prima entrata dell'inferno con alcuni altri terribili mostri. Ma la verità fu, che la Chimera non vna bestia, ma era vn monte nella Licia, che dalla sua più alta cima à guisa di Mongibello spargeua viue fiamme, & quiui d'intorno stauano Lioni assai al mezo poi haueua de gli arbori, & assai lieti paschi con diuerse piante, & alle radici era da ogn'intorno pieno di Serpenti, in modo che non ardiua alcuno di habitarui. A che trouò rimedio Bellerofonte, mandatoui da Giobate, perche vi rimanesse morto in vendetta dell'oltraggio fatto (come ei credeua) à Stenobea sua figliuola; moglie di Preto, il quale fece sì; che fu poscia tutto il monte habitato sicuramente. Per la qual cosa dissero le fauole, che la Chimera fu vccisa da Bellerofonte. Andarebbono con questi mostri i disegni di molti mali, che tutti sono della famiglia infernale, ma perche tornerà più commodo dirne in qualche altro luoco, come ho già deliberato di fare, & non è cosa, che quì rileui molto, gli lascio, & vengo a descriuere le Parche, che furono parimente peste da gli antichi fra il numero de i Dei, & come gli altri hebbero tempij, & altari consecrati. Queste furono tante, quante erano le Furie, seruiuano parimente à Plutone, come vna di loro dice appresso di Claudiano, quando lo prega, che non voglia mouere guerra à Gioue, & le sue parole sono tali.
+
+*De l'ombre, e de la notte, ò eterno, e grande*
+*Fiero rettore, e giudice onde sempre*
+*Gli stami noi volgendo insieme tanto*
+*Ci affatichiam per te aggradir del tutto*
+*Da cui dipende il fin Vltimo, e il seme,*
+*Che il Viuer, e'l morir reggi, che serbi*
+*Gli humani corpi eternamente Vguali.*
+
+Et non è marauiglia che le Parche seruano à Plutone, perche elle furono credute filare la vita humana, la quale ò poco dura, ò molto, secondo che il corpo frale è di natura sua atto à viuere più, ò meno, & è questo nell'huomo la materia rapresentata da Plutone. Dalle mutationi dunque, che riceue in sè la materia, viene la morte, & la vita, quale alla misura di quella fanno le Parche lunga, & breue. Et perciò finsero gli antichi, che fossero tre, & l'vna hauesse la cura del nascere, l'altra del viuere, la terza del morire. Onde è, che stando tutte tre insieme à filare le vite de i mortali, teneua vna, Cloto la più giouane, la conocchia, e tiraua il filo, l'altra Lachesi di maggior età l'auuolgeua intorno al fuso, e la terza Attopo già vecchia lo tagliaua. Però Virgilio così parla di Dante a chi si marauigliaua di vederlo tanto oltre il Purgatorio, volendo dire, ch'ei non era anco morto,
+
+Колонтитул: De gli Antichi · с. 249
+Кустод:
+Сигнатура: Ma
+Маргиналии:
+- Parche.
+- Claudiano.
+- Dante.
+
+## Скан 0292 · с. 250
+
+[ГРАВЮРА: Imagini di Cloto, Lachesi, & Atropo, dette le tre Parche, delle quali diceuano gli antichi esser nelle mani la vita & morte de tutti, significanti le alterationi della vita, dalle quali nasce la lunghezza & breuità sua, intese anco per il fato & destino.]
+
+Колонтитул: Imagini de i Dei · с. 250
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0293 · с. 251
+
+*Ma perche lei, che dì, e notte fila,*
+*Non gli hauea tratta ancora la conocchia,*
+*Che Cloto impone à ciascuno, e compila.*
+
+Fulgentio dice, che sono le Parche preste a i seruitij di Plutone, perche la forza loro è solamente sopra le cose terrene, & habbiamo già detto, che anco per Plutone si intende la terra. La più parte de' scrittori conclude, che le Parche così siano dette da Parco voce latina, che volgarmente significa perdonare, per quella figura che loro addimandano Antifrasi, cioè che ci dinota il contrario di quello, che la parola significa, quasi vogliono dire, che perciò hanno elle questo nome, perche non perdonano giamai ad alcuno. Ma Varrone vuole, come riferisce Gellio, che siano state dette dal partorire, come a quelle ne toccasse la cura: donde venne, dice egli, che i Latini ne chiamarono vna Decima, l'altra Nona, perche il tempo del maturo parto è quasi sempre a l'vno di questi duo mesi, nono e decimo. Ma perche chi nasce hà pur anco da morire, fu detta la terza delle Parche Morta dalla morte, con la quale era creduta mettere fine al viuere humano. Et questa è disegnata da Pausania, quando racconta le cose scolpite nell'arca di Cipsello in questo modo. Quiui era, dice egli, Polinice caduto inginocchione, sopra del quale andaua il fratello Etheocle per vcciderlo, & vi era a tergo vna femina con denti, & vgne adunche, & che pareua in vista più crudele di qual si voglia crudelissima fera; & era questa, come le lettere quiui intagliate mostrauano, Morta vna delle Parche, e voleua significare, che Polinice moriua per destino, ma Ethocle per sua colpa, & per merito suo. Et perche molti de i Filosofi antichi, vollero, che la diuina prouidenza habbi disposto vna volta tutte le cose, di modo che nò si possano più mutare, come che le cause di quelle siano così ordinate insieme, che da loro stesse venghino a produrle, d'onde nasce la forza del Fato; alcuni hanno detto che i Poeti intesero il medesimo sotto la fittione delle Parche, & che le fecero tre, perche ogni cosa comincia da vn principio, & caminando pel suo appropriato mezo arriua al destinato fine; e nacquero del Chaos, perche nella prima separatione, che fu fatta, furono a tutte le cose assegnate le proprie cause. Altri hanno fatto le Parche nate dell'Herebo, che fu il profondo, & oscuro luoco della Terra, & della Notte, volendo con la sicurezza del Padre, & della madre mostrare, quanto siano occulte le cause delle cose. Platone le fa figliuole della Dea Necessità, frà le ginocchia della quale ei mette quel gran fuso di diamante, che tiene dall'vn polo all'altro, che le Parche, che stanno a sedere a canto alla madre, egualmente discoste l'vna dall'altra, in alto, & eleuato seggio, cantano insieme con le Sirene, che sono sopra gli orbi celesti, Lachesi del
+
+Колонтитул: De gli Antichi · с. 251
+Кустод: del
+Сигнатура:
+Маргиналии:
+- Varrone.
+- Decima.
+- Nona.
+- Morta.
+- Pausania.
+- Fato.
+
+## Скан 0294 · с. 252
+
+del passato, Cloto del presente, & Atropo di quello, che hà da venire; e mettono parimente mano al fuso insieme con la Dea Necessità loro madre in questo modo; Cloto vi mette la destra, Atropo la sinistra, e Lachesi con ambe le mani lo tocca di qua, e di là, & sono vestite di panni bianchi, & hanno il capo cinto di corona. Seguita poi Platone, dicendo, come le sorti della vita humana vengono da Lachesi, & alcune altre cose, le quali contengono alti sensi, e misterij grandi, come dichiarerò, quando scriuerò dell'anima, secondo che altre volte ho promesso di fare, che hora non viene à proposito; ma basta sapere, che le Parche erano vestite di bianco, & coronate a guisa di regine stauano sedendo, e porgeuano chi l'vna mano, e chi tutte due al fuso, che era fra le ginocchia della Necessità loro madre: la quale fu parimente detta Dea, & fu dedicato vn tempio a lei, & alla Dea Violenza, come scriue Pausania appresso de i Corinthi, oue diceuano, che non era lecito ad alcuno di entrare. Hanno alcuni fatto ghirlande alle Parche di bianchi Narcisi, & altri hanno cinto loro il capo di bianca fascia, come Catullo, il quale facendole vecchie di faccia, così le descriue.
+
+*Hanno le Parche intorno bianca veste*
+*Che le tremanti membra cuopre, e cinge*
+*Circondata di porpora, e à le teste*
+*Han bianca benda, che l'annoda, e stringe.*
+*E benche Vecchie sian, son però preste*
+*Con la man sempre, che lo stame finge*
+*In Varij modi, onde l'humana Vita*
+*Viene, e vassene all'Vltima partita.*
+
+Homero nelle laudi che ei canta à Mercurio dice, che le Parche sono tre sorelle vergini, che hanno le ali, & il capo sparso di bianchissima farina. Et appresso di Pausania si legge, che Venere fu posta da i Greci per vna delle Parche, & massime da quelli di Athene, li quali haueuano in certo tempio dedicato à questa Dea vn simulacro fatto in forma quadra, come gli Hermi che si faceuano per Mercurio, con vno epigramma che lo nomaua Venere celeste vna delle Parche, & la più vecchia di loro, nè vi era persona, che ne sapesse dire altro. Ilche mi riduce à mente quello che faceuano i Romani; che teneuano nel tempio di Libitina quelle cose, che seruiuano a portare i morti alla sepoltura. Di che rendendo la ragione Plutarco, dice che Libitina era Venere, & che nel suo tempio erano guardati gli ornamenti de i morti, per ammonirci della fragilità della vita humana, il principio, & fine della quale era in potere di vna medesima Dea. Perche, come vn'altra volta habbiamo detto, Venere fu la
+
+Колонтитул: Imagini de i Dei · с. 252
+Кустод: Dea
+Сигнатура:
+Маргиналии:
+- Necessità Dea.
+- Veste delle Parche.
+- Catullo.
+- Homero.
+- Venere frà le Parche.
+
+## Скан 0295 · с. 253
+
+[ГРАВЮРА: Imagine della Necessità, & del fuso adamantino trauersando il mondo, & imagini delle tre Parche figliuole della Necessità nominate Cloto, Atropo, e Lachesi, denotanti li tre tempi & tre stati della vita, passato, presente, e venturo, dinotano ancora il destino secondo gli antichi.]
+
+Колонтитул: De gli Antichi · с. 253
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0296 · с. 254
+
+Dea della generatione, & il farla la più vecchia delle Parche voleua à punto dire, che ella era, che metteua fine al viuere humano. Ma potremo forse anco dire, che questo mostraua. che le Parche erano credute cosa dal cielo, benche fossero dette seruire à Plutone, & io le habbi messe con lui per le ragioni che ne hò detto. Onde si troua che in certa parte della Grecia fu vn'altare dedicato al Dio Meragete, che viene à dire Capo, & duce delle Parche, & dice Pausania, che si hà da tener per certo, che quello fosse cognome di Gioue, perche egli solo hà le Parche in suo potere, & fa egli solo quello, che ordinano i Fati. Da che venne anco forse, che alcuni le chiamarono Cancelliere de i Dei, come che fosse loro officio intendere il volere di Gioue, & le deliberationi di tutto il Senato celeste, e metterle in iscritto, accioche si potessero poi stendere al tempo di mandarle ad essecutione. Fulgentio interpretando il nome di queste dice, che Cloto, che è nome greco, nella nostra lingua significa euocatione, Lachesi vol dire sorte, & Atropo dinota senza ordine, quasi che la prima sia che ne chiami alla vita, la seconda ne dimostri il modo, che dobbiamo vsare, mentre viuiamo, & la terza la condition della morte, che suol venire senza ordine, ò legge di sorte alcuna. Ricordomi hauer già visto nel libro delle anticaglie raccolte da Pietro Appiano le Parche disegnate in questa guisa, come egli dice che erano in certa lama di piombo, che fu trouata già nella Stiria nell'anno 1500. Egli è tirato vn segno in circolo, & dentro di questo siede sopra vn piccolo poggetto vn giouine nudo, che con ambi le mani si cuopre la faccia, e gli occhi, & hà scritto sopra il capo Cloto, à i suoi piedi giace vn fanciullo con l'ali, nudo pure, che tiene la mano destra sul destro ginocchio, e stà col sinistro braccio appoggiato sopra vn teschio humano, che tiene in bocca vn stinco per lo trauerso, & al fanciullo era scritto sopra Lachesi, & al teschio Atropo. Pareua poi che dalla destra del fanciullo poco lontano da lui fosse vna ardente fiamma, & di dietro quasi verso il giouine, che sedeua, vn cespuglietto di herba con alcuni fiori, & era tutto il resto arido terreno con alcuni sassi sparsi quiui disordinatamente. Ora per metter fine alla famiglia dello Inferno veggiamo come fosse fatto il nocchiero, che alla ripa del fiume Acheronte staua, per passar l'anime, che di tutto il mondo vscendo da mortali corpi colà si traheuano, quando però moriuano in ira di Dio, come fa Dante dire à sè da Virgilio in questa guisa.
+
+*Figliuol mio disse il maestro cortese,*
+*Quelli, che muoiono ne l'ira di Dio,*
+*Tutti conuengon quà d'ogni paese.*
+
+Колонтитул: Imagini de i Dei · с. 254
+Кустод: Ma
+Сигнатура:
+Маргиналии:
+- Meragete Dio.
+- Cancelliere de i Dei.
+- Fulgentio.
+- Pietro Appiano.
+- Dante.
+
+## Скан 0297 · с. 255
+
+[ГРАВЮРА: Imagini delle tre Parche trouate secondo Pietro Appiano in Stiria del 1500. interpretate Cloto euocatione cioè principio di vita, Lachesi forte cioè vso, e camino, o corso di vita, Atropo senza ordine, cioè necessità & varietà della morte à tutte le cose del mondo comune. (надписи на гравюре: CLOTO, LACHESIS., ATROPOS)]
+
+Колонтитул: De gli Antichi · с. 255
+Кустод:
+Сигнатура:
+Маргиналии:
