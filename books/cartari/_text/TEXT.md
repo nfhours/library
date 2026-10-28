@@ -4112,63 +4112,69 @@ le noci mostraua, che l'huomo maritandosi lasciaua tutte le cose fanciullesche, 
 
 donne parimente gli portauano. Et tutto il disegno, che hò fatto di costui è descritto da Catullo in questo modo.
 
-O de l'alto Helicone
-Habitator felice,
-O d'Vriana celeste,
-Lieto, e giocondo figlio,
-Che ne le forti braccia
-Del disioso amante
-Con legittimo nodo
-Metti la delicata Verginella.
-Ciuge Himeneo le tempie
-Di belli, e vaghi fiori
-De l'odorata persa,
-E tenendo con mano
-Il colorito velo
-Moue lieto per noi
-Il bianco piè vestito
-Et adorno del bel dorato foccos.
-In questo di giocondo
-Vien con soaue voce
-Cantando a' noui sposi
-Allegre canzonette.
-Con piè prospero mena
-Gli festeuoli balli,
-E con felice destra
-La risplendente face porta inanzi.
+*O de l'alto Helicone*
+*Habitator felice,*
+*O d'Vriana celeste,*
+*Lieto, e giocondo figlio,*
+*Che ne le forti braccia*
+*Del disioso amante*
+*Con legittimo nodo*
+*Metti la declicata Verginella.*
+*Cinge Himeneo le tempie*
+*Di belli, e vaghi fiori*
+*De l'odorata persa,*
+*E tenendo con mano*
+*Il colorito velo*
+*Moue lieto per noi*
+*Il bianco piè vestito*
+*Et adorno del bel dorato socco.*
+*In questo di giocondo*
+*Vien con soaue voce*
+*Cantando a' noui sposi*
+*Allegre canzonette.*
+*Con piè prospero mena*
+*Gli festeuoli balli,*
+*E con felice destra*
+*La risplendente face porta inanzi.*
 
 Seneca parimente così ne dice:
 
-Tu, che la notte con felice auspitio
-Scacci, portando ne la destra mano
-La lieta, e santa face, hor vien' a noi
-Tutto languido, & ebbro; ma pria cingi
-Di be' fiori, e di rose ambe le tempie.
+*Tu, che la notte con felice auspitio*
+*Scacci, portando ne la destra mano*
+*La lieta, e santa face, hor vien' a noi*
+*Tutto languido, & ebbro; ma pria cingi*
+*Di be' fiori, e di rose ambe le tempie.*
 
-Claudiano in certo Epitalamio descriue Himeneo in questo modo.
+Claudiano in certo Epitalamio descrisse Himeneo in questo modo.
 
-Da gli occhi vn soauissimo splendore
-Esce, ch'a rimirarlo altrui contenta.
-E i caldi rai del Sole, e quel rossore,
-Ch'ogn'animo pudico tocca, e tenta,
-Spargon di bel porporeo colore
-Le bianche gote, a le quai s'appresenta
-La lanugine prima accompagnata
-Da bella chioma crespa, & indorata.
+*Da gli occhi vn soauissimo splendore*
+*Esce, ch'a rimirarlo altrui contenta.*
+*E i caldi rai del Sole, e quel rossore,*
+*Ch'ogn'animo pudico tocca, e tenta,*
+*Spargon di bel porporeo colore*
+*Le bianche gote, a le quai s'appresenta*
+*La lanugine prima accompagnata*
+*Da bella chioma crespa, & indorata.*
 
-Колонтитул:
-Кустод:
+Колонтитул: 172 Imagini de i Dei
+Кустод: A
+Сигнатура: L
 Маргиналии:
 - Catullo.
 
 ## Скан 0215 · с. 173
 
+[ВИНЬЕТКА: орнаментальная наборная полоса из растительных мотивов]
+
 LA GRAN MADRE.
 
-La Terra fu creduta da gli antichi essere stata la prima di tutti i Dei, & perciò la chiamarono la gran Madre, e la Madre di questi. Et secondo che di quella viddero la natura essere diuersa, & molte le proprietà, così molti nomi le dierono, & diuersi; & in varij modi l'adorarono, & ne fecero statue. Onde hauendo io già detto, come di lei intesessero per Giunone alle volte, & ne facessero imagini, hora dirò delle altre, che appresso de gli antichi furono tutte Dee significatrici della Terra. Alla quale solamente di tutte le parti dell'vniuerso scriue Plinio, che meriteuolmente fu dato cognome di materna riuerenza: imperoche nati, che sono i mortali, ella gli riceue secondo l'vsanza de gli antichi, quale era di porre il fanciullo, subito vscito del ventre della madre in terra; come nelle braccia della generale madre di tutti, & leuarne lo anco poi subito, & hebbero perciò vna Dea chiamata Leuana, la quale credeuano che a questo fosse sopra, di fare col suo Nume, che quel fanciullino allhora nato fosse felicemente leuato di terra: sì come ne hebbero anco vna, che haueua la guardia delle Culle de i medesimi fanciullini, chiamata da loro la Dea Cunina; & Vagitano fu il Dio del piangere de i fanciulli, che da Latini è detto Vagire. La Dea Pauentia era sopra al pauore cioè timore de i medesimi, & Rumina, sopra il lattare, perche Ruma diceuano gli antichi alla mammella. Potina fu la Dea della potione, cioè del loro bere: & Edusa dell'esca, cioè del mangiare. Hauendo dunque la Terra riceuuto gli mortali, subito che sono nati, come amoreuole madre, gli nodrisce anco poi, & sostenta; & quando alla fine sono da tutti abbandonati, ella gli raccoglie nell'ampio suo seno & in sè medesima gli serra: Et non gli huomini solamente, e gli altri animali, ma tutte le altre cose ancora paiono hauer vita qui frà noi dalla terra, & essere da lei sostenute, nodrite, & conseruate. Per le quali cose a ragione ella fu detta gran Madre, & Madre de i Dei parimente, perche erano stati i Dei de gli antichi mortali, &
+[ВИНЬЕТКА: орнаментальная наборная полоса из растительных мотивов]
 
-Колонтитул:
+[ИНИЦИАЛ: L]a Terra fu creduta da gli antichi essere stata la prima di tutti i Dei, & perciò la chiamarono la gran Madre, e la Madre di questi. Et secondo che di quella viddero la natura essere diuersa, & molte le proprietà, così molti nomi le dierono, & diuersi; & in varij modi l'adorarono, & ne fecero statoe. Onde hauendo io già detto, come di lei intendessero per Giunone alle volte, & ne facessero imagine, hora dirò delle altre, che appresso de gli antichi furono tutte Dee significatrici della Terra. Alla quale solamente di tutte le parti dell'vniuerso scriue Plinio, che meriteuolmente fu dato cognome di materna riuerenza: imperoche nati, che sono i mortali, ella gli riceue secondo l'vsanza de gli antichi, quale era di porre il fanciullo, subito vscito del ventre della madre in terra; come nelle braccia della generale madre di tutti, & leuarnelo anco poi subito, & hebbero perciò vna Dea chiamata Leuana, la quale credeuano che a questo fosse sopra, di fare col suo Nume, che quel fanciullino allhora nato fosse felicemente leuato di terra: sì come ne hebbero anco vna, che haueua la guardia delle Culle de i medesimi fanciullini, chiamata da loro la Dea Cunina; & Vagitano fu il Dio del piangere de i fanciulli, che da Latini è detto Vagire. La Dea Pauentia era sopra al pauore cioè timore de i medesimi, & Rumina, sopra il lattare, perche Ruma diceuano gli antichi alla mammella. Potina fu la Dea della potione, cioè del loro bere: & Edusa dell'esca, cioè del mangiare. Hauendo dunque la Terra riceuuto gli mortali, subito che sono nati, come amoreuole madre, gli nodrisce anco poi, & sostenta; & quando alla fine sono da tutti abbandonati, ella gli raccoglie nell'ampio suo seno & in sè medesima gli serra: Et non gli huomini solamente, e gli altri animali, ma tutte le altre cose ancora paiono hauer vita qui frà noi dalla terra, & essere da lei sostenute, nodrite, & conseruate. Per le quali cose a ragione ella fu detta gran Madre, & Madre de i Dei parimente, perche erano stati i Dei de gli antichi mortali, &
+
+Колонтитул: De gli Antichi. 173
 Кустод:
+Сигнатура:
 Маргиналии:
 - Terra perche detta madre. Leuana Dea.
 - Cunina. Vagitano. Pauentia.
@@ -4176,10 +4182,11 @@ La Terra fu creduta da gli antichi essere stata la prima di tutti i Dei, & perci
 
 ## Скан 0216 · с. 174
 
-li, & erano viuuti vn tempo di quello, che la terra produce, come ne viuono tutti gli altri mortali. Et fu questa la medesima che Ope, Cibele, Rhea, Vesta, & Cerere, & altre ancora dimostratrici delle diuerse virtù della Terra. Delle quali esporrò gli nomi in disegnando le imagini loro secondo che mi tornerà bene, & ne racconterò le fauole, od altro che sia, se verranno a proposito. Imperoche come i dipintori adornano le loro tauole con tutti quelli ornamenti che fanno migliori, accioche a' riguardanti paiono più vaghe, così hò cercato io di fare mentre che disegno queste imagini con la penna. Percioche espongo talhora alcuni nomi, talhora interpreto qualche fauola, & di alcuni ne racconto alle volte semplicemente, & alle volte ancora tocco qualche historia, secondo che mi pare più confarsi a quello, di che haurò già detto, ò mi resti da dire, parendomi di douere essere a questo modo, se non diletteuole a chi legge, almeno non troppo noioso, conciosia che la varietà delle cose soglia leuare gran parte di noia a i lettori. Venendo dunque a dire della gran Madre, ella fu chiamata Ope da gli antichi perche questa voce significa aiuto, & non è chi più aiuti la vita de i mortali della terra; onde Homero la chiama donatrice della vita, perche ella ci dà oue commodamente potiamo habitare, & ci porge onde habbiamo da nodrirci & in molti altri modi ci gioua a guisa di pietosa madre. Et perciò Martiano descriuendola, dice, ch'ella e di molta età, & ha vn gran corpo, a che si consà quello, che scriue Pausania, che in certa parte della Grecia appresso il fiume Craside fu vn tempietto della Terra oue ella fu chiamata la Dea dal largo petto: & se ben partorisce spesso, & habbi intorno molti figliuoli, nondimeno hà pur anco vna veste tutta dipinta a fiori di colori diuersi, & vn manto tessuto di verdi herbe, nel quale paiono essere tutte quelle cose, che più sono prezzate da' mortali; come le preciose gemme, & i metalli tutti, & visi vedeua ancora copia grande di tutti i frutti, & vna abondanza mirabile di tutte le cose. Ora chi è, che in questo ritratto non riconosca la Terra? La quale Varrone, secondo che riferisce Santo Agostino nel libro della Città di Dio, vuole, che sia chiamata Ope, perche per l'opera humana diuenta migliore, & quanto è più coltiuata, tanto è più fertile, & che sia nomata Proserpina, perche vscendo da lei vanno come serpendo le biade, che ne nascono, & che sia detta Vesta, perche di verdi herbe si veste. Oltre di ciò la dipinge anco, & insieme espone tutta la pittura, il Boccaccio, quando scriue della progenie de i Dei, & dice, che ella hà in capo vna corona fatta a torri, perche il circuito della terra a guisa di corona è tutto pieno di Città, di Castella, di Villaggi, e di altri edificij. La veste tessuta di verdi herbe, & circondata da fronzuti rami, mostra gli arbori, le piante, & le herbe che cuoprono la terra. Hà lo scettro
+li, & erano viuuti vn tempo di quello, che la terra produce, come ne viuono tutti gli altri mortali. Et fu questa la medesima che Ope, Cibele, Rhea, Vesta, & Cerere, & altre ancora dimostratrici delle diuerse virtù della Terra. Delle quali esporrò gli nomi in disegnando le imagini loro secondo che mi tornerà bene, & ne racconterò le fauole, od altro che sia, se verranno a proposito. Imperoche come i dipintori adornano le loro tauole con tutti quelli ornamenti che fanno migliori, accioche a' riguardanti paiono più vaghe, così hò cercato io di fare mentre che disegno queste imagini con la penna. Percioche espongo tallhora alcuni nomi, talhora interpreto qualche fauola, & di alcuni ne racconto alle volte semplicemente, & alle volte ancora tocco qualche historia, secondo che mi pare più confarsi a quello, di che haurò già detto, ò mi resti da dire, parendomi di douere essere a questo modo, se non diletteuole a chi legge, almeno non troppo noioso, conciosia che la varietà delle cose soglia leuare gran parte di noia a i lettori. Venendo dunque a dire della gran Madre, ella fu chiamata Ope da gli antichi perche questa voce significa aiuto, & non è chi più aiuti la vita de i mortali della terra; onde Homero la chiama donatrice della vita, perche ella ci dà oue commodamente potiamo habitare, & ci porge onde habbiamo da nodrirci & in molti altri modi ci gioua a guisa di pietosa madre. Et perciò Martiano descriuendola, dice, ch'ella e di molta età, & ha vn gran corpo, a che si confà quello, che scriue Pausania, che in certa parte della Grecia appresso il fiume Craside fu vn tempietto della Terra oue ella fu chiamata la Dea dal largo petto: & se ben partorisce spesso, & habbi intorno molti figliuoli, nondimeno hà pur anco vna veste tutta dipinta a fiori di color diuersi, & vn manto tessuto di verdi herbe, nel quale paiono essere tutte quelle cose, che più sono prezzate da' mortali; come le preciose gemme, & i metalli tutti, & vi si vedeua ancora copia grande di tutti i frutti, & vna abondanza mirabile di tutte le cose. Ora chi è, che in questo ritratto non riconosca la Terra? La quale Varrone, secondo che riferisce Santo Agostino nel libro della Città di Dio, vuole, che sia chiamata Ope, perche per l'opera humana diuenta migliore, & quanto è più coltiuata, tanto è più fertile, & che sia nomata Proserpina, perche vscendo da lei vanno come serpendo le biade, che ne nascono, & che sia detta Vesta, perche di verdi herbe si veste. Oltre di ciò la dipinge anco, & insieme espone tutta la pittura, il Boccaccio, quando scriue della progenie de i Dei, & dice, che ella hà in capo vna corona fatta a torri, perche il circuito della terra a guisa di corona è tutto pieno di Città, di Castella, di Villaggi, e di altri edificij. La veste tessuta di verdi herbe, & circondata da fronzuti rami, mostra gli arbori, le piante, & le herbe che cuoprono la terra. Hà lo scettro
 
-Колонтитул:
+Колонтитул: 174 Imagini de i Dei
 Кустод:
+Сигнатура:
 Маргиналии:
 - Ope.
 - Homero.
@@ -4188,39 +4195,44 @@ li, & erano viuuti vn tempo di quello, che la terra produce, come ne viuono tutt
 
 ## Скан 0217 · с. 175
 
-[ГРАВЮРА — полностраничная]
+[ВИНЬЕТКА: орнаментальная рамка по краям страницы]
 
-Imagine della dea Ope detta anco Berecinthia, madre de gli Dei, interpretata per la Terra, & gli animali, & alberi a lei sacrati significanti la fruttuosa coltiuatione del terreno, & ogni vno esser sottoposto alla natura benche grande. Vi è anco l'imagine de suoi Sacerdoti detti Coribanti, che dimostrano che ogn'vno debba essercitarsi virtuosamente e non stare otioso.
+[ГРАВЮРА: богиня Опа (Берекинтия) в короне-башне сидит на колеснице, запряжённой двумя львами, со стражей, несущей копья; над ней в круглом медальоне на дереве изображена фигура с рогом изобилия и гроздью винограда; справа стоит юноша (корибант) с тимпаном/щитом и посохом]
 
-Колонтитул:
+*Imagine della dea Ope detta anco Berecinthia madre de gli Dei, interpretata per la Terra, & gli animali, & alberi a lei sacrati significanti la fruttuosa coltiuatione del terreno, & ogni vno esser sottoposto alla natura benche grande. Vi è anco l'imagine de suoi Sacerdoti detti Coribanti, che dimostrano che ogn'vno debba essercitarsi virtuosamente e non stare otioso.*
+
+Колонтитул: De gli Antichi. 175
 Кустод:
+Сигнатура:
 Маргиналии:
 
 ## Скан 0218 · с. 176
 
-in mano, che significa, che i terra sono i regni tutti, & tutte le ricchezze humane, & mostra la potenza ancora de i Signori terreni. Per gli timpani, che ella parimente hà, si intende la rotondità della terra partita in due meze sfere, delle quali l'vna è chiamata l'Hemispero superiore, & è quella che habitiamo noi; & l'altra inferiore oue sono gli Antipodi. Hà poi vn carro con quattro ruote, perche se bene ella stà ferma, & è immobile, l'opere nondimeno, che in quella si fanno, sono con certo ordine variate per le quattro stagioni dell'anno, & se ne vanno succedendo l'vna all'altra. Lo tirano i Lioni, ouero per mostrare quello che fanno i Contadini seminando il grano, i quali subito lo cuoprono, accioche gli auidi vccelli non ne faccino preda, come fanno i Lioni, quando caminano per lochi poluerosi, che come scriue Solino, leuano via con la coda le sue pedate, accioche per quelle non habbiano da spiare i Cacciatori doue vanno, ouero perche non è terra alcuna, sia quanto vuole aspera, & dura, che coltiuandola non diuenti molle, & facile al produrre, ò pur'è, per mostrare, mettendo sotto al giogo della Dea Ope il Lione Rè de gli altri animali, che i Signori del mondo parimente sono soggetti alle leggi della natura, & che così hanno essi bisogno dell'aiuto della terra, come gli altri. Le fauole dicono, che sdegnata la Madre de i Dei contra Hippomene, & Atlanta, perche senza rispetto del suo Nume giacquero insieme in vna selua a lei consecrata, gli fece diuentar Lioni, & volle che dapoi tirassero sempre il suo carro. Mostrano le sedi, che a questa Dea stanno di intorno, che, se ben le altre cose tutte si muouono, ella stà ferma però sempre, ò veramente perche sono vote, ci danno ad intendere, che non solo le case, ma le Città ancora, & per pestilenza, & per guerre, & per altri disagi si votano spesso, ouero che sopra la terra sono molti luoghi dishabitati. Gli Sacerdoti dimandati Coribanti, li quali quiui stanno dritti, & armati, vogliono mostrare, che non solamente i coltiuatori della terra, ma i Sacerdoti anco & quelli che alle Città, & a' Regni sono sopra, non doueriano sedere, nè starsi in otio, ma che deue ciascheduno pigliare le sue armi, chi per coltiuare la terra, chi per pregar i Dei, & chi per difendere la patria. La imagine che fa Varrone della Dea Ope è di tal maniera. Mettesi sopra vn carro tirato da Lioni vna donna, che hà il capo cinto di torri a guisa di corona tiene lo scettro in mano, & è vestita di vn manto tutto carico di rami, di herbe, & di fiori, intorno le stanno alcuni seggi voti, & vi sono anco i risonanti timpani, & l'accompagnano certi sacerdoti con gli elmi in testa, con gli scudi al braccio, & con l'aste in mano. Scriue Isidoro, che fu data altre volte all'imagine della gran Madre vna chiale, per mostrare che la terra al tempo dell'inuerno si serra, & in se nasconde il seme sopra lei sparso, qual germogliando vien fuori poi al tempo della Primavera,
+in mano, che significa, che in terra sono i regni tutti, & tutte le ricchezze humane, & mostra la potenza ancora de i Signori terreni. Per gli timpani, che ella parimente hà, si intende la rotondità della terra partita in due meze sfere, delle quali l'vna è chiamata l'Hemispero soperiore, & è quella che habitiamo noi; & l'altra inferiore oue sono gli Antipodi. Hà poi vn carro con quattro ruote, perche se bene ella stà ferma, & è immobile, l'opere nondimeno, che in quella si fanno, sono con certo ordine variate per le quattro stagioni dell'anno, & se ne vanno succedendo l'vna all'altra. Lo tirano i Lioni, ouero per mostrare quello che fanno i Contadini seminando il grano, i quali subito lo cuoprono, accioche gli auidi vccelli non ne faccino preda, come fanno i Lioni, quando caminano per lochi poluerosi, che come scriue Solino, leuano via con la coda le sue pedate, accioche per quelle non habbiano da spiare i Cacciatori doue vanno, ouero perche non è terra alcuna, sia quanto vuole aspera, & dura, che coltiuandola non diuenti molle, & facile al produrre, ò pur'è, per mostrare, mettendo sotto al giogo della Dea Ope il Lione Rè de gli altri animali, che i Signori del mondo parimente sono soggetti alle leggi della natura, & che così hanno essi bisogno dell'aiuto della terra, come gli altri. Le fauole dicono, che sdegnata la Madre de i Dei contra Hippomene, & Atlanta, perche senza rispetto del suo Nume giacquero insieme in vna selua a lei consecrata, gli fece diuentar Lioni, & volle che dapoi tirassero sempre il suo carro. Mostrano le sedi, che a questa Dea stanno di intorno, che, se ben le altre cose tutte si muouono, ella stà ferma però sempre, ò veramente perche sono vote, ci danno ad intendere, che non solo le case, ma le Città ancora, & per pestilenza, & per guerre, & per altri disagi si votano spesso, ouero che sopra la terra sono molti luochi dishabitati. Gli Sacerdoti dimandati Coribanti, li quali quiui stanno dritti, & armati, vogliono mostrare, che non solamente i coltiuatori della terra, ma i Sacerdoti anco & quelli che alle Città, & a' Regni sono sopra, non doueriano sedere, nè starsi in otio, ma che deue ciascheduno pigliare le sue armi, chi per coltiuare la terra, chi per pregar i Dei, & chi per difendere la patria. La imagine che fa Varrone della Dea Ope è di tal maniera. Mettesi sopra vn carro tirato da Lioni vna donna, che hà il capo cinto di torri a guisa di corona tiene lo scettro in mano, & è vestita di vn manto tutto carico di rami, di herbe, & di fiori, intorno le stanno alcuni seggi voti, & vi sono anco i risonanti timpani, & l'accompagnano certi sacerdoti con gli elmi in testa, con gli scudi al braccio, & con l'aste in mano. Scriue Isidoro, che fu data altre volte all'imagine della gran Madre vna chiaue, per mostrare che la terra al tempo dell'inuerno si serra, & in se nasconde il seme sopra lei sparso, qual germogliando vien fuori poi al tempo della Primavera,
 
-Колонтитул:
+Колонтитул: 176 Imagini de i Dei
 Кустод:
+Сигнатура:
 Маргиналии:
 - Natura de' Lioni.
 - Isidoro. Chiaue data alla gran Madre.
 
 ## Скан 0219 · с. 177
 
-mauera, & all'hora è detta la terra aprirsi, si come riferisce anco Alessandro Napolitano. Faceuano ancora gli antichi ghirlande a questa Dea talhora di quercia, perche così viueuano già i mortali delle ghiande prodotte da lei, come viuono hoggidi del grano, & de gli altri frutti, che la medesima produce. Et di Pino tal hora, che questo arbore a lei era consecrato, ò fosse per la gran copia de' Pini, che era nella Frigia, oue ella fu prima adorata, & fu perciò detta ancora la Dea Frigia, come che quel paese fosse sua propria patria, oue furono prima celebrate le sue sacre cerimonie, onde da Berecinto monte di quel paese ella fu parimente chiamata Berecinthia; & così la noma Virgilio, quando a lei rassomiglia Roma, & la disegna anco in gran parte; dicendo,
+mauera, & all'hora è detta la terra aprirsi, si come riferisce anco Alessandro Napolitano. Faceuano ancora gli antichi ghirlande a questa Dea talhora di quercia, perche così viueuano già i mortali delle ghiande prodotte da lei, come viuono hoggidi del grano, & de gli altri frutti, che la medesima produce. Et di Pino tal hora, che questo arbore a lei era consecrato, ò fosse per la gran copia de' Pini, che era nella Frigia, oue ella fu prima adorata, & fu perciò detta ancora la Dea Frigia, come che quel paese fosse sua propria patria, oue furono prima celebrate le sue sacre cerimonie, onde da Berecinto monte di quel paese ella fu parimente chiamata Berecinthia; & così la noma Virgilio, quando a lei rassimiglia Roma, & la disegna anco in gran parte; dicendo,
 
-Qual Berecinthia madre de gli Dei
-Coronata di Torri sopra il carro
-Sen và per le Città di Frigia altera.
-De la diuina sua prole, onde cento
-Nipoti tutti habitator del Cielo
-Si vede intorno, e quci souente abbraccia.
+*Qual Berecinthia madre de gli Dei*
+*Coronata di Torri sopra il carro*
+*Sen và per le Città di Frigia altera.*
+*De la diuina sua prole, onde cento*
+*Nipoti tutti habitator del Cielo*
+*Si vede intorno, e quei souente abbraccia.*
 
-Ouero fu il Pino dato a questa Dea, perche Ati bellissimo Giouane & amato già grandemente da lei, morendo fu cangiato in questo arbore, & la fauola che se ne legge è, che innamorata la Dea di puro, & casto amore di questo giouane, se lo tolse, & diedegli la cura delle sue sacre cose, con patto, che egli douesse conseruarsi vergine, & pudico sempre come egli promise di fare; & con giuramento se ne obbligò. Ma nò l'offeruò poi il misero, percioche innamoratosi di vna bella ninfa figliuola di Sangario fiume di quel paese, si scordò la promessa fatta alla Dea, & godè souente dell'amore suo. Di che quella fu sì forte sdegnata, che fece subito morire la ninfa, & scacciò il giouane da sè, & dal suo seruitio. Il quale renedutosi del peccato commesso, venne in tanto furore, che andaua come pazzo correndo per gli alti monti gridando, & vlulando sempre, & come forsennato batteua il capo di quà, & di là, e con acutissime pietre stracciaua spesso il delicato corpo, & tagliatosi anco con queste il membro, che tanto haueua offeso la Dea, lo gittò lontano da sè; & era per vccidersi affatto, se non che quella all'vltimo mossa a pietà di lui lo fece diuentare vn Pino, & per mostrare, che riteneua pur'anco memoria dell'amato giouane, volle esser coronata poi de i rami di questo arbore; & ordinò che all'auenire i suoi Sacerdoti fossero castrati con l'acuta pietra nel modo, che il misero giouane si castrò da sè, & andassero nelle sue feste così aggirado, & dibattendo il capo, & ferendosi le braccia, & le spalle, & spargendo il proprio sangue, come il medesimo
+Ouero fu il Pino dato a questa Dea, perche Ati bellissimo Giouane & amato già grandemente da lei, morendo fu cangiato in questo arbore, & la fauola che se ne legge è, che innamorata la Dea di puro, & casto amore di questo giouane, se lo tolse, & diedegli la cura delle sue sacre cose, con patto, che egli douesse conseruarsi vergine, & pudico sempre come egli promise di fare; & con giuramento se ne obligò. Ma non l'osseruò poi il misero, percioche innamoratosi di vna bella ninfa figliuola di Sangario fiume di quel paese, si scordò la promessa fatta alla Dea, & godè souente dell'amore suo. Di che quella fu sì forte sdegnata, che fece subito morire la ninfa, & scacciò il giouane da sè, & dal suo seruitio. Il quale reuedutosi del peccato commesso, venne in tanto furore, che andaua come pazzo correndo per gli alti monti gridando, & vlulando sempre, & come forsennato batteua il capo di quà, & di là, e con acutissime pietre stracciaua spesso il delicato corpo, & tagliatosi anco con queste il membro, che tanto haueua offeso la Dea, lo gittò lontano da sè; & era per vccidersi affatto, se non che quella all'vltimo mossa a pietà di lui lo fece diuentare vn Pino, & per mostrare, che riteneua pur'anco memoria dell'amato giouane, volle esser coronata poi de i rami di questo arbore; & ordinò che all'auenire i suoi Sacerdoti fossero castrati con l'acuta pietra nel modo, che il misero giouane si castrò da sè, & andassero nelle sue feste così aggirando, & dibattendo il capo, & ferendosi le braccia, & le spalle, & spargendo il proprio sangue, come il medesimo
 
-Колонтитул:
-Кустод:
+Колонтитул: De gli Antichi. 177
+Кустод: fece
+Сигнатура: M
 Маргиналии:
 - Dea Frigia.
 - Berecinthia Virgilio.
@@ -4229,72 +4241,94 @@ Ouero fu il Pino dato a questa Dea, perche Ati bellissimo Giouane & amato già g
 
 ## Скан 0220 · с. 178
 
-fece egli correndo già forsennato per gli alti monti. Et furono oltre a gli altri nomi che hebbero, detti anco Galli questi Sacerdoti, da vn fiume della Frigia di questo nome, delle acque del quale chi beueua impazzina subito, & era buono all'hora da seruire alla Dea, perche arditamente faceua tutte le pazzie; che hò dette. Pausania scriue, che in certa parte della Grecia fu vn tempio dedicato alla Dea, & ad Ati insieme, che alcuni dissero, che ei fù ammazzato da vn Cinghiale mandato per questo da Gioue, che si hebbe a male, che egli fosse tanto domestico della Dea, & tanto amato da lei; & racconta poi vn'altra fauola del medesimo, la quale è tanto fauola apunto, che mi pare, che meriti di esser riferita, & è, che del seme sparso in terra da Gioue, (che sognaua di essere forse con qualche bella giouane) nacque vn Genio, ò Demone, che vogliamo dirlo, in forma di huomo; ma che haueua però l'vno, & l'altro sesso, & fu chiamato Agdiste. Di che spauentati gli altri Dei, come di cosa mostruosa, & gli furono subito attorno, & gli tagliarono la parte maschile, & la gittarono via. Di questa da indi a poco nacque vn'arbore di pomo granato, de' frutti del quale la figliuola di Sangario fiume passando di là se n'empiè il grembo per mangiarfeli: ma questi sparuero quasi subito, & ella restò grauida, & al suo tempo partorì vn bel bambino, qual per vergogna nascose in certa selua, oue vna capra andò sempre a dargli il latte, sì che non perì; ma fatto già grande fu nomato Ati, & era tanto bello, che più tosto cosa diuina, che humana pareua essere: onde il Genio Agdiste ne fu ardentissimamente innamorato. Auenne che il bel giouane mandato da i suoi andò a Pessinunte città principale della Frigia, oue il Rè del paese se lo fece genero; dandogli per moglie la figliuola: & già era tutto in punto per celebrarsi le nozze, quando Agdiste, che andaua dietro all'amato giouane, arriuò quiui; e tutto pieno d'ira, & di rabbia, vedendo che altrui era per godere la cosa da lui tanto amata, cacciò subito con suoi incanti, o come si facesse, vna così fatta pazzia nel capo di Ati & del Rè suo suocero, che furiosamente si tagliarono ambi con le proprie mani il membro genitale. Ma pentito dapoi Agdiste di ciò che haueua fatto, perche l'amore che portaua ad Ati non se ne era anco del tutto andato, pregò Gioue, & l'ottenne, che le altre parti del corpo dell'amato giouane non potessero corrompersi, nè infracidirsi più mai. Et altro non ho letto di questo Ati, se non che per lui voleuano gli antichi intender quei fiori, alli quali non succede mai frutto alcuno, nè producono seme, come riferisce Eusebio, & perciò finsero le fauole, che ei si castrasse come hò detto. Ma ritorniamo alla gran Madre, la quale con solenni cerimonie fu portata da Frigia a Roma da huomini mandati cola a posta, secondo che haueuano inteso i Romani da i versi della Sibilla douersi fare, & che bisognaua che fosse riceuuta da
+fece egli correndo già forsennato per gli alti monti. Et furono oltre a gli altri nomi che hebbero, detti anco Galli questi Sacerdoti, da vn fiume della Frigia di questo nome, delle acque del quale chi beeua impazziua subito, & era buono all'hora da seruire alla Dea, perche arditamente faceua tutte le pazzie; che hò dette. Pausania scriue, che in certa parte della Grecia fu vn tempio dedicato alla Dea, & ad Ati insieme, che alcuni dissero, che ei fù ammazzato da vn Cinghiale mandato per questo da Gioue, che si hebbe a male, che egli fosse tanto domestico della Dea, & tanto amato da lei; & racconta poi vn'altra fauola del medesimo, la quale è tanto fauola apunto, che mi pare, che meriti di esser rifferita, & è, che del seme sparso in terra da Gioue, (che sognaua di essere forse con qualche bella giouane) nacque vn Genio, ò Demone, che vogliamo dirlo, in forma di huomo; ma che haueua però l'vno, & l'altro sesso, & fu chiamato Agdiste. Di che spauentati gli altri Dei, come di cosa mostruosa, & gli furono subito attorno, & gli tagliarono la parte maschile, & la gittarono via. Di questa da indi a poco nacque vn'arbore di pomo granato, de' frutti del quale la figliuola di Sangario fiume passando di là se n'empiè il grembo per mangiarseli: ma questi sparuero quasi subito, & ella restò grauida, & al suo tempo partorì vn bel bambino, qual per vergogna nascose in certa selua, oue vna capra andò sempre a dargli il latte, sì che non perì; ma fatto già grande fu nomato Ati, & era tanto bello, che più tosto cosa diuina, che humana pareua essere: onde il Genio Agdiste ne fu ardentissimamente innamorato. Auenne che il bel giouane mandato da i suoi andò a Pessinunte città principale della Frigia, oue il Rè del paese se lo fece genero; dandogli per moglie la figliuola: & già era tutto in punto per celebrarsi le nozze, quando Agdiste, che andaua dietro all'amato giouane, arriuò quiui; e tutto pieno d'ira, & di rabbia, vedendo che altrui era per godere la cosa da lui tanto amata, cacciò subito con suoi incanti, o come si facesse, vna così fatta pazzia nel capo di Ati & del Rè suo suocero, che furiosamente si tagliorono ambi con le proprie mani il membro genitale. Ma pentito dapoi Agdiste di ciò che haueua fatto, perche l'amore che portaua ad Ati non se ne era anco del tutto andato, pregò Gioue, & l'ottenne, che le altre parti del corpo dell'amato giouane non potessero corrompersi, nè infracidirsi più mai. Et altro non ho letto di questo Ati, se non che per lui voleuano gli antichi intender quei fiori, alli quali non succede mai frutto alcuno, nè producono seme, come riferisce Eusebio, & perciò finsero le fauole, che ei si castrasse come hò detto. Ma ritorniamo alla gran Madre, la quale con solenni cerimonie fu portata di Frigia à Roma da huomini mandati cola a posta, secondo che haueuano inteso i Romani da i versi della Sibilla douersi fare, & che bisognaua che fosse riceuuta da
 
-Колонтитул:
-Кустод:
+Колонтитул: 178 Imagini de i Dei
+Кустод: casta
+Сигнатура:
 Маргиналии:
+- Fauole di Ati.
+- Agdiste.
+- Ati che significhi.
 
 ## Скан 0221 · с. 179
 
-casta mano. Onde si fermò la naue, che la portaua, alla foce del Tebro, oue era andata quasi tutta Roma ad incontrarla; nè era possibile mouerla quindi, benche molti & molti si sforzassero di tirarla sù per le acque del fiume. Allhora Claudia Vergine Vestale, della pudicitia della quale molti dubitauano, perche andaua più vagamente ornata, & conuersaua, & parlaua più liberamente, che non se farebbe forse conuenuto, inginocchiatasi sù la riua del fiume, e stendendo le mani giunte verso la Dea: Tu sai, disse, alma Dea, ch'io sono stimata poco casta; se così è, ti prego fanne segno: che condennata te mi confesserò meriteuole della morte; ma se anco è altrimente, tu, che casta sei, & pura, facendo fede della integrità mia, seguita la mia pudica mano. Et questo detto dette di piglio ad vna picciola fune, è tirò la naue a suo piacere, mostrando la Dea di seguitarla volontieri con non poco stupore di chi vide. Et non fu dapoi più chi osasse pensare male di Claudia, della quale hò ciò raccontato, perche questo fatto potrebbe seruire a chi volesse dipingere la Pudicitia: benche si possa fare in molti altri modi ancora, come potrà chi ne vorrà la fatica, raccogliere da molte già disegnate, & che restano a disegnare. Il simulacro di questa Dea portato alhora dalla Frigia, fu vna gran pietra negra, che era adorata da quelle genti sotto il nome della Madre de i Dei. La quale arriuata oue Almone piccolo fiume entra nel Tebro, fù quiui lauata da vno de i suoi Sacerdoti; & posta poi sopra vn carro, tirato da due vacche; fu portata nella Città con grande allegrezza del popolo; onde fu osservato di portarla poscia ogni anno con solenne pompa nel medesimo modo, & al medesimo luogo a farla lauare da i suoi Sacerdoti, li quali lauauano sè stessi ancora, & le sue coltella, come si vede appresso di Ouidio, oue dice:
+casta mano. Onde si fermò la naue, che la portaua, alla foce del Tebro, oue era andata quasi tutta Roma ad incontrarla; nè era possibile mouerla quindi, benche molti & molti si sforzassero di tirarla sù per le acque del fiume. Allhora Claudia Vergine Vestale, della pudicitia della quale molti dubitauano, perche andaua più vagamente ornata, & conuersaua, & parlaua più liberamente, che non le sarebbe forse conuenuto, inginocchiatasi sù la riua del fiume, e stendendo le mani giunte verso la Dea: Tu sai, disse, alma Dea, ch'io sono stimata poco casta; se così è, ti prego fanne segno: che condennata da te mi confesserò meriteuole della morte; ma se anco è altrimente, tu, che casta sei, & pura, facendo fede della integrità mia, seguita la mia pudica mano. Et questo detto dette di piglio ad vna picciola fune, è tirò la naue a suo piacere, mostrando la Dea di seguitarla volontieri con non poco stupore di chi vide. Et non fu da poi piu chi osasse pensare male di Claudia, della quale hò ciò raccontato, perche questo fatto potrebbe seruire a chi volesse dipingere la Pudicitia: benche si possa fare in molti altri modi ancora, come potrà chi ne vorrà la fatica, raccogliere da molte imagini già disegnate, & che restano a disegnare. Il simulacro di questa Dea portato alhora dalla Frigia, fu vna gran pietra negra, che era adorata da quelle genti sotto il nome della Madre de i Dei. La quale arriuata oue Almone piccolo fiume entra nel Tebro, fù quiui lauata da vno de i suoi Sacerdoti; & posta poi sopra vn carro, tirato da due vacche; fu portata nella Città con grande allegrezza del popolo; onde fu osservato di portarla poscia ogni anno con solenne pompa nel medesimo modo, & al medesimo luoco a farla lauare da i suoi Sacerdoti, li quali lauauano sè stessi ancora, & le sue coltella, come si vede appresso di Ouidio, oue dice:
 
-Vn luogo è doue il fiumicello Almone
-Entra nel Tebro, e lascia il proprio nome;
-Quiui l'antico Sacerdote ornato
-Di porpora, con molta riuerenza
-Laua ne l'acque di quel picciol fiume
-L'alma sua Dea con le sue sacre cose.
+*Vn luoco è doue il fiumicello Almone*
+*Entra nel Tebro, e lascia il proprio nome;*
+*Quiui l'antico Sacerdote ornato*
+*Di porpora, con molta riuerenza*
+*Laua ne l'acque di quel picciol fiume*
+*L'alma sua Dea con le sue sacre cose.*
 
-Et a questa cerimonia andauano innanzi al carro molti co i piedi scalzi, come dice Prudentio, & cantauano le più dishoneste cose, che sapeuano dire di questa Dea, & di Ati suo innamorato. Onde Santo Agostino dannando quelle diaboliche feste dice, che non si vergognauano quelle pazze genti di gridare dinanzi alla Madre de i Dei cose, che le madri loro si sariano vergognate di ascoltare. Et Herodiano scriue, che andauano gridando alhora in quel modo non solamente persone vili & plebee, ma molti nobili ancora, & huomini
+Et a questa cerimonia andauano innanzi al carro molti co i piedi scalzi, come dice Prudentio, & cantauano le più dishoneste cose, che sapeuano dire di questa Dea, & di Ati suo innamorato. Onde Santo Agostino dannando quelle diaboliche feste dice, che non si vergognauano quelle pazze genti di gridare dinanzi alla Madre de i Dei cose, che le madri loro si sariano vergognate di ascoltare. Et Herodiano scriue, che andauano gridando allhora in quel modo non solamente persone vili & plebeie, ma molti nobili ancora, & huomini
 
-Колонтитул:
-Кустод:
+Колонтитул: De gli Antichi. 179
+Кустод: ni
+Сигнатура: M 2
 Маргиналии:
+- Claudia Vestale.
+- Ouidio.
+- Prudentio.
+- S. Agostino.
 
 ## Скан 0222 · с. 180
 
-[ГРАВЮРА — полностраничная]
+[ВИНЬЕТКА: орнаментальная рамка по краям страницы]
 
-Simulacro della Dea Cibele, che è la terra, & il carro doue era condotto processionalmente, tirato da due Vacche dinotanti la fertilità della terra, & la utilità che da quella ne viene a mortali.
+[ГРАВЮРА: двое мужчин возлагают башенную корону на статую богини Кибелы, стоящую на колеснице, запряжённой двумя быками/коровами, которых погоняют фигуры со жгутами/рогами]
 
-Колонтитул:
+*Simulacro della Dea Cibele, che è la terra, & il carro doue era condotto processionalmente tirato da due Vacche dinotanti la fertilità della terra, & la vtilità che da quella ne viene a mortali.*
+
+Колонтитул: 180 Imagini de i Dei
 Кустод:
+Сигнатура:
 Маргиналии:
 
 ## Скан 0223 · с. 181
 
-ni di conto, li quali si mutauano di habito per non essere conosciuti, & andauano poi dicendo & facendo tutte le più dishoneste cose, che sapeuano. Furono anco osseruate molte feste, fatti molti giuochi, e celebrate molte cerimonie in honore di questa Dea: ma, perche di nulla seruirebbono al proposito nostro, meglio è il lasciarle, & dire piu tosto, che benche habbino voluto alcuni, che lo spargere del sangue proprio, qual faceuano i suoi Sacerdoti, come dissi, a lei fosse in vece di sacrificio, si troua nondimeno, che le fu sacrificata anco la Porca, confacendosi molto questa bestia per la numerosa prole, che di lei nasce, con la fertilità della terra. Et Ouidio dice, che quando ella arriuò a Roma, le fu sacrificata vna giouenca indomita, hauendo forse imparato i Romani da quelli di Egitto, che questo animale fosse conforme alla terra, poi che quelli, come riferisce Macrobio, volendo con loro misteriosi segni mostrare la terra, faceuano vn bue, ò vacca che fosse. Appresso di Cornelio Tacito si legge che alcuni popoli della Germania adorauano la Madre Terra, come quella che essi pensauano, che interuenisse in tutte le cose dei mortali; ma perche questi non haueuano, come dissi già, tempij, nè simulacri, faceuano le sacre cerimonie di costei in vn bosco con vn carro coperto tutto di panni, il quale non poteua toccare altri che il Sacerdote, come che egli solo sapesse, che la Dea era quiui: & perciò gli andaua appresso con molta riuerenza, facendola tirare da due vacche per condurre quella come a spasso pel paese. Allhora erano i giorni tutti allegri, & giocondi, non si poteua guerreggiare in modo alcuno, stauano tutti i ferri serrati, & coperti, & il paese era all'hora tutto pieno di pace, & di quiete, & in ogni luogo, oue andaua la Dea, era guardato con rispetto grande. Ma satia, che ella era poi di andare attorno, & quando ella non voleua più conuersare frà i mortali, andauano a lauare in certo lago il carro, che la portaua, le vesti, che la copriuano, & lei stessa ancora, come credeuano alcuni. Et i serui, che questo faceuano, erano inghiottiti dal medesimo lago, nè si vedeuano mai più, il che accresceua la religione, & faceua che la Dea era sempre più temuta. La quale, come scriue il medesimo Tacito, adorauano parimente alcuni altri popoli della Germania, pure senza hauerne simulacro alcuno: ma la insegna della lor religione era portare la imagine di vn Cinghiale, & questa a loro era in vece di arma, & pensauano di douere essere, mostrandosi in questo modo adoratori della Dea, sicuri da tutti i pericoli, & da i nimici ancora. Ricordomi di hauer visto in vna medaglia antica di Faustina, la imagine della gran Madre, che si consà assai a quella, che io disegnai, & esposi dianzi: percioche è vna donna che ha il capo cinto di torri; siede, & stà con il braccio destro appoggiato alla sede, & con la sinistra mano sostiene vno scudo fermato sopra il ginocchio,
+ni di conto, li quali si mutauano di habito per non essere conosciuti, & andauano poi dicendo & facendo tutte le più dishoneste cose, che sapeuano. Furono anco osseruate molte feste, fatti molti giuochi, e celebrate molte cerimonie in honore di questa Dea: ma, perche di nulla seruirebbono al proposito nostro, meglio è il lasciarle, & dire piu tosto, che benche habbino voluto alcuni, che lo spargere del sangue proprio, qual faceuano i suoi Sacerdoti, come dissi, a lei fosse in vece di sacrificio, si troua nondimeno, che le fu sacrificata anco la Porca, confacendosi molto questa bestia per la numerosa prole, che di lei nasce, con la fertilità della terra. Et Ouidio dice, che quando ella arriuò a Roma, le fu sacrificata vna giouenca indomita, hauendo forse imparato i Romani da quelli di Egitto, che questo animale fosse conforme alla terra, poi che quelli, come riferisce Macrobio, volendo con loro misteriosi segni mostrare la terra, faceuano vn bue, ò vacca che fosse. Appresso di Cornelio Tacito si legge che alcuni popoli della Germania adorauano la Madre Terra, come quella che essi pensauano, che interuenisse in tutte le cose de i mortali; ma perche questi non haueuano, come dissi già, tempij, nè simulacri, faceuano le sacre cerimonie di costei in vn bosco con vn carro coperto tutto di panni, il quale non poteua toccare altri che il Sacerdote, come che egli solo sapesse, che la Dea era quiui: & perciò gli andaua appresso con molta riuerenza, facendola tirare da due vacche per condurre quella come a spasso pel paese. Allhora erano i giorni tutti allegri, & giocondi, non si poteua guerreggiare in modo alcuno, stauano tutti i ferri serrati, & coperti, & il paese era all'hora tutto pieno di pace, & di quiete, & in ogni luoco, oue andaua la Dea, era guardato con rispetto grande. Ma satia, che ella era poi di andare attorno, & quando ella non voleua più conuersare frà i mortali, andauano a lauare in certo laco il carro, che la portaua, le vesti, che la copriuano, & lei stessa ancora, come credeuano alcuni. Et i serui, che questo faceuano, erano inghiottiti dal medesimo laco, nè si vedeuano mai più, il che accresceua la religione, & faceua che la Dea era sempre più temuta. La quale, come scriue il medesimo Tacito, adorauano parimente alcuni altri popoli della Germania, pure senza hauerne simulacro alcuno: ma la insegna della lor religione era portare la imagine di vn Cinghiale, & questa a loro era in vece di arma, & pensauano di douere essere, mostrandosi in questo modo adoratori della Dea, sicuri da tutti i pericoli, & da i nimici ancora. Ricordomi di hauer visto in vna medaglia antica di Faustina, la imagine della gran Madre, che si confà assai a quella, che io disegnai, & esposi dianzi: percioche è vna donna che ha il capo cinto di torri; siede, & stà con il braccio destro appoggiato alla sede, & con la sinistra mano sostiene vno scudo fermato sopra il ginocchio,
 
-Колонтитул:
-Кустод:
+Колонтитул: De gli Antichi. 181
+Кустод: &
+Сигнатура: M 3
 Маргиналии:
+- Vittime della gran Madre. Ouidio.
+- Cornelio Tacito. Terra adorata da i Germani.
+- Medaglia di Faustina.
 - Vittime della gran Madre. Ouidio.
 - Cornelio Tacito. Terra adorata da i Germani.
 - Medaglia di Faustina.
 
 ## Скан 0224 · с. 182
 
-& ad ciascheduno de i lati ha vn Lione. Fu poi chiamata questa Dea Cibele da certo monte, nella Frigia, di che dice Diodoro Ciciliano. Che fu vn'antico Rè in Frigia nominato Meone, quale hebbe in moglie vna chiamata Dindimene; Di che essendo nata vna fanciulla, & non volendo la madre alleuarla, la pose nel monte Cibele, doue fu nodrita del latte delle fiere siluestre. Ma essendo capitata quiui vna giouane che iui d'intorno si andaua pascendo la gregge, & veduta la fanciulla, tutta stupefatta, la prese, & portò seco nominandola col nome del monte, & così la alleuò fin che fatta grande riuscì di singolar bellezza, & d'ingegno mirabile: Imperoche non pur trouò ella prima la Fistola fatta di cannelle, insieme giunte, & il Cembalo, ma anco diuersi rimedi alle malatie de' greggi, & a quelle de' fanciulli, per il che meritamente si guadagnò ella il nome di Madre, così dice Diodoro, ma noi con Festo Pompeo diremo, che ella così fosse detta da certa figura geometrica fatta a punto, come è vn dado chiamata Cubo la quale da gli antichi fu pur anche a lei consecrata, per mostrare la fermezza della Terra, perche gettisi vn dado, ei si ferma sempre, & caschi in che lato si voglia. Et è la imagine di Cibele vna medesima con quella della gran madre, perche ha parimente il capo cinto di torri; come Lucretio parlando di lei dice;
+& ad ciascheduno de i lati ha vn Lione. Fu poi chiamata questa Dea Cibele da certo monte, nella Frigia, di che dice Diodoro Ciciliano. Che fu vn'antico Rè in Frigia nominato Meone, quale hebbe in moglie vna chiamata Dindimene; Di che essendo nata vna fanciulla, & non volendo la madre alleuarla, la pose nel monte Cibele, doue fu nodrita del latte delle fiere siluestre. Ma essendo capitata quiui vna giouane che iui d'intorno si andaua pascendo la gregge, & veduta la fanciulla, tutta stupefatta, la prese, & portò seco nominandola col nome del monte, & così la alleuò fin che fatta grande riuscì di singolar bellezza, & d'ingegno mirabile: Imperoche non pur trouò ella prima la Fistola fatta di cannelle, insieme giunte, & il Ciembalo, ma anco diuersi rimedi alle malatie de' greggi, & a quelle de' fanciulli, per il che meritamente si guadagnò ella il nome di Madre, così dice Diodoro, ma noi con Festo Pompeo diremo, che ella così fosse detta da certa figura geometrica fatta a punto, come è vn dado chiamata Cubo la quale da gli antichi fu pur anche a lei consecrata, per mostrare la fermezza della Terra, perche gettisi vn dado, ei si ferma sempre, & caschi in che lato si voglia. Et è la imagine di Cibele vna medesima con quella della gran madre, perche ha parimente il capo cinto di torri; come Lucretio parlando di lei dice;
 
-L'alta testa le cinsero, & ornaro
-Di corona murale, per mostrare,
-Ch'ella sosten Città, Ville, e Castella.
+*L'alta testa le cinsero, & ornaro*
+*Di corona murale, per mostrare,*
+*Ch'ella sostien Città, Ville, e Castella.*
 
 La qual sorte di corona era data anticamente dall'Imperatore a chi prima fosse montato per forza sù le mura de i nimici. Hà il carro medesimamente tirato da i Lioni, che mostra, secondo alcuni, che la terra stà nell'aria pendolone, & è sostenuta dalle ruote, perche le si aggirano intorno le celesti sfere del continuo, come mostrano, i Leoni animali feroci, & impetuosi perche tale è la natura del Cielo, che circonda l'aere sostenitore della terra: onde appresso di Lucretio pur'anche così si legge:
 
-Questa fecer seder gli antichi Greci,
-Che poetando scrissero di lei,
-Sopra vn carro, al cui giogo vanno insieme
-Due feroci Leoni, che dimostra
-Che ne l'aereo campo la gran terra
-Pendendo se stà per se medesima.
+*Questa fecer seder gli antichi Greci,*
+*Che poetando scrissero di lei,*
+*Sopra vn carro, al cui giogo vanno insieme*
+*Due feroci Leoni, che dimostra*
+*Che ne l'aereo campo la gran terra*
+*Pendendo se stà per se medesima.*
 
 Dicesi ancora che i Leoni significano non essere fierezza alcuna tanto crudele, che non la vinca la pietà materna, & perciò così dice Ouidio di questa Dea:
 
-Колонтитул:
-Кустод:
+Колонтитул: 182 Imagini de i Dei
+Кустод: Per
+Сигнатура:
 Маргиналии:
+- Cibele.
+- Diodoro. Festo Pompeo. Cubo.
+- Lucretio.
+- Corona murale a cui si daua.
+- Ouidio.
 - Cibele.
 - Diodoro. Festo Pompeo. Cubo.
 - Lucretio.
@@ -4303,16 +4337,21 @@ Dicesi ancora che i Leoni significano non essere fierezza alcuna tanto crudele, 
 
 ## Скан 0225 · с. 183
 
-Per lei si creda che sia la fierezza
-Vinta, e fatta piaceuole, & humile.
-Onde vien che si giungono humilmente
-I superbi Leoni al suo bel carro.
+*Per lei si creda che sia la fierezza*
+*Vinta, e fatta piaceuole, & humile.*
+*Onde vien che si giungono humilmente*
+*I superbi Leoni al suo bel carro.*
 
-Da che non è molto dissimile quello, che scriue Aristotele, il quale raccontando delle cose miraculose del mondo, mette che in Sipilo monte della Frigia nasceua certa pietra piccola lunga, & rotonda, la quale chi hauesse trouato, & portata nel tempio di Cibele, diuentaua amoreuolissimo al padre, & alla madre, & vbidiva loro con ogni riuerenza, etiandio che stato fosse prima nimico a quelli, & con empie mani gli hauesse percosso. Pensarono ancora alcuni, secondo che riferisce Diodoro, che a Cibele fossero dati i Leoni, perche ella da questi fosse nodrita, & alleuata già nel monte Cibeio come si è detto dal quale vogliono, che ella hauesse poscia il nome; perche raccontano gli antichi anco di molti altri, che furono nodriti da bestie, come fu Esculapio, & Ciro da Cani, Romulo dal fratello da Lupi, Telefo da Cerui, da gli vccelli Semirami, & dalle pecchie Gioue, con l'aiuto di vna Capra: il che se ben pare hauere del fauoloso, nondimeno per historia è stato scritto. Quelli, li quali scriuono delle cose naturali, vogliono, che gli Elementi habbino frà loro vna tale communanza, che facilmente l'vno si muti nell'altro, secondo che più raro diuenta, ouero più denso. Onde Platone disse, che frà questi era la decupla proportione. Però chi mette mente a questo, non si marauiglierà di vedere gli Dei de gli antichi tanto intricati insieme, & che vn medesimo Dio mostri souente diuerse cose, & che diuersi nomi significhino talhora vna medesima cosa; come Gioue, se ben mostra per lo più l'Elemento del fuoco, mostra però quello dell'aria anco alle volte, & Giunone parimente è tolta per l'aria, ma non si però, che non mostri la terra anco talhora: il Sole è vn solo, & la Luna parimente, & pure ciascheduno di loro hà diuersi nomi, l'Acqua ancor ella hebbe molti Dei, & la Terra ancora, dalla quale, per l'humido, che fugge del continuo, surgono esalationi, che ingrossatesi nella più bassa parte dell'aria fanno le nuuole onde scendono poi le pioggie. Et per questo vuole Fornuto che la Terra si dimandi Rhea quasi che ella sia cagione, che la pioggia scenda; ouero che non la Terra, ma sia che si voglia, chiama egi Rhea la cagione delle pioggie, & dice, che a questa Dea furono dati i timpani, i ciembali, le facelle, & le lampadi, perche i tuoni, i folgori, & i baleni sogliono andare innanzi alle pioggie, & accompagnarle anco souente. Alcuni vogliono che i timpani significhino, che la Terra contiene in sè gli venti, & così l'intende Alessandro; il quale dice, che si danno a Vesta ancora, che fu dipinta donna di virginale aspetto, perche ella è la terra,
+Da che non è molto dissimile quello, che scriue Aristotele, il quale raccontando delle cose miracolose del mondo, mette che in Sipilo monte della Frigia nasceua certa pietra piccola lunga, & rotonda, la quale chi hauesse trouato, & portata nel tempio di Cibele, diuentaua amoreuolissimo al padre, & alla madre, & vbidiva loro con ogni riuerenza, etiandio che stato fosse prima nimico a quelli, & con empie mani gli hauesse percossi. Pensarono ancora alcuni, secondo che riferisce Diodoro, che a Cibele fossero dati i Leoni, perche ella da questi fosse nodrita, & alleuata già nel monte Cibelo come si è detto dal quale vogliono, che ella hauesse poscia il nome; perche raccontano gli antichi anco di molti altri, che furono nodriti da bestie, come fu Esculapio, & Ciro da Cani, Romulo col fratello da Lupi, Telefo da Cerui, da gli vccelli Semirami, & dalle pecchie Gioue, con l'aiuto di vna Capra: il che se ben pare hauere del fauoloso, nondimeno per historia è stato scritto. Quelli, li quali scriuono delle cose naturali, vogliono, che gli Elementi habbino frà loro vna tale communanza, che facilmente l'vno si muti nell'altro, secondo che più raro diuenta, ouero più denso. Onde Platone disse, che frà questi era la decupla proportione. Però chi mette mente a questo, non si marauiglierà di vedere gli Dei de gli antichi tanto intricati insieme, & che vn medesimo Dio mostri souente diuerse cose, & che diuersi nomi significhino talhora vna medesima cosa; come Gioue, se ben mostra per lo più l'Elemento del fuoco, mostra però quello dell'aria anco alle volte, & Giunone parimente è tolta per l'aria, ma non si però, che non mostri la terra anco talhora: il Sole è vn solo, & la Luna parimente, & pure ciascheduno di loro hà diuersi nomi, l'Acqua ancor ella hebbe molti Dei, & la Terra ancora, dalla quale, per l'humido, che fugge del continuo, surgono esalationi, che ingrossatesi nella più bassa parte dell'aria fanno le nuuole onde scendono poi le pioggie. Et per questo vuole Fornuto che la Terra si dimandi Rhea quasi che ella sia cagione, che la pioggia scenda; ouero che non la Terra, ma sia che si voglia, chiama egi Rhea la cagione delle pioggie, & dice, che a questa Dea furono dati i timpani, i ciembali, le facelle, & le lampadi, perche i tuoni, i folgori, & i baleni sogliono andare innanzi alle pioggie, & accompagnarle anco souente. Alcuni vogliono che i timpani significhino, che la Terra contiene in sè gli venti, & così l'intende Alessandro; il quale dice, che si danno a Vesta ancora, che fu dipinta donna di virginale aspetro, perche ella è la terra,
 
-Колонтитул:
-Кустод:
+Колонтитул: De gli Antichi. 183
+Кустод: terra,
+Сигнатура: M 4
 Маргиналии:
+- Aristotele.
+- Platone.
+- Rhea.
+- Vesta.
 - Aristotele.
 - Platone.
 - Rhea.
