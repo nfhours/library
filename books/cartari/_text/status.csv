@@ -635,6 +635,6 @@ scan,label,printed_number,state,unclear,engravings,note,method,discrepancies,err
 0634,586b,586,done,0,1,"Нумерация: на странице напечатано 586, в PAGES.tsv 586b",triple,1,0,0,0,1,0,0,0,0
 0635,587b,587,done,0,1,"Нумерация: на странице напечатано 587, в PAGES.tsv 587b",triple,3,0,0,0,2,0,0,0,0
 0636,588,,done,0,0,,triple,1,0,0,0,0,0,0,0,0
-0637,Hinterspiegel,,todo,0,0,,,,,,,,,,,
-0638,Einband,,todo,0,0,,,,,,,,,,,
-0639,Ruecken,,todo,0,0,,,,,,,,,,,
+0637,Hinterspiegel,,done,0,0,both_wrong/noise: reconstructed,double,0,0,0,0,0,,,,
+0638,Einband,,done,0,0,both_wrong/noise: reconstructed,double,0,0,0,0,0,,,,
+0639,Ruecken,,done,0,0,both_wrong/noise: reconstructed,double,0,0,0,0,0,,,,

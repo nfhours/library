@@ -11,8 +11,10 @@ Cartari 1626 - сравнение pages/NNNN.md (done, сверено постр
     "[Эхо: слово]" (место для маргиналии-отголоска, подставленное слепым
     чтением прямо в строку стиха) и добавляет их к списку маргиналий blind,
     а из текста для сравнения тела страницы вырезает;
-  - нормализует текст как в check.py (lower, NFKD без диакритики,
-    u->v, i->j, ſ->s, только буквы a-z) и доп. убирает курсивные `*`;
+  - нормализует только регистр, долгую ſ->s и пробелы/переносы; акценты
+    (à/è/ì/ò/ù), апострофы и u/v сравниваются как напечатано/транскрибировано
+    (раньше здесь была NFKD-нормализация, прятавшая расхождения в диакритике
+    и u/v — см. ALGORITHM.md) — и доп. убирает курсивные `*`;
   - сравнивает нормализованные последовательности слов тела страницы
     через difflib.SequenceMatcher, печатает несовпадающие участки
     (оригинальный, не нормализованный текст, с небольшим контекстом);
@@ -65,17 +67,17 @@ BRACKET_NOTE_RE = re.compile(r"\[(ГРАВЮРА|ВИНЬЕТКА|ИНИЦИАЛ
 
 
 def normalize_text(s):
-    """Same normalization family as check.py's normalize_word, but keeps
-    word boundaries (used for whole-line/field comparison)."""
+    """Normalizes only whitespace/hyphenation and case; long-s is folded to
+    s (same glyph, not a transcription choice). Accents (à/è/ì/ò/ù),
+    apostrophes, and u/v are kept exactly as transcribed, since those are
+    real orthographic choices that can hide genuine discrepancies when
+    stripped (see ALGORITHM.md's note on compare.py's former blind spot).
+    i/j is intentionally left unnormalized too, for the same reason."""
     if not s:
         return ""
-    s = unicodedata.normalize("NFKD", s)
-    s = "".join(c for c in s if not unicodedata.combining(c))
     s = s.lower()
     s = s.replace("ſ", "s")
-    s = s.replace("u", "v")
-    s = s.replace("i", "j")
-    s = re.sub(r"[^a-z0-9]+", " ", s)
+    s = re.sub(r"[^a-zà-öø-ÿ0-9']+", " ", s)
     s = re.sub(r"\s+", " ", s).strip()
     return s
 
