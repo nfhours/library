@@ -52,10 +52,14 @@ def format_ranges(rs):
     return parts
 
 
+def is_double_method(method):
+    return bool(method) and (method.startswith("double") or method.startswith("triple"))
+
+
 def double_totals(rows, scans_filter=None):
     disc = r1 = r2 = both = noise = n = 0
     for r in rows:
-        if r.get("method") != "double":
+        if not is_double_method(r.get("method")):
             continue
         if scans_filter is not None and r["scan"] not in scans_filter:
             continue
@@ -93,7 +97,7 @@ def scans_touched_since(since):
 def range_breakdown(rows, bucket=50):
     buckets = {}
     for r in rows:
-        if r.get("method") != "double":
+        if not is_double_method(r.get("method")):
             continue
         scan = int(r["scan"])
         start = (scan // bucket) * bucket
