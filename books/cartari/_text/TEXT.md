@@ -7009,3 +7009,206 @@ Imagine di Bacco significante li varij effetti del vino del quale esso fù l'inu
 Кустод:
 Сигнатура: Y 2
 Маргиналии:
+
+## Скан 0382 · с. 340
+
+BACCHO
+
+[ВИНЬЕТКА: декоративная наборная линейка из растительных орнаментов под колонтитулом]
+
+[ВИНЬЕТКА: две декоративные наборные линейки из растительных орнаментов]
+
+[ИНИЦИАЛ: B]ENCHE si troui, che Baccho fosse vn'ardito Capitano, & di gran valore, & che soggiogasse diuerse nationi; non dimeno non tanto per questo fu celebre il nome suo appresso de gli antichi, quanto perche fu creduto ritrouatore del vino, & che innanzi à tutti gli altri ne hauesse mostrato l'vso à mortali, onde come Dio l'adorarono poi, nè Baccho solamente, ma Dionisio ancora, & Libero Padre lo chiamarono, & Leneo, & Lieo lo dissero, esprimendo in lui con diuersi cognomi, gli effetti, che fa in noi il vino, come mostrerò, secondo che verrà à proposito in disegnando la sua imagine, che fù da gli antichi rappresentata in molti simulacri, & in diuerse statoe quando ad vn modo, e quando ad vn'altro: percioche la fecero talhora in forma di tenero fanciullo, talhora di feroce giouane, & talhora di debole vecchio, nuda alle volte, & alle volte vestita, & quando con carro, e quando senza. Onde Filostrato scriue nella tauola, che ei fa di Ariadna, che molti sono i modi da far conoscer Baccho per chi lo dipinge, ò scolpisce. Perche vna ghirlanda di hedera con le sue coccole mostra, che egli è Baccho, due piccole cornette parimente, che spuntino dalle tempie, fanno il medesimo, & vna Pantera ancora, che gli si metta appresso. Le quali cose per lo più sono tirate dalla natura del vino, del quale intendono spesso i Poeti sotto il nome di Baccho, perche, come dissi, ei ne fu creduto il ritrouatore, mostrando à mortali già da principio, come si haueuano da raccoglier l'vue dalle viti, e spremere il dolce succo tanto grato, & vtile ancora à chi temperatamente l'vsa, sì come à gli disordinati beuitori apporta grauissimi danni; il che mostrarono gli antichi nelle imagini di Baccho. Imperoche facendolo nudo voleuano dire, che'l vino, & la vbriachezza spesso scuopre quello, che tenuto fu prima occulto con non poca diligenza : on-
+
+Колонтитул: 340 Imagini de i Dei
+Кустод: de ne
+Сигнатура:
+Маргиналии:
+- Baccho ha più cognomi.
+- Filostrato.
+- Baccho di diuerse età.
+- Vino inteso per Bacco.
+
+## Скан 0383 · с. 341
+
+[ГРАВЮРА — полностраничная]
+Imagine di Como Dio de Conuiuij, secondo Filostrato, significante, che li Conuiti modesti allegrano li huomini & suegliando li spiriti li fanno diuenir arditi, & che all'incontro l'immoderato cibo fà l'huomo sonnolento, inetto, ottuso d'ingegno, & debole di corpo.
+
+Колонтитул: De gli Antichi. 341
+Кустод:
+Сигнатура: Y 3
+Маргиналии:
+
+## Скан 0384 · с. 342
+
+de ne nacque il prouerbio. Che la verità stà nel vino, come hò detto io ancora altra volta già parlando del Tripode. Et il medesimo significaua la statoa di costui fatta in forma di vecchio con il capo caluo; & quasi tutto pelato; oltre che mostraua ancora, che'l troppo bere affretta la vecchiaia, & che in questa età beono assai gli huomini. Percioche non per altro inuecchiamo, se non perche l'humido naturale manca in noi, & cerchiamo di riporcelo con il vino; ma ci habbiamo spesso, perche bene è humido il vino in fatti, ma è tanto caldo poi di virtù, & in potere, che secca, & asciuga molto più, che non accresce humidità, come dice Galeno de' gran beuitori, che più accendono la sete, & la fanno maggiore, mentre che più beendo cercano di estinguerla, & leuarla via. Onde perche il vino riscalda, dicesi che fù fatta la imagine di Baccho per lo più di giouine senza barba, allegro, & giocondo. Cui si rassimiglia molto Como, che fu appresso de gli antichi il Dio de i Conuiuij, percioche la imagine sua era parimente di giouane, cui cominci apparire, la prima lanugine, come lo descriue Filostrato in vna tauola, ch'ei fà solo per lui, mettendolo alla porta di vna camera, oue era stato celebrato vn lieto, e bel Conuiuio per due sposi, li quali già stauano in letto a godersi gli amorosi frutti. Egli era delicato, e tutto molle, & rubicondo nel viso, perche haueua beuuto troppo, sì che imbriacatosi non poteua tenere gli occhi aperti, ma così in piè in piè dormiua, lasciandosi cadere la colorita faccia su'l petto, & la sinistra mano, con la quale ei staua appoggiato ad vna hasta, pareua cadere parimente, come pareua poi, che dalla destra gli cadesse pur'anco vna facella ardente, ch'ei teneua con questa, & già era andata così giù, che gli haurebbe bruciata la gamba, se piegata non l'hauesse in diuersa parte. Era poi quiui d'intorno pieno ogni cosa di fiori, & esso Dio parimente ne haueua vna ghirlanda in capo, perche i fiori sono segni di letitia, & di spensieratezza, per dire così, & perciò gli vsauano gli antichi ne i Conuiuij, oue hanno da essere gli huomini lieti, & spensierati; e non solamente ne faceuano ghirlande a loro stessi, ma a i vasi ancora, onde beeuano : per la qual cosa non meno conueniuano i fiori a Baccho, che a Como, come mostrerò poi, che hora ritorno a dire, ch'egli era giouine, allegro, & giocondo, perche beendo gli huomini temperatamente suegliano gli spiriti, & piu arditi diuentano, & più lieti; e sono etiandio creduti esser di migliore ingegno allhora. Da che venne, che fecero gli antichi così Baccho, capo & guida delle Muse, come Apollo. E non meno furono già coronati i Poeti di hedera consecrata a Baccho, che di Lauro pianta di Apollo. Onde finsero le fauole, che fosse alleuato Baccho dalle Muse in Nisa, luoco piaceuolissimo dell'Arabia, dal quale fu poi detto Dionisio. Da costui, come riferisce Atheneo, imparò Anfitrione Re de gli Atheniesi innanzi
+
+Колонтитул: 342 Imagini de i Dei
+Кустод: innanzi
+Сигнатура:
+Маргиналии:
+- Bacco perche vecchio.
+- Como.
+- Fiori quando vsati da gli antichi.
+- Baccho capo delle Muse.
+
+## Скан 0385 · с. 343
+
+innanzi a tutti gli altri di porre acqua nel vino, che fu di grandissimo giouamento a' mortali, & perciò nel tempio delle Hore gli drizzò vn'altare, perche queste, che sono le stagioni dell'anno, come nella loro imagine è stato detto, fanno che la vite cresce, & produce il frutto. Et appresso ve ne pose vn'altro alle Ninfe, come per ricordo, che si douesse vsare il vino temperato; conciosia che per quelle s'intendono souente le acque de i fonti, e de i fiumi, che sono buone à bere, & perche ancora le Muse, le quali sono spesso le medesime con le Ninfe, furono (come dissi) le nutrici di Dionisio, sì come Sileno ne fu il pedagogo, onde và con lui sempre, portato da vn'asino, sì per la età, perche gli era molto vecchio, sì perche era anco vbbriaco per lo piu, come mostrò chi fece la vbbriachezza; che gli daua bere appresso de gli Elei in certo suo tempio, che fu di lui solo, secondo che scriue Pausania, non commune con Baccho, come erano tutti gli altri, per mostrare forse, che pari era la virtù d'ambi loro. Onde Sileno si fù gran consigliere di Baccho appresso di Plauto, essendo comparso in scena a cauallo in vn'asino a recitare il prologo delle Bacchide, e dice, che sono sempre amendui di vn medesimo volere: & fassi anco Dio della Natura, de i principij della quale Virgilio lo fà cantare sforzato da duo Satiretti, & da vna bella Ninfa, li quali hauendolo trouato dormire in certo antro bene vbbriaco, con vn gran vaso da bere a canto, lo legarono con le sue ghirlande proprie tessute di varij fiori, che gli erano cadute di capo, & la bella Ninfa gli tinse la faccia, che haueua le vene tutte gonfie di vino, con sanguigne more, di che egli rise, e mostrò di hauerne piacere, poscia che fu suegliato. Et pareua, che queste bestie non volessero dire quello, che sapeuano se non sforzatamente. Onde si legge che Mida Rè della Frigia volendo già intendere alcuna cosa non troppo manifesta a gli huomini, fece la caccia vn pezzo ad vno di questi Sileni, & lo prese all'vltimo all'odore del vino, ch'egli largamente sparse in certo fonte, qual Pausania scriue, che a'suoi tempi ancora era mostrato per questo. E Plutarco riferisce, che quel Rè intese da Sileno, che meglio assai era all'huomo morir presto, che viuer lungamente. Hassi appresso di Plinio, che nell'Isola di Paro. donde veniua quel bellissimo marmo bianco spezzandone alcuni vn gran pezzo, vi trouarono dentro la imagine di Sileno. La qual facilmente saprà come fosse fatta, chi oltre a quello, che ne hò detto hora vedrà quello, che disegnando la imagine di Pan, io dissi già de' Satiri: perche Pausania scriue, che questi erano detti Sileni, poscia che erano vecchi, conciosia che in vecchiauano, & moriuano, se bene erano stimati Dei. Leggesi appresso di Diodoro, che in due modi furono fatte le statoe di Baccho, & era l'vna assai seuera con barba lunga, e l'altra bella, di faccia allegra, delicata, & giouine; intendendo per quella, che'l vino beuuto fuori di misura fa gli
+
+Колонтитул: De gli Antichi. 343
+Кустод: gli
+Сигнатура: Y 4
+Маргиналии:
+- Acqua posta nel vino.
+- Sileno.
+- Pausania.
+- Mida Rè.
+- Plutarco.
+- Plinio.
+- Diodoro.
+- Baccho in due modi.
+
+## Скан 0386 · с. 344
+
+[ГРАВЮРА — полностраничная]
+Imagine di Bacco significante li effetti del vino, del quale fù l'inuentore; & secondo Macrobio li varij effetti del Sole essendo da lui per il Sole inteso, cioè la varietà delle stagioni dell'anno: & animali à lui sacrati.
+
+Колонтитул: 344 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0387 · с. 345
+
+gli huomini terribili, & iracondi, e per questa, che gli fa lieti, e giocondi beuuto temperatamente; lasciando hora da parte, che non sia stato vn Baccho solo, ma due, ò forse anco trè, perche ciò sarebbe più tosto volere scriuere historia di lui, che dipingerlo. Macrobio, il quale, come hò già detto altre volte, vuole che per tutti i Dei siano intese le virtù del Sole, intendendo pur'anco il medesimo di Baccho, dice, che fù la sua imagine fatta alle volte di fanciullo, & alle volte di giouine, hora di huomo con barba, che sia giunto già alla età perfetta, & hora di vecchio, perche tutte queste diuerse età si veggono nel Sole. Conciosia, che al tempo del Solstitio dell'inuerno, quando già cominciano i giorni a crescere si possa dire, ch'egli sia piccolo fanciullo, & all'equinottio della Primauera ha già pigliato assai di forza, & è fatto giouine : & giunto ch'egli è al solstitio della Està, allhora che non piu ponno crescere i giorni, è huomo di età in tera, & ha la barba : ma perche da indi poi comincia la sua luce a venirci mancando, quasi con quella manchino le sue forze ancora, è fatto poscia come vecchio. Et essendo alle statoe di Baccho aggiunto le corna ancora, hanno voluto alcuni intendere per queste i raggi del Sole. Ma Diodoro scriue, che ciò era, perche Baccho fu il primo, che mostrasse a' mortali come haueuano da giugnere i Buoi insieme, mettergli allo aratro, & con questi coltiuare i campi. Onde Martiano gli mette nella destra mano vna falce, che mostraua la coltiuatione de i campi, come hò già detto nella imagine di Saturno, perche bisogna con questa purgare le viti, volendo che producchino vua largamente, & nella sinistra vn vaso da bere, e lo descriue poi tutto giocondo, e piaceuole nello aspetto. Intendono alcuni per le corna l'audacia, come che'l bere assai faccia gli huomini arditi, audaci, & insolenti ancora molte volte, che così dice Filostrato, Festo, e Porfirione. Ma Atheneo meglio di tutti mostra con l'autorità di molti de gli antichi gli effetti diuersi, che fa il vino in noi, quando è beuuto temperatamente, e quando ne beuiamo fuori di misura : & da Persio si raccoglie, da Catullo, & da altri Poeti, che ne i sacrificij di questo Dio vsauano i corni. Et Musonio a questo proposito così scriue. Non solamente furono date le corna à Baccho, ma fu egli ancora da alcuni Poeti chiamato Toro, perche finsero le fauole, che Gioue mutato in serpente giacesse con Proserpina sua figliuola, la quale perciò fatta grauida partorì poi Baccho in forma di Toro, onde appresso de i Ciziceni la imagine sua fu con faccia di Toro, forse perche gli antichi beeuano con le corna de i Buoi, ouero con vasi fatti di corno, conciosia che Theopompo scriue, che in Epiro erano buoi con le corna tanto grandi, che se ne faceuano i vasi intieri da bere, a i quali accommodauano di sopra all'intorno della bocca chi vn cerchio d'oro, & chi d'argento : e seguita prouando poi per lo testimonio di molti, che vsarono
+
+Колонтитул: De gli Antichi. 345
+Кустод: vsarono
+Сигнатура:
+Маргиналии:
+- Baccho il medesimo, che'l Sole.
+- Corna di Baccho.
+- Martiano.
+- Atheneo.
+- Persio.
+- Catullo.
+- Musonio.
+- Baccho in forma di Toro.
+- Vasi di corno per bere.
+
+## Скан 0388 · с. 346
+
+vsarono gli antichi le corna de i buoi in vece di vasi per bere, onde gli Atheniesi ancora beeuano con certi vasi di argento fatti in foggia di corni. Hanno oltre di ciò voluto alcuni, che per le corna intendiamo certi pochi capelli che da ambe le parte del capo scendeuano giù come a dì nostri veggiamo hauere i Sacerdoti Armeni, li quali poi sono rasi sopra la fronte, & alla nuca. E così vogliono intender, che fosse fatta la statoa di Baccho, & non che veramente hauesse le corna. E dicono che Lisimaco Re fu perciò parimente fatto con le corna, come si vede in alcune sue medaglie antiche. Et alla statoa di Seleuco, che fu cognominato Nicatore, furono anco fatte le corna, come riferisce Suida, non già per questo, ma perche essendo fuggito vn Toro da Alessandro, che era posto per sacrificarlo, ei lo prese per le corna, & lo tenne fermo. Che Baccho poi hauesse le chiome lunghe lo mostra Seneca, quando così dice,
+
+*Senza Vergogna sparge i lunghi crini*
+*Baccho lasciuo, e molle, e lieui Thirsi*
+*Porta scuotendo con tremante mano,*
+*Nè si Vergogna andar con lento passo,*
+*E trarsi dietro l'ampia, e lunga Veste,*
+*Ornata tutta di barbarico oro.*
+
+Percioche lo vestirono alcuna volta di habito feminile, come lo fa Filostrato nella Tauola di Ariadna, quando lo dipinge, che vada à lei, con bella veste, porporea, lunga, e grande, & coronato di rose, Nè bisognaua farlo in altra guisa in quello atto amoroso, perche egli andaua per congiungersi amorosamente con Ariadna, quando fu abandonata da Theseo, onde questi tutti, che quasi sempre erano con lui, come femine ardite, e feroci, diuerse vaghe Ninfe, Sileni, Satiri, Siluani, & altri simili (li quali come scriue Strabone, erano ministri, & seguaci di Baccho, & chiamauansi il choro, e la compagnia di Ariadna, intagliata già in marmo bianco la Dedalo in Creta), lo seguitano gridando con voci liete. come si legge appresso di Catullo.
+
+*Andauano scotendo i Verdi Thirsi*
+*Alcuni, alcuni le squarciate membra*
+*Del Vitello portauano, vna parte*
+*Con ritorti serpenti si cingeua,*
+*Et Vna parte ne le caue ceste*
+*Portando celebraua i bei misteri,*
+*I misteri da gli empi indarno cerchi.*
+*Chi percoteua con le aperte palme*
+
+Колонтитул: 346 Imagini de i Dei
+Кустод: Iriso-
+Сигнатура:
+Маргиналии:
+- Theopompo.
+- Lisimaco Rè.
+- Statua di Seleuco.
+- Seneca.
+- Choro di Ariadna.
+- Catullo.
+
+## Скан 0389 · с. 347
+
+[ГРАВЮРА — полностраничная]
+Imagini di Bacco, & della pompa, feste, & cerimonie bacchanali, & l'habito delle Bacche, o Menadi sue seguaci, significante che li sacrificij bacchanali purgauan gl'animi dalle colpe, come il vino li purga da pensieri.
+
+Колонтитул: De gli Antichi. 347
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0390 · с. 348
+
+*I risonanti timpani, ò con verghe*
+*Di rame facea lieue, e piccol suono.*
+*E chi faceua l'aria rimbombare*
+*Con strideuoli cerni, e facean molti*
+*De le Straniere tibie Vdir' il canto.*
+
+Questi erano quasi tutti misteri di Baccho, & cerimonie, che vsauano nelle sue feste, le quali da principio furono celebrate con pompa tale. Era portata innanzi vn'Anfora di vino con rami di vite, & la seguitaua chi si traheua dietro vn capro : poi veniua chi portaua vna cesta di noci, & in vltimo era il Phallo, che fù la imagine del membro virile. Così la racconta Plutarco, oue parla della cupidigia delle ricchezze, la quale cominciò a sprezzare quelle pouere cose etiandio ne' Bacchanali, & introdusse duo vasi d'oro, pretiose vesti, e carri con mascherate sontuose, come può vedere chi vuole appresso di Atheneo, che descriue vna di queste pompe Bacchanali ambitiosissima, rappresentata già per Tolomeo Filadelfo, perche il riferirla hor'a me non seruirebbe altro che di perdere tempo. Vsarono anco di portare il cribro dato a Baccho, e posto tra le sue cose sacre; perche, come dice Seruio, credeano gli antichi che giouassero molto i sacramenti di Baccho alla purgatione de gli animi, & che per gli suoi sacri misterij così fossero questi purgati, come si purga il grano col cribro. Et il Boccaccio riferisce, che credettero alcuni, che fosse fatta questa purgatione ne gli huomini con la vbbriachezza, la quale è il Sacramento di Baccho, perche passata, che sia poi questa, ò con il vomito, ò in altro modo, & rassettatosi il ceruello, pare che l'animo si habbia scordato ogni trauaglio, & spogliatosi tutti i noiosi pensieri rimanghi lieto e, tranquillo, come dice Seneca ancora, oue scriue della tranquillità dell'animo. Et hanno detto alcuni, che Baccho fu chiamato Libero Padre, perche beendo largamente l'huomo si libera da' pensieri fastidiosi : & parla piu liberamente assai, che quando è sobrio. Mà sono stati altri, li quali hanno voluto, ch'ei fosse più tosto chiamato così dalla Libertà, della quale fu creduto Dio, perche, come scriue Plutarco, ei combattè già assai per questa. Da che venne, che vsarono gli antichi, come dice Seruio sopra Virgilio, di mettere nelle Città libere, per segno certo di libertà, il simulacro di Marsia; che fu vno de' Satiri ministri di Baccho. Et si legge appresso di Plinio; che fu posto in prigione Publio Munatio, perche leuò dalla statoa di Marsia vna ghirlanda di fiori, & a sè la pose in capo. Di Marsia hanno anco detto le fauole, ch'ei fu scorticato da Apollo, perche lo sfidò a sonare hauendo trouata la piua, che fu gittata via da Minerua: di che piansero tanto le Ninfe, e gli altri Satiri, che fecero con le lagrime loro quel fiume, che dal nome di lui fu detto Marsia.
+
+Колонтитул: 348 Imagini de i Dei
+Кустод: Ma
+Сигнатура:
+Маргиналии:
+- Phallo.
+- Cribro di Baccho.
+- Vbbriachezza sacramento di Baccho.
+- Libero Padre.
+- P. Munatio.
+- Marsia.
+
+## Скан 0391 · с. 349
+
+Ma la verità fu, che questo era vn'eccellente musico, come riferisce Atheneo da Metrodoro, ritrouatore della piua, il quale come scriue Suida, vscito di ceruello si gittò nel fiume, & quiui affogò, che fu poscia dal nome suo detto Marsia. Et Pausania scriue, che nella rocca d'Athene fu vn simulacro di Minerua, che batteua Marsia, perche haueua tolto sù la piua gittata via da lei. Ma ritornando alla veste di Baccho, dicono ch'ella era di donna, perche il troppo bere debilita le forze, & fa l'huomo molle, & eneruato, come femina. Onde Pausania scriue, che appresso de gli Elei nell'arca di Cipsallo era intagliato Baccho con la barba, con veste lunga giù infino a terra, e che stando a giacere in certo antro circondato da viti, & da altri arbori fruttiferi, porgeua vna tazza con mano. Leggesi ancora, che fù detto Baccho Bassareo da certa sorte di veste lunga, ch'egli vsaua, & che vsarono parimente i Sacerdoti poi ne' suoi sacrificij detta Bassara, da certo luoco della Lidia; oue si faceua, ouero dalle pelli delle Volpi chiamate Bassare in Thracia, che si metteuano intorno le Bacche sue seguaci, le quali percio furono parimente dette Bassare. Menade etiandio furono chiamate, che significa pazze, & furiose, perche nelle sue feste andauano con capei sparsi, & con Thirsi in mano, facendo atti da forsennate, per rappresentare ciò, che fecero quelle stesse, quando andarono con Baccho già da principio, allhora che mostrandosi tutto lasciuo, egli hebbe seco quasi vn'essercito di valorose femine, per opra delle quali, mentre che scorreua tutto il mondo oppresse alcuni Rè. Nè solamête delle pelli delle Volpi, si vestiuano quelle femine, ma delle Pantere ancora per lo più, & delle Tigri, portando in mano il Thirso, e spargendo le chiome al vento, le quali cingeuano alle volte con ghirlande di Hedera, & alle volte di bianca Pioppa, perche fu questa creduta arbore infernale, & che nata fosse sù le ripe di Acheronte ; & perciò la dettero gli antichi alle ministre di Baccho, perche tennero lui parimente per Dio dell'Inferno. Onde come ho detto già finsero le fauole, ch'ei fosse nato di Proserpina, il che è vero, ogni volta, che sotto il nome di costui s'intenda il Sole, del quale dissi nella sua imagine, come talhora ei si piglia per Dio infernale. E nel medesimo modo, ch'io hò dissegnato le Bacche, si fa spesso Baccho ancora, come lo descriue Claudiano, dicendo:
+
+*Vien Baccho allegro, coronato, e cinto*
+*D'Hedera trionfal, a cui le spalle*
+*Cuopre d'Hircana Tigre horrida pelle.*
+*Egli di Vin poi madido col Thirso*
+*Ferma le piante, e sì nel gir s'aita.*
+
+Et questo, che qui dice Claudiano del Thirso, hanno detto altri della Ferola, che Baccho con essa si và sostenendo in piè, & l'hanno posta in mano a tutti quelli, che vanno con lui. Di che rende Eusebio la ra-
+
+Колонтитул: De gli Antichi. 349
+Кустод: la ra-
+Сигнатура:
+Маргиналии:
+- Suida.
+- Pausania.
+- Bassareo.
+- Pioppa arbore infernale.
+- Claudiano.
+- Ferola data à Baccho.
+- Eusebio.
+
+## Скан 0392 · с. 350
+
+[ГРАВЮРА — полностраничная]
+Imagini di Bacco trionfatore, & inuentore del Trionfo, doppo hauer superata l'India, & del suo carro tirato da Tigri, & da Pantere con diuerse piante à lui sacrate, & molti animali ancora che significano la natura, & effetti del vino, & ebrietà.
+
+Колонтитул: 350 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0393 · с. 351
+
+la ragione, tolta da Diodoro, dicendo che concio fosse cosa che già da principio beendo assai si imbriacassero gli huomini, & perciò come forsennati, e pazzi venissero spesso à rumore insieme, & con bastoni grossi e duri, si ferissero stranamente, onde ne moriuano molti, Baccho persuase loro, che in vece di duri legni portassero le lieui ferole, perche se ben con queste si dauano, poi non ne seguitaua male alcuno, perche la ferola è vna pianta assai simile alla canna. & perche le foglie di essa sono gratissime à gli Asini, fu dato, come scriue Plinio, anco l'Asino à quel Dio, di cui era la ferola. Oltre di ciò scriue Diodoro, che Baccho si armaua nelle guerre, & vsaua alle volte ancora di mettersi intorno le pelli delle Pantere, percioche non fu egli sempre vbbriaco, ma combattè spesso, e tanto valorosamente, che superò molti Rè, come Licurgo, Pentheo, & altri : soggiogò tutta la India, donde ritornandosene vincitore sopra ad vn'Elefante menò bel trionfo. Nè si legge, che dinanzi à lui alcun'altro hauesse trionfato mai delle vinte guerre, & perciò à Baccho, come a primo trionfatore fu consecrata la Pica, vccello garulo, e loquace, perche ne i trionfi gridaua ogniuno, & ad ogniuno era lecito improuerare, a chi trionfaua gli suoi vitij, & gridando gli si poteua dire ogni male, come scriue Suetonio di Cesare. Hanno ancora gli antichi dato a questo Dio la inuentione delle ghirlande, secondo Plinio, il qual dice, che ei fu il primo, che se ne facesse di Hedera. Onde Alessandro Magno volendolo imitare quando ritornò vincitore dell'India, fece che il suo essercito tutto si coronò di Hedera. Questa pianta fu data a Baccho per molte ragioni, come ne hanno scritto molti: Festo vuole, che ciò fosse, perche egli è così giouane sempre, come quella è sempre verde : ouero perche, come ella lega tutto ciò, a che si appiglia, così il vino lega le humane menti. Plutarco dice, che l'Hedera hà in sè certa virtù, e forza occulta, la quale muoue l'humana menti di luoco & quasi l'empi di furore, sì che senza bere vino paiono poscia gli huomini vbbriachi. La Hedera da i Greci è chiamata Cisso; cissare, tirando le loro parole al nostro vso di dire, significa esser dato alla Libidine, & per questo scriue Eustachio che fu data la Hedera a Baccho per segno di libidine, alla quale sono gli huomini incitati assai dal vino, onde è per prouerbio antico, che nulla può Venere senza Baccho. Quando rende Macrobio la ragione del Thirso dato a Baccho, qual'era vna hasta con vno acuto ferro in cima, attorniata di Hedera, dice che, mostraua la Hedera douere gli huomini co i lacci della patienza legare l'ire, & i furori, onde sono tanto facili à fare male altrui, perche questa pianta cinge, e lega ouunque nasce. Scriue Diodoro, che chiamauano quelli di Egitto la Hedera pianta di Osiride, e gliele consecrarono come da lui ritrouata, e nelle sacre cerimonie faceuano più conto della Hedera (perche à tutte le stagioni hà le
+
+Колонтитул: De gli Antichi. 351
+Кустод: hà le
+Сигнатура:
+Маргиналии:
+- Diodoro.
+- Diodoro.
+- Trionfo ritrouato da Baccho.
+- Pica data à Baccho.
+- Ghirlande trouate da Baccho.
+- Hedera perche data à Baccho.
+- Cisso.
+- Thirso.
+- Diodoro.
