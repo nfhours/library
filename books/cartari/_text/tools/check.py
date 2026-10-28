@@ -89,6 +89,8 @@ BW_SOURCE_RE = re.compile(r"bw_noise:\s*(\S+)")
 KUSTOD_RE = re.compile(r"^Кустод:[ \t]*(.*)$", re.M)
 KOLONTITUL_RE = re.compile(r"^Колонтитул:[ \t]*(.*)$", re.M)
 NUMERATION_RE = re.compile(r"^Нумерация:.*$", re.M)
+MARGINALII_RE = re.compile(r"^Маргиналии:[ \t]*$", re.M)
+MARGIN_ITEM_RE = re.compile(r"^-[ \t]*(.*)$")
 
 
 def read_page(path):
@@ -144,6 +146,33 @@ def first_word_of_body(body):
         joined = after if after else joined
     m = re.search(r"[A-Za-zÀ-ÿſ]+", joined)
     return m.group(0) if m else ""
+
+
+FIELD_LABELS = ("Колонтитул:", "Кустод:", "Сигнатура:", "Маргиналии:", "Нумерация:", "Рукописно:", "Штамп:")
+
+
+def margin_items_of(body):
+    """Строки-пункты (начинающиеся с "- ") блока "Маргиналии:" — от самой
+    строки-метки до следующей строки-метки поля (см. FIELD_LABELS) или до
+    конца файла. Пустые строки внутри блока пропускаются, не-"-"-строки
+    (кроме следующей метки) не ожидаются и в список не попадают."""
+    mm = MARGINALII_RE.search(body)
+    if not mm:
+        return []
+    rest = body[mm.end():].split("\n")
+    items = []
+    for ln in rest:
+        s = ln.strip()
+        if not s:
+            continue
+        if s.startswith(FIELD_LABELS):
+            break
+        im = MARGIN_ITEM_RE.match(s)
+        if im:
+            items.append(im.group(1).strip())
+        else:
+            break
+    return items
 
 
 def main():
@@ -226,6 +255,28 @@ def main():
         leftover = ERRATA_MARK_RE.findall(stripped)
         if leftover:
             errata_syntax_errors.append((scan, "".join(leftover)))
+
+    # margin-block duplication check (чисто текстовая, без фото/картинок):
+    # ищем страницы, где список пунктов после "Маргиналии:" продублирован —
+    # либо весь блок повторён целиком (чётное число пунктов, первая половина
+    # совпадает со второй), либо один и тот же пункт идёт два раза подряд.
+    margin_dup_pages = []
+    for scan in scans_in_tsv:
+        if scan not in page_files:
+            continue
+        items = margin_items_of(body_cache.get(scan, ""))
+        if len(items) < 2:
+            continue
+        kind = None
+        if len(items) % 2 == 0 and items[: len(items) // 2] == items[len(items) // 2 :]:
+            kind = "весь блок повторён дважды"
+        else:
+            for i in range(len(items) - 1):
+                if items[i] == items[i + 1]:
+                    kind = f"пункт повторён подряд: {items[i]!r}"
+                    break
+        if kind:
+            margin_dup_pages.append((scan, kind, items))
 
     unclear_total = sum(unclear_counts.values())
 
@@ -347,6 +398,10 @@ def main():
     print("  (ожидаемо: у черновиков Grok кустоды почти везде пустые, поэтому список короткий или пустой)")
     for scan, kustod, nxt, nf in kustod_mismatches:
         print(f"  scan {scan}: кустод='{kustod}' != первое слово скана {nxt} ('{nf}')")
+    print()
+    print(f"Дублирование блока маргиналий: сканов с найденным дублированием {len(margin_dup_pages)}")
+    for scan, kind, items in margin_dup_pages:
+        print(f"  scan {scan}: {kind} (пунктов в блоке: {len(items)})")
     print()
     print(f"Синтаксис опечаток {{напечатано|исправлено}}: ошибок {len(errata_syntax_errors)}")
     for scan, leftover in errata_syntax_errors:
