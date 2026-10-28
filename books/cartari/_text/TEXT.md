@@ -10742,3 +10742,115 @@ medesimo peso siano; (& pure ne ho pesato & maneggiato piu d'vno). ma al caso no
 Кустод: (отсутствует — страница заканчивается гравюрой и сигнатурой, отдельной строки-кустода нет)
 Сигнатура: Mm 4
 Маргиналии: (нет)
+
+## Скан 0598 · с. 552
+
+[ГРАВЮРА: без подписи]
+
+[ГРАВЮРА: без подписи]
+
+Колонтитул: 552 Parte Seconda
+Кустод:
+Сигнатура:
+
+## Скан 0599 · с. 553
+
+[ГРАВЮРА: без подписи]
+
+ET poiche siamo entrati nella pseudo Theologia di questa barbarie, non sarà fuor di luogo il mostrare, come il Demonio, Simia di Dio s'andò auantaggiando per imitare la più segnalata attione, che vscisse mai dalle mani diuine, io dico la Redentione del genere humano. Rappresentauano in pittura questi vn'Ambasciatore del Dio Citlallatonac (cosi chiamauano la essi via Lattea) mandato ad vna Vergine, che habitaua in Tulan detta per nome Chimalmã, cioe Rotella, alla quale disse l'Ambasciatore, che Dio voleua che essa concepisse vn figliolo; il quale fu conceputo senza congiontione d huomo, & fu chiamato Quetzalcoatle; si che questo Ambasciatore fu'l Gabriele (se cosi e lecito à dire) questi miseri; & cosi Satanas transfiguratur in Angelum lucis. A proposito di che nota l'Illustrissimo Cardinal BARONIO, con l'auttorità di Tertulliano, che'l Demonio nel gentilesmo haueua imitato il Battesimo, la Chresima, e fino il Sacro Santo sacrificio della Messa; haueua finto il Sommo Pontefice, lo stato delle Vergini, lo stato de' Continenti. Et io altroue ho auuertito qualche altra cosa notabile in simile particolare.
+
+Колонтитул: Delle Imagini de i Dei. 553
+Кустод:
+Сигнатура:
+
+## Скан 0600 · с. 554
+
+[ГРАВЮРА: без подписи]
+
+Колонтитул: 554 Parte Seconda
+Кустод: Questo
+Сигнатура:
+
+## Скан 0601 · с. 555
+
+QVesto è il ritratto dell'Ambasciatore sopradetto, nel quale io ho con qualche marauiglia fatto riflessione sopra l'ornamento del capo, che è molto simile a que' cartocci, che gl'Egitij piantauano in capo al loro Harpocrate come si può vedere nella statua, ch'io ho appresso di me, registrata di sopra à car. 335. Hora questo Quetzalcoatl fu chiamato ancora Topilczin, cioe mio molto amato figliolo, e dicono, che nascesse con l'vso di ragione, & che fosse'l primo, che cominciasse, ad inuocar li Dei, e far loro sacrificij, co'l suo sangue medesimo, che si cauaua dalla persona con spine, & in altre maniere. Haueua già la Gentilità del nostro Mondo, i Bellonarij, i Galli della madre de gli Dei, & altri si fatti che spargeuano sangue; ma questi fu forse più antico, tutto che discepolo della medesima scuola. Chiamauano costui il Dio del Vento, e perciò Motezumà, all'arriuo de' Legni di Ferdinando Cortese, sparse voce, che in quell'armata veniua il Dio Quetzalcoatl, perche il volgo non hauesse occasione di tumultuare; & i suoi Tempij erano rotondi, che esso ne fu l'inuentore. Questi tempij erano detti nella loro lingua Ques: & erano case di orationi di quattro sorti; nella prima digiunauano li Signori & più nobili del popolo; nella seconda la gente commune; nella terza chi staua non leuaua mai l'occhio dalla terra; nella quarta si mandauano i peccatori & huomini di mal affare. Attribuiuano i Mexicani à costui, come habbiamo detto, & alla loro industria, la maniera dei Tempij alti, ch'erano in questo paese. Perche doue non eran arriuati l'Imperio & la politia loro, si seruiuano i paesani d'Altari fatti di terra ne' Boschi, o nelle cime de' monti, che erano à punto Luci, & Excelsa della scrittura sacra. Chi più vuole vedere intorno à Quetzalcoatl legga Francesco Lopex de Gomara nella conquista del Cortese, & se bene questo Autoreè in qualche cosa differente da quello, ch'io racconto, tuttauia quello, ch'io dico lo ho da buon luogo, come dirò più à basso. ne pretendo però di violentare il lettore, ma lasciare libera à tutti la credenza & l'opinione, che sia detto vna volta per sempre. Et in vero questa superstitione fece si profonde radici, che ancorche hauessero gl'Ethnici Tempij nobilissimi per ricchezza e per fabrica, nientedimeno rittenero ostinatissimamente i Boschi & le cime de' Monti, doue l'horrore & il sito inuitauano i superstitiosi al culto delle false loro Deità. Euandro appresso Virgilio.
+
+*In questo bosco, e la ve questo monte*
+*E più frondoso, vn Dio (non si sa quale)*
+*Ma certo habita vn Dio.*
+
+Колонтитул: Delle Imagini de i Dei. 555
+Кустод: Pom:
+Сигнатура:
+
+## Скан 0602 · с. 556
+
+Pomponio Mela racconta, che in Etiopia certa cima de Monti per questo rispetto era detta carro de gli Dei. Le sommittà de' Monti, Emo, Olimpo, Atos, Ida erano in stima grande appresso i Gentili per la medesima ragione. E bel punto tocca in questo proposito Theodoreto, che doue altre volte, nelle altezze de Monti haueua fiorito l'abominatione, i Christiani haueuano introdoto i Chori de Monaci, che nelli alloggiamenti medesimi del nemico haueuano piantata l'insegna vittoriosa della Croce, e'l trionfo del Crocifisso. Tanto fece il glorioso Patriarca de Monaci Occidentali S. Benedetto, che come racconta S. Gregorio, distrusse e rouinò nella cima di Monte Casino il Tempio d'Apolline, & abbruggiò i boschi, che all'intorno con la foltezza nascondeuano (per cosi dire) e mantellauano le pazzie de' gentili. Ma ritorniamo à Quetzalcoatl, la imagine del quale era figurata in questa maniera.
+
+[ВИНЬЕТКА: путто среди растительного орнамента]
+
+Колонтитул: 556 Parte Seconda
+Кустод: Ne
+Сигнатура:
+
+## Скан 0603 · с. 557
+
+[ГРАВЮРА: без подписи]
+
+Колонтитул: Delle Imagini de i Dei. 557
+Кустод:
+Сигнатура:
+
+## Скан 0604 · с. 558
+
+NE gli ornamenti di questa figura io noto quattro cose degne à mio giudicio d'essere auuertite nella materia, che trattiamo. La prima è quell'apice in figura di meta, che tiene in capo, della quale figura il demonio si seruì & nelle cerimonie di Cibele, & nel tempio di Venere in Pafo, & forse la Pietra manale, della quale si seruiuano nel tempo della siccità per impetrare la pioggia dal Cielo non era di figura molto dissimile. La seconda è il Lituo, che tiene nella mano destra, dato da' gentili a gl'Auguri loro e tenuto in tanta riputatione. La terza il Cornucopia, che gli si vede inanzi à piedi, che sarà stato appresso questi più stimato senza dubio, che'l fauoloso, o d'Acheloo, o della Capra Amaltea. La quarta piu notabile & piu riguardeuole dell'altre è la figura della Croce, che si vede in tre luochi, due nel mantello, & vna nel corpo dall'Incensiere, che cosi chiamauano i paesani quello che noi habbiamo nominato Cornucopia. E veramente che questa non sia Croce io non dubito punto, & questo tanto più, quanto si vede, che nostro Signore Iddio, per sua misericordia, fece strada grande alla preparatione dell'Euangelio in alcuno di questi paesi. In Acuzamil vna croce si riueriua sopra modo da quelli Idolatri: nelle siccità particolarmente & nel bisogno, che teneuano i seminati, d'acqua; & lo racconta il Vvitfliet nella sua relatione di Iucatan ilquale aggionge per testimonianza di Pietro Martire d'Anghiari Milanese, che raccontauano i paesani, come questo rito era stato lasciato in quell'Isola da vn huomo più rilucente del Sole, che morì in Croce, e passò per la al tempo de maggiori. E ben vero, ch'io non trouo queste cose nel resto di P. Martire, poiche egli dice nelle sue Deche Oceaniche stampate in Basilea, che i Cozumellani erano circoncisi, e narrauano d'hauere riceuuto la circoncisione da vn tale, che passò molti anni sono per là &c. Oltra ciò il medesimo Vvitfliet racconta per detto del Gomara, che i Cumani, che furono scoperti già vicini al Perù non lontani dal Mare, honorauano la Croce di S. Andrea, & si segnauano contra le apparitioni de' Demonij & merteuano la Croce addosso i figliolini loro, subito ch'erano nati. Molte altre cose, che seruirono per ispianare la strada all'Euangelio, racconta il Botero, che le ha studiosamente raccolte. Hora sia come si voglia, notabili sono queste Croci di Topilczin, & degne d'essere auuertite da chi à composto vltimamente vn molto grosso volume della Croce, in lingua nostra. Et in proposito mi souuiene di notare, come vna similissima se ne vede in vna rarissima Medaglia di Costantino il Grande, non publicata ne auuertita da alcuno, ch'io sappia, à quest'hora, della quale ho posto il dissegno per hauerla io appresso di me.
+
+Колонтитул: 558 Parte Seconda
+Кустод: Et
+Сигнатура:
+
+## Скан 0605 · с. 559
+
+[ГРАВЮРА: VOT P R]
+
+Колонтитул: Delle Imagini de i Dei. 559
+Кустод:
+Сигнатура:
+
+## Скан 0606 · с. 560
+
+IO stimo non poco questa Medaglia, poiche pare, che molti si siano accordati à credere, che à Costantino apparisse il segno della Croce in aria, (come scriuono tutti gl'Historici Ecclesiatici di que' tempi) nelle due prime lettere del nome di CHRISTO scritto in greco, come portarono poi nell'Insegna maggiore dell'essercito gl'Imperatori seguenti. Et veramente la congettura non è irragioneuole, si per la rarità delle Medaglie di Costantino con la Croce, si per la testimonianza di Costanzo suo figliuolo, che fece battere monete, come qui sotto co'l motto HOC SIGNO VICTOR ERIS.
+
+[ГРАВЮРА: без подписи]
+
+Колонтитул: 560 Parte Seconda
+Кустод: Tutte
+Сигнатура:
+
+## Скан 0607 · с. 561
+
+TVtte le sopra registrate imagini con le notitie principali di esse, accresciute però da me con qualche raffronto Historico, & co' Paralleli delle antiche superstitioni d'altri popoli, io le ho hauute dall'Illustriss. Sig. OTTAVIANO MALIPIERO Senatore grauissimo & d'amabilissima placidità di natura. Furono per quanto ho inteso del Cardinale AMVLIO gloriosa memoria & io le stimo assai più che alcune altre narrationi d'huomini poco versati, che vanno in volta, & si leggono tutto'l dì. Vado confermando tutta questa mia congettura della religione di questi paesi conforme all'Egittia, con quello, che scriue Francesco Lopez di Gomara, cioe che i Mexicani spiegauano i concetti dell'animo loro con figure simili à Hieroglifi dell'Egitto. Scriue in conformità Pietro Martire, che i caratteri delle scritture loro sono Dadi, Hami, Lacci, Lime, Stelle, e cose si fatte distese in righe all'vsanza nostra, & che imitano le antiche lettere dell'Egitto. Et mi ricordo ne' fogli del Cardinale AMVLIO, di vedere si fatte Pitture con le esplicationi loro; per essempio dipingeuano vn Ceruo per l'huomo ingrato; vna pietra con vna spiga di Mahiz secca sopraui per la sterilità; vna Lucertola per l'abondanza d'acqua; vna canna di Mahiz verde per l'abondanza. Aggiongo che il medesimo Gomara scriue, che nel Mexico sopra la capella d'alcuni loro Idoli principali teneuano la statua d'vn tale, ch'esso non nomina, composta di quante sorti di semi erano in vso nel paese; d'oro, di gioie, d'abbigliamenti e cose simili impastate, & ammassate insieme. Il che m'ha fatto souuenire la fabrica del simulacro di Sarapide appresso gl'Egittij, raccontata da Clemente Alessandrino, nella quale furono posti in opera fragmenti d'oro, argento, rame, ferro, piombo, marmo, e gioie diuerse. Similmente il serbare i cadaueri de' morti, tanto de' grandi, quanto de gli antenati per veneratione, come racconta Pietro Martire in più luoghi, non è vsanza Egittia? Et perche fuor della Galleria del Sereniss. di BAVIERA io ho hauuto alcuni disegni d'Idoli del Mexico, però staranno registrati qui sotto vn dopo l'altro.
+
+[ВИНЬЕТКА: декоративная наборная полоса-разделитель]
+
+Колонтитул: Delle Imagini de i Dei. 561
+Кустод: Questo
+Сигнатура: N n
+
+## Скан 0608 · с. 562
+
+[ГРАВЮРА: без подписи]
+
+QVesto primiero nell'acconciatura di capo è molto simile alle strauaganze Egittie, anzi che quella coda, che gli esce fuora del mento lo fa in tutto e per tutto eguale in questa parte a quella figura della mensa Isiaca, che io nella esplicatione di essa, chiamai altre volte Oro. Et cosa di questa fatta si vede in vna mia antichissima Corniola, il disegno della quale ho fatto rappresentare nella sopraposta Tauoletta. L'altro Idolo io direi, che fosse cauato dal Cercopitheco d'Egitto, poiche ha piu figura di bestia, che di homo.
+
+Колонтитул: 562 Parte Seconda
+Кустод: Nella
+Сигнатура:
+
+## Скан 0609 · с. 563
+
+[ГРАВЮРА: без подписи]
+
+Колонтитул: Delle Imagini de i Dei. 563
+Кустод: Et
+Сигнатура: Nn 2
