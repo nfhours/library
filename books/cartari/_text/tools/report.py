@@ -148,6 +148,46 @@ def print_range_breakdown(rows, bucket=50):
     print()
 
 
+def is_triple_method(method):
+    return bool(method) and (method.startswith("triple") or "triple-reconciled" in method)
+
+
+def triple_hidden_totals(rows):
+    pages = 0
+    measured = 0
+    total = latin = margin = text = 0
+    for r in rows:
+        if not is_triple_method(r.get("method")):
+            continue
+        pages += 1
+        h = r.get("hidden_errors", "")
+        if h == "":
+            continue
+        measured += 1
+        total += int(h or 0)
+        latin += int(r.get("hidden_errors_latin") or 0)
+        margin += int(r.get("hidden_errors_margin") or 0)
+        text += int(r.get("hidden_errors_text") or 0)
+    return {"pages": pages, "measured": measured, "total": total,
+            "latin": latin, "margin": margin, "text": text}
+
+
+def print_triple_hidden(rows):
+    t = triple_hidden_totals(rows)
+    print("Тройное чтение — скрытые совпавшие ошибки (2 из 3 источников совпали неверно, 3-й поймал):")
+    print(f"  страниц методом triple/triple-reconciled: {t['pages']}")
+    print(f"  из них размечено полем hidden_errors: {t['measured']} "
+          f"(остальные {t['pages'] - t['measured']} — страницы до введения поля, не размечены, не реконструировались задним числом)")
+    if t["measured"]:
+        print(f"  скрытых ошибок всего: {t['total']} ({t['total'] / t['measured']:.2f} на размеченную страницу)")
+        print(f"    в латинских/греческих цитатах: {t['latin']}")
+        print(f"    в маргиналиях/сигнатурах/кустодах: {t['margin']}")
+        print(f"    в основном итальянском тексте: {t['text']}")
+    else:
+        print("  скрытых ошибок: нет размеченных страниц")
+    print()
+
+
 def recent_commits(n=5):
     out = git_log([f"-{n}", "--pretty=format:%h\t%ad\t%s", "--date=format:%Y-%m-%d %H:%M"])
     return [line.split("\t", 2) for line in out.splitlines() if line.strip()]
@@ -178,6 +218,7 @@ def main():
 
     print_range_breakdown(rows)
     print_pignoria_split(rows)
+    print_triple_hidden(rows)
 
     all_time = double_totals(rows)
     last24 = scans_touched_since("24 hours ago")

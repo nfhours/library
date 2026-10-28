@@ -72,6 +72,10 @@ ERRORS_R1_RE = re.compile(r"errors_r1:\s*(\d+)")
 ERRORS_R2_RE = re.compile(r"errors_r2:\s*(\d+)")
 BOTH_WRONG_RE = re.compile(r"both_wrong:\s*(\d+)")
 NOISE_RE = re.compile(r"noise:\s*(\d+)")
+HIDDEN_RE = re.compile(r"hidden_errors:\s*(\d+)")
+HIDDEN_LATIN_RE = re.compile(r"hidden_errors_latin:\s*(\d+)")
+HIDDEN_MARGIN_RE = re.compile(r"hidden_errors_margin:\s*(\d+)")
+HIDDEN_TEXT_RE = re.compile(r"hidden_errors_text:\s*(\d+)")
 BW_SOURCE_RE = re.compile(r"bw_noise:\s*(\S+)")
 KUSTOD_RE = re.compile(r"^Кустод:[ \t]*(.*)$", re.M)
 KOLONTITUL_RE = re.compile(r"^Колонтитул:[ \t]*(.*)$", re.M)
@@ -231,6 +235,10 @@ def main():
         r2_m = ERRORS_R2_RE.search(tail)
         both_m = BOTH_WRONG_RE.search(tail)
         noise_m = NOISE_RE.search(tail)
+        hidden_m = HIDDEN_RE.search(tail)
+        hidden_latin_m = HIDDEN_LATIN_RE.search(tail)
+        hidden_margin_m = HIDDEN_MARGIN_RE.search(tail)
+        hidden_text_m = HIDDEN_TEXT_RE.search(tail)
         double_reading[scan] = {
             "method": method_m.group(1) if method_m else "",
             "discrepancies": disc_m.group(1) if disc_m else "",
@@ -238,6 +246,10 @@ def main():
             "errors_r2": r2_m.group(1) if r2_m else "",
             "both_wrong": both_m.group(1) if both_m else "",
             "noise": noise_m.group(1) if noise_m else "",
+            "hidden_errors": hidden_m.group(1) if hidden_m else "",
+            "hidden_errors_latin": hidden_latin_m.group(1) if hidden_latin_m else "",
+            "hidden_errors_margin": hidden_margin_m.group(1) if hidden_margin_m else "",
+            "hidden_errors_text": hidden_text_m.group(1) if hidden_text_m else "",
         }
 
     # count engraving markers per page (for status.csv "engravings" column)
@@ -255,7 +267,8 @@ def main():
     with open(STATUS_CSV, "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f)
         w.writerow(["scan", "label", "printed_number", "state", "unclear", "engravings", "note",
-                    "method", "discrepancies", "errors_r1", "errors_r2", "both_wrong", "noise"])
+                    "method", "discrepancies", "errors_r1", "errors_r2", "both_wrong", "noise",
+                    "hidden_errors", "hidden_errors_latin", "hidden_errors_margin", "hidden_errors_text"])
         for scan in scans_in_tsv:
             label = label_by_scan.get(scan, "")
             printed = printed_numbers.get(scan, "")
@@ -278,7 +291,9 @@ def main():
             w.writerow([scan, label, printed, state, unclear, engr, note,
                         dr.get("method", ""), dr.get("discrepancies", ""),
                         dr.get("errors_r1", ""), dr.get("errors_r2", ""),
-                        dr.get("both_wrong", ""), dr.get("noise", "")])
+                        dr.get("both_wrong", ""), dr.get("noise", ""),
+                        dr.get("hidden_errors", ""), dr.get("hidden_errors_latin", ""),
+                        dr.get("hidden_errors_margin", ""), dr.get("hidden_errors_text", "")])
 
     # ---- Report ----
     print("=== Cartari check.py отчёт ===")

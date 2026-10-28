@@ -1,640 +1,640 @@
-scan,label,printed_number,state,unclear,engravings,note,method,discrepancies,errors_r1,errors_r2,both_wrong,noise
-0001,Einband,,done,0,0,both_wrong/noise: reconstructed,double,0,0,0,0,0
-0002,Vorderspiegel,,done,0,0,both_wrong/noise: reconstructed,double,0,0,0,0,0
-0003,Vorsatz_r,,done,0,0,both_wrong/noise: reconstructed,double,0,0,0,0,0
-0004,Vorsatz_v,,done,0,0,both_wrong/noise: reconstructed,double,0,0,0,0,0
-0005,Titelblatt_1r,,done,0,0,both_wrong/noise: reconstructed,double,6,4,2,0,0
-0006,Titelblatt_1v,,done,0,0,both_wrong/noise: reconstructed,double,0,0,0,0,0
-0007,Titelblatt_2r,,done,0,1,both_wrong/noise: reconstructed,double,3,2,2,1,0
-0008,Titelblatt_2v,,done,0,0,both_wrong/noise: reconstructed,double,0,0,0,0,0
-0009,Widmung_1r,,done,0,2,both_wrong/noise: reconstructed,double,0,0,0,0,0
-0010,Widmung_1v,,done,0,0,both_wrong/noise: reconstructed,double,1,0,1,0,0
-0011,Widmung_2r,,done,0,0,both_wrong/noise: reconstructed,double,2,0,2,0,0
-0012,I,,done,0,1,both_wrong/noise: reconstructed,double,0,0,0,0,0
-0013,II,,done,1,0,both_wrong/noise: reconstructed,double,1,0,1,0,0
-0014,III,,done,0,0,both_wrong/noise: reconstructed,double,1,1,0,0,0
-0015,IV,,done,0,0,both_wrong/noise: reconstructed,double,0,0,0,0,0
-0016,V,,done,0,1,both_wrong/noise: reconstructed,double,0,0,0,0,0
-0017,VI,,done,0,2,both_wrong/noise: reconstructed,double,1,1,0,0,0
-0018,VII,,done,0,0,both_wrong/noise: reconstructed,double,1,1,0,0,0
-0019,VIII,,done,0,0,both_wrong/noise: reconstructed,double,2,1,1,0,0
-0020,IX,,done,0,0,both_wrong/noise: reconstructed,double,3,3,0,0,0
-0021,X,,done,0,0,both_wrong/noise: reconstructed,double,1,1,0,0,0
-0022,XI,,done,0,0,both_wrong/noise: reconstructed,double,0,0,0,0,0
-0023,XII,,done,0,3,both_wrong/noise: reconstructed,double,0,0,0,0,0
-0024,XIII,,done,0,0,both_wrong/noise: reconstructed,double,2,1,1,0,0
-0025,XIV,,done,0,1,both_wrong/noise: reconstructed,double,1,1,1,1,0
-0026,XV,,done,0,2,both_wrong/noise: reconstructed,double,1,0,1,0,0
-0027,XVI,,done,0,1,both_wrong/noise: reconstructed,double,2,0,2,0,0
-0028,XVII,,done,0,2,both_wrong/noise: reconstructed,double,1,1,0,0,0
-0029,XVIII,,done,0,1,both_wrong/noise: reconstructed,double,2,2,1,1,0
-0030,XIX,,done,0,2,both_wrong/noise: reconstructed,double,2,0,2,0,0
-0031,XX,,done,0,2,both_wrong/noise: reconstructed,double,1,1,0,0,0
-0032,XXI,,done,0,3,both_wrong/noise: reconstructed,double,4,1,3,0,0
-0033,XXII,,done,0,2,both_wrong/noise: reconstructed,double,2,2,1,1,0
-0034,XXIII,,done,0,1,both_wrong/noise: reconstructed,double,1,0,1,0,0
-0035,XXIV,,done,0,2,both_wrong/noise: reconstructed,double,0,0,0,0,0
-0036,XXV,,done,0,3,both_wrong/noise: reconstructed,double,0,0,0,0,0
-0037,XXVI,,done,0,2,both_wrong/noise: reconstructed,double,1,0,1,0,0
-0038,XXVII,,done,0,0,both_wrong/noise: reconstructed,double,6,6,1,1,0
-0039,XXVIII,,done,0,1,both_wrong/noise: reconstructed,double,0,0,0,0,0
-0040,XXIX,,done,0,0,both_wrong/noise: reconstructed,double,0,0,0,0,0
-0041,1a,,done,0,1,both_wrong/noise: reconstructed,double,0,0,0,0,0
-0042,1,,done,0,3,both_wrong/noise: reconstructed,double,7,6,1,0,0
-0043,2,,done,0,0,both_wrong/noise: reconstructed,double,7,6,1,0,0
-0044,3a,,done,0,1,both_wrong/noise: reconstructed,double,2,1,1,0,0
-0045,3,3,done,0,0,both_wrong/noise: reconstructed,double,10,8,2,0,0
-0046,4,4,done,0,0,both_wrong/noise: reconstructed,double,9,9,1,1,0
-0047,5,5,done,0,0,both_wrong/noise: reconstructed,double,9,6,3,0,0
-0048,6,6,done,0,0,both_wrong/noise: reconstructed,double,19,17,3,1,0
-0049,7,7,done,0,0,both_wrong/noise: reconstructed,double,21,19,2,0,0
-0050,8,8,done,0,0,both_wrong/noise: reconstructed,double,11,7,4,0,0
-0051,9,9,done,0,0,both_wrong/noise: reconstructed,double,15,15,0,0,0
-0052,10,10,done,0,1,both_wrong/noise: reconstructed,double,1,1,0,0,0
-0053,11,11,done,0,0,both_wrong/noise: reconstructed,double,20,19,1,0,0
-0054,12,12,done,0,0,both_wrong/noise: reconstructed,double,13,9,4,0,0
-0055,13,13,done,0,0,both_wrong/noise: reconstructed,double,14,11,2,0,1
-0056,14,14,done,0,0,both_wrong/noise: reconstructed,double,14,12,2,0,0
-0057,15,15,done,0,0,,double,13,11,2,0,0
-0058,16,16,done,0,1,,double,2,2,0,0,0
-0059,17,17,done,0,0,,double,9,7,2,0,0
-0060,18,18,done,0,0,,double,10,9,1,0,0
-0061,19,19,done,0,0,,double,7,7,0,0,0
-0062,20,20,done,0,1,,double,1,1,0,0,0
-0063,21,21,done,0,1,,double,4,4,0,0,0
-0064,22,22,done,0,0,,double,5,4,1,0,0
-0065,23,32,done,0,1,"Нумерация: на странице напечатано 32, в PAGES.tsv 23",double,3,3,0,0,0
-0066,24,24,done,0,0,,double,8,8,0,0,0
-0067,25,25,done,0,0,,double,7,5,2,0,0
-0068,26,26,done,0,1,,double,1,1,0,0,0
-0069,27,27,done,0,0,,double,14,9,5,0,0
-0070,28,,done,0,1,,double,1,1,0,0,0
-0071,29,29,done,0,0,,double,5,4,1,0,0
-0072,30,,done,0,1,,double,1,1,0,0,0
-0073,31,31,done,0,0,,double,8,6,2,0,0
-0074,32,,done,0,0,,double,7,5,2,0,0
-0075,33,33,done,0,1,,double,2,2,0,0,0
-0076,34,,done,0,0,,double,11,8,0,0,3
-0077,35,35,done,0,0,,double,9,6,2,0,1
-0078,36,,done,0,1,,double,1,1,0,0,0
-0079,37,37,done,0,0,,double,8,7,1,0,0
-0080,38,,done,0,2,,double,3,3,0,0,0
-0081,39,39,done,0,0,,double,7,7,0,0,0
-0082,40,40,done,0,1,,double,3,3,0,0,0
-0083,41,41,done,0,1,,double,8,8,0,0,0
-0084,42,42,done,0,0,,double,9,9,0,0,0
-0085,43,43,done,0,1,,double,3,2,1,0,0
-0086,44,44,done,0,0,,double,10,8,2,0,0
-0087,45,45,done,0,1,,double,1,1,0,0,0
-0088,46,46,done,0,0,,double,7,5,2,0,0
-0089,47,47,done,0,1,,double,1,1,0,0,0
-0090,48,48,done,0,0,,double,15,13,2,0,0
-0091,49,49,done,0,1,,double,2,2,0,0,0
-0092,50,50,done,0,0,,double,7,7,0,0,0
-0093,51,51,done,0,1,,double,3,3,0,0,0
-0094,52,,done,0,0,,double,7,7,0,0,0
-0095,53,53,done,0,1,,double,2,2,0,0,0
-0096,54,,done,0,0,,double,7,7,0,0,0
-0097,55,55,done,0,1,,double,3,3,0,0,0
-0098,56,,done,0,0,,double,12,12,0,0,0
-0099,57,57,done,0,1,,double,1,1,0,0,0
-0100,58,,done,0,0,,double,8,8,0,0,0
-0101,59,59,done,0,1,,double,2,2,0,0,0
-0102,60,,done,0,0,,double,10,8,2,0,0
-0103,61,61,done,0,1,,double,3,3,0,0,0
-0104,62,,done,0,0,,double,9,9,0,0,0
-0105,63,63,done,0,1,,double,1,1,0,0,0
-0106,64,,done,0,0,,double,14,10,5,1,0
-0107,65,65,done,0,1,,double,2,2,0,0,0
-0108,66,,done,0,1,,double,3,3,0,0,0
-0109,67,67,done,0,0,,double,10,10,1,1,0
-0110,68,,done,0,1,,double,1,1,0,0,0
-0111,69,69,done,0,0,,double,12,10,3,1,0
-0112,70,,done,0,1,,double,1,1,0,0,0
-0113,71,71,done,0,0,,double,8,7,1,0,0
-0114,72,,done,0,1,,double,1,1,0,0,0
-0115,73,73,done,0,0,,double,12,11,1,0,0
-0116,74,,done,0,0,,double,10,10,0,0,0
-0117,75,75,done,0,1,,double,1,1,0,0,0
-0118,76,76,done,0,0,,double,14,11,3,0,0
-0119,77,77,done,0,1,,double,2,2,0,0,0
-0120,78,78,done,0,0,,double,11,8,4,1,0
-0121,79,79,done,0,1,,double,1,1,0,0,0
-0122,80,80,done,0,0,,double,6,5,1,0,0
-0123,81,81,done,0,1,,double,2,2,0,0,0
-0124,82,82,done,0,1,,double,2,2,0,0,0
-0125,83,83,done,0,0,,double,8,6,2,0,0
-0126,84,,done,0,1,both_wrong/noise: reconstructed,double,2,2,0,0,0
-0127,85,95,done,0,0,"Нумерация: на странице напечатано 95, в PAGES.tsv 85 (сверено по фото скана 0127). | both_wrong/noise: reconstructed",double,6,6,0,0,0
-0128,86,96,done,0,1,"Нумерация: на странице напечатано 96, в PAGES.tsv 86. | both_wrong/noise: reconstructed",double,1,1,0,0,0
-0129,87,97,done,0,2,"Нумерация: на странице напечатано 97, в PAGES.tsv 87. | both_wrong/noise: reconstructed",double,3,1,1,0,1
-0130,88,98,done,0,0,"Нумерация: на странице напечатано 98, в PAGES.tsv 88. | both_wrong/noise: reconstructed",double,3,2,1,0,0
-0131,89,99,done,0,0,"Нумерация: на странице напечатано 99, в PAGES.tsv 89. | both_wrong/noise: reconstructed",double,7,0,7,0,0
-0132,90,100,done,0,1,"Нумерация: на странице напечатано 100, в PAGES.tsv 90. | both_wrong/noise: reconstructed",double,0,0,0,0,0
-0133,91,101,done,0,0,"Нумерация: на странице напечатано 101, в PAGES.tsv 91. | both_wrong/noise: reconstructed",double,3,1,1,0,1
-0134,92,102,done,0,0,"Нумерация: на странице напечатано 102, в PAGES.tsv 92. | both_wrong/noise: reconstructed",double,5,3,2,0,0
-0135,93,93,done,0,1,both_wrong/noise: reconstructed,double,0,0,0,0,0
-0136,94,,done,0,0,both_wrong/noise: reconstructed,double,5,4,1,0,0
-0137,95,95,done,0,1,both_wrong/noise: reconstructed,double,2,2,0,0,0
-0138,96,,done,1,0,,,,,,,
-0139,97,97,done,0,0,,,,,,,
-0140,98,,done,0,1,,,,,,,
-0141,99,99,done,0,0,,,,,,,
-0142,100,,done,0,1,,,,,,,
-0143,101,101,done,0,0,,,,,,,
-0144,102,,done,0,0,,,,,,,
-0145,103,103,done,0,1,,,,,,,
-0146,104,,done,0,0,,,,,,,
-0147,105,105,done,0,1,,,,,,,
-0148,106,,done,0,0,,,,,,,
-0149,107,107,done,0,1,,,,,,,
-0150,108,,done,0,0,,,,,,,
-0151,109,109,done,0,0,,,,,,,
-0152,110,110,done,0,0,both_wrong/noise: reconstructed,double,10,7,2,0,1
-0153,111,111,done,0,0,both_wrong/noise: reconstructed,double,5,4,0,0,1
-0154,112,112,done,0,1,,,,,,,
-0155,113,113,done,0,1,both_wrong/noise: reconstructed,double,7,6,1,0,0
-0156,114,114,done,0,1,,,,,,,
-0157,115,115,done,0,0,both_wrong/noise: reconstructed,double,4,3,1,0,0
-0158,116,116,done,0,0,both_wrong/noise: reconstructed,double,6,6,0,0,0
-0159,117,117,done,0,0,,,,,,,
-0160,118,118,done,0,0,both_wrong/noise: reconstructed,double,3,2,1,0,0
-0161,119,119,done,0,0,,,,,,,
-0162,120,120,done,0,0,both_wrong/noise: reconstructed,double,23,4,2,0,17
-0163,121,121,done,0,0,,,,,,,
-0164,122,122,done,0,0,both_wrong/noise: reconstructed,double,12,10,2,0,0
-0165,123,123,done,0,0,,,,,,,
-0166,124,,done,0,0,,double,11,10,2,1,0
-0167,125,125,done,0,1,,double,2,1,0,0,1
-0168,126,,done,0,0,,double,12,10,0,0,2
-0169,127,127,done,0,0,,double,6,5,0,0,1
-0170,128,,done,0,1,,double,2,1,0,0,1
-0171,129,129,done,0,0,,double,9,7,1,0,1
-0172,130,,done,0,1,,double,3,2,0,0,1
-0173,131,131,done,0,0,,double,11,11,2,2,0
-0174,132,,done,0,1,,double,2,1,0,0,1
-0175,133,133,done,0,0,,double,5,5,0,0,0
-0176,134,,done,1,1,,double,2,1,0,0,1
-0177,135,135,done,0,0,,double,7,6,1,0,0
-0178,136,,done,0,1,,double,2,1,1,0,0
-0179,137,137,done,0,0,,double,28,8,21,1,0
-0180,138,,done,0,1,,double,1,1,0,0,0
-0181,139,139,done,0,0,,double,12,3,9,0,0
-0182,140,,done,0,1,,double,2,2,0,0,0
-0183,141,141,done,0,0,,double,28,11,19,2,0
-0184,142,,done,0,0,,double,20,9,12,1,0
-0185,143,143,done,0,0,,double,24,10,14,0,0
-0186,144,,done,0,1,,double,1,1,0,0,0
-0187,145,145,done,0,0,,double,28,9,19,0,0
-0188,146,,done,0,1,,double,2,2,0,0,0
-0189,147,147,done,0,0,,double,22,12,10,0,0
-0190,148,,done,0,0,,double,19,6,0,0,13
-0191,149,149,done,0,1,,double,15,7,2,0,6
-0192,150,,done,0,0,,double,15,3,1,0,11
-0193,151,151,done,0,1,,double,4,2,0,0,2
-0194,152,,done,0,0,,double,29,11,0,0,18
-0195,153,153,done,0,0,,double,28,8,1,1,20
-0196,154,,done,0,0,,double,23,9,1,0,13
-0197,155,155,done,0,1,,double,2,1,0,0,1
-0198,156,,done,0,0,,double,23,10,1,0,12
-0199,157,157,done,1,1,,double,4,2,0,0,2
-0200,158,,done,0,0,,double,25,6,0,0,19
-0201,159,159,done,0,1,,double,3,1,0,0,2
-0202,160,,done,0,0,,double,21,6,1,0,14
-0203,161,161,done,0,0,,double,21,3,1,0,17
-0204,162,,done,0,0,,double,23,8,2,1,14
-0205,163,163,done,0,0,,double,21,9,1,0,11
-0206,164,164,done,0,1,,double,2,1,1,0,0
-0207,165,165,done,0,0,,double,25,9,1,0,15
-0208,166,166,done,0,1,,double,1,1,0,0,0
-0209,167,167,done,0,0,,double,20,7,0,0,13
-0210,168,168,done,0,0,,double,16,4,0,0,12
-0211,169,169,done,0,0,,double,24,6,2,0,16
-0212,170,170,done,0,1,,double,1,1,0,0,0
-0213,171,171,done,0,0,,double,15,3,0,0,12
-0214,172,,done,0,0,,double,7,4,1,0,2
-0215,173,173,done,0,3,,double,9,4,0,1,4
-0216,174,,done,0,0,,double,9,4,0,0,5
-0217,175,175,done,0,2,,double,1,0,0,0,1
-0218,176,,done,0,0,,double,8,4,1,0,3
-0219,177,177,done,0,0,,double,11,6,0,0,5
-0220,178,,done,0,0,,double,8,6,1,0,1
-0221,179,179,done,0,0,,double,10,9,0,0,1
-0222,180,,done,0,2,,double,1,0,0,0,1
-0223,181,181,done,0,0,,double,10,5,1,0,4
-0224,182,,done,0,0,,double,8,2,0,0,6
-0225,183,183,done,0,0,,double,10,5,0,0,5
-0226,184,,done,0,0,,double,10,8,3,1,0
-0227,185,185,done,0,0,,double,8,7,1,0,0
-0228,186,,done,0,1,,double,1,1,0,0,0
-0229,187,187,done,0,0,,double,9,9,0,0,0
-0230,188,,done,0,1,,double,1,1,0,0,0
-0231,189,189,done,0,0,,double,14,11,3,0,0
-0232,190,,done,0,0,,double,9,9,0,0,0
-0233,191,191,done,0,0,,double,12,7,5,0,0
-0234,192,,done,0,0,,double,10,5,5,0,0
-0235,193,193,done,0,0,,double,12,9,4,1,0
-0236,194,,done,0,1,,double,2,2,0,0,0
-0237,195,195,done,0,0,,double,9,9,0,0,0
-0238,196,,done,0,0,,double,2,1,1,0,0
-0239,197,197,done,0,1,,double,0,0,0,0,0
-0240,198,,done,0,0,,double,0,0,0,0,0
-0241,199,199,done,0,1,,double,0,0,0,0,0
-0242,200,,done,0,0,,double,2,1,1,0,0
-0243,201,201,done,0,1,,double,2,0,2,0,0
-0244,202,,done,0,1,,double,0,0,0,0,0
-0245,203,203,done,0,0,,double,2,0,2,0,0
-0246,204,,done,0,1,,double,0,0,0,0,0
-0247,205,205,done,0,0,,double,2,1,1,0,0
-0248,206,,done,0,0,,double,2,1,2,1,0
-0249,207,207,done,0,1,,double,0,0,0,0,0
-0250,208,,done,0,0,,double,1,1,0,0,0
-0251,209,209,done,0,1,,double,0,0,0,0,0
-0252,210,,done,0,0,,double,5,3,2,0,0
-0253,211,211,done,0,1,,double,0,0,0,0,0
-0254,212,,done,0,0,,double,1,1,0,0,0
-0255,213,213,done,0,0,,double,3,1,2,0,0
-0256,214,,done,0,1,,double,0,0,0,0,0
-0257,215,215,done,0,0,,double,1,1,0,0,0
-0258,216,,done,0,0,,double,1,0,1,0,0
-0259,217,217,done,0,1,,double,1,1,0,0,0
-0260,218,,done,0,0,,double,0,0,0,0,0
-0261,219,219,done,0,1,,double,0,0,0,0,0
-0262,220,,done,0,0,,double,7,5,2,0,0
-0263,221,221,done,0,1,,double,1,0,1,0,0
-0264,222,,done,0,0,,double,5,5,0,0,0
-0265,223,223,done,0,1,,double,1,0,1,0,0
-0266,224,,done,0,0,,double,4,2,2,0,0
-0267,225,225,done,0,1,,double,1,0,1,0,0
-0268,226,,done,0,0,,double,7,2,5,0,0
-0269,227,227,done,0,1,,double,1,0,1,0,0
-0270,228,,done,1,0,,double,6,4,3,1,0
-0271,229,229,done,0,0,,double,3,2,1,0,0
-0272,230,,done,0,1,,double,1,1,0,0,0
-0273,231,231,done,0,0,,double,4,4,1,1,0
-0274,232,,done,0,0,,double,3,0,3,0,0
-0275,233,233,done,0,0,,double,3,2,1,0,0
-0276,234,,done,0,1,,double,1,0,1,0,0
-0277,235,235,done,0,0,,double,6,4,2,0,0
-0278,236,,done,0,0,,double,2,0,2,0,0
-0279,237,237,done,0,0,,double,7,3,4,0,0
-0280,238,,done,0,0,,double,5,0,5,0,0
-0281,239,239,done,0,0,,double,2,0,1,0,1
-0282,240,,done,0,0,,double,5,2,3,0,0
-0283,241,241,done,0,1,,double,1,1,0,0,0
-0284,242,,done,0,0,,double,3,1,1,0,1
-0285,243,243,done,0,0,,double,2,1,1,0,0
-0286,244,244,done,0,1,,double,0,0,0,0,0
-0287,245,245,done,0,0,,double,0,0,0,0,0
-0288,246,246,done,0,0,,double,0,0,0,0,0
-0289,247,247,done,0,1,,double,0,0,0,0,0
-0290,248,248,done,0,0,,double,3,3,0,0,0
-0291,249,249,done,0,0,,double,4,2,4,2,0
-0292,250,250,done,0,1,,double,0,0,0,0,0
-0293,251,251,done,0,0,,double,1,0,1,0,0
-0294,252,252,done,0,0,,double,0,0,0,0,0
-0295,253,253,done,0,1,,double,0,0,0,0,0
-0296,254,254,done,0,0,,double,1,0,1,0,0
-0297,255,255,done,0,1,,double,1,1,0,0,0
-0298,256,256,done,0,0,,double,9,2,3,0,4
-0299,257,257,done,0,1,,double,0,0,0,0,0
-0300,258,258,done,0,0,,double,10,1,0,0,9
-0301,259,259,done,0,1,,double,0,0,0,0,0
-0302,260,260,done,0,1,,double,0,0,0,0,0
-0303,261,261,done,0,1,,double,10,0,1,0,9
-0304,262,262,done,0,0,,double,14,0,2,0,12
-0305,263,263,done,0,0,,double,17,1,0,0,16
-0306,264,264,done,0,0,,double,11,0,2,0,9
-0307,265,265,done,0,1,,double,1,0,1,0,0
-0308,266,266,done,0,0,,double,8,0,1,0,7
-0309,267,267,done,0,1,,double,0,0,0,0,0
-0310,268,,done,0,0,,double,1,1,0,0,0
-0311,269,269,done,0,1,,double,2,2,0,0,0
-0312,270,,done,0,0,,double,3,3,0,0,0
-0313,271,271,done,0,1,,double,2,2,0,0,0
-0314,272,,done,0,0,,double,4,4,0,0,0
-0315,273,273,done,0,0,,double,4,3,1,0,0
-0316,274,,done,0,0,,double,7,6,1,0,0
-0317,275,275,done,0,1,,double,2,2,0,0,0
-0318,276,,done,0,0,,double,8,7,2,1,0
-0319,277,277,done,0,0,,double,8,8,0,0,0
-0320,278,,done,0,0,,double,4,2,2,0,0
-0321,279,279,done,0,1,,double,3,3,0,0,0
-0322,280,,done,0,0,,double,19,0,18,0,1
-0323,281,281,done,0,1,,double,2,1,0,0,1
-0324,282,,done,0,0,,double,16,0,16,0,0
-0325,283,283,done,0,1,,double,2,1,0,0,1
-0326,284,,done,0,0,,double,14,1,13,0,0
-0327,285,285,done,0,0,,double,20,3,18,1,0
-0328,286,,done,0,0,,double,20,2,18,0,0
-0329,287,287,done,0,1,,double,2,1,0,0,1
-0330,288,,done,0,0,,double,17,3,14,0,0
-0331,289,289,done,0,0,,double,23,3,19,0,1
-0332,290,,done,0,0,,double,18,2,16,0,0
-0333,291,291,done,0,0,,double,19,2,16,0,1
-0334,292,,done,0,1,,double,0,0,0,0,0
-0335,293,293,done,0,0,,double,2,1,1,0,0
-0336,294,,done,0,1,,double,0,0,0,0,0
-0337,295,295,done,0,1,,double,1,1,0,0,0
-0338,296,,done,0,0,,double,2,2,0,0,0
-0339,297,297,done,0,1,,double,1,1,0,0,0
-0340,298,,done,0,0,,double,4,1,3,0,0
-0341,299,299,done,0,0,,double,2,1,1,0,0
-0342,300,,done,0,1,,double,0,0,0,0,0
-0343,301,301,done,0,0,,double,2,1,1,0,0
-0344,302,,done,0,0,,double,3,1,2,0,0
-0345,303,303,done,0,1,,double,0,0,0,0,0
-0346,304,,done,0,0,,double,16,1,3,0,12
-0347,305,305,done,0,1,,double,0,0,0,0,0
-0348,306,,done,0,0,,double,17,2,0,0,15
-0349,307,307,done,0,1,,double,0,0,0,0,0
-0350,308,,done,0,0,,double,8,2,0,0,6
-0351,309,309,done,0,0,,double,21,1,1,0,19
-0352,310,,done,0,1,,double,0,0,0,0,0
-0353,311,311,done,0,0,,double,16,3,2,0,11
-0354,312,,done,0,0,,double,13,2,1,0,10
-0355,313,313,done,0,0,,double,18,2,3,0,13
-0356,314,,done,0,0,,double,14,1,2,0,11
-0357,315,315,done,0,0,,double,22,2,2,0,18
-0358,316,,done,0,0,,double,4,3,1,1,1
-0359,317,317,done,0,1,,double,1,0,0,0,1
-0360,318,,done,0,1,,double,7,2,5,1,1
-0361,319,319,done,0,0,,double,7,4,2,0,1
-0362,320,,done,0,0,,double,5,2,2,0,1
-0363,321,321,done,0,1,,double,1,0,0,0,1
-0364,322,,done,0,0,,double,6,4,1,0,1
-0365,323,323,done,0,0,,double,3,2,0,0,1
-0366,324,,done,0,1,,double,1,0,0,0,1
-0367,325,325,done,0,0,,double,9,3,5,1,2
-0368,326,,done,0,1,,double,1,0,0,0,1
-0369,327,327,done,0,0,,double,6,3,2,0,1
-0370,328,,done,0,1,,double,1,0,0,0,1
-0371,329,329,done,0,0,,double,6,5,3,2,0
-0372,330,,done,0,1,,double,1,0,0,0,1
-0373,331,331,done,0,0,,double,4,3,1,0,0
-0374,332,,done,0,0,,double,4,1,3,0,0
-0375,333,333,done,0,1,,double,1,0,0,0,1
-0376,334,,done,0,0,,double,5,4,1,0,0
-0377,335,335,done,0,1,,double,1,0,0,0,1
-0378,336,,done,0,0,,double,4,0,4,0,0
-0379,337,337,done,0,0,,double,2,2,0,0,0
-0380,338,,done,0,0,,double,0,0,0,0,0
-0381,339,339,done,0,1,,double,1,0,0,0,1
-0382,340,,done,0,3,,double,2,1,1,0,0
-0383,341,341,done,0,1,,double,1,1,0,0,0
-0384,342,,done,0,0,,double,0,0,0,0,0
-0385,343,343,done,0,0,,double,2,1,1,0,0
-0386,344,,done,0,1,,double,0,0,0,0,0
-0387,345,345,done,0,0,,double,1,1,0,0,0
-0388,346,,done,0,0,,double,3,3,2,2,0
-0389,347,347,done,0,1,,double,0,0,0,0,0
-0390,348,,done,0,0,,double,3,2,1,0,0
-0391,349,349,done,0,0,,double,1,1,0,0,0
-0392,350,,done,0,1,,double,0,0,0,0,0
-0393,351,351,done,0,0,,double,3,1,2,0,0
-0394,352,,done,0,0,,double,4,0,4,0,0
-0395,353,353,done,0,1,,double,1,0,1,0,0
-0396,354,,done,0,0,,double,2,0,2,0,0
-0397,355,359,done,0,0,"Нумерация: на странице напечатано 359, в PAGES.tsv 355",double,5,3,3,1,0
-0398,356,,done,0,0,,double,7,0,7,0,0
-0399,357,357,done,0,1,,double,3,0,3,0,0
-0400,358,,done,0,0,,double,3,1,2,0,0
-0401,359,359,done,0,1,,double,1,0,1,0,0
-0402,360,,done,0,0,,double,4,3,1,0,0
-0403,361,361,done,0,0,,double,3,2,1,0,0
-0404,362,,done,0,1,,double,1,0,1,0,0
-0405,363,363,done,0,0,,double,4,0,4,0,0
-0406,364,,done,0,0,,double,0,0,0,0,0
-0407,365,365,done,0,1,,double,1,1,0,0,0
-0408,366,,done,0,0,,double,3,1,2,0,0
-0409,367,367,done,0,2,,double,2,1,1,0,0
-0410,368,,done,0,0,,double,0,0,0,0,0
-0411,369,369,done,0,0,,double,8,5,5,2,0
-0412,370,,done,0,0,,double,1,0,1,0,0
-0413,371,371,done,0,0,,double,0,0,0,0,0
-0414,372,,done,0,3,,double,9,2,8,1,0
-0415,373,373,done,0,0,,double,3,1,2,0,0
-0416,374,,done,0,1,,double,1,1,0,0,0
-0417,375,375,done,0,0,,double,7,1,6,0,0
-0418,376,,done,0,1,,double,1,1,0,0,0
-0419,377,377,done,0,0,,double,10,7,7,4,0
-0420,378,,done,0,1,,double,1,1,1,1,0
-0421,379,379,done,0,0,,double,4,3,2,1,0
-0422,380,,done,0,1,,double,0,0,0,0,0
-0423,381,381,done,0,0,,double,5,3,3,1,0
-0424,382,,done,0,1,,double,0,0,0,0,0
-0425,383,383,done,0,0,,double,4,2,2,0,0
-0426,384,,done,0,1,,double,0,0,0,0,0
-0427,385,385,done,0,0,,double,3,1,2,0,0
-0428,386,,done,0,1,,double,0,0,0,0,0
-0429,387,387,done,0,0,,double,6,2,4,0,0
-0430,388,,done,0,1,,double,0,0,0,0,0
-0431,389,389,done,0,0,,double,1,0,0,0,1
-0432,390,,done,0,1,,double,0,0,0,0,0
-0433,391,391,done,0,0,,double,5,0,0,0,5
-0434,392,,done,0,1,,double,0,0,0,0,0
-0435,393,393,done,0,0,,double,7,2,0,0,5
-0436,394,394,done,0,0,,double,4,0,0,0,4
-0437,395,395,done,0,1,,double,0,0,0,0,0
-0438,396,396,done,0,0,,double,7,1,1,0,5
-0439,397,397,done,0,0,,double,2,1,0,0,1
-0440,398,,done,0,1,,double,0,0,0,0,0
-0441,399,399,done,0,0,,double,5,0,0,0,5
-0442,400,,done,0,1,,double,0,0,0,0,0
-0443,401,401,done,0,0,,double,7,5,2,0,0
-0444,402,,done,0,1,,double,0,0,0,0,0
-0445,403,403,done,0,1,,double,2,1,1,0,0
-0446,404,,done,0,0,,double,6,3,2,0,1
-0447,405,405,done,0,0,,double,3,1,2,0,0
-0448,406,,done,0,0,,double,2,2,0,0,0
-0449,407,407,done,0,0,,double,3,2,1,0,0
-0450,408,,done,0,1,,double,0,0,0,0,0
-0451,409,409,done,0,0,,double,2,2,0,0,0
-0452,410,,done,0,0,,double,9,7,2,0,0
-0453,411,411,done,0,0,,double,3,3,0,0,0
-0454,412,,done,0,0,,double,14,12,3,1,0
-0455,413,413,done,0,0,,double,21,21,1,1,0
-0456,414,,done,0,0,,double,17,2,15,0,0
-0457,415,415,done,0,0,,double,1,0,1,0,0
-0458,416,,done,0,1,,double,2,2,0,0,0
-0459,417,417,done,0,0,,double,7,7,0,0,0
-0460,418,,done,0,0,,double,7,7,0,0,0
-0461,419,419,done,0,0,,double,10,9,1,0,0
-0462,420,,done,0,1,,double,4,4,0,0,0
-0463,421,421,done,0,0,,double,1,0,1,0,0
-0464,422,,done,0,1,,double,0,0,0,0,0
-0465,423,423,done,0,0,,double,2,1,0,0,1
-0466,424,,done,0,0,,double,4,2,2,0,0
-0467,425,425,done,0,0,,double,3,1,2,0,0
-0468,426,,done,0,0,,double,4,2,3,1,0
-0469,427,427,done,0,0,,double,1,1,0,0,0
-0470,428,,done,0,0,,double,5,3,1,0,1
-0471,429,429,done,0,3,,double,2,1,1,0,0
-0472,430,,done,0,1,,double,0,0,0,0,0
-0473,431,431,done,0,0,,double,6,6,1,1,0
-0474,432,,done,0,1,,double,1,1,1,1,0
-0475,433,433,done,0,0,,double,2,1,2,1,0
-0476,434,,done,0,1,,double,1,1,0,0,0
-0477,435,435,done,0,0,,double,3,2,2,1,0
-0478,436,,done,0,0,,double,2,1,1,0,0
-0479,437,437,done,0,1,,double,2,0,2,0,0
-0480,438,,done,0,0,,double,1,1,1,1,0
-0481,439,439,done,0,1,,double,1,1,0,0,0
-0482,440,,done,0,0,,double,4,1,3,0,0
-0483,441,441,done,0,0,,double,0,0,0,0,0
-0484,442,,done,0,1,,double,1,1,0,0,0
-0485,443,443,done,0,0,,double,1,1,0,0,0
-0486,444,,done,0,0,,double,5,1,4,0,0
-0487,445,445,done,0,0,,double,1,0,1,0,0
-0488,446,,done,0,0,,double,5,0,5,0,0
-0489,447,447,done,0,1,,double,2,1,1,0,0
-0490,448,,done,0,0,,double,3,1,2,0,0
-0491,449,449,done,0,0,,double,5,4,2,1,0
-0492,450,,done,0,1,,double,4,2,2,0,0
-0493,451,451,done,0,3,,double,2,1,1,0,0
-0494,452,,done,0,0,,double,4,1,3,0,0
-0495,453,453,done,0,1,,double,0,0,0,0,0
-0496,454,,done,0,0,,double,2,2,0,0,0
-0497,455,455,done,0,1,,double,0,0,0,0,0
-0498,456,,done,0,0,,double,3,2,3,2,0
-0499,457,457,done,0,1,,double,1,1,0,0,0
-0500,458,,done,0,0,,double,3,2,1,0,0
-0501,459,459,done,0,1,,double,1,1,0,0,0
-0502,460,,done,0,1,Нумерация: печатный номер на странице отсутствует (ничего не напечатано); в PAGES.tsv — 460.,double+triple-reconciled,1,1,0,0,0
-0503,461,461,done,0,1,,double+triple-reconciled,12,4,1,0,7
-0504,462,,done,0,0,,double+triple-reconciled,8,6,1,1,2
-0505,463,463,done,0,0,,double+triple-reconciled,7,1,3,0,3
-0506,464,,done,0,0,,double+triple-reconciled,12,1,3,0,8
-0507,465,465,done,0,1,,double+triple-reconciled,3,0,3,0,0
-0508,466,,done,0,0,,double+triple-reconciled,15,5,4,1,7
-0509,467,467,done,0,1,,double+triple-reconciled,0,0,0,0,0
-0510,468,,done,0,2,,double+triple-reconciled,0,0,0,0,0
-0511,469,469,done,0,1,,double+triple-reconciled,4,0,3,0,1
-0512,470,,done,0,1,,double+triple-reconciled,4,1,1,0,2
-0513,471,471,done,0,0,,double+triple-reconciled,9,1,4,0,4
-0514,472,,done,0,1,,double+triple-reconciled,3,2,3,2,0
-0515,473,473,done,0,1,,double+triple-reconciled,2,1,1,0,0
-0516,474,,done,0,1,,double+triple-reconciled,1,0,1,0,0
-0517,475,475,done,0,1,,double+triple-reconciled,2,0,2,0,0
-0518,476,,done,0,1,,double+triple-reconciled,2,0,2,0,0
-0519,477,477,done,0,1,,double+triple-reconciled,5,3,2,0,0
-0520,478,,done,0,1,,double+triple-reconciled,2,0,2,0,0
-0521,479,479,done,0,1,,double+triple-reconciled,1,0,1,0,0
-0522,480,,done,0,1,,double+triple-reconciled,3,1,2,0,0
-0523,481,481,done,0,1,,double+triple-reconciled,4,3,2,1,0
-0524,482,,done,0,1,,double+triple-reconciled,1,1,0,0,0
-0525,483,483,done,0,0,,double+triple-reconciled,3,1,2,0,0
-0526,484,,done,0,1,,double+triple-reconciled,39,31,1,1,8
-0527,485,485,done,0,0,,double+triple-reconciled,75,61,3,1,12
-0528,486,,done,0,0,,double+triple-reconciled,82,71,18,11,4
-0529,487,487,done,0,0,,double+triple-reconciled,79,68,16,6,1
-0530,488,,done,0,0,,double+triple-reconciled,91,83,2,1,7
-0531,489,489,done,0,0,,double+triple-reconciled,84,69,5,1,11
-0532,490,,done,0,1,,double+triple-reconciled,42,31,13,3,1
-0533,491,491,done,0,1,,double+triple-reconciled,46,40,7,4,3
-0534,492,,done,0,1,,double+triple-reconciled,44,41,5,2,0
-0535,493,493,done,0,0,,double+triple-reconciled,72,59,12,4,5
-0536,494,,done,0,1,,double+triple-reconciled,25,22,5,3,1
-0537,495,495,done,1,1,,double+triple-reconciled,39,29,10,4,4
-0538,496,,done,0,2,,double,4,4,0,0,0
-0539,497,497,done,0,1,,double,4,4,1,1,0
-0540,498,,done,0,1,,double,6,6,0,0,0
-0541,499,499,done,0,1,,double,10,8,2,0,0
-0542,500,,done,0,1,,double,12,12,0,0,0
-0543,501,501,done,0,1,,double,1,1,0,0,0
-0544,502,,done,0,1,,double,2,2,0,0,0
-0545,503,503,done,0,1,,double,0,0,0,0,0
-0546,504,,done,0,1,,double,12,11,3,2,0
-0547,505,505,done,0,1,,double,6,5,1,0,0
-0548,506,,done,0,1,,double,7,6,1,0,0
-0549,507,507,done,0,1,,double,10,10,0,0,0
-0550,508,,done,0,1,,triple,3,2,3,2,0
-0551,509,509,done,0,1,,triple,0,0,0,0,0
-0552,510,,done,0,1,,triple,0,0,0,0,0
-0553,511,511,done,0,0,,triple,3,0,2,0,1
-0554,512,,done,0,1,,triple,2,1,2,0,0
-0555,513,513,done,0,1,,triple,3,2,0,1,1
-0556,514,,done,0,1,,triple,4,2,1,0,1
-0557,515,515,done,0,0,,triple,5,0,1,0,3
-0558,516,,done,0,1,,triple,0,0,0,0,0
-0559,517,517,done,0,1,,triple,2,0,0,0,2
-0560,518,,done,0,1,,triple,2,0,0,0,2
-0561,519,519,done,0,1,,triple,1,0,0,0,1
-0562,520,520,done,0,1,,triple,2,0,0,0,1
-0563,521,521,done,0,1,,triple,3,2,0,0,0
-0564,522,522,done,0,1,,triple,0,0,0,0,0
-0565,523,523,done,0,1,,triple,0,0,0,0,0
-0566,524,524,done,0,1,,triple,3,1,0,0,0
-0567,525,525,done,0,1,,triple,0,0,0,0,0
-0568,526,526,done,0,2,,triple,0,0,0,0,0
-0569,527,527,done,0,1,,triple,3,2,1,0,0
-0570,528,528,done,0,1,,triple,0,0,0,0,0
-0571,529,529,done,0,2,,triple,3,1,2,0,0
-0572,530,530,done,0,1,,triple,0,0,0,0,0
-0573,531,531,done,0,0,,triple,8,2,1,0,0
-0574,532,532,done,0,1,,triple,5,5,4,0,0
-0575,533,533,done,0,1,,triple,1,1,1,1,0
-0576,534,534,done,0,1,,triple,0,0,0,0,0
-0577,535,535,done,0,1,,triple,1,1,1,1,0
-0578,536,536,done,0,0,,triple,14,12,11,0,0
-0579,537,537,done,0,1,,triple,0,0,0,0,0
-0580,538,538,done,0,1,,triple,3,3,2,0,0
-0581,539,539,done,0,1,,triple,0,0,0,0,0
-0582,540,540,done,0,1,,triple,0,0,0,0,0
-0583,541,541,done,0,1,,triple,2,0,1,0,0
-0584,542,542,done,0,1,,triple,1,1,1,0,0
-0585,543,543,done,0,1,,triple,3,3,3,1,0
-0586,544,,todo,0,0,,,,,,,
-0587,Titelblatt_r,,todo,0,0,,,,,,,
-0588,Titelblatt_v,,todo,0,0,,,,,,,
-0589,Widmung_r,,todo,0,0,,,,,,,
-0590,Widmung_v,,todo,0,0,,,,,,,
-0591,545,,todo,0,0,,,,,,,
-0592,546,,todo,0,0,,,,,,,
-0593,547,,todo,0,0,,,,,,,
-0594,548,,todo,0,0,,,,,,,
-0595,549,,todo,0,0,,,,,,,
-0596,550,,todo,0,0,,,,,,,
-0597,551,,todo,0,0,,,,,,,
-0598,552,,todo,0,0,,,,,,,
-0599,553,,todo,0,0,,,,,,,
-0600,554,,todo,0,0,,,,,,,
-0601,555,,todo,0,0,,,,,,,
-0602,556,,todo,0,0,,,,,,,
-0603,557,,todo,0,0,,,,,,,
-0604,558,,todo,0,0,,,,,,,
-0605,559,,todo,0,0,,,,,,,
-0606,560,,todo,0,0,,,,,,,
-0607,561,,todo,0,0,,,,,,,
-0608,562,,todo,0,0,,,,,,,
-0609,563,,todo,0,0,,,,,,,
-0610,564,,todo,0,0,,,,,,,
-0611,565,,todo,0,0,,,,,,,
-0612,566,,todo,0,0,,,,,,,
-0613,567,,todo,0,0,,,,,,,
-0614,568,,todo,0,0,,,,,,,
-0615,569,,todo,0,0,,,,,,,
-0616,570,,todo,0,0,,,,,,,
-0617,571,,todo,0,0,,,,,,,
-0618,572,,todo,0,0,,,,,,,
-0619,573,,todo,0,0,,,,,,,
-0620,574,,todo,0,0,,,,,,,
-0621,575,,todo,0,0,,,,,,,
-0622,576,,todo,0,0,,,,,,,
-0623,577,,todo,0,0,,,,,,,
-0624,578,,todo,0,0,,,,,,,
-0625,579,,todo,0,0,,,,,,,
-0626,580,,todo,0,0,,,,,,,
-0627,581,,todo,0,0,,,,,,,
-0628,582,,todo,0,0,,,,,,,
-0629,583,,todo,0,0,,,,,,,
-0630,584,,todo,0,0,,,,,,,
-0631,585,,todo,0,0,,,,,,,
-0632,586a,,todo,0,0,,,,,,,
-0633,587a,,todo,0,0,,,,,,,
-0634,586b,,todo,0,0,,,,,,,
-0635,587b,,todo,0,0,,,,,,,
-0636,588,,todo,0,0,,,,,,,
-0637,Hinterspiegel,,todo,0,0,,,,,,,
-0638,Einband,,todo,0,0,,,,,,,
-0639,Ruecken,,todo,0,0,,,,,,,
+scan,label,printed_number,state,unclear,engravings,note,method,discrepancies,errors_r1,errors_r2,both_wrong,noise,hidden_errors,hidden_errors_latin,hidden_errors_margin,hidden_errors_text
+0001,Einband,,done,0,0,both_wrong/noise: reconstructed,double,0,0,0,0,0,,,,
+0002,Vorderspiegel,,done,0,0,both_wrong/noise: reconstructed,double,0,0,0,0,0,,,,
+0003,Vorsatz_r,,done,0,0,both_wrong/noise: reconstructed,double,0,0,0,0,0,,,,
+0004,Vorsatz_v,,done,0,0,both_wrong/noise: reconstructed,double,0,0,0,0,0,,,,
+0005,Titelblatt_1r,,done,0,0,both_wrong/noise: reconstructed,double,6,4,2,0,0,,,,
+0006,Titelblatt_1v,,done,0,0,both_wrong/noise: reconstructed,double,0,0,0,0,0,,,,
+0007,Titelblatt_2r,,done,0,1,both_wrong/noise: reconstructed,double,3,2,2,1,0,,,,
+0008,Titelblatt_2v,,done,0,0,both_wrong/noise: reconstructed,double,0,0,0,0,0,,,,
+0009,Widmung_1r,,done,0,2,both_wrong/noise: reconstructed,double,0,0,0,0,0,,,,
+0010,Widmung_1v,,done,0,0,both_wrong/noise: reconstructed,double,1,0,1,0,0,,,,
+0011,Widmung_2r,,done,0,0,both_wrong/noise: reconstructed,double,2,0,2,0,0,,,,
+0012,I,,done,0,1,both_wrong/noise: reconstructed,double,0,0,0,0,0,,,,
+0013,II,,done,1,0,both_wrong/noise: reconstructed,double,1,0,1,0,0,,,,
+0014,III,,done,0,0,both_wrong/noise: reconstructed,double,1,1,0,0,0,,,,
+0015,IV,,done,0,0,both_wrong/noise: reconstructed,double,0,0,0,0,0,,,,
+0016,V,,done,0,1,both_wrong/noise: reconstructed,double,0,0,0,0,0,,,,
+0017,VI,,done,0,2,both_wrong/noise: reconstructed,double,1,1,0,0,0,,,,
+0018,VII,,done,0,0,both_wrong/noise: reconstructed,double,1,1,0,0,0,,,,
+0019,VIII,,done,0,0,both_wrong/noise: reconstructed,double,2,1,1,0,0,,,,
+0020,IX,,done,0,0,both_wrong/noise: reconstructed,double,3,3,0,0,0,,,,
+0021,X,,done,0,0,both_wrong/noise: reconstructed,double,1,1,0,0,0,,,,
+0022,XI,,done,0,0,both_wrong/noise: reconstructed,double,0,0,0,0,0,,,,
+0023,XII,,done,0,3,both_wrong/noise: reconstructed,double,0,0,0,0,0,,,,
+0024,XIII,,done,0,0,both_wrong/noise: reconstructed,double,2,1,1,0,0,,,,
+0025,XIV,,done,0,1,both_wrong/noise: reconstructed,double,1,1,1,1,0,,,,
+0026,XV,,done,0,2,both_wrong/noise: reconstructed,double,1,0,1,0,0,,,,
+0027,XVI,,done,0,1,both_wrong/noise: reconstructed,double,2,0,2,0,0,,,,
+0028,XVII,,done,0,2,both_wrong/noise: reconstructed,double,1,1,0,0,0,,,,
+0029,XVIII,,done,0,1,both_wrong/noise: reconstructed,double,2,2,1,1,0,,,,
+0030,XIX,,done,0,2,both_wrong/noise: reconstructed,double,2,0,2,0,0,,,,
+0031,XX,,done,0,2,both_wrong/noise: reconstructed,double,1,1,0,0,0,,,,
+0032,XXI,,done,0,3,both_wrong/noise: reconstructed,double,4,1,3,0,0,,,,
+0033,XXII,,done,0,2,both_wrong/noise: reconstructed,double,2,2,1,1,0,,,,
+0034,XXIII,,done,0,1,both_wrong/noise: reconstructed,double,1,0,1,0,0,,,,
+0035,XXIV,,done,0,2,both_wrong/noise: reconstructed,double,0,0,0,0,0,,,,
+0036,XXV,,done,0,3,both_wrong/noise: reconstructed,double,0,0,0,0,0,,,,
+0037,XXVI,,done,0,2,both_wrong/noise: reconstructed,double,1,0,1,0,0,,,,
+0038,XXVII,,done,0,0,both_wrong/noise: reconstructed,double,6,6,1,1,0,,,,
+0039,XXVIII,,done,0,1,both_wrong/noise: reconstructed,double,0,0,0,0,0,,,,
+0040,XXIX,,done,0,0,both_wrong/noise: reconstructed,double,0,0,0,0,0,,,,
+0041,1a,,done,0,1,both_wrong/noise: reconstructed,double,0,0,0,0,0,,,,
+0042,1,,done,0,3,both_wrong/noise: reconstructed,double,7,6,1,0,0,,,,
+0043,2,,done,0,0,both_wrong/noise: reconstructed,double,7,6,1,0,0,,,,
+0044,3a,,done,0,1,both_wrong/noise: reconstructed,double,2,1,1,0,0,,,,
+0045,3,3,done,0,0,both_wrong/noise: reconstructed,double,10,8,2,0,0,,,,
+0046,4,4,done,0,0,both_wrong/noise: reconstructed,double,9,9,1,1,0,,,,
+0047,5,5,done,0,0,both_wrong/noise: reconstructed,double,9,6,3,0,0,,,,
+0048,6,6,done,0,0,both_wrong/noise: reconstructed,double,19,17,3,1,0,,,,
+0049,7,7,done,0,0,both_wrong/noise: reconstructed,double,21,19,2,0,0,,,,
+0050,8,8,done,0,0,both_wrong/noise: reconstructed,double,11,7,4,0,0,,,,
+0051,9,9,done,0,0,both_wrong/noise: reconstructed,double,15,15,0,0,0,,,,
+0052,10,10,done,0,1,both_wrong/noise: reconstructed,double,1,1,0,0,0,,,,
+0053,11,11,done,0,0,both_wrong/noise: reconstructed,double,20,19,1,0,0,,,,
+0054,12,12,done,0,0,both_wrong/noise: reconstructed,double,13,9,4,0,0,,,,
+0055,13,13,done,0,0,both_wrong/noise: reconstructed,double,14,11,2,0,1,,,,
+0056,14,14,done,0,0,both_wrong/noise: reconstructed,double,14,12,2,0,0,,,,
+0057,15,15,done,0,0,,double,13,11,2,0,0,,,,
+0058,16,16,done,0,1,,double,2,2,0,0,0,,,,
+0059,17,17,done,0,0,,double,9,7,2,0,0,,,,
+0060,18,18,done,0,0,,double,10,9,1,0,0,,,,
+0061,19,19,done,0,0,,double,7,7,0,0,0,,,,
+0062,20,20,done,0,1,,double,1,1,0,0,0,,,,
+0063,21,21,done,0,1,,double,4,4,0,0,0,,,,
+0064,22,22,done,0,0,,double,5,4,1,0,0,,,,
+0065,23,32,done,0,1,"Нумерация: на странице напечатано 32, в PAGES.tsv 23",double,3,3,0,0,0,,,,
+0066,24,24,done,0,0,,double,8,8,0,0,0,,,,
+0067,25,25,done,0,0,,double,7,5,2,0,0,,,,
+0068,26,26,done,0,1,,double,1,1,0,0,0,,,,
+0069,27,27,done,0,0,,double,14,9,5,0,0,,,,
+0070,28,,done,0,1,,double,1,1,0,0,0,,,,
+0071,29,29,done,0,0,,double,5,4,1,0,0,,,,
+0072,30,,done,0,1,,double,1,1,0,0,0,,,,
+0073,31,31,done,0,0,,double,8,6,2,0,0,,,,
+0074,32,,done,0,0,,double,7,5,2,0,0,,,,
+0075,33,33,done,0,1,,double,2,2,0,0,0,,,,
+0076,34,,done,0,0,,double,11,8,0,0,3,,,,
+0077,35,35,done,0,0,,double,9,6,2,0,1,,,,
+0078,36,,done,0,1,,double,1,1,0,0,0,,,,
+0079,37,37,done,0,0,,double,8,7,1,0,0,,,,
+0080,38,,done,0,2,,double,3,3,0,0,0,,,,
+0081,39,39,done,0,0,,double,7,7,0,0,0,,,,
+0082,40,40,done,0,1,,double,3,3,0,0,0,,,,
+0083,41,41,done,0,1,,double,8,8,0,0,0,,,,
+0084,42,42,done,0,0,,double,9,9,0,0,0,,,,
+0085,43,43,done,0,1,,double,3,2,1,0,0,,,,
+0086,44,44,done,0,0,,double,10,8,2,0,0,,,,
+0087,45,45,done,0,1,,double,1,1,0,0,0,,,,
+0088,46,46,done,0,0,,double,7,5,2,0,0,,,,
+0089,47,47,done,0,1,,double,1,1,0,0,0,,,,
+0090,48,48,done,0,0,,double,15,13,2,0,0,,,,
+0091,49,49,done,0,1,,double,2,2,0,0,0,,,,
+0092,50,50,done,0,0,,double,7,7,0,0,0,,,,
+0093,51,51,done,0,1,,double,3,3,0,0,0,,,,
+0094,52,,done,0,0,,double,7,7,0,0,0,,,,
+0095,53,53,done,0,1,,double,2,2,0,0,0,,,,
+0096,54,,done,0,0,,double,7,7,0,0,0,,,,
+0097,55,55,done,0,1,,double,3,3,0,0,0,,,,
+0098,56,,done,0,0,,double,12,12,0,0,0,,,,
+0099,57,57,done,0,1,,double,1,1,0,0,0,,,,
+0100,58,,done,0,0,,double,8,8,0,0,0,,,,
+0101,59,59,done,0,1,,double,2,2,0,0,0,,,,
+0102,60,,done,0,0,,double,10,8,2,0,0,,,,
+0103,61,61,done,0,1,,double,3,3,0,0,0,,,,
+0104,62,,done,0,0,,double,9,9,0,0,0,,,,
+0105,63,63,done,0,1,,double,1,1,0,0,0,,,,
+0106,64,,done,0,0,,double,14,10,5,1,0,,,,
+0107,65,65,done,0,1,,double,2,2,0,0,0,,,,
+0108,66,,done,0,1,,double,3,3,0,0,0,,,,
+0109,67,67,done,0,0,,double,10,10,1,1,0,,,,
+0110,68,,done,0,1,,double,1,1,0,0,0,,,,
+0111,69,69,done,0,0,,double,12,10,3,1,0,,,,
+0112,70,,done,0,1,,double,1,1,0,0,0,,,,
+0113,71,71,done,0,0,,double,8,7,1,0,0,,,,
+0114,72,,done,0,1,,double,1,1,0,0,0,,,,
+0115,73,73,done,0,0,,double,12,11,1,0,0,,,,
+0116,74,,done,0,0,,double,10,10,0,0,0,,,,
+0117,75,75,done,0,1,,double,1,1,0,0,0,,,,
+0118,76,76,done,0,0,,double,14,11,3,0,0,,,,
+0119,77,77,done,0,1,,double,2,2,0,0,0,,,,
+0120,78,78,done,0,0,,double,11,8,4,1,0,,,,
+0121,79,79,done,0,1,,double,1,1,0,0,0,,,,
+0122,80,80,done,0,0,,double,6,5,1,0,0,,,,
+0123,81,81,done,0,1,,double,2,2,0,0,0,,,,
+0124,82,82,done,0,1,,double,2,2,0,0,0,,,,
+0125,83,83,done,0,0,,double,8,6,2,0,0,,,,
+0126,84,,done,0,1,both_wrong/noise: reconstructed,double,2,2,0,0,0,,,,
+0127,85,95,done,0,0,"Нумерация: на странице напечатано 95, в PAGES.tsv 85 (сверено по фото скана 0127). | both_wrong/noise: reconstructed",double,6,6,0,0,0,,,,
+0128,86,96,done,0,1,"Нумерация: на странице напечатано 96, в PAGES.tsv 86. | both_wrong/noise: reconstructed",double,1,1,0,0,0,,,,
+0129,87,97,done,0,2,"Нумерация: на странице напечатано 97, в PAGES.tsv 87. | both_wrong/noise: reconstructed",double,3,1,1,0,1,,,,
+0130,88,98,done,0,0,"Нумерация: на странице напечатано 98, в PAGES.tsv 88. | both_wrong/noise: reconstructed",double,3,2,1,0,0,,,,
+0131,89,99,done,0,0,"Нумерация: на странице напечатано 99, в PAGES.tsv 89. | both_wrong/noise: reconstructed",double,7,0,7,0,0,,,,
+0132,90,100,done,0,1,"Нумерация: на странице напечатано 100, в PAGES.tsv 90. | both_wrong/noise: reconstructed",double,0,0,0,0,0,,,,
+0133,91,101,done,0,0,"Нумерация: на странице напечатано 101, в PAGES.tsv 91. | both_wrong/noise: reconstructed",double,3,1,1,0,1,,,,
+0134,92,102,done,0,0,"Нумерация: на странице напечатано 102, в PAGES.tsv 92. | both_wrong/noise: reconstructed",double,5,3,2,0,0,,,,
+0135,93,93,done,0,1,both_wrong/noise: reconstructed,double,0,0,0,0,0,,,,
+0136,94,,done,0,0,both_wrong/noise: reconstructed,double,5,4,1,0,0,,,,
+0137,95,95,done,0,1,both_wrong/noise: reconstructed,double,2,2,0,0,0,,,,
+0138,96,,done,1,0,,,,,,,,,,,
+0139,97,97,done,0,0,,,,,,,,,,,
+0140,98,,done,0,1,,,,,,,,,,,
+0141,99,99,done,0,0,,,,,,,,,,,
+0142,100,,done,0,1,,,,,,,,,,,
+0143,101,101,done,0,0,,,,,,,,,,,
+0144,102,,done,0,0,,,,,,,,,,,
+0145,103,103,done,0,1,,,,,,,,,,,
+0146,104,,done,0,0,,,,,,,,,,,
+0147,105,105,done,0,1,,,,,,,,,,,
+0148,106,,done,0,0,,,,,,,,,,,
+0149,107,107,done,0,1,,,,,,,,,,,
+0150,108,,done,0,0,,,,,,,,,,,
+0151,109,109,done,0,0,,,,,,,,,,,
+0152,110,110,done,0,0,both_wrong/noise: reconstructed,double,10,7,2,0,1,,,,
+0153,111,111,done,0,0,both_wrong/noise: reconstructed,double,5,4,0,0,1,,,,
+0154,112,112,done,0,1,,,,,,,,,,,
+0155,113,113,done,0,1,both_wrong/noise: reconstructed,double,7,6,1,0,0,,,,
+0156,114,114,done,0,1,,,,,,,,,,,
+0157,115,115,done,0,0,both_wrong/noise: reconstructed,double,4,3,1,0,0,,,,
+0158,116,116,done,0,0,both_wrong/noise: reconstructed,double,6,6,0,0,0,,,,
+0159,117,117,done,0,0,,,,,,,,,,,
+0160,118,118,done,0,0,both_wrong/noise: reconstructed,double,3,2,1,0,0,,,,
+0161,119,119,done,0,0,,,,,,,,,,,
+0162,120,120,done,0,0,both_wrong/noise: reconstructed,double,23,4,2,0,17,,,,
+0163,121,121,done,0,0,,,,,,,,,,,
+0164,122,122,done,0,0,both_wrong/noise: reconstructed,double,12,10,2,0,0,,,,
+0165,123,123,done,0,0,,,,,,,,,,,
+0166,124,,done,0,0,,double,11,10,2,1,0,,,,
+0167,125,125,done,0,1,,double,2,1,0,0,1,,,,
+0168,126,,done,0,0,,double,12,10,0,0,2,,,,
+0169,127,127,done,0,0,,double,6,5,0,0,1,,,,
+0170,128,,done,0,1,,double,2,1,0,0,1,,,,
+0171,129,129,done,0,0,,double,9,7,1,0,1,,,,
+0172,130,,done,0,1,,double,3,2,0,0,1,,,,
+0173,131,131,done,0,0,,double,11,11,2,2,0,,,,
+0174,132,,done,0,1,,double,2,1,0,0,1,,,,
+0175,133,133,done,0,0,,double,5,5,0,0,0,,,,
+0176,134,,done,1,1,,double,2,1,0,0,1,,,,
+0177,135,135,done,0,0,,double,7,6,1,0,0,,,,
+0178,136,,done,0,1,,double,2,1,1,0,0,,,,
+0179,137,137,done,0,0,,double,28,8,21,1,0,,,,
+0180,138,,done,0,1,,double,1,1,0,0,0,,,,
+0181,139,139,done,0,0,,double,12,3,9,0,0,,,,
+0182,140,,done,0,1,,double,2,2,0,0,0,,,,
+0183,141,141,done,0,0,,double,28,11,19,2,0,,,,
+0184,142,,done,0,0,,double,20,9,12,1,0,,,,
+0185,143,143,done,0,0,,double,24,10,14,0,0,,,,
+0186,144,,done,0,1,,double,1,1,0,0,0,,,,
+0187,145,145,done,0,0,,double,28,9,19,0,0,,,,
+0188,146,,done,0,1,,double,2,2,0,0,0,,,,
+0189,147,147,done,0,0,,double,22,12,10,0,0,,,,
+0190,148,,done,0,0,,double,19,6,0,0,13,,,,
+0191,149,149,done,0,1,,double,15,7,2,0,6,,,,
+0192,150,,done,0,0,,double,15,3,1,0,11,,,,
+0193,151,151,done,0,1,,double,4,2,0,0,2,,,,
+0194,152,,done,0,0,,double,29,11,0,0,18,,,,
+0195,153,153,done,0,0,,double,28,8,1,1,20,,,,
+0196,154,,done,0,0,,double,23,9,1,0,13,,,,
+0197,155,155,done,0,1,,double,2,1,0,0,1,,,,
+0198,156,,done,0,0,,double,23,10,1,0,12,,,,
+0199,157,157,done,1,1,,double,4,2,0,0,2,,,,
+0200,158,,done,0,0,,double,25,6,0,0,19,,,,
+0201,159,159,done,0,1,,double,3,1,0,0,2,,,,
+0202,160,,done,0,0,,double,21,6,1,0,14,,,,
+0203,161,161,done,0,0,,double,21,3,1,0,17,,,,
+0204,162,,done,0,0,,double,23,8,2,1,14,,,,
+0205,163,163,done,0,0,,double,21,9,1,0,11,,,,
+0206,164,164,done,0,1,,double,2,1,1,0,0,,,,
+0207,165,165,done,0,0,,double,25,9,1,0,15,,,,
+0208,166,166,done,0,1,,double,1,1,0,0,0,,,,
+0209,167,167,done,0,0,,double,20,7,0,0,13,,,,
+0210,168,168,done,0,0,,double,16,4,0,0,12,,,,
+0211,169,169,done,0,0,,double,24,6,2,0,16,,,,
+0212,170,170,done,0,1,,double,1,1,0,0,0,,,,
+0213,171,171,done,0,0,,double,15,3,0,0,12,,,,
+0214,172,,done,0,0,,double,7,4,1,0,2,,,,
+0215,173,173,done,0,3,,double,9,4,0,1,4,,,,
+0216,174,,done,0,0,,double,9,4,0,0,5,,,,
+0217,175,175,done,0,2,,double,1,0,0,0,1,,,,
+0218,176,,done,0,0,,double,8,4,1,0,3,,,,
+0219,177,177,done,0,0,,double,11,6,0,0,5,,,,
+0220,178,,done,0,0,,double,8,6,1,0,1,,,,
+0221,179,179,done,0,0,,double,10,9,0,0,1,,,,
+0222,180,,done,0,2,,double,1,0,0,0,1,,,,
+0223,181,181,done,0,0,,double,10,5,1,0,4,,,,
+0224,182,,done,0,0,,double,8,2,0,0,6,,,,
+0225,183,183,done,0,0,,double,10,5,0,0,5,,,,
+0226,184,,done,0,0,,double,10,8,3,1,0,,,,
+0227,185,185,done,0,0,,double,8,7,1,0,0,,,,
+0228,186,,done,0,1,,double,1,1,0,0,0,,,,
+0229,187,187,done,0,0,,double,9,9,0,0,0,,,,
+0230,188,,done,0,1,,double,1,1,0,0,0,,,,
+0231,189,189,done,0,0,,double,14,11,3,0,0,,,,
+0232,190,,done,0,0,,double,9,9,0,0,0,,,,
+0233,191,191,done,0,0,,double,12,7,5,0,0,,,,
+0234,192,,done,0,0,,double,10,5,5,0,0,,,,
+0235,193,193,done,0,0,,double,12,9,4,1,0,,,,
+0236,194,,done,0,1,,double,2,2,0,0,0,,,,
+0237,195,195,done,0,0,,double,9,9,0,0,0,,,,
+0238,196,,done,0,0,,double,2,1,1,0,0,,,,
+0239,197,197,done,0,1,,double,0,0,0,0,0,,,,
+0240,198,,done,0,0,,double,0,0,0,0,0,,,,
+0241,199,199,done,0,1,,double,0,0,0,0,0,,,,
+0242,200,,done,0,0,,double,2,1,1,0,0,,,,
+0243,201,201,done,0,1,,double,2,0,2,0,0,,,,
+0244,202,,done,0,1,,double,0,0,0,0,0,,,,
+0245,203,203,done,0,0,,double,2,0,2,0,0,,,,
+0246,204,,done,0,1,,double,0,0,0,0,0,,,,
+0247,205,205,done,0,0,,double,2,1,1,0,0,,,,
+0248,206,,done,0,0,,double,2,1,2,1,0,,,,
+0249,207,207,done,0,1,,double,0,0,0,0,0,,,,
+0250,208,,done,0,0,,double,1,1,0,0,0,,,,
+0251,209,209,done,0,1,,double,0,0,0,0,0,,,,
+0252,210,,done,0,0,,double,5,3,2,0,0,,,,
+0253,211,211,done,0,1,,double,0,0,0,0,0,,,,
+0254,212,,done,0,0,,double,1,1,0,0,0,,,,
+0255,213,213,done,0,0,,double,3,1,2,0,0,,,,
+0256,214,,done,0,1,,double,0,0,0,0,0,,,,
+0257,215,215,done,0,0,,double,1,1,0,0,0,,,,
+0258,216,,done,0,0,,double,1,0,1,0,0,,,,
+0259,217,217,done,0,1,,double,1,1,0,0,0,,,,
+0260,218,,done,0,0,,double,0,0,0,0,0,,,,
+0261,219,219,done,0,1,,double,0,0,0,0,0,,,,
+0262,220,,done,0,0,,double,7,5,2,0,0,,,,
+0263,221,221,done,0,1,,double,1,0,1,0,0,,,,
+0264,222,,done,0,0,,double,5,5,0,0,0,,,,
+0265,223,223,done,0,1,,double,1,0,1,0,0,,,,
+0266,224,,done,0,0,,double,4,2,2,0,0,,,,
+0267,225,225,done,0,1,,double,1,0,1,0,0,,,,
+0268,226,,done,0,0,,double,7,2,5,0,0,,,,
+0269,227,227,done,0,1,,double,1,0,1,0,0,,,,
+0270,228,,done,1,0,,double,6,4,3,1,0,,,,
+0271,229,229,done,0,0,,double,3,2,1,0,0,,,,
+0272,230,,done,0,1,,double,1,1,0,0,0,,,,
+0273,231,231,done,0,0,,double,4,4,1,1,0,,,,
+0274,232,,done,0,0,,double,3,0,3,0,0,,,,
+0275,233,233,done,0,0,,double,3,2,1,0,0,,,,
+0276,234,,done,0,1,,double,1,0,1,0,0,,,,
+0277,235,235,done,0,0,,double,6,4,2,0,0,,,,
+0278,236,,done,0,0,,double,2,0,2,0,0,,,,
+0279,237,237,done,0,0,,double,7,3,4,0,0,,,,
+0280,238,,done,0,0,,double,5,0,5,0,0,,,,
+0281,239,239,done,0,0,,double,2,0,1,0,1,,,,
+0282,240,,done,0,0,,double,5,2,3,0,0,,,,
+0283,241,241,done,0,1,,double,1,1,0,0,0,,,,
+0284,242,,done,0,0,,double,3,1,1,0,1,,,,
+0285,243,243,done,0,0,,double,2,1,1,0,0,,,,
+0286,244,244,done,0,1,,double,0,0,0,0,0,,,,
+0287,245,245,done,0,0,,double,0,0,0,0,0,,,,
+0288,246,246,done,0,0,,double,0,0,0,0,0,,,,
+0289,247,247,done,0,1,,double,0,0,0,0,0,,,,
+0290,248,248,done,0,0,,double,3,3,0,0,0,,,,
+0291,249,249,done,0,0,,double,4,2,4,2,0,,,,
+0292,250,250,done,0,1,,double,0,0,0,0,0,,,,
+0293,251,251,done,0,0,,double,1,0,1,0,0,,,,
+0294,252,252,done,0,0,,double,0,0,0,0,0,,,,
+0295,253,253,done,0,1,,double,0,0,0,0,0,,,,
+0296,254,254,done,0,0,,double,1,0,1,0,0,,,,
+0297,255,255,done,0,1,,double,1,1,0,0,0,,,,
+0298,256,256,done,0,0,,double,9,2,3,0,4,,,,
+0299,257,257,done,0,1,,double,0,0,0,0,0,,,,
+0300,258,258,done,0,0,,double,10,1,0,0,9,,,,
+0301,259,259,done,0,1,,double,0,0,0,0,0,,,,
+0302,260,260,done,0,1,,double,0,0,0,0,0,,,,
+0303,261,261,done,0,1,,double,10,0,1,0,9,,,,
+0304,262,262,done,0,0,,double,14,0,2,0,12,,,,
+0305,263,263,done,0,0,,double,17,1,0,0,16,,,,
+0306,264,264,done,0,0,,double,11,0,2,0,9,,,,
+0307,265,265,done,0,1,,double,1,0,1,0,0,,,,
+0308,266,266,done,0,0,,double,8,0,1,0,7,,,,
+0309,267,267,done,0,1,,double,0,0,0,0,0,,,,
+0310,268,,done,0,0,,double,1,1,0,0,0,,,,
+0311,269,269,done,0,1,,double,2,2,0,0,0,,,,
+0312,270,,done,0,0,,double,3,3,0,0,0,,,,
+0313,271,271,done,0,1,,double,2,2,0,0,0,,,,
+0314,272,,done,0,0,,double,4,4,0,0,0,,,,
+0315,273,273,done,0,0,,double,4,3,1,0,0,,,,
+0316,274,,done,0,0,,double,7,6,1,0,0,,,,
+0317,275,275,done,0,1,,double,2,2,0,0,0,,,,
+0318,276,,done,0,0,,double,8,7,2,1,0,,,,
+0319,277,277,done,0,0,,double,8,8,0,0,0,,,,
+0320,278,,done,0,0,,double,4,2,2,0,0,,,,
+0321,279,279,done,0,1,,double,3,3,0,0,0,,,,
+0322,280,,done,0,0,,double,19,0,18,0,1,,,,
+0323,281,281,done,0,1,,double,2,1,0,0,1,,,,
+0324,282,,done,0,0,,double,16,0,16,0,0,,,,
+0325,283,283,done,0,1,,double,2,1,0,0,1,,,,
+0326,284,,done,0,0,,double,14,1,13,0,0,,,,
+0327,285,285,done,0,0,,double,20,3,18,1,0,,,,
+0328,286,,done,0,0,,double,20,2,18,0,0,,,,
+0329,287,287,done,0,1,,double,2,1,0,0,1,,,,
+0330,288,,done,0,0,,double,17,3,14,0,0,,,,
+0331,289,289,done,0,0,,double,23,3,19,0,1,,,,
+0332,290,,done,0,0,,double,18,2,16,0,0,,,,
+0333,291,291,done,0,0,,double,19,2,16,0,1,,,,
+0334,292,,done,0,1,,double,0,0,0,0,0,,,,
+0335,293,293,done,0,0,,double,2,1,1,0,0,,,,
+0336,294,,done,0,1,,double,0,0,0,0,0,,,,
+0337,295,295,done,0,1,,double,1,1,0,0,0,,,,
+0338,296,,done,0,0,,double,2,2,0,0,0,,,,
+0339,297,297,done,0,1,,double,1,1,0,0,0,,,,
+0340,298,,done,0,0,,double,4,1,3,0,0,,,,
+0341,299,299,done,0,0,,double,2,1,1,0,0,,,,
+0342,300,,done,0,1,,double,0,0,0,0,0,,,,
+0343,301,301,done,0,0,,double,2,1,1,0,0,,,,
+0344,302,,done,0,0,,double,3,1,2,0,0,,,,
+0345,303,303,done,0,1,,double,0,0,0,0,0,,,,
+0346,304,,done,0,0,,double,16,1,3,0,12,,,,
+0347,305,305,done,0,1,,double,0,0,0,0,0,,,,
+0348,306,,done,0,0,,double,17,2,0,0,15,,,,
+0349,307,307,done,0,1,,double,0,0,0,0,0,,,,
+0350,308,,done,0,0,,double,8,2,0,0,6,,,,
+0351,309,309,done,0,0,,double,21,1,1,0,19,,,,
+0352,310,,done,0,1,,double,0,0,0,0,0,,,,
+0353,311,311,done,0,0,,double,16,3,2,0,11,,,,
+0354,312,,done,0,0,,double,13,2,1,0,10,,,,
+0355,313,313,done,0,0,,double,18,2,3,0,13,,,,
+0356,314,,done,0,0,,double,14,1,2,0,11,,,,
+0357,315,315,done,0,0,,double,22,2,2,0,18,,,,
+0358,316,,done,0,0,,double,4,3,1,1,1,,,,
+0359,317,317,done,0,1,,double,1,0,0,0,1,,,,
+0360,318,,done,0,1,,double,7,2,5,1,1,,,,
+0361,319,319,done,0,0,,double,7,4,2,0,1,,,,
+0362,320,,done,0,0,,double,5,2,2,0,1,,,,
+0363,321,321,done,0,1,,double,1,0,0,0,1,,,,
+0364,322,,done,0,0,,double,6,4,1,0,1,,,,
+0365,323,323,done,0,0,,double,3,2,0,0,1,,,,
+0366,324,,done,0,1,,double,1,0,0,0,1,,,,
+0367,325,325,done,0,0,,double,9,3,5,1,2,,,,
+0368,326,,done,0,1,,double,1,0,0,0,1,,,,
+0369,327,327,done,0,0,,double,6,3,2,0,1,,,,
+0370,328,,done,0,1,,double,1,0,0,0,1,,,,
+0371,329,329,done,0,0,,double,6,5,3,2,0,,,,
+0372,330,,done,0,1,,double,1,0,0,0,1,,,,
+0373,331,331,done,0,0,,double,4,3,1,0,0,,,,
+0374,332,,done,0,0,,double,4,1,3,0,0,,,,
+0375,333,333,done,0,1,,double,1,0,0,0,1,,,,
+0376,334,,done,0,0,,double,5,4,1,0,0,,,,
+0377,335,335,done,0,1,,double,1,0,0,0,1,,,,
+0378,336,,done,0,0,,double,4,0,4,0,0,,,,
+0379,337,337,done,0,0,,double,2,2,0,0,0,,,,
+0380,338,,done,0,0,,double,0,0,0,0,0,,,,
+0381,339,339,done,0,1,,double,1,0,0,0,1,,,,
+0382,340,,done,0,3,,double,2,1,1,0,0,,,,
+0383,341,341,done,0,1,,double,1,1,0,0,0,,,,
+0384,342,,done,0,0,,double,0,0,0,0,0,,,,
+0385,343,343,done,0,0,,double,2,1,1,0,0,,,,
+0386,344,,done,0,1,,double,0,0,0,0,0,,,,
+0387,345,345,done,0,0,,double,1,1,0,0,0,,,,
+0388,346,,done,0,0,,double,3,3,2,2,0,,,,
+0389,347,347,done,0,1,,double,0,0,0,0,0,,,,
+0390,348,,done,0,0,,double,3,2,1,0,0,,,,
+0391,349,349,done,0,0,,double,1,1,0,0,0,,,,
+0392,350,,done,0,1,,double,0,0,0,0,0,,,,
+0393,351,351,done,0,0,,double,3,1,2,0,0,,,,
+0394,352,,done,0,0,,double,4,0,4,0,0,,,,
+0395,353,353,done,0,1,,double,1,0,1,0,0,,,,
+0396,354,,done,0,0,,double,2,0,2,0,0,,,,
+0397,355,359,done,0,0,"Нумерация: на странице напечатано 359, в PAGES.tsv 355",double,5,3,3,1,0,,,,
+0398,356,,done,0,0,,double,7,0,7,0,0,,,,
+0399,357,357,done,0,1,,double,3,0,3,0,0,,,,
+0400,358,,done,0,0,,double,3,1,2,0,0,,,,
+0401,359,359,done,0,1,,double,1,0,1,0,0,,,,
+0402,360,,done,0,0,,double,4,3,1,0,0,,,,
+0403,361,361,done,0,0,,double,3,2,1,0,0,,,,
+0404,362,,done,0,1,,double,1,0,1,0,0,,,,
+0405,363,363,done,0,0,,double,4,0,4,0,0,,,,
+0406,364,,done,0,0,,double,0,0,0,0,0,,,,
+0407,365,365,done,0,1,,double,1,1,0,0,0,,,,
+0408,366,,done,0,0,,double,3,1,2,0,0,,,,
+0409,367,367,done,0,2,,double,2,1,1,0,0,,,,
+0410,368,,done,0,0,,double,0,0,0,0,0,,,,
+0411,369,369,done,0,0,,double,8,5,5,2,0,,,,
+0412,370,,done,0,0,,double,1,0,1,0,0,,,,
+0413,371,371,done,0,0,,double,0,0,0,0,0,,,,
+0414,372,,done,0,3,,double,9,2,8,1,0,,,,
+0415,373,373,done,0,0,,double,3,1,2,0,0,,,,
+0416,374,,done,0,1,,double,1,1,0,0,0,,,,
+0417,375,375,done,0,0,,double,7,1,6,0,0,,,,
+0418,376,,done,0,1,,double,1,1,0,0,0,,,,
+0419,377,377,done,0,0,,double,10,7,7,4,0,,,,
+0420,378,,done,0,1,,double,1,1,1,1,0,,,,
+0421,379,379,done,0,0,,double,4,3,2,1,0,,,,
+0422,380,,done,0,1,,double,0,0,0,0,0,,,,
+0423,381,381,done,0,0,,double,5,3,3,1,0,,,,
+0424,382,,done,0,1,,double,0,0,0,0,0,,,,
+0425,383,383,done,0,0,,double,4,2,2,0,0,,,,
+0426,384,,done,0,1,,double,0,0,0,0,0,,,,
+0427,385,385,done,0,0,,double,3,1,2,0,0,,,,
+0428,386,,done,0,1,,double,0,0,0,0,0,,,,
+0429,387,387,done,0,0,,double,6,2,4,0,0,,,,
+0430,388,,done,0,1,,double,0,0,0,0,0,,,,
+0431,389,389,done,0,0,,double,1,0,0,0,1,,,,
+0432,390,,done,0,1,,double,0,0,0,0,0,,,,
+0433,391,391,done,0,0,,double,5,0,0,0,5,,,,
+0434,392,,done,0,1,,double,0,0,0,0,0,,,,
+0435,393,393,done,0,0,,double,7,2,0,0,5,,,,
+0436,394,394,done,0,0,,double,4,0,0,0,4,,,,
+0437,395,395,done,0,1,,double,0,0,0,0,0,,,,
+0438,396,396,done,0,0,,double,7,1,1,0,5,,,,
+0439,397,397,done,0,0,,double,2,1,0,0,1,,,,
+0440,398,,done,0,1,,double,0,0,0,0,0,,,,
+0441,399,399,done,0,0,,double,5,0,0,0,5,,,,
+0442,400,,done,0,1,,double,0,0,0,0,0,,,,
+0443,401,401,done,0,0,,double,7,5,2,0,0,,,,
+0444,402,,done,0,1,,double,0,0,0,0,0,,,,
+0445,403,403,done,0,1,,double,2,1,1,0,0,,,,
+0446,404,,done,0,0,,double,6,3,2,0,1,,,,
+0447,405,405,done,0,0,,double,3,1,2,0,0,,,,
+0448,406,,done,0,0,,double,2,2,0,0,0,,,,
+0449,407,407,done,0,0,,double,3,2,1,0,0,,,,
+0450,408,,done,0,1,,double,0,0,0,0,0,,,,
+0451,409,409,done,0,0,,double,2,2,0,0,0,,,,
+0452,410,,done,0,0,,double,9,7,2,0,0,,,,
+0453,411,411,done,0,0,,double,3,3,0,0,0,,,,
+0454,412,,done,0,0,,double,14,12,3,1,0,,,,
+0455,413,413,done,0,0,,double,21,21,1,1,0,,,,
+0456,414,,done,0,0,,double,17,2,15,0,0,,,,
+0457,415,415,done,0,0,,double,1,0,1,0,0,,,,
+0458,416,,done,0,1,,double,2,2,0,0,0,,,,
+0459,417,417,done,0,0,,double,7,7,0,0,0,,,,
+0460,418,,done,0,0,,double,7,7,0,0,0,,,,
+0461,419,419,done,0,0,,double,10,9,1,0,0,,,,
+0462,420,,done,0,1,,double,4,4,0,0,0,,,,
+0463,421,421,done,0,0,,double,1,0,1,0,0,,,,
+0464,422,,done,0,1,,double,0,0,0,0,0,,,,
+0465,423,423,done,0,0,,double,2,1,0,0,1,,,,
+0466,424,,done,0,0,,double,4,2,2,0,0,,,,
+0467,425,425,done,0,0,,double,3,1,2,0,0,,,,
+0468,426,,done,0,0,,double,4,2,3,1,0,,,,
+0469,427,427,done,0,0,,double,1,1,0,0,0,,,,
+0470,428,,done,0,0,,double,5,3,1,0,1,,,,
+0471,429,429,done,0,3,,double,2,1,1,0,0,,,,
+0472,430,,done,0,1,,double,0,0,0,0,0,,,,
+0473,431,431,done,0,0,,double,6,6,1,1,0,,,,
+0474,432,,done,0,1,,double,1,1,1,1,0,,,,
+0475,433,433,done,0,0,,double,2,1,2,1,0,,,,
+0476,434,,done,0,1,,double,1,1,0,0,0,,,,
+0477,435,435,done,0,0,,double,3,2,2,1,0,,,,
+0478,436,,done,0,0,,double,2,1,1,0,0,,,,
+0479,437,437,done,0,1,,double,2,0,2,0,0,,,,
+0480,438,,done,0,0,,double,1,1,1,1,0,,,,
+0481,439,439,done,0,1,,double,1,1,0,0,0,,,,
+0482,440,,done,0,0,,double,4,1,3,0,0,,,,
+0483,441,441,done,0,0,,double,0,0,0,0,0,,,,
+0484,442,,done,0,1,,double,1,1,0,0,0,,,,
+0485,443,443,done,0,0,,double,1,1,0,0,0,,,,
+0486,444,,done,0,0,,double,5,1,4,0,0,,,,
+0487,445,445,done,0,0,,double,1,0,1,0,0,,,,
+0488,446,,done,0,0,,double,5,0,5,0,0,,,,
+0489,447,447,done,0,1,,double,2,1,1,0,0,,,,
+0490,448,,done,0,0,,double,3,1,2,0,0,,,,
+0491,449,449,done,0,0,,double,5,4,2,1,0,,,,
+0492,450,,done,0,1,,double,4,2,2,0,0,,,,
+0493,451,451,done,0,3,,double,2,1,1,0,0,,,,
+0494,452,,done,0,0,,double,4,1,3,0,0,,,,
+0495,453,453,done,0,1,,double,0,0,0,0,0,,,,
+0496,454,,done,0,0,,double,2,2,0,0,0,,,,
+0497,455,455,done,0,1,,double,0,0,0,0,0,,,,
+0498,456,,done,0,0,,double,3,2,3,2,0,,,,
+0499,457,457,done,0,1,,double,1,1,0,0,0,,,,
+0500,458,,done,0,0,,double,3,2,1,0,0,,,,
+0501,459,459,done,0,1,,double,1,1,0,0,0,,,,
+0502,460,,done,0,1,Нумерация: печатный номер на странице отсутствует (ничего не напечатано); в PAGES.tsv — 460.,double+triple-reconciled,1,1,0,0,0,,,,
+0503,461,461,done,0,1,,double+triple-reconciled,12,4,1,0,7,,,,
+0504,462,,done,0,0,,double+triple-reconciled,8,6,1,1,2,,,,
+0505,463,463,done,0,0,,double+triple-reconciled,7,1,3,0,3,,,,
+0506,464,,done,0,0,,double+triple-reconciled,12,1,3,0,8,,,,
+0507,465,465,done,0,1,,double+triple-reconciled,3,0,3,0,0,,,,
+0508,466,,done,0,0,,double+triple-reconciled,15,5,4,1,7,,,,
+0509,467,467,done,0,1,,double+triple-reconciled,0,0,0,0,0,,,,
+0510,468,,done,0,2,,double+triple-reconciled,0,0,0,0,0,,,,
+0511,469,469,done,0,1,,double+triple-reconciled,4,0,3,0,1,,,,
+0512,470,,done,0,1,,double+triple-reconciled,4,1,1,0,2,,,,
+0513,471,471,done,0,0,,double+triple-reconciled,9,1,4,0,4,,,,
+0514,472,,done,0,1,,double+triple-reconciled,3,2,3,2,0,,,,
+0515,473,473,done,0,1,,double+triple-reconciled,2,1,1,0,0,,,,
+0516,474,,done,0,1,,double+triple-reconciled,1,0,1,0,0,,,,
+0517,475,475,done,0,1,,double+triple-reconciled,2,0,2,0,0,,,,
+0518,476,,done,0,1,,double+triple-reconciled,2,0,2,0,0,,,,
+0519,477,477,done,0,1,,double+triple-reconciled,5,3,2,0,0,,,,
+0520,478,,done,0,1,,double+triple-reconciled,2,0,2,0,0,,,,
+0521,479,479,done,0,1,,double+triple-reconciled,1,0,1,0,0,,,,
+0522,480,,done,0,1,,double+triple-reconciled,3,1,2,0,0,,,,
+0523,481,481,done,0,1,,double+triple-reconciled,4,3,2,1,0,,,,
+0524,482,,done,0,1,,double+triple-reconciled,1,1,0,0,0,,,,
+0525,483,483,done,0,0,,double+triple-reconciled,3,1,2,0,0,,,,
+0526,484,,done,0,1,,double+triple-reconciled,39,31,1,1,8,,,,
+0527,485,485,done,0,0,,double+triple-reconciled,75,61,3,1,12,,,,
+0528,486,,done,0,0,,double+triple-reconciled,82,71,18,11,4,,,,
+0529,487,487,done,0,0,,double+triple-reconciled,79,68,16,6,1,,,,
+0530,488,,done,0,0,,double+triple-reconciled,91,83,2,1,7,,,,
+0531,489,489,done,0,0,,double+triple-reconciled,84,69,5,1,11,,,,
+0532,490,,done,0,1,,double+triple-reconciled,42,31,13,3,1,,,,
+0533,491,491,done,0,1,,double+triple-reconciled,46,40,7,4,3,,,,
+0534,492,,done,0,1,,double+triple-reconciled,44,41,5,2,0,,,,
+0535,493,493,done,0,0,,double+triple-reconciled,72,59,12,4,5,,,,
+0536,494,,done,0,1,,double+triple-reconciled,25,22,5,3,1,,,,
+0537,495,495,done,1,1,,double+triple-reconciled,39,29,10,4,4,,,,
+0538,496,,done,0,2,,double,4,4,0,0,0,,,,
+0539,497,497,done,0,1,,double,4,4,1,1,0,,,,
+0540,498,,done,0,1,,double,6,6,0,0,0,,,,
+0541,499,499,done,0,1,,double,10,8,2,0,0,,,,
+0542,500,,done,0,1,,double,12,12,0,0,0,,,,
+0543,501,501,done,0,1,,double,1,1,0,0,0,,,,
+0544,502,,done,0,1,,double,2,2,0,0,0,,,,
+0545,503,503,done,0,1,,double,0,0,0,0,0,,,,
+0546,504,,done,0,1,,double,12,11,3,2,0,,,,
+0547,505,505,done,0,1,,double,6,5,1,0,0,,,,
+0548,506,,done,0,1,,double,7,6,1,0,0,,,,
+0549,507,507,done,0,1,,double,10,10,0,0,0,,,,
+0550,508,,done,0,1,,triple,3,2,3,2,0,,,,
+0551,509,509,done,0,1,,triple,0,0,0,0,0,,,,
+0552,510,,done,0,1,,triple,0,0,0,0,0,,,,
+0553,511,511,done,0,0,,triple,3,0,2,0,1,,,,
+0554,512,,done,0,1,,triple,2,1,2,0,0,,,,
+0555,513,513,done,0,1,,triple,3,2,0,1,1,,,,
+0556,514,,done,0,1,,triple,4,2,1,0,1,,,,
+0557,515,515,done,0,0,,triple,5,0,1,0,3,,,,
+0558,516,,done,0,1,,triple,0,0,0,0,0,,,,
+0559,517,517,done,0,1,,triple,2,0,0,0,2,,,,
+0560,518,,done,0,1,,triple,2,0,0,0,2,,,,
+0561,519,519,done,0,1,,triple,1,0,0,0,1,,,,
+0562,520,520,done,0,1,,triple,2,0,0,0,1,,,,
+0563,521,521,done,0,1,,triple,3,2,0,0,0,,,,
+0564,522,522,done,0,1,,triple,0,0,0,0,0,,,,
+0565,523,523,done,0,1,,triple,0,0,0,0,0,,,,
+0566,524,524,done,0,1,,triple,3,1,0,0,0,,,,
+0567,525,525,done,0,1,,triple,0,0,0,0,0,,,,
+0568,526,526,done,0,2,,triple,0,0,0,0,0,,,,
+0569,527,527,done,0,1,,triple,3,2,1,0,0,,,,
+0570,528,528,done,0,1,,triple,0,0,0,0,0,,,,
+0571,529,529,done,0,2,,triple,3,1,2,0,0,,,,
+0572,530,530,done,0,1,,triple,0,0,0,0,0,,,,
+0573,531,531,done,0,0,,triple,8,2,1,0,0,,,,
+0574,532,532,done,0,1,,triple,5,5,4,0,0,,,,
+0575,533,533,done,0,1,,triple,1,1,1,1,0,,,,
+0576,534,534,done,0,1,,triple,0,0,0,0,0,,,,
+0577,535,535,done,0,1,,triple,1,1,1,1,0,,,,
+0578,536,536,done,0,0,,triple,14,12,11,0,0,,,,
+0579,537,537,done,0,1,,triple,0,0,0,0,0,,,,
+0580,538,538,done,0,1,,triple,3,3,2,0,0,,,,
+0581,539,539,done,0,1,,triple,0,0,0,0,0,,,,
+0582,540,540,done,0,1,,triple,0,0,0,0,0,,,,
+0583,541,541,done,0,1,,triple,2,0,1,0,0,,,,
+0584,542,542,done,0,1,,triple,1,1,1,0,0,,,,
+0585,543,543,done,0,1,,triple,3,3,3,1,0,,,,
+0586,544,,todo,0,0,,,,,,,,,,,
+0587,Titelblatt_r,,todo,0,0,,,,,,,,,,,
+0588,Titelblatt_v,,todo,0,0,,,,,,,,,,,
+0589,Widmung_r,,todo,0,0,,,,,,,,,,,
+0590,Widmung_v,,todo,0,0,,,,,,,,,,,
+0591,545,,todo,0,0,,,,,,,,,,,
+0592,546,,todo,0,0,,,,,,,,,,,
+0593,547,,todo,0,0,,,,,,,,,,,
+0594,548,,todo,0,0,,,,,,,,,,,
+0595,549,,todo,0,0,,,,,,,,,,,
+0596,550,,todo,0,0,,,,,,,,,,,
+0597,551,,todo,0,0,,,,,,,,,,,
+0598,552,,todo,0,0,,,,,,,,,,,
+0599,553,,todo,0,0,,,,,,,,,,,
+0600,554,,todo,0,0,,,,,,,,,,,
+0601,555,,todo,0,0,,,,,,,,,,,
+0602,556,,todo,0,0,,,,,,,,,,,
+0603,557,,todo,0,0,,,,,,,,,,,
+0604,558,,todo,0,0,,,,,,,,,,,
+0605,559,,todo,0,0,,,,,,,,,,,
+0606,560,,todo,0,0,,,,,,,,,,,
+0607,561,,todo,0,0,,,,,,,,,,,
+0608,562,,todo,0,0,,,,,,,,,,,
+0609,563,,todo,0,0,,,,,,,,,,,
+0610,564,,todo,0,0,,,,,,,,,,,
+0611,565,,todo,0,0,,,,,,,,,,,
+0612,566,,todo,0,0,,,,,,,,,,,
+0613,567,,todo,0,0,,,,,,,,,,,
+0614,568,,todo,0,0,,,,,,,,,,,
+0615,569,,todo,0,0,,,,,,,,,,,
+0616,570,,todo,0,0,,,,,,,,,,,
+0617,571,,todo,0,0,,,,,,,,,,,
+0618,572,,todo,0,0,,,,,,,,,,,
+0619,573,,todo,0,0,,,,,,,,,,,
+0620,574,,todo,0,0,,,,,,,,,,,
+0621,575,,todo,0,0,,,,,,,,,,,
+0622,576,,todo,0,0,,,,,,,,,,,
+0623,577,,todo,0,0,,,,,,,,,,,
+0624,578,,todo,0,0,,,,,,,,,,,
+0625,579,,todo,0,0,,,,,,,,,,,
+0626,580,,todo,0,0,,,,,,,,,,,
+0627,581,,todo,0,0,,,,,,,,,,,
+0628,582,,todo,0,0,,,,,,,,,,,
+0629,583,,todo,0,0,,,,,,,,,,,
+0630,584,,todo,0,0,,,,,,,,,,,
+0631,585,,todo,0,0,,,,,,,,,,,
+0632,586a,,todo,0,0,,,,,,,,,,,
+0633,587a,,todo,0,0,,,,,,,,,,,
+0634,586b,,todo,0,0,,,,,,,,,,,
+0635,587b,,todo,0,0,,,,,,,,,,,
+0636,588,,todo,0,0,,,,,,,,,,,
+0637,Hinterspiegel,,todo,0,0,,,,,,,,,,,
+0638,Einband,,todo,0,0,,,,,,,,,,,
+0639,Ruecken,,todo,0,0,,,,,,,,,,,
