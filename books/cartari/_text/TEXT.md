@@ -8067,3 +8067,224 @@ vi ha luoco la Fortuna. Questa fa Apuleio essere vna medesima con Iside, quando 
 - Buono Euento.
 - Fauore.
 - Fauore timido.
+
+## Скан 0442 · с. 400
+
+[ГРАВЮРА — полностраничная]
+Imagine del buono Euento & felice successo, del Fauore instabile, lieue, & caduco, dell'Adulatione, & dell'Inuidia, che spingono, & accompagnano detto Fauore, & l'imagine della ruota volubile della Fortuna, sopra la quale il detto Fauore riposa i piedi e casca al suo girare, effetto che si vede per ordinario nelle Corti e nel Mondo.
+
+Колонтитул: 400 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0443 · с. 401
+
+uiene, spinto dall'Adulatione, che l'accompagna sempre. Gli và dietro etiandio la Inuidia, ma con passi tardi, e lenti, la quale guarda sempre con occhio torto l'altrui Felicità, ma ella s'è beata, e di lei punto non teme. Perche questa fu da gli antchi adorata parimente, & chiamata Macaria da' Greci, e fu come si raccoglie da Euripide, & che riferisce Pausania, figliuola di Hercole, & acquistossi gli diuini honori, perche hauendo l'Oracolo risposto a gli Atheniesi, che poteuano esser vincitori di certa guerra mossa loro da' Lacedemonij per gli figliuoli di Hercole, se qualchuno di questi occidendosi da sè si fosse offerto alli Dei dell'Inferno, ella subito che questo intese, si tagliò la gola, & fece di sè la miserabile offerta, acquistandone la vittoria a gli Atheniesi, li quali perciò l'adorarono poi, come quelli, che per lei erano stati vittoriosi, & felici. La imagine di costei, cioè della Felicità, che questo è il nome Latino, & Macaria il Greco, come hò detto, fu da gli antichi fatta, come si vede in alcune medaglie, di Giulia Mammea, vna donna sopra vn bello seggio, che tiene nella destra il Caduceo, & hà nella sinistra vn corno di douitia. Si può dire, che quello significhi la virtù, questo le ricchezze come che, nè le virtù da sè, nè le ricchezze per loro medesime possono fare qui l'huomo felice, che fu opinione di Aristotele. Imperoche quale felicità può essere di vn virtuoso, che si troui in tanta pouertà, che patisca disagio non solamente di molte cose, che gli sarebbono commode, ma di quelle ancora, che gli sono necessarie? Et allo incontro chi si troua priuo di ogni virtù, se bene hauesse tutte le ricchezze del mondo, non si potrà mai chiamare felice, anzi sarà infelicissimo, non hauendo punto di quello, che è proprio dell'huomo. Potransi dunque chiamare felici qui frà noi secondo il parere di Aristotele, & come ci mostra la imagine della Felicità, pur mò disegnata, solo quelli, che sono virtuosi, e ricchi, cioè che hanno tanto de' beni della Fortuna; che ponno prouedere a' suoi disagi, & alle sue commodità. Cebete nella sua tauola fa la Felicità vna donna, che siede allentrare di certa rocca in bel seggio, bene ornata, ma non però con molta arte, & coronata di bellissimi, & vaghi fiori. Alla quale ben pare che voglia andare ogniuno, ma non vi arrinano però se nò quelli, che caminano con la scorta della virtù, lasciandosi alle spalle tutte l'altre cose; perche fu opinione di costui, come di molti altri ancora innanzi a lui, che la vitrù sola potesse fare l'huomo felice. Ilche dobbiamo noi dire ancora parlando christianamente, & intendendo non della Felicità, che qui brama alla cieca ogniuno in questo modo, perche non è, se bene pare, Felicità, ma di quella, che nelle celesti sedi godono le anime beate, vera, immutabile, & eterna. Alla quale hà da sperare di giugnere fermamente ogniuno, che scorto da' lucidissimi raggi della diuina bõtà camini tutto il viaggio di questo mõdo ĩ cõpagnia della Fede, calcando l'arido, & sterile terreno co' piedi della Carità.
+
+Колонтитул: De gli Antichi. 401
+Кустод: CV-
+Сигнатура: Cc
+Маргиналии:
+- Macaria.
+- Medaglie di Giulia Mammea.
+
+## Скан 0444 · с. 402
+
+[ГРАВЮРА — полностраничная]
+Imagine della Dea Macaria, ò Dea Felicità, figliuola, d'Hercole, con il Caduceo, & il Corno di Donitia in mano quello significante la virtù, questo le ricchezze, necessarie e l'vna, è l'altre alla Felicità humana.
+
+Колонтитул: 402 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0445 · с. 403
+
+CVPIDO.
+
+[ИНИЦИАЛ: D]
+Di tutti gli affetti de gli animi nostri non vi è il piu commune, il più bello, nè che habbia maggior forza di quello, che non solo in noi si vede essere, ma nello eterno Iddio ancora (benche in lui sia pura sostanza solamente, non affetto, nè passione) ne gli Angeli, & in tutti gli ordini de' Beati, in ciascheduno de gli elementi, & nelle cose tutte, che di quelli sono create. Si dimanda questo communemente Amore, il qual leua ogni bruttura da gli animi humani, & così gli fa diuenire belli, che hanno poi ardire di andarsi à porre dauanti alla bellezza eterna, oue ripieni tutti di gioia, e d'infinito piacere godono i desiderati frutti de' loro amori. Questo fa diuentare humili gli superbi, gli adirati riduce a pace, rallegra, & riconforta gli affliti, e sconsolati, porge ardire a chi teme, & apre le chiuse mani all'ingorda auaritia. Questo ha forza sopra tutti i piu potenti Rè, supera i grandi Imperadori, & in somma si fa vbbidire a tutte le persone. Per le quali cose non è marauiglia se fra i loro Dei lo posero gli antichi, li quali non hauendo vista ancora la luce della verità, quel, che si doueua dare al Creatore del tutto, danano alle creature, & come che non sapessero onde le virtù venissero in noi, molte ne adorarono come Dei, & posero loro diuerse statoe, & in varie imagini la dipinsero, secondo operano ne gli animi humani, come in altro luoco hò mostrato già, per non replicare il medesimo hora, che di Amore solamente voglio dire, secondo che da gli antichi fu dipinto. Se ben par'essere hoggimai così manifesto ad ogn'vno, che non habbia bisogno, che ne sia scritto per insegnarlo; perche vedendo vn fanciullo con la benda a gli occhi, con l'arco in mano, e con vn turcasso pieno di strali al fianco, ogn'vno sà dire questi è Amore, ma non saprà dire però ogn'vno poi a chi gliene dimandi, la ragione, per la quale sia così fatto. Et io in queste mie imagini hò voluto mostrare non solo come lo facessero gli antichi, ma renderne le ra-
+
+Колонтитул: De gli Antichi. 403
+Кустод: gioni
+Сигнатура: Cc 2
+Маргиналии:
+- Amore.
+- Amore non è vno.
+
+## Скан 0446 · с. 404
+
+gioni ancora, secondo che dai più degni scrittori le hò potuto ritrouare, li quali ragionando di Amore in diuerse maniere, & in diuersi modi l'hanno considerato, perche hanno, visto che, diuerse sono le virtù sue. Donde viene, che hanno detto non essere vn solo Amore, ma molti, & due principalmente furono posti da Platone, sì come ei pose due Veneri parimente, L'vna celeste, della quale nacque il celeste Cupido, e quel diuino Amore, che solleua l'animo humano alla contemplatione di Dio, delle menti separate, che noi chiamiamo Angeli, & delle cose del Cielo. Et habita questo ne i Cieli, come scriue Filostrato, dicendo che l'Amore celeste, il quale è vno, se ne sta in Cielo, & quiui hà cura delle cose celesti, & è tutto puro, mondo, e sincerissimo, & perciò fassi di corpo giouine, tutto lucido, e bello, & gli si danno l'ali per mostrare il riuolgimento, qual fanno gli animi humani mossi dallo amoroso desiderio al Cielo, & a quelle cose che quiui sono; come fanno etiandio quelle pure menti, le quali sopra i Cieli sono ordinate tutte secondo i gradi loro, che si inalzano quanto più ponno alla vista di quella beata faccia, che è fonte eterno di tutta la bellezza, la quale in diuersi modi dalla piu alta parte del Cielo manda i raggi suoi ad irritare, e prouocare le cose tutte, perche à lei si riuolghino, & questi sono le saette, e gli acuti strali, che souente scocca Amore. Chi dunque nella imagine di Cupido considera l'Amore diuino, vede la purità di questo nel lucido corpo di quello. Et per l'ali (l'officio delle quali è alzare in alto, e portare per l'aria que' corpi, li quali per loro stessi non si potrebbono leuare di terra) vede il solleuamento, che fa Amore de gli animi nostri alle diuine bellezze. Si come per le saette può comprendere gli raggi della diuina luce, la quale in mille modi ci viene a ferire, perche ci riuoltiamo a lei, & inuaghiti della bellezza sua, non piu stimiamo le cose di quà giù, che quanto elle ci sono scala da salire al Cielo, come ben disse Amore di sè stesso, quando in vna sua Canzone lo chiama il Petrarca in giudicio.
+
+*Ancor, e questo è quel, che tutto auanza,*
+*Da Volar sopra il Ciel gli haueua date ali.*
+*Per le cose mortali,*
+*Che son scala al Fattor chi ben, l'estima.*
+
+Et per non entrare più adentro nelle cose dell'Amore diuino, perche tãto vi sarebbe da dire, che troppo mi scosterei dal proposito mio questo solamente vi aggiungo, ch'egli è come il Sole: il quale sparge i suoi raggi per l'vniuerso, & in sè riflette altri raggi ancora, se tocca per forte corpi lucidi, e puri. Et come il Sole riscalda ouunque tocca, così Amore accende quelle anime, alle quali si accosta, onde con in-
+
+Колонтитул: 404 Imagini de i Dei
+Кустод: fiammato
+Сигнатура:
+Маргиналии:
+- Cupido celeste.
+- All di Amore.
+- Strali di Amore.
+- Ali di Amore.
+- Strali di Amore.
+- Petrarca.
+- Amore simile al sole.
+
+## Скан 0447 · с. 405
+
+fiammato desiderio si riuolgono alle cose del Cielo. Ilche hà fatto, che sia data alla imagine di Amore l'accesa face ancora: per dimostrare l'ardente effetto, con che seguitiamo le cose amate, trahendone piacere del continuo, parlando però solo delle diuine. Nelle quali consideriamo della face di Amore quel, che luce solamente, & che risplende come diletteuole, & giocondo da vedere, non quello che arde, & abbruccia, perche fa male, & è noioso; e questo più si confà all'Amore delle cose terrene, il quale non porge diletto mai, ne piacere alcuno intero, & che sia senza tormento; ma così aggiunge l'vno all'altro, come nella face sono insieme lo splendore, che diletta, & la fiamma, che tormenta ardendo. Et fu questa poi opinione di Plutarco, il quale scriue che i Poeti, gli Scultori, & i Dipintori finsero, che Cupido portasse in mano la face accesa, perche del fuoco: quel che luce, è diletteuolissimo, ma quel che abbruccia poi, è fuor di modo molesto. Il che tolse egli con gli altri forse da Platone, il quale scriue nel Timeo, che Amore in noi è misto di piacere, & di dolore. Nacque questo Amore di Volcano, e dell'altra Venere, la quale chiama Platone volgare, mondana, e terrena; volgare parimente, terreno, e pieno di lasciuia humana, secondo che finsero le fauole. Onde Seneca nella Tragedia di Ottauia descriuendolo, dice così.
+
+*L'error de' ciechi, e miseri mortali*
+*Per coprir il suo stolto, e Van desio*
+*Finge che Amor sia Dio,*
+*Sì par, che del suo inganno si dilette,*
+*In Vista assai piaceuole, ma rio*
+*Tanto che gode sol de gli altrui mali,*
+*C'habbia a gli homeri l'ali,*
+*Le mani armate d'arco, e di saette*
+*E in breue face astrette*
+*Porti le fiamme, che per l'vniuerso*
+*Và poi spargendo sì, che del suo ardore*
+*Resta acceso ogni core,*
+*E che da l'Vso human poco diuerso*
+*Di Volcano, e di Venere sia nato,*
+*E del Ciel tenga il più sublime stato.*
+*Amor è vitio de la mente in sana,*
+*Quando si moue dal suo proprio loco,*
+*Che di piaceuol foco*
+*L'animo scalda, e nasce ne' Verdi anni*
+*A l'età, ch'assai può, ma Vede poco.*
+*L'ocio il nodrisce, e lasciuia humana,*
+*Mentre che va lontana.*
+
+Колонтитул: De gli Antichi. 405
+Кустод: La
+Сигнатура: Cc 3
+Маргиналии:
+- Seneca.
+
+## Скан 0448 · с. 406
+
+*La ria Fortuna co' suoi graui danni*
+*Spiegando i tristi vanni,*
+*E la buona, e felice Stà presente,*
+*Porgendo ciò, che tien nel ricco seno.*
+*Ma se questa Vien meno,*
+*Onde il cieco desir al mal consente,*
+*Il fuoco, ch'ardea pria tutto s'ammorza*
+*E tosto perde Amor ogni sua forza.*
+
+Pose Ouidio parimente due Amori, quando e' disse.
+
+*Madre d'ambi gli Amor porgimi aita.*
+
+Percioche noi amiamo in due modi, bene, quando alle cose buone applichiamo l'animo, male, quando seguitiamo quello, che è rio. Et come questo si dimanda amore dishonesto, e brutto, così quello è detto bello, & honesto. Alcuni vogliono, che di questi due nati di Venere vno solamente sia Amore, il quale accenda, & infiammi gli animi nostri a seguitare alcuna cosa, & l'altro si dimandi Anterote, che noi potiamo dire contra amore: perche faccia questo effetti tutti contrari a quello, sì che per lui fuggiamo le cose, le disamiamo, & le habbiamo in odio. Ma si inganna di gran lunga qualunque tal cosa crede, percioche Anterote fu adorato, non perche facesse disamare, ma perche punisse chi non ama essendo amato, come si legge appresso di Suida, il quale racconta vna nouelletta tale. Fu in Athene vno chiamato Melito, il quale ardentissimamente amaua vn bellissimo giouane nobile, & ricco molto, il cui nome fu Timagora. Questi non meno altero, che bello, mostraua non farsi conto di Melito, in altro, che in comandargli cose di grauissimo pericolo, le quali tutte faceua il miserello, con animo sicurissimo, credendo di douere in questo modo acquistarsi la gratia dello amato giouane, ma tutto gli auenne il contrario; percioche Timagora qnanto più si sentiua essere amato, e seruito da lui, tanto lo sprezzaua più sempre; onde l'infelice Melito non potendo più sopportare le amorose pene, & vinto dalla disperatione si gittò giù dalla piu alta cima della rocca, e tutto si ruppe, & restò morto; di che parue, che venisse poi pietà si grande a Timagora, quando l'intese, non volendo forse la giustitia d'amore, che restasse la morte di Melito inuendicata, che egli se n'andò ratto a gittarsi di là onde s'era gittato Melito prima, e crudelmente ne morì. Et quiui perciò fu posto vn simulacro di vn bellissimo giouanetto tutto nudo; il quale haueua in mano due galli, e molto belli, & gittauasi a basso col capo all'ingiù. Questo dunque potiamo dire, che fosse castigo, il quale venisse da Anterote, come più apertamente dice Pausania, raccontando quasi il medesimo in questo modo. Era in Athene vn'altare consecrato ad Anterote per voto, come dicono, de' forestieri, & per cagione tale. Melete giouane Atheniese niun
+
+Колонтитул: 406 Imagini de i Dei
+Кустод: conto
+Сигнатура:
+Маргиналии:
+- Ouidio.
+- Anterote.
+- Nouella di Melito, e di Timagora.
+- Pausania.
+
+## Скан 0449 · с. 407
+
+conto facendosi di Timagora huomo forestiero, che l'amaua grandemente, gli disse vn dì tutto sdegnosetto, che gli si leuasse d'attorno, & andassesi a fiaccare il collo. Timagora non curando più di viuere, & volendo in tutte le cose compiacere cui egli amaua tanto, si lasciò cadere dall'alta cima di vna certa rupe, & morì miseramente: di che Melete pentito della sua superbia sentì tanto dispiacere, che furiosamente poco da poi fece il medesimo fine, che l'amante suo haueua fatto; onde fu detto che Anterote haueua fatta la vendetta di Timagora, & gli fu perciò consecrato l'altare ch'io dissi. Fu dunque Anterote vn nume, il quale puniua chi non amaua essendo amato, & non ch'ei facesse disamare, e potiamo dire, che questo altro non sia, che l'amore reciproco, come anco vien confermato da Porfirio scriuendo di costui in questo modo. Haueua Venere partorito Cupido già di alcuni dì, quando ella si auuide, che ei non cresceua punto, ma tuttauia staua così piccolino, come era nato, onde non sapendo a ciò come prouedere, nè dimandò consiglio all'Oracolo, il quale rispose che Cupido stando solo non crescerebbe mai, ma bisognaua a farli vn fratello, acciòche lo amore fosse trà loro scambieuole, che all'hora Cupido crescerebbe quanto fosse di bisogno. Venere prestando fede alle parole dell'Oracolo; da indi a poco partorì Anterote, il quale non fu così tosto nato, che al par di Cupido cominciò a crescere, mettere l'ali, & caminare gagliardamente, & è di questi due statà poi la sorte tale, che di rado, ò non mai è l'vno senza l'altro, & se vede Cupido che Anterote cresca, e si faccia grande, ei vuole mostrarsi maggiore, & se lo vede piccolo, diuenta egli parimente piccolo, benche questo faccia spesso a suo dispetto. Adunque l'amore cresce, quando è posto in persona, che medesimamente ami, & chi è amato dee parimente amare, & questo mostrarono gli antichi per Cupido, e per Anterote. Per la quale cosa gli Elei, gente della Grecia, in certa parte delle loro scuole metteuano l'vn, & l'altro, accioche si ricordassero i giouani di non esser ingrati contra chi gli amaua, ma ricambiassero lo amore, così amando altri, come da altri si sentiuano essere amati. Stauano dunque due imagini ouero statoe de' fanciulli, de' quali l'vno era Cupido, che teneua in mano vn ramo di palma, & l'altro Anterote, il quale si sforzaua di leuarglielo, e mostraua di affaticarsi assai, nè poteua però, quasi che debba con ogni suo sforzo mostrare chi risponde in amore di nõ amare punto meno di colui, che ama prima, & perciò si sforza Anterote di leuare la palma di mano di Amore. Del quale parlando M. Tullio per adulare Attico suo, come riferisce Lattantio, e quasi per motteggiarlo, disse che furono i Greci di gran cõsiglio, & di parere molto audace a porre a porre dauanti a gli occhi de i giouani, oue si doueuano essercitare nelle cose virtuose, la imagine di Cupido, quasi credesse egli, che con quella non meno si potesse
+
+Колонтитул: De gli Antichi. 407
+Кустод: potesse
+Сигнатура: Cc 4
+Маргиналии:
+- Porfirio.
+- M. Tullio.
+
+## Скан 0450 · с. 408
+
+[ГРАВЮРА — полностраничная]
+Imagine de gli Dei Erote, & Anterote fratelli & figliuoli di Venere, intesi l'vno per l'amare l'altro per il riamare, ouero l'amor reciproco, & l'imagine dell'amor Letheo che fà disamare, & dimenticare la persona amata.
+
+Колонтитул: 408 Imagini de i Dei
+Кустод:
+Сигнатура:
+Маргиналии:
+
+## Скан 0451 · с. 409
+
+potesse suegliare ne gli animi giouenili le lasciuie, & i dishonesti piaceri, li quali diceuano gli antichi tutti venire da Cupido, che accendergli alla virtù. A che volendo forse rimediare i Romani, non metteuano Amore solamente nelle loro Academie, & oue si essercitauano i giouani, ma insieme con quello anco Mercurio, & Hercole, sì che la statoa di Cupido era nel mezo di queste due, per mostrare che fosse ragioneuole, & virtuoso, perche mostraua Hercole la virtù, & Mercurio la ragione. Et Atheneo scriue, che gli antichi Filosofi stimarono Amore essere vn Dio molto graue, & alieno da ogni bruttezza, dicendo che ciò si poteua conoscere da questo, che posero la sua statoa con quela di Mercurio, e di Hercole; che sono sopra, quello alla eloquenza, questo alla fortezza, & dalla compagnia di costoro nasce Amicitia e Concordia. Hebbero ben poj gli antichi l'Amore ancora, che faceua dismare, e mettere in oblio tutto il bene, che si voleua altrui, e fu chiamato Amore Letheo, la statoa del quale, che chiamaua le ardenti faci nel fiume, & quiui le estingueua, era nel tempio di Venere Ericina, del quale fece mentione Ouidio, e disse, che colà andauano à porgere gli deuoti preghi tutti i giouani, li quali desiderauano di scordarsi le loro innamorate, & le giouani parimente che si accorgeuano di hauere mal posto i loro amori. A che hebbero i Greci vn piu bel rimedio; perche senza pregare altrui, lauandosi solamente nel fiume Seleno, poco lungi da Patra città dell'Achaia, si scordauano gli huomini, e le donne tutti quelli amori, delli quali non voleuano più ricordarsi, che così teneuano che fosse, quelli del paese. Ma Pausania che questo racconta, dice che è fauola, che se fosse vero, le acque di quel fiume sarebbono stimate più di tutte le ricchezze del mondo: & Plinio fa mentione di certo fonte chiamato di Cupido appresso de' Ciziceni, & del quale chi beeua scordauasi subito ogni amoroso affetto. Ma se Cupido altro non è, che l'affettuoso desiderio da noi posto intorno alle cose, l'Amore non sarà vno, nè due, anzi molti, come pongono i Poeti, quali fauoleggiando esprimono spesso le forze de gli animi nostri, le diuerse passioni, & i varij loro affetti, & perciò dissero che molti erano gli Amori, come anco scriue Alessando ne' suoi problemi, perche non amiamo tutti vna cosa medesima, nè in vn medesimo modo, ma diuersamente ama ciascheduno, & spesso ancora diuerse cose: il che non si potrebbe fare, se Amore fosse vno solamente. Finsero dunque gli antichi, che fosser molti, li quali faceuano tutti fanciullini bellissimi con l'ali, & dauano loro in mano à chi facellette ardenti, à chi strali acutissimi, & à chi saldissimi lacciuoli, come benissimo mostra Propertio scriuendo à Cinthia sua, che così dice in nostra lingua.
+
+Колонтитул: De gli Antichi. 409
+Кустод: Mentre
+Сигнатура:
+Маргиналии:
+- Mercurio, & Hercole con Cupido.
+- Amore Letheo.
+- Pausania.
+- Plinio.
+- Molti sono gl'Amori.
+- Amore.
+- Propertio.
+
+## Скан 0452 · с. 410
+
+*Mentre che l'altra notte, Vita mia,*
+*Errando me ne vado dopò cena,*
+*Senza pur hauer vno in compagnia.*
+*La sorte, nè sò già come, mi mena*
+*Doue vno stuol mi Vien'ad incontrare*
+*Di fanciulli, che paion nati a pena.*
+*Quanti fosser non sò, che numerare*
+*Non gli potei per la tema, ch'al core*
+*N'andò, ch'al fatto mio fè pensare.*
+*Nè bisognaua non hauer timore*
+*Di loro, se ben'eran piccolini;*
+*Ch'assai son grandi in dar'altrui dolore.*
+*Mostrauan tutti i nudi corpiccini*
+*Così Vaghi, sì belli, e ben formati:*
+*Che mai non Vidi piu bè fanciullini:*
+*Et alcuni di loro erano armati*
+*Di viue fiamme in facellette accolte,*
+*Onde ogni dì ne son molti abbruciati.*
+*Alcuni con le braccia snelle, e sciolte,*
+*E preste al saettar portan gli strali,*
+*Che mè nel cor ferito han già più volte.*
+*Et alcuni altri certi lacci, quali*
+*Mostraron d'hauer sol per me legare,*
+*Perch'vn di lor disse parole tali:*
+*Pigliate costui, sù, che State à fare?*
+*Lo conoscete pure, e quelli presto*
+*Mi furo intorno; nè potei scampare,*
+*Si che per lor legato in tua man resto.*
+
+Filostrato parimente nelle sue dipinture dice; che gli Amori sono molti, e gli fa essere figliuoli delle Ninfe, come fa Claudiano ancora, quando scriue delle nozze di Honorio, & di Maria, li quali gouernano i mortali: perche molte parimente sono le cose, che questi amano: & ne dipinge vna bella tauola, la quale stà così secondo il ritratto, ch'io ne hò saputo cauare. Euui vn giardino bellissimo con vaghi arbuscelli piantati con tal'ordine, che da ogni banda a'riguardanti mostrano vna assai spatiosa via coperta tutta di freschissima herba tanto molle, e delicata, che sopra qual altra si voglia cosa non si potrebbe giacere più delicatamente. Da i rami delle belle piante pendono pomi gialli, & lucidi sì, che paiono d'oro alli quali gli Amori tutti nudi si riuolgono, ò vi volano intorno leggierissimi, hauendo già attaccate a gli arbori le dorate faretre piene di pungenti strali: & alcuni panni di diuersi colori sono gittati quiui per l'herbe piene di varij fiori.
+
+Колонтитул: 410 Imagini de i Dei
+Кустод: fiori.
+Сигнатура:
+Маргиналии:
+- Filostrato.
+- Pittura de gli Amori.
+
+## Скан 0453 · с. 411
+
+fiori. Le dorate chiome a gli Amori sono in vece di ghirlande: nè sono le penne delle ali tutte di vn medesimo colore, ma alcune rosse, alcune gialle, & alcune di color cilestre. Et di loro, quattro i più belli si sono scostati da gli altri, delli quali due giuocando si gettano pomi à vicenda l'vn co l'altro, e gli altri due si saettano l'vno con l'altro non mostrandosi però in viso di essere punto adirati, anzi ciascheduno di loro porge il nudo petto, accioche non vengano gli strali in vano, ma feriscano là, doue sono indrizzati. Le quali cose mostrano il cominciamento dello Amore, & la confermatione del medesimo, perche gli due, che giocano co i pomi danno principio all'Amore; onde si vede, che questo bacia il pomo, & lo getta, e questo stà con le mani alte per pigliarlo, acennando che lo bacierà anch'egli, quando l'haurà pigliato, & lo rimanderà parimente. E da questo forse tolse Suida quello, ch'ei scriue, che gittare altrui vn pomo significa inuitarlo ad amare. Onde Virgilio ancora in vna sua pastorale, fà così dire a Dameta.
+
+*La Vaga Galatea mi getta vn pomo,*
+*E poi sen fugge, ma pria, che s'asconda*
+*Frà Verdi salci Vuol pur, ch'io la veggia.*
+
+Gli altri due poi, che si saettano confermano l'Amore gia cominciato, quasi che essi lo facciano penetrare al cuore. Quelli dunque giuocano per cominciare ad amare, questi saettano, perche l'Amore si confermi, & perseueri. Vna Lepre è poi, che stà sotto vn'arbore mangiando de i pomi già caduti a terra, alla quale gli Amori danno la caccia, & la spauentano, questo battendo le mani insieme quello gridando, e quell'altro scuotendo la veste, ch'era in terra. Alcuni vi volano sopra, & le gridano, alcuni pian piano vanno dietro alla sua orma, & alcuni si lanciano, quasi gli si vogliano gittare addosso; ma l'animale si volta in altra parte, oue vno de gli Amori stà in agguato, credendosi di pigliarlo con le mani per vn piede, & vn'altro, che l'haueua già quasi pigliato, se lo vede vscire di mano: di che ridono poi tutti sì fattamente, che per le risa non si ponno tenere in piè, ma si lasciano cadere à terra, chi di trauerso, chi boccone, e chi risguardano con la faccia al Cielo. Nè vuole però alcuno di loro adoperare gli pungenti strali, ma tutti vorrebbono pigliare quello animale viuo, per farne poi gratissimo sacrificio à Venere, come che la Lepre molto bene a lei si confaccia, perche dicono, ch'ella è frequentissima al coito, onde mentre che lata gli figliuoli già fatti, ne fa de gli altri tuttauia, e tuttauia si impregna, sì che partorisce la Lepre a tutti i tempi, come scriue Plinio, nè si conosce il maschio dalla femina, ma si crede, che in tutti sia la medesima virtù così del maschio, come della femina. Oltre di ciò, dice il medesimo Plinio, che credettero al-
+
+Колонтитул: De gli Antichi. 411
+Кустод: cuni,
+Сигнатура:
+Маргиналии:
+- Virgilio.
+- Lepre confà si à Venere.
