@@ -10854,3 +10854,132 @@ QVesto primiero nell'acconciatura di capo è molto simile alle strauaganze Egitt
 Колонтитул: Delle Imagini de i Dei. 563
 Кустод: Et
 Сигнатура: Nn 2
+
+## Скан 0610 · с. 564
+
+[ИНИЦИАЛ: N]Ella soprascritta Galleria all'vno & all'altro de gl'Idoli detti, è stata affissa vna breue diceria in lingua Spagnola di questo tenore; Idolo adorato nella Città del Messico, che fu mandato dall'Indie al Card. FRANCESCO XIMENEZ Arciuescouo di Toledo, & Fondator della Vniuersità d'Alcalà d'Henares; con testimonianza autentica, che il Demonio soleua parlare per quello ben spesso. Et questi due Ritratti (per darne la lode à chi viene) si sono hauuti per mezo del nobilissimo Signore GIO. GIORGIO HERVVARTO consigliere intimo di quell'Altezza, homo di singolare letteratura. Et in somma per tutto questo, che chiamano nouo mondo, tanto nell'Occidente quanto nell'Oriente, io ho auertito tanta la conformità fra le superstitioni Egittiane, & quelle del Paese, che ho hauuto a marauigliarmi alcune volte. Scriue vn Padre del Giesù fin del 1553, di Goa, d'hauer osseruato vn Pagode di quei paesi, nel quale si vedeua vna statua con tre capi, tre gambe, tre mani, & che si chiamaua il Pagode dell'Elefante; & del 1560. il Padre Lodouico Fores racconta, che vn Idolo nel paese di Goa, detto per nome Ganissone, ha pure il capo d'Elefante; & ne racconta il perche in questo modo. Narrauano (dice esso), che essendosi congionti in matrimonio Adamo, & Eua, ne hauendo ancora riceuuti figlioli, che venne bisogno ad Adamo d'vscire di casa per certa facenda; hora attendendo Eua à non so che suo bisogno manuale, cominciò à sudare, & vscendogliene in copia, si mise à leuarselo con la mano tanto dal capo quanto dalle braccia, ne finì di correre, che questo sudore in mano li diuentò vn'huomo di perfetta statura. Ritornato Adamo a casa, & ingelosito di vedere con la moglie vn'altr'huomo, ch'esso non sapeua chi si fosse, diede di mano ad vna spada & ammazzò suo figliolo, ma pentito poi, & risaputo il fatto da Eua, tagliato il capo ad vn'Elefante lo innestò sopra il cadauero del figliuolo; & così hebbe vita, & in tal figura fu canonizato poi; e la fauola ad ogni modo è bella; & ad alcuno parerà forsi d'hauersi sognato altre volte accidenti simili, ma non così di proposito spropositati.
+
+[ВИНЬЕТКА: наборный орнамент-разделитель]
+
+Колонтитул: 564 · Parte Seconda
+Кустод:
+Сигнатура: Ff
+
+## Скан 0611 · с. 565
+
+[ГРАВЮРА: без подписи]
+
+[ИНИЦИАЛ: E]T queste compositioni d'huomo, & di bestia non sono d'altra religione, che di quella d'Egitto, come si può vedere nelle anticaglie di quel Paese. Nel Giapone (o pure vogliamo Giapan) non erano disformità minori. Scriue il sopradetto Padre, del 1565, che vicino a la Città di Meaco, in certo Tempio si vedeuano mille imagini di Canone figliolo d'Amida (era Amida Dio forastiero non dal Paese introdottoui da Xaca Chinese solenne ciurmatore). Erano queste imagini ben fatte, di faccia gentile, con vna moltiplicità di braccia, e mani, & con certe altre mostruosità, come si vede nella figura sottoscritta.
+
+Колонтитул: Delle Imagini de i Dei. 565
+Кустод: Et
+Сигнатура: Nn 3
+
+## Скан 0612 · с. 566
+
+[ГРАВЮРА: без подписи]
+
+[ИНИЦИАЛ: E]T queste due figure quanto s'accostino à pensieri delli Egittij non è necessario il prouarlo. Nella medesima Città di Meaco si vedeua altre volte vna statua di Amida con l'orecchie forate, meza nuda, e staua à sedere sopra vna gran Rosa, come altroue la statua di di Xaca fatta di metallo tolta in mezo da' figlioli, l'vno chiamato Canone, l'altro Xixi, posta pure à sedere in vna ampia, e vaga Rosa. Simile positura dauano gl'Egittij à Sigalione ouero Harpocrate loro Dio, come si vede in vn Diaspro antico appresso di me.
+
+Колонтитул: 566 · Parte Seconda
+Кустод: Del
+Сигнатура:
+
+## Скан 0613 · с. 567
+
+[ГРАВЮРА: без подписи]
+
+[ИНИЦИАЛ: D]El medesimo Amida pure, non lontano da Meaco, si vedeua vna gran statua in habito di Brachmane, con l'orecchie forate, col mento & col capo raso; sopra la statoa pendeuano dal tetto, in maniera d'ombrella, molti sonagli attaccati a catene. Intorno alla medesima faceuano quasi moresche alcuni soldati armati, & altre figure de' Mori, d'vna strega, & di brnttissimi Diauoli; di più vi si vedeua l'imagine del Vento, e del Tuono, formate in horribile figura.
+
+[ВИНЬЕТКА: без подписи]
+
+Колонтитул: Delle Imagini de i Dei. 567
+Кустод: Et
+Сигнатура: Nn 4
+
+## Скан 0614 · с. 568
+
+[ГРАВЮРА: без подписи]
+
+[ИНИЦИАЛ: E]T perche ancora di là il Demonio haueua introdotte Academie, & Studenti, in vn Tempio fabricato ad effetto di approuare & graduare quelli che lo meritauano, si vedeua la figura del Dio delle lettere, & della Eruditione, ch'era la Lucerta o Ramarro. Di questo non si vedeua ne statua, ne Altari, ma la figura sola nel soffitto del Tempio, fatta in giro & in forma rotonda, come gl'Egittij rappresentauano per il Serpente l'anno.
+
+Колонтитул: 568 · Parte Seconda
+Кустод: Pom̃
+Сигнатура:
+
+## Скан 0615 · с. 569
+
+[ГРАВЮРА: без подписи]
+
+Колонтитул: Delle Imagini de i Dei. 569
+Кустод:
+Сигнатура: Io
+
+## Скан 0616 · с. 570
+
+[ГРАВЮРА: без подписи]
+
+[ИНИЦИАЛ: I]L già nominato Filippo Vinghomio in certo suo foglio disegnò già i Tempij d'alcune Deità Giaponesi, situati sopra alcuni alti rupi, & raccontaua d'hauerli cauati dalli Pittori, che gl'Ambasciatori Giaponesi portarono à donare a Papa Gregorio XIII.
+
+[ВИНЬЕТКА: наборный орнамент-разделитель]
+
+Колонтитул: 570 · Parte Seconda
+Кустод: Ma
+Сигнатура:
+
+## Скан 0617 · с. 571
+
+[ГРАВЮРА: без подписи]
+
+[ИНИЦИАЛ: M]A mentre io andauo cercando & intendendo, per arrichire questo mio discorso, tutto quello che poteua fare a mio proposito, mi venne innanzi per diligenza del Sig. GIROLAMO ALEANDRO il giouane, viua e compita imagine del grande GIROLAMO ALEANDRO Cardinale, il disegno d'vn Idolo Giaponese cauato dall'Originale, che in Roma si conserua appresso i Padri del Giesù, & era quello medesimo, che rendeua le risposte, ouero oracoli a' gentili. Il nome è Maloco ouero Malocho, del quale io non mi ricordo hauer letto cosa alcuna appresso quelli, che hanno tocco le cose di quel paese.
+
+Колонтитул: Delle Imagini de i Dei. 571
+Кустод:
+Сигнатура: Ma
+
+## Скан 0618 · с. 572
+
+[ГРАВЮРА: без подписи]
+
+[ИНИЦИАЛ: D]I questo Idolo io non saprei, che mi dire, se non che pare, che'l Demonio si sia seruito della maniera delle imagini nostre, per imprimere ne gl'animi della Gentilità di quei paesi, li suoi inganni. Era questo Idolo della grandezza appunto, che qui si è ritratta tutto di legno dorato, eccetto la corona ch'è di rame colorato d'oro; e di rame pur sono le insule (per dir così) che dal cappelletto dipendono. Il cappelletto è di legno, ma colorito d'azzuro. Et questa imagine: come ho detto, mi fece non poco marauigiare per la compostezza, che si vede in essa, di riuerenza, & non so che deuotione. Ma
+
+Колонтитул: 572 · Parte Seconda
+Кустод: restai
+Сигнатура:
+
+## Скан 0619 · с. 573
+
+restai più stupito poi, quando per la esatta sollecitudine del medesimo Sig. ALEANDRO mi capitarono alle mani quattordeci Idoletti del medesimo Paese, che qui sotto per ordine si registrano.
+
+[ГРАВЮРА: без подписи]
+
+[ИНИЦИАЛ: L]E circonstanze loro ce le dirà chi le mandò, che così me scriue.
+
+[ИНИЦИАЛ: Q]Vest'Idolo è caluo, col volto ridente in maniera, che mostra i denti, ha nudi il braccio e la spalla dritta, ha le mani incrocicchiate, la carnaggion sua è di color ordinario di carne, la toga ò sopraueste d'oro tempestata di punte rosse, e mostra esser foderata di verde, la tonica ò veste di sotto è di color lionato, o rouano ricamata d'oro. Il cerchio, ch'ha attorno il capo, è di filo di rame, si come hanno anche il 4. il 5. e'l 9.
+
+Колонтитул: Delle Imagini de i Dei. 573
+Кустод:
+Сигнатура:
+
+## Скан 0620 · с. 574
+
+[ГРАВЮРА: без подписи]
+
+[ИНИЦИАЛ: H]A la carnaggione di colore rossissimo dipinto di Cinaprio, cioè il volto, il collo, e le mani. Il cappelletto è cerchiato di color bianco, e'l resto lionato vergato d'oro, le bende, che dipendono sono di rame indorato, si come anco il cerchio, che ha dietro la testa. L'armatura, della quale è vestito, è tutta d'oro, e la veste di sotto è verde; le calzette sono azurre. Il mostrn, o che si fia, sotto i piedi, è della medesima carnaggione rossa con vn poco di giubba bianca.
+
+Колонтитул: 574 · Seconda Parte
+Кустод: E di
+Сигнатура:
+
+## Скан 0621 · с. 575
+
+[ГРАВЮРА: без подписи]
+
+[ИНИЦИАЛ: E] Di statura nana, di colore azurro il volto, e le mani la beretta nera; il vestimento verde listato d'oro, la rosa in petto è d'oro; il martello o che si sia, che tiene nella mano dritta, è d'oro. Il sacco, che tiene sopra la spalla manca, è bianco; le scarpe sono nere. paiono due botticelle quelle, sopra le quali sta in piedi, e sono gialle vergate di nero.
+
+[ИНИЦИАЛ: H]A il volto del solito color della carne; il cappello nella parte di sopra è azurro, nelle alette rouesciate è dorato; la veste di sotto, che il copre il petto, è dorata; la sopraueste è azurro, ma foderata di bianco intorniato di rosso come si vede nella parte segnata. A. il coscino sopra il quale è posto, è pur di color bianco listato di rosso.
+
+Колонтитул: Delle Imagini de i Dei. 755
+Кустод: Esi-
+Сигнатура:
+Нумерация: на странице напечатано 755, в PAGES.tsv 575
