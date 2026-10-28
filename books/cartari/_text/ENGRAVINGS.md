@@ -104,6 +104,7 @@
 | 0186 | 144 | гравюра | Imagine dell'oracolo di Gioue Hammonio de Trogloditi significante l'oscurità, & viltà delle cose mondane, & che bisogna riguardare, & inalzarsi con l'acutezza dell'intelletto all'altezza delle diuine. | |
 | 0188 | 146 | гравюра | Imagine di Gioue Hammonio de gli Arcadi, & degli Egittij, & della quercia, & del montone à lui sacrati, significanti Iddio esser auttore della vita & mantenitore del viuere, & delle risposte dubie del detto oracolo Hammonio. | |
 | 0191 | 149 | виньетка | — два путти с вазами | |
+| 0192 | 150 | инициал | Q | |
 | 0193 | 151 | гравюра | Imagine di Giunone Lucina, & della Dea Siria de Hieropoli nell'Assiria, che è vn'istessa con Giunone: & delli vccelli a lei sacrati, significanti Giunone esser regina del Cielo, dominatrice dell'aria signora de regni, & delle ricchezze. Questa fu intesa ancora per la virtù. | |
 | 0197 | 155 | гравюра | Imagine di Iride messaggiera di Giunone, figliuola di Thaumante, o sia della ammiratione: simbolo per i suoi colori delle ricchezze, che sono di marauiglia a' sciocchi, & presto spariscono. | |
 | 0199 | 157 | гравюра | Imagine di Giunone Regina degli Dei, moglie di Gioue, intesa per l'aria, & l'imagine di Giunone Corinthia, & del Cucco vccello, nel quale si mutò Gioue quando da prima giacque con la detta Dea Giunone sua sorella. | |
