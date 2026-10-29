@@ -1380,8 +1380,8 @@ Giano Grutero
 Giorgio Pittorio la Consucratiene.
 Melchior Barleo,& in verso, in tre libri.
 Guglielmo Choul, della religione.
-Pier Giacomo Montefalco &     Le Feste,& Celebrità.
-Vicenzo Cartari,nel Flauio
+Pier Giacomo Montefalco &
+Vicenzo Cartari, nel Flauio. } Le Feste, & Celebrità.
 Si come ancora tutti quelli, che hanno dichiarato Calendarij vrbani & rustici antichi, come F.Orsino, Piero Ciaccone, Aldo Manutio & altri.
 Natal de' Conti le Allegorie o Mitologie.
 Vlisse Aldrouandi ha descritto le Statue delle Deità & altre, che sono in Roma.
