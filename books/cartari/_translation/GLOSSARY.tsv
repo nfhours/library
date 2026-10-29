@@ -47,7 +47,7 @@ Herodoto	Геродот	Herodotus	Hérodote
 Appiano	Аппиан	Appian	Appien
 Seruio	Сервий	Servius	Servius
 Eusebio	Евсевий	Eusebius	Eusèbe
-Theodorito	Феодорит Кирский	Theodoret of Cyrrhus	Théodoret de Cyr
+Theodorito	Феодорит	Theodoret of Cyrrhus	Théodoret de Cyr	Феодорит Кирский
 Porfirio	Порфирий	Porphyry	Porphyre
 Aristofane	Аристофан	Aristophanes	Aristophane
 Luciano	Лукиан	Lucian	Lucien
@@ -128,7 +128,7 @@ S. Ambrogio	Святой Амвросий	Saint Ambrose	Saint Ambroise	отец 
 Peloponneso	Пелопоннес	Peloponnese	Péloponnèse	область Греции
 Atheneo	Афиней	Athenaeus	Athénée	автор
 Germania	Германия	Germania	Germanie	область/народы, упомянуты по поводу почитания Либурны
-Ciembalo	Кимвал	cymbal (sistrum)	cymbale	атрибут Исиды; в тексте то же, что Систр (см. Sistro)
+Ciembalo	Кимвал	cymbal (sistrum)	cymbale	атрибут Исиды; в тексте то же, что Систр (см. Sistro); с заглавной и там, где у Картари строчная
 Auoltoio	Гриф	vulture	vautour	птица, знак Природы в Египте; у Картари «Auoltoio»; также птица, посвящённая Юноне (Элиан)
 Lunette	Лунницы	lunulae (crescent ornaments)	lunules	полумесяцы на обуви римской знати
 Lucano	Лукан	Lucan	Lucain	автор
@@ -373,7 +373,7 @@ Cornelio Tacito	Корнелий Тацит	Cornelius Tacitus	Tacite
 Diodoro Ciciliano	Диодор Сицилийский	Diodorus Siculus	Diodore de Sicile	
 Meone	Меон	Meon	Méon	царь Фригии, отец Кибелы (Диодор)
 Dindimene	Диндимена	Dindyme	Dindymène	
-Fistola	Свирель	Pipe (syrinx)	Flûte	«Fistola fatta di cannelle» → «Свирель из соединённых тростинок»
+Fistola	Свирель	Pipe (syrinx)	Flûte	«Fistola fatta di cannelle» → «Свирель из соединённых тростинок»; с заглавной и там, где у Картари строчная
 Cubo	Куб	Cube	Cube	этимология Кибелы у Феста Помпея
 Sipilo	Сипил	Sipylus	Sipyle	гора Фригии
 Esculapio	Эскулап	Aesculapius	Esculape	
@@ -391,7 +391,7 @@ Landino	Ландино	Landino	Landino	Кристофоро Ландино, то
 Hettore	Гектор	Hector	Hector	
 Vestibulo	Вестибул	Vestibule	Vestibule	
 Lari	Лары	Lares	Lares	домашние Боги
-Focolare	«Focolare» (очаг)	hearth	foyer	этимология Картари «Lare + Foco»: слово оставлено по-итальянски
+Focolare	очаг (focolare)	hearth	foyer	этимология Картари «Lare + Foco»: «очаг называют *focolare*, словно Лар (*lare*) и очаг (*foco*)»; помета «Очаг (focolare)»
 Giano	Янус	Janus	Janus	
 Dea Bona	Добрая Богиня	Bona Dea	Bonne Déesse	«fu chiamata Bona» → «назвали Доброй»
 Fauna	Фавна	Fauna	Fauna	= Добрая Богиня, дочь Фавна
@@ -444,3 +444,5 @@ Serpente	Змей	Serpent	Serpent	с заглавной (правило 12); «b
 Vitello	Телёнок	Calf	Veau	с заглавной (правило 12)
 sauina	сабина	savin	sabine	можжевельник, для окуривания на Палилиях
 sapa	сапа	sapa (boiled must)	sapa	уваренное виноградное сусло
+Imperatore	Полководец	imperator (general)	imperator	в римском контексте — командующий войском (стенная корона), не «Император»
+fauoreuole	благосклонная (fauoreuole)	favourable	favorable	этимология «Fauna» от «fauoreuole/fauorisce»: итальянское слово дать курсивом в скобках
