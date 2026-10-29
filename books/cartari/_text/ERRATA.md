@@ -55,6 +55,16 @@
 | 0273 | 231 | gindici | giudici | перепутанная буква |
 | 0274 | 232 | Qintiliano | Quintiliano | пропущена буква |
 | 0277 | 235 | caminamente | caninamente | перепутанная буква |
+| 0278 | 236 | suo | suoi | пропущена буква |
+| 0279 | 237 | statoa | statua | перепутанная буква |
+| 0279 | 237 | del a | della | перепутанная буква |
+| 0282 | 240 | Thesea | Theseo | перепутанная буква |
+| 0284 | 242 | mglio | meglio | пропущена буква |
+| 0288 | 246 | vẽdetta | vendetta | пропущена буква |
+| 0291 | 249 | rempij | tempij | перепутанная буква |
+| 0293 | 251 | Ethocle | Etheocle | пропущена буква |
+| 0303 | 261 | guerrra | guerra | лишняя буква |
+| 0304 | 262 | espngnata | espugnata | перепутанная буква |
 | 0482 | 440 | licentiosamenre | licentiosamente | перепутанная буква |
 | 0493 | 451 | compagria | compagnia | перепутанная буква |
 | 0494 | 452 | rccoglie | raccoglie | пропущена буква |
