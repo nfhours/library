@@ -5650,7 +5650,7 @@ Et le guerre sono cagione del contrario. Onde Claudiano finge, che Cerere non vo
 *Vieni alma Pace con la Spica in mano,*
 *Et di bei frutti pieno il bianco senno.*
 
-Et la coronauano talhora di vliuo, & alle volte di Lauro. Et vedesi ancora in alcune medaglie antiche la Pace con ghirlanda di rose. Ma beche siano i nomi diuersi, & ne fossero ancora fatte diuerse imagini, nondimeno mi pare, che la Pace, & la Concordia siano vna medesima cosa, & furono l'vna, e l'altra adorate da gli antichi, accioche dessero loro vita quieta, & riposata. Sarà dunque bene, che hauendo disegnata, quella io disegni questa ancora, la quale era fatta in forma di donna, che teneua con la destra mano vna tazza, & nella sinistra haueua il corno della copia, onde così disse Seneca di lei.
+Et la coronauano talhora di vliuo, & alle volte di Lauro. Et vedesi ancora in alcune medaglie antiche la Pace con ghirlanda di rose. Ma bèche siano i nomi diuersi, & ne fossero ancora fatte diuerse imagini, nondimeno mi pare, che la Pace, & la Concordia siano vna medesima cosa, & furono l'vna, e l'altra adorate da gli antichi, accioche dessero loro vita quieta, & riposata. Sarà dunque bene, che hauendo disegnata, quella io disegni questa ancora, la quale era fatta in forma di donna, che teneua con la destra mano vna tazza, & nella sinistra haueua il corno della copia, onde così disse Seneca di lei.
 
 *Et à colei, che può del fiero Marte*
 *Stringe le sanguinose man porgendo*
@@ -5681,7 +5681,7 @@ Et alle volte ancora fu posto vno scettro in mano alla Concordia, dal quale pare
 
 ## Скан 0308 · с. 266
 
-tione descriue la Concordia, che sia di aspetto bello, & graue, compressa di corpo, e ben fatta, di buonissimo colore, e tutta vaga, & non habbia in sè cosa, che punto discordi dalla bellezza sua. Et dice, che ella scese già per bontà de i Dei di Cielo in terra, accioche per le cose de i mortali andassero con certo ordine; imperoche per costei sono coltiuati i campi, & ciascheduno sicuramente possiede quel, che è suo; da costei sono gouernate le Città, sono fatte, e conseruate le liete nozze, & nodriti erano, & ammaestrati i figliuoli poi. Fu mostrata la Concordia qualche volta ancora con due mani insieme giunte; il che si vede in certa medaglia antica di Nerone: come faceuano etiandio della Fede gli antichi, la quale hebbero parimente per Dea, & la fa Silio Italico habitare nella più secreta parte del Cielo, fra gli altri Dei, quando finge, che Hercole la và a trouare per la difesa di Sagunto, & le comincia à parlare in questo modo.
+tione descriue la Concordia, che sia di aspetto bello, & graue, compressa di corpo, e ben fatta, di buonissimo colore, e tutta vaga, & non habbia in sè cosa, che punto discordi dalla bellezza sua. Et dice, che ella scese già per bontà de i Dei di Cielo in terra, acciòche per le cose de i mortali andassero con certo ordine; imperoche per costei sono coltiuati i campi, & ciascheduno sicuramente possiede quel, che è suo; da costei sono gouernate le Città, sono fatte, e conseruate le liete nozze, & nodriti erano, & ammaestrati i figliuoli poi. Fu mostrata la Concordia qualche volta ancora con due mani insieme giunte; il che si vede in certa medaglia antica di Nerone: come faceuano etiandio della Fede gli antichi, la quale hebbero parimente per Dea, & la fa Silio Italico habitare nella più secreta parte del Cielo, fra gli altri Dei, quando finge, che Hercole la và a trouare per la difesa di Sagunto, & le comincia à parlare in questo modo.
 
 *O santa Fè, che innanzi al sommo Gioue*
 *Fosti creata, e adorni huomini, e Dei:*
@@ -5763,12 +5763,12 @@ loro sacerdoti. Ma già è tempo che ritorniamo a Mercurio disegnato con l'ali a
 *Et altre Vi ripone, e dona, e toglie*
 *I sonni, e molti ancor di Vita scioglie.*
 
-Potrei porre de gli altri Poeti ancora, li quali nel medesimo modo l'hanno descritto: ma parmi, che questi due siano di tanta auttorità, che quando essi fanno fede di vna cosa, non se ne debba cercare altro poi, se forse non fosse per dare meglio ad intendere quello che da loro fu detto, il che non fa hora dibisogno. Furono poi date le penne a Mercurio, come hò detto, perche nel parlare, di che egli era il Dio (ò che significaua forse anco la cosa stessa) le parole se ne volano per l'aria non altrimenti, che se hauessero l'ali. Onde Homero chiama quasi sempre le parole veloci, alate, & che hanno penne. Che Mercurio hauesse sempre le penne in capo, si vede appresso di Plauto, quando per poco di hora, ch'ei si trauestì, nò ne volle essere senza, benche dicesse di farlo; perche gli spettatori conoscessero lui dal seruo di Anfitrione, nel quale si era mutato, & queste sono sue parole.
+Potrei porre de gli altri Poeti ancora, li quali nel medesimo modo l'hanno descritto: ma parmi, che questi due siano di tanta auttorità, che quando essi fanno fede di vna cosa, non se ne debba cercare altro poi, se forse non fosse per dare meglio ad intendere quello che da loro fu detto, il che non fa hora dibisogno. Furono poi date le penne a Mercurio, come hò detto, perche nel parlare, di che egli era il Dio (ò che significaua forse anco la cosa stessa) le parole se ne volano per l'aria non altrimenti, che se hauessero l'ali. Onde Homero chiama quasi sempre le parole veloci, alate, & che hanno penne. Che Mercurio hauesse sempre le penne in capo, si vede appresso di Plauto, quando per poco di hora, ch'ei si trauesti, nò ne volle essere senza, benche dicesse di farlo; perche gli spettatori conoscessero lui dal seruo di Anfitrione, nel quale si era mutato, & queste sono sue parole.
 
 *E perche riconoscere mi possono,*
 *Queste penne haurò sempre nel cappello.*
 
-Perche haueua Mercurio il cappello ancora, & à questo erano anco attacate l'ali; quantunque Apuleio lo mostri senza, quando racconta il giudicio di Paride rappresentato in scena, facendo che per Mercurio comparisce vn giouane tutto bello, e vago nell'aspetto, con biondi, & crespi crini, frà li quali erano alcune dorate penne poco da quelle differenti, che in forma d'ali spuntauano fuori, & haueua intorno vn panno solamête, che annodato al collo gli pendeua giù dal l'homero finistro, & il Caduçeo in mano. Martiano lo descriue gioui-
+Perche haueua Mercurio il cappello ancora, & à questo erano anco attacate l'ali; quantunque Apuleio lo mostri senza, quando racconta il giudicio di Paride rappresentato in scena, facendo che per Mercurio comparisce vn giouane tutto bello, e vago nell'aspetto, con biondi, & crespi crini, frà li quali erano alcune dorate penne poco da quelle differenti, che in forma d'ali spuntauano fuori, & haueua intorno vn panno solamête, che annodato al collo gli pendeua giù dal l'homero sinistro, & il Caduceo in mano. Martiano lo descriue gioui-
 
 Колонтитул: 270 Imagini de i Dei
 Кустод: ne
@@ -5826,7 +5826,7 @@ con simili statoe honorauano spesso i gradi, & valorosi Capitani mettendole in p
 - Thucidide.
 - Hermi.
 - Cicerone.
-- Hermida cuĩ prima fatti.
+- Hermida cũ prima fatti.
 - Cillenio.
 - Forza del parlare.
 - Horatio.
@@ -5840,7 +5840,7 @@ viuere vna vita domestica, honesta, & ciuile. Et per questo consecrarono gli ant
 Сигнатура:
 Маргиналии:
 - Lingua consecrata a Mercurio.
-- Dio de' Mercãti.
+- Dio de' Mercanti.
 - Cesare.
 - Gallo à canto à Mercurio.
 - Pausania.

@@ -4,16 +4,18 @@ Cartari 1626 - вырезка фрагмента фото вокруг спор�
 третьего слепого прочтения.
 
 Печатную позицию строки в скане у нас нет (проза в pages/*.md хранится
-без разрывов строк оригинала), поэтому место оценивается по ДОЛЕ текста:
-ищем контекстный фрагмент (несколько слов вокруг спорного места, как их
-печатает tools/compare.py) внутри текста страницы, берём долю
-(смещение символа / длина текста) и вырезаем полосу по всей ширине
-картинки вокруг этой доли высоты - с запасом на несколько строк сверху
-и снизу (ширина полосы задаётся --band, по умолчанию 9% высоты
-страницы - это огрубление "одна строка сверху/снизу", а не точный
-расчёт строк, см. ALGORITHM.md). Для стихов (один элемент text_fr-массива
-= одна печатная строка) это обычно попадает даже точнее, для прозы -
-с запасом.
+без разрывов строк оригинала), поэтому место оценивается по ДОЛЕ текста,
+взвешенной по строкам, а не по символам (длинный абзац прозы — это одна
+"строка" в данных, но много печатных строк; стихотворная строка — ровно
+одна печатная строка). Доля интерполируется ВНУТРИ найденной строки по
+смещению символа, иначе целый абзац схлопывается в одну точку (так было
+до исправления — проверено на сканах 0310/0312, расхождение попадало на
+соседний абзац). Поверх доли применяется отступ сверху/снизу
+(TOP_MARGIN_FRAC/BOTTOM_MARGIN_FRAC) под колонтитул и подвал страницы,
+которых в теле текста нет. Вырезается полоса по всей ширине картинки
+вокруг получившейся высоты (ширина полосы — `--band`, по умолчанию 18%
+высоты страницы — это огрубление "пара строк сверху/снизу", не точный
+расчёт).
 
 Использование:
     python3 tools/crop_diff.py --scan 0278 --context "gli suo lasciui disordinati" --out /tmp/crops/0278_01.png
@@ -106,23 +108,50 @@ def find_fraction(page_path, context):
     best = None  # (score, fraction)
     for ln, w in zip(lines, weights):
         norm_ln = normalize_loose(ln)
-        if norm_ctx and norm_ctx in norm_ln:
-            frac = (cum + w / 2) / total
-            return frac, True
-        if ctx_words:
-            hits = sum(1 for word in ctx_words if word in norm_ln)
-            if hits and (best is None or hits > best[0]):
-                best = (hits, (cum + w / 2) / total)
+        if norm_ctx and norm_ln:
+            idx = norm_ln.find(norm_ctx)
+            if idx >= 0:
+                # interpolate WITHIN this line/paragraph by character offset -
+                # a long prose paragraph is one raw "line" worth many printed
+                # lines (w>1), so placing every match at the paragraph's
+                # center (old behaviour) put distant matches on top of each
+                # other; this was confirmed wrong on scan 0312 (a 20+-line
+                # paragraph collapsed to a single point).
+                sub = (idx + len(norm_ctx) / 2) / len(norm_ln)
+                frac = (cum + sub * w) / total
+                return frac, True
+        if ctx_words and norm_ln:
+            hit_positions = [norm_ln.find(word) for word in ctx_words if word in norm_ln]
+            hit_positions = [h for h in hit_positions if h >= 0]
+            if hit_positions:
+                hits = len(hit_positions)
+                sub = (sum(hit_positions) / len(hit_positions)) / len(norm_ln)
+                frac = (cum + sub * w) / total
+                if best is None or hits > best[0]:
+                    best = (hits, frac)
         cum += w
     if best:
         return best[1], True
     return 0.5, False
 
 
-def crop_one(scan, context, out_path, band=0.09, upscale=2.5):
+# Fixed band at the very top (Колонтитул + page number, printed above the
+# body text) and bottom (gap before Кустод/Сигнатура) of every page - the
+# fraction from find_fraction() is 0..1 across the BODY text only, so it
+# must be mapped into this inner window of the image, not the raw 0..1 of
+# the whole page height. Without this, a match near the very start/end of
+# the body (e.g. a one-paragraph page with no break) crops the page header
+# or footer instead of the actual text - confirmed on scans 0310/0312
+# during calibration (both are near-start-of-body matches).
+TOP_MARGIN_FRAC = 0.07
+BOTTOM_MARGIN_FRAC = 0.05
+
+
+def crop_one(scan, context, out_path, band=0.18, upscale=2.5):
     img_path = os.path.join(IMG_DIR, f"{scan}.jpg")
     page_path = os.path.join(PAGES_DIR, f"{scan}.md")
     frac, found = find_fraction(page_path, context)
+    frac = TOP_MARGIN_FRAC + frac * (1 - TOP_MARGIN_FRAC - BOTTOM_MARGIN_FRAC)
 
     im = Image.open(img_path)
     w, h = im.size
@@ -146,7 +175,7 @@ def main():
     p.add_argument("--context", action="append", default=[], help="контекстный фрагмент (можно повторять)")
     p.add_argument("--out", help="путь для одиночной вырезки (с --context ровно один раз)")
     p.add_argument("--out-dir", help="папка для серии вырезок (с несколькими --context или --batch-json)")
-    p.add_argument("--band", type=float, default=0.09, help="доля высоты страницы на вырезку (по умолчанию 0.09)")
+    p.add_argument("--band", type=float, default=0.18, help="доля высоты страницы на вырезку (по умолчанию 0.18)")
     p.add_argument("--upscale", type=float, default=2.5, help="коэффициент увеличения (по умолчанию 2.5)")
     p.add_argument("--batch-json", help="путь к JSON-файлу: [{\"scan\":\"0278\",\"id\":\"1\",\"context\":\"...\"}, ...]")
     args = p.parse_args()
