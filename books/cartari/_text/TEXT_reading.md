@@ -10291,7 +10291,7 @@ Qui si vedono l'Onde, & la Vela & di più vn Cigno, che porta la Fortuna come s�
 
 sopra'l qual luogo vedasi Seruio.
 
-L'Amore celeste si vede in vn bellissimo Quadro di Pittura nella Galleria del Signor LVIGI CORRADINO, d'inuentione del già Signor PAOLO AICARDO, dottissimo, & cortesissimo gentil'homo.
+L'Amore celeste si vede in vn bellissimo Quadro di Pittura nella Galleria del Signor LVIGI CORRADINO, d'inuentione del gia Signor PAOLO AICARDO, dottissimo, & cortesissimo gentil'homo.
 
 Колонтитул: Annotationi · с. 524
 Кустод:
@@ -10317,7 +10317,7 @@ Questo scherzo d'Archesilao, à di nostri ha gentilmente espresso Theodoro Gallo
 Маргиналии:
 - Car. 408.
 - Car. 420.
-- Car. 421. Lin. 3.
+- Car. 421. Lin. 30.
 
 ## Скан 0568 · с. 526
 
@@ -10397,7 +10397,7 @@ DEL SIG. LORENZO PIGNORIA.
 
 ## Скан 0572 · с. 530
 
-Giano fù finto dall'antichità bene spesso con due faccie giouanili. & così lo ha rappresentato l'Ortelio.come anco stà in vn Denario antico, & in vna pezza di moneta di quella sorte, che gli antichi chiamauano Aes graue; appresso di me. & è di quella sorte di robba, che il vulgo delli Antiquarij chiama Pesi, che non sono.che i Pesi anticamente furono bene di rame, ma in forma di Palle, schiacciate però nel fondo per fermarle, & nel disopra per notarui o la cifra del peso, o'l nome del Magistrato.ma per lo piu furono di pietra, verde, o nera, durissima. & molti ne registrano Sebastiano Erizzo, & Luca Peto. io ne ho alquanti, & in vno con lettere formate di punti si legge vn Marco Fusio. & è d'vna oncia perfetta. due altri ne ho con la Cifra della Semuncia, & altri maggiori. ne' tempi poi piu bassi se ne fecero di rame in forma quadra, & rotonda in diuerse maniere. & è degna di vedersi la raccolta fattane dallo Smetio, & dal Grutero. la Imag. di Giano giouane è questa. se però nò fosse la Iana di Nigidio.
+Giano fù finto dall'antichità bene spesso con due faccie giouanili. & cosi lo ha rappresentato l'Ortelio.come anco stà in vn Denario antico, & in vna pezza di moneta di quella sorte, che gli antichi chiamauano Aes graue; appresso di me. & è di quella sorte di robba, che il vulgo delli Antiquarij chiama Pesi, che non sono.che i Pesi anticamente furono bene di rame, ma in forma di Palle, schiacciate però nel fondo per fermarle, & nel disopra per notarui o la cifra del peso, o'l nome del Magistrato.ma per lo piu furono di pietra, verde, o nera, durissima. & molti ne registrano Sebastiano Erizzo, & Luca Peto. io ne ho alquanti, & in vno con lettere formate di punti si legge vn Marco Fusio. & è d'vna oncia perfetta. due altri ne ho con la Cifra della Semuncia, & altri maggiori. ne' tempi poi più bassi se ne fecero di rame in forma quadra, & rotonda in diuerse maniere. & è degna di vedersi la raccolta fattane dallo Smetio, & dal Grutero. la Imag. di Giano giouane è questa. se però nõ fosse la Iana di Nigidio.
 
 [ГРАВЮРА: без подписи]
 
@@ -10423,7 +10423,7 @@ E' gran marauiglia, che il Cartari non habbia fatto mentione alcuna della Dea Th
 
 Колонтитул: All'Imagine de i Dei. · с. 531
 Кустод: Giu-
-Сигнатура: Li 2
+Сигнатура: Ll 2
 Маргиналии:
 - Car. 110. Lin. 27.
 - Car. 188.
@@ -10566,7 +10566,7 @@ Ma perche il Sig. Girolamo Aleandro mi ha fauorito di scriuermi il suo parere in
 
 ## Скан 0586 · с. 544
 
-ta da alcuno per sua deuotione, ilquale fosse initiato così ne i misteri di Cibele, come d'Iside & anco di Bacco, parendomi che a tutti i tre possano spettare le figure in essa comprese. perche non ha dubbio, che a Cibele spettano la Pigna, i Flauti, e i Cembali, a Bacco la Falce da vendemiare, il Veretro, ilquale puo medesimamente appartenere ad Iside, per quello, che fù scritto d'Osiri. Il Tirso, che Tirso credo sia quello, che V. Sig. chiama *sceptrum Pinea insignitum*, perche ne' murari antichi ho osseruato esser della medesima forma i Tirsi, che tengono in mano le Baccanti. puo anco à Bacco appartenere la Cetra, che si vede appresso la falce vinitoria. Ad Iside è chiaro, che spetta il Sistro, e forse ancora la mezza Luna, e la sferza, che passim si effigiaua in mano d'Oro, al qual Oro spetta ancora la testuggine, stimando io verissima la spositione datali dal nostro Sandelli, poiche in vn libro di disegni, che fu di Fuluio Orsino, c'hoggidì si conserua nella Bibliotheca Vaticana, fra gl'altri dissegni di Statuette dell'istesso Oro Harpocrate, due ve n'ha, a piedi de' quali si vede vn Cane e vna testuggine. Il Serpente come a V. Sig. è noto può riguardare e Bacco, e Iside e forse anco i misteri d'Attide, com'ella discorre. fin quà il Sig. Aleandro molto dottamente.
+ta da alcuno per sua deuotione, ilquale fosse initiato così ne i misteri di Cibele, come d'Iside & anco di Bacco, parendomi che a tutti i tre possano spettare le figure in essa comprese. perche non ha dubbio, che a Cibele spettano la Pigna, i Flauti, e i Cembali, a Bacco la Falce da vendemiare, il Veretro, ilquale può medesimamente appartenere ad Iside, per quello, che fù scritto d'Osiri. Il Tirso, che Tirso credo sia quello, che V. Sig. chiama *sceptrum Pinea insignitum*, perche ne' murari antichi ho osseruato esser della medesima forma i Tirsi, che tengono in mano le Baccanti. puo anco à Bacco appartenere la Cetra, che si vede appresso la falce vinitoria. Ad Iside è chiaro, che spetta il Sistro, e forse ancora la mezza Luna, e la sferza, che passim si effigiaua in mano d'Oro, al qual Oro spetta ancora la testuggine, stimando io verissima la spositione datali dal nostro Sandelli, poiche in vn libro di disegni, che fu di Fuluio Orsino, c'hoggidì si conserua nella Bibliotheca Vaticana, fra gl'altri dissegni di Statuette dell'istesso Oro Harpocrate, due ve n'ha, a piedi de' quali si vede vn Cane e vna testuggine. Il Serpente come a V. Sig. è noto può riguardare e Bacco, e Iside e forse anco i misteri d'Attide, com'ella discorre. fin quà il Sig. Aleandro molto dottamente.
 
 [ВИНЬЕТКА: типографская концовка-гравюра в виде короны]
 
@@ -10612,7 +10612,7 @@ Sig. mio osseruandiss.
 IL SIGNOR
 PIERO BVARNO.
 
-[ИНИЦИАЛ: L]A memoria, ch'io tengo dei fauori riceuuti per lunga mano di tempo da Vostra Sig. molt'Illustre, è così fresca & viua nel mio pensiero, che se io hauessi occasione alle mani così pronta di mostrarmele grato, come so desiderarla, ardirei di promettermi qualche allegerimento di quel peso, di che la cortesia sua m'ha caricato in buona somma. Però mentre qualche corso di fauoreuole occasione mi portarà innanzi cosa di momento maggiore per le mie pretensioni, porgo a Vostra Sig. molt'Illustre questo Trattato, che sotto nome della parte delle Imagini delli Dei, esce in luce fuor della mia Stamperia; di mente ancora dell'Autore di esso, che fa stima singolare del valore di lei, & m'ha dato segno d'hauer caro, ch'io mi rissol-
+[ИНИЦИАЛ: L]A memoria, ch'io tengo dei fauori riceuuti per lunga mano di tempo da Vostra Sig. molt'Illustre, è cosi fresca & viua nel mio pensiero, che se io hauessi occasione alle mani così pronta di mostrarmele grato, come so desiderarla, ardirei di promettermi qualche allegerimento di quel peso, di che la cortesia sua m'ha caricato in buona somma. Però mentre qualche corso di fauoreuole occasione mi portarà innanzi cosa di momento maggiore per le mie pretensioni, porgo a Vostra Sig. molt'Illustre questo Trattato, che sotto nome della parte delle Imagini delli Dei, esce in luce fuor della mia Stamperia; di mente ancora dell'Autore di esso, che fa stima singolare del valore di lei, & m'ha dato segno d'hauer caro, ch'io mi rissol-
 
 Колонтитул: (нет)
 Кустод: uesse
