@@ -83,6 +83,7 @@
 | 0361 | 319 | Volcauo | Volcano | перепутанная буква |
 | 0364 | 322 | sciolgliere | sciogliere | лишняя буква |
 | 0371 | 329 | Disdordia | Discordia | перепутанная буква |
+| 0391 | 349 | Hedora | Hedera | перепутанная буква |
 | 0482 | 440 | licentiosamenre | licentiosamente | перепутанная буква |
 | 0493 | 451 | compagria | compagnia | перепутанная буква |
 | 0494 | 452 | rccoglie | raccoglie | пропущена буква |
