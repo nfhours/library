@@ -74,6 +74,15 @@
 | 0335 | 293 | denaso | denaro | перепутанная буква |
 | 0343 | 301 | Sacerdore | Sacerdote | перепутанная буква |
 | 0344 | 302 | tronate | trouate | перепутанная буква |
+| 0348 | 306 | manmella | mammella | перепутанная буква |
+| 0353 | 311 | lingu | lingua | пропущена буква |
+| 0354 | 312 | Agamennome | Agamennone | перепутанная буква |
+| 0355 | 313 | siguificaua | significaua | перепутанная буква |
+| 0356 | 314 | ci | di | перепутанная буква |
+| 0356 | 314 | caciaua | cacciaua | пропущена буква |
+| 0361 | 319 | Volcauo | Volcano | перепутанная буква |
+| 0364 | 322 | sciolgliere | sciogliere | лишняя буква |
+| 0371 | 329 | Disdordia | Discordia | перепутанная буква |
 | 0482 | 440 | licentiosamenre | licentiosamente | перепутанная буква |
 | 0493 | 451 | compagria | compagnia | перепутанная буква |
 | 0494 | 452 | rccoglie | raccoglie | пропущена буква |
