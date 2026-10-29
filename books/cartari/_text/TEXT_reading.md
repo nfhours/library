@@ -9918,7 +9918,7 @@ Con Hercole era delle medesime fattezze il Dio Semone Sanco de' Sabini, come si 
 
 Chi più ne vuole legga F. Orsino nelle famiglie, & Pietro Ciaccone in vn suo Trattatelo intorno ciò, stampato in Roma con altre sue cose, L'anno 1608. dal quale discorda il Card. Baronio negl'Annali, nel primo Tomo.
 
-Io ho osseruato nelle memorie antiche, che bene spesso doue stà il Tripode, stà ancora il Grifone. Di questo ( o bestia o vccello, che si fosse ) vedasi Antonio Agostini, & la Spositione nostra della Mensa Isiaca. Et è certo, che la Antichità lo teneua per animale Solare. Ma, per dire alcuna cosa ancora delle Antichità Ecclesiastiche, vsarono i nostri maggiori di mettere i Grifoni nè vestiboli delle porte delle Chiese, come si vede pur hoggi quell'vso conseruato inanzi la nostra Catedrale, & alla porta della Chiesa nobilissima di santa Giustina, doue si vedono, nell'vno e nell'altro luogho de i Leoni ancora. E quanto al Grifone io direi, che gl'antichi credettero, ch'esso fosse custode delle minere dell'Oro, come si legge in Plinio, & appresso la Simia di Plinio Solino, s'io non fallo. Il medesimo concetto ne formarono i Poeti, che per questo Claudiano, scriuendo a Serena figliola di Theodosio. dice che nelle nozze d'Orfeo, frà varij animali, che co' presenti lo honorarono; che i Grifoni portarono seco copia d'oro tratta dalle maniere de' monti Hiperborei Che forse di quà cauarono gl'Alchimisti moderni il Presidentato del Sole sopra l'Oro, & vedasi l'Autore a car. 322. Hora la Fede appresso de' nostri
+Io ho osseruato nelle memorie antiche, che bene spesso doue sta il Tripode, sta ancora il Grifone. Di questo ( o bestia o vccello, che si fosse ) vedasi Antonio Agostini, & la Spositione nostra della Mensa Isiaca. Et è certo, che la Antichità lo teneua per animale Solare. Ma, per dire alcuna cosa ancora delle Antichità Ecclesiastiche, vsarono i nostri maggiori di mettere i Grifoni nè vestiboli delle porte delle Chiese, come si vede pur hoggi quell'vso conseruato inanzi la nostra Catedrale, & alla porta della Chiesa nobilissima di santa Giustina, doue si vedono, nell'vno e nell'altro luogho de i Leoni ancora. E quanto al Grifone io direi, che gl'antichi credettero, ch'esso fosse custode delle minere dell'Oro, come si legge in Plinio, & appresso la Simia di Plinio Solino, s'io non fallo. Il medesimo concetto ne formarono i Poeti, che per questo Claudiano, scriuendo a Serena figliola di Theodosio. dice che nelle nozze d'Orfeo, frà varij animali, che co' presenti lo honorarono; che i Grifoni portarono seco copia d'oro tratta dalle maniere de' monti Hiperborei Che forse di quà cauarono gl'Alchimisti moderni il Presidentato del Sole sopra l'Oro, & vedasi l'Autore a car. 322. Hora la Fede appresso de' nostri
 
 Колонтитул: 504 Annotationi
 Кустод: nostri
@@ -9989,7 +9989,7 @@ L'Harpocrate alato non è così bene rappresentato, come bisognaua. perche sopra
 
 ## Скан 0550 · с. 508
 
-Questo pensiero del gouerno prudente, & sauio del Mondo, si vede espresso in vna Medaglia dell'Imperat. M. Aurelio il Filosofo, della quale qui sotto habiamo rappresentata la similitudine. se però chi la fece coniare non hebbe pensiero di alludere al concetto di Seneca, del quale ragiona l'Autore a car. 151. La medesima Minerua, in vn altra Medaglia, pure di M. Aurelio si vede commandare non sò che a chi fabrica la Naue d'Argo. della quale vedasi Apollodoro nella Bibilioth. Vettio Basso sopra i Fenomeni di Germanico Cesare, Higino nell'Astron. Poet. & vorrà significare prouidenza, & mente sauia dell'Imperatore nel gouerno dell'Imperio. Et quel lauorare d'Argo intorno la proua della Naue, vorrà forse mostrare quel pezzo di tauola vocale, tolto dalle Quercie di Dodona, che si come notano Apollodoro & Higino fu affisso alla Proua della detta.
+Questo pensiero del gouerno prudente, & sauio del Mondo, si vede espresso in vna Medaglia dell'Imperat. M. Aurelio il Filosofo, della quale qui sotto habiamo rappresentata la similitudine. se però chi la fece coniare non hebbe pensiero di alludere al concetto di Seneca, del quale ragiona l'Autore a car. 151. La medesima Minerua, in vn altra Medaglia, pure di M. Aurelio si vede commandare non sò che a chi fabrica la Naue d'Argo. della quale vedasi Apollodoro nella Bibilioth. Vettio Basso sopra i Fenomeni di Germanico Cesare, Higino nell'Astron. Poet. & vorrà significare prouidenza, & mente sauia dell'Imperatore nel gouerno dell'Imperio. Et quel lauorare d'Argo intorno la proua della Naue, vorra forse mostrare quel pezzo di tauola vocale, tolto dalle Quercie di Dodona, che si come notano Apollodoro & Higino fu affisso alla Proua della detta.
 
 [ГРАВЮРА: без подписи]
 
@@ -10002,11 +10002,11 @@ Questo pensiero del gouerno prudente, & sauio del Mondo, si vede espresso in vna
 
 ## Скан 0551 · с. 509
 
-Questa figura di Gioue, che fulmina i Giganti s'è presa da vn Denario antico della famiglia Cornelia. i Camei da' tagli antichi degl'Heretici della scola di Valentino, & di Basilide, come molti le ne vedono nel mio Lib. della spositione della Mensa Isiaca, & alcuni appresso Abramo Gorleo. Ma che i Giganti hauessero piedi si fatti, oltre Suida citato dall'Autore, si troua anco appresso'l Commentatore antico di Statio, appresso Ouidio, in Apollodoro, & in Sidonio, che nota in particolare i capi delle Serpi infissi nelle piante loro, ouero per meglio dire in luogo delle piante, come apunto si vede ne i prodigiosi Amuletti (per così dire) de i soprascritti Heretici.
+Questa figura di Gioue, che fulmina i Giganti s'è presa da vn Donario antico della famiglia Cornelia. i Camei da' tagli antichi degl'Heretici della scola di Valentino, & di Basilide, come molti le ne vedono nel mio Lib. della spositione della Mensa Isiaca, & alcuni appresso Abramo Gorleo. Ma che i Giganti hauessero piedi si fatti, oltre Suida citato dall'Autore, si troua anco appresso'l Commentatore antico di Statio, appresso Ouidio, in Apollodoro, & in Sidonio, che nota in particolare i capi delle Serpi infissi nelle piante loro, ouero per meglio dire in luogo delle piante, come apunto si vede ne i prodigiosi Amuletti (per così dire) de i soprascritti Heretici.
 
 I Camei si sono presi da i Denarij antichi. Et si vede in essi Volcano, coronato, co'l cappello in capo. di più la Forcipe, e'l Malleo, come li chiamauano i Latini, con l'Incude, in mezo. Volcano si vede è qui, & a car. 321. di Volcano vedansi i Mithologi. Io per me credo, che Tubalcain fosse il primo Volcano, & che il nome di questo habbia origine da quello infallibilmente.
 
-Questa vnione di Marte e Venere io vidi già espressa leggiadramente in vn gran Nicolo antico, del quale qui sotto starà la figura. simile pensiero si vede in vna Medaglia di Faustina moglie di M. Aurelio il Filosofo, con inscrittione VENERI VICTRICI. & pare a me, che questi mirassero a i gentilissimi versi di Lucretio nel principio del suo primo Libro.
+Questa vnione di Marte e Venere io vidi gia espressa leggiadramẽte in vn gran Nicolo antico, del quale qui sotto starà la figura. simile pensiero si vede in vna Medaglia di Faustina moglie di M. Aurelio il Filosofo, con inscrittione VENERI VICTRICI. & pare a me, che questi mirassero a i gentilissimi versi di Lucretio nel principio del suo primo Libro.
 
 [ВИНЬЕТКА: маскарон (женская голова) с растительными завитками]
 
@@ -10022,7 +10022,7 @@ Questa vnione di Marte e Venere io vidi già espressa leggiadramente in vn gran 
 
 Ne' Camei si vede Marte Gradino, & Marte vincitore, come stà figurato nelle Medaglie antiche. La figura principale s'è posta, come la faceuano gl'antichi.
 
-La imagine del Furore fu così disegnata dal Zucchero Pittore valente de' nostri tempi. Et il Cameo s'è preso dalle Medaglie di Traiano, che più communemente sono stimate rappresentare vn prigione.
+La imagine del Furore fu cosi disegnata dal Zucchero Pittore valente de' nostri tempi. Et il Cameo s'è preso dalle Medaglie di Traiano, che più communemente sono stimate rappresentare vn prigione.
 
 In Augusta, nel giardino del già Illustrissimo Signor MARCO VELSERO si vede vna pietra isolata, figorata da tre bande, con inscrittione dalla quarta. Le figure sono Mercurio, la Vittoria, & Marte nudo, come qui sotto. La Inscrittione è tale.
 
@@ -10078,11 +10078,11 @@ Questa pompa di Bacco s'è presa tutta da vn Cameo antico, nel quale si vedono t
 
 ## Скан 0555 · с. 513
 
-faltare, e'l diffondersi in ogni sorte di sceleraggini, come hanno scritto singolarmente molti de' Padri antichi.
+saltare, e'l diffondersi in ogni sorte di sceleraggini, come hanno scritto singolarmente molti de' Padri antichi.
 
 Nel Cameo si vede Como nella maniera, che si vedeua già in vn Cameo di Monsignor Patriarca Grimani, con vn vaso da bere appresso, sopra vna Colonnetta.
 
-Sileno si vede in diuerse anticaglie: ma eccellentemene in due Pili posti qui sotto, quanto alla persona del detto. Stan con esso il Cembalo, l'Asino, & li Corna da fiato per suonare. Nel Cameo di più si vede il Cantaro, del quale cantò Virgilio.
+Sileno si vede in diuerse anticaglie: ma eccellentemene in due Pili posti qui sotto, quanto alla persona del detto. Stan con esso il Cẽbalo, l'Asino, & li Corna da fiato per suonare. Nel Cameo di più si vede il Cantaro, del quale cantò Virgilio.
 
 *Et grauis attrita pendebat Cantharus ansa.*
 
@@ -10105,7 +10105,7 @@ Ne erano picciola parte di questa Compagnia pazza le Bacati, che si vedono in va
 
 Tutta questa pompa s'è tolta da vn Diaspro antico di Monsignor di Bagarris, antiquario del Rè Cristianissimo, disegnato, & dichiarato per eccellenza dal Casaubono nel suo primo Libro della Poesia Satirica, a capitoli due. E ben vero, che nel nostro presente disegno il Pittore ha tralasciato vna maschera sotto i piedi del primo Fanciullo, che tiene in spalla la gamba di Bacco & vn vaso di Vino riuersato fra i piedi del Satiro. Nel Cameo s'è posto Bacco, co'l Cornucopia, e con la Tigre, tratto da vn taglio antico.
 
-Di questa vsanza di bere in vasi, che haueuano forma di corna si vede vestigio espresso qui in Padoua nel marmo del Triclinio, che chiamano Patauino, in casa de' Rannusij, disegnato da Pietro Ciaccone nel suo Commentario de Triclinio, & da Girolamo Mercuriale nella Himnastica. Di più leggasi Plinio doue descriue la Leonza d'Archesilao. Lib. 27. Fuluio Orsino homo intendentissimo delle Anti-
+Di questa vsanza di bere in vasi, che haueuano forma di corna si vede vestigio espresso qui in Padoua nel marmo del Triclinio, che chiamano Patauino, in casa de' Rannusij, disegnato da Pietro Ciaccone nel suo Commentario de Triclinio, & da Girolamo Mercuriale nella Himnastica. Di piu leggasi Plinio doue descriue la Leonza d'Archesilao. Lib. 27. Fuluio Orsino homo intendentissimo delle Anti-
 
 Колонтитул: 514 Annotationi
 Кустод: Anti-
@@ -10204,7 +10204,7 @@ La imagine principale s'è tratta da vna Medaglina antica, nel riuerso della qua
 
 [ГРАВЮРА: без подписи]
 
-La Sferza in mano del Genio è cosa mostruosa.  Per ordinario tiene il Cornucopia; & si vede così fatto in migliara di Medaglie.  E ben vero, che il Bon'Euento si vede con le Spiche, & Papauero, che l'Autore forse haverà preso per la sferza.  Et questo pure è giouane, e nudo, & ha la Patera in mano.
+La Sferza in mano del Genio è cosa mostruosa.  Per ordinario tiene il Cornucopia; & si vede così fatto in migliara di Medaglie.  E ben vero, che il Bon'Euento si vede con le Spiche, & Papauero, che l'Autore forse hauerà preso per la sferza.  Et questo pure è giouane, e nudo, & ha la Patera in mano.
 
 Il Cameo superiore s'è preso da vna Medaglia di Commodo Imperatore, nella quale così è figurata la Fortuna Manente, che noi diressimo stabile, & ferma.  Et a questo pensiero tende vn passo d'Horatio, nella Oda 29. del Lib. 3.
 
