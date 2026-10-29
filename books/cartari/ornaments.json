@@ -1,0 +1,383 @@
+[
+  {
+    "file": "divider_0041_1_1.png",
+    "svg": "divider_0041_1_1.svg",
+    "type": "divider",
+    "width": 351,
+    "height": 74,
+    "source": "0041_1",
+    "density": 0.13
+  },
+  {
+    "file": "divider_0491_450.png",
+    "svg": "divider_0491_450.svg",
+    "type": "divider",
+    "width": 552,
+    "height": 156,
+    "source": "0491_450",
+    "density": 0.131
+  },
+  {
+    "file": "divider_0509_468_1.png",
+    "svg": "divider_0509_468_1.svg",
+    "type": "divider",
+    "width": 327,
+    "height": 114,
+    "source": "0509_468",
+    "density": 0.073
+  },
+  {
+    "file": "divider_0514_473.png",
+    "svg": null,
+    "type": "divider",
+    "width": 568,
+    "height": 155,
+    "source": "0514_473",
+    "density": 0.129
+  },
+  {
+    "file": "divider_0532_491.png",
+    "svg": "divider_0532_491.svg",
+    "type": "divider",
+    "width": 366,
+    "height": 154,
+    "source": "0532_491",
+    "density": 0.118
+  },
+  {
+    "file": "divider_0537_496_1.png",
+    "svg": "divider_0537_496_1.svg",
+    "type": "divider",
+    "width": 268,
+    "height": 114,
+    "source": "0537_496",
+    "density": 0.08
+  },
+  {
+    "file": "divider_0540_499.png",
+    "svg": "divider_0540_499.svg",
+    "type": "divider",
+    "width": 367,
+    "height": 176,
+    "source": "0540_499",
+    "density": 0.082
+  },
+  {
+    "file": "divider_0563_522.png",
+    "svg": "divider_0563_522.svg",
+    "type": "divider",
+    "width": 264,
+    "height": 119,
+    "source": "0563_522",
+    "density": 0.141
+  },
+  {
+    "file": "divider_0606_561.png",
+    "svg": "divider_0606_561.svg",
+    "type": "divider",
+    "width": 324,
+    "height": 133,
+    "source": "0606_561",
+    "density": 0.079
+  },
+  {
+    "file": "divider_0609_564.png",
+    "svg": "divider_0609_564.svg",
+    "type": "divider",
+    "width": 299,
+    "height": 73,
+    "source": "0609_564",
+    "density": 0.12
+  },
+  {
+    "file": "divider_0612_567_1.png",
+    "svg": "divider_0612_567_1.svg",
+    "type": "divider",
+    "width": 291,
+    "height": 74,
+    "source": "0612_567",
+    "density": 0.151
+  },
+  {
+    "file": "divider_0615_570_1.png",
+    "svg": "divider_0615_570_1.svg",
+    "type": "divider",
+    "width": 373,
+    "height": 87,
+    "source": "0615_570",
+    "density": 0.149
+  },
+  {
+    "file": "divider_0622_577_1.png",
+    "svg": "divider_0622_577_1.svg",
+    "type": "divider",
+    "width": 292,
+    "height": 72,
+    "source": "0622_577",
+    "density": 0.119
+  },
+  {
+    "file": "dropcap_0011_I.png",
+    "svg": "dropcap_0011_I.svg",
+    "type": "dropcap",
+    "width": 441,
+    "height": 435,
+    "source": "0011_I",
+    "density": 0.083,
+    "letter": "N"
+  },
+  {
+    "file": "dropcap_0016_VI_1.png",
+    "svg": "dropcap_0016_VI_1.svg",
+    "type": "dropcap",
+    "width": 316,
+    "height": 305,
+    "source": "0016_VI",
+    "density": 0.103,
+    "letter": "E"
+  },
+  {
+    "file": "dropcap_0022_XII_1.png",
+    "svg": "dropcap_0022_XII_1.svg",
+    "type": "dropcap",
+    "width": 177,
+    "height": 172,
+    "source": "0022_XII",
+    "density": 0.179,
+    "letter": "A"
+  },
+  {
+    "file": "dropcap_0154_113.png",
+    "svg": "dropcap_0154_113.svg",
+    "type": "dropcap",
+    "width": 318,
+    "height": 320,
+    "source": "0154_113",
+    "density": 0.085,
+    "letter": "T"
+  },
+  {
+    "file": "dropcap_0191_150.png",
+    "svg": "dropcap_0191_150.svg",
+    "type": "dropcap",
+    "width": 431,
+    "height": 452,
+    "source": "0191_150",
+    "density": 0.113,
+    "letter": "Q"
+  },
+  {
+    "file": "dropcap_0214_173.png",
+    "svg": "dropcap_0214_173.svg",
+    "type": "dropcap",
+    "width": 451,
+    "height": 457,
+    "source": "0214_173",
+    "density": 0.111,
+    "letter": "L"
+  },
+  {
+    "file": "dropcap_0242_201.png",
+    "svg": "dropcap_0242_201.svg",
+    "type": "dropcap",
+    "width": 294,
+    "height": 288,
+    "source": "0242_201",
+    "density": 0.09,
+    "letter": "F"
+  },
+  {
+    "file": "dropcap_0381_340.png",
+    "svg": null,
+    "type": "dropcap",
+    "width": 495,
+    "height": 488,
+    "source": "0381_340",
+    "density": 0.135,
+    "letter": "B"
+  },
+  {
+    "file": "dropcap_0444_403.png",
+    "svg": "dropcap_0444_403.svg",
+    "type": "dropcap",
+    "width": 420,
+    "height": 416,
+    "source": "0444_403",
+    "density": 0.145,
+    "letter": "D"
+  },
+  {
+    "file": "dropcap_0492_451.png",
+    "svg": "dropcap_0492_451.svg",
+    "type": "dropcap",
+    "width": 462,
+    "height": 455,
+    "source": "0492_451",
+    "density": 0.134,
+    "letter": "P"
+  },
+  {
+    "file": "dropcap_0502_461.png",
+    "svg": null,
+    "type": "dropcap",
+    "width": 451,
+    "height": 440,
+    "source": "0502_461",
+    "density": 0.091,
+    "letter": "C"
+  },
+  {
+    "file": "dropcap_0590_545.png",
+    "svg": null,
+    "type": "dropcap",
+    "width": 452,
+    "height": 456,
+    "source": "0590_545",
+    "density": 0.153,
+    "letter": "H"
+  },
+  {
+    "file": "headpiece_0008_Widmung_1r.png",
+    "svg": "headpiece_0008_Widmung_1r.svg",
+    "type": "headpiece",
+    "width": 1164,
+    "height": 270,
+    "source": "0008_Widmung_1r",
+    "density": 0.086
+  },
+  {
+    "file": "headpiece_0016_VI_0.png",
+    "svg": "headpiece_0016_VI_0.svg",
+    "type": "headpiece",
+    "width": 1155,
+    "height": 233,
+    "source": "0016_VI",
+    "density": 0.126
+  },
+  {
+    "file": "headpiece_0022_XII_0.png",
+    "svg": null,
+    "type": "headpiece",
+    "width": 839,
+    "height": 249,
+    "source": "0022_XII",
+    "density": 0.132
+  },
+  {
+    "file": "headpiece_0588_Widmung_r_0.png",
+    "svg": "headpiece_0588_Widmung_r_0.svg",
+    "type": "headpiece",
+    "width": 1150,
+    "height": 241,
+    "source": "0588_Widmung_r",
+    "density": 0.075
+  },
+  {
+    "file": "tailpiece_0015_V.png",
+    "svg": null,
+    "type": "tailpiece",
+    "width": 899,
+    "height": 571,
+    "source": "0015_V",
+    "density": 0.135
+  },
+  {
+    "file": "tailpiece_0038_XXVIII.png",
+    "svg": "tailpiece_0038_XXVIII.svg",
+    "type": "tailpiece",
+    "width": 514,
+    "height": 307,
+    "source": "0038_XXVIII",
+    "density": 0.083
+  },
+  {
+    "file": "tailpiece_0062_21.png",
+    "svg": null,
+    "type": "tailpiece",
+    "width": 897,
+    "height": 608,
+    "source": "0062_21",
+    "density": 0.127
+  },
+  {
+    "file": "tailpiece_0153_112.png",
+    "svg": "tailpiece_0153_112.svg",
+    "type": "tailpiece",
+    "width": 521,
+    "height": 447,
+    "source": "0153_112",
+    "density": 0.066
+  },
+  {
+    "file": "tailpiece_0190_149.png",
+    "svg": "tailpiece_0190_149.svg",
+    "type": "tailpiece",
+    "width": 505,
+    "height": 432,
+    "source": "0190_149",
+    "density": 0.122
+  },
+  {
+    "file": "tailpiece_0300_259.png",
+    "svg": "tailpiece_0300_259.svg",
+    "type": "tailpiece",
+    "width": 409,
+    "height": 225,
+    "source": "0300_259",
+    "density": 0.124
+  },
+  {
+    "file": "tailpiece_0500_459.png",
+    "svg": null,
+    "type": "tailpiece",
+    "width": 878,
+    "height": 551,
+    "source": "0500_459",
+    "density": 0.121
+  },
+  {
+    "file": "tailpiece_0520_479.png",
+    "svg": "tailpiece_0520_479.svg",
+    "type": "tailpiece",
+    "width": 366,
+    "height": 155,
+    "source": "0520_479",
+    "density": 0.138
+  },
+  {
+    "file": "tailpiece_0550_509.png",
+    "svg": "tailpiece_0550_509.svg",
+    "type": "tailpiece",
+    "width": 357,
+    "height": 240,
+    "source": "0550_509",
+    "density": 0.096
+  },
+  {
+    "file": "tailpiece_0567_526_1.png",
+    "svg": "tailpiece_0567_526_1.svg",
+    "type": "tailpiece",
+    "width": 374,
+    "height": 197,
+    "source": "0567_526",
+    "density": 0.119
+  },
+  {
+    "file": "tailpiece_0585_544.png",
+    "svg": "tailpiece_0585_544.svg",
+    "type": "tailpiece",
+    "width": 499,
+    "height": 238,
+    "source": "0585_544",
+    "density": 0.158
+  },
+  {
+    "file": "tailpiece_0601_556.png",
+    "svg": null,
+    "type": "tailpiece",
+    "width": 875,
+    "height": 558,
+    "source": "0601_556",
+    "density": 0.147
+  }
+]

@@ -40,6 +40,19 @@ button.ic-lang-b{font-size:.78em;letter-spacing:.08em;text-transform:uppercase;p
 .ic-title{font-family:var(--old);font-weight:500;font-size:2.6em;line-height:1.05;color:var(--ink)}
 .ic-sub{color:var(--soft);font-size:.92em;margin-top:16px;max-width:36em;line-height:1.6}
 .ic-progress{margin-top:14px;font-size:.85em;color:var(--soft)}
+
+/* шапка книги: название + сворачиваемые сведения (кнопка-стрелка под
+   названием). Никаких украшений по бокам от заголовка — только текст и
+   стрелка; сама анимация раскрытия задаётся ниже, в no-preference-блоке. */
+.ic-book-head{margin-top:2px}
+button.ic-info-toggle{display:inline-flex;align-items:center;gap:7px;margin-top:12px;padding:4px 0;background:none;border:0;cursor:pointer;font-family:var(--serif);font-size:.82em;letter-spacing:.02em;color:var(--soft)}
+button.ic-info-toggle:hover{color:var(--accent)}
+.ic-info-arrow{flex:none}
+.ic-book-info{display:grid;grid-template-rows:0fr}
+.ic-book-info.open{grid-template-rows:1fr}
+.ic-book-info-in{overflow:hidden;min-height:0}
+.ic-book-meta{color:var(--accent);font-size:.9em;margin-top:14px}
+.ic-book-info .ic-sub{margin-top:6px}
 .ic-bar{display:block;height:4px;background:var(--rule);border-radius:2px;margin-top:6px;overflow:hidden;max-width:320px}
 .ic-bar i{display:block;height:100%;background:var(--ready)}
 
@@ -234,10 +247,51 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
 .ic-h-fr{font-family:var(--old);font-style:italic;font-weight:500;font-size:2.5em;line-height:1.05;margin-top:6px}
 .ic-h-ru{font-size:1.3em;font-weight:500;margin-top:6px}
 
+/* украшения из книги (books/<slug>/ornaments/): вырезанные заставка/концовка/
+   буквица/разделитель — обрезанные по контуру PNG/SVG на прозрачном фоне,
+   чернила уже сведены к одному тёмному тону. Используются как CSS-маска
+   (а не просто <img>), чтобы цвет задавался читательской палитрой — цвет
+   текста или приглушённый акцент, а не зашитый в файл оттенок — и чтобы
+   при будущей тёмной теме перекрашивались сами, без переэкспорта файлов. */
+.ic-orn{display:block;-webkit-mask-image:var(--orn-src);mask-image:var(--orn-src);
+  -webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;
+  -webkit-mask-position:center;mask-position:center;
+  -webkit-mask-size:contain;mask-size:contain}
+/* заставка — на всю ширину колонки текста, высота по пропорции самого файла
+   (не обрезанная фиксированная рамка), цвет текста, без приглушения — тонкость
+   ей и так даёт сам рисунок, а не полупрозрачность поверх него */
+.ic-orn-headpiece{width:100%;aspect-ratio:var(--orn-ratio);height:auto;margin:20px auto 4px;background-color:var(--ink)}
+/* концовка — та же трактовка, в конце статьи */
+.ic-orn-tailpiece{width:55%;aspect-ratio:var(--orn-ratio);height:auto;margin:38px auto 0;background-color:var(--ink)}
+/* разделитель — между разделами текста статьи (перед подзаголовком §), меньше
+   и приглушённее — это внутритекстовая пауза, а не парадный элемент */
+.ic-orn-divider{width:40%;max-width:220px;aspect-ratio:var(--orn-ratio);height:auto;margin:30px auto 18px;background-color:var(--soft);opacity:.75}
+/* буквица — заменяет первую букву; сама буква остаётся в разметке (копируется,
+   читается скринридером), но визуально скрыта .ic-dropcap-letter. Три строки
+   высотой, верх вровень с верхом первой строки текста (т.е. с самим блоком
+   абзаца — лишних отступов сверху нет), узкий зазор до продолжения слова. */
+.ic-dropcap{float:left;background-color:var(--ink);height:calc(3 * var(--dc-line,1.6em));aspect-ratio:var(--orn-ratio);margin:0 .12em 0 0}
+.ic-dropcap-letter{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+/* первая строка абзаца с буквицей — капителью */
+/* The paragraph's usual first-line text-indent is what the dropcap
+   replaces -- without this override every OTHER line wraps flush under
+   the floated cap while the first line still starts indented past it. */
+.ic-text p.ic-dropcap-p{text-indent:0}
+
 .ic-figs{margin-top:26px;display:grid;gap:14px}
 .ic-fig{background:var(--sheet);border:1px solid var(--rule);border-radius:2px;padding:14px;cursor:zoom-in}
 .ic-fig img{margin:0 auto;width:100%;height:auto}
 .ic-fig figcaption{font-size:.75em;color:var(--soft);margin-top:8px;text-align:center}
+/* a cut engraving's "_display" copy: no card chrome (background/border/
+   padding) -- it sits directly on the page's own paper background. The
+   transparency (paper gone, ink opaque, soft-feathered edge) is baked
+   into the .webp file itself, not a CSS mix-blend-mode/mask-image trick
+   -- both were tried and both isolate the element into its own compositing
+   layer (an animated ancestor's transform the first time, the mask itself
+   the second), which is exactly what blend modes can't see past. A
+   transparent pixel needs no blend mode and no mask to look right against
+   whatever's behind it, in any stacking context. */
+.ic-fig-eng{background:none;border:0;padding:0}
 .ic-caption{margin-top:10px;font-size:.82em;color:var(--soft);font-style:italic}
 .ic-caption b{font-style:normal;font-weight:600;color:var(--ink);margin-right:5px}
 .ic-crop-verified{margin-top:6px;font-size:.78em;font-weight:600;color:#2f6b3a;display:inline-block;padding:3px 8px;border:1px solid #2f6b3a;border-radius:4px;background:rgba(47,107,58,.08)}
@@ -344,15 +398,29 @@ button.ic-scan-prev,button.ic-scan-next{width:38px;height:38px;border:1px solid 
   .ic-plate-row{grid-template-columns:4.4rem 1fr;gap:12px}
   .ic-plate-thumb{width:4.4rem;height:4.4rem}
   .ic-obj-sum{grid-template-columns:auto 1fr 8px;gap:8px}
+  .ic-dropcap{--dc-line:1.42em}
+  .ic-orn-divider{max-width:160px;margin:24px auto 14px}
 }
 @media (prefers-reduced-motion:no-preference){
   .ic-row-item{transition:background .15s}
-  @keyframes ic-fade-in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+  /* opacity only -- NOT transform, even at an identity translateY(0) end
+     value: a transform (any value other than the keyword none) puts every
+     descendant in a new stacking context permanently, which is what broke
+     mix-blend-mode on the engraving figure (its multiply blend could only
+     ever see as far back as this new context, never .ic's own background
+     painted outside it -- not a one-off, any descendant blend mode would
+     have the same problem). Opacity<1 does the same thing but only while
+     it's actually below 1; once this settles at 1 (the "both" fill-mode
+     end state) that stops applying, so it's safe to animate. */
+  @keyframes ic-fade-in{from{opacity:0}to{opacity:1}}
   .ic-wrap{animation:ic-fade-in .45s ease both}
   .ic-fig,.ic-scan-frame{transition:transform .3s ease,box-shadow .3s ease}
   .ic-fade-img{opacity:0;transition:opacity .6s ease}
   .ic-fade-img.ic-img-in{opacity:1}
+  .ic-book-info{transition:grid-template-rows .32s ease}
+  .ic-info-arrow{transition:transform .32s ease}
 }
+.ic-info-toggle[aria-expanded="true"] .ic-info-arrow{transform:rotate(180deg)}
 @media (hover:hover) and (prefers-reduced-motion:no-preference){
   .ic-fig:hover,.ic-scan-frame:hover{transform:translateY(-2px);box-shadow:0 20px 40px -20px rgba(70,46,20,.45)}
 }

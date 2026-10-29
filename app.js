@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "69";
+  var APP_VER = "74";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -199,12 +199,41 @@
     .replace(/¶/g,"").replace(/ſ/g,"s").replace(/ё/g,"е").replace(/j/g,"i").replace(/v/g,"u").replace(/y/g,"i").replace(/['’]/g," "); }
   // paragraphs may embed a quoted verse after a ¶ marker, with lines separated by " / ";
   // render the verse as its own italic, line-broken block instead of running it into the prose.
-  function paraHtml(arr){
+  // dropHtml/dividerPick are only used by renderCard: dropHtml replaces the
+  // visible first letter of the very first paragraph with a dropcap ornament
+  // (the letter itself stays in the markup, visually hidden, so copy/paste
+  // and screen readers still get plain text). dividerPick(idx) is called for
+  // each "§" subhead encountered, in order, and may return a divider ornament
+  // to print above that subhead.
+  function paraHtml(arr, dropHtml, dividerPick){
+    var usedDrop = false, subheadIdx = 0;
     return (arr||[]).map(function(p){
       var s = String(p||"");
-      if(s.charAt(0)==="§") return "<h3 class=\"ic-subhead\">"+esc(s.slice(1))+"</h3>";
+      if(s.charAt(0)==="§"){
+        var divider = dividerPick ? dividerPick(subheadIdx++) : "";
+        return divider+"<h3 class=\"ic-subhead\">"+esc(s.slice(1))+"</h3>";
+      }
       var parts = s.split("¶"), html = "";
-      if(parts[0]) html += "<p>"+esc(parts[0])+"</p>";
+      if(parts[0]){
+        // The dropcap stands in for the first LETTER, not the first
+        // character — an opening “quote mark often precedes it, and that
+        // has to stay visible in front of the cap rather than get hidden
+        // along with the letter it's replacing.
+        var letterMatch = dropHtml && !usedDrop ? parts[0].match(/[A-Za-z]/) : null;
+        if(letterMatch){
+          usedDrop = true;
+          var idx = letterMatch.index;
+          // Any lead punctuation (an opening quote mark, most often) is kept
+          // in the text but hidden along with the letter the cap stands in
+          // for — floating it out in front of the cap visually, as its own
+          // DOM position would, reads as a stray character next to the cap
+          // rather than part of the word it belongs to.
+          var lead = parts[0].slice(0, idx), letter = parts[0].charAt(idx), rest = parts[0].slice(idx+1);
+          html += '<p class="ic-dropcap-p">'+dropHtml+'<span class="ic-dropcap-letter">'+esc(lead)+esc(letter)+"</span>"+esc(rest)+"</p>";
+        } else {
+          html += "<p>"+esc(parts[0])+"</p>";
+        }
+      }
       for(var i=1;i<parts.length;i++){
         html += '<p class="ic-verse">'+parts[i].split(" / ").map(esc).join("<br>")+'</p>';
       }
@@ -274,11 +303,23 @@
   function openBook(slug, cb){
     if(books[slug] !== undefined){ cb(books[slug]==="error" ? null : books[slug]); return; }
     root.innerHTML = '<div class="ic-wrap"><p class="ic-sub">'+t("loading")+'</p></div>';
-    Promise.all([
-      fetch(BASE+"books/"+slug+"/book.json",{cache:"no-cache"}).then(function(r){ if(!r.ok) throw 0; return r.json(); }),
-      fetch(BASE+"books/"+slug+"/entries.json",{cache:"no-cache"}).then(function(r){ if(!r.ok) throw 0; return r.json(); })
-    ]).then(function(res){
-      var meta = res[0], data = res[1];
+    fetch(BASE+"books/"+slug+"/book.json",{cache:"no-cache"}).then(function(r){ if(!r.ok) throw 0; return r.json(); })
+      .then(function(meta){
+        var ornCfg = meta.ornaments;
+        var ornSlug = (ornCfg && ornCfg.enabled) ? (ornCfg.source || slug) : null;
+        return Promise.all([
+          Promise.resolve(meta),
+          fetch(BASE+"books/"+slug+"/entries.json",{cache:"no-cache"}).then(function(r){ if(!r.ok) throw 0; return r.json(); }),
+          ornSlug ? fetch(BASE+"books/"+ornSlug+"/ornaments.json",{cache:"no-cache"})
+              .then(function(r){ return r.ok ? r.json() : []; }).catch(function(){ return []; })
+            : Promise.resolve(null),
+          ornSlug ? Promise.all([
+              fetch(BASE+"books/"+ornSlug+"/engravings.json",{cache:"no-cache"}).then(function(r){ return r.ok ? r.json() : []; }).catch(function(){ return []; }),
+              fetch(BASE+"books/"+ornSlug+"/engraving_map.json",{cache:"no-cache"}).then(function(r){ return r.ok ? r.json() : {}; }).catch(function(){ return {}; })
+            ]) : Promise.resolve(null)
+        ]);
+      }).then(function(res){
+      var meta = res[0], data = res[1], ornList = res[2], engRes = res[3];
       var items = data.items || [], byId = {};
       items.forEach(function(it,i){
         it.ord=i; byId[it.id]=it; it.pn=parseInt(it.page,10)||0;
@@ -291,7 +332,10 @@
           (it.attrs||[]).map(function(a){return a.what+" "+a.meaning+" "+(a.what_en||"")+" "+(a.meaning_en||"");}).join(" "),
           (it.text_ru||[]).join(" "),(it.text_en||[]).join(" "),(it.text_fr||[]).join(" ")].join(" "));
       });
-      var book = {slug:slug, meta:meta, items:items, byId:byId};
+      var ornSlug = meta.ornaments && meta.ornaments.source || slug;
+      var book = {slug:slug, meta:meta, items:items, byId:byId,
+        ornaments:groupOrnaments(ornList, ornSlug),
+        engravings:groupEngravings(engRes, ornSlug)};
       books[slug] = book;
       cb(book);
     }).catch(function(){
@@ -300,6 +344,108 @@
       var b = root.querySelector(".ic-to-lib"); if(b) b.addEventListener("click",function(){ location.hash=""; });
       cb(null);
     });
+  }
+
+  /* ---------- украшения (заставки/концовки/буквицы/разделители) ----------
+     book.meta.ornaments = {enabled, source} selects which book's ornaments.json
+     to use (its own, or another book's) — groupOrnaments() sorts the flat list
+     from that file into buckets this module reads from. Each article gets one
+     headpiece/tailpiece/divider picked deterministically from its id, so the
+     set alternates across articles but a given article always shows the same
+     one; a dropcap is used only when the article's first letter (of whichever
+     language is on screen) has a cut capital for it. */
+  function groupOrnaments(list, srcSlug){
+    if(!list || !list.length) return null;
+    var g = {srcSlug:srcSlug, headpiece:[], tailpiece:[], divider:[], dropcap:{}};
+    list.forEach(function(o){
+      if(o.type==="dropcap"){
+        if(!o.letter) return;
+        (g.dropcap[o.letter] = g.dropcap[o.letter] || []).push(o);
+      } else if(g[o.type]){
+        g[o.type].push(o);
+      }
+    });
+    return g;
+  }
+  // engRes is [engravings.json list, engraving_map.json {articleId: file}]
+  // from openBook, or null when ornaments aren't enabled for this book.
+  // Indexed by filename so renderCard can go straight from an article id to
+  // the cut engraving's display file (WebP).
+  function groupEngravings(engRes, srcSlug){
+    if(!engRes) return null;
+    var list = engRes[0] || [], map = engRes[1] || {};
+    var byFile = {};
+    list.forEach(function(e){ byFile[e.file] = e; });
+    return {srcSlug:srcSlug, map:map, byFile:byFile};
+  }
+  function engravingFor(book, it){
+    var eng = book.engravings;
+    if(!eng) return null;
+    var file = eng.map[it.id];
+    var rec = file && eng.byFile[file];
+    if(!rec) return null;
+    var base = BASE+"books/"+eng.srcSlug+"/engravings/";
+    return {display: base+rec.display};
+  }
+  function strHash(s){
+    var h = 5381;
+    for(var i=0;i<s.length;i++) h = ((h<<5)+h+s.charCodeAt(i))|0;
+    return h>>>0;
+  }
+  function pickOrnament(list, seed){
+    if(!list || !list.length) return null;
+    return list[strHash(seed) % list.length];
+  }
+  // The cut SVGs vary in trace fidelity -- a shape's "clean" heuristic at
+  // cut time (path count, file size) doesn't guarantee it visually reads
+  // right (an intricate engraved design can trace into many tiny correct-
+  // but-illegible fragments). The PNG is always faithful to the verified
+  // alpha mask, so it's the rendering default; SVG is kept as a bonus
+  // deliverable, not wired into the page.
+  function ornSrc(book, rec){
+    return BASE+"books/"+book.ornaments.srcSlug+"/ornaments/"+rec.file;
+  }
+  // mask-image div: the cut PNG/SVG is ink-on-transparent, so using it as a
+  // CSS mask (not a plain <img>) lets the ornament pick up the reader's own
+  // text/accent color via background-color instead of a baked-in ink color —
+  // "in the color of the text or a muted accent, no sepia" per the brief.
+  function ornamentMaskHtml(book, rec, cls){
+    var src = ornSrc(book, rec);
+    var ratio = (rec.width && rec.height) ? (rec.width/rec.height) : 3;
+    return '<span class="ic-orn '+cls+'" aria-hidden="true" style="--orn-src:url(\''+esc(src)+'\');--orn-ratio:'+ratio+'"></span>';
+  }
+  function headpieceHtml(book, it){
+    if(!book.ornaments) return "";
+    var rec = pickOrnament(book.ornaments.headpiece, it.id+"|head");
+    return rec ? ornamentMaskHtml(book, rec, "ic-orn-headpiece") : "";
+  }
+  function tailpieceHtml(book, it){
+    if(!book.ornaments) return "";
+    var rec = pickOrnament(book.ornaments.tailpiece, it.id+"|tail");
+    return rec ? ornamentMaskHtml(book, rec, "ic-orn-tailpiece") : "";
+  }
+  function dividerHtml(book, it, idx){
+    if(!book.ornaments) return "";
+    var rec = pickOrnament(book.ornaments.divider, it.id+"|div|"+idx);
+    return rec ? ornamentMaskHtml(book, rec, "ic-orn-divider") : "";
+  }
+  // First letter of the text actually on screen (whichever language), stripped
+  // of accents; only Latin letters can match, since the cut dropcaps are the
+  // book's own Latin capitals — Cyrillic text falls through to a plain first
+  // letter, same as a book with no dropcap at all.
+  function firstLetterFor(text){
+    var s = String(text||"").normalize("NFD").replace(/[̀-ͯ]/g,"");
+    var m = s.match(/[A-Za-z]/);
+    return m ? m[0].toUpperCase() : null;
+  }
+  function dropcapFor(book, it, firstPara){
+    if(!book.ornaments) return null;
+    var letter = firstLetterFor(firstPara);
+    if(!letter) return null;
+    var list = book.ornaments.dropcap[letter];
+    if(!list || !list.length) return null;
+    var rec = pickOrnament(list, it.id+"|dc|"+letter);
+    return rec ? ornamentMaskHtml(book, rec, "ic-dropcap") : null;
   }
 
   /* ---------- маршрутизация ---------- */
@@ -442,6 +588,42 @@
     requestAnimationFrame(function(){ window.scrollTo(window.scrollX, window.scrollY); });
   }
 
+  /* ---------- шапка книги: заголовок + сворачиваемые сведения ----------
+     Заголовок книги (в отличие от статьи) сознательно остаётся без всяких
+     украшений по бокам — только название и стрелка, раскрывающая сведения
+     о книге (автор/год/место, подзаголовок) на месте, без перехода на
+     отдельную страницу. Анимация — через grid-template-rows (0fr -> 1fr),
+     единственный способ плавно анимировать auto-высоту без измерения её в
+     JS; prefers-reduced-motion отключает её в CSS (app.css), не здесь. */
+  function bookHeaderHtml(book){
+    var infoId = "ic-book-info-"+book.slug;
+    var metaLine = book.meta.author
+      ? esc(book.meta.author)+(book.meta.year?", "+esc(book.meta.place?book.meta.place+" ":"")+book.meta.year:"")
+      : "";
+    return '<div class="ic-top-row">'+(forcedBook?"":'<button type="button" class="ic-to-lib-link ic-back">'+t("toLibrary")+'</button>')+langSwitch()+'</div>'+
+      '<div class="ic-book-head">'+
+        '<h1 class="ic-title">'+esc(bt(book.meta.title))+'</h1>'+
+        '<button type="button" class="ic-info-toggle" aria-expanded="false" aria-controls="'+infoId+'">'+
+          '<span>'+esc(t("moreInfo"))+'</span>'+
+          '<svg class="ic-info-arrow" viewBox="0 0 16 16" aria-hidden="true" width="12" height="12"><path d="M3 6l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>'+
+        '</button>'+
+        '<div class="ic-book-info" id="'+infoId+'"><div class="ic-book-info-in">'+
+          (metaLine?'<p class="ic-book-meta">'+metaLine+'</p>':"")+
+          '<p class="ic-sub">'+esc(bt(book.meta.subtitle))+'</p>'+
+        '</div></div>'+
+      '</div>';
+  }
+  function bindBookHeader(container){
+    var btn = container.querySelector(".ic-info-toggle");
+    if(!btn) return;
+    var panel = container.querySelector(".ic-book-info");
+    btn.addEventListener("click",function(){
+      var open = btn.getAttribute("aria-expanded")==="true";
+      btn.setAttribute("aria-expanded", String(!open));
+      panel.classList.toggle("open", !open);
+    });
+  }
+
   function langSwitch(){
     return '<div class="ic-lang" role="group" aria-label="RU / EN / FR">'+
       '<button type="button" class="ic-lang-b" data-lang="ru" aria-pressed="'+(state.lang==="ru")+'">RU</button>'+
@@ -548,11 +730,7 @@
     var hasTextOnly = book.items.some(function(it){ return it.textOnly; });
     root.innerHTML =
       '<div class="ic-wrap">'+
-        '<div class="ic-top-row">'+(forcedBook?"":'<button type="button" class="ic-to-lib-link ic-back">'+t("toLibrary")+'</button>')+
-          (book.meta.about?'<a class="ic-about-link" href="'+esc(hrefFor(book,"about"))+'">'+t("aboutLink")+'</a>':"")+
-          langSwitch()+'</div>'+
-        '<h1 class="ic-title">'+esc(bt(book.meta.title))+'</h1>'+
-        '<p class="ic-sub">'+esc(bt(book.meta.subtitle))+'</p>'+
+        bookHeaderHtml(book)+
         '<div class="ic-controls">'+
           '<span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("searchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("searchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
           '<div class="ic-row"><div class="ic-seg" role="group" aria-label="Filter">'+
@@ -566,6 +744,7 @@
         '<div class="ic-list"></div>'+
       '</div>';
     bindLangSwitch(root);
+    bindBookHeader(root);
     var toLib = root.querySelector(".ic-to-lib-link"); if(toLib) toLib.addEventListener("click",function(){ location.hash=""; });
     var q=root.querySelector(".ic-search"); q.value=state.q;
     q.addEventListener("input",function(){ state.q=q.value; keep(book.slug); fill(book); });
@@ -713,11 +892,7 @@
     var done = items.filter(function(it){ return ready(it, book); }).length, pct = items.length ? Math.round(done*100/items.length) : 0;
     root.innerHTML =
       '<div class="ic-wrap">'+
-        '<div class="ic-top-row">'+(forcedBook?"":'<button type="button" class="ic-to-lib-link ic-back">'+t("toLibrary")+'</button>')+
-          (book.meta.about?'<a class="ic-about-link" href="'+esc(hrefFor(book,"about"))+'">'+t("aboutLink")+'</a>':"")+
-          langSwitch()+'</div>'+
-        '<h1 class="ic-title">'+esc(bt(book.meta.title))+'</h1>'+
-        '<p class="ic-sub">'+esc(bt(book.meta.subtitle))+'</p>'+
+        bookHeaderHtml(book)+
         '<div class="ic-controls">'+
           '<span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("searchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("searchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
           '<p class="ic-count"></p>'+
@@ -726,6 +901,7 @@
         '<div class="ic-list"></div>'+
       '</div>';
     bindLangSwitch(root);
+    bindBookHeader(root);
     var toLib = root.querySelector(".ic-to-lib-link"); if(toLib) toLib.addEventListener("click",function(){ location.hash=""; });
     var q=root.querySelector(".ic-search"); q.value=state.q;
     function refresh(){
@@ -773,10 +949,20 @@
     var pos = it.part ? t("position",{part:it.part,page:it.page}) : t("positionPage",{page:it.page});
     var imgBase = BASE+"books/"+book.slug+"/img/";
     var pagesBase = BASE+"books/"+book.slug+"/pages/";
-    var imgs=(it.textOnly ? [] : (it.img||[])).map(function(src,k){
-      return '<figure class="ic-fig" data-src="'+esc(imgBase+src)+'"><img class="ic-fade-img" loading="lazy" src="'+esc(imgBase+src)+'" alt="'+esc(t("engravingAlt",{title:titleOf(it)}))+'">'+
-        (it.img.length>1?'<figcaption>'+t("figOf",{k:k+1,n:it.img.length})+'</figcaption>':"")+'</figure>';
-    }).join("");
+    // A cut engraving (books/<slug>/engravings/, matched to this article by
+    // printed page) replaces the old page-scan figure when there is one:
+    // the "_display.webp" file (real transparency: paper clear, line opaque)
+    // is shown; a click opens the same WebP full screen. The full-size raw
+    // JPG crops are not kept in the repository (see ALGORITHM.md); the frame
+    // is exactly the crops.json frame, see ALGORITHM.md's standing rule
+    // against auto-cropping the plate further.
+    var eng = it.textOnly ? null : engravingFor(book, it);
+    var imgs = eng
+      ? '<figure class="ic-fig ic-fig-eng" data-src="'+esc(eng.display)+'"><img class="ic-fade-img ic-eng-display" loading="lazy" src="'+esc(eng.display)+'" alt="'+esc(t("engravingAlt",{title:titleOf(it)}))+'"></figure>'
+      : (it.textOnly ? [] : (it.img||[])).map(function(src,k){
+          return '<figure class="ic-fig" data-src="'+esc(imgBase+src)+'"><img class="ic-fade-img" loading="lazy" src="'+esc(imgBase+src)+'" alt="'+esc(t("engravingAlt",{title:titleOf(it)}))+'">'+
+            (it.img.length>1?'<figcaption>'+t("figOf",{k:k+1,n:it.img.length})+'</figcaption>':"")+'</figure>';
+        }).join("");
     var captionLine = it.caption ? '<p class="ic-caption"><b>'+esc(t("captionLbl"))+'</b> '+esc(it.caption)+'</p>' : "";
     var cropVerifiedLine = it.crop_verified ? '<p class="ic-crop-verified">✓ обрезка подтверждена вручную</p>' : "";
     var attrs=(it.attrs||[]).map(function(a){
@@ -785,7 +971,10 @@
       return '<li><b>'+esc(what)+'</b><span>'+esc(meaning)+'</span></li>';
     }).join("");
     var translArr = textFor(it, book);
-    var transl=paraHtml(translArr);
+    var headHtml = headpieceHtml(book, it);
+    var tailHtml = tailpieceHtml(book, it);
+    var dropHtml = translArr && translArr.length ? dropcapFor(book, it, translArr[0]) : null;
+    var transl=paraHtml(translArr, dropHtml, function(idx){ return dividerHtml(book, it, idx); });
     var showOrig = book.meta.showOriginal !== false;
     var hasScans = showOrig && it.scans && it.scans.length;
     var hasFr = showOrig && !book.meta.frIsTranslation && it.text_fr && it.text_fr.length && !fuOrigIsDup(it, book);
@@ -812,6 +1001,7 @@
           '<span class="ic-nav-pos">'+pos+'</span>'+
           langSwitch()+
         '</div>'+
+        headHtml+
         '<header class="ic-head">'+
           '<p class="ic-kicker">'+(it.num?it.num+". ":"")+esc(it.group_fr?groupOf(it):(book.meta.parts&&book.meta.parts.length>1?partLabel(book,it.part):""))+'</p>'+
           '<h1 class="ic-h-fr">'+esc(it.fr)+'</h1>'+
@@ -823,6 +1013,7 @@
         (transl?'<section class="ic-sec"><h3>'+t("translSec")+'</h3><div class="ic-text">'+transl+'</div></section>':"")+
         ((hasScans||hasFr)?renderOriginal(it,book):"")+
         (!imgs && !transl ? '<div class="ic-missing"><b>'+t("missing")+'</b><br>'+t("missingAt",{part:it.part,page:esc(it.page)})+'</div>':"")+
+        (transl?tailHtml:"")+
         '<div class="ic-pager">'+
           '<button type="button" data-go="'+(prev?prev.id:"")+'"'+(prev?"":" disabled")+'><small>'+t("pagerBack")+'</small><span>'+(prev?esc(prev.fr):"")+'</span>'+(prev?'<em>'+esc(titleOf(prev))+'</em>':"")+'</button>'+
           '<button type="button" data-go="'+(next?next.id:"")+'"'+(next?"":" disabled")+'><small>'+t("pagerNext")+'</small><span>'+(next?esc(next.fr):"")+'</span>'+(next?'<em>'+esc(titleOf(next))+'</em>':"")+'</button>'+

@@ -16,5 +16,9 @@
   "place": "Padova",
   "idPrefix": "cart",
   "viewer": "figure",
-  "frIsTranslation": true
+  "frIsTranslation": true,
+  "ornaments": {
+    "enabled": true,
+    "source": "cartari"
+  }
 }
