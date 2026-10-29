@@ -129,7 +129,7 @@ Peloponneso	Пелопоннес	Peloponnese	Péloponnèse	область Гре
 Atheneo	Афиней	Athenaeus	Athénée	автор
 Germania	Германия	Germania	Germanie	область/народы, упомянуты по поводу почитания Либурны
 Ciembalo	Кимвал	cymbal (sistrum)	cymbale	атрибут Исиды; в тексте то же, что Систр (см. Sistro)
-Auoltoio	Гриф	vulture	vautour	птица, знак Природы в Египте; у Картари «Auoltoio»
+Auoltoio	Гриф	vulture	vautour	птица, знак Природы в Египте; у Картари «Auoltoio»; также птица, посвящённая Юноне (Элиан)
 Lunette	Лунницы	lunulae (crescent ornaments)	lunules	полумесяцы на обуви римской знати
 Lucano	Лукан	Lucan	Lucain	автор
 Simmaco	Симмах	Symmachus	Symmaque	оппонент Пруденция (его «Против Симмаха»)
@@ -252,7 +252,7 @@ Semidei	Полубоги	Demigods	Demi-dieux
 Loto	Лотос	Lotus	Lotus	
 Gratie	Грации	Graces	Grâces	
 Hore	Оры	Horae (Hours)	Heures	
-Fortuna	судьба	fortune	fortune	судьба как сила; с заглавной не пишется
+Fortuna	судьба	fortune	fortune	судьба как сила; с заглавной не пишется; исключение: богиня культа (храм, статуя, надпись на медали) → «Фортуна» с заглавной («tempio della Fortuna» → «храм Фортуны»)
 coturni	котурны	buskins	cothurnes	
 Thirso	тирс	thyrsus	thyrse	
 corno di diuitia	рог богатства	horn of wealth	corne de richesse	не путать с cornucopia/Copia
@@ -273,7 +273,7 @@ Creatore	Создатель	Creator	Créateur	египетский Бог-Соз
 Capra	Коза	Goat	Chèvre	с заглавной (правило 12); и у Пана «piedi di Capra» → «ноги Козы»
 Becco	Козёл	Billy goat	Bouc	с заглавной (правило 12)
 Iride	Ирида	Iris	Iris	вестница Юноны, Радуга; «дочь Тавманта» (Tauma — «удивление»); у Картари иногда «Iride» = Радуга
-Tauma	Тавмант	Thaumas	Thaumas	отец Ириды; имя толкуется как «удивление»
+Thaumante	Тавмант	Thaumas	Thaumas	отец Ириды; имя толкуется как «удивление»
 Castore	Кастор	Castor	Castor	под одним именем «Castori» у Картари разумеются оба брата (Кастор и Поллукс)
 Polluce	Поллукс	Pollux	Pollux	
 Castori	Касторы	the Castors	les Castors	оба Диоскура под одним именем; покровители мореходов, огни св. Эльма
@@ -296,7 +296,7 @@ Prema	Према	Prema	Prema	«прижимающая»
 Partunda	Партунда	Partunda	Partunda	облегчает страх родов
 Virginense	Виргинензис	Virginensis	Virginensis	«Dea Virginense» → «Богиня Виргинензис»; развязывает девичий пояс
 Iterduca	Итердука	Iterduca	Iterduca	эпитет Юноны у Марциана («ведущая в путь»); Domiduca → Домидука, Vnxia → Унксия, Cinxia → Цинксия
-Giugale	Югальная	Iugalis	Jugale	«Giunone Giugale» → «Юнона Югальная»; «Vico giugario» → «Югарский квартал»
+Giugale	Югальная	Iugalis	Jugale	«Giunone Giugale» → «Юнона Югальная»; «Vico giugario» → «Югарская улица»
 Sospita	Соспита	Sospita	Sospita	«Giunone Sospita» → «Юнона Соспита», спасительница, Ланувий
 Februale	Февральская	of February	Februale	«Giunone Februale» → «Юнона Февральская»
 Lanuuio	Ланувий	Lanuvium	Lanuvium	город Лация
@@ -306,19 +306,18 @@ Pauone	Павлин	Peacock	Paon	с заглавной (правило 12)
 Oca	Гусь	Goose	Oie	с заглавной (правило 12); во мн. ч. «Гуси»
 Cornacchia	Ворона	Crow	Corneille	с заглавной (правило 12)
 Sparuiere	Ястреб	Hawk	Épervier	с заглавной (правило 12)
-Grifo	Гриф	Vulture	Vautour	птица, посвящённая Юноне (Элиан); не мифический грифон
 Sambuco	Бузина	Elder	Sureau	на кол из бузины сажали пса
-Persa	майоран	marjoram	marjolaine	«verde persa»; у Катулла — amaracus; перевод условный [?]
+Persa	майоран	marjoram	marjolaine	«verde persa»; Crusca: persa = maggiorana; у Катулла — amaracus
 Socco	сокк	sock (soccus)	socque	лёгкий башмак комедиантов; «socchi gialli» → «жёлтые сокки»
 Flammeo	Фламмей	flammeum	flammeum	покрывало невест, цвета пламени
 Nodo d'Hercole	узел Геркулеса	Herculean knot	nœud d'Hercule	пояс невесты, который развязывает жених
-compare dall'anello	кум по кольцу	best man (lit. “godfather by the ring”)	témoin de mariage	старинное: ближайший друг жениха на свадьбе
-farsetto di Giunone	камзол Юноны	Juno's jerkin	pourpoint de Junon	у Феста: козьи шкуры, которыми луперки били женщин
-Fortuna del popolo Romano	судьба римского народа	Fortune of the Roman people	Fortune du peuple romain	надпись на медали Нервы; Fortuna → «судьба» строчными
+compare dall'anello	кум по кольцу	best man (lit. “godfather by the ring”)	témoin de mariage	итальянский обычай времён Картари (compare d'anello): друг жениха, подающий кольцо; в тексте в кавычках
+farsetto di Giunone	куртка Юноны	Juno's jerkin	pourpoint de Junon	у Феста amiculum Iunonis (козья шкура); farsetto — замена самого Картари, не исправлять (правило 8); не «камзол» (анахронизм)
+Fortuna del popolo Romano	Фортуна римского народа	Fortune of the Roman people	Fortune du peuple romain	надпись на медали Нервы; богиня культа → «Фортуна»
 Argo	Аргус	Argus	Argus	стражник Юноны (о павлине); город Argo → Аргос
 Perseo	Персей	Perseus	Persée	последний царь Македонии (Туллий о Ватинии)
 Vatinio	Ватиний	Vatinius	Vatinius	
-Citerone	Киферон	Cithaeron	Cithéron	царь в Беотии (Юнона и дуб)
+Citherone	Киферон	Cithaeron	Cithéron	царь в Беотии (Юнона и дуб)
 Cillaro	Киллар	Cyllarus	Cyllare	один из коней Диоскуров (другой — Xanto → Ксанф)
 Bibulo	Бибул	Bibulus	Bibulus	консул вместе с Цезарем
 Quintio	Квинкций	Quinctius	Quinctius	Тит Квинкций (Фламинин)
@@ -330,3 +329,14 @@ Deiopea	Дейопея	Deiopea	Déiopée	нимфа Юноны (Вергилий
 Partenia	Партения	Parthenia	Parthénie	прежнее имя Самоса
 Tertulliano	Тертуллиан	Tertullian	Tertullien	
 Catullo	Катулл	Catullus	Catulle	
+Vico giugario	Югарская улица	Vicus Iugarius	Vicus Jugarius	улица в Риме (vicus — улица, не квартал)
+sdegnatori delle cose del Cielo	те, кто рисует небесные фигуры	drawers of the celestial figures	dessinateurs des figures célestes	опечатка sdegnatori вместо disegnatori (0198); знак Близнецов ♊
+teda	смолистая сосна	pine torch (taeda)	torche de pin	«facelle accese di teda» → «горящие факелы из смолистой сосны»
+spino bianco	боярышник	hawthorn	aubépine	факелы из боярышника (Плутарх, Фест)
+stemperamento	расстройство соразмерности	distemper (loss of balance)	dérèglement	«stemperamento de gli elementi» — противоположность «temperie»; не «смешение»
+Pecora	Овца	Sheep	Brebis	с заглавной (правило 12): «pelle di pecora» → «шкура Овцы»
+Cane	Пёс	Dog	Chien	с заглавной (правило 12)
+Porco	Свинья	Pig	Porc	с заглавной (правило 12): «sungia di porco» → «сало Свиньи»
+Cauallo	Конь	Horse	Cheval	с заглавной (правило 12), и там, где у Картари строчная
+Feronia	Ферония	Feronia	Féronia	богиня вольноотпущенников
+Glicerio	Гликерия	Glycerium	Glycérie	героиня «Андрии» Теренция
