@@ -65,6 +65,15 @@
 | 0293 | 251 | Ethocle | Etheocle | пропущена буква |
 | 0303 | 261 | guerrra | guerra | лишняя буква |
 | 0304 | 262 | espngnata | espugnata | перепутанная буква |
+| 0320 | 278 | buomini | huomini | перепутанная буква |
+| 0327 | 285 | c | e | перепутанная буква |
+| 0330 | 288 | quelllo | quello | лишняя буква |
+| 0332 | 290 | ta | la | перепутанная буква |
+| 0332 | 290 | oro | ouero | прочее |
+| 0333 | 291 | alrri | altri | перепутанная буква |
+| 0335 | 293 | denaso | denaro | перепутанная буква |
+| 0343 | 301 | Sacerdore | Sacerdote | перепутанная буква |
+| 0344 | 302 | tronate | trouate | перепутанная буква |
 | 0482 | 440 | licentiosamenre | licentiosamente | перепутанная буква |
 | 0493 | 451 | compagria | compagnia | перепутанная буква |
 | 0494 | 452 | rccoglie | raccoglie | пропущена буква |
