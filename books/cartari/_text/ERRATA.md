@@ -84,6 +84,8 @@
 | 0364 | 322 | sciolgliere | sciogliere | лишняя буква |
 | 0371 | 329 | Disdordia | Discordia | перепутанная буква |
 | 0391 | 349 | Hedora | Hedera | перепутанная буква |
+| 0435 | 393 | Asonio | Ausonio | пропущена буква |
+| 0438 | 396 | ristrerta | ristretta | перепутанная буква |
 | 0482 | 440 | licentiosamenre | licentiosamente | перепутанная буква |
 | 0493 | 451 | compagria | compagnia | перепутанная буква |
 | 0494 | 452 | rccoglie | raccoglie | пропущена буква |
