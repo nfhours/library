@@ -86,6 +86,9 @@
 | 0391 | 349 | Hedora | Hedera | перепутанная буква |
 | 0435 | 393 | Asonio | Ausonio | пропущена буква |
 | 0438 | 396 | ristrerta | ristretta | перепутанная буква |
+| 0443 | 401 | antchi | antichi | пропущена буква |
+| 0443 | 401 | arrinano | arriuano | перепутанная буква |
+| 0443 | 401 | vitrù | virtù | перестановка букв |
 | 0482 | 440 | licentiosamenre | licentiosamente | перепутанная буква |
 | 0493 | 451 | compagria | compagnia | перепутанная буква |
 | 0494 | 452 | rccoglie | raccoglie | пропущена буква |
