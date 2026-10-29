@@ -97,6 +97,7 @@
 | 0490 | 448 | innamoratto | innamorato | лишняя буква |
 | 0493 | 451 | compagria | compagnia | перепутанная буква |
 | 0494 | 452 | rccoglie | raccoglie | пропущена буква |
+| 0513 | 471 | Strehge | Streghe | перестановка букв |
 | 0531 | 489 | Conseruadori | Conseruatori | перепутанная буква |
 | 0535 | 493 | imaeini | imagini | перепутанная буква |
 | 0536 | 494 | inritola | intitola | перепутанная буква |
