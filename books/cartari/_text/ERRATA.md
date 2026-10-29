@@ -89,7 +89,12 @@
 | 0443 | 401 | antchi | antichi | пропущена буква |
 | 0443 | 401 | arrinano | arriuano | перепутанная буква |
 | 0443 | 401 | vitrù | virtù | перестановка букв |
+| 0468 | 426 | s'affatita | s'affatica | перепутанная буква |
+| 0473 | 431 | so | suo | пропущена буква |
+| 0477 | 435 | Praffitele | Prassitele | перестановка/замена букв |
 | 0482 | 440 | licentiosamenre | licentiosamente | перепутанная буква |
+| 0490 | 448 | rimembanza | rimembranza | пропущена буква |
+| 0490 | 448 | innamoratto | innamorato | лишняя буква |
 | 0493 | 451 | compagria | compagnia | перепутанная буква |
 | 0494 | 452 | rccoglie | raccoglie | пропущена буква |
 | 0531 | 489 | Conseruadori | Conseruatori | перепутанная буква |
