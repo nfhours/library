@@ -429,7 +429,7 @@ Trofonio	Трофоний	Trophonius	Trophonios
 Lione	Лев	Lion	Lion	с заглавной (правило 12); то же Leone
 Vacca	Корова	Cow	Vache	с заглавной (правило 12)
 Giouenca	Тёлка	Heifer	Génisse	с заглавной (правило 12)
-Bue	Бык	Ox	Bœuf	с заглавной (правило 12)
+Bue	Бык	Ox	Bœuf	с заглавной (правило 12); так же Buoi и Toro — всегда «Бык», не «Вол»
 Porca	Свинья	Sow	Truie	с заглавной (правило 12); «porca pregna» → «супоросая Свинья»
 Porcello	Поросёнок	Piglet	Porcelet	с заглавной (правило 12)
 Cinghiale	Кабан	Boar	Sanglier	с заглавной (правило 12)
@@ -502,7 +502,7 @@ Cefiso	Кефис	Cephissus	Céphise	река близ Афин
 Pò	По	Po	Pô	река
 Eridano	Эридан	Eridanus	Éridan	другое имя По
 Inacho	Инах	Inachus	Inachos	река в Греции
-Teseo	Тезей	Theseus	Thésée	
+Teseo	Тезей	Theseus	Thésée	единая форма для Teseo и Theseo во всех главах (не «Тесей»)
 Etolia	Этолия	Aetolia	Étolie	
 Carpato	Карпат	Carpathos	Carpathos	остров; Карпатское море
 Peneo	Пеней	Peneus	Pénée	река Фессалии
@@ -889,7 +889,7 @@ Cadmo	Кадм	Cadmus	Cadmos	муж Гармонии
 Pitho	Пейто	Peitho	Peithô	Богиня убеждения; = Suadela
 Suadela	Свада	Suada	Suada	латинское имя Пейто; (*Suadela*)
 Megaresi	мегарцы	Megarians	Mégariens	жители Мегар
-Theseo	Тесей	Theseus	Thésée	ввёл поклонение Венере и Свады у афинян
+Theseo	Тезей	Theseus	Thésée	вариант написания Teseo (в тексте «Theseo»); ввёл поклонение Венере и Свады у афинян
 Tindareo	Тиндарей	Tyndareus	Tyndare	отец Елены; Венера в оковах
 Morpho	Морфо	Morpho	Morpho	Венера с покрывалом и оковами в Лакедемоне
 Nicofora	Никофора	Nikephoros	Nicéphore	«несущая Победу»; (*Nicofora*)
@@ -934,3 +934,4 @@ Athene	Афины	Athens	Athènes	город (rocca di Athene — крепост
 Colonna	Колонна	Colonna	Colonna	дом Колонна в Риме
 Primauera	Весна	Spring	Printemps	время года
 Està	Лето	Summer	Été	время года
+Naturali	естествоиспытатели	natural philosophers	naturalistes	i naturali — «натурфилософы» не употреблять; единая форма во всех главах
