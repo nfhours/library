@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "74";
+  var APP_VER = "75";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -960,6 +960,14 @@
     var imgs = eng
       ? '<figure class="ic-fig ic-fig-eng" data-src="'+esc(eng.display)+'"><img class="ic-fade-img ic-eng-display" loading="lazy" src="'+esc(eng.display)+'" alt="'+esc(t("engravingAlt",{title:titleOf(it)}))+'"></figure>'
       : (it.textOnly ? [] : (it.img||[])).map(function(src,k){
+          // Iconologie: рядом с каждым JPG лежит <имя>_display.webp (бумага прозрачна,
+          // тушь почти чёрная, мягкий край запечён в файл, как у Картари); показываем его,
+          // по клику открывается исходный JPG.
+          if(book.slug==="iconologie" && /\.jpe?g$/i.test(src)){
+            var disp = imgBase+src.replace(/\.jpe?g$/i,"_display.webp");
+            return '<figure class="ic-fig ic-fig-eng" data-src="'+esc(imgBase+src)+'"><img class="ic-fade-img ic-eng-display" loading="lazy" src="'+esc(disp)+'" alt="'+esc(t("engravingAlt",{title:titleOf(it)}))+'">'+
+              (it.img.length>1?'<figcaption>'+t("figOf",{k:k+1,n:it.img.length})+'</figcaption>':"")+'</figure>';
+          }
           return '<figure class="ic-fig" data-src="'+esc(imgBase+src)+'"><img class="ic-fade-img" loading="lazy" src="'+esc(imgBase+src)+'" alt="'+esc(t("engravingAlt",{title:titleOf(it)}))+'">'+
             (it.img.length>1?'<figcaption>'+t("figOf",{k:k+1,n:it.img.length})+'</figcaption>':"")+'</figure>';
         }).join("");
