@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 124,
+ "source": "scan/frame_0124.jpg",
+ "page": "118",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In ſtudioſum captum",
+     "Amore."
+    ],
+    "reading": "In studiosum captum Amore."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Бородатый учёный в шапке сидит в резном кресле под балдахином, подперев голову рукой и указывая на себя; слева воин в шлеме и доспехах и женщина (Паллада?) с копьём; справа стоит женщина в венке и покрывале, указывая вверх; у её ног маленький Амур (младенец), держащийся за её одежду.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Immerſus ſtudijs,dicundo & iurè peritus,",
+     "Et maximus libellio,",
+     "Helianiran amat,quantùm nec Thracius vnquã",
+     "Princeps ſororis pellicem.",
+     "Pallada cur alio ſuperaſti iudice Cypri?",
+     "Num ſat ſub Ida eſt vincer[?]?"
+    ],
+    "reading": [
+     "Immersus studiis, dicundo & iurè peritus,",
+     "Et maximus libellio,",
+     "Helianiran amat, quantùm nec Thracius unquam",
+     "Princeps sororis pellicem.",
+     "Pallada cur alio superasti iudice Cypri?",
+     "Num sat sub Ida est vincer[?]?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0123 (геометрические панели с чёрным арабеском, медальоны)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «118» слева вверху. В эпиграмме «&» в виде курсивного амперсанда."
+}

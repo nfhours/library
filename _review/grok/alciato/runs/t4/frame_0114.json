@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 114,
+ "source": "scan/frame_0114.jpg",
+ "page": "108",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "NATVRA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In iuuentam."
+    ],
+    "reading": "In iuventam."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "На каменном постаменте стоят два обнажённых безбородых юноши: слева Вакх в венке из листьев, протягивающий виноградную гроздь; справа Аполлон с лучистым нимбом, держащий лук (с колчаном на ленте) и стрелы; позади пейзаж с холмами, деревом, домиками, облаками.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Natus vterque Iouis,tener atque imberbis v[?]erq;,",
+     "Quem Latona tulit,quem tulit & Semele,",
+     "Saluete,æterna ſimul & florete iuuenta,",
+     "Numine ſit veſtro quæ diuturna mihi.",
+     "Tu vino curas,tu victu dilue morbos,",
+     "Vt lento accedat ſera ſenecta pede."
+    ],
+    "reading": [
+     "Natus uterque Iovis, tener atque imberbis u[?]erque,",
+     "Quem Latona tulit, quem tulit & Semele,",
+     "Salvete, æterna simul & florete iuventa,",
+     "Numine sit vestro quæ diuturna mihi.",
+     "Tu vino curas, tu victu dilue morbos,",
+     "Ut lento accedat sera senecta pede."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0113 (маскарон вверху, путто с фруктами внизу); слева внизу во фризе мелкая литера «P»."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «108» слева вверху."
+}

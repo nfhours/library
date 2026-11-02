@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 101,
+ "source": "scan/frame_0101.jpg",
+ "page": "95",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AVARITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In ſordidos."
+    ],
+    "reading": "In sordidos."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Ибис (длинноклювая птица) стоит на берегу, изогнув шею и вводя клюв себе под хвост (промывая желудок); позади река/море с парусником, город с башнями на берегу, облака, луч из облака; на переднем плане трава и камни, вдали две маленькие птицы на воде.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quæ roſtro(clyſtere velut ) ſibi proluit aluum",
+     "Ibis,Nilaicis cognita littoribus,",
+     "Tranſijt opprobrij in nomen:quo Publius hoſtem",
+     "Naſo ſuum appellat,Battiadésque ſuum."
+    ],
+    "reading": [
+     "Quæ rostro(clystere velut ) sibi prolvit alvum",
+     "Ibis, Nilaicis cognita littoribus,",
+     "Transiit opprobrii in nomen: quo Publius hostem",
+     "Naso suum appellat, Battiadésque suum."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка из переплетённых лент (плетёнка) с розетками; вверху маскарон в центре; внизу фриз с большим маскароном в повязке между крылатыми драконами."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «95» справа вверху. Сигнатуры нет. Перед закрывающей скобкой «velut )» — пробел, как в наборе."
+}

@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 98,
+ "source": "scan/frame_0098.jpg",
+ "page": "92",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AVARITIA.",
+ "rubric": "AVARITIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Auaritia."
+    ],
+    "reading": "Avaritia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Тантал стоит по грудь в воде озера/реки, тянется руками к ветви плодового дерева над головой; слева деревья, справа камыш; вдали холмы, сухое дерево, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Heu miſer in medijs ſitiens ſtat Tantalus vndis,",
+     "Et poma eſuriens proxima,habere nequit.",
+     "Nomine mutato de te id dicetur auare,",
+     "Qui,quaſi non habeas,non frueris quod habes."
+    ],
+    "reading": [
+     "Heu miser in mediis sitiens stat Tantalus undis,",
+     "Et poma esuriens proxima, habere nequit.",
+     "Nomine mutato de te id dicetur avare,",
+     "Qui, quasi non habeas, non frueris quod habes."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0097 (херувим, колонны с табличками «P» и «V», гермы, нижний фриз с маскароном в тюрбане)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «92» слева вверху (смазан). Первая буква девиза «A» перекрыта чернильной кляксой (позднее пятно), но читается."
+}

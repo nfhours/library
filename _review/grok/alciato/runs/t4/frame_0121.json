@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 121,
+ "source": "scan/frame_0121.jpg",
+ "page": "115",
+ "signature": "H 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": "AMOR.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Potentiſsimus affectus amor."
+    ],
+    "reading": "Potentissimus affectus amor."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Крылатый Амур (путто) правит колесницей, запряжённой львом: стоя на колеснице, он поднимает бич в правой руке и держит вожжи левой; лев на переднем плане слева; позади холмы с крепостью и башнями, облака, птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aſpice vt inuictus vires auriga leonis,",
+     "Expreſſus gemma puſio vincat amor:",
+     "Vtq; manu hac ſcuticã tenet,hac vt flectit habenas,",
+     "Vtq; eſt in pueri pluri[?]us ore decor.",
+     "Dira lues procul eſto:feram qui vin[?]ere talem",
+     "Eſt potis,à nobis temperet ánne manus?"
+    ],
+    "reading": [
+     "Aspice ut inuictus vires auriga leonis,",
+     "Expressus gemma pusio vincat amor:",
+     "Utque manu hac scuticam tenet, hac ut flectit habenas,",
+     "Utque est in pueri pluri[?]us ore decor.",
+     "Dira lues procul esto: feram qui vin[?]ere talem",
+     "Est potis, à nobis temperet ánne manus?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка из растительного орнамента: вверху крылатые грифоны/птицы в листве; по бокам лозы с виноградом, цветы, маска с рогами; внизу звери (львы?) в листве и цветочные розетки."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «115» справа вверху; сигнатура «H 2». Рубрика «AMOR.» курсивными капителями над девизом. В «Potentiſsimus» лигатура ß передана как ſs."
+}

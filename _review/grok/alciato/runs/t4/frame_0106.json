@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 106,
+ "source": "scan/frame_0106.jpg",
+ "page": "100",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "GVLA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In paraſitos."
+    ],
+    "reading": "In parasitos."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Юноша в коротком камзоле и чулках торопливо идёт по мощёной улице, неся перед собой блюдо с раками; по сторонам дома и стены, в глубине городская улица с арками и башней, птицы в небе.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quos tibi donamus,fluuiales accipe cancros,",
+     "Munera conueniunt moribus iſta tuis.",
+     "His oculi vigiles,& forfice plurimus ordo",
+     "Chelarum armatus,maximaq; aluus adeſt.",
+     "Sic tibi propenſus ſtat pingui abdomine venter,",
+     "Perniceſq; pedes,ſpiculaq; apta pedi.",
+     "Cùm vagus in triuijs,menſæq; ſedilibus erras,",
+     "Inq; alios mordax ſcommata falſa iacis."
+    ],
+    "reading": [
+     "Quos tibi donamus, fluviales accipe cancros,",
+     "Munera conueniunt moribus ista tuis.",
+     "His oculi vigiles, & forfice plurimus ordo",
+     "Chelarum armatus, maximaque alvus adest.",
+     "Sic tibi propensus stat pingui abdomine venter,",
+     "Pernicesque pedes, spiculaque apta pedi.",
+     "Cùm vagus in triviis, mensæque sedilibus erras,",
+     "Inque alios mordax scommata falsa iacis."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0105 (балдахин, путти по сторонам, ладья на волнах)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «100» слева вверху."
+}

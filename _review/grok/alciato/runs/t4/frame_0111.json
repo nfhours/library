@@ -1,0 +1,82 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 111,
+ "source": "scan/frame_0111.jpg",
+ "page": "105",
+ "signature": "G 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "DOCTORVM AGNOMINA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": null,
+   "epigram": {
+    "diplomatic": [
+     "Obſcurus & confuſus,vt Picus fuit,",
+     "Labyrinthus appellabitur.",
+     "Nimis breuis,multa amputans,vt Claudius,",
+     "Mucronis agnomen feret.",
+     "Qni vel'columnas voce rumpit,Parpalus,",
+     "Dictus truo eſt ſcholaſticis.",
+     "Contra eſt vocatus,tenuis eſſet Albius",
+     "Quòd voce,veſpertilio.",
+     "At vltimas mutilans colobotes ſyllabas,",
+     "Hirundo Craſſus dicitur.",
+     "Qui ſurdus alijs,ſolus ipſe vult loqui,",
+     "Vt ſturnus in prouerbio eſt.",
+     "Hic bleſus,ille raucus,iſte garriens.",
+     "Hic ſibilat ceu vipera.",
+     "Tumultuatur ille rictu & naribus.",
+     "Huic lingua terebellam facit.",
+     "Singultit alius,atque tuſsit hæſitans.",
+     "Conſpuit alius vt pſecas.",
+     "Quàm mnlta rebus vitia in humanis agunt,",
+     "Tam multa furgunt nomina."
+    ],
+    "reading": [
+     "Obscurus & confusus, ut Picus fuit,",
+     "Labyrinthus appellabitur.",
+     "Nimis brevis, multa amputans, ut Claudius,",
+     "Mucronis agnomen feret.",
+     "Qni vel'columnas voce rumpit, Parpalus,",
+     "Dictus truo est scholasticis.",
+     "Contra est vocatus, tenuis esset Albius",
+     "Quòd voce, vespertilio.",
+     "At ultimas mutilans colobotes syllabas,",
+     "Hirundo Crassus dicitur.",
+     "Qui surdus aliis, solus ipse vult loqui,",
+     "Ut sturnus in proverbio est.",
+     "Hic blesus, ille raucus, iste garriens.",
+     "Hic sibilat ceu vipera.",
+     "Tumultuatur ille rictu & naribus.",
+     "Huic lingua terebellam facit.",
+     "Singultit alius, atque tussit hæsitans.",
+     "Conspuit alius ut psecas.",
+     "Quàm mnlta rebus vitia in humanis agunt,",
+     "Tam multa furgunt nomina."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "",
+   "continuation_of": {
+    "frame": 110,
+    "page": "104",
+    "motto": "DOCTORVM AGNOMINA."
+   }
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под текстом",
+   "description": "Концовка: маскарон с бараньими рогами и драпировкой."
+  },
+  {
+   "position": "рамка полосы",
+   "description": "Рамка: вверху маскарон между лентами, по углам крылатые путти; по бокам гермы-маски (мужские профили) в лентах; внизу фриз с маской между двумя крылатыми драконами; под маской монограмма «PV»."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «105» справа вверху; сигнатура «G 5» (цифра похожа на «ʒ»/«5»). Продолжение эпиграммы с 0110 без девиза и гравюры."
+}

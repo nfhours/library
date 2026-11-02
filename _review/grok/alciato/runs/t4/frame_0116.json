@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 116,
+ "source": "scan/frame_0116.jpg",
+ "page": "110",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "ASTROLOGIA.",
+ "rubric": "ASTROLOGIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Scyphus Neſtoris."
+    ],
+    "reading": "Scyphus Nestoris."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Бородатый старец (Нестор) в высокой шапке стоит в пейзаже, протянув правую руку к большому кубку-кратеру с четырьмя ручками на скале/колонне; на краях кубка сидят четыре голубя (птицы); рядом скала, похожая на дерево/куст; у ног старца поваленный ствол (барабан колонны); справа холмы, деревья, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Neſtoreum geminis cratera hunc accipe fundis,",
+     "Quod grauis argenti maſſa profudit opus.",
+     "Clauiculi ex auro:ſtant circum quattuor anſæ:",
+     "Vnam quanque ſuper fulua columba ſedet."
+    ],
+    "reading": [
+     "Nestoreum geminis cratera hunc accipe fundis,",
+     "Quod gravis argenti massa profudit opus.",
+     "Claviculi ex auro: stant circum quattuor ansæ:",
+     "Unam quanque super fulva columba sedet."
+    ]
+   },
+   "continues_on_next_page": true,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0115 (картуш с «PV» вверху, маски, бордюры из витой ленты)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «110» слева вверху. Рубрика «ASTROLOGIA.» курсивными капителями над девизом."
+}

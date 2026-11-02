@@ -1,0 +1,49 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 110,
+ "source": "scan/frame_0110.jpg",
+ "page": "104",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "DOCTORVM AGNOMINA.",
+ "rubric": "DOCTORVM AGNO-|MINA.",
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": {
+    "position": "между рубрикой и эпиграммой",
+    "description": "Аудитория: в центре на кафедре под балдахином сидит доктор в шапке и мантии, перед ним пюпитр; по обе стороны на скамьях слушатели в шапках, спорят и жестикулируют; в проёмах слева — небо с летящей птицей и косым дождём над холмами, справа — извилистая река (Меандр) с водоворотом/спиралью на холме; на полу внизу змейка; под скамьями маленькие звери.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Moris vetuſti eſt,aliqua profeſſoribus",
+     "Superadijci cognomina.",
+     "Faciles apertoſq; explicans tantùm locos,",
+     "Canon vocatur Curtius.",
+     "Reuoluitur qui eodem,& iteratq; nimis",
+     "Mæander,vt Pariſius."
+    ],
+    "reading": [
+     "Moris vetusti est, aliqua professoribus",
+     "Superadiici cognomina.",
+     "Faciles apertosque explicans tantùm locos,",
+     "Canon vocatur Curtius.",
+     "Revolvitur qui eodem, & iteratque nimis",
+     "Mæander, ut Parisius."
+    ]
+   },
+   "continues_on_next_page": true,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же ленточная рамка, что на 0109."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «104» слева вверху; колонтитул «DOCTORVM AGNOMINA.» (после точки чернильная черта). Рубрика над гравюрой курсивными капителями в две строки («DOCTORVM AGNO-» / «MINA.»), отдельного девиза нет."
+}

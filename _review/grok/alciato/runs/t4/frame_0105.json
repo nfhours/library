@@ -1,0 +1,56 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 105,
+ "source": "scan/frame_0105.jpg",
+ "page": "99",
+ "signature": "G 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "GVLA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ocni effigies.De his qui meretri-",
+     "cibus donant,quod in bonos",
+     "vſus verti debeat."
+    ],
+    "reading": "Ocni effigies.De his qui meretricibus donant, quod in bonos usus verti debeat."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Окн плетёт верёвку: сидящий человек (спиной к зрителю) у колеса/прялки под навесом крутит верёвку, натянутую на подпорках через всё поле; справа стоит второй человек, держащий конец верёвки; на переднем плане справа ослица поедает свитую верёвку; позади руины городских стен с башнями, птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Impiger haud ceſſat funem contexere ſparto,",
+     "Humidaq; artifici iungere fila manu.",
+     "Sed quantum multis vix torquet ſtrenuus horis,",
+     "Protinus ignaui ventris aſella vorat.",
+     "Fœmina iners animal facili congeſta marito",
+     "Lucra rapit,mundum prodigit inq; ſuum."
+    ],
+    "reading": [
+     "Impiger haud cessat funem contexere sparto,",
+     "Humidaque artifici iungere fila manu.",
+     "Sed quantum multis vix torquet strenuus horis,",
+     "Protinus ignavi ventris asella vorat.",
+     "Fœmina iners animal facili congesta marito",
+     "Lucra rapit, mundum prodigit inque suum."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка с балдахином/шатром вверху (решётчатая кайма с бахромой), по сторонам путти/атланты, внизу ладья на волнах с маской в воде."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «99» справа вверху; сигнатура «G 2». В «contexere» литера x выглядит иной (более жирной) — передано как x."
+}

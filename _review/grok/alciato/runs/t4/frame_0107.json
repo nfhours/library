@@ -1,0 +1,69 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 107,
+ "source": "scan/frame_0107.jpg",
+ "page": "101",
+ "signature": "G 3",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "GVLA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Paruam culinam,duobus",
+     "ganeonibus non",
+     "ſufficere."
+    ],
+    "reading": "Parvam culinam, duobus ganeonibus non sufficere."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Большое дерево слева; на ветке сидит птица, под деревом на земле две птицы дерутся (одна опрокинута на спину); справа хижина с соломенной крышей за плетнём, кусты, дерево, холмы, стая птиц в небе.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "In modicis nihil eſt quod quis lucretur:& vnum",
+     "Arbuſtum geminos non alit Erythacos."
+    ],
+    "reading": [
+     "In modicis nihil est quod quis lucretur: & unum",
+     "Arbustum geminos non alit Erythacos."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  },
+  {
+   "motto": {
+    "diplomatic": [
+     "ALIVD."
+    ],
+    "reading": "ALIUD."
+   },
+   "engraving": null,
+   "epigram": {
+    "diplomatic": [
+     "In tenui ſpes nulla lucri eſt:vnoq; reſidunt",
+     "Arbuſto geminæ non bene Ficedulæ."
+    ],
+    "reading": [
+     "In tenui spes nulla lucri est: unoque residunt",
+     "Arbusto geminæ non bene Ficedulæ."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Второй вариант эпиграммы под заголовком «ALIVD.» (центрирован, разрядкой) к той же гравюре; отдельной гравюры нет."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Архитектурная рамка: вверху карниз с розетками и маскароном в короне; по сторонам гермы (бородатый мужчина слева, женщина справа) с волютами и кистями, витые валики вдоль поля; внизу фриз с бычьим черепом (букранием) и гирляндой между волютами."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «101» справа вверху; сигнатура «G 3» (цифра похожа на «ʒ»)."
+}

@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 100,
+ "source": "scan/frame_0100.jpg",
+ "page": "94",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AVARITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In aulicos."
+    ],
+    "reading": "In aulicos."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Придворный в богатом платье с цепью, бородатый, в шапке с пером, сидит на каменной скамье/парапете у ступеней дворца, ноги в (золотых) путах; позади дворцовые здания с арками и портиком, мощёная площадь, птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Vana Palatinos quos educat aula clientes,",
+     "Dicitur auratis nectere compe[?]dibus."
+    ],
+    "reading": [
+     "Vana Palatinos quos educat aula clientes,",
+     "Dicitur auratis nectere compe[?]dibus."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под эпиграммой",
+   "description": "Небольшой картуш-концовка с рогатым маскароном (сатир/козёл) между свитками."
+  },
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0099 (с монограммой «PV» вверху, ваза с пламенем внизу)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «94» слева вверху."
+}

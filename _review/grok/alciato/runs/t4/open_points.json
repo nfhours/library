@@ -1096,5 +1096,489 @@
   ],
   "type": "punctuation",
   "run": "t4"
+ },
+ {
+  "frame": 97,
+  "page": "91",
+  "location": "эпиграмма, стр.4",
+  "as_read": "fidet",
+  "candidates": [
+   "fides"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 97,
+  "page": "91",
+  "location": "эпиграмма, стр.5",
+  "as_read": "qui cæuet",
+  "candidates": [
+   "quiscæuet",
+   "quisquiliæ? (ожидалось «quis cæuet»/ «quis cauet»)"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 100,
+  "page": "94",
+  "location": "эпиграмма, стр.2",
+  "as_read": "compe[?]dibus (e почти не пропечатана)",
+  "candidates": [
+   "compedibus"
+  ],
+  "type": "damaged",
+  "run": "t4"
+ },
+ {
+  "frame": 102,
+  "page": "96",
+  "location": "эпиграмма, стр.4",
+  "as_read": "aqnas",
+  "candidates": [
+   "aquas"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 102,
+  "page": "96",
+  "location": "эпиграмма, стр.4, начало",
+  "as_read": "Si cretæ (пробел между Si и cretæ узкий)",
+  "candidates": [
+   "Si cretæ",
+   "Sicretæ"
+  ],
+  "type": "layout",
+  "run": "t4"
+ },
+ {
+  "frame": 103,
+  "page": "97",
+  "location": "эпиграмма, стр.2",
+  "as_read": "mulcet (первая буква похожа на «n»+«m», литера деформирована)",
+  "candidates": [
+   "mulcet"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 103,
+  "page": "97",
+  "location": "эпиграмма, стр.3",
+  "as_read": "tã mẽs (пробел узкий)",
+  "candidates": [
+   "tã mẽs",
+   "tãmẽs"
+  ],
+  "type": "layout",
+  "run": "t4"
+ },
+ {
+  "frame": 104,
+  "page": "98",
+  "location": "эпиграмма, стр.2, конец",
+  "as_read": "Onocrotalum.. (две точки)",
+  "candidates": [
+   "Onocrotalum.",
+   "Onocrotalum.."
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 104,
+  "page": "98",
+  "location": "гравюра, внизу слева",
+  "as_read": "неясные знаки, похожие на «ʋRG…»",
+  "candidates": [
+   "[...]",
+   "монограмма",
+   "проступание"
+  ],
+  "type": "illegible",
+  "run": "t4"
+ },
+ {
+  "frame": 108,
+  "page": "102",
+  "location": "эпиграмма, стр.1, начало",
+  "as_read": "Regna'orq; (после Regna апострофообразный знак — грязь или повреждённая литера)",
+  "candidates": [
+   "Regna orq",
+   "Regia orq"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 108,
+  "page": "102",
+  "location": "эпиграмма, стр.3, первое слово",
+  "as_read": "Qu[?]s (средняя литера разбита, видны два штриха)",
+  "candidates": [
+   "Quas",
+   "Quæs"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 109,
+  "page": "103",
+  "location": "колонтитул",
+  "as_read": "[?]VLA. (первая литера — клякса)",
+  "candidates": [
+   "GVLA."
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 109,
+  "page": "103",
+  "location": "эпиграмма, стр.1",
+  "as_read": "pralargo",
+  "candidates": [
+   "prælargo"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 109,
+  "page": "103",
+  "location": "эпиграмма, стр.3",
+  "as_read": "ven[?]riq; (на месте t — знак, похожий на двоеточие)",
+  "candidates": [
+   "ventriq"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 111,
+  "page": "105",
+  "location": "эпиграмма, стр.5, начало",
+  "as_read": "Qni",
+  "candidates": [
+   "Qui"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 111,
+  "page": "105",
+  "location": "эпиграмма, стр.5",
+  "as_read": "vel'columnas (апострофообразная метка после vel)",
+  "candidates": [
+   "vel columnas"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 111,
+  "page": "105",
+  "location": "эпиграмма, предпоследняя стр.",
+  "as_read": "mnlta",
+  "candidates": [
+   "multa"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 111,
+  "page": "105",
+  "location": "эпиграмма, последняя стр.",
+  "as_read": "furgunt (f с перекладиной)",
+  "candidates": [
+   "ſurgunt"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 112,
+  "page": "106",
+  "location": "эпиграмма, стр.1, конец",
+  "as_read": "eſt ) (пробел перед скобкой)",
+  "candidates": [
+   "eſt)"
+  ],
+  "type": "layout",
+  "run": "t4"
+ },
+ {
+  "frame": 112,
+  "page": "106",
+  "location": "эпиграмма, стр.3, конец",
+  "as_read": "vir[?]us (на месте t знак вроде двоеточия)",
+  "candidates": [
+   "virtus"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 112,
+  "page": "106",
+  "location": "эпиграмма, стр.4, конец",
+  "as_read": "ſedet.. (две точки)",
+  "candidates": [
+   "ſedet."
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 112,
+  "page": "106",
+  "location": "эпиграмма, стр.6",
+  "as_read": "Concubitu:vt volucres ,ſquamea (двоеточие; пробел перед запятой)",
+  "candidates": [
+   "Concubitu,vt volucres,ſquamea"
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 112,
+  "page": "106",
+  "location": "эпиграмма, последняя стр.",
+  "as_read": "ratio'vlla (метка между словами)",
+  "candidates": [
+   "ratio vlla"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 113,
+  "page": "107",
+  "location": "эпиграмма, стр.1",
+  "as_read": "ſphæræ ,Fortuna (бледная запятая с пробелом перед ней)",
+  "candidates": [
+   "ſphæræ,Fortuna",
+   "ſphæræ Fortuna"
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 114,
+  "page": "108",
+  "location": "эпиграмма, стр.1, конец",
+  "as_read": "v[?]erq; (на месте t — литера без перекладины, похожая на ı)",
+  "candidates": [
+   "vterq"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 116,
+  "page": "110",
+  "location": "эпиграмма, стр.4",
+  "as_read": "quanque",
+  "candidates": [
+   "quamque"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 117,
+  "page": "111",
+  "location": "эпиграмма, стр.6",
+  "as_read": "Vmblici",
+  "candidates": [
+   "Vmbilici"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 117,
+  "page": "111",
+  "location": "эпиграмма, стр.6, конец",
+  "as_read": "ſera (поперечина не видна справа — ſ или f)",
+  "candidates": [
+   "ſera",
+   "fera"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 118,
+  "page": "112",
+  "location": "эпиграмма, стр.1",
+  "as_read": "Caucaſi a (пробел внутри слова)",
+  "candidates": [
+   "Caucaſia"
+  ],
+  "type": "layout",
+  "run": "t4"
+ },
+ {
+  "frame": 118,
+  "page": "112",
+  "location": "эпиграмма, стр.5",
+  "as_read": "varijs (перед a точка/повреждение: «v.arijs»)",
+  "candidates": [
+   "varijs"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 119,
+  "page": "113",
+  "location": "эпиграмма, стр.1, первая литера",
+  "as_read": "I[?]care (I почти не пропечатана, виден лишь верхний штрих)",
+  "candidates": [
+   "Icare"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 119,
+  "page": "113",
+  "location": "эпиграмма, последняя стр.",
+  "as_read": "eadet",
+  "candidates": [
+   "cadet"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 121,
+  "page": "115",
+  "location": "эпиграмма, стр.4",
+  "as_read": "pluri[?]us (видно «pluriuus» — минимы сливаются)",
+  "candidates": [
+   "plurimus"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 121,
+  "page": "115",
+  "location": "эпиграмма, стр.5",
+  "as_read": "vin[?]ere (литера закрыта пятном)",
+  "candidates": [
+   "vincere"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 122,
+  "page": "116",
+  "location": "эпиграмма, стр.1",
+  "as_read": "placid[?]mq; (литера после «placid» повреждена, виден акутоподобный штрих)",
+  "candidates": [
+   "placidúmq",
+   "/ placidumq"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 123,
+  "page": "117",
+  "location": "эпиграмма, стр.1, первая литера",
+  "as_read": "Aligerum (курсивная A с росчерком, похожа на Æ)",
+  "candidates": [
+   "Aligerum / Æligerum"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 124,
+  "page": "118",
+  "location": "эпиграмма, стр.1",
+  "as_read": "iurè (диакритика над e, направление штриха неясно)",
+  "candidates": [
+   "iurè / iuré"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 124,
+  "page": "118",
+  "location": "эпиграмма, стр.6",
+  "as_read": "vincer[?] (последняя литера выглядит как «c» — сбитая e?)",
+  "candidates": [
+   "vincere / vincerc (опечатка)"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 125,
+  "page": "119",
+  "location": "девиз, стр.2",
+  "as_read": "Διαλογιστικῶς (στ в виде лигатуры, читается как «Διαλογισικῶς»)",
+  "candidates": [
+   "Διαλογιστικῶς"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 125,
+  "page": "119",
+  "location": "эпиграмма, стр.2",
+  "as_read": "qu[?] (за «qu» сбитая/размазанная литера, над ней тильда; далее «t»/«is»?)",
+  "candidates": [
+   "queis / quęis"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 125,
+  "page": "119",
+  "location": "эпиграмма, стр.5",
+  "as_read": "[?]quã (первая литера похожа на «q» с перекладиной — сбитая лигатура æ?)",
+  "candidates": [
+   "æquã"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 125,
+  "page": "119",
+  "location": "эпиграмма, стр.10",
+  "as_read": "te[?]it (конец строки утрачен/затёрт, дописан от руки «git»?)",
+  "candidates": [
+   "tegit"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 125,
+  "page": "119",
+  "location": "колонтитул/сигнатура",
+  "as_read": "— (нижнее поле утрачено)",
+  "candidates": [
+   "H 4"
+  ],
+  "type": "damage",
+  "run": "t4"
  }
 ]

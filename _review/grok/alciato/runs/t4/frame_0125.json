@@ -1,0 +1,63 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 125,
+ "source": "scan/frame_0125.jpg",
+ "page": "119",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Αντέρως, id amor virtutis.",
+     "Διαλογιστικῶς."
+    ],
+    "reading": "Αντέρως, id amor virtutis. Διαλογιστικῶς."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Слева под деревом сидит (полулежит) нагой юноша (Антерот) в венке, держа в руках венки/ветви; рядом стебель с цветами; позади холмистый пейзаж с рекой, городом, крепостью и башнями, птицы в небе.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Dic vbi ſunt incurui arcus? vbi tela Cupido:",
+     "Mollia qu[?] iuuenum figere corda ſoles?",
+     "Fax vbi triſtis? vbi pennæ? tres vnde corollas",
+     "Fert manus? vnde aliam tempora cincta gerũt?",
+     "Haud mihi vulgari eſt,(hoſpes )cũ Cypride [?]quã",
+     "Vlla voluptatis nos neque forma tulit,",
+     "Sed puris hominum ſuccendo mentibus ignes",
+     "Diſciplinæ:animos aſtraq; ad alta traho.",
+     "Quattuor eq; ipſa texo virtute corollas,",
+     "Quarum quæ Sophiæ eſt,tempora prima te[?]it."
+    ],
+    "reading": [
+     "Dic ubi sunt incurvi arcus? ubi tela Cupido:",
+     "Mollia qu[?] iuvenum figere corda soles?",
+     "Fax ubi tristis? ubi pennæ? tres unde corollas",
+     "Fert manus? unde aliam tempora cincta gerunt?",
+     "Haud mihi vulgari est, (hospes )cum Cypride [?]quam",
+     "Ulla voluptatis nos neque forma tulit,",
+     "Sed puris hominum succendo mentibus ignes",
+     "Disciplinæ: animos astraque ad alta traho.",
+     "Quattuor eque ipsa texo virtute corollas,",
+     "Quarum quæ Sophiæ est, tempora prima te[?]it."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Архитектурная рамка: по бокам колонны-гермы с маскaми и фигурами атлантов, кистями; вверху свиток (ленты с прорезями) с центральной маской барана/козла; внизу пьедесталы с рельефами и центральная маска с рогами и цепями/гирляндами."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «119» справа вверху. Нижнее поле страницы повреждено (утрата бумаги), сигнатура (ожидается «H 4») не видна. Греческий девиз: над ε акцент, придыхание над А не различимо; во 2-й стр. «στ» передано лигатурой (похоже на «ισι»)."
+}

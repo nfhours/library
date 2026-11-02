@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 99,
+ "source": "scan/frame_0099.jpg",
+ "page": "93",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AVARITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In auaros."
+    ],
+    "reading": "In avaros."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Осёл, нагруженный корзинами/вьюками со снедью (с привязанной сверху ношей, на палке висят колбасы/дичь), щиплет колючий чертополох у ног; позади дом под соломенной крышей с забором, деревья, холмы, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Septitius populos inter ditiſsimus omnes,",
+     "Arua ſenex nullus quo magis ampla tenet.",
+     "Defraudans geniumq; ſuum,menſasq; paratas,",
+     "Nil præter betas,duraq; rapa vorat.",
+     "Cui ſimilem dicã hunc,inopem quem copia reddit?",
+     "An ne aſino? Sic eſt:inſtar hic eius habet.",
+     "Nanque aſinus dorſo pretioſa opſonia geſtat:",
+     "Seq; rubo,aut dura carice pauper alit."
+    ],
+    "reading": [
+     "Septitius populos inter ditissimus omnes,",
+     "Arva senex nullus quo magis ampla tenet.",
+     "Defraudans geniumque suum, mensasque paratas,",
+     "Nil præter betas, duraque rapa vorat.",
+     "Cui similem dicam hunc, inopem quem copia reddit?",
+     "An ne asino? Sic est: instar hic eius habet.",
+     "Nanque asinus dorso pretiosa opsonia gestat:",
+     "Seque rubo, aut dura carice pauper alit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка-картуш: вверху маскарон между рогами изобилия/бараньими головами, шлемоносные маски и маленькая табличка с монограммой «PV»; по бокам волюты и ленточный орнамент с кольцами; внизу ваза с пламенем между волютами."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «93» справа вверху. «ditiſsimus» — в оригинале лигатура ß, передано ſs по конвенции. В «quem» (стр.5) буква e частично не пропечатана."
+}

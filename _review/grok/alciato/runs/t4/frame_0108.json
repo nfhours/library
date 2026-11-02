@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 108,
+ "source": "scan/frame_0108.jpg",
+ "page": "102",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "GVLA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Captiuus ob gulam."
+    ],
+    "reading": "Captivus ob gulam."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Морской берег, усеянный раковинами и камнями; на переднем плане большая раскрытая устрица, в которую попала мышь (видна тёмная фигурка зверька, зажатая створками); позади скалистый берег с аркой, море с парусником, вдали гора с башней, облака, птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Regna'orq; penus,menſæq; arroſor herilis",
+     "Oſtrea mus ſummis vidit hiulca labris.",
+     "Qu[?]s tenerã apponẽs barbã falſa oſſa momordit,",
+     "Aſt ea clauſérunt tacta repentè domum.",
+     "Deprenſum & tetro tenuérunt carcere furem,",
+     "Semet in obſcurum qui dederat tumulum."
+    ],
+    "reading": [
+     "Regna'orque penus, mensæque arrosor herilis",
+     "Ostrea mus summis vidit hiulca labris.",
+     "Qu[?]s teneram apponens barbam falsa ossa momordit,",
+     "Ast ea clausérunt tacta repentè domum.",
+     "Deprensum & tetro tenuérunt carcere furem,",
+     "Semet in obscurum qui dederat tumulum."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же архитектурная рамка, что на 0107 (карниз с маскароном в короне, гермы, букраний внизу)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «102» слева вверху. Знаки над a в «tenerã», «barbã» напечатаны в виде дужки (breve-образная тильда) — переданы как ã."
+}

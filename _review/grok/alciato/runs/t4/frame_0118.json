@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 118,
+ "source": "scan/frame_0118.jpg",
+ "page": "112",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "ASTROLOGIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Quæ ſupra nos,nihil ad nos."
+    ],
+    "reading": "Quæ supra nos, nihil ad nos."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Прометей — бородатый обнажённый старец, прикованный цепями за руки и ноги к скале, полулежит на земле; на его груди сидит орёл с распростёртыми крыльями и клюёт печень; позади горы, облака, стая птиц, вдали постройки.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Caucaſi a æternùm pendens in rupe Prometheus",
+     "Diripitur ſacri præpetis vngue iecur.",
+     "Et nollet feciſſe hominem:figuloſq; peroſus",
+     "Accenſam rapto damnat ab igne facem.",
+     "Roduntur varijs prudentum pectora curis,",
+     "Qui cœli affectant ſcire,deûmque vices."
+    ],
+    "reading": [
+     "Caucasi a æternùm pendens in rupe Prometheus",
+     "Diripitur sacri præpetis ungue iecur.",
+     "Et nollet fecisse hominem: figulosque perosus",
+     "Accensam rapto damnat ab igne facem.",
+     "Roduntur variis prudentum pectora curis,",
+     "Qui cœli affectant scire, deûmque vices."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0117; внизу во фризе по углам мелкие литеры «P» (слева) и «V» (справа)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «112» слева вверху."
+}

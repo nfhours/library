@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 119,
+ "source": "scan/frame_0119.jpg",
+ "page": "113",
+ "signature": "H",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "ASTROLOGIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In Aſtrologos."
+    ],
+    "reading": "In Astrologos."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Икар падает вниз головой с неба в море; от крыльев отлетают перья, падающие в воду; слева вверху солнце с лицом и длинными лучами; облака, справа скалистый берег с городом, на море корабли.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "I[?]care per ſúperos qui raptus & aëra,donec",
+     "In mare præcipitem cæra liquata daret,",
+     "Nunc te cæra eadem,feruenſq; exuſcitat ignis,",
+     "Exemplo vt doceas dogmata certa tuo.",
+     "Aſtrologus caueat quicquam prędicere.præceps",
+     "Nam eadet impoſtor,dum ſuper aſtra volat."
+    ],
+    "reading": [
+     "I[?]care per súperos qui raptus & aëra, donec",
+     "In mare præcipitem cæra liquata daret,",
+     "Nunc te cæra eadem, fervensque exuscitat ignis,",
+     "Exemplo ut doceas dogmata certa tuo.",
+     "Astrologus caveat quicquam prædicere.præceps",
+     "Nam eadet impostor, dum super astra volat."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка: вверху щит с арабесками между лежащими зверями (львы/собаки) и маскаронами, волюты по углам; по бокам гермы-маски и подвешенные гирлянды плодов (виноград); внизу два крылатых дракона/грифона, взнузданные лентами, среди растительности."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «113» справа вверху; сигнатура «H» (без номера). В «ſúperos» над u акут; в «prędicere» e с хвостиком (ę)."
+}

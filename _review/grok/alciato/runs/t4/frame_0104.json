@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 104,
+ "source": "scan/frame_0104.jpg",
+ "page": "98",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "GVLA.",
+ "rubric": "GVLA.",
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": {
+    "position": "между рубрикой и эпиграммой",
+    "description": "Толстобрюхий бородатый мужчина с непомерно длинной журавлиной шеей стоит в пейзаже, держа в правой руке птицу (чайку, «Larus»), на левой — крупную птицу (пеликана, onocrotalus); по сторонам вдали две маленькие фигуры, скалы, холмы, облака, стаи птиц.",
+    "inscriptions": [
+     {
+      "where": "внизу слева в гравюре, на земле",
+      "text": "[...]"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Curculione gruis tumida vir pingitur aluo,",
+     "Qui Laron,aut manibus geſtat Onocrotalum..",
+     "Talis forma fuit Dionyſi,& talis Apici,",
+     "Et gula quos celebres delicioſa facis."
+    ],
+    "reading": [
+     "Curculione gruis tumida vir pingitur alvo,",
+     "Qui Laron, aut manibus gestat Onocrotalum..",
+     "Talis forma fuit Dionysi, & talis Apici,",
+     "Et gula quos celebres deliciosa facis."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же архитектурная рамка, что на 0103 (фронтон с маскароном, колонны, фриз с маскароном)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «98» слева вверху. Отдельного девиза нет: по центру над гравюрой только «GVLA.» (как INVIDIA на 0085). Внизу слева на земле в гравюре — неясные следы, похожие на буквы (возможно, монограмма резчика или проступание с оборота)."
+}

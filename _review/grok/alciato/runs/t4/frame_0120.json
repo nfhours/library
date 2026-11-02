@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 120,
+ "source": "scan/frame_0120.jpg",
+ "page": "114",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "ASTROLOGIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Qui alta contemplantur",
+     "cadere."
+    ],
+    "reading": "Qui alta contemplantur cadere."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Птицелов (охотник) в шапке с пером стоит справа и, запрокинув голову, натягивает лук, целясь вверх в летящего журавля; у его ног на земле змея (дипсада), на которую он наступает; слева деревня с соломенными крышами за плетнём, деревья с птицами, холмы, облака, стая птиц.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Dum turdos viſco,pedica dum fallit alaudas,",
+     "Et iacta altiuolam figit harundo gruem,",
+     "Dipſada non prudens auceps pede perculit:vltrix",
+     "Illa mali,emiſſum virus ab ore iacit.",
+     "Sic obit,extento qui ſydera reſpicit arcu,",
+     "Securus fati,quod iacet ante pedes."
+    ],
+    "reading": [
+     "Dum turdos visco, pedica dum fallit alaudas,",
+     "Et iacta altivolam figit harundo gruem,",
+     "Dipsada non prudens auceps pede perculit: ultrix",
+     "Illa mali, emissum virus ab ore iacit.",
+     "Sic obit, extento qui sydera respicit arcu,",
+     "Securus fati, quod iacet ante pedes."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0119 (щит с арабесками и звери вверху, гирлянды по бокам, взнузданные драконы внизу)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «114» слева вверху. В стр.4 запятая после «mali» частично закрыта пятном."
+}

@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 123,
+ "source": "scan/frame_0123.jpg",
+ "page": "117",
+ "signature": "H 3",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Vis amoris."
+    ],
+    "reading": "Vis amoris."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Нагой крылатый Амур с повязкой на голове стоит на земле и ломает (держит обломки) крылатую молнию: правая рука поднята, в левой опущенной — изогнутый обломок; с неба из облаков падают молнии и град; справа скалы и дерево.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aligerum fulmen fregit Deus aliger,igne",
+     "Dum demonſtrat vti eſt fortior ignis amor."
+    ],
+    "reading": [
+     "Aligerum fulmen fregit Deus aliger, igne",
+     "Dum demonstrat uti est fortior ignis amor."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под эпиграммой",
+   "description": "Концовка-картуш: рамка с бараньими/сатировыми масками по бокам, женская маска сверху и детская головка снизу; внутри сцена с кентаврами (?) и фигурами."
+  },
+  {
+   "position": "рамка полосы",
+   "description": "Новая рамка: геометрические панели с чёрным арабескным плетением, в центре верхней и нижней полос медальоны, по бокам вертикальные панели с завитками и розетками."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «117» справа вверху (последняя цифра слегка искажена); сигнатура «H 3». Первая литера эпиграммы — Æ-образная лигатура? прочитано как «A» с росчерком."
+}
