@@ -1,0 +1,52 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 74,
+ "source": "scan/frame_0074.jpg",
+ "page": "68",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVITITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Cuculi."
+    ],
+    "reading": "Cuculi."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Виноградник: справа крестьянин (виноградарь) работает среди лоз у плетня, слева двое прохожих с алебардой указывают на него и насмехаются; в центре дерево, за ним город; на дереве кукушка (?).",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Ruricolas,agreſte genus,plerique cuculos",
+     "Cur vocitent,quænam prodita cauſa fuit?",
+     "Vere nouo cantat Coccyx,quo tempore vites",
+     "Qui non abſoluit,iure notatur iners.",
+     "Fert ouain nidos alienos,qualiter ille",
+     "Cui thalamum prodit vxor adulterio."
+    ],
+    "reading": [
+     "Ruricolas, agreste genus, plerique cuculos",
+     "Cur vocitent, quænam prodita causa fuit?",
+     "Vere novo cantat Coccyx, quo tempore vites",
+     "Qui non absolvit, iure notatur iners.",
+     "Fert ovain nidos alienos, qualiter ille",
+     "Cui thalamum prodit uxor adulterio."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом. В строке 5 между F и ert напечатан пробел («F ert»)."
+  }
+ ],
+ "ornaments": [
+  "Внизу рамки в щитке монограмма «PV» (?) — часть рамки."
+ ],
+ "errata": [],
+ "notes": "Номер «68» слева. Колонтитул напечатан «STVITITIA.» (I вместо L); сигнатуры нет."
+}

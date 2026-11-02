@@ -1,0 +1,41 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 61,
+ "source": "scan/frame_0061.jpg",
+ "page": "55",
+ "signature": "D 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PVDICITIA.",
+ "rubric": "PVDICITIA.",
+ "emblems": [
+  {
+   "motto": null,
+   "subheading": null,
+   "engraving": {
+    "position": "под рубрикой, перед эпиграммой",
+    "description": "Овальный картуш-щит со свитками, в нём птица (порфирион, султанка); над картушем пламя/дым; фон — озеро с лебедем, берега с деревьями, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Porphirio domini ſi inceſtet in ædibus vxor,",
+     "Deſpondetq; animum,præq; dolore perit.",
+     "Abdita in arcanis naturæ eſt cauſa.ſit index",
+     "Syncerę hæc volucris certa pudicitiæ."
+    ],
+    "reading": [
+     "Porphirio domini si incestet in ædibus uxor,",
+     "Despondetque animum, præque dolore perit.",
+     "Abdita in arcanis naturæ est causa.sit index",
+     "Synceræ hæc volucris certa pudicitiæ."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом. Отдельного девиза нет: между рубрикой «PVDICITIA.» и гравюрой ничего не напечатано."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «PVDICITIA.», номер «55» справа; сигнатура «D 4»."
+}

@@ -1,0 +1,48 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 68,
+ "source": "scan/frame_0068.jpg",
+ "page": "62",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PERFIDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ei qui ſemel ſua prodegerit,",
+     "aliena credi non",
+     "oportere."
+    ],
+    "reading": "Ei qui semel sua prodegerit, aliena credi non oportere."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Городская улица с башнями и домами; справа в нише/на стене дома статуя Медеи, на ней гнездо с птенцами; в небе слева летит ласточка; вдали горы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Colchidos in gremio nidum quid congeris? eheu",
+     "Neſcia cur pullos tam malè credis auis?",
+     "Dira parens Medæa ſuos ſæuiſsima natos",
+     "Perdidit,& ſperas parcat vt illa tuis?"
+    ],
+    "reading": [
+     "Colchidos in gremio nidum quid congeris? eheu",
+     "Nescia cur pullos tam malè credis avis?",
+     "Dira parens Medæa suos sævissima natos",
+     "Perdidit, & speras parcat ut illa tuis?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «62» слева, колонтитул «PERFIDIA.»; сигнатуры нет. Над эпиграммой посередине мелкая помета (типографская грязь)."
+}

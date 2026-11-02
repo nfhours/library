@@ -1,0 +1,46 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 70,
+ "source": "scan/frame_0070.jpg",
+ "page": "64",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVLTITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Furor,& rabies."
+    ],
+    "reading": "Furor, & rabies."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Агамемнон в короне и доспехах стоит с поднятым мечом, у ног большой щит; слева горящий город, справа шатры военного лагеря; пейзаж с деревьями и рекой.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Ora gerit clypeus rabioſi picta leonis,",
+     "Et ſcriptũ in ſummo margine carmen habet:",
+     "Hic hominum eſt terror,cuius poſſeſſor Atrida",
+     "Talia magnanimus ſigna Agamemno tulit."
+    ],
+    "reading": [
+     "Ora gerit clypeus rabiosi picta leonis,",
+     "Et scriptum in summo margine carmen habet:",
+     "Hic hominum est terror, cuius possessor Atrida",
+     "Talia magnanimus signa Agamemno tulit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом. Надписи на щите не различимы."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «64» слева, колонтитул «STVLTITIA.»; сигнатуры нет."
+}

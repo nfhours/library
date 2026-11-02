@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 83,
+ "source": "scan/frame_0083.jpg",
+ "page": "77",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SVPERBIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "φιλαυτία.[?]"
+    ],
+    "reading": "φιλαυτία.[?]"
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Нарцисс склоняется над ручьём/источником и смотрит на своё отражение; вокруг лесистый пейзаж, деревья, холмы; вдали летят птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quòd nimiùm[?] tua forma tibi Narciſſe placebat,",
+     "In florem,& noti eſt verſa ſtuporis olus.",
+     "Ingenij eſt marcor,cladesq; Philautia:doctos",
+     "Quæ peſſum plures datq; deditq; viros:",
+     "Qui veterũ abiecta methodo,noua dogmata q̃rũt,",
+     "Nilq; ſuas præter tradere phantaſias."
+    ],
+    "reading": [
+     "Quòd nimiùm[?] tua forma tibi Narcisse placebat,",
+     "In florem, & noti est versa stuporis olus.",
+     "Ingenii est marcor, cladesque Philautia: doctos",
+     "Quæ pessum plures datque deditque viros:",
+     "Qui veterum abiecta methodo, nova dogmata q̃runt,",
+     "Nilque suas præter tradere phantasias."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «SVPERBIA.», номер «77» справа; сигнатуры нет."
+}

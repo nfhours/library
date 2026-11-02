@@ -1,0 +1,59 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 88,
+ "source": "scan/frame_0088.jpg",
+ "page": "82",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "LVXVRIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Tumulus meretricis[?]."
+    ],
+    "reading": "Tumulus meretricis[?]."
+   },
+   "subheading": {
+    "diplomatic": "Διαλογισικῶς.",
+    "reading": "Διαλογισικῶς."
+   },
+   "engraving": {
+    "position": "между подзаголовком и эпиграммой",
+    "description": "Гробница-саркофаг под аркой/руиной; на крышке лежит обнажённая фигура (умершая); на боковой стенке рельеф — львица держит за круп барана.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quis tumulus? Cuia vrna? Ephyrææ eſt Laidos.",
+     "ab,non",
+     "Erubuit tantum perdere Parca decus?",
+     "Nulla fuit tum forma.illam iam carpſerat ætas,",
+     "Iam ſpeculum Veneri cauta dicarat anus.",
+     "Quid ſcalptus ſibi vult aries,quem parte leæna[?]",
+     "Vnguibus apprehenſum poſteriore tenet[?]?",
+     "Non aliter captos quòd & ipſa teneret amantes,",
+     "Vir gregis eſt aries,clune tenetur amans."
+    ],
+    "reading": [
+     "Quis tumulus? Cuia urna? Ephyrææ est Laidos.",
+     "ab, non",
+     "Erubuit tantum perdere Parca decus?",
+     "Nulla fuit tum forma.illam iam carpserat ætas,",
+     "Iam speculum Veneri cauta dicarat anus.",
+     "Quid scalptus sibi vult aries, quem parte leæna[?]",
+     "Unguibus apprehensum posteriore tenet[?]?",
+     "Non aliter captos quòd & ipsa teneret amantes,",
+     "Vir gregis est aries, clune tenetur amans."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "«ab,non» напечатано отдельной строкой под первой (перенос окончания строки 1: «…Laidos. ab, non»); дальше чередование отступов нарушено этим переносом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «82» слева, колонтитул «LVXVRIA.»; сигнатуры нет."
+}

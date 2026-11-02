@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 90,
+ "source": "scan/frame_0090.jpg",
+ "page": "84",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "LVXVRIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Cauendum à meretricibus."
+    ],
+    "reading": "Cavendum à meretricibus."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Цирцея сидит на троне у стен дворца/города и касается жезлом зверей вокруг неё — медведя, льва, волков, кабана (превращённых спутников Улисса).",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Sole ſatæ Circes tam magna potentia fertur,",
+     "Verterit vt multos in noua monſtra viros.",
+     "Teſtis equûm domitor Picus,tum Scylla biformis,",
+     "Atque Ithaci poſtquàm vina bibêre ſues.",
+     "Indicat illuſtri meretricem nomine[?] Circe,",
+     "Et rationem animi perdere,quiſquis amat."
+    ],
+    "reading": [
+     "Sole satæ Circes tam magna potentia fertur,",
+     "Verterit ut multos in nova monstra viros.",
+     "Testis equûm domitor Picus, tum Scylla biformis,",
+     "Atque Ithaci postquàm vina bibêre sues.",
+     "Indicat illustri meretricem nomine[?] Circe,",
+     "Et rationem animi perdere, quisquis amat."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «84» слева, колонтитул «LVXVRIA.»; сигнатуры нет."
+}

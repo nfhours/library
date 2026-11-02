@@ -1,0 +1,47 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 78,
+ "source": "scan/frame_0078.jpg",
+ "page": "72",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVLTITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In eum qui ſibi ipſi damnum",
+     "apparat."
+    ],
+    "reading": "In eum qui sibi ipsi damnum apparat."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Большая коза (козёл) с длинными рогами стоит в центре, под ней сосёт волчонок; слева вдали пастух у хижины, деревья, справа скалы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Capra lupum non ſponte,meo nunc vbere lacto,",
+     "Quòd malè paſtoris prouida cura iubet.",
+     "Creuerit ille ſimul,mea me poſt vbera paſcet.",
+     "Improbitas nullo flectitur obſequio."
+    ],
+    "reading": [
+     "Capra lupum non sponte, meo nunc ubere lacto,",
+     "Quòd malè pastoris provida cura iubet.",
+     "Creverit ille simul, mea me post ubera pascet.",
+     "Improbitas nullo flectitur obsequio."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «72» слева, колонтитул «STVLTITIA.»; сигнатуры нет."
+}

@@ -840,6 +840,445 @@
     "пятно/дефект"
    ],
    "type": "unclear_punctuation"
+  },
+  {
+   "frame": 61,
+   "page": "55",
+   "location": "девиз",
+   "as_read": "(отсутствует)",
+   "candidates": [
+    "девиза нет; рубрика «PVDICITIA.» выполняет его роль",
+    "девиз = рубрика"
+   ],
+   "type": "structure"
+  },
+  {
+   "frame": 61,
+   "page": "55",
+   "location": "эпиграмма, строка 4, первое слово",
+   "as_read": "Syncerę",
+   "candidates": [
+    "Syncerę",
+    "Syncerae (æ)"
+   ],
+   "type": "unclear_letter"
+  },
+  {
+   "frame": 62,
+   "page": "56",
+   "location": "рубрика",
+   "as_read": "VITIA. PERFIDIA.",
+   "candidates": [
+    "две строки: заголовок раздела VITIA. + locus PERFIDIA.",
+    "rubric = PERFIDIA., VITIA. — отдельный заголовок раздела"
+   ],
+   "type": "structure"
+  },
+  {
+   "frame": 62,
+   "page": "56",
+   "location": "эпиграмма, строка 1, конечный знак",
+   "as_read": ".",
+   "candidates": [
+    ".",
+    ","
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 63,
+   "page": "57",
+   "location": "сигнатура",
+   "as_read": "D 5[?]",
+   "candidates": [
+    "D 5"
+   ],
+   "type": "damaged"
+  },
+  {
+   "frame": 63,
+   "page": "57",
+   "location": "эпиграмма, строка 6, первое слово",
+   "as_read": "Sit",
+   "candidates": [
+    "Sit (как напечатано)",
+    "Sic"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 64,
+   "page": "58",
+   "location": "эпиграмма, строка 3",
+   "as_read": "aëra",
+   "candidates": [
+    "aëra",
+    "aera (точки — грязь)"
+   ],
+   "type": "unclear_diacritic"
+  },
+  {
+   "frame": 66,
+   "page": "60",
+   "location": "эпиграмма, строка 4",
+   "as_read": "complures",
+   "candidates": [
+    "complures (буква e сбита)"
+   ],
+   "type": "damaged_letter"
+  },
+  {
+   "frame": 66,
+   "page": "60",
+   "location": "эпиграмма, строка 5",
+   "as_read": "cornüa[?]",
+   "candidates": [
+    "cornüa",
+    "cornua (точки — грязь)"
+   ],
+   "type": "unclear_diacritic"
+  },
+  {
+   "frame": 67,
+   "page": "61",
+   "location": "эпиграмма, строка 2",
+   "as_read": "Ghamæleon",
+   "candidates": [
+    "Ghamæleon (как напечатано)",
+    "Chamæleon"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 68,
+   "page": "62",
+   "location": "эпиграмма, строка 2, между «tam» и «malè»",
+   "as_read": "tam malè",
+   "candidates": [
+    "пробел с пятном",
+    "tam-malè (дефис)"
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 68,
+   "page": "62",
+   "location": "эпиграмма, строка 1, пробел перед «eheu»",
+   "as_read": "congeris? eheu",
+   "candidates": [
+    "congeris?eheu (без пробела)",
+    "congeris? eheu"
+   ],
+   "type": "spacing"
+  },
+  {
+   "frame": 71,
+   "page": "65",
+   "location": "эпиграмма, строка 7",
+   "as_read": "cladém que",
+   "candidates": [
+    "cladém que (раздельно, как напечатано)",
+    "cladémque"
+   ],
+   "type": "spacing"
+  },
+  {
+   "frame": 73,
+   "page": "67",
+   "location": "эпиграмма, строка 1, перед «Aethiopem»",
+   "as_read": "Abluis Aethiopem",
+   "candidates": [
+    "без знака (точка — грязь)",
+    "Abluis.Aethiopem"
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 73,
+   "page": "67",
+   "location": "эпиграмма, строка 2, последнее слово",
+   "as_read": "tenêbras[?]",
+   "candidates": [
+    "tenêbras",
+    "tenébras",
+    "tenebras"
+   ],
+   "type": "unclear_diacritic"
+  },
+  {
+   "frame": 74,
+   "page": "68",
+   "location": "колонтитул",
+   "as_read": "STVITITIA.",
+   "candidates": [
+    "STVITITIA. (как напечатано)",
+    "STVLTITIA."
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 74,
+   "page": "68",
+   "location": "эпиграмма, строка 5",
+   "as_read": "ouain",
+   "candidates": [
+    "ouain (слитно, как напечатано)",
+    "oua in"
+   ],
+   "type": "spacing"
+  },
+  {
+   "frame": 74,
+   "page": "68",
+   "location": "эпиграмма, строка 5, первое слово",
+   "as_read": "Fert",
+   "candidates": [
+    "F ert (с пробелом, как напечатано)",
+    "Fert"
+   ],
+   "type": "spacing"
+  },
+  {
+   "frame": 75,
+   "page": "69",
+   "location": "эпиграмма, строка 2",
+   "as_read": "Chœrephoonta",
+   "candidates": [
+    "Chœrephoonta",
+    "Chærephoonta"
+   ],
+   "type": "unclear_ligature"
+  },
+  {
+   "frame": 76,
+   "page": "70",
+   "location": "эпиграмма, строка 3",
+   "as_read": "trahitur .mala",
+   "candidates": [
+    "точка (как напечатано)",
+    "запятая"
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 77,
+   "page": "71",
+   "location": "эпиграмма, строка 1, после «Alcæam»",
+   "as_read": "Alcæam veteres",
+   "candidates": [
+    "без знака (штрих — грязь)",
+    "Alcæam' / апостроф"
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 77,
+   "page": "71",
+   "location": "эпиграмма, строка 2, конечный знак",
+   "as_read": ".",
+   "candidates": [
+    ".",
+    ","
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 79,
+   "page": "73",
+   "location": "колонтитул",
+   "as_read": "STVLTLTIA.",
+   "candidates": [
+    "STVLTLTIA. (как напечатано)",
+    "STVLTITIA."
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 80,
+   "page": "74",
+   "location": "колонтитул, шестая литера",
+   "as_read": "STVLTITIA.",
+   "candidates": [
+    "STVLTITIA.",
+    "STVLTLTIA. (как на с. 73)"
+   ],
+   "type": "damaged_letter"
+  },
+  {
+   "frame": 81,
+   "page": "75",
+   "location": "эпиграмма, строка 1, после второго «ſtatua»",
+   "as_read": ";[?]",
+   "candidates": [
+    ";",
+    ","
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 83,
+   "page": "77",
+   "location": "девиз",
+   "as_read": "φιλαυτία.[?]",
+   "candidates": [
+    "φιλαυτία.",
+    "φιλχυτία. (опечатка/лигатура αυ)"
+   ],
+   "type": "unclear_greek"
+  },
+  {
+   "frame": 83,
+   "page": "77",
+   "location": "эпиграмма, строка 1, «nimiùm»",
+   "as_read": "nimiùm[?]",
+   "candidates": [
+    "nimiùm",
+    "nimiũm"
+   ],
+   "type": "unclear_diacritic"
+  },
+  {
+   "frame": 83,
+   "page": "77",
+   "location": "эпиграмма, строка 5, «q̃rũt»",
+   "as_read": "q̃rũt",
+   "candidates": [
+    "quærunt"
+   ],
+   "type": "abbreviation_not_expanded"
+  },
+  {
+   "frame": 84,
+   "page": "78",
+   "location": "эпиграмма, строка 1, «Progne»",
+   "as_read": "Progne[?]",
+   "candidates": [
+    "Progne"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 84,
+   "page": "78",
+   "location": "эпиграмма, строка 4, «ſtripitùs»",
+   "as_read": "ſtripitùs",
+   "candidates": [
+    "ſtirpitùs (перестановка букв)"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 85,
+   "page": "79",
+   "location": "эмблема",
+   "as_read": "девиза нет, только рубрика INVIDIA.",
+   "candidates": [
+    "рубрика = девиз"
+   ],
+   "type": "structure"
+  },
+  {
+   "frame": 86,
+   "page": "80",
+   "location": "эпиграмма, строка 1, «Fanuus»",
+   "as_read": "Fanuus",
+   "candidates": [
+    "Faunus (опечатка)"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 86,
+   "page": "80",
+   "location": "эпиграмма, строка 3, «iudexque»",
+   "as_read": "iudexque",
+   "candidates": [
+    "iudexque",
+    "indexque (смысл: index)"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 87,
+   "page": "81",
+   "location": "сигнатура",
+   "as_read": "F[?]",
+   "candidates": [
+    "F"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 88,
+   "page": "82",
+   "location": "девиз, «meretricis»",
+   "as_read": "meretricis[?]",
+   "candidates": [
+    "meretricis (повреждённая литера c)"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 88,
+   "page": "82",
+   "location": "подзаголовок",
+   "as_read": "Διαλογισικῶς.",
+   "candidates": [
+    "Διαλογικῶς (опечатка?)",
+    "Διαλογισικῶς как напечатано"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 88,
+   "page": "82",
+   "location": "эпиграмма, строка 2 «ab,non»",
+   "as_read": "отдельная строка",
+   "candidates": [
+    "перенос конца строки 1 — объединить с ней"
+   ],
+   "type": "structure"
+  },
+  {
+   "frame": 88,
+   "page": "82",
+   "location": "эпиграмма, строка 4, «forma.illam»",
+   "as_read": "forma.",
+   "candidates": [
+    "forma.",
+    "formæ"
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 88,
+   "page": "82",
+   "location": "эпиграмма, строка 6, «leæna»",
+   "as_read": "leæna[?]",
+   "candidates": [
+    "leæna"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 88,
+   "page": "82",
+   "location": "эпиграмма, строка 7, «tenet»",
+   "as_read": "tenet[?]",
+   "candidates": [
+    "tenet"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 90,
+   "page": "84",
+   "location": "эпиграмма, строка 5, «meretricem nomine»",
+   "as_read": "meretricem nomine[?]",
+   "candidates": [
+    "meretricem nomine (пробел почти отсутствует, «o» похожа на «e»)"
+   ],
+   "type": "damaged_type"
   }
  ]
 }

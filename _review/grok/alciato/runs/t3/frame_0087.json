@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 87,
+ "source": "scan/frame_0087.jpg",
+ "page": "81",
+ "signature": "F[?]",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "LVXVRIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Luxurioſorum opes."
+    ],
+    "reading": "Luxuriosorum opes."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Смоковница растёт на высокой скале у обрыва; вокруг летают вороны; справа внизу у подножия лежит человек; вдали горы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Rupibus aëreis,ſummiq; crepidine ſaxi",
+     "Immites fructus ficus acerba parit,",
+     "Quos corui comedũt,quos deuorat improba cornix,",
+     "Qui nihil humanæ commoditatis habent.",
+     "Sic fatuorum opibus paraſiti,& ſcorta fruuntur:",
+     "Et nulla iuſtos vtilitate iuuant."
+    ],
+    "reading": [
+     "Rupibus aëreis, summique crepidine saxi",
+     "Immites fructus ficus acerba parit,",
+     "Quos corvi comedunt, quos devorat improba cornix,",
+     "Qui nihil humanæ commoditatis habent.",
+     "Sic fatuorum opibus parasiti, & scorta fruuntur:",
+     "Et nulla iustos utilitate iuvant."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «LVXVRIA.», номер «81» справа; сигнатура внизу справа повреждена, читается как «F»."
+}

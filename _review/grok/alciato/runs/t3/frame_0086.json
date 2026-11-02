@@ -1,0 +1,46 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 86,
+ "source": "scan/frame_0086.jpg",
+ "page": "80",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "LVXVRIA.",
+ "rubric": "LVXVRIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Luxuria."
+    ],
+    "reading": "Luxuria."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Фавн/сатир с козлиными ногами и длинной бородой, увенчанный растениями (эрукой), стоит в холмистом пейзаже; слева дерево и дом; вдали облака и птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Eruca capripes redimitus tempora Fanuus",
+     "Immodicæ Veneris ſymbola certa refert.",
+     "Eſt eruca ſalax,iudexque libidinis hircus,",
+     "Et ſatyri nymphas ſemper amare ſolent."
+    ],
+    "reading": [
+     "Eruca capripes redimitus tempora Fanuus",
+     "Immodicæ Veneris symbola certa refert.",
+     "Est eruca salax, iudexque libidinis hircus,",
+     "Et satyri nymphas semper amare solent."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Строки 2 и 4 с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «80» слева, колонтитул «LVXVRIA.»; сигнатуры нет."
+}

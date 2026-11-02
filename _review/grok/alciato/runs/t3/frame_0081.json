@@ -1,0 +1,46 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 81,
+ "source": "scan/frame_0081.jpg",
+ "page": "75",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SVPERBIA.",
+ "rubric": "SVPERBIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Superbia."
+    ],
+    "reading": "Superbia."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Избиение Ниобид: на земле среди скал лежат тела детей Ниобы; вверху в облаках Аполлон и Диана пускают стрелы; слева окаменевшая Ниоба (скала-фигура); вдали замок.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "En ſtatuæ ſtatua;[?]& ductũ de marmore marmor,",
+     "Se conferre deis auſa procax Niobe.",
+     "Eſt vitium muliebre ſuperbia,& arguit oris",
+     "Duritiem,ac ſenſus,qualis ineſt lapidi."
+    ],
+    "reading": [
+     "En statuæ statua;[?] & ductum de marmore marmor,",
+     "Se conferre deis ausa procax Niobe.",
+     "Est vitium muliebre superbia, & arguit oris",
+     "Duritiem, ac sensus, qualis inest lapidi."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «SVPERBIA.», номер «75» справа; сигнатуры нет."
+}

@@ -1,0 +1,48 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 62,
+ "source": "scan/frame_0062.jpg",
+ "page": "56",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PERFIDIA.",
+ "rubric": "VITIA. PERFIDIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In victoriam dolo partam."
+    ],
+    "reading": "In victoriam dolo partam."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Женщина (Добродетель) с распущенными волосами сидит на большом саркофаге, рвёт на себе волосы; рядом пучок вырванных волос; пол выложен плитами, слева стена, справа облака.",
+    "inscriptions": [
+     "AIACIS"
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aiacis tumulum lachrymis ego perluo virtus.",
+     "Heu miſera albentes dilacerata comas.",
+     "Scilicet hoc,reſtabat adhuc,vt iudice Græco",
+     "Vincerer:& cauſa ſtet potiore dolus."
+    ],
+    "reading": [
+     "Aiacis tumulum lachrymis ego perluo virtus.",
+     "Heu misera albentes dilacerata comas.",
+     "Scilicet hoc, restabat adhuc, ut iudice Græco",
+     "Vincerer: & causa stet potiore dolus."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «56» слева, колонтитул «PERFIDIA.»; сигнатуры нет. Над девизом две строки заголовка: крупно «VITIA.» (раздел) и курсивными капителями «PERFIDIA.» (locus)."
+}

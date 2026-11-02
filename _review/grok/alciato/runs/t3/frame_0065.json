@@ -1,0 +1,47 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 65,
+ "source": "scan/frame_0065.jpg",
+ "page": "59",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PERFIDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Maledicentia."
+    ],
+    "reading": "Maledicentia."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Гробница Архилоха: саркофаг с картушем-табличкой, по бокам сидящие фигуры (плакальщицы/путти); над гробницей и в небе роятся осы; внизу река/равнина.",
+    "inscriptions": [
+     "ARCHILOCHI",
+     "M"
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Archilochi tumulo inſculptas de marmore veſpas",
+     "Eſſe ferunt,linguæ certa ſigilla malæ."
+    ],
+    "reading": [
+     "Archilochi tumulo insculptas de marmore vespas",
+     "Esse ferunt, linguæ certa sigilla malæ."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Двустишие, вторая строка с отступом."
+  }
+ ],
+ "ornaments": [
+  "Под эпиграммой — картуш-виньетка с сатирами по бокам, маскароном вверху и внизу и сценой с фигурами (морские существа) в центре."
+ ],
+ "errata": [],
+ "notes": "Колонтитул «PERFIDIA.», номер «59» справа; сигнатуры нет. Надпись на табличке «ARCHILOCHI» с завитком-росчерком после; ниже «M»."
+}

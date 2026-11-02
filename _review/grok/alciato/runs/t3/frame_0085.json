@@ -1,0 +1,41 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 85,
+ "source": "scan/frame_0085.jpg",
+ "page": "79",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "INVIDIA.",
+ "rubric": "INVIDIA.",
+ "emblems": [
+  {
+   "motto": null,
+   "subheading": null,
+   "engraving": {
+    "position": "под рубрикой, над эпиграммой",
+    "description": "Зависть — исхудалая женщина в длинном одеянии, с растрёпанными волосами, идёт по каменистой дороге, опираясь на колючий посох; ест змею (у рта); слева восходит солнце сквозь облака; вдали горы и город у воды.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Squallida vipereas manducans fœmina carnes,",
+     "Cuiq; dolent oculi,quæq; ſuum cor edit,",
+     "Quam macies,& pallor habent,ſpinoſaq; geſtat",
+     "Tela manu.Talis pingitur inuidia."
+    ],
+    "reading": [
+     "Squallida vipereas manducans fœmina carnes,",
+     "Cuique dolent oculi, quæque suum cor edit,",
+     "Quam macies, & pallor habent, spinosaque gestat",
+     "Tela manu.Talis pingitur invidia."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Строки 2 и 4 с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «INVIDIA.», номер «79» справа; внутренняя рубрика «INVIDIA.» над гравюрой — отдельного девиза нет (рубрика служит и девизом)."
+}

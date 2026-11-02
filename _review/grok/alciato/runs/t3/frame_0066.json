@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 66,
+ "source": "scan/frame_0066.jpg",
+ "page": "60",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PERFIDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In receptatores ſicariorum."
+    ],
+    "reading": "In receptatores sicariorum."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Актеон с оленьей головой и рогами, в одежде охотника с копьём, бежит/шагает вправо; справа на земле собаки набрасываются на него (или лежат); фон — деревья, лес, руины.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Latronum furumq; manus tibi Scæua per vrbem",
+     "It comes:& diris cincta cohors gladijs.",
+     "Atque ita te mentis generoſum prodige cenſes,",
+     "Quòd tua complures allicit olla malos.",
+     "En nouus Actæon,qui poſtquàm cornüa[?] ſumpſit,",
+     "In prædam canibus ſe dedit ipſe ſuis."
+    ],
+    "reading": [
+     "Latronum furumque manus tibi Scæva per urbem",
+     "It comes: & diris cincta cohors gladiis.",
+     "Atque ita te mentis generosum prodige censes,",
+     "Quòd tua complures allicit olla malos.",
+     "En novus Actæon, qui postquàm cornüa[?] sumpsit,",
+     "In prædam canibus se dedit ipse suis."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «60» слева, колонтитул «PERFIDIA.»; сигнатуры нет."
+}

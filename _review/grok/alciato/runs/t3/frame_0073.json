@@ -1,0 +1,44 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 73,
+ "source": "scan/frame_0073.jpg",
+ "page": "67",
+ "signature": "E 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVLTITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Impoſsibile."
+    ],
+    "reading": "Impossibile."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Двое мужчин отмывают сидящего эфиопа (чернокожего), один трёт его руками, другой стоит позади с сосудом; справа колодец с воротом и большой кувшин, кирпичная стена.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Abluis Aethiopem,quid fruſtra? ab deſine.noctis",
+     "Illuſtrare nigræ nemo poteſt tenêbras[?]."
+    ],
+    "reading": [
+     "Abluis Aethiopem, quid frustra? ab desine.noctis",
+     "Illustrare nigræ nemo potest tenêbras[?]."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Двустишие, вторая строка с отступом."
+  }
+ ],
+ "ornaments": [
+  "Внизу рамки в центральном щитке монограмма «PV» (?) — часть рамки."
+ ],
+ "errata": [],
+ "notes": "Колонтитул «STVLTITIA.», номер «67» справа; сигнатура «E 2»."
+}
