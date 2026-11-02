@@ -1,0 +1,57 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 110,
+ "source": "scan/frame_0110.jpg",
+ "page": "104",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "DOCTORVM AGNOMINA.",
+ "rubric": "DOCTORVM AGNO-MINA.",
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": {
+    "position": "под рубрикой, над эпиграммой",
+    "description": "Учёный в кафедре/на троне под балдахином; по сторонам на скамьях сидят доктора в шапках, у некоторых птичьи головы; в окнах слева бурное небо с птицей, справа извилистая река (Меандр/лабиринт); на полу змея.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Moris vetuſti eſt,aliqua profeſſoribus",
+     "Superadijci cognomina.",
+     "Faciles apertoſq; explicans tantùm locos,",
+     "Canon vocatur Curtius.",
+     "Reuoluitur qui eodem,& iteratq; nimis",
+     "Mæander,vt Pariſius."
+    ],
+    "reading": [
+     "Moris vetusti est, aliqua professoribus",
+     "Superadiici cognomina.",
+     "Faciles apertosque explicans tantùm locos,",
+     "Canon vocatur Curtius.",
+     "Revolvitur qui eodem, & iteratque nimis",
+     "Mæander, ut Parisius."
+    ]
+   },
+   "continues_on_next_page": true,
+   "notes": "Курсив; чётные строки с отступом. Стихотворение продолжается на 0111. Лигатура st в «vetuſti», «eſt». Рубрика курсивными капителями с переносом «AGNO-|MINA.»."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над рубрикой",
+   "description": "Верхний фриз: маска в центре, бородатые маски по углам, волюты (как на 0109)."
+  },
+  {
+   "position": "по бокам",
+   "description": "Ленточно-волютный орнамент (как на 0109)."
+  },
+  {
+   "position": "низ рамы",
+   "description": "Маска между гирляндами плодов (как на 0109)."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0110 = с. 104. Номер слева. Подписи нет. В колонтитуле после «AGNOMINA.» посторонний штрих. Строка над гравюрой записана как рубрика (motto None), как на 0085 и 0104."
+}

@@ -1394,5 +1394,280 @@
   "resolver": "zoom",
   "frame": 96,
   "page": "90"
+ },
+ {
+  "location": "эпиграмма, строка 4, «fidet»",
+  "as_read": "fidet",
+  "candidates": [
+   "fides — опечатка t вместо s",
+   "fidet — как напечатано"
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 97,
+  "page": "91"
+ },
+ {
+  "location": "эпиграмма, строка 5, «qui cæuet»",
+  "as_read": "quicæuet (без явного пробела)",
+  "candidates": [
+   "qui cæuet",
+   "qui cauet"
+  ],
+  "type": "glyph",
+  "resolver": "user",
+  "frame": 97,
+  "page": "91"
+ },
+ {
+  "location": "девиз, первая буква",
+  "as_read": "A под кляксой",
+  "candidates": [
+   "Auaritia."
+  ],
+  "type": "damage",
+  "resolver": "zoom",
+  "frame": 98,
+  "page": "92"
+ },
+ {
+  "location": "эпиграмма, строка 2, «compedibus»",
+  "as_read": "comp?di?us (повреждено)",
+  "candidates": [
+   "compedibus"
+  ],
+  "type": "damage",
+  "resolver": "zoom",
+  "frame": 100,
+  "page": "94"
+ },
+ {
+  "location": "эпиграмма, строка 4, «Sicretæ»",
+  "as_read": "Sicretæ",
+  "candidates": [
+   "Si cretæ",
+   "Sic retæ"
+  ],
+  "type": "word-division",
+  "resolver": "zoom/merge",
+  "frame": 102,
+  "page": "96"
+ },
+ {
+  "location": "эпиграмма, строка 4, «aqnas»",
+  "as_read": "aqnas",
+  "candidates": [
+   "aquas (опечатка)"
+  ],
+  "type": "typo",
+  "resolver": "merge",
+  "frame": 102,
+  "page": "96"
+ },
+ {
+  "location": "эпиграмма, строка 3, после «excitet»",
+  "as_read": "excitet ergo (отметка над t)",
+  "candidates": [
+   "excitet ergo",
+   "excitet: ergo"
+  ],
+  "type": "punctuation",
+  "resolver": "zoom",
+  "frame": 102,
+  "page": "96"
+ },
+ {
+  "location": "эпиграмма, строка 2, «mulcet»",
+  "as_read": "первая буква похожа на m с разрывом (мелко читается как «nıulcet»)",
+  "candidates": [
+   "mulcet"
+  ],
+  "type": "damage",
+  "resolver": "zoom",
+  "frame": 103,
+  "page": "97"
+ },
+ {
+  "location": "структура",
+  "as_read": "над гравюрой только «GVLA.» (курсивные капители)",
+  "candidates": [
+   "рубрика без девиза",
+   "девиз «GVLA.»"
+  ],
+  "type": "structure",
+  "resolver": "merge",
+  "frame": 104,
+  "page": "98"
+ },
+ {
+  "location": "эпиграмма, строка 2, конец",
+  "as_read": "Onocrotalum..",
+  "candidates": [
+   "Onocrotalum."
+  ],
+  "type": "typo",
+  "resolver": "merge",
+  "frame": 104,
+  "page": "98"
+ },
+ {
+  "location": "девиз, строка 1, «culinam»",
+  "as_read": "culin,am (штрих между n и a)",
+  "candidates": [
+   "culinam (пятно/след)"
+  ],
+  "type": "stray-mark",
+  "resolver": "zoom",
+  "frame": 107,
+  "page": "101"
+ },
+ {
+  "location": "эпиграмма, строка 1, «Regnatorq;»",
+  "as_read": "Regna'orq; (t слабо)",
+  "candidates": [
+   "Regnatorq;"
+  ],
+  "type": "damage",
+  "resolver": "zoom",
+  "frame": 108,
+  "page": "102"
+ },
+ {
+  "location": "эпиграмма, строка 3, первое слово",
+  "as_read": "Qu?s (вторая гласная стёрта)",
+  "candidates": [
+   "Quas"
+  ],
+  "type": "damage",
+  "resolver": "zoom",
+  "frame": 108,
+  "page": "102"
+ },
+ {
+  "location": "эпиграмма, строка 1, «pralargo»",
+  "as_read": "pralargo (лигатура æ не видна)",
+  "candidates": [
+   "prælargo",
+   "pralargo (опечатка)"
+  ],
+  "type": "typo",
+  "resolver": "zoom/merge",
+  "frame": 109,
+  "page": "103"
+ },
+ {
+  "location": "эпиграмма, строка 3, «ventriq;»",
+  "as_read": "ven:riq;",
+  "candidates": [
+   "ventriq;"
+  ],
+  "type": "damage",
+  "resolver": "zoom",
+  "frame": 109,
+  "page": "103"
+ },
+ {
+  "location": "структура",
+  "as_read": "над гравюрой только «DOCTORVM AGNO-|MINA.»",
+  "candidates": [
+   "рубрика без девиза",
+   "девиз «DOCTORVM AGNOMINA.»"
+  ],
+  "type": "structure",
+  "resolver": "merge",
+  "frame": 110,
+  "page": "104"
+ },
+ {
+  "location": "стих 5, «Qni»",
+  "as_read": "Qni",
+  "candidates": [
+   "Qui (опечатка)"
+  ],
+  "type": "typo",
+  "resolver": "merge",
+  "frame": 111,
+  "page": "105"
+ },
+ {
+  "location": "стих 5, знак после «vel»",
+  "as_read": "vel'columnas",
+  "candidates": [
+   "vel columnas (след)",
+   "vel' (апостроф)"
+  ],
+  "type": "stray-mark",
+  "resolver": "zoom",
+  "frame": 111,
+  "page": "105"
+ },
+ {
+  "location": "стих 10, точки у «Hirundo» и «Craſſus»",
+  "as_read": "•Hirundo Craſſus• dicitur.",
+  "candidates": [
+   "пятна, не знаки"
+  ],
+  "type": "stray-mark",
+  "resolver": "zoom",
+  "frame": 111,
+  "page": "105"
+ },
+ {
+  "location": "эпиграмма, строка 4, конец",
+  "as_read": "ſedet..",
+  "candidates": [
+   "ſedet."
+  ],
+  "type": "typo",
+  "resolver": "merge",
+  "frame": 112,
+  "page": "106"
+ },
+ {
+  "location": "эпиграмма, строка 6, знак после «Concubitu»",
+  "as_read": "Concubitu:vt",
+  "candidates": [
+   "Concubitu: vt",
+   "Concubitu, vt"
+  ],
+  "type": "punctuation",
+  "resolver": "zoom",
+  "frame": 112,
+  "page": "106"
+ },
+ {
+  "location": "эпиграмма, строка 8, первое слово",
+  "as_read": "Iuxuriæ",
+  "candidates": [
+   "Luxuriæ (L плохо пропечатана / опечатка)"
+  ],
+  "type": "typo",
+  "resolver": "zoom/merge",
+  "frame": 112,
+  "page": "106"
+ },
+ {
+  "location": "эпиграмма, строка 1, знак после «ſphæræ»",
+  "as_read": "ſphæræ ‚Fortuna",
+  "candidates": [
+   "ſphæræ Fortuna (пятно)",
+   "ſphæræ,Fortuna"
+  ],
+  "type": "punctuation",
+  "resolver": "zoom",
+  "frame": 113,
+  "page": "107"
+ },
+ {
+  "location": "эпиграмма, строка 1, конец",
+  "as_read": "vterq;,",
+  "candidates": [
+   "vterq;,",
+   "vterq;"
+  ],
+  "type": "punctuation",
+  "resolver": "zoom",
+  "frame": 114,
+  "page": "108"
  }
 ]

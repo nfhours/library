@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 100,
+ "source": "scan/frame_0100.jpg",
+ "page": "94",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AVARITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In aulicos."
+    ],
+    "reading": "In aulicos."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Придворный в богатом платье сидит у стены дворцового двора, скованный (золотыми) оковами на ногах; вокруг дворцовые здания, портик, мощёная площадь, птицы в небе.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Vana Palatinos quos educat aula clientes,",
+     "Dicitur auratis nectere compedibus."
+    ],
+    "reading": [
+     "Vana Palatinos quos educat aula clientes,",
+     "Dicitur auratis nectere compedibus."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; вторая строка с отступом. Двустишие. Лигатура ct в «nectere». В «compedibus» буквы e и b пропечатались плохо. В строке 1 широкий пробел после «quos»."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над девизом",
+   "description": "Верхний фриз рамы: гротескная маска, слоновьи/бараньи головы, монограмма «PV»."
+  },
+  {
+   "position": "под эпиграммой (внутри рамы)",
+   "description": "Концовка-картуш с рогатой маской."
+  },
+  {
+   "position": "низ рамы",
+   "description": "Нижний фриз с вазой с пламенем и волютами."
+  },
+  {
+   "position": "по бокам",
+   "description": "Волютные консоли."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0100 = с. 94. Номер слева. Подписи нет."
+}

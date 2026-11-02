@@ -1,0 +1,70 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 112,
+ "source": "scan/frame_0112.jpg",
+ "page": "106",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "NATVRA.",
+ "rubric": "NATVRA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Vis naturæ."
+    ],
+    "reading": "Vis naturæ."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Пан — рогатый бородатый человек с козлиными ногами — стоит в холмистом пейзаже, протянув руку; слева дерево и скала, справа вдали постройки, облака и птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Pana colũt gentes,(naturam hoc dicere rerum eſt )",
+     "Semicaprumq; hominem,ſemiuirumq; Deum.",
+     "Eſt vir pube tenus,quòd nobis inſita virtus",
+     "Corde oriens,celſa verticis arce ſedet..",
+     "Hinc caper eſt,quia nos natura in ſecla propagat",
+     "Concubitu:vt volucres ,ſquamea,bruta,feras.",
+     "Quod commune alijs animantibus, eſt caper index",
+     "Iuxuriæ,Veneris ſignaq; aperta gerit.",
+     "Cordi alij ſophian,alij tribuêre cerebro.",
+     "Inferiora modus,nec ratio vlla tenet."
+    ],
+    "reading": [
+     "Pana colunt gentes, (naturam hoc dicere rerum est )",
+     "Semicaprumque hominem, semivirumque Deum.",
+     "Est vir pube tenus, quòd nobis insita virtus",
+     "Corde oriens, celsa verticis arce sedet.",
+     "Hinc caper est, quia nos natura in secla propagat",
+     "Concubitu: ut volucres , squamea, bruta, feras.",
+     "Quod commune aliis animantibus, est caper index",
+     "Luxuriæ, Veneris signaque aperta gerit.",
+     "Cordi alii sophian, alii tribuêre cerebro.",
+     "Inferiora modus, nec ratio ulla tenet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Перед «)» пробел. После «ſedet» две точки. В строке 6 пробел перед запятой после «volucres»; под «ſquamea» посторонний штрих. После «eſt» в строке 5 штрих (запятая). Над/под «ratio» посторонние точки. Широкий пробел после «pube»."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над рубрикой",
+   "description": "Верхний фриз: рогатая бородатая маска, по углам путти с птицами (как на 0111)."
+  },
+  {
+   "position": "по бокам",
+   "description": "Гермы в головных уборах и маски на волютах (как на 0111)."
+  },
+  {
+   "position": "низ рамы",
+   "description": "Химеры по сторонам картуша с маской, монограмма «PV» (как на 0111)."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0112 = с. 106. Номер слева. Подписи нет. Рубрика NATVRA. курсивными капителями с пробелами, девиз «Vis naturæ.» прямым шрифтом."
+}

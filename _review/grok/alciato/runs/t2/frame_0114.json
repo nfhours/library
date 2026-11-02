@@ -1,0 +1,62 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 114,
+ "source": "scan/frame_0114.jpg",
+ "page": "108",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "NATVRA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In iuuentam."
+    ],
+    "reading": "In iuventam."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Два нагих юноши стоят на каменном постаменте/алтаре: слева Вакх в венке с виноградной гроздью, справа Аполлон в сиянии с луком и стрелой; позади пейзаж, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Natus vterque Iouis,tener atque imberbis vterq;,",
+     "Quem Latona tulit,quem tulit & Semele,",
+     "Saluete,æterna ſimul & florete iuuenta,",
+     "Numine ſit veſtro quæ diuturna mihi.",
+     "Tu vino curas,tu victu dilue morbos,",
+     "Vt lento accedat ſera ſenecta pede."
+    ],
+    "reading": [
+     "Natus uterque Iovis, tener atque imberbis uterque,",
+     "Quem Latona tulit, quem tulit & Semele,",
+     "Salvete, æterna simul & florete iuventa,",
+     "Numine sit vestro quæ diuturna mihi.",
+     "Tu vino curas, tu victu dilue morbos,",
+     "Ut lento accedat sera senecta pede."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Лигатура ct в «victu», «ſenecta». В строке 1 после «vterq;» запятая."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над девизом",
+   "description": "Бородатая маска с лентами между волют (как на 0113)."
+  },
+  {
+   "position": "по бокам",
+   "description": "Ленточно-рамочный орнамент с розетками (как на 0113)."
+  },
+  {
+   "position": "низ рамы",
+   "description": "Путто/сатир с гирляндой плодов (как на 0113)."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0114 = с. 108. Номер слева. Подписи нет."
+}

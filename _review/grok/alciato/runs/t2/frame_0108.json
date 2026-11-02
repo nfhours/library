@@ -1,0 +1,62 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 108,
+ "source": "scan/frame_0108.jpg",
+ "page": "102",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "GVLA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Captiuus ob gulam."
+    ],
+    "reading": "Captivus ob gulam."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "На каменистом берегу моря лежит раскрытая устрица, в которую попалась мышь; позади скалы с руинами, море с кораблём, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Regnatorq; penus,menſæq; arroſor herilis",
+     "Oſtrea mus ſummis vidit hiulca labris.",
+     "Quas tenerã apponẽs barbã falſa oſſa momordit,",
+     "Aſt ea clauſérunt tacta repentè domum.",
+     "Deprenſum & tetro tenuérunt carcere furem,",
+     "Semet in obſcurum qui dederat tumulum."
+    ],
+    "reading": [
+     "Regnatorque penus, mensæque arrosor herilis",
+     "Ostrea mus summis vidit hiulca labris.",
+     "Quas teneram apponens barbam falsa ossa momordit,",
+     "Ast ea clausérunt tacta repentè domum.",
+     "Deprensum & tetro tenuérunt carcere furem,",
+     "Semet in obscurum qui dederat tumulum."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Лигатура st в «Oſtrea», ct в «tacta». В «Regnatorq;» буква t пропечаталась слабо (похожа на апостроф); в «Quas» буква a почти не видна. В строке 3 сокращения тильдой: tenerã, apponẽs, barbã. Широкий пробел перед «falſa»."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над девизом",
+   "description": "Антаблемент с маской в короне и розетками (как на 0107)."
+  },
+  {
+   "position": "по бокам",
+   "description": "Гермы с кистями на волютах (как на 0107)."
+  },
+  {
+   "position": "низ рамы",
+   "description": "Букраний между волют (как на 0107)."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0108 = с. 102. Номер слева. Подписи нет."
+}

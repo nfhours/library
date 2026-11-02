@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 101,
+ "source": "scan/frame_0101.jpg",
+ "page": "95",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AVARITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In ſordidos."
+    ],
+    "reading": "In sordidos."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Ибис стоит на берегу, изогнув шею и клювом касаясь своего оперения; за ним река с лодками, город с башнями, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quæ roſtro(clyſtere velut ) ſibi proluit aluum",
+     "Ibis,Nilaicis cognita littoribus,",
+     "Tranſijt opprobrij in nomen:quo Publius hoſtem",
+     "Naſo ſuum appellat,Battiadéſque ſuum."
+    ],
+    "reading": [
+     "Quæ rostro(clystere velut ) sibi proluit alvum",
+     "Ibis, Nilaicis cognita littoribus,",
+     "Transiit opprobrii in nomen: quo Publius hostem",
+     "Naso suum appellat, Battiadésque suum."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Перед «)» напечатан пробел, после «roſtro» пробела нет. В строке 2 широкий пробел после «Nilaicis». Последняя буква «nomen» смазана, но читается."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над девизом",
+   "description": "Верхний фриз рамы: плетёный орнамент с маской в центре."
+  },
+  {
+   "position": "низ рамы",
+   "description": "Нижний фриз: три гротескные маски в тюрбанах/коронах с крыльями."
+  },
+  {
+   "position": "по бокам",
+   "description": "Плетёный (узловой) орнамент."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0101 = с. 95. Номер справа. Подписи нет."
+}

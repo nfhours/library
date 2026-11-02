@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 109,
+ "source": "scan/frame_0109.jpg",
+ "page": "103",
+ "signature": "G 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "GVLA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In garrulum & guloſum."
+    ],
+    "reading": "In garrulum & gulosum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Большая водоплавающая птица (пеликан, «truo») с широко раскрытыми крыльями на волнах; позади корабль под парусом, берег с городом и холмами, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Voce boat torua,pralargo eſt gutture,roſtrum",
+     "Inſtar habet naſi multiforiſq; tubæ.",
+     "Deformem rabulam,addictum ventriq;,gulæq;",
+     "Signabit,volucer cùm truo pictus erit."
+    ],
+    "reading": [
+     "Voce boat torva, pralargo est gutture, rostrum",
+     "Instar habet nasi multiforisque tubæ.",
+     "Deformem rabulam, addictum ventrique, gulæque",
+     "Signabit, volucer cùm truo pictus erit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Лигатура ct в «addictum», «pictus»; st в «eſt», «roſtrum», «Inſtar». В «ventriq;» буква t пропечаталась как двоеточие («ven:riq;»). Под c в «cùm» посторонняя точка."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над девизом",
+   "description": "Верхний фриз: детская/мужская маска в центре, бородатые маски по углам, волюты."
+  },
+  {
+   "position": "по бокам",
+   "description": "Ленточно-волютный орнамент."
+  },
+  {
+   "position": "низ рамы",
+   "description": "Нижний фриз: маска между гирляндами плодов."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0109 = с. 103. Номер справа. Подпись «G 4» внизу справа. Первая буква колонтитула GVLA. пропечаталась кляксой."
+}

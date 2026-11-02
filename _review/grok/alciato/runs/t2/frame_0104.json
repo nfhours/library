@@ -1,0 +1,53 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 104,
+ "source": "scan/frame_0104.jpg",
+ "page": "98",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "GVLA.",
+ "rubric": "GVLA.",
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": {
+    "position": "под рубрикой, над эпиграммой",
+    "description": "Толстый бородатый мужчина с очень длинной журавлиной шеей держит в руках птиц (чайку и пеликана/баклана); вокруг скалы, вдали фигуры людей, стая птиц.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Curculione gruis tumida vir pingitur aluo,",
+     "Qui Laron,aut manibus geſtat Onocrotalum..",
+     "Talis forma fuit Dionyſi,& talis Apici,",
+     "Et gula quos celebres delicioſa facit."
+    ],
+    "reading": [
+     "Curculione gruis tumida vir pingitur alvo,",
+     "Qui Laron, aut manibus gestat Onocrotalum.",
+     "Talis forma fuit Dionysi, & talis Apici,",
+     "Et gula quos celebres deliciosa facit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Лигатура st в «geſtat». В строке 2 после «Onocrotalum» напечатаны две точки."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над рубрикой",
+   "description": "Фронтон с маской (как на 0103)."
+  },
+  {
+   "position": "по бокам",
+   "description": "Каннелированные колонны."
+  },
+  {
+   "position": "низ рамы",
+   "description": "Нижний фриз: картуш с маской и путти (как на 0103)."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0104 = с. 98. Номер слева. Подписи нет. Как и на 0085, единственная строка над гравюрой записана как рубрика (motto None)."
+}
