@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 147,
+ "source": "scan/frame_0147.jpg",
+ "page": "141",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Semper preſto eſſe infortunia."
+    ],
+    "reading": "Semper presto esse infortunia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Три девушки играют в кости за столом в интерьере; с крыши падает черепица",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Ludebant parili tres olim ætate puellæ",
+     "Sortibus:ad Stygias quæ prior iret aquas.",
+     "Aſt cui iactato malè ceſſerat alea talo,",
+     "Ridebat ſortis cæca puella ſuæ.",
+     "Cùm ſubitò icta caput labente eſt mortua tecto,",
+     "Soluit & audacis debita fata ioci.",
+     "Rebus in aduerſis mala ſors non fallitur:aſt in",
+     "Fauſtis,nec precibus,nec locus eſt manui."
+    ],
+    "reading": [
+     "Ludebant parili tres olim ætate puellæ",
+     "Sortibus: ad Stygias quæ prior iret aquas.",
+     "Ast cui iactato malè cesserat alea talo,",
+     "Ridebat sortis cæca puella suæ.",
+     "Cùm subitò icta caput labente est mortua tecto,",
+     "Solvit & audacis debita fata ioci.",
+     "Rebus in adversis mala sors non fallitur: ast in",
+     "Faustis, nec precibus, nec locus est manui."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с гермами, вазами и маскароном внизу"
+  }
+ ],
+ "notes": "Номер «141» вверху справа. Пятно между «Ludebant» и «parili» (не знак). Сигнатуры нет."
+}

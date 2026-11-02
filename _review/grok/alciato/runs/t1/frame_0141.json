@@ -1,0 +1,66 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 141,
+ "source": "scan/frame_0141.jpg",
+ "page": "135",
+ "signature": "I 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In illaudata laudantes."
+    ],
+    "reading": "In illaudata laudantes."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Воин рядом со слоном в пейзаже; птицы в небе",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Ingentet Galatûm ſemermi milite turmas,",
+     "Spem præter trepidus fuderat Antiochus,",
+     "Lucarum cùm ſæua boum vis,ira proboſcis,",
+     "Tum primùm hoſtiles corripuiſſet equos.",
+     "Ergo trophæa locans Elephantis imagine pinxit,",
+     "Inſuper & ſocijs occîderamus ait,",
+     "Bellua ſeruaſſet ni nos fœdiſsima barrus.",
+     "Vt ſuperaſſe iuuat,ſic ſuperaſſe pudet."
+    ],
+    "reading": [
+     "Ingentet Galatûm semermi milite turmas,",
+     "Spem præter trepidus fuderat Antiochus,",
+     "Lucarum cùm sæva boum vis, ira proboscis,",
+     "Tum primùm hostiles corripuisset equos.",
+     "Ergo trophæa locans Elephantis imagine pinxit,",
+     "Insuper & sociis occîderamus ait,",
+     "Bellua servasset ni nos fœdissima barrus.",
+     "Ut superasse iuvat, sic superasse pudet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [
+  {
+   "printed": "Ingentet",
+   "corrected": "Ingentes",
+   "certainty": "очевидная",
+   "applied_in_reading": false,
+   "comment": "эпиграмма, строка 1; см. open_points"
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с витыми колоннами и маскароном вверху"
+  }
+ ],
+ "notes": "Номер «135» вверху справа."
+}

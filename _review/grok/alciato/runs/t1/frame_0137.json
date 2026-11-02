@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 137,
+ "source": "scan/frame_0137.jpg",
+ "page": "131",
+ "signature": "I 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Fortuna, Virtutem ſuperans."
+    ],
+    "reading": "Fortuna, Virtutem superans."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Брут бросается на меч в лагере; у ног щит, вокруг пейзаж",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Cæſareo poſtquàm ſuperatus milite,vidit",
+     "Ciuili vndantem ſanguine Pharſaliam:",
+     "Iamiam ſtricturus moribunda in pectora ferrum,",
+     "Audaci hos Brutus protulit ore ſonos.",
+     "Infelix Virtus & ſolis prouida verbis,",
+     "Fortunam in rebus cur ſequeris dominam?"
+    ],
+    "reading": [
+     "Cæsareo postquàm superatus milite, vidit",
+     "Civili undantem sanguine Pharsaliam:",
+     "Iamiam stricturus moribunda in pectora ferrum,",
+     "Audaci hos Brutus protulit ore sonos.",
+     "Infelix Virtus & solis provida verbis,",
+     "Fortunam in rebus cur sequeris dominam?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Орнаментальная рамка с розетками и маскароном внизу"
+  }
+ ],
+ "notes": "Номер «131» вверху справа."
+}

@@ -1763,5 +1763,189 @@
   "type": "damage",
   "note": "литера q сдвинута/просела ниже строки",
   "run": "t1"
+ },
+ {
+  "frame": 133,
+  "page": "127",
+  "location": "гравюра, надпись",
+  "diplomatic_as_read": "SEPVL CHRVM",
+  "candidates": [
+   "SEPVLCHRVM"
+  ],
+  "type": "spacing",
+  "note": "в надписи пробел между SEPVL и CHRVM",
+  "run": "t1"
+ },
+ {
+  "frame": 133,
+  "page": "127",
+  "location": "эпиграмма, строка 1, «Sophocles(quamuis affecta ætate )»",
+  "diplomatic_as_read": "Sophocles(quamuis affecta ætate )",
+  "candidates": [
+   "Sophocles (quamuis affecta ætate)"
+  ],
+  "type": "spacing",
+  "note": "пробелы у скобок как напечатано; в чтении нормализованы",
+  "run": "t1"
+ },
+ {
+  "frame": 134,
+  "page": "128",
+  "location": "эпиграмма, строка 3, «candid a»",
+  "diplomatic_as_read": "candid a",
+  "candidates": [
+   "candida"
+  ],
+  "type": "spacing",
+  "note": "разрыв внутри слова; в чтении слито",
+  "run": "t1"
+ },
+ {
+  "frame": 134,
+  "page": "128",
+  "location": "эпиграмма, строка 5, конец",
+  "diplomatic_as_read": "eſſe,",
+  "candidates": [
+   "eſſe,",
+   "eſſe;",
+   "eſſe."
+  ],
+  "type": "punctuation",
+  "note": "знак после «eſſe» слабый",
+  "run": "t1"
+ },
+ {
+  "frame": 135,
+  "page": "129",
+  "location": "эпиграмма, строка 2, «quẽis[?]»",
+  "diplomatic_as_read": "quẽis[?]",
+  "candidates": [
+   "queis"
+  ],
+  "type": "damage",
+  "note": "над e черта/знак (тильда или повреждение); ср. кадр 0125",
+  "run": "t1"
+ },
+ {
+  "frame": 135,
+  "page": "129",
+  "location": "эпиграмма, строка 14, «Sie»",
+  "diplomatic_as_read": "Sie",
+  "candidates": [
+   "Sic"
+  ],
+  "type": "typo",
+  "note": "напечатано «Sie»",
+  "run": "t1"
+ },
+ {
+  "frame": 135,
+  "page": "129",
+  "location": "эпиграмма, строка 12, «quiq;»",
+  "diplomatic_as_read": "quiq;",
+  "candidates": [
+   "quique"
+  ],
+  "type": "abbreviation",
+  "note": "над q акут? — «quiq́;» возможно",
+  "run": "t1"
+ },
+ {
+  "frame": 138,
+  "page": "132",
+  "location": "номер страницы",
+  "diplomatic_as_read": "13[?]",
+  "candidates": [
+   "132"
+  ],
+  "type": "damage",
+  "note": "последняя цифра закрыта ручной правкой; 132 по последовательности",
+  "run": "t1"
+ },
+ {
+  "frame": 139,
+  "page": "133",
+  "location": "подзаголовок",
+  "diplomatic_as_read": "Διαλογιστικῶς.",
+  "candidates": [
+   "Διαλογιστικῶς."
+  ],
+  "type": "greek",
+  "note": "στ-лигатура передана как στ",
+  "run": "t1"
+ },
+ {
+  "frame": 140,
+  "page": "134",
+  "location": "эпиграмма, строка 2, «inflat[?]»",
+  "diplomatic_as_read": "inflat[?]",
+  "candidates": [
+   "inflat",
+   "iuflat (как выглядит)"
+  ],
+  "type": "damage",
+  "note": "вторая литера похожа на u",
+  "run": "t1"
+ },
+ {
+  "frame": 141,
+  "page": "135",
+  "location": "эпиграмма, строка 1, «Ingentet»",
+  "diplomatic_as_read": "Ingentet",
+  "candidates": [
+   "Ingentes"
+  ],
+  "type": "typo",
+  "note": "напечатано «Ingentet»",
+  "run": "t1"
+ },
+ {
+  "frame": 146,
+  "page": "140",
+  "location": "эпиграмма, строка 4, знак после «viuens»",
+  "diplomatic_as_read": "viuens[?]",
+  "candidates": [
+   "viuens,",
+   "viuens;"
+  ],
+  "type": "punctuation",
+  "note": "после слова вертикальный обломанный знак",
+  "run": "t1"
+ },
+ {
+  "frame": 148,
+  "page": "142",
+  "location": "эпиграмма, строка 8, «Mil»",
+  "diplomatic_as_read": "Mil",
+  "candidates": [
+   "Nil"
+  ],
+  "type": "typo",
+  "note": "напечатано «Mil» вместо Nil? — первая литера похожа на M",
+  "run": "t1"
+ },
+ {
+  "frame": 149,
+  "page": "143",
+  "location": "девиз, «no men»",
+  "diplomatic_as_read": "no men",
+  "candidates": [
+   "nomen"
+  ],
+  "type": "spacing",
+  "note": "разрыв внутри слова",
+  "run": "t1"
+ },
+ {
+  "frame": 149,
+  "page": "143",
+  "location": "эпиграмма, строки 1–2, «pa ſſer», «fore nt»",
+  "diplomatic_as_read": "pa ſſer / fore nt",
+  "candidates": [
+   "paſſer / forent"
+  ],
+  "type": "spacing",
+  "note": "разрывы внутри слов; в чтении слито",
+  "run": "t1"
  }
 ]

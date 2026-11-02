@@ -1,0 +1,67 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 148,
+ "source": "scan/frame_0148.jpg",
+ "page": "142",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Remedia in arduo,mala",
+     "in prono eſſe."
+    ],
+    "reading": "Remedia in arduo, mala in prono esse."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Ата низвергается с неба; внизу хромые Литы с посохом",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aetherijs poſtquàm deiecit ſedibus Aten",
+     "Iuppiter:heu vexat quàm mala noxa viros?",
+     "Euolat hæc pedibus celer,& pernicibus alis,",
+     "Intactumq; nihil caſibus eſſe ſinit.",
+     "Ergo Litæ,proles Iouis,hanc comitantur euntem,",
+     "Sarturæ quicquid fecerit illa mali.",
+     "Sed quia ſegnipedes,luſcæ,laſſæq; ſenecta,",
+     "Mil niſi pòſt,longo tempore reſtituunt."
+    ],
+    "reading": [
+     "Aetheriis postquàm deiecit sedibus Aten",
+     "Iuppiter: heu vexat quàm mala noxa viros?",
+     "Evolat hæc pedibus celer, & pernicibus alis,",
+     "Intactumque nihil casibus esse sinit.",
+     "Ergo Litæ, proles Iovis, hanc comitantur euntem,",
+     "Sarturæ quicquid fecerit illa mali.",
+     "Sed quia segnipedes, luscæ, lassæque senecta,",
+     "Mil nisi pòst, longo tempore restituunt."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [
+  {
+   "printed": "Mil",
+   "corrected": "Nil",
+   "certainty": "очевидная",
+   "applied_in_reading": false,
+   "comment": "эпиграмма, строка 8; см. open_points"
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с гермами, вазами и маскароном внизу"
+  }
+ ],
+ "notes": "Номер «142» вверху слева."
+}

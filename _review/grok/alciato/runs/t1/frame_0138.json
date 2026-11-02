@@ -1,0 +1,51 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 138,
+ "source": "scan/frame_0138.jpg",
+ "page": "132",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Paupertatem ſummis ingenijs",
+     "obeſſe,ne prouehantur."
+    ],
+    "reading": "Paupertatem summis ingeniis obesse, ne provehantur."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Юноша с крыльями на одной руке, другая рука привязана к камню; пейзаж с деревьями, облака",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Dextra tenet lapidem:manus altera ſuſtinet alas.",
+     "Vt me pluma leuat:ſic graue mergit onus.",
+     "Ingenio poteram ſuperas volitare per arces,",
+     "Me niſi paupertas inuida deprimeret."
+    ],
+    "reading": [
+     "Dextra tenet lapidem: manus altera sustinet alas.",
+     "Ut me pluma levat: sic grave mergit onus.",
+     "Ingenio poteram superas volitare per arces,",
+     "Me nisi paupertas invida deprimeret."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Орнаментальная рамка с розетками и маскароном внизу"
+  }
+ ],
+ "notes": "Номер страницы вверху слева подправлен чернилами, читается как «132» (13[?])."
+}

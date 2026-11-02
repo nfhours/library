@@ -1,0 +1,51 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 136,
+ "source": "scan/frame_0136.jpg",
+ "page": "130",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": "FORTVNA.",
+ "rubric_reading": "FORTUNA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Virtuti,Fortuna comes."
+    ],
+    "reading": "Virtuti, Fortuna comes."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Кадуцей с двумя змеями и крыльями между двумя рогами изобилия (Амалфеи); пейзаж",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Anguibus implicitis,geminis caduceus alis:",
+     "Inter Amalthææ cornua rectus adeſt.",
+     "Pollentes ſic mente viros,fandiq; peritos",
+     "Indicat,vt rerum copia multa beet."
+    ],
+    "reading": [
+     "Anguibus implicitis, geminis caduceus alis:",
+     "Inter Amalthææ cornua rectus adest.",
+     "Pollentes sic mente viros, fandique peritos",
+     "Indicat, ut rerum copia multa beet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Орнаментальная рамка с гермами и маскароном"
+  }
+ ],
+ "notes": "Номер «130» вверху слева, цифры подправлены чернилами от руки."
+}

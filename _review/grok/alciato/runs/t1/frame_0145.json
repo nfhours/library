@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 145,
+ "source": "scan/frame_0145.jpg",
+ "page": "139",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Nil reliqui."
+    ],
+    "reading": "Nil reliqui."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Туча саранчи над полем злаков; в глубине фигура и постройки",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Scilicet hoc deerat,poſt tot mala denique noſtris",
+     "Locuſtæ vt raperent,quicquid ineſſet,agris.",
+     "Vidimus innumeras Euro duce tendere turmas,",
+     "Qualia non Atylæ,caſtráue Xerxis erant.",
+     "Hæ fœnum,milium,farra omnia conſumpſerunt,",
+     "Spes & in anguſto eſt,ſtant niſi vota ſuper."
+    ],
+    "reading": [
+     "Scilicet hoc deerat, post tot mala denique nostris",
+     "Locustæ ut raperent, quicquid inesset, agris.",
+     "Vidimus innumeras Euro duce tendere turmas,",
+     "Qualia non Atylæ, castráve Xerxis erant.",
+     "Hæ fœnum, milium, farra omnia consumpserunt,",
+     "Spes & in angusto est, stant nisi vota super."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с гермами и овальным медальоном внизу"
+  }
+ ],
+ "notes": "Номер «139» вверху справа, цифры подправлены чернилами. Сигнатуры нет."
+}

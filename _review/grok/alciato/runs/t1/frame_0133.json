@@ -1,0 +1,59 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 133,
+ "source": "scan/frame_0133.jpg",
+ "page": "127",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Senex puellam amans."
+    ],
+    "reading": "Senex puellam amans."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Старик (Софокл) возлежит на саркофаге с надписью; пейзаж, птицы в небе",
+    "inscriptions": [
+     {
+      "where": "на саркофаге",
+      "text": "SEPVL CHRVM"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Dum Sophocles(quamuis affecta ætate ) puellam",
+     "A quæſtu Archippen ad ſua vota trahit,",
+     "Allicit & pretio,tulit ægrè inſana iuuentus",
+     "Ob zelum,& tali carmine vtrunque notat.",
+     "Noctua vt in tumulis,ſuper vtq; cadauera bubo,",
+     "Talis apud Sophoclem noſtra puella ſedet."
+    ],
+    "reading": [
+     "Dum Sophocles (quamvis affecta ætate) puellam",
+     "A quæstu Archippen ad sua vota trahit,",
+     "Allicit & pretio, tulit ægrè insana iuventus",
+     "Ob zelum, & tali carmine utrunque notat.",
+     "Noctua ut in tumulis, super utque cadavera bubo,",
+     "Talis apud Sophoclem nostra puella sedet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с витыми колоннами, гермами, вазой и драконами внизу"
+  }
+ ],
+ "notes": "Номер «127» вверху справа."
+}

@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 140,
+ "source": "scan/frame_0140.jpg",
+ "page": "134",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In ſubitum terrorem."
+    ],
+    "reading": "In subitum terrorem."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Фавн (рогатый сатир) у скал; перед ним в панике бегут воины",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Effuſo cernens fugientes agmine turmas,",
+     "Quis mea nunc inflat[?] cornua? Faunus ait."
+    ],
+    "reading": [
+     "Effuso cernens fugientes agmine turmas,",
+     "Quis mea nunc inflat cornua? Faunus ait."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Орнаментальная рамка с гербовым щитком вверху"
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Картуш с маскароном"
+  }
+ ],
+ "notes": "Номер «134» вверху слева."
+}
