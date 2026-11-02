@@ -1,0 +1,52 @@
+{
+ "frame": 13,
+ "page": "7",
+ "signature": "A 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "EMBLEM. DEDIC.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ad illuſt. Maximil. ducẽ Mediol. Su-",
+     "per inſigni Ducatus Mediolan."
+    ],
+    "reading": "Ad illust. Maximil. ducem Mediol. Super insigni Ducatus Mediolan."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Картуш-щит, подвешенный на дереве, с гербом Висконти: свернувшийся змей (biscione), извергающий/держащий младенца. Слева скалы и постройки, справа морской пейзаж, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Exiliens infans ſinuoſi è faucibus anguis,",
+     "Eſt gentilitijs nobile ſtemma tuis.",
+     "Talia Pellæum geſsiſſe nomiſmata regem,",
+     "Vidimus,hiſq; ſuum concelebraſſe genus.",
+     "Dũ ſe Ammone ſatũ,matrẽ anguis imagine luſa,",
+     "Diuini & ſobolem ſeminis eſſe docet.",
+     "Ore exit,tradunt ſic quoſdam enitier angues,",
+     "An quia ſic Pallas de capite orta Iouis?"
+    ],
+    "reading": [
+     "Exiliens infans sinuosi è faucibus anguis,",
+     "Est gentilitiis nobile stemma tuis.",
+     "Talia Pellæum gessisse nomismata regem,",
+     "Vidimus, hisque suum concelebrasse genus.",
+     "Dum se Ammone satum, matrem anguis imagine lusam,",
+     "Divini & sobolem seminis esse docet.",
+     "Ore exit, tradunt sic quosdam enitier angues,",
+     "An quia sic Pallas de capite orta Iovis?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом. В «hiſq;» — круглое s (зум). «geſsiſſe»: первая пара — лигатура ß (ſs), вторая — два длинных ſſ. q с подстрочным крючком = «q;»."
+  }
+ ],
+ "errata": [],
+ "run": "t1",
+ "reconstructed_from_notes": true
+}

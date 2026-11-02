@@ -1,0 +1,52 @@
+{
+ "frame": 37,
+ "page": "31",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In ſtatuam Bacchi."
+    ],
+    "reading": "In statuam Bacchi."
+   },
+   "subheading": {
+    "diplomatic": "DIALOGISMVS.",
+    "reading": "DIALOGISMUS.",
+    "notes": "разрядкой, капители/капитель"
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Юный обнажённый Вакх в венке из виноградных листьев сидит на земле под лозой с гроздьями; дует в длинную дудку/рожок и палочкой бьёт в тимпан (бубен); на земле перед ним — плоская чаша.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Bacche pater:quis te mortali lumine nouit?",
+     "Et docta effinxit quis tua membra manu?",
+     "Praxiteles,qui me rapientem Gnoſida uidit.",
+     "Atque illo pinxit tempore qualis eram.",
+     "Cur iuuenis,teneraq; etiam lanugine vernat",
+     "Barba,queas Pylium cùm ſuperare ſenem?"
+    ],
+    "reading": [
+     "Bacche pater: quis te mortali lumine novit?",
+     "Et docta effinxit quis tua membra manu?",
+     "Praxiteles, qui me rapientem Gnosida vidit.",
+     "Atque illo pinxit tempore qualis eram.",
+     "Cur iuvenis, teneraque etiam lanugine vernat",
+     "Barba, queas Pylium cùm superare senem?"
+    ]
+   },
+   "continues_on_next_page": true,
+   "notes": "Эпиграмма продолжается на кадре 0038 (с. 32) — 20 строк. «uidit» напечатано с u в начале слова (не v) — так и записано. В «etiam» первая буква повреждена (похожа на c), читается e. «docta» — лигатура ct."
+  }
+ ],
+ "errata": [],
+ "run": "t1",
+ "reconstructed_from_notes": true
+}

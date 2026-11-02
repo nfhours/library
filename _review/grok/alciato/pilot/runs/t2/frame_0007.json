@@ -1,0 +1,64 @@
+{
+ "frame": 7,
+ "page": "[1]",
+ "signature": null,
+ "catchword": null,
+ "page_type": "title",
+ "running_head": null,
+ "rubric": null,
+ "blocks": [
+  {
+   "kind": "title_text",
+   "diplomatic": [
+    "EMBLEMATA",
+    "D. A. ALCIATI,",
+    "denuo ab ipſo Autore",
+    "recognita,ac,quæ deſi-",
+    "derabantur , imagini",
+    "bus locupletata.",
+    "Acceſſerunt noua aliquot ab",
+    "Autore Emblemata ſuis quoq;",
+    "eiconibus inſignita."
+   ],
+   "reading": [
+    "EMBLEMATA",
+    "D. A. ALCIATI,",
+    "denuo ab ipso Autore",
+    "recognita, ac, quæ desiderabantur, imaginibus locupletata.",
+    "Accesserunt nova aliquot ab Autore Emblemata suis quoque eiconibus insignita."
+   ],
+   "notes": "Строки 2 и 7–9 — курсив (2 — курсивные капители). В «ALCIATI» курсивная L внешне похожа на «I.» (тот же глиф, что в «EMBL.» указателя, кадр 0233). Перенос «imagini / bus» в печати без дефиса."
+  },
+  {
+   "kind": "imprint",
+   "diplomatic": [
+    "LVGD. APVD GVLIEL.",
+    "ROVILIVM. 1551."
+   ],
+   "reading": [
+    "LUGD. APUD GULIEL.",
+    "ROVILIUM. 1551."
+   ],
+   "notes": "В нижнем картуше. Сокращения с точкой (LVGD., GVLIEL.) не раскрываются. u/v нормализованы по значению (ROVILIVM → ROVILIUM)."
+  },
+  {
+   "kind": "privilege_line",
+   "diplomatic": [
+    "CVM",
+    "PRIVILE[...]"
+   ],
+   "reading": [
+    "CVM PRIVILE[...]"
+   ],
+   "notes": "Низ полосы срезан корешком/обрезом: видно «PRIVILE» и край следующей буквы (G?). Конец слова не достраиваем; формула «CVM PRIVILEGIO» — вопрос пользователю (U4)."
+  }
+ ],
+ "engraving": {
+  "position": "рамка всей страницы",
+  "description": "Архитектурная титульная рамка: по сторонам кариатиды/гермы, наверху маскароны и гирлянды, внизу фонтан-маска; в центре картуш с текстом титула; под ним овальный медальон — орёл, держащий змею (типографская марка), над нижним картушем с выходными данными.",
+  "inscriptions": []
+ },
+ "errata": [],
+ "run": "t2",
+ "reconstructed_from_notes": true
+}

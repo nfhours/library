@@ -1,0 +1,71 @@
+{
+ "frame": 9,
+ "page": "[3]",
+ "signature": "A 2",
+ "catchword": null,
+ "page_type": "front_matter",
+ "running_head": null,
+ "rubric": "AD LECTOREM.",
+ "blocks": [
+  {
+   "kind": "prose",
+   "lang": "la",
+   "initial": "E",
+   "diplomatic": [
+    "EMBLEMATA ILLA",
+    "pulcherrima Andreæ Alciati",
+    "Patricij Mediolanenſis, Iuriſcõ-",
+    "ſultorũ eloquẽtiſſimi, & eloquen",
+    "tiũ iuriſcẽſultiſſimi, quę vir ille nũquã ab literis",
+    "feriatus, dum à ſeuerioribus legum ſtudijs reſpi",
+    "rat, & humanæ litteraturæ Muſis amœnioribus",
+    "recreatur, ludendo effudit ἀφοριστικῶς, ϗ ἀνα-",
+    "κολούθως, prout varium vel ſenſibus externis,",
+    "vel commentationibus internis ſeſe offerebat ar-",
+    "gmmentum. Ea nos ſub generalibus præcipuarũ",
+    "rerum capitibus in locos communes, tanquam in",
+    "certas claſſes digeſſeramus: à ſummis, ad ima",
+    "progredientes. Non eo ſanè conſilio, vt Autore",
+    "ipſo in œconomia ſui operis, aut diligẽtiores, aut",
+    "cõcinniores videri ſtuderemus: ſed vt illius luſus,",
+    "in cõmunes vſus adduceremus, Eius operis du-",
+    "plici habita ratione, voluptatis nimirũ, & vtilita",
+    "tis. Priore quidẽ, vt ſpecioſior quędã operis forma",
+    "extaret oculis legẽtiũ, ſingula ſuo quoq; collocata",
+    "co conſiderantium. Compoſita namq; ſparſis, &",
+    "ordinata confuſis, ferè ſolent apparere pulchrio-",
+    "ra. Altera autem, vt facilior, & promptior eſſet"
+   ],
+   "reading": [
+    "EMBLEMATA ILLA pulcherrima Andreæ Alciati Patricii Mediolanensis, Iurisconsultorum eloquentissimi, & eloquentium iurisconsultissimi, quæ vir ille nunquam ab literis feriatus, dum à severioribus legum studiis respirat, & humanæ litteraturæ Musis amœnioribus recreatur, ludendo effudit ἀφοριστικῶς, καὶ ἀνακολούθως, prout varium vel sensibus externis, vel commentationibus internis sese offerebat argumentum. Ea nos sub generalibus præcipuarum rerum capitibus in locos communes, tanquam in certas classes digesseramus: à summis, ad ima progredientes. Non eo sanè consilio, ut Autore ipso in œconomia sui operis, aut diligentiores, aut concinniores videri studeremus: sed ut illius lusus, in communes usus adduceremus, Eius operis duplici habita ratione, voluptatis nimirum, & utilitatis. Priore quidem, ut speciosior quædam operis forma extaret oculis legentium, singula suo quoque collocata co [?] considerantium. Composita namque sparsis, & ordinata confusis, ferè solent apparere pulchriora. Altera autem, ut facilior, & promptior esset"
+   ],
+   "notes": "Курсив, буквица E. Текст продолжается на кадре 0010. «iuriſcẽſultiſſimi»: над e макрон (зум подтвердил) — опечатка вместо «iuriſcõſultiſſimi»; в слое чтения исправлено (errata). «argmmentum» — опечатка (см. errata). «co conſiderantium» — вероятно выпало «lo» (loco); не исправлено, вопрос U1. Пробелы перед «ϗ»/после запятых в печати узкие — несущественно."
+  }
+ ],
+ "continues_on_next_page": true,
+ "engraving": null,
+ "errata": [
+  {
+   "printed": "iuriſcẽſultiſſimi",
+   "corrected": "iurisconsultissimi",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "над e макрон (зум): ẽ вместо õ"
+  },
+  {
+   "printed": "argmmentum",
+   "corrected": "argumentum",
+   "certainty": "очевидная",
+   "applied_in_reading": true
+  },
+  {
+   "printed": "co conſiderantium",
+   "corrected": "loco considerantium?",
+   "certainty": "сомнительная",
+   "applied_in_reading": false,
+   "comment": "U1"
+  }
+ ],
+ "run": "t2",
+ "reconstructed_from_notes": true
+}
