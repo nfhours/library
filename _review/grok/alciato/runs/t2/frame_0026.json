@@ -1,0 +1,52 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 26,
+ "source": "scan/frame_0026.jpg",
+ "page": "20",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": "PRVDENTIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Conſilio,& virtute Chimæran",
+     "ſuperari,id eſt,fortiores",
+     "& deceptores."
+    ],
+    "reading": "Consilio, & virtute Chimæran superari, id est, fortiores & deceptores."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Беллерофонт верхом на крылатом Пегасе поражает копьём Химеру, лежащую внизу на скалах; вдали море/равнина с постройками, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Bellerophron(vt fortis eques)ſuperare Chimæran,",
+     "Et Licij potuit ſternere monſtra ſôli.",
+     "Sic tu Pegaſeis vectus petis æthera pennis:",
+     "Conſilioq; animi monſtra ſuperba domas."
+    ],
+    "reading": [
+     "Bellerophron(ut fortis eques)superare Chimæran,",
+     "Et Licii potuit sternere monstra sôli.",
+     "Sic tu Pegaseis vectus petis æthera pennis:",
+     "Consilioque animi monstra superba domas."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. В девизе над «r» в «Chimæran» чернильное пятно, буква читается."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы: маскарон в полукруглой нише между грифонами."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0026 = с. 20. Номер слева. Рубрика PRVDENTIA. набрана курсивными капителями в панели над девизом."
+}

@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 34,
+ "source": "scan/frame_0034.jpg",
+ "page": "28",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Cuſtodiendas virgines."
+    ],
+    "reading": "Custodiendas virgines."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Паллада в шлеме и доспехах, с копьём в руке и развевающимся плащом, стоит перед круглым храмом с куполом; у её ног дракон (змей); вдали горы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Vera hæc effigies innuptæ eſt Palladis:eius",
+     "Hic Draco,qui domiuæ conſtitit ante pedes.",
+     "Cur diuæ comes hoc animal ? cuſtodia rerum",
+     "Huic data ſic lucos,ſacraq; templa colit.",
+     "Innuptas opus eſt cura aſſeruare puellas",
+     "Peruigili.laqueos vndique tendit amor."
+    ],
+    "reading": [
+     "Vera hæc effigies innuptæ est Palladis: eius",
+     "Hic Draco, qui domivæ constitit ante pedes.",
+     "Cur divæ comes hoc animal? custodia rerum",
+     "Huic data sic lucos, sacraque templa colit.",
+     "Innuptas opus est cura asservare puellas",
+     "Pervigili.laqueos undique tendit amor."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Пробел перед «?» в строке 3 напечатан. Посторонние мелкие знаки за концом строк 4 и 6 (чернила/просвет), не включены."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы: маскарон с пышными бровями между завитками и плетением."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0034 = с. 28. Номер слева."
+}

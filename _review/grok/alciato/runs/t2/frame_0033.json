@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 33,
+ "source": "scan/frame_0033.jpg",
+ "page": "27",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In deprehenſum."
+    ],
+    "reading": "In deprehensum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Рыбак у ручья (пруда) рядом с домом и деревьями наклонился и держит угря, обернув его листом (смоковницы); на земле корзина/сеть.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Iamdudum quacunq; fugis te perſequor:at nunc",
+     "Caſsibus in noſtris denique captus ades.",
+     "Amplius haud poteris vires eludere noſtras.",
+     "Ficulno anguillam ſtrinximus in folio."
+    ],
+    "reading": [
+     "Iamdudum quacunque fugis te persequor: at nunc",
+     "Cassibus in nostris denique captus ades.",
+     "Amplius haud poteris vires eludere nostras.",
+     "Ficulno anguillam strinximus in folio."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. «Caſsibus» набрано лигатурой ß."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы: маскарон с пышными бровями между завитками и плетением."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0033 = с. 27. Номер справа. Рама с плетёным орнаментом."
+}

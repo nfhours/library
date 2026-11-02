@@ -1,0 +1,461 @@
+[
+ {
+  "location": "заглавие, строка 2",
+  "as_read": "AL[?]CIATI",
+  "candidates": [
+   "ALCIATI — курсивная L",
+   "AI.CIATI"
+  ],
+  "type": "illegible",
+  "resolver": "second_copy",
+  "frame": 7,
+  "page": "[1]"
+ },
+ {
+  "location": "внизу справа",
+  "as_read": "PRIVILE[...]",
+  "candidates": [
+   "PRIVILEGIO"
+  ],
+  "type": "editorial/reconstruction",
+  "resolver": "user",
+  "frame": 7,
+  "page": "[1]"
+ },
+ {
+  "location": "заглавие, строки 5–6",
+  "as_read": "imagini / bus",
+  "candidates": [
+   "после «imagini» точка или пятно — не знак переноса"
+  ],
+  "type": "damage/stain",
+  "resolver": "second_copy",
+  "frame": 7,
+  "page": "[1]"
+ },
+ {
+  "location": "строка 7, слово 3",
+  "as_read": "l[?]tteraturæ",
+  "candidates": [
+   "litteraturæ (i не пропечаталась/слилась с l)",
+   "ltteraturæ — опечатка печати"
+  ],
+  "type": "damage/stain",
+  "resolver": "second_copy",
+  "frame": 9,
+  "page": "[3]"
+ },
+ {
+  "location": "строка 11, слово 1",
+  "as_read": "gmmentum (ar-/gmmentum)",
+  "candidates": [
+   "argumentum — опечатка печати «argmmentum»"
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 9,
+  "page": "[3]"
+ },
+ {
+  "location": "строка 5, слово 1–2",
+  "as_read": "iuriſcẽſultiſsimi",
+  "candidates": [
+   "iuriſcõſultiſsimi (опечатка ẽ вместо õ?) — проверить",
+   "как напечатано"
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 9,
+  "page": "[3]"
+ },
+ {
+  "location": "строки 20–21",
+  "as_read": "collocata / co conſiderantium",
+  "candidates": [
+   "collocata / [lo]co conſiderantium — выпал слог «lo»"
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 9,
+  "page": "[3]"
+ },
+ {
+  "location": "строка 4–5",
+  "as_read": "eloquẽtiſsimi / iuriſcẽſultiſsimi: ß передано как ſs",
+  "candidates": [
+   "ſs",
+   "ſſ"
+  ],
+  "type": "illegible",
+  "resolver": "other_model",
+  "frame": 9,
+  "page": "[3]"
+ },
+ {
+  "location": "строка 13, слово 1",
+  "as_read": "ant",
+  "candidates": [
+   "aut — опечатка/перевёрнутая литера u",
+   "как напечатано"
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 10,
+  "page": "[4]"
+ },
+ {
+  "location": "строка 24, слово 3",
+  "as_read": "em̃",
+  "candidates": [
+   "enim — раскрыть в слое чтения?"
+  ],
+  "type": "abbreviation",
+  "resolver": "user",
+  "frame": 10,
+  "page": "[4]"
+ },
+ {
+  "location": "строка 26, слово 4",
+  "as_read": "qđ",
+  "candidates": [
+   "quod — раскрыть в слое чтения?",
+   "передача знака: qđ / ꝗd"
+  ],
+  "type": "abbreviation",
+  "resolver": "user",
+  "frame": 10,
+  "page": "[4]"
+ },
+ {
+  "location": "строка 9",
+  "as_read": "τῶν εἰκόνων",
+  "candidates": [
+   "конечная ν напечатана лигатурной/курсивной формой"
+  ],
+  "type": "greek",
+  "resolver": "other_model",
+  "frame": 10,
+  "page": "[4]"
+ },
+ {
+  "location": "последняя строка, слово 3",
+  "as_read": "κτ̀[?]",
+  "candidates": [
+   "κατὰ — греческая лигатура-сокращение"
+  ],
+  "type": "greek",
+  "resolver": "other_model",
+  "frame": 11,
+  "page": "[5]"
+ },
+ {
+  "location": "последняя строка, слово 5",
+  "as_read": "αὐτόγραφον",
+  "candidates": [
+   "надстрочные знаки над αυ читаются неуверенно"
+  ],
+  "type": "greek",
+  "resolver": "other_model",
+  "frame": 11,
+  "page": "[5]"
+ },
+ {
+  "location": "стих 7, слово 1",
+  "as_read": "At[?]",
+  "candidates": [
+   "At (t повреждена/с лишними точками)"
+  ],
+  "type": "damage/stain",
+  "resolver": "second_copy",
+  "frame": 12,
+  "page": "[6]"
+ },
+ {
+  "location": "стих 7, слово 5",
+  "as_read": "u[?]omiſm[?]ata",
+  "candidates": [
+   "nomiſmata — первая литера похожа на u (перевёрнутая n?), между m и a лишняя точка"
+  ],
+  "type": "damage/stain",
+  "resolver": "second_copy",
+  "frame": 12,
+  "page": "[6]"
+ },
+ {
+  "location": "стих 8, последнее слово",
+  "as_read": "m[?]anus",
+  "candidates": [
+   "manus — литера m разбита, выглядит как «u»+«ı»"
+  ],
+  "type": "damage/stain",
+  "resolver": "second_copy",
+  "frame": 12,
+  "page": "[6]"
+ },
+ {
+  "location": "эпиграмма, строка 1, слово 1",
+  "as_read": "E[?]ituricis",
+  "candidates": [
+   "Bituricis — B плохо пропечатана и выглядит как E"
+  ],
+  "type": "damage/stain",
+  "resolver": "second_copy",
+  "frame": 14,
+  "page": "8"
+ },
+ {
+  "location": "эпиграмма, строка 7, слово 3",
+  "as_read": "ſignum[?]",
+  "candidates": [
+   "ſignum — m разбита (выглядит как «uuı»)"
+  ],
+  "type": "damage/stain",
+  "resolver": "second_copy",
+  "frame": 14,
+  "page": "8"
+ },
+ {
+  "location": "гравюра, лента",
+  "as_read": "ΜΗ ΔΕΝ ΑΝΑΒΑΛΛΟ ΜΕ ΝΟΣ",
+  "candidates": [
+   "ΜΗΔΕΝ ΑΝΑΒΑΛΛΟΜΕΝΟΣ — порядок и направление букв на петле ленты («ΜΕ», «ΝΟΣ» перевёрнуто) читаются неуверенно"
+  ],
+  "type": "greek",
+  "resolver": "other_model",
+  "frame": 15,
+  "page": "9"
+ },
+ {
+  "location": "эпиграмма, строка 2",
+  "as_read": "μηδ' ἐν[?] … ἀναβαλλόμενος[?]",
+  "candidates": [
+   "μηδ' ἓν / μηδὲν — апостроф и придыхание над ἐν неясны",
+   "конечное -ος напечатано лигатурой"
+  ],
+  "type": "greek",
+  "resolver": "other_model",
+  "frame": 15,
+  "page": "9"
+ },
+ {
+  "location": "эпиграмма, строка 3, слово 2",
+  "as_read": "Alexandrnm[?]",
+  "candidates": [
+   "Alexandrum — u напечатана как n (опечатка/перевёрнутая литера)"
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 15,
+  "page": "9"
+ },
+ {
+  "location": "эпиграмма, строки 5–6",
+  "as_read": "indi- / cat Alce",
+  "candidates": [
+   "«cat Alce» — продолжение 5-го стиха, вынесенное на отдельную строку (в слое чтения склеивать?)"
+  ],
+  "type": "policy",
+  "resolver": "user",
+  "frame": 15,
+  "page": "9"
+ },
+ {
+  "location": "гравюра, верхняя строка",
+  "as_read": "ΓΑΝΝΥΣΘΑΙΜΗΔΕΣΙ,",
+  "candidates": [
+   "ΓΑΝΝΥΣΘΑΙ ΜΗΔΕΣΙ — словораздел в печати отсутствует; надпись набрана или вырезана в доске?"
+  ],
+  "type": "greek",
+  "resolver": "other_model",
+  "frame": 16,
+  "page": "10"
+ },
+ {
+  "location": "эпиграмма, строка 5, предпоследнее слово",
+  "as_read": "præſtanit[?]",
+  "candidates": [
+   "præſtauit — u/n в курсиве неразличимы"
+  ],
+  "type": "illegible",
+  "resolver": "second_copy",
+  "frame": 16,
+  "page": "10"
+ },
+ {
+  "location": "эпиграмма, строка 6, слово 5",
+  "as_read": "initinm",
+  "candidates": [
+   "initium — перевёрнутая u (n)"
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 17,
+  "page": "11"
+ },
+ {
+  "location": "эпиграмма, строка 2, последнее слово",
+  "as_read": "tenus[?]",
+  "candidates": [
+   "tenus — конечная s под кляксой"
+  ],
+  "type": "damage/stain",
+  "resolver": "second_copy",
+  "frame": 20,
+  "page": "14"
+ },
+ {
+  "location": "эпиграмма, строка 5, последнее слово",
+  "as_read": "vitæ[?]",
+  "candidates": [
+   "vitæ — æ под кляксой"
+  ],
+  "type": "damage/stain",
+  "resolver": "second_copy",
+  "frame": 20,
+  "page": "14"
+ },
+ {
+  "location": "эпиграмма, строка 3, слово 3",
+  "as_read": "labias",
+  "candidates": [
+   "labia — опечатка?",
+   "как напечатано"
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 23,
+  "page": "17"
+ },
+ {
+  "location": "эпиграмма, строка 1, последнее слово",
+  "as_read": "ëoi",
+  "candidates": [
+   "ëoi (e с диерезисом)",
+   "ēoi / ẽoi"
+  ],
+  "type": "diacritic",
+  "resolver": "zoom",
+  "frame": 27,
+  "page": "21"
+ },
+ {
+  "location": "эпиграмма, строка 4, знак после «peluis»",
+  "as_read": ":[?]",
+  "candidates": [
+   ":",
+   ",",
+   "!",
+   "повреждённая литера"
+  ],
+  "type": "punctuation",
+  "resolver": "zoom",
+  "frame": 27,
+  "page": "21"
+ },
+ {
+  "location": "девиз, греческая часть",
+  "as_read": "Νῆφε ϗ μέμνησ' ἀπιστεῖν. ἄρθρα ταῦτα τῶν φρενῶν.",
+  "candidates": [
+   "как прочтено; στ в «ἀπιστεῖν» набрано лигатурой (ϛ-образной), ν в «τῶν/φρενῶν» — υ-образной формы; акценты при данном разрешении неуверенны"
+  ],
+  "type": "greek",
+  "resolver": "zoom",
+  "frame": 28,
+  "page": "22"
+ },
+ {
+  "location": "девиз, «viuendum : &»",
+  "as_read": "viuendum : &",
+  "candidates": [
+   "пробел перед двоеточием напечатан (сохранён в дипл.)"
+  ],
+  "type": "spacing",
+  "resolver": "zoom",
+  "frame": 28,
+  "page": "22"
+ },
+ {
+  "location": "девиз, греческая строка 1, слово 4",
+  "as_read": "ἢ",
+  "candidates": [
+   "δ' (лигатура)",
+   "ἢ",
+   "ἦ"
+  ],
+  "type": "greek",
+  "resolver": "zoom",
+  "frame": 29,
+  "page": "23"
+ },
+ {
+  "location": "девиз, греческая строка 1, слово 5",
+  "as_read": "ἐρξέα",
+  "candidates": [
+   "ἔρεξα",
+   "ἐρξέα — как набрано"
+  ],
+  "type": "greek",
+  "resolver": "zoom",
+  "frame": 29,
+  "page": "23"
+ },
+ {
+  "location": "девиз, «exceſsi?»",
+  "as_read": "exceſs[i]?",
+  "candidates": [
+   "exceſsi — i повреждена (виден только фрагмент)"
+  ],
+  "type": "damaged",
+  "resolver": "zoom",
+  "frame": 29,
+  "page": "23"
+ },
+ {
+  "location": "эпиграмма, строка 3, «qđ»",
+  "as_read": "qđ",
+  "candidates": [
+   "quod — раскрыть в слое чтения?",
+   "как напечатано"
+  ],
+  "type": "abbreviation",
+  "resolver": "user",
+  "frame": 29,
+  "page": "23"
+ },
+ {
+  "location": "эпиграмма, строка 1, после «effigies»",
+  "as_read": "effigies innuptæ",
+  "candidates": [
+   "без знака",
+   "effigies, (слабый след запятой под s)"
+  ],
+  "type": "punctuation",
+  "resolver": "zoom",
+  "frame": 34,
+  "page": "28"
+ },
+ {
+  "location": "эпиграмма, строка 2, слово 4",
+  "as_read": "domiuæ",
+  "candidates": [
+   "dominæ — перевёрнутая n",
+   "как напечатано"
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 34,
+  "page": "28"
+ },
+ {
+  "location": "эпиграмма, строка 1, «Pállas»",
+  "as_read": "Pállas",
+  "candidates": [
+   "Pállas (акут над a)",
+   "Pallas — след на бумаге"
+  ],
+  "type": "diacritic",
+  "resolver": "zoom",
+  "frame": 35,
+  "page": "29"
+ }
+]

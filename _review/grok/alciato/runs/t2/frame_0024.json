@@ -1,0 +1,56 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 24,
+ "source": "scan/frame_0024.jpg",
+ "page": "18",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FIDES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Non vulganda conſilia."
+    ],
+    "reading": "Non vulganda consilia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Минотавр (человек с бычьим туловищем) с поднятой палицей стоит на камнях; позади развевающееся знамя на древке с лентой-надписью; пейзаж с облаками.",
+    "inscriptions": [
+     "S P Q R"
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Limine quod cæco,obſcura & caligine monſtrum",
+     "Gnoſiacis clauſit Dædalus in latêbris:",
+     "Depictum Romana Phalanx in prælia geſtat,",
+     "Semiuiroq; nitent ſigna ſuperba boue.",
+     "Noſq; monent,debere ducum ſecreta latêre",
+     "Conſilia.autori cognita techna nocet."
+    ],
+    "reading": [
+     "Limine quod cæco, obscura & caligine monstrum",
+     "Gnosiacis clausit Dædalus in latêbris:",
+     "Depictum Romana Phalanx in prælia gestat,",
+     "Semiviroque nitent signa superba bove.",
+     "Nosque monent, debere ducum secreta latêre",
+     "Consilia.autori cognita techna nocet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Циркумфлексы в «latêbris», «latêre» сохранены и в чтении."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под эпиграммой, внизу рамы",
+   "description": "Нижняя часть рамы с маскароном."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0024 = с. 18. Номер слева."
+}

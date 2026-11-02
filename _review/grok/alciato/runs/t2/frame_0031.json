@@ -1,0 +1,51 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 31,
+ "source": "scan/frame_0031.jpg",
+ "page": "25",
+ "signature": "B 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Prudens,magis quàm",
+     "loquax."
+    ],
+    "reading": "Prudens, magis quàm loquax."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Щит с завитками (картуш), подвешенный сверху, с изображением совы; позади морской пейзаж с кораблями, скалистый берег с постройками слева, лучи солнца справа.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Noctua Cecropijs inſignia præſtat Athenis,",
+     "Inter aues ſani Noctua conſilij.",
+     "Armiferæ meritò obſequijs ſacrata Mineruæ eſt,",
+     "Garrula quo cornix ceſſerat antè loco."
+    ],
+    "reading": [
+     "Noctua Cecropiis insignia præstat Athenis,",
+     "Inter aves sani Noctua consilii.",
+     "Armiferæ meritò obsequiis sacrata Minervæ est,",
+     "Garrula quo cornix cesserat antè loco."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы с вазой (курильницей) и переплетёнными лентами."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0031 = с. 25. Номер справа."
+}

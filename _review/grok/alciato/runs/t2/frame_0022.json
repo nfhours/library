@@ -1,0 +1,61 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 22,
+ "source": "scan/frame_0022.jpg",
+ "page": "16",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FIDES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Fœdera."
+    ],
+    "reading": "Fœdera."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Лютня лежит на столе (ложе), покрытом складчатой тканью; рядом раскрытая книга/футляр; позади драпировка-занавес в интерьере.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Hãc citharã, à lembi quę forma halieutica fertur,",
+     "Vendicat & propriam Muſa Latina ſibi,",
+     "Accipe Dux:placeat noſtrũ hoc tibi tẽpore munus,",
+     "Quo noua cum ſocijs fœdera inire paras.",
+     "Difficile eſt,niſi docto homini,tot tẽdere chordas,",
+     "Vnaq; ſi fuerit non bene tenta fides,",
+     "Ruptáue(quod facile eſt)perit om̃is gratia cõchæ,",
+     "Illeq; præcellens cantus,ineptus erit.",
+     "Sic Itali coëunt proceres in fœdera,concors",
+     "Nil eſt quod timeas,ſi tibi conſtet amor.",
+     "At ſi aliquis deſciſcat(vti plerumque videmus)",
+     "In nihilum illa omnis ſoluitur harmonia."
+    ],
+    "reading": [
+     "Hanc citharam, à lembi quæ forma halieutica fertur,",
+     "Vendicat & propriam Musa Latina sibi,",
+     "Accipe Dux: placeat nostrum hoc tibi tempore munus,",
+     "Quo nova cum sociis fœdera inire paras.",
+     "Difficile est, nisi docto homini, tot tendere chordas,",
+     "Unaque si fuerit non bene tenta fides,",
+     "Ruptáve(quod facile est)perit omnis gratia conchæ,",
+     "Illeque præcellens cantus, ineptus erit.",
+     "Sic Itali coëunt proceres in fœdera, concors",
+     "Nil est quod timeas, si tibi constet amor.",
+     "At si aliquis desciscat(uti plerumque videmus)",
+     "In nihilum illa omnis solvitur harmonia."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. «om̃is» — m с тильдой."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Кадр 0022 = с. 16. Номер слева."
+}

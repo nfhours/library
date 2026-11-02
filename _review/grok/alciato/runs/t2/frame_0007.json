@@ -1,0 +1,75 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 7,
+ "source": "scan/frame_0007.jpg",
+ "page": "[1]",
+ "signature": null,
+ "catchword": null,
+ "page_type": "title",
+ "running_head": null,
+ "rubric": null,
+ "emblems": [],
+ "blocks": [
+  {
+   "kind": "title_text",
+   "lang": "la",
+   "diplomatic": [
+    "EMBLEMATA",
+    "D. A. AL[?]CIATI,",
+    "denuo ab ipſo Autore",
+    "recognita,ac,quæ deſi-",
+    "derabantur, imagini",
+    "bus locupletata."
+   ],
+   "reading": [
+    "EMBLEMATA D. A. AL[?]CIATI, denuo ab ipso Autore recognita, ac, quæ desiderabantur, imaginibus locupletata."
+   ],
+   "notes": "Прямой шрифт в картуше; AL[?]CIATI: курсивная L похожа на «I.»."
+  },
+  {
+   "kind": "title_text",
+   "lang": "la",
+   "diplomatic": [
+    "Acceſſerunt nova aliquot ab",
+    "Autore Emblemata ſuis quoq;",
+    "eiconibus inſignita."
+   ],
+   "reading": [
+    "Accesserunt nova aliquot ab Autore Emblemata suis quoque eiconibus insignita."
+   ],
+   "notes": "Курсив."
+  },
+  {
+   "kind": "imprint",
+   "lang": "la",
+   "diplomatic": [
+    "LVGD. APVD GVLIEL.",
+    "ROVILIVM. 1551."
+   ],
+   "reading": [
+    "LUGD. APUD GULIEL. ROVILIUM. 1551."
+   ],
+   "notes": "Капитель в нижнем картуше."
+  },
+  {
+   "kind": "privilege_line",
+   "lang": "la",
+   "diplomatic": [
+    "CVM",
+    "PRIVILE[...]"
+   ],
+   "reading": [
+    "CUM PRIVILE[...]"
+   ],
+   "notes": "Внизу полосы по обе стороны пьедестала; правое слово срезано обрезом: видны PRIVILE и часть следующей литеры."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вся полоса",
+   "description": "Гравированный архитектурный титул: по сторонам две мужские фигуры-атланты на пьедесталах с маскаронами, вверху две полулежащие фигуры и маскарон с гирляндами, в центре картуш с заглавием; под ним на гирляндах с плодами овальный медальон с орлом (держит в лапах/клюве змею?) на круглом пьедестале с картушем выходных данных."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0007 = с. [1], номер не напечатан. Рыжие пятна у строк 5–6 картуша. Срезанное правое поле. В медальоне орёл — предмет в лапах не вполне ясен."
+}

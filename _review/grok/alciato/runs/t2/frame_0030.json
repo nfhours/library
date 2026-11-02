@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 30,
+ "source": "scan/frame_0030.jpg",
+ "page": "24",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Prudentes.Problema."
+    ],
+    "reading": "Prudentes.Problema."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Двуликая бородатая голова (герма) Януса на постаменте среди холмистого пейзажа; облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Iane bifrons,qui iam tranſacta,futuraq; calles,",
+     "Quiq; retro ſannas(ſicut & antè )vides,",
+     "Tot te cur oculis,tot fingunt vultibus?an quòd",
+     "Circunſpectum hominem forma fuiſſe docet?"
+    ],
+    "reading": [
+     "Iane bifrons, qui iam transacta, futuraque calles,",
+     "Quique retro sannas(sicut & antè )vides,",
+     "Tot te cur oculis, tot fingunt vultibus? an quòd",
+     "Circunspectum hominem forma fuisse docet?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Пробел перед «)» напечатан."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз: маскарон в центре, по сторонам головы путти и ленты."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0030 = с. 24. Номер слева."
+}

@@ -1,0 +1,65 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 17,
+ "source": "scan/frame_0017.jpg",
+ "page": "11",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "DEVS, SIVE RELIGIO.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Sapiẽtia humana,ſtultitia eſt apud Deũ."
+    ],
+    "reading": "Sapientia humana, stultitia est apud Deum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Кекроп: бородатый мужчина с туловищем человека и змеиным хвостом вместо ног, поднявший правую руку, сидит на скалистом берегу; позади город с куполом и башнями, на здании (колонне?) статуя; слева на холме несколько маленьких фигур; облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quid dicam?quonã hoc cõpellẽ nomine monſtrum",
+     "Biforme:quod non eſt homo,nec eſt draco?",
+     "Sed ſine vir pedibus,ſummis ſine partibus anguis,",
+     "Vir anguipes dici,& homiceps anguis poteſt.",
+     "Anguẽ pedit homo, hominẽ eructauit & anguis,",
+     "Nec finis hominis eſt,initinm nec eſt feræ.",
+     "Sic olim Cecrops doctis regnauit Athenis,",
+     "Sic & gigantes terra mater protulit.",
+     "Hæc vafrûm eſt ſpecies,ſed relligione carentem,",
+     "Terrena tantum quiq; curet,indicat."
+    ],
+    "reading": [
+     "Quid dicam? quonam hoc compellem nomine monstrum",
+     "Biforme: quod non est homo, nec est draco?",
+     "Sed sine vir pedibus, summis sine partibus anguis,",
+     "Vir anguipes dici, & homiceps anguis potest.",
+     "Anguem pedit homo, hominem eructavit & anguis,",
+     "Nec finis hominis est, initinm nec est feræ.",
+     "Sic olim Cecrops doctis regnavit Athenis,",
+     "Sic & gigantes terra mater protulit.",
+     "Hæc vafrûm est species, sed relligione carentem,",
+     "Terrena tantum quique curet, indicat."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [
+  {
+   "printed": "initinm",
+   "corrected": "initium",
+   "certainty": "очевидная",
+   "applied_in_reading": false,
+   "comment": "перевёрнутая литера; не применено до решения (open_points)"
+  }
+ ],
+ "notes": "Кадр 0017 = с. 11. Номер справа в строке колонтитула."
+}

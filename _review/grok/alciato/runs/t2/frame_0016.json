@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 16,
+ "source": "scan/frame_0016.jpg",
+ "page": "10",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "DEVS, SIVE RELIGIO.",
+ "rubric": "DEVS, SIVE RELIGIO.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In Deo lætandum."
+    ],
+    "reading": "In Deo lætandum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой; над изображением строка греческих капиталей в рамке гравюры",
+    "description": "Орёл несёт в когтях по небу юношу (Ганимеда), обхватившего его шею; внизу на холме сидит собака, задрав голову к небу; слева дерево, вдали залив с двумя кораблями и город.",
+    "inscriptions": [
+     {
+      "where": "над изображением, отдельной строкой (набрано капиталями)",
+      "text": "ΓΑΝΝΥΣΘΑΙΜΗΔΕΣΙ,"
+     },
+     {
+      "where": "в поле изображения, слева посередине",
+      "text": "GANYMEDES."
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aſpice vt egregius puerum Iouis alite pictor",
+     "Fecerit Iliacum ſumma per aſtra vehi.",
+     "Quis ne Iouem tactum puerili credat amore?",
+     "Dic,hæc Mæonius finxerit vnde ſenex?",
+     "Conſilium,mens atque Dei cui gaudia præſtanit[?]:",
+     "Creditur is ſummo raptus adeſſe Ioui."
+    ],
+    "reading": [
+     "Aspice ut egregius puerum Iovis alite pictor",
+     "Fecerit Iliacum summa per astra vehi.",
+     "Quis ne Iovem tactum puerili credat amore?",
+     "Dic, hæc Mæonius finxerit unde senex?",
+     "Consilium, mens atque Dei cui gaudia præstanit[?]:",
+     "Creditur is summo raptus adesse Iovi."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; пентаметры с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Кадр 0016 = с. 10. Номер слева в строке колонтитула."
+}

@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 32,
+ "source": "scan/frame_0032.jpg",
+ "page": "26",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Maturandum."
+    ],
+    "reading": "Maturandum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Вертикально воткнутая в землю стрела (дротик), вокруг древка обвилась рыба-прилипала (эхенеида); фон — пейзаж с руинами, башней и горами.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Maturare iubent properè,& cunctarier omnes.",
+     "Ne nimiùm præceps,neu mora longa nimis.",
+     "Hoc tibi declaret connexum echeneide telum,",
+     "Hæc tarda eſt,volitant ſpicula miſſa manu."
+    ],
+    "reading": [
+     "Maturare iubent properè, & cunctarier omnes.",
+     "Ne nimiùm præceps, neu mora longa nimis.",
+     "Hoc tibi declaret connexum echeneide telum,",
+     "Hæc tarda est, volitant spicula missa manu."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы с вазой (курильницей) и переплетёнными лентами."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0032 = с. 26. Номер слева."
+}

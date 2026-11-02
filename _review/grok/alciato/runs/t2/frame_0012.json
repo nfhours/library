@@ -1,0 +1,67 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 12,
+ "source": "scan/frame_0012.jpg",
+ "page": "[6]",
+ "signature": null,
+ "catchword": null,
+ "page_type": "front_matter",
+ "running_head": null,
+ "rubric": null,
+ "emblems": [],
+ "blocks": [
+  {
+   "kind": "title_text",
+   "lang": "la",
+   "diplomatic": [
+    "CLARISS. VIRI",
+    "ANDR. ALCIATI IN",
+    "Librum primum Emble-",
+    "matũ præfatio,ad Chon-",
+    "radum Peutingerum",
+    "Auguſtanum."
+   ],
+   "reading": [
+    "CLARISS. VIRI ANDR. ALCIATI IN Librum primum Emblematum præfatio, ad Chonradum Peutingerum Augustanum."
+   ],
+   "notes": "Строка 1 — прямые капитали, строка 2 — курсивные капители, далее прямой шрифт. Под заголовком маленький значок-флерон (?) по центру."
+  },
+  {
+   "kind": "verse",
+   "lang": "la",
+   "diplomatic": [
+    "Dum pueros iuglans,iuuenes dum teſſera fallit,",
+    "Detinet & ſegnes chartula picta viros:",
+    "Hæc nos feſtiuis Emblemata cudimus horis,",
+    "Artificum illuſtri ſignaq; facta manu:",
+    "Veſtibus vt torulos,petaſis vt figere parmas,",
+    "Et valeat tacitis ſcribere quiſque notis.",
+    "At[?] tibi ſupremus precioſa u[?]omiſm[?]ata Cæſar,",
+    "Et veterum eximias donet habere m[?]anus.",
+    "Ipſe dabo vati chartacea munera vates,",
+    "Quæ ( Chonrade ) mei pignus amoris habe."
+   ],
+   "reading": [
+    "Dum pueros iuglans, iuvenes dum tessera fallit,",
+    "Detinet & segnes chartula picta viros:",
+    "Hæc nos festivis Emblemata cudimus horis,",
+    "Artificum illustri signaque facta manu:",
+    "Vestibus ut torulos, petasis ut figere parmas,",
+    "Et valeat tacitis scribere quisque notis.",
+    "At[?] tibi supremus preciosa u[?]omism[?]ata Cæsar,",
+    "Et veterum eximias donet habere m[?]anus.",
+    "Ipse dabo vati chartacea munera vates,",
+    "Quæ ( Chonrade ) mei pignus amoris habe."
+   ],
+   "notes": "Курсив; чётные строки (пентаметры) с отступом."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под стихами, внутри полосы",
+   "description": "Заставка-картуш с завитками, двумя кистями по сторонам и растительным мотивом в центре."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0012 = с. [6]; номер не напечатан. Посвящение Пейтингеру. Рыжие пятна под заставкой."
+}

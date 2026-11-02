@@ -1,0 +1,49 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 21,
+ "source": "scan/frame_0021.jpg",
+ "page": "15",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FIDES.",
+ "rubric": "VIRTVTES. FIDES.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Fidei ſymbolum."
+    ],
+    "reading": "Fidei symbolum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Две стоящие фигуры в одеждах — слева мужчина в плаще, справа женщина — соединяют правые руки; между ними обнажённый мальчик (Амур), держащийся за них. Пейзаж с холмами и облаками.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Stet depictus Honos Tyrio velatus amictu,",
+     "Eiuſq; iungat nuda dextram Veritas.",
+     "Sitq; Amor in medio caſtus:cui tempora circum",
+     "Roſa it , Diones pulchrior Cupidine.",
+     "Conſtituunt hæc ſigna fidem, reuerentia honoris",
+     "Quam fouet,alit Amor,parturitq; Veritas."
+    ],
+    "reading": [
+     "Stet depictus Honos Tyrio velatus amictu,",
+     "Eiusque iungat nuda dextram Veritas.",
+     "Sitque Amor in medio castus: cui tempora circum",
+     "Rosa it , Diones pulchrior Cupidine.",
+     "Constituunt hæc signa fidem, reverentia honoris",
+     "Quam fovet, alit Amor, parturitque Veritas."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Рубрика в полосе в две строки: «VIRTVTES.» (прямые капитали, крупно) и «FIDES.» (курсивные капители; между E и S посторонняя метка)."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Кадр 0021 = с. 15. Номер справа. Начало надраздела VIRTVTES."
+}
