@@ -1,0 +1,62 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 15,
+ "source": "scan/frame_0015.jpg",
+ "page": "9",
+ "signature": "A 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "EMBLEM. DEDIC.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Nunquàm procraſti-",
+     "nandum."
+    ],
+    "reading": "Nunquàm procrastinandum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Лось (alce), изображённый как длинношеее косматое животное с изогнутыми рогами, стоит у дерева; вокруг его ног и туловища обвита лента-бандероль с греческой надписью; на заднем плане горы, город с башней, облака, птицы.",
+    "inscriptions": [
+     {
+      "where": "лента вокруг ног животного (чтение по сегментам: снизу «ΜΗ», затем «ΔΕΝ ΑΝ», вверх «ΑΝΑΒΑΛΛΟ», на петле «ΜΕ», «ΝΟ»)",
+      "text": "ΜΗ ΔΕΝ ΑΝΑΒΑΛΛΟ ΜΕ ΝΟ[?]"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "ALCIATAE gentis inſignia ſuſtinet Alce,",
+     "Vnguibus & μηδ'ἐν fert ἀναβαλλόμενον[?].",
+     "Conſtat Alexandrum ſic reſpondiſse roganti,",
+     "Quî tot obiuiſſet tempore geſta breui?",
+     "Nunquam(inquit )differre volens.quod & indi-",
+     "cat Alce",
+     "Fortior hæc dubitet,ocyor[?] ánne ſiet."
+    ],
+    "reading": [
+     "ALCIATAE gentis insignia sustinet Alce,",
+     "Unguibus & μηδ'ἐν fert ἀναβαλλόμενον[?].",
+     "Constat Alexandrum sic respondisse roganti,",
+     "Quî tot obivisset tempore gesta brevi?",
+     "Nunquam(inquit )differre volens.quod & indi-",
+     "cat Alce",
+     "Fortior hæc dubitet, ocyor[?] ánne siet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Другая гравированная рамка: маскарон в овале и драпировки сверху, фрукты по бокам, женская маска и завитки внизу."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «9» справа вверху, колонтитул «EMBLEM. DEDIC.», сигнатура «A 5». «ALCIATAE» — прямыми капителями (малые капители), остальное эпиграммы курсивом. Строка 5 переносится («indi-» / «cat Alce» — вынос с отступом, т. е. одна стихотворная строка на две печатные). Последнее греческое слово строки 2 кончается лигатурой (похоже на ον/ος) — записано «ἀναβαλλόμενον[?]». Бандероль частично скрыта, последние буквы неясны."
+}

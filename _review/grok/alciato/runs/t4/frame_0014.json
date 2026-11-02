@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 14,
+ "source": "scan/frame_0014.jpg",
+ "page": "8",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "EMBLEM. DEDIC.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Mediolanum."
+    ],
+    "reading": "Mediolanum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Строительство (или руины) города: слева люди на лестницах и стенах кладут кладку; в центре человек, наклонившийся вперёд (с орудием?), справа человек с киркой/мотыгой; на земле лежит животное — свинья; на заднем плане храм с фронтоном, высокая башня/обелиск, ротонда, город с башнями на холме, горы, облака, птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "B[?]ituricis veruex,Heduis dat Sucula ſignum.",
+     "His populis patriæ debita origo meæ eſt,",
+     "Quam Mediolanum ſacram dixêre puellæ",
+     "Terram:nam vetus hoc Gallica lingua ſonat.",
+     "Culta Minerua fuit,nunc[?] eſt,vbi numine Tecla",
+     "Mutato matris virginis ante domum.",
+     "Laniger huic ſignum[?] ſus eſt,animalq; biforme,",
+     "Acribus hinc ſetis,lanitio inde leui."
+    ],
+    "reading": [
+     "B[?]ituricis veruex, Heduis dat Sucula signum.",
+     "His populis patriæ debita origo meæ est,",
+     "Quam Mediolanum sacram dixêre puellæ",
+     "Terram: nam vetus hoc Gallica lingua sonat.",
+     "Culta Minerva fuit, nunc[?] est, ubi numine Tecla",
+     "Mutato matris virginis ante domum.",
+     "Laniger huic signum[?] sus est, animalque biforme,",
+     "Acribus hinc setis, lanitio inde levi."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0013 (гермы, маскарон, рога изобилия)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «8» слева вверху, колонтитул «EMBLEM. DEDIC.» над рамкой. Девиз прямым шрифтом, эпиграмма курсивом, чётные строки с отступом. Пятна (следы влаги) на гравюре. «dixêre» — с циркумфлексом."
+}

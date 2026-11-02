@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 33,
+ "source": "scan/frame_0033.jpg",
+ "page": "27",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In deprehenſum."
+    ],
+    "reading": "In deprehensum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Мужчина у дерева держит обеими руками угря, завёрнутого в широкий фиговый лист; слева каменный дом с аркой, ручей/канал, мостки, забор, дома и деревья вдали, птицы в небе.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Iamdudum quacunq; fugis te perſequor:at nunc",
+     "Caſsibus in noſtris denique captus ades.",
+     "Amplius haud poteris vires eludere noſtras.",
+     "Ficulno anguillam ſtrinximus in folio."
+    ],
+    "reading": [
+     "Iamdudum quacunque fugis te persequor: at nunc",
+     "Cassibus in nostris denique captus ades.",
+     "Amplius haud poteris vires eludere nostras.",
+     "Ficulno anguillam strinximus in folio."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка из переплетённых лент; маски сверху и снизу (нижняя — бородатая маска в тюрбане с пером)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «27» справа вверху, колонтитул «PRVDENTIA.». Сигнатуры нет. «Caßibus» напечатано с лигатурой ß (транскрибировано ſs). Девиз прямым шрифтом, эпиграмма курсивом; все строки, кроме первой и третьей, с отступом."
+}

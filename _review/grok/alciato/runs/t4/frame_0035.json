@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 35,
+ "source": "scan/frame_0035.jpg",
+ "page": "29",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Vino prudentiam augeri."
+    ],
+    "reading": "Vino prudentiam augeri."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "В интерьере храма с колоннами и арками на общем пьедестале стоят две статуи: слева Паллада в шлеме с копьём, справа обнажённый юный Вакх, поднявший руку; над ними подвешенная лампада и занавес-драпировка.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Hæc Bacchus pater, & Pállas communiter ambo",
+     "Templa tenent,ſoboles vtraque vera Iouis:",
+     "Hæc caput,illè femur ſoluit:huic vſus oliui",
+     "Debitus:inuenit primus at ille merum.",
+     "Iunguntur merito,quòd ſi qui abſtemius odit",
+     "Vina:Dea nullum ſentiet auxilium."
+    ],
+    "reading": [
+     "Hæc Bacchus pater, & Pállas communiter ambo",
+     "Templa tenent, soboles utraque vera Iovis:",
+     "Hæc caput, illè femur solvit: huic usus olivi",
+     "Debitus: inuenit primus at ille merum.",
+     "Iunguntur merito, quòd si qui abstemius odit",
+     "Vina: Dea nullum sentiet auxilium."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Архитектурная рамка: фронтон с маской и гирляндами, коринфские каналированные колонны по бокам, внизу фриз с маской в тюрбане и плодами."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «29» справа вверху, колонтитул «PRVDENTIA.». Сигнатуры нет. Девиз прямым шрифтом, эпиграмма курсивом, чётные строки с отступом."
+}

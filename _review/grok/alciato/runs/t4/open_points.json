@@ -1,0 +1,491 @@
+[
+ {
+  "frame": 7,
+  "page": "[1]",
+  "location": "blocks[0] строка 2, слово 3",
+  "as_read": "AL[?]CIATI",
+  "candidates": [
+   "ALCIATI",
+   "AICIATI"
+  ],
+  "type": "second_copy",
+  "run": "t4"
+ },
+ {
+  "frame": 7,
+  "page": "[1]",
+  "location": "blocks[3] строка 2",
+  "as_read": "PRIVILE[...]",
+  "candidates": [
+   "PRIVILEGIO (достраивание)"
+  ],
+  "type": "editorial/reconstruction",
+  "run": "t4"
+ },
+ {
+  "frame": 8,
+  "page": "[2]",
+  "location": "blocks[0] строка 24, слово 7",
+  "as_read": "séellées[?]",
+  "candidates": [
+   "scellées (акут над c)",
+   "séellées"
+  ],
+  "type": "illegible",
+  "run": "t4"
+ },
+ {
+  "frame": 9,
+  "page": "3",
+  "location": "blocks[0] строка 7, слово 3",
+  "as_read": "l[?]tteraturæ",
+  "candidates": [
+   "litteraturæ",
+   "ltteraturæ (опечатка)"
+  ],
+  "type": "illegible",
+  "run": "t4"
+ },
+ {
+  "frame": 9,
+  "page": "3",
+  "location": "blocks[0] строка 8, греч. слово 1",
+  "as_read": "ἀφορισικῶς[?]",
+  "candidates": [
+   "ἀφοριστικῶς (στ-лигатура?)",
+   "ἀφορισικῶς"
+  ],
+  "type": "greek",
+  "run": "t4"
+ },
+ {
+  "frame": 9,
+  "page": "3",
+  "location": "blocks[0] строка 5, слово 2",
+  "as_read": "iuriſcẽſultiſsimi",
+  "candidates": [
+   "iurisconsultissimi (опечатка печати?)"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 9,
+  "page": "3",
+  "location": "blocks[0] строка 11, слово 1",
+  "as_read": "gmmentum (ar-gmmentum)",
+  "candidates": [
+   "argumentum (опечатка печати)"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 9,
+  "page": "3",
+  "location": "blocks[0] строка 21, начало",
+  "as_read": "co conſiderantium",
+  "candidates": [
+   "loco considerantium (выпало «lo»?)"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 10,
+  "page": "4",
+  "location": "blocks[0] строка 13, слово 1",
+  "as_read": "ant",
+  "candidates": [
+   "aut (опечатка печати: перевёрнутое n/u?)"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 10,
+  "page": "4",
+  "location": "blocks[0] строка 24, слово 3",
+  "as_read": "em̃",
+  "candidates": [
+   "enim (сокращение",
+   "раскрытие в слое чтения?)"
+  ],
+  "type": "abbreviation",
+  "run": "t4"
+ },
+ {
+  "frame": 10,
+  "page": "4",
+  "location": "blocks[0] строка 26, слово 3",
+  "as_read": "qđ",
+  "candidates": [
+   "quod (сокращение",
+   "раскрытие в слое чтения?)"
+  ],
+  "type": "abbreviation",
+  "run": "t4"
+ },
+ {
+  "frame": 11,
+  "page": "5",
+  "location": "blocks[0] строка 24, греч. слово 1",
+  "as_read": "κατὰ[?]",
+  "candidates": [
+   "κατὰ (компендий)"
+  ],
+  "type": "greek",
+  "run": "t4"
+ },
+ {
+  "frame": 12,
+  "page": "6",
+  "location": "blocks[0] строка 2, слово 2",
+  "as_read": "AL[?]CIATI",
+  "candidates": [
+   "ALCIATI",
+   "AICIATI"
+  ],
+  "type": "second_copy",
+  "run": "t4"
+ },
+ {
+  "frame": 12,
+  "page": "6",
+  "location": "blocks[1] строка 7, слово 5",
+  "as_read": "uomiſmata",
+  "candidates": [
+   "numismata (опечатка печати, u вместо n)",
+   "слово частично повреждено («uomiſm.ıta»)"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 12,
+  "page": "6",
+  "location": "blocks[1] строка 8, последнее слово",
+  "as_read": "m[?]anus",
+  "candidates": [
+   "manus (повреждённая литера m)"
+  ],
+  "type": "damage/stain",
+  "run": "t4"
+ },
+ {
+  "frame": 12,
+  "page": "6",
+  "location": "blocks[1] строка 1, слова 6–7",
+  "as_read": "teſſerat fallit",
+  "candidates": [
+   "tessera fallit (слитно «teſſerat»?)"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 13,
+  "page": "7",
+  "location": "эпиграмма, строка 1, слово 5",
+  "as_read": "fæucibus",
+  "candidates": [
+   "faucibus (опечатка печати: æ вместо a)"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 14,
+  "page": "8",
+  "location": "эпиграмма, строка 1, слово 1",
+  "as_read": "B[?]ituricis",
+  "candidates": [
+   "Bituricis",
+   "Eituricis (первая литера выглядит как E)"
+  ],
+  "type": "damage/stain",
+  "run": "t4"
+ },
+ {
+  "frame": 14,
+  "page": "8",
+  "location": "эпиграмма, строка 5, слово 4",
+  "as_read": "nunc[?]",
+  "candidates": [
+   "nunc",
+   "nnnc (u похожа на n)"
+  ],
+  "type": "illegible",
+  "run": "t4"
+ },
+ {
+  "frame": 14,
+  "page": "8",
+  "location": "эпиграмма, строка 7, слово 3",
+  "as_read": "ſignum[?]",
+  "candidates": [
+   "signum (m повреждена, похожа на «uu»)"
+  ],
+  "type": "damage/stain",
+  "run": "t4"
+ },
+ {
+  "frame": 15,
+  "page": "9",
+  "location": "эпиграмма, строка 2, греч. слово 2",
+  "as_read": "ἀναβαλλόμενον[?]",
+  "candidates": [
+   "ἀναβαλλόμενον (конечная лигатура)",
+   "ἀναβαλλόμενος"
+  ],
+  "type": "greek",
+  "run": "t4"
+ },
+ {
+  "frame": 15,
+  "page": "9",
+  "location": "эпиграмма, строка 2, греч. слово 1",
+  "as_read": "μηδ'ἐν",
+  "candidates": [
+   "μηδὲν",
+   "μηδ' ἐν (апостроф/словораздел печати)"
+  ],
+  "type": "greek",
+  "run": "t4"
+ },
+ {
+  "frame": 15,
+  "page": "9",
+  "location": "эпиграмма, строка 7, слово 4",
+  "as_read": "ocyor[?]",
+  "candidates": [
+   "ocyor",
+   "ocior (между c и y лишний штрих)"
+  ],
+  "type": "illegible",
+  "run": "t4"
+ },
+ {
+  "frame": 15,
+  "page": "9",
+  "location": "гравюра, надпись на ленте",
+  "as_read": "ΜΗ ΔΕΝ ΑΝΑΒΑΛΛΟ ΜΕ ΝΟ[?]",
+  "candidates": [
+   "ΜΗΔΕΝ ΑΝΑΒΑΛΛΟΜΕΝΟΝ (конец не виден)"
+  ],
+  "type": "greek",
+  "run": "t4"
+ },
+ {
+  "frame": 16,
+  "page": "10",
+  "location": "эпиграмма, строка 5, последнее слово",
+  "as_read": "præſtant[?]",
+  "candidates": [
+   "præstant",
+   "præstanit (между n и t лишний штрих, похоже на «anıt»)"
+  ],
+  "type": "illegible",
+  "run": "t4"
+ },
+ {
+  "frame": 16,
+  "page": "10",
+  "location": "гравюра, греческая надпись",
+  "as_read": "ΓΑΝΝΥΣΘΑΙΜΗΔΕΣΙ,",
+  "candidates": [
+   "словораздел не напечатан (ΓΑΝΝΥΣΘΑΙ ΜΗΔΕΣΙ) — толкование"
+  ],
+  "type": "greek",
+  "run": "t4"
+ },
+ {
+  "frame": 18,
+  "page": "12",
+  "location": "эпиграмма, строка 5, слово 5 (знак после gentes)",
+  "as_read": "gentes.[?]",
+  "candidates": [
+   "gentes.",
+   "gentes,"
+  ],
+  "type": "illegible",
+  "run": "t4"
+ },
+ {
+  "frame": 20,
+  "page": "14",
+  "location": "эпиграмма, строка 5, слово 3",
+  "as_read": "triuo",
+  "candidates": [
+   "triuio (опечатка печати",
+   "ср. строку 1 «triuio»)"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 23,
+  "page": "17",
+  "location": "эпиграмма, строка 3, слово 3",
+  "as_read": "labias",
+  "candidates": [
+   "labia (опечатка печати?)",
+   "labias"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 26,
+  "page": "20",
+  "location": "девиз, строка 1, последнее слово",
+  "as_read": "Chimæra[?]n",
+  "candidates": [
+   "Chimæran (литера a повреждена, выглядит как «.i»)"
+  ],
+  "type": "damage/stain",
+  "run": "t4"
+ },
+ {
+  "frame": 27,
+  "page": "21",
+  "location": "эпиграмма, строка 1, последнее слово",
+  "as_read": "ēoi[?]",
+  "candidates": [
+   "eoi (знак долготы над e)",
+   "ẽoi (тильда)"
+  ],
+  "type": "abbreviation",
+  "run": "t4"
+ },
+ {
+  "frame": 27,
+  "page": "21",
+  "location": "эпиграмма, строка 4, после «peluis»",
+  "as_read": "peluis[?]",
+  "candidates": [
+   "peluis (штрих — пятно)",
+   "peluis!",
+   "peluis:"
+  ],
+  "type": "illegible",
+  "run": "t4"
+ },
+ {
+  "frame": 28,
+  "page": "22",
+  "location": "девиз, строка 1, греч. слово 4",
+  "as_read": "ἀπιστεῖν[?]",
+  "candidates": [
+   "ἀπιστεῖν (στ напечатано лигатурой, похожей на ς/σ)",
+   "ἀπισεῖν"
+  ],
+  "type": "greek",
+  "run": "t4"
+ },
+ {
+  "frame": 28,
+  "page": "22",
+  "location": "девиз, строка 1",
+  "as_read": "ϗ",
+  "candidates": [
+   "καὶ (лигатура) — чтение лигатуры"
+  ],
+  "type": "greek",
+  "run": "t4"
+ },
+ {
+  "frame": 29,
+  "page": "23",
+  "location": "девиз, строка 1, греч. слово 4",
+  "as_read": "ἢ[?]",
+  "candidates": [
+   "δ'",
+   "ἢ",
+   "ἦ — глиф неясен"
+  ],
+  "type": "greek",
+  "run": "t4"
+ },
+ {
+  "frame": 29,
+  "page": "23",
+  "location": "девиз, строка 1, греч. слово 5",
+  "as_read": "ἔρξεα[?]",
+  "candidates": [
+   "ἔρξα",
+   "ἔρεξα"
+  ],
+  "type": "greek",
+  "run": "t4"
+ },
+ {
+  "frame": 29,
+  "page": "23",
+  "location": "девиз, строка 2, лат. слово 2",
+  "as_read": "exceſsi[?]",
+  "candidates": [
+   "excessi (i не видно, похоже на «exceſs:»)"
+  ],
+  "type": "illegible",
+  "run": "t4"
+ },
+ {
+  "frame": 29,
+  "page": "23",
+  "location": "эпиграмма, строка 3",
+  "as_read": "qđ",
+  "candidates": [
+   "quod (сокращение",
+   "раскрытие в слое чтения?)"
+  ],
+  "type": "abbreviation",
+  "run": "t4"
+ },
+ {
+  "frame": 34,
+  "page": "28",
+  "location": "эпиграмма, строка 1, после effigies",
+  "as_read": "effigies,",
+  "candidates": [
+   "запятая",
+   "точка (знак опущен ниже строки)"
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 34,
+  "page": "28",
+  "location": "эпиграмма, строка 2",
+  "as_read": "domiuæ",
+  "candidates": [
+   "dominæ (перевёрнутая n)"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 34,
+  "page": "28",
+  "location": "эпиграмма, строка 4, после data",
+  "as_read": "data,[?]",
+  "candidates": [
+   "data,",
+   "data."
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 35,
+  "page": "29",
+  "location": "эпиграмма, строка 1",
+  "as_read": "Pállas",
+  "candidates": [
+   "Pallas (знак над a — акут или дефект/грязь)"
+  ],
+  "type": "diacritic",
+  "run": "t4"
+ }
+]

@@ -1,0 +1,51 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 31,
+ "source": "scan/frame_0031.jpg",
+ "page": "25",
+ "signature": "B 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Prudens,magis quàm",
+     "loquax."
+    ],
+    "reading": "Prudens, magis quàm loquax."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Фигурный щит-картуш, на нём сова (ночная птица); фон — морской пейзаж с волнами, парусными кораблями, скалистым берегом, лучами солнца/света справа и летящими птицами.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Noctua Cecropijs inſignia præſtat Athenis,",
+     "Inter aues ſani Noctua conſilij.",
+     "Armiferæ meritò obſequijs ſacrata Mineruæ eſt,",
+     "Garrula quo cornix ceſſerat antè loco."
+    ],
+    "reading": [
+     "Noctua Cecropiis insignia præstat Athenis,",
+     "Inter aves sani Noctua consilii.",
+     "Armiferæ meritò obsequiis sacrata Minervæ est,",
+     "Garrula quo cornix cesserat antè loco."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Гравированная рамка: сверху гротескная маска с рогами/завитками и монограммой «PV», внизу ваза с огнём и переплетённые ленты."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «25» справа вверху, колонтитул «PRVDENTIA.», сигнатура «B 5». Девиз прямым шрифтом, эпиграмма курсивом, чётные строки с отступом."
+}

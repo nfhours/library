@@ -1,0 +1,59 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 24,
+ "source": "scan/frame_0024.jpg",
+ "page": "18",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FIDES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Non vulganda conſilia."
+    ],
+    "reading": "Non vulganda consilia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Боевое знамя (полотнище на древке) с изображением в круге полубыка-получеловека (Минотавр в виде кентавра: торс бородатого мужчины на теле быка), замахивающегося дубиной; наискось через полотнище лента с надписью; внизу холмы и строения.",
+    "inscriptions": [
+     {
+      "where": "лента на полотнище знамени",
+      "text": "SPQR"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Limine quod cæco,obſcura & caligine monſtrum",
+     "Gnoſiacis clauſit Dædalus in latêbris:",
+     "Depictum Romana Phalanx in prælia geſtat,",
+     "Semiuiroq; nitent ſigna ſuperba boue.",
+     "Noſq; monent,debere ducum ſecreta latêre",
+     "Conſilia.autori cognita techna nocet."
+    ],
+    "reading": [
+     "Limine quod cæco, obscura & caligine monstrum",
+     "Gnosiacis clausit Dædalus in latêbris:",
+     "Depictum Romana Phalanx in prælia gestat,",
+     "Semiviroque nitent signa superba bove.",
+     "Nosque monent, debere ducum secreta latêre",
+     "Consilia.autori cognita techna nocet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0023."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «18» слева вверху, колонтитул «FIDES.» (литера E повреждена). Девиз прямым шрифтом, эпиграмма курсивом, чётные строки с отступом. «latêbris», «latêre» — с циркумфлексом."
+}

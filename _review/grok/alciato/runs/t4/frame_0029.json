@@ -1,0 +1,60 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 29,
+ "source": "scan/frame_0029.jpg",
+ "page": "23",
+ "signature": "B 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Πῆ παρέβην? Τί ἢ[?] ἔρξεα[?]? Τί μοι δέον, οὐκ",
+     "ἐτελέσθη? Quid exceſsi[?]?quid",
+     "admiſi?quid omiſi?"
+    ],
+    "reading": "Πῆ παρέβην? Τί ἢ[?] ἔρξεα[?]? Τί μοι δέον, οὐκ ἐτελέσθη? Quid excessi[?]? quid admisi? quid omisi?"
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Стая журавлей летит по небу клином/вереницей (некоторые несут камни в лапах); внизу на дороге среди скал стоит старик в шапке (Пифагор), смотрящий вверх на птиц и разводящий руками; вдали горы и городок.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Italicæ Samius ſectæ celeberrimus autor",
+     "Ipſe ſuum clauſit carmine dogma breui.",
+     "Quò pretergreſſus?quid agis?qđ omittis agendũ?",
+     "Hanc rationem vrgens reddere quenq; ſibi.",
+     "Quod didiciſſe gruũ volitantũ ex agmine fertur,",
+     "Arreptum geſtant quæ pedibus lapidem,",
+     "Ne ceſſent,neu tranſuerſas mala flamina raptẽt.",
+     "Qua ratione hominum vita regenda fuit."
+    ],
+    "reading": [
+     "Italicæ Samius sectæ celeberrimus autor",
+     "Ipse suum clausit carmine dogma brevi.",
+     "Quò pretergressus? quid agis? qđ omittis agendum?",
+     "Hanc rationem urgens reddere quenque sibi.",
+     "Quod didicisse gruum volitantum ex agmine fertur,",
+     "Arreptum gestant quæ pedibus lapidem,",
+     "Ne cessent, neu transuersas mala flamina raptent.",
+     "Qua ratione hominum vita regenda fuit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Гравированная рамка: крылатая голова херувима сверху, колонны-канделябры с подвешенными гирями, маскароны в тюрбанах внизу."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «23» справа вверху, колонтитул «PRVDENTIA.», сигнатура «B 4». Девиз: греческий стих + латинский перевод, латынь прямым шрифтом. Эпиграмма курсивом, чётные строки с отступом. «qđ» — сокращение quod (оставлено как напечатано). «pretergreſſus» — без лигатуры æ."
+}

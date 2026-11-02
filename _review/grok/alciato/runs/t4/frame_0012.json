@@ -1,0 +1,76 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 12,
+ "source": "scan/frame_0012.jpg",
+ "page": "6",
+ "signature": null,
+ "catchword": null,
+ "page_type": "front_matter",
+ "running_head": null,
+ "rubric": null,
+ "emblems": [],
+ "ornaments": [
+  {
+   "position": "под стихами",
+   "description": "Наборная/гравированная заставка-картуш: горизонтальная консоль с завитками, по краям головы животных (козлов?) с кистями, в центре пальметта."
+  },
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на кадре 0011 (маскароны, чаша с огнём, женские фигуры в нишах, крылатая фигура внизу)."
+  }
+ ],
+ "errata": [],
+ "notes": "Посвящение Пейтингеру. Номер «6» слева вверху. Сигнатуры и кустоды нет. Заглавие: строка 1 прямыми капителями, строка 2 курсивными капителями, строки 3–6 прямым шрифтом. Стихи курсивом, чётные строки с отступом (элегический дистих). «Emble -» — дефис отделён пробелом. «teſſerat» напечатано слитно (tessera t?). «iuglans» — так напечатано. В «At tibi» между t и tibi пятнышко/помета (не транскрибирована). «ſignaq;» — q с крючком.",
+ "blocks": [
+  {
+   "kind": "title_text",
+   "lang": "la",
+   "diplomatic": [
+    "CLARISS. VIRI",
+    "ANDR. AL[?]CIATI IN",
+    "Librum primum Emble -",
+    "matũ præfatio,ad Chon-",
+    "radum Peutingerum",
+    "Auguſtanum."
+   ],
+   "reading": [
+    "CLARISS. VIRI",
+    "ANDR. AL[?]CIATI IN",
+    "Librum primum Emble -",
+    "matum præfatio, ad Chon-",
+    "radum Peutingerum",
+    "Augustanum."
+   ],
+   "notes": ""
+  },
+  {
+   "kind": "verse",
+   "lang": "la",
+   "diplomatic": [
+    "Dum pueros iuglans,iuuenes dum teſſerat fallit,",
+    "Detinet & ſegnes chartula picta viros:",
+    "Hæc nos feſtiuis Emblemata cudimus horis,",
+    "Artificum illuſtri ſignaq; facta manu:",
+    "Veſtibus vt torulos,petaſis vt figere parmas,",
+    "Et valeat tacitis ſcribere quiſque notis.",
+    "At tibi ſupremus precioſa uomiſmata Cæſar,",
+    "Et veterum eximias donet habere m[?]anus.",
+    "Ipſe dabo vati chartacea munera vates,",
+    "Quæ ( Chonrade ) mei pignus amoris habe."
+   ],
+   "reading": [
+    "Dum pueros iuglans, iuvenes dum tesserat fallit,",
+    "Detinet & segnes chartula picta viros:",
+    "Hæc nos festivis Emblemata cudimus horis,",
+    "Artificum illustri signaque facta manu:",
+    "Vestibus ut torulos, petasis ut figere parmas,",
+    "Et valeat tacitis scribere quisque notis.",
+    "At tibi supremus preciosa vomismata Cæsar,",
+    "Et veterum eximias donet habere m[?]anus.",
+    "Ipse dabo vati chartacea munera vates,",
+    "Quæ ( Chonrade ) mei pignus amoris habe."
+   ],
+   "notes": ""
+  }
+ ]
+}

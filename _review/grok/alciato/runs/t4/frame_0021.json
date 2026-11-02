@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 21,
+ "source": "scan/frame_0021.jpg",
+ "page": "15",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FIDES.",
+ "rubric": "VIRTVTES. / FIDES.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Fidei ſymbolum."
+    ],
+    "reading": "Fidei symbolum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Две стоящие фигуры подают друг другу правые руки: слева мужчина в длинном плаще с лавровым венком (Honos), справа женщина (Veritas) с покрывалом/шарфом за спиной; между ними внизу обнажённый мальчик в венке (Amor), держащийся за их руки; облака, птицы, холмы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Stet depictus Honos Tyrio velatus amictu,",
+     "Eiuſq; iungat nuda dextram Veritas.",
+     "Sitq; Amor in medio caſtus:cui tempora circum",
+     "Roſa it, Diones pulchrior Cupidine.",
+     "Conſtituunt hæc ſigna fidem,reuerentia honoris",
+     "Quam fouet,alit Amor,parturitq; Veritas."
+    ],
+    "reading": [
+     "Stet depictus Honos Tyrio velatus amictu,",
+     "Eiusque iungat nuda dextram Veritas.",
+     "Sitque Amor in medio castus: cui tempora circum",
+     "Rosa it, Diones pulchrior Cupidine.",
+     "Constituunt hæc signa fidem, reverentia honoris",
+     "Quam fovet, alit Amor, parturitque Veritas."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Гравированная рамка: сверху львиная маска с завитками и дельфинами, по бокам бородатые гермы, внизу маска с рогами (сатир/козёл) и перекрещённые ленты."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «15» справа вверху, колонтитул «FIDES.». Внутри полосы двухуровневая рубрика: «VIRTVTES.» (прямые капители, крупно) и «FIDES.» (курсивные капители; между E и S лишний штрих/апостроф-пятно). Девиз прямым шрифтом, эпиграмма курсивом, чётные строки с отступом. Над «E» в «Eiuſq;» точка (пятно). Сигнатуры не видно."
+}

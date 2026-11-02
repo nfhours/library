@@ -1,0 +1,100 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 7,
+ "source": "scan/frame_0007.jpg",
+ "page": "[1]",
+ "signature": null,
+ "catchword": null,
+ "page_type": "title",
+ "running_head": null,
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": {
+    "position": "вся полоса (гравированный титул)",
+    "description": "Архитектурный портик: по бокам две мужские фигуры-атланты на пьедесталах; наверху лежащие путти и маскарон с гирляндами; в центре картуш с заглавием; под ним подвешенные гирлянды плодов и овальный медальон с орлом (птица держит в клюве/когтях змею?) над круглым колодцем/постаментом; на постаменте табличка с выходными данными.",
+    "inscriptions": [
+     {
+      "where": "картуш в центре",
+      "text": "EMBLEMATA D. A. AL[?]CIATI, … (текст заглавия см. blocks)"
+     },
+     {
+      "where": "табличка на постаменте внизу",
+      "text": "LVGD. APVD GVLIEL. ROVILIVM. 1551."
+     }
+    ]
+   },
+   "epigram": null,
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Заглавие и выходные данные вырезаны/набраны внутри гравированной рамки. Строки 1–6 прямым шрифтом, 7–9 курсивом; «D. A. AL[?]CIATI,» — курсивные капители. После «imagini» мелкая точка/пятно (не транскрибировано как знак). «CVM … PRIVILE[...]» — внизу полосы, слово срезано обрезом справа: видна часть буквы после E (похожа на C/G). На изображении медальона: змея у орла — описание неуверенное.",
+ "blocks": [
+  {
+   "kind": "title_text",
+   "lang": "la",
+   "diplomatic": [
+    "EMBLEMATA",
+    "D. A. AL[?]CIATI,",
+    "denuo ab ipſo Autore",
+    "recognita,ac,quæ deſi-",
+    "derabantur , imagini",
+    "bus locupletata."
+   ],
+   "reading": [
+    "EMBLEMATA",
+    "D. A. AL[?]CIATI,",
+    "denuo ab ipso Autore",
+    "recognita, ac, quæ desi-",
+    "derabantur , imagini",
+    "bus locupletata."
+   ],
+   "notes": ""
+  },
+  {
+   "kind": "title_text",
+   "lang": "la",
+   "diplomatic": [
+    "Acceſſerunt noua aliquot ab",
+    "Autore Emblemata ſuis quoq;",
+    "eiconibus inſignita."
+   ],
+   "reading": [
+    "Accesserunt nova aliquot ab",
+    "Autore Emblemata suis quoque",
+    "eiconibus insignita."
+   ],
+   "notes": ""
+  },
+  {
+   "kind": "imprint",
+   "lang": "la",
+   "diplomatic": [
+    "LVGD. APVD GVLIEL.",
+    "ROVILIVM. 1551."
+   ],
+   "reading": [
+    "LUGD. APUD GULIEL.",
+    "ROVILIUM. 1551."
+   ],
+   "notes": ""
+  },
+  {
+   "kind": "privilege_line",
+   "lang": "la",
+   "diplomatic": [
+    "CVM",
+    "PRIVILE[...]"
+   ],
+   "reading": [
+    "CUM",
+    "PRIVILE[...]"
+   ],
+   "notes": ""
+  }
+ ]
+}

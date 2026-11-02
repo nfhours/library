@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 36,
+ "source": "scan/frame_0036.jpg",
+ "page": "30",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Prudentes vino abſtinent."
+    ],
+    "reading": "Prudentes vino abstinent."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Олива (дерево Паллады) с толстым стволом, обвитая виноградной лозой с гроздьями; справа скалы/руины с арками, слева долина с городком и горами.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quid me vexatis rami? ſum Palladis arbor:",
+     "Auferte hinc botros.virgo fugit Bromium."
+    ],
+    "reading": [
+     "Quid me vexatis rami? sum Palladis arbor:",
+     "Auferte hinc botros.virgo fugit Bromium."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под эпиграммой",
+   "description": "Небольшая концовка-картуш с гротескной маской (рогатая голова с завитками)."
+  },
+  {
+   "position": "рамка полосы",
+   "description": "Та же архитектурная рамка, что на 0035 (фронтон с маской, коринфские колонны, фриз с маской в тюрбане)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «30» слева вверху, колонтитул «PRVDENTIA.». Сигнатуры нет. Девиз прямым шрифтом, эпиграмма курсивом (двустишие, вторая строка с отступом). Пробел после «rami?» в печати узкий."
+}

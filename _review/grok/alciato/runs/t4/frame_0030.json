@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 30,
+ "source": "scan/frame_0030.jpg",
+ "page": "24",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Prudentes.Problema."
+    ],
+    "reading": "Prudentes.Problema."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "В небе над пейзажем — двуликая голова Януса (бородатое лицо в профиль влево и затылочное лицо вправо), без тела, на подставке-бюсте; внизу скалы, холмы, дерево, растения; облака и птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Iane bifrons,qui iam tranſacta,futuraq; calles,",
+     "Quiq; retro ſannas(ſicut & antè ) vides,",
+     "Tot te cur oculis,tot fingunt vultibus? an quòd",
+     "Circunſpectum hominem forma fuiſſe docet?"
+    ],
+    "reading": [
+     "Iane bifrons, qui iam transacta, futuraque calles,",
+     "Quique retro sannas(sicut & antè ) vides,",
+     "Tot te cur oculis, tot fingunt vultibus? an quòd",
+     "Circunspectum hominem forma fuisse docet?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0029."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «24» слева вверху, колонтитул «PRVDENTIA.». Девиз прямым шрифтом (с точкой внутри: «Prudentes.Problema.»). Эпиграмма курсивом, чётные строки с отступом. Сигнатуры нет."
+}

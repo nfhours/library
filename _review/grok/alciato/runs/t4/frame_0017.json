@@ -1,0 +1,62 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 17,
+ "source": "scan/frame_0017.jpg",
+ "page": "11",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "DEVS, SIVE RELIGIO.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Sapiẽtia humana,ſtultitia eſt apud Deũ."
+    ],
+    "reading": "Sapientia humana, stultitia est apud Deum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Существо с телом бородатого мужчины и змеиным хвостом вместо ног (Кекроп) среди скалистого пейзажа, поднимает руку к небу; слева вдали фигуры (люди/гиганты?) со змеиными хвостами; справа город с куполом и башнями, на куполе фигурка (обезьяна? человек?) с поднятыми руками; облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quid dicam?quonã hoc cõpellẽ nomine monſtrum",
+     "Biforme:quod non eſt homo,nec eſt draco?",
+     "Sed ſine vir pedibus,ſummis ſine partibus anguis,",
+     "Vir anguipes dici,& homiceps anguis poteſt.",
+     "Anguẽ pedit homo,hominẽ eructauit & anguis,",
+     "Nec finis hominis eſt,initium nec eſt feræ.",
+     "Sic olim Cecrops doctis regnauit Athenis,",
+     "Sic & gigantes terra mater protulit.",
+     "Hæc vafrûm eſt ſpecies,ſed relligione carentem,",
+     "Terrena tantum quiq; curet,indicat."
+    ],
+    "reading": [
+     "Quid dicam? quonam hoc compellem nomine monstrum",
+     "Biforme: quod non est homo, nec est draco?",
+     "Sed sine vir pedibus, summis sine partibus anguis,",
+     "Vir anguipes dici, & homiceps anguis potest.",
+     "Anguem pedit homo, hominem eructavit & anguis,",
+     "Nec finis hominis est, initium nec est feræ.",
+     "Sic olim Cecrops doctis regnavit Athenis,",
+     "Sic & gigantes terra mater protulit.",
+     "Hæc vafrûm est species, sed relligione carentem,",
+     "Terrena tantum quique curet, indicat."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Гравированная рамка с цепным орнаментом, маскаронами (бородатые лица) по бокам, женской гермой справа, двойным маскароном с виноградом внизу; на нижней части рамки мелкая буква «P» (подпись резчика?)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «11» справа вверху, колонтитул «DEVS, SIVE RELIGIO.». Рубрики внутри полосы нет. Девиз прямым шрифтом, эпиграмма курсивом, чётные строки с отступом. Сигнатуры не видно. «vafrûm» — с циркумфлексом. «Anguẽ pedit» — так напечатано."
+}

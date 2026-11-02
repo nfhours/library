@@ -1,0 +1,56 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 28,
+ "source": "scan/frame_0028.jpg",
+ "page": "22",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Νῆφε ϗ μέμνησ' ἀπιστεῖν[?]. ἄρθρα ταῦτα τῶν",
+     "φρενῶν. Sobriè viuendum : & non",
+     "temerè credendum."
+    ],
+    "reading": "Νῆφε καὶ μέμνησ' ἀπιστεῖν[?]. ἄρθρα ταῦτα τῶν φρενῶν. Sobriè vivendum : & non temerè credendum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "В небе над пейзажем парит раскрытая ладонь с глазом посередине; внизу скалы, руины с аркой, горы; на переднем плане растения (полей/мята — pulegium).",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Ne credas ne(Epicharmus ait ) non ſobrius eſto,",
+     "Hi nerui,humanæ membraq; mentis erunt:",
+     "Ecce oculata manus credens id quod videt. Ecce",
+     "Pulegium,antiquæ ſobrietatis olus,",
+     "Quo turbam oſtenſo ſedauerit Heraclitus,",
+     "Mulxerit & tumida ſeditione grauem."
+    ],
+    "reading": [
+     "Ne credas ne(Epicharmus ait ) non sobrius esto,",
+     "Hi nervi, humanæ membraque mentis erunt:",
+     "Ecce oculata manus credens id quod videt. Ecce",
+     "Pulegium, antiquæ sobrietatis olus,",
+     "Quo turbam ostenso sedaverit Heraclitus,",
+     "Mulxerit & tumida seditione gravem."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0027."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «22» слева вверху, колонтитул «PRVDENTIA.». Девиз: греческий стих и латинский перевод в одном блоке, латынь прямым шрифтом. Эпиграмма курсивом, чётные строки с отступом. Номер страницы этой эмблемы — 22."
+}

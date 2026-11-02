@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 27,
+ "source": "scan/frame_0027.jpg",
+ "page": "21",
+ "signature": "B 3",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Vigilantia,& cuſtodia."
+    ],
+    "reading": "Vigilantia, & custodia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Фасад храма с фронтоном и колоннами, по сторонам полукруглые колоннады; над храмом башенка-колокольня с флюгером в виде петуха; в проёме входа статуя сидящего льва на постаменте, перед ним жертвенник с огнём; облака, стая птиц, горы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Inſtantis quòd ſigna canens det gallus ēoi[?],",
+     "Et reuocet famulas ad noua penſa manus:",
+     "Turribus in ſacris effingitur,ærea mentem",
+     "Ad ſuperos peluis[?] quòd reuocet vigilem,",
+     "Eſt leo.ſed cuſtos oculis quia dormit apertis:",
+     "Templorum idcirco ponitur ante fores."
+    ],
+    "reading": [
+     "Instantis quòd signa canens det gallus eoi[?],",
+     "Et revocet famulas ad nova pensa manus:",
+     "Turribus in sacris effingitur, ærea mentem",
+     "Ad superos peluis[?] quòd revocet vigilem,",
+     "Est leo.sed custos oculis quia dormit apertis:",
+     "Templorum idcirco ponitur ante fores."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Гравированная рамка: волюты и маскарон сверху, драпированные фигуры по бокам, бородатая фигура и рогатые маски внизу, цепной орнамент."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «21» справа вверху, колонтитул «PRVDENTIA.», сигнатура «B 3». Девиз прямым шрифтом, эпиграмма курсивом, чётные строки с отступом. Над «e» в «eoi» знак, похожий на тильду/макрон (знак долготы?) — записан как ē. После «peluis» вертикальный штрих (сломанный знак препинания или пятно)."
+}

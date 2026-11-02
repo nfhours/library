@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 18,
+ "source": "scan/frame_0018.jpg",
+ "page": "12",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "DEVS, SIVE RELIGIO.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ficta religio."
+    ],
+    "reading": "Ficta religio."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Нарядная женщина в короне/диадеме восседает на многоглавом звере (гидре с несколькими головами), в поднятой правой руке держит кубок; справа и внизу мужчины тянут к ней руки, некоторые лежат на земле (опьяневшие); облака, растения на переднем плане.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Regali reſidens meretrix pulcherrima ſella,",
+     "Purpureo inſignem geſtat honore peplum.",
+     "Omnibus & latices pleno è cratére propinat.",
+     "At circum cubitans ebria turba iacet.",
+     "Sic Babylona notant:quæ gentes.[?] illice forma,",
+     "Et ficta ſtolidas relligione capit."
+    ],
+    "reading": [
+     "Regali residens meretrix pulcherrima sella,",
+     "Purpureo insignem gestat honore peplum.",
+     "Omnibus & latices pleno è cratére propinat.",
+     "At circum cubitans ebria turba iacet.",
+     "Sic Babylona notant: quæ gentes.[?] illice forma,",
+     "Et ficta stolidas relligione capit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка с цепным орнаментом и маскаронами, что на 0017 (с буквой «P» внизу)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «12» слева вверху, колонтитул «DEVS, SIVE RELIGIO.». Девиз прямым шрифтом, эпиграмма курсивом, чётные строки с отступом. «cratére» — с акутом."
+}

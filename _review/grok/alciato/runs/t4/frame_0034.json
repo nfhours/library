@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 34,
+ "source": "scan/frame_0034.jpg",
+ "page": "28",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Cuſtodiendas virgines."
+    ],
+    "reading": "Custodiendas virgines."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Паллада в шлеме, панцире и плаще стоит, опираясь на копьё; у её ног щит/голова Медузы (горгонейон) и дракон (змей); справа круглый храм с куполом и арками; вдали город на холме, птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Vera hæc effigies,innuptæ eſt Palladis:eius",
+     "Hic Draco,qui domiuæ conſtitit ante pedes.",
+     "Cur diuæ comes hoc animal? cuſtodia rerum",
+     "Huic data,[?]ſic lucos,ſacraq; templa colit.",
+     "Innuptas opus eſt cura aſſeruare puellas",
+     "Peruigili.laqueos vndique tendit amor."
+    ],
+    "reading": [
+     "Vera hæc effigies, innuptæ est Palladis: eius",
+     "Hic Draco, qui domivæ constitit ante pedes.",
+     "Cur divæ comes hoc animal? custodia rerum",
+     "Huic data, [?]sic lucos, sacraque templa colit.",
+     "Innuptas opus est cura asservare puellas",
+     "Peruigili.laqueos undique tendit amor."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка из переплетённых лент с масками, что на 0033."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «28» слева вверху, колонтитул «PRVDENTIA.». Сигнатуры нет. После «colit.» и «amor.» на полях мелкие пометки чернилами (не транскрибированы). Девиз прямым шрифтом, эпиграмма курсивом, чётные строки с отступом."
+}
