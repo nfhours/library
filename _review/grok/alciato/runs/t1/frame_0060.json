@@ -1,0 +1,46 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 60,
+ "source": "scan/frame_0060.jpg",
+ "page": "54",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SPES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Illicitum non ſperandum."
+    ],
+    "reading": "Illicitum non sperandum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Две женщины у алтаря: слева Надежда (с цветком/сосудом), справа Немезида с уздой/мерой в руках; позади руины, колонны и деревья.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Spes ſimul,& Nemeſis noſtris altaribus adſunt,",
+     "Scilicet vt ſperes non niſi quod liceat."
+    ],
+    "reading": [
+     "Spes simul, & Nemesis nostris altaribus adsunt,",
+     "Scilicet ut speres non nisi quod liceat."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "под текстом",
+   "description": "Картуш-заставка с маскароном и кистями"
+  }
+ ],
+ "notes": "Номер страницы «54» вверху слева. После «&» в строке 1 мелкий лишний оттиск (точка/«t»), не считается знаком."
+}

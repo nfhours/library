@@ -1,0 +1,59 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 41,
+ "source": "scan/frame_0041.jpg",
+ "page": "35",
+ "signature": "C 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "IVSTITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Tandem, tandem Iuſtitia",
+     "obtinet."
+    ],
+    "reading": "Tandem, tandem Iustitia obtinet."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Морской берег: слева у края — гробница/саркофаг с надписью и ступенчатое основание (могила Аякса); волны выносят к ней щит; справа на скале руины, в небе птицы и облака.",
+    "inscriptions": [
+     {
+      "where": "на боковой стенке гробницы слева",
+      "text": "A[?]IACIS"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aeacidæ Hectoreo perfuſum ſanguine ſcutum:",
+     "Quod Græcorum Ithaco concio iniqua dedit:",
+     "Iuſtior arripuit Neptunus in æquora iactum",
+     "Naufragio,vt dominum poſſet adire ſuum.",
+     "Littoreo Aiacis tumulo nanque intulit vnda,",
+     "Quæ boat,& tali uoce ſepulchra ferit.",
+     "Vicisti Thelamoniade,tu dignior armis.",
+     "Affectus fas eſt cedere iuſtitiæ."
+    ],
+    "reading": [
+     "Aeacidæ Hectoreo perfusum sanguine scutum:",
+     "Quod Græcorum Ithaco concio iniqua dedit:",
+     "Iustior arripuit Neptunus in æquora iactum",
+     "Naufragio, ut dominum posset adire suum.",
+     "Littoreo Aiacis tumulo nanque intulit unda,",
+     "Quæ boat, & tali voce sepulchra ferit.",
+     "Vicisti Thelamoniade, tu dignior armis.",
+     "Affectus fas est cedere iustitiæ."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «35» вверху справа; сигнатура «C 2» внизу справа."
+}

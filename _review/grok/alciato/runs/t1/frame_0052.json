@@ -1,0 +1,57 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 52,
+ "source": "scan/frame_0052.jpg",
+ "page": "46",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "CONCORDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Concordia."
+    ],
+    "reading": "Concordia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Два воина в античных доспехах и шлемах с плюмажами пожимают руки; позади шатры военного лагеря, знамёна, всадники.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "In bellnm ciuile duces cùm[?] Roma pararet,",
+     "Viribus & caderet Martia terra ſuis:",
+     "Mos fuit in partes turmis coëuntibus eaſdem,",
+     "Coniunctas dextras mutua dona dari.",
+     "Fœderis hæc ſpecies:id habet Concordia ſignum,",
+     "Vt quos iungit amor,iungat & ipſa manus."
+    ],
+    "reading": [
+     "In bellnm civile duces cùm[?] Roma pararet,",
+     "Viribus & caderet Martia terra suis:",
+     "Mos fuit in partes turmis coëuntibus easdem,",
+     "Coniunctas dextras mutua dona dari.",
+     "Fœderis hæc species: id habet Concordia signum,",
+     "Ut quos iungit amor, iungat & ipsa manus."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [
+  {
+   "printed": "bellnm",
+   "corrected": "bellum",
+   "certainty": "очевидная",
+   "applied_in_reading": false,
+   "comment": "эпиграмма, строка 1; см. open_points"
+  }
+ ],
+ "ornaments": [],
+ "notes": "Номер страницы «46» вверху слева."
+}

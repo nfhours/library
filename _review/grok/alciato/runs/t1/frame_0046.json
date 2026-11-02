@@ -1,0 +1,59 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 46,
+ "source": "scan/frame_0046.jpg",
+ "page": "40",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTITVDO.",
+ "rubric": "FORTITVDO.",
+ "rubric_reading": "FORTITUDO.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Signa fortium."
+    ],
+    "reading": "Signa fortium."
+   },
+   "subheading": {
+    "diplomatic": "DIALOGISMVS.",
+    "reading": "DIALOGISMUS."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "На гробнице (саркофаге) с надписью сидит орёл с распростёртыми крыльями; позади руины, колоннада.",
+    "inscriptions": [
+     {
+      "where": "на передней стенке гробницы",
+      "text": "D·M / ARISTOMENIS"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quæ te cauſa mouet volucris Saturnia,magni",
+     "Vt tumulo inſideas ardua Ariſtomenis?",
+     "Hoc moneo: Quãtũ inter aues ego robore præſto,",
+     "Tantùm Semideos inter Ariſtomenẽs[?].",
+     "Inſideant timidæ timidorum buſta columbæ,",
+     "Nos aquilæ intrepidis ſigna benigna damus."
+    ],
+    "reading": [
+     "Quæ te causa movet volucris Saturnia, magni",
+     "Ut tumulo insideas ardua Aristomenis?",
+     "Hoc moneo: Quantum inter aves ego robore præsto,",
+     "Tantùm Semideos inter Aristomenens[?].",
+     "Insideant timidæ timidorum busta columbæ,",
+     "Nos aquilæ intrepidis signa benigna damus."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «40» вверху слева. Заголовок локуса «FORTITVDO.» курсивными заглавными; подзаголовок «DIALOGISMVS.» капителями."
+}

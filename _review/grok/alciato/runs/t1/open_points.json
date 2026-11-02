@@ -519,5 +519,333 @@
   "type": "damage/stain",
   "note": "над a знак, похожий на акут",
   "run": "t1"
+ },
+ {
+  "frame": 37,
+  "page": "31",
+  "location": "эпиграмма, строка 3, слово 5",
+  "diplomatic_as_read": "C[?]noſida",
+  "candidates": [
+   "Gnoſida — предложение агента",
+   "Cnoſida (как выглядит)"
+  ],
+  "type": "illegible",
+  "note": "C или G",
+  "run": "t1"
+ },
+ {
+  "frame": 38,
+  "page": "32",
+  "location": "колонтитул",
+  "diplomatic_as_read": "PRVDBNTIA.",
+  "candidates": [
+   "PRVDENTIA. — предложение агента",
+   "PRVDBNTIA. (как напечатано)"
+  ],
+  "type": "typo",
+  "note": "B вместо E",
+  "run": "t1"
+ },
+ {
+  "frame": 39,
+  "page": "33",
+  "location": "эпиграмма, строка 7, конец",
+  "diplomatic_as_read": "ſalusq;:",
+  "candidates": [
+   "ſalusq;: — как напечатано (q; и двоеточие)"
+  ],
+  "type": "abbreviation",
+  "note": "за знаком q; стоит ещё двоеточие",
+  "run": "t1"
+ },
+ {
+  "frame": 40,
+  "page": "34",
+  "location": "эпиграмма, строка 3, слово 3",
+  "diplomatic_as_read": "ꝗd",
+  "candidates": [
+   "quid — предложение агента (сокращение: q с перечёркнутым хвостом + d)",
+   "quod"
+  ],
+  "type": "abbreviation",
+  "note": "в слое чтения не раскрыто",
+  "run": "t1"
+ },
+ {
+  "frame": 41,
+  "page": "35",
+  "location": "гравюра, надпись на гробнице",
+  "diplomatic_as_read": "A[?]IACIS",
+  "candidates": [
+   "AIACIS — предложение агента"
+  ],
+  "type": "illegible",
+  "note": "буквы мелкие, частично затёрты штриховкой",
+  "run": "t1"
+ },
+ {
+  "frame": 42,
+  "page": "36",
+  "location": "девиз, после «ferociſsimos»",
+  "diplomatic_as_read": "ferociſsimos[?] domari.",
+  "candidates": [
+   "ferociſsimos domari (лишний знак — пятно/литера)"
+  ],
+  "type": "damage/stain",
+  "note": "между словами знак, похожий на ſ или l",
+  "run": "t1"
+ },
+ {
+  "frame": 46,
+  "page": "40",
+  "location": "эпиграмма, строка 4, последнее слово",
+  "diplomatic_as_read": "Ariſtomenẽs[?]",
+  "candidates": [
+   "Ariſtomenes — предложение агента (знак над e — тильда/макрон?)"
+  ],
+  "type": "abbreviation",
+  "note": "над конечной e знак, похожий на тильду",
+  "run": "t1"
+ },
+ {
+  "frame": 49,
+  "page": "43",
+  "location": "эпиграмма, строка 2",
+  "diplomatic_as_read": "premitnr",
+  "candidates": [
+   "premitur"
+  ],
+  "type": "typo",
+  "note": "опечатка, не исправлена",
+  "run": "t1"
+ },
+ {
+  "frame": 49,
+  "page": "43",
+  "location": "эпиграмма, строка 4, первое слово",
+  "diplomatic_as_read": "Quẽis[?]",
+  "candidates": [
+   "Queîs (знак над e — циркумфлекс/тильда?)",
+   "Queis"
+  ],
+  "type": "abbreviation",
+  "note": "знак над e не сокращение; в чтении дано Queis",
+  "run": "t1"
+ },
+ {
+  "frame": 49,
+  "page": "43",
+  "location": "эпиграмма, строка 1",
+  "diplomatic_as_read": "pondus palma",
+  "candidates": "точка/запятая после pondus? (pondus.palma)",
+  "type": "illegible",
+  "note": "между pondus и palma видна точка-пятно; принято как пробел",
+  "run": "t1"
+ },
+ {
+  "frame": 50,
+  "page": "44",
+  "location": "девиз",
+  "diplomatic_as_read": "Onnia",
+  "candidates": [
+   "Omnia"
+  ],
+  "type": "typo",
+  "note": "опечатка, не исправлена",
+  "run": "t1"
+ },
+ {
+  "frame": 50,
+  "page": "44",
+  "location": "эпиграмма, строка 3, «L[?]yæi»",
+  "diplomatic_as_read": "Iyæi",
+  "candidates": [
+   "Lyæi"
+  ],
+  "type": "illegible",
+  "note": "курсивная L похожа на I",
+  "run": "t1"
+ },
+ {
+  "frame": 50,
+  "page": "44",
+  "location": "эпиграмма, строка 7, «himbres»",
+  "diplomatic_as_read": "himbres",
+  "candidates": [
+   "imbres (орфография печатника, не правлено)"
+  ],
+  "type": "typo",
+  "note": "так напечатано",
+  "run": "t1"
+ },
+ {
+  "frame": 51,
+  "page": "45",
+  "location": "эпиграмма, строка 2",
+  "diplomatic_as_read": "Nutua",
+  "candidates": [
+   "Mutua"
+  ],
+  "type": "typo",
+  "note": "опечатка, не исправлена",
+  "run": "t1"
+ },
+ {
+  "frame": 51,
+  "page": "45",
+  "location": "эпиграмма, строка 3, «ꝙ»",
+  "diplomatic_as_read": "ꝙ",
+  "candidates": [
+   "quod"
+  ],
+  "type": "abbreviation",
+  "note": "q с перечёркнутым хвостом; в чтении quod",
+  "run": "t1"
+ },
+ {
+  "frame": 52,
+  "page": "46",
+  "location": "эпиграмма, строка 1",
+  "diplomatic_as_read": "bellnm",
+  "candidates": [
+   "bellum"
+  ],
+  "type": "typo",
+  "note": "опечатка, не исправлена",
+  "run": "t1"
+ },
+ {
+  "frame": 52,
+  "page": "46",
+  "location": "эпиграмма, строка 1, «cùm[?]»",
+  "diplomatic_as_read": "cùm[?]",
+  "candidates": [
+   "cùm",
+   "cũm"
+  ],
+  "type": "illegible",
+  "note": "надстрочный знак похож на тильду",
+  "run": "t1"
+ },
+ {
+  "frame": 53,
+  "page": "47",
+  "location": "эпиграмма, строка 1",
+  "diplomatic_as_read": "fratret",
+  "candidates": [
+   "fratres"
+  ],
+  "type": "typo",
+  "note": "опечатка, не исправлена",
+  "run": "t1"
+ },
+ {
+  "frame": 53,
+  "page": "47",
+  "location": "эпиграмма, строка 2",
+  "diplomatic_as_read": "mutna",
+  "candidates": [
+   "mutua"
+  ],
+  "type": "typo",
+  "note": "опечатка, не исправлена",
+  "run": "t1"
+ },
+ {
+  "frame": 54,
+  "page": "48",
+  "location": "эпиграмма, строка 1",
+  "diplomatic_as_read": "quoqne",
+  "candidates": [
+   "quoque"
+  ],
+  "type": "typo",
+  "note": "опечатка, не исправлена",
+  "run": "t1"
+ },
+ {
+  "frame": 54,
+  "page": "48",
+  "location": "эпиграмма, строка 2, «Ze[?]alis»",
+  "diplomatic_as_read": "Zenalis",
+  "candidates": [
+   "Zeualis",
+   "Zeuxalis?"
+  ],
+  "type": "illegible",
+  "note": "третья буква n или u",
+  "run": "t1"
+ },
+ {
+  "frame": 54,
+  "page": "48",
+  "location": "гравюра, описание",
+  "diplomatic_as_read": "слепой несёт ношу",
+  "candidates": [
+   "сюжет: Улисс и Диомед"
+  ],
+  "type": "editorial/reconstruction",
+  "note": "фигура слева в плаще с прямоугольной ношей на спине — неясно",
+  "run": "t1"
+ },
+ {
+  "frame": 56,
+  "page": "50",
+  "location": "эпиграмма, строка 1, «uoſtra»",
+  "diplomatic_as_read": "uoſtra",
+  "candidates": [
+   "noſtra"
+  ],
+  "type": "typo",
+  "note": "первая буква выглядит как u (перевёрнутое n?)",
+  "run": "t1"
+ },
+ {
+  "frame": 56,
+  "page": "50",
+  "location": "эпиграмма, строка 5, «aduẽiãt»",
+  "diplomatic_as_read": "aduẽiãt",
+  "candidates": [
+   "adueniãt"
+  ],
+  "type": "illegible",
+  "note": "тильда стоит над e или над n — неотчётливо",
+  "run": "t1"
+ },
+ {
+  "frame": 57,
+  "page": "51",
+  "location": "эпиграмма, строка 5, «om̃ia»",
+  "diplomatic_as_read": "om̃ia",
+  "candidates": [
+   "omnia"
+  ],
+  "type": "abbreviation",
+  "note": "тильда над m; в чтении omnia (комбинирующая тильда U+0303)",
+  "run": "t1"
+ },
+ {
+  "frame": 57,
+  "page": "51",
+  "location": "эпиграмма, строка 2, «imago»",
+  "diplomatic_as_read": "inmago?",
+  "candidates": [
+   "imago"
+  ],
+  "type": "illegible",
+  "note": "первые буквы сливаются (im/in)",
+  "run": "t1"
+ },
+ {
+  "frame": 59,
+  "page": "53",
+  "location": "гравюра, надпись на кабане",
+  "diplomatic_as_read": "VLTERIVS",
+  "candidates": [
+   "VLTER[...]"
+  ],
+  "type": "illegible",
+  "note": "при увеличении конец надписи частично скрыт штриховкой; полностью читается на обзорном снимке",
+  "run": "t1"
  }
 ]

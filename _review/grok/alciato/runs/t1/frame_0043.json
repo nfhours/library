@@ -1,0 +1,49 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 43,
+ "source": "scan/frame_0043.jpg",
+ "page": "37",
+ "signature": "C 3",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "IVSTITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Gratiam referendam."
+    ],
+    "reading": "Gratiam referendam."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Аист летит над землёй, неся на спине старую птицу (родителя); внизу дорога/ручей, слева колонна-руина на скале, вдали город у воды; в небе птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aërio inſignis pietate Ciconia nido,",
+     "Inueſtes pullos pignora grata fouet.",
+     "Taliaq; expectat ſibi munera mutua reddi,",
+     "Auxilio hoc quoties mater egebit anus.",
+     "Nec pia ſpem ſoboles fallit,ſed feſſa parentum",
+     "Corpora fert humeris,præſtat & ore cibos."
+    ],
+    "reading": [
+     "Aërio insignis pietate Ciconia nido,",
+     "Investes pullos pignora grata fovet.",
+     "Taliaque expectat sibi munera mutua reddi,",
+     "Auxilio hoc quoties mater egebit anus.",
+     "Nec pia spem soboles fallit, sed fessa parentum",
+     "Corpora fert humeris, præstat & ore cibos."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «37» вверху справа; сигнатура «C 3» внизу справа."
+}
