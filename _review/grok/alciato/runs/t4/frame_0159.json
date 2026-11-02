@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 159,
+ "source": "scan/frame_0159.jpg",
+ "page": "153",
+ "signature": "K 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In deſciſcentes."
+    ],
+    "reading": "In desciscentes."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "На переднем плане стоит коза с длинными рогами; у её ног опрокинутый подойник (ведро), из которого льётся молоко. Слева под деревом сидит пастух, играющий на дудке, рядом пасётся стадо овец. Вдали холмы, замок на горе, строения.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quòd fine egregios turpi maculaueris orſus,",
+     "In noxamq; tuum verteris officium,",
+     "Feciſti,quod capra,ſui mulctraria lactis",
+     "Cùm ferit,& proprias calce profundit opes."
+    ],
+    "reading": [
+     "Quòd fine egregios turpi maculaveris orsus,",
+     "In noxamque tuum verteris officium,",
+     "Fecisti, quod capra, sui mulctraria lactis",
+     "Cùm ferit, & proprias calce profundit opes."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Растительная рамка из чёрных завитков-арабесок с листьями: вверху и внизу фризы с центральным пальметтным мотивом, по бокам вертикальные завитки."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «153» справа вверху. В колонтитуле знак после R похож на «:»."
+}

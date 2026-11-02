@@ -1,0 +1,67 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 175,
+ "source": "scan/frame_0175.jpg",
+ "page": "169",
+ "signature": "L 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "MORS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In mortem præproperam."
+    ],
+    "reading": "In mortem præproperam."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Каменный саркофаг (гробница) на фоне полуразрушенных арок и кирпичных стен; на крышке саркофага голова Горгоны со змеями в волосах, над ней два переплетённых дельфина (хвостами вверх, образуя петлю). На передней стенке саркофага табличка с надписью.",
+    "inscriptions": [
+     {
+      "where": "табличка на саркофаге",
+      "text": "D SEPVLCRVM. M"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Qui teneras forma allexit,torſitq; puellas,",
+     "Pulchrior,& tota nobilis vrbe puer,",
+     "Occîdit ante diem,nulli mage flendus(Areſti)",
+     "Quàm tibi,cui caſto iunctus amore fuit.",
+     "Ergo illi tumulum tanti monumenta doloris",
+     "Aſtruis:& querulis vocibus aſtra feris.",
+     "Me ſine abis dilecte? neque amplius ibimus vnà?",
+     "Nec mecum in ſtudijs ocia grata teres?",
+     "Sed te terra teget,ſed fati,Gorgonis ora,",
+     "Delphinesq;,tui ſigna dolenda dabunt."
+    ],
+    "reading": [
+     "Qui teneras forma allexit, torsitque puellas,",
+     "Pulchrior, & tota nobilis urbe puer,",
+     "Occîdit ante diem, nulli mage flendus(Aresti)",
+     "Quàm tibi, cui casto iunctus amore fuit.",
+     "Ergo illi tumulum tanti monumenta doloris",
+     "Astruis: & querulis vocibus astra feris.",
+     "Me sine abis dilecte? neque amplius ibimus unà?",
+     "Nec mecum in studiis ocia grata teres?",
+     "Sed te terra teget, sed fati, Gorgonis ora,",
+     "Delphinesque, tui signa dolenda dabunt."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Архитектурная рамка: вверху карниз с фризом розеток и колокольчиков и маской в короне посередине; внутренняя рамка — витой жгут; по бокам гермы (женские фигуры) на волютах с подвешенными кистями; внизу бычий череп (букраний) с гирляндой между волютами и лентами."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «169» справа вверху. Буквы D и M на табличке стоят по верхним углам, мелким шрифтом (D.M. — Dis Manibus). Перед «Delphinesq;» мелкая точка."
+}

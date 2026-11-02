@@ -1,0 +1,56 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 180,
+ "source": "scan/frame_0180.jpg",
+ "page": "174",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMICITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Auxilium nunquàm",
+     "deficiens."
+    ],
+    "reading": "Auxilium nunquàm deficiens."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Человек плывёт по бурному морю, лёжа на щите (держится за круглый щит/плывёт с его помощью) на переднем плане; за водой на берегу военный лагерь с остроконечными шатрами и группами воинов слева, справа на холмах разрушенная крепость с башнями; птицы, облака.",
+    "inscriptions": [
+     {
+      "where": "нижний картуш рамки",
+      "text": "PV"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Bina pericla vnis effugi ſedulus armis,",
+     "Cùm premererq; ſôlo,cùm premererq; ſalo.",
+     "Incolumem ex acie clypeus me præſtitit.idem",
+     "Naufragum apprenſus littora aduſque tulit,"
+    ],
+    "reading": [
+     "Bina pericla unis effugi sedulus armis,",
+     "Cùm premererque sôlo, cùm premererque salo.",
+     "Incolumem ex acie clypeus me præstitit.idem",
+     "Naufragum apprensus littora adusque tulit,"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка с гротесками и монограммой PV, что на 0179."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «174» слева вверху. Сигнатуры нет."
+}

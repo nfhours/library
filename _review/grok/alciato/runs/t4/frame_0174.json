@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 174,
+ "source": "scan/frame_0174.jpg",
+ "page": "168",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "MORS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In formoſam fato præreptam."
+    ],
+    "reading": "In formosam fato præreptam."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "В центре стремительно шагает влево Смерть — иссохшая фигура с развевающимися волосами и лентой-покрывалом, подняв руку (с дротиком/стрелой?); под ней на земле лежат тела: слева полулежащий мужчина, справа ничком лежащая фигура и юная девушка с распущенными волосами в правом нижнем углу. Позади холм с замком, вдали руины, птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Cur puerũ Mors auſa dolis es carpere Amorem?",
+     "Tela tua vt iaceret:dum propria eſſe putat."
+    ],
+    "reading": [
+     "Cur puerum Mors ausa dolis es carpere Amorem?",
+     "Tela tua ut iaceret: dum propria esse putat."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "концовка под текстом",
+   "description": "Картуш-щит с волютами, масками/головами по краям и подвешенными кистями, в центре растительный мотив, внизу розетки."
+  },
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0173 (балдахин вверху, путти по бокам, ладья на волнах внизу)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «168» слева вверху. Сигнатуры нет. Под «iaceret» несколько мелких точек."
+}

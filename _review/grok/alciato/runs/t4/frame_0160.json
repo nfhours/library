@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 160,
+ "source": "scan/frame_0160.jpg",
+ "page": "154",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Aemulatio impar."
+    ],
+    "reading": "Aemulatio impar."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "В небе крупная хищная птица (орёл/«harpe») с распростёртыми крыльями несёт добычу; ниже над морем летит вторая птица (коршун), держащая рыбу/добычу. В море внизу крупные рыбы: слева пятнистая рыба (кефаль/барабулька) с открытой пастью, справа другая рыба (сарг). Слева на берегу город с башнями.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Altiuolam miluus comitatur degener harpam,",
+     "Et prædæ partem ſæpe cadentis habet.",
+     "Mullum proſequitur qui ſpretas ſargus ab illo,",
+     "Præteritasq; auidus deuorat ore dapes.",
+     "Sic mecum Oenocrates agit:at deſerta ſtudentu[?]",
+     "Vtitur hoc lippo curia tanquam oculo."
+    ],
+    "reading": [
+     "Altivolam milvus comitatur degener harpam,",
+     "Et prædæ partem sæpe cadentis habet.",
+     "Mullum prosequitur qui spretas sargus ab illo,",
+     "Præteritasque avidus devorat ore dapes.",
+     "Sic mecum Oenocrates agit: at deserta studentu[?]",
+     "Utitur hoc lippo curia tanquam oculo."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же растительная рамка из чёрных арабесок, что на 0159."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «154» слева вверху. Сигнатуры нет. В колонтитуле знак после R похож на «:»."
+}

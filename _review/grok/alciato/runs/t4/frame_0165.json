@@ -1,0 +1,51 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 165,
+ "source": "scan/frame_0165.jpg",
+ "page": "159",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRINCEPS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Opulentia tyranni paupertas",
+     "ſubiectorum."
+    ],
+    "reading": "Opulentia tyranni paupertas subiectorum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Слева стоит правитель в короне со скипетром, позади группа людей (подданные); с облаков слева исходят лучи. Справа большое дерево; на переднем плане под деревом полулежит на земле бородатый человек с раздутым животом (больной с увеличенной селезёнкой), опираясь на локоть, одна нога согнута.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Humani quod ſplen eſt corporis,in populi re",
+     "Hoc Cæſar fiſcum dixerat eſſe ſuum.",
+     "Splene aucto,reliqui tabeſcunt corporis artus.",
+     "Fiſco aucto,arguitur ciuica pauperies."
+    ],
+    "reading": [
+     "Humani quod splen est corporis, in populi re",
+     "Hoc Cæsar fiscum dixerat esse suum.",
+     "Splene aucto, reliqui tabescunt corporis artus.",
+     "Fisco aucto, arguitur civica pauperies."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Архитектурная рамка: вверху крылатая голова херувима между волютами на карнизе; по бокам колонны-канделябры с розетками, драпировкой, подвешенными шарами и гермами в тюрбанах; внизу маска в тюрбане с повязкой и две гротескные маски с лентами, розетки."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «159» справа вверху. Сигнатуры нет."
+}

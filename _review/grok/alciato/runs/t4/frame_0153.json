@@ -1,0 +1,64 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 153,
+ "source": "scan/frame_0153.jpg",
+ "page": "147",
+ "signature": "K 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Strenuorum immortale",
+     "nomen."
+    ],
+    "reading": "Strenuorum immortale nomen."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Фетида — женщина с развевающимися волосами в лёгком платье — идёт босиком по берегу моря и касается рукой гробницы Ахилла справа; гробница увита амарантом (листья), на ней надписи. Слева вдали город/крепость на скалистом берегу, корабль в море, в небе птицы и облака.",
+    "inscriptions": [
+     {
+      "where": "на гробнице, верхний ярус",
+      "text": "ACHILLIS"
+     },
+     {
+      "where": "на гробнице, нижний ярус (в картуше)",
+      "text": "M"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aeacidæ tumulum Rhœtæo in littore cernis,",
+     "Quem plerunque pedes viſitat alba Thetis.",
+     "Obtegitur ſemper viridi lapis hic amarantho,",
+     "Quòd nunquàm herois ſit moriturus honos.",
+     "Hic Graiū murus.m[?]gni nex Hectoris.Haud plus",
+     "Debet Mæonidæ,quàm ſibi Mæonides."
+    ],
+    "reading": [
+     "Aeacidæ tumulum Rhœtæo in littore cernis,",
+     "Quem plerunque pedes visitat alba Thetis.",
+     "Obtegitur semper viridi lapis hic amarantho,",
+     "Quòd nunquàm herois sit moriturus honos.",
+     "Hic Graiū murus.m[?]gni nex Hectoris.Haud plus",
+     "Debet Mæonidæ, quàm sibi Mæonides."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Новая рамка: вверху густая листва и ветви деревьев с плодами (возможно, с белкой/зверьком); по бокам стволы деревьев, справа ствол, вставленный в вазу/кашпо; внизу заросли, скалы и кусты."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «147» справа вверху; сигнатура «K 2». После «cernis,» в стр.1 справа видна черта (возможно отпечаток)."
+}

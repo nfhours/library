@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 178,
+ "source": "scan/frame_0178.jpg",
+ "page": "172",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMICITIA.",
+ "rubric": "AMICITIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Amicitia etiam poſt mortem",
+     "durans."
+    ],
+    "reading": "Amicitia etiam post mortem durans."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Высохший, безлистный старый вяз с обломанными сучьями стоит на холме; его ствол и ветви обвивает виноградная лоза с листьями и тяжёлыми гроздьями. Слева за холмом восходящее/заходящее солнце с лучами, вдали равнина, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Arentem ſenio,nudam quoque frondibus vlmum,",
+     "Complexa eſt viridi vitis opaca coma.",
+     "Agnoſcitq; vices naturæ:& grata parenti",
+     "Officij reddit mutua iura ſuo.",
+     "Exemploq; monet,tales nos quærere amicos,",
+     "Quos neque diſiungat fœdere ſumma dies."
+    ],
+    "reading": [
+     "Arentem senio, nudam quoque frondibus ulmum,",
+     "Complexa est viridi vitis opaca coma.",
+     "Agnoscitque vices naturæ: & grata parenti",
+     "Officii reddit mutua iura suo.",
+     "Exemploque monet, tales nos quærere amicos,",
+     "Quos neque disiungat fœdere summa dies."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же картушно-ремневая рамка, что на 0177."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «172» слева вверху. Сигнатуры нет. Рубрика раздела AMICITIA. совпадает с колонтитулом."
+}

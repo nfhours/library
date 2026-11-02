@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 157,
+ "source": "scan/frame_0157.jpg",
+ "page": "151",
+ "signature": "K 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In nothos."
+    ],
+    "reading": "In nothos."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Слева стоит бородатый Геракл в львиной шкуре, опираясь на палицу. Вверху справа на облаках возлежит Юнона под балдахином/шатром, к её груди приложен младенец; рядом другие фигуры (Юпитер/Меркурий?) и павлин(?); из груди брызжет молоко (лучи-струи вниз — Млечный путь). Внизу пейзаж с деревьями, рекой и строениями.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Herculeos ſpurij ſemper celebretis honores:",
+     "Nam veſtri princeps ordinis ille fuit.",
+     "Nec prius eſſe deus potuit,quàm ſugeret infans",
+     "Lac,ſibi quod fraudis neſcia Iuno dabat."
+    ],
+    "reading": [
+     "Herculeos spurii semper celebretis honores:",
+     "Nam vestri princeps ordinis ille fuit.",
+     "Nec prius esse deus potuit, quàm sugeret infans",
+     "Lac, sibi quod fraudis nescia Iuno dabat."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Архитектурная картушная рамка: вверху гирлянда плодов и маски-профили по углам, по бокам гермы/маски и волюты, внизу маска с рогами-завитками и раскрученные ремни."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «151» справа вверху. В «ſpurij» конечное ij набрано как лигатура (ÿ). Пятна на «deus» и «quod»."
+}

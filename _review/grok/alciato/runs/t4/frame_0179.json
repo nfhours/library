@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 179,
+ "source": "scan/frame_0179.jpg",
+ "page": "173",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMICITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Mutuum auxilium."
+    ],
+    "reading": "Mutuum auxilium."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Слепой старик-странник с посохом несёт на плечах хромого (тот в шапке, сидит верхом, указывает рукой путь); путь идёт по каменистой дороге среди скал; на заднем плане на горе замок с башнями, летящие птицы, облака, справа вдали равнина.",
+    "inscriptions": [
+     {
+      "where": "нижний картуш рамки",
+      "text": "PV"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Loripedem ſublatum humeris fert lumine captus:",
+     "Et ſocij hæc oculis munera retribuit.",
+     "Quo caret alteruter,concors ſic præſtat vterq;,",
+     "Mutuat hic oculos,mutuat ille pedes."
+    ],
+    "reading": [
+     "Loripedem sublatum humeris fert lumine captus:",
+     "Et socii hæc oculis munera retribuit.",
+     "Quo caret alteruter, concors sic præstat uterque,",
+     "Mutuat hic oculos, mutuat ille pedes."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка с гротесками: вверху маска между крылатыми гарпиями/химерами и волютами; по бокам картуши-ремни и гермы с гротескными профильными головами; внизу картуш с маской и лентами (монограмма PV) между двумя крылатыми драконами с завитыми хвостами."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «173» справа вверху. Сигнатуры нет. Монограмма «PV» в картуше рамки — вероятно, знак резчика."
+}

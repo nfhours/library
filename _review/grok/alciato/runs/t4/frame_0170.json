@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 170,
+ "source": "scan/frame_0170.jpg",
+ "page": "164",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "VITA.",
+ "rubric": "VITA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In vitam humanam."
+    ],
+    "reading": "In vitam humanam."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Двое сидящих философов под деревом: слева Демокрит(?) в короткой одежде с поднятыми к голове руками (смеётся/держится за голову), справа бородатый старик в тюрбане и плаще (Гераклит), задумчиво подперев рукой подбородок/плачущий. У их ног лежат книги. На заднем плане скалы, кусты, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Plus ſolito humanæ nunc defle incommoda vitæ,",
+     "Heraclite:ſcatet pluribus illa malis.",
+     "Tu rurſus(ſi quando aliâs)extolle cachinnum",
+     "Democrite:illa magis ludicra facta fuit.",
+     "Intereà hæc cernens meditor,qua denique tecum",
+     "Fine fleam,aut tecum quomodo ſplene iocer."
+    ],
+    "reading": [
+     "Plus solito humanæ nunc defle incommoda vitæ,",
+     "Heraclite: scatet pluribus illa malis.",
+     "Tu rursus(si quando aliâs)extolle cachinnum",
+     "Democrite: illa magis ludicra facta fuit.",
+     "Intereà hæc cernens meditor, qua denique tecum",
+     "Fine fleam, aut tecum quomodo splene iocer."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же ленточно-плетёная рамка, что на 0169 (маска с кольцом вверху, бородатая маска внизу)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «164» слева вверху. Сигнатуры нет. Начало раздела VITA.: рубрика над девизом, колонтитул «VITA.»."
+}

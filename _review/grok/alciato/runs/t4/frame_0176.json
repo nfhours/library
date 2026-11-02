@@ -1,0 +1,59 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 176,
+ "source": "scan/frame_0176.jpg",
+ "page": "170",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "MORS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Terminus."
+    ],
+    "reading": "Terminus."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Под портиком с колоннами и кассетированным перекрытием (среди руин, справа арочный акведук/мост) на квадратном каменном постаменте-кубе возвышается погрудное изображение бородатого бога Термина с курчавыми волосами (бюст выходит из камня, руки на краю постамента). На передней грани постамента надпись. У основания пучок травы; облака, холмы.",
+    "inscriptions": [
+     {
+      "where": "передняя грань постамента",
+      "text": "NVLLI CEDO"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quadratum infoditur firmiſsima teſſera ſaxum",
+     "Stat cirrata ſuper pectore imago tenus,",
+     "Et ſeſe nulli profitetur cedere,talis",
+     "Terminus eſt,homines qui ſcopus vnus agit.",
+     "Eſt immota dies,præfixaq; tempora fatis,",
+     "Deq; ferunt primis vltima iudicium."
+    ],
+    "reading": [
+     "Quadratum infoditur firmissima tessera saxum",
+     "Stat cirrata super pectore imago tenus,",
+     "Et sese nulli profitetur cedere, talis",
+     "Terminus est, homines qui scopus unus agit.",
+     "Est immota dies, præfixaque tempora fatis,",
+     "Deque ferunt primis ultima iudicium."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же архитектурная рамка, что на 0175 (карниз с маской в короне, витой жгут, гермы по бокам, букраний внизу)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «170» слева вверху. Сигнатуры нет. После «NVLLI CEDO» на табличке завиток-орнамент (не буква)."
+}

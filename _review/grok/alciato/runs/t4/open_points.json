@@ -1921,5 +1921,963 @@
   ],
   "type": "stray",
   "run": "t4"
+ },
+ {
+  "frame": 151,
+  "page": "145",
+  "location": "эпиграмма, стр.2",
+  "as_read": "mugii",
+  "candidates": [
+   "mugit"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 151,
+  "page": "145",
+  "location": "эпиграмма, стр.5",
+  "as_read": "ſumnō (тильда над o)",
+  "candidates": [
+   "ſummo"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 151,
+  "page": "145",
+  "location": "карта",
+  "as_read": "[?]BIBIENA — перед B лишний штрих/литера",
+  "candidates": [
+   "BIBIENA"
+  ],
+  "type": "engraving",
+  "run": "t4"
+ },
+ {
+  "frame": 151,
+  "page": "145",
+  "location": "карта",
+  "as_read": "[?]ISA — первая литера срезана рамкой",
+  "candidates": [
+   "PISA"
+  ],
+  "type": "engraving",
+  "run": "t4"
+ },
+ {
+  "frame": 151,
+  "page": "145",
+  "location": "карта",
+  "as_read": "[?]IDENE — первая литера похожа на Ʃ/E",
+  "candidates": [
+   "FIDENE / EIDENE"
+  ],
+  "type": "engraving",
+  "run": "t4"
+ },
+ {
+  "frame": 151,
+  "page": "145",
+  "location": "карта",
+  "as_read": "CIBLI — последние литеры неясны",
+  "candidates": [
+   "CIBLI / CIVLI"
+  ],
+  "type": "engraving",
+  "run": "t4"
+ },
+ {
+  "frame": 151,
+  "page": "145",
+  "location": "карта",
+  "as_read": "MOTEARGETATO — возможны тильды над O/E, не различимы",
+  "candidates": [
+   "MŌTEARGĒTATO"
+  ],
+  "type": "engraving",
+  "run": "t4"
+ },
+ {
+  "frame": 151,
+  "page": "145",
+  "location": "лента змея",
+  "as_read": "греческая надпись на ленте частично перевёрнута и закрыта петлями; порядок и чтение сегментов неуверенны",
+  "candidates": [
+   "ΤΟΝ ... ΕΝΙ ΘΕ ... ΚΡΟΙΣ?"
+  ],
+  "type": "engraving",
+  "run": "t4"
+ },
+ {
+  "frame": 153,
+  "page": "147",
+  "location": "эпиграмма, стр.5",
+  "as_read": "m[?]gni — вторая литера выбита",
+  "candidates": [
+   "magni"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 153,
+  "page": "147",
+  "location": "эпиграмма, стр.5",
+  "as_read": "murus.m[?]gni — точка вместо запятой",
+  "candidates": [
+   "murus,magni"
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 154,
+  "page": "148",
+  "location": "эпиграмма, стр.1",
+  "as_read": "Cæcropias",
+  "candidates": [
+   "Cecropias"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 154,
+  "page": "148",
+  "location": "эпиграмма, стр.4",
+  "as_read": "Romulidis — i в окончании без точки (похоже на ı)",
+  "candidates": [
+   "Romulidis"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 154,
+  "page": "148",
+  "location": "эпиграмма, стр.6",
+  "as_read": "An[?]iqua — третья литера выбита, видны две точки",
+  "candidates": [
+   "Antiqua"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 155,
+  "page": "149",
+  "location": "колонтитул",
+  "as_read": "HONOR. — знак после R похож на «:»",
+  "candidates": [
+   "HONOR.",
+   "HONOR:"
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 156,
+  "page": "150",
+  "location": "эпиграмма, стр.5",
+  "as_read": "pœnam — последняя m с завитком, похожа на «w»",
+  "candidates": [
+   "pœnam"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 156,
+  "page": "150",
+  "location": "эпиграмма, стр.8",
+  "as_read": "int[?]rit — пятая литера похожа на «c» (повреждённое e?)",
+  "candidates": [
+   "interit",
+   "intcrit"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 156,
+  "page": "150",
+  "location": "колонтитул",
+  "as_read": "HONOR. — знак после R похож на «:»",
+  "candidates": [
+   "HONOR.",
+   "HONOR:"
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 157,
+  "page": "151",
+  "location": "эпиграмма, стр.1",
+  "as_read": "ſpurij — ij лигатурой (ÿ)",
+  "candidates": [
+   "ſpurij",
+   "ſpurÿ"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 157,
+  "page": "151",
+  "location": "гравюра",
+  "as_read": "птица/фигура рядом с Юноной не опознана уверенно",
+  "candidates": [
+   "павлин",
+   "орёл"
+  ],
+  "type": "engraving",
+  "run": "t4"
+ },
+ {
+  "frame": 158,
+  "page": "152",
+  "location": "эпиграмма, стр.4",
+  "as_read": "Bacchilydes",
+  "candidates": [
+   "Bacchylides"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 159,
+  "page": "153",
+  "location": "эпиграмма, стр.1",
+  "as_read": "fine — с перекладиной, как f",
+  "candidates": [
+   "ſine"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 159,
+  "page": "153",
+  "location": "эпиграмма, стр.1",
+  "as_read": "egregios — первая e похожа на «c»",
+  "candidates": [
+   "egregios",
+   "cgregios"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 159,
+  "page": "153",
+  "location": "эпиграмма, стр.1",
+  "as_read": "после «orſus,» мелкий знак вроде «]»",
+  "candidates": [
+   "—"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 160,
+  "page": "154",
+  "location": "эпиграмма, стр.5",
+  "as_read": "ſtudentu[?] — последняя литера похожа на «n» (часть m срезана/не пропечатана?)",
+  "candidates": [
+   "ſtudentum",
+   "ſtudentũ",
+   "ſtudentun"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 161,
+  "page": "155",
+  "location": "девиз, стр.1",
+  "as_read": "Albutij — конечное j похоже на «]»",
+  "candidates": [
+   "Albutij"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 161,
+  "page": "155",
+  "location": "эпиграмма, стр.4",
+  "as_read": "над/перед «gerit» после «poma» мелкий знак вроде апострофа",
+  "candidates": [
+   "—"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 161,
+  "page": "155",
+  "location": "эпиграмма, стр.6",
+  "as_read": "под «degere» между g и e мелкий кружок",
+  "candidates": [
+   "—"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 162,
+  "page": "156",
+  "location": "эпиграмма, стр.6",
+  "as_read": "eſſe — последняя e похожа на «c»",
+  "candidates": [
+   "eſſe",
+   "eſſc"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 162,
+  "page": "156",
+  "location": "эпиграмма, стр.5",
+  "as_read": "под «geſtare» и «inſignia» мелкие кружки/хвосты g",
+  "candidates": [
+   "—"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 163,
+  "page": "157",
+  "location": "эпиграмма, стр.7",
+  "as_read": "Cur — над u мелкий знак, похож на акцент",
+  "candidates": [
+   "Cur",
+   "Cùr"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 163,
+  "page": "157",
+  "location": "эпиграмма, стр.5",
+  "as_read": "после «graues» знак вроде апострофа/запятой",
+  "candidates": [
+   "—"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 163,
+  "page": "157",
+  "location": "эпиграмма, стр.7",
+  "as_read": "ſunt — литеры повреждены/слабо пропечатаны",
+  "candidates": [
+   "ſunt"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 163,
+  "page": "157",
+  "location": "гравюра",
+  "as_read": "предмет в руке правителя (скипетр/меч?)",
+  "candidates": [
+   "скипетр",
+   "меч"
+  ],
+  "type": "engraving",
+  "run": "t4"
+ },
+ {
+  "frame": 164,
+  "page": "158",
+  "location": "эпиграмма, стр.3",
+  "as_read": "déinde — над e знак, похожий на акут",
+  "candidates": [
+   "déinde",
+   "deinde"
+  ],
+  "type": "accent",
+  "run": "t4"
+ },
+ {
+  "frame": 164,
+  "page": "158",
+  "location": "эпиграмма, стр.2",
+  "as_read": "после «manus.» мелкий кружок",
+  "candidates": [
+   "—"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 164,
+  "page": "158",
+  "location": "гравюра",
+  "as_read": "зверь у балюстрады справа (лев? собака?)",
+  "candidates": [
+   "лев",
+   "собака"
+  ],
+  "type": "engraving",
+  "run": "t4"
+ },
+ {
+  "frame": 166,
+  "page": "160",
+  "location": "эпиграмма, стр.2",
+  "as_read": "erudijſſe — ij лигатурой (ÿ)",
+  "candidates": [
+   "erudijſſe",
+   "erudÿſſe"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 166,
+  "page": "160",
+  "location": "страница",
+  "as_read": "новый колонтитул RESPVBLICA. без рубрики раздела над девизом",
+  "candidates": [
+   "—"
+  ],
+  "type": "layout",
+  "run": "t4"
+ },
+ {
+  "frame": 167,
+  "page": "161",
+  "location": "колонтитул",
+  "as_read": "PRINCEPS. после RESPVBLICA. на 0166 — непоследовательность колонтитулов",
+  "candidates": [
+   "—"
+  ],
+  "type": "layout",
+  "run": "t4"
+ },
+ {
+  "frame": 167,
+  "page": "161",
+  "location": "рамка",
+  "as_read": "головы с хоботами вверху рамки (слоны?)",
+  "candidates": [
+   "слоны",
+   "бараны"
+  ],
+  "type": "engraving",
+  "run": "t4"
+ },
+ {
+  "frame": 168,
+  "page": "162",
+  "location": "гравюра",
+  "as_read": "фигура у левого края над алтарём (человек? статуя?)",
+  "candidates": [
+   "—"
+  ],
+  "type": "engraving",
+  "run": "t4"
+ },
+ {
+  "frame": 169,
+  "page": "163",
+  "location": "эпиграмма, стр.3",
+  "as_read": "quẽis — тильда над e",
+  "candidates": [
+   "queis",
+   "quîs"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 169,
+  "page": "163",
+  "location": "эпиграмма, стр.4",
+  "as_read": "ſeruitia — литеры «tia» слабые, похоже на «iiia»",
+  "candidates": [
+   "ſeruitia"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 169,
+  "page": "163",
+  "location": "гравюра",
+  "as_read": "центр монеты: шест с колпаком; второй предмет (кинжалы) неразличим",
+  "candidates": [
+   "—"
+  ],
+  "type": "engraving",
+  "run": "t4"
+ },
+ {
+  "frame": 169,
+  "page": "163",
+  "location": "колонтитул",
+  "as_read": "RESPVBLICA. — вторая C похожа на «e»",
+  "candidates": [
+   "RESPVBLICA."
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 170,
+  "page": "164",
+  "location": "эпиграмма, стр.1",
+  "as_read": "между «ſolito» и «humanæ» вертикальный штрих",
+  "candidates": [
+   "—"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 170,
+  "page": "164",
+  "location": "эпиграмма, стр.2",
+  "as_read": "перед «illa» вертикальный штрих",
+  "candidates": [
+   "—"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 170,
+  "page": "164",
+  "location": "эпиграмма, стр.6",
+  "as_read": "Fine — заглавная F",
+  "candidates": [
+   "Fine",
+   "Siue",
+   "Fine (=fine)"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 170,
+  "page": "164",
+  "location": "гравюра",
+  "as_read": "кто из философов кто (смеющийся слева, плачущий справа?)",
+  "candidates": [
+   "Демокрит",
+   "Гераклит"
+  ],
+  "type": "engraving",
+  "run": "t4"
+ },
+ {
+  "frame": 171,
+  "page": "165",
+  "location": "эпиграмма, стр.4",
+  "as_read": "перед «Atque» точка",
+  "candidates": [
+   "—"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 171,
+  "page": "165",
+  "location": "эпиграмма, стр.5",
+  "as_read": "exemplo — над o знак, похожий на акцент",
+  "candidates": [
+   "exemplo",
+   "exemplò"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 172,
+  "page": "166",
+  "location": "девиз",
+  "as_read": "luctandu[?]m — между u и m пятно/непропечатка (возможно, просто пробел из-за повреждения)",
+  "candidates": [
+   "luctandum"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 172,
+  "page": "166",
+  "location": "эпиграмма, стр.1",
+  "as_read": "Hector:, — двоеточие и запятая подряд",
+  "candidates": [
+   "Hector,",
+   "Hector:"
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 172,
+  "page": "166",
+  "location": "эпиграмма, стр.2",
+  "as_read": "hoſtẽis — тильда над e (лигатура как в «quẽis»)",
+  "candidates": [
+   "hoſteis",
+   "hoſtes"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 172,
+  "page": "166",
+  "location": "эпиграмма, стр.4",
+  "as_read": "перед «parãt» надстрочная литера «a»",
+  "candidates": [
+   "—"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 172,
+  "page": "166",
+  "location": "эпиграмма, стр.6",
+  "as_read": "lepôres — циркумфлекс над o",
+  "candidates": [
+   "lepôres",
+   "lepores"
+  ],
+  "type": "accent",
+  "run": "t4"
+ },
+ {
+  "frame": 173,
+  "page": "167",
+  "location": "эпиграмма, стр.5",
+  "as_read": "ꝓuida — p с перечёркнутым хвостом",
+  "candidates": [
+   "prouida"
+  ],
+  "type": "abbrev",
+  "run": "t4"
+ },
+ {
+  "frame": 173,
+  "page": "167",
+  "location": "эпиграмма, стр.11",
+  "as_read": "Parce — последняя e первого слова похожа на «c»",
+  "candidates": [
+   "Parce",
+   "Parcc"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 173,
+  "page": "167",
+  "location": "эпиграмма, стр.12",
+  "as_read": "ego — e похожа на «c»",
+  "candidates": [
+   "ego",
+   "cgo"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 173,
+  "page": "167",
+  "location": "эпиграмма, стр.7",
+  "as_read": "Acheronticus — над h мелкий знак",
+  "candidates": [
+   "—"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 173,
+  "page": "167",
+  "location": "гравюра",
+  "as_read": "фигура, летящая вниз головой слева вверху (Смерть? второй Амур?)",
+  "candidates": [
+   "—"
+  ],
+  "type": "engraving",
+  "run": "t4"
+ },
+ {
+  "frame": 173,
+  "page": "167",
+  "location": "подпись",
+  "as_read": "точка перед «L 4»",
+  "candidates": [
+   "—"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 174,
+  "page": "168",
+  "location": "эпиграмма, стр.2",
+  "as_read": "под «iaceret:» мелкие точки",
+  "candidates": [
+   "—"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 174,
+  "page": "168",
+  "location": "гравюра",
+  "as_read": "предмет в поднятой руке Смерти",
+  "candidates": [
+   "дротик",
+   "стрела",
+   "пусто"
+  ],
+  "type": "engraving",
+  "run": "t4"
+ },
+ {
+  "frame": 175,
+  "page": "169",
+  "location": "надпись",
+  "as_read": "D … M — расположение по углам таблички; точка после SEPVLCRVM",
+  "candidates": [
+   "D. M. SEPVLCRVM."
+  ],
+  "type": "inscription",
+  "run": "t4"
+ },
+ {
+  "frame": 175,
+  "page": "169",
+  "location": "эпиграмма, стр.3",
+  "as_read": "Occîdit — циркумфлекс над i",
+  "candidates": [
+   "Occîdit",
+   "Occidit"
+  ],
+  "type": "accent",
+  "run": "t4"
+ },
+ {
+  "frame": 175,
+  "page": "169",
+  "location": "эпиграмма, стр.6",
+  "as_read": "Aſtruis — лигатура ſt повреждена",
+  "candidates": [
+   "Aſtruis"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 175,
+  "page": "169",
+  "location": "эпиграмма, стр.10",
+  "as_read": "перед «Delphinesq;» мелкая точка",
+  "candidates": [
+   "—"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 176,
+  "page": "170",
+  "location": "надпись",
+  "as_read": "после CEDO знак-завиток (ornament «ꝯ»/«∞»?)",
+  "candidates": [
+   "—"
+  ],
+  "type": "inscription",
+  "run": "t4"
+ },
+ {
+  "frame": 176,
+  "page": "170",
+  "location": "эпиграмма, стр.1",
+  "as_read": "после «ſaxum» знак вроде апострофа",
+  "candidates": [
+   "ſaxum,",
+   "ſaxum"
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 176,
+  "page": "170",
+  "location": "эпиграмма, стр.2",
+  "as_read": "под «imago» точка",
+  "candidates": [
+   "—"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 176,
+  "page": "170",
+  "location": "эпиграмма, стр.4",
+  "as_read": "Terminus — литеры «inu» слабо пропечатаны",
+  "candidates": [
+   "Terminus"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 177,
+  "page": "171",
+  "location": "эпиграмма, стр.1",
+  "as_read": "[?]alſis — первая литера: f или ſ (перекладина неясна)",
+  "candidates": [
+   "falſis",
+   "ſalſis"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 177,
+  "page": "171",
+  "location": "эпиграмма, стр.3",
+  "as_read": "Graciq;",
+  "candidates": [
+   "Graiiq",
+   "Græciq"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 177,
+  "page": "171",
+  "location": "эпиграмма, стр.1",
+  "as_read": "Troës — трема над e",
+  "candidates": [
+   "Troës"
+  ],
+  "type": "accent",
+  "run": "t4"
+ },
+ {
+  "frame": 178,
+  "page": "172",
+  "location": "девиз, стр.1",
+  "as_read": "под «mortem» (под o) точка",
+  "candidates": [
+   "—"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 178,
+  "page": "172",
+  "location": "эпиграмма, стр.6",
+  "as_read": "после «dies.» мелкие штрихи над строкой",
+  "candidates": [
+   "dies."
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 179,
+  "page": "173",
+  "location": "колонтитул",
+  "as_read": "AMICITIA — после A знак, похожий на двоеточие/точку с запятой",
+  "candidates": [
+   "AMICITIA.",
+   "AMICITIA:"
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 179,
+  "page": "173",
+  "location": "эпиграмма, стр.3",
+  "as_read": "между «Quo» и «caret» вертикальная черта (выступившая шпация)",
+  "candidates": [
+   "Quo caret"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 179,
+  "page": "173",
+  "location": "эпиграмма, стр.1",
+  "as_read": "Loripedem — конечное m с росчерком",
+  "candidates": [
+   "Loripedem"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 180,
+  "page": "174",
+  "location": "эпиграмма, стр.2",
+  "as_read": "ſôlo — циркумфлекс над o",
+  "candidates": [
+   "ſôlo",
+   "ſolo"
+  ],
+  "type": "accent",
+  "run": "t4"
+ },
+ {
+  "frame": 180,
+  "page": "174",
+  "location": "эпиграмма, стр.2",
+  "as_read": "во втором «premererq;» запятая-подобная точка между r и e",
+  "candidates": [
+   "premererq"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 180,
+  "page": "174",
+  "location": "эпиграмма, стр.4",
+  "as_read": "в конце строки запятая вместо точки",
+  "candidates": [
+   "tulit,",
+   "tulit."
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 180,
+  "page": "174",
+  "location": "эпиграмма, стр.3",
+  "as_read": "«præſtitit.idem» — точка без пробела",
+  "candidates": [
+   "præſtitit.idem"
+  ],
+  "type": "punctuation",
+  "run": "t4"
  }
 ]

@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 155,
+ "source": "scan/frame_0155.jpg",
+ "page": "149",
+ "signature": "K 3",
+ "catchword": "Spernit",
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Duodecim certamina Herculis."
+    ],
+    "reading": "Duodecim certamina Herculis."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Геракл (обнажённый, с развевающимся плащом) хватает многоголовую гидру слева; у его ног повергнутые фигуры и отрубленные головы, палица на земле; справа на заднем плане лучник целится в птиц (стимфалийские птицы), ниже фигура с ношей/зверем; облака, холмы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Roboris inuicti ſuperat facundia laudes:",
+     "Dicta Sophiſtarum laqueosq; reſoluit inanes.",
+     "Non furor,aut rabies virtute potentior vlla eſt.",
+     "Continuum ob curſum ſapienti opulentia cedit."
+    ],
+    "reading": [
+     "Roboris inuicti superat facundia laudes:",
+     "Dicta Sophistarum laqueosque resolvit inanes.",
+     "Non furor, aut rabies virtute potentior ulla est.",
+     "Continuum ob cursum sapienti opulentia cedit."
+    ]
+   },
+   "continues_on_next_page": true,
+   "notes": "",
+   "subheading": {
+    "diplomatic": "Α᾽λληγορικῶς.",
+    "reading": "Α᾽λληγορικῶς."
+   }
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Ленточно-плетёная рамка: вверху и внизу широкие фризы с переплетением и листовыми завитками, по бокам вертикальные плетёные ленты. Отличается от рамки 0153–0154."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «149» справа вверху. В колонтитуле точка после R похожа на двоеточие «HONOR:». Подзаголовок по-гречески: Α᾽ с придыханием, лигатура λλ, ῶ с циркумфлексом."
+}

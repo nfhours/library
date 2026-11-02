@@ -1,0 +1,51 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 164,
+ "source": "scan/frame_0164.jpg",
+ "page": "158",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRINCEPS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Quod non capit Chriſtus,",
+     "rapit fiſcus."
+    ],
+    "reading": "Quod non capit Christus, rapit fiscus."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Правитель в лавровом венке и плаще стоит на террасе у колонны (пьедестала), подняв в правой руке губку и выжимая её — из губки капает на пол; в левой руке посох. На пьедестале у колонны стоит жезл. Справа за балюстрадой вид: на холме виселица с повешенными, толпа людей, лестница; лев(?) у балюстрады; птицы в небе.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Exprimit humentes,quas iam madefecerat antè",
+     "Spongiolas,cupidi Principis arcta manus.",
+     "Prouehit ad ſummum fures:quos déinde coërcet,",
+     "Vertat vt in fiſcum quæ malè parta ſuum."
+    ],
+    "reading": [
+     "Exprimit humentes, quas iam madefecerat antè",
+     "Spongiolas, cupidi Principis arcta manus.",
+     "Provehit ad summum fures: quos déinde coërcet,",
+     "Vertat ut in fiscum quæ malè parta suum."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же архитектурная рамка, что на 0163 (маска вверху, задрапированные фигуры по бокам, бордюр-«цепочка», волюты и маски внизу)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «158» слева вверху. Сигнатуры нет."
+}

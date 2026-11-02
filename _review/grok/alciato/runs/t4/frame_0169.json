@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 169,
+ "source": "scan/frame_0169.jpg",
+ "page": "163",
+ "signature": "L 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "RESPVBLICA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Reſpublica liberata."
+    ],
+    "reading": "Respublica liberata."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "На фоне пейзажа (холмы, облака, постройка справа) большая монета с бисерным ободком; на ней надпись по кругу; в центре на точечном поле изображён шест (кинжал?) с колпаком (pileus) наверху; кинжалы по сторонам на гравюре не различимы. Слева по ободу растительный орнамент-завиток.",
+    "inscriptions": [
+     {
+      "where": "по ободу монеты, по часовой стрелке от верха",
+      "text": "BRVTI NOMISMA"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Cæſaris exitio,ceu libertate recepta,",
+     "Hæc ducibus Brutis cuſa moneta fuit.",
+     "Enſiculi in primis,quẽis pileus inſuper adſtat,",
+     "Qualem miſſa manu ſeruitia accipiunt."
+    ],
+    "reading": [
+     "Cæsaris exitio, ceu libertate recepta,",
+     "Hæc ducibus Brutis cusa moneta fuit.",
+     "Ensiculi in primis, quenis pileus insuper adstat,",
+     "Qualem missa manu servitia accipiunt."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Ленточно-плетёная рамка с завитками: вверху маска льва/сатира с кольцом, по углам маленькие маски-медальоны, по бокам плетёные ленты с розетками, внизу бородатая маска в повязке между крылатыми рогатыми гротесками."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «163» справа вверху. В колонтитуле «RESPVBLICA.» вторая C похожа на «e». Лигатура «quẽis» (тильда над e) — как на 0125 и 0135."
+}

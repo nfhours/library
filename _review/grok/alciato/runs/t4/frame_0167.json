@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 167,
+ "source": "scan/frame_0167.jpg",
+ "page": "161",
+ "signature": "L",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRINCEPS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Principis clementia."
+    ],
+    "reading": "Principis clementia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "В центре соломенный (плетёный) конический улей с отверстием-летком, вокруг и над ним роятся пчёлы; в летке крупная пчела (царь пчёл). Слева дерево, дом с башенкой; вдали холмы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Veſparũ quòd nulla vnquam Rex ſpicula figet:",
+     "Quodq; alijs duplo corpore maior erit.",
+     "Arguet imperium clemens,moderataq; regna,",
+     "Sanctaq; iudicibus credita iura bonis."
+    ],
+    "reading": [
+     "Vesparum quòd nulla unquam Rex spicula figet:",
+     "Quodque aliis duplo corpore maior erit.",
+     "Arguet imperium clemens, moderataque regna,",
+     "Sanctaque iudicibus credita iura bonis."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Архитектурно-картушная рамка: вверху маска между головами слонов(?) и шлемоносными профилями, по бокам волюты и картуши с овальными прорезями, внизу ваза-курильница с пламенем между ремнями-волютами."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «161» справа вверху. Колонтитул снова «PRINCEPS.» (на 0166 был «RESPVBLICA.»). В девизе «Veſparũ» — видимо, вместо Apum/«пчёл» стоит «оса»; не исправлено."
+}

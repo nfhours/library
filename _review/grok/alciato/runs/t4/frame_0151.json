@@ -1,0 +1,64 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 151,
+ "source": "scan/frame_0151.jpg",
+ "page": "145",
+ "signature": "K",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Tumulus Ioannis Galeacij Vice-",
+     "comitis,primi Ducis Mediol."
+    ],
+    "reading": "Tumulus Ioannis Galeacii Vicecomitis, primi Ducis Mediol."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Карта Средней Италии (от Равенны до Рима) с морями по обе стороны, кораблями в море, городами-значками и горами. Над Апеннинами извивается огромный змей (герб Висконти) в виде ленты-бандероли с греческими буквами; его хвост тянется к Риму, у Рима стоит маленькая фигура человека с поднятой рукой (у пасти змея?).",
+    "inscriptions": [
+     {
+      "where": "надписи на карте (прописные, слева направо, сверху вниз)",
+      "text": "CESENADEGO · RIMANO · ANCONA · PORTODERAVENA · RAVENA · [?]BIBIENA · MŌTESCIO · FIRENSA · PERVRA · TVRNI · [?]ISA · SIENA · CIBLI · BOLSENA · [?]IDENE · MOTEARGETATO · CITAVECHIA · ROMA · MARTAFIVME · GIGLIO · CAPOLINARE"
+     },
+     {
+      "where": "лента-тело змея (греческие буквы, часть перевёрнута; по сегментам)",
+      "text": "TON · ENIΘEΓTAI (на ленте читается перевёрнуто: IATΓEΘINE) · ME · KPOIZ (перевёрнуто) · NA · [?] · TIΣME"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Pro tumulo pone Italiam,pone arma,Duceſq;,",
+     "Et mare,quod geminos mugii aduſq; ſinus.",
+     "Adde his barbariem conantem irrūpere fruſtra,",
+     "Et mercede emptas in fera bella manus.",
+     "Anguiger eſt ſumnō ſiſtens in culmine,dicat:",
+     "Quis paruis magnam me ſuperimpoſuit?"
+    ],
+    "reading": [
+     "Pro tumulo pone Italiam, pone arma, Ducesque,",
+     "Et mare, quod geminos mugii adusque sinus.",
+     "Adde his barbariem conantem irrūpere frustra,",
+     "Et mercede emptas in fera bella manus.",
+     "Anguiger est sumnō sistens in culmine, dicat:",
+     "Quis parvis magnam me superimposuit?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Новая рамка: вверху завитки и картуши с вазами-светильниками по углам и маской в венке в центре; по бокам женские гермы-кариатиды в шлемах/капюшонах на пьедесталах с драпировками; внизу цоколь с маской между завитками, гирляндами и розетками."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «145» справа вверху; сигнатура «K» внизу справа. Названия на карте — итальянские, местами с ошибками резчика."
+}

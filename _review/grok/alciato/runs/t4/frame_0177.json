@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 177,
+ "source": "scan/frame_0177.jpg",
+ "page": "171",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "MORS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Opulenti hæreditas."
+    ],
+    "reading": "Opulenti hæreditas."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Битва над телом: воины в доспехах и шлемах (один в чешуйчатом панцире, другой в высокой меховой шапке) тянут в разные стороны тело убитого (Патрокл), вокруг копья и знамёна; справа сражаются всадники/пехотинцы, вдали воин с копьём. На переднем плане справа шатры лагеря; на заднем плане город с домами и аркой, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Patroclum [?]alſis rapiunt hinc Troës in armis,",
+     "Hinc ſocij,atque omnis turba Pelaſga vetat.",
+     "Obtinet exuuias Hector,Graciq; cadauer.",
+     "Hæc fabella agitur,cùm vir opimus obit.",
+     "Maxima rixa oritur,tandem ſed tranſigit hæres,",
+     "Et coruis aliquid,vulturijſq; ſinit."
+    ],
+    "reading": [
+     "Patroclum [?]alsis rapiunt hinc Troës in armis,",
+     "Hinc socii, atque omnis turba Pelasga vetat.",
+     "Obtinet exuvias Hector, Gracique cadaver.",
+     "Hæc fabella agitur, cùm vir opimus obit.",
+     "Maxima rixa oritur, tandem sed transigit hæres,",
+     "Et coruis aliquid, vulturiisque sinit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Картушно-ремневая рамка: вверху голова-маска с курчавыми волосами между волютами и бородатыми масками по углам; по бокам ремни-волюты и картуши с прорезями; внизу маска в шлеме/короне с кольцом во рту между гирляндами плодов и волютами."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «171» справа вверху. Сигнатуры нет. В «rapiunt» конечное t поднято над строкой."
+}

@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 158,
+ "source": "scan/frame_0158.jpg",
+ "page": "152",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Imparilitas."
+    ],
+    "reading": "Imparilitas."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Вверху в небе летит хищная птица (сокол) с распростёртыми крыльями; слева дерево и дом на холме, справа вдали город с башнями у воды, на воде две утки. На переднем плане на земле (поле/пашня в крапинку) кормятся птицы: слева галка/ворона, клюющая землю, справа гусь.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Vt ſublime volans tenuem ſecat aëra falco,",
+     "Vt paſcuntur humi graculus,anſer,anas:",
+     "Sic ſummũ ſcandit ſuper æthera Pindarus ingẽs,",
+     "Sic ſcit humi tantùm ſerpere Bacchilydes."
+    ],
+    "reading": [
+     "Ut sublime volans tenuem secat aëra falco,",
+     "Ut pascuntur humi graculus, anser, anas:",
+     "Sic summum scandit super æthera Pindarus ingens,",
+     "Sic scit humi tantùm serpere Bacchilydes."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же архитектурная картушная рамка, что на 0157 (гирлянда плодов вверху, маски, рогатая маска внизу)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «152» слева вверху. Сигнатуры нет. Пятно на «Pindarus»."
+}

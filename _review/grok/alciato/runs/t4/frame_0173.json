@@ -1,0 +1,66 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 173,
+ "source": "scan/frame_0173.jpg",
+ "page": "167",
+ "signature": "L 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "MORS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "De Morte,& Amore."
+    ],
+    "reading": "De Morte, & Amore."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "В облаках вверху справа летит крылатый Амур, стреляя из лука; слева вверху вниз головой падает/летит ещё одна фигура (Смерть или второй Амур) с луком. Внизу в центре идёт старик с посохом и бородой (поражённый стрелой Амура старец); слева мужчина падает/склоняется над лежащим, на земле лежат мёртвые (юноши), справа лежит фигура. Холмы на заднем плане.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Errabat ſocio Mors iuncta Cupidine.ſecum",
+     "Mors pharêtras,paruus tela gerebat Amor.",
+     "Diuertêre ſimul,ſimul vna & nocte cubârunt,",
+     "Cæcus Amor,Mors hoc tempore cæca fuit.",
+     "Alter enim alterius malè ꝓuida ſpicula ſumpſit:",
+     "Mors aurata,tenet oſſea tela puer.",
+     "Debuit inde ſenex qui nunc Acheronticus eſſe:",
+     "Ecce amat,& capiti florea ſerta parat.",
+     "Aſt ego mutato quia Amor me perculit arcu,",
+     "Deficio:inijciunt & mihi fata manum.",
+     "Parce puer,Mors ſigna tenens victricia parce.",
+     "Fac ego amem:ſubeat fac Acheronta ſenex."
+    ],
+    "reading": [
+     "Errabat socio Mors iuncta Cupidine.secum",
+     "Mors pharêtras, parvus tela gerebat Amor.",
+     "Divertêre simul, simul una & nocte cubârunt,",
+     "Cæcus Amor, Mors hoc tempore cæca fuit.",
+     "Alter enim alterius malè ꝓvida spicula sumpsit:",
+     "Mors aurata, tenet ossea tela puer.",
+     "Debuit inde senex qui nunc Acheronticus esse:",
+     "Ecce amat, & capiti florea serta parat.",
+     "Ast ego mutato quia Amor me perculit arcu,",
+     "Deficio: iniiciunt & mihi fata manum.",
+     "Parce puer, Mors signa tenens victricia parce.",
+     "Fac ego amem: subeat fac Acheronta senex."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка: вверху балдахин/навес с сетчатым узором и бахромой из шариков, по бокам путти, держащие драпировку, на волютах; внизу ладья (корабль Харона?) с вёслами на волнах, справа голова морского чудища."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «167» справа вверху. Перед сигнатурой «L 4» точка. В «ꝓuida» p с перечёркнутым хвостом (pro). В «inijciunt» ij набрано лигатурой."
+}

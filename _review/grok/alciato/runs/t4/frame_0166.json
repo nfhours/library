@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 166,
+ "source": "scan/frame_0166.jpg",
+ "page": "160",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "RESPVBLICA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Conſiliarij Principum."
+    ],
+    "reading": "Consiliarii Principum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Кентавр Хирон (бородатый, с человеческим торсом и конским телом) стоит справа, подняв в правой руке розгу/пучок прутьев и левой указывая в раскрытую книгу, которую держит перед ним мальчик (Ахилл); слева на земле сидят ещё трое детей с книгами. Позади руины (амфитеатр, арки, колонна), холмы, птицы в небе; на переднем плане слева лежит бревно/ствол.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Heroum genitos,& magnum fertur Achillem",
+     "In ſtabulis Chiron erudijſſe ſuis.",
+     "Semiferum doctorem,& ſemiuirum centaurum,",
+     "Aſsideat quiſquis regibus,eſſe decet.",
+     "Eſt fera,dum violat ſocios,dum proterit hoſtes:",
+     "Eſtq; homo,dum ſimulat ſe populo eſſe pium."
+    ],
+    "reading": [
+     "Heroum genitos, & magnum fertur Achillem",
+     "In stabulis Chiron erudiisse suis.",
+     "Semiferum doctorem, & semivirum centaurum,",
+     "Assideat quisquis regibus, esse decet.",
+     "Est fera, dum violat socios, dum proterit hostes:",
+     "Estque homo, dum simulat se populo esse pium."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0165 (херувим вверху, колонны-канделябры с шарами и гермами, маска в тюрбане внизу)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «160» слева вверху. Сигнатуры нет. Колонтитул сменился на «RESPVBLICA.», рубрики раздела над девизом нет. В «erudijſſe» ij набрано лигатурой (ÿ)."
+}

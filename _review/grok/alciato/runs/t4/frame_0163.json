@@ -1,0 +1,66 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 163,
+ "source": "scan/frame_0163.jpg",
+ "page": "157",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRINCEPS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In Senatum boni principis."
+    ],
+    "reading": "In Senatum boni principis."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Зал совета под балдахинами с занавесями: в центре на троне сидит правитель в шапке со скипетром(?); по обе стороны на скамьях сидят советники/судьи в длинных одеждах и шапках (слева трое бородатых, справа трое). Пол вымощен круглыми камнями. Рук у сидящих не видно (fig. «manibus truncæ»), глаза правителя не различимы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Effigies manibus truncæ ante altaria diuûm",
+     "Hic reſident:quarum lumine capta prior.",
+     "Signa Poteſtatis ſummæ,Sanctiq; Senatus",
+     "Thebanis fuerant iſta reperta viris.",
+     "Cur reſident? Quia mẽte graues decet eſſe quieta",
+     "Iuridicos:animo nec variare leui.",
+     "Cur ſine ſunt manibus? Capiant ne xenia:nec ſe",
+     "Pollicitis flecti muneribúſue ſinant.",
+     "Cæcus at eſt princeps.quòd ſolis auribus,abſq;",
+     "Affectu,conſtans iuſſa Senatus agit."
+    ],
+    "reading": [
+     "Effigies manibus truncæ ante altaria diuûm",
+     "Hic resident: quarum lumine capta prior.",
+     "Signa Potestatis summæ, Sanctique Senatus",
+     "Thebanis fuerant ista reperta viris.",
+     "Cur resident? Quia mente graves decet esse quieta",
+     "Iuridicos: animo nec variare levi.",
+     "Cur sine sunt manibus? Capiant ne xenia: nec se",
+     "Pollicitis flecti muneribúsue sinant.",
+     "Cæcus at est princeps.quòd solis auribus, absque",
+     "Affectu, constans iussa Senatus agit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "",
+   "subheading": {
+    "diplomatic": "DIALOGISMVS.",
+    "reading": "DIALOGISMUS."
+   }
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Архитектурная рамка: вверху маска с венцом между волютами и пьедесталами с розетками; внутренняя рамка с бордюром-«цепочкой»; по бокам задрапированные фигуры в капюшонах на пьедесталах; внизу большие волюты, путти и бородатые маски."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «157» справа вверху. Сигнатуры нет. Внутренний бордюр-«цепочка» обрамляет девиз, гравюру и эпиграмму. В эпиграмме после «Cur reſident?», «manibus?» пробелы неравномерны."
+}

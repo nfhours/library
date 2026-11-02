@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 162,
+ "source": "scan/frame_0162.jpg",
+ "page": "156",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRINCEPS.",
+ "rubric": "PRINCEPS.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Princeps ſubditorum incolu-",
+     "mitatem procurans."
+    ],
+    "reading": "Princeps subditorum incolumitatem procurans."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Большой якорь с кольцом вверху и поперечиной (штоком), вокруг веретена якоря обвился дельфин головой вниз. Фон: море с кораблём под парусом слева, справа скалистый берег с городом, в небе стаи птиц, слева из облаков исходят лучи (солнце/ветер).",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Titanij quoties conturbant æquora fratres,",
+     "Tum miſeros nautas anchora iacta iuuat.",
+     "Hanc pius erga homines Delphin cõplectitur:imis",
+     "Tutius vt poſsit figier illa vadis.",
+     "Quàm decet hæc memores geſtare inſignia Reges?",
+     "Anchora quod nautis,ſe populo eſſe ſuo?"
+    ],
+    "reading": [
+     "Titanii quoties conturbant æquora fratres,",
+     "Tum miseros nautas anchora iacta iuvat.",
+     "Hanc pius erga homines Delphin complectitur: imis",
+     "Tutius ut possit figier illa vadis.",
+     "Quàm decet hæc memores gestare insignia Reges?",
+     "Anchora quod nautis, se populo esse suo?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же архитектурная рамка с гермами и масками, что на 0161."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «156» слева вверху. Сигнатуры нет. Начало раздела PRINCEPS.: рубрика над девизом, колонтитул сменился на «PRINCEPS.». В «Titanij» ij похоже на лигатуру."
+}

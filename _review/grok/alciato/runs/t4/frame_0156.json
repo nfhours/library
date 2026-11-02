@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 156,
+ "source": "scan/frame_0156.jpg",
+ "page": "150",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": null,
+   "epigram": {
+    "diplomatic": [
+     "Spernit auaritiam,nec rapto aut fœnore gaudet.",
+     "Vincit,fœmineos ſpoliatq; inſignibus actus.",
+     "Expurgat ſordes,& cultum mentibus addit.",
+     "Illicitos odit coitus,abigitq; nocentes.",
+     "Barbaries,feritasq; dat impia denique pœnam.",
+     "Vnius virtus collectos diſsipat hoſtes.",
+     "Inuehit in patriam externis bona plurima ab oris.",
+     "Docta per ora virũ volat,& non int[?]rit vnquam."
+    ],
+    "reading": [
+     "Spernit avaritiam, nec rapto aut fœnore gaudet.",
+     "Vincit, fœmineos spoliatque insignibus actus.",
+     "Expurgat sordes, & cultum mentibus addit.",
+     "Illicitos odit coitus, abigitque nocentes.",
+     "Barbaries, feritasque dat impia denique pœnam.",
+     "Unius virtus collectos dissipat hostes.",
+     "Inuehit in patriam externis bona plurima ab oris.",
+     "Docta per ora virum volat, & non int[?]rit unquam."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "",
+   "continuation_of": {
+    "frame": 155,
+    "page": "149",
+    "motto": "Duodecim certamina Herculis."
+   }
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "концовка под текстом",
+   "description": "Гротескная маска (львиная/сатировская морда с бараньими рогами, вытаращенными глазами), держащая в пасти/по сторонам драпировку с кистями."
+  },
+  {
+   "position": "рамка полосы",
+   "description": "Та же ленточно-плетёная рамка, что на 0155."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «150» слева вверху. Сигнатуры и кустода нет. Ниже концовки страница пуста (просвечивает текст оборота). В колонтитуле знак после R снова похож на «:»."
+}

@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 152,
+ "source": "scan/frame_0152.jpg",
+ "page": "146",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Optimus ciuis."
+    ],
+    "reading": "Optimus civis."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Венчание Фрасибула: в центре воин в шлеме и античных доспехах с мечом/жезлом; двое мужчин (бородатый в длинной одежде слева и ещё один справа) возлагают ему на голову венок из листьев (оливы). Слева толпа граждан в высоких шапках, держащих оливковые ветви.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Dum iuſtis patriā Thraſybulus vindicat armis,",
+     "Dumq; ſimultates ponere quemque iubet,",
+     "Concors ordo omnis magni inſtar muneris,illi",
+     "Palladiæ ſertum frondis habere dedit.",
+     "Cinge comā Thraſybule,geras hūc ſolus honorem,",
+     "In magna nemo eſt æmulus vrbe tibi."
+    ],
+    "reading": [
+     "Dum iustis patriā Thrasybulus vindicat armis,",
+     "Dumque simultates ponere quemque iubet,",
+     "Concors ordo omnis magni instar muneris, illi",
+     "Palladiæ sertum frondis habere dedit.",
+     "Cinge comā Thrasybule, geras hūc solus honorem,",
+     "In magna nemo est æmulus urbe tibi."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0151 (маска в венке и вазы вверху, гермы-кариатиды по бокам, цоколь с маской и розетками внизу); на правом пьедестале у ноги мелкая литера «V»."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «146» слева вверху. Сигнатуры нет. Внизу слева на поле мелкий след/помета."
+}
