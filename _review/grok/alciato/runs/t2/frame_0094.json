@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 94,
+ "source": "scan/frame_0094.jpg",
+ "page": "88",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "DESIDIA.",
+ "rubric": "DESIDIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Deſidia."
+    ],
+    "reading": "Desidia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Старец в длинной одежде с капюшоном (ессей) стоит в пейзаже, глядя вверх на звёздное небо; у его ног прикрытый светильник/факел; позади хижина, деревья, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Deſidet in modio Eſſæus,ſpeculator & aſtra,",
+     "Subtus & accenſam contegit igne facem.",
+     "Segnities ſpecie recti,velata cuculo,",
+     "Non ſe,non alios vtilitate iuuat."
+    ],
+    "reading": [
+     "Desidet in modio Essæus, speculator & astra,",
+     "Subtus & accensam contegit igne facem.",
+     "Segnities specie recti, velata cuculo,",
+     "Non se, non alios utilitate iuvat."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Лигатура ct в «recti». Над концом «iuuat» клякса."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над рубрикой",
+   "description": "Верхний фриз рамы с гротескной маской (как на 0093)."
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы с маской и крылатыми чудовищами (как на 0093)."
+  },
+  {
+   "position": "по бокам",
+   "description": "Гермы-фигуры."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0094 = с. 88. Номер слева. Подписи нет. Рубрика DESIDIA. над девизом внутри рамы."
+}

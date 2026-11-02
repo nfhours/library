@@ -1,0 +1,62 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 83,
+ "source": "scan/frame_0083.jpg",
+ "page": "77",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SVPERBIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "φιλαυτία."
+    ],
+    "reading": "φιλαυτία."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Нарцисс склоняется над источником, глядя на своё отражение; лес, скалы и горы на заднем плане.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quòd nimiùm tua forma tibi Narciſſe placebat,",
+     "In florem,& noti eſt verſa ſtuporis olus.",
+     "Ingenij eſt marcor,cladeſq; Philautia:doctos",
+     "Quæ peſſum plures datq; deditq; viros:",
+     "Qui veterũ abiecta methodo,noua dogmata q̃rũt,",
+     "Nilq; ſuas præter tradere phantaſias."
+    ],
+    "reading": [
+     "Quòd nimiùm tua forma tibi Narcisse placebat,",
+     "In florem, & noti est versa stuporis olus.",
+     "Ingenii est marcor, cladesque Philautia: doctos",
+     "Quæ pessum plures datque deditque viros:",
+     "Qui veterum abiecta methodo, nova dogmata quærunt,",
+     "Nilque suas præter tradere phantasias."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Девиз набран греческим шрифтом. Лигатура ct в «doctos», «abiecta». «q̃rũt» — сокращение (= quærunt). «Philautia» — латинизированное греческое слово."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над девизом",
+   "description": "Верхний фриз рамы с маской в венце и волютами."
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы с волютами и розетками."
+  },
+  {
+   "position": "по бокам",
+   "description": "Гермы-фигуры."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0083 = с. 77. Номер справа. Подписи нет."
+}

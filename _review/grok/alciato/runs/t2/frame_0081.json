@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 81,
+ "source": "scan/frame_0081.jpg",
+ "page": "75",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SVPERBIA.",
+ "rubric": "SVPERBIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Superbia."
+    ],
+    "reading": "Superbia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Ниобея, обращённая в камень (каменная фигура слева), у её ног тела убитых детей; в облаках божества (Аполлон и Диана) поражают их стрелами; скалистый пейзаж.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "En ſtatuæ ſtatua,& ductũ de marmore marmor,",
+     "Se conferre deis auſa procax Niobe.",
+     "Eſt vitium muliebre ſuperbia,& arguit oris",
+     "Duritiem,ac ſenſus,qualis ineſt lapidi."
+    ],
+    "reading": [
+     "En statuæ statua, & ductum de marmore marmor,",
+     "Se conferre deis ausa procax Niobe.",
+     "Est vitium muliebre superbia, & arguit oris",
+     "Duritiem, ac sensus, qualis inest lapidi."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Лигатура ct в «ductũ». В «deis» e отпечаталось бледно, похоже на c."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над рубрикой",
+   "description": "Верхний фриз рамы с гирляндой из листьев и волютами."
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз: фигуры, тянущие колесницы/повозки на колёсах, в центре маска-солнце."
+  },
+  {
+   "position": "по бокам",
+   "description": "Гермы-кариатиды."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0081 = с. 75. Номер справа. Подписи нет. Рубрика SVPERBIA. над девизом внутри рамы."
+}

@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 69,
+ "source": "scan/frame_0069.jpg",
+ "page": "63",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVLTITIA.",
+ "rubric": "STVLTITIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Temeritas."
+    ],
+    "reading": "Temeritas."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Колесница, влекомая понёсшими конями, мчится по скалам; возница падает/не может удержать вожжи.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "In præceps rapitur,fruſtra quoque tẽdit habenas",
+     "Auriga:effræni quem vehit[?] oris equus.",
+     "Haud facilè[?] huic credas,ratio quẽ nulla gubernat,",
+     "Et temerè proprio ducitur arbitrio."
+    ],
+    "reading": [
+     "In præceps rapitur, frustra quoque tendit habenas",
+     "Auriga: effræni quem vehit[?] oris equus.",
+     "Haud facilè[?] huic credas, ratio quem nulla gubernat,",
+     "Et temerè proprio ducitur arbitrio."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над заголовком",
+   "description": "Верхний фриз рамы с плетёнкой и дельфинами."
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы с маскароном."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0069 = с. 63. Номер справа. Подписи нет."
+}

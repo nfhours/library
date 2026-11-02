@@ -1,0 +1,53 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 85,
+ "source": "scan/frame_0085.jpg",
+ "page": "79",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "INVIDIA.",
+ "rubric": "INVIDIA.",
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": {
+    "position": "между рубрикой и эпиграммой",
+    "description": "Зависть — исхудалая женщина в длинном платье, с посохом (терновым), идёт по полю, держа у рта змею (поедает змеиное мясо); слева в облаках ветер/солнце с лучами; холмы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Squallida vipereas manducans fœmina carnes,",
+     "Cuiq; dolent oculi, quæq; ſuum cor edit,",
+     "Quam macies,& pallor habent,ſpinoſaq; geſtat",
+     "Tela manu.Talis pingitur inuidia."
+    ],
+    "reading": [
+     "Squallida vipereas manducans fœmina carnes,",
+     "Cuique dolent oculi, quæque suum cor edit,",
+     "Quam macies, & pallor habent, spinosaque gestat",
+     "Tela manu.Talis pingitur invidia."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. В строке 2 после запятых напечатаны пробелы («Cuiq; dolent oculi, quæq;»). Отдельного девиза нет: над гравюрой только строка «INVIDIA.» курсивными прописными."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над рубрикой",
+   "description": "Верхний фриз рамы: густая листва и плоды."
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы: пейзаж с городом и холмами."
+  },
+  {
+   "position": "по бокам",
+   "description": "Узловатые стволы деревьев с листвой."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0085 = с. 79. Номер справа. Подписи нет."
+}

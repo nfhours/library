@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 95,
+ "source": "scan/frame_0095.jpg",
+ "page": "89",
+ "signature": "F 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "DESIDIA.[?]",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Deſidiam abijciendam."
+    ],
+    "reading": "Desidiam abiiciendam."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Двое мужчин сидят у хижины под навесом; один (старший) обращается к другому, праздно сидящему на мерке/хлебной мере; деревья и стена на заднем плане.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quiſquis iners abeat.Nam in chœnice ſigere ſedẽ,",
+     "Nos prohibent Samij dogmata ſancta ſenis.",
+     "Surge igitur,duroq; manus adſueſce labori,",
+     "Det tibi dimenſos craſtina vt hora cibos."
+    ],
+    "reading": [
+     "Quisquis iners abeat.Nam in chœnice sigere sedem,",
+     "Nos prohibent Samii dogmata sancta senis.",
+     "Surge igitur, duroque manus adsuesce labori,",
+     "Det tibi dimensos crastina ut hora cibos."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Лигатура ct в «ſancta». «ſigere» напечатано так (ожидалось «figere» — ſ вместо f?)."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над девизом",
+   "description": "Верхний фриз рамы с маской между двумя постаментами и волютами."
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы: лента-плетёнка, ниже тритоны/морские фигуры с волютами."
+  },
+  {
+   "position": "по бокам",
+   "description": "Гермы-фигуры; внутренняя рамка эпиграммы с цепочным орнаментом."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0095 = с. 89. Номер справа. Подпись «F 5»."
+}

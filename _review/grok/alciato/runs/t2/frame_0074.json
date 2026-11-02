@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 74,
+ "source": "scan/frame_0074.jpg",
+ "page": "68",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVI[?]TITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Cuculi."
+    ],
+    "reading": "Cuculi."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Виноградник: слева двое крестьян (один с серпом/садовым ножом) указывают и насмехаются над третьим, работающим среди лоз; на дереве кукушка; облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Ruricolas,[?]agreſte genus,plerique cuculos",
+     "Cur vocitent,quænam prodita cauſa fuit?",
+     "Vere nouo cantat Coccyx,quo tempore vites",
+     "Qui non abſoluit,iure notatur iners.",
+     "Fert oua in nidos alienos,qualiter ille",
+     "Cui thalamum prodit vxor adulterio."
+    ],
+    "reading": [
+     "Ruricolas, [?]agreste genus, plerique cuculos",
+     "Cur vocitent, quænam prodita causa fuit?",
+     "Vere novo cantat Coccyx, quo tempore vites",
+     "Qui non absolvit, iure notatur iners.",
+     "Fert ova in nidos alienos, qualiter ille",
+     "Cui thalamum prodit uxor adulterio."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. «Coccyx» набрано прямым шрифтом (антиквой). В строке 5 «F ert» — широкий пробел после F; «ouain» без отчётливого пробела, передано как «oua in»."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над девизом",
+   "description": "Верхний фриз рамы с гротесками и маской."
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы с волютами и монограммой «PV» (как на кадре 0073)."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0074 = с. 68. Номер слева. Подписи нет."
+}

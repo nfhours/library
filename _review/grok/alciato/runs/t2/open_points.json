@@ -962,5 +962,437 @@
   "resolver": "zoom",
   "frame": 66,
   "page": "60"
+ },
+ {
+  "location": "эпиграмма, строка 2, «Ghamæleon»",
+  "as_read": "Ghamæleon",
+  "candidates": [
+   "Chamæleon — опечатка (G вместо C)",
+   "как напечатано"
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 67,
+  "page": "61"
+ },
+ {
+  "location": "эпиграмма, строка 2, «vehit»",
+  "as_read": "vchit",
+  "candidates": [
+   "vehit — e повреждена/похожа на c",
+   "как видно"
+  ],
+  "type": "glyph",
+  "resolver": "zoom",
+  "frame": 69,
+  "page": "63"
+ },
+ {
+  "location": "эпиграмма, строка 3, «facilè»",
+  "as_read": "faeilè",
+  "candidates": [
+   "facilè — c похожа на e",
+   "faeilè — опечатка"
+  ],
+  "type": "glyph",
+  "resolver": "zoom",
+  "frame": 69,
+  "page": "63"
+ },
+ {
+  "location": "колонтитул, знак в конце",
+  "as_read": "STVLTITIA. + надстрочная точка",
+  "candidates": [
+   "STVLTITIA.",
+   "STVLTITIA:"
+  ],
+  "type": "punctuation",
+  "resolver": "zoom",
+  "frame": 71,
+  "page": "65"
+ },
+ {
+  "location": "эпиграмма, строка 7, «cladém que»",
+  "as_read": "cladém que",
+  "candidates": [
+   "cladémque — слить в слое чтения (энклитика)",
+   "оставить раздельно"
+  ],
+  "type": "other",
+  "resolver": "user",
+  "frame": 71,
+  "page": "65"
+ },
+ {
+  "location": "эпиграмма, строка 2, «tenêbras»",
+  "as_read": "tenêbras",
+  "candidates": [
+   "tenêbras — циркумфлекс",
+   "tenebras"
+  ],
+  "type": "diacritic",
+  "resolver": "zoom",
+  "frame": 73,
+  "page": "67"
+ },
+ {
+  "location": "колонтитул",
+  "as_read": "STVITITIA.",
+  "candidates": [
+   "STVLTITIA. — L отпечаталась как I (стёрта нижняя черта)",
+   "STVITITIA. — опечатка"
+  ],
+  "type": "glyph",
+  "resolver": "zoom",
+  "frame": 74,
+  "page": "68"
+ },
+ {
+  "location": "эпиграмма, строка 1, знак после «Ruricolas»",
+  "as_read": ", (под строкой, похож на точку с хвостом)",
+  "candidates": [
+   ",",
+   "."
+  ],
+  "type": "punctuation",
+  "resolver": "zoom",
+  "frame": 74,
+  "page": "68"
+ },
+ {
+  "location": "эпиграмма, строка 5, «oua in»",
+  "as_read": "ouain",
+  "candidates": [
+   "oua in — пробел не пропечатался",
+   "ouain — как видно"
+  ],
+  "type": "other",
+  "resolver": "zoom",
+  "frame": 74,
+  "page": "68"
+ },
+ {
+  "location": "эпиграмма, строка 3, знак перед «mala»",
+  "as_read": "trahitur .mala",
+  "candidates": [
+   "trahitur. mala — точка",
+   "trahitur, mala — запятая",
+   "пятно"
+  ],
+  "type": "punctuation",
+  "resolver": "zoom",
+  "frame": 76,
+  "page": "70"
+ },
+ {
+  "location": "эпиграмма, строка 7, знак после «vtrumq;»",
+  "as_read": "vtrumq;,",
+  "candidates": [
+   "vtrumq;, — запятая после q;",
+   "vtrumq; — без запятой (след)"
+  ],
+  "type": "punctuation",
+  "resolver": "zoom",
+  "frame": 76,
+  "page": "70"
+ },
+ {
+  "location": "эпиграмма, строка 1, знак после «Alcæam»",
+  "as_read": "Alcæam' veteres",
+  "candidates": [
+   "пятно",
+   "апостроф/штрих"
+  ],
+  "type": "other",
+  "resolver": "zoom",
+  "frame": 77,
+  "page": "71"
+ },
+ {
+  "location": "эпиграмма, строка 2, «ille»",
+  "as_read": "illę",
+  "candidates": [
+   "ille — хвостик пятно",
+   "illę — напечатано e caudata"
+  ],
+  "type": "glyph",
+  "resolver": "zoom",
+  "frame": 77,
+  "page": "71"
+ },
+ {
+  "location": "колонтитул",
+  "as_read": "STVLTLTIA.",
+  "candidates": [
+   "STVLTLTIA. — опечатка (L вместо I), записано как напечатано",
+   "STVLTITIA. — норма"
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 79,
+  "page": "73"
+ },
+ {
+  "location": "колонтитул",
+  "as_read": "STVLTLTIA.",
+  "candidates": [
+   "STVLTLTIA. — опечатка, записано как напечатано",
+   "STVLTITIA."
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 80,
+  "page": "74"
+ },
+ {
+  "location": "эпиграмма, строка 5, штрих над «obliuio»",
+  "as_read": "obliuio + штрих",
+  "candidates": [
+   "пятно",
+   "обратный апостроф"
+  ],
+  "type": "other",
+  "resolver": "zoom",
+  "frame": 80,
+  "page": "74"
+ },
+ {
+  "location": "эпиграмма, строка 2, «deis»",
+  "as_read": "dcis",
+  "candidates": [
+   "deis — e бледная",
+   "dcis — опечатка"
+  ],
+  "type": "glyph",
+  "resolver": "zoom",
+  "frame": 81,
+  "page": "75"
+ },
+ {
+  "location": "эпиграмма, строка 5, «q̃rũt»",
+  "as_read": "q̃rũt",
+  "candidates": [
+   "quærunt",
+   "querunt"
+  ],
+  "type": "abbreviation",
+  "resolver": "user",
+  "frame": 83,
+  "page": "77"
+ },
+ {
+  "location": "эпиграмма, строка 1, «nimiùm»",
+  "as_read": "nimiùm",
+  "candidates": [
+   "nimiùm",
+   "nimiũm"
+  ],
+  "type": "diacritic",
+  "resolver": "zoom",
+  "frame": 83,
+  "page": "77"
+ },
+ {
+  "location": "девиз (греческий)",
+  "as_read": "φιλαυτία.",
+  "candidates": [
+   "φιλαυτία. — с ударением на ι",
+   "φιλαυτἰα"
+  ],
+  "type": "glyph",
+  "resolver": "zoom",
+  "frame": 83,
+  "page": "77"
+ },
+ {
+  "location": "эпиграмма, строка 1, «matutiuos»",
+  "as_read": "matutiuos",
+  "candidates": [
+   "matutinos — n отпечаталась как u (перевёрнутая литера)",
+   "matutiuos — опечатка"
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 84,
+  "page": "78"
+ },
+ {
+  "location": "эпиграмма, строка 1, «Progne»",
+  "as_read": "Pro?ne",
+  "candidates": [
+   "Progne"
+  ],
+  "type": "glyph",
+  "resolver": "zoom",
+  "frame": 84,
+  "page": "78"
+ },
+ {
+  "location": "эпиграмма, строка 4, «ſtripitùs»",
+  "as_read": "ſtripitùs",
+  "candidates": [
+   "ſtripitùs — как напечатано",
+   "ſtirpitùs — норма (опечатка-метатеза)"
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 84,
+  "page": "78"
+ },
+ {
+  "location": "девиз/рубрика",
+  "as_read": "INVIDIA. (единственная строка над гравюрой)",
+  "candidates": [
+   "рубрика без девиза (как на 0061)",
+   "девиз «INVIDIA.»"
+  ],
+  "type": "structure",
+  "resolver": "user",
+  "frame": 85,
+  "page": "79"
+ },
+ {
+  "location": "эпиграмма, строка 1, «Fanuus»",
+  "as_read": "Fanuus",
+  "candidates": [
+   "Fanuus — опечатка, как напечатано",
+   "Faunus"
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 86,
+  "page": "80"
+ },
+ {
+  "location": "рубрика, точка после L",
+  "as_read": "L.VXVRIA.",
+  "candidates": [
+   "LVXVRIA. — пятно",
+   "L.VXVRIA."
+  ],
+  "type": "punctuation",
+  "resolver": "zoom",
+  "frame": 86,
+  "page": "80"
+ },
+ {
+  "location": "подпись",
+  "as_read": "буква, похожая на E (верх повреждён)",
+  "candidates": [
+   "F — ожидается по порядку тетрадей (кадр 87 = F)",
+   "E"
+  ],
+  "type": "signature",
+  "resolver": "zoom",
+  "frame": 87,
+  "page": "81"
+ },
+ {
+  "location": "эпиграмма, строка 2 (перенос), «ab,non»",
+  "as_read": "ab,non",
+  "candidates": [
+   "ah,non — h с повреждённой петлёй/ошибка набора",
+   "ab,non — как видно"
+  ],
+  "type": "glyph",
+  "resolver": "user",
+  "frame": 88,
+  "page": "82"
+ },
+ {
+  "location": "эпиграмма, строки 1–2",
+  "as_read": "перенос «ab,non» на отдельную строку",
+  "candidates": [
+   "конец стиха 1 (так по смыслу и метру)",
+   "начало стиха 2"
+  ],
+  "type": "structure",
+  "resolver": "user",
+  "frame": 88,
+  "page": "82"
+ },
+ {
+  "location": "эпиграмма, строка 1, «Ephyrææ»",
+  "as_read": "Ephyrææ",
+  "candidates": [
+   "Ephyrææ",
+   "Ephyreæ"
+  ],
+  "type": "glyph",
+  "resolver": "zoom",
+  "frame": 88,
+  "page": "82"
+ },
+ {
+  "location": "эпиграмма, строка 5, «nomine»",
+  "as_read": "nomine (o похоже на e)",
+  "candidates": [
+   "nomine",
+   "nemine — опечатка"
+  ],
+  "type": "glyph",
+  "resolver": "zoom",
+  "frame": 90,
+  "page": "84"
+ },
+ {
+  "location": "эпиграмма, строка 2, «magieis»",
+  "as_read": "magieis",
+  "candidates": [
+   "magicis — c отпечаталась как e",
+   "magieis — опечатка"
+  ],
+  "type": "glyph",
+  "resolver": "user",
+  "frame": 92,
+  "page": "86"
+ },
+ {
+  "location": "эпиграмма, строка 3, «cucullo»",
+  "as_read": "cuculo",
+  "candidates": [
+   "cuculo — как напечатано",
+   "cucullo — норма (капюшон)"
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 94,
+  "page": "88"
+ },
+ {
+  "location": "колонтитул",
+  "as_read": "DESIDIA, (знак похож на запятую)",
+  "candidates": [
+   "DESIDIA.",
+   "DESIDIA,"
+  ],
+  "type": "punctuation",
+  "resolver": "zoom",
+  "frame": 95,
+  "page": "89"
+ },
+ {
+  "location": "эпиграмма, строка 1, «ſigere»",
+  "as_read": "ſigere",
+  "candidates": [
+   "figere — f с повреждённой перекладиной",
+   "ſigere — опечатка"
+  ],
+  "type": "glyph",
+  "resolver": "zoom",
+  "frame": 95,
+  "page": "89"
+ },
+ {
+  "location": "эпиграмма, строка 2, «Remorumq;,»",
+  "as_read": "Remorumq;,",
+  "candidates": [
+   "Remorumq; — запятая лишняя (след)",
+   "Remorumq;, — как напечатано"
+  ],
+  "type": "punctuation",
+  "resolver": "zoom",
+  "frame": 96,
+  "page": "90"
  }
 ]

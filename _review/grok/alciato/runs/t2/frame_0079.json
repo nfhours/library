@@ -1,0 +1,62 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 79,
+ "source": "scan/frame_0079.jpg",
+ "page": "73",
+ "signature": "E 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVLTLTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Fatuitas."
+    ],
+    "reading": "Fatuitas."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Птицелов лежит/приседает на земле у кустов, подманивая ушастую сову (отус); на заднем плане город, восходящее солнце с лучами.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Miraris noſtro quòd carmine diceris Otus,",
+     "Sit vetus à proauis cum tibi nomen Otho.",
+     "Aurita eſt,ſimiles,& habet ceu noctua plumas,",
+     "Saltantemq; auceps mancipat aptus auem.",
+     "Hinc fatuos,captu & faciles,nos dicimus otos,",
+     "Hoc tibi conueniens tu quoque nomen habe."
+    ],
+    "reading": [
+     "Miraris nostro quòd carmine diceris Otus,",
+     "Sit vetus à proavis cum tibi nomen Otho.",
+     "Aurita est, similes, & habet ceu noctua plumas,",
+     "Saltantemque auceps mancipat aptus avem.",
+     "Hinc fatuos, captu & faciles, nos dicimus otos,",
+     "Hoc tibi conveniens tu quoque nomen habe."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Лигатура ct в «noctua». Перед строкой 4 на поле точка (пятно)."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над девизом",
+   "description": "Верхний фриз рамы с маскароном в арке и лежащими фигурами."
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы с гротескной маской над гадрованным карнизом."
+  },
+  {
+   "position": "по бокам",
+   "description": "Гермы с драпировкой."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0079 = с. 73. Номер справа. Подпись «E 5». Колонтитул напечатан с ошибкой «STVLTLTIA.»; ср. «STVITITIA.» на кадре 0074 (той же форме? — возможно, перепутаны литеры L/I)."
+}

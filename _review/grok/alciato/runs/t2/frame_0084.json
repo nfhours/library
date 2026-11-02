@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 84,
+ "source": "scan/frame_0084.jpg",
+ "page": "78",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SVPERBIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Garrulitas."
+    ],
+    "reading": "Garrulitas."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Сельский дом под соломенной крышей; ласточка влетает/сидит у окна, человек у двери (разбуженный); восходящее солнце с лучами справа.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quid matutiuos Progne mihi garrula ſomnos",
+     "Rumpis? & obſtrepero Daulias ore canis?",
+     "Dignus Epops Tereus,qui maluit enſe putare,",
+     "Quàm linguam immodicam ſtripitùs eruere."
+    ],
+    "reading": [
+     "Quid matutivos Progne mihi garrula somnos",
+     "Rumpis? & obstrepero Daulias ore canis?",
+     "Dignus Epops Tereus, qui maluit ense putare,",
+     "Quàm linguam immodicam stripitùs eruere."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. В «Progne» литера g смазана. «ſtripitùs» напечатано так (ожидалось бы «ſtirpitùs»)."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над девизом",
+   "description": "Верхний фриз рамы с маской в венце и волютами (как на 0083)."
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы с волютами и розетками (как на 0083)."
+  },
+  {
+   "position": "по бокам",
+   "description": "Гермы-фигуры."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0084 = с. 78. Номер слева. Подписи нет."
+}

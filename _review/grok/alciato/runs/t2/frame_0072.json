@@ -1,0 +1,63 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 72,
+ "source": "scan/frame_0072.jpg",
+ "page": "66",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVLTITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In eos qui ſupra vires quic-",
+     "quam audent."
+    ],
+    "reading": "In eos qui supra vires quicquam audent."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Геракл спит, раскинувшись под деревом (елью) на шкуре льва; толпа пигмеев с оружием подступает к нему; холмистый пейзаж.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Dum dormit, dulci recreat dum corpora ſomno,",
+     "Sub picea,& clauam cæteraq; arma tenet,",
+     "Alciden,Pygmæa manus proſternere letho",
+     "Poſſe putat:vires non bene docta ſuas.",
+     "Excitus ipſe,velut pulices,ſic proterit hoſtem,",
+     "Et ſæui implicitum pelle leonis agit."
+    ],
+    "reading": [
+     "Dum dormit, dulci recreat dum corpora somno,",
+     "Sub picea, & clavam cæteraque arma tenet,",
+     "Alciden, Pygmæa manus prosternere letho",
+     "Posse putat: vires non bene docta suas.",
+     "Excitus ipse, velut pulices, sic proterit hostem,",
+     "Et sævi implicitum pelle leonis agit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. «docta» — лигатура ct. В строке 1 после запятой напечатан пробел."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над девизом",
+   "description": "Верхний фриз рамы с картушем и гирляндами."
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы с маскароном в листве."
+  },
+  {
+   "position": "по бокам",
+   "description": "Маски-маскароны в раме."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0072 = с. 66. Номер слева. Подписи нет."
+}

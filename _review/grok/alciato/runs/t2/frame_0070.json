@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 70,
+ "source": "scan/frame_0070.jpg",
+ "page": "64",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVLTITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Furor,& rabies."
+    ],
+    "reading": "Furor, & rabies."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Воин в доспехах и шлеме с поднятым мечом стоит со щитом (на щите голова льва); позади военный лагерь с шатрами и деревья.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Ora gerit clypeus rabioſi picta leonis,",
+     "Et ſcriptũ in ſummo margine carmen habet:",
+     "Hic hominum eſt terror,cuius poſſeſſor Atrida",
+     "Talia magnanimus ſigna Agamemno tulit."
+    ],
+    "reading": [
+     "Ora gerit clypeus rabiosi picta leonis,",
+     "Et scriptum in summo margine carmen habet:",
+     "Hic hominum est terror, cuius possessor Atrida",
+     "Talia magnanimus signa Agamemno tulit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. «picta» — лигатура ct. Под текстом посторонний знак (пятно)."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над девизом",
+   "description": "Верхний фриз рамы с плетёнкой и дельфинами."
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы с маскароном; в левой части мелкая литера «P» (монограмма резчика?)."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0070 = с. 64. Номер слева. Подписи нет."
+}

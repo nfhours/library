@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 86,
+ "source": "scan/frame_0086.jpg",
+ "page": "80",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "LVXVRIA.",
+ "rubric": "LVXVRIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Luxuria."
+    ],
+    "reading": "Luxuria."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Козлоногий Фавн (сатир) с венком на голове стоит в пейзаже с деревьями, холмами и облаками.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Eruca capripes redimitus tempora Fanuus",
+     "Immodicæ Veneris ſymbola certa refert.",
+     "Eſt eruca ſalax,iudexque libidinis hircus,",
+     "Et ſatyri nymphas ſemper amare ſolent."
+    ],
+    "reading": [
+     "Eruca capripes redimitus tempora Fanuus",
+     "Immodicæ Veneris symbola certa refert.",
+     "Est eruca salax, iudexque libidinis hircus,",
+     "Et satyri nymphas semper amare solent."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. «Fanuus» напечатано так (ожидалось «Faunus»). Под x в «iudexque» точка (пятно)."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над рубрикой",
+   "description": "Верхний фриз рамы: листва и плоды (как на 0085)."
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы: пейзаж с городом (как на 0085)."
+  },
+  {
+   "position": "по бокам",
+   "description": "Узловатые стволы деревьев."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0086 = с. 80. Номер слева. Подписи нет. Рубрика LVXVRIA. над девизом внутри рамы."
+}

@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 91,
+ "source": "scan/frame_0091.jpg",
+ "page": "85",
+ "signature": "F 3",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "LVXVRIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Amuletum Veneris."
+    ],
+    "reading": "Amuletum Veneris."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Пейзаж: Адонис, сражённый вепрем, лежит на земле; рядом Венера (с Амуром) склоняется над ним; вепрь и собака; хижина и холмы с постройками на заднем плане.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Inguina dente fero ſuffoſſum Cypris Adonin",
+     "Lactucæ folijs condidit exanimem.",
+     "Hinc genitali aruo tantum lactuca reſiſtit,",
+     "Quantum eruca ſalax vix ſtimulare poteſt."
+    ],
+    "reading": [
+     "Inguina dente fero suffossum Cypris Adonin",
+     "Lactucæ foliis condidit exanimem.",
+     "Hinc genitali arvo tantum lactuca resistit,",
+     "Quantum eruca salax vix stimulare potest."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Лигатура ct в «Lactucæ», «lactuca»."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над девизом",
+   "description": "Верхний фриз рамы с корзиной плодов и лентами."
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы с гротескной маской и волютами."
+  },
+  {
+   "position": "по бокам",
+   "description": "Гермы-фигуры."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0091 = с. 85. Номер справа. Подпись «F 3»."
+}

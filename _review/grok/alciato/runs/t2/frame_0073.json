@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 73,
+ "source": "scan/frame_0073.jpg",
+ "page": "67",
+ "signature": "E 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVLTITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Impoſsibile."
+    ],
+    "reading": "Impossibile."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Двое мужчин моют (трут) сидящего эфиопа; рядом колодец с воротом и кувшин.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Abluis Æthiopem,quid fruſtra? ah deſine. noctis",
+     "Illuſtrare nigræ nemo poteſt tenêbras."
+    ],
+    "reading": [
+     "Abluis Æthiopem, quid frustra? ah desine. noctis",
+     "Illustrare nigræ nemo potest tenêbras."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; вторая строка с отступом. Двустишие. Пробелы после «?» и «.» в строке 1 напечатаны."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над девизом",
+   "description": "Верхний фриз рамы с гротесками."
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы с волютами; в центре монограмма «PV»."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0073 = с. 67. Номер справа (напечатан «67», цифра 7 частично похожа на 1). Подпись «E 2»."
+}

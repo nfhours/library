@@ -1,0 +1,72 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 88,
+ "source": "scan/frame_0088.jpg",
+ "page": "82",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "LVXVRIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Tumulus meretricis."
+    ],
+    "reading": "Tumulus meretricis."
+   },
+   "subheading": {
+    "diplomatic": "Διαλογιστικῶς.",
+    "reading": "Διαλογιστικῶς."
+   },
+   "engraving": {
+    "position": "между подзаголовком и эпиграммой",
+    "description": "Гробница: на саркофаге лежит фигура умершей; на передней стенке саркофага рельеф — львица, схватившая когтями барана за заднюю часть; за саркофагом стена и колоннада.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quis tumulus? Cuia vrna? Ephyrææ eſt Laidos.",
+     "ab,non",
+     "Erubuit tantum perdere Parca decus?",
+     "Nulla fuit tum forma.illam iam carpſerat ætas,",
+     "Iam ſpeculum Veneri cauta dicarat anus.",
+     "Quid ſcalptus ſibi vult aries,quem parte leæna",
+     "Vnguibus apprehenſum poſteriore tenet?",
+     "Non aliter captos quòd & ipſa teneret amantes,",
+     "Vir gregis eſt aries,clune tenetur amans."
+    ],
+    "reading": [
+     "Quis tumulus? Cuia urna? Ephyrææ est Laidos.",
+     "ab, non",
+     "Erubuit tantum perdere Parca decus?",
+     "Nulla fuit tum forma.illam iam carpserat ætas,",
+     "Iam speculum Veneri cauta dicarat anus.",
+     "Quid scalptus sibi vult aries, quem parte leæna",
+     "Unguibus apprehensum posteriore tenet?",
+     "Non aliter captos quòd & ipsa teneret amantes,",
+     "Vir gregis est aries, clune tenetur amans."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Подзаголовок набран греческим шрифтом (στ — лигатура). Конец первого стиха («ab,non») не поместился и перенесён на отдельную строку под ним, с отступом; в обоих слоях оставлено как напечатано. В «Erubuit tantum» широкий пробел после «tantum»."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над девизом",
+   "description": "Верхний фриз рамы: плетёный/арабесковый орнамент (как на 0087)."
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы: плетёный орнамент."
+  },
+  {
+   "position": "по бокам",
+   "description": "Плетёные ленточные полосы."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0088 = с. 82. Номер слева. Подписи нет."
+}

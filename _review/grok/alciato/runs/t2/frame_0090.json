@@ -1,0 +1,62 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 90,
+ "source": "scan/frame_0090.jpg",
+ "page": "84",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "LVXVRIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Cauendum à meretricibus."
+    ],
+    "reading": "Cavendum à meretricibus."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Цирцея сидит на троне с жезлом в руке; вокруг неё люди, превращённые в зверей (свиньи, волк, лев, медведь); позади башня и постройки.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Sole ſatæ Circes tam magna potentia fertur,",
+     "Verterit vt multos in noua monſtra viros.",
+     "Teſtis equûm domitor Picus, tum Scylla biformis,",
+     "Atque Ithaci poſtquàm vina bibêre ſues.",
+     "Indicat illuſtri meretricem nomine Circe,",
+     "Et rationem animi perdere,quiſquis amat."
+    ],
+    "reading": [
+     "Sole satæ Circes tam magna potentia fertur,",
+     "Verterit ut multos in nova monstra viros.",
+     "Testis equûm domitor Picus, tum Scylla biformis,",
+     "Atque Ithaci postquàm vina bibêre sues.",
+     "Indicat illustri meretricem nomine Circe,",
+     "Et rationem animi perdere, quisquis amat."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. В строке 3 после «Picus,» напечатан пробел."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над девизом",
+   "description": "Верхний фриз рамы: арабески (как на 0089)."
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы: арабески с цветком (как на 0089)."
+  },
+  {
+   "position": "по бокам",
+   "description": "Вертикальные арабески-волюты."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0090 = с. 84. Номер слева. Подписи нет."
+}
