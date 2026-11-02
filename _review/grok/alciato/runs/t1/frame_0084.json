@@ -1,0 +1,45 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 84,
+ "source": "scan/frame_0084.jpg",
+ "page": "78",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SVPERBIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Garrulitas."
+    ],
+    "reading": "Garrulitas."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Ласточка влетает в окно дома/хижины под крышей; справа восходящее солнце с лучами; деревья.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quid matutinos Progne mihi garrula ſomnos",
+     "Rumpis? & obſtrepero Daulias ore canis?",
+     "Dignus Epops Tereus,qui maluit enſe putare,",
+     "Quàm linguam immodicam ſtripitus eruere."
+    ],
+    "reading": [
+     "Quid matutinos Progne mihi garrula somnos",
+     "Rumpis? & obstrepero Daulias ore canis?",
+     "Dignus Epops Tereus, qui malvit ense putare,",
+     "Quàm linguam immodicam stripitus ervere."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «78» вверху слева."
+}

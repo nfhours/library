@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 72,
+ "source": "scan/frame_0072.jpg",
+ "page": "66",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVLTITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In eos qui ſupra vires quic-",
+     "quam audent."
+    ],
+    "reading": "In eos qui supra vires quicquam audent."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Геракл спит, раскинувшись под деревом, рядом дубина; на него нападает толпа пигмеев с оружием; холмистый пейзаж.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Dum dormit,dulci recreat dum corpora ſomno,",
+     "Sub picea,& clauam cæteraq; arma tenet,",
+     "Alciden,Pygmæa manus proſternere letho",
+     "Poſſe putat:vires non bene docta ſuas.",
+     "Excitus ipſe,velut pulices,ſic proterit hoſtem,",
+     "Et ſæui implicitum pelle leonis agit."
+    ],
+    "reading": [
+     "Dum dormit, dulci recreat dum corpora somno,",
+     "Sub picea, & clavam cæteraque arma tenet,",
+     "Alciden, Pygmæa manus prosternere letho",
+     "Posse putat: vires non bene docta suas.",
+     "Excitus ipse, velut pulices, sic proterit hostem,",
+     "Et sævi implicitum pelle leonis agit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «66» вверху слева."
+}

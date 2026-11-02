@@ -1,0 +1,53 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 63,
+ "source": "scan/frame_0063.jpg",
+ "page": "57",
+ "signature": "D 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PERFIDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In fraudulentos."
+    ],
+    "reading": "In fraudulentos."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "На переднем плане большая пятнистая ящерица (стеллион) на земле у гробницы/камня; позади люди лезут на дерево и стоят на скале; вдали город.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Parua lacerta,atris ſtellatus corpora guttis",
+     "Stellio,qui latêbras,& caua buſta colit,",
+     "Inuidiæ,prauiq; doli fert ſymbola pictus.",
+     "Heu nimiùm nuribus cognita zelotypis.",
+     "Nam turpi obtegitur faciem lentigine quiſquis,",
+     "Sit quibus immerſus Stellio,vina bibat.",
+     "Hinc vindicta frequens decepta pellice vino,",
+     "Quam formæ amiſſo flore relinquit amans."
+    ],
+    "reading": [
+     "Parva lacerta, atris stellatus corpora guttis",
+     "Stellio, qui latêbras, & cava busta colit,",
+     "Invidiæ, pravique doli fert symbola pictus.",
+     "Hev nimiùm nuribus cognita zelotypis.",
+     "Nam turpi obtegitur faciem lentigine quisquis,",
+     "Sit quibus immersus Stellio, vina bibat.",
+     "Hinc vindicta frequens decepta pellice vino,",
+     "Quam formæ amisso flore relinquit amans."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «57» вверху справа; сигнатура «D 5» внизу справа."
+}

@@ -1,0 +1,64 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 74,
+ "source": "scan/frame_0074.jpg",
+ "page": "68",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVITITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Cuculi."
+    ],
+    "reading": "Cuculi."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Крестьянин с палкой/посохом указывает на кукушку на дереве; на заднем плане виноградник с работниками, деревня; облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Ruricolas,agreſte genus,plerique cuculos",
+     "Cur vocitent,quænam prodita cauſa fuit?",
+     "Vere nouo cantat Coccyx,quo tempore vites",
+     "Qui non abſoluit,iure notatur iners.",
+     "Fert ouain nidos alienos,qualiter ille",
+     "Cui thalamum prodit vxor adulterio."
+    ],
+    "reading": [
+     "Ruricolas, agreste genus, plerique cuculos",
+     "Cur vocitent, quænam prodita causa fuit?",
+     "Vere novo cantat Coccyx, quo tempore vites",
+     "Qui non absolvit, iure notatur iners.",
+     "Fert ovain nidos alienos, qualiter ille",
+     "Cui thalamum prodit uxor adulterio."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [
+  {
+   "printed": "STVITITIA.",
+   "corrected": "STVLTITIA.",
+   "certainty": "очевидная",
+   "applied_in_reading": false,
+   "comment": "колонтитул; см. open_points"
+  },
+  {
+   "printed": "ouain",
+   "corrected": "oua in",
+   "certainty": "очевидная",
+   "applied_in_reading": false,
+   "comment": "эпиграмма, строка 5; см. open_points"
+  }
+ ],
+ "ornaments": [],
+ "notes": "Номер страницы «68» вверху слева. Колонтитул напечатан «STVITITIA.» (I вместо L)."
+}

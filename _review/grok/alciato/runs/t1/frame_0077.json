@@ -1,0 +1,45 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 77,
+ "source": "scan/frame_0077.jpg",
+ "page": "71",
+ "signature": "E 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVLTITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ira."
+    ],
+    "reading": "Ira."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Разъярённый лев бьёт себя хвостом, вокруг охотники с копьями и собаки; лес; в небе птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Alcæam veteres caudam dixêre Leonis,",
+     "Qua ſtimulante iras concipit ille graues.",
+     "Lutea cùm ſurgit bilis,crudeſcit & atro",
+     "Felle dolor,furias excitat indomitas."
+    ],
+    "reading": [
+     "Alcæam veteres caudam dixêre Leonis,",
+     "Qua stimulante iras concipit ille graves.",
+     "Lutea cùm surgit bilis, crudescit & atro",
+     "Felle dolor, furias excitat indomitas."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «71» вверху справа; сигнатура «E 4» внизу справа."
+}

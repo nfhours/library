@@ -1,0 +1,57 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 80,
+ "source": "scan/frame_0080.jpg",
+ "page": "74",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVLTLTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Obliuio paupertatis parens."
+    ],
+    "reading": "Oblivio paupertatis parens."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Рысь (cervarius) с добычей — оленёнком — на переднем плане оглядывается; позади хижина, холмы, город, восходящее солнце.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Cùm lupus eſuriens mandit ceruarius eſcam,",
+     "Præq; fame captum deuorat hinnuleum,",
+     "Reſpiciat ſi fortè aliò,vel lumina vertat,",
+     "Præſentem oblitus quem tenet vngue cibum,",
+     "Quæritat incertam(tanta eſt obliuio)prædam.",
+     "Qui ſua neglexit ſtultè,aliena petit."
+    ],
+    "reading": [
+     "Cùm lupus esuriens mandit cervarius escam,",
+     "Præque fame captum devorat hinnuleum,",
+     "Respiciat si fortè aliò, vel lumina vertat,",
+     "Præsentem oblitus quem tenet ungue cibum,",
+     "Quæritat incertam(tanta est oblivio)prædam.",
+     "Qui sua neglexit stultè, aliena petit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [
+  {
+   "printed": "STVLTLTIA.",
+   "corrected": "STVLTITIA.",
+   "certainty": "очевидная",
+   "applied_in_reading": false,
+   "comment": "колонтитул; см. open_points"
+  }
+ ],
+ "ornaments": [],
+ "notes": "Номер страницы «74» вверху слева. Колонтитул «STVLTLTIA.» с той же опечаткой, что на кадре 0079."
+}

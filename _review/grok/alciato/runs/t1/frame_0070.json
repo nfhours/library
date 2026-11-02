@@ -1,0 +1,45 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 70,
+ "source": "scan/frame_0070.jpg",
+ "page": "64",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVLTITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Furor,& rabies."
+    ],
+    "reading": "Furor, & rabies."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Воин в античных доспехах и шлеме с перьями (Агамемнон), с мечом и щитом, на котором голова льва; позади лагерь с шатрами, деревья.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Ora gerit clypeus rabioſi picta leonis,",
+     "Et ſcriptũ in ſummo margine carmen habet:",
+     "Hic hominum eſt terror,cuius poſſeſſor Atrida",
+     "Talia magnanimus ſigna Agamemno tulit."
+    ],
+    "reading": [
+     "Ora gerit clypeus rabiosi picta leonis,",
+     "Et scriptum in summo margine carmen habet:",
+     "Hic hominum est terror, cuius possessor Atrida",
+     "Talia magnanimus signa Agamemno tulit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «64» вверху слева."
+}

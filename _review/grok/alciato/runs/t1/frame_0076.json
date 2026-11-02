@@ -1,0 +1,53 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 76,
+ "source": "scan/frame_0076.jpg",
+ "page": "70",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVLTITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Aliud."
+    ],
+    "reading": "Aliud."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Летучая мышь над ночным/сумеречным пейзажем с руинами и холмами; справа светило с ореолом; облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Veſpere quæ tantùm volitat,quæ lumine luſca eſt,",
+     "Quæ cùm alas geſtet,cætera muris habet,",
+     "Ad res diuerſas trahitur.mala nomina primùm",
+     "Signat:quæ latitant iudiciumq; timent.",
+     "Inde & philoſophos,qui dum cœleſtia quærunt,",
+     "Caligant oculis,falſaq; ſola vident.",
+     "Tandẽ & verſutos,cùm clàm ſectentur vtrumq;,",
+     "Acquirunt neutra qui ſibi parte fidem."
+    ],
+    "reading": [
+     "Vespere quæ tantùm volitat, quæ lumine lusca est,",
+     "Quæ cùm alas gestet, cætera muris habet,",
+     "Ad res diversas trahitur.mala nomina primùm",
+     "Signat: quæ latitant iudiciumque timent.",
+     "Inde & philosophos, qui dum cœlestia quærunt,",
+     "Caligant oculis, falsaque sola vident.",
+     "Tandem & versutos, cùm clàm sectentur utrumque,",
+     "Acquirunt neutra qui sibi parte fidem."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «70» вверху слева."
+}

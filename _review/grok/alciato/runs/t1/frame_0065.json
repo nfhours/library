@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 65,
+ "source": "scan/frame_0065.jpg",
+ "page": "59",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PERFIDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Maledicentia."
+    ],
+    "reading": "Maledicentia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Гробница (саркофаг) с картушем-надписью, над которой роем летают осы; по сторонам путти; пейзаж.",
+    "inscriptions": [
+     {
+      "where": "на картуше гробницы",
+      "text": "ARCHILOCHI"
+     },
+     {
+      "where": "в малом картуше под надписью",
+      "text": "M"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Archilochi tumulo inſculptas de marmore veſpas",
+     "Eſſe ferunt,linguæ certa ſigilla malæ."
+    ],
+    "reading": [
+     "Archilochi tumulo insculptas de marmore vespas",
+     "Esse ferunt, linguæ certa sigilla malæ."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "под текстом",
+   "description": "Картуш-заставка с фигурами внутри"
+  }
+ ],
+ "notes": "Номер страницы «59» вверху справа."
+}

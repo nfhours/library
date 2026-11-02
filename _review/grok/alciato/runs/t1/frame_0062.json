@@ -1,0 +1,53 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 62,
+ "source": "scan/frame_0062.jpg",
+ "page": "56",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PERFIDIA.",
+ "rubric": "PERFIDIA.",
+ "rubric_reading": "PERFIDIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In victoriam dolo partam."
+    ],
+    "reading": "In victoriam dolo partam."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Женщина (Доблесть) в отчаянии рвёт на себе волосы, сидя на гробнице Аякса на ступенчатом основании; плиточный пол; облачное небо.",
+    "inscriptions": [
+     {
+      "where": "на боковой стенке гробницы",
+      "text": "D AIACIS"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aiacis tumulum lachrymis ego perluo virtus.",
+     "Heu miſera albentes dilacerata comas.",
+     "Scilicet hoc,reſtabat adhuc,vt iudice Græco",
+     "Vincerer:& cauſa ſtet potiore dolus."
+    ],
+    "reading": [
+     "Aiacis tumulum lachrymis ego perluo virtus.",
+     "Hev misera albentes dilacerata comas.",
+     "Scilicet hoc, restabat adhuc, ut iudice Græco",
+     "Vincerer: & causa stet potiore dolus."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «56» вверху слева. Над заголовком локуса — заголовок раздела «VITIA.» (крупные прямые заглавные).",
+ "section": "VITIA.",
+ "section_reading": "VITIA."
+}

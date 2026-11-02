@@ -1,0 +1,53 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 64,
+ "source": "scan/frame_0064.jpg",
+ "page": "58",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PERFIDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Dolus in ſuos."
+    ],
+    "reading": "Dolus in suos."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Охотник с сетью в кустах у дерева; к нему слетаются утки, приманенные домашней уткой; вдали вода и горы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Altilis allectator anas,& cærula pennis",
+     "Adſueta ad dominos ire redire ſuos.",
+     "Congeneres cernens volitare per aëra turmas",
+     "Garrit:in illarum ſe recipitq; gregem,",
+     "Prætenſa incautas donec ſub retia ducat.",
+     "Obſtrepitant captæ,conſcia at ipſa ſilet.",
+     "Perfida cognato ſe ſanguine polluit ales,",
+     "Officioſa alijs,exitioſa ſuis."
+    ],
+    "reading": [
+     "Altilis allectator anas, & cærula pennis",
+     "Adsueta ad dominos ire redire suos.",
+     "Congeneres cernens volitare per aëra turmas",
+     "Garrit: in illarum se recipitque gregem,",
+     "Prætensa incautas donec sub retia ducat.",
+     "Obstrepitant captæ, conscia at ipsa silet.",
+     "Perfida cognato se sanguine polluit ales,",
+     "Officiosa aliis, exitiosa suis."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «58» вверху слева."
+}

@@ -847,5 +847,322 @@
   "type": "illegible",
   "note": "при увеличении конец надписи частично скрыт штриховкой; полностью читается на обзорном снимке",
   "run": "t1"
+ },
+ {
+  "frame": 61,
+  "page": "55",
+  "location": "девиз",
+  "diplomatic_as_read": "(нет)",
+  "candidates": [
+   "«PVDICITIA.» служит одновременно заголовком локуса и девизом"
+  ],
+  "type": "editorial/reconstruction",
+  "note": "отдельной строки девиза нет; motto=null, текст в rubric",
+  "run": "t1"
+ },
+ {
+  "frame": 62,
+  "page": "56",
+  "location": "эпиграмма, строка 3, «hoc,reſtabat»",
+  "diplomatic_as_read": "hoc,reſtabat",
+  "candidates": [
+   "hoc reſtabat",
+   "hoc,yeſtabat (как выглядит)"
+  ],
+  "type": "illegible",
+  "note": "r после запятой похоже на y",
+  "run": "t1"
+ },
+ {
+  "frame": 62,
+  "page": "56",
+  "location": "гравюра, надпись",
+  "diplomatic_as_read": "D AIACIS",
+  "candidates": [
+   "AIACIS",
+   "D·AIACIS"
+  ],
+  "type": "illegible",
+  "note": "первая буква (D?) у края, далее орнаментальный росчерк",
+  "run": "t1"
+ },
+ {
+  "frame": 66,
+  "page": "60",
+  "location": "эпиграмма, строка 4, «complur[?]s»",
+  "diplomatic_as_read": "complur[?]s",
+  "candidates": [
+   "complures"
+  ],
+  "type": "damage/stain",
+  "note": "буква e искажена (оттиск в виде завитка)",
+  "run": "t1"
+ },
+ {
+  "frame": 66,
+  "page": "60",
+  "location": "эпиграмма, строка 5, «p[?]ſtquàm»",
+  "diplomatic_as_read": "p[?]ſtquàm",
+  "candidates": [
+   "poſtquàm"
+  ],
+  "type": "damage/stain",
+  "note": "o почти не пропечатана",
+  "run": "t1"
+ },
+ {
+  "frame": 66,
+  "page": "60",
+  "location": "эпиграмма, строка 3, «cenſes»",
+  "diplomatic_as_read": "ccnſes?",
+  "candidates": [
+   "cenſes"
+  ],
+  "type": "illegible",
+  "note": "вторая буква похожа на c",
+  "run": "t1"
+ },
+ {
+  "frame": 67,
+  "page": "61",
+  "location": "эпиграмма, строка 2",
+  "diplomatic_as_read": "Ghamæleon",
+  "candidates": [
+   "Chamæleon"
+  ],
+  "type": "typo",
+  "note": "G вместо C",
+  "run": "t1"
+ },
+ {
+  "frame": 67,
+  "page": "61",
+  "location": "эпиграмма, строка 7, «imitatur»",
+  "diplomatic_as_read": "imitatur",
+  "candidates": [
+   "imita[?]ur"
+  ],
+  "type": "damage/stain",
+  "note": "буквы t-u сбиты",
+  "run": "t1"
+ },
+ {
+  "frame": 71,
+  "page": "65",
+  "location": "эпиграмма, строка 7, «cladem que,ſuamq;,»",
+  "diplomatic_as_read": "cladem que,ſuamq;,",
+  "candidates": [
+   "cladem,que ſuamq;"
+  ],
+  "type": "illegible",
+  "note": "расстановка запятых неотчётлива",
+  "run": "t1"
+ },
+ {
+  "frame": 73,
+  "page": "67",
+  "location": "эпиграмма, строка 1, «Aethiopem»",
+  "diplomatic_as_read": "Aethiopem",
+  "candidates": [
+   "Æthiopem"
+  ],
+  "type": "illegible",
+  "note": "A и e раздельно или лигатура Æ — неясно",
+  "run": "t1"
+ },
+ {
+  "frame": 74,
+  "page": "68",
+  "location": "колонтитул",
+  "diplomatic_as_read": "STVITITIA.",
+  "candidates": [
+   "STVLTITIA."
+  ],
+  "type": "typo",
+  "note": "I вместо L",
+  "run": "t1"
+ },
+ {
+  "frame": 74,
+  "page": "68",
+  "location": "эпиграмма, строка 5, «ouain»",
+  "diplomatic_as_read": "ouain",
+  "candidates": [
+   "oua in"
+  ],
+  "type": "typo",
+  "note": "слитно, без пробела; в чтении оставлено как напечатано",
+  "run": "t1"
+ },
+ {
+  "frame": 74,
+  "page": "68",
+  "location": "эпиграмма, строка 1, после «Ruricolas»",
+  "diplomatic_as_read": "Ruricolas,",
+  "candidates": [
+   "Ruricolas."
+  ],
+  "type": "illegible",
+  "note": "запятая или точка",
+  "run": "t1"
+ },
+ {
+  "frame": 75,
+  "page": "69",
+  "location": "эпиграмма, строка 2, «Chœrephoonta»",
+  "diplomatic_as_read": "Chœrephoonta",
+  "candidates": [
+   "Chærephoonta"
+  ],
+  "type": "illegible",
+  "note": "лигатура œ или æ",
+  "run": "t1"
+ },
+ {
+  "frame": 76,
+  "page": "70",
+  "location": "эпиграмма, строка 7, «Tandẽ»",
+  "diplomatic_as_read": "Tandẽ",
+  "candidates": [
+   "Tandè",
+   "Tandem"
+  ],
+  "type": "abbreviation",
+  "note": "надстрочный знак над e — тильда или гравис",
+  "run": "t1"
+ },
+ {
+  "frame": 76,
+  "page": "70",
+  "location": "эпиграмма, строка 3, «trahitur.mala»",
+  "diplomatic_as_read": "trahitur.mala",
+  "candidates": [
+   "trahitur,mala"
+  ],
+  "type": "illegible",
+  "note": "точка или запятая",
+  "run": "t1"
+ },
+ {
+  "frame": 79,
+  "page": "73",
+  "location": "колонтитул",
+  "diplomatic_as_read": "STVLTLTIA.",
+  "candidates": [
+   "STVLTITIA."
+  ],
+  "type": "typo",
+  "note": "L вместо I (6-я буква)",
+  "run": "t1"
+ },
+ {
+  "frame": 80,
+  "page": "74",
+  "location": "колонтитул",
+  "diplomatic_as_read": "STVLTLTIA.",
+  "candidates": [
+   "STVLTITIA."
+  ],
+  "type": "typo",
+  "note": "L вместо I; 4-я буква тоже неотчётлива",
+  "run": "t1"
+ },
+ {
+  "frame": 83,
+  "page": "77",
+  "location": "эпиграмма, строка 5, «q̃rũt»",
+  "diplomatic_as_read": "q̃rũt",
+  "candidates": [
+   "quærunt"
+  ],
+  "type": "abbreviation",
+  "note": "q с тильдой + r + ũ + t; в чтении quærunt (комбинирующая тильда)",
+  "run": "t1"
+ },
+ {
+  "frame": 83,
+  "page": "77",
+  "location": "девиз",
+  "diplomatic_as_read": "φιλαυτία.",
+  "candidates": [
+   "Φιλαυτία."
+  ],
+  "type": "greek",
+  "note": "строчная φ; лигатура αυ",
+  "run": "t1"
+ },
+ {
+  "frame": 84,
+  "page": "78",
+  "location": "эпиграмма, строка 4, «ſtripitus»",
+  "diplomatic_as_read": "ſtripitus",
+  "candidates": [
+   "ſtirpitùs",
+   "ſtripitùs"
+  ],
+  "type": "typo",
+  "note": "перестановка ri/ir? знак над u неотчётлив",
+  "run": "t1"
+ },
+ {
+  "frame": 85,
+  "page": "79",
+  "location": "девиз",
+  "diplomatic_as_read": "(нет)",
+  "candidates": [
+   "«INVIDIA.» служит одновременно заголовком локуса и девизом"
+  ],
+  "type": "editorial/reconstruction",
+  "note": "отдельной строки девиза нет; motto=null",
+  "run": "t1"
+ },
+ {
+  "frame": 86,
+  "page": "80",
+  "location": "эпиграмма, строка 1",
+  "diplomatic_as_read": "Fanuus",
+  "candidates": [
+   "Faunus"
+  ],
+  "type": "typo",
+  "note": "перестановка n/u",
+  "run": "t1"
+ },
+ {
+  "frame": 87,
+  "page": "81",
+  "location": "сигнатура",
+  "diplomatic_as_read": "F[?]",
+  "candidates": [
+   "F",
+   "E"
+  ],
+  "type": "damage/stain",
+  "note": "буква сигнатуры смазана; по последовательности ожидается F",
+  "run": "t1"
+ },
+ {
+  "frame": 88,
+  "page": "82",
+  "location": "эпиграмма, строки 1–2",
+  "diplomatic_as_read": "ab,non (отдельная строка)",
+  "candidates": [
+   "ah, non — окончание 1-го стиха; ab возможно вместо ah"
+  ],
+  "type": "editorial/reconstruction",
+  "note": "перенос стиха; в чтении присоединено к стиху 1; ab оставлено как напечатано",
+  "run": "t1"
+ },
+ {
+  "frame": 88,
+  "page": "82",
+  "location": "подзаголовок",
+  "diplomatic_as_read": "Διαλογιστικῶς.",
+  "candidates": [
+   "Διαλογικῶς."
+  ],
+  "type": "greek",
+  "note": "στ-лигатура передана как στ",
+  "run": "t1"
  }
 ]

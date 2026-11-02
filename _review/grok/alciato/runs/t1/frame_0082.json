@@ -1,0 +1,45 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 82,
+ "source": "scan/frame_0082.jpg",
+ "page": "76",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SVPERBIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Impudentia."
+    ],
+    "reading": "Impudentia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Скилла: женщина, раскинувшая руки, по пояс над скалами, внизу псы-чудовища; бурное море, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Pube tenus mulier,ſuccincta latrantibus infra",
+     "Monſtrorum catulis,Scylla biformis erat.",
+     "Monſtra putantur auarities,audacia,raptus.",
+     "At Scylla eſt nullus cui ſit in ore pudor."
+    ],
+    "reading": [
+     "Pube tenus mulier, succincta latrantibus infra",
+     "Monstrorum catulis, Scylla biformis erat.",
+     "Monstra putantur avarities, audacia, raptus.",
+     "At Scylla est nullus cui sit in ore pudor."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «76» вверху слева."
+}

@@ -1,0 +1,45 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 75,
+ "source": "scan/frame_0075.jpg",
+ "page": "69",
+ "signature": "E iij",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVLTITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Veſpertilio."
+    ],
+    "reading": "Vespertilio."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Летучая мышь летит в сумеречном небе над пейзажем с руинами; справа сияющий диск (солнце/луна) с лучами; облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aſſumpſiſſe ſuum volucri ex Meneide nomen,",
+     "Socraticum autores Chœrephoonta ferunt.",
+     "Fuſca viro facies,& ſtridens vocula,tali",
+     "Hunc hominem potuit commaculare nota."
+    ],
+    "reading": [
+     "Assumpsisse suum volucri ex Meneide nomen,",
+     "Socraticum autores Chœrephoonta ferunt.",
+     "Fusca viro facies, & stridens vocula, tali",
+     "Hunc hominem potuit commaculare nota."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «69» вверху справа; сигнатура «E iij» внизу справа (римская цифра)."
+}

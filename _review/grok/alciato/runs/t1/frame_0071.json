@@ -1,0 +1,53 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 71,
+ "source": "scan/frame_0071.jpg",
+ "page": "65",
+ "signature": "E",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVLTITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In temerarios."
+    ],
+    "reading": "In temerarios."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Фаэтон падает с колесницы Солнца среди облаков; вверху лик солнца и вздыбленные кони; внизу облака/пламя.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aſpicis aurigam currus Phaëtonta paterni",
+     "Igniuomos auſum flectere Solis equos.",
+     "Maxima qui poſtquàm terris incendia ſparſit:",
+     "Eſt temerè inſeſſo lapſus ab axe miſer.",
+     "Sic plerique rotis Fortunæ ad ſydera Reges",
+     "Euecti:ambitio quos iuuenilis agit.",
+     "Poſt magnam humani generis cladem que,ſuamq;,",
+     "Cunctorum pœnas denique dant ſcelerum."
+    ],
+    "reading": [
+     "Aspicis aurigam currus Phaëtonta paterni",
+     "Ignivomos ausum flectere Solis equos.",
+     "Maxima qui postquàm terris incendia sparsit:",
+     "Est temerè insesso lapsus ab axe miser.",
+     "Sic plerique rotis Fortunæ ad sydera Reges",
+     "Evecti: ambitio quos iuvenilis agit.",
+     "Post magnam humani generis cladem que, suamque,",
+     "Cunctorum pœnas denique dant scelerum."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «65» вверху справа; сигнатура «E» внизу справа."
+}

@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 86,
+ "source": "scan/frame_0086.jpg",
+ "page": "80",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "LVXVRIA.",
+ "rubric": "LVXVRIA.",
+ "rubric_reading": "LUXURIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Luxuria."
+    ],
+    "reading": "Luxuria."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Сатир/фавн с козлиными ногами, увенчанный растениями (руккола), стоит среди пейзажа; рядом козёл; деревья, скалы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Eruca capripes redimitus tempora Fanuus",
+     "Immodicæ Veneris ſymbola certa refert.",
+     "Eſt eruca ſalax,iudexque libidinis hircus,",
+     "Et ſatyri nymphas ſemper amare ſolent."
+    ],
+    "reading": [
+     "Eruca capripes redimitus tempora Fanuus",
+     "Immodicæ Veneris symbola certa refert.",
+     "Est eruca salax, iudexque libidinis hircus,",
+     "Et satyri nymphas semper amare solent."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [
+  {
+   "printed": "Fanuus",
+   "corrected": "Faunus",
+   "certainty": "очевидная",
+   "applied_in_reading": false,
+   "comment": "эпиграмма, строка 1; см. open_points"
+  }
+ ],
+ "ornaments": [],
+ "notes": "Номер страницы «80» вверху слева. Заголовок локуса «LVXVRIA.» курсивными заглавными."
+}
