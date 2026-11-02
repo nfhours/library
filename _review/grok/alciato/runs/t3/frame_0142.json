@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 142,
+ "source": "scan/frame_0142.jpg",
+ "page": "136",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In momentaneam felicitatem."
+    ],
+    "reading": "In momentaneam felicitatem."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Высокая сосна, обвитая тыквенной лозой с крупными плодами-тыквами, растёт на берегу реки; слева город с башнями, справа холмы и лучи солнца из облаков; в небе птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aëriam propter creniſſe[?] Cucurbita pinum",
+     "Dicitur:& grandi luxuriaſſe coma.",
+     "Cùm ramos complexa,ipſumq; egreſſa cacumen,",
+     "Se præſtare alijs credidit arboribus.",
+     "Cui pinus:Nimiùm breuis eſt hæc gloria.nam te",
+     "Protinus adueniet quæ malè perdet hyems."
+    ],
+    "reading": [
+     "Aëriam propter crenisse[?] Cucurbita pinum",
+     "Dicitur: & grandi luxuriasse coma.",
+     "Cùm ramos complexa, ipsumque egressa cacumen,",
+     "Se præstare aliis credidit arboribus.",
+     "Cui pinus: Nimiùm brevis est hæc gloria.nam te",
+     "Protinus adveniet quæ malè perdet hyems."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «136» слева, колонтитул «FORTVNA.»; сигнатуры нет. В нижней части рамки щиток с монограммой «PV»."
+}

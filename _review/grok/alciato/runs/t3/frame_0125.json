@@ -1,0 +1,61 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 125,
+ "source": "scan/frame_0125.jpg",
+ "page": "119",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Αντέρως,id amor virtutis."
+    ],
+    "reading": "Αντέρως, id amor virtutis."
+   },
+   "subheading": {
+    "diplomatic": "Διαλογισικῶς.",
+    "reading": "Διαλογισικῶς."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Обнажённый юноша (Антэрот) в венке сидит/полулежит на земле под деревом, держа у плеча пучок (венки/ветви); позади пейзаж с дорогой, город на холмах, летящие птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Dic vbi ſunt incurui arcus? vbi tela Cupido:",
+     "Mollia queîs[?] iuuenum figere corda ſoles?",
+     "Fax vbi triſtis? vbi pennæ? tres vnde corollas",
+     "Fert manus? vnde aliam tempora cincta gerūt?",
+     "Haud mihi vulgari eſt,(hoſpes )cū Cypride ęcquā",
+     "Vlla voluptatis nos neque forma tulit,",
+     "Sed puris hominum ſuccendo mentibus ignes",
+     "Diſciplinæ:animos aſtraq; ad alta traho.",
+     "Quattuor eq; ipſa texo virtute corollas,",
+     "Quarum quæ Sophiæ eſt,tempora prima tegit[?]."
+    ],
+    "reading": [
+     "Dic ubi sunt incurvi arcus? ubi tela Cupido:",
+     "Mollia queîs[?] iuvenum figere corda soles?",
+     "Fax ubi tristis? ubi pennæ? tres unde corollas",
+     "Fert manus? unde aliam tempora cincta gerunt?",
+     "Haud mihi vulgari est, (hospes )cum Cypride æcquam",
+     "Ulla voluptatis nos neque forma tulit,",
+     "Sed puris hominum succendo mentibus ignes",
+     "Disciplinæ: animos astraque ad alta traho.",
+     "Quattuor eque ipsa texo virtute corollas,",
+     "Quarum quæ Sophiæ est, tempora prima tegit[?]."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом. Диалог: вопросы к Купидону и ответ Антэрота."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «AMOR.», номер «119» справа; сигнатура внизу не видна (поле обрезано/пусто)."
+}

@@ -1,0 +1,46 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 122,
+ "source": "scan/frame_0122.jpg",
+ "page": "116",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Potentia amoris."
+    ],
+    "reading": "Potentia amoris."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Обнажённый крылатый Амур сидит на камне у моря; в поднятой правой руке держит цветы, в левой — рыбу; на заднем плане море, корабль, скалистый берег с городом/крепостью.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Nudus Amor viden' vt ridet,placidúmq;[?] tuetur?",
+     "Nec faculas,nec quæ cornua flectat,habet.",
+     "Altera ſed manuum flores gerit,altera piſcem,",
+     "Scilicet vt terræ iura det,atque mari."
+    ],
+    "reading": [
+     "Nudus Amor viden' ut ridet, placidúmque[?] tuetur?",
+     "Nec faculas, nec quæ cornua flectat, habet.",
+     "Altera sed manuum flores gerit, altera piscem,",
+     "Scilicet ut terræ iura det, atque mari."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «116» слева, колонтитул «AMOR» (точка не видна); сигнатуры нет."
+}

@@ -5,7 +5,7 @@
  "page": "52",
  "signature": null,
  "catchword": null,
- "page_type": "emblem",
+ "page_type": "emblem_continuation",
  "running_head": "SPES.",
  "rubric": null,
  "emblems": [
@@ -40,12 +40,19 @@
     ]
    },
    "continues_on_next_page": false,
-   "continuation_of": 57,
+   "continuation_of": {
+    "frame": 57,
+    "page": "51",
+    "motto": "In ſimulachrum Spei."
+   },
    "notes": "Продолжение диалога «In ſimulachrum Spei» с кадра 0057. Чётные строки с отступом."
   }
  ],
  "ornaments": [
-  "Под текстом — картуш-виньетка с масками, сатирами и сценой с фигурами в центре."
+  {
+   "position": "в полосе",
+   "description": "Под текстом — картуш-виньетка с масками, сатирами и сценой с фигурами в центре."
+  }
  ],
  "errata": [],
  "notes": "Номер «52» слева, колонтитул «SPES.»; сигнатуры нет."

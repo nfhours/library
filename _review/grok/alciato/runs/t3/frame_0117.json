@@ -5,7 +5,7 @@
  "page": "111",
  "signature": null,
  "catchword": null,
- "page_type": "emblem",
+ "page_type": "emblem_continuation",
  "running_head": "ASTROLOGIA.",
  "rubric": null,
  "emblems": [
@@ -36,12 +36,19 @@
     ]
    },
    "continues_on_next_page": false,
-   "continuation_of": 116,
+   "continuation_of": {
+    "frame": 116,
+    "page": "110",
+    "motto": "Scyphus Neſtoris."
+   },
    "notes": "Продолжение эпиграммы со с. 110. Чётные строки с отступом. Ниже текста — орнаментальная виньетка с маскароном."
   }
  ],
  "ornaments": [
-  "виньетка с маскароном (гротескная голова) и завитками под текстом"
+  {
+   "position": "в полосе",
+   "description": "виньетка с маскароном (гротескная голова) и завитками под текстом"
+  }
  ],
  "errata": [],
  "notes": "Колонтитул «ASTROLOGIA.», номер «111» справа; сигнатуры нет."

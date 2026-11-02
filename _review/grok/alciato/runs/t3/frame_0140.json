@@ -1,0 +1,47 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 140,
+ "source": "scan/frame_0140.jpg",
+ "page": "134",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In ſubitum terrorem."
+    ],
+    "reading": "In subitum terrorem."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Фавн (Пан) с рогами и козлиными ногами в прыжке трубит/кричит в сторону бегущего справа стада (козлы/олени), которое в страхе мчится в лес; скалы, деревья, водопад слева.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Effuſo cernens fugientes agmine turmas,",
+     "Quis mea nunc iuflat[?] cornua? Faunus ait."
+    ],
+    "reading": [
+     "Effuso cernens fugientes agmine turmas,",
+     "Quis mea nunc iuflat[?] cornua? Faunus ait."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Вторая строка с отступом. Ниже — виньетка с маскароном."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "в полосе",
+   "description": "виньетка с маскароном (гротескная голова) и завитками под текстом"
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «134» слева, колонтитул «FORTVNA.»; сигнатуры нет."
+}

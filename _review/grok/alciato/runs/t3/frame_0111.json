@@ -5,7 +5,7 @@
  "page": "105",
  "signature": "G 5",
  "catchword": null,
- "page_type": "emblem",
+ "page_type": "emblem_continuation",
  "running_head": "DOCTORVM AGNOMINA.",
  "rubric": null,
  "emblems": [
@@ -60,13 +60,23 @@
     ]
    },
    "continues_on_next_page": false,
-   "continuation_of": 110,
+   "continuation_of": {
+    "frame": 110,
+    "page": "104",
+    "motto": "DOCTORVM AGNOMINA."
+   },
    "notes": "Продолжение эпиграммы с с. 104; чётные строки с отступом."
   }
  ],
  "ornaments": [
-  "под текстом — картуш-виньетка с головой барана/маскароном",
-  "в нижней раме — маленький щиток с монограммой (?)"
+  {
+   "position": "в полосе",
+   "description": "под текстом — картуш-виньетка с головой барана/маскароном"
+  },
+  {
+   "position": "в полосе",
+   "description": "в нижней раме — маленький щиток с монограммой (?)"
+  }
  ],
  "errata": [],
  "notes": "Колонтитул «DOCTORVM AGNOMINA.», номер «105» справа; сигнатура «G 5». Посторонние точки/пятна у строк 7 и 16 не транскрибированы."

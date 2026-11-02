@@ -1777,6 +1777,659 @@
     "114]"
    ],
    "type": "damaged_type"
+  },
+  {
+   "frame": 121,
+   "page": "115",
+   "location": "строка 3, конец",
+   "as_read": "habenas[?] (знак препинания в конце едва виден, возможно «:» или «,»)",
+   "candidates": [
+    "habenas,",
+    "habenas:",
+    "habenas"
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 121,
+   "page": "115",
+   "location": "строка 4, «plurimus»",
+   "as_read": "plurimus[?] (m повреждена, похоже на «iu»)",
+   "candidates": [
+    "plurimus"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 121,
+   "page": "115",
+   "location": "строка 5, «vincere»",
+   "as_read": "vincere[?] (c закрыта кляксой)",
+   "candidates": [
+    "vincere"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 121,
+   "page": "115",
+   "location": "общее, «q;»",
+   "as_read": "знак q; (q с хвостом) в этом курсиве часто с наклонным штрихом над q, похожим на акут (Vtq;, minorq;, figuloſq;)",
+   "candidates": [
+    "q; (штрих — часть глифа)",
+    "q́;"
+   ],
+   "type": "diacritic"
+  },
+  {
+   "frame": 122,
+   "page": "116",
+   "location": "строка 1, «placidúmq;»",
+   "as_read": "placidúmq;[?] (акут над u слабый, частично не пропечатан)",
+   "candidates": [
+    "placidúmq;",
+    "placidumq;"
+   ],
+   "type": "diacritic"
+  },
+  {
+   "frame": 122,
+   "page": "116",
+   "location": "колонтитул",
+   "as_read": "AMOR (точки после слова не видно)",
+   "candidates": [
+    "AMOR",
+    "AMOR."
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 124,
+   "page": "118",
+   "location": "строка 1, «iure»",
+   "as_read": "iure (над конечной e точка/штрих — возможно грязь или акцент)",
+   "candidates": [
+    "iure",
+    "iurè"
+   ],
+   "type": "diacritic"
+  },
+  {
+   "frame": 124,
+   "page": "118",
+   "location": "строка 6, «vincere»",
+   "as_read": "vincere[?] (последняя литера похожа на c)",
+   "candidates": [
+    "vincere (повреждённая e)",
+    "vincerc (опечатка)"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 125,
+   "page": "119",
+   "location": "строка 2, «queîs»",
+   "as_read": "queîs[?] (над e/i надстрочный знак, частично закрыт кляксой)",
+   "candidates": [
+    "queîs",
+    "quēis",
+    "queis"
+   ],
+   "type": "diacritic"
+  },
+  {
+   "frame": 125,
+   "page": "119",
+   "location": "строка 10, «tegit»",
+   "as_read": "tegit[?] (конец слова почти не пропечатан)",
+   "candidates": [
+    "tegit"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 125,
+   "page": "119",
+   "location": "строка 1, «Cupido:»",
+   "as_read": "Cupido: (двоеточие вместо ожидаемой запятой)",
+   "candidates": [
+    "Cupido:",
+    "Cupido,"
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 125,
+   "page": "119",
+   "location": "строка 5, «(hoſpes )»",
+   "as_read": "пробел перед закрывающей скобкой, как напечатано",
+   "candidates": [
+    "(hoſpes)"
+   ],
+   "type": "spacing"
+  },
+  {
+   "frame": 125,
+   "page": "119",
+   "location": "строка 5, «ęcquā»",
+   "as_read": "ęcquā (e с хвостом; ожидаемо ecquam) — не исправлено",
+   "candidates": [
+    "ecquam"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 125,
+   "page": "119",
+   "location": "подзаголовок",
+   "as_read": "Διαλογισικῶς.",
+   "candidates": [
+    "Διαλογιςικῶς (лигатура στ?)",
+    "Διαλογιστικῶς"
+   ],
+   "type": "greek"
+  },
+  {
+   "frame": 126,
+   "page": "120",
+   "location": "строка 5, «imos( res mira )»",
+   "as_read": "пробелы внутри скобок, как напечатано",
+   "candidates": [
+    "imos (res mira)"
+   ],
+   "type": "spacing"
+  },
+  {
+   "frame": 127,
+   "page": "121",
+   "location": "сигнатура",
+   "as_read": "H 5[?] (цифра едва видна)",
+   "candidates": [
+    "H 5"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 127,
+   "page": "121",
+   "location": "строка 1, «licta»",
+   "as_read": "licta",
+   "candidates": [
+    "licta (как напечатано; ожидаемо relicta?)"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 127,
+   "page": "121",
+   "location": "строка 3, «ad vot»",
+   "as_read": "ad vot",
+   "candidates": [
+    "ad vot (опечатка? ожидаемо ad tot)"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 127,
+   "page": "121",
+   "location": "строка 6, «Heu»",
+   "as_read": "Heu (с прописной после запятой)",
+   "candidates": [
+    "Heu"
+   ],
+   "type": "capitalization"
+  },
+  {
+   "frame": 128,
+   "page": "122",
+   "location": "строка 3, «digitis»",
+   "as_read": "digitis[?] (средние литеры не пропечатались)",
+   "candidates": [
+    "digitis"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 128,
+   "page": "122",
+   "location": "строка 7, «Hanc»",
+   "as_read": "Hanc (с прописной внутри строки)",
+   "candidates": [
+    "Hanc"
+   ],
+   "type": "capitalization"
+  },
+  {
+   "frame": 130,
+   "page": "124",
+   "location": "структура",
+   "as_read": "motto null, engraving null",
+   "candidates": [
+    "продолжение эмблемы с с. 123"
+   ],
+   "type": "structure"
+  },
+  {
+   "frame": 130,
+   "page": "124",
+   "location": "строка 9, «curúe»",
+   "as_read": "curúe (cur + -ue с акцентом на u)",
+   "candidates": [
+    "чтение: curúe (оставлено как есть)",
+    "curve",
+    "curvé"
+   ],
+   "type": "uv_normalization"
+  },
+  {
+   "frame": 130,
+   "page": "124",
+   "location": "строка 16, «ſpicula»",
+   "as_read": "ſpicula[?] (над i штрих/клякса, похоже на акцент; под строкой клякса)",
+   "candidates": [
+    "ſpicula",
+    "ſpícula"
+   ],
+   "type": "diacritic"
+  },
+  {
+   "frame": 130,
+   "page": "124",
+   "location": "строка 7, «pharêtras»",
+   "as_read": "pharêtras (циркумфлекс над e)",
+   "candidates": [
+    "pharêtras",
+    "pharetras"
+   ],
+   "type": "diacritic"
+  },
+  {
+   "frame": 131,
+   "page": "125",
+   "location": "строка 4, «Aeternæ»",
+   "as_read": "Aeternæ (курсивная A и отдельная e, не лигатура Æ)",
+   "candidates": [
+    "Aeternæ",
+    "Æternæ"
+   ],
+   "type": "ligature"
+  },
+  {
+   "frame": 132,
+   "page": "126",
+   "location": "строка 2, после «ore»",
+   "as_read": "ore[?] (за словом посторонний знак, похожий на скобку/«ſ»)",
+   "candidates": [
+    "ore",
+    "ore ſ"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 132,
+   "page": "126",
+   "location": "строка 3, «vllos?iungi»",
+   "as_read": "нет пробела после «?»",
+   "candidates": [
+    "vllos? iungi"
+   ],
+   "type": "spacing"
+  },
+  {
+   "frame": 133,
+   "page": "127",
+   "location": "строка 1, «Sophocles(quamuis … ætate )»",
+   "as_read": "без пробела перед «(» и с пробелом перед «)», как напечатано",
+   "candidates": [
+    "Sophocles (quamuis … ætate)"
+   ],
+   "type": "spacing"
+  },
+  {
+   "frame": 133,
+   "page": "127",
+   "location": "строка 5, «vtq;»",
+   "as_read": "vtq; (ожидаемо vtque/atque) — как напечатано",
+   "candidates": [
+    "vtq;"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 134,
+   "page": "128",
+   "location": "строка 1, «Index»",
+   "as_read": "Index[?] (вторая e похожа на c: «Indcx»)",
+   "candidates": [
+    "Index"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 134,
+   "page": "128",
+   "location": "строка 3, «candid a»",
+   "as_read": "candid a (пробел внутри слова, как напечатано)",
+   "candidates": [
+    "candida"
+   ],
+   "type": "spacing"
+  },
+  {
+   "frame": 134,
+   "page": "128",
+   "location": "строка 6, «rêtro»",
+   "as_read": "rêtro (циркумфлекс над e)",
+   "candidates": [
+    "rêtro",
+    "retro"
+   ],
+   "type": "diacritic"
+  },
+  {
+   "frame": 135,
+   "page": "129",
+   "location": "структура",
+   "as_read": "motto null, engraving null",
+   "candidates": [
+    "продолжение эмблемы с с. 128"
+   ],
+   "type": "structure"
+  },
+  {
+   "frame": 135,
+   "page": "129",
+   "location": "строка 2, «queîs»",
+   "as_read": "queîs[?] (надстрочный знак над e/i частично закрыт)",
+   "candidates": [
+    "queîs",
+    "queis"
+   ],
+   "type": "diacritic"
+  },
+  {
+   "frame": 135,
+   "page": "129",
+   "location": "строка 14, «Sie»",
+   "as_read": "Sie (ожидаемо Sic) — опечатка не исправлена",
+   "candidates": [
+    "Sic"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 135,
+   "page": "129",
+   "location": "строка 1, после «&»",
+   "as_read": "мелкая точка/запятая после «&» (похоже на грязь)",
+   "candidates": [
+    "пятно",
+    ","
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 137,
+   "page": "131",
+   "location": "строка 1, конец «vidit»",
+   "as_read": "знак препинания после «vidit» не виден",
+   "candidates": [
+    "vidit",
+    "vidit,"
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 138,
+   "page": "132",
+   "location": "номер страницы",
+   "as_read": "132 (смазано)",
+   "candidates": [
+    "132"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 139,
+   "page": "133",
+   "location": "строка 1, «Lyſippi»",
+   "as_read": "Lyſippi[?] (начальная L повреждена, похожа на I)",
+   "candidates": [
+    "Lyſippi"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 139,
+   "page": "133",
+   "location": "строка 5, «vnde»",
+   "as_read": "vnde (в печати разбито: «vn de»)",
+   "candidates": [
+    "vnde"
+   ],
+   "type": "spacing"
+  },
+  {
+   "frame": 139,
+   "page": "133",
+   "location": "строка 7, «prędar.»",
+   "as_read": "prędar. (e с хвостом; точка, затем «At»)",
+   "candidates": [
+    "prędar.",
+    "prædar."
+   ],
+   "type": "diacritic"
+  },
+  {
+   "frame": 139,
+   "page": "133",
+   "location": "сигнатура",
+   "as_read": "I 3 (цифра смазана)",
+   "candidates": [
+    "I 3"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 140,
+   "page": "134",
+   "location": "строка 2, «iuflat»",
+   "as_read": "iuflat[?] (вторая литера похожа на u — перевёрнутая n?)",
+   "candidates": [
+    "inflat",
+    "iuflat"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 141,
+   "page": "135",
+   "location": "строка 1, «Ingentet»",
+   "as_read": "Ingentet[?]",
+   "candidates": [
+    "Ingentes",
+    "Ingentet (опечатка)"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 141,
+   "page": "135",
+   "location": "строка 6, «occîderamus»",
+   "as_read": "occîderamus (циркумфлекс над i)",
+   "candidates": [
+    "occîderamus"
+   ],
+   "type": "diacritic"
+  },
+  {
+   "frame": 142,
+   "page": "136",
+   "location": "строка 1, «creniſſe»",
+   "as_read": "creniſſe[?] (третья литера похожа на n)",
+   "candidates": [
+    "creuiſſe",
+    "creniſſe (опечатка)"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 143,
+   "page": "137",
+   "location": "строка 3, конец «captat.»",
+   "as_read": "captat. (знак похож на точку, возможно двоеточие)",
+   "candidates": [
+    "captat.",
+    "captat:"
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 144,
+   "page": "138",
+   "location": "строка 1, «rès»",
+   "as_read": "rès (над e знак, похожий на грав)",
+   "candidates": [
+    "rès",
+    "rês"
+   ],
+   "type": "diacritic"
+  },
+  {
+   "frame": 146,
+   "page": "140",
+   "location": "строка 4, после «viuens»",
+   "as_read": ";[?] (слабый знак, похожий на точку с запятой)",
+   "candidates": [
+    ";",
+    ",",
+    "пятно"
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 146,
+   "page": "140",
+   "location": "строка 3, «fles?cur»",
+   "as_read": "нет пробела после «?»",
+   "candidates": [
+    "fles? cur"
+   ],
+   "type": "spacing"
+  },
+  {
+   "frame": 147,
+   "page": "141",
+   "location": "строка 1, после «Ludebant»",
+   "as_read": "мелкий надстрочный знак (похож на апостроф/пятно), не транскрибирован",
+   "candidates": [
+    "пятно",
+    "'"
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 147,
+   "page": "141",
+   "location": "девиз, «preſto»",
+   "as_read": "preſto (без æ)",
+   "candidates": [
+    "preſto",
+    "præſto"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 148,
+   "page": "142",
+   "location": "строка 8, «Mil»",
+   "as_read": "Mil (ожидаемо Nil) — опечатка не исправлена",
+   "candidates": [
+    "Nil"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 148,
+   "page": "142",
+   "location": "строка 7, перед «laſſæq;»",
+   "as_read": "мелкий надстрочный знак после запятой (пятно?), не транскрибирован",
+   "candidates": [
+    "пятно"
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 148,
+   "page": "142",
+   "location": "строка 1, «Aetherijs»",
+   "as_read": "Aetherijs (A и e раздельно)",
+   "candidates": [
+    "Aetherijs",
+    "Ætherijs"
+   ],
+   "type": "ligature"
+  },
+  {
+   "frame": 149,
+   "page": "143",
+   "location": "девиз, «no men»",
+   "as_read": "no men (разрыв внутри слова nomen, как напечатано)",
+   "candidates": [
+    "nomen"
+   ],
+   "type": "spacing"
+  },
+  {
+   "frame": 149,
+   "page": "143",
+   "location": "строка 1, «paſſer»",
+   "as_read": "paſſer (в печати разрыв «pa ſſer»)",
+   "candidates": [
+    "paſſer"
+   ],
+   "type": "spacing"
+  },
+  {
+   "frame": 149,
+   "page": "143",
+   "location": "строка 6, «erat»",
+   "as_read": "erat[?] (r не пропечатана: «e.at»)",
+   "candidates": [
+    "erat"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 149,
+   "page": "143",
+   "location": "строка 5, «Calchas»",
+   "as_read": "Calchas (h частично не пропечатана)",
+   "candidates": [
+    "Calchas"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 150,
+   "page": "144",
+   "location": "строка 3, «comprenditur»",
+   "as_read": "comprenditur (так напечатано, без h)",
+   "candidates": [
+    "comprehenditur"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 150,
+   "page": "144",
+   "location": "строка 2, «Aequoreum»",
+   "as_read": "Aequoreum (A и e раздельно)",
+   "candidates": [
+    "Aequoreum",
+    "Æquoreum"
+   ],
+   "type": "ligature"
   }
  ]
 }

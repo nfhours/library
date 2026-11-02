@@ -1,0 +1,46 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 146,
+ "source": "scan/frame_0146.jpg",
+ "page": "140",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Malè parta,malè dilabuntur."
+    ],
+    "reading": "Malè parta, malè dilabuntur."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Коршун сидит на ветке/пне слева, наклонив голову (его рвёт); справа от него второй коршун (мать) на соседнем дереве у горы; пейзаж с горой, облака, мелкие птицы в небе.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Miluus edax,nimiæ quem nauſea torſerat eſcæ,",
+     "Hei mihi mater ait viſcera ab ore fluunt.",
+     "Illa autem:quid fles?cur hæc tua viſcera credas,",
+     "Qui rapto viuens;[?] ſola aliena vomis?"
+    ],
+    "reading": [
+     "Milvus edax, nimiæ quem nausea torserat escæ,",
+     "Hei mihi mater ait viscera ab ore fluunt.",
+     "Illa autem: quid fles? cur hæc tua viscera credas,",
+     "Qui rapto vivens; [?] sola aliena vomis?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «140» слева, колонтитул «FORTVNA.»; сигнатуры нет."
+}

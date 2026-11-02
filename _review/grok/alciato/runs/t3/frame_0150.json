@@ -1,0 +1,51 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 150,
+ "source": "scan/frame_0150.jpg",
+ "page": "144",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ex literarum ſtudijs immor-",
+     "talitatem acquiri."
+    ],
+    "reading": "Ex literarum studiis immortalitatem acquiri."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Тритон (бородатый морской бог с рыбьим хвостом) трубит в раковину посреди волн; его окружает кольцом змей, кусающий собственный хвост (уроборос); вверху облака, на горизонте маленький корабль.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Neptuni tubicen,cuius pars vltima cetum,",
+     "Aequoreum facies indicat eſſe Deum:",
+     "Serpentis medio Triton comprenditur orbe,",
+     "Qui caudam inſerto mordicus ore tenet.",
+     "Fama viros animo inſignes,præclaraq; geſta",
+     "Proſequitur:toto mandat & orbe legi."
+    ],
+    "reading": [
+     "Neptuni tubicen, cuius pars ultima cetum,",
+     "Aequoreum facies indicat esse Deum:",
+     "Serpentis medio Triton comprenditur orbe,",
+     "Qui caudam inserto mordicus ore tenet.",
+     "Fama viros animo insignes, præclaraque gesta",
+     "Prosequitur: toto mandat & orbe legi."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «144» слева, колонтитул «HONOR.»; сигнатуры нет."
+}

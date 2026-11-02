@@ -1,0 +1,47 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 123,
+ "source": "scan/frame_0123.jpg",
+ "page": "117",
+ "signature": "H 3",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Vis amoris."
+    ],
+    "reading": "Vis amoris."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Крылатый обнажённый Амур стоит на скале под градом/дождём из туч и ломает молнию (связку перунов) в руках; вокруг падающие градины, вдали скалы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aligerum fulmen fregit Deus aliger,igne",
+     "Dum demonſtrat vti eſt fortior ignis amor."
+    ],
+    "reading": [
+     "Aligerum fulmen fregit Deus aliger, igne",
+     "Dum demonstrat uti est fortior ignis amor."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Вторая строка с отступом. Ниже — виньетка (картуш с маскаронами и сценой с фигурами/животными)."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "в полосе",
+   "description": "виньетка-картуш с маскаронами под эпиграммой"
+  }
+ ],
+ "errata": [],
+ "notes": "Колонтитул «AMOR.», номер «117» справа; сигнатура «H 3» (цифра частично повреждена)."
+}

@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 145,
+ "source": "scan/frame_0145.jpg",
+ "page": "139",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Nil reliqui."
+    ],
+    "reading": "Nil reliqui."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Поле с густыми посевами и травами, на земле и в колосьях насекомые (саранча); из облака справа вверху дует ветер (Эвр) лучами-потоками вниз, слева вверху лучи из облака; на заднем плане холм с городом/крепостью и дерево.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Scilicet hoc deerat,poſt tot mala denique noſtris",
+     "Locuſtæ vt raperent,quicquid ineſſet,agris.",
+     "Vidimus innumeras Euro duce tendere turmas,",
+     "Qualia non Atylæ,caſtráue Xerxis erant.",
+     "Hæ fœnum,milium,ſarra omnia conſumpſerunt,",
+     "Spes & in anguſto eſt,ſtant niſi vota ſuper."
+    ],
+    "reading": [
+     "Scilicet hoc deerat, post tot mala denique nostris",
+     "Locustæ ut raperent, quicquid inesset, agris.",
+     "Vidimus innumeras Euro duce tendere turmas,",
+     "Qualia non Atylæ, castráve Xerxis erant.",
+     "Hæ fœnum, milium, sarra omnia consumpserunt,",
+     "Spes & in angusto est, stant nisi vota super."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «FORTVNA.», номер «139» справа; сигнатуры нет."
+}

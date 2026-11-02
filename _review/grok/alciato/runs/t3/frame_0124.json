@@ -1,0 +1,51 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 124,
+ "source": "scan/frame_0124.jpg",
+ "page": "118",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In ſtudioſum captum",
+     "Amore."
+    ],
+    "reading": "In studiosum captum Amore."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Бородатый пожилой учёный в шапке сидит на троне/кресле под балдахином, подперев голову рукой; слева воин в шлеме и доспехах и фигура с копьём, справа стоящая женщина в платье с поднятой рукой, у её ног маленький Амур.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Immerſus ſtudijs,dicundo & iure peritus,",
+     "Et maximus libellio,",
+     "Helianiran amat,quantùm nec Thracius vnquā",
+     "Princeps ſororis pellicem.",
+     "Pallada cur alio ſuperaſti iudice Cypri?",
+     "Num ſat ſub Ida eſt vincere[?]?"
+    ],
+    "reading": [
+     "Immersus studiis, dicundo & iure peritus,",
+     "Et maximus libellio,",
+     "Helianiran amat, quantùm nec Thracius unquam",
+     "Princeps sororis pellicem.",
+     "Pallada cur alio superasti iudice Cypri?",
+     "Num sat sub Ida est vincere[?]?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом (стихи разной длины)."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «118» слева, колонтитул «AMOR.»; сигнатуры нет."
+}

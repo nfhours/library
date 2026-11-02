@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 133,
+ "source": "scan/frame_0133.jpg",
+ "page": "127",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Senex puellam amans."
+    ],
+    "reading": "Senex puellam amans."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Каменный саркофаг с надписью на передней стенке; на крышке лежит тело/фигура, сверху сидит сова (филин); на заднем плане слева под деревьями лежащая пара, холмистый пейзаж, птицы.",
+    "inscriptions": [
+     {
+      "where": "на передней стенке саркофага",
+      "text": "SEPVLCHRVM"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Dum Sophocles(quamuis affecta ætate ) puellam",
+     "A quæſtu Archippen ad ſua vota trahit,",
+     "Allicit & pretio,tulit ægrè inſana iuuentus",
+     "Ob zelum,& tali carmine vtrunque notat.",
+     "Noctua vt in tumulis,ſuper vtq; cadauera bubo,",
+     "Talis apud Sophoclem noſtra puella ſedet."
+    ],
+    "reading": [
+     "Dum Sophocles(quamvis affecta ætate ) puellam",
+     "A quæstu Archippen ad sua vota trahit,",
+     "Allicit & pretio, tulit ægrè insana iuventus",
+     "Ob zelum, & tali carmine utrunque notat.",
+     "Noctua ut in tumulis, super utque cadavera bubo,",
+     "Talis apud Sophoclem nostra puella sedet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «AMOR.», номер «127» справа; сигнатуры нет. Штрихи между буквами надписи — прожилки мрамора на гравюре."
+}

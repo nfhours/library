@@ -1,0 +1,51 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 126,
+ "source": "scan/frame_0126.jpg",
+ "page": "120",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Αντέρως,Amor virtutis,alium",
+     "Cupidinem ſuperans."
+    ],
+    "reading": "Αντέρως, Amor virtutis, alium Cupidinem superans."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Крылатый Купидон со связанными за спиной руками привязан к дереву; рядом стоит второй крылатый юноша (Антэрот/Немезида), касающийся его; слева горит большой костёр (сжигаемые лук и стрелы); пейзаж с деревьями, летящие птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aligerum,aligeroq; inimicum pinxit Amori,",
+     "Arcu arcū,atq; ignes igne domans Nemeſis.",
+     "Vt quæ alijs fecit patiatur.at hic puer olim",
+     "Intrepidus geſtans tela,miſer lachrymat.",
+     "Ter ſpuit,inq; ſinus imos( res mira ) crematur",
+     "Igne ignis,furias odit Amoris Amor."
+    ],
+    "reading": [
+     "Aligerum, aligeroque inimicum pinxit Amori,",
+     "Arcu arcum, atque ignes igne domans Nemesis.",
+     "Ut quæ aliis fecit patiatur.at hic puer olim",
+     "Intrepidus gestans tela, miser lachrymat.",
+     "Ter spuit, inque sinus imos( res mira ) crematur",
+     "Igne ignis, furias odit Amoris Amor."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «120» слева, колонтитул «AMOR.»; сигнатуры нет."
+}

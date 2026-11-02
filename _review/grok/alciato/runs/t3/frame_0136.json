@@ -1,0 +1,46 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 136,
+ "source": "scan/frame_0136.jpg",
+ "page": "130",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": "FORTVNA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Virtuti,Fortuna comes."
+    ],
+    "reading": "Virtuti, Fortuna comes."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Кадуцей (жезл с двумя переплетёнными змеями и крыльями наверху, увенчанный плоским диском) стоит вертикально между двумя рогами изобилия, полными плодов и цветов; внизу у основания крылья; по сторонам скалы и пейзаж.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Anguibus implicitis,geminis caduceus alis:",
+     "Inter Amalthææ cornua rectus adeſt.",
+     "Pollentes ſic mente viros,fandiq; peritos",
+     "Indicat,vt rerum copia multa beet."
+    ],
+    "reading": [
+     "Anguibus implicitis, geminis caduceus alis:",
+     "Inter Amalthææ cornua rectus adest.",
+     "Pollentes sic mente viros, fandique peritos",
+     "Indicat, ut rerum copia multa beet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «130» слева, колонтитул «FORTVNA.»; внутри рамки рубрика «FORTVNA.»; сигнатуры нет."
+}

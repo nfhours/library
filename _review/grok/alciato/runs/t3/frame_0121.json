@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 121,
+ "source": "scan/frame_0121.jpg",
+ "page": "115",
+ "signature": "H 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": "AMOR.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Potentiſsimus affectus amor."
+    ],
+    "reading": "Potentissimus affectus amor."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Крылатый Амур сидит на колеснице, запряжённой двумя львами, и замахивается бичом, в другой руке держит вожжи; слева на холме город/крепость, справа вверху летящие птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aſpice vt inuictus vires auriga leonis,",
+     "Expreſſus gemma puſio vincat amor:",
+     "Vtq; manu hac ſcuticā tenet,hac vt flectit habenas[?]",
+     "Vtq; eſt in pueri plurimus[?] ore decor.",
+     "Dira lues procul eſto:feram qui vincere[?] talem",
+     "Eſt potis,à nobis temperet ánne manus?"
+    ],
+    "reading": [
+     "Aspice ut invictus vires auriga leonis,",
+     "Expressus gemma pusio vincat amor:",
+     "Utque manu hac scuticam tenet, hac ut flectit habenas[?]",
+     "Utque est in pueri plurimus[?] ore decor.",
+     "Dira lues procul esto: feram qui vincere[?] talem",
+     "Est potis, à nobis temperet ánne manus?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «AMOR.», номер «115» справа; внутри рамки рубрика «AMOR.»; сигнатура «H 2»."
+}

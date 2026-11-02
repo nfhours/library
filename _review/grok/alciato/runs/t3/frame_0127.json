@@ -1,0 +1,51 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 127,
+ "source": "scan/frame_0127.jpg",
+ "page": "121",
+ "signature": "H 5[?]",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Dulcia quandoque amara",
+     "fieri."
+    ],
+    "reading": "Dulcia quandoque amara fieri."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Крылатый Амур, ужаленный пчёлами, бежит/падает от пчелиных ульев (соломенные ульи на скамье под навесом справа); вокруг летают пчёлы; слева внизу сидит Венера (фигура в покрывале), протягивающая к нему руку; холмы, птицы в небе.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Matre procul licta,paulùm ſeceſſerat infans",
+     "Lydius:hunc diræ ſed rapuiſtis apes.",
+     "Venerat hic ad vot placidas ratus eſſe volucres,",
+     "Cùm nec ita immitis vipera ſæua foret.",
+     "Quæ datis ah,dulci ſtimulos pro munere mellis.",
+     "Proh dolor,Heu ſine te gratia nulla datur."
+    ],
+    "reading": [
+     "Matre procul licta, paulùm secesserat infans",
+     "Lydius: hunc diræ sed rapuistis apes.",
+     "Venerat hic ad vot placidas ratus esse volucres,",
+     "Cùm nec ita immitis vipera sæva foret.",
+     "Quæ datis ah, dulci stimulos pro munere mellis.",
+     "Proh dolor, Heu sine te gratia nulla datur."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «AMOR.», номер «121» справа; сигнатура внизу частично пропечатана («H» и цифра)."
+}

@@ -1,0 +1,65 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 139,
+ "source": "scan/frame_0139.jpg",
+ "page": "133",
+ "signature": "I 3",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In occaſionem."
+    ],
+    "reading": "In occasionem."
+   },
+   "subheading": {
+    "diplomatic": "Διαλογισικῶς.",
+    "reading": "Διαλογισικῶς."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Обнажённая Окказия (Случай) с длинной прядью волос спереди и развевающимся покрывалом стоит одной ногой на колесе посреди моря; в правой руке бритва; позади волны, скала, корабль, далёкий берег, птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Lyſippi[?] hoc opus eſt,Sycion cui patria.Tu quis?",
+     "Cuncta domans capti temporis articulus.",
+     "Cur pinnis ſtas? vſque rotor.Talaria plantis",
+     "Cur retines? Paſsim me leuis aura rapit.",
+     "In dextra eſt tenuis dic vnde nouacula? Acutum",
+     "Omni acie hoc ſignum me magis eſſe docet.",
+     "Cur in frõte coma? Occurrẽs vt prędar.At heus tu",
+     "Dic cur pars calua eſt poſterior capitis?",
+     "Ne ſemel alipedem ſi quis permittat abire,",
+     "Ne poſsim apprehenſo poſtmodò crine capi.",
+     "Tali opifex nos arte,tui cauſa,edidit hoſpes.",
+     "Vtq; omnes moneam:pergula aperta tenet."
+    ],
+    "reading": [
+     "Lysippi[?] hoc opus est, Sycion cui patria.Tu quis?",
+     "Cuncta domans capti temporis articulus.",
+     "Cur pinnis stas? usque rotor.Talaria plantis",
+     "Cur retines? Passim me levis aura rapit.",
+     "In dextra est tenuis dic unde novacula? Acutum",
+     "Omni acie hoc signum me magis esse docet.",
+     "Cur in fronte coma? Occurrens ut prædar.At heus tu",
+     "Dic cur pars calva est posterior capitis?",
+     "Ne semel alipedem si quis permittat abire,",
+     "Ne possim apprehenso postmodò crine capi.",
+     "Tali opifex nos arte, tui causa, edidit hospes.",
+     "Utque omnes moneam: pergula aperta tenet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом. Диалог с гостем."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «FORTVNA.», номер «133» справа; сигнатура «I 3» (цифра смазана)."
+}

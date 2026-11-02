@@ -5,7 +5,7 @@
  "page": "32",
  "signature": null,
  "catchword": null,
- "page_type": "emblem",
+ "page_type": "emblem_continuation",
  "running_head": "PRVDBNTIA.",
  "rubric": null,
  "emblems": [
@@ -60,12 +60,19 @@
     ]
    },
    "continues_on_next_page": false,
-   "continuation_of": 37,
+   "continuation_of": {
+    "frame": 37,
+    "page": "31",
+    "motto": "In ſtatuam Bacchi."
+   },
    "notes": "Продолжение диалога «In ſtatuam Bacchi» с кадра 0037. Чётные строки с отступом."
   }
  ],
  "ornaments": [
-  "Под текстом — картуш-виньетка с гротескной маской и свитками (как на кадре 0036)."
+  {
+   "position": "в полосе",
+   "description": "Под текстом — картуш-виньетка с гротескной маской и свитками (как на кадре 0036)."
+  }
  ],
  "errata": [],
  "notes": "Номер «32» слева. Колонтитул напечатан «PRVDBNTIA.» (B вместо E). Сигнатуры нет."
