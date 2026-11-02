@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 79,
+ "source": "scan/frame_0079.jpg",
+ "page": "73",
+ "signature": "E 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVLTLTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Fatuitas."
+    ],
+    "reading": "Fatuitas."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Птицелов в плаще с сумкой на боку, наклонившись, протягивает руку к птице (ушастой сове/«отусу») на земле у куста; слева дерево; вдали город и восходящее солнце над холмом.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Miraris noſtro quòd carmine diceris Otus,",
+     "Sit vetus à proauis cum tibi nomen Otho.",
+     "Aurita eſt,ſimiles,& habet ceu noctua plumas,",
+     "Saltantemq; auceps mancipat aptus auem.",
+     "Hinc fatuos,captu & faciles,nos dicimus otos,",
+     "Hoc tibi conueniens tu quoque nomen habe."
+    ],
+    "reading": [
+     "Miraris nostro quòd carmine diceris Otus,",
+     "Sit vetus à proavis cum tibi nomen Otho.",
+     "Aurita est, similes, & habet ceu noctua plumas,",
+     "Saltantemque auceps mancipat aptus avem.",
+     "Hinc fatuos, captu & faciles, nos dicimus otos,",
+     "Hoc tibi conueniens tu quoque nomen habe."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка: вверху две лежащие фигуры на арке с головой льва посередине; по бокам маскароны и атланты (гермы) с медальонами «V» (слева) и «P» (справа), опирающиеся на ножки-подставки; внизу пьедестал с маскароном-гротеском и гадронами."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «73» справа вверху, колонтитул напечатан «STVLTLTIA.» (L вместо второго I). Сигнатура «E 5» (цифра деформирована). Перед строкой 4 на поле точка — вероятно загрязнение."
+}

@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 86,
+ "source": "scan/frame_0086.jpg",
+ "page": "80",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "LVXVRIA.",
+ "rubric": "LVXVRIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Luxuria."
+    ],
+    "reading": "Luxuria."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Фавн/сатир с козлиными ногами, длинной бородой и рожками, увенчанный венком, стоит в пейзаже, вытянув правую руку; слева дерево (пальма?) и домик на холме, справа вдали постройки, облака, птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Eruca capripes redimitus tempora Fanuus",
+     "Immodicæ Veneris ſymbola certa refert.",
+     "Eſt eruca ſalax,iudexque libidinis hircus,",
+     "Et ſatyri nymphas ſemper amare ſolent."
+    ],
+    "reading": [
+     "Eruca capripes redimitus tempora Fanuus",
+     "Immodicæ Veneris symbola certa refert.",
+     "Est eruca salax, iudexque libidinis hircus,",
+     "Et satyri nymphas semper amare solent."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка-пейзаж, что на 0085."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «80» слева вверху."
+}

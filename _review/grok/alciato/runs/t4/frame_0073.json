@@ -1,0 +1,46 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 73,
+ "source": "scan/frame_0073.jpg",
+ "page": "67",
+ "signature": "E 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVLTITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Impoſsibile."
+    ],
+    "reading": "Impossibile."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Двое мужчин моют (трут) сидящего эфиопа у колодца с блоком и верёвкой; рядом кувшин; кирпичная стена, ткань-навес.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Abluis Aethiopem,quid fruſtra? ah deſine. noctis",
+     "Illuſtrare nigræ nemo poteſt tenêbras."
+    ],
+    "reading": [
+     "Abluis Aethiopem, quid frustra? ah desine. noctis",
+     "Illustrare nigræ nemo potest tenêbras."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Архитектурная рамка: вверху гранаты, кисти, маскарон, бордюр с волной; по бокам женские гермы и витые колонны на постаментах; внизу свитки с розетками и в центре медальон с монограммой «PV»."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «67» справа вверху (над цифрами чернильная черта владельца). Колонтитул «STVLTITIA.» (последняя точка похожа на двоеточие). Сигнатура «E 2». Девиз с ß («Impoßibile»)."
+}

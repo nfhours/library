@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 87,
+ "source": "scan/frame_0087.jpg",
+ "page": "81",
+ "signature": "F",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "L[?]VXVRIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Luxurioſorum opes."
+    ],
+    "reading": "Luxuriosorum opes."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Смоковница (дикая фига), растущая на вершине скалы над обрывом; вокруг летают вороны и вороны-cornix, клюющие плоды; справа скалы, вдали равнина и облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Rupibus aëreis,ſummiq; crepidine ſaxi",
+     "Immites fructus ficus acerba parit,",
+     "Quos corui comedũt,quos deuorat improba cornix,",
+     "Qui nihil humanæ commoditatis habent.",
+     "Sic fatuorum opibus paraſiti,& ſcorta fruuntur:",
+     "Et nulla iuſtos vtilitate iuuant."
+    ],
+    "reading": [
+     "Rupibus aëreis, summique crepidine saxi",
+     "Immites fructus ficus acerba parit,",
+     "Quos corui comedunt, quos devorat improba cornix,",
+     "Qui nihil humanæ commoditatis habent.",
+     "Sic fatuorum opibus parasiti, & scorta fruuntur:",
+     "Et nulla iustos utilitate iuvant."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Орнаментальная рамка из переплетённых лент (плетёнка) с арабесками и стилизованными листьями — вверху, по бокам и внизу."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «81» справа вверху. Сигнатура под рамкой справа — одна смазанная буква, читается как F (ожидаемо: начало тетради F)."
+}

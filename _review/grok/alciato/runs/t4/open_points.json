@@ -798,5 +798,303 @@
   ],
   "type": "diacritic",
   "run": "t4"
+ },
+ {
+  "frame": 67,
+  "page": "61",
+  "location": "эпиграмма, строка 2",
+  "as_read": "Ghamæleon",
+  "candidates": [
+   "Chamæleon"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 70,
+  "page": "64",
+  "location": "гравюра, надпись на щите",
+  "as_read": "AGAMENNON",
+  "candidates": [
+   "AGAMEMNON (третья с конца группа букв может быть M)"
+  ],
+  "type": "other",
+  "run": "t4"
+ },
+ {
+  "frame": 71,
+  "page": "65",
+  "location": "эпиграмма, строка 7",
+  "as_read": "cladém que,ſuamq;,",
+  "candidates": [
+   "cladémque,ſuamq",
+   "(пробел и запятые как напечатано)"
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 74,
+  "page": "68",
+  "location": "колонтитул",
+  "as_read": "STVITITIA.",
+  "candidates": [
+   "STVLTITIA."
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 74,
+  "page": "68",
+  "location": "эпиграмма, строка 1",
+  "as_read": "Ruricolas.agreſte",
+  "candidates": [
+   "Ruricolas,agreſte (знак неясен: точка или запятая)"
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 74,
+  "page": "68",
+  "location": "эпиграмма, строка 5",
+  "as_read": "ouain",
+  "candidates": [
+   "oua in (слитно напечатано)"
+  ],
+  "type": "spacing",
+  "run": "t4"
+ },
+ {
+  "frame": 75,
+  "page": "69",
+  "location": "гравюра",
+  "as_read": "фигурка на земле внизу слева",
+  "candidates": [
+   "птица",
+   "зверёк",
+   "маска"
+  ],
+  "type": "other",
+  "run": "t4"
+ },
+ {
+  "frame": 76,
+  "page": "70",
+  "location": "эпиграмма, строка 3",
+  "as_read": "trahitur .mala",
+  "candidates": [
+   "trahitur.mala"
+  ],
+  "type": "spacing",
+  "run": "t4"
+ },
+ {
+  "frame": 79,
+  "page": "73",
+  "location": "колонтитул",
+  "as_read": "STVLTLTIA.",
+  "candidates": [
+   "STVLTITIA."
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 80,
+  "page": "74",
+  "location": "колонтитул",
+  "as_read": "STVLTLTIA.",
+  "candidates": [
+   "STVLTITIA."
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 83,
+  "page": "77",
+  "location": "эпиграмма, стр.1",
+  "as_read": "nimiũm",
+  "candidates": [
+   "nimiũ",
+   "nimium"
+  ],
+  "type": "diacritic",
+  "run": "t4"
+ },
+ {
+  "frame": 83,
+  "page": "77",
+  "location": "эпиграмма, стр.5",
+  "as_read": "q̃rũt",
+  "candidates": [
+   "quærunt"
+  ],
+  "type": "diacritic",
+  "run": "t4"
+ },
+ {
+  "frame": 84,
+  "page": "78",
+  "location": "эпиграмма, стр.1",
+  "as_read": "matutiuos",
+  "candidates": [
+   "matutinos"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 84,
+  "page": "78",
+  "location": "эпиграмма, стр.4",
+  "as_read": "ſtripitùs",
+  "candidates": [
+   "ſtirpitùs"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 86,
+  "page": "80",
+  "location": "эпиграмма, стр.1",
+  "as_read": "Fanuus",
+  "candidates": [
+   "Faunus"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 87,
+  "page": "81",
+  "location": "колонтитул, 1-я буква",
+  "as_read": "L[?] (видно «I.» — нижняя черта L не пропечатана или точка)",
+  "candidates": [
+   "L",
+   "I."
+  ],
+  "type": "damaged",
+  "run": "t4"
+ },
+ {
+  "frame": 87,
+  "page": "81",
+  "location": "сигнатура",
+  "as_read": "F",
+  "candidates": [
+   "F",
+   "E"
+  ],
+  "type": "damaged",
+  "run": "t4"
+ },
+ {
+  "frame": 88,
+  "page": "82",
+  "location": "колонтитул, 1-я буква",
+  "as_read": "L[?]",
+  "candidates": [
+   "L",
+   "I."
+  ],
+  "type": "damaged",
+  "run": "t4"
+ },
+ {
+  "frame": 88,
+  "page": "82",
+  "location": "подзаголовок",
+  "as_read": "Διαλογιϛικῶς (στ в виде лигатуры, похожей на ς/s)",
+  "candidates": [
+   "Διαλογιστικῶς"
+  ],
+  "type": "diacritic",
+  "run": "t4"
+ },
+ {
+  "frame": 88,
+  "page": "82",
+  "location": "эпиграмма, стр.2 (перенос)",
+  "as_read": "ah,non",
+  "candidates": [
+   "ah,non (отдельная строка) / присоединить к стр.1"
+  ],
+  "type": "layout",
+  "run": "t4"
+ },
+ {
+  "frame": 91,
+  "page": "85",
+  "location": "эпиграмма, стр.4, конец",
+  "as_read": "poteſt.",
+  "candidates": [
+   "poteſt.",
+   "poteſt,"
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 92,
+  "page": "86",
+  "location": "эпиграмма, стр.2",
+  "as_read": "magic[?]is (c похожа на e)",
+  "candidates": [
+   "magicis",
+   "magieis"
+  ],
+  "type": "damaged",
+  "run": "t4"
+ },
+ {
+  "frame": 94,
+  "page": "88",
+  "location": "эпиграмма, стр.3",
+  "as_read": "cuculo",
+  "candidates": [
+   "cucullo"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 95,
+  "page": "89",
+  "location": "эпиграмма, стр.1",
+  "as_read": "ſigere",
+  "candidates": [
+   "figere"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 95,
+  "page": "89",
+  "location": "колонтитул, конец",
+  "as_read": "DESIDIA,",
+  "candidates": [
+   "DESIDIA."
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 96,
+  "page": "90",
+  "location": "эпиграмма, стр.2",
+  "as_read": "Remorumq;,ratem (после знака q; отдельная запятая)",
+  "candidates": [
+   "Remorumq",
+   ",ratem",
+   "Remorumq",
+   "ratem"
+  ],
+  "type": "punctuation",
+  "run": "t4"
  }
 ]

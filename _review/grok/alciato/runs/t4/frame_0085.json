@@ -1,0 +1,45 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 85,
+ "source": "scan/frame_0085.jpg",
+ "page": "79",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "INVIDIA.",
+ "rubric": "INVIDIA.",
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": {
+    "position": "между рубрикой и эпиграммой",
+    "description": "Зависть: женщина в лохмотьях и капюшоне идёт, поедая змею (гадюку), опирается на терновый посох; слева восходящее солнце в облаках, вдали холмы, город, кусты.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Squallida vipereas manducans fœmina carnes,",
+     "Cuiq; dolent oculi,quæq; ſuum cor edit,",
+     "Quam macies,& pallor habent,ſpinoſaq; geſtat",
+     "Tela manu.Talis pingitur inuidia."
+    ],
+    "reading": [
+     "Squallida vipereas manducans fœmina carnes,",
+     "Cuique dolent oculi, quæque suum cor edit,",
+     "Quam macies, & pallor habent, spinosaque gestat",
+     "Tela manu.Talis pingitur inuidia."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка-пейзаж: вверху и по бокам ветви и стволы деревьев с листвой и змеевидными побегами; внизу панорама руин и города с холмами."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «79» справа вверху. Отдельного девиза нет — над гравюрой только рубрика «INVIDIA.». Над q в «Cuiq;», «quæq;», «ſpinoſaq;» — крючок и акут (по конвенции q;)."
+}

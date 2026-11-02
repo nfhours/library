@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 77,
+ "source": "scan/frame_0077.jpg",
+ "page": "71",
+ "signature": "E 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVLTITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ira."
+    ],
+    "reading": "Ira."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Охота на льва: в центре лев с поднятым хвостом окружён собаками; слева охотник(и) с копьём за деревом; скалистый пейзаж; в небе дуга из звёзд (созвездие Льва).",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Alcæam veteres caudam dixêre Leonis,",
+     "Qua ſtimulante iras concipit ille graues.",
+     "Lutea cùm ſurgit bilis,crudeſcit & atro",
+     "Felle dolor,furias excitat indomitas."
+    ],
+    "reading": [
+     "Alcæam veteres caudam dixêre Leonis,",
+     "Qua stimulante iras concipit ille graves.",
+     "Lutea cùm surgit bilis, crudescit & atro",
+     "Felle dolor, furias excitat indomitas."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Архитектурная рамка: вверху маскарон между волютами и вазы с плодами по углам; по бокам стоящие задрапированные фигуры (слева женская, справа мужская) на постаментах; внизу бородатые головы-гермы с крыльями/птицами и пустой овальный медальон в центре."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «71» справа вверху (с чернильной чертой), колонтитул «STVLTITIA.». Сигнатура «E 4». После «Alcæam» мелкий апострофоподобный знак (вероятно загрязнение) — не транскрибирован."
+}

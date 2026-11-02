@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 75,
+ "source": "scan/frame_0075.jpg",
+ "page": "69",
+ "signature": "E iij",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVLTITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Veſpertilio."
+    ],
+    "reading": "Vespertilio."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Сумеречный пейзаж: в небе летит летучая мышь; справа луна (солнце) с лицом в ореоле лучей; густые облака; внизу холмы, руины/постройки, растения, на земле фигурка (птица или зверёк) [?].",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aſſumpſiſſe ſuum volucri ex Meneide nomen,",
+     "Socraticum autores Chœrephoonta ferunt.",
+     "Fuſca viro facies,& ſtridens vocula,tali",
+     "Hunc hominem potuit commaculare nota."
+    ],
+    "reading": [
+     "Assumpsisse suum volucri ex Meneide nomen,",
+     "Socraticum autores Chœrephoonta ferunt.",
+     "Fusca viro facies, & stridens vocula, tali",
+     "Hunc hominem potuit commaculare nota."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Архитектурная рамка: вверху крылатая голова херувима между волютами; по бокам колонны с розетками, драпировками, подвесками и щитком «P» (справа), внизу головы в тюрбанах и атланты; нижний фриз с маскароном в повязке, двумя драконами/головами и розетками."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «69» справа вверху, колонтитул «STVLTITIA.» (последний знак похож на двоеточие). Сигнатура напечатана «E iij» (римскими цифрами)."
+}

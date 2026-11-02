@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 91,
+ "source": "scan/frame_0091.jpg",
+ "page": "85",
+ "signature": "F 3",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "LVXVRIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Amuletum Veneris."
+    ],
+    "reading": "Amuletum Veneris."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Венера (Киприда) склоняется над лежащим мёртвым Адонисом, укрывая его листьями латука; слева Амур с крыльями; справа вдали убегающий кабан; позади дом с крышей, холм с замком, деревья, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Inguina dente fero ſuffoſſum Cypris Adonin",
+     "Lactucæ folijs condidit exanimem.",
+     "Hinc genitali aruo tantum lactuca reſiſtit,",
+     "Quantum eruca ſalax vix ſtimulare poteſt."
+    ],
+    "reading": [
+     "Inguina dente fero suffossum Cypris Adonin",
+     "Lactucæ foliis condidit exanimem.",
+     "Hinc genitali arvo tantum lactuca resistit,",
+     "Quantum eruca salax vix stimulare potest."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка-картуш: вверху гирлянда плодов, ленты и маскароны-головы по углам; по бокам гермы, волюты, свиток; внизу маскарон с рогами (сатир) и лежащие фигуры/чудовища под плитой."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «85» справа вверху. Сигнатура «F 3» внизу справа."
+}

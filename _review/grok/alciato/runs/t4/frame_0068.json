@@ -1,0 +1,52 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 68,
+ "source": "scan/frame_0068.jpg",
+ "page": "62",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PERFIDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ei qui ſemel ſua prodegerit,",
+     "aliena credi non",
+     "oportere."
+    ],
+    "reading": "Ei qui semel sua prodegerit, aliena credi non oportere."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Ласточка летит в небе к башне и зданию; справа в нише/у стены изображение (статуя) Медеи с мечом и детьми; на заднем плане улица, дома, горы, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Colchidos in gremio nidum quid congeris? eheu",
+     "Neſcia cur pullos tam malè credis auis?",
+     "Dira parens Medæa ſuos ſæuiſsima natos",
+     "Perdidit,& ſperas parcat vt illa tuis?"
+    ],
+    "reading": [
+     "Colchidos in gremio nidum quid congeris? eheu",
+     "Nescia cur pullos tam malè credis avis?",
+     "Dira parens Medæa suos sævissima natos",
+     "Perdidit, & speras parcat ut illa tuis?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же архитектурная рамка, что на 0067 (лежащие крылатые фигуры, гермы с «P» и «V», витые колонны, ваза между грифонами)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «62» слева вверху, колонтитул «PERFIDIA.». Девиз в три строки прямым шрифтом. «ſæuißima» с ß."
+}

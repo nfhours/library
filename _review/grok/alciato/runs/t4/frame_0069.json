@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 69,
+ "source": "scan/frame_0069.jpg",
+ "page": "63",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVLTITIA.",
+ "rubric": "STVLTITIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Temeritas."
+    ],
+    "reading": "Temeritas."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Возница на двухколёсной повозке, которую несут вскачь две лошади, срываясь с обрыва; возница тщетно тянет поводья; внизу скалы, река с лодкой, кусты, вдали город.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "In præceps rapitur,fruſtra quoque tẽdit habenas",
+     "Auriga:effræni quem vehit oris equus.",
+     "Haud facilè huic credas,ratio quẽ nulla gubernat,",
+     "Et temerè proprio ducitur arbitrio."
+    ],
+    "reading": [
+     "In præceps rapitur, frustra quoque tendit habenas",
+     "Auriga: effræni quem vehit oris equus.",
+     "Haud facilè huic credas, ratio quem nulla gubernat,",
+     "Et temerè proprio ducitur arbitrio."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка со свитками (картушами), бусинным бордюром, розетками, пальметтами; вверху по углам маленькие драконы; внизу маскарон в шлеме и гирлянды бусин; в нижнем левом свитке буква «P»."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «63» справа вверху, колонтитул «STVLTITIA.». Сигнатуры нет. Начало раздела Stultitia (рубрика внутри рамки)."
+}

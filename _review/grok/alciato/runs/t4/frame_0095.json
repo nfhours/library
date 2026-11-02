@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 95,
+ "source": "scan/frame_0095.jpg",
+ "page": "89",
+ "signature": "F 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "DESIDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Deſidiam abijciendam."
+    ],
+    "reading": "Desidiam abiiciendam."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Двое сидят у дома под двускатной крышей: слева бородатый мужчина в шапке, справа юноша, оба праздно сидят на земле/камнях; позади дом с трубой, деревья, птицы; на переднем плане камни и огонь (слева внизу).",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quiſquis iners abeat.Nam in chœnice ſigere ſedẽ,",
+     "Nos prohibent Samij dogmata ſancta ſenis.",
+     "Surge igitur,duroq; manus adſueſce labori,",
+     "Det tibi dimenſos craſtina vt hora cibos."
+    ],
+    "reading": [
+     "Quisquis iners abeat.Nam in chœnice sigere sedem,",
+     "Nos prohibent Samii dogmata sancta senis.",
+     "Surge igitur, duroque manus adsuesce labori,",
+     "Det tibi dimensos crastina ut hora cibos."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка: вверху смеющийся маскарон между постаментами с розетками и волютами-улитками; по бокам задрапированные женские фигуры (кариатиды) и внутренняя кайма-«верёвка»; внизу маскарон-атлант с волютами и бородатыми масками по углам."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «89» справа вверху; в колонтитуле после DESIDIA стоит знак, похожий на запятую. Сигнатура «F 5» (5 старого начертания, похожа на 9). «ſigere» — так напечатано (ожидалось figere: ſ вместо f?)."
+}

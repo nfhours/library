@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 94,
+ "source": "scan/frame_0094.jpg",
+ "page": "88",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "DESIDIA.",
+ "rubric": "DESIDIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Deſidia."
+    ],
+    "reading": "Desidia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Бородатый старец (ессей) в капюшоне и плаще стоит, запрокинув голову к звёздному небу, опираясь на длинный посох; за ним дерево, дом на холме, кусты; справа облако и деревья; на переднем плане тропинка.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Deſidet in modio Eſſæus,ſpeculator & aſtra,",
+     "Subtus & accenſam contegit igne facem.",
+     "Segnities ſpecie recti,velata cuculo,",
+     "Non ſe,non alios vtilitate iuuat."
+    ],
+    "reading": [
+     "Desidet in modio Essæus, speculator & astra,",
+     "Subtus & accensam contegit igne facem.",
+     "Segnities specie recti, velata cuculo,",
+     "Non se, non alios utilitate iuvat."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0093 (маскарон, угловые птицы, гермы, нижний фриз с сатиром)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «88» слева вверху. В «velata» между «ve» и «lata» небольшой пробел (набор), считаю одним словом. Внизу под рамкой просвечивает текст оборота."
+}

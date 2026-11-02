@@ -1,0 +1,64 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 88,
+ "source": "scan/frame_0088.jpg",
+ "page": "82",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "L[?]VXVRIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Tumulus meretricis."
+    ],
+    "reading": "Tumulus meretricis."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Гробница: на саркофаге лежит обнажённое тело женщины (Лаиды); на передней стенке саркофага рельеф — львица, держащая когтями барана за заднюю часть; позади стена с наклонной плитой, разрушенная арка с растениями, колонны.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quis tumulus? Cuia vrna? Ephyrææ eſt Laidos.",
+     "              ah,non",
+     "Erubuit tantum perdere Parca decus?",
+     "Nulla fuit tum forma.illam iam carpſerat ætas,",
+     "Iam ſpeculum Veneri cauta dicarat anus.",
+     "Quid ſcalptus ſibi vult aries,quem parte leæna",
+     "Vnguibus apprehenſum poſteriore tenet?",
+     "Non aliter captos quòd & ipſa teneret amantes,",
+     "Vir gregis eſt aries,clune tenetur amans."
+    ],
+    "reading": [
+     "Quis tumulus? Cuia urna? Ephyrææ est Laidos.",
+     "ah, non",
+     "Erubuit tantum perdere Parca decus?",
+     "Nulla fuit tum forma.illam iam carpserat ætas,",
+     "Iam speculum Veneri cauta dicarat anus.",
+     "Quid scalptus sibi vult aries, quem parte leæna",
+     "Unguibus apprehensum posteriore tenet?",
+     "Non aliter captos quòd & ipsa teneret amantes,",
+     "Vir gregis est aries, clune tenetur amans."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "",
+   "subheading": {
+    "diplomatic": "Διαλογιϛικῶς.",
+    "reading": "Διαλογιϛικῶς."
+   }
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка-плетёнка, что на 0087."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «82» слева вверху. Строка 1 эпиграммы не поместилась: окончание «ah,non» перенесено на отдельную строку под ней (выключено вправо), как часть стиха 1. Первая буква колонтитула снова похожа на «I.» (как на 0087)."
+}

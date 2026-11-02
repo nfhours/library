@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 67,
+ "source": "scan/frame_0067.jpg",
+ "page": "61",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PERFIDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In adulatores."
+    ],
+    "reading": "In adulatores."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Хамелеон (изображён как щетинистое животное с закрученным хвостом и открытой пастью) на земле среди скал и деревьев; в небе стая птиц.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Semper hiat,ſemper tenuem qua veſcitur auram,",
+     "Reciprocat Ghamæleon,",
+     "Et mutat faciem,varios ſumitq; colores,",
+     "Præter rubrum,vel candidum.",
+     "Sic & Adulator populari veſcitur aura,",
+     "Hianſq; cuncta deuorat.",
+     "Et ſolùm mores imitatur principis atros,",
+     "Albi,& pudici neſcius."
+    ],
+    "reading": [
+     "Semper hiat, semper tenuem qua vescitur auram,",
+     "Reciprocat Ghamæleon,",
+     "Et mutat faciem, varios sumitque colores,",
+     "Præter rubrum, vel candidum.",
+     "Sic & Adulator populari vescitur aura,",
+     "Hiansque cuncta devorat.",
+     "Et solùm mores imitatur principis atros,",
+     "Albi, & pudici nescius."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Архитектурная рамка: сверху две лежащие крылатые фигуры на карнизе; по бокам гермы с медальонами «P» (слева) и «V» (справа), витые колонны; внизу ваза-ладья между двумя крылатыми грифонами/сфинксами."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «61» справа вверху, колонтитул «PERFIDIA.». Сигнатуры нет. Эпиграмма в чередовании длинных и коротких строк (короткие с отступом)."
+}

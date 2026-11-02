@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 81,
+ "source": "scan/frame_0081.jpg",
+ "page": "75",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SVPERBIA.",
+ "rubric": "SVPERBIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Superbia."
+    ],
+    "reading": "Superbia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Ниоба, превращающаяся в скалу (каменная фигура слева); в облаках вверху Аполлон и Диана мечут стрелы; на земле лежат поражённые стрелами дети Ниобы; вдали город с башнями, голова ветра в левом верхнем углу.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "En ſtatuæ ſtatua,& ductũ de marmore marmor,",
+     "Se conferre deis auſa procax Niobe.",
+     "Eſt vitium muliebre ſuperbia,& arguit oris",
+     "Duritiem,ac ſenſus,qualis ineſt lapidi."
+    ],
+    "reading": [
+     "En statuæ statua, & ductum de marmore marmor,",
+     "Se conferre deis ausa procax Niobe.",
+     "Est vitium muliebre superbia, & arguit oris",
+     "Duritiem, ac sensus, qualis inest lapidi."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка: вверху гирлянда плодов с грифонами; по бокам перья в медальонах, атланты-гермы в головных уборах, драпировки; внизу фриз с двумя мужскими фигурами, тянущими канаты, на тележках с колёсами, по сторонам маскарона-солнца, с собачьими/волчьими головами."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «75» справа вверху, колонтитул «SVPERBIA.». Сигнатуры нет. Начало раздела Superbia (рубрика внутри рамки)."
+}

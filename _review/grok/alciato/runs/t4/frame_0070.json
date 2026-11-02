@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 70,
+ "source": "scan/frame_0070.jpg",
+ "page": "64",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVLTITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Furor,& rabies."
+    ],
+    "reading": "Furor, & rabies."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Бородатый царь в короне и доспехах (Агамемнон) стоит с поднятым мечом; у его ног большой щит с изображением льва, по краю щита — лента с надписью; слева горящий город, справа военный лагерь с палатками; холмы, облака.",
+    "inscriptions": [
+     {
+      "where": "лента на щите",
+      "text": "AGAMENNON"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Ora gerit clypeus rabioſi picta leonis,",
+     "Et ſcriptũ in ſummo margine carmen habet:",
+     "Hic hominum eſt terror,cuius poſſeſſor Atrida",
+     "Talia magnanimus ſigna Agamemno tulit."
+    ],
+    "reading": [
+     "Ora gerit clypeus rabiosi picta leonis,",
+     "Et scriptum in summo margine carmen habet:",
+     "Hic hominum est terror, cuius possessor Atrida",
+     "Talia magnanimus signa Agamemno tulit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка со свитками и маскароном в шлеме, что на 0069; буква «P» в нижнем левом свитке."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «64» слева вверху, колонтитул «STVLTITIA.». Надпись на щите идёт снизу вверх; буквы «ON» в конце отделены изгибом ленты. Чтение «AGAMENNON» (с NN), в эпиграмме «Agamemno»."
+}
