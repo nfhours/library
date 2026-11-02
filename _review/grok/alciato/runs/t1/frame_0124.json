@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 124,
+ "source": "scan/frame_0124.jpg",
+ "page": "118",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In ſtudioſum captum",
+     "Amore."
+    ],
+    "reading": "In studiosum captum Amore."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Учёный сидит среди фигур — женщин и Купидона",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Immerſus ſtudijs,dicundo & iure peritus,",
+     "Et maximus libellio,",
+     "Helianiran amat,quantùm nec Thracius vnquã",
+     "Princeps ſororis pellicem.",
+     "Pallada cur alio ſuperaſti iudice Cypri?",
+     "Num ſat ſub Ida eſt vincere?"
+    ],
+    "reading": [
+     "Immersus studiis, dicundo & iure peritus,",
+     "Et maximus libellio,",
+     "Helianiran amat, quantùm nec Thracius unquam",
+     "Princeps sororis pellicem.",
+     "Pallada cur alio superasti iudice Cypri?",
+     "Num sat sub Ida est vincere?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер «118» вверху слева. Эпиграмма в смешанном размере (длинные и короткие строки)."
+}

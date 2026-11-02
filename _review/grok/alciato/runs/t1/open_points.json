@@ -1505,5 +1505,263 @@
   "type": "typo",
   "note": "e вместо æ (как напечатано)",
   "run": "t1"
+ },
+ {
+  "frame": 121,
+  "page": "115",
+  "location": "эпиграмма, строка 5, «vinc[?]ere»",
+  "diplomatic_as_read": "vinc[?]ere",
+  "candidates": [
+   "vincere"
+  ],
+  "type": "damage",
+  "note": "чернильное пятно на «c»",
+  "run": "t1"
+ },
+ {
+  "frame": 121,
+  "page": "115",
+  "location": "эпиграмма, строка 3, конец",
+  "diplomatic_as_read": "habenas",
+  "candidates": [
+   "habenas",
+   "habenas."
+  ],
+  "type": "punctuation",
+  "note": "после «habenas» слабая точка у края рамки — возможно случайная помета; не внесена",
+  "run": "t1"
+ },
+ {
+  "frame": 124,
+  "page": "118",
+  "location": "эпиграмма, строка 1, «iure»",
+  "diplomatic_as_read": "iure",
+  "candidates": [
+   "iure",
+   "iurè"
+  ],
+  "type": "diacritic",
+  "note": "над e видна помета, похожая на гравис; вероятно, случайная",
+  "run": "t1"
+ },
+ {
+  "frame": 124,
+  "page": "118",
+  "location": "эпиграмма, строка 6, «vincere»",
+  "diplomatic_as_read": "vincere",
+  "candidates": [
+   "vincere"
+  ],
+  "type": "damage",
+  "note": "последняя e слабо пропечатана, похожа на c",
+  "run": "t1"
+ },
+ {
+  "frame": 125,
+  "page": "119",
+  "location": "девиз, греческий",
+  "diplomatic_as_read": "Αντέρως",
+  "candidates": [
+   "Ἀντέρως"
+  ],
+  "type": "greek",
+  "note": "придыхание над А не видно; акут на έ",
+  "run": "t1"
+ },
+ {
+  "frame": 125,
+  "page": "119",
+  "location": "подзаголовок",
+  "diplomatic_as_read": "Διαλογιστικῶς.",
+  "candidates": [
+   "Διαλογιστικῶς."
+  ],
+  "type": "greek",
+  "note": "στ-лигатура передана как στ",
+  "run": "t1"
+ },
+ {
+  "frame": 125,
+  "page": "119",
+  "location": "эпиграмма, строка 2, «que[?]s»",
+  "diplomatic_as_read": "que[?]s",
+  "candidates": [
+   "queis",
+   "queĩs"
+  ],
+  "type": "damage",
+  "note": "литера(ы) после «que» повреждены/перекрыты; по смыслу и метру — queis",
+  "run": "t1"
+ },
+ {
+  "frame": 125,
+  "page": "119",
+  "location": "эпиграмма, строка 5, «ꝗcquã»",
+  "diplomatic_as_read": "ꝗcquã",
+  "candidates": [
+   "quicquam"
+  ],
+  "type": "abbreviation",
+  "note": "q с перечёркнутым хвостом (qui) + cquã; в чтении quicquam",
+  "run": "t1"
+ },
+ {
+  "frame": 125,
+  "page": "119",
+  "location": "эпиграмма, строка 5, «(hoſpes )»",
+  "diplomatic_as_read": "(hoſpes )",
+  "candidates": [
+   "(hoſpes)"
+  ],
+  "type": "spacing",
+  "note": "пробел перед закрывающей скобкой сохранён в дипломатическом слое",
+  "run": "t1"
+ },
+ {
+  "frame": 125,
+  "page": "119",
+  "location": "эпиграмма, строка 10, «tegit.»",
+  "diplomatic_as_read": "tegit.",
+  "candidates": [
+   "tegit."
+  ],
+  "type": "damage",
+  "note": "конец «-it.» бледный, похож на подрисовку чернилами от руки",
+  "run": "t1"
+ },
+ {
+  "frame": 125,
+  "page": "119",
+  "location": "сигнатура",
+  "diplomatic_as_read": "—",
+  "candidates": [
+   "H 4 (ожидаемая)"
+  ],
+  "type": "signature",
+  "note": "сигнатура не видна на скане",
+  "run": "t1"
+ },
+ {
+  "frame": 126,
+  "page": "120",
+  "location": "девиз, греческий",
+  "diplomatic_as_read": "Αντέρως",
+  "candidates": [
+   "Ἀντέρως"
+  ],
+  "type": "greek",
+  "note": "придыхание над А не видно",
+  "run": "t1"
+ },
+ {
+  "frame": 126,
+  "page": "120",
+  "location": "эпиграмма, строка 5, «inq́;»",
+  "diplomatic_as_read": "inq́;",
+  "candidates": [
+   "inque"
+  ],
+  "type": "abbreviation",
+  "note": "q с акутом и ;",
+  "run": "t1"
+ },
+ {
+  "frame": 126,
+  "page": "120",
+  "location": "эпиграмма, строка 5, «imos( res mira )»",
+  "diplomatic_as_read": "imos( res mira )",
+  "candidates": [
+   "imos (res mira)"
+  ],
+  "type": "spacing",
+  "note": "пробелы внутри скобок сохранены в дипломатическом слое; в чтении нормализованы",
+  "run": "t1"
+ },
+ {
+  "frame": 127,
+  "page": "121",
+  "location": "эпиграмма, строка 3, «vot»",
+  "diplomatic_as_read": "vot",
+  "candidates": [
+   "vos"
+  ],
+  "type": "typo",
+  "note": "напечатано «vot»; по смыслу vos. В чтении оставлено как напечатано",
+  "run": "t1"
+ },
+ {
+  "frame": 127,
+  "page": "121",
+  "location": "эпиграмма, строка 1, «licta»",
+  "diplomatic_as_read": "licta",
+  "candidates": [
+   "licta (как напечатано)",
+   "relicta"
+  ],
+  "type": "reading",
+  "note": "напечатано отчётливо «licta»; отмечено для сверки",
+  "run": "t1"
+ },
+ {
+  "frame": 128,
+  "page": "122",
+  "location": "эпиграмма, строка 5, «quòd»",
+  "diplomatic_as_read": "quòd",
+  "candidates": [
+   "quòd",
+   "quod"
+  ],
+  "type": "diacritic",
+  "note": "над o слабый гравис",
+  "run": "t1"
+ },
+ {
+  "frame": 129,
+  "page": "123",
+  "location": "эпиграмма, строка 3, «ꝙ»",
+  "diplomatic_as_read": "ꝙ",
+  "candidates": [
+   "quod"
+  ],
+  "type": "abbreviation",
+  "note": "q с косым штрихом = quod",
+  "run": "t1"
+ },
+ {
+  "frame": 130,
+  "page": "124",
+  "location": "эпиграмма, строка 16, «ſpícula»",
+  "diplomatic_as_read": "ſpícula",
+  "candidates": [
+   "ſpicula"
+  ],
+  "type": "diacritic",
+  "note": "над i знак, похожий на акут; под строкой чернильная точка",
+  "run": "t1"
+ },
+ {
+  "frame": 131,
+  "page": "125",
+  "location": "эпиграмма, строка 4, «Æternæ»",
+  "diplomatic_as_read": "Æternæ",
+  "candidates": [
+   "Æternæ",
+   "Aeternæ"
+  ],
+  "type": "ligature",
+  "note": "A и e стоят вплотную — лигатура или раздельно, неясно",
+  "run": "t1"
+ },
+ {
+  "frame": 131,
+  "page": "125",
+  "location": "эпиграмма, строка 6, второе «liquerat»",
+  "diplomatic_as_read": "liquerat",
+  "candidates": [
+   "liquerat"
+  ],
+  "type": "damage",
+  "note": "литера q сдвинута/просела ниже строки",
+  "run": "t1"
  }
 ]

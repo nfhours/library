@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 128,
+ "source": "scan/frame_0128.jpg",
+ "page": "122",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ferè ſimile ex Theocrito."
+    ],
+    "reading": "Ferè simile ex Theocrito."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Купидон под деревом показывает ужаленный палец Венере; вокруг летят пчёлы",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Alueolis dum mella legit:percuſsit Amorem",
+     "Furacem mala apes,& ſummis ſpicula liquit",
+     "In digitis:tumido gemit at puer anxius vngue.",
+     "Et quatit errabundus humum:Veneriq; dolorem",
+     "Indicat,& grauiter queritur,quòd apicula paruũ",
+     "Ipſa inferre animal tam noxia vulnera poſsit.",
+     "Cui ridens Venus,Hanc imitaris tu quoque dixit",
+     "Nate feram:qui das tot noxia vulnera paruus."
+    ],
+    "reading": [
+     "Alveolis dum mella legit: percussit Amorem",
+     "Furacem mala apes, & summis spicula liquit",
+     "In digitis: tumido gemit at puer anxius ungue.",
+     "Et quatit errabundus humum: Venerique dolorem",
+     "Indicat, & graviter queritur, quòd apicula parvum",
+     "Ipsa inferre animal tam noxia vulnera possit.",
+     "Cui ridens Venus, Hanc imitaris tu quoque dixit",
+     "Nate feram: qui das tot noxia vulnera parvus."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Орнаментальная рамка с маскаронами и фигурами"
+  }
+ ],
+ "notes": "Номер «122» вверху слева."
+}

@@ -1,0 +1,62 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 132,
+ "source": "scan/frame_0132.jpg",
+ "page": "126",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Sirenes."
+    ],
+    "reading": "Sirenes."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Корабль с Улиссом, привязанным к мачте; сирены в море; на берегу город",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Abſque alis volucres,& cruribus abſque puellas,",
+     "Roſtro abſq; & piſces,qui tamen ore canant:",
+     "Quis putet eſſe vllos? iungi hæc natura negauit",
+     "Sirenes fieri ſed potuiſſe docent.",
+     "Illicitum eſt mulier,quæ in piſcem deſinit atrum,",
+     "Plurima quòd ſecum monſtra libido vehit.",
+     "Aſpectu,verbis,animi candore,trahuntur,",
+     "Parthenope,Ligia,Leucoſiaq; viri.",
+     "Has muſæ explumant,has atque illudit Vlyſſes.",
+     "Scilicet eſt doctis cum meretrice nihil."
+    ],
+    "reading": [
+     "Absque alis volucres, & cruribus absque puellas,",
+     "Rostro absque & pisces, qui tamen ore canant:",
+     "Quis putet esse ullos? iungi hæc natura negavit",
+     "Sirenes fieri sed potuisse docent.",
+     "Illicitum est mulier, quæ in piscem desinit atrum,",
+     "Plurima quòd secum monstra libido vehit.",
+     "Aspectu, verbis, animi candore, trahuntur,",
+     "Parthenope, Ligia, Leucosiaque viri.",
+     "Has musæ explumant, has atque illudit Ulysses.",
+     "Scilicet est doctis cum meretrice nihil."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Орнаментальная рамка с маскаронами и фигурами"
+  }
+ ],
+ "notes": "Номер «126» вверху слева. Верх девиза «Sirenes.» частично срезан рамкой. После «ore» в строке 2 случайная помета (не знак)."
+}
