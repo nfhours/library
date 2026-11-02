@@ -19,7 +19,7 @@
 - `runs/t3/` — прицельные зумы ×2–×3 спорных мест и сверка с другими страницами книги (не с `entries.json`).
 - `runs/t4/` — сырой вывод Tesseract 5 (`-l lat+grc --psm 4`; для 0008 `-l fra`), без правки. `.txt`, не JSON.
 - `merged/frame_NNNN.json` — итог по схеме из `TRANSCRIPTION.md` (`schema: alciato-1551-page/0.1`).
-- `discrepancies.md` / `discrepancies.json` — все расхождения, решения и вопросы пользователю.
+- `discrepancies.md` / `discrepancies.json` — все расхождения; спорное и вопросы вынесены в `../OPEN_QUESTIONS.md` (v0.3).
 
 ## Ограничения пилота
 

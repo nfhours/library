@@ -1,17 +1,17 @@
 {
  "frame": 233,
  "page": "[227]",
- "signature": "P 2",
+ "signature": "P 2[?]",
  "catchword": null,
  "page_type": "index",
  "running_head": null,
  "rubric": {
   "diplomatic": [
    "INDEX EMBLEMATVM",
-   "IN LOCOS COMMVNES",
+   "IN L[?]OCOS COMMVNES",
    "DIGESTORVM."
   ],
-  "reading": "INDEX EMBLEMATUM IN LOCOS COMMUNES DIGESTORUM.",
+  "reading": "INDEX EMBLEMATUM IN L[?]OCOS COMMUNES DIGESTORUM.",
   "notes": "строка 1 — прямые капители разрядкой, 2–3 — курсивные капители. В «LOCOS» курсивная L похожа на I (см. 0007 ALCIATI)."
  },
  "columns": [
@@ -356,7 +356,7 @@
    "page_ref": "50"
   }
  ],
- "notes": "Два столбца; номера страниц выровнены вправо. Перенос «Maximilia=» печатается двойным дефисом «=». Подзаголовки локусов — курсивные капители, надзаголовок VIRTVTES. — прямые капители. Сигнатура: цифра похожа на «3», но по коллации (октаво, 16 с. в тетради; с. 225 = P1r) с. 227 = P2r → «P 2». Указатель продолжается на кадре 0234.",
+ "notes": "Два столбца; номера страниц выровнены вправо. Перенос «Maximilia=» печатается двойным дефисом «=». Подзаголовки локусов — курсивные капители, надзаголовок VIRTVTES. — прямые капители. Сигнатура: цифра похожа на «3», но по коллации (октаво, 16 с. в тетради; с. 225 = P1r) с. 227 = P2r → предложение «P 2», открытый вопрос Q09. Указатель продолжается на кадре 0234.",
  "continues_on_next_page": true,
  "errata": [],
  "schema": "alciato-1551-page/0.1",
@@ -368,5 +368,15 @@
   "D19",
   "D20",
   "D21"
+ ],
+ "open_question_ids": [
+  "Q08",
+  "Q09",
+  "Q10",
+  "Q11",
+  "Q12",
+  "Q13",
+  "Q14",
+  "Q15"
  ]
 }

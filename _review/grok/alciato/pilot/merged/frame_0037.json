@@ -30,7 +30,7 @@
      "Et docta effinxit quis tua membra manu?",
      "Praxiteles,qui me rapientem Gnoſida uidit.",
      "Atque illo pinxit tempore qualis eram.",
-     "Cur iuuenis,teneraq; etiam lanugine vernat",
+     "Cur iuuenis,teneraq; e[?]tiam lanugine vernat",
      "Barba,queas Pylium cùm ſuperare ſenem?"
     ],
     "reading": [
@@ -38,7 +38,7 @@
      "Et docta effinxit quis tua membra manu?",
      "Praxiteles, qui me rapientem Gnosida vidit.",
      "Atque illo pinxit tempore qualis eram.",
-     "Cur iuvenis, teneraque etiam lanugine vernat",
+     "Cur iuvenis, teneraque e[?]tiam lanugine vernat",
      "Barba, queas Pylium cùm superare senem?"
     ]
    },
@@ -52,5 +52,8 @@
  "discrepancy_ids": [
   "D11",
   "D12"
+ ],
+ "open_question_ids": [
+  "Q06"
  ]
 }

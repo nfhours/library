@@ -1,0 +1,293 @@
+{
+ "note": "Второй экземпляр: Gallica BnF RES P-Z-851, https://gallica.bnf.fr/ark:/12148/btv1b8626769c — открывать в браузере (curl получает 403). Кадр BnF ≠ кадр Getty: искать по печатной странице/сигнатуре.",
+ "items": [
+  {
+   "id": "Q01",
+   "frame": "0007",
+   "page": "[1]",
+   "location": "титул, строка 2, слово «ALCIATI», 2-я буква",
+   "diplomatic_as_read": "D. A. AL[?]CIATI,",
+   "candidates": [
+    "ALCIATI (курсивная L; тот же глиф в «EMBL.» на 0233) — предложение агента",
+    "AICIATI (опечатка печати)"
+   ],
+   "type": "illegible",
+   "resolver": "second_copy",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "D01"
+  },
+  {
+   "id": "Q02",
+   "frame": "0007",
+   "page": "[1]",
+   "location": "нижняя строка, правая часть",
+   "diplomatic_as_read": "CVM PRIVILE[...]",
+   "candidates": [
+    "CVM PRIVILE[GIO] — стандартная формула, достраивание",
+    "оставить [...]"
+   ],
+   "type": "editorial/reconstruction",
+   "resolver": "second_copy",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "D02, U4; в экземпляре BnF строка может быть не срезана"
+  },
+  {
+   "id": "Q03",
+   "frame": "0009",
+   "page": "[3]",
+   "location": "строка 5, слово 1",
+   "diplomatic_as_read": "iuriſcẽſultiſſimi",
+   "candidates": [
+    "оставить как напечатано (предложение: в слое чтения iuriscensultissimi + пометка)",
+    "исправить на iurisconsultissimi"
+   ],
+   "type": "typo",
+   "resolver": "user",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "D06; ранее исправление было применено — откатано"
+  },
+  {
+   "id": "Q04",
+   "frame": "0009",
+   "page": "[3]",
+   "location": "строки 10–11, «ar-/gmmentum»",
+   "diplomatic_as_read": "ar- / gmmentum",
+   "candidates": [
+    "argumentum (очевидная опечатка) — предложение агента",
+    "оставить argmmentum"
+   ],
+   "type": "typo",
+   "resolver": "user",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "D07; ранее исправление было применено — откатано"
+  },
+  {
+   "id": "Q05",
+   "frame": "0009",
+   "page": "[3]",
+   "location": "строки 20–21, «collocata / co conſiderantium»",
+   "diplomatic_as_read": "collocata / co conſiderantium",
+   "candidates": [
+    "loco considerantium (выпало «lo») — предложение агента",
+    "оставить «co»"
+   ],
+   "type": "typo",
+   "resolver": "second_copy",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "U1; все прогоны и OCR читают «co»; проверить, нет ли иного состояния набора во 2-м экземпляре, затем — пользователю"
+  },
+  {
+   "id": "Q06",
+   "frame": "0037",
+   "page": "31",
+   "location": "эпиграмма, строка 5, слово 3",
+   "diplomatic_as_read": "e[?]tiam",
+   "candidates": [
+    "etiam (повреждённая литера e) — предложение агента",
+    "ctiam (опечатка)"
+   ],
+   "type": "damage/stain",
+   "resolver": "second_copy",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "D12"
+  },
+  {
+   "id": "Q07",
+   "frame": "0038",
+   "page": "32",
+   "location": "колонтитул",
+   "diplomatic_as_read": "PRVDBNTIA.",
+   "candidates": [
+    "PRUDENTIA. в слое чтения (очевидная опечатка) — предложение агента",
+    "оставить PRVDBNTIA"
+   ],
+   "type": "typo",
+   "resolver": "user",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "ранее исправление было применено — откатано"
+  },
+  {
+   "id": "Q08",
+   "frame": "0233",
+   "page": "[227]",
+   "location": "шапка, строка 2, «LOCOS», 1-я буква",
+   "diplomatic_as_read": "IN L[?]OCOS COMMVNES",
+   "candidates": [
+    "LOCOS (курсивная L ≈ I) — предложение агента",
+    "IOCOS (опечатка)"
+   ],
+   "type": "illegible",
+   "resolver": "second_copy",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "D16; связано с Q01"
+  },
+  {
+   "id": "Q09",
+   "frame": "0233",
+   "page": "[227]",
+   "location": "сигнатура внизу справа",
+   "diplomatic_as_read": "P 2[?]",
+   "candidates": [
+    "P 2 (по коллации октаво: с. 225 = P1r) — предложение агента",
+    "P 3 (по форме цифры)"
+   ],
+   "type": "illegible",
+   "resolver": "second_copy",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "D17"
+  },
+  {
+   "id": "Q10",
+   "frame": "0233",
+   "page": "[227]",
+   "location": "левый столбец, греч. строка 1, слово 4",
+   "diplomatic_as_read": "ἀπισ[?]εῖν",
+   "candidates": [
+    "ἀπιστεῖν (στ-лигатура) — предложение агента",
+    "ἀπισθεῖν"
+   ],
+   "type": "greek",
+   "resolver": "other_model",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "D18, U2"
+  },
+  {
+   "id": "Q11",
+   "frame": "0233",
+   "page": "[227]",
+   "location": "левый столбец, греч. строка 3, слово 1",
+   "diplomatic_as_read": "[?]ῆ παρέβην",
+   "candidates": [
+    "Πῆ (как на с. 23, кадр 0029; Π не пропечатался?) — предложение агента",
+    "ῆ / Ἦ (так напечатано)"
+   ],
+   "type": "greek",
+   "resolver": "second_copy",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "D19, U2"
+  },
+  {
+   "id": "Q12",
+   "frame": "0233",
+   "page": "[227]",
+   "location": "правый столбец, с. 41, слово 1",
+   "diplomatic_as_read": "Ἀνέχȣ[?]",
+   "candidates": [
+    "Ἀνέχου — предложение агента",
+    "Ανέχου / Ἀνεχου (иная диакритика)"
+   ],
+   "type": "greek",
+   "resolver": "other_model",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "D20, U2"
+  },
+  {
+   "id": "Q13",
+   "frame": "0233",
+   "page": "[227]",
+   "location": "правый столбец, с. 48, слово 4",
+   "diplomatic_as_read": "plurimum[?]",
+   "candidates": [
+    "plurimum — предложение агента"
+   ],
+   "type": "damage/stain",
+   "resolver": "second_copy",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "D21; также сверить с девизом на с. 48 (кадр 0054)"
+  },
+  {
+   "id": "Q14",
+   "frame": "0233",
+   "page": "[227]",
+   "location": "левый столбец, девиз «Νῆφε…»",
+   "diplomatic_as_read": "номер страницы не напечатан",
+   "candidates": [
+    "page_ref = null — предложение агента",
+    "[22] в квадратных скобках"
+   ],
+   "type": "editorial/reconstruction",
+   "resolver": "user",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "U3"
+  },
+  {
+   "id": "Q15",
+   "frame": "0233",
+   "page": "[227]",
+   "location": "греческие девизы указателя (Q10–Q12)",
+   "diplomatic_as_read": "—",
+   "candidates": [
+    "читать только по странице указателя, ссылка на чтение эмблемы в notes — предложение агента",
+    "разрешать сомнительные буквы по тексту эмблем"
+   ],
+   "type": "policy",
+   "resolver": "user",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "U2"
+  },
+  {
+   "id": "Q16",
+   "frame": "—",
+   "page": "—",
+   "location": "политика опечаток после решения",
+   "diplomatic_as_read": "—",
+   "candidates": [
+    "после решения пользователя: дипломатический слой как напечатано, исправление только в слое чтения + errata — предложение агента",
+    "не исправлять никогда, только errata"
+   ],
+   "type": "policy",
+   "resolver": "user",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "U5; до решения исправления не применяются (новое правило)"
+  },
+  {
+   "id": "Q17",
+   "frame": "0016",
+   "page": "10",
+   "location": "надпись на гравюре, вверху",
+   "diplomatic_as_read": "ΓΑΝΝΥΣΘΑΙΜΗΔΕΣΙ,",
+   "candidates": [
+    "γάνυσθαι μήδεσι (словораздел/толкование, только в notes) — предложение агента",
+    "иное членение"
+   ],
+   "type": "greek",
+   "resolver": "other_model",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "толкование не применено ни в одном слое"
+  }
+ ]
+}

@@ -11,7 +11,7 @@
    "kind": "title_text",
    "diplomatic": [
     "EMBLEMATA",
-    "D. A. ALCIATI,",
+    "D. A. AL[?]CIATI,",
     "denuo ab ipſo Autore",
     "recognita,ac,quæ deſi-",
     "derabantur , imagini",
@@ -22,7 +22,7 @@
    ],
    "reading": [
     "EMBLEMATA",
-    "D. A. ALCIATI,",
+    "D. A. AL[?]CIATI,",
     "denuo ab ipso Autore",
     "recognita, ac, quæ desiderabantur, imaginibus locupletata.",
     "Accesserunt nova aliquot ab Autore Emblemata suis quoque eiconibus insignita."
@@ -64,5 +64,9 @@
  "discrepancy_ids": [
   "D01",
   "D02"
+ ],
+ "open_question_ids": [
+  "Q01",
+  "Q02"
  ]
 }

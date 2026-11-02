@@ -76,8 +76,8 @@
    "printed": "PRVDBNTIA.",
    "corrected": "PRUDENTIA.",
    "certainty": "очевидная",
-   "applied_in_reading": true,
-   "comment": "колонтитул: B вместо E"
+   "applied_in_reading": false,
+   "comment": "колонтитул: B вместо E; не применено до решения (OPEN_QUESTIONS)"
   }
  ],
  "schema": "alciato-1551-page/0.1",
@@ -86,5 +86,8 @@
   "D13",
   "D14",
   "D15"
+ ],
+ "open_question_ids": [
+  "Q07"
  ]
 }

@@ -54,5 +54,8 @@
  "errata": [],
  "schema": "alciato-1551-page/0.1",
  "source": "scan/frame_0016.jpg",
- "discrepancy_ids": []
+ "discrepancy_ids": [],
+ "open_question_ids": [
+  "Q17"
+ ]
 }
