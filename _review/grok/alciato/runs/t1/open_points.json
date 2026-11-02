@@ -506,5 +506,18 @@
   "type": "abbreviation",
   "note": "напечатано «qd» с надстрочным знаком?",
   "run": "t1"
+ },
+ {
+  "frame": 35,
+  "page": "29",
+  "location": "эпиграмма, строка 1, слово 5",
+  "diplomatic_as_read": "Pallas[?]",
+  "candidates": [
+   "Pállas (акут)",
+   "Pallas (знак — пятно)"
+  ],
+  "type": "damage/stain",
+  "note": "над a знак, похожий на акут",
+  "run": "t1"
  }
 ]

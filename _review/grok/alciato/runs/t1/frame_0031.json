@@ -1,0 +1,46 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 31,
+ "source": "scan/frame_0031.jpg",
+ "page": "25",
+ "signature": "B 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Prudens,magis quàm",
+     "loquax."
+    ],
+    "reading": "Prudens, magis quàm loquax."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Гербовый щит (картуш) с изображением совы, стоящий в бурном море; за ним парусники, справа лучи солнца из-за облаков; вверху на щите сидит птица (ворона?).",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Noctua Cecropijs inſignia præſtat Athenis,",
+     "Inter aues ſani Noctua conſilij.",
+     "Armiferæ meritò obſequijs ſacrata Mineruæ eſt,",
+     "Garrula quo cornix ceſſerat antè loco."
+    ],
+    "reading": [
+     "Noctua Cecropiis insignia præstat Athenis,",
+     "Inter aves sani Noctua consilii.",
+     "Armiferæ meritò obsequiis sacrata Minervæ est,",
+     "Garrula quo cornix cesserat antè loco."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «25» вверху справа; сигнатура «B 5» внизу справа."
+}

@@ -1,0 +1,46 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 36,
+ "source": "scan/frame_0036.jpg",
+ "page": "30",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Prudentes vino abſtinent."
+    ],
+    "reading": "Prudentes vino abstinent."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Виноградная лоза, обвившая дерево (или дерево с гроздьями винограда), на холме; вдали пейзаж с рекой и руинами арок.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quid me vexatis rami? ſum Palladis arbor:",
+     "Auferte hinc botros.virgo fugit Bromium."
+    ],
+    "reading": [
+     "Quid me vexatis rami? sum Palladis arbor:",
+     "Auferte hinc botros.virgo fugit Bromium."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "под эпиграммой",
+   "description": "Картуш-заставка с маскароном (рогатая голова) и завитками"
+  }
+ ],
+ "notes": "Номер страницы «30» вверху слева."
+}

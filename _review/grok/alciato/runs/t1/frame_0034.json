@@ -1,0 +1,49 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 34,
+ "source": "scan/frame_0034.jpg",
+ "page": "28",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Cuſtodiendas virgines."
+    ],
+    "reading": "Custodiendas virgines."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Паллада (Минерва) в шлеме и доспехах с развевающимся плащом стоит, опираясь на копьё; у её ног слева дракон/змей, справа сова(?) или зверь; за ней круглый храм-ротонда с колоннадой; в небе птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Vera hæc effigies innuptæ eſt Palladis:eius",
+     "Hic Draco,qui dominæ conſtitit ante pedes.",
+     "Cur diuæ comes hoc animal? cuſtodia rerum",
+     "Huic data,ſic lucos,ſacraq; templa colit.",
+     "Innuptas opus eſt cura aſſeruare puellas",
+     "Peruigili.laqueos vndique tendit amor."
+    ],
+    "reading": [
+     "Vera hæc effigies innuptæ est Palladis: eius",
+     "Hic Draco, qui dominæ constitit ante pedes.",
+     "Cur divæ comes hoc animal? custodia rerum",
+     "Huic data, sic lucos, sacraque templa colit.",
+     "Innuptas opus est cura asservare puellas",
+     "Pervigili.laqueos undique tendit amor."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «28» вверху слева. После «colit.» и «amor.» мелкие следы/пятна — не приняты за знаки."
+}
