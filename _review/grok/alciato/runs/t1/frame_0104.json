@@ -1,0 +1,41 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 104,
+ "source": "scan/frame_0104.jpg",
+ "page": "98",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "GVLA.",
+ "rubric": "GVLA.",
+ "rubric_reading": "GULA.",
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Толстый мужчина с длинной журавлиной шеей стоит на берегу, держа в руках птиц (журавля и пеликана); вверху летят птицы; скалы, деревья.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Curculione gruis tumida vir pingitur aluo,",
+     "Qui Laron,aut manibus geſtat Onocrotalum..",
+     "Talis forma fuit Dionyſi,& talis Apici,",
+     "Et gula quos celebres delicioſa facit."
+    ],
+    "reading": [
+     "Curculione gruis tumida vir pingitur alvo,",
+     "Qui Laron, aut manibus gestat Onocrotalum..",
+     "Talis forma fuit Dionysi, & talis Apici,",
+     "Et gula quos celebres deliciosa facit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «98» вверху слева. Над гравюрой только заголовок локуса «GVLA.» (курсивные заглавные); отдельного девиза нет. В конце 2-й строки две точки."
+}

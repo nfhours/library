@@ -1,0 +1,78 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 111,
+ "source": "scan/frame_0111.jpg",
+ "page": "105",
+ "signature": "G 5",
+ "catchword": null,
+ "page_type": "emblem_continuation",
+ "running_head": "DOCTORVM AGNOMINA.",
+ "rubric": null,
+ "continuation_of": {
+  "frame": 110,
+  "page": "104",
+  "motto": "DOCTORVM AGNOMINA."
+ },
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": null,
+   "epigram": {
+    "diplomatic": [
+     "Obſcurus & confuſus,vt Picus fuit,",
+     "Labyrinthus appellabitur.",
+     "Nimis breuis,multa amputans,vt Claudius,",
+     "Mucronis agnomen feret.",
+     "Qui vel columnas voce rumpit,Parpalus,",
+     "Dictus truo eſt ſcholaſticis.",
+     "Contra eſt vocatus,tenuis eſſet Albius",
+     "Quòd voce,veſpertilio.",
+     "At vltimas mutilans colobotes ſyllabas,",
+     "Hirundo Craſſus dicitur.",
+     "Qui ſurdus alijs,ſolus ipſe vult loqui,",
+     "Vt ſturnus in prouerbio eſt.",
+     "Hic bleſus,ille raucus,iſte garriens.",
+     "Hic ſibilat ceu vipera.",
+     "Tumultuatur ille rictu & naribus.",
+     "Huic lingua terebellam facit.",
+     "Singultit alius,atque tuſsit hæſitans.",
+     "Conſpuit alius vt pſecas.",
+     "Quàm multa rebus vitia in humanis agunt,",
+     "Tam multa ſurgunt nomina."
+    ],
+    "reading": [
+     "Obscurus & confusus, ut Picus fuit,",
+     "Labyrinthus appellabitur.",
+     "Nimis brevis, multa amputans, ut Claudius,",
+     "Mucronis agnomen feret.",
+     "Qui vel columnas voce rumpit, Parpalus,",
+     "Dictus truo est scholasticis.",
+     "Contra est vocatus, tenuis esset Albius",
+     "Quòd voce, vespertilio.",
+     "At ultimas mutilans colobotes syllabas,",
+     "Hirundo Crassus dicitur.",
+     "Qui surdus aliis, solus ipse vult loqui,",
+     "Ut sturnus in proverbio est.",
+     "Hic blesus, ille raucus, iste garriens.",
+     "Hic sibilat cev vipera.",
+     "Tumultuatur ille rictu & naribus.",
+     "Huic lingua terebellam facit.",
+     "Singultit alius, atque tussit hæsitans.",
+     "Conspuit alius ut psecas.",
+     "Quàm multa rebus vitia in humanis agunt,",
+     "Tam multa surgunt nomina."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "под текстом",
+   "description": "Картуш-заставка с рогатым маскароном"
+  }
+ ],
+ "notes": "Номер страницы «105» вверху справа; сигнатура «G 5» внизу справа. Продолжение стихотворения с кадра 0110. Между «vel» и «columnas» в строке 5 мелкий лишний оттиск; рядом с «Hirundo» две чернильные точки (не знаки)."
+}

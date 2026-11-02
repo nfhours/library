@@ -1,0 +1,49 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 97,
+ "source": "scan/frame_0097.jpg",
+ "page": "91",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "DESIDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ignaui."
+    ],
+    "reading": "Ignavi."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Человек (Ганимед?) на земле слева тянет руки к небу; над ним летит большая цапля/птица, вверху ещё птица; пейзаж с городом и мостом, камыш.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Ignaui ardeolam ſtellarum effingere ſerui",
+     "Et ſtudia,& mores fabula priſca fuit.",
+     "Quæ famulũ Aſteriã volucris ſumpſiſſe figurã:",
+     "Eſt commenta:fidet ſit penes hiſtoricos.",
+     "Degener hic veluti qui cæuet[?] in aëre falco eſt,",
+     "Dictus ab antiquis vatibus ardelio."
+    ],
+    "reading": [
+     "Ignavi ardeolam stellarum effingere servi",
+     "Et studia, & mores fabula prisca fuit.",
+     "Quæ famulum Asteriam volucris sumpsisse figuram:",
+     "Est commenta: fidet sit penes historicos.",
+     "Degener hic veluti qui cævet[?] in aëre falco est,",
+     "Dictus ab antiquis vatibus ardelio."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «91» вверху справа."
+}

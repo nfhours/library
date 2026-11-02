@@ -1,0 +1,48 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 110,
+ "source": "scan/frame_0110.jpg",
+ "page": "104",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "DOCTORVM AGNOMINA.",
+ "rubric": [
+  "DOCTORVM AGNO-",
+  "MINA."
+ ],
+ "rubric_reading": "DOCTORVM AGNOMINA.",
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Учёные-доктора в мантиях и шапках сидят на скамьях по обе стороны зала, в центре на возвышении под балдахином — председатель; позади окна/пейзаж.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Moris vetuſti eſt,aliqua profeſſoribus",
+     "Superadijci cognomina.",
+     "Faciles apertoſq; explicans tantùm locos,",
+     "Canon vocatur Curtius.",
+     "Reuoluitur qui eodem,& iteratq; nimis",
+     "Mæander,vt Pariſius."
+    ],
+    "reading": [
+     "Moris vetusti est, aliqua professoribus",
+     "Superadiici cognomina.",
+     "Faciles apertosque explicans tantùm locos,",
+     "Canon vocatur Curtius.",
+     "Revolvitur qui eodem, & iteratque nimis",
+     "Mæander, ut Parisius."
+    ]
+   },
+   "continues_on_next_page": true,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «104» вверху слева. Заголовок локуса в две строки курсивными заглавными: «DOCTORVM AGNO-» / «MINA.»; отдельного девиза нет. Стихотворение продолжается на кадре 0111. В колонтитуле после точки — косой штрих (чернила?)."
+}

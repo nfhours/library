@@ -1,0 +1,46 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 100,
+ "source": "scan/frame_0100.jpg",
+ "page": "94",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AVARITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In aulicos."
+    ],
+    "reading": "In aulicos."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Человек, прикованный за ноги (в колодках), сидит на каменном выступе у здания; улица с домами и портиком; вверху птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Vana Palatinos quos educat aula clientes,",
+     "Dicitur auratis nectere comp[?]dibus."
+    ],
+    "reading": [
+     "Vana Palatinos quos educat aula clientes,",
+     "Dicitur auratis nectere comp[?]dibus."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "под текстом",
+   "description": "Картуш-заставка с маскароном"
+  }
+ ],
+ "notes": "Номер страницы «94» вверху слева."
+}

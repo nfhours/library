@@ -1,0 +1,46 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 116,
+ "source": "scan/frame_0116.jpg",
+ "page": "110",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "ASTROLOGIA.",
+ "rubric": "ASTROLOGIA.",
+ "rubric_reading": "ASTROLOGIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Scyphus Neſtoris."
+    ],
+    "reading": "Scyphus Nestoris."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Старец Нестор в длинной одежде и шапке, с бородой, держит в вытянутой руке кубок с голубками на ручках; позади руины, пейзаж, деревья.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Neſtoreum geminis cratera hunc accipe fundis,",
+     "Quod grauis argenti maſſa profudit opus.",
+     "Clauiculi ex auro:ſtant circum quattuor anſæ:",
+     "Vnam quanque ſuper fulua columba ſedet."
+    ],
+    "reading": [
+     "Nestoreum geminis cratera hunc accipe fundis,",
+     "Quod gravis argenti massa profudit opus.",
+     "Claviculi ex auro: stant circum quattuor ansæ:",
+     "Unam quanque super fulva columba sedet."
+    ]
+   },
+   "continues_on_next_page": true,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «110» вверху слева. Заголовок локуса «ASTROLOGIA.» курсивными заглавными. Эпиграмма продолжается на кадре 0117."
+}

@@ -1,0 +1,45 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 115,
+ "source": "scan/frame_0115.jpg",
+ "page": "109",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "NATVRA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In quatuor tempora anni."
+    ],
+    "reading": "In quatuor tempora anni."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Пейзаж: слева восходящее солнце с лучами над водой, справа облака и дерево с птицами (зяблик, ласточка, кукушка, славка); на земле растения; вдали башни.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aduenisse hyemem fringilla renuntiat ales.",
+     "Ad nos vere nouo garrula hirundo redit.",
+     "Indicat æſtatem ſeſe expectare cuculus.",
+     "Autumno eſt tantùm cernere ficedulas."
+    ],
+    "reading": [
+     "Advenisse hyemem fringilla renuntiat ales.",
+     "Ad nos vere novo garrula hirundo redit.",
+     "Indicat æstatem sese expectare cuculus.",
+     "Autumno est tantùm cernere ficedulas."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «109» вверху справа."
+}

@@ -1,0 +1,53 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 93,
+ "source": "scan/frame_0093.jpg",
+ "page": "87",
+ "signature": "F 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "LVXVRIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Laſciuia."
+    ],
+    "reading": "Lascivia."
+   },
+   "subheading": {
+    "diplomatic": "PROBLEMA.",
+    "reading": "PROBLEMA."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Мужчина в плаще стоит на берегу, перед ним два зверька (горностаи/соболи) — белый и тёмный; позади деревья, город, вода с лодкой.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Delicias,& molliciem mus creditur albus",
+     "Arguere,at ratio non ſat aperta mihi eſt.",
+     "An quòd ei natura ſalax,& multa libido eſt?",
+     "Ornat Romanas an quia pelle nurus?",
+     "Sarmaticum murem vocitant plerique Zibellum,",
+     "Et celebris ſuaui eſt vnguine muſcus Arabs."
+    ],
+    "reading": [
+     "Delicias, & molliciem mus creditur albus",
+     "Arguere, at ratio non sat aperta mihi est.",
+     "An quòd ei natura salax, & multa libido est?",
+     "Ornat Romanas an quia pelle nurus?",
+     "Sarmaticum murem vocitant plerique Zibellum,",
+     "Et celebris suavi est unguine muscus Arabs."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «87» вверху справа; сигнатура «F 4» внизу справа. Подзаголовок «PROBLEMA.» курсивными заглавными."
+}

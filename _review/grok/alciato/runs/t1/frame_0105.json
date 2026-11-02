@@ -1,0 +1,51 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 105,
+ "source": "scan/frame_0105.jpg",
+ "page": "99",
+ "signature": "G 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "GVLA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ocni effigies.De his qui meretri-",
+     "cibus donant,quod in bonos",
+     "vſus verti debeat."
+    ],
+    "reading": "Ocni effigies.De his qui meretricibus donant, quod in bonos usus verti debeat."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Окн сидит и плетёт верёвку, а стоящая рядом ослица поедает её конец; позади руины стен и колонн, справа человек у столба.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Impiger haud ceſſat funem contexere ſparto,",
+     "Humidaq; artifici iungere fila manu.",
+     "Sed quantum multis vix torquet ſtrenuus horis,",
+     "Protinus ignaui ventris aſella vorat.",
+     "Fœmina iners animal facili congeſta marito",
+     "Lucra rapit,mundum prodigit inq; ſuum."
+    ],
+    "reading": [
+     "Impiger haud cessat funem contexere sparto,",
+     "Humidaque artifici iungere fila manu.",
+     "Sed quantum multis vix torquet strenuus horis,",
+     "Protinus ignavi ventris asella vorat.",
+     "Fœmina iners animal facili congesta marito",
+     "Lucra rapit, mundum prodigit inque suum."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «99» вверху справа; сигнатура «G 2» внизу справа."
+}

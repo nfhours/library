@@ -1164,5 +1164,346 @@
   "type": "greek",
   "note": "στ-лигатура передана как στ",
   "run": "t1"
+ },
+ {
+  "frame": 92,
+  "page": "86",
+  "location": "эпиграмма, строка 2, «magieis»",
+  "diplomatic_as_read": "magieis",
+  "candidates": [
+   "magicis"
+  ],
+  "type": "typo",
+  "note": "вторая c похожа на e",
+  "run": "t1"
+ },
+ {
+  "frame": 95,
+  "page": "89",
+  "location": "сигнатура",
+  "diplomatic_as_read": "F 5",
+  "candidates": [
+   "F 9?"
+  ],
+  "type": "damage/stain",
+  "note": "цифра смазана; по последовательности F 5",
+  "run": "t1"
+ },
+ {
+  "frame": 95,
+  "page": "89",
+  "location": "эпиграмма, строка 1, «ſigere»",
+  "diplomatic_as_read": "ſigere",
+  "candidates": [
+   "figere"
+  ],
+  "type": "typo",
+  "note": "ſ вместо f? (figere sedem)",
+  "run": "t1"
+ },
+ {
+  "frame": 96,
+  "page": "90",
+  "location": "эпиграмма, строка 5, «Anxia lis»",
+  "diplomatic_as_read": "Anxia lis",
+  "candidates": [
+   "Anxialis"
+  ],
+  "type": "illegible",
+  "note": "пробел между словами почти не виден",
+  "run": "t1"
+ },
+ {
+  "frame": 97,
+  "page": "91",
+  "location": "эпиграмма, строка 4, «fidet»",
+  "diplomatic_as_read": "fidet",
+  "candidates": [
+   "fides"
+  ],
+  "type": "typo",
+  "note": "последняя буква t вместо s?",
+  "run": "t1"
+ },
+ {
+  "frame": 97,
+  "page": "91",
+  "location": "эпиграмма, строка 5, «qui cæuet[?]»",
+  "diplomatic_as_read": "quicæuet",
+  "candidates": [
+   "qui cauet",
+   "qui cæuet"
+  ],
+  "type": "illegible",
+  "note": "слитно; æ или a",
+  "run": "t1"
+ },
+ {
+  "frame": 98,
+  "page": "92",
+  "location": "девиз, первая буква",
+  "diplomatic_as_read": "A",
+  "candidates": [
+   "A[?]"
+  ],
+  "type": "damage/stain",
+  "note": "буква A частично закрыта кляксой",
+  "run": "t1"
+ },
+ {
+  "frame": 99,
+  "page": "93",
+  "location": "эпиграмма, строка 1, «populos»",
+  "diplomatic_as_read": "populos",
+  "candidates": [
+   "populus"
+  ],
+  "type": "typo",
+  "note": "o вместо u?",
+  "run": "t1"
+ },
+ {
+  "frame": 100,
+  "page": "94",
+  "location": "эпиграмма, строка 2, «comp[?]dibus»",
+  "diplomatic_as_read": "comp[?]dibus",
+  "candidates": [
+   "compedibus"
+  ],
+  "type": "damage/stain",
+  "note": "буква e не пропечатана",
+  "run": "t1"
+ },
+ {
+  "frame": 102,
+  "page": "96",
+  "location": "эпиграмма, строка 4, «Si cretæ»",
+  "diplomatic_as_read": "Si cretæ",
+  "candidates": [
+   "Secretæ",
+   "Sic retæ"
+  ],
+  "type": "illegible",
+  "note": "расстановка пробела неясна",
+  "run": "t1"
+ },
+ {
+  "frame": 104,
+  "page": "98",
+  "location": "девиз",
+  "diplomatic_as_read": "(нет)",
+  "candidates": [
+   "«GVLA.» служит одновременно заголовком локуса и девизом"
+  ],
+  "type": "editorial/reconstruction",
+  "note": "отдельной строки девиза нет; motto=null",
+  "run": "t1"
+ },
+ {
+  "frame": 104,
+  "page": "98",
+  "location": "эпиграмма, строка 2, «Onocrotalum..»",
+  "diplomatic_as_read": "Onocrotalum..",
+  "candidates": [
+   "Onocrotalum."
+  ],
+  "type": "typo",
+  "note": "двойная точка; в чтении оставлена",
+  "run": "t1"
+ },
+ {
+  "frame": 108,
+  "page": "102",
+  "location": "эпиграмма, строка 1, «Regna[?]orq;»",
+  "diplomatic_as_read": "Regna[?]orq;",
+  "candidates": [
+   "Regnatorq;"
+  ],
+  "type": "damage/stain",
+  "note": "буква t не пропечатана (виден лишь штрих)",
+  "run": "t1"
+ },
+ {
+  "frame": 108,
+  "page": "102",
+  "location": "эпиграмма, строка 3, «Qu[?]s»",
+  "diplomatic_as_read": "Qu[?]s",
+  "candidates": [
+   "Quas",
+   "Ques"
+  ],
+  "type": "damage/stain",
+  "note": "гласная сбита",
+  "run": "t1"
+ },
+ {
+  "frame": 108,
+  "page": "102",
+  "location": "эпиграмма, строка 3, «tenerã[?]»",
+  "diplomatic_as_read": "tenerã[?]",
+  "candidates": [
+   "tenerá",
+   "tenera"
+  ],
+  "type": "illegible",
+  "note": "надстрочный знак над a неотчётлив",
+  "run": "t1"
+ },
+ {
+  "frame": 109,
+  "page": "103",
+  "location": "эпиграмма, строка 1, «pralargo»",
+  "diplomatic_as_read": "pralargo",
+  "candidates": [
+   "prælargo"
+  ],
+  "type": "typo",
+  "note": "a вместо æ?",
+  "run": "t1"
+ },
+ {
+  "frame": 109,
+  "page": "103",
+  "location": "эпиграмма, строка 3, «ventriq;»",
+  "diplomatic_as_read": "ventriq;",
+  "candidates": [
+   "ven[?]riq;"
+  ],
+  "type": "damage/stain",
+  "note": "t сбита",
+  "run": "t1"
+ },
+ {
+  "frame": 110,
+  "page": "104",
+  "location": "девиз",
+  "diplomatic_as_read": "(нет)",
+  "candidates": [
+   "«DOCTORVM AGNOMINA.» служит заголовком и девизом"
+  ],
+  "type": "editorial/reconstruction",
+  "note": "отдельной строки девиза нет; motto=null",
+  "run": "t1"
+ },
+ {
+  "frame": 112,
+  "page": "106",
+  "location": "эпиграмма, строка 4, «ſedet..»",
+  "diplomatic_as_read": "ſedet..",
+  "candidates": [
+   "ſedet."
+  ],
+  "type": "typo",
+  "note": "двойная точка",
+  "run": "t1"
+ },
+ {
+  "frame": 112,
+  "page": "106",
+  "location": "эпиграмма, строка 6, «volucres,ſquamea»",
+  "diplomatic_as_read": "volucres ,ſquamea",
+  "candidates": [
+   "volucres,ſquamea"
+  ],
+  "type": "illegible",
+  "note": "перед ſquamea стоит запятая с пробелом; положение неясно",
+  "run": "t1"
+ },
+ {
+  "frame": 113,
+  "page": "107",
+  "location": "эпиграмма, строка 1, «ſphæra,Fortuna»",
+  "diplomatic_as_read": "ſphæra,Fortuna",
+  "candidates": [
+   "ſphæræ Fortuna",
+   "ſphæra Fortuna"
+  ],
+  "type": "illegible",
+  "note": "после ſphæra странный знак (¡ или запятая)",
+  "run": "t1"
+ },
+ {
+  "frame": 114,
+  "page": "108",
+  "location": "эпиграмма, строка 1, «vterq;»",
+  "diplomatic_as_read": "vterq;",
+  "candidates": [
+   "vierq;"
+  ],
+  "type": "damage/stain",
+  "note": "t выглядит как i",
+  "run": "t1"
+ },
+ {
+  "frame": 117,
+  "page": "111",
+  "location": "эпиграмма, строка 6, «Vmblici»",
+  "diplomatic_as_read": "Vmblici",
+  "candidates": [
+   "Vmbilici"
+  ],
+  "type": "typo",
+  "note": "пропущена i?",
+  "run": "t1"
+ },
+ {
+  "frame": 118,
+  "page": "112",
+  "location": "эпиграмма, строка 1, «Caucaſia æternùm»",
+  "diplomatic_as_read": "Caucaſi a æternùm",
+  "candidates": [
+   "Caucaſia æternùm"
+  ],
+  "type": "illegible",
+  "note": "между i и a виден пробел",
+  "run": "t1"
+ },
+ {
+  "frame": 118,
+  "page": "112",
+  "location": "эпиграмма, строка 6, «deûmque»",
+  "diplomatic_as_read": "deûmqúe",
+  "candidates": [
+   "deûmque"
+  ],
+  "type": "illegible",
+  "note": "надстрочный знак над e во втором слоге (возможно лишний)",
+  "run": "t1"
+ },
+ {
+  "frame": 119,
+  "page": "113",
+  "location": "эпиграмма, строка 1, первая буква",
+  "diplomatic_as_read": "I[?]care",
+  "candidates": [
+   "Icare"
+  ],
+  "type": "damage/stain",
+  "note": "заглавная I почти не пропечатана",
+  "run": "t1"
+ },
+ {
+  "frame": 119,
+  "page": "113",
+  "location": "эпиграмма, строка 6, «eade[?]»",
+  "diplomatic_as_read": "eade[?]",
+  "candidates": [
+   "eadem"
+  ],
+  "type": "damage/stain",
+  "note": "последняя буква сбита",
+  "run": "t1"
+ },
+ {
+  "frame": 119,
+  "page": "113",
+  "location": "эпиграмма, строка 5, «predicere»",
+  "diplomatic_as_read": "predicere",
+  "candidates": [
+   "prædicere"
+  ],
+  "type": "typo",
+  "note": "e вместо æ (как напечатано)",
+  "run": "t1"
  }
 ]
