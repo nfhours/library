@@ -1,0 +1,51 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 180,
+ "source": "scan/frame_0180.jpg",
+ "page": "174",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMICITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Auxilium nunquàm",
+     "deficiens."
+    ],
+    "reading": "Auxilium nunquàm deficiens."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Потерпевший кораблекрушение плывёт, держась за щит; на берегу лагерь с шатрами, войско и укрепления",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Bina pericla vnis effugi ſedulus armis,",
+     "Cùm premererq; ſôlo,cùm pr,emererq; ſalo.",
+     "Incolumem ex acie clypeus me præſtitit.idem",
+     "Naufragum apprenſus littora aduſque tulit."
+    ],
+    "reading": [
+     "Bina pericla unis effugi sedulus armis,",
+     "Cùm premererque sôlo, cùm premererque salo.",
+     "Incolumem ex acie clypeus me præstitit. idem",
+     "Naufragum apprensus littora adusque tulit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Рамка с гротесками, маскаронами и картушем внизу с меткой «zv»"
+  }
+ ],
+ "notes": "Номер «174» вверху слева."
+}

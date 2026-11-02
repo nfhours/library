@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 154,
+ "source": "scan/frame_0154.jpg",
+ "page": "148",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Nobiles & generoſi."
+    ],
+    "reading": "Nobiles & generosi."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Колоннада/зал с плиточным полом; по сторонам фигуры в тогах",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aurea Cæcropias nectebat fibula veſtes:",
+     "Cui coniuncta tenax dente cicada fuit.",
+     "Calceus Arcadico ſuberat cui lunula ritu,",
+     "Geſtatur patribus mullea Romulidis:",
+     "Indigenas quòd ſe adſererent:hæc ſigna tulerunt",
+     "Ant[?]iqua illuſtres nobilitate viri."
+    ],
+    "reading": [
+     "Aurea Cæcropias nectebat fibula vestes:",
+     "Cui coniuncta tenax dente cicada fuit.",
+     "Calceus Arcadico suberat cui lunula ritu,",
+     "Gestatur patribus mullea Romulidis:",
+     "Indigenas quòd se adsererent: hæc signa tulerunt",
+     "Antiqua illustres nobilitate viri."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Рамка из деревьев и листвы"
+  }
+ ],
+ "notes": "Номер «148» вверху слева."
+}

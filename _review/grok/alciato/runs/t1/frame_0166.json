@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 166,
+ "source": "scan/frame_0166.jpg",
+ "page": "160",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "RESPVBLICA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Conſiliarij Principum."
+    ],
+    "reading": "Consiliarii Principum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Кентавр Хирон наставляет юного Ахилла и других детей; руины, птицы",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Heroum genitos,& magnum fertur Achillem",
+     "In ſtabulis Chiron erudijſſe ſuis.",
+     "Semiferum doctorem,& ſemiuirum centaurum,",
+     "Aſsideat quiſquis regibus,eſſe decet.",
+     "Eſt fera,dum violat ſocios,dum proterit hoſtes:",
+     "Eſtq́; homo,dum ſimulat ſe populo eſſe pium."
+    ],
+    "reading": [
+     "Heroum genitos, & magnum fertur Achillem",
+     "In stabulis Chiron erudiisse suis.",
+     "Semiferum doctorem, & semivirum centaurum,",
+     "Assideat quisquis regibus, esse decet.",
+     "Est fera, dum violat socios, dum proterit hostes:",
+     "Estque homo, dum simulat se populo esse pium."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с колоннами, гермами и маскароном"
+  }
+ ],
+ "notes": "Номер «160» вверху слева. Колонтитул «RESPVBLICA.», хотя эмблема продолжает тему государя; рубрики на странице нет; на следующей странице колонтитул снова «PRINCEPS.»."
+}

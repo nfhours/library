@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 171,
+ "source": "scan/frame_0171.jpg",
+ "page": "165",
+ "signature": "L 3",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "VITA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Aere quandoque ſalutem",
+     "redimendam."
+    ],
+    "reading": "Aere quandoque salutem redimendam."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Бобр, преследуемый охотником и собаками, откусывает себе тестикулы; лесистый пейзаж",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Et pedibus ſegnis,tumida & propendulus aluo,",
+     "Hac tamen inſidias effugit arte fiber.",
+     "Mordicus ipſe ſibi medicata virilia vellit,",
+     "Atque abicit,ſeſe gnarus ob illa peti.",
+     "Huius ab exemplo diſces non parcere rebus,",
+     "Et vitam vt redimas,hoſtibus æra dare."
+    ],
+    "reading": [
+     "Et pedibus segnis, tumida & propendulus alvo,",
+     "Hac tamen insidias effugit arte fiber.",
+     "Mordicus ipse sibi medicata virilia vellit,",
+     "Atque abicit, sese gnarus ob illa peti.",
+     "Huius ab exemplo disces non parcere rebus,",
+     "Et vitam ut redimas, hostibus æra dare."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с фронтоном, колоннами и маскароном"
+  }
+ ],
+ "notes": "Номер «165» вверху справа."
+}

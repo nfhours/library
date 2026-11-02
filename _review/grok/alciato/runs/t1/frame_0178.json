@@ -1,0 +1,56 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 178,
+ "source": "scan/frame_0178.jpg",
+ "page": "172",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMICITIA.",
+ "rubric": "AMICITIA.",
+ "rubric_reading": "AMICITIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Amicitia etiam poſt mortem",
+     "durans."
+    ],
+    "reading": "Amicitia etiam post mortem durans."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Виноградная лоза с гроздьями обвивает засохший вяз; пейзаж",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Arentem ſenio,nudam quoque frondibus vlmum,",
+     "Complexa eſt viridi vitis opaca coma.",
+     "Agnoſcitq; vices naturæ:& grata parenti",
+     "Officij reddit mutua iura ſuo.",
+     "Exemploq; monet,tales nos quærere amicos,",
+     "Quos neque diſiungat fœdere ſumma dies."
+    ],
+    "reading": [
+     "Arentem senio, nudam quoque frondibus ulmum,",
+     "Complexa est viridi vitis opaca coma.",
+     "Agnoscitque vices naturæ: & grata parenti",
+     "Officii reddit mutua iura suo.",
+     "Exemploque monet, tales nos quærere amicos,",
+     "Quos neque disiungat fœdere summa dies."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с волютами и фризом с гротесками внизу"
+  }
+ ],
+ "notes": "Номер «172» вверху слева. После «dies.» случайные надстрочные пометы."
+}

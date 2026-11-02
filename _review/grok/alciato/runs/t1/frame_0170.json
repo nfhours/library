@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 170,
+ "source": "scan/frame_0170.jpg",
+ "page": "164",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "VITA.",
+ "rubric": "VITA.",
+ "rubric_reading": "VITA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In vitam humanam."
+    ],
+    "reading": "In vitam humanam."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Гераклит плачет, закрыв лицо руками; рядом смеётся Демокрит; пейзаж",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Plus ſolito humanæ nunc defle incommoda vitæ,",
+     "Heraclite:ſcatet pluribus illa malis.",
+     "Tu rurſus(ſi quando aliâs)extolle cachinnum",
+     "Democrite:illa magis ludicra facta fuit.",
+     "Intereà hæc cernens meditor,qua denique tecum",
+     "Fine fleam,aut tecum quomodo ſplene iocer."
+    ],
+    "reading": [
+     "Plus solito humanæ nunc defle incommoda vitæ,",
+     "Heraclite: scatet pluribus illa malis.",
+     "Tu rursus (si quando aliâs) extolle cachinnum",
+     "Democrite: illa magis ludicra facta fuit.",
+     "Intereà hæc cernens meditor, qua denique tecum",
+     "Fine fleam, aut tecum quomodo splene iocer."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Рамка из плетёного орнамента с маскаронами"
+  }
+ ],
+ "notes": "Номер «164» вверху слева. В строках 1–2 случайные вертикальные поме́ты (не знаки)."
+}

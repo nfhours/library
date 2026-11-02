@@ -1,0 +1,67 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 175,
+ "source": "scan/frame_0175.jpg",
+ "page": "169",
+ "signature": "L 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "MORS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In mortem præproperam."
+    ],
+    "reading": "In mortem præproperam."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Саркофаг/гробница с надписью на постаменте; на крышке маска Горгоны и дельфины; позади руины арок",
+    "inscriptions": [
+     {
+      "where": "на табличке постамента",
+      "text": "D SEPVLCRVM. M"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Qui teneras forma allexit,torſitq; puellas,",
+     "Pulchrior,& tota nobilis vrbe puer,",
+     "Occîdit ante diem,nulli mage flendus(Areſti)",
+     "Quàm tibi,cui caſto iunctus amore fuit.",
+     "Ergo illi tumulum tanti monumenta doloris",
+     "Aſtruis:& querulis vocibus aſtra feris.",
+     "Me ſine abis dilecte? neque amplius ibimus vnà?",
+     "Nec mecum in ſtudijs ocia grata teres?",
+     "Sed te terra teget,ſed fati,Gorgonis ora,",
+     "Delphineſq;,tui ſigna dolenda dabunt."
+    ],
+    "reading": [
+     "Qui teneras forma allexit, torsitque puellas,",
+     "Pulchrior, & tota nobilis urbe puer,",
+     "Occîdit ante diem, nulli mage flendus (Aresti)",
+     "Quàm tibi, cui casto iunctus amore fuit.",
+     "Ergo illi tumulum tanti monumenta doloris",
+     "Astruis: & querulis vocibus astra feris.",
+     "Me sine abis dilecte? neque amplius ibimus unà?",
+     "Nec mecum in studiis ocia grata teres?",
+     "Sed te terra teget, sed fati, Gorgonis ora,",
+     "Delphinesque, tui signa dolenda dabunt."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Рамка с кариатидами, маскаронами и раковиной вверху"
+  }
+ ],
+ "notes": "Номер «169» вверху справа. D … M (Dis Manibus) — по краям таблички."
+}

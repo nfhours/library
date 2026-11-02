@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 157,
+ "source": "scan/frame_0157.jpg",
+ "page": "151",
+ "signature": "K 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In nothos."
+    ],
+    "reading": "In nothos."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Геракл с палицей стоит в пейзаже; в облаках фигуры богов (Юнона)",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Herculeos ſpurij ſemper celebretis honores:",
+     "Nam veſtri princeps ordinis ille fuit.",
+     "Nec prius eſſe deus potuit , quàm ſugeret infans",
+     "Lac,ſibi quod fraudis neſcia Iuno dabat."
+    ],
+    "reading": [
+     "Herculeos spurii semper celebretis honores:",
+     "Nam vestri princeps ordinis ille fuit.",
+     "Nec prius esse deus potuit, quàm sugeret infans",
+     "Lac, sibi quod fraudis nescia Iuno dabat."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с картушами и маскароном внизу"
+  }
+ ],
+ "notes": "Номер «151» вверху справа. Пятна на бумаге в строках 3–4."
+}

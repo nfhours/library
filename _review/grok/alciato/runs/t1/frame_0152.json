@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 152,
+ "source": "scan/frame_0152.jpg",
+ "page": "146",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Optimus ciuis."
+    ],
+    "reading": "Optimus civis."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Фрасибула в доспехах венчают венком среди воинов",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Dum iuſtis patriã Thraſybulus vindicat armis,",
+     "Dumq; ſimultates ponere quemque iubet,",
+     "Concors ordo omnis magni inſtar muneris,illi",
+     "Palladiæ ſertum frondis habere dedit.",
+     "Cinge comã Thraſybule,geras hũc ſolus honorem,",
+     "In magna nemo eſt æmulus vrbe tibi."
+    ],
+    "reading": [
+     "Dum iustis patriam Thrasybulus vindicat armis,",
+     "Dumque simultates ponere quemque iubet,",
+     "Concors ordo omnis magni instar muneris, illi",
+     "Palladiæ sertum frondis habere dedit.",
+     "Cinge comam Thrasybule, geras hunc solus honorem,",
+     "In magna nemo est æmulus urbe tibi."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с гермами и маскароном вверху"
+  }
+ ],
+ "notes": "Номер «146» вверху слева."
+}

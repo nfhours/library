@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 158,
+ "source": "scan/frame_0158.jpg",
+ "page": "152",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Imparilitas."
+    ],
+    "reading": "Imparilitas."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Сокол/орёл парит в небе; внизу на земле галка, гусь и утка; пейзаж с городом",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Vt ſublime volans tenuem ſecat aëra falco,",
+     "Vt paſcuntur humi graculus,anſer,anas:",
+     "Sic ſummũ ſcandit ſuper æthera Pindarus ingẽs,",
+     "Sic ſcit humi tantùm ſerpere Bacchilydes."
+    ],
+    "reading": [
+     "Ut sublime volans tenuem secat aëra falco,",
+     "Ut pascuntur humi graculus, anser, anas:",
+     "Sic summum scandit super æthera Pindarus ingens,",
+     "Sic scit humi tantùm serpere Bacchilydes."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с картушами и маскароном внизу"
+  }
+ ],
+ "notes": "Номер «152» вверху слева."
+}

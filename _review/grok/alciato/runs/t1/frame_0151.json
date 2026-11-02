@@ -1,0 +1,64 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 151,
+ "source": "scan/frame_0151.jpg",
+ "page": "145",
+ "signature": "K",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Tumulus Ioannis Galeacij Vice-",
+     "comitis,primi Ducis Mediol."
+    ],
+    "reading": "Tumulus Ioannis Galeacii Vicecomitis, primi Ducis Mediol."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Карта Италии (Романья, Тоскана, Лаций) с топонимами; над ней змей (висконтиевский) с лентой надписи; на побережье у Рима фигура",
+    "inscriptions": [
+     {
+      "where": "карта, топонимы (слева направо, сверху вниз)",
+      "text": "CESENADEGO · RIMANO · ANCONA · PORTODERAVENA · RAVENA · BIBIENA · MÕTESCIO · FIRENSA · [...]ISA · SIENA · PERVRA · TVRNI · CIBLI[?] · EIGENE[?] · BOLSENA · MOTEARGETATO · CITAVECHIA · ROMA · MARTAFIVME · GIGLIO · CAPOLINARE"
+     },
+     {
+      "where": "лента вокруг змея (греч., часть букв зеркально/перевёрнуто)",
+      "text": "ΤΟΝ [...] ΕΝΙ ΣΟΦΙΑΙ[?] [...] ΚΡΟΙΣ[?] [...] ΜΕ [...] ΝΑ [...] ΤΙΣΜΕ[...]"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Pro tumulo pone Italiam,pone arma,Ducesq;,",
+     "Et mare,quod geminos mugii aduſq; ſinus.",
+     "Adde his barbariem conantem irrũpere fruſtra,",
+     "Et mercede emptas in fera bella manus.",
+     "Anguiger eſt ſumnò[?] ſiſtens in culmine,dicat:",
+     "Quis paruis magnam me ſuperimpoſuit?"
+    ],
+    "reading": [
+     "Pro tumulo pone Italiam, pone arma, Ducesque,",
+     "Et mare, quod geminos mugii adusque sinus.",
+     "Adde his barbariem conantem irrumpere frustra,",
+     "Et mercede emptas in fera bella manus.",
+     "Anguiger est summò sistens in culmine, dicat:",
+     "Quis parvis magnam me superimposuit?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с гермами и маскароном вверху"
+  }
+ ],
+ "notes": "Номер «145» вверху справа."
+}

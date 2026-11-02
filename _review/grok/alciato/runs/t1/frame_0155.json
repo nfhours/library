@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 155,
+ "source": "scan/frame_0155.jpg",
+ "page": "149",
+ "signature": "K 3",
+ "catchword": "Spernit",
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Duodecim certamina Herculis."
+    ],
+    "reading": "Duodecim certamina Herculis."
+   },
+   "subheading": {
+    "diplomatic": "Ἀλληγορικῶς.",
+    "reading": "Ἀλληγορικῶς."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Геракл сражается с многоголовой гидрой; справа вдали лучник",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Roboris inuicti ſuperat facundia laudes:",
+     "Dicta Sophiſtarum laqueoſq́; reſoluit inanes.",
+     "Non furor,aut rabies virtute potentior vlla eſt.",
+     "Continuum ob curſum ſapienti opulentia cedit."
+    ],
+    "reading": [
+     "Roboris invicti superat facundia laudes:",
+     "Dicta Sophistarum laqueosque resolvit inanes.",
+     "Non furor, aut rabies virtute potentior ulla est.",
+     "Continuum ob cursum sapienti opulentia cedit."
+    ]
+   },
+   "continues_on_next_page": true,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Рамка с плетёным орнаментом"
+  }
+ ],
+ "notes": "Номер «149» вверху справа. Эпиграмма продолжается на кадре 0156."
+}

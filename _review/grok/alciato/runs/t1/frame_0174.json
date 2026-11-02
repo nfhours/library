@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 174,
+ "source": "scan/frame_0174.jpg",
+ "page": "168",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "MORS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In formoſam fato præreptam."
+    ],
+    "reading": "In formosam fato præreptam."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Купидон и Смерть: на земле лежит поражённая девушка; над ней фигура с луком; пейзаж",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Cur puerũ Mors auſa dolis es carpere Amorem?",
+     "Tela tua vt iaceret:dum propria eſſe putat."
+    ],
+    "reading": [
+     "Cur puerum Mors ausa dolis es carpere Amorem?",
+     "Tela tua ut iaceret: dum propria esse putat."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Рамка с решёткой вверху, фигурами путти и ладьёй внизу"
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Картуш с кистями"
+  }
+ ],
+ "notes": "Номер «168» вверху слева."
+}

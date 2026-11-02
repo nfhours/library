@@ -1947,5 +1947,361 @@
   "type": "spacing",
   "note": "разрывы внутри слов; в чтении слито",
   "run": "t1"
+ },
+ {
+  "frame": 151,
+  "page": "145",
+  "location": "эпиграмма, строка 5, «ſumnò[?]»",
+  "diplomatic_as_read": "ſumnò[?]",
+  "candidates": [
+   "ſummò",
+   "ſummo"
+  ],
+  "type": "damage",
+  "note": "третья литера похожа на n; над o точка/гравис",
+  "run": "t1"
+ },
+ {
+  "frame": 151,
+  "page": "145",
+  "location": "эпиграмма, строка 2, «mugii»",
+  "diplomatic_as_read": "mugii",
+  "candidates": [
+   "mugii (как напечатано)"
+  ],
+  "type": "reading",
+  "note": "напечатано «mugii»; отмечено для сверки",
+  "run": "t1"
+ },
+ {
+  "frame": 151,
+  "page": "145",
+  "location": "гравюра, топонимы карты",
+  "diplomatic_as_read": "см. inscriptions",
+  "candidates": [
+   "чтение топонимов как напечатано"
+  ],
+  "type": "inscription",
+  "note": "мелкий шрифт; CIBLI, EIGENE, начало [P]ISA неуверенны; над O в MÕTESCIO черта",
+  "run": "t1"
+ },
+ {
+  "frame": 151,
+  "page": "145",
+  "location": "гравюра, лента со змеем",
+  "diplomatic_as_read": "ΤΟΝ [...] ΕΝΙ ΣΟΦΙΑΙ[?] ...",
+  "candidates": [
+   "надпись на ленте не прочитана полностью"
+  ],
+  "type": "greek",
+  "note": "буквы на изгибах ленты перевёрнуты/зеркальны, частично скрыты",
+  "run": "t1"
+ },
+ {
+  "frame": 153,
+  "page": "147",
+  "location": "эпиграмма, строка 5",
+  "diplomatic_as_read": "mu[?]rus.ma[?]gni",
+  "candidates": [
+   "murus, magni",
+   "murus. magni"
+  ],
+  "type": "damage",
+  "note": "литеры u и a повреждены; знак после murus — точка (возможно запятая)",
+  "run": "t1"
+ },
+ {
+  "frame": 154,
+  "page": "148",
+  "location": "эпиграмма, строка 6, «Ant[?]iqua»",
+  "diplomatic_as_read": "Ant[?]iqua",
+  "candidates": [
+   "Antiqua"
+  ],
+  "type": "damage",
+  "note": "t не пропечатано, похоже на «:»",
+  "run": "t1"
+ },
+ {
+  "frame": 154,
+  "page": "148",
+  "location": "эпиграмма, строка 1, «Cæcropias»",
+  "diplomatic_as_read": "Cæcropias",
+  "candidates": [
+   "Cecropias"
+  ],
+  "type": "reading",
+  "note": "напечатано с æ",
+  "run": "t1"
+ },
+ {
+  "frame": 155,
+  "page": "149",
+  "location": "подзаголовок",
+  "diplomatic_as_read": "Ἀλληγορικῶς.",
+  "candidates": [
+   "Ἀλληγορικῶς."
+  ],
+  "type": "greek",
+  "note": "придыхание напечатано как апостроф после Α (Α'λληγορικῶς)",
+  "run": "t1"
+ },
+ {
+  "frame": 157,
+  "page": "151",
+  "location": "эпиграмма, строка 3, «potuit ,»",
+  "diplomatic_as_read": "potuit ,",
+  "candidates": [
+   "potuit,"
+  ],
+  "type": "spacing",
+  "note": "пробел перед запятой",
+  "run": "t1"
+ },
+ {
+  "frame": 159,
+  "page": "153",
+  "location": "эпиграмма, строка 1, «fine»",
+  "diplomatic_as_read": "fine",
+  "candidates": [
+   "ſine"
+  ],
+  "type": "typo",
+  "note": "у литеры видна перекладина f",
+  "run": "t1"
+ },
+ {
+  "frame": 159,
+  "page": "153",
+  "location": "эпиграмма, строка 1, «Quòd»",
+  "diplomatic_as_read": "Quòd",
+  "candidates": [
+   "Quòd",
+   "Quod"
+  ],
+  "type": "diacritic",
+  "note": "знак над o повреждён",
+  "run": "t1"
+ },
+ {
+  "frame": 161,
+  "page": "155",
+  "location": "эпиграмма, строка 4, «pomà»",
+  "diplomatic_as_read": "pomà",
+  "candidates": [
+   "poma"
+  ],
+  "type": "diacritic",
+  "note": "над a знак, похожий на гравис; возможно сбитый",
+  "run": "t1"
+ },
+ {
+  "frame": 164,
+  "page": "158",
+  "location": "эпиграмма, строка 3, «déinde»",
+  "diplomatic_as_read": "déinde",
+  "candidates": [
+   "deinde"
+  ],
+  "type": "diacritic",
+  "note": "акут над e напечатан",
+  "run": "t1"
+ },
+ {
+  "frame": 166,
+  "page": "160",
+  "location": "колонтитул",
+  "diplomatic_as_read": "RESPVBLICA.",
+  "candidates": [
+   "RESPVBLICA. (как напечатано)",
+   "PRINCEPS."
+  ],
+  "type": "running_head",
+  "note": "колонтитул не соответствует рубрике окружения (PRINCEPS на 0162–0167)",
+  "run": "t1"
+ },
+ {
+  "frame": 167,
+  "page": "161",
+  "location": "эпиграмма, строка 1, «Veſparũ»",
+  "diplomatic_as_read": "Veſparũ",
+  "candidates": [
+   "Veſparũ (как напечатано)",
+   "Apum"
+  ],
+  "type": "reading",
+  "note": "напечатано «Veſparũ» при изображении пчёл; отмечено для сверки",
+  "run": "t1"
+ },
+ {
+  "frame": 169,
+  "page": "163",
+  "location": "эпиграмма, строка 3, «quẽis[?]»",
+  "diplomatic_as_read": "quẽis[?]",
+  "candidates": [
+   "queis"
+  ],
+  "type": "damage",
+  "note": "та же литера, что на кадрах 0125, 0135: e с чертой сверху (особая литера или повреждение)",
+  "run": "t1"
+ },
+ {
+  "frame": 172,
+  "page": "166",
+  "location": "девиз, «luctandũ»",
+  "diplomatic_as_read": "luctandũ",
+  "candidates": [
+   "luctandum"
+  ],
+  "type": "damage",
+  "note": "литеры у конца слова частично закрыты пятном; знак сокращения прочитан как тильда",
+  "run": "t1"
+ },
+ {
+  "frame": 172,
+  "page": "166",
+  "location": "эпиграмма, строка 1, «Hector:,»",
+  "diplomatic_as_read": "Hector:,",
+  "candidates": [
+   "Hector,",
+   "Hector:"
+  ],
+  "type": "punctuation",
+  "note": "напечатаны двоеточие и запятая подряд; в чтении оставлено как напечатано",
+  "run": "t1"
+ },
+ {
+  "frame": 172,
+  "page": "166",
+  "location": "эпиграмма, строка 2, «hoſtẽis[?]»",
+  "diplomatic_as_read": "hoſtẽis[?]",
+  "candidates": [
+   "hoſteis"
+  ],
+  "type": "damage",
+  "note": "та же литера e с чертой, что в queis (0125, 0135, 0169)",
+  "run": "t1"
+ },
+ {
+  "frame": 172,
+  "page": "166",
+  "location": "эпиграмма, строка 4, перед «parãt»",
+  "diplomatic_as_read": "vincla parãt",
+  "candidates": [
+   "vincla parãt"
+  ],
+  "type": "other",
+  "note": "перед «parãt» мелкая надстрочная помета — вероятно случайная",
+  "run": "t1"
+ },
+ {
+  "frame": 173,
+  "page": "167",
+  "location": "эпиграмма, строка 5, «ꝓuida»",
+  "diplomatic_as_read": "ꝓuida",
+  "candidates": [
+   "prouida"
+  ],
+  "type": "abbreviation",
+  "note": "p с петлёй = pro",
+  "run": "t1"
+ },
+ {
+  "frame": 173,
+  "page": "167",
+  "location": "эпиграмма, строка 7, «Acher onticus»",
+  "diplomatic_as_read": "Acheronticus",
+  "candidates": [
+   "Acheronticus"
+  ],
+  "type": "spacing",
+  "note": "в печати разрыв «Acher onticus»; передано слитно",
+  "run": "t1"
+ },
+ {
+  "frame": 175,
+  "page": "169",
+  "location": "гравюра, надпись",
+  "diplomatic_as_read": "D SEPVLCRVM. M",
+  "candidates": [
+   "D(is) M(anibus) SEPVLCRVM"
+  ],
+  "type": "inscription",
+  "note": "D и M на краях таблички, M частично срезано/неясно",
+  "run": "t1"
+ },
+ {
+  "frame": 176,
+  "page": "170",
+  "location": "эпиграмма, строка 1, конец",
+  "diplomatic_as_read": "saxum'",
+  "candidates": [
+   "saxum:",
+   "saxum,"
+  ],
+  "type": "punctuation",
+  "note": "после saxum надстрочный знак вроде апострофа — сбитое двоеточие/запятая?",
+  "run": "t1"
+ },
+ {
+  "frame": 176,
+  "page": "170",
+  "location": "гравюра, надпись",
+  "diplomatic_as_read": "NVLLI CEDO",
+  "candidates": [
+   "NVLLI CEDO"
+  ],
+  "type": "inscription",
+  "note": "верх букв частично размыт, конец «O» с завитком",
+  "run": "t1"
+ },
+ {
+  "frame": 177,
+  "page": "171",
+  "location": "эпиграмма, строка 3, «Græciq;»",
+  "diplomatic_as_read": "Græciq;",
+  "candidates": [
+   "Graciq;"
+  ],
+  "type": "diacritic",
+  "note": "лигатура æ слабо различима",
+  "run": "t1"
+ },
+ {
+  "frame": 179,
+  "page": "173",
+  "location": "эпиграмма, строка 3, «Quo caret»",
+  "diplomatic_as_read": "Quo\\caret",
+  "candidates": [
+   "Quo caret"
+  ],
+  "type": "other",
+  "note": "между Quo и caret вертикальная черта — случайная поме́та/пробельный материал",
+  "run": "t1"
+ },
+ {
+  "frame": 179,
+  "page": "173",
+  "location": "рамка, картуш внизу",
+  "diplomatic_as_read": "zv",
+  "candidates": [
+   "ZV",
+   "монограмма"
+  ],
+  "type": "inscription",
+  "note": "мелкая метка в картуше рамки",
+  "run": "t1"
+ },
+ {
+  "frame": 180,
+  "page": "174",
+  "location": "эпиграмма, строка 2, «pr,emererq;»",
+  "diplomatic_as_read": "pr,emererq;",
+  "candidates": [
+   "premererq;"
+  ],
+  "type": "punctuation",
+  "note": "лишняя запятая/помета внутри слова; в чтении убрана",
+  "run": "t1"
  }
 ]
