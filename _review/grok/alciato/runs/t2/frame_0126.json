@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 126,
+ "source": "scan/frame_0126.jpg",
+ "page": "120",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Αντέρως, Amor virtutis,alium",
+     "Cupidinem ſuperans."
+    ],
+    "reading": "Αντέρως, Amor virtutis, alium Cupidinem superans."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Крылатый Антэрот привязывает к дереву нагого Купидона; слева горит костёр с луком и стрелами, справа пейзаж, птицы в небе.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aligerum,aligeroq; inimicum pinxit Amori,",
+     "Arcu arcũ,atq; ignes igne domans Nemeſis.",
+     "Vt quæ alijs fecit patiatur.at hic puer olim",
+     "Intrepidus geſtans tela,miſer lachrymat.",
+     "Ter ſpuit,inq; ſinus imos(res mira) crematur",
+     "Igne ignis,furias odit Amoris Amor."
+    ],
+    "reading": [
+     "Aligerum, aligeroque inimicum pinxit Amori,",
+     "Arcu arcum, atque ignes igne domans Nemesis.",
+     "Ut quæ aliis fecit patiatur.at hic puer olim",
+     "Intrepidus gestans tela, miser lachrymat.",
+     "Ter spuit, inque sinus imos(res mira) crematur",
+     "Igne ignis, furias odit Amoris Amor."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Девиз: греческое слово без видимого придыхания, затем антиква. Эпиграмма курсивом, чётные строки с отступом. Над q в «aligeroq;» и «inq;» штрих, похожий на акут. Лигатура st в «geſtans» (с просветом «geſt ans»). Под «quæ» точка, над s в «ignis» точка, в «furias» между i и a точка (грязь?). После «patiatur» точка, за ней строчная «at». Пробел внутри «( res mira )»."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рама страницы",
+   "description": "Та же архитектурная рама с гермами и картушем с рогатой маской, что на 0125."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0126 = с. 120. Номер слева. Подписи нет."
+}

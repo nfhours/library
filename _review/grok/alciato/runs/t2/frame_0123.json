@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 123,
+ "source": "scan/frame_0123.jpg",
+ "page": "117",
+ "signature": "H 3",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Vis amoris."
+    ],
+    "reading": "Vis amoris."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Крылатый нагой Амур под градом/дождём из туч ломает в руках молнию; у ног пламя и обломки, справа скалы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aligerum fulmen fregit Deus aliger,igne",
+     "Dum demonſtrat vti eſt fortior ignis amor."
+    ],
+    "reading": [
+     "Aligerum fulmen fregit Deus aliger, igne",
+     "Dum demonstrat uti est fortior ignis amor."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; дистих, вторая строка с отступом. В «demonſtrat» между r и a лишний просвет («demonſtr at»)."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под эпиграммой",
+   "description": "Картуш-виньетка со звериными масками по углам и сценой со всадниками внутри."
+  },
+  {
+   "position": "рама страницы",
+   "description": "Арабесковая рама: верхний и нижний фризы с медальонами, боковые полосы с розетками."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0123 = с. 117. Номер справа, цифра 7 пропечатана нечётко. Подпись «H 3» внизу справа."
+}

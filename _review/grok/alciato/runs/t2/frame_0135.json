@@ -1,0 +1,66 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 135,
+ "source": "scan/frame_0135.jpg",
+ "page": "129",
+ "signature": "I",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": null,
+   "epigram": {
+    "diplomatic": [
+     "Eſt cupidis flauus color,eſt & amantibus aptus,",
+     "Et ſcortis,& queis ſpes ſua certa fuit.",
+     "At ruber armatos equites exornet amictus,",
+     "Indicet & pueros erubuiſſe pudor.",
+     "Cæruleus nautas,& qui cœleſtia vates",
+     "Attoniti nimia relligione petunt.",
+     "Vilia ſunt giluis natiuaq; vellera birris:",
+     "Qualia lignipedes ſtragula habere ſolent.",
+     "Quem curæ ingentes cruciant,vel zelus amoris",
+     "Creditur hic fulua non malè veſte tegi.",
+     "Quiſquis ſorte ſua contentus,ianthina geſtet,",
+     "Fortunæ æquanimis tædia quiq; ferat.",
+     "Vt varia eſt natura coloribus in gignendis,",
+     "Sie alijs aliud:ſed ſua cuique placent."
+    ],
+    "reading": [
+     "Est cupidis flauus color, est & amantibus aptus,",
+     "Et scortis, & queis spes sua certa fuit.",
+     "At ruber armatos equites exornet amictus,",
+     "Indicet & pueros erubuisse pudor.",
+     "Cæruleus nautas, & qui cœlestia vates",
+     "Attoniti nimia relligione petunt.",
+     "Vilia sunt giluis nativaque vellera birris:",
+     "Qualia lignipedes stragula habere solent.",
+     "Quem curæ ingentes cruciant, vel zelus amoris",
+     "Creditur hic fulva non malè veste tegi.",
+     "Quisquis sorte sua contentus, ianthina gestet,",
+     "Fortunæ æquanimis tædia quique ferat.",
+     "Ut varia est natura coloribus in gignendis,",
+     "Sie aliis aliud: sed sua cuique placent."
+    ]
+   },
+   "continues_on_next_page": false,
+   "continuation_of": "0134",
+   "notes": "Продолжение стихотворения с 0134 (In colores.). Курсив; чётные строки с отступом. Лигатуры st/ct в «amictus», «cœleſtia», «ſtragula», «veſte», «geſtet». В «queis» над e значок (тильда/клякса), как на 0125. «Sie» напечатано вместо ожидаемого «Sic». Ниже текста — виньетка-картуш."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под текстом",
+   "description": "Картуш-виньетка со звериными масками и сценой со всадниками (та же, что на 0123)."
+  },
+  {
+   "position": "рама страницы",
+   "description": "Рама: сверху маска козла/сатира между факелами-вазами, по бокам колонны с женскими гермами и завитками, внизу маска между змеевидными чудовищами; внутренняя кайма из бусин."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0135 = с. 129. Номер справа. Подпись «I» внизу справа."
+}

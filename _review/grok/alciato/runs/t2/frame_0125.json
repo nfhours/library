@@ -1,0 +1,63 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 125,
+ "source": "scan/frame_0125.jpg",
+ "page": "119",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Αντέρως, id amor virtutis.",
+     "Διαλογιστικῶς."
+    ],
+    "reading": "Αντέρως, id amor virtutis. Διαλογιστικῶς."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Юноша в венке сидит на земле под деревом, держа в руке венки/гирлянды; позади холмистый пейзаж с городом и крепостью, птицы в небе.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Dic vbi ſunt incurui arcus? vbi tela Cupido:",
+     "Molliaq; qu[?]t iuuenum figere corda ſoles?",
+     "Fax vbi triſtis? vbi pennæ? tres vnde corollas",
+     "Fert manus? vnde aliam tempora cincta gerũt?",
+     "Haud mihi vulgari eſt,(hoſpes )cũ Cypride [?]cquã",
+     "Vlla voluptatis nos neque forma tulit,",
+     "Sed puris hominum ſuccendo mentibus ignes",
+     "Diſciplinæ:animos aſtraq; ad alta traho.",
+     "Quattuor eq; ipſa texo virtute corollas,",
+     "Quarum quæ Sophiæ eſt,tempora prima teg[?]t."
+    ],
+    "reading": [
+     "Dic ubi sunt incurvi arcus? ubi tela Cupido:",
+     "Molliaque qu[?]t iuvenum figere corda soles?",
+     "Fax ubi tristis? ubi pennæ? tres unde corollas",
+     "Fert manus? unde aliam tempora cincta gerunt?",
+     "Haud mihi vulgari est, (hospes )cum Cypride [?]cquam",
+     "Ulla voluptatis nos neque forma tulit,",
+     "Sed puris hominum succendo mentibus ignes",
+     "Disciplinæ: animos astraque ad alta traho.",
+     "Quattuor eque ipsa texo virtute corollas,",
+     "Quarum quæ Sophiæ est, tempora prima teg[?]t."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Девиз: греческое слово прямым шрифтом без видимого придыхания («Αντέρως»), латынь антиквой; вторая строка греческая, στ напечатано лигатурой (похоже на ς). Эпиграмма курсивом, чётные строки с отступом. Лигатуры st/ct в «triſtis», «cincta», «aſtraq;». Пробел перед «)» в «(hoſpes )». В конце последней строки «git» бледное, возможно дописано от руки. На полях голубое пятно."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рама страницы",
+   "description": "Архитектурная рама: сверху картуш с рогатой маской и свитками, по бокам гермы-кариатиды на постаментах с кистями, внизу основание с маской и рельефами."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0125 = с. 119. Номер справа. Подпись внизу не видна (ожидалась H 4)."
+}

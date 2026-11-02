@@ -1,0 +1,59 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 127,
+ "source": "scan/frame_0127.jpg",
+ "page": "121",
+ "signature": "H 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Dulcia quandoque amara",
+     "fieri."
+    ],
+    "reading": "Dulcia quandoque amara fieri."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Крылатый Амур, ужаленный пчёлами, летит над землёй к сидящей женщине (Венере), протягивающей к нему руку; справа пасека — соломенные ульи на скамье под навесом, пчёлы в воздухе, птицы в небе.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Matre procul licta,paulùm ſeceſſerat infans",
+     "Lydius:hunc diræ ſed rapuiſtis apes.",
+     "Venerat hic ad vot placidas ratus eſſe volucres,",
+     "Cùm nec ita inmitis vipera ſæua foret.",
+     "Quæ datis ah,dulci ſtimulos pro munere mellis.",
+     "Proh dolor,Heu ſine te gratia nulla datur."
+    ],
+    "reading": [
+     "Matre procul licta, paulùm secesserat infans",
+     "Lydius: hunc diræ sed rapuistis apes.",
+     "Venerat hic ad vot placidas ratus esse volucres,",
+     "Cùm nec ita inmitis vipera sæva foret.",
+     "Quæ datis ah, dulci stimulos pro munere mellis.",
+     "Proh dolor, Heu sine te gratia nulla datur."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Лигатуры ct/st в «licta», «rapuiſtis», «ſtimulos». Над i в «hic» небольшой штрих (акцент или дефект). «inmitis» напечатано через n. «Heu» с прописной после запятой."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рама страницы",
+   "description": "Архитектурная рама: сверху маска между свитками и щитками с буквами P и V, по бокам вазы и женские гермы, внизу постамент с двумя козлами/грифонами среди плодов и картушем.",
+   "inscriptions": [
+    "P",
+    "V"
+   ]
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0127 = с. 121. Номер справа. Подпись внизу справа, по счёту листов должна быть «H 5»."
+}

@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 138,
+ "source": "scan/frame_0138.jpg",
+ "page": "132",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Paupertatem ſummis ingenijs",
+     "obeſſe,ne prouehantur."
+    ],
+    "reading": "Paupertatem summis ingeniis obesse, ne provehantur."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Юноша с крыльями на поднятой руке тянется к облакам, где видна фигура (божество), а другая его рука привязана к тяжёлому камню на земле; позади скалы и деревья.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Dextra tenet lapidem:manus altera ſuſtinet alas.",
+     "Vt me pluma leuat:ſic graue mergit onus.",
+     "Ingenio poteram ſuperas volitare per arces,",
+     "Me niſi paupertas inuida deprimeret."
+    ],
+    "reading": [
+     "Dextra tenet lapidem: manus altera sustinet alas.",
+     "Ut me pluma levat: sic grave mergit onus.",
+     "Ingenio poteram superas volitare per arces,",
+     "Me nisi paupertas invida deprimeret."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; гекзаметр/пентаметр, чётные строки с отступом (строка 3 без отступа). Лигатура st в «ſuſtinet». В облаках гравюры коричневое пятно. Колонтитул: после «FORTVNA» как будто две точки."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рама страницы",
+   "description": "Рама 0137: арабески с бусинной каймой, розетками и раковинами по бокам; внизу маска в шлеме среди завитков, на завитке слева мелкая буква P.",
+   "inscriptions": [
+    "P"
+   ]
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0138 = с. 132. Номер слева. Подписи нет."
+}

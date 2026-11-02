@@ -1669,5 +1669,669 @@
   "resolver": "zoom",
   "frame": 114,
   "page": "108"
+ },
+ {
+  "location": "эпиграмма, строка 4, «cernere»",
+  "as_read": "ccrnere",
+  "candidates": [
+   "cernere"
+  ],
+  "type": "damage",
+  "resolver": "zoom",
+  "frame": 115,
+  "page": "109"
+ },
+ {
+  "location": "стих 2, первое слово",
+  "as_read": "Meonidæ",
+  "candidates": [
+   "Meonidæ (как напечатано)",
+   "Mæonidæ"
+  ],
+  "type": "spelling",
+  "resolver": "merge",
+  "frame": 117,
+  "page": "111"
+ },
+ {
+  "location": "стих 6, «Vmblici»",
+  "as_read": "Vmblici",
+  "candidates": [
+   "Vmbilici (опечатка)"
+  ],
+  "type": "typo",
+  "resolver": "merge",
+  "frame": 117,
+  "page": "111"
+ },
+ {
+  "location": "эпиграмма, строка 1, «Caucaſi a»",
+  "as_read": "Caucaſi a æternùm",
+  "candidates": [
+   "Caucaſia æternùm"
+  ],
+  "type": "word-division",
+  "resolver": "merge",
+  "frame": 118,
+  "page": "112"
+ },
+ {
+  "location": "эпиграмма, строка 6, «deûmque»",
+  "as_read": "deûmq́ue (акут над q/u)",
+  "candidates": [
+   "deûmque",
+   "deûmquè"
+  ],
+  "type": "accent",
+  "resolver": "zoom",
+  "frame": 118,
+  "page": "112"
+ },
+ {
+  "location": "эпиграмма, строка 1, первая буква",
+  "as_read": "Icare (I почти не видна)",
+  "candidates": [
+   "Icare"
+  ],
+  "type": "damage",
+  "resolver": "zoom",
+  "frame": 119,
+  "page": "113"
+ },
+ {
+  "location": "эпиграмма, строка 5, «prędicere.»",
+  "as_read": "prędicerc.",
+  "candidates": [
+   "prędicere."
+  ],
+  "type": "damage",
+  "resolver": "zoom",
+  "frame": 119,
+  "page": "113"
+ },
+ {
+  "location": "эпиграмма, строка 6, «cadet»",
+  "as_read": "eadet / cadet",
+  "candidates": [
+   "cadet",
+   "eadet"
+  ],
+  "type": "letter",
+  "resolver": "zoom/merge",
+  "frame": 119,
+  "page": "113"
+ },
+ {
+  "location": "эпиграмма, строка 4, «certa»",
+  "as_read": "ccrta",
+  "candidates": [
+   "certa"
+  ],
+  "type": "damage",
+  "resolver": "zoom",
+  "frame": 119,
+  "page": "113"
+ },
+ {
+  "location": "эпиграмма, строка 2, «harundo»",
+  "as_read": "harũndo? (штрих над u)",
+  "candidates": [
+   "harundo"
+  ],
+  "type": "stray-mark",
+  "resolver": "zoom",
+  "frame": 120,
+  "page": "114"
+ },
+ {
+  "location": "эпиграмма, строка 4, «plurimus»",
+  "as_read": "pluriuius",
+  "candidates": [
+   "plurimus"
+  ],
+  "type": "damage",
+  "resolver": "zoom",
+  "frame": 121,
+  "page": "115"
+ },
+ {
+  "location": "эпиграмма, строка 3, конец",
+  "as_read": "habenas: (знак у рамки)",
+  "candidates": [
+   "habenas:",
+   "habenas"
+  ],
+  "type": "punctuation",
+  "resolver": "zoom",
+  "frame": 121,
+  "page": "115"
+ },
+ {
+  "location": "эпиграмма, строка 5, «vincere»",
+  "as_read": "vin•ere (клякса)",
+  "candidates": [
+   "vincere"
+  ],
+  "type": "damage",
+  "resolver": "zoom",
+  "frame": 121,
+  "page": "115"
+ },
+ {
+  "location": "эпиграмма, строка 1, «placidumq;»",
+  "as_read": "placid?mq;",
+  "candidates": [
+   "placidumq;"
+  ],
+  "type": "damage",
+  "resolver": "zoom",
+  "frame": 122,
+  "page": "116"
+ },
+ {
+  "location": "колонтитул",
+  "as_read": "AMOR (без точки)",
+  "candidates": [
+   "AMOR",
+   "AMOR."
+  ],
+  "type": "punctuation",
+  "resolver": "zoom",
+  "frame": 122,
+  "page": "116"
+ },
+ {
+  "location": "эпиграмма, строка 2, «demonſtrat»",
+  "as_read": "demonſtr at (просвет)",
+  "candidates": [
+   "demonſtrat"
+  ],
+  "type": "spacing",
+  "resolver": "zoom",
+  "frame": 123,
+  "page": "117"
+ },
+ {
+  "location": "колонтитул",
+  "as_read": "AMOR. (точка похожа на двоеточие)",
+  "candidates": [
+   "AMOR.",
+   "AMOR:"
+  ],
+  "type": "punctuation",
+  "resolver": "zoom",
+  "frame": 123,
+  "page": "117"
+ },
+ {
+  "location": "эпиграмма, строка 1, «iurè»",
+  "as_read": "iurè (значок над e)",
+  "candidates": [
+   "iurè",
+   "iure"
+  ],
+  "type": "diacritic",
+  "resolver": "zoom",
+  "frame": 124,
+  "page": "118"
+ },
+ {
+  "location": "эпиграмма, строка 6, «vincere»",
+  "as_read": "vincerc",
+  "candidates": [
+   "vincere"
+  ],
+  "type": "damage",
+  "resolver": "zoom",
+  "frame": 124,
+  "page": "118"
+ },
+ {
+  "location": "эпиграмма, строка 2, слово после «Molliaq;»",
+  "as_read": "quẽ + клякса + t (возможно ẽ и лигатура st)",
+  "candidates": [
+   "queis",
+   "queſt",
+   "quęſt"
+  ],
+  "note": "та же форма, что «que(?)is» на 0135, строка 2",
+  "type": "damage",
+  "resolver": "zoom",
+  "frame": 125,
+  "page": "119"
+ },
+ {
+  "location": "эпиграмма, строка 5, последнее слово",
+  "as_read": "ꝗcquã (q с поперечной чертой, затем c)",
+  "candidates": [
+   "æquã",
+   "ꝗcquã"
+  ],
+  "type": "reading",
+  "resolver": "zoom",
+  "frame": 125,
+  "page": "119"
+ },
+ {
+  "location": "эпиграмма, строка 10, «tegit»",
+  "as_read": "te + бледное «git» (рука?)",
+  "candidates": [
+   "tegit"
+  ],
+  "type": "damage",
+  "resolver": "other copy",
+  "frame": 125,
+  "page": "119"
+ },
+ {
+  "location": "низ страницы, подпись",
+  "as_read": "подписи не видно",
+  "candidates": [
+   "H 4",
+   "нет"
+  ],
+  "type": "structure",
+  "resolver": "zoom",
+  "frame": 125,
+  "page": "119"
+ },
+ {
+  "location": "девиз, «Αντέρως»",
+  "as_read": "Αντέρως без придыхания",
+  "candidates": [
+   "Αντέρως",
+   "Ἀντέρως"
+  ],
+  "type": "diacritic",
+  "resolver": "zoom",
+  "frame": 125,
+  "page": "119"
+ },
+ {
+  "location": "эпиграмма, строка 3, «patiatur.at»",
+  "as_read": "patiatur.at (точка перед строчной)",
+  "candidates": [
+   "patiatur.at",
+   "patiatur,at"
+  ],
+  "type": "punctuation",
+  "resolver": "zoom",
+  "frame": 126,
+  "page": "120"
+ },
+ {
+  "location": "эпиграмма, строка 6, «furias»",
+  "as_read": "furi.as (точка внутри)",
+  "candidates": [
+   "furias"
+  ],
+  "type": "damage",
+  "resolver": "zoom",
+  "frame": 126,
+  "page": "120"
+ },
+ {
+  "location": "эпиграмма, строка 5, «imos( res mira )»",
+  "as_read": "imos( res mira )",
+  "candidates": [
+   "imos(res mira)",
+   "imos( res mira )"
+  ],
+  "type": "spacing",
+  "resolver": "zoom",
+  "frame": 126,
+  "page": "120"
+ },
+ {
+  "location": "эпиграмма, строка 3, «vot»",
+  "as_read": "vot",
+  "candidates": [
+   "vos",
+   "vot"
+  ],
+  "type": "typo",
+  "resolver": "other copy",
+  "frame": 127,
+  "page": "121"
+ },
+ {
+  "location": "эпиграмма, строка 1, «licta»",
+  "as_read": "licta",
+  "candidates": [
+   "licta",
+   "relicta"
+  ],
+  "type": "reading",
+  "resolver": "zoom",
+  "frame": 127,
+  "page": "121"
+ },
+ {
+  "location": "эпиграмма, строка 3, «hic»",
+  "as_read": "hic со штрихом над i",
+  "candidates": [
+   "hic",
+   "hìc"
+  ],
+  "type": "diacritic",
+  "resolver": "zoom",
+  "frame": 127,
+  "page": "121"
+ },
+ {
+  "location": "низ страницы, подпись",
+  "as_read": "H + цифра, похожая на 5 (или 3)",
+  "candidates": [
+   "H 5",
+   "H 3"
+  ],
+  "type": "structure",
+  "resolver": "zoom",
+  "frame": 127,
+  "page": "121"
+ },
+ {
+  "location": "эпиграмма, строка 3, «In digitis»",
+  "as_read": "In di?itis (повреждено)",
+  "candidates": [
+   "In digitis"
+  ],
+  "type": "damage",
+  "resolver": "zoom",
+  "frame": 128,
+  "page": "122"
+ },
+ {
+  "location": "эпиграмма, строка 5, «quòd»",
+  "as_read": "quòd/quọd",
+  "candidates": [
+   "quòd",
+   "quod"
+  ],
+  "type": "diacritic",
+  "resolver": "zoom",
+  "frame": 128,
+  "page": "122"
+ },
+ {
+  "location": "колонтитул",
+  "as_read": "AMOR: (знак после R неясен)",
+  "candidates": [
+   "AMOR.",
+   "AMOR:"
+  ],
+  "type": "punctuation",
+  "resolver": "zoom",
+  "frame": 128,
+  "page": "122"
+ },
+ {
+  "location": "эпиграмма, строка 3, «ꝙ»",
+  "as_read": "ꝙ (q с чертой)",
+  "candidates": [
+   "quod",
+   "ꝙ"
+  ],
+  "type": "abbreviation",
+  "resolver": "zoom",
+  "frame": 129,
+  "page": "123"
+ },
+ {
+  "location": "строка 9, «curúe»",
+  "as_read": "curúe (акцент над u)",
+  "candidates": [
+   "curve",
+   "curvé",
+   "curúe"
+  ],
+  "type": "normalization",
+  "resolver": "editor",
+  "frame": 130,
+  "page": "124"
+ },
+ {
+  "location": "строка 7, «pharĕtras»",
+  "as_read": "pharĕtras (знак над e)",
+  "candidates": [
+   "pharétras",
+   "pharĕtras",
+   "pharetras"
+  ],
+  "type": "diacritic",
+  "resolver": "zoom",
+  "frame": 130,
+  "page": "124"
+ },
+ {
+  "location": "строка 23, «ocia.ſignum»",
+  "as_read": "ocia.ſignum",
+  "candidates": [
+   "ocia.ſignum",
+   "ocia,ſignum"
+  ],
+  "type": "punctuation",
+  "resolver": "zoom",
+  "frame": 130,
+  "page": "124"
+ },
+ {
+  "location": "строка 16, «Hic certa»",
+  "as_read": "Hic certa (без «est»/метр короток?)",
+  "candidates": [
+   "Hic certa"
+  ],
+  "type": "reading",
+  "resolver": "zoom",
+  "frame": 130,
+  "page": "124"
+ },
+ {
+  "location": "эпиграмма, строка 4, начало",
+  "as_read": "Aeternæ / Æternæ (A и e слиты?)",
+  "candidates": [
+   "Aeternæ",
+   "Æternæ"
+  ],
+  "type": "ligature",
+  "resolver": "zoom",
+  "frame": 131,
+  "page": "125"
+ },
+ {
+  "location": "эпиграмма, строка 6, второе «liquerat»",
+  "as_read": "li?uerat (q повреждено)",
+  "candidates": [
+   "liquerat"
+  ],
+  "type": "damage",
+  "resolver": "zoom",
+  "frame": 131,
+  "page": "125"
+ },
+ {
+  "location": "эпиграмма, строка 2, между «ore» и «canant»",
+  "as_read": "ore[ canant (оттиск шпации)",
+  "candidates": [
+   "ore canant"
+  ],
+  "type": "damage",
+  "resolver": "zoom",
+  "frame": 132,
+  "page": "126"
+ },
+ {
+  "location": "гравюра, надпись",
+  "as_read": "SEPVL CHRVM (просвет)",
+  "candidates": [
+   "SEPVLCHRVM"
+  ],
+  "type": "spacing",
+  "resolver": "zoom",
+  "frame": 133,
+  "page": "127"
+ },
+ {
+  "location": "эпиграмма, строка 1, «Index»",
+  "as_read": "Indcx",
+  "candidates": [
+   "Index"
+  ],
+  "type": "damage",
+  "resolver": "zoom",
+  "frame": 134,
+  "page": "128"
+ },
+ {
+  "location": "эпиграмма, строка 3, «candid a»",
+  "as_read": "candid a puræ",
+  "candidates": [
+   "candida puræ"
+  ],
+  "type": "spacing",
+  "resolver": "zoom",
+  "frame": 134,
+  "page": "128"
+ },
+ {
+  "location": "эпиграмма, строка 6, «rêtro»",
+  "as_read": "rêtro",
+  "candidates": [
+   "rêtro",
+   "retro"
+  ],
+  "type": "diacritic",
+  "resolver": "zoom",
+  "frame": 134,
+  "page": "128"
+ },
+ {
+  "location": "строка 2, «queis»",
+  "as_read": "que(значок)is",
+  "candidates": [
+   "queis",
+   "quẽis"
+  ],
+  "type": "diacritic",
+  "resolver": "zoom",
+  "frame": 135,
+  "page": "129"
+ },
+ {
+  "location": "строка 14, «Sie»",
+  "as_read": "Sie",
+  "candidates": [
+   "Sic",
+   "Sie"
+  ],
+  "type": "typo",
+  "resolver": "editor",
+  "frame": 135,
+  "page": "129"
+ },
+ {
+  "location": "эпиграмма, строка 5, «ſolis»",
+  "as_read": "?olis (ſ слабо)",
+  "candidates": [
+   "ſolis"
+  ],
+  "type": "damage",
+  "resolver": "zoom",
+  "frame": 137,
+  "page": "131"
+ },
+ {
+  "location": "номер страницы",
+  "as_read": "15? (вторая и третья цифры смазаны)",
+  "candidates": [
+   "132"
+  ],
+  "type": "damage",
+  "resolver": "zoom",
+  "frame": 138,
+  "page": "132"
+ },
+ {
+  "location": "колонтитул",
+  "as_read": "FORTVNA..",
+  "candidates": [
+   "FORTVNA.",
+   "FORTVNA.."
+  ],
+  "type": "punctuation",
+  "resolver": "zoom",
+  "frame": 138,
+  "page": "132"
+ },
+ {
+  "location": "эпиграмма, строка 1, первое слово",
+  "as_read": "Iyſippi",
+  "candidates": [
+   "Lyſippi",
+   "Iyſippi"
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 139,
+  "page": "133"
+ },
+ {
+  "location": "эпиграмма, строка 7, «prẽdar»",
+  "as_read": "prẽdar (тильда над e) или prędar",
+  "candidates": [
+   "prẽdar",
+   "prędar"
+  ],
+  "type": "abbreviation",
+  "resolver": "zoom",
+  "frame": 139,
+  "page": "133"
+ },
+ {
+  "location": "эпиграмма, строка 7, «prẽdar..At»",
+  "as_read": "две точки",
+  "candidates": [
+   "prẽdar.At",
+   "prẽdar..At"
+  ],
+  "type": "typo",
+  "resolver": "zoom",
+  "frame": 139,
+  "page": "133"
+ },
+ {
+  "location": "эпиграмма, строка 1, первое слово",
+  "as_read": "Ingentet",
+  "candidates": [
+   "Ingentes",
+   "Ingentet"
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 141,
+  "page": "135"
+ },
+ {
+  "location": "эпиграмма, строка 1, «Galatûm»",
+  "as_read": "Gal.atûm (a повреждено)",
+  "candidates": [
+   "Galatûm"
+  ],
+  "type": "damage",
+  "resolver": "zoom",
+  "frame": 141,
+  "page": "135"
+ },
+ {
+  "location": "эпиграмма, строка 5, «gloria.nam»",
+  "as_read": "gloria.nam",
+  "candidates": [
+   "gloria.nam",
+   "gloria,nam"
+  ],
+  "type": "punctuation",
+  "resolver": "zoom",
+  "frame": 142,
+  "page": "136"
  }
 ]

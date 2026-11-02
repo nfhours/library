@@ -1,0 +1,56 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 133,
+ "source": "scan/frame_0133.jpg",
+ "page": "127",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Senex puellam amans."
+    ],
+    "reading": "Senex puellam amans."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "На саркофаге лежит обнажённое тело, на нём сидит сова (сыч), другая птица у головы и третья на передней стенке; слева под деревьями сидит пара (старик и девушка), позади холмы, город, птицы.",
+    "inscriptions": [
+     "SEPVLCHRVM"
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Dum Sophocles(quamuis affecta ætate )puellam",
+     "A quæſtu Archippen ad ſua vota trahit,",
+     "Allicit & pretio,tulit ægrè inſana iuuentus",
+     "Ob zelum,& tali carmine vtrunque notat.",
+     "Noctua vt in tumulis,ſuper vtq; cadauera bubo,",
+     "Talis apud Sophoclem noſtra puella ſedet."
+    ],
+    "reading": [
+     "Dum Sophocles(quamuis affecta ætate )puellam",
+     "A quæstu Archippen ad sua vota trahit,",
+     "Allicit & pretio, tulit ægrè insana iuventus",
+     "Ob zelum, & tali carmine utrunque notat.",
+     "Noctua ut in tumulis, super utque cadavera bubo,",
+     "Talis apud Sophoclem nostra puella sedet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Лигатуры ct/st в «affecta», «quæſtu», «Noctua», «noſtra». Пробел перед «)» в «ætate )». Надпись на саркофаге капителью: «SEPVL CHRVM» с просветом и точками-разделителями между буквами."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рама страницы",
+   "description": "Рама: сверху лежащие крылатые фигуры у картуша, по бокам гермы/трофеи на витых колоннах, внизу ваза-ладья между двумя грифонами с завитками."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0133 = с. 127. Номер справа. Подписи нет."
+}

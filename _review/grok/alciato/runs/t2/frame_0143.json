@@ -1,0 +1,51 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 143,
+ "source": "scan/frame_0143.jpg",
+ "page": "137",
+ "signature": "I 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ex damno alterius,alterius",
+     "vtilitas."
+    ],
+    "reading": "Ex damno alterius, alterius utilitas."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Кабан и львица сцепились в схватке; на дереве над ними сидит гриф (стервятник); позади лес и холмы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Dum ſæuis ruerent in mutua vulnera telis,",
+     "Vngue leæna ferox,dente timendus aper,",
+     "Accurrit vultur ſpectatum,& prandia captat.",
+     "Gloria victoris,præda futura ſua eſt."
+    ],
+    "reading": [
+     "Dum sævis ruerent in mutua vulnera telis,",
+     "Ungue leæna ferox, dente timendus aper,",
+     "Accurrit vultur spectatum, & prandia captat.",
+     "Gloria victoris, præda futura sua est."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Лигатуры ct/st в «ſpectatum», «victoris», «eſt». В «Vngue» n пропечатано мелко. После «captat» точка (над ней пятнышко)."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рама страницы",
+   "description": "Рама: сверху гирлянды плодов с картушем, по бокам мужские атланты, держащие гирлянды, внизу ваза с плодами между двумя полулежащими фигурами (путти)."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0143 = с. 137. Номер справа. Подпись «I 5» внизу справа."
+}

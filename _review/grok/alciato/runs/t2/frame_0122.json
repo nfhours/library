@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 122,
+ "source": "scan/frame_0122.jpg",
+ "page": "116",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Potentia amoris."
+    ],
+    "reading": "Potentia amoris."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Нагой крылатый Амур сидит на камне у берега, в одной руке цветы, в другой рыба; позади море, скалистый остров с постройками.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Nudus Amor viden' vt ridet,placidumq; tuetur?",
+     "Nec faculas,nec quæ cornua flectat,habet.",
+     "Altera ſed manuum flores gerit,altera piſcem,",
+     "Scilicet vt terræ iura det,atque mari."
+    ],
+    "reading": [
+     "Nudus Amor viden' ut ridet, placidumque tuetur?",
+     "Nec faculas, nec quæ cornua flectat, habet.",
+     "Altera sed manuum flores gerit, altera piscem,",
+     "Scilicet ut terræ iura det, atque mari."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Лигатура ct в «flectat». В «placidumq;» буква u пропечаталась плохо (видна часть). Колонтитул «AMOR» без точки."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над девизом",
+   "description": "Верхний фриз: путти/звери среди листвы (как на 0121)."
+  },
+  {
+   "position": "по бокам",
+   "description": "Растительный орнамент с виноградом и розами (как на 0121)."
+  },
+  {
+   "position": "низ рамы",
+   "description": "Нижний фриз: птицы/драконы среди аканфа (как на 0121)."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0122 = с. 116. Номер слева. Подписи нет."
+}

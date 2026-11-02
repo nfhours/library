@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 144,
+ "source": "scan/frame_0144.jpg",
+ "page": "138",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Bonis auſpicijs incipiendum."
+    ],
+    "reading": "Bonis auspiciis incipiendum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Человек в тюрбане выходит из арочных ворот городской стены с копьём наперевес, вскинув руку; перед ним на земле мелкий зверёк (ласка); вдали путник на холме, город, птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Auſpicijs rès cœpta malis,bene cedere neſcit.",
+     "Felici quæ ſunt omine facta,iuuant.",
+     "Quicquid agis,muſtella tibi ſi occurrat, omitte;",
+     "Signa malæ hæc ſortis beſtia praua gerit."
+    ],
+    "reading": [
+     "Auspiciis rès cœpta malis, bene cedere nescit.",
+     "Felici quæ sunt omine facta, iuvant.",
+     "Quicquid agis, mustella tibi si occurrat, omitte;",
+     "Signa malæ hæc sortis bestia prava gerit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Лигатуры ct/st в «facta», «muſtella», «beſtia». Гравис в «rès». a в «agis» пропечатано слабо. Перед «omitte» пробел после запятой."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рама страницы",
+   "description": "Та же рама с гирляндами, атлантами и вазой между путти, что на 0143."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0144 = с. 138. Номер слева. Подписи нет."
+}

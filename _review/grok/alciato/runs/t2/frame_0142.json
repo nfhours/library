@@ -1,0 +1,57 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 142,
+ "source": "scan/frame_0142.jpg",
+ "page": "136",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In momentaneam felicitatem."
+    ],
+    "reading": "In momentaneam felicitatem."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Высокая сосна на берегу, по которой вьётся тыква с крупными плодами; позади река с лодкой, город, горы, слева сверху лучи/дождь.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aëriam propter creuiſſe Cucurbita pinum",
+     "Dicitur:& grandi luxuriaſſe coma.",
+     "Cùm ramos complexa,ipſumq; egreſſa cacumen,",
+     "Se præſtare alijs credidit arboribus.",
+     "Cui pinus:Nimiùm breuis eſt hæc gloria.nam te",
+     "Protinus adueniet quæ malè perdet hyems."
+    ],
+    "reading": [
+     "Aëriam propter crevisse Cucurbita pinum",
+     "Dicitur: & grandi luxuriasse coma.",
+     "Cùm ramos complexa, ipsumque egressa cacumen,",
+     "Se præstare aliis credidit arboribus.",
+     "Cui pinus: Nimiùm brevis est hæc gloria.nam te",
+     "Protinus adveniet quæ malè perdet hyems."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Лигатура st в «præſtare», «eſt». Над q в «ipſumq;» штрих. e в «propter» похоже на c. После «gloria» точка перед строчной «nam»."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рама страницы",
+   "description": "Та же архитектурная рама, что на 0141, со щитком PV внизу.",
+   "inscriptions": [
+    "PV"
+   ]
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0142 = с. 136. Номер слева. Подписи нет."
+}

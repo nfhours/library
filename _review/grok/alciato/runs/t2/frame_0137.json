@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 137,
+ "source": "scan/frame_0137.jpg",
+ "page": "131",
+ "signature": "I 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Fortuna, Virtutem ſuperans."
+    ],
+    "reading": "Fortuna, Virtutem superans."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Воин в доспехах и плаще (Брут) в широком шаге упирает меч в грудь, вскидывая другую руку; позади деревья, облака, на земле поле.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Cæſareo poſtquàm ſuperatus milite,vidit",
+     "Ciuili vndantem ſanguine Pharſaliam:",
+     "Iamiam ſtricturus moribunda in pectora ferrum,",
+     "Audaci hos Brutus protulit ore ſonos.",
+     "Infelix Virtus & ſolis prouida verbis,",
+     "Fortunam in rebus cur ſequeris dominam?"
+    ],
+    "reading": [
+     "Cæsareo postquàm superatus milite, vidit",
+     "Civili undantem sanguine Pharsaliam:",
+     "Iamiam stricturus moribunda in pectora ferrum,",
+     "Audaci hos Brutus protulit ore sonos.",
+     "Infelix Virtus & solis provida verbis,",
+     "Fortunam in rebus cur sequeris dominam?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Лигатуры st/ct в «poſtquàm», «ſtricturus», «pectora». ſ в «ſolis» пропечатано слабо. Перед «Audaci» на полях точка/запятая."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рама страницы",
+   "description": "Арабесковая рама с бусинной каймой и розетками по бокам; внизу маска-голова в шлеме среди завитков."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0137 = с. 131. Номер справа. Подпись «I 2» внизу справа."
+}

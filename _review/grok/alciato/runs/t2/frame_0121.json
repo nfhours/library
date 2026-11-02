@@ -1,0 +1,62 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 121,
+ "source": "scan/frame_0121.jpg",
+ "page": "115",
+ "signature": "H 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": "AMOR.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Potentiſsimus affectus amor."
+    ],
+    "reading": "Potentissimus affectus amor."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Крылатый Амур стоит на колеснице, запряжённой львами, и замахивается бичом; позади город на холме, птицы в небе.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aſpice vt inuictus vires auriga leonis,",
+     "Expreſſus gemma puſio vincat amor:",
+     "Vtq; manu hac ſcuticã tenet,hac vt flectit habenas:",
+     "Vtq; eſt in pueri plurimus ore decor.",
+     "Dira lues procul eſto:feram qui vincere talem",
+     "Eſt potis,à nobis temperet ánne manus?"
+    ],
+    "reading": [
+     "Aspice ut invictus vires auriga leonis,",
+     "Expressus gemma pusio vincat amor:",
+     "Utque manu hac scuticam tenet, hac ut flectit habenas:",
+     "Utque est in pueri plurimus ore decor.",
+     "Dira lues procul esto: feram qui vincere talem",
+     "Est potis, à nobis temperet ánne manus?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. ß в «Potentiſsimus» записано как ſs. Лигатуры ct в «affectus», «inuictus», «flectit». В строке 4 «plurimus» пропечатано как «pluriuius» (сломанное m); в «decor» и «vincere» кляксы на c. Двоеточие после «habenas» у самой рамки."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над рубрикой",
+   "description": "Верхний фриз: путти/звери среди листвы."
+  },
+  {
+   "position": "по бокам",
+   "description": "Растительный орнамент с розами и улиткой."
+  },
+  {
+   "position": "низ рамы",
+   "description": "Нижний фриз: птицы/драконы среди аканфа."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0121 = с. 115. Номер справа. Подпись «H 2» внизу справа."
+}

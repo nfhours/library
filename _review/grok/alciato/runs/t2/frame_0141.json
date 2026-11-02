@@ -1,0 +1,61 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 141,
+ "source": "scan/frame_0141.jpg",
+ "page": "135",
+ "signature": "I 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In illaudata laudantes."
+    ],
+    "reading": "In illaudata laudantes."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Большой слон стоит у трофея — доспехи и шлем, повешенные на дереве/столбе; слева скалы и деревья, птицы и облака в небе.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Ingentet Galatûm ſemermi milite turmas,",
+     "Spem præter trepidus fuderat Antiochus,",
+     "Lucarum cùm ſæua boum vis,ira proboſcis,",
+     "Tum primùm hoſtiles corripuiſſet equos.",
+     "Ergo trophæa locans Elephantis imagine pinxit,",
+     "Inſuper & ſocijs occîderamus ait,",
+     "Bellua ſeruaſſet ni nos fœdiſsima barrus.",
+     "Vt ſuperaſſe iuuat,ſic ſuperaſſe pudet."
+    ],
+    "reading": [
+     "Ingentet Galatûm semermi milite turmas,",
+     "Spem præter trepidus fuderat Antiochus,",
+     "Lucarum cùm sæva boum vis, ira proboscis,",
+     "Tum primùm hostiles corripuisset equos.",
+     "Ergo trophæa locans Elephantis imagine pinxit,",
+     "Insuper & sociis occîderamus ait,",
+     "Bellua servasset ni nos fœdissima barrus.",
+     "Ut superasse iuvat, sic superasse pudet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Лигатура st в «hoſtiles». ß в «fœdiſsima» записано как ſs. Первое слово читается «Ingentet» (последняя буква t, а не s). В «Galatûm» первое a после l пропечатано слабо, в «milite» t повреждено. Циркумфлекс в «occîderamus»."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рама страницы",
+   "description": "Архитектурная рама: сверху фриз с плетёнкой, сферами и маской льва, по бокам женские гермы на витых колоннах с постаментами, внизу фриз со свитками-раковинами и щитком с буквами PV.",
+   "inscriptions": [
+    "PV"
+   ]
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0141 = с. 135. Номер справа. Подпись «I 4» внизу справа."
+}

@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 116,
+ "source": "scan/frame_0116.jpg",
+ "page": "110",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "ASTROLOGIA.",
+ "rubric": "ASTROLOGIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Scyphus Neſtoris."
+    ],
+    "reading": "Scyphus Nestoris."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Старец Нестор в шапке, с длинной бородой, стоит у разрушенной кладки и указывает на большой кубок с четырьмя ручками, на которых сидят голуби; в небе ещё птицы; позади холмы и деревья.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Neſtoreum geminis cratera hunc accipe fundis,",
+     "Quod grauis argenti maſſa profudit opus.",
+     "Clauiculi ex auro:ſtant circum quattuor anſæ:",
+     "Vnam quanque ſuper fulua columba ſedet."
+    ],
+    "reading": [
+     "Nestoreum geminis cratera hunc accipe fundis,",
+     "Quod gravis argenti massa profudit opus.",
+     "Claviculi ex auro: stant circum quattuor ansæ:",
+     "Unam quanque super fulva columba sedet."
+    ]
+   },
+   "continues_on_next_page": true,
+   "notes": "Курсив; чётные строки с отступом. Продолжение стихотворения на 0117. Лигатура st в «Neſtoreum», «ſtant». Рубрика ASTROLOGIA. курсивными капителями, девиз прямым шрифтом."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над рубрикой",
+   "description": "Верхний фриз: картуш с монограммой между масками (как на 0115)."
+  },
+  {
+   "position": "по бокам",
+   "description": "Двойная рамка с жемчужником, волюты (как на 0115)."
+  },
+  {
+   "position": "низ рамы",
+   "description": "Гротескная маска между масками-драконами (как на 0115)."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0116 = с. 110. Номер слева. Подписи нет."
+}

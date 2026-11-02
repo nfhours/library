@@ -1,0 +1,62 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 118,
+ "source": "scan/frame_0118.jpg",
+ "page": "112",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "ASTROLOGIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Quæ ſupra nos,nihil ad nos."
+    ],
+    "reading": "Quæ supra nos, nihil ad nos."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Прометей, распростёртый на скале Кавказа, прикован; орёл терзает его бок; позади горы, облака и птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Caucaſi a æternùm pendens in rupe Prometheus",
+     "Diripitur ſacri præpetis vngue iecur.",
+     "Et nollet feciſſe hominem:figuloſq; peroſus",
+     "Accenſam rapto damnat ab igne facem.",
+     "Roduntur varijs prudentum pectora curis,",
+     "Qui cœli affectant ſcire,deûmque vices."
+    ],
+    "reading": [
+     "Caucasia æternùm pendens in rupe Prometheus",
+     "Diripitur sacri præpetis ungue iecur.",
+     "Et nollet fecisse hominem: figulosque perosus",
+     "Accensam rapto damnat ab igne facem.",
+     "Roduntur variis prudentum pectora curis,",
+     "Qui cœli affectant scire, deûmque vices."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Лигатура ct в «pectora», «affectant». В «varijs» после v точка-пятно («v.arijs»). Над «que» в «deûmque» знак, похожий на акут. Широкий пробел после «nollet». В девизе широкий пробел перед последним «nos»."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над девизом",
+   "description": "Верхний фриз: розетки и гирлянда между волют (как на 0117)."
+  },
+  {
+   "position": "по бокам",
+   "description": "Рамка с жемчужником, волюты."
+  },
+  {
+   "position": "низ рамы",
+   "description": "Нижний фриз: фигуры среди аканфа с центральной розеткой (как на 0117)."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0118 = с. 112. Номер слева. Подписи нет."
+}

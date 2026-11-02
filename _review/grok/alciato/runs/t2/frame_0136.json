@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 136,
+ "source": "scan/frame_0136.jpg",
+ "page": "130",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": "FORTVNA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Virtuti,Fortuna comes."
+    ],
+    "reading": "Virtuti, Fortuna comes."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Кадуцей с двумя переплетёнными змеями и крылатым навершием стоит между двумя рогами изобилия, полными плодов и цветов, рога переплетены со змеями; у основания крылья; позади скалы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Anguibus implicitis,geminis caduceus alis:",
+     "Inter Amalthææ cornua rectus adeſt.",
+     "Pollentes ſic mente viros,fandiq; peritos",
+     "Indicat,vt rerum copia multa beet."
+    ],
+    "reading": [
+     "Anguibus implicitis, geminis caduceus alis:",
+     "Inter Amalthææ cornua rectus adest.",
+     "Pollentes sic mente viros, fandique peritos",
+     "Indicat, ut rerum copia multa beet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Рубрика «FORTVNA.» курсивными капителями над девизом. Эпиграмма курсивом, чётные строки с отступом. Лигатуры ct/st в «rectus», «adeſt». Номер страницы «130» пропечатан с кляксой на 0."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рама страницы",
+   "description": "Рама 0135: сверху маска козла между факелами-вазами, по бокам колонны с женскими гермами, внизу маска между змеевидными чудовищами; кайма из бусин."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0136 = с. 130. Номер слева. Подписи нет. Новый раздел: колонтитул FORTVNA."
+}
