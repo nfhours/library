@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 51,
+ "source": "scan/frame_0051.jpg",
+ "page": "45",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "CONCORDIA.",
+ "rubric": "CONCORDIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Concordiæ Symbolum."
+    ],
+    "reading": "Concordiæ Symbolum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "На алтаре-постаменте (с маской на передней стенке) вертикально стоит скипетр; вокруг него вороны — две сидят на алтаре, две летят; фон — архитектура с арками и колоннами, птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Cornicum mira inter ſe concordia vitæ eſt,",
+     "Nutua ſtatq; illis intemerata fides.",
+     "Hinc volucres hæc ſceptra gerũt:ꝙ ſcilicet omnes",
+     "Conſenſu populi ſtantq;,caduntq; duces:",
+     "Quem ſi de medio tollas,diſcordia præceps",
+     "Aduolat,& ſecum regia fata trahit."
+    ],
+    "reading": [
+     "Cornicum mira inter se concordia vitæ est,",
+     "Nutua statque illis intemerata fides.",
+     "Hinc volucres hæc sceptra gerunt: ꝙ scilicet omnes",
+     "Consensu populi stantque, caduntque duces:",
+     "Quem si de medio tollas, discordia præceps",
+     "Aduolat, & secum regia fata trahit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка: сверху лежащие звери и щит-арабеска, по бокам гермы/маски с гирляндами плодов, внизу два дракона, связанных лентой."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «45» справа вверху, колонтитул «CONCORDIA.»; внутри рамки рубрика «CONCORDIA.» над девизом. Сигнатуры нет. «ꝙ» — q с перечёркнутым хвостом (сокращение quod). Эпиграмма курсивом, чётные строки с отступом."
+}

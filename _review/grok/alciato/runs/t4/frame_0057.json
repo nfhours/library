@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 57,
+ "source": "scan/frame_0057.jpg",
+ "page": "51",
+ "signature": "D 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SPES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In ſimulachrum Spei."
+    ],
+    "reading": "In simulachrum Spei."
+   },
+   "engraving": {
+    "position": "между подзаголовком и эпиграммой",
+    "description": "Интерьер с аркой и колоннами. Слева сидит женщина (Спес) с кадуцеем (?) в руке, за ней стоит другая женская фигура; справа бородатый мужчина поднимает чашу/корзину и держит связку стрел; перед ним крылатый младенец (Амур/Эрос) и мальчик или карлик; на полу разбросанные предметы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quæ Dea tam læto ſuſpectans ſydera vultu?",
+     "Cuius peniculis reddita imago fuit?",
+     "Elpidij fecêre manus.Ego nominor illa,",
+     "Quæ miſeris prõptã Spes bona præſtat opem.",
+     "Cur viridis tibi palla? Quòd om̃ia me duce vernẽt.",
+     "Quid manibus mortis tela refracta geris?"
+    ],
+    "reading": [
+     "Quæ Dea tam læto suspectans sydera vultu?",
+     "Cuius peniculis reddita imago fuit?",
+     "Elpidii fecêre manus.Ego nominor illa,",
+     "Quæ miseris promptam Spes bona præstat opem.",
+     "Cur viridis tibi palla? Quòd omnia me duce vernent.",
+     "Quid manibus mortis tela refracta geris?"
+    ]
+   },
+   "continues_on_next_page": true,
+   "notes": "",
+   "subheading": {
+    "diplomatic": "DIALOGISMVS.",
+    "reading": "DIALOGISMUS."
+   }
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Архитектурная рамка: сверху свиток с ремнями и маскароном, по бокам колонны-канделябры с фигурами и кистями, внизу пьедестал с маскароном, бараньими головами и нишами с птицами (?)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «51» справа вверху, колонтитул «SPES.», сигнатура «D 2». Эпиграмма продолжается на следующей странице. «om̃ia» — тильда над m (omnia)."
+}

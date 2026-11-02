@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 60,
+ "source": "scan/frame_0060.jpg",
+ "page": "54",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SPES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Illicitum non ſperandum."
+    ],
+    "reading": "Illicitum non sperandum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Среди руин с колоннами две женские фигуры: слева коленопреклонённая женщина в развевающемся покрывале (Спес) у алтаря-колонны, держит в руке изогнутый предмет (?); справа стоящая женщина (Немезида) с ветвью в поднятой руке и уздой/цепью (?), свисающей сбоку; на земле обломки колонн, ящик.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Spes ſimul,& Nemeſis noſtris altaribus adſunt,",
+     "Scilicet vt ſperes non niſi quod liceat."
+    ],
+    "reading": [
+     "Spes simul, & Nemesis nostris altaribus adsunt,",
+     "Scilicet ut speres non nisi quod liceat."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же архитектурная рамка, что на 0059 (маскарон-путто, буква «P» в свитке, вазы, гермы, лежащие фигуры у щита)."
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Концовка-картуш с маской и кистями."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «54» слева вверху, колонтитул «SPES.». После «&» мелкий след (возможно запятая или соринка) — не транскрибирован. Сигнатуры нет."
+}

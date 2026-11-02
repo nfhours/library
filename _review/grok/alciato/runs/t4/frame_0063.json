@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 63,
+ "source": "scan/frame_0063.jpg",
+ "page": "57",
+ "signature": "D 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PERFIDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In fraudulentos."
+    ],
+    "reading": "In fraudulentos."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "На переднем плане большая пятнистая ящерица (стеллион) с длинным изогнутым хвостом; за ней скала с деревом; вдали две фигуры с копьями/посохами идут по дороге; справа город на холме, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Parua lacerta,atris ſtellatus corpora guttis",
+     "Stellio,qui latêbras,& caua buſta colit,",
+     "Inuidiæ,prauiq; doli fert ſymbola pictus.",
+     "Heu nimiùm nuribus cognita zelotypis.",
+     "Nam turpi obtegitur faciem lentigine quiſquis,",
+     "Sit quibus immerſus Stellio,vina bibat.",
+     "Hinc vindicta frequens decepta pellice vino,",
+     "Quam formæ amiſſo flore relinquit amans."
+    ],
+    "reading": [
+     "Parva lacerta, atris stellatus corpora guttis",
+     "Stellio, qui latêbras, & cava busta colit,",
+     "Inuidiæ, pravique doli fert symbola pictus.",
+     "Heu nimiùm nuribus cognita zelotypis.",
+     "Nam turpi obtegitur faciem lentigine quisquis,",
+     "Sit quibus immersus Stellio, vina bibat.",
+     "Hinc vindicta frequens decepta pellice vino,",
+     "Quam formæ amisso flore relinquit amans."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка из деревьев с листвой и плющом по бокам и сверху; внизу пейзаж с руинами (арки, ротонда) и городом."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «57» справа вверху, колонтитул «PERFIDIA.», сигнатура «D 5» (цифра деформирована). В «colit» под c след, похожий на седиль (как в «Aiacis» на 0062) — вероятно дефект; не транскрибирован."
+}

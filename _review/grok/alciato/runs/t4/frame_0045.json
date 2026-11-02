@@ -1,0 +1,59 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 45,
+ "source": "scan/frame_0045.jpg",
+ "page": "39",
+ "signature": "C 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "IVSTITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Bonis à diuitibus,nihil",
+     "timendum."
+    ],
+    "reading": "Bonis à divitibus, nihil timendum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Гарпии (крылатые женщины с птичьими когтистыми лапами) летят, похищая; снизу слева два крылатых юноши (Зет и Калаид) с мечами нападают на них; облака, стая птиц, скалы внизу.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Iunctis contiguo Marius mihi pariete,nec non",
+     "Subbardus,noſtri nomina nota fori,",
+     "Aedificant bene nummati,ſataguntq; vel vltrò",
+     "Obſtruere heu noſtris vndiq; luminibus.",
+     "Me miſerũ,geminę quem tanquam Phinea raptãt",
+     "Harpyiæ,vt proprijs ſedibus eijciant.",
+     "Integritas noſtra,atq; animus quæſitor honeſti,",
+     "His niſi ſint Zetes,his niſi ſint Calaïs."
+    ],
+    "reading": [
+     "Iunctis contiguo Marius mihi pariete, nec non",
+     "Subbardus, nostri nomina nota fori,",
+     "Aedificant bene nummati, sataguntque vel ultrò",
+     "Obstruere heu nostris undique luminibus.",
+     "Me miserum, geminæ quem tanquam Phinea raptant",
+     "Harpyiæ, ut propriis sedibus eiiciant.",
+     "Integritas nostra, atque animus quæsitor honesti,",
+     "His nisi sint Zetes, his nisi sint Calaïs."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка с бусинными полосами и завитками, сверху бородатая маска с цветами и лентами, внизу путто-атлант среди плодов, свисающие ленты с розетками."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «39» справа вверху, колонтитул «IVSTITIA.», сигнатура «C 4». На правом поле у верхнего угла рамки мелкая рукописная помета (не транскрибирована). Девиз прямым шрифтом, эпиграмма курсивом, чётные строки с отступом. «Calaïs» с диэрезой."
+}

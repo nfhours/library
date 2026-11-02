@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 56,
+ "source": "scan/frame_0056.jpg",
+ "page": "50",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SPES.",
+ "rubric": "SPES.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Spes proxima."
+    ],
+    "reading": "Spes proxima."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Многопарусный корабль (каракка) в бурном море среди высоких волн; справа в облаке голова ветра дует на паруса; слева вверху две звезды (Диоскуры).",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Innumeris agitur reſpub. uoſtra procellis,",
+     "Et ſpes venturę ſola ſalutis adeſt:",
+     "Non ſecus ac nauis medio circum æquore,venti",
+     "Quam rapiunt : ſalſis iamq; fatiſcit aquis.",
+     "Quòd ſi Helenę adueniãt lucẽtia ſydera fratres:",
+     "Amiſſos animos ſpes bona reſtituit."
+    ],
+    "reading": [
+     "Innumeris agitur respub. vostra procellis,",
+     "Et spes venturæ sola salutis adest:",
+     "Non secus ac navis medio circum æquore, venti",
+     "Quam rapiunt : salsis iamque fatiscit aquis.",
+     "Quòd si Helenæ adueniant lucentia sydera fratres:",
+     "Amissos animos spes bona restituit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка с чёрными арабесками, что на 0055."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «50» слева вверху, колонтитул «SPES.»; внутри рамки рубрика «SPES.» над девизом. Сигнатуры нет. «reſpub.» — сокращение с точкой, не раскрывается. В «iamq;» знак сокращения напечатан как q с акутом и запятой. Эпиграмма курсивом, чётные строки с отступом."
+}

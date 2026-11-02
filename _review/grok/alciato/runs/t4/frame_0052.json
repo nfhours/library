@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 52,
+ "source": "scan/frame_0052.jpg",
+ "page": "46",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "CONCORDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Concordia."
+    ],
+    "reading": "Concordia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Два полководца в античных доспехах и шлемах с плюмажами пожимают друг другу правые руки; позади военный лагерь с шатрами, слева всадник и воины; облака, птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "In bellu[?]m ciuile duces cùm Roma pararet,",
+     "Viribus & caderet Martia terra ſuis:",
+     "Mos fuit in partes turmis coëuntibus eaſdem,",
+     "Coniunctas dextras mutua dona dari.",
+     "Fœderis hæc ſpecies:id habet Concordia ſignum,",
+     "Vt quos iungit amor,iungat & ipſa manus."
+    ],
+    "reading": [
+     "In bellu[?]m civile duces cùm Roma pararet,",
+     "Viribus & caderet Martia terra suis:",
+     "Mos fuit in partes turmis coëuntibus easdem,",
+     "Coniunctas dextras mutua dona dari.",
+     "Fœderis hæc species: id habet Concordia signum,",
+     "Ut quos iungit amor, iungat & ipsa manus."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0051 (лежащие звери и щит сверху, драконы снизу, гирлянды плодов по бокам)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «46» слева вверху, колонтитул «CONCORDIA.». Сигнатуры нет. Девиз прямым шрифтом, эпиграмма курсивом, чётные строки с отступом."
+}

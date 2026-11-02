@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 66,
+ "source": "scan/frame_0066.jpg",
+ "page": "60",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PERFIDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In receptatores ſicariorum."
+    ],
+    "reading": "In receptatores sicariorum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Актеон с оленьей головой и рогами, с копьём в руке, в бегстве; справа его настигают и кусают собаки; на заднем плане деревья, ограда, холмы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Latronum furumq; manus tibi Scæua per vrbem",
+     "It comes:& dirus cincta cohors gladijs.",
+     "Atque ita te mentis generoſum prodige cenſes,",
+     "Quòd tua complure[?]s allicit olla malos.",
+     "En nouus Actæon,qui poſtquàm cornüa ſumpſit,",
+     "In prædam canibus ſe dedit ipſe ſuis."
+    ],
+    "reading": [
+     "Latronum furumque manus tibi Scæva per urbem",
+     "It comes: & dirus cincta cohors gladiis.",
+     "Atque ita te mentis generosum prodige censes,",
+     "Quòd tua complure[?]s allicit olla malos.",
+     "En novus Actæon, qui postquàm cornüa sumpsit,",
+     "In prædam canibus se dedit ipse suis."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же архитектурная рамка, что на 0065 (голова овна, факелы, медальоны «P» и «V», гермы, маскарон с драконами)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «60» слева вверху, колонтитул «PERFIDIA.». В «complures» e слито с кляксой. В «poſtquàm» o и ſ повреждены, но читаются."
+}

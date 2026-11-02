@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 62,
+ "source": "scan/frame_0062.jpg",
+ "page": "56",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PERFIDIA.",
+ "rubric": "PERFIDIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In victoriam dolo partam."
+    ],
+    "reading": "In victoriam dolo partam."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Женщина (Доблесть) с распущенными волосами сидит на гробнице на ступенчатом основании, одной рукой рвёт на себе волосы, в другой держит вырванную прядь; на гробнице надпись; плиточный пол, стена слева, облака справа.",
+    "inscriptions": [
+     {
+      "where": "на боку гробницы",
+      "text": "AIACIS[...]"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aiacis tumulum lachrymis ego perluo virtus.",
+     "Heu miſera albentes dilacerata comas.",
+     "Scilicet hoc,reſtabat adhuc,vt iudice Græco",
+     "Vincerer:& cauſa ſtet potiore dolus."
+    ],
+    "reading": [
+     "Aiacis tumulum lachrymis ego perluo virtus.",
+     "Heu misera albentes dilacerata comas.",
+     "Scilicet hoc, restabat adhuc, ut iudice Græco",
+     "Vincerer: & causa stet potiore dolus."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка с гирляндами плодов, атлантами и совами, что на 0061."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «56» слева вверху, колонтитул «PERFIDIA.». Над рубрикой раздела крупно «VITIA.» (начало раздела пороков). В «Aiacis» под c пятно, похожее на седиль — вероятно, дефект печати. «lachrymis» — y повреждён, но читается. «Scilicet» с точкой после t (вероятно, загрязнение)."
+}

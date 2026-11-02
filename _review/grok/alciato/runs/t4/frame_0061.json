@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 61,
+ "source": "scan/frame_0061.jpg",
+ "page": "55",
+ "signature": "D 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PVDICITIA.",
+ "rubric": "PVDICITIA.",
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": {
+    "position": "между рубрикой и эпиграммой",
+    "description": "Овальный картуш-щит с ремнями и навершием, внутри птица (порфирион) стоит на земле; вокруг щита мелкие буквы; фон — пейзаж с облаками, водой, лодкой, городом справа, деревом и растениями внизу.",
+    "inscriptions": [
+     {
+      "where": "по ободу овального щита",
+      "text": "[...]"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Porphirio domini ſi inceſtet in ædibus vxor,",
+     "Deſpondetq; animum,præq; dolore perit.",
+     "Abdita in arcanis naturæ eſt cauſa.ſit index",
+     "Synceræ hæc volucris certa pudicitiæ."
+    ],
+    "reading": [
+     "Porphirio domini si incestet in ædibus uxor,",
+     "Despondetque animum, præque dolore perit.",
+     "Abdita in arcanis naturæ est causa.sit index",
+     "Synceræ hæc volucris certa pudicitiæ."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка из гирлянд плодов и листьев; по бокам стоящие юноши (атланты) с поднятыми руками; внизу две совы с распростёртыми крыльями по сторонам корзины плодов, маскарон."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «55» справа вверху, колонтитул «PVDICITIA.», сигнатура «D 4». Девиза нет — только рубрика. Буквы по ободу щита мелкие и нечитаемые."
+}

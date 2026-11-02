@@ -1,0 +1,51 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 53,
+ "source": "scan/frame_0053.jpg",
+ "page": "47",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "CONCORDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Concordia inſupe-",
+     "rabilis."
+    ],
+    "reading": "Concordia insuperabilis."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Герион — бородатый царь в короне с тремя телами и шестью руками, держит копья, меч, щит с гербом (лилии); фон — море с кораблями, скалы, лежащая фигура вдали, облака, птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Tergeminos inter fuerat concordia fratret.",
+     "Tanta ſimul pietas mutu[?]a,& vnus amor:",
+     "Inuicti humanis vt viribus ampla tenerent",
+     "Regna,vno dicti nomine Geryonis."
+    ],
+    "reading": [
+     "Tergeminos inter fuerat concordia fratret.",
+     "Tanta simul pietas mutu[?]a, & unus amor:",
+     "Inuicti humanis ut viribus ampla tenerent",
+     "Regna, uno dicti nomine Geryonis."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Растительная рамка: вверху крылатые драконы/химеры с головами в шлемах, по бокам виноград, цветы, улитка, голова в шлеме; внизу звери среди листвы и цветов."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «47» справа вверху, колонтитул «CONCORDIA.». Сигнатуры нет. Девиз прямым шрифтом с переносом «inſupe-/rabilis.». Эпиграмма курсивом, чётные строки с отступом."
+}

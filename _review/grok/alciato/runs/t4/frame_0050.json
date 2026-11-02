@@ -1,0 +1,63 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 50,
+ "source": "scan/frame_0050.jpg",
+ "page": "44",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTITVDO.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Onnia mea mecum porto."
+    ],
+    "reading": "Onnia mea mecum porto."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Гунн, весь покрытый мехом (в шкурах), идёт, наклонившись, по скалистому берегу; рядом деревья, сзади море с лодкой и далёкий берег; внизу надпись на море.",
+    "inscriptions": [
+     {
+      "where": "внизу гравюры, на воде",
+      "text": "SCYTHICVM MARE."
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Hunnus inops Scythiciq; miſerrimus accola ponti,",
+     "Vſtus perpetuo liuida membra gelu.",
+     "Qui Cereris non nouit opes,nec dona Lyæi,",
+     "Et pretioſa tamen ſtragula ſemper habet:",
+     "Nam murinæ illum perſtringunt vndiq; pelles.",
+     "Lumina ſola patent,cætera opertus agit.",
+     "Sic furẽ haud metuit,ſic vẽtos temnit & himbres,",
+     "Tutus apudq; viros,tutus apudq; deos."
+    ],
+    "reading": [
+     "Hunnus inops Scythicique miserrimus accola ponti,",
+     "Ustus perpetuo livida membra gelu.",
+     "Qui Cereris non novit opes, nec dona Lyæi,",
+     "Et pretiosa tamen stragula semper habet:",
+     "Nam murinæ illum perstringunt undique pelles.",
+     "Lumina sola patent, cætera opertus agit.",
+     "Sic furem haud metuit, sic ventos temnit & himbres,",
+     "Tutus apudque viros, tutus apudque deos."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0049 (гроздь плодов сверху, арабеска и буквы «P», «V» снизу)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «44» слева вверху, колонтитул «FORTITVDO.». Сигнатуры нет. Девиз прямым шрифтом, эпиграмма курсивом, чётные строки с отступом."
+}

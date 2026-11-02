@@ -1,0 +1,67 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 46,
+ "source": "scan/frame_0046.jpg",
+ "page": "40",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTITVDO.",
+ "rubric": "FORTITVDO.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Signa fortium."
+    ],
+    "reading": "Signa fortium."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Орёл с распростёртыми крыльями сидит на надгробии-саркофаге с надписью; фон — руины, арки, каменные стены; справа у основания голова (дракона?) из камней.",
+    "inscriptions": [
+     {
+      "where": "на надгробии, мелко сверху",
+      "text": "D·M"
+     },
+     {
+      "where": "на надгробии, крупно",
+      "text": "ARISTOMENIS"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quæ te cauſa mouet volucris Saturnia,magni",
+     "Vt tumulo inſideas ardua Ariſtomenis?",
+     "Hoc moneo: Quãtũ inter aues ego robore præſto,",
+     "Tantùm Semideos inter Ariſtomenes[?].",
+     "Inſideant timidæ timidorum buſta columbæ,",
+     "Nos aquilæ intrepidis ſigna benigna damus."
+    ],
+    "reading": [
+     "Quæ te causa movet volucris Saturnia, magni",
+     "Ut tumulo insideas ardua Aristomenis?",
+     "Hoc moneo: Quantum inter aves ego robore præsto,",
+     "Tantùm Semideos inter Aristomenes[?].",
+     "Insideant timidæ timidorum busta columbæ,",
+     "Nos aquilæ intrepidis signa benigna damus."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "",
+   "subheading": {
+    "diplomatic": "DIALOGISMVS.",
+    "reading": "DIALOGISMUS."
+   }
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0045 (бородатая маска сверху, путто среди плодов снизу)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «40» слева вверху, колонтитул «FORTITVDO.» (точка с пятном, похоже на двоеточие); внутри рамки рубрика «FORTITVDO.», затем девиз и подзаголовок «DIALOGISMVS.» разреженными капителями. Сигнатуры нет. Эпиграмма курсивом, чётные строки с отступом."
+}

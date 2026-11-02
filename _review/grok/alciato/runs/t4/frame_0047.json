@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 47,
+ "source": "scan/frame_0047.jpg",
+ "page": "41",
+ "signature": "C 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTITVDO.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Α'νέχȣ καὶ ἀϖέχȣ."
+    ],
+    "reading": "Α'νέχου καὶ ἀϖέχου."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Пахарь в шапке с пером, замахиваясь палкой, ведёт упряжку быков; один бык крупно справа (с подогнутой/связанной правой ногой); фон — горы, крепость на вершине, птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Et toleranda homini triſtis fortuna ferendo eſt,",
+     "Et nimiùm felix ſæpe timenda fuit.",
+     "Suſtine(Epictetus dicebat ) & abſtine.oportet",
+     "Multa pati,illicitis abſq; tenêre manus.",
+     "Sic ducis imperium vinctus fert poplite taurus",
+     "In dextro:ſic ſe continet à grauidis."
+    ],
+    "reading": [
+     "Et toleranda homini tristis fortuna ferendo est,",
+     "Et nimiùm felix sæpe timenda fuit.",
+     "Sustine(Epictetus dicebat ) & abstine.oportet",
+     "Multa pati, illicitis absque tenêre manus.",
+     "Sic ducis imperium vinctus fert poplite taurus",
+     "In dextro: sic se continet à gravidis."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка с витыми бордюрами, сверху маски и картуш с монограммой «PV», внизу маски среди завитков и плодов."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «41» справа вверху, колонтитул «FORTITVDO.», сигнатура «C 5». Греческий девиз: Α с отдельным придыханием «Α'», окончания -ου лигатурой ȣ, π в форме ϖ, «καὶ» — κ с лигатурой αι под грависом. Эпиграмма курсивом, чётные строки с отступом."
+}

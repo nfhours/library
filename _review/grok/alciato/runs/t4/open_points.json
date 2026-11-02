@@ -487,5 +487,316 @@
   ],
   "type": "diacritic",
   "run": "t4"
+ },
+ {
+  "frame": 38,
+  "page": "32",
+  "location": "колонтитул",
+  "as_read": "PRVDBNTIA.",
+  "candidates": [
+   "PRVDENTIA."
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 40,
+  "page": "34",
+  "location": "эпиграмма, строка 3",
+  "as_read": "néue",
+  "candidates": [
+   "neue (знак над e — акут или грязь)"
+  ],
+  "type": "diacritic",
+  "run": "t4"
+ },
+ {
+  "frame": 40,
+  "page": "34",
+  "location": "эпиграмма, строка 1",
+  "as_read": "virûm",
+  "candidates": [
+   "virum (циркумфлекс как в печати)"
+  ],
+  "type": "diacritic",
+  "run": "t4"
+ },
+ {
+  "frame": 41,
+  "page": "35",
+  "location": "гравюра, надпись на гробнице",
+  "as_read": "AIACIS[?]",
+  "candidates": [
+   "AIACIS",
+   "ΑΙΑΚΙΣ (буквы читаются как «AIΛCIS»/«ΛIΛCIS»)"
+  ],
+  "type": "illegible",
+  "run": "t4"
+ },
+ {
+  "frame": 42,
+  "page": "36",
+  "location": "девиз",
+  "as_read": "ferocisſimos domari",
+  "candidates": [
+   "ferociſsimos",
+   "между словами штрих «l»/«ſ» — оттиск пробельного материала?"
+  ],
+  "type": "other",
+  "run": "t4"
+ },
+ {
+  "frame": 46,
+  "page": "40",
+  "location": "колонтитул, конечный знак",
+  "as_read": "FORTITVDO.",
+  "candidates": [
+   "FORTITVDO: (точка + пятно)"
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 46,
+  "page": "40",
+  "location": "эпиграмма, строка 4",
+  "as_read": "Ariſtomenes[?]",
+  "candidates": [
+   "Ariſtomenes (над конечным s черта — дефект?)",
+   "Ariſtomenẽs"
+  ],
+  "type": "diacritic",
+  "run": "t4"
+ },
+ {
+  "frame": 47,
+  "page": "41",
+  "location": "девиз, слово 2",
+  "as_read": "καὶ",
+  "candidates": [
+   "ϗαὶ? (лигатурная форма κ+αι)"
+  ],
+  "type": "greek",
+  "run": "t4"
+ },
+ {
+  "frame": 49,
+  "page": "43",
+  "location": "эпиграмма, строка 1",
+  "as_read": "pondus.palma",
+  "candidates": [
+   "pondus palma (точка — пятно?)"
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 49,
+  "page": "43",
+  "location": "эпиграмма, строка 2",
+  "as_read": "premitnr",
+  "candidates": [
+   "premitur"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 49,
+  "page": "43",
+  "location": "эпиграмма, строка 4, слово 1",
+  "as_read": "Queïs[?]",
+  "candidates": [
+   "Queïs",
+   "Quẽis",
+   "Queis (знаки над e и i неясны)"
+  ],
+  "type": "diacritic",
+  "run": "t4"
+ },
+ {
+  "frame": 50,
+  "page": "44",
+  "location": "девиз, слово 1",
+  "as_read": "Onnia",
+  "candidates": [
+   "Omnia"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 51,
+  "page": "45",
+  "location": "эпиграмма, строка 2",
+  "as_read": "Nutua",
+  "candidates": [
+   "Mutua"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 51,
+  "page": "45",
+  "location": "эпиграмма, строка 3",
+  "as_read": "ꝙ",
+  "candidates": [
+   "quod (раскрытие сокращения)"
+  ],
+  "type": "abbreviation",
+  "run": "t4"
+ },
+ {
+  "frame": 52,
+  "page": "46",
+  "location": "эпиграмма, строка 1",
+  "as_read": "bellu[?]m",
+  "candidates": [
+   "bellum",
+   "bellnm (u похожа на n)"
+  ],
+  "type": "damaged",
+  "run": "t4"
+ },
+ {
+  "frame": 53,
+  "page": "47",
+  "location": "эпиграмма, строка 1",
+  "as_read": "fratret.",
+  "candidates": [
+   "fratres."
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 53,
+  "page": "47",
+  "location": "эпиграмма, строка 2",
+  "as_read": "mutu[?]a",
+  "candidates": [
+   "mutua",
+   "mutna (u похожа на n)"
+  ],
+  "type": "damaged",
+  "run": "t4"
+ },
+ {
+  "frame": 56,
+  "page": "50",
+  "location": "эпиграмма, строка 1",
+  "as_read": "uoſtra",
+  "candidates": [
+   "noſtra"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 56,
+  "page": "50",
+  "location": "эпиграмма, строка 5",
+  "as_read": "adueniãt",
+  "candidates": [
+   "aduẽniãt",
+   "adueniant (позиция тильды неясна)"
+  ],
+  "type": "diacritic",
+  "run": "t4"
+ },
+ {
+  "frame": 57,
+  "page": "51",
+  "location": "гравюра",
+  "as_read": "предмет в руке сидящей женщины",
+  "candidates": [
+   "кадуцей",
+   "посох",
+   "ветвь"
+  ],
+  "type": "other",
+  "run": "t4"
+ },
+ {
+  "frame": 58,
+  "page": "52",
+  "location": "эпиграмма, строка 1",
+  "as_read": "præcido",
+  "candidates": [
+   "præciſo"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 60,
+  "page": "54",
+  "location": "гравюра",
+  "as_read": "атрибуты фигур (узда, ветвь)",
+  "candidates": [
+   "узда",
+   "цепь",
+   "ремень"
+  ],
+  "type": "other",
+  "run": "t4"
+ },
+ {
+  "frame": 61,
+  "page": "55",
+  "location": "гравюра, обод щита",
+  "as_read": "[...]",
+  "candidates": [
+   "буквы нечитаемы"
+  ],
+  "type": "illegible",
+  "run": "t4"
+ },
+ {
+  "frame": 62,
+  "page": "56",
+  "location": "гравюра, надпись на гробнице",
+  "as_read": "AIACIS[...]",
+  "candidates": [
+   "AIACIS SEPVLCHRVM",
+   "AIACIS + неразборчивые буквы"
+  ],
+  "type": "illegible",
+  "run": "t4"
+ },
+ {
+  "frame": 62,
+  "page": "56",
+  "location": "эпиграмма, строка 3",
+  "as_read": "Scilicet",
+  "candidates": [
+   "Scilicet. (точка после t)"
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 66,
+  "page": "60",
+  "location": "эпиграмма, строка 4",
+  "as_read": "complure[?]s",
+  "candidates": [
+   "complures"
+  ],
+  "type": "damaged",
+  "run": "t4"
+ },
+ {
+  "frame": 66,
+  "page": "60",
+  "location": "эпиграмма, строка 5",
+  "as_read": "cornüa",
+  "candidates": [
+   "cornũa",
+   "cornua (знак над u неясен)"
+  ],
+  "type": "diacritic",
+  "run": "t4"
  }
 ]

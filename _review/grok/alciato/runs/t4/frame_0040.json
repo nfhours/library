@@ -1,0 +1,51 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 40,
+ "source": "scan/frame_0040.jpg",
+ "page": "34",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "IVSTITIA.",
+ "rubric": "IVSTITIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Nec verbo,nec facto quen-",
+     "quam lædendum."
+    ],
+    "reading": "Nec verbo, nec facto quenquam lædendum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Немезида — женщина в развевающихся одеждах с лентой/вуалью, шагает вправо, держа в вытянутой руке узду (вертикально висящие поводья) и показывая локоть; фон — море с кораблём, скалы, город на берегу, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aſſequitur,Nemeſisq; virûm veſtigia ſeruat,",
+     "Continet & cubitum,duraq; fræna manu.",
+     "Nè malè qđ facias:néue improba verba loquaris:",
+     "Et iubet in cunctis rebus adeſſe modum."
+    ],
+    "reading": [
+     "Assequitur, Nemesisque virûm vestigia servat,",
+     "Continet & cubitum, duraque fræna manu.",
+     "Nè malè qđ facias: néue improba verba loquaris:",
+     "Et iubet in cunctis rebus adesse modum."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же архитектурная рамка, что на 0039 (маска в короне, гермы, бычий череп)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «34» слева вверху, колонтитул «IVSTITIA.»; внутри рамки рубрика «IVSTITIA.» над девизом. Сигнатуры нет. «qđ» — у q перечёркнут хвост (сокращение quod); то же обозначение qđ, что и на 0010/0029. Девиз прямым шрифтом с переносом «quen-/quam», эпиграмма курсивом, чётные строки с отступом."
+}

@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 54,
+ "source": "scan/frame_0054.jpg",
+ "page": "48",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "CONCORDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Vnum nihil,duos pluri-",
+     "mùm poſſe."
+    ],
+    "reading": "Unum nihil, duos plurimùm posse."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Двое беседуют: слева старец (Улисс) в плаще с мешком на спине и книгой/доской под мышкой указывает рукой; справа воин (Диомед) в шлеме с перьями, со щитом и копьём; фон — равнина, город, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Laërtæ genitum,genitum quoque Tydeos vnà,",
+     "Hac cera expreſsit Zenalis apta manus.",
+     "Viribus hic præſtat,hic pollet acumine mentis,",
+     "Nec tamen alterius non eget alter ope.",
+     "Cùm duo coniuncti veniunt,victoria certa eſt.",
+     "Solùm mens hominem,dextráue deſtituit."
+    ],
+    "reading": [
+     "Laërtæ genitum, genitum quoque Tydeos unà,",
+     "Hac cera expressit Zenalis apta manus.",
+     "Viribus hic præstat, hic pollet acumine mentis,",
+     "Nec tamen alterius non eget alter ope.",
+     "Cùm duo coniuncti veniunt, victoria certa est.",
+     "Solùm mens hominem, dextráue destituit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же растительная рамка, что на 0053 (химеры сверху, звери и цветы снизу)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «48» слева вверху, колонтитул «CONCORDIA.». Сигнатуры нет. «expreßit» с ß (→ expreſsit). Девиз прямым шрифтом, эпиграмма курсивом, чётные строки с отступом."
+}

@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 37,
+ "source": "scan/frame_0037.jpg",
+ "page": "31",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In ſtatuam Bacchi."
+    ],
+    "reading": "In statuam Bacchi."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Обнажённый юный Вакх в венке из виноградных листьев сидит на земле, играя на флейте и держа тимпан (бубен) с палочкой; позади виноградная лоза с гроздьями; у ног чаша.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Bacche pater:quis te mortali lumine nouit?",
+     "Et docta effinxit quis tua membra manu?",
+     "Praxiteles,qui me rapientem Gnoſida uidit.",
+     "Atque illo pinxit tempore qualis eram.",
+     "Cur iuuenis,teneraq; etiam lanugine vernat",
+     "Barba,queas Pylium cùm ſuperare ſenem?"
+    ],
+    "reading": [
+     "Bacche pater: quis te mortali lumine novit?",
+     "Et docta effinxit quis tua membra manu?",
+     "Praxiteles, qui me rapientem Gnosida vidit.",
+     "Atque illo pinxit tempore qualis eram.",
+     "Cur iuvenis, teneraque etiam lanugine vernat",
+     "Barba, queas Pylium cùm superare senem?"
+    ]
+   },
+   "continues_on_next_page": true,
+   "notes": "",
+   "subheading": {
+    "diplomatic": "DIALOGISMVS.",
+    "reading": "DIALOGISMUS."
+   }
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка: сверху навес/шатёр с бахромой и сеткой, по бокам крылатые путти и атланты, внизу корабль на волнах с головой морского чудища."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «31» справа вверху, колонтитул «PRVDENTIA.». Сигнатуры нет. Подзаголовок «DIALOGISMVS.» набран разреженными капителями. Диалог продолжается на следующей странице (0038, без нового девиза)."
+}

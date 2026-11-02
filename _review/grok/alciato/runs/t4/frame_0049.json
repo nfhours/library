@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 49,
+ "source": "scan/frame_0049.jpg",
+ "page": "43",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTITVDO.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Obdurandum aduerſus",
+     "vrgentia."
+    ],
+    "reading": "Obdurandum aduersus urgentia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Путто (мальчик) в развевающемся плаще повис, вцепившись в согнутую ветвь пальмы, чтобы взобраться; пальма растёт справа из скалы; внизу река, мост с арками, руины, деревья, птицы в небе.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Nititur in pondus.palma, & conſurgit in arcum,",
+     "Quò magis & premitnr, hoc mage tollit onus:",
+     "Fert & odoratas bellaria dulcia glandes,",
+     "Queïs[?] menſas inter primus habetur honos.",
+     "I puer,& reptans ramis has collige,mentis",
+     "Qui conſtantis erit,præmia digna feret."
+    ],
+    "reading": [
+     "Nititur in pondus.palma, & consurgit in arcum,",
+     "Quò magis & premitnr, hoc mage tollit onus:",
+     "Fert & odoratas bellaria dulcia glandes,",
+     "Queïs[?] mensas inter primus habetur honos.",
+     "I puer, & reptans ramis has collige, mentis",
+     "Qui constantis erit, præmia digna feret."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка с бусинными полосами и завитками, сверху гроздь плодов, внизу орнаментальный щит-арабеска между фигурами, в углах буквы «P» и «V»."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «43» справа вверху (последняя цифра плохо пропечатана), колонтитул «FORTITVDO.» (точка с пятном). Сигнатуры нет. Девиз прямым шрифтом, эпиграмма курсивом, чётные строки с отступом."
+}

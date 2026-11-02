@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 42,
+ "source": "scan/frame_0042.jpg",
+ "page": "36",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "IVSTITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Etiam ferocisſimos domari."
+    ],
+    "reading": "Etiam ferocissimos domari."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Марк Антоний в античных доспехах сидит на колеснице с колесом-солнцем (лик в ступице), держа длинное копьё/вожжи; колесницу тянут львы; фон — горы, крепость с акведуком, две маленькие фигуры на дороге.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Romanum poſtquàm eloquiũ, Cicerone perempto,",
+     "Perdiderat patriæ peſtis acerba ſuæ:",
+     "Inſcendit currus victor,iunxitq; leones,",
+     "Compulit & durum colla ſubire iugum,",
+     "Magnanimos ceſsiſſe ſuis Antonius armis,",
+     "Ambage hac cupiens ſignificare duces."
+    ],
+    "reading": [
+     "Romanum postquàm eloquium, Cicerone perempto,",
+     "Perdiderat patriæ pestis acerba suæ:",
+     "Inscendit currus victor, iunxitque leones,",
+     "Compulit & durum colla subire iugum,",
+     "Magnanimos cessisse suis Antonius armis,",
+     "Ambage hac cupiens significare duces."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0041 (смеющаяся маска сверху, маска с кольцом и гирлянды снизу)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «36» слева вверху, колонтитул «IVSTITIA.». Сигнатуры нет. В девизе между «ferocisſimos» и «domari» оттиснулся поднявшийся пробельный материал (вертикальный штрих, похожий на «l»), не транскрибирован. Эпиграмма курсивом, чётные строки с отступом. «ceßiſſe» напечатано с ß (→ ceſsiſſe)."
+}

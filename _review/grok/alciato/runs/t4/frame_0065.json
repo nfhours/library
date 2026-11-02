@@ -1,0 +1,59 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 65,
+ "source": "scan/frame_0065.jpg",
+ "page": "59",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PERFIDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Maledicentia."
+    ],
+    "reading": "Maledicentia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Над гробницей (саркофагом) роятся осы; на передней стенке гробницы картуш с надписью, по бокам сидящие крылатые фигуры (путти/гарпии); внизу каменистая земля.",
+    "inscriptions": [
+     {
+      "where": "картуш на гробнице",
+      "text": "ARCHILOCHI"
+     },
+     {
+      "where": "табличка под картушем",
+      "text": "M"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Archilochi tumulo inſculptas de marmore veſpas",
+     "Eſſe ferunt,linguæ certa ſigilla malæ."
+    ],
+    "reading": [
+     "Archilochi tumulo insculptas de marmore vespas",
+     "Esse ferunt, linguæ certa sigilla malæ."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Архитектурная рамка: сверху голова овна с рогами между факелами-пламенем, бусинный бордюр; по бокам пилястры с медальонами с буквами «P» (слева) и «V» (справа) и женскими гермами; внизу маскарон с драконами/змеями."
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Концовка-картуш с сатировыми масками, женской маской и фигурами (всадники/кентавры) внутри — тот же блок, что на 0058."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «59» справа вверху, колонтитул «PERFIDIA.» (последняя точка похожа на двоеточие). Сигнатуры нет. Девиз одной строкой прямым шрифтом."
+}
