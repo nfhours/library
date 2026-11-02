@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 15,
+ "source": "scan/frame_0015.jpg",
+ "page": "9",
+ "signature": "A 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "EMBLEM. DEDIC.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Nunquàm procraſti-",
+     "nandum."
+    ],
+    "reading": "Nunquàm procrastinandum."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Лось (животное с рогами, густой шерстью) стоит в профиль вправо у дерева; вокруг его ног и вверх извивается лента-бандероль с греческой надписью; на заднем плане холмы, башня/обелиск и строения.",
+    "inscriptions": [
+     {
+      "where": "на ленте у ног и вдоль ленты вверх, конец ленты свернут (две строки на завитке)",
+      "text": "ΜΗ | ΔΕΝ ΑΝΑΒΑΛΛΟ | ΜΕ | ΝΟΣ[?]"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "ALCIATAE gentis inſignia ſuſtinet Alce,",
+     "Vnguibus & μηδ᾽ἐν fert ἀναβαλλόμενος.",
+     "Conſtat Alexandrum ſic reſpondiſse roganti,",
+     "Quî tot obiuiſſet tempore geſta breui?",
+     "Nunquam(inquit )differre volens.quod & indi-",
+     "cat Alce",
+     "Fortior hæc dubitet,ocyor ánne ſiet."
+    ],
+    "reading": [
+     "ALCIATAE gentis insignia sustinet Alce,",
+     "Unguibus & μηδ᾽ἐν fert ἀναβαλλόμενος.",
+     "Constat Alexandrum sic respondisse roganti,",
+     "Quî tot obivisset tempore gesta brevi?",
+     "Nunquam(inquit )differre volens.quod & indi-",
+     "cat Alce",
+     "Fortior hæc dubitet, ocyor ánne siet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "«ALCIATAE» — прямые капители вразрядку. Строка 5 не уместилась: «cat Alce» перенесено на отдельную строку с отступом (в слое чтения сохранено построчно). В греческом окончание «-ος» набрано лигатурой. Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «EMBLEM. DEDIC.», номер «9» справа; сигнатура «A 5»."
+}

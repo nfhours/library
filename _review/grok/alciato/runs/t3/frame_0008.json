@@ -1,0 +1,60 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 8,
+ "source": "scan/frame_0008.jpg",
+ "page": "[2]",
+ "signature": null,
+ "catchword": null,
+ "page_type": "front_matter",
+ "running_head": null,
+ "rubric": "PRIVILEGE DV ROY.",
+ "blocks": [
+  {
+   "kind": "prose",
+   "lang": "fra",
+   "initial": "I",
+   "diplomatic": [
+    "IL ha pleu au Roy noſtre Syre,de dõner",
+    "priuilege & permiſsion à Guillaume",
+    "Rouille libraire,& à Macé Bonhomme",
+    "Imprimeur demourãs à Lyon,d'impri-",
+    "mer ou faire imprimer vn petit liure in-",
+    "titulé Emblemata Alciati, qu'ilz ont faict dreſſer &",
+    "mettre en ordre per tiltres generaulx & lieux com-",
+    "muns,pour plus facile intelligence d'iceluy, & adiou-",
+    "ſter figures nouuelles aux Emblemes que par cy de-",
+    "uant n'auoyent eſté faictes,n'inuẽtées. Enſemble plu-",
+    "ſieurs Emblemes nouuelles qu'ilz ont recouuertes du-",
+    "dict Autheur non plus miſez en lumiere, digerées en",
+    "leur ordre, & figurées. Parquoy ſont faictes deffences",
+    "de par ledict ſeigneur à tous libraires, & Imprimeurs,",
+    "& autres ſur certaines grans peines, de n'imprimer ou",
+    "faire imprimer,vendre ou diſtribuer en ſon Royaul-",
+    "me,pays,terres & ſeigneuries,deſdicts Emblemata Al",
+    "ciati,de telle ſorte,ou ſemblable inuention,ordõnan-",
+    "ce,correction,augmentation,ne contrefaire leurs figu",
+    "res nouuelles en quelque maniere et en quelque volu-",
+    "me que ce ſoit, iuſques au temps et terme de ſix ans",
+    "prochains,comme plus à plain eſt cõtenu es lettres pa",
+    "tentes ſur ce deſpeſchées à Maſcon,le ix. d'Aouſt.",
+    "M. D. xlviij. Signées, Le Chandelier: Et ſéellées du",
+    "grand ſéel en cyre Iaulne,ſur ſimple queüe."
+   ],
+   "reading": [
+    "IL ha pleu au Roy nostre Syre, de donner privilege & permission à Guillaume Rouille libraire, & à Macé Bonhomme Imprimeur demourans à Lyon, d'imprimer ou faire imprimer un petit livre intitulé Emblemata Alciati, qu'ilz ont faict dresser & mettre en ordre per tiltres generaulx & lieux communs, pour plus facile intelligence d'icelvy, & adiouster figures nouvelles aux Emblemes que par cy devant n'avoyent esté faictes, n'inventées. Ensemble plusieurs Emblemes nouvelles qu'ilz ont recouvertes dudict Autheur non plus misez en lumiere, digerées en leur ordre, & figurées. Parquoy sont faictes deffences de par ledict seigneur à tous libraires, & Imprimeurs, & autres sur certaines grans peines, de n'imprimer ou faire imprimer, vendre ou distribuer en son Royaulme, pays, terres & seigneuries, desdicts Emblemata Alciati, de telle sorte, ou semblable invention, ordonnance, correction, augmentation, ne contrefaire leurs figures nouvelles en quelque maniere et en quelque volume que ce soit, iusques au temps et terme de six ans prochains, comme plus à plain est contenu es lettres patentes sur ce despeschées à Mascon, le ix. d'Aoust. M. D. xlviij. Signées, Le Chandelier: Et séellées du grand séel en cyre Iaulne, sur simple queüe."
+   ],
+   "notes": "Гравированная буквица I с сидящим путто и растением. Переносы без знака: «Al/ciati», «figu/res», «pa/tentes» (в слое чтения склеены). Подпись «PRIVILEGE DV ROY.» — курсивные капители вразрядку."
+  }
+ ],
+ "ornaments": [],
+ "errata": [
+  {
+   "printed": "per tiltres",
+   "corrected": "par tiltres",
+   "certainty": "вероятная",
+   "applied_in_reading": false,
+   "comment": "«per» вместо «par» (строка 7); не исправлено, см. open_points"
+  }
+ ],
+ "notes": "Страница без колонтитула и без номера. Ниже текста пусто."
+}

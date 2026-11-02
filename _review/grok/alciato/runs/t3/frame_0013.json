@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 13,
+ "source": "scan/frame_0013.jpg",
+ "page": "7",
+ "signature": "A 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "EMBLEM. DEDIC.",
+ "rubric": "EMBLEM. DEDIC.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ad illuſt.Maximil.ducẽ Mediol.Su-",
+     "per inſigni Ducatus Mediolan."
+    ],
+    "reading": "Ad illust.Maximil.ducem Mediol.Super insigni Ducatus Mediolan."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой, во всю ширину полосы",
+    "description": "В центре фигурный картуш-щит, подвешенный на лентах к дереву; на щите извивающийся змей. За щитом пейзаж: море с лодками, слева город на берегу и скалы с водопадом/свисающей растительностью, справа облака; на переднем плане земля с растениями.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Exiliens infans ſinuoſi è faucibus anguis,",
+     "Eſt gentilitijs nobile ſtemma tuis.",
+     "Talia Pellæum geſsiſſe nomiſmata regem,",
+     "Vidimus,hisq; ſuum concelebraſſe genus.",
+     "Dũ ſe Ammone ſatũ,matrẽ anguis imagine luſã,",
+     "Diuini & ſobolem ſeminis eſſe docet.",
+     "Ore exit,tradunt ſic quoſdam enitier angues,",
+     "An quia ſic Pallas de capite orta Iouis?"
+    ],
+    "reading": [
+     "Exiliens infans sinuosi è faucibus anguis,",
+     "Est gentilitiis nobile stemma tuis.",
+     "Talia Pellæum gessisse nomismata regem,",
+     "Vidimus, hisque suum concelebrasse genus.",
+     "Dum se Ammone satum, matrem anguis imagine lusam,",
+     "Divini & sobolem seminis esse docet.",
+     "Ore exit, tradunt sic quosdam enitier angues,",
+     "An quia sic Pallas de capite orta Iovis?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Внутри полосы над девизом повторено «EMBLEM. DEDIC.» курсивными капителями (записано в rubric). Девиз прямым шрифтом, эпиграмма курсивом, чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул над рамкой «EMBLEM. DEDIC.» курсивными капителями; номер «7» справа; сигнатура «A 4» внизу справа."
+}

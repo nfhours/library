@@ -1,0 +1,74 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 12,
+ "source": "scan/frame_0012.jpg",
+ "page": "6",
+ "signature": null,
+ "catchword": null,
+ "page_type": "front_matter",
+ "running_head": null,
+ "rubric": null,
+ "blocks": [
+  {
+   "kind": "title_text",
+   "lang": "lat",
+   "diplomatic": [
+    "CLARISS. VIRI",
+    "ANDR. AL[?]CIATI IN",
+    "Librum primum Emble-",
+    "matũ præfatio,ad Chon-",
+    "radum Peutingerum",
+    "Auguſtanum."
+   ],
+   "reading": [
+    "CLARISS. VIRI ANDR. AL[?]CIATI IN Librum primum Emblematum præfatio, ad Chonradum Peutingerum Augustanum."
+   ],
+   "notes": "Заголовок: 1-я строка — крупные прямые капитали; 2-я — курсивные капители (курсивная L похожа на «I.»); далее прямой шрифт."
+  },
+  {
+   "kind": "verse",
+   "lang": "lat",
+   "diplomatic": [
+    "Dum pueros iuglans,iuuenes dum teſſerat[?] fallit,",
+    "Detinet & ſegnes chartula picta viros:",
+    "Hæc nos feſtiuis Emblemata cudimus horis,",
+    "Artificum illuſtri ſignaq; facta manu:",
+    "Veſtibus vt torulos,petaſis vt figere parmas,",
+    "Et valeat tacitis ſcribere quiſque notis.",
+    "At[?] tibi ſupremus precioſa u[?]omiſmata Cæſar,",
+    "Et veterum eximias donet habere m[?]anus.",
+    "Ipſe dabo vati chartacea munera vates,",
+    "Quæ ( Chonrade ) mei pignus æmoris habe."
+   ],
+   "reading": [
+    "Dum pueros iuglans, iuvenes dum tesserat[?] fallit,",
+    "Detinet & segnes chartula picta viros:",
+    "Hæc nos festivis Emblemata cudimus horis,",
+    "Artificum illustri signaque facta manu:",
+    "Vestibus ut torulos, petasis ut figere parmas,",
+    "Et valeat tacitis scribere quisque notis.",
+    "At[?] tibi supremus preciosa u[?]omismata Cæsar,",
+    "Et veterum eximias donet habere m[?]anus.",
+    "Ipse dabo vati chartacea munera vates,",
+    "Quæ ( Chonrade ) mei pignus æmoris habe."
+   ],
+   "notes": "Элегические дистихи курсивом, пентаметры с отступом."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под стихами",
+   "description": "Гравированная заставка-картуш с завитками, двумя кистями по бокам и растительным мотивом в центре."
+  }
+ ],
+ "errata": [
+  {
+   "printed": "æmoris",
+   "corrected": "amoris",
+   "certainty": "вероятная",
+   "applied_in_reading": false,
+   "comment": "см. open_points"
+  }
+ ],
+ "notes": "Номер страницы «6» вверху слева. Сигнатуры и кустоды нет."
+}

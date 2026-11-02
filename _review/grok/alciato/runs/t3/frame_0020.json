@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 20,
+ "source": "scan/frame_0020.jpg",
+ "page": "14",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "DEVS, SIVE RELIGIO.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Quà Dij vocant eundum."
+    ],
+    "reading": "Quà Dij vocant eundum."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Слева на камнях полусидит Меркурий в крылатом шлеме, в плаще, указывая рукой вниз на расходящиеся дороги; над ним вверху слева кадуцей (жезл со змеями и крыльями); по дорогам идут путники с посохами; холмы, деревья, справа на переднем плане груда камней.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "In triuio mons eſt lapidum:ſupereminet illi",
+     "Trunca Dei effigies,pectore facta tenus.",
+     "Mercurij eſt igitur tumulus.Suſpende viator",
+     "Serta Deo:rectum qui tibi monſtrat iter.",
+     "Omnes in triuio ſumus,atque hoc tramite vitæ",
+     "Fallimur,oſtendat ni Deus ipſe viam."
+    ],
+    "reading": [
+     "In trivio mons est lapidum: supereminet illi",
+     "Trunca Dei effigies, pectore facta tenus.",
+     "Mercurii est igitur tumulus.Suspende viator",
+     "Serta Deo: rectum qui tibi monstrat iter.",
+     "Omnes in trivio sumus, atque hoc tramite vitæ",
+     "Fallimur, ostendat ni Deus ipse viam."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «DEVS, SIVE RELIGIO.», номер «14» слева. Сигнатуры нет."
+}

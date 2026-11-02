@@ -1,0 +1,64 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 7,
+ "source": "scan/frame_0007.jpg",
+ "page": "[1]",
+ "signature": null,
+ "catchword": null,
+ "page_type": "title",
+ "running_head": null,
+ "rubric": null,
+ "blocks": [
+  {
+   "kind": "title_text",
+   "lang": "lat",
+   "diplomatic": [
+    "EMBLEMATA",
+    "D. A. AL[?]CIATI,",
+    "denuo ab ipſo Autore",
+    "recognita,ac,quæ deſi-",
+    "derabantur, imagini",
+    "bus locupletata.",
+    "Acceſſerunt noua aliquot ab",
+    "Autore Emblemata ſuis quoq;",
+    "eiconibus inſignita."
+   ],
+   "reading": [
+    "EMBLEMATA D. A. AL[?]CIATI, denuo ab ipso Autore recognita, ac, quæ desiderabantur, imaginibus locupletata. Accesserunt nova aliquot ab Autore Emblemata suis quoque eiconibus insignita."
+   ],
+   "notes": "В картуше гравированного титула. Строки 1–6 прямым шрифтом (EMBLEMATA — крупные капитальные), «D. A. AL[?]CIATI,» — курсивные капитальные вразрядку; строки 7–9 курсивом. «imagini» / «bus» — перенос без знака. Во 2-й строке курсивная L похожа на «I.» (читается «A I. C I A T I»)."
+  },
+  {
+   "kind": "imprint",
+   "lang": "lat",
+   "diplomatic": [
+    "LVGD. APVD GVLIEL.",
+    "ROVILIVM,[?] 1551."
+   ],
+   "reading": [
+    "LUGD. APUD GULIEL. ROVILIUM,[?] 1551."
+   ],
+   "notes": "В картуше на постаменте внизу гравюры. Капители. После LVGD точка (видна как запятая/точка, «LVGD.»). Разделитель после ROVILIVM — запятая или точка, читается как запятая[?]."
+  },
+  {
+   "kind": "privilege_line",
+   "lang": "lat",
+   "diplomatic": [
+    "CVM",
+    "PRIVILE[...]"
+   ],
+   "reading": [
+    "CUM PRIVILE[...]"
+   ],
+   "notes": "Набрано под рамкой: «CVM» слева, «PRIVILE…» справа; правый край срезан корешком/обрезом — после E видна только левая часть следующей литеры (C или G)."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вся полоса",
+   "description": "Гравированная архитектурная рамка титула: наверху маскарон (лицо сатира/фавна) над аркой и две полулежащие обнажённые фигуры (слева мужская, справа крылатая) на карнизе; по сторонам две атлантоподобные обнажённые мужские фигуры-гермы на пьедесталах с масками; под картушем с текстом подвешены гирлянды фруктов; в центре на постаменте овальный медальон с орлом (птица с поднятыми крыльями, держит в клюве/лапах змею[?]); внизу на круглом постаменте картуш с выходными данными."
+  }
+ ],
+ "errata": [],
+ "notes": ""
+}

@@ -1,0 +1,48 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 26,
+ "source": "scan/frame_0026.jpg",
+ "page": "20",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": "PRVDENTIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Conſilio,& virtute Chimæra[?]n",
+     "ſuperari,id eſt,fortiores",
+     "& deceptores."
+    ],
+    "reading": "Consilio, & virtute Chimæra[?]n superari, id est, fortiores & deceptores."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Беллерофонт в шлеме верхом на крылатом коне Пегасе поражает копьём Химеру (львиное тело, змеиный хвост) внизу слева; на заднем плане море, кораблик и город на берегу.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Bellerophron(vt fortis eques)ſuperare Chimæran,",
+     "Et Licij potuit ſternere monſtra ſôli.",
+     "Sic tu Pegaſeis vectus petis æthera pennis:",
+     "Conſilioq; animi monſtra ſuperba domas."
+    ],
+    "reading": [
+     "Bellerophron(ut fortis eques)superare Chimæran,",
+     "Et Licij potuit sternere monstra sôli.",
+     "Sic tu Pegaseis vectus petis æthera pennis:",
+     "Consilioque animi monstra superba domas."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «20» слева, колонтитул «PRVDENTIA.»."
+}

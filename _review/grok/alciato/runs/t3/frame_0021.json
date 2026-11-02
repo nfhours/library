@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 21,
+ "source": "scan/frame_0021.jpg",
+ "page": "15",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FIDES.",
+ "rubric": "VIRTVTES. / FIDES.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Fidei ſymbolum."
+    ],
+    "reading": "Fidei symbolum."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Слева мужчина в длинном плаще и венке, справа женщина в длинном одеянии с покрывалом; они соединяют правые руки; между ними стоит обнажённый мальчик в венке, держащий их за руки/одежды; облака, птицы в небе, ровная местность.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Stet depictus Honos Tyrio velatus amictu,",
+     "Eiuſq; iungat nuda dextram Veritas.",
+     "Sitq; Amor in medio caſtus:cui tempora circum",
+     "Roſa it, Diones pulchrior Cupidine.",
+     "Conſtituunt hæc ſigna fidem,reuerentia honoris",
+     "Quam fouet,alit Amor,parturitq; Veritas."
+    ],
+    "reading": [
+     "Stet depictus Honos Tyrio velatus amictu,",
+     "Eiusque iungat nuda dextram Veritas.",
+     "Sitque Amor in medio castus: cui tempora circum",
+     "Rosa it, Diones pulchrior Cupidine.",
+     "Constituunt hæc signa fidem, reverentia honoris",
+     "Quam fovet, alit Amor, parturitque Veritas."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Над девизом внутри полосы две строки: «VIRTVTES.» (крупные прямые капители) и «FIDES.» (курсивные капители; между E и S пятно). Чётные строки с отступом. Над E в «Eiuſq;» точка — пятно."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «FIDES.», номер «15» справа. Сигнатуры нет (нижнее поле пустое)."
+}

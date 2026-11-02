@@ -1,0 +1,52 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 24,
+ "source": "scan/frame_0024.jpg",
+ "page": "18",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FIDES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Non vulganda conſilia."
+    ],
+    "reading": "Non uulganda consilia."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Минотавр (человеческий торс с дубиной, туловище быка) внутри кольца; на древке перед ним наискось развевается знамя с надписью SPQR; внизу облака/земля.",
+    "inscriptions": [
+     "S P Q R"
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Limine quod cæco,obſcura & caligine monſtrum",
+     "Gnoſiacis clauſit Dædalus in latêbris:",
+     "Depictum Romana Phalanx in prælia geſtat,",
+     "Semiuiroq; nitent ſigna ſuperba boue.",
+     "Noſq; monent,debere ducum ſecreta latêre",
+     "Conſilia.autori cognita techna nocet."
+    ],
+    "reading": [
+     "Limine quod cæco, obscura & caligine monstrum",
+     "Gnosiacis clausit Dædalus in latêbris:",
+     "Depictum Romana Phalanx in prælia gestat,",
+     "Semiviroque nitent signa superba bove.",
+     "Nosque monent, debere ducum secreta latêre",
+     "Consilia.autori cognita techna nocet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом. Лигатуры ſt и ct переданы буквами."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «18» слева, колонтитул «FIDES.»."
+}

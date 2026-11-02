@@ -1,0 +1,471 @@
+{
+ "run": "t3",
+ "method": "contrast-enhanced image (grayscale autocontrast + levels), full page + crops, zoom where needed",
+ "points": [
+  {
+   "frame": 7,
+   "page": "[1]",
+   "location": "строка 2 титула, «ALCIATI»",
+   "as_read": "AL[?]CIATI",
+   "candidates": [
+    "ALCIATI — предложение агента",
+    "AI.CIATI"
+   ],
+   "type": "illegible",
+   "note": "курсивная L этого шрифта похожа на «I.» (правило §4)"
+  },
+  {
+   "frame": 7,
+   "page": "[1]",
+   "location": "строка привилегии справа, «PRIVILE…»",
+   "as_read": "PRIVILE[...]",
+   "candidates": [
+    "PRIVILEGIO (достраивание)",
+    "PRIVILEG[...]"
+   ],
+   "type": "editorial/reconstruction",
+   "note": "последняя видимая литера частично срезана — C или G"
+  },
+  {
+   "frame": 7,
+   "page": "[1]",
+   "location": "импринт, строка 2, знак после ROVILIVM",
+   "as_read": "ROVILIVM,",
+   "candidates": [
+    ",",
+    "."
+   ],
+   "type": "illegible"
+  },
+  {
+   "frame": 8,
+   "page": "[2]",
+   "location": "строка 7, слово 5",
+   "as_read": "per",
+   "candidates": [
+    "per (как напечатано)",
+    "par — возможное исправление"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 8,
+   "page": "[2]",
+   "location": "строка 25, последнее слово",
+   "as_read": "queüe.",
+   "candidates": [
+    "queüe",
+    "queue"
+   ],
+   "type": "illegible",
+   "note": "две точки над u видны, но могут быть пятном"
+  },
+  {
+   "frame": 9,
+   "page": "3",
+   "location": "строка 7, слово 4",
+   "as_read": "lt[?]teraturæ",
+   "candidates": [
+    "litteraturæ — вторая литера повреждена/плохо пропечатана (i без точки?) — предложение агента",
+    "ltteraturæ (опечатка)"
+   ],
+   "type": "damage/stain"
+  },
+  {
+   "frame": 9,
+   "page": "3",
+   "location": "строка 8, греческое слово 1",
+   "as_read": "ἀφορισ[?]ικῶς",
+   "candidates": [
+    "ἀφοριστικῶς (σ+τ лигатурой) — предложение агента",
+    "ἀφορισικῶς"
+   ],
+   "type": "greek"
+  },
+  {
+   "frame": 9,
+   "page": "3",
+   "location": "строка 11, слово 1",
+   "as_read": "gmmentum (ar-/gmmentum)",
+   "candidates": [
+    "argumentum — исправление опечатки"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 9,
+   "page": "3",
+   "location": "строка 5, слово 2",
+   "as_read": "iuriſcẽſultiſsimi",
+   "candidates": [
+    "iurisconsultissimi — исправление",
+    "как напечатано"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 9,
+   "page": "3",
+   "location": "строка 21, слово 1",
+   "as_read": "co conſiderantium",
+   "candidates": [
+    "loco considerantium (выпадение «lo»)",
+    "co (как напечатано)"
+   ],
+   "type": "typo",
+   "note": "сомнение в самом печатном тексте: «collocata / co conſiderantium»"
+  },
+  {
+   "frame": 9,
+   "page": "3",
+   "location": "строка 3, «Iuriſcõ-»",
+   "as_read": "Iuriſcõ-",
+   "candidates": [
+    "õ (тильда)",
+    "ō (макрон)"
+   ],
+   "type": "abbreviation",
+   "note": "знак над o похож на макрон с крючком; раскрытие одинаково (n)"
+  },
+  {
+   "frame": 10,
+   "page": "4",
+   "location": "строка 13, слово 2",
+   "as_read": "aut[?]",
+   "candidates": [
+    "aut — предложение агента",
+    "ant (опечатка/n вместо u)"
+   ],
+   "type": "illegible"
+  },
+  {
+   "frame": 10,
+   "page": "4",
+   "location": "строка 22, «hęc»",
+   "as_read": "hęc[?]",
+   "candidates": [
+    "hęc",
+    "hec"
+   ],
+   "type": "illegible",
+   "note": "хвостик под e слабо виден"
+  },
+  {
+   "frame": 10,
+   "page": "4",
+   "location": "строка 24, «em̄»",
+   "as_read": "em̄",
+   "candidates": [
+    "enim (раскрытие сокращения) — предложение агента"
+   ],
+   "type": "abbreviation",
+   "note": "черта над m, а не над гласной; в слое чтения оставлено как напечатано"
+  },
+  {
+   "frame": 10,
+   "page": "4",
+   "location": "строка 26, «qđ»",
+   "as_read": "qđ",
+   "candidates": [
+    "quod (раскрытие сокращения) — предложение агента"
+   ],
+   "type": "abbreviation"
+  },
+  {
+   "frame": 11,
+   "page": "5",
+   "location": "последняя строка, первое греческое слово",
+   "as_read": "κτ[?]",
+   "candidates": [
+    "κατὰ (лигатура-сокращение) — предложение агента"
+   ],
+   "type": "greek"
+  },
+  {
+   "frame": 12,
+   "page": "6",
+   "location": "заголовок, строка 2, «ALCIATI»",
+   "as_read": "AL[?]CIATI",
+   "candidates": [
+    "ALCIATI — предложение агента",
+    "AI.CIATI"
+   ],
+   "type": "illegible",
+   "note": "курсивная L ≈ «I.»"
+  },
+  {
+   "frame": 12,
+   "page": "6",
+   "location": "стих 1, слово 6",
+   "as_read": "teſſerat[?]",
+   "candidates": [
+    "teſſera (лишняя/сдвинутая t?)",
+    "teſſerat (как видно)"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 12,
+   "page": "6",
+   "location": "стих 7, слово 1",
+   "as_read": "At[?]",
+   "candidates": [
+    "At — предложение агента"
+   ],
+   "type": "damage/stain",
+   "note": "между A и tibi пятно/точки, t едва видна"
+  },
+  {
+   "frame": 12,
+   "page": "6",
+   "location": "стих 7, слово 4",
+   "as_read": "u[?]omiſmata",
+   "candidates": [
+    "nomiſmata (n плохо пропечатана) — предложение агента",
+    "uomiſmata"
+   ],
+   "type": "damage/stain"
+  },
+  {
+   "frame": 12,
+   "page": "6",
+   "location": "стих 8, последнее слово",
+   "as_read": "m[?]anus.",
+   "candidates": [
+    "manus — предложение агента",
+    "uanus"
+   ],
+   "type": "damage/stain",
+   "note": "первая литера повреждена"
+  },
+  {
+   "frame": 12,
+   "page": "6",
+   "location": "стих 10, «æmoris»",
+   "as_read": "æmoris",
+   "candidates": [
+    "amoris — исправление",
+    "æmoris (как напечатано)"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 14,
+   "page": "8",
+   "location": "эпиграмма, строка 1, первая буква",
+   "as_read": "B[?]ituricis",
+   "candidates": [
+    "Bituricis — предложение агента",
+    "Eituricis"
+   ],
+   "type": "damage/stain",
+   "note": "курсивная B плохо пропечатана, похожа на E"
+  },
+  {
+   "frame": 15,
+   "page": "9",
+   "location": "надпись на ленте, конец (на завитке)",
+   "as_read": "ΜΕ | ΝΟΣ[?]",
+   "candidates": [
+    "ΜΕΝΟΣ (вместе с ΑΝΑΒΑΛΛΟ → ΑΝΑΒΑΛΛΟΜΕΝΟΣ)"
+   ],
+   "type": "greek",
+   "note": "буквы на завитке ленты частично перевёрнуты/срезаны"
+  },
+  {
+   "frame": 15,
+   "page": "9",
+   "location": "эпиграмма, строка 2, «μηδ᾽ἐν»",
+   "as_read": "μηδ᾽ἐν",
+   "candidates": [
+    "μηδ᾽ ἐν",
+    "μηδὲν"
+   ],
+   "type": "greek",
+   "note": "апостроф/придыхание между δ и ἐν"
+  },
+  {
+   "frame": 15,
+   "page": "9",
+   "location": "эпиграмма, строка 7, «ocyor»",
+   "as_read": "ocyor",
+   "candidates": [
+    "ocyor"
+   ],
+   "type": "illegible",
+   "note": "y плохо пропечатана, похожа на запятую с j"
+  },
+  {
+   "frame": 17,
+   "page": "11",
+   "location": "эпиграмма, строка 6, «initium»",
+   "as_read": "initiu[?]m",
+   "candidates": [
+    "initium — предложение агента",
+    "initinm (перевёрнутая u)"
+   ],
+   "type": "illegible"
+  },
+  {
+   "frame": 18,
+   "page": "12",
+   "location": "эпиграмма, строка 5, знак после «gentes»",
+   "as_read": "gentes,[?]",
+   "candidates": [
+    ",",
+    "."
+   ],
+   "type": "illegible"
+  },
+  {
+   "frame": 23,
+   "page": "17",
+   "location": "эпиграмма, строка 3, слово 3",
+   "as_read": "labias",
+   "candidates": [
+    "labias (как напечатано)",
+    "labia — возможная опечатка"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 26,
+   "page": "20",
+   "location": "девиз, строка 1, последнее слово",
+   "as_read": "Chimæra[?]n",
+   "candidates": [
+    "Chimæran"
+   ],
+   "type": "damaged"
+  },
+  {
+   "frame": 26,
+   "page": "20",
+   "location": "эпиграмма, строка 1, первое слово",
+   "as_read": "Bellerophron",
+   "candidates": [
+    "Bellerophron (как напечатано)",
+    "Bellerophon"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 27,
+   "page": "21",
+   "location": "эпиграмма, строка 1, последнее слово",
+   "as_read": "ëoi[?]",
+   "candidates": [
+    "ëoi",
+    "eoi с иным надстрочным знаком (диерезис + штрих)"
+   ],
+   "type": "unclear_diacritic"
+  },
+  {
+   "frame": 27,
+   "page": "21",
+   "location": "эпиграмма, строка 4, после «peluis»",
+   "as_read": "![?]",
+   "candidates": [
+    "!",
+    ":",
+    ";"
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 28,
+   "page": "22",
+   "location": "девиз, строка 1, греческое «ἀπιστεῖν»",
+   "as_read": "ἀπιστεῖν (στ дано лигатурой, похожей на ς/s)",
+   "candidates": [
+    "ἀπιστεῖν",
+    "ἀπιςεῖν (лигатура как напечатана)"
+   ],
+   "type": "ligature"
+  },
+  {
+   "frame": 28,
+   "page": "22",
+   "location": "девиз, строка 1, акценты/придыхания в «Νῆφε», «ἄρθρα»",
+   "as_read": "Νῆφε, ἄρθρα",
+   "candidates": [
+    "знаки надстрочные мелкие, возможны иные акценты"
+   ],
+   "type": "unclear_diacritic"
+  },
+  {
+   "frame": 28,
+   "page": "22",
+   "location": "эпиграмма, строка 1",
+   "as_read": "ait )non",
+   "candidates": [
+    "пробел перед «)» как напечатано"
+   ],
+   "type": "spacing"
+  },
+  {
+   "frame": 29,
+   "page": "23",
+   "location": "девиз, строка 1, 4-е слово",
+   "as_read": "ἢ[?]",
+   "candidates": [
+    "ἢ",
+    "ῥ'",
+    "δ' (ожидаемое по смыслу)"
+   ],
+   "type": "unclear_greek"
+  },
+  {
+   "frame": 29,
+   "page": "23",
+   "location": "девиз, строка 1, 5-е слово",
+   "as_read": "ἐρξέα[?]",
+   "candidates": [
+    "ἐρξέα (как напечатано)",
+    "ἔρεξα"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 29,
+   "page": "23",
+   "location": "девиз, строка 2",
+   "as_read": "exceſsi[?]",
+   "candidates": [
+    "exceſsi"
+   ],
+   "type": "damaged"
+  },
+  {
+   "frame": 29,
+   "page": "23",
+   "location": "эпиграмма, строка 3",
+   "as_read": "qđ",
+   "candidates": [
+    "quod"
+   ],
+   "type": "abbreviation"
+  },
+  {
+   "frame": 29,
+   "page": "23",
+   "location": "эпиграмма, строка 3",
+   "as_read": "prętergreſſus",
+   "candidates": [
+    "prętergreſſus",
+    "pręter greſſus (с пробелом)"
+   ],
+   "type": "spacing"
+  },
+  {
+   "frame": 30,
+   "page": "24",
+   "location": "эпиграмма, строка 2",
+   "as_read": "antè )vides",
+   "candidates": [
+    "пробел перед «)» как напечатано"
+   ],
+   "type": "spacing"
+  }
+ ]
+}

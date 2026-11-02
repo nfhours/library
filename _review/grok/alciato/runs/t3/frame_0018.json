@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 18,
+ "source": "scan/frame_0018.jpg",
+ "page": "12",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "DEVS, SIVE RELIGIO.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ficta religio."
+    ],
+    "reading": "Ficta religio."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Нарядная женщина в короне (диадеме) сидит верхом на многоголовом чудовище и поднимает в правой руке кубок; перед ней коленопреклонённые мужчины в длинных одеждах, протягивающие к ней руки; на переднем плане лежит на земле распростёртая фигура; облака, холмы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Regali reſidens meretrix pulcherrima ſella,",
+     "Purpureo inſignem geſtat honore peplum.",
+     "Omnibus & latices pleno è cratére propinat.",
+     "At circum cubitans ebria turba iacet.",
+     "Sic Babylona notant:quæ gentes,[?]illice forma,",
+     "Et ficta ſtolidas relligione capit."
+    ],
+    "reading": [
+     "Regali residens meretrix pulcherrima sella,",
+     "Purpureo insignem gestat honore peplum.",
+     "Omnibus & latices pleno è cratére propinat.",
+     "At circum cubitans ebria turba iacet.",
+     "Sic Babylona notant: quæ gentes, [?]illice forma,",
+     "Et ficta stolidas relligione capit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «DEVS, SIVE RELIGIO.», номер «12» слева. Сигнатуры нет."
+}

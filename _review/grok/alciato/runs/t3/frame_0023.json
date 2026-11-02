@@ -1,0 +1,46 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 23,
+ "source": "scan/frame_0023.jpg",
+ "page": "17",
+ "signature": "B",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FIDES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In ſilentium."
+    ],
+    "reading": "In silentium."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Учёный в шапке и длинной мантии сидит за столиком, покрытым тканью, и читает/держит раскрытую книгу; позади полки с книгами, на полу сундук; справа арочный проём, пол выложен плитками.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Cùm tacet:haud quicquã differt ſapiẽtibus amẽs.",
+     "Stultitiæ eſt index linguaq;,voxq; ſuæ.",
+     "Ergo premat labias:digitoq; ſilentia ſignet:",
+     "Et ſeſe Pharium vertat in Harpocratem."
+    ],
+    "reading": [
+     "Cùm tacet: haud quicquam differt sapientibus amens.",
+     "Stultitiæ est index linguaque, voxque suæ.",
+     "Ergo premat labias: digitoque silentia signet:",
+     "Et sese Pharium vertat in Harpocratem."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «FIDES.», номер «17» справа; сигнатура «B» внизу справа."
+}

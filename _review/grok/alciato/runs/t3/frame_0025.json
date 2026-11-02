@@ -1,0 +1,51 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 25,
+ "source": "scan/frame_0025.jpg",
+ "page": "19",
+ "signature": "B 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FIDES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Nec quæſtioni quidem",
+     "cedendum."
+    ],
+    "reading": "Nec quæstioni quidem cedendum."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Львица (без языка) стоит в профиль влево на фоне пейзажа: слева руины с арками, в центре голое дерево, справа вдали постройки/город на холме.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Cecropia effictam quam cernis in arce Leænam,",
+     "Hermodij(an neſcis hoſpes?)amica fuit.",
+     "Sic animum placuit monſtrare viraginis acrem",
+     "More feræ,nomen vel quia tale tulit.",
+     "Quòd fidibus contorta,ſuo non prodidit vllum",
+     "Indicio,elinguem reddidit Iphicrates."
+    ],
+    "reading": [
+     "Cecropia effictam quam cernis in arce Leænam,",
+     "Hermodii(an nescis hospes?)amica fuit.",
+     "Sic animum placuit monstrare viraginis acrem",
+     "More feræ, nomen vel quia tale tulit.",
+     "Quòd fidibus contorta, suo non prodidit ullum",
+     "Indicio, elinguem reddidit Iphicrates."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «FIDES.», номер «19» справа; сигнатура «B 2»."
+}
