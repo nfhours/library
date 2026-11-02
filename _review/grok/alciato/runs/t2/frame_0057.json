@@ -1,0 +1,62 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 57,
+ "source": "scan/frame_0057.jpg",
+ "page": "51",
+ "signature": "D 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SPES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In ſimulachrum Spei."
+    ],
+    "reading": "In simulachrum Spei."
+   },
+   "subheading": {
+    "diplomatic": "DIALOGISMVS.",
+    "reading": "DIALOGISMUS."
+   },
+   "engraving": {
+    "position": "между девизом/подзаголовком и эпиграммой",
+    "description": "Надежда (женщина) сидит на бочке/сосуде; рядом стоит бородатый мужчина, держащий чашу/блюдо над головой; позади ещё фигуры (Немезида?), птица; архитектурная арка; на земле разбитые предметы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quæ Dea tam læto ſuſpectans ſydera vultu?",
+     "Cuius peniculis reddita imago[?] fuit?",
+     "Elpidij fecêre manus.Ego nominor illa,",
+     "Quæ miſeris prõptã Spes bona præſtat opem.",
+     "Cur viridis tibi palla? Quòd om̃ia me duce vernẽt.",
+     "Quid manibus mortis tela refracta geris?"
+    ],
+    "reading": [
+     "Quæ Dea tam læto suspectans sydera vultu?",
+     "Cuius peniculis reddita imago[?] fuit?",
+     "Elpidii fecêre manus.Ego nominor illa,",
+     "Quæ miseris promptam Spes bona præstat opem.",
+     "Cur viridis tibi palla? Quòd omnia me duce vernent.",
+     "Quid manibus mortis tela refracta geris?"
+    ]
+   },
+   "continues_on_next_page": true,
+   "notes": "Курсив; чётные строки с отступом. «ſuſpectans», «refracta» — лигатура ct. «manus.Ego» — без пробела после точки, как напечатано. Диалог продолжается на кадре 0058."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над девизом",
+   "description": "Верхний фриз рамы: ленточный картуш с маскароном в центре и гермами по краям."
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы: маскарон с драконами, по сторонам панели с лежащими фигурами/рыбами."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0057 = с. 51. Номер справа. Подпись «D 2»."
+}

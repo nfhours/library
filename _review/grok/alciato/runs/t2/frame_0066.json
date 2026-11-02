@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 66,
+ "source": "scan/frame_0066.jpg",
+ "page": "60",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PERFIDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In receptatores ſicariorum."
+    ],
+    "reading": "In receptatores sicariorum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Актеон с оленьими рогами на голове, с копьём/палкой, бежит; его собаки набрасываются на него; лес на заднем плане.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Latronum furumq; manus tibi Scæua per vrbem",
+     "It comes:& diris cincta cohors gladijs.",
+     "Atque ita te mentis generoſum prodige cenſes[?],",
+     "Quòd tua complures[?] allicit olla malos.",
+     "En nouus Actæon,qui poſtquàm cornüa[?] ſumpſit,",
+     "In prædam canibus ſe dedit ipſe ſuis."
+    ],
+    "reading": [
+     "Latronum furumque manus tibi Scæva per urbem",
+     "It comes: & diris cincta cohors gladiis.",
+     "Atque ita te mentis generosum prodige censes[?],",
+     "Quòd tua complures[?] allicit olla malos.",
+     "En novus Actæon, qui postquàm cornua[?] sumpsit,",
+     "In prædam canibus se dedit ipse suis."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. «cincta», «Actæon» — лигатура ct. Над «generoſum» справа посторонний штрих (не передан). В «poſtquàm» o повреждена."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над девизом",
+   "description": "Верхний фриз рамы с козлиной маской."
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы с маскароном и драконами."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0066 = с. 60. Номер слева. Подписи нет."
+}

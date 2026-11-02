@@ -1,0 +1,59 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 54,
+ "source": "scan/frame_0054.jpg",
+ "page": "48",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "CONCORDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Vnum nihil,duos pluri-",
+     "mùm poſſe."
+    ],
+    "reading": "Unum nihil, duos plurimùm posse."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Двое: слепой (с повязкой на глазах), несущий на спине хромого/второго человека? — слева фигура в плаще с ношей за спиной, справа воин в шлеме с копьём и щитом указывает рукой; пейзаж.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Laërtæ genitum,genitum quoque Tydeos vnà,",
+     "Hac cera expreſsit Zenalis[?] apta manus.",
+     "Viribus hic præſtat,hic pollet acumine mentis,",
+     "Nec tamen alterius non eget alter ope.",
+     "Cùm duo coniuncti veniunt,victoria certa eſt.",
+     "Solùm mens hominem,dextráue deſtituit."
+    ],
+    "reading": [
+     "Laërtæ genitum, genitum quoque Tydeos unà,",
+     "Hac cera expressit Zenalis[?] apta manus.",
+     "Viribus hic præstat, hic pollet acumine mentis,",
+     "Nec tamen alterius non eget alter ope.",
+     "Cùm duo coniuncti veniunt, victoria certa est.",
+     "Solùm mens hominem, dextráve destituit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. «coniuncti», «victoria» — лигатура ct. «expreßit» передано как «expreſsit»."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над девизом",
+   "description": "Верхний фриз рамы с гротескными зверями в листве."
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы с драконами/птицами в листве."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0054 = с. 48. Номер слева. Подписи нет."
+}

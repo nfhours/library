@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 39,
+ "source": "scan/frame_0039.jpg",
+ "page": "33",
+ "signature": "C",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Gramen."
+    ],
+    "reading": "Gramen."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "На постаменте (алтаре) статуи вооружённого мужа (Марса?) с мечом и обнажённой фигуры; слева две фигуры (одна коленопреклонённая); на переднем плане пучок травы с гнездом; холмистый пейзаж.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Gramineam Fabio patres tribuêre corollam,",
+     "Fregerat vt Pœnos Hannibalemq; mora.",
+     "Occulit inflexo nidum ſibi gramine alauda,",
+     "Vulgò aiunt,pullos ſic fouet illa ſuos.",
+     "Saturno Martiq; ſacrum,quo Glaucus adeſo",
+     "Polybides,factus creditur eſſe Deus.",
+     "His meritò arguitur nodis tutela,ſaluſq;:",
+     "Herbaq; tot viret hæc digitalis habet."
+    ],
+    "reading": [
+     "Gramineam Fabio patres tribuêre corollam,",
+     "Fregerat ut Pœnos Hannibalemque mora.",
+     "Occulit inflexo nidum sibi gramine alauda,",
+     "Vulgò aiunt, pullos sic fovet illa suos.",
+     "Saturno Martique sacrum, quo Glaucus adeso",
+     "Polybides, factus creditur esse Deus.",
+     "His meritò arguitur nodis tutela, salusque:",
+     "Herbaque tot viret hæc digitalis habet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Знак над o в «meritò» частично повреждён."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы: маскарон с лентами и завитками."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0039 = с. 33. Номер справа."
+}

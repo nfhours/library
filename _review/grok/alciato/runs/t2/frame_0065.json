@@ -1,0 +1,57 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 65,
+ "source": "scan/frame_0065.jpg",
+ "page": "59",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PERFIDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Maledicentia."
+    ],
+    "reading": "Maledicentia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Гробница Архилоха с табличкой-картушем; над ней роятся осы; по сторонам гробницы фигуры (путто/сатир); на переднем плане земля.",
+    "inscriptions": [
+     "ARCHILOCHI",
+     "M"
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Archilochi tumulo inſculptas de marmore veſpas",
+     "Eſſe ferunt,linguæ certa ſigilla malæ."
+    ],
+    "reading": [
+     "Archilochi tumulo insculptas de marmore vespas",
+     "Esse ferunt, linguæ certa sigilla malæ."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; вторая строка с отступом. Двустишие. На табличке после ARCHILOCHI — орнаментальный завиток; ниже на малой табличке «M»."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над девизом",
+   "description": "Верхний фриз рамы с козлиной маской и волютами."
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Картуш-заставка с сатировыми масками и сценой с всадниками (как на кадре 0058)."
+  },
+  {
+   "position": "внизу",
+   "description": "Нижний фриз рамы: маскарон с драконами."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0065 = с. 59. Номер справа. Подписи нет."
+}

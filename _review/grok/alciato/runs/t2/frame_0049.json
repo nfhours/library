@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 49,
+ "source": "scan/frame_0049.jpg",
+ "page": "43",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTITVDO.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Obdurandum aduerſus",
+     "vrgentia."
+    ],
+    "reading": "Obdurandum aduersus urgentia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Мальчик (путто) повис, ухватившись руками за верхушку пальмы, которая гнётся (клонится) под его весом; пейзаж с городом на холме, река, птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Nititur in pondus.[?]palma,& conſurgit in arcum,",
+     "Quò magis & premitnr,hoc mage tollit onus:",
+     "Fert & odoratas bellaria dulcia glandes,",
+     "Queîs[?] menſas inter primus habetur honos.",
+     "I puer,& reptans ramis has collige,mentis",
+     "Qui conſtantis erit,præmia digna feret."
+    ],
+    "reading": [
+     "Nititur in pondus.[?] palma, & consurgit in arcum,",
+     "Quò magis & premitnr, hoc mage tollit onus:",
+     "Fert & odoratas bellaria dulcia glandes,",
+     "Queîs[?] mensas inter primus habetur honos.",
+     "I puer, & reptans ramis has collige, mentis",
+     "Qui constantis erit, præmia digna feret."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы: центральная розетка-плетёнка между гротескными фигурами."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0049 = с. 43. Номер справа."
+}

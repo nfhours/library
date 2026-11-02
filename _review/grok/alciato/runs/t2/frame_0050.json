@@ -1,0 +1,60 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 50,
+ "source": "scan/frame_0050.jpg",
+ "page": "44",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTITVDO.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Onnia mea mecum porto."
+    ],
+    "reading": "Onnia mea mecum porto."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Гунн (скиф), закутанный в меха, идёт по берегу, склонившись под ветром у скалы; дерево гнётся от ветра; справа море с кораблями.",
+    "inscriptions": [
+     "SCYTHICVM MARE."
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Hunnus inops Scythiciq; miſerrimus accola ponti,",
+     "Vſtus perpetuo liuida membra gelu.",
+     "Qui Cereris non nouit opes,nec dona L[?]yæi,",
+     "Et pretioſa tamen ſtragula ſemper habet:",
+     "Nam murinæ illum perſtringunt vndiq; pelles.",
+     "Lumina ſola patent,cætera opertus agit.",
+     "Sic furẽ haud metuit,ſic vẽtos temnit & himbres,",
+     "Tutus apudq; viros,tutus apudq; deos."
+    ],
+    "reading": [
+     "Hunnus inops Scythicique miserrimus accola ponti,",
+     "Ustus perpetuo livida membra gelu.",
+     "Qui Cereris non novit opes, nec dona L[?]yæi,",
+     "Et pretiosa tamen stragula semper habet:",
+     "Nam murinæ illum perstringunt undique pelles.",
+     "Lumina sola patent, cætera opertus agit.",
+     "Sic furem haud metuit, sic ventos temnit & himbres,",
+     "Tutus apudque viros, tutus apudque deos."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы: центральная розетка-плетёнка между гротескными фигурами."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0050 = с. 44. Номер слева."
+}

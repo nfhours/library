@@ -1,0 +1,51 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 40,
+ "source": "scan/frame_0040.jpg",
+ "page": "34",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "IVSTITIA.",
+ "rubric": "IVSTITIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Nec verbo,nec facto quen-",
+     "quam lædendum."
+    ],
+    "reading": "Nec verbo, nec facto quenquam lædendum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Немезида в развевающихся одеждах с покрывалом над головой шагает по пейзажу; в одной руке держит узду, в другой — мерный локоть (жезл); у ног поверженная фигура/животное; вдали вода, город.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aſſequitur,Nemeſiſq; virûm veſtigia ſeruat,",
+     "Continet & cubitum,duraq; fræna manu.",
+     "Nè malè qđ facias:neue improba verba loquaris:",
+     "Et iubet in cunctis rebus adeſſe modum."
+    ],
+    "reading": [
+     "Assequitur, Nemesisque virûm vestigia servat,",
+     "Continet & cubitum, duraque fræna manu.",
+     "Nè malè qđ facias: neve improba verba loquaris:",
+     "Et iubet in cunctis rebus adesse modum."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. «qđ» — q + d с поперечной чертой (не раскрыто)."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы: маскарон с лентами и завитками."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0040 = с. 34. Номер слева. Рубрика IVSTITIA. курсивными капителями над девизом."
+}

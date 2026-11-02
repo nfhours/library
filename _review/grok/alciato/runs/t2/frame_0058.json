@@ -1,0 +1,67 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 58,
+ "source": "scan/frame_0058.jpg",
+ "page": "52",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem_continuation",
+ "running_head": "SPES.[?]",
+ "rubric": null,
+ "continuation_of": "frame_0057",
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": null,
+   "epigram": {
+    "diplomatic": [
+     "Quòd viuos ſperare decet,præcido ſepultis.",
+     "Cur in dolioli tegmine pigra ſedes?",
+     "Sola domi manſi volitantibus vndique noxis,",
+     "Aſcræi vt docuit muſa verenda ſenis.",
+     "Quæ tibi adeſt volucris? Cornix fidiſsimus oſcen,",
+     "Eſt bene cùm nequeat dicere:dicit,Erit.",
+     "Qui comites? Bonus euentus,præcepsq; Cupido,",
+     "Qui præeunt? Vigilum ſomnia vana vocant.",
+     "Quæ tibi iũcta aſtat? Scelerũ Rhamnuſia vindex,",
+     "Scilicet vt ſperes nil niſi quod liceat."
+    ],
+    "reading": [
+     "Quòd vivos sperare decet, præcido sepultis.",
+     "Cur in dolioli tegmine pigra sedes?",
+     "Sola domi mansi volitantibus undique noxis,",
+     "Ascræi ut docuit musa verenda senis.",
+     "Quæ tibi adest volucris? Cornix fidissimus oscen,",
+     "Est bene cùm nequeat dicere: dicit, Erit.",
+     "Qui comites? Bonus eventus, præcepsque Cupido,",
+     "Qui præeunt? Vigilum somnia vana vocant.",
+     "Quæ tibi iuncta astat? Scelerum Rhamnusia vindex,",
+     "Scilicet ut speres nil nisi quod liceat."
+    ]
+   },
+   "continues_on_next_page": false,
+   "continuation_of": "frame_0057",
+   "notes": "Курсив; чётные строки с отступом. Окончание диалога с кадра 0057. «iũcta» — лигатура ct."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над текстом",
+   "description": "Верхний фриз рамы: ленточный картуш с маскароном и гермами (как на кадре 0057)."
+  },
+  {
+   "position": "под текстом, в центре страницы",
+   "description": "Отдельный картуш-заставка: козлиные/сатировы маски по бокам, в центре сцена с всадниками и фигурой; внизу маскарон."
+  },
+  {
+   "position": "по сторонам",
+   "description": "Рама с гермами-кариатидами на постаментах."
+  },
+  {
+   "position": "внизу",
+   "description": "Нижний фриз рамы: маскарон с драконами, панели с лежащими фигурами."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0058 = с. 52. Номер слева. Подписи нет."
+}

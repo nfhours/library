@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 51,
+ "source": "scan/frame_0051.jpg",
+ "page": "45",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "CONCORDIA.",
+ "rubric": "CONCORDIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Concordiæ Symbolum."
+    ],
+    "reading": "Concordiæ Symbolum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Птицы (вороны) сидят на скипетре, стоящем на постаменте/саркофаге среди архитектурной колоннады; ещё вороны летают вверху.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Cornicum mira inter ſe concordia vitæ eſt,",
+     "Nutua ſtatq; illis intemerata fides.",
+     "Hinc volucres hæc ſceptra gerũt:ꝙ ſcilicet omnes",
+     "Conſenſu populi ſtantq;,caduntq; duces:",
+     "Quem ſi de medio tollas,diſcordia præceps",
+     "Aduolat,& ſecum regia fata trahit."
+    ],
+    "reading": [
+     "Cornicum mira inter se concordia vitæ est,",
+     "Nutua statque illis intemerata fides.",
+     "Hinc volucres hæc sceptra gerunt: ꝙ scilicet omnes",
+     "Consensu populi stantque, caduntque duces:",
+     "Quem si de medio tollas, discordia præceps",
+     "Aduolat, & secum regia fata trahit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. «ꝙ» — q с косой чертой через хвост (сокращение quod), отлично от «qđ» на кадрах 0010/0029/0040; не раскрыто. Справа от девиза (вне строки) — тёмная точка, по-видимому пятно/посторонний знак, не транскрибирована."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы с гротескными фигурами."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0051 = с. 45. Номер справа. Подписи нет (лист C7)."
+}

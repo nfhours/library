@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 44,
+ "source": "scan/frame_0044.jpg",
+ "page": "38",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "IVSTITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Abſtinentia."
+    ],
+    "reading": "Abstinentia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Мраморная гробница (саркофаг); на её крышке с одной стороны таз (умывальная чаша) на обломке колонны, с другой — кувшин; облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Marmoreæ in tumulis vna ſtat parte columnæ",
+     "Vrceus,ex alia cernere malluuium eſt.",
+     "Ius hæc forma monet dictum ſine ſordibus eſſe,",
+     "Defunctum puras atque habuiſſe manus."
+    ],
+    "reading": [
+     "Marmoreæ in tumulis una stat parte columnæ",
+     "Urceus, ex alia cernere malluvium est.",
+     "Ius hæc forma monet dictum sine sordibus esse,",
+     "Defunctum puras atque habuisse manus."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы: маскарон с лентами между грифонами; монограмма «PV»."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0044 = с. 38. Номер слева."
+}

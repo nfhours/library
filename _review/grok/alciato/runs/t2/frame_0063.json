@@ -1,0 +1,66 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 63,
+ "source": "scan/frame_0063.jpg",
+ "page": "57",
+ "signature": "D 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PERFIDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In fraudulentos."
+    ],
+    "reading": "In fraudulentos."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Крупная пятнистая ящерица (стеллион) на переднем плане у дерева; позади двое людей с палками/копьями; вдали город на холме.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Parua lacerta,atris ſtellatus corpora guttis",
+     "Stellio,qui latêbras,& caua buſta colit,",
+     "Inuidiæ,prauiq; doli fert ſymbola pictus.",
+     "Heu nimiùm nuribus cognita zelotypis.",
+     "Nam turpi obtegitur faciem lentigine quiſquis,",
+     "Sit quibus immerſus Stellio,vina bibat.",
+     "Hinc vindicta frequens decepta pellice vino,",
+     "Quam formæ amiſſo flore relinquit amans."
+    ],
+    "reading": [
+     "Parva lacerta, atris stellatus corpora guttis",
+     "Stellio, qui latêbras, & cava busta colit,",
+     "Invidiæ, pravique doli fert symbola pictus.",
+     "Heu nimiùm nuribus cognita zelotypis.",
+     "Nam turpi obtegitur faciem lentigine quisquis,",
+     "Sit quibus immersus Stellio, vina bibat.",
+     "Hinc vindicta frequens decepta pellice vino,",
+     "Quam formæ amisso flore relinquit amans."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. «pictus», «vindicta» — лигатура ct. Под c в «colit» и над ſ в «ſtellatus» — следы соседних литер/посторонние знаки, не переданы."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над девизом",
+   "description": "Верхний фриз: листва/гирлянда."
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз: пейзаж с городом и скалами."
+  },
+  {
+   "position": "по бокам",
+   "description": "Стволы деревьев."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0063 = с. 57. Номер справа. Подпись «D 5»."
+}

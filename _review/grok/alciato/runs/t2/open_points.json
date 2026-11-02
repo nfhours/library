@@ -457,5 +457,510 @@
   "resolver": "zoom",
   "frame": 35,
   "page": "29"
+ },
+ {
+  "location": "эпиграмма, строка 3, «nõ»",
+  "as_read": "nõ",
+  "candidates": [
+   "non (принято в слое чтения)",
+   "nom — механически по правилу «конец слова → m»"
+  ],
+  "type": "policy",
+  "resolver": "user",
+  "frame": 38,
+  "page": "32"
+ },
+ {
+  "location": "колонтитул",
+  "as_read": "PRVDBNTIA.",
+  "candidates": [
+   "PRVDENTIA. — B вместо E (опечатка/повреждённая литера)",
+   "как напечатано"
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 38,
+  "page": "32"
+ },
+ {
+  "location": "эпиграмма, строка 6, «inſanus»",
+  "as_read": "inſanus",
+  "candidates": [
+   "inſanus",
+   "infanus — f/ſ неразличимы при данном разрешении"
+  ],
+  "type": "glyph",
+  "resolver": "zoom",
+  "frame": 38,
+  "page": "32"
+ },
+ {
+  "location": "эпиграмма, строка 8, «tot»",
+  "as_read": "tot",
+  "candidates": [
+   "tot — как напечатано (смысл: quot?)"
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 39,
+  "page": "33"
+ },
+ {
+  "location": "эпиграмма, строка 3, «qđ»",
+  "as_read": "qđ",
+  "candidates": [
+   "quod — раскрыть в слое чтения?",
+   "как напечатано"
+  ],
+  "type": "abbreviation",
+  "resolver": "user",
+  "frame": 40,
+  "page": "34"
+ },
+ {
+  "location": "эпиграмма, строка 3, «neue»",
+  "as_read": "neue",
+  "candidates": [
+   "neue",
+   "néue — над e возможен акут"
+  ],
+  "type": "diacritic",
+  "resolver": "zoom",
+  "frame": 40,
+  "page": "34"
+ },
+ {
+  "location": "эпиграмма, строка 6, «ſepulchra»",
+  "as_read": "ſepulchra",
+  "candidates": [
+   "ſepulchra",
+   "ſepnlchra — вторая литера похожа на n"
+  ],
+  "type": "glyph",
+  "resolver": "zoom",
+  "frame": 41,
+  "page": "35"
+ },
+ {
+  "location": "эпиграмма, строка 7, «Vicisti»",
+  "as_read": "Vicisti",
+  "candidates": [
+   "Viciſti — лигатура ſt",
+   "Vicisti"
+  ],
+  "type": "glyph",
+  "resolver": "zoom",
+  "frame": 41,
+  "page": "35"
+ },
+ {
+  "location": "девиз, «ferocisſimos»",
+  "as_read": "ferocisſimos[?]",
+  "candidates": [
+   "ferociſsimos — порядок s/ſ как набрано: круглая s, затем длинная ſ",
+   "после слова лишний знак (ſ / l / оттиск шпации)"
+  ],
+  "type": "glyph",
+  "resolver": "zoom",
+  "frame": 42,
+  "page": "36"
+ },
+ {
+  "location": "эпиграмма, строка 3, слово 1",
+  "as_read": "Ius",
+  "candidates": [
+   "Ius",
+   "Iis"
+  ],
+  "type": "glyph",
+  "resolver": "zoom",
+  "frame": 44,
+  "page": "38"
+ },
+ {
+  "location": "эпиграмма, строка 7, «quæſitor»",
+  "as_read": "quæſitor",
+  "candidates": [
+   "quæſitor (t слабо пропечатано)",
+   "quæſiror"
+  ],
+  "type": "glyph",
+  "resolver": "zoom",
+  "frame": 45,
+  "page": "39"
+ },
+ {
+  "location": "эпиграмма, строка 8, «Calais»",
+  "as_read": "Calais",
+  "candidates": [
+   "Calais",
+   "Calàis / Calaïs — над вторым a возможен знак"
+  ],
+  "type": "diacritic",
+  "resolver": "zoom",
+  "frame": 45,
+  "page": "39"
+ },
+ {
+  "location": "эпиграмма, строка 1, знак после «pondus»",
+  "as_read": ".",
+  "candidates": [
+   ". (точка, как видно)",
+   "повреждённая запятая",
+   "пятно"
+  ],
+  "type": "punctuation",
+  "resolver": "zoom",
+  "frame": 49,
+  "page": "43"
+ },
+ {
+  "location": "эпиграмма, строка 2, «premitnr»",
+  "as_read": "premitnr",
+  "candidates": [
+   "premitur — n вместо u (перевёрнутая литера)",
+   "как напечатано"
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 49,
+  "page": "43"
+ },
+ {
+  "location": "эпиграмма, строка 4, слово 1",
+  "as_read": "Queîs",
+  "candidates": [
+   "Queîs (циркумфлекс над i)",
+   "Quẽis (тильда над e)",
+   "знак над «ei» общий"
+  ],
+  "type": "diacritic",
+  "resolver": "zoom",
+  "frame": 49,
+  "page": "43"
+ },
+ {
+  "location": "девиз, слово 1",
+  "as_read": "Onnia",
+  "candidates": [
+   "Omnia — опечатка (n вместо m)",
+   "как напечатано"
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 50,
+  "page": "44"
+ },
+ {
+  "location": "эпиграмма, строка 3, последнее слово",
+  "as_read": "L[?]yæi",
+  "candidates": [
+   "Lyæi — курсивная L, похожая на I",
+   "Iyæi — как видно"
+  ],
+  "type": "glyph",
+  "resolver": "zoom",
+  "frame": 50,
+  "page": "44"
+ },
+ {
+  "location": "эпиграмма, строка 2, слово 1",
+  "as_read": "Nutua",
+  "candidates": [
+   "Mutua — опечатка (N вместо M)",
+   "как напечатано"
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 51,
+  "page": "45"
+ },
+ {
+  "location": "эпиграмма, строка 3, «ꝙ»",
+  "as_read": "ꝙ",
+  "candidates": [
+   "quod — раскрыть в слое чтения?",
+   "как напечатано"
+  ],
+  "type": "abbreviation",
+  "resolver": "user",
+  "frame": 51,
+  "page": "45"
+ },
+ {
+  "location": "девиз, справа",
+  "as_read": "•",
+  "candidates": [
+   "пятно — не текст",
+   "знак препинания"
+  ],
+  "type": "punctuation",
+  "resolver": "zoom",
+  "frame": 51,
+  "page": "45"
+ },
+ {
+  "location": "эпиграмма, строка 1, слово 2",
+  "as_read": "bellnm",
+  "candidates": [
+   "bellum — n вместо u (перевёрнутая литера)",
+   "как напечатано"
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 52,
+  "page": "46"
+ },
+ {
+  "location": "эпиграмма, строка 1, последнее слово",
+  "as_read": "fratret.",
+  "candidates": [
+   "fratres. — опечатка (t вместо s)",
+   "как напечатано"
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 53,
+  "page": "47"
+ },
+ {
+  "location": "эпиграмма, строка 2, «mutna»",
+  "as_read": "mutna",
+  "candidates": [
+   "mutua — n вместо u (перевёрнутая литера)",
+   "как напечатано"
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 53,
+  "page": "47"
+ },
+ {
+  "location": "эпиграмма, строка 2, «Zenalis»",
+  "as_read": "Zenalis[?]",
+  "candidates": [
+   "Zenalis — как видно (третья литера похожа на n, повреждена)",
+   "Zeualis",
+   "иное имя художника"
+  ],
+  "type": "glyph",
+  "resolver": "zoom",
+  "frame": 54,
+  "page": "48"
+ },
+ {
+  "location": "описание гравюры",
+  "as_read": "—",
+  "candidates": [
+   "фигура слева — Улисс в плаще, справа — Диомед в доспехах"
+  ],
+  "type": "other",
+  "resolver": "user",
+  "frame": 54,
+  "page": "48"
+ },
+ {
+  "location": "эпиграмма, строка 4, «Charlus»",
+  "as_read": "Charlus",
+  "candidates": [
+   "Charlus — как напечатано",
+   "Carolus — ожидаемая форма?"
+  ],
+  "type": "typo",
+  "resolver": "user",
+  "frame": 55,
+  "page": "49"
+ },
+ {
+  "location": "эпиграмма, строка 1, «reſpub.»",
+  "as_read": "reſpub.",
+  "candidates": [
+   "respub. — сокращение оставить",
+   "respublica — раскрыть в слое чтения?"
+  ],
+  "type": "abbreviation",
+  "resolver": "user",
+  "frame": 56,
+  "page": "50"
+ },
+ {
+  "location": "эпиграмма, строка 2, «imago»",
+  "as_read": "imago[?]",
+  "candidates": [
+   "imago — m повреждена",
+   "innago — как видно (опечатка?)"
+  ],
+  "type": "glyph",
+  "resolver": "zoom",
+  "frame": 57,
+  "page": "51"
+ },
+ {
+  "location": "колонтитул, знак после SPES",
+  "as_read": "SPES.[?]",
+  "candidates": [
+   "SPES.",
+   "SPES: (видны две точки)",
+   "SPES; "
+  ],
+  "type": "punctuation",
+  "resolver": "zoom",
+  "frame": 58,
+  "page": "52"
+ },
+ {
+  "location": "строка 1, «præcido»",
+  "as_read": "præcido",
+  "candidates": [
+   "как напечатано",
+   "præcīdo/præcido — без изменения"
+  ],
+  "type": "other",
+  "resolver": "user",
+  "frame": 58,
+  "page": "52"
+ },
+ {
+  "location": "надпись на гравюре",
+  "as_read": "VLTERIVS",
+  "candidates": [
+   "VLTERIVS",
+   "VLTERIV"
+  ],
+  "type": "glyph",
+  "resolver": "zoom",
+  "frame": 59,
+  "page": "53"
+ },
+ {
+  "location": "эпиграмма, строка 1, после «&»",
+  "as_read": "мелкий надстрочный знак (похож на «t» или «ι»)",
+  "candidates": [
+   "посторонний знак/литера, сдвинувшаяся при наборе — не транскрибирован",
+   "запятая"
+  ],
+  "type": "punctuation",
+  "resolver": "zoom",
+  "frame": 60,
+  "page": "54"
+ },
+ {
+  "location": "девиз",
+  "as_read": "—",
+  "candidates": [
+   "заголовок «PVDICITIA.» — rubric, девиза нет",
+   "заголовок «PVDICITIA.» одновременно служит девизом"
+  ],
+  "type": "other",
+  "resolver": "user",
+  "frame": 61,
+  "page": "55"
+ },
+ {
+  "location": "колонтитул, знак в конце",
+  "as_read": "PERFIDIA.[?]",
+  "candidates": [
+   "PERFIDIA.",
+   "PERFIDIA,"
+  ],
+  "type": "punctuation",
+  "resolver": "zoom",
+  "frame": 62,
+  "page": "56"
+ },
+ {
+  "location": "эпиграмма, строка 1, «Aiacis»",
+  "as_read": "Aiacis",
+  "candidates": [
+   "Aiacis — под c след (сломанная литера/седиль?), не передан",
+   "Aiaçis"
+  ],
+  "type": "glyph",
+  "resolver": "zoom",
+  "frame": 62,
+  "page": "56"
+ },
+ {
+  "location": "эпиграмма, строка 1, «lachrymis»",
+  "as_read": "lachrymis",
+  "candidates": [
+   "lachrymis — y сдвинута/повреждена"
+  ],
+  "type": "glyph",
+  "resolver": "zoom",
+  "frame": 62,
+  "page": "56"
+ },
+ {
+  "location": "надпись на гробнице",
+  "as_read": "AIACIS",
+  "candidates": [
+   "AIACIS (частично под штриховкой)"
+  ],
+  "type": "glyph",
+  "resolver": "zoom",
+  "frame": 62,
+  "page": "56"
+ },
+ {
+  "location": "эпиграмма, строка 2, «latêbras»",
+  "as_read": "latêbras",
+  "candidates": [
+   "latêbras — циркумфлекс над e",
+   "latebras — знак посторонний"
+  ],
+  "type": "diacritic",
+  "resolver": "zoom",
+  "frame": 63,
+  "page": "57"
+ },
+ {
+  "location": "эпиграмма, строка 2, «ire  redire»",
+  "as_read": "ire redire (широкий пробел)",
+  "candidates": [
+   "как напечатано — пропуск союза (&/que?)",
+   "просто широкий пробел"
+  ],
+  "type": "other",
+  "resolver": "user",
+  "frame": 64,
+  "page": "58"
+ },
+ {
+  "location": "эпиграмма, строка 3, «cenſes»",
+  "as_read": "ccnſes",
+  "candidates": [
+   "cenſes — e повреждена",
+   "ccnſes — как видно"
+  ],
+  "type": "glyph",
+  "resolver": "zoom",
+  "frame": 66,
+  "page": "60"
+ },
+ {
+  "location": "эпиграмма, строка 4, «complures»",
+  "as_read": "complur?s",
+  "candidates": [
+   "complures — повреждённая e",
+   "compluræs"
+  ],
+  "type": "glyph",
+  "resolver": "zoom",
+  "frame": 66,
+  "page": "60"
+ },
+ {
+  "location": "эпиграмма, строка 5, «cornüa»",
+  "as_read": "cornüa",
+  "candidates": [
+   "cornua — знак над u посторонний",
+   "cornüa — диерезис",
+   "cornũa — тильда"
+  ],
+  "type": "diacritic",
+  "resolver": "zoom",
+  "frame": 66,
+  "page": "60"
  }
 ]

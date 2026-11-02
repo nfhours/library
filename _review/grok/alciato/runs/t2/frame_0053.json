@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 53,
+ "source": "scan/frame_0053.jpg",
+ "page": "47",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "CONCORDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Concordia inſupe-",
+     "rabilis."
+    ],
+    "reading": "Concordia insuperabilis."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Трёхтелый великан Герион (несколько голов/рук) в короне, с копьём и мечом, стоит в пейзаже с холмами.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Tergeminos inter fuerat concordia fratret.",
+     "Tanta ſimul pietas mutna,& vnus amor:",
+     "Inuicti humanis vt viribus ampla tenerent",
+     "Regna,vno dicti nomine Geryonis."
+    ],
+    "reading": [
+     "Tergeminos inter fuerat concordia fratret.",
+     "Tanta simul pietas mutna, & unus amor:",
+     "Invicti humanis ut viribus ampla tenerent",
+     "Regna, uno dicti nomine Geryonis."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. «Inuicti», «dicti» — лигатура ct."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над девизом",
+   "description": "Верхний фриз рамы с листвой и гротесками."
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы с драконами/птицами в листве."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0053 = с. 47. Номер справа. Справа от строки 1 на поле — тёмное пятно (не текст)."
+}

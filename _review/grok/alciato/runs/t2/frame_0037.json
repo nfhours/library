@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 37,
+ "source": "scan/frame_0037.jpg",
+ "page": "31",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In ſtatuam Bacchi."
+    ],
+    "reading": "In statuam Bacchi."
+   },
+   "subheading": {
+    "diplomatic": "DIALOGISMVS.",
+    "reading": "DIALOGISMUS."
+   },
+   "engraving": {
+    "position": "между девизом/подзаголовком и эпиграммой",
+    "description": "Юный Вакх, увенчанный виноградом, сидит обнажённым на земле под виноградной лозой с гроздьями; держит тимпан (бубен) и палочку (или рог); у ног чаша.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Bacche pater:quis te mortali lumine nouit?",
+     "Et docta effinxit quis tua membra manu?",
+     "Praxiteles,qui me rapientem Gnoſida uidit.",
+     "Atque illo pinxit tempore qualis eram.",
+     "Cur iuuenis,teneraq; etiam lanugine vernat",
+     "Barba,queas Pylium cùm ſuperare ſenem?"
+    ],
+    "reading": [
+     "Bacche pater: quis te mortali lumine novit?",
+     "Et docta effinxit quis tua membra manu?",
+     "Praxiteles, qui me rapientem Gnosida vidit.",
+     "Atque illo pinxit tempore qualis eram.",
+     "Cur iuvenis, teneraque etiam lanugine vernat",
+     "Barba, queas Pylium cùm superare senem?"
+    ]
+   },
+   "continues_on_next_page": true,
+   "notes": "Курсив; чётные строки с отступом. «DIALOGISMVS.» — капитель под девизом. Эпиграмма продолжается на кадре 0038 (с. 32). «uidit» набрано с u."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "верх и низ рамы",
+   "description": "Рама страницы: вверху навес/сетка с бахромой, внизу корабль на волнах; по сторонам гротескные фигуры."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0037 = с. 31. Номер справа. Кустод отсутствует."
+}

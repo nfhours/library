@@ -1,0 +1,45 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 61,
+ "source": "scan/frame_0061.jpg",
+ "page": "55",
+ "signature": "D 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PVDICITIA.",
+ "rubric": "PVDICITIA.",
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": {
+    "position": "между заголовком и эпиграммой",
+    "description": "Щит-картуш (гербовый) с изображением птицы (порфирион), увенчанный шлемом с нашлемником-плюмажем; на фоне пейзаж с водой, лодкой, холмами и облаками.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Porphirio domini ſi inceſtet in ædibus vxor,",
+     "Deſpondetq; animum,præq; dolore perit.",
+     "Abdita in arcanis naturæ eſt cauſa.ſit index",
+     "Synceræ hæc volucris certa pudicitiæ."
+    ],
+    "reading": [
+     "Porphirio domini si incestet in ædibus uxor,",
+     "Despondetque animum, præque dolore perit.",
+     "Abdita in arcanis naturæ est causa.sit index",
+     "Synceræ hæc volucris certa pudicitiæ."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Отдельного девиза нет: над гравюрой только заголовок раздела «PVDICITIA.», занесён в rubric. «cauſa.ſit» — без пробела, ſit со строчной."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рама",
+   "description": "Рама: вверху гирлянды плодов с масками, по бокам гирлянды и фигуры-атланты, внизу совы/грифоны по сторонам корзины с плодами и маскарон."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0061 = с. 55. Номер справа. Подпись «D 4»."
+}

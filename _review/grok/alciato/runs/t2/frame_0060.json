@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 60,
+ "source": "scan/frame_0060.jpg",
+ "page": "54",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SPES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Illicitum non ſperandum."
+    ],
+    "reading": "Illicitum non sperandum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Две женские фигуры у алтаря среди руин: слева коленопреклонённая (Немезида?) с уздой/повязкой, справа стоящая Надежда с веткой в руке; на земле опрокинутая бочка/сосуд.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Spes ſimul,& Nemeſis noſtris altaribus adſunt,",
+     "Scilicet vt ſperes non niſi quod liceat."
+    ],
+    "reading": [
+     "Spes simul, & Nemesis nostris altaribus adsunt,",
+     "Scilicet ut speres non nisi quod liceat."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; вторая строка с отступом. Двустишие."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под эпиграммой",
+   "description": "Картуш-заставка с маскароном в центре и подвесками-кистями."
+  },
+  {
+   "position": "рама",
+   "description": "Рама с маскароном вверху, кариатидами и вазами по сторонам, лежащими фигурами внизу."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0060 = с. 54. Номер слева. Подписи нет."
+}

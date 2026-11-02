@@ -1,0 +1,60 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 59,
+ "source": "scan/frame_0059.jpg",
+ "page": "53",
+ "signature": "D 3",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SPES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In dies meliora."
+    ],
+    "reading": "In dies meliora."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Под портиком за столом сидят люди; клиент протягивает господину подарок (свиное рыло?); справа восходящее солнце над холмами; внизу справа свинья, роющая землю, с надписью на боку.",
+    "inscriptions": [
+     "VLTERIVS"
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Roſtra nouo mihi ſetigeri ſuis obtulit anno,",
+     "Hæcq; cliens ventri xenia(dixit)habe.",
+     "Progreditur ſemper,nec retro reſpicit vnquam,",
+     "Gramina cum pando proruit ore vorax.",
+     "Cura viris eadem eſt,ne ſpes ſublapſa retrorſum",
+     "Cedat:& vt melius ſit,quod & vlterius."
+    ],
+    "reading": [
+     "Rostra novo mihi setigeri suis obtulit anno,",
+     "Hæcque cliens ventri xenia(dixit)habe.",
+     "Progreditur semper, nec retro respicit unquam,",
+     "Gramina cum pando proruit ore vorax.",
+     "Cura viris eadem est, ne spes sublapsa retrorsum",
+     "Cedat: & ut melius sit, quod & ulterius."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Надпись на гравюре частично скрыта штриховкой, видно «VLTERI…»."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над девизом",
+   "description": "Верхний фриз рамы с маскароном и волютами."
+  },
+  {
+   "position": "под эпиграммой",
+   "description": "Нижний фриз рамы с двумя лежащими обнажёнными фигурами по сторонам щита."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0059 = с. 53. Номер справа. Подпись «D 3»."
+}

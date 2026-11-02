@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 56,
+ "source": "scan/frame_0056.jpg",
+ "page": "50",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SPES.",
+ "rubric": "SPES.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Spes proxima."
+    ],
+    "reading": "Spes proxima."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Корабль с надутыми парусами среди бурных волн; вверху слева две звезды (Диоскуры), вверху справа дующий ветер.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Innumeris agitur reſpub. uoſtra procellis,",
+     "Et ſpes venturę ſola ſalutis adeſt:",
+     "Non ſecus ac nauis medio circum æquore ,venti",
+     "Quam rapiunt : ſalſis iamq; fatiſcit aquis.",
+     "Quòd ſi Helenę adueniãt lucẽtia ſydera fratres:",
+     "Amiſſos animos ſpes bona reſtituit."
+    ],
+    "reading": [
+     "Innumeris agitur respub. vostra procellis,",
+     "Et spes venturæ sola salutis adest:",
+     "Non secus ac navis medio circum æquore, venti",
+     "Quam rapiunt: salsis iamque fatiscit aquis.",
+     "Quòd si Helenæ adveniant lucentia sydera fratres:",
+     "Amissos animos spes bona restituit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. «uoſtra» — начальная u (напечатано так). Пробел перед запятой в «æquore ,venti» и перед двоеточием в «rapiunt :» — как напечатано. Звёзды на гравюре: «**»."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "над девизом и под эпиграммой",
+   "description": "Фризы рамы с плетёным арабесковым орнаментом и центральным медальоном."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0056 = с. 50. Номер слева."
+}
