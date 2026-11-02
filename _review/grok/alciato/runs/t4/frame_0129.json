@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 129,
+ "source": "scan/frame_0129.jpg",
+ "page": "123",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In ſtatuam Amoris."
+    ],
+    "reading": "In statuam Amoris."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Нагой бескрылый мальчик (статуя Амура) стоит в центре на земле, в левой руке держит за кольцо чёрный щит (или сосуд); позади холмистый пейзаж с городом и мостом/акведуком, рекой, деревьями, облаками, птицами.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quis ſit amor,plures olim cecinêre Poëtæ,",
+     "Eius qui vario nomine geſta ferunt.",
+     "Conuenit hoc,ꝙ veſte caret,quòd corpore paruus.",
+     "Tela,alaſq; ferens,lumina nulla tenet.",
+     "Hæc ora,hic habituſq; Dei eſt.Sed dicere tantos",
+     "Si licet in vates,falſa ſubeſſe reor.",
+     "Eccur nudus agat? diuo quaſi pallia deſint,",
+     "Qui cunctas domiti poſsidet orbis opes."
+    ],
+    "reading": [
+     "Quis sit amor, plures olim cecinêre Poëtæ,",
+     "Eius qui vario nomine gesta ferunt.",
+     "Conuenit hoc, ꝙ veste caret, quòd corpore parvus.",
+     "Tela, alasque ferens, lumina nulla tenet.",
+     "Hæc ora, hic habitusque Dei est.Sed dicere tantos",
+     "Si licet in vates, falsa subesse reor.",
+     "Eccur nudus agat? divo quasi pallia desint,",
+     "Qui cunctas domiti possidet orbis opes."
+    ]
+   },
+   "continues_on_next_page": true,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Новая рамка: вверху гирлянды плодов с маскaми на концах; по бокам гирлянды фруктов, внизу по бокам фигуры мужчин (в оковах? с поднятыми руками); внизу две совы с распростёртыми крыльями по сторонам вазы с фруктами и маска."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «123» справа вверху. «ꝙ» — q с перечёркнутым хвостом."
+}

@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 131,
+ "source": "scan/frame_0131.jpg",
+ "page": "125",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In obliuionem patriæ."
+    ],
+    "reading": "In oblivionem patriæ."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "В центре нагая женщина-дерево (лотос): её поднятые руки переходят в ветви кроны с плодами; вокруг спутники Одиссея срывают и едят плоды, некоторые лежат/сидят на земле; справа бородатый старец (Одиссей?) в плаще и воин с мечом тянут (уводят) одного из спутников; слева позади город на холме.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Iam dudum miſſa patria,oblituſq; tuorum,",
+     "Quos tibi ſeu ſanguis,ſiue parauit amor,",
+     "Romam habitas:nec cura domũ ſubit vlla reuerti.",
+     "Aeternæ tantùm te capit vrbis honos.",
+     "Sic Ithacûm præmiſſa manus dulcedine Loti",
+     "Liquerat & patriam,li[?]uerat atque ducem."
+    ],
+    "reading": [
+     "Iam dudum missa patria, oblitusque tuorum,",
+     "Quos tibi seu sanguis, sive paravit amor,",
+     "Romam habitas: nec cura domum subit ulla reverti.",
+     "Aeternæ tantùm te capit urbis honos.",
+     "Sic Ithacûm præmissa manus dulcedine Loti",
+     "Liquerat & patriam, li[?]verat atque ducem."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Новая рамка: вверху и по бокам стволы и кроны деревьев (дубы?) с листвой и плодами; внизу пейзаж с городом, руинами (Рим?), холмами и рекой."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «125» справа вверху. Сигнатуры нет. Первая литера стр.4 — курсивная A с росчерком, отделённая пробелом от «eternæ» (возможно Æ)."
+}

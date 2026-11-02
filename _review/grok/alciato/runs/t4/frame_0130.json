@@ -1,0 +1,86 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 130,
+ "source": "scan/frame_0130.jpg",
+ "page": "124",
+ "signature": null,
+ "catchword": null,
+ "page_type": "text",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": null,
+   "epigram": {
+    "diplomatic": [
+     "Aut quî quæ ſo niues boreamq; euadere nudus,",
+     "Alpinum potuit,ſtrictaq; prata gelu?",
+     "Si puer eſt,puerúmne vocas qui Neſtora vincit?",
+     "An noſti Aſcræi carmina docta ſenis?",
+     "Inconſtans puer,hic obdurans:pectora quæ iam",
+     "Trans adijt,nunquàm linquere ſponte pot[?]ſt.",
+     "At pharêtras & tela gerit,quid inutile pondus?",
+     "An curuare infans cornua dura valet?",
+     "Alas curúe tenet,quas neſcit in æthera ferre?",
+     "Inſcius in volucrum flectere tela iecur.",
+     "Serpit humi,ſemperq; virûm mortalia corda",
+     "Lædit:& haud alas ſaxeus inde mouet.",
+     "Si cæcus,vittamq; gerit,quid tænia cæco",
+     "Vtilis eſt? ideo num minus ille videt?",
+     "Quiſue ſagittiferum credat,qui lumine captus?",
+     "Hic certa,aſt cæci ſpicula vana mouet.",
+     "Igneus eſt aiunt,verſatq; in pectore flammas.",
+     "Cur age viuit adhuc? omnia flamma vorat.",
+     "Quinetiam tumidis cur non extinguitur vndis,",
+     "Naiadum quoties mollia corda ſubit?",
+     "At tu ne tantis capiare erroribus audi,",
+     "Verus quid ſit Amor carmina noſtra ferent.",
+     "Iucundus labor eſt,laſciua per ocia.ſignum",
+     "Illius eſt,nigro punica glans clypeo."
+    ],
+    "reading": [
+     "Aut quî quæ so nives boreamque evadere nudus,",
+     "Alpinum potuit, strictaque prata gelu?",
+     "Si puer est, puerúmne vocas qui Nestora vincit?",
+     "An nosti Ascræi carmina docta senis?",
+     "Inconstans puer, hic obdurans: pectora quæ iam",
+     "Trans adiit, nunquàm linquere sponte pot[?]st.",
+     "At pharêtras & tela gerit, quid inutile pondus?",
+     "An curvare infans cornua dura valet?",
+     "Alas curúe tenet, quas nescit in æthera ferre?",
+     "Inscius in volucrum flectere tela iecur.",
+     "Serpit humi, semperque virûm mortalia corda",
+     "Lædit: & haud alas saxeus inde movet.",
+     "Si cæcus, vittamque gerit, quid tænia cæco",
+     "Utilis est? ideo num minus ille videt?",
+     "Quisue sagittiferum credat, qui lumine captus?",
+     "Hic certa, ast cæci spicula vana movet.",
+     "Igneus est aiunt, versatque in pectore flammas.",
+     "Cur age vivit adhuc? omnia flamma vorat.",
+     "Quinetiam tumidis cur non extinguitur undis,",
+     "Naiadum quoties mollia corda subit?",
+     "At tu ne tantis capiare erroribus audi,",
+     "Verus quid sit Amor carmina nostra ferent.",
+     "Iucundus labor est, lasciva per ocia.signum",
+     "Illius est, nigro punica glans clypeo."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "",
+   "continuation_of": {
+    "frame": 129,
+    "page": "123",
+    "motto": "In ſtatuam Amoris."
+   }
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0129 (гирлянды плодов с маскaми, мужские фигуры, совы и ваза внизу)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «124» слева вверху. Продолжение эпиграммы «In ſtatuam Amoris.» без нового девиза и гравюры. Строка 1 «quæ ſo» напечатано с пробелом (quæſo)."
+}

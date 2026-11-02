@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 136,
+ "source": "scan/frame_0136.jpg",
+ "page": "130",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": "FORTVNA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Virtuti,Fortuna comes."
+    ],
+    "reading": "Virtuti, Fortuna comes."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Кадуцей Меркурия: жезл, обвитый двумя змеями, головы змей обращены друг к другу; навершие — плоский диск с двумя крыльями; у основания жезла ещё пара крыльев. По обе стороны — два рога изобилия (рога Амалфеи), полные плодов и колосьев, их концы перекрещены вокруг жезла. На заднем плане холмистый пейзаж со скалами и деревьями.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Anguibus implicitis,geminis caduceus alis:",
+     "Inter Amalthææ cornua rectus adeſt.",
+     "Pollentes ſic mente viros,fandiq; peritos",
+     "Indicat,vt rerum copia multa beet."
+    ],
+    "reading": [
+     "Anguibus implicitis, geminis caduceus alis:",
+     "Inter Amalthææ cornua rectus adest.",
+     "Pollentes sic mente viros, fandique peritos",
+     "Indicat, ut rerum copia multa beet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0135 (вверху маска барана между чашами с пламенем, по бокам вазы с медальонами «P» и «V» и женские головы в тюрбанах, внизу маска между змеями/драконами)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «130» слева вверху. Колонтитул и рубрика сменились на «FORTVNA.» — начало нового раздела. В стр.2 «cornua rectus» набрано почти слитно; «ct» — лигатура."
+}

@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 142,
+ "source": "scan/frame_0142.jpg",
+ "page": "136",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In momentaneam felicitatem."
+    ],
+    "reading": "In momentaneam felicitatem."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Высокая сосна, по стволу которой вьётся тыква (стебель с листьями и плодами-тыквами) до самой вершины. Справа сверху сыплются косые лучи/дождь (непогода). Позади река с лодкой, город с башнями, холмы; внизу справа голова ветра/дующего лица у земли (?) и вода.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aëriam propter creniſſe Cucurbita pinum",
+     "Dicitur:& grandi luxuriaſſe coma.",
+     "Cùm ramos complexa,ipſumq; egreſſa cacumen,",
+     "Se præſtare alijs credidit arboribus.",
+     "Cui pinus:Nimiùm breuis eſt hæc gloria.nam te",
+     "Protinus adueniet quæ malè perdet hyems."
+    ],
+    "reading": [
+     "Aëriam propter crenisse Cucurbita pinum",
+     "Dicitur: & grandi luxuriasse coma.",
+     "Cùm ramos complexa, ipsumque egressa cacumen,",
+     "Se præstare aliis credidit arboribus.",
+     "Cui pinus: Nimiùm brevis est hæc gloria.nam te",
+     "Protinus adueniet quæ malè perdet hyems."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0141 (львиная маска и гранаты вверху, кариатиды на витых колоннах, внизу картуш «PV»)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «136» слева вверху. Сигнатуры нет."
+}

@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 149,
+ "source": "scan/frame_0149.jpg",
+ "page": "143",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": "HONOR.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ex arduis perpetuum no men."
+    ],
+    "reading": "Ex arduis perpetuum no men."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Слева платан, вокруг ствола которого обвился змей (дракон), поднимаясь к гнезду воробья в ветвях. В центре алтарь с ярким пламенем и дымом; у алтаря слева коленопреклонённые/сидящие фигуры (жрец и спутник) воздевают руки, справа группа мужчин в длинных одеждах (Калхас и греки) указывает на знамение. Вдали холмы и постройки, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Crediderat platani ramis ſua pignora pa ſſer,",
+     "Et bene:ni ſæuo viſa dracone forent.",
+     "Glutijt hic pullos omnes,miſeramq; parentem",
+     "Saxeus,& tali dignus obire nece.",
+     "Hæc,niſi mentitur Calchas,monumenta laboris",
+     "Sunt longi,cuius fama perennis eat."
+    ],
+    "reading": [
+     "Crediderat platani ramis sua pignora pa sser,",
+     "Et bene: ni sævo visa dracone forent.",
+     "Glutiit hic pullos omnes, miseramque parentem",
+     "Saxeus, & tali dignus obire nece.",
+     "Hæc, nisi mentitur Calchas, monumenta laboris",
+     "Sunt longi, cuius fama perennis eat."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Новая рамка: вверху фриз с переплетёнными лентами, кистями плодов и масками/головами по углам; по бокам медальоны с пером/листом, под ними гермы-атланты с масками-солнцами, стоящие на пьедесталах с бантами; внизу фриз с двумя колесницами (повозками на колёсах) и обнажёнными фигурами, тянущими канаты, по центру маска на колесе/щите."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «143» справа вверху. Сигнатуры нет. Колонтитул и рубрика сменились на «HONOR.» — новый раздел. В девизе «no men» и в стр.1 «pa ſſer» набрано с пробелом."
+}

@@ -1541,11 +1541,11 @@
   "frame": 125,
   "page": "119",
   "location": "эпиграмма, стр.2",
-  "as_read": "qu[?] (за «qu» сбитая/размазанная литера, над ней тильда; далее «t»/«is»?)",
+  "as_read": "quẽis (лигатура: тильда над e, «is» слито, сравни 0135)",
   "candidates": [
    "queis / quęis"
   ],
-  "type": "damage",
+  "type": "letterform",
   "run": "t4"
  },
  {
@@ -1579,6 +1579,347 @@
    "H 4"
   ],
   "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 127,
+  "page": "121",
+  "location": "эпиграмма, стр.1",
+  "as_read": "licta",
+  "candidates": [
+   "lecta / relicta"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 127,
+  "page": "121",
+  "location": "эпиграмма, стр.3",
+  "as_read": "vot",
+  "candidates": [
+   "vos"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 127,
+  "page": "121",
+  "location": "эпиграмма, стр.5",
+  "as_read": "ſtimulos (m слегка сбита)",
+  "candidates": [
+   "ſtimulos"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 129,
+  "page": "123",
+  "location": "эпиграмма, стр.3",
+  "as_read": "ꝙ",
+  "candidates": [
+   "quod (раскрытие сокращения)"
+  ],
+  "type": "abbreviation",
+  "run": "t4"
+ },
+ {
+  "frame": 130,
+  "page": "124",
+  "location": "эпиграмма, стр.1",
+  "as_read": "quæ ſo (пробел внутри слова)",
+  "candidates": [
+   "quæſo"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 130,
+  "page": "124",
+  "location": "эпиграмма, стр.6",
+  "as_read": "pot[?]ſt (вторая литера похожа на «c»)",
+  "candidates": [
+   "poteſt"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 131,
+  "page": "125",
+  "location": "эпиграмма, стр.4",
+  "as_read": "Aeternæ (курсивная A с росчерком + «eternæ»)",
+  "candidates": [
+   "Aeternæ / Æternæ"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 131,
+  "page": "125",
+  "location": "эпиграмма, стр.6",
+  "as_read": "li[?]uerat (литера q сбита, видна вертикальная черта)",
+  "candidates": [
+   "liquerat"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 134,
+  "page": "128",
+  "location": "эпиграмма, стр.1",
+  "as_read": "Ind[?]x (вторая литера похожа на «c»)",
+  "candidates": [
+   "Index"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 134,
+  "page": "128",
+  "location": "эпиграмма, стр.3",
+  "as_read": "candid a (пробел внутри слова)",
+  "candidates": [
+   "candida"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 135,
+  "page": "129",
+  "location": "эпиграмма, стр.2",
+  "as_read": "quẽis (лигатура: тильда над e, «is» слито)",
+  "candidates": [
+   "queis"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 135,
+  "page": "129",
+  "location": "эпиграмма, стр.14",
+  "as_read": "Sie",
+  "candidates": [
+   "Sic"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 136,
+  "page": "130",
+  "location": "эпиграмма, стр.2",
+  "as_read": "Amalthææ (два знака æ подряд)",
+  "candidates": [
+   "Amaltheæ / Amalthææ"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 139,
+  "page": "133",
+  "location": "девиз, стр.2 (греч.)",
+  "as_read": "Διαλογισικῶς (после «γι» знак, похожий на латинское s / σ, затем ι)",
+  "candidates": [
+   "Διαλογικῶς"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 139,
+  "page": "133",
+  "location": "сигнатура",
+  "as_read": "I [?] (цифра расплылась, похожа на кляксу)",
+  "candidates": [
+   "I 3"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 141,
+  "page": "135",
+  "location": "эпиграмма, стр.1",
+  "as_read": "Ingentet",
+  "candidates": [
+   "Ingentes"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 141,
+  "page": "135",
+  "location": "эпиграмма, стр.6",
+  "as_read": "occîderamus (циркумфлекс над i)",
+  "candidates": [
+   "occideramus"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 142,
+  "page": "136",
+  "location": "эпиграмма, стр.1",
+  "as_read": "creniſſe",
+  "candidates": [
+   "creuiſſe"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 142,
+  "page": "136",
+  "location": "гравюра, низ справа",
+  "as_read": "голова/лицо у края воды — то ли голова ветра, то ли человеческая фигура",
+  "candidates": [
+   "—"
+  ],
+  "type": "engraving",
+  "run": "t4"
+ },
+ {
+  "frame": 144,
+  "page": "138",
+  "location": "эпиграмма, стр.1",
+  "as_read": "rès (над e знак — гравис или черта)",
+  "candidates": [
+   "rēs / rès"
+  ],
+  "type": "accent",
+  "run": "t4"
+ },
+ {
+  "frame": 145,
+  "page": "139",
+  "location": "эпиграмма, стр.6",
+  "as_read": "Spes & (под строкой знак у «Spes»)",
+  "candidates": [
+   "Spes, & / Spes &"
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 145,
+  "page": "139",
+  "location": "гравюра, низ в центре",
+  "as_read": "предмет на земле — корзина/шапка/хлеб",
+  "candidates": [
+   "—"
+  ],
+  "type": "engraving",
+  "run": "t4"
+ },
+ {
+  "frame": 146,
+  "page": "140",
+  "location": "эпиграмма, стр.4",
+  "as_read": "viuens[?]ſola — после «viuens» знак вроде разорванной вертикальной черты",
+  "candidates": [
+   "viuens, / viuens:"
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 146,
+  "page": "140",
+  "location": "гравюра",
+  "as_read": "левая птица на пне — изображена ли рвота, неясно",
+  "candidates": [
+   "—"
+  ],
+  "type": "engraving",
+  "run": "t4"
+ },
+ {
+  "frame": 147,
+  "page": "141",
+  "location": "эпиграмма, стр.1",
+  "as_read": "Ludebant'parili (верхний знак после t)",
+  "candidates": [
+   "Ludebant parili"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 147,
+  "page": "141",
+  "location": "рамка, левый медальон",
+  "as_read": "треугольный знак в медальоне — литера «V» или орнамент",
+  "candidates": [
+   "V"
+  ],
+  "type": "orn",
+  "run": "t4"
+ },
+ {
+  "frame": 147,
+  "page": "141",
+  "location": "гравюра",
+  "as_read": "падает ли черепица с кровли над правой девушкой — неотчётливо",
+  "candidates": [
+   "—"
+  ],
+  "type": "engraving",
+  "run": "t4"
+ },
+ {
+  "frame": 148,
+  "page": "142",
+  "location": "эпиграмма, стр.8",
+  "as_read": "Mil",
+  "candidates": [
+   "Nil"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 149,
+  "page": "143",
+  "location": "девиз",
+  "as_read": "no men (пробел внутри слова)",
+  "candidates": [
+   "nomen"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 149,
+  "page": "143",
+  "location": "эпиграмма, стр.1",
+  "as_read": "pa ſſer (пробел внутри слова)",
+  "candidates": [
+   "paſſer"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 150,
+  "page": "144",
+  "location": "эпиграмма, стр.6",
+  "as_read": "toto'mandat (верхний знак после toto)",
+  "candidates": [
+   "toto mandat"
+  ],
+  "type": "stray",
   "run": "t4"
  }
 ]

@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 140,
+ "source": "scan/frame_0140.jpg",
+ "page": "134",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In ſubitum terrorem."
+    ],
+    "reading": "In subitum terrorem."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Фавн (Пан) — рогатый, с козлиными ногами, в прыжке тянется вперёд, дуя/держа рог (руки вытянуты к животным); справа среди деревьев в панике убегают козы/олени, вставшие на дыбы. Лесной пейзаж со скалами, деревьями и кустами.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Effuſo cernens fugientes agmine turmas,",
+     "Quis mea nunc inflat cornua? Faunus ait."
+    ],
+    "reading": [
+     "Effuso cernens fugientes agmine turmas,",
+     "Quis mea nunc inflat cornua? Faunus ait."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под эпиграммой",
+   "description": "Концовка: маска сатира с рогами в картуше с крыльями-лентами и завитками."
+  },
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0139 (двуликая маска Вакха внизу, литера «P» у маски слева, маски сатиров и гермы по бокам)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «134» слева вверху. Сигнатуры нет. Ржавое пятно на маске внизу рамки."
+}

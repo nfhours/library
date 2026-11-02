@@ -1,0 +1,59 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 133,
+ "source": "scan/frame_0133.jpg",
+ "page": "127",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Senex puellam amans."
+    ],
+    "reading": "Senex puellam amans."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "На переднем плане каменная гробница (саркофаг) с надписью; на крышке лежит нагое мёртвое тело, на нём (у головы) сидят сова и/или другая птица; ещё одна сова под надписью на стенке гробницы; позади слева под деревьями сидит пара (старик и девушка), холмистый пейзаж с городом, птицы, облака.",
+    "inscriptions": [
+     {
+      "where": "стенка гробницы",
+      "text": "SEPVLCHRVM"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Dum Sophocles(quamuis affecta ætate )puellam",
+     "A quæſtu Archippen ad ſua vota trahit,",
+     "Allicit & pretio,tulit ægrè inſana iuuentus",
+     "Ob zelum,& tali carmine vtrunque notat.",
+     "Noctua vt in tumulis,ſuper vtq; cadauera bubo,",
+     "Talis apud Sophoclem noſtra puella ſedet."
+    ],
+    "reading": [
+     "Dum Sophocles(quamuis affecta ætate )puellam",
+     "A quæstu Archippen ad sua vota trahit,",
+     "Allicit & pretio, tulit ægrè insana iuventus",
+     "Ob zelum, & tali carmine utrunque notat.",
+     "Noctua ut in tumulis, super utque cadavera bubo,",
+     "Talis apud Sophoclem nostra puella sedet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Новая рамка: вверху две полулежащие крылатые нагие фигуры на перекладине между капителями с маскaми; по бокам гермы с маскaми и щитками с литерами «P» (слева) и «V» (справа) — монограмма PV; ниже витые колонны и женские головки; внизу два крылатых грифона по сторонам вазы-чаши."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «127» справа вверху. Сигнатуры нет. Пробелы внутри скобок как напечатано. В надписи SEPVLCHRVM между литерами трещины/метки доски."
+}

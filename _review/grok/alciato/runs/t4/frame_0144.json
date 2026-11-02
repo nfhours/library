@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 144,
+ "source": "scan/frame_0144.jpg",
+ "page": "138",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Bonis auſpicijs incipiendum."
+    ],
+    "reading": "Bonis auspiciis incipiendum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Воин в тюрбане/шапке и коротком камзоле выходит из арочных ворот городской стены с копьём наперевес и замахивается/отшатывается; перед ним по земле пробегает ласка (зверёк), направляясь вправо. За стеной город с башнями и обелиском; справа вдали путник с посохом, стадо, холмы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Auſpicijs rès cœpta malis,bene cedere neſcit.",
+     "Felici quæ ſunt omine facta,iuuant.",
+     "Quicquid agis,muſtella tibi ſi occurrat,omitte;",
+     "Signa malæ hæc ſortis beſtia praua gerit."
+    ],
+    "reading": [
+     "Auspiciis rès cœpta malis, bene cedere nescit.",
+     "Felici quæ sunt omine facta, iuvant.",
+     "Quicquid agis, mustella tibi si occurrat, omitte;",
+     "Signa malæ hæc sortis bestia prava gerit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0143 (гирлянды плодов и картуш вверху, атланты по бокам, лежащие фигуры и ваза внизу)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «138» слева вверху. Сигнатуры нет."
+}

@@ -1,0 +1,67 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 139,
+ "source": "scan/frame_0139.jpg",
+ "page": "133",
+ "signature": "I [?]",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In occaſionem.",
+     "Διαλογισικῶς."
+    ],
+    "reading": "In occasionem. Διαλογισικῶς."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Окказия (Случай): обнажённая женщина стоит на колесе посреди моря, волосы спереди длинные и развеваются (прядь на лбу), в поднятой правой руке бритва; длинный развевающийся покров (парус) перекинут через плечи и зажат в левой руке. На крылатых ногах (крылышки у ступней едва различимы). Вокруг волны, вдали скалистый остров, город на берегу, справа корабль, в небе облака и птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Lyſippi hoc opus eſt,Sycion cui patria. Tu quis?",
+     "Cuncta domans capti temporis articulus.",
+     "Cur pinnis ſtas? vſque rotor. Talaria plantis",
+     "Cur retines? Paſsim me leuis aura rapit.",
+     "In dextra eſt tenuis dic vnde nouacula? Acutum",
+     "Omni acie hoc ſignum me magis eſſe docet.",
+     "Cur in frōte coma? Occurrēs vt prēdar. At heus tu",
+     "Dic cur pars calua eſt poſterior capitis?",
+     "Ne ſemel alipedem ſi quis permittat abire,",
+     "Ne poſsim apprehenſo poſtmodò crine capi.",
+     "Tali opifex nos arte,tui cauſa,edidit hoſpes.",
+     "Vtq; omnes moneam:pergula aperta tenet."
+    ],
+    "reading": [
+     "Lysippi hoc opus est, Sycion cui patria. Tu quis?",
+     "Cuncta domans capti temporis articulus.",
+     "Cur pinnis stas? usque rotor. Talaria plantis",
+     "Cur retines? Passim me levis aura rapit.",
+     "In dextra est tenuis dic unde novacula? Acutum",
+     "Omni acie hoc signum me magis esse docet.",
+     "Cur in frōte coma? Occurres ut predar. At heus tu",
+     "Dic cur pars calva est posterior capitis?",
+     "Ne semel alipedem si quis permittat abire,",
+     "Ne possim apprehenso postmodò crine capi.",
+     "Tali opifex nos arte, tui causa, edidit hospes.",
+     "Utque omnes moneam: pergula aperta tenet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Новая рамка: вверху сломанные картуши с завитками, фигурками и гирляндами плодов, ниже цепочный бордюр; по бокам завитки с бородатыми масками сатиров, ниже фигуры-гермы (слева женская, справа юноша/женщина); внизу две слитые маски Вакха (двуликая голова) в венке из виноградных листьев между картушами с розетками и зубчатыми завитками; у маски слева мелкая литера «P»."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «133» справа вверху. Подзаголовок по-гречески под девизом. «ct» — лигатура в «Cuncta». В стр.5 нет запятой после «tenuis» перед «dic»."
+}

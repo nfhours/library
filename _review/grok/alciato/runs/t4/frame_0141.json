@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 141,
+ "source": "scan/frame_0141.jpg",
+ "page": "135",
+ "signature": "I 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In illaudata laudantes."
+    ],
+    "reading": "In illaudata laudantes."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Слон стоит у дерева, на котором вывешен трофей: панцирь (доспех) и шлем, через ствол перекинут меч. Хобот слона опущен к земле. Пейзаж с камнями, в небе облака и птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Ingentet Galatûm ſemermi milite turmas,",
+     "Spem præter trepidus fuderat Antiochus,",
+     "Lucarum cùm ſæua boum vis,ira proboſcis,",
+     "Tum primùm hoſtiles corripuiſſet equos.",
+     "Ergo trophæa locans Elephantis imagine pinxit,",
+     "Inſuper & ſocijs occîderamus ait,",
+     "Bellua ſeruaſſet ni nos fœdiſsima barrus.",
+     "Vt ſuperaſſe iuuat,ſic ſuperaſſe pudet."
+    ],
+    "reading": [
+     "Ingentet Galatûm semermi milite turmas,",
+     "Spem præter trepidus fuderat Antiochus,",
+     "Lucarum cùm sæva boum vis, ira proboscis,",
+     "Tum primùm hostiles corripuisset equos.",
+     "Ergo trophæa locans Elephantis imagine pinxit,",
+     "Insuper & sociis occîderamus ait,",
+     "Bellua servasset ni nos fœdissima barrus.",
+     "Ut superasse iuvat, sic superasse pudet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Новая рамка: вверху фриз с волютами, гранатами/плодами по углам и львиной маской в центре; по бокам гермы-кариатиды (женские фигуры с корзинами на головах) на витых колоннах с «глазками» и пьедесталах; внизу цоколь с завитками-раковинами и картушем с литерами «PV»."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «135» справа вверху; сигнатура «I 4». В стр.1 «Ingentet» вместо «Ingentes»; «ſemermi» напечатано так."
+}

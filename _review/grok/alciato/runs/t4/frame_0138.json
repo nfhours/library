@@ -1,0 +1,51 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 138,
+ "source": "scan/frame_0138.jpg",
+ "page": "132",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Paupertatem ſummis ingenijs",
+     "obeſſe,ne prouehantur."
+    ],
+    "reading": "Paupertatem summis ingeniis obesse, ne provehantur."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Юноша с длинными волосами, в короткой одежде, стоит спиной к зрителю: правая (поднятая) рука снабжена крылом и тянется к небу, левая (опущенная) привязана/держит тяжёлый камень, лежащий на земле. Вверху слева в облаках — бородатый бог в короне (Юпитер), протягивающий руку к крылу. Справа деревья, на переднем плане камни.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Dextra tenet lapidem:manus altera ſuſtinet alas.",
+     "Vt me pluma leuat:ſic graue mergit onus.",
+     "Ingenio poteram ſuperas volitare per arces,",
+     "Me niſi paupertas inuida deprimeret."
+    ],
+    "reading": [
+     "Dextra tenet lapidem: manus altera sustinet alas.",
+     "Ut me pluma levat: sic grave mergit onus.",
+     "Ingenio poteram superas volitare per arces,",
+     "Me nisi paupertas inuida deprimeret."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0137 (картуши-ленты с розетками, маска в шлеме внизу); внизу на завитках видны мелкие литеры «P» (слева) и «V» (справа) — монограмма PV."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «132» слева вверху (цифры частично размыты). Сигнатуры нет. Пятно (клякса) на левом верхнем углу гравюры."
+}

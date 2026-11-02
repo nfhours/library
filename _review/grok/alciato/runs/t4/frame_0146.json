@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 146,
+ "source": "scan/frame_0146.jpg",
+ "page": "140",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Malè parta,malè dilabuntur."
+    ],
+    "reading": "Malè parta, malè dilabuntur."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Два коршуна: слева птица сидит на сломанном стволе/пне, склонив голову (её рвёт); справа на склоне холма вторая птица (мать), обращённая к ней. Между ними тонкое деревце/растение. Позади скалистые холмы, облака, вдали птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Miluus edax,nimiæ quem nauſea torſerat eſcæ,",
+     "Hei mihi mater ait viſcera ab ore fluunt.",
+     "Illa autem:quid fles?cur hæc tua viſcera credas,",
+     "Qui rapto viuens[?]ſola aliena vomis?"
+    ],
+    "reading": [
+     "Milvus edax, nimiæ quem nausea torserat escæ,",
+     "Hei mihi mater ait viscera ab ore fluunt.",
+     "Illa autem: quid fles? cur hæc tua viscera credas,",
+     "Qui rapto vivens[?]sola aliena vomis?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0145 (маска сатира и вазы вверху, гермы по бокам, бородатые головы на грифонах и зачернённый медальон внизу)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «140» слева вверху. Сигнатуры нет."
+}

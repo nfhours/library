@@ -1,0 +1,59 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 127,
+ "source": "scan/frame_0127.jpg",
+ "page": "121",
+ "signature": "H 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Dulcia quandoque amara",
+     "fieri."
+    ],
+    "reading": "Dulcia quandoque amara fieri."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Крылатый Купидон, ужаленный пчёлами, летит/падает вперёд, протягивая руки к сидящей слева женщине (Венере) в причёске с лентами, которая тянет к нему руку; справа дом с соломенной крышей и ульи (соломенные колпаки) на скамье; над Купидоном летают пчёлы; позади холмы, деревья, птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Matre procul licta,paulùm ſeceſſerat infans",
+     "Lydius:hunc diræ ſed rapuiſtis apes.",
+     "Venerat hic ad vot placidas ratus eſſe volucres,",
+     "Cùm nec ita inmitis vipera ſæua foret.",
+     "Quæ datis ah,dulci ſtimulos pro munere mellis.",
+     "Proh dolor,Heu ſine te gratia nulla datur."
+    ],
+    "reading": [
+     "Matre procul licta, paulùm secesserat infans",
+     "Lydius: hunc diræ sed rapuistis apes.",
+     "Venerat hic ad vot placidas ratus esse volucres,",
+     "Cùm nec ita inmitis vipera sæva foret.",
+     "Quæ datis ah, dulci stimulos pro munere mellis.",
+     "Proh dolor, Heu sine te gratia nulla datur."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Новая рамка: вверху две ленты/свитки с литерами «P» (слева) и «V» (справа) и центральная крылатая маска; по бокам вазы, женские гермы-кариатиды с завитками, полосы с кольцами; внизу два зверя (львы?) в гирляндах фруктов и центральный картуш."
+  },
+  {
+   "position": "верх рамки",
+   "description": "Литеры «P» и «V» на табличках — монограмма PV."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «121» справа вверху; сигнатура «H 5» (цифра оттиснута криво/перевёрнуто)."
+}

@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 134,
+ "source": "scan/frame_0134.jpg",
+ "page": "128",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In colores."
+    ],
+    "reading": "In colores."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Гравюра разделена на девять клейм (3×3) с жанровыми сценами: похороны/погребение у могилы, процессия людей в плащах с капюшонами (траур), мужчина и женщина среди камышей; пара у ларца с монетами (король/купец?), всадник на лошади с женщиной, женщина с шаром (сферой) и лодка; работники в поле/у шалаша, пара людей, женщина за прялкой.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Ind[?]x mœſtitiæ eſt pullus color:vtimur omnes",
+     "Hoc habitu,tumulis cùm damus inferias.",
+     "At ſynceri animi,& mentis ſtola candid a puræ.",
+     "Hinc ſyndon ſacris linea grata viris.",
+     "Nos ſperare docet viridis.Spes dicitur eſſe,",
+     "In viridi,quoties irrita rêtro cadit."
+    ],
+    "reading": [
+     "Ind[?]x mœstitiæ est pullus color: utimur omnes",
+     "Hoc habitu, tumulis cùm damus inferias.",
+     "At synceri animi, & mentis stola candid a puræ.",
+     "Hinc syndon sacris linea grata viris.",
+     "Nos sperare docet viridis.Spes dicitur esse,",
+     "In viridi, quoties irrita rêtro cadit."
+    ]
+   },
+   "continues_on_next_page": true,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0133 (полулежащие крылатые фигуры вверху, гермы с «P» и «V», витые колонны, грифоны и ваза-чаша внизу)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «128» слева вверху. В стр.3 «candid a» напечатано с пробелом."
+}

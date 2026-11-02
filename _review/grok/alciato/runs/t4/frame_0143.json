@@ -1,0 +1,51 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 143,
+ "source": "scan/frame_0143.jpg",
+ "page": "137",
+ "signature": "I 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ex damno alterius,alterius",
+     "vtilitas."
+    ],
+    "reading": "Ex damno alterius, alterius utilitas."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Схватка вепря и львицы: кабан слева и львица справа сцепились мордами; на ветви дерева над ними сидит гриф (стервятник), выжидая. Пейзаж с холмами, кустами и деревьями.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Dum ſæuis ruerent in mutua vulnera telis,",
+     "Vngue leæna ferox,dente timendus aper,",
+     "Accurrit vultur ſpectatum,& prandia captat.",
+     "Gloria victoris,præda futura ſua eſt."
+    ],
+    "reading": [
+     "Dum sævis ruerent in mutua vulnera telis,",
+     "Ungue leæna ferox, dente timendus aper,",
+     "Accurrit vultur spectatum, & prandia captat.",
+     "Gloria victoris, præda futura sua est."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Новая рамка: вверху гирлянды плодов (тыквы, виноград, гранаты) по сторонам центрального картуша с волнистым узором и кольцом; по бокам атланты/обнажённые мужские фигуры, держащие друг друга; внизу две лежащие фигуры (слева задрапированная, справа обнажённый юноша/сатир) по сторонам вазы с плодами."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «137» справа вверху; сигнатура «I 5». В девизе «vtilitas» точка над первой i почти не видна. «ct» — лигатура в «ſpectatum», «victoris»."
+}

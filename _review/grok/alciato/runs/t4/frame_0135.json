@@ -1,0 +1,70 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 135,
+ "source": "scan/frame_0135.jpg",
+ "page": "129",
+ "signature": "I",
+ "catchword": null,
+ "page_type": "text",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": null,
+   "epigram": {
+    "diplomatic": [
+     "Eſt cupidis flauus color,eſt & amantibus aptus,",
+     "Et ſcortis,& quẽis ſpes ſua certa fuit.",
+     "At ruber armatos equites exornet amictus,",
+     "Indicet & pueros erubuiſſe pudor.",
+     "Cæruleus nautas,& qui cœleſtia vates",
+     "Attoniti nimia relligione petunt.",
+     "Vilia ſunt giluis natiuaq; vellera birris:",
+     "Qualia lignipedes ſtragula habere ſolent.",
+     "Quem curæ ingentes cruciant,vel zelus amoris",
+     "Creditur hic fulua non malè veſte tegi.",
+     "Quiſquis ſorte ſua contentus,ianthina geſtet,",
+     "Fortunæ æquanimis tædia quiq; ferat.",
+     "Vt varia eſt natura coloribus in gignendis,",
+     "Sie alijs aliud:ſed ſua cuique placent."
+    ],
+    "reading": [
+     "Est cupidis flavus color, est & amantibus aptus,",
+     "Et scortis, & quenis spes sua certa fuit.",
+     "At ruber armatos equites exornet amictus,",
+     "Indicet & pueros erubuisse pudor.",
+     "Cæruleus nautas, & qui cœlestia vates",
+     "Attoniti nimia relligione petunt.",
+     "Vilia sunt giluis nativaque vellera birris:",
+     "Qualia lignipedes stragula habere solent.",
+     "Quem curæ ingentes cruciant, vel zelus amoris",
+     "Creditur hic fulva non malè veste tegi.",
+     "Quisquis sorte sua contentus, ianthina gestet,",
+     "Fortunæ æquanimis tædia quique ferat.",
+     "Ut varia est natura coloribus in gignendis,",
+     "Sie aliis aliud: sed sua cuique placent."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "",
+   "continuation_of": {
+    "frame": 134,
+    "page": "128",
+    "motto": "In colores."
+   }
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под эпиграммой",
+   "description": "Концовка-картуш с масками сатиров по бокам, женской маской сверху и детской головкой снизу, внутри сцена с кентаврами/фигурами — та же, что на 0123."
+  },
+  {
+   "position": "рамка полосы",
+   "description": "Новая рамка: вверху маска барана/козла между рогатыми завитками и чашами с пламенем; по бокам вазы с арабесками и медальонами с литерами «P» (слева) и «V» (справа) — монограмма PV, ниже женские головы в тюрбанах; полосы с кольцами; внизу маска между переплетёнными змеями/драконами."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «129» справа вверху; сигнатура «I». Продолжение эпиграммы «In colores.» без нового девиза."
+}
