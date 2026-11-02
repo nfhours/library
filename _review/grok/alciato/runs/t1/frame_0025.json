@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 25,
+ "source": "scan/frame_0025.jpg",
+ "page": "19",
+ "signature": "B 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FIDES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Nec quæſtioni quidem",
+     "cedendum."
+    ],
+    "reading": "Nec quæstioni quidem cedendum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Львица без языка (с закрытой пастью) идёт влево, повернув голову к зрителю; позади руины — арочная стена со звездой в проёме, пирамида, деревья, холмы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Cecropia effictam quam cernis in arce Leænam,",
+     "Hermodij(an neſcis hoſpes?)amica fuit.",
+     "Sic animum placuit monſtrare viraginis acrem",
+     "More feræ,nomen vel quia tale tulit.",
+     "Quòd fidibus contorta,ſuo non prodidit vllum",
+     "Indicio,elinguem reddidit Iphicrates."
+    ],
+    "reading": [
+     "Cecropia effictam quam cernis in arce Leænam,",
+     "Hermodii(an nescis hospes?)amica fuit.",
+     "Sic animum placuit monstrare viraginis acrem",
+     "More feræ, nomen vel quia tale tulit.",
+     "Quòd fidibus contorta, suo non prodidit ullum",
+     "Indicio, elinguem reddidit Iphicrates."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «19» вверху справа; сигнатура «B 2» внизу справа. Литера l в «vllum» (строка 5) повреждена."
+}

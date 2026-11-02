@@ -1,0 +1,66 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 7,
+ "source": "scan/frame_0007.jpg",
+ "page": "[1]",
+ "signature": null,
+ "catchword": null,
+ "page_type": "title",
+ "running_head": null,
+ "rubric": null,
+ "blocks": [
+  {
+   "kind": "title_text",
+   "lang": "la",
+   "diplomatic": [
+    "EMBLEMATA",
+    "D. A. AL[?]CIATI,",
+    "denuo ab ipſo Autore",
+    "recognita,ac,quæ deſi-",
+    "derabantur, imagini",
+    "bus locupletata.",
+    "Acceſſerunt noua aliquot ab",
+    "Autore Emblemata ſuis quoq;",
+    "eiconibus inſignita."
+   ],
+   "reading": [
+    "EMBLEMATA D. A. AL[?]CIATI, denuo ab ipso Autore recognita, ac, quæ desiderabantur, imaginibus locupletata.",
+    "Accesserunt nova aliquot ab Autore Emblemata suis quoque eiconibus insignita."
+   ],
+   "notes": "Строки 1–6 прямым шрифтом (EMBLEMATA капителями, D. A. ALCIATI курсивными заглавными); строки 7–9 курсивом. «imagini / bus» — перенос без знака, в слое чтения склеен."
+  },
+  {
+   "kind": "imprint",
+   "lang": "la",
+   "diplomatic": [
+    "LVGD. APVD GVLIEL.",
+    "ROVILIVM. 1551."
+   ],
+   "reading": [
+    "LVGD. APUD GULIEL. ROVILIUM. 1551."
+   ],
+   "notes": "В картуше в нижней части гравированной рамки."
+  },
+  {
+   "kind": "privilege_line",
+   "lang": "la",
+   "diplomatic": [
+    "CVM",
+    "PRIVILE[...]"
+   ],
+   "reading": [
+    "CUM PRIVILE[...]"
+   ],
+   "notes": "Слева внизу «CVM», справа внизу «PRIVILE» + край следующей литеры (C или G), остальное срезано обрезом/корешком."
+  }
+ ],
+ "engraving": {
+  "position": "вся страница (гравированная рамка титула)",
+  "description": "Архитектурный портал: по сторонам две обнажённые мужские фигуры-атланты (теламоны) на постаментах с масками; наверху в центре бородатая маска-маскарон с подвесками, по углам лежащие путти (крылатые); в центре картуш с текстом титула, под ним подвешены гирлянды плодов; внизу в овальном медальоне орёл (издательская марка), сидящий, со змеёй(?) у груди; внизу картуш с выходными данными на основании колодца/постамента.",
+  "inscriptions": []
+ },
+ "notes": "Справа на кадре виден край переплёта.",
+ "emblems": [],
+ "ornaments": [],
+ "errata": []
+}

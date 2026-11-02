@@ -1,0 +1,68 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 9,
+ "source": "scan/frame_0009.jpg",
+ "page": "3",
+ "signature": "A 2",
+ "catchword": null,
+ "page_type": "front_matter",
+ "running_head": null,
+ "rubric": "AD LECTOREM.",
+ "rubric_reading": "AD LECTOREM.",
+ "blocks": [
+  {
+   "kind": "prose",
+   "lang": "la",
+   "initial": "E",
+   "diplomatic": [
+    "EMBLEMATA ILLA",
+    "pulcherrima Andreæ Alciati",
+    "Patricij Mediolanenſis,Iuriſcõ-",
+    "ſultorũ eloquẽtiſsimi, & eloquen",
+    "tiũ iuriſcẽſultiſsimi,quę vir ille nũquã ab literis",
+    "feriatus,dum à ſeuerioribus legum ſtudijs reſpi",
+    "rat,& humanæ lteraturæ[?] Muſis amœnioribus",
+    "recreatur,ludendo effudit ἀφοριστικῶς , ϗ ἀνα=",
+    "κόλουθως, prout varium vel ſenſibus externis,",
+    "vel commentationibus internis ſeſe offerebat ar-",
+    "gmmentum.Ea nos ſub generalibus præcipuarũ",
+    "rerum capitibus in locos communes , tanquam in",
+    "certas claſſes digeſſeramus : à ſummis , ad ima",
+    "progredientes. Non eo ſanè conſilio,vt Autore",
+    "ipſo in œconomia ſui operis,aut diligẽtiores,aut",
+    "cõcinniores videri ſtuderemus:ſed vt illius luſus,",
+    "in cõmunes vſus adduceremus, Eius operis du-",
+    "plici habita ratione,voluptatis nimirũ,& vtilita",
+    "tis.Priore quidẽ,vt ſpecioſior quędã operis forma",
+    "extaret oculis legẽtiũ,ſingula ſuo quoq; collocata",
+    "co conſiderantium. Compoſita namq; ſparſis,&",
+    "ordinata confuſis,ferè ſolent apparere pulchrio-",
+    "ra.Altera autem,vt facilior,& promptior eſſet"
+   ],
+   "reading": [
+    "EMBLEMATA ILLA pulcherrima Andreæ Alciati Patricii Mediolanensis, Iurisconsultorum eloquentissimi, & eloquentium iuriscensultissimi, quæ vir ille nunquam ab literis feriatus, dum à severioribus legum studiis respirat, & humanæ lteraturæ[?] Musis amœnioribus recreatur, ludendo effudit ἀφοριστικῶς, καὶ ἀνακόλουθως, prout varium vel sensibus externis, vel commentationibus internis sese offerebat argmmentum.Ea nos sub generalibus præcipuarum rerum capitibus in locos communes, tanquam in certas classes digesseramus: à summis, ad ima progredientes. Non eo sanè consilio, ut Autore ipso in œconomia sui operis, aut diligentiores, aut concinniores videri studeremus: sed ut illius lusus, in communes usus adduceremus, Eius operis duplici habita ratione, voluptatis nimirum, & utilitatis.Priore quidem, ut speciosior quædam operis forma extaret oculis legentium, singula suo quoque collocata co considerantium. Composita namque sparsis, & ordinata confusis, ferè solent apparere pulchriora.Altera autem, ut facilior, & promptior esset"
+   ],
+   "notes": "Буквица E (гравированная, с путто) на 4 строки; текст курсивом, первая строка курсивными заглавными. Греческие слова прямым греческим шрифтом. «ἀνα= / κόλουθως» — двойной дефис печати. Переносы без знака (eloquen/tiũ, reſpi/rat, vtilita/tis) в слое чтения склеены. Текст продолжается на кадре 0010."
+  }
+ ],
+ "continues_on_next_page": true,
+ "errata": [
+  {
+   "printed": "argmmentum",
+   "corrected": "argumentum",
+   "certainty": "очевидная",
+   "applied_in_reading": false,
+   "comment": "опечатка печати; см. open_points"
+  },
+  {
+   "printed": "iuriſcẽſultiſsimi",
+   "corrected": "iuriſcõſultiſsimi",
+   "certainty": "вероятная",
+   "applied_in_reading": false,
+   "comment": "ẽ вместо õ?; см. open_points"
+  }
+ ],
+ "notes": "Номер страницы «3» вверху справа; сигнатура «A 2» внизу справа под рамкой. Текст внутри орнаментальной рамки.",
+ "emblems": [],
+ "ornaments": []
+}

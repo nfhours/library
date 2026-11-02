@@ -1,0 +1,53 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 14,
+ "source": "scan/frame_0014.jpg",
+ "page": "8",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "EMBLEM. DEDIC.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Mediolanum."
+    ],
+    "reading": "Mediolanum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Руины античного города: развалины храма с фронтоном, круглая постройка, столб/обелиск, кирпичные стены и арки; на переднем плане человек с лопатой/киркой копает землю, рядом в яме лежит откопанное животное (свинья-кабан?) и второй землекоп; вдали горы и замок, птицы в небе.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Eituricis[?] veruex,Heduis dat Sucula ſignum.",
+     "His populis patriæ debita origo meæ eſt,",
+     "Quam Mediolanum ſacram dixêre puellæ",
+     "Terram:nam vetus hoc Gallica lingua ſonat.",
+     "Culta Minerua fuit,nunc eſt,vbi numine Tecla",
+     "Mutato matris virginis ante domum.",
+     "Laniger huic ſignuu[?] ſus eſt,animalq; biforme,",
+     "Acribus hinc ſetis,lanitio inde leui."
+    ],
+    "reading": [
+     "Eituricis[?] vervex, Heduis dat Sucula signum.",
+     "His populis patriæ debita origo meæ est,",
+     "Quam Mediolanum sacram dixêre puellæ",
+     "Terram: nam vetus hoc Gallica lingua sonat.",
+     "Culta Minerva fuit, nunc est, ubi numine Tecla",
+     "Mutato matris virginis ante domum.",
+     "Laniger huic signuv[?] sus est, animalque biforme,",
+     "Acribus hinc setis, lanitio inde levi."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «8» вверху слева. Колонтитул «EMBLEM. DEDIC.»; внутри полосы заголовка локуса нет. Мелкий штрих перед «eſt» в строке 7 — не принят за знак."
+}

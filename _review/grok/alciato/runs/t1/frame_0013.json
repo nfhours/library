@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 13,
+ "source": "scan/frame_0013.jpg",
+ "page": "7",
+ "signature": "A 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "EMBLEM. DEDIC.",
+ "rubric": "EMBLEM. DEDIC.",
+ "rubric_reading": "EMBLEM. DEDIC.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ad illuſt.Maximil.ducẽ Mediol.Su-",
+     "per inſigni Ducatus Mediolan."
+    ],
+    "reading": "Ad illust.Maximil.ducem Mediol.Super insigni Ducatus Mediolan."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Гербовый щит (картуш) с извивающимся змеем, из пасти которого выходит младенец; на щите сверху сидит/стоит птица (орёл?) — нашлемник; щит стоит на холме среди пейзажа с морем, корабликами, городом слева, деревом с плакучими ветвями и облаками.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Exiliens infans ſinuoſi è faucibus anguis,",
+     "Eſt gentilitijs nobile ſtemma tuis.",
+     "Talia Pellæum geſsiſſe nomiſmata regem,",
+     "Vidimus,hisq; ſuum concelebraſſe genus.",
+     "Dũ ſe Ammone ſatũ,matrẽ anguis imagine luſã,",
+     "Diuini & ſobolem ſeminis eſſe docet.",
+     "Ore exit,tradunt ſic quoſdam enitier angues,",
+     "An quia ſic Pallas de capite orta Iouis?"
+    ],
+    "reading": [
+     "Exiliens infans sinuosi è faucibus anguis,",
+     "Est gentilitiis nobile stemma tuis.",
+     "Talia Pellæum gessisse nomismata regem,",
+     "Vidimus, hisque suum concelebrasse genus.",
+     "Dum se Ammone satum, matrem anguis imagine lusam,",
+     "Divini & sobolem seminis esse docet.",
+     "Ore exit, tradunt sic quosdam enitier angues,",
+     "An quia sic Pallas de capite orta Iovis?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «7» вверху справа; сигнатура «A 4» внизу справа. Колонтитул «EMBLEM. DEDIC.» и тот же заголовок внутри полосы над девизом. Девиз прямым шрифтом, эпиграмма курсивом."
+}

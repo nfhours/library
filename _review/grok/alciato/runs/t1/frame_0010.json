@@ -1,0 +1,67 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 10,
+ "source": "scan/frame_0010.jpg",
+ "page": "4",
+ "signature": null,
+ "catchword": null,
+ "page_type": "front_matter",
+ "running_head": null,
+ "rubric": null,
+ "blocks": [
+  {
+   "kind": "prose",
+   "lang": "la",
+   "diplomatic": [
+    "quærentibus inuentio.Etenim expeditius eſt,",
+    "diuerſi res generis in ſuum quaſque ordinem &",
+    "locum diſpoſitas:quàm in turbam, temerè conge-",
+    "ſtas inueſtigare,ſi quando ijs opus habemus vten",
+    "dum.Porrò vſus Emblematum,præter gratiam,",
+    "ac voluptatem ex iucunda nouitate,quæ tædiũ",
+    "leuat,breuem ſententiæ argutiam,quæ animum",
+    "pungit,numeroſam verſuũ ſuauitatem,quæ au-",
+    "res mulcet, τῶν[?] εἰκόνων[?] picturam non inanem,",
+    "quæ oculos paſcit,Etiã ille( inquam )vſus eſt,vt",
+    "quoties rebus vacuis complementum,nudis orna-",
+    "mentum,mutis ſermonẽ,alogis rationem tribue-",
+    "re,ant certè affingere velit quiſpiam,is ex Em-",
+    "blematũ libello,tãquam ex promptuario inſtru-",
+    "ctiſsimo habeat quod domeſticis parietibus , vi-",
+    "treis feneſtris,aulæis,periſtromatis,tabulis[?],va-",
+    "ſis,ſignis,anulis ſigillaribus,veſtimentis,menſæ,",
+    "fulcro,armis , gladio,ſupellectili denique omni,",
+    "nuſquam non,inſcribere,& impingere poſsit:ad",
+    "hoc ſcilicet vt vſquequaque loquax,& aſpectu",
+    "iucunda ſit rerum ad vſum communem ſpectan",
+    "tium facies. Quare & ipſe Alciatus,ſua hęc epi",
+    "grammata appellatione conuenientiſsima inſcri-",
+    "bi voluit Emblemata. Sunt em̃ Emblemata ver-",
+    "miculata opera ex teſsellis inſititijs apta & cõpo",
+    "ſita,interprete Budæo,qđ & ipſa vocabuli Grę-"
+   ],
+   "reading": [
+    "quærentibus inventio.Etenim expeditius est, diversi res generis in suum quasque ordinem & locum dispositas: quàm in turbam, temerè congestas investigare, si quando iis opus habemus utendum.Porrò usus Emblematum, præter gratiam, ac voluptatem ex iucunda novitate, quæ tædium levat, brevem sententiæ argutiam, quæ animum pungit, numerosam versuum suavitatem, quæ aures mulcet, τῶν[?] εἰκόνων[?] picturam non inanem, quæ oculos pascit, Etiam ille( inquam )usus est, ut quoties rebus vacuis complementum, nudis ornamentum, mutis sermonem, alogis rationem tribuere, ant certè affingere velit quispiam, is ex Emblematum libello, tanquam ex promptuario instructissimo habeat quod domesticis parietibus, vitreis fenestris, aulæis, peristromatis, tabulis[?], vasis, signis, anulis sigillaribus, vestimentis, mensæ, fulcro, armis, gladio, supellectili denique omni, nusquam non, inscribere, & impingere possit: ad hoc scilicet ut usquequaque loquax, & aspectu iucunda sit rerum ad usum communem spectantium facies. Quare & ipse Alciatus, sua hæc epigrammata appellatione convenientissima inscribi volvit Emblemata. Sunt em̃ Emblemata vermiculata opera ex tessellis insititiis apta & composita, interprete Budæo, qđ & ipsa vocabuli Græ-"
+   ],
+   "notes": "Продолжение Ad lectorem с кадра 0009; продолжается на кадре 0011. Курсив; греческие слова прямым греческим шрифтом. Переносы без знака (vten/dum, ſpectan/tium, epi/grammata, cõpo/ſita) в слое чтения склеены. «em̃» и «qđ» — сокращения, в слое чтения не раскрыты (см. open_points)."
+  }
+ ],
+ "continuation_of": {
+  "frame": 9,
+  "page": "3",
+  "motto": null
+ },
+ "continues_on_next_page": true,
+ "errata": [
+  {
+   "printed": "ant",
+   "corrected": "aut",
+   "certainty": "вероятная",
+   "applied_in_reading": false,
+   "comment": "строка 13; см. open_points"
+  }
+ ],
+ "notes": "Номер страницы «4» вверху слева. Текст внутри орнаментальной рамки (та же рамка, что на 0009).",
+ "emblems": [],
+ "ornaments": []
+}

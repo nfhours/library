@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 21,
+ "source": "scan/frame_0021.jpg",
+ "page": "15",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FIDES.",
+ "rubric": "FIDES.",
+ "rubric_reading": "FIDES.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Fidei ſymbolum."
+    ],
+    "reading": "Fidei symbolum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Три фигуры: слева женщина в покрывале (Честь/Honos?) и справа женщина в лёгкой одежде (Истина), подающие друг другу правые руки; между ними, держась за их руки, стоит обнажённый мальчик (Амур) с венком на голове; фон — облака, птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Stet depictus Honos Tyrio velatus amictu,",
+     "Eiuſq; iungat nuda dextram Veritas.",
+     "Sitq; Amor in medio caſtus:cui tempora circum",
+     "Roſa it, Diones pulchrior Cupidine.",
+     "Conſtituunt hæc ſigna fidem,reuerentia honoris",
+     "Quam fouet,alit Amor,parturitq; Veritas."
+    ],
+    "reading": [
+     "Stet depictus Honos Tyrio velatus amictu,",
+     "Eiusque iungat nuda dextram Veritas.",
+     "Sitque Amor in medio castus: cui tempora circum",
+     "Rosa it, Diones pulchrior Cupidine.",
+     "Constituunt hæc signa fidem, reverentia honoris",
+     "Quam fovet, alit Amor, parturitque Veritas."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [],
+ "notes": "Номер страницы «15» вверху справа. Над локусом крупными прямыми заглавными надраздел «VIRTVTES.» (поле section), затем «FIDES.» курсивными заглавными. В «FIDES.» внутри полосы между E и S мелкая помета/пятно — не принята за знак. Над E в «Eiuſq;» (строка 2) точка/пятно.",
+ "section": {
+  "diplomatic": "VIRTVTES.",
+  "reading": "VIRTUTES."
+ }
+}

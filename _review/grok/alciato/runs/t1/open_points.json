@@ -1,0 +1,510 @@
+[
+ {
+  "frame": 7,
+  "page": "[1]",
+  "location": "привилегия внизу, правая часть",
+  "diplomatic_as_read": "PRIVILE[...]",
+  "candidates": [
+   "PRIVILEGIO — предложение агента (срезано)"
+  ],
+  "type": "editorial/reconstruction",
+  "note": "Последняя литера видна частично, остальное срезано.",
+  "run": "t1"
+ },
+ {
+  "frame": 7,
+  "page": "[1]",
+  "location": "титул, строка 2",
+  "diplomatic_as_read": "D. A. AL[?]CIATI,",
+  "candidates": [
+   "ALCIATI — предложение агента",
+   "AICIATI (как выглядит)"
+  ],
+  "type": "illegible",
+  "note": "Курсивная L похожа на I. (правило §4)",
+  "run": "t1"
+ },
+ {
+  "frame": 8,
+  "page": "[2]",
+  "location": "строка 1, слово 7",
+  "diplomatic_as_read": "de[?]",
+  "candidates": [
+   "de — предложение агента",
+   "dc (как выглядит литера)"
+  ],
+  "type": "damage/stain",
+  "note": "e пропечатана как c",
+  "run": "t1"
+ },
+ {
+  "frame": 8,
+  "page": "[2]",
+  "location": "строка 7",
+  "diplomatic_as_read": "per tiltres",
+  "candidates": [
+   "per (как напечатано)",
+   "par — возможная опечатка"
+  ],
+  "type": "typo",
+  "note": "во французском тексте ожидалось бы «par»",
+  "run": "t1"
+ },
+ {
+  "frame": 9,
+  "page": "3",
+  "location": "строка 7, слово 4",
+  "diplomatic_as_read": "lteraturæ[?]",
+  "candidates": [
+   "literaturæ — предложение агента (i не видна)",
+   "lteraturæ (как напечатано)"
+  ],
+  "type": "typo",
+  "note": "между l и t не видно i",
+  "run": "t1"
+ },
+ {
+  "frame": 9,
+  "page": "3",
+  "location": "строки 10–11",
+  "diplomatic_as_read": "ar- / gmmentum",
+  "candidates": [
+   "argumentum — предложение агента",
+   "argmmentum (как напечатано)"
+  ],
+  "type": "typo",
+  "note": "опечатка печати",
+  "run": "t1"
+ },
+ {
+  "frame": 9,
+  "page": "3",
+  "location": "строка 5, слово 2",
+  "diplomatic_as_read": "iuriſcẽſultiſsimi",
+  "candidates": [
+   "iuriſcõſultiſsimi — предложение агента",
+   "iuriſcẽſultiſsimi (как напечатано)"
+  ],
+  "type": "typo",
+  "note": "тильда над e вместо o (ср. строка 3 Iuriſcõ-)",
+  "run": "t1"
+ },
+ {
+  "frame": 9,
+  "page": "3",
+  "location": "строка 21, слово 1",
+  "diplomatic_as_read": "co conſiderantium",
+  "candidates": [
+   "loco conſiderantium — предложение агента",
+   "co (как напечатано)"
+  ],
+  "type": "typo",
+  "note": "вероятно, выпал слог перед «co»",
+  "run": "t1"
+ },
+ {
+  "frame": 9,
+  "page": "3",
+  "location": "строка 8, греческий",
+  "diplomatic_as_read": "ἀφοριστικῶς",
+  "candidates": [
+   "ἀφοριστικῶς (στ напечатано лигатурой ϛ-вида)"
+  ],
+  "type": "greek",
+  "note": "στ — лигатура; диакритика прочитана: ἀ, ῶ",
+  "run": "t1"
+ },
+ {
+  "frame": 9,
+  "page": "3",
+  "location": "строки 8–9, греческий",
+  "diplomatic_as_read": "ἀνα= / κόλουθως",
+  "candidates": [
+   "ἀνακόλουθως (как напечатано, акут на ό)"
+  ],
+  "type": "greek",
+  "note": "акцент прочитан на ό; проверить",
+  "run": "t1"
+ },
+ {
+  "frame": 10,
+  "page": "4",
+  "location": "строка 9, греческий",
+  "diplomatic_as_read": "τῶν[?] εἰκόνων[?]",
+  "candidates": [
+   "τῶν εἰκόνων — предложение агента",
+   "τῶρ εἰκόνωρ (как выглядит конечная литера)"
+  ],
+  "type": "greek",
+  "note": "конечная ν похожа на ρ",
+  "run": "t1"
+ },
+ {
+  "frame": 10,
+  "page": "4",
+  "location": "строка 13, слово 1",
+  "diplomatic_as_read": "re,ant certè",
+  "candidates": [
+   "aut — предложение агента",
+   "ant (как напечатано)"
+  ],
+  "type": "typo",
+  "note": "похоже на опечатку n/u",
+  "run": "t1"
+ },
+ {
+  "frame": 10,
+  "page": "4",
+  "location": "строка 16, слово 5",
+  "diplomatic_as_read": "tabulis[?]",
+  "candidates": [
+   "tabulis — предложение агента",
+   "tabulys (как выглядит)"
+  ],
+  "type": "damage/stain",
+  "note": "i выглядит как y/повреждённая литера",
+  "run": "t1"
+ },
+ {
+  "frame": 10,
+  "page": "4",
+  "location": "строка 24, слово 2",
+  "diplomatic_as_read": "em̃",
+  "candidates": [
+   "enim — предложение агента (раскрытие сокращения)"
+  ],
+  "type": "abbreviation",
+  "note": "m с тильдой = enim; в слое чтения не раскрыто",
+  "run": "t1"
+ },
+ {
+  "frame": 10,
+  "page": "4",
+  "location": "строка 26, слово 3",
+  "diplomatic_as_read": "qđ",
+  "candidates": [
+   "quod — предложение агента (раскрытие сокращения)"
+  ],
+  "type": "abbreviation",
+  "note": "q + d с перечёркнутой петлёй; в слое чтения не раскрыто",
+  "run": "t1"
+ },
+ {
+  "frame": 11,
+  "page": "5",
+  "location": "строка 24, греческое слово 1",
+  "diplomatic_as_read": "κατ̀[?]",
+  "candidates": [
+   "κατὰ — предложение агента (лигатура/сокращение κ+τ с грависом)"
+  ],
+  "type": "greek",
+  "note": "напечатано сокращённой лигатурой",
+  "run": "t1"
+ },
+ {
+  "frame": 11,
+  "page": "5",
+  "location": "строка 24, греческое слово 3",
+  "diplomatic_as_read": "αὐτόγραφον[?]",
+  "candidates": [
+   "αὐτόγραφον — предложение агента",
+   "конечная литера похожа на ρ"
+  ],
+  "type": "greek",
+  "note": "конечная ν похожа на ρ; τ в αὐτ- напечатано лигатурой",
+  "run": "t1"
+ },
+ {
+  "frame": 12,
+  "page": "6",
+  "location": "заголовок, строка 2",
+  "diplomatic_as_read": "ANDR. AL[?]CIATI IN",
+  "candidates": [
+   "ALCIATI — предложение агента"
+  ],
+  "type": "illegible",
+  "note": "Курсивная L ≈ I (правило §4)",
+  "run": "t1"
+ },
+ {
+  "frame": 12,
+  "page": "6",
+  "location": "стих 7, слово 4",
+  "diplomatic_as_read": "u[?]omiſmata",
+  "candidates": [
+   "nomiſmata — предложение агента",
+   "uomiſmata (как выглядит первая литера)"
+  ],
+  "type": "damage/stain",
+  "note": "первая литера выглядит как u — повреждённая n?",
+  "run": "t1"
+ },
+ {
+  "frame": 12,
+  "page": "6",
+  "location": "стих 1, слово 6",
+  "diplomatic_as_read": "teſſerat",
+  "candidates": [
+   "teſſera — предложение агента (опечатка?)",
+   "teſſerat (как напечатано)"
+  ],
+  "type": "typo",
+  "note": "лишняя t? проверить по второму экземпляру",
+  "run": "t1"
+ },
+ {
+  "frame": 14,
+  "page": "8",
+  "location": "эпиграмма, строка 1, слово 1",
+  "diplomatic_as_read": "Eituricis[?]",
+  "candidates": [
+   "Bituricis — предложение агента",
+   "Eituricis (как выглядит первая литера)"
+  ],
+  "type": "damage/stain",
+  "note": "первая литера похожа на E",
+  "run": "t1"
+ },
+ {
+  "frame": 14,
+  "page": "8",
+  "location": "эпиграмма, строка 7, слово 3",
+  "diplomatic_as_read": "ſignuu[?]",
+  "candidates": [
+   "ſignum — предложение агента",
+   "ſignuu (как выглядит)"
+  ],
+  "type": "damage/stain",
+  "note": "конечная m выглядит как uu",
+  "run": "t1"
+ },
+ {
+  "frame": 15,
+  "page": "9",
+  "location": "гравюра, надпись на ленте",
+  "diplomatic_as_read": "ΜΗ ΔΕΝ ΑΝΑΒΑΛΛΟ ΜΕ [?]",
+  "candidates": [
+   "ΜΗΔΕΝ ΑΝΑΒΑΛΛΟΜΕΝΟΣ — предложение агента (в петле ленты видны «ΜΕ» и «ΝΟΣ/ΣΟΝ»)"
+  ],
+  "type": "greek",
+  "note": "порядок букв в закрученной петле неясен",
+  "run": "t1"
+ },
+ {
+  "frame": 15,
+  "page": "9",
+  "location": "эпиграмма, строка 2, греческое",
+  "diplomatic_as_read": "μηδ' ἓν[?]",
+  "candidates": [
+   "μηδ' ἓν — предложение агента",
+   "μηδ' ἐν"
+  ],
+  "type": "greek",
+  "note": "придыхание/ударение над ε неотчётливо",
+  "run": "t1"
+ },
+ {
+  "frame": 15,
+  "page": "9",
+  "location": "подпись страницы",
+  "diplomatic_as_read": "A 5",
+  "candidates": [
+   "A 5 — предложение агента"
+  ],
+  "type": "illegible",
+  "note": "цифра сигнатуры неотчётлива",
+  "run": "t1"
+ },
+ {
+  "frame": 16,
+  "page": "10",
+  "location": "гравюра, верхняя надпись",
+  "diplomatic_as_read": "ΓΑΝΝΥΣΘΑΙΜΗΔΕΣΙ,",
+  "candidates": [
+   "ΓΑΝΝΥΣΘΑΙ ΜΗΔΕΣΙ — словораздел (толкование, в текст не вносится)"
+  ],
+  "type": "greek",
+  "note": "словораздела в печати нет",
+  "run": "t1"
+ },
+ {
+  "frame": 17,
+  "page": "11",
+  "location": "эпиграмма, строка 9, слово 2",
+  "diplomatic_as_read": "vafrũm[?]",
+  "candidates": [
+   "vafrum — предложение агента (тильда над u?)",
+   "vafrũ m"
+  ],
+  "type": "abbreviation",
+  "note": "над u знак, похожий на тильду, но дальше напечатано m",
+  "run": "t1"
+ },
+ {
+  "frame": 20,
+  "page": "14",
+  "location": "эпиграмма, строка 5, слово 3",
+  "diplomatic_as_read": "triuo",
+  "candidates": [
+   "triuio — предложение агента",
+   "triuo (как напечатано)"
+  ],
+  "type": "typo",
+  "note": "ср. строка 1 «triuio»",
+  "run": "t1"
+ },
+ {
+  "frame": 22,
+  "page": "16",
+  "location": "эпиграмма, строка 7, слово 3",
+  "diplomatic_as_read": "om̃is",
+  "candidates": [
+   "omnis — предложение агента",
+   "положение тильды: над o или над m"
+  ],
+  "type": "abbreviation",
+  "note": "тильда стоит на стыке o/m",
+  "run": "t1"
+ },
+ {
+  "frame": 23,
+  "page": "17",
+  "location": "эпиграмма, строка 3, слово 2",
+  "diplomatic_as_read": "labias",
+  "candidates": [
+   "labias (как напечатано)",
+   "labia — возможная опечатка"
+  ],
+  "type": "typo",
+  "note": "форма «labias» необычна",
+  "run": "t1"
+ },
+ {
+  "frame": 27,
+  "page": "21",
+  "location": "эпиграмма, строка 1, последнее слово",
+  "diplomatic_as_read": "ëoi[?]",
+  "candidates": [
+   "ëoi (диэреза) — предложение агента",
+   "ẽoi (тильда)"
+  ],
+  "type": "illegible",
+  "note": "знак над e неясен",
+  "run": "t1"
+ },
+ {
+  "frame": 27,
+  "page": "21",
+  "location": "эпиграмма, строка 4, после «peluis»",
+  "diplomatic_as_read": "peluis[?] quòd",
+  "candidates": [
+   "peluis, quòd",
+   "peluis: quòd",
+   "peluis quòd (знак = помета/повреждение)"
+  ],
+  "type": "damage/stain",
+  "note": "между словами вертикальный знак, похожий на «!»",
+  "run": "t1"
+ },
+ {
+  "frame": 27,
+  "page": "21",
+  "location": "эпиграмма, строка 6, слово 2",
+  "diplomatic_as_read": "idcirco[?]",
+  "candidates": [
+   "idcircò",
+   "idcirco (знак над o — пятно)"
+  ],
+  "type": "damage/stain",
+  "note": "над конечной o кружок/знак",
+  "run": "t1"
+ },
+ {
+  "frame": 28,
+  "page": "22",
+  "location": "девиз, греческий",
+  "diplomatic_as_read": "Νῆφε ϗ μέμνησ' ἀπιστεῖν. ἄρθρα ταῦτα τῶν φρενῶν.",
+  "candidates": [
+   "как прочитано — предложение агента"
+  ],
+  "type": "greek",
+  "note": "проверить диакритику (ἄρθρα, ταῦτα)",
+  "run": "t1"
+ },
+ {
+  "frame": 29,
+  "page": "23",
+  "location": "девиз, греческое слово 1",
+  "diplomatic_as_read": "Γ[?]ῆ",
+  "candidates": [
+   "Πῆ — предложение агента",
+   "Γῆ (как выглядит)"
+  ],
+  "type": "greek",
+  "note": "первая литера похожа на Γ",
+  "run": "t1"
+ },
+ {
+  "frame": 29,
+  "page": "23",
+  "location": "девиз, греческий, после «Τί»",
+  "diplomatic_as_read": "Τί [?]",
+  "candidates": [
+   "δ' — предложение агента",
+   "ἢ"
+  ],
+  "type": "greek",
+  "note": "знак похож на ȷ с двумя точками/ударением",
+  "run": "t1"
+ },
+ {
+  "frame": 29,
+  "page": "23",
+  "location": "девиз, греческий, слово 4",
+  "diplomatic_as_read": "ἐρξέα[?]",
+  "candidates": [
+   "ἔρεξα — предложение агента",
+   "ἐρξέα (как выглядит)"
+  ],
+  "type": "greek",
+  "note": "порядок литер/диакритика неясны",
+  "run": "t1"
+ },
+ {
+  "frame": 29,
+  "page": "23",
+  "location": "девиз, латинская часть, строка 2",
+  "diplomatic_as_read": "exceſsi[?]?",
+  "candidates": [
+   "exceſsi — предложение агента"
+  ],
+  "type": "damage/stain",
+  "note": "конечная i повреждена (видны точки)",
+  "run": "t1"
+ },
+ {
+  "frame": 29,
+  "page": "23",
+  "location": "эпиграмма, строка 3, слово 2",
+  "diplomatic_as_read": "pretergreſſus",
+  "candidates": [
+   "prętergreſſus (e caudata)",
+   "pretergreſſus"
+  ],
+  "type": "illegible",
+  "note": "хвостик под первой e неясен",
+  "run": "t1"
+ },
+ {
+  "frame": 29,
+  "page": "23",
+  "location": "эпиграмма, строка 3, слово 5",
+  "diplomatic_as_read": "qd",
+  "candidates": [
+   "quid / quod — сокращение"
+  ],
+  "type": "abbreviation",
+  "note": "напечатано «qd» с надстрочным знаком?",
+  "run": "t1"
+ }
+]
