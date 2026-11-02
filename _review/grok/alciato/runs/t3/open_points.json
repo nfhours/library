@@ -1279,6 +1279,504 @@
     "meretricem nomine (пробел почти отсутствует, «o» похожа на «e»)"
    ],
    "type": "damaged_type"
+  },
+  {
+   "frame": 91,
+   "page": "85",
+   "location": "эпиграмма, строка 3, «reſiſtit»",
+   "as_read": "reſiſtit[?]",
+   "candidates": [
+    "reſiſtit (последняя t похожа на c)"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 91,
+   "page": "85",
+   "location": "эпиграмма, строка 4, конец",
+   "as_read": "poteſt,[?]",
+   "candidates": [
+    "poteſt,",
+    "poteſt. (ожидаемо в конце эпиграммы)"
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 92,
+   "page": "86",
+   "location": "эпиграмма, строка 2, «magieis»",
+   "as_read": "magieis",
+   "candidates": [
+    "magicis (опечатка)"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 94,
+   "page": "88",
+   "location": "эпиграмма, строка 3, «ve lata»",
+   "as_read": "ve lata",
+   "candidates": [
+    "velata (лишний пробел)"
+   ],
+   "type": "spacing"
+  },
+  {
+   "frame": 95,
+   "page": "89",
+   "location": "сигнатура",
+   "as_read": "F 5[?]",
+   "candidates": [
+    "F 5"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 96,
+   "page": "90",
+   "location": "эпиграмма, строка 2, «Remorumq;,»",
+   "as_read": "Remorumq;,",
+   "candidates": [
+    "Remorumq; как напечатано (весел), запятая после q;"
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 96,
+   "page": "90",
+   "location": "эпиграмма, строка 5, «Anxialis»",
+   "as_read": "Anxialis",
+   "candidates": [
+    "Anxialis как напечатано"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 97,
+   "page": "91",
+   "location": "эпиграмма, строка 4, «fidet»",
+   "as_read": "fidet",
+   "candidates": [
+    "fides (опечатка)"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 97,
+   "page": "91",
+   "location": "эпиграмма, строка 5, «cæuet»",
+   "as_read": "cæuet",
+   "candidates": [
+    "cæuet как напечатано",
+    "cauet"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 99,
+   "page": "93",
+   "location": "эпиграмма, строка 7, «pretioſa»",
+   "as_read": "pretioſa[?]",
+   "candidates": [
+    "pretioſa (o похожа на c)"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 99,
+   "page": "93",
+   "location": "эпиграмма, строка 5, после «Cui»",
+   "as_read": "точка внизу не транскрибирована",
+   "candidates": [
+    "пятно",
+    "знак препинания"
+   ],
+   "type": "stray_mark"
+  },
+  {
+   "frame": 100,
+   "page": "94",
+   "location": "эпиграмма, строка 2, «compedibus»",
+   "as_read": "comp[e]di[b]us[?]",
+   "candidates": [
+    "compedibus (буквы e и b плохо пропечатаны)"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 102,
+   "page": "96",
+   "location": "эпиграмма, строка 3, «excitet»",
+   "as_read": "excitet[?]",
+   "candidates": [
+    "excitet"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 102,
+   "page": "96",
+   "location": "эпиграмма, строка 4, «Sicretæ»",
+   "as_read": "Sicretæ",
+   "candidates": [
+    "Si cretæ (нет пробела?)",
+    "Secretæ"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 102,
+   "page": "96",
+   "location": "эпиграмма, строка 4, «aqnas»",
+   "as_read": "aqnas",
+   "candidates": [
+    "aquas (перевёрнутая u)"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 104,
+   "page": "98",
+   "location": "эмблема",
+   "as_read": "девиза нет, только рубрика GVLA.",
+   "candidates": [
+    "рубрика = девиз"
+   ],
+   "type": "structure"
+  },
+  {
+   "frame": 104,
+   "page": "98",
+   "location": "эпиграмма, строка 2, конец",
+   "as_read": "Onocrotalum..",
+   "candidates": [
+    "Onocrotalum. (двойная точка)"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 107,
+   "page": "101",
+   "location": "вторая эмблема",
+   "as_read": "ALIVD. как девиз второй эмблемы без гравюры",
+   "candidates": [
+    "отдельная эмблема",
+    "subheading первой эмблемы"
+   ],
+   "type": "structure"
+  },
+  {
+   "frame": 108,
+   "page": "102",
+   "location": "эпиграмма, строка 1, «Regnatorq;»",
+   "as_read": "Regnatorq;[?]",
+   "candidates": [
+    "Regnatorq; (литера t не пропечаталась)"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 108,
+   "page": "102",
+   "location": "эпиграмма, строка 3, первое слово",
+   "as_read": "Quis[?]",
+   "candidates": [
+    "Quis",
+    "Quæ"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 109,
+   "page": "103",
+   "location": "колонтитул",
+   "as_read": "GVLA.[?]",
+   "candidates": [
+    "GVLA. (первая литера смазана)"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 109,
+   "page": "103",
+   "location": "эпиграмма, строка 1, «pralargo»",
+   "as_read": "pralargo",
+   "candidates": [
+    "prælargo (опечатка)"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 109,
+   "page": "103",
+   "location": "эпиграмма, строка 3, «ventriq;»",
+   "as_read": "ventriq;[?]",
+   "candidates": [
+    "ventriq; (литера t не пропечаталась)"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 110,
+   "page": "104",
+   "location": "эмблема",
+   "as_read": "девиза нет, только рубрика DOCTORVM AGNO-|MINA.",
+   "candidates": [
+    "рубрика = девиз"
+   ],
+   "type": "structure"
+  },
+  {
+   "frame": 111,
+   "page": "105",
+   "location": "строка 5, «Qni»",
+   "as_read": "Qni",
+   "candidates": [
+    "Qui (перевёрнутая u)"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 111,
+   "page": "105",
+   "location": "строка 5, после «vel»",
+   "as_read": "vel[?]columnas",
+   "candidates": [
+    "vel columnas (посторонний знак между словами)"
+   ],
+   "type": "stray_mark"
+  },
+  {
+   "frame": 112,
+   "page": "106",
+   "location": "строка 1, «hoc»",
+   "as_read": "hoc[?]",
+   "candidates": [
+    "hoc (o похожа на c: «hcc»)"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 112,
+   "page": "106",
+   "location": "строка 4, конец",
+   "as_read": "ſedet..",
+   "candidates": [
+    "ſedet. (двойная точка)"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 112,
+   "page": "106",
+   "location": "строка 6, «volucres ,ſquamea»",
+   "as_read": "пробел перед запятой",
+   "candidates": [
+    "как напечатано"
+   ],
+   "type": "spacing"
+  },
+  {
+   "frame": 112,
+   "page": "106",
+   "location": "строка 9, первое «alij»",
+   "as_read": "alij",
+   "candidates": [
+    "alij",
+    "alii"
+   ],
+   "type": "unclear_letter"
+  },
+  {
+   "frame": 112,
+   "page": "106",
+   "location": "строка 10, «ratio»",
+   "as_read": "ratio[?]",
+   "candidates": [
+    "ratio",
+    "ratiò (знак над o — возможно пятно)"
+   ],
+   "type": "unclear_diacritic"
+  },
+  {
+   "frame": 113,
+   "page": "107",
+   "location": "строка 1, между «ſphæræ» и «Fortuna»",
+   "as_read": ",[?] (знак у нижнего края строки, похож на перевёрнутую запятую/точку с запятой)",
+   "candidates": [
+    ",",
+    ";",
+    "пятно"
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 114,
+   "page": "108",
+   "location": "строка 1, «vterq;»",
+   "as_read": "vterq;[?]",
+   "candidates": [
+    "vterq; (литера t повреждена, похожа на ı)"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 114,
+   "page": "108",
+   "location": "строка 4, «ſit»",
+   "as_read": "ſit[?]",
+   "candidates": [
+    "ſit (литеры смазаны, похоже на «ſu»)"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 116,
+   "page": "110",
+   "location": "номер страницы",
+   "as_read": "110",
+   "candidates": [
+    "110 (цифры смазаны)"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 116,
+   "page": "110",
+   "location": "строка 4, «quanque»",
+   "as_read": "quanque",
+   "candidates": [
+    "quanque (напечатано через n; ожидаемо quamque) — опечатка не исправлена"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 117,
+   "page": "111",
+   "location": "строка 6, «minorq;»",
+   "as_read": "minorq; (над q виден штрих, похожий на акут)",
+   "candidates": [
+    "minorq;",
+    "minorq́;"
+   ],
+   "type": "diacritic"
+  },
+  {
+   "frame": 117,
+   "page": "111",
+   "location": "строка 6, «Vmblici»",
+   "as_read": "Vmblici",
+   "candidates": [
+    "Vmblici (ожидаемо Vmbilici) — опечатка не исправлена"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 117,
+   "page": "111",
+   "location": "строка 2, «Meonidæ»",
+   "as_read": "Meonidæ",
+   "candidates": [
+    "Meonidæ (ожидаемо Mæonidæ) — не исправлено"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 117,
+   "page": "111",
+   "location": "структура",
+   "as_read": "motto null, engraving null",
+   "candidates": [
+    "страница-продолжение эмблемы «Scyphus Neſtoris»"
+   ],
+   "type": "structure"
+  },
+  {
+   "frame": 118,
+   "page": "112",
+   "location": "строка 3, «figuloſq;»",
+   "as_read": "figuloſq; (над q штрих, как акут)",
+   "candidates": [
+    "figuloſq;",
+    "figuloſq́;"
+   ],
+   "type": "diacritic"
+  },
+  {
+   "frame": 118,
+   "page": "112",
+   "location": "строка 6, «deûmque»",
+   "as_read": "deûmque[?] (над u циркумфлекс, над следующей u ещё штрих)",
+   "candidates": [
+    "deûmque",
+    "deûmqúe"
+   ],
+   "type": "diacritic"
+  },
+  {
+   "frame": 119,
+   "page": "113",
+   "location": "строка 1, начальная I",
+   "as_read": "Icare[?] (заглавная I почти не пропечаталась)",
+   "candidates": [
+    "Icare"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 119,
+   "page": "113",
+   "location": "строка 5, «prędicere.»",
+   "as_read": "prędicere[?]. (под e крючок; после слова точка вместо запятой)",
+   "candidates": [
+    "prędicere.",
+    "prędicere,",
+    "predicere."
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 119,
+   "page": "113",
+   "location": "строка 6, «eadem»",
+   "as_read": "eadem[?] (последняя литера похожа на «ı»)",
+   "candidates": [
+    "eadem (повреждённая m)"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 119,
+   "page": "113",
+   "location": "строка 3, «feruenſq;»",
+   "as_read": "feruenſq; (над q штрих, как акут)",
+   "candidates": [
+    "feruenſq;",
+    "feruenſq́;"
+   ],
+   "type": "diacritic"
+  },
+  {
+   "frame": 120,
+   "page": "114",
+   "location": "строка 4, после «mali»",
+   "as_read": ",[?] (запятая слита с кляксой)",
+   "candidates": [
+    ",",
+    ";"
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 120,
+   "page": "114",
+   "location": "номер страницы",
+   "as_read": "114 (за цифрами знак, похожий на «]»)",
+   "candidates": [
+    "114",
+    "114]"
+   ],
+   "type": "damaged_type"
   }
  ]
 }

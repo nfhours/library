@@ -1,0 +1,48 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 117,
+ "source": "scan/frame_0117.jpg",
+ "page": "111",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "ASTROLOGIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": null,
+   "subheading": null,
+   "engraving": null,
+   "epigram": {
+    "diplomatic": [
+     "Solus eum potuit longæuus tollere Neſtor.",
+     "Meonidæ doceas quid ſibi muſa velit?",
+     "Eſt cœlum ſcyphus ipſe:color argenteus illi eſt:",
+     "Aurea ſunt cœli ſidera clauiculi.",
+     "Pleiadas eſſe putant,quas dixerit ille columbas.",
+     "Vmblici gemini,magna minorq; ſera eſt.",
+     "Hæc Neſtor longo ſapiens intelligit vſu:",
+     "Bella gerunt fortes,callidus aſtra tenet."
+    ],
+    "reading": [
+     "Solus eum potuit longævus tollere Nestor.",
+     "Meonidæ doceas quid sibi musa velit?",
+     "Est cœlum scyphus ipse: color argenteus illi est:",
+     "Aurea sunt cœli sidera claviculi.",
+     "Pleiadas esse putant, quas dixerit ille columbas.",
+     "Umblici gemini, magna minorque sera est.",
+     "Hæc Nestor longo sapiens intelligit usu:",
+     "Bella gerunt fortes, callidus astra tenet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "continuation_of": 116,
+   "notes": "Продолжение эпиграммы со с. 110. Чётные строки с отступом. Ниже текста — орнаментальная виньетка с маскароном."
+  }
+ ],
+ "ornaments": [
+  "виньетка с маскароном (гротескная голова) и завитками под текстом"
+ ],
+ "errata": [],
+ "notes": "Колонтитул «ASTROLOGIA.», номер «111» справа; сигнатуры нет."
+}

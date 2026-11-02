@@ -1,0 +1,53 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 93,
+ "source": "scan/frame_0093.jpg",
+ "page": "87",
+ "signature": "F 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "LVXVRIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Laſciuia."
+    ],
+    "reading": "Lascivia."
+   },
+   "subheading": {
+    "diplomatic": "PROBLEMA.",
+    "reading": "PROBLEMA."
+   },
+   "engraving": {
+    "position": "между подзаголовком и эпиграммой",
+    "description": "Мужчина в меховой одежде стоит на холме, поднеся руку к лицу (нюхает/подносит мех); у его ног два зверька (лисы/соболи/мыши); слева деревья и город, справа море с кораблями и горы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Delicias,& molliciem mus creditur albus",
+     "Arguere,at ratio non ſat aperta mihi eſt.",
+     "An quòd ei natura ſalax,& multa libido eſt?",
+     "Ornat Romanas an quia pelle nurus?",
+     "Sarmaticum murem vocitant plerique Zibellum,",
+     "Et celebris ſuaui eſt vnguine muſcus Arabs."
+    ],
+    "reading": [
+     "Delicias, & molliciem mus creditur albus",
+     "Arguere, at ratio non sat aperta mihi est.",
+     "An quòd ei natura salax, & multa libido est?",
+     "Ornat Romanas an quia pelle nurus?",
+     "Sarmaticum murem vocitant plerique Zibellum,",
+     "Et celebris suavi est unguine muscus Arabs."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «LVXVRIA.», номер «87» справа; сигнатура «F 4»."
+}

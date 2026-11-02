@@ -1,0 +1,51 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 96,
+ "source": "scan/frame_0096.jpg",
+ "page": "90",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "DESIDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In facilè à virtute deſci-",
+     "ſcentes."
+    ],
+    "reading": "In facilè à virtute desciscentes."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Большой парусный корабль на бурном море остановлен: у его носа/киля в волнах рыба-прилипала (ремора); справа восходящее солнце, вверху птицы и облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Parua velut limax ſpreto Remora impete venti,",
+     "Remorumq;,ratem ſiſtere ſola poteſt.",
+     "Sic quoſdam ingenio,& virtute ad ſidera vectos,",
+     "Detinet in medio tramite,cauſa leuis:",
+     "Anxialis veluti eſt:vel qui meretricius ardor",
+     "Egregijs iuuenes ſeuocat à ſtudijs."
+    ],
+    "reading": [
+     "Parva velut limax spreto Remora impete venti,",
+     "Remorumque, ratem sistere sola potest.",
+     "Sic quosdam ingenio, & virtute ad sidera vectos,",
+     "Detinet in medio tramite, causa levis:",
+     "Anxialis veluti est: vel qui meretricius ardor",
+     "Egregiis iuvenes sevocat à studiis."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «90» слева, колонтитул «DESIDIA.»; сигнатуры нет. Девиз в две строки с переносом «deſci-|ſcentes»."
+}

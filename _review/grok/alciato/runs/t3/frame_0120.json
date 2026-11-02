@@ -1,0 +1,51 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 120,
+ "source": "scan/frame_0120.jpg",
+ "page": "114",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "ASTROLOGIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Qui alta contemplantur",
+     "cadere."
+    ],
+    "reading": "Qui alta contemplantur cadere."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Птицелов в шляпе с пером натягивает лук, целясь вверх в летящего журавля и стаю птиц; у его ног на земле змея; слева деревенские дома с изгородью, деревья, горы на заднем плане.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Dum turdos viſco,pedica dum fallit alaudas,",
+     "Et iacta altiuolam figit harundo gruem,",
+     "Dipſada non prudens auceps pede perculit:vltrix",
+     "Illa mali,[?]emiſſum virus ab ore iacit.",
+     "Sic obit,extento qui ſydera reſpicit arcu,",
+     "Securus fati,quod iacet ante pedes."
+    ],
+    "reading": [
+     "Dum turdos visco, pedica dum fallit alaudas,",
+     "Et iacta altivolam figit harundo gruem,",
+     "Dipsada non prudens auceps pede perculit: ultrix",
+     "Illa mali,[?] emissum virus ab ore iacit.",
+     "Sic obit, extento qui sydera respicit arcu,",
+     "Securus fati, quod iacet ante pedes."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «114» слева (за ним след, похожий на «]»), колонтитул «ASTROLOGIA.»; сигнатуры нет."
+}

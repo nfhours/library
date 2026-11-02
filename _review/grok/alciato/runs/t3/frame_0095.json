@@ -1,0 +1,46 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 95,
+ "source": "scan/frame_0095.jpg",
+ "page": "89",
+ "signature": "F 5[?]",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "DESIDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Deſidiam abijciendam."
+    ],
+    "reading": "Desidiam abiiciendam."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Перед хижиной с соломенной крышей старик (Пифагор?) склоняется к сидящему юноше, поднимая его за руку/понуждая встать; рядом мешки/хлебная мера; позади руина башни, деревья, птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quisquis iners abeat.Nam in chœnice ſigere ſedẽ,",
+     "Nos prohibent Samij dogmata ſancta ſenis.",
+     "Surge igitur,duroq; manus adſueſce labori,",
+     "Det tibi dimenſos craſtina vt hora cibos."
+    ],
+    "reading": [
+     "Quisquis iners abeat.Nam in chœnice sigere sedem,",
+     "Nos prohibent Samii dogmata sancta senis.",
+     "Surge igitur, duroque manus adsuesce labori,",
+     "Det tibi dimensos crastina ut hora cibos."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Строки 2 и 4 с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «DESIDIA.», номер «89» справа; сигнатура повреждена, читается «F 5» (цифра похожа на 9)."
+}

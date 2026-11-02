@@ -1,0 +1,46 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 91,
+ "source": "scan/frame_0091.jpg",
+ "page": "85",
+ "signature": "F 3",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "LVXVRIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Amuletum Veneris."
+    ],
+    "reading": "Amuletum Veneris."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Венера сидит на земле и склоняется над мёртвым Адонисом, укрывая его (листьями латука); слева Амур с крыльями; на заднем плане хижина, холмы, замок на горе, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Inguina dente fero ſuffoſſum Cypris Adonin",
+     "Lactucæ folijs condidit exanimem.",
+     "Hinc genitali aruo tantum lactuca reſiſtit[?],",
+     "Quantum eruca ſalax vix ſtimulare poteſt,[?]"
+    ],
+    "reading": [
+     "Inguina dente fero suffossum Cypris Adonin",
+     "Lactucæ foliis condidit exanimem.",
+     "Hinc genitali arvo tantum lactuca resistit[?],",
+     "Quantum eruca salax vix stimulare potest, [?]"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Строки 2 и 4 с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «LVXVRIA.», номер «85» справа; сигнатура «F 3»."
+}

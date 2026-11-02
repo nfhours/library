@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 114,
+ "source": "scan/frame_0114.jpg",
+ "page": "108",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "NATVRA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In iuuentam."
+    ],
+    "reading": "In iuventam."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "На каменном постаменте-алтаре стоят два обнажённых юноши: слева Вакх в венке из виноградных листьев держит гроздь, справа Аполлон в лучах с луком и стрелами; между ними лира/арфа; облака, холмистый пейзаж.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Natus vterque Iouis,tener atque imberbis vterq;[?],",
+     "Quem Latona tulit,quem tulit & Semele,",
+     "Saluete,æterna ſimul & florete iuuenta,",
+     "Numine ſit[?] veſtro quæ diuturna mihi.",
+     "Tu vino curas,tu victu dilue morbos,",
+     "Vt lento accedat ſera ſenecta pede."
+    ],
+    "reading": [
+     "Natus uterque Iovis, tener atque imberbis uterque[?],",
+     "Quem Latona tulit, quem tulit & Semele,",
+     "Salvete, æterna simul & florete iuventa,",
+     "Numine sit[?] vestro quæ diuturna mihi.",
+     "Tu vino curas, tu victu dilue morbos,",
+     "Ut lento accedat sera senecta pede."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «108» слева, колонтитул «NATVRA.»; сигнатуры нет."
+}

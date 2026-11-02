@@ -1,0 +1,46 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 94,
+ "source": "scan/frame_0094.jpg",
+ "page": "88",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "DESIDIA.",
+ "rubric": "DESIDIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Deſidia."
+    ],
+    "reading": "Desidia."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Бородатый старец в плаще (ессей) стоит на дороге, глядя вверх на звёздное небо, держа под плащом наклонно факел/палку; позади дом, деревья, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Deſidet in modio Eſſæus,ſpeculator & aſtra,",
+     "Subtus & accenſam contegit igne facem.",
+     "Segnities ſpecie recti,ve lata cuculo,",
+     "Non ſe,non alios vtilitate iuuat."
+    ],
+    "reading": [
+     "Desidet in modio Essæus, speculator & astra,",
+     "Subtus & accensam contegit igne facem.",
+     "Segnities specie recti, ve lata cuculo,",
+     "Non se, non alios utilitate iuvat."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Строки 2 и 4 с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «88» слева, колонтитул «DESIDIA.»; сигнатуры нет."
+}

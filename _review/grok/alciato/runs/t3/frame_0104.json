@@ -1,0 +1,41 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 104,
+ "source": "scan/frame_0104.jpg",
+ "page": "98",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "GVLA.",
+ "rubric": "GVLA.",
+ "emblems": [
+  {
+   "motto": null,
+   "subheading": null,
+   "engraving": {
+    "position": "под рубрикой, над эпиграммой",
+    "description": "Толстобрюхий мужчина в колпаке с длинной журавлиной шеей держит в руках птиц: в правой — небольшую птицу (чайку, larus), в левой — пеликана (onocrotalus); вокруг скалы, вдали две фигуры, вверху стая птиц.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Curculione gruis tumida vir pingitur aluo,",
+     "Qui Laron,aut manibus geſtat Onocrotalum..",
+     "Talis forma fuit Dionyſi,& talis Apici,",
+     "Et gula quos celebres delicioſa facit."
+    ],
+    "reading": [
+     "Curculione gruis tumida vir pingitur alvo,",
+     "Qui Laron, aut manibus gestat Onocrotalum..",
+     "Talis forma fuit Dionysi, & talis Apici,",
+     "Et gula quos celebres deliciosa facit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Строки 2 и 4 с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «98» слева, колонтитул «GVLA.»; сигнатуры нет. Внутренняя рубрика «GVLA.» над гравюрой — отдельного девиза нет."
+}

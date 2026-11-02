@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 102,
+ "source": "scan/frame_0102.jpg",
+ "page": "96",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AVARITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In diuites publico malo."
+    ],
+    "reading": "In divites publico malo."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Двое рыбаков в мелком пруду/болоте: один стоит и баламутит воду длинным шестом, другой, нагнувшись, ловит руками угрей в мутной воде; вдали холм с церковью и строениями, дерево, птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Anguillas quiſquis captat,ſi limpida verrat",
+     "Flumina,ſi illimes auſit adire lacus,",
+     "Caſſus erit:ludetq; operam:multùm excitet[?] ergo",
+     "Sicretæ,& vitreas palmula turbet aqnas:",
+     "Diues erit.Sic ijs res publica turbida lucro eſt,",
+     "Qui pace,arctati legibus,eſuriunt."
+    ],
+    "reading": [
+     "Anguillas quisquis captat, si limpida verrat",
+     "Flumina, si illimes ausit adire lacus,",
+     "Cassus erit: ludetque operam: multùm excitet[?] ergo",
+     "Sicretæ, & vitreas palmula turbet aqnas:",
+     "Dives erit.Sic iis res publica turbida lucro est,",
+     "Qui pace, arctati legibus, esuriunt."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «96» слева, колонтитул «AVARITIA.»; сигнатуры нет."
+}

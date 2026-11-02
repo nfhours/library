@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 119,
+ "source": "scan/frame_0119.jpg",
+ "page": "113",
+ "signature": "H",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "ASTROLOGIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In Aſtrologos."
+    ],
+    "reading": "In Astrologos."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Икар с опалёнными крыльями падает вниз головой с неба в море; слева вверху солнце с лицом и длинными лучами; внизу волны, корабли под парусами, справа скалистый берег с городом/строениями.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Icare[?] per ſuperos qui raptus & aëra,donec",
+     "In mare præcipitem cæra liquata daret,",
+     "Nunc te cæra eadem,feruenſq; exuſcitat ignis,",
+     "Exemplo vt doceas dogmata certa tuo.",
+     "Aſtrologus caueat quicquam prędicere[?].præceps",
+     "Nam eadem[?] impoſtor,dum ſuper aſtra volat."
+    ],
+    "reading": [
+     "Icare[?] per superos qui raptus & aëra, donec",
+     "In mare præcipitem cæra liquata daret,",
+     "Nunc te cæra eadem, fervensque exuscitat ignis,",
+     "Exemplo ut doceas dogmata certa tuo.",
+     "Astrologus caveat quicquam prædicere[?].præceps",
+     "Nam eadem[?] impostor, dum super astra volat."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «ASTROLOGIA.», номер «113» справа; сигнатура «H» внизу справа."
+}

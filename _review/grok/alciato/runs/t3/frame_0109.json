@@ -1,0 +1,46 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 109,
+ "source": "scan/frame_0109.jpg",
+ "page": "103",
+ "signature": "G 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "GVLA.[?]",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In garrulum & guloſum."
+    ],
+    "reading": "In garrulum & gulosum."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Бурное море с высокими волнами; среди волн большая водяная птица (пеликан, «truo») с огромным клювом; вдали корабль с парусом, лодка, скалистые берега, город и облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Voce boat torua,pralargo eſt gutture,roſtrum",
+     "Inſtar habet naſi multiforiſq; tubæ.",
+     "Deformem rabulam,addictum ventriq;[?],gulæq;",
+     "Signabit,volucer cùm truo pictus erit."
+    ],
+    "reading": [
+     "Voce boat torva, pralargo est gutture, rostrum",
+     "Instar habet nasi multiforisque tubæ.",
+     "Deformem rabulam, addictum ventrique[?], gulæque",
+     "Signabit, volucer cùm truo pictus erit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Строки 2 и 4 с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул (повреждён, читается «GVLA.»), номер «103» справа; сигнатура «G 4»."
+}

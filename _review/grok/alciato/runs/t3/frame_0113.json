@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 113,
+ "source": "scan/frame_0113.jpg",
+ "page": "107",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "NATVRA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ars Naturam adiuuans."
+    ],
+    "reading": "Ars Naturam adiuvans."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Слева Меркурий (Гермес) в крылатом шлеме с кадуцеем сидит на каменном кубе; справа обнажённая Фортуна с развевающимся парусом/покрывалом стоит одной ногой на шаре; позади море с кораблём, скалы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Vt ſphæræ ,[?]Fortuna,cubo ſic inſidet Hermes:",
+     "Artibus hic,varijs caſibus illa præeſt.",
+     "Aduerſus vim Fortunæ eſt ars facta:ſed artis",
+     "Cùm fortuna mala eſt,ſæpe requirit opem.",
+     "Diſce bonas artes igitur ſtudioſa iuuentus,",
+     "Quæ certæ ſecum commoda ſortis habent."
+    ],
+    "reading": [
+     "Ut sphæræ ,[?] Fortuna, cubo sic insidet Hermes:",
+     "Artibus hic, variis casibus illa præest.",
+     "Adversus vim Fortunæ est ars facta: sed artis",
+     "Cùm fortuna mala est, sæpe requirit opem.",
+     "Disce bonas artes igitur studiosa iuventus,",
+     "Quæ certæ secum commoda sortis habent."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «NATVRA.», номер «107» справа; сигнатуры нет."
+}

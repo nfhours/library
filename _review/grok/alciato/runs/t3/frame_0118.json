@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 118,
+ "source": "scan/frame_0118.jpg",
+ "page": "112",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "ASTROLOGIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Quæ ſupra nos,nihil ad nos."
+    ],
+    "reading": "Quæ supra nos, nihil ad nos."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Прометей, обнажённый бородатый мужчина, прикован цепями к скале и лежит навзничь; огромный орёл с распростёртыми крыльями терзает его грудь/печень; справа холмистый пейзаж, вдали птицы в небе.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Caucaſi æternùm pendens in rupe Prometheus",
+     "Diripitur ſacri præpetis vngue iecur.",
+     "Et nollet feciſſe hominem:figuloſq; peroſus",
+     "Accenſam rapto damnat ab igne facem.",
+     "Roduntur varijs prudentum pectora curis,",
+     "Qui cœli affectant ſcire,deûmque[?] vices."
+    ],
+    "reading": [
+     "Caucasi æternùm pendens in rupe Prometheus",
+     "Diripitur sacri præpetis ungue iecur.",
+     "Et nollet fecisse hominem: figulosque perosus",
+     "Accensam rapto damnat ab igne facem.",
+     "Roduntur variis prudentum pectora curis,",
+     "Qui cœli affectant scire, deûmque[?] vices."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «112» слева, колонтитул «ASTROLOGIA.»; сигнатуры нет."
+}

@@ -1,0 +1,44 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 100,
+ "source": "scan/frame_0100.jpg",
+ "page": "94",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AVARITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In aulicos."
+    ],
+    "reading": "In aulicos."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Во дворе дворца у стены сидит придворный в богатой одежде, закованный в колодки/цепи (ноги в оковах); справа мощёная площадь, колоннада и храм, вверху птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Vana Palatinos quos educat aula clientes,",
+     "Dicitur auratis nectere comp[e]di[b]us[?]."
+    ],
+    "reading": [
+     "Vana Palatinos quos educat aula clientes,",
+     "Dicitur auratis nectere comp[e]di[b]us[?]."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Строка 2 с отступом."
+  }
+ ],
+ "ornaments": [
+  "под эпиграммой — картуш-виньетка с маскароном (голова барана/сатира)"
+ ],
+ "errata": [],
+ "notes": "Номер «94» слева, колонтитул «AVARITIA.»; сигнатуры нет."
+}

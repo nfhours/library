@@ -1,0 +1,45 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 110,
+ "source": "scan/frame_0110.jpg",
+ "page": "104",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "DOCTORVM AGNOMINA.",
+ "rubric": "DOCTORVM AGNOMINA.",
+ "emblems": [
+  {
+   "motto": null,
+   "subheading": null,
+   "engraving": {
+    "position": "под рубрикой, над эпиграммой",
+    "description": "Учёный (профессор) сидит на кафедре под балдахином и наставляет; по обе стороны на скамьях сидят слушатели-доктора в шапках; слева в небе летящая фигура и дождь/лучи, справа извилистая река (Меандр) и фигура на воде.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Moris vetuſti eſt,aliqua profeſſoribus",
+     "Superadijci cognomina.",
+     "Faciles apertoſq; explicans tantùm locos,",
+     "Canon vocatur Curtius.",
+     "Reuoluitur qui eodem,& iteratq; nimis",
+     "Mæander,vt Pariſius."
+    ],
+    "reading": [
+     "Moris vetusti est, aliqua professoribus",
+     "Superadiici cognomina.",
+     "Faciles apertosque explicans tantùm locos,",
+     "Canon vocatur Curtius.",
+     "Revolvitur qui eodem, & iteratque nimis",
+     "Mæander, ut Parisius."
+    ]
+   },
+   "continues_on_next_page": true,
+   "notes": "Чётные строки с отступом (ямбический дистих)."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «104» слева, колонтитул «DOCTORVM AGNOMINA.» (за ним посторонний знак). Внутренняя рубрика набрана в две строки: «DOCTORVM AGNO-|MINA.»; отдельного девиза нет."
+}

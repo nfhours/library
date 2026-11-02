@@ -1,0 +1,48 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 103,
+ "source": "scan/frame_0103.jpg",
+ "page": "97",
+ "signature": "G",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AVARITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In auaros,vel quibus melior",
+     "conditio ab extraneis",
+     "offertur."
+    ],
+    "reading": "In avaros, vel quibus melior conditio ab extraneis offertur."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Корабль с парусами в бурном море; моряки на борту; на переднем плане в волнах дельфин несёт Ариона; слева вдали ещё фигура на дельфине/у берега; вверху птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Delphini inſidens vada cærula ſulcat Arion,",
+     "Hocq; aures mulcet,frænat & ora ſono.",
+     "Quàm ſit auari hominis,nõ tã mẽs dira ferarũ eſt:",
+     "Quiq; viris rapimur,piſcibus eripimur."
+    ],
+    "reading": [
+     "Delphini insidens vada cærula sulcat Arion,",
+     "Hocque aures mulcet, frænat & ora sono.",
+     "Quàm sit avari hominis, non tam mens dira ferarum est:",
+     "Quique viris rapimur, piscibus eripimur."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Строки 2 и 4 с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «AVARITIA.», номер «97» справа; сигнатура «G». Девиз в три строки."
+}

@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 108,
+ "source": "scan/frame_0108.jpg",
+ "page": "102",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "GVLA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Captiuus ob gulam."
+    ],
+    "reading": "Captivus ob gulam."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "На каменистом морском берегу большая раскрытая устрица захлопнула створки, поймав мышь (видны её хвост и задние лапы); позади скалы, бурное море с кораблём, вдали замок на холме.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Regnatorq;[?] penus,menſæq; arroſor herilis",
+     "Oſtrea mus ſummis vidit hiulca labris.",
+     "Quis[?] tenerã apponẽs barbã falſa oſſa momordit,",
+     "Aſt ea clauſérunt tacta repentè domum.",
+     "Deprenſum & tetro tenuérunt carcere furem,",
+     "Semet in obſcurum qui dederat tumulum."
+    ],
+    "reading": [
+     "Regnatorque[?] penus, mensæque arrosor herilis",
+     "Ostrea mus summis vidit hiulca labris.",
+     "Quis[?] teneram apponens barbam falsa ossa momordit,",
+     "Ast ea clausérunt tacta repentè domum.",
+     "Deprensum & tetro tenuérunt carcere furem,",
+     "Semet in obscurum qui dederat tumulum."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «102» слева, колонтитул «GVLA.»; сигнатуры нет."
+}

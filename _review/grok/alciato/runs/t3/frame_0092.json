@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 92,
+ "source": "scan/frame_0092.jpg",
+ "page": "86",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "LVXVRIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Inuiolabiles telo Cupidinis."
+    ],
+    "reading": "Inviolabiles telo Cupidinis."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Птица (вертишейка/трясогузка) с распростёртыми крыльями, распятая на четырёхспицевом колесе-круге (армиллярной сфере) над землёй; вокруг пейзаж: слева восходящее солнце и птица у дерева, справа город на горе.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Ne dirus te vincat amor,neu fœmina mentem",
+     "Diripiat magieis artibus vlla tuam:",
+     "Bacchica auis præſto tibi motacilla paretur,",
+     "Quam quadriradiam circuli in orbe loces:",
+     "Ore crucem & cauda,& geminis vt cõplicet alis,",
+     "Tale amuletum carminis omnis erit.",
+     "Dicitur hoc Veneris ſigno Pagaſæus Iaſon",
+     "Phaſiacis lædi non potuiſſe dolis."
+    ],
+    "reading": [
+     "Ne dirus te vincat amor, neu fœmina mentem",
+     "Diripiat magieis artibus ulla tuam:",
+     "Bacchica avis præsto tibi motacilla paretur,",
+     "Quam quadriradiam circuli in orbe loces:",
+     "Ore crucem & cauda, & geminis ut complicet alis,",
+     "Tale amuletum carminis omnis erit.",
+     "Dicitur hoc Veneris signo Pagasæus Iason",
+     "Phasiacis lædi non potuisse dolis."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «86» слева, колонтитул «LVXVRIA.»; сигнатуры нет."
+}

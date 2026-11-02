@@ -1,0 +1,46 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 116,
+ "source": "scan/frame_0116.jpg",
+ "page": "110",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "ASTROLOGIA.",
+ "rubric": "ASTROLOGIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Scyphus Neſtoris."
+    ],
+    "reading": "Scyphus Nestoris."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Старец Нестор в высокой шапке, с длинной бородой, в длинной одежде стоит в пейзаже и протягивает руку к большой чаше на постаменте/колонне слева, над чашей птицы (голуби); у ног упавший обломок колонны; позади холмы, дерево, дорога.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Neſtoreum geminis cratera hunc accipe fundis,",
+     "Quod grauis argenti maſſa profudit opus.",
+     "Clauiculi ex auro:ſtant circum quattuor anſæ:",
+     "Vnam quanque ſuper fulua columba ſedet."
+    ],
+    "reading": [
+     "Nestoreum geminis cratera hunc accipe fundis,",
+     "Quod gravis argenti massa profudit opus.",
+     "Claviculi ex auro: stant circum quattuor ansæ:",
+     "Unam quanque super fulva columba sedet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «110» слева (цифры смазаны), колонтитул «ASTROLOGIA.»; внутри рамки рубрика «ASTROLOGIA.»."
+}

@@ -1,0 +1,66 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 107,
+ "source": "scan/frame_0107.jpg",
+ "page": "101",
+ "signature": "G 3",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "GVLA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Paruam culinam,duobus",
+     "ganeonibus non",
+     "ſufficere."
+    ],
+    "reading": "Parvam culinam, duobus ganeonibus non sufficere."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Большое дерево с куском/кустом; на ветвях и под ним две птицы (зарянки), одна клюёт другую; справа хижина с изгородью, вдали летящие птицы; каменистая земля.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "In modicis nihil eſt quod quis lucretur:& vnum",
+     "Arbuſtum geminos non alit Erythacos."
+    ],
+    "reading": [
+     "In modicis nihil est quod quis lucretur: & unum",
+     "Arbustum geminos non alit Erythacos."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Строка 2 с отступом."
+  },
+  {
+   "motto": {
+    "diplomatic": [
+     "ALIVD."
+    ],
+    "reading": "ALIUD."
+   },
+   "subheading": null,
+   "engraving": null,
+   "epigram": {
+    "diplomatic": [
+     "In tenui ſpes nulla lucri eſt:vnoq; reſidunt",
+     "Arbuſto geminæ non bene Ficedulæ."
+    ],
+    "reading": [
+     "In tenui spes nulla lucri est: unoque residunt",
+     "Arbusto geminæ non bene Ficedulæ."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Второе двустишие под подзаголовком «ALIVD.» без собственной гравюры (относится к той же гравюре)."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «GVLA.», номер «101» справа; сигнатура «G 3». Девиз в три строки."
+}
