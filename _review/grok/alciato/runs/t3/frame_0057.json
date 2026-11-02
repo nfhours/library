@@ -1,0 +1,53 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 57,
+ "source": "scan/frame_0057.jpg",
+ "page": "51",
+ "signature": "D 2[?]",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SPES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In ſimulachrum Spei."
+    ],
+    "reading": "In simulachrum Spei."
+   },
+   "subheading": {
+    "diplomatic": "DIALOGISMVS.",
+    "reading": "DIALOGISMUS."
+   },
+   "engraving": {
+    "position": "между подзаголовком и эпиграммой",
+    "description": "Слева сидит Надежда (Спес) в покрывале с цветком; за ней стоит женщина; справа группа фигур — путто/младенец, воин с занесёнными предметами, сосуд на голове; в центре арка, на земле разбросанные предметы (сломанные стрелы).",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quæ Dea tam læto ſuſpectans ſydera vultu?",
+     "Cuius peniculis reddita inago fuit?",
+     "Elpidij fecêre manus.Ego nominor illa,",
+     "Quæ miſeris prõptã Spes bona præſtat opem.",
+     "Cur viridis tibi palla? Quòd om̃ia me duce vernẽt.",
+     "Quid manibus mortis tela refracta geris?"
+    ],
+    "reading": [
+     "Quæ Dea tam læto suspectans sydera vultu?",
+     "Cuius peniculis reddita inago fuit?",
+     "Elpidii fecêre manus.Ego nominor illa,",
+     "Quæ miseris promptam Spes bona præstat opem.",
+     "Cur viridis tibi palla? Quòd omnia me duce vernent.",
+     "Quid manibus mortis tela refracta geris?"
+    ]
+   },
+   "continues_on_next_page": true,
+   "notes": "Чётные строки с отступом. Диалог продолжается на следующей странице."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «SPES.», номер «51» справа; сигнатура внизу «D» и вторая литера, залитая пятном (вероятно «2»)."
+}

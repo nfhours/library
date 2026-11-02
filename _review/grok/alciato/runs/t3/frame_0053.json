@@ -1,0 +1,47 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 53,
+ "source": "scan/frame_0053.jpg",
+ "page": "47",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "CONCORDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Concordia inſupe-",
+     "rabilis."
+    ],
+    "reading": "Concordia insuperabilis."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Трёхтелый Герион в короне: одна фигура в доспехах с шестью руками, держит копья/древки слева и щит с изображением справа; пейзаж со скалами, вдали корабль и фигура у моря.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Tergéminos[?] inter fuerat concordia fratret.",
+     "Tanta ſimul pietas mutua[?],& vnus amor:",
+     "Inuicti humanis vt viribus ampla tenerent",
+     "Regna,vno dicti nomine Geryonis."
+    ],
+    "reading": [
+     "Tergéminos[?] inter fuerat concordia fratret.",
+     "Tanta simul pietas mutua[?], & unus amor:",
+     "Invicti humanis ut viribus ampla tenerent",
+     "Regna, uno dicti nomine Geryonis."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом. Справа от первой строки эпиграммы на поле круглое чёрное пятно (дефект)."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «CONCORDIA.», номер «47» справа; сигнатуры нет."
+}

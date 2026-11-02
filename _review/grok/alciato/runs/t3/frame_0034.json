@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 34,
+ "source": "scan/frame_0034.jpg",
+ "page": "28",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Cuſtodiendas virgines."
+    ],
+    "reading": "Custodiendas virgines."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Паллада в шлеме и развевающемся плаще стоит с копьём, у её ног слева голова Горгоны/щит, справа дракон (змей); позади справа круглый купольный храм с колоннами, слева вдали город; птицы в небе.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Vera hæc effigies.[?] innuptæ eſt Palladis:eius",
+     "Hic Draco,qui dominæ conſtitit ante pedes.",
+     "Cur diuæ comes hoc animal ? cuſtodia rerum",
+     "Huic data.[?]ſic lucos,ſacraq; templa colit.",
+     "Innuptas opus eſt cura aſſeruare puellas",
+     "Peruigili.laqueos vndique tendit amor."
+    ],
+    "reading": [
+     "Vera hæc effigies.[?] innuptæ est Palladis: eius",
+     "Hic Draco, qui dominæ constitit ante pedes.",
+     "Cur divæ comes hoc animal ? custodia rerum",
+     "Huic data.[?]sic lucos, sacraque templa colit.",
+     "Innuptas opus est cura asservare puellas",
+     "Pervigili.laqueos undique tendit amor."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом. После «colit.» и «amor.» на полях мелкие чернильные пометки (не текст)."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «28» слева, колонтитул «PRVDENTIA.»; сигнатуры нет."
+}

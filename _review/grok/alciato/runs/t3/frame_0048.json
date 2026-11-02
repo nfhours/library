@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 48,
+ "source": "scan/frame_0048.jpg",
+ "page": "42",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTITVDO.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In adulari neſcientem."
+    ],
+    "reading": "In adulari nescientem."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Вздыбленный конь сбрасывает всадника в доспехах, замахнувшегося плетью/мечом; фон — каменистая местность, слева вдали замок и маленькая фигура человека.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Scire cupis dominos toties cur Theſſalis ora",
+     "Mutet,& vt varios quærat habere duces:",
+     "Neſcit adulari,cuiquámue obtrudere palpum,",
+     "Regia quem morem principis omnis habet.",
+     "Sed veluti ingenuus ſonipes,dorſo excutit omnem,",
+     "Qui moderari ipſum neſciat Hippocomon.",
+     "Nec ſæuire tamen domino fas.vltio ſola eſt,",
+     "Dura ferum vt iubeat ferre lupata magis."
+    ],
+    "reading": [
+     "Scire cupis dominos toties cur Thessalis ora",
+     "Mutet, & ut varios quærat habere duces:",
+     "Nescit adulari, cuiquámve obtrudere palpum,",
+     "Regia quem morem principis omnis habet.",
+     "Sed veluti ingenuus sonipes, dorso excutit omnem,",
+     "Qui moderari ipsum nesciat Hippocomon.",
+     "Nec sævire tamen domino fas.ultio sola est,",
+     "Dura ferum ut iubeat ferre lupata magis."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «42» слева, колонтитул «FORTITVDO.»; сигнатуры нет."
+}

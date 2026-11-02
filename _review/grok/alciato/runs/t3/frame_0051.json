@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 51,
+ "source": "scan/frame_0051.jpg",
+ "page": "45",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "CONCORDIA.",
+ "rubric": "CONCORDIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Concordiæ Symbolum."
+    ],
+    "reading": "Concordiæ Symbolum."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Две вороны сидят по сторонам высокого скипетра, водружённого на саркофаг/алтарь с картушем и маскароном; ещё две вороны летят вверху; фон — руины арок и колонн, в небе мелкие птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Cornicum mira inter ſe concordia vitæ eſt,",
+     "Nutua ſtatq; illis intemerata fides.",
+     "Hinc volucres hæc ſceptra gerũt:ꝙ ſcilicet omnes",
+     "Conſenſu populi ſtantq;,caduntq; duces:",
+     "Quem ſi de medio tollas,diſcordia præceps",
+     "Aduolat,& ſecum regia fata trahit."
+    ],
+    "reading": [
+     "Cornicum mira inter se concordia vitæ est,",
+     "Nutua statque illis intemerata fides.",
+     "Hinc volucres hæc sceptra gerunt: ꝙ scilicet omnes",
+     "Consensu populi stantque, caduntque duces:",
+     "Quem si de medio tollas, discordia præceps",
+     "Advolat, & secum regia fata trahit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «CONCORDIA.», номер «45» справа; сигнатуры нет. Точка-пятно справа от девиза — вероятно, дефект печати."
+}

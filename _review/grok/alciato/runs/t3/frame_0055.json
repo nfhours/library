@@ -1,0 +1,51 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 55,
+ "source": "scan/frame_0055.jpg",
+ "page": "49",
+ "signature": "D",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "CONCORDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Firmiſsima conuelli",
+     "non poſſe."
+    ],
+    "reading": "Firmissima convelli non posse."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Могучий дуб в центре; с обеих сторон головы ветров дуют на него, срывая листья и жёлуди; справа вдали море, скалы и город.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Oceanus quamuis fluctus pater excitet omnes:",
+     "Danubiumq; omnem barbare Turca bibas.",
+     "Non tamen irrumpes perfracto limite:Cæſar",
+     "Dum Charlus populis bellica ſigna dabit.",
+     "Sic ſacræ quercus firmis radicibus aſtant,",
+     "Sicca licet venti concutiant folia."
+    ],
+    "reading": [
+     "Oceanus quamuis fluctus pater excitet omnes:",
+     "Danubiumque omnem barbare Turca bibas.",
+     "Non tamen irrumpes perfracto limite: Cæsar",
+     "Dum Charlus populis bellica signa dabit.",
+     "Sic sacræ quercus firmis radicibus astant,",
+     "Sicca licet venti concutiant folia."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «CONCORDIA.», номер «49» справа; сигнатура «D» внизу справа."
+}

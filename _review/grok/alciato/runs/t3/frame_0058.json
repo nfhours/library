@@ -1,0 +1,52 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 58,
+ "source": "scan/frame_0058.jpg",
+ "page": "52",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SPES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": null,
+   "subheading": null,
+   "engraving": null,
+   "epigram": {
+    "diplomatic": [
+     "Quòd viuos ſperare decet,præcido ſepultis.",
+     "Cur in dolioli tegmine pigra ſedes?",
+     "Sola domi manſi volitantibus vndique noxis,",
+     "Aſcræi vt docuit muſa verenda ſenis.",
+     "Quæ tibi adeſt volucris? Cornix fidiſsimus oſcen,",
+     "Eſt bene cùm nequeat dicere:dicit,Erit.",
+     "Qui comites? Bonus euentus,præcepsq; Cupido,",
+     "Qui præeunt? Vigilum ſomnia vana vocant.",
+     "Quæ tibi iũcta aſtat? Scelerũ Rhamnuſia vindex,",
+     "Scilicet vt ſperes nil niſi quod liceat."
+    ],
+    "reading": [
+     "Quòd vivos sperare decet, præcido sepultis.",
+     "Cur in dolioli tegmine pigra sedes?",
+     "Sola domi mansi volitantibus undique noxis,",
+     "Ascræi ut docuit musa verenda senis.",
+     "Quæ tibi adest volucris? Cornix fidissimus oscen,",
+     "Est bene cùm nequeat dicere: dicit, Erit.",
+     "Qui comites? Bonus eventus, præcepsque Cupido,",
+     "Qui præeunt? Vigilum somnia vana vocant.",
+     "Quæ tibi iuncta astat? Scelerum Rhamnusia vindex,",
+     "Scilicet ut speres nil nisi quod liceat."
+    ]
+   },
+   "continues_on_next_page": false,
+   "continuation_of": 57,
+   "notes": "Продолжение диалога «In ſimulachrum Spei» с кадра 0057. Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [
+  "Под текстом — картуш-виньетка с масками, сатирами и сценой с фигурами в центре."
+ ],
+ "errata": [],
+ "notes": "Номер «52» слева, колонтитул «SPES.»; сигнатуры нет."
+}

@@ -1,0 +1,46 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 33,
+ "source": "scan/frame_0033.jpg",
+ "page": "27",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In deprehenſum."
+    ],
+    "reading": "In deprehensum."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Мужчина у ручья/канала нагнулся и хватает руками угря (держит его листом смоковницы); слева каменная башня с аркой, позади дерево, домики, мостик, птицы в небе.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Iamdudum quacunq; fugis te perſequor:at nunc",
+     "Caſsibus in noſtris denique captus ades.",
+     "Amplius haud poteris vires eludere noſtras.",
+     "Ficulno anguillam ſtrinximus in folio."
+    ],
+    "reading": [
+     "Iamdudum quacunque fugis te persequor: at nunc",
+     "Cassibus in nostris denique captus ades.",
+     "Amplius haud poteris vires eludere nostras.",
+     "Ficulno anguillam strinximus in folio."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «PRVDENTIA.», номер «27» справа; сигнатуры нет."
+}

@@ -1,0 +1,47 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 40,
+ "source": "scan/frame_0040.jpg",
+ "page": "34",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "IVSTITIA.",
+ "rubric": "IVSTITIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Nec verbo,nec facto quen-",
+     "quam lædendum."
+    ],
+    "reading": "Nec verbo, nec facto quenquam lædendum."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Немезида в развевающихся одеждах шагает вправо, в поднятой руке держит узду/ремень, в другой — мерную палку (локоть) с подвешенной уздечкой; на земле позади лежат поверженные люди; фон — море/река, город, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aſſequitur,Nemeſiſq; virûm veſtigia ſeruat,",
+     "Continet & cubitum,duraq; fræna manu.",
+     "Nè malè qd facias:néue improba verba loquaris:",
+     "Et iubet in cunctis rebus adeſſe modum."
+    ],
+    "reading": [
+     "Assequitur, Nemesisque virûm vestigia servat,",
+     "Continet & cubitum, duraque fræna manu.",
+     "Nè malè qd facias: néve improba verba loquaris:",
+     "Et iubet in cunctis rebus adesse modum."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «34» слева, колонтитул «IVSTITIA.»; сигнатуры нет."
+}

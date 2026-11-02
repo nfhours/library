@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 39,
+ "source": "scan/frame_0039.jpg",
+ "page": "33",
+ "signature": "C",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Gramen."
+    ],
+    "reading": "Gramen."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Пейзаж: в центре на земле куст травы (гнездо жаворонка в траве); слева двое людей (один склонился/падает, другой его поддерживает); справа на постаменте статуя воина с мечом и щитом и рядом обнажённая женская статуя; вдали холмы, башня, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Gramineam Fabio patres tribuêre corollam,",
+     "Fregerat vt Pœnos Hannibalemq; mora.",
+     "Occulit inflexo nidum ſibi gramine alauda,",
+     "Vulgò aiunt,pullos ſic fouet illa ſuos.",
+     "Saturno Martiq; ſacrum,quo Glaucus adeſo",
+     "Polybides,factus creditur eſſe Deus.",
+     "His meritò arguitur nodis tutela,ſaluſq;:",
+     "Herbaq; tot viret hæc digitalis habet."
+    ],
+    "reading": [
+     "Gramineam Fabio patres tribuêre corollam,",
+     "Fregerat ut Pœnos Hannibalemque mora.",
+     "Occulit inflexo nidum sibi gramine alauda,",
+     "Vulgò aiunt, pullos sic fovet illa suos.",
+     "Saturno Martique sacrum, quo Glaucus adeso",
+     "Polybides, factus creditur esse Deus.",
+     "His meritò arguitur nodis tutela, salusque:",
+     "Herbaque tot viret hæc digitalis habet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом. После «alauda,» на поле мелкая чернильная точка."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «PRVDENTIA.», номер «33» справа; сигнатура «C» внизу справа."
+}

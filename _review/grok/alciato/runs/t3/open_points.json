@@ -466,6 +466,380 @@
     "пробел перед «)» как напечатано"
    ],
    "type": "spacing"
+  },
+  {
+   "frame": 34,
+   "page": "28",
+   "location": "эпиграмма, строка 1, после «effigies»",
+   "as_read": ".[?]",
+   "candidates": [
+    "точка",
+    "случайная краска/пятно (знака нет)"
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 34,
+   "page": "28",
+   "location": "эпиграмма, строка 4, после «data»",
+   "as_read": ".[?]",
+   "candidates": [
+    "точка",
+    ",",
+    "пятно"
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 34,
+   "page": "28",
+   "location": "эпиграмма, строка 3",
+   "as_read": "animal ?",
+   "candidates": [
+    "пробел перед «?» как напечатано"
+   ],
+   "type": "spacing"
+  },
+  {
+   "frame": 38,
+   "page": "32",
+   "location": "колонтитул",
+   "as_read": "PRVDBNTIA.",
+   "candidates": [
+    "PRVDBNTIA. (как напечатано)",
+    "PRVDENTIA. — повреждённая/перевёрнутая E"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 38,
+   "page": "32",
+   "location": "эпиграмма, строка 8",
+   "as_read": "Abſit )an",
+   "candidates": [
+    "пробел перед «)» как напечатано"
+   ],
+   "type": "spacing"
+  },
+  {
+   "frame": 40,
+   "page": "34",
+   "location": "эпиграмма, строка 3, 3-е слово",
+   "as_read": "qd",
+   "candidates": [
+    "qd (знак сокращения не виден)",
+    "qđ = quod"
+   ],
+   "type": "abbreviation"
+  },
+  {
+   "frame": 41,
+   "page": "35",
+   "location": "гравюра, надпись на гробнице",
+   "as_read": "AIACIS[?]",
+   "candidates": [
+    "AIACIS",
+    "AIACES"
+   ],
+   "type": "illegible"
+  },
+  {
+   "frame": 41,
+   "page": "35",
+   "location": "эпиграмма, строка 7",
+   "as_read": "Thelamoniade",
+   "candidates": [
+    "Thelamoniade (как напечатано)",
+    "Telamoniade"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 42,
+   "page": "36",
+   "location": "девиз, после «ferociſsimos»",
+   "as_read": "ferociſsimos[?]",
+   "candidates": [
+    "ferociſsimos (за «s» — посторонний штрих, похожий на «l»)",
+    "ferociſsimosl"
+   ],
+   "type": "damaged"
+  },
+  {
+   "frame": 46,
+   "page": "40",
+   "location": "эпиграмма, строка 4, последнее слово",
+   "as_read": "Ariſtomenes[?]",
+   "candidates": [
+    "Ariſtomenes (над конечным s — черта/пятно)",
+    "Ariſtomenẽs"
+   ],
+   "type": "unclear_diacritic"
+  },
+  {
+   "frame": 46,
+   "page": "40",
+   "location": "эпиграмма, строка 3",
+   "as_read": "moneo: Quãtũ",
+   "candidates": [
+    "пробел после двоеточия как напечатано"
+   ],
+   "type": "spacing"
+  },
+  {
+   "frame": 47,
+   "page": "41",
+   "location": "гравюра, на быке",
+   "as_read": "Vitam[?]",
+   "candidates": [
+    "Vitam",
+    "Viam",
+    "просвечивание/помета владельца"
+   ],
+   "type": "illegible"
+  },
+  {
+   "frame": 47,
+   "page": "41",
+   "location": "эпиграмма, строка 3",
+   "as_read": "dicebat )&",
+   "candidates": [
+    "пробел перед «)» как напечатано"
+   ],
+   "type": "spacing"
+  },
+  {
+   "frame": 49,
+   "page": "43",
+   "location": "эпиграмма, строка 1, после «pondus»",
+   "as_read": ".[?]",
+   "candidates": [
+    "точка",
+    "пятно (знака нет)"
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 49,
+   "page": "43",
+   "location": "эпиграмма, строка 4, первое слово",
+   "as_read": "Queis[?]",
+   "candidates": [
+    "Queis",
+    "Quẽis (над e штрих)"
+   ],
+   "type": "unclear_diacritic"
+  },
+  {
+   "frame": 50,
+   "page": "44",
+   "location": "девиз",
+   "as_read": "Onnia",
+   "candidates": [
+    "Onnia (как напечатано)",
+    "Omnia"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 50,
+   "page": "44",
+   "location": "эпиграмма, строка 3, последнее слово",
+   "as_read": "Iyæi",
+   "candidates": [
+    "Iyæi (как напечатано)",
+    "Lyæi"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 50,
+   "page": "44",
+   "location": "эпиграмма, строка 7, конечный знак",
+   "as_read": ";",
+   "candidates": [
+    ";",
+    ","
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 51,
+   "page": "45",
+   "location": "эпиграмма, строка 2, первое слово",
+   "as_read": "Nutua",
+   "candidates": [
+    "Nutua (как напечатано)",
+    "Mutua"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 51,
+   "page": "45",
+   "location": "эпиграмма, строка 3, сокращение после «gerũt:»",
+   "as_read": "ꝙ",
+   "candidates": [
+    "ꝙ (quod)",
+    "qđ"
+   ],
+   "type": "abbreviation_glyph"
+  },
+  {
+   "frame": 52,
+   "page": "46",
+   "location": "эпиграмма, строка 1, второе слово",
+   "as_read": "bellum[?]",
+   "candidates": [
+    "bellum",
+    "bellnm (сбитая u)"
+   ],
+   "type": "damaged_letter"
+  },
+  {
+   "frame": 53,
+   "page": "47",
+   "location": "эпиграмма, строка 1, первое слово",
+   "as_read": "Tergéminos[?]",
+   "candidates": [
+    "Tergéminos",
+    "Tergëminos",
+    "Tergeminos (знак над e — пятно)"
+   ],
+   "type": "unclear_diacritic"
+  },
+  {
+   "frame": 53,
+   "page": "47",
+   "location": "эпиграмма, строка 1, последнее слово",
+   "as_read": "fratret.",
+   "candidates": [
+    "fratret. (как напечатано)",
+    "fratres,"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 53,
+   "page": "47",
+   "location": "эпиграмма, строка 2",
+   "as_read": "mutua[?]",
+   "candidates": [
+    "mutua",
+    "mutna (сбитая u)"
+   ],
+   "type": "damaged_letter"
+  },
+  {
+   "frame": 54,
+   "page": "48",
+   "location": "эпиграмма, строка 1",
+   "as_read": "quoqne",
+   "candidates": [
+    "quoqne (как напечатано, перевёрнутая u)",
+    "quoque"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 54,
+   "page": "48",
+   "location": "эпиграмма, строка 2, третье слово",
+   "as_read": "Zenalis[?]",
+   "candidates": [
+    "Zenalis",
+    "Zcnalis"
+   ],
+   "type": "unclear_letter"
+  },
+  {
+   "frame": 54,
+   "page": "48",
+   "location": "эпиграмма, строка 6, знак после «hominem»",
+   "as_read": ",",
+   "candidates": [
+    ",",
+    "."
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 56,
+   "page": "50",
+   "location": "эпиграмма, строка 1",
+   "as_read": "uoſtra[?]",
+   "candidates": [
+    "uoſtra (vostra)",
+    "ueſtra"
+   ],
+   "type": "unclear_letter"
+  },
+  {
+   "frame": 56,
+   "page": "50",
+   "location": "эпиграмма, строка 5",
+   "as_read": "aduenıãt",
+   "candidates": [
+    "aduenıãt (i без точки под тильдой)",
+    "aduenĩãt"
+   ],
+   "type": "unclear_diacritic"
+  },
+  {
+   "frame": 57,
+   "page": "51",
+   "location": "сигнатура",
+   "as_read": "D 2[?]",
+   "candidates": [
+    "D 2",
+    "D"
+   ],
+   "type": "damaged"
+  },
+  {
+   "frame": 57,
+   "page": "51",
+   "location": "эпиграмма, строка 2",
+   "as_read": "inago",
+   "candidates": [
+    "inago (как напечатано)",
+    "imago"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 57,
+   "page": "51",
+   "location": "эпиграмма, строка 3, второе слово",
+   "as_read": "fecêre",
+   "candidates": [
+    "fecêre",
+    "fecēre",
+    "fecère"
+   ],
+   "type": "unclear_diacritic"
+  },
+  {
+   "frame": 59,
+   "page": "53",
+   "location": "гравюра, над солнцем",
+   "as_read": "[...]",
+   "candidates": [
+    "надпись (неразборчива)",
+    "штриховка облаков"
+   ],
+   "type": "illegible"
+  },
+  {
+   "frame": 60,
+   "page": "54",
+   "location": "эпиграмма, строка 1, после «&»",
+   "as_read": ",[?]",
+   "candidates": [
+    "запятая",
+    "пятно/дефект"
+   ],
+   "type": "unclear_punctuation"
   }
  ]
 }

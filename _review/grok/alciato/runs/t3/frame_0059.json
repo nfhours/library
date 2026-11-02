@@ -1,0 +1,53 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 59,
+ "source": "scan/frame_0059.jpg",
+ "page": "53",
+ "signature": "D 3",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SPES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In dies meliora."
+    ],
+    "reading": "In dies meliora."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Под портиком с колоннами и занавесом группа людей у стола; человек в центре указывает на стол/подносит дар; справа восходящее солнце с лучами над холмами; внизу справа роющийся свинья (вепрь) с надписью на боку.",
+    "inscriptions": [
+     "VLTERIVS",
+     "[...] (неразборчивые знаки над солнцем)"
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Roſtra nouo mihi ſetigeri ſuis obtulit anno,",
+     "Hæcq; cliens ventri xenia(dixit)habe.",
+     "Progreditur ſemper,nec retro reſpicit vnquam,",
+     "Gramina cum pando proruit ore vorax.",
+     "Cura viris eadem eſt,ne ſpes ſublapſa retrorſum",
+     "Cedat:& vt melius ſit,quod & vlterius."
+    ],
+    "reading": [
+     "Rostra novo mihi setigeri suis obtulit anno,",
+     "Hæcque cliens ventri xenia(dixit)habe.",
+     "Progreditur semper, nec retro respicit unquam,",
+     "Gramina cum pando prorvit ore vorax.",
+     "Cura viris eadem est, ne spes sublapsa retrorsum",
+     "Cedat: & ut melius sit, quod & ulterius."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «SPES.», номер «53» справа; сигнатура «D 3»."
+}

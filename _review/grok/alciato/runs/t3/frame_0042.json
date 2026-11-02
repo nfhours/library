@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 42,
+ "source": "scan/frame_0042.jpg",
+ "page": "36",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "IVSTITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Etiam ferociſsimos[?] domari."
+    ],
+    "reading": "Etiam ferocissimos[?] domari."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Воин в доспехах и шлеме (Антоний) с копьём стоит на колеснице, запряжённой львами, мчащейся вправо; фон — горы, крепость на холме, вдали две маленькие фигуры.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Romanum poſtquàm eloquiũ,Cicerone perempto,",
+     "Perdiderat patriæ peſtis acerba ſuæ:",
+     "Inſcendit currus victor,iunxitq; leones,",
+     "Compulit & durum colla ſubire iugum,",
+     "Magnanimos ceſsiſſe ſuis Antonius armis,",
+     "Ambage hac cupiens ſignificare duces."
+    ],
+    "reading": [
+     "Romanum postquàm eloquium, Cicerone perempto,",
+     "Perdiderat patriæ pestis acerba suæ:",
+     "Inscendit currus victor, iunxitque leones,",
+     "Compulit & durum colla subire iugum,",
+     "Magnanimos cessisse suis Antonius armis,",
+     "Ambage hac cupiens significare duces."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «36» слева, колонтитул «IVSTITIA.»; сигнатуры нет."
+}

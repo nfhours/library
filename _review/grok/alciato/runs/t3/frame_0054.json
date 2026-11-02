@@ -1,0 +1,51 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 54,
+ "source": "scan/frame_0054.jpg",
+ "page": "48",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "CONCORDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Vnum nihil,duos pluri-",
+     "mùm poſſe."
+    ],
+    "reading": "Unum nihil, duos plurimùm posse."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Два героя: слева идущий человек (Улисс) с поклажей и сумкой на спине указывает рукой; справа воин (Диомед) в шлеме с перьями, с копьём и круглым щитом; вдали пейзаж с городом.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Laërtæ genitum,genitum quoqne Tydeos vnà,",
+     "Hac cera expreſsit Zenalis[?] apta manus.",
+     "Viribus hic præſtat,hic pollet acumine mentis,",
+     "Nec tamen alterius non eget alter ope.",
+     "Cùm duo coniuncti veniunt,victoria certa eſt.",
+     "Solùm mens hominem,dextráue deſtituit."
+    ],
+    "reading": [
+     "Laërtæ genitum, genitum quoqne Tydeos unà,",
+     "Hac cera expressit Zenalis[?] apta manus.",
+     "Viribus hic præstat, hic pollet acumine mentis,",
+     "Nec tamen alterius non eget alter ope.",
+     "Cùm duo coniuncti veniunt, victoria certa est.",
+     "Solùm mens hominem, dextráve destituit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «48» слева, колонтитул «CONCORDIA.»; сигнатуры нет."
+}

@@ -1,0 +1,56 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 50,
+ "source": "scan/frame_0050.jpg",
+ "page": "44",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTITVDO.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Onnia mea mecum porto."
+    ],
+    "reading": "Onnia mea mecum porto."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Скиф, целиком закутанный в мохнатые шкуры, идёт влево, сгорбившись; позади дерево, справа море с кораблями и далёкий берег; внизу на земле надпись.",
+    "inscriptions": [
+     "SCYTHICVM MARE."
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Hunnus inops Scythiciq; miſerrimus accola ponti,",
+     "Vſtus perpetuo liuida membra gelu.",
+     "Qui Cereris non nouit opes,nec dona Iyæi,",
+     "Et pretioſa tamen ſtragula ſemper habet:",
+     "Nam murinæ illum perſtringunt vndiq; pelles.",
+     "Lumina ſola patent,cætera opertus agit.",
+     "Sic furẽ haud metuit,ſic vẽtos temnit & himbres;",
+     "Tutus apudq; viros,tutus apudq; deos."
+    ],
+    "reading": [
+     "Hunnus inops Scythicique miserrimus accola ponti,",
+     "Ustus perpetuo livida membra gelu.",
+     "Qui Cereris non novit opes, nec dona Iyæi,",
+     "Et pretiosa tamen stragula semper habet:",
+     "Nam murinæ illum perstringunt undique pelles.",
+     "Lumina sola patent, cætera opertus agit.",
+     "Sic furem haud metuit, sic ventos temnit & himbres;",
+     "Tutus apudque viros, tutus apudque deos."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «44» слева, колонтитул «FORTITVDO.»; сигнатуры нет."
+}
