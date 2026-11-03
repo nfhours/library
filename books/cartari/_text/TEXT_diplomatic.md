@@ -2591,7 +2591,7 @@ cose de gli Astrologi, perche le imagini da loro poste poco fanno à mio proposi
 *Gli Vsciua fuor, & al suo picciol grido*
 *Si vedea di splendor qualche scintilla.*
 *La sua sorella de la poppa molle*
-*Nel lato manco fuor il latte fugge.*
+*Nel lato manco fuor il latte sugge.*
 *E de l'almo liquor non ben satolla,*
 *A Thetide pietosa ascinga il petto.*
 *Si leuan gonfie à lei le tempie alquanto,*
@@ -7610,7 +7610,7 @@ cui due donne, vna per lato mostrauano di dire non sò che pian piano all'orecch
 Conciosia che, come dicono alcuni versi creduti di Virgilio, e tirati in questa guisa al volgare,
 
 *Vn veneno è la Inuidia, che diuora*
-*Le midolle, & il sangue tutto fugge.*
+*Le midolle, & il sangue tutto sugge.*
 *Onde l'inuido n'hà debita pena;*
 *Perche mentre l'altrui sorte l'accora,*
 *Sospira, freme, e come Leon rugge,*
