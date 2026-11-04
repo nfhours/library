@@ -9799,9 +9799,9 @@ Le imagini della Pace, che si vedono ne gl'Ouati sono tolte da Medaglie.
 
 ## Скан 0538 · с. 496
 
-daglie. & di quella, ch'è alata gentilmente discorre Gio. Viuiano, appresso Adolfo Occone, nelle Medaglie dell'Imperator Claudio.
+daglie. & di quella, ch'è alata gentilmente discorre Gio. Viuiano, appresso Adolfo Occone, nelle Medaglie dell'Imperàtor Claudio.
 
-Questa notabilità dell'Autore si vede chiara nella statua dell'Imperatore M. Aurelio, in Roma in Campidoglio. dalla quale però hanno trauiato i Moderni. Il simile si vede nelle Medaglie dell'Imperator Probo, & Costantino, & d'altri, nelle Allocutioni d'altri Imperatori & in altre memorie antiche.
+Questa notabilità dell'Autore sì vede chiara nella statua dell'Imperatore M. Aurelio, in Roma in Campidoglio. dalla quale però hanno trauiato i Moderni. Il simile si vede nelle Medaglie dell'Imperator Probo, & Costantino, & d'altri, nelle Allocutioni d'altri Imperatori & in altre memorie antiche.
 
 [ГРАВЮРА: без подписи]
 
@@ -9810,8 +9810,8 @@ Ne due Camei s'è rappresentato, in vno Mercurio, che frena il Pegaso, & nell'al
 [ВИНЬЕТКА: наборная типографская виньетка (цветочный орнамент)]
 
 Колонтитул: 496 Annotationi
-Кустод:
-Сигнатура: Ii
+Кустод: Il
+Сигнатура:
 Маргиналии:
 - Car. 222. Lin. 17.
 - Car. 269.
@@ -9822,11 +9822,11 @@ Ne due Camei s'è rappresentato, in vno Mercurio, che frena il Pegaso, & nell'al
 
 Il secondo s'è preso da vn taglio antico.
 
-Nelle figure de' Camei si vedono gl'Hermi, ò statue quadrate di Mercurio, cauate da due tagli antichi. Et simile cosa si vede in vn Denario Romano della famiglia Titia, sopra'l quale vedasi F. Orsino nella medesima famiglia. & de gl'Hermi in particolare io vidi già vn bello Commentarietto scritto da Achille Statio, stampato in Roma, con le figure, ch'erano molte, cauate da mo te statoe antiche di questa sorte. Simile a gl'Hermi era per mio parere il Dio Termine, del quale si vede l'Imagine in vna Medaglia d'argento d'Augusto, come qui sotto.
+Nelle figure de' Camei si vedono gl'Hermi, ò statue quadrate di Mercurio, cauate da due tagli antichi. Et simile cosa si vede in vn Denario Romano della famiglia Titia, sopra'l quale vedasi F. Orsino nella medesima famiglia. & de gl'Hermi in particolare io vidi gia vn bello Commentarietto scritto da Achille Statio, stampato in Roma, con le figure, ch'erano molte, cauate da mo[?]te statoe antiche di questa sorte. Simile a gl'Hermi era per mio parere il Dio Termine, del quale si vede l'Imagine in vna Medaglia d'argento d'Augusto, come qui sotto.
 
 Колонтитул: All'Imagini del Cartari. 497
-Кустод:
-Сигнатура: Ii    It
+Кустод: Et
+Сигнатура: Ii
 Маргиналии:
 - Car. 271.
 
@@ -9834,7 +9834,7 @@ Nelle figure de' Camei si vedono gl'Hermi, ò statue quadrate di Mercurio, cauat
 
 [ГРАВЮРА: без подписи]
 
-Et che fra' termini, ch'erano di molte sorti, fosse questa figura ancora, si caua da Higeno, che nella raccolta de gl'Autori, che trattano cose di Campagna, registra vn termine di questa fatta, chiamato da lui Hermula. Del Termine ragiona Lattantio nel Lib. 1. a cap. 20. dalle parole del quale si puo cauare la spositione d'vn' Enigma, che Varrone compose di questa Deità. Co'l Termine costumauano gl'antichi di sepelire ceneri, carboni, rottami di terra cotta, vetri rotti, ossa alquanto brusciate, calce, gesso & simile, per segno, come dice Sicolo Flacco, di confine posto in quel luogo. Et a proposito de' carboni, nota pure il medesimo Sant'Agostino nel lib. 21. della Città d'Iddio, al cap. 4. come auuertisce l'Illustriss. Sig. MARCO VELSERO nel 4. Lib. della sua eruditissima Hist. d'Augusta, gentil'huomo compitissimo & passato a vita migliore, con estremo dolore de' Letterati, mentr'io scriueuo queste cose, il dì 24. Giugno. Aggiungo io, che Plinio racconta nel Lib. 35. al cap. 6. che alcuni Pittori costumauano
+Et che fra' termini, ch'erano di molte sorti, fosse questa figura ancora, si caua da Higeno, che nella raccolta de gl'Autori, che trattano cose di Campagna, registra vn termine di questa fatta, chiamato da lui Hermula. Del Termine ragiona Lattantio nel Lib. 1. a cap. 20. dalle parole del quale si puo cauare la spositione d'vn' Enigma, che Varrone compose di questa Deità. Co'l Termine costumauano gl'antichi di sepelire ceneri, carboni, rottami di terra cotta, vetri rotti, ossa alquanto brusciate, calce, gesso & simile, per segno, come dice Sicolo Flacco, di confine posto in quel luogo. Et a proposito de' carboni, nota pure il medesimo Sant'Agostino nel lib. 21. della Città d'Iddio, al cap. 4 come auuertisce l'Illustriss. Sig. MARCO VELSERO nel 4. Lib. della sua eruditissima Hist. d'Augusta, gentil'huomo compitissimo & passato a vita migliore, con estremo dolore de' Letterati, mentr'io scriueuo queste cose, il dì 24. Giugno. Aggiungo io, che Plinio racconta nel Lib. 35. al cap. 6. che alcuni Pittori costumauano
 
 Колонтитул: 498 Annotationi
 Кустод: trarre
@@ -9857,7 +9857,7 @@ Questo pensiero de i Francesi intorno Hercole è marauigliosamente espresso in v
 Кустод: Qui
 Сигнатура: Ii 2
 Маргиналии:
-- Car. 273. Lin. 15.
+- Car. 273. Lin. 13.
 - Car. 281.
 - Car. 284. Lin. 33.
 
@@ -9865,11 +9865,11 @@ Questo pensiero de i Francesi intorno Hercole è marauigliosamente espresso in v
 
 [ГРАВЮРА: без подписи]
 
-Qui si vede Hercole in habito poco meno, che di Mercurio. Il Caduceo, & l'Ale à'piedi s'intendono. La Palma è segno d'Eloquenza vittoriosa; che per questo anticamente alle Porte delle case degl'Auuocati s'attacauano le Palme, come si legge appresso Lucano, e Giuuenale. La Base, o Pilastretto, al quale egli s'appoggia significa la saldezza dell'Eloquenza. Il Fuoco, ch'esce dal vaso, l'impeto della medesima. La Stella & la Luna, la chiarezza, & nobiltà di lei. Ne molto lontano da questo pensiero è l'Hercole Musagete, o come diressimo, guida delle Muse, espresso da gl'antichi nella maniera, che qui sotto si mostrarà: per darci ad intendere, come scriue Eumenio Rhetore, che la quiete delle Muse, ha bisogno della difesa d'Hercole: e'l valore d'Hercole della voce, e del canto di quelle. Così Eumenio, per seruire al suo intento, il quale si serue ancora dell'essempio di Fuluio, che nel circo fabricò il Tempio commune ad Hercole, & alle muse. Ma è necessario, che l'Antichità si regolasse con altro pensiero, poiche diede in mano ad Hercole la Cithara, il Plettro, come si vede in vn bellissimo Cameo del già Patr. d'Aquileia, & nelle Medaglie della famiglia Pomponia, delle quali stà qui sotto l'estratto.
+Qui si vede Hercole in habito poco meno, che di Mercurio. Il Caduceo, & l'Ale à'piedi s'intendono. La Palma è segno d'Eloquenza vittoriosa; che per questo anticamente alle Porte delle case degl'Auuocati s'attacauano le Palme, come si legge appresso Lucano, e Giuuenale. La Base, o Pilastretto, al quale egli s'appoggia significa la saldezza dell'Eloquenza. Il Fuoco, ch'esce dal vaso, l'impeto della medesima. La Stella & la Luna, la chiarezza, & nobiltà di lei. Ne molto lontano da questo pensiero è l'Hercole Musagete, o come diressimo, guida delle Muse, espresso da gl'antichi nella maniera, che qui sotto si mostrarà: per darci ad intendere, come scriue Eumenio Rhetore, che la quiete delle Muse, ha bisogno della difesa d'Hercole: e'l valore d'Hercole della voce, e del canto di quelle. Cosi Eumenio, per seruire al suo intento, il quale si serue ancora dell'essempio di Fuluio, che nel circo fabricò il Tempio commune ad Hercole, & alle muse. Ma è necessario, che l'Antichità si regolasse con altro pensiero, poiche diede in mano ad Hercole la Cithara, il Plettro, come si vede in vn bellissimo Cameo del già Patr. d'Aquileia, & nelle Medaglie della famiglia Pomponia, delle quali stà qui sotto l'estratto.
 
 Колонтитул: 500 Annotationi
-Кустод:
-Сигнатура: типографский орнамент/виньетка (не буквенно-цифровая сигнатура)
+Кустод: He[?]
+Сигнатура:
 Маргиналии:
 
 ## Скан 0543 · с. 501
@@ -9882,7 +9882,7 @@ Hercole nelle Medaglie degl'Imperatori Diocletiano, & Massimiano si vede armato 
 Кустод: In
 Сигнатура: Ii 3
 Маргиналии:
-- Car. 225. Lin. 33.
+- Car. 225 Lin. 33.
 
 ## Скан 0544 · с. 502
 
@@ -9893,7 +9893,7 @@ In due Camei si vedono due delle principali fatiche d'Hercole. vna come si vede 
 Hercole toccato qui si vede espresso in Roma, in campidoglio, nel Palazzo de' Conseruadori, in vna bellissima Statua di bronzo.
 
 Колонтитул: 502 Annotationi
-Кустод: Erap.
+Кустод: Erap-
 Сигнатура:
 Маргиналии:
 - Car. 287.
@@ -9918,7 +9918,7 @@ Con Hercole era delle medesime fattezze il Dio Semone Sanco de' Sabini, come si 
 
 Chi più ne vuole legga F. Orsino nelle famiglie, & Pietro Ciaccone in vn suo Trattatelo intorno ciò, stampato in Roma con altre sue cose, L'anno 1608. dal qnale discorda il Card. Baronio negl'Annali, nel primo Tomo.
 
-Io ho osseruato nelle memorie antiche, che bene spesso doue sta il Tripode, sta ancora il Grifone. Di questo ( o bestia o vccello, che si fosse ) vedasi Antonio Agostini, & la Spositione nostra detla Mensa Isiaca. Et è certo, cge la Antichità lo teneua per animale Solare. Ma, per dire alcuna cosa ancora delle Antichità Ecclesiastiche, vsarono i nostri maggiori di mettere i Grifoni nè vestiboli delle porte delle Chiese, come si vede pur hoggi quell'vso conseruato inanzi la nostra Catedrale, & alla porta della Chiesa nobilissima di santa Giustina, doue si vedono, nell'vno e nell'altro luogho de i Leoni ancora. E quanto al Grifone io direi, che gl'antichi credettero, ch'esso fosse custode delle minere dell'Oro, come si legge in Plinio, & appresso la Simia di Plinio Solino, s'io non fallo. Il medesimo concetto ne formarono i Poeti, che per questo Claudiano, scriuendo a Serena figliola di Theodosio. dice che nelle nozze d'Orfeo, frà varij animali, che co' presenti lo honorarono; che i Grifoni portarono seco copia d'oro tratta dalle maniere de' monti Hiperborei Che forse di quà cauarono gl'Alchimisti moderni il Presidentato del Sole sopra l'Oro, & vedasi l'Autore a car. 322. Hora la Fede appresso de' nostri
+Io ho osseruato nelle memorie antiche, che bene spesso doue stà il Tripode, sta ancora il Grifone. Di questo ( o bestia o vccello, che si fosse ) vedasi Antonio Agostini, & la Spositione nostra detla Mensa Isiaca. Et è certo, cge la Antichità lo teneua per animale Solare. Ma, per dire alcuna cosa ancora delle Antichità Ecclesiastiche, vsarono i nostri maggiori di mettere i Grifoni nè vestiboli delle porte delle Chiese, come si vede pur hoggi quell'vso conseruato inanzi la nostra Catedrale, & alla porta della Chiesa nobilissima di santa Giustina, doue si vedono, nell'vno e nell'altro luogho de i Leoni ancora. E quanto al Grifone io direi, che gl'antichi credettero, ch'esso fosse custode delle minere dell'Oro, come si legge in Plinio, & appresso la Simia di Plinio Solino, s'io non fallo. Il medesimo concetto ne formarono i Poeti, che per questo Claudiano, scriuendo a Serena figliola di Theodosio. dice che nelle nozze d'Orfeo, frà varij animali, che co' presenti lo honorarono; che i Grifoni portarono seco copia d'oro tratta dalle maniere de' monti Hiperborei Che forse di quà cauarono gl'Alchimisti moderni il Presidentato del Sole sopra l'Oro, & vedasi l'Aurore a car. 322. Hora la Fede appresso de'
 
 Колонтитул: 504 Annotationi
 Кустод: nostri
@@ -9948,22 +9948,23 @@ nutio nella spositione delle Epistole scritte ad Atico da Cicerone: l'Hermeracla
 
 Et la serpe inuolta intorno l'arco s'è presa da vna bellissima, & antichissima grande corniola, che fu d'Antonio Baisio, tagliata di mano d'Antifilo, nel riuerso della quale si leggeua, che Dracone figliolo di Theagene, valente arciere, la dedicaua a Minerua. I due altri camei si sono tratti da vna Medaglietta di Domitiano, ch'io ho appresso di me bellissima, & conseruatissima con alcune altre del medesimo argomento.
 
-Antonio Agostino homo singolarissimo, nel suo Dialogo 5. delle Medaglie, dice, che la Egide era vn'armatura del collo, e del petto. Il che non è assolutamente vero. E del collo io tengo di nò. Del petto solo ne anco questo è vero, poiche in vna mia Statua di Pallade la Egide cuopre anco la schiena. Et vna simile era già in Roma, in mano d'vn mio amico. Ma molto a proposito di questo luogo sono le parole di Seruio, sopra l'ottauo dell'Eneide in quel verso.
+Antonio Agostino homo singolarissimo, nel suo Dialogo 5. delle Medaglie, dice, che la Egide era vn'armatura del collo, e del petto. Il che non è assolutamente vero. E del collo io tengo di nò. Del petto solo ne anco questo è vero, poiche in vna mia Statua di Pallade la Egide cuopre anco la schiena. Et vna simile era gia in Roma, in mano d'vn mio amico. Ma molto a proposito di questo luogo sono le parole di Seruio, sopra l'ottauo dell'Eneide in quel verso.
 
 *Egidaq; horrificam turbatæ Palladis arma,*
 
-La Egide (dice Seruio) è propriamente vna coperta del petto fatta di
+La Egide (dice Seruio) è propriamente vna coperta del petto fatta
 
 Колонтитул: 506 Annotationi
 Кустод: di
 Сигнатура:
 Маргиналии:
+- источник: Virgilio, Aeneis VIII (verso «Egidaq; horrificam turbatæ Palladis arma»; nel testo «l'ottauo dell'Eneide»)
 
 ## Скан 0549 · с. 507
 
 di rame, che tiene nel mezzo il capo della Gorgone. E questo se cuopre il petto di qualche deità, si chiama Egide, se cuopre il petto d'vn'huomo, come vediamo nelle statue antiche de gl'Imperatori, si chiama corazza. Et di quà prese argomento Martiale di adulare l'Imperatore Domitiano, nel principio del Libro VII
 
-*Dum Vacat hæc, & Cæsar, poterit lorica vocari:*
+*Dum vacat hæc, & Cæsar, poterit lorica vocari:*
 *Pectore cum sacro sederit Ægis erit.*
 
 E volle forse il Poeta dare ( come si dice ) nell'humore a Domitiano, che voleua esser tenuto ( come si caua da Filostrato ) figliolo di Pallade.
@@ -9974,7 +9975,7 @@ Poteua dire l'Autore, che questo era Hercole, come apunto è, vedasi l'Ocone, ch
 
 Questa fauola di Prodico è tocca da Filostrato nella vita d'Apollonio Tianeo, da Silio Italico, che la trasferì a Scipione Africano il maggiore, da Giustino Martire nell'Apologetico, & da altri ancora.
 
-L'Harpocrate alato non è così bene rappresentato, come bisognaua. perche sopra il braccio manco haueua da stare apppoggiato vn Cronucopia, che l'Intagliatore se lo ha scordato, si vede però senza ale ancora, & co'l solo Cornucopia, come quì.
+L'Harpocrate alato non è cosi bene rappresentato, come bisognaua. perche sopra il braccio manco haueua da stare apppoggiato vn Cronucopia, che l'Intagliatore se lo ha scordato, si vede però senza ale ancora, & co'l solo Cornucopia, come quì.
 
 [ГРАВЮРА: без подписи]
 
@@ -9986,6 +9987,7 @@ L'Harpocrate alato non è così bene rappresentato, come bisognaua. perche sopra
 - Car. 306. Lin. 13.
 - Lin. 27.
 - Car. 310.
+- источник: Martiale, Epigrammata VII (versi «Dum vacat hæc, & Cæsar, poterit lorica vocari»; nel testo «Martiale ... nel principio del Libro VII»)
 
 ## Скан 0550 · с. 508
 

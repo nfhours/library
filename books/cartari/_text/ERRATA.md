@@ -101,10 +101,10 @@
 | 0531 | 489 | Conseruadori | Conseruatori | перепутанная буква |
 | 0535 | 493 | imaeini | imagini | перепутанная буква |
 | 0536 | 494 | inritola | intitola | перепутанная буква |
-| 0544 | 502 | Conseruadori | Conseruatori | перепутанная буква |
 | 0546 | 504 | qnale | quale | перепутанная буква |
 | 0546 | 504 | detla | della | перепутанная буква |
 | 0546 | 504 | cge | che | перепутанная буква |
+| 0546 | 504 | Aurore | Autore | перепутанная буква |
 | 0549 | 507 | apppoggiato | appoggiato | лишняя буква |
 | 0549 | 507 | Cronucopia | Cornucopia | перестановка букв |
 | 0566 | 524 | Virgiiio | Virgilio | перепутанная буква |
