@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "79";
+  var APP_VER = "80";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -1093,7 +1093,7 @@
   function inl(s){ return esc(s).replace(/\*([^*]+)\*/g,"<em>$1</em>"); }
   function quoteHtml(b){
     var stanzas = [[]];
-    (b.lines||[]).forEach(function(l){ if(l.trim()) stanzas[stanzas.length-1].push(inl(l)); else if(stanzas[stanzas.length-1].length) stanzas.push([]); });
+    (b.lines||[]).forEach(function(l){ if(l.trim()) stanzas[stanzas.length-1].push('<span class="ic-vl">'+inl(l)+'</span>'); else if(stanzas[stanzas.length-1].length) stanzas.push([]); });
     var h = '<div class="ic-ch-quote">'+stanzas.filter(function(x){ return x.length; }).map(function(x){ return '<p class="ic-verse">'+x.join("<br>")+'</p>'; }).join("");
     if(b.author) h += '<p class="ic-ch-qa">— '+esc(b.author)+'</p>';
     return h+'</div>';

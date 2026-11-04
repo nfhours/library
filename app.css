@@ -456,6 +456,12 @@ a.ic-ch-btn{display:inline-block;font-size:.78em;letter-spacing:.06em;text-trans
 /* на узком экране текст по левому краю с переносами: рядом с пометой строки не растягиваются */
 @media (max-width:899px){
   .ic-ch-body p{text-align:left;text-align-last:auto;hyphens:auto}
+  /* помета — отдельная строка над своим абзацем, прижата вправо; пометы одного абзаца идут столбиком */
+  .ic-ch-aside{float:none;clear:none;display:block;width:auto;margin:0 0 .35em;padding:0 .6em 0 0;border-left:0;border-right:1px solid var(--rule);text-align:right}
+  .ic-ch-aside+.ic-ch-aside{margin-top:-.1em}
+  /* стихи: каждая строка отдельным блоком, перенос с висячим отступом */
+  .ic-ch-quote .ic-verse br{display:none}
+  .ic-ch-quote .ic-vl{display:block;padding-left:1.5em;text-indent:-1.5em}
 }
 @media (max-width:520px){
   .ic-ch-fig{max-width:17em}
