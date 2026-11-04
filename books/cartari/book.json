@@ -17,6 +17,7 @@
   "idPrefix": "cart",
   "viewer": "figure",
   "frIsTranslation": true,
+  "chapters": {"data": "chapters_ru.json", "links": "chapter_links.tsv"},
   "ornaments": {
     "enabled": true,
     "source": "cartari"

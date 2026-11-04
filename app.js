@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "76";
+  var APP_VER = "78";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -110,7 +110,14 @@
     objCount:     {ru:"Предметов: {n}", en:"Objects: {n}", fr:"Objets : {n}"},
     progressShort:{ru:"{done} из {total} переведено", en:"{done} of {total} translated", fr:"{done} sur {total} traduits"},
     viewList:     {ru:"Список предметов", en:"Object list", fr:"Liste des objets"},
-    viewBook:     {ru:"Как в книге", en:"As printed", fr:"Comme imprimé"}
+    viewBook:     {ru:"Как в книге", en:"As printed", fr:"Comme imprimé"},
+    readInChapter:{ru:"Читать в главе →", en:"Read in the chapter →", fr:"Lire dans le chapitre →"},
+    chApprox:     {ru:"Границы фрагмента определены приблизительно — полный текст в главе.", en:"The excerpt boundaries are approximate — see the chapter for the full text.", fr:"Les limites de l'extrait sont approximatives — le texte complet est dans le chapitre."},
+    chRuOnly:     {ru:"", en:"The chapter text is available in Russian only.", fr:"Le texte du chapitre n'existe qu'en russe."},
+    chNotYet:     {ru:"Перевод этой главы ещё не добавлен на сайт.", en:"This chapter has not been added to the site yet.", fr:"Ce chapitre n'a pas encore été ajouté au site."},
+    chNext:       {ru:"Следующая глава", en:"Next chapter", fr:"Chapitre suivant"},
+    chPrev:       {ru:"Предыдущая глава", en:"Previous chapter", fr:"Chapitre précédent"},
+    chToc:        {ru:"Главы", en:"Chapters", fr:"Chapitres"}
   };
   function t(key, vars){
     var s = (DICT[key] && (DICT[key][state.lang] || DICT[key].en || DICT[key].ru)) || key;
@@ -450,7 +457,8 @@
 
   /* ---------- маршрутизация ---------- */
   // Форматы адреса: "#/<slug>/<id>" — карточка; "#/<slug>" — указатель книги;
-  // "#/<slug>/about" — страница «О книге»; "#/<slug>/plate/<n>" — просмотр таблицы
+  // "#/<slug>/about" — страница «О книге»; "#/<slug>/ch/<глава>[/<блок>]" — глава
+  // русского перевода (только книги с book.json chapters); "#/<slug>/plate/<n>" — просмотр таблицы
   // целиком с номерами (только для книг с book.json viewer:"plate");
   // "#/" или пусто — библиотека (когда книга не закреплена через data-book).
   // Старый формат без слага "#/p1-3" по-прежнему работает и ведёт в "iconologie" —
@@ -470,18 +478,22 @@
     if(!rest.length) return {slug:slug};
     if(rest[0]==="about") return {slug:slug, view:"about"};
     if(rest[0]==="plate" && rest[1]) return {slug:slug, view:"plate", plateNum:rest[1]};
+    if(rest[0]==="ch" && rest[1]) return {slug:slug, view:"chapter", chapter:rest[1], block:rest[2]};
     return {slug:slug, id:rest[0]};
   }
 
   function route(){
     renderGen++;
     if(activeSheetClose){ activeSheetClose(); }
-    var p = parseHash();
+    var p = parseHash(), gen = renderGen;
     if(!p.slug){ renderLibraryHome(); return; }
     openBook(p.slug, function(book){
       if(!book){ if(!forcedBook) renderLibraryHome(); return; }
       var isPlateBook = book.meta.viewer==="plate";
-      if(p.view==="about") renderAbout(book);
+      if(p.view==="chapter" && book.meta.chapters) renderChapter(book, p.chapter, p.block);
+      else if(p.id && book.byId[p.id] && book.meta.chapters && state.lang==="ru" && book.chap===undefined)
+        loadChapters(book, function(){ if(gen===renderGen) renderCard(book, book.byId[p.id]); });
+      else if(p.view==="about") renderAbout(book);
       else if(p.view==="plate") renderPlate(book, p.plateNum);
       else if(p.id && book.byId[p.id] && isPlateBook && book.byId[p.id].plate!=null) renderPlate(book, book.byId[p.id].plate, {focus:p.id});
       else if(p.id && book.byId[p.id]) renderCard(book, book.byId[p.id]);
@@ -553,7 +565,7 @@
   function go(book, id){ state.scroll = window.scrollY; location.hash = forcedBook ? "#/"+id : "#/"+book.slug+"/"+id; }
   function goIndex(book){ location.hash = forcedBook ? "" : "#/"+book.slug; }
   function hrefFor(book, suffix){ return forcedBook ? "#/"+suffix : "#/"+book.slug+"/"+suffix; }
-  function toTop(){
+  function toTop(noImgSnap){
     // The standalone page's back-bar is sticky over the top of the viewport
     // (root.dataset.top, e.g. "52px"). Snapping root's top to 0 would land
     // the new article's first row — the "Back to index" button — right
@@ -576,6 +588,9 @@
     // anchoring then nudges the scroll position to compensate for that shift
     // — which is what was occasionally leaving an article open mid-page
     // instead of at the top. Re-snap after each image loads to undo that.
+    // noImgSnap: в длинной главе картинки подгружаются лениво уже при прокрутке, и
+    // повторный snap() на их load возвращал страницу в начало.
+    if(noImgSnap) return;
     root.querySelectorAll("img").forEach(function(img){
       if(img.complete) return;
       img.addEventListener("load", snap, {once:true});
@@ -705,7 +720,10 @@
       if(state.filter==="ready" && !ready(it, book)) return false;
       if(state.filter==="withimg" && it.textOnly) return false;
       if(state.filter==="noimg" && !it.textOnly) return false;
-      return !nq || nq.split(/\s+/).every(function(w){ return it.key.indexOf(w)>-1; });
+      if(!nq) return true;
+      var k = it.key, ck = chapKey(book, it);
+      if(ck) k += " "+ck;
+      return nq.split(/\s+/).every(function(w){ return k.indexOf(w)>-1; });
     });
     if(state.sort==="ru") res.sort(function(a,b){ return titleOf(a).localeCompare(titleOf(b),state.lang==="ru"?"ru":state.lang); });
     else if(state.sort==="page") res.sort(function(a,b){ return a.part-b.part || a.pn-b.pn || a.ord-b.ord; });
@@ -762,6 +780,10 @@
       var r=e.target.closest(".ic-row-item"); if(r && (e.key==="Enter"||e.key===" ")){ e.preventDefault(); go(book, r.getAttribute("data-id")); }
     });
     fill(book);
+    if(state.lang==="ru" && book.meta.chapters && book.chap===undefined){
+      var cgen = renderGen;
+      loadChapters(book, function(){ if(cgen===renderGen && state.q.trim()) fill(book); });
+    }
     if(state.scroll){ var y=state.scroll, gen=renderGen; state.scroll=0; requestAnimationFrame(function(){ if(gen===renderGen) window.scrollTo(0,y); }); }
     nudgeRepaint();
   }
@@ -982,6 +1004,8 @@
     var tailHtml = tailpieceHtml(book, it);
     var dropHtml = translArr && translArr.length ? dropcapFor(book, it, translArr[0]) : null;
     var transl=paraHtml(translArr, dropHtml, function(idx){ return dividerHtml(book, it, idx); });
+    var chEx = chapterExcerpt(book, it);
+    if(chEx) transl = chEx.html;
     var showOrig = book.meta.showOriginal !== false;
     var hasScans = showOrig && it.scans && it.scans.length;
     var hasFr = showOrig && !book.meta.frIsTranslation && it.text_fr && it.text_fr.length && !fuOrigIsDup(it, book);
@@ -1017,7 +1041,7 @@
         (imgs?'<div class="ic-figs">'+imgs+'</div>'+captionLine+plateLink:"")+
         (fieldsHtml?'<section class="ic-sec"><h3>'+t("infoSec")+'</h3><ul class="ic-attrs">'+fieldsHtml+'</ul></section>':"")+
         (attrs?'<section class="ic-sec"><h3>'+t("whatSec")+'</h3><ul class="ic-attrs">'+attrs+'</ul></section>':"")+
-        (transl?'<section class="ic-sec"><h3>'+t("translSec")+'</h3><div class="ic-text">'+transl+'</div></section>':"")+
+        (transl?'<section class="ic-sec"><h3>'+t("translSec")+'</h3><div class="ic-text">'+transl+'</div>'+(chEx?chEx.more:"")+'</section>':"")+
         ((hasScans||hasFr)?renderOriginal(it,book):"")+
         (!imgs && !transl ? '<div class="ic-missing"><b>'+t("missing")+'</b><br>'+t("missingAt",{part:it.part,page:esc(it.page)})+'</div>':"")+
         (transl?tailHtml:"")+
@@ -1038,6 +1062,147 @@
     if(showOrig && (hasScans||hasFr)) bindOriginal(it, pagesBase);
     toTop();
     nudgeRepaint();
+  }
+
+  /* ---------- главы русского перевода (book.meta.chapters) ----------
+     chapters.data — chapters_ru.json (оглавление + блоки собранных глав),
+     chapters.links — chapter_links.tsv (запись -> глава, блок, уверенность).
+     Грузится лениво: только при открытии главы или карточки с русским
+     текстом, поэтому остальные книги и указатель Картари этого не касаются. */
+  function loadChapters(book, cb){
+    var cfg = book.meta.chapters;
+    if(!cfg){ cb(null); return; }
+    if(book.chap !== undefined){ cb(book.chap); return; }
+    var base = BASE+"books/"+book.slug+"/";
+    Promise.all([
+      fetch(base+cfg.data,{cache:"no-cache"}).then(function(r){ if(!r.ok) throw 0; return r.json(); }),
+      fetch(base+cfg.links,{cache:"no-cache"}).then(function(r){ return r.ok ? r.text() : ""; }).catch(function(){ return ""; })
+    ]).then(function(res){
+      var list = res[0].chapters || [], bySlug = {}, links = {};
+      list.forEach(function(c){ bySlug[c.slug] = c; });
+      res[1].split("\n").slice(1).forEach(function(ln){
+        var c = ln.replace(/\r$/,"").split("\t");
+        if(c.length < 4 || !c[0]) return;
+        links[c[0]] = {chapter:c[1], block:parseInt(c[2],10), conf:c[3], end:parseInt(c[4],10)||0, anchor:c[5]||""};
+      });
+      book.chap = {list:list, bySlug:bySlug, links:links};
+      cb(book.chap);
+    }).catch(function(){ book.chap = null; cb(null); });
+  }
+  // *курсив* из исходного md; остальной текст экранируется
+  function inl(s){ return esc(s).replace(/\*([^*]+)\*/g,"<em>$1</em>"); }
+  function quoteHtml(b){
+    var stanzas = [[]];
+    (b.lines||[]).forEach(function(l){ if(l.trim()) stanzas[stanzas.length-1].push(inl(l)); else if(stanzas[stanzas.length-1].length) stanzas.push([]); });
+    var h = '<div class="ic-ch-quote">'+stanzas.filter(function(x){ return x.length; }).map(function(x){ return '<p class="ic-verse">'+x.join("<br>")+'</p>'; }).join("");
+    if(b.author) h += '<p class="ic-ch-qa">— '+esc(b.author)+'</p>';
+    return h+'</div>';
+  }
+  // Поиск в русском интерфейсе идёт и по новому переводу: текст фрагмента главы, к которому привязана запись.
+  function chapKey(book, it){
+    if(state.lang!=="ru" || !book.chap) return "";
+    if(it.chKey===undefined){
+      var lk = book.chap.links[it.id], ch = lk && book.chap.bySlug[lk.chapter], parts = [];
+      if(ch && ch.blocks && lk.block && lk.block <= ch.blocks.length){
+        var end = Math.min(Math.max(lk.end || lk.block, lk.block), ch.blocks.length, lk.block+149);
+        for(var i = lk.block-1; i < end; i++){
+          var b = ch.blocks[i];
+          parts.push(b.t==="quote" ? (b.lines||[]).join(" ") : (b.text||""));
+        }
+      }
+      it.chKey = parts.length ? norm(parts.join(" ").replace(/\*/g,"").replace(/\[\?\]/g," ")) : "";
+    }
+    return it.chKey;
+  }
+  function chapterHref(book, slug, block){ return hrefFor(book, "ch/"+slug+(block?"/"+block:"")); }
+  // Карточка записи в русском интерфейсе: первые 2–3 абзаца нового перевода с места записи
+  // + кнопка в главу. null — запись не привязана (или язык не русский): остаётся старый text_ru.
+  function chapterExcerpt(book, it){
+    if(state.lang!=="ru" || !book.chap) return null;
+    var lk = book.chap.links[it.id], ch = lk && book.chap.bySlug[lk.chapter];
+    if(!ch || !ch.blocks || !lk.block || lk.block > ch.blocks.length) return null;
+    var end = Math.min(lk.end || ch.blocks.length, ch.blocks.length), out = [], n = 0;
+    for(var i = lk.block-1; i < end && n < 3; i++){
+      var b = ch.blocks[i];
+      if(b.t==="p"){
+        var txt = b.text;
+        if(i===lk.block-1 && lk.anchor){
+          var k = txt.indexOf(lk.anchor);
+          if(k > 0) txt = (/^[А-ЯЁ«"]/.test(lk.anchor) ? "" : "…") + txt.slice(k);
+        }
+        out.push('<p>'+inl(txt)+'</p>'); n++;
+      } else if(b.t==="quote"){ out.push(quoteHtml(b)); n++; }
+    }
+    if(!out.length) return null;
+    return {
+      html: out.join(""),
+      more: (lk.conf!=="точно" ? '<p class="ic-ch-note">'+esc(t("chApprox"))+'</p>' : "")+
+        '<p class="ic-ch-more"><a class="ic-ch-btn" href="'+esc(chapterHref(book, lk.chapter, lk.block))+'">'+esc(t("readInChapter"))+'</a></p>'
+    };
+  }
+
+  function blockHtml(book, b){
+    var n = ' data-n="'+b.n+'"';
+    if(b.t==="aside") return '<aside class="ic-ch-aside"'+n+'>'+inl(b.text)+'</aside>';
+    if(b.t==="quote") return quoteHtml(b).replace('<div class="ic-ch-quote"', '<div class="ic-ch-quote"'+n);
+    if(b.t==="cap"){
+      var src = b.eng ? BASE+"books/"+(book.meta.ornaments && book.meta.ornaments.source || book.slug)+"/engravings/"+b.eng : "";
+      return '<figure class="ic-ch-fig"'+n+'>'+
+        (src ? '<div class="ic-fig ic-fig-eng" data-src="'+esc(src)+'"><img class="ic-fade-img ic-eng-display" loading="lazy" src="'+esc(src)+'"'+
+          (b.w&&b.h ? ' width="'+b.w+'" height="'+b.h+'"' : "")+' alt="'+esc(t("engravingAlt",{title:b.text.slice(0,60)}))+'"></div>' : "")+
+        '<figcaption>'+inl(b.text)+'</figcaption></figure>';
+    }
+    return '<p'+n+'>'+inl(b.text)+'</p>';
+  }
+
+  function renderChapter(book, slug, blockN){
+    var gen = renderGen;
+    loadChapters(book, function(chap){
+      if(gen !== renderGen) return;
+      var ch = chap && chap.bySlug[slug];
+      var idx = ch ? chap.list.indexOf(ch) : -1;
+      var prev = idx > 0 ? chap.list[idx-1] : null, next = idx >= 0 ? chap.list[idx+1] : null;
+      var toc = chap ? '<nav class="ic-ch-toc" aria-label="'+esc(t("chToc"))+'">'+chap.list.map(function(c){
+        return '<a href="'+esc(chapterHref(book, c.slug))+'"'+(c===ch?' aria-current="page"':"")+(c.blocks?"":' class="ic-ch-off"')+'>'+esc(c.title.replace(/\s*\(вступление\)$/,""))+'</a>';
+      }).join("")+'</nav>' : "";
+      function pagerBtn(c, label){
+        return c ? '<button type="button" data-ch="'+esc(c.slug)+'"><small>'+esc(label)+'</small><span>'+esc(c.title)+'</span></button>'
+                 : '<button type="button" disabled></button>';
+      }
+      var body = ch && ch.blocks
+        ? '<div class="ic-text ic-ch-body" lang="ru">'+ch.blocks.map(function(b){ return blockHtml(book, b); }).join("")+'</div>'
+        : '<p class="ic-sub">'+esc(t("chNotYet"))+'</p>';
+      root.innerHTML =
+        '<div class="ic-wrap ic-ch-wrap">'+
+          '<div class="ic-nav">'+
+            '<button type="button" class="ic-back">'+t("back")+'</button>'+
+            '<span class="ic-nav-pos"></span>'+
+            langSwitch()+
+          '</div>'+
+          '<header class="ic-head">'+
+            '<p class="ic-kicker">'+esc(bt(book.meta.title))+'</p>'+
+            '<h1 class="ic-h-fr">'+esc(ch ? ch.title : "")+'</h1>'+
+          '</header>'+
+          toc+
+          (state.lang!=="ru" && ch && ch.blocks ? '<p class="ic-ch-note">'+esc(t("chRuOnly"))+'</p>' : "")+
+          body+
+          (ch ? '<div class="ic-pager">'+pagerBtn(prev,t("chPrev"))+pagerBtn(next,t("chNext"))+'</div>' : "")+
+        '</div>';
+      bindLangSwitch(root);
+      root.querySelector(".ic-back").addEventListener("click",function(){ goIndex(book); });
+      root.querySelectorAll("[data-ch]").forEach(function(b){ b.addEventListener("click",function(){ location.hash = chapterHref(book, b.getAttribute("data-ch")).replace(/^#/,""); }); });
+      root.querySelectorAll(".ic-fig").forEach(function(f){ f.addEventListener("click",function(){ lightbox(f.getAttribute("data-src")); }); });
+      var target = blockN && /^\d+$/.test(blockN) ? root.querySelector('.ic-ch-body [data-n="'+blockN+'"]') : null;
+      if(target){
+        target.classList.add("ic-ch-hl");
+        // у гравюр заданы width/height, поэтому раскладка не прыгает; повтор — после шрифтов
+        var off = (parseFloat(root.dataset.top) || 0) + 24;
+        var snap = function(){ if(gen !== renderGen) return; window.scrollTo(0, window.scrollY + target.getBoundingClientRect().top - off); };
+        snap();
+        if(document.fonts && document.fonts.ready) document.fonts.ready.then(snap);
+      } else toTop(true);
+      nudgeRepaint();
+    });
   }
 
   /* ---------- раздел «Оригинал»: скан / французский текст ---------- */
