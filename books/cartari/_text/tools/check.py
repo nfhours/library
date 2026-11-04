@@ -148,6 +148,21 @@ def first_word_of_body(body):
     return m.group(0) if m else ""
 
 
+def last_word_of_body(body):
+    body_text = []
+    for ln in body.split("\n"):
+        if ln.strip().startswith("<!--"):
+            continue
+        if ln.strip().startswith(("Колонтитул:", "Кустод:", "Маргиналии:", "Нумерация:")):
+            break
+        body_text.append(ln)
+    joined = " ".join(body_text).strip()
+    joined = re.sub(r"\{([^|{}]*)\|[^{}]*\}", r"\1", joined)
+    if not joined or joined.endswith("]"):
+        return ""
+    return joined.split()[-1]
+
+
 FIELD_LABELS = ("Колонтитул:", "Кустод:", "Сигнатура:", "Маргиналии:", "Нумерация:", "Рукописно:", "Штамп:")
 
 
@@ -242,6 +257,27 @@ def main():
         next_first = first_word_cache.get(nxt, "")
         if normalize_word(kustod) != normalize_word(next_first):
             kustod_mismatches.append((scan, kustod, nxt, next_first))
+
+    # предупреждение: кустод мог попасть в тело страницы (слово стоит в конце тела,
+    # в кустоде и в начале следующей страницы; настоящий повтор в книге возможен, но редок)
+    kustod_in_body = []
+    for i, scan in enumerate(scans_in_tsv):
+        if scan not in page_files:
+            continue
+        kustod = kustod_cache.get(scan, "")
+        if not kustod:
+            continue
+        nxt = None
+        for j in range(i + 1, len(scans_in_tsv)):
+            if scans_in_tsv[j] in page_files:
+                nxt = scans_in_tsv[j]
+                break
+        if not nxt:
+            continue
+        last = last_word_of_body(body_cache.get(scan, ""))
+        nk = normalize_word(kustod)
+        if nk and normalize_word(last) == nk and normalize_word(first_word_cache.get(nxt, "")) == nk:
+            kustod_in_body.append((scan, last, nxt))
 
     # errata-marker syntax check: {printed|corrected} must be well-formed
     # (no unmatched/unclosed braces, no nesting, exactly one '|' per pair)
@@ -398,6 +434,10 @@ def main():
     print("  (ожидаемо: у черновиков Grok кустоды почти везде пустые, поэтому список короткий или пустой)")
     for scan, kustod, nxt, nf in kustod_mismatches:
         print(f"  scan {scan}: кустод='{kustod}' != первое слово скана {nxt} ('{nf}')")
+    print()
+    print(f"ПРЕДУПРЕЖДЕНИЕ: последнее слово тела = кустод = первое слово след. страницы (кустод мог попасть в тело): {len(kustod_in_body)}")
+    for scan, last, nxt in kustod_in_body:
+        print(f"  scan {scan}: '{last}' в конце тела и в начале скана {nxt}")
     print()
     print(f"Дублирование блока маргиналий: сканов с найденным дублированием {len(margin_dup_pages)}")
     for scan, kind, items in margin_dup_pages:
