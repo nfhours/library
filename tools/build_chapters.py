@@ -7,7 +7,9 @@
     python3 tools/build_chapters.py --all           # все 25 частей
     python3 tools/build_chapters.py --out /tmp/x.json diana
 
-Раздел «## Сомнительные места» (заметки переводчика) на сайт не попадает ни в одной главе.
+Раздел «## Сомнительные места» (заметки переводчика) как отдельный текст на сайт не попадает ни в одной
+главе, но его пункты, где есть «[?]», становятся пояснениями к значкам [?] в тексте: у блока появляется
+поле qm — список по порядку вхождений «[?]» в блоке (строка пояснения или null; null — пояснения нет).
 Части, добавленные позже (RICH), собираются полнее: заголовки «## …» и «**…**» дают блок h
 (lv 2 / lv 3), строки «- …» — отдельные абзацы, переносы строк внутри абзаца сохраняются (\\n).
 
@@ -65,6 +67,109 @@ ENG_CARD = {
 SCAN_TAIL = re.compile(r"\s*\((?:скан|сканы) [^)]*\)\s*$")
 
 
+QM_WORD = re.compile(r"[\w]+", re.U)
+QM_MAX = 520
+
+
+def qm_ctx(text, pos):
+    """Два слова перед позицией pos (в нижнем регистре, ё=е)."""
+    words = QM_WORD.findall(text[:pos].lower().replace("ё", "е"))
+    if words and words[-1] in ("с", "со"):
+        words = words[:-1]
+    return tuple(words[-2:])
+
+
+def same_word(a, b):
+    """Совпадение слов с учётом падежных окончаний (общий корень от 4 букв)."""
+    if a == b:
+        return True
+    n = min(len(a), len(b))
+    return n >= 4 and a[:max(4, n - 2)] == b[:max(4, n - 2)]
+
+
+def doubt_items(lines):
+    """Пункты раздела «Сомнительные места»: [(текст для показа, [контексты [?] в пункте])]."""
+    if "## Сомнительные места" not in lines:
+        return []
+    sec = lines[lines.index("## Сомнительные места") + 1:]
+    raw, cur = [], None
+    for ln in sec:
+        if ln.startswith("- "):
+            cur = [ln[2:].strip()]
+            raw.append(cur)
+        elif cur is not None and ln.strip() and ln.strip() != "---":
+            cur.append(ln.strip())
+    items = []
+    for parts in raw:
+        full = " ".join(parts)
+        ctxs = [qm_ctx(full.replace("*", ""), m.start()) for m in re.finditer(r"\[\?\]", full.replace("*", ""))]
+        if not ctxs:
+            continue
+        shown = re.split(r"\s*\*\*Опечатки", full)[0]
+        shown = re.sub(r"^Скан \d+[^:]*:\s*", "", shown)
+        shown = re.sub(r"\s*\((?:скан|сканы) [^)]*\)", "", shown)
+        if len(shown) > QM_MAX:
+            cut = shown[:QM_MAX]
+            k = max(cut.rfind(". "), cut.rfind("; "))
+            shown = (cut[:k + 1] if k > 150 else cut.rstrip()) + ("" if k > 150 and cut[k] == "." else "…")
+        items.append((shown.strip(), ctxs))
+    return items
+
+
+# Все [?] блока (по началу текста) -> пункт «Сомнительных мест» (по началу пункта), когда слова не совпадают
+# по написанию (латинская надпись и её русская передача).
+QM_BLOCK = {"annotationi-pignoria": [("Элий Монт", "Надпись «ÆL."), ("Перед ними — Сфинкс", "Цитата из Плиния о Сфинксе")]}
+
+
+def lead_words(shown):
+    head = re.split(r"[:—]", shown, 1)[0][:160].lower().replace("ё", "е")
+    return [w for w in QM_WORD.findall(head) if len(w) >= 5]
+
+
+def attach_qm(blocks, items, slug=None):
+    """Поле qm у блоков с [?]: пояснение из «Сомнительных мест» по двум словам перед значком."""
+    used = set()
+    for b in blocks:
+        if b["t"] == "quote":
+            flat = " ".join(b["lines"]) + ((" " + b["author"]) if b.get("author") else "")
+        else:
+            flat = b["text"]
+        flat = flat.replace("*", "")
+        qm = []
+        for m in re.finditer(r"\[\?\]", flat):
+            ctx = qm_ctx(flat, m.start())
+            best = None
+            for idx, (shown, ctxs) in enumerate(items):
+                for c in ctxs:
+                    if not c or not ctx or not same_word(c[-1], ctx[-1]):
+                        continue
+                    score = 3 if c == ctx else 2 if (len(c) == len(ctx) == 2 and same_word(c[0], ctx[0])) else 1
+                    if len(c) < 2 or len(ctx) < 2:
+                        score = 2
+                    if best is None or score > best[0]:
+                        best = (score, idx)
+            if not best:
+                near = QM_WORD.findall(flat[:m.start()].lower().replace("ё", "е"))[-6:]
+                for idx, (shown, ctxs) in enumerate(items):
+                    if any(same_word(w, v) for w in near if len(w) >= 5 for v in lead_words(shown)):
+                        best = (0, idx)
+                        break
+            if not best:
+                for bp, ip in QM_BLOCK.get(slug, []):
+                    if flat.startswith(bp):
+                        idx = next((i for i, (sh, _) in enumerate(items) if sh.startswith(ip)), None)
+                        if idx is not None:
+                            best = (0, idx)
+            if best:
+                used.add(best[1])
+                qm.append(items[best[1]][0])
+            else:
+                qm.append(None)
+        if any(qm):
+            b["qm"] = qm
+    return len(used)
+
+
 def parse_chapter(path, slug=None):
     lines = open(path, encoding="utf-8").read().split("\n")
     title = lines[0].lstrip("# ").strip()
@@ -73,6 +178,7 @@ def parse_chapter(path, slug=None):
     m = re.search(r"сканы (\d{4})[–-](\d{4})", header)
     scans = [int(m.group(1)), int(m.group(2))] if m else None
     rich = slug in RICH
+    items = doubt_items(lines)
     if "## Сомнительные места" in lines:
         lines = lines[:lines.index("## Сомнительные места")]
         while lines and lines[-1].strip() in ("", "---"):
@@ -133,6 +239,7 @@ def parse_chapter(path, slug=None):
         blocks.append({"t": "p", "text": ("\n" if rich else " ").join(para), "l": start + 1})
     for n, b in enumerate(blocks, 1):
         b["n"] = n
+    attach_qm(blocks, items, slug)
     return {"title": title, "scans": scans, "blocks": blocks}
 
 

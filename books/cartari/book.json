@@ -17,9 +17,98 @@
   "idPrefix": "cart",
   "viewer": "figure",
   "frIsTranslation": true,
-  "chapters": {"data": "chapters_ru.json", "links": "chapter_links.tsv"},
+  "chapters": {
+    "data": "chapters_ru.json",
+    "links": "chapter_links.tsv",
+    "parts": [
+      {
+        "name": {
+          "ru": "Начало книги",
+          "en": "Front matter",
+          "fr": "Début du livre"
+        },
+        "slugs": [
+          "frontespizio-dedica",
+          "prefatione",
+          "catalogo-dei",
+          "catalogo-autori"
+        ]
+      },
+      {
+        "name": {
+          "ru": "Образы богов",
+          "en": "Images of the gods",
+          "fr": "Images des dieux"
+        },
+        "slugs": [
+          "proemio",
+          "saturno",
+          "apollo",
+          "diana",
+          "giove",
+          "giunone",
+          "gran-madre",
+          "nettuno",
+          "vertunno",
+          "plutone",
+          "mercurio",
+          "minerva",
+          "bacco",
+          "fortuna",
+          "cupido",
+          "venere",
+          "gratie"
+        ]
+      },
+      {
+        "name": {
+          "ru": "Аннотации Пиньории",
+          "en": "Pignoria's annotations",
+          "fr": "Annotations de Pignoria"
+        },
+        "slugs": [
+          "annotationi-pignoria",
+          "aggionta"
+        ]
+      },
+      {
+        "name": {
+          "ru": "Вторая часть",
+          "en": "Second part",
+          "fr": "Seconde partie"
+        },
+        "slugs": [
+          "seconda-parte-titolo-dedica",
+          "seconda-parte-indiani"
+        ]
+      }
+    ]
+  },
   "ornaments": {
     "enabled": true,
     "source": "cartari"
+  },
+  "home": {
+    "author": {
+      "ru": "Винченцо Картари",
+      "en": "Vincenzo Cartari",
+      "fr": "Vincenzo Cartari"
+    },
+    "addition": {
+      "ru": "с приложением Лоренцо Пиньории",
+      "en": "with additions by Lorenzo Pignoria",
+      "fr": "avec les ajouts de Lorenzo Pignoria"
+    },
+    "edition": {
+      "ru": "Падуя, издание Тоцци, 1626",
+      "en": "Padua, Tozzi edition, 1626",
+      "fr": "Padoue, édition Tozzi, 1626"
+    },
+    "hero": "0069_28_display.webp",
+    "blurb": {
+      "ru": "«Образы богов древних» — справочник по античной иконографии, впервые вышедший в 1556 году: для каждого божества Картари рассказывает, как его изображали, что значат его атрибуты и какие мифы за ними стоят. Издание 1626 года снабжено гравюрами и приложением Лоренцо Пиньории о божествах Мексики и Японии. Здесь — русский перевод книги и все её гравюры, связанные с текстом.",
+      "en": "The Images of the Gods of the Ancients is a handbook of ancient iconography, first published in 1556: for each deity Cartari describes how it was depicted, what its attributes mean and which myths lie behind them. The 1626 edition carries engravings and Lorenzo Pignoria's appendix on the gods of Mexico and Japan. Here you will find the Russian translation of the book and all its engravings, tied to the text.",
+      "fr": "Les Images des dieux des Anciens est un manuel d'iconographie antique, paru pour la première fois en 1556 : pour chaque divinité, Cartari raconte comment on la représentait, ce que signifient ses attributs et quels mythes s'y attachent. L'édition de 1626 comporte des gravures et l'appendice de Lorenzo Pignoria sur les dieux du Mexique et du Japon. Vous trouverez ici la traduction russe du livre et toutes ses gravures, reliées au texte."
+    }
   }
 }
