@@ -7,9 +7,9 @@
     python3 tools/build_chapters.py --all           # все 25 частей
     python3 tools/build_chapters.py --out /tmp/x.json diana
 
+Раздел «## Сомнительные места» (заметки переводчика) на сайт не попадает ни в одной главе.
 Части, добавленные позже (RICH), собираются полнее: заголовки «## …» и «**…**» дают блок h
-(lv 2 / lv 3), строки «- …» — отдельные абзацы, переносы строк внутри абзаца сохраняются (\\n), раздел
-«## Сомнительные места» (заметки переводчика) на сайт не попадает.
+(lv 2 / lv 3), строки «- …» — отдельные абзацы, переносы строк внутри абзаца сохраняются (\\n).
 
 Оглавление (chapters[]) всегда содержит все главы книги по порядку; поле blocks
 есть только у собранных. Блоки: aside (помета на полях), p (абзац), quote
@@ -73,8 +73,10 @@ def parse_chapter(path, slug=None):
     m = re.search(r"сканы (\d{4})[–-](\d{4})", header)
     scans = [int(m.group(1)), int(m.group(2))] if m else None
     rich = slug in RICH
-    if rich and "## Сомнительные места" in lines:
+    if "## Сомнительные места" in lines:
         lines = lines[:lines.index("## Сомнительные места")]
+        while lines and lines[-1].strip() in ("", "---"):
+            lines.pop()
     blocks, i = [], sep + 1
     while i < len(lines):
         ln = lines[i]
