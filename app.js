@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "92";
+  var APP_VER = "94";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -128,6 +128,20 @@
     hmSearch:     {ru:"Поиск", en:"Search", fr:"Recherche"},
     hmSearchSub:  {ru:"По всему тексту и карточкам", en:"Across the text and cards", fr:"Dans le texte et les fiches"},
     hmIndex:      {ru:"Указатель", en:"Index", fr:"Index"},
+    hmIndexSub:   {ru:"Предметы и имена по страницам издания 1626\u00a0года", en:"Subjects and names, by the pages of the 1626 edition", fr:"Sujets et noms, par pages de l’édition de 1626"},
+    tvSub:        {ru:"Tavola delle cose notabili — указатель издания 1626 года. Цифры — страницы этого издания; ссылка открывает соответствующее место в переводе (в перевод не внесена разбивка на страницы, поэтому место определено с точностью до абзаца).", en:"Tavola delle cose notabili — the index of the 1626 edition. The numbers are pages of that edition; a link opens the matching place in the translation (the translation has no page breaks, so the place is accurate to the paragraph).", fr:"Tavola delle cose notabili — l’index de l’édition de 1626. Les chiffres sont les pages de cette édition ; le lien ouvre l’endroit correspondant de la traduction (au paragraphe près)."},
+    tvSearchPh:   {ru:"Найти в указателе: имя, предмет…", en:"Search the index: name, subject…", fr:"Chercher dans l’index : nom, sujet…"},
+    tvBack:       {ru:"К книге", en:"To the book", fr:"Au livre"},
+    tvSortRu:     {ru:"По-русски", en:"Russian order", fr:"Ordre russe"},
+    tvSortIt:     {ru:"По-итальянски", en:"Italian order", fr:"Ordre italien"},
+    tvLetters:    {ru:"Буквы указателя", en:"Index letters", fr:"Lettres de l’index"},
+    tvFound:      {ru:"Найдено статей: {n}", en:"Entries found: {n}", fr:"Articles trouvés : {n}"},
+    tvAll:        {ru:"Статей: {n}", en:"Entries: {n}", fr:"Articles : {n}"},
+    tvNone:       {ru:"Ничего не найдено.", en:"Nothing found.", fr:"Rien trouvé."},
+    tvSee:        {ru:"см.", en:"see", fr:"voir"},
+    tvPage:       {ru:"с.", en:"p.", fr:"p."},
+    tvApprox:     {ru:"Термина на этой странице не нашлось (возможна опечатка в указателе 1626 г.) — открывается примерное место", en:"The term was not found on this page (possible misprint in the 1626 index); an approximate place opens", fr:"Terme introuvable sur cette page (coquille possible dans l'index de 1626) ; une place approximative s'ouvre"},
+    tvOpen:       {ru:"Открыть место в переводе", en:"Open the place in the translation", fr:"Ouvrir l’endroit dans la traduction"},
     hmNames:      {ru:"Имена", en:"Names", fr:"Noms"},
     hmSoon:       {ru:"скоро", en:"soon", fr:"bientôt"},
     hmSearchGo:   {ru:"Найти", en:"Search", fr:"Chercher"},
@@ -507,6 +521,7 @@
     if(rest[0]==="about") return {slug:slug, view:"about"};
     if(rest[0]==="home") return {slug:slug, view:"home", tab:rest[1]};
     if(rest[0]==="find") return {slug:slug, view:"find"};
+    if(rest[0]==="index") return {slug:slug, view:"tavola"};
     if(rest[0]==="plate" && rest[1]) return {slug:slug, view:"plate", plateNum:rest[1]};
     if(rest[0]==="ch" && rest[1]) return {slug:slug, view:"chapter", chapter:rest[1], block:rest[2]};
     return {slug:slug, id:rest[0]};
@@ -526,6 +541,7 @@
       if(hasHome && p.id && book.chap && book.chap.pl.byOld[p.id]){ location.replace(hrefFor(book, "plate/"+book.chap.pl.byOld[p.id])); return; }
       if(p.view==="home" && book.meta.home) renderHome(book, p.tab);
       else if(p.view==="chapter" && book.meta.chapters) renderChapter(book, p.chapter, p.block);
+      else if(p.view==="tavola" && book.meta.tavola) renderTavola(book);
       else if(p.id && book.byId[p.id] && book.meta.chapters && state.lang==="ru" && book.chap===undefined)
         loadChapters(book, function(){ if(gen===renderGen) renderCard(book, book.byId[p.id]); });
       else if(p.view==="about") renderAbout(book);
@@ -1273,6 +1289,123 @@
   }
 
 
+
+  /* ---------- указатель (Tavola, #/<slug>/index; book.json "tavola": файл) ----------
+     tavola.json строит tools/build_tavola.py: статьи с русским и итальянским заголовками и
+     номерами страниц издания 1626 г.; у каждой страницы — глава и номер блока перевода (k: m — по помете
+     на полях, t — по слову в тексте, p — по положению страницы, c — только глава). */
+  var tavolaCache = {}, tavolaUi = {q:"", scroll:0, sort:"ru"};
+  function tvFold(s){
+    s = String(s||"").toLowerCase().replace(/ё/g,"е").normalize("NFD").replace(/[̀-ͯ]/g,"");
+    return s.replace(/ph/g,"f").replace(/th/g,"t").replace(/ch/g,"c").replace(/h/g,"").replace(/v/g,"u").replace(/j/g,"i").replace(/k/g,"c").replace(/y/g,"i").replace(/([a-z])\1+/g,"$1");
+  }
+  function loadTavola(book, cb){
+    if(tavolaCache[book.slug]){ cb(tavolaCache[book.slug]); return; }
+    fetch(BASE+"books/"+book.slug+"/"+book.meta.tavola,{cache:"no-cache"}).then(function(r){ if(!r.ok) throw 0; return r.json(); })
+      .then(function(d){
+        d.byId = {};
+        d.entries.forEach(function(e){
+          e.h = tvFold(e.ru+" "+e.it+" "+(e.subs||[]).map(function(x){ return x.ru+" "+x.it; }).join(" "));
+          d.byId[e.id] = e;
+          (e.subs||[]).forEach(function(x){ d.byId[x.id] = e; });
+        });
+        tavolaCache[book.slug] = d; cb(d);
+      }).catch(function(){ cb(null); });
+  }
+  function renderTavola(book){
+    var gen = renderGen;
+    loadTavola(book, function(d){
+      if(gen !== renderGen) return;
+      if(!d){ root.innerHTML = '<div class="ic-wrap"><p class="ic-sub">'+esc(t("chNotYet"))+'</p></div>'; return; }
+      function ruLetter(e){ var m = (e.ru||"").toUpperCase().replace(/Ё/g,"Е").match(/[А-Я]/); return m ? m[0] : e.letter; }
+      function ordered(){
+        if(tavolaUi.sort==="it") return d.entries.map(function(e){ return {e:e, l:e.letter}; });
+        return d.entries.map(function(e){ return {e:e, l:ruLetter(e)}; }).sort(function(a,b){
+          return a.l===b.l ? (a.e.ru||a.e.it).replace(/[«»\s]/g,"").localeCompare((b.e.ru||b.e.it).replace(/[«»\s]/g,""), "ru") : a.l.localeCompare(b.l, "ru");
+        });
+      }
+      function lettersOf(list){ var out = []; list.forEach(function(x){ if(out.indexOf(x.l)<0) out.push(x.l); }); return out; }
+      function pagesHtml(e){
+        if(e.see){
+          var tg = e.see_id && d.byId[e.see_id];
+          return '<span class="ic-tv-see">'+esc(t("tvSee"))+' '+(tg ? '<a href="#" data-tv="'+esc(e.see_id)+'">'+esc(tg.ru||tg.it)+'</a>' : esc(e.see))+'</span>';
+        }
+        if(!e.pages || !e.pages.length) return "";
+        return '<span class="ic-tv-pg">'+esc(t("tvPage"))+' '+e.pages.map(function(p){
+          return '<a href="'+esc(chapterHref(book, p.ch, p.n))+'"'+(p.k==="p" ? ' class="ic-tv-ap" title="'+esc(t("tvApprox"))+'"' : ' title="'+esc(t("tvOpen"))+'"')+'>'+p.p+'</a>';
+        }).join(", ")+'</span>';
+      }
+      function entryHtml(e, sub){
+        return '<div class="ic-tv-'+(sub?"sub":"e")+'"'+(sub?"":' id="tv-'+e.id+'"')+'>'+
+          '<div class="ic-tv-l"><span class="ic-tv-ru">'+esc(e.ru||e.it)+'</span>'+(e.ru ? ' <span class="ic-tv-it" lang="it">'+esc(e.it)+'</span>' : "")+'</div>'+
+          pagesHtml(e)+'</div>';
+      }
+      root.innerHTML =
+        '<div class="ic-wrap ic-tv">'+
+          '<div class="ic-nav"><button type="button" class="ic-back">← '+esc(book.meta.home ? t("tvBack") : t("back"))+'</button><span class="ic-nav-pos"></span>'+langSwitch()+'</div>'+
+          '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("hmIndex"))+'</h1></header>'+
+          '<p class="ic-tv-lead">'+esc(t("tvSub"))+'</p>'+
+          (state.lang!=="ru" ? '<p class="ic-ch-note">'+esc(t("chRuOnly"))+'</p>' : "")+
+          '<div class="ic-tv-bar">'+
+            '<span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("tvSearchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("tvSearchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
+            '<nav class="ic-tv-letters" aria-label="'+esc(t("tvLetters"))+'"></nav>'+
+          '</div>'+
+          '<div class="ic-tv-meta"><p class="ic-count ic-tv-count"></p><div class="ic-seg ic-tv-sort" role="group">'+
+            '<button type="button" class="ic-chip" data-s="ru" aria-pressed="'+(tavolaUi.sort==="ru")+'">'+esc(t("tvSortRu"))+'</button>'+
+            '<button type="button" class="ic-chip" data-s="it" aria-pressed="'+(tavolaUi.sort==="it")+'">'+esc(t("tvSortIt"))+'</button></div></div>'+
+          '<div class="ic-tv-list"></div>'+
+        '</div>';
+      bindLangSwitch(root);
+      root.querySelector(".ic-back").addEventListener("click",function(){ location.hash = book.meta.home ? hrefFor(book,"home") : ""; });
+      var q = root.querySelector(".ic-search"), list = root.querySelector(".ic-tv-list"), cnt = root.querySelector(".ic-tv-count"),
+          bar = root.querySelector(".ic-tv-bar"), lnav = root.querySelector(".ic-tv-letters");
+      q.value = tavolaUi.q;
+      function fill(){
+        var words = tvFold(q.value.trim()).split(/\s+/).filter(Boolean), html = "", n = 0, have = {}, cur = null;
+        ordered().forEach(function(x){
+          var e = x.e;
+          if(words.length && !words.every(function(w){ return e.h.indexOf(w) >= 0; })) return;
+          if(x.l !== cur){ if(cur) html += '</section>'; cur = x.l; have[cur] = 1; html += '<section class="ic-tv-sec" id="tv-L'+cur+'"><h2>'+cur+'</h2>'; }
+          n++;
+          html += entryHtml(e, false) + (e.subs||[]).map(function(x){ return entryHtml(x, true); }).join("");
+        });
+        if(cur) html += '</section>';
+        list.innerHTML = html || '<p class="ic-empty">'+esc(t("tvNone"))+'</p>';
+        cnt.textContent = words.length ? t("tvFound",{n:n}) : t("tvAll",{n:d.entries.length});
+        lnav.innerHTML = lettersOf(ordered()).map(function(l){ return '<button type="button" data-l="'+l+'"'+(have[l] ? "" : " disabled")+'>'+l+'</button>'; }).join("");
+      }
+      function barH(){ return bar.getBoundingClientRect().height + (parseFloat(root.dataset.top)||0) + 10; }
+      function flash(el){ el.classList.add("ic-ch-hl"); setTimeout(function(){ el.classList.remove("ic-ch-hl"); }, 2200); }
+      function scrollToEl(el){ window.scrollTo(0, window.scrollY + el.getBoundingClientRect().top - barH()); }
+      q.addEventListener("input",function(){ tavolaUi.q = q.value; fill(); });
+      wireSearchClear(q);
+      lnav.addEventListener("click",function(e){
+        var b = e.target.closest("button"); if(!b) return;
+        var el = document.getElementById("tv-L"+b.getAttribute("data-l")); if(el) scrollToEl(el);
+      });
+      root.querySelector(".ic-tv-sort").addEventListener("click",function(e){
+        var b = e.target.closest("button"); if(!b || b.getAttribute("data-s")===tavolaUi.sort) return;
+        tavolaUi.sort = b.getAttribute("data-s");
+        root.querySelectorAll(".ic-tv-sort .ic-chip").forEach(function(x){ x.setAttribute("aria-pressed", x===b); });
+        fill(); window.scrollTo(0, Math.min(window.scrollY, Math.max(0, list.getBoundingClientRect().top + window.scrollY - barH())));
+      });
+      list.addEventListener("click",function(e){
+        var a = e.target.closest("a");
+        if(!a) return;
+        if(a.hasAttribute("data-tv")){
+          e.preventDefault();
+          var id = d.byId[a.getAttribute("data-tv")].id, el = document.getElementById("tv-"+id);
+          if(!el){ q.value = tavolaUi.q = ""; fill(); el = document.getElementById("tv-"+id); }
+          if(el){ scrollToEl(el); flash(el); }
+        } else { tavolaUi.scroll = window.scrollY; }
+      });
+      fill();
+      if(tavolaUi.scroll){ var y = tavolaUi.scroll; tavolaUi.scroll = 0; requestAnimationFrame(function(){ if(gen===renderGen) window.scrollTo(0,y); }); }
+      else toTop(true);
+      nudgeRepaint();
+    });
+  }
+
   /* ---------- содержание книги по частям (book.json chapters.parts) ---------- */
   function chapTitle(c){ return c.title.replace(/\s*\(вступление\)$/,""); }
   function tocPartsHtml(book, chap, curSlug){
@@ -1396,7 +1529,8 @@
               homeTile(hrefFor(book,"home"), t("hmRead"), t("hmReadSub"), tab==="read")+
               homeTile(hrefFor(book,"home/gallery"), t("hmGallery"), t("hmGallerySub",{n:galCount}), tab==="gallery")+
               homeTile(hrefFor(book,"home/search"), t("hmSearch"), t("hmSearchSub"), tab==="search")+
-              ['hmIndex','hmNames'].map(function(k){ return '<div class="ic-home-tile ic-soon" aria-disabled="true"><span class="ic-home-tile-t">'+esc(t(k))+'</span><span class="ic-home-tile-s">'+esc(t("hmSoon"))+'</span></div>'; }).join("")+
+              (book.meta.tavola ? homeTile(hrefFor(book,"index"), t("hmIndex"), t("hmIndexSub"), false) : "")+
+              (book.meta.tavola ? ['hmNames'] : ['hmIndex','hmNames']).map(function(k){ return '<div class="ic-home-tile ic-soon" aria-disabled="true"><span class="ic-home-tile-t">'+esc(t(k))+'</span><span class="ic-home-tile-s">'+esc(t("hmSoon"))+'</span></div>'; }).join("")+
             '</nav>'+
             (hero ? '<figure class="ic-home-fig"><div class="ic-fig ic-fig-eng" data-src="'+esc(hero)+'"><img class="ic-fade-img ic-eng-display" src="'+esc(hero)+'" alt="'+esc(t("engravingAlt",{title:bt(book.meta.title)}))+'"></div></figure>' : "")+
             '<p class="ic-home-blurb">'+esc(bt(h.blurb))+'</p>'+

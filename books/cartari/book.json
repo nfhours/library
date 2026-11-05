@@ -16,6 +16,7 @@
   "place": "Padova",
   "idPrefix": "cart",
   "viewer": "figure",
+  "tavola": "tavola.json",
   "frIsTranslation": true,
   "chapters": {
     "data": "chapters_ru.json",
