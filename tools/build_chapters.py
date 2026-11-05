@@ -278,9 +278,9 @@ def check_links(bdir, by_slug):
         bl = ch["blocks"]
         b = bl[int(blk) - 1] if 0 < int(blk) <= len(bl) else None
         e = bl[int(end) - 1] if end and 0 < int(end) <= len(bl) else None
-        if b is None or b["t"] not in ("p", "quote"):
+        if b is None or b["t"] not in ("p", "quote", "cap"):
             print("ПРЕДУПРЕЖДЕНИЕ: %s: блок %s не абзац/цитата" % (rid, blk), file=sys.stderr); bad += 1; continue
-        txt = b["text"] if b["t"] == "p" else " ".join(b["lines"])
+        txt = b["text"] if b["t"] in ("p", "cap") else " ".join(b["lines"])
         if anchor and anchor not in txt:
             print("ПРЕДУПРЕЖДЕНИЕ: %s: в блоке %s нет якоря «%s»: «%s»" % (rid, blk, anchor, txt[:40]), file=sys.stderr); bad += 1
         if e is None or int(end) < int(blk):

@@ -1968,7 +1968,7 @@ quando si vuole pregare si piegano le genocchia, imperoche con animo dubbioso si
 
 ## Скан 0075 · с. 33
 
-[ГРАВЮРА: Imagini di Giano inteso ancora per il sole, per il Tempo, per il Dio dell'anno, & della pace, significano ancora li duoi lumi dell'anima nostra, il lume diuino & il lume naturale.]
+[ГРАВЮРА: Imagini di Giano inteso ancora per il Sole, per il Tempo, per il Dio dell'anno, & della pace, significano ancora li duoi lumi dell'anima nostra, il lume diuino & il lume naturale.]
 
 Колонтитул: De gli Antichi. 33
 Кустод:
@@ -2007,7 +2007,7 @@ i Dei. Et come adorauano gli antichi Romani Anteuorta, e Postuorta compagne dell
 
 ## Скан 0078 · с. 36
 
-[ГРАВЮРА: Imagini delle quattro stagioni dell'anno, dinotanti gli effetti & essercitij di quelle, con gli animali a loro sacrati, che pur dimostrano la natura della stagione.]
+[ГРАВЮРА: Imagini delle quattro stagioni dell'anno, dinotanti gli effetti & essercitij di quelle, con gli animali à loro sacrati, che pur dimostrano la natura della stagione.]
 
 Колонтитул: 36 Imagini de i Dei
 Кустод:
@@ -2159,7 +2159,7 @@ se la scientia non dilettasse, mal si affaticarebbe alcuno per acquistarla; la q
 
 ## Скан 0089 · с. 47
 
-[ГРАВЮРА: Apollo in mezo delle Muse per dare ad intendere, che il Sole hà virtù diffusiva; & che poco valeriano i versi delle Muse se non aiutasse l'Enthusiasmo.]
+[ГРАВЮРА: Apollo in mezo delle Muse per dare ad intendere, che il Sole hà virtù diffusiua; & che poco valeriano i versi delle Muse se non aiutasse l'Enthusiasmo.]
 
 Колонтитул: De gli Antichi. · с. 47
 Кустод:
@@ -2182,7 +2182,7 @@ dori del Sole, facendo peste, & altre infermità; ma perche ci gioua poi anco il
 
 ## Скан 0091 · с. 49
 
-[ГРАВЮРА: Imagini d'Apollo & de gli animali, & vccelli a lui sacrati, che significano gli effetti del Sole: & Apollo esser stato Dio dell'indouinare. hà le gratie in mano che significano il giouamento, che dal Sole habbiamo, & la vtilità che a noi peruiene da esso.]
+[ГРАВЮРА: Imagini d'Apollo & de gli animali, & vccelli à lui sacrati, che significano gli effetti del Sole: & Apollo esser stato Dio dell'indouinare. hà le gratie in mano che significano il giouamento, che dal Sole habbiamo, & la vtilità che a noi peruiene da esso.]
 
 Колонтитул: De gli Antichi. · с. 49
 Кустод:
@@ -2277,7 +2277,7 @@ perciò, diceua vn prouerbio appresso de' Greci; Odi quello, che hà quattro ore
 
 ## Скан 0099 · с. 57
 
-[ГРАВЮРА: Imagine di Apollo Mithra, significante la forza & effetti del Sole nella Luna & in tutte le cose, & il Sole esser fra le Stelle, come il Leone fra le fere, & in tal segno qui appresso noi mostrar la sua maggior forza.]
+[ГРАВЮРА: Imagine di Apollo Mithra, significante la forza & effetti del Sole nella Luna & in tutte le cose, & il Sole esser fra le Stelle, come il Leone fra le fere, & in tal segno quì appresso noi mostrar la sua maggior forza.]
 
 Колонтитул: De gli Antichi. 57
 Кустод:
@@ -2559,7 +2559,7 @@ alle altre cose, vn carro tirato da quattro velocissimi destrieri, come dice Oui
 
 ## Скан 0124 · с. 82
 
-[ГРАВЮРА: Imagine del Sole detto anco Febo, & Apolline dio del giorno significante gli effetti suoi nelle stagioni & ne segni celesti, & nella Luna, & che la Luna nel segno d'Ariete, è humidissima essendo congionta con il Sole, che tutto illumina, & a tutto dà vita.]
+[ГРАВЮРА: Imagine del Sole detto anco Febo, & Apolline dio del giorno significante gli effetti suoi nelle stagioni & ne segni celesti, & nella Luna, & che la Luna nel segno d'Ariete, è humidissima essendo congionta con il Sole, che tutto illumina, & a tutto da vita.]
 
 Колонтитул: Imagini de i Dei · с. 82
 Кустод:
@@ -2790,7 +2790,7 @@ nascono alle volte i figliuoli nel settimo mese, che e a lei sottoposto, & fà q
 
 ## Скан 0137 · с. 95
 
-[ГРАВЮРА: Imagine di Diana Cinthia ò Luna dea cacciatrice con vn Pardo nella destra, & vn Leone nella sinistra, così scolpita in Corinto nel tempio di Giunone nell'Arca di Cipsello tiranno.]
+[ГРАВЮРА: Imagine di Diana Cinthia ò Luna dea cacciatrice con vn Pardo nella destra, & vn Leone nella sinistra, cosi scolpita in Corinto nel tempio di Giunone nell'Arca di Cipsello tiranno.]
 
 Колонтитул: De gli Antichi.  95
 Кустод:
@@ -2928,7 +2928,7 @@ mostrando il Ciembalo quel rumore, che fà il Nilo, quando cresce, sì, che affo
 
 ## Скан 0147 · с. 105
 
-[ГРАВЮРА: Imagine d'Iside Dea Egittia, che è la Luna tenuta la Dea de Nauiganti, & fù Io apo Greci, la quale transformata in vacca da Gioue essendo stata stuprata & ritornata nella sua propria forma fuggì per mare in Egitto, & quiui fu da quelli popoli adorata per benefitij riceuuti.]
+[ГРАВЮРА: Imagine d'Iside Dea Egittia, che è la Luna tenuta la Dea de Nauiganti, & fù Io apo Greci, la quale transformata in vacca dà Gioue essendo stata stuprata & ritornata nella sua propria forma fuggì per mare in Egitto, & quiui fù da quelli popoli adorata per benefitij riceuuti.]
 
 Колонтитул: De gli Antichi. 105
 Кустод:
@@ -3540,7 +3540,7 @@ dono, o che (se pur staua ostinato) quiui diuentasse hidoprico, & rigittasse per
 
 ## Скан 0176 · с. 134
 
-[ГРАВЮРА: Imagine del Dio Fidio custode della fede & fedeltà di Gioue detto Veioue cioè noceuole, & castigatore, con l'habito di Bacco a cui è attribuito il suo nume & della Capra Amalthea, che diede il latte a Gioue d'vno de corni della quale fu fatto il corno di diuitia ò cornucopia.]
+[ГРАВЮРА: Imagine del Dio Fidio custode della fede & fedeltà di Gioue detto Veioue cioè noceuole, & castigatore, con l'habito di Bacco à cui è attribuito il suo nume & della Capra Amalthea, che diede il latte à Gioue d'vno de corni della quale fù fatto il corno di diuitia ò cornucopia.]
 
 Колонтитул: 134 Imagini de i Dei
 Кустод:
@@ -3562,7 +3562,7 @@ Questo era adorato, & trouasi fra le cose antiche di Roma fatto in questa questa
 
 ## Скан 0178 · с. 136
 
-[ГРАВЮРА: Imagine di Gioue circondato dalle tre gratie, & dalle tre hore, il cui Trono è sostentato dalle imagini della vittoria, con vna vittoria coronata in vna mano, & lo scettro con l'aquila nell'altra significante l'assoluto dommio di Dio, & tutto esser a lui sottoposto.]
+[ГРАВЮРА: Imagine di Gioue circondato dalle tre gratie, & dalle tre hore, il cui Trono è sostentato dalle imagini della vittoria, con vna vittoria coronata in vna mano, & lo scettro con l'aquila nell'altra significante l'assoluto dominio di Dio, & tutto esser à lui sottoposto.]
 
 Колонтитул: 136 Imagini de i Dei
 Кустод:
@@ -3584,7 +3584,7 @@ ricchezze, & gli beni temporali. La copia dunque de i fiori & de i frutti stà n
 
 ## Скан 0180 · с. 138
 
-[ГРАВЮРА: Imagine di Gioue co'l Fulmine, & con l'Hasta, per mostrare la stabilità del Gouerno della diuina Prouidenza; & insieme il pronto castigo della medesima all'opre maluagie de' tristi.]
+[ГРАВЮРА: Imagine di Gioue co'l Fulmine, & con l'Hasta per mostrare la stabilità del Gouerno della diuina Prouidenza; & insieme il pronto castigo della medesima all'opre maluagie de' tristi.]
 
 Колонтитул: 138 Imagini de i Dei
 Кустод:
@@ -3619,7 +3619,7 @@ Et diceuano che i fulmini spiegati da gli altri Dei, che così interpretaremo pe
 
 ## Скан 0182 · с. 140
 
-[ГРАВЮРА: Imagine di Gioue folgorante apportator di pioggie, & nembi; & l'imagine di Gioue Labradeo di Lidi, significante esser Iddio apparecchiato a castigare li malfattori, & la prouidenza diuina.]
+[ГРАВЮРА: Imagine di Gioue folgorante apportator di pioggie, & nembi; & l'imagine di Gioue Labradeo di Lidi, significante esser Iddio apparecchiato à castigare li malfattori, & la prouidenza diuina.]
 
 Колонтитул: 140 Imagine de i Dei
 Кустод:
@@ -3769,7 +3769,7 @@ Et alcuni volendo porre questa Dea più in alto, l'hanno fatta essere vna medesi
 
 ## Скан 0193 · с. 151
 
-[ГРАВЮРА: Imagine di Giunone Lucina, & della Dea Siria de Hieropoli nell'Assiria, che è vn'istessa con Giunone: & delli vccelli a lei sacrati, significanti Giunone esser regina del Cielo, dominatrice dell'aria signora de regni, & delle ricchezze. Questa fu intesa ancora per la virtù.]
+[ГРАВЮРА: Imagine di Giunone Lucina, & della Dea Siria de Hieropoli nell'Assiria, che è vn'istessa con Giunone, & delli vccelli à lei sacrati, significanti Giunone esser regina del Cielo, dominatrice dell'aria signora de regni, & delle ricchezze. Questa fù intesa ancora per la virtù.]
 
 Колонтитул: De gli Antichi. · 151
 Кустод:
@@ -3812,7 +3812,7 @@ occhi de' riguardanti. Et il Boccaccio, oue racconta la progenie de i Dei, fà v
 
 ## Скан 0197 · с. 155
 
-[ГРАВЮРА: Imagine di Iride messaggiera di Giunone, figliuola di Thaumante, o sia della ammiratione: simbolo per i suoi colori delle ricchezze, che sono di marauiglia a' sciocchi, & presto spariscono.]
+[ГРАВЮРА: Imagine di Iride messaggiera di Giunone, figliuola di Thaumante; o sia della ammiratione: simbolo per i suoi colori delle ricchezze, che sono di marauiglia a' sciocchi, & presto spariscono.]
 
 Колонтитул: De gli Antichi. · 155
 Кустод:
@@ -3855,7 +3855,7 @@ delle cose del Cielo sono figurati nel modo, che i Lacedemonij già fecero loro 
 
 ## Скан 0201 · с. 159
 
-[ГРАВЮРА: Imagine di Castore e Polluce, dei de Nauiganti, significanti al lor apparire bonaccia, quali sono anco protettori de Caualli, essendo stelle velocissime nel corso loro, & vno de dodici segni del Zodiaco, detti i duoi gemelli figliuoli di Gioue, & di Leda.]
+[ГРАВЮРА: Imagine di Castore è Pollucè, dei de Nauiganti, significanti al lor apparire bonaccia, quali sono anco protettori de Caualli, essendo stelle velocissime nel corso loro, & vno de dodici segni del Zodiaco, detti i duoi gemelli figliuoli di Gioue, & di Leda.]
 
 Колонтитул: De gli Antichi. · 159
 Кустод:
@@ -3912,7 +3912,7 @@ farla ritornare, ma non sapea in che modo, ne dimandò consiglio a Citherone all
 
 ## Скан 0206 · с. 164
 
-[ГРАВЮРА: Imagine di Giunone Argiua, di Giunone saluatrice in Launio, & di Giunone regina de gli Dei, dell'aria patrona, matrigna, & odiatrice di Bacco, & di Hercole, purgatrice, & mondatrice delle cose proprio effetto dell'aria.]
+[ГРАВЮРА: Imagine di Giunone Argiua, di Giunone saluatrice in Lauinio, & di Giunone regina de gli Dei, dell'aria patrona, matrigna, & odiatrice di Bacco, & di Hercole, purgatrice, & mondatrice delle cose proprio effetto dell'aria.]
 
 Колонтитул: Imagini de i Dei · с. 164
 Кустод:
@@ -3939,7 +3939,7 @@ L'hanno fatta in piè vestita con capi di papauero in mano, & con vn giogo a' pi
 
 ## Скан 0208 · с. 166
 
-[ГРАВЮРА: Imagine di Giunone inuentrice ò protettrice del matrimonio, detta Giunone giugale, & del giogo & vccelli a lei sacrati, significanti l'offitio de maritati, & la successione ò prole che ne viene dal matrimonio concorde.]
+[ГРАВЮРА: Imagine di Giunone inuentrice ò protettrice del matrimonio, detta Giunone giugale, & del giogo & vccelli à lei sacrati, significanti l'offitio de maritati, & la successione ò prole che ne viene dal matrimonio concorde.]
 
 Колонтитул: Imagini de i Dei · с. 166
 Кустод:
@@ -3982,7 +3982,7 @@ questo fare chiamaua in suo aiuto la Dea Virginense, perche ella era creduta hau
 
 ## Скан 0212 · с. 170
 
-[ГРАВЮРА: Imagine d'Himeneo dio del matrimonio, & delle nozze, con l'imagini d'alcuni fanciulli, che raccolgono noci sparse, significante la perpetuità, & indissolubilità del matrimonio, il rossor virginale, & che bisogna a chi ha carico di casa lasciar le cose fanciullesche.]
+[ГРАВЮРА: Imagine d'Himeneo dio del matrimonio, & delle nozze, con l'imagini d'alcuni fanciulli, che raccolgono noci sparse, significante la perpetuità, & indissolubilità del matrimonio, il rossor virginale, & che bisogna à chi ha carico di casa lasciar le cose fanciullesche.]
 
 Колонтитул: Imagini de i Dei · с. 170
 Кустод:
@@ -4616,7 +4616,7 @@ naue alcuna passasse di là, per fare miserabile preda de' nauiganti, come già 
 
 [ГРАВЮРА: Нептун с короной и трезубцем рядом с Амфитритой, оба стоят на колеснице, запряжённой двумя морскими чудовищами (коне-драконами); вверху слева медальон с фигурой на лодке, справа медальон с всадником]
 
-*Imagini di Nettuno dio del mare, & di Anfitrite sua moglie, dinotanti la spuma del mare, & le tre qualità dell'acqua marina, de fiumi, & de laghi, salata, dolce, & neutrale, con il veloce & frequente moto delle acque.*
+*Imagini di Nettuno dio del mare, & di Anfitrite sua moglie, dinotanti la Spuma del mare, & le tre qualità dell'acqua marina, de fiumi, & de laghi, salata, dolce, & neutrale, con il veloce & frequente moto delle acque.*
 
 Колонтитул: De gli Antichi. 211
 Кустод:
@@ -4659,7 +4659,7 @@ detto, che fu dato a Nettuno il ritrouamento del cauallo, perche è animale, che
 
 [ГРАВЮРА: получеловек-полукозёл (Тарасиппо) с копьём, стоящий рядом с повозкой/плугом; вверху медальон с пылающей чашей на подставке, справа медальон с женской фигурой в сосуде/урне]
 
-*Imagine di Nettuno dio del mare appo Filostrato, o sia imagine di Tarasippo spauentatore de' Caualli tolto per Nettuno. & questa dinota per il mare condursi tutte le cose necessarie al vitto, & ogni sorte di mercantia all'vso humano destinata.*
+*Imagine di Nettuno dio del mare appo Filostrato; o sia imagine di Tarasippo spauentatore de' Caualli tolto per Nettuno. & questa dinota per il mare condursi tutte le cose necessarie al vitto, & ogni sorte di mercantia all'vso humano destinata.*
 
 Колонтитул: 214 Imagini de i Dei
 Кустод:
@@ -4805,7 +4805,7 @@ Portaua ghirlanda in capo di diuersi fiori, & veste parimente tutta dipinta a fi
 
 ## Скан 0265 · с. 223
 
-[ГРАВЮРА: Imagine del Teuere mostrante l'abondanza, e'l principio dell'Imperio di Roma, ve' due fratelli.]
+[ГРАВЮРА: Imagine del Teuere mostrante l'abondanza, e'l principio dell'Imperio di Roma, ne' due fratelli.]
 
 Колонтитул: De gli Antichi. 223
 Кустод:
@@ -4849,7 +4849,7 @@ Vedesi però a Roma in Vaticano vna statoa del Tebro, che non hà le corna, nè 
 
 ## Скан 0267 · с. 225
 
-[ГРАВЮРА: Imagini del fiume Nilo sedente sopra la Sfinge con molti fanciulli intorno che dinotano li gradi del crescimento del detto fiume, che sono sedeci cubiti per ordinario.]
+[ГРАВЮРА: Imagini del fiume Nilo sedente sopra la Sfinge, con molti fanciulli intorno che dinotano li gradi del crescimento del detto fiume, che sono sedeci cubiti per ordinario.]
 
 Колонтитул: De gli Antichi. 225
 Кустод:
@@ -5331,7 +5331,7 @@ Andauano queste volando la notte, & cacciatesi nelle case, oue fossero teneri fa
 
 ## Скан 0289 · с. 247
 
-[ГРАВЮРА: Imagine della Sfinge Thebana superata da Edipo, & della Chimera Licia superata da Bellerofonte, qual fu vn monte della Licia pieno di feroci animali, & deserto; da Bellerofonte ridotto à coltura, & habitale.]
+[ГРАВЮРА: Imagine della Sfinge Thebana superata da Edipo, & della Chimera Licia superata da Bellerofonte, qual fû vn monte della Licia pieno di feroci animali, & deserto; da Bellerofonte ridotto à coltura, & habitale.]
 
 Колонтитул: De gli Antichi · с. 247
 Кустод:
@@ -5672,7 +5672,7 @@ Et alle volte ancora fu posto vno scettro in mano alla Concordia, dal quale pare
 
 ## Скан 0307 · с. 265
 
-[ГРАВЮРА: imagine della Pace, & de Hieroglifici ò segni che quella dimostrano, cioè il fanciullo Pluto che hà in mano dio delle ricchezze moltiplicanti nella pace, spiche di grano, che dinotano la coltiuatione de campi nella pace, & lor fertilità, coronata di lauro hauendo sotto li piedi l'vliuo segno di trionfo, & di quiete.]
+[ГРАВЮРА: Imagine della Pace, & de Hieroglifici ò segni che quella dimostrano; cioè il fanciullo Pluto che hà in mano dio delle ricchezze moltiplicanti nella pace, spiche di grano, che dinotano la coltiuatione de campi nella pace, & lor fertilità, coronata di lauro hauendo sotto li piedi l'vliuo segno di trionfo, & di quiete.]
 
 Колонтитул: De gli Antichi · с. 265
 Кустод:
@@ -5711,7 +5711,7 @@ Percioche la Fede hà da stare secreta, cioè le cose, che altrui sono credute i
 
 ## Скан 0309 · с. 267
 
-[ГРАВЮРА: Imagini della Concordia, & hieroglifici denotanti la Fede, & la Concordia. con la imagine della Fede, significanti la secretezza della medesima, & la sua purità, & che per la Concordia multiplica l'abondanza delle cose, le genti, & l'agricoltura, con gli vccelli Cicogna, & Cornice alla concordia sacrati, che dinotano l'istessi effetti.]
+[ГРАВЮРА: Imagini della Concordia, & hieroglifici denotanti la Fede, & la Concordia. con la imagine della Fede, significanti la secretezza della medesima, & la sua purità, & che per la Concordia. multiplica l'abondanza delle cose, le genti, & l'agricoltura, con gli vccelli Cicogna: & Cornice alla concordia sacrati, che dinotano l'istessi effetti.]
 
 Колонтитул: De gli Antichi · с. 267
 Кустод:
@@ -6234,7 +6234,7 @@ Nientedimeno Statio dà pur'anco la medesima forza à Minerua, & la fa non punto
 
 ## Скан 0342 · с. 300
 
-[ГРАВЮРА: Imagine di Bellona Dea della guerra & carrattiera di Marte, & de suoi Sacerdoti, che da sè stessi feriscono, & del Pino à lei sacrato, questa vien intesa per l'apportatrice delle vccisioni, ruine, stragi, effetti proprij della guerre.]
+[ГРАВЮРА: Imagine di Bellona Dea della guerra & carrattiera di Marte, & de suoi Sacerdoti, che da se stessi feriscono, & del Pino à lei sacrato, questa vien intesa per l'apportatrice delle vccisioni, ruine, stragi, effetti proprij della guerre.]
 
 Колонтитул: 300 Imagini de i Dei
 Кустод:
@@ -6317,7 +6317,7 @@ fu prima, per difenderla dalla forza di Ntttuno, che innamorato di lei le correu
 
 ## Скан 0347 · с. 305
 
-[ГРАВЮРА: *Imagine della Virtù, & dell'Honore, che si risguardano così scolpiti in vna medaglia di Vitellio, dinotante dalla virtù & attioni virtuose prouenir l'honore, & con l'honore l'abondanza del tutto, & ogni humana felicità.*]
+[ГРАВЮРА: *Imagine della Virtù, & dell'Honore, che si risguardano cosi scolpiti in vna medaglia di Vitellio, dinotante dalla virtù & attioni virtuose prouenir l'honore, & con l'honore l'abondanza del tutto, & ogni humana felicità.*]
 
 Колонтитул: De gli Antichi. 305
 Кустод:
@@ -6699,7 +6699,7 @@ Lo dipingeuano gli antichi terribile nella faccia quasi sanguinolenta, che mostr
 
 ## Скан 0370 · с. 328
 
-[ГРАВЮРА: Imagine del Tempio di Marte Dio della guerra, che era così fatto appo li Scithi, & della figura di Marte appo quelli d'Arabia petrea, inteso per il Sole ancora, & per la forza di quello in tutte le attioni humane.]
+[ГРАВЮРА: Imagine del Tempio di Marte Dio della guerra, che era cosi fatto appo li Scithi, & della figura di Marte appo quelli d'Arabia petrea, inteso per il Sole ancora, & per la forza di quello in tutte le attioni humane.]
 
 Колонтитул: 328 Imagini de i Dei
 Кустод:
@@ -6860,7 +6860,7 @@ gesi con Marte il Pico ancora alle volte. onde fu chiamato Pico Martio, come che
 
 ## Скан 0381 · с. 339
 
-[ГРАВЮРА: Imagine di Bacco significante li varij effetti del vino del quale esso fù l'inuentore, & di più gli effetti della vbbriachezza, che sono riuelationi di cose occulte, furore, libidine, & simili. Questi con Hercole tutti due Thebani, & figlioli di Gioue, di gloria tutti gl'antichi superarono.]
+[ГРАВЮРА: Imagine di Bacco significante li varij effetti del vino del quale esso fù l'inuentore, & di più gli effetti della vbbriachezza, che sono riuelationi di cose occulte. furore, libidine, & simili. Questi con Hercole tutti due Thebani, & figlioli di Gioue, di gloria tutti gl'antichi superarono.]
 
 Колонтитул: De gli Antichi. 339
 Кустод:
@@ -6927,7 +6927,7 @@ innanzi a tutti gli altri di porre acqua nel vino, che fu di grandissimo giouame
 
 ## Скан 0386 · с. 344
 
-[ГРАВЮРА: Imagine di Bacco significante li effetti del vino, del quale fù l'inuentore; & secondo Macrobio li varij effetti del Sole essendo da lui per il Sole inteso, cioè la varietà delle stagioni dell'anno: & animali à lui sacrati.]
+[ГРАВЮРА: Imagine di Bacco significante li effetti del vino, del quale fù l'inuentore; & secondo Macrobio li varij effetti del Sole essendo da lui per il Sole inteso, cioe la varietà delle stagioni dell'anno: & animali à lui sacrati.]
 
 Колонтитул: 344 Imagini de i Dei
 Кустод:
@@ -7917,7 +7917,7 @@ uiene, spinto dall'Adulatione, che l'accompagna sempre. Gli và dietro etiandio 
 
 ## Скан 0444 · с. 402
 
-[ГРАВЮРА: Imagine della Dea Macaria, ò Dea Felicità, figliuola, d'Hercole, con il Caduceo, & il Corno di Donitia in mano quello significante la virtù, questo le ricchezze, necessarie e l'vna, è l'altre alla Felicità humana.]
+[ГРАВЮРА: Imagine della Dea Macaria, ò Dea Felicità, figliuola, d'Hercole, con il Caduceo, & il Corno di Douitia in mano quello significante la virtù, questo le ricchezze, necessarie e l'vna, è l'altre alla Felicità humana.]
 
 Колонтитул: 402 Imagini de i Dei
 Кустод:
@@ -8795,7 +8795,7 @@ re, che ha belle natiche per questa cagione. Due figliuole di vn Contadino, giou
 
 ## Скан 0481 · с. 439
 
-[ГРАВЮРА: Imagini di Venere, di Cupido, del Giogo, & del Capro, quali significano la generatione, & l'imagine della Testudine hieroglifico, che dinota il pericolo delle Donne maritate, e parturienti, & qual deue essere il loro vfficio nella cura familiare & alleuar figliuoli, & il silentio esser necessario alle donne sopra ogni virtù. (надписи на гравюре: IOCVS, VENVS, CVPIDO)]
+[ГРАВЮРА: Imagini di Venere, di Cupido, del Gioco, & del Capro, quali significano la generatione, & l'imagine della Testudine hieroglifico, che dinota il pericolo delle Donne maritate, e parturienti, & qual deue essere il loro vfficio nella cura familiare & alleuar figliuoli, & il silentio esser necessario alle donne sopra ogni virtù. (надписи на гравюре: IOCVS, VENVS, CVPIDO)]
 
 Колонтитул: De gli Antichi. 439
 Кустод:
@@ -8912,7 +8912,7 @@ Nè solamente con le chiome la fecero gli antichi, ma con la barba ancora che vn
 
 ## Скан 0489 · с. 447
 
-[ГРАВЮРА: Imagine di Venere maschio e femina, significante questa esser sopra l'vniuersal generatione delle cose, essendo tolta per l'aria; & nelli Dei non esser differenza di esso, come ne mortali, & imagine di Venere addolorata per la morte d'Adone morto dal Cinghiale, inteso per la stagione biemale & fredda.]
+[ГРАВЮРА: Imagine di Venere maschio e femina, significante questa esser sopra l'vniuersal generatione delle cose, essendo tolta per l'aria; & nelli Dei non esser differenza di esso, come ne mortali, & imagine di Venere addolorata per la morte d'Adone morto dal Cinghiale, inteso per la stagione hiemale & fredda.]
 
 Колонтитул: De gli Antichi. 447
 Кустод:
@@ -10370,9 +10370,7 @@ Tali Questo era quello, che chiamauano VENVS.  Et era in quattro Tali, quando tu
 
 IL FINE.
 
-[ГРАВЮРА: без подписи]
-
-Questa figura si è dimenticata di ponerla al suo luoco, però và posta trà il numero 52. & 53.
+[ГРАВЮРА: Questa figura si è dimenticata di ponerla al suo luoco, però và posta trà il numero 52. & 53.]
 
 Колонтитул: Annotationi · с. 528
 Кустод:

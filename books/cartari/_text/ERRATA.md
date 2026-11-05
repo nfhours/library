@@ -39,6 +39,7 @@
 | 0131 | 89 | gionani | giouani | перепутанная буква |
 | 0133 | 91 | latto | lato | лишняя буква |
 | 0134 | 92 | parena | pareua | перепутанная буква |
+| 0137 | 95 | tiranne | tiranno | перепутанная буква |
 | 0138 | 96 | dol | del | перепутанная буква |
 | 0138 | 96 | volenano | voleano | лишняя буква |
 | 0138 | 96 | dissero | dissero | перестановка/замена букв |
@@ -52,8 +53,11 @@
 | 0173 | 131 | peccatto | peccato | лишняя буква |
 | 0173 | 131 | piargendo | piangendo | перепутанная буква |
 | 0175 | 133 | Geci | Greci | пропущена буква |
+| 0182 | 140 | Iddia | Iddio | перепутанная буква |
 | 0190 | 148 | po | poi | пропущена буква |
 | 0195 | 153 | ttouano | trouano | перепутанная буква |
+| 0199 | 157 | vcello | vccello | пропущена буква |
+| 0208 | 166 | vffitio | offitio | перепутанная буква |
 | 0221 | 179 | Prudentia | Prudentio | перепутанная буква |
 | 0225 | 183 | egi | egli | пропущена буква |
 | 0225 | 183 | aspetro | aspetto | перепутанная буква |
@@ -64,6 +68,7 @@
 | 0235 | 193 | Sratoa | Statoa | перепутанная буква |
 | 0252 | 210 | tetribile | terribile | перепутанная буква |
 | 0253 | 211 | Anfitrice | Anfitrite | перепутанная буква |
+| 0256 | 214 | Nottuno | Nettuno | перепутанная буква |
 | 0258 | 216 | Ennofigeo | Ennosigeo | перепутанная буква |
 | 0258 | 216 | Ennofigeo | Ennosigeo | перепутанная буква |
 | 0262 | 220 | effetri | effetti | перепутанная буква |
@@ -73,6 +78,7 @@
 | 0268 | 226 | qnale | quale | перепутанная буква |
 | 0273 | 231 | gindici | giudici | перепутанная буква |
 | 0274 | 232 | Qintiliano | Quintiliano | пропущена буква |
+| 0276 | 234 | trisauce | trifauce | перепутанная буква |
 | 0277 | 235 | caminamente | caninamente | перепутанная буква |
 | 0278 | 236 | suo | suoi | пропущена буква |
 | 0279 | 237 | statoa | statua | перепутанная буква |
@@ -80,10 +86,12 @@
 | 0282 | 240 | Thesea | Theseo | перепутанная буква |
 | 0284 | 242 | mglio | meglio | пропущена буква |
 | 0288 | 246 | vẽdetta | vendetta | пропущена буква |
+| 0289 | 247 | Bellorofonte | Bellerofonte | перепутанная буква |
 | 0291 | 249 | rempij | tempij | перепутанная буква |
 | 0293 | 251 | Ethocle | Etheocle | пропущена буква |
 | 0303 | 261 | guerrra | guerra | лишняя буква |
 | 0304 | 262 | espngnata | espugnata | перепутанная буква |
+| 0307 | 265 | spi he | spiche | перепутанная буква |
 | 0320 | 278 | buomini | huomini | перепутанная буква |
 | 0327 | 285 | c | e | перепутанная буква |
 | 0330 | 288 | quelllo | quello | лишняя буква |
@@ -113,6 +121,7 @@
 | 0468 | 426 | s'affatita | s'affatica | перепутанная буква |
 | 0473 | 431 | so | suo | пропущена буква |
 | 0477 | 435 | Prassitele | Prassitele | перестановка/замена букв |
+| 0481 | 439 | Giogo | Gioco | перепутанная буква |
 | 0482 | 440 | licentiosamenre | licentiosamente | перепутанная буква |
 | 0490 | 448 | rimembanza | rimembranza | пропущена буква |
 | 0490 | 448 | innamoratto | innamorato | лишняя буква |
