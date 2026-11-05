@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "89";
+  var APP_VER = "90";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -138,7 +138,7 @@
     plCount:      {ru:"Гравюра {k} из {n}", en:"Engraving {k} of {n}", fr:"Gravure {k} sur {n}"},
     plBetween:    {ru:"между с. {a} и {b}", en:"between pp. {a} and {b}", fr:"entre p. {a} et {b}"},
     plNoCap:      {ru:"У этой гравюры нет подписи в переводе.", en:"This engraving has no caption in the translation.", fr:"Cette gravure n’a pas de légende dans la traduction."},
-    plEdition:    {ru:"издание 1626\u00a0г.", en:"1626 edition", fr:"édition de 1626"},
+    plEdition:    {ru:"издание\u00a01626", en:"1626\u00a0edition", fr:"édition\u00a0de\u00a01626"},
     plZoomLabel:  {ru:"Гравюра на весь экран", en:"Engraving, full screen", fr:"Gravure en plein écran"},
     hmAllCards:   {ru:"Открыть весь список карточек", en:"Open the full list of cards", fr:"Ouvrir la liste complète des fiches"},
     hmNavLabel:   {ru:"Разделы книги", en:"Book sections", fr:"Sections du livre"},
@@ -1104,7 +1104,8 @@
     var base = BASE+"books/"+book.slug+"/";
     Promise.all([
       fetch(base+cfg.data,{cache:"no-cache"}).then(function(r){ if(!r.ok) throw 0; return r.json(); }),
-      fetch(base+cfg.links,{cache:"no-cache"}).then(function(r){ return r.ok ? r.text() : ""; }).catch(function(){ return ""; })
+      fetch(base+cfg.links,{cache:"no-cache"}).then(function(r){ return r.ok ? r.text() : ""; }).catch(function(){ return ""; }),
+      cfg.plates ? fetch(base+cfg.plates,{cache:"no-cache"}).then(function(r){ return r.ok ? r.json() : {}; }).catch(function(){ return {}; }) : Promise.resolve({})
     ]).then(function(res){
       var list = res[0].chapters || [], bySlug = {}, links = {};
       list.forEach(function(c){ bySlug[c.slug] = c; });
@@ -1113,7 +1114,7 @@
         if(c.length < 4 || !c[0]) return;
         links[c[0]] = {chapter:c[1], block:parseInt(c[2],10), conf:c[3], end:parseInt(c[4],10)||0, anchor:c[5]||""};
       });
-      book.chap = {list:list, bySlug:bySlug, links:links};
+      book.chap = {list:list, bySlug:bySlug, links:links, plates:res[2] || {}};
       cb(book.chap);
     }).catch(function(){ book.chap = null; cb(null); });
   }
@@ -1354,7 +1355,7 @@
           var thumb = engBase+"thumb/"+g.rec.display.replace("_display.webp","_t.webp");
           return '<li><a class="ic-gal-item" href="'+esc(hrefFor(book, "plate/"+g.it.id))+'" data-id="'+esc(g.it.id)+'">'+
             '<span class="ic-gal-img"><img loading="lazy" src="'+esc(thumb)+'" alt=""></span>'+
-            '<span class="ic-gal-cap">'+esc(titleOf(g.it))+'</span></a></li>';
+            '<span class="ic-gal-cap">'+esc(plateName(chap, g.it))+'</span></a></li>';
         }).join("")+'</ul>';
       } else {
         panel = '<form class="ic-home-search" role="search">'+
@@ -1424,16 +1425,27 @@
     return (book.plateIdx = m);
   }
   // Русская подпись берётся из блока-подписи главы; короткие «подписи» вроде «К с. 3.» или надписи на монете — не подпись.
+  // plates.json: поправки к карточке гравюры по самой картинке (title, it, ru, chapter, block); старые карточки их не читают
+  function plateOv(chap, it){ return (chap && chap.plates && chap.plates[it.id]) || {}; }
+  function plateName(chap, it){
+    var ov = plateOv(chap, it);
+    if(!ov.title) return titleOf(it);
+    if(state.lang==="fr") return ov.fr || ov.en || ov.title;
+    return state.lang==="en" ? (ov.en || ov.title) : ov.title;
+  }
   function plateInfo(book, chap, g){
-    var it = g.it, cp = chap ? plateIndex(book, chap)[g.rec.display] : null;
-    var info = {it:it, rec:g.rec, ruB:(cp && cp.b.text.length >= 12) ? cp.b : null, chapter:"", block:0};
+    var it = g.it, ov = plateOv(chap, it), cp = chap ? plateIndex(book, chap)[g.rec.display] : null;
+    var info = {it:it, rec:g.rec, title:plateName(chap, it), ruB:(cp && cp.b.text.length >= 12) ? cp.b : null, chapter:"", block:0};
     if(cp){ info.chapter = cp.chapter; info.block = cp.block; }
     else {
       var lk = chap && chap.links[it.id], ch = lk && chap.bySlug[lk.chapter];
       if(ch && ch.blocks && lk.block >= 1 && lk.block <= ch.blocks.length){ info.chapter = lk.chapter; info.block = lk.block; }
     }
+    if(ov.chapter && ov.block){ info.chapter = ov.chapter; info.block = ov.block; }
+    if(ov.ru !== undefined) info.ruB = ov.ru ? {text:ov.ru} : null;
     var c = (it.caption||"").trim();
     info.itCap = (info.ruB && c && c.indexOf("\n") < 0 && c.charAt(0) !== c.charAt(0).toLowerCase() && c.charAt(0) !== "(" && c.length <= info.ruB.text.length*2.5) ? c : "";
+    if(ov.it !== undefined) info.itCap = ov.it;
     return info;
   }
   function platePageStr(p){
@@ -1481,7 +1493,7 @@
       function navLink(n, dir){
         if(!n) return '<span class="ic-pc-step ic-pc-'+dir+' ic-pc-off" aria-hidden="true"></span>';
         return '<a class="ic-pc-step ic-pc-'+dir+'" rel="'+dir+'" href="'+esc(hrefFor(book,"plate/"+n.it.id))+'" aria-label="'+esc(t(dir==="prev"?"plPrev":"plNext"))+'">'+
-          '<span class="ic-pc-arrow" aria-hidden="true">'+(dir==="prev"?"←":"→")+'</span><span class="ic-pc-step-t">'+esc(titleOf(n.it))+'</span></a>';
+          '<span class="ic-pc-arrow" aria-hidden="true">'+(dir==="prev"?"←":"→")+'</span><span class="ic-pc-step-t">'+esc(plateName(chap, n.it))+'</span></a>';
       }
       var meta = [];
       if(ch) meta.push('<span>'+esc(chapTitle(ch))+'</span>');
@@ -1491,10 +1503,10 @@
           '<div class="ic-top-row"><button type="button" class="ic-to-lib-link ic-back ic-pc-all">← '+esc(t("plAll"))+'</button>'+langSwitch()+'</div>'+
           '<article class="ic-pc" data-id="'+esc(it.id)+'">'+
             '<figure class="ic-pc-fig"><div class="ic-fig ic-fig-eng" data-src="'+esc(src)+'"><img class="ic-fade-img ic-eng-display" src="'+esc(src)+'"'+
-              (g.rec.width && g.rec.height ? ' width="'+g.rec.width+'" height="'+g.rec.height+'"' : "")+' alt="'+esc(t("engravingAlt",{title:titleOf(it)}))+'"></div></figure>'+
+              (g.rec.width && g.rec.height ? ' width="'+g.rec.width+'" height="'+g.rec.height+'"' : "")+' alt="'+esc(t("engravingAlt",{title:info.title}))+'"></div></figure>'+
             '<div class="ic-pc-body">'+
               '<p class="ic-pc-count">'+esc(t("plCount",{k:idx+1, n:gal.length}))+'</p>'+
-              '<h1 class="ic-pc-title">'+esc(titleOf(it))+'</h1>'+
+              '<h1 class="ic-pc-title">'+esc(info.title)+'</h1>'+
               (info.ruB ? '<p class="ic-pc-ru" lang="ru">'+inl(info.ruB.text, qmState(info.ruB))+'</p>' : '<p class="ic-pc-none">'+esc(t("plNoCap"))+'</p>')+
               (info.itCap ? '<p class="ic-pc-it" lang="it">'+esc(info.itCap)+'</p>' : "")+
               (meta.length ? '<p class="ic-pc-meta">'+meta.join('<span class="ic-pc-sep" aria-hidden="true"> · </span>')+'</p>' : "")+

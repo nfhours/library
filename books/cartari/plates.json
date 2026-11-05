@@ -1,0 +1,341 @@
+{
+ "cartm_ladderofgods": {
+  "title": "Гербовая заставка",
+  "en": "Headpiece with coats of arms",
+  "fr": "Bandeau aux armoiries",
+  "chapter": "frontespizio-dedica",
+  "block": 14
+ },
+ "cartm3": {
+  "it": "Antro dell'Eternità, con l'imagine del Tempo, ò del Fato, di Febo, della Natura, & delli quattro secoli, che significano da Dio venir il tutto, & da quello il tutto esser compreso, & la reuolutione delle cose humane."
+ },
+ "cart1": {
+  "title": "Янус",
+  "en": "Janus",
+  "fr": "Janus",
+  "it": "Imagini di Giano inteso ancora per il Sole, per il Tempo, per il Dio dell'anno, & della pace, significano ancora li duoi lumi dell'anima nostra, il lume diuino & il lume naturale."
+ },
+ "cartm5": {
+  "it": "Imagine di Saturno, che significa il tempo presente, e passato, & auenire, & la mala natura di tal pianeta, & sua fredezza, & il tempo tutto consumare, & distruggere."
+ },
+ "cartm8": {
+  "it": "Imagini delle quattro stagioni dell'anno, dinotanti gli effetti & essercitij di quelle, con gli animali à loro sacrati, che pur dimostrano la natura della stagione."
+ },
+ "cartm9": {
+  "it": "Tempio di Giano Dio della pace, & della guerra ilquale staua serrato in tempo di pace, & aperto nella guerra, inteso per il Cielo, ilquale girandosi influisce hora pace, hora guerra."
+ },
+ "cartm10": {
+  "it": "Imagine del Sole ò Febo, & di Gioue apo gli Assirij tenuti per vna medesima cosa, intesi da loro per l'anima del mondo, & il loro potere esser congionto insieme."
+ },
+ "cartb17": {
+  "it": "Imagine delle noue Muse riferite all'armonia de gl'Orbi celesti, & inuentrici della Retorica, Astrologia, Musica, & fauole rappresentatiue."
+ },
+ "cartm11": {
+  "it": "Apollo in mezo delle Muse per dare ad intendere, che il Sole hà virtù diffusiua; & che poco valeriano i versi delle Muse se non aiutasse l'Enthusiasmo."
+ },
+ "cartm26": {
+  "title": "Богиня Здоровья",
+  "en": "Goddess Health",
+  "fr": "Déesse Santé",
+  "it": "Imagine della dea Salute, & del Serpente à lei sacrato significante della beuanda delle medicine sì purgatiue, come conseruatiue, peruenir à noi la sanità perduta, la longhezza, & stabilità della vita, & la sanità significata per il Serpente."
+ },
+ "cartm27": {
+  "title": "Гигия, дочь Эскулапа",
+  "en": "Hygieia, daughter of Aesculapius",
+  "fr": "Hygie, fille d'Esculape",
+  "it": "Imagine d'Higia figliuola d'Esculapio co'l Cane, & Serpe simboli di suo Padre, significanti la diligenza del buon Medico, & gli effetti, che da questa ne risultano."
+ },
+ "cartm28": {
+  "title": "Колесница Солнца",
+  "en": "Chariot of the Sun",
+  "fr": "Char du Soleil",
+  "it": "Carro del Sole Dio della luce con l'imagine & ornamento di esso Sole, tirato da quattro Caualli, significante li quattro effetti splendori del Sole del giorno & dell'anno, & la velocità del moto suo, & suo corpo."
+ },
+ "cart4": {
+  "title": "Юпитер и Пан",
+  "en": "Jupiter and Pan",
+  "fr": "Jupiter et Pan",
+  "it": "Imagine di Gioue & di Pan significante l'vniuerso, l'vno Dio delli dei Celesti, l'altro Dio de Pastori, quello sedente per significar l'immutabilità di Dio, & sua prouidenza, & questo il corso del mondo stando in piedi & in moto."
+ },
+ "cartm62": {
+  "it": "Imagini di Partenope, Leucosia, & Ligia Sirene dee del mare figliuole di Acheloo fiume, & di Calliope musa, tutte quali imagini significano le meretrici & loro blanditie & allettamenti, dinotano anco alcuni scogli, & gli eloquenti lodatori, & gli adulatori."
+ },
+ "cart8": {
+  "it": "Imagini di Plutone dio dell'Inferno, di Proserpina sua moglie, di Eurinomo diuoratore delle carni de morti; di Cerbero cane trifauce custode dell'Inferno. Plutone è tolto per il Sole nel tempo dell'Inuerno, nel quale la virtù della terra stà in se ristretta; & Proserpina è intesa per la terra; il cane per le tre cose necessarie al seme, il nascere, crescere, & perfettionarsi."
+ },
+ "cart9": {
+  "it": "Imagini di Mercurio messaggiero de i dei, Dio della eloquenza, & de mercanti. Questo dinota la fauella esser messaggiera, & discopritrice della mente & del core, il Caduceo poi è segno di concordia, vnione, & pace, con alcuni animali à lui sacrati, dinotanti l'industria & vigilanza nel contrattare, e ne' negotij."
+ },
+ "cart10": {
+  "title": "Меркурий и Минерва",
+  "en": "Mercury and Minerva",
+  "fr": "Mercure et Minerve"
+ },
+ "carta2": {
+  "title": "Митра, убивающий быка",
+  "en": "Mithras slaying the bull",
+  "fr": "Mithra égorgeant le taureau",
+  "chapter": "annotationi-pignoria",
+  "block": 46
+ },
+ "cartf3": {
+  "title": "Люцифер",
+  "en": "Lucifer",
+  "fr": "Lucifer",
+  "chapter": "annotationi-pignoria",
+  "block": 66
+ },
+ "carta3": {
+  "title": "Три божества",
+  "en": "Three deities",
+  "fr": "Trois divinités",
+  "chapter": "annotationi-pignoria",
+  "block": 80
+ },
+ "carta4": {
+  "title": "Два рода Сатиров",
+  "en": "Two kinds of Satyrs",
+  "fr": "Deux sortes de Satyres",
+  "chapter": "annotationi-pignoria",
+  "block": 94
+ },
+ "carta7": {
+  "title": "Земля",
+  "en": "Earth",
+  "fr": "La Terre",
+  "chapter": "annotationi-pignoria",
+  "block": 145
+ },
+ "carta30": {
+  "title": "Океан",
+  "en": "Oceanus",
+  "fr": "Océan"
+ },
+ "carta9": {
+  "title": "Нимфы",
+  "en": "Nymphs",
+  "fr": "Nymphes",
+  "chapter": "annotationi-pignoria",
+  "block": 223
+ },
+ "carta31": {
+  "title": "Конная статуя Марка Аврелия",
+  "en": "Equestrian statue of Marcus Aurelius",
+  "fr": "Statue équestre de Marc Aurèle",
+  "chapter": "annotationi-pignoria",
+  "block": 242
+ },
+ "carta32": {
+  "title": "Геркулес с трофеем",
+  "en": "Hercules with a trophy",
+  "fr": "Hercule au trophée",
+  "chapter": "annotationi-pignoria",
+  "block": 258
+ },
+ "carta33": {
+  "title": "Юный Геркулес",
+  "en": "Young Hercules",
+  "fr": "Hercule jeune"
+ },
+ "carta13": {
+  "title": "Аполлон с грифоном",
+  "en": "Apollo with a griffin",
+  "fr": "Apollon au griffon",
+  "chapter": "annotationi-pignoria",
+  "block": 269
+ },
+ "carta36": {
+  "title": "Марс и Венера",
+  "en": "Mars and Venus",
+  "fr": "Mars et Vénus",
+  "chapter": "annotationi-pignoria",
+  "block": 290
+ },
+ "carta37": {
+  "title": "Обнажённый Марс",
+  "en": "Nude Mars",
+  "fr": "Mars nu",
+  "chapter": "annotationi-pignoria",
+  "block": 296
+ },
+ "carta15": {
+  "title": "Вакханка",
+  "en": "Bacchante",
+  "fr": "Bacchante",
+  "chapter": "annotationi-pignoria",
+  "block": 310
+ },
+ "carta38": {
+  "title": "Гений Сената",
+  "en": "Genius of the Senate",
+  "fr": "Génie du Sénat"
+ },
+ "carta16": {
+  "title": "Гений на лектистернии",
+  "en": "Genius at a lectisternium",
+  "fr": "Génie au lectisterne"
+ },
+ "carta17": {
+  "title": "Два Гения с модием",
+  "en": "Two Genii with a modius",
+  "fr": "Deux Génies au boisseau"
+ },
+ "carta39": {
+  "title": "Гений Антиохии",
+  "en": "Genius of Antioch",
+  "fr": "Génie d'Antioche"
+ },
+ "carta18": {
+  "title": "Гении с Рогом изобилия",
+  "en": "Genii with a cornucopia",
+  "fr": "Génies à la corne d'abondance"
+ },
+ "carta40": {
+  "title": "Небесный Амур",
+  "en": "Heavenly Cupid",
+  "fr": "Amour céleste",
+  "chapter": "annotationi-pignoria",
+  "block": 366
+ },
+ "carta20": {
+  "title": "Амуры и львица",
+  "en": "Cupids and a lioness",
+  "fr": "Amours et lionne",
+  "chapter": "annotationi-pignoria",
+  "block": 373
+ },
+ "carta41": {
+  "title": "Распятый Купидон",
+  "en": "Crucified Cupid",
+  "fr": "Cupidon crucifié",
+  "chapter": "annotationi-pignoria",
+  "block": 375
+ },
+ "carta22": {
+  "chapter": "aggionta",
+  "block": 6
+ },
+ "carta23": {
+  "title": "Обломок статуи Прозерпины",
+  "en": "Fragment of a statue of Proserpina",
+  "fr": "Fragment d'une statue de Proserpine",
+  "chapter": "aggionta",
+  "block": 24
+ },
+ "carta24": {
+  "title": "Перевязь статуи Прозерпины",
+  "en": "Sash of the Proserpina statue",
+  "fr": "Baudrier de la statue de Proserpine"
+ },
+ "carta45": {
+  "title": "Бог Тиллин",
+  "en": "The god Tyllinus",
+  "fr": "Le dieu Tyllinus",
+  "ru": "Тиллину.",
+  "chapter": "aggionta",
+  "block": 32,
+  "it": "ΤΥΛΛΙΝΙ"
+ },
+ "carta27": {
+  "chapter": "aggionta",
+  "block": 31
+ },
+ "carti2": {
+  "title": "Хомопока",
+  "en": "Homopoka",
+  "fr": "Homopoka"
+ },
+ "carti4": {
+  "title": "Посол Ситлалатонака и Чимальман",
+  "en": "Envoy of Citlalatonac and Chimalman",
+  "fr": "Envoyé de Citlalatonac et Chimalman"
+ },
+ "carti5": {
+  "title": "Посол Ситлалатонака",
+  "en": "Envoy of Citlalatonac",
+  "fr": "Envoyé de Citlalatonac"
+ },
+ "carti_idolimessico": {
+  "title": "Мексиканский идол и египетский Гор",
+  "en": "Mexican idol and Egyptian Horus",
+  "fr": "Idole mexicaine et Horus égyptien"
+ },
+ "carti_pagodeelefante": {
+  "title": "Второй мексиканский идол",
+  "en": "Second Mexican idol",
+  "fr": "Seconde idole mexicaine",
+  "chapter": "seconda-parte-indiani",
+  "block": 36
+ },
+ "carti7": {
+  "title": "Пагода Слона и Ганиссоне",
+  "en": "Elephant Pagoda and Ganissone",
+  "fr": "Pagode de l'Éléphant et Ganissone",
+  "chapter": "seconda-parte-indiani",
+  "block": 38
+ },
+ "carti8": {
+  "chapter": "seconda-parte-indiani",
+  "block": 40
+ },
+ "carti9": {
+  "title": "Амида на Розе и Гарпократ",
+  "en": "Amida on a Rose and Harpocrates",
+  "fr": "Amida sur une rose et Harpocrate",
+  "chapter": "seconda-parte-indiani",
+  "block": 41
+ },
+ "carti10": {
+  "title": "Статуя Амиды близ Меако",
+  "en": "Statue of Amida near Meaco",
+  "fr": "Statue d'Amida près de Meaco",
+  "chapter": "seconda-parte-indiani",
+  "block": 42
+ },
+ "carti13": {
+  "title": "Храм Бога-Ящерицы",
+  "en": "Temple of the Lizard God",
+  "fr": "Temple du dieu-lézard",
+  "chapter": "seconda-parte-indiani",
+  "block": 43
+ },
+ "carti14": {
+  "title": "Японский идол Малоко",
+  "en": "Japanese idol Maloco",
+  "fr": "Idole japonaise Maloco"
+ },
+ "carti15": {
+  "chapter": "seconda-parte-indiani",
+  "block": 48
+ },
+ "carti19": {
+  "title": "Шестой и седьмой идольчики",
+  "en": "Sixth and seventh idols",
+  "fr": "Sixième et septième idoles"
+ },
+ "carti24": {
+  "title": "Идол верхом на звере",
+  "en": "Idol riding a beast",
+  "fr": "Idole montée sur une bête",
+  "chapter": "seconda-parte-indiani",
+  "block": 61
+ },
+ "carti25": {
+  "title": "Воин, попирающий чудовище",
+  "en": "Warrior trampling a monster",
+  "fr": "Guerrier piétinant un monstre",
+  "chapter": "seconda-parte-indiani",
+  "block": 59
+ },
+ "carti26": {
+  "title": "Воин с поднятым оружием",
+  "en": "Warrior with raised weapon",
+  "fr": "Guerrier à l'arme levée",
+  "chapter": "seconda-parte-indiani",
+  "block": 60
+ },
+ "carti27": {
+  "chapter": "seconda-parte-indiani",
+  "block": 64
+ }
+}
