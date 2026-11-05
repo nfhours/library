@@ -527,12 +527,14 @@ button.ic-toc-close{width:38px;height:38px;border:1px solid var(--rule);border-r
 .ic-home-txt .ic-title{margin-top:6px;font-size:2.4em}
 .ic-home-author{margin-top:14px;font-size:1.1em;color:var(--accent)}
 .ic-home-ed{margin-top:2px;font-size:.88em;color:var(--soft)}
+.ic-ed-short{display:none}
 .ic-home-blurb{font-size:.96em;line-height:1.65;color:var(--ink);max-width:34em}
 .ic-home-tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
 .ic-home-tiles .ic-home-tile:first-child{grid-column:1/-1}
 @media (min-width:761px){
   .ic-home-hero{grid-template-columns:minmax(0,300px) minmax(0,1fr);grid-template-areas:"fig txt" "fig tiles" "blurb blurb";column-gap:40px;row-gap:26px;align-items:start}
   .ic-home-fig img{max-height:none}
+  .ic-home .ic-orn-headpiece{width:60%}
   .ic-home-tiles{align-self:start}
 }
 .ic .ic-home-tile{display:flex;flex-direction:column;gap:6px;justify-content:center;min-height:88px;padding:16px 22px;border:1px solid var(--rule);border-radius:4px;
@@ -560,6 +562,8 @@ button.ic-home-go{flex:none;font-size:.78em;letter-spacing:.06em;text-transform:
 .ic-home-all{margin-top:20px;font-size:.9em}
 @media (max-width:760px){
   .ic-wrap.ic-home{padding-top:14px}
+  .ic-ed-long{display:none}
+  .ic-ed-short{display:inline}
   .ic-home-txt .ic-title{font-size:2.05em}
   .ic-home-author{margin-top:8px}
   .ic-home-tiles{gap:12px}

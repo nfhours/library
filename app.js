@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "87";
+  var APP_VER = "88";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -1363,7 +1363,7 @@
               '<p class="ic-kicker">'+esc(book.meta.title.original||"")+'</p>'+
               '<h1 class="ic-title">'+esc(bt(book.meta.title))+'</h1>'+
               '<p class="ic-home-author">'+esc(bt(h.author))+'</p>'+
-              '<p class="ic-home-ed">'+esc(bt(h.edition))+(h.addition ? ' · '+esc(bt(h.addition)) : "")+'</p>'+
+              '<p class="ic-home-ed">'+(h.editionShort ? '<span class="ic-ed-long">' : '<span>')+esc(bt(h.edition))+(h.addition ? ' · '+esc(bt(h.addition)) : "")+'</span>'+(h.editionShort ? '<span class="ic-ed-short">'+esc(bt(h.editionShort))+'</span>' : "")+'</p>'+
             '</div>'+
             '<nav class="ic-home-tiles" aria-label="'+esc(t("hmNavLabel"))+'">'+
               homeTile(hrefFor(book,"home"), t("hmRead"), t("hmReadSub"), tab==="read")+
