@@ -4,8 +4,12 @@
 
     python3 tools/build_chapters.py                 # только diana (по умолчанию)
     python3 tools/build_chapters.py diana giove     # перечисленные главы
-    python3 tools/build_chapters.py --all           # все 17 глав
+    python3 tools/build_chapters.py --all           # все 25 частей
     python3 tools/build_chapters.py --out /tmp/x.json diana
+
+Части, добавленные позже (RICH), собираются полнее: заголовки «## …» и «**…**» дают блок h
+(lv 2 / lv 3), строки «- …» — отдельные абзацы, переносы строк внутри абзаца сохраняются (\\n), раздел
+«## Сомнительные места» (заметки переводчика) на сайт не попадает.
 
 Оглавление (chapters[]) всегда содержит все главы книги по порядку; поле blocks
 есть только у собранных. Блоки: aside (помета на полях), p (абзац), quote
@@ -23,9 +27,15 @@ import argparse, json, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BOOK = "cartari"
-ORDER = ["proemio", "saturno", "apollo", "diana", "giove", "giunone", "gran-madre",
+ORDER = ["frontespizio-dedica", "prefatione", "catalogo-dei", "catalogo-autori",
+         "proemio", "saturno", "apollo", "diana", "giove", "giunone", "gran-madre",
          "nettuno", "vertunno", "plutone", "mercurio", "minerva", "bacco", "fortuna",
-         "cupido", "venere", "gratie"]
+         "cupido", "venere", "gratie",
+         "annotationi-pignoria", "aggionta", "seconda-parte-titolo-dedica", "seconda-parte-indiani"]
+RICH = {"frontespizio-dedica", "prefatione", "catalogo-dei", "catalogo-autori",
+        "annotationi-pignoria", "aggionta", "seconda-parte-titolo-dedica", "seconda-parte-indiani"}
+# У этих частей гравюры не идут подряд за подписями (почти все без подписи): привязываются только ENG_CARD.
+NO_AUTO_PLATES = RICH
 
 ASIDE = re.compile(r"^<aside>(.*)</aside>\s*$")
 
@@ -33,6 +43,7 @@ ASIDE = re.compile(r"^<aside>(.*)</aside>\s*$")
 NOT_CAP = {
     "mercurio": ["Я есмь пастырь добрый."],
     "minerva": ["Пусть от меня учатся быть благочестивым"],
+    "annotationi-pignoria": ["Элий Монт"],
 }
 # Явная привязка подписи (по началу текста) к файлу гравюры (без расширения), когда порядок
 # подписей в тексте не совпадает с порядком листов или лист лежит вне сканов главы.
@@ -45,6 +56,13 @@ ENG_BIND = {
     "giove": [("Изображение Веры", "0173_132"),
               ("Изображение Юпитера, разящего молнией клятвопреступников", "0171_130")],
 }
+# Подпись (по началу текста) -> id карточки; файл гравюры берётся из engraving_map.json.
+ENG_CARD = {
+    "aggionta": [("Имеющая некоторое сходство", "carta45"), ("Тиллину.", "carta27")],
+    "seconda-parte-indiani": [("VOT P R", "carti_constantinevot")],
+}
+
+SCAN_TAIL = re.compile(r"\s*\((?:скан|сканы) [^)]*\)\s*$")
 
 
 def parse_chapter(path, slug=None):
@@ -54,12 +72,30 @@ def parse_chapter(path, slug=None):
     header = "\n".join(lines[1:sep])
     m = re.search(r"сканы (\d{4})[–-](\d{4})", header)
     scans = [int(m.group(1)), int(m.group(2))] if m else None
+    rich = slug in RICH
+    if rich and "## Сомнительные места" in lines:
+        lines = lines[:lines.index("## Сомнительные места")]
     blocks, i = [], sep + 1
     while i < len(lines):
         ln = lines[i]
         if not ln.strip():
             i += 1
             continue
+        if rich:
+            h = re.match(r"^## (.+)$", ln)
+            if h:
+                blocks.append({"t": "h", "lv": 2, "text": SCAN_TAIL.sub("", h.group(1)).strip(), "l": i + 1})
+                i += 1
+                continue
+            h = re.fullmatch(r"\*\*([^*]+)\*\*", ln.strip())
+            if h:
+                blocks.append({"t": "h", "lv": 3, "text": h.group(1).strip(), "l": i + 1})
+                i += 1
+                continue
+            if ln.startswith("- "):
+                blocks.append({"t": "p", "text": ln[2:].strip(), "l": i + 1})
+                i += 1
+                continue
         a = ASIDE.match(ln)
         if a:
             blocks.append({"t": "aside", "text": a.group(1).strip(), "l": i + 1})
@@ -88,10 +124,11 @@ def parse_chapter(path, slug=None):
                 blocks.append(b)
             continue
         para, start = [], i
-        while i < len(lines) and lines[i].strip() and not lines[i].startswith(">") and not ASIDE.match(lines[i]):
+        while (i < len(lines) and lines[i].strip() and not lines[i].startswith(">") and not ASIDE.match(lines[i])
+               and not (rich and (lines[i].startswith(("## ", "- ")) or re.fullmatch(r"\*\*[^*]+\*\*", lines[i].strip())))):
             para.append(lines[i].strip())
             i += 1
-        blocks.append({"t": "p", "text": " ".join(para), "l": start + 1})
+        blocks.append({"t": "p", "text": ("\n" if rich else " ").join(para), "l": start + 1})
     for n, b in enumerate(blocks, 1):
         b["n"] = n
     return {"title": title, "scans": scans, "blocks": blocks}
@@ -145,7 +182,18 @@ def main():
                 b["eng"], b["w"], b["h"] = e["display"], e["width"], e["height"]
                 caps.remove(b)
                 plates = [x for x in plates if x["file"] != e["file"]]
-            if len(caps) == len(plates):
+            card_map = json.load(open(os.path.join(bdir, "engraving_map.json"), encoding="utf-8"))
+            for prefix, card in ENG_CARD.get(slug, []):
+                b = next((c for c in caps if c["text"].startswith(prefix)), None)
+                e = next((x for x in engravings if x["file"] == card_map.get(card)), None)
+                if b is None or e is None:
+                    sys.exit("ENG_CARD: %s: нет подписи «%s» или гравюры карточки %s" % (slug, prefix, card))
+                b["eng"], b["w"], b["h"] = e["display"], e["width"], e["height"]
+                caps.remove(b)
+            if slug in NO_AUTO_PLATES:
+                if caps:
+                    print("ПРЕДУПРЕЖДЕНИЕ: %s: подписей без гравюры %d" % (slug, len(caps)), file=sys.stderr)
+            elif len(caps) == len(plates):
                 for b, e in zip(caps, plates):
                     b["eng"] = e["display"]
                     b["w"], b["h"] = e["width"], e["height"]

@@ -431,6 +431,11 @@ button.ic-scan-prev,button.ic-scan-next{width:38px;height:38px;border:1px solid 
 .ic-ch-toc a[aria-current]{color:var(--ink);box-shadow:inset 0 -1px 0 var(--accent)}
 .ic-ch-toc a.ic-ch-off{opacity:.5}
 .ic-ch-body{margin-top:30px}
+.ic-text h2.ic-ch-h,.ic-text h3.ic-ch-h{font-family:Georgia,serif;font-weight:400;text-align:center;color:var(--ink);line-height:1.3;clear:both}
+.ic-text h2.ic-ch-h{font-size:1.15em;letter-spacing:.04em;margin:2.2em 0 .9em}
+.ic-text h3.ic-ch-h{font-size:1.05em;font-style:italic;margin:1.8em 0 .7em}
+.ic-ch-body > :first-child.ic-ch-h{margin-top:0}
+.ic-text p.ic-ch-lines{text-indent:0;text-align:center;text-align-last:center;hyphens:manual;margin:.5em 0}
 .ic .ic-ch-note{margin-top:14px;font-size:.8em;color:var(--soft);font-style:italic}
 /* помета на полях: на узком экране — колонка справа от абзаца (float), тонкая линия слева; пометы одного абзаца идут столбиком (clear:right) */
 .ic-ch-aside{float:right;clear:right;box-sizing:border-box;width:32%;margin:.2em 0 .5em 1.3em;padding-left:.6em;border-left:1px solid var(--rule);font-size:.72em;line-height:1.35;color:var(--soft);font-style:italic;text-align:left;hyphens:manual}
