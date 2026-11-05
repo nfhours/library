@@ -576,6 +576,11 @@ button.ic-home-go{flex:none;font-size:.78em;letter-spacing:.06em;text-transform:
 .ic .ic-pc-read{display:inline-block;margin-top:20px;padding:12px 24px;border:1px solid var(--accent);border-radius:3px;background:var(--sheet);color:var(--accent);
   font-size:.95em;letter-spacing:.02em;box-shadow:0 14px 30px -22px rgba(70,46,20,.5);transition:background-color .2s,color .2s}
 .ic .ic-pc-read:hover{background:var(--accent);color:var(--paper)}
+.ic-pc-expl{margin-top:26px;padding-top:16px;border-top:1px solid var(--rule)}
+.ic .ic-pc-expl-h{margin:0 0 10px;font-family:var(--old);font-weight:400;font-size:1.25em;line-height:1.2}
+.ic-pc-expl-body{font-size:.95em;line-height:1.6}
+.ic-pc-expl-body p,.ic-text.ic-pc-expl-body p.ic-ch-lines{text-indent:0;text-align:left;text-align-last:left;margin:0 0 .75em}
+.ic-pc-expl-body .ic-ch-quote{margin:.4em 0 .9em}
 .ic-pc-pager{display:flex;justify-content:space-between;gap:16px;margin-top:34px;padding-top:16px;border-top:1px solid var(--rule)}
 .ic .ic-pc-step{flex:1 1 0;min-width:0;display:flex;align-items:center;gap:10px;min-height:44px;color:var(--ink)}
 .ic-pc-next{justify-content:flex-end;text-align:right}

@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "90";
+  var APP_VER = "91";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -131,7 +131,10 @@
     hmNames:      {ru:"Имена", en:"Names", fr:"Noms"},
     hmSoon:       {ru:"скоро", en:"soon", fr:"bientôt"},
     hmSearchGo:   {ru:"Найти", en:"Search", fr:"Chercher"},
-    plRead:       {ru:"Читать это место", en:"Read this passage", fr:"Lire ce passage"},
+    plRead:       {ru:"Читать в главе", en:"Read in the chapter", fr:"Lire dans le chapitre"},
+    plExplH:      {ru:"Что пишет Картари", en:"What Cartari writes", fr:"Ce qu’écrit Cartari"},
+    plNoExpl:     {ru:"В тексте нет отдельного описания этой гравюры.", en:"The text has no separate description of this engraving.", fr:"Le texte ne décrit pas cette gravure à part."},
+    plTitlePage:  {ru:"второй титульный лист", en:"second title page", fr:"second titre"},
     plAll:        {ru:"Все гравюры", en:"All engravings", fr:"Toutes les gravures"},
     plPrev:       {ru:"Предыдущая гравюра", en:"Previous engraving", fr:"Gravure précédente"},
     plNext:       {ru:"Следующая гравюра", en:"Next engraving", fr:"Gravure suivante"},
@@ -482,7 +485,7 @@
 
   /* ---------- маршрутизация ---------- */
   // Форматы адреса: "#/<slug>/<id>" — карточка; "#/<slug>" — указатель книги;
-  // "#/<slug>/about" — страница «О книге»; "#/<slug>/home[/gallery|search]" — главная книги (book.json home); "#/<slug>/ch/<глава>[/<блок>]" — глава
+  // "#/<slug>/about" — страница «О книге»; "#/<slug>/find" — указатель карточек книги с главной (там "#/<slug>" ведёт на главную); "#/<slug>/home[/gallery|search]" — главная книги (book.json home); "#/<slug>/ch/<глава>[/<блок>]" — глава
   // русского перевода (только книги с book.json chapters); "#/<slug>/plate/<n>" — просмотр таблицы
   // целиком с номерами (только для книг с book.json viewer:"plate");
   // "#/" или пусто — библиотека (когда книга не закреплена через data-book).
@@ -503,6 +506,7 @@
     if(!rest.length) return {slug:slug};
     if(rest[0]==="about") return {slug:slug, view:"about"};
     if(rest[0]==="home") return {slug:slug, view:"home", tab:rest[1]};
+    if(rest[0]==="find") return {slug:slug, view:"find"};
     if(rest[0]==="plate" && rest[1]) return {slug:slug, view:"plate", plateNum:rest[1]};
     if(rest[0]==="ch" && rest[1]) return {slug:slug, view:"chapter", chapter:rest[1], block:rest[2]};
     return {slug:slug, id:rest[0]};
@@ -516,6 +520,10 @@
     openBook(p.slug, function(book){
       if(!book){ if(!forcedBook) renderLibraryHome(); return; }
       var isPlateBook = book.meta.viewer==="plate";
+      var hasHome = !!(book.meta.home && book.meta.chapters);
+      if(hasHome && !p.id && !p.view){ location.replace(hrefFor(book, "home")); return; }
+      if(hasHome && p.id && book.chap===undefined){ loadChapters(book, function(){ if(gen===renderGen) route(); }); return; }
+      if(hasHome && p.id && book.chap && book.chap.pl.byOld[p.id]){ location.replace(hrefFor(book, "plate/"+book.chap.pl.byOld[p.id])); return; }
       if(p.view==="home" && book.meta.home) renderHome(book, p.tab);
       else if(p.view==="chapter" && book.meta.chapters) renderChapter(book, p.chapter, p.block);
       else if(p.id && book.byId[p.id] && book.meta.chapters && state.lang==="ru" && book.chap===undefined)
@@ -523,6 +531,7 @@
       else if(p.view==="about") renderAbout(book);
       else if(p.view==="plate" && book.meta.home && book.meta.chapters) renderPlateCard(book, p.plateNum);
       else if(p.view==="plate") renderPlate(book, p.plateNum);
+      else if(p.view==="find") renderIndex(book);
       else if(p.id && book.byId[p.id] && isPlateBook && book.byId[p.id].plate!=null) renderPlate(book, book.byId[p.id].plate, {focus:p.id});
       else if(p.id && book.byId[p.id]) renderCard(book, book.byId[p.id]);
       else if(isPlateBook) renderPlateIndex(book);
@@ -591,7 +600,10 @@
   })();
 
   function go(book, id){ state.scroll = window.scrollY; location.hash = forcedBook ? "#/"+id : "#/"+book.slug+"/"+id; }
-  function goIndex(book){ location.hash = forcedBook ? "" : "#/"+book.slug; }
+  function goIndex(book){
+    if(book.meta.home && book.meta.chapters) location.hash = hrefFor(book, "find");
+    else location.hash = forcedBook ? "" : "#/"+book.slug;
+  }
   function hrefFor(book, suffix){ return forcedBook ? "#/"+suffix : "#/"+book.slug+"/"+suffix; }
   function toTop(noImgSnap){
     // The standalone page's back-bar is sticky over the top of the viewport
@@ -703,7 +715,7 @@
       })).then(function(metas){
         var cards = list.map(function(b,i){
           var m = metas[i]; if(!m) return "";
-          return '<li class="ic-book-card" tabindex="0" role="link" data-slug="'+esc(b.slug)+'">'+
+          return '<li class="ic-book-card" tabindex="0" role="link" data-slug="'+esc(b.slug)+'"'+(m.home && m.chapters ? ' data-home="1"' : "")+'>'+
             '<div class="ic-book-head">'+
               '<h2 class="ic-book-title">'+esc(bt(m.title))+'</h2>'+
               (m.author?'<p class="ic-book-author">'+esc(m.author)+(m.year?", "+m.year:"")+'</p>':"")+
@@ -728,10 +740,10 @@
         root.querySelectorAll(".ic-book-card").forEach(function(c){
           c.addEventListener("click",function(e){
             if(e.target.closest(".ic-book-more")) return;
-            location.hash = "#/"+c.getAttribute("data-slug");
+            location.hash = "#/"+c.getAttribute("data-slug")+(c.hasAttribute("data-home") ? "/home" : "");
           });
           c.addEventListener("keydown",function(e){
-            if((e.key==="Enter"||e.key===" ") && !e.target.closest(".ic-book-more")){ e.preventDefault(); location.hash = "#/"+c.getAttribute("data-slug"); }
+            if((e.key==="Enter"||e.key===" ") && !e.target.closest(".ic-book-more")){ e.preventDefault(); location.hash = "#/"+c.getAttribute("data-slug")+(c.hasAttribute("data-home") ? "/home" : ""); }
           });
         });
         nudgeRepaint();
@@ -1114,7 +1126,9 @@
         if(c.length < 4 || !c[0]) return;
         links[c[0]] = {chapter:c[1], block:parseInt(c[2],10), conf:c[3], end:parseInt(c[4],10)||0, anchor:c[5]||""};
       });
-      book.chap = {list:list, bySlug:bySlug, links:links, plates:res[2] || {}};
+      var pls = (res[2] && res[2].plates) || [], byId = {}, byOld = {};
+      pls.forEach(function(p){ byId[p.id] = p; (p.old_ids||[]).forEach(function(o){ byOld[o] = p.id; }); });
+      book.chap = {list:list, bySlug:bySlug, links:links, pl:{list:pls, byId:byId, byOld:byOld}};
       cb(book.chap);
     }).catch(function(){ book.chap = null; cb(null); });
   }
@@ -1183,6 +1197,14 @@
     };
   }
 
+  // Гравюры без печатной подписи стоят перед блоком, к которому привязаны (plates.json, at=before).
+  function figsHtml(book, b){
+    return (b.figs||[]).map(function(f){
+      var src = BASE+"books/"+(book.meta.ornaments && book.meta.ornaments.source || book.slug)+"/engravings/"+f.eng;
+      return '<figure class="ic-ch-fig" data-for="'+b.n+'"><div class="ic-fig ic-fig-eng" data-src="'+esc(src)+'"><img class="ic-fade-img ic-eng-display" loading="lazy" src="'+esc(src)+'"'+
+        (f.w&&f.h ? ' width="'+f.w+'" height="'+f.h+'"' : "")+' alt="'+esc(t("engravingAlt",{title:f.pt||""}))+'"></div></figure>';
+    }).join("");
+  }
   function blockHtml(book, b){
     var n = ' data-n="'+b.n+'"', qs = qmState(b);
     if(b.t==="aside") return '<aside class="ic-ch-aside"'+n+'>'+inl(b.text, qs)+'</aside>';
@@ -1191,7 +1213,7 @@
       var src = b.eng ? BASE+"books/"+(book.meta.ornaments && book.meta.ornaments.source || book.slug)+"/engravings/"+b.eng : "";
       return '<figure class="ic-ch-fig"'+n+'>'+
         (src ? '<div class="ic-fig ic-fig-eng" data-src="'+esc(src)+'"><img class="ic-fade-img ic-eng-display" loading="lazy" src="'+esc(src)+'"'+
-          (b.w&&b.h ? ' width="'+b.w+'" height="'+b.h+'"' : "")+' alt="'+esc(t("engravingAlt",{title:b.text.slice(0,60)}))+'"></div>' : "")+
+          (b.w&&b.h ? ' width="'+b.w+'" height="'+b.h+'"' : "")+' alt="'+esc(t("engravingAlt",{title:b.pt || b.text.slice(0,60)}))+'"></div>' : "")+
         '<figcaption>'+inl(b.text, qs)+'</figcaption></figure>';
     }
     if(b.t==="h") return '<h'+(b.lv===2?2:3)+' class="ic-ch-h"'+n+'>'+inl(b.text, qs)+'</h'+(b.lv===2?2:3)+'>';
@@ -1212,7 +1234,7 @@
                  : '<button type="button" disabled></button>';
       }
       var body = ch && ch.blocks
-        ? '<div class="ic-text ic-ch-body" lang="ru">'+ch.blocks.map(function(b){ return blockHtml(book, b); }).join("")+'</div>'
+        ? '<div class="ic-text ic-ch-body" lang="ru">'+ch.blocks.map(function(b){ return figsHtml(book, b)+blockHtml(book, b); }).join("")+'</div>'
         : '<p class="ic-sub">'+esc(t("chNotYet"))+'</p>';
       root.innerHTML =
         '<div class="ic-wrap ic-ch-wrap">'+
@@ -1236,9 +1258,10 @@
       if(tocBtn) tocBtn.addEventListener("click",function(){ openChapToc(book, chap, ch, tocBtn); });
       root.querySelectorAll("[data-ch]").forEach(function(b){ b.addEventListener("click",function(){ location.hash = chapterHref(book, b.getAttribute("data-ch")).replace(/^#/,""); }); });
       root.querySelectorAll(".ic-fig").forEach(function(f){ f.addEventListener("click",function(){ lightbox(f.getAttribute("data-src")); }); });
-      var target = blockN && /^\d+$/.test(blockN) ? root.querySelector('.ic-ch-body [data-n="'+blockN+'"]') : null;
+      var okN = blockN && /^\d+$/.test(blockN), figs = okN ? root.querySelectorAll('.ic-ch-body [data-for="'+blockN+'"]') : [];
+      var target = okN ? (figs.length ? figs[0] : root.querySelector('.ic-ch-body [data-n="'+blockN+'"]')) : null;
       if(target){
-        target.classList.add("ic-ch-hl");
+        if(figs.length) figs.forEach(function(f){ f.classList.add("ic-ch-hl"); }); else target.classList.add("ic-ch-hl");
         // у гравюр заданы width/height, поэтому раскладка не прыгает; повтор — после шрифтов
         var off = (parseFloat(root.dataset.top) || 0) + 24;
         var snap = function(){ if(gen !== renderGen) return; window.scrollTo(0, window.scrollY + target.getBoundingClientRect().top - off); };
@@ -1324,16 +1347,9 @@
   window.addEventListener("resize", closeQm);
 
   /* ---------- главная книги (#/<slug>/home, book.json home) ---------- */
-  function galleryEntries(book){
-    var eng = book.engravings, seen = {}, out = [];
-    if(!eng) return out;
-    book.items.forEach(function(it){
-      var f = eng.map[it.id], rec = f && eng.byFile[f];
-      if(!rec || seen[f]) return;
-      seen[f] = 1; out.push({it:it, rec:rec});
-    });
-    return out;
-  }
+  // Сетка и карточки гравюр читают только plates.json (chap.pl); файлы — books/<источник>/engravings/<file>_display.webp
+  function engBaseOf(book){ return BASE+"books/"+(book.engravings ? book.engravings.srcSlug : (book.meta.ornaments && book.meta.ornaments.source || book.slug))+"/engravings/"; }
+  function galleryEntries(chap){ return chap && chap.pl ? chap.pl.list : []; }
   function homeTile(href, title, sub, on){
     return '<a class="ic-home-tile" href="'+esc(href)+'"'+(on?' aria-current="page"':"")+'><span class="ic-home-tile-t">'+esc(title)+'</span><span class="ic-home-tile-s">'+esc(sub)+'</span></a>';
   }
@@ -1342,26 +1358,26 @@
     restoreState(book.slug);
     loadChapters(book, function(chap){
       if(gen !== renderGen) return;
-      var engBase = BASE+"books/"+(book.engravings ? book.engravings.srcSlug : book.slug)+"/engravings/";
+      var engBase = engBaseOf(book);
       var hero = h.hero ? engBase+h.hero : "";
-      var gal = tab==="gallery" ? galleryEntries(book) : [];
-      var galCount = galleryEntries(book).length;
+      var gal = tab==="gallery" ? galleryEntries(chap) : [];
+      var galCount = galleryEntries(chap).length;
       var panel;
       if(tab==="read"){
         panel = (state.lang!=="ru" ? '<p class="ic-ch-note">'+esc(t("chRuOnly"))+'</p>' : "")+
           (chap ? '<div class="ic-home-toc">'+tocPartsHtml(book, chap, null)+'</div>' : '<p class="ic-empty">'+esc(t("chNotYet"))+'</p>');
       } else if(tab==="gallery"){
         panel = '<ul class="ic-gal">'+gal.map(function(g){
-          var thumb = engBase+"thumb/"+g.rec.display.replace("_display.webp","_t.webp");
-          return '<li><a class="ic-gal-item" href="'+esc(hrefFor(book, "plate/"+g.it.id))+'" data-id="'+esc(g.it.id)+'">'+
+          var thumb = engBase+"thumb/"+g.file+"_t.webp";
+          return '<li><a class="ic-gal-item" href="'+esc(hrefFor(book, "plate/"+g.id))+'" data-id="'+esc(g.id)+'">'+
             '<span class="ic-gal-img"><img loading="lazy" src="'+esc(thumb)+'" alt=""></span>'+
-            '<span class="ic-gal-cap">'+esc(plateName(chap, g.it))+'</span></a></li>';
+            '<span class="ic-gal-cap">'+esc(g.title)+'</span></a></li>';
         }).join("")+'</ul>';
       } else {
         panel = '<form class="ic-home-search" role="search">'+
           '<input class="ic-search" type="search" placeholder="'+esc(t("searchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("searchPh"))+'">'+
           '<button type="submit" class="ic-home-go">'+esc(t("hmSearchGo"))+'</button></form>'+
-          '<p class="ic-home-all"><a href="'+esc(hrefFor(book, ""))+'" class="ic-all-link">'+esc(t("hmAllCards"))+' →</a></p>';
+          '<p class="ic-home-all"><a href="'+esc(hrefFor(book, "find"))+'" class="ic-all-link">'+esc(t("hmAllCards"))+' →</a></p>';
       }
       var orn = book.ornaments, ornRec = function(type, seed){ return orn && pickOrnament(orn[type], "home|"+seed); };
       var hp = ornRec("headpiece","head"), tp = ornRec("tailpiece","tail"), dv = ornRec("divider","div");
@@ -1418,41 +1434,20 @@
   }
 
   /* ---------- карточка гравюры (#/<slug>/plate/<id>; книги с home и chapters) ---------- */
-  function plateIndex(book, chap){
-    if(book.plateIdx) return book.plateIdx;
-    var m = {};
-    chap.list.forEach(function(c){ (c.blocks||[]).forEach(function(b){ if(b.t==="cap" && b.eng && !m[b.eng]) m[b.eng] = {chapter:c.slug, block:b.n, b:b}; }); });
-    return (book.plateIdx = m);
-  }
-  // Русская подпись берётся из блока-подписи главы; короткие «подписи» вроде «К с. 3.» или надписи на монете — не подпись.
-  // plates.json: поправки к карточке гравюры по самой картинке (title, it, ru, chapter, block); старые карточки их не читают
-  function plateOv(chap, it){ return (chap && chap.plates && chap.plates[it.id]) || {}; }
-  function plateName(chap, it){
-    var ov = plateOv(chap, it);
-    if(!ov.title) return titleOf(it);
-    if(state.lang==="fr") return ov.fr || ov.en || ov.title;
-    return state.lang==="en" ? (ov.en || ov.title) : ov.title;
-  }
-  function plateInfo(book, chap, g){
-    var it = g.it, ov = plateOv(chap, it), cp = chap ? plateIndex(book, chap)[g.rec.display] : null;
-    var info = {it:it, rec:g.rec, title:plateName(chap, it), ruB:(cp && cp.b.text.length >= 12) ? cp.b : null, chapter:"", block:0};
-    if(cp){ info.chapter = cp.chapter; info.block = cp.block; }
-    else {
-      var lk = chap && chap.links[it.id], ch = lk && chap.bySlug[lk.chapter];
-      if(ch && ch.blocks && lk.block >= 1 && lk.block <= ch.blocks.length){ info.chapter = lk.chapter; info.block = lk.block; }
-    }
-    if(ov.chapter && ov.block){ info.chapter = ov.chapter; info.block = ov.block; }
-    if(ov.ru !== undefined) info.ruB = ov.ru ? {text:ov.ru} : null;
-    var c = (it.caption||"").trim();
-    info.itCap = (info.ruB && c && c.indexOf("\n") < 0 && c.charAt(0) !== c.charAt(0).toLowerCase() && c.charAt(0) !== "(" && c.length <= info.ruB.text.length*2.5) ? c : "";
-    if(ov.it !== undefined) info.itCap = ov.it;
-    return info;
-  }
   function platePageStr(p){
     p = String(p||"").trim();
+    if(/^Titelblatt/.test(p)) return t("plTitlePage");
     var m = /^(\d+)\.5$/.exec(p);
     if(m) return t("plBetween",{a:m[1], b:parseInt(m[1],10)+1});
     return p ? t("pageAbbr")+" "+p.replace(/\s*-\s*/g,"–") : "";
+  }
+  // Абзацы перевода, на которые plates.json ссылается как на объяснение гравюры
+  function explHtml(chap, e){
+    var ch = chap.bySlug[e.chapter], b = ch && ch.blocks && ch.blocks[e.block-1];
+    if(!b) return "";
+    if(b.t==="quote") return quoteHtml(b);
+    var h = inl(b.text, qmState(b));
+    return b.text.indexOf("\n")>=0 ? '<p class="ic-ch-lines">'+h.replace(/\n/g,"<br>")+'</p>' : '<p>'+h+'</p>';
   }
   function zoomLightbox(src){
     var d = document.createElement("div"); d.className = "ic ic-lb ic-lb-zoom"; d.setAttribute("role","dialog"); d.setAttribute("aria-label",t("plZoomLabel"));
@@ -1483,34 +1478,38 @@
     var gen = renderGen;
     loadChapters(book, function(chap){
       if(gen !== renderGen) return;
-      var gal = galleryEntries(book), f = book.engravings && book.engravings.map[id], idx = -1;
-      gal.forEach(function(g,i){ if(book.engravings.byFile[f] === g.rec) idx = i; });
-      if(idx < 0){ location.replace(hrefFor(book, "home/gallery")); return; }
-      var g = gal[idx], info = plateInfo(book, chap, g), it = g.it;
-      var engBase = BASE+"books/"+book.engravings.srcSlug+"/engravings/", src = engBase+g.rec.display;
-      var ch = info.chapter && chap ? chap.bySlug[info.chapter] : null;
+      var pl = chap && chap.pl, p = pl && pl.byId[id];
+      if(!p){ location.replace(hrefFor(book, pl && pl.byOld[id] ? "plate/"+pl.byOld[id] : "home/gallery")); return; }
+      var gal = pl.list, idx = gal.indexOf(p);
+      var engBase = engBaseOf(book), src = engBase+p.file+"_display.webp";
+      var ch = chap.bySlug[p.chapter], capB = p.at==="cap" && ch && ch.blocks ? ch.blocks[p.block-1] : null;
       var prev = idx > 0 ? gal[idx-1] : null, next = idx < gal.length-1 ? gal[idx+1] : null;
       function navLink(n, dir){
         if(!n) return '<span class="ic-pc-step ic-pc-'+dir+' ic-pc-off" aria-hidden="true"></span>';
-        return '<a class="ic-pc-step ic-pc-'+dir+'" rel="'+dir+'" href="'+esc(hrefFor(book,"plate/"+n.it.id))+'" aria-label="'+esc(t(dir==="prev"?"plPrev":"plNext"))+'">'+
-          '<span class="ic-pc-arrow" aria-hidden="true">'+(dir==="prev"?"←":"→")+'</span><span class="ic-pc-step-t">'+esc(plateName(chap, n.it))+'</span></a>';
+        return '<a class="ic-pc-step ic-pc-'+dir+'" rel="'+dir+'" href="'+esc(hrefFor(book,"plate/"+n.id))+'" aria-label="'+esc(t(dir==="prev"?"plPrev":"plNext"))+'">'+
+          '<span class="ic-pc-arrow" aria-hidden="true">'+(dir==="prev"?"←":"→")+'</span><span class="ic-pc-step-t">'+esc(n.title)+'</span></a>';
       }
       var meta = [];
       if(ch) meta.push('<span>'+esc(chapTitle(ch))+'</span>');
-      var pg = platePageStr(it.page); if(pg) meta.push('<span>'+esc(pg)+' · '+esc(t("plEdition"))+'</span>');
+      var pg = platePageStr(p.page); if(pg) meta.push('<span>'+esc(pg)+' · '+esc(t("plEdition"))+'</span>');
+      var explParas = p.expl.map(function(e){ return explHtml(chap, e); }).join("");
+      var explBlock = '<section class="ic-pc-expl" aria-labelledby="ic-pc-expl-h"><h2 id="ic-pc-expl-h" class="ic-pc-expl-h">'+esc(t("plExplH"))+'</h2>'+
+        (state.lang!=="ru" ? '<p class="ic-ch-note">'+esc(t("chRuOnly"))+'</p>' : explParas ? '<div class="ic-text ic-pc-expl-body" lang="ru">'+explParas+'</div>' : '<p class="ic-pc-none">'+esc(t("plNoExpl"))+'</p>')+
+        '</section>';
       root.innerHTML =
         '<div class="ic-wrap ic-home ic-plate-card">'+
           '<div class="ic-top-row"><button type="button" class="ic-to-lib-link ic-back ic-pc-all">← '+esc(t("plAll"))+'</button>'+langSwitch()+'</div>'+
-          '<article class="ic-pc" data-id="'+esc(it.id)+'">'+
+          '<article class="ic-pc" data-id="'+esc(p.id)+'">'+
             '<figure class="ic-pc-fig"><div class="ic-fig ic-fig-eng" data-src="'+esc(src)+'"><img class="ic-fade-img ic-eng-display" src="'+esc(src)+'"'+
-              (g.rec.width && g.rec.height ? ' width="'+g.rec.width+'" height="'+g.rec.height+'"' : "")+' alt="'+esc(t("engravingAlt",{title:info.title}))+'"></div></figure>'+
+              (p.w && p.h ? ' width="'+p.w+'" height="'+p.h+'"' : "")+' alt="'+esc(t("engravingAlt",{title:p.title}))+'"></div></figure>'+
             '<div class="ic-pc-body">'+
               '<p class="ic-pc-count">'+esc(t("plCount",{k:idx+1, n:gal.length}))+'</p>'+
-              '<h1 class="ic-pc-title">'+esc(info.title)+'</h1>'+
-              (info.ruB ? '<p class="ic-pc-ru" lang="ru">'+inl(info.ruB.text, qmState(info.ruB))+'</p>' : '<p class="ic-pc-none">'+esc(t("plNoCap"))+'</p>')+
-              (info.itCap ? '<p class="ic-pc-it" lang="it">'+esc(info.itCap)+'</p>' : "")+
+              '<h1 class="ic-pc-title">'+esc(p.title)+'</h1>'+
+              (p.ru_caption ? '<p class="ic-pc-ru" lang="ru">'+inl(p.ru_caption, capB ? qmState(capB) : null)+'</p>' : '<p class="ic-pc-none">'+esc(t("plNoCap"))+'</p>')+
+              (p.it_caption ? '<p class="ic-pc-it" lang="it">'+esc(p.it_caption)+'</p>' : "")+
               (meta.length ? '<p class="ic-pc-meta">'+meta.join('<span class="ic-pc-sep" aria-hidden="true"> · </span>')+'</p>' : "")+
-              (info.chapter ? '<a class="ic-pc-read" href="'+esc(chapterHref(book, info.chapter, info.block))+'">'+esc(t("plRead"))+'</a>' : "")+
+              explBlock+
+              '<a class="ic-pc-read" href="'+esc(chapterHref(book, p.chapter, p.block))+'">'+esc(t("plRead"))+'</a>'+
             '</div>'+
           '</article>'+
           '<nav class="ic-pc-pager" aria-label="'+esc(t("hmGallery"))+'">'+navLink(prev,"prev")+navLink(next,"next")+'</nav>'+
@@ -1518,8 +1517,8 @@
       bindLangSwitch(root);
       root.querySelector(".ic-pc-all").addEventListener("click",function(){ location.hash = hrefFor(book, "home/gallery"); });
       var fig = root.querySelector(".ic-pc-fig .ic-fig"); fig.addEventListener("click",function(){ zoomLightbox(src); });
-      [prev,next].forEach(function(n){ if(n){ var im = new Image(); im.src = engBase+n.rec.display; } });
-      function step(n){ if(n) location.replace(hrefFor(book, "plate/"+n.it.id)); }
+      [prev,next].forEach(function(n){ if(n){ var im = new Image(); im.src = engBase+n.file+"_display.webp"; } });
+      function step(n){ if(n) location.replace(hrefFor(book, "plate/"+n.id)); }
       var art = root.querySelector(".ic-pc"), x0 = 0, y0 = 0, t0 = 0, tracking = false;
       art.addEventListener("touchstart",function(e){
         if(e.touches.length !== 1){ tracking = false; return; }

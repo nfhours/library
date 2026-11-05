@@ -1,234 +1,333 @@
-# Сверка карточек гравюр Картари по изображениям
+# Сверка данных гравюр Картари (plates.json) по изображениям
 
-Метод: 212 гравюр, каждая открыта как изображение отдельным агентом на Opus (10 пакетов по ≤22), который не видел данных карты: он сначала читал подпись, напечатанную на самой гравюре (где её нет — Пиньория, индийская часть — описывал изображение и сверял с ближайшим текстом главы), затем сравнивал с карточкой: заголовок, итальянская подпись, русская подпись, место в главе. Исправленные 61 карточка перепроверены тем же способом вторым проходом (столбец «Повторная проверка»). Исправления лежат в [plates.json](plates.json) Второй проход нашёл ещё 2 расхождения (161 и 181), они исправлены по тексту главы и в таблице отмечены. Пакет 111–132 первым агентом был прочитан небрежно (он копировал подписи с карточек), поэтому подписи этого пакета перепроверены вслепую третьим агентом: все итальянские подписи совпали. Исправления лежат в [plates.json](plates.json) (читается только новой карточкой и сеткой; старые карточки и оглавление не затронуты).
+Заменяет прежнюю таблицу (старая карта гравюр не используется). Данные собраны заново: `tools/build_plates.py` из скана, нынешней транскрипции `_text/pages/NNNN.md` и русского перевода `_translation/ru/*.md`; ручные решения (заголовок, место, абзацы-объяснения) в `_text/plates_manual.json`.
 
-## Итоги
+Проверка: 252 гравюры, каждая открыта как изображение отдельным агентом на Opus (14 пакетов), который не видел моих записей до проверки и сам читал печатную подпись на фото страницы, смотрел вырезку, транскрипцию и перевод главы. Ошибки исправлены, исправленные записи проверены повторно другими агентами.
 
-| Тип расхождения | Число |
+## Шаг 0. Список гравюр по сканам
+
+- Гравюр на сканах (по фото и crops.json, рамки Андрея как есть): **252** на 251 странице; вырезанных файлов: **251** (full и display).
+- Гравюры без файла: **нет** (не вырезал ничего).
+- Файлы без гравюры на скане: **нет**.
+- Файл, используемый дважды: **0597_552** — это e0598a и e0598b: на скане 598 (с. 552) две гравюры, но рамка одна, файл один. Нижнюю отдельно не вырезал; решать тебе.
+- Файлы с неверной страницей (метка в имени ≠ метка скана): **нет**.
+- Рамка Андрея с типом «концовка», но по содержанию полная гравюра: **0564_523** (e0565, с. 523); в данных она учтена как гравюра.
+- Не посчитано гравюрой (решаешь ты): картуш в рамке на скане 502 (ключ crops 0501_460, тип «концовка», файла нет); на сканах 587 и 588 в crops нет ключей и гравюр нет.
+
+## Итоги проверки
+
+| | Число |
 |---|---|
-| Заголовок не тот | 46 |
-| Итальянская подпись не та (чужая / с ошибками чтения / обрезана) | 8 |
-| Итальянская подпись напечатана, но на карточке скрыта | 7 |
-| Русская подпись не та | 1 |
-| Место в главе не то | 29 |
-| Карточек хотя бы с одним расхождением | 61 из 212 |
-| Заголовок верный, но длинный/описательный (не менялся) | 93 |
+| Гравюр проверено | 252 |
+| Записей хотя бы с одним замечанием агента | 56 |
+| Заголовок не тот / неточный | 4 (исправлено все) |
+| Абзац-объяснение не про эту гравюру | 22 (исправлено все; к части записей добавлены найденные агентом абзацы) |
+| Место в главе | 1 (e0570: «Questa figura si è dimenticata…» — приписка в рамке; в разметке перевода это абзац 390 [p], а не подпись; оставлено «перед 390») |
+| Итальянская подпись в транскрипции отличается от напечатанной (ударение, J/I, u/v, ſ, знак препинания, опечатка издания) | 31 (в plates.json подпись берётся ровно из транскрипции, поэтому не правилась; список ниже) |
+| Русская подпись из перевода неточна | 2 (e0352 «против…» вместо «sopra… del silentio»; e0481 «Ярма» вместо «Игры»: в печати опечатка «Giogo» вместо «Gioco»; перевод не правился) |
+| Повторная проверка исправленных | 36 записей (36 в первом круге; e0422 и e0481 ещё раз после второй правки): замечаний по заголовку, месту и объяснению не осталось |
 
-Обозначения: З — заголовок, И — итальянская подпись, Р — русская подпись, М — место в главе; ✓ совпадает, ✗ исправлено, «дл» — верный, но длинный заголовок (не менялся).
+Всего ошибок, найденных агентом в полях, которые я исправил (заголовок, место, объяснение): **26** записей; ещё **31** расхождений итальянской подписи и **2** русской подписи — это вопросы к транскрипции и переводу, а не к plates.json.
+
+## Остаточные замечания и сомнения
+
+- e0172 и e0174: блоки-подписи в переводе стоят в обратном порядке относительно книги (e0172 → блок 139, e0174 → блок 130). Данные верны (подпись к своей гравюре), порядок в главе перевода такой.
+- e0044: вместо подписи только отсылка «A carte 3» («К с. 3.»); считается печатной подписью.
+- e0062: в блоке-подписи 178 «Пещера Вечности», по GLOSSARY.tsv «Грот Вечности»; перевод не правился, заголовок по глоссарию.
+- e0537, e0539, e0542, e0545, e0511, e0517, e0524: гравюра в издании стоит внутри абзаца перевода; место «перед ближайшим блоком».
+- e0585: рука со змеёй — неясно, ещё один вид руки Торнакса или рука с копья Тиллина; объяснение пустое. e0595 («Осирис с Исийского стола») — по месту и тексту блока 16, неуверенно.
+- Агенты предлагали ещё абзацы по нескольким записям (e0065, e0072, e0097, e0182, e0283, e0575, e0576, e0608 и др.); они противоречили друг другу или первому кругу, не добавлены.
+- В e0575 и e0576 заголовки различаются по виду («вид сбоку», «третий вид»); три вида руки e0581–e0583 пронумерованы.
+
+## Расхождения подписи в транскрипции с печатью (не правились)
+
+- e0075 (с. 33): напечатано 'il Sole' с круглой (заглавной) S — строчная в начале слова была бы длинной ſ; можно уточнить title на 'Два образа Януса', но и так допустимо
+- e0078 (с. 36): в печати 'à loro' с акцентом, в записи 'a loro'
+- e0137 (с. 95): неуверенно: на фото 'coſi' без видимого грависа, в записи 'così'; в остальном совпадает
+- e0147 (с. 105): в печати 'dà Gioue' с акцентом, в записи 'da Gioue'
+- e0089 (с. 47): В записи «diffusiva», напечатано «diffusiua» (u, не v).
+- e0091 (с. 49): В записи «vccelli a lui», напечатано «à lui» (с акцентом).
+- e0095 (с. 53): неуверенно: последнее слово на фото читается «Pocti» (буква без глазка, как c), возможно стёртая e; в записи «Poeti».
+- e0099 (с. 57): В записи «qui», напечатано «quì». Камень-пирамида на постаменте описан в apollo/93.
+- e0124 (с. 82): В записи «dà vita», напечатано «da vita» без акцента.
+- e0176 (с. 134): В печати с ударениями: «à cui», «à Gioue», «fù fatto» (в записи a/a/fu).
+- e0178 (с. 136): В записи «dommio» — напечатано «dominio»; «a lui» — в печати «à lui».
+- e0180 (с. 138): В записи лишняя запятая после «l'Hasta» — в печати её нет (после слова только знак переноса строки).
+- e0182 (с. 140): В печати «à castigare» (с ударением). 190 объясняет «приносящего дожди», но эгиды на гравюре нет; 182 (орёл подносит молнию) точнее описывает сидящую фигуру.
+- e0193 (с. 151): В печати «à lei» и «fù intesa» (в записи a/fu); после «con Giunone» стоит, похоже, точка с запятой, а не двоеточие (неуверенно). Гусь у ног — блок 35.
+- e0197 (с. 155): После «Thaumante» на фото знак похож на «;» (точка над запятой), а не «,» — неуверенно.
+- e0201 (с. 159): В печати опечатка с ударениями «Castore è Pollucè» — в записи нормализовано в «e Polluce».
+- e0206 (с. 164): Слово после «in» на фото повреждено, но видно 7 знаков «Lau?nio» — скорее «Lauinio», а не «Launio» (неуверенно).
+- e0208 (с. 166): В печати «à lei» (в записи «a lei»).
+- e0212 (с. 170): В печати «à chi» (в записи «a chi»).
+- e0256 (с. 214): на странице первое слово имени напечатано с опечаткой «Nottuno» (видно отчётливо на увеличении), в записи нормализовано в «Nettuno»; русский перевод правомерно даёт «Нептуна»
+- e0276 (с. 234): В печати после переноса «tri-» стоит длинное ſ без перекладины («ſauce»; ср. f с перекладиной в «Inferno» той же строки) — опечатка издания «trisauce», в записи нормализовано в «trifauce»; перевод «трёхпастного» верен по смыслу.
+- e0289 (с. 247): Во второй раз имя напечатано «Belloro-fonte» (проверено на увеличении), в записи исправлено на «Bellerofonte»; над u в «fu» возможен акцент — неуверенно, не исправлял.
+- e0381 (с. 339): неуверенно: после «occulte» на фото точка на средней линии, а не запятая (возможно, сбитая запятая); гравюра стоит на последней странице главы Минервы (с.339), так что cap 351 верно
+- e0383 (с. 341): Первая буква напечатана курсивным J («Jmagine»), как в e0418, где запись это сохраняет; после «Filostrato» стоит знак, похожий на точку (оттиск слабый, неуверенно)
+- e0386 (с. 344): Напечатано «cioe» без акцента (видно при увеличении), в записи «cioè»
+- e0407 (с. 365): После «Lari» при увеличении видна точка с запятой, а не запятая (неуверенно: может быть запятая с пятном краски)
+- e0426 (с. 384): После «Inuidia» на фото видна точка с запятой (неуверенно, как и в e0407)
+- e0437 (с. 395): Первая буква напечатана курсивным J («Jmagine»), в записи «Imagine»
+- e0444 (с. 402): Первая буква напечатана курсивным J («Jmagine»), в записи «Imagine»
+- e0489 (с. 447): напечатано «hiemale» (h того же начертания, что в maschio/Cinghiale), в записи ошибочно «biemale»
+- e0570 (с. 528): неуверенно: курсивная строка напечатана внутри орнаментальной рамки гравюры, то есть это подпись (служебная); блок 390 — её перевод, но в главе он размечен как [p]
 
 ## Таблица
 
-| № | id | Было (заголовок) | На гравюре | З | И | Р | М | Стало | Повторная проверка |
-|---|---|---|---|---|---|---|---|---|---|
-| 1 | cartm_idolbelo | Начало идолопоклонства в Беле, в Семирамиде и в сыне Сирофан | «Principio dell'Idolatria in Belo, in Semiramis, & nel figliolo di Siro» | дл | ✓ | ✓ | ✓ |  |  |
-| 2 | cartm_ladderofgods | Аллегорическая фигура небесных богов, сфер и бездн | увенчанная женская фигура с копьём и статуэткой между двумя гербами (д | ✗ | ✓ | ✓ | ✗ | заголовок: «Гербовая заставка»; место: frontespizio-dedica, блок 14 | ✓ совпадает |
-| 3 | cartm1 | Провидение | «Imagini della Dea Prouidenza, tenuta da gl'antichi anima del Mondo & c» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 4 | cartm2 | Образ Вечности и бога Демогоргона | «Imagini della Eternità, con l'imagine del dio Demogorgone compagno del» | дл | ✓ | ✓ | ✓ |  |  |
-| 5 | cartm3 | Пещера Вечности с образом Времени | «Antro dell'Eternità, con l'imagine del Tempo, ò del Fato, di Febo, del» | ✓ | ✗ | ✓ | ✓ | итал.: «Antro dell'Eternità, con l'imagine del Tempo, ò del Fato, di…» | ✓ совпадает |
-| 6 | cart1 | Сатурн | «Imagini di Giano inteso ancora per il Sole, per il Tempo, per il Dio d» | ✗ | ✗ | ✓ | ✓ | заголовок: «Янус»; итал.: «Imagini di Giano inteso ancora per il Sole, per il Tempo, pe…» | ✓ совпадает |
-| 7 | cartm4 | Образ Сатурна, Времени и года (среди звёзд) | «Imagine di Saturno, del Tempo, & dell'anno, che significa li tristi ef» | дл | ✓ | ✓ | ✓ |  |  |
-| 8 | cartm5 | Образ Сатурна: время настоящее, прошедшее и будущее | «Imagine di Saturno, che significa il tempo presente, e passato, & auen» | дл | ✗ | ✓ | ✓ | итал.: «Imagine di Saturno, che significa il tempo presente, e passa…» | ✓ совпадает |
-| 9 | cartm6 | Образ Сатурна и Времени со связанными шерстью ногами | «Imagine di Saturno, & del Tempo, che co' piedi legati di fil di lana, » | дл | ✓ | ✓ | ✓ |  |  |
-| 10 | cartm8 | Образы четырёх времён года | «Imagini delle quattro stagioni dell'anno, dinotanti gli effetti & esse» | дл | ✗ | ✓ | ✓ | итал.: «Imagini delle quattro stagioni dell'anno, dinotanti gli effe…» | ✓ совпадает |
-| 11 | cartm9 | Храм Януса, бога мира и войны | «Tempio di Giano Dio della pace, & della guerra ilquale staua serrato i» | ✓ | ✗ | ✓ | ✓ | итал.: «Tempio di Giano Dio della pace, & della guerra ilquale staua…» | ✓ совпадает |
-| 12 | cartm10 | Образ Солнца, или Феба, и Юпитера у ассирийцев | «Imagine del Sole ò Febo, & di Gioue apo gli Assirij tenuti per vna med» | дл | ✗ | ✓ | ✓ | итал.: «Imagine del Sole ò Febo, & di Gioue apo gli Assirij tenuti p…» | ✓ совпадает |
-| 13 | cartb17 | Девять Муз | «Imagine delle noue Muse riferite all'armonia de gl'Orbi celesti, & inu» | ✓ | ✗ | ✓ | ✓ | итал.: «Imagine delle noue Muse riferite all'armonia de gl'Orbi cele…» | ✓ совпадает |
-| 14 | cartm11 | Аполлон среди Муз | «Apollo in mezo delle Muse per dare ad intendere, che il Sole hà virtù » | ✓ | ✗ | ✓ | ✓ | итал.: «Apollo in mezo delle Muse per dare ad intendere, che il Sole…» | ✓ совпадает |
-| 15 | cart2 | Аполлон Феб, Солнце | «Imagini d'Apollo & de gli animali, & vccelli à lui sacrati, che signif» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 16 | cartm12 | Корабль Солнца, влекомый Крокодилом | «Naue del Sole portata da vn Crocodilo, che significa la prima causa ch» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 17 | cartm13 | Аполлон, обнимающий Дафну | «Apollo abbracciante Dafne per mostrare la conformità, che tiene il Lau» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 18 | cartm14 | Образ Аполлона, бога благоразумия | «Imagine d'Apollo, ò del Sole, significante lui esser Dio della prudenz» | дл | ✓ | ✓ | ✓ |  |  |
-| 19 | cartm15 | Образ Аполлона-Митры | «Imagine di Apollo Mithra, significante la forza & effetti del Sole nel» | дл | ✓ | ✓ | ✓ |  |  |
-| 20 | cartm16 | Образ священных быков у египтян | «Imagine dei Buoi sacri appresso gli Egittij. & significauano il Sole, » | дл | ✓ | ✓ | ✓ |  |  |
-| 21 | cartm17 | Образ нагого Аполлона, любителя быков | «Imagine d'Apollo nudo, amatore de' Buoi, significa il Sole dar vita al» | дл | ✓ | ✓ | ✓ |  |  |
-| 22 | cartm18 | Образ Аполлона и Земли у ассирийцев | «Imagine d'Apolline & della Terra appresso gl'Assirij significante gli » | дл | ✓ | ✓ | ✓ |  |  |
-| 23 | cartm19 | Образ Адада и Адаргатис, богов ассирийцев | «Imagine di Adad, & d'Adargate Dei de gli Assirij intesi da loro per il» | дл | ✓ | ✓ | ✓ |  |  |
-| 24 | cartm20 | Образ Сераписа, бога египтян | «Imagine di Serapi Dio delli Egittij inteso da loro per il Sole, & per » | дл | ✓ | ✓ | ✓ |  |  |
-| 25 | cartm21 | Образ Солнца, изменчивого творца всех времён | «Imagine del Sole variatore & produttore di tutti li tempi, e stagioni,» | дл | ✓ | ✓ | ✓ |  |  |
-| 26 | cartm22 | Образ Эскулапа, бога Медицины | «Imagine di Esculapio Dio della Medicina con gli animali à lui sacrati » | дл | ✓ | ✓ | ✓ |  |  |
-| 27 | cartm23 | Образ Эскулапа с посвящёнными ему петухами | «Imagine di Esculapio Dio della medicina con li galli vccelli à lui sac» | дл | ✓ | ✓ | ✓ |  |  |
-| 28 | cartm24 | Старинное кольцо с символом Здоровья | «Anello antico, nella gioia del quale è intagliato il simbolo della Sal» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 29 | cartm26 | Образ Гигиеи, дочери Эскулапа | «Imagine della dea Salute, & del Serpente à lei sacrato significante de» | ✗ | ✗ | ✓ | ✓ | заголовок: «Богиня Здоровья»; итал.: «Imagine della dea Salute, & del Serpente à lei sacrato signi…» | ✓ совпадает |
-| 30 | cartm27 | Колесница Солнца, бога света | «Imagine d'Higia figliuola d'Esculapio co'l Cane, & Serpe simboli di su» | ✗ | ✗ | ✓ | ✓ | заголовок: «Гигия, дочь Эскулапа»; итал.: «Imagine d'Higia figliuola d'Esculapio co'l Cane, & Serpe sim…» | ✓ совпадает |
-| 31 | cartm28 | Образ Солнца, называемого также Фебом и Аполлоном | «Carro del Sole Dio della luce con l'imagine & ornamento di esso Sole, » | ✗ | ✗ | ✓ | ✓ | заголовок: «Колесница Солнца»; итал.: «Carro del Sole Dio della luce con l'imagine & ornamento di e…» | ✓ совпадает |
-| 32 | cartm29 | Образ Авроры и коня Пегаса | «Imagine dell'Aurora, & del Cauallo Pegaseo, che tirra il suo carro, di» | дл | ✓ | ✓ | ✓ |  |  |
-| 33 | cartm30 | Образ Дианы, богини лесов и охоты | «Imagine di Diana dea delle selue, & della caccia, la quale s'intende p» | дл | ✓ | ✓ | ✓ |  |  |
-| 34 | cartm_dianamoon | Образ Дианы охоты и лесов, с посвящёнными ей Оленями | «Imagine di Diana della caccia, & de boschi, & amatrice de Cerui à lei » | дл | ✓ | ✓ | ✓ |  |  |
-| 35 | cartm31 | Статуя Люцины, богини родов | «Statua di Lucina dea de Parti tolta per la Luna essendo la Luna Pianet» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 36 | cartm32 | Образ Дианы Кинфии, то есть Луны | «Imagine di Diana Cinthia ò Luna dea cacciatrice con vn Pardo nella des» | дл | ✓ | ✓ | ✓ |  |  |
-| 37 | cartm33 | Образ Гекаты, трёхликой богини | «Imagine di Hecate dea triforme detta anco Proserpina moglie di Plutone» | дл | ✓ | ✓ | ✓ |  |  |
-| 38 | cartm34 | Изваяние Луны | «Simulacro della Luna significante la Luna riceuer il suo lume dal Sole» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 39 | cartm35 | Образ богини Природы, покрытой множеством грудей | «Imagine della Dea Natura tutta piena di poppe, per mostrare, che l'vni» | дл | ✓ | ✓ | ✓ |  |  |
-| 40 | cartm36 | Образ Исиды, египетской богини | «Imagine d'Iside Dea Egittia, che è la Luna tenuta la Dea de Nauiganti,» | дл | ✓ | ✓ | ✓ |  |  |
-| 41 | cartm37 | Образ Исиды, богини египтян, с систром | «Imagine d'Iside dea de gli Egitij, che è la Luna, con arnesi in mano d» | дл | ✓ | ✓ | ✓ |  |  |
-| 42 | cart4 | Юпитер | «Imagine di Gioue & di Pan significante l'vniuerso, l'vno Dio delli dei» | ✗ | ✗ | ✓ | ✓ | заголовок: «Юпитер и Пан»; итал.: «Imagine di Gioue & di Pan significante l'vniuerso, l'vno Dio…» | ✓ совпадает |
-| 43 | cartm38 | Образ бога-творца египтян и Юпитера | «Imagine del Dio creatore de gli Egittij, & di Gioue dio delli dei de g» | дл | ✓ | ✓ | ✓ |  |  |
-| 44 | cartm39 | Образ Юпитера, бога богов древних | «Imagine di Gioue dio delli dei de gli Antichi significante la potenza » | дл | ✓ | ✓ | ✓ |  |  |
-| 45 | cartm40 | Образ громовержца Юпитера против клятвопреступников | «Imagine di Gioue folgorante contro li Spergiuri nominato Gioue horcio,» | дл | ✓ | ✓ | ✓ |  |  |
-| 46 | cartm41 | Образ Верности, означенной богом Фидием | «Imagine della Fede significata per il Dio Fidio adorato anticamente. L» | дл | ✓ | ✓ | ✓ |  |  |
-| 47 | cartm42 | Образ бога Фидия, хранителя верности Юпитера | «Imagine del Dio Fidio custode della fede & fedeltà di Gioue detto Veio» | дл | ✓ | ✓ | ✓ |  |  |
-| 48 | cartm43 | Образ Юпитера в окружении трёх Граций | «Imagine di Gioue circondato dalle tre gratie, & dalle tre hore, il cui» | дл | ✓ | ✓ | ✓ |  |  |
-| 49 | cartm44 | Образ Юпитера с Молнией и Копьём | «Imagine di Gioue co'l Fulmine, & con l'Hasta per mostrare la Stabilità» | дл | ✓ | ✓ | ✓ |  |  |
-| 50 | cartm45 | Образ громовержца Юпитера, подателя дождей | «Imagine di Gioue folgorante apportator di pioggie, & nembi; & l'imagin» | дл | ✓ | ✓ | ✓ |  |  |
-| 51 | cartm46 | Образ оракула Юпитера Аммона у троглодитов | «Imagine dell'oracolo di Gioue Hammonio de Trogloditi significante l'os» | дл | ✓ | ✓ | ✓ |  |  |
-| 52 | cartm47 | Образ Юпитера Аммона у аркадцев и египтян | «Imagine di Gioue Hammonio de gli Arcadi, & de gli Egittij, & della que» | дл | ✓ | ✓ | ✓ |  |  |
-| 53 | cart5 | Юнона | «Imagine di Giunone Lucina, & della Dea Siria de Hieropoli nell'Assiria» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 54 | cartm48 | Образ Ириды, вестницы Юноны | «Imagine di Iride messaggiera di Giunone, figliuola di Thaumante, o sia» | дл | ✓ | ✓ | ✓ |  |  |
-| 55 | cartm50 | Образ Кастора и Поллукса | «Imagine di Castore è Polluce, dei de Nauiganti, significanti al lor ap» | дл | ✓ | ✓ | ✓ |  |  |
-| 56 | cartm51 | Образ Юноны Аргивской и Юноны-Спасительницы | «Imagine di Giunone Argiua, di Giunone saluatrice in Lauinio, & di Giun» | дл | ✓ | ✓ | ✓ |  |  |
-| 57 | cartm52 | Образ Юноны, покровительницы брака | «Imagine di Giunone inuentrice ò protettrice del matrimonio, detta Giun» | дл | ✓ | ✓ | ✓ |  |  |
-| 58 | cartm53 | Образ Гименея, бога брака | «Imagine d'Himeneo dio del matrimonio, & delle nozze, con l'imagini d'a» | дл | ✓ | ✓ | ✓ |  |  |
-| 59 | cart6 | Великая Матерь (Опа-Берекинфия) | «Imagine della dea Ope detta anco Berecinthia madre de gli Dei, interpr» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 60 | cartm54 | Изваяние богини Кибелы на её колеснице | «Simulacro della Dea Cibele, che è la terra, & il carro doue era condot» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 61 | cartm55 | Храм богини Весты в Риме | «Tempio in Roma della Dea Vesta madre de gli Dei, & di Vesta dea del fu» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 62 | cartm56 | Образ Цереры Сицилийской | «Imagine di Cerere Siciliana inuentrice, & dea delle biade, & del suo c» | дл | ✓ | ✓ | ✓ |  |  |
-| 63 | cartm57 | Статуя чёрной Цереры в Аркадии | «Statua di Cerere negra in Arcadia, dea delle biade conuertita in Caual» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 64 | cartm58 | Образ Помоны, богини садов | «Imagine di Pomona dea de gl'Horti, & moglie di Vertunno: con la Falce » | дл | ✓ | ✓ | ✓ |  |  |
-| 65 | cartm59 | Образ богини Прозерпины и богини Бона | «Imagine della Dea Proserpina figliuola di Cerere intesa per le biade, » | дл | ✓ | ✓ | ✓ |  |  |
-| 66 | cartm60 | Образ Главка, морского бога | «Imagine di Glauco dio marino dinotante il colore, & spuma del mare, & » | дл | ✓ | ✓ | ✓ |  |  |
-| 67 | cartm61 | Образ Тритонов, Нереид и Галатеи | «Imagini de' Tritoni & delle Nereide huomini & donne marine secondo Ale» | дл | ✓ | ✓ | ✓ |  |  |
-| 68 | cartm62 | Образ сирен Партенопы, Левкосии и Лигии | «Imagini di Partenope, Leucosia, & Ligia Sirene dee del mare figliuole » | дл | ✗ | ✓ | ✓ | итал.: «Imagini di Partenope, Leucosia, & Ligia Sirene dee del mare …» | ✓ совпадает |
-| 69 | cartm63 | Образ Сциллы, сицилийской скалы | «Imagine di Scilla scoglio Siciliano detto da Poeti atrocissimo mostro » | дл | ✓ | ✓ | ✓ |  |  |
-| 70 | cart7 | Нептун | «Imagini di Nettuno dio del mare, & di Anfitrice sua moglie, dinotanti » | ✓ | ✓ | ✓ | ✓ |  |  |
-| 71 | cartm64 | Образ Нептуна согласно Филострату | «Imagine di Nottuno dio del mare appo Filostrato, o sia imagine di Tara» | дл | ✓ | ✓ | ✓ |  |  |
-| 72 | cartm65 | Образ Евриномы и Дерцето, морских богинь | «Imagini di Eurinome, & di Decreto dee marine l'vna figliuola di Proteo» | дл | ✓ | ✓ | ✓ |  |  |
-| 73 | cartm66 | Образы Борея, Австра, Эвра и Зефира, четырёх ветров | «Imagini di Borea, Austro, Euro, & Zefiro quattro venti principali, & d» | дл | ✓ | ✓ | ✓ |  |  |
-| 74 | cartm67 | Образы рек Кефис и По | «Imagini di Cefiso, & del Pò fiumi, quello di Grecia, questo d'Italia, » | дл | ✓ | ✓ | ✓ |  |  |
-| 75 | cartm68 | Образ Тибра, являющего изобилие | «Imagine del Teuere mostrante l'abbondanza, e'l principio dell'Imperio » | дл | ✓ | ✓ | ✓ |  |  |
-| 76 | cartm69 | Образ реки Нил, восседающей на Сфинксе | «Imagini del fiume Nilo sedente sopra la Sfinge, con molti fanciulli in» | дл | ✓ | ✓ | ✓ |  |  |
-| 77 | cartb18 | Вертумн и Помона | «Imagine di Vertunno, con Pomona appresso; tenuto per Dio de pensieri h» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 78 | cart8 | Плутон | «Imagini di Plutone dio dell'Inferno, di Proserpina sua moglie, di Euri» | ✓ | ✗ | ✓ | ✓ | итал.: «Imagini di Plutone dio dell'Inferno, di Proserpina sua mogli…» | ✓ совпадает |
-| 79 | cartm70 | Образы Алекто, Тисифоны и Мегеры, трёх Фурий | «Imagini di Aletto, Tessifone, & Megera tre furie infernali punitrici d» | дл | ✓ | ✓ | ✓ |  |  |
-| 80 | cartm72 | Образ Сфинкс Фиванской и Химеры Ликийской | «Imagine della Sfinge Thebana superata da Edipo, & della Chimera Licia » | дл | ✓ | ✓ | ✓ |  |  |
-| 81 | cartm73 | Образы Клото, Лахесис и Атропос, трёх Парок | «Imagini di Cloto, Lachesi, & Atropo, dette le tre Parche, delle quali » | дл | ✓ | ✓ | ✓ |  |  |
-| 82 | cartm74 | Образ Необходимости и трёх Парок | «Imagine della Necessità, & del fuso adamantino trauersando il mondo, &» | дл | ✓ | ✓ | ✓ |  |  |
-| 83 | cartm75 | Образы трёх Парок, найденные в Штирии | «Imagini delle tre Parche trouate secondo Pietro Appiano in Stiria del » | дл | ✓ | ✓ | ✓ |  |  |
-| 84 | cartm76 | Образ Харона, адского перевозчика | «Imagine di Charonte nocchiero infernale nel fiume nero di Acheronte, c» | дл | ✓ | ✓ | ✓ |  |  |
-| 85 | cart9 | Меркурий | «Imagini di Mercurio messaggiero de i dei, Dio della eloquenza, & de me» | ✓ | ✗ | ✓ | ✓ | итал.: «Imagini di Mercurio messaggiero de i dei, Dio della eloquenz…» | ✓ совпадает |
-| 86 | cartm77 | Образ Мира и его иероглифов | «Imagine della Pace, & de Hieroglifici ò segni che quella dimostrano, c» | дл | ✓ | ✓ | ✓ |  |  |
-| 87 | cartm78 | Образы Согласия и Верности | «Imagini della Concordia, & hieroglifici denotanti la Fede, & la Concor» | дл | ✓ | ✓ | ✓ |  |  |
-| 88 | cartm79 | Образ Меркурия, изобретателя Письменности | «Imagine di Mercurio inuentore delle Lettere, della Musica, della Geome» | дл | ✓ | ✓ | ✓ |  |  |
-| 89 | cartm80 | Статуи Меркурия, называемые Гермами | «Statue di Mercurio, dette Hermi, per esser lui stato l'inuentore di tu» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 90 | cartm_night | Образ Ночи, кормилицы Смерти и Сна | «Imagine della Notte nutrice della Morte, & del Sonno, & imagine del So» | дл | ✓ | ✓ | ✓ |  |  |
-| 91 | cartm_merceloq | Образ Меркурия, бога красноречия, и бога Анубиса | «Imagine di Mercurio dio della eloquenza, scorta de passeggieri, Dio de» | дл | ✓ | ✓ | ✓ |  |  |
-| 92 | cartm_hercgall | Образ Геркулеса у галлов, бога красноречия | «Imagine di Hercole appo Francesi da loro tenuto Dio della eloquenza, &» | дл | ✓ | ✓ | ✓ |  |  |
-| 93 | cartm81 | Образ вооружённого и пирующего Геркулеса | «Imagine d'Ercole armato, d'Hercole mangiatore, & beuitore, & dell'vcce» | дл | ✓ | ✓ | ✓ |  |  |
-| 94 | cartm82 | Аполлон и Геркулес спорят из-за треножника | «Imagine d'Apolline, & d'Hercole, che contendono insieme del Tripode, &» | дл | ✓ | ✓ | ✓ |  |  |
-| 95 | cart10 | Минерва (вместе с Меркурием) | «Imagini di Mercurio, & di Minerua, quello dio della Eloquenza, questa » | ✗ | ✓ | ✓ | ✓ | заголовок: «Меркурий и Минерва» | ✓ совпадает |
-| 96 | cartm_marte | Марс | «Imagine di Marte Dio della guerra, del suo carro, & della Fama sua mes» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 97 | cartm_bacco | Вакх | «Imagine di Bacco significante li varij effetti del vino del quale esso» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 98 | cartm_como | Ком, бог пиршеств | «Imagine di Como Dio de Conuiuij, secondo Filostrato, significante, che» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 99 | cartm_baccopompa | Вакх и вакхическое шествие | «Imagini di Bacco, & della pompa, feste, & cerimonie bacchanali, & l'ha» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 100 | cartm_tifone | Тифон и Гор | «Imagini di Tifone fratel d'Osiri, & di Horo figliuolo d'Osiri, che è B» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 101 | cartm_horopriapo | Гор, бог египтян | «Imagine di Horo Dio delli Egittij, che è Priapo, & Bacco ancora, il qu» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 102 | cartm_priapohorti | Приап, бог садов | «Imagine di Priapo Dio delli Horti, & del membro virile, & dell'Asino, » | ✓ | ✓ | ✓ | ✓ |  |  |
-| 103 | cartm_genio | Добрый и злой Гений | «Imagini del Genio buono, & cattiuo, custode & osseruatore della genera» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 104 | cartm_fortunadatrice | Фортуна, подательница и раздательница | «Imagine della Fortuna datrice, & dispensatrice, & patrona delle ricche» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 105 | cartm_occasione | Случай (бог Кер) | «Hieroglifico denotante la buona Fortuna quasi sempre andare con l'Eloq» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 106 | cartm_fortunascithi | Фортуна у скифов | «Imagine della Fortuna appò gli Scithi significante la sua velocità & i» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 107 | cartm_fortunaegira | Фортуна в Эгире | «Imagine della Fortuna in Egira, significante nell'Amore volerui buona » | ✓ | ✓ | ✓ | ✓ |  |  |
-| 108 | cartm_fortunacauallo | Фортуна верхом на коне | «Imagine della Fortuna à cauallo che velocemente corre, dal Fato & dal » | ✓ | ✓ | ✓ | ✓ |  |  |
-| 109 | cartm_eroteanterote | Эрот и Антэрот | «Imagine de gli Dei Erote, & Anterote fratelli & figliuoli di Venere, i» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 110 | cartm_trionfoamore | Триумф Любви | «Trionfo d'Amore descritto da Filostrato, dal Petrarca, & da altri anti» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 111 | cartm_imaginiamore | Изображения Любви различных действий | «Imagini d'Amore significanti gli varij effetti & potenze d'Amore, qual» | дл | ✓ | ✓ | ✓ |  | пакет перепроверен вслепую (подписи) |
-| 112 | cartm_panecupido | Пан и Купидон | «Imagine di Pane, & Cupido, l'vno vinto, l'altro vincitore, per mostrar» | ✓ | ✓ | ✓ | ✓ |  | пакет перепроверен вслепую (подписи) |
-| 113 | cartm_venere2 | Венера | «Imagine di Venere nata dalla spuma del mare, della bellezza Dea, & del» | ✓ | ✓ | ✓ | ✓ |  | пакет перепроверен вслепую (подписи) |
-| 114 | cartm_tempiopafo | Храм Венеры в Пафосе | «Tempio di Venere in Pafo Città di Cipro con gieroglifico lei & sua nat» | ✓ | ✓ | ✓ | ✓ |  | пакет перепроверен вслепую (подписи) |
-| 115 | cartm_venerecigni | Венера, влекомая Лебедями | «Imagine di Venere tirata in carro da' Cigni, retti da gl'Amorini; per » | ✓ | ✓ | ✓ | ✓ |  | пакет перепроверен вслепую (подписи) |
-| 116 | cartm_venerepiaceri | Венера, богиня наслаждений | «Imagine di Venere Dea de piaceri, madre d'Amore, accompagnata da gl'Am» | ✓ | ✓ | ✓ | ✓ |  | пакет перепроверен вслепую (подписи) |
-| 117 | cartm_venerecupidogiogo | Венера, Купидон, Ярмо и Козёл | «Imagini di Venere, di Cupido, del Giogo, & del Capro, quali significan» | ✓ | ✓ | ✓ | ✓ |  | пакет перепроверен вслепую (подписи) |
-| 118 | cartm_venerearmata | Венера вооружённая, победительница и в оковах | «Imagine di Venere armata, di Venere vitrice, & di Venere in ceppi dino» | ✓ | ✓ | ✓ | ✓ |  | пакет перепроверен вслепую (подписи) |
-| 119 | cartm_fortunalieta | Весёлая и печальная Фортуна | «Imagini della lieta, & trista fortuna, ouero della fortuna passata, pr» | ✓ | ✓ | ✓ | ✓ |  | пакет перепроверен вслепую (подписи) |
-| 120 | cartm_giustitia | Справедливость | «Imagine della Giustitia custoditrice de buoni, & punitrice de rei; & i» | ✓ | ✓ | ✓ | ✓ |  | пакет перепроверен вслепую (подписи) |
-| 121 | cartm_calunniaapelle | Картина «Клевета» Апеллеса | «Tauola della Calumnia dipinta d'Apelle, nella quale vi è il Giudice co» | ✓ | ✓ | ✓ | ✓ |  | пакет перепроверен вслепую (подписи) |
-| 122 | cartm_invidia | Зависть | «Imagini dell'Inuidia, che à se stessa nuoce, essendo che l'inuidioso s» | ✓ | ✓ | ✓ | ✓ |  | пакет перепроверен вслепую (подписи) |
-| 123 | cartm_naue | Корабль Вакха | «Imagine della Naue di Bacco, del monte Timolo di Lidia delle Bacche pe» | ✓ | ✓ | ✓ | ✓ |  | пакет перепроверен вслепую (подписи) |
-| 124 | cartm_martescithi | Храм Марса у скифов | «Imagine del Tempio di Marte Dio della guerra, che era così fatto appo » | ✓ | ✓ | ✓ | ✓ |  | пакет перепроверен вслепую (подписи) |
-| 125 | cartm_furoreira | Неистовство и Гнев | «Imagine del Furore, & dell'Ira, & de suoi mali effetti, che sono sprez» | ✓ | ✓ | ✓ | ✓ |  | пакет перепроверен вслепую (подписи) |
-| 126 | cartm83 | Образ Вулкана, рассекающего голову Юпитеру | «Imagine di Vulcano, che con vna secure di Diamante aprì il capo à Giou» | дл | ✓ | ✓ | ✓ |  | пакет перепроверен вслепую (подписи) |
-| 127 | cartm84 | Образ Беллоны, богини войны | «Imagine di Bellona Dea della guerra & carrattiera di Marte, & de suoi » | дл | ✓ | ✓ | ✓ |  | пакет перепроверен вслепую (подписи) |
-| 128 | cartm85 | Образ Минервы, изобретательницы прядения и ткачества | «Imagine di Minerua inuentrice del filare, teffere, cucire, & altri don» | дл | ✓ | ✓ | ✓ |  | пакет перепроверен вслепую (подписи) |
-| 129 | cartm86 | Образ Доблести и Чести | «Imagine della Virtù, & dell'Honore, che si risguardano così scolpiti i» | дл | ✓ | ✓ | ✓ |  | пакет перепроверен вслепую (подписи) |
-| 130 | cartm87 | Образы богини Волюпии | «Imagini della Dea Volupia Dea de piaceri conculcante la Dea Virtù sott» | дл | ✓ | ✓ | ✓ |  | пакет перепроверен вслепую (подписи) |
-| 131 | cartm88 | Образ богини Ангероны и бога Молчания | «Imagine della Dea Angerona da alcuni tenuta Dea del Piacere, & delle h» | дл | ✓ | ✓ | ✓ |  | пакет перепроверен вслепую (подписи) |
-| 132 | cartm_jovegiants | Образ Юпитера, поражающего молнией Гигантов | «Imagine di Gioue fulminatore de i Giganti, che con le gambe loro di Se» | дл | ✓ | ✓ | ✓ |  | пакет перепроверен вслепую (подписи) |
-| 133 | cartm_vulcan | Образ Вулкана, бога огня, с его кузницей | «Imagine di Vulcano Dio del Fuoco con la sua fucina, & li Ciclopi, che » | дл | ✓ | ✓ | ✓ |  |  |
-| 134 | cartm_discordia | Образ Раздора по Аристиду | «Imagine della Discordia secondo Aristide, la quale per li suoi mali ef» | дл | ✓ | ✓ | ✓ |  |  |
-| 135 | cartm_victory1 | Образ Победы с её знаками отличия | «Imagine della Vittoria con le sue insegne, l'Aquila, la Palma, & il La» | дл | ✓ | ✓ | ✓ |  |  |
-| 136 | cartm_victory2 | Образ вооружённой Победы и её же без крыльев | «Imagine della Vittoria armata, & della medesima senza ale. La prima è » | дл | ✓ | ✓ | ✓ |  |  |
-| 137 | cartm90 | Образ Вакха согласно Макробию | «Imagine di Bacco significante li effetti del vino, del quale fù l'inue» | дл | ✓ | ✓ | ✓ |  |  |
-| 138 | cartm92 | Образы Вакха-триумфатора на слоне | «Imagini di Bacco trionfatore, & inuentore del Trionfo, doppo hauer sup» | дл | ✓ | ✓ | ✓ |  |  |
-| 139 | cartm97 | Образы богов Ларов и Пенатов | «Imagini delli Dei Lari, cioè custodi delle priuate case, & delle parti» | дл | ✓ | ✓ | ✓ |  |  |
-| 140 | cartb20 | Немезида | «Imagine della dea Nemesi dimostratrice delle buone opere, & seuera pun» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 141 | cartm101 | Образ Мома, бога порицания | «Imagine di Momo Dio della reprensione, ò maledicenza, & del biasmo, fi» | дл | ✓ | ✓ | ✓ |  |  |
-| 142 | cartm102 | Образ Обмана по Данте | «Imagine della Fraude secondo Dante, qual dinota che li fraudolenti & i» | дл | ✓ | ✓ | ✓ |  |  |
-| 143 | cartm107 | Образ доброго Случая и непостоянной Благосклонности | «Imagine del buono Euento & felice successo, del Fauore instabile, lieu» | дл | ✓ | ✓ | ✓ |  |  |
-| 144 | cartb19 | Макария, или Счастье | «Imagine della Dea Macaria, ò Dea Felicità, figliuola d'Hercole, con il» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 145 | cart15 | Грации | «Imagini delle tre Gratie Dee della bellezza, & gratia; Dee ancora dell» | ✓ | ✓ | ✓ | ✓ |  |  |
-| 146 | cartm117 | Образ Граций, ведомых Меркурием | «Imagine delle Gratie guidate da Mercurio dinotante, che il giouare & l» | дл | ✓ | ✓ | ✓ |  |  |
-| 147 | carta2 | Эскулап | Митра, закалывающий быка; собака, змея, лев, ворон, факелоносцы, колес | ✗ | ✓ | ✓ | ✗ | заголовок: «Митра, убивающий быка»; место: annotationi-pignoria, блок 46 | ✓ совпадает |
-| 148 | cartf3 | Юнона на камее | Юноша с факелом в колеснице, запряжённой двумя петухами, над ним звезд | ✗ | ✓ | ✓ | ✗ | заголовок: «Люцифер»; место: annotationi-pignoria, блок 66 | ✓ совпадает |
-| 149 | carta3 | Изида на камее | Три сидящие фигуры: женщина, кормящая младенца; Юпитер (Серапис?) с мо | ✗ | ✓ | ✓ | ✓ | заголовок: «Три божества»; место: annotationi-pignoria, блок 80 | ✓ совпадает |
-| 150 | carta4 | Борющиеся сатиры | Два сатира: человекоподобный с хвостиком и козлоногий, держат бубен/ки | ✗ | ✓ | ✓ | ✗ | заголовок: «Два рода Сатиров»; место: annotationi-pignoria, блок 94 | ✓ совпадает |
-| 151 | cartf4 | Честь — в мужском и женском облике | Юноша с копьём и рогом изобилия (Честь) и воин в шлеме с копьём (Добле | ✓ | ✓ | ✓ | ✓ |  |  |
-| 152 | carta28 | Образ Свободы | Свобода в лавровом венке с шапкой-пилеем и раскрытой ладонью; медальон | дл | ✓ | ✓ | ✓ |  |  |
-| 153 | carta7 | Церера (Великая Мать) | Возлежащая Земля со звёздным шаром, путти несут корзины плодов | ✗ | ✓ | ✓ | ✗ | заголовок: «Земля»; место: annotationi-pignoria, блок 145 | ✓ совпадает |
-| 154 | carta8 | Палемон и дельфин | Палемон-путто на дельфине у дерева; две камеи с морскими божествами | ✓ | ✓ | ✓ | ✓ |  |  |
-| 155 | carta30 | Дагон | возлежащий бородатый бог под покрывалом, с веслом, опирающийся на морс | ✗ | ✓ | ✓ | ✓ | заголовок: «Океан» | ✓ совпадает |
-| 156 | carta9 | Три Парки | три обнажённые женщины у скалы, две льют воду из урн на постаментах | ✗ | ✓ | ✓ | ✗ | заголовок: «Нимфы»; место: annotationi-pignoria, блок 223 | ✓ совпадает |
-| 157 | carta31 | Меркурий и Пегас | император на коне; в медальонах — всадник над поверженным врагом и луч | ✗ | ✓ | ✓ | ✗ | заголовок: «Конная статуя Марка Аврелия»; место: annotationi-pignoria, блок 242 | ✓ совпадает |
-| 158 | carta10 | Терм (бог границ) | герма Термина: голова в венке на сужающемся столбе, у основания два ку | ✓ | ✓ | ✓ | ✓ |  |  |
-| 159 | carta32 | Два подвига Геркулеса | два Геркулеса в львиной шкуре: один с луком, другой с трофеем на копье | ✗ | ✓ | ✓ | ✗ | заголовок: «Геркулес с трофеем»; место: annotationi-pignoria, блок 258 | ✓ совпадает |
-| 160 | carta33 | Семон Санк | юный безбородый нагой Геркулес с палицей и яблоками в руке | ✗ | ✓ | ✓ | ✓ | заголовок: «Юный Геркулес» | ✓ совпадает |
-| 161 | carta13 | Гермафена (Минерва и Меркурий) | женщина с мечом указывает на грифона на колонне; в медальонах треножни | ✗ | ✓ | ✓ | ✓ | заголовок: «Аполлон с грифоном»; место: annotationi-pignoria, блок 269 | при перепроверке заголовок и место уточнены (Аполлон с грифоном, блок 269 — описывает именно эту фигуру) |
-| 162 | carta35 | Минерва и корабль Арго | Минерва указывает мастеру, строящему корабль Арго; ниже Минерва перед  | ✓ | ✓ | ✓ | ✓ |  |  |
-| 163 | carta36 | Марс Градив и Марс-победитель | Марс в шлеме с копьём и Венера, над ними летящий Амур | ✗ | ✓ | ✓ | ✗ | заголовок: «Марс и Венера»; место: annotationi-pignoria, блок 290 | ✓ совпадает |
-| 164 | carta37 | Римские военные знамёна | нагой юный воин в шлеме с пером, с копьём и щитом, стоит на шаре | ✗ | ✓ | ✓ | ✗ | заголовок: «Обнажённый Марс»; место: annotationi-pignoria, блок 296 | ✓ совпадает |
-| 165 | carta15 | Вакхическое шествие с яшмы Баггариса | вакханка с запрокинутой головой поднимает фигурку флейтиста; мальчик с | ✗ | ✓ | ✓ | ✗ | заголовок: «Вакханка»; место: annotationi-pignoria, блок 310 | ✓ совпадает |
-| 166 | carta38 | Гений римского народа | бородатый муж в тоге со скипетром и свитком/ветвью; в медальоне юная г | ✗ | ✓ | ✓ | ✓ | заголовок: «Гений Сената» | ✓ совпадает |
-| 167 | carta16 | Патера и рог Гения | бородатый Гений возлежит на ложе с патерой, змея у стола, женщина с ац | ✗ | ✓ | ✓ | ✓ | заголовок: «Гений на лектистернии» | ✓ совпадает |
-| 168 | carta17 | Гений Антиохии | два юных Гения с модием на голове: один держит голову Солнца, другой — | ✗ | ✓ | ✓ | ✓ | заголовок: «Два Гения с модием» | ✓ совпадает |
-| 169 | carta39 | Аполлон-кифаред («Святому Аполлону») | сидящая покрытая покрывалом богиня (Тиха Антиохии) над пловцом-рекой;  | ✗ | ✓ | ✓ | ✓ | заголовок: «Гений Антиохии» | ✓ совпадает |
-| 170 | carta18 | Гений и Фортуна | юный Гений с патерой и Рогом изобилия у алтаря, дитя в звёздном плаще  | ✗ | ✓ | ✓ | ✓ | заголовок: «Гении с Рогом изобилия» | ✓ совпадает |
-| 171 | carta19 | Фортуна на крыльях Лебедя | Фортуна верхом на лебеде по волнам, держит парус | ✓ | ✓ | ✓ | ✓ |  |  |
-| 172 | carta40 | Эрот и Антэрот (колесница Матери) | крылатый Амур с луком над двумя сидящими фигурами; в медальоне крылата | ✗ | ✓ | ✓ | ✗ | заголовок: «Небесный Амур»; место: annotationi-pignoria, блок 366 | ✓ совпадает |
-| 173 | carta20 | Два Амура и коза (мысль Авзония) | крылатые амуры обуздывают, связывают и оседлывают львицу | ✗ | ✓ | ✓ | ✗ | заголовок: «Амуры и львица»; место: annotationi-pignoria, блок 373 | ✓ совпадает |
-| 174 | carta41 | Храм Венеры в Пафосе | Купидон, привязанный к дереву, его секут женщины; в медальоне два Амур | ✗ | ✓ | ✓ | ✗ | заголовок: «Распятый Купидон»; место: annotationi-pignoria, блок 375 | ✓ совпадает |
-| 175 | carta22 | Молодой Янус | голова двуликого Януса с двумя юношескими лицами | ✓ | ✓ | ✓ | ✗ | место: aggionta, блок 6 | ✓ совпадает |
-| 176 | carta23 | Ваза с образом Справедливости | обломок статуи без головы, в одеянии, с поясом из фигур (колесница со  | ✗ | ✓ | ✓ | ✗ | заголовок: «Обломок статуи Прозерпины»; место: aggionta, блок 24 | ✓ совпадает |
-| 177 | carta24 | Статуя священника с его регалиями | безголовый обломок задрапированной статуи с перевязью, украшенной фигу | ✗ | ✓ | ✓ | ✓ | заголовок: «Перевязь статуи Прозерпины» | ✓ совпадает |
-| 178 | carta43 | Фландрский Аттис, книга «Attidis initia», и статуя Пейреска | фигура юноши во фригийской шапке, в штанах, открытых на животе (Аттис) | дл | ✓ | ✓ | ✓ |  |  |
-| 179 | carta25 | Первая Пантеистическая Рука | бронзовая рука с птицей (орлом) на двух поднятых пальцах, змеёй, шишко | ✓ | ✓ | ✓ | ✓ |  |  |
-| 180 | carta44 | Символическая рука с лирой (четвёртая Пантеистическая рука) | поднятая рука (два пальца вверх) с лирой и другими знаками на ладони | дл | ✓ | ✓ | ✓ |  |  |
-| 181 | carta45 | Юношеская фигура с посохом (надпись TYXAINI) | нагой юноша в лавровом венке с копьём, увенчанным рукой; на постаменте | ✗ | ✓ | ✗ | ✗ | заголовок: «Бог Тиллин»; итал.: «ΤΥΛΛΙΝΙ…»; русская подпись: «Тиллину.»; место: aggionta, блок 32 | надпись на постаменте считается подписью (как в тексте главы, блок 32): итал. ΤΥΛΛΙΝΙ, рус. «Тиллину.» |
-| 182 | carta27 | Третья Пантеистическая Рука | раскрытая бронзовая рука, обвитая змеёй от большого пальца до запястья | ✓ | ✓ | ✓ | ✗ | место: aggionta, блок 31 | ✓ совпадает |
-| 183 | carti1 | Омойока | сидящее мексиканское божество в перьях с опахалом; сверху ветвь, по ст | ✓ | ✓ | ✓ | ✓ |  |  |
-| 184 | carti2 | Мексиканский идол с дарителями | мексиканское божество, сидящее на троне в рамке; в одной руке пучок пе | ✗ | ✓ | ✓ | ✓ | заголовок: «Хомопока» | ✓ совпадает |
-| 185 | carti3 | Миктлантекутли и подземные боги | две коленопреклонённые мексиканские фигуры в перьях, обращённые друг к | ✓ | ✓ | ✓ | ✓ |  |  |
-| 186 | carti4 | Вицлипуцли и спутник | две мексиканские фигуры друг против друга: слева сидящая (женская) фиг | ✗ | ✓ | ✓ | ✓ | заголовок: «Посол Ситлалатонака и Чимальман» | ✓ совпадает |
-| 187 | carti5 | Крылатый дух | пляшущая фигура в перьях на голове, с развевающимся шарфом и подвеской | ✗ | ✓ | ✓ | ✓ | заголовок: «Посол Ситлалатонака» | ✓ совпадает |
-| 188 | carti6 | Кецалькоатль | крылатая фигура с навершием-метой на голове и литуусом, стоит на ступе | ✓ | ✓ | ✓ | ✓ |  |  |
-| 189 | carti_constantinevot | Медаль Константина: две крылатые Победы со щитом «VOT PR» и  | две крылатые Победы держат щит с надписью VOT PR над постаментом с кре | дл | ✓ | ✓ | ✓ |  |  |
-| 190 | carti_constantinelabaro | Медаль Констанция: Император с лабарумом, увенчанный Победой | император с лабарумом (монограмма ☧), которого венчает крылатая Победа | дл | ✓ | ✓ | ✓ |  |  |
-| 191 | carti_idolimessico | Два мексиканских идола, сопоставленные с египетскими фигурам | мексиканская голова в уборе с хвостом из подбородка; рядом египетская  | ✗ | ✓ | ✓ | ✓ | заголовок: «Мексиканский идол и египетский Гор» | ✓ совпадает |
-| 192 | carti_pagodeelefante | Чешуйчатый идол из Мексики и «Пагода Слона» из Гоа | сидящий идол, весь покрытый чешуёй, с обезьяньим лицом; в углу — фигур | ✗ | ✓ | ✓ | ✗ | заголовок: «Второй мексиканский идол»; место: seconda-parte-indiani, блок 36 | ✓ совпадает |
-| 193 | carti7 | «Египетские» божества-кентавры (вступление к Японии) | большая нагая фигура с тремя слоновьими головами и несколькими руками; | ✗ | ✓ | ✓ | ✗ | заголовок: «Пагода Слона и Ганиссоне»; место: seconda-parte-indiani, блок 38 | ✓ совпадает |
-| 194 | carti8 | Каннон, сын Амиды | нагое божество в короне с сиянием, держит два копья; на груди множеств | ✓ | ✓ | ✓ | ✗ | место: seconda-parte-indiani, блок 40 | ✓ совпадает |
-| 195 | carti9 | Ещё одна статуя Амиды близ Меако | два божества: слева нагая фигура на цветке лотоса над львом, с пальцем | ✗ | ✓ | ✓ | ✗ | заголовок: «Амида на Розе и Гарпократ»; место: seconda-parte-indiani, блок 41 | ✓ совпадает |
-| 196 | carti10 | Бог-ящерица, покровитель учёности | бритоголовая статуя, сидящая на Розе под навесом, с которого на цепях  | ✗ | ✓ | ✓ | ✗ | заголовок: «Статуя Амиды близ Меако»; место: seconda-parte-indiani, блок 42 | ✓ совпадает |
-| 197 | carti12 | Японский замок-храм | японский многоярусный храм на скальном основании, у входа несколько фи | ✓ | ✓ | ✓ | ✓ |  |  |
-| 198 | carti13 | Великий японский идол | фигура на троне в храме с колоннами на ступенях; на потолке круглое из | ✗ | ✓ | ✓ | ✗ | заголовок: «Храм Бога-Ящерицы»; место: seconda-parte-indiani, блок 43 | ✓ совпадает |
-| 199 | carti14 | Второй идольчик из собрания Алеандро | японский идол в короне внутри лучистой овальной мандорлы на вазе-пьеде | ✗ | ✓ | ✓ | ✓ | заголовок: «Японский идол Малоко» | ✓ совпадает |
-| 200 | carti15 | Лысый смеющийся идол (первый идольчик) | лысый улыбающийся идол с нимбом, руки сцеплены пальцами, на подставке | ✓ | ✓ | ✓ | ✗ | место: seconda-parte-indiani, блок 48 | ✓ совпадает |
-| 201 | carti16 | Воинственный дух (второй идольчик) | воин в доспехе с нимбом-кольцом, стоящий на чудовище (облакообразном с | ✓ | ✓ | ✓ | ✓ |  |  |
-| 202 | carti17 | Пара фигур (третий и четвёртый идольчики) | две фигуры: карлик с мешком на плече на двух бочонках и сидящий идол в | ✓ | ✓ | ✓ | ✓ |  |  |
-| 203 | carti18 | Плачущий идол (пятый идольчик) | лысый идол с нимбом, ладони сложены прямо в молитве | ✓ | ✓ | ✓ | ✓ |  |  |
-| 204 | carti19 | Синекожая пара божеств (шестой и седьмой идольчики) | две сидящие фигуры: идол с цветком в волосах и жезлом; идол в высокой  | ✗ | ✓ | ✓ | ✓ | заголовок: «Шестой и седьмой идольчики» | ✓ совпадает |
-| 205 | carti20 | Шестирукое божество с луком (восьмой идольчик) | шестирукое божество в шлеме-голове льва, с луком и полумесяцем, сидяще | дл | ✓ | ✓ | ✓ |  |  |
-| 206 | carti21 | Святоподобная фигура с нимбом | лысый идол с нимбом, ладони сложены в молитве, на круглой подставке | ✓ | ✓ | ✓ | ✓ |  |  |
-| 207 | carti22 | Богиня с младенцем на руках | стоящая фигура в венце с нимбом, держащая младенца у груди | ✓ | ✓ | ✓ | ✓ |  |  |
-| 208 | carti23 | Синекожий идол в пламенном нимбе | воин в доспехе и венце с пламенным нимбом, с копьём и орудием, стоит н | ✓ | ✓ | ✓ | ✓ |  |  |
-| 209 | carti24 | Красный идол, сидящий на звере | божество, сидящее на лотосе на спине льва (зверя), с чешуйчатой мандор | ✗ | ✓ | ✓ | ✗ | заголовок: «Идол верхом на звере»; место: seconda-parte-indiani, блок 61 | ✓ совпадает |
-| 210 | carti25 | Воин на облаке с пламенным нимбом | воин в доспехе с пламенным нимбом, с коротким дротиком в правой руке,  | ✗ | ✓ | ✓ | ✗ | заголовок: «Воин, попирающий чудовище»; место: seconda-parte-indiani, блок 59 | ✓ совпадает |
-| 211 | carti26 | Крылатый дух, попирающий поверженного | воин с пламенным нимбом, замахнувшийся оружием, стоит на поверженной ф | ✗ | ✓ | ✓ | ✗ | заголовок: «Воин с поднятым оружием»; место: seconda-parte-indiani, блок 60 | ✓ совпадает |
-| 212 | carti27 | Заключение серии японских идолов; идол из слоновой кости Пей | нагой гротескный карлик с кудрями и короной на вазе-пьедестале (идолок | дл | ✓ | ✓ | ✗ | место: seconda-parte-indiani, блок 64 | ✓ совпадает |
+З — заголовок, И/Р — итальянская/русская подпись (— подписи нет), М — место, О — объяснение; ✓ совпадает, ✗ найдено расхождение (заголовок и объяснение исправлены; подписи не правились). «Повтор» — результат повторной проверки исправленных записей.
+
+| id | скан / с. | Заголовок | З | И/Р | М | О | Что исправлено | Повтор |
+|---|---|---|---|---|---|---|---|---|
+| e0007 | 0007 / Titelblatt_2r | Издательская марка Тоцци | ✓ | —/— | ✓ | — |  |  |
+| e0041 | 0041 / 1a | Начало идолопоклонства | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0044 | 0044 / 3a | Иерархия богов и мироздания | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0052 | 0052 / 10 | Провидение | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0058 | 0058 / 16 | Вечность и Демогоргон | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0062 | 0062 / 20 | Грот Вечности | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0065 | 0065 / 23 | Сатурн, пожирающий своих детей | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0068 | 0068 / 26 | Сатурн со змеем, кусающим свой хвост | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0070 | 0070 / 28 | Трёхглавый Сатурн | ✓ | ✓/✓ | ✓ | ✗ | объяснение: saturno/38 | ок |
+| e0072 | 0072 / 30 | Сатурн со связанными ногами и крылатый Сатурн | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0075 | 0075 / 33 | Янус | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) |  |
+| e0078 | 0078 / 36 | Четыре времени года | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) |  |
+| e0080 | 0080 / 38 | Храм Януса | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0082 | 0082 / 40 | Солнце и Юпитер ассирийцев | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0085 | 0085 / 43 | Геба, Богиня юности, и её храм | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0087 | 0087 / 45 | Девять Муз | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0089 | 0089 / 47 | Аполлон среди Муз | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) |  |
+| e0091 | 0091 / 49 | Аполлон и посвящённые ему животные | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) |  |
+| e0093 | 0093 / 51 | Корабль Солнца на Крокодиле | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0095 | 0095 / 53 | Аполлон и Дафна | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) |  |
+| e0097 | 0097 / 55 | Аполлон — Бог благоразумия | ✓ | ✓/✓ | ✓ | ✗ | объяснение: apollo/89 | ок |
+| e0099 | 0099 / 57 | Аполлон Митра | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) | ок |
+| e0101 | 0101 / 59 | Священные быки египтян | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0103 | 0103 / 61 | Нагой Аполлон, любитель Быков | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0105 | 0105 / 63 | Аполлон ассирийцев и Земля | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0107 | 0107 / 65 | Адад и Адаргата | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0108 | 0108 / 66 | Серапис | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0110 | 0110 / 68 | Солнце и четыре сосуда | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0112 | 0112 / 70 | Эскулап | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0114 | 0114 / 72 | Эскулап с Петухами | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0117 | 0117 / 75 | Перстень со знаком Здоровья | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0119 | 0119 / 77 | Богиня Здоровья | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0121 | 0121 / 79 | Гигия с Псом и Змеёй | ✓ | ✓/✓ | ✓ | ✗ | объяснение: apollo/181 | ок |
+| e0123 | 0123 / 81 | Колесница Солнца | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0124 | 0124 / 82 | Феб и бараноголовый образ Солнца | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) |  |
+| e0126 | 0126 / 84 | Аврора и Пегас | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0128 | 0128 / 86 | Диана с охотницами | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0132 | 0132 / 90 | Диана-охотница | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0135 | 0135 / 93 | Люцина | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0137 | 0137 / 95 | Крылатая Диана со львом и леопардом | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) |  |
+| e0140 | 0140 / 98 | Геката трёхликая | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0142 | 0142 / 100 | Луна с головой ястреба | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0145 | 0145 / 103 | Многогрудая Природа | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0147 | 0147 / 105 | Исида — покровительница мореходов | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) |  |
+| e0149 | 0149 / 107 | Исида с систром и сосудом | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0156 | 0156 / 114 | Юпитер и Пан | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0167 | 0167 / 125 | Создатель египтян и Юпитер | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0170 | 0170 / 128 | Юпитер Марциана | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0172 | 0172 / 130 | Юпитер Горкий | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0174 | 0174 / 132 | Дий Фидий | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0176 | 0176 / 134 | Вейовис и Юпитер в облачении Вакха | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) |  |
+| e0178 | 0178 / 136 | Юпитер на престоле | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) |  |
+| e0180 | 0180 / 138 | Юпитер с молнией и копьём | ✓ | ✗/✓ | ✓ | ✗ | объяснение: giove/164, giove/166; подпись: расхождение с печатью в транскрипции (не правлено) | ок |
+| e0182 | 0182 / 140 | Юпитер-громовержец и Юпитер Лабрадей | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) | ок |
+| e0186 | 0186 / 144 | Оракул Юпитера Аммона | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0188 | 0188 / 146 | Юпитер Аммон | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0193 | 0193 / 151 | Юнона Люцина и Сирийская Богиня | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) | ок |
+| e0197 | 0197 / 155 | Ирида | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) |  |
+| e0199 | 0199 / 157 | Юнона-воздух и Юнона Коринфская | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0201 | 0201 / 159 | Кастор и Поллукс | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) |  |
+| e0206 | 0206 / 164 | Юнона Аргивская и Юнона Соспита | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) |  |
+| e0208 | 0208 / 166 | Юнона Югальная | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) |  |
+| e0212 | 0212 / 170 | Гименей | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) |  |
+| e0217 | 0217 / 175 | Опс-Берекинтия и Корибанты | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0222 | 0222 / 180 | Статуя Кибелы на колеснице | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0228 | 0228 / 186 | Храм Весты | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0230 | 0230 / 188 | Церера Сицилийская | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0236 | 0236 / 194 | Чёрная Церера Аркадская | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0239 | 0239 / 197 | Помона | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0241 | 0241 / 199 | Прозерпина и Добрая Богиня | ✓ | ✓/✓ | ✓ | ✗ | объяснение: gran-madre/193, gran-madre/195, gran-madre/202 | ок |
+| e0244 | 0244 / 202 | Главк | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0246 | 0246 / 204 | Галатея, Тритоны и Нереиды | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0249 | 0249 / 207 | Сирены | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0251 | 0251 / 209 | Сцилла | ✓ | ✓/✓ | ✓ | ✗ | объяснение: nettuno/61 | ок |
+| e0253 | 0253 / 211 | Нептун и Амфитрита | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0256 | 0256 / 214 | Нептун-земледелец, или Тарасипп | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) |  |
+| e0259 | 0259 / 217 | Эвринома и Декрето | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0261 | 0261 / 219 | Четыре ветра, Орифия и Флора | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0263 | 0263 / 221 | Кефис и По | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0265 | 0265 / 223 | Тибр | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0267 | 0267 / 225 | Нил | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0269 | 0269 / 227 | Вертумн и Помона | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0276 | 0276 / 234 | Плутон, Прозерпина, Эврином и Цербер | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) |  |
+| e0283 | 0283 / 241 | Три Фурии | ✓ | ✓/✓ | ✓ | ✗ | объяснение: plutone/80, plutone/95, plutone/112 | ок |
+| e0286 | 0286 / 244 | Гарпии, Стриги и Ламии | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0289 | 0289 / 247 | Сфинкс и Химера | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) |  |
+| e0292 | 0292 / 250 | Три Парки | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0295 | 0295 / 253 | Необходимость и три Парки | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0297 | 0297 / 255 | Парки по Петру Апиану | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0299 | 0299 / 257 | Харон | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0302 | 0302 / 260 | Меркурий, вестник Богов | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0307 | 0307 / 265 | Мир с младенцем Плутосом | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0309 | 0309 / 267 | Согласие и Верность | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0311 | 0311 / 269 | Меркурий и Палестра | ✓ | ✓/✓ | ✓ | ✓ |  | ок |
+| e0313 | 0313 / 271 | Гермы Меркурия | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0317 | 0317 / 275 | Ночь и Сон | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0321 | 0321 / 279 | Меркурий и Анубис | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0323 | 0323 / 281 | Анубис | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0325 | 0325 / 283 | Галльский Геркулес | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0329 | 0329 / 287 | Геркулес вооружённый и Геркулес-едок | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0334 | 0334 / 292 | Спор Аполлона и Геркулеса о Треножнике | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0336 | 0336 / 294 | Меркурий и Минерва | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0339 | 0339 / 297 | Рождение Минервы из головы Юпитера | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0342 | 0342 / 300 | Беллона и её Жрецы | ✓ | ✓/✓ | ✓ | ✗ | объяснение: minerva/45, minerva/52, minerva/58 | ок |
+| e0345 | 0345 / 303 | Минерва — изобретательница искусств | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0347 | 0347 / 305 | Добродетель и Честь | ✓ | ✓/✓ | ✓ | ✗ | объяснение: minerva/95 | ок |
+| e0349 | 0349 / 307 | Волупия, попирающая Добродетель | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0352 | 0352 / 310 | Ангерона и Гарпократ | ✓ | ✓/✗ | ✓ | ✓ | рус. подпись: из перевода (не правлено) |  |
+| e0359 | 0359 / 317 | Юпитер, поражающий Гигантов | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0363 | 0363 / 321 | Вулкан в кузнице с Циклопами | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0366 | 0366 / 324 | Марс на колеснице и Молва | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0368 | 0368 / 326 | Ярость и Гнев | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0370 | 0370 / 328 | Храм Марса у скифов и камень Марса в Аравии | ✗ | ✓/✓ | ✓ | ✓ | заголовок: «Храм Марса у скифов и камень Марса в Аравии» | ок |
+| e0372 | 0372 / 330 | Распря | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0375 | 0375 / 333 | Победа с Орлом, Пальмой и Лавром | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0377 | 0377 / 335 | Победа вооружённая и без крыльев | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0381 | 0381 / 339 | Вакх и действия вина | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) |  |
+| e0383 | 0383 / 341 | Ком, бог пиров | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) |  |
+| e0386 | 0386 / 344 | Вакх и действия вина | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) |  |
+| e0389 | 0389 / 347 | Вакхическое шествие | ✓ | ✓/✓ | ✓ | ✗ | объяснение: bacco/56, bacco/59, bacco/64 | ок |
+| e0392 | 0392 / 350 | Триумф Вакха | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0395 | 0395 / 353 | Корабль Вакха и тирренские корсары | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0399 | 0399 / 357 | Тифон и Гор | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0401 | 0401 / 359 | Гор-Приап с диском | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0404 | 0404 / 362 | Приап, бог садов | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0407 | 0407 / 365 | Лары и Пенаты | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) |  |
+| e0409 | 0409 / 367 | Гений добрый и злой | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0416 | 0416 / 374 | Фортуна с рогом изобилия и рулём | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0418 | 0418 / 376 | Фортуна прошлая, настоящая и будущая | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0420 | 0420 / 378 | Немесида | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0422 | 0422 / 380 | Справедливость и Обида | ✓ | ✓/✓ | ✓ | ✗ | объяснение: fortuna/62, fortuna/64 | ок |
+| e0424 | 0424 / 382 | Клевета Апеллеса | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0426 | 0426 / 384 | Зависть | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) |  |
+| e0428 | 0428 / 386 | Мом | ✓ | ✓/✓ | ✓ | ✗ | объяснение: fortuna/87 | ок |
+| e0430 | 0430 / 388 | Обман по Данте | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0432 | 0432 / 390 | Добрая Фортуна и Случай | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0434 | 0434 / 392 | Фортуна у скифов | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0437 | 0437 / 395 | Фортуна в Егире | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) |  |
+| e0440 | 0440 / 398 | Фортуна на коне | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0442 | 0442 / 400 | Добрый Исход, Фавор и колесо Фортуны | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0444 | 0444 / 402 | Макария, богиня Счастья | ✓ | ✗/✓ | ✓ | ✗ | объяснение: fortuna/171; подпись: расхождение с печатью в транскрипции (не правлено) | ок |
+| e0450 | 0450 / 408 | Эрот, Антерот и Летейский Амур | ✓ | ✓/✓ | ✓ | ✗ | объяснение: cupido/35, cupido/42 | ок |
+| e0458 | 0458 / 416 | Триумф Амура | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0462 | 0462 / 420 | Амуры с молнией, лирой и ключом | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0464 | 0464 / 422 | Купидон, победивший Пана | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0472 | 0472 / 430 | Венера, рождённая из пены | ✓ | ✓/✓ | ✓ | ✗ | объяснение: venere/18, venere/124, venere/125 | ок |
+| e0474 | 0474 / 432 | Храм в Пафосе и колесница Венеры | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0476 | 0476 / 434 | Венера в колеснице с лебедями | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0479 | 0479 / 437 | Венера с Амурами, Орами и Грациями | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0481 | 0481 / 439 | Купидон, Игра и Венера | ✓ | ✓/✗ | ✓ | ✗ | объяснение: venere/60, venere/67; рус. подпись: из перевода (не правлено) | ок |
+| e0484 | 0484 / 442 | Венера вооружённая, Победительница и в оковах | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0489 | 0489 / 447 | Бородатая Венера и плач об Адонисе | ✓ | ✗/✓ | ✓ | ✓ | подпись: расхождение с печатью в транскрипции (не правлено) |  |
+| e0495 | 0495 / 453 | Оры и Аполлон | ✓ | ✓/✓ | ✓ | ✗ | объяснение: gratie/17, gratie/20, gratie/41 | ок |
+| e0497 | 0497 / 455 | Три Грации | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0499 | 0499 / 457 | Грации, ведомые Меркурием | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0507 | 0507 / 465 | Митра, убивающий быка | ✓ | —/— | ✓ | ✓ |  |  |
+| e0509 | 0509 / 467 | Аполлон и Гиацинт | ✓ | —/— | ✓ | ✓ |  |  |
+| e0510 | 0510 / 468 | Аполлон и Марсий | ✓ | —/— | ✓ | ✓ |  |  |
+| e0511 | 0511 / 469 | Люцифер на колеснице | ✓ | —/— | ✓ | ✓ |  |  |
+| e0512 | 0512 / 470 | Астарта | ✓ | —/— | ✓ | ✗ | объяснение: annotationi-pignoria/69 | ок |
+| e0514 | 0514 / 472 | Исида, кормящая Гора, и боги | ✓ | —/— | ✓ | ✓ |  |  |
+| e0516 | 0516 / 474 | Сатиры двух родов | ✓ | —/— | ✓ | ✓ |  |  |
+| e0517 | 0517 / 475 | Честь в мужском и женском образе | ✓ | —/— | ✓ | ✓ |  |  |
+| e0518 | 0518 / 476 | Богиня Копия | ✓ | —/— | ✓ | ✓ |  |  |
+| e0519 | 0519 / 477 | Минерва с молнией | ✓ | —/— | ✓ | ✓ |  |  |
+| e0520 | 0520 / 478 | Насилие Аякса Оилеева | ✓ | —/— | ✓ | ✓ |  |  |
+| e0522 | 0522 / 480 | Брусья Кастора и Поллукса | ✓ | —/— | ✓ | ✓ |  |  |
+| e0523 | 0523 / 481 | Свобода | ✓ | —/— | ✓ | ✓ |  |  |
+| e0524 | 0524 / 482 | Молоко Юноны и лилии | ✓ | —/— | ✓ | ✓ |  |  |
+| e0526 | 0526 / 484 | Земля Устойчивая | ✓ | —/— | ✓ | ✓ |  |  |
+| e0532 | 0532 / 490 | Палемон на дельфине | ✓ | —/— | ✓ | ✓ |  |  |
+| e0534 | 0534 / 492 | Океан | ✓ | —/— | ✓ | ✓ |  |  |
+| e0536 | 0536 / 494 | Нимфы | ✓ | —/— | ✓ | ✓ |  |  |
+| e0537 | 0537 / 495 | Три Судьбы | ✓ | —/— | ✓ | ✓ |  |  |
+| e0538 | 0538 / 496 | Конная статуя Марка Аврелия | ✓ | —/— | ✓ | ✓ |  |  |
+| e0539 | 0539 / 497 | Меркурий, обуздывающий Пегаса | ✓ | —/— | ✓ | ✓ |  |  |
+| e0540 | 0540 / 498 | Бог Термин | ✓ | —/— | ✓ | ✓ |  |  |
+| e0542 | 0542 / 500 | Геркулес — бог красноречия | ✓ | —/— | ✓ | ✓ |  |  |
+| e0543 | 0543 / 501 | Геркулес Мусагет | ✓ | —/— | ✓ | ✓ |  |  |
+| e0544 | 0544 / 502 | Два Геркулеса — с луком и с трофеем | ✗ | —/— | ✓ | ✓ | заголовок: «Два Геркулеса — с луком и с трофеем» | ок |
+| e0545 | 0545 / 503 | Юный безбородый Геркулес | ✓ | —/— | ✓ | ✓ |  |  |
+| e0546 | 0546 / 504 | Семон Санк | ✓ | —/— | ✓ | ✓ |  |  |
+| e0547 | 0547 / 505 | Аполлон перед алтарём с грифоном | ✓ | —/— | ✓ | ✓ |  |  |
+| e0548 | 0548 / 506 | Минерва вооружённая | ✓ | —/— | ✓ | ✓ |  |  |
+| e0549 | 0549 / 507 | Гарпократ с рогом изобилия | ✓ | —/— | ✓ | ✓ |  |  |
+| e0550 | 0550 / 508 | Минерва на медалях Марка Аврелия | ✓ | —/— | ✓ | ✓ |  |  |
+| e0552 | 0552 / 510 | Марс и Венера | ✓ | —/— | ✓ | ✓ |  |  |
+| e0554 | 0554 / 512 | Обнажённый Марс с камня Вельзера | ✓ | —/— | ✓ | ✗ | объяснение: annotationi-pignoria/296 | ок |
+| e0555 | 0555 / 513 | Пьяный Силен на осле | ✓ | —/— | ✓ | ✓ |  |  |
+| e0556 | 0556 / 514 | Вакханка | ✓ | —/— | ✓ | ✓ |  |  |
+| e0558 | 0558 / 516 | Бородатый Гений Сената | ✓ | —/— | ✓ | ✓ |  |  |
+| e0559 | 0559 / 517 | Гений на лектистернии | ✓ | —/— | ✓ | ✓ |  |  |
+| e0560 | 0560 / 518 | Гении с модием на голове | ✓ | —/— | ✓ | ✓ |  |  |
+| e0561 | 0561 / 519 | Гений Антиохии | ✓ | —/— | ✓ | ✓ |  |  |
+| e0562 | 0562 / 520 | Гений с рогом изобилия и патерой | ✓ | —/— | ✓ | ✓ |  |  |
+| e0563 | 0563 / 521 | Клевета по замыслу Дзуккеро | ✓ | —/— | ✓ | ✓ |  |  |
+| e0565 | 0565 / 523 | Древо Фортуны | ✓ | —/— | ✓ | ✓ |  |  |
+| e0566 | 0566 / 524 | Фортуна на лебеде | ✓ | —/— | ✓ | ✓ |  |  |
+| e0567 | 0567 / 525 | Небесный Амур | ✓ | —/— | ✓ | ✓ |  |  |
+| e0568 | 0568 / 526 | Амуры, играющие со львицей | ✓ | —/— | ✓ | ✓ |  |  |
+| e0569 | 0569 / 527 | Наказание Амура по Авсонию | ✓ | —/— | ✓ | ✓ |  |  |
+| e0570 | 0570 / 528 | Сидящая женщина с копьём | ✓ | —/— | ✗ | — | подпись: расхождение с печатью в транскрипции (не правлено); место: спорно (не правлено) |  |
+| e0571 | 0571 / 529 | Голова Сатурна с гарпой | ✓ | —/— | ✓ | ✓ |  |  |
+| e0572 | 0572 / 530 | Юный двуликий Янус | ✓ | —/— | ✓ | ✓ |  |  |
+| e0574 | 0574 / 532 | Статуя Прозерпины, спереди | ✓ | —/— | ✓ | ✓ |  |  |
+| e0575 | 0575 / 533 | Статуя Прозерпины, вид сбоку | ✓ | —/— | ✓ | ✓ |  | ок |
+| e0576 | 0576 / 534 | Статуя Прозерпины, третий вид | ✓ | —/— | ✓ | ✓ |  | ок |
+| e0577 | 0577 / 535 | Статуя Прозерпины, со спины | ✓ | —/— | ✓ | ✓ |  |  |
+| e0579 | 0579 / 537 | Аттис из Фландрии | ✓ | —/— | ✓ | ✓ |  |  |
+| e0580 | 0580 / 538 | Аттис из Фландрии, со спины | ✓ | —/— | ✓ | ✓ |  |  |
+| e0581 | 0581 / 539 | Бронзовая рука Торнакса, первый вид | ✓ | —/— | ✓ | ✓ |  | ок |
+| e0582 | 0582 / 540 | Бронзовая рука Торнакса, второй вид | ✓ | —/— | ✓ | ✓ |  | ок |
+| e0583 | 0583 / 541 | Бронзовая рука Торнакса, третий вид | ✓ | ✓/✓ | ✓ | ✓ |  | ок |
+| e0584 | 0584 / 542 | Тиллин | ✓ | ✓/✓ | ✓ | — |  |  |
+| e0585 | 0585 / 543 | Рука, обвитая змеёй | ✓ | —/— | ✓ | — |  | ок |
+| e0594 | 0594 / 548 | Хомойока, бог Мексики | ✓ | —/— | ✓ | ✗ | объяснение: seconda-parte-indiani/14, seconda-parte-indiani/16 | ок |
+| e0595 | 0595 / 549 | Осирис с Исийского стола | ✗ | —/— | ✓ | ✓ | заголовок: «Осирис с Исийского стола» | ок |
+| e0596 | 0596 / 550 | Хомойока, или Кетцалькоатль | ✗ | —/— | ✓ | ✓ | заголовок: «Хомойока, или Кетцалькоатль» | ок |
+| e0597 | 0597 / 551 | Микитлантекатле с женой | ✓ | —/— | ✓ | ✓ |  |  |
+| e0598a | 0598 / 552 | Бог на чудовище с женой | ✓ | —/— | ✓ | ✓ |  |  |
+| e0598b | 0598 / 552 | Бог с женой, держащиеся за руки | ✓ | —/— | ✓ | ✓ |  |  |
+| e0599 | 0599 / 553 | Ицпуцтеке с ногами петуха и жена | ✓ | —/— | ✓ | ✓ |  |  |
+| e0600 | 0600 / 554 | Посол Ситлалатонака | ✓ | —/— | ✓ | ✓ |  |  |
+| e0603 | 0603 / 557 | Кетцалькоатль | ✓ | —/— | ✓ | ✓ |  |  |
+| e0605 | 0605 / 559 | Медаль Константина Великого с крестом | ✓ | ✓/✓ | ✓ | ✓ |  |  |
+| e0606 | 0606 / 560 | Монета Констанция «Сим знаком победишь» | ✓ | —/— | ✓ | ✓ |  |  |
+| e0608 | 0608 / 562 | Мексиканский идол с хвостом у подбородка | ✓ | —/— | ✓ | ✗ | объяснение: seconda-parte-indiani/36 | ок |
+| e0609 | 0609 / 563 | Мексиканский идол, подобный Церкопитеку | ✓ | —/— | ✓ | ✗ | объяснение: seconda-parte-indiani/36 | ок |
+| e0611 | 0611 / 565 | Пагода Слона и Ганиссоне | ✓ | —/— | ✓ | ✓ |  |  |
+| e0612 | 0612 / 566 | Каннон, сын Амиды | ✓ | —/— | ✓ | ✓ |  |  |
+| e0613 | 0613 / 567 | Амида на розе и Гарпократ | ✓ | —/— | ✓ | ✓ |  |  |
+| e0614 | 0614 / 568 | Статуя Амиды с колокольчиками | ✓ | —/— | ✓ | ✓ |  |  |
+| e0615 | 0615 / 569 | Японский храм | ✓ | —/— | ✓ | ✓ |  |  |
+| e0616 | 0616 / 570 | Японский храм на скале | ✓ | —/— | ✓ | ✓ |  |  |
+| e0617 | 0617 / 571 | Храм Бога словесности с Ящерицей | ✓ | —/— | ✓ | ✓ |  |  |
+| e0618 | 0618 / 572 | Японский идол Малоко | ✓ | —/— | ✓ | ✓ |  |  |
+| e0619 | 0619 / 573 | Японский идол № 1 | ✓ | —/— | ✓ | ✓ |  |  |
+| e0620 | 0620 / 574 | Японский идол № 2 на чудовище | ✓ | —/— | ✓ | ✓ |  |  |
+| e0621 | 0621 / 575 | Японские идолы № 3 и 4 | ✓ | —/— | ✓ | ✓ |  |  |
+| e0622 | 0622 / 576 | Японский идол № 5 | ✓ | —/— | ✓ | ✓ |  |  |
+| e0623 | 0623 / 577 | Японские идолы № 6 и 7 | ✓ | —/— | ✓ | ✓ |  |  |
+| e0624 | 0624 / 578 | Шестирукий японский идол № 8 | ✓ | —/— | ✓ | ✓ |  |  |
+| e0625 | 0625 / 579 | Японский идол № 9 | ✓ | —/— | ✓ | ✓ |  |  |
+| e0626 | 0626 / 580 | Японский идол № 10 с младенцем | ✓ | —/— | ✓ | ✓ |  |  |
+| e0627 | 0627 / 581 | Японский идол № 11 на чудовище | ✓ | —/— | ✓ | ✓ |  |  |
+| e0628 | 0628 / 582 | Японский идол № 14 на звере | ✓ | —/— | ✓ | ✓ |  |  |
+| e0629 | 0629 / 583 | Японский идол № 12 на чудовище | ✓ | —/— | ✓ | ✓ |  |  |
+| e0630 | 0630 / 584 | Японский идол № 13 на чудовище | ✓ | —/— | ✓ | ✓ |  |  |
+| e0632 | 0632 / 586a | Идолок Пейреска спереди | ✓ | —/— | ✓ | ✓ |  |  |
+| e0633 | 0633 / 587a | Идолок Пейреска, профиль вправо | ✓ | —/— | ✓ | ✓ |  |  |
+| e0634 | 0634 / 586b | Идолок Пейреска, профиль влево | ✓ | —/— | ✓ | ✓ |  |  |
+| e0635 | 0635 / 587b | Идолок Пейреска сзади | ✓ | —/— | ✓ | ✓ |  |  |

@@ -17,7 +17,9 @@
 
 Оглавление (chapters[]) всегда содержит все главы книги по порядку; поле blocks
 есть только у собранных. Блоки: aside (помета на полях), p (абзац), quote
-(цитата/стихи, lines + author), cap (подпись гравюры, eng — файл из engravings/, w/h — его размеры).
+(цитата/стихи, lines + author), cap (подпись гравюры, eng — файл из engravings/, w/h — его размеры, pid — id гравюры из plates.json).
+Гравюры без печатной подписи — поле figs у блока, перед которым они стоят (по plates.json: at=before). Расстановка гравюр
+идёт только по plates.json (его строит tools/build_plates.py); нумерация блоков от гравюр не зависит.
 Номер блока n — сквозной по главе, с 1.
 
 После сборки проверяет chapter_links.tsv: блок существует, это p/quote, текст
@@ -38,9 +40,6 @@ ORDER = ["frontespizio-dedica", "prefatione", "catalogo-dei", "catalogo-autori",
          "annotationi-pignoria", "aggionta", "seconda-parte-titolo-dedica", "seconda-parte-indiani"]
 RICH = {"frontespizio-dedica", "prefatione", "catalogo-dei", "catalogo-autori",
         "annotationi-pignoria", "aggionta", "seconda-parte-titolo-dedica", "seconda-parte-indiani"}
-# У этих частей гравюры не идут подряд за подписями (почти все без подписи): привязываются только ENG_CARD.
-NO_AUTO_PLATES = RICH
-
 ASIDE = re.compile(r"^<aside>(.*)</aside>\s*$")
 
 # Однострочные цитаты без автора, которые не подписи гравюр (по началу текста).
@@ -49,23 +48,6 @@ NOT_CAP = {
     "minerva": ["Пусть от меня учатся быть благочестивым"],
     "annotationi-pignoria": ["Элий Монт"],
 }
-# Явная привязка подписи (по началу текста) к файлу гравюры (без расширения), когда порядок
-# подписей в тексте не совпадает с порядком листов или лист лежит вне сканов главы.
-ENG_BIND = {
-    "proemio": [("К с. 3.", "0043_3a"),
-                ("Начало Идолопоклонства", "0040_1a"),
-                ("Образы Богини Провидения", "0051_10"),
-                ("Образы Вечности", "0057_16"),
-                ("Пещера Вечности", "0061_20")],
-    "giove": [("Изображение Веры", "0173_132"),
-              ("Изображение Юпитера, разящего молнией клятвопреступников", "0171_130")],
-}
-# Подпись (по началу текста) -> id карточки; файл гравюры берётся из engraving_map.json.
-ENG_CARD = {
-    "aggionta": [("Имеющая некоторое сходство", "carta45"), ("Тиллину.", "carta27")],
-    "seconda-parte-indiani": [("VOT P R", "carti_constantinevot")],
-}
-
 SCAN_TAIL = re.compile(r"\s*\((?:скан|сканы) [^)]*\)\s*$")
 
 
@@ -214,18 +196,6 @@ def parse_chapter(path, slug=None):
     return {"title": title, "scans": scans, "blocks": blocks}
 
 
-def plates_for(scans, engravings):
-    # файл гравюры с префиксом N лежит на скане N+1 (см. apollo: 0127_86 = Диана на скане 0128)
-    if not scans:
-        return []
-    out = []
-    for e in engravings:
-        m = re.match(r"(\d{4})_", e["file"])
-        if m and scans[0] - 1 <= int(m.group(1)) <= scans[1] - 1:
-            out.append(e)
-    return sorted(out, key=lambda e: e["display"])
-
-
 def jdump(obj):
     return json.dumps(obj, ensure_ascii=False, separators=(",", ":"))
 
@@ -244,6 +214,8 @@ def main():
     bdir = os.path.join(ROOT, "books", a.book)
     src = os.path.join(bdir, "_translation", "ru")
     engravings = json.load(open(os.path.join(bdir, "engravings.json"), encoding="utf-8"))
+    plates = json.load(open(os.path.join(bdir, "plates.json"), encoding="utf-8"))["plates"]
+    by_stem = {e["file"].rsplit(".", 1)[0]: e for e in engravings}
     out_path = a.out or os.path.join(bdir, "chapters_ru.json")
 
     chapters = []
@@ -251,35 +223,23 @@ def main():
         info = parse_chapter(os.path.join(src, slug + ".md"), slug)
         rec = {"slug": slug, "title": info["title"], "scans": info["scans"]}
         if slug in want:
-            caps = [b for b in info["blocks"] if b["t"] == "cap"]
-            plates = plates_for(info["scans"], engravings)
-            by_stem = {e["file"].rsplit(".", 1)[0]: e for e in engravings}
-            for prefix, stem in ENG_BIND.get(slug, []):
-                b = next((c for c in caps if c["text"].startswith(prefix)), None)
-                if b is None or stem not in by_stem:
-                    sys.exit("ENG_BIND: %s: нет подписи «%s» или гравюры %s" % (slug, prefix, stem))
-                e = by_stem[stem]
-                b["eng"], b["w"], b["h"] = e["display"], e["width"], e["height"]
-                caps.remove(b)
-                plates = [x for x in plates if x["file"] != e["file"]]
-            card_map = json.load(open(os.path.join(bdir, "engraving_map.json"), encoding="utf-8"))
-            for prefix, card in ENG_CARD.get(slug, []):
-                b = next((c for c in caps if c["text"].startswith(prefix)), None)
-                e = next((x for x in engravings if x["file"] == card_map.get(card)), None)
-                if b is None or e is None:
-                    sys.exit("ENG_CARD: %s: нет подписи «%s» или гравюры карточки %s" % (slug, prefix, card))
-                b["eng"], b["w"], b["h"] = e["display"], e["width"], e["height"]
-                caps.remove(b)
-            if slug in NO_AUTO_PLATES:
-                if caps:
-                    print("ПРЕДУПРЕЖДЕНИЕ: %s: подписей без гравюры %d" % (slug, len(caps)), file=sys.stderr)
-            elif len(caps) == len(plates):
-                for b, e in zip(caps, plates):
-                    b["eng"] = e["display"]
-                    b["w"], b["h"] = e["width"], e["height"]
-            else:
-                print("ПРЕДУПРЕЖДЕНИЕ: %s: подписей %d, гравюр %d — гравюры не привязаны"
-                      % (slug, len(caps), len(plates)), file=sys.stderr)
+            by_n = {b["n"]: b for b in info["blocks"]}
+            for pl in plates:
+                if pl["chapter"] != slug:
+                    continue
+                if pl["shared_file"] and pl["id"].endswith("b"):
+                    continue
+                e = by_stem[pl["file"]]
+                b = by_n[pl["block"]]
+                if pl["at"] == "cap":
+                    if b["t"] != "cap":
+                        sys.exit("%s: блок %s главы %s не подпись" % (pl["id"], pl["block"], slug))
+                    b["eng"], b["w"], b["h"], b["pid"], b["pt"] = e["display"], e["width"], e["height"], pl["id"], pl["title"]
+                else:
+                    b.setdefault("figs", []).append({"eng": e["display"], "w": e["width"], "h": e["height"], "pid": pl["id"], "pt": pl["title"]})
+            for b in info["blocks"]:
+                if b["t"] == "cap" and "eng" not in b:
+                    print("ПРЕДУПРЕЖДЕНИЕ: %s: подпись-блок %d без гравюры: %s" % (slug, b["n"], b["text"][:40]), file=sys.stderr)
             rec["blocks"] = info["blocks"]
         chapters.append(rec)
 
