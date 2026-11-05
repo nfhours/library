@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "88";
+  var APP_VER = "89";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -131,6 +131,15 @@
     hmNames:      {ru:"Имена", en:"Names", fr:"Noms"},
     hmSoon:       {ru:"скоро", en:"soon", fr:"bientôt"},
     hmSearchGo:   {ru:"Найти", en:"Search", fr:"Chercher"},
+    plRead:       {ru:"Читать это место", en:"Read this passage", fr:"Lire ce passage"},
+    plAll:        {ru:"Все гравюры", en:"All engravings", fr:"Toutes les gravures"},
+    plPrev:       {ru:"Предыдущая гравюра", en:"Previous engraving", fr:"Gravure précédente"},
+    plNext:       {ru:"Следующая гравюра", en:"Next engraving", fr:"Gravure suivante"},
+    plCount:      {ru:"Гравюра {k} из {n}", en:"Engraving {k} of {n}", fr:"Gravure {k} sur {n}"},
+    plBetween:    {ru:"между с. {a} и {b}", en:"between pp. {a} and {b}", fr:"entre p. {a} et {b}"},
+    plNoCap:      {ru:"У этой гравюры нет подписи в переводе.", en:"This engraving has no caption in the translation.", fr:"Cette gravure n’a pas de légende dans la traduction."},
+    plEdition:    {ru:"издание 1626\u00a0г.", en:"1626 edition", fr:"édition de 1626"},
+    plZoomLabel:  {ru:"Гравюра на весь экран", en:"Engraving, full screen", fr:"Gravure en plein écran"},
     hmAllCards:   {ru:"Открыть весь список карточек", en:"Open the full list of cards", fr:"Ouvrir la liste complète des fiches"},
     hmNavLabel:   {ru:"Разделы книги", en:"Book sections", fr:"Sections du livre"},
     hmCloseToc:   {ru:"Закрыть содержание", en:"Close contents", fr:"Fermer le sommaire"}
@@ -512,6 +521,7 @@
       else if(p.id && book.byId[p.id] && book.meta.chapters && state.lang==="ru" && book.chap===undefined)
         loadChapters(book, function(){ if(gen===renderGen) renderCard(book, book.byId[p.id]); });
       else if(p.view==="about") renderAbout(book);
+      else if(p.view==="plate" && book.meta.home && book.meta.chapters) renderPlateCard(book, p.plateNum);
       else if(p.view==="plate") renderPlate(book, p.plateNum);
       else if(p.id && book.byId[p.id] && isPlateBook && book.byId[p.id].plate!=null) renderPlate(book, book.byId[p.id].plate, {focus:p.id});
       else if(p.id && book.byId[p.id]) renderCard(book, book.byId[p.id]);
@@ -1342,7 +1352,7 @@
       } else if(tab==="gallery"){
         panel = '<ul class="ic-gal">'+gal.map(function(g){
           var thumb = engBase+"thumb/"+g.rec.display.replace("_display.webp","_t.webp");
-          return '<li><a class="ic-gal-item" href="'+esc(hrefFor(book, g.it.id))+'" data-id="'+esc(g.it.id)+'">'+
+          return '<li><a class="ic-gal-item" href="'+esc(hrefFor(book, "plate/"+g.it.id))+'" data-id="'+esc(g.it.id)+'">'+
             '<span class="ic-gal-img"><img loading="lazy" src="'+esc(thumb)+'" alt=""></span>'+
             '<span class="ic-gal-cap">'+esc(titleOf(g.it))+'</span></a></li>';
         }).join("")+'</ul>';
@@ -1383,7 +1393,7 @@
       var fig = root.querySelector(".ic-home-fig .ic-fig"); if(fig) fig.addEventListener("click",function(){ lightbox(fig.getAttribute("data-src")); });
       var gl = root.querySelector(".ic-gal"); if(gl) gl.addEventListener("click",function(e){
         var a = e.target.closest(".ic-gal-item");
-        if(a && !e.metaKey && !e.ctrlKey && !e.shiftKey && e.button===0){ e.preventDefault(); go(book, a.getAttribute("data-id")); }
+        if(a && !e.metaKey && !e.ctrlKey && !e.shiftKey && e.button===0){ e.preventDefault(); go(book, "plate/"+a.getAttribute("data-id")); }
       });
       var form = root.querySelector(".ic-home-search");
       if(form){
@@ -1402,6 +1412,121 @@
         snap();
         if(document.fonts && document.fonts.ready) document.fonts.ready.then(snap);
       } else { state.scroll = 0; toTop(true); }
+      nudgeRepaint();
+    });
+  }
+
+  /* ---------- карточка гравюры (#/<slug>/plate/<id>; книги с home и chapters) ---------- */
+  function plateIndex(book, chap){
+    if(book.plateIdx) return book.plateIdx;
+    var m = {};
+    chap.list.forEach(function(c){ (c.blocks||[]).forEach(function(b){ if(b.t==="cap" && b.eng && !m[b.eng]) m[b.eng] = {chapter:c.slug, block:b.n, b:b}; }); });
+    return (book.plateIdx = m);
+  }
+  // Русская подпись берётся из блока-подписи главы; короткие «подписи» вроде «К с. 3.» или надписи на монете — не подпись.
+  function plateInfo(book, chap, g){
+    var it = g.it, cp = chap ? plateIndex(book, chap)[g.rec.display] : null;
+    var info = {it:it, rec:g.rec, ruB:(cp && cp.b.text.length >= 12) ? cp.b : null, chapter:"", block:0};
+    if(cp){ info.chapter = cp.chapter; info.block = cp.block; }
+    else {
+      var lk = chap && chap.links[it.id], ch = lk && chap.bySlug[lk.chapter];
+      if(ch && ch.blocks && lk.block >= 1 && lk.block <= ch.blocks.length){ info.chapter = lk.chapter; info.block = lk.block; }
+    }
+    var c = (it.caption||"").trim();
+    info.itCap = (info.ruB && c && c.indexOf("\n") < 0 && c.charAt(0) !== c.charAt(0).toLowerCase() && c.charAt(0) !== "(" && c.length <= info.ruB.text.length*2.5) ? c : "";
+    return info;
+  }
+  function platePageStr(p){
+    p = String(p||"").trim();
+    var m = /^(\d+)\.5$/.exec(p);
+    if(m) return t("plBetween",{a:m[1], b:parseInt(m[1],10)+1});
+    return p ? t("pageAbbr")+" "+p.replace(/\s*-\s*/g,"–") : "";
+  }
+  function zoomLightbox(src){
+    var d = document.createElement("div"); d.className = "ic ic-lb ic-lb-zoom"; d.setAttribute("role","dialog"); d.setAttribute("aria-label",t("plZoomLabel"));
+    d.innerHTML = '<div class="ic-lbz-sc"><img src="'+esc(src)+'" alt=""></div><button type="button" aria-label="'+esc(t("close"))+'">×</button>';
+    var sc = d.firstChild, img = sc.firstChild, zoomed = false;
+    function close(){ d.remove(); document.removeEventListener("keydown",onKey); document.documentElement.style.overflow=""; }
+    function onKey(e){ if(e.key==="Escape") close(); }
+    img.addEventListener("click",function(e){
+      e.stopPropagation();
+      var r = img.getBoundingClientRect(), fx = (e.clientX - r.left)/r.width, fy = (e.clientY - r.top)/r.height;
+      zoomed = !zoomed;
+      sc.classList.toggle("zoomed", zoomed);
+      if(zoomed){
+        img.style.width = Math.max(img.naturalWidth, r.width*2.2)+"px";
+        var r2 = img.getBoundingClientRect();
+        sc.scrollLeft = fx*r2.width - sc.clientWidth/2;
+        sc.scrollTop = fy*r2.height - sc.clientHeight/2;
+      } else img.style.width = "";
+    });
+    sc.addEventListener("click",close);
+    d.querySelector("button").addEventListener("click",close);
+    document.addEventListener("keydown",onKey);
+    document.documentElement.style.overflow = "hidden";
+    document.body.appendChild(d); d.querySelector("button").focus();
+  }
+  var plateKeyHandler = null;
+  function renderPlateCard(book, id){
+    var gen = renderGen;
+    loadChapters(book, function(chap){
+      if(gen !== renderGen) return;
+      var gal = galleryEntries(book), f = book.engravings && book.engravings.map[id], idx = -1;
+      gal.forEach(function(g,i){ if(book.engravings.byFile[f] === g.rec) idx = i; });
+      if(idx < 0){ location.replace(hrefFor(book, "home/gallery")); return; }
+      var g = gal[idx], info = plateInfo(book, chap, g), it = g.it;
+      var engBase = BASE+"books/"+book.engravings.srcSlug+"/engravings/", src = engBase+g.rec.display;
+      var ch = info.chapter && chap ? chap.bySlug[info.chapter] : null;
+      var prev = idx > 0 ? gal[idx-1] : null, next = idx < gal.length-1 ? gal[idx+1] : null;
+      function navLink(n, dir){
+        if(!n) return '<span class="ic-pc-step ic-pc-'+dir+' ic-pc-off" aria-hidden="true"></span>';
+        return '<a class="ic-pc-step ic-pc-'+dir+'" rel="'+dir+'" href="'+esc(hrefFor(book,"plate/"+n.it.id))+'" aria-label="'+esc(t(dir==="prev"?"plPrev":"plNext"))+'">'+
+          '<span class="ic-pc-arrow" aria-hidden="true">'+(dir==="prev"?"←":"→")+'</span><span class="ic-pc-step-t">'+esc(titleOf(n.it))+'</span></a>';
+      }
+      var meta = [];
+      if(ch) meta.push('<span>'+esc(chapTitle(ch))+'</span>');
+      var pg = platePageStr(it.page); if(pg) meta.push('<span>'+esc(pg)+' · '+esc(t("plEdition"))+'</span>');
+      root.innerHTML =
+        '<div class="ic-wrap ic-home ic-plate-card">'+
+          '<div class="ic-top-row"><button type="button" class="ic-to-lib-link ic-back ic-pc-all">← '+esc(t("plAll"))+'</button>'+langSwitch()+'</div>'+
+          '<article class="ic-pc" data-id="'+esc(it.id)+'">'+
+            '<figure class="ic-pc-fig"><div class="ic-fig ic-fig-eng" data-src="'+esc(src)+'"><img class="ic-fade-img ic-eng-display" src="'+esc(src)+'"'+
+              (g.rec.width && g.rec.height ? ' width="'+g.rec.width+'" height="'+g.rec.height+'"' : "")+' alt="'+esc(t("engravingAlt",{title:titleOf(it)}))+'"></div></figure>'+
+            '<div class="ic-pc-body">'+
+              '<p class="ic-pc-count">'+esc(t("plCount",{k:idx+1, n:gal.length}))+'</p>'+
+              '<h1 class="ic-pc-title">'+esc(titleOf(it))+'</h1>'+
+              (info.ruB ? '<p class="ic-pc-ru" lang="ru">'+inl(info.ruB.text, qmState(info.ruB))+'</p>' : '<p class="ic-pc-none">'+esc(t("plNoCap"))+'</p>')+
+              (info.itCap ? '<p class="ic-pc-it" lang="it">'+esc(info.itCap)+'</p>' : "")+
+              (meta.length ? '<p class="ic-pc-meta">'+meta.join('<span class="ic-pc-sep" aria-hidden="true"> · </span>')+'</p>' : "")+
+              (info.chapter ? '<a class="ic-pc-read" href="'+esc(chapterHref(book, info.chapter, info.block))+'">'+esc(t("plRead"))+'</a>' : "")+
+            '</div>'+
+          '</article>'+
+          '<nav class="ic-pc-pager" aria-label="'+esc(t("hmGallery"))+'">'+navLink(prev,"prev")+navLink(next,"next")+'</nav>'+
+        '</div>';
+      bindLangSwitch(root);
+      root.querySelector(".ic-pc-all").addEventListener("click",function(){ location.hash = hrefFor(book, "home/gallery"); });
+      var fig = root.querySelector(".ic-pc-fig .ic-fig"); fig.addEventListener("click",function(){ zoomLightbox(src); });
+      [prev,next].forEach(function(n){ if(n){ var im = new Image(); im.src = engBase+n.rec.display; } });
+      function step(n){ if(n) location.replace(hrefFor(book, "plate/"+n.it.id)); }
+      var art = root.querySelector(".ic-pc"), x0 = 0, y0 = 0, t0 = 0, tracking = false;
+      art.addEventListener("touchstart",function(e){
+        if(e.touches.length !== 1){ tracking = false; return; }
+        tracking = true; x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; t0 = Date.now();
+      },{passive:true});
+      art.addEventListener("touchend",function(e){
+        if(!tracking || document.querySelector(".ic-lb")) return;
+        tracking = false;
+        var tc = e.changedTouches[0], dx = tc.clientX - x0, dy = tc.clientY - y0;
+        if(Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy)*1.6 && Date.now() - t0 < 700) step(dx < 0 ? next : prev);
+      },{passive:true});
+      if(plateKeyHandler) document.removeEventListener("keydown", plateKeyHandler);
+      plateKeyHandler = function(e){
+        if(!/\/plate\//.test(location.hash) || document.querySelector(".ic-lb") || e.altKey || e.metaKey || e.ctrlKey) return;
+        if(e.target.matches && e.target.matches("input,textarea,select")) return;
+        if(e.key === "ArrowLeft") step(prev); else if(e.key === "ArrowRight") step(next);
+      };
+      document.addEventListener("keydown", plateKeyHandler);
+      toTop();
       nudgeRepaint();
     });
   }
