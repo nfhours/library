@@ -437,7 +437,7 @@ button.ic-scan-prev,button.ic-scan-next{width:38px;height:38px;border:1px solid 
 .ic-ch-body > :first-child.ic-ch-h{margin-top:0}
 .ic-text p.ic-ch-lines{text-indent:0;text-align:center;text-align-last:center;hyphens:manual;margin:.5em 0}
 .ic .ic-ch-note{margin-top:14px;font-size:.8em;color:var(--soft);font-style:italic}
-/* помета на полях: на узком экране — колонка справа от абзаца (float), тонкая линия слева; пометы одного абзаца идут столбиком (clear:right) */
+/* помета на полях: на экране от 900px — колонка справа от абзаца (float), тонкая линия слева; пометы одного абзаца идут столбиком (clear:right) */
 .ic-ch-aside{float:right;clear:right;box-sizing:border-box;width:32%;margin:.2em 0 .5em 1.3em;padding-left:.6em;border-left:1px solid var(--rule);font-size:.72em;line-height:1.35;color:var(--soft);font-style:italic;text-align:left;hyphens:manual}
 .ic-ch-body .ic-ch-quote{margin:.9em 0}
 .ic-text p.ic-ch-qa{text-indent:0;text-align:right;font-size:.85em;color:var(--soft);margin-top:-.6em;hyphens:manual}
@@ -458,9 +458,12 @@ a.ic-ch-btn{display:inline-block;font-size:.78em;letter-spacing:.06em;text-trans
 @media (min-width:1180px){
   .ic-ch-aside{width:11em;margin:.25em -13.5em .5em 0;font-size:.75em;padding-left:.7em}
 }
-/* на узком экране текст по левому краю с переносами: рядом с пометой строки не растягиваются */
+/* на узком экране текст по левому краю с переносами */
 @media (max-width:899px){
   .ic-ch-body p{text-align:left;text-align-last:auto;hyphens:auto}
+  /* помета отдельной строкой над своим абзацем, прижата вправо; несколько помет — столбиком */
+  .ic-ch-aside{float:none;clear:none;width:fit-content;max-width:80%;margin:.9em 0 .3em auto;font-size:.78em}
+  .ic-ch-aside+.ic-ch-aside{margin-top:.2em}
   /* стихи: каждая строка отдельным блоком, перенос с висячим отступом */
   .ic-ch-quote .ic-verse br{display:none}
   .ic-ch-quote .ic-vl{display:block;padding-left:1.5em;text-indent:-1.5em}
