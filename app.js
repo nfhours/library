@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "86";
+  var APP_VER = "87";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -1356,26 +1356,24 @@
       var hp = ornRec("headpiece","head"), tp = ornRec("tailpiece","tail"), dv = ornRec("divider","div");
       root.innerHTML =
         '<div class="ic-wrap ic-home">'+
-          '<div class="ic-top-row">'+(forcedBook?"":'<button type="button" class="ic-to-lib-link ic-back">'+t("toLibrary")+'</button>')+langSwitch()+'</div>'+
+          '<div class="ic-top-row">'+(forcedBook?"":'<button type="button" class="ic-to-lib-link ic-back">← '+t("toLibrary")+'</button>')+langSwitch()+'</div>'+
           (hp ? ornamentMaskHtml(book, hp, "ic-orn-headpiece") : "")+
           '<header class="ic-home-hero">'+
-            (hero ? '<figure class="ic-home-fig"><div class="ic-fig ic-fig-eng" data-src="'+esc(hero)+'"><img class="ic-fade-img ic-eng-display" src="'+esc(hero)+'" alt="'+esc(t("engravingAlt",{title:bt(book.meta.title)}))+'"></div></figure>' : "")+
             '<div class="ic-home-txt">'+
               '<p class="ic-kicker">'+esc(book.meta.title.original||"")+'</p>'+
               '<h1 class="ic-title">'+esc(bt(book.meta.title))+'</h1>'+
               '<p class="ic-home-author">'+esc(bt(h.author))+'</p>'+
               '<p class="ic-home-ed">'+esc(bt(h.edition))+(h.addition ? ' · '+esc(bt(h.addition)) : "")+'</p>'+
-              '<p class="ic-home-blurb">'+esc(bt(h.blurb))+'</p>'+
             '</div>'+
+            '<nav class="ic-home-tiles" aria-label="'+esc(t("hmNavLabel"))+'">'+
+              homeTile(hrefFor(book,"home"), t("hmRead"), t("hmReadSub"), tab==="read")+
+              homeTile(hrefFor(book,"home/gallery"), t("hmGallery"), t("hmGallerySub",{n:galCount}), tab==="gallery")+
+              homeTile(hrefFor(book,"home/search"), t("hmSearch"), t("hmSearchSub"), tab==="search")+
+              ['hmIndex','hmNames'].map(function(k){ return '<div class="ic-home-tile ic-soon" aria-disabled="true"><span class="ic-home-tile-t">'+esc(t(k))+'</span><span class="ic-home-tile-s">'+esc(t("hmSoon"))+'</span></div>'; }).join("")+
+            '</nav>'+
+            (hero ? '<figure class="ic-home-fig"><div class="ic-fig ic-fig-eng" data-src="'+esc(hero)+'"><img class="ic-fade-img ic-eng-display" src="'+esc(hero)+'" alt="'+esc(t("engravingAlt",{title:bt(book.meta.title)}))+'"></div></figure>' : "")+
+            '<p class="ic-home-blurb">'+esc(bt(h.blurb))+'</p>'+
           '</header>'+
-          '<nav class="ic-home-tiles" aria-label="'+esc(t("hmNavLabel"))+'">'+
-            homeTile(hrefFor(book,"home"), t("hmRead"), t("hmReadSub"), tab==="read")+
-            homeTile(hrefFor(book,"home/gallery"), t("hmGallery"), t("hmGallerySub",{n:galCount}), tab==="gallery")+
-            homeTile(hrefFor(book,"home/search"), t("hmSearch"), t("hmSearchSub"), tab==="search")+
-          '</nav>'+
-          '<div class="ic-home-soon">'+
-            ['hmIndex','hmNames'].map(function(k){ return '<div class="ic-home-tile ic-soon" aria-disabled="true"><span class="ic-home-tile-t">'+esc(t(k))+'</span><span class="ic-home-tile-s">'+esc(t("hmSoon"))+'</span></div>'; }).join("")+
-          '</div>'+
           (dv ? ornamentMaskHtml(book, dv, "ic-orn-divider") : "")+
           '<section class="ic-home-panel" id="ic-home-panel">'+panel+'</section>'+
           (tp ? ornamentMaskHtml(book, tp, "ic-orn-tailpiece") : "")+
