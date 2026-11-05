@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "94";
+  var APP_VER = "95";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -140,7 +140,6 @@
     tvNone:       {ru:"Ничего не найдено.", en:"Nothing found.", fr:"Rien trouvé."},
     tvSee:        {ru:"см.", en:"see", fr:"voir"},
     tvPage:       {ru:"с.", en:"p.", fr:"p."},
-    tvApprox:     {ru:"Термина на этой странице не нашлось (возможна опечатка в указателе 1626 г.) — открывается примерное место", en:"The term was not found on this page (possible misprint in the 1626 index); an approximate place opens", fr:"Terme introuvable sur cette page (coquille possible dans l'index de 1626) ; une place approximative s'ouvre"},
     tvOpen:       {ru:"Открыть место в переводе", en:"Open the place in the translation", fr:"Ouvrir l’endroit dans la traduction"},
     hmNames:      {ru:"Имена", en:"Names", fr:"Noms"},
     hmSoon:       {ru:"скоро", en:"soon", fr:"bientôt"},
@@ -523,7 +522,7 @@
     if(rest[0]==="find") return {slug:slug, view:"find"};
     if(rest[0]==="index") return {slug:slug, view:"tavola"};
     if(rest[0]==="plate" && rest[1]) return {slug:slug, view:"plate", plateNum:rest[1]};
-    if(rest[0]==="ch" && rest[1]) return {slug:slug, view:"chapter", chapter:rest[1], block:rest[2]};
+    if(rest[0]==="ch" && rest[1]) return {slug:slug, view:"chapter", chapter:rest[1], block:rest[2], page:rest[3]};
     return {slug:slug, id:rest[0]};
   }
 
@@ -540,7 +539,7 @@
       if(hasHome && p.id && book.chap===undefined){ loadChapters(book, function(){ if(gen===renderGen) route(); }); return; }
       if(hasHome && p.id && book.chap && book.chap.pl.byOld[p.id]){ location.replace(hrefFor(book, "plate/"+book.chap.pl.byOld[p.id])); return; }
       if(p.view==="home" && book.meta.home) renderHome(book, p.tab);
-      else if(p.view==="chapter" && book.meta.chapters) renderChapter(book, p.chapter, p.block);
+      else if(p.view==="chapter" && book.meta.chapters) renderChapter(book, p.chapter, p.block, p.page);
       else if(p.view==="tavola" && book.meta.tavola) renderTavola(book);
       else if(p.id && book.byId[p.id] && book.meta.chapters && state.lang==="ru" && book.chap===undefined)
         loadChapters(book, function(){ if(gen===renderGen) renderCard(book, book.byId[p.id]); });
@@ -1237,7 +1236,7 @@
     return '<p'+n+'>'+inl(b.text, qs)+'</p>';
   }
 
-  function renderChapter(book, slug, blockN){
+  function renderChapter(book, slug, blockN, pageSpec){
     var gen = renderGen;
     loadChapters(book, function(chap){
       if(gen !== renderGen) return;
@@ -1269,18 +1268,42 @@
           (ch ? '<div class="ic-pager">'+pagerBtn(prev,t("chPrev"))+pagerBtn(next,t("chNext"))+'</div>' : "")+
         '</div>';
       bindLangSwitch(root);
-      root.querySelector(".ic-back").addEventListener("click",function(){ if(book.meta.home) location.hash = hrefFor(book, "home"); else goIndex(book); });
+      var pgm = pageSpec && /^(\d+)-(\d+)-(\d+)$/.exec(pageSpec);
+      root.querySelector(".ic-back").addEventListener("click",function(){
+        if(pgm && book.meta.tavola){ if(tavolaUi.via===location.hash) history.back(); else location.hash = hrefFor(book, "index").replace(/^#/,""); }
+        else if(book.meta.home) location.hash = hrefFor(book, "home"); else goIndex(book);
+      });
       var tocBtn = root.querySelector(".ic-toc-btn");
       if(tocBtn) tocBtn.addEventListener("click",function(){ openChapToc(book, chap, ch, tocBtn); });
       root.querySelectorAll("[data-ch]").forEach(function(b){ b.addEventListener("click",function(){ location.hash = chapterHref(book, b.getAttribute("data-ch")).replace(/^#/,""); }); });
       root.querySelectorAll(".ic-fig").forEach(function(f){ f.addEventListener("click",function(){ lightbox(f.getAttribute("data-src")); }); });
-      var okN = blockN && /^\d+$/.test(blockN), figs = okN ? root.querySelectorAll('.ic-ch-body [data-for="'+blockN+'"]') : [];
+      var okN = blockN && /^[1-9]\d*$/.test(blockN), figs = okN ? root.querySelectorAll('.ic-ch-body [data-for="'+blockN+'"]') : [];
       var target = okN ? (figs.length ? figs[0] : root.querySelector('.ic-ch-body [data-n="'+blockN+'"]')) : null;
+      var bodyEl = root.querySelector(".ic-ch-body"), pgEls = [], pgLine = null;
+      if(pgm && bodyEl){
+        for(var bn = +pgm[1]; bn <= +pgm[2]; bn++){
+          bodyEl.querySelectorAll('[data-for="'+bn+'"],[data-n="'+bn+'"]').forEach(function(el){ el.classList.add("ic-ch-pg"); pgEls.push(el); });
+        }
+        if(pgEls.length){
+          pgLine = document.createElement("div"); pgLine.className = "ic-ch-pgline"; pgLine.setAttribute("aria-hidden","true");
+          pgLine.setAttribute("data-pg", t("tvPage")+" "+pgm[3]);
+          bodyEl.appendChild(pgLine);
+          if(!target) target = pgEls[0];
+        }
+      }
       if(target){
-        if(figs.length) figs.forEach(function(f){ f.classList.add("ic-ch-hl"); }); else target.classList.add("ic-ch-hl");
+        if(okN){ if(figs.length) figs.forEach(function(f){ f.classList.add("ic-ch-hl"); }); else target.classList.add("ic-ch-hl"); }
         // у гравюр заданы width/height, поэтому раскладка не прыгает; повтор — после шрифтов
-        var off = (parseFloat(root.dataset.top) || 0) + 24;
-        var snap = function(){ if(gen !== renderGen) return; window.scrollTo(0, window.scrollY + target.getBoundingClientRect().top - off); };
+        var off = (parseFloat(root.dataset.top) || 0) + (okN ? 24 : 40);
+        var snap = function(){
+          if(gen !== renderGen) return;
+          if(pgLine && pgEls.length){
+            var bt0 = bodyEl.getBoundingClientRect().top, t0 = Infinity, t1 = 0;
+            pgEls.forEach(function(el){ var r = el.getBoundingClientRect(); t0 = Math.min(t0, r.top-bt0); t1 = Math.max(t1, r.bottom-bt0); });
+            pgLine.style.top = t0+"px"; pgLine.style.height = Math.max(0, t1-t0)+"px";
+          }
+          window.scrollTo(0, window.scrollY + target.getBoundingClientRect().top - off);
+        };
         snap();
         if(document.fonts && document.fonts.ready) document.fonts.ready.then(snap);
       } else toTop(true);
@@ -1292,8 +1315,7 @@
 
   /* ---------- указатель (Tavola, #/<slug>/index; book.json "tavola": файл) ----------
      tavola.json строит tools/build_tavola.py: статьи с русским и итальянским заголовками и
-     номерами страниц издания 1626 г.; у каждой страницы — глава и номер блока перевода (k: m — по помете
-     на полях, t — по слову в тексте, p — по положению страницы, c — только глава). */
+     номерами страниц издания 1626 г.; у каждой страницы — глава и номер блока перевода (a–b — блоки страницы, n — блок с термином, если он найден на странице). */
   var tavolaCache = {}, tavolaUi = {q:"", scroll:0, sort:"ru"};
   function tvFold(s){
     s = String(s||"").toLowerCase().replace(/ё/g,"е").normalize("NFD").replace(/[̀-ͯ]/g,"");
@@ -1332,7 +1354,8 @@
         }
         if(!e.pages || !e.pages.length) return "";
         return '<span class="ic-tv-pg">'+esc(t("tvPage"))+' '+e.pages.map(function(p){
-          return '<a href="'+esc(chapterHref(book, p.ch, p.n))+'"'+(p.k==="p" ? ' class="ic-tv-ap" title="'+esc(t("tvApprox"))+'"' : ' title="'+esc(t("tvOpen"))+'"')+'>'+p.p+'</a>';
+          var href = hrefFor(book, "ch/"+p.ch+"/"+(p.n||0)+(p.a ? "/"+p.a+"-"+p.b+"-"+p.p : ""));
+          return '<a href="'+esc(href)+'" title="'+esc(t("tvOpen"))+'">'+p.p+'</a>';
         }).join(", ")+'</span>';
       }
       function entryHtml(e, sub){
@@ -1397,7 +1420,7 @@
           var id = d.byId[a.getAttribute("data-tv")].id, el = document.getElementById("tv-"+id);
           if(!el){ q.value = tavolaUi.q = ""; fill(); el = document.getElementById("tv-"+id); }
           if(el){ scrollToEl(el); flash(el); }
-        } else { tavolaUi.scroll = window.scrollY; }
+        } else { tavolaUi.scroll = window.scrollY; tavolaUi.via = a.getAttribute("href"); }
       });
       fill();
       if(tavolaUi.scroll){ var y = tavolaUi.scroll; tavolaUi.scroll = 0; requestAnimationFrame(function(){ if(gen===renderGen) window.scrollTo(0,y); }); }

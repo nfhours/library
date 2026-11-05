@@ -635,7 +635,6 @@ button.ic-home-go{flex:none;font-size:.78em;letter-spacing:.06em;text-transform:
 .ic-tv-pg,.ic-tv-see{display:block;margin-top:2px;font-size:.88em;color:var(--soft);line-height:1.9}
 .ic-tv-pg a{display:inline-block;min-width:1.9em;padding:0 .35em;margin:0 1px;text-align:center;border:1px solid var(--rule);border-radius:3px;line-height:1.6;color:var(--accent);background:var(--sheet)}
 .ic-tv-see a{text-decoration:underline;text-underline-offset:2px}
-.ic-tv-pg a.ic-tv-ap{border-style:dashed}
 @media (hover:hover){.ic-tv-pg a:hover,.ic-tv-letters button:not(:disabled):hover{background:var(--accent);color:#fff;border-color:var(--accent)}}
 @media (max-width:520px){
   .ic-tv-bar{padding:10px 12px 6px}
@@ -644,3 +643,11 @@ button.ic-home-go{flex:none;font-size:.78em;letter-spacing:.06em;text-transform:
   .ic-tv-letters button{flex:none;min-width:30px;height:32px}
   .ic-tv-pg a{padding:2px .5em;min-width:2.3em;line-height:1.5;margin:2px 2px 2px 0}
 }
+
+/* страница 1626 г. в главе: мягкий фон блоков и тонкая линия на поле «с. N» */
+.ic-ch-body{position:relative}
+.ic-ch-pg{background:var(--accent-soft);background:color-mix(in srgb,var(--accent-soft) 40%,transparent);box-shadow:0 0 0 .3em color-mix(in srgb,var(--accent-soft) 40%,transparent);border-radius:2px}
+.ic-ch-pg.ic-ch-hl{background:var(--accent-soft);box-shadow:0 0 0 .4em var(--accent-soft)}
+.ic-ch-pgline{position:absolute;left:-.9em;width:0;border-left:1px solid var(--accent);pointer-events:none}
+.ic-ch-pgline::before{content:attr(data-pg);position:absolute;left:0;top:-1.35em;font-size:.68em;line-height:1;letter-spacing:.04em;white-space:nowrap;color:var(--accent);font-style:normal}
+@media (max-width:520px){.ic-ch-pgline{left:-.55em}}

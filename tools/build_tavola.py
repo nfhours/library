@@ -303,6 +303,20 @@ class Chap:
             prev = self.X[s]
         self.X[b + 1] = float(self.total)
 
+    def page_range(self, scan):
+        """Блоки перевода, лежащие на скане: [a, b] (оценка по координате X; абзац на стыке страниц входит в обе)."""
+        n = len(self.blocks)
+        a = self.block_at(self.X.get(scan, 0.0))
+        if scan + 1 not in self.X:
+            return a, n
+        x1 = self.X[scan + 1]
+        a2 = self.block_at(x1)
+        j = a2 - 1
+        while j < n - 1 and self.blocks[j]["t"] == "aside":
+            j += 1
+        b = j + 1 if self.start[j] < x1 - 1 else a2 - 1
+        return a, min(n, max(a, b))
+
     def block_at(self, x):
         n = len(self.blocks)
         i = 0
@@ -557,18 +571,26 @@ class Locator:
             if len(hits) == 1:
                 q, r = hits[0]
                 self.fixed.append((head, page, q))
-                page = q
-        if r:
-            return {"p": page, "ch": r[1], "n": r[2], "k": r[0]}
+                page, scan = q, self.num[q]
         slugs = self.byscan.get(scan)
         if not slugs:
             near = min(self.chs, key=lambda c: min(abs(scan - c["scans"][0]), abs(scan - c["scans"][1])))
             return {"p": page, "ch": near["slug"], "k": "c"}
-        sl = max(slugs, key=lambda x: self.C[x].L.get(scan, 0))
+        if r and r[1] in slugs:
+            sl = r[1]
+        else:
+            sl = max(slugs, key=lambda x: self.C[x].L.get(scan, 0))
         if not self.C[sl].ok:
             return {"p": page, "ch": sl, "k": "c"}
-        k, n = self.place(sl, scan, None, own, stems, False)
-        return {"p": page, "ch": sl, "n": n, "k": "p"}
+        a, b = self.C[sl].page_range(scan)
+        if r and r[1] == sl and r[0] != "n":
+            n = r[2]
+            if r[0] == "g":
+                a = b = n
+            else:
+                a, b = min(a, n), max(b, n)
+            return {"p": page, "ch": sl, "a": a, "b": b, "n": n, "k": r[0]}
+        return {"p": page, "ch": sl, "a": a, "b": b, "k": "n" if r and r[0] == "n" else "p"}
 
 
 def norm_key(t):
