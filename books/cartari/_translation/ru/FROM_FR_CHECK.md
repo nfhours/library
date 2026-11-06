@@ -10,3 +10,5 @@
 - diana, блок 112: «ò veramente la Natura delle cose» — «ò veramente» = «или же», «либо» (= ovvero), не «поистине». RU «или же поистине Природа вещей»; нужно «или же Природа вещей».
 - giove, блок 52: Barbaro stanza, «S'amor ti torne à suoi piu lieti balli, / E che ti renda la tua forma tolta»: deprecative «se» + subjunctive = «so may Love return you … and give you back your form» (a wish offered in exchange for the answer); RU «если любовь вернёт тебя … и возвратит тебе» turns it into a condition («if Love returns you»).
 - vertunno, блок 1: verse line 78: Italian «I cocomeri, quali mi son porti» — cocomeri = watermelons (GLOSSARY russian: «арбузы»); ru has «огурцы» (cucumbers)
+- mercurio, блок 65: Virgile (Én. IV), vers 7-8 de la citation : l'italien « dona, e toglie / I sonni » = donne et ôte le sommeil (somnos) ; ru « дарует и отнимает / сны » = les rêves.
+- minerva, блок 169: «E però la Gorgone s'intende sempre il capo di Medusa»: però = perciò ("and therefore", following Virgil's Gorgon head on the aegis; same use as «Però fingendo Statio», block 129); RU «Однако под Горгоной…» ("however") reverses the logical link.

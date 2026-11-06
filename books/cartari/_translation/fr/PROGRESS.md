@@ -15,3 +15,6 @@
 | 7 | gran-madre | готова | 52 | 0 | 0 | Блок 128 (Меркурий-глашатай); 136, 149 — привязка; Festus Pompeius; teda=torche de pin |
 | 8 | nettuno | готова | 28 | 0 | 0 | Nume→numen; Scylla (блок 58); Festus Pompeius (глоссарий даёт Festus — согласовать); подпись Vertumnus b171 |
 | 9 | vertunno | готова | 5 | 1 | 0 | cocomeri=pastèques (ru «огурцы» — ошибка); falce=faucille; se l'aggreua = lui |
+| 10 | plutone | готова | 74 | 0 | 0 | Seneca блок 205 (Guarda quel fiume vn vecchio); прялка блок 178; 6 кальок vuole |
+| 11 | mercurio | готова | 39 | 1 | 0 | Блок 3, 237 (oltre all'uso), 65 (sonni=сон); Alcmone vs Acmon в глоссарии; блок 257 неоднозначен |
+| 12 | minerva | готова | 60 | 1 | 0 | Блок 49 (Стаций); 169 (E però); Thetide в глоссарии = Тетида/Фетида — решить; Ega=Aex |
