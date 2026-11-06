@@ -397,6 +397,97 @@
    "resolution": null,
    "resolved_by": null,
    "source": "Низкий приоритет; обнаружено при Opus-сверке перевода эмблем 61-80 (2026-11-06), подтверждено сверкой с Glasgow A51a061. Перевод сделан по чтению «stirpitùs», транскрипция (diplomatic/reading emblems.json) не менялась."
+  },
+  {
+   "id": "Q24",
+   "frame": "0095",
+   "page": "89",
+   "location": "эмблема 81, строка 1",
+   "diplomatic_as_read": "ſigere",
+   "candidates": [
+    "figere — «вонзать/вбивать» (смысл и обычный текст требуют f; ſ/f спутаны)",
+    "ſigere оставлено как напечатано"
+   ],
+   "type": "suspected_typo",
+   "resolver": "second_copy",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "Обнаружено при Opus-сверке перевода эмблем 81-100 (2026-11-06). Перевод сделан по чтению «figere», транскрипция (diplomatic/reading emblems.json) не менялась."
+  },
+  {
+   "id": "Q25",
+   "frame": "0097",
+   "page": "91",
+   "location": "эмблема 83, строки 1 и 4",
+   "diplomatic_as_read": "stellarum (строка 1); fidet (строка 4)",
+   "candidates": [
+    "stellarem (прилаг., согласованное чтение); fides (сущ. «верность/доверие»)",
+    "оставлено как напечатано"
+   ],
+   "type": "suspected_typo",
+   "resolver": "second_copy",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "Обнаружено при Opus-сверке перевода эмблем 81-100 (2026-11-06). Перевод сделан по чтениям «stellarem»/«fides», транскрипция не менялась."
+  },
+  {
+   "id": "Q26",
+   "frame": "0102",
+   "page": "96",
+   "location": "эмблема 88, строка 4",
+   "diplomatic_as_read": "Si cretæ",
+   "candidates": [
+    "Is cretæ — «тот» (подлежащее при «excitet»), осмысленное чтение",
+    "Si cretæ оставлено как напечатано (не даёт связного смысла)"
+   ],
+   "type": "suspected_typo",
+   "resolver": "second_copy",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "Обнаружено при Opus-сверке перевода эмблем 81-100 (2026-11-06). Перевод сделан по чтению «Is cretæ», транскрипция не менялась."
+  },
+  {
+   "id": "Q27",
+   "frame": [
+    "0110",
+    "0111"
+   ],
+   "page": [
+    "104",
+    "105"
+   ],
+   "location": "эмблема 96, последняя строка",
+   "diplomatic_as_read": "ſurgunt",
+   "candidates": [
+    "surgunt — обычная нормализация долгого s, применённая везде в этой эмблеме, кроме этого места",
+    "ſurgunt оставлено как напечатано (несогласованность нормализации)"
+   ],
+   "type": "suspected_typo",
+   "resolver": "second_copy",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "Низкий приоритет (чисто орфографическая несогласованность нормализации ſ/s); обнаружено при Opus-сверке перевода эмблем 81-100 (2026-11-06). Перевод сделан по чтению «surgunt», транскрипция не менялась."
+  },
+  {
+   "id": "Q28",
+   "frame": "0109",
+   "page": "103",
+   "location": "эмблема 95",
+   "diplomatic_as_read": "pralargo",
+   "candidates": [
+    "prælargo — обычная орфография (æ пропущена при наборе/передаче)",
+    "pralargo оставлено как напечатано"
+   ],
+   "type": "suspected_typo",
+   "resolver": "second_copy",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "Низкий приоритет; обнаружено при Opus-сверке перевода эмблем 81-100 (2026-11-06). Перевод сделан по чтению «prælargo», транскрипция не менялась."
   }
  ]
 }
