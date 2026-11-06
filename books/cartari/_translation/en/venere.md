@@ -176,7 +176,7 @@ In the meantime the Lacedaemonians, having noticed the deceit of the enemy, went
 
 <aside>Ausonius</aside>
 
-So, in memory of this event and of the fine deed done by the women, the Lacedaemonians set up a temple to Venus with a statue of her armed, on which Ausonius made a fine epigram, and he imagines that Pallas, seeing Venus armed, as she herself also always went [?1], wishes to come again to a contest with her, even under the judgement of Paris; but Venus mocks her as rash, for having the audacity to challenge her now that she sees her armed, if she was defeated by her already when she was naked. The epigram, put into the vernacular, is this.
+So, in memory of this event and of the fine deed done by the women, the Lacedaemonians set up a temple to Venus with a statue of her armed, on which Ausonius made a fine epigram, and he imagines that Pallas, seeing Venus armed, as she herself also always went, wishes to come again to a contest with her, even under the judgement of Paris; but Venus mocks her as rash, for having the audacity to challenge her now that she sees her armed, if she was defeated by her already when she was naked. The epigram, put into the vernacular, is this.
 
 > Pallas, seeing at Sparta the fair
 > Venus armed in the manner of a warrior,
@@ -286,7 +286,7 @@ I shall pass on, then, to speak of the company of Venus, which is the Graces and
 > you alone can curb and restrain
 > these steeds from their unbridled course
 > in fierce battles, and if it seems good to you,
-> you alone can disarm [?2] these hands.
+> you alone can disarm [?1] these hands.
 >
 > *(Statius)*
 
@@ -294,5 +294,4 @@ I shall pass on, then, to speak of the company of Venus, which is the Graces and
 
 ## Doubtful passages
 
-- [?1] Scan 0485: “come ella parimente andaua sempre” — the pronoun “ella” is not clear. It is taken to be Pallas (Venus is seen armed, “as she herself also always went”, i.e. armed), but it could also be read as referring to Venus.
-- [?2] Scan 0492: “queste man puoi disamare” — “disamare” is not a normal verb; it is most likely a misprint for “disarmare” (“to disarm”), which fits the sense (Mars asks Venus to disarm his hands), and it is translated so.
+- [?1] Scan 0492: “queste man puoi disamare” — “disamare” is not a normal verb; it is most likely a misprint for “disarmare” (“to disarm”), which fits the sense (Mars asks Venus to disarm his hands), and it is translated so.
