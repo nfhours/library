@@ -39,6 +39,17 @@
           "prefatione",
           "catalogo-dei",
           "catalogo-autori"
+        ],
+        "links": [
+          {
+            "after": "catalogo-autori",
+            "to": "index",
+            "title": {
+              "ru": "Указатель (Tavola delle cose notabili)",
+              "en": "Index (Tavola delle cose notabili)",
+              "fr": "Index (Tavola delle cose notabili)"
+            }
+          }
         ]
       },
       {

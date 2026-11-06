@@ -312,6 +312,9 @@ def main():
         if slug in want:
             by_n = {b["n"]: b for b in info["blocks"]}
             for pl in plates:
+                cf = pl.get("cap_from")
+                if cf and cf["chapter"] == slug and pl["chapter"] != slug:
+                    by_n[cf["block"]]["mv"] = pl["id"]
                 if pl["chapter"] != slug:
                     continue
                 if pl["shared_file"] and pl["id"].endswith("b"):
@@ -323,9 +326,13 @@ def main():
                         sys.exit("%s: блок %s главы %s не подпись" % (pl["id"], pl["block"], slug))
                     b["eng"], b["w"], b["h"], b["pid"], b["pt"] = e["display"], e["width"], e["height"], pl["id"], pl["title"]
                 else:
-                    b.setdefault("figs", []).append({"eng": e["display"], "w": e["width"], "h": e["height"], "pid": pl["id"], "pt": pl["title"]})
+                    fig = {"eng": e["display"], "w": e["width"], "h": e["height"], "pid": pl["id"], "pt": pl["title"]}
+                    if cf:
+                        cinfo = info if cf["chapter"] == slug else parse_chapter(os.path.join(src, cf["chapter"] + ".md"), cf["chapter"], lang)
+                        fig["cap"] = next(x["text"] for x in cinfo["blocks"] if x["n"] == cf["block"])
+                    b.setdefault("figs", []).append(fig)
             for b in info["blocks"]:
-                if b["t"] == "cap" and "eng" not in b:
+                if b["t"] == "cap" and "eng" not in b and "mv" not in b:
                     print("ПРЕДУПРЕЖДЕНИЕ: %s: подпись-блок %d без гравюры: %s" % (slug, b["n"], b["text"][:40]), file=sys.stderr)
             rec["blocks"] = info["blocks"]
         chapters.append(rec)

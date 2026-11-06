@@ -294,7 +294,7 @@ This spread of cloth is seen on almost all the ancient deities that had to do wi
 > the conquered into his azure lap and hidden streams.
 > *(Virgil)*
 
-On the Sirens see A. Agostini in the *Dialogues*, and F. Orsini in the *Roman Families*: in the Petronia and in the Valeria. But as to this last I incline strongly to the opinion of Gio. Vivianus, reported by Livinus Torrentius [?6] on Suetonius, in the life of the Emperor Claudius at chapter 13: that it is not a Siren but Jupiter Carius. And as to the cognomen Aciscolus, I hold neither with Orsini nor with Vivianus, seeing that *Aciscolus*, as is read in the ancient glossaries, is the mason's hammer, and *Aciscolarius* in the same is the stonecutter, or stone-chiseller, as we choose to call him. Read Hadrianus Turnebus in Book 27, chapter 10, and in Book 28, chapter 5. Besides, on the medal itself there is likewise seen a hammer or axe, similar to that which is found in many ancient inscriptions, a sign that that monument had nothing to do with that chapter of the 12 Tables:
+On the Sirens see A. Agostini in the *Dialogues*, and F. Orsini in the *Roman Families*: in the Petronia and in the Valeria. But as to this last I incline strongly to the opinion of Gio. Vivianus, reported by Lenin Torrentius [?6] on Suetonius, in the life of the Emperor Claudius at chapter 13: that it is not a Siren but Jupiter Carius. And as to the cognomen Aciscolus, I hold neither with Orsini nor with Vivianus, seeing that *Aciscolus*, as is read in the ancient glossaries, is the mason's hammer, and *Aciscolarius* in the same is the stonecutter, or stone-chiseller, as we choose to call him. Read Hadrianus Turnebus in Book 27, chapter 10, and in Book 28, chapter 5. Besides, on the medal itself there is likewise seen a hammer or axe, similar to that which is found in many ancient inscriptions, a sign that that monument had nothing to do with that chapter of the 12 Tables:
 
 > Do not smooth the pyre with an axe.
 > *(Twelve Tables)*
@@ -719,7 +719,7 @@ THE END.
 - [?9] The word is apparently a corrupted Latin “hangings”; left as printed.
 - [?10] There is a misprint in the name in the book: Decreto is printed, whereas elsewhere in the same book it is Derceto; translated with the correct name “Derceto”.
 - [?4] The word in the book (“we shall not place”) contradicts the continuation of the sentence; most likely a misprint; translated “shall place”.
-- [?6] There is a misprint in the name in the book: “Lenino” is printed, whereas the correct form is “Livinus” (the scholar Livinus Torrentius); the name is corrected to “Livinus Torrentius”.
+- [?6] There is a misprint in the name in the book: *Lenino Torrentio* is printed (“Lenin Torrentius”), whereas earlier (on Suetonius, chapter 31) the same name is printed correctly: *Leuino Torrentio*, i.e. Livinus Torrentius, Bishop of Antwerp. Rendered here as printed; the same scholar is meant.
 - [?13] In the book a word, “war”, is apparently omitted — “in Book 1 of the war with the Goths”; translated according to the sense.
 - [?11] The Latin quotation is corrupt at this place and breaks off; translated literally as far as the text allows.
 - [?12] The Latin quotation breaks off at this place as well; translated literally as far as the text allows.

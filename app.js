@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "109";
+  var APP_VER = "110";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -1282,14 +1282,27 @@
     return (b.figs||[]).map(function(f){
       var src = BASE+"books/"+(book.meta.ornaments && book.meta.ornaments.source || book.slug)+"/engravings/"+f.eng;
       return '<figure class="ic-ch-fig" data-for="'+b.n+'"><div class="ic-fig ic-fig-eng" data-src="'+esc(src)+'"><img class="ic-fade-img ic-eng-display" loading="lazy" src="'+esc(src)+'"'+
-        (f.w&&f.h ? ' width="'+f.w+'" height="'+f.h+'" style="aspect-ratio:'+f.w+'/'+f.h+'"' : "")+' alt="'+esc(t("engravingAlt",{title:f.pt||""}))+'"></div></figure>';
+        (f.w&&f.h ? ' width="'+f.w+'" height="'+f.h+'" style="aspect-ratio:'+f.w+'/'+f.h+'"' : "")+' alt="'+esc(t("engravingAlt",{title:f.pt||""}))+'"></div>'+(f.cap ? '<figcaption>'+inl(f.cap, null)+'</figcaption>' : "")+'</figure>';
     }).join("");
   }
-  function blockHtml(book, b){
+  function pageHref(book, label){
+    var pm = book.chap && book.chap.pm, slug, i;
+    for(slug in pm) for(i = 0; i < pm[slug].length; i++){
+      var r = pm[slug][i];
+      if(r[1]===label) return hrefFor(book, "ch/"+slug+"/"+r[2]+"/"+r[2]+"-"+r[3]+"-"+label);
+    }
+    return "";
+  }
+  function blockHtml(book, b, slug){
     var n = ' data-n="'+b.n+'"', qs = qmState(b);
+    if(b.t==="aside" && slug==="aggionta"){
+      var am = /^(Л\.|Fol\.)\s+(\d+)(.*)$/.exec(b.text), ah = am && pageHref(book, am[2]);
+      if(ah) return '<aside class="ic-ch-aside"'+n+'><a href="'+esc(ah)+'">'+esc(am[1]+" "+am[2])+'</a>'+inl(am[3], qs)+'</aside>';
+    }
     if(b.t==="aside") return '<aside class="ic-ch-aside"'+n+'>'+inl(b.text, qs)+'</aside>';
     if(b.t==="quote") return quoteHtml(b).replace('<div class="ic-ch-quote"', '<div class="ic-ch-quote"'+n);
     if(b.t==="cap"){
+      if(b.mv) return "";
       var src = b.eng ? BASE+"books/"+(book.meta.ornaments && book.meta.ornaments.source || book.slug)+"/engravings/"+b.eng : "";
       return '<figure class="ic-ch-fig"'+n+'>'+
         (src ? '<div class="ic-fig ic-fig-eng" data-src="'+esc(src)+'"><img class="ic-fade-img ic-eng-display" loading="lazy" src="'+esc(src)+'"'+
@@ -1334,7 +1347,7 @@
       var enMode = state.lang==="en" && !!cfg_en(book), blocks = ch && (enMode ? (ch.en && ch.en.blocks) : ch.blocks);
       var enPrep = enMode && ch && !blocks && chap.pm[slug] && chap.pm[slug].length;
       var body = blocks
-        ? '<div class="ic-text ic-ch-body" lang="'+(enMode ? "en" : "ru")+'">'+blocks.map(function(b){ return pgmHtml(b)+figsHtml(book, b)+blockHtml(book, b); }).join("")+'</div>'
+        ? '<div class="ic-text ic-ch-body" lang="'+(enMode ? "en" : "ru")+'">'+blocks.map(function(b){ return pgmHtml(b)+figsHtml(book, b)+blockHtml(book, b, slug); }).join("")+'</div>'
         : enPrep ? '<div class="ic-text ic-ch-body ic-ch-itbody"></div>'
         : '<p class="ic-sub">'+esc(t("chNotYet"))+'</p>';
       root.innerHTML =
@@ -1373,6 +1386,7 @@
       if(tocBtn) tocBtn.addEventListener("click",function(){ openChapToc(book, chap, ch, tocBtn); });
       root.querySelectorAll("[data-ch]").forEach(function(b){ b.addEventListener("click",function(){ location.hash = chapterHref(book, b.getAttribute("data-ch")).replace(/^#/,""); }); });
       root.querySelectorAll(".ic-fig").forEach(function(f){ f.addEventListener("click",function(){ lightbox(f.getAttribute("data-src")); }); });
+      root.querySelectorAll(".ic-ch-aside a").forEach(function(a){ a.addEventListener("click",function(){ namesUi.chVia = a.getAttribute("href"); }); });
       root.querySelectorAll(".ic-pgm-b").forEach(function(b){ b.addEventListener("click",function(){ openSv(book, pmRows, +b.getAttribute("data-pi")); }); });
       var okN = blockN && /^[1-9]\d*$/.test(blockN), figs = okN ? root.querySelectorAll('.ic-ch-body [data-for="'+blockN+'"]') : [];
       var target = okN ? (figs.length ? figs[0] : root.querySelector('.ic-ch-body [data-n="'+blockN+'"]')) : null;
@@ -1717,9 +1731,14 @@
     function link(c){
       return '<li><a href="'+esc(chapterHref(book, c.slug))+'"'+(c.slug===curSlug?' aria-current="page"':"")+((state.lang==="en" ? c.en : c.blocks)?"":' class="ic-ch-off"')+'>'+esc(chapTitle(c))+'</a></li>';
     }
+    function extra(x){ return '<li><a href="'+esc(hrefFor(book, x.to))+'">'+esc(bt(x.title))+'</a></li>'; }
     var groups = parts.map(function(pt){
       var cs = pt.slugs.map(function(sl){ used[sl] = 1; return chap.bySlug[sl]; }).filter(Boolean);
-      return cs.length ? '<section class="ic-toc-part"><h3>'+esc(bt(pt.name))+'</h3><ol>'+cs.map(link).join("")+'</ol></section>' : "";
+      var li = cs.map(function(c){
+        var after = (pt.links || []).filter(function(x){ return x.after===c.slug && (x.to!=="index" || book.meta.tavola); });
+        return link(c)+after.map(extra).join("");
+      }).join("");
+      return cs.length ? '<section class="ic-toc-part"><h3>'+esc(bt(pt.name))+'</h3><ol>'+li+'</ol></section>' : "";
     });
     var rest = chap.list.filter(function(c){ return !used[c.slug]; });
     if(rest.length) groups.push('<section class="ic-toc-part"><ol>'+rest.map(link).join("")+'</ol></section>');
@@ -2131,7 +2150,8 @@
       if(!p){ location.replace(hrefFor(book, pl && pl.byOld[id] ? "plate/"+pl.byOld[id] : "home/gallery")); return; }
       var gal = pl.list, idx = gal.indexOf(p);
       var engBase = engBaseOf(book), src = engBase+p.file+"_display.webp";
-      var ch = chap.bySlug[p.chapter], capB = p.at==="cap" && ch && ch.blocks ? ch.blocks[p.block-1] : null;
+      var ch = chap.bySlug[p.chapter], cf = p.cap_from, cch = cf ? chap.bySlug[cf.chapter] : ch,
+        capB = (p.at==="cap" || cf) && cch && cch.blocks ? cch.blocks[(cf ? cf.block : p.block)-1] : null;
       var prev = idx > 0 ? gal[idx-1] : null, next = idx < gal.length-1 ? gal[idx+1] : null;
       function navLink(n, dir){
         if(!n) return '<span class="ic-pc-step ic-pc-'+dir+' ic-pc-off" aria-hidden="true"></span>';
@@ -2142,7 +2162,7 @@
       if(ch) meta.push('<span>'+esc(chapTitle(ch))+'</span>');
       var pg = platePageStr(p.page); if(pg) meta.push('<span>'+esc(pg)+' · '+esc(t("plEdition"))+'</span>');
       var enP = state.lang==="en" && !!cfg_en(book);
-      var enCapB = enP && p.at==="cap" && ch && ch.en && ch.en.blocks[p.block-1];
+      var enCapB = enP && (p.at==="cap" || cf) && cch && cch.en && cch.en.blocks[(cf ? cf.block : p.block)-1];
       var explParas = p.expl.map(function(e){ return explHtml(chap, e); }).join("");
       var explBlock = '<section class="ic-pc-expl" aria-labelledby="ic-pc-expl-h"><h2 id="ic-pc-expl-h" class="ic-pc-expl-h">'+esc(t("plExplH"))+'</h2>'+
         (enP ? (explParas ? '<div class="ic-text ic-pc-expl-body" lang="en">'+explParas+'</div>' : '<p class="ic-ch-note">'+esc(t("chEnSoon"))+'</p>')

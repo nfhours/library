@@ -208,6 +208,13 @@ def main():
                 ru = b["text"]
         elif at != "before":
             errs.append("%s: at=%s" % (e["id"], at))
+        cf = m.get("caption_from")
+        if cf:
+            cb = chapters[cf[0]]["blocks"][cf[1] - 1]
+            if cb["t"] != "cap":
+                errs.append("%s: caption_from %s/%s — не подпись" % (e["id"], cf[0], cf[1]))
+            else:
+                ru = cb["text"]
         expl = []
         for ref in m.get("expl", []):
             es_slug, es_n = (ref if isinstance(ref, list) else [slug, ref])
@@ -220,6 +227,8 @@ def main():
         rec = {k: e[k] for k in ("id", "scan", "page", "file", "w", "h", "shared_file")}
         rec.update({"chapter": slug, "at": at, "block": blk, "it_caption": e["it_caption"], "ru_caption": ru,
                     "title": m["title"], "expl": expl})
+        if cf:
+            rec["cap_from"] = {"chapter": cf[0], "block": cf[1]}
         if m.get("note"):
             rec["note"] = m["note"]
         if e["file"] and not e["id"].endswith("b"):

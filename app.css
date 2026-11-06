@@ -434,6 +434,7 @@ button.ic-scan-prev,button.ic-scan-next{width:38px;height:38px;border:1px solid 
 .ic-text p.ic-ch-lines{text-indent:0;text-align:center;text-align-last:center;hyphens:manual;margin:.5em 0}
 .ic .ic-ch-note{margin-top:14px;font-size:.8em;color:var(--soft);font-style:italic}
 /* помета на полях: на экране от 900px — колонка справа от абзаца (float), тонкая линия слева; пометы одного абзаца идут столбиком (clear:right) */
+.ic-ch-aside a{color:inherit;text-decoration:underline;text-underline-offset:2px}
 .ic-ch-aside{float:right;clear:right;box-sizing:border-box;width:32%;margin:.2em 0 .5em 1.3em;padding-left:.6em;border-left:1px solid var(--rule);font-size:.72em;line-height:1.35;color:var(--soft);font-style:italic;text-align:left;hyphens:manual}
 .ic-ch-body .ic-ch-quote{margin:.9em 0}
 .ic-text p.ic-ch-qa{text-indent:0;text-align:right;font-size:.85em;color:var(--soft);margin-top:-.6em;hyphens:manual}
