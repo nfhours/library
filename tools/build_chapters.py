@@ -48,8 +48,8 @@ ASIDE = re.compile(r"^<aside>(.*)</aside>\s*$")
 
 # Однострочные цитаты без автора, которые не подписи гравюр (по началу текста).
 NOT_CAP = {
-    "mercurio": ["Я есмь пастырь добрый."],
-    "minerva": ["Пусть от меня учатся быть благочестивым"],
+    "mercurio": ["Я есмь пастырь добрый.", "I am the good shepherd"],
+    "minerva": ["Пусть от меня учатся быть благочестивым", "Let people learn from me"],
     "annotationi-pignoria": ["Элий Монт"],
 }
 SCAN_TAIL = re.compile(r"\s*\((?:скан|сканы|scan|scans) [^)]*\)\s*$")

@@ -33,3 +33,5 @@
 - gran-madre, блок 54: «non haueuano ... tempij, nè simulacri»: glossary simulacro = «кумир»; RU «ни храмов, ни статуй»; should be «ни храмов, ни кумиров»
 - gran-madre, блок 56: «senza hauerne simulacro alcuno»: glossary simulacro = «кумир»; RU «не имея никакой её статуи»; should be «не имея никакого её кумира»
 - gran-madre, блок 149: «Vn'altro simulacro di Cerere ... ad vn'altro simulacro di certa Dea»: glossary simulacro = «кумир» (statoa = «статуя», used only later in «la statoa di costei»); RU «Другая статуя Цереры ... к другой статуе»; should be «Другой кумир Цереры ... к другому кумиру»
+- plutone, блок 157: «quale alla misura di quella fanno le Parche lunga, & breue» — quella = la materia; RU «по мере этих изменений» относит местоимение к mutationi; должно быть «по мере её (материи)»
+- plutone, блок 102: «la fa cinta à trauerso con serpenti» — RU «опоясана крест-накрест» (crosswise); à trauerso = «поперёк», как сам RU передаёт atrauerso в бл. 88–89
