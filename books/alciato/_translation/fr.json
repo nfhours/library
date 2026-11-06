@@ -1,0 +1,397 @@
+{
+  "1": {
+    "motto": "Au très illustre Maximilien, duc de Milan. Sur l'emblème du duché de Milan.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "L'enfant qui bondit hors de la gueule du serpent sinueux",
+          "est le noble blason de ta maison.",
+          "Nous avons vu que le roi de Pella [Alexandre] portait de telles monnaies,",
+          "et par elles célébrait, lui aussi, sa propre lignée,",
+          "enseignant qu'il était né d'Ammon, sa mère abusée par l'image d'un serpent,",
+          "et qu'il était la descendance d'une semence divine.",
+          "Il sort par la bouche ; on rapporte que certains serpents enfantent ainsi,",
+          "ou bien est-ce parce qu'ainsi Pallas naquit de la tête de Jupiter ?"
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "2": {
+    "motto": "Mediolanum (Milan).",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Aux Bituriges le bélier donne leur emblème, aux Héduens la petite truie.",
+          "À ces peuples mon pays doit son origine,",
+          "que les jeunes filles appelèrent terre sacrée « Mediolanum » :",
+          "car c'est ainsi que cela se dit en ancienne langue gauloise.",
+          "Là où Minerve était vénérée, à présent, la divinité ayant changé,",
+          "c'est Thècle, devant la maison de la Vierge Mère.",
+          "L'emblème de cette terre est la truie laineuse, animal de double forme,",
+          "hérissée de soies piquantes d'un côté, de laine douce de l'autre."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "3": {
+    "motto": "Il ne faut jamais remettre à plus tard.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "L'Élan (Alce) porte les armes de la famille des Alciati,",
+          "et dans ses sabots il porte [en grec : μηδ' ἓν ἀναβαλλόμενος — « ne rien différer »].",
+          "Il est bien connu qu'Alexandre répondit ainsi à qui lui demandait",
+          "comment il avait accompli tant d'exploits en si peu de temps.",
+          "« En ne voulant jamais, dit-il, rien différer. » Ce que montre aussi",
+          "l'Élan,",
+          "dont on peut se demander s'il est plus fort ou plus rapide."
+        ]
+      }
+    ],
+    "greek": [
+      {
+        "where": "engraving inscription (sur le ruban qui s'enroule des pattes de l'élan vers le haut en une boucle)",
+        "original": null,
+        "translation": null,
+        "note": "greek[].reading de la source = null ; la phrase grecque est traduite à l'intérieur même de l'épigramme (ligne 2), selon la règle applicable aux mots grecs insérés dans une ligne latine."
+      }
+    ]
+  },
+  "4": {
+    "motto": "Il faut se réjouir en Dieu.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Vois comme l'excellent peintre a représenté l'enfant",
+          "— le Troyen [Ganymède] — porté à travers les plus hautes étoiles par l'oiseau de Jupiter.",
+          "Qui croirait que Jupiter fut touché d'amour pour un enfant ?",
+          "Dis, d'où le vieillard de Méonie [Homère] a-t-il inventé cela ?",
+          "Celui chez qui l'emportent le conseil, l'esprit et la joie en Dieu,",
+          "on croit qu'il est, enlevé, admis en présence du très haut Jupiter."
+        ]
+      }
+    ],
+    "greek": [
+      {
+        "where": "engraving inscription (au-dessus de l'image, en haut de la planche)",
+        "original": null,
+        "translation": null,
+        "note": "greek[].reading de la source = null ; la glose « γάνυσθαι μήδεσι » (« se réjouir des conseils » — jeu de mots sur le nom de Ganymède) figure dans les notes de la source mais n'est pas normalisée en reading ; elle n'est donc pas traduite ici comme champ séparé, le sens étant porté par la traduction de l'épigramme (lignes 5-6)."
+      }
+    ]
+  },
+  "5": {
+    "motto": "La sagesse humaine est folie devant Dieu.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Que dire ? De quel nom appeler",
+          "ce monstre à double forme, qui n'est ni homme ni dragon ?",
+          "Mais, sans pieds, un homme ; sans parties supérieures, un serpent —",
+          "on peut l'appeler homme aux pieds de serpent, ou serpent à tête d'homme.",
+          "L'homme pète un serpent, et le serpent a éructé un homme,",
+          "et il n'y a ni fin de l'homme, ni commencement de la bête.",
+          "Ainsi régna jadis Cécrops sur la savante Athènes,",
+          "ainsi la terre mère enfanta aussi les géants.",
+          "C'est la figure des rusés ; mais celui qui est dépourvu de piété",
+          "et ne se soucie que des choses terrestres, voilà ce qu'elle désigne."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "6": {
+    "motto": "Religion feinte.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Une très belle courtisane, assise sur un trône royal,",
+          "porte une robe distinguée par l'honneur de la pourpre.",
+          "Et à tous elle verse à boire d'une coupe pleine.",
+          "Mais tout autour, une foule ivre gît, étendue.",
+          "Ainsi désigne-t-on Babylone : qui, par sa forme séduisante,",
+          "et par une religion feinte, prend au piège les peuples insensés."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "7": {
+    "motto": "Non pas à toi, mais à la religion.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Un âne lent portait l'effigie d'Isis,",
+          "tenant sur son dos courbé les mystères vénérables.",
+          "Ainsi quiconque le croise adore pieusement la Déesse,",
+          "et, genoux fléchis, adresse de pieuses prières.",
+          "Mais l'âne croit qu'un tel honneur lui est rendu",
+          "à lui-même, et s'enfle tout entier d'orgueil,",
+          "jusqu'à ce que le conducteur, le retenant du fouet, lui dît :",
+          "« Tu n'es pas un dieu, petit âne, mais tu portes un dieu. »"
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "8": {
+    "motto": "Il faut aller où les dieux appellent.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Au carrefour se trouve un tas de pierres : au-dessus s'élève",
+          "une image tronquée d'un dieu, faite seulement jusqu'à la poitrine.",
+          "C'est donc un tertre de Mercure. Voyageur, suspends",
+          "des guirlandes au dieu qui te montre le droit chemin.",
+          "Nous sommes tous au carrefour, et sur cette route de la vie",
+          "nous nous égarons, si Dieu lui-même ne nous montre la voie."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "9": {
+    "motto": "Le symbole de la fidélité.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Que se tienne, représenté, l'Honneur voilé d'un manteau tyrien,",
+          "et que la Vérité nue joigne sa main droite à la sienne.",
+          "Et qu'au milieu se trouve l'Amour chaste, dont les tempes",
+          "une rose entoure — plus beau que le Cupidon de Dione [Vénus].",
+          "Ces signes établissent la fidélité, que la révérence de l'honneur",
+          "nourrit, que l'Amour alimente, et que la Vérité enfante."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "10": {
+    "motto": "Alliances.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Cette cithare, que sa ressemblance avec une barque fait appeler « halieutica » [la pêcheuse],",
+          "la Muse latine la revendique aussi comme sienne.",
+          "Accepte-la, Duc : que ce présent te plaise en ce temps",
+          "où tu te prépares à conclure de nouvelles alliances avec tes alliés.",
+          "Il est difficile, sauf pour un homme habile, de tendre tant de cordes,",
+          "et si une seule corde [fides — « corde », mais aussi « foi »] n'est pas bien tendue,",
+          "ou se rompt (ce qui arrive facilement), toute la grâce de la coquille [la lyre] se perd,",
+          "et ce chant si excellent deviendra inapte.",
+          "Ainsi les grands d'Italie se réunissent en alliances ; tant qu'ils sont en accord,",
+          "il n'y a rien à craindre, si l'amour demeure constant entre vous.",
+          "Mais si l'un d'eux fait défection (comme on le voit le plus souvent),",
+          "toute cette harmonie se dissout en rien."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "11": {
+    "motto": "Sur le silence.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Quand il se tait, le fou ne diffère en rien du sage.",
+          "Sa langue et sa voix sont l'indice de sa propre folie.",
+          "Qu'il presse donc ses lèvres et marque le silence de son doigt,",
+          "et se change en Harpocrate de Pharos."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "12": {
+    "motto": "Les conseils ne doivent pas être divulgués.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Le monstre que, derrière un seuil aveugle, dans une obscurité ténébreuse,",
+          "Dédale enferma dans les cachettes de Gnosse [le labyrinthe] :",
+          "représenté, la phalange romaine le porte au combat,",
+          "et de fiers étendards brillent de l'homme à demi bœuf [le Minotaure].",
+          "Ils nous avertissent que les secrets conseils des chefs doivent",
+          "rester cachés. Un stratagème connu nuit à son propre auteur."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "13": {
+    "motto": "Ne pas céder, même à la torture.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "La Lionne que tu vois façonnée sur la citadelle de Cécrops [Athènes]",
+          "fut la bien-aimée d'Hermodios (ne le sais-tu pas, étranger ?).",
+          "Ainsi voulut-on montrer l'esprit farouche de cette femme virile",
+          "à la manière d'une bête sauvage, ou parce qu'elle portait justement ce nom.",
+          "Parce que, torturée sur le chevalet, elle ne trahit personne",
+          "par aucune dénonciation, Iphicrate la rendit sans langue."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "14": {
+    "motto": "Par le conseil et la vertu, la Chimère est vaincue, c'est-à-dire les plus forts et les trompeurs.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Bellérophon (en vaillant cavalier) put vaincre la Chimère",
+          "et abattre les monstres du sol de Lycie.",
+          "Ainsi toi aussi, porté par les ailes de Pégase, tu vises l'éther,",
+          "et par le conseil de ton esprit tu domptes les monstres superbes."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "15": {
+    "motto": "Vigilance et garde.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Parce que le coq, en chantant, donne les signes de l'aube qui approche,",
+          "et rappelle les mains des serviteurs à de nouvelles tâches,",
+          "il est représenté sur les tours sacrées ; et parce que la cloche de bronze",
+          "rappelle l'esprit vigilant aux choses d'en haut,",
+          "là se trouve aussi un lion. Mais parce que, gardien, il dort les yeux ouverts,",
+          "on le place pour cette raison devant les portes des temples."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "16": {
+    "motto": "Νῆφε καὶ μέμνησ' ἀπιστεῖν. ἄρθρα ταῦτα τῶν φρενῶν (« Sois sobre et souviens-toi de ne pas te fier : ce sont les jointures de l'esprit »). Il faut vivre sobrement, et ne pas croire à la légère.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Ne crois pas — dit Épicharme — ne sois pas sans sobriété,",
+          "voilà ce que seront les nerfs et les membres de l'esprit humain :",
+          "Voici la main pourvue d'un œil, qui croit ce qu'elle voit. Voici",
+          "le pouliot, herbe de l'antique sobriété,",
+          "qu'ayant montrée, Héraclite apaisa la foule,",
+          "et la calma, lourde d'une sédition gonflée."
+        ]
+      }
+    ],
+    "greek": [
+      {
+        "where": "motto",
+        "original": "Νῆφε καὶ μέμνησ' ἀπιστεῖν. ἄρθρα ταῦτα τῶν φρενῶν. Sobriè vivendum: & non temerè credendum.",
+        "translation": "Sois sobre et souviens-toi de ne pas te fier : ce sont les jointures de l'esprit. Il faut vivre sobrement, et ne pas croire à la légère."
+      }
+    ]
+  },
+  "17": {
+    "motto": "Πῆ παρέβην? Τί δ' ἔρεξα? Τί μοι δέον, οὐκ ἐτελέσθη? (« En quoi ai-je failli ? Qu'ai-je fait ? Quel devoir, pour moi, est resté inaccompli ? ») Qu'ai-je outrepassé ? Qu'ai-je commis ? Qu'ai-je omis ?",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Le Samien [Pythagore], célébrissime fondateur de la secte italique,",
+          "enferma lui-même sa doctrine en un vers bref :",
+          "« Où as-tu dévié ? Que fais-tu ? Qu'omets-tu de ce qu'il faut faire ? » —",
+          "pressant chacun de se rendre à lui-même ce même compte.",
+          "Cela, dit-on, il l'apprit du vol d'une troupe de grues,",
+          "qui portent, saisie dans leurs pattes, une pierre,",
+          "pour ne pas s'arrêter, et pour que les vents contraires ne les emportent pas de travers —",
+          "c'est selon cette même règle que la vie des hommes devait être gouvernée."
+        ]
+      }
+    ],
+    "greek": [
+      {
+        "where": "motto",
+        "original": "Πῆ παρέβην? Τί δ' ἔρεξα? Τί μοι δέον, οὐκ ἐτελέσθη? Quid excessi? quid admisi? quid omisi?",
+        "translation": "En quoi ai-je failli ? Qu'ai-je fait ? Quel devoir, pour moi, est resté inaccompli ? Qu'ai-je outrepassé ? Qu'ai-je commis ? Qu'ai-je omis ?"
+      }
+    ]
+  },
+  "18": {
+    "motto": "Les prudents. Un problème.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Janus aux deux visages, toi qui connais bien le passé et l'avenir,",
+          "et qui vois les grimaces derrière toi (comme devant),",
+          "pourquoi te façonne-t-on avec tant d'yeux, tant de visages ? Est-ce parce que",
+          "cette forme enseigne qu'un homme doit être circonspect ?"
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "19": {
+    "motto": "Prudent, plutôt que bavard.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "La chouette fournit l'emblème d'Athènes la Cécropienne,",
+          "la chouette, parmi les oiseaux, celui du sage conseil.",
+          "Elle est, à juste titre, consacrée au service de Minerve guerrière,",
+          "à la place que la corneille bavarde avait auparavant cédée."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "20": {
+    "motto": "Se hâter à propos.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Tous nous enjoignent de nous hâter vite, et pourtant de différer aussi,",
+          "pour que l'action ne soit ni trop précipitée, ni le retard trop long.",
+          "Que te le montre ce trait joint à l'échénéis [poisson rémora] :",
+          "ce poisson est lent, tandis que les flèches, une fois lancées de la main, volent avec rapidité."
+        ]
+      }
+    ],
+    "greek": []
+  }
+}

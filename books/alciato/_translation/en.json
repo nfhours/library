@@ -1,0 +1,397 @@
+{
+  "1": {
+    "motto": "To the most illustrious Maximilian, Duke of Milan. On the emblem of the Duchy of Milan.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "An infant leaping from the jaws of a coiling serpent",
+          "is the noble crest of your lineage.",
+          "We have seen that the king of Pella [Alexander] bore such coins,",
+          "and with them he too glorified his own line,",
+          "teaching that he was begotten of Ammon, his mother deceived by the serpent's likeness,",
+          "and that he was the offspring of a divine seed.",
+          "He comes forth through the mouth; thus, they say, certain serpents give birth —",
+          "or is it because Pallas was born this way from the head of Jupiter?"
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "2": {
+    "motto": "Mediolanum (Milan).",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "To the Bituriges the ram gives their emblem, to the Hedui the little sow.",
+          "To these peoples my homeland owes its origin —",
+          "the land the maidens called sacred \"Mediolanum\":",
+          "for so it sounds in the old Gallic tongue.",
+          "Where Minerva was once worshipped, now, the godhead changed,",
+          "is Thecla, before the house of the Virgin Mother.",
+          "Its emblem is the wool-bearing sow, a creature of double form,",
+          "bristling sharp on one side, soft-fleeced on the other."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "3": {
+    "motto": "One must never delay.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "The Elk (Alce) bears the arms of the Alciati family,",
+          "and in its hooves carries [Greek: μηδ' ἓν ἀναβαλλόμενος — \"deferring nothing\"].",
+          "It is well known that Alexander answered thus one who asked him",
+          "how he had accomplished so many deeds in so short a time.",
+          "\"By never,\" he said, \"wishing to delay.\" And this too is shown",
+          "by the Elk,",
+          "of which one may wonder whether it is the stronger or the swifter."
+        ]
+      }
+    ],
+    "greek": [
+      {
+        "where": "engraving inscription (on the ribbon coiling from the elk's legs upward into a loop)",
+        "original": null,
+        "translation": null,
+        "note": "Source greek[].reading = null; the Greek phrase is translated inline within the epigram (line 2) per the rule for Greek words embedded in a Latin line."
+      }
+    ]
+  },
+  "4": {
+    "motto": "One must rejoice in God.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Behold how the excellent painter has depicted the boy",
+          "— the Trojan [Ganymede] — borne through the loftiest stars by Jupiter's bird.",
+          "Who would believe that Jupiter was touched by love for a boy?",
+          "Say, whence did the old Maeonian [Homer] invent this?",
+          "He in whom counsel, mind, and joy in God hold first place —",
+          "he, it is believed, is caught up and stands before highest Jupiter."
+        ]
+      }
+    ],
+    "greek": [
+      {
+        "where": "engraving inscription (above the image, along the top edge of the plate)",
+        "original": null,
+        "translation": null,
+        "note": "Source greek[].reading = null; the gloss \"γάνυσθαι μήδεσι\" (\"to rejoice in counsels/designs\" — a pun on Ganymede's name) is recorded in the source notes but not normalized into a reading field, so it is not given a separate greek[].translation here; the sense is carried by the epigram translation (lines 5-6)."
+      }
+    ]
+  },
+  "5": {
+    "motto": "Human wisdom is folly in the eyes of God.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "What shall I say? By what name shall I call",
+          "this two-formed monster, which is neither man nor dragon?",
+          "But without feet, a man; without upper parts, a serpent —",
+          "it may be called a serpent-footed man, or a man-headed serpent.",
+          "The man farts out a serpent, and the serpent has belched out a man,",
+          "and there is neither an end of the man nor a beginning of the beast.",
+          "Thus once Cecrops reigned over learned Athens,",
+          "thus too mother Earth brought forth the giants.",
+          "This is the figure of the crafty; but one devoid of piety,",
+          "who cares only for earthly things — that is what it signifies."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "6": {
+    "motto": "Feigned religion.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "A most beautiful harlot sitting on a royal throne",
+          "wears a robe distinguished by purple splendor.",
+          "And to all she pours drink from a brimming goblet.",
+          "But all around a drunken crowd lies sprawled.",
+          "Thus they signify Babylon: which with alluring form",
+          "and feigned religion ensnares foolish peoples."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "7": {
+    "motto": "Not to you, but to religion.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "A slow-footed donkey was carrying the image of Isis,",
+          "bearing on its bowed back her venerable mysteries.",
+          "So whoever meets it reverently worships the Goddess,",
+          "and, bending the knee, offers up pious prayers.",
+          "But the donkey believes that such honor is being paid",
+          "to itself, and swells up, growing quite proud —",
+          "until the driver, checking him with the whip, said:",
+          "\"You are not a god, little donkey, but you carry a god.\""
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "8": {
+    "motto": "One must go where the gods call.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "At the crossroads there is a mound of stones: above it rises",
+          "a truncated image of a god, fashioned only down to the chest.",
+          "It is, then, the mound of Mercury. Traveler, hang",
+          "garlands for the god who shows you the right path.",
+          "We are all at the crossroads, and on this road of life",
+          "we go astray, unless God himself shows us the way."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "9": {
+    "motto": "The symbol of fidelity.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Let Honor stand depicted, veiled in a Tyrian cloak,",
+          "and let naked Truth join her right hand to his.",
+          "And let chaste Love stand in the middle, whose temples",
+          "a rose encircles — fairer than the Cupid of Dione [Venus].",
+          "These signs establish fidelity, which the reverence of honor",
+          "fosters, Love nourishes, and Truth brings forth."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "10": {
+    "motto": "Alliances.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "This cithara, which from its likeness to a skiff is called \"halieutica\" [the fisher's],",
+          "the Latin Muse claims also as her own.",
+          "Accept it, Duke: may this gift please you at this time,",
+          "when you are preparing to enter new alliances with your allies.",
+          "It is hard, save for a skilled man, to stretch so many strings,",
+          "and if even one string [fides — \"string,\" but also \"faith\"] is not well tuned,",
+          "or snaps (which easily happens), all the grace of the shell [lyre] is lost,",
+          "and that excellent song will turn out unfit.",
+          "So the nobles of Italy come together in alliances; while in concord,",
+          "there is nothing to fear, so long as love holds firm among you.",
+          "But if someone breaks away (as we very often see),",
+          "all that harmony dissolves into nothing."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "11": {
+    "motto": "On silence.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "When he is silent, a fool differs not at all from the wise.",
+          "His own tongue and voice are the tell-tale sign of his folly.",
+          "Let him, then, press his lips and mark silence with his finger,",
+          "and turn himself into the Pharian Harpocrates."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "12": {
+    "motto": "Counsels are not to be made public.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "The monster which, behind a blind threshold, in dark obscurity,",
+          "Daedalus shut away in the Gnosian [Cretan] hiding-places [the labyrinth]:",
+          "depicted, the Roman phalanx carries it into battle,",
+          "and proud standards gleam with the half-man, half-ox [Minotaur].",
+          "They warn us that the secret counsels of leaders ought",
+          "to remain hidden. A stratagem, once known, harms its own author."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "13": {
+    "motto": "One must not yield even to torture.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "The Lioness whom you see fashioned on the Cecropian [Athenian] citadel",
+          "was the beloved of Hermodius (do you not know this, stranger?).",
+          "Thus it pleased them to show the fierce spirit of this manlike woman",
+          "in the likeness of a wild beast, or because she bore just such a name.",
+          "Because, tortured on the rack, she betrayed no one",
+          "by any disclosure, Iphicrates rendered her tongueless."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "14": {
+    "motto": "By counsel and courage the Chimaera is overcome — that is, the stronger and the deceivers.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Bellerophon (as a valiant horseman) was able to overcome the Chimaera,",
+          "and lay low the monsters of the Lycian soil.",
+          "Thus you too, borne on Pegasus's wings, aim for the heavens,",
+          "and with the counsel of your mind tame proud monsters."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "15": {
+    "motto": "Vigilance and guardianship.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Because the cock, crowing, gives the signs of approaching dawn,",
+          "and calls the servants' hands back to new tasks,",
+          "he is fashioned atop sacred towers; and because the bronze bell",
+          "recalls the watchful mind to heavenly things,",
+          "there too is a lion. But because, as guardian, he sleeps with open eyes,",
+          "he is for that reason placed before the doors of temples."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "16": {
+    "motto": "Νῆφε καὶ μέμνησ' ἀπιστεῖν. ἄρθρα ταῦτα τῶν φρενῶν (\"Be sober, and remember to distrust: these are the joints of the mind\"). One must live soberly, and not believe rashly.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Do not believe — Epicharmus says — be not without sobriety,",
+          "these shall be the sinews and limbs of the human mind:",
+          "Behold the hand with an eye, believing what it sees. Behold",
+          "pennyroyal, the herb of ancient sobriety,",
+          "by showing which Heraclitus calmed the crowd,",
+          "and soothed it, swollen and heavy with sedition."
+        ]
+      }
+    ],
+    "greek": [
+      {
+        "where": "motto",
+        "original": "Νῆφε καὶ μέμνησ' ἀπιστεῖν. ἄρθρα ταῦτα τῶν φρενῶν. Sobriè vivendum: & non temerè credendum.",
+        "translation": "Be sober, and remember to distrust: these are the joints of the mind. One must live soberly, and not believe rashly."
+      }
+    ]
+  },
+  "17": {
+    "motto": "Πῆ παρέβην? Τί δ' ἔρεξα? Τί μοι δέον, οὐκ ἐτελέσθη? (\"Where have I transgressed? What have I done? What duty of mine has gone unfulfilled?\") What have I overstepped? What have I committed? What have I omitted?",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "The Samian [Pythagoras], most renowned founder of the Italic sect,",
+          "himself enclosed his own teaching in a brief verse:",
+          "\"Where have you overstepped? What are you doing? What do you leave undone that ought to be done?\" —",
+          "urging each man to render this same reckoning to himself.",
+          "This, it is said, he learned from a flock of flying cranes,",
+          "which carry a stone seized in their feet,",
+          "lest they halt, or ill winds sweep them off course —",
+          "by this same rule human life ought to be governed."
+        ]
+      }
+    ],
+    "greek": [
+      {
+        "where": "motto",
+        "original": "Πῆ παρέβην? Τί δ' ἔρεξα? Τί μοι δέον, οὐκ ἐτελέσθη? Quid excessi? quid admisi? quid omisi?",
+        "translation": "Where have I transgressed? What have I done? What duty of mine has gone unfulfilled? What have I overstepped? What have I committed? What have I omitted?"
+      }
+    ]
+  },
+  "18": {
+    "motto": "The prudent. A problem.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Two-faced Janus, who know well both what is past and what is to come,",
+          "and who see the mocking grimaces behind you (as well as before),",
+          "why do they fashion you with so many eyes, so many faces? Is it because",
+          "this form teaches that a man ought to be circumspect?"
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "19": {
+    "motto": "Prudent rather than talkative.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "The owl furnishes the emblem of Cecropian Athens,",
+          "the owl, among birds the bird of sound counsel.",
+          "Deservedly it is consecrated to the service of warlike Minerva,",
+          "in the place which the chattering crow had earlier yielded."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "20": {
+    "motto": "Timely haste.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "All bid us hasten swiftly, and yet also to delay,",
+          "lest [the deed] be too headlong, nor the delay too long.",
+          "Let this be shown to you by the dart joined with the echeneis [remora fish]:",
+          "the fish is slow, while the arrows, once loosed by hand, fly swiftly."
+        ]
+      }
+    ],
+    "greek": []
+  }
+}
