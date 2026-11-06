@@ -50,7 +50,7 @@ def match_book(book):
     mapping = {}
     unmatched = 0
     for it in entries.get("items", []):
-        if it.get("textOnly") or not it.get("img"):
+        if it.get("textOnly") or not (it.get("img") or book == "cartari"):
             continue
         span = page_span(it.get("page"))
         if not span:

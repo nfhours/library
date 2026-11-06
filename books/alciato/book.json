@@ -16,5 +16,6 @@
   "place": "Lyon",
   "idPrefix": "alc",
   "viewer": "figure",
-  "showOriginal": false
+  "showOriginal": false,
+  "pagesDir": "img/"
 }

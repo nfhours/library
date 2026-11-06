@@ -5,7 +5,7 @@
   books/cartari/pagemap.json  — для каждой главы список страниц 1626 года: [скан, метка, блок с, блок по]
                                 (границы те же, что у указателя: Chap.page_range из build_tavola.py, расширенные найденными в указателе местами; точность до абзаца);
   books/cartari/pages_it.json — читательский итальянский текст каждого скана (TEXT_reading.md);
-  books/cartari/scans/NNNN.jpg — уменьшенные сканы (_text/_img, 1072×1600) тех сканов, что входят в главы.
+  books/cartari/scans/NNNN.webp — уменьшенные сканы (_text/_img, 1072×1600) тех сканов, что входят в главы.
 
     python3 tools/build_pagemap.py [--no-copy]
 """
@@ -88,9 +88,10 @@ def main():
     if not a.no_copy:
         os.makedirs(os.path.join(B, "scans"), exist_ok=True)
         for s in sorted(used):
-            src, dst = os.path.join(B, "_text", "_img", "%04d.jpg" % s), os.path.join(B, "scans", "%04d.jpg" % s)
-            if not os.path.exists(dst) or os.path.getsize(dst) != os.path.getsize(src):
-                shutil.copyfile(src, dst)
+            src, dst = os.path.join(B, "_text", "_img", "%04d.jpg" % s), os.path.join(B, "scans", "%04d.webp" % s)
+            if not os.path.exists(dst):
+                from PIL import Image
+                Image.open(src).convert("RGB").save(dst, "WEBP", quality=82, method=4)
                 n += 1
     print("глав %d, страниц %d, скопировано сканов %d" % (len(out), len(used), n))
 

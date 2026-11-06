@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "98";
+  var APP_VER = "99";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -1058,7 +1058,7 @@
     var prev=s[i-1], next=s[i+1];
     var pos = it.part ? t("position",{part:it.part,page:it.page}) : t("positionPage",{page:it.page});
     var imgBase = BASE+"books/"+book.slug+"/img/";
-    var pagesBase = BASE+"books/"+book.slug+"/pages/";
+    var pagesBase = BASE+"books/"+book.slug+"/"+(book.meta.pagesDir || "pages/");
     // A cut engraving (books/<slug>/engravings/, matched to this article by
     // printed page) replaces the old page-scan figure when there is one:
     // the "_display.webp" file (real transparency: paper clear, line opaque)
@@ -1070,11 +1070,11 @@
     var imgs = eng
       ? '<figure class="ic-fig ic-fig-eng" data-src="'+esc(eng.display)+'"><img class="ic-fade-img ic-eng-display" loading="lazy" src="'+esc(eng.display)+'" alt="'+esc(t("engravingAlt",{title:titleOf(it)}))+'"></figure>'
       : (it.textOnly ? [] : (it.img||[])).map(function(src,k){
-          // Iconologie: рядом с каждым JPG лежит <имя>_display.webp (бумага прозрачна,
+          // Iconologie: рядом с каждой картинкой <имя>.webp лежит <имя>_display.webp (бумага прозрачна,
           // тушь почти чёрная, мягкий край запечён в файл, как у Картари); показываем его,
-          // по клику открывается исходный JPG.
-          if(book.slug==="iconologie" && /\.jpe?g$/i.test(src)){
-            var disp = imgBase+src.replace(/\.jpe?g$/i,"_display.webp");
+          // по клику открывается полная картинка (<имя>.webp).
+          if(book.slug==="iconologie" && /\.(jpe?g|webp)$/i.test(src)){
+            var disp = imgBase+src.replace(/\.(jpe?g|webp)$/i,"_display.webp");
             return '<figure class="ic-fig ic-fig-eng" data-src="'+esc(imgBase+src)+'"><img class="ic-fade-img ic-eng-display" loading="lazy" src="'+esc(disp)+'" alt="'+esc(t("engravingAlt",{title:titleOf(it)}))+'">'+
               (it.img.length>1?'<figcaption>'+t("figOf",{k:k+1,n:it.img.length})+'</figcaption>':"")+'</figure>';
           }
@@ -2029,7 +2029,7 @@
       ((hasScans||hasFr)?renderOriginal(it,book):"");
   }
   function bindObjectDetail(book, it, container){
-    var pagesBase = BASE+"books/"+book.slug+"/pages/";
+    var pagesBase = BASE+"books/"+book.slug+"/"+(book.meta.pagesDir || "pages/");
     var showOrig = book.meta.showOriginal !== false;
     if(showOrig && ((it.scans && it.scans.length) || (it.text_fr && it.text_fr.length))) bindOriginal(it, pagesBase, container);
   }
@@ -2357,9 +2357,9 @@
       stage.classList.remove("ic-sv-zoom");
       if(svMode === "scan"){
         var pad = ("000"+r[0]).slice(-4), im = document.createElement("img");
-        im.className = "ic-sv-img"; im.alt = ""; im.draggable = false; im.src = scansDir+pad+".jpg";
+        im.className = "ic-sv-img"; im.alt = ""; im.draggable = false; im.src = scansDir+pad+".webp";
         stage.innerHTML = ""; stage.appendChild(im); img = im;
-        [st.idx-1, st.idx+1].forEach(function(j){ if(rows[j]) (new Image()).src = scansDir+("000"+rows[j][0]).slice(-4)+".jpg"; });
+        [st.idx-1, st.idx+1].forEach(function(j){ if(rows[j]) (new Image()).src = scansDir+("000"+rows[j][0]).slice(-4)+".webp"; });
       } else {
         var key = String(r[0]), at = st.idx;
         stage.innerHTML = "";
