@@ -9,3 +9,6 @@
 | 1 | proemio | готова | 17 | 1 | 1 | Opus: блок 141 (Платон: зависть к владельцам), 122 (statue, а не прозвища), потерянные spesso/poi/saputo/loro; ошибки: ru блок 11, en блок 174 (две строки Клавдиана переставлены) |
 | 2 | saturno | готова | 20 | 1 | 1 | Opus: блок 2 (Вергилий, «a forza priuato»), блок 76; F5.1/F5.2-кальки; Stercutius→Sterculius по глоссарию |
 | 3 | apollo | готова | 31 | 1 | 0 | Opus: скан 0100 «non hauesse più fatto» (= никогда прежде не телилась), кальки fare+inf., «muid» по глоссарию; Topo = souris (в глоссарии «Rat» — исправить) |
+| 4 | diana | готова | 31 | 3 | 1 | Propertius блок 32 (отрицание); Prudence блок 100; «ò veramente» = ovvero; Topo=souris (глоссарий: Rat) |
+| 5 | giove | готова | 27 | 1 | 0 | Nume→numen; блок 52 (S'amor ti torne = пожелание); [?1],[?3] — опечатки оригинала |
+| 6 | giunone | готова | 38 | 0 | 1 | Nume→numen по глоссарию; блок 127 (Virginensis: невеста или жених?) — сомнение |
