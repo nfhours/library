@@ -12,3 +12,6 @@
 | 4 | diana | готова | 31 | 3 | 1 | Propertius блок 32 (отрицание); Prudence блок 100; «ò veramente» = ovvero; Topo=souris (глоссарий: Rat) |
 | 5 | giove | готова | 27 | 1 | 0 | Nume→numen; блок 52 (S'amor ti torne = пожелание); [?1],[?3] — опечатки оригинала |
 | 6 | giunone | готова | 38 | 0 | 1 | Nume→numen по глоссарию; блок 127 (Virginensis: невеста или жених?) — сомнение |
+| 7 | gran-madre | готова | 52 | 0 | 0 | Блок 128 (Меркурий-глашатай); 136, 149 — привязка; Festus Pompeius; teda=torche de pin |
+| 8 | nettuno | готова | 28 | 0 | 0 | Nume→numen; Scylla (блок 58); Festus Pompeius (глоссарий даёт Festus — согласовать); подпись Vertumnus b171 |
+| 9 | vertunno | готова | 5 | 1 | 0 | cocomeri=pastèques (ru «огурцы» — ошибка); falce=faucille; se l'aggreua = lui |
