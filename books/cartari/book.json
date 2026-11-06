@@ -22,6 +22,7 @@
   "chapters": {
     "data": "chapters_ru.json",
     "data_en": "chapters_en.json",
+    "data_fr": "chapters_fr.json",
     "links": "chapter_links.tsv",
     "plates": "plates.json",
     "pagemap": "pagemap.json",

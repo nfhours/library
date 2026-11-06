@@ -5,6 +5,8 @@
     --lang en                      chapters_en.json из _translation/en/*.md (только главы из _translation/en/READY,
                                    по одному слагу в строке); структура блоков обязана совпадать с русской
     --lang en --check proemio ...  только сверка структуры английского файла с русским (печатает OK или различия)
+    --lang fr                      chapters_fr.json из _translation/fr/*.md (только главы из _translation/fr/READY), как en
+    --lang fr --check proemio ...  сверка структуры французского файла с русским
 
     python3 tools/build_chapters.py                 # только diana (по умолчанию)
     python3 tools/build_chapters.py diana giove     # перечисленные главы
@@ -60,7 +62,7 @@ QM_MARK = re.compile(r"\[\?(\d+)\]")
 QM_TAG = re.compile(r"^\[\?(\d+(?:\s*,\s*\d+)*)\]\s*")
 
 
-DOUBT = {"ru": "## Сомнительные места", "en": "## Doubtful passages"}
+DOUBT = {"ru": "## Сомнительные места", "en": "## Doubtful passages", "fr": "## Passages douteux"}
 
 
 def doubt_items(lines, lang="ru"):
@@ -83,7 +85,7 @@ def doubt_items(lines, lang="ru"):
         if not tag:
             continue
         full = full[tag.end():]
-        shown = re.split(r"\s*\*\*(?:Опечатки|Typos)", full)[0]
+        shown = re.split(r"\s*\*\*(?:Опечатки|Typos|Fautes d'impression|Coquilles)", full)[0]
         shown = re.sub(r"^(?:Скан|Scan) \d+[^:]*:\s*", "", shown)
         shown = re.sub(r"\s*\((?:скан|сканы|scan|scans) [^)]*\)", "", shown)
         if len(shown) > QM_MAX:
@@ -131,7 +133,7 @@ def attach_qm(blocks, items):
     return len(seen)
 
 
-def parse_chapter(path, slug=None, lang="ru"):
+def parse_chapter(path, slug=None, lang="ru", ref=None):
     lines = open(path, encoding="utf-8").read().split("\n")
     title = lines[0].lstrip("# ").strip()
     sep = lines.index("---")
@@ -183,7 +185,8 @@ def parse_chapter(path, slug=None, lang="ru"):
                 grp.pop()
                 while grp and not grp[-1].strip():
                     grp.pop()
-            if (author is None and len(grp) == 1
+            ref_quote = bool(ref) and len(blocks) < len(ref) and ref[len(blocks)]["t"] == "quote"
+            if (author is None and len(grp) == 1 and not ref_quote
                     and not any(grp[0].startswith(x) for x in NOT_CAP.get(slug, []))):
                 blocks.append({"t": "cap", "text": grp[0].strip(), "l": start + 1})
             else:
@@ -225,6 +228,23 @@ TITLES_EN = {
 }
 
 
+TITLES_FR = {
+    "frontespizio-dedica": "Page de titre et dédicace de l'éditeur",
+    "prefatione": "Préface au lecteur",
+    "catalogo-dei": "Catalogue des cent dieux les plus connus des Anciens",
+    "catalogo-autori": "Catalogue des auteurs",
+    "proemio": "Images des dieux des Anciens (introduction)",
+    "saturno": "Saturne", "apollo": "Apollon, Phébus — le Soleil", "diana": "Diane", "giove": "Jupiter",
+    "giunone": "Junon", "gran-madre": "La Grande Mère", "nettuno": "Neptune", "vertunno": "Vertumne",
+    "plutone": "Pluton", "mercurio": "Mercure", "minerva": "Minerve", "bacco": "Bacchus",
+    "fortuna": "La Fortune", "cupido": "Cupidon", "venere": "Vénus", "gratie": "Les Grâces",
+    "annotationi-pignoria": "Annotations de Lorenzo Pignoria",
+    "aggionta": "Addition de Lorenzo Pignoria",
+    "seconda-parte-titolo-dedica": "Second titre de la Seconde Partie et dédicace de l'éditeur",
+    "seconda-parte-indiani": "Seconde Partie des Images des dieux des Indiens",
+}
+
+
 def sig(blocks):
     """Структурная подпись главы: типы блоков, число строк цитат, наличие автора, число пометок [?]."""
     out = []
@@ -238,17 +258,17 @@ def sig(blocks):
     return out
 
 
-def structure_diff(src_ru, src_en, slug):
+def structure_diff(src_ru, src_en, slug, lang="en"):
     r = parse_chapter(os.path.join(src_ru, slug + ".md"), slug, "ru")["blocks"]
-    e = parse_chapter(os.path.join(src_en, slug + ".md"), slug, "en")["blocks"]
+    e = parse_chapter(os.path.join(src_en, slug + ".md"), slug, lang, ref=r)["blocks"]
     sr, se = sig(r), sig(e)
     diffs = []
     if len(sr) != len(se):
-        diffs.append("число блоков: ru %d, en %d" % (len(sr), len(se)))
+        diffs.append("число блоков: ru %d, %s %d" % (len(sr), lang, len(se)))
     for i, (x, y) in enumerate(zip(sr, se), 1):
         if x != y:
-            diffs.append("блок %d: ru %s, en %s | ru: %s | en: %s" % (
-                i, x, y, (r[i-1].get("text") or " / ".join(r[i-1]["lines"]))[:50],
+            diffs.append("блок %d: ru %s, %s %s | ru: %s | %s: %s" % (
+                i, x, lang, y, (r[i-1].get("text") or " / ".join(r[i-1]["lines"]))[:50], lang,
                 (e[i-1].get("text") or " / ".join(e[i-1]["lines"]))[:50]))
             if len(diffs) >= 12:
                 break
@@ -261,7 +281,7 @@ def main():
     ap.add_argument("--all", action="store_true")
     ap.add_argument("--out")
     ap.add_argument("--book", default=BOOK)
-    ap.add_argument("--lang", default="ru", choices=["ru", "en"])
+    ap.add_argument("--lang", default="ru", choices=["ru", "en", "fr"])
     ap.add_argument("--check", action="store_true", help="только сверка структуры en с ru")
     a = ap.parse_args()
     lang = a.lang
@@ -269,18 +289,18 @@ def main():
     src_ru = os.path.join(bdir, "_translation", "ru")
     src = os.path.join(bdir, "_translation", lang)
     if a.check:
-        if lang != "en":
-            sys.exit("--check только с --lang en")
+        if lang == "ru":
+            sys.exit("--check только с --lang en или fr")
         bad = 0
         for w in a.chapters:
-            d = structure_diff(src_ru, src, w)
+            d = structure_diff(src_ru, src, w, lang)
             print("%s: %s" % (w, "OK" if not d else "РАСХОЖДЕНИЯ"))
             for x in d:
                 print("  " + x)
             bad += bool(d)
         sys.exit(1 if bad else 0)
     ready = None
-    if lang == "en":
+    if lang != "ru":
         rp = os.path.join(src, "READY")
         ready = [x.strip() for x in open(rp, encoding="utf-8")] if os.path.exists(rp) else []
         ready = [x for x in ready if x and not x.startswith("#")]
@@ -297,14 +317,14 @@ def main():
 
     chapters = []
     for slug in ORDER:
-        if lang == "en":
+        if lang != "ru":
             ru_info = parse_chapter(os.path.join(src_ru, slug + ".md"), slug, "ru")
-            rec = {"slug": slug, "title": TITLES_EN[slug], "scans": ru_info["scans"]}
+            rec = {"slug": slug, "title": (TITLES_EN if lang == "en" else TITLES_FR)[slug], "scans": ru_info["scans"]}
             if slug in want:
-                d = structure_diff(src_ru, src, slug)
+                d = structure_diff(src_ru, src, slug, lang)
                 if d:
-                    sys.exit("%s: структура en не совпадает с ru:\n  %s" % (slug, "\n  ".join(d)))
-                info = parse_chapter(os.path.join(src, slug + ".md"), slug, "en")
+                    sys.exit("%s: структура %s не совпадает с ru:\n  %s" % (slug, lang, "\n  ".join(d)))
+                info = parse_chapter(os.path.join(src, slug + ".md"), slug, lang, ref=ru_info["blocks"])
                 rec["title"] = info["title"] if slug not in RICH else rec["title"]
         else:
             info = parse_chapter(os.path.join(src, slug + ".md"), slug, lang)
@@ -313,7 +333,7 @@ def main():
             by_n = {b["n"]: b for b in info["blocks"]}
             for pl in plates:
                 cf = pl.get("cap_from")
-                if cf and cf["chapter"] == slug and pl["chapter"] != slug:
+                if cf and cf["chapter"] == slug and pl["chapter"] != slug and (lang == "ru" or pl["chapter"] in want):
                     by_n[cf["block"]]["mv"] = pl["id"]
                 if pl["chapter"] != slug:
                     continue
@@ -328,8 +348,15 @@ def main():
                 else:
                     fig = {"eng": e["display"], "w": e["width"], "h": e["height"], "pid": pl["id"], "pt": pl["title"]}
                     if cf:
-                        cinfo = info if cf["chapter"] == slug else parse_chapter(os.path.join(src, cf["chapter"] + ".md"), cf["chapter"], lang)
-                        fig["cap"] = next(x["text"] for x in cinfo["blocks"] if x["n"] == cf["block"])
+                        cpath = os.path.join(src, cf["chapter"] + ".md")
+                        if cf["chapter"] == slug:
+                            cinfo = info
+                        elif cf["chapter"] in want or lang == "ru":
+                            cinfo = parse_chapter(cpath, cf["chapter"], lang, ref=parse_chapter(os.path.join(src_ru, cf["chapter"] + ".md"), cf["chapter"], "ru")["blocks"] if lang != "ru" else None)
+                        else:
+                            cinfo = None
+                        if cinfo:
+                            fig["cap"] = next(x["text"] for x in cinfo["blocks"] if x["n"] == cf["block"])
                     b.setdefault("figs", []).append(fig)
             for b in info["blocks"]:
                 if b["t"] == "cap" and "eng" not in b and "mv" not in b:

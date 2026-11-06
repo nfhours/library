@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "111";
+  var APP_VER = "112";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -116,6 +116,9 @@
     chRuOnly:     {ru:"", en:"The chapter text is available in Russian only.", fr:"Le texte du chapitre n'existe qu'en russe."},
     chEnPrep:     {ru:"Английский перевод готовится. Ниже — итальянский текст издания 1626 года.", en:"English translation in preparation. Below is the Italian text of the 1626 edition.", fr:"Traduction anglaise en préparation. Ci-dessous : le texte italien de l'édition de 1626."},
     chEnSoon:     {ru:"Английский перевод готовится.", en:"English translation in preparation.", fr:"Traduction anglaise en préparation."},
+    chFrPrep:     {ru:"Французский перевод готовится. Ниже — итальянский текст издания 1626 года.", en:"French translation in preparation. Below is the Italian text of the 1626 edition.", fr:"Traduction française en préparation. Ci-dessous : le texte italien de l'édition de 1626."},
+    chFrSoon:     {ru:"Французский перевод готовится.", en:"French translation in preparation.", fr:"Traduction française en préparation."},
+    chFrPartial:  {ru:"Главы, ещё не переведённые на французский, показаны с итальянским текстом.", en:"Chapters not yet translated into French are shown with the Italian text.", fr:"Les chapitres pas encore traduits en français sont présentés avec le texte italien."},
     chNotYet:     {ru:"Перевод этой главы ещё не добавлен на сайт.", en:"This chapter has not been added to the site yet.", fr:"Ce chapitre n'a pas encore été ajouté au site."},
     chNext:       {ru:"Следующая глава", en:"Next chapter", fr:"Chapitre suivant"},
     chPrev:       {ru:"Предыдущая глава", en:"Previous chapter", fr:"Chapitre précédent"},
@@ -1178,7 +1181,8 @@
   function loadChapters(book, cb){
     var cfg = book.meta.chapters;
     if(!cfg){ cb(null); return; }
-    if(book.chap && state.lang==="en" && cfg.data_en && !book.chap.enDone){ loadChaptersEn(book, cb); return; }
+    var tl = trLang(book);
+    if(book.chap && tl && !(book.chap.trDone && book.chap.trDone[tl])){ loadChaptersTr(book, tl, cb); return; }
     if(book.chap !== undefined){ cb(book.chap); return; }
     var base = BASE+"books/"+book.slug+"/";
     Promise.all([
@@ -1197,20 +1201,25 @@
       var pls = (res[2] && res[2].plates) || [], byId = {}, byOld = {};
       pls.forEach(function(p){ byId[p.id] = p; (p.old_ids||[]).forEach(function(o){ byOld[o] = p.id; }); });
       book.chap = {list:list, bySlug:bySlug, links:links, pl:{list:pls, byId:byId, byOld:byOld}, pm:(res[3] && res[3].chapters) || {}};
-      if(state.lang==="en" && cfg.data_en) loadChaptersEn(book, cb); else cb(book.chap);
+      if(tl) loadChaptersTr(book, tl, cb); else cb(book.chap);
     }).catch(function(){ book.chap = null; cb(null); });
   }
-  // Английский перевод (chapters_en.json): блоки совпадают с русскими по номерам. Готовые главы — c.en = {title, blocks}.
-  function loadChaptersEn(book, cb){
+  // Переводы (chapters_en.json, chapters_fr.json): блоки совпадают с русскими по номерам. Готовые главы — c.en / c.fr = {title, blocks}.
+  function trLang(book){
+    var cfg = book.meta.chapters;
+    return cfg && (state.lang==="en" || state.lang==="fr") && cfg["data_"+state.lang] ? state.lang : "";
+  }
+  function loadChaptersTr(book, lang, cb){
     var cfg = book.meta.chapters, chap = book.chap;
-    fetch(BASE+"books/"+book.slug+"/"+cfg.data_en,{cache:"no-cache"}).then(function(r){ if(!r.ok) throw 0; return r.json(); })
+    function done(){ (chap.trDone = chap.trDone || {})[lang] = true; cb(chap); }
+    fetch(BASE+"books/"+book.slug+"/"+cfg["data_"+lang],{cache:"no-cache"}).then(function(r){ if(!r.ok) throw 0; return r.json(); })
       .then(function(d){
         (d.chapters || []).forEach(function(e){
           var c = chap.bySlug[e.slug];
-          if(c){ c.title_en = e.title; c.en = e.blocks ? e : null; }
+          if(c){ c["title_"+lang] = e.title; c[lang] = e.blocks ? e : null; }
         });
-        chap.enDone = true; cb(chap);
-      }).catch(function(){ chap.enDone = true; cb(chap); });
+        done();
+      }).catch(done);
   }
   // *курсив* из исходного md; остальной текст экранируется
   function inl(s, qs){
@@ -1314,7 +1323,6 @@
     return '<p'+n+'>'+inl(b.text, qs)+'</p>';
   }
 
-  function cfg_en(book){ return book.meta.chapters && book.meta.chapters.data_en; }
   function renderChapter(book, slug, blockN, pageSpec){
     var gen = renderGen;
     loadChapters(book, function(chap){
@@ -1344,10 +1352,10 @@
           return '<div class="ic-pgm" style="--k:'+k+'"><button type="button" class="ic-pgm-b" data-pi="'+i+'" aria-pressed="false" aria-label="'+esc(t("svOpen",{p:pmRows[i][1]}))+'">'+esc(lb)+'</button></div>';
         }).join("");
       }
-      var enMode = state.lang==="en" && !!cfg_en(book), blocks = ch && (enMode ? (ch.en && ch.en.blocks) : ch.blocks);
+      var trl = trLang(book), enMode = !!trl, blocks = ch && (enMode ? (ch[trl] && ch[trl].blocks) : ch.blocks);
       var enPrep = enMode && ch && !blocks && chap.pm[slug] && chap.pm[slug].length;
       var body = blocks
-        ? '<div class="ic-text ic-ch-body" lang="'+(enMode ? "en" : "ru")+'">'+blocks.map(function(b){ return pgmHtml(b)+figsHtml(book, b)+blockHtml(book, b, slug); }).join("")+'</div>'
+        ? '<div class="ic-text ic-ch-body" lang="'+(enMode ? trl : "ru")+'">'+blocks.map(function(b){ return pgmHtml(b)+figsHtml(book, b)+blockHtml(book, b, slug); }).join("")+'</div>'
         : enPrep ? '<div class="ic-text ic-ch-body ic-ch-itbody"></div>'
         : '<p class="ic-sub">'+esc(t("chNotYet"))+'</p>';
       root.innerHTML =
@@ -1362,7 +1370,7 @@
             '<h1 class="ic-h-fr">'+esc(ch ? chapTitle(ch) : "")+'</h1>'+
           '</header>'+
           toc+
-          (enMode ? (enPrep ? '<p class="ic-ch-note">'+esc(t("chEnPrep"))+'</p>' : "") : (state.lang!=="ru" && ch && ch.blocks ? '<p class="ic-ch-note">'+esc(t("chRuOnly"))+'</p>' : ""))+
+          (enMode ? (enPrep ? '<p class="ic-ch-note">'+esc(t(trl==="fr" ? "chFrPrep" : "chEnPrep"))+'</p>' : "") : (state.lang!=="ru" && ch && ch.blocks ? '<p class="ic-ch-note">'+esc(t("chRuOnly"))+'</p>' : ""))+
           body+
           (ch ? '<div class="ic-pager">'+pagerBtn(prev,t("chPrev"))+pagerBtn(next,t("chNext"))+'</div>' : "")+
         '</div>';
@@ -1688,7 +1696,7 @@
     var gal = pls.length ? '<h2 class="ic-nm-h">'+esc(t("nmPlates"))+'</h2><ul class="ic-gal">'+pls.map(function(g){
       return '<li><a class="ic-gal-item" href="'+esc(hrefFor(book, "plate/"+g.id))+'">'+
         '<span class="ic-gal-img"><img loading="lazy" src="'+esc(engBase+"thumb/"+g.file+"_t.webp")+'" alt=""></span>'+
-        '<span class="ic-gal-cap">'+esc(g.title)+'</span></a></li>';
+        '<span class="ic-gal-cap">'+esc(plTitle(chap, g))+'</span></a></li>';
     }).join("")+'</ul>' : "";
     var ments = order.map(function(ci){
       var slug = d.chapters[ci], ch = chap && chap.bySlug[slug];
@@ -1725,11 +1733,11 @@
   }
 
   /* ---------- содержание книги по частям (book.json chapters.parts) ---------- */
-  function chapTitle(c){ return (state.lang==="en" && c.title_en ? c.title_en : c.title).replace(/\s*\(вступление\)$/,""); }
+  function chapTitle(c){ return ((state.lang==="en" || state.lang==="fr") && c["title_"+state.lang] ? c["title_"+state.lang] : c.title).replace(/\s*\(вступление\)$/,""); }
   function tocPartsHtml(book, chap, curSlug){
     var parts = (book.meta.chapters && book.meta.chapters.parts) || [], used = {};
     function link(c){
-      return '<li><a href="'+esc(chapterHref(book, c.slug))+'"'+(c.slug===curSlug?' aria-current="page"':"")+((state.lang==="en" ? c.en : c.blocks)?"":' class="ic-ch-off"')+'>'+esc(chapTitle(c))+'</a></li>';
+      return '<li><a href="'+esc(chapterHref(book, c.slug))+'"'+(c.slug===curSlug?' aria-current="page"':"")+((trLang(book) ? c[trLang(book)] : c.blocks)?"":' class="ic-ch-off"')+'>'+esc(chapTitle(c))+'</a></li>';
     }
     function extra(x){ return '<li><a href="'+esc(hrefFor(book, x.to))+'">'+esc(bt(x.title))+'</a></li>'; }
     var groups = parts.map(function(pt){
@@ -1806,6 +1814,7 @@
   // Сетка и карточки гравюр читают только plates.json (chap.pl); файлы — books/<источник>/engravings/<file>_display.webp
   function engBaseOf(book){ return BASE+"books/"+(book.engravings ? book.engravings.srcSlug : (book.meta.ornaments && book.meta.ornaments.source || book.slug))+"/engravings/"; }
   function galleryEntries(chap){ return chap && chap.pl ? chap.pl.list : []; }
+  function plTitle(chap, p){ return state.lang==="fr" && chap && chap.pl ? t("plateTitle",{n:chap.pl.list.indexOf(p)+1}) : p.title; }
   function homeTile(href, title, sub, on){
     return '<a class="ic-home-tile" href="'+esc(href)+'"'+(on?' aria-current="page"':"")+'><span class="ic-home-tile-t">'+esc(title)+'</span><span class="ic-home-tile-s">'+esc(sub)+'</span></a>';
   }
@@ -2031,14 +2040,14 @@
       var galCount = galleryEntries(chap).length;
       var panel;
       if(tab==="read"){
-        panel = (state.lang!=="ru" ? '<p class="ic-ch-note">'+esc(t("chRuOnly"))+'</p>' : "")+
+        panel = (state.lang==="fr" && chap && trLang(book) ? '<p class="ic-ch-note">'+esc(t("chFrPartial"))+'</p>' : state.lang!=="ru" ? '<p class="ic-ch-note">'+esc(t("chRuOnly"))+'</p>' : "")+
           (chap ? '<div class="ic-home-toc">'+tocPartsHtml(book, chap, null)+'</div>' : '<p class="ic-empty">'+esc(t("chNotYet"))+'</p>');
       } else if(tab==="gallery"){
         panel = '<ul class="ic-gal">'+gal.map(function(g){
           var thumb = engBase+"thumb/"+g.file+"_t.webp";
           return '<li><a class="ic-gal-item" href="'+esc(hrefFor(book, "plate/"+g.id))+'" data-id="'+esc(g.id)+'">'+
             '<span class="ic-gal-img"><img loading="lazy" src="'+esc(thumb)+'" alt=""></span>'+
-            '<span class="ic-gal-cap">'+esc(g.title)+'</span></a></li>';
+            '<span class="ic-gal-cap">'+esc(plTitle(chap, g))+'</span></a></li>';
         }).join("")+'</ul>';
       } else {
         panel = '<form class="ic-home-search" role="search">'+
@@ -2111,7 +2120,7 @@
   }
   // Абзацы перевода, на которые plates.json ссылается как на объяснение гравюры
   function explHtml(chap, e){
-    var ch = chap.bySlug[e.chapter], bl = state.lang==="en" ? (ch && ch.en && ch.en.blocks) : (ch && ch.blocks), b = bl && bl[e.block-1];
+    var ch = chap.bySlug[e.chapter], bl = state.lang!=="ru" && ch && ch[state.lang] !== undefined ? (ch[state.lang] && ch[state.lang].blocks) : (ch && ch.blocks), b = bl && bl[e.block-1];
     if(!b) return "";
     if(b.t==="quote") return quoteHtml(b);
     var h = inl(b.text, qmState(b));
@@ -2156,16 +2165,16 @@
       function navLink(n, dir){
         if(!n) return '<span class="ic-pc-step ic-pc-'+dir+' ic-pc-off" aria-hidden="true"></span>';
         return '<a class="ic-pc-step ic-pc-'+dir+'" rel="'+dir+'" href="'+esc(hrefFor(book,"plate/"+n.id))+'" aria-label="'+esc(t(dir==="prev"?"plPrev":"plNext"))+'">'+
-          '<span class="ic-pc-arrow" aria-hidden="true">'+(dir==="prev"?"←":"→")+'</span><span class="ic-pc-step-t">'+esc(n.title)+'</span></a>';
+          '<span class="ic-pc-arrow" aria-hidden="true">'+(dir==="prev"?"←":"→")+'</span><span class="ic-pc-step-t">'+esc(plTitle(chap, n))+'</span></a>';
       }
       var meta = [];
       if(ch) meta.push('<span>'+esc(chapTitle(ch))+'</span>');
       var pg = platePageStr(p.page); if(pg) meta.push('<span>'+esc(pg)+' · '+esc(t("plEdition"))+'</span>');
-      var enP = state.lang==="en" && !!cfg_en(book);
-      var enCapB = enP && (p.at==="cap" || cf) && cch && cch.en && cch.en.blocks[(cf ? cf.block : p.block)-1];
+      var trl = trLang(book), enP = !!trl;
+      var enCapB = enP && (p.at==="cap" || cf) && cch && cch[trl] && cch[trl].blocks[(cf ? cf.block : p.block)-1];
       var explParas = p.expl.map(function(e){ return explHtml(chap, e); }).join("");
       var explBlock = '<section class="ic-pc-expl" aria-labelledby="ic-pc-expl-h"><h2 id="ic-pc-expl-h" class="ic-pc-expl-h">'+esc(t("plExplH"))+'</h2>'+
-        (enP ? (explParas ? '<div class="ic-text ic-pc-expl-body" lang="en">'+explParas+'</div>' : '<p class="ic-ch-note">'+esc(t("chEnSoon"))+'</p>')
+        (enP ? (explParas ? '<div class="ic-text ic-pc-expl-body" lang="'+trl+'">'+explParas+'</div>' : '<p class="ic-ch-note">'+esc(t(trl==="fr" ? "chFrSoon" : "chEnSoon"))+'</p>')
           : state.lang!=="ru" ? '<p class="ic-ch-note">'+esc(t("chRuOnly"))+'</p>' : explParas ? '<div class="ic-text ic-pc-expl-body" lang="ru">'+explParas+'</div>' : '<p class="ic-pc-none">'+esc(t("plNoExpl"))+'</p>')+
         '</section>';
       root.innerHTML =
@@ -2176,8 +2185,8 @@
               (p.w && p.h ? ' width="'+p.w+'" height="'+p.h+'"' : "")+' alt="'+esc(t("engravingAlt",{title:p.title}))+'"></div></figure>'+
             '<div class="ic-pc-body">'+
               '<p class="ic-pc-count">'+esc(t("plCount",{k:idx+1, n:gal.length}))+'</p>'+
-              '<h1 class="ic-pc-title">'+esc(enCapB ? t("plateTitle",{n:idx+1}) : p.title)+'</h1>'+
-              (enCapB ? '<p class="ic-pc-ru" lang="en">'+inl(enCapB.text, qmState(enCapB))+'</p>' : p.ru_caption ? '<p class="ic-pc-ru" lang="ru">'+inl(p.ru_caption, capB ? qmState(capB) : null)+'</p>' : "")+
+              '<h1 class="ic-pc-title">'+esc(enCapB || trl==="fr" ? t("plateTitle",{n:idx+1}) : p.title)+'</h1>'+
+              (enCapB ? '<p class="ic-pc-ru" lang="'+trl+'">'+inl(enCapB.text, qmState(enCapB))+'</p>' : trl==="fr" ? "" : p.ru_caption ? '<p class="ic-pc-ru" lang="ru">'+inl(p.ru_caption, capB ? qmState(capB) : null)+'</p>' : "")+
               (p.it_caption ? '<p class="ic-pc-it" lang="it">'+esc(p.it_caption)+'</p>' : "")+
               (meta.length ? '<p class="ic-pc-meta">'+meta.join('<span class="ic-pc-sep" aria-hidden="true"> · </span>')+'</p>' : "")+
               explBlock+
