@@ -131,11 +131,11 @@ Her, as the same Tacitus writes, some other peoples of Germania likewise worship
 I remember having seen on an ancient medal of Faustina the image of the Great Mother, which agrees well with what I drew and explained above; for it is a woman with her head encircled with towers; she sits, and rests with her right arm on the seat, and with her left hand holds a shield set upon her knee, and at each side she has a lion.
 
 <aside>Cybele</aside>
-<aside>Diodorus. Festus Pompeius. Cube</aside>
+<aside>Diodorus. Pompeius Festus. Cube</aside>
 
 This goddess was then called Cybele from a certain mountain in Phrygia, of which Diodorus Siculus speaks. There was, he says, in ancient times in Phrygia a king named Meon, who had as wife one called Dindyme. A girl having been born to them, and the mother not wishing to rear her, she laid her on Mount Cybele, where she was nourished with the milk of wild beasts. But a young woman who was pasturing a flock thereabouts having come there, and seeing the girl, took her up all amazed, and carried her with her, naming her with the name of the mountain, and so reared her until, grown up, she turned out to be of singular beauty and marvellous intelligence.
 
-For she not only was the first to find the pipe made of reeds joined together, and the cymbal, but also various remedies for the diseases of flocks and of children, for which she deservedly earned the name of Mother. So says Diodorus; but we, with Festus Pompeius, shall say that she was so called from a certain geometrical figure made exactly like a die, called the Cube, which was also consecrated to her by the ancients, to show the steadiness of the Earth; for let a die be thrown, it always comes to rest, on whatever side it may fall.
+For she not only was the first to find the pipe made of reeds joined together, and the cymbal, but also various remedies for the diseases of flocks and of children, for which she deservedly earned the name of Mother. So says Diodorus; but we, with Pompeius Festus, shall say that she was so called from a certain geometrical figure made exactly like a die, called the Cube, which was also consecrated to her by the ancients, to show the steadiness of the Earth; for let a die be thrown, it always comes to rest, on whatever side it may fall.
 
 <aside>Lucretius</aside>
 

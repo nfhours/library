@@ -109,7 +109,7 @@ Of these one was black and the other white, says Boccaccio, because the Moon app
 
 <aside>Mule at the chariot of the Moon</aside>
 
-Festus writes that a mule drew the chariot of the Moon, and that the reason for this was that she is barren in herself, being cold by her nature, and the mule likewise does not generate. Or else the ancients wished to show by this animal that the Moon has no light of her own but shines with another's light, as if the Sun lent it to her; just as the mule is not born of animals of its own kind but of others, which are asses and mares.
+Pompeius Festus writes that a mule drew the chariot of the Moon, and that the reason for this was that she is barren in herself, being cold by her nature, and the mule likewise does not generate. Or else the ancients wished to show by this animal that the Moon has no light of her own but shines with another's light, as if the Sun lent it to her; just as the mule is not born of animals of its own kind but of others, which are asses and mares.
 
 <aside>Pausanias</aside>
 
@@ -261,7 +261,7 @@ And Prudentius, writing of the vanity of the Gentiles defended by Symmachus, say
 >
 > *(Prudentius)*
 
-It follows then that the truth is that this is a wicked demon, who deceives mortals, persuading them that in three different places there are many different gods: in Heaven, on earth and in the underworld.
+He then goes on to say that the truth is that this is a wicked demon, who deceives mortals, persuading them that in three different places there are many different gods: in Heaven, on earth and in the underworld.
 
 <aside>Theodoret</aside>
 
@@ -284,7 +284,7 @@ Or perhaps it was also because the fables say that she was changed once into thi
 <aside>Servius and Macrobius</aside>
 <aside>Nature</aside>
 
-Others have said that she is the earth, as the same Servius reports, and Macrobius also, or indeed the Nature of things, which is subject to the Sun; and hence it comes that they made the body of this goddess all full and laden with breasts, as if the universe takes nourishment from the earth, or from the hidden power of Nature, because Nature too was represented by the ancients with this image.
+Others have said that she is the earth, as the same Servius reports, and Macrobius also, or else the Nature of things, which is subject to the Sun; and hence it comes that they made the body of this goddess all full and laden with breasts, as if the universe takes nourishment from the earth, or from the hidden power of Nature, because Nature too was represented by the ancients with this image.
 
 > Image of the goddess Nature, all full of breasts, to show that the universe takes nourishment from her hidden power.
 

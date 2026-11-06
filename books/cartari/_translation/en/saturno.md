@@ -172,7 +172,7 @@ I do find that a temple was built for her on the Caelian Hill in Rome by that Br
 
 They had also the god Forculus, to whom were entrusted the doors, which, turning upon the hinges, open and shut (called by the Latins *fores*), and Limentinus, god of the threshold (*limitare*), or *soglia*, as we say, of the door. Whence St Augustine, mocking them, says that a single doorkeeper, one man alone, does all that they have three gods do together, namely the goddess Cardea, Forculus and Limentinus.
 
-Now I return to Janus, that is, to the Sun, who not only opens in the morning and shuts in the evening the day, as I said, but does the same through the whole year as well; for he opens it when in spring he makes the earth begin to produce herbs and flowers, and, all joyful, spread wide her ample bosom; and shuts it again in winter, when she, deprived of all her adornment, contracts into herself, and stands covered with snow and ice.
+Now I return to Janus, that is, to the Sun, who not only opens in the morning and shuts in the evening the day, as I said, but does the same with the whole year as well; for he opens it when in spring he makes the earth begin to produce herbs and flowers, and, all joyful, spread wide her ample bosom; and shuts it again in winter, when she, deprived of all her adornment, contracts into herself, and stands covered with snow and ice.
 
 <aside>Faces of Janus, what they signify</aside>
 <aside>Bede</aside>

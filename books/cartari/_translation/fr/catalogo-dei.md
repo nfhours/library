@@ -43,7 +43,7 @@ Rules: books/cartari/_translation/fr/RULES.md
 
 17 Glaucos, dieu marin d'aspect majestueux, le premier des dieux marins après Neptune.
 
-18 Téthys, déesse marine, la plus belle de toutes les déesses après Vénus, et la première des dieux marins après Neptune, Amphitrite et Glaucos.
+18 Thétis, déesse marine, la plus belle de toutes les déesses après Vénus, et la première des dieux marins après Neptune, Amphitrite et Glaucos.
 
 19 Portunus, appelé aussi Palémon, dieu des ports et du retour sain et sauf des navigateurs chez eux.
 
@@ -218,10 +218,10 @@ Ces neuf Muses, avec Apollon leur maître, sont dites patronnes et inventrices d
 - [?1] Dans le livre, le mot « Dio » semble omis devant « della Fede » ; rendu avec ce mot : « dieu de la foi ».
 - [?2] Coquille dans le livre : *fanno* (« font ») est imprimé, mais le sens demande *sanno* (« savent ») ; rendu « savent ».
 - « Dea della gola » (n° 90) : *gola* est ici la « gorge », non la gourmandise : dans le chapitre sur Angerona, elle délivra Rome d'un mal de gorge (*angine*), et la légende de sa gravure la dit déesse « sopra il male della gola » ; rendu « déesse de la gorge ».
-- « Apolline » (n° 9, 75 et phrase finale) : ancienne forme du nom d'Apollon ; rendu « Apollon » (la forme « Apolline » du glossaire se lit en français comme un prénom féminin).
+- « Apolline » (n° 9, 75 et phrase finale) : ancienne forme du nom d'Apollon ; rendu « Apollon » (la forme « Apolline » se lit en français comme un prénom féminin).
 - « Pluto fanciullo » (n° 32) : Ploutos, dieu des richesses, et non Pluton, comme l'indique « fanciullo » (« enfant ») ; « Ploutos » d'après le glossaire.
 - « Agalia » (n° 83) : forme altérée du nom d'Aglaé (Aglaia) ; rendu « Aglaé ». « Leucasia » (n° 87) : *Leucosia*, rendu « Leucosie » d'après le glossaire. « Tersicore » (n° 96) : rendu « Terpsichore » d'après le glossaire.
-- « Tethide » (n° 18) : variante de *Thetide* ; rendu « Téthys » d'après le glossaire.
+- « Tethide » (n° 18) : variante de *Thetide* ; la plus belle déesse marine après Vénus est la Néréide Thétis, mère d'Achille (et non Téthys, épouse d'Océan) ; rendu « Thétis » d'après le glossaire.
 - « Cesare Malfatto » (titre, scan 0017) : sur la page de titre (scan 0007), il est « Malfatti » ; imprimé ici « Malfatto », rendu « Malfatti » d'après le glossaire.
 - « Matuta ouero Aurora, Dea dell'Alba, & dell'Albore » (n° 13) : *Albore* est la première clarté de l'aube ; rendu « de l'aube et de la clarté naissante ».
 - « crinite » (n° 43) : « Dee crinite » signifie « à la longue chevelure » (des Furies aux cheveux de serpents) ; rendu « chevelues ».

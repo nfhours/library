@@ -31,7 +31,7 @@ Claudiano	Клавдиан	Claudian	Claudien	автор стихотворных
 Ouidio	Овидий	Ovid	Ovide
 Propertio	Проперций	Propertius	Properce
 Boccaccio	Боккаччо	Boccaccio	Boccace
-Festo Pompeio	Фест Помпей	Festus	Festus	далее в тексте — просто "Festo"
+Festo, Festo Pompeo, Festo Pompeio	Фест, Помпей Фест	Festus, Pompeius Festus	Festus, Pompeius Festus	грамматик Секст Помпей Фест (Sextus Pompeius Festus), сократитель Веррия Флакка; одна запись: где у Картари полное имя «Festo Pompeo/Pompeio» — «Помпей Фест» (Помпея Феста, Помпеем Фестом) / Pompeius Festus / Pompeius Festus (Аполлон, Диана, Юнона, Великая Мать, Нептун, Аннотации Иньории); где просто «Festo» — «Фест» / Festus / Festus
 Ausonio Gallo	Авсоний	Ausonius	Ausone	у Картари «Ausonio Gallo»; в тексте переведено «галльский поэт Авсоний», в подписи цитаты — «Авсоний», на поле — «Авсоний Галльский»
 Paolino	Павлин	Paulinus	Paulin	адресат послания Авсония (Павлин Ноланский)
 Pausania	Павсаний	Pausanias	Pausanias
@@ -452,8 +452,8 @@ Cariddi	Харибда	Charybdis	Charybde
 Caridi	Харибда	Charybdis	Charybde	написание маргиналии скана 0252
 Circe	Цирцея	Circe	Circé	
 Nereide	Нереиды	Nereids	Néréides	морские Нимфы, дочери Нерея
-Thetide	Тетида	Tethys	Téthys	жена Океана; единая форма для Tetide, Tethide и Thetide
-Tetide	Тетида	Tethys	Téthys	у Картари иногда в этом написании; в переводе всегда «Тетида»
+Thetide (Nereide madre d'Achille)	Фетида	Thetis	Thétis	Нереида, жена Пелея, мать Ахилла; у Картари также Tetide, Tethide. Где она: каталог богов п. 18 («Tethide», прекраснейшая после Венеры), Грации и Минерва (идёт к Вулкану за оружием для Ахилла), Минерва (свадьба Пелея и Фетиды), Нептун (у Гомера Эвринома сопровождает её к Вулкану). Склонение: Фетиды, Фетиде, Фетиду, Фетидой. Не путать с Тефидой
+Thetide (moglie d'Oceano)	Тефида	Tethys	Téthys	титанида, жена Океана, мать морских богов, рек и нимф; у Картари также Tetide. Где она: Аполлон (стихи Клавдиана, «De raptu Proserpinae»: Тефида нянчит младенцев Солнце и Луну), Нептун (жена Океана, помета на полях; спутница Нереид рядом с Океаном и Доридой; воды под именем Тефиды). Склонение: Тефиды, Тефиде, Тефиду, Тефидой. Не путать с Фетидой
 Dorida	Дорида	Doris	Doris	
 Anfitrite	Амфитрита	Amphitrite	Amphitrite	жена Нептуна
 Amphitrite	Амфитрита	Amphitrite	Amphitrite	
@@ -635,7 +635,7 @@ Giulio Polluce	Юлий Поллукс	Julius Pollux	Jules Pollux
 Baronio	Баронио	Baronio	Baronius	кардинал
 Scifo	Скифос	Skyphos	Scyphus	корабль и сосуд Геркулеса
 Passalo	Пасал	Passalus	Passalos	керкоп
-Alcmone	Алкмон	Acmon	Acmon	керкоп
+Alcmone	Акмон	Acmon	Acmon	керкоп, брат Пассала (греч. Ἄκμων; Пассал и Акмон — Керкопы; у Картари «figliuoli di Mennone»); Картари печатает «Alcmone», но это не Алкмена и не Алкмеон; форма во всех языках — Акмон / Acmon / Acmon
 Mennone	Меннон	Memnon	Memnon	отец керкопов, как напечатано
 Xerse	Ксеркс	Xerxes	Xerxès	
 Asopo	Асоп	Asopus	Asopos	река
@@ -776,7 +776,6 @@ Persio	Персий	Persius	Perse	поэт
 Lisimaco	Лисимах	Lysimachus	Lysimaque	Царь, изображавшийся с рогами
 Seleuco	Селевк	Seleucus	Séleucos	прозван Никатор; статуя с рогами
 Eustachio	Евстафий	Eustathius	Eustathe	автор
-Festo	Фест	Festus	Festus	автор
 Gregorio Nazianzeno	Григорий Назианзин	Gregory of Nazianzus	Grégoire de Nazianze	речь против Юлиана Отступника
 Giuliano Apostata	Юлиан Отступник	Julian the Apostate	Julien l'Apostat	
 Giulio Floro	Юлий Флор	Julius Florus	Julius Florus	адресат послания Горация
@@ -1043,7 +1042,7 @@ Nomadi	номады	Nomads	Nomades	народ Ливии; со строчной
 scimitarra	скимитар	scimitar	cimeterre	меч Персея у Картари (у Аполлодора — серп)
 Purgatorio	«Чистилище»	Purgatory	Purgatoire	часть «Комедии» Данте, в кавычках
 Acinace	акинак	acinaces	acinace	нож-меч, изображение Марса у скифов; со строчной
-Topo	Мышь	Mouse	Rat	с заглавной (правило 12); мн. «Мыши»
+Topo	Мышь	Mouse	Souris	с заглавной (правило 12); мн. «Мыши»; у Картари всюду мышь (Аполлон Сминфий — Sminthi; статуя Сетона, Мыши, посланные Вулканом), крыс («ratto») в тексте нет; fr «Rat» было ошибкой
 Aquila	Орёл	Eagle	Aigle	с заглавной (правило 12); знак Победы, знамя римлян
 Lauro	Лавр	Laurel	Laurier	с заглавной, когда в тексте с заглавной; «ghirlanda di lauro» → «лавровый венок»
 Palma	Пальма	Palm	Palme	с заглавной, когда в тексте с заглавной; знак Победы
@@ -1286,7 +1285,7 @@ Vulcano	Вулкан	Vulcan	Vulcain	бог огня
 Pane	Пан	Pan	Pan	вариант имени Pan в Catalogo dei
 Buona Dea	Добрая Богиня	Bona Dea	Bonne Déesse	хранительница семян и плодородия
 Maia	Майя	Maia	Maïa	мать Меркурия
-Apolline	Аполлин	Apolline	Apolline	старая форма имени Аполлона; «d'Apolline» → «Аполлона»
+Apolline	Аполлин	Apolline	Apollon	старая форма имени Аполлона; «d'Apolline» → «Аполлона»; fr = Apollon, так как «Apolline» по-французски читается как женское имя
 Tesifone	Тисифона	Tisiphone	Tisiphone	вариант написания; см. Tisifone
 Tersicore	Терпсихора	Terpsichore	Terpsichore	вариант написания; см. Terpsicore
 Agalia	Аглая	Aglaia	Aglaé	искажённое Aglaia в Catalogo dei
@@ -1315,7 +1314,6 @@ Abramo Ortelio	Абрам Ортелий	Abraham Ortelius	Abraham Ortelius	из�
 Andrea Scotto	Андреа Скотто	Andreas Schottus	André Schott	Диалог к Ортелию, Анверса
 Francesco Suuertio	Франческо Свертий	Franciscus Sweertius	François Sweert	рассказ об Ортелии, Анверса 1612
 Giouanni Seldeno	Джованни Селден	John Selden	John Selden	о Божествах Сирии
-Girolamo Aleandro	Джироламо Алеандро	Girolamo Aleandro	Jérôme Aléandre	Heliaca — «Гелиака»
 Corrado Dinnero	Коррадо Диннеро	Conrad Dinner	Conrad Dinner	Греческие Эпитеты Богов; во 2-м печатании «Dinneuo» → «Диннево»
 Rauisio Testore	Равизий Тексторе	Ravisius Textor	Ravisius Textor	Латинские Эпитеты
 Gesnero	Геснер	Gesner	Gessner	Carterio dal Gesnero
@@ -1363,7 +1361,7 @@ Ofir (terra)	земля Офир	land of Ophir	pays d'Ophir
 Marco Velsero	Марк Вельзер	Marcus Welser	Marc Welser	
 Ottaviano Malipiero	Оттавиано Малипьеро	Ottaviano Malipiero	Ottaviano Malipiero	
 Cardinale Amulio	кардинал Амулио	Cardinal Amulio	cardinal Amulio	
-Girolamo Aleandro il giouane	Джироламо Алеандро Младший	Girolamo Aleandro the Younger	Girolamo Aleandro le Jeune	
+Girolamo Aleandro il giouane	Джироламо Алеандро Младший	Girolamo Aleandro the Younger	Girolamo Aleandro le Jeune	так в тексте один раз (индийская часть, скан 0617); то же лицо, что строка «Girolamo Aleandro» (1574–1629)
 Filippo Vinghernio	Филипп Вингерний	Philip Vinghernio of Tournai	Philippe Vinghernio de Tournai	
 Pietro de los Rios	Пьетро де лос Риос	Pedro de los Ríos	Pedro de los Ríos	
 Lodovico Fores	Лодовико Форес	Luís Fróis	Luís Fróis	
@@ -1399,7 +1397,7 @@ Annio Proclamo	Анний Проклам	Annius Plocamus	Annius Plocamus	отк�
 Ottaviano Malipiero	Оттавиано Малипьеро	Ottaviano Malipiero	Ottaviano Malipiero	сенатор, передал Пиньории рисунки (Seconda Parte)
 Vvitfliet	Витфлит	Wytfliet	Wytfliet	Корнелий Витфлит из Лувена; формы Vvytflier/Vvitfliet — одна
 Filippo Vinghernio	Филипп Вингерний	Philippe Vingernio	Philippe Vinghernio	из Турне; в скане 0616 опечатка «Vinghomio»
-Girolamo Aleandro	Джироламо Алеандро	Girolamo Aleandro	Girolamo Aleandro	Кардинал и его тёзка «il giouane» — Младший
+Girolamo Aleandro	Джироламо Алеандро	Girolamo Aleandro	Girolamo Aleandro	одна запись. Почти везде — Джироламо Алеандро Младший (1574–1629), учёный современник и друг Иньории: каталог авторов («Heliaca» — «Гелиака», его толкование солнечной мраморной доски), Аджунта (толкование повязки, письмо о руке Торнакса), индийская часть (поставлял Иньории японских идолов; латинский комментарий о диадеме). Один раз в индийской части — «il grande GIROLAMO ALEANDRO Cardinale», кардинал Джироламо Алеандро (1480–1542), чьим внучатым племянником был младший: та же форма + «Кардинал». Форма «il giouane» — см. отдельную строку
 Cameo	Камея	Cameo	Camée	женский род («Верхняя Камея», «на Камее»); мн. — «Камеи», род. мн. — «Камей»; в Annotationi «Камей» м.р. приведён к «Камея»
 Xenofane	Ксенофан	Xenophanes		philosopher; scan 0045
 Grillo	Грилл	Gryllus		dialogue of Plutarch ("il dialogo detto Grillo"), marginal note, scan 0043

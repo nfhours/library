@@ -514,7 +514,7 @@ Pausanias reports this from the fables of the Greeks, and says that among the ot
 
 <aside>Vulcan at the forge</aside>
 
-He is also depicted in a great cave, as he stands with the Cyclopes at the forge, working now at one thing, now at another [?9], because whenever the gods needed arms of any sort, whether for themselves or for others, they went to him as to their smith, as Tethys went to him for the arms of her son Achilles; and so it was depicted on the chest of Cypselus, according to Pausanias, who gives no other sign that the one who gave the arms to Tethys was Vulcan, except that he was lame and had behind him one of his men with a great pair of tongs in his hand. Venus too had arms from him, which she afterwards gave to Aeneas. And when poets wish to describe some great thing made with much art and great industry, they say it was made either by Vulcan or by the Cyclopes at the forge of Vulcan.
+He is also depicted in a great cave, as he stands with the Cyclopes at the forge, working now at one thing, now at another [?9], because whenever the gods needed arms of any sort, whether for themselves or for others, they went to him as to their smith, as Thetis went to him for the arms of her son Achilles; and so it was depicted on the chest of Cypselus, according to Pausanias, who gives no other sign that the one who gave the arms to Thetis was Vulcan, except that he was lame and had behind him one of his men with a great pair of tongs in his hand. Venus too had arms from him, which she afterwards gave to Aeneas. And when poets wish to describe some great thing made with much art and great industry, they say it was made either by Vulcan or by the Cyclopes at the forge of Vulcan.
 
 > Image of Vulcan, god of fire, with his forge and the Cyclopes, who made the arrows for Jupiter and the arms for the gods and the heroes. Vulcan is also understood as natural and generative heat.
 
@@ -615,7 +615,7 @@ Describing the house of Mars, Statius imagines it to be in Thrace, where he too 
 
 <aside>Discord. Virgil</aside>
 
-The ancients placed her among those gods whom they worshipped, not because they could do good, but so that they should not do harm; for wherever she is found there is never peace or rest, and for this reason Jupiter drove her out of Heaven, and she was not invited to the wedding of Tethys and Peleus, where nearly all the other gods were; and angered at this, she threw among them the apple from which the ruin of Troy was born, through the judgement that Paris made of it. Discord was depicted in the form of an infernal Fury, as Virgil describes her when he says:
+The ancients placed her among those gods whom they worshipped, not because they could do good, but so that they should not do harm; for wherever she is found there is never peace or rest, and for this reason Jupiter drove her out of Heaven, and she was not invited to the wedding of Thetis and Peleus, where nearly all the other gods were; and angered at this, she threw among them the apple from which the ruin of Troy was born, through the judgement that Paris made of it. Discord was depicted in the form of an infernal Fury, as Virgil describes her when he says:
 
 > A bloody band knots and binds
 > the viperous hair of mad Discord.
@@ -628,7 +628,7 @@ Petronius said the same of her.
 
 Aristides imagines her as a woman who holds her head high, with livid and pale lips, squinting, ruined eyes, brimming with tears that continually streak her pale cheeks; she never keeps her hands to herself and is very quick to move them; she carries a knife driven into her breast, and has twisted legs and thin feet, and around her a dark and gloomy mist that surrounds her all, like a net. Pausanias writes that on one side of the chest of Cypselus were carved Ajax and Hector, who were fighting together in the presence of Discord, who was there beside them and was a woman with a very ugly face. He says nothing more about her, and still less how Calliphon of Samos depicted her; he, as Pausanias adds, painted her, after the model of that one, in the temple of Diana of Ephesus, where he depicted the war that took place not far from the ships of the Greeks.
 
-> Image of Discord according to Aristides, who for her evil effects was driven out of Heaven and was not invited with the other gods to the wedding of Peleus and Tethys, parents of Achilles, so that she should not disturb it with her poisons; and yet she did disturb it by throwing the golden apple, which signifies that for plotters there is never a lack of occasions for discord.
+> Image of Discord according to Aristides, who for her evil effects was driven out of Heaven and was not invited with the other gods to the wedding of Peleus and Thetis, parents of Achilles, so that she should not disturb it with her poisons; and yet she did disturb it by throwing the golden apple, which signifies that for plotters there is never a lack of occasions for discord.
 
 <aside>Ariosto</aside>
 

@@ -481,7 +481,7 @@ Dans deux Camées on voit deux des principaux travaux d'Hercule. L'un, comme on 
 <aside>Fol. 289, dernière ligne.</aside>
 L'Hercule dont il est question ici se voit représenté à Rome, au Capitole, dans le Palais des Conservateurs, sur une très belle Statue de bronze. On le représente jeune et sans barbe. Et d'un tel âge on en voit peu.
 
-Le dieu Semo Sancus des Sabins avait les mêmes traits qu'Hercule, comme on le lit chez Festus Pompeius et Varron. Et de celui-ci on voit la figure sur les anciens Deniers, comme ci-dessous.
+Le dieu Semo Sancus des Sabins avait les mêmes traits qu'Hercule, comme on le lit chez Pompeius Festus et Varron. Et de celui-ci on voit la figure sur les anciens Deniers, comme ci-dessous.
 
 Que celui qui en veut davantage lise F. Orsini dans les Familles, et Pietro Ciaccone dans un petit Traité de lui sur ce sujet, imprimé à Rome avec d'autres écrits de lui, l'an 1608. Le Cardinal Baronius en diffère dans les Annales, au premier Tome.
 
@@ -730,7 +730,7 @@ FIN.
 - [?15] Dans le livre, un « et » superflu précède « César » ; il est absent du vers de Martial ; traduit sans lui.
 - [?16] La phrase est ambiguë dans l'original : « se però … non hebbe pensiero » peut se comprendre aussi bien « à moins qu'il n'ait eu l'intention d'y faire allusion » que « peut-être n'y faisait-il pas allusion » ; la traduction garde la tournure littérale (« si toutefois … n'a pas eu l'intention de faire allusion »), sans trancher.
 - [?17] Ce nom (Mont) est imprimé dans le livre sous forme abrégée et on ne voit pas bien ce qu'il désigne ; laissé tel qu'imprimé.
-- [?18] Ce nom (Heder) est imprimé de façon peu claire ; laissé tel qu'imprimé.
+- [?18] Ce nom (Haeder) est imprimé de façon peu claire ; laissé tel qu'imprimé.
 - [?19] Cette abréviation (P. Hisp.) n'est pas tout à fait claire ; laissée telle qu'imprimée.
 - [?21] Le mot est ici coupé par un retour à la ligne et ne forme pas un mot clair ; traduit d'après le sens : « danse ».
 - [?22] Coquille dans le livre : on a imprimé un mot voisin de « déclinants », alors que d'après le sens il faut « excès » ; traduit « excès ».

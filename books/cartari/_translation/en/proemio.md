@@ -429,8 +429,8 @@ Eternity is seen on a medal of Faustina, made in this fashion. A woman stands up
 >
 > And these are the blessed years that to mortals
 > will bring immense happiness,
-> when Phoebus, who dispenses them as he wills,
-> shall have pity on our ills,
+> when on our ills shall take pity
+> Phoebus, who dispenses them as he wills,
 > and will bring it about that from Heaven, spreading her wings,
 > fair Astraea, kindled anew with love
 > of seeing the world again, shall come to stay among us

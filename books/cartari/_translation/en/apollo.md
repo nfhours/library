@@ -346,9 +346,9 @@ And therefore the ancients said that Aesculapius was the god of medicine, and he
 
 > Image of Aesculapius, god of medicine, with the animals sacred to him, signifying the difficulty of medicine and the duty of the good physician; understood also as the purified air, bringer of health.
 
-<aside>Festus</aside>
+<aside>Pompeius Festus</aside>
 
-Festus seems to give the reason for all this when he says: they give the serpent to Aesculapius because it is a most vigilant animal, as the good physician must be; they give him the dog because as a little child he was nursed on dog's milk, and the staff, which is all knotted, signifies the difficulty of medicine. And Festus adds (what is not in the image set down by Pausanias) that the ancients made him wreaths of laurel, because this tree helps in many infirmities.
+Pompeius Festus seems to give the reason for all this when he says: they give the serpent to Aesculapius because it is a most vigilant animal, as the good physician must be; they give him the dog because as a little child he was nursed on dog's milk, and the staff, which is all knotted, signifies the difficulty of medicine. And Festus adds (what is not in the image set down by Pausanias) that the ancients made him wreaths of laurel, because this tree helps in many infirmities.
 
 <aside>Aesculapius's cock</aside>
 

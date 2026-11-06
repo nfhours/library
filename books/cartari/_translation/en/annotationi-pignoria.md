@@ -481,7 +481,7 @@ In two cameos are seen two of the principal labours of Hercules. One as it is se
 <aside>Fol. 289, last line.</aside>
 The Hercules here touched on is seen expressed in Rome, on the Capitol, in the Palace of the Conservators, in a most beautiful bronze statue. They represent him young, and without a beard. And of that age few are seen.
 
-With Hercules the god Semo Sancus of the Sabines was of the same features, as is read in Festus Pompeius and Varro. And of this the figure is seen on the ancient denarii, as below.
+With Hercules the god Semo Sancus of the Sabines was of the same features, as is read in Pompeius Festus and Varro. And of this the figure is seen on the ancient denarii, as below.
 
 Whoever wishes more of it, let him read F. Orsini in the *Families*, and Pedro Chacón in a little Treatise of his on this, printed in Rome with other works of his, in the year 1608, from which Cardinal Baronio dissents in the *Annals*, in the first volume.
 
@@ -542,7 +542,7 @@ The image of Fury was thus drawn by Zucchero, a skilled painter of our times. An
 <aside>Fol. 327, line 25.</aside>
 In Augusta, in the garden of the late Most Illustrious Signor MARCUS WELSER, there is seen a free-standing stone, carved with figures on three sides, with an inscription on the fourth. The figures are Mercury, Victory, and Mars naked, as below. The inscription is such:
 
-> Aelius Mont [?17] Haeder [?18] for his own safety and for that of P. Hisp. [?19] Canavilus, son, and of Aelia Montestina, wife, fulfilled his vow willingly and deservedly; given, dedicated, consecrated on the seventh day before the Kalends of September, in the second consulship of Geta and the second of Plautianus.
+> Aelius Mont [?17] Haeder [?18] for his own safety and for that of P. Hisp. [?19] Canavilus, son, and of Aelia Montestina, wife, fulfilled his vow gladly, willingly and deservedly; given, dedicated, consecrated on the seventh day before the Kalends of September, in the second consulship of Geta and the second of Plautianus.
 
 And on the authority of this inscription the above-said most learned gentleman said that it could be demonstrated that the subscription of more than twenty laws of the Code is erroneous. And by the figures of this stone the religion of the Germans is seen, who adored principally Mercury, then Mars and Hercules, as Tacitus writes in his book on the customs of the Germans [?20]; although this third is not seen there.
 

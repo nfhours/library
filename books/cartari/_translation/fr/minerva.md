@@ -514,7 +514,7 @@ Ainsi rapporte Pausanias des fables des Grecs, et il dit que, parmi les autres p
 
 <aside>Vulcain à la forge</aside>
 
-On le représente aussi dans une grande caverne, comme il se tient avec les Cyclopes à la forge, à forger tantôt une chose, tantôt l'autre[?9], car chaque fois que les dieux avaient besoin d'armes de quelque sorte que ce fût, pour eux-mêmes ou pour d'autres, ils allaient à lui, comme à leur forgeron ; ainsi y alla Téthys pour les armes d'Achille son fils, et il en fut ainsi représenté sur le coffre de Cypsélos, selon ce que raconte Pausanias, qui ne donne d'autre signe que celui qui donnait les armes à Téthys fût Vulcain, si ce n'est qu'il était boiteux et avait derrière lui un des siens avec de grandes tenailles à la main ; et Vénus de même eut de lui les armes qu'elle donna ensuite à Énée. Et quand les Poètes veulent décrire quelque grande chose faite avec beaucoup d'art et grande industrie, ils la disent faite soit par Vulcain, soit par les Cyclopes à la forge de Vulcain.
+On le représente aussi dans une grande caverne, comme il se tient avec les Cyclopes à la forge, à forger tantôt une chose, tantôt l'autre[?9], car chaque fois que les dieux avaient besoin d'armes de quelque sorte que ce fût, pour eux-mêmes ou pour d'autres, ils allaient à lui, comme à leur forgeron ; ainsi y alla Thétis pour les armes d'Achille son fils, et il en fut ainsi représenté sur le coffre de Cypsélos, selon ce que raconte Pausanias, qui ne donne d'autre signe que celui qui donnait les armes à Thétis fût Vulcain, si ce n'est qu'il était boiteux et avait derrière lui un des siens avec de grandes tenailles à la main ; et Vénus de même eut de lui les armes qu'elle donna ensuite à Énée. Et quand les Poètes veulent décrire quelque grande chose faite avec beaucoup d'art et grande industrie, ils la disent faite soit par Vulcain, soit par les Cyclopes à la forge de Vulcain.
 
 > Image de Vulcain, dieu du Feu, avec sa forge et les Cyclopes, qui fabriquaient les traits de Jupiter et les armes des dieux et des héros. Vulcain est pris aussi pour la chaleur naturelle et génératrice.
 
@@ -615,7 +615,7 @@ En décrivant la maison de Mars, Stace la place en Thrace, où il naquit aussi, 
 
 <aside>Discorde. Virgile</aside>
 
-Celle-ci fut placée par les anciens parmi ces dieux qu'ils adoraient, non qu'elle pût être utile, mais afin qu'elle ne nuisît pas ; car partout où elle se trouve, il n'y a jamais ni paix ni repos, et c'est pourquoi Jupiter la chassa du Ciel, et elle ne fut pas appelée aux noces de Téthys et de Pélée, où étaient presque tous les autres dieux, et, indignée de cela, elle jeta parmi eux la pomme d'où naquit la ruine de Troie par le jugement qu'en fit Pâris. La Discorde était faite en forme de Furie infernale, comme la décrit Virgile, quand il dit :
+Celle-ci fut placée par les anciens parmi ces dieux qu'ils adoraient, non qu'elle pût être utile, mais afin qu'elle ne nuisît pas ; car partout où elle se trouve, il n'y a jamais ni paix ni repos, et c'est pourquoi Jupiter la chassa du Ciel, et elle ne fut pas appelée aux noces de Thétis et de Pélée, où étaient presque tous les autres dieux, et, indignée de cela, elle jeta parmi eux la pomme d'où naquit la ruine de Troie par le jugement qu'en fit Pâris. La Discorde était faite en forme de Furie infernale, comme la décrit Virgile, quand il dit :
 
 > Un bandeau sanglant noue et serre
 > à la Discorde folle sa chevelure de vipères.
@@ -628,7 +628,7 @@ Et Pétrone en a dit la même chose.
 
 Aristide la représente comme une femme qui a la tête haute, les lèvres livides et pâles, les yeux torves, abîmés et gonflés de larmes, qui sillonnent continuellement ses joues pâles ; elle ne retient jamais ses mains, et est très prompte à les mouvoir, elle porte un couteau planté dans la poitrine, et a les jambes tordues, et les pieds minces, et autour d'elle un brouillard ténébreux et sombre qui l'enveloppe tout entière à la façon d'un filet. Pausanias écrit que d'un côté du coffre de Cypsélos étaient sculptés Ajax et Hector, qui combattaient ensemble en présence de la Discorde, qui était là près d'eux, et c'était une femme au visage très laid. Et il n'en dit rien d'autre, et encore moins comment la fit Calliphon de Samos, lequel, comme il ajoute, la peignit d'après celle-là dans le temple de Diane d'Éphèse, où il représenta la guerre qui se déroula non loin des navires des Grecs.
 
-> Image de la Discorde selon Aristide, laquelle, pour ses mauvais effets, fut chassée du Ciel et ne fut pas invitée avec les autres dieux aux noces de Pélée et de Téthys, parents d'Achille, afin qu'avec ses poisons elle ne les troublât pas ; et pourtant elle les troubla en jetant la pomme d'or, signifiant qu'aux machinateurs les occasions de discordes ne manquent pas.
+> Image de la Discorde selon Aristide, laquelle, pour ses mauvais effets, fut chassée du Ciel et ne fut pas invitée avec les autres dieux aux noces de Pélée et de Thétis, parents d'Achille, afin qu'avec ses poisons elle ne les troublât pas ; et pourtant elle les troubla en jetant la pomme d'or, signifiant qu'aux machinateurs les occasions de discordes ne manquent pas.
 
 <aside>L'Arioste</aside>
 

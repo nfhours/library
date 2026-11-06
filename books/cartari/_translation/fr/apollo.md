@@ -346,9 +346,9 @@ Et c'est pourquoi les anciens dirent qu'Esculape fut le dieu de la médecine, et
 
 > Image d'Esculape, dieu de la Médecine, avec les animaux qui lui sont consacrés, signifiant la difficulté de la Médecine et la charge du bon Médecin, entendu aussi comme l'air purgé qui apporte la santé.
 
-<aside>Festus</aside>
+<aside>Pompeius Festus</aside>
 
-De tout cela, Festus semble rendre la raison quand il dit : on donne le serpent à Esculape, parce que c'est un animal très vigilant, comme doit l'être le bon médecin ; on lui donne le chien, parce qu'il fut nourri enfant du lait de chien, et le bâton, qui est tout noueux, signifie la difficulté de la médecine. Et Festus y ajoute (ce qui n'est pas dans le simulacre décrit par Pausanias) que les anciens lui firent des couronnes de laurier, parce que cet arbre est utile à beaucoup d'infirmités.
+De tout cela, Pompeius Festus semble rendre la raison quand il dit : on donne le serpent à Esculape, parce que c'est un animal très vigilant, comme doit l'être le bon médecin ; on lui donne le chien, parce qu'il fut nourri enfant du lait de chien, et le bâton, qui est tout noueux, signifie la difficulté de la médecine. Et Festus y ajoute (ce qui n'est pas dans le simulacre décrit par Pausanias) que les anciens lui firent des couronnes de laurier, parce que cet arbre est utile à beaucoup d'infirmités.
 
 <aside>Coq d'Esculape</aside>
 

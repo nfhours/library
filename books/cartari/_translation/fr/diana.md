@@ -109,7 +109,7 @@ L'un d'eux était noir et l'autre blanc, dit Boccace, parce que la Lune n'appara
 
 <aside>Mulet au char de la Lune</aside>
 
-Festus écrit qu'un mulet tirait le char de la Lune, et que la raison en était qu'elle est d'elle-même stérile, étant froide de sa nature, et que le mulet, pareillement, n'engendre pas. Ou bien les anciens voulaient montrer par cet animal que la Lune n'a pas de lumière d'elle-même, mais resplendit d'une lumière d'autrui, comme si le Soleil la lui prêtait ; de même que le mulet ne naît pas d'animaux de sa race, mais d'autres, qui sont l'âne et la jument.
+Pompeius Festus écrit qu'un mulet tirait le char de la Lune, et que la raison en était qu'elle est d'elle-même stérile, étant froide de sa nature, et que le mulet, pareillement, n'engendre pas. Ou bien les anciens voulaient montrer par cet animal que la Lune n'a pas de lumière d'elle-même, mais resplendit d'une lumière d'autrui, comme si le Soleil la lui prêtait ; de même que le mulet ne naît pas d'animaux de sa race, mais d'autres, qui sont l'âne et la jument.
 
 <aside>Pausanias</aside>
 

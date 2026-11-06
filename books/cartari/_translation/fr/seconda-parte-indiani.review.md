@@ -43,7 +43,7 @@ Glossaire (fr/seconda-parte-indiani.glossary-new.tsv) : 4 lignes avaient en colo
 
 ## Doutes ouverts
 
-1. Bloc 27 « dall'Incensiere » : lu comme coquille pour *dell'* (croix sur le corps de l'encensoir) ; une lecture « du côté de l'encensoir » n'est pas exclue. Erreur ru/en notée sur cette base.
+1. Bloc 27 « dall'Incensiere » : lu comme coquille pour *dell'* (croix sur le corps de l'encensoir) ; une lecture « du côté de l'encensoir » n'est pas exclue. Erreur ru/en notée sur cette base. **Résolu (2026-11-06) :** le scan 0604 imprime « dall'Incenſiere » ; lu comme coquille pour *dell'* (sur la gravure, scan 0603, la croix est sur la corne d'abondance) ; ru/en/fr — « sur le corps de l'encensoir » avec une nouvelle marque [?3] (anciennes [?3]–[?6] → [?4]–[?7]).
 2. Glossaire : beaucoup de noms classiques de ce chapitre manquent dans GLOSSARY.tsv comme dans glossary-new (Héraclide du Pont, Manéthon, Amasis, Arrien, Hannon, Clément d'Alexandrie, Constance, Ptolémée Évergète, Suèves, Yucatan, Cozumel, Cumanais, Vicence, Grégoire XIII) ; formes françaises usuelles, non ajoutées.
 3. Girolamo Aleandro (cardinal) : GLOSSARY.tsv garde deux lignes contradictoires (« Jérôme Aléandre » avec le commentaire erroné « Heliaca », et « Girolamo Aleandro ») ; à trancher dans le glossaire.
 4. Bloc 10 « con la Bilancia in mano » : rendu adverbial (Pignoria pèse lui-même) ; ru/en, par l'ordre des mots, peuvent suggérer des deniers à type de Balance. Ambigu, non compté comme erreur.

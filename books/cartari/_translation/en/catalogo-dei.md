@@ -43,7 +43,7 @@ Rules: books/cartari/_translation/en/RULES.md
 
 17 Glaucus, sea god of majestic appearance, the first of the sea gods after Neptune.
 
-18 Tethys, sea goddess, the most beautiful of all the goddesses after Venus, and the first of the sea gods after Neptune, Amphitrite and Glaucus.
+18 Thetis, sea goddess, the most beautiful of all the goddesses after Venus, and the first of the sea gods after Neptune, Amphitrite and Glaucus.
 
 19 Portunus, also called Palaemon, god of harbours and of the safe return home of sailors.
 
@@ -221,7 +221,7 @@ These nine Muses, with Apolline their master, are called patronesses and invento
 - "Apolline" (items 9, 75 and the closing paragraph): the old form of the name of Apollo; rendered "Apolline" throughout, as in the text, following the glossary.
 - "Pluto fanciullo" (item 32): this is Plutus, the god of riches, not Pluto, as the word "fanciullo" ("boy") shows; rendered "Plutus" per the glossary.
 - "Agalia" (item 83): a corrupted form of the name Aglaia; rendered "Aglaia". "Leucasia" (item 87): *Leucosia*, rendered "Leucosia" per the glossary. "Tersicore" (item 96): rendered "Terpsichore" per the glossary.
-- "Tethide" (item 18): a variant spelling of *Thetide*; rendered "Tethys" per the glossary, which gives a single form for all spellings (the text describes her as the most beautiful sea goddess after Venus).
+- "Tethide" (item 18): a variant spelling of *Thetide*; rendered "Thetis" per the glossary: the text describes her as the most beautiful sea goddess after Venus, i.e. the Nereid Thetis, mother of Achilles (not Tethys, wife of Oceanus).
 - "Cesare Malfatto" (heading, scan 0017): on the title page (scan 0007) he is "Malfatti"; here it is printed differently, and rendered "Malfatti" per the glossary.
 - "Matuta ouero Aurora, Dea dell'Alba, & dell'Albore" (item 13): *Albore* is "the first light of dawn"; rendered "of the dawn and of the first light of day".
 - "crinite" (item 43): "Dee crinite" means "long-haired, with a mane of hair" (of the snake-haired Furies); rendered "long-haired".

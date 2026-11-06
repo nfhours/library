@@ -246,7 +246,7 @@ Of him Diodorus writes that he was once elected king in Egypt, as the wisest to 
 
 We read also that he was lord in Carpathos, an island from which the Carpathian sea toward Egypt takes its surname; and because this sea has a great number of seals, otherwise called sea calves, because they have the forward parts with the hide and hair of a calf, and of other similar beasts, it was feigned that Proteus was, as I said, shepherd and keeper of the flocks of Oceanus.
 
-Eurynome too was called a daughter of Oceanus; for in Homer she accompanies Tethys when she goes to find Vulcan, although someone has preferred to believe her rather Diana, as Pausanias says; which does not at all accord with her idol, which was in the form of a woman above and of a fish below, bound across with golden chains. This was a certain numen worshipped in Arcadia by the Phigalians in a temple most holy to them, which they did not open except on one day of the year, and then they celebrated a solemn festival and made many sacrifices, in public and in private.
+Eurynome too was called a daughter of Oceanus; for in Homer she accompanies Thetis when she goes to find Vulcan, although someone has preferred to believe her rather Diana, as Pausanias says; which does not at all accord with her idol, which was in the form of a woman above and of a fish below, bound across with golden chains. This was a certain numen worshipped in Arcadia by the Phigalians in a temple most holy to them, which they did not open except on one day of the year, and then they celebrated a solemn festival and made many sacrifices, in public and in private.
 
 <aside>Derceto [?3]</aside>
 
@@ -353,7 +353,7 @@ Rivers are depicted with horns, says Servius, either because the murmur of the w
 <aside>Probus</aside>
 <aside>Aelian</aside>
 
-Of the Po, who is also called Eridanus, Virgil says in another place that he has the face of a bull with both horns gilded. Probus, explaining this passage, says that the Po is feigned with the face of a bull because the sound that his course makes is like the lowing of bulls, and his banks are twisted like horns; and Aelian likewise writes that the statues of rivers, which at first were made without any form, were afterwards made in the form of an ox. So it is read also in Festus, where he says that the idols of rivers were made in the form of bulls, that is, with horns, because they are fierce and cruel like bulls. Besides this, the ancients crowned rivers with reeds, because the reed is born and grows better in watery places than elsewhere, and hence it came about that Virgil, as I said just now, gave the Tiber a head covered with reed.
+Of the Po, who is also called Eridanus, Virgil says in another place that he has the face of a bull with both horns gilded. Probus, explaining this passage, says that the Po is feigned with the face of a bull because the sound that his course makes is like the lowing of bulls, and his banks are twisted like horns; and Aelian likewise writes that the statues of rivers, which at first were made without any form, were afterwards made in the form of an ox. So it is read also in Pompeius Festus, where he says that the idols of rivers were made in the form of bulls, that is, with horns, because they are fierce and cruel like bulls. Besides this, the ancients crowned rivers with reeds, because the reed is born and grows better in watery places than elsewhere, and hence it came about that Virgil, as I said just now, gave the Tiber a head covered with reed.
 
 <aside>Acis, river</aside>
 <aside>Ovid</aside>

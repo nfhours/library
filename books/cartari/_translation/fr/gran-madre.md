@@ -131,11 +131,11 @@ Cette déesse, comme l'écrit le même Tacite, l'adoraient pareillement certains
 Je me souviens d'avoir vu, sur une médaille antique de Faustine, l'image de la Grande Mère, qui s'accorde assez avec celle que j'ai dessinée et exposée plus haut : car c'est une femme qui a la tête ceinte de tours ; elle est assise, le bras droit appuyé au siège, et de la main gauche elle soutient un bouclier posé sur le genou, et de chaque côté elle a un lion.
 
 <aside>Cybèle</aside>
-<aside>Diodore. Festus Pompeius. Cube</aside>
+<aside>Diodore. Pompeius Festus. Cube</aside>
 
 Cette déesse fut ensuite appelée Cybèle d'après une certaine montagne de Phrygie, dont parle Diodore de Sicile. Il y eut, dit-il, anciennement en Phrygie un roi nommé Méon, qui avait pour femme une nommée Dindymène. Une petite fille étant née d'elle, et la mère ne voulant pas l'élever, elle la plaça sur le mont Cybèle, où elle fut nourrie du lait des bêtes sauvages. Mais une jeune fille qui faisait paître son troupeau alentour étant survenue et ayant vu la petite fille, toute stupéfaite, la prit et l'emporta avec elle en la nommant du nom de la montagne, et ainsi l'éleva jusqu'à ce que, devenue grande, elle fût d'une beauté singulière et d'un esprit admirable.
 
-Car non seulement elle inventa la première la flûte faite de roseaux joints ensemble, et la cymbale, mais aussi divers remèdes aux maladies des troupeaux et à celles des enfants, ce pourquoi elle gagna à juste titre le nom de Mère. Ainsi dit Diodore ; mais nous, avec Festus Pompeius, nous dirons qu'elle fut ainsi appelée d'après une certaine figure géométrique, faite exactement comme un dé, appelée Cube, qui lui fut aussi consacrée par les anciens, pour montrer la fermeté de la Terre : car qu'on jette un dé, il s'arrête toujours, de quelque côté qu'il tombe.
+Car non seulement elle inventa la première la flûte faite de roseaux joints ensemble, et la cymbale, mais aussi divers remèdes aux maladies des troupeaux et à celles des enfants, ce pourquoi elle gagna à juste titre le nom de Mère. Ainsi dit Diodore ; mais nous, avec Pompeius Festus, nous dirons qu'elle fut ainsi appelée d'après une certaine figure géométrique, faite exactement comme un dé, appelée Cube, qui lui fut aussi consacrée par les anciens, pour montrer la fermeté de la Terre : car qu'on jette un dé, il s'arrête toujours, de quelque côté qu'il tombe.
 
 <aside>Lucrèce</aside>
 

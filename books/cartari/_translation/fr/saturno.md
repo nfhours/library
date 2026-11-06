@@ -172,7 +172,7 @@ Je trouve en effet qu'un temple lui fut fait sur le mont Caelius à Rome par ce 
 
 Ils eurent aussi le dieu Forculus, à qui étaient confiées les portes qui, tournant sur les gonds, s'ouvrent et se ferment (les Latins les appellent *fores*), et Limentinus, dieu du seuil (*limitare*), ou *soglia*, comme nous disons, de la porte. C'est pourquoi Saint Augustin, se moquant d'eux, dit qu'un portier, un seul homme, fait tout ce qu'ils font faire à trois dieux ensemble, qui sont la déesse Cardea, Forculus et Limentinus.
 
-Maintenant je reviens à Janus, qui est le Soleil, lequel non seulement ouvre le matin et ferme le soir le jour, comme je l'ai dit, mais fait aussi la même chose pour l'année entière ; car il l'ouvre quand, au printemps, il fait que la terre commence à produire herbes et fleurs et, toute joyeuse, élargit son ample sein, et il le referme ensuite en hiver, quand elle, privée de tout son ornement, se resserre en elle-même et reste couverte de neige et de glace.
+Maintenant je reviens à Janus, qui est le Soleil, lequel non seulement ouvre le matin et ferme le soir le jour, comme je l'ai dit, mais fait aussi la même chose pour l'année entière ; car il l'ouvre quand, au printemps, il fait que la terre commence à produire herbes et fleurs et, toute joyeuse, élargit son ample sein, et il la referme ensuite en hiver, quand elle, privée de tout son ornement, se resserre en elle-même et reste couverte de neige et de glace.
 
 <aside>Visages de Janus, ce qu'ils signifient</aside>
 <aside>Bède</aside>

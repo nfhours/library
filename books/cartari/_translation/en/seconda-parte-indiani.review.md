@@ -41,7 +41,7 @@ Checker: `seconda-parte-indiani: OK` (65 blocks, same as RU). Block numbers belo
 - Block 40 (also 41): *Canone* is rendered "Каннон", although the RU note says these names are transliterated by the printed spelling. Printed form: Каноне.
 
 ## Open questions for the author
-1. Block 27: "vna nel corpo dall'Incensiere". EN and RU both read this as "on the body, by the Censer". It could instead be a misprint for *dell'Incensiere* ("one on the body of the Censer", the cornucopia). Left as is.
+1. Block 27: "vna nel corpo dall'Incensiere". EN and RU both read this as "on the body, by the Censer". It could instead be a misprint for *dell'Incensiere* ("one on the body of the Censer", the cornucopia). Left as is. **Resolved (2026-11-06):** scan 0604 prints "dall'Incenſiere"; taken as a misprint for *dell'* (the engraving, scan 0603, shows the cross on the cornucopia itself); ru/en/fr now read "one on the body of the Censer" with a new mark [?3] (former [?3]–[?6] renumbered [?4]–[?7]).
 2. Block 34: the glossary has Lucertola = "Lizard" (capitalised, on the Russian convention for animals). EN keeps "a lizard" lowercase under E3. Should the glossary capital apply in English?
 3. Theodoret (block 26): the glossary entry "Theodorito" = "Theodoret of Cyrrhus". The text has "Theodoreto" without the epithet, so "Theodoret" is kept (compare the glossary note on Diodorus). Please confirm.
 4. "Apolline" (block 26) follows the glossary english column, but the glossary comment suggests "of Apollo". Please confirm for EN.
