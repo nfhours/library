@@ -25,3 +25,6 @@
 | 19 | aggionta | готова | 8 | 0 | Opus: ошибок смысла в русском нет; открыто: «murari antichi» (translator: «ancient wall paintings», conj. murali) |
 | 20 | seconda-parte-titolo-dedica | готова | 1 | 0 | Opus: «quanto al concetto» = «что касается мнения»; ошибок русского нет |
 | 16 | venere | готова | 11 | 3 | Opus: блок 31 (голубь красный, а не «Венера»), блок 45 (параллель роз и стыда), блок 90 (зеркало и позолоченные украшения для ног); Gioue Seruatore = Jupiter Saviour (отдельно от Conservator) — решить автору глоссария |
+| 22 | frontespizio-dedica | готова | 4 | 0 | Opus: «Seconda novissima editione» = newest second edition; ошибок русского нет |
+| 23 | prefatione | готова | 7 | 1 | Opus: блок 8 (пропущено veramente в русском); открыто: «A Dio», «Notitia» vs Notitia Dignitatum |
+| 24 | catalogo-autori | готова | 6 | 0 | Opus: ошибок русского нет; открыто: Phurnutus/Cornutus, «Dinnevo» (опечатка Dinner?), Joannes Ravisius Textor |
