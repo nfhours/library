@@ -248,15 +248,15 @@ We read also that he was lord in Carpathos, an island from which the Carpathian 
 
 Eurynome too was called a daughter of Oceanus; for in Homer she accompanies Tethys when she goes to find Vulcan, although someone has preferred to believe her rather Diana, as Pausanias says; which does not at all accord with her idol, which was in the form of a woman above and of a fish below, bound across with golden chains. This was a certain numen worshipped in Arcadia by the Phigalians in a temple most holy to them, which they did not open except on one day of the year, and then they celebrated a solemn festival and made many sacrifices, in public and in private.
 
-<aside>Decreto</aside>
+<aside>Derceto [?3]</aside>
 
-And it brings to my mind another fabulous goddess, as Pliny calls her, named Decreto by the ancients, who was likewise all fish, except the head, which was a woman's.
+And it brings to my mind another fabulous goddess, as Pliny calls her, named Derceto [?4] by the ancients, who was likewise all fish, except the head, which was a woman's.
 
 <aside>Diodorus</aside>
 
 Of her Diodorus writes that she was first a nymph, and that, having become pregnant without its ever being known by whom, she gave birth to Semiramis, with the gravest indignation at having lost her virginity, for which reason, throwing herself into a certain lake of Syria, she was afterwards worshipped as a goddess in the form that I have described, by those peoples, who afterwards would not for anything in the world have eaten any fish of that lake; because they judged that all were consecrated to her.
 
-> Images of Eurynome and Decreto, sea goddesses, the one daughter of Proteus, the other mother of Semiramis, signifying the property of the waters, and the effects and accidents that are seen in them.
+> Images of Eurynome and Derceto [?5], sea goddesses, the one daughter of Proteus, the other mother of Semiramis, signifying the property of the waters, and the effects and accidents that are seen in them.
 
 But returning to Oceanus, to explain the rest of his image: the chariot shows that he goes around the earth, the roundness of which is shown by the wheels, and the whales draw him, because these run through the whole sea just as the waters of the sea surround the whole earth, and, spread also within it, occupy the greater part of it. The nymphs, then, mean to signify the property of the waters, and the diverse accidents that are often seen in them: which were understood by the ancients not only under the name of Oceanus, of Neptune, of Tethys, of Doris, of Amphitrite, and of other gods of the sea, but of Achelous also. Although some hold that those signified the nature of salt waters, and that by Achelous were understood the sweet ones, such as those of the rivers, whom the ancients likewise worshipped, and depicted in human form.
 
@@ -376,13 +376,13 @@ However, in Rome, in the Vatican, there is to be seen a statue of the Tiber that
 > Image of the Tiber, showing the abundance and the beginning of the Roman Empire in the two brothers.
 
 <aside>Achelous</aside>
-<aside>Horn [?3] of plenty</aside>
+<aside>Horn [?6] of plenty</aside>
 
 When in Ovid Achelous tells Theseus of the quarrel that he had with Hercules over Deianira, it is said that he is leaning on one of his arms, and has his head girt with green reed, and has a mantle, likewise green, about him, and he has not two horns like the others, but one only, because the other was broken off by Hercules, according to the fables; and this horn, filled with diverse flowers and fruits, was then given to the people of Aetolia, who called it the horn of plenty. And it was so feigned, as Diodorus recounts, because Hercules with no little labour turned one branch of that river aside from its first course, and diverted it to another place, which, where it was at first arid and bore no fruit, became fruitful beyond measure through the waters that this river sometimes spread over it by the diverted branch.
 
 <aside>Nile</aside>
 
-And so rivers are described diversely by the poets, who look now to the quality of the waters and their course, and now to the nature of the country through which they pass. So Pausanias, writing of Arcadia, says that in a certain part of that country there are some statues of the most noble rivers, celebrated by the ancients, all of the whitest marble, except that of the Nile, which is of black stone. And he adds then that the statue of the Nile was reasonably made of black stone, because the Nile, running to the sea, passes through the Ethiopians, a wholly black people. Lucian writes that the Egyptians, when painting the Nile, set him to sit upon a crocodile or on a river horse, which is a certain four-footed beast, as Herodotus describes it, of the size of a large bull, with a head like an ox's, the nose flattened like a goat's, the mane like a horse's, and the voice; the teeth sticking out, and uneven [?4], the tail shining, and the hide so thick and hard that when it is dry they make darts of it; and this animal was called by the Greeks hippopotamus. Around the Nile they depicted some little boys, who all cheerfully played, as is read also in Pliny, who, writing of a certain sort of marble, hard and rough as iron, says that Vespasian placed in the great Temple of Peace a statue of the Nile, the greatest that had ever been seen, with sixteen little children, who played around it, and signified that the waters of that river at the greatest rise that they made reached the height of sixteen cubits.
+And so rivers are described diversely by the poets, who look now to the quality of the waters and their course, and now to the nature of the country through which they pass. So Pausanias, writing of Arcadia, says that in a certain part of that country there are some statues of the most noble rivers, celebrated by the ancients, all of the whitest marble, except that of the Nile, which is of black stone. And he adds then that the statue of the Nile was reasonably made of black stone, because the Nile, running to the sea, passes through the Ethiopians, a wholly black people. Lucian writes that the Egyptians, when painting the Nile, set him to sit upon a crocodile or on a river horse, which is a certain four-footed beast, as Herodotus describes it, of the size of a large bull, with a head like an ox's, the nose flattened like a goat's, the mane like a horse's, and the voice; the teeth sticking out, and uneven [?7], the tail shining, and the hide so thick and hard that when it is dry they make darts of it; and this animal was called by the Greeks hippopotamus. Around the Nile they depicted some little boys, who all cheerfully played, as is read also in Pliny, who, writing of a certain sort of marble, hard and rough as iron, says that Vespasian placed in the great Temple of Peace a statue of the Nile, the greatest that had ever been seen, with sixteen little children, who played around it, and signified that the waters of that river at the greatest rise that they made reached the height of sixteen cubits.
 
 > Image of the river Nile, seated upon the Sphinx, with many boys around, who denote the degrees of the rise of that river, which are sixteen cubits as a rule.
 
@@ -402,8 +402,11 @@ And some called him the god of the year, who according to the seasons takes on d
 
 - [?1] Scan 0245: the Ovid verse has “l’empie terga” (“the full / filled backs”). This is probably a misprint for “l’ampie terga” (Ovid has *ingentes umeros*, huge shoulders); translated “my broad back”.
 - [?2] Scan 0250: “le spauenteuoli reste” (Scylla’s “reste”). Probably a misprint for “teste” (heads), which suits the context (six necks, six heads); translated “heads”.
-- [?3] Scan 0268: the marginal note reads “Cerere di douitia” (“Ceres of plenty”), but the text speaks of the “corno di douitia”. Evidently a misprint for “Corno”; rendered as the note “Horn of plenty”, with the mark placed on “Horn”.
-- [?4] Scan 0268: of the teeth of the river horse the source says “in fuori, & incerti” (“sticking out, and uncertain”). Rendered “sticking out, and uneven”; the sense of “incerti” is not certain (perhaps “irregular”).
+- [?3] There is a misprint in the book: Decreto is printed, the correct form is Derceto.
+- [?4] There is a misprint in the book: Decreto is printed, the correct form is Derceto.
+- [?5] There is a misprint in the book: Decreto is printed, the correct form is Derceto.
+- [?6] Scan 0268: the marginal note reads “Cerere di douitia” (“Ceres of plenty”), but the text speaks of the “corno di douitia”. Evidently a misprint for “Corno”; rendered as the note “Horn of plenty”, with the mark placed on “Horn”.
+- [?7] Scan 0268: of the teeth of the river horse the source says “in fuori, & incerti” (“sticking out, and uncertain”). Rendered “sticking out, and uneven”; the sense of “incerti” is not certain (perhaps “irregular”).
 - Scan 0245: “ò che ei và per lo mare tranquillo” — “ò che” is unclear (perhaps a trace of an “either … or” that was never completed, or simply “ò” for “o”); translated “says … that he goes over the calm and quiet sea”.
 - Scan 0245: “al nuotare le fa facili” (of the arms of Glaucus) — “le” may refer to the arms or to the waves; translated “makes them easy for swimming”, leaving the ambiguity as it is in the source.
 - Scan 0248: “gongole” is a rare word (probably the Venetian *gongola*, a kind of clam); rendered “shellfish”. The reading “like the upper shell of …” is kept as printed.

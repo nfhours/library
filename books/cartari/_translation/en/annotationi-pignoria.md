@@ -525,7 +525,7 @@ This fable of Prodicus is touched on by Philostratus in the life of Apollonius o
 The winged Harpocrates is not so well represented as was needed. For upon the left arm there ought to have been propped a cornucopia, which the engraver forgot; he is seen, however, without wings too, and with the cornucopia alone, as here:
 
 <aside>Fol. 313, Book II.</aside>
-This thought of the prudent and wise government of the world is seen expressed on a medal of the Emperor M. Aurelius the Philosopher, of which we have represented the likeness here below; unless, however, whoever had it struck intended to allude to the conceit of Seneca, of which the Author speaks at fol. 151. The same Minerva, on another medal, likewise of M. Aurelius, is seen commanding I know not what to him who builds the ship Argo; of which see Apollodorus in the *Library*, Vettius Bassus on the *Phenomena* of Germanicus Caesar, Hyginus in the *Poetic Astronomy*. And it will mean the providence and wise mind of the Emperor in the government of the empire. And that working of Argus about the prow of the ship will perhaps wish to show that piece of speaking plank, taken from the oaks of Dodona, which, as Apollodorus and Hyginus note, was fixed to the prow of the said ship.
+This thought of the prudent and wise government of the world is seen expressed on a medal of the Emperor M. Aurelius the Philosopher, of which we have represented the likeness here below; though perhaps whoever had it struck did not intend to allude to the conceit of Seneca [?16], of which the Author speaks at fol. 151. The same Minerva, on another medal, likewise of M. Aurelius, is seen commanding I know not what to him who builds the ship Argo; of which see Apollodorus in the *Library*, Vettius Bassus on the *Phenomena* of Germanicus Caesar, Hyginus in the *Poetic Astronomy*. And it will mean the providence and wise mind of the Emperor in the government of the empire. And that working of Argus about the prow of the ship will perhaps wish to show that piece of speaking plank, taken from the oaks of Dodona, which, as Apollodorus and Hyginus note, was fixed to the prow of the said ship.
 
 This figure of Jupiter, who strikes the Giants with lightning, has been taken from an ancient votive offering of the Cornelia family. The cameos from ancient intaglios of the heretics of the school of Valentinus and of Basilides, as many of them are seen in my book of the exposition of the Isiac Table, and some in Abraham Gorlaeus. But that the Giants had feet of this sort, besides Suidas cited by the Author, is found also in the ancient commentator on Statius, in Ovid, in Apollodorus, and in Sidonius, who notes in particular the heads of the serpents fixed in their soles, or, to say it better, in place of soles, exactly as is seen on the prodigious amulets (so to speak) of the above-written heretics.
 
@@ -542,9 +542,9 @@ The image of Fury was thus drawn by Zucchero, a skilled painter of our times. An
 <aside>Fol. 327, line 25.</aside>
 In Augusta, in the garden of the late Most Illustrious Signor MARCUS WELSER, there is seen a free-standing stone, carved with figures on three sides, with an inscription on the fourth. The figures are Mercury, Victory, and Mars naked, as below. The inscription is such:
 
-> Aelius Mont [?16] Haeder [?17] for his own safety and for that of P. Hisp. [?18] Canavilus, son, and of Aelia Montestina, wife, fulfilled his vow willingly and deservedly; given, dedicated, consecrated on the seventh day before the Kalends of September, in the second consulship of Geta and the second of Plautianus.
+> Aelius Mont [?17] Haeder [?18] for his own safety and for that of P. Hisp. [?19] Canavilus, son, and of Aelia Montestina, wife, fulfilled his vow willingly and deservedly; given, dedicated, consecrated on the seventh day before the Kalends of September, in the second consulship of Geta and the second of Plautianus.
 
-And on the authority of this inscription the above-said most learned gentleman said that it could be demonstrated that the subscription of more than twenty laws of the Code is erroneous. And by the figures of this stone the religion of the Germans is seen, who adored principally Mercury, then Mars and Hercules, as Tacitus writes in his book on the customs of the Germans [?19]; although this third is not seen there.
+And on the authority of this inscription the above-said most learned gentleman said that it could be demonstrated that the subscription of more than twenty laws of the Code is erroneous. And by the figures of this stone the religion of the Germans is seen, who adored principally Mercury, then Mars and Hercules, as Tacitus writes in his book on the customs of the Germans [?20]; although this third is not seen there.
 
 <aside>Fol. 333.</aside>
 The military standards have been taken from the Sepulchre of M. Pompeius Asper, where are seen the eagle and the images named by the ancient writers on military matters, and by the moderns also, among whom see Henry Savile. In the cameo is figured the reverse of a medal of the Emperor Trajan, on which Victory holds under her feet the battering ram, the formidable engine of antiquity, in place of which our artillery has succeeded. And the said medal will perhaps have been struck for some victory obtained with the battering ram.
@@ -553,7 +553,7 @@ The military standards have been taken from the Sepulchre of M. Pompeius Asper, 
 The whole has been taken from ancient intaglios on diverse gems. The pomegranate, showing concord and union, means that from the union of forces and of minds Victory must needs be born.
 
 <aside>Fol. 339.</aside>
-This pomp of Bacchus has been taken entire from an ancient cameo, in which are seen all the improprieties of this filthiest part of idolatry: the nudity, the torches, the cymbals, the pipes, the satyrs, the dance [?20], and the pouring out into every sort of wickedness, as many of the ancient Fathers have written in particular.
+This pomp of Bacchus has been taken entire from an ancient cameo, in which are seen all the improprieties of this filthiest part of idolatry: the nudity, the torches, the cymbals, the pipes, the satyrs, the dance [?21], and the pouring out into every sort of wickedness, as many of the ancient Fathers have written in particular.
 
 <aside>Fol. 341.</aside>
 In the cameo Comus is seen in the manner in which he was once seen in a cameo of Monsignor the Patriarch Grimani, with a drinking vessel beside him, upon a little column.
@@ -564,7 +564,7 @@ Silenus is seen in various antiquities, but excellently on two sarcophagi placed
 > And a heavy cantharus hung by its worn handle.
 > *(Virgil)*
 
-Of this mad company the Bacchantes were no small part, who are seen expressed in various places. We shall put one of them here below, taken from a most beautiful cut sardonyx, which was the Most Christian King's, under the keeping of Monsignor de Bagarris. In this carving are seen the desperate, life-spurning outrages [?21] which they committed at their mad festivals, the herms that served for indecent use, a satyr with cymbals and with the ferula, etc.
+Of this mad company the Bacchantes were no small part, who are seen expressed in various places. We shall put one of them here below, taken from a most beautiful cut sardonyx, which was the Most Christian King's, under the keeping of Monsignor de Bagarris. In this carving are seen the desperate, life-spurning outrages [?22] which they committed at their mad festivals, the herms that served for indecent use, a satyr with cymbals and with the ferula, etc.
 
 <aside>Fol. 344.</aside>
 This whole pomp has been taken from an ancient jasper of Monsignor de Bagarris, antiquary of the Most Christian King, drawn and explained excellently by Casaubon in his first book on Satiric Poetry, at chapter 2. It is indeed true that in our present design the painter has omitted a mask under the feet of the first boy, who carries the leg of Bacchus on his shoulder, and a vessel of wine overturned between the feet of the Satyr. In the cameo Bacchus has been put, with the cornucopia and with the tiger, taken from an ancient intaglio.
@@ -717,20 +717,21 @@ THE END.
 - [?7] There is a misprint in the book: a word close to “adored” is printed, whereas by the sense it should be “smelled”; translated “smelled”.
 - [?8] There is a misprint in the book: Cepi is printed, whereas by the sense it should be Capi (“heads”); translated “heads”.
 - [?9] The word is apparently a corrupted Latin “hangings”; left as printed.
-- [?10] There is a misprint in the name in the book: Decreto is printed, whereas elsewhere in the same book it is Derceto; translated with the correct name “Derceto”.
+- [?10] There is a misprint in the book: Decreto is printed, the correct form is Derceto.
 - [?4] The word in the book (“we shall not place”) contradicts the continuation of the sentence; most likely a misprint; translated “shall place”.
 - [?6] There is a misprint in the name in the book: *Lenino Torrentio* is printed (“Lenin Torrentius”), whereas earlier (on Suetonius, chapter 31) the same name is printed correctly: *Leuino Torrentio*, i.e. Livinus Torrentius, Bishop of Antwerp. Rendered here as printed; the same scholar is meant.
 - [?13] In the book a word, “war”, is apparently omitted — “in Book 1 of the war with the Goths”; translated according to the sense.
 - [?11] The Latin quotation is corrupt at this place and breaks off; translated literally as far as the text allows.
 - [?12] The Latin quotation breaks off at this place as well; translated literally as far as the text allows.
 - [?14] One letter in this word cannot be read on the scan; by the sense it is “many”.
-- [?19] There is a misprint in the name of the people in the book: “Grimani” is printed, whereas it should be “Germans” — the reference is to Tacitus's book on Germany; translated “Germans”.
+- [?20] There is a misprint in the name of the people in the book: “Grimani” is printed, whereas it should be “Germans” — the reference is to Tacitus's book on Germany; translated “Germans”.
 - [?15] In the book an extra “and” stands before “Caesar”; it is not in Martial's verse; translated without it.
-- [?16] This name (Mont) is printed in the book abbreviated, and it is not quite clear what it means; left as printed.
-- [?17] This name (Haeder) is printed unclearly; left as printed.
-- [?18] This abbreviation (P. Hisp.) is not quite clear; left as printed.
-- [?20] The word at this place is broken in the book by a line-break and does not form a clear word; translated according to the sense — “the dance”.
-- [?21] There is a misprint in the book: a word close to “waning” is printed, whereas by the sense it should be “outrages”; translated “outrages”.
+- [?16] The phrase is ambiguous in the original: “se però … non hebbe pensiero” can mean either “unless he intended to allude” or “perhaps he did not intend to allude”; the second sense is chosen.
+- [?17] This name (Mont) is printed in the book abbreviated, and it is not quite clear what it means; left as printed.
+- [?18] This name (Haeder) is printed unclearly; left as printed.
+- [?19] This abbreviation (P. Hisp.) is not quite clear; left as printed.
+- [?21] The word at this place is broken in the book by a line-break and does not form a clear word; translated according to the sense — “the dance”.
+- [?22] There is a misprint in the book: a word close to “waning” is printed, whereas by the sense it should be “outrages”; translated “outrages”.
 
 **Misprints without [?]** (sense and grammar are not affected; corrected silently): “Pindentemq;” (*Pendentemque*, scan 0528, a verse of Virgil), “Vexape”, “Dulchias”, “oncrantur”, “Numie” (scans 0531–0532), “rappresenqui” (0524), “tagliata” (0529: *tagliato*), “sì vede”, “si vede è qui” (0551, the extra “è”), “Ciserone” (0548), “vittorria” (0554), “Co lo” (0563, *Collo*), “Gradino” (0552, *Gradiuo*), “figorata” (0552), “Bacati” (0555, *Baccanti*), “Egidaq;” (0548, *Aegidaque*), “compratiti” (0503, *compartiti*), “Mantona” (0503, *Mantoua*), “Aurore” (0505, *Autore*), “Grammato” (0505, *Grammatico*), “fano” (0507, *fanno*), “Frigiaua” (0525, *Frigiana*), “Bibilioth.” (0550), “eccellentemene” (0555), “Scuerina” (0569, *Severina*; rendered “Severina”), “Calli piga” (0569, *Callipiga*), “pare dell'Erizzo” (0563, *parere*).
 
