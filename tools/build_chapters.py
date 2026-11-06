@@ -50,7 +50,7 @@ ASIDE = re.compile(r"^<aside>(.*)</aside>\s*$")
 NOT_CAP = {
     "mercurio": ["Я есмь пастырь добрый.", "I am the good shepherd"],
     "minerva": ["Пусть от меня учатся быть благочестивым", "Let people learn from me"],
-    "annotationi-pignoria": ["Элий Монт"],
+    "annotationi-pignoria": ["Элий Монт", "Aelius Mont"],
 }
 SCAN_TAIL = re.compile(r"\s*\((?:скан|сканы|scan|scans) [^)]*\)\s*$")
 
