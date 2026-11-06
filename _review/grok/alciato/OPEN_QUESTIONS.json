@@ -312,6 +312,23 @@
    "resolution": null,
    "resolved_by": null,
    "source": "Пересверка pending_review 2026-11-06: зум x5–x9 — после второго π c-образный знак (ο? ε? лигатура οι?), затем один ι с циркумфлексом и α; по скану Getty не решается. Нужен other_model или second_copy (BnF)."
+  },
+  {
+   "id": "Q19",
+   "frame": "0119",
+   "page": "113",
+   "location": "эмблема 103 (In astrologos), эпиграмма, строка 6, слово 2",
+   "diplomatic_as_read": "Nam eade[?] impoſtor,dum ſuper aſtra volat.",
+   "candidates": [
+    "eadem impostor — «тот же обманщик» (anaphora к «cæra eadem» строкой выше; читается по диплом. «eade» + выносная буква m, обычная для набора конца строки); подлежащее при этом без явного глагола (эллипсис)",
+    "cadet impostor — «обманщик падёт» (вариант, засвидетельствованный в независимых изданиях Alciato — Glasgow/MUN дают «Nam cadet impostor», с явным глаголом; расходится по первой букве c/e с тем, что напечатано в экземпляре Getty)"
+   ],
+   "type": "textual_variant",
+   "resolver": "second_copy",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "Задача: восстановление [?] в слое чтения emblems.json (2026-11-06). Диплом. слой этого экземпляра (Getty) ясно даёт «eade[?]» — начальные буквы e-a-d-e, не c-a-d-e-t; но цитируемый в других изданиях текст («Alciato at Glasgow», MUN) читается «cadet impostor» с иным смыслом (обманщик упадёт, а не тот же обманщик). Не решено по одному скану Getty; нужна проверка второго экземпляра (Gallica BnF) или сверка с другим изданием 1551 г., чтобы определить, вариант это печати или опечатка/дефект литеры."
   }
  ]
 }

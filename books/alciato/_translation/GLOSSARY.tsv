@@ -1,0 +1,50 @@
+latin	russian	english	french	comment
+Iuppiter, Iovis	Юпитер	Jupiter	Jupiter	форма и написание — как в books/cartari/_translation/GLOSSARY.tsv (общая для обеих книг библиотеки)
+Venus, Veneris	Венера	Venus	Vénus	форма — как у Cartari
+Mercurius	Меркурий	Mercury	Mercure	форма — как у Cartari
+Minerva	Минерва	Minerva	Minerve	форма — как у Cartari
+Pallas, Palladis	Паллада	Pallas	Pallas	эпитет Минервы; форма — как у Cartari
+Bacchus	Вакх	Bacchus	Bacchus	форма — как у Cartari
+Hercules	Геркулес	Hercules	Hercule	форма — как у Cartari («Hercole» в их тексте)
+Diana	Диана	Diana	Diane	форма — как у Cartari
+Apollo	Аполлон	Apollo	Apollon	форма — как у Cartari
+Phoebus	Феб	Phoebus	Phébus	эпитет Аполлона; форма — как у Cartari
+Saturnus, Saturnius	Сатурн	Saturn	Saturne	форма — как у Cartari; «volucris Saturnia» (эмблема 33) — орёл, птица Юпитера, сына Сатурна, не отдельное божество
+Fortuna	Фортуна	Fortune	Fortune	у Alciato (эмблема 98) — персонификация/статуя на шаре, с заглавной буквы (ср. Cartari: «судьба» строчными, «Фортуна» заглавными только для богини культа — здесь тот случай)
+Nemesis	Немесида	Nemesis	Némésis	форма — как у Cartari (эмблема 46, «Spes & Nemesis» — Надежда и Немесида у общего алтаря)
+Cupido	Купидон	Cupid	Cupidon	форма — как у Cartari; в тексте Alciato часто просто «Amor» (см. ниже) как синоним того же персонажа
+Amor	Амур (Купидон)	Love, Cupid	Amour (Cupidon)	синоним Cupido в текстах Alciato (24 упоминания); переводить тем же именем, что выбрано для Cupido в данной эмблеме, либо описательно «любовь/Амур» — по контексту конкретной эмблемы
+Pan	Пан	Pan	Pan	форма — как у Cartari
+Narcissus	Нарцисс	Narcissus	Narcisse	юноша мифа о самолюбии (эмблема 69, Philautia); не путать с записью «Narciso» = цветок в glossary Cartari — там другое значение того же слова
+Icarus, Icari	Икар	Icarus	Icare	сын Дедала, упавший в море (эмблема 103, In astrologos); НЕ путать с «Icaro»/Icarius в glossary Cartari — там отец Пенелопы, другое лицо
+Circe	Цирцея	Circe	Circé	эмблема 76 (Cavendum a meretricibus)
+Scylla	Сцилла	Scylla	Scylla	двоеформенное чудовище, упомянута как жертва/пример волшбы Цирцеи (эмблема 76)
+Picus	Пик	Picus	Picus	царь, превращённый Цирцеей (эмблема 76)
+Niobe	Ниоба	Niobe	Niobé	эмблема 67 (Superbia)
+Lais	Лаида	Lais	Laïs	куртизанка из Коринфа/Эфиры (эмблема 74, Tumulus meretricis)
+Thetis	Фетида	Thetis	Thétis	мать Ахилла (эмблема 135)
+Achilles, Aeacides	Ахилл	Achilles	Achille	«Aeacides» — эпитет «потомок Эака» (эмблема 135)
+Hector	Гектор	Hector	Hector	эмблема 135
+Ulysses, Laertiades	Улисс (Одиссей)	Ulysses	Ulysse	«сын Лаэрта» (эмблема 41, Unum nihil duos plurimum posse)
+Diomedes, Tydides	Диомед	Diomedes	Diomède	«сын Тидея» (эмблема 41)
+Castor et Pollux	Кастор и Поллукс	Castor and Pollux	Castor et Pollux	сыновья Юпитера, «natus uterque Iovis» (эмблема 99)
+Semele	Семела	Semele	Sémélé	мать Вакха (эмблема 99)
+Latona	Латона	Latona (Leto)	Latone	форма — как у Cartari; мать Аполлона и Дианы (эмблема 99)
+Ganymedes	Ганимед	Ganymede	Ganymède	унесённый орлом Юпитера отрок (эмблема 4, In Deo laetandum)
+Bellerophon	Беллерофонт	Bellerophon	Bellérophon	герой, укротивший Химеру с помощью Пегаса (эмблема 14)
+Chimaera	Химера	Chimaera	Chimère	эмблема 14
+Pegasus	Пегас	Pegasus	Pégase	крылатый конь Беллерофонта (контекст эмблемы 14)
+Occasio	Случай (Окказио)	Occasion	Occasion	персонификация удобного случая, статуя работы Лисиппа (эмблема 121, In occasionem)
+Lysippus	Лисипп	Lysippus	Lysippe	скульптор, автор статуи Случая (эмблема 121)
+Terminus	Термин	Terminus	Terminus	римское божество границы, межевой камень (эмблема 157)
+Zenalis	Зеналис	Zenalis	Zénalis	мастер, изобразивший в воске Улисса и Диомеда (эмблема 41); форма тёмная, возможно искажение другого имени — переводить как напечатано, без замены на «Зевксис»
+Praxiteles	Пракситель	Praxiteles	Praxitèle	скульптор (эмблемы 25 «In statuam Bacchi», 67 «Niobe»)
+Aristomenes	Аристомен	Aristomenes	Aristomène	мессенский герой, под чьим именем Alciato прославляет Карла V (эмблема 33)
+Apicius	Апиций	Apicius	Apicius	римский гурман, пример чревоугодия (эмблема 90)
+Dionysius	Дионисий	Dionysius	Denys	тиран, пример чревоугодия (эмблема 90); не путать с Bacchus/Dionysos — богом вина
+Homerus, Maeonides	Гомер	Homer	Homère	«Maeonides» — эпитет «Меонийский» = Гомер (эмблема 4 и др.)
+Ovidius	Овидий	Ovid	Ovide	форма — как у Cartari
+Midas	Мидас	Midas	Midas	форма — как у Cartari; царь Фригии
+Actaeon	Актеон	Actaeon	Actéon	эмблема 52 (In receptatores sicariorum), «novus Actaeon»
+Tantalus	Тантал	Tantalus	Tantale	упомянут в ряду мифологических примеров (сверить эмблему при переводе)
+Prometheus	Прометей	Prometheus	Prométhée	форма — как у Cartari; эмблема 102 (Quae supra nos, nihil ad nos)
