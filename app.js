@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "106";
+  var APP_VER = "107";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -1282,7 +1282,7 @@
     return (b.figs||[]).map(function(f){
       var src = BASE+"books/"+(book.meta.ornaments && book.meta.ornaments.source || book.slug)+"/engravings/"+f.eng;
       return '<figure class="ic-ch-fig" data-for="'+b.n+'"><div class="ic-fig ic-fig-eng" data-src="'+esc(src)+'"><img class="ic-fade-img ic-eng-display" loading="lazy" src="'+esc(src)+'"'+
-        (f.w&&f.h ? ' width="'+f.w+'" height="'+f.h+'"' : "")+' alt="'+esc(t("engravingAlt",{title:f.pt||""}))+'"></div></figure>';
+        (f.w&&f.h ? ' width="'+f.w+'" height="'+f.h+'" style="aspect-ratio:'+f.w+'/'+f.h+'"' : "")+' alt="'+esc(t("engravingAlt",{title:f.pt||""}))+'"></div></figure>';
     }).join("");
   }
   function blockHtml(book, b){
@@ -1293,7 +1293,7 @@
       var src = b.eng ? BASE+"books/"+(book.meta.ornaments && book.meta.ornaments.source || book.slug)+"/engravings/"+b.eng : "";
       return '<figure class="ic-ch-fig"'+n+'>'+
         (src ? '<div class="ic-fig ic-fig-eng" data-src="'+esc(src)+'"><img class="ic-fade-img ic-eng-display" loading="lazy" src="'+esc(src)+'"'+
-          (b.w&&b.h ? ' width="'+b.w+'" height="'+b.h+'"' : "")+' alt="'+esc(t("engravingAlt",{title:b.pt || b.text.slice(0,60)}))+'"></div>' : "")+
+          (b.w&&b.h ? ' width="'+b.w+'" height="'+b.h+'" style="aspect-ratio:'+b.w+'/'+b.h+'"' : "")+' alt="'+esc(t("engravingAlt",{title:b.pt || b.text.slice(0,60)}))+'"></div>' : "")+
         '<figcaption>'+inl(b.text, qs)+'</figcaption></figure>';
     }
     if(b.t==="h") return '<h'+(b.lv===2?2:3)+' class="ic-ch-h"'+n+'>'+inl(b.text, qs)+'</h'+(b.lv===2?2:3)+'>';
@@ -1316,8 +1316,17 @@
       }
       var pmRows = (ch && chap.pm[slug]) || [], pmAt = {};
       pmRows.forEach(function(r, i){ (pmAt[r[2]] = pmAt[r[2]] || []).push(i); });
+      // Если несколько страниц подряд начинаются с одного и того же блока (страница без своего текста,
+      // например гравюра на весь лист), их метки сливаются в одну: «с. 415–416» вместо двух подряд.
       function pgmHtml(b){
-        return (pmAt[b.n] || []).map(function(i, k){
+        var idxs = pmAt[b.n] || [];
+        if(!idxs.length) return "";
+        var first = pmRows[idxs[0]][1], last = pmRows[idxs[idxs.length-1]][1];
+        if(idxs.length > 1 && /^\d+$/.test(first) && /^\d+$/.test(last)){
+          var mlb = t("tvPage")+" "+first+"–"+last;
+          return '<div class="ic-pgm"><button type="button" class="ic-pgm-b" data-pi="'+idxs[0]+'" aria-pressed="false" aria-label="'+esc(t("svOpen",{p:first}))+'">'+esc(mlb)+'</button></div>';
+        }
+        return idxs.map(function(i, k){
           var lb = pgLabel(pmRows[i][1]);
           return '<div class="ic-pgm" style="--k:'+k+'"><button type="button" class="ic-pgm-b" data-pi="'+i+'" aria-pressed="false" aria-label="'+esc(t("svOpen",{p:pmRows[i][1]}))+'">'+esc(lb)+'</button></div>';
         }).join("");
@@ -1381,7 +1390,6 @@
       }
       if(target){
         if(okN){ if(figs.length) figs.forEach(function(f){ f.classList.add("ic-ch-hl"); }); else target.classList.add("ic-ch-hl"); }
-        // у гравюр заданы width/height, поэтому раскладка не прыгает; повтор — после шрифтов
         var off = (parseFloat(root.dataset.top) || 0) + (okN ? 24 : 40);
         var snap = function(){
           if(gen !== renderGen) return;
@@ -1393,7 +1401,27 @@
           window.scrollTo(0, window.scrollY + target.getBoundingClientRect().top - off);
         };
         snap();
+        // На медленной связи гравюры/шрифты выше цели могут догружаться ещё долго после первого
+        // прыжка; ширина/высота у <img> заданы, но пока файл не пришёл, браузер иногда всё равно
+        // чуть сдвигает раскладку (шрифт, декодирование картинки). Поэтому держим прицел на месте:
+        // переповторяем snap() при каждой догрузке картинки и при готовности шрифтов, пока либо не
+        // кончились картинки, либо читатель сам не тронул страницу (тогда переставать мешать).
         if(document.fonts && document.fonts.ready) document.fonts.ready.then(snap);
+        var stopped = false;
+        function stop(){ stopped = true; document.removeEventListener("wheel", stop); document.removeEventListener("touchmove", stop); document.removeEventListener("keydown", stop); }
+        document.addEventListener("wheel", stop, {passive:true, once:true});
+        document.addEventListener("touchmove", stop, {passive:true, once:true});
+        document.addEventListener("keydown", stop, {once:true});
+        var imgs = Array.prototype.slice.call(bodyEl.querySelectorAll("img"));
+        var pending = imgs.filter(function(im){ return !im.complete; });
+        pending.forEach(function(im){
+          function onDone(){
+            im.removeEventListener("load", onDone); im.removeEventListener("error", onDone);
+            if(!stopped && gen === renderGen) snap();
+          }
+          im.addEventListener("load", onDone); im.addEventListener("error", onDone);
+        });
+        if(pending.length) setTimeout(stop, 12000);
       } else toTop(true);
       nudgeRepaint();
     });
@@ -2129,7 +2157,7 @@
             '<div class="ic-pc-body">'+
               '<p class="ic-pc-count">'+esc(t("plCount",{k:idx+1, n:gal.length}))+'</p>'+
               '<h1 class="ic-pc-title">'+esc(enCapB ? t("plateTitle",{n:idx+1}) : p.title)+'</h1>'+
-              (enCapB ? '<p class="ic-pc-ru" lang="en">'+inl(enCapB.text, qmState(enCapB))+'</p>' : p.ru_caption ? '<p class="ic-pc-ru" lang="ru">'+inl(p.ru_caption, capB ? qmState(capB) : null)+'</p>' : '<p class="ic-pc-none">'+esc(t("plNoCap"))+'</p>')+
+              (enCapB ? '<p class="ic-pc-ru" lang="en">'+inl(enCapB.text, qmState(enCapB))+'</p>' : p.ru_caption ? '<p class="ic-pc-ru" lang="ru">'+inl(p.ru_caption, capB ? qmState(capB) : null)+'</p>' : "")+
               (p.it_caption ? '<p class="ic-pc-it" lang="it">'+esc(p.it_caption)+'</p>' : "")+
               (meta.length ? '<p class="ic-pc-meta">'+meta.join('<span class="ic-pc-sep" aria-hidden="true"> · </span>')+'</p>' : "")+
               explBlock+

@@ -461,8 +461,8 @@ a.ic-ch-btn{display:inline-block;font-size:.78em;letter-spacing:.06em;text-trans
 /* на узком экране текст по левому краю с переносами */
 @media (max-width:899px){
   .ic-ch-body p{text-align:left;text-align-last:auto;hyphens:auto}
-  /* помета отдельной строкой над своим абзацем, прижата вправо; несколько помет — столбиком */
-  .ic-ch-aside{float:none;clear:none;width:fit-content;max-width:80%;margin:.9em 0 .3em auto;font-size:.78em}
+  /* помета отдельной строкой над своим абзацем, у всех один и тот же левый край (не по правому и не по ширине текста) */
+  .ic-ch-aside{float:none;clear:none;width:fit-content;max-width:80%;margin:.9em 0 .3em 0;font-size:.78em;text-align:left}
   .ic-ch-aside+.ic-ch-aside{margin-top:.2em}
   /* стихи: каждая строка отдельным блоком, перенос с висячим отступом */
   .ic-ch-quote .ic-verse br{display:none}
@@ -695,9 +695,9 @@ button.ic-sr-more{display:block;margin:14px 0 0;padding:8px 16px;font:inherit;fo
 .ic .ic-pgm-b[aria-pressed="true"]{color:var(--accent);opacity:1;background:var(--accent-soft)}
 @media (hover:hover){.ic .ic-pgm-b:hover{color:var(--accent);opacity:1}}
 @media (max-width:999px){
-  .ic-pgm{height:auto;display:flex;justify-content:flex-end;margin:.5em 0 .1em}
-  .ic .ic-pgm-b{position:static;margin:0;padding:6px 8px;font-size:.62em;opacity:.8;border:1px solid var(--rule);border-radius:12px}
-  .ic .ic-pgm-b[aria-pressed="true"]{border-color:var(--accent)}
+  .ic-pgm{height:auto;display:flex;justify-content:flex-end;margin:.4em 0 .1em}
+  .ic .ic-pgm-b{position:static;margin:0;padding:1px 0;border:0;border-radius:0;background:none;font-size:.64em;opacity:.85}
+  .ic .ic-pgm-b[aria-pressed="true"]{background:none;box-shadow:inset 0 -1px 0 var(--accent)}
   .ic-pgm+.ic-pgm{margin-top:.1em}
 }
 .ic.ic-has-sv,.ic-sv-panel{--pw:min(560px,calc(100vw - 800px))}
