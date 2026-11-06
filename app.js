@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "95";
+  var APP_VER = "96";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -142,6 +142,27 @@
     tvPage:       {ru:"с.", en:"p.", fr:"p."},
     tvOpen:       {ru:"Открыть место в переводе", en:"Open the place in the translation", fr:"Ouvrir l’endroit dans la traduction"},
     hmNames:      {ru:"Имена", en:"Names", fr:"Noms"},
+    hmNamesSub:   {ru:"Боги, герои, авторы, места и народы", en:"Gods, heroes, authors, places and peoples", fr:"Dieux, héros, auteurs, lieux et peuples"},
+    nmSub:        {ru:"Имена из глоссария перевода. Карточка имени показывает гравюры, где оно названо, и все места перевода, где оно встречается, во всех падежах.", en:"Names from the translation glossary. A name’s page shows the engravings that name it and every place in the translation where it occurs, in any case form.", fr:"Noms du glossaire de la traduction. La fiche d’un nom montre les gravures qui le citent et tous les passages de la traduction où il apparaît, à tous les cas."},
+    nmSearchPh:   {ru:"Найти имя: русское или итальянское…", en:"Find a name: Russian or Italian…", fr:"Chercher un nom : russe ou italien…"},
+    nmTypeLabel:  {ru:"Тип имени", en:"Name type", fr:"Type de nom"},
+    nmAll:        {ru:"Все", en:"All", fr:"Tous"},
+    nmT_g:        {ru:"Божества", en:"Deities", fr:"Divinités"},
+    nmT_c:        {ru:"Персонажи", en:"Characters", fr:"Personnages"},
+    nmT_a:        {ru:"Авторы", en:"Authors", fr:"Auteurs"},
+    nmT_p:        {ru:"Места", en:"Places", fr:"Lieux"},
+    nmT_n:        {ru:"Народы", en:"Peoples", fr:"Peuples"},
+    nmT1_g:       {ru:"божество", en:"deity", fr:"divinité"},
+    nmT1_c:       {ru:"персонаж", en:"character", fr:"personnage"},
+    nmT1_a:       {ru:"автор", en:"author", fr:"auteur"},
+    nmT1_p:       {ru:"место", en:"place", fr:"lieu"},
+    nmT1_n:       {ru:"народ", en:"people", fr:"peuple"},
+    nmFound:      {ru:"Найдено имён: {n}", en:"Names found: {n}", fr:"Noms trouvés : {n}"},
+    nmTotal:      {ru:"Имён: {n}", en:"Names: {n}", fr:"Noms : {n}"},
+    nmPlates:     {ru:"Гравюры", en:"Engravings", fr:"Gravures"},
+    nmMentions:   {ru:"Упоминания", en:"Mentions", fr:"Mentions"},
+    nmStat:       {ru:"Абзацев с упоминанием: {n}, глав: {c}", en:"Passages mentioning it: {n}, chapters: {c}", fr:"Passages qui le citent : {n}, chapitres : {c}"},
+    nmNoMentions: {ru:"В тексте перевода имя не встречается; оно названо только на гравюрах.", en:"The name does not occur in the text of the translation; it is named only on the engravings.", fr:"Le nom n’apparaît pas dans le texte de la traduction ; il n’est cité que sur les gravures."},
     hmSoon:       {ru:"скоро", en:"soon", fr:"bientôt"},
     hmSearchGo:   {ru:"Найти", en:"Search", fr:"Chercher"},
     plRead:       {ru:"Читать в главе", en:"Read in the chapter", fr:"Lire dans le chapitre"},
@@ -521,6 +542,7 @@
     if(rest[0]==="home") return {slug:slug, view:"home", tab:rest[1]};
     if(rest[0]==="find") return {slug:slug, view:"find"};
     if(rest[0]==="index") return {slug:slug, view:"tavola"};
+    if(rest[0]==="names") return {slug:slug, view:"names", name:rest[1]};
     if(rest[0]==="plate" && rest[1]) return {slug:slug, view:"plate", plateNum:rest[1]};
     if(rest[0]==="ch" && rest[1]) return {slug:slug, view:"chapter", chapter:rest[1], block:rest[2], page:rest[3]};
     return {slug:slug, id:rest[0]};
@@ -541,6 +563,7 @@
       if(p.view==="home" && book.meta.home) renderHome(book, p.tab);
       else if(p.view==="chapter" && book.meta.chapters) renderChapter(book, p.chapter, p.block, p.page);
       else if(p.view==="tavola" && book.meta.tavola) renderTavola(book);
+      else if(p.view==="names" && book.meta.names) renderNames(book, p.name);
       else if(p.id && book.byId[p.id] && book.meta.chapters && state.lang==="ru" && book.chap===undefined)
         loadChapters(book, function(){ if(gen===renderGen) renderCard(book, book.byId[p.id]); });
       else if(p.view==="about") renderAbout(book);
@@ -1270,6 +1293,7 @@
       bindLangSwitch(root);
       var pgm = pageSpec && /^(\d+)-(\d+)-(\d+)$/.exec(pageSpec);
       root.querySelector(".ic-back").addEventListener("click",function(){
+        if(namesUi.chVia===location.hash){ history.back(); return; }
         if(pgm && book.meta.tavola){ if(tavolaUi.via===location.hash) history.back(); else location.hash = hrefFor(book, "index").replace(/^#/,""); }
         else if(book.meta.home) location.hash = hrefFor(book, "home"); else goIndex(book);
       });
@@ -1429,6 +1453,171 @@
     });
   }
 
+  /* ---------- имена (#/<slug>/names, #/<slug>/names/<id>; book.json "names": файл) ----------
+     names.json строит tools/build_names.py: имена из глоссария с типом, гравюрами и упоминаниями в русском переводе.
+     Упоминание — [глава, блок, позиция, длина, …] в тексте блока (у цитаты: строки через \n и «— автор»). */
+  var namesCache = {}, namesUi = {q:"", ty:"all", pos:{}, via:"", chVia:""};
+  var NM_TYPES = ["g","c","a","p","n"];
+  function loadNames(book, cb){
+    if(namesCache[book.slug]){ cb(namesCache[book.slug]); return; }
+    fetch(BASE+"books/"+book.slug+"/"+book.meta.names,{cache:"no-cache"}).then(function(r){ if(!r.ok) throw 0; return r.json(); })
+      .then(function(d){
+        d.byId = {};
+        d.names.forEach(function(e){
+          var m = (e.ru||"").toUpperCase().replace(/Ё/g,"Е").match(/[А-Я]/);
+          e.l = m ? m[0] : "#";
+          e.h = tvFold(e.ru+" "+(e.it||[]).join(" ")+" "+(e.v||[]).join(" "));
+          e.k = (e.ru||"").replace(/[«»\s]/g,"");
+          d.byId[e.id] = e;
+        });
+        d.names.sort(function(a,b){ return a.l===b.l ? a.k.localeCompare(b.k,"ru") : a.l.localeCompare(b.l,"ru"); });
+        namesCache[book.slug] = d; cb(d);
+      }).catch(function(){ cb(null); });
+  }
+  function nmBlockText(b){
+    if(b.t==="quote") return (b.lines||[]).join("\n")+(b.author ? "\n— "+b.author : "");
+    return b.text||"";
+  }
+  function nmPlain(s){ return esc(s.replace(/\*/g,"").replace(/\[\?\]/g,"").replace(/\n/g," / ")); }
+  function nmSnippet(text, sp){
+    var W = 85, s0 = Math.max(0, sp[0]-W), e0 = Math.min(text.length, sp[0]+sp[1]+W), i;
+    if(s0 > 0){ i = text.indexOf(" ", s0); if(i >= 0 && i < sp[0]) s0 = i+1; }
+    if(e0 < text.length){ i = text.lastIndexOf(" ", e0); if(i > sp[0]+sp[1]) e0 = i; }
+    var out = s0 > 0 ? "…" : "", cur = s0;
+    for(var k = 0; k < sp.length; k += 2){
+      if(sp[k] < cur || sp[k]+sp[k+1] > e0) continue;
+      out += nmPlain(text.slice(cur, sp[k]))+"<mark>"+nmPlain(text.slice(sp[k], sp[k]+sp[k+1]))+"</mark>";
+      cur = sp[k]+sp[k+1];
+    }
+    return out+nmPlain(text.slice(cur, e0))+(e0 < text.length ? "…" : "");
+  }
+  function nmCount(e){ return e.n||0; }
+  function renderNames(book, nameId){
+    var gen = renderGen;
+    loadNames(book, function(d){
+      if(gen !== renderGen) return;
+      if(!d){ root.innerHTML = '<div class="ic-wrap"><p class="ic-sub">'+esc(t("chNotYet"))+'</p></div>'; return; }
+      if(nameId){
+        loadChapters(book, function(chap){
+          if(gen !== renderGen) return;
+          renderNameCard(book, d, chap, d.byId[nameId], gen);
+        });
+        return;
+      }
+      var tcount = {all:d.names.length};
+      NM_TYPES.forEach(function(k){ tcount[k] = 0; });
+      d.names.forEach(function(e){ tcount[e.t]++; });
+      if(!tcount[namesUi.ty]) namesUi.ty = "all";
+      var letters = [];
+      d.names.forEach(function(e){ if(letters.indexOf(e.l)<0) letters.push(e.l); });
+      root.innerHTML =
+        '<div class="ic-wrap ic-tv ic-nm">'+
+          '<div class="ic-nav"><button type="button" class="ic-back">← '+esc(book.meta.home ? t("tvBack") : t("back"))+'</button><span class="ic-nav-pos"></span>'+langSwitch()+'</div>'+
+          '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("hmNames"))+'</h1></header>'+
+          '<p class="ic-tv-lead">'+esc(t("nmSub"))+'</p>'+
+          (state.lang!=="ru" ? '<p class="ic-ch-note">'+esc(t("chRuOnly"))+'</p>' : "")+
+          '<div class="ic-tv-bar">'+
+            '<span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("nmSearchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("nmSearchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
+            '<nav class="ic-tv-letters" aria-label="'+esc(t("tvLetters"))+'"></nav>'+
+          '</div>'+
+          '<div class="ic-tv-meta"><div class="ic-seg ic-nm-types" role="group" aria-label="'+esc(t("nmTypeLabel"))+'">'+
+            ["all"].concat(NM_TYPES).map(function(k){
+              return tcount[k] ? '<button type="button" class="ic-chip" data-ty="'+k+'" aria-pressed="'+(namesUi.ty===k)+'">'+esc(t(k==="all" ? "nmAll" : "nmT_"+k))+'</button>' : "";
+            }).join("")+'</div><p class="ic-count ic-tv-count"></p></div>'+
+          '<div class="ic-tv-list"></div>'+
+        '</div>';
+      bindLangSwitch(root);
+      root.querySelector(".ic-back").addEventListener("click",function(){ location.hash = book.meta.home ? hrefFor(book,"home") : ""; });
+      var q = root.querySelector(".ic-search"), list = root.querySelector(".ic-tv-list"), cnt = root.querySelector(".ic-tv-count"),
+          bar = root.querySelector(".ic-tv-bar"), lnav = root.querySelector(".ic-tv-letters");
+      q.value = namesUi.q;
+      function fill(){
+        var words = tvFold(q.value.trim()).split(/\s+/).filter(Boolean), html = "", n = 0, have = {}, cur = null;
+        d.names.forEach(function(e){
+          if(namesUi.ty !== "all" && e.t !== namesUi.ty) return;
+          if(words.length && !words.every(function(w){ return e.h.indexOf(w) >= 0; })) return;
+          if(e.l !== cur){ if(cur) html += '</section>'; cur = e.l; have[cur] = 1; html += '<section class="ic-tv-sec" id="nm-L'+(cur==="#" ? "0" : cur)+'"><h2>'+cur+'</h2>'; }
+          n++;
+          html += '<a class="ic-nm-row" href="'+esc(hrefFor(book, "names/"+e.id))+'">'+
+            '<span class="ic-tv-l"><span class="ic-tv-ru">'+esc(e.ru)+'</span> <span class="ic-tv-it" lang="it">'+esc((e.it||[]).join(" · "))+'</span></span>'+
+            '<span class="ic-nm-meta"><span class="ic-nm-type">'+esc(t("nmT1_"+e.t))+'</span>'+(e.n ? '<span class="ic-nm-n">'+e.n+'</span>' : "")+'</span></a>';
+        });
+        if(cur) html += '</section>';
+        list.innerHTML = html || '<p class="ic-empty">'+esc(t("tvNone"))+'</p>';
+        cnt.textContent = (words.length || namesUi.ty!=="all") ? t("nmFound",{n:n}) : t("nmTotal",{n:d.names.length});
+        lnav.innerHTML = letters.map(function(l){ return '<button type="button" data-l="'+(l==="#" ? "0" : l)+'"'+(have[l] ? "" : " disabled")+'>'+l+'</button>'; }).join("");
+      }
+      function barH(){ return bar.getBoundingClientRect().height + (parseFloat(root.dataset.top)||0) + 10; }
+      q.addEventListener("input",function(){ namesUi.q = q.value; fill(); });
+      wireSearchClear(q);
+      lnav.addEventListener("click",function(e){
+        var b = e.target.closest("button"); if(!b) return;
+        var el = document.getElementById("nm-L"+b.getAttribute("data-l"));
+        if(el) window.scrollTo(0, window.scrollY + el.getBoundingClientRect().top - barH());
+      });
+      root.querySelector(".ic-nm-types").addEventListener("click",function(e){
+        var b = e.target.closest("button"); if(!b || b.getAttribute("data-ty")===namesUi.ty) return;
+        namesUi.ty = b.getAttribute("data-ty");
+        root.querySelectorAll(".ic-nm-types .ic-chip").forEach(function(x){ x.setAttribute("aria-pressed", x===b); });
+        fill(); window.scrollTo(0, Math.min(window.scrollY, Math.max(0, list.getBoundingClientRect().top + window.scrollY - barH())));
+      });
+      list.addEventListener("click",function(e){
+        var a = e.target.closest("a.ic-nm-row");
+        if(a){ namesUi.pos[location.hash] = window.scrollY; namesUi.via = a.getAttribute("href"); }
+      });
+      fill();
+      var y = namesUi.pos[location.hash];
+      if(y){ delete namesUi.pos[location.hash]; requestAnimationFrame(function(){ if(gen===renderGen) window.scrollTo(0,y); }); }
+      else toTop(true);
+      nudgeRepaint();
+    });
+  }
+  function renderNameCard(book, d, chap, e, gen){
+    if(!e){ location.replace(hrefFor(book, "names")); return; }
+    var engBase = engBaseOf(book), pls = (e.pl||[]).map(function(id){ return chap && chap.pl.byId[id]; }).filter(Boolean);
+    var byCh = {}, order = [];
+    (e.m||[]).forEach(function(m){ if(!byCh[m[0]]){ byCh[m[0]] = []; order.push(m[0]); } byCh[m[0]].push(m); });
+    order.sort(function(a,b){ return a-b; });
+    var occ = 0; (e.m||[]).forEach(function(m){ occ += (m.length-2)/2; });
+    var gal = pls.length ? '<h2 class="ic-nm-h">'+esc(t("nmPlates"))+'</h2><ul class="ic-gal">'+pls.map(function(g){
+      return '<li><a class="ic-gal-item" href="'+esc(hrefFor(book, "plate/"+g.id))+'">'+
+        '<span class="ic-gal-img"><img loading="lazy" src="'+esc(engBase+"thumb/"+g.file+"_t.webp")+'" alt=""></span>'+
+        '<span class="ic-gal-cap">'+esc(g.title)+'</span></a></li>';
+    }).join("")+'</ul>' : "";
+    var ments = order.map(function(ci){
+      var slug = d.chapters[ci], ch = chap && chap.bySlug[slug];
+      if(!ch || !ch.blocks) return "";
+      return '<section class="ic-nm-ch"><h3>'+esc(chapTitle(ch))+' <span class="ic-nm-chn">'+byCh[ci].length+'</span></h3><ul class="ic-nm-ms">'+byCh[ci].map(function(m){
+        var b = ch.blocks[m[1]-1];
+        if(!b) return "";
+        return '<li><a href="'+esc(chapterHref(book, slug, m[1]))+'">'+nmSnippet(nmBlockText(b), m.slice(2))+'</a></li>';
+      }).join("")+'</ul></section>';
+    }).join("");
+    root.innerHTML =
+      '<div class="ic-wrap ic-tv ic-nm">'+
+        '<div class="ic-nav"><button type="button" class="ic-back">← '+esc(t("hmNames"))+'</button><span class="ic-nav-pos"></span>'+langSwitch()+'</div>'+
+        '<header class="ic-head"><p class="ic-kicker">'+esc(t("nmT1_"+e.t))+'</p><h1 class="ic-h-fr">'+esc(e.ru)+'</h1>'+
+          ((e.it||[]).length ? '<p class="ic-nm-it" lang="it">'+esc(e.it.join(" · "))+'</p>' : "")+'</header>'+
+        (state.lang!=="ru" ? '<p class="ic-ch-note">'+esc(t("chRuOnly"))+'</p>' : "")+
+        gal+
+        '<h2 class="ic-nm-h">'+esc(t("nmMentions"))+'</h2>'+
+        '<p class="ic-count">'+esc(e.n ? t("nmStat",{n:e.n, c:order.length}) : t("nmNoMentions"))+'</p>'+
+        ments+
+      '</div>';
+    bindLangSwitch(root);
+    root.querySelector(".ic-back").addEventListener("click",function(){
+      if(namesUi.via===location.hash) history.back(); else location.hash = hrefFor(book,"names").replace(/^#/,"");
+    });
+    root.addEventListener("click",function(ev){
+      var a = ev.target.closest(".ic-nm-ms a");
+      if(a){ namesUi.pos[location.hash] = window.scrollY; namesUi.chVia = a.getAttribute("href"); }
+    });
+    var y = namesUi.pos[location.hash];
+    if(y){ delete namesUi.pos[location.hash]; requestAnimationFrame(function(){ if(gen===renderGen) window.scrollTo(0,y); }); }
+    else toTop(true);
+    nudgeRepaint();
+  }
+
   /* ---------- содержание книги по частям (book.json chapters.parts) ---------- */
   function chapTitle(c){ return c.title.replace(/\s*\(вступление\)$/,""); }
   function tocPartsHtml(book, chap, curSlug){
@@ -1553,7 +1742,8 @@
               homeTile(hrefFor(book,"home/gallery"), t("hmGallery"), t("hmGallerySub",{n:galCount}), tab==="gallery")+
               homeTile(hrefFor(book,"home/search"), t("hmSearch"), t("hmSearchSub"), tab==="search")+
               (book.meta.tavola ? homeTile(hrefFor(book,"index"), t("hmIndex"), t("hmIndexSub"), false) : "")+
-              (book.meta.tavola ? ['hmNames'] : ['hmIndex','hmNames']).map(function(k){ return '<div class="ic-home-tile ic-soon" aria-disabled="true"><span class="ic-home-tile-t">'+esc(t(k))+'</span><span class="ic-home-tile-s">'+esc(t("hmSoon"))+'</span></div>'; }).join("")+
+              (book.meta.names ? homeTile(hrefFor(book,"names"), t("hmNames"), t("hmNamesSub"), false) : "")+
+              (book.meta.tavola ? [] : ['hmIndex']).concat(book.meta.names ? [] : ['hmNames']).map(function(k){ return '<div class="ic-home-tile ic-soon" aria-disabled="true"><span class="ic-home-tile-t">'+esc(t(k))+'</span><span class="ic-home-tile-s">'+esc(t("hmSoon"))+'</span></div>'; }).join("")+
             '</nav>'+
             (hero ? '<figure class="ic-home-fig"><div class="ic-fig ic-fig-eng" data-src="'+esc(hero)+'"><img class="ic-fade-img ic-eng-display" src="'+esc(hero)+'" alt="'+esc(t("engravingAlt",{title:bt(book.meta.title)}))+'"></div></figure>' : "")+
             '<p class="ic-home-blurb">'+esc(bt(h.blurb))+'</p>'+
