@@ -728,6 +728,8 @@ button.ic-sr-more{display:block;margin:14px 0 0;padding:8px 16px;font:inherit;fo
 .ic-sv-it .ic-sv-foot{font-size:.8em;color:var(--soft);white-space:pre-wrap;text-align:right}
 .ic-sv-it .ic-sv-ed{font-size:.85em;color:var(--soft);font-family:Georgia,serif}
 .ic-sv-it .ic-sv-none{color:var(--soft);font-style:italic}
+.ic-ch-itp{padding:0 0 12px;margin:0 0 22px;max-width:none;border-bottom:1px solid var(--rule)}
+.ic-ch-itp-h{margin:0 0 .5em;font-size:.8em;letter-spacing:.06em;text-transform:uppercase;color:var(--soft);font-weight:400}
 .ic-sv-full .ic-sv-bar{gap:0 8px;padding:6px 10px 4px 6px}
 .ic-sv-full .ic-sv-pager{flex:1}
 .ic-sv-full .ic-sv-x{order:2}

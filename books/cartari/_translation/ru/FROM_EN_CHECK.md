@@ -1,0 +1,7 @@
+# Ошибки русского перевода, найденные при сверке английского (Opus)
+
+Русский файл при этом не правился. Формат: глава, блок (номер блока по сборке `tools/build_chapters.py`, n), что не так; по итальянскому оригиналу.
+- proemio, блок 141: Plato (Laws): "non si dee fare di questa le loro imagini, nè di oro, nè di argento" = three separate prohibitions (not of earth, nor of gold, nor of silver); RU «не следует делать из неё — ни из золота, ни из серебра» makes gold and silver an explanation of "earth"; should be «ни из неё, ни из золота, ни из серебра»
+- proemio, блок 65: Tertullian: "parue volere, che Tarquinio Prisco fosse il primo, che come Greco… mostrasse à Romani di fare i simulacri" — RU splits into «полагал, что первым был Тарквиний Приск. Как грек… он показал римлянам…»: "first" is left without its object and the showing of image-making becomes the author's own statement outside Tertullian's opinion; should be «полагал, что Тарквиний Приск был первым, кто, как грек…, показал римлянам, как делать кумиры Богов»
+- saturno, блок 5: «hanno voluto alcuni, che la sua statoa hauesse la falce in mano» (vuole = полагает, RU rule 16): RU «некоторые захотели, чтобы в руке его статуи был серп»; should be «некоторые полагали, что его статуя держала в руке серп»
+- apollo, блок 30: «mal si affaticarebbe alcuno per acquistarla» (hardly anyone would toil to acquire it): RU «никто не стал бы трудиться» drops the hedge «mal»; should be «вряд ли кто-нибудь стал бы трудиться»

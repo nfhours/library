@@ -21,6 +21,7 @@
   "frIsTranslation": true,
   "chapters": {
     "data": "chapters_ru.json",
+    "data_en": "chapters_en.json",
     "links": "chapter_links.tsv",
     "plates": "plates.json",
     "pagemap": "pagemap.json",

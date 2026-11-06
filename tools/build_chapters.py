@@ -2,6 +2,10 @@
 # -*- coding: utf-8 -*-
 """Собирает books/<book>/chapters_ru.json из books/<book>/_translation/ru/*.md.
 
+    --lang en                      chapters_en.json из _translation/en/*.md (только главы из _translation/en/READY,
+                                   по одному слагу в строке); структура блоков обязана совпадать с русской
+    --lang en --check proemio ...  только сверка структуры английского файла с русским (печатает OK или различия)
+
     python3 tools/build_chapters.py                 # только diana (по умолчанию)
     python3 tools/build_chapters.py diana giove     # перечисленные главы
     python3 tools/build_chapters.py --all           # все 25 частей
@@ -48,7 +52,7 @@ NOT_CAP = {
     "minerva": ["Пусть от меня учатся быть благочестивым"],
     "annotationi-pignoria": ["Элий Монт"],
 }
-SCAN_TAIL = re.compile(r"\s*\((?:скан|сканы) [^)]*\)\s*$")
+SCAN_TAIL = re.compile(r"\s*\((?:скан|сканы|scan|scans) [^)]*\)\s*$")
 
 
 QM_MAX = 520
@@ -56,11 +60,15 @@ QM_MARK = re.compile(r"\[\?(\d+)\]")
 QM_TAG = re.compile(r"^\[\?(\d+(?:\s*,\s*\d+)*)\]\s*")
 
 
-def doubt_items(lines):
+DOUBT = {"ru": "## Сомнительные места", "en": "## Doubtful passages"}
+
+
+def doubt_items(lines, lang="ru"):
     """Пояснения из «Сомнительных мест»: {номер пометы: текст}. Пункт начинается с [?N] или [?N,M]."""
-    if "## Сомнительные места" not in lines:
+    head = DOUBT[lang]
+    if head not in lines:
         return {}
-    sec = lines[lines.index("## Сомнительные места") + 1:]
+    sec = lines[lines.index(head) + 1:]
     raw, cur = [], None
     for ln in sec:
         if ln.startswith("- "):
@@ -75,9 +83,9 @@ def doubt_items(lines):
         if not tag:
             continue
         full = full[tag.end():]
-        shown = re.split(r"\s*\*\*Опечатки", full)[0]
-        shown = re.sub(r"^Скан \d+[^:]*:\s*", "", shown)
-        shown = re.sub(r"\s*\((?:скан|сканы) [^)]*\)", "", shown)
+        shown = re.split(r"\s*\*\*(?:Опечатки|Typos)", full)[0]
+        shown = re.sub(r"^(?:Скан|Scan) \d+[^:]*:\s*", "", shown)
+        shown = re.sub(r"\s*\((?:скан|сканы|scan|scans) [^)]*\)", "", shown)
         if len(shown) > QM_MAX:
             cut = shown[:QM_MAX]
             k = max(cut.rfind(". "), cut.rfind("; "))
@@ -123,17 +131,17 @@ def attach_qm(blocks, items):
     return len(seen)
 
 
-def parse_chapter(path, slug=None):
+def parse_chapter(path, slug=None, lang="ru"):
     lines = open(path, encoding="utf-8").read().split("\n")
     title = lines[0].lstrip("# ").strip()
     sep = lines.index("---")
     header = "\n".join(lines[1:sep])
-    m = re.search(r"сканы (\d{4})[–-](\d{4})", header)
+    m = re.search(r"(?:сканы|scans) (\d{4})[–-](\d{4})", header)
     scans = [int(m.group(1)), int(m.group(2))] if m else None
     rich = slug in RICH
-    items = doubt_items(lines)
-    if "## Сомнительные места" in lines:
-        lines = lines[:lines.index("## Сомнительные места")]
+    items = doubt_items(lines, lang)
+    if DOUBT[lang] in lines:
+        lines = lines[:lines.index(DOUBT[lang])]
         while lines and lines[-1].strip() in ("", "---"):
             lines.pop()
     blocks, i = [], sep + 1
@@ -200,28 +208,107 @@ def jdump(obj):
     return json.dumps(obj, ensure_ascii=False, separators=(",", ":"))
 
 
+TITLES_EN = {
+    "frontespizio-dedica": "Title page and the publisher's dedication",
+    "prefatione": "Preface to the reader",
+    "catalogo-dei": "Catalogue of the hundred best-known gods of the ancients",
+    "catalogo-autori": "Catalogue of authors",
+    "proemio": "Images of the Gods of the Ancients (introduction)",
+    "saturno": "Saturn", "apollo": "Apollo, Phoebus — the Sun", "diana": "Diana", "giove": "Jupiter",
+    "giunone": "Juno", "gran-madre": "The Great Mother", "nettuno": "Neptune", "vertunno": "Vertumnus",
+    "plutone": "Pluto", "mercurio": "Mercury", "minerva": "Minerva", "bacco": "Bacchus",
+    "fortuna": "Fortune", "cupido": "Cupid", "venere": "Venus", "gratie": "The Graces",
+    "annotationi-pignoria": "Annotations by Lorenzo Pignoria",
+    "aggionta": "Lorenzo Pignoria's Addition",
+    "seconda-parte-titolo-dedica": "Second title page of the Second Part and the publisher's dedication",
+    "seconda-parte-indiani": "The Second Part of the Images of the Indian Gods",
+}
+
+
+def sig(blocks):
+    """Структурная подпись главы: типы блоков, число строк цитат, наличие автора, число пометок [?]."""
+    out = []
+    for b in blocks:
+        if b["t"] == "quote":
+            out.append(("quote", len(b["lines"]), bool(b.get("author")), sum(x.count("[?]") for x in b["lines"])))
+        elif b["t"] == "h":
+            out.append(("h", b["lv"], 0, b["text"].count("[?]")))
+        else:
+            out.append((b["t"], 0, 0, b["text"].count("[?]")))
+    return out
+
+
+def structure_diff(src_ru, src_en, slug):
+    r = parse_chapter(os.path.join(src_ru, slug + ".md"), slug, "ru")["blocks"]
+    e = parse_chapter(os.path.join(src_en, slug + ".md"), slug, "en")["blocks"]
+    sr, se = sig(r), sig(e)
+    diffs = []
+    if len(sr) != len(se):
+        diffs.append("число блоков: ru %d, en %d" % (len(sr), len(se)))
+    for i, (x, y) in enumerate(zip(sr, se), 1):
+        if x != y:
+            diffs.append("блок %d: ru %s, en %s | ru: %s | en: %s" % (
+                i, x, y, (r[i-1].get("text") or " / ".join(r[i-1]["lines"]))[:50],
+                (e[i-1].get("text") or " / ".join(e[i-1]["lines"]))[:50]))
+            if len(diffs) >= 12:
+                break
+    return diffs
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("chapters", nargs="*")
     ap.add_argument("--all", action="store_true")
     ap.add_argument("--out")
     ap.add_argument("--book", default=BOOK)
+    ap.add_argument("--lang", default="ru", choices=["ru", "en"])
+    ap.add_argument("--check", action="store_true", help="только сверка структуры en с ru")
     a = ap.parse_args()
-    want = ORDER if a.all else (a.chapters or ["diana"])
+    lang = a.lang
+    bdir = os.path.join(ROOT, "books", a.book)
+    src_ru = os.path.join(bdir, "_translation", "ru")
+    src = os.path.join(bdir, "_translation", lang)
+    if a.check:
+        if lang != "en":
+            sys.exit("--check только с --lang en")
+        bad = 0
+        for w in a.chapters:
+            d = structure_diff(src_ru, src, w)
+            print("%s: %s" % (w, "OK" if not d else "РАСХОЖДЕНИЯ"))
+            for x in d:
+                print("  " + x)
+            bad += bool(d)
+        sys.exit(1 if bad else 0)
+    ready = None
+    if lang == "en":
+        rp = os.path.join(src, "READY")
+        ready = [x.strip() for x in open(rp, encoding="utf-8")] if os.path.exists(rp) else []
+        ready = [x for x in ready if x and not x.startswith("#")]
+        want = [w for w in ORDER if w in ready]
+    else:
+        want = ORDER if a.all else (a.chapters or ["diana"])
     for w in want:
         if w not in ORDER:
             sys.exit("неизвестная глава: " + w)
-    bdir = os.path.join(ROOT, "books", a.book)
-    src = os.path.join(bdir, "_translation", "ru")
     engravings = json.load(open(os.path.join(bdir, "engravings.json"), encoding="utf-8"))
     plates = json.load(open(os.path.join(bdir, "plates.json"), encoding="utf-8"))["plates"]
     by_stem = {e["file"].rsplit(".", 1)[0]: e for e in engravings}
-    out_path = a.out or os.path.join(bdir, "chapters_ru.json")
+    out_path = a.out or os.path.join(bdir, "chapters_%s.json" % lang)
 
     chapters = []
     for slug in ORDER:
-        info = parse_chapter(os.path.join(src, slug + ".md"), slug)
-        rec = {"slug": slug, "title": info["title"], "scans": info["scans"]}
+        if lang == "en":
+            ru_info = parse_chapter(os.path.join(src_ru, slug + ".md"), slug, "ru")
+            rec = {"slug": slug, "title": TITLES_EN[slug], "scans": ru_info["scans"]}
+            if slug in want:
+                d = structure_diff(src_ru, src, slug)
+                if d:
+                    sys.exit("%s: структура en не совпадает с ru:\n  %s" % (slug, "\n  ".join(d)))
+                info = parse_chapter(os.path.join(src, slug + ".md"), slug, "en")
+                rec["title"] = info["title"] if slug not in RICH else rec["title"]
+        else:
+            info = parse_chapter(os.path.join(src, slug + ".md"), slug, lang)
+            rec = {"slug": slug, "title": info["title"], "scans": info["scans"]}
         if slug in want:
             by_n = {b["n"]: b for b in info["blocks"]}
             for pl in plates:
@@ -259,7 +346,8 @@ def main():
     print("записано %s: глав в оглавлении %d, собрано %d (%s), блоков %d"
           % (os.path.relpath(out_path, ROOT), len(chapters), len(want), ", ".join(want), nb))
 
-    check_links(bdir, {c["slug"]: c for c in chapters})
+    if lang == "ru":
+        check_links(bdir, {c["slug"]: c for c in chapters})
 
 
 def check_links(bdir, by_slug):
