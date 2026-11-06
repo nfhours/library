@@ -23,9 +23,11 @@
 | 15 | cupido | готова | 41 | 0 | 0 | Блок 50 (Properce — говорящий), 136 (Ausone: Proserpine); кальки fare+inf.; опечатки Ausone без [?N] в ru |
 | 16 | venere | готова | 26 | 3 | 1 | Блок 106 (la barbe), 51 и 99 (come che); 125; ошибка Thetide в глоссарии |
 | 17 | gratie | готова | 9 | 0 | 1 | Блок 32 (Benche Pausania); Thétis (в EN — Tethys; в глоссарии Téthys — исправить) |
+| 18 | annotationi-pignoria | готова | 44 | 1 | 1 | Блок 310 (Ne erano = «не»: ru/en верны); 352 (dubito); 86; Stephanus Pighius; V.S.L.L.M |
 | 19 | aggionta | готова | 7 | 0 | 0 | 10 aside «Fol. N, ligne M.»; [?1-3]; Aix-en-Provence; Aleandro в глоссарии дважды |
 | 20 | seconda-parte-titolo-dedica | готова | 3 | 0 | 0 | 3 правки; Buarno [?1] |
 | 21 | seconda-parte-indiani | готова | 25 | 1 | 1 | NBSP по всему файлу; блок 27 (dall'=dell', спорное чтение); [?5] [?6]; Apolline→Apollon |
 | 22 | frontespizio-dedica | готова | 8 | 0 | 0 | Блок 16 (dal Signore); Buarno [?1] |
 | 23 | prefatione | готова | 17 | 0 | 0 | Блок 5 (смысл: assassiné); Adieu; «à la douzaine»; сигнор; E però |
 | 24 | catalogo-autori | готова | 2 | 0 | 0 | Fornuto/Cornuto: «Phurnutus … Cornutus»; Carterius; [?1] |
+| 25 | catalogo-dei | готова | 16 | 0 | 0 | Apolline→Apollon (глоссарий: женское имя по-французски); п.76; строчные F3 |
