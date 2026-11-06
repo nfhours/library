@@ -18,3 +18,18 @@
 - giunone, блок 85: Suadela: glossary RU form is «Свада» (EN Suada); RU text has «Суадела»
 - giunone, блок 90: «gli ricordò, che facesse fare vna statoa di quercia, & la portasse in volta» (advised him to have an oak statue made and carry it about): RU «посоветовал ему велеть сделать статую из дуба и возил её повсюду» — indicative «возил» makes Cithaeron the one who carried it; should be «…велеть сделать статую из дуба и возить её повсюду закрытой»
 - giunone, блок 97: «accioche nodrendolo del suo latte non l'hauesse in odio poi» (gerund nodrendolo = she nursing him, so subject = Juno: so that, having nursed him with her milk, she would not hate him afterwards): RU «чтобы, вскормленный её молоком, он не возненавидел её потом» reverses who hates whom; should be «чтобы, вскормив его своим молоком, она потом не питала к нему ненависти»
+- giove, блок 13: «come che da lui dependessero tutte le cose» (as though all things depended on him): RU «поскольку от него зависели все вещи» turns the hedge into a cause; should be «словно от него зависели все вещи» (hedge come che lost)
+- giove, блок 26: «come ch'ei fosse lor Dio particolare» (as though he were their own god): RU «чтили его пастухи, как своего особого Бога» drops the hedge; should be «словно он был их особым Богом»
+- giove, блок 47: aside «Ausonio Gallo»: glossary RU form is «Авсоний»; RU has «Авсоний Галльский»
+- giove, блок 48: «Ausonio Gallo fa, ch'ella riprende»: glossary RU form is «Авсоний»; RU «галльский поэт Авсоний» adds «галльский поэт»
+- giove, блок 54: echo poem «Ninfa sei forse? dì se Ninfa sei» (Are you a Nymph perhaps?): RU «Нимфа ли ты? скажи…» omits «forse»; should be «Нимфа ли ты, быть может?»
+- giove, блок 68: «senza questo non si poteua ben mondare il ferro» (iron): RU «нельзя было хорошо очистить полбу» silently emends ferro to farro (spelt, as in Augustine); per rule 8 translate as printed («железо») or mark [?]
+- giove, блок 83: «la adorauano à certi tempi quasi tutta» (worshipped it): RU «почти всю её золотили» silently emends adorauano to indorauano (gilded, as in Pausanias); the printed text says worshipped, so «поклонялись ей почти всей» or mark [?]
+- giove, блок 140: caption «Capra Amalthea»: glossary RU form is «Амальтея»; RU has «Амалфеи»
+- giove, блок 146: «nomate l'vna Amalthea», «corno … di Amalthea»: glossary RU form is «Амальтея»; RU has «Амалфея», «Амалфеи» (twice)
+- giove, блок 218: «lo portauano i Sacerdoti inuolta sopra vna nauicela dorata» (carried it wrapped up): RU «носили его в шествии» omits «inuolta» and adds «в шествии»; should be «носили его закутанным»
+- gran-madre, блок 45: «Il simulacro di questa Dea ... fu vna gran pietra negra»: glossary simulacro = «кумир»; RU «Статуя этой Богини» silently changes the word; should be «Кумир этой Богини»
+- gran-madre, блок 50: caption «Simulacro della Dea Cibele»: glossary simulacro = «кумир»; RU «Статуя Богини Кибелы»; should be «Кумир Богини Кибелы»
+- gran-madre, блок 54: «non haueuano ... tempij, nè simulacri»: glossary simulacro = «кумир»; RU «ни храмов, ни статуй»; should be «ни храмов, ни кумиров»
+- gran-madre, блок 56: «senza hauerne simulacro alcuno»: glossary simulacro = «кумир»; RU «не имея никакой её статуи»; should be «не имея никакого её кумира»
+- gran-madre, блок 149: «Vn'altro simulacro di Cerere ... ad vn'altro simulacro di certa Dea»: glossary simulacro = «кумир» (statoa = «статуя», used only later in «la statoa di costei»); RU «Другая статуя Цереры ... к другой статуе»; should be «Другой кумир Цереры ... к другому кумиру»
