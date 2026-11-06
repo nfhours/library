@@ -18,3 +18,8 @@
 | 10 | plutone | готова | 74 | 0 | 0 | Seneca блок 205 (Guarda quel fiume vn vecchio); прялка блок 178; 6 кальок vuole |
 | 11 | mercurio | готова | 39 | 1 | 0 | Блок 3, 237 (oltre all'uso), 65 (sonni=сон); Alcmone vs Acmon в глоссарии; блок 257 неоднозначен |
 | 12 | minerva | готова | 60 | 1 | 0 | Блок 49 (Стаций); 169 (E però); Thetide в глоссарии = Тетида/Фетида — решить; Ega=Aex |
+| 13 | bacco | готова | 20 | 1 | 1 | Блок 146 (perch' = потому что); блок 2, 12; numina; Lararium (190) неоднозначно |
+| 14 | fortuna | готова | 39 | 1 | 0 | come si pare dire (хеджирование потеряно в ru); Aulu-Gelle, Martianus Capella; Destin / Destinée |
+| 15 | cupido | готова | 41 | 0 | 0 | Блок 50 (Properce — говорящий), 136 (Ausone: Proserpine); кальки fare+inf.; опечатки Ausone без [?N] в ru |
+| 16 | venere | готова | 26 | 3 | 1 | Блок 106 (la barbe), 51 и 99 (come che); 125; ошибка Thetide в глоссарии |
+| 17 | gratie | готова | 9 | 0 | 1 | Блок 32 (Benche Pausania); Thétis (в EN — Tethys; в глоссарии Téthys — исправить) |
