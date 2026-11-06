@@ -363,6 +363,40 @@
    "resolution": null,
    "resolved_by": null,
    "source": "Обнаружено при Opus-сверке перевода эмблем 21-40 (2026-11-06): «Iunctis» не согласуется с «pariete»; смысл фразы при переводе не затронут, транскрипция не менялась — нужна сверка со вторым экземпляром."
+  },
+  {
+   "id": "Q22",
+   "frame": "0094",
+   "page": "88",
+   "location": "эмблема 80, строка 1",
+   "diplomatic_as_read": "speculator & astra",
+   "candidates": [
+    "speculatur — «[аист] наблюдает за звёздами» (параллель с «desidet… & contegit» строкой выше, обычное чтение)",
+    "speculator оставлено как напечатано (грамматически возможно только как форма будущего повелительного наклонения, что не подходит по смыслу)"
+   ],
+   "type": "suspected_typo",
+   "resolver": "second_copy",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "Низкий приоритет; обнаружено при Opus-сверке перевода эмблем 61-80 (2026-11-06). Перевод сделан по чтению «speculatur» («наблюдает»), транскрипция (diplomatic/reading emblems.json) не менялась."
+  },
+  {
+   "id": "Q23",
+   "frame": "0084",
+   "page": "78",
+   "location": "эмблема 70, строка 7",
+   "diplomatic_as_read": "stripitùs eruere",
+   "candidates": [
+    "stirpitùs — «с корнем, совершенно» (буквы переставлены; так же нормализовано в независимой транскрипции Glasgow)",
+    "stripitùs оставлено как напечатано"
+   ],
+   "type": "suspected_typo",
+   "resolver": "second_copy",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "Низкий приоритет; обнаружено при Opus-сверке перевода эмблем 61-80 (2026-11-06), подтверждено сверкой с Glasgow A51a061. Перевод сделан по чтению «stirpitùs», транскрипция (diplomatic/reading emblems.json) не менялась."
   }
  ]
 }
