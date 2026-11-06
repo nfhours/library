@@ -1,0 +1,70 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 126,
+ "source": "scan/frame_0126.jpg",
+ "page": "120",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Αντέρως, Amor virtutis,alium",
+     "Cupidinem ſuperans."
+    ],
+    "reading": "Αντέρως, Amor virtutis, alium Cupidinem superans."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Купидон, привязанный к дереву; рядом горит огонь (Немезида/Антэрот)",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aligerum,aligeroq; inimicum pinxit Amori,",
+     "Arcu arcũ,atq; ignes igne domans Nemeſis.",
+     "Vt quæ alijs fecit patiatur.at hic puer olim",
+     "Intrepidus geſtans tela,miſer lachrymat.",
+     "Ter ſpuit,inq́; ſinus imos( res mira ) crematur",
+     "Igne ignis,furias odit Amoris Amor."
+    ],
+    "reading": [
+     "Aligerum, aligeroque inimicum pinxit Amori,",
+     "Arcu arcum, atque ignes igne domans Nemesis.",
+     "Ut quæ aliis fecit patiatur. at hic puer olim",
+     "Intrepidus gestans tela, miser lachrymat.",
+     "Ter spuit, inque sinus imos( res mira ) crematur",
+     "Igne ignis, furias odit Amoris Amor."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «120» вверху слева. Страница в орнаментальной рамке.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0788",
+  "D0789",
+  "D0790",
+  "D0791",
+  "D0792",
+  "D0793",
+  "D0794",
+  "D0795"
+ ]
+}

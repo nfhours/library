@@ -1,0 +1,56 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 214,
+ "source": "scan/frame_0214.jpg",
+ "page": "208",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "MATRIMONIVM.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Amor filiorum."
+    ],
+    "reading": "Amor filiorum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Дерево с гнездом (голубь/горлица на ветвях); на земле справа ещё одна птица; змея среди корней; на заднем плане руины построек, холмы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Ante diem vernam boreali cana palumbes",
+     "Frigore nidificat,præcoquaq; oua fouet:",
+     "Mollius & pulli vt iaceant,ſibi vellicat alas,",
+     "Quẽs nuda hyberno deficit ipſa gelu.",
+     "Ecqd Colchi pudet,vel te Procne improba? mortẽ",
+     "Cùm volucris propriæ prolis amore ſubit?"
+    ],
+    "reading": [
+     "Ante diem vernam boreali cana palumbes",
+     "Frigore nidificat, præcoquaque ova fovet:",
+     "Mollius & pulli ut iaceant, sibi vellicat alas,",
+     "Queis nuda hyberno deficit ipsa gelu.",
+     "Ecquid Colchi pudet, vel te Procne improba? mortem",
+     "Cùm volucris propriæ prolis amore subit?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Сокращение «Ecqd» (= Ecquid, с утраченной тильдой) — то же место независимо отмечено в SUMMARY.md (alc208-1), подтверждает чтение. «Quẽs» — та же форма, что на 0193 и 0200 (= queis)."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «208» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

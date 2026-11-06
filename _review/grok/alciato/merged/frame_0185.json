@@ -1,0 +1,75 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 185,
+ "source": "scan/frame_0185.jpg",
+ "page": "179",
+ "signature": "M 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HOSTILLITAS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Aliquid mali,propter vicinum",
+     "malum."
+    ],
+    "reading": "Aliquid mali, propter vicinum malum."
+   },
+   "subheading": {
+    "diplomatic": "Προσωποπ[?]ῖα.",
+    "reading": "Προσωποπ[?]ῖα."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Два больших кувшина (один металлический, опрокинутый, другой глиняный) несутся потоком воды; пейзаж с холмами, постройками вдали, облаками.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Raptabat torrens ollas,quarum vna metallo,",
+     "Altera erat figuli terrea facta manu.",
+     "Hanc igitur rogat illa:velit ſibi proxima ferri:",
+     "Iuncta vt præcipites vtraque ſiſtat aquas.",
+     "Cui lutea,Haud nobis tua ſunt commercia curæ,",
+     "Ne mihi proximitas hæc mala multa ferat.",
+     "Nam ſeu te nobis,ſeu nos tibi conferat vnda:",
+     "Ipſa ego te fragilis ſoſpite ſola terar."
+    ],
+    "reading": [
+     "Raptabat torrens ollas, quarum una metallo,",
+     "Altera erat figuli terrea facta manu.",
+     "Hanc igitur rogat illa: velit sibi proxima ferri:",
+     "Iuncta ut præcipites utraque sistat aquas.",
+     "Cui lutea, Haud nobis tua sunt commercia curæ,",
+     "Ne mihi proximitas hæc mala multa ferat.",
+     "Nam seu te nobis, seu nos tibi conferat unda:",
+     "Ipsa ego te fragilis sospite sola terar."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Греческий подзаголовок (ожидаемая форма — Προσωποποιΐα, «просопопея»). Зум x5–x9 скана Getty: Π, ρ, ο, высокий знак (σ / лигатура σω), π в форме ϖ, ο, π, затем c-образный знак (ο? ε? лигатура οι?), один ι с циркумфлексом (а не два ι с диэрезисом), α. Набор, по-видимому, не совпадает с нормативной формой (одна ι вместо двух), но какая буква стоит перед ῖ, по скану не решается. Предыдущее чтение «Προσωποποιΐα.» было нормализацией, а не транскрипцией; заменено на дипломатическое с [?]. Открытый вопрос Q18 (resolver: other_model / second_copy)."
+  }
+ ],
+ "ornaments": [],
+ "errata": [
+  {
+   "printed": "HOSTILLITAS.",
+   "corrected": "HOSTILITAS.",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "Колонтитул с удвоенным L, как и на обороте того же листа (0186, с. 180); на 0183, 0184, 0187 и в указателе (0236) — «HOSTILITAS.». У колонтитула нет слоя чтения — исправление только здесь. Resolved 2026-11-06 (Opus zoom pass on Getty scan, pending_review cleanup). resolved_by: policy"
+  }
+ ],
+ "notes": "Номер страницы «179» вверху справа. Сигнатура «M 2» внизу справа, под рамкой. Колонтитул «HOSTILLITAS.» (удвоенное L) — проверено зумом; ранее ошибочно записан как «HOSTILITAS.».",
+ "status": "pending_review",
+ "discrepancy_ids": [],
+ "open_question_ids": [
+  "Q18"
+ ],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

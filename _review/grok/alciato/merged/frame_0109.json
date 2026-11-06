@@ -1,0 +1,68 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 109,
+ "source": "scan/frame_0109.jpg",
+ "page": "103",
+ "signature": "G 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "G[?]VLA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In garrulum & guloſum."
+    ],
+    "reading": "In garrulum & gulosum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Большая водяная птица (пеликан/«труо») с длинным клювом плывёт по бурному морю на переднем плане; позади корабль под парусами, берег с городом.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Voce boat torua,pralargo eſt gutture,roſtrum",
+     "Inſtar habet naſi multiforiſq; tubæ.",
+     "Deformem rabulam,addictum ven[?]riq;,gulæq;",
+     "Signabit,volucer cùm truo pictus erit."
+    ],
+    "reading": [
+     "Voce boat torva, pralargo est gutture, rostrum",
+     "Instar habet nasi multiforisque tubæ.",
+     "Deformem rabulam, addictum ven[?]rique, gulæque",
+     "Signabit, volucer cùm truo pictus erit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «103» вверху справа; сигнатура «G 4» внизу справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0637",
+  "D0638",
+  "D0639",
+  "D0640",
+  "D0641",
+  "D0642"
+ ],
+ "opus_uncertain_ids": [
+  "D0637",
+  "D0639",
+  "D0642"
+ ]
+}

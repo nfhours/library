@@ -1,0 +1,48 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 226,
+ "source": "scan/frame_0226.jpg",
+ "page": "220",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "ARBORES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ilex."
+    ],
+    "reading": "Ilex."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Падуб (каменный дуб) — дерево с зубчатыми листьями и желудями; корни прорисованы у земли.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Duritie nimia quòd ſeſe rumperet ilex,",
+     "Symbola ciuilis ſeditionis habet."
+    ],
+    "reading": [
+     "Duritie nimia quòd sese rumperet ilex,",
+     "Symbola civilis seditionis habet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «220» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

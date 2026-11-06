@@ -1,0 +1,73 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 156,
+ "source": "scan/frame_0156.jpg",
+ "page": "150",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem_continuation",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": null,
+   "epigram": {
+    "diplomatic": [
+     "Spernit auaritiam,nec rapto aut fœnore gaudet.",
+     "Vincit,fœmineos ſpoliatq; inſignibus actus.",
+     "Expurgat ſordes,& cultum mentibus addit.",
+     "Illicitos odit coitus,abigitq; nocentes.",
+     "Barbaries,feritasq; dat impia denique pœnam.",
+     "Vnius virtus collectos diſsipat hoſtes.",
+     "Inuehit in patriam externis bona plurima ab oris.",
+     "Docta per ora virũ volat,& non interit vnquam."
+    ],
+    "reading": [
+     "Spernit avaritiam, nec rapto aut fœnore gaudet.",
+     "Vincit, fœmineos spoliatque insignibus actus.",
+     "Expurgat sordes, & cultum mentibus addit.",
+     "Illicitos odit coitus, abigitque nocentes.",
+     "Barbaries, feritasque dat impia denique pœnam.",
+     "Unius virtus collectos dissipat hostes.",
+     "Invehit in patriam externis bona plurima ab oris.",
+     "Docta per ora virum volat, & non interit unquam."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Рамка с плетёным орнаментом"
+  },
+  {
+   "position": "под текстом",
+   "description": "Картуш с маскароном"
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «150» вверху слева. Продолжение эпиграммы с кадра 0155.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t4"
+ ],
+ "continuation_of": {
+  "frame": 155,
+  "page": "149",
+  "motto": "Duodecim certamina Herculis."
+ },
+ "opus_resolved_ids": [
+  "D0938",
+  "D0939",
+  "D0940",
+  "D0941",
+  "D0942"
+ ]
+}

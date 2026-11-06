@@ -1,0 +1,65 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 101,
+ "source": "scan/frame_0101.jpg",
+ "page": "95",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AVARITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In ſordidos."
+    ],
+    "reading": "In sordidos."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Ибис стоит на берегу реки (Нил), позади город и облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quæ roſtro(clyſtere velut)ſibi proluit aluum",
+     "Ibis,Nilaicis cognita littoribus,",
+     "Tranſijt opprobrij in nomen:quo Publius hoſtem",
+     "Naſo ſuum appellat,Battiadésque ſuum."
+    ],
+    "reading": [
+     "Quæ rostro(clystere velut)sibi proluit alvum",
+     "Ibis, Nilaicis cognita littoribus,",
+     "Transiit opprobrii in nomen: quo Publius hostem",
+     "Naso suum appellat, Battiadésque suum."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «95» вверху справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0588",
+  "D0589",
+  "D0590",
+  "D0591",
+  "D0592",
+  "D0593",
+  "D0594",
+  "D0595"
+ ]
+}

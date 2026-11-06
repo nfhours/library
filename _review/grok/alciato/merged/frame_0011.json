@@ -1,0 +1,86 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 11,
+ "source": "scan/frame_0011.jpg",
+ "page": "5",
+ "signature": "A 3",
+ "catchword": null,
+ "page_type": "front_matter",
+ "running_head": null,
+ "rubric": null,
+ "emblems": [],
+ "blocks": [
+  {
+   "kind": "prose",
+   "lang": "la",
+   "diplomatic": [
+    "ci origo oſtendit. Verùm quum hæc omnia ſupe-",
+    "riore editione præſtitiſsemus , ecce aliquot noua",
+    "Emblemata ad nos mittũtur,ab Autore ipſo ſu-",
+    "perioribus addita. Hæc in ſuũ & propriũ quæq;",
+    "ordinẽ veluti ſuperiora redegimus:quibus etiã,",
+    "& alijs nonnullis prioribus , in quibus imagines",
+    "deſiderabantur,figuras appinximus,quoad fieri",
+    "potuit,aptiſsimas. Superiora etiam Emblemata",
+    "partim immutauit Autor ipſe,partim emenda-",
+    "tiora,& melius cõformata reddidit. Quæ omnia",
+    "poſtrema hac noſtra editione in opus vnum,quod",
+    "quantò locupletius , tantò ſit perfectius,exhibe-",
+    "mus. Quiſquis igitur & ſententiæ breuis acu-",
+    "mine,& feſtiua imagine res ſuas decorare vo-",
+    "let:ex hoc libello abunde habiturus eſt, vnde ſibi",
+    "deſumat quod ad rem quamlibet accommodari",
+    "poſſe videatur,idq; prõptiſsimè,& facilimè,ada",
+    "ptato nimirum ſuo commento ad ſumma rerum",
+    "genera,& ſingulas generum formas ſuo quaſq;",
+    "ordine diſpoſitas,iuxta rerum naturalẽ ſeriem,",
+    "& vſum communem. Quarum etiam index ta-",
+    "bula ſubiecta eſt operi vniuerſo,à multis,& ma",
+    "gnis,quibus vitiatum erat mendis expurgato,&",
+    "planè reſtituto κατ̀[?] τὸ αὐτόγραφον."
+   ],
+   "reading": [
+    "ci origo ostendit. Verùm quum hæc omnia superiore editione præstitissemus, ecce aliquot nova Emblemata ad nos mittuntur, ab Autore ipso superioribus addita. Hæc in suum & proprium quæque ordinem veluti superiora redegimus: quibus etiam, & aliis nonnullis prioribus, in quibus imagines desiderabantur, figuras appinximus, quoad fieri potuit, aptissimas. Superiora etiam Emblemata partim immutavit Autor ipse, partim emendatiora, & melius conformata reddidit. Quæ omnia postrema hac nostra editione in opus unum, quod quantò locupletius, tantò sit perfectius, exhibemus. Quisquis igitur & sententiæ brevis acumine, & festiva imagine res suas decorare volet: ex hoc libello abunde habiturus est, unde sibi desumat quod ad rem quamlibet accommodari posse videatur, idque promptissimè, & facilimè, adaptato nimirum suo commento ad summa rerum genera, & singulas generum formas suo quasque ordine dispositas, iuxta rerum naturalem seriem, & usum communem. Quarum etiam index tabula subiecta est operi universo, à multis, & magnis, quibus vitiatum erat mendis expurgato, & planè restituto κατ̀[?] τὸ αὐτόγραφον."
+   ],
+   "notes": "Окончание Ad lectorem (начало на кадре 0009). Курсив; греческие слова в конце прямым греческим шрифтом. Переносы без знака (ada/ptato, ma/gnis) в слое чтения склеены. Пятно туши в «communem» (строка 21) не принято за знак."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «5» вверху справа; сигнатура «A 3» внизу справа. Орнаментальная рамка с женскими фигурами в нишах по сторонам.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0069",
+  "D0070",
+  "D0071",
+  "D0072",
+  "D0073",
+  "D0074",
+  "D0075",
+  "D0076",
+  "D0077",
+  "D0078",
+  "D0079",
+  "D0080",
+  "D0081",
+  "D0082",
+  "D0083"
+ ],
+ "opus_uncertain_ids": [
+  "D0070",
+  "D0072",
+  "D0074",
+  "D0076",
+  "D0078",
+  "D0082"
+ ]
+}

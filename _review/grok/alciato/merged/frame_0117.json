@@ -1,0 +1,71 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 117,
+ "source": "scan/frame_0117.jpg",
+ "page": "111",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem_continuation",
+ "running_head": "ASTROLOGIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": null,
+   "epigram": {
+    "diplomatic": [
+     "Solus eum potuit longæuus tollere Neſtor.",
+     "Meonidæ doceas quid ſibi muſa velit?",
+     "Eſt cœlum ſcyphus ipſe:color argenteus illi eſt:",
+     "Aurea ſunt cœli ſidera clauiculi.",
+     "Pleiadas eſſe putant,quas dixerit ille columbas.",
+     "Vmblici gemini,magna minorq; fera eſt.",
+     "Hæc Neſtor longo ſapiens intelligit vſu:",
+     "Bella gerunt fortes,callidus aſtra tenet."
+    ],
+    "reading": [
+     "Solus eum potuit longævus tollere Nestor.",
+     "Meonidæ doceas quid sibi musa velit?",
+     "Est cœlum scyphus ipse: color argenteus illi est:",
+     "Aurea sunt cœli sidera claviculi.",
+     "Pleiadas esse putant, quas dixerit ille columbas.",
+     "Umblici gemini, magna minorque fera est.",
+     "Hæc Nestor longo sapiens intelligit usu:",
+     "Bella gerunt fortes, callidus astra tenet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под текстом",
+   "description": "Картуш-заставка с маскароном и завитками"
+  }
+ ],
+ "errata": [],
+ "notes": "Номер страницы «111» вверху справа. Продолжение эпиграммы «Scyphus Nestoris» с кадра 0116. Справа внизу страницы следы чернил/пометы владельца.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "continuation_of": {
+  "frame": 116,
+  "page": "110",
+  "motto": null
+ },
+ "opus_resolved_ids": [
+  "D0693",
+  "D0694",
+  "D0695",
+  "D0696",
+  "D0697"
+ ]
+}

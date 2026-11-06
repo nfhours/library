@@ -1,0 +1,81 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 153,
+ "source": "scan/frame_0153.jpg",
+ "page": "147",
+ "signature": "K 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Strenuorum immortale",
+     "nomen."
+    ],
+    "reading": "Strenuorum immortale nomen."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Фетида идёт по берегу к гробнице Ахилла с надписью; море, корабль, птицы",
+    "inscriptions": [
+     {
+      "where": "на гробнице, вверху",
+      "text": "ACHILLIS"
+     },
+     {
+      "where": "на гробнице, внизу",
+      "text": "M"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aeacidæ tumulum Rhœtæo in littore cernis,",
+     "Quem plerunque pedes viſitat alba Thetis.",
+     "Obtegitur ſemper viridi lapis hic amarantho,",
+     "Quòd nunquàm herois ſit moriturus honos.",
+     "Hic Graiũ murus.m[?]gni nex Hectoris.Haud plus",
+     "Debet Mæonidæ,quàm ſibi Mæonides."
+    ],
+    "reading": [
+     "Aeacidæ tumulum Rhœtæo in littore cernis,",
+     "Quem plerunque pedes visitat alba Thetis.",
+     "Obtegitur semper viridi lapis hic amarantho,",
+     "Quòd nunquàm herois sit moriturus honos.",
+     "Hic Graium murus. m[?]gni nex Hectoris. Haud plus",
+     "Debet Mæonidæ, quàm sibi Mæonides."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Рамка из деревьев и листвы"
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «147» вверху справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0927",
+  "D0928",
+  "D0929"
+ ],
+ "opus_uncertain_ids": [
+  "D0927",
+  "D0929"
+ ]
+}

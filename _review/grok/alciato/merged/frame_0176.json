@@ -1,0 +1,75 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 176,
+ "source": "scan/frame_0176.jpg",
+ "page": "170",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "MORS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Terminus."
+    ],
+    "reading": "Terminus."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Бюст бога Термина на кубическом камне-постаменте с надписью; позади портик с колоннами, пейзаж",
+    "inscriptions": [
+     {
+      "where": "на постаменте",
+      "text": "NVLLI CEDO"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quadratum infoditur firmiſsima teſſera ſaxum'",
+     "Stat cirrata ſuper pectore imago tenus,",
+     "Et ſeſe nulli profitetur cedere,talis",
+     "Terminus eſt,homines qui ſcopus vnus agit.",
+     "Eſt immota dies,præfixaq; tempora fatis,",
+     "Deq; ferunt primis vltima iudicium."
+    ],
+    "reading": [
+     "Quadratum infoditur firmissima tessera saxum[?]",
+     "Stat cirrata super pectore imago tenus,",
+     "Et sese nulli profitetur cedere, talis",
+     "Terminus est, homines qui scopus unus agit.",
+     "Est immota dies, præfixaque tempora fatis,",
+     "Deque ferunt primis ultima iudicium."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Рамка с кариатидами и маскаронами"
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «170» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0968",
+  "D0969"
+ ],
+ "opus_uncertain_ids": [
+  "D0968",
+  "D0969"
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 198,
+ "source": "scan/frame_0198.jpg",
+ "page": "192",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PAX.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ex pace vbertas."
+    ],
+    "reading": "Ex pace ubertas."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Птица (аист или цапля) гнездится среди скал у воды; на заднем плане — руины башни/построек, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Grandibus ex ſpicis tenues contexe corollas,",
+     "Quas circum alterno palmite vitis eat.",
+     "His comptę Halcionet trãquilli in marmoris vnda",
+     "Nidificant,pullos inuolucresq; fouent.",
+     "Lætus erit Cereri,Baccho quoque fertilis annus,",
+     "Aequorei ſi rex alitis inſtar erit."
+    ],
+    "reading": [
+     "Grandibus ex spicis tenues contexe corollas,",
+     "Quas circum alterno palmite vitis eat.",
+     "His comptæ Halciones tranquilli in marmoris unda",
+     "Nidificant, pullos involucresque fovent.",
+     "Lætus erit Cereri, Baccho quoque fertilis annus,",
+     "Aequorei si rex alitis instar erit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "«Halcionet» напечатано (зум x3.5: конечное t однозначно) вместо «Halciones» (зимородки; согласование с «Nidificant… fouent») — подтверждённая опечатка набора; дипломатический слой как напечатано, слой чтения исправлен (errata). Ср. SUMMARY.md alc192-1."
+  }
+ ],
+ "ornaments": [],
+ "errata": [
+  {
+   "printed": "Halcionet",
+   "corrected": "Halciones",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "Конечное t вместо s; подтверждено зумом. Resolved 2026-11-06 (Opus zoom pass on Getty scan, pending_review cleanup). resolved_by: policy"
+  }
+ ],
+ "notes": "Номер страницы «192» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 200,
+ "source": "scan/frame_0200.jpg",
+ "page": "194",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SCIENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Eloquentia Fortitudine præ-",
+     "ſtantior."
+    ],
+    "reading": "Eloquentia Fortitudine præstantior."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Геракл (бородатый старец с палицей, в львиной шкуре) идёт, от его уст тянутся цепочки к ушам группы людей позади него; горный пейзаж с постройками вдали, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Arcum læua tenet:rigidam fert dextera clauam,",
+     "Contegit & Nemees corpora nuda leo.",
+     "Herculis hæc igitur facies.non conuenit illud",
+     "Quòd vetus & ſenio tempora cana gerit.",
+     "Quid quod lingua illi leuibus traiecta cathenis,",
+     "Quẽis ſiſſa facileis allicit aure viros?",
+     "Anné quòd Alciden lingua non robore Galli",
+     "Præſtantem,populis iura dediſſe ferunt?",
+     "Cedunt arma togæ,& quamuis duriſsima corda",
+     "Eloquio pollens ad ſua vota trahit."
+    ],
+    "reading": [
+     "Arcum læva tenet: rigidam fert dextera clavam,",
+     "Contegit & Nemees corpora nuda leo.",
+     "Herculis hæc igitur facies. non convenit illud",
+     "Quòd vetus & senio tempora cana gerit.",
+     "Quid quod lingua illi levibus traiecta cathenis,",
+     "Queis fissa facileis allicit aure viros?",
+     "Anné quòd Alciden lingua non robore Galli",
+     "Præstantem, populis iura dedisse ferunt?",
+     "Cedunt arma togæ, & quamvis durissima corda",
+     "Eloquio pollens ad sua vota trahit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "«Quẽis» (тильда над e) — та же форма, что на 0193 («Quẽis ille excusat»); повторное появление в том же значении «queis» = «quibus» подтверждает чтение, тильда здесь, по-видимому, декоративный элемент шрифта, не знак назализации."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «194» вверху слева. Эмблема «Геракл Галльский» (Hercules Gallicus).",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

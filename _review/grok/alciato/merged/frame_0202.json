@@ -1,0 +1,61 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 202,
+ "source": "scan/frame_0202.jpg",
+ "page": "196",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SCIENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Antiquiſsima quæque",
+     "commentitia."
+    ],
+    "reading": "Antiquissima quæque commentitia."
+   },
+   "subheading": {
+    "diplomatic": "APOLOGESIS.",
+    "reading": "Apologesis."
+   },
+   "engraving": {
+    "position": "между подзаголовком и эпиграммой",
+    "description": "Протей — бородатый старец с трезубцем/посохом — стоит среди морских животных (тюлень, дельфины и др.); справа солнце, слева постройки на берегу, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Pellenæe ſenex,cui forma eſt hiſtrica,Proteu,",
+     "Qui modò membra viri fers,modò mẽbra feri.",
+     "Dic age,quæ ſpecies ratio te vertit in omnes,",
+     "Nulla ſit vt vario certa figura tibi?",
+     "Signa vetuſtatis,primæui & præfero ſecli:",
+     "De quo quiſque ſuo ſomniat arbitrio."
+    ],
+    "reading": [
+     "Pellenæe senex, cui forma est histrica, Proteu,",
+     "Qui modò membra viri fers, modò membra feri.",
+     "Dic age, quæ species ratio te vertit in omnes,",
+     "Nulla sit ut vario certa figura tibi?",
+     "Signa vetustatis, primævi & præfero secli:",
+     "De quo quisque suo somniat arbitrio."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Подзаголовок «APOLOGESIS.» подтверждается независимой заметкой проекта (SUMMARY.md, alc196-1) о том же месте книги."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «196» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

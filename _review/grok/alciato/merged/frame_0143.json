@@ -1,0 +1,61 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 143,
+ "source": "scan/frame_0143.jpg",
+ "page": "137",
+ "signature": "I 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ex damno alterius,alterius",
+     "vtilitas."
+    ],
+    "reading": "Ex damno alterius, alterius utilitas."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Вепрь и львица сражаются под деревом; на дереве гриф",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Dum ſæuis ruerent in mutua vulnera telis,",
+     "Vngue leæna ferox,dente timendus aper,",
+     "Accurrit vultur ſpectatum,& prandia captat.",
+     "Gloria victoris,præda futura ſua eſt."
+    ],
+    "reading": [
+     "Dum sævis ruerent in mutua vulnera telis,",
+     "Ungue leæna ferox, dente timendus aper,",
+     "Accurrit vultur spectatum, & prandia captat.",
+     "Gloria victoris, præda futura sua est."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Орнаментальная рамка с фигурами, плодами и вазой внизу"
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «137» вверху справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ]
+}

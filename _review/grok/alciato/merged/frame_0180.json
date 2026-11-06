@@ -1,0 +1,69 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 180,
+ "source": "scan/frame_0180.jpg",
+ "page": "174",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMICITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Auxilium nunquàm",
+     "deficiens."
+    ],
+    "reading": "Auxilium nunquàm deficiens."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Потерпевший кораблекрушение плывёт, держась за щит; на берегу лагерь с шатрами, войско и укрепления",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Bina pericla vnis effugi ſedulus armis,",
+     "Cùm premererq; ſôlo,cùm premererq; ſalo.",
+     "Incolumem ex acie clypeus me præſtitit.idem",
+     "Naufragum apprenſus littora aduſque tulit.[?]"
+    ],
+    "reading": [
+     "Bina pericla unis effugi sedulus armis,",
+     "Cùm premererque sôlo, cùm premererque salo.",
+     "Incolumem ex acie clypeus me præstitit. idem",
+     "Naufragum apprensus littora adusque tulit.[?]"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Рамка с гротесками, маскаронами и картушем внизу с меткой «zv»"
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «174» вверху слева. В картуше рамки внизу монограмма «PV» (знак резчика; не текст). В «premererq;» (строка 2) между r и e посторонний приподнятый знак.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0978",
+  "D0979",
+  "D0980",
+  "D0981"
+ ],
+ "opus_uncertain_ids": [
+  "D0980",
+  "D0981"
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 50,
+ "source": "scan/frame_0050.jpg",
+ "page": "44",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTITVDO.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Onnia mea mecum porto."
+    ],
+    "reading": "Omnia mea mecum porto."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Косматый человек в меховой одежде (гунн/скиф) идёт по заснеженному/ледяному берегу, согнувшись от ветра; рядом гнущееся дерево; позади море с кораблями.",
+    "inscriptions": [
+     {
+      "where": "внизу справа на гравюре",
+      "text": "SCYTHICVM MARE."
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Hunnus inops Scythiciq; miſerrimus accola ponti,",
+     "Vſtus perpetuo liuida membra gelu.",
+     "Qui Cereris non nouit opes,nec dona L[?]yæi,",
+     "Et pretioſa tamen ſtragula ſemper habet:",
+     "Nam murinæ illum perſtringunt vndiq; pelles.",
+     "Lumina ſola patent,cætera opertus agit.",
+     "Sic furẽ haud metuit,ſic vẽtos temnit & himbres;",
+     "Tutus apudq; viros,tutus apudq; deos."
+    ],
+    "reading": [
+     "Hunnus inops Scythicique miserrimus accola ponti,",
+     "Ustus perpetuo livida membra gelu.",
+     "Qui Cereris non novit opes, nec dona L[?]yæi,",
+     "Et pretiosa tamen stragula semper habet:",
+     "Nam murinæ illum perstringunt undique pelles.",
+     "Lumina sola patent, cætera opertus agit.",
+     "Sic furem haud metuit, sic ventos temnit & himbres;",
+     "Tutus apudque viros, tutus apudque deos."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [
+  {
+   "printed": "Onnia",
+   "corrected": "Omnia",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер страницы «44» вверху слева. В «Scythiciq;», «vndiq;», «apudq;» знак q с надстрочной чертой и ʒ-образным хвостом передан как q;.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0357",
+  "D0358",
+  "D0359",
+  "D0360",
+  "D0361",
+  "D0362",
+  "D0363",
+  "D0364"
+ ],
+ "opus_uncertain_ids": [
+  "D0359",
+  "D0361",
+  "D0362",
+  "D0364"
+ ]
+}

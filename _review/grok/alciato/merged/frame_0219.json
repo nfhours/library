@@ -1,0 +1,60 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 219,
+ "source": "scan/frame_0219.jpg",
+ "page": "213",
+ "signature": "O 3",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "ARBORES.",
+ "rubric": "ARBORES",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Cupreſſus."
+    ],
+    "reading": "Cupressus."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Кипарис — одиноко стоящее дерево с корнями, прорисованными у земли.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Indicat effigies metæ,nomenq; Cupreſsi",
+     "Tractandos parili conditione ſuos.",
+     "ALIVD.",
+     "Funeſta eſt arbor,procerum monumẽta Cupreſſus,",
+     "Quale Apium plebis,comere fronde ſolet.",
+     "ALIVD.",
+     "Pulchra coma eſt,pulchro digeſtæq; ordine frõdes,",
+     "Sed fructus nullos hæc coma pulchra gerit."
+    ],
+    "reading": [
+     "Indicat effigies metæ, nomenque Cupressi",
+     "Tractandos parili conditione suos.",
+     "ALIUD.",
+     "Funesta est arbor, procerum monumenta Cupressus,",
+     "Quale Apium plebis, comere fronde solet.",
+     "ALIUD.",
+     "Pulchra coma est, pulchro digestæque ordine frondes,",
+     "Sed fructus nullos hæc coma pulchra gerit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Начало раздела «ARBORES.» (деревья): для одного дерева печатаются сразу несколько кратких эпиграмм под общим заголовком «ALIVD.» (другой вариант) — не отдельные эмблемы, воспроизведено одним блоком, как в оригинале."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «213» вверху справа. Сигнатура «O 3» внизу справа, под рамкой.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

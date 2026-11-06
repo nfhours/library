@@ -1,0 +1,52 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 184,
+ "source": "scan/frame_0184.jpg",
+ "page": "178",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HOSTILITAS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Inanis impetus."
+    ],
+    "reading": "Inanis impetus."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Ночной пейзаж: собака смотрит на луну и звёзды в небе; слева у воды — дом и мостик через ручей; справа — холмы, деревья, облака, вдали постройки.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Lunarem noctu (vt ſpeculum) canis inſpicit orbem:",
+     "Seq; videns,altum credit ineſſe canem,",
+     "Et latrat:ſed fruſtra agitur vox irrita ventis,",
+     "Et peragit curſus ſurda Diana ſuos."
+    ],
+    "reading": [
+     "Lunarem noctu (ut speculum) canis inspicit orbem:",
+     "Seque videns, altum credit inesse canem,",
+     "Et latrat: sed frustra agitur vox irrita ventis,",
+     "Et peragit cursus surda Diana suos."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «178» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

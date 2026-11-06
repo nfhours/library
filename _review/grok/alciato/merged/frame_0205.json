@@ -1,0 +1,64 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 205,
+ "source": "scan/frame_0205.jpg",
+ "page": "199",
+ "signature": "N 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SCIENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Litera occidit,ſpiritus viuificat."
+    ],
+    "reading": "Litera occidit, spiritus vivificat."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Кадм сражается копьём с драконом; на заднем плане из земли встают вооружённые люди и бьются друг с другом; холмы, деревья.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Vipereos Cadmus dentes vt credidit aruis,",
+     "Seuit & Aonio ſemina dira ſolo:",
+     "Terrigenûm clypeata cohors exorta virorum eſt,",
+     "Hoſtili inter ſe qui cecidêre manu.",
+     "Euaſêre quibus monitu Tritonidos armis",
+     "Abiectis data pax,dextraq; iuncta fuit.",
+     "Primus Agenorides elemẽta,notaſq; magiſtris",
+     "Tradidit,ijs ſuauem iunxit & harmoniam.",
+     "Quorum diſcipulos contraria plurima vexant,",
+     "Non niſi Palladia quæ dirimuntur ope."
+    ],
+    "reading": [
+     "Vipereos Cadmus dentes ut credidit arvis,",
+     "Sevit & Aonio semina dira solo:",
+     "Terrigenum clypeata cohors exorta virorum est,",
+     "Hostili inter se qui cecidêre manu.",
+     "Evasêre quibus monitu Tritonidos armis",
+     "Abiectis data pax, dextraque iuncta fuit.",
+     "Primus Agenorides elementa, notasque magistris",
+     "Tradidit, iis suavem iunxit & harmoniam.",
+     "Quorum discipulos contraria plurima vexant,",
+     "Non nisi Palladia quæ dirimuntur ope."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «199» вверху справа. Сигнатура «N 4» внизу справа, под рамкой.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

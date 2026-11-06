@@ -1,0 +1,80 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 57,
+ "source": "scan/frame_0057.jpg",
+ "page": "51",
+ "signature": "D 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SPES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In ſimulachrum Spei."
+    ],
+    "reading": "In simulachrum Spei."
+   },
+   "subheading": {
+    "diplomatic": "DIALOGISMVS.",
+    "reading": "DIALOGISMUS."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Женщина (Надежда) в длинном одеянии сидит на бочке/сосуде; рядом стоит женщина, позади мужчина в шляпе поднимает чашу, справа крылатая фигура (Купидон/Эрот) и ворон; в интерьере с аркой.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quæ Dea tam læto ſuſpectans ſydera vultu?",
+     "Cuius peniculis reddita i[?]mago fuit?",
+     "Elpidij fecêre manus.Ego nominor illa,",
+     "Quæ miſeris prõptã Spes bona præſtat opem.",
+     "Cur viridis tibi palla? Quòd om̃ia me duce vernẽt.",
+     "Quid manibus mortis tela refracta geris?"
+    ],
+    "reading": [
+     "Quæ Dea tam læto suspectans sydera vultu?",
+     "Cuius peniculis reddita i[?]mago fuit?",
+     "Elpidii fecêre manus.Ego nominor illa,",
+     "Quæ miseris promptam Spes bona præstat opem.",
+     "Cur viridis tibi palla? Quòd omnia me duce vernent.",
+     "Quid manibus mortis tela refracta geris?"
+    ]
+   },
+   "continues_on_next_page": true,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «51» вверху справа; сигнатура «D 2» внизу справа. Диалогизм продолжается на кадре 0058.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0415",
+  "D0416",
+  "D0417",
+  "D0418",
+  "D0419",
+  "D0420",
+  "D0421",
+  "D0422",
+  "D0423"
+ ],
+ "opus_uncertain_ids": [
+  "D0416",
+  "D0417",
+  "D0420",
+  "D0421"
+ ]
+}

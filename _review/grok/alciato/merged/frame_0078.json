@@ -1,0 +1,56 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 78,
+ "source": "scan/frame_0078.jpg",
+ "page": "72",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVLTITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In eum qui ſibi ipſi damnum",
+     "apparat."
+    ],
+    "reading": "In eum qui sibi ipsi damnum apparat."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Большой рогатый козёл/коза стоит в пейзаже, рядом (под ней) волчонок; позади хижина-хлев и деревья.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Capra lupum non ſponte,meo nunc vbere lacto,",
+     "Quòd malè paſtoris prouida cura iubet.",
+     "Creuerit ille ſimul,mea me poſt vbera paſcet.",
+     "Improbitas nullo flectitur obſequio."
+    ],
+    "reading": [
+     "Capra lupum non sponte, meo nunc ubere lacto,",
+     "Quòd malè pastoris provida cura iubet.",
+     "Creverit ille simul, mea me post ubera pascet.",
+     "Improbitas nullo flectitur obsequio."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «72» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ]
+}

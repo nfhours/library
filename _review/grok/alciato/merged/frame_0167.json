@@ -1,0 +1,61 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 167,
+ "source": "scan/frame_0167.jpg",
+ "page": "161",
+ "signature": "L",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRINCEPS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Principis clementia."
+    ],
+    "reading": "Principis clementia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Улей с пчёлами под деревом; дом, пейзаж",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Veſparũ quòd nulla vnquam Rex ſpicula figet:",
+     "Quodq́; alijs duplo corpore maior erit.",
+     "Arguet imperium clemens,moderataq; regna,",
+     "Sanctaq; iudicibus credita iura bonis."
+    ],
+    "reading": [
+     "Vesparum quòd nulla unquam Rex spicula figet:",
+     "Quodque aliis duplo corpore maior erit.",
+     "Arguet imperium clemens, moderataque regna,",
+     "Sanctaque iudicibus credita iura bonis."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с волютами и вазой внизу"
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «161» вверху справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0955"
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 229,
+ "source": "scan/frame_0229.jpg",
+ "page": "223",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "ARBORES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Morus."
+    ],
+    "reading": "Morus."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Тутовое дерево (шелковица) с густой листвой; корни прорисованы у земли.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Serior at Morus nunquàm niſi frigore lapſo",
+     "Germinat:& ſapiens nomina falſa gerit."
+    ],
+    "reading": [
+     "Serior at Morus nunquàm nisi frigore lapso",
+     "Germinat: & sapiens nomina falsa gerit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «223» вверху справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

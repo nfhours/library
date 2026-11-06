@@ -1,0 +1,86 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 7,
+ "source": "scan/frame_0007.jpg",
+ "page": "[1]",
+ "signature": null,
+ "catchword": null,
+ "page_type": "title",
+ "running_head": null,
+ "rubric": null,
+ "emblems": [],
+ "blocks": [
+  {
+   "kind": "title_text",
+   "lang": "la",
+   "diplomatic": [
+    "EMBLEMATA",
+    "D. A. ALCIATI,",
+    "denuo ab ipſo Autore",
+    "recognita,ac,quæ deſi-",
+    "derabantur, imagini",
+    "bus locupletata.",
+    "Acceſſerunt nova aliquot ab",
+    "Autore Emblemata ſuis quoq;",
+    "eiconibus inſignita."
+   ],
+   "reading": [
+    "EMBLEMATA D. A. ALCIATI, denuo ab ipso Autore recognita, ac, quæ desiderabantur, imaginibus locupletata.",
+    "Accesserunt nova aliquot ab Autore Emblemata suis quoque eiconibus insignita."
+   ],
+   "notes": "Строки 1–6 прямым шрифтом (EMBLEMATA капителями, D. A. ALCIATI курсивными заглавными); строки 7–9 курсивом. «imagini / bus» — перенос без знака, в слое чтения склеен. Q01 резолюция (policy): курсивная L подтверждена зумом скана (тот же глиф, что EMBL. на титуле и LOCOS на 0233) — ALCIATI, не опечатка."
+  },
+  {
+   "kind": "imprint",
+   "lang": "la",
+   "diplomatic": [
+    "LVGD. APVD GVLIEL.",
+    "ROVILIVM. 1551."
+   ],
+   "reading": [
+    "LVGD. APUD GULIEL. ROVILIUM. 1551."
+   ],
+   "notes": "В картуше в нижней части гравированной рамки."
+  },
+  {
+   "kind": "privilege_line",
+   "lang": "la",
+   "diplomatic": [
+    "CVM",
+    "PRIVILE[...]"
+   ],
+   "reading": [
+    "CUM PRIVILEGIO"
+   ],
+   "notes": "Слева внизу «CVM», справа внизу «PRIVILE» + край следующей литеры (C или G), остальное срезано обрезом/корешком. Q02 резолюция (policy): зум подтверждает физический обрез переплётом сразу после \"PRIVILEG\" (не опечатка, не повреждение литеры) — стандартная формула \"CVM PRIVILEGIO\" восстановлена в слое чтения; дипломатический слой остаётся CVM PRIVILE[...]."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "engraving": {
+  "position": "вся страница (гравированная рамка титула)",
+  "description": "Архитектурный портал: по сторонам две обнажённые мужские фигуры-атланты (теламоны) на постаментах с масками; наверху в центре бородатая маска-маскарон с подвесками, по углам лежащие путти (крылатые); в центре картуш с текстом титула, под ним подвешены гирлянды плодов; внизу в овальном медальоне орёл (издательская марка), сидящий, со змеёй(?) у груди; внизу картуш с выходными данными на основании колодца/постамента.",
+  "inscriptions": []
+ },
+ "notes": "Справа на кадре виден край переплёта.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0001",
+  "D0002",
+  "D0003",
+  "D0004",
+  "D0005",
+  "D0006",
+  "D0007",
+  "D0008"
+ ]
+}

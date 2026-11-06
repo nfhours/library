@@ -1,0 +1,56 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 201,
+ "source": "scan/frame_0201.jpg",
+ "page": "195",
+ "signature": "N 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SCIENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Facundia difficilis."
+    ],
+    "reading": "Facundia difficilis."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Воин в доспехах с мечом стоит напротив Меркурия (в крылатом шлеме, с кадуцеем), который протягивает ему растение; пейзаж со звёздами, облаками.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Antidotum Aeææ medicata in pocula Circes",
+     "Mercurium hoc Ithaco fama dediſſe fuit.",
+     "Moly vocant,id vix radice euellitur atra,",
+     "Purpureus:ſed flos,lactis & inſtar habet.",
+     "Eloquij candor facundiaq; allicit omnes:",
+     "Sed multi res eſt tanta laboris opus."
+    ],
+    "reading": [
+     "Antidotum Aeææ medicata in pocula Circes",
+     "Mercurium hoc Ithaco fama dedisse fuit.",
+     "Moly vocant, id vix radice evellitur atra,",
+     "Purpureus: sed flos, lactis & instar habet.",
+     "Eloquii candor facundiaque allicit omnes:",
+     "Sed multi res est tanta laboris opus."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «195» вверху справа. Сигнатура «N 2» внизу справа, под рамкой.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 224,
+ "source": "scan/frame_0224.jpg",
+ "page": "218",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "ARBORES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Cotonea."
+    ],
+    "reading": "Cotonea."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Айвовое дерево с плодами и листьями; корни прорисованы у земли.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Poma nouis tribui debere Cydonia nuptis",
+     "Dicitur antiquus conſtituiſſe Solon.",
+     "Grata ori & ſtomacho cùm ſint,vt & halitus illis",
+     "Sit ſuauis,blandus manet & ore lepos."
+    ],
+    "reading": [
+     "Poma novis tribui debere Cydonia nuptis",
+     "Dicitur antiquus constituisse Solon.",
+     "Grata ori & stomacho cùm sint, ut & halitus illis",
+     "Sit suavis, blandus manet & ore lepos."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «218» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

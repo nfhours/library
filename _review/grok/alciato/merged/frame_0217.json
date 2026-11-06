@@ -1,0 +1,60 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 217,
+ "source": "scan/frame_0217.jpg",
+ "page": "211",
+ "signature": "O 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "MATRIMONIVM.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In pudoris ſtatuam."
+    ],
+    "reading": "In pudoris statuam."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Пенелопа сидит между Икарием (справа, протягивает руку) и Улиссом (слева); на заднем плане колонна, пейзаж с холмами и фигурой вдали.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Penelope deſponſa ſequi cupiebat Vlyſſem,",
+     "Ni ſecum Icarius mallet habere pater.",
+     "Ille Ithacam,hic offert Sparten.manet anxia virgo.",
+     "Hinc pater,inde viri mutuus vrget amor.",
+     "Ergo ſedens velat vultus,obnubit ocellos.",
+     "Iſta verecundi ſigna pudoris erant.",
+     "Quẽis ſibi prælatum Icarius cognouit Vlyſſem,",
+     "Hocq; pudori aram ſchemate conſtituit."
+    ],
+    "reading": [
+     "Penelope desponsa sequi cupiebat Ulyssem,",
+     "Ni secum Icarius mallet habere pater.",
+     "Ille Ithacam, hic offert Sparten. manet anxia virgo.",
+     "Hinc pater, inde viri mutuus urget amor.",
+     "Ergo sedens velat vultus, obnubit ocellos.",
+     "Ista verecundi signa pudoris erant.",
+     "Queis sibi prælatum Icarius cognovit Ulyssem,",
+     "Hocque pudori aram schemate constituit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "«Quẽis» — та же форма, что на 0193, 0200, 0214 (= queis)."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «211» вверху справа. Сигнатура «O 2» внизу справа, под рамкой.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

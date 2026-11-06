@@ -1,0 +1,60 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 95,
+ "source": "scan/frame_0095.jpg",
+ "page": "89",
+ "signature": "F 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "DESIDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Deſidiam abijciendam."
+    ],
+    "reading": "Desidiam abiiciendam."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Двое мужчин сидят на камне у хижины с соломенной крышей: один, в шапке, обнимает/тормошит другого; позади деревья и столб.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quisquis iners abeat.Nam in chœnice ſigere ſedẽ,",
+     "Nos prohibent Samij dogmata ſancta ſenis.",
+     "Surge igitur,duroq; manus adſueſce labori,",
+     "Det tibi dimenſos craſtina vt hora cibos."
+    ],
+    "reading": [
+     "Quisquis iners abeat.Nam in chœnice sigere sedem,",
+     "Nos prohibent Samii dogmata sancta senis.",
+     "Surge igitur, duroque manus adsuesce labori,",
+     "Det tibi dimensos crastina ut hora cibos."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «89» вверху справа; сигнатура внизу справа (читается как «F 5», цифра смазана).",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0567",
+  "D0568",
+  "D0569"
+ ]
+}

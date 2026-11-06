@@ -1,0 +1,48 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 227,
+ "source": "scan/frame_0227.jpg",
+ "page": "221",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "ARBORES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Malus medica."
+    ],
+    "reading": "Malus medica."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Цитрусовое дерево (лимонное/померанцевое) с цветами и плодами; корни прорисованы у земли.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aurea ſunt Veneris poma hæc:iucundus amaror",
+     "Indicat,eſt Græcis ſic γλυκυπικρ[ος?] amor."
+    ],
+    "reading": [
+     "Aurea sunt Veneris poma hæc: iucundus amaror",
+     "Indicat, est Græcis sic γλυκύπικρος amor."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Окончание греческого слова «γλυκυπικρ...» напечатано компактной типографской лигатурой («-ος» в виде кружка с росчерком), а не отдельными буквами ο-ς; чтение «γλυκύπικρος» (горько-сладкий) уверенное по контексту и известному греческому слову, но сама лигатура как знак — не по буквам."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «221» вверху справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

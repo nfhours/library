@@ -1,0 +1,68 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 24,
+ "source": "scan/frame_0024.jpg",
+ "page": "18",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FIDES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Non vulganda conſilia."
+    ],
+    "reading": "Non vulganda consilia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Знамя (полотнище на древке) с надписью по диагонали; на нём изображён минотавр — человек с бородой и поднятой дубиной в правой руке, с телом быка, в круглом поле; внизу облака/скалы.",
+    "inscriptions": [
+     {
+      "where": "по диагонали на полотнище знамени",
+      "text": "SPQR"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Limine quod cæco,obſcura & caligine monſtrum",
+     "Gnoſiacis clauſit Dædalus in latêbris:",
+     "Depictum Romana Phalanx in prælia geſtat,",
+     "Semiuiroq; nitent ſigna ſuperba boue.",
+     "Noſq; monent,debere ducum ſecreta latêre",
+     "Conſilia.autori cognita techna nocet."
+    ],
+    "reading": [
+     "Limine quod cæco, obscura & caligine monstrum",
+     "Gnosiacis clausit Dædalus in latêbris:",
+     "Depictum Romana Phalanx in prælia gestat,",
+     "Semiviroque nitent signa superba bove.",
+     "Nosque monent, debere ducum secreta latêre",
+     "Consilia.autori cognita techna nocet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «18» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0185",
+  "D0186"
+ ]
+}

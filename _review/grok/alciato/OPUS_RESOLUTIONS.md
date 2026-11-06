@@ -1,0 +1,987 @@
+# OPUS_RESOLUTIONS — Alciato, resolution of DISAGREEMENTS.md by scan zoom
+
+One line per disagreement ID: `frame | ID | field/layer | decision | reason`.
+Each D-ID is a pairwise t1-vs-tN comparison, so one physical dispute often has 2–3 IDs.
+"rule" = decided by TRANSCRIPTION.md policy (no image needed); "zoom" = read on the scan; "[?] kept" = genuinely unclear on the scan, left uncertain.
+
+- 0007 | D0001 | dipl | nova | zoom: italic v printed
+- 0007 | D0002 | dipl+read | ROVILIVM. / ROVILIUM. | zoom: full stop, not comma
+- 0007 | D0006 | dipl+read | ROVILIVM. / ROVILIUM. | zoom: full stop, not comma
+- 0007 | D0003 | dipl | keep t1 (empty); t4 summary text rejected | t4 structural artefact
+- 0007 | D0004 | read | LVGD. kept | rule §5: period-abbreviations not normalized
+- 0007 | D0005 | read | LVGD. kept | rule §5: period-abbreviations not normalized
+- 0007 | D0008 | read | LVGD. kept | rule §5: period-abbreviations not normalized
+- 0007 | D0007 | read | joined desiderabantur, imaginibus | rule §5: prose joined
+- 0008 | D0009 | dipl+read | de (no [?]) | zoom: clear
+- 0008 | D0011 | dipl+read | de (no [?]) | zoom: clear
+- 0008 | D0013 | dipl+read | de (no [?]) | zoom: clear
+- 0008 | D0017 | dipl+read | de (no [?]) | zoom: clear
+- 0008 | D0020 | dipl+read | de (no [?]) | zoom: clear
+- 0008 | D0023 | dipl+read | de (no [?]) | zoom: clear
+- 0008 | D0010 | dipl+read | sé[?]ellées (round s; 2nd glyph accented, é vs c unclear) | zoom: round s certain; 2nd glyph ambiguous -> [?] kept
+- 0008 | D0012 | dipl+read | sé[?]ellées (round s; 2nd glyph accented, é vs c unclear) | zoom: round s certain; 2nd glyph ambiguous -> [?] kept
+- 0008 | D0014 | dipl+read | sé[?]ellées (round s; 2nd glyph accented, é vs c unclear) | zoom: round s certain; 2nd glyph ambiguous -> [?] kept
+- 0008 | D0018 | dipl+read | sé[?]ellées (round s; 2nd glyph accented, é vs c unclear) | zoom: round s certain; 2nd glyph ambiguous -> [?] kept
+- 0008 | D0022 | dipl+read | sé[?]ellées (round s; 2nd glyph accented, é vs c unclear) | zoom: round s certain; 2nd glyph ambiguous -> [?] kept
+- 0008 | D0024 | dipl+read | sé[?]ellées (round s; 2nd glyph accented, é vs c unclear) | zoom: round s certain; 2nd glyph ambiguous -> [?] kept
+- 0008 | D0015 | dipl | séel (round s) | zoom: round s, cf. ſur
+- 0008 | D0016 | read | IL | printed IL (initial+cap); no case-normalization rule
+- 0008 | D0019 | read | IL | printed IL (initial+cap); no case-normalization rule
+- 0008 | D0021 | read | d'iceluy | rule: u/v normalized; t3 error
+- 0009 | D0025 | page | 3 | zoom: numeral printed top right (same style as p.10)
+- 0009 | D0026 | dipl+read | lteraturæ (no [?]); typo -> errata | zoom: clearly printed lteraturæ; t2/t3/t4 silently corrected
+- 0009 | D0028 | dipl+read | lteraturæ (no [?]); typo -> errata | zoom: clearly printed lteraturæ; t2/t3/t4 silently corrected
+- 0009 | D0030 | dipl+read | lteraturæ (no [?]); typo -> errata | zoom: clearly printed lteraturæ; t2/t3/t4 silently corrected
+- 0009 | D0032 | dipl+read | lteraturæ (no [?]); typo -> errata | zoom: clearly printed lteraturæ; t2/t3/t4 silently corrected
+- 0009 | D0034 | dipl+read | lteraturæ (no [?]); typo -> errata | zoom: clearly printed lteraturæ; t2/t3/t4 silently corrected
+- 0009 | D0038 | dipl+read | lteraturæ (no [?]); typo -> errata | zoom: clearly printed lteraturæ; t2/t3/t4 silently corrected
+- 0009 | D0027 | dipl+read | ἀφοριστικῶς (t1) | zoom: στ ligature present; ϱ is glyph variant
+- 0009 | D0029 | dipl+read | ἀφοριστικῶς (t1) | zoom: στ ligature present; ϱ is glyph variant
+- 0009 | D0031 | dipl+read | ἀφοριστικῶς (t1) | zoom: στ ligature present; ϱ is glyph variant
+- 0009 | D0033 | dipl+read | ἀφοριστικῶς (t1) | zoom: στ ligature present; ϱ is glyph variant
+- 0009 | D0035 | dipl+read | ἀφοριστικῶς (t1) | zoom: στ ligature present; ϱ is glyph variant
+- 0009 | D0039 | dipl+read | ἀφοριστικῶς (t1) | zoom: στ ligature present; ϱ is glyph variant
+- 0009 | D0036 | read | joined words (t1) | rule §5: prose joined, t4 OCR split
+- 0009 | D0037 | read | joined words (t1) | rule §5: prose joined, t4 OCR split
+- 0009 | D0040 | read | joined words (t1) | rule §5: prose joined, t4 OCR split
+- 0010 | D0041 | page | 4 | zoom: numeral printed top left
+- 0010 | D0042 | dipl+read | τῶν εἰκόνων (no [?]) | zoom: legible, final-ν glyph form
+- 0010 | D0044 | dipl+read | τῶν εἰκόνων (no [?]) | zoom: legible, final-ν glyph form
+- 0010 | D0049 | dipl+read | τῶν εἰκόνων (no [?]) | zoom: legible, final-ν glyph form
+- 0010 | D0051 | dipl+read | τῶν εἰκόνων (no [?]) | zoom: legible, final-ν glyph form
+- 0010 | D0054 | dipl+read | τῶν εἰκόνων (no [?]) | zoom: legible, final-ν glyph form
+- 0010 | D0063 | dipl+read | τῶν εἰκόνων (no [?]) | zoom: legible, final-ν glyph form
+- 0010 | D0043 | dipl+read | tabulis (no [?]) | zoom: clear
+- 0010 | D0046 | dipl+read | tabulis (no [?]) | zoom: clear
+- 0010 | D0050 | dipl+read | tabulis (no [?]) | zoom: clear
+- 0010 | D0052 | dipl+read | tabulis (no [?]) | zoom: clear
+- 0010 | D0056 | dipl+read | tabulis (no [?]) | zoom: clear
+- 0010 | D0064 | dipl+read | tabulis (no [?]) | zoom: clear
+- 0010 | D0045 | dipl+read | ant (as printed; typo -> errata) | zoom: clearly ant
+- 0010 | D0055 | dipl+read | ant (as printed; typo -> errata) | zoom: clearly ant
+- 0010 | D0047 | dipl+read | hęc / hæc (no [?]) | zoom: clear
+- 0010 | D0057 | dipl+read | hęc / hæc (no [?]) | zoom: clear
+- 0010 | D0048 | dipl+read | em̃ (tilde) | zoom: wavy tilde over m
+- 0010 | D0059 | dipl+read | em̃ (tilde) | zoom: wavy tilde over m
+- 0010 | D0053 | read | voluit | rule §5: u is vowel; t1 over-normalized
+- 0010 | D0058 | read | voluit | rule §5: u is vowel; t1 over-normalized
+- 0010 | D0060 | read | t1 normalized/joined | rule §5: u/v normalized, prose joined; t4 OCR
+- 0010 | D0061 | read | t1 normalized/joined | rule §5: u/v normalized, prose joined; t4 OCR
+- 0010 | D0062 | read | t1 normalized/joined | rule §5: u/v normalized, prose joined; t4 OCR
+- 0010 | D0065 | read | t1 normalized/joined | rule §5: u/v normalized, prose joined; t4 OCR
+- 0010 | D0066 | read | t1 normalized/joined | rule §5: u/v normalized, prose joined; t4 OCR
+- 0010 | D0067 | read | t1 normalized/joined | rule §5: u/v normalized, prose joined; t4 OCR
+- 0010 | D0068 | read | t1 normalized/joined | rule §5: u/v normalized, prose joined; t4 OCR
+- 0011 | D0069 | page | 5 | zoom: numeral printed top right
+- 0011 | D0070 | dipl+read | κατ̀[?] kept | zoom: κ+superscript ligature abbreviation of κατά; exact glyph rendering needs judgment -> [?] kept
+- 0011 | D0072 | dipl+read | κατ̀[?] kept | zoom: κ+superscript ligature abbreviation of κατά; exact glyph rendering needs judgment -> [?] kept
+- 0011 | D0074 | dipl+read | κατ̀[?] kept | zoom: κ+superscript ligature abbreviation of κατά; exact glyph rendering needs judgment -> [?] kept
+- 0011 | D0076 | dipl+read | κατ̀[?] kept | zoom: κ+superscript ligature abbreviation of κατά; exact glyph rendering needs judgment -> [?] kept
+- 0011 | D0078 | dipl+read | κατ̀[?] kept | zoom: κ+superscript ligature abbreviation of κατά; exact glyph rendering needs judgment -> [?] kept
+- 0011 | D0082 | dipl+read | κατ̀[?] kept | zoom: κ+superscript ligature abbreviation of κατά; exact glyph rendering needs judgment -> [?] kept
+- 0011 | D0071 | dipl+read | αὐτόγραφον (no [?]) | zoom: legible
+- 0011 | D0073 | dipl+read | αὐτόγραφον (no [?]) | zoom: legible
+- 0011 | D0075 | dipl+read | αὐτόγραφον (no [?]) | zoom: legible
+- 0011 | D0077 | dipl+read | αὐτόγραφον (no [?]) | zoom: legible
+- 0011 | D0079 | dipl+read | αὐτόγραφον (no [?]) | zoom: legible
+- 0011 | D0083 | dipl+read | αὐτόγραφον (no [?]) | zoom: legible
+- 0011 | D0080 | read | joined (t1) | rule §5 prose joined
+- 0011 | D0081 | read | joined (t1) | rule §5 prose joined
+- 0012 | D0084 | page | 6 | zoom: numeral printed top left
+- 0012 | D0085 | dipl+read | AL[?]CIATI kept | rule §4: italic L≈I always flagged
+- 0012 | D0097 | dipl+read | AL[?]CIATI kept | rule §4: italic L≈I always flagged
+- 0012 | D0086 | dipl+read | teſſerat (no [?]) | zoom: clear; t2 dropped t
+- 0012 | D0090 | dipl+read | teſſerat (no [?]) | zoom: clear; t2 dropped t
+- 0012 | D0098 | dipl+read | teſſerat (no [?]) | zoom: clear; t2 dropped t
+- 0012 | D0102 | dipl+read | teſſerat (no [?]) | zoom: clear; t2 dropped t
+- 0012 | D0087 | dipl+read | At | zoom: legible, stray mark between t and tibi
+- 0012 | D0091 | dipl+read | At | zoom: legible, stray mark between t and tibi
+- 0012 | D0099 | dipl+read | At | zoom: legible, stray mark between t and tibi
+- 0012 | D0103 | dipl+read | At | zoom: legible, stray mark between t and tibi
+- 0012 | D0088 | dipl+read | uomiſma[?]ta | zoom: a after m broken (dot+ı); damaged letter
+- 0012 | D0100 | dipl+read | uomiſma[?]ta | zoom: a after m broken (dot+ı); damaged letter
+- 0012 | D0095 | dipl+read | u (no [?]) -> uomiſmata, typo to errata | zoom: clearly u; t4 reading v rejected (typo form kept)
+- 0012 | D0108 | dipl+read | u (no [?]) -> uomiſmata, typo to errata | zoom: clearly u; t4 reading v rejected (typo form kept)
+- 0012 | D0089 | dipl+read | m[?]anus | zoom: m damaged (prints as ı); damage rule
+- 0012 | D0092 | dipl+read | m[?]anus | zoom: m damaged (prints as ı); damage rule
+- 0012 | D0096 | dipl+read | m[?]anus | zoom: m damaged (prints as ı); damage rule
+- 0012 | D0101 | dipl+read | m[?]anus | zoom: m damaged (prints as ı); damage rule
+- 0012 | D0104 | dipl+read | m[?]anus | zoom: m damaged (prints as ı); damage rule
+- 0012 | D0109 | dipl+read | m[?]anus | zoom: m damaged (prints as ı); damage rule
+- 0012 | D0093 | dipl+read | æmoris (as printed; typo -> errata) | zoom: æ ligature clear
+- 0012 | D0105 | dipl+read | æmoris (as printed; typo -> errata) | zoom: æ ligature clear
+- 0012 | D0094 | dipl+read | t1 (Emble- / joined reading) | rule: hyphen spacing insignificant, prose joined
+- 0012 | D0106 | dipl+read | t1 (Emble- / joined reading) | rule: hyphen spacing insignificant, prose joined
+- 0012 | D0107 | dipl+read | t1 (Emble- / joined reading) | rule: hyphen spacing insignificant, prose joined
+- 0013 | D0110 | dipl | hisq; (round s) | zoom: round s
+- 0013 | D0112 | dipl | hisq; (round s) | zoom: round s
+- 0013 | D0111 | dipl+read | fæucibus (as printed; typo -> errata) | zoom: æ clearly printed; t4 right
+- 0013 | D0113 | dipl+read | fæucibus (as printed; typo -> errata) | zoom: æ clearly printed; t4 right
+- 0014 | D0114 | dipl+read | E[?]ituricis | zoom: initial glyph E-shaped (B expected); damaged/wrong letter -> [?] on letter, no silent B
+- 0014 | D0116 | dipl+read | E[?]ituricis | zoom: initial glyph E-shaped (B expected); damaged/wrong letter -> [?] on letter, no silent B
+- 0014 | D0118 | dipl+read | E[?]ituricis | zoom: initial glyph E-shaped (B expected); damaged/wrong letter -> [?] on letter, no silent B
+- 0014 | D0121 | dipl+read | E[?]ituricis | zoom: initial glyph E-shaped (B expected); damaged/wrong letter -> [?] on letter, no silent B
+- 0014 | D0123 | dipl+read | E[?]ituricis | zoom: initial glyph E-shaped (B expected); damaged/wrong letter -> [?] on letter, no silent B
+- 0014 | D0125 | dipl+read | E[?]ituricis | zoom: initial glyph E-shaped (B expected); damaged/wrong letter -> [?] on letter, no silent B
+- 0014 | D0115 | dipl+read | ſignum[?] / signum[?] | zoom: final m broken (looks like uı); t1 reading signuv wrong
+- 0014 | D0117 | dipl+read | ſignum[?] / signum[?] | zoom: final m broken (looks like uı); t1 reading signuv wrong
+- 0014 | D0120 | dipl+read | ſignum[?] / signum[?] | zoom: final m broken (looks like uı); t1 reading signuv wrong
+- 0014 | D0122 | dipl+read | ſignum[?] / signum[?] | zoom: final m broken (looks like uı); t1 reading signuv wrong
+- 0014 | D0124 | dipl+read | ſignum[?] / signum[?] | zoom: final m broken (looks like uı); t1 reading signuv wrong
+- 0014 | D0127 | dipl+read | ſignum[?] / signum[?] | zoom: final m broken (looks like uı); t1 reading signuv wrong
+- 0014 | D0119 | dipl+read | nu[?]nc | zoom: 2nd letter looks like n (turned u?)
+- 0014 | D0126 | dipl+read | nu[?]nc | zoom: 2nd letter looks like n (turned u?)
+- 0015 | D0128 | inscription | ΝΟΣ | zoom: ΝΟΣ legible on scroll loop under ΜΕ
+- 0015 | D0134 | inscription | ΝΟΣ | zoom: ΝΟΣ legible on scroll loop under ΜΕ
+- 0015 | D0136 | inscription | ΝΟΣ | zoom: ΝΟΣ legible on scroll loop under ΜΕ
+- 0015 | D0132 | inscription | no "|" separators | t3 artefact
+- 0015 | D0133 | inscription | no "|" separators | t3 artefact
+- 0015 | D0129 | dipl+read | μηδ' ἓν[?] kept | zoom: breathing/accent combo on ε not resolvable
+- 0015 | D0135 | dipl+read | μηδ' ἓν[?] kept | zoom: breathing/accent combo on ε not resolvable
+- 0015 | D0137 | dipl+read | μηδ' ἓν[?] kept | zoom: breathing/accent combo on ε not resolvable
+- 0015 | D0140 | dipl+read | μηδ' ἓν[?] kept | zoom: breathing/accent combo on ε not resolvable
+- 0015 | D0143 | dipl+read | μηδ' ἓν[?] kept | zoom: breathing/accent combo on ε not resolvable
+- 0015 | D0144 | dipl+read | μηδ' ἓν[?] kept | zoom: breathing/accent combo on ε not resolvable
+- 0015 | D0130 | dipl+read | ἀναβαλλόμενος (ος ligature) | zoom: clear
+- 0015 | D0138 | dipl+read | ἀναβαλλόμενος (ος ligature) | zoom: clear
+- 0015 | D0141 | dipl+read | ἀναβαλλόμενος (ος ligature) | zoom: clear
+- 0015 | D0145 | dipl+read | ἀναβαλλόμενος (ος ligature) | zoom: clear
+- 0015 | D0131 | dipl+read | Alexandrnm (as printed; typo -> errata) | zoom: n for u clearly printed
+- 0015 | D0142 | dipl+read | Alexandrnm (as printed; typo -> errata) | zoom: n for u clearly printed
+- 0015 | D0139 | dipl+read | ocyor (no [?]) | zoom: legible, stray mark
+- 0015 | D0146 | dipl+read | ocyor (no [?]) | zoom: legible, stray mark
+- 0016 | D0147 | dipl+read | præſtanit[?] | zoom: extra dotless stroke between n and t (stray/broken sort?); printed shape anıt -> [?]
+- 0016 | D0148 | dipl+read | præſtanit[?] | zoom: extra dotless stroke between n and t (stray/broken sort?); printed shape anıt -> [?]
+- 0016 | D0149 | dipl+read | præſtanit[?] | zoom: extra dotless stroke between n and t (stray/broken sort?); printed shape anıt -> [?]
+- 0016 | D0150 | dipl+read | præſtanit[?] | zoom: extra dotless stroke between n and t (stray/broken sort?); printed shape anıt -> [?]
+- 0017 | D0151 | dipl+read | initinm (as printed; typo -> errata) | zoom: n for u clear; t2 right
+- 0017 | D0153 | dipl+read | initinm (as printed; typo -> errata) | zoom: n for u clear; t2 right
+- 0017 | D0156 | dipl+read | initinm (as printed; typo -> errata) | zoom: n for u clear; t2 right
+- 0017 | D0158 | dipl+read | initinm (as printed; typo -> errata) | zoom: n for u clear; t2 right
+- 0017 | D0152 | dipl+read | vafrûm | zoom: circumflex, not tilde; accents kept in reading
+- 0017 | D0154 | dipl+read | vafrûm | zoom: circumflex, not tilde; accents kept in reading
+- 0017 | D0155 | dipl+read | vafrûm | zoom: circumflex, not tilde; accents kept in reading
+- 0017 | D0157 | dipl+read | vafrûm | zoom: circumflex, not tilde; accents kept in reading
+- 0017 | D0159 | dipl+read | vafrûm | zoom: circumflex, not tilde; accents kept in reading
+- 0017 | D0160 | dipl+read | vafrûm | zoom: circumflex, not tilde; accents kept in reading
+- 0018 | D0161 | dipl+read | gentes.[?] (point printed; possibly broken comma) | zoom: only a baseline dot visible
+- 0018 | D0162 | dipl+read | gentes.[?] (point printed; possibly broken comma) | zoom: only a baseline dot visible
+- 0018 | D0163 | dipl+read | gentes.[?] (point printed; possibly broken comma) | zoom: only a baseline dot visible
+- 0018 | D0164 | dipl+read | gentes.[?] (point printed; possibly broken comma) | zoom: only a baseline dot visible
+- 0019 | D0165 | dipl+read | t1 spacing | rule §3: spacing around punctuation insignificant
+- 0019 | D0166 | dipl+read | t1 spacing | rule §3: spacing around punctuation insignificant
+- 0019 | D0167 | read | Obvius | rule §5: consonantal u -> v
+- 0020 | D0168 | dipl+read | tenus. (no [?]) | zoom: blotted but legible
+- 0020 | D0172 | dipl+read | tenus. (no [?]) | zoom: blotted but legible
+- 0020 | D0169 | dipl+read | triuo / trivo (as printed; typo -> errata) | zoom: line 5 clearly triuo (line 1 has triuio)
+- 0020 | D0171 | dipl+read | triuo / trivo (as printed; typo -> errata) | zoom: line 5 clearly triuo (line 1 has triuio)
+- 0020 | D0173 | dipl+read | triuo / trivo (as printed; typo -> errata) | zoom: line 5 clearly triuo (line 1 has triuio)
+- 0020 | D0176 | dipl+read | triuo / trivo (as printed; typo -> errata) | zoom: line 5 clearly triuo (line 1 has triuio)
+- 0020 | D0170 | dipl+read | vitæ (no [?]) | zoom: æ blotted, legible
+- 0020 | D0174 | dipl+read | vitæ (no [?]) | zoom: æ blotted, legible
+- 0020 | D0175 | read | Dii | rule §5: j -> i in Latin
+- 0021 | D0177 | rubric | VIRTVTES. FIDES. | zoom: both lines printed inside the frame above motto (schema rubric)
+- 0021 | D0178 | dipl+read | VIRTVTES. not a separate text field; folded into rubric | schema §6: in-frame heading = rubric
+- 0021 | D0179 | dipl+read | VIRTVTES. not a separate text field; folded into rubric | schema §6: in-frame heading = rubric
+- 0021 | D0180 | dipl+read | VIRTVTES. not a separate text field; folded into rubric | schema §6: in-frame heading = rubric
+- 0021 | D0181 | dipl+read | VIRTVTES. not a separate text field; folded into rubric | schema §6: in-frame heading = rubric
+- 0021 | D0182 | dipl+read | VIRTVTES. not a separate text field; folded into rubric | schema §6: in-frame heading = rubric
+- 0021 | D0183 | dipl+read | VIRTVTES. not a separate text field; folded into rubric | schema §6: in-frame heading = rubric
+- 0022 | D0184 | read | Ruptáve | rule §5: consonantal u -> v
+- 0024 | D0185 | inscription | SPQR kept | zoom: SPQR clearly cut on banner
+- 0024 | D0186 | inscription | SPQR kept | zoom: SPQR clearly cut on banner
+- 0026 | D0187 | dipl+read | Bellerophron (as printed) | zoom: r clearly printed; t2/t3 right
+- 0026 | D0189 | dipl+read | Bellerophron (as printed) | zoom: r clearly printed; t2/t3 right
+- 0026 | D0191 | dipl+read | Bellerophron (as printed) | zoom: r clearly printed; t2/t3 right
+- 0026 | D0193 | dipl+read | Bellerophron (as printed) | zoom: r clearly printed; t2/t3 right
+- 0026 | D0188 | dipl+read | Chimæra[?]n (motto) | zoom: a faint/broken in motto
+- 0026 | D0190 | dipl+read | Chimæra[?]n (motto) | zoom: a faint/broken in motto
+- 0026 | D0192 | dipl+read | Chimæra[?]n (motto) | zoom: a faint/broken in motto
+- 0026 | D0195 | dipl+read | Chimæra[?]n (motto) | zoom: a faint/broken in motto
+- 0026 | D0194 | read | Licii | rule §5: j -> i
+- 0027 | D0196 | dipl+read | ëoi (no [?]) | zoom: diaeresis clear; t4 macron wrong
+- 0027 | D0201 | dipl+read | ëoi (no [?]) | zoom: diaeresis clear; t4 macron wrong
+- 0027 | D0203 | dipl+read | ëoi (no [?]) | zoom: diaeresis clear; t4 macron wrong
+- 0027 | D0208 | dipl+read | ëoi (no [?]) | zoom: diaeresis clear; t4 macron wrong
+- 0027 | D0197 | dipl+read | peluis[?] kept (no punctuation) | zoom: dotted vertical mark = raised spacing sort?, not clearly : or !
+- 0027 | D0199 | dipl+read | peluis[?] kept (no punctuation) | zoom: dotted vertical mark = raised spacing sort?, not clearly : or !
+- 0027 | D0204 | dipl+read | peluis[?] kept (no punctuation) | zoom: dotted vertical mark = raised spacing sort?, not clearly : or !
+- 0027 | D0206 | dipl+read | peluis[?] kept (no punctuation) | zoom: dotted vertical mark = raised spacing sort?, not clearly : or !
+- 0027 | D0209 | dipl+read | peluis[?] kept (no punctuation) | zoom: dotted vertical mark = raised spacing sort?, not clearly : or !
+- 0027 | D0198 | dipl+read | idcirco[?] kept | zoom: small raised mark after o, grave vs pulled-up quad unclear
+- 0027 | D0200 | dipl+read | idcirco[?] kept | zoom: small raised mark after o, grave vs pulled-up quad unclear
+- 0027 | D0202 | dipl+read | idcirco[?] kept | zoom: small raised mark after o, grave vs pulled-up quad unclear
+- 0027 | D0205 | dipl+read | idcirco[?] kept | zoom: small raised mark after o, grave vs pulled-up quad unclear
+- 0027 | D0207 | dipl+read | idcirco[?] kept | zoom: small raised mark after o, grave vs pulled-up quad unclear
+- 0027 | D0210 | dipl+read | idcirco[?] kept | zoom: small raised mark after o, grave vs pulled-up quad unclear
+- 0028 | D0211 | dipl+read | t1 spacing | rule §3: spacing insignificant
+- 0028 | D0212 | dipl+read | t1 spacing | rule §3: spacing insignificant
+- 0028 | D0214 | dipl+read | t1 spacing | rule §3: spacing insignificant
+- 0028 | D0216 | dipl+read | t1 spacing | rule §3: spacing insignificant
+- 0028 | D0213 | dipl+read | ἀπιστεῖν. (no [?]) | zoom: legible (στ ligature)
+- 0028 | D0217 | dipl+read | ἀπιστεῖν. (no [?]) | zoom: legible (στ ligature)
+- 0028 | D0215 | read | καὶ | rule §5: ϗ expanded in reading
+- 0029 | D0218 | dipl+read | Γ[?]ῆ kept | zoom: Γ-shaped glyph with stub (broken Π?) -> damage, [?]
+- 0029 | D0223 | dipl+read | Γ[?]ῆ kept | zoom: Γ-shaped glyph with stub (broken Π?) -> damage, [?]
+- 0029 | D0227 | dipl+read | Γ[?]ῆ kept | zoom: Γ-shaped glyph with stub (broken Π?) -> damage, [?]
+- 0029 | D0231 | dipl+read | Γ[?]ῆ kept | zoom: Γ-shaped glyph with stub (broken Π?) -> damage, [?]
+- 0029 | D0237 | dipl+read | Γ[?]ῆ kept | zoom: Γ-shaped glyph with stub (broken Π?) -> damage, [?]
+- 0029 | D0242 | dipl+read | Γ[?]ῆ kept | zoom: Γ-shaped glyph with stub (broken Π?) -> damage, [?]
+- 0029 | D0219 | dipl+read | [?] kept (t1) | zoom: glyph after Τί is ȷ-like with dots, not the η form of this fount
+- 0029 | D0224 | dipl+read | [?] kept (t1) | zoom: glyph after Τί is ȷ-like with dots, not the η form of this fount
+- 0029 | D0228 | dipl+read | [?] kept (t1) | zoom: glyph after Τί is ȷ-like with dots, not the η form of this fount
+- 0029 | D0232 | dipl+read | [?] kept (t1) | zoom: glyph after Τί is ȷ-like with dots, not the η form of this fount
+- 0029 | D0238 | dipl+read | [?] kept (t1) | zoom: glyph after Τί is ȷ-like with dots, not the η form of this fount
+- 0029 | D0243 | dipl+read | [?] kept (t1) | zoom: glyph after Τί is ȷ-like with dots, not the η form of this fount
+- 0029 | D0229 | dipl+read | ἐρξέα[?] kept | zoom: accents unclear
+- 0029 | D0244 | dipl+read | ἐρξέα[?] kept | zoom: accents unclear
+- 0029 | D0220 | dipl+read | prętergreſſus / prætergressus | zoom: e caudata visible
+- 0029 | D0225 | dipl+read | prętergreſſus / prætergressus | zoom: e caudata visible
+- 0029 | D0233 | dipl+read | prętergreſſus / prætergressus | zoom: e caudata visible
+- 0029 | D0239 | dipl+read | prętergreſſus / prætergressus | zoom: e caudata visible
+- 0029 | D0221 | dipl+read | qd (no stroke) | zoom: no bar through d, unlike frame 10 qđ
+- 0029 | D0226 | dipl+read | qd (no stroke) | zoom: no bar through d, unlike frame 10 qđ
+- 0029 | D0230 | dipl+read | qd (no stroke) | zoom: no bar through d, unlike frame 10 qđ
+- 0029 | D0234 | dipl+read | qd (no stroke) | zoom: no bar through d, unlike frame 10 qđ
+- 0029 | D0240 | dipl+read | qd (no stroke) | zoom: no bar through d, unlike frame 10 qđ
+- 0029 | D0245 | dipl+read | qd (no stroke) | zoom: no bar through d, unlike frame 10 qđ
+- 0029 | D0222 | dipl+read | gruũ / gruum | zoom: u + ũ clear
+- 0029 | D0235 | dipl+read | gruũ / gruum | zoom: u + ũ clear
+- 0029 | D0236 | read | transversas | rule §5: consonantal u -> v; t1 missed
+- 0029 | D0241 | read | transversas | rule §5: consonantal u -> v; t1 missed
+- 0030 | D0246 | dipl+read | t1 spacing | rule §3: spacing insignificant
+- 0030 | D0247 | dipl+read | t1 spacing | rule §3: spacing insignificant
+- 0030 | D0248 | dipl+read | t1 spacing | rule §3: spacing insignificant
+- 0030 | D0249 | dipl+read | t1 spacing | rule §3: spacing insignificant
+- 0034 | D0250 | dipl+read | domiuæ / domivæ (as printed; typo -> errata) | zoom: u for n clearly printed
+- 0034 | D0255 | dipl+read | domiuæ / domivæ (as printed; typo -> errata) | zoom: u for n clearly printed
+- 0034 | D0257 | dipl+read | domiuæ / domivæ (as printed; typo -> errata) | zoom: u for n clearly printed
+- 0034 | D0262 | dipl+read | domiuæ / domivæ (as printed; typo -> errata) | zoom: u for n clearly printed
+- 0034 | D0252 | dipl+read | effigies.[?] | zoom: faint baseline dot after s, maybe spacing/blot
+- 0034 | D0254 | dipl+read | effigies.[?] | zoom: faint baseline dot after s, maybe spacing/blot
+- 0034 | D0259 | dipl+read | effigies.[?] | zoom: faint baseline dot after s, maybe spacing/blot
+- 0034 | D0261 | dipl+read | effigies.[?] | zoom: faint baseline dot after s, maybe spacing/blot
+- 0034 | D0251 | dipl+read | data.[?] | zoom: small mid-height dot, no comma tail
+- 0034 | D0253 | dipl+read | data.[?] | zoom: small mid-height dot, no comma tail
+- 0034 | D0256 | dipl+read | data.[?] | zoom: small mid-height dot, no comma tail
+- 0034 | D0258 | dipl+read | data.[?] | zoom: small mid-height dot, no comma tail
+- 0034 | D0260 | dipl+read | data.[?] | zoom: small mid-height dot, no comma tail
+- 0034 | D0263 | dipl+read | data.[?] | zoom: small mid-height dot, no comma tail
+- 0034 | D0264 | read | Pervigili | rule §5: consonantal u -> v
+- 0035 | D0265 | dipl+read | Pallas (no accent, no [?]) | zoom: no accent over a
+- 0035 | D0266 | dipl+read | Pallas (no accent, no [?]) | zoom: no accent over a
+- 0035 | D0267 | dipl+read | Pallas (no accent, no [?]) | zoom: no accent over a
+- 0035 | D0268 | dipl+read | Pallas (no accent, no [?]) | zoom: no accent over a
+- 0035 | D0269 | dipl+read | Pallas (no accent, no [?]) | zoom: no accent over a
+- 0035 | D0270 | dipl+read | Pallas (no accent, no [?]) | zoom: no accent over a
+- 0035 | D0271 | read | invenit | rule §5
+- 0037 | D0272 | dipl+read | C[?]noſida kept | zoom: first letter C-shaped, G tail absent/broken; reconstruction = judgment
+- 0037 | D0273 | dipl+read | C[?]noſida kept | zoom: first letter C-shaped, G tail absent/broken; reconstruction = judgment
+- 0037 | D0275 | dipl+read | C[?]noſida kept | zoom: first letter C-shaped, G tail absent/broken; reconstruction = judgment
+- 0037 | D0277 | dipl+read | C[?]noſida kept | zoom: first letter C-shaped, G tail absent/broken; reconstruction = judgment
+- 0037 | D0278 | dipl+read | C[?]noſida kept | zoom: first letter C-shaped, G tail absent/broken; reconstruction = judgment
+- 0037 | D0280 | dipl+read | C[?]noſida kept | zoom: first letter C-shaped, G tail absent/broken; reconstruction = judgment
+- 0037 | D0274 | dipl+read | DIALOGISMVS. as subheading under motto (t1) | zoom: printed under motto; t4 misplaced
+- 0037 | D0276 | dipl+read | DIALOGISMVS. as subheading under motto (t1) | zoom: printed under motto; t4 misplaced
+- 0037 | D0279 | dipl+read | DIALOGISMVS. as subheading under motto (t1) | zoom: printed under motto; t4 misplaced
+- 0037 | D0281 | dipl+read | DIALOGISMVS. as subheading under motto (t1) | zoom: printed under motto; t4 misplaced
+- 0038 | D0282 | dipl+read | spacing (t1) | rule §3: insignificant
+- 0038 | D0283 | dipl+read | spacing (t1) | rule §3: insignificant
+- 0038 | D0286 | dipl+read | spacing (t1) | rule §3: insignificant
+- 0038 | D0289 | dipl+read | spacing (t1) | rule §3: insignificant
+- 0038 | D0285 | read | non | rule §5: nõ -> non
+- 0038 | D0288 | read | non | rule §5: nõ -> non
+- 0038 | D0287 | read | diluit | rule §5: vowel u
+- 0038 | D0290 | read | diluit | rule §5: vowel u
+- 0038 | D0292 | read | diluit | rule §5: vowel u
+- 0038 | D0291 | read | pulvere | rule §5
+- 0038 | D0284 | dipl+read | fumi (as printed, f with crossbar; sumi -> errata) | zoom: crossbar visible
+- 0038 | D0293 | dipl+read | fumi (as printed, f with crossbar; sumi -> errata) | zoom: crossbar visible
+- 0039 | D0294 | dipl | ſalusq; (round s) | zoom: round s before q;
+- 0039 | D0295 | dipl | ſalusq; (round s) | zoom: round s before q;
+- 0039 | D0296 | dipl+read | colon kept after ſalusq; | zoom: colon printed
+- 0039 | D0297 | dipl+read | colon kept after ſalusq; | zoom: colon printed
+- 0040 | D0298 | dipl | Nemeſisq; (round s) | zoom
+- 0040 | D0301 | dipl | Nemeſisq; (round s) | zoom
+- 0040 | D0299 | dipl+read | ꝗd (stroke through q descender, not d) | zoom: bar on q tail
+- 0040 | D0302 | dipl+read | ꝗd (stroke through q descender, not d) | zoom: bar on q tail
+- 0040 | D0303 | dipl+read | ꝗd (stroke through q descender, not d) | zoom: bar on q tail
+- 0040 | D0304 | dipl+read | ꝗd (stroke through q descender, not d) | zoom: bar on q tail
+- 0040 | D0306 | dipl+read | ꝗd (stroke through q descender, not d) | zoom: bar on q tail
+- 0040 | D0307 | dipl+read | ꝗd (stroke through q descender, not d) | zoom: bar on q tail
+- 0040 | D0300 | dipl+read | néue / néve | zoom: acute visible; u->v in reading
+- 0040 | D0305 | dipl+read | néue / néve | zoom: acute visible; u->v in reading
+- 0040 | D0308 | dipl+read | néue / néve | zoom: acute visible; u->v in reading
+- 0041 | D0309 | inscription | A[?]IACIS kept | zoom: letters on tomb hatched/partly obscured
+- 0041 | D0310 | inscription | A[?]IACIS kept | zoom: letters on tomb hatched/partly obscured
+- 0041 | D0312 | inscription | A[?]IACIS kept | zoom: letters on tomb hatched/partly obscured
+- 0041 | D0311 | dipl | Viciſti | zoom: st-ligature, same glyph transcribed ſt elsewhere (consistency)
+- 0041 | D0313 | dipl | Viciſti | zoom: st-ligature, same glyph transcribed ſt elsewhere (consistency)
+- 0042 | D0314 | dipl+read | ferocisſimos (round s + long s, no [?]); stray sort after word noted | zoom: clear
+- 0042 | D0315 | dipl+read | ferocisſimos (round s + long s, no [?]); stray sort after word noted | zoom: clear
+- 0042 | D0316 | dipl+read | ferocisſimos (round s + long s, no [?]); stray sort after word noted | zoom: clear
+- 0043 | D0317 | read | Investes | rule §5
+- 0045 | D0318 | dipl+read | Calais (no diaeresis) | zoom: spot over a is a stain
+- 0045 | D0319 | dipl+read | Calais (no diaeresis) | zoom: spot over a is a stain
+- 0046 | D0320 | inscription | D·M / ARISTOMENIS kept | zoom: clear on tomb
+- 0046 | D0322 | inscription | D·M / ARISTOMENIS kept | zoom: clear on tomb
+- 0046 | D0325 | inscription | D·M / ARISTOMENIS kept | zoom: clear on tomb
+- 0046 | D0324 | dipl+read | DIALOGISMVS. as subheading (t1) | zoom: printed under motto
+- 0046 | D0327 | dipl+read | DIALOGISMVS. as subheading (t1) | zoom: printed under motto
+- 0046 | D0330 | dipl+read | DIALOGISMVS. as subheading (t1) | zoom: printed under motto
+- 0046 | D0332 | dipl+read | DIALOGISMVS. as subheading (t1) | zoom: printed under motto
+- 0046 | D0321 | dipl+read | Ariſtomenẽs[?] kept | zoom: faint macron over final e; form needs judgment
+- 0046 | D0323 | dipl+read | Ariſtomenẽs[?] kept | zoom: faint macron over final e; form needs judgment
+- 0046 | D0326 | dipl+read | Ariſtomenẽs[?] kept | zoom: faint macron over final e; form needs judgment
+- 0046 | D0328 | dipl+read | Ariſtomenẽs[?] kept | zoom: faint macron over final e; form needs judgment
+- 0046 | D0329 | dipl+read | Ariſtomenẽs[?] kept | zoom: faint macron over final e; form needs judgment
+- 0046 | D0331 | dipl+read | Ariſtomenẽs[?] kept | zoom: faint macron over final e; form needs judgment
+- 0047 | D0333 | dipl+read | spacing normalized | rule §3: insignificant
+- 0047 | D0334 | dipl+read | spacing normalized | rule §3: insignificant
+- 0047 | D0336 | dipl+read | spacing normalized | rule §3: insignificant
+- 0047 | D0337 | dipl+read | spacing normalized | rule §3: insignificant
+- 0047 | D0335 | dipl+read | Ἀνέχȣ ϗ ἀπέχȣ. (t1); printed A with apostrophe-spiritus = Ἀ, ϖ is π glyph variant | zoom
+- 0047 | D0338 | dipl+read | Ἀνέχȣ ϗ ἀπέχȣ. (t1); printed A with apostrophe-spiritus = Ἀ, ϖ is π glyph variant | zoom
+- 0047 | D0339 | dipl+read | Ἀνέχȣ ϗ ἀπέχȣ. (t1); printed A with apostrophe-spiritus = Ἀ, ϖ is π glyph variant | zoom
+- 0048 | D0340 | read | cuiquámve | rule §5
+- 0049 | D0341 | dipl+read | pondus. (full stop printed) | zoom: clear point
+- 0049 | D0343 | dipl+read | pondus. (full stop printed) | zoom: clear point
+- 0049 | D0346 | dipl+read | pondus. (full stop printed) | zoom: clear point
+- 0049 | D0349 | dipl+read | pondus. (full stop printed) | zoom: clear point
+- 0049 | D0351 | dipl+read | pondus. (full stop printed) | zoom: clear point
+- 0049 | D0355 | dipl+read | pondus. (full stop printed) | zoom: clear point
+- 0049 | D0342 | dipl+read | Quẽis[?] kept (dipl), Queis (read) | zoom: tilde-like mark over e/i, placement unclear
+- 0049 | D0345 | dipl+read | Quẽis[?] kept (dipl), Queis (read) | zoom: tilde-like mark over e/i, placement unclear
+- 0049 | D0347 | dipl+read | Quẽis[?] kept (dipl), Queis (read) | zoom: tilde-like mark over e/i, placement unclear
+- 0049 | D0350 | dipl+read | Quẽis[?] kept (dipl), Queis (read) | zoom: tilde-like mark over e/i, placement unclear
+- 0049 | D0353 | dipl+read | Quẽis[?] kept (dipl), Queis (read) | zoom: tilde-like mark over e/i, placement unclear
+- 0049 | D0356 | dipl+read | Quẽis[?] kept (dipl), Queis (read) | zoom: tilde-like mark over e/i, placement unclear
+- 0049 | D0344 | dipl+read | premitnr (as printed; typo -> errata) | zoom: n for u clear
+- 0049 | D0352 | dipl+read | premitnr (as printed; typo -> errata) | zoom: n for u clear
+- 0049 | D0348 | read | adversus | rule §5
+- 0049 | D0354 | read | adversus | rule §5
+- 0050 | D0357 | inscription | SCYTHICVM MARE. kept | zoom: printed on engraving
+- 0050 | D0358 | inscription | SCYTHICVM MARE. kept | zoom: printed on engraving
+- 0050 | D0359 | dipl+read | L[?]yæi kept | zoom: glyph looks like I; rule §4 italic L≈I -> L[?]
+- 0050 | D0361 | dipl+read | L[?]yæi kept | zoom: glyph looks like I; rule §4 italic L≈I -> L[?]
+- 0050 | D0362 | dipl+read | L[?]yæi kept | zoom: glyph looks like I; rule §4 italic L≈I -> L[?]
+- 0050 | D0364 | dipl+read | L[?]yæi kept | zoom: glyph looks like I; rule §4 italic L≈I -> L[?]
+- 0050 | D0360 | dipl+read | himbres; | zoom: semicolon
+- 0050 | D0363 | dipl+read | himbres; | zoom: semicolon
+- 0051 | D0365 | read | quod (expansion of ꝙ) | rule: brevigraph q-bar expanded in reading like q;
+- 0051 | D0367 | read | quod (expansion of ꝙ) | rule: brevigraph q-bar expanded in reading like q;
+- 0051 | D0368 | read | quod (expansion of ꝙ) | rule: brevigraph q-bar expanded in reading like q;
+- 0051 | D0366 | read | Advolat | rule §5
+- 0051 | D0369 | read | Advolat | rule §5
+- 0052 | D0370 | dipl+read | cùm (no [?]) | zoom: grave visible
+- 0052 | D0372 | dipl+read | cùm (no [?]) | zoom: grave visible
+- 0052 | D0374 | dipl+read | cùm (no [?]) | zoom: grave visible
+- 0052 | D0375 | dipl+read | cùm (no [?]) | zoom: grave visible
+- 0052 | D0377 | dipl+read | cùm (no [?]) | zoom: grave visible
+- 0052 | D0379 | dipl+read | cùm (no [?]) | zoom: grave visible
+- 0052 | D0371 | dipl+read | bellnm (as printed; typo -> errata) | zoom: n for u clear
+- 0052 | D0373 | dipl+read | bellnm (as printed; typo -> errata) | zoom: n for u clear
+- 0052 | D0376 | dipl+read | bellnm (as printed; typo -> errata) | zoom: n for u clear
+- 0052 | D0378 | dipl+read | bellnm (as printed; typo -> errata) | zoom: n for u clear
+- 0053 | D0380 | dipl+read | Tergeminos (no accent) | zoom: mark over e is an orange stain, not an accent
+- 0053 | D0383 | dipl+read | Tergeminos (no accent) | zoom: mark over e is an orange stain, not an accent
+- 0053 | D0381 | dipl+read | mutna (as printed; typo -> errata) | zoom: n clear
+- 0053 | D0382 | dipl+read | mutna (as printed; typo -> errata) | zoom: n clear
+- 0053 | D0384 | dipl+read | mutna (as printed; typo -> errata) | zoom: n clear
+- 0053 | D0385 | dipl+read | mutna (as printed; typo -> errata) | zoom: n clear
+- 0053 | D0386 | read | Invicti | rule §5
+- 0054 | D0387 | dipl+read | quoqne (as printed, both layers; typo -> errata) | zoom: n clear; t1 silently corrected reading
+- 0054 | D0390 | dipl+read | quoqne (as printed, both layers; typo -> errata) | zoom: n clear; t1 silently corrected reading
+- 0054 | D0394 | dipl+read | quoqne (as printed, both layers; typo -> errata) | zoom: n clear; t1 silently corrected reading
+- 0054 | D0388 | dipl+read | Zen[?]alis | zoom: 3rd letter n-shaped but damaged
+- 0054 | D0389 | dipl+read | Zen[?]alis | zoom: 3rd letter n-shaped but damaged
+- 0054 | D0391 | dipl+read | Zen[?]alis | zoom: 3rd letter n-shaped but damaged
+- 0054 | D0393 | dipl+read | Zen[?]alis | zoom: 3rd letter n-shaped but damaged
+- 0054 | D0396 | dipl+read | Zen[?]alis | zoom: 3rd letter n-shaped but damaged
+- 0054 | D0398 | dipl+read | Zen[?]alis | zoom: 3rd letter n-shaped but damaged
+- 0054 | D0392 | read | unà | rule §5
+- 0054 | D0395 | read | unà | rule §5
+- 0054 | D0397 | read | unà | rule §5
+- 0054 | D0399 | read | dextráve | rule §5
+- 0055 | D0400 | read | quamvis | rule §5; t1 missed
+- 0055 | D0401 | read | quamvis | rule §5; t1 missed
+- 0055 | D0402 | read | convelli | rule §5
+- 0056 | D0403 | dipl+read | iamq; (no extra comma) | zoom: comma-shaped tail is the q; hook itself
+- 0056 | D0406 | dipl+read | iamq; (no extra comma) | zoom: comma-shaped tail is the q; hook itself
+- 0056 | D0408 | dipl+read | iamq; (no extra comma) | zoom: comma-shaped tail is the q; hook itself
+- 0056 | D0410 | dipl+read | iamq; (no extra comma) | zoom: comma-shaped tail is the q; hook itself
+- 0056 | D0412 | dipl+read | iamq; (no extra comma) | zoom: comma-shaped tail is the q; hook itself
+- 0056 | D0413 | dipl+read | iamq; (no extra comma) | zoom: comma-shaped tail is the q; hook itself
+- 0056 | D0404 | dipl | adueniãt | zoom: plain e + n, tilde only on a
+- 0056 | D0407 | dipl | adueniãt | zoom: plain e + n, tilde only on a
+- 0056 | D0409 | dipl | adueniãt | zoom: plain e + n, tilde only on a
+- 0056 | D0414 | read | adveniant | rule §5
+- 0056 | D0405 | dipl+read | uoſtra (no [?]; as printed, u for n -> errata) | zoom: clearly u
+- 0056 | D0411 | dipl+read | uoſtra (no [?]; as printed, u for n -> errata) | zoom: clearly u
+- 0057 | D0415 | signature | D 2 | zoom: D and 2 visible bottom right
+- 0057 | D0416 | dipl+read | i[?]mago | zoom: 2nd letter broken (ı + m shape); damage
+- 0057 | D0417 | dipl+read | i[?]mago | zoom: 2nd letter broken (ı + m shape); damage
+- 0057 | D0420 | dipl+read | i[?]mago | zoom: 2nd letter broken (ı + m shape); damage
+- 0057 | D0421 | dipl+read | i[?]mago | zoom: 2nd letter broken (ı + m shape); damage
+- 0057 | D0418 | dipl+read | DIALOGISMVS. subheading (t1) | zoom: under motto
+- 0057 | D0419 | dipl+read | DIALOGISMVS. subheading (t1) | zoom: under motto
+- 0057 | D0422 | dipl+read | DIALOGISMVS. subheading (t1) | zoom: under motto
+- 0057 | D0423 | dipl+read | DIALOGISMVS. subheading (t1) | zoom: under motto
+- 0058 | D0424 | running_head | SPES. | zoom: clear in overview/top
+- 0059 | D0425 | inscription | VLTERIVS kept | visible on boar
+- 0059 | D0426 | inscription | VLTERIVS kept | visible on boar
+- 0059 | D0427 | read | proruit | rule §5: vowel u
+- 0059 | D0428 | read | proruit | rule §5: vowel u
+- 0059 | D0429 | read | proruit | rule §5: vowel u
+- 0060 | D0430 | dipl+read | &,[?] | zoom: small low mark after &, comma vs spacing sort unclear
+- 0060 | D0431 | dipl+read | &,[?] | zoom: small low mark after &, comma vs spacing sort unclear
+- 0061 | D0432 | dipl | Synceræ | zoom: æ ligature
+- 0061 | D0433 | motto | no motto (t1) | zoom: none printed; only rubric
+- 0062 | D0434 | running_head | PERFIDIA. | overview: clear
+- 0062 | D0435 | rubric | VITIA. PERFIDIA. | zoom: both printed in frame
+- 0062 | D0436 | inscription | D AIACIS (t1) | zoom: letters on tomb side, D + AIACIS
+- 0062 | D0437 | inscription | D AIACIS (t1) | zoom: letters on tomb side, D + AIACIS
+- 0062 | D0438 | inscription | D AIACIS (t1) | zoom: letters on tomb side, D + AIACIS
+- 0063 | D0439 | signature | D 5 | zoom: D + 5
+- 0063 | D0440 | read | Invidiæ | rule §5
+- 0065 | D0441 | inscription | ARCHILOCHI M kept | zoom: cartouche ARCHILOCHI + M below
+- 0065 | D0442 | inscription | ARCHILOCHI M kept | zoom: cartouche ARCHILOCHI + M below
+- 0066 | D0443 | dipl+read | ce[?]nſes | zoom: first e prints like c (damaged)
+- 0066 | D0451 | dipl+read | ce[?]nſes | zoom: first e prints like c (damaged)
+- 0066 | D0444 | dipl+read | complure[?]s | zoom: blotted e-like glyph between r and s; reading now also flagged
+- 0066 | D0446 | dipl+read | complure[?]s | zoom: blotted e-like glyph between r and s; reading now also flagged
+- 0066 | D0449 | dipl+read | complure[?]s | zoom: blotted e-like glyph between r and s; reading now also flagged
+- 0066 | D0452 | dipl+read | complure[?]s | zoom: blotted e-like glyph between r and s; reading now also flagged
+- 0066 | D0456 | dipl+read | complure[?]s | zoom: blotted e-like glyph between r and s; reading now also flagged
+- 0066 | D0445 | dipl+read | cornüa (diaeresis printed); p[?]ſtquàm kept | zoom: two dots over u; o damaged
+- 0066 | D0447 | dipl+read | cornüa (diaeresis printed); p[?]ſtquàm kept | zoom: two dots over u; o damaged
+- 0066 | D0450 | dipl+read | cornüa (diaeresis printed); p[?]ſtquàm kept | zoom: two dots over u; o damaged
+- 0066 | D0453 | dipl+read | cornüa (diaeresis printed); p[?]ſtquàm kept | zoom: two dots over u; o damaged
+- 0066 | D0454 | dipl+read | cornüa (diaeresis printed); p[?]ſtquàm kept | zoom: two dots over u; o damaged
+- 0066 | D0457 | dipl+read | cornüa (diaeresis printed); p[?]ſtquàm kept | zoom: two dots over u; o damaged
+- 0066 | D0448 | dipl+read | diri[?]s | zoom: 2nd i distorted, u-like; diris vs dirus not settled
+- 0066 | D0455 | dipl+read | diri[?]s | zoom: 2nd i distorted, u-like; diris vs dirus not settled
+- 0067 | D0458 | dipl | Hiansq; (round s) | zoom: round s before q; (consistent pattern)
+- 0067 | D0459 | dipl | Hiansq; (round s) | zoom: round s before q; (consistent pattern)
+- 0068 | D0460 | read | eheu | rule §5: vowel u
+- 0068 | D0461 | read | eheu | rule §5: vowel u
+- 0068 | D0462 | read | eheu | rule §5: vowel u
+- 0069 | D0463 | dipl+read | vehit, facilè (no [?]) | zoom: legible
+- 0069 | D0464 | dipl+read | vehit, facilè (no [?]) | zoom: legible
+- 0069 | D0465 | dipl+read | vehit, facilè (no [?]) | zoom: legible
+- 0069 | D0466 | dipl+read | vehit, facilè (no [?]) | zoom: legible
+- 0070 | D0467 | inscription | AGAMENNON added | zoom: cut on scabbard; t1 missed
+- 0071 | D0468 | running_head | STVLTITIA. | zoom: clear (t1 had null)
+- 0071 | D0469 | dipl+read | cladém (acute printed) | zoom: acute over e
+- 0071 | D0470 | dipl+read | cladém (acute printed) | zoom: acute over e
+- 0071 | D0471 | dipl+read | cladém (acute printed) | zoom: acute over e
+- 0071 | D0473 | dipl+read | cladém (acute printed) | zoom: acute over e
+- 0071 | D0474 | dipl+read | cladém (acute printed) | zoom: acute over e
+- 0071 | D0472 | read | cladém que (kept separate as printed) | zoom: space before que; joining = editorial
+- 0073 | D0475 | dipl+read | Aethiopem (t1) | zoom: swash italic A, same as in Abluis — not Æ
+- 0073 | D0480 | dipl+read | Aethiopem (t1) | zoom: swash italic A, same as in Abluis — not Æ
+- 0073 | D0476 | dipl+read | tenêbras | zoom: circumflex clear
+- 0073 | D0478 | dipl+read | tenêbras | zoom: circumflex clear
+- 0073 | D0479 | dipl+read | tenêbras | zoom: circumflex clear
+- 0073 | D0481 | dipl+read | tenêbras | zoom: circumflex clear
+- 0073 | D0483 | dipl+read | tenêbras | zoom: circumflex clear
+- 0073 | D0484 | dipl+read | tenêbras | zoom: circumflex clear
+- 0073 | D0477 | dipl+read | ah[?] | zoom: 2nd letter has closed b-like bowl; h vs b unclear
+- 0073 | D0482 | dipl+read | ah[?] | zoom: 2nd letter has closed b-like bowl; h vs b unclear
+- 0074 | D0485 | running_head | STVI[?]TITIA. | zoom: 4th letter I-shaped where L expected; rule §4 L≈I
+- 0074 | D0486 | dipl+read | agreſte (no [?]) | zoom: clear
+- 0074 | D0489 | dipl+read | agreſte (no [?]) | zoom: clear
+- 0074 | D0487 | dipl+read | ouain (as printed, no space; word division -> errata) | zoom: no space
+- 0074 | D0490 | dipl+read | ouain (as printed, no space; word division -> errata) | zoom: no space
+- 0074 | D0488 | dipl+read | Ruricolas.[?] | zoom: point/colon-like smudge, not a comma
+- 0074 | D0491 | dipl+read | Ruricolas.[?] | zoom: point/colon-like smudge, not a comma
+- 0079 | D0492 | read | conveniens | rule §5
+- 0080 | D0493 | running_head | STVLTL[?]TIA. | zoom: 6th letter L-shaped with bar (I expected); flagged
+- 0080 | D0494 | dipl+read | t1 spacing | rule §3: insignificant
+- 0080 | D0495 | dipl+read | t1 spacing | rule §3: insignificant
+- 0080 | D0496 | dipl+read | t1 spacing | rule §3: insignificant
+- 0080 | D0497 | dipl+read | t1 spacing | rule §3: insignificant
+- 0080 | D0498 | dipl+read | t1 spacing | rule §3: insignificant
+- 0080 | D0499 | dipl+read | t1 spacing | rule §3: insignificant
+- 0081 | D0500 | dipl+read | ſtatua.[?] | zoom: low point, no comma tail; possibly broken comma
+- 0081 | D0501 | dipl+read | ſtatua.[?] | zoom: low point, no comma tail; possibly broken comma
+- 0083 | D0502 | dipl+read | datq; deditq; (no comma) | zoom: q; hook only
+- 0083 | D0506 | dipl+read | datq; deditq; (no comma) | zoom: q; hook only
+- 0083 | D0509 | dipl+read | datq; deditq; (no comma) | zoom: q; hook only
+- 0083 | D0510 | dipl+read | datq; deditq; (no comma) | zoom: q; hook only
+- 0083 | D0514 | dipl+read | datq; deditq; (no comma) | zoom: q; hook only
+- 0083 | D0518 | dipl+read | datq; deditq; (no comma) | zoom: q; hook only
+- 0083 | D0503 | motto | φιλαυτία. (no [?]) | zoom: legible
+- 0083 | D0512 | motto | φιλαυτία. (no [?]) | zoom: legible
+- 0083 | D0504 | dipl+read | nimiùm[?] | zoom: blurred mark over u (grave vs tilde unclear)
+- 0083 | D0507 | dipl+read | nimiùm[?] | zoom: blurred mark over u (grave vs tilde unclear)
+- 0083 | D0513 | dipl+read | nimiùm[?] | zoom: blurred mark over u (grave vs tilde unclear)
+- 0083 | D0517 | dipl+read | nimiùm[?] | zoom: blurred mark over u (grave vs tilde unclear)
+- 0083 | D0505 | dipl | cladesq; (round s) | zoom
+- 0083 | D0508 | dipl | cladesq; (round s) | zoom
+- 0083 | D0511 | read | nova | rule §5
+- 0083 | D0515 | read | nova | rule §5
+- 0083 | D0519 | read | nova | rule §5
+- 0083 | D0516 | read | quærunt (q̃ expanded) | brevigraph expansion as with q; (t1)
+- 0083 | D0520 | read | quærunt (q̃ expanded) | brevigraph expansion as with q; (t1)
+- 0084 | D0521 | dipl+read | matutiuos / matutivos (as printed; typo -> errata) | zoom: u for n clear
+- 0084 | D0525 | dipl+read | matutiuos / matutivos (as printed; typo -> errata) | zoom: u for n clear
+- 0084 | D0527 | dipl+read | matutiuos / matutivos (as printed; typo -> errata) | zoom: u for n clear
+- 0084 | D0533 | dipl+read | matutiuos / matutivos (as printed; typo -> errata) | zoom: u for n clear
+- 0084 | D0522 | dipl+read | ſtripitùs; eruere | zoom: grave on u; rule §5 vowel u
+- 0084 | D0524 | dipl+read | ſtripitùs; eruere | zoom: grave on u; rule §5 vowel u
+- 0084 | D0526 | dipl+read | ſtripitùs; eruere | zoom: grave on u; rule §5 vowel u
+- 0084 | D0529 | dipl+read | ſtripitùs; eruere | zoom: grave on u; rule §5 vowel u
+- 0084 | D0532 | dipl+read | ſtripitùs; eruere | zoom: grave on u; rule §5 vowel u
+- 0084 | D0534 | dipl+read | ſtripitùs; eruere | zoom: grave on u; rule §5 vowel u
+- 0084 | D0523 | dipl+read | Progne[?] | zoom: g damaged
+- 0084 | D0530 | dipl+read | Progne[?] | zoom: g damaged
+- 0084 | D0528 | read | maluit | rule §5
+- 0084 | D0531 | read | maluit | rule §5
+- 0085 | D0535 | read | invidia | rule §5
+- 0087 | D0536 | signature | F[?] kept | zoom: blotted letter, E/F unclear
+- 0087 | D0537 | running_head | L[?]VXVRIA. | zoom: first letter I-like; rule §4 L≈I
+- 0087 | D0538 | read | corvi | rule §5
+- 0088 | D0539 | running_head | L[?]VXVRIA. | zoom: first letter I-like (t1 had null); rule §4
+- 0088 | D0540 | subheading | Διαλογιστικῶς. (στ-ligature as in frame 9); meretricis legible | zoom
+- 0088 | D0546 | subheading | Διαλογιστικῶς. (στ-ligature as in frame 9); meretricis legible | zoom
+- 0088 | D0541 | dipl+read | leæna (no [?]) | zoom: legible
+- 0088 | D0547 | dipl+read | leæna (no [?]) | zoom: legible
+- 0088 | D0542 | dipl+read | tene[?]t | zoom: 2nd e prints as c
+- 0088 | D0548 | dipl+read | tene[?]t | zoom: 2nd e prints as c
+- 0088 | D0543 | dipl+read | subheading under motto (t1) | zoom: placement
+- 0088 | D0545 | dipl+read | subheading under motto (t1) | zoom: placement
+- 0088 | D0549 | dipl+read | subheading under motto (t1) | zoom: placement
+- 0088 | D0551 | dipl+read | subheading under motto (t1) | zoom: placement
+- 0088 | D0544 | dipl+read | ab (as printed; ah -> errata) | zoom: clearly b
+- 0088 | D0550 | dipl+read | ab (as printed; ah -> errata) | zoom: clearly b
+- 0090 | D0552 | dipl+read | no[?]mine | zoom: o prints as c/e (damaged)
+- 0090 | D0553 | dipl+read | no[?]mine | zoom: o prints as c/e (damaged)
+- 0091 | D0554 | dipl+read | reſiſtit[?] | zoom: final t prints as c
+- 0091 | D0556 | dipl+read | reſiſtit[?] | zoom: final t prints as c
+- 0091 | D0555 | dipl+read | poteſt.[?] | zoom: blotted point/comma
+- 0091 | D0557 | dipl+read | poteſt.[?] | zoom: blotted point/comma
+- 0092 | D0558 | dipl+read | magieis (as printed; typo -> errata) | zoom: clearly e
+- 0092 | D0560 | dipl+read | magieis (as printed; typo -> errata) | zoom: clearly e
+- 0092 | D0559 | read | Inviolabiles | rule §5
+- 0093 | D0561 | dipl+read | PROBLEMA. subheading under motto (t1) | zoom: printed under motto
+- 0093 | D0562 | dipl+read | PROBLEMA. subheading under motto (t1) | zoom: printed under motto
+- 0093 | D0563 | dipl+read | PROBLEMA. subheading under motto (t1) | zoom: printed under motto
+- 0093 | D0564 | dipl+read | PROBLEMA. subheading under motto (t1) | zoom: printed under motto
+- 0094 | D0565 | dipl+read | velata (one word) | zoom: narrow gap only
+- 0094 | D0566 | dipl+read | velata (one word) | zoom: narrow gap only
+- 0095 | D0567 | signature | F 5 | zoom: F + 5 (blotted but legible)
+- 0095 | D0568 | running_head | DESIDIA. | zoom (t1 null)
+- 0095 | D0569 | dipl | Quisquis (round s twice) | zoom
+- 0096 | D0570 | dipl+read | Anxialis (no space printed; division -> errata) | zoom: continuous
+- 0096 | D0571 | dipl+read | Anxialis (no space printed; division -> errata) | zoom: continuous
+- 0097 | D0572 | dipl+read | cæuet (no [?]) | zoom: clear
+- 0097 | D0573 | dipl+read | cæuet (no [?]) | zoom: clear
+- 0097 | D0574 | dipl+read | cæuet (no [?]) | zoom: clear
+- 0097 | D0575 | dipl+read | cæuet (no [?]) | zoom: clear
+- 0097 | D0576 | dipl+read | cæuet (no [?]) | zoom: clear
+- 0097 | D0577 | dipl+read | cæuet (no [?]) | zoom: clear
+- 0099 | D0578 | dipl | menſasq; (round s) | zoom
+- 0099 | D0580 | dipl | menſasq; (round s) | zoom
+- 0099 | D0579 | dipl+read | pretioſa (no [?]) | zoom: clear
+- 0099 | D0581 | dipl+read | pretioſa (no [?]) | zoom: clear
+- 0100 | D0582 | dipl+read | comp[?]dibus kept | zoom: e almost unprinted, b broken; reconstruction would be editorial
+- 0100 | D0583 | dipl+read | comp[?]dibus kept | zoom: e almost unprinted, b broken; reconstruction would be editorial
+- 0100 | D0584 | dipl+read | comp[?]dibus kept | zoom: e almost unprinted, b broken; reconstruction would be editorial
+- 0100 | D0585 | dipl+read | comp[?]dibus kept | zoom: e almost unprinted, b broken; reconstruction would be editorial
+- 0100 | D0586 | dipl+read | comp[?]dibus kept | zoom: e almost unprinted, b broken; reconstruction would be editorial
+- 0100 | D0587 | dipl+read | comp[?]dibus kept | zoom: e almost unprinted, b broken; reconstruction would be editorial
+- 0101 | D0588 | dipl | spacing | rule §3
+- 0101 | D0589 | dipl | spacing | rule §3
+- 0101 | D0591 | dipl | spacing | rule §3
+- 0101 | D0590 | dipl | Battiadésque (round s) | zoom
+- 0101 | D0592 | dipl | Battiadésque (round s) | zoom
+- 0101 | D0593 | read | proluit alvum | rule §5: vowel u / consonant v
+- 0101 | D0594 | read | proluit alvum | rule §5: vowel u / consonant v
+- 0101 | D0595 | read | proluit alvum | rule §5: vowel u / consonant v
+- 0102 | D0596 | dipl+read | Sicretæ (no space printed; division -> errata) | zoom: continuous
+- 0102 | D0599 | dipl+read | Sicretæ (no space printed; division -> errata) | zoom: continuous
+- 0102 | D0604 | dipl+read | Sicretæ (no space printed; division -> errata) | zoom: continuous
+- 0102 | D0597 | dipl+read | aqnas (as printed; typo -> errata) | zoom: n clear
+- 0102 | D0600 | dipl+read | aqnas (as printed; typo -> errata) | zoom: n clear
+- 0102 | D0601 | dipl+read | aqnas (as printed; typo -> errata) | zoom: n clear
+- 0102 | D0602 | dipl+read | aqnas (as printed; typo -> errata) | zoom: n clear
+- 0102 | D0605 | dipl+read | aqnas (as printed; typo -> errata) | zoom: n clear
+- 0102 | D0606 | dipl+read | aqnas (as printed; typo -> errata) | zoom: n clear
+- 0102 | D0598 | dipl+read | excitet[?] | zoom: final t broken (looks i+dot)
+- 0102 | D0603 | dipl+read | excitet[?] | zoom: final t broken (looks i+dot)
+- 0103 | D0607 | dipl | tãmẽs (no space printed) | zoom
+- 0103 | D0608 | read | non | rule §5: nõ -> non
+- 0103 | D0609 | read | non | rule §5: nõ -> non
+- 0104 | D0610 | motto | no motto (t1) | zoom: only rubric GVLA.
+- 0104 | D0611 | dipl+read | faci[?]t | zoom: last glyph between t and s, broken
+- 0104 | D0612 | dipl+read | faci[?]t | zoom: last glyph between t and s, broken
+- 0106 | D0613 | dipl | Perniceſq; (long s) | zoom
+- 0106 | D0614 | dipl | Perniceſq; (long s) | zoom
+- 0106 | D0615 | read | alvus | rule §5
+- 0106 | D0616 | read | conveniunt | rule §5
+- 0108 | D0617 | dipl+read | Regna[?]orq; kept | zoom: t not printed (only raised dot)
+- 0108 | D0620 | dipl+read | Regna[?]orq; kept | zoom: t not printed (only raised dot)
+- 0108 | D0624 | dipl+read | Regna[?]orq; kept | zoom: t not printed (only raised dot)
+- 0108 | D0627 | dipl+read | Regna[?]orq; kept | zoom: t not printed (only raised dot)
+- 0108 | D0630 | dipl+read | Regna[?]orq; kept | zoom: t not printed (only raised dot)
+- 0108 | D0634 | dipl+read | Regna[?]orq; kept | zoom: t not printed (only raised dot)
+- 0108 | D0618 | dipl+read | Qu[?]s kept; tenerã without [?] | zoom: 3rd letter smeared; tilde over a clear
+- 0108 | D0621 | dipl+read | Qu[?]s kept; tenerã without [?] | zoom: 3rd letter smeared; tilde over a clear
+- 0108 | D0622 | dipl+read | Qu[?]s kept; tenerã without [?] | zoom: 3rd letter smeared; tilde over a clear
+- 0108 | D0628 | dipl+read | Qu[?]s kept; tenerã without [?] | zoom: 3rd letter smeared; tilde over a clear
+- 0108 | D0631 | dipl+read | Qu[?]s kept; tenerã without [?] | zoom: 3rd letter smeared; tilde over a clear
+- 0108 | D0632 | dipl+read | Qu[?]s kept; tenerã without [?] | zoom: 3rd letter smeared; tilde over a clear
+- 0108 | D0625 | dipl+read | tenerã | zoom
+- 0108 | D0635 | dipl+read | tenerã | zoom
+- 0108 | D0619 | dipl+read | tenuérunt (acute) | zoom: acute not circumflex
+- 0108 | D0623 | dipl+read | tenuérunt (acute) | zoom: acute not circumflex
+- 0108 | D0626 | dipl+read | tenuérunt (acute) | zoom: acute not circumflex
+- 0108 | D0629 | dipl+read | tenuérunt (acute) | zoom: acute not circumflex
+- 0108 | D0633 | dipl+read | tenuérunt (acute) | zoom: acute not circumflex
+- 0108 | D0636 | dipl+read | tenuérunt (acute) | zoom: acute not circumflex
+- 0109 | D0637 | running_head | G[?]VLA. | zoom: first letter blotted (t1 null)
+- 0109 | D0638 | dipl+read | comma after q; kept | zoom: comma visible
+- 0109 | D0640 | dipl+read | comma after q; kept | zoom: comma visible
+- 0109 | D0639 | dipl+read | ven[?]riq; | zoom: t prints as colon (broken)
+- 0109 | D0642 | dipl+read | ven[?]riq; | zoom: t prints as colon (broken)
+- 0109 | D0641 | read | torva | rule §5
+- 0110 | D0643 | rubric | DOCTORVM AGNO-MINA. (hyphenated over 2 lines in frame) | zoom: printed in-frame heading; t1 null
+- 0111 | D0644 | page_type | emblem_continuation (+continuation_of 0110) | no motto/engraving; text continues 0110 (t1 had null)
+- 0111 | D0645 | dipl+read | Qni (as printed; typo -> errata); stray raised mark noted, not transcribed | zoom
+- 0111 | D0646 | dipl+read | Qni (as printed; typo -> errata); stray raised mark noted, not transcribed | zoom
+- 0111 | D0647 | dipl+read | Qni (as printed; typo -> errata); stray raised mark noted, not transcribed | zoom
+- 0111 | D0650 | dipl+read | Qni (as printed; typo -> errata); stray raised mark noted, not transcribed | zoom
+- 0111 | D0651 | dipl+read | Qni (as printed; typo -> errata); stray raised mark noted, not transcribed | zoom
+- 0111 | D0652 | dipl+read | Qni (as printed; typo -> errata); stray raised mark noted, not transcribed | zoom
+- 0111 | D0648 | dipl+read | mnlta (as printed; typo -> errata) | zoom: n clear
+- 0111 | D0653 | dipl+read | mnlta (as printed; typo -> errata) | zoom: n clear
+- 0111 | D0649 | dipl+read | furgunt (as printed, crossbar f; -> errata) | zoom: crossbar visible
+- 0111 | D0654 | dipl+read | furgunt (as printed, crossbar f; -> errata) | zoom: crossbar visible
+- 0112 | D0655 | dipl+read | spacing | rule §3
+- 0112 | D0658 | dipl+read | spacing | rule §3
+- 0112 | D0660 | dipl+read | spacing | rule §3
+- 0112 | D0663 | dipl+read | spacing | rule §3
+- 0112 | D0666 | dipl+read | spacing | rule §3
+- 0112 | D0668 | dipl+read | spacing | rule §3
+- 0112 | D0656 | dipl+read | L[?]uxuriæ | zoom: italic capital I-shaped; rule §4 L≈I
+- 0112 | D0664 | dipl+read | L[?]uxuriæ | zoom: italic capital I-shaped; rule §4 L≈I
+- 0112 | D0657 | dipl+read | hoc (no [?]) | zoom
+- 0112 | D0665 | dipl+read | hoc (no [?]) | zoom
+- 0112 | D0659 | dipl+read | ratio vlla (stray mark between, not transcribed) | zoom
+- 0112 | D0662 | dipl+read | ratio vlla (stray mark between, not transcribed) | zoom
+- 0112 | D0667 | dipl+read | ratio vlla (stray mark between, not transcribed) | zoom
+- 0112 | D0670 | dipl+read | ratio vlla (stray mark between, not transcribed) | zoom
+- 0112 | D0661 | dipl+read | vir[?]us | zoom: t broken (looks i)
+- 0112 | D0669 | dipl+read | vir[?]us | zoom: t broken (looks i)
+- 0113 | D0671 | dipl+read | ſphæræ,[?] (æ printed; following mark comma-like but inverted) | zoom
+- 0113 | D0672 | dipl+read | ſphæræ,[?] (æ printed; following mark comma-like but inverted) | zoom
+- 0113 | D0673 | dipl+read | ſphæræ,[?] (æ printed; following mark comma-like but inverted) | zoom
+- 0113 | D0675 | dipl+read | ſphæræ,[?] (æ printed; following mark comma-like but inverted) | zoom
+- 0113 | D0677 | dipl+read | ſphæræ,[?] (æ printed; following mark comma-like but inverted) | zoom
+- 0113 | D0679 | dipl+read | ſphæræ,[?] (æ printed; following mark comma-like but inverted) | zoom
+- 0113 | D0674 | read | adiuvans | rule §5: u vowel, v consonant
+- 0113 | D0676 | read | adiuvans | rule §5: u vowel, v consonant
+- 0113 | D0678 | read | adiuvans | rule §5: u vowel, v consonant
+- 0113 | D0680 | read | Adversus | rule §5
+- 0114 | D0681 | dipl+read | comma after q; kept | zoom
+- 0114 | D0685 | dipl+read | comma after q; kept | zoom
+- 0114 | D0683 | dipl+read | v[?]erq; | zoom: t prints as ı
+- 0114 | D0688 | dipl+read | v[?]erq; | zoom: t prints as ı
+- 0114 | D0682 | dipl+read | ſit[?] | zoom: i/t damaged (ſu-like)
+- 0114 | D0686 | dipl+read | ſit[?] | zoom: i/t damaged (ſu-like)
+- 0114 | D0684 | read | dilue | rule §5
+- 0114 | D0687 | read | dilue | rule §5
+- 0114 | D0689 | read | dilue | rule §5
+- 0115 | D0690 | dipl | Adueniſſe (long ſſ) | zoom
+- 0115 | D0691 | dipl | Adueniſſe (long ſſ) | zoom
+- 0115 | D0692 | read | Advenisse | rule §5
+- 0117 | D0693 | page_type | emblem_continuation (+continuation_of 0116) | no motto/engraving on page
+- 0117 | D0694 | dipl+read | fera (f with crossbar) | zoom
+- 0117 | D0695 | dipl+read | fera (f with crossbar) | zoom
+- 0117 | D0696 | dipl+read | fera (f with crossbar) | zoom
+- 0117 | D0697 | dipl+read | fera (f with crossbar) | zoom
+- 0118 | D0698 | dipl+read | Caucaſi a (space printed) | zoom: space clear
+- 0118 | D0699 | dipl+read | Caucaſi a (space printed) | zoom: space clear
+- 0118 | D0701 | dipl+read | Caucaſi a (space printed) | zoom: space clear
+- 0118 | D0702 | dipl+read | Caucaſi a (space printed) | zoom: space clear
+- 0118 | D0704 | dipl+read | Caucaſi a (space printed) | zoom: space clear
+- 0118 | D0700 | dipl+read | deûmque[?] | zoom: accent-like mark over u of -que
+- 0118 | D0703 | dipl+read | deûmque[?] | zoom: accent-like mark over u of -que
+- 0119 | D0705 | dipl+read | I[?]care kept | zoom: only top serif of I printed
+- 0119 | D0708 | dipl+read | I[?]care kept | zoom: only top serif of I printed
+- 0119 | D0714 | dipl+read | I[?]care kept | zoom: only top serif of I printed
+- 0119 | D0717 | dipl+read | I[?]care kept | zoom: only top serif of I printed
+- 0119 | D0706 | dipl+read | prędicere / prædicere | zoom: e caudata
+- 0119 | D0709 | dipl+read | prędicere / prædicere | zoom: e caudata
+- 0119 | D0712 | dipl+read | prędicere / prædicere | zoom: e caudata
+- 0119 | D0715 | dipl+read | prędicere / prædicere | zoom: e caudata
+- 0119 | D0718 | dipl+read | prędicere / prædicere | zoom: e caudata
+- 0119 | D0721 | dipl+read | prędicere / prædicere | zoom: e caudata
+- 0119 | D0711 | dipl+read | ſúperos | zoom: acute on u
+- 0119 | D0720 | dipl+read | ſúperos | zoom: acute on u
+- 0119 | D0707 | dipl+read | eade[?] kept | zoom: first letter e, last letter broken (t?); cadet = emendation -> OPEN_QUESTIONS
+- 0119 | D0710 | dipl+read | eade[?] kept | zoom: first letter e, last letter broken (t?); cadet = emendation -> OPEN_QUESTIONS
+- 0119 | D0713 | dipl+read | eade[?] kept | zoom: first letter e, last letter broken (t?); cadet = emendation -> OPEN_QUESTIONS
+- 0119 | D0716 | dipl+read | eade[?] kept | zoom: first letter e, last letter broken (t?); cadet = emendation -> OPEN_QUESTIONS
+- 0119 | D0719 | dipl+read | eade[?] kept | zoom: first letter e, last letter broken (t?); cadet = emendation -> OPEN_QUESTIONS
+- 0119 | D0722 | dipl+read | eade[?] kept | zoom: first letter e, last letter broken (t?); cadet = emendation -> OPEN_QUESTIONS
+- 0120 | D0723 | dipl+read | no mark before emiſſum | zoom: brown stain, not a sign
+- 0120 | D0724 | dipl+read | no mark before emiſſum | zoom: brown stain, not a sign
+- 0121 | D0725 | dipl+read | habenas: | zoom: colon in right margin
+- 0121 | D0728 | dipl+read | habenas: | zoom: colon in right margin
+- 0121 | D0731 | dipl+read | habenas: | zoom: colon in right margin
+- 0121 | D0734 | dipl+read | habenas: | zoom: colon in right margin
+- 0121 | D0735 | dipl+read | habenas: | zoom: colon in right margin
+- 0121 | D0739 | dipl+read | habenas: | zoom: colon in right margin
+- 0121 | D0726 | dipl+read | vin[?]ere | zoom: c covered by stain
+- 0121 | D0730 | dipl+read | vin[?]ere | zoom: c covered by stain
+- 0121 | D0733 | dipl+read | vin[?]ere | zoom: c covered by stain
+- 0121 | D0737 | dipl+read | vin[?]ere | zoom: c covered by stain
+- 0121 | D0741 | dipl+read | vin[?]ere | zoom: c covered by stain
+- 0121 | D0727 | dipl | ſcuticã (tilde) | zoom: wavy tilde, encoded ã per §4
+- 0121 | D0729 | dipl+read | pluri[?]us | zoom: m prints as iu
+- 0121 | D0732 | dipl+read | pluri[?]us | zoom: m prints as iu
+- 0121 | D0736 | dipl+read | pluri[?]us | zoom: m prints as iu
+- 0121 | D0740 | dipl+read | pluri[?]us | zoom: m prints as iu
+- 0121 | D0738 | read | invictus | rule §5
+- 0122 | D0742 | dipl+read | placid[?]mq; | zoom: vowel after d smudged, accent unverifiable
+- 0122 | D0743 | dipl+read | placid[?]mq; | zoom: vowel after d smudged, accent unverifiable
+- 0122 | D0744 | dipl+read | placid[?]mq; | zoom: vowel after d smudged, accent unverifiable
+- 0122 | D0745 | dipl+read | placid[?]mq; | zoom: vowel after d smudged, accent unverifiable
+- 0122 | D0746 | dipl+read | placid[?]mq; | zoom: vowel after d smudged, accent unverifiable
+- 0122 | D0747 | dipl+read | placid[?]mq; | zoom: vowel after d smudged, accent unverifiable
+- 0124 | D0748 | dipl+read | iurè (grave printed) | zoom
+- 0124 | D0751 | dipl+read | iurè (grave printed) | zoom
+- 0124 | D0753 | dipl+read | iurè (grave printed) | zoom
+- 0124 | D0755 | dipl+read | iurè (grave printed) | zoom
+- 0124 | D0749 | dipl | vnquã (tilde) | zoom: wavy tilde -> ã per §4
+- 0124 | D0750 | dipl+read | vincere[?] | zoom: final e prints as c
+- 0124 | D0752 | dipl+read | vincere[?] | zoom: final e prints as c
+- 0124 | D0754 | dipl+read | vincere[?] | zoom: final e prints as c
+- 0124 | D0756 | dipl+read | vincere[?] | zoom: final e prints as c
+- 0125 | D0757 | dipl+read | incurui (no accent) | zoom
+- 0125 | D0762 | dipl+read | incurui (no accent) | zoom
+- 0125 | D0768 | dipl+read | incurui (no accent) | zoom
+- 0125 | D0772 | dipl+read | incurui (no accent) | zoom
+- 0125 | D0778 | dipl+read | incurui (no accent) | zoom
+- 0125 | D0783 | dipl+read | incurui (no accent) | zoom
+- 0125 | D0758 | dipl+read | quẽ[?]t (tilde over e; blotted letter; final t) | zoom: neither queis nor qu-t settled
+- 0125 | D0763 | dipl+read | quẽ[?]t (tilde over e; blotted letter; final t) | zoom: neither queis nor qu-t settled
+- 0125 | D0769 | dipl+read | quẽ[?]t (tilde over e; blotted letter; final t) | zoom: neither queis nor qu-t settled
+- 0125 | D0773 | dipl+read | quẽ[?]t (tilde over e; blotted letter; final t) | zoom: neither queis nor qu-t settled
+- 0125 | D0779 | dipl+read | quẽ[?]t (tilde over e; blotted letter; final t) | zoom: neither queis nor qu-t settled
+- 0125 | D0784 | dipl+read | quẽ[?]t (tilde over e; blotted letter; final t) | zoom: neither queis nor qu-t settled
+- 0125 | D0759 | dipl+read | ꝗcquã / quicquam (t1) | zoom: q with barred descender
+- 0125 | D0766 | dipl+read | ꝗcquã / quicquam (t1) | zoom: q with barred descender
+- 0125 | D0770 | dipl+read | ꝗcquã / quicquam (t1) | zoom: q with barred descender
+- 0125 | D0775 | dipl+read | ꝗcquã / quicquam (t1) | zoom: q with barred descender
+- 0125 | D0781 | dipl+read | ꝗcquã / quicquam (t1) | zoom: q with barred descender
+- 0125 | D0786 | dipl+read | ꝗcquã / quicquam (t1) | zoom: q with barred descender
+- 0125 | D0760 | dipl+read | te[?]it | zoom: g barely printed
+- 0125 | D0767 | dipl+read | te[?]it | zoom: g barely printed
+- 0125 | D0771 | dipl+read | te[?]it | zoom: g barely printed
+- 0125 | D0776 | dipl+read | te[?]it | zoom: g barely printed
+- 0125 | D0782 | dipl+read | te[?]it | zoom: g barely printed
+- 0125 | D0787 | dipl+read | te[?]it | zoom: g barely printed
+- 0125 | D0761 | subheading | Διαλογισικῶς. (no τ printed; -> errata) | zoom: t3 right
+- 0125 | D0777 | subheading | Διαλογισικῶς. (no τ printed; -> errata) | zoom: t3 right
+- 0125 | D0764 | dipl | gerũt / cũ (tilde) | zoom: tilde -> ũ per §4
+- 0125 | D0765 | dipl | gerũt / cũ (tilde) | zoom: tilde -> ũ per §4
+- 0125 | D0774 | read | spacing of (hospes ) | rule §3: insignificant
+- 0125 | D0780 | read | spacing of (hospes ) | rule §3: insignificant
+- 0125 | D0785 | read | spacing of (hospes ) | rule §3: insignificant
+- 0126 | D0788 | dipl | inq́; (accent on q) | zoom: acute on q
+- 0126 | D0791 | dipl | inq́; (accent on q) | zoom: acute on q
+- 0126 | D0792 | dipl | inq́; (accent on q) | zoom: acute on q
+- 0126 | D0789 | dipl+read | spacing in parentheses | rule §3: insignificant
+- 0126 | D0793 | dipl+read | spacing in parentheses | rule §3: insignificant
+- 0126 | D0794 | dipl+read | spacing in parentheses | rule §3: insignificant
+- 0126 | D0795 | dipl+read | spacing in parentheses | rule §3: insignificant
+- 0126 | D0790 | dipl | arcũ | zoom: tilde -> ũ per §4
+- 0127 | D0796 | signature | H 5 | zoom
+- 0127 | D0797 | dipl+read | inmitis (as printed) | zoom: n clear; not normalized
+- 0127 | D0798 | dipl+read | inmitis (as printed) | zoom: n clear; not normalized
+- 0127 | D0799 | dipl+read | inmitis (as printed) | zoom: n clear; not normalized
+- 0127 | D0800 | dipl+read | inmitis (as printed) | zoom: n clear; not normalized
+- 0128 | D0801 | dipl+read | digitis (no [?]) | zoom: g faint but present
+- 0128 | D0803 | dipl+read | digitis (no [?]) | zoom: g faint but present
+- 0128 | D0802 | dipl | paruũ | zoom: tilde -> ũ per §4
+- 0129 | D0805 | read | Convenit | rule §5
+- 0129 | D0804 | read | quod (expansion of ꝙ) | brevigraph expansion, as in 0051
+- 0129 | D0806 | read | quod (expansion of ꝙ) | brevigraph expansion, as in 0051
+- 0130 | D0807 | page_type | emblem_continuation (+continuation_of 0129) | no motto/engraving
+- 0130 | D0808 | dipl+read | pharêtras (circumflex) | zoom
+- 0130 | D0818 | dipl+read | pharêtras (circumflex) | zoom
+- 0130 | D0809 | dipl+read | Quíſue (acute kept); reading Quísve | zoom + rule §5 consonantal u
+- 0130 | D0812 | dipl+read | Quíſue (acute kept); reading Quísve | zoom + rule §5 consonantal u
+- 0130 | D0816 | dipl+read | Quíſue (acute kept); reading Quísve | zoom + rule §5 consonantal u
+- 0130 | D0819 | dipl+read | Quíſue (acute kept); reading Quísve | zoom + rule §5 consonantal u
+- 0130 | D0822 | dipl+read | Quíſue (acute kept); reading Quísve | zoom + rule §5 consonantal u
+- 0130 | D0826 | dipl+read | Quíſue (acute kept); reading Quísve | zoom + rule §5 consonantal u
+- 0130 | D0810 | dipl+read | ſpícula (accent) | zoom
+- 0130 | D0813 | dipl+read | ſpícula (accent) | zoom
+- 0130 | D0817 | dipl+read | ſpícula (accent) | zoom
+- 0130 | D0820 | dipl+read | ſpícula (accent) | zoom
+- 0130 | D0823 | dipl+read | ſpícula (accent) | zoom
+- 0130 | D0827 | dipl+read | ſpícula (accent) | zoom
+- 0130 | D0811 | dipl+read | quî quæſo (circumflex; one word) | zoom
+- 0130 | D0821 | dipl+read | quî quæſo (circumflex; one word) | zoom
+- 0130 | D0814 | dipl+read | quî quæſo (circumflex; one word) | zoom
+- 0130 | D0824 | dipl+read | quî quæſo (circumflex; one word) | zoom
+- 0130 | D0815 | dipl+read | pote[?]ſt | zoom: e prints as c
+- 0130 | D0825 | dipl+read | pote[?]ſt | zoom: e prints as c
+- 0131 | D0828 | dipl+read | Aeternæ (swash A + separate e, no Æ ligature) | zoom
+- 0131 | D0830 | dipl+read | Aeternæ (swash A + separate e, no Æ ligature) | zoom
+- 0131 | D0831 | dipl+read | Aeternæ (swash A + separate e, no Æ ligature) | zoom
+- 0131 | D0833 | dipl+read | Aeternæ (swash A + separate e, no Æ ligature) | zoom
+- 0131 | D0834 | dipl+read | Aeternæ (swash A + separate e, no Æ ligature) | zoom
+- 0131 | D0835 | dipl+read | Aeternæ (swash A + separate e, no Æ ligature) | zoom
+- 0131 | D0829 | dipl | domũ | zoom: tilde -> ũ per §4
+- 0131 | D0832 | dipl+read | li[?]uerat | zoom: q damaged (stub only)
+- 0131 | D0836 | dipl+read | li[?]uerat | zoom: q damaged (stub only)
+- 0132 | D0837 | dipl+read | ore (no [?]); stray quad mark after it | zoom: legible
+- 0132 | D0838 | dipl+read | ore (no [?]); stray quad mark after it | zoom: legible
+- 0133 | D0839 | inscription | SEPVLCHRVM (one word; letter-spaced) | zoom: uniform spacing, no word gap
+- 0133 | D0841 | inscription | SEPVLCHRVM (one word; letter-spaced) | zoom: uniform spacing, no word gap
+- 0133 | D0842 | inscription | SEPVLCHRVM (one word; letter-spaced) | zoom: uniform spacing, no word gap
+- 0133 | D0840 | dipl+read | spacing around parentheses | rule §3: insignificant
+- 0133 | D0843 | dipl+read | spacing around parentheses | rule §3: insignificant
+- 0133 | D0844 | dipl+read | spacing around parentheses | rule §3: insignificant
+- 0133 | D0845 | dipl+read | spacing around parentheses | rule §3: insignificant
+- 0133 | D0846 | dipl+read | spacing around parentheses | rule §3: insignificant
+- 0133 | D0847 | dipl+read | spacing around parentheses | rule §3: insignificant
+- 0133 | D0848 | dipl+read | spacing around parentheses | rule §3: insignificant
+- 0133 | D0849 | dipl+read | spacing around parentheses | rule §3: insignificant
+- 0134 | D0850 | dipl+read | Ind[?]x | zoom: e prints as c (damaged)
+- 0134 | D0851 | dipl+read | Ind[?]x | zoom: e prints as c (damaged)
+- 0134 | D0852 | dipl+read | Ind[?]x | zoom: e prints as c (damaged)
+- 0134 | D0854 | dipl+read | Ind[?]x | zoom: e prints as c (damaged)
+- 0134 | D0853 | read | candid a (printed space kept, as in dipl) | zoom: space printed; joining is editorial
+- 0134 | D0855 | read | candid a (printed space kept, as in dipl) | zoom: space printed; joining is editorial
+- 0135 | D0856 | page_type | emblem_continuation (+continuation_of 0134) | no motto/engraving; text continues
+- 0135 | D0857 | dipl+read | quẽis[?] kept (dipl), queis (read) | zoom: tilde over e, following letter smudged
+- 0135 | D0858 | dipl+read | quẽis[?] kept (dipl), queis (read) | zoom: tilde over e, following letter smudged
+- 0135 | D0859 | dipl+read | quẽis[?] kept (dipl), queis (read) | zoom: tilde over e, following letter smudged
+- 0135 | D0862 | dipl+read | quẽis[?] kept (dipl), queis (read) | zoom: tilde over e, following letter smudged
+- 0135 | D0863 | dipl+read | quẽis[?] kept (dipl), queis (read) | zoom: tilde over e, following letter smudged
+- 0135 | D0860 | read | flavus | rule §5
+- 0135 | D0861 | read | gilvis | rule §5
+- 0135 | D0864 | read | gilvis | rule §5
+- 0138 | D0865 | read | invida | rule §5
+- 0139 | D0866 | signature | I 3[?] | zoom: I clear, numeral blotted
+- 0139 | D0867 | dipl+read | L[?]yſippi | zoom: initial I-shaped; rule §4 L≈I
+- 0139 | D0874 | dipl+read | L[?]yſippi | zoom: initial I-shaped; rule §4 L≈I
+- 0139 | D0869 | subheading | Διαλογισικῶς. (no τ printed; -> errata); Lyſippi as above | zoom: t3/t4 right
+- 0139 | D0870 | subheading | Διαλογισικῶς. (no τ printed; -> errata); Lyſippi as above | zoom: t3/t4 right
+- 0139 | D0876 | subheading | Διαλογισικῶς. (no τ printed; -> errata); Lyſippi as above | zoom: t3/t4 right
+- 0139 | D0877 | subheading | Διαλογισικῶς. (no τ printed; -> errata); Lyſippi as above | zoom: t3/t4 right
+- 0139 | D0868 | dipl+read | prẽdar.. (tilde + double point); reading prendar.. | zoom: macron-tilde, not e caudata; t2 right
+- 0139 | D0873 | dipl+read | prẽdar.. (tilde + double point); reading prendar.. | zoom: macron-tilde, not e caudata; t2 right
+- 0139 | D0875 | dipl+read | prẽdar.. (tilde + double point); reading prendar.. | zoom: macron-tilde, not e caudata; t2 right
+- 0139 | D0880 | dipl+read | prẽdar.. (tilde + double point); reading prendar.. | zoom: macron-tilde, not e caudata; t2 right
+- 0139 | D0871 | dipl | frõte / Occurrẽs | zoom: tilde -> õ/ẽ per §4
+- 0139 | D0872 | dipl | frõte / Occurrẽs | zoom: tilde -> õ/ẽ per §4
+- 0139 | D0878 | read | fronte / Occurrens | rule §5 tilde expansion
+- 0139 | D0879 | read | fronte / Occurrens | rule §5 tilde expansion
+- 0140 | D0881 | dipl+read | iuflat (as printed; typo -> errata) | zoom: u for n clear; t3 right
+- 0140 | D0882 | dipl+read | iuflat (as printed; typo -> errata) | zoom: u for n clear; t3 right
+- 0140 | D0883 | dipl+read | iuflat (as printed; typo -> errata) | zoom: u for n clear; t3 right
+- 0140 | D0884 | dipl+read | iuflat (as printed; typo -> errata) | zoom: u for n clear; t3 right
+- 0141 | D0885 | dipl+read | Ingentet (as printed, no [?]) | zoom: final t clear
+- 0141 | D0886 | dipl+read | Ingentet (as printed, no [?]) | zoom: final t clear
+- 0142 | D0887 | dipl+read | creniſſe (as printed; typo -> errata) | zoom: n clear
+- 0142 | D0888 | dipl+read | creniſſe (as printed; typo -> errata) | zoom: n clear
+- 0142 | D0889 | dipl+read | creniſſe (as printed; typo -> errata) | zoom: n clear
+- 0142 | D0890 | dipl+read | creniſſe (as printed; typo -> errata) | zoom: n clear
+- 0142 | D0891 | read | adveniet | rule §5
+- 0145 | D0892 | dipl+read | farra (f with crossbar) | zoom
+- 0145 | D0893 | dipl+read | farra (f with crossbar) | zoom
+- 0145 | D0894 | read | castráve | rule §5
+- 0146 | D0895 | dipl+read | viuens[?] ſola (stray vertical mark, not ; or ,); reading comma removed | zoom: t1 reading had invented comma
+- 0146 | D0896 | dipl+read | viuens[?] ſola (stray vertical mark, not ; or ,); reading comma removed | zoom: t1 reading had invented comma
+- 0146 | D0897 | dipl+read | viuens[?] ſola (stray vertical mark, not ; or ,); reading comma removed | zoom: t1 reading had invented comma
+- 0146 | D0898 | dipl+read | viuens[?] ſola (stray vertical mark, not ; or ,); reading comma removed | zoom: t1 reading had invented comma
+- 0147 | D0899 | read | adversis | rule §5
+- 0149 | D0900 | dipl+read | pa ſſer (space printed, kept in both layers) | zoom
+- 0149 | D0907 | dipl+read | pa ſſer (space printed, kept in both layers) | zoom
+- 0149 | D0901 | dipl | fore nt (space printed) | zoom
+- 0149 | D0903 | dipl | fore nt (space printed) | zoom
+- 0149 | D0904 | read | no men. (printed space kept in reading as in other frames) | zoom: space in motto
+- 0149 | D0906 | read | no men. (printed space kept in reading as in other frames) | zoom: space in motto
+- 0149 | D0902 | dipl+read | ea[?]t | zoom: a broken (e.ıt); not erat
+- 0149 | D0905 | dipl+read | ea[?]t | zoom: a broken (e.ıt); not erat
+- 0151 | D0908 | inscription | B[?]IBIENA | zoom: first letter damaged
+- 0151 | D0909 | inscription | MÕTESCIO (tilde) | zoom
+- 0151 | D0910 | inscription | t1 toponym order/list kept (… [...]ISA · SIENA … CIBLI[?] · EIGENE[?] …) | zoom: t4 reordering only; letters as t1
+- 0151 | D0911 | inscription | t1 toponym order/list kept (… [...]ISA · SIENA … CIBLI[?] · EIGENE[?] …) | zoom: t4 reordering only; letters as t1
+- 0151 | D0912 | inscription | t1 toponym order/list kept (… [...]ISA · SIENA … CIBLI[?] · EIGENE[?] …) | zoom: t4 reordering only; letters as t1
+- 0151 | D0913 | inscription | t1 toponym order/list kept (… [...]ISA · SIENA … CIBLI[?] · EIGENE[?] …) | zoom: t4 reordering only; letters as t1
+- 0151 | D0914 | inscription | ribbon ΤΟΝ … ΕΝΙ ΣΟΦΙΑΙ[?] … kept as t1 with [...] | zoom: mirrored letters, needs other_model/second_copy
+- 0151 | D0915 | inscription | ribbon ΤΟΝ … ΕΝΙ ΣΟΦΙΑΙ[?] … kept as t1 with [...] | zoom: mirrored letters, needs other_model/second_copy
+- 0151 | D0916 | dipl | Ducesq; (round s) | zoom
+- 0151 | D0917 | dipl+read | irrũpere / irrumpere | zoom: tilde; rule §5 expansion
+- 0151 | D0919 | dipl+read | irrũpere / irrumpere | zoom: tilde; rule §5 expansion
+- 0151 | D0918 | dipl+read | ſumnò[?] kept (n printed, accent unclear); summò -> errata | zoom
+- 0151 | D0920 | dipl+read | ſumnò[?] kept (n printed, accent unclear); summò -> errata | zoom
+- 0152 | D0921 | dipl | ã/ũ tilde (t1) | zoom: tilde -> ã/ũ per §4
+- 0152 | D0922 | dipl | ã/ũ tilde (t1) | zoom: tilde -> ã/ũ per §4
+- 0152 | D0923 | dipl | ã/ũ tilde (t1) | zoom: tilde -> ã/ũ per §4
+- 0152 | D0924 | read | patriam/comam/hunc | rule §5 tilde expansion
+- 0152 | D0925 | read | patriam/comam/hunc | rule §5 tilde expansion
+- 0152 | D0926 | read | patriam/comam/hunc | rule §5 tilde expansion
+- 0153 | D0927 | dipl+read | murus (stray mark ignored); m[?]gni (a not printed) | zoom
+- 0153 | D0929 | dipl+read | murus (stray mark ignored); m[?]gni (a not printed) | zoom
+- 0153 | D0928 | read | Graium | rule §5 tilde expansion
+- 0154 | D0930 | dipl+read | An[?]iqua (t prints as colon; reading flagged too) | zoom
+- 0154 | D0931 | dipl+read | An[?]iqua (t prints as colon; reading flagged too) | zoom
+- 0155 | D0932 | dipl+read | Ἀλληγορικῶς. as subheading under motto (t1) | zoom: printed under motto
+- 0155 | D0934 | dipl+read | Ἀλληγορικῶς. as subheading under motto (t1) | zoom: printed under motto
+- 0155 | D0935 | dipl+read | Ἀλληγορικῶς. as subheading under motto (t1) | zoom: printed under motto
+- 0155 | D0937 | dipl+read | Ἀλληγορικῶς. as subheading under motto (t1) | zoom: printed under motto
+- 0155 | D0933 | dipl | laqueosq́; (round s; accent on q kept) | zoom
+- 0155 | D0936 | read | invicti | rule §5
+- 0156 | D0938 | page_type | emblem_continuation (+continuation_of 0155) | catchword Spernit on 0155; no motto
+- 0156 | D0939 | dipl | feritasq; (round s) | zoom
+- 0156 | D0940 | dipl+read | interit (no [?]) | zoom: legible
+- 0156 | D0942 | dipl+read | interit (no [?]) | zoom: legible
+- 0156 | D0941 | read | Invehit | rule §5
+- 0160 | D0943 | dipl | Præteritasq; (round s) | zoom
+- 0160 | D0944 | dipl+read | ſtudentum[?] | zoom: final m prints as n (broken)
+- 0160 | D0945 | dipl+read | ſtudentum[?] | zoom: final m prints as n (broken)
+- 0161 | D0946 | dipl+read | poma (no accent) | zoom
+- 0161 | D0948 | dipl+read | poma (no accent) | zoom
+- 0161 | D0947 | read | advena | rule §5
+- 0163 | D0949 | dipl+read | DIALOGISMVS. subheading under motto (t1) | zoom
+- 0163 | D0950 | dipl+read | DIALOGISMVS. subheading under motto (t1) | zoom
+- 0163 | D0951 | dipl+read | DIALOGISMVS. subheading under motto (t1) | zoom
+- 0163 | D0953 | dipl+read | DIALOGISMVS. subheading under motto (t1) | zoom
+- 0163 | D0952 | read | divûm | rule §5
+- 0166 | D0954 | dipl | Eſtq́; (accent on q) | zoom
+- 0167 | D0955 | dipl | Quodq́; (accent on q) | zoom
+- 0169 | D0956 | dipl+read | quẽis[?] kept (dipl), queis (read) | zoom: tilde over e, next letter smudged (same sort as 0135)
+- 0169 | D0957 | dipl+read | quẽis[?] kept (dipl), queis (read) | zoom: tilde over e, next letter smudged (same sort as 0135)
+- 0170 | D0958 | read | spacing around parentheses | rule §3: insignificant
+- 0170 | D0959 | read | spacing around parentheses | rule §3: insignificant
+- 0172 | D0960 | dipl+read | luctandu[?]m (motto; stain over m, no tilde) | zoom: t1 tilde not supported
+- 0172 | D0962 | dipl+read | luctandu[?]m (motto; stain over m, no tilde) | zoom: t1 tilde not supported
+- 0172 | D0961 | dipl+read | hoſtẽis[?] kept (dipl), hosteis (read) | zoom: same smudged ẽ sort
+- 0172 | D0963 | dipl+read | hoſtẽis[?] kept (dipl), hosteis (read) | zoom: same smudged ẽ sort
+- 0172 | D0964 | read | Convellunt | rule §5
+- 0173 | D0965 | read | provida (ꝓ expanded) | brevigraph expansion as with q;
+- 0175 | D0966 | dipl | Delphinesq;, (round s; comma kept) | zoom
+- 0175 | D0967 | read | spacing | rule §3
+- 0176 | D0968 | dipl+read | ſaxum' kept as printed; reading saxum[?] | zoom: raised apostrophe-like sort printed
+- 0176 | D0969 | dipl+read | ſaxum' kept as printed; reading saxum[?] | zoom: raised apostrophe-like sort printed
+- 0177 | D0970 | dipl+read | falſis | zoom: f clear
+- 0177 | D0972 | dipl+read | falſis | zoom: f clear
+- 0177 | D0971 | dipl+read | Græciq; (æ) | zoom
+- 0177 | D0973 | dipl+read | Græciq; (æ) | zoom
+- 0177 | D0974 | read | corvis | rule §5
+- 0179 | D0975 | ornament | PV = engraver monogram in frame cartouche; noted, not text | zoom
+- 0179 | D0976 | dipl+read | comma after vterq; printed | zoom
+- 0179 | D0977 | dipl+read | comma after vterq; printed | zoom
+- 0180 | D0978 | ornament | PV monogram noted in notes, not text | zoom
+- 0180 | D0979 | dipl | premererq; (stray raised mark noted) | zoom
+- 0180 | D0980 | dipl+read | tulit.[?] (point vs comma) | zoom: tailed mark
+- 0180 | D0981 | dipl+read | tulit.[?] (point vs comma) | zoom: tailed mark

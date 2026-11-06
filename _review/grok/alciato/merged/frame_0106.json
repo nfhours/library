@@ -1,0 +1,69 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 106,
+ "source": "scan/frame_0106.jpg",
+ "page": "100",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "GVLA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In paraſitos."
+    ],
+    "reading": "In parasitos."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Человек в короткой одежде несёт на подносе раков/угощение, шагая по мощёной улице между домами (парасит).",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quos tibi donamus,fluuiales accipe cancros,",
+     "Munera conueniunt moribus iſta tuis.",
+     "His oculi vigiles,& forfice plurimus ordo",
+     "Chelarum armatus,maximaq; aluus adeſt.",
+     "Sic tibi propenſus ſtat pingui abdomine venter,",
+     "Perniceſq; pedes,ſpiculaq; apta pedi.",
+     "Cùm vagus in triuijs,menſæq; ſedilibus erras,",
+     "Inq; alios mordax ſcommata falſa iacis."
+    ],
+    "reading": [
+     "Quos tibi donamus, fluviales accipe cancros,",
+     "Munera conveniunt moribus ista tuis.",
+     "His oculi vigiles, & forfice plurimus ordo",
+     "Chelarum armatus, maximaque alvus adest.",
+     "Sic tibi propensus stat pingui abdomine venter,",
+     "Pernicesque pedes, spiculaque apta pedi.",
+     "Cùm vagus in triviis, mensæque sedilibus erras,",
+     "Inque alios mordax scommata falsa iacis."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «100» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0613",
+  "D0614",
+  "D0615",
+  "D0616"
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 122,
+ "source": "scan/frame_0122.jpg",
+ "page": "116",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Potentia amoris."
+    ],
+    "reading": "Potentia amoris."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Крылатый Купидон с цветами в одной руке и рыбой в другой сидит в пейзаже у моря",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Nudus Amor viden' vt ridet,placid[?]mq; tuetur?",
+     "Nec faculas,nec quæ cornua flectat,habet.",
+     "Altera ſed manuum flores gerit,altera piſcem,",
+     "Scilicet vt terræ iura det,atque mari."
+    ],
+    "reading": [
+     "Nudus Amor viden' ut ridet, placid[?]mque tuetur?",
+     "Nec faculas, nec quæ cornua flectat, habet.",
+     "Altera sed manuum flores gerit, altera piscem,",
+     "Scilicet ut terræ iura det, atque mari."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул без точки: «AMOR». Номер «116» вверху слева. Страница в орнаментальной рамке.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0742",
+  "D0743",
+  "D0744",
+  "D0745",
+  "D0746",
+  "D0747"
+ ],
+ "opus_uncertain_ids": [
+  "D0742",
+  "D0743",
+  "D0744",
+  "D0745",
+  "D0746",
+  "D0747"
+ ]
+}

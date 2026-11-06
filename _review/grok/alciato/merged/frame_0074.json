@@ -1,0 +1,88 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 74,
+ "source": "scan/frame_0074.jpg",
+ "page": "68",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVITITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Cuculi."
+    ],
+    "reading": "Cuculi."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Крестьянин с палкой/посохом указывает на кукушку на дереве; на заднем плане виноградник с работниками, деревня; облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Ruricolas.[?]agreſte genus,plerique cuculos",
+     "Cur vocitent,quænam prodita cauſa fuit?",
+     "Vere nouo cantat Coccyx,quo tempore vites",
+     "Qui non abſoluit,iure notatur iners.",
+     "Fert ouain nidos alienos,qualiter ille",
+     "Cui thalamum prodit vxor adulterio."
+    ],
+    "reading": [
+     "Ruricolas.[?] agreste genus, plerique cuculos",
+     "Cur vocitent, quænam prodita causa fuit?",
+     "Vere novo cantat Coccyx, quo tempore vites",
+     "Qui non absolvit, iure notatur iners.",
+     "Fert ova in nidos alienos, qualiter ille",
+     "Cui thalamum prodit uxor adulterio."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [
+  {
+   "printed": "STVITITIA.",
+   "corrected": "STVLTITIA.",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  },
+  {
+   "printed": "ouain",
+   "corrected": "oua in",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер страницы «68» вверху слева. Колонтитул напечатан «STVITITIA.» (I вместо L).",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0485",
+  "D0486",
+  "D0487",
+  "D0488",
+  "D0489",
+  "D0490",
+  "D0491"
+ ],
+ "opus_uncertain_ids": [
+  "D0485",
+  "D0488",
+  "D0491"
+ ]
+}

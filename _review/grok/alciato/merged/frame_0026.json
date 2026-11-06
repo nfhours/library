@@ -1,0 +1,74 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 26,
+ "source": "scan/frame_0026.jpg",
+ "page": "20",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": "PRVDENTIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Conſilio,& virtute Chimæra[?]n",
+     "ſuperari,id eſt,fortiores",
+     "& deceptores."
+    ],
+    "reading": "Consilio, & virtute Chimæra[?]n superari, id est, fortiores & deceptores."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Всадник (Беллерофонт) в шлеме на крылатом коне (Пегас) поражает копьём вниз Химеру — зверя со львиной головой и змеиным хвостом под копытами коня; внизу пейзаж с городком.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Bellerophron(vt fortis eques)ſuperare Chimæran,",
+     "Et Licij potuit ſternere monſtra ſôli.",
+     "Sic tu Pegaſeis vectus petis æthera pennis:",
+     "Conſilioq; animi monſtra ſuperba domas."
+    ],
+    "reading": [
+     "Bellerophron(ut fortis eques)superare Chimæran,",
+     "Et Licii potuit sternere monstra sôli.",
+     "Sic tu Pegaseis vectus petis æthera pennis:",
+     "Consilioque animi monstra superba domas."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «20» вверху слева. Заголовок локуса «PRVDENTIA.» внутри полосы курсивными заглавными. Пятно справа от «Chimæran» (девиз, строка 1).",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0187",
+  "D0188",
+  "D0189",
+  "D0190",
+  "D0191",
+  "D0192",
+  "D0193",
+  "D0194",
+  "D0195"
+ ],
+ "opus_uncertain_ids": [
+  "D0188",
+  "D0190",
+  "D0192",
+  "D0195"
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 85,
+ "source": "scan/frame_0085.jpg",
+ "page": "79",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "INVIDIA.",
+ "rubric": "INVIDIA.",
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Зависть: исхудалая женщина в длинном одеянии идёт с посохом-колючей палкой, ест змею; позади пейзаж с холмами, восходящее солнце с лучами слева.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Squallida vipereas manducans fœmina carnes,",
+     "Cuiq; dolent oculi,quæq; ſuum cor edit,",
+     "Quam macies,& pallor habent,ſpinoſaq; geſtat",
+     "Tela manu.Talis pingitur inuidia."
+    ],
+    "reading": [
+     "Squallida vipereas manducans fœmina carnes,",
+     "Cuique dolent oculi, quæque suum cor edit,",
+     "Quam macies, & pallor habent, spinosaque gestat",
+     "Tela manu.Talis pingitur invidia."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «79» вверху справа. Над гравюрой только заголовок локуса «INVIDIA.» (курсивные заглавные); отдельного девиза нет.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0535"
+ ]
+}

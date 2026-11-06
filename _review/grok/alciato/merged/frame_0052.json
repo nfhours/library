@@ -1,0 +1,79 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 52,
+ "source": "scan/frame_0052.jpg",
+ "page": "46",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "CONCORDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Concordia."
+    ],
+    "reading": "Concordia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Два воина в античных доспехах и шлемах с плюмажами пожимают руки; позади шатры военного лагеря, знамёна, всадники.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "In bellnm ciuile duces cùm Roma pararet,",
+     "Viribus & caderet Martia terra ſuis:",
+     "Mos fuit in partes turmis coëuntibus eaſdem,",
+     "Coniunctas dextras mutua dona dari.",
+     "Fœderis hæc ſpecies:id habet Concordia ſignum,",
+     "Vt quos iungit amor,iungat & ipſa manus."
+    ],
+    "reading": [
+     "In bellum civile duces cùm Roma pararet,",
+     "Viribus & caderet Martia terra suis:",
+     "Mos fuit in partes turmis coëuntibus easdem,",
+     "Coniunctas dextras mutua dona dari.",
+     "Fœderis hæc species: id habet Concordia signum,",
+     "Ut quos iungit amor, iungat & ipsa manus."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [
+  {
+   "printed": "bellnm",
+   "corrected": "bellum",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер страницы «46» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0370",
+  "D0371",
+  "D0372",
+  "D0373",
+  "D0374",
+  "D0375",
+  "D0376",
+  "D0377",
+  "D0378",
+  "D0379"
+ ]
+}

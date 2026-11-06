@@ -1,0 +1,68 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 35,
+ "source": "scan/frame_0035.jpg",
+ "page": "29",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Vino prudentiam augeri."
+    ],
+    "reading": "Vino prudentiam augeri."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Две статуи на общем постаменте в нише с колоннами: слева Паллада с копьём, справа обнажённый Вакх, поднимающий руку; основание постамента с завитками.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Hæc Bacchus pater, & Pallas communiter ambo",
+     "Templa tenent,ſoboles vtraque vera Iouis:",
+     "Hæc caput,illè femur ſoluit:huic vſus oliui",
+     "Debitus:inuenit primus at ille merum.",
+     "Iunguntur merito,quòd ſi qui abſtemius odit",
+     "Vina:Dea nullum ſentiet auxilium."
+    ],
+    "reading": [
+     "Hæc Bacchus pater, & Pallas communiter ambo",
+     "Templa tenent, soboles utraque vera Iovis:",
+     "Hæc caput, illè femur solvit: huic usus olivi",
+     "Debitus: invenit primus at ille merum.",
+     "Iunguntur merito, quòd si qui abstemius odit",
+     "Vina: Dea nullum sentiet auxilium."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «29» вверху справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0265",
+  "D0266",
+  "D0267",
+  "D0268",
+  "D0269",
+  "D0270",
+  "D0271"
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 134,
+ "source": "scan/frame_0134.jpg",
+ "page": "128",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In colores."
+    ],
+    "reading": "In colores."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Девять клейм (3×3) со сценами — фигуры в одеждах разных цветов: похороны, всадники, мореходы, жрецы и др.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Ind[?]x mœſtitiæ eſt pullus color:vtimur omnes",
+     "Hoc habitu,tumulis cùm damus inferias.",
+     "At ſynceri animi,& mentis ſtola candid a puræ.",
+     "Hinc ſyndon ſacris linea grata viris.",
+     "Nos ſperare docet viridis.Spes dicitur eſſe,",
+     "In viridi,quoties irrita rêtro cadit."
+    ],
+    "reading": [
+     "Ind[?]x mœstitiæ est pullus color: utimur omnes",
+     "Hoc habitu, tumulis cùm damus inferias.",
+     "At synceri animi, & mentis stola candid a puræ.",
+     "Hinc syndon sacris linea grata viris.",
+     "Nos sperare docet viridis. Spes dicitur esse,",
+     "In viridi, quoties irrita rêtro cadit."
+    ]
+   },
+   "continues_on_next_page": true,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с витыми колоннами, гермами и драконами внизу"
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «128» вверху слева. Эпиграмма продолжается на кадре 0135.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0850",
+  "D0851",
+  "D0852",
+  "D0853",
+  "D0854",
+  "D0855"
+ ],
+ "opus_uncertain_ids": [
+  "D0850",
+  "D0851",
+  "D0852",
+  "D0854"
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 213,
+ "source": "scan/frame_0213.jpg",
+ "page": "207",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "MATRIMONIVM.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In fœcunditatem ſibi ipſi",
+     "damnoſam."
+    ],
+    "reading": "In fœcunditatem sibi ipsi damnosam."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Ореховое дерево на перекрёстке; двое мальчиков бросают в него палки и камни, сбивая орехи; у дерева собака; пейзаж на заднем плане.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Ludibrium pueris lapides iacientibus,hoc me",
+     "In triuio poſuit ruſtica cura nucem.",
+     "Quæ laceris ramis perſtrictoq; ardua libro,",
+     "Certatim fundis per latus omne petor.",
+     "Quid ſterili poſſet contingere turpius? eheu,",
+     "Infelix:fructus in mea damna fero."
+    ],
+    "reading": [
+     "Ludibrium pueris lapides iacientibus, hoc me",
+     "In trivio posuit rustica cura nucem.",
+     "Quæ laceris ramis perstrictoque ardua libro,",
+     "Certatim fundis per latus omne petor.",
+     "Quid sterili posset contingere turpius? eheu,",
+     "Infelix: fructus in mea damna fero."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «207» вверху справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

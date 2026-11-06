@@ -1,0 +1,101 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 10,
+ "source": "scan/frame_0010.jpg",
+ "page": "4",
+ "signature": null,
+ "catchword": null,
+ "page_type": "front_matter",
+ "running_head": null,
+ "rubric": null,
+ "emblems": [],
+ "blocks": [
+  {
+   "kind": "prose",
+   "lang": "la",
+   "diplomatic": [
+    "quærentibus inuentio.Etenim expeditius eſt,",
+    "diuerſi res generis in ſuum quaſque ordinem &",
+    "locum diſpoſitas:quàm in turbam, temerè conge-",
+    "ſtas inueſtigare,ſi quando ijs opus habemus vten",
+    "dum.Porrò vſus Emblematum,præter gratiam,",
+    "ac voluptatem ex iucunda nouitate,quæ tædiũ",
+    "leuat,breuem ſententiæ argutiam,quæ animum",
+    "pungit,numeroſam verſuũ ſuauitatem,quæ au-",
+    "res mulcet, τῶν εἰκόνων picturam non inanem,",
+    "quæ oculos paſcit,Etiã ille( inquam )vſus eſt,vt",
+    "quoties rebus vacuis complementum,nudis orna-",
+    "mentum,mutis ſermonẽ,alogis rationem tribue-",
+    "re,ant certè affingere velit quiſpiam,is ex Em-",
+    "blematũ libello,tãquam ex promptuario inſtru-",
+    "ctiſsimo habeat quod domeſticis parietibus , vi-",
+    "treis feneſtris,aulæis,periſtromatis,tabulis,va-",
+    "ſis,ſignis,anulis ſigillaribus,veſtimentis,menſæ,",
+    "fulcro,armis , gladio,ſupellectili denique omni,",
+    "nuſquam non,inſcribere,& impingere poſsit:ad",
+    "hoc ſcilicet vt vſquequaque loquax,& aſpectu",
+    "iucunda ſit rerum ad vſum communem ſpectan",
+    "tium facies. Quare & ipſe Alciatus,ſua hęc epi",
+    "grammata appellatione conuenientiſsima inſcri-",
+    "bi voluit Emblemata. Sunt em̃ Emblemata ver-",
+    "miculata opera ex teſsellis inſititijs apta & cõpo",
+    "ſita,interprete Budæo,qđ & ipſa vocabuli Grę-"
+   ],
+   "reading": [
+    "quærentibus inventio.Etenim expeditius est, diversi res generis in suum quasque ordinem & locum dispositas: quàm in turbam, temerè congestas investigare, si quando iis opus habemus utendum.Porrò usus Emblematum, præter gratiam, ac voluptatem ex iucunda novitate, quæ tædium levat, brevem sententiæ argutiam, quæ animum pungit, numerosam versuum suavitatem, quæ aures mulcet, τῶν εἰκόνων picturam non inanem, quæ oculos pascit, Etiam ille( inquam )usus est, ut quoties rebus vacuis complementum, nudis ornamentum, mutis sermonem, alogis rationem tribuere, aut certè affingere velit quispiam, is ex Emblematum libello, tanquam ex promptuario instructissimo habeat quod domesticis parietibus, vitreis fenestris, aulæis, peristromatis, tabulis, vasis, signis, anulis sigillaribus, vestimentis, mensæ, fulcro, armis, gladio, supellectili denique omni, nusquam non, inscribere, & impingere possit: ad hoc scilicet ut usquequaque loquax, & aspectu iucunda sit rerum ad usum communem spectantium facies. Quare & ipse Alciatus, sua hæc epigrammata appellatione convenientissima inscribi voluit Emblemata. Sunt em̃ Emblemata vermiculata opera ex tessellis insititiis apta & composita, interprete Budæo, qđ & ipsa vocabuli Græ-"
+   ],
+   "notes": "Продолжение Ad lectorem с кадра 0009; продолжается на кадре 0011. Курсив; греческие слова прямым греческим шрифтом. Переносы без знака (vten/dum, ſpectan/tium, epi/grammata, cõpo/ſita) в слое чтения склеены. «em̃» и «qđ» — сокращения, в слое чтения не раскрыты (см. open_points)."
+  }
+ ],
+ "ornaments": [],
+ "errata": [
+  {
+   "printed": "ant",
+   "corrected": "aut",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер страницы «4» вверху слева. Текст внутри орнаментальной рамки (та же рамка, что на 0009).",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0041",
+  "D0042",
+  "D0043",
+  "D0044",
+  "D0045",
+  "D0046",
+  "D0047",
+  "D0048",
+  "D0049",
+  "D0050",
+  "D0051",
+  "D0052",
+  "D0053",
+  "D0054",
+  "D0055",
+  "D0056",
+  "D0057",
+  "D0058",
+  "D0059",
+  "D0060",
+  "D0061",
+  "D0062",
+  "D0063",
+  "D0064",
+  "D0065",
+  "D0066",
+  "D0067",
+  "D0068"
+ ]
+}

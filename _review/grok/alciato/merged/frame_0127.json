@@ -1,0 +1,80 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 127,
+ "source": "scan/frame_0127.jpg",
+ "page": "121",
+ "signature": "H 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Dulcia quandoque amara",
+     "fieri."
+    ],
+    "reading": "Dulcia quandoque amara fieri."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Купидон летит от ульев, преследуемый пчёлами; внизу слева сидящая фигура (Венера)",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Matre procul licta,paulùm ſeceſſerat infans",
+     "Lydius:hunc diræ ſed rapuiſtis apes.",
+     "Venerat hic ad vot placidas ratus eſſe volucres,",
+     "Cùm nec ita inmitis vipera ſæua foret.",
+     "Quæ datis ah,dulci ſtimulos pro munere mellis.",
+     "Proh dolor,Heu ſine te gratia nulla datur."
+    ],
+    "reading": [
+     "Matre procul licta, paulùm secesserat infans",
+     "Lydius: hunc diræ sed rapuistis apes.",
+     "Venerat hic ad vos placidas ratus esse volucres,",
+     "Cùm nec ita inmitis vipera sæva foret.",
+     "Quæ datis ah, dulci stimulos pro munere mellis.",
+     "Proh dolor, Heu sine te gratia nulla datur."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Орнаментальная рамка с маскаронами и фигурами"
+  }
+ ],
+ "errata": [
+  {
+   "printed": "vot",
+   "corrected": "vos",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер «121» вверху справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0796",
+  "D0797",
+  "D0798",
+  "D0799",
+  "D0800"
+ ]
+}

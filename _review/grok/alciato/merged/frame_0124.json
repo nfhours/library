@@ -1,0 +1,77 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 124,
+ "source": "scan/frame_0124.jpg",
+ "page": "118",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In ſtudioſum captum",
+     "Amore."
+    ],
+    "reading": "In studiosum captum Amore."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Учёный сидит среди фигур — женщин и Купидона",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Immerſus ſtudijs,dicundo & iurè peritus,",
+     "Et maximus libellio,",
+     "Helianiran amat,quantùm nec Thracius vnquã",
+     "Princeps ſororis pellicem.",
+     "Pallada cur alio ſuperaſti iudice Cypri?",
+     "Num ſat ſub Ida eſt vincere[?]?"
+    ],
+    "reading": [
+     "Immersus studiis, dicundo & iurè peritus,",
+     "Et maximus libellio,",
+     "Helianiran amat, quantùm nec Thracius unquam",
+     "Princeps sororis pellicem.",
+     "Pallada cur alio superasti iudice Cypri?",
+     "Num sat sub Ida est vincere[?]?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «118» вверху слева. Эпиграмма в смешанном размере (длинные и короткие строки).",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0748",
+  "D0749",
+  "D0750",
+  "D0751",
+  "D0752",
+  "D0753",
+  "D0754",
+  "D0755",
+  "D0756"
+ ],
+ "opus_uncertain_ids": [
+  "D0750",
+  "D0752",
+  "D0754",
+  "D0756"
+ ]
+}

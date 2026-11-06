@@ -1,0 +1,93 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 108,
+ "source": "scan/frame_0108.jpg",
+ "page": "102",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "GVLA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Captiuus ob gulam."
+    ],
+    "reading": "Captivus ob gulam."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Мышь, пойманная створками раскрытой устрицы на морском берегу; вокруг раковины; позади море, скалы, город на берегу.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Regna[?]orq; penus,menſæq; arroſor herilis",
+     "Oſtrea mus ſummis vidit hiulca labris.",
+     "Qu[?]s tenerã apponẽs barbã falſa oſſa momordit,",
+     "Aſt ea clauſérunt tacta repentè domum.",
+     "Deprenſum & tetro tenuérunt carcere furem,",
+     "Semet in obſcurum qui dederat tumulum."
+    ],
+    "reading": [
+     "Regna[?]orque penus, mensæque arrosor herilis",
+     "Ostrea mus summis vidit hiulca labris.",
+     "Qu[?]s teneram apponens barbam falsa ossa momordit,",
+     "Ast ea clausérunt tacta repentè domum.",
+     "Deprensum & tetro tenuérunt carcere furem,",
+     "Semet in obscurum qui dederat tumulum."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «102» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0617",
+  "D0618",
+  "D0619",
+  "D0620",
+  "D0621",
+  "D0622",
+  "D0623",
+  "D0624",
+  "D0625",
+  "D0626",
+  "D0627",
+  "D0628",
+  "D0629",
+  "D0630",
+  "D0631",
+  "D0632",
+  "D0633",
+  "D0634",
+  "D0635",
+  "D0636"
+ ],
+ "opus_uncertain_ids": [
+  "D0617",
+  "D0618",
+  "D0620",
+  "D0621",
+  "D0624",
+  "D0627",
+  "D0628",
+  "D0630",
+  "D0631",
+  "D0634"
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 168,
+ "source": "scan/frame_0168.jpg",
+ "page": "162",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "RESPVBLICA.",
+ "rubric": "RESPVBLICA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Salus publica."
+    ],
+    "reading": "Salus publica."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Змей Эскулапа на алтаре; больные и молящиеся стоят на коленях перед ним; облака",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Phœbigena erectis Epidaurius inſidet aris,",
+     "Mitis,& immani conditur angue Deus.",
+     "Accurrunt ægri,veniatq; ſalutifer orant:",
+     "Annuit,atque ratas efficit ille preces."
+    ],
+    "reading": [
+     "Phœbigena erectis Epidaurius insidet aris,",
+     "Mitis, & immani conditur angue Deus.",
+     "Accurrunt ægri, veniatque salutifer orant:",
+     "Annuit, atque ratas efficit ille preces."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с волютами, маскароном и вазой внизу"
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «162» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t4"
+ ]
+}

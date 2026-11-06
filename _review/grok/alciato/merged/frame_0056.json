@@ -1,0 +1,81 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 56,
+ "source": "scan/frame_0056.jpg",
+ "page": "50",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SPES.",
+ "rubric": "SPES.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Spes proxima."
+    ],
+    "reading": "Spes proxima."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Корабль без мачт/с порванными парусами в бурном море среди волн; вверху слева две звезды (Диоскуры), справа ветер-голова в облаке.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Innumeris agitur reſpub. uoſtra procellis,",
+     "Et ſpes venturę ſola ſalutis adeſt:",
+     "Non ſecus ac nauis medio circum æquore,venti",
+     "Quam rapiunt:ſalſis iamq; fatiſcit aquis.",
+     "Quòd ſi Helenę adueniãt lucẽtia ſydera fratres:",
+     "Amiſſos animos ſpes bona reſtituit."
+    ],
+    "reading": [
+     "Innumeris agitur respub. nostra procellis,",
+     "Et spes venturæ sola salutis adest:",
+     "Non secus ac navis medio circum æquore, venti",
+     "Quam rapiunt: salsis iamque fatiscit aquis.",
+     "Quòd si Helenæ adveniant lucentia sydera fratres:",
+     "Amissos animos spes bona restituit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [
+  {
+   "printed": "uoſtra",
+   "corrected": "noſtra",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер страницы «50» вверху слева. Заголовок локуса «SPES.» курсивными заглавными. Сокращение «reſpub.» с точкой не раскрыто.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0403",
+  "D0404",
+  "D0405",
+  "D0406",
+  "D0407",
+  "D0408",
+  "D0409",
+  "D0410",
+  "D0411",
+  "D0412",
+  "D0413",
+  "D0414"
+ ]
+}

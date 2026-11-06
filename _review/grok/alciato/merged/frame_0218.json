@@ -1,0 +1,56 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 218,
+ "source": "scan/frame_0218.jpg",
+ "page": "212",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "MATRIMONIVM.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Nupta contagioſo."
+    ],
+    "reading": "Nupta contagioso."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Тронный зал: правитель со скипетром на троне, вокруг свита; слева группа людей у входа; внизу — обнажённый пленник, привязанный к сидящей фигуре (мёртвое тело); сцена иллюстрирует жестокость этрусского тирана Мезенция, привязывавшего живых к мёртвым телам.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Dij meliora pijs(Mezenti)cur age ſic me",
+     "Compellas? emptus quòd tibi dote gener.",
+     "Gallica,quem ſcabies dira & mentagra perurit:",
+     "Hoc eſt quidnam aliud(dic mihi ſæue pater)",
+     "Corpora corporibus,quàm iungere mortua viuis,",
+     "Efferaq; Etruſci facta nouare ducis?"
+    ],
+    "reading": [
+     "Dii meliora piis (Mezenti) cur age sic me",
+     "Compellas? emptus quòd tibi dote gener.",
+     "Gallica, quem scabies dira & mentagra perurit:",
+     "Hoc est quidnam aliud (dic mihi sæve pater)",
+     "Corpora corporibus, quàm iungere mortua vivis,",
+     "Efferaque Etrusci facta novare ducis?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «212» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

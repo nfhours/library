@@ -1,0 +1,75 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 172,
+ "source": "scan/frame_0172.jpg",
+ "page": "166",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "MORS.",
+ "rubric": "MORS.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Cum laruis non luctandu[?]m."
+    ],
+    "reading": "Cum larvis non luctandu[?]m."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Мёртвый лев лежит в пейзаже, зайцы теребят его гриву; рядом огонь",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aeacidæ moriens percuſſu cuſpidis Hector:,",
+     "Qui toties hoſtẽis[?] vicerat antè ſuos:",
+     "Comprimere haud potuit vocẽ,inſultantibus illis,",
+     "Dum curru,& pedibus nectere vincla parãt.",
+     "Diſtrahite vt libitum eſt:ſic caſsi luce leonis",
+     "Conuellunt barbam vel timidi lepôres."
+    ],
+    "reading": [
+     "Aeacidæ moriens percussu cuspidis Hector:,",
+     "Qui toties hosteis vicerat antè suos:",
+     "Comprimere haud potuit vocem, insultantibus illis,",
+     "Dum curru, & pedibus nectere vincla parant.",
+     "Distrahite ut libitum est: sic cassi luce leonis",
+     "Convellunt barbam vel timidi lepôres."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с фронтоном, колоннами и маскароном"
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «166» вверху слева. Пятна (чернила/бумага) над рубрикой и в девизе.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0960",
+  "D0961",
+  "D0962",
+  "D0963",
+  "D0964"
+ ],
+ "opus_uncertain_ids": [
+  "D0960",
+  "D0961",
+  "D0962",
+  "D0963"
+ ]
+}

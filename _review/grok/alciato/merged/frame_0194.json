@@ -1,0 +1,52 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 194,
+ "source": "scan/frame_0194.jpg",
+ "page": "188",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "VINDICTA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Alius peccat,alius plectitur."
+    ],
+    "reading": "Alius peccat, alius plectitur."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Человек с палкой замахивается на собаку, лежащую на земле; на заднем плане — полуразрушенное строение, деревья, птицы в небе.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Arripit vt lapidem catulus,morſuq; fatigat,",
+     "Nec percuſsori mutua damna facit.",
+     "Sic plerique ſinunt veros elabier hoſteis.",
+     "Et quos nulla grauat noxia,dente petunt."
+    ],
+    "reading": [
+     "Arripit ut lapidem catulus, morsuque fatigat,",
+     "Nec percussori mutua damna facit.",
+     "Sic plerique sinunt veros elabier hosteis.",
+     "Et quos nulla gravat noxia, dente petunt."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «188» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

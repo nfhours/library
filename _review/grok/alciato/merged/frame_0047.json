@@ -1,0 +1,68 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 47,
+ "source": "scan/frame_0047.jpg",
+ "page": "41",
+ "signature": "C 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTITVDO.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ἀνέχȣ ϗ ἀπέχȣ."
+    ],
+    "reading": "Ἀνέχου καὶ ἀπέχου."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Пастух/погонщик с палкой и в шапке гонит быков; передний бык с большими рогами идёт вправо, за ним стадо; холмы, замок на горе, вверху птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Et toleranda homini triſtis fortuna ferendo eſt,",
+     "Et nimiùm felix ſæpe timenda fuit.",
+     "Suſtine(Epictetus dicebat ) & abſtine.oportet",
+     "Multa pati,illicitis abſq; tenêre manus.",
+     "Sic ducis imperium vinctus fert poplite taurus",
+     "In dextro:ſic ſe continet à grauidis."
+    ],
+    "reading": [
+     "Et toleranda homini tristis fortuna ferendo est,",
+     "Et nimiùm felix sæpe timenda fuit.",
+     "Sustine(Epictetus dicebat) & abstine.oportet",
+     "Multa pati, illicitis absque tenêre manus.",
+     "Sic ducis imperium vinctus fert poplite taurus",
+     "In dextro: sic se continet à gravidis."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «41» вверху справа; сигнатура «C 5» внизу справа (цифра неотчётлива). Девиз греческим шрифтом, лигатуры ȣ (ου) и ϗ (καί).",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0333",
+  "D0334",
+  "D0335",
+  "D0336",
+  "D0337",
+  "D0338",
+  "D0339"
+ ]
+}

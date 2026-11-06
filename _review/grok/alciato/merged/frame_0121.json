@@ -1,0 +1,94 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 121,
+ "source": "scan/frame_0121.jpg",
+ "page": "115",
+ "signature": "H 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": "AMOR.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Potentiſsimus affectus amor."
+    ],
+    "reading": "Potentissimus affectus amor."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Купидон-возница правит колесницей, запряжённой львами",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aſpice vt inuictus vires auriga leonis,",
+     "Expreſſus gemma puſio vincat amor:",
+     "Vtq; manu hac ſcuticã tenet,hac vt flectit habenas:",
+     "Vtq; eſt in pueri pluri[?]us ore decor.",
+     "Dira lues procul eſto:feram qui vin[?]ere talem",
+     "Eſt potis,à nobis temperet ánne manus?"
+    ],
+    "reading": [
+     "Aspice ut invictus vires auriga leonis,",
+     "Expressus gemma pusio vincat amor:",
+     "Utque manu hac scuticam tenet, hac ut flectit habenas:",
+     "Utque est in pueri pluri[?]us ore decor.",
+     "Dira lues procul esto: feram qui vin[?]ere talem",
+     "Est potis, à nobis temperet ánne manus?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под текстом",
+   "description": "Орнаментальная рамка/картуш внизу"
+  }
+ ],
+ "errata": [],
+ "notes": "Страница в орнаментальной рамке. Номер «115» вверху справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0725",
+  "D0726",
+  "D0727",
+  "D0728",
+  "D0729",
+  "D0730",
+  "D0731",
+  "D0732",
+  "D0733",
+  "D0734",
+  "D0735",
+  "D0736",
+  "D0737",
+  "D0738",
+  "D0739",
+  "D0740",
+  "D0741"
+ ],
+ "opus_uncertain_ids": [
+  "D0726",
+  "D0729",
+  "D0730",
+  "D0732",
+  "D0733",
+  "D0736",
+  "D0737",
+  "D0740",
+  "D0741"
+ ]
+}

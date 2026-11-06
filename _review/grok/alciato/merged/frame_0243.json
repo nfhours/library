@@ -1,0 +1,22 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 243,
+ "source": "scan/frame_0243.jpg",
+ "page": null,
+ "signature": null,
+ "catchword": null,
+ "page_type": "blank",
+ "running_head": null,
+ "rubric": null,
+ "emblems": [],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Задняя подклейка/форзац: наклеена бумажная полоса с библиотечными шифрами-пометами («RARE», «N», «7740», «A35», «1551», «84-B», «21052», «INV.#») — владельческие/библиотечные пометы, не транскрибируются дословно как текст книги, только упоминаются.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "assembly-pass",
+ "_runs_used": [
+  "assembly-pass"
+ ]
+}

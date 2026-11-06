@@ -1,0 +1,62 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 68,
+ "source": "scan/frame_0068.jpg",
+ "page": "62",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PERFIDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ei qui ſemel ſua prodegerit,",
+     "aliena credi non",
+     "oportere."
+    ],
+    "reading": "Ei qui semel sua prodegerit, aliena credi non oportere."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Ласточка подлетает к гнезду на стене высокой башни/дома; улица с домами, справа фигура в нише; вдали горы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Colchidos in gremio nidum quid congeris?eheu",
+     "Neſcia cur pullos tam malè credis auis?",
+     "Dira parens Medæa ſuos ſæuiſsima natos",
+     "Perdidit,& ſperas parcat vt illa tuis?"
+    ],
+    "reading": [
+     "Colchidos in gremio nidum quid congeris? eheu",
+     "Nescia cur pullos tam malè credis avis?",
+     "Dira parens Medæa suos sævissima natos",
+     "Perdidit, & speras parcat ut illa tuis?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «62» вверху слева. В строке 2 между «tam» и «malè» пятно-клякса, не знак.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0460",
+  "D0461",
+  "D0462"
+ ]
+}

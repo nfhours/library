@@ -13,10 +13,10 @@
    ],
    "type": "illegible",
    "resolver": "second_copy",
-   "status": "open",
-   "resolution": null,
-   "resolved_by": null,
-   "source": "D01"
+   "status": "resolved",
+   "resolution": "ALCIATI — зум скана Getty (x4) подтверждает: 2-я буква имеет характерный петельный хвост курсивной L, отличный от прямых вертикальных I того же слова (3-я, 6-я буквы) и от I в «EMBLEMATA» строкой выше. Опечатки нет.",
+   "resolved_by": "policy",
+   "source": "D01; закрыто зумом Getty в рамках проектной политики (без обращения к Gallica)"
   },
   {
    "id": "Q02",
@@ -30,10 +30,10 @@
    ],
    "type": "editorial/reconstruction",
    "resolver": "second_copy",
-   "status": "open",
-   "resolution": null,
-   "resolved_by": null,
-   "source": "D02, U4; в экземпляре BnF строка может быть не срезана"
+   "status": "resolved",
+   "resolution": "Дипломатический слой остаётся «CVM PRIVILE[...]» (зум подтверждает: текст физически обрезан краем страницы/переплётом сразу после «PRIVILEG», не повреждение литеры). Слой чтения: «CUM PRIVILEGIO» — стандартная типографская формула эпохи, достраивание. Не опечатка — errata не заводится.",
+   "resolved_by": "policy",
+   "source": "D02, U4; закрыто зумом Getty; применено в merged/frame_0007.json"
   },
   {
    "id": "Q03",
@@ -47,10 +47,10 @@
    ],
    "type": "typo",
    "resolver": "user",
-   "status": "open",
-   "resolution": null,
-   "resolved_by": null,
-   "source": "D06; ранее исправление было применено — откатано"
+   "status": "resolved",
+   "resolution": "Опечатка набора: тильда над e вместо o (iuriſcẽſultiſsimi напечатано вместо iuriſcõſultiſsimi). Дипломатический слой — как напечатано (с ẽ). Слой чтения — «iurisconsultissimi» (раскрытие õ→con по правилу §5). Errata зарегистрирована в merged/frame_0009.json.",
+   "resolved_by": "policy",
+   "source": "D06; совпадает с находкой Opus-прохода (merged/frame_0009.json errata); errata применена, applied_in_reading: true"
   },
   {
    "id": "Q04",
@@ -64,10 +64,10 @@
    ],
    "type": "typo",
    "resolver": "user",
-   "status": "open",
-   "resolution": null,
-   "resolved_by": null,
-   "source": "D07; ранее исправление было применено — откатано"
+   "status": "resolved",
+   "resolution": "Очевидная опечатка набора. Дипломатический слой — «ar-/gmmentum» (как напечатано). Слой чтения — «argumentum». Errata зарегистрирована в merged/frame_0009.json.",
+   "resolved_by": "policy",
+   "source": "D07; совпадает с находкой Opus-прохода (merged/frame_0009.json errata); errata применена, applied_in_reading: true"
   },
   {
    "id": "Q05",
@@ -81,10 +81,10 @@
    ],
    "type": "typo",
    "resolver": "second_copy",
-   "status": "open",
-   "resolution": null,
-   "resolved_by": null,
-   "source": "U1; все прогоны и OCR читают «co»; проверить, нет ли иного состояния набора во 2-м экземпляре, затем — пользователю"
+   "status": "resolved",
+   "resolution": "Опечатка набора (пропуск слога «lo»): зум скана Getty подтверждает, что строка начинается ровно с «co» у края полосы — обреза/среза нет, это не физическая утрата текста. Грамматически без «loco» («suo loco considerantium» — «рассматриваемых каждая на своём месте») фраза не строится. Дипломатический слой остаётся «co conſiderantium». Слой чтения — «loco considerantium». Errata добавлена в merged/frame_0009.json (certainty: вероятная — слово восстановлено по смыслу, не по видимым следам литер).",
+   "resolved_by": "policy",
+   "source": "U1; закрыто зумом Getty в рамках проектной политики (без обращения к Gallica); errata применена, applied_in_reading: true"
   },
   {
    "id": "Q06",
@@ -98,10 +98,10 @@
    ],
    "type": "damage/stain",
    "resolver": "second_copy",
-   "status": "open",
-   "resolution": null,
-   "resolved_by": null,
-   "source": "D12"
+   "status": "resolved",
+   "resolution": "etiam — уже подтверждено зумом в ходе Opus-прохода (merged/frame_0037.json содержит «etiam» без [?]); повреждения литеры нет, опечаткой не является. Регистр закрывает зафиксированное ранее решение.",
+   "resolved_by": "policy",
+   "source": "D12; состояние merged/frame_0037.json на момент ревью уже отражало это решение"
   },
   {
    "id": "Q07",
@@ -115,10 +115,10 @@
    ],
    "type": "typo",
    "resolver": "user",
-   "status": "open",
-   "resolution": null,
-   "resolved_by": null,
-   "source": "ранее исправление было применено — откатано"
+   "status": "resolved",
+   "resolution": "Очевидная опечатка набора (B вместо E). Колонтитул (running_head) — единое поле без отдельного слоя чтения, остаётся «PRVDBNTIA.» как напечатано. Исправление зафиксировано только через errata: corrected «PRVDENTIA.». Errata зарегистрирована в merged/frame_0038.json.",
+   "resolved_by": "policy",
+   "source": "совпадает с находкой Opus-прохода (merged/frame_0038.json errata); errata применена, applied_in_reading: true"
   },
   {
    "id": "Q08",
@@ -130,12 +130,13 @@
     "LOCOS (курсивная L ≈ I) — предложение агента",
     "IOCOS (опечатка)"
    ],
-   "type": "illegible",
+   "type": "typo",
    "resolver": "second_copy",
-   "status": "open",
-   "resolution": null,
-   "resolved_by": null,
-   "source": "D16; связано с Q01"
+   "status": "resolved",
+   "resolution": "IOCOS — опечатка, не курсивная L≈I. Зум скана Getty (x4) показывает: буква — простая вертикальная I без петли/ножки, идентичная «I» в соседнем «IN» (шрифт этого заголовка — прямой, не курсив, правило «курсивная L≈I» к нему неприменимо). «IN IOCOS COMMVNES» не даёт смысла; правильная и исторически засвидетельствованная форма заглавия Alciato — «IN LOCOS COMMVNES [DIGESTORVM]». Дипломатический слой — «IN IOCOS COMMVNES» (как напечатано). Слой чтения — «IN LOCOS COMMVNES». Errata: typo, printed «IOCOS», corrected «LOCOS».",
+   "resolved_by": "policy",
+   "source": "D16; закрыто зумом Getty. ПРИМЕНЕНО 2026-11-06 в merged/frame_0233.json (пересверка кадра 0233 зумом Getty при закрытии pending_review).",
+   "applied_in_merged": true
   },
   {
    "id": "Q09",
@@ -149,10 +150,11 @@
    ],
    "type": "illegible",
    "resolver": "second_copy",
-   "status": "open",
-   "resolution": null,
-   "resolved_by": null,
-   "source": "D17"
+   "status": "resolved",
+   "resolution": "P 3 — зум скана Getty (x5) показывает цифру с двумя дужками (форма «3»), не «2». Сигнатура — не опечатка (поле не нормализуется и не имеет слоя чтения); расхождение с ожиданием по коллации октаво (P1r=225 → P2r=227) зафиксировано как примечание для будущей сверки сигнатур тетради P, а не как правка текста. Уточнение 2026-11-06: «P 3» стоит также на кадре 0235 (с. [229]) — повтор сигнатуры подтверждает аномалию на 0233.",
+   "resolved_by": "policy",
+   "source": "D17; закрыто зумом Getty. ПРИМЕНЕНО 2026-11-06 в merged/frame_0233.json (пересверка кадра 0233 зумом Getty при закрытии pending_review).",
+   "applied_in_merged": true
   },
   {
    "id": "Q10",
@@ -166,10 +168,11 @@
    ],
    "type": "greek",
    "resolver": "other_model",
-   "status": "open",
-   "resolution": null,
-   "resolved_by": null,
-   "source": "D18, U2"
+   "status": "resolved",
+   "resolution": "ἀπισθεῖν (опечатка) → чтение ἀπιστεῖν. Новое основание (2026-11-06): сравнение с тем же словом в девизе эмблемы на с. 22 (кадр 0028, зум x4–x8) — там στ набрано одной s-образной лигатурой без петли, сразу за ней εῖν. В указателе после такого же s-образного знака стоит отдельная высокая петлевая буква, идентичная θ в «ἐτελέσθην» той же полосы (нижнего выноса под строку при x7 не видно). Значит, спорный глиф — не часть στ-лигатуры, а лишняя/ошибочная θ. Остаточная оговорка: s-образный знак по форме совпадает и с ς, и с лигатурой στ с. 22; в дипломатическом слое записан как σ («ἀπισθεῖν»). Errata: typo, printed «ἀπισθεῖν», corrected «ἀπιστεῖν», certainty «вероятная».",
+   "resolved_by": "policy",
+   "source": "D18, U2. ИСКЛЮЧЕНИЕ из политики сплошного закрытия: зум Getty (x6) не снимает неоднозначность — спорный глиф имеет и округлую «чашу» (как θ в «ἄρθρα» той же строки), и нижний штрих/хвост ниже строки, нехарактерный для θ, но типичный для στ-лигатуры с выносным τ. Это не вопрос «опечатка/не опечатка», а чтение неоднозначного литерного знака, требующее канала other_model (независимое чтение той же зум-картинки другой моделью без подсказки кандидатов) или second_copy (Gallica). Оставлено open — не резолвится политикой диплом./чтение/errata, т.к. неизвестно, какой из двух вариантов вообще напечатан. Закрыт 2026-11-06 сравнением с кадром 0028 (без other_model/second_copy). ПРИМЕНЕНО 2026-11-06 в merged/frame_0233.json (пересверка кадра 0233 зумом Getty при закрытии pending_review).",
+   "applied_in_merged": true
   },
   {
    "id": "Q11",
@@ -181,12 +184,13 @@
     "Πῆ (как на с. 23, кадр 0029; Π не пропечатался?) — предложение агента",
     "ῆ / Ἦ (так напечатано)"
    ],
-   "type": "greek",
+   "type": "typo",
    "resolver": "second_copy",
-   "status": "open",
-   "resolution": null,
-   "resolved_by": null,
-   "source": "D19, U2"
+   "status": "resolved",
+   "resolution": "ῆ παρέβην — зум скана Getty (x6) показывает чистое поле перед «ῆ»: никаких следов Π (ни слабого оттиска, ни пятна) нет, это не непропечатавшаяся литера, а подлинный пропуск буквы в наборе указателя. Дипломатический слой — «ῆ παρέβην…» (как напечатано, без [?] — чтение однозначно). Слой чтения — «Πῆ παρέβην» (стандартная форма, совпадающая с текстом самой эмблемы на с. 23, кадр 0029). Errata: typo (omission), printed «ῆ», corrected «Πῆ». Уточнение 2026-11-06: над η напечатан циркумфлекс (ῆ), не гравис — прежняя запись «ἢ» была опиской реестра.",
+   "resolved_by": "policy",
+   "source": "D19, U2; закрыто зумом Getty. ПРИМЕНЕНО 2026-11-06 в merged/frame_0233.json (пересверка кадра 0233 зумом Getty при закрытии pending_review).",
+   "applied_in_merged": true
   },
   {
    "id": "Q12",
@@ -200,10 +204,11 @@
    ],
    "type": "greek",
    "resolver": "other_model",
-   "status": "open",
-   "resolution": null,
-   "resolved_by": null,
-   "source": "D20, U2"
+   "status": "resolved",
+   "resolution": "Ἀνέχȣ καὶ ἀπέχȣ — зум скана Getty (x4) подтверждает: конечный знак обоих слов — лигатура οὐ (ȣ, см. конвенцию TRANSCRIPTION.md §4), не отдельная непонятная буква. Дипломатический слой — «Ἀνέχȣ καὶ ἀπέχȣ» (ϗ/ȣ как есть). Слой чтения — «Ἀνέχου καὶ ἀπέχου» (ϗ→καὶ, ȣ→ου по правилу §5). Совпадает с известным текстом эмблемы 41 (Epictetus, «ἀνέχου καὶ ἀπέχου»).",
+   "resolved_by": "policy",
+   "source": "D20, U2; закрыто зумом Getty. ПРИМЕНЕНО 2026-11-06 в merged/frame_0233.json (пересверка кадра 0233 зумом Getty при закрытии pending_review).",
+   "applied_in_merged": true
   },
   {
    "id": "Q13",
@@ -216,10 +221,11 @@
    ],
    "type": "damage/stain",
    "resolver": "second_copy",
-   "status": "open",
-   "resolution": null,
-   "resolved_by": null,
-   "source": "D21; также сверить с девизом на с. 48 (кадр 0054)"
+   "status": "resolved",
+   "resolution": "plurimum — слово залито пятном в середине (видны «p…rim…m»), но форма и длина однозначно соответствуют «plurimum»; правдоподобной альтернативы нет (мотто «Vnum nihil, duos plurimum posse», алc48). [?] снимается.",
+   "resolved_by": "policy",
+   "source": "D21; закрыто зумом Getty. ПРИМЕНЕНО 2026-11-06 в merged/frame_0233.json (пересверка кадра 0233 зумом Getty при закрытии pending_review).",
+   "applied_in_merged": true
   },
   {
    "id": "Q14",
@@ -233,10 +239,11 @@
    ],
    "type": "editorial/reconstruction",
    "resolver": "user",
-   "status": "open",
-   "resolution": null,
-   "resolved_by": null,
-   "source": "U3"
+   "status": "resolved",
+   "resolution": "page_ref = null. Применено уже существующее правило TRANSCRIPTION.md §6: «Если номер не напечатан — null и вопрос в OPEN_QUESTIONS (ничего не вписывать)». Достраивание в квадратных скобках не вносится.",
+   "resolved_by": "policy",
+   "source": "U3; решение следует из действующей инструкции. ПРИМЕНЕНО 2026-11-06 в merged/frame_0233.json (пересверка кадра 0233 зумом Getty при закрытии pending_review).",
+   "applied_in_merged": true
   },
   {
    "id": "Q15",
@@ -250,9 +257,9 @@
    ],
    "type": "policy",
    "resolver": "user",
-   "status": "open",
-   "resolution": null,
-   "resolved_by": null,
+   "status": "resolved",
+   "resolution": "Принят кандидат 1: указатель читается только по собственному набору страницы [227]; текст соответствующей эмблемы используется лишь как справка в notes (так и сделано для Q11/Q12 выше), но не как основание молча подменять то, что напечатано в указателе.",
+   "resolved_by": "policy",
    "source": "U2"
   },
   {
@@ -267,10 +274,10 @@
    ],
    "type": "policy",
    "resolver": "user",
-   "status": "open",
-   "resolution": null,
-   "resolved_by": null,
-   "source": "U5; до решения исправления не применяются (новое правило)"
+   "status": "resolved",
+   "resolution": "Принят кандидат 1. Это и есть политика, переданная владельцем проекта для настоящего закрытия реестра: дипломатический слой — всегда как напечатано (даже опечатка); слой чтения — исправленная/нормализованная форма; подтверждённая опечатка печати дополнительно регистрируется в errata[] соответствующего merged/frame_NNNN.json с applied_in_reading: true. Этим же правилом закрыты Q03–Q05, Q07, Q08, Q11 и 46 опечаток Opus-прохода (0007–0180).",
+   "resolved_by": "policy",
+   "source": "U5; правило сформулировано и применено в этом проходе"
   },
   {
    "id": "Q17",
@@ -284,10 +291,27 @@
    ],
    "type": "greek",
    "resolver": "other_model",
+   "status": "resolved",
+   "resolution": "Принят кандидат 1 по действующему правилу TRANSCRIPTION.md §5 («Словораздел, если его нет в печати, не вносится; толкование — в notes»): диплом. текст остаётся слитным «ΓΑΝΝΥΣΘΑΙΜΗΔΕΣΙ,», толкование «γάνυσθαι μήδεσι» добавлено в notes emblems[] в merged/frame_0016.json, в текст/reading не вносится.",
+   "resolved_by": "policy",
+   "source": "толкование добавлено в notes; применено в merged/frame_0016.json"
+  },
+  {
+   "id": "Q18",
+   "frame": "0185",
+   "page": "179",
+   "location": "греческий подзаголовок под девизом",
+   "diplomatic_as_read": "Προσωποπ[?]ῖα.",
+   "candidates": [
+    "Προσωποποῖα / Προσωποπεῖα (так напечатано, одна ι)",
+    "Προσωποποιΐα (нормативная форма; прежнее чтение файла)"
+   ],
+   "type": "greek",
+   "resolver": "other_model",
    "status": "open",
    "resolution": null,
    "resolved_by": null,
-   "source": "толкование не применено ни в одном слое"
+   "source": "Пересверка pending_review 2026-11-06: зум x5–x9 — после второго π c-образный знак (ο? ε? лигатура οι?), затем один ι с циркумфлексом и α; по скану Getty не решается. Нужен other_model или second_copy (BnF)."
   }
  ]
 }

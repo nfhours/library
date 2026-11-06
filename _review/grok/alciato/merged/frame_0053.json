@@ -1,0 +1,80 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 53,
+ "source": "scan/frame_0053.jpg",
+ "page": "47",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "CONCORDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Concordia inſupe-",
+     "rabilis."
+    ],
+    "reading": "Concordia insuperabilis."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Трёхтелый великан Герион в короне: одна голова, три пары рук — держит копьё, меч и щит; на фоне море с кораблями, скалы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Tergeminos inter fuerat concordia fratret.",
+     "Tanta ſimul pietas mutna,& vnus amor:",
+     "Inuicti humanis vt viribus ampla tenerent",
+     "Regna,vno dicti nomine Geryonis."
+    ],
+    "reading": [
+     "Tergeminos inter fuerat concordia fratres.",
+     "Tanta simul pietas mutua, & unus amor:",
+     "Invicti humanis ut viribus ampla tenerent",
+     "Regna, uno dicti nomine Geryonis."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [
+  {
+   "printed": "fratret",
+   "corrected": "fratres",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  },
+  {
+   "printed": "mutna",
+   "corrected": "mutua",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер страницы «47» вверху справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0380",
+  "D0381",
+  "D0382",
+  "D0383",
+  "D0384",
+  "D0385",
+  "D0386"
+ ]
+}

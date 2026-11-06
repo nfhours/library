@@ -1,0 +1,22 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 6,
+ "source": "scan/frame_0006.jpg",
+ "page": null,
+ "signature": null,
+ "catchword": null,
+ "page_type": "blank",
+ "running_head": null,
+ "rubric": null,
+ "emblems": [],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Чистый лист форзаца (оборот), без текста; слабо просвечивает печать со следующего листа (кадр 0007, титул) через бумагу.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "assembly-pass",
+ "_runs_used": [
+  "assembly-pass"
+ ]
+}

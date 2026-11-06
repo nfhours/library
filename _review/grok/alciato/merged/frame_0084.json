@@ -1,0 +1,83 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 84,
+ "source": "scan/frame_0084.jpg",
+ "page": "78",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SVPERBIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Garrulitas."
+    ],
+    "reading": "Garrulitas."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Ласточка влетает в окно дома/хижины под крышей; справа восходящее солнце с лучами; деревья.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quid matutiuos Progne[?] mihi garrula ſomnos",
+     "Rumpis? & obſtrepero Daulias ore canis?",
+     "Dignus Epops Tereus,qui maluit enſe putare,",
+     "Quàm linguam immodicam ſtripitùs eruere."
+    ],
+    "reading": [
+     "Quid matutinos Progne[?] mihi garrula somnos",
+     "Rumpis? & obstrepero Daulias ore canis?",
+     "Dignus Epops Tereus, qui maluit ense putare,",
+     "Quàm linguam immodicam stripitùs eruere."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [
+  {
+   "printed": "matutiuos",
+   "corrected": "matutinos",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер страницы «78» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0521",
+  "D0522",
+  "D0523",
+  "D0524",
+  "D0525",
+  "D0526",
+  "D0527",
+  "D0528",
+  "D0529",
+  "D0530",
+  "D0531",
+  "D0532",
+  "D0533",
+  "D0534"
+ ],
+ "opus_uncertain_ids": [
+  "D0523",
+  "D0530"
+ ]
+}

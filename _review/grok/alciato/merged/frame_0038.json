@@ -1,0 +1,112 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 38,
+ "source": "scan/frame_0038.jpg",
+ "page": "32",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem_continuation",
+ "running_head": "PRVDBNTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": null,
+   "epigram": {
+    "diplomatic": [
+     "Muneribus quandoque meis ſi parcere diſces",
+     "Iunior,& forti pectore ſemper eris.",
+     "Tympana nõ manibus,capiti non cornua deſunt.",
+     "Quos(niſi dementeis)talia ſigna decent?",
+     "Hoc doceo,noſtro quòd abuſus munere ſumit",
+     "Cornua:& inſanus mollia ſiſtra quatit.",
+     "Quid vult ille color membris penè igneus?(omen",
+     "Abſit ) an humanis vreris ipſe focis?",
+     "Cùm Semeles de vẽtre parens me fulmine traxit",
+     "Igniuomo:infectum puluere merſit aquis.",
+     "Hinc ſapit hic,liquidis qui nos bene diluit vndis:",
+     "Qui non ardenti torret ab igne iecur.",
+     "Sed nunc me doceas quî vis miſcerier? & qua",
+     "Te ſanus tutum prendere lege queat?",
+     "Quadrãtem addat aquæ,calicẽ ſumpſiſſe falerni",
+     "Qui cupit.hoc fumi pocula more iuuat.",
+     "Stes intra heminas:nam qui procedere tendit",
+     "Vltrà:alacer,ſed mox ebrius inde furit.",
+     "Res dura hæc nimiùm.ſunt pẽdula guttura,dulce",
+     "Tu fluis.Heu facilè commoda nulla cadunt."
+    ],
+    "reading": [
+     "Muneribus quandoque meis si parcere disces",
+     "Iunior, & forti pectore semper eris.",
+     "Tympana non manibus, capiti non cornua desunt.",
+     "Quos(nisi dementeis)talia signa decent?",
+     "Hoc doceo, nostro quòd abusus munere sumit",
+     "Cornua: & insanus mollia sistra quatit.",
+     "Quid vult ille color membris penè igneus? (omen",
+     "Absit) an humanis ureris ipse focis?",
+     "Cùm Semeles de ventre parens me fulmine traxit",
+     "Ignivomo: infectum pulvere mersit aquis.",
+     "Hinc sapit hic, liquidis qui nos bene diluit undis:",
+     "Qui non ardenti torret ab igne iecur.",
+     "Sed nunc me doceas quî vis miscerier? & qua",
+     "Te sanus tutum prendere lege queat?",
+     "Quadrantem addat aquæ, calicem sumpsisse falerni",
+     "Qui cupit.hoc sumi pocula more iuvat.",
+     "Stes intra heminas: nam qui procedere tendit",
+     "Ultrà: alacer, sed mox ebrius inde furit.",
+     "Res dura hæc nimiùm.sunt pendula guttura, dulce",
+     "Tu fluis.Heu facilè commoda nulla cadunt."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под текстом",
+   "description": "Картуш-заставка с рогатым маскароном и завитками"
+  }
+ ],
+ "errata": [
+  {
+   "printed": "PRVDBNTIA.",
+   "corrected": "PRVDENTIA.",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  },
+  {
+   "printed": "fumi",
+   "corrected": "sumi",
+   "certainty": "вероятная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер страницы «32» вверху слева. Колонтитул напечатан «PRVDBNTIA.» (B вместо E). Продолжение диалогизма «In statuam Bacchi» с кадра 0037. Q07 резолюция (policy): опечатка в колонтитуле PRVDBNTIA. подтверждена зумом; errata зарегистрирована (PRVDENTIA.).",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0282",
+  "D0283",
+  "D0284",
+  "D0285",
+  "D0286",
+  "D0287",
+  "D0288",
+  "D0289",
+  "D0290",
+  "D0291",
+  "D0292",
+  "D0293"
+ ]
+}

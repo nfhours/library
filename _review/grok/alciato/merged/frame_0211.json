@@ -1,0 +1,56 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 211,
+ "source": "scan/frame_0211.jpg",
+ "page": "205",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "MATRIMONIVM.",
+ "rubric": "MATRIMONIVM.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In fidem vxoriam."
+    ],
+    "reading": "In fidem uxoriam."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Мужчина и женщина сидят рядом, соединив правые руки; у их ног резвится собачка; на заднем плане руины построек, холмы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Ecce puella,viro quæ dextra iungitur.Ecce",
+     "Vt ſedet:vt catulus luſitat ante pedes?",
+     "Hæc fidei eſt ſpecies:Veneris quã ſi educat ardor,",
+     "Malorum in læua non malè ramus erit.",
+     "Poma etenim Veneris ſunt,ſic Scheneida vicit",
+     "Hippomenes.petijt ſic Galathea virum."
+    ],
+    "reading": [
+     "Ecce puella, viro quæ dextra iungitur. Ecce",
+     "Ut sedet: ut catulus lusitat ante pedes?",
+     "Hæc fidei est species: Veneris quam si educat ardor,",
+     "Malorum in læva non malè ramus erit.",
+     "Poma etenim Veneris sunt, sic Scheneida vicit",
+     "Hippomenes. petiit sic Galathea virum."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "«MATRIMONIVM.» — начало нового раздела книги."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «205» вверху справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

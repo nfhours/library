@@ -1,0 +1,74 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 51,
+ "source": "scan/frame_0051.jpg",
+ "page": "45",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "CONCORDIA.",
+ "rubric": "CONCORDIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Concordiæ Symbolum."
+    ],
+    "reading": "Concordiæ Symbolum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Две вороны сидят на краях саркофага/алтаря (с маской-головой на передней стенке), между ними обелиск со скипетром; сверху летят ещё вороны; по сторонам арки и руины.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Cornicum mira inter ſe concordia vitæ eſt,",
+     "Nutua ſtatq; illis intemerata fides.",
+     "Hinc volucres hæc ſceptra gerũt:ꝙ ſcilicet omnes",
+     "Conſenſu populi ſtantq;,caduntq; duces:",
+     "Quem ſi de medio tollas,diſcordia præceps",
+     "Aduolat,& ſecum regia fata trahit."
+    ],
+    "reading": [
+     "Cornicum mira inter se concordia vitæ est,",
+     "Mutua statque illis intemerata fides.",
+     "Hinc volucres hæc sceptra gerunt: quod scilicet omnes",
+     "Consensu populi stantque, caduntque duces:",
+     "Quem si de medio tollas, discordia præceps",
+     "Advolat, & secum regia fata trahit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [
+  {
+   "printed": "Nutua",
+   "corrected": "Mutua",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер страницы «45» вверху справа. Заголовок локуса «CONCORDIA.» курсивными заглавными. После девиза справа — чернильная точка/пятно (не знак).",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0365",
+  "D0366",
+  "D0367",
+  "D0368",
+  "D0369"
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 187,
+ "source": "scan/frame_0187.jpg",
+ "page": "181",
+ "signature": "M 3",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HOSTILITAS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Εχθρῶν ἄδωρα δῶρα, In dona",
+     "hoſtium."
+    ],
+    "reading": "Εχθρῶν ἄδωρα δῶρα, In dona hostium."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Два воина в доспехах друг против друга: слева протягивает меч рукоятью вперёд, справа принимает перевязь/пояс; на земле между ними лежит тело; на заднем плане — палатки лагеря, копья, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Bellorum cœpiſſe ferunt monumenta vicissim",
+     "Scutiferum Aiacem,Hectoraq; Iliacum.",
+     "Balthea Priamides,rigidũ Thelamonius enſem,",
+     "Inſtrumenta ſuæ cœpit vterque necis.",
+     "Enſis enim Aiacem cõfecit,at Hectora functum",
+     "Traxêre Æmonijs cingula nexa rotis.",
+     "Sic titulo obſequij,quæ mittunt hoſtibus hoſtes",
+     "Munera,venturi præſcia fata ferunt."
+    ],
+    "reading": [
+     "Bellorum cœpisse ferunt monumenta vicissim",
+     "Scutiferum Aiacem, Hectoraque Iliacum.",
+     "Balthea Priamides, rigidum Thelamonius ensem,",
+     "Instrumenta suæ cœpit uterque necis.",
+     "Ensis enim Aiacem confecit, at Hectora functum",
+     "Traxêre Æmoniis cingula nexa rotis.",
+     "Sic titulo obsequii, quæ mittunt hostibus hostes",
+     "Munera, venturi præscia fata ferunt."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Последняя строка: «fata» — зум x4: третья буква слова — короткое t с слабо пропечатанным верхом, без плечика, характерного для r этого курсива (ср. r в «præſcia», «ferunt»); прежнее «fara» и errata сняты — опечатки нет."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «181» вверху справа. Сигнатура «M 3» внизу справа, под рамкой. Греческий девиз «Εχθρῶν ἄδωρα δῶρα,» (Софокл, «Аякс», 665) проверен зумом x3: придыхание над начальной Ε не видно (дипломатически без него), ἄδωρα — придыхание+акут, δῶρα — циркумфлекс, после δῶρα запятая. Слой чтения греческого не нормализуется (§5), поэтому также без придыхания.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

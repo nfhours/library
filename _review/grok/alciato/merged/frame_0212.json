@@ -1,0 +1,57 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 212,
+ "source": "scan/frame_0212.jpg",
+ "page": "206",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "MATRIMONIVM.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Reuerentiam in matrimonio",
+     "requiri."
+    ],
+    "reading": "Reverentiam in matrimonio requiri."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Змея (гадюка) на берегу у воды, в воде — морской угорь (мурена); на заднем плане холмы, замок на возвышенности, деревья.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Cùm furit in Venerem:pelagi ſe in littore ſiſtit",
+     "Vipera:& ab ſtomacho dira venena vomit.",
+     "Murænamq; ciens,ingentia ſibila tollit,",
+     "At ſubitò amplexus appetit illa viri.",
+     "Maxima debetur thalamo reuerentia,coniunx",
+     "Alternum debet coniugi & obſequium."
+    ],
+    "reading": [
+     "Cùm furit in Venerem: pelagi se in littore sistit",
+     "Vipera: & ab stomacho dira venena vomit.",
+     "Murænamque ciens, ingentia sibila tollit,",
+     "At subitò amplexus appetit illa viri.",
+     "Maxima debetur thalamo reverentia, coniunx",
+     "Alternum debet coniugi & obsequium."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «206» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

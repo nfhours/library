@@ -1,0 +1,56 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 123,
+ "source": "scan/frame_0123.jpg",
+ "page": "117",
+ "signature": "H 3",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Vis amoris."
+    ],
+    "reading": "Vis amoris."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Крылатый Купидон ломает молнию; сверху огненный дождь",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aligerum fulmen fregit Deus aliger,igne",
+     "Dum demonſtrat vti eſt fortior ignis amor."
+    ],
+    "reading": [
+     "Aligerum fulmen fregit Deus aliger, igne",
+     "Dum demonstrat uti est fortior ignis amor."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под эпиграммой",
+   "description": "Картуш с маскаронами и фигурами (морские божества/тритоны)"
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «117» вверху справа. Страница в орнаментальной рамке.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ]
+}

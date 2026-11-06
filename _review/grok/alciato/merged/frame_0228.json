@@ -1,0 +1,52 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 228,
+ "source": "scan/frame_0228.jpg",
+ "page": "222",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "ARBORES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Buxus."
+    ],
+    "reading": "Buxus."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Самшит — вечнозелёное деревце с мелкими листьями; корни прорисованы у земли.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Perpetuò viridis,criſpoq; cacumine buxus,",
+     "Vnde eſt diſparibus fiſtula facta modis,",
+     "Delitijs apta eſt teneris,& amantibus arbor.",
+     "Pallor ineſt illi,pallet & omnis amans."
+    ],
+    "reading": [
+     "Perpetuò viridis, crispoque cacumine buxus,",
+     "Unde est disparibus fistula facta modis,",
+     "Deliciis apta est teneris, & amantibus arbor.",
+     "Pallor inest illi, pallet & omnis amans."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «222» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

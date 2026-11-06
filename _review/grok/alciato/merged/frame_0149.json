@@ -1,0 +1,77 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 149,
+ "source": "scan/frame_0149.jpg",
+ "page": "143",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": "HONOR.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ex arduis perpetuum no men."
+    ],
+    "reading": "Ex arduis perpetuum no men."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Змей на платане пожирает птенцов; у алтаря с огнём жертвоприносящие (Калхас)",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Crediderat platani ramis ſua pignora pa ſſer,",
+     "Et bene:ni ſæuo viſa dracone fore nt.",
+     "Glutijt hic pullos omnes,miſeramq; parentem",
+     "Saxeus,& tali dignus obire nece.",
+     "Hæc,niſi mentitur Calchas,monumenta laboris",
+     "Sunt longi,cuius fama perennis ea[?]t."
+    ],
+    "reading": [
+     "Crediderat platani ramis sua pignora pa sser,",
+     "Et bene: ni sævo visa dracone fore nt.",
+     "Glutiit hic pullos omnes, miseramque parentem",
+     "Saxeus, & tali dignus obire nece.",
+     "Hæc, nisi mentitur Calchas, monumenta laboris",
+     "Sunt longi, cuius fama perennis ea[?]t."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Орнаментальная рамка с фигурами и колесницами внизу"
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «143» вверху справа. Сигнатуры нет.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0900",
+  "D0901",
+  "D0902",
+  "D0903",
+  "D0904",
+  "D0905",
+  "D0906",
+  "D0907"
+ ],
+ "opus_uncertain_ids": [
+  "D0902",
+  "D0905"
+ ]
+}

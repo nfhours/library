@@ -1,0 +1,91 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 119,
+ "source": "scan/frame_0119.jpg",
+ "page": "113",
+ "signature": "H",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "ASTROLOGIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In Aſtrologos."
+    ],
+    "reading": "In Astrologos."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Икар падает с неба вниз головой в море; вверху слева солнце с лицом и лучами; внизу море с кораблями, скалы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "I[?]care per ſúperos qui raptus & aëra,donec",
+     "In mare præcipitem cæra liquata daret,",
+     "Nunc te cæra eadem,feruenſq; exuſcitat ignis,",
+     "Exemplo vt doceas dogmata certa tuo.",
+     "Aſtrologus caueat quicquam prędicere.præceps",
+     "Nam eade[?] impoſtor,dum ſuper aſtra volat."
+    ],
+    "reading": [
+     "I[?]care per súperos qui raptus & aëra, donec",
+     "In mare præcipitem cæra liquata daret,",
+     "Nunc te cæra eadem, fervensque exuscitat ignis,",
+     "Exemplo ut doceas dogmata certa tuo.",
+     "Astrologus caveat quicquam prædicere.præceps",
+     "Nam eade[?] impostor, dum super astra volat."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «113» вверху справа; сигнатура «H» внизу справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0705",
+  "D0706",
+  "D0707",
+  "D0708",
+  "D0709",
+  "D0710",
+  "D0711",
+  "D0712",
+  "D0713",
+  "D0714",
+  "D0715",
+  "D0716",
+  "D0717",
+  "D0718",
+  "D0719",
+  "D0720",
+  "D0721",
+  "D0722"
+ ],
+ "opus_uncertain_ids": [
+  "D0705",
+  "D0707",
+  "D0708",
+  "D0710",
+  "D0713",
+  "D0714",
+  "D0716",
+  "D0717",
+  "D0719",
+  "D0722"
+ ]
+}

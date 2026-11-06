@@ -1,0 +1,64 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 191,
+ "source": "scan/frame_0191.jpg",
+ "page": "185",
+ "signature": "M 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "VINDICTA.",
+ "rubric": "VINDICTA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Iuſta vindicta."
+    ],
+    "reading": "Iusta vindicta."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Циклоп — слепой бородатый старик с посохом — сидит среди скал с овцами и козами; позади него юноша с копьём, направленным к его лицу; справа море.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Dum reſidet Cyclops ſinuoſi in faucibus antri,",
+     "Hæc ſecum teneras concinit inter oues.",
+     "Paſcite vos herbas:ſocijs ego paſcar Achiuis,",
+     "Poſtremumq; Vt in viſcera noſtra ferent.",
+     "Audijt hæc Itachus,Cyclopaq; lumine caſſum",
+     "Reddidit.En pœnas vt ſuus author habet?"
+    ],
+    "reading": [
+     "Dum residet Cyclops sinuosi in faucibus antri,",
+     "Hæc secum teneras concinit inter oves.",
+     "Pascite vos herbas: sociis ego pascar Achivis,",
+     "Postremumque ut in viscera nostra ferent.",
+     "Audiit hæc Ithacus, Cyclopaque lumine cassum",
+     "Reddidit. En pœnas ut suus author habet?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "«Itachus» напечатано (зум x1.5: буквы t-a-c-h однозначны) вместо «Ithacus» (Улисс) — подтверждённая опечатка набора; в дипломатическом слое как напечатано, в слое чтения исправлено (errata)."
+  }
+ ],
+ "ornaments": [],
+ "errata": [
+  {
+   "printed": "Itachus",
+   "corrected": "Ithacus",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "Перестановка букв; по смыслу — «Итакиец» (Улисс). Resolved 2026-11-06 (Opus zoom pass on Getty scan, pending_review cleanup). resolved_by: policy"
+  }
+ ],
+ "notes": "Номер страницы «185» вверху справа. Сигнатура «M 5» внизу справа, под рамкой. «VINDICTA.» — начало нового раздела книги (колонтитул и заголовок внутри полосы совпадают).",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

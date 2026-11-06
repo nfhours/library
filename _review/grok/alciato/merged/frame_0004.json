@@ -1,0 +1,22 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 4,
+ "source": "scan/frame_0004.jpg",
+ "page": null,
+ "signature": null,
+ "catchword": null,
+ "page_type": "blank",
+ "running_head": null,
+ "rubric": null,
+ "emblems": [],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Чистый лист форзаца (бумага без водяных знаков на виду), фоксинг; текста нет.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "assembly-pass",
+ "_runs_used": [
+  "assembly-pass"
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 92,
+ "source": "scan/frame_0092.jpg",
+ "page": "86",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "LVXVRIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Inuiolabiles telo Cupidinis."
+    ],
+    "reading": "Inviolabiles telo Cupidinis."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Птица (вертишейка) с распростёртыми крыльями, распятая на круге-колесе с четырьмя спицами (армиллярная сфера); фон — море, берег, восходящее солнце с лучами, птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Ne dirus te vincat amor,neu fœmina mentem",
+     "Diripiat magieis artibus vlla tuam:",
+     "Bacchica auis præſto tibi motacilla paretur,",
+     "Quam quadriradiam circuli in orbe loces:",
+     "Ore crucem & cauda,& geminis vt cõplicet alis,",
+     "Tale amuletum carminis omnis erit.",
+     "Dicitur hoc Veneris ſigno Pagaſæus Iaſon",
+     "Phaſiacis lædi non potuiſſe dolis."
+    ],
+    "reading": [
+     "Ne dirus te vincat amor, neu fœmina mentem",
+     "Diripiat magicis artibus ulla tuam:",
+     "Bacchica avis præsto tibi motacilla paretur,",
+     "Quam quadriradiam circuli in orbe loces:",
+     "Ore crucem & cauda, & geminis ut complicet alis,",
+     "Tale amuletum carminis omnis erit.",
+     "Dicitur hoc Veneris signo Pagasæus Iason",
+     "Phasiacis lædi non potuisse dolis."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [
+  {
+   "printed": "magieis",
+   "corrected": "magicis",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер страницы «86» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0558",
+  "D0559",
+  "D0560"
+ ]
+}

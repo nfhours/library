@@ -1,0 +1,59 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 164,
+ "source": "scan/frame_0164.jpg",
+ "page": "158",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRINCEPS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Quod non capit Chriſtus,",
+     "rapit fiſcus."
+    ],
+    "reading": "Quod non capit Christus, rapit fiscus."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Человек (государь) выжимает губку над сосудом; рядом колонна; вдали виселица и фигуры",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Exprimit humentes,quas iam madefecerat antè",
+     "Spongiolas,cupidi Principis arcta manus.",
+     "Prouehit ad ſummum fures:quos déinde coërcet,",
+     "Vertat vt in fiſcum quæ malè parta ſuum."
+    ],
+    "reading": [
+     "Exprimit humentes, quas iam madefecerat antè",
+     "Spongiolas, cupidi Principis arcta manus.",
+     "Provehit ad summum fures: quos déinde coërcet,",
+     "Vertat ut in fiscum quæ malè parta suum."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с волютами, гермами и фигурами"
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «158» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t4"
+ ]
+}

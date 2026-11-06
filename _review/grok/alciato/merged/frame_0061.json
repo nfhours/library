@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 61,
+ "source": "scan/frame_0061.jpg",
+ "page": "55",
+ "signature": "D 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PVDICITIA.",
+ "rubric": "PVDICITIA.",
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Овальный щит-картуш, на котором изображена птица (порфирион); сверху на картуше сидит/стоит ещё птица; вокруг пейзаж с водой, кораблями и холмами, справа деревья.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Porphirio domini ſi inceſtet in ædibus vxor,",
+     "Deſpondetq; animum,præq; dolore perit.",
+     "Abdita in arcanis naturæ eſt cauſa.ſit index",
+     "Synceræ hæc volucris certa pudicitiæ."
+    ],
+    "reading": [
+     "Porphirio domini si incestet in ædibus uxor,",
+     "Despondetque animum, præque dolore perit.",
+     "Abdita in arcanis naturæ est causa.sit index",
+     "Synceræ hæc volucris certa pudicitiæ."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «55» вверху справа; сигнатура «D 4» внизу справа. Над гравюрой напечатан только заголовок локуса «PVDICITIA.» (курсивные заглавные); отдельного девиза нет.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0432",
+  "D0433"
+ ]
+}

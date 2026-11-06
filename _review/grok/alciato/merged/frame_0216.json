@@ -1,0 +1,61 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 216,
+ "source": "scan/frame_0216.jpg",
+ "page": "210",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "MATRIMONIVM.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Mulieris famam,non formam,",
+     "vulgatam eſſe oportere."
+    ],
+    "reading": "Mulieris famam, non formam, vulgatam esse oportere."
+   },
+   "subheading": {
+    "diplomatic": "DIALOGISMVS.",
+    "reading": "Dialogismus."
+   },
+   "engraving": {
+    "position": "между подзаголовком и эпиграммой",
+    "description": "Внутри дома: женская статуя (Венера), одна нога попирает черепаху; рядом собака; слева — служанка за прялкой/работой; на заднем плане дверь в анфиладу комнат, фигуры на стене.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Alma Venus quænã hæc facies,quid denotat illa",
+     "Teſtudo,molli quam pede Diua premis?",
+     "Me ſic effinxit Phidias,ſexumq; referri",
+     "Fœmineum,noſtra iuſsit ab effigie.",
+     "Quodq; manere domi,& tacitas decet eſſe puellas,",
+     "Suppoſuit pedibus talia ſigna meis."
+    ],
+    "reading": [
+     "Alma Venus quænam hæc facies, quid denotat illa",
+     "Testudo, molli quam pede Diva premis?",
+     "Me sic effinxit Phidias, sexumque referri",
+     "Fœmineum, nostra iussit ab effigie.",
+     "Quodque manere domi, & tacitas decet esse puellas,",
+     "Supposuit pedibus talia signa meis."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «210» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 2,
+ "source": "scan/frame_0002.jpg",
+ "page": null,
+ "signature": null,
+ "catchword": null,
+ "page_type": "blank",
+ "running_head": null,
+ "rubric": null,
+ "emblems": [],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Передний форзац/подклейка: экслибрис-гравюра «Sir Robert Alex[ander] Chermside M.D.K.C.H., Fellow R[oyal] Coll[ege] Physicians, London; Paris, 1 rue Taitbout» с гербовой звездой и орлом; ниже наклеена бумажная полоса с именем позднейшего владельца «Ulrich Middeldorf». Владельческие пометы не транскрибируются, только упоминаются.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "assembly-pass",
+ "_runs_used": [
+  "assembly-pass"
+ ]
+}

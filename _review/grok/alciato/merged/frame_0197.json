@@ -1,0 +1,56 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 197,
+ "source": "scan/frame_0197.jpg",
+ "page": "191",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PAX.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ex bello pax."
+    ],
+    "reading": "Ex bello pax."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Воинский шлем лежит среди пейзажа; вокруг и на нём роятся пчёлы; вдали холмы, деревья.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "En galea,intrepidus quam miles geſſerat:& quæ",
+     "Sæpius hoſtili ſparſa cruore fuit.",
+     "Parta pace apibus tenuis conceſsit in vſum",
+     "Alueoli:atque fauos grataq; mella gerit.",
+     "Arma procul iaceant:fas sit tunc ſumere bellum:",
+     "Quando aliter pacis non potes arte frui."
+    ],
+    "reading": [
+     "En galea, intrepidus quam miles gesserat: & quæ",
+     "Sæpius hostili sparsa cruore fuit.",
+     "Parta pace apibus tenuis concessit in usum",
+     "Alveoli: atque favos grataque mella gerit.",
+     "Arma procul iaceant: fas sit tunc sumere bellum:",
+     "Quando aliter pacis non potes arte frui."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «191» вверху справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

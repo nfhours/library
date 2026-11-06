@@ -1,0 +1,22 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 5,
+ "source": "scan/frame_0005.jpg",
+ "page": null,
+ "signature": null,
+ "catchword": null,
+ "page_type": "blank",
+ "running_head": null,
+ "rubric": null,
+ "emblems": [],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Чистый лист форзаца с карандашными библиографическими пометами позднейшего владельца/библиотекаря (не транскрибируются дословно per правилу «владельческие пометы только упоминаются»; упомянуты темы: ссылка на «p.119», коллация, биографическая справка о Sir Robert Alexander Chermside (1782–1860), библиографические ссылки — H. Green, «A. Alciati and his Book of Emblems», London 1872; G. Duplessis, «Les emblèmes d'Alciat», Paris 1884).",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "assembly-pass",
+ "_runs_used": [
+  "assembly-pass"
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 199,
+ "source": "scan/frame_0199.jpg",
+ "page": "193",
+ "signature": "N",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SCIENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Doctos doctis obloqui",
+     "nefas eſſe."
+    ],
+    "reading": "Doctos doctis obloqui nefas esse."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Античные руины: колонны, арки, обломки; вдали летит птица; холмы и облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quid rapis heu Progne vocalem ſæua Cicadam,",
+     "Pignoribuſq; tuis fercula dira paras?",
+     "Stridula ſtridentem,vernam verna,hoſpita lædis",
+     "Hoſpitam,& aligeram penniger ales auem?",
+     "Ergo abice hanc prædam.nã muſica pectora ſum-",
+     "mum eſt",
+     "Alterum ab alterius dente perire nefas."
+    ],
+    "reading": [
+     "Quid rapis heu Progne vocalem sæva Cicadam,",
+     "Pignoribusque tuis fercula dira paras?",
+     "Stridula stridentem, vernam verna, hospita lædis",
+     "Hospitam, & aligeram penniger ales avem?",
+     "Ergo abice hanc prædam. nam musica pectora summum est",
+     "Alterum ab alterius dente perire nefas."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "«SCIENTIA.» — начало нового раздела книги. Строка 5 эпиграммы перенесена через дефис («ſum-/mum eſt»), число печатных строк (7) не кратно обычным двум на стих."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «193» вверху справа. Сигнатура «N» внизу справа, под рамкой — начало новой тетради.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

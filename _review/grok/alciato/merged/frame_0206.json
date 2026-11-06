@@ -1,0 +1,69 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 206,
+ "source": "scan/frame_0206.jpg",
+ "page": "200",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SCIENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Dicta ſeptem ſapientum."
+    ],
+    "reading": "Dicta septem sapientum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Составная гравюра из семи полей. Вверху, в треугольном поле — щипцы/циркуль и факел, по бокам две полулежащие аллегорические фигуры. Ниже — шесть квадратных сцен в два ряда: (1) женщина с сосудом и зеркалом; (2) идущий мужчина с посохом; (3) мужчина, несущий ношу на спине; (4) мужчина за столом с табличкой «NVLI CREDO»; (5) человек верхом на осле (задом наперёд); (6) птицы в клетке/на дереве среди ветвей.",
+    "inscriptions": [
+     {
+      "where": "табличка на столе в нижнем левом поле",
+      "text": "NVLI CREDO"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Hæc habeas:ſeptem Sapientum effingere dicta,",
+     "Atque ea picturis qui celebrare velis.",
+     "Optimus in rebus modus eſt (Cleobulus vt inquit,)",
+     "Hoc trutinæ examen,ſiue libella docet.",
+     "Noſcere ſe Chilon Spartanus quenq uc iubebat.",
+     "Hoc ſpecula in manibus,vitraq; ſumpta dabũt."
+    ],
+    "reading": [
+     "Hæc habeas: septem Sapientum effingere dicta,",
+     "Atque ea picturis qui celebrare velis.",
+     "Optimus in rebus modus est (Cleobulus ut inquit,)",
+     "Hoc trutinæ examen, sive libella docet.",
+     "Noscere se Chilon Spartanus quenque iubebat.",
+     "Hoc specula in manibus, vitraque sumpta dabunt."
+    ]
+   },
+   "continues_on_next_page": true,
+   "notes": "Эпиграмма продолжается на 0207 (окончание того же стихотворения о семи мудрецах, без новой гравюры). Строка 5: зум x4 — напечатано «quenq uc iubebat»: после q нет знака сокращения (q;), а «uc» — округлое курсивное u + c, не «vc». Это разбитое и искажённое «quenque» (пробел внутри слова, c вместо e) — опечатка набора; слой чтения «quenque» (errata)."
+  }
+ ],
+ "ornaments": [],
+ "errata": [
+  {
+   "printed": "quenq uc",
+   "corrected": "quenque",
+   "certainty": "вероятная",
+   "applied_in_reading": true,
+   "comment": "Пробел внутри слова и c вместо e; размер и смысл требуют «quenque» (ср. стандартное «Noscere se Chilon Spartanus quenque iubebat»). Resolved 2026-11-06 (Opus zoom pass on Getty scan, pending_review cleanup). resolved_by: policy"
+  }
+ ],
+ "notes": "Номер страницы «200» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

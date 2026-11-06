@@ -1,0 +1,56 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 225,
+ "source": "scan/frame_0225.jpg",
+ "page": "219",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "ARBORES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Hedera."
+    ],
+    "reading": "Hedera."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Плющ — вьющееся растение с листьями и ягодами, обвивающее собственный стебель; корни у земли.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Haud quaquã areſcẽs hederæ eſt arbuſcula,Ciſſo",
+     "Quæ puero Bacchum dona dediſſe ferunt:",
+     "Errabunda,procax,auratis fulua corymbis,",
+     "Exterius viridis,cætera pallor habet.",
+     "Hinc aptis vates cingunt ſua tempora ſertis:",
+     "Palleſcunt ſtudijs,laus diuturna viret."
+    ],
+    "reading": [
+     "Haud quaquam arescens hederæ est arbuscula, Cisso",
+     "Quæ puero Bacchum dona dedisse ferunt:",
+     "Errabunda, procax, auratis fulva corymbis,",
+     "Exterius viridis, cætera pallor habet.",
+     "Hinc aptis vates cingunt sua tempora sertis:",
+     "Pallescunt studiis, laus diuturna viret."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Последняя строка «Pallescunt studijs,laus diuturna viret.» полностью напечатана и читается без обрыва на этом (Getty) экземпляре — слово «viret» присутствует и ясно видно. Это расходится с более ранней заметкой проекта SUMMARY.md (alc219-1), где предполагался обрыв строки на стыке страниц и отсутствие последнего слова («вероятно viret», не подтверждено). На данном скане обрыва нет: строка полная, слово «viret» читается уверенно."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «219» вверху справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

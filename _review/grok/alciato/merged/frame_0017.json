@@ -1,0 +1,87 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 17,
+ "source": "scan/frame_0017.jpg",
+ "page": "11",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "DEVS, SIVE RELIGIO.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Sapiẽtia humana,ſtultitia eſt apud Deũ."
+    ],
+    "reading": "Sapientia humana, stultitia est apud Deum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Чудовище: человек (бородатый мужчина) по пояс, переходящий в змеиный хвост вместо ног, сидит/извивается в воде на переднем плане, подняв правую руку; позади на берегу город с башнями и храм с колоннадой, вдали фигуры.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quid dicam? quonã hoc cõpellẽ nomine monſtrum",
+     "Biforme:quod non eſt homo,nec eſt draco?",
+     "Sed ſine vir pedibus,ſummis ſine partibus anguis,",
+     "Vir anguipes dici,& homiceps anguis poteſt.",
+     "Anguẽ pedit homo, hominẽ eructauit & anguis,",
+     "Nec finis hominis eſt,initinm nec eſt feræ.",
+     "Sic olim Cecrops doctis regnauit Athenis,",
+     "Sic & gigantes terra mater protulit.",
+     "Hæc vafrûm eſt ſpecies,ſed relligione carentem,",
+     "Terrena tantum quiq; curet,indicat."
+    ],
+    "reading": [
+     "Quid dicam? quonam hoc compellem nomine monstrum",
+     "Biforme: quod non est homo, nec est draco?",
+     "Sed sine vir pedibus, summis sine partibus anguis,",
+     "Vir anguipes dici, & homiceps anguis potest.",
+     "Anguem pedit homo, hominem eructavit & anguis,",
+     "Nec finis hominis est, initium nec est feræ.",
+     "Sic olim Cecrops doctis regnavit Athenis,",
+     "Sic & gigantes terra mater protulit.",
+     "Hæc vafrûm est species, sed relligione carentem,",
+     "Terrena tantum quique curet, indicat."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [
+  {
+   "printed": "initinm",
+   "corrected": "initium",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер страницы «11» вверху справа. Заголовка локуса внутри полосы нет.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0151",
+  "D0152",
+  "D0153",
+  "D0154",
+  "D0155",
+  "D0156",
+  "D0157",
+  "D0158",
+  "D0159",
+  "D0160"
+ ]
+}

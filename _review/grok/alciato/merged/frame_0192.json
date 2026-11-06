@@ -1,0 +1,56 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 192,
+ "source": "scan/frame_0192.jpg",
+ "page": "186",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "VINDICTA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Iuſta vltio."
+    ],
+    "reading": "Iusta ultio."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Ворон летит, держа в когтях скорпиона; внизу — скалы, дерево, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Raptabat volucres captum pede coruus in auras",
+     "Scorpion,audaci præmia parta gulæ.",
+     "Aſt ille infuſo ſensim per membra veneno,",
+     "Raptorem in ſtygias compulit vltor aquas.",
+     "O riſu res digna.alijs qui fata parabat,",
+     "Ipſe perit:proprijs ſuccubuitq; dolis."
+    ],
+    "reading": [
+     "Raptabat volucres captum pede corvus in auras",
+     "Scorpion, audaci præmia parta gulæ.",
+     "Ast ille infuso sensim per membra veneno,",
+     "Raptorem in stygias compulit ultor aquas.",
+     "O risu res digna. aliis qui fata parabat,",
+     "Ipse perit: propriis succubuitque dolis."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «186» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

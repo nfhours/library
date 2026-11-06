@@ -1,0 +1,104 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 15,
+ "source": "scan/frame_0015.jpg",
+ "page": "9",
+ "signature": "A 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "EMBLEM. DEDIC.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Nunquàm procraſti-",
+     "nandum."
+    ],
+    "reading": "Nunquàm procrastinandum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Лось (alce) — копытное с рогами, длинной шерстью и бородкой — стоит в профиле вправо у дерева; вокруг его ног и вверх вьётся лента с греческой надписью, конец ленты закручен петлёй; фон — холмы, город с башней.",
+    "inscriptions": [
+     {
+      "where": "на ленте, вьющейся от ног лося вверх и в петлю",
+      "text": "ΜΗ ΔΕΝ ΑΝΑΒΑΛΛΟ ΜΕ ΝΟΣ"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "ALCIATAE gentis inſignia ſuſtinet Alce,",
+     "Vnguibus & μηδ' ἓν[?] fert ἀναβαλλόμενος.",
+     "Conſtat Alexandrnm ſic reſpondiſse roganti,",
+     "Quî tot obiuiſſet tempore geſta breui?",
+     "Nunquam(inquit )differre volens.quod & indi-",
+     "cat Alce",
+     "Fortior hæc dubitet,ocyor ánne ſiet."
+    ],
+    "reading": [
+     "ALCIATAE gentis insignia sustinet Alce,",
+     "Unguibus & μηδ' ἓν[?] fert ἀναβαλλόμενος.",
+     "Constat Alexandrum sic respondisse roganti,",
+     "Quî tot obivisset tempore gesta brevi?",
+     "Nunquam(inquit )differre volens.quod & indi-",
+     "cat Alce",
+     "Fortior hæc dubitet, ocyor ánne siet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Строка 1: «ALCIATAE» капителями. Строки 5–6: стих разбит на две строки печати («indi- / cat Alce»). Греческое «ἀναβαλλόμενος» напечатано с лигатурой окончания -ος. Между «oc» и «yor» в строке 7 мелкий знак (запятая/пятно) — не принят за знак."
+  }
+ ],
+ "ornaments": [],
+ "errata": [
+  {
+   "printed": "Alexandrnm",
+   "corrected": "Alexandrum",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер страницы «9» вверху справа; сигнатура «A 5» внизу справа (цифра неотчётлива).",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0128",
+  "D0129",
+  "D0130",
+  "D0131",
+  "D0132",
+  "D0133",
+  "D0134",
+  "D0135",
+  "D0136",
+  "D0137",
+  "D0138",
+  "D0139",
+  "D0140",
+  "D0141",
+  "D0142",
+  "D0143",
+  "D0144",
+  "D0145",
+  "D0146"
+ ],
+ "opus_uncertain_ids": [
+  "D0129",
+  "D0135",
+  "D0137",
+  "D0140",
+  "D0143",
+  "D0144"
+ ]
+}

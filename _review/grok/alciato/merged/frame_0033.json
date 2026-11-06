@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 33,
+ "source": "scan/frame_0033.jpg",
+ "page": "27",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In deprehenſum."
+    ],
+    "reading": "In deprehensum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Мужчина у ручья/канала возле стены дома наклоняется и хватает рукой угря, обернув его листом (смоковницы); позади дерево, дома, птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Iamdudum quacunq; fugis te perſequor:at nunc",
+     "Caſsibus in noſtris denique captus ades.",
+     "Amplius haud poteris vires eludere noſtras.",
+     "Ficulno anguillam ſtrinximus in folio."
+    ],
+    "reading": [
+     "Iamdudum quacunque fugis te persequor: at nunc",
+     "Cassibus in nostris denique captus ades.",
+     "Amplius haud poteris vires eludere nostras.",
+     "Ficulno anguillam strinximus in folio."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «27» вверху справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ]
+}

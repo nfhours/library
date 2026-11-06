@@ -1,0 +1,70 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 79,
+ "source": "scan/frame_0079.jpg",
+ "page": "73",
+ "signature": "E 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVLTLTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Fatuitas."
+    ],
+    "reading": "Fatuitas."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Птицелов на коленях у куста подманивает ушастую сову/филина (otus), которая пляшет перед ним; позади дерево, город и восходящее солнце с лучами.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Miraris noſtro quòd carmine diceris Otus,",
+     "Sit vetus à proauis cum tibi nomen Otho.",
+     "Aurita eſt,ſimiles,& habet ceu noctua plumas,",
+     "Saltantemq; auceps mancipat aptus auem.",
+     "Hinc fatuos,captu & faciles,nos dicimus otos,",
+     "Hoc tibi conueniens tu quoque nomen habe."
+    ],
+    "reading": [
+     "Miraris nostro quòd carmine diceris Otus,",
+     "Sit vetus à proavis cum tibi nomen Otho.",
+     "Aurita est, similes, & habet ceu noctua plumas,",
+     "Saltantemque auceps mancipat aptus avem.",
+     "Hinc fatuos, captu & faciles, nos dicimus otos,",
+     "Hoc tibi conveniens tu quoque nomen habe."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [
+  {
+   "printed": "STVLTLTIA.",
+   "corrected": "STVLTITIA.",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер страницы «73» вверху справа; сигнатура «E 5» внизу справа. Колонтитул напечатан «STVLTLTIA.» (L вместо I).",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0492"
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 161,
+ "source": "scan/frame_0161.jpg",
+ "page": "155",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Albutij ad Alciatũ,ſuadentis vt de",
+     "tumultibus Italicis ſe ſubducat:",
+     "& in Gallia profiteatur."
+    ],
+    "reading": "Albutii ad Alciatum, suadentis ut de tumultibus Italicis se subducat: & in Gallia profiteatur."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Человек несёт на голове корзину с плодами, идёт мимо дерева (персея); поле, изгородь",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quæ dedit hos fructus arbor,cœlo aduena noſtro,",
+     "Venit ab Eoo Perſidis axe prius:",
+     "Translatu facta eſt melior:quæ noxia quondam",
+     "In patria:hîc nobis dulcia poma gerit.",
+     "Fert folium linguæ,fert poma ſimillima cordi,",
+     "Alciate hinc vitam degere diſce tuam.",
+     "Tu procul à patria in pretio es maiore futurus:",
+     "Multùm corde ſapis,nec minus ore vales."
+    ],
+    "reading": [
+     "Quæ dedit hos fructus arbor, cœlo advena nostro,",
+     "Venit ab Eoo Persidis axe prius:",
+     "Translatu facta est melior: quæ noxia quondam",
+     "In patria: hîc nobis dulcia poma gerit.",
+     "Fert folium linguæ, fert poma simillima cordi,",
+     "Alciate hinc vitam degere disce tuam.",
+     "Tu procul à patria in pretio es maiore futurus:",
+     "Multùm corde sapis, nec minus ore vales."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с колоннами и картушами"
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «155» вверху справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0946",
+  "D0947",
+  "D0948"
+ ]
+}

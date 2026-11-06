@@ -1,0 +1,79 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 142,
+ "source": "scan/frame_0142.jpg",
+ "page": "136",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In momentaneam felicitatem."
+    ],
+    "reading": "In momentaneam felicitatem."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Тыква обвивает высокую сосну; пейзаж с постройками",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aëriam propter creniſſe Cucurbita pinum",
+     "Dicitur:& grandi luxuriaſſe coma.",
+     "Cùm ramos complexa,ipſumq; egreſſa cacumen,",
+     "Se præſtare alijs credidit arboribus.",
+     "Cui pinus:Nimiùm breuis eſt hæc gloria.nam te",
+     "Protinus adueniet quæ malè perdet hyems."
+    ],
+    "reading": [
+     "Aëriam propter crevisse Cucurbita pinum",
+     "Dicitur: & grandi luxuriasse coma.",
+     "Cùm ramos complexa, ipsumque egressa cacumen,",
+     "Se præstare aliis credidit arboribus.",
+     "Cui pinus: Nimiùm brevis est hæc gloria. nam te",
+     "Protinus adveniet quæ malè perdet hyems."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с витыми колоннами"
+  }
+ ],
+ "errata": [
+  {
+   "printed": "creniſſe",
+   "corrected": "creuiſſe",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер «136» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0887",
+  "D0888",
+  "D0889",
+  "D0890",
+  "D0891"
+ ]
+}

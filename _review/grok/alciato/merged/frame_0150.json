@@ -1,0 +1,64 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 150,
+ "source": "scan/frame_0150.jpg",
+ "page": "144",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ex literarum ſtudijs immor-",
+     "talitatem acquiri."
+    ],
+    "reading": "Ex literarum studiis immortalitatem acquiri."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Тритон, трубящий в раковину, внутри кольца змеи, кусающей свой хвост; море",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Neptuni tubicen,cuius pars vltima cetum,",
+     "Aequoreum facies indicat eſſe Deum:",
+     "Serpentis medio Triton comprenditur orbe,",
+     "Qui caudam inſerto mordicus ore tenet.",
+     "Fama viros animo inſignes,præclaraq; geſta",
+     "Proſequitur:toto mandat & orbe legi."
+    ],
+    "reading": [
+     "Neptuni tubicen, cuius pars ultima cetum,",
+     "Aequoreum facies indicat esse Deum:",
+     "Serpentis medio Triton comprenditur orbe,",
+     "Qui caudam inserto mordicus ore tenet.",
+     "Fama viros animo insignes, præclaraque gesta",
+     "Prosequitur: toto mandat & orbe legi."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Орнаментальная рамка с фигурами и колесницами внизу"
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «144» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t3",
+  "t4"
+ ]
+}

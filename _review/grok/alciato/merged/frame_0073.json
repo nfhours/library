@@ -1,0 +1,67 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 73,
+ "source": "scan/frame_0073.jpg",
+ "page": "67",
+ "signature": "E 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "STVLTITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Impoſsibile."
+    ],
+    "reading": "Impossibile."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Двое мужчин моют/трут сидящего эфиопа (чернокожего); позади колодец с воротом и кирпичная стена, сосуд-амфора.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Abluis Aethiopem,quid fruſtra?ah[?] deſine.noctis",
+     "Illuſtrare nigræ nemo poteſt tenêbras."
+    ],
+    "reading": [
+     "Abluis Aethiopem, quid frustra? ah[?] desine.noctis",
+     "Illustrare nigræ nemo potest tenêbras."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «67» вверху справа; сигнатура «E 2» внизу справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0475",
+  "D0476",
+  "D0477",
+  "D0478",
+  "D0479",
+  "D0480",
+  "D0481",
+  "D0482",
+  "D0483",
+  "D0484"
+ ],
+ "opus_uncertain_ids": [
+  "D0477",
+  "D0482"
+ ]
+}

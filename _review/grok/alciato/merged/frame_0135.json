@@ -1,0 +1,106 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 135,
+ "source": "scan/frame_0135.jpg",
+ "page": "129",
+ "signature": "I",
+ "catchword": null,
+ "page_type": "emblem_continuation",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": null,
+   "epigram": {
+    "diplomatic": [
+     "Eſt cupidis flauus color,eſt & amantibus aptus,",
+     "Et ſcortis,& quẽis[?] ſpes ſua certa fuit.",
+     "At ruber armatos equites exornet amictus,",
+     "Indicet & pueros erubuiſſe pudor.",
+     "Cæruleus nautas,& qui cœleſtia vates",
+     "Attoniti nimia relligione petunt.",
+     "Vilia ſunt giluis natiuaq; vellera birris:",
+     "Qualia lignipedes ſtragula habere ſolent.",
+     "Quem curæ ingentes cruciant,vel zelus amoris",
+     "Creditur hic fulua non malè veſte tegi.",
+     "Quiſquis ſorte ſua contentus,ianthina geſtet,",
+     "Fortunæ æquanimis tædia quiq; ferat.",
+     "Vt varia eſt natura coloribus in gignendis,",
+     "Sie alijs aliud:ſed ſua cuique placent."
+    ],
+    "reading": [
+     "Est cupidis flavus color, est & amantibus aptus,",
+     "Et scortis, & queis spes sua certa fuit.",
+     "At ruber armatos equites exornet amictus,",
+     "Indicet & pueros erubuisse pudor.",
+     "Cæruleus nautas, & qui cœlestia vates",
+     "Attoniti nimia relligione petunt.",
+     "Vilia sunt gilvis nativaque vellera birris:",
+     "Qualia lignipedes stragula habere solent.",
+     "Quem curæ ingentes cruciant, vel zelus amoris",
+     "Creditur hic fulva non malè veste tegi.",
+     "Quisquis sorte sua contentus, ianthina gestet,",
+     "Fortunæ æquanimis tædia quique ferat.",
+     "Ut varia est natura coloribus in gignendis,",
+     "Sic aliis aliud: sed sua cuique placent."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Орнаментальная рамка со сфинксами/маскароном"
+  },
+  {
+   "position": "под текстом",
+   "description": "Небольшой картуш-заставка"
+  }
+ ],
+ "errata": [
+  {
+   "printed": "Sie",
+   "corrected": "Sic",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер «129» вверху справа (частично срезан). Продолжение «In colores» с кадра 0134.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "continuation_of": {
+  "frame": 134,
+  "page": "128",
+  "motto": "In colores."
+ },
+ "opus_resolved_ids": [
+  "D0856",
+  "D0857",
+  "D0858",
+  "D0859",
+  "D0860",
+  "D0861",
+  "D0862",
+  "D0863",
+  "D0864"
+ ],
+ "opus_uncertain_ids": [
+  "D0857",
+  "D0858",
+  "D0859",
+  "D0862",
+  "D0863"
+ ]
+}

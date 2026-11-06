@@ -41,7 +41,7 @@
 
 - `alc21-1` — text_fr [LA] — ocr, medium: «Ad superos reuocet, quod vigilem,» → [LA] строка испорчена (не держит размер пентаметра, нет слова): стандартное чтение — «Ad superos pigram quod reuocet vigilem.» — сверить по скану; не уверен в точном виде строки в издании 1551
 - `alc82-1` — text_fr [LA] — ocr, medium: «Ephyrææ est Laidos.» → [LA] пропущено «ah, non» в конце строки 1 (на скане «…Laidos. ah, non / Erubuit…»; без него строка короче гекзаметра). Переводы «Ах, не постыдилась ли» уже его передают
-- `alc219-1` — text_fr [LA] — omission, low: «Pallescunt studijs, laus diuturna» → [LA] выпал фрагмент на стыке страниц: последний стих обрывается на «laus diuturna» (на скане тоже конец страницы), последнего слова нет — вероятно «viret»; переводы достраивают смысл («слава долговечна»). Не уверен в слове
+- `alc219-1` — text_fr [LA] — omission: «Pallescunt studijs, laus diuturna» → [LA] в `text_fr` пропущено последнее слово стиха. **Уточнение 2026-11-06 (сверка со сканом Getty, `scan/frame_0225.jpg`, с. 219):** строка в печати не оборвана и читается полностью и уверенно: «Palleſcunt ſtudijs,laus diuturna viret.» (чтение: «Pallescunt studiis, laus diuturna viret.»); стих — последний на странице, стыка страниц внутри него нет. Значит, «viret» — не догадка, а напечатанное слово; прежняя пометка «обрыв на стыке страниц / не уверен в слове» снята — это пропуск в `text_fr`, а не дефект издания
 
 Без отдельного issue_id:
 
@@ -178,7 +178,7 @@
 | alc200 | `alc200-1` | Hac | «Hæc» (так на скане) | да, по скану |
 | alc208 | `alc208-1` | Ecqd | «Ecquid» (сокращение Ecq̃d с потерянной тильдой) | по скану не сверялось (по грамматике/контексту) |
 | alc215 | `alc215-1` | fructu sperdens | вероятно «frugiperdam» (= ὠλεσίκαρπος, Од. X, 510; на скане «fruuiperdem»); не уверен | не подтверждено (не уверен) |
-| alc219 | `alc219-1` | … laus diuturna (строка оборвана) | выпал фрагмент на стыке страниц: последний стих обрывается на «laus diuturna» (на скане тоже конец страницы), последнего слова нет — вероятно «viret»; переводы … | не подтверждено (не уверен) |
+| alc219 | `alc219-1` | … laus diuturna (в `text_fr` нет последнего слова) | «Pallescunt studijs, laus diuturna viret.» — на скане Getty (frame_0225, с. 219) строка напечатана полностью: «Palleſcunt ſtudijs,laus diuturna viret.»; обрыва нет | да, по скану Getty (уточнено 2026-11-06) |
 
 ### В девизе (поле fr)
 
@@ -217,7 +217,7 @@
 - `alc198-1` — RU/EN/FR — name, low: «Certabat plectro Sparthyn commissus in hostem,» → Sparthyn (Sparthis/Spartis) — имя соперника Эвнома, не этноним: «состязался плектром с противником Спартином»; не уверен в форме имени
 - `alc198-2` — RU/EN/FR — mistranslation, low: «Pro cithara hic fidicen æneus ipsa sedet.» → ipsa — сама цикада: «здесь на кифаре сидит она сама, бронзовая, как кифаред» (на гравюре — цикада на кифаре); не уверен
 - `alc215-1` — text_fr [LA] — ocr, medium: «Quòd fructu sperdens salicem» → [LA] вероятно «frugiperdam» (= ὠλεσίκαρπος, Од. X, 510; на скане «fruuiperdem»); не уверен
-- `alc219-1` — text_fr [LA] — omission, low: «Pallescunt studijs, laus diuturna» → [LA] выпал фрагмент на стыке страниц: последний стих обрывается на «laus diuturna» (на скане тоже конец страницы), последнего слова нет — вероятно «viret»; переводы достраивают смысл («слава долговечна»). Не уверен в слове
+- `alc219-1` — text_fr [LA] — omission: «Pallescunt studijs, laus diuturna» → [LA] в `text_fr` пропущено последнее слово стиха. **Уточнение 2026-11-06 (сверка со сканом Getty, `scan/frame_0225.jpg`, с. 219):** строка в печати не оборвана и читается полностью и уверенно: «Palleſcunt ſtudijs,laus diuturna viret.» (чтение: «Pallescunt studiis, laus diuturna viret.»); стих — последний на странице, стыка страниц внутри него нет. Значит, «viret» — не догадка, а напечатанное слово; прежняя пометка «обрыв на стыке страниц / не уверен в слове» снята — это пропуск в `text_fr`, а не дефект издания
 
 ## Повторяющиеся закономерности
 

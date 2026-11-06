@@ -1,0 +1,48 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 222,
+ "source": "scan/frame_0222.jpg",
+ "page": "216",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "ARBORES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Abies."
+    ],
+    "reading": "Abies."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Пихта — хвойное дерево с ветвями по всей высоте ствола; корни прорисованы у земли.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Apta fretis abies in montibus editur altis:",
+     "Eſt & in aduerſis maxima commoditas."
+    ],
+    "reading": [
+     "Apta fretis abies in montibus editur altis:",
+     "Est & in adversis maxima commoditas."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «216» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

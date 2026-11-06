@@ -1,0 +1,56 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 190,
+ "source": "scan/frame_0190.jpg",
+ "page": "184",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HOSTILITAS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Vel poſt mortem formidoloſi."
+    ],
+    "reading": "Vel post mortem formidolosi."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Два барабанщика в военном платье идут на марше, бьют в барабаны; на заднем плане — войско со знамёнами и пиками, холмы, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Cætera muteſcent,coriumq; ſilebit ouillum,",
+     "Si confecta lupi tympana pelle ſonent.",
+     "Hanc mẽbrana ouium ſic exhorreſcit, vt hoſtem,",
+     "Exanimis quãuis non ferat exanimem.",
+     "Sic cute detracta Cischas,in tympana verſus,",
+     "Bœhemos potuit vincere pontifices."
+    ],
+    "reading": [
+     "Cætera mutescent, coriumque silebit ovillum,",
+     "Si confecta lupi tympana pelle sonent.",
+     "Hanc membrana ovium sic exhorrescit, ut hostem,",
+     "Exanimis quamvis non ferat exanimem.",
+     "Sic cute detracta Cischas, in tympana versus,",
+     "Bœhemos potuit vincere pontifices."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "«Cischas» — по-видимому, передача имени Яна Жижки (Jan Žižka), гуситского полководца; по легенде его кожа после смерти пошла на барабан. Написано так, как напечатано, не исправляется."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «184» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

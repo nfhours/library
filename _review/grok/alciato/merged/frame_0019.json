@@ -1,0 +1,68 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 19,
+ "source": "scan/frame_0019.jpg",
+ "page": "13",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "DEVS, SIVE RELIGIO.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Non tibi,ſed religioni."
+    ],
+    "reading": "Non tibi, sed religioni."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Осёл с поклажей (на спине — изваяние/ковчег богини не различим; видна попона), слева погонщик с поднятой палкой/бичом; справа перед ослом на коленях молящиеся люди, мужчина и дети; позади городские стены, башня и арка, толпа.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Iſidis effigiem tardus geſtabat aſellus,",
+     "Pando verenda dorſo habens myſteria.",
+     "Obuius ergo Deam quiſquis reuerenter adorat,",
+     "Piaſq; genibus concipit flexis preces.",
+     "Aſt aſinus tantum præſtari credit honorem",
+     "Sibi,& intumeſcit admodùm ſuperbiens:",
+     "Donec eum flagris compeſcens dixit agaſo,",
+     "Non es Deus tu ( aſelle ) ſed Deum vehis."
+    ],
+    "reading": [
+     "Isidis effigiem tardus gestabat asellus,",
+     "Pando verenda dorso habens mysteria.",
+     "Obvius ergo Deam quisquis reverenter adorat,",
+     "Piasque genibus concipit flexis preces.",
+     "Ast asinus tantum præstari credit honorem",
+     "Sibi, & intumescit admodùm superbiens:",
+     "Donec eum flagris compescens dixit agaso,",
+     "Non es Deus tu ( aselle ) sed Deum vehis."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «13» вверху справа. Над словами «genibus» и «flexis» (строка 4) рукописные пометы чернилами владельца — не транскрибируются.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0165",
+  "D0166",
+  "D0167"
+ ]
+}

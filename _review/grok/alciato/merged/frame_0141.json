@@ -1,0 +1,80 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 141,
+ "source": "scan/frame_0141.jpg",
+ "page": "135",
+ "signature": "I 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In illaudata laudantes."
+    ],
+    "reading": "In illaudata laudantes."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Воин рядом со слоном в пейзаже; птицы в небе",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Ingentet Galatûm ſemermi milite turmas,",
+     "Spem præter trepidus fuderat Antiochus,",
+     "Lucarum cùm ſæua boum vis,ira proboſcis,",
+     "Tum primùm hoſtiles corripuiſſet equos.",
+     "Ergo trophæa locans Elephantis imagine pinxit,",
+     "Inſuper & ſocijs occîderamus ait,",
+     "Bellua ſeruaſſet ni nos fœdiſsima barrus.",
+     "Vt ſuperaſſe iuuat,ſic ſuperaſſe pudet."
+    ],
+    "reading": [
+     "Ingentes Galatûm semermi milite turmas,",
+     "Spem præter trepidus fuderat Antiochus,",
+     "Lucarum cùm sæva boum vis, ira proboscis,",
+     "Tum primùm hostiles corripuisset equos.",
+     "Ergo trophæa locans Elephantis imagine pinxit,",
+     "Insuper & sociis occîderamus ait,",
+     "Bellua servasset ni nos fœdissima barrus.",
+     "Ut superasse iuvat, sic superasse pudet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с витыми колоннами и маскароном вверху"
+  }
+ ],
+ "errata": [
+  {
+   "printed": "Ingentet",
+   "corrected": "Ingentes",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер «135» вверху справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0885",
+  "D0886"
+ ]
+}

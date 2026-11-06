@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 231,
+ "source": "scan/frame_0231.jpg",
+ "page": "225",
+ "signature": "P",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "ARBORES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Laurus."
+    ],
+    "reading": "Laurus."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Лавровое дерево с густой листвой и плодами; у ствола маленький побег; корни прорисованы у земли.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Præſcia venturi laurus fert ſigna ſalutis.",
+     "Subdita puluillo ſomnia vera facit.",
+     "ALVD.",
+     "Debetur Carolo ſuperatis laurea Pœnis:",
+     "Victrices ornent talia ſerta comas."
+    ],
+    "reading": [
+     "Præscia venturi laurus fert signa salutis.",
+     "Subdita pulvillo somnia vera facit.",
+     "ALIUD.",
+     "Debetur Carolo superatis laurea Pœnis:",
+     "Victrices ornent talia serta comas."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «225» вверху справа. Сигнатура «P» внизу справа, под рамкой — начало новой тетради.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

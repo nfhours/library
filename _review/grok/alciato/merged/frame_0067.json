@@ -1,0 +1,75 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 67,
+ "source": "scan/frame_0067.jpg",
+ "page": "61",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PERFIDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In adulatores."
+    ],
+    "reading": "In adulatores."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Хамелеон на земле среди скал, деревьев и кустов; вверху птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Semper hiat,ſemper tenuem qua veſcitur auram,",
+     "Reciprocat Ghamæleon,",
+     "Et mutat faciem,varios ſumitq; colores,",
+     "Præter rubrum,vel candidum.",
+     "Sic & Adulator populari veſcitur aura,",
+     "Hiansq; cuncta deuorat.",
+     "Et ſolùm mores imitatur principis atros,",
+     "Albi,& pudici neſcius."
+    ],
+    "reading": [
+     "Semper hiat, semper tenuem qua vescitur auram,",
+     "Reciprocat Chamæleon,",
+     "Et mutat faciem, varios sumitque colores,",
+     "Præter rubrum, vel candidum.",
+     "Sic & Adulator populari vescitur aura,",
+     "Hiansque cuncta devorat.",
+     "Et solùm mores imitatur principis atros,",
+     "Albi, & pudici nescius."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [
+  {
+   "printed": "Ghamæleon",
+   "corrected": "Chamæleon",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер страницы «61» вверху справа. Строки эпиграммы неравной длины (чередование длинных и коротких стихов).",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0458",
+  "D0459"
+ ]
+}

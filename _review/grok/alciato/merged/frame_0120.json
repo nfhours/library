@@ -1,0 +1,64 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 120,
+ "source": "scan/frame_0120.jpg",
+ "page": "114",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "ASTROLOGIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Qui alta contemplantur",
+     "cadere."
+    ],
+    "reading": "Qui alta contemplantur cadere."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Охотник-птицелов стреляет из лука вверх в птиц (журавля); у его ног змея (дипсада) жалит ногу; позади хижины, деревья.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Dum turdos viſco,pedica dum fallit alaudas,",
+     "Et iacta altiuolam figit harundo gruem,",
+     "Dipſada non prudens auceps pede perculit:vltrix",
+     "Illa mali,emiſſum virus ab ore iacit.",
+     "Sic obit,extento qui ſydera reſpicit arcu,",
+     "Securus fati,quod iacet ante pedes."
+    ],
+    "reading": [
+     "Dum turdos visco, pedica dum fallit alaudas,",
+     "Et iacta altivolam figit harundo gruem,",
+     "Dipsada non prudens auceps pede perculit: ultrix",
+     "Illa mali, emissum virus ab ore iacit.",
+     "Sic obit, extento qui sydera respicit arcu,",
+     "Securus fati, quod iacet ante pedes."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «114» вверху слева (после цифры скобка-оттиск). Рядом с «mali,» чернильное пятно.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0723",
+  "D0724"
+ ]
+}

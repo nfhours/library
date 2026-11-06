@@ -1,0 +1,91 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 54,
+ "source": "scan/frame_0054.jpg",
+ "page": "48",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "CONCORDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Vnum nihil,duos pluri-",
+     "mùm poſſe."
+    ],
+    "reading": "Unum nihil, duos plurimùm posse."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Два воина: слева слепой/старый человек в плаще несёт на спине другого (?) — фигура с котомкой, справа воин в шлеме с перьями, щитом и копьём, указывающий путь; позади пейзаж с городом.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Laërtæ genitum,genitum quoqne Tydeos vnà,",
+     "Hac cera expreſsit Zen[?]alis apta manus.",
+     "Viribus hic præſtat,hic pollet acumine mentis,",
+     "Nec tamen alterius non eget alter ope.",
+     "Cùm duo coniuncti veniunt,victoria certa eſt.",
+     "Solùm mens hominem,dextráue deſtituit."
+    ],
+    "reading": [
+     "Laërtæ genitum, genitum quoque Tydeos unà,",
+     "Hac cera expressit Zen[?]alis apta manus.",
+     "Viribus hic præstat, hic pollet acumine mentis,",
+     "Nec tamen alterius non eget alter ope.",
+     "Cùm duo coniuncti veniunt, victoria certa est.",
+     "Solùm mens hominem, dextráve destituit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [
+  {
+   "printed": "quoqne",
+   "corrected": "quoque",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер страницы «48» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0387",
+  "D0388",
+  "D0389",
+  "D0390",
+  "D0391",
+  "D0392",
+  "D0393",
+  "D0394",
+  "D0395",
+  "D0396",
+  "D0397",
+  "D0398",
+  "D0399"
+ ],
+ "opus_uncertain_ids": [
+  "D0388",
+  "D0389",
+  "D0391",
+  "D0393",
+  "D0396",
+  "D0398"
+ ]
+}

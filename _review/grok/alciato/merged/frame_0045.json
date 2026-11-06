@@ -1,0 +1,68 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 45,
+ "source": "scan/frame_0045.jpg",
+ "page": "39",
+ "signature": "C 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "IVSTITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Bonis à diuitibus,nihil",
+     "timendum."
+    ],
+    "reading": "Bonis à divitibus, nihil timendum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "В небе две крылатые гарпии (женщины с птичьими телами) налетают; на них снизу нападают двое юношей с мечами (Зет и Калаид), летящие/лежащие на облаках; справа ещё фигура; вверху птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Iunctis contiguo Marius mihi pariete,nec non",
+     "Subbardus,noſtri nomina nota fori,",
+     "Aedificant bene nummati,ſataguntq; vel vltrò",
+     "Obſtruere heu noſtris vndiq; luminibus.",
+     "Me miſerũ,geminę quem tanquam Phinea raptãt",
+     "Harpyiæ,vt proprijs ſedibus eijciant.",
+     "Integritas noſtra,atq; animus quæſitor honeſti,",
+     "His niſi ſint Zetes,his niſi ſint Calais."
+    ],
+    "reading": [
+     "Iunctis contiguo Marius mihi pariete, nec non",
+     "Subbardus, nostri nomina nota fori,",
+     "Aedificant bene nummati, sataguntque vel ultrò",
+     "Obstruere heu nostris undique luminibus.",
+     "Me miserum, geminæ quem tanquam Phinea raptant",
+     "Harpyiæ, ut propriis sedibus eiiciant.",
+     "Integritas nostra, atque animus quæsitor honesti,",
+     "His nisi sint Zetes, his nisi sint Calais."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «39» вверху справа; сигнатура «C 4» внизу справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0318",
+  "D0319"
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 139,
+ "source": "scan/frame_0139.jpg",
+ "page": "133",
+ "signature": "I 3[?]",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In occaſionem."
+    ],
+    "reading": "In occasionem."
+   },
+   "subheading": {
+    "diplomatic": "Διαλογισικῶς.",
+    "reading": "Διαλογιστικῶς."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Окказия: нагая женщина с длинной прядью на лбу и бритвой в руке, с крылатыми ногами, стоит на колесе/шаре среди моря",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "L[?]yſippi hoc opus eſt,Sycion cui patria. Tu quis?",
+     "Cuncta domans capti temporis articulus.",
+     "Cur pinnis ſtas? vſque rotor. Talaria plantis",
+     "Cur retines? Paſsim me leuis aura rapit.",
+     "In dextra eſt tenuis dic vnde nouacula? Acutum",
+     "Omni acie hoc ſignum me magis eſſe docet.",
+     "Cur in frõte coma? Occurrẽs vt prẽdar.. At heus tu",
+     "Dic cur pars calua eſt poſterior capitis?",
+     "Ne ſemel alipedem ſi quis permittat abire,",
+     "Ne poſsim apprehenſo poſtmodò crine capi.",
+     "Tali opifex nos arte,tui cauſa,edidit hoſpes.",
+     "Vtq; omnes moneam:pergula aperta tenet."
+    ],
+    "reading": [
+     "L[?]ysippi hoc opus est, Sycion cui patria. Tu quis?",
+     "Cuncta domans capti temporis articulus.",
+     "Cur pinnis stas? usque rotor. Talaria plantis",
+     "Cur retines? Passim me levis aura rapit.",
+     "In dextra est tenuis dic unde novacula? Acutum",
+     "Omni acie hoc signum me magis esse docet.",
+     "Cur in fronte coma? Occurrens ut prendar.. At heus tu",
+     "Dic cur pars calva est posterior capitis?",
+     "Ne semel alipedem si quis permittat abire,",
+     "Ne possim apprehenso postmodò crine capi.",
+     "Tali opifex nos arte, tui causa, edidit hospes.",
+     "Utque omnes moneam: pergula aperta tenet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Орнаментальная рамка с маскаронами"
+  }
+ ],
+ "errata": [
+  {
+   "printed": "Διαλογισικῶς",
+   "corrected": "Διαλογιστικῶς",
+   "certainty": "вероятная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер «133» вверху справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0866",
+  "D0867",
+  "D0868",
+  "D0869",
+  "D0870",
+  "D0871",
+  "D0872",
+  "D0873",
+  "D0874",
+  "D0875",
+  "D0876",
+  "D0877",
+  "D0878",
+  "D0879",
+  "D0880"
+ ],
+ "opus_uncertain_ids": [
+  "D0866",
+  "D0867",
+  "D0874"
+ ]
+}

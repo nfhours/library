@@ -1,0 +1,52 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 189,
+ "source": "scan/frame_0189.jpg",
+ "page": "183",
+ "signature": "M 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HOSTILITAS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Obnoxia infirmitas."
+    ],
+    "reading": "Obnoxia infirmitas."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Две хищные птицы летят над морем; внизу в воде — крупная рыба (дорада), преследующая мелких рыб (сардин).",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Piſciculos orata rapit medio æquore ſardas,",
+     "Ni fugiant pauidæ,ſumma marisq; petant.",
+     "Aſt ibi ſunt mergis fuliciſq; voracibus eſca.",
+     "Eheu intuta manens vndique debilitas."
+    ],
+    "reading": [
+     "Pisciculos orata rapit medio æquore sardas,",
+     "Ni fugiant pavidæ, summa marisque petant.",
+     "Ast ibi sunt mergis fulicisque voracibus esca.",
+     "Eheu intuta manens undique debilitas."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «183» вверху справа. Сигнатура «M 4» внизу справа, под рамкой.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

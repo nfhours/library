@@ -1,0 +1,57 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 209,
+ "source": "scan/frame_0209.jpg",
+ "page": "203",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "IGNORANTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Mentem,non formam plus",
+     "pollere."
+    ],
+    "reading": "Mentem, non formam plus pollere."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Лиса держит в лапах искусно сделанную человеческую маску/голову на фоне мастерской декоратора (хорага); рядом человек за работой; на заднем плане дома и дерево.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Ingreſſa vulpes in Choragi pergulam,",
+     "Fabrè expolitum inuenit humanum caput,",
+     "Sic eleganter fabricatum,vt ſpiritus",
+     "Solùm deeſſet,cæteris viuiſceret.",
+     "Id illa cùm ſumpſiſſet in manus,ait:",
+     "Hoc quale caput eſt,ſed cerebrum non habet."
+    ],
+    "reading": [
+     "Ingressa vulpes in Choragi pergulam,",
+     "Fabrè expolitum invenit humanum caput,",
+     "Sic eleganter fabricatum, ut spiritus",
+     "Solùm deesset, cæteris viviceret.",
+     "Id illa cùm sumpsisset in manus, ait:",
+     "Hoc quale caput est, sed cerebrum non habet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «203» вверху справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

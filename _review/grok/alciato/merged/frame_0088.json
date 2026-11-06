@@ -1,0 +1,95 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 88,
+ "source": "scan/frame_0088.jpg",
+ "page": "82",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "L[?]VXVRIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Tumulus meretricis."
+    ],
+    "reading": "Tumulus meretricis."
+   },
+   "subheading": {
+    "diplomatic": "Διαλογιστικῶς.",
+    "reading": "Διαλογιστικῶς."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Гробница-саркофаг, на крышке лежит фигура умершей; на передней стенке рельеф: львица держит барана; позади колоннада/портик и деревья.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quis tumulus? Cuia vrna? Ephyrææ eſt Laidos.",
+     "ab,non",
+     "Erubuit tantum perdere Parca decus?",
+     "Nulla fuit tum forma.illam iam carpſerat ætas,",
+     "Iam ſpeculum Veneri cauta dicarat anus.",
+     "Quid ſcalptus ſibi vult aries,quem parte leæna",
+     "Vnguibus apprehenſum poſteriore tene[?]t?",
+     "Non aliter captos quòd & ipſa teneret amantes,",
+     "Vir gregis eſt aries,clune tenetur amans."
+    ],
+    "reading": [
+     "Quis tumulus? Cuia urna? Ephyrææ est Laidos. ah, non",
+     "Erubuit tantum perdere Parca decus?",
+     "Nulla fuit tum forma.illam iam carpserat ætas,",
+     "Iam speculum Veneri cauta dicarat anus.",
+     "Quid scalptus sibi vult aries, quem parte leæna",
+     "Unguibus apprehensum posteriore tene[?]t?",
+     "Non aliter captos quòd & ipsa teneret amantes,",
+     "Vir gregis est aries, clune tenetur amans."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [
+  {
+   "printed": "ab",
+   "corrected": "ah",
+   "certainty": "вероятная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер страницы «82» вверху слева. Подзаголовок греческий, со στ-лигатурой. Окончание 1-го стиха «ab,non» перенесено на отдельную строку (выключено вправо); в чтении присоединено к 1-му стиху.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0539",
+  "D0540",
+  "D0541",
+  "D0542",
+  "D0543",
+  "D0544",
+  "D0545",
+  "D0546",
+  "D0547",
+  "D0548",
+  "D0549",
+  "D0550",
+  "D0551"
+ ],
+ "opus_uncertain_ids": [
+  "D0542",
+  "D0548"
+ ]
+}

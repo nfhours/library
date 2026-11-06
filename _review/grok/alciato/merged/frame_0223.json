@@ -1,0 +1,48 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 223,
+ "source": "scan/frame_0223.jpg",
+ "page": "217",
+ "signature": "O 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "ARBORES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Picea."
+    ],
+    "reading": "Picea."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Ель (пицея) — хвойное дерево с шишками на ветвях; корни прорисованы у земли.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "At picea emittat nullos quòd ſtirpe ſtolones:",
+     "Illius eſt index,qui ſine prole perit."
+    ],
+    "reading": [
+     "At picea emittat nullos quòd stirpe stolones:",
+     "Illius est index, qui sine prole perit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «217» вверху справа. Сигнатура «O 5» внизу справа, под рамкой.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

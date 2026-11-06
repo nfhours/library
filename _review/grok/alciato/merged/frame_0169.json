@@ -1,0 +1,71 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 169,
+ "source": "scan/frame_0169.jpg",
+ "page": "163",
+ "signature": "L 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "RESPVBLICA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Reſpublica liberata."
+    ],
+    "reading": "Respublica liberata."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Большая монета с надписью по кругу; в центре колпак (пилей) на древке; фон — небо и облака",
+    "inscriptions": [
+     {
+      "where": "по кругу монеты",
+      "text": "BRVTI NOMISMA"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Cæſaris exitio,ceu libertate recepta,",
+     "Hæc ducibus Brutis cuſa moneta fuit.",
+     "Enſiculi in primis,quẽis[?] pileus inſuper adſtat,",
+     "Qualem miſſa manu ſeruitia accipiunt."
+    ],
+    "reading": [
+     "Cæsaris exitio, ceu libertate recepta,",
+     "Hæc ducibus Brutis cusa moneta fuit.",
+     "Ensiculi in primis, queis pileus insuper adstat,",
+     "Qualem missa manu servitia accipiunt."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Рамка из плетёного орнамента с маскаронами внизу"
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «163» вверху справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0956",
+  "D0957"
+ ],
+ "opus_uncertain_ids": [
+  "D0956",
+  "D0957"
+ ]
+}

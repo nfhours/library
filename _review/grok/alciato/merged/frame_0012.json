@@ -1,0 +1,130 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 12,
+ "source": "scan/frame_0012.jpg",
+ "page": "6",
+ "signature": null,
+ "catchword": null,
+ "page_type": "front_matter",
+ "running_head": null,
+ "rubric": null,
+ "emblems": [],
+ "blocks": [
+  {
+   "kind": "title_text",
+   "lang": "la",
+   "diplomatic": [
+    "CLARISS. VIRI",
+    "ANDR. AL[?]CIATI IN",
+    "Librum primum Emble-",
+    "matũ præfatio,ad Chon-",
+    "radum Peutingerum",
+    "Auguſtanum."
+   ],
+   "reading": [
+    "CLARISS. VIRI ANDR. AL[?]CIATI IN Librum primum Emblematum præfatio, ad Chonradum Peutingerum Augustanum."
+   ],
+   "notes": "Строка 1 прямыми заглавными (разрядкой), строка 2 курсивными заглавными, строки 3–6 прямым шрифтом."
+  },
+  {
+   "kind": "verse",
+   "lang": "la",
+   "diplomatic": [
+    "Dum pueros iuglans,iuuenes dum teſſerat fallit,",
+    "Detinet & ſegnes chartula picta viros:",
+    "Hæc nos feſtiuis Emblemata cudimus horis,",
+    "Artificum illuſtri ſignaq; facta manu:",
+    "Veſtibus vt torulos,petaſis vt figere parmas,",
+    "Et valeat tacitis ſcribere quiſque notis.",
+    "At tibi ſupremus precioſa uomiſma[?]ta Cæſar,",
+    "Et veterum eximias donet habere m[?]anus.",
+    "Ipſe dabo vati chartacea munera vates,",
+    "Quæ ( Chonrade ) mei pignus æmoris habe."
+   ],
+   "reading": [
+    "Dum pueros iuglans, iuvenes dum tesserat fallit,",
+    "Detinet & segnes chartula picta viros:",
+    "Hæc nos festivis Emblemata cudimus horis,",
+    "Artificum illustri signaque facta manu:",
+    "Vestibus ut torulos, petasis ut figere parmas,",
+    "Et valeat tacitis scribere quisque notis.",
+    "At tibi supremus preciosa nomismata Cæsar,",
+    "Et veterum eximias donet habere m[?]anus.",
+    "Ipse dabo vati chartacea munera vates,",
+    "Quæ ( Chonrade ) mei pignus amoris habe."
+   ],
+   "notes": "Курсив; чётные строки (пентаметры) с отступом. Между «At» и «tibi» в строке 7 мелкая точка/пятно — не принята за знак."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "под стихами",
+   "description": "Картуш-заставка с завитками и двумя подвесками-кистями, в центре пальметта"
+  }
+ ],
+ "errata": [
+  {
+   "printed": "uomiſmata",
+   "corrected": "nomiſmata",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  },
+  {
+   "printed": "æmoris",
+   "corrected": "amoris",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер страницы «6» вверху слева. Посвящение Пейтингеру внутри орнаментальной рамки (женские фигуры в нишах, как на 0011).",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0084",
+  "D0085",
+  "D0086",
+  "D0087",
+  "D0088",
+  "D0089",
+  "D0090",
+  "D0091",
+  "D0092",
+  "D0093",
+  "D0094",
+  "D0095",
+  "D0096",
+  "D0097",
+  "D0098",
+  "D0099",
+  "D0100",
+  "D0101",
+  "D0102",
+  "D0103",
+  "D0104",
+  "D0105",
+  "D0106",
+  "D0107",
+  "D0108",
+  "D0109"
+ ],
+ "opus_uncertain_ids": [
+  "D0088",
+  "D0089",
+  "D0092",
+  "D0096",
+  "D0100",
+  "D0101",
+  "D0104",
+  "D0109"
+ ]
+}

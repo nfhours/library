@@ -1,0 +1,135 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 125,
+ "source": "scan/frame_0125.jpg",
+ "page": "119",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Αντέρως, id amor virtutis."
+    ],
+    "reading": "Αντέρως, id amor virtutis."
+   },
+   "subheading": {
+    "diplomatic": "Διαλογισικῶς.",
+    "reading": "Διαλογιστικῶς."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Мужчина сидит в пейзаже (Антэрот)",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Dic vbi ſunt incurui arcus? vbi tela Cupido:",
+     "Mollia quẽ[?]t iuuenum figere corda ſoles?",
+     "Fax vbi triſtis? vbi pennæ? tres vnde corollas",
+     "Fert manus? vnde aliam tempora cincta gerũt?",
+     "Haud mihi vulgari eſt,(hoſpes )cũ Cypride ꝗcquã",
+     "Vlla voluptatis nos neque forma tulit,",
+     "Sed puris hominum ſuccendo mentibus ignes",
+     "Diſciplinæ:animos aſtraq; ad alta traho.",
+     "Quattuor eq; ipſa texo virtute corollas,",
+     "Quarum quæ Sophiæ eſt,tempora prima te[?]it."
+    ],
+    "reading": [
+     "Dic ubi sunt incurvi arcus? ubi tela Cupido:",
+     "Mollia quẽ[?]t iuvenum figere corda soles?",
+     "Fax ubi tristis? ubi pennæ? tres unde corollas",
+     "Fert manus? unde aliam tempora cincta gerunt?",
+     "Haud mihi vulgari est, (hospes ) cum Cypride quicquam",
+     "Ulla voluptatis nos neque forma tulit,",
+     "Sed puris hominum succendo mentibus ignes",
+     "Disciplinæ: animos astraque ad alta traho.",
+     "Quattuor eque ipsa texo virtute corollas,",
+     "Quarum quæ Sophiæ est, tempora prima te[?]it."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вверху",
+   "description": "Орнаментальная рамка с козлиной маской"
+  },
+  {
+   "position": "внизу",
+   "description": "Орнаментальная рамка с маскароном"
+  }
+ ],
+ "errata": [
+  {
+   "printed": "Διαλογισικῶς",
+   "corrected": "Διαλογιστικῶς",
+   "certainty": "вероятная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер «119» вверху справа. Сигнатура внизу не видна (поле чистое; по последовательности ожидалась бы H 4). Справа у эпиграммы пятно на бумаге.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0757",
+  "D0758",
+  "D0759",
+  "D0760",
+  "D0761",
+  "D0762",
+  "D0763",
+  "D0764",
+  "D0765",
+  "D0766",
+  "D0767",
+  "D0768",
+  "D0769",
+  "D0770",
+  "D0771",
+  "D0772",
+  "D0773",
+  "D0774",
+  "D0775",
+  "D0776",
+  "D0777",
+  "D0778",
+  "D0779",
+  "D0780",
+  "D0781",
+  "D0782",
+  "D0783",
+  "D0784",
+  "D0785",
+  "D0786",
+  "D0787"
+ ],
+ "opus_uncertain_ids": [
+  "D0758",
+  "D0760",
+  "D0763",
+  "D0767",
+  "D0769",
+  "D0771",
+  "D0773",
+  "D0776",
+  "D0779",
+  "D0782",
+  "D0784",
+  "D0787"
+ ]
+}

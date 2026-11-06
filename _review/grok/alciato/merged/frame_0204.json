@@ -1,0 +1,68 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 204,
+ "source": "scan/frame_0204.jpg",
+ "page": "198",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SCIENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Muſicam Dijs curæ eſſe."
+    ],
+    "reading": "Musicam Diis curæ esse."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Кифара (струнный инструмент) лежит на драпированном постаменте/алтаре; на инструменте сидит цикада; занавес на заднем плане.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Locrenſis poſuit tibi Delphice Phœbe cicadam",
+     "Eunomus hanc,palmæ ſigna decora ſuæ.",
+     "Certabat plectro Sparthyn commiſſus in hoſtem,",
+     "Et percuſſa ſonum pollice fila dabant.",
+     "Trita fides rauco cœpit cùm ſtridere bombo,",
+     "Legitimum harmonies & vitiare melos,",
+     "Tum Citharæ argutans ſuauis ſeſe intulit ales,",
+     "Quæ fractam impleret voce cicada fidem.",
+     "Quæq; allecta,ſoni ad legem deſcendit ab altis",
+     "Saltibus,vt nobis garrula ferret opem.",
+     "Ergo tuæ vt firmus ſtet honos ('o ſancte) cicadæ,",
+     "Pro cithara hic fidicen æneus ipſa ſedet."
+    ],
+    "reading": [
+     "Locrensis posuit tibi Delphice Phœbe cicadam",
+     "Eunomus hanc, palmæ signa decora suæ.",
+     "Certabat plectro Sparthyn commissus in hostem,",
+     "Et percussa sonum pollice fila dabant.",
+     "Trita fides rauco cœpit cùm stridere bombo,",
+     "Legitimum harmonies & vitiare melos,",
+     "Tum Citharæ argutans suavis sese intulit ales,",
+     "Quæ fractam impleret voce cicada fidem.",
+     "Quæque allecta, soni ad legem descendit ab altis",
+     "Saltibus, ut nobis garrula ferret opem.",
+     "Ergo tuæ ut firmus stet honos ('o sancte) cicadæ,",
+     "Pro cithara hic fidicen æneus ipsa sedet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Текст соответствует независимой заметке проекта SUMMARY.md (alc198-1 «Sparthyn», alc198-2 «fidicen æneus ipsa sedet») — это подтверждает данное чтение."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «198» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

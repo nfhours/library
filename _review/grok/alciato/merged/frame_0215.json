@@ -1,0 +1,52 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 215,
+ "source": "scan/frame_0215.jpg",
+ "page": "209",
+ "signature": "O",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "MATRIMONIVM.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Pietas filiorum in parentes."
+    ],
+    "reading": "Pietas filiorum in parentes."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Эней несёт на плечах старика (Анхиза) среди горящего города; руины, пламя на заднем плане, вдали корабль.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Per medios hoſteis patriæ,cùm ferret ab igne",
+     "Aeneas humeris dulce parentis onus.",
+     "Parcite(dicebat)vobis ſene adorea rapto",
+     "Nulla erit:erepto ſed patre ſumma mihi."
+    ],
+    "reading": [
+     "Per medios hosteis patriæ, cùm ferret ab igne",
+     "Aeneas humeris dulce parentis onus.",
+     "Parcite (dicebat) vobis sene adorea rapto",
+     "Nulla erit: erepto sed patre summa mihi."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «209» вверху справа. Сигнатура «O» внизу справа, под рамкой — начало новой тетради.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

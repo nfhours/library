@@ -1,0 +1,69 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 177,
+ "source": "scan/frame_0177.jpg",
+ "page": "171",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "MORS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Opulenti hæreditas."
+    ],
+    "reading": "Opulenti hæreditas."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Битва над телом Патрокла: воины в доспехах, лежащее тело, шатры лагеря, флаги; птицы в небе",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Patroclum falſis rapiunt hinc Troës in armis,",
+     "Hinc ſocij,atque omnis turba Pelaſga vetat.",
+     "Obtinet exuuias Hector, Græciq; cadauer.",
+     "Hæc fabella agitur,cùm vir opimus obit.",
+     "Maxima rixa oritur,tandem ſed tranſigit hæres,",
+     "Et coruis aliquid,vulturijſq; ſinit."
+    ],
+    "reading": [
+     "Patroclum falsis rapiunt hinc Troës in armis,",
+     "Hinc socii, atque omnis turba Pelasga vetat.",
+     "Obtinet exuvias Hector, Græcique cadaver.",
+     "Hæc fabella agitur, cùm vir opimus obit.",
+     "Maxima rixa oritur, tandem sed transigit hæres,",
+     "Et corvis aliquid, vulturiisque sinit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с волютами, маскаронами и фризом с гротесками внизу"
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «171» вверху справа. Над «ſed» в строке 5 случайная поме́та.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0970",
+  "D0971",
+  "D0972",
+  "D0973",
+  "D0974"
+ ]
+}

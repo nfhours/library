@@ -1,0 +1,72 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 118,
+ "source": "scan/frame_0118.jpg",
+ "page": "112",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "ASTROLOGIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Quæ ſupra nos,nihil ad nos."
+    ],
+    "reading": "Quæ supra nos, nihil ad nos."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Прометей, прикованный к скале Кавказа, лежит; орёл с распростёртыми крыльями терзает его печень; облака, птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Caucaſi a æternùm pendens in rupe Prometheus",
+     "Diripitur ſacri præpetis vngue iecur.",
+     "Et nollet feciſſe hominem:figuloſq; peroſus",
+     "Accenſam rapto damnat ab igne facem.",
+     "Roduntur varijs prudentum pectora curis,",
+     "Qui cœli affectant ſcire,deûmque[?] vices."
+    ],
+    "reading": [
+     "Caucasi a æternùm pendens in rupe Prometheus",
+     "Diripitur sacri præpetis ungue iecur.",
+     "Et nollet fecisse hominem: figulosque perosus",
+     "Accensam rapto damnat ab igne facem.",
+     "Roduntur variis prudentum pectora curis,",
+     "Qui cœli affectant scire, deûmque[?] vices."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «112» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0698",
+  "D0699",
+  "D0700",
+  "D0701",
+  "D0702",
+  "D0703",
+  "D0704"
+ ],
+ "opus_uncertain_ids": [
+  "D0700",
+  "D0703"
+ ]
+}

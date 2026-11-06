@@ -1,0 +1,69 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 40,
+ "source": "scan/frame_0040.jpg",
+ "page": "34",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "IVSTITIA.",
+ "rubric": "IVSTITIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Nec verbo,nec facto quen-",
+     "quam lædendum."
+    ],
+    "reading": "Nec verbo, nec facto quenquam lædendum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Немезида — женщина в развевающихся одеждах с покрывалом над головой — идёт/бежит вправо, держа в вытянутой руке локоть-мерку (палку с делениями) и узду; позади пейзаж с городом и деревьями, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aſſequitur,Nemeſisq; virûm veſtigia ſeruat,",
+     "Continet & cubitum,duraq; fræna manu.",
+     "Nè malè ꝗd facias:néue improba verba loquaris:",
+     "Et iubet in cunctis rebus adeſſe modum."
+    ],
+    "reading": [
+     "Assequitur, Nemesisque virûm vestigia servat,",
+     "Continet & cubitum, duraque fræna manu.",
+     "Nè malè ꝗd facias: néve improba verba loquaris:",
+     "Et iubet in cunctis rebus adesse modum."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «34» вверху слева. Заголовок локуса «IVSTITIA.» внутри полосы курсивными заглавными.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0298",
+  "D0299",
+  "D0300",
+  "D0301",
+  "D0302",
+  "D0303",
+  "D0304",
+  "D0305",
+  "D0306",
+  "D0307",
+  "D0308"
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 66,
+ "source": "scan/frame_0066.jpg",
+ "page": "60",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PERFIDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In receptatores ſicariorum."
+    ],
+    "reading": "In receptatores sicariorum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Актеон с оленьей головой и рогами, с копьём, бежит; на него набрасываются собаки; лес и руины позади.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Latronum furumq; manus tibi Scæua per vrbem",
+     "It comes:& diri[?]s cincta cohors gladijs.",
+     "Atque ita te mentis generoſum prodige ce[?]nſes,",
+     "Quòd tua complure[?]s allicit olla malos.",
+     "En nouus Actæon,qui p[?]ſtquàm cornüa ſumpſit,",
+     "In prædam canibus ſe dedit ipſe ſuis."
+    ],
+    "reading": [
+     "Latronum furumque manus tibi Scæva per urbem",
+     "It comes: & diri[?]s cincta cohors gladiis.",
+     "Atque ita te mentis generosum prodige ce[?]nses,",
+     "Quòd tua complure[?]s allicit olla malos.",
+     "En novus Actæon, qui po[?]stquàm cornüa sumpsit,",
+     "In prædam canibus se dedit ipse suis."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «60» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0443",
+  "D0444",
+  "D0445",
+  "D0446",
+  "D0447",
+  "D0448",
+  "D0449",
+  "D0450",
+  "D0451",
+  "D0452",
+  "D0453",
+  "D0454",
+  "D0455",
+  "D0456",
+  "D0457"
+ ],
+ "opus_uncertain_ids": [
+  "D0443",
+  "D0444",
+  "D0446",
+  "D0448",
+  "D0449",
+  "D0451",
+  "D0452",
+  "D0455",
+  "D0456"
+ ]
+}

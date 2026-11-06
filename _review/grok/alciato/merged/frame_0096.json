@@ -1,0 +1,72 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 96,
+ "source": "scan/frame_0096.jpg",
+ "page": "90",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "DESIDIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In facilè à virtute deſci-",
+     "ſcentes."
+    ],
+    "reading": "In facilè à virtute desciscentes."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Корабль под парусами в бурном море остановлен маленькой рыбой-прилипалой (ремора) у носа; справа солнце с лучами.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Parua velut limax ſpreto Remora impete venti,",
+     "Remorumq;,ratem ſiſtere ſola poteſt.",
+     "Sic quoſdam ingenio,& virtute ad ſidera vectos,",
+     "Detinet in medio tramite,cauſa leuis:",
+     "Anxialis veluti eſt:vel qui meretricius ardor",
+     "Egregijs iuuenes ſeuocat à ſtudijs."
+    ],
+    "reading": [
+     "Parva velut limax spreto Remora impete venti,",
+     "Remorumque, ratem sistere sola potest.",
+     "Sic quosdam ingenio, & virtute ad sidera vectos,",
+     "Detinet in medio tramite, causa levis:",
+     "Anxia lis veluti est: vel qui meretricius ardor",
+     "Egregiis iuvenes sevocat à studiis."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [
+  {
+   "printed": "Anxialis",
+   "corrected": "Anxia lis",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер страницы «90» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0570",
+  "D0571"
+ ]
+}

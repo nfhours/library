@@ -1,0 +1,91 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 102,
+ "source": "scan/frame_0102.jpg",
+ "page": "96",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AVARITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In diuites publico malo."
+    ],
+    "reading": "In divites publico malo."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Двое рыбаков в мутной воде ловят угрей острогами/палками; позади замок на холме, деревья, птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Anguillas quiſquis captat,ſi limpida verrat",
+     "Flumina,ſi illimes auſit adire lacus,",
+     "Caſſus erit:ludetq; operam:multùm excitet[?] ergo",
+     "Sicretæ,& vitreas palmula turbet aqnas:",
+     "Diues erit.Sic ijs res publica turbida lucro eſt,",
+     "Qui pace,arctati legibus,eſuriunt."
+    ],
+    "reading": [
+     "Anguillas quisquis captat, si limpida verrat",
+     "Flumina, si illimes ausit adire lacus,",
+     "Cassus erit: ludetque operam: multùm excitet[?] ergo",
+     "Si cretæ, & vitreas palmula turbet aquas:",
+     "Dives erit.Sic iis res publica turbida lucro est,",
+     "Qui pace, arctati legibus, esuriunt."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [
+  {
+   "printed": "aqnas",
+   "corrected": "aquas",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  },
+  {
+   "printed": "Sicretæ",
+   "corrected": "Si cretæ",
+   "certainty": "вероятная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер страницы «96» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0596",
+  "D0597",
+  "D0598",
+  "D0599",
+  "D0600",
+  "D0601",
+  "D0602",
+  "D0603",
+  "D0604",
+  "D0605",
+  "D0606"
+ ],
+ "opus_uncertain_ids": [
+  "D0598",
+  "D0603"
+ ]
+}

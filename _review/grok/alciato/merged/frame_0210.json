@@ -1,0 +1,52 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 210,
+ "source": "scan/frame_0210.jpg",
+ "page": "204",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "IGNORANTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Diues indoctus."
+    ],
+    "reading": "Dives indoctus."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Фрикс верхом на золотом овне переплывает море; волны, облака, звёзды; на заднем плане берег с постройками, парусное судно.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Tranat aquas reſidẽs precioſo in vellere Phrixus,",
+     "Et flauam inpauidus per mare ſcandit ouem.",
+     "Ecquid id eſt?vir ſenſu hebeti,ſed diuite gaza,",
+     "Coniugis aut ſerui quem regit arbitrium."
+    ],
+    "reading": [
+     "Tranat aquas residens precioso in vellere Phrixus,",
+     "Et flavam inpavidus per mare scandit ovem.",
+     "Ecquid id est? vir sensu hebeti, sed divite gaza,",
+     "Coniugis aut servi quem regit arbitrium."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «204» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

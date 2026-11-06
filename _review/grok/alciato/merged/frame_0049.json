@@ -1,0 +1,94 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 49,
+ "source": "scan/frame_0049.jpg",
+ "page": "43",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTITVDO.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Obdurandum aduerſus",
+     "vrgentia."
+    ],
+    "reading": "Obdurandum adversus urgentia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Нагой мальчик (путто) летит/взбирается в воздухе у высокой пальмы, тянясь к ветвям; внизу река, мост, скалы и городок; в небе птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Nititur in pondus.palma,& conſurgit in arcum,",
+     "Quò magis & premitnr,hoc mage tollit onus:",
+     "Fert & odoratas bellaria dulcia glandes,",
+     "Quẽis[?] menſas inter primus habetur honos.",
+     "I puer,& reptans ramis has collige,mentis",
+     "Qui conſtantis erit,præmia digna feret."
+    ],
+    "reading": [
+     "Nititur in pondus. palma, & consurgit in arcum,",
+     "Quò magis & premitur, hoc mage tollit onus:",
+     "Fert & odoratas bellaria dulcia glandes,",
+     "Queis mensas inter primus habetur honos.",
+     "I puer, & reptans ramis has collige, mentis",
+     "Qui constantis erit, præmia digna feret."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [
+  {
+   "printed": "premitnr",
+   "corrected": "premitur",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер страницы «43» вверху справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0341",
+  "D0342",
+  "D0343",
+  "D0344",
+  "D0345",
+  "D0346",
+  "D0347",
+  "D0348",
+  "D0349",
+  "D0350",
+  "D0351",
+  "D0352",
+  "D0353",
+  "D0354",
+  "D0355",
+  "D0356"
+ ],
+ "opus_uncertain_ids": [
+  "D0342",
+  "D0345",
+  "D0347",
+  "D0350",
+  "D0353",
+  "D0356"
+ ]
+}

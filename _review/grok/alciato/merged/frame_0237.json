@@ -1,0 +1,70 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 237,
+ "source": "scan/frame_0237.jpg",
+ "page": "[231]",
+ "signature": null,
+ "catchword": null,
+ "page_type": "index",
+ "running_head": null,
+ "rubric": null,
+ "emblems": [],
+ "columns": {
+  "left": [
+   "Abies  216",
+   "Picea  217",
+   "Cotonea  218",
+   "Hedera  220",
+   "Ilex  220",
+   "Malus medica  221"
+  ],
+  "right": [
+   "Buxus  222",
+   "Morus  223",
+   "Amygdalus  224",
+   "Laurus  225",
+   "Populus alba.  226",
+   "FINIS."
+  ]
+ },
+ "entries": [
+  {"locus": "ARBORES.", "motto_diplomatic": "Abies", "motto_reading": "Abies", "page_ref": "216"},
+  {"locus": "ARBORES.", "motto_diplomatic": "Picea", "motto_reading": "Picea", "page_ref": "217"},
+  {"locus": "ARBORES.", "motto_diplomatic": "Cotonea", "motto_reading": "Cotonea", "page_ref": "218"},
+  {"locus": "ARBORES.", "motto_diplomatic": "Hedera", "motto_reading": "Hedera", "page_ref": "220", "notes": "В книге этой статье соответствует с. 219 (кадр 0225, самостоятельно транскрибирован в этом проходе); печатный номер «220» совпадает с номером следующей статьи «Ilex» (верно для неё) — вероятная опечатка/сдвиг на единицу."},
+  {"locus": "ARBORES.", "motto_diplomatic": "Ilex", "motto_reading": "Ilex", "page_ref": "220"},
+  {"locus": "ARBORES.", "motto_diplomatic": "Malus medica", "motto_reading": "Malus medica", "page_ref": "221"},
+  {"locus": "ARBORES.", "motto_diplomatic": "Buxus", "motto_reading": "Buxus", "page_ref": "222"},
+  {"locus": "ARBORES.", "motto_diplomatic": "Morus", "motto_reading": "Morus", "page_ref": "223"},
+  {"locus": "ARBORES.", "motto_diplomatic": "Amygdalus", "motto_reading": "Amygdalus", "page_ref": "224"},
+  {"locus": "ARBORES.", "motto_diplomatic": "Laurus", "motto_reading": "Laurus", "page_ref": "225"},
+  {"locus": "ARBORES.", "motto_diplomatic": "Populus alba.", "motto_reading": "Populus alba.", "page_ref": "226"}
+ ],
+ "blocks": [
+  {
+   "kind": "colophon",
+   "lang": "la",
+   "diplomatic": [
+    "Lugduni,",
+    "Excudebat Mathias Bonhomme."
+   ],
+   "reading": [
+    "Lugduni,",
+    "Excudebat Mathias Bonhomme."
+   ],
+   "notes": "Колофон напечатан в центре нижней трети страницы, вслед за окончанием указателя и словом «FINIS.»; ниже — чистое поле до конца страницы."
+  }
+ ],
+ "ornaments": [],
+ "errata": [
+  {"printed": "Hedera ... 220", "corrected": "219", "certainty": "вероятная", "applied_in_reading": false, "comment": "Сверено с собственной транскрипцией кадра 0225 (с. 219); номер совпадает со следующей статьёй «Ilex» (с. 220 — верно для неё). У page_ref нет слоя чтения: в entries остаётся напечатанный номер, исправление — только в errata (applied_in_reading: false по этой причине). Цифры подтверждены зумом x3–x4. Resolved 2026-11-06 (Opus zoom pass on Getty scan, pending_review cleanup). resolved_by: policy"}
+ ],
+ "notes": "Окончание указателя (Index emblematum) и колофон на одной полосе, как указано в инструкции проекта (§1): страница получает page_type «index», колофон — отдельным блоком blocks[]. Печатного номера страницы и колонтитула нет; page=[231] выведен по правилу «страница N = кадр N + 6». Последняя страница транскрибируемого объёма книги (0238–0244 — форзац/переплёт, вне объёма этого прохода).",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

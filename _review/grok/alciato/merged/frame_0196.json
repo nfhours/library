@@ -1,0 +1,56 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 196,
+ "source": "scan/frame_0196.jpg",
+ "page": "190",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PAX.",
+ "rubric": "PAX.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "PAX."
+    ],
+    "reading": "Pax."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Слон с башней на спине везёт повозку; на слоне сидит погонщик с палкой; рядом идут фигуры со штандартами/опахалами.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Turrigeris humeris,dentis quoq; barrus eburni,",
+     "Qui ſuperare ferox Martia bella ſolet,",
+     "Suppoſuit nunc colla iugo:ſtimuliſq; ſubactus,",
+     "Cæſareos currus ad pia templa vehit.",
+     "Vel fera cognoſcit concordes vndique gentes.",
+     "Proiectiſq; armis munia pacis obit."
+    ],
+    "reading": [
+     "Turrigeris humeris, dentis quoque barrus eburni,",
+     "Qui superare ferox Martia bella solet,",
+     "Supposuit nunc colla iugo: stimulisque subactus,",
+     "Cæsareos currus ad pia templa vehit.",
+     "Vel fera cognoscit concordes undique gentes.",
+     "Proiectisque armis munia pacis obit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "«PAX.» — начало нового раздела книги (колонтитул и заголовок внутри полосы совпадают с девизом)."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «190» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 27,
+ "source": "scan/frame_0027.jpg",
+ "page": "21",
+ "signature": "B 3",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Vigilantia,& cuſtodia."
+    ],
+    "reading": "Vigilantia, & custodia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Фасад храма/церкви с фронтоном и аркой входа, по сторонам полукруглые колоннады; над фасадом башенка-колокольня с флюгером-петухом; в дверном проёме неясная фигура (лев?); в небе облака и стая птиц.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Inſtantis quòd ſigna canens det gallus ëoi,",
+     "Et reuocet famulas ad noua penſa manus:",
+     "Turribus in ſacris effingitur,ærea mentem",
+     "Ad ſuperos peluis[?] quòd reuocet vigilem,",
+     "Eſt leo.ſed cuſtos oculis quia dormit apertis:",
+     "Templorum idcirco[?] ponitur ante fores."
+    ],
+    "reading": [
+     "Instantis quòd signa canens det gallus ëoi,",
+     "Et revocet famulas ad nova pensa manus:",
+     "Turribus in sacris effingitur, ærea mentem",
+     "Ad superos pelvis[?] quòd revocet vigilem,",
+     "Est leo.sed custos oculis quia dormit apertis:",
+     "Templorum idcirco[?] ponitur ante fores."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «21» вверху справа; сигнатура «B 3» внизу справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0196",
+  "D0197",
+  "D0198",
+  "D0199",
+  "D0200",
+  "D0201",
+  "D0202",
+  "D0203",
+  "D0204",
+  "D0205",
+  "D0206",
+  "D0207",
+  "D0208",
+  "D0209",
+  "D0210"
+ ],
+ "opus_uncertain_ids": [
+  "D0197",
+  "D0198",
+  "D0199",
+  "D0200",
+  "D0202",
+  "D0204",
+  "D0205",
+  "D0206",
+  "D0207",
+  "D0209",
+  "D0210"
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 98,
+ "source": "scan/frame_0098.jpg",
+ "page": "92",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AVARITIA.",
+ "rubric": "AVARITIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Auaritia."
+    ],
+    "reading": "Avaritia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Тантал стоит по грудь в воде пруда, над ним дерево с плодами; по сторонам деревья, тростник.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Heu miſer in medijs ſitiens ſtat Tantalus vndis,",
+     "Et poma eſuriens proxima,habere nequit.",
+     "Nomine mutato de te id dicetur auare,",
+     "Qui,quaſi non habeas,non frueris quod habes."
+    ],
+    "reading": [
+     "Heu miser in mediis sitiens stat Tantalus undis,",
+     "Et poma esuriens proxima, habere nequit.",
+     "Nomine mutato de te id dicetur avare,",
+     "Qui, quasi non habeas, non frueris quod habes."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «92» вверху слева. Заголовок локуса «AVARITIA.» курсивными заглавными. Первая буква девиза закрыта чернильным пятном.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ]
+}

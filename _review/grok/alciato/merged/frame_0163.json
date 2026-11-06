@@ -1,0 +1,81 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 163,
+ "source": "scan/frame_0163.jpg",
+ "page": "157",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRINCEPS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In Senatum boni principis."
+    ],
+    "reading": "In Senatum boni principis."
+   },
+   "subheading": {
+    "diplomatic": "DIALOGISMVS.",
+    "reading": "DIALOGISMUS."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Фиванский сенат: судьи без рук сидят в зале, председатель посередине (слепой); плиточный пол",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Effigies manibus truncæ ante altaria diuûm",
+     "Hic reſident:quarum lumine capta prior.",
+     "Signa Poteſtatis ſummæ,Sanctiq; Senatus",
+     "Thebanis fuerant iſta reperta viris.",
+     "Cur reſident? Quia mẽte graues decet eſſe quieta",
+     "Iuridicos:animo nec variare leui.",
+     "Cur ſine ſunt manibus? Capiant ne xenia:nec ſe",
+     "Pollicitis flecti muneribúſue ſinant.",
+     "Cæcus at eſt princeps.quòd ſolis auribus,abſq;",
+     "Affectu,conſtans iuſſa Senatus agit."
+    ],
+    "reading": [
+     "Effigies manibus truncæ ante altaria divûm",
+     "Hic resident: quarum lumine capta prior.",
+     "Signa Potestatis summæ, Sanctique Senatus",
+     "Thebanis fuerant ista reperta viris.",
+     "Cur resident? Quia mente graves decet esse quieta",
+     "Iuridicos: animo nec variare levi.",
+     "Cur sine sunt manibus? Capiant ne xenia: nec se",
+     "Pollicitis flecti muneribúsue sinant.",
+     "Cæcus at est princeps. quòd solis auribus, absque",
+     "Affectu, constans iussa Senatus agit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с волютами и фигурами"
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «157» вверху справа. Подзаголовок «DIALOGISMVS.» набран латинскими разреженными капителями.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0949",
+  "D0950",
+  "D0951",
+  "D0952",
+  "D0953"
+ ]
+}

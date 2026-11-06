@@ -1,0 +1,68 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 208,
+ "source": "scan/frame_0208.jpg",
+ "page": "202",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "IGNORANTIA.",
+ "rubric": "IGNORANTIA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Submouendam ignorantiam."
+    ],
+    "reading": "Submovendam ignorantiam."
+   },
+   "subheading": {
+    "diplomatic": "Διαλογισμός.",
+    "reading": "Dialogismos."
+   },
+   "engraving": {
+    "position": "между подзаголовком и эпиграммой",
+    "description": "Сфинкс (крылатое существо с человеческой головой и львиными лапами) стоит на дороге среди руин построек; холмы на заднем плане.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quod mõſtrũ id? Sphinx eſt.Cur cãdida virginis ora,",
+     "Et volucrum pennas,crura leonis habet?",
+     "Hanc faciem aſſumpſit rerum ignorantia:tanti",
+     "Scilicet eſt triplex cauſa & origo mali.",
+     "Sunt quos ingeniũ leue,ſunt quos blanda voluptas,",
+     "Sunt & quos faciunt corda ſuperba rudes.",
+     "At quibus eſt notum,quid Delphica littera poſsit:",
+     "Præcipitis monſtri guttura dira ſecant.",
+     "Nãq; vir ipſe,bipesq;,tripesq; & quadrupes idẽ eſt,",
+     "Primaq; prudentis laurea,noſſe virum."
+    ],
+    "reading": [
+     "Quod monstrum id? Sphinx est. Cur candida virginis ora,",
+     "Et volucrum pennas, crura leonis habet?",
+     "Hanc faciem assumpsit rerum ignorantia: tanti",
+     "Scilicet est triplex causa & origo mali.",
+     "Sunt quos ingenium leve, sunt quos blanda voluptas,",
+     "Sunt & quos faciunt corda superba rudes.",
+     "At quibus est notum, quid Delphica littera possit:",
+     "Præcipitis monstri guttura dira secant.",
+     "Namque vir ipse, bipesque, tripesque & quadrupes idem est,",
+     "Primaque prudentis laurea, nosse virum."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Греческий подзаголовок «Διαλογισμός.» (ср. 0185 «Προσωποποιΐα.») — подтверждён обычным шрифтовым начертанием, без лигатур, уверенно читается."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «202» вверху слева. «IGNORANTIA.» — начало нового раздела книги.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

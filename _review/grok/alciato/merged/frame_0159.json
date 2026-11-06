@@ -1,0 +1,66 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 159,
+ "source": "scan/frame_0159.jpg",
+ "page": "153",
+ "signature": "K 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In deſciſcentes."
+    ],
+    "reading": "In desciscentes."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Коза опрокидывает копытом подойник с молоком; позади стадо и пейзаж",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quòd fine egregios turpi maculaueris orſus,",
+     "In noxamq; tuum verteris officium,",
+     "Feciſti,quod capra,ſui mulctraria lactis",
+     "Cùm ferit,& proprias calce profundit opes."
+    ],
+    "reading": [
+     "Quòd ſine egregios turpi maculaveris orsus,",
+     "In noxamque tuum verteris officium,",
+     "Fecisti, quod capra, sui mulctraria lactis",
+     "Cùm ferit, & proprias calce profundit opes."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Рамка из гнутого растительного орнамента (арабески)"
+  }
+ ],
+ "errata": [
+  {
+   "printed": "fine",
+   "corrected": "ſine",
+   "certainty": "очевидная",
+   "applied_in_reading": true,
+   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
+  }
+ ],
+ "notes": "Номер «153» вверху справа. После «orſus,» у края случайная помета.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t4"
+ ]
+}

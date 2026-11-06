@@ -1,0 +1,77 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 173,
+ "source": "scan/frame_0173.jpg",
+ "page": "167",
+ "signature": "L 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "MORS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "De Morte,& Amore."
+    ],
+    "reading": "De Morte, & Amore."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "В облаках Смерть и Купидон пускают стрелы; внизу старик и лежащие тела юношей",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Errabat ſocio Mors iuncta Cupidine.ſecum",
+     "Mors pharêtras,paruus tela gerebat Amor.",
+     "Diuertêre ſimul,ſimul vna & nocte cubârunt,",
+     "Cæcus Amor,Mors hoc tempore cæca fuit.",
+     "Alter enim alterius malè ꝓuida ſpicula ſumpſit:",
+     "Mors aurata,tenet oſſea tela puer.",
+     "Debuit inde ſenex qui nunc Acheronticus eſſe:",
+     "Ecce amat,& capiti florea ſerta parat.",
+     "Aſt ego mutato quia Amor me perculit arcu,",
+     "Deficio:inijciunt & mihi fata manum.",
+     "Parce puer,Mors ſigna tenens victricia parce.",
+     "Fac ego amem:ſubeat fac Acheronta ſenex."
+    ],
+    "reading": [
+     "Errabat socio Mors iuncta Cupidine. secum",
+     "Mors pharêtras, parvus tela gerebat Amor.",
+     "Divertêre simul, simul una & nocte cubârunt,",
+     "Cæcus Amor, Mors hoc tempore cæca fuit.",
+     "Alter enim alterius malè provida spicula sumpsit:",
+     "Mors aurata, tenet ossea tela puer.",
+     "Debuit inde senex qui nunc Acheronticus esse:",
+     "Ecce amat, & capiti florea serta parat.",
+     "Ast ego mutato quia Amor me perculit arcu,",
+     "Deficio: iniiciunt & mihi fata manum.",
+     "Parce puer, Mors signa tenens victricia parce.",
+     "Fac ego amem: subeat fac Acheronta senex."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Рамка с фигурами путти, ладьёй и волнами внизу"
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «167» вверху справа.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0965"
+ ]
+}

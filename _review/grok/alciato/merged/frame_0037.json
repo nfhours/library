@@ -1,0 +1,83 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 37,
+ "source": "scan/frame_0037.jpg",
+ "page": "31",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRVDENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In ſtatuam Bacchi."
+    ],
+    "reading": "In statuam Bacchi."
+   },
+   "subheading": {
+    "diplomatic": "DIALOGISMVS.",
+    "reading": "DIALOGISMUS."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Обнажённый юный Вакх с венком/рожками на голове сидит на земле (на бочке/камне), в одной руке держит бубен-тимпан, в другой палочку или флейту у рта; над ним виноградная лоза с гроздьями; на земле чаша.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Bacche pater:quis te mortali lumine nouit?",
+     "Et docta effinxit quis tua membra manu?",
+     "Praxiteles,qui me rapientem C[?]noſida uidit.",
+     "Atque illo pinxit tempore qualis eram.",
+     "Cur iuuenis,teneraq; etiam lanugine vernat",
+     "Barba,queas Pylium cùm ſuperare ſenem?"
+    ],
+    "reading": [
+     "Bacche pater: quis te mortali lumine novit?",
+     "Et docta effinxit quis tua membra manu?",
+     "Praxiteles, qui me rapientem C[?]nosida vidit.",
+     "Atque illo pinxit tempore qualis eram.",
+     "Cur iuvenis, teneraque etiam lanugine vernat",
+     "Barba, queas Pylium cùm superare senem?"
+    ]
+   },
+   "continues_on_next_page": true,
+   "notes": "Q06 резолюция (policy): «etiam» подтверждено зумом ранее (Opus-проход), повреждения литеры нет, [?] снят; опечаткой не является."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «31» вверху справа. Подзаголовок «DIALOGISMVS.» капителями. Эпиграмма продолжается на кадре 0038.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0272",
+  "D0273",
+  "D0274",
+  "D0275",
+  "D0276",
+  "D0277",
+  "D0278",
+  "D0279",
+  "D0280",
+  "D0281"
+ ],
+ "opus_uncertain_ids": [
+  "D0272",
+  "D0273",
+  "D0275",
+  "D0277",
+  "D0278",
+  "D0280"
+ ]
+}

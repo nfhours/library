@@ -1,0 +1,60 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 207,
+ "source": "scan/frame_0207.jpg",
+ "page": "201",
+ "signature": "N 5",
+ "catchword": null,
+ "page_type": "emblem_continuation",
+ "running_head": "SCIENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": null,
+   "continuation_of": {
+    "frame": 206,
+    "page": "200",
+    "motto": "Dicta septem sapientum."
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quod Periander ait,fræna adde Corinthius iræ:",
+     "Pulegium admotum naribus efficiet.",
+     "Pittacus at ne quid(dixit)nimis.hæc eadem aiunt,",
+     "Contracto qui gith ore liquefaciunt.",
+     "Reſpexiſſe Solon finem iubet.vltimus agris,",
+     "Terminus,haud magno ceſſerit ipſe Ioui.",
+     "Heu quàm vera Bias,Eſt copia magna malorum:",
+     "Muſmoni inſideat effice Sardus eques.",
+     "Ne præs eſto(Thales dixit)ſic illita viſco",
+     "In laqueos ſociam parra,meropſq; trahit."
+    ],
+    "reading": [
+     "Quod Periander ait, fræna adde Corinthius iræ:",
+     "Pulegium admotum naribus efficiet.",
+     "Pittacus at ne quid (dixit) nimis. hæc eadem aiunt,",
+     "Contracto qui gith ore liquefaciunt.",
+     "Respexisse Solon finem iubet. ultimus agris,",
+     "Terminus, haud magno cesserit ipse Iovi.",
+     "Heu quàm vera Bias, Est copia magna malorum:",
+     "Musmoni insideat effice Sardus eques.",
+     "Ne præs esto (Thales dixit) sic illita visco",
+     "In laqueos sociam parra, meropsque trahit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Окончание эпиграммы, начатой на 0206. Строки нумеруются заново для этой страницы. Отдельной гравюры на этой странице нет."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «201» вверху справа. Сигнатура «N 5» внизу справа, под рамкой.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}

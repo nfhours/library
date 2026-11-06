@@ -1,0 +1,95 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 14,
+ "source": "scan/frame_0014.jpg",
+ "page": "8",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "EMBLEM. DEDIC.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Mediolanum."
+    ],
+    "reading": "Mediolanum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Руины античного города: развалины храма с фронтоном, круглая постройка, столб/обелиск, кирпичные стены и арки; на переднем плане человек с лопатой/киркой копает землю, рядом в яме лежит откопанное животное (свинья-кабан?) и второй землекоп; вдали горы и замок, птицы в небе.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "E[?]ituricis veruex,Heduis dat Sucula ſignum.",
+     "His populis patriæ debita origo meæ eſt,",
+     "Quam Mediolanum ſacram dixêre puellæ",
+     "Terram:nam vetus hoc Gallica lingua ſonat.",
+     "Culta Minerua fuit,nu[?]nc eſt,vbi numine Tecla",
+     "Mutato matris virginis ante domum.",
+     "Laniger huic ſignum[?] ſus eſt,animalq; biforme,",
+     "Acribus hinc ſetis,lanitio inde leui."
+    ],
+    "reading": [
+     "E[?]ituricis vervex, Heduis dat Sucula signum.",
+     "His populis patriæ debita origo meæ est,",
+     "Quam Mediolanum sacram dixêre puellæ",
+     "Terram: nam vetus hoc Gallica lingua sonat.",
+     "Culta Minerva fuit, nu[?]nc est, ubi numine Tecla",
+     "Mutato matris virginis ante domum.",
+     "Laniger huic signum[?] sus est, animalque biforme,",
+     "Acribus hinc setis, lanitio inde levi."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «8» вверху слева. Колонтитул «EMBLEM. DEDIC.»; внутри полосы заголовка локуса нет. Мелкий штрих перед «eſt» в строке 7 — не принят за знак.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "t1",
+ "_runs_used": [
+  "t1",
+  "t2",
+  "t3",
+  "t4"
+ ],
+ "opus_resolved_ids": [
+  "D0114",
+  "D0115",
+  "D0116",
+  "D0117",
+  "D0118",
+  "D0119",
+  "D0120",
+  "D0121",
+  "D0122",
+  "D0123",
+  "D0124",
+  "D0125",
+  "D0126",
+  "D0127"
+ ],
+ "opus_uncertain_ids": [
+  "D0114",
+  "D0115",
+  "D0116",
+  "D0117",
+  "D0118",
+  "D0119",
+  "D0120",
+  "D0121",
+  "D0122",
+  "D0123",
+  "D0124",
+  "D0125",
+  "D0126",
+  "D0127"
+ ]
+}

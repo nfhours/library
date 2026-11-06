@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 220,
+ "source": "scan/frame_0220.jpg",
+ "page": "214",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "ARBORES.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Quercus."
+    ],
+    "reading": "Quercus."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Дуб — дерево с густой листвой и желудями; у корней несколько опавших желудей; корни прорисованы у земли.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Grata Ioui eſt quercus,qui nos ſeruatq; fouetq;,",
+     "Seruanti ciuem querna corona datur.",
+     "ALIVD.",
+     "Glande aluit veteres,ſola nunc proficit vmbra,",
+     "Sic quoque ſic arbos officioſa Iouis."
+    ],
+    "reading": [
+     "Grata Iovi est quercus, qui nos servatque fovetque,",
+     "Servanti civem querna corona datur.",
+     "ALIUD.",
+     "Glande aluit veteres, sola nunc proficit umbra,",
+     "Sic quoque sic arbos officiosa Iovis."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер страницы «214» вверху слева.",
+ "status": "clean",
+ "discrepancy_ids": [],
+ "open_question_ids": [],
+ "_merge_source_run": "single-pass-t5",
+ "_runs_used": [
+  "t5"
+ ]
+}
