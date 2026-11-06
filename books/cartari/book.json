@@ -23,6 +23,9 @@
     "data": "chapters_ru.json",
     "links": "chapter_links.tsv",
     "plates": "plates.json",
+    "pagemap": "pagemap.json",
+    "pagesIt": "pages_it.json",
+    "scans": "scans/",
     "parts": [
       {
         "name": {

@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "96";
+  var APP_VER = "97";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -140,6 +140,15 @@
     tvNone:       {ru:"Ничего не найдено.", en:"Nothing found.", fr:"Rien trouvé."},
     tvSee:        {ru:"см.", en:"see", fr:"voir"},
     tvPage:       {ru:"с.", en:"p.", fr:"p."},
+    svScan:       {ru:"Скан", en:"Scan", fr:"Scan"},
+    svIt:         {ru:"Итальянский текст", en:"Italian text", fr:"Texte italien"},
+    svOpen:       {ru:"Открыть скан страницы {p} издания 1626 года", en:"Open the scan of page {p} of the 1626 edition", fr:"Ouvrir le scan de la page {p} de l’édition de 1626"},
+    svTitle:      {ru:"тит.", en:"title", fr:"titre"},
+    svDedic:      {ru:"посв.", en:"ded.", fr:"dédic."},
+    svDlg:        {ru:"Оригинал 1626 года", en:"Original of 1626", fr:"Original de 1626"},
+    svPrev:       {ru:"Предыдущая страница", en:"Previous page", fr:"Page précédente"},
+    svNext:       {ru:"Следующая страница", en:"Next page", fr:"Page suivante"},
+    svNoText:     {ru:"Текста на этой странице нет.", en:"No text on this page.", fr:"Pas de texte sur cette page."},
     tvOpen:       {ru:"Открыть место в переводе", en:"Open the place in the translation", fr:"Ouvrir l’endroit dans la traduction"},
     hmNames:      {ru:"Имена", en:"Names", fr:"Noms"},
     hmNamesSub:   {ru:"Боги, герои, авторы, места и народы", en:"Gods, heroes, authors, places and peoples", fr:"Dieux, héros, auteurs, lieux et peuples"},
@@ -551,6 +560,7 @@
   function route(){
     renderGen++;
     if(activeSheetClose){ activeSheetClose(); }
+    if(sv) sv.close();
     var p = parseHash(), gen = renderGen;
     if(!p.slug){ renderLibraryHome(); return; }
     openBook(p.slug, function(book){
@@ -1155,7 +1165,8 @@
     Promise.all([
       fetch(base+cfg.data,{cache:"no-cache"}).then(function(r){ if(!r.ok) throw 0; return r.json(); }),
       fetch(base+cfg.links,{cache:"no-cache"}).then(function(r){ return r.ok ? r.text() : ""; }).catch(function(){ return ""; }),
-      cfg.plates ? fetch(base+cfg.plates,{cache:"no-cache"}).then(function(r){ return r.ok ? r.json() : {}; }).catch(function(){ return {}; }) : Promise.resolve({})
+      cfg.plates ? fetch(base+cfg.plates,{cache:"no-cache"}).then(function(r){ return r.ok ? r.json() : {}; }).catch(function(){ return {}; }) : Promise.resolve({}),
+      cfg.pagemap ? fetch(base+cfg.pagemap,{cache:"no-cache"}).then(function(r){ return r.ok ? r.json() : {}; }).catch(function(){ return {}; }) : Promise.resolve({})
     ]).then(function(res){
       var list = res[0].chapters || [], bySlug = {}, links = {};
       list.forEach(function(c){ bySlug[c.slug] = c; });
@@ -1166,7 +1177,7 @@
       });
       var pls = (res[2] && res[2].plates) || [], byId = {}, byOld = {};
       pls.forEach(function(p){ byId[p.id] = p; (p.old_ids||[]).forEach(function(o){ byOld[o] = p.id; }); });
-      book.chap = {list:list, bySlug:bySlug, links:links, pl:{list:pls, byId:byId, byOld:byOld}};
+      book.chap = {list:list, bySlug:bySlug, links:links, pl:{list:pls, byId:byId, byOld:byOld}, pm:(res[3] && res[3].chapters) || {}};
       cb(book.chap);
     }).catch(function(){ book.chap = null; cb(null); });
   }
@@ -1271,8 +1282,16 @@
         return c ? '<button type="button" data-ch="'+esc(c.slug)+'"><small>'+esc(label)+'</small><span>'+esc(c.title)+'</span></button>'
                  : '<button type="button" disabled></button>';
       }
+      var pmRows = (ch && chap.pm[slug]) || [], pmAt = {};
+      pmRows.forEach(function(r, i){ (pmAt[r[2]] = pmAt[r[2]] || []).push(i); });
+      function pgmHtml(b){
+        return (pmAt[b.n] || []).map(function(i, k){
+          var lb = pgLabel(pmRows[i][1]);
+          return '<div class="ic-pgm" style="--k:'+k+'"><button type="button" class="ic-pgm-b" data-pi="'+i+'" aria-pressed="false" aria-label="'+esc(t("svOpen",{p:pmRows[i][1]}))+'">'+esc(lb)+'</button></div>';
+        }).join("");
+      }
       var body = ch && ch.blocks
-        ? '<div class="ic-text ic-ch-body" lang="ru">'+ch.blocks.map(function(b){ return figsHtml(book, b)+blockHtml(book, b); }).join("")+'</div>'
+        ? '<div class="ic-text ic-ch-body" lang="ru">'+ch.blocks.map(function(b){ return pgmHtml(b)+figsHtml(book, b)+blockHtml(book, b); }).join("")+'</div>'
         : '<p class="ic-sub">'+esc(t("chNotYet"))+'</p>';
       root.innerHTML =
         '<div class="ic-wrap ic-ch-wrap">'+
@@ -1301,6 +1320,7 @@
       if(tocBtn) tocBtn.addEventListener("click",function(){ openChapToc(book, chap, ch, tocBtn); });
       root.querySelectorAll("[data-ch]").forEach(function(b){ b.addEventListener("click",function(){ location.hash = chapterHref(book, b.getAttribute("data-ch")).replace(/^#/,""); }); });
       root.querySelectorAll(".ic-fig").forEach(function(f){ f.addEventListener("click",function(){ lightbox(f.getAttribute("data-src")); }); });
+      root.querySelectorAll(".ic-pgm-b").forEach(function(b){ b.addEventListener("click",function(){ openSv(book, pmRows, +b.getAttribute("data-pi")); }); });
       var okN = blockN && /^[1-9]\d*$/.test(blockN), figs = okN ? root.querySelectorAll('.ic-ch-body [data-for="'+blockN+'"]') : [];
       var target = okN ? (figs.length ? figs[0] : root.querySelector('.ic-ch-body [data-n="'+blockN+'"]')) : null;
       var bodyEl = root.querySelector(".ic-ch-body"), pgEls = [], pgLine = null;
@@ -2258,6 +2278,167 @@
     d.addEventListener("click",close); document.addEventListener("keydown",onKey);
     document.documentElement.style.overflow="hidden";
     document.body.appendChild(d); d.querySelector("button").focus();
+  }
+
+
+  /* ---------- «Оригинал рядом»: скан страницы издания 1626 г. и её итальянский текст ----------
+     Метки «с. N» стоят у блока, с которого начинается страница (pagemap.json строит tools/build_pagemap.py),
+     поэтому привязка точна до абзаца. От 1400px скан — панель справа от текста, уже — на весь экран. */
+  var sv = null, svMode = "scan", itCache = {};
+  function pgLabel(l){
+    var m = /^(Titelblatt|Widmung)_?(\w*)$/.exec(l);
+    return m ? t(m[1]==="Titelblatt" ? "svTitle" : "svDedic")+(m[2] ? " "+m[2] : "") : t("tvPage")+" "+l;
+  }
+  function loadPagesIt(book, cb){
+    var cfg = book.meta.chapters;
+    if(itCache[book.slug]){ cb(itCache[book.slug]); return; }
+    fetch(BASE+"books/"+book.slug+"/"+cfg.pagesIt,{cache:"no-cache"}).then(function(r){ if(!r.ok) throw 0; return r.json(); })
+      .then(function(d){ itCache[book.slug] = d; cb(d); }).catch(function(){ cb({}); });
+  }
+  function itHtml(e){
+    if(!e) return '<p class="ic-sv-none">'+esc(t("svNoText"))+'</p>';
+    function fmt(x){
+      return esc(x).replace(/\*([^*\n]+)\*/g,"<em>$1</em>").replace(/\[([^\]]*[А-Яа-яЁё][^\]]*)\]/g,'<span class="ic-sv-ed">[$1]</span>').replace(/\n/g,"<br>");
+    }
+    var h = "";
+    if(e[0]) h += '<p class="ic-sv-run">'+fmt(e[0])+'</p>';
+    (e[1] || "").split(/\n\n+/).forEach(function(par){ if(par.trim()) h += '<p>'+fmt(par)+'</p>'; });
+    (e[4] || []).forEach(function(m){ h += '<p class="ic-sv-mar">'+fmt(m)+'</p>'; });
+    if(e[2] || e[3]) h += '<p class="ic-sv-foot">'+fmt([e[3], e[2]].filter(Boolean).join("    "))+'</p>';
+    return h || '<p class="ic-sv-none">'+esc(t("svNoText"))+'</p>';
+  }
+  // удерживает на месте верхний видимый блок главы, пока меняется раскладка
+  function keepAnchor(change){
+    var top0 = (parseFloat(root.dataset.top) || 0) + 8, kids = root.querySelectorAll(".ic-ch-body > :not(.ic-pgm):not(.ic-ch-pgline)"), a = null, y0 = 0, i;
+    for(i = 0; i < kids.length; i++){ var r = kids[i].getBoundingClientRect(); if(r.bottom > top0){ a = kids[i]; y0 = r.top; break; } }
+    change();
+    if(a){ var d = a.getBoundingClientRect().top - y0; if(d) window.scrollTo(0, window.scrollY + d); }
+  }
+
+  function openSv(book, rows, idx){
+    if(sv){
+      if(sv.panel && sv.idx === idx){ sv.close(); return; }
+      sv.go(idx); return;
+    }
+    var panel = window.innerWidth >= 1400, base = BASE+"books/"+book.slug+"/", scansDir = base+(book.meta.chapters.scans || "scans/");
+    var d = document.createElement("div");
+    d.className = "ic ic-sv "+(panel ? "ic-sv-panel" : "ic-sv-full");
+    d.setAttribute("role","dialog"); d.setAttribute("aria-label", t("svDlg"));
+    if(panel){ d.style.top = (parseFloat(root.dataset.top) || 0)+"px"; }
+    d.innerHTML =
+      '<div class="ic-sv-bar">'+
+        '<div class="ic-sv-pager"><button type="button" class="ic-sv-pv" aria-label="'+esc(t("svPrev"))+'">‹</button><span class="ic-sv-pos"></span><button type="button" class="ic-sv-nx" aria-label="'+esc(t("svNext"))+'">›</button></div>'+
+        '<div class="ic-seg ic-sv-sw" role="group">'+
+          '<button type="button" class="ic-chip" data-m="scan">'+esc(t("svScan"))+'</button>'+
+          '<button type="button" class="ic-chip" data-m="it">'+esc(t("svIt"))+'</button></div>'+
+        '<button type="button" class="ic-sv-x" aria-label="'+esc(t("close"))+'">×</button>'+
+      '</div>'+
+      '<div class="ic-sv-stage"></div>';
+    var stage = d.querySelector(".ic-sv-stage"), pos = d.querySelector(".ic-sv-pos"), pv = d.querySelector(".ic-sv-pv"), nx = d.querySelector(".ic-sv-nx");
+    var Z = {s:1, x:0, y:0}, img = null, st = {idx:idx, panel:panel};
+
+    function mark(on){
+      root.querySelectorAll(".ic-pgm-b").forEach(function(b){ b.setAttribute("aria-pressed", String(on && +b.getAttribute("data-pi") === st.idx)); });
+    }
+    function applyZ(){ if(img) img.style.transform = Z.s === 1 && !Z.x && !Z.y ? "" : "translate("+Z.x+"px,"+Z.y+"px) scale("+Z.s+")"; }
+    function clampZ(){
+      if(!img) return;
+      var mx = Math.max(0, (img.offsetWidth*Z.s - stage.clientWidth)/2), my = Math.max(0, (img.offsetHeight*Z.s - stage.clientHeight)/2);
+      Z.x = Math.max(-mx, Math.min(mx, Z.x)); Z.y = Math.max(-my, Math.min(my, Z.y));
+    }
+    function show(){
+      var r = rows[st.idx];
+      pos.textContent = pgLabel(r[1]);
+      pv.disabled = st.idx <= 0; nx.disabled = st.idx >= rows.length-1;
+      d.querySelectorAll(".ic-sv-sw [data-m]").forEach(function(b){ b.setAttribute("aria-pressed", String(b.getAttribute("data-m") === svMode)); });
+      Z.s = 1; Z.x = Z.y = 0; img = null;
+      stage.classList.toggle("ic-sv-text", svMode === "it");
+      stage.scrollTop = 0; stage.scrollLeft = 0;
+      stage.classList.remove("ic-sv-zoom");
+      if(svMode === "scan"){
+        var pad = ("000"+r[0]).slice(-4), im = document.createElement("img");
+        im.className = "ic-sv-img"; im.alt = ""; im.draggable = false; im.src = scansDir+pad+".jpg";
+        stage.innerHTML = ""; stage.appendChild(im); img = im;
+        [st.idx-1, st.idx+1].forEach(function(j){ if(rows[j]) (new Image()).src = scansDir+("000"+rows[j][0]).slice(-4)+".jpg"; });
+      } else {
+        var key = String(r[0]), at = st.idx;
+        stage.innerHTML = "";
+        loadPagesIt(book, function(all){ if(sv === st && st.idx === at) { stage.innerHTML = '<div class="ic-sv-it" lang="it">'+itHtml(all[key])+'</div>'; stage.scrollTop = 0; } });
+      }
+      mark(true);
+    }
+    st.go = function(i){ if(i < 0 || i >= rows.length || i === st.idx) return; st.idx = i; show(); };
+    st.close = function(){
+      keepAnchor(function(){ d.remove(); root.classList.remove("ic-has-sv"); });
+      document.removeEventListener("keydown", onKey); window.removeEventListener("resize", onResize);
+      sv = null; mark(false);
+    };
+    function onKey(e){
+      if(e.key === "Escape") st.close();
+      else if(e.key === "ArrowLeft") st.go(st.idx-1);
+      else if(e.key === "ArrowRight") st.go(st.idx+1);
+    }
+    function onResize(){ if((window.innerWidth >= 1400) !== panel) st.close(); }
+    pv.addEventListener("click", function(){ st.go(st.idx-1); });
+    nx.addEventListener("click", function(){ st.go(st.idx+1); });
+    d.querySelector(".ic-sv-x").addEventListener("click", function(){ st.close(); });
+    d.querySelectorAll(".ic-sv-sw [data-m]").forEach(function(b){ b.addEventListener("click", function(){ svMode = b.getAttribute("data-m"); show(); }); });
+
+    if(panel){
+      stage.addEventListener("click", function(e){ if(e.target === img) stage.classList.toggle("ic-sv-zoom"); });
+    } else {
+      var t0 = null, pinch = null, lastTap = 0;
+      function dist(a, b){ return Math.hypot(a.clientX-b.clientX, a.clientY-b.clientY); }
+      function rel(cx, cy){ var r = stage.getBoundingClientRect(); return {x: cx-r.left-r.width/2, y: cy-r.top-r.height/2}; }
+      function zoomAt(ns, p){
+        ns = Math.max(1, Math.min(4, ns));
+        Z.x = p.x-(p.x-Z.x)*(ns/Z.s); Z.y = p.y-(p.y-Z.y)*(ns/Z.s); Z.s = ns;
+        if(Z.s === 1){ Z.x = Z.y = 0; } clampZ(); applyZ();
+      }
+      stage.addEventListener("touchstart", function(e){
+        if(e.touches.length === 2 && img){
+          var a = e.touches[0], b = e.touches[1], m = rel((a.clientX+b.clientX)/2, (a.clientY+b.clientY)/2);
+          pinch = {d:dist(a,b), s:Z.s, m:m}; t0 = null;
+        } else if(e.touches.length === 1){
+          var tt = e.touches[0]; t0 = {x:tt.clientX, y:tt.clientY, zx:Z.x, zy:Z.y, t:Date.now(), moved:false};
+        }
+      }, {passive:true});
+      stage.addEventListener("touchmove", function(e){
+        var textMode = !img;
+        if(pinch && e.touches.length === 2){
+          e.preventDefault();
+          var a = e.touches[0], b = e.touches[1];
+          zoomAt(pinch.s*dist(a,b)/pinch.d, pinch.m);
+        } else if(t0 && e.touches.length === 1){
+          var tt = e.touches[0], dx = tt.clientX-t0.x, dy = tt.clientY-t0.y;
+          if(Math.abs(dx) + Math.abs(dy) > 8) t0.moved = true;
+          if(textMode) return;
+          e.preventDefault();
+          if(Z.s > 1){ Z.x = t0.zx+dx; Z.y = t0.zy+dy; clampZ(); applyZ(); }
+          else { img.style.transform = "translateX("+(dx*.5)+"px)"; }
+        }
+      }, {passive:false});
+      stage.addEventListener("touchend", function(e){
+        if(pinch){ if(e.touches.length < 2){ pinch = null; if(Z.s < 1.05) { Z.s = 1; Z.x = Z.y = 0; applyZ(); } } return; }
+        if(!t0) return;
+        var c = e.changedTouches[0], dx = c.clientX-t0.x, dy = c.clientY-t0.y, tap = !t0.moved && Date.now()-t0.t < 300;
+        t0 = null;
+        if(img && Z.s === 1){ img.style.transform = ""; }
+        if(Z.s === 1 && Math.abs(dx) > 55 && Math.abs(dx) > Math.abs(dy)*1.5){ st.go(st.idx + (dx < 0 ? 1 : -1)); lastTap = 0; return; }
+        if(tap && img){
+          if(Date.now()-lastTap < 320){ lastTap = 0; zoomAt(Z.s > 1 ? 1 : 2.5, rel(c.clientX, c.clientY)); }
+          else lastTap = Date.now();
+        }
+      }, {passive:true});
+      stage.addEventListener("touchcancel", function(){ t0 = null; pinch = null; if(img && Z.s === 1) img.style.transform = ""; }, {passive:true});
+    }
+
+    sv = st;
+    document.addEventListener("keydown", onKey); window.addEventListener("resize", onResize);
+    if(panel){
+      keepAnchor(function(){ root.classList.add("ic-has-sv"); document.body.appendChild(d); });
+    } else document.body.appendChild(d);
+    show();
   }
 
   // стрелки клавиатуры в карточке

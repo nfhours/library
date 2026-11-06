@@ -669,3 +669,48 @@ button.ic-home-go{flex:none;font-size:.78em;letter-spacing:.06em;text-transform:
 @media (hover:hover){.ic-nm-row:hover .ic-tv-ru,.ic-nm-ms a:hover{color:var(--accent)}}
 @media (max-width:600px){.ic-nm-meta .ic-nm-type{display:none}}
 .ic-nm-h+.ic-gal{margin-top:16px}
+
+/* «Оригинал рядом»: метки страниц 1626 г. на полях и панель со сканом */
+.ic-pgm{position:relative;height:0;clear:both}
+.ic .ic-pgm-b{position:absolute;right:100%;top:calc(.35em + var(--k,0)*1.9em);margin-right:10px;padding:3px 6px;border:0;border-radius:3px;background:none;
+  font-size:.62em;line-height:1.3;letter-spacing:.03em;white-space:nowrap;color:var(--soft);font-family:var(--serif);cursor:pointer;opacity:.75;transition:color .2s,opacity .2s,background-color .2s}
+.ic .ic-pgm-b[aria-pressed="true"]{color:var(--accent);opacity:1;background:var(--accent-soft)}
+@media (hover:hover){.ic .ic-pgm-b:hover{color:var(--accent);opacity:1}}
+@media (max-width:999px){
+  .ic-pgm{height:auto;display:flex;justify-content:flex-end;margin:.5em 0 .1em}
+  .ic .ic-pgm-b{position:static;margin:0;padding:6px 8px;font-size:.62em;opacity:.8;border:1px solid var(--rule);border-radius:12px}
+  .ic .ic-pgm-b[aria-pressed="true"]{border-color:var(--accent)}
+  .ic-pgm+.ic-pgm{margin-top:.1em}
+}
+.ic.ic-has-sv,.ic-sv-panel{--pw:min(560px,calc(100vw - 800px))}
+.ic.ic-has-sv{padding-right:var(--pw)}
+.ic.ic-has-sv .ic-ch-aside{width:32%;margin:.2em 0 .5em 1.3em;font-size:.72em;padding-left:.6em}
+
+.ic-sv{z-index:99998;font-size:16px;line-height:1.45;display:flex;flex-direction:column;background:var(--sheet)}
+.ic-sv-panel{position:fixed;right:0;bottom:0;width:var(--pw);border-left:1px solid var(--rule);box-shadow:-10px 0 30px -24px rgba(40,28,14,.5)}
+.ic-sv-full{position:fixed;inset:0;z-index:99999;overscroll-behavior:contain}
+.ic-sv-bar{flex:none;display:flex;align-items:center;gap:6px 14px;flex-wrap:wrap;padding:8px 12px;border-bottom:1px solid var(--rule);background:var(--paper)}
+.ic-sv-pager{display:flex;align-items:center;gap:2px;flex:none}
+.ic .ic-sv-pager button,.ic .ic-sv-x{width:40px;height:40px;border:0;border-radius:50%;background:none;font-size:1.5em;line-height:1;cursor:pointer;color:var(--ink);display:flex;align-items:center;justify-content:center;padding:0}
+.ic .ic-sv-pager button:disabled{opacity:.25;cursor:default}
+.ic-sv-pos{min-width:4.2em;text-align:center;font-family:var(--old);font-size:1.05em;color:var(--ink);white-space:nowrap}
+.ic-sv-sw{gap:16px;margin-left:auto;flex-wrap:nowrap}
+.ic .ic-sv-sw .ic-chip{font-size:.9em;padding:8px 0;white-space:nowrap}
+.ic .ic-sv-x{margin-left:0;flex:none}
+.ic-sv-stage{flex:1 1 auto;min-height:0;overflow:auto;position:relative;display:block;-webkit-overflow-scrolling:touch}
+.ic .ic-sv-img{display:block;width:100%;height:auto;max-width:none;cursor:zoom-in;-webkit-user-drag:none;user-select:none;-webkit-user-select:none}
+.ic-sv-zoom .ic-sv-img{width:190%;cursor:zoom-out}
+.ic-sv-full .ic-sv-stage{overflow:hidden;display:flex;align-items:center;justify-content:center;touch-action:none;background:var(--paper)}
+.ic-sv-full .ic-sv-img{width:auto;max-width:100%;max-height:100%;object-fit:contain;cursor:default;touch-action:none;will-change:transform}
+.ic-sv-full .ic-sv-stage.ic-sv-text{display:block;overflow:auto;touch-action:pan-y;background:var(--sheet)}
+.ic-sv-it{padding:18px 20px 32px;font-size:16px;line-height:1.55;color:var(--ink);max-width:36em;margin:0 auto;hyphens:manual}
+.ic-sv-it p{margin:0 0 .75em;text-align:left}
+.ic-sv-it .ic-sv-run{font-size:.8em;letter-spacing:.06em;color:var(--soft);text-align:center;text-transform:uppercase}
+.ic-sv-it .ic-sv-mar{font-size:.85em;font-style:italic;color:var(--soft);border-left:1px solid var(--rule);padding-left:.7em}
+.ic-sv-it .ic-sv-foot{font-size:.8em;color:var(--soft);white-space:pre-wrap;text-align:right}
+.ic-sv-it .ic-sv-ed{font-size:.85em;color:var(--soft);font-family:Georgia,serif}
+.ic-sv-it .ic-sv-none{color:var(--soft);font-style:italic}
+.ic-sv-full .ic-sv-bar{gap:0 8px;padding:6px 10px 4px 6px}
+.ic-sv-full .ic-sv-pager{flex:1}
+.ic-sv-full .ic-sv-x{order:2}
+.ic-sv-full .ic-sv-sw{order:3;width:100%;margin:0 0 0 8px;padding:0 0 2px}
