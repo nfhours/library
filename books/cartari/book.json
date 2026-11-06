@@ -121,5 +121,8 @@
       "en": "The Images of the Gods of the Ancients is a handbook of ancient iconography, first published in 1556: for each deity Cartari describes how it was depicted, what its attributes mean and which myths lie behind them. The 1626 edition carries engravings and Lorenzo Pignoria's appendix on the gods of Mexico and Japan. Here you will find the Russian translation of the book and all its engravings, tied to the text.",
       "fr": "Les Images des dieux des Anciens est un manuel d'iconographie antique, paru pour la première fois en 1556 : pour chaque divinité, Cartari raconte comment on la représentait, ce que signifient ses attributs et quels mythes s'y attachent. L'édition de 1626 comporte des gravures et l'appendice de Lorenzo Pignoria sur les dieux du Mexique et du Japon. Vous trouverez ici la traduction russe du livre et toutes ses gravures, reliées au texte."
     }
+  },
+  "legacyRedirect": {
+    "cartm_tavola": "index"
   }
 }

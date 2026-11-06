@@ -557,9 +557,27 @@ button.ic-toc-close{width:38px;height:38px;border:1px solid var(--rule);border-r
 .ic-gal-cap{font-size:.8em;line-height:1.35;color:var(--soft);text-align:center;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .ic-home-search{display:flex;gap:12px;align-items:flex-end;margin-top:24px}
 .ic-home-search input.ic-search{flex:1 1 auto;min-width:0;background:none}
-button.ic-home-go{flex:none;font-size:.78em;letter-spacing:.06em;text-transform:uppercase;padding:10px 20px;border:1px solid rgba(28,24,19,.55);border-radius:2px;
-  background:rgba(250,246,236,.35);color:var(--ink);cursor:pointer}
-.ic-home-all{margin-top:20px;font-size:.9em}
+.ic-home-search .ic-search-wrap{flex:1 1 auto;min-width:0}
+.ic-home-search input.ic-search::-webkit-search-cancel-button{-webkit-appearance:none;display:none}
+.ic-sr{margin-top:6px}
+.ic-sr-hint{margin-top:18px;font-size:.95em;line-height:1.55;color:var(--soft)}
+.ic-sr-nav{display:flex;flex-wrap:wrap;gap:4px 18px;margin-top:16px;font-size:.88em}
+.ic-sr-nav button{background:none;border:0;border-bottom:1px solid var(--rule);padding:4px 0;font:inherit;color:var(--accent);cursor:pointer}
+.ic-sr-nav b{font-weight:500;color:var(--soft)}
+.ic-sr-ul{list-style:none;padding:0;margin:0}
+.ic-sr-ul li{padding:0;border-bottom:1px dotted var(--rule)}
+.ic-sr-a{display:block;padding:9px 0;color:var(--ink)}
+.ic-sr-meta{display:block;margin-bottom:2px;font-size:.74em;letter-spacing:.04em;color:var(--soft)}
+.ic-sr-snip{display:block;font-size:.92em;line-height:1.55}
+.ic-sr-it{font-style:italic}
+.ic-sr mark{background:none;color:var(--accent);font-weight:600;box-shadow:inset 0 -1px 0 var(--accent)}
+.ic-sr-pl{display:flex;gap:12px;align-items:flex-start}
+.ic-sr-th{flex:none;position:relative;width:54px;height:68px;background:var(--sheet);border:1px solid var(--rule);border-radius:2px}
+.ic-sr-th img{position:absolute;inset:3px;width:calc(100% - 6px);height:calc(100% - 6px);max-width:none;object-fit:contain}
+.ic-sr-pb{min-width:0}
+.ic-sr-t{display:block;line-height:1.35}
+button.ic-sr-more{display:block;margin:14px 0 0;padding:8px 16px;font:inherit;font-size:.85em;color:var(--accent);background:none;border:1px solid var(--rule);border-radius:2px;cursor:pointer}
+@media (hover:hover){.ic-sr-a:hover .ic-sr-t,.ic-sr-nav button:hover{color:var(--ink)}button.ic-sr-more:hover{border-color:var(--accent)}}
 
 /* карточка гравюры */
 .ic-plate-card{max-width:1040px}
