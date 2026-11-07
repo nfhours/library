@@ -23,6 +23,7 @@ import csv
 import json
 import argparse
 import mimetypes
+import subprocess
 import threading
 import webbrowser
 import datetime
@@ -33,6 +34,57 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 LIBRARY_ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))  # .../library
 PHOTOS_ROOT = os.path.expanduser("~/Projects/photos")
 IMG_EXT = {".jpg", ".jpeg", ".png"}
+
+
+def load_alciato_emblems_by_frame():
+    """Только для книги alciato: соответствие «кадр -> номер эмблемы и девиз»
+    для боковой панели редактора. Читает books/alciato/_text/emblems.json из
+    ветки origin/grok-review через `git show` — только на чтение, рабочее
+    дерево и текущая ветка не трогаются. Если ветки/файла нет (ещё не
+    зафетчено, нет сети и т.п.) — тихо возвращает {}, редактор работает как
+    раньше, просто без подсказок по эмблемам."""
+    ref = "origin/grok-review:books/alciato/_text/emblems.json"
+
+    def _show():
+        return subprocess.run(
+            ["git", "show", ref],
+            cwd=LIBRARY_ROOT,
+            capture_output=True,
+            text=True,
+            timeout=10,
+        )
+
+    proc = _show()
+    if proc.returncode != 0:
+        subprocess.run(
+            ["git", "fetch", "origin", "grok-review"],
+            cwd=LIBRARY_ROOT,
+            capture_output=True,
+            text=True,
+            timeout=30,
+        )
+        proc = _show()
+    if proc.returncode != 0:
+        print("Не удалось прочитать emblems.json из origin/grok-review — боковая панель эмблем будет пустой.")
+        return {}
+    try:
+        data = json.loads(proc.stdout)
+    except Exception:
+        print("emblems.json из origin/grok-review не распарсился — боковая панель эмблем будет пустой.")
+        return {}
+
+    by_frame = {}
+    for e in data.get("emblems", []):
+        number = e.get("number")
+        motto = e.get("motto") or {}
+        text = motto.get("reading") or " ".join(motto.get("diplomatic") or [])
+        for frame in e.get("frames") or []:
+            try:
+                fname = "frame_{:04d}.jpg".format(int(frame))
+            except (TypeError, ValueError):
+                continue
+            by_frame[fname] = {"number": number, "motto": text}
+    return by_frame
 
 
 def list_images(book_dir):
@@ -123,7 +175,7 @@ def write_inventory_csv(csv_path, images, crops_data):
                 w.writerow([img, box_label(box, i), box_coords(box), "да" if flagged else ""])
 
 
-def make_handler(book, book_dir, images, store):
+def make_handler(book, book_dir, images, store, emblems_by_frame):
     images_set = set(images)
 
     class Handler(BaseHTTPRequestHandler):
@@ -161,7 +213,7 @@ def make_handler(book, book_dir, images, store):
                     os.path.join(HERE, "index.html"), "text/html; charset=utf-8"
                 )
             elif path == "/api/config":
-                self._send_json({"book": book, "images": images})
+                self._send_json({"book": book, "images": images, "emblemsByFrame": emblems_by_frame})
             elif path == "/api/crops":
                 self._send_json(store.get_all())
             elif path.startswith("/photos/"):
@@ -234,7 +286,11 @@ def main():
     crops_path = os.path.join(LIBRARY_ROOT, "books", args.book, "_crops", "crops.json")
     store = CropsStore(crops_path)
 
-    handler = make_handler(args.book, book_dir, images, store)
+    emblems_by_frame = load_alciato_emblems_by_frame() if args.book == "alciato" else {}
+    if args.book == "alciato":
+        print(f"Эмблемы (из origin/grok-review) для боковой панели: {len(emblems_by_frame)} кадров")
+
+    handler = make_handler(args.book, book_dir, images, store, emblems_by_frame)
     server = ThreadingHTTPServer(("127.0.0.1", args.port), handler)
     url = f"http://127.0.0.1:{args.port}/"
     print(f"{args.book}: {len(images)} фото из {book_dir}")

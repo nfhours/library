@@ -58,6 +58,14 @@
   .status{text-align:center;font-size:13px;margin-top:10px;min-height:18px;color:var(--ok)}
   .jump{display:flex;gap:6px;align-items:center}
   .jump input{width:110px;font:inherit;padding:5px 7px;border:1px solid var(--rule);border-radius:6px;background:var(--panel);color:var(--ink)}
+  #emblemPanel{position:fixed;top:78px;right:16px;width:220px;max-height:calc(100vh - 100px);overflow:auto;padding:12px 14px;border:1px solid var(--rule);border-radius:8px;background:var(--panel);font-size:13px;line-height:1.4;z-index:5}
+  #emblemPanel.hidden{display:none}
+  #emblemPanel .epNum{font-weight:600;margin-bottom:4px}
+  #emblemPanel .epMotto{color:var(--ink-2);font-style:italic}
+  #emblemPanel .epNone{color:var(--ink-2)}
+  @media (max-width: 1200px){
+    #emblemPanel:not(.hidden){position:static;width:auto;max-width:640px;margin:10px auto 0}
+  }
 </style>
 
 <div class="topbar">
@@ -101,6 +109,8 @@
   <p class="hint">На одной странице может быть несколько гравюр — добавляй рамку кнопкой «+ Рамка» на каждую. Рамка = гравюра + орнаментальная рамка вокруг неё, подпись внутри общей рамки — включайте. Сохраняется сразу в crops.json на диске, никуда во внешний сервис не уходит.</p>
 </main>
 
+<aside id="emblemPanel" class="hidden"></aside>
+
 <script>
 (function(){
   function defaultBox(){ return {x:8,y:8,w:84,h:84,label:''}; }
@@ -108,7 +118,7 @@
     if(Array.isArray(b)) return {x:b[0],y:b[1],w:b[2],h:b[3],label:''};
     return {x:b.x,y:b.y,w:b.w,h:b.h,label:b.label||''};
   }
-  var state = { idx: 0, boxes: [], noPlate: false, flagged: false, images: [], crops: {}, book: '' };
+  var state = { idx: 0, boxes: [], noPlate: false, flagged: false, images: [], crops: {}, book: '', emblemsByFrame: {} };
 
   var stage = document.getElementById('stage');
   var img = document.getElementById('plateImg');
@@ -120,8 +130,29 @@
   var noPlateBanner = document.getElementById('noPlateBanner');
   var flagBox = document.getElementById('flagBox');
   var bookTitleEl = document.getElementById('bookTitle');
+  var emblemPanel = document.getElementById('emblemPanel');
 
   function currentFile(){ return state.images[state.idx]; }
+
+  function escapeHtml(s){
+    return String(s==null?'':s).replace(/[&<>"']/g, function(c){
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+    });
+  }
+
+  function renderEmblemPanel(){
+    var hasData = state.emblemsByFrame && Object.keys(state.emblemsByFrame).length > 0;
+    if(!hasData){ emblemPanel.classList.add('hidden'); return; }
+    emblemPanel.classList.remove('hidden');
+    var info = state.emblemsByFrame[currentFile()];
+    if(info){
+      emblemPanel.innerHTML =
+        '<div class="epNum">Эмблема '+escapeHtml(info.number)+'</div>' +
+        '<div class="epMotto">'+escapeHtml(info.motto)+'</div>';
+    } else {
+      emblemPanel.innerHTML = '<div class="epNone">без эмблемы</div>';
+    }
+  }
 
   function updateCounts(){
     var totalBoxes = 0, withPlatesPages = 0, withoutPlates = 0, flagged = 0, reviewed = 0;
@@ -161,6 +192,7 @@
     document.getElementById('prevB').disabled = state.idx===0;
     document.getElementById('nextB').disabled = state.idx===state.images.length-1;
     renderBoxes();
+    renderEmblemPanel();
   }
 
   function renderBoxes(){
@@ -356,6 +388,7 @@
   fetch('/api/config').then(function(r){ return r.json(); }).then(function(cfg){
     state.book = cfg.book;
     state.images = cfg.images;
+    state.emblemsByFrame = cfg.emblemsByFrame || {};
     bookTitleEl.textContent = cfg.book + ' — локальная обрезка';
     document.title = cfg.book + ' — Local Crop Editor';
     return fetch('/api/crops');
