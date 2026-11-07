@@ -442,6 +442,11 @@ button.ic-scan-prev,button.ic-scan-next{width:38px;height:38px;border:1px solid 
 .ic-ch-fig .ic-fig img{width:100%;height:auto}
 .ic-ch-fig figcaption{margin-top:10px;font-size:.82em;line-height:1.45;color:var(--soft);font-style:italic;text-align:center}
 .ic-ch-hl{background:var(--accent-soft);box-shadow:0 0 0 .4em var(--accent-soft);border-radius:2px}
+/* Гравюра без своей подписи, стоящая перед найденным текстовым блоком (см. комментарий в
+   app.js у renderChapter про figs/textTarget): лёгкая сопутствующая подсветка рамкой — сама
+   она не цель прокрутки, искомое слово в соседнем блоке, но читателю всё равно нужно видеть,
+   какая иллюстрация к этому месту относится. */
+.ic-ch-fig-near .ic-fig{box-shadow:0 0 0 .2em var(--accent-soft);border-radius:2px}
 .ic .ic-ch-more{margin-top:18px}
 .ic .ic-ch-note+.ic-ch-more{margin-top:10px}
 a.ic-ch-btn{display:inline-block;font-size:.78em;letter-spacing:.06em;text-transform:uppercase;padding:8px 16px;

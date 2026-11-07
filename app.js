@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "119";
+  var APP_VER = "120";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -1290,7 +1290,16 @@
   function figsHtml(book, b){
     return (b.figs||[]).map(function(f){
       var src = BASE+"books/"+(book.meta.ornaments && book.meta.ornaments.source || book.slug)+"/engravings/"+f.eng;
-      return '<figure class="ic-ch-fig" data-for="'+b.n+'"><div class="ic-fig ic-fig-eng" data-src="'+esc(src)+'"><img class="ic-fade-img ic-eng-display" loading="lazy" src="'+esc(src)+'"'+
+      // Без loading="lazy" здесь: это картинки внутри текста главы, куда renderChapter может
+      // сразу после рендера прыгнуть далеко вниз (к найденному блоку). "lazy" у WebKit работает
+      // по дистанции до текущей точки прокрутки В МОМЕНТ разбора документа — то есть до прыжка,
+      // когда все такие картинки ещё далеко от верха страницы и браузер их не запрашивает вовсе;
+      // WebKit заново решает, пора их грузить или нет, только при следующей перерисовке после
+      // scrollTo, с задержкой и порогом, который заметно отличается от Chromium. Раз ширина/высота
+      // у картинки всегда известны заранее (aspect-ratio ниже), резервирование места не страдает
+      // от эагерной загрузки, а риск «картинка выше цели прогрузилась только через 9 секунд и
+      // снап к тому моменту уже остановился» снимается тем, что запрос уходит сразу.
+      return '<figure class="ic-ch-fig" data-for="'+b.n+'"><div class="ic-fig ic-fig-eng" data-src="'+esc(src)+'"><img class="ic-fade-img ic-eng-display" src="'+esc(src)+'"'+
         (f.w&&f.h ? ' width="'+f.w+'" height="'+f.h+'" style="aspect-ratio:'+f.w+'/'+f.h+'"' : "")+' alt="'+esc(t("engravingAlt",{title:f.pt||""}))+'"></div>'+(f.cap ? '<figcaption>'+inl(f.cap, null)+'</figcaption>' : "")+'</figure>';
     }).join("");
   }
@@ -1313,8 +1322,9 @@
     if(b.t==="cap"){
       if(b.mv) return "";
       var src = b.eng ? BASE+"books/"+(book.meta.ornaments && book.meta.ornaments.source || book.slug)+"/engravings/"+b.eng : "";
+      // loading="lazy" снято по той же причине, что в figsHtml() выше.
       return '<figure class="ic-ch-fig"'+n+'>'+
-        (src ? '<div class="ic-fig ic-fig-eng" data-src="'+esc(src)+'"><img class="ic-fade-img ic-eng-display" loading="lazy" src="'+esc(src)+'"'+
+        (src ? '<div class="ic-fig ic-fig-eng" data-src="'+esc(src)+'"><img class="ic-fade-img ic-eng-display" src="'+esc(src)+'"'+
           (b.w&&b.h ? ' width="'+b.w+'" height="'+b.h+'" style="aspect-ratio:'+b.w+'/'+b.h+'"' : "")+' alt="'+esc(t("engravingAlt",{title:b.pt || b.text.slice(0,60)}))+'"></div>' : "")+
         '<figcaption>'+inl(b.text, qs)+'</figcaption></figure>';
     }
@@ -1396,8 +1406,15 @@
       root.querySelectorAll(".ic-fig").forEach(function(f){ f.addEventListener("click",function(){ lightbox(f.getAttribute("data-src")); }); });
       root.querySelectorAll(".ic-ch-aside a").forEach(function(a){ a.addEventListener("click",function(){ namesUi.chVia = a.getAttribute("href"); }); });
       root.querySelectorAll(".ic-pgm-b").forEach(function(b){ b.addEventListener("click",function(){ openSv(book, pmRows, +b.getAttribute("data-pi")); }); });
+      // figs — отдельная гравюра БЕЗ собственной подписи, стоящая перед найденным блоком (см.
+      // комментарий у figsHtml выше); сам искомый текст лежит в блоке data-n=blockN, не в figs.
+      // Раньше, когда перед найденным блоком стояла такая гравюра, целью прокрутки и подсветки
+      // становилась именно она (figs[0]) — то есть чужой, более высокий элемент без искомого
+      // слова, а не блок, который его на самом деле содержит. Теперь приоритет у текстового блока
+      // всегда; figs только получает вспомогательную подсветку (ниже), не являясь целью прокрутки.
       var okN = blockN && /^[1-9]\d*$/.test(blockN), figs = okN ? root.querySelectorAll('.ic-ch-body [data-for="'+blockN+'"]') : [];
-      var target = okN ? (figs.length ? figs[0] : root.querySelector('.ic-ch-body [data-n="'+blockN+'"]')) : null;
+      var textTarget = okN ? root.querySelector('.ic-ch-body [data-n="'+blockN+'"]') : null;
+      var target = okN ? (textTarget || (figs.length ? figs[0] : null)) : null;
       var bodyEl = root.querySelector(".ic-ch-body"), pgEls = [], pgLine = null;
       if(pgm && bodyEl){
         for(var bn = +pgm[1]; bn <= +pgm[2]; bn++){
@@ -1411,8 +1428,13 @@
         }
       }
       if(target){
-        if(okN){ if(figs.length) figs.forEach(function(f){ f.classList.add("ic-ch-hl"); }); else target.classList.add("ic-ch-hl"); }
-        var off = (parseFloat(root.dataset.top) || 0) + (okN ? 24 : 40);
+        if(okN){
+          target.classList.add("ic-ch-hl");
+          // Гравюра перед блоком по-прежнему мягко подсвечивается (она иллюстрирует именно этот
+          // блок), но только как сопутствующий элемент — не как цель прокрутки/видимости.
+          if(figs.length && figs[0]!==target) figs.forEach(function(f){ f.classList.add("ic-ch-fig-near"); });
+        }
+        var headerOffset = parseFloat(root.dataset.top) || 0, baseOff = headerOffset + (okN ? 24 : 40);
         var snap = function(){
           if(gen !== renderGen) return;
           if(pgLine && pgEls.length){
@@ -1420,7 +1442,22 @@
             pgEls.forEach(function(el){ var r = el.getBoundingClientRect(); t0 = Math.min(t0, r.top-bt0); t1 = Math.max(t1, r.bottom-bt0); });
             pgLine.style.top = t0+"px"; pgLine.style.height = Math.max(0, t1-t0)+"px";
           }
-          window.scrollTo(0, window.scrollY + target.getBoundingClientRect().top - off);
+          var r = target.getBoundingClientRect(), off = baseOff;
+          // Для цели типа "картинка+подпись" (data-n ведёт прямо на <figure>, окN) обычный
+          // декоративный отступ (+24px сверху, помимо шапки) иногда — на считанные десятки
+          // пикселей — обрезает нижний край подписи на телефонном экране, хотя сама фигура
+          // целиком НЕ выше вьюпорта и прекрасно влезла бы с отступом чуть поменьше. В этом
+          // случае (и только в нём — когда с обычным отступом не влезает, а с минимальным,
+          // ровно под шапкой, без запаса, влезает) используем минимально необходимый отступ,
+          // а не ужимаем его всегда и для всех целей без нужды.
+          if(okN){
+            var vh = window.innerHeight;
+            // -2px запаса: при масштабе экрана (DPR) getBoundingClientRect() отдаёт дробные
+            // пиксели, и попытка впихнуть высоту ровно в vh без запаса иногда на доли пикселя
+            // всё равно перехлёстывает нижнюю границу из-за округления при вычислении scrollTo.
+            if(headerOffset + r.height <= vh - 2 && baseOff + r.height > vh) off = Math.max(headerOffset, vh - r.height - 2);
+          }
+          window.scrollTo(0, window.scrollY + r.top - off);
         };
         snap();
         // На медленной связи гравюры/шрифты выше цели могут догружаться ещё долго после первого
@@ -1428,12 +1465,34 @@
         // чуть сдвигает раскладку (шрифт, декодирование картинки). Поэтому держим прицел на месте:
         // переповторяем snap() при каждой догрузке картинки и при готовности шрифтов, пока либо не
         // кончились картинки, либо читатель сам не тронул страницу (тогда переставать мешать).
-        if(document.fonts && document.fonts.ready) document.fonts.ready.then(snap);
-        var stopped = false;
-        function stop(){ stopped = true; document.removeEventListener("wheel", stop); document.removeEventListener("touchmove", stop); document.removeEventListener("keydown", stop); }
+        //
+        // У Chromium это почти всегда избыточно: scroll anchoring сам компенсирует такие сдвиги.
+        // У WebKit (все браузеры на iOS, включая не-Safari) scroll anchoring нет вовсе — ни один
+        // сдвиг выше точки прокрутки не компенсируется автоматически, значит здесь это не защита
+        // "на всякий случай", а единственный механизм вообще. Поэтому добавлен ResizeObserver на
+        // body главы — это эшелон обороны против ЛЮБОГО источника сдвига (не только img/fonts: то
+        // же самое может вызвать <details>, донабор строки веб-шрифтом без лейаут-события, которое
+        // мы бы иначе отследили, и т.п.), а не только двух конкретных отслеживаемых событий.
+        var stopped = false, ro = null;
+        if(document.fonts && document.fonts.ready) document.fonts.ready.then(function(){ if(!stopped && gen===renderGen) snap(); });
+        function stop(){
+          if(stopped) return;
+          stopped = true;
+          document.removeEventListener("wheel", stop);
+          document.removeEventListener("touchstart", stop);
+          document.removeEventListener("touchmove", stop);
+          document.removeEventListener("keydown", stop);
+          document.removeEventListener("pointerdown", stop);
+          if(ro){ ro.disconnect(); ro = null; }
+        }
+        // touchstart (а не только touchmove) — чтобы само касание экрана, ещё до какого-либо
+        // движения пальцем, сразу считалось "пользователь взялся за страницу" и больше не мешать;
+        // в задании это прямо отдельное условие ("тронул страницу"), не только факт прокрутки.
         document.addEventListener("wheel", stop, {passive:true, once:true});
+        document.addEventListener("touchstart", stop, {passive:true, once:true});
         document.addEventListener("touchmove", stop, {passive:true, once:true});
         document.addEventListener("keydown", stop, {once:true});
+        document.addEventListener("pointerdown", stop, {passive:true, once:true});
         var imgs = Array.prototype.slice.call(bodyEl.querySelectorAll("img"));
         var pending = imgs.filter(function(im){ return !im.complete; });
         pending.forEach(function(im){
@@ -1443,7 +1502,11 @@
           }
           im.addEventListener("load", onDone); im.addEventListener("error", onDone);
         });
-        if(pending.length) setTimeout(stop, 12000);
+        if(window.ResizeObserver){
+          ro = new ResizeObserver(function(){ if(!stopped && gen===renderGen) snap(); });
+          ro.observe(bodyEl);
+        }
+        setTimeout(stop, 12000);
       } else toTop(true);
       nudgeRepaint();
     });
