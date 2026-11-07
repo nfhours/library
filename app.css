@@ -242,6 +242,81 @@ button.ic-nav-pager-b{font-size:.78em;letter-spacing:.06em;text-transform:upperc
   box-shadow:inset 0 -1px 0 transparent;transition:box-shadow .2s,color .2s}
 button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
 
+/* Панель чтения главы (.ic-rbar): объединяет прежние .ic-nav и .ic-toc-btn
+   над текстом главы в одну липкую строку — контекстная ссылка «назад» (или
+   обычная «К оглавлению», когда контекста нет), «глава · страница» (открывает
+   «Содержание»), «к началу главы», «скан», «поиск». Прячется/возвращается
+   вместе с внешней .back-bar по направлению прокрутки (см. rbTick в app.js);
+   sticky + transform, а не display/height, чтобы скрытие не двигало текст
+   под панелью — тот же приём, которым sticky уже и так "перекрывает"
+   проскроленный контент, не отнимая у него места. Фон/блюр — тот же язык,
+   что у .ic-controls (поисковая панель указателя), просто ниже и у́же. */
+.ic-rbar{position:sticky;top:var(--top);z-index:5;
+  background:rgba(250,246,236,.82);
+  -webkit-backdrop-filter:blur(8px) saturate(1.15);backdrop-filter:blur(8px) saturate(1.15);
+  border:1px solid rgba(255,255,255,.5);border-radius:14px;
+  box-shadow:0 14px 28px -18px rgba(70,46,20,.32);
+  margin:0 0 26px;padding:0 14px;
+  transition:transform .3s ease;will-change:transform}
+/* -100% of the bar's own height isn't enough here: unlike .back-bar (which
+   sticks at top:0), this bar sticks at top:var(--top) — below the external
+   bar's own height — so clearing the viewport needs that offset added too,
+   plus a small buffer against sub-pixel rounding. */
+.ic-rbar.ic-rbar-hidden{transform:translateY(calc(-100% - var(--top) - 16px))}
+.ic-rbar-row{display:flex;align-items:center;gap:8px;padding:9px 0;min-width:0}
+/* flex:none is the default for every button (top/scan/search/the manicule
+   icon) — only .ic-rbar-ctx and .ic-rbar-pos override it below to 1 1 auto,
+   so those two (the ones with unpredictable-length content: a chapter title,
+   an index entry's own text) are the ones that actually shrink/ellipsize
+   when the row is tight, while the short, fixed-label buttons keep their
+   natural size. */
+.ic-rbar button{flex:none;display:inline-flex;align-items:center;gap:6px;border:0;background:none;
+  padding:6px 2px;margin:0;font-size:.78em;letter-spacing:.05em;text-transform:uppercase;
+  color:var(--ink);cursor:pointer;white-space:nowrap;transition:color .2s}
+.ic-rbar button[disabled]{opacity:.35;cursor:default}
+/* flex-shrink:0 — this one keeps its natural size and only ellipsizes via its
+   own max-width cap (for a pathologically long index/name/query label); the
+   squeeze when the row is tight should fall on .ic-rbar-pos below instead,
+   whose chapter-title portion is already the one this file is fine eliding
+   first (it's dropped outright on narrow screens, see the breakpoint). */
+.ic-rbar-row .ic-rbar-ctx{flex:0 0 auto;justify-content:flex-start;max-width:46%}
+.ic-rbar-ctx span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ic-rbar-ctx-back{color:var(--accent)}
+.ic-rbar-hand{flex:none;color:inherit}
+.ic-rbar-row .ic-rbar-pos{flex:1 1 auto;min-width:0;justify-content:center;color:var(--soft)}
+.ic-rbar-pos-ch{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-style:italic;font-family:var(--old);font-size:1.05em}
+.ic-rbar-pos-pg{flex:none;color:var(--ink)}
+.ic-rbar-top,.ic-rbar-scan,.ic-rbar-search{color:var(--soft);flex:none}
+/* full/short — та же пара, что .ic-ed-long/.ic-ed-short на главной книги:
+   полная подпись в простой строке или широком экране, короткая — когда
+   строке из пяти элементов тесно (см. брейкпоинт ниже). */
+.ic-rbar-short{display:none}
+/* Разделитель — вырезанная типографская виньетка самой книги, как css-маска
+   (см. комментарий у .ic-orn выше): цвет текста, приглушена, малого размера —
+   внутристрочная пауза между группами кнопок, не декоративный элемент сам
+   по себе. */
+.ic-rbar-sep{display:block;flex:none;height:13px;width:32px;
+  -webkit-mask-image:var(--orn-src);mask-image:var(--orn-src);
+  -webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;
+  -webkit-mask-position:center;mask-position:center;-webkit-mask-size:contain;mask-size:contain;
+  background-color:var(--soft);opacity:.55}
+.ic-rbar .ic-lang{position:absolute;right:14px;top:50%;transform:translateY(-50%);gap:8px;background:none}
+@media (hover:hover){
+  .ic-rbar button:not([disabled]):hover{color:var(--accent)}
+}
+/* На телефоне — мельче и плотнее, название главы в «место» уходит (остаётся
+   только номер страницы), чтобы вся строка умещалась без переноса. */
+@media (max-width:620px){
+  .ic-rbar{padding:0 8px}
+  .ic-rbar-row{gap:4px}
+  .ic-rbar button{font-size:.66em;letter-spacing:.02em;padding:6px 0}
+  .ic-rbar-ctx{max-width:36%}
+  .ic-rbar-sep{display:none}
+  .ic-rbar-pos-ch{display:none}
+  .ic-rbar-full{display:none}
+  .ic-rbar-short{display:inline}
+}
+
 .ic-head{margin-top:30px}
 .ic-kicker{font-size:.8em;color:var(--soft)}
 .ic-h-fr{font-family:var(--old);font-style:italic;font-weight:500;font-size:2.5em;line-height:1.05;margin-top:6px}
@@ -453,7 +528,6 @@ a.ic-ch-btn{display:inline-block;font-size:.78em;letter-spacing:.06em;text-trans
   background:rgba(250,246,236,.35);color:var(--ink);border:1px solid rgba(28,24,19,.55);border-radius:2px;
   transition:background-color .25s,color .25s,border-color .25s}
 @media (hover:hover){
-  .ic-toc-btn:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
   .ic-toc-body a:hover{color:var(--accent)}
   .ic-home-tile:not(.ic-soon):hover{border-color:var(--accent);transform:translateY(-2px)}
   .ic-gal-item:hover .ic-gal-img{border-color:var(--accent)}
@@ -478,11 +552,8 @@ a.ic-ch-btn{display:inline-block;font-size:.78em;letter-spacing:.06em;text-trans
   .ic-ch-fig{max-width:17em}
 }
 
-/* кнопка «Содержание» над главой и выезжающая панель с главами по частям */
-button.ic-toc-btn{display:inline-flex;align-items:center;gap:9px;margin-top:22px;font-size:.78em;letter-spacing:.06em;text-transform:uppercase;
-  padding:9px 18px;border:1px solid rgba(28,24,19,.4);border-radius:999px;background:rgba(250,246,236,.35);color:var(--ink);cursor:pointer;
-  transition:background-color .2s,color .2s,border-color .2s}
-.ic-toc-btn svg{flex:none}
+/* выезжающая панель «Содержание» (открывается теперь из .ic-rbar-pos в новой
+   панели читалки, а не из отдельной кнопки над главой) */
 .ic-toc-drawer{position:fixed;inset:0;z-index:99999;background:none}
 .ic-toc-backdrop{position:absolute;inset:0;background:rgba(28,24,19,.45)}
 .ic-toc-panel{position:absolute;top:0;left:0;bottom:0;width:min(400px,88vw);height:100vh;height:100dvh;display:flex;flex-direction:column;

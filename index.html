@@ -14,7 +14,14 @@
     background:rgba(22,19,15,.86);
     -webkit-backdrop-filter:blur(10px) saturate(1.1);backdrop-filter:blur(10px) saturate(1.1);
     box-shadow:0 8px 24px -14px rgba(0,0,0,.5);
+    transition:transform .3s ease;
   }
+  /* Added by the Cartari chapter reader bar (app.js rbTick): slides this bar
+     away together with its own in-chapter nav bar on a scroll down, in sync,
+     so the two disappear and come back as one unit. transform only — this
+     bar is already position:sticky, so hiding it this way frees screen space
+     without reflowing anything underneath. */
+  .back-bar.ic-bb-hidden{transform:translateY(-100%)}
   .back-bar a{
     font-family:"IM Fell English","Iowan Old Style",Georgia,serif;
     font-size:20px;letter-spacing:.02em;

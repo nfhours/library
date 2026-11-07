@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "121";
+  var APP_VER = "122";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -124,6 +124,15 @@
     chPrev:       {ru:"Предыдущая глава", en:"Previous chapter", fr:"Chapitre précédent"},
     chToc:        {ru:"Главы", en:"Chapters", fr:"Chapitres"},
     contents:     {ru:"Содержание", en:"Contents", fr:"Sommaire"},
+    rbCtxTv:      {ru:"К указателю", en:"To the index", fr:"À l’index"},
+    rbCtxPl:      {ru:"К гравюре", en:"To the engraving", fr:"À la gravure"},
+    rbCtxPlShort: {ru:"Гравюре", en:"The engraving", fr:"La gravure"},
+    rbCtxNm:      {ru:"К имени", en:"To the name", fr:"Au nom"},
+    rbCtxSr:      {ru:"К поиску", en:"To the search", fr:"À la recherche"},
+    rbBackShort:  {ru:"Оглавление", en:"Index", fr:"Index"},
+    rbTop:        {ru:"К началу главы", en:"To the start", fr:"Au début"},
+    rbTopShort:   {ru:"Начало", en:"Start", fr:"Début"},
+    rbPosLabel:   {ru:"Открыть содержание", en:"Open the contents", fr:"Ouvrir le sommaire"},
     qmLabel:      {ru:"Пояснение к неясному месту", en:"Note on an unclear passage", fr:"Note sur un passage obscur"},
     qmDefault:    {ru:"Место в оригинале неясно, переведено по смыслу.", en:"The passage is unclear in the original; translated by sense.", fr:"Le passage est obscur dans l'original ; traduit selon le sens."},
     hmRead:       {ru:"Читать книгу", en:"Read the book", fr:"Lire le livre"},
@@ -1334,6 +1343,29 @@
     return '<p'+n+'>'+inl(b.text, qs)+'</p>';
   }
 
+  // Разделитель-орнамент в новой панели читалки: один и тот же маленький
+  // типографский разделитель (вырезка из самой книги 1626 года — то же
+  // решение, что у ornamentMaskHtml: чернила как CSS-маска, цвет текста
+  // или мягкого акцента, а не зашитый в файл оттенок). Файл выбран вручную
+  // (а не случайно по pickOrnament) и подтверждён скриншотом: узкий и
+  // невысокий, чисто читается рядом с текстом в одну строку.
+  var RBAR_SEP = {file:"divider_0609_564.png", width:299, height:73};
+  function rbarSepHtml(book){
+    if(!book.ornaments) return "";
+    var src = BASE+"books/"+book.ornaments.srcSlug+"/ornaments/"+RBAR_SEP.file;
+    return '<span class="ic-rbar-sep" aria-hidden="true" style="--orn-src:url(\''+esc(src)+'\');--orn-ratio:'+(RBAR_SEP.width/RBAR_SEP.height)+'"></span>';
+  }
+  // Манула (☚, указующая рука на полях старых книг) — глиф «назад туда, откуда
+  // пришли» в новой панели. В сканах этого издания такого знака не нашлось
+  // (это проверено — не то же самое, что обычная стрелка, которую задание
+  // прямо запрещает), поэтому силуэт нарисован вручную: сплошная чёрная
+  // заливка, в духе самих вырезанных орнаментов книги (ornaments/*.png —
+  // тоже залитые силуэты, не тонкий контур системной иконки).
+  function maniculeSvg(){
+    return '<svg class="ic-rbar-hand" viewBox="0 0 60 40" width="23" height="15" aria-hidden="true" focusable="false">'+
+      '<path fill="currentColor" d="M2 20.5c0-2.6 2.6-4.3 6.4-4.9l16.4-2.6c1.3-2.6 4-3.1 5.6-.9.9-2.1 3.4-2.1 4.3-.1.9-1.9 3.3-1.5 3.7.8 2.2.1 3.2 2 1.9 3.8 2.2.6 2.8 3.2.6 4.4l-13.7 4c-3 .8-6.1.4-8.7-1.1l-9.4-.8c-3.9-.3-7.1-.1-7.1-2.6zM44 11.2c0-2 2-3.6 4.6-3.6h5.1c2.6 0 4.6 1.8 4.6 4v8.3c0 2.2-1.9 4-4.3 4h-5.4c-2.6 0-4.6-1.8-4.6-4.1z"/>'+
+    '</svg>';
+  }
   function renderChapter(book, slug, blockN, pageSpec){
     var gen = renderGen;
     loadChapters(book, function(chap){
@@ -1341,7 +1373,6 @@
       var ch = chap && chap.bySlug[slug];
       var idx = ch ? chap.list.indexOf(ch) : -1;
       var prev = idx > 0 ? chap.list[idx-1] : null, next = idx >= 0 ? chap.list[idx+1] : null;
-      var toc = chap ? '<button type="button" class="ic-toc-btn" aria-haspopup="dialog"><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M2 4h12M2 8h12M2 12h12" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg><span>'+esc(t("contents"))+'</span></button>' : "";
       function pagerBtn(c, label){
         return c ? '<button type="button" data-ch="'+esc(c.slug)+'"><small>'+esc(label)+'</small><span>'+esc(chapTitle(c))+'</span></button>'
                  : '<button type="button" disabled></button>';
@@ -1369,18 +1400,49 @@
         ? '<div class="ic-text ic-ch-body" lang="'+(enMode ? trl : "ru")+'">'+blocks.map(function(b){ return pgmHtml(b)+figsHtml(book, b)+blockHtml(book, b, slug); }).join("")+'</div>'
         : enPrep ? '<div class="ic-text ic-ch-body ic-ch-itbody"></div>'
         : '<p class="ic-sub">'+esc(t("chNotYet"))+'</p>';
+      // Контекстная ссылка «вернуться туда, откуда пришли» (chCtx — см. его
+      // определение у namesUi выше) занимает тот же слот, что обычная кнопка
+      // «К оглавлению»: показывается ТОЛЬКО если chCtx относится именно к
+      // этому переходу (его hash совпадает с тем, что сейчас открыли), иначе —
+      // обычная кнопка. Один слот на обе роли, а не отдельный шестой элемент
+      // в и так плотной строке панели.
+      // full — полная подпись (desktop/планшет); short — та же мысль в одном-двух
+      // словах, для узкого экрана (см. .ic-rbar-full/.ic-rbar-short в app.css,
+      // тот же приём, что у .ic-ed-long/.ic-ed-short на главной книги): на 390px
+      // пять элементов строки иначе физически не умещаются без переноса, а
+      // перенос и обрезание текста запрещены заданием.
+      var ctxActive = !!(chCtx.hash && chCtx.hash === location.hash), ctxFull = "", ctxShort = "";
+      if(ctxActive){
+        if(chCtx.type==="tavola"){ ctxFull = t("rbCtxTv")+": "+chCtx.label; ctxShort = chCtx.label; }
+        else if(chCtx.type==="plate"){ ctxFull = t("rbCtxPl"); ctxShort = t("rbCtxPlShort"); }
+        else if(chCtx.type==="name"){ ctxFull = t("rbCtxNm")+": "+chCtx.label; ctxShort = chCtx.label; }
+        else if(chCtx.type==="search"){ ctxFull = t("rbCtxSr")+": "+chCtx.label; ctxShort = chCtx.label; }
+        else ctxActive = false;
+      }
+      var ctxHtml = ctxActive
+        ? '<button type="button" class="ic-rbar-ctx ic-rbar-ctx-back" data-rb="ctxback">'+maniculeSvg()+
+          '<span class="ic-rbar-full">'+esc(ctxFull)+'</span><span class="ic-rbar-short">'+esc(ctxShort)+'</span></button>'
+        : '<button type="button" class="ic-rbar-ctx" data-rb="back">'+
+          '<span class="ic-rbar-full">'+esc(t("back"))+'</span><span class="ic-rbar-short">'+esc(t("rbBackShort"))+'</span></button>';
+      var sep = rbarSepHtml(book);
+      var posTitle = ch ? chapTitle(ch) : "";
       root.innerHTML =
         '<div class="ic-wrap ic-ch-wrap">'+
-          '<div class="ic-nav">'+
-            '<button type="button" class="ic-back">'+t("back")+'</button>'+
-            '<span class="ic-nav-pos"></span>'+
+          '<div class="ic-rbar" id="ic-rbar">'+
+            '<div class="ic-rbar-row">'+
+              ctxHtml+sep+
+              '<button type="button" class="ic-rbar-pos" data-rb="pos" aria-haspopup="dialog" aria-label="'+esc(t("rbPosLabel"))+'">'+
+                '<span class="ic-rbar-pos-ch">'+esc(posTitle)+'</span><span class="ic-rbar-pos-pg" data-rb-pg></span></button>'+sep+
+              '<button type="button" class="ic-rbar-top" data-rb="top"><span class="ic-rbar-full">'+esc(t("rbTop"))+'</span><span class="ic-rbar-short">'+esc(t("rbTopShort"))+'</span></button>'+
+              '<button type="button" class="ic-rbar-scan" data-rb="scan"'+(pmRows.length?"":" disabled")+'>'+esc(t("svScan"))+'</button>'+
+              (book.meta.home ? '<button type="button" class="ic-rbar-search" data-rb="search">'+esc(t("hmSearch"))+'</button>' : "")+
+            '</div>'+
             langSwitch()+
           '</div>'+
           '<header class="ic-head">'+
             '<p class="ic-kicker">'+esc(bt(book.meta.title))+'</p>'+
             '<h1 class="ic-h-fr">'+esc(ch ? chapTitle(ch) : "")+'</h1>'+
           '</header>'+
-          toc+
           (enMode ? (enPrep ? '<p class="ic-ch-note">'+esc(t(trl==="fr" ? "chFrPrep" : "chEnPrep"))+'</p>' : "") : (state.lang!=="ru" && ch && ch.blocks ? '<p class="ic-ch-note">'+esc(t("chRuOnly"))+'</p>' : ""))+
           body+
           (ch ? '<div class="ic-pager">'+pagerBtn(prev,t("chPrev"))+pagerBtn(next,t("chNext"))+'</div>' : "")+
@@ -1396,13 +1458,79 @@
         });
       }
       var pgm = pageSpec && /^(\d+)-(\d+)-(\d+)$/.exec(pageSpec);
-      root.querySelector(".ic-back").addEventListener("click",function(){
-        if(namesUi.chVia===location.hash){ history.back(); return; }
-        if(pgm && book.meta.tavola){ if(tavolaUi.via===location.hash) history.back(); else location.hash = hrefFor(book, "index").replace(/^#/,""); }
-        else if(book.meta.home) location.hash = hrefFor(book, "home"); else goIndex(book);
+      // Новая панель читалки (.ic-rbar) — один делегированный обработчик на всю
+      // строку вместо отдельных слушателей на каждую кнопку.
+      var rbar = root.querySelector("#ic-rbar"), rbarRow = root.querySelector(".ic-rbar-row"), pgEl = root.querySelector("[data-rb-pg]");
+      var pgmEls = Array.prototype.slice.call(root.querySelectorAll(".ic-pgm-b"));
+      // Текущая страница издания 1626 года по текущей прокрутке: последняя метка
+      // страницы (та же вёрстка .ic-pgm-b, что открывает «Скан» внутри текста),
+      // чей верх уже прошёл выше панели — классический приём «scrollspy».
+      function curPgIdx(){
+        if(!pgmEls.length) return -1;
+        var off = (parseFloat(root.dataset.top)||0) + (rbar ? rbar.getBoundingClientRect().height : 0) + 4;
+        var cur = pgmEls[0];
+        for(var i=0;i<pgmEls.length;i++){ if(pgmEls[i].getBoundingClientRect().top <= off) cur = pgmEls[i]; else break; }
+        return +cur.getAttribute("data-pi");
+      }
+      function paintPg(){
+        if(!pgEl) return;
+        var pi = curPgIdx();
+        pgEl.textContent = pi >= 0 ? " · "+pgLabel(pmRows[pi][1]) : "";
+      }
+      paintPg();
+      if(rbarRow) rbarRow.addEventListener("click", function(e){
+        var b = e.target.closest("[data-rb]"); if(!b || b.disabled) return;
+        var act = b.getAttribute("data-rb");
+        if(act==="ctxback"){ history.back(); return; }
+        if(act==="back"){
+          if(pgm && book.meta.tavola){ if(tavolaUi.via===location.hash) history.back(); else location.hash = hrefFor(book, "index").replace(/^#/,""); }
+          else if(book.meta.home) location.hash = hrefFor(book, "home"); else goIndex(book);
+          return;
+        }
+        if(act==="pos"){ openChapToc(book, chap, ch, b); return; }
+        if(act==="top"){
+          var off = (parseFloat(root.dataset.top)||0) + (rbar ? rbar.getBoundingClientRect().height : 0) + 4;
+          var r = root.querySelector(".ic-ch-wrap").getBoundingClientRect();
+          window.scrollTo(0, window.scrollY + r.top - off);
+          return;
+        }
+        if(act==="scan"){ var pi = curPgIdx(); if(pi >= 0) openSv(book, pmRows, pi); return; }
+        if(act==="search"){ if(book.meta.home) location.hash = hrefFor(book, "home/search"); return; }
       });
-      var tocBtn = root.querySelector(".ic-toc-btn");
-      if(tocBtn) tocBtn.addEventListener("click",function(){ openChapToc(book, chap, ch, tocBtn); });
+      // Показ/скрытие панели и внешней .back-bar синхронно, по направлению
+      // прокрутки — не по абсолютной позиции, как у .ic-controls выше (тот
+      // плавно сжимается с самого начала списка; здесь нужно ровно обратное:
+      // всегда видна у самого верха и у самого низа главы, прячется только
+      // при заметной прокрутке вниз и возвращается при небольшой прокрутке
+      // вверх). transform, а не изменение высоты/отображения — у sticky-
+      // элемента это не двигает раскладку страницы (панель просто съезжает
+      // за верхний край своего — уже не занимающего места у остального
+      // текста — "прилипшего" положения), прокрутка читателя не прыгает.
+      // Пороги по 1626-странице не подходят здесь: SHOW_AT/HIDE_AT в пикселях
+      // накопленного движения в одну сторону — короткое дрожание инерции на
+      // телефоне меняет знак почти каждый кадр и обнуляет накопитель, не
+      // долетая до порога; настоящая прокрутка быстро набирает нужную сумму.
+      var rbLastY = window.scrollY, rbDown = 0, rbUp = 0, rbHidden = false;
+      var RB_HIDE_AT = 26, RB_SHOW_AT = 10, RB_TOP_GUARD = 36, RB_BOTTOM_GUARD = 160;
+      function rbTick(){
+        if(gen !== renderGen){
+          var bbar0 = document.querySelector(".back-bar");
+          if(bbar0) bbar0.classList.remove("ic-bb-hidden");
+          return;
+        }
+        paintPg();
+        var y = window.scrollY, dy = y - rbLastY; rbLastY = y;
+        var doc = document.documentElement;
+        var nearTop = y < RB_TOP_GUARD, nearBottom = (doc.scrollHeight - (y + window.innerHeight)) < RB_BOTTOM_GUARD;
+        if(nearTop || nearBottom){ rbHidden = false; rbDown = 0; rbUp = 0; }
+        else if(dy > 0.5){ rbDown += dy; rbUp = 0; if(rbDown > RB_HIDE_AT) rbHidden = true; }
+        else if(dy < -0.5){ rbUp += -dy; rbDown = 0; if(rbUp > RB_SHOW_AT) rbHidden = false; }
+        if(rbar) rbar.classList.toggle("ic-rbar-hidden", rbHidden);
+        var bbar = document.querySelector(".back-bar");
+        if(bbar) bbar.classList.toggle("ic-bb-hidden", rbHidden);
+        requestAnimationFrame(rbTick);
+      }
+      requestAnimationFrame(rbTick);
       root.querySelectorAll("[data-ch]").forEach(function(b){ b.addEventListener("click",function(){ location.hash = chapterHref(book, b.getAttribute("data-ch")).replace(/^#/,""); }); });
       root.querySelectorAll(".ic-fig").forEach(function(f){ f.addEventListener("click",function(){ lightbox(f.getAttribute("data-src")); }); });
       root.querySelectorAll(".ic-ch-aside a").forEach(function(a){ a.addEventListener("click",function(){ namesUi.chVia = a.getAttribute("href"); }); });
@@ -1623,7 +1751,11 @@
           var id = d.byId[a.getAttribute("data-tv")].id, el = document.getElementById("tv-"+id);
           if(!el){ q.value = tavolaUi.q = ""; fill(); el = document.getElementById("tv-"+id); }
           if(el){ scrollToEl(el); flash(el); }
-        } else { tavolaUi.scroll = window.scrollY; tavolaUi.via = a.getAttribute("href"); }
+        } else {
+          tavolaUi.scroll = window.scrollY; tavolaUi.via = a.getAttribute("href");
+          var tvRowEl = a.closest(".ic-tv-e,.ic-tv-sub"), tvLbl = tvRowEl && tvRowEl.querySelector(".ic-tv-ru");
+          chCtx = {hash: a.getAttribute("href"), type:"tavola", label: tvLbl ? tvLbl.textContent : ""};
+        }
       });
       fill();
       if(tavolaUi.scroll){ var y = tavolaUi.scroll; tavolaUi.scroll = 0; requestAnimationFrame(function(){ if(gen===renderGen) window.scrollTo(0,y); }); }
@@ -1636,6 +1768,14 @@
      names.json строит tools/build_names.py: имена из глоссария с типом, гравюрами и упоминаниями в русском переводе.
      Упоминание — [глава, блок, позиция, длина, …] в тексте блока (у цитаты: строки через \n и «— автор»). */
   var namesCache = {}, namesUi = {q:"", ty:"all", pos:{}, via:"", chVia:""};
+  // Откуда читатель попал в главу — для контекстной ссылки «К…» в новой панели
+  // читалки (.ic-rbar). hash — адрес главы, на который действительно перешли
+  // (сравнивается с location.hash при рендере главы, тот же приём, что и у
+  // namesUi.chVia/tavolaUi.via); type различает четыре источника; label — то, что
+  // показать читателю (статья указателя, имя, запрос поиска; у гравюры — пусто,
+  // подпись статична). В памяти, без сохранения между перезагрузками — тот же
+  // принятый в этом файле подход, что у namesUi/tavolaUi.
+  var chCtx = {hash:"", type:"", label:""};
   var NM_TYPES = ["g","c","a","p","n"];
   function loadNames(book, cb){
     if(namesCache[book.slug]){ cb(namesCache[book.slug]); return; }
@@ -1789,7 +1929,10 @@
     });
     root.addEventListener("click",function(ev){
       var a = ev.target.closest(".ic-nm-ms a");
-      if(a){ namesUi.pos[location.hash] = window.scrollY; namesUi.chVia = a.getAttribute("href"); }
+      if(a){
+        namesUi.pos[location.hash] = window.scrollY; namesUi.chVia = a.getAttribute("href");
+        chCtx = {hash: a.getAttribute("href"), type:"name", label: e.ru};
+      }
     });
     var y = namesUi.pos[location.hash];
     if(y){ delete namesUi.pos[location.hash]; requestAnimationFrame(function(){ if(gen===renderGen) window.scrollTo(0,y); }); }
@@ -2085,6 +2228,7 @@
       if(a && a.getAttribute("href")){
         var h = a.getAttribute("href");
         namesUi.pos[location.hash] = window.scrollY; namesUi.via = h; namesUi.chVia = h;
+        if(/\/ch\//.test(h)) chCtx = {hash: h, type:"search", label: q.value};
       }
     });
     paint();
@@ -2266,6 +2410,11 @@
         if(namesUi.via===location.hash){ history.back(); return; }
         location.hash = hrefFor(book, "home/gallery");
       });
+      // Клик «Читать в главе» — глава запоминает, что пришли именно отсюда (карточка
+      // гравюры), чтобы новая панель читалки могла предложить вернуться назад тем же
+      // History.back(), а не просто показать обычную кнопку «К оглавлению».
+      var pcRead = root.querySelector(".ic-pc-read");
+      if(pcRead) pcRead.addEventListener("click",function(){ chCtx = {hash: pcRead.getAttribute("href"), type:"plate", label:""}; });
       var fig = root.querySelector(".ic-pc-fig .ic-fig"); fig.addEventListener("click",function(){ zoomLightbox(src); });
       [prev,next].forEach(function(n){ if(n){ var im = new Image(); im.src = engBase+n.file+"_display.webp"; } });
       function step(n){ if(n) location.replace(hrefFor(book, "plate/"+n.id)); }
