@@ -249,13 +249,15 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    вместе с внешней .back-bar по направлению прокрутки (см. rbTick в app.js);
    sticky + transform, а не display/height, чтобы скрытие не двигало текст
    под панелью — тот же приём, которым sticky уже и так "перекрывает"
-   проскроленный контент, не отнимая у него места. Фон/блюр — тот же язык,
-   что у .ic-controls (поисковая панель указателя), просто ниже и у́же. */
+   проскроленный контент, не отнимая у него места.
+   Визуально это колонтитул, не карточка: сплошной тон бумаги (плотнее самой
+   .ic, чтобы текст под ней не просвечивал при прокрутке — без блюра и без
+   полупрозрачности) и тонкая линейка только снизу, как под колонтитулом в
+   самом издании 1626 года (тот же .ic-nav{border-bottom:1px solid var(--rule)}
+   приём) — ни скруглений, ни тени, ни рамки по бокам. */
 .ic-rbar{position:sticky;top:var(--top);z-index:5;
-  background:rgba(250,246,236,.82);
-  -webkit-backdrop-filter:blur(8px) saturate(1.15);backdrop-filter:blur(8px) saturate(1.15);
-  border:1px solid rgba(255,255,255,.5);border-radius:14px;
-  box-shadow:0 14px 28px -18px rgba(70,46,20,.32);
+  background:color-mix(in srgb, var(--paper) 94%, var(--ink) 6%);
+  border-bottom:1px solid var(--rule);
   margin:0 0 26px;padding:0 14px;
   transition:transform .3s ease;will-change:transform}
 /* -100% of the bar's own height isn't enough here: unlike .back-bar (which
@@ -264,6 +266,10 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    plus a small buffer against sub-pixel rounding. */
 .ic-rbar.ic-rbar-hidden{transform:translateY(calc(-100% - var(--top) - 16px))}
 .ic-rbar-row{display:flex;align-items:center;gap:8px;padding:9px 0;min-width:0}
+/* row1/row2 — на десктопе просто "прозрачные" обёртки (display:contents),
+   их дети текут в одну общую .ic-rbar-row как раньше; на ≤620px каждая
+   становится своей flex-строкой (см. брейкпоинт ниже). */
+.ic-rbar-row1,.ic-rbar-row2{display:contents}
 /* flex:none is the default for every button (top/scan/search/the manicule
    icon) — only .ic-rbar-ctx and .ic-rbar-pos override it below to 1 1 auto,
    so those two (the ones with unpredictable-length content: a chapter title,
@@ -274,16 +280,29 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
   padding:6px 2px;margin:0;font-size:.78em;letter-spacing:.05em;text-transform:uppercase;
   color:var(--ink);cursor:pointer;white-space:nowrap;transition:color .2s}
 .ic-rbar button[disabled]{opacity:.35;cursor:default}
-/* flex-shrink:0 — this one keeps its natural size and only ellipsizes via its
-   own max-width cap (for a pathologically long index/name/query label); the
-   squeeze when the row is tight should fall on .ic-rbar-pos below instead,
-   whose chapter-title portion is already the one this file is fine eliding
-   first (it's dropped outright on narrow screens, see the breakpoint). */
+/* flex-shrink:0 — found and reverted a bug from an earlier pass: giving ctx
+   flex-shrink:1 made it shrink *proportionally to the row's overall deficit*
+   even when its own content already fit fine — a short, untruncated label
+   like "Back to index" was rendering as "BAC…" purely because the sibling
+   chapter title (.ic-rbar-pos) was long, not because ctx itself needed to.
+   flex-shrink:0 fixes that: ctx keeps its natural size and only the
+   independent max-width cap below clamps (+ellipsizes) it — and only when
+   its OWN content exceeds that cap (e.g. a ~27-char names.json entry
+   combined with the "Назад к…"/"Back to…" prefix). All of the row's squeeze
+   now falls on .ic-rbar-pos alone again (flex:1 1 auto below), same as the
+   original design; its min-width floor stops it collapsing to ~0 in the
+   pathological case of a long ctx label *and* a long chapter title at once. */
 .ic-rbar-row .ic-rbar-ctx{flex:0 0 auto;justify-content:flex-start;max-width:46%}
 .ic-rbar-ctx span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .ic-rbar-ctx-back{color:var(--accent)}
-.ic-rbar-hand{flex:none;color:inherit}
-.ic-rbar-row .ic-rbar-pos{flex:1 1 auto;min-width:0;justify-content:center;color:var(--soft)}
+/* Манула (maniculeSvg() в app.js) — размер под капитель соседней надписи
+   малыми прописными (.ic-rbar button — font-size .78em/.66em, uppercase):
+   1em здесь равен font-size кнопки, в которой лежит svg, так что высота
+   глифа (.78em шрифта кнопки ≈ его height в CSS-пикселях пропорционально
+   следует за uppercase-текстом на любом брейкпоинте без отдельного медиа-
+   запроса). viewBox 64×44 → держим те же пропорции (~1.45:1). */
+.ic-rbar-hand{flex:none;color:inherit;width:1.45em;height:1em;display:block}
+.ic-rbar-row .ic-rbar-pos{flex:1 1 auto;min-width:70px;justify-content:center;color:var(--soft)}
 .ic-rbar-pos-ch{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-style:italic;font-family:var(--old);font-size:1.05em}
 .ic-rbar-pos-pg{flex:none;color:var(--ink)}
 .ic-rbar-top,.ic-rbar-scan,.ic-rbar-search{color:var(--soft);flex:none}
@@ -292,27 +311,38 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    строке из пяти элементов тесно (см. брейкпоинт ниже). */
 .ic-rbar-short{display:none}
 /* Разделитель — вырезанная типографская виньетка самой книги, как css-маска
-   (см. комментарий у .ic-orn выше): цвет текста, приглушена, малого размера —
-   внутристрочная пауза между группами кнопок, не декоративный элемент сам
-   по себе. */
-.ic-rbar-sep{display:block;flex:none;height:13px;width:32px;
+   (см. комментарий у .ic-orn выше): цвет текста, заметный декоративный
+   росчерк между группами кнопок, не фоновый шум. Увеличен и контрастнее,
+   чем первая попытка (была почти не видна на 1440px). */
+.ic-rbar-sep{display:block;flex:none;height:20px;width:48px;
   -webkit-mask-image:var(--orn-src);mask-image:var(--orn-src);
   -webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;
   -webkit-mask-position:center;mask-position:center;-webkit-mask-size:contain;mask-size:contain;
-  background-color:var(--soft);opacity:.55}
+  background-color:var(--accent);opacity:.8}
+/* -sep-m — те же разделители, но только между элементами второй мобильной
+   строки (к началу главы / скан / поиск); на десктопе их не было и не
+   нужно — скрыты по умолчанию, включаются только в брейкпоинте ниже. */
+.ic-rbar-sep-m{display:none}
 .ic-rbar .ic-lang{position:absolute;right:14px;top:50%;transform:translateY(-50%);gap:8px;background:none}
 @media (hover:hover){
   .ic-rbar button:not([disabled]):hover{color:var(--accent)}
 }
-/* На телефоне — мельче и плотнее, название главы в «место» уходит (остаётся
-   только номер страницы), чтобы вся строка умещалась без переноса. */
+/* На телефоне — две строки вместо одной тесной: 1) «откуда пришли» +
+   «глава · страница» (короткое название главы вместо полного — см.
+   .ic-rbar-pos-ch .ic-rbar-full/-short, тот же приём, что у ctx/top), 2) «к
+   началу главы» / «скан» / «поиск», равномерно по ширине, с разделителями
+   между ними. Тап-зоны кнопок — не менее 44px высотой (padding подобран и
+   проверен замером getBoundingClientRect в браузере). */
 @media (max-width:620px){
   .ic-rbar{padding:0 8px}
-  .ic-rbar-row{gap:4px}
-  .ic-rbar button{font-size:.66em;letter-spacing:.02em;padding:6px 0}
-  .ic-rbar-ctx{max-width:36%}
-  .ic-rbar-sep{display:none}
-  .ic-rbar-pos-ch{display:none}
+  .ic-rbar-row{flex-direction:column;align-items:stretch;gap:2px;padding:6px 0}
+  .ic-rbar-row1,.ic-rbar-row2{display:flex;align-items:center;gap:4px;min-width:0}
+  .ic-rbar-row2{justify-content:space-between}
+  .ic-rbar button{font-size:.66em;letter-spacing:.02em;padding:13px 6px;min-height:44px;box-sizing:border-box}
+  .ic-rbar-ctx{max-width:46%}
+  .ic-rbar-row .ic-rbar-sep{display:none}
+  .ic-rbar-sep-m{display:block;flex:none;height:16px;width:30px}
+  .ic-rbar-row2 button{flex:1 1 0;justify-content:center}
   .ic-rbar-full{display:none}
   .ic-rbar-short{display:inline}
 }

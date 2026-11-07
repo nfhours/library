@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "122";
+  var APP_VER = "123";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -124,11 +124,11 @@
     chPrev:       {ru:"Предыдущая глава", en:"Previous chapter", fr:"Chapitre précédent"},
     chToc:        {ru:"Главы", en:"Chapters", fr:"Chapitres"},
     contents:     {ru:"Содержание", en:"Contents", fr:"Sommaire"},
-    rbCtxTv:      {ru:"К указателю", en:"To the index", fr:"À l’index"},
-    rbCtxPl:      {ru:"К гравюре", en:"To the engraving", fr:"À la gravure"},
+    rbCtxTv:      {ru:"Назад к указателю", en:"Back to index", fr:"Retour à l’index"},
+    rbCtxPl:      {ru:"Назад к гравюре", en:"Back to the engraving", fr:"Retour à la gravure"},
     rbCtxPlShort: {ru:"Гравюре", en:"The engraving", fr:"La gravure"},
-    rbCtxNm:      {ru:"К имени", en:"To the name", fr:"Au nom"},
-    rbCtxSr:      {ru:"К поиску", en:"To the search", fr:"À la recherche"},
+    rbCtxNm:      {ru:"Назад к имени", en:"Back to name", fr:"Retour au nom"},
+    rbCtxSr:      {ru:"Назад к поиску", en:"Back to search", fr:"Retour à la recherche"},
     rbBackShort:  {ru:"Оглавление", en:"Index", fr:"Index"},
     rbTop:        {ru:"К началу главы", en:"To the start", fr:"Au début"},
     rbTopShort:   {ru:"Начало", en:"Start", fr:"Début"},
@@ -1350,20 +1350,39 @@
   // (а не случайно по pickOrnament) и подтверждён скриншотом: узкий и
   // невысокий, чисто читается рядом с текстом в одну строку.
   var RBAR_SEP = {file:"divider_0609_564.png", width:299, height:73};
-  function rbarSepHtml(book){
+  // mcls — дополнительный класс поверх .ic-rbar-sep: по умолчанию пусто (тот же
+  // разделитель, что между «назад»/«контекст» и «глава · страница»), "ic-rbar-sep-m"
+  // — для новых разделителей второй строки мобильной раскладки (видны только
+  // там, см. @media в app.css).
+  function rbarSepHtml(book, mcls){
     if(!book.ornaments) return "";
     var src = BASE+"books/"+book.ornaments.srcSlug+"/ornaments/"+RBAR_SEP.file;
-    return '<span class="ic-rbar-sep" aria-hidden="true" style="--orn-src:url(\''+esc(src)+'\');--orn-ratio:'+(RBAR_SEP.width/RBAR_SEP.height)+'"></span>';
+    return '<span class="ic-rbar-sep'+(mcls?" "+mcls:"")+'" aria-hidden="true" style="--orn-src:url(\''+esc(src)+'\');--orn-ratio:'+(RBAR_SEP.width/RBAR_SEP.height)+'"></span>';
   }
   // Манула (☚, указующая рука на полях старых книг) — глиф «назад туда, откуда
   // пришли» в новой панели. В сканах этого издания такого знака не нашлось
   // (это проверено — не то же самое, что обычная стрелка, которую задание
-  // прямо запрещает), поэтому силуэт нарисован вручную: сплошная чёрная
-  // заливка, в духе самих вырезанных орнаментов книги (ornaments/*.png —
-  // тоже залитые силуэты, не тонкий контур системной иконки).
+  // прямо запрещает), поэтому силуэт нарисован вручную: сплошная заливка, в
+  // духе самих вырезанных орнаментов книги (ornaments/*.png — тоже залитые
+  // силуэты, не тонкий контур системной иконки).
+  //
+  // Отладка прошлой версии (не рендерилась): дело было НЕ в currentColor,
+  // overflow или наследовании цвета — кнопка и currentColor резолвились
+  // верно. Проблема в самих координатах path: «палец» и «кулак» были залиты
+  // одним и тем же плоским пятном почти без различимой формы, и при
+  // фактическом размере 23×15px это вообще схлопывалось в неразличимую
+  // кляксу (проверено рендером сырого SVG отдельно, в разных масштабах).
+  // Форма переработана: отдельный кулак (эллипс), заметно удлинённый
+  // сужающийся к острию указательный палец (путь с кривыми) и большой палец
+  // снизу как явная выемка между кулаком и пальцем — это и читается как
+  // рука на малом размере, а не плоское пятно. Размер увеличен (с 23×15 до
+  // ~1em колонки текста) под капитель соседней надписи малыми прописными.
   function maniculeSvg(){
-    return '<svg class="ic-rbar-hand" viewBox="0 0 60 40" width="23" height="15" aria-hidden="true" focusable="false">'+
-      '<path fill="currentColor" d="M2 20.5c0-2.6 2.6-4.3 6.4-4.9l16.4-2.6c1.3-2.6 4-3.1 5.6-.9.9-2.1 3.4-2.1 4.3-.1.9-1.9 3.3-1.5 3.7.8 2.2.1 3.2 2 1.9 3.8 2.2.6 2.8 3.2.6 4.4l-13.7 4c-3 .8-6.1.4-8.7-1.1l-9.4-.8c-3.9-.3-7.1-.1-7.1-2.6zM44 11.2c0-2 2-3.6 4.6-3.6h5.1c2.6 0 4.6 1.8 4.6 4v8.3c0 2.2-1.9 4-4.3 4h-5.4c-2.6 0-4.6-1.8-4.6-4.1z"/>'+
+    return '<svg class="ic-rbar-hand" viewBox="0 0 64 44" aria-hidden="true" focusable="false">'+
+      '<path fill="currentColor" d="M30 14c4-1 8-.5 12 1 8 2.5 16 4 19 5.5 1 .5 1 2.5 0 3.1-3 1.4-11 2.9-19 5.4-4 1.5-8 2-12 1z"/>'+
+      '<ellipse fill="currentColor" cx="18" cy="23" rx="15" ry="13.5"/>'+
+      '<ellipse fill="currentColor" cx="25" cy="33" rx="6.5" ry="5" transform="rotate(25 25 33)"/>'+
+      '<rect fill="currentColor" x="0" y="18" width="9" height="16" rx="3"/>'+
     '</svg>';
   }
   function renderChapter(book, slug, blockN, pageSpec){
@@ -1426,16 +1445,30 @@
           '<span class="ic-rbar-full">'+esc(t("back"))+'</span><span class="ic-rbar-short">'+esc(t("rbBackShort"))+'</span></button>';
       var sep = rbarSepHtml(book);
       var posTitle = ch ? chapTitle(ch) : "";
+      var posTitleShort = ch ? chapTitleShort(ch) : "";
+      // Две «строки» панели (.ic-rbar-row1/-row2) — на десктопе это просто
+      // display:contents (их дети текут в одну общую .ic-rbar-row, раскладка
+      // та же, что раньше), на ≤620px каждая становится своей flex-строкой
+      // (см. app.css): строка 1 — «откуда пришли» + «глава · страница»,
+      // строка 2 — «к началу главы» / «скан» / «поиск» с разделителями
+      // между ними (mcls="ic-rbar-sep-m" — отдельный от «настольных» sep
+      // класс, виден только в этой мобильной строке).
+      var sepM = rbarSepHtml(book, "ic-rbar-sep-m");
       root.innerHTML =
         '<div class="ic-wrap ic-ch-wrap">'+
           '<div class="ic-rbar" id="ic-rbar">'+
             '<div class="ic-rbar-row">'+
-              ctxHtml+sep+
-              '<button type="button" class="ic-rbar-pos" data-rb="pos" aria-haspopup="dialog" aria-label="'+esc(t("rbPosLabel"))+'">'+
-                '<span class="ic-rbar-pos-ch">'+esc(posTitle)+'</span><span class="ic-rbar-pos-pg" data-rb-pg></span></button>'+sep+
-              '<button type="button" class="ic-rbar-top" data-rb="top"><span class="ic-rbar-full">'+esc(t("rbTop"))+'</span><span class="ic-rbar-short">'+esc(t("rbTopShort"))+'</span></button>'+
-              '<button type="button" class="ic-rbar-scan" data-rb="scan"'+(pmRows.length?"":" disabled")+'>'+esc(t("svScan"))+'</button>'+
-              (book.meta.home ? '<button type="button" class="ic-rbar-search" data-rb="search">'+esc(t("hmSearch"))+'</button>' : "")+
+              '<div class="ic-rbar-row1">'+
+                ctxHtml+sep+
+                '<button type="button" class="ic-rbar-pos" data-rb="pos" aria-haspopup="dialog" aria-label="'+esc(t("rbPosLabel"))+'">'+
+                  '<span class="ic-rbar-pos-ch"><span class="ic-rbar-full">'+esc(posTitle)+'</span><span class="ic-rbar-short">'+esc(posTitleShort)+'</span></span><span class="ic-rbar-pos-pg" data-rb-pg></span></button>'+
+              '</div>'+
+              '<div class="ic-rbar-row2">'+
+                sep+
+                '<button type="button" class="ic-rbar-top" data-rb="top"><span class="ic-rbar-full">'+esc(t("rbTop"))+'</span><span class="ic-rbar-short">'+esc(t("rbTopShort"))+'</span></button>'+sepM+
+                '<button type="button" class="ic-rbar-scan" data-rb="scan"'+(pmRows.length?"":" disabled")+'>'+esc(t("svScan"))+'</button>'+
+                (book.meta.home ? sepM+'<button type="button" class="ic-rbar-search" data-rb="search">'+esc(t("hmSearch"))+'</button>' : "")+
+              '</div>'+
             '</div>'+
             langSwitch()+
           '</div>'+
@@ -1942,6 +1975,26 @@
 
   /* ---------- содержание книги по частям (book.json chapters.parts) ---------- */
   function chapTitle(c){ return ((state.lang==="en" || state.lang==="fr") && c["title_"+state.lang] ? c["title_"+state.lang] : c.title).replace(/\s*\(вступление\)$/,""); }
+  // Короткие формы заголовков глав — только для тех ~9 из 25, чьи полные
+  // названия слишком длинны для «панели читалки» на телефоне (.ic-rbar-pos-ch
+  // на ≤620px, см. app.css): не обрезка по словам, а осмысленное сокращение
+  // (как rbCtxPlShort/rbTopShort выше). Имена богов (saturno…gratie) и так
+  // короткие — для них записи нет, chapTitleShort возвращает chapTitle(c).
+  var CHAP_SHORT = {
+    "frontespizio-dedica":        {ru:"Титульный лист",       en:"Title page",            fr:"Page de titre"},
+    "prefatione":                 {ru:"Предисловие",          en:"Preface",               fr:"Préface"},
+    "catalogo-dei":               {ru:"Каталог богов",        en:"Catalogue of gods",     fr:"Catalogue des dieux"},
+    "catalogo-autori":            {ru:"Каталог авторов",      en:"Catalogue of authors",  fr:"Catalogue des auteurs"},
+    "proemio":                    {ru:"Образы богов",         en:"Images of the gods",    fr:"Images des dieux"},
+    "annotationi-pignoria":       {ru:"Аннотации Пиньории",   en:"Pignoria’s annotations",fr:"Annotations de Pignoria"},
+    "aggionta":                   {ru:"Прибавление Пиньории", en:"Pignoria’s addition",   fr:"Addition de Pignoria"},
+    "seconda-parte-titolo-dedica":{ru:"Второй титульный лист",en:"Second title page",     fr:"Second titre"},
+    "seconda-parte-indiani":      {ru:"Боги индийские",       en:"Gods of the Indians",   fr:"Dieux des Indiens"}
+  };
+  function chapTitleShort(c){
+    var e = c && CHAP_SHORT[c.slug];
+    return e ? (e[state.lang] || e.ru) : chapTitle(c);
+  }
   function tocPartsHtml(book, chap, curSlug){
     var parts = (book.meta.chapters && book.meta.chapters.parts) || [], used = {};
     function link(c){
