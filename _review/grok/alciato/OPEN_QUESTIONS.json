@@ -612,6 +612,23 @@
    "resolution": null,
    "resolved_by": null,
    "source": "Обнаружено при Opus-сверке перевода эмблем 161-180 (2026-11-06). Перевод помечен [?]; транскрипция emblems.json не менялась."
+  },
+  {
+   "id": "Q36",
+   "frame": "0209",
+   "page": "203",
+   "location": "эмблема 188, строка 4",
+   "diplomatic_as_read": "cæteris viuiſceret",
+   "candidates": [
+    "cætera ut viveret — опечатка печати",
+    "cæteris viveret — опечатка печати (пропущено ſ в reading)"
+   ],
+   "type": "suspected_typo",
+   "resolver": "second_copy",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "Низкий приоритет, на смысл перевода («во всём прочем казалась живой») не влияет; обнаружено при Opus-сверке перевода эмблем 181-200 (2026-11-06). Транскрипция emblems.json не менялась."
   }
  ]
 }
