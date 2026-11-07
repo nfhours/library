@@ -1864,5 +1864,428 @@
       }
     ],
     "greek": []
+  },
+  "101": {
+    "motto": "The cup of Nestor.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Receive this crater of Nestor with its twin bases,",
+          "a work poured out from a heavy mass of silver.",
+          "Little studs of gold; around it stand four handles:",
+          "on each one sits a tawny dove.",
+          "Only long-lived Nestor could lift it.",
+          "Would you explain what the Muse of Maeonides [Homer] means?",
+          "The cup itself is the sky: its colour is silver:",
+          "the golden studs are the stars of heaven.",
+          "They think the doves he spoke of are the Pleiades.",
+          "The twin bosses are the greater and the lesser beast.",
+          "This Nestor, wise from long experience, understands:",
+          "the brave wage wars, the clever one holds the stars."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "102": {
+    "motto": "What is above us is nothing to us.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Prometheus, hanging forever on the rock of Caucasus,",
+          "is torn — the claw of the sacred bird rips out his liver.",
+          "And he wishes he had not made man: hating the modellers of clay,",
+          "he curses the torch kindled from the stolen fire.",
+          "The hearts of the wise are gnawed by many cares,",
+          "who strive to know the ways of heaven and the doings of the gods."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "103": {
+    "motto": "Against astrologers.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Icarus, who was carried through the heights and the air, until",
+          "the melted wax cast you headlong into the sea —",
+          "now the same wax, and the burning fire, raise you up again,",
+          "that by your own example you may teach sure doctrines.",
+          "Let the astrologer beware of predicting anything: headlong —",
+          "for likewise [?] the impostor [falls], while he flies above the stars."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "104": {
+    "motto": "Those who gaze at the heights, fall.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "While he tricks the thrushes with birdlime, and the larks with a snare,",
+          "and the arrow he lets fly strikes the high-flying crane,",
+          "the fowler, unwary, treads with his foot on a dipsas: she, avenging",
+          "the harm, spits forth the venom from her mouth.",
+          "So perishes he who, bow drawn, gazes up at the stars,",
+          "heedless of the fate that lies right before his feet."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "105": {
+    "motto": "Love is the most powerful passion.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Behold how the unconquered charioteer overcomes the lion's strength —",
+          "the little boy Love, carved on the gem:",
+          "how with this hand he holds the whip, with that he turns the reins,",
+          "and how much beauty is in the boy's face.",
+          "May dire plague be far from us: he who is able",
+          "to conquer such a beast — will he hold back his hand from us?"
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "106": {
+    "motto": "The power of love.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Naked Love — do you see how he smiles, and gazes calmly?",
+          "He has neither torches nor a bow whose horns he might bend.",
+          "But in one hand he holds flowers, in the other a fish,",
+          "as if to give his laws both to the land and to the sea."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "107": {
+    "motto": "The force of love.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "The winged god broke the winged thunderbolt, showing",
+          "that Love is a fire stronger than fire."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "108": {
+    "motto": "On a scholar captured by Love.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Immersed in studies, expert in expounding the law,",
+          "and the greatest of bookmen,",
+          "he loves Helianira more than the Thracian",
+          "prince ever loved the rival of her own sister.",
+          "Why, Cypris, did you surpass Pallas before another judge?",
+          "Is it not enough to have won on Ida?"
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "109": {
+    "motto": "Ἀντέρως, id amor virtutis (\"Anteros, that is, the love of virtue\").",
+    "subheading": "Διαλογιστικῶς (\"In dialogue form\").",
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Tell me, where are your curved bows? where are the arrows, Cupid,",
+          "with which you are wont to pierce the soft hearts of youths?",
+          "Where is the gloomy torch? where the wings? why does your hand",
+          "bear three garlands? why do your temples wear yet another?",
+          "\"I have nothing to do (stranger) with the common Cypris,",
+          "nor has any form of pleasure carried me away,",
+          "but I kindle in the pure minds of men the fires",
+          "of learning: I draw souls up to the lofty stars.",
+          "Out of Virtue herself I weave four garlands,",
+          "and of these the one that is Wisdom's, the foremost, covers my temples.\""
+        ]
+      }
+    ],
+    "greek": [
+      {
+        "where": "motto",
+        "original": "Αντέρως, id amor virtutis.",
+        "translation": "Anteros, that is, the love of virtue."
+      },
+      {
+        "where": "subheading",
+        "original": "Διαλογιστικῶς.",
+        "translation": "In dialogue form."
+      }
+    ]
+  },
+  "110": {
+    "motto": "Ἀντέρως, Amor virtutis, alium Cupidinem superans (\"Anteros, the love of virtue, surpassing the other Cupid\").",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Winged, and hostile to the winged Love, Nemesis painted him,",
+          "taming bow with bow, and fires with fire.",
+          "So that he might suffer what he did to others. But this boy, who once",
+          "bore his weapons fearlessly, now, wretched, weeps.",
+          "Thrice he spits deep into his bosom, and (a wondrous thing) fire",
+          "is burned by fire: Love hates the furies of Love."
+        ]
+      }
+    ],
+    "greek": [
+      {
+        "where": "motto",
+        "original": "Αντέρως, Amor virtutis, alium Cupidinem superans.",
+        "translation": "Anteros, the love of virtue, surpassing the other Cupid."
+      }
+    ]
+  },
+  "111": {
+    "motto": "Sweet things sometimes turn bitter.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Having left his mother far behind, the Lydian child",
+          "had withdrawn a little way: but you, dire bees, carried him off.",
+          "He had come to you, thinking you gentle birds,",
+          "though even a fierce viper would not be so cruel.",
+          "Ah, you give stings in return for the sweet gift of honey.",
+          "Alas the pain! Without you, no joy at all is given."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "112": {
+    "motto": "Almost the same, from Theocritus.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "While he was stealing honey from the hives, the wicked bee stung",
+          "thieving Love, and left her sting on the tips",
+          "of his fingers: and the boy groans, fretting over his swollen fingertip.",
+          "And wandering about, he stamps the ground: and shows Venus",
+          "his pain, and gravely complains that a little bee,",
+          "so small a creature, could inflict such harmful wounds.",
+          "To whom Venus, laughing, said: \"You too, my son, resemble",
+          "this beast: small as you are, you deal so many harmful wounds.\""
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "113": {
+    "motto": "On the statue of Love.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Who Love is, many poets of old have sung,",
+          "telling of his deeds under various names.",
+          "In this they agree: that he lacks clothing, that he is small of body.",
+          "Bearing weapons and wings, he has no eyes.",
+          "Such is his face, such the guise of the god. But if I may say so",
+          "against such great bards, I think a falsehood lies beneath this.",
+          "Why should he go about naked? As though a god lacked cloaks,",
+          "he who possesses all the riches of the conquered world.",
+          "Or how, I ask, could he, naked, escape the snows and the Alpine",
+          "north wind, and meadows bound by frost?",
+          "If he is a boy, do you call him a boy who outlasts Nestor?",
+          "Or do you not know the learned songs of the old man of Ascra?",
+          "A boy is fickle, but this one is stubborn: once he has entered",
+          "hearts, he can never leave them of his own will.",
+          "But he carries a quiver and arrows — why this useless burden?",
+          "Can an infant manage to bend the hard horns of a bow?",
+          "Why does he have wings, which he does not know how to carry into the sky?",
+          "He has no skill to aim his shafts at the livers of birds.",
+          "He creeps along the ground, and forever wounds the mortal",
+          "hearts of men: yet, turned to stone, he never stirs his wings.",
+          "If he is blind, and wears a band, what use is a blindfold",
+          "to a blind man? Does he therefore see any less?",
+          "And who would believe him an archer, deprived of sight?",
+          "An ordinary blind man's shafts fly at random, but his are sure.",
+          "They say he is fiery, and turns flames within his breast.",
+          "Why then does he still live? Fire devours everything.",
+          "And why, moreover, is he not quenched by swelling waves,",
+          "as often as he enters the soft hearts of the Naiads?",
+          "But you, lest you be caught in such great errors, listen:",
+          "our verses will tell what true Love is.",
+          "He is a pleasant labor amid playful leisure. His sign",
+          "is a Punic fruit upon a black shield."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "114": {
+    "motto": "On forgetting one's homeland.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Having long since left your homeland, and forgotten your own,",
+          "whom either blood or love provided you,",
+          "you dwell in Rome: nor does any care to return home ever come over you.",
+          "Only the honor of the eternal city holds you captive.",
+          "So the advance band of Ithacans, seduced by the sweetness of the lotus,",
+          "had abandoned both their homeland and their leader."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "115": {
+    "motto": "Sirens.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Birds without wings, and maidens without legs,",
+          "fish without a beak, which nevertheless sing with their mouths:",
+          "who would believe any such creatures exist? Nature has refused to join such things,",
+          "but the Sirens teach that it could be done.",
+          "It is a forbidden thing, this woman who ends in a dark fish,",
+          "because lust carries with it very many monsters.",
+          "By looks, by words, by purity of soul, men are drawn —",
+          "Parthenope, Ligia, and Leucosia.",
+          "These the Muses strip of their feathers, and these Ulysses outwits.",
+          "Clearly, the learned have nothing to do with a harlot."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "116": {
+    "motto": "An old man in love with a girl.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "While Sophocles (though of advanced age) draws the girl",
+          "Archippe, a courtesan, to his desires,",
+          "and entices her with payment too, the mad young men bore it ill",
+          "out of jealousy, and marked both of them with this verse:",
+          "\"As the owl sits upon tombs, and the horned owl over corpses,",
+          "so our girl sits with Sophocles.\""
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "117": {
+    "motto": "On colours.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Dun-brown is the sign of sorrow: we all",
+          "wear this garb when we give offerings at tombs.",
+          "But the robe of a sincere spirit and a pure mind is white.",
+          "Hence linen cloth is dear to sacred men.",
+          "Green teaches us to hope. Hope is said to dwell in green,",
+          "as often as, disappointed, it falls back in vain.",
+          "Yellow is the color of the greedy, and suits lovers too,",
+          "and harlots, and those whose hope has proved sure.",
+          "But let red clothing adorn armed knights,",
+          "and let it mark the blush of modesty in boys.",
+          "Sky-blue suits sailors, and those seers who, awestruck,",
+          "seek heavenly things out of excessive piety.",
+          "Cheap and plain are fleeces of dun-pale cloaks:",
+          "such coverings as the wooden-shod are wont to have.",
+          "Whoever is tormented by great cares, or by jealousy in love,",
+          "is thought not ill covered by a tawny garment.",
+          "Let whoever is content with his lot wear violet,",
+          "and bear the weariness of Fortune with equanimity.",
+          "As nature is varied in producing colors,",
+          "so one suits one man, another another: but each has his own taste."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "118": {
+    "motto": "Fortune, companion to Virtue.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "The caduceus, entwined with serpents, with twin wings,",
+          "stands upright between the horns of Amalthea.",
+          "Thus it shows how men mighty in mind and skilled in speech",
+          "are blessed by a great abundance of riches."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "119": {
+    "motto": "Fortune, surpassing Virtue.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "After he was defeated by Caesar's soldiery, and saw",
+          "Pharsalia awash with civil blood,",
+          "already about to drive the blade into his dying breast,",
+          "Brutus spoke these words with a bold mouth:",
+          "\"Unhappy Virtue, provident only in words,",
+          "why do you follow Fortune as your mistress in deeds?\""
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "120": {
+    "motto": "Poverty harms the greatest talents, preventing their advancement.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "My right hand holds a stone: my other hand bears up wings.",
+          "As the feather lifts me, so the heavy weight drags me down.",
+          "By talent I could have flown through the highest citadels,",
+          "had not envious poverty weighed me down."
+        ]
+      }
+    ],
+    "greek": []
   }
 }

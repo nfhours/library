@@ -488,6 +488,40 @@
    "resolution": null,
    "resolved_by": null,
    "source": "Низкий приоритет; обнаружено при Opus-сверке перевода эмблем 81-100 (2026-11-06). Перевод сделан по чтению «prælargo», транскрипция не менялась."
+  },
+  {
+   "id": "Q29",
+   "frame": "0118",
+   "page": "112",
+   "location": "эмблема 102, эпиграмма, строка 1",
+   "diplomatic_as_read": "Caucasi a æternùm",
+   "candidates": [
+    "Caucasia æternum — нормализованное чтение без разрыва набора",
+    "оставлено как в слое чтения (разрыв сохранён)"
+   ],
+   "type": "normalization",
+   "resolver": "second_copy",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "Низкий приоритет; обнаружено при Opus-сверке перевода эмблем 101-120 (2026-11-06). Перевод не затронут, transcription emblems.json не менялась."
+  },
+  {
+   "id": "Q30",
+   "frame": "0132",
+   "page": "126",
+   "location": "эмблема 115, строка 5",
+   "diplomatic_as_read": "Illicitum",
+   "candidates": [
+    "Illicitum — как напечатано в экземпляре 1551 г. (сохранить)",
+    "Illicium («приманка») — засвидетельствовано в других изданиях (вариант, не опечатка)"
+   ],
+   "type": "textual_variant",
+   "resolver": "second_copy",
+   "status": "open",
+   "resolution": null,
+   "resolved_by": null,
+   "source": "Низкий приоритет; обнаружено при Opus-сверке перевода эмблем 101-120 (2026-11-06), сверено с Glasgow A21a116. Перевод сделан по печатному «Illicitum», транскрипция не менялась."
   }
  ]
 }
