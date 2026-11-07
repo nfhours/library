@@ -29,7 +29,7 @@
      "Cùm ferit,& proprias calce profundit opes."
     ],
     "reading": [
-     "Quòd ſine egregios turpi maculaveris orsus,",
+     "Quòd fine egregios turpi maculaveris orsus,",
      "In noxamque tuum verteris officium,",
      "Fecisti, quod capra, sui mulctraria lactis",
      "Cùm ferit, & proprias calce profundit opes."
@@ -45,16 +45,8 @@
    "description": "Рамка из гнутого растительного орнамента (арабески)"
   }
  ],
- "errata": [
-  {
-   "printed": "fine",
-   "corrected": "ſine",
-   "certainty": "очевидная",
-   "applied_in_reading": true,
-   "comment": "подтверждено (Opus zoom pass; printed form confirmed on scan); исправлено в слое чтения. resolved_by: policy"
-  }
- ],
- "notes": "Номер «153» вверху справа. После «orſus,» у края случайная помета.",
+ "errata": [],
+ "notes": "Номер «153» вверху справа. После «orſus,» у края случайная помета. Прежняя запись errata («fine»→«ſine») была ошибочной и снята 2026-11-06: «fine» (abl. finis, «позорным концом», согласуется с «turpi») — верное чтение самого печатного текста; «ſine» грамматически невозможно («turpi» без существительного). Подтверждено дважды независимыми Opus-проверками перевода эмблем 121-140.",
  "status": "clean",
  "discrepancy_ids": [],
  "open_question_ids": [],

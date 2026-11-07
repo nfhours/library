@@ -7600,7 +7600,7 @@
       "Cùm ferit,& proprias calce profundit opes."
      ],
      "reading": [
-      "Quòd ſine egregios turpi maculaveris orsus,",
+      "Quòd fine egregios turpi maculaveris orsus,",
       "In noxamque tuum verteris officium,",
       "Fecisti, quod capra, sui mulctraria lactis",
       "Cùm ferit, & proprias calce profundit opes."
@@ -7608,10 +7608,10 @@
     }
    ],
    "greek": [],
-   "notes": null,
+   "notes": "Прежняя запись errata («fine»→«ſine») была ошибочной и снята 2026-11-06: «fine» (abl. finis, «позорным концом», согласуется с «turpi») — верное чтение самого печатного текста; «ſine» грамматически невозможно («turpi» без существительного). Подтверждено дважды независимыми Opus-проверками перевода.",
    "continues_on_next_page": false,
    "open_question_ids": [],
-   "has_errata": true,
+   "has_errata": false,
    "status": "clean"
   },
   {

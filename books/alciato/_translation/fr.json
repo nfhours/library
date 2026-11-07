@@ -2287,5 +2287,386 @@
       }
     ],
     "greek": []
+  },
+  "121": {
+    "motto": "Sur l'Occasion.",
+    "subheading": "Διαλογιστικῶς (« Sous forme de dialogue »).",
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Ceci est l'œuvre de Lysippe, dont la patrie est Sicyone. Qui es-tu ?",
+          "— Le point fugitif du temps saisi, qui dompte tout.",
+          "Pourquoi te tiens-tu sur des ailes ? — Je tourne sans cesse. Pourquoi gardes-tu",
+          "des sandales ailées aux pieds ? — La brise légère m'emporte en tous sens.",
+          "Pourquoi tiens-tu dans ta main droite un rasoir effilé, dis-moi ? — Ce signe",
+          "enseigne que je suis plus tranchant que toute lame.",
+          "Pourquoi cette mèche sur ton front ? — Pour qu'on me saisisse quand je viens à sa rencontre. Mais toi, écoute,",
+          "dis-moi pourquoi l'arrière de ta tête est chauve ?",
+          "Afin que, si l'on me laisse une fois partir, moi l'ailé,",
+          "on ne puisse ensuite me saisir en m'attrapant par les cheveux.",
+          "C'est avec cet art que l'artisan nous a façonnés, étranger, pour toi,",
+          "et pour que j'avertisse tous : je me tiens sous un portique ouvert."
+        ]
+      }
+    ],
+    "greek": [
+      {
+        "where": "subheading",
+        "original": "Διαλογιστικῶς.",
+        "translation": "Sous forme de dialogue."
+      }
+    ]
+  },
+  "122": {
+    "motto": "Sur la terreur soudaine.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Voyant les troupes fuir en colonnes débandées,",
+          "« Qui donc souffle à présent dans mes cornes ? » dit Faune."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "123": {
+    "motto": "Contre ceux qui louent ce qui n'est pas digne de louange.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Les immenses hordes des Galates, avec sa troupe à demi armée,",
+          "Antiochus, tremblant, les avait mises en fuite, contre son attente,",
+          "quand la force féroce des bœufs de Lucanie [les éléphants], la fureur de leurs trompes,",
+          "pour la première fois s'était jetée sur les chevaux ennemis.",
+          "Alors, dressant un trophée, il y peignit l'image d'un éléphant,",
+          "et dit encore : « nous aurions péri avec nos alliés,",
+          "si cette bête, la plus hideuse, l'éléphant, ne nous avait sauvés. »",
+          "Autant il est doux d'avoir vaincu, autant il est honteux d'avoir vaincu ainsi."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "124": {
+    "motto": "Sur le bonheur passager.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "On dit que la Courge a crû près du pin élevé,",
+          "et qu'elle s'est épanouie en une large feuillée.",
+          "Ayant enlacé ses branches, et dépassé sa cime même,",
+          "elle crut l'emporter sur les autres arbres.",
+          "Le pin lui répond : cette gloire est bien brève. Car bientôt",
+          "viendra l'hiver qui te perdra cruellement."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "125": {
+    "motto": "Du dommage de l'un, le profit de l'autre.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Tandis qu'avec des armes féroces ils se ruaient l'un sur l'autre pour se blesser,",
+          "la lionne redoutable par la griffe, le sanglier terrible par la défense,",
+          "le vautour accourt pour regarder, et s'empare de son repas.",
+          "La gloire du vainqueur sera sa future proie."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "126": {
+    "motto": "Il faut commencer sous de bons auspices.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Une chose commencée sous de mauvais auspices ne sait pas bien finir.",
+          "Ce qui se fait sous un heureux présage est profitable.",
+          "Quoi que tu fasses, si une belette croise ton chemin, abandonne-le ;",
+          "cette méchante bête porte les signes d'un mauvais sort."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "127": {
+    "motto": "Il ne reste rien.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Voilà, sans doute, ce qui manquait encore, après tant de maux, à nos",
+          "champs : que les sauterelles emportent tout ce qui s'y trouvait.",
+          "Nous avons vu d'innombrables essaims s'avancer, l'Eurus pour guide,",
+          "tels que n'en eurent ni les hordes d'Attila, ni les camps de Xerxès.",
+          "Elles ont tout consumé, le foin, le millet, l'épeautre,",
+          "et l'espoir est à l'étroit, à moins qu'il ne nous reste les prières."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "128": {
+    "motto": "Mal acquis, mal dépensé.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Le milan vorace, que la nausée d'une trop grande pitance avait tourmenté,",
+          "dit : « malheur à moi, mère, mes entrailles coulent de ma bouche ».",
+          "Mais elle répond : « pourquoi pleures-tu ? pourquoi crois-tu que ce sont tes entrailles,",
+          "toi qui, vivant de rapine, ne vomis que le bien d'autrui ? »"
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "129": {
+    "motto": "Les malheurs sont toujours tout prêts.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Trois jeunes filles du même âge jouaient un jour",
+          "aux sorts : laquelle irait la première aux eaux du Styx.",
+          "Mais celle pour qui le dé jeté était tombé mal",
+          "riait, aveugle, de son propre sort.",
+          "Quand, soudain frappée à la tête par un toit qui s'écroulait, elle mourut,",
+          "elle paya la dette due à sa plaisanterie téméraire.",
+          "Dans les affaires contraires, le mauvais sort ne se trompe pas ; mais dans",
+          "les affaires heureuses, il n'y a de place ni pour les prières, ni pour la main [l'effort]."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "130": {
+    "motto": "Les remèdes sur la pente raide, les maux sur la descente.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Après que Jupiter eut précipité Até hors des demeures célestes,",
+          "— hélas, quel mal grave elle fait souffrir aux hommes !",
+          "Elle vole rapide sur ses pieds et sur ses ailes agiles,",
+          "et ne laisse rien d'intact à ses ravages.",
+          "C'est pourquoi les Lites, filles de Jupiter, l'accompagnent dans sa course,",
+          "prêtes à réparer tout le mal qu'elle aura fait.",
+          "Mais comme elles ont le pied lent, sont borgnes et lasses de vieillesse,",
+          "elles ne réparent qu'après, longtemps après."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "131": {
+    "motto": "Des épreuves naît un nom éternel.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Le moineau avait confié ses gages [ses petits] aux branches du platane,",
+          "et c'eût été bien, si un serpent féroce ne les avait vus.",
+          "Celui-ci avala tous les petits, et la malheureuse mère aussi,",
+          "puis se changea en pierre, digne de périr d'une telle mort.",
+          "Ceci, si Calchas ne mentit pas, sont les monuments d'un long labeur,",
+          "dont la gloire durera toujours."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "132": {
+    "motto": "L'immortalité s'acquiert par l'étude des lettres.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Le trompette de Neptune, dont la partie inférieure est un monstre marin,",
+          "tandis que son visage montre qu'il est un dieu de la mer :",
+          "Triton est enfermé au milieu d'un cercle de serpent,",
+          "qui tient sa propre queue serrée dans sa bouche.",
+          "La renommée suit les hommes illustres par l'esprit, et leurs hauts faits,",
+          "et ordonne qu'on les lise par tout l'univers."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "133": {
+    "motto": "Le tombeau de Jean Galéas Visconti, premier duc de Milan.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Au lieu d'un tombeau, place l'Italie, place les armes et les chefs,",
+          "et la mer, qui mugit jusqu'à ses deux golfes.",
+          "Ajoute à cela la barbarie tentant en vain de faire irruption,",
+          "et des troupes achetées à prix d'argent pour des guerres féroces.",
+          "Le porte-serpent, debout au sommet même, pourrait dire :",
+          "« Qui m'a placé, si grand, au-dessus de si peu de choses ? »"
+        ]
+      }
+    ],
+    "greek": [
+      {
+        "where": "inscription de gravure (ruban autour du serpent, grec, partiellement en miroir/inversé)",
+        "original": null,
+        "translation": null,
+        "note": "greek[].reading est null dans la source — le texte du ruban est illisible/non normalisé au stade de la transcription ; aucune traduction n'est donnée."
+      }
+    ]
+  },
+  "134": {
+    "motto": "Le meilleur citoyen.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Tandis que Thrasybule libérait sa patrie par des armes justes,",
+          "et ordonnait à chacun de déposer ses rancunes,",
+          "tous les ordres, unanimes, comme pour un grand présent, lui donnèrent",
+          "à porter une couronne du feuillage de Pallas [l'olivier].",
+          "Ceins ta chevelure, Thrasybule, porte seul cet honneur :",
+          "dans cette grande ville, nul n'est ton rival."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "135": {
+    "motto": "Le nom immortel des vaillants.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Tu vois le tombeau du descendant d'Éaque [Achille] sur le rivage de Rhétée,",
+          "que la blanche Thétis visite souvent à pied.",
+          "Cette pierre est toujours couverte d'amarante verte,",
+          "car l'honneur du héros ne mourra jamais.",
+          "Ici repose le rempart des Grecs, le tueur du grand Hector. Il ne doit",
+          "pas plus à Homère qu'Homère ne lui doit."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "136": {
+    "motto": "Nobles et bien nés.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Une agrafe d'or attachait les vêtements des Cécropides [Athéniens] :",
+          "à elle s'accrochait fermement une cigale par sa « dent ».",
+          "La chaussure sous laquelle, selon l'usage arcadien, se trouvait un croissant,",
+          "la mullea [chaussure rouge], est portée par les pères, fils de Romulus :",
+          "car, prétendant être nés du pays même, les hommes illustres par leur ancienne noblesse",
+          "portaient ces insignes."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "137": {
+    "motto": "Les douze travaux d'Hercule.",
+    "subheading": "Ἀλληγορικῶς (« Allégoriquement »).",
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "L'éloquence surpasse les louanges de la force invincible :",
+          "elle dénoue les discours des sophistes et leurs vains pièges.",
+          "Nulle fureur, nulle rage n'est plus forte que la vertu.",
+          "La richesse cède au sage pour sa constance persévérante.",
+          "Il dédaigne l'avarice, et ne se réjouit ni du pillage ni de l'usure.",
+          "Il triomphe, et dépouille les actes efféminés de leurs insignes.",
+          "Il purge la souillure, et ajoute aux esprits la bonne tenue.",
+          "Il a en haine les unions illicites, et chasse les coupables.",
+          "La barbarie et la sauvagerie impie en reçoivent enfin la peine.",
+          "La vaillance d'un seul homme disperse les ennemis rassemblés.",
+          "Il apporte dans sa patrie quantité de biens venus de rivages étrangers.",
+          "Il vole par les bouches savantes des hommes, et jamais ne périt."
+        ]
+      }
+    ],
+    "greek": [
+      {
+        "where": "subheading",
+        "original": "Ἀλληγορικῶς.",
+        "translation": "Allégoriquement."
+      }
+    ]
+  },
+  "138": {
+    "motto": "Sur les bâtards.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Bâtards, célébrez toujours les honneurs d'Hercule :",
+          "car il fut le premier de votre ordre.",
+          "Et il ne put devenir dieu, avant que, tout enfant, il n'eût tété",
+          "le lait que Junon, ignorant la ruse, lui donnait."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "139": {
+    "motto": "L'inégalité.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Comme le faucon, volant très haut, fend l'air ténu,",
+          "tandis que le choucas, l'oie et le canard se nourrissent à terre :",
+          "ainsi le grand Pindare s'élève jusqu'au sommet, au-dessus de l'éther,",
+          "ainsi Bacchylide ne sait que ramper sur le sol."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "140": {
+    "motto": "Contre les transfuges.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Parce que tu as souillé tes beaux débuts d'une fin honteuse,",
+          "et as tourné ta charge en dommage,",
+          "tu as fait ce que fait la chèvre : le seau de son propre lait,",
+          "quand elle le frappe, et de son sabot répand sa propre richesse."
+        ]
+      }
+    ],
+    "greek": []
   }
 }
