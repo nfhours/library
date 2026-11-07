@@ -3791,5 +3791,170 @@
       }
     ],
     "greek": []
+  },
+  "201": {
+    "motto": "Le Sapin.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Le sapin, propre aux mers, naît sur les hautes montagnes :",
+          "même dans l'adversité, il y a le plus grand avantage."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "202": {
+    "motto": "L'Épicéa.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Mais, parce que l'épicéa ne pousse aucun rejet de sa souche,",
+          "il est le signe de celui qui meurt sans descendance."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "203": {
+    "motto": "Le Cognassier.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "On dit que l'antique Solon a établi que les coings",
+          "devaient être donnés aux nouvelles mariées.",
+          "Comme ils sont agréables à la bouche et à l'estomac, afin que l'haleine des mariées aussi",
+          "soit douce, et qu'une grâce charmante demeure sur les lèvres."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "204": {
+    "motto": "Le Lierre.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Le petit arbre du lierre, qui jamais ne se dessèche — le présent que Bacchus, dit-on,",
+          "fit au jeune Cissus :",
+          "errant, hardi, fauve de ses grappes dorées,",
+          "vert à l'extérieur, le reste n'est que pâleur.",
+          "De là les poètes ceignent leurs tempes de guirlandes qui leur conviennent :",
+          "ils pâlissent à l'étude, [mais] leur gloire durable demeure toujours verte."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "205": {
+    "motto": "Le Chêne vert.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Parce que le chêne vert, par excès de dureté, se rompt de lui-même,",
+          "il porte en lui le symbole de la sédition civile."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "206": {
+    "motto": "Le Cédratier.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Ce sont les pommes d'or de Vénus : leur amertume agréable",
+          "montre que, chez les Grecs, l'amour se dit ainsi γλυκύπικρος [doux-amer]."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "207": {
+    "motto": "Le Buis.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Toujours vert, à la cime bouclée, le buis,",
+          "dont on fait une flûte aux tuyaux de longueurs inégales,",
+          "est un arbre propre aux tendres délices, et aux amants.",
+          "La pâleur est en lui — et tout amant pâlit aussi."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "208": {
+    "motto": "Le Mûrier.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Mais le mûrier tardif ne bourgeonne jamais avant que le froid soit passé :",
+          "et, sage qu'il est, il porte un nom trompeur [jeu de mots : Morus rappelle le grec μωρός, « fou »]."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "209": {
+    "motto": "L'Amandier.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Pourquoi, amandier, dans ta hâte, pousses-tu tes fleurs avant les feuilles ?",
+          "Je hais les enfants d'un esprit trop précoce."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "210": {
+    "motto": "Le Laurier.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Le laurier, qui connaît d'avance l'avenir, porte des signes de salut.",
+          "Placé sous l'oreiller, il rend les songes véridiques.",
+          "Autre.",
+          "À Charles, qui a vaincu les Carthaginois, le laurier est dû :",
+          "que de telles couronnes ornent sa chevelure victorieuse."
+        ]
+      }
+    ],
+    "greek": []
+  },
+  "211": {
+    "motto": "Le Peuplier blanc.",
+    "subheading": null,
+    "epigrams": [
+      {
+        "label": null,
+        "reading": [
+          "Que le peuplier bicolore orne la chevelure d'Hercule [signifie] :",
+          "la nuit et le jour alternent les tours du temps."
+        ]
+      }
+    ],
+    "greek": []
   }
 }
