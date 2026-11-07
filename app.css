@@ -261,14 +261,18 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    sticky + transform, а не display/height, чтобы скрытие не двигало текст
    под панелью — тот же приём, которым sticky уже и так "перекрывает"
    проскроленный контент, не отнимая у него места.
-   Визуально это колонтитул, не карточка: сплошной тон бумаги (плотнее самой
-   .ic, чтобы текст под ней не просвечивал при прокрутке — без блюра и без
-   полупрозрачности) и тонкая линейка только снизу, как под колонтитулом в
-   самом издании 1626 года (тот же .ic-nav{border-bottom:1px solid var(--rule)}
-   приём) — ни скруглений, ни тени, ни рамки по бокам. */
+   Round 5: раньше это был бумажный колонтитул (светлый тон, тёмный текст) —
+   теперь панель должна читаться как ПРОДОЛЖЕНИЕ внешней тёмной .back-bar
+   (index.html: rgba(22,19,15,.86), светлый текст rgba(236,229,212,.86)), не
+   контраст с ней — тот же тон, на шаг светлее (чтобы оставаться отличимой
+   при стыке), тот же блюр, светлый текст, маленькие капители те же, что и
+   раньше. Токены — локальные custom properties на самой .ic-rbar, ничего
+   общего с палитрой бумаги (--ink/--soft/--accent) выше не трогаем. */
 .ic-rbar{position:sticky;top:var(--top);z-index:5;
-  background:color-mix(in srgb, var(--paper) 94%, var(--ink) 6%);
-  border-bottom:1px solid var(--rule);
+  --rbar-ink:rgba(236,229,212,.94); --rbar-soft:rgba(236,229,212,.64); --rbar-sep:rgba(236,229,212,.42); --rbar-accent:#d9a991;
+  background:rgba(33,29,23,.9);
+  -webkit-backdrop-filter:blur(10px) saturate(1.1);backdrop-filter:blur(10px) saturate(1.1);
+  border-bottom:1px solid rgba(236,229,212,.12);
   margin:0 0 26px;padding:0 14px;
   transition:transform .3s ease;will-change:transform}
 /* -100% of the bar's own height isn't enough here: unlike .back-bar (which
@@ -278,83 +282,70 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
 .ic-rbar.ic-rbar-hidden{transform:translateY(calc(-100% - var(--top) - 16px))}
 .ic-rbar-row{display:flex;align-items:center;gap:8px;padding:9px 0;min-width:0}
 /* row1/row2 — на десктопе просто "прозрачные" обёртки (display:contents),
-   их дети текут в одну общую .ic-rbar-row как раньше; на ≤620px каждая
-   становится своей flex-строкой (см. брейкпоинт ниже). */
+   их дети текут в одну общую .ic-rbar-row как раньше (один ряд на 1440px);
+   на ≤620px каждая становится своей flex-строкой — ровно ДВЕ строки всегда
+   (см. брейкпоинт ниже; round 4 добавлял третью строку, когда был активен
+   контекст — это отменено). */
 .ic-rbar-row1,.ic-rbar-row2{display:contents}
 /* flex:none is the default for every button (top/scan/search) — only
-   .ic-rbar-ctx and .ic-rbar-pos override it below to 1 1 auto,
-   so those two (the ones with unpredictable-length content: a chapter title,
-   an index entry's own text) are the ones that actually shrink/ellipsize
-   when the row is tight, while the short, fixed-label buttons keep their
-   natural size. */
+   .ic-rbar-ctx and .ic-rbar-pos override it below, so those two (the ones
+   with unpredictable-length content: a context label, a chapter title) are
+   the ones that shrink when the row is tight, while the short, fixed-label
+   buttons keep their natural size. */
 .ic-rbar button{flex:none;display:inline-flex;align-items:center;gap:6px;border:0;background:none;
   padding:6px 2px;margin:0;font-size:.78em;letter-spacing:.05em;text-transform:uppercase;
-  color:var(--ink);cursor:pointer;white-space:nowrap;transition:color .2s}
+  color:var(--rbar-ink);cursor:pointer;white-space:nowrap;transition:color .2s}
 .ic-rbar button[disabled]{opacity:.35;cursor:default}
-/* flex-shrink:0 — found and reverted a bug from an earlier pass: giving ctx
-   flex-shrink:1 made it shrink *proportionally to the row's overall deficit*
-   even when its own content already fit fine — a short, untruncated label
-   like "Back to index" was rendering as "BAC…" purely because the sibling
-   chapter title (.ic-rbar-pos) was long, not because ctx itself needed to.
-   flex-shrink:0 fixes that: ctx keeps its natural size and only the
-   independent max-width cap below clamps (+ellipsizes) it — and only when
-   its OWN content exceeds that cap (e.g. a ~27-char names.json entry
-   combined with the "Назад к…"/"Back to…" prefix). All of the row's squeeze
-   now falls on .ic-rbar-pos alone again (flex:1 1 auto below), same as the
-   original design; its min-width floor stops it collapsing to ~0 in the
-   pathological case of a long ctx label *and* a long chapter title at once. */
-/* Третий раунд правок: прежний приоритет (ctx держит свой естественный
-   размер, весь дефицит падает на .ic-rbar-pos вплоть до пола в 70px) ломался
-   именно в САМОМ частом сценарии — пришли по длинной статье указателя в
-   главу с длинным названием — и схлопывал короткую форму заголовка до одной
-   буквы. Приоритет перевёрнут: .ic-rbar-pos (короткая форма заголовка +
-   «с. N», см. chapTitleShort в app.js) теперь flex-grow:1, но с
-   min-width:max-content — то есть растягивается в свободное место ТАК ЖЕ,
-   как раньше, но никогда не сжимается у́же своего содержимого. Весь дефицит
-   достаётся .ic-rbar-ctx (flex-shrink, без growth) — он сжимается первым и
-   обрезается по словам в JS (fitEllipsisWord в app.js, не CSS
-   text-overflow — тот режет точно посреди слова, что отдельно запрещено
-   заданием), а не посимвольно. */
 .ic-rbar-row .ic-rbar-ctx{flex:0 1 auto;min-width:40px;justify-content:flex-start}
 .ic-rbar-ctx span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.ic-rbar-ctx-back{color:var(--accent)}
-.ic-rbar-row .ic-rbar-pos{flex:1 1 auto;min-width:max-content;justify-content:center;color:var(--soft)}
+.ic-rbar-ctx-back{color:var(--rbar-accent)}
+.ic-rbar-row .ic-rbar-pos{flex:1 1 auto;min-width:max-content;justify-content:center;color:var(--rbar-soft)}
 .ic-rbar-pos-ch{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-style:italic;font-family:var(--old);font-size:1.05em}
-.ic-rbar-pos-pg{flex:none;color:var(--ink)}
-.ic-rbar-top,.ic-rbar-scan,.ic-rbar-search{color:var(--soft);flex:none}
+.ic-rbar-pos-pg{flex:none;color:var(--rbar-ink)}
+.ic-rbar-top,.ic-rbar-scan,.ic-rbar-search{color:var(--rbar-soft);flex:none}
 /* full/short — та же пара, что .ic-ed-long/.ic-ed-short на главной книги:
    полная подпись в простой строке или широком экране, короткая — когда
    строке из пяти элементов тесно (см. брейкпоинт ниже). */
 .ic-rbar-short{display:none}
 /* Разделитель — вырезанная типографская виньетка самой книги, как css-маска
-   (см. комментарий у .ic-orn выше): цвет текста, заметный декоративный
-   росчерк между группами кнопок, не фоновый шум. Увеличен и контрастнее,
-   чем первая попытка (была почти не видна на 1440px). */
+   (см. комментарий у .ic-orn выше). На тёмном фоне панели — светлый приглушённый
+   тон (--rbar-sep), а не акцентно-красный (тот почти не виден на тёмном). */
 .ic-rbar-sep{display:block;flex:none;height:20px;width:48px;
   -webkit-mask-image:var(--orn-src);mask-image:var(--orn-src);
   -webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;
   -webkit-mask-position:center;mask-position:center;-webkit-mask-size:contain;mask-size:contain;
-  background-color:var(--accent);opacity:.8}
+  background-color:var(--rbar-sep);opacity:1}
 /* -sep-m — те же разделители, но только между элементами второй мобильной
    строки (к началу главы / скан / поиск); на десктопе их не было и не
    нужно — скрыты по умолчанию, включаются только в брейкпоинте ниже. */
 .ic-rbar-sep-m{display:none}
 .ic-rbar .ic-lang{position:absolute;right:14px;top:50%;transform:translateY(-50%);gap:8px;background:none}
+.ic-rbar .ic-lang-b{color:var(--rbar-soft)}
+.ic-rbar .ic-lang-b[aria-pressed="true"]{color:var(--rbar-ink);box-shadow:inset 0 -1px 0 var(--rbar-accent)}
 @media (hover:hover){
-  .ic-rbar button:not([disabled]):hover{color:var(--accent)}
+  .ic-rbar button:not([disabled]):hover{color:var(--rbar-accent)}
 }
-/* На телефоне — две строки вместо одной тесной: 1) «откуда пришли» +
-   «глава · страница» (короткое название главы вместо полного — см.
-   .ic-rbar-pos-ch .ic-rbar-full/-short, тот же приём, что у ctx/top), 2) «к
-   началу главы» / «скан» / «поиск», равномерно по ширине, с разделителями
-   между ними. Тап-зоны кнопок — не менее 44px высотой (padding подобран и
-   проверен замером getBoundingClientRect в браузере). */
+/* На телефоне — ДВЕ строки, никогда больше (жёсткое требование round 5, в
+   отличие от round 4, где активный контекст добавлял третью): 1) слева —
+   подпись «откуда пришли» (если есть контекст, иначе обычная «К оглавлению»
+   — та же кнопка-слот, что и раньше), справа — «глава · страница». Если
+   тесно, УЖИМАЕТСЯ СНАЧАЛА глава (.ic-rbar-pos-ch, обычным CSS-эллипсисом —
+   мы не обязаны резать её по словам, это не ctx-подпись), а страница
+   (.ic-rbar-pos-pg) всегда flex:none и видна целиком — обратный приоритет
+   округлым раундам 3–4, где сжатие делила ctx-подпись. Ctx держит свой
+   естественный размер (flex:0 0 auto) и только при собственной длине выше
+   шапки MAX_WIDTH обрезается по словам в JS (fitEllipsisWord), не пропорционально
+   соседу. 2) «к началу главы» / «скан» / «поиск», равномерно по ширине.
+   Высота строки — ~40px (padding подобран и измерен getBoundingClientRect в
+   браузере: это одновременно и видимая высота строки, и реальная зона
+   нажатия кнопки — никакого отдельного невидимого "расширителя" не нужно,
+   раз обе величины и так совпадают на этой высоте). */
 @media (max-width:620px){
   .ic-rbar{padding:0 8px}
-  .ic-rbar-row{flex-direction:column;align-items:stretch;gap:2px;padding:6px 0}
+  .ic-rbar-row{flex-direction:column;align-items:stretch;gap:2px;padding:4px 0}
   .ic-rbar-row1,.ic-rbar-row2{display:flex;align-items:center;gap:4px;min-width:0}
   .ic-rbar-row2{justify-content:space-between}
-  .ic-rbar button{font-size:.66em;letter-spacing:.02em;padding:13px 6px;min-height:44px;box-sizing:border-box}
+  .ic-rbar button{font-size:.66em;letter-spacing:.02em;line-height:1;padding:14px 6px;box-sizing:border-box}
   /* :not(.ic-rbar-sep-m) — без него это правило гасило И вторую мобильную
      строку: rbarSepHtml(book,"ic-rbar-sep-m") ставит на span ОБА класса
      ("ic-rbar-sep ic-rbar-sep-m" — mcls добавляется поверх базового, не
@@ -368,24 +359,15 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
   .ic-rbar-row2 button{flex:1 1 0;justify-content:center}
   .ic-rbar-full{display:none}
   .ic-rbar-short{display:inline}
-  /* ic-rbar-ctxactive (добавляется в app.js, только когда chCtx активен) —
-     row1 (ctx + «глава · страница») на 390px иначе может переполниться:
-     длинная подпись контекста («К указателю: …») и номер страницы в одной
-     строке не умещаются, и «с. N» обрезается прямо по краю экрана (найдено
-     скриншот-ревью). Решение — не делить строку, а развернуть её в ДВЕ
-     полноширинные строки: flex-wrap:wrap + flex-basis:100% у обоих
-     элементов (реальный flex-item не может ужаться меньше 100% базиса,
-     поэтому второй элемент переносится на новую строку автоматически, без
-     отдельной разметки). Разделитель между ними и так скрыт правилом выше
-     (:not(.ic-rbar-sep-m)) — ему тут не место. Сама подпись (.ic-rbar-short)
-     получает при этом НЕ тесную долю строки, а её полную ширину — тот же
-     fitEllipsisWord/fitCtxLabels в app.js обрезает по словам ровно так же,
-     просто мерит теперь более широкий слот. Без активного контекста (обычная
-     кнопка «К оглавлению») класс не ставится — раскладка остаётся прежней,
-     двухстрочной. */
-  .ic-rbar-row1.ic-rbar-ctxactive{flex-wrap:wrap}
-  .ic-rbar-row1.ic-rbar-ctxactive .ic-rbar-ctx,
-  .ic-rbar-row1.ic-rbar-ctxactive .ic-rbar-pos{flex:1 1 100%}
+  /* Ctx держит свой естественный размер — весь дефицит падает на .ic-rbar-pos,
+     и ВНУТРИ него — на .ic-rbar-pos-ch (эллипсис, min-width:0), а не на
+     .ic-rbar-pos-pg (flex:none, всегда целиком). max-width — защитный пол:
+     если ctx-подпись сама по себе длиннее трети строки (длинная статья
+     указателя/имени), fitEllipsisWord в app.js обрежет именно её, по словам. */
+  .ic-rbar-row .ic-rbar-ctx{flex:0 0 auto;max-width:42%}
+  .ic-rbar-row .ic-rbar-pos{flex:1 1 0%;min-width:0;justify-content:flex-end}
+  .ic-rbar-pos-ch{flex:1 1 auto;min-width:0}
+  .ic-rbar-pos-pg{white-space:nowrap}
 }
 
 .ic-head{margin-top:30px}
@@ -587,12 +569,12 @@ button.ic-scan-prev,button.ic-scan-next{width:38px;height:38px;border:1px solid 
 .ic .ic-ch-fig{margin:1.8em auto;max-width:21em;clear:both}
 .ic-ch-fig .ic-fig img{width:100%;height:auto}
 .ic-ch-fig figcaption{margin-top:10px;font-size:.82em;line-height:1.45;color:var(--soft);font-style:italic;text-align:center}
-.ic-ch-hl{background:var(--accent-soft);box-shadow:0 0 0 .4em var(--accent-soft);border-radius:2px}
 /* Гравюра без своей подписи, стоящая перед найденным текстовым блоком (см. комментарий в
-   app.js у renderChapter про figs/textTarget): лёгкая сопутствующая подсветка рамкой — сама
-   она не цель прокрутки, искомое слово в соседнем блоке, но читателю всё равно нужно видеть,
-   какая иллюстрация к этому месту относится. */
-.ic-ch-fig-near .ic-fig{box-shadow:0 0 0 .2em var(--accent-soft);border-radius:2px}
+   app.js у renderChapter про figs/textTarget) — она НЕ цель прокрутки/подсветки сама по себе
+   (искомое слово в соседнем блоке), класс остаётся как вспомогательный маркер на будущее, без
+   собственного визуального эффекта (раньше была рамка-свечение того же "плашечного" семейства,
+   что и .ic-ch-hl — обе убраны по заданию round 5: ни заливки, ни рамки вокруг цели). */
+.ic-ch-fig-near{}
 .ic .ic-ch-more{margin-top:18px}
 .ic .ic-ch-note+.ic-ch-more{margin-top:10px}
 a.ic-ch-btn{display:inline-block;font-size:.78em;letter-spacing:.06em;text-transform:uppercase;padding:8px 16px;
@@ -810,13 +792,31 @@ button.ic-sr-more{display:block;margin:14px 0 0;padding:8px 16px;font:inherit;fo
   .ic-tv-pg a{padding:2px .5em;min-width:2.3em;line-height:1.5;margin:2px 2px 2px 0}
 }
 
-/* страница 1626 г. в главе: мягкий фон блоков и тонкая линия на поле «с. N» */
+/* "Пришли сюда" (round 5): ни заливки, ни рамки на самом абзаце/блоке —
+   только тонкая СЕРАЯ (не акцентно-красная — это не ошибка/ударение, просто
+   "вот сюда") черта на левом поле, и, когда известна позиция слова,
+   подчёркивание прямо в тексте (.ic-ch-mark). Обе создаются и гасятся из
+   app.js (hlMark/hlFadeOut) — здесь только их геометрия/цвет и CSS-
+   transition по opacity (никогда по размеру/отступам, чтобы угасание не
+   двигало раскладку). .ic-hl-mark либо ребёнок самого целевого блока
+   (position:relative на нём, top:0/height:100% по умолчанию — чертa точно
+   по высоте ЭТОГО блока или строки указателя), либо, для диапазона
+   страницы без найденного блока, ребёнок .ic-ch-body с top/height,
+   пересчитанными в app.js по границам всех блоков диапазона (та же
+   геометрия, что раньше была у ic-ch-pgline). */
 .ic-ch-body{position:relative}
-.ic-ch-pg{background:var(--accent-soft);background:color-mix(in srgb,var(--accent-soft) 40%,transparent);box-shadow:0 0 0 .3em color-mix(in srgb,var(--accent-soft) 40%,transparent);border-radius:2px}
-.ic-ch-pg.ic-ch-hl{background:var(--accent-soft);box-shadow:0 0 0 .4em var(--accent-soft)}
-.ic-ch-pgline{position:absolute;left:-.9em;width:0;border-left:1px solid var(--accent);pointer-events:none}
-.ic-ch-pgline::before{content:attr(data-pg);position:absolute;left:0;top:-1.35em;font-size:.68em;line-height:1;letter-spacing:.04em;white-space:nowrap;color:var(--accent);font-style:normal}
-@media (max-width:520px){.ic-ch-pgline{left:-.55em}}
+.ic-hl-mark{position:absolute;left:-.9em;top:0;height:100%;width:0;border-left:1px solid var(--soft);pointer-events:none;opacity:1;transition:opacity .7s ease}
+.ic-hl-mark[data-pg]::before{content:attr(data-pg);position:absolute;left:0;top:-1.35em;font-size:.68em;line-height:1;letter-spacing:.04em;white-space:nowrap;color:var(--soft);font-style:normal}
+.ic-hl-mark.ic-hl-fading{opacity:0}
+@media (max-width:520px){.ic-hl-mark{left:-.55em}}
+/* Слово, по которому реально пришли (из карточки имени/результата поиска —
+   см. markSpan у app.js) — подчёркивание, не цветной/жирный текст: не
+   конкурирует с существующими .ic-sr/.ic-nm-ms mark (списки находок), это
+   отдельный, более тихий приём прямо в читаемом тексте главы. */
+.ic-ch-mark{background:none;color:inherit;font-weight:inherit;font-style:inherit;
+  text-decoration:underline;text-decoration-color:var(--soft);text-decoration-thickness:1px;text-underline-offset:.15em;
+  opacity:1;transition:opacity .7s ease}
+.ic-ch-mark.ic-hl-fading{opacity:0}
 
 /* имена (#/<slug>/names) */
 .ic-nm-row{display:flex;align-items:baseline;justify-content:space-between;gap:6px 14px;padding:9px 0 8px;border-bottom:1px solid var(--rule);color:var(--ink)}
