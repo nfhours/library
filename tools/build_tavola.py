@@ -24,7 +24,29 @@ TEXT_FIX = {"G unone 149": "Giunone 149", "GiunoneLucina": "Giunone Lucina",
 # номер страницы, напечатанный с ошибкой (в указателе 594, а Ganissone — на с. 564; в книге всего 588 страниц)
 PAGE_FIX = {("Ganissone dio", 594): 564,
             # в книге 588 страниц, а с. 588 — пустая; термины стоят на с. 488 / 488–489 (опечатка в одной цифре)
-            ("Clamide", 588): 488, ("Via Appia", 588): 488, ("Anella, & loro vso", 589): 489}
+            ("Clamide", 588): 488, ("Via Appia", 588): 488, ("Anella, & loro vso", 589): 489,
+            # правки по итогам ручной проверки (TAVOLA_MISMATCH_VERDICTS.json, категория b-wrong-page):
+            # указанная в печатном указателе 1626 г. страница — опечатка; верная страница найдена по
+            # уникальному вхождению слова в итальянском тексте (маргиналии подтверждают место)
+            ("Adone", 489): 449, ("Fibula", 449): 489,              # зеркальная опечатка цифр
+            ("Adulatione", 499): 401, ("Arimaspi", 398): 298,
+            ("Bellona", 229): 299, ("Bellona", 231): 301,
+            ("Belzebu", 390): 290, ("Cillenio", 245): 273,
+            ("Palemone", 410): 210, ("Parche", 209): 249,
+            ("Verga del Sonno", 378): 277, ("Via Lattea", 173): 163}
+# статьи, где само слово на верной странице не встречается (оно относится к гравюре/иной статье), и
+# алгоритм поиска по тексту заведомо не сможет найти блок — целевой блок указывается здесь напрямую
+BLOCK_FIX = {("Fascini", 359): {"a": 158, "b": 158, "n": 158, "k": "g"},
+             # Incubo/Tempo: само заголовочное слово итальянского указателя (own-токен) на верной странице
+             # не встречается буквально (Incubo описан, но не назван; "diuisione" в тексте — "diuersità"),
+             # поэтому поиск по тексту (find_pos) не доходит до стеблей и возвращает ту же страницу без
+             # блока; целевой блок, подтверждённый вручную, указывается здесь напрямую
+             ("Incubo, ouer Efialte", 123): {"n": 63, "k": "t"},
+             ("sua diuisione", 69): {"n": 173, "k": "t"}}
+# добавочные слова для поиска блока по стеблям (ru_stems), не показываются в указателе: когда перевод верен,
+# но форма слова в тексте (падеж/спряжение) не совпадает со стеблем из _translation/TAVOLA_RU.tsv
+# (см. TAVOLA_MISMATCH_VERDICTS.json, a-synonym)
+STEM_FIX = {"t0653": "ветр"}
 RUN = re.compile(r"\d+(?:(?:\s*[.,]\s*|\s+)\d+)*")
 
 
@@ -611,14 +633,20 @@ def build(heads):
         nonlocal refs, unresolved
         r = (ru.get(e["id"]) or {}).get("ru", "").strip()
         d = {"id": e["id"], "it": e["it"], "ru": r}
+        rstem = r + ((" " + STEM_FIX[e["id"]]) if e["id"] in STEM_FIX else "")
         pl = []
-        for p in e["pages"]:
-            p = PAGE_FIX.get((e["it"], p), p)
-            loc = L.locate(e["it"], p, r, parent)
+        for printed in e["pages"]:
+            p = PAGE_FIX.get((e["it"], printed), printed)
+            loc = L.locate(e["it"], p, rstem, parent)
             if loc is None:
                 stats["none"] += 1
                 pl.append({"p": p})
             else:
+                fix = BLOCK_FIX.get((e["it"], loc.get("p")))
+                if fix:
+                    loc.update(fix)
+                if loc.get("p") is not None and loc["p"] != printed:
+                    loc["printedPage"] = printed
                 stats[loc["k"]] += 1
                 pl.append(loc)
         if pl:

@@ -1,0 +1,462 @@
+[
+  {
+    "id": "t0012",
+    "page": 489,
+    "ru_word": "Адонис",
+    "it_word": "Adone",
+    "chapter": "annotationi-pignoria",
+    "category": "b-wrong-page",
+    "retarget": {
+      "chapter": "venere",
+      "page": 449,
+      "block": 119,
+      "aside_blocks": [
+        118,
+        120
+      ]
+    },
+    "note_ru": "в книге указана с. 489",
+    "evidence": "'Adone' absent from Italian p.489 (Pignoria on rings/Fibula). Adone discussed pp.447-449; p.449 has margins 'Adone pel Sole.' and 'Adone vcciso dal Cinghiale.' (RU asides n118 'Адонис — Солнце', n120 'Адонис, убитый Кабаном'). Digit swap 449<->489 is confirmed by the mirror error t0232 Fibula (index 449, actually 489)."
+  },
+  {
+    "id": "t0014",
+    "page": 499,
+    "ru_word": "Лесть",
+    "it_word": "Adulatione",
+    "chapter": "annotationi-pignoria",
+    "category": "b-wrong-page",
+    "retarget": {
+      "chapter": "fortuna",
+      "page": 401,
+      "block": 165,
+      "also": {
+        "page": 400,
+        "block": 167,
+        "kind": "plate caption"
+      }
+    },
+    "note_ru": "в книге указана с. 499",
+    "evidence": "Adulatione appears only as the personification pushing Fauore: plate caption p.400 ('dell'Adulatione, & dell'Inuidia') and text p.401 ('spinto dall'Adulatione'); RU n165 'подталкиваемый Лестью', n167 'Лести и Зависти'. Same index misprint 499 for 399 in neighbouring entry 'Buono Euento 499' (Buono Euento is on p.399)."
+  },
+  {
+    "id": "t0051",
+    "page": 398,
+    "ru_word": "Аримаспы",
+    "it_word": "Arimaspi",
+    "chapter": "fortuna",
+    "category": "b-wrong-page",
+    "retarget": {
+      "chapter": "minerva",
+      "page": 298,
+      "block": 29,
+      "aside_block": 28
+    },
+    "note_ru": "в книге указана с. 398",
+    "evidence": "Arimaspi occur once in the whole book: p.298 (Minerva, Griffins guarding gold), margin 'Arimaspi.'; RU aside n28 'Аримаспы'. 3->2 misprint in hundreds digit."
+  },
+  {
+    "id": "t0071",
+    "page": 229,
+    "ru_word": "Беллона",
+    "it_word": "Bellona",
+    "chapter": "vertunno",
+    "category": "b-wrong-page",
+    "retarget": {
+      "chapter": "minerva",
+      "page": 299,
+      "block": 40,
+      "aside_block": 39
+    },
+    "note_ru": "в книге указана с. 229",
+    "evidence": "Bellona absent from Vertunno p.229; the only Bellona passage is Minerva pp.299-302 (margin 'Bellona.' on p.299). Entry reads '229.231' = 299.301 (both off by 70, order preserved)."
+  },
+  {
+    "id": "t0071",
+    "page": 231,
+    "ru_word": "Беллона",
+    "it_word": "Bellona",
+    "chapter": "plutone",
+    "category": "b-wrong-page",
+    "retarget": {
+      "chapter": "minerva",
+      "page": 301,
+      "block": 52,
+      "aside_block": 50,
+      "also_caption_block": 56
+    },
+    "note_ru": "в книге указана с. 231",
+    "evidence": "p.301 margin 'Sangue sparso a Bellona.'; RU n50 'Кровь, проливаемая Беллоне', n52 'Беллона была у древних Богиней...'. Plutone p.231 has no Bellona."
+  },
+  {
+    "id": "t0072",
+    "page": 390,
+    "ru_word": "Вельзевул",
+    "it_word": "Belzebu",
+    "chapter": "fortuna",
+    "category": "b-wrong-page",
+    "retarget": {
+      "chapter": "mercurio",
+      "page": 290,
+      "block": 245,
+      "aside_block": 244
+    },
+    "note_ru": "в книге указана с. 390",
+    "evidence": "Belzebu occurs once: p.290 'gli Accaroni ... l'Idolo delle mosche Belzebu', margin 'Belzebu.'; RU n244 aside 'Вельзевул', n245 '...Идола Мух — Вельзевула'. (pagemap lists p.290 as blocks 228-243; the passage is actually n244-245.)"
+  },
+  {
+    "id": "t0101",
+    "page": 433,
+    "ru_word": "Кимвал",
+    "it_word": "Cembalo",
+    "chapter": "venere",
+    "category": "c-unclear",
+    "reason": "No cembalo/ciembalo on Venere p.433 or within +-2 pages. Cartari's 'Ciembalo' is at pp.102-110 (Diana), 182-183, 354; Pignoria's exact spelling 'Cembalo' only at p.472 ('Cembalo chiama l'Autore il Sistro'). No digit relationship to 433 -> not unambiguous.",
+    "candidates": [
+      {
+        "chapter": "annotationi-pignoria",
+        "page": 472,
+        "block": 84
+      }
+    ],
+    "side_finding_glossary_fix": {
+      "file": "chapters_ru.json",
+      "chapter": "annotationi-pignoria",
+      "blocks": {
+        "84": "'Цимбалом Автор называет Систр' -> 'Кимвалом Автор называет Систр'",
+        "86": "'не о Цимбалах, а о Нильских Систрах' -> 'не о Кимвалах, а о Нильских Систрах'"
+      },
+      "why": "GLOSSARY: Ciembalo -> Кимвал; Cartari's passages Pignoria is correcting (diana n109-164) all use Кимвал, so Pignoria's rebuttal must use the same word. EN (cymbal) and FR (cymbale) already consistent - no change. Optional same change for generic Bacchic 'Цимбалы' in annotationi n304/308/310 and aggionta n34."
+    }
+  },
+  {
+    "id": "t0107",
+    "page": 393,
+    "ru_word": "Керо, Бог",
+    "it_word": "Cero dio",
+    "chapter": "fortuna",
+    "category": "a-synonym",
+    "ru_used": "Кер (Бог Кер, Кера)",
+    "blocks": {
+      "chapter": "fortuna",
+      "aside": 120,
+      "text": 123
+    },
+    "fix": "Translation follows GLOSSARY (Chero -> Кер). The index label in _translation/TAVOLA_RU.tsv 'Керо, Бог' is the outlier: change to 'Кер, Бог' (or add stem 'кер' as synonym). Italian p.393 has 'Chero' + margin 'Chero Dio.'"
+  },
+  {
+    "id": "t0107",
+    "page": 397,
+    "ru_word": "Керо, Бог",
+    "it_word": "Cero dio",
+    "chapter": "fortuna",
+    "category": "c-unclear",
+    "reason": "No Chero/Cero on p.397 (Fortuna at sea / on horseback) or +-2. Chero elsewhere only p.390 (allegory) and 393 (already linked). Pignoria's own margin 'Car. 397. Lin. vlt.' beside his Chero note (p.522) suggests 397 is a stale page number for the passage now at bottom of p.393, i.e. a duplicate of the first link - no distinct target."
+  },
+  {
+    "id": "t0122",
+    "page": 245,
+    "ru_word": "Киллений",
+    "it_word": "Cillenio",
+    "chapter": "plutone",
+    "category": "b-wrong-page",
+    "retarget": {
+      "chapter": "mercurio",
+      "page": 273,
+      "block": 103,
+      "aside_block": 101
+    },
+    "note_ru": "в книге указана с. 245",
+    "evidence": "'Cillenio' occurs exactly once in the book: p.273 'Mercurio fu chiamato Cillenio da vn monte dell'Arcadia', margin 'Cillenio.' (index headings mirror margins). RU n101 'Киллений', n103 '...назван Киллением'."
+  },
+  {
+    "id": "t0219",
+    "page": 359,
+    "ru_word": "Фасцины",
+    "it_word": "Fascini",
+    "chapter": "bacco",
+    "category": "b-wrong-page",
+    "page_correct": true,
+    "add_note": false,
+    "retarget": {
+      "chapter": "bacco",
+      "page": 359,
+      "block": 158,
+      "kind": "plate caption"
+    },
+    "evidence": "p.359 is the plate 'Imagine di Horo ... Priapo'. Pignoria p.515 (margin 'Car. 359'): 'Gl'Amuleti, o Fascini, che si vedono nella figura principale' - the fascini are depicted in that engraving, not named in text. Current link goes to n146 (Typhon text); retarget to the Horus caption n158 (page itself is right, so no 'в книге указана' note). Word will not highlight there."
+  },
+  {
+    "id": "t0232",
+    "page": 449,
+    "ru_word": "Фибула",
+    "it_word": "Fibula",
+    "chapter": "venere",
+    "category": "b-wrong-page",
+    "retarget": {
+      "chapter": "annotationi-pignoria",
+      "page": 489,
+      "block": 183,
+      "also": [
+        184,
+        185
+      ]
+    },
+    "note_ru": "в книге указана с. 449",
+    "evidence": "Fibula occurs only on p.489 (Bulla as cover of the Fibula fastening the Chlamys); RU n183-185 'Фибулы/Фибулой'. Mirror of t0012 (449<->489); cf. existing PAGE_FIX for Clamide 588->488 on same passage."
+  },
+  {
+    "id": "t0238",
+    "page": 171,
+    "ru_word": "Флегетонт",
+    "it_word": "Flegetonte",
+    "chapter": "giunone",
+    "category": "c-unclear",
+    "reason": "Giunone p.171 is Imeneo/Pudore/Penelope; Flegetonte occurs only on p.243 (already covered by the 244 citation). No plausible misprint for 171."
+  },
+  {
+    "id": "t0253.1",
+    "page": 114,
+    "ru_word": "Фурий три",
+    "it_word": "Furie tre",
+    "chapter": "giove",
+    "category": "c-unclear",
+    "reason": "p.114 is the Giove & Pan plate. 'Furie ... tre' material is p.240 (margin 'Furie perche tre.') and the plate p.241 (already cited). 114 has no digit relation to 240/241."
+  },
+  {
+    "id": "t0319",
+    "page": 574,
+    "ru_word": "Честь",
+    "it_word": "Honore",
+    "chapter": "seconda-parte-indiani",
+    "category": "c-unclear",
+    "reason": "p.574 is a colour description of an Indian idol; no Honore. Honore passages are 304-306, 309 (margin), 132 (allegory). Entry '135.574.304.319' is out of order; cannot identify intended page."
+  },
+  {
+    "id": "t0331",
+    "page": 123,
+    "ru_word": "Инкуб, или Эфиальт",
+    "it_word": "Incubo, ouer Efialte",
+    "chapter": "giove",
+    "category": "a-synonym",
+    "ru_used": "той тяжкой и давящей вещью, которую порою, кажется, ощущает на себе спящий",
+    "blocks": {
+      "chapter": "giove",
+      "block": 63
+    },
+    "fix": "Page is correct: p.123 'quella certa cosa graue, e pesante, qual pare, che si senta talhora venire addosso chi dorme' (Silvanus as the nightmare/incubus) - the term is described, not named, in Italian too. Retarget block from 60 to 63 and highlight 'тяжкой и давящей вещью'. Translation fine."
+  },
+  {
+    "id": "t0393",
+    "page": 28,
+    "ru_word": "Палица Геркулеса",
+    "it_word": "Mazza d'Hercole",
+    "chapter": "saturno",
+    "category": "c-unclear",
+    "reason": "p.28 is the Saturno plate. Exact phrase 'La Claua, o Mazza d'Hercole' occurs only in Pignoria p.502 (RU annotationi n260 'Палица, или Булава Геркулеса'); Cartari's own Hercules-club passages are pp.284-286 ('28' could be a truncated 28x). Two incompatible candidates.",
+    "candidates": [
+      {
+        "chapter": "annotationi-pignoria",
+        "page": 502,
+        "block": 260
+      },
+      {
+        "chapter": "mercurio",
+        "page": 284
+      }
+    ]
+  },
+  {
+    "id": "t0435",
+    "page": 453,
+    "ru_word": "Нимфы",
+    "it_word": "Ninfe",
+    "chapter": "gratie",
+    "category": "c-unclear",
+    "reason": "p.453 is only the Hore/Apollo plate caption. Nearest real 'Ninfe' discussion with a one-digit misprint is Pignoria p.493 (RU n223 'Нимфы, Божества рек...'), next to 'Ninfei 494' entry - plausible but not certain (452 has 'figlie di Nereo').",
+    "candidates": [
+      {
+        "chapter": "annotationi-pignoria",
+        "page": 493,
+        "block": 223
+      }
+    ]
+  },
+  {
+    "id": "t0454",
+    "page": 410,
+    "ru_word": "Палемон",
+    "it_word": "Palemone",
+    "chapter": "cupido",
+    "category": "b-wrong-page",
+    "retarget": {
+      "chapter": "nettuno",
+      "page": 210,
+      "block": 66,
+      "aside_block": 65
+    },
+    "note_ru": "в книге указана с. 410",
+    "evidence": "Palemone in Cartari's text occurs only on p.210 (margin 'Palemone.'): Palemone on Neptune's chariot = Latin Portunno. RU n65/66. Second citation 490 is Pignoria's note on the same figure. 4->2 hundreds-digit misprint."
+  },
+  {
+    "id": "t0464",
+    "page": 209,
+    "ru_word": "Парки",
+    "it_word": "Parche",
+    "chapter": "nettuno",
+    "category": "b-wrong-page",
+    "retarget": {
+      "chapter": "plutone",
+      "page": 249,
+      "block": 157,
+      "aside_block": 152
+    },
+    "note_ru": "в книге указана с. 209",
+    "evidence": "No Parche on Nettuno p.209 (Scylla/Charybdis). Main Parche section begins p.249 with margin 'Parche.' and continues 250-255; entry '209.250.253' read as '249.250.253' keeps ascending order. Single-digit misprint 0/4."
+  },
+  {
+    "id": "t0504",
+    "page": 16,
+    "ru_word": "Портун",
+    "it_word": "Portuno",
+    "chapter": "proemio",
+    "category": "c-unclear",
+    "reason": "p.16 is the Eternity/Demogorgon plate. Portunno appears on p.32 (margin), 133, 210-211 (211 already cited). No plausible misprint for 16."
+  },
+  {
+    "id": "t0505",
+    "page": 463,
+    "ru_word": "Молитвы",
+    "it_word": "Preghiere",
+    "chapter": "annotationi-pignoria",
+    "category": "a-glossary-fix",
+    "italian": "p.463 'Homero parla delle Preghiere ... dalle Lite d'Homero' (Pignoria on Cartari p.31, Homer's lame Prayers)",
+    "fix": {
+      "file": "chapters_ru.json",
+      "chapter": "annotationi-pignoria",
+      "block": 30,
+      "changes": [
+        "'Гомер говорит о Мольбах' -> 'Гомер говорит о Молитвах'",
+        "'А от Молений (*Lite*) Гомера' -> 'А от Молитв (*Lite*) Гомера'"
+      ]
+    },
+    "why": "Cartari's own passage on the same Homeric figures (saturno n57 aside 'Молитвы, какие они', n58 'молитвы, которых Гомер изображает женщинами, хромы') and the index ('Молитвы', 'хромые молитвы') use Молитвы; Pignoria's note switches to Мольбы/Моления. EN (Prayers) and FR (Prières) are already consistent - no change. Suggest adding 'Preghiere -> Молитвы -> Prayers -> Prières' to GLOSSARY.tsv."
+  },
+  {
+    "id": "t0573",
+    "page": 453,
+    "ru_word": "Систр Исиды",
+    "it_word": "Sistro d'Iside",
+    "chapter": "gratie",
+    "category": "c-unclear",
+    "reason": "p.453 is the Hore plate caption only. Sistro d'Iside is Cartari pp.110-111 (already cited as 111) and Pignoria p.472-473 (Isis cameo 'il disegnatore s'è scordato di metterle in mano il Sistro'; index cites that note as 'Nauigio d'Iside 473'). 453->473 is plausible but not certain.",
+    "candidates": [
+      {
+        "chapter": "annotationi-pignoria",
+        "page": 472,
+        "block": 82
+      }
+    ]
+  },
+  {
+    "id": "t0616.1",
+    "page": 69,
+    "ru_word": "его деление",
+    "it_word": "Tempo,& sua Velocità sua diuisione",
+    "chapter": "apollo",
+    "category": "a-synonym",
+    "ru_used": "разнообразие времён",
+    "blocks": {
+      "chapter": "apollo",
+      "blocks": [
+        164,
+        173
+      ]
+    },
+    "fix": "Page correct: p.69 'la diuersità de i tempi viene dalla mano del Sole' (Phoebus's four vases). RU n173 'разнообразие времён исходит от руки Солнца' (also n164). Index label 'его деление' never occurs; add 'разнообразие времён' as highlight synonym and point n=173."
+  },
+  {
+    "id": "t0637",
+    "page": 487,
+    "ru_word": "Тритоны",
+    "it_word": "Tritoni",
+    "chapter": "annotationi-pignoria",
+    "category": "c-unclear",
+    "reason": "Pignoria p.487 (sarcophagus find, Bulla with sea-creatures; margin 'Car. 209') has no Tritoni in text; they may be in the accompanying relief engraving but this cannot be verified from the transcription. Other Tritoni pages (24/25, 203-206) already cited."
+  },
+  {
+    "id": "t0638",
+    "page": 399,
+    "ru_word": "Тритория [?]",
+    "it_word": "Tritoria",
+    "chapter": "fortuna",
+    "category": "c-unclear",
+    "reason": "'Tritoria' matches no word anywhere in the Italian; p.399 (Buono Euento, Fauore) has nothing similar. Probably a corrupt index headword."
+  },
+  {
+    "id": "t0653",
+    "page": 555,
+    "ru_word": "Ветер",
+    "it_word": "Vento",
+    "chapter": "seconda-parte-indiani",
+    "category": "a-synonym",
+    "ru_used": "Богом Ветра",
+    "blocks": {
+      "chapter": "seconda-parte-indiani",
+      "block": 22
+    },
+    "fix": "Italian p.555 'Chiamauano costui il Dio del Vento' is present and translated correctly. Mismatch is a stemmer artefact (stem 'ветер' vs fleeting-vowel form 'Ветра'); add stem 'ветр' / form 'Ветра'."
+  },
+  {
+    "id": "t0655",
+    "page": 378,
+    "ru_word": "Жезл Сна",
+    "it_word": "Verga del Sonno",
+    "chapter": "fortuna",
+    "category": "b-wrong-page",
+    "retarget": {
+      "chapter": "mercurio",
+      "page": 277,
+      "block": 141,
+      "aside_block": 140
+    },
+    "note_ru": "в книге указана с. 378",
+    "evidence": "Margin 'Verga del Sono.' on p.277 is the exact source of the index heading (only passage on the Sleep's wand: 'porta il Sonno anco talhora vna verga in mano'); RU aside n140 'Жезл Сна'. Fortuna p.378 is Nemesis, no verga."
+  },
+  {
+    "id": "t0663",
+    "page": 173,
+    "ru_word": "Млечный путь",
+    "it_word": "Via Lattea",
+    "chapter": "gran-madre",
+    "category": "b-wrong-page",
+    "retarget": {
+      "chapter": "giunone",
+      "page": 163,
+      "block": 97,
+      "aside_block": 96
+    },
+    "note_ru": "в книге указана с. 173",
+    "evidence": "Via lattea in Cartari only on p.163 (Juno's milk), margin 'Via lattea. Tertulliano.'; RU n96 aside 'Млечный путь', n97 'называют Млечным путём'. Single-digit misprint 7/6; order with 483 preserved."
+  },
+  {
+    "id": "t0676",
+    "page": 397,
+    "ru_word": "Вулкан",
+    "it_word": "Volcano",
+    "chapter": "fortuna",
+    "category": "c-unclear",
+    "reason": "No Vulcan on Fortuna p.397 or nearby. Best candidate is 297 (plate 'Imagine di Vulcano' splitting Jove's head; RU minerva n22 caption, text n17 on p.296) via the same 3->2 misprint seen in Arimaspi/Belzebu, but it breaks the entry's ascending order (319.320.322.397) and Vulcan has many pages, so not unambiguous.",
+    "candidates": [
+      {
+        "chapter": "minerva",
+        "page": 297,
+        "block": 22
+      },
+      {
+        "chapter": "minerva",
+        "page": 296,
+        "block": 17
+      }
+    ]
+  }
+]

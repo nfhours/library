@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "120";
+  var APP_VER = "121";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -134,11 +134,11 @@
     hmSearchSub:  {ru:"По переводу, итальянскому тексту, гравюрам, именам и указателю", en:"Across the translation, the Italian text, engravings, names and index", fr:"Dans la traduction, le texte italien, les gravures, les noms et l’index"},
     hmIndex:      {ru:"Указатель", en:"Index", fr:"Index"},
     hmIndexSub:   {ru:"Предметы и имена по страницам издания 1626\u00a0года", en:"Subjects and names, by the pages of the 1626 edition", fr:"Sujets et noms, par pages de l’édition de 1626"},
-    tvSub:        {ru:"Tavola delle cose notabili — указатель издания 1626 года. Цифры — страницы этого издания; ссылка открывает соответствующее место в переводе (в перевод не внесена разбивка на страницы, поэтому место определено с точностью до абзаца).", en:"Tavola delle cose notabili — the index of the 1626 edition. The numbers are pages of that edition; a link opens the matching place in the translation (the translation has no page breaks, so the place is accurate to the paragraph).", fr:"Tavola delle cose notabili — l’index de l’édition de 1626. Les chiffres sont les pages de cette édition ; le lien ouvre l’endroit correspondant de la traduction (au paragraphe près)."},
+    tvSub:        {ru:"Tavola delle cose notabili — указатель издания 1626 года. Цифры — страницы этого издания; ссылка открывает соответствующее место в переводе.", en:"Tavola delle cose notabili — the index of the 1626 edition. The numbers are pages of that edition; a link opens the matching place in the translation.", fr:"Tavola delle cose notabili — l’index de l’édition de 1626. Les chiffres sont les pages de cette édition ; le lien ouvre l’endroit correspondant dans la traduction."},
     tvSearchPh:   {ru:"Найти в указателе: имя, предмет…", en:"Search the index: name, subject…", fr:"Chercher dans l’index : nom, sujet…"},
     tvBack:       {ru:"К книге", en:"To the book", fr:"Au livre"},
-    tvSortRu:     {ru:"По-русски", en:"Russian order", fr:"Ordre russe"},
-    tvSortIt:     {ru:"По-итальянски", en:"Italian order", fr:"Ordre italien"},
+    tvSortRu:     {ru:"По русскому алфавиту", en:"A–Z", fr:"Ordre alphabétique"},
+    tvSortIt:     {ru:"Как в книге 1626 года", en:"As in the 1626 book", fr:"Comme dans le livre de 1626"},
     tvLetters:    {ru:"Буквы указателя", en:"Index letters", fr:"Lettres de l’index"},
     tvFound:      {ru:"Найдено статей: {n}", en:"Entries found: {n}", fr:"Articles trouvés : {n}"},
     tvAll:        {ru:"Статей: {n}", en:"Entries: {n}", fr:"Articles : {n}"},
@@ -155,6 +155,7 @@
     svNext:       {ru:"Следующая страница", en:"Next page", fr:"Page suivante"},
     svNoText:     {ru:"Текста на этой странице нет.", en:"No text on this page.", fr:"Pas de texte sur cette page."},
     tvOpen:       {ru:"Открыть место в переводе", en:"Open the place in the translation", fr:"Ouvrir l’endroit dans la traduction"},
+    tvPrinted:    {ru:"в книге указана с. {n}", en:"the book’s own index cites p. {n}", fr:"l’index du livre indique la p. {n}"},
     hmNames:      {ru:"Имена", en:"Names", fr:"Noms"},
     hmNamesSub:   {ru:"Боги, герои, авторы, места и народы", en:"Gods, heroes, authors, places and peoples", fr:"Dieux, héros, auteurs, lieux et peuples"},
     nmSub:        {ru:"Имена из глоссария перевода. Карточка имени показывает гравюры, где оно названо, и все места перевода, где оно встречается, во всех падежах.", en:"Names from the translation glossary. A name’s page shows the engravings that name it and every place in the translation where it occurs, in any case form.", fr:"Noms du glossaire de la traduction. La fiche d’un nom montre les gravures qui le citent et tous les passages de la traduction où il apparaît, à tous les cas."},
@@ -1556,7 +1557,8 @@
         if(!e.pages || !e.pages.length) return "";
         return '<span class="ic-tv-pg">'+esc(t("tvPage"))+' '+e.pages.map(function(p){
           var href = hrefFor(book, "ch/"+p.ch+"/"+(p.n||0)+(p.a ? "/"+p.a+"-"+p.b+"-"+p.p : ""));
-          return '<a href="'+esc(href)+'" title="'+esc(t("tvOpen"))+'">'+p.p+'</a>';
+          var note = p.printedPage ? ' <i class="ic-tv-pp">('+esc(t("tvPrinted",{n:p.printedPage}))+')</i>' : "";
+          return '<a href="'+esc(href)+'" title="'+esc(t("tvOpen"))+'">'+p.p+'</a>'+note;
         }).join(", ")+'</span>';
       }
       function entryHtml(e, sub){
@@ -2039,7 +2041,8 @@
     function tvPages(e){
       if(e.see || !e.pages || !e.pages.length) return "";
       return '<span class="ic-tv-pg">'+esc(t("tvPage"))+' '+e.pages.slice(0, 8).map(function(p){
-        return '<a href="'+esc(hrefFor(book, "ch/"+p.ch+"/"+(p.n||0)+(p.a ? "/"+p.a+"-"+p.b+"-"+p.p : "")))+'" title="'+esc(t("tvOpen"))+'">'+p.p+'</a>';
+        var note = p.printedPage ? ' <i class="ic-tv-pp">('+esc(t("tvPrinted",{n:p.printedPage}))+')</i>' : "";
+        return '<a href="'+esc(hrefFor(book, "ch/"+p.ch+"/"+(p.n||0)+(p.a ? "/"+p.a+"-"+p.b+"-"+p.p : "")))+'" title="'+esc(t("tvOpen"))+'">'+p.p+'</a>'+note;
       }).join(", ")+(e.pages.length > 8 ? " …" : "")+'</span>';
     }
     function tvLine(e){ return '<div class="ic-tv-l"><span class="ic-tv-ru">'+esc(e.ru||e.it)+'</span>'+(e.ru ? ' <span class="ic-tv-it" lang="it">'+esc(e.it)+'</span>' : "")+'</div>'; }
