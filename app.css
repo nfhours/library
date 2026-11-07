@@ -281,8 +281,8 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    их дети текут в одну общую .ic-rbar-row как раньше; на ≤620px каждая
    становится своей flex-строкой (см. брейкпоинт ниже). */
 .ic-rbar-row1,.ic-rbar-row2{display:contents}
-/* flex:none is the default for every button (top/scan/search/the manicule
-   icon) — only .ic-rbar-ctx and .ic-rbar-pos override it below to 1 1 auto,
+/* flex:none is the default for every button (top/scan/search) — only
+   .ic-rbar-ctx and .ic-rbar-pos override it below to 1 1 auto,
    so those two (the ones with unpredictable-length content: a chapter title,
    an index entry's own text) are the ones that actually shrink/ellipsize
    when the row is tight, while the short, fixed-label buttons keep their
@@ -318,19 +318,6 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
 .ic-rbar-row .ic-rbar-ctx{flex:0 1 auto;min-width:40px;justify-content:flex-start}
 .ic-rbar-ctx span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .ic-rbar-ctx-back{color:var(--accent)}
-/* Манула (maniculeSvg() в app.js) — контурный росчерк (stroke, fill:none):
-   манжета-трапеция, кулак (скруглённый прямоугольник) с дугой-сгибом
-   большого пальца снизу, указательный палец-капсула с двумя перекладинами
-   суставов. В самих орнаментах книги (ornaments/*.svg) обводок нет — это
-   трассировки сканов, сплошная заливка без stroke-width; раз подходящей
-   обводки в материалах издания не нашлось, росчерк манулы нарисован вручную,
-   а не скопирован из файла. viewBox у этой геометрии — 0 0 64 30 (пропорция
-   ≈2.133:1, шире и ниже прежней 96×66≈1.4545:1 версии), поэтому и
-   em-размеры здесь пересчитаны под новую пропорцию: высота оставлена
-   прежней (1.45em, подобрана под капитель соседней надписи), ширина
-   пересчитана под новое соотношение сторон (1.45×64/30 ≈ 3.1em), иначе
-   рисунок растягивался бы по старой, уже не подходящей пропорции. */
-.ic-rbar-hand{flex:none;color:inherit;width:3.1em;height:1.45em;display:block}
 .ic-rbar-row .ic-rbar-pos{flex:1 1 auto;min-width:max-content;justify-content:center;color:var(--soft)}
 .ic-rbar-pos-ch{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-style:italic;font-family:var(--old);font-size:1.05em}
 .ic-rbar-pos-pg{flex:none;color:var(--ink)}
@@ -381,6 +368,24 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
   .ic-rbar-row2 button{flex:1 1 0;justify-content:center}
   .ic-rbar-full{display:none}
   .ic-rbar-short{display:inline}
+  /* ic-rbar-ctxactive (добавляется в app.js, только когда chCtx активен) —
+     row1 (ctx + «глава · страница») на 390px иначе может переполниться:
+     длинная подпись контекста («К указателю: …») и номер страницы в одной
+     строке не умещаются, и «с. N» обрезается прямо по краю экрана (найдено
+     скриншот-ревью). Решение — не делить строку, а развернуть её в ДВЕ
+     полноширинные строки: flex-wrap:wrap + flex-basis:100% у обоих
+     элементов (реальный flex-item не может ужаться меньше 100% базиса,
+     поэтому второй элемент переносится на новую строку автоматически, без
+     отдельной разметки). Разделитель между ними и так скрыт правилом выше
+     (:not(.ic-rbar-sep-m)) — ему тут не место. Сама подпись (.ic-rbar-short)
+     получает при этом НЕ тесную долю строки, а её полную ширину — тот же
+     fitEllipsisWord/fitCtxLabels в app.js обрезает по словам ровно так же,
+     просто мерит теперь более широкий слот. Без активного контекста (обычная
+     кнопка «К оглавлению») класс не ставится — раскладка остаётся прежней,
+     двухстрочной. */
+  .ic-rbar-row1.ic-rbar-ctxactive{flex-wrap:wrap}
+  .ic-rbar-row1.ic-rbar-ctxactive .ic-rbar-ctx,
+  .ic-rbar-row1.ic-rbar-ctxactive .ic-rbar-pos{flex:1 1 100%}
 }
 
 .ic-head{margin-top:30px}

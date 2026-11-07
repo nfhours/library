@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "126";
+  var APP_VER = "127";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -1359,40 +1359,6 @@
     var src = BASE+"books/"+book.ornaments.srcSlug+"/ornaments/"+RBAR_SEP.file;
     return '<span class="ic-rbar-sep'+(mcls?" "+mcls:"")+'" aria-hidden="true" style="--orn-src:url(\''+esc(src)+'\');--orn-ratio:'+(RBAR_SEP.width/RBAR_SEP.height)+'"></span>';
   }
-  // Манула (☚, указующая рука на полях старых книг) — глиф «назад туда, откуда
-  // пришли» в новой панели. В сканах этого издания такого знака не нашлось
-  // (это проверено — не то же самое, что обычная стрелка, которую задание
-  // прямо запрещает).
-  //
-  // Третий раунд: прежняя версия была сплошной заливкой (fill) — при
-  // реальном размере кнопки (23×15px) три слитых формы (кулак/палец/большой
-  // палец) сливались в одну нечитаемую кляксу без видимых границ между
-  // ними (проверено отдельным рендером). Перерисована контуром — stroke,
-  // fill:none, с закруглёнными концами/соединениями (в духе гравюрной
-  // линии). Проверено: в самих орнаментах книги (ornaments/*.svg) обводок
-  // нет — это трассировки сканов (VTracer), сплошная заливка без
-  // stroke-width ни в одном файле; раз готового «гравюрного контура» в
-  // материалах издания нет, линия манулы — ручная аппроксимация того же
-  // стиля (одна толщина линии, круглые капы), не копия конкретного файла.
-  //
-  // Пятый раунд: геометрия подобрана и проверена снаружи воркспейса на
-  // реальном размере кнопки (viewBox 0 0 64 30, пропорция ≈2.13:1 — шире и
-  // ниже прежней 96×66≈1.45:1, поэтому и .ic-rbar-hand в app.css пересчитан
-  // под новую пропорцию, а не унаследован от предыдущей версии). Манжета —
-  // трапеция слева, кулак — скруглённый прямоугольник с дугой-сгибом
-  // большого пальца снизу, указательный палец — капсула с двумя
-  // перекладинами-суставами.
-  function maniculeSvg(){
-    return '<svg class="ic-rbar-hand" viewBox="0 0 64 30" aria-hidden="true" focusable="false">'+
-      '<g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">'+
-        '<path d="M3 11 L9 9.5 L9 20.5 L3 22 Z"/>'+
-        '<path d="M9 10.5 Q9 5 16 5 Q24 5 24 10.5 L24 19.5 Q24 25 16 25 Q9 25 9 19.5 Z"/>'+
-        '<path d="M11 20 Q14 23 18 21"/>'+
-        '<path d="M24 12 L47 12 Q51 12 51 15 Q51 18 47 18 L24 18 Z"/>'+
-        '<path d="M31 11.5 L31 18.5 M38 11.5 L38 18.5"/>'+
-      '</g>'+
-    '</svg>';
-  }
   // Обрезка контекстной подписи (.ic-rbar-ctx) по словам, не посимвольно:
   // CSS text-overflow:ellipsis режет ровно по символам (в т.ч. посреди
   // слова) — отдельно запрещено заданием («не многоточием посреди слова»).
@@ -1525,7 +1491,7 @@
       // fitCtxLabels ниже — тот заменит его укороченным вариантом, если не
       // влезает.
       var ctxHtml = ctxActive
-        ? '<button type="button" class="ic-rbar-ctx ic-rbar-ctx-back" data-rb="ctxback">'+maniculeSvg()+
+        ? '<button type="button" class="ic-rbar-ctx ic-rbar-ctx-back" data-rb="ctxback">'+
           '<span class="ic-rbar-full" data-full="'+esc(ctxFull)+'">'+esc(ctxFull)+'</span><span class="ic-rbar-short" data-full="'+esc(ctxShort)+'">'+esc(ctxShort)+'</span></button>'
         : '<button type="button" class="ic-rbar-ctx" data-rb="back">'+
           '<span class="ic-rbar-full" data-full="'+esc(t("back"))+'">'+esc(t("back"))+'</span><span class="ic-rbar-short" data-full="'+esc(t("rbBackShort"))+'">'+esc(t("rbBackShort"))+'</span></button>';
@@ -1545,11 +1511,21 @@
       // так у неё есть куда расти, когда контекстная подпись и короткая форма
       // заголовка главы длинны одновременно, а колонка чтения ниже остаётся
       // прежней ширины и центрируется независимо (margin:auto у обеих).
+      //
+      // ic-rbar-ctxactive — только на ≤620px (см. app.css): когда контекстная
+      // подпись активна, row1 (ctx+sep+pos) на мобильном раскладывается не в
+      // одну строку с back-кнопкой, а в ДВЕ полноширинные строки — ctx-кнопка
+      // сама по себе, затем «глава · страница» сама по себе — потому что на
+      // 390px делить одну строку между длинной подписью «К указателю: …» и
+      // позицией «глава · с. N» физически невозможно без обрезания номера
+      // страницы за краем экрана (ровно баг с прошлого скриншот-ревью).
+      // Без активного контекста (обычная кнопка «К оглавлению») раскладка
+      // не меняется — по-прежнему одна строка на двоих, как раньше.
       root.innerHTML =
         '<div class="ic-ch-outer">'+
           '<div class="ic-rbar" id="ic-rbar">'+
             '<div class="ic-rbar-row">'+
-              '<div class="ic-rbar-row1">'+
+              '<div class="ic-rbar-row1'+(ctxActive ? " ic-rbar-ctxactive" : "")+'">'+
                 ctxHtml+sep+
                 '<button type="button" class="ic-rbar-pos" data-rb="pos" aria-haspopup="dialog" aria-label="'+esc(t("rbPosLabel"))+'">'+
                   '<span class="ic-rbar-pos-ch"><span class="ic-rbar-full">'+esc(posTitle)+'</span><span class="ic-rbar-short">'+esc(posTitleShort)+'</span></span><span class="ic-rbar-pos-pg" data-rb-pg></span></button>'+
