@@ -24,6 +24,17 @@
 
 .ic-wrap{max-width:780px;margin:0 auto;padding:48px 28px 96px}
 
+/* Обёртка главы читалки (.ic-ch-outer): панель .ic-rbar живёт здесь, а не
+   внутри узкого .ic-wrap.ic-ch-wrap — так ей есть куда расти вширь (до
+   1120px), когда одновременно длинны и контекстная подпись, и короткая
+   форма заголовка главы, а сама колонка чтения (.ic-wrap ниже, вложенная
+   сюда же) остаётся прежних 780px и центрируется независимо. На ≤620px это
+   не меняет ничего заметного — там обе ширины уже меньше, чем экран. */
+.ic-ch-outer{max-width:1120px;margin:0 auto;padding:0 20px}
+@media (max-width:620px){
+  .ic-ch-outer{padding:0}
+}
+
 /* переключатель языка: без рамки и заливки, как активная ссылка в nav сайта —
    тонкое подчёркивание вместо закрашенной таблетки */
 .ic-top-row{display:flex;justify-content:flex-end;margin-bottom:8px}
@@ -292,17 +303,35 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    now falls on .ic-rbar-pos alone again (flex:1 1 auto below), same as the
    original design; its min-width floor stops it collapsing to ~0 in the
    pathological case of a long ctx label *and* a long chapter title at once. */
-.ic-rbar-row .ic-rbar-ctx{flex:0 0 auto;justify-content:flex-start;max-width:46%}
+/* Третий раунд правок: прежний приоритет (ctx держит свой естественный
+   размер, весь дефицит падает на .ic-rbar-pos вплоть до пола в 70px) ломался
+   именно в САМОМ частом сценарии — пришли по длинной статье указателя в
+   главу с длинным названием — и схлопывал короткую форму заголовка до одной
+   буквы. Приоритет перевёрнут: .ic-rbar-pos (короткая форма заголовка +
+   «с. N», см. chapTitleShort в app.js) теперь flex-grow:1, но с
+   min-width:max-content — то есть растягивается в свободное место ТАК ЖЕ,
+   как раньше, но никогда не сжимается у́же своего содержимого. Весь дефицит
+   достаётся .ic-rbar-ctx (flex-shrink, без growth) — он сжимается первым и
+   обрезается по словам в JS (fitEllipsisWord в app.js, не CSS
+   text-overflow — тот режет точно посреди слова, что отдельно запрещено
+   заданием), а не посимвольно. */
+.ic-rbar-row .ic-rbar-ctx{flex:0 1 auto;min-width:40px;justify-content:flex-start}
 .ic-rbar-ctx span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .ic-rbar-ctx-back{color:var(--accent)}
-/* Манула (maniculeSvg() в app.js) — размер под капитель соседней надписи
-   малыми прописными (.ic-rbar button — font-size .78em/.66em, uppercase):
-   1em здесь равен font-size кнопки, в которой лежит svg, так что высота
-   глифа (.78em шрифта кнопки ≈ его height в CSS-пикселях пропорционально
-   следует за uppercase-текстом на любом брейкпоинте без отдельного медиа-
-   запроса). viewBox 64×44 → держим те же пропорции (~1.45:1). */
-.ic-rbar-hand{flex:none;color:inherit;width:1.45em;height:1em;display:block}
-.ic-rbar-row .ic-rbar-pos{flex:1 1 auto;min-width:70px;justify-content:center;color:var(--soft)}
+/* Манула (maniculeSvg() в app.js) — контурный росчерк (stroke, fill:none):
+   манжета-трапеция, кулак (скруглённый прямоугольник) с дугой-сгибом
+   большого пальца снизу, указательный палец-капсула с двумя перекладинами
+   суставов. В самих орнаментах книги (ornaments/*.svg) обводок нет — это
+   трассировки сканов, сплошная заливка без stroke-width; раз подходящей
+   обводки в материалах издания не нашлось, росчерк манулы нарисован вручную,
+   а не скопирован из файла. viewBox у этой геометрии — 0 0 64 30 (пропорция
+   ≈2.133:1, шире и ниже прежней 96×66≈1.4545:1 версии), поэтому и
+   em-размеры здесь пересчитаны под новую пропорцию: высота оставлена
+   прежней (1.45em, подобрана под капитель соседней надписи), ширина
+   пересчитана под новое соотношение сторон (1.45×64/30 ≈ 3.1em), иначе
+   рисунок растягивался бы по старой, уже не подходящей пропорции. */
+.ic-rbar-hand{flex:none;color:inherit;width:3.1em;height:1.45em;display:block}
+.ic-rbar-row .ic-rbar-pos{flex:1 1 auto;min-width:max-content;justify-content:center;color:var(--soft)}
 .ic-rbar-pos-ch{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-style:italic;font-family:var(--old);font-size:1.05em}
 .ic-rbar-pos-pg{flex:none;color:var(--ink)}
 .ic-rbar-top,.ic-rbar-scan,.ic-rbar-search{color:var(--soft);flex:none}
@@ -339,8 +368,15 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
   .ic-rbar-row1,.ic-rbar-row2{display:flex;align-items:center;gap:4px;min-width:0}
   .ic-rbar-row2{justify-content:space-between}
   .ic-rbar button{font-size:.66em;letter-spacing:.02em;padding:13px 6px;min-height:44px;box-sizing:border-box}
-  .ic-rbar-ctx{max-width:46%}
-  .ic-rbar-row .ic-rbar-sep{display:none}
+  /* :not(.ic-rbar-sep-m) — без него это правило гасило И вторую мобильную
+     строку: rbarSepHtml(book,"ic-rbar-sep-m") ставит на span ОБА класса
+     ("ic-rbar-sep ic-rbar-sep-m" — mcls добавляется поверх базового, не
+     вместо), так что составной селектор ".ic-rbar-row .ic-rbar-sep" (две
+     клаcсовых части, выше по специфичности, чем одиночный ".ic-rbar-sep-m"
+     ниже) перебивал "display:block" у -sep-m и на деле скрывал разделители
+     между «К началу · Скан · Поиск», которые должны быть видны — баг
+     найден рендером в браузере (getComputedStyle), не на глаз. */
+  .ic-rbar-row .ic-rbar-sep:not(.ic-rbar-sep-m){display:none}
   .ic-rbar-sep-m{display:block;flex:none;height:16px;width:30px}
   .ic-rbar-row2 button{flex:1 1 0;justify-content:center}
   .ic-rbar-full{display:none}

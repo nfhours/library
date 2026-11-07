@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "123";
+  var APP_VER = "126";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -1362,29 +1362,95 @@
   // Манула (☚, указующая рука на полях старых книг) — глиф «назад туда, откуда
   // пришли» в новой панели. В сканах этого издания такого знака не нашлось
   // (это проверено — не то же самое, что обычная стрелка, которую задание
-  // прямо запрещает), поэтому силуэт нарисован вручную: сплошная заливка, в
-  // духе самих вырезанных орнаментов книги (ornaments/*.png — тоже залитые
-  // силуэты, не тонкий контур системной иконки).
+  // прямо запрещает).
   //
-  // Отладка прошлой версии (не рендерилась): дело было НЕ в currentColor,
-  // overflow или наследовании цвета — кнопка и currentColor резолвились
-  // верно. Проблема в самих координатах path: «палец» и «кулак» были залиты
-  // одним и тем же плоским пятном почти без различимой формы, и при
-  // фактическом размере 23×15px это вообще схлопывалось в неразличимую
-  // кляксу (проверено рендером сырого SVG отдельно, в разных масштабах).
-  // Форма переработана: отдельный кулак (эллипс), заметно удлинённый
-  // сужающийся к острию указательный палец (путь с кривыми) и большой палец
-  // снизу как явная выемка между кулаком и пальцем — это и читается как
-  // рука на малом размере, а не плоское пятно. Размер увеличен (с 23×15 до
-  // ~1em колонки текста) под капитель соседней надписи малыми прописными.
+  // Третий раунд: прежняя версия была сплошной заливкой (fill) — при
+  // реальном размере кнопки (23×15px) три слитых формы (кулак/палец/большой
+  // палец) сливались в одну нечитаемую кляксу без видимых границ между
+  // ними (проверено отдельным рендером). Перерисована контуром — stroke,
+  // fill:none, с закруглёнными концами/соединениями (в духе гравюрной
+  // линии). Проверено: в самих орнаментах книги (ornaments/*.svg) обводок
+  // нет — это трассировки сканов (VTracer), сплошная заливка без
+  // stroke-width ни в одном файле; раз готового «гравюрного контура» в
+  // материалах издания нет, линия манулы — ручная аппроксимация того же
+  // стиля (одна толщина линии, круглые капы), не копия конкретного файла.
+  //
+  // Пятый раунд: геометрия подобрана и проверена снаружи воркспейса на
+  // реальном размере кнопки (viewBox 0 0 64 30, пропорция ≈2.13:1 — шире и
+  // ниже прежней 96×66≈1.45:1, поэтому и .ic-rbar-hand в app.css пересчитан
+  // под новую пропорцию, а не унаследован от предыдущей версии). Манжета —
+  // трапеция слева, кулак — скруглённый прямоугольник с дугой-сгибом
+  // большого пальца снизу, указательный палец — капсула с двумя
+  // перекладинами-суставами.
   function maniculeSvg(){
-    return '<svg class="ic-rbar-hand" viewBox="0 0 64 44" aria-hidden="true" focusable="false">'+
-      '<path fill="currentColor" d="M30 14c4-1 8-.5 12 1 8 2.5 16 4 19 5.5 1 .5 1 2.5 0 3.1-3 1.4-11 2.9-19 5.4-4 1.5-8 2-12 1z"/>'+
-      '<ellipse fill="currentColor" cx="18" cy="23" rx="15" ry="13.5"/>'+
-      '<ellipse fill="currentColor" cx="25" cy="33" rx="6.5" ry="5" transform="rotate(25 25 33)"/>'+
-      '<rect fill="currentColor" x="0" y="18" width="9" height="16" rx="3"/>'+
+    return '<svg class="ic-rbar-hand" viewBox="0 0 64 30" aria-hidden="true" focusable="false">'+
+      '<g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">'+
+        '<path d="M3 11 L9 9.5 L9 20.5 L3 22 Z"/>'+
+        '<path d="M9 10.5 Q9 5 16 5 Q24 5 24 10.5 L24 19.5 Q24 25 16 25 Q9 25 9 19.5 Z"/>'+
+        '<path d="M11 20 Q14 23 18 21"/>'+
+        '<path d="M24 12 L47 12 Q51 12 51 15 Q51 18 47 18 L24 18 Z"/>'+
+        '<path d="M31 11.5 L31 18.5 M38 11.5 L38 18.5"/>'+
+      '</g>'+
     '</svg>';
   }
+  // Обрезка контекстной подписи (.ic-rbar-ctx) по словам, не посимвольно:
+  // CSS text-overflow:ellipsis режет ровно по символам (в т.ч. посреди
+  // слова) — отдельно запрещено заданием («не многоточием посреди слова»).
+  // Вместо CSS — после вставки панели в DOM измеряем уже сжатую flex-box'ом
+  // ширину элемента (.ic-rbar-pos рядом не участвует в сжатии — у него
+  // min-width:max-content в app.css, так что весь дефицит достаётся именно
+  // ctx) и бинарным поиском подбираем наибольшее целое число слов исходной
+  // подписи, которое с добавленным «…» в неё помещается. span.clientWidth
+  // в момент первого обращения — это уже финальная, определённая flexbox'ом
+  // ширина (чтение layout-свойства форсирует синхронный reflow, что здесь
+  // и нужно).
+  //
+  // Переделано после ревью: первая версия (фиксировала только style.width
+  // на самом span) давала однобуквенный обрыв типа «Lismaco s…» — потому
+  // что .ic-rbar-ctx span сам является flex-элементом (его родитель-кнопка
+  // — display:inline-flex), а не обычным inline-элементом: width на нём
+  // не заменяет flex-basis полностью, flex-shrink:1 по умолчанию
+  // продолжает действовать, И — главное — сама КНОПКА .ic-rbar-ctx имеет
+  // flex-basis:auto (flex:0 1 auto в app.css), то есть при каждой пробной
+  // подстановке более короткого текста кнопка заново «обтягивала» новый,
+  // more короткий контент вместо того, чтобы оставаться той же ширины, что
+  // и при полном тексте — целевая w, снятая один раз до цикла, переставала
+  // соответствовать реальному слоту уже на первой итерации бинарного
+  // поиска, и тот принимал вариант, который на самом деле не помещается.
+  // Теперь сначала фиксируется ширина самой КНОПКИ (реальный flex-элемент
+  // строки, который ведёт себя предсказуемо) через flex:0 0 <px>, а не
+  // span — после этого слот стабилен на всех итерациях. И сверх того —
+  // защитная проверка после подбора: если после финальной отрисовки текст
+  // всё ещё не влезает (контент/шрифт поедает место неожиданно), урезаем
+  // ещё по слову, а не доверяем один снимок измерения вслепую.
+  function fitEllipsisWord(span){
+    if(!span) return;
+    var full = span.getAttribute("data-full");
+    if(full == null) return;
+    span.textContent = full;
+    if(span.scrollWidth <= span.clientWidth + 1) return;
+    var w = span.clientWidth;
+    var btn = span.closest(".ic-rbar-ctx");
+    if(btn) btn.style.flex = "0 0 "+btn.getBoundingClientRect().width+"px";
+    var words = full.split(/\s+/).filter(Boolean);
+    var lo = 0, hi = words.length;
+    function set(n){ span.textContent = words.slice(0, n).join(" ")+"…"; return span.scrollWidth <= w; }
+    while(lo < hi){
+      var mid = Math.ceil((lo+hi)/2);
+      if(set(mid)) lo = mid; else hi = mid-1;
+    }
+    lo = Math.max(lo, 1);
+    set(lo);
+    while(lo > 1 && span.scrollWidth > span.clientWidth + 1){ lo--; set(lo); }
+  }
+  function fitCtxLabels(container){
+    (container||document).querySelectorAll(".ic-rbar-ctx").forEach(function(btn){ btn.style.flex = ""; }); // сбросить предыдущую фиксацию перед новым замером (ресайз/смена языка)
+    (container||document).querySelectorAll(".ic-rbar-ctx .ic-rbar-full[data-full], .ic-rbar-ctx .ic-rbar-short[data-full]").forEach(fitEllipsisWord);
+  }
+  // Пересчёт при ресайзе окна (поворот экрана и т.п.) — тот же приём, что у
+  // closeQm ниже по файлу: один слушатель на весь модуль, no-op, если
+  // панели читалки сейчас нет на странице (querySelectorAll вернёт пусто).
+  window.addEventListener("resize", function(){ fitCtxLabels(document); });
   function renderChapter(book, slug, blockN, pageSpec){
     var gen = renderGen;
     loadChapters(book, function(chap){
@@ -1430,19 +1496,39 @@
       // тот же приём, что у .ic-ed-long/.ic-ed-short на главной книги): на 390px
       // пять элементов строки иначе физически не умещаются без переноса, а
       // перенос и обрезание текста запрещены заданием.
+      // chCtxLabel() — подпись пересчитывается КАЖДЫЙ рендер по текущему
+      // state.lang, а не замораживается в момент клика: chCtx хранит сырые
+      // ru/it поля исходной записи (указателя/имени), а не готовую строку,
+      // иначе при переключении языка прямо в открытой главе (без повторного
+      // перехода) подпись оставалась бы на том языке, на котором по ней
+      // кликнули — см. langSwitch()/setLang(), который дёргает route() и
+      // перерисовывает текущую главу заново тем же путём. it — то же поле,
+      // что показывает сама статья указателя/карточка имени на EN/FR (в
+      // tavola.json/names.json нет отдельных en/fr полей вообще, только
+      // it/ru — см. комментарии у рендера указателя/имён выше).
+      function chCtxLabel(){
+        if(chCtx.type==="tavola" || chCtx.type==="name") return state.lang==="ru" ? (chCtx.ru||"") : (chCtx.it || chCtx.ru || "");
+        return chCtx.label || "";
+      }
       var ctxActive = !!(chCtx.hash && chCtx.hash === location.hash), ctxFull = "", ctxShort = "";
       if(ctxActive){
-        if(chCtx.type==="tavola"){ ctxFull = t("rbCtxTv")+": "+chCtx.label; ctxShort = chCtx.label; }
+        var ctxLbl = chCtxLabel();
+        if(chCtx.type==="tavola"){ ctxFull = t("rbCtxTv")+": "+ctxLbl; ctxShort = ctxLbl; }
         else if(chCtx.type==="plate"){ ctxFull = t("rbCtxPl"); ctxShort = t("rbCtxPlShort"); }
-        else if(chCtx.type==="name"){ ctxFull = t("rbCtxNm")+": "+chCtx.label; ctxShort = chCtx.label; }
-        else if(chCtx.type==="search"){ ctxFull = t("rbCtxSr")+": "+chCtx.label; ctxShort = chCtx.label; }
+        else if(chCtx.type==="name"){ ctxFull = t("rbCtxNm")+": "+ctxLbl; ctxShort = ctxLbl; }
+        else if(chCtx.type==="search"){ ctxFull = t("rbCtxSr")+": "+ctxLbl; ctxShort = ctxLbl; }
         else ctxActive = false;
       }
+      // data-full — несжатый оригинал подписи, читает fitEllipsisWord после
+      // вставки в DOM (обрезка по словам, см. комментарий там же); textContent
+      // спана при этом совпадает с ctxFull/ctxShort только до первого вызова
+      // fitCtxLabels ниже — тот заменит его укороченным вариантом, если не
+      // влезает.
       var ctxHtml = ctxActive
         ? '<button type="button" class="ic-rbar-ctx ic-rbar-ctx-back" data-rb="ctxback">'+maniculeSvg()+
-          '<span class="ic-rbar-full">'+esc(ctxFull)+'</span><span class="ic-rbar-short">'+esc(ctxShort)+'</span></button>'
+          '<span class="ic-rbar-full" data-full="'+esc(ctxFull)+'">'+esc(ctxFull)+'</span><span class="ic-rbar-short" data-full="'+esc(ctxShort)+'">'+esc(ctxShort)+'</span></button>'
         : '<button type="button" class="ic-rbar-ctx" data-rb="back">'+
-          '<span class="ic-rbar-full">'+esc(t("back"))+'</span><span class="ic-rbar-short">'+esc(t("rbBackShort"))+'</span></button>';
+          '<span class="ic-rbar-full" data-full="'+esc(t("back"))+'">'+esc(t("back"))+'</span><span class="ic-rbar-short" data-full="'+esc(t("rbBackShort"))+'">'+esc(t("rbBackShort"))+'</span></button>';
       var sep = rbarSepHtml(book);
       var posTitle = ch ? chapTitle(ch) : "";
       var posTitleShort = ch ? chapTitleShort(ch) : "";
@@ -1454,8 +1540,13 @@
       // между ними (mcls="ic-rbar-sep-m" — отдельный от «настольных» sep
       // класс, виден только в этой мобильной строке).
       var sepM = rbarSepHtml(book, "ic-rbar-sep-m");
+      // .ic-ch-outer — панель .ic-rbar вынесена ИЗ узкого .ic-wrap.ic-ch-wrap
+      // (780px) в собственную более широкую обёртку (до 1120px, см. app.css):
+      // так у неё есть куда расти, когда контекстная подпись и короткая форма
+      // заголовка главы длинны одновременно, а колонка чтения ниже остаётся
+      // прежней ширины и центрируется независимо (margin:auto у обеих).
       root.innerHTML =
-        '<div class="ic-wrap ic-ch-wrap">'+
+        '<div class="ic-ch-outer">'+
           '<div class="ic-rbar" id="ic-rbar">'+
             '<div class="ic-rbar-row">'+
               '<div class="ic-rbar-row1">'+
@@ -1472,15 +1563,18 @@
             '</div>'+
             langSwitch()+
           '</div>'+
-          '<header class="ic-head">'+
-            '<p class="ic-kicker">'+esc(bt(book.meta.title))+'</p>'+
-            '<h1 class="ic-h-fr">'+esc(ch ? chapTitle(ch) : "")+'</h1>'+
-          '</header>'+
-          (enMode ? (enPrep ? '<p class="ic-ch-note">'+esc(t(trl==="fr" ? "chFrPrep" : "chEnPrep"))+'</p>' : "") : (state.lang!=="ru" && ch && ch.blocks ? '<p class="ic-ch-note">'+esc(t("chRuOnly"))+'</p>' : ""))+
-          body+
-          (ch ? '<div class="ic-pager">'+pagerBtn(prev,t("chPrev"))+pagerBtn(next,t("chNext"))+'</div>' : "")+
+          '<div class="ic-wrap ic-ch-wrap">'+
+            '<header class="ic-head">'+
+              '<p class="ic-kicker">'+esc(bt(book.meta.title))+'</p>'+
+              '<h1 class="ic-h-fr">'+esc(ch ? chapTitle(ch) : "")+'</h1>'+
+            '</header>'+
+            (enMode ? (enPrep ? '<p class="ic-ch-note">'+esc(t(trl==="fr" ? "chFrPrep" : "chEnPrep"))+'</p>' : "") : (state.lang!=="ru" && ch && ch.blocks ? '<p class="ic-ch-note">'+esc(t("chRuOnly"))+'</p>' : ""))+
+            body+
+            (ch ? '<div class="ic-pager">'+pagerBtn(prev,t("chPrev"))+pagerBtn(next,t("chNext"))+'</div>' : "")+
+          '</div>'+
         '</div>';
       bindLangSwitch(root);
+      fitCtxLabels(root);
       if(enPrep){
         loadPagesIt(book, function(all){
           var box = root.querySelector(".ic-ch-itbody");
@@ -1786,8 +1880,15 @@
           if(el){ scrollToEl(el); flash(el); }
         } else {
           tavolaUi.scroll = window.scrollY; tavolaUi.via = a.getAttribute("href");
-          var tvRowEl = a.closest(".ic-tv-e,.ic-tv-sub"), tvLbl = tvRowEl && tvRowEl.querySelector(".ic-tv-ru");
-          chCtx = {hash: a.getAttribute("href"), type:"tavola", label: tvLbl ? tvLbl.textContent : ""};
+          // ru/it — оба поля записи (не только ru), чтобы контекстная подпись
+          // в читалке могла показать итальянский текст на EN/FR интерфейсе
+          // (см. chCtxLabel() в renderChapter) вместо замороженного в момент
+          // клика русского label. tavola.json хранит it строкой (не массивом,
+          // в отличие от names.json), поэтому дополнительного join не нужно.
+          var tvRowEl = a.closest(".ic-tv-e,.ic-tv-sub");
+          var tvRuEl = tvRowEl && tvRowEl.querySelector(".ic-tv-ru"), tvItEl = tvRowEl && tvRowEl.querySelector(".ic-tv-it");
+          var tvRu = tvRuEl ? tvRuEl.textContent : "";
+          chCtx = {hash: a.getAttribute("href"), type:"tavola", ru: tvRu, it: tvItEl ? tvItEl.textContent : tvRu};
         }
       });
       fill();
@@ -1807,8 +1908,14 @@
   // namesUi.chVia/tavolaUi.via); type различает четыре источника; label — то, что
   // показать читателю (статья указателя, имя, запрос поиска; у гравюры — пусто,
   // подпись статична). В памяти, без сохранения между перезагрузками — тот же
-  // принятый в этом файле подход, что у namesUi/tavolaUi.
-  var chCtx = {hash:"", type:"", label:""};
+  // принятый в этом файле подход, что у namesUi/tavolaUi. ru/it — сырые поля
+  // источника (а не готовая строка), чтобы язык подписи пересчитывался заново
+  // при каждом рендере главы по текущему state.lang (см. chCtxLabel() в
+  // renderChapter) — иначе подпись осталась бы «заморожена» на том языке,
+  // на котором по записи кликнули, даже после переключения языка без
+  // повторной навигации; label — для типов, где ru/it не применимы (search:
+  // произвольный текст запроса пользователя, не поле из tavola/names.json).
+  var chCtx = {hash:"", type:"", ru:"", it:"", label:""};
   var NM_TYPES = ["g","c","a","p","n"];
   function loadNames(book, cb){
     if(namesCache[book.slug]){ cb(namesCache[book.slug]); return; }
@@ -1964,7 +2071,9 @@
       var a = ev.target.closest(".ic-nm-ms a");
       if(a){
         namesUi.pos[location.hash] = window.scrollY; namesUi.chVia = a.getAttribute("href");
-        chCtx = {hash: a.getAttribute("href"), type:"name", label: e.ru};
+        // it — массив (names.json), склеивается тем же разделителем " · ",
+        // что и везде в рендере имён выше (ic-tv-it/ic-nm-it, см. e.it.join).
+        chCtx = {hash: a.getAttribute("href"), type:"name", ru: e.ru, it: (e.it||[]).join(" · ") || e.ru};
       }
     });
     var y = namesUi.pos[location.hash];
