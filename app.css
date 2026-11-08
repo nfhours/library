@@ -747,17 +747,50 @@ button.ic-sr-more{display:block;margin:14px 0 0;padding:8px 16px;font:inherit;fo
   .ic-gal{grid-template-columns:repeat(2,1fr);gap:22px 14px}
 }
 
-/* указатель (#/<slug>/index) */
+/* указатель (#/<slug>/index) и имена (#/<slug>/names): строка поиска
+   (.ic-tv-bar) переделана в тёмную непрозрачную панель — то же продолжение
+   .back-bar/.ic-rbar, тот же тон (#211d17, на шаг светлее внешней .back-bar
+   #16130f), те же локальные custom properties (--rbar-*), что у панели
+   читалки; высота первой строки те же 44px. Прячется/появляется тем же
+   способом (installScrollHide в app.js, тот же hiddenClass-подход через
+   transform, что у .ic-rbar-hidden ниже), кроме случая, когда в поле поиска
+   есть текст или оно в фокусе (installScrollHide's opts.suppress) — тогда
+   панель остаётся на месте при любой прокрутке. */
 .ic-tv-lead{margin-top:14px;font-size:.88em;line-height:1.6;color:var(--soft)}
-.ic-tv-bar{position:sticky;top:var(--top);z-index:4;margin:20px 0 6px;padding:12px 18px 10px;
-  background:rgba(250,246,236,.97);
-  border:1px solid rgba(255,255,255,.5);border-radius:14px;box-shadow:0 20px 38px -22px rgba(70,46,20,.35)}
-.ic-tv-letters{display:flex;flex-wrap:wrap;gap:0 1px;margin-top:8px}
-.ic-tv-letters button{font-family:var(--old);font-size:1em;min-width:20px;height:30px;padding:0 1px;border:0;background:none;color:var(--accent);cursor:pointer;border-radius:2px}
-.ic-tv-letters button:disabled{color:var(--rule);cursor:default}
-.ic-tv-meta{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:4px 18px;margin-top:10px}
-.ic-tv-count{margin:0}
-.ic-tv-sort{gap:16px}
+.ic-tv-bar{position:sticky;top:var(--top);z-index:4;margin:20px 0 22px;
+  --rbar-ink:rgba(236,229,212,.94); --rbar-soft:rgba(236,229,212,.64); --rbar-line:rgba(236,229,212,.22); --rbar-accent:#d9a991;
+  background:#211d17;
+  border-bottom:1px solid rgba(236,229,212,.12);
+  padding-left:calc(28px + env(safe-area-inset-left));padding-right:calc(28px + env(safe-area-inset-right));
+  transition:transform .3s ease;will-change:transform}
+.ic-tv-bar.ic-tv-bar-hidden{transform:translateY(calc(-100% - var(--top) - 16px))}
+.ic-tv-bar-row{display:flex;align-items:center;gap:14px;height:44px;min-width:0}
+/* Переопределяет, только внутри .ic-tv-bar-row, общие .ic-search-wrap/
+   input.ic-search/.ic-search-clear (используются и другими, светлыми
+   строками поиска — главная книги, библиотека — которые этим не трогаем). */
+.ic-tv-bar-row .ic-search-wrap{display:flex;align-items:center;flex:1 1 auto;min-width:0}
+.ic-tv-bar-row input.ic-search{width:100%;font-size:.92em;padding:7px 30px 7px 14px;
+  border:1px solid var(--rbar-line);border-radius:999px;background:rgba(236,229,212,.07);
+  color:var(--rbar-ink);box-shadow:none;margin:0;transition:border-color .2s,background-color .2s}
+.ic-tv-bar-row input.ic-search::placeholder{color:var(--rbar-soft)}
+.ic-tv-bar-row input.ic-search:focus{border-color:var(--rbar-accent);background:rgba(236,229,212,.12);outline:0}
+.ic-tv-bar-row button.ic-search-clear{color:var(--rbar-soft)}
+/* Буквы — отдельная строка под поиском (как и раньше, до тёмной темы),
+   а не в одной строке рядом со строкой поиска: 33 однобуквенные кнопки
+   бок о бок с полем ввода сжимали его до нечитаемых 2-3 символов на 1440px. */
+.ic-tv-bar .ic-tv-letters{display:flex;flex-wrap:wrap;gap:4px 1px;padding:6px 0 2px}
+.ic-tv-bar .ic-tv-letters button{font-family:var(--old);font-size:.95em;min-width:19px;height:30px;padding:0 1px;border:0;background:none;color:var(--rbar-ink);cursor:pointer;border-radius:2px}
+.ic-tv-bar .ic-tv-letters button:disabled{color:var(--rbar-line);cursor:default}
+.ic-tv-bar-row2{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:4px 18px;padding:6px 0 10px;font-size:.74em}
+.ic-tv-bar-row2 .ic-seg{gap:16px}
+.ic-tv-bar-row2 .ic-chip{color:var(--rbar-soft);font-size:1em}
+.ic-tv-bar-row2 .ic-chip[aria-pressed="true"]{color:var(--rbar-ink);box-shadow:inset 0 -1px 0 var(--rbar-accent)}
+.ic-tv-bar-row2 .ic-tv-count{margin:0;color:var(--rbar-soft)}
+@media (hover:hover){
+  .ic-tv-bar-row button.ic-search-clear:hover{color:var(--rbar-ink);background:rgba(236,229,212,.14)}
+  .ic-tv-bar .ic-tv-letters button:not(:disabled):hover{background:var(--rbar-accent);color:#211d17}
+  .ic-tv-bar-row2 .ic-chip:hover{color:var(--rbar-ink)}
+}
 .ic-tv-sec{scroll-margin-top:120px}
 .ic-tv-sec h2{font-family:var(--old);font-size:2.1em;font-weight:500;line-height:1;color:var(--accent);margin:30px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--rule)}
 .ic-tv-e{padding:9px 0 8px;border-bottom:1px solid var(--rule)}
@@ -768,11 +801,37 @@ button.ic-sr-more{display:block;margin:14px 0 0;padding:8px 16px;font:inherit;fo
 .ic-tv-pg a{display:inline-block;min-width:1.9em;padding:0 .35em;margin:0 1px;text-align:center;border:1px solid var(--rule);border-radius:3px;line-height:1.6;color:var(--accent);background:var(--sheet)}
 .ic-tv-see a{text-decoration:underline;text-underline-offset:2px}
 .ic-tv-pp{font-size:.86em;font-style:italic;color:var(--soft)}
-@media (hover:hover){.ic-tv-pg a:hover,.ic-tv-letters button:not(:disabled):hover{background:var(--accent);color:#fff;border-color:var(--accent)}}
+@media (hover:hover){.ic-tv-pg a:hover{background:var(--accent);color:#fff;border-color:var(--accent)}}
+/* Столбик алфавита на узких экранах (≤620, тот же брейкпоинт, что у
+   .ic-ch-outer/.ic-rbar выше) — по образцу списка контактов iPhone: узкая
+   полоса фиксирована у правого края экрана (не часть sticky-панели выше,
+   поэтому не прячется при прокрутке вместе с ней), буквы мелкие, кнопки
+   растянуты на равные доли высоты (flex:1 1 0 у каждой) — так деление
+   полосы касанием (btnAt в app.js) совпадает с видимыми границами кнопок.
+   Ряд .ic-tv-letters внутри шапки на этой ширине просто скрывается целиком
+   (замена, не варианты одновременно). Список статей получает правый отступ
+   (.ic-wrap.ic-tv ниже), чтобы текст не заезжал под столбик. */
+.ic-az-rail{display:none}
+.ic-az-peek{display:none}
+@media (max-width:620px){
+  .ic-tv-bar{padding-left:calc(20px + env(safe-area-inset-left));padding-right:calc(20px + env(safe-area-inset-right))}
+  .ic-tv-bar .ic-tv-letters{display:none}
+  .ic-wrap.ic-tv{padding-right:calc(32px + env(safe-area-inset-right))}
+  .ic-az-rail{display:flex;flex-direction:column;justify-content:space-between;align-items:center;
+    position:fixed;z-index:6;right:calc(1px + env(safe-area-inset-right));
+    top:calc(var(--top) + 14px);bottom:calc(14px + env(safe-area-inset-bottom));
+    width:30px;touch-action:none}
+  .ic-az-rail button{flex:1 1 0;display:flex;align-items:center;justify-content:center;width:100%;
+    min-height:0;border:0;background:none;padding:0;margin:0;
+    font-family:var(--serif);font-size:.62em;font-weight:600;color:var(--accent);cursor:pointer}
+  .ic-az-peek{display:flex;position:fixed;top:50%;left:50%;
+    transform:translate(-50%,-50%) scale(.82);width:124px;height:124px;border-radius:50%;
+    background:rgba(33,29,23,.85);color:#ece5d4;align-items:center;justify-content:center;
+    font-family:var(--old);font-weight:500;font-size:3em;pointer-events:none;z-index:99999;
+    opacity:0;transition:opacity .15s ease,transform .15s ease}
+  .ic-az-peek.show{opacity:1;transform:translate(-50%,-50%) scale(1)}
+}
 @media (max-width:520px){
-  .ic-tv-bar{padding:10px 12px 6px}
-  .ic-tv-letters{flex-wrap:wrap;gap:4px 0}
-  .ic-tv-letters button{flex:none;min-width:23px;height:30px;padding:0}
   .ic-tv-pg a{padding:2px .5em;min-width:2.3em;line-height:1.5;margin:2px 2px 2px 0}
 }
 

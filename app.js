@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "130";
+  var APP_VER = "131";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -824,6 +824,82 @@
       q.dispatchEvent(new Event("input", {bubbles:true}));
       q.focus();
     });
+  }
+
+  // Общий механизм показа/скрытия липкой верхней панели по направлению
+  // прокрутки — вынесен из прежнего rbTick (панель читалки, .ic-rbar), чтобы
+  // его переиспользовала и строка поиска указателя/имён (.ic-tv-bar), без
+  // дублирования порогов/накопителей и синхронизации с внешней .back-bar.
+  // barEl — сама панель (ей назначается/снимается opts.hiddenClass, по
+  // умолчанию "ic-rbar-hidden", через transform в CSS). opts.isActive —
+  // функция-страж (gen===renderGen у вызывающей стороны): как только она
+  // вернёт false, цикл останавливается и снимает оба класса скрытия, не
+  // оставляя панель предыдущего рендера скрытой навсегда. opts.onTick —
+  // необязательная работа на каждый кадр ПОКА активно (paintPg у читалки).
+  // opts.suppress — необязательная функция: пока возвращает true, панель
+  // всегда показана и накопители сбрасываются (строка поиска не прячется,
+  // когда в поле есть текст или оно в фокусе).
+  function installScrollHide(barEl, opts){
+    opts = opts || {};
+    var hiddenClass = opts.hiddenClass || "ic-rbar-hidden";
+    var hideAt = opts.hideAt != null ? opts.hideAt : 26, showAt = opts.showAt != null ? opts.showAt : 10;
+    var topGuard = opts.topGuard != null ? opts.topGuard : 36, bottomGuard = opts.bottomGuard != null ? opts.bottomGuard : 160;
+    var lastY = window.scrollY, down = 0, up = 0, hidden = false;
+    function tick(){
+      if(opts.isActive && !opts.isActive()){
+        var bbar0 = document.querySelector(".back-bar");
+        if(bbar0) bbar0.classList.remove("ic-bb-hidden");
+        barEl.classList.remove(hiddenClass);
+        return;
+      }
+      if(opts.onTick) opts.onTick();
+      var y = window.scrollY, dy = y - lastY; lastY = y;
+      var doc = document.documentElement;
+      var nearTop = y < topGuard, nearBottom = (doc.scrollHeight - (y + window.innerHeight)) < bottomGuard;
+      if(opts.suppress && opts.suppress()){ hidden = false; down = 0; up = 0; }
+      else if(nearTop || nearBottom){ hidden = false; down = 0; up = 0; }
+      else if(dy > 0.5){ down += dy; up = 0; if(down > hideAt) hidden = true; }
+      else if(dy < -0.5){ up += -dy; down = 0; if(up > showAt) hidden = false; }
+      barEl.classList.toggle(hiddenClass, hidden);
+      var bbar = document.querySelector(".back-bar");
+      if(bbar) bbar.classList.toggle("ic-bb-hidden", hidden);
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  }
+
+  // Вертикальный алфавитный столбик на узких экранах (указатель/имена) —
+  // по образцу списка контактов iPhone: одиночное касание по букве скроллит
+  // к ней (onPick), а ведение пальцем вверх-вниз по всей полосе (pointerdown/
+  // move/up/cancel — не раздельные touch/mouse) на лету меняет букву и
+  // показывает крупную подсказку (peek) по центру экрана, пока палец/кнопка
+  // зажаты. Слушатели висят на самом контейнере rail, а не на кнопках —
+  // кнопки каждый fill() пересобираются заново, но rail-элемент остаётся тем
+  // же узлом, поэтому его не нужно перевешивать повторно.
+  function wireAzRail(rail, peek, onPick){
+    var dragging = false;
+    function btnAt(clientY){
+      var btns = rail.querySelectorAll("button");
+      if(!btns.length) return null;
+      var r = rail.getBoundingClientRect();
+      var ratio = r.height ? Math.min(1, Math.max(0, (clientY - r.top) / r.height)) : 0;
+      var idx = Math.min(btns.length - 1, Math.floor(ratio * btns.length));
+      return btns[idx];
+    }
+    function pick(btn, drag){
+      if(!btn) return;
+      onPick(btn.getAttribute("data-l"));
+      if(drag){ peek.textContent = btn.textContent; peek.classList.add("show"); }
+    }
+    function end(){ if(!dragging) return; dragging = false; peek.classList.remove("show"); }
+    rail.addEventListener("pointerdown", function(e){
+      dragging = true;
+      if(rail.setPointerCapture){ try{ rail.setPointerCapture(e.pointerId); }catch(err){} }
+      pick(e.target.closest("button") || btnAt(e.clientY), true);
+    });
+    rail.addEventListener("pointermove", function(e){ if(dragging) pick(btnAt(e.clientY), true); });
+    rail.addEventListener("pointerup", end);
+    rail.addEventListener("pointercancel", end);
   }
 
   /* ---------- библиотека: список книг ---------- */
@@ -1685,27 +1761,10 @@
       // накопленного движения в одну сторону — короткое дрожание инерции на
       // телефоне меняет знак почти каждый кадр и обнуляет накопитель, не
       // долетая до порога; настоящая прокрутка быстро набирает нужную сумму.
-      var rbLastY = window.scrollY, rbDown = 0, rbUp = 0, rbHidden = false;
-      var RB_HIDE_AT = 26, RB_SHOW_AT = 10, RB_TOP_GUARD = 36, RB_BOTTOM_GUARD = 160;
-      function rbTick(){
-        if(gen !== renderGen){
-          var bbar0 = document.querySelector(".back-bar");
-          if(bbar0) bbar0.classList.remove("ic-bb-hidden");
-          return;
-        }
-        paintPg();
-        var y = window.scrollY, dy = y - rbLastY; rbLastY = y;
-        var doc = document.documentElement;
-        var nearTop = y < RB_TOP_GUARD, nearBottom = (doc.scrollHeight - (y + window.innerHeight)) < RB_BOTTOM_GUARD;
-        if(nearTop || nearBottom){ rbHidden = false; rbDown = 0; rbUp = 0; }
-        else if(dy > 0.5){ rbDown += dy; rbUp = 0; if(rbDown > RB_HIDE_AT) rbHidden = true; }
-        else if(dy < -0.5){ rbUp += -dy; rbDown = 0; if(rbUp > RB_SHOW_AT) rbHidden = false; }
-        if(rbar) rbar.classList.toggle("ic-rbar-hidden", rbHidden);
-        var bbar = document.querySelector(".back-bar");
-        if(bbar) bbar.classList.toggle("ic-bb-hidden", rbHidden);
-        requestAnimationFrame(rbTick);
-      }
-      requestAnimationFrame(rbTick);
+      // Пороги/накопители и синхронизация с .back-bar — в общей installScrollHide
+      // (см. выше, рядом с wireSearchClear); здесь только её привязка к этой
+      // панели, с paintPg как дополнительной работой на каждый активный кадр.
+      if(rbar) installScrollHide(rbar, {isActive:function(){ return gen === renderGen; }, onTick:paintPg});
       root.querySelectorAll("[data-ch]").forEach(function(b){ b.addEventListener("click",function(){ location.hash = chapterHref(book, b.getAttribute("data-ch")).replace(/^#/,""); }); });
       root.querySelectorAll(".ic-fig").forEach(function(f){ f.addEventListener("click",function(){ lightbox(f.getAttribute("data-src")); }); });
       root.querySelectorAll(".ic-ch-aside a").forEach(function(a){ a.addEventListener("click",function(){ namesUi.chVia = a.getAttribute("href"); }); });
@@ -1897,18 +1956,23 @@
           '<p class="ic-tv-lead">'+esc(t("tvSub"))+'</p>'+
           (state.lang!=="ru" ? '<p class="ic-ch-note">'+esc(t("chRuOnly"))+'</p>' : "")+
           '<div class="ic-tv-bar">'+
-            '<span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("tvSearchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("tvSearchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
+            '<div class="ic-tv-bar-row">'+
+              '<span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("tvSearchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("tvSearchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
+            '</div>'+
             '<nav class="ic-tv-letters" aria-label="'+esc(t("tvLetters"))+'"></nav>'+
+            '<div class="ic-tv-bar-row2"><p class="ic-count ic-tv-count"></p><div class="ic-seg ic-tv-sort" role="group">'+
+              '<button type="button" class="ic-chip" data-s="ru" aria-pressed="'+(tavolaUi.sort==="ru")+'">'+esc(t("tvSortRu"))+'</button>'+
+              '<button type="button" class="ic-chip" data-s="it" aria-pressed="'+(tavolaUi.sort==="it")+'">'+esc(t("tvSortIt"))+'</button></div></div>'+
           '</div>'+
-          '<div class="ic-tv-meta"><p class="ic-count ic-tv-count"></p><div class="ic-seg ic-tv-sort" role="group">'+
-            '<button type="button" class="ic-chip" data-s="ru" aria-pressed="'+(tavolaUi.sort==="ru")+'">'+esc(t("tvSortRu"))+'</button>'+
-            '<button type="button" class="ic-chip" data-s="it" aria-pressed="'+(tavolaUi.sort==="it")+'">'+esc(t("tvSortIt"))+'</button></div></div>'+
           '<div class="ic-tv-list"></div>'+
+          '<nav class="ic-az-rail" aria-label="'+esc(t("tvLetters"))+'"></nav>'+
+          '<div class="ic-az-peek" aria-hidden="true"></div>'+
         '</div>';
       bindLangSwitch(root);
       root.querySelector(".ic-back").addEventListener("click",function(){ location.hash = book.meta.home ? hrefFor(book,"home") : ""; });
       var q = root.querySelector(".ic-search"), list = root.querySelector(".ic-tv-list"), cnt = root.querySelector(".ic-tv-count"),
-          bar = root.querySelector(".ic-tv-bar"), lnav = root.querySelector(".ic-tv-letters");
+          bar = root.querySelector(".ic-tv-bar"), lnav = root.querySelector(".ic-tv-letters"),
+          rail = root.querySelector(".ic-az-rail"), peek = root.querySelector(".ic-az-peek");
       q.value = tavolaUi.q;
       function fill(){
         var words = tvFold(q.value.trim()).split(/\s+/).filter(Boolean), html = "", n = 0, have = {}, cur = null;
@@ -1923,6 +1987,10 @@
         list.innerHTML = html || '<p class="ic-empty">'+esc(t("tvNone"))+'</p>';
         cnt.textContent = words.length ? t("tvFound",{n:n}) : t("tvAll",{n:d.entries.length});
         lnav.innerHTML = lettersOf(ordered()).map(function(l){ return '<button type="button" data-l="'+l+'"'+(have[l] ? "" : " disabled")+'>'+l+'</button>'; }).join("");
+        // Столбик на узких экранах — только буквы, у которых реально есть
+        // статьи в текущем отборе (have), без disabled-кнопок вовсе.
+        rail.innerHTML = lettersOf(ordered()).filter(function(l){ return have[l]; })
+          .map(function(l){ return '<button type="button" data-l="'+l+'">'+l+'</button>'; }).join("");
       }
       function barH(){ return bar.getBoundingClientRect().height + (parseFloat(root.dataset.top)||0) + 10; }
       // Тот же маргинальный маркер и то же ~4-секундное угасание, что у
@@ -1936,6 +2004,15 @@
       lnav.addEventListener("click",function(e){
         var b = e.target.closest("button"); if(!b) return;
         var el = document.getElementById("tv-L"+b.getAttribute("data-l")); if(el) scrollToEl(el);
+      });
+      wireAzRail(rail, peek, function(l){ var el = document.getElementById("tv-L"+l); if(el) scrollToEl(el); });
+      // Строка поиска прячется/появляется как .ic-rbar панели читалки, но
+      // пока в поле есть текст или оно в фокусе — остаётся на месте даже
+      // при прокрутке вниз.
+      installScrollHide(bar, {
+        hiddenClass: "ic-tv-bar-hidden",
+        isActive: function(){ return gen === renderGen; },
+        suppress: function(){ return q.value !== "" || document.activeElement === q; }
       });
       root.querySelector(".ic-tv-sort").addEventListener("click",function(e){
         var b = e.target.closest("button"); if(!b || b.getAttribute("data-s")===tavolaUi.sort) return;
@@ -2049,19 +2126,24 @@
           '<p class="ic-tv-lead">'+esc(t("nmSub"))+'</p>'+
           (state.lang!=="ru" ? '<p class="ic-ch-note">'+esc(t("chRuOnly"))+'</p>' : "")+
           '<div class="ic-tv-bar">'+
-            '<span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("nmSearchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("nmSearchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
+            '<div class="ic-tv-bar-row">'+
+              '<span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("nmSearchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("nmSearchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
+            '</div>'+
             '<nav class="ic-tv-letters" aria-label="'+esc(t("tvLetters"))+'"></nav>'+
+            '<div class="ic-tv-bar-row2"><div class="ic-seg ic-nm-types" role="group" aria-label="'+esc(t("nmTypeLabel"))+'">'+
+              ["all"].concat(NM_TYPES).map(function(k){
+                return tcount[k] ? '<button type="button" class="ic-chip" data-ty="'+k+'" aria-pressed="'+(namesUi.ty===k)+'">'+esc(t(k==="all" ? "nmAll" : "nmT_"+k))+'</button>' : "";
+              }).join("")+'</div><p class="ic-count ic-tv-count"></p></div>'+
           '</div>'+
-          '<div class="ic-tv-meta"><div class="ic-seg ic-nm-types" role="group" aria-label="'+esc(t("nmTypeLabel"))+'">'+
-            ["all"].concat(NM_TYPES).map(function(k){
-              return tcount[k] ? '<button type="button" class="ic-chip" data-ty="'+k+'" aria-pressed="'+(namesUi.ty===k)+'">'+esc(t(k==="all" ? "nmAll" : "nmT_"+k))+'</button>' : "";
-            }).join("")+'</div><p class="ic-count ic-tv-count"></p></div>'+
           '<div class="ic-tv-list"></div>'+
+          '<nav class="ic-az-rail" aria-label="'+esc(t("tvLetters"))+'"></nav>'+
+          '<div class="ic-az-peek" aria-hidden="true"></div>'+
         '</div>';
       bindLangSwitch(root);
       root.querySelector(".ic-back").addEventListener("click",function(){ location.hash = book.meta.home ? hrefFor(book,"home") : ""; });
       var q = root.querySelector(".ic-search"), list = root.querySelector(".ic-tv-list"), cnt = root.querySelector(".ic-tv-count"),
-          bar = root.querySelector(".ic-tv-bar"), lnav = root.querySelector(".ic-tv-letters");
+          bar = root.querySelector(".ic-tv-bar"), lnav = root.querySelector(".ic-tv-letters"),
+          rail = root.querySelector(".ic-az-rail"), peek = root.querySelector(".ic-az-peek");
       q.value = namesUi.q;
       function fill(){
         var words = tvFold(q.value.trim()).split(/\s+/).filter(Boolean), html = "", n = 0, have = {}, cur = null;
@@ -2078,6 +2160,10 @@
         list.innerHTML = html || '<p class="ic-empty">'+esc(t("tvNone"))+'</p>';
         cnt.textContent = (words.length || namesUi.ty!=="all") ? t("nmFound",{n:n}) : t("nmTotal",{n:d.names.length});
         lnav.innerHTML = letters.map(function(l){ return '<button type="button" data-l="'+(l==="#" ? "0" : l)+'"'+(have[l] ? "" : " disabled")+'>'+l+'</button>'; }).join("");
+        // Столбик на узких экранах — только буквы, для которых реально есть
+        // статьи при текущих отборе/фильтре типа (have), без disabled-кнопок.
+        rail.innerHTML = letters.filter(function(l){ return have[l]; })
+          .map(function(l){ return '<button type="button" data-l="'+(l==="#" ? "0" : l)+'">'+l+'</button>'; }).join("");
       }
       function barH(){ return bar.getBoundingClientRect().height + (parseFloat(root.dataset.top)||0) + 10; }
       q.addEventListener("input",function(){ namesUi.q = q.value; fill(); });
@@ -2086,6 +2172,18 @@
         var b = e.target.closest("button"); if(!b) return;
         var el = document.getElementById("nm-L"+b.getAttribute("data-l"));
         if(el) window.scrollTo(0, window.scrollY + el.getBoundingClientRect().top - barH());
+      });
+      wireAzRail(rail, peek, function(dl){
+        var el = document.getElementById("nm-L"+dl);
+        if(el) window.scrollTo(0, window.scrollY + el.getBoundingClientRect().top - barH());
+      });
+      // Строка поиска прячется/появляется как .ic-rbar панели читалки, но
+      // пока в поле есть текст или оно в фокусе — остаётся на месте даже
+      // при прокрутке вниз.
+      installScrollHide(bar, {
+        hiddenClass: "ic-tv-bar-hidden",
+        isActive: function(){ return gen === renderGen; },
+        suppress: function(){ return q.value !== "" || document.activeElement === q; }
       });
       root.querySelector(".ic-nm-types").addEventListener("click",function(e){
         var b = e.target.closest("button"); if(!b || b.getAttribute("data-ty")===namesUi.ty) return;
