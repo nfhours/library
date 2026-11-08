@@ -40,14 +40,9 @@
   .ic-ch-outer{padding:0}
 }
 
-/* Обёртка указателя/имён (.ic-tv-outer) — тот же приём, что .ic-ch-outer
-   выше: тёмная липкая строка поиска (.ic-tv-bar) живёт здесь, вне узкого
-   .ic-wrap.ic-tv (780px), и может расти вширь до тех же 1120px, независимо
-   центрированных от текстовой колонки ниже. */
-.ic-tv-outer{max-width:1120px;margin:0 auto;padding:0 20px}
-@media (max-width:620px){
-  .ic-tv-outer{padding:0}
-}
+/* Указатель/имена теперь используют ТОТ ЖЕ .ic-ch-outer, что панель чтения
+   главы (капсула .ic-rbar/.ic-rbar-row, см. тот же класс выше) — отдельная
+   обёртка .ic-tv-outer больше не нужна, вид и поведение капсулы идентичны. */
 
 /* переключатель языка: без рамки и заливки, как активная ссылка в nav сайта —
    тонкое подчёркивание вместо закрашенной таблетки */
@@ -877,70 +872,50 @@ button.ic-sr-more{display:block;margin:14px 0 0;padding:8px 16px;font:inherit;fo
   .ic-gal{grid-template-columns:repeat(2,1fr);gap:22px 14px}
 }
 
-/* указатель (#/<slug>/index) и имена (#/<slug>/names): строка поиска
-   (.ic-tv-bar) переделана в тёмную непрозрачную панель — то же продолжение
-   .back-bar/.ic-rbar, тот же тон (#211d17, на шаг светлее внешней .back-bar
-   #16130f), те же локальные custom properties (--rbar-*), что у панели
-   читалки; высота первой строки те же 44px. Прячется/появляется тем же
-   способом (installScrollHide в app.js, тот же hiddenClass-подход через
-   transform, что у .ic-rbar-hidden ниже), кроме случая, когда в поле поиска
-   есть текст или оно в фокусе (installScrollHide's opts.suppress) — тогда
-   панель остаётся на месте при любой прокрутке. */
+/* указатель (#/<slug>/index) и имена (#/<slug>/names): верх страницы —
+   ТА ЖЕ капсула, что у панели чтения главы (.ic-rbar/.ic-rbar-row выше,
+   та же разметка .ic-ch-outer/.ic-rbar/.ic-rbar-row, тот же installScrollHide
+   в app.js) — три ячейки [Книга][Найти][сортировка/тип] вместо пяти у
+   читалки. Прежняя трёхрядная тёмная «плита» (.ic-tv-outer/.ic-tv-bar) и её
+   инлайн-поле поиска/буквы/счётчик в тёмной полосе — убраны: поиск теперь
+   открывается в той же выезжающей шторке (.ic-rb-sheet), что у читалки
+   (makeRbSheet, ниже), а быстрый переход по буквам и счётчик — в светлой
+   части страницы (.ic-wrap.ic-tv, см. .ic-tv-letters-lt/.ic-tv-count ниже). */
 .ic-tv-lead{margin-top:20px;font-size:.88em;line-height:1.6;color:var(--soft)}
-/* Round: .ic-tv-bar переехала из потока .ic-wrap в собственную .ic-tv-outer
-   (см. выше) — теперь это сплошная непрозрачная полоса, прилипающая СРАЗУ
-   под внешней .back-bar (top:var(--top), тот же приём, что у .ic-rbar
-   читалки), а не просто окрашенный блок где-то посреди страницы. Тон и
-   custom properties — те же, что у .ic-rbar (--bar:#16130f, --cream), не
-   на шаг светлее, как раньше: это теперь прямое продолжение той же тёмной
-   плоскости. Ячейка «К книге» (.ic-tv-back) — тот же визуальный язык, что
-   .ic-rbar-ctx (скругление, чуть светлее фона капсулы, без акцентной рамки
-   и без символа «←»). */
-.ic-tv-bar{position:sticky;top:var(--top);z-index:4;margin:0 0 26px;
-  --cream:236,229,212; --bar:#16130f;
-  --rbar-ink:rgba(var(--cream),.94); --rbar-soft:rgba(var(--cream),.64); --rbar-line:rgba(var(--cream),.22); --rbar-accent:#d9a991;
-  background:var(--bar);
-  border-bottom:1px solid rgba(var(--cream),.12);
-  padding:10px calc(28px + env(safe-area-inset-right)) 10px calc(28px + env(safe-area-inset-left));
-  transition:transform .3s ease;will-change:transform}
-.ic-tv-bar.ic-tv-bar-hidden{transform:translateY(calc(-100% - var(--top) - 16px))}
-.ic-tv-bar-row{display:flex;align-items:center;gap:10px;height:44px;min-width:0}
-/* Ячейка «К книге» — капсула в стиле .ic-rbar-ctx, флексом fixed, не
-   растягивается; заменяет прежнюю строку .ic-nav со стрелкой «←». */
-button.ic-tv-back{flex:none;height:36px;padding:0 16px;border:0;border-radius:999px;
-  background:rgba(var(--cream),.1);color:var(--rbar-ink);
-  font-size:.78em;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;
-  transition:background-color .12s}
-button.ic-tv-back:active{background:rgba(var(--cream),.18)}
-.ic-tv-bar .ic-lang-b{color:var(--rbar-soft)}
-.ic-tv-bar .ic-lang-b[aria-pressed="true"]{color:var(--rbar-ink);box-shadow:inset 0 -1px 0 var(--rbar-accent)}
-/* Переопределяет, только внутри .ic-tv-bar-row, общие .ic-search-wrap/
-   input.ic-search/.ic-search-clear (используются и другими, светлыми
-   строками поиска — главная книги, библиотека — которые этим не трогаем). */
-.ic-tv-bar-row .ic-search-wrap{display:flex;align-items:center;flex:1 1 auto;min-width:0}
-.ic-tv-bar-row input.ic-search{width:100%;font-size:.92em;padding:7px 30px 7px 14px;
-  border:1px solid var(--rbar-line);border-radius:999px;background:rgba(236,229,212,.07);
-  color:var(--rbar-ink);box-shadow:none;margin:0;transition:border-color .2s,background-color .2s}
-.ic-tv-bar-row input.ic-search::placeholder{color:var(--rbar-soft)}
-.ic-tv-bar-row input.ic-search:focus{border-color:var(--rbar-accent);background:rgba(236,229,212,.12);outline:0}
-.ic-tv-bar-row button.ic-search-clear{color:var(--rbar-soft)}
-/* Буквы — отдельная строка под поиском (как и раньше, до тёмной темы),
-   а не в одной строке рядом со строкой поиска: 33 однобуквенные кнопки
-   бок о бок с полем ввода сжимали его до нечитаемых 2-3 символов на 1440px. */
-.ic-tv-bar .ic-tv-letters{display:flex;flex-wrap:wrap;gap:4px 1px;padding:6px 0 2px}
-.ic-tv-bar .ic-tv-letters button{font-family:var(--old);font-size:.95em;min-width:19px;height:30px;padding:0 1px;border:0;background:none;color:var(--rbar-ink);cursor:pointer;border-radius:2px}
-.ic-tv-bar .ic-tv-letters button:disabled{color:var(--rbar-line);cursor:default}
-.ic-tv-bar-row2{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:4px 18px;padding:6px 0 10px;font-size:.74em}
-.ic-tv-bar-row2 .ic-seg{gap:16px}
-.ic-tv-bar-row2 .ic-chip{color:var(--rbar-soft);font-size:1em}
-.ic-tv-bar-row2 .ic-chip[aria-pressed="true"]{color:var(--rbar-ink);box-shadow:inset 0 -1px 0 var(--rbar-accent)}
-.ic-tv-bar-row2 .ic-tv-count{margin:0;color:var(--rbar-soft)}
-@media (hover:hover){
-  .ic-tv-bar-row button.ic-search-clear:hover{color:var(--rbar-ink);background:rgba(236,229,212,.14)}
-  button.ic-tv-back:hover{background:rgba(236,229,212,.18)}
-  .ic-tv-bar .ic-tv-letters button:not(:disabled):hover{background:var(--rbar-accent);color:#211d17}
-  .ic-tv-bar-row2 .ic-chip:hover{color:var(--rbar-ink)}
-}
+/* Ячейка «Найти» — растягивается (как .ic-rbar-ctx), чтобы вместить активную
+   подпись «Найти: …»; внутренний span — чтобы длинный запрос обрезался
+   многоточием, а не распирал капсулу/не толкал соседние ячейки. */
+.ic-rbar-row .ic-rbar-tvsearch{flex:1 1 auto;min-width:0;justify-content:flex-start;overflow:hidden}
+.ic-rbar-tvsearch-label{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block;max-width:100%}
+/* Буквы быстрого перехода и счётчик — теперь обычный светлый текст колонки
+   (не тёмная плита), между .ic-tv-lead и списком. Тот же визуальный язык,
+   что у .ic-tv-pg a (буква-кнопка со скруглением), просто крупнее и без
+   фоновой плашки. Скрывается на ≤620px — там переход даёт .ic-az-rail. */
+.ic-tv-letters-lt{display:flex;flex-wrap:wrap;gap:4px 2px;margin:18px 0 2px}
+.ic-tv-letters-lt button{font-family:var(--old);font-size:1em;min-width:22px;height:28px;padding:0 2px;
+  border:0;background:none;color:var(--accent);cursor:pointer;border-radius:3px}
+.ic-tv-letters-lt button:disabled{color:var(--rule);cursor:default}
+@media (hover:hover){.ic-tv-letters-lt button:not(:disabled):hover{background:var(--accent);color:#fff}}
+@media (max-width:620px){.ic-tv-letters-lt{display:none}}
+.ic-wrap.ic-tv .ic-tv-count{margin-top:8px}
+/* Низ шторки «Найти» (.ic-rb-sheet-foot) — живой счётчик найденного +
+   «Сбросить», под полем поиска/кнопкой «Закрыть» головы шторки. */
+.ic-tv-sheet-foot{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:4px}
+.ic-tv-sheet-count{margin:0;color:var(--soft);font-size:.82em}
+button.ic-tv-sheet-reset{flex:none;height:34px;padding:0 14px;border:1px solid rgba(28,24,19,.3);border-radius:8px;
+  background:transparent;font-size:.78em;letter-spacing:.05em;text-transform:uppercase;color:var(--ink);cursor:pointer}
+@media (hover:hover){button.ic-tv-sheet-reset:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}}
+/* Шторка выбора типа имени (кнопка «Тип» на /names) — список строк
+   название+счётчик, тот же .ic-rb-sheet-head (заголовок+«Закрыть»), что у
+   шторки «Содержание» читалки. Выбранный тип — лёгкая заливка строки. */
+.ic-tv-typelist{display:flex;flex-direction:column;gap:2px;margin-top:4px}
+.ic-tv-typerow{display:flex;align-items:center;justify-content:space-between;gap:12px;
+  height:44px;padding:0 10px;border:0;border-radius:8px;background:none;
+  font-size:.95em;color:var(--ink);cursor:pointer;text-align:left}
+.ic-tv-typerow[aria-pressed="true"]{background:var(--accent-soft);color:var(--accent);font-weight:600}
+.ic-tv-typecount{font-size:.82em;color:var(--soft)}
+.ic-tv-typerow[aria-pressed="true"] .ic-tv-typecount{color:var(--accent)}
+@media (hover:hover){.ic-tv-typerow:not([aria-pressed="true"]):hover{background:rgba(28,24,19,.06)}}
 .ic-tv-sec{scroll-margin-top:120px}
 .ic-tv-sec h2{font-family:var(--old);font-size:2.1em;font-weight:500;line-height:1;color:var(--accent);margin:30px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--rule)}
 .ic-tv-e{padding:9px 0 8px;border-bottom:1px solid var(--rule)}
@@ -958,23 +933,23 @@ button.ic-tv-back:active{background:rgba(var(--cream),.18)}
    поэтому не прячется при прокрутке вместе с ней), буквы мелкие, кнопки
    растянуты на равные доли высоты (flex:1 1 0 у каждой) — так деление
    полосы касанием (btnAt в app.js) совпадает с видимыми границами кнопок.
-   Ряд .ic-tv-letters внутри шапки на этой ширине просто скрывается целиком
-   (замена, не варианты одновременно). Список статей получает правый отступ
-   (.ic-wrap.ic-tv ниже), чтобы текст не заезжал под столбик.
+   Ряд .ic-tv-letters-lt (светлая часть страницы) на этой ширине просто
+   скрывается целиком (замена, не варианты одновременно, см. правило выше).
+   Список статей получает правый отступ (.ic-wrap.ic-tv ниже), чтобы текст
+   не заезжал под столбик.
    --tvbar-h — не статична: это РЕАЛЬНАЯ видимая высота шапки (.back-bar)
-   + полосы поиска (.ic-tv-bar) ПРЯМО СЕЙЧАС, в пикселях от верха экрана,
+   + капсулы (.ic-rbar) ПРЯМО СЕЙЧАС, в пикселях от верха экрана,
    пересчитывается в app.js (updateRailTop) на каждый fill() и на каждый
-   тик installScrollHide (opts.onTick), через getBoundingClientRect() —
-   учитывает и обычное положение, и частичный/полный уход в transform
-   (ic-tv-bar-hidden/ic-bb-hidden), поэтому столбик всегда начинается
-   точно под тем, что реально видно, без зазора и без перекрытия. 66px —
-   запасной статичный fallback только на случай самого первого рендера до
-   первого вызова updateRailTop. */
+   тик installScrollHide (opts.onTick, заморожен на время жеста по рейлу —
+   см. app.js), через getBoundingClientRect() — учитывает и обычное
+   положение, и частичный/полный уход в transform (ic-rbar-hidden/
+   ic-bb-hidden), поэтому столбик всегда начинается точно под тем, что
+   реально видно, без зазора и без перекрытия. 66px — запасной статичный
+   fallback только на случай самого первого рендера до первого вызова
+   updateRailTop. */
 .ic-az-rail{display:none}
 .ic-az-peek{display:none}
 @media (max-width:620px){
-  .ic-tv-bar{padding-left:calc(20px + env(safe-area-inset-left));padding-right:calc(20px + env(safe-area-inset-right))}
-  .ic-tv-bar .ic-tv-letters{display:none}
   .ic-wrap.ic-tv{padding-right:calc(32px + env(safe-area-inset-right))}
   .ic-az-rail{display:flex;flex-direction:column;justify-content:space-between;align-items:center;
     position:fixed;z-index:6;right:calc(1px + env(safe-area-inset-right));
@@ -1026,7 +1001,6 @@ button.ic-tv-back:active{background:rgba(var(--cream),.18)}
 .ic-nm-row .ic-tv-l{min-width:0}
 .ic-nm-meta{display:flex;align-items:baseline;gap:10px;flex:none;font-size:.8em;color:var(--soft)}
 .ic-nm-n{min-width:1.9em;padding:0 .4em;text-align:center;border:1px solid var(--rule);border-radius:3px;line-height:1.6;color:var(--accent);background:var(--sheet)}
-.ic-nm-types{gap:4px 18px}
 .ic-nm-it{margin-top:6px;font-style:italic;color:var(--soft);font-size:.95em}
 .ic-nm-h{font-family:var(--old);font-size:1.5em;font-weight:500;color:var(--accent);margin:30px 0 4px;padding-bottom:6px;border-bottom:1px solid var(--rule)}
 .ic-nm-ch h3{font-size:1.02em;font-weight:500;margin:22px 0 4px;color:var(--ink)}
