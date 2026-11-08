@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "139";
+  var APP_VER = "140";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -1038,19 +1038,27 @@
     opts = opts || {};
     var registry = opts.registry || [];
     var panel = sheetEl.querySelector(".ic-rb-sheet-panel");
+    // slide — НОВЫЙ отдельный wrapper (.ic-rb-sheet-slide, между .ic-rb-sheet
+    // и .ic-rb-sheet-panel, см. app.css/разметка в app.js), на который теперь
+    // перенесён transform/transition слайда — см. подробный комментарий у
+    // .ic-rb-sheet-slide в app.css про найденную причину «шапка не
+    // закреплена» (транзишен был прямо на самом scroll-контейнере с
+    // position:sticky внутри — известный баг WebKit). transitionend слушаем
+    // здесь тоже на slide, не на panel (у panel больше нет transform).
+    var slide = sheetEl.querySelector(".ic-rb-sheet-slide") || panel;
     var isOpenFlag = false, animating = false, animTimer = null;
-    function onTransEnd(e){ if(e.target===panel && e.propertyName==="transform") clearAnim(); }
+    function onTransEnd(e){ if(e.target===slide && e.propertyName==="transform") clearAnim(); }
     function clearAnim(){
       if(animTimer){ clearTimeout(animTimer); animTimer = null; }
-      panel.removeEventListener("transitionend", onTransEnd);
+      slide.removeEventListener("transitionend", onTransEnd);
       animating = false;
       syncSheetChrome(registry);
     }
     function startAnim(){
       clearAnim();
       animating = true;
-      panel.addEventListener("transitionend", onTransEnd);
-      // 420ms — запас сверх .34s CSS-перехода панели (app.css), на случай
+      slide.addEventListener("transitionend", onTransEnd);
+      // 420ms — запас сверх .34s CSS-перехода слайда (app.css), на случай
       // сбоя/отсутствия transitionend (prefers-reduced-motion снимает
       // transition целиком — события просто не будет).
       animTimer = setTimeout(clearAnim, 420);
@@ -2025,15 +2033,17 @@
             // updateSheetMaxH()/makeRbSheet про чистый CSS top:100%.
             (book.meta.home ?
               '<div class="ic-rb-sheet" id="ic-rb-sheet">'+
-                '<div class="ic-rb-sheet-panel">'+
-                  '<div class="ic-rb-sheet-head">'+
-                    '<form class="ic-home-search" role="search">'+
-                      '<span class="ic-search-wrap"><input class="ic-search" type="search" enterkeyhint="search" placeholder="'+esc(t("srPlace"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("srPlace"))+'">'+
-                      '<button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
-                    '</form>'+
-                    '<button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button>'+
+                '<div class="ic-rb-sheet-slide">'+
+                  '<div class="ic-rb-sheet-panel">'+
+                    '<div class="ic-rb-sheet-head">'+
+                      '<form class="ic-home-search" role="search">'+
+                        '<span class="ic-search-wrap"><input class="ic-search" type="search" enterkeyhint="search" placeholder="'+esc(t("srPlace"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("srPlace"))+'">'+
+                        '<button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
+                      '</form>'+
+                      '<button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button>'+
+                    '</div>'+
+                    '<div class="ic-sr" aria-live="polite"></div>'+
                   '</div>'+
-                  '<div class="ic-sr" aria-live="polite"></div>'+
                 '</div>'+
               '</div>'
             : "")+
@@ -2050,12 +2060,14 @@
             // курсива/стрелки «›», которые даёт обычный .ic-toc-part
             // a[aria-current] у старой полноэкранной шторки.
             '<div class="ic-rb-sheet ic-rb-sheet-toc" id="ic-rb-toc-sheet">'+
-              '<div class="ic-rb-sheet-panel">'+
-                '<div class="ic-rb-sheet-head">'+
-                  '<span class="ic-rb-sheet-head-title">'+esc(t("contents"))+'</span>'+
-                  '<button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button>'+
+              '<div class="ic-rb-sheet-slide">'+
+                '<div class="ic-rb-sheet-panel">'+
+                  '<div class="ic-rb-sheet-head">'+
+                    '<span class="ic-rb-sheet-head-title">'+esc(t("contents"))+'</span>'+
+                    '<button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button>'+
+                  '</div>'+
+                  '<nav class="ic-rb-toc-body">'+tocPartsHtml(book, chap, ch && ch.slug)+'</nav>'+
                 '</div>'+
-                '<nav class="ic-rb-toc-body">'+tocPartsHtml(book, chap, ch && ch.slug)+'</nav>'+
               '</div>'+
             '</div>'+
           '</div>'+
@@ -2177,7 +2189,29 @@
       var tocSheetApi = null, tocSheetEl = root.querySelector("#ic-rb-toc-sheet");
       if(tocSheetEl){
         var posBtn = root.querySelector('[data-rb="pos"]');
-        tocSheetApi = makeRbSheet(tocSheetEl, posBtn, {registry: rbSheets});
+        // onOpen — прокрутка списка к текущей главе (задание, пункт 2):
+        // та же идея, что у openChapToc (bd.scrollTop = cur.offsetTop -
+        // bd.clientHeight/3, см. ниже по файлу), адаптированная к новой
+        // структуре — скроллящийся элемент теперь .ic-rb-sheet-panel (а не
+        // отдельный .ic-toc-body без собственной шапки внутри), и его sticky
+        // шапка (.ic-rb-sheet-head) ОБЯЗАТЕЛЬНО учитывается как отступ:
+        // offsetTop текущей главы уже включает высоту шапки (она в обычном
+        // потоке ПЕРЕД <nav>, sticky не вынимает её из layout), но при
+        // scrollTop>0 шапка перекрывает ровно top headH px видимой области
+        // панели — значит цель должна гарантировать cur.offsetTop-scrollTop
+        // >= headH, иначе глава оказалась бы под шапкой. headH вычитается
+        // явно (а не «на глазок»), оставшееся место делится на треть, как в
+        // openChapToc, чтобы над текущей главой было немного контекста.
+        tocSheetApi = makeRbSheet(tocSheetEl, posBtn, {registry: rbSheets, onOpen: function(){
+          var panelEl = tocSheetEl.querySelector(".ic-rb-sheet-panel");
+          var headEl = tocSheetEl.querySelector(".ic-rb-sheet-head");
+          var cur = tocSheetEl.querySelector('[aria-current="page"]');
+          if(!panelEl || !cur) return;
+          var headH = headEl ? headEl.getBoundingClientRect().height : 0;
+          var avail = Math.max(0, panelEl.clientHeight - headH);
+          var target = cur.offsetTop - headH - avail/3;
+          panelEl.scrollTop = Math.max(0, target);
+        }});
         // Выбор пункта списка — переход по обычной ссылке (<a href>), сама
         // навигация закроет панель через route()/activeSheetClose; здесь
         // нужно только запустить ту же (анимированную) close(), чтобы она не
@@ -2422,14 +2456,16 @@
             '</div>'+
             langSwitch()+
             '<div class="ic-rb-sheet" id="ic-tv-search-sheet">'+
-              '<div class="ic-rb-sheet-panel">'+
-                '<div class="ic-rb-sheet-head">'+
-                  '<form class="ic-home-search" role="search">'+
-                    '<span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("tvSearchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("tvSearchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
-                  '</form>'+
-                  '<button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button>'+
+              '<div class="ic-rb-sheet-slide">'+
+                '<div class="ic-rb-sheet-panel">'+
+                  '<div class="ic-rb-sheet-head">'+
+                    '<form class="ic-home-search" role="search">'+
+                      '<span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("tvSearchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("tvSearchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
+                    '</form>'+
+                    '<button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button>'+
+                  '</div>'+
+                  '<div class="ic-tv-sheet-foot"><p class="ic-tv-sheet-count"></p><button type="button" class="ic-tv-sheet-reset">'+esc(t("tvReset"))+'</button></div>'+
                 '</div>'+
-                '<div class="ic-tv-sheet-foot"><p class="ic-tv-sheet-count"></p><button type="button" class="ic-tv-sheet-reset">'+esc(t("tvReset"))+'</button></div>'+
               '</div>'+
             '</div>'+
           '</div>'+
@@ -2701,23 +2737,27 @@
             '</div>'+
             langSwitch()+
             '<div class="ic-rb-sheet" id="ic-tv-search-sheet">'+
-              '<div class="ic-rb-sheet-panel">'+
-                '<div class="ic-rb-sheet-head">'+
-                  '<form class="ic-home-search" role="search">'+
-                    '<span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("nmSearchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("nmSearchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
-                  '</form>'+
-                  '<button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button>'+
+              '<div class="ic-rb-sheet-slide">'+
+                '<div class="ic-rb-sheet-panel">'+
+                  '<div class="ic-rb-sheet-head">'+
+                    '<form class="ic-home-search" role="search">'+
+                      '<span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("nmSearchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("nmSearchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
+                    '</form>'+
+                    '<button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button>'+
+                  '</div>'+
+                  '<div class="ic-tv-sheet-foot"><p class="ic-tv-sheet-count"></p><button type="button" class="ic-tv-sheet-reset">'+esc(t("tvReset"))+'</button></div>'+
                 '</div>'+
-                '<div class="ic-tv-sheet-foot"><p class="ic-tv-sheet-count"></p><button type="button" class="ic-tv-sheet-reset">'+esc(t("tvReset"))+'</button></div>'+
               '</div>'+
             '</div>'+
             '<div class="ic-rb-sheet" id="ic-tv-type-sheet">'+
-              '<div class="ic-rb-sheet-panel">'+
-                '<div class="ic-rb-sheet-head"><span class="ic-rb-sheet-head-title">'+esc(t("nmTypeLabel"))+'</span><button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button></div>'+
-                '<div class="ic-tv-typelist" role="group" aria-label="'+esc(t("nmTypeLabel"))+'">'+
-                  ["all"].concat(NM_TYPES).map(function(k){
-                    return tcount[k] ? '<button type="button" class="ic-tv-typerow" data-ty="'+k+'" aria-pressed="'+(namesUi.ty===k)+'"><span>'+esc(t(k==="all" ? "nmAll" : "nmT_"+k))+'</span><span class="ic-tv-typecount">'+tcount[k]+'</span></button>' : "";
-                  }).join("")+
+              '<div class="ic-rb-sheet-slide">'+
+                '<div class="ic-rb-sheet-panel">'+
+                  '<div class="ic-rb-sheet-head"><span class="ic-rb-sheet-head-title">'+esc(t("nmTypeLabel"))+'</span><button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button></div>'+
+                  '<div class="ic-tv-typelist" role="group" aria-label="'+esc(t("nmTypeLabel"))+'">'+
+                    ["all"].concat(NM_TYPES).map(function(k){
+                      return tcount[k] ? '<button type="button" class="ic-tv-typerow" data-ty="'+k+'" aria-pressed="'+(namesUi.ty===k)+'"><span>'+esc(t(k==="all" ? "nmAll" : "nmT_"+k))+'</span><span class="ic-tv-typecount">'+tcount[k]+'</span></button>' : "";
+                    }).join("")+
+                  '</div>'+
                 '</div>'+
               '</div>'+
             '</div>'+

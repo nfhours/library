@@ -476,27 +476,78 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    капсулой, из которой панель визуально выезжает и в которую прячется
    обратно, теперь жёстко ограничивает её сверху. */
 .ic-rb-sheet{position:absolute;left:0;right:0;top:100%;
-  height:var(--ic-sheet-maxh,70vh);overflow:hidden;
+  height:var(--ic-sheet-maxh,70vh);
+  /* dvh-подстраховка (задание, пункт 3): раньше высота щели была ЦЕЛИКОМ
+     JS-снимком (--ic-sheet-maxh, updateSheetMaxH() в app.js, на
+     visualViewport.height) — на настоящем iPhone это оказалось недостаточно
+     надёжным ИМЕННО в момент, когда нужнее всего: сразу после показа/
+     скрытия нижней панели Safari visualViewport не гарантированно успевает
+     отразить новую высоту к моменту открытия/пересчёта, и щель обрывалась
+     заметно выше реального низа экрана. max() берёт БОЛЬШЕЕ из двух чисел —
+     чистый JS-расчёт и чистый CSS 100dvh (минус тот же --ic-rbar-bottom,
+     который уже continuously-synced с тем же механизмом, см. updateSheetMaxH())
+     — так что если JS в моменте недооценил доступное место, dvh добирает
+     разницу. Переборщить с высотой тут безопасно (она ограничена снаружи
+     overflow:hidden этого же клип-бокса, а видимый контент — ещё и
+     overflow:auto у .ic-rb-sheet-panel ниже, т.е. лишняя высота клип-бокса
+     просто не используется панелью, если контента мало, см. пункт 4
+     задания) — недобор, то есть щель короче реального низа экрана, был
+     ровно тем багом, который чиним. */
+  height:max(var(--ic-sheet-maxh,70vh), calc(100dvh - var(--ic-rbar-bottom,52px) - 8px));
+  overflow:hidden;
   visibility:hidden;pointer-events:none;transition:visibility 0s linear .34s}
-.ic-rb-sheet-panel{position:absolute;left:0;right:0;top:0;background:var(--paper);
-  /* --ic-sheet-maxh — ЕДИНСТВЕННОЕ, что всё ещё считает JS (app.js,
-     updateSheetMaxH(), на открытие + visualViewport resize/scroll, НЕ на
-     разовый снимок при открытии) — максимум высоты, не позиция: containing
-     block панели (.ic-rbar) мал и не знает, сколько места остаётся до низа
-     настоящей видимой области, а чистый dvh тоже не в курсе, где панель
-     начинается. 70vh — запасной статичный предел на случай, если JS ещё
-     не отработал (первый кадр до open()). Теперь тот же размер задан и
-     клип-боксу .ic-rb-sheet выше — здесь он всё равно нужен (внутренний
-     overflow:auto — скролл длинного списка/результатов внутри панели, не
-     связан с клипом щели снаружи). */
-  max-height:var(--ic-sheet-maxh,70vh);overflow:auto;border-radius:0 0 16px 16px;
-  box-shadow:0 18px 36px -12px rgba(0,0,0,.45);padding:14px 16px 18px;
+/* .ic-rb-sheet-slide — НОВЫЙ промежуточный wrapper между клип-боксом
+   (.ic-rb-sheet) и реальным контентом (.ic-rb-sheet-panel). Round (фикс
+   «шапка шторки не закреплена, строки налезают на неё», задание пункт 2):
+   найденная причина — НЕ отсутствие прокрутки к текущей главе (это
+   отдельно починено onOpen в makeRbSheet, app.js) и не сторонняя обёртка
+   между панелью и шапкой (структура была прямой — панель → шапка, без
+   посредников), а конкретно то, что transform/transition слайда раньше
+   стояли ПРЯМО на .ic-rb-sheet-panel — том самом элементе, который
+   одновременно a) overflow:auto scroll-контейнер и b) containing block для
+   своей sticky-шапки (.ic-rb-sheet-head). Это задокументированная
+   особенность WebKit: position:sticky потомка перестаёт надёжно держаться
+   на месте при скролле, если у его НЕПОСРЕДСТВЕННОГО scroll-контейнера есть
+   собственный transform — даже тождественный translate3d(0,0,0) в покое
+   (не только во время самой анимации): transform создаёт для элемента
+   собственный композитный слой, и расчёт sticky-смещения внутри этого слоя
+   в части версий/состояний WebKit на настоящем устройстве расходится с
+   реальным скроллом контента (воспроизводится на настоящем iPhone по
+   описанию в задании; не ловится Playwright/WebKit-эмуляцией — другой путь
+   компоновки слоёв, тот же класс несовпадений, что у прежних багов этого
+   файла, где эмуляция не показывала то, что видно на настоящем устройстве).
+   Фикс — геометрическое разделение ролей: transform/transition теперь на
+   ЭТОМ слайде (не scroll-контейнер сам по себе, без overflow — ничего не
+   скроллит), а .ic-rb-sheet-panel (overflow:auto + sticky-шапка) внутри
+   него остаётся БЕЗ собственного transform вовсе — слайд просто двигает
+   панель целиком как один блок при открытии/закрытии, не вмешиваясь в её
+   независимый внутренний скролл, и sticky-шапка внутри панели держится
+   штатно, потому что её ближайший scroll-контейнер (сама панель) больше не
+   трансформируется. height:100% — заполняет клип-бокс целиком (нужно, чтобы
+   абсолютно позиционированная внутри .ic-rb-sheet-panel — top:0 — правильно
+   прилегала к верху); сам слайд визуально невидим (нет своего фона/тени —
+   это всё у панели), так что лишняя высота под короткой панелью просто не
+   рисуется, см. #ic-rb-dim под ней. */
+.ic-rb-sheet-slide{position:absolute;left:0;right:0;top:0;height:100%;
   transform:translate3d(0,-100%,0);will-change:transform;
   -webkit-backface-visibility:hidden;backface-visibility:hidden;
   transition:transform .34s cubic-bezier(.22,.9,.24,1)}
+.ic-rb-sheet.ic-rb-sheet-open .ic-rb-sheet-slide{transform:translate3d(0,0,0)}
+@media (prefers-reduced-motion:reduce){.ic-rb-sheet-slide{transition:none}}
+.ic-rb-sheet-panel{position:absolute;left:0;right:0;top:0;background:var(--paper);
+  /* max-height:100% — относительно .ic-rb-sheet-slide (height:100% от
+     клип-бокса .ic-rb-sheet выше, та же --ic-sheet-maxh/dvh-формула, один
+     источник истины, без повторного дублирования формулы здесь). overflow:
+     auto — внутренний скролл длинного списка/результатов; высота самой
+     панели, когда контента МЕНЬШЕ этого предела, не задана явно — панель
+     остаётся короче, как контент (пункт 4 задания), max-height лишь
+     ограничивает сверху. Нижний padding — safe-area (пункт 3 задания):
+     последняя строка списка не должна упираться край-в-край в нижнюю
+     безопасную зону настоящего iPhone. */
+  max-height:100%;overflow:auto;border-radius:0 0 16px 16px;
+  box-shadow:0 18px 36px -12px rgba(0,0,0,.45);
+  padding:14px 16px calc(18px + env(safe-area-inset-bottom))}
 .ic-rb-sheet.ic-rb-sheet-open{visibility:visible;pointer-events:auto;transition:visibility 0s}
-.ic-rb-sheet.ic-rb-sheet-open .ic-rb-sheet-panel{transform:translate3d(0,0,0)}
-@media (prefers-reduced-motion:reduce){.ic-rb-sheet-panel{transition:none}}
 .ic-rb-sheet-head{display:flex;gap:8px;align-items:center;position:sticky;top:0;background:var(--paper);
   padding-bottom:10px;margin-bottom:2px;z-index:1}
 .ic-rb-sheet-head .ic-home-search{flex:1 1 auto;min-width:0;margin:0}
@@ -522,7 +573,7 @@ button.ic-rb-sheet-close{flex:none;height:44px;border:1px solid rgba(28,24,19,.3
    syncSheetChrome в app.js), оно никогда не мигает между closeInstant и
    следующим open(). */
 .ic-rb-sheet.ic-rb-sheet-noanim,
-.ic-rb-sheet.ic-rb-sheet-noanim .ic-rb-sheet-panel{transition:none!important}
+.ic-rb-sheet.ic-rb-sheet-noanim .ic-rb-sheet-slide{transition:none!important}
 
 /* #ic-rb-dim — единое затемнение страницы (вместо собственного дима внутри
    КАЖДОЙ шторки, как было раньше) — один элемент на страницу, который
@@ -547,8 +598,22 @@ button.ic-rb-sheet-close{flex:none;height:44px;border:1px solid rgba(28,24,19,.3
    выше. z-index — НИЖЕ обычного .ic-rbar (5) и .back-bar (10, index.html):
    затемняет текст главы/указателя/имён под собой, но не сами капсулы
    шапки — так же, как раньше затемнялась только область под панелями, не
-   сами панели. */
-#ic-rb-dim{position:fixed;left:0;right:0;bottom:0;top:var(--ic-rbar-bottom,52px);
+   сами панели.
+   Round (фикс «дим не доходит до низа экрана», задание пункт 1): раньше
+   низ дима задавался bottom:0 — на настоящем iPhone это НЕ гарантированно
+   совпадает с фактическим низом видимой области в любой момент (известная
+   особенность динамической нижней панели Safari — position:fixed;bottom:0
+   может считаться относительно другой базовой высоты, чем та, что
+   отрисована прямо сейчас, особенно в момент показа/скрытия панели).
+   Теперь низ не задаётся через bottom вовсе — вместо этого явная, заведомо
+   избыточная height:100lvh (largest viewport height — высота экрана, когда
+   все панели Safari спрятаны, т.е. гарантированно НЕ МЕНЬШЕ, чем когда-либо
+   нужно) от того же top:var(--ic-rbar-bottom). Перебор высоты здесь
+   безопасен: #ic-rb-dim — position:fixed, его размер не участвует в layout
+   потоке документа и не создаёт лишний скролл страницы, какой бы высоты он
+   ни был — недобор (прежний баг) был ровно тем, чего нужно избежать. */
+#ic-rb-dim{position:fixed;left:0;right:0;top:var(--ic-rbar-bottom,52px);
+  height:100vh;height:100lvh;
   z-index:4;background:rgba(22,19,15,.42);
   opacity:0;visibility:hidden;pointer-events:none;
   transition:opacity .3s ease,visibility 0s linear .34s}
