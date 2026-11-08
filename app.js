@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "132";
+  var APP_VER = "133";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -1543,41 +1543,48 @@
     (container||document).querySelectorAll(".ic-rbar-ctx").forEach(function(btn){ btn.style.flex = ""; }); // сбросить предыдущую фиксацию перед новым замером (ресайз/смена языка)
     (container||document).querySelectorAll(".ic-rbar-ctx .ic-rbar-full[data-full], .ic-rbar-ctx .ic-rbar-short[data-full]").forEach(fitEllipsisWord);
   }
-  // Ячейка «глава · страница» (.ic-rbar-pos): на широком экране — двухуровневый
-  // текст (название мельче сверху, страница крупнее снизу, flex-column,
-  // app.css), название никогда не скрывается целиком. На узком экране (≤620px,
-  // app.css переключает .ic-rbar-pos-inner в flex-row) название и номер
-  // страницы делят одну строку через точку-разделитель (.ic-rbar-pos-sep) —
-  // и здесь может не хватить места даже для короткой формы названия. В этом
-  // случае название (CHAP_SHORT/chapTitleShort) должно СКРЫВАТЬСЯ ЦЕЛИКОМ —
-  // не обрезаться эллипсисом посередине слова — а точка-разделитель исчезает
-  // вместе с ним (иначе была бы "висящая точка" без названия перед ней,
-  // независимо от того, видно название или нет — тот самый баг задания).
-  // scrollWidth у name/sep/pg — их НЕполная (неурезанная) естественная
-  // ширина (white-space:nowrap + overflow:hidden её не меняют, см. тот же
-  // приём в fitEllipsisWord выше); сравниваем сумму с реально доступной
-  // шириной строки (.ic-rbar-pos-inner.clientWidth, после сброса display).
-  function fitPosRow(posBtn){
-    var inner = posBtn.querySelector(".ic-rbar-pos-inner");
-    var ch = posBtn.querySelector("[data-rb-ch]"), sep = posBtn.querySelector("[data-rb-sep]"), pg = posBtn.querySelector("[data-rb-pg]");
-    if(!inner || !ch || !sep || !pg) return;
-    // Двухуровневая (desktop) раскладка — название никогда не прячется, и
-    // точки-разделителя там нет вообще (см. .ic-rbar-pos-sep{display:none}
-    // в app.css за пределами @media(max-width:620px)).
-    if(getComputedStyle(inner).flexDirection === "column"){ ch.style.display = ""; sep.style.display = "none"; return; }
-    ch.style.display = ""; sep.style.display = "";
-    var need = ch.scrollWidth + sep.scrollWidth + pg.scrollWidth;
-    if(need > inner.clientWidth + 1){ ch.style.display = "none"; sep.style.display = "none"; }
-  }
-  function fitPosLabels(container){
-    (container||document).querySelectorAll(".ic-rbar-pos").forEach(fitPosRow);
-  }
+  // Ячейка «глава · страница» (.ic-rbar-pos): название главы теперь усекается
+  // ПРОСТЫМ CSS-эллипсисом (text-overflow:ellipsis в app.css), как в
+  // утверждённом макете rbar-proto.html — никакого JS-измерения ширины
+  // по словам здесь больше не нужно (на ≤460px название скрывается целиком
+  // через обычный CSS @media, см. .ic-rbar-pos-ch{display:none} в app.css).
   // Пересчёт при ресайзе окна (поворот экрана и т.п.) — тот же приём, что у
   // closeQm ниже по файлу: один слушатель на весь модуль, no-op, если
   // панели читалки сейчас нет на странице (querySelectorAll вернёт пусто).
-  window.addEventListener("resize", function(){ fitCtxLabels(document); fitPosLabels(document); });
+  window.addEventListener("resize", function(){ fitCtxLabels(document); });
+  // Пересчёт --ic-topH (верхняя граница выезжающей панели поиска читалки,
+  // см. .ic-rb-sheet в app.css) при ресайзе, ПОКА панель открыта — один
+  // слушатель на весь модуль (не по одному на каждый рендер главы, чтобы не
+  // накапливались при переходах между главами), no-op, если открытой панели
+  // нет. Тот же приём setTop()/addEventListener('resize') из макета.
+  window.addEventListener("resize", function(){
+    var openSheetEl = document.querySelector(".ic-rb-sheet.ic-rb-sheet-open");
+    if(!openSheetEl) return;
+    var rbarNow = document.getElementById("ic-rbar");
+    document.documentElement.style.setProperty("--ic-topH", (rbarNow ? rbarNow.getBoundingClientRect().bottom : 0)+"px");
+  });
+  // Esc закрывает открытую панель поиска читалки — один слушатель на весь
+  // модуль (не по одному на каждый рендер главы), через клик по уже
+  // подключённой кнопке «Закрыть» внутри панели, а не вызовом closure
+  // (sheetClose/sheetApi — приватные переменные внутри renderChapter,
+  // недоступные здесь; DOM-кнопка — общий интерфейс, который есть всегда).
+  document.addEventListener("keydown", function(e){
+    if(e.key !== "Escape") return;
+    var openSheetEl = document.querySelector(".ic-rb-sheet.ic-rb-sheet-open");
+    var btn = openSheetEl && openSheetEl.querySelector(".ic-rb-sheet-close");
+    if(btn) btn.click();
+  });
   function renderChapter(book, slug, blockN, pageSpec){
     var gen = renderGen;
+    // Автооткрытие панели поиска при возврате «К поиску» (searchReopen, см.
+    // его определение выше): если читатель открыл поиск на ЭТОЙ главе и
+    // кликнул по результату, ведущему на другую главу, history.back() вернёт
+    // сюда — тем же hash, который не менялся при открытии/закрытии оверлея —
+    // но без автоматически открытой панели. Читаем/обнуляем здесь, ДО того
+    // как заново построится разметка панели ниже, чтобы один и тот же
+    // возврат не открывал её повторно при будущих ре-рендерах того же hash.
+    var reopenSearchQuery = (searchReopen && searchReopen.hash === location.hash) ? searchReopen.query : null;
+    if(reopenSearchQuery != null) searchReopen = null;
     loadChapters(book, function(chap){
       if(gen !== renderGen) return;
       var ch = chap && chap.bySlug[slug];
@@ -1711,12 +1718,11 @@
               '<button type="button" class="ic-rbar-pos" data-rb="pos" aria-haspopup="dialog" aria-label="'+esc(t("rbPosLabel"))+'">'+
                 '<span class="ic-rbar-pos-inner">'+
                   '<span class="ic-rbar-pos-ch" data-rb-ch><span class="ic-rbar-full">'+esc(posTitle)+'</span><span class="ic-rbar-short">'+esc(posTitleShort)+'</span></span>'+
-                  '<span class="ic-rbar-pos-sep" data-rb-sep aria-hidden="true"> · </span>'+
                   '<span class="ic-rbar-pos-pg" data-rb-pg></span>'+
                 '</span></button>'+
               '<button type="button" class="ic-rbar-top" data-rb="top"><span class="ic-rbar-full">'+esc(t("rbTop"))+'</span><span class="ic-rbar-short">'+esc(t("rbTopShort"))+'</span></button>'+
               '<button type="button" class="ic-rbar-scan" data-rb="scan" aria-pressed="false"'+(pmRows.length?"":" disabled")+'>'+esc(t("svScan"))+'</button>'+
-              (book.meta.home ? '<button type="button" class="ic-rbar-search" data-rb="search">'+esc(t("hmSearch"))+'</button>' : "")+
+              (book.meta.home ? '<button type="button" class="ic-rbar-search" data-rb="search" aria-pressed="false">'+esc(t("hmSearch"))+'</button>' : "")+
             '</div>'+
             langSwitch()+
           '</div>'+
@@ -1729,10 +1735,30 @@
             body+
             (ch ? '<div class="ic-pager">'+pagerBtn(prev,t("chPrev"))+pagerBtn(next,t("chNext"))+'</div>' : "")+
           '</div>'+
-        '</div>';
+        '</div>'+
+        // Выезжающая панель поиска читалки (.ic-rb-sheet) — только у книг с
+        // «домашней» страницей (book.meta.home), т.е. ровно там, где раньше
+        // кнопка «Поиск» вела на home/search. Внутри — ТОТ ЖЕ контракт
+        // разметки, что ждёт wireBookSearch на странице home/search (форма
+        // .ic-home-search с input.ic-search + соседний div.ic-sr) — функция
+        // переиспользуется без переделок, просто подключена к другому DOM.
+        (book.meta.home ?
+          '<div class="ic-rb-sheet" id="ic-rb-sheet">'+
+            '<div class="ic-rb-sheet-dim" id="ic-rb-sheet-dim"></div>'+
+            '<div class="ic-rb-sheet-panel">'+
+              '<div class="ic-rb-sheet-head">'+
+                '<form class="ic-home-search" role="search">'+
+                  '<span class="ic-search-wrap"><input class="ic-search" type="search" enterkeyhint="search" placeholder="'+esc(t("srPlace"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("srPlace"))+'">'+
+                  '<button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
+                '</form>'+
+                '<button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button>'+
+              '</div>'+
+              '<div class="ic-sr" aria-live="polite"></div>'+
+            '</div>'+
+          '</div>'
+        : "");
       bindLangSwitch(root);
       fitCtxLabels(root);
-      fitPosLabels(root);
       if(enPrep){
         loadPagesIt(book, function(all){
           var box = root.querySelector(".ic-ch-itbody");
@@ -1757,12 +1783,8 @@
         for(var i=0;i<pgmEls.length;i++){ if(pgmEls[i].getBoundingClientRect().top <= off) cur = pgmEls[i]; else break; }
         return +cur.getAttribute("data-pi");
       }
-      // Номер страницы (.ic-rbar-pos-pg) больше не несёт точку-разделитель в
-      // своём textContent — та живёт в собственном .ic-rbar-pos-sep (app.css/
-      // fitPosLabels выше), которую показывают/прячут ВМЕСТЕ с названием
-      // главы, а не всегда (это и было причиной "висящей точки" без названия
-      // перед ней). lastPaintedPi — пересчитываем раскладку (fitPosRow) только
-      // когда реально сменился номер страницы, а не на каждый тик скролла.
+      // lastPaintedPi — не перерисовываем номер страницы, если он не сменился
+      // с прошлого тика скролла.
       var lastPaintedPi = null;
       function paintPg(){
         if(!pgEl) return;
@@ -1770,7 +1792,6 @@
         if(pi === lastPaintedPi) return;
         lastPaintedPi = pi;
         pgEl.textContent = pi >= 0 ? pgLabel(pmRows[pi][1]) : "";
-        fitPosRow(root.querySelector(".ic-rbar-pos"));
       }
       paintPg();
       if(rbarRow) rbarRow.addEventListener("click", function(e){
@@ -1790,8 +1811,72 @@
           return;
         }
         if(act==="scan"){ var pi = curPgIdx(); if(pi >= 0) openSv(book, pmRows, pi); return; }
-        if(act==="search"){ if(book.meta.home) location.hash = hrefFor(book, "home/search"); return; }
+        if(act==="search"){ if(sheetApi) sheetApi.toggle(); return; }
       });
+      // Выезжающая панель поиска читалки (.ic-rb-sheet) — заменяет прежний
+      // переход на home/search (см. act==="search" выше). Структура и
+      // анимация — по образцу .sheet/.dim/.panel из rbar-proto.html (вариант
+      // Б): sheetApi.open/close переключают класс .ic-rb-sheet-open (CSS
+      // делает всю анимацию ОДНИМ куском через transform на .ic-rb-sheet-panel,
+      // без отдельной анимации строк результатов внутри), держат в курсе
+      // кнопку «Поиск» (aria-pressed) и подсказывают installScrollHide ниже
+      // не прятать панель/внешнюю .back-bar, пока открыто (opts.suppress).
+      var sheetApi = null;
+      var sheetEl = root.querySelector("#ic-rb-sheet");
+      if(sheetEl){
+        var sheetDim = root.querySelector("#ic-rb-sheet-dim");
+        var sheetForm = sheetEl.querySelector(".ic-home-search");
+        var sheetInput = sheetForm.querySelector(".ic-search");
+        var sheetCloseBtn = sheetEl.querySelector(".ic-rb-sheet-close");
+        var searchBtn = root.querySelector('[data-rb="search"]');
+        var sheetIsOpen = false;
+        function setSheetTop(){
+          document.documentElement.style.setProperty("--ic-topH", (rbar ? rbar.getBoundingClientRect().bottom : 0)+"px");
+        }
+        function showBarsForced(){
+          if(rbar) rbar.classList.remove("ic-rbar-hidden");
+          var bbar = document.querySelector(".back-bar");
+          if(bbar) bbar.classList.remove("ic-bb-hidden");
+        }
+        function sheetOpen(presetQuery){
+          showBarsForced();
+          setSheetTop();
+          sheetEl.classList.add("ic-rb-sheet-open");
+          sheetIsOpen = true;
+          if(searchBtn) searchBtn.setAttribute("aria-pressed","true");
+          if(presetQuery != null){ sheetInput.value = presetQuery; sheetInput.dispatchEvent(new Event("input",{bubbles:true})); }
+          // На устройствах без точного указателя (тач) клавиатура не должна
+          // появляться сама — только на desktop/с мышью (pointer:fine).
+          if(window.matchMedia && window.matchMedia("(pointer:fine)").matches) sheetInput.focus({preventScroll:true});
+        }
+        function sheetClose(){
+          sheetEl.classList.remove("ic-rb-sheet-open");
+          sheetIsOpen = false;
+          if(searchBtn) searchBtn.setAttribute("aria-pressed","false");
+          sheetInput.blur();
+        }
+        sheetApi = {
+          open: sheetOpen, close: sheetClose,
+          isOpen: function(){ return sheetIsOpen; },
+          toggle: function(){ sheetIsOpen ? sheetClose() : sheetOpen(); }
+        };
+        sheetDim.addEventListener("click", sheetClose);
+        sheetCloseBtn.addEventListener("click", sheetClose);
+        wireBookSearch(book, sheetForm, sheetEl.querySelector(".ic-sr"), gen, 0);
+        // Переход по результату поиска внутри оверлея — запоминаем, где он был
+        // открыт (searchReopen, см. его определение выше), чтобы «К поиску»
+        // на целевой главе могло привести обратно СЮДА и снова открыть панель
+        // с тем же запросом (история не меняет hash этой главы при открытии/
+        // закрытии оверлея, поэтому history.back() сам сюда и приведёт — не
+        // хватает только автооткрытия, этим и занимается searchReopen).
+        // wireBookSearch сам вешает отдельный click-слушатель на этот же box
+        // (устанавливает chCtx) — этот, независимый, только читает значения.
+        sheetEl.querySelector(".ic-sr").addEventListener("click", function(e){
+          var a = e.target.closest("a");
+          if(a && /\/ch\//.test(a.getAttribute("href")||"")) searchReopen = {hash: location.hash, query: sheetInput.value};
+        });
+        if(reopenSearchQuery != null) sheetOpen(reopenSearchQuery);
+      }
       // Показ/скрытие панели и внешней .back-bar синхронно, по направлению
       // прокрутки — не по абсолютной позиции, как у .ic-controls выше (тот
       // плавно сжимается с самого начала списка; здесь нужно ровно обратное:
@@ -1808,7 +1893,7 @@
       // Пороги/накопители и синхронизация с .back-bar — в общей installScrollHide
       // (см. выше, рядом с wireSearchClear); здесь только её привязка к этой
       // панели, с paintPg как дополнительной работой на каждый активный кадр.
-      if(rbar) installScrollHide(rbar, {isActive:function(){ return gen === renderGen; }, onTick:paintPg});
+      if(rbar) installScrollHide(rbar, {isActive:function(){ return gen === renderGen; }, onTick:paintPg, suppress:function(){ return !!(sheetApi && sheetApi.isOpen()); }});
       root.querySelectorAll("[data-ch]").forEach(function(b){ b.addEventListener("click",function(){ location.hash = chapterHref(book, b.getAttribute("data-ch")).replace(/^#/,""); }); });
       root.querySelectorAll(".ic-fig").forEach(function(f){ f.addEventListener("click",function(){ lightbox(f.getAttribute("data-src")); }); });
       root.querySelectorAll(".ic-ch-aside a").forEach(function(a){ a.addEventListener("click",function(){ namesUi.chVia = a.getAttribute("href"); }); });
@@ -2110,6 +2195,18 @@
   // повторной навигации; label — для типов, где ru/it не применимы (search:
   // произвольный текст запроса пользователя, не поле из tavola/names.json).
   var chCtx = {hash:"", type:"", ru:"", it:"", label:""};
+  // searchReopen — «вернуться к поиску»: открытие/закрытие выезжающей панели
+  // поиска читалки (.ic-rb-sheet) НЕ меняет location.hash (это client-side
+  // UI-состояние поверх текущей главы), поэтому chCtx (который сравнивается
+  // с location.hash) здесь не годится как «куда вернуться». Когда читатель
+  // открывает поиск на главе X и кликает по результату, ведущему на главу Y,
+  // history.back() с Y вернёт на тот же hash X (он не менялся) — но панель
+  // поиска сама не откроется заново без этой записи. hash — адрес главы X
+  // (где сейчас открыт оверлей, в момент клика по результату), query — что
+  // было введено в поле. Устанавливается в renderChapter (клик по ссылке
+  // внутри .ic-rb-sheet), читается и обнуляется там же (в начале рендера
+  // любой главы), чтобы не повторяться при будущих ре-рендерах того же hash.
+  var searchReopen = null;
   var NM_TYPES = ["g","c","a","p","n"];
   function loadNames(book, cb){
     if(namesCache[book.slug]){ cb(namesCache[book.slug]); return; }
