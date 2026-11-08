@@ -154,8 +154,9 @@ def word_forms(w, plural):
 
 # ---------------------------------------------------------------- имена
 class Entry:
-    def __init__(self, slug, ru, it, typ):
+    def __init__(self, slug, ru, it, typ, en="", fr=""):
         self.slug, self.ru, self.it, self.type = slug, ru, it, typ
+        self.en, self.fr = en, fr
         self.variants = []      # русские варианты (кроме основной формы)
         self.phrases = []       # [(слова, разделители, формы по словам, свободный регистр по словам)]
         self.mentions = collections.OrderedDict()   # (глава, блок) -> [(начало, длина)]
@@ -197,27 +198,33 @@ def load_entries():
             continue
         ru = RU_OVERRIDE.get(c[0], c[1])
         t = typ.get((c[0], c[1]))
+        en = c[2] if len(c) > 2 else ""
+        fr = c[3] if len(c) > 3 else ""
         if t:
-            rows.append((c[0], ru, t))
+            rows.append((c[0], ru, t, en, fr))
     byit = {r[0]: r for r in rows}
     groups = collections.OrderedDict()
-    for it, ru, t in rows:
-        target = byit[MERGE[it]] if it in MERGE else (it, ru, t)
+    for it, ru, t, en, fr in rows:
+        target = byit[MERGE[it]] if it in MERGE else (it, ru, t, en, fr)
         key = fold(re.split(r",\s*", target[1])[0])
-        g = groups.setdefault(key, {"ru": [], "it": [], "t": target[2]})
+        g = groups.setdefault(key, {"ru": [], "it": [], "t": target[2], "en": [], "fr": []})
         for r in re.split(r",\s*", ru):
             if r not in g["ru"]:
                 g["ru"].append(r)
         for i in re.split(r",\s*", it):
             if i and i not in g["it"]:
                 g["it"].append(i)
+        if en and en not in g["en"]:
+            g["en"].append(en)
+        if fr and fr not in g["fr"]:
+            g["fr"].append(fr)
     entries, used = [], set()
     for key, g in groups.items():
         slug = slugify(g["it"][0])
         while slug in used:
             slug += "-2"
         used.add(slug)
-        e = Entry(slug, g["ru"][0], g["it"], g["t"])
+        e = Entry(slug, g["ru"][0], g["it"], g["t"], en=g["en"][0] if g["en"] else "", fr=g["fr"][0] if g["fr"] else "")
         for v in g["ru"][1:] + [x for i in g["it"] for x in EXTRA_VARIANTS.get(i, [])]:
             e.variants.append(v)
         plural = g["t"] == "n"
@@ -412,7 +419,8 @@ def main():
     names = []
     for e in kept:
         m = [[ci, n] + [x for pos in v for x in pos] for (ci, n), v in e.mentions.items()]
-        d = {"id": e.slug, "ru": e.ru, "it": e.it, "t": e.type, "n": len(m)}
+        d = {"id": e.slug, "ru": e.ru, "it": e.it, "t": e.type, "n": len(m),
+             "en": e.en or e.it[0], "fr": e.fr or e.it[0]}
         if e.variants:
             d["v"] = e.variants
         if e.plates:

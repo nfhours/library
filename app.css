@@ -35,6 +35,15 @@
   .ic-ch-outer{padding:0}
 }
 
+/* Обёртка указателя/имён (.ic-tv-outer) — тот же приём, что .ic-ch-outer
+   выше: тёмная липкая строка поиска (.ic-tv-bar) живёт здесь, вне узкого
+   .ic-wrap.ic-tv (780px), и может расти вширь до тех же 1120px, независимо
+   центрированных от текстовой колонки ниже. */
+.ic-tv-outer{max-width:1120px;margin:0 auto;padding:0 20px}
+@media (max-width:620px){
+  .ic-tv-outer{padding:0}
+}
+
 /* переключатель языка: без рамки и заливки, как активная ссылка в nav сайта —
    тонкое подчёркивание вместо закрашенной таблетки */
 .ic-top-row{display:flex;justify-content:flex-end;margin-bottom:8px}
@@ -332,7 +341,7 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
 .ic-rbar-pos-ch{flex:1 1 auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;
   font-style:italic;font-family:var(--old);font-size:15px;line-height:1.15;margin-right:6px;
   opacity:.75;color:rgba(var(--cream),.9)}
-.ic-rbar-pos-pg{flex:none;white-space:nowrap;color:rgba(var(--cream),.9);font-size:1em;line-height:1.15;
+.ic-rbar-pos-pg{flex:none;white-space:nowrap;text-align:center;color:rgba(var(--cream),.9);font-size:1em;line-height:1.15;
   font-weight:400;letter-spacing:.04em;font-variant-numeric:oldstyle-nums}
 .ic-rbar-top,.ic-rbar-scan,.ic-rbar-search{flex:none}
 /* full/short — на 1440 (широкий экран) показывается развёрнутая форма
@@ -359,6 +368,11 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
   .ic-rbar-row .ic-rbar-ctx{flex:0 1 auto;min-width:0;max-width:46%}
   .ic-rbar-row .ic-rbar-pos{flex:1 1 0%;min-width:46px;padding:0 9px}
   .ic-rbar-pos-ch{display:none}
+  /* Название главы скрыто целиком на этой ширине — номер страницы остаётся
+     единственным содержимым ячейки 2, но без justify-content:center он
+     так и липнет к левому краю её (широкой, flex:1) области, хотя занимает
+     от силы несколько символов. */
+  .ic-rbar-pos-inner{justify-content:center}
 }
 
 /* Выезжающая панель поиска читалки (.ic-rb-sheet) — кнопка «Поиск» в .ic-rbar
@@ -385,6 +399,15 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
 .ic-rb-sheet-head{display:flex;gap:8px;align-items:center;position:sticky;top:0;background:var(--paper);
   padding-bottom:10px;margin-bottom:2px;z-index:1}
 .ic-rb-sheet-head .ic-home-search{flex:1 1 auto;min-width:0;margin:0}
+/* Поле поиска внутри выезжающей панели читалки (.ic-rb-sheet-head) — рамка
+   со всех сторон + скругление, как в утверждённом макете rbar-proto.html
+   (.shead input), а не просто нижняя черта общего input.ic-search (та
+   остаётся как есть везде, где поле поиска не в этом контексте — главная
+   книги, указатель, имена). Селектор специфичен ТОЛЬКО этому месту. */
+.ic-rb-sheet-head .ic-home-search input.ic-search{height:44px;border:1px solid rgba(28,24,19,.3);border-radius:10px;
+  padding:0 34px 0 14px;font-size:18px;background:#f7f2e7}
+.ic-rb-sheet-head .ic-home-search input.ic-search:focus{border-color:var(--accent)}
+.ic-rb-sheet-head .ic-search-clear{right:10px}
 button.ic-rb-sheet-close{flex:none;height:44px;border:1px solid rgba(28,24,19,.3);border-radius:10px;
   background:transparent;padding:0 14px;font:13.5px var(--serif);letter-spacing:.07em;text-transform:uppercase;
   color:var(--ink);cursor:pointer}
@@ -688,10 +711,16 @@ button.ic-toc-close{width:38px;height:38px;border:1px solid var(--rule);border-r
   .ic-home-tiles{align-self:start}
 }
 .ic .ic-home-tile{display:flex;flex-direction:column;gap:6px;justify-content:center;min-height:88px;padding:16px 22px;border:1px solid var(--rule);border-radius:4px;
-  background:var(--sheet);color:var(--ink);box-shadow:0 14px 30px -22px rgba(70,46,20,.5);transition:border-color .25s,transform .25s}
+  background:var(--sheet);color:var(--ink);box-shadow:0 14px 30px -22px rgba(70,46,20,.5);transition:border-color .25s,transform .25s,background-color .08s}
 .ic-home-tile-t{font-family:var(--old);font-size:1.55em;line-height:1.15}
 .ic-home-tile-s{font-size:.82em;color:var(--soft);line-height:1.4}
-.ic .ic-home-tile[aria-current]{border-color:var(--accent);box-shadow:inset 0 -3px 0 var(--accent),0 14px 30px -22px rgba(70,46,20,.5)}
+/* Раньше здесь была [aria-current] (жирная акцентная рамка на вкладке,
+   которая и так активна при обычном заходе на /home) — задание прямо
+   требует, чтобы НИ ОДНА плитка не выглядела предварительно «нажатой»;
+   homeTile() теперь всегда вызывается с on=false (см. app.js), поэтому
+   этот селектор больше ничему не соответствует. Вместо персистентного
+   «выбранного» вида — обычный мгновенный :active-отклик на нажатие. */
+.ic .ic-home-tile:not(.ic-soon):active{background-color:var(--accent-soft);transform:translateY(1px)}
 .ic .ic-home-tile.ic-soon{min-height:0;padding:12px 22px;flex-direction:row;align-items:baseline;justify-content:space-between;
   background:none;border-style:dashed;box-shadow:none;color:var(--soft);cursor:default}
 .ic-soon .ic-home-tile-t{font-size:1.15em}
@@ -792,15 +821,34 @@ button.ic-sr-more{display:block;margin:14px 0 0;padding:8px 16px;font:inherit;fo
    transform, что у .ic-rbar-hidden ниже), кроме случая, когда в поле поиска
    есть текст или оно в фокусе (installScrollHide's opts.suppress) — тогда
    панель остаётся на месте при любой прокрутке. */
-.ic-tv-lead{margin-top:14px;font-size:.88em;line-height:1.6;color:var(--soft)}
-.ic-tv-bar{position:sticky;top:var(--top);z-index:4;margin:20px 0 22px;
-  --rbar-ink:rgba(236,229,212,.94); --rbar-soft:rgba(236,229,212,.64); --rbar-line:rgba(236,229,212,.22); --rbar-accent:#d9a991;
-  background:#211d17;
-  border-bottom:1px solid rgba(236,229,212,.12);
-  padding-left:calc(28px + env(safe-area-inset-left));padding-right:calc(28px + env(safe-area-inset-right));
+.ic-tv-lead{margin-top:20px;font-size:.88em;line-height:1.6;color:var(--soft)}
+/* Round: .ic-tv-bar переехала из потока .ic-wrap в собственную .ic-tv-outer
+   (см. выше) — теперь это сплошная непрозрачная полоса, прилипающая СРАЗУ
+   под внешней .back-bar (top:var(--top), тот же приём, что у .ic-rbar
+   читалки), а не просто окрашенный блок где-то посреди страницы. Тон и
+   custom properties — те же, что у .ic-rbar (--bar:#16130f, --cream), не
+   на шаг светлее, как раньше: это теперь прямое продолжение той же тёмной
+   плоскости. Ячейка «К книге» (.ic-tv-back) — тот же визуальный язык, что
+   .ic-rbar-ctx (скругление, чуть светлее фона капсулы, без акцентной рамки
+   и без символа «←»). */
+.ic-tv-bar{position:sticky;top:var(--top);z-index:4;margin:0 0 26px;
+  --cream:236,229,212; --bar:#16130f;
+  --rbar-ink:rgba(var(--cream),.94); --rbar-soft:rgba(var(--cream),.64); --rbar-line:rgba(var(--cream),.22); --rbar-accent:#d9a991;
+  background:var(--bar);
+  border-bottom:1px solid rgba(var(--cream),.12);
+  padding:10px calc(28px + env(safe-area-inset-right)) 10px calc(28px + env(safe-area-inset-left));
   transition:transform .3s ease;will-change:transform}
 .ic-tv-bar.ic-tv-bar-hidden{transform:translateY(calc(-100% - var(--top) - 16px))}
-.ic-tv-bar-row{display:flex;align-items:center;gap:14px;height:44px;min-width:0}
+.ic-tv-bar-row{display:flex;align-items:center;gap:10px;height:44px;min-width:0}
+/* Ячейка «К книге» — капсула в стиле .ic-rbar-ctx, флексом fixed, не
+   растягивается; заменяет прежнюю строку .ic-nav со стрелкой «←». */
+button.ic-tv-back{flex:none;height:36px;padding:0 16px;border:0;border-radius:999px;
+  background:rgba(var(--cream),.1);color:var(--rbar-ink);
+  font-size:.78em;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;
+  transition:background-color .12s}
+button.ic-tv-back:active{background:rgba(var(--cream),.18)}
+.ic-tv-bar .ic-lang-b{color:var(--rbar-soft)}
+.ic-tv-bar .ic-lang-b[aria-pressed="true"]{color:var(--rbar-ink);box-shadow:inset 0 -1px 0 var(--rbar-accent)}
 /* Переопределяет, только внутри .ic-tv-bar-row, общие .ic-search-wrap/
    input.ic-search/.ic-search-clear (используются и другими, светлыми
    строками поиска — главная книги, библиотека — которые этим не трогаем). */
@@ -824,6 +872,7 @@ button.ic-sr-more{display:block;margin:14px 0 0;padding:8px 16px;font:inherit;fo
 .ic-tv-bar-row2 .ic-tv-count{margin:0;color:var(--rbar-soft)}
 @media (hover:hover){
   .ic-tv-bar-row button.ic-search-clear:hover{color:var(--rbar-ink);background:rgba(236,229,212,.14)}
+  button.ic-tv-back:hover{background:rgba(236,229,212,.18)}
   .ic-tv-bar .ic-tv-letters button:not(:disabled):hover{background:var(--rbar-accent);color:#211d17}
   .ic-tv-bar-row2 .ic-chip:hover{color:var(--rbar-ink)}
 }

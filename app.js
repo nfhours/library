@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "133";
+  var APP_VER = "134";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -136,6 +136,14 @@
     qmDefault:    {ru:"Место в оригинале неясно, переведено по смыслу.", en:"The passage is unclear in the original; translated by sense.", fr:"Le passage est obscur dans l'original ; traduit selon le sens."},
     hmRead:       {ru:"Читать книгу", en:"Read the book", fr:"Lire le livre"},
     hmReadSub:    {ru:"Содержание по частям", en:"Contents by part", fr:"Sommaire par partie"},
+    // hmContinue/hmStart — подпись плитки «Читать»/«Продолжить» на главной
+    // книги (homeTile ниже): зависит от localStorage (ic-lastread:<slug>,
+    // см. saveLastRead/loadLastRead выше) — есть сохранённое место чтения
+    // или нет. {ch}/{n} — короткий заголовок главы и номер страницы.
+    hmContinue:   {ru:"Продолжить: {ch}, с. {n}", en:"Continue: {ch}, p. {n}", fr:"Continuer : {ch}, p. {n}"},
+    hmStart:      {ru:"Начать с начала", en:"Start from the beginning", fr:"Commencer au début"},
+    hmToc:        {ru:"Содержание", en:"Contents", fr:"Sommaire"},
+    hmTocSub:     {ru:"Список глав и частей книги", en:"List of chapters and parts", fr:"Liste des chapitres et parties"},
     hmGallery:    {ru:"Гравюры", en:"Engravings", fr:"Gravures"},
     hmGallerySub: {ru:"Все иллюстрации книги: {n}", en:"All the illustrations: {n}", fr:"Toutes les illustrations : {n}"},
     hmSearch:     {ru:"Поиск", en:"Search", fr:"Recherche"},
@@ -289,6 +297,20 @@
   function restoreState(slug){
     state.q=""; state.filter="all"; state.sort="book";
     try{ var s=sessionStorage.getItem("ic-state:"+slug); if(s){ var o=JSON.parse(s); state.q=o.q||""; state.filter=o.filter||"all"; state.sort=o.sort||"book"; } }catch(e){}
+  }
+  // «Последнее место чтения» (главная книги, плитка «Читать»/«Продолжить» —
+  // homeTile ниже): hash — адрес, который открывает ровно эту страницу главы
+  // (chapterHref с номером блока страницы, не просто адрес главы), ch — заголовок
+  // главы для подписи плитки (короткая форма, chapTitleShort), pg — номер
+  // страницы издания 1626 г. (pgLabel). try/catch — как у всех остальных
+  // localStorage в этом файле (ic-lang выше); ключ на книгу, не глобальный,
+  // по тому же паттерну "ic-…:"+slug, что у sessionStorage keep() выше.
+  function lastReadKey(slug){ return "ic-lastread:"+slug; }
+  function saveLastRead(book, data){
+    try{ localStorage.setItem(lastReadKey(book.slug), JSON.stringify(data)); }catch(e){}
+  }
+  function loadLastRead(book){
+    try{ var s = localStorage.getItem(lastReadKey(book.slug)); return s ? JSON.parse(s) : null; }catch(e){ return null; }
   }
 
   function esc(s){ return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];}); }
@@ -1792,6 +1814,16 @@
         if(pi === lastPaintedPi) return;
         lastPaintedPi = pi;
         pgEl.textContent = pi >= 0 ? pgLabel(pmRows[pi][1]) : "";
+        // «Продолжить чтение» на главной книги (homeTile ниже) — запоминаем
+        // ровно эту страницу (hash с номером блока, а не просто главу), пока
+        // читатель скроллит; тот же pi/pmRows, что красит номер страницы выше.
+        if(book.meta.home && ch){
+          saveLastRead(book, {
+            hash: pi >= 0 ? chapterHref(book, ch.slug, pmRows[pi][2]) : chapterHref(book, ch.slug),
+            ch: chapTitleShort(ch),
+            pg: pi >= 0 ? pgLabel(pmRows[pi][1]) : ""
+          });
+        }
       }
       paintPg();
       if(rbarRow) rbarRow.addEventListener("click", function(e){
@@ -2079,26 +2111,28 @@
           pagesHtml(e)+'</div>';
       }
       root.innerHTML =
-        '<div class="ic-wrap ic-tv">'+
-          '<div class="ic-nav"><button type="button" class="ic-back">← '+esc(book.meta.home ? t("tvBack") : t("back"))+'</button><span class="ic-nav-pos"></span>'+langSwitch()+'</div>'+
-          '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("hmIndex"))+'</h1></header>'+
-          '<p class="ic-tv-lead">'+esc(t("tvSub"))+'</p>'+
-          (state.lang!=="ru" ? '<p class="ic-ch-note">'+esc(t("chRuOnly"))+'</p>' : "")+
-          '<div class="ic-tv-bar">'+
+        '<div class="ic-tv-outer">'+
+          '<div class="ic-tv-bar" id="ic-tv-bar">'+
             '<div class="ic-tv-bar-row">'+
+              '<button type="button" class="ic-tv-back">'+esc(book.meta.home ? t("tvBack") : t("back"))+'</button>'+
               '<span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("tvSearchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("tvSearchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
+              langSwitch()+
             '</div>'+
             '<nav class="ic-tv-letters" aria-label="'+esc(t("tvLetters"))+'"></nav>'+
             '<div class="ic-tv-bar-row2"><p class="ic-count ic-tv-count"></p><div class="ic-seg ic-tv-sort" role="group">'+
               '<button type="button" class="ic-chip" data-s="ru" aria-pressed="'+(tavolaUi.sort==="ru")+'">'+esc(t("tvSortRu"))+'</button>'+
               '<button type="button" class="ic-chip" data-s="it" aria-pressed="'+(tavolaUi.sort==="it")+'">'+esc(t("tvSortIt"))+'</button></div></div>'+
           '</div>'+
+        '</div>'+
+        '<div class="ic-wrap ic-tv">'+
+          '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("hmIndex"))+'</h1></header>'+
+          '<p class="ic-tv-lead">'+esc(t("tvSub"))+'</p>'+
           '<div class="ic-tv-list"></div>'+
           '<nav class="ic-az-rail" aria-label="'+esc(t("tvLetters"))+'"></nav>'+
           '<div class="ic-az-peek" aria-hidden="true"></div>'+
         '</div>';
       bindLangSwitch(root);
-      root.querySelector(".ic-back").addEventListener("click",function(){ location.hash = book.meta.home ? hrefFor(book,"home") : ""; });
+      root.querySelector(".ic-tv-back").addEventListener("click",function(){ location.hash = book.meta.home ? hrefFor(book,"home") : ""; });
       var q = root.querySelector(".ic-search"), list = root.querySelector(".ic-tv-list"), cnt = root.querySelector(".ic-tv-count"),
           bar = root.querySelector(".ic-tv-bar"), lnav = root.querySelector(".ic-tv-letters"),
           rail = root.querySelector(".ic-az-rail"), peek = root.querySelector(".ic-az-peek");
@@ -2208,19 +2242,32 @@
   // любой главы), чтобы не повторяться при будущих ре-рендерах того же hash.
   var searchReopen = null;
   var NM_TYPES = ["g","c","a","p","n"];
+  // nmForm/nmLetterOf/nmFoldLatin — форма имени, по которой читатель
+  // интерфейса EN/FR видит список «Имена», и буква, по которой эта форма
+  // сортируется/группируется в алфавитный столбик. Раньше буква (e.l) и
+  // порядок строк считались build_names.py один раз по русской форме —
+  // теперь имя показывается и сортируется по форме ТЕКУЩЕГО языка интерфейса
+  // (кириллица для ru, латиница для en/fr), поэтому и буква, и порядок
+  // пересчитываются на клиенте при каждой перерисовке списка, не в build-
+  // скрипте. nmFoldLatin снимает диакритику (NFD + strip combining marks —
+  // тот же диапазон, что в tvFold выше), чтобы «É»/«Ê» и т.п. попадали под
+  // свою базовую букву в алфавитном столбике и фильтре.
+  function nmFoldLatin(s){ return String(s||"").normalize("NFD").replace(/[̀-ͯ]/g,""); }
+  function nmForm(e){ return (state.lang==="en" ? e.en : state.lang==="fr" ? e.fr : e.ru) || e.ru || (e.it||[])[0] || ""; }
+  function nmLetterOf(name){
+    var m = nmFoldLatin(name).toUpperCase().replace(/Ё/g,"Е").match(/[A-ZА-Я]/);
+    return m ? m[0] : "#";
+  }
+  function nmSortKey(name){ return nmFoldLatin(name).replace(/[«»\s]/g,""); }
   function loadNames(book, cb){
     if(namesCache[book.slug]){ cb(namesCache[book.slug]); return; }
     fetch(BASE+"books/"+book.slug+"/"+book.meta.names,{cache:"no-cache"}).then(function(r){ if(!r.ok) throw 0; return r.json(); })
       .then(function(d){
         d.byId = {};
         d.names.forEach(function(e){
-          var m = (e.ru||"").toUpperCase().replace(/Ё/g,"Е").match(/[А-Я]/);
-          e.l = m ? m[0] : "#";
-          e.h = tvFold(e.ru+" "+(e.it||[]).join(" ")+" "+(e.v||[]).join(" "));
-          e.k = (e.ru||"").replace(/[«»\s]/g,"");
+          e.h = tvFold(e.ru+" "+(e.it||[]).join(" ")+" "+(e.v||[]).join(" ")+" "+(e.en||"")+" "+(e.fr||""));
           d.byId[e.id] = e;
         });
-        d.names.sort(function(a,b){ return a.l===b.l ? a.k.localeCompare(b.k,"ru") : a.l.localeCompare(b.l,"ru"); });
         namesCache[book.slug] = d; cb(d);
       }).catch(function(){ cb(null); });
   }
@@ -2258,17 +2305,25 @@
       NM_TYPES.forEach(function(k){ tcount[k] = 0; });
       d.names.forEach(function(e){ tcount[e.t]++; });
       if(!tcount[namesUi.ty]) namesUi.ty = "all";
+      // ordered() — список имён в порядке ТЕКУЩЕГО языка интерфейса: буква и
+      // ключ сортировки считаются по nmForm(e) (кириллица на ru, латиница на
+      // en/fr), а не по e.ru всегда, как раньше (e.l/e.k, посчитанные build-
+      // скриптом). Пересчитывается при каждом fill(), включая переключение
+      // языка без повторной навигации (bindLangSwitch перерисовывает страницу).
+      function ordered(){
+        var loc = state.lang==="en" ? "en" : state.lang==="fr" ? "fr" : "ru";
+        return d.names.map(function(e){ var nm = nmForm(e); return {e:e, name:nm, l:nmLetterOf(nm), k:nmSortKey(nm)}; })
+          .sort(function(a,b){ return a.l===b.l ? a.k.localeCompare(b.k, loc) : a.l.localeCompare(b.l, loc); });
+      }
       var letters = [];
-      d.names.forEach(function(e){ if(letters.indexOf(e.l)<0) letters.push(e.l); });
+      ordered().forEach(function(x){ if(letters.indexOf(x.l)<0) letters.push(x.l); });
       root.innerHTML =
-        '<div class="ic-wrap ic-tv ic-nm">'+
-          '<div class="ic-nav"><button type="button" class="ic-back">← '+esc(book.meta.home ? t("tvBack") : t("back"))+'</button><span class="ic-nav-pos"></span>'+langSwitch()+'</div>'+
-          '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("hmNames"))+'</h1></header>'+
-          '<p class="ic-tv-lead">'+esc(t("nmSub"))+'</p>'+
-          (state.lang!=="ru" ? '<p class="ic-ch-note">'+esc(t("chRuOnly"))+'</p>' : "")+
-          '<div class="ic-tv-bar">'+
+        '<div class="ic-tv-outer">'+
+          '<div class="ic-tv-bar" id="ic-tv-bar">'+
             '<div class="ic-tv-bar-row">'+
+              '<button type="button" class="ic-tv-back">'+esc(book.meta.home ? t("tvBack") : t("back"))+'</button>'+
               '<span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("nmSearchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("nmSearchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
+              langSwitch()+
             '</div>'+
             '<nav class="ic-tv-letters" aria-label="'+esc(t("tvLetters"))+'"></nav>'+
             '<div class="ic-tv-bar-row2"><div class="ic-seg ic-nm-types" role="group" aria-label="'+esc(t("nmTypeLabel"))+'">'+
@@ -2276,25 +2331,30 @@
                 return tcount[k] ? '<button type="button" class="ic-chip" data-ty="'+k+'" aria-pressed="'+(namesUi.ty===k)+'">'+esc(t(k==="all" ? "nmAll" : "nmT_"+k))+'</button>' : "";
               }).join("")+'</div><p class="ic-count ic-tv-count"></p></div>'+
           '</div>'+
+        '</div>'+
+        '<div class="ic-wrap ic-tv ic-nm">'+
+          '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("hmNames"))+'</h1></header>'+
+          '<p class="ic-tv-lead">'+esc(t("nmSub"))+'</p>'+
           '<div class="ic-tv-list"></div>'+
           '<nav class="ic-az-rail" aria-label="'+esc(t("tvLetters"))+'"></nav>'+
           '<div class="ic-az-peek" aria-hidden="true"></div>'+
         '</div>';
       bindLangSwitch(root);
-      root.querySelector(".ic-back").addEventListener("click",function(){ location.hash = book.meta.home ? hrefFor(book,"home") : ""; });
+      root.querySelector(".ic-tv-back").addEventListener("click",function(){ location.hash = book.meta.home ? hrefFor(book,"home") : ""; });
       var q = root.querySelector(".ic-search"), list = root.querySelector(".ic-tv-list"), cnt = root.querySelector(".ic-tv-count"),
           bar = root.querySelector(".ic-tv-bar"), lnav = root.querySelector(".ic-tv-letters"),
           rail = root.querySelector(".ic-az-rail"), peek = root.querySelector(".ic-az-peek");
       q.value = namesUi.q;
       function fill(){
         var words = tvFold(q.value.trim()).split(/\s+/).filter(Boolean), html = "", n = 0, have = {}, cur = null;
-        d.names.forEach(function(e){
+        ordered().forEach(function(x){
+          var e = x.e;
           if(namesUi.ty !== "all" && e.t !== namesUi.ty) return;
           if(words.length && !words.every(function(w){ return e.h.indexOf(w) >= 0; })) return;
-          if(e.l !== cur){ if(cur) html += '</section>'; cur = e.l; have[cur] = 1; html += '<section class="ic-tv-sec" id="nm-L'+(cur==="#" ? "0" : cur)+'"><h2>'+cur+'</h2>'; }
+          if(x.l !== cur){ if(cur) html += '</section>'; cur = x.l; have[cur] = 1; html += '<section class="ic-tv-sec" id="nm-L'+(cur==="#" ? "0" : cur)+'"><h2>'+cur+'</h2>'; }
           n++;
           html += '<a class="ic-nm-row" href="'+esc(hrefFor(book, "names/"+e.id))+'">'+
-            '<span class="ic-tv-l"><span class="ic-tv-ru">'+esc(e.ru)+'</span> <span class="ic-tv-it" lang="it">'+esc((e.it||[]).join(" · "))+'</span></span>'+
+            '<span class="ic-tv-l"><span class="ic-tv-ru">'+esc(x.name)+'</span> <span class="ic-tv-it" lang="it">'+esc((e.it||[]).join(" · "))+'</span></span>'+
             '<span class="ic-nm-meta"><span class="ic-nm-type">'+esc(t("nmT1_"+e.t))+'</span>'+(e.n ? '<span class="ic-nm-n">'+e.n+'</span>' : "")+'</span></a>';
         });
         if(cur) html += '</section>';
@@ -2367,9 +2427,8 @@
     root.innerHTML =
       '<div class="ic-wrap ic-tv ic-nm">'+
         '<div class="ic-nav"><button type="button" class="ic-back">← '+esc(t("hmNames"))+'</button><span class="ic-nav-pos"></span>'+langSwitch()+'</div>'+
-        '<header class="ic-head"><p class="ic-kicker">'+esc(t("nmT1_"+e.t))+'</p><h1 class="ic-h-fr">'+esc(e.ru)+'</h1>'+
+        '<header class="ic-head"><p class="ic-kicker">'+esc(t("nmT1_"+e.t))+'</p><h1 class="ic-h-fr">'+esc(nmForm(e))+'</h1>'+
           ((e.it||[]).length ? '<p class="ic-nm-it" lang="it">'+esc(e.it.join(" · "))+'</p>' : "")+'</header>'+
-        (state.lang!=="ru" ? '<p class="ic-ch-note">'+esc(t("chRuOnly"))+'</p>' : "")+
         gal+
         '<h2 class="ic-nm-h">'+esc(t("nmMentions"))+'</h2>'+
         '<p class="ic-count">'+esc(e.n ? t("nmStat",{n:e.n, c:order.length}) : t("nmNoMentions"))+'</p>'+
@@ -2502,8 +2561,15 @@
   function engBaseOf(book){ return BASE+"books/"+(book.engravings ? book.engravings.srcSlug : (book.meta.ornaments && book.meta.ornaments.source || book.slug))+"/engravings/"; }
   function galleryEntries(chap){ return chap && chap.pl ? chap.pl.list : []; }
   function plTitle(chap, p){ return state.lang==="fr" && chap && chap.pl ? t("plateTitle",{n:chap.pl.list.indexOf(p)+1}) : p.title; }
-  function homeTile(href, title, sub, on){
-    return '<a class="ic-home-tile" href="'+esc(href)+'"'+(on?' aria-current="page"':"")+'><span class="ic-home-tile-t">'+esc(title)+'</span><span class="ic-home-tile-s">'+esc(sub)+'</span></a>';
+  // on — больше никогда не делает плитку визуально "уже нажатой" (вызовы
+  // ниже всегда передают false): раньше aria-current="page" на вкладке
+  // tab==="read"/"gallery"/"search" давало плитке вид предварительно
+  // выбранной (акцентная рамка, см. правило [aria-current] в app.css),
+  // что читалось как "уже нажато" при обычном заходе на /home. Параметр
+  // оставлен (а не удалён) только для обратной совместимости вызовов —
+  // живой tap-feedback вместо него теперь даёт :active в CSS.
+  function homeTile(href, title, sub, on, attrs){
+    return '<a class="ic-home-tile" href="'+esc(href)+'"'+(on?' aria-current="page"':"")+(attrs||"")+'><span class="ic-home-tile-t">'+esc(title)+'</span><span class="ic-home-tile-s">'+esc(sub)+'</span></a>';
   }
   /* ---------- поиск по книге (#/<slug>/home/search; книги с home и chapters) ----------
      Один запрос ищется сразу в пяти источниках: русском переводе (chapters_ru.json), итальянской
@@ -2732,18 +2798,42 @@
       var hero = h.hero ? engBase+h.hero : "";
       var gal = tab==="gallery" ? galleryEntries(chap) : [];
       var galCount = galleryEntries(chap).length;
-      var panel;
-      if(tab==="read"){
-        panel = (state.lang==="fr" && chap && trLang(book) ? '<p class="ic-ch-note">'+esc(t("chFrPartial"))+'</p>' : state.lang!=="ru" ? '<p class="ic-ch-note">'+esc(t("chRuOnly"))+'</p>' : "")+
-          (chap ? '<div class="ic-home-toc">'+tocPartsHtml(book, chap, null)+'</div>' : '<p class="ic-empty">'+esc(t("chNotYet"))+'</p>');
-      } else if(tab==="gallery"){
+      // Плитка «Читать»/«Продолжить» (задание, проблема A+новое поведение):
+      // если в localStorage (loadLastRead, см. выше) есть сохранённое место —
+      // ведёт туда же и подпись меняется на «Продолжить: <глава>, с. N»;
+      // иначе — на самую первую главу книги (chap.list[0], тот же порядок,
+      // что строит tocPartsHtml) и подпись «Начать с начала».
+      var lastReadRaw = loadLastRead(book);
+      var lastRead = lastReadRaw && lastReadRaw.hash && lastReadRaw.pg ? lastReadRaw : null;
+      var firstCh = chap && chap.list && chap.list[0];
+      var readHref = lastRead ? lastRead.hash : (firstCh ? chapterHref(book, firstCh.slug) : hrefFor(book,"home"));
+      var readSub = lastRead ? t("hmContinue",{ch:lastRead.ch, n:lastRead.pg}) : t("hmStart");
+      // Проблема B (задание, п.3): плитка «Читать» больше не раскрывает список
+      // частей/глав НА САМОЙ /home (tocPartsHtml здесь больше не используется) —
+      // клик по плитке ведёт прямо в главу (см. readHref/readSub ниже), а
+      // список глав доступен через отдельную плитку «Содержание» (openChapToc,
+      // тот же модальный список, что у кнопки «глава · страница» в читалке).
+      // Вкладка read на /home теперь ничего не показывает в .ic-home-panel —
+      // панель остаётся только у gallery/search.
+      // chRuOnly/chFrPartial раньше показывались здесь безусловно на EN/FR —
+      // устаревшая информация: book.meta.home+chapters.data_en/data_fr (и
+      // значит эта ветка renderHome) сейчас есть только у Cartari, а там все
+      // 25 глав переведены целиком на оба языка (chapters_en.json/chapters_fr.json
+      // — проверено: ни одной главы без blocks), так что общее "перевод
+      // доступен только на русском" тут всегда было бы ложью. Именно
+      // пер-главный прогресс (глава ещё не переведена) по-прежнему
+      // показывается там, где он мог бы быть реальным — renderChapter
+      // (chEnPrep/chFrPrep) и карточка гравюры (chEnSoon/chFrSoon) — их не
+      // трогаем.
+      var panel = "";
+      if(tab==="gallery"){
         panel = '<ul class="ic-gal">'+gal.map(function(g){
           var thumb = engBase+"thumb/"+g.file+"_t.webp";
           return '<li><a class="ic-gal-item" href="'+esc(hrefFor(book, "plate/"+g.id))+'" data-id="'+esc(g.id)+'">'+
             '<span class="ic-gal-img"><img loading="lazy" src="'+esc(thumb)+'" alt=""></span>'+
             '<span class="ic-gal-cap">'+esc(plTitle(chap, g))+'</span></a></li>';
         }).join("")+'</ul>';
-      } else {
+      } else if(tab==="search"){
         panel = '<form class="ic-home-search" role="search">'+
           '<span class="ic-search-wrap"><input class="ic-search" type="search" enterkeyhint="search" placeholder="'+esc(t("srPlace"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("srPlace"))+'">'+
           '<button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span></form>'+
@@ -2763,9 +2853,10 @@
               '<p class="ic-home-ed">'+(h.editionShort ? '<span class="ic-ed-long">' : '<span>')+esc(bt(h.edition))+(h.addition ? ' · '+esc(bt(h.addition)) : "")+'</span>'+(h.editionShort ? '<span class="ic-ed-short">'+esc(bt(h.editionShort))+'</span>' : "")+'</p>'+
             '</div>'+
             '<nav class="ic-home-tiles" aria-label="'+esc(t("hmNavLabel"))+'">'+
-              homeTile(hrefFor(book,"home"), t("hmRead"), t("hmReadSub"), tab==="read")+
-              homeTile(hrefFor(book,"home/gallery"), t("hmGallery"), t("hmGallerySub",{n:galCount}), tab==="gallery")+
-              homeTile(hrefFor(book,"home/search"), t("hmSearch"), t("hmSearchSub"), tab==="search")+
+              homeTile(readHref, t("hmRead"), readSub, false)+
+              (chap ? homeTile("#", t("hmToc"), t("hmTocSub"), false, ' data-tile="toc"') : "")+
+              homeTile(hrefFor(book,"home/gallery"), t("hmGallery"), t("hmGallerySub",{n:galCount}), false)+
+              homeTile(hrefFor(book,"home/search"), t("hmSearch"), t("hmSearchSub"), false)+
               (book.meta.tavola ? homeTile(hrefFor(book,"index"), t("hmIndex"), t("hmIndexSub"), false) : "")+
               (book.meta.names ? homeTile(hrefFor(book,"names"), t("hmNames"), t("hmNamesSub"), false) : "")+
               (book.meta.tavola ? [] : ['hmIndex']).concat(book.meta.names ? [] : ['hmNames']).map(function(k){ return '<div class="ic-home-tile ic-soon" aria-disabled="true"><span class="ic-home-tile-t">'+esc(t(k))+'</span><span class="ic-home-tile-s">'+esc(t("hmSoon"))+'</span></div>'; }).join("")+
@@ -2779,6 +2870,13 @@
         '</div>';
       bindLangSwitch(root);
       var toLib = root.querySelector(".ic-to-lib-link"); if(toLib) toLib.addEventListener("click",function(){ location.hash=""; });
+      // Плитка «Содержание» — та же модальная панель, что открывает кнопка
+      // «глава · страница» в .ic-rbar читалки (openChapToc), просто без
+      // текущей главы (ch=null, значит ни один пункт списка не подсвечен
+      // как активный) — поэтому это <a href="#"> с preventDefault и вызовом
+      // openChapToc, а не обычная ссылка.
+      var tocTile = root.querySelector('[data-tile="toc"]');
+      if(tocTile && chap) tocTile.addEventListener("click",function(e){ e.preventDefault(); openChapToc(book, chap, null, tocTile); });
       var fig = root.querySelector(".ic-home-fig .ic-fig"); if(fig) fig.addEventListener("click",function(){ lightbox(fig.getAttribute("data-src")); });
       var gl = root.querySelector(".ic-gal"); if(gl) gl.addEventListener("click",function(e){
         var a = e.target.closest(".ic-gal-item");
