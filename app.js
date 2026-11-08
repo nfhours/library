@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "138";
+  var APP_VER = "139";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -970,33 +970,40 @@
     var bottom = top + rbar.getBoundingClientRect().height;
     var maxh = Math.max(120, vh - bottom - 8);
     document.documentElement.style.setProperty("--ic-sheet-maxh", maxh+"px");
+    // --ic-rbar-bottom — тот же "bottom" (нижняя граница .ic-rbar от верха
+    // вьюпорта, в px), но для #ic-rb-dim (app.css): дим должен начинаться
+    // РОВНО там же, где щель шторки, и не затрагивать область над капсулой
+    // (там адресная строка настоящего Safari — задание, пункт 3, фикс
+    // мигания её цвета). Тот же continuously-synced механизм, что у
+    // --ic-sheet-maxh выше — пересчитывается на каждый resize/scroll
+    // visualViewport, а не разовым снимком при открытии.
+    document.documentElement.style.setProperty("--ic-rbar-bottom", bottom+"px");
   }
 
   // syncSheetChrome — общее затемнение страницы (#ic-rb-dim, ОДНО на
-  // страницу — не по одному внутри каждой шторки, как раньше) и временное
-  // повышение z-index самой капсулы .ic-rbar (.ic-rbar-elevated), пока ХОТЬ
+  // страницу — не по одному внутри каждой шторки, как раньше), пока ХОТЬ
   // ОДНА шторка этого registry открыта или ещё анимируется (закрывается).
-  // #ic-rb-dim — всегда position:fixed;inset:0 ВНЕ .ic-rbar (обычный
-  // реальный вьюпорт, не завязан на containing block капсулы), поэтому не
-  // нужно искать/переключать дим-слой внутри каждого sheetEl отдельно —
-  // один вызов syncSheetChrome(registry) после любого изменения isOpen/
+  // #ic-rb-dim — всегда position:fixed ВНЕ .ic-rbar (обычный реальный
+  // вьюпорт, не завязан на containing block капсулы), поэтому не нужно
+  // искать/переключать дим-слой внутри каждого sheetEl отдельно — один
+  // вызов syncSheetChrome(registry) после любого изменения isOpen/
   // isAnimating любой шторки этого registry решает всё сразу.
-  // .ic-rbar-elevated нужен ТОЛЬКО ради самой панели (.ic-rb-sheet-panel) —
-  // она теперь живёт ВНУТРИ .ic-rbar (child, не сосед, см. markup во всех
-  // трёх рендерах), поэтому её фактический уровень в стеке слоёв ограничен
-  // z-index предка (.ic-rbar), а не собственным z-index — во время
-  // анимации открытия/закрытия панель может на мгновение перекрывать
-  // .back-bar (она выезжает «из-за головы» капсулы, см. transform в
-  // app.css), которая иначе (z-index:10 в index.html) окажется НАД ней.
-  // Поднимаем .ic-rbar выше .back-bar только на время открытия/анимации —
-  // не навсегда, чтобы не трогать уже отработанный порядок слоёв капсулы
-  // относительно .back-bar в обычном скролл-скрытии (installScrollHide).
+  // Больше НЕ трогает z-index капсулы (.ic-rbar-elevated — убран этим
+  // раундом, см. подробное обоснование в app.css у бывшего правила
+  // .ic-rbar.ic-rbar-elevated). Это был обходной маневр по стеку слоёв под
+  // ровно тот же баг, который расследование настоящего видео с iPhone
+  // определило как причину: пока панель (.ic-rb-sheet-panel, прямой
+  // ребёнок .ic-rbar) уезжала transform'ом выше нижней границы .back-bar,
+  // elevated держал .ic-rbar НАД .back-bar в стеке на всё время анимации —
+  // из-за чего уехавшая панель красилась ПОВЕРХ шапки/капсулы, а не
+  // пряталась под них. Настоящий фикс — геометрический, не по z-index:
+  // .ic-rb-sheet сам стал клип-боксом (height:var(--ic-sheet-maxh);
+  // overflow:hidden, см. app.css) — уехавшая часть панели физически не
+  // рисуется выше границы щели, независимо от того, кто «выше» в стеке.
   function syncSheetChrome(registry){
     var any = registry.some(function(s){ return s.isOpen() || s.isAnimating(); });
     var dim = document.getElementById("ic-rb-dim");
     if(dim) dim.classList.toggle("ic-rb-dim-show", any);
-    var rbar = document.getElementById("ic-rbar");
-    if(rbar) rbar.classList.toggle("ic-rbar-elevated", any);
   }
 
   // Общий механизм выезжающей панели-шторки читалки (.ic-rb-sheet) — делит
@@ -1096,12 +1103,12 @@
     // собственной анимации, синхронно, не трогая body-lock (следующий же
     // open() другой панели из того же registry снова его выставит —
     // lockBodyScroll идемпотентен, см. его определение; если открытия не
-    // следует, вызывающая сторона сама вызовет обычный close()). Общий дим/
-    // .ic-rbar-elevated не мигают здесь вовсе: closeInstant вызывается ТОЛЬКО
-    // из open() другой шторки того же registry — та уже сама выставила обе
-    // метки ДО этого вызова (см. open() выше — showBarsForced()+classList.add
-    // идут раньше registry.forEach), так что syncSheetChrome(registry) всё
-    // равно увидит «кто-то открыт» и не потребует отдельного вызова тут.
+    // следует, вызывающая сторона сама вызовет обычный close()). Общий дим
+    // не мигает здесь вовсе: closeInstant вызывается ТОЛЬКО из open() другой
+    // шторки того же registry — та уже сама выставила его ДО этого вызова
+    // (см. open() выше — showBarsForced()+classList.add идут раньше
+    // registry.forEach), так что syncSheetChrome(registry) всё равно увидит
+    // «кто-то открыт» и не потребует отдельного вызова тут.
     function closeInstant(){
       if(!isOpenFlag) return;
       sheetEl.classList.add("ic-rb-sheet-noanim");
