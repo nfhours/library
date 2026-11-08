@@ -273,6 +273,13 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    выше не трогаем. */
 .ic-rbar{position:sticky;top:var(--top);z-index:5;
   --rbar-ink:rgba(236,229,212,.94); --rbar-soft:rgba(236,229,212,.64); --rbar-line:rgba(236,229,212,.22); --rbar-accent:#d9a991;
+  /* Плашки-кнопки (round 7, «тёмные плашки с рамкой»): заливка на ~9% светлее
+     полосы (#211d17 в HSL — та же тональность, +0.09 к L), рамка 1.5px на
+     ~31% светлее полосы — расчётный контраст рамка/полоса по WCAG (relative
+     luminance, sRGB-гамма-коррекция) 3.47:1, т.е. ≥3:1 на любом фоне экрана,
+     раз сама полоса везде одного тона. Кнопка возврата (.ic-rbar-ctx) ниже
+     получает отдельную акцентную заливку (--rbar-ctx-fill) того же принципа. */
+  --rbar-fill:#3c352a; --rbar-fill-press:#302a21; --rbar-border:#806f56; --rbar-ctx-fill:#55483a;
   background:#211d17;
   border-bottom:1px solid rgba(236,229,212,.12);
   margin:0 0 26px;
@@ -283,49 +290,81 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    bar's own height — so clearing the viewport needs that offset added too,
    plus a small buffer against sub-pixel rounding. */
 .ic-rbar.ic-rbar-hidden{transform:translateY(calc(-100% - var(--top) - 16px))}
-/* Ровно одна строка, 44px высотой, на любой ширине — пять кнопок (ячеек)
+/* Ровно одна строка, ~48px высотой, на любой ширине — пять плашек-кнопок
    идут прямыми детьми .ic-rbar-row (разметка в app.js больше не оборачивает
    их в отдельные .ic-rbar-row1/-row2 — та оболочка была нужна только для
-   прежней двухстрочной мобильной раскладки, которой больше нет). */
-.ic-rbar-row{display:flex;align-items:stretch;height:44px;min-width:0}
-/* Каждая кнопка — ячейка на всю высоту строки (height, не padding внутри
-   более высокой полосы — сама полоса 44px). flex:none — кнопки с коротким
-   фиксированным текстом (top/scan/search) держат естественную ширину; ctx
-   (ячейка 1) и pos (ячейка 2, самая широкая) переопределяют это ниже —
-   именно они тянутся/ужимаются, когда строке тесно. */
-.ic-rbar button{flex:none;display:flex;align-items:center;justify-content:center;gap:6px;border:0;background:none;
-  height:44px;padding:0 12px;margin:0;font-size:.76em;letter-spacing:.05em;text-transform:uppercase;
+   прежней двухстрочной мобильной раскладки, которой больше нет). gap:8px —
+   реальный зазор полосы между плашками (round 7), не линия-разделитель. */
+.ic-rbar-row{display:flex;align-items:center;height:48px;min-width:0;gap:8px}
+/* Каждая кнопка — отдельная плашка со своей заливкой/рамкой/радиусом, не
+   занимает всю высоту строки (height меньше height строки — воздух сверху/
+   снизу даёт margin). flex:none — кнопки с коротким фиксированным текстом
+   (top/scan/search) держат естественную ширину; ctx (ячейка 1) и pos
+   (ячейка 2, самая широкая) переопределяют это ниже — именно они тянутся/
+   ужимаются, когда строке тесно. */
+.ic-rbar button{flex:none;display:flex;align-items:center;justify-content:center;gap:6px;
+  border:1.5px solid var(--rbar-border);border-radius:8px;background:var(--rbar-fill);
+  height:38px;margin:5px 0;padding:0 14px;font-size:.76em;letter-spacing:.05em;text-transform:uppercase;
   color:var(--rbar-ink);cursor:pointer;white-space:nowrap;box-sizing:border-box;
-  transition:background-color .15s,color .15s}
+  transition:background-color .15s,border-color .15s,color .15s,transform .1s,box-shadow .15s}
 .ic-rbar button[disabled]{opacity:.35;cursor:default}
-/* Границы-сегменты тулбара: тонкая светлая линия слева у каждой ячейки,
-   кроме самой первой (прямой child-селектор — надёжнее, чем "кроме
-   последней", раз ячейка "Поиск" есть не у всех книг). Простая сетка, а не
-   орнамент-разделитель (rbarSepHtml/RBAR_SEP/.ic-rbar-sep убраны этим
-   раундом целиком). */
-.ic-rbar-row > button + button{border-left:1px solid var(--rbar-line)}
-/* Отклик на нажатие — светлеет фон именно этой ячейки, не всей панели. */
-.ic-rbar button:not([disabled]):active{background:rgba(236,229,212,.16)}
+/* Нажатое состояние — заливка темнее обычной + лёгкое вдавливание (scale
+   вниз + внутренняя тень), отличимо от обычного и от активного (ниже). */
+.ic-rbar button:not([disabled]):active{background:var(--rbar-fill-press);transform:scale(.97);box-shadow:inset 0 1px 3px rgba(0,0,0,.4)}
 @media (hover:hover){
-  .ic-rbar button:not([disabled]):hover{background:rgba(236,229,212,.08);color:var(--rbar-accent)}
+  .ic-rbar button:not([disabled]):hover{border-color:var(--rbar-accent);color:var(--rbar-accent)}
 }
 /* Видимый фокус с клавиатуры — тот же приём, что и ".ic :focus-visible"
    (outline в 2px), но на светлом акценте панели (--rbar-accent), который
    читается на тёмном фоне, где тёмно-красный --accent слился бы с фоном;
-   outline-offset отрицательный — обводка идёт внутрь ячейки высотой 44px,
-   а не наружу, где её срезало бы соседней ячейкой/краем панели. */
+   outline-offset отрицательный — обводка идёт внутрь плашки, а не наружу,
+   где её срезало бы соседней плашкой/краем панели (сохраняется и теперь,
+   когда между плашками появился настоящий gap, а не просто линия). */
 .ic-rbar button:focus-visible{outline:2px solid var(--rbar-accent);outline-offset:-2px}
+/* Активное состояние (например «Скан», когда панель скана открыта на этой
+   кнопке) — тот же паттерн aria-pressed="true", что уже используется в
+   остальной панели (.ic-lang-b, .ic-chip, .ic-ov-b): акцентная заливка,
+   контрастный тёмный текст поверх (кнопка возврата ниже не участвует —
+   у неё отдельный, всегда включённый акцентный стиль). Специфичность выше
+   базового правила .ic-rbar button (доп. атрибутный селектор). */
+.ic-rbar-row button[aria-pressed="true"]{background:var(--rbar-accent);border-color:var(--rbar-accent);color:#211d17}
 .ic-rbar-row .ic-rbar-ctx{flex:0 1 auto;min-width:40px;justify-content:flex-start}
 .ic-rbar-ctx span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.ic-rbar-ctx-back{color:var(--rbar-accent)}
+/* Кнопка возврата — ВСЕГДА выделена как главное действие панели (контекстная
+   «К указателю/К гравюре/К имени/К поиску» ИЛИ обычная «Книга» — обе формы
+   несут класс .ic-rbar-ctx, см. app.js): акцентная рамка + акцентный текст +
+   полупрозрачная акцентная подсветка заливки (--rbar-ctx-fill — обычная
+   плашка, подсвеченная accent-тоном). Селектор ".ic-rbar button.ic-rbar-ctx"
+   умышленно не менее специфичен, чем базовый ".ic-rbar button" (класс+тег
+   против класс+класс+тег) — это тот самый баг из макетов (акцент тихо не
+   применялся из-за более низкой специфичности), подтверждён фикс через
+   getComputedStyle в тесте. */
+.ic-rbar button.ic-rbar-ctx{border-color:var(--rbar-accent);color:var(--rbar-accent);background:var(--rbar-ctx-fill)}
+.ic-rbar button.ic-rbar-ctx:not([disabled]):active{background:var(--rbar-fill-press)}
 /* Ячейка 2 («глава · страница») — главный flex:1 элемент строки: забирает
-   всё свободное место и поэтому физически шире остальных ячеек. Номер
-   страницы (.ic-rbar-pos-pg) — flex:none, виден всегда целиком; при
-   недостатке места ужимается короткая форма названия главы
-   (.ic-rbar-pos-ch, обычный CSS-эллипсис). */
-.ic-rbar-row .ic-rbar-pos{flex:1 1 0%;min-width:0;justify-content:flex-start;color:var(--rbar-soft)}
-.ic-rbar-pos-ch{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1 1 auto;min-width:0;font-style:italic;font-family:var(--old);font-size:1.05em}
-.ic-rbar-pos-pg{flex:none;white-space:nowrap;color:var(--rbar-ink)}
+   всё свободное место и поэтому физически шире остальных плашек. На широком
+   экране (по умолчанию) — двухуровневый текст внутри одной плашки: название
+   главы мелко сверху, номер страницы крупнее снизу (.ic-rbar-pos-inner,
+   flex-column), без точки-разделителя — она нужна только в однострочной
+   мобильной раскладке ниже. Номер страницы (.ic-rbar-pos-pg) виден всегда;
+   на 390px (media-блок ниже) раскладка становится однострочной, и название
+   целиком скрывается через JS (fitPosLabels в app.js), если не помещается
+   вместе с номером страницы — без обрезания посередине слова и без висящей
+   точки. */
+/* height:auto + align-self:stretch — только у этой плашки, в отличие от
+   остальных (фиксированная height:38px из базового правила .ic-rbar button):
+   два визуальных уровня текста (имя+страница) нуждаются в чуть большей
+   высоте, чем одна строка, а шрифты старого стиля (--old) дают довольно
+   высокий line-height даже при небольшом font-size — явный line-height:1.15
+   на обеих строчках (вместо унаследованного "normal", который у этих
+   декоративных шрифтов может оказаться неожиданно большим) + высота на всю
+   строку-полосу (48px) надёжно укладывают обе строки без обрезания сверху
+   (было переоткрыто этим же раундом — см. скриншот highlight-detail). */
+.ic-rbar-row .ic-rbar-pos{flex:1 1 0%;min-width:0;justify-content:flex-start;align-items:stretch;color:var(--rbar-soft);padding:0 14px;height:auto;align-self:stretch;margin:0}
+.ic-rbar-pos-inner{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:1px;min-width:0;width:100%;overflow:hidden}
+.ic-rbar-pos-ch{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100%;font-style:italic;font-family:var(--old);font-size:.74em;line-height:1.15;color:var(--rbar-soft)}
+.ic-rbar-pos-sep{display:none}
+.ic-rbar-pos-pg{white-space:nowrap;color:var(--rbar-ink);font-size:1.2em;line-height:1.15;font-weight:600;letter-spacing:.03em}
 .ic-rbar-top,.ic-rbar-scan,.ic-rbar-search{color:var(--rbar-soft);flex:none}
 /* full/short — на 1440 (широкий экран) показывается развёрнутая форма
    подписи ячеек 1 и 3 («Книга»/«К указателю: <статья>», «К началу главы»);
@@ -343,15 +382,44 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    нужен; на случай непредвиденно длинной короткой формы остаётся
    fitEllipsisWord (app.js) с защитой через .ic-rbar-ctx{min-width}. */
 @media (max-width:620px){
-  .ic-rbar{padding-left:calc(20px + env(safe-area-inset-left));padding-right:calc(20px + env(safe-area-inset-right))}
-  .ic-rbar-row{gap:0}
-  .ic-rbar button{font-size:.64em;letter-spacing:.02em;padding:0 7px}
+  .ic-rbar{padding-left:calc(12px + env(safe-area-inset-left));padding-right:calc(12px + env(safe-area-inset-right))}
+  .ic-rbar button{font-size:.52em;letter-spacing:.01em;padding:0 6px}
   .ic-rbar-full{display:none}
   .ic-rbar-short{display:inline}
-  .ic-rbar-row .ic-rbar-ctx{flex:0 1 auto;min-width:0;max-width:34%}
-  .ic-rbar-row .ic-rbar-pos{flex:1 1 0%;min-width:0}
-  .ic-rbar-pos-ch{flex:1 1 auto;min-width:0}
-  .ic-rbar-pos-pg{white-space:nowrap}
+  /* min-width — НЕ 0: короткая форма подписи ctx («К указателю»/«К гравюре»/
+     «К имени»/«К поиску»/«Книга», все три языка) должна помещаться ЦЕЛИКОМ,
+     без обрезания fitEllipsisWord (app.js). Измерено реально отрисованной
+     шириной кнопки (текст+паддинги+рамка) на 390px при текущем font-size —
+     самая широкая форма EN "To the engraving" ≈107.7px, отсюда пол 112px
+     (с запасом); проверено, что при этом полу и фиксированной ширине трёх
+     других плашек (Начало/Скан/Поиск) на RU/EN/FR строка всё ещё помещается
+     в 390px без горизонтальной прокрутки (см. app.js fitPosLabels и тест).
+     max-width — верхняя граница на случай ещё более длинной подписи где-то
+     ещё (другая книга/язык), не мешает обычному случаю. */
+  .ic-rbar-row .ic-rbar-ctx{flex:0 1 auto;min-width:112px;max-width:46%}
+  /* min-width здесь — НЕ 0: ячейка 2 имеет flex-basis:0%, то есть при нехватке
+     места (длинная подпись ctx + четыре прочих flex:none плашки) обычный
+     flexbox отдаёт весь дефицит именно ей (нулевой basis не участвует в
+     shrink-пропорции), и с min-width:0 её можно было сжать до нуля — тогда
+     даже номер страницы (защищённый flex:none ВНУТРИ ячейки) оказывался
+     обрезан целиком overflow:hidden самой ячейки/.ic-rbar-pos-inner. Жёсткий
+     пол в районе ширины "с. 635"/"p. 635" (реальный максимум страниц в книге,
+     измерено ≈40.7px кнопки целиком, пол 44px с запасом) гарантирует место
+     под номер страницы в любом случае — а название главы (не защищено, см.
+     fitPosLabels в app.js) первым отдаёт место ctx при нехватке. */
+  /* height/align-self возвращены к обычной одной плашке 38px — двухуровневая
+     (более высокая) раскладка нужна только на широком экране (см. правило
+     без медиа-запроса выше), здесь всегда одна строка. */
+  .ic-rbar-row .ic-rbar-pos{flex:1 1 0%;min-width:44px;padding:0 6px;height:38px;align-self:center;margin:5px 0}
+  /* Однострочная раскладка ячейки «глава · страница» на узком экране —
+     название (эллипсис по словам не нужен: либо показано целиком, либо
+     полностью скрыто через fitPosLabels в app.js) + точка-разделитель,
+     видимая ТОЛЬКО когда реально показаны оба элемента вместе, + номер
+     страницы (flex:none, виден всегда). */
+  .ic-rbar-pos-inner{flex-direction:row;align-items:center;gap:0;flex-wrap:nowrap}
+  .ic-rbar-pos-ch{flex:1 1 auto;min-width:0;font-size:1em;line-height:normal}
+  .ic-rbar-pos-sep{display:inline;white-space:nowrap;color:var(--rbar-soft)}
+  .ic-rbar-pos-pg{flex:none;white-space:nowrap;font-size:1em;font-weight:400;line-height:normal}
 }
 
 .ic-head{margin-top:30px}

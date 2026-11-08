@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "131";
+  var APP_VER = "132";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -1543,10 +1543,39 @@
     (container||document).querySelectorAll(".ic-rbar-ctx").forEach(function(btn){ btn.style.flex = ""; }); // сбросить предыдущую фиксацию перед новым замером (ресайз/смена языка)
     (container||document).querySelectorAll(".ic-rbar-ctx .ic-rbar-full[data-full], .ic-rbar-ctx .ic-rbar-short[data-full]").forEach(fitEllipsisWord);
   }
+  // Ячейка «глава · страница» (.ic-rbar-pos): на широком экране — двухуровневый
+  // текст (название мельче сверху, страница крупнее снизу, flex-column,
+  // app.css), название никогда не скрывается целиком. На узком экране (≤620px,
+  // app.css переключает .ic-rbar-pos-inner в flex-row) название и номер
+  // страницы делят одну строку через точку-разделитель (.ic-rbar-pos-sep) —
+  // и здесь может не хватить места даже для короткой формы названия. В этом
+  // случае название (CHAP_SHORT/chapTitleShort) должно СКРЫВАТЬСЯ ЦЕЛИКОМ —
+  // не обрезаться эллипсисом посередине слова — а точка-разделитель исчезает
+  // вместе с ним (иначе была бы "висящая точка" без названия перед ней,
+  // независимо от того, видно название или нет — тот самый баг задания).
+  // scrollWidth у name/sep/pg — их НЕполная (неурезанная) естественная
+  // ширина (white-space:nowrap + overflow:hidden её не меняют, см. тот же
+  // приём в fitEllipsisWord выше); сравниваем сумму с реально доступной
+  // шириной строки (.ic-rbar-pos-inner.clientWidth, после сброса display).
+  function fitPosRow(posBtn){
+    var inner = posBtn.querySelector(".ic-rbar-pos-inner");
+    var ch = posBtn.querySelector("[data-rb-ch]"), sep = posBtn.querySelector("[data-rb-sep]"), pg = posBtn.querySelector("[data-rb-pg]");
+    if(!inner || !ch || !sep || !pg) return;
+    // Двухуровневая (desktop) раскладка — название никогда не прячется, и
+    // точки-разделителя там нет вообще (см. .ic-rbar-pos-sep{display:none}
+    // в app.css за пределами @media(max-width:620px)).
+    if(getComputedStyle(inner).flexDirection === "column"){ ch.style.display = ""; sep.style.display = "none"; return; }
+    ch.style.display = ""; sep.style.display = "";
+    var need = ch.scrollWidth + sep.scrollWidth + pg.scrollWidth;
+    if(need > inner.clientWidth + 1){ ch.style.display = "none"; sep.style.display = "none"; }
+  }
+  function fitPosLabels(container){
+    (container||document).querySelectorAll(".ic-rbar-pos").forEach(fitPosRow);
+  }
   // Пересчёт при ресайзе окна (поворот экрана и т.п.) — тот же приём, что у
   // closeQm ниже по файлу: один слушатель на весь модуль, no-op, если
   // панели читалки сейчас нет на странице (querySelectorAll вернёт пусто).
-  window.addEventListener("resize", function(){ fitCtxLabels(document); });
+  window.addEventListener("resize", function(){ fitCtxLabels(document); fitPosLabels(document); });
   function renderChapter(book, slug, blockN, pageSpec){
     var gen = renderGen;
     loadChapters(book, function(chap){
@@ -1680,9 +1709,13 @@
             '<div class="ic-rbar-row">'+
               ctxHtml+
               '<button type="button" class="ic-rbar-pos" data-rb="pos" aria-haspopup="dialog" aria-label="'+esc(t("rbPosLabel"))+'">'+
-                '<span class="ic-rbar-pos-ch"><span class="ic-rbar-full">'+esc(posTitle)+'</span><span class="ic-rbar-short">'+esc(posTitleShort)+'</span></span><span class="ic-rbar-pos-pg" data-rb-pg></span></button>'+
+                '<span class="ic-rbar-pos-inner">'+
+                  '<span class="ic-rbar-pos-ch" data-rb-ch><span class="ic-rbar-full">'+esc(posTitle)+'</span><span class="ic-rbar-short">'+esc(posTitleShort)+'</span></span>'+
+                  '<span class="ic-rbar-pos-sep" data-rb-sep aria-hidden="true"> · </span>'+
+                  '<span class="ic-rbar-pos-pg" data-rb-pg></span>'+
+                '</span></button>'+
               '<button type="button" class="ic-rbar-top" data-rb="top"><span class="ic-rbar-full">'+esc(t("rbTop"))+'</span><span class="ic-rbar-short">'+esc(t("rbTopShort"))+'</span></button>'+
-              '<button type="button" class="ic-rbar-scan" data-rb="scan"'+(pmRows.length?"":" disabled")+'>'+esc(t("svScan"))+'</button>'+
+              '<button type="button" class="ic-rbar-scan" data-rb="scan" aria-pressed="false"'+(pmRows.length?"":" disabled")+'>'+esc(t("svScan"))+'</button>'+
               (book.meta.home ? '<button type="button" class="ic-rbar-search" data-rb="search">'+esc(t("hmSearch"))+'</button>' : "")+
             '</div>'+
             langSwitch()+
@@ -1699,6 +1732,7 @@
         '</div>';
       bindLangSwitch(root);
       fitCtxLabels(root);
+      fitPosLabels(root);
       if(enPrep){
         loadPagesIt(book, function(all){
           var box = root.querySelector(".ic-ch-itbody");
@@ -1723,10 +1757,20 @@
         for(var i=0;i<pgmEls.length;i++){ if(pgmEls[i].getBoundingClientRect().top <= off) cur = pgmEls[i]; else break; }
         return +cur.getAttribute("data-pi");
       }
+      // Номер страницы (.ic-rbar-pos-pg) больше не несёт точку-разделитель в
+      // своём textContent — та живёт в собственном .ic-rbar-pos-sep (app.css/
+      // fitPosLabels выше), которую показывают/прячут ВМЕСТЕ с названием
+      // главы, а не всегда (это и было причиной "висящей точки" без названия
+      // перед ней). lastPaintedPi — пересчитываем раскладку (fitPosRow) только
+      // когда реально сменился номер страницы, а не на каждый тик скролла.
+      var lastPaintedPi = null;
       function paintPg(){
         if(!pgEl) return;
         var pi = curPgIdx();
-        pgEl.textContent = pi >= 0 ? " · "+pgLabel(pmRows[pi][1]) : "";
+        if(pi === lastPaintedPi) return;
+        lastPaintedPi = pi;
+        pgEl.textContent = pi >= 0 ? pgLabel(pmRows[pi][1]) : "";
+        fitPosRow(root.querySelector(".ic-rbar-pos"));
       }
       paintPg();
       if(rbarRow) rbarRow.addEventListener("click", function(e){
@@ -3220,6 +3264,11 @@
 
     function mark(on){
       root.querySelectorAll(".ic-pgm-b").forEach(function(b){ b.setAttribute("aria-pressed", String(on && +b.getAttribute("data-pi") === st.idx)); });
+      // Активное состояние кнопки «Скан» в панели читалки (.ic-rbar-scan) —
+      // тот же паттерн aria-pressed, что у .ic-pgm-b выше: включено всё
+      // время, пока открыта панель скана (любая её страница), независимо от
+      // того, с какой именно страницы её открыли.
+      var scanBtn = root.querySelector(".ic-rbar-scan"); if(scanBtn) scanBtn.setAttribute("aria-pressed", String(on));
     }
     function applyZ(){ if(img) img.style.transform = Z.s === 1 && !Z.x && !Z.y ? "" : "translate("+Z.x+"px,"+Z.y+"px) scale("+Z.s+")"; }
     function clampZ(){
