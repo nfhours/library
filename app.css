@@ -273,10 +273,10 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    выше не трогаем. */
 .ic-rbar{position:sticky;top:var(--top);z-index:5;
   --rbar-ink:rgba(236,229,212,.94); --rbar-soft:rgba(236,229,212,.64); --rbar-line:rgba(236,229,212,.22); --rbar-accent:#d9a991;
-  background:rgba(33,29,23,.9);
-  -webkit-backdrop-filter:blur(10px) saturate(1.1);backdrop-filter:blur(10px) saturate(1.1);
+  background:#211d17;
   border-bottom:1px solid rgba(236,229,212,.12);
-  margin:0 0 26px;padding:0 14px;
+  margin:0 0 26px;
+  padding-left:calc(28px + env(safe-area-inset-left));padding-right:calc(28px + env(safe-area-inset-right));
   transition:transform .3s ease;will-change:transform}
 /* -100% of the bar's own height isn't enough here: unlike .back-bar (which
    sticks at top:0), this bar sticks at top:var(--top) — below the external
@@ -343,7 +343,7 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    нужен; на случай непредвиденно длинной короткой формы остаётся
    fitEllipsisWord (app.js) с защитой через .ic-rbar-ctx{min-width}. */
 @media (max-width:620px){
-  .ic-rbar{padding:0 6px}
+  .ic-rbar{padding-left:calc(20px + env(safe-area-inset-left));padding-right:calc(20px + env(safe-area-inset-right))}
   .ic-rbar-row{gap:0}
   .ic-rbar button{font-size:.64em;letter-spacing:.02em;padding:0 7px}
   .ic-rbar-full{display:none}
