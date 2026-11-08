@@ -5,13 +5,32 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "135";
+  var APP_VER = "136";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
   if(!root){ root = document.createElement("div"); root.id = "iconologie"; (me && me.parentNode ? me.parentNode : document.body).appendChild(root); }
   root.className = "ic";
   if(root.dataset.top) root.style.setProperty("--top", root.dataset.top);
+  // syncTopVar — root.dataset.top/--top задаёт пользователь статично
+  // ("52px" в index.html), в расчёте на то, что внешняя .back-bar всегда
+  // этой высоты. app.css теперь уменьшает её высоту в компактном режиме
+  // (малая высота экрана — ландшафт телефона, см. .back-bar там же), и без
+  // пересчёта .ic-rbar (position:sticky;top:var(--top)) садилась бы с
+  // неверным отступом — либо щель кремового фона под .back-bar, либо
+  // перекрытие. Меряем РЕАЛЬНУЮ высоту .back-bar и держим --top (и
+  // root.dataset.top — его читает весь остальной код файла напрямую через
+  // parseFloat, не через CSS var) в синхроне: на старте и на каждый
+  // resize/orientationchange (поворот экрана «на лету»).
+  function syncTopVar(){
+    var bbar = document.querySelector(".back-bar");
+    var px = (bbar ? Math.round(bbar.getBoundingClientRect().height) : (parseFloat(root.dataset.top)||0))+"px";
+    if(root.dataset.top !== px){ root.dataset.top = px; }
+    root.style.setProperty("--top", px);
+  }
+  syncTopVar();
+  window.addEventListener("resize", function(){ syncTopVar(); setIcTopH(); });
+  window.addEventListener("orientationchange", function(){ syncTopVar(); setIcTopH(); });
   // data-book="<slug>" запирает блок на одной книге (так подключается блок на Тильде).
   // Без атрибута — поведение по умолчанию, то же самое, что было до появления библиотеки:
   // блок показывает "iconologie" напрямую, старые адреса "#/p1-3" продолжают работать
@@ -890,6 +909,133 @@
     requestAnimationFrame(tick);
   }
 
+  // --ic-topH — CSS-переменная, читаемая .ic-rb-sheet (top панели = нижняя
+  // граница .back-bar+.ic-rbar вместе), пересчитывается при каждом открытии
+  // панели (см. makeRbSheet) и на resize/orientationchange (ниже, рядом с
+  // syncTopVar) — важно для ландшафтной смены ориентации «на лету», когда
+  // высота панелей меняется (компактная форма при малой высоте экрана, см.
+  // app.css), а переменная иначе осталась бы со старым значением.
+  function setIcTopH(){
+    var rbar = document.getElementById("ic-rbar");
+    document.documentElement.style.setProperty("--ic-topH", (rbar ? rbar.getBoundingClientRect().bottom : (parseFloat(root.dataset.top)||0))+"px");
+  }
+
+  // Общий механизм выезжающей панели-шторки читалки (.ic-rb-sheet) — делит
+  // поиск (sheetApi) и список глав (tocSheetApi) читалки, см. их создание в
+  // renderChapter. sheetEl — корневой .ic-rb-sheet этого экземпляра (внутри
+  // ожидает .ic-rb-sheet-dim и .ic-rb-sheet-panel), btn — кнопка .ic-rbar,
+  // которой выставляется aria-pressed.
+  //
+  // Round N (правки «дёргается» + «список глав как шторка», см. задание):
+  // 1. sheetAnimating — отдельный от isOpen флаг: выставляется true сразу на
+  //    open()/close(), снимается по transitionend на transform панели (с
+  //    запасным таймером — на случай prefers-reduced-motion, где transition
+  //    снят вовсе и transitionend не придёт). installScrollHide (caller)
+  //    обязан проверять ОБА — isOpen() || isAnimating() — иначе scroll-hide
+  //    может начать прятать бары СРЕДИ анимации закрытия (это и было
+  //    дёрганьем — две анимации transform конкурировали).
+  // 2. lockBodyScroll()/unlockBodyScroll() (общий механизм, см. ниже у
+  //    openObjectSheet) подключены сюда же, синхронно с open()/close() —
+  //    прокрутка страницы под шторкой заморожена без прыжка scrollY.
+  // 3. activeSheetClose регистрируется на open(), снимается на close() —
+  //    route() (вызывается на каждую навигацию) корректно закрывает
+  //    открытую панель без следов; closeFromRoute — МГНОВЕННАЯ версия (DOM
+  //    всё равно будет переписан следующим root.innerHTML, анимировать нечего,
+  //    важно только снять body-lock и document-level слушатель Esc).
+  // Взаимоисключение (поиск vs список глав, пункт 1 задания): opts.registry —
+  // общий массив API обеих панелей одной главы; open() синхронно и МГНОВЕННО
+  // (closeInstant, без собственной анимации закрытия) закрывает любую другую
+  // открытую панель из того же registry перед тем, как начать открываться.
+  function makeRbSheet(sheetEl, btn, opts){
+    opts = opts || {};
+    var registry = opts.registry || [];
+    var dim = sheetEl.querySelector(".ic-rb-sheet-dim");
+    var panel = sheetEl.querySelector(".ic-rb-sheet-panel");
+    var isOpenFlag = false, animating = false, animTimer = null;
+    function onTransEnd(e){ if(e.target===panel && e.propertyName==="transform") clearAnim(); }
+    function clearAnim(){
+      if(animTimer){ clearTimeout(animTimer); animTimer = null; }
+      panel.removeEventListener("transitionend", onTransEnd);
+      animating = false;
+    }
+    function startAnim(){
+      clearAnim();
+      animating = true;
+      panel.addEventListener("transitionend", onTransEnd);
+      // 420ms — запас сверх .34s CSS-перехода панели (app.css), на случай
+      // сбоя/отсутствия transitionend (prefers-reduced-motion снимает
+      // transition целиком — события просто не будет).
+      animTimer = setTimeout(clearAnim, 420);
+    }
+    function onKey(e){ if(e.key==="Escape") close(); }
+    function showBarsForced(){
+      var rbar = document.getElementById("ic-rbar");
+      if(rbar) rbar.classList.remove("ic-rbar-hidden");
+      var bbar = document.querySelector(".back-bar");
+      if(bbar) bbar.classList.remove("ic-bb-hidden");
+    }
+    function open(arg){
+      registry.forEach(function(s){ if(s !== api && s.isOpen()) s.closeInstant(); });
+      showBarsForced();
+      setIcTopH();
+      lockBodyScroll();
+      startAnim();
+      sheetEl.classList.add("ic-rb-sheet-open");
+      isOpenFlag = true;
+      if(btn) btn.setAttribute("aria-pressed","true");
+      activeSheetClose = closeFromRoute;
+      document.addEventListener("keydown", onKey);
+      if(opts.onOpen) opts.onOpen(arg);
+    }
+    function close(){
+      if(!isOpenFlag) return;
+      sheetEl.classList.remove("ic-rb-sheet-open");
+      isOpenFlag = false;
+      startAnim();
+      if(btn) btn.setAttribute("aria-pressed","false");
+      document.removeEventListener("keydown", onKey);
+      if(activeSheetClose === closeFromRoute) activeSheetClose = null;
+      unlockBodyScroll();
+      if(opts.onClose) opts.onClose();
+    }
+    // route() дёргает activeSheetClose() на КАЖДУЮ навигацию (даже когда эта
+    // панель не открыта — тогда достаточно no-op через isOpenFlag-гард в
+    // unlockBodyScroll/здесь не нужно ничего делать, но сам activeSheetClose
+    // всегда указывает на панель, что открыта прямо сейчас, см. open() выше).
+    function closeFromRoute(){
+      isOpenFlag = false; clearAnim();
+      document.removeEventListener("keydown", onKey);
+      unlockBodyScroll();
+      activeSheetClose = null;
+    }
+    // closeInstant — взаимоисключение (см. open() выше): закрывает БЕЗ
+    // собственной анимации, синхронно, не трогая body-lock (следующий же
+    // open() другой панели из того же registry снова его выставит —
+    // lockBodyScroll идемпотентен, см. его определение; если открытия не
+    // следует, вызывающая сторона сама вызовет обычный close()).
+    function closeInstant(){
+      if(!isOpenFlag) return;
+      sheetEl.classList.add("ic-rb-sheet-noanim");
+      sheetEl.classList.remove("ic-rb-sheet-open");
+      void sheetEl.offsetHeight;
+      sheetEl.classList.remove("ic-rb-sheet-noanim");
+      isOpenFlag = false; clearAnim();
+      if(btn) btn.setAttribute("aria-pressed","false");
+      document.removeEventListener("keydown", onKey);
+      if(activeSheetClose === closeFromRoute) activeSheetClose = null;
+    }
+    dim.addEventListener("click", close);
+    Array.prototype.slice.call(sheetEl.querySelectorAll(".ic-rb-sheet-close")).forEach(function(b){ b.addEventListener("click", close); });
+    var api = {
+      open: open, close: close, closeInstant: closeInstant,
+      isOpen: function(){ return isOpenFlag; },
+      isAnimating: function(){ return animating; },
+      toggle: function(arg){ isOpenFlag ? close() : open(arg); }
+    };
+    registry.push(api);
+    return api;
+  }
+
   // Вертикальный алфавитный столбик на узких экранах (указатель/имена) —
   // по образцу списка контактов iPhone: одиночное касание по букве скроллит
   // к ней (onPick), а ведение пальцем вверх-вниз по всей полосе (pointerdown/
@@ -1737,7 +1883,7 @@
           '<div class="ic-rbar" id="ic-rbar">'+
             '<div class="ic-rbar-row">'+
               ctxHtml+
-              '<button type="button" class="ic-rbar-pos" data-rb="pos" aria-haspopup="dialog" aria-label="'+esc(t("rbPosLabel"))+'">'+
+              '<button type="button" class="ic-rbar-pos" data-rb="pos" aria-haspopup="dialog" aria-pressed="false" aria-label="'+esc(t("rbPosLabel"))+'">'+
                 '<span class="ic-rbar-pos-inner">'+
                   '<span class="ic-rbar-pos-ch" data-rb-ch><span class="ic-rbar-full">'+esc(posTitle)+'</span><span class="ic-rbar-short">'+esc(posTitleShort)+'</span></span>'+
                   '<span class="ic-rbar-pos-pg" data-rb-pg></span>'+
@@ -1778,7 +1924,28 @@
               '<div class="ic-sr" aria-live="polite"></div>'+
             '</div>'+
           '</div>'
-        : "");
+        : "")+
+        // Выезжающая панель «Содержание» (кнопка data-rb="pos") — та же
+        // разметка/анимация/класс .ic-rb-sheet..., что у панели поиска выше
+        // (makeRbSheet ниже — общий хелпер для обеих, см. комментарий там),
+        // просто с другим содержимым головы (заголовок+кнопка закрытия вместо
+        // формы поиска) и списком глав (tocPartsHtml) вместо .ic-sr. В отличие
+        // от панели поиска эта нужна ВСЕГДА (кнопка «pos» есть у любой книги
+        // читалки, не только у книг с «домашней» страницей) — поэтому не
+        // обёрнута в book.meta.home. Модификатор .ic-rb-sheet-toc переопределяет
+        // стиль текущей главы в списке (app.css): полужирный + акцентная
+        // черта слева, без курсива/стрелки «›», которые даёт обычный
+        // .ic-toc-part a[aria-current] у старой полноэкранной шторки.
+        '<div class="ic-rb-sheet ic-rb-sheet-toc" id="ic-rb-toc-sheet">'+
+          '<div class="ic-rb-sheet-dim"></div>'+
+          '<div class="ic-rb-sheet-panel">'+
+            '<div class="ic-rb-sheet-head">'+
+              '<span class="ic-rb-sheet-head-title">'+esc(t("contents"))+'</span>'+
+              '<button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button>'+
+            '</div>'+
+            '<nav class="ic-rb-toc-body">'+tocPartsHtml(book, chap, ch && ch.slug)+'</nav>'+
+          '</div>'+
+        '</div>';
       bindLangSwitch(root);
       fitCtxLabels(root);
       if(enPrep){
@@ -1835,7 +2002,7 @@
           else if(book.meta.home) location.hash = hrefFor(book, "home"); else goIndex(book);
           return;
         }
-        if(act==="pos"){ openChapToc(book, chap, ch, b); return; }
+        if(act==="pos"){ if(tocSheetApi) tocSheetApi.toggle(); return; }
         if(act==="top"){
           var off = (parseFloat(root.dataset.top)||0) + (rbar ? rbar.getBoundingClientRect().height : 0) + 4;
           var r = root.querySelector(".ic-ch-wrap").getBoundingClientRect();
@@ -1845,55 +2012,30 @@
         if(act==="scan"){ var pi = curPgIdx(); if(pi >= 0) openSv(book, pmRows, pi); return; }
         if(act==="search"){ if(sheetApi) sheetApi.toggle(); return; }
       });
-      // Выезжающая панель поиска читалки (.ic-rb-sheet) — заменяет прежний
-      // переход на home/search (см. act==="search" выше). Структура и
-      // анимация — по образцу .sheet/.dim/.panel из rbar-proto.html (вариант
-      // Б): sheetApi.open/close переключают класс .ic-rb-sheet-open (CSS
-      // делает всю анимацию ОДНИМ куском через transform на .ic-rb-sheet-panel,
-      // без отдельной анимации строк результатов внутри), держат в курсе
-      // кнопку «Поиск» (aria-pressed) и подсказывают installScrollHide ниже
-      // не прятать панель/внешнюю .back-bar, пока открыто (opts.suppress).
-      var sheetApi = null;
-      var sheetEl = root.querySelector("#ic-rb-sheet");
+      // Выезжающие панели читалки — поиск (.ic-rb-sheet, заменяет прежний
+      // переход на home/search, см. act==="search" выше) и список глав
+      // (.ic-rb-sheet.ic-rb-sheet-toc, заменяет старую полноэкранную шторку
+      // openChapToc — та остаётся только для плитки «Содержание» на главной
+      // книги, см. её собственный вызов ниже по файлу). Обе — ТОТ ЖЕ
+      // механизм open/close/анимация-с-задержкой/scroll-lock/взаимоисключение,
+      // вынесенный в общий хелпер makeRbSheet (определён у installScrollHide
+      // выше) — не дублируем его логику здесь.
+      var rbSheets = [];
+      var sheetApi = null, sheetEl = root.querySelector("#ic-rb-sheet");
       if(sheetEl){
-        var sheetDim = root.querySelector("#ic-rb-sheet-dim");
         var sheetForm = sheetEl.querySelector(".ic-home-search");
         var sheetInput = sheetForm.querySelector(".ic-search");
-        var sheetCloseBtn = sheetEl.querySelector(".ic-rb-sheet-close");
         var searchBtn = root.querySelector('[data-rb="search"]');
-        var sheetIsOpen = false;
-        function setSheetTop(){
-          document.documentElement.style.setProperty("--ic-topH", (rbar ? rbar.getBoundingClientRect().bottom : 0)+"px");
-        }
-        function showBarsForced(){
-          if(rbar) rbar.classList.remove("ic-rbar-hidden");
-          var bbar = document.querySelector(".back-bar");
-          if(bbar) bbar.classList.remove("ic-bb-hidden");
-        }
-        function sheetOpen(presetQuery){
-          showBarsForced();
-          setSheetTop();
-          sheetEl.classList.add("ic-rb-sheet-open");
-          sheetIsOpen = true;
-          if(searchBtn) searchBtn.setAttribute("aria-pressed","true");
-          if(presetQuery != null){ sheetInput.value = presetQuery; sheetInput.dispatchEvent(new Event("input",{bubbles:true})); }
-          // На устройствах без точного указателя (тач) клавиатура не должна
-          // появляться сама — только на desktop/с мышью (pointer:fine).
-          if(window.matchMedia && window.matchMedia("(pointer:fine)").matches) sheetInput.focus({preventScroll:true});
-        }
-        function sheetClose(){
-          sheetEl.classList.remove("ic-rb-sheet-open");
-          sheetIsOpen = false;
-          if(searchBtn) searchBtn.setAttribute("aria-pressed","false");
-          sheetInput.blur();
-        }
-        sheetApi = {
-          open: sheetOpen, close: sheetClose,
-          isOpen: function(){ return sheetIsOpen; },
-          toggle: function(){ sheetIsOpen ? sheetClose() : sheetOpen(); }
-        };
-        sheetDim.addEventListener("click", sheetClose);
-        sheetCloseBtn.addEventListener("click", sheetClose);
+        sheetApi = makeRbSheet(sheetEl, searchBtn, {
+          registry: rbSheets,
+          onOpen: function(presetQuery){
+            if(presetQuery != null){ sheetInput.value = presetQuery; sheetInput.dispatchEvent(new Event("input",{bubbles:true})); }
+            // На устройствах без точного указателя (тач) клавиатура не должна
+            // появляться сама — только на desktop/с мышью (pointer:fine).
+            if(window.matchMedia && window.matchMedia("(pointer:fine)").matches) sheetInput.focus({preventScroll:true});
+          },
+          onClose: function(){ sheetInput.blur(); }
+        });
         wireBookSearch(book, sheetForm, sheetEl.querySelector(".ic-sr"), gen, 0);
         // Переход по результату поиска внутри оверлея — запоминаем, где он был
         // открыт (searchReopen, см. его определение выше), чтобы «К поиску»
@@ -1907,7 +2049,20 @@
           var a = e.target.closest("a");
           if(a && /\/ch\//.test(a.getAttribute("href")||"")) searchReopen = {hash: location.hash, query: sheetInput.value};
         });
-        if(reopenSearchQuery != null) sheetOpen(reopenSearchQuery);
+        if(reopenSearchQuery != null) sheetApi.open(reopenSearchQuery);
+      }
+      var tocSheetApi = null, tocSheetEl = root.querySelector("#ic-rb-toc-sheet");
+      if(tocSheetEl){
+        var posBtn = root.querySelector('[data-rb="pos"]');
+        tocSheetApi = makeRbSheet(tocSheetEl, posBtn, {registry: rbSheets});
+        // Выбор пункта списка — переход по обычной ссылке (<a href>), сама
+        // навигация закроет панель через route()/activeSheetClose; здесь
+        // нужно только запустить ту же (анимированную) close(), чтобы она не
+        // осталась визуально открытой в момент смены hash на месте, пока
+        // идёт переход (route() иначе использует closeFromRoute — мгновенно,
+        // без анимации, что здесь неуместно: ссылка кликнута внутри самой
+        // этой же вкладки/главы, а не извне).
+        tocSheetEl.querySelector(".ic-rb-toc-body").addEventListener("click", function(e){ if(e.target.closest("a")) tocSheetApi.close(); });
       }
       // Показ/скрытие панели и внешней .back-bar синхронно, по направлению
       // прокрутки — не по абсолютной позиции, как у .ic-controls выше (тот
@@ -1925,7 +2080,14 @@
       // Пороги/накопители и синхронизация с .back-bar — в общей installScrollHide
       // (см. выше, рядом с wireSearchClear); здесь только её привязка к этой
       // панели, с paintPg как дополнительной работой на каждый активный кадр.
-      if(rbar) installScrollHide(rbar, {isActive:function(){ return gen === renderGen; }, onTick:paintPg, suppress:function(){ return !!(sheetApi && sheetApi.isOpen()); }});
+      // suppress — пока ЛЮБАЯ из двух панелей открыта ИЛИ ещё анимируется
+      // (открывается/закрывается) оба бара держим показанными: см. комментарий
+      // у makeRbSheet про sheetAnimating/transitionend — без учёта анимации
+      // scroll-hide иначе может начать прятать бары СРЕДИ анимации закрытия
+      // (это и было дёрганьем, пункт 3 задачи).
+      if(rbar) installScrollHide(rbar, {isActive:function(){ return gen === renderGen; }, onTick:paintPg, suppress:function(){
+        return rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); });
+      }});
       root.querySelectorAll("[data-ch]").forEach(function(b){ b.addEventListener("click",function(){ location.hash = chapterHref(book, b.getAttribute("data-ch")).replace(/^#/,""); }); });
       root.querySelectorAll(".ic-fig").forEach(function(f){ f.addEventListener("click",function(){ lightbox(f.getAttribute("data-src")); }); });
       root.querySelectorAll(".ic-ch-aside a").forEach(function(a){ a.addEventListener("click",function(){ namesUi.chVia = a.getAttribute("href"); }); });

@@ -31,7 +31,12 @@
    сюда же) остаётся прежних 780px и центрируется независимо. На ≤620px это
    не меняет ничего заметного — там обе ширины уже меньше, чем экран. */
 .ic-ch-outer{max-width:1120px;margin:0 auto;padding:0 20px}
-@media (max-width:620px){
+/* (max-height:500px) and (orientation:landscape) — короткий ландшафтный
+   экран телефона (iPhone 13 844x390: ширина 844px НЕ попадает ни в один
+   ширинный брейкпоинт ниже, а без этого добавочного условия safe-area и
+   нулевой боковой паддинг там не применялись бы вовсе, хотя эффект нужен
+   ровно тот же, что на узком портретном экране — см. задание). */
+@media (max-width:620px), (max-height:500px) and (orientation:landscape){
   .ic-ch-outer{padding:0}
 }
 
@@ -343,6 +348,15 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
   opacity:.75;color:rgba(var(--cream),.9)}
 .ic-rbar-pos-pg{flex:none;white-space:nowrap;text-align:center;color:rgba(var(--cream),.9);font-size:1em;line-height:1.15;
   font-weight:400;letter-spacing:.04em;font-variant-numeric:oldstyle-nums}
+/* Ячейка 2 теперь тоже может получать aria-pressed="true" (кнопка «pos»
+   активна весь срок, пока открыт список глав, см. задание пункт 1, по
+   аналогии с «Поиск») — но .ic-rbar-pos-ch/-pg задают СВОЙ цвет текста
+   (светлый, rgba(var(--cream),.9)), который иначе перекрывает тёмный текст
+   базового правила button[aria-pressed="true"] выше (специфичность класса
+   у детей выше, чем у цвета родителя) и делает подпись невидимой — светлый
+   текст на светлой (та же --cream) заливке кнопки. */
+.ic-rbar-row .ic-rbar-pos[aria-pressed="true"] .ic-rbar-pos-ch,
+.ic-rbar-row .ic-rbar-pos[aria-pressed="true"] .ic-rbar-pos-pg{color:var(--bar)}
 .ic-rbar-top,.ic-rbar-scan,.ic-rbar-search{flex:none}
 /* full/short — на 1440 (широкий экран) показывается развёрнутая форма
    подписи ячейки 1 («Книга»/«К указателю: <статья>»); на 390 — короткая
@@ -357,8 +371,17 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    13.5px/.07em десктопных); название главы (.ic-rbar-pos-ch) скрывается
    целиком — номер страницы (.ic-rbar-pos-pg) виден всегда, т.к. он не
    участвует в этом display:none. */
-@media (max-width:460px){
+/* Паддинг safe-area отдельно от остальной «узкой» формы ниже: на ландшафтном
+   телефоне (iPhone 13 844x390 и т.п.) ширина экрана (844px) НЕ попадает в
+   max-width:460px — там достаточно места для полных подписей — но вырез/
+   закруглённые углы по бокам экрана всё равно есть, и без safe-area кнопки
+   панели там обрезаются краем экрана. (max-height:500px) and
+   (orientation:landscape) ловит именно такие короткие ландшафтные экраны,
+   не задевая десктоп (1440x900 и подобные — там высота окна много больше). */
+@media (max-width:460px), (max-height:500px) and (orientation:landscape){
   .ic-rbar{padding-left:calc(12px + env(safe-area-inset-left));padding-right:calc(12px + env(safe-area-inset-right))}
+}
+@media (max-width:460px){
   .ic-rbar button{font-size:12.5px;letter-spacing:.045em;padding:0 9px}
   .ic-rbar-full{display:none}
   .ic-rbar-short{display:inline}
@@ -373,6 +396,17 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
      так и липнет к левому краю её (широкой, flex:1) области, хотя занимает
      от силы несколько символов. */
   .ic-rbar-pos-inner{justify-content:center}
+}
+
+/* Компактная форма .ic-rbar при малой высоте экрана (ландшафт телефона —
+   390px высоты у iPhone 13 целиком, из которых .back-bar+.ic-rbar не должны
+   съедать слишком много): ниже кнопки/строка-капсула и сама панель мельче,
+   тот же порог высоты, что у .back-bar (index.html) и safe-area-паддинга
+   выше — см. задание, пункт 2. */
+@media (max-height:500px) and (orientation:landscape){
+  .ic-rbar{padding-top:4px;padding-bottom:4px;margin-bottom:14px}
+  .ic-rbar button{height:30px;font-size:11.5px}
+  .ic-rbar-row .ic-rbar-pos{height:30px}
 }
 
 /* Выезжающая панель поиска читалки (.ic-rb-sheet) — кнопка «Поиск» в .ic-rbar
@@ -412,6 +446,26 @@ button.ic-rb-sheet-close{flex:none;height:44px;border:1px solid rgba(28,24,19,.3
   background:transparent;padding:0 14px;font:13.5px var(--serif);letter-spacing:.07em;text-transform:uppercase;
   color:var(--ink);cursor:pointer}
 @media (hover:hover){button.ic-rb-sheet-close:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}}
+/* Взаимоисключение поиск/список глав (makeRbSheet, app.js): закрытие БЕЗ
+   собственной анимации — временно снимает transition у панели/затемнения/
+   самой обёртки (видимость иначе держится ещё .34s после снятия .ic-rb-
+   sheet-open, см. правило выше), меняется классом на один синхронный тик. */
+.ic-rb-sheet.ic-rb-sheet-noanim,
+.ic-rb-sheet.ic-rb-sheet-noanim .ic-rb-sheet-dim,
+.ic-rb-sheet.ic-rb-sheet-noanim .ic-rb-sheet-panel{transition:none!important}
+
+/* Панель «Содержание» (.ic-rb-sheet-toc) — тот же .ic-rb-sheet-head, но
+   заголовок текста вместо формы поиска. */
+.ic-rb-sheet-head-title{flex:1 1 auto;font-size:.95em;font-weight:600;letter-spacing:.04em;color:var(--ink)}
+.ic-rb-toc-body .ic-toc-part:first-child{margin-top:0}
+/* Текущая глава в этом списке — БЕЗ курсива/стрелки «›» старой шторки
+   (.ic-toc-part a[aria-current] выше): полужирное начертание + тонкая
+   акцентная черта слева, см. задание пункт 1. Выше по специфичности, чем
+   общее правило (которое остаётся как есть — его использует другое место,
+   плитка «Содержание» главной книги через openChapToc). */
+.ic-rb-sheet-toc .ic-toc-part a[aria-current]{color:var(--ink);font-style:normal;font-weight:700;
+  border-left:3px solid var(--accent);padding-left:10px;margin-left:-13px}
+.ic-rb-sheet-toc .ic-toc-part a[aria-current]::before{content:none}
 
 .ic-head{margin-top:30px}
 .ic-kicker{font-size:.8em;color:var(--soft)}
