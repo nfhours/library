@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "128";
+  var APP_VER = "129";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -124,12 +124,11 @@
     chPrev:       {ru:"Предыдущая глава", en:"Previous chapter", fr:"Chapitre précédent"},
     chToc:        {ru:"Главы", en:"Chapters", fr:"Chapitres"},
     contents:     {ru:"Содержание", en:"Contents", fr:"Sommaire"},
-    rbCtxTv:      {ru:"Назад к указателю", en:"Back to index", fr:"Retour à l’index"},
-    rbCtxPl:      {ru:"Назад к гравюре", en:"Back to the engraving", fr:"Retour à la gravure"},
-    rbCtxPlShort: {ru:"Гравюре", en:"The engraving", fr:"La gravure"},
-    rbCtxNm:      {ru:"Назад к имени", en:"Back to name", fr:"Retour au nom"},
-    rbCtxSr:      {ru:"Назад к поиску", en:"Back to search", fr:"Retour à la recherche"},
-    rbBackShort:  {ru:"Оглавление", en:"Index", fr:"Index"},
+    rbBook:       {ru:"Книга", en:"Book", fr:"Livre"},
+    rbCtxTv:      {ru:"К указателю", en:"To the index", fr:"À l’index"},
+    rbCtxPl:      {ru:"К гравюре", en:"To the engraving", fr:"À la gravure"},
+    rbCtxNm:      {ru:"К имени", en:"To the name", fr:"Au nom"},
+    rbCtxSr:      {ru:"К поиску", en:"To search", fr:"À la recherche"},
     rbTop:        {ru:"К началу главы", en:"To the start", fr:"Au début"},
     rbTopShort:   {ru:"Начало", en:"Start", fr:"Début"},
     rbPosLabel:   {ru:"Открыть содержание", en:"Open the contents", fr:"Ouvrir le sommaire"},
@@ -1414,22 +1413,6 @@
     return '<p'+n+'>'+inl(b.text, qs, markSpan)+'</p>';
   }
 
-  // Разделитель-орнамент в новой панели читалки: один и тот же маленький
-  // типографский разделитель (вырезка из самой книги 1626 года — то же
-  // решение, что у ornamentMaskHtml: чернила как CSS-маска, цвет текста
-  // или мягкого акцента, а не зашитый в файл оттенок). Файл выбран вручную
-  // (а не случайно по pickOrnament) и подтверждён скриншотом: узкий и
-  // невысокий, чисто читается рядом с текстом в одну строку.
-  var RBAR_SEP = {file:"divider_0609_564.png", width:299, height:73};
-  // mcls — дополнительный класс поверх .ic-rbar-sep: по умолчанию пусто (тот же
-  // разделитель, что между «назад»/«контекст» и «глава · страница»), "ic-rbar-sep-m"
-  // — для новых разделителей второй строки мобильной раскладки (видны только
-  // там, см. @media в app.css).
-  function rbarSepHtml(book, mcls){
-    if(!book.ornaments) return "";
-    var src = BASE+"books/"+book.ornaments.srcSlug+"/ornaments/"+RBAR_SEP.file;
-    return '<span class="ic-rbar-sep'+(mcls?" "+mcls:"")+'" aria-hidden="true" style="--orn-src:url(\''+esc(src)+'\');--orn-ratio:'+(RBAR_SEP.width/RBAR_SEP.height)+'"></span>';
-  }
   // Обрезка контекстной подписи (.ic-rbar-ctx) по словам, не посимвольно:
   // CSS text-overflow:ellipsis режет ровно по символам (в т.ч. посреди
   // слова) — отдельно запрещено заданием («не многоточием посреди слова»).
@@ -1545,16 +1528,17 @@
         : enPrep ? '<div class="ic-text ic-ch-body ic-ch-itbody"></div>'
         : '<p class="ic-sub">'+esc(t("chNotYet"))+'</p>';
       // Контекстная ссылка «вернуться туда, откуда пришли» (chCtx — см. его
-      // определение у namesUi выше) занимает тот же слот, что обычная кнопка
-      // «К оглавлению»: показывается ТОЛЬКО если chCtx относится именно к
-      // этому переходу (его hash совпадает с тем, что сейчас открыли), иначе —
-      // обычная кнопка. Один слот на обе роли, а не отдельный шестой элемент
-      // в и так плотной строке панели.
-      // full — полная подпись (desktop/планшет); short — та же мысль в одном-двух
-      // словах, для узкого экрана (см. .ic-rbar-full/.ic-rbar-short в app.css,
-      // тот же приём, что у .ic-ed-long/.ic-ed-short на главной книги): на 390px
-      // пять элементов строки иначе физически не умещаются без переноса, а
-      // перенос и обрезание текста запрещены заданием.
+      // определение у namesUi выше) занимает тот же слот (ячейка 1), что
+      // обычная кнопка «Книга»: показывается ТОЛЬКО если chCtx относится
+      // именно к этому переходу (его hash совпадает с тем, что сейчас
+      // открыли), иначе — обычная кнопка. Один слот на обе роли.
+      // Round 6: подпись ячейки 1 при активном контексте теперь короче и
+      // переиспользуется в двух формах — full (desktop, с названием статьи
+      // через ":") и short (390px, БЕЗ названия статьи вообще, только
+      // общее «К указателю»/«К гравюре»/«К имени»/«К поиску») — см.
+      // .ic-rbar-full/.ic-rbar-short в app.css. Обычная кнопка «Книга» (нет
+      // активного контекста) одинакова на обеих ширинах — короткое слово и
+      // так никогда не требует сокращения.
       // chCtxLabel() — подпись пересчитывается КАЖДЫЙ рендер по текущему
       // state.lang, а не замораживается в момент клика: chCtx хранит сырые
       // ru/it поля исходной записи (указателя/имени), а не готовую строку,
@@ -1569,15 +1553,20 @@
         if(chCtx.type==="tavola" || chCtx.type==="name") return state.lang==="ru" ? (chCtx.ru||"") : (chCtx.it || chCtx.ru || "");
         return chCtx.label || "";
       }
-      var ctxActive = !!(chCtx.hash && chCtx.hash === location.hash), ctxFull = "", ctxShort = "";
+      var ctxActive = !!(chCtx.hash && chCtx.hash === location.hash), ctxBase = "", ctxLbl = "";
       if(ctxActive){
-        var ctxLbl = chCtxLabel();
-        if(chCtx.type==="tavola"){ ctxFull = t("rbCtxTv")+": "+ctxLbl; ctxShort = ctxLbl; }
-        else if(chCtx.type==="plate"){ ctxFull = t("rbCtxPl"); ctxShort = t("rbCtxPlShort"); }
-        else if(chCtx.type==="name"){ ctxFull = t("rbCtxNm")+": "+ctxLbl; ctxShort = ctxLbl; }
-        else if(chCtx.type==="search"){ ctxFull = t("rbCtxSr")+": "+ctxLbl; ctxShort = ctxLbl; }
+        ctxLbl = chCtxLabel();
+        if(chCtx.type==="tavola") ctxBase = t("rbCtxTv");
+        else if(chCtx.type==="plate") ctxBase = t("rbCtxPl");
+        else if(chCtx.type==="name") ctxBase = t("rbCtxNm");
+        else if(chCtx.type==="search") ctxBase = t("rbCtxSr");
         else ctxActive = false;
       }
+      // short — всегда только общая подпись, без статьи (у "plate" статьи и
+      // так никогда не было — там обе формы совпадают). full — та же общая
+      // подпись плюс ": <статья>", если у этого типа контекста есть статья.
+      var ctxShort = ctxBase;
+      var ctxFull = ctxActive && chCtx.type!=="plate" && ctxLbl ? ctxBase+": "+ctxLbl : ctxBase;
       // data-full — несжатый оригинал подписи, читает fitEllipsisWord после
       // вставки в DOM (обрезка по словам, см. комментарий там же); textContent
       // спана при этом совпадает с ctxFull/ctxShort только до первого вызова
@@ -1587,47 +1576,38 @@
         ? '<button type="button" class="ic-rbar-ctx ic-rbar-ctx-back" data-rb="ctxback">'+
           '<span class="ic-rbar-full" data-full="'+esc(ctxFull)+'">'+esc(ctxFull)+'</span><span class="ic-rbar-short" data-full="'+esc(ctxShort)+'">'+esc(ctxShort)+'</span></button>'
         : '<button type="button" class="ic-rbar-ctx" data-rb="back">'+
-          '<span class="ic-rbar-full" data-full="'+esc(t("back"))+'">'+esc(t("back"))+'</span><span class="ic-rbar-short" data-full="'+esc(t("rbBackShort"))+'">'+esc(t("rbBackShort"))+'</span></button>';
-      var sep = rbarSepHtml(book);
+          '<span class="ic-rbar-full" data-full="'+esc(t("rbBook"))+'">'+esc(t("rbBook"))+'</span><span class="ic-rbar-short" data-full="'+esc(t("rbBook"))+'">'+esc(t("rbBook"))+'</span></button>';
       var posTitle = ch ? chapTitle(ch) : "";
       var posTitleShort = ch ? chapTitleShort(ch) : "";
-      // Две «строки» панели (.ic-rbar-row1/-row2) — на десктопе это просто
-      // display:contents (их дети текут в одну общую .ic-rbar-row, раскладка
-      // та же, что раньше), на ≤620px каждая становится своей flex-строкой
-      // (см. app.css): строка 1 — «откуда пришли» + «глава · страница»,
-      // строка 2 — «к началу главы» / «скан» / «поиск» с разделителями
-      // между ними (mcls="ic-rbar-sep-m" — отдельный от «настольных» sep
-      // класс, виден только в этой мобильной строке).
-      var sepM = rbarSepHtml(book, "ic-rbar-sep-m");
       // .ic-ch-outer — панель .ic-rbar вынесена ИЗ узкого .ic-wrap.ic-ch-wrap
       // (780px) в собственную более широкую обёртку (до 1120px, см. app.css):
       // так у неё есть куда расти, когда контекстная подпись и короткая форма
       // заголовка главы длинны одновременно, а колонка чтения ниже остаётся
       // прежней ширины и центрируется независимо (margin:auto у обеих).
       //
-      // Round 5: на ≤620px row1 всегда ОДНА строка (ctx слева + «глава ·
-      // страница» справа) — больше не разворачивается в две полноширинные
-      // при активном контексте (round 4). Вместо этого при недостатке места
-      // уступает короткая форма названия главы (.ic-rbar-pos-ch, обычный
-      // CSS-эллипсис), а номер страницы (.ic-rbar-pos-pg) защищён flex:none
-      // и виден всегда целиком — см. правила в app.css под @media
-      // (max-width:620px). Итого максимум 2 строки на телефоне (row1+row2),
-      // не 3, как было.
+      // Round 6: полный редизайн компоновки/вида панели. Теперь это ВСЕГДА
+      // одна строка (и на 390, и на 1440) из пяти ячеек слева направо:
+      // [Книга/контекст] [Глава · страница] [Начало] [Скан] [Поиск] —
+      // .ic-rbar-row1/-row2-обёртки и мобильная раскладка в две строки
+      // (round 4-5) больше не нужны, все пять кнопок — прямые дети одной
+      // .ic-rbar-row (так CSS-селектор "кнопка+кнопка" в app.css кладёт
+      // тонкую границу между соседними ячейками без отдельного разделителя-
+      // орнамента, который этим раундом убран целиком — rbarSepHtml/
+      // RBAR_SEP/.ic-rbar-sep больше нет). Ячейка 2 (.ic-rbar-pos) — главный
+      // flex:1 элемент строки, забирает всё свободное место и поэтому шире
+      // остальных; номер страницы в ней (.ic-rbar-pos-pg) защищён flex:none
+      // и виден всегда целиком, при недостатке места ужимается короткая
+      // форма названия главы (.ic-rbar-pos-ch, обычный CSS-эллипсис).
       root.innerHTML =
         '<div class="ic-ch-outer">'+
           '<div class="ic-rbar" id="ic-rbar">'+
             '<div class="ic-rbar-row">'+
-              '<div class="ic-rbar-row1">'+
-                ctxHtml+sep+
-                '<button type="button" class="ic-rbar-pos" data-rb="pos" aria-haspopup="dialog" aria-label="'+esc(t("rbPosLabel"))+'">'+
-                  '<span class="ic-rbar-pos-ch"><span class="ic-rbar-full">'+esc(posTitle)+'</span><span class="ic-rbar-short">'+esc(posTitleShort)+'</span></span><span class="ic-rbar-pos-pg" data-rb-pg></span></button>'+
-              '</div>'+
-              '<div class="ic-rbar-row2">'+
-                sep+
-                '<button type="button" class="ic-rbar-top" data-rb="top"><span class="ic-rbar-full">'+esc(t("rbTop"))+'</span><span class="ic-rbar-short">'+esc(t("rbTopShort"))+'</span></button>'+sepM+
-                '<button type="button" class="ic-rbar-scan" data-rb="scan"'+(pmRows.length?"":" disabled")+'>'+esc(t("svScan"))+'</button>'+
-                (book.meta.home ? sepM+'<button type="button" class="ic-rbar-search" data-rb="search">'+esc(t("hmSearch"))+'</button>' : "")+
-              '</div>'+
+              ctxHtml+
+              '<button type="button" class="ic-rbar-pos" data-rb="pos" aria-haspopup="dialog" aria-label="'+esc(t("rbPosLabel"))+'">'+
+                '<span class="ic-rbar-pos-ch"><span class="ic-rbar-full">'+esc(posTitle)+'</span><span class="ic-rbar-short">'+esc(posTitleShort)+'</span></span><span class="ic-rbar-pos-pg" data-rb-pg></span></button>'+
+              '<button type="button" class="ic-rbar-top" data-rb="top"><span class="ic-rbar-full">'+esc(t("rbTop"))+'</span><span class="ic-rbar-short">'+esc(t("rbTopShort"))+'</span></button>'+
+              '<button type="button" class="ic-rbar-scan" data-rb="scan"'+(pmRows.length?"":" disabled")+'>'+esc(t("svScan"))+'</button>'+
+              (book.meta.home ? '<button type="button" class="ic-rbar-search" data-rb="search">'+esc(t("hmSearch"))+'</button>' : "")+
             '</div>'+
             langSwitch()+
           '</div>'+
@@ -2180,7 +2160,7 @@
   // Короткие формы заголовков глав — только для тех ~9 из 25, чьи полные
   // названия слишком длинны для «панели читалки» на телефоне (.ic-rbar-pos-ch
   // на ≤620px, см. app.css): не обрезка по словам, а осмысленное сокращение
-  // (как rbCtxPlShort/rbTopShort выше). Имена богов (saturno…gratie) и так
+  // (как rbTopShort выше). Имена богов (saturno…gratie) и так
   // короткие — для них записи нет, chapTitleShort возвращает chapTitle(c).
   var CHAP_SHORT = {
     "frontespizio-dedica":        {ru:"Титульный лист",       en:"Title page",            fr:"Page de titre"},
@@ -2213,7 +2193,12 @@
     });
     var rest = chap.list.filter(function(c){ return !used[c.slug]; });
     if(rest.length) groups.push('<section class="ic-toc-part"><ol>'+rest.map(link).join("")+'</ol></section>');
-    return groups.join("");
+    // Выход на главную книги из списка глав: ячейка 1 панели читалки (.ic-rbar-ctx)
+    // при активном контексте перехода (chCtx) занята подписью «К указателю»/«К
+    // гравюре»/«К имени»/«К поиску», а не ведёт на главную — переход туда в этом
+    // случае остаётся доступен здесь, первым пунктом выезжающего списка глав.
+    var home = book.meta.home ? '<section class="ic-toc-part"><ol><li><a href="'+esc(hrefFor(book,"home"))+'">'+esc(t("tvBack"))+'</a></li></ol></section>' : "";
+    return home+groups.join("");
   }
   function openChapToc(book, chap, ch, opener){
     var d = document.createElement("div");
