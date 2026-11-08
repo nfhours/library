@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "134";
+  var APP_VER = "135";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -175,7 +175,7 @@
     hmNames:      {ru:"Имена", en:"Names", fr:"Noms"},
     hmNamesSub:   {ru:"Боги, герои, авторы, места и народы", en:"Gods, heroes, authors, places and peoples", fr:"Dieux, héros, auteurs, lieux et peuples"},
     nmSub:        {ru:"Имена из глоссария перевода. Карточка имени показывает гравюры, где оно названо, и все места перевода, где оно встречается, во всех падежах.", en:"Names from the translation glossary. A name’s page shows the engravings that name it and every place in the translation where it occurs, in any case form.", fr:"Noms du glossaire de la traduction. La fiche d’un nom montre les gravures qui le citent et tous les passages de la traduction où il apparaît, à tous les cas."},
-    nmSearchPh:   {ru:"Найти имя: русское или итальянское…", en:"Find a name: Russian or Italian…", fr:"Chercher un nom : russe ou italien…"},
+    nmSearchPh:   {ru:"Найти имя", en:"Find a name", fr:"Chercher un nom"},
     nmTypeLabel:  {ru:"Тип имени", en:"Name type", fr:"Type de nom"},
     nmAll:        {ru:"Все", en:"All", fr:"Tous"},
     nmT_g:        {ru:"Божества", en:"Deities", fr:"Divinités"},
@@ -2152,10 +2152,22 @@
         lnav.innerHTML = lettersOf(ordered()).map(function(l){ return '<button type="button" data-l="'+l+'"'+(have[l] ? "" : " disabled")+'>'+l+'</button>'; }).join("");
         // Столбик на узких экранах — только буквы, у которых реально есть
         // статьи в текущем отборе (have), без disabled-кнопок вовсе.
-        rail.innerHTML = lettersOf(ordered()).filter(function(l){ return have[l]; })
-          .map(function(l){ return '<button type="button" data-l="'+l+'">'+l+'</button>'; }).join("");
+        var railLetters = lettersOf(ordered()).filter(function(l){ return have[l]; });
+        rail.innerHTML = railLetters.map(function(l){ return '<button type="button" data-l="'+l+'">'+l+'</button>'; }).join("");
+        rail.classList.toggle("ic-az-tight", railLetters.length > 26);
+        updateRailTop();
       }
       function barH(){ return bar.getBoundingClientRect().height + (parseFloat(root.dataset.top)||0) + 10; }
+      // Реальная (не статичная) видимая высота шапки сайта (.back-bar) +
+      // полосы поиска (.ic-tv-bar) ПРЯМО СЕЙЧАС — учитывает частичный/полный
+      // уход обеих в transform (ic-bb-hidden/ic-tv-bar-hidden). Записывается
+      // в --tvbar-h на самом rail (см. app.css), оттуда top:calc(var(--tvbar-h)+14px).
+      function updateRailTop(){
+        var bbar = document.querySelector(".back-bar");
+        var bbBottom = bbar ? Math.max(0, bbar.getBoundingClientRect().bottom) : 0;
+        var barBottom = Math.max(0, bar.getBoundingClientRect().bottom);
+        rail.style.setProperty("--tvbar-h", Math.max(bbBottom, barBottom)+"px");
+      }
       // Тот же маргинальный маркер и то же ~4-секундное угасание, что у
       // перехода в главу (hlMark/hlFadeOut выше) — раньше здесь была
       // отдельная заливка строки (.ic-ch-hl), резко пропадавшая через 2.2с;
@@ -2175,7 +2187,8 @@
       installScrollHide(bar, {
         hiddenClass: "ic-tv-bar-hidden",
         isActive: function(){ return gen === renderGen; },
-        suppress: function(){ return q.value !== "" || document.activeElement === q; }
+        suppress: function(){ return q.value !== "" || document.activeElement === q; },
+        onTick: updateRailTop
       });
       root.querySelector(".ic-tv-sort").addEventListener("click",function(e){
         var b = e.target.closest("button"); if(!b || b.getAttribute("data-s")===tavolaUi.sort) return;
@@ -2363,10 +2376,19 @@
         lnav.innerHTML = letters.map(function(l){ return '<button type="button" data-l="'+(l==="#" ? "0" : l)+'"'+(have[l] ? "" : " disabled")+'>'+l+'</button>'; }).join("");
         // Столбик на узких экранах — только буквы, для которых реально есть
         // статьи при текущих отборе/фильтре типа (have), без disabled-кнопок.
-        rail.innerHTML = letters.filter(function(l){ return have[l]; })
-          .map(function(l){ return '<button type="button" data-l="'+(l==="#" ? "0" : l)+'">'+l+'</button>'; }).join("");
+        var railLetters = letters.filter(function(l){ return have[l]; });
+        rail.innerHTML = railLetters.map(function(l){ return '<button type="button" data-l="'+(l==="#" ? "0" : l)+'">'+l+'</button>'; }).join("");
+        rail.classList.toggle("ic-az-tight", railLetters.length > 26);
+        updateRailTop();
       }
       function barH(){ return bar.getBoundingClientRect().height + (parseFloat(root.dataset.top)||0) + 10; }
+      // См. комментарий у того же хелпера в renderTavola — та же логика.
+      function updateRailTop(){
+        var bbar = document.querySelector(".back-bar");
+        var bbBottom = bbar ? Math.max(0, bbar.getBoundingClientRect().bottom) : 0;
+        var barBottom = Math.max(0, bar.getBoundingClientRect().bottom);
+        rail.style.setProperty("--tvbar-h", Math.max(bbBottom, barBottom)+"px");
+      }
       q.addEventListener("input",function(){ namesUi.q = q.value; fill(); });
       wireSearchClear(q);
       lnav.addEventListener("click",function(e){
@@ -2384,7 +2406,8 @@
       installScrollHide(bar, {
         hiddenClass: "ic-tv-bar-hidden",
         isActive: function(){ return gen === renderGen; },
-        suppress: function(){ return q.value !== "" || document.activeElement === q; }
+        suppress: function(){ return q.value !== "" || document.activeElement === q; },
+        onTick: updateRailTop
       });
       root.querySelector(".ic-nm-types").addEventListener("click",function(e){
         var b = e.target.closest("button"); if(!b || b.getAttribute("data-ty")===namesUi.ty) return;
@@ -2843,7 +2866,7 @@
       var hp = ornRec("headpiece","head"), tp = ornRec("tailpiece","tail"), dv = ornRec("divider","div");
       root.innerHTML =
         '<div class="ic-wrap ic-home">'+
-          '<div class="ic-top-row">'+(forcedBook?"":'<button type="button" class="ic-to-lib-link ic-back">← '+t("toLibrary")+'</button>')+langSwitch()+'</div>'+
+          '<div class="ic-top-row">'+(forcedBook?"":'<button type="button" class="ic-to-lib-link ic-to-lib-pill">'+t("toLibrary")+'</button>')+langSwitch()+'</div>'+
           (hp ? ornamentMaskHtml(book, hp, "ic-orn-headpiece") : "")+
           '<header class="ic-home-hero">'+
             '<div class="ic-home-txt">'+

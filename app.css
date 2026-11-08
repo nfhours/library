@@ -687,7 +687,18 @@ button.ic-toc-close{width:38px;height:38px;border:1px solid var(--rule);border-r
 .ic:has(.ic-home){background:url(img/paper.jpg) 0 0/1024px repeat,var(--paper)}
 .ic-home{max-width:900px}
 .ic-home .ic-top-row{margin-bottom:0}
-.ic-home button.ic-to-lib-link.ic-back{font-size:.8em;letter-spacing:normal;text-transform:none;padding:8px 0;border:0;border-radius:0;background:none;color:var(--soft);cursor:pointer}
+/* Капсула «Библиотека» на главной книги — та же форма/высота/радиус, что у
+   .ic-tv-back (К книге) на тёмной полосе указателя/имён, но в цветах светлой
+   страницы (--ink/--paper), не инверсия один-в-один: сплошная капсула цвета
+   чернил было бы слишком тяжело на светлой бумаге, поэтому заливка —
+   полупрозрачный тон чернил (как у .ic-view-toggle/.ic-orig-toggle рядом),
+   текст — обычный --ink. Без символа «←» — пользователь просил только
+   форму капсулы. */
+.ic-home button.ic-to-lib-link.ic-to-lib-pill{height:36px;padding:0 16px;border:0;border-radius:999px;
+  font-size:.78em;letter-spacing:.06em;text-transform:uppercase;
+  background:rgba(28,24,19,.08);color:var(--ink);cursor:pointer;transition:background-color .15s}
+@media (hover:hover){.ic-home button.ic-to-lib-link.ic-to-lib-pill:hover{background:rgba(28,24,19,.14)}}
+.ic-home button.ic-to-lib-link.ic-to-lib-pill:active{background:rgba(28,24,19,.18)}
 .ic-home .ic-orn-headpiece{width:100%;margin:6px auto 4px}
 .ic-home-hero{display:grid;grid-template-columns:minmax(0,1fr);grid-template-areas:"txt" "tiles" "fig" "blurb";gap:22px;margin-top:18px}
 .ic-home-txt{grid-area:txt}
@@ -895,7 +906,16 @@ button.ic-tv-back:active{background:rgba(var(--cream),.18)}
    полосы касанием (btnAt в app.js) совпадает с видимыми границами кнопок.
    Ряд .ic-tv-letters внутри шапки на этой ширине просто скрывается целиком
    (замена, не варианты одновременно). Список статей получает правый отступ
-   (.ic-wrap.ic-tv ниже), чтобы текст не заезжал под столбик. */
+   (.ic-wrap.ic-tv ниже), чтобы текст не заезжал под столбик.
+   --tvbar-h — не статична: это РЕАЛЬНАЯ видимая высота шапки (.back-bar)
+   + полосы поиска (.ic-tv-bar) ПРЯМО СЕЙЧАС, в пикселях от верха экрана,
+   пересчитывается в app.js (updateRailTop) на каждый fill() и на каждый
+   тик installScrollHide (opts.onTick), через getBoundingClientRect() —
+   учитывает и обычное положение, и частичный/полный уход в transform
+   (ic-tv-bar-hidden/ic-bb-hidden), поэтому столбик всегда начинается
+   точно под тем, что реально видно, без зазора и без перекрытия. 66px —
+   запасной статичный fallback только на случай самого первого рендера до
+   первого вызова updateRailTop. */
 .ic-az-rail{display:none}
 .ic-az-peek{display:none}
 @media (max-width:620px){
@@ -904,11 +924,12 @@ button.ic-tv-back:active{background:rgba(var(--cream),.18)}
   .ic-wrap.ic-tv{padding-right:calc(32px + env(safe-area-inset-right))}
   .ic-az-rail{display:flex;flex-direction:column;justify-content:space-between;align-items:center;
     position:fixed;z-index:6;right:calc(1px + env(safe-area-inset-right));
-    top:calc(var(--top) + 14px);bottom:calc(14px + env(safe-area-inset-bottom));
-    width:30px;touch-action:none}
+    top:calc(var(--tvbar-h, 66px) + 14px);bottom:calc(14px + env(safe-area-inset-bottom));
+    width:30px;touch-action:none;transition:top .3s ease}
   .ic-az-rail button{flex:1 1 0;display:flex;align-items:center;justify-content:center;width:100%;
     min-height:0;border:0;background:none;padding:0;margin:0;
     font-family:var(--serif);font-size:.62em;font-weight:600;color:var(--accent);cursor:pointer}
+  .ic-az-rail.ic-az-tight button{font-size:.54em}
   .ic-az-peek{display:flex;position:fixed;top:50%;left:50%;
     transform:translate(-50%,-50%) scale(.82);width:124px;height:124px;border-radius:50%;
     background:rgba(33,29,23,.85);color:#ece5d4;align-items:center;justify-content:center;
