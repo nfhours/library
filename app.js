@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "137";
+  var APP_VER = "138";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -29,8 +29,20 @@
     root.style.setProperty("--top", px);
   }
   syncTopVar();
-  window.addEventListener("resize", function(){ syncTopVar(); setIcTopH(); });
-  window.addEventListener("orientationchange", function(){ syncTopVar(); setIcTopH(); });
+  window.addEventListener("resize", function(){ syncTopVar(); updateSheetMaxH(); });
+  window.addEventListener("orientationchange", function(){ syncTopVar(); updateSheetMaxH(); });
+  // visualViewport — события, которые СУЩЕСТВУЮТ ИМЕННО для динамической
+  // адресной строки iOS Safari (её показ/скрытие при скролле меняет
+  // visualViewport.height независимо от window.innerHeight/resize, который
+  // в этом случае вовсе не обязан сработать). См. updateSheetMaxH() ниже —
+  // единственное место, где JS ограничивает высоту выезжающей шторки; сама
+  // привязка «под панелью» теперь чистый CSS (position:absolute внутри
+  // position:sticky .ic-rbar, app.css), эти слушатели лишь подрезают
+  // max-height, не трогая top/позицию.
+  if(window.visualViewport){
+    window.visualViewport.addEventListener("resize", updateSheetMaxH);
+    window.visualViewport.addEventListener("scroll", updateSheetMaxH);
+  }
   // data-book="<slug>" запирает блок на одной книге (так подключается блок на Тильде).
   // Без атрибута — поведение по умолчанию, то же самое, что было до появления библиотеки:
   // блок показывает "iconologie" напрямую, старые адреса "#/p1-3" продолжают работать
@@ -914,22 +926,86 @@
     requestAnimationFrame(tick);
   }
 
-  // --ic-topH — CSS-переменная, читаемая .ic-rb-sheet (top панели = нижняя
-  // граница .back-bar+.ic-rbar вместе), пересчитывается при каждом открытии
-  // панели (см. makeRbSheet) и на resize/orientationchange (ниже, рядом с
-  // syncTopVar) — важно для ландшафтной смены ориентации «на лету», когда
-  // высота панелей меняется (компактная форма при малой высоте экрана, см.
-  // app.css), а переменная иначе осталась бы со старым значением.
-  function setIcTopH(){
+  // --ic-sheet-maxh — Round (баг «шторка выезжает под адресной строкой
+  // настоящего iOS Safari, без шапки/панели над собой»): раньше ВЕСЬ расчёт
+  // позиции выезжающей панели (.ic-rb-sheet) делал JS, одним снимком
+  // getBoundingClientRect() в момент открытия (см. бывший setIcTopH) — на
+  // настоящем устройстве адресная строка Safari прячется/появляется на
+  // лету, и этот снимок тут же мог оказаться неверным, особенно если сама
+  // капсула .ic-rbar только начала анимированно показываться. Теперь top
+  // панели — ЧИСТЫЙ CSS: .ic-rb-sheet вложена ВНУТРЬ .ic-rbar (а не рядом, в
+  // .ic-ch-outer) и выставлена position:absolute;top:100% — .ic-rbar уже
+  // position:sticky (а значит «positioned» по спецификации), и этого
+  // достаточно, чтобы быть containing block для абсолютных потомков без
+  // всякого JS, на КАЖДЫЙ кадр, включая кадры собственной transform-
+  // анимации капсулы (проверено в WebKit — см. отчёт). JS здесь остаётся
+  // только для ОГРАНИЧЕНИЯ высоты (не позиции!): containing block панели —
+  // сама капсула, у неё нет понятия «сколько места осталось до низа
+  // ВИДИМОЙ области», а чистый dvh тоже не решает (не знает, где именно
+  // начинается панель). window.visualViewport.height — единственный номер,
+  // который меняется СИНХРОННО с показом/скрытием адресной строки, в
+  // отличие от window.innerHeight; пересчитывается на его resize/scroll
+  // (см. слушатели у syncTopVar выше), а не разовым снимком при открытии —
+  // поэтому даже если адресная строка дёрнется ПОСРЕДИ анимации, max-height
+  // подстроится по факту события, а не останется замороженным неверным
+  // числом.
+  function updateSheetMaxH(){
     var rbar = document.getElementById("ic-rbar");
-    document.documentElement.style.setProperty("--ic-topH", (rbar ? rbar.getBoundingClientRect().bottom : (parseFloat(root.dataset.top)||0))+"px");
+    if(!rbar) return;
+    var vv = window.visualViewport;
+    var vh = vv ? vv.height : window.innerHeight;
+    // rbar.getBoundingClientRect().bottom НЕНАДЁЖЕН именно в тот момент,
+    // когда он нужнее всего: open() зовёт showBarsForced() (снимает класс
+    // ic-rbar-hidden синхронно), а СРАЗУ ЗА ним — эту функцию, в том же
+    // тике, ДО того как CSS transition transform капсулы успеет продвинуться
+    // хоть на кадр — rect.bottom в этот момент ещё отражает СКРЫТУЮ позицию
+    // (тот же класс гонки, что был у бывшего --ic-topH, просто теперь из-за
+    // собственной транзишен капсулы, а не адресной строки Safari). transform
+    // — это только позиция, высоту (rect.height) он не меняет, поэтому низ
+    // капсулы «в покое» можно посчитать без оглядки на анимацию: var(--top)
+    // (её sticky-отступ — то же число, что и у натурального потока при
+    // scrollY=0, т.к. .ic-rbar идёт сразу за .back-bar) + собственная
+    // высота капсулы.
+    var top = parseFloat(root.dataset.top) || 0;
+    var bottom = top + rbar.getBoundingClientRect().height;
+    var maxh = Math.max(120, vh - bottom - 8);
+    document.documentElement.style.setProperty("--ic-sheet-maxh", maxh+"px");
+  }
+
+  // syncSheetChrome — общее затемнение страницы (#ic-rb-dim, ОДНО на
+  // страницу — не по одному внутри каждой шторки, как раньше) и временное
+  // повышение z-index самой капсулы .ic-rbar (.ic-rbar-elevated), пока ХОТЬ
+  // ОДНА шторка этого registry открыта или ещё анимируется (закрывается).
+  // #ic-rb-dim — всегда position:fixed;inset:0 ВНЕ .ic-rbar (обычный
+  // реальный вьюпорт, не завязан на containing block капсулы), поэтому не
+  // нужно искать/переключать дим-слой внутри каждого sheetEl отдельно —
+  // один вызов syncSheetChrome(registry) после любого изменения isOpen/
+  // isAnimating любой шторки этого registry решает всё сразу.
+  // .ic-rbar-elevated нужен ТОЛЬКО ради самой панели (.ic-rb-sheet-panel) —
+  // она теперь живёт ВНУТРИ .ic-rbar (child, не сосед, см. markup во всех
+  // трёх рендерах), поэтому её фактический уровень в стеке слоёв ограничен
+  // z-index предка (.ic-rbar), а не собственным z-index — во время
+  // анимации открытия/закрытия панель может на мгновение перекрывать
+  // .back-bar (она выезжает «из-за головы» капсулы, см. transform в
+  // app.css), которая иначе (z-index:10 в index.html) окажется НАД ней.
+  // Поднимаем .ic-rbar выше .back-bar только на время открытия/анимации —
+  // не навсегда, чтобы не трогать уже отработанный порядок слоёв капсулы
+  // относительно .back-bar в обычном скролл-скрытии (installScrollHide).
+  function syncSheetChrome(registry){
+    var any = registry.some(function(s){ return s.isOpen() || s.isAnimating(); });
+    var dim = document.getElementById("ic-rb-dim");
+    if(dim) dim.classList.toggle("ic-rb-dim-show", any);
+    var rbar = document.getElementById("ic-rbar");
+    if(rbar) rbar.classList.toggle("ic-rbar-elevated", any);
   }
 
   // Общий механизм выезжающей панели-шторки читалки (.ic-rb-sheet) — делит
   // поиск (sheetApi) и список глав (tocSheetApi) читалки, см. их создание в
-  // renderChapter. sheetEl — корневой .ic-rb-sheet этого экземпляра (внутри
-  // ожидает .ic-rb-sheet-dim и .ic-rb-sheet-panel), btn — кнопка .ic-rbar,
-  // которой выставляется aria-pressed.
+  // renderChapter. sheetEl — корневой .ic-rb-sheet этого экземпляра, теперь
+  // ВЛОЖЕННЫЙ внутрь .ic-rbar (а не рядом, в .ic-ch-outer) и БЕЗ своего
+  // .ic-rb-sheet-dim (затемнение общее на страницу, см. syncSheetChrome
+  // выше) — внутри ожидает только .ic-rb-sheet-panel. btn — кнопка
+  // .ic-rbar, которой выставляется aria-pressed.
   //
   // Round N (правки «дёргается» + «список глав как шторка», см. задание):
   // 1. sheetAnimating — отдельный от isOpen флаг: выставляется true сразу на
@@ -954,7 +1030,6 @@
   function makeRbSheet(sheetEl, btn, opts){
     opts = opts || {};
     var registry = opts.registry || [];
-    var dim = sheetEl.querySelector(".ic-rb-sheet-dim");
     var panel = sheetEl.querySelector(".ic-rb-sheet-panel");
     var isOpenFlag = false, animating = false, animTimer = null;
     function onTransEnd(e){ if(e.target===panel && e.propertyName==="transform") clearAnim(); }
@@ -962,6 +1037,7 @@
       if(animTimer){ clearTimeout(animTimer); animTimer = null; }
       panel.removeEventListener("transitionend", onTransEnd);
       animating = false;
+      syncSheetChrome(registry);
     }
     function startAnim(){
       clearAnim();
@@ -982,7 +1058,7 @@
     function open(arg){
       registry.forEach(function(s){ if(s !== api && s.isOpen()) s.closeInstant(); });
       showBarsForced();
-      setIcTopH();
+      updateSheetMaxH();
       lockBodyScroll();
       startAnim();
       sheetEl.classList.add("ic-rb-sheet-open");
@@ -990,6 +1066,7 @@
       if(btn) btn.setAttribute("aria-pressed","true");
       activeSheetClose = closeFromRoute;
       document.addEventListener("keydown", onKey);
+      syncSheetChrome(registry);
       if(opts.onOpen) opts.onOpen(arg);
     }
     function close(){
@@ -1001,6 +1078,7 @@
       document.removeEventListener("keydown", onKey);
       if(activeSheetClose === closeFromRoute) activeSheetClose = null;
       unlockBodyScroll();
+      syncSheetChrome(registry);
       if(opts.onClose) opts.onClose();
     }
     // route() дёргает activeSheetClose() на КАЖДУЮ навигацию (даже когда эта
@@ -1012,12 +1090,18 @@
       document.removeEventListener("keydown", onKey);
       unlockBodyScroll();
       activeSheetClose = null;
+      syncSheetChrome(registry);
     }
     // closeInstant — взаимоисключение (см. open() выше): закрывает БЕЗ
     // собственной анимации, синхронно, не трогая body-lock (следующий же
     // open() другой панели из того же registry снова его выставит —
     // lockBodyScroll идемпотентен, см. его определение; если открытия не
-    // следует, вызывающая сторона сама вызовет обычный close()).
+    // следует, вызывающая сторона сама вызовет обычный close()). Общий дим/
+    // .ic-rbar-elevated не мигают здесь вовсе: closeInstant вызывается ТОЛЬКО
+    // из open() другой шторки того же registry — та уже сама выставила обе
+    // метки ДО этого вызова (см. open() выше — showBarsForced()+classList.add
+    // идут раньше registry.forEach), так что syncSheetChrome(registry) всё
+    // равно увидит «кто-то открыт» и не потребует отдельного вызова тут.
     function closeInstant(){
       if(!isOpenFlag) return;
       sheetEl.classList.add("ic-rb-sheet-noanim");
@@ -1029,7 +1113,9 @@
       document.removeEventListener("keydown", onKey);
       if(activeSheetClose === closeFromRoute) activeSheetClose = null;
     }
-    dim.addEventListener("click", close);
+    function dimClick(){ if(isOpenFlag) close(); }
+    var dim = document.getElementById("ic-rb-dim");
+    if(dim) dim.addEventListener("click", dimClick);
     Array.prototype.slice.call(sheetEl.querySelectorAll(".ic-rb-sheet-close")).forEach(function(b){ b.addEventListener("click", close); });
     var api = {
       open: open, close: close, closeInstant: closeInstant,
@@ -1749,17 +1835,11 @@
   // closeQm ниже по файлу: один слушатель на весь модуль, no-op, если
   // панели читалки сейчас нет на странице (querySelectorAll вернёт пусто).
   window.addEventListener("resize", function(){ fitCtxLabels(document); });
-  // Пересчёт --ic-topH (верхняя граница выезжающей панели поиска читалки,
-  // см. .ic-rb-sheet в app.css) при ресайзе, ПОКА панель открыта — один
-  // слушатель на весь модуль (не по одному на каждый рендер главы, чтобы не
-  // накапливались при переходах между главами), no-op, если открытой панели
-  // нет. Тот же приём setTop()/addEventListener('resize') из макета.
-  window.addEventListener("resize", function(){
-    var openSheetEl = document.querySelector(".ic-rb-sheet.ic-rb-sheet-open");
-    if(!openSheetEl) return;
-    var rbarNow = document.getElementById("ic-rbar");
-    document.documentElement.style.setProperty("--ic-topH", (rbarNow ? rbarNow.getBoundingClientRect().bottom : 0)+"px");
-  });
+  // Пересчёт max-height выезжающей панели при ресайзе — уже покрыт общим
+  // слушателем window resize/orientationchange+visualViewport у syncTopVar/
+  // updateSheetMaxH() (самое начало файла); отдельный слушатель здесь
+  // больше не нужен — top панели не JS-величина вовсе (чистый CSS, см.
+  // комментарий у updateSheetMaxH()).
   // Esc закрывает открытую панель поиска читалки — один слушатель на весь
   // модуль (не по одному на каждый рендер главы), через клик по уже
   // подключённой кнопке «Закрыть» внутри панели, а не вызовом closure
@@ -1908,6 +1988,11 @@
       // и виден всегда целиком, при недостатке места ужимается короткая
       // форма названия главы (.ic-rbar-pos-ch, обычный CSS-эллипсис).
       root.innerHTML =
+        // #ic-rb-dim — единое затемнение страницы (ОДНО, не по одному внутри
+        // каждой шторки), всегда position:fixed;inset:0 ВНЕ .ic-rbar — см.
+        // подробный комментарий у syncSheetChrome() в app.js и у #ic-rb-dim
+        // в app.css. Показывается/прячется синхронно с любой из шторок ниже.
+        '<div id="ic-rb-dim"></div>'+
         '<div class="ic-ch-outer">'+
           '<div class="ic-rbar" id="ic-rbar">'+
             '<div class="ic-rbar-row">'+
@@ -1922,6 +2007,50 @@
               (book.meta.home ? '<button type="button" class="ic-rbar-search" data-rb="search" aria-pressed="false">'+esc(t("hmSearch"))+'</button>' : "")+
             '</div>'+
             langSwitch()+
+            // Выезжающая панель поиска читалки (.ic-rb-sheet) — только у книг
+            // с «домашней» страницей (book.meta.home), т.е. ровно там, где
+            // раньше кнопка «Поиск» вела на home/search. Внутри — ТОТ ЖЕ
+            // контракт разметки, что ждёт wireBookSearch на странице
+            // home/search (форма .ic-home-search с input.ic-search + соседний
+            // div.ic-sr) — функция переиспользуется без переделок, просто
+            // подключена к другому DOM. ВЛОЖЕНА внутрь .ic-rbar (child, не
+            // сосед в .ic-ch-outer, как раньше) — см. комментарий у
+            // updateSheetMaxH()/makeRbSheet про чистый CSS top:100%.
+            (book.meta.home ?
+              '<div class="ic-rb-sheet" id="ic-rb-sheet">'+
+                '<div class="ic-rb-sheet-panel">'+
+                  '<div class="ic-rb-sheet-head">'+
+                    '<form class="ic-home-search" role="search">'+
+                      '<span class="ic-search-wrap"><input class="ic-search" type="search" enterkeyhint="search" placeholder="'+esc(t("srPlace"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("srPlace"))+'">'+
+                      '<button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
+                    '</form>'+
+                    '<button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button>'+
+                  '</div>'+
+                  '<div class="ic-sr" aria-live="polite"></div>'+
+                '</div>'+
+              '</div>'
+            : "")+
+            // Выезжающая панель «Содержание» (кнопка data-rb="pos") — та же
+            // разметка/анимация/класс .ic-rb-sheet..., что у панели поиска
+            // выше (makeRbSheet ниже — общий хелпер для обеих, см. комментарий
+            // там), просто с другим содержимым головы (заголовок+кнопка
+            // закрытия вместо формы поиска) и списком глав (tocPartsHtml)
+            // вместо .ic-sr. В отличие от панели поиска эта нужна ВСЕГДА
+            // (кнопка «pos» есть у любой книги читалки, не только у книг с
+            // «домашней» страницей) — поэтому не обёрнута в book.meta.home.
+            // Модификатор .ic-rb-sheet-toc переопределяет стиль текущей главы
+            // в списке (app.css): полужирный + акцентная черта слева, без
+            // курсива/стрелки «›», которые даёт обычный .ic-toc-part
+            // a[aria-current] у старой полноэкранной шторки.
+            '<div class="ic-rb-sheet ic-rb-sheet-toc" id="ic-rb-toc-sheet">'+
+              '<div class="ic-rb-sheet-panel">'+
+                '<div class="ic-rb-sheet-head">'+
+                  '<span class="ic-rb-sheet-head-title">'+esc(t("contents"))+'</span>'+
+                  '<button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button>'+
+                '</div>'+
+                '<nav class="ic-rb-toc-body">'+tocPartsHtml(book, chap, ch && ch.slug)+'</nav>'+
+              '</div>'+
+            '</div>'+
           '</div>'+
           '<div class="ic-wrap ic-ch-wrap">'+
             '<header class="ic-head">'+
@@ -1931,48 +2060,6 @@
             (enMode ? (enPrep ? '<p class="ic-ch-note">'+esc(t(trl==="fr" ? "chFrPrep" : "chEnPrep"))+'</p>' : "") : (state.lang!=="ru" && ch && ch.blocks ? '<p class="ic-ch-note">'+esc(t("chRuOnly"))+'</p>' : ""))+
             body+
             (ch ? '<div class="ic-pager">'+pagerBtn(prev,t("chPrev"))+pagerBtn(next,t("chNext"))+'</div>' : "")+
-          '</div>'+
-        '</div>'+
-        // Выезжающая панель поиска читалки (.ic-rb-sheet) — только у книг с
-        // «домашней» страницей (book.meta.home), т.е. ровно там, где раньше
-        // кнопка «Поиск» вела на home/search. Внутри — ТОТ ЖЕ контракт
-        // разметки, что ждёт wireBookSearch на странице home/search (форма
-        // .ic-home-search с input.ic-search + соседний div.ic-sr) — функция
-        // переиспользуется без переделок, просто подключена к другому DOM.
-        (book.meta.home ?
-          '<div class="ic-rb-sheet" id="ic-rb-sheet">'+
-            '<div class="ic-rb-sheet-dim" id="ic-rb-sheet-dim"></div>'+
-            '<div class="ic-rb-sheet-panel">'+
-              '<div class="ic-rb-sheet-head">'+
-                '<form class="ic-home-search" role="search">'+
-                  '<span class="ic-search-wrap"><input class="ic-search" type="search" enterkeyhint="search" placeholder="'+esc(t("srPlace"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("srPlace"))+'">'+
-                  '<button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
-                '</form>'+
-                '<button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button>'+
-              '</div>'+
-              '<div class="ic-sr" aria-live="polite"></div>'+
-            '</div>'+
-          '</div>'
-        : "")+
-        // Выезжающая панель «Содержание» (кнопка data-rb="pos") — та же
-        // разметка/анимация/класс .ic-rb-sheet..., что у панели поиска выше
-        // (makeRbSheet ниже — общий хелпер для обеих, см. комментарий там),
-        // просто с другим содержимым головы (заголовок+кнопка закрытия вместо
-        // формы поиска) и списком глав (tocPartsHtml) вместо .ic-sr. В отличие
-        // от панели поиска эта нужна ВСЕГДА (кнопка «pos» есть у любой книги
-        // читалки, не только у книг с «домашней» страницей) — поэтому не
-        // обёрнута в book.meta.home. Модификатор .ic-rb-sheet-toc переопределяет
-        // стиль текущей главы в списке (app.css): полужирный + акцентная
-        // черта слева, без курсива/стрелки «›», которые даёт обычный
-        // .ic-toc-part a[aria-current] у старой полноэкранной шторки.
-        '<div class="ic-rb-sheet ic-rb-sheet-toc" id="ic-rb-toc-sheet">'+
-          '<div class="ic-rb-sheet-dim"></div>'+
-          '<div class="ic-rb-sheet-panel">'+
-            '<div class="ic-rb-sheet-head">'+
-              '<span class="ic-rb-sheet-head-title">'+esc(t("contents"))+'</span>'+
-              '<button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button>'+
-            '</div>'+
-            '<nav class="ic-rb-toc-body">'+tocPartsHtml(book, chap, ch && ch.slug)+'</nav>'+
           '</div>'+
         '</div>';
       bindLangSwitch(root);
@@ -2312,12 +2399,13 @@
       // чтения главы (см. renderChapter), с тем же id="ic-rbar": страницы
       // показываются по очереди (root.innerHTML целиком заменяется на
       // навигации), так что совпадение id с читалкой не конфликтует, а даёт
-      // бесплатно работающие setIcTopH()/makeRbSheet's showBarsForced(),
+      // бесплатно работающие updateSheetMaxH()/makeRbSheet's showBarsForced(),
       // которые ищут панель именно по этому id. Три ячейки вместо пяти:
       // [Книга][Найти][сортировка]. Горизонтальные буквы и счётчик больше не
       // помещаются в капсулу — перенесены ниже, в светлую часть .ic-wrap.ic-tv
       // (см. задание, пункт 1).
       root.innerHTML =
+        '<div id="ic-rb-dim"></div>'+
         '<div class="ic-ch-outer">'+
           '<div class="ic-rbar" id="ic-rbar">'+
             '<div class="ic-rbar-row">'+
@@ -2326,17 +2414,16 @@
               '<button type="button" data-rb="sort">'+esc(tvSortLabel())+'</button>'+
             '</div>'+
             langSwitch()+
-          '</div>'+
-          '<div class="ic-rb-sheet" id="ic-tv-search-sheet">'+
-            '<div class="ic-rb-sheet-dim"></div>'+
-            '<div class="ic-rb-sheet-panel">'+
-              '<div class="ic-rb-sheet-head">'+
-                '<form class="ic-home-search" role="search">'+
-                  '<span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("tvSearchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("tvSearchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
-                '</form>'+
-                '<button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button>'+
+            '<div class="ic-rb-sheet" id="ic-tv-search-sheet">'+
+              '<div class="ic-rb-sheet-panel">'+
+                '<div class="ic-rb-sheet-head">'+
+                  '<form class="ic-home-search" role="search">'+
+                    '<span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("tvSearchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("tvSearchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
+                  '</form>'+
+                  '<button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button>'+
+                '</div>'+
+                '<div class="ic-tv-sheet-foot"><p class="ic-tv-sheet-count"></p><button type="button" class="ic-tv-sheet-reset">'+esc(t("tvReset"))+'</button></div>'+
               '</div>'+
-              '<div class="ic-tv-sheet-foot"><p class="ic-tv-sheet-count"></p><button type="button" class="ic-tv-sheet-reset">'+esc(t("tvReset"))+'</button></div>'+
             '</div>'+
           '</div>'+
           // .ic-ch-outer должен обнимать ВСЮ страницу (капсулу + светлую
@@ -2597,6 +2684,7 @@
       // а кнопка, открывающая отдельную выезжающую шторку выбора типа
       // (makeRbSheet, тот же механизм, что у шторки «Содержание» читалки).
       root.innerHTML =
+        '<div id="ic-rb-dim"></div>'+
         '<div class="ic-ch-outer">'+
           '<div class="ic-rbar" id="ic-rbar">'+
             '<div class="ic-rbar-row">'+
@@ -2605,27 +2693,25 @@
               '<button type="button" data-rb="type" aria-pressed="false">'+esc(nmTypeLabel())+'</button>'+
             '</div>'+
             langSwitch()+
-          '</div>'+
-          '<div class="ic-rb-sheet" id="ic-tv-search-sheet">'+
-            '<div class="ic-rb-sheet-dim"></div>'+
-            '<div class="ic-rb-sheet-panel">'+
-              '<div class="ic-rb-sheet-head">'+
-                '<form class="ic-home-search" role="search">'+
-                  '<span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("nmSearchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("nmSearchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
-                '</form>'+
-                '<button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button>'+
+            '<div class="ic-rb-sheet" id="ic-tv-search-sheet">'+
+              '<div class="ic-rb-sheet-panel">'+
+                '<div class="ic-rb-sheet-head">'+
+                  '<form class="ic-home-search" role="search">'+
+                    '<span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("nmSearchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("nmSearchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
+                  '</form>'+
+                  '<button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button>'+
+                '</div>'+
+                '<div class="ic-tv-sheet-foot"><p class="ic-tv-sheet-count"></p><button type="button" class="ic-tv-sheet-reset">'+esc(t("tvReset"))+'</button></div>'+
               '</div>'+
-              '<div class="ic-tv-sheet-foot"><p class="ic-tv-sheet-count"></p><button type="button" class="ic-tv-sheet-reset">'+esc(t("tvReset"))+'</button></div>'+
             '</div>'+
-          '</div>'+
-          '<div class="ic-rb-sheet" id="ic-tv-type-sheet">'+
-            '<div class="ic-rb-sheet-dim"></div>'+
-            '<div class="ic-rb-sheet-panel">'+
-              '<div class="ic-rb-sheet-head"><span class="ic-rb-sheet-head-title">'+esc(t("nmTypeLabel"))+'</span><button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button></div>'+
-              '<div class="ic-tv-typelist" role="group" aria-label="'+esc(t("nmTypeLabel"))+'">'+
-                ["all"].concat(NM_TYPES).map(function(k){
-                  return tcount[k] ? '<button type="button" class="ic-tv-typerow" data-ty="'+k+'" aria-pressed="'+(namesUi.ty===k)+'"><span>'+esc(t(k==="all" ? "nmAll" : "nmT_"+k))+'</span><span class="ic-tv-typecount">'+tcount[k]+'</span></button>' : "";
-                }).join("")+
+            '<div class="ic-rb-sheet" id="ic-tv-type-sheet">'+
+              '<div class="ic-rb-sheet-panel">'+
+                '<div class="ic-rb-sheet-head"><span class="ic-rb-sheet-head-title">'+esc(t("nmTypeLabel"))+'</span><button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button></div>'+
+                '<div class="ic-tv-typelist" role="group" aria-label="'+esc(t("nmTypeLabel"))+'">'+
+                  ["all"].concat(NM_TYPES).map(function(k){
+                    return tcount[k] ? '<button type="button" class="ic-tv-typerow" data-ty="'+k+'" aria-pressed="'+(namesUi.ty===k)+'"><span>'+esc(t(k==="all" ? "nmAll" : "nmT_"+k))+'</span><span class="ic-tv-typecount">'+tcount[k]+'</span></button>' : "";
+                  }).join("")+
+                '</div>'+
               '</div>'+
             '</div>'+
           '</div>'+

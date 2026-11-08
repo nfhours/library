@@ -294,6 +294,17 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    bar's own height — so clearing the viewport needs that offset added too,
    plus a small buffer against sub-pixel rounding. */
 .ic-rbar.ic-rbar-hidden{transform:translateY(calc(-100% - var(--top) - 16px))}
+/* .ic-rbar-elevated — временно (makeRbSheet/syncSheetChrome в app.js, пока
+   ХОТЬ ОДНА шторка этой капсулы открыта/анимируется) поднимает z-index
+   .ic-rbar выше .back-bar (z-index:10, index.html). Нужно ТОЛЬКО из-за
+   .ic-rb-sheet-panel — она теперь прямой ребёнок .ic-rbar (см. комментарий
+   у .ic-rb-sheet ниже), а z-index потомка не может перепрыгнуть за пределы
+   стекового контекста родителя: без этого момент, когда выезжающая панель
+   своим transform-слайдом заходит выше нижней границы .back-bar, панель
+   частично красилась бы ПОД ней. Не навсегда — обычное скрытие/показ самой
+   капсулы по скроллу (installScrollHide) не трогает этот класс и остаётся
+   на z-index:5 < .back-bar, как раньше. */
+.ic-rbar.ic-rbar-elevated{z-index:20}
 /* Капсула (.vB .row в макете): одна общая рамка на всю строку, радиус на
    капсуле целиком (не на отдельных кнопках), gap:0 — деление на ячейки даёт
    border-left у самих кнопок (ниже), а не настоящий зазор; overflow:hidden
@@ -407,24 +418,58 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
 /* Выезжающая панель поиска читалки (.ic-rb-sheet) — кнопка «Поиск» в .ic-rbar
    больше не ведёт на отдельную страницу home/search, а раскрывает эту панель
    прямо над текстом главы, по образцу .sheet/.dim/.panel из rbar-proto.html
-   (вариант Б). top панели = нижняя граница .back-bar+.ic-rbar вместе (CSS-
-   переменная --ic-topH, которую выставляет app.js при открытии/ресайзе —
-   см. setSheetTop). Анимация ОДНИМ куском — transform на самой панели,
-   никакой отдельной анимации у строк результатов внутри (это уже даёт
-   wireBookSearch/srRender, не переделывалось). */
-.ic-rb-sheet{position:fixed;left:0;right:0;bottom:0;top:var(--ic-topH,110px);z-index:40;
+   (вариант Б). Анимация ОДНИМ куском — transform на самой панели, никакой
+   отдельной анимации у строк результатов внутри (это уже даёт
+   wireBookSearch/srRender, не переделывалось).
+   Round (фикс «шторка выезжает под адресной строкой настоящего iOS
+   Safari» — не воспроизводилось в Playwright/WebKit-эмуляции, см. задание):
+   раньше top панели был JS-снимком (--ic-topH, getBoundingClientRect() в
+   момент открытия) — на настоящем устройстве адресная строка Safari может
+   прятаться/появляться ПОСРЕДИ анимации открытия, и снимок тут же
+   оказывался неверным. Теперь .ic-rb-sheet — ПРЯМОЙ ребёнок .ic-rbar (см.
+   разметку в app.js — больше не сосед в .ic-ch-outer), position:absolute,
+   top:100% — без единого числа из JS: .ic-rbar уже position:sticky, а
+   значит «positioned» по спецификации CSS, и этого ОДНОГО факта достаточно,
+   чтобы быть containing block для position:absolute потомков — браузер
+   пересчитывает top на каждый кадр сам, в том числе во время собственной
+   transform-анимации капсулы (проверено в WebKit: position:absolute внутри
+   position:sticky родителя 1:1 следует за transform-анимацией родителя на
+   каждом кадре, без расхождений — см. отчёт). Альтернатива из задания
+   (position:fixed + will-change:transform-как-containing-block) тоже
+   подтвердилась в тесте, но position:absolute выбран как более надёжный —
+   он containing block для абсолютных потомков просто по факту
+   position:sticky, независимо от будущих правок will-change/transform на
+   .ic-rbar, тогда как fixed-trick работал бы только пока эти свойства не
+   тронуты. Нет своего .ic-rb-sheet-dim — общее затемнение страницы теперь
+   одно на все шторки, см. #ic-rb-dim ниже. */
+/* left:0;right:0 — ДОСТАТОЧНО, без всякой компенсации горизонтального
+   паддинга .ic-rbar: containing block для position:absolute потомка — это
+   PADDING box предка (не content box), т.е. уже включает в себя весь
+   паддинг — левая/правая граница padding box совпадает с границей border
+   box (у .ic-rbar нет left/right border, только border-bottom), так что
+   left:0/right:0 здесь само по себе равно полной ширине капсулы, той же,
+   что была у прежнего position:fixed;left:0;right:0 (проверено в WebKit —
+   см. отчёт; более ранняя версия этого правила по ошибке компенсировала
+   паддинг ещё раз, из-за чего шторка съезжала на 12-28px за реальный край
+   экрана). */
+.ic-rb-sheet{position:absolute;left:0;right:0;top:100%;
   visibility:hidden;pointer-events:none;transition:visibility 0s linear .34s}
-.ic-rb-sheet-dim{position:absolute;inset:0;background:rgba(22,19,15,.42);opacity:0;transition:opacity .3s ease}
 .ic-rb-sheet-panel{position:absolute;left:0;right:0;top:0;background:var(--paper);
-  max-height:calc(100% - 40px);overflow:auto;border-radius:0 0 16px 16px;
+  /* --ic-sheet-maxh — ЕДИНСТВЕННОЕ, что всё ещё считает JS (app.js,
+     updateSheetMaxH(), на открытие + visualViewport resize/scroll, НЕ на
+     разовый снимок при открытии) — максимум высоты, не позиция: containing
+     block панели (.ic-rbar) мал и не знает, сколько места остаётся до низа
+     настоящей видимой области, а чистый dvh тоже не в курсе, где панель
+     начинается. 70vh — запасной статичный предел на случай, если JS ещё
+     не отработал (первый кадр до open()). */
+  max-height:var(--ic-sheet-maxh,70vh);overflow:auto;border-radius:0 0 16px 16px;
   box-shadow:0 18px 36px -12px rgba(0,0,0,.45);padding:14px 16px 18px;
   transform:translate3d(0,-100%,0);will-change:transform;
   -webkit-backface-visibility:hidden;backface-visibility:hidden;
   transition:transform .34s cubic-bezier(.22,.9,.24,1)}
 .ic-rb-sheet.ic-rb-sheet-open{visibility:visible;pointer-events:auto;transition:visibility 0s}
-.ic-rb-sheet.ic-rb-sheet-open .ic-rb-sheet-dim{opacity:1}
 .ic-rb-sheet.ic-rb-sheet-open .ic-rb-sheet-panel{transform:translate3d(0,0,0)}
-@media (prefers-reduced-motion:reduce){.ic-rb-sheet-panel,.ic-rb-sheet-dim{transition:none}}
+@media (prefers-reduced-motion:reduce){.ic-rb-sheet-panel{transition:none}}
 .ic-rb-sheet-head{display:flex;gap:8px;align-items:center;position:sticky;top:0;background:var(--paper);
   padding-bottom:10px;margin-bottom:2px;z-index:1}
 .ic-rb-sheet-head .ic-home-search{flex:1 1 auto;min-width:0;margin:0}
@@ -442,12 +487,33 @@ button.ic-rb-sheet-close{flex:none;height:44px;border:1px solid rgba(28,24,19,.3
   color:var(--ink);cursor:pointer}
 @media (hover:hover){button.ic-rb-sheet-close:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}}
 /* Взаимоисключение поиск/список глав (makeRbSheet, app.js): закрытие БЕЗ
-   собственной анимации — временно снимает transition у панели/затемнения/
-   самой обёртки (видимость иначе держится ещё .34s после снятия .ic-rb-
-   sheet-open, см. правило выше), меняется классом на один синхронный тик. */
+   собственной анимации — временно снимает transition у панели/самой обёртки
+   (видимость иначе держится ещё .34s после снятия .ic-rb-sheet-open, см.
+   правило выше), меняется классом на один синхронный тик. Общее затемнение
+   (#ic-rb-dim) сюда не входит — ему не нужен noanim-скачок вовсе: open()
+   другой шторки того же registry уже держит его показанным (см.
+   syncSheetChrome в app.js), оно никогда не мигает между closeInstant и
+   следующим open(). */
 .ic-rb-sheet.ic-rb-sheet-noanim,
-.ic-rb-sheet.ic-rb-sheet-noanim .ic-rb-sheet-dim,
 .ic-rb-sheet.ic-rb-sheet-noanim .ic-rb-sheet-panel{transition:none!important}
+
+/* #ic-rb-dim — единое затемнение страницы (вместо собственного дима внутри
+   КАЖДОЙ шторки, как было раньше) — один элемент на страницу, который
+   показывается/прячется синхронно с ЛЮБОЙ из шторок (.ic-rb-sheet) на ней,
+   см. syncSheetChrome() в app.js. ВСЕГДА position:fixed;inset:0 относительно
+   настоящего вьюпорта — размечается ВНЕ .ic-rbar (прямо в разметке страницы,
+   не вложен в капсулу, см. app.js), поэтому не наследует containing-block
+   «трюк» position:sticky/will-change капсулы для position:absolute/fixed
+   потомков и inset:0 всегда покрывает реальный экран целиком, независимо от
+   прокрутки/анимации капсулы. z-index — НИЖЕ обычного .ic-rbar (5) и
+   .back-bar (10, index.html): затемняет текст главы/указателя/имён под
+   собой, но не сами капсулы шапки — так же, как раньше затемнялась только
+   область под панелями, не сами панели. */
+#ic-rb-dim{position:fixed;inset:0;z-index:4;background:rgba(22,19,15,.42);
+  opacity:0;visibility:hidden;pointer-events:none;
+  transition:opacity .3s ease,visibility 0s linear .34s}
+#ic-rb-dim.ic-rb-dim-show{opacity:1;visibility:visible;pointer-events:auto;transition:opacity .3s ease}
+@media (prefers-reduced-motion:reduce){#ic-rb-dim{transition:none}}
 
 /* Панель «Содержание» (.ic-rb-sheet-toc) — тот же .ic-rb-sheet-head, но
    заголовок текста вместо формы поиска. */
