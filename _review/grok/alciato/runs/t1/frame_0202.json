@@ -1,0 +1,59 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 202,
+ "source": "scan/frame_0202.jpg",
+ "page": "196",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SCIENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Antiquiſsima quæque",
+     "commentitia."
+    ],
+    "reading": "Antiquissima quæque commentitia."
+   },
+   "subheading": {
+    "diplomatic": "APOLOGESIS.",
+    "reading": "APOLOGESIS."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Протей — старец с трезубцем среди волн и морских чудовищ; солнце с лицом",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Pellenæe ſenex,cui forma eſt hiſtrica,Proteu,",
+     "Qui modò membra viri fers,modò mẽbra feri.",
+     "Dic age,quæ ſpecies ratio te vertit in omnes,",
+     "Nulla ſit vt vario certa figura tibi?",
+     "Signa vetuſtatis,primæui & præfero ſecli:",
+     "De quo quiſque ſuo ſomniat arbitrio."
+    ],
+    "reading": [
+     "Pellenæe senex, cui forma est histrica, Protev,",
+     "Qui modò membra viri fers, modò membra feri.",
+     "Dic age, quæ species ratio te vertit in omnes,",
+     "Nulla sit ut vario certa figura tibi?",
+     "Signa vetustatis, primævi & præfero secli:",
+     "De quo quisque suo somniat arbitrio."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с гермами, маскаронами, сфинксами"
+  }
+ ],
+ "notes": "Номер «196» вверху слева. В колонтитуле между T и IA случайная вертикальная черта."
+}

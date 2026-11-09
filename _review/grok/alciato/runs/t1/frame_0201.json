@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 201,
+ "source": "scan/frame_0201.jpg",
+ "page": "195",
+ "signature": "N 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SCIENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Facundia difficilis."
+    ],
+    "reading": "Facundia difficilis."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Меркурий с кадуцеем и крылатой шапкой вручает Улиссу (в доспехах) траву моли; пейзаж, облака",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Antidotum Aeææ medicata in pocula Circes",
+     "Mercurium hoc Ithaco fama dediſſe fuit.",
+     "Moly vocant,id vix radice euellitur atra,",
+     "Purpureus:ſed flos,lactis & inſtar habet.",
+     "Eloquij candor facundiaq; allicit omnes:",
+     "Sed multi res eſt tanta laboris opus."
+    ],
+    "reading": [
+     "Antidotum Aeææ medicata in pocula Circes",
+     "Mercurium hoc Ithaco fama dedisse fuit.",
+     "Moly vocant, id vix radice evellitur atra,",
+     "Purpureus: sed flos, lactis & instar habet.",
+     "Eloquii candor facundiaque allicit omnes:",
+     "Sed multi res est tanta laboris opus."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с гермами, маскаронами, сфинксами и меандром внизу"
+  }
+ ],
+ "notes": "Номер «195» вверху справа."
+}

@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 203,
+ "source": "scan/frame_0203.jpg",
+ "page": "197",
+ "signature": "N 3",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SCIENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Inſignia Poëtarum."
+    ],
+    "reading": "Insignia Poëtarum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Лебедь у щита-герба, прислонённого к дереву; камыши, вода",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Gentiles clypeos ſunt qui in Iouis alite geſtant,",
+     "Sunt quibus aut Serpens,aut Leo ſigna ferunt.",
+     "Dira ſed hæc Vatum fugiant animalia ceras,",
+     "Doctaq; ſuſtineat ſtemmata pulcher Olor.",
+     "Hic Phœbo ſacer,& noſtræ regionis alumnus:",
+     "Rex,olim veteres ſeruat adhuc titulos."
+    ],
+    "reading": [
+     "Gentiles clypeos sunt qui in Iovis alite gestant,",
+     "Sunt quibus aut Serpens, aut Leo signa ferunt.",
+     "Dira sed hæc Vatum fugiant animalia ceras,",
+     "Doctaque sustineat stemmata pulcher Olor.",
+     "Hic Phœbo sacer, & nostræ regionis alumnus:",
+     "Rex, olim veteres servat adhuc titulos."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с витыми колоннами, гермами, путти вверху и чашей-вазой со сфинксами внизу"
+  }
+ ],
+ "notes": "Номер «197» вверху справа."
+}

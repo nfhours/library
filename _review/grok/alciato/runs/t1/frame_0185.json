@@ -1,0 +1,63 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 185,
+ "source": "scan/frame_0185.jpg",
+ "page": "179",
+ "signature": "M 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HOSTILLITAS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Al iquid mali,propter vicinum",
+     "malum."
+    ],
+    "reading": "Aliquid mali, propter vicinum malum."
+   },
+   "subheading": {
+    "diplomatic": "Προσωποπ[?]ῖα.",
+    "reading": "Προσωποπ[?]ῖα."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Два сосуда — медный и глиняный — несутся по бурному потоку; холмистый пейзаж",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Raptabat torrens ollas,quarum vna metallo,",
+     "Altera erat figuli terrea facta manu.",
+     "Hanc igitur rogat illa:velit ſibi proxima ferri:",
+     "Iuncta vt præcipites vtraque ſiſtat aquas.",
+     "Cui lutea,Haud nobis tua ſunt commercia curæ,",
+     "Ne mihi proximitas hæc mala multa ferat.",
+     "Nam ſeu te nobis,ſeu nos tibi conferat vnda:",
+     "Ipſa ego te fragilis ſoſpite ſola terar."
+    ],
+    "reading": [
+     "Raptabat torrens ollas, quarum una metallo,",
+     "Altera erat figuli terrea facta manu.",
+     "Hanc igitur rogat illa: velit sibi proxima ferri:",
+     "Iuncta ut præcipites utraque sistat aquas.",
+     "Cui lutea, Haud nobis tua sunt commercia curæ,",
+     "Ne mihi proximitas hæc mala multa ferat.",
+     "Nam seu te nobis, seu nos tibi conferat unda:",
+     "Ipsa ego te fragilis sospite sola terar."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Рамка с волютами, маскаронами, гирляндами и масками внизу"
+  }
+ ],
+ "notes": "Номер «179» вверху справа."
+}

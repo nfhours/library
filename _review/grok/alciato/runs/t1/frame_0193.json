@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 193,
+ "source": "scan/frame_0193.jpg",
+ "page": "187",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "VINDICTA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Parem delinquentis,& ſuaſoris",
+     "culpam eſſe."
+    ],
+    "reading": "Parem delinquentis, & suasoris culpam esse."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Воины хватают трубача (с щитом/трубой) у стены здания; у его ног оружие",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Præconem lituo perflantem claſsica,victrix",
+     "Captiuum in tetro carcere turba tenet.",
+     "Quẽis ille excuſat:quòd nec ſit ſtrenuus armis,",
+     "Vllius aut ſæuo læſerit enſe latus.",
+     "Huic illi: Quin ipſe magis timidiſsime peccas,",
+     "Qui clangore alios æris in arma cies."
+    ],
+    "reading": [
+     "Præconem lituo perflantem classica, victrix",
+     "Captivum in tetro carcere turba tenet.",
+     "Queis ille excusat: quòd nec sit strenuus armis,",
+     "Ullius aut sævo læserit ense latus.",
+     "Huic illi: Quin ipse magis timidissime peccas,",
+     "Qui clangore alios æris in arma cies."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка: колонны-гермы с кистями, верхний фриз с лентой и маскароном, нижний цоколь с рельефами"
+  }
+ ],
+ "notes": "Номер «187» вверху справа. Пятно слева у строк 1–2."
+}

@@ -1,0 +1,59 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 187,
+ "source": "scan/frame_0187.jpg",
+ "page": "181",
+ "signature": "M 3",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HOSTILITAS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Εχθρῶν ἄδωρα δῶρα, In dona",
+     "hoſtium."
+    ],
+    "reading": "Ἐχθρῶν ἄδωρα δῶρα, In dona hostium."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Аякс и Гектор обмениваются дарами: один протягивает меч, другой — пояс; позади лагерь с шатрами",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Bellorum cœpiſſe ferunt monumenta viciſsim",
+     "Scutiferum Aiacem,Hectoraq; Iliacum.",
+     "Balthea Priamides,rigidũ Thelamonius enſem,",
+     "Inſtrumenta ſuæ cœpit vterque necis.",
+     "Enſis enim Aiacem cõfecit,at Hectora functum",
+     "Traxêre Aemonijs cingula nexa rotis.",
+     "Sic titulo obſequij,quæ mittunt hoſtibus hoſtes",
+     "Munera,venturi præſcia fata ferunt."
+    ],
+    "reading": [
+     "Bellorum cœpisse ferunt monumenta vicissim",
+     "Scutiferum Aiacem, Hectoraque Iliacum.",
+     "Balthea Priamides, rigidum Thelamonius ensem,",
+     "Instrumenta suæ cœpit uterque necis.",
+     "Ensis enim Aiacem confecit, at Hectora functum",
+     "Traxêre Aemoniis cingula nexa rotis.",
+     "Sic titulo obsequii, quæ mittunt hostibus hostes",
+     "Munera, venturi præscia fata ferunt."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Рамка с фигурами-гермами, гирляндами плодов, маскаронами и путти"
+  }
+ ],
+ "notes": "Номер «181» вверху справа."
+}

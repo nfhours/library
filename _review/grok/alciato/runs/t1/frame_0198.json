@@ -1,0 +1,62 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 198,
+ "source": "scan/frame_0198.jpg",
+ "page": "192",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PAX.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ex pace vbertas."
+    ],
+    "reading": "Ex pace ubertas."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Зимородки (алкионы) вьют гнездо на скале среди спокойного моря; скалистый остров",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Grandibus ex ſpicis tenues contexe corollas,",
+     "Quas circum alterno palmite vitis eat.",
+     "His comptę Halcionet trãquilli in marmoris vnda",
+     "Nidificant,pullos inuolucreſq; fouent.",
+     "Lætus erit Cereri,Baccho quoque fertilis annus,",
+     "Aequorei ſi rex alitis inſtar erit."
+    ],
+    "reading": [
+     "Grandibus ex spicis tenues contexe corollas,",
+     "Quas circum alterno palmite vitis eat.",
+     "His comptæ Halcionet tranquilli in marmoris unda",
+     "Nidificant, pullos involucresque fovent.",
+     "Lætus erit Cereri, Baccho quoque fertilis annus,",
+     "Aequorei si rex alitis instar erit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [
+  {
+   "printed": "Halcionet",
+   "corrected": "Halciones",
+   "certainty": "очевидная",
+   "applied_in_reading": false,
+   "comment": "эпиграмма, строка 3; см. open_points"
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Рамка из гирлянд плодов, фигур-атлантов по бокам и сов внизу"
+  }
+ ],
+ "notes": "Номер «192» вверху слева."
+}

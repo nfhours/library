@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 190,
+ "source": "scan/frame_0190.jpg",
+ "page": "184",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HOSTILITAS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Vel poſt mortem formidoloſi."
+    ],
+    "reading": "Vel post mortem formidolosi."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Два барабанщика: у одного на плече малый барабан, у другого большой барабан; позади военный лагерь с шатрами, знамёнами и воинами",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Cætera muteſcent,coriumq; ſilebit ouillum,",
+     "Si confecta lupi tympana pelle ſonent.",
+     "Hanc mẽbrana ouium ſic exhorreſcit, vt hoſtem,",
+     "Exanimis quanuis non ferat exanimem.",
+     "Sic cute detracta Ciſchas,in tympana verſus,",
+     "Bœhemos potuit vincere pontifices."
+    ],
+    "reading": [
+     "Cætera mutescent, coriumque silebit ovillum,",
+     "Si confecta lupi tympana pelle sonent.",
+     "Hanc membrana ovium sic exhorrescit, ut hostem,",
+     "Exanimis quanuis non ferat exanimem.",
+     "Sic cute detracta Cischas, in tympana versus,",
+     "Bœhemos potuit vincere pontifices."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Рамка из лиственного орнамента с виноградом, розетками и гротесками"
+  }
+ ],
+ "notes": "Номер «184» вверху слева."
+}

@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 188,
+ "source": "scan/frame_0188.jpg",
+ "page": "182",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HOSTILITAS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "A minimis quoque timendum."
+    ],
+    "reading": "A minimis quoque timendum."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Орёл в гнезде на земле среди растений; над ним летит жук-скарабей; дерево, птицы",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Bella gerit Scarabæus,& hoſtem prouocat vltrò,",
+     "Robore & inferior,conſilio ſuperat.",
+     "Nam plumis aquilæ clàm ſe neq; cognitus abdit,",
+     "Hoſtilem vt nidum ſumma per aſtra petat.",
+     "Ouaq; confodiens,prohibet ſpem creſcere prolis.",
+     "Hocq; modo illatum dedecus vltus abit."
+    ],
+    "reading": [
+     "Bella gerit Scarabæus, & hostem provocat ultrò,",
+     "Robore & inferior, consilio superat.",
+     "Nam plumis aquilæ clàm se neque cognitus abdit,",
+     "Hostilem ut nidum summa per astra petat.",
+     "Ovaque confodiens, prohibet spem crescere prolis.",
+     "Hocque modo illatum dedecus ultus abit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Рамка с фигурами-гермами, гирляндами плодов, маскаронами и путти"
+  }
+ ],
+ "notes": "Номер «182» вверху слева."
+}

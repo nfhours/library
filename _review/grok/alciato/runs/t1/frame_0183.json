@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 183,
+ "source": "scan/frame_0183.jpg",
+ "page": "177",
+ "signature": "M",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HOSTILITAS.",
+ "rubric": "HOSTILITAS.",
+ "rubric_reading": "HOSTILITAS.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In detractores."
+    ],
+    "reading": "In detractores."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Фигура в длинном одеянии в пейзаже отмахивается от насекомых; солнце с лицом, рой мух/цикад; у ног змея; на заднем плане строения",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Audent flagriferi matulæ,ſtupidiq; magiſtri",
+     "Bilem in me impuri pectoris euomere:",
+     "Quid faciam? reddámne vices? ſed nónne cicadam",
+     "Ala vna obſtreperam corripuiſſe ferar?",
+     "Quid prodeſt muſcas operoſis pellere flabris?",
+     "Negligere eſt ſatius,perdere quod nequeas."
+    ],
+    "reading": [
+     "Audent flagriferi matulæ, stupidique magistri",
+     "Bilem in me impuri pectoris evomere:",
+     "Quid faciam? reddámne vices? sed nónne cicadam",
+     "Ala una obstreperam corripuisse ferar?",
+     "Quid prodest muscas operosis pellere flabris?",
+     "Negligere est satius, perdere quod nequeas."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Рамка с волютами, маскаронами и птицами вверху"
+  }
+ ],
+ "notes": "Номер «177» вверху справа."
+}

@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 194,
+ "source": "scan/frame_0194.jpg",
+ "page": "188",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "VINDICTA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Alius peccat,alius plectitur."
+    ],
+    "reading": "Alius peccat, alius plectitur."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Человек замахивается камнем; собака кусает брошенный камень; позади дом",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Arripit vt lapidem catulus,morſuq; fatigat,",
+     "Nec percuſſori mutua damna facit.",
+     "Sic plerique ſinunt veros elabier hoſteis.",
+     "Et quos nulla grauat noxia,dente petunt."
+    ],
+    "reading": [
+     "Arripit ut lapidem catulus, morsuque fatigat,",
+     "Nec percussori mutua damna facit.",
+     "Sic plerique sinunt veros elabier hosteis.",
+     "Et quos nulla gravat noxia, dente petunt."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Та же архитектурная рамка, что на 0193"
+  }
+ ],
+ "notes": "Номер «188» вверху слева. Перед «veros» случайная помета."
+}

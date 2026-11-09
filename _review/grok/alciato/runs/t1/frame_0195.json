@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 195,
+ "source": "scan/frame_0195.jpg",
+ "page": "189",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "VINDICTA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Inſani gladius."
+    ],
+    "reading": "Insani gladius."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Безумный Аякс с мечом рубит стадо (свиней/овец); пейзаж с постройкой",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Setigeri medius ſtabat gregis enſifer Aiax,",
+     "Cæde ſuum,credens cædere Tantalidas.",
+     "Hoſtia ſic tanquam ſus ſuccedanea pœnas",
+     "Pro Laërtiade,pro caueaq; dabat.",
+     "Neſcit obeſſe ſuis furor hoſtibus,errat ab ictu,",
+     "Conſilijq; impos in ſua damna ruit."
+    ],
+    "reading": [
+     "Setigeri medius stabat gregis ensifer Aiax,",
+     "Cæde suum, credens cædere Tantalidas.",
+     "Hostia sic tanquam sus succedanea pœnas",
+     "Pro Laërtiade, pro caveaque dabat.",
+     "Nescit obesse suis furor hostibus, errat ab ictu,",
+     "Consiliique impos in sua damna ruit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с вазами, гермами, маскароном и лежащими фигурами внизу"
+  }
+ ],
+ "notes": "Номер «189» вверху справа. Сигнатуры нет."
+}

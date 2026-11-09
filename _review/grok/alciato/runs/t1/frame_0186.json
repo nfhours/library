@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 186,
+ "source": "scan/frame_0186.jpg",
+ "page": "180",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HOSTILLITAS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In eum qui truculentia ſuo-",
+     "rum perierit."
+    ],
+    "reading": "In eum qui truculentia suorum perierit."
+   },
+   "subheading": {
+    "diplomatic": "PROSOPOPEIA.",
+    "reading": "PROSOPOPEIA."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Дельфин выброшен волнами на берег; море, корабль вдали, дерево на берегу",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Delphinem inuitum me in littora compulit æſtus,",
+     "Exemplum infido quanta pericla mari.",
+     "Nam ſi nec proprijs Neptunus parcit alumnis,",
+     "Quis tutos homines nauibus eſſe[?] putet?"
+    ],
+    "reading": [
+     "Delphinem invitum me in littora compulit æstus,",
+     "Exemplum infido quanta pericla mari.",
+     "Nam si nec propriis Neptunus parcit alumnis,",
+     "Quis tutos homines navibus esse[?] putet?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Рамка с волютами, маскаронами и гирляндами"
+  }
+ ],
+ "notes": "Номер «180» вверху слева."
+}

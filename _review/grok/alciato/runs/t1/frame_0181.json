@@ -1,0 +1,56 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 181,
+ "source": "scan/frame_0181.jpg",
+ "page": "175",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMICITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Gratiæ."
+    ],
+    "reading": "Gratiæ."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Три обнажённые Хариты, две обнимают друг друга, третья держит руку на плече; пейзаж с деревьями, птицы",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Tres Charites Veneri aſsiſtunt, dominamq; ſe-",
+     "quuntur,",
+     "Hincq; voluptates,atque alimenta parant.",
+     "Lætitiam Euphroſyne,ſpecioſum Aglaia nitorem,",
+     "Suadela eſt Pithus,blandus & ore lepos.",
+     "Cur nudæ? mentis quoniam candore venuſtas",
+     "Conſtat,& eximia ſimplicitate placet."
+    ],
+    "reading": [
+     "Tres Charites Veneri assistunt, dominamque se-",
+     "quuntur,",
+     "Hincque voluptates, atque alimenta parant.",
+     "Lætitiam Euphrosyne, speciosum Aglaia nitorem,",
+     "Suadela est Pithus, blandus & ore lepos.",
+     "Cur nudæ? mentis quoniam candore venustas",
+     "Constat, & eximia simplicitate placet."
+    ]
+   },
+   "continues_on_next_page": true,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с маскароном вверху, фигурами путти и гирляндами внизу"
+  }
+ ],
+ "notes": "Номер «175» вверху справа. Первая строка эпиграммы перенесена («ſe-|quuntur,»). Текст продолжается на 0182. Сигнатуры нет."
+}

@@ -1,0 +1,66 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 204,
+ "source": "scan/frame_0204.jpg",
+ "page": "198",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SCIENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Muſicam Dijs curæ eſſe."
+    ],
+    "reading": "Musicam Diis curæ esse."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Лютня (кифара) с сидящей на ней цикадой лежит на столе/плите в нише",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Locrenſis poſuit tibi Delphice Phœbe cicadam",
+     "Eunomus hanc,palmæ ſigna decora ſuæ.",
+     "Certabat plectro Sparthyn commiſſus in hoſtem,",
+     "Et percuſſa ſonum pollice fila dabant.",
+     "Trita fides rauco cœpit cùm ſtridere bombo,",
+     "Legitimum harmonies & vitiare melos,",
+     "Tum Citharæ argutans ſuauis ſeſe intulit ales,",
+     "Quæ fractam impleret voce cicada fidem.",
+     "Quæq; allecta,ſoni ad legem deſcendit ab altis",
+     "Saltibus,vt nobis garrula ferret opem.",
+     "Ergo tuæ vt firmus ſtet honos (ò ſancte) cicadæ,",
+     "Pro cithara hic fidicen æneus ipſa ſedet."
+    ],
+    "reading": [
+     "Locrensis posuit tibi Delphice Phœbe cicadam",
+     "Eunomus hanc, palmæ signa decora suæ.",
+     "Certabat plectro Sparthyn commissus in hostem,",
+     "Et percussa sonum pollice fila dabant.",
+     "Trita fides rauco cœpit cùm stridere bombo,",
+     "Legitimum harmonies & vitiare melos,",
+     "Tum Citharæ argutans suavis sese intulit ales,",
+     "Quæ fractam impleret voce cicada fidem.",
+     "Quæque allecta, soni ad legem descendit ab altis",
+     "Saltibus, ut nobis garrula ferret opem.",
+     "Ergo tuæ ut firmus stet honos (ò sancte) cicadæ,",
+     "Pro cithara hic fidicen æneus ipsa sedet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Архитектурная рамка с витыми колоннами, гермами и чашей со сфинксами внизу"
+  }
+ ],
+ "notes": "Номер «198» вверху слева. Между «ſigna» и «decora» (стр. 2) вертикальная черта — пробельный материал."
+}

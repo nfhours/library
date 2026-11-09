@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 191,
+ "source": "scan/frame_0191.jpg",
+ "page": "185",
+ "signature": "M 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "VINDICTA.",
+ "rubric": "VINDICTA.",
+ "rubric_reading": "VINDICTA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Iuſta vindicta."
+    ],
+    "reading": "Iusta vindicta."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Улисс выкалывает глаз лежащему циклопу Полифему длинным колом; у пещеры овцы",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Dum reſidet Cyclops ſinuoſi in faucibus antri,",
+     "Hæc ſecum teneras concinit inter oues.",
+     "Paſcite vos herbas:ſocijs ego paſcar Achiuis,",
+     "Poſtremumq; Vtin viſcera noſtra ferent.",
+     "Audijt hæc Itachus,Cyclopaq; lumine caſſum",
+     "Reddidit.En pœnas vt ſuus author habet?"
+    ],
+    "reading": [
+     "Dum residet Cyclops sinuosi in faucibus antri,",
+     "Hæc secum teneras concinit inter oves.",
+     "Pascite vos herbas: sociis ego pascar Achivis,",
+     "Postremumque Utin viscera nostra ferent.",
+     "Audiit hæc Itachus, Cyclopaque lumine cassum",
+     "Reddidit. En pœnas ut suus author habet?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "errata": [],
+ "ornaments": [
+  {
+   "position": "вокруг текста",
+   "description": "Рамка из панелей с мавританским орнаментом и розетками"
+  }
+ ],
+ "notes": "Номер «185» вверху справа."
+}

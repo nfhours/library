@@ -2303,5 +2303,211 @@
   "type": "punctuation",
   "note": "лишняя запятая/помета внутри слова; в чтении убрана",
   "run": "t1"
+ },
+ {
+  "frame": 181,
+  "page": "175",
+  "location": "эпиграмма, строки 1–2",
+  "diplomatic_as_read": "ſe-|quuntur,",
+  "candidates": [
+   "sequuntur"
+  ],
+  "type": "other",
+  "note": "длинный стих напечатан с переносом на отдельную строку; в чтении оставлено построчно как в печати",
+  "run": "t1"
+ },
+ {
+  "frame": 185,
+  "page": "179",
+  "location": "колонтитул",
+  "diplomatic_as_read": "HOSTILLITAS.",
+  "candidates": [
+   "HOSTILITAS."
+  ],
+  "type": "running_head",
+  "note": "удвоенное L в колонтитуле; ср. 0183–0184 HOSTILITAS.",
+  "run": "t1"
+ },
+ {
+  "frame": 185,
+  "page": "179",
+  "location": "девиз, «Al iquid»",
+  "diplomatic_as_read": "Al iquid",
+  "candidates": [
+   "Aliquid"
+  ],
+  "type": "spacing",
+  "note": "разрыв внутри слова",
+  "run": "t1"
+ },
+ {
+  "frame": 185,
+  "page": "179",
+  "location": "подзаголовок",
+  "diplomatic_as_read": "Προσωποπ[?]ῖα.",
+  "candidates": [
+   "Προσωποποιΐα.",
+   "Προσωποπεῖα."
+  ],
+  "type": "greek",
+  "note": "после второго π лигатура (похожа на ε/οι), затем ι с циркумфлексом и α; в чтении — Προσωποποιΐα?",
+  "run": "t1"
+ },
+ {
+  "frame": 186,
+  "page": "180",
+  "location": "колонтитул",
+  "diplomatic_as_read": "HOSTILLITAS.",
+  "candidates": [
+   "HOSTILITAS."
+  ],
+  "type": "running_head",
+  "note": "удвоенное L, как на 0185",
+  "run": "t1"
+ },
+ {
+  "frame": 186,
+  "page": "180",
+  "location": "эпиграмма, строка 4, «nauibus eſſe»",
+  "diplomatic_as_read": "nauibus (ſſe",
+  "candidates": [
+   "nauibus eſſe"
+  ],
+  "type": "damage",
+  "note": "b в nauibus и e в eſſe повреждены/плохо пропечатаны",
+  "run": "t1"
+ },
+ {
+  "frame": 187,
+  "page": "181",
+  "location": "девиз, «Εχθρῶν»",
+  "diplomatic_as_read": "Εχθρῶν",
+  "candidates": [
+   "Ἐχθρῶν"
+  ],
+  "type": "greek",
+  "note": "придыхание над Ε не видно; в чтении восстановлено Ἐ; ρ напечатано лигатурной формой",
+  "run": "t1"
+ },
+ {
+  "frame": 187,
+  "page": "181",
+  "location": "эпиграмма, строка 3, «Thelamonius»",
+  "diplomatic_as_read": "Thelamonius",
+  "candidates": [
+   "Telamonius"
+  ],
+  "type": "reading",
+  "note": "написание с Th — как напечатано, не исправлено",
+  "run": "t1"
+ },
+ {
+  "frame": 191,
+  "page": "185",
+  "location": "эпиграмма, строка 4, «Vtin»",
+  "diplomatic_as_read": "V tin",
+  "candidates": [
+   "Vtin",
+   "Utin"
+  ],
+  "type": "spacing",
+  "note": "между V и tin небольшой пробел; передано слитно (имя Οὖτις)",
+  "run": "t1"
+ },
+ {
+  "frame": 193,
+  "page": "187",
+  "location": "эпиграмма, строка 3, «Quẽis»",
+  "diplomatic_as_read": "Quẽis",
+  "candidates": [
+   "Queis"
+  ],
+  "type": "diacritic",
+  "note": "та же литера e с чертой, что в 0125/0135/0169/0172; здесь хорошо видна — вероятно особая литера ẽ в queis",
+  "run": "t1"
+ },
+ {
+  "frame": 195,
+  "page": "189",
+  "location": "девиз, первая буква",
+  "diplomatic_as_read": "lnſani",
+  "candidates": [
+   "Inſani"
+  ],
+  "type": "damage",
+  "note": "I выглядит как l (засечка/повреждение литеры)",
+  "run": "t1"
+ },
+ {
+  "frame": 196,
+  "page": "190",
+  "location": "девиз",
+  "diplomatic_as_read": "—",
+  "candidates": [
+   "PAX. как девиз"
+  ],
+  "type": "other",
+  "note": "девиза нет, есть только рубрика PAX.; motto оставлен пустым",
+  "run": "t1"
+ },
+ {
+  "frame": 198,
+  "page": "192",
+  "location": "эпиграмма, строка 3, «Halcionet»",
+  "diplomatic_as_read": "Halcionet",
+  "candidates": [
+   "Halciones"
+  ],
+  "type": "typo",
+  "note": "t вместо s; в чтении оставлено как напечатано",
+  "run": "t1"
+ },
+ {
+  "frame": 199,
+  "page": "193",
+  "location": "эпиграмма, строки 5–6",
+  "diplomatic_as_read": "ſum-|mum eſt",
+  "candidates": [
+   "summum est"
+  ],
+  "type": "other",
+  "note": "длинный стих перенесён на отдельную строку; в чтении сохранено построчно",
+  "run": "t1"
+ },
+ {
+  "frame": 200,
+  "page": "194",
+  "location": "эпиграмма, строка 6, «Quẽis»",
+  "diplomatic_as_read": "Quẽis",
+  "candidates": [
+   "Queis"
+  ],
+  "type": "diacritic",
+  "note": "та же литера ẽ в queis, что на 0193",
+  "run": "t1"
+ },
+ {
+  "frame": 202,
+  "page": "196",
+  "location": "подзаголовок",
+  "diplomatic_as_read": "APOLOGESIS.",
+  "candidates": [
+   "APOLOGESIS."
+  ],
+  "type": "damage",
+  "note": "E напечатано неполно (похоже на ɛ)",
+  "run": "t1"
+ },
+ {
+  "frame": 204,
+  "page": "198",
+  "location": "эпиграмма, строка 11, «ſancte»",
+  "diplomatic_as_read": "ſanctc",
+  "candidates": [
+   "ſancte"
+  ],
+  "type": "damage",
+  "note": "последняя e похожа на c — повреждение литеры",
+  "run": "t1"
  }
 ]
