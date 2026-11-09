@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 154,
+ "source": "scan/frame_0154.jpg",
+ "page": "148",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Nobiles & generoſi."
+    ],
+    "reading": "Nobiles & generosi."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Колоннада/портик с кессонированным фризом и плиточным полом в перспективе, в глубине арка; посреди пола лежит округлый предмет (корзина/подушка?); по сторонам у колонн стоят двое мужчин в длинных одеждах, левый в шляпе с пером.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aurea Cæcropias nectebat fibula veſtes:",
+     "Cui coniuncta tenax dente cicada fuit.",
+     "Calceus Arcadico ſuberat cui lunula ritu,",
+     "Geſtatur patribus mullea Romulidis:",
+     "Indigenas quòd ſe adſererent:hæc ſigna tulerunt",
+     "An[?]iqua illuſtres nobilitate viri."
+    ],
+    "reading": [
+     "Aurea Cæcropias nectebat fibula vestes:",
+     "Cui coniuncta tenax dente cicada fuit.",
+     "Calceus Arcadico suberat cui lunula ritu,",
+     "Gestatur patribus mullea Romulidis:",
+     "Indigenas quòd se adsererent: hæc signa tulerunt",
+     "An[?]iqua illustres nobilitate viri."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Лигатуры ct в «nectebat», «coniuncta»; st в «veſtes», «Geſtatur», «illuſtres». В ст. 6 буква после «An» сбита (видна как двоеточие)."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рама страницы",
+   "description": "Та же рама, что на 0153 (листва, стволы, лесной пейзаж)."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0154 = с. 148. Номер слева. Подписи нет."
+}

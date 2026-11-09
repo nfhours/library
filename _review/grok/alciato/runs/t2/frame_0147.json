@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 147,
+ "source": "scan/frame_0147.jpg",
+ "page": "141",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Semper preſto eſſe infortunia."
+    ],
+    "reading": "Semper presto esse infortunia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "В интерьере (за спиной решётчатое окно, колонны, справа арка) три девушки сидят вокруг круглого стола на массивной вазообразной подставке с маскароном и бросают кости (на столе кости/бабки).",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Ludebant parili tres olim ætate puellæ",
+     "Sortibus:ad Stygias quæ prior iret aquas.",
+     "Aſi cui iactato malè ceſſerat alea talo,",
+     "Ridebat ſortis cæca puella ſuæ.",
+     "Cùm ſubitò icta caput labente eſt mortua tecto,",
+     "Soluit & audacis debita fata ioci.",
+     "Rebus in aduerſis mala ſors non fallitur:aſt in",
+     "Fauſtis,nec precibus,nec locus eſt manui."
+    ],
+    "reading": [
+     "Ludebant parili tres olim ætate puellæ",
+     "Sortibus: ad Stygias quæ prior iret aquas.",
+     "Asi cui iactato malè cesserat alea talo,",
+     "Ridebat sortis cæca puella suæ.",
+     "Cùm subitò icta caput labente est mortua tecto,",
+     "Solvit & audacis debita fata ioci.",
+     "Rebus in adversis mala sors non fallitur: ast in",
+     "Faustis, nec precibus, nec locus est manui."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Между «Ludebant» и «parili» пропечатался пробельный материал (вертикальная чёрточка) — не знак, в текст не включён. Лигатуры ct в «iactato», «icta», «tecto»; st в «eſt», «aſt», «Fauſtis». В «mortua tecto» внутри «tecto» перед «ecto» увеличенный пробел («t ecto»). «Aſi» — так напечатано (вм. «At ſi»?), см. открытый пункт."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рама страницы",
+   "description": "Рама: сверху арка с львиной маской и лежащими фигурами по углам, по сторонам гермы-термы с женскими головами на балясинах, внизу цоколь с маскароном."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0147 = с. 141. Номер справа. Подписи нет (7-й лист тетради I)."
+}

@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 146,
+ "source": "scan/frame_0146.jpg",
+ "page": "140",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Malè parta,malè dilabuntur."
+    ],
+    "reading": "Malè parta, malè dilabuntur."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Две хищные птицы (коршуны): слева одна на пне, склонившись, изрыгает пищу; справа вторая (мать), пятнистая, стоит рядом под деревцем; холмистый пейзаж, облака, вдали птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Miluus edax,nimiæ quem nauſea torſerat eſcæ,",
+     "Hei mihi mater ait viſcera ab ore fluunt.",
+     "Illa autem:quid fles?cur hæc tua viſcera credas,",
+     "Qui rapto viuens[?]ſola aliena vomis?"
+    ],
+    "reading": [
+     "Miluus edax, nimiæ quem nausea torserat escæ,",
+     "Hei mihi mater ait viscera ab ore fluunt.",
+     "Illa autem: quid fles? cur hæc tua viscera credas,",
+     "Qui rapto vivens[?]sola aliena vomis?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Между «viuens» и «ſola» знак неясной формы (обломанная точка с запятой/запятая)."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рама страницы",
+   "description": "Та же рама, что на 0145: маскарон и вазы сверху, кариатиды, внизу овальный медальон между гермами."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0146 = с. 140. Номер слева. Подписи нет."
+}

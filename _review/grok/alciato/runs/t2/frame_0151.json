@@ -1,0 +1,78 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 151,
+ "source": "scan/frame_0151.jpg",
+ "page": "145",
+ "signature": "K",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Tumulus Ioannis Galeacij Vice-",
+     "comitis,primi Ducis Mediol."
+    ],
+    "reading": "Tumulus Ioannis Galeacii Vicecomitis, primi Ducis Mediol."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Карта Средней Италии (Романья, Тоскана, Умбрия, Лаций) с морем вверху (Адриатика) и внизу (Тирренское), корабли, городки; через карту справа извивается огромная змея (висконтиевский змей) с надписью на теле, кольцом над Анконой; у Рима стоит человеческая фигура с поднятой рукой у хвоста змеи.",
+    "inscriptions": [
+     "CESENADEGO",
+     "RIMANO",
+     "ANCONA",
+     "RAVENA",
+     "PORTODERAVENA",
+     "BIBIENA",
+     "MOTESCIO",
+     "FIRENSA",
+     "PERVRA",
+     "TVRNI",
+     "[?]ISA",
+     "SIENA",
+     "CIBLI[?]",
+     "BOLSENA",
+     "EIDENE[?]",
+     "MOTEARGETATO",
+     "CITAVECHIA",
+     "ROMA",
+     "MARTAFIVME",
+     "GIGLIO",
+     "CAPOLINARE",
+     "на теле змеи греческими буквами, частично зеркально: ΤΟΝ … ΕΝΙΕΘΕΙΤΑΙ[?] … ΜΗ[?] … ΚΡΟΙΕ[?] … ΜΥΤΑΝΤ[?] … ΤΙΣΜΕ[?] [...]"
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Pro tumulo pone Italiam,pone arma,Ducesq;",
+     "Et mare,quod geminos mugii aduſq; ſinus.",
+     "Adde his barbariem conantem irrũpere fruſtra,",
+     "Et mercede emptas in fera bella manus.",
+     "Anguiger eſt ſumnò ſiſtens in culmine,dicat:",
+     "Quis paruis magnam me ſuperimpoſuit?"
+    ],
+    "reading": [
+     "Pro tumulo pone Italiam, pone arma, Ducesque",
+     "Et mare, quod geminos mugii adusque sinus.",
+     "Adde his barbariem conantem irrumpere frustra,",
+     "Et mercede emptas in fera bella manus.",
+     "Anguiger est sumnò sistens in culmine, dicat:",
+     "Quis parvis magnam me superimposuit?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Лигатуры st в «fruſtra», «eſt», «ſiſtens». Девиз прямым шрифтом с переносом «Vice-/comitis». Надписи карты — заглавными, частью стёрты; надпись на змее не читается целиком."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рама страницы",
+   "description": "Новая рама: сверху завитки с маской в лавровом венке и вазами по углам, по сторонам женские кариатиды в шлемах на постаментах с драпировкой, внизу цоколь с картушем, маской и цветочными гирляндами."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0151 = с. 145. Номер справа. Подпись K (оттиск смазан) — начало тетради K, как ожидалось."
+}

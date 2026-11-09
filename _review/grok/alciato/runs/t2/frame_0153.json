@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 153,
+ "source": "scan/frame_0153.jpg",
+ "page": "147",
+ "signature": "K 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Strenuorum immortale",
+     "nomen."
+    ],
+    "reading": "Strenuorum immortale nomen."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Морской берег; женщина (Фетида) в развевающемся платье стоит у гробницы-саркофага на постаменте справа и касается её рукой; на гробнице надпись, ниже на постаменте буква; слева на берегу город на холме, в море корабли, в небе птицы.",
+    "inscriptions": [
+     "ACHILLIS",
+     "M"
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aeacidæ tumulum Rhœtæo in littore cernis,",
+     "Quem plerunque pedes viſitat alba Thetis.",
+     "Obtegitur ſemper viridi lapis hic amarantho,",
+     "Quòd nunquàm herois ſit moriturus honos.",
+     "Hic Graiũ murus[?]m[?]gni nex Hectoris.Haud plus",
+     "Debet Mæonidæ,quàm ſibi Mæonides."
+    ],
+    "reading": [
+     "Aeacidæ tumulum Rhœtæo in littore cernis,",
+     "Quem plerunque pedes visitat alba Thetis.",
+     "Obtegitur semper viridi lapis hic amarantho,",
+     "Quòd nunquàm herois sit moriturus honos.",
+     "Hic Graium murus[?]m[?]gni nex Hectoris.Haud plus",
+     "Debet Mæonidæ, quàm sibi Mæonides."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Лигатура ct в «Hectoris». В ст. 5 знак после «murus» похож на точку, буква после «m» не пропечаталась."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рама страницы",
+   "description": "Новая рама: сверху густая листва, по сторонам узловатые стволы деревьев, внизу лесной пейзаж со скалами и постройкой."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0153 = с. 147. Номер справа. Подпись K 2."
+}

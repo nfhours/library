@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 150,
+ "source": "scan/frame_0150.jpg",
+ "page": "144",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ex literarum ſtudijs immor-",
+     "talitatem acquiri."
+    ],
+    "reading": "Ex literarum studiis immortalitatem acquiri."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Морское божество Тритон с рыбьим хвостом, трубящий в раковину, посреди волн, внутри кольца змеи, кусающей собственный хвост (уроборос); облака, вдали корабль.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Neptuni tubicen,cuius pars vltima cetum,",
+     "Aequoreum facies indicat eſſe Deum:",
+     "Serpentis medio Triton comprenditur orbe,",
+     "Qui caudam inſerto mordicus ore tenet.",
+     "Fama viros animo inſignes,præclaraq; geſta",
+     "Proſequitur:toto mandat & orbe legi."
+    ],
+    "reading": [
+     "Neptuni tubicen, cuius pars ultima cetum,",
+     "Aequoreum facies indicat esse Deum:",
+     "Serpentis medio Triton comprenditur orbe,",
+     "Qui caudam inserto mordicus ore tenet.",
+     "Fama viros animo insignes, præclaraque gesta",
+     "Prosequitur: toto mandat & orbe legi."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Лигатура st в «geſta». В ст. 1 «Nept uni» с разрывом внутри слова; между «toto» и «mandat» пропечатался пробельный материал. Девиз с переносом «immor-/talitatem»."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рама страницы",
+   "description": "Та же рама, что на 0149."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0150 = с. 144. Номер слева. Подписи нет."
+}

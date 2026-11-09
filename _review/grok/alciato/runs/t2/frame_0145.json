@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 145,
+ "source": "scan/frame_0145.jpg",
+ "page": "139",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "FORTVNA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Nil reliqui."
+    ],
+    "reading": "Nil reliqui."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Поле с густыми колосьями и травой, по которому ползут/прыгают саранчи; в центре дерево; справа сверху из облака спускается туча саранчи конусом; слева солнце и крепость/город на холме, справа море.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Scilicet hoc deerat,poſt tot mala denique noſtris",
+     "Locuſtæ vt raperent,quicquid ineſſet,agris.",
+     "Vidimus innumeras Euro duce tendere turmas,",
+     "Qualia non Atylæ,caſtráue Xerxis erant.",
+     "Hæ fœnum,milium, farra omnia conſumpſerunt,",
+     "Spes & in anguſto eſt,ſtant niſi vota ſuper."
+    ],
+    "reading": [
+     "Scilicet hoc deerat, post tot mala denique nostris",
+     "Locustæ ut raperent, quicquid inesset, agris.",
+     "Vidimus innumeras Euro duce tendere turmas,",
+     "Qualia non Atylæ, castráve Xerxis erant.",
+     "Hæ fœnum, milium, farra omnia consumpserunt,",
+     "Spes & in angusto est, stant nisi vota super."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. Лигатуры st в «poſt», «noſtris», «Locuſtæ», «caſtráue», «anguſto», «eſt», «ſtant». В «deerat» буквы «at» пропечатаны мелко/слабо. «Xerxis erant» набрано с разрядкой. Акут в «caſtráue»."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рама страницы",
+   "description": "Рама с маскароном и вазами сверху, обнажёнными кариатидами по сторонам, внизу медальон-овал между двумя бородатыми гермами-гибридами."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0145 = с. 139. Номер справа. Подписи нет (6-й лист тетради I). Внизу слева на скане видна бледная рукописная/просвечивающая надпись, в зуме не читается."
+}

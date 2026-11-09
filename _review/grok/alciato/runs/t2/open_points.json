@@ -2333,5 +2333,263 @@
   "resolver": "zoom",
   "frame": 142,
   "page": "136"
+ },
+ {
+  "location": "эпиграмма, ст. 4",
+  "as_read": "Atylæ",
+  "candidates": [
+   "Atylæ",
+   "Attylæ"
+  ],
+  "type": "spelling",
+  "resolver": "scan",
+  "frame": 145,
+  "page": "139"
+ },
+ {
+  "location": "эпиграмма, ст. 4",
+  "as_read": "viuens[?]ſola",
+  "candidates": [
+   "viuens;ſola",
+   "viuens,ſola",
+   "viuens:ſola"
+  ],
+  "type": "punctuation",
+  "resolver": "scan",
+  "frame": 146,
+  "page": "140"
+ },
+ {
+  "location": "эпиграмма, ст. 3",
+  "as_read": "Aſi",
+  "candidates": [
+   "Aſi",
+   "At ſi"
+  ],
+  "type": "typo",
+  "resolver": "scan",
+  "frame": 147,
+  "page": "141"
+ },
+ {
+  "location": "эпиграмма, ст. 5",
+  "as_read": "tecto",
+  "candidates": [
+   "tecto",
+   "t ecto"
+  ],
+  "type": "spacing",
+  "resolver": "scan",
+  "frame": 147,
+  "page": "141"
+ },
+ {
+  "location": "эпиграмма, ст. 1",
+  "as_read": "Ludebant parili",
+  "candidates": [
+   "Ludebant parili",
+   "Ludebant'parili"
+  ],
+  "type": "punctuation",
+  "resolver": "scan",
+  "frame": 147,
+  "page": "141"
+ },
+ {
+  "location": "эпиграмма, ст. 8",
+  "as_read": "Mil",
+  "candidates": [
+   "Mil",
+   "Nil"
+  ],
+  "type": "typo",
+  "resolver": "scan",
+  "frame": 148,
+  "page": "142"
+ },
+ {
+  "location": "эпиграмма, ст. 7",
+  "as_read": "luſcæ,laſſæq;",
+  "candidates": [
+   "luſcæ,laſſæq;",
+   "luſcæ,'laſſæq;"
+  ],
+  "type": "punctuation",
+  "resolver": "scan",
+  "frame": 148,
+  "page": "142"
+ },
+ {
+  "location": "эпиграмма, ст. 1",
+  "as_read": "Aetherijs",
+  "candidates": [
+   "Aetherijs",
+   "Ætherijs"
+  ],
+  "type": "spelling",
+  "resolver": "scan",
+  "frame": 148,
+  "page": "142"
+ },
+ {
+  "location": "эпиграмма, ст. 2",
+  "as_read": "foren[?]",
+  "candidates": [
+   "forent"
+  ],
+  "type": "damage",
+  "resolver": "scan",
+  "frame": 149,
+  "page": "143"
+ },
+ {
+  "location": "эпиграмма, ст. 6",
+  "as_read": "e[?]at",
+  "candidates": [
+   "erat"
+  ],
+  "type": "damage",
+  "resolver": "scan",
+  "frame": 149,
+  "page": "143"
+ },
+ {
+  "location": "девиз",
+  "as_read": "no men",
+  "candidates": [
+   "nomen",
+   "no men"
+  ],
+  "type": "spacing",
+  "resolver": "scan",
+  "frame": 149,
+  "page": "143"
+ },
+ {
+  "location": "эпиграмма, ст. 1",
+  "as_read": "pa ſſer",
+  "candidates": [
+   "paſſer"
+  ],
+  "type": "spacing",
+  "resolver": "scan",
+  "frame": 149,
+  "page": "143"
+ },
+ {
+  "location": "эпиграмма, ст. 1",
+  "as_read": "Nept uni",
+  "candidates": [
+   "Neptuni"
+  ],
+  "type": "spacing",
+  "resolver": "scan",
+  "frame": 150,
+  "page": "144"
+ },
+ {
+  "location": "эпиграмма, ст. 5",
+  "as_read": "ſumnò",
+  "candidates": [
+   "ſummò",
+   "ſumnò"
+  ],
+  "type": "typo",
+  "resolver": "scan",
+  "frame": 151,
+  "page": "145"
+ },
+ {
+  "location": "эпиграмма, ст. 2",
+  "as_read": "mugii",
+  "candidates": [
+   "mugij",
+   "mugii"
+  ],
+  "type": "spelling",
+  "resolver": "scan",
+  "frame": 151,
+  "page": "145"
+ },
+ {
+  "location": "эпиграмма, ст. 6",
+  "as_read": "paruis",
+  "candidates": [
+   "paruis",
+   "paruus"
+  ],
+  "type": "typo",
+  "resolver": "scan",
+  "frame": 151,
+  "page": "145"
+ },
+ {
+  "location": "гравюра, надпись на змее",
+  "as_read": "ΤΟΝ … ΕΝΙΕΘΕΙΤΑΙ[?] … ΜΗ[?] … ΚΡΟΙΕ[?] … ΜΥΤΑΝΤ[?] … ΤΙΣΜΕ[?]",
+  "candidates": [],
+  "type": "illegible",
+  "resolver": "scan",
+  "frame": 151,
+  "page": "145"
+ },
+ {
+  "location": "гравюра, топонимы",
+  "as_read": "[?]ISA; CIBLI[?]; EIDENE[?]",
+  "candidates": [
+   "PISA",
+   "CIVITA?",
+   "FIDENE"
+  ],
+  "type": "illegible",
+  "resolver": "scan",
+  "frame": 151,
+  "page": "145"
+ },
+ {
+  "location": "подпись",
+  "as_read": "K",
+  "candidates": [
+   "K"
+  ],
+  "type": "signature",
+  "resolver": "scan",
+  "frame": 151,
+  "page": "145"
+ },
+ {
+  "location": "эпиграмма, ст. 5",
+  "as_read": "murus[?]m[?]gni",
+  "candidates": [
+   "murus,magni",
+   "murus.magni"
+  ],
+  "type": "damage",
+  "resolver": "scan",
+  "frame": 153,
+  "page": "147"
+ },
+ {
+  "location": "эпиграмма, ст. 6",
+  "as_read": "An[?]iqua",
+  "candidates": [
+   "Antiqua"
+  ],
+  "type": "damage",
+  "resolver": "scan",
+  "frame": 154,
+  "page": "148"
+ },
+ {
+  "location": "гравюра",
+  "as_read": "предмет посреди пола",
+  "candidates": [
+   "корзина",
+   "подушка",
+   "ложе"
+  ],
+  "type": "description",
+  "resolver": "scan",
+  "frame": 154,
+  "page": "148"
  }
 ]

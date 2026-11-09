@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 149,
+ "source": "scan/frame_0149.jpg",
+ "page": "143",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": "HONOR.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ex arduis perpetuum nomen."
+    ],
+    "reading": "Ex arduis perpetuum nomen."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Слева платан, вокруг ствола обвился змей, в ветвях гнездо; в центре алтарь с пламенем и дымом; слева у алтаря стоят на коленях двое (жрец с бородой и спутник), справа группа воинов/греков, один указывает на дерево; вдали холмы и постройки.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Crediderat platani ramis ſua pignora paſſer,",
+     "Et bene:ni ſæuo viſa dracone foren[?].",
+     "Glutijt hic pullos omnes,miſeramq; parentem",
+     "Saxeus,& tali dignus obire nece.",
+     "Hæc,niſi mentitur Calchas,monumenta laboris",
+     "Sunt longi,cuius fama perennis e[?]at."
+    ],
+    "reading": [
+     "Crediderat platani ramis sua pignora passer,",
+     "Et bene: ni sævo visa dracone foren[?].",
+     "Glutiit hic pullos omnes, miseramque parentem",
+     "Saxeus, & tali dignus obire nece.",
+     "Hæc, nisi mentitur Calchas, monumenta laboris",
+     "Sunt longi, cuius fama perennis e[?]at."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Курсив; чётные строки с отступом. В девизе «no men» набрано с пробелом внутри слова (принято слитно, см. открытый пункт). В ст. 1 «pa ſſer» с разрывом; в ст. 2 «fore n…» с разрывом, последняя буква повреждена. В ст. 6 вторая буква «e?at» не пропечаталась."
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рама страницы",
+   "description": "Новая рама: сверху фриз с акантовыми завитками и маскароном, по сторонам овальные медальоны с перьями и гротескные фигуры на постаментах, внизу фриз: двое путти/сатиров тянут канатами повозки на колёсах к центральной маске."
+  }
+ ],
+ "errata": [],
+ "notes": "Кадр 0149 = с. 143. Номер справа. Подписи нет (8-й лист тетради I). Новый колонтитул и рубрика HONOR."
+}
