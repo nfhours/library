@@ -2879,5 +2879,733 @@
   ],
   "type": "punctuation",
   "run": "t4"
+ },
+ {
+  "frame": 181,
+  "page": "175",
+  "location": "эпиграмма, стр.1",
+  "as_read": "«V eneri» — пробел после V",
+  "candidates": [
+   "Veneri"
+  ],
+  "type": "spacing",
+  "run": "t4"
+ },
+ {
+  "frame": 181,
+  "page": "175",
+  "location": "эпиграмма, стр.3",
+  "as_read": "ſpecioſum — второе o похоже на c",
+  "candidates": [
+   "ſpecioſum",
+   "ſpecicſum"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 181,
+  "page": "175",
+  "location": "эпиграмма, стр.5",
+  "as_read": "после «nudæ» знак, похожий на «?» , без пробела",
+  "candidates": [
+   "nudæ?",
+   "nudæ"
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 181,
+  "page": "175",
+  "location": "колонтитул и номер",
+  "as_read": "над I в AMICITIA и над 7 в 175 мелкие штрихи",
+  "candidates": [
+   "—"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 182,
+  "page": "176",
+  "location": "эпиграмма, стр.2",
+  "as_read": "charitum — u похоже на n («charitnm»)",
+  "candidates": [
+   "charitum",
+   "charitnm"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 182,
+  "page": "176",
+  "location": "эпиграмма, стр.2",
+  "as_read": "над u в «nudus» штрих (акцент?)",
+  "candidates": [
+   "nudus",
+   "nudús"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 182,
+  "page": "176",
+  "location": "эпиграмма, стр.4",
+  "as_read": "«Quicitò» — пробел между Qui и citò едва заметен",
+  "candidates": [
+   "Qui citò",
+   "Quicitò"
+  ],
+  "type": "spacing",
+  "run": "t4"
+ },
+ {
+  "frame": 182,
+  "page": "176",
+  "location": "эпиграмма, стр.1",
+  "as_read": "«nilreferunt» — пробел между nil и referunt едва заметен",
+  "candidates": [
+   "nil referunt"
+  ],
+  "type": "spacing",
+  "run": "t4"
+ },
+ {
+  "frame": 183,
+  "page": "177",
+  "location": "эпиграмма, стр.3",
+  "as_read": "над n в «nonne» апостроф-подобный знак («n'onne»)",
+  "candidates": [
+   "nonne"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 183,
+  "page": "177",
+  "location": "эпиграмма, стр.3",
+  "as_read": "reddámne — акут над a",
+  "candidates": [
+   "reddámne",
+   "reddamne"
+  ],
+  "type": "accent",
+  "run": "t4"
+ },
+ {
+  "frame": 183,
+  "page": "177",
+  "location": "рубрика",
+  "as_read": "под последней A в HOSTILITAS точка",
+  "candidates": [
+   "—"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 184,
+  "page": "178",
+  "location": "эпиграмма, стр.1",
+  "as_read": "после «vt» точка-подобный знак",
+  "candidates": [
+   "vt",
+   "vt."
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 184,
+  "page": "178",
+  "location": "гравюра",
+  "as_read": "животное на холме — собака (по тексту canis), силуэт неотчётлив",
+  "candidates": [
+   "собака"
+  ],
+  "type": "engraving",
+  "run": "t4"
+ },
+ {
+  "frame": 185,
+  "page": "179",
+  "location": "колонтитул",
+  "as_read": "HOSTILLITAS — двойное L",
+  "candidates": [
+   "HOSTILLITAS",
+   "HOSTILITAS"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 185,
+  "page": "179",
+  "location": "девиз, стр.1",
+  "as_read": "«Al iquid» — пробел внутри слова",
+  "candidates": [
+   "Aliquid"
+  ],
+  "type": "spacing",
+  "run": "t4"
+ },
+ {
+  "frame": 185,
+  "page": "179",
+  "location": "подзаголовок",
+  "as_read": "Προσωποπ[?]ῖα — после π литера вроде «c» (ε? лигатура οι?), над ι тильда; «ω» в форме ϖ",
+  "candidates": [
+   "Προσωποποιῖα",
+   "Προσωποπεῖα"
+  ],
+  "type": "greek",
+  "run": "t4"
+ },
+ {
+  "frame": 185,
+  "page": "179",
+  "location": "рамка, низ",
+  "as_read": "мелкие литеры на нижних картушах неразборчивы (P … V?)",
+  "candidates": [
+   "P … V"
+  ],
+  "type": "ornament",
+  "run": "t4"
+ },
+ {
+  "frame": 186,
+  "page": "180",
+  "location": "колонтитул",
+  "as_read": "HOSTILLITAS — двойное L",
+  "candidates": [
+   "HOSTILLITAS",
+   "HOSTILITAS"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 186,
+  "page": "180",
+  "location": "эпиграмма, стр.4",
+  "as_read": "nauibus — b похоже на l («nauilus»)",
+  "candidates": [
+   "nauibus"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 186,
+  "page": "180",
+  "location": "эпиграмма, стр.4",
+  "as_read": "eſſe — начальное e стёрто, видно «(ſſe»",
+  "candidates": [
+   "eſſe"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 186,
+  "page": "180",
+  "location": "эпиграмма, стр.4",
+  "as_read": "putet — p похоже на f/ſ, второе e похоже на c («futct»)",
+  "candidates": [
+   "putet"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 186,
+  "page": "180",
+  "location": "эпиграмма, стр.1–2",
+  "as_read": "«inuitumme», «periclamari» — пробелы почти не видны",
+  "candidates": [
+   "inuitum me",
+   "pericla mari"
+  ],
+  "type": "spacing",
+  "run": "t4"
+ },
+ {
+  "frame": 187,
+  "page": "181",
+  "location": "девиз (греч.)",
+  "as_read": "Εχθρῶν — придыхание над Ε не видно; ν в форме «ϋ»",
+  "candidates": [
+   "Ἐχθρῶν",
+   "Εχθρῶν"
+  ],
+  "type": "greek",
+  "run": "t4"
+ },
+ {
+  "frame": 187,
+  "page": "181",
+  "location": "эпиграмма, стр.3",
+  "as_read": "Thelamonius (вм. Telamonius)",
+  "candidates": [
+   "Thelamonius"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 187,
+  "page": "181",
+  "location": "эпиграмма, стр.6",
+  "as_read": "Traxêre — циркумфлекс над e",
+  "candidates": [
+   "Traxêre"
+  ],
+  "type": "accent",
+  "run": "t4"
+ },
+ {
+  "frame": 188,
+  "page": "182",
+  "location": "эпиграмма, стр.4",
+  "as_read": "aſtra — ſt стёрто («a ſtra»)",
+  "candidates": [
+   "aſtra"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 188,
+  "page": "182",
+  "location": "эпиграмма, стр.6",
+  "as_read": "после «abit.» на расстоянии ещё точка",
+  "candidates": [
+   "abit."
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 189,
+  "page": "183",
+  "location": "эпиграмма, стр.4",
+  "as_read": "manens — второе e похоже на c («mancns»)",
+  "candidates": [
+   "manens"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 189,
+  "page": "183",
+  "location": "колонтитул",
+  "as_read": "после HOSTILITAS точка с маленьким штрихом над ней",
+  "candidates": [
+   "HOSTILITAS."
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 190,
+  "page": "184",
+  "location": "эпиграмма, стр.6",
+  "as_read": "Bœhemos — s стёрто (видно «o:»)",
+  "candidates": [
+   "Bœhemos"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 190,
+  "page": "184",
+  "location": "эпиграмма, стр.5",
+  "as_read": "«Sic cute» — пробел почти не виден («Siccute»)",
+  "candidates": [
+   "Sic cute"
+  ],
+  "type": "spacing",
+  "run": "t4"
+ },
+ {
+  "frame": 191,
+  "page": "185",
+  "location": "эпиграмма, стр.4",
+  "as_read": "«V tin» — пробел после V",
+  "candidates": [
+   "Vtin",
+   "V tin"
+  ],
+  "type": "spacing",
+  "run": "t4"
+ },
+ {
+  "frame": 191,
+  "page": "185",
+  "location": "эпиграмма, стр.5",
+  "as_read": "Audijt — лигатура ÿ",
+  "candidates": [
+   "Audijt"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 191,
+  "page": "185",
+  "location": "эпиграмма, стр.5",
+  "as_read": "Itachus (вм. Ithacus)",
+  "candidates": [
+   "Itachus"
+  ],
+  "type": "typo",
+  "run": "t4"
+ },
+ {
+  "frame": 192,
+  "page": "186",
+  "location": "эпиграмма, стр.5",
+  "as_read": "«digna.alijs» — точка вместо запятой",
+  "candidates": [
+   "digna.",
+   "digna,"
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 192,
+  "page": "186",
+  "location": "эпиграмма, стр.2",
+  "as_read": "«audaci» — пробел между au и daci",
+  "candidates": [
+   "audaci"
+  ],
+  "type": "spacing",
+  "run": "t4"
+ },
+ {
+  "frame": 193,
+  "page": "187",
+  "location": "эпиграмма, стр.3",
+  "as_read": "Quẽis — лигатура «ẽis» (ue+is)",
+  "candidates": [
+   "Quẽis",
+   "Queis"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 193,
+  "page": "187",
+  "location": "колонтитул",
+  "as_read": "под C в VINDICTA знак вроде седили («Ç»)",
+  "candidates": [
+   "VINDICTA"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 193,
+  "page": "187",
+  "location": "эпиграмма, стр.6",
+  "as_read": "clangore — o над строкой похоже на ò",
+  "candidates": [
+   "clangore"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 194,
+  "page": "188",
+  "location": "колонтитул",
+  "as_read": "VINDICTA: — двоеточие вместо точки; под C знак вроде седили",
+  "candidates": [
+   "VINDICTA:",
+   "VINDICTA."
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 194,
+  "page": "188",
+  "location": "эпиграмма, стр.3",
+  "as_read": "между «ſinunt» и «veros» вертикальный штрих (выступившая шпация)",
+  "candidates": [
+   "ſinunt veros"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 194,
+  "page": "188",
+  "location": "эпиграмма, стр.3",
+  "as_read": "«elabier hoſteis.» — точка в конце строки перед продолжением фразы",
+  "candidates": [
+   "hoſteis.",
+   "hoſteis,"
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 195,
+  "page": "189",
+  "location": "девиз",
+  "as_read": "первая литера похожа на l (строчное)",
+  "candidates": [
+   "Inſani"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 195,
+  "page": "189",
+  "location": "эпиграмма, стр.3",
+  "as_read": "«ſucced anea» — пробел внутри слова",
+  "candidates": [
+   "ſuccedanea"
+  ],
+  "type": "spacing",
+  "run": "t4"
+ },
+ {
+  "frame": 195,
+  "page": "189",
+  "location": "эпиграмма, стр.4",
+  "as_read": "Laërtiade — трема над e",
+  "candidates": [
+   "Laërtiade"
+  ],
+  "type": "accent",
+  "run": "t4"
+ },
+ {
+  "frame": 196,
+  "page": "190",
+  "location": "девиз",
+  "as_read": "отдельного девиза нет, только рубрика PAX.",
+  "candidates": [
+   "PAX. (рубрика = девиз?)"
+  ],
+  "type": "layout",
+  "run": "t4"
+ },
+ {
+  "frame": 196,
+  "page": "190",
+  "location": "эпиграмма, стр.5",
+  "as_read": "«V el» — пробел после V",
+  "candidates": [
+   "Vel"
+  ],
+  "type": "spacing",
+  "run": "t4"
+ },
+ {
+  "frame": 196,
+  "page": "190",
+  "location": "эпиграмма, стр.5",
+  "as_read": "«gentes.» — точка в конце строки перед продолжением фразы",
+  "candidates": [
+   "gentes.",
+   "gentes,"
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 197,
+  "page": "191",
+  "location": "эпиграмма, стр.2",
+  "as_read": "«hoſt ili» — пробел внутри слова",
+  "candidates": [
+   "hoſtili"
+  ],
+  "type": "spacing",
+  "run": "t4"
+ },
+ {
+  "frame": 197,
+  "page": "191",
+  "location": "эпиграмма, стр.3",
+  "as_read": "в конце строки нет знака препинания",
+  "candidates": [
+   "vſum"
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 198,
+  "page": "192",
+  "location": "эпиграмма, стр.3",
+  "as_read": "comptę — e с хвостиком (e caudata)",
+  "candidates": [
+   "comptę",
+   "comptæ"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 198,
+  "page": "192",
+  "location": "эпиграмма, стр.3",
+  "as_read": "«Halcionet» — слитно (Halcione et?)",
+  "candidates": [
+   "Halcionet",
+   "Halcione et"
+  ],
+  "type": "spacing",
+  "run": "t4"
+ },
+ {
+  "frame": 198,
+  "page": "192",
+  "location": "колонтитул",
+  "as_read": "над A в PAX штрих",
+  "candidates": [
+   "—"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 199,
+  "page": "193",
+  "location": "колонтитул",
+  "as_read": "новый раздел SCIENTIA. начинается без рубрики на полосе",
+  "candidates": [
+   "SCIENTIA."
+  ],
+  "type": "layout",
+  "run": "t4"
+ },
+ {
+  "frame": 199,
+  "page": "193",
+  "location": "эпиграмма, стр.6",
+  "as_read": "перед «Alterum» штрих-кавычка",
+  "candidates": [
+   "Alterum"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 199,
+  "page": "193",
+  "location": "девиз, стр.2",
+  "as_read": "слева от «nefas» (на поле) черта",
+  "candidates": [
+   "—"
+  ],
+  "type": "stray",
+  "run": "t4"
+ },
+ {
+  "frame": 200,
+  "page": "194",
+  "location": "девиз, стр.1",
+  "as_read": "Fortitudine — конечное e похоже на c",
+  "candidates": [
+   "Fortitudine"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 200,
+  "page": "194",
+  "location": "эпиграмма, стр.3",
+  "as_read": "conuenit — e похоже на c («conucnit»)",
+  "candidates": [
+   "conuenit"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 200,
+  "page": "194",
+  "location": "эпиграмма, стр.6",
+  "as_read": "Quẽis — лигатура «ẽis»",
+  "candidates": [
+   "Quẽis",
+   "Queis"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 200,
+  "page": "194",
+  "location": "эпиграмма, стр.7",
+  "as_read": "Anné — акут над e",
+  "candidates": [
+   "Anné",
+   "Anne"
+  ],
+  "type": "accent",
+  "run": "t4"
+ },
+ {
+  "frame": 201,
+  "page": "195",
+  "location": "эпиграмма, стр.1",
+  "as_read": "Aeææ — третья и четвёртая литеры лигатуры æ, вторая e",
+  "candidates": [
+   "Aeææ",
+   "Aeæe"
+  ],
+  "type": "letterform",
+  "run": "t4"
+ },
+ {
+  "frame": 201,
+  "page": "195",
+  "location": "эпиграмма, стр.4",
+  "as_read": "«Purpureus:ſed» — двоеточие",
+  "candidates": [
+   "Purpureus:"
+  ],
+  "type": "punctuation",
+  "run": "t4"
+ },
+ {
+  "frame": 202,
+  "page": "196",
+  "location": "подзаголовок",
+  "as_read": "седьмая литера повреждена — E или B",
+  "candidates": [
+   "APOLOGESIS",
+   "APOLOGBSIS"
+  ],
+  "type": "damage",
+  "run": "t4"
+ },
+ {
+  "frame": 202,
+  "page": "196",
+  "location": "колонтитул",
+  "as_read": "между I и A вертикальная черта/скобка («SCIENTI]A»)",
+  "candidates": [
+   "SCIENTIA."
+  ],
+  "type": "stray",
+  "run": "t4"
  }
 ]

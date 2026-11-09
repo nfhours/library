@@ -1,0 +1,57 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 199,
+ "source": "scan/frame_0199.jpg",
+ "page": "193",
+ "signature": "N",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SCIENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Doctos doctis obloqui",
+     "nefas eſſe."
+    ],
+    "reading": "Doctos doctis obloqui nefas esse."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Руины античных зданий: обрушенные арки, колонны, стены, ступени, поваленные барабаны колонн и обломки на переднем плане; слева вверху в небе летит ласточка (Прокна), несущая в клюве цикаду; облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quid rapis heu Progne vocalem ſæua Cicadam,",
+     "Pignoribuſq; tuis fercula dira paras?",
+     "Stridula ſtridentem,vernam verna,hoſpita lædis",
+     "Hoſpitam,& aligeram penniger ales auem?",
+     "Ergo abice hanc prædam.nã muſica pectora ſum-",
+     "mum eſt",
+     "Alterum ab alterius dente perire nefas."
+    ],
+    "reading": [
+     "Quid rapis heu Progne vocalem sæva Cicadam,",
+     "Pignoribusque tuis fercula dira paras?",
+     "Stridula stridentem, vernam verna, hospita lædis",
+     "Hospitam, & aligeram penniger ales avem?",
+     "Ergo abice hanc prædam.nam musica pectora sum-",
+     "mum est",
+     "Alterum ab alterius dente perire nefas."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка из деревьев: вверху кроны с листвой, по бокам стволы деревьев, обвитые лозой; внизу пейзажный фриз с городом, руинами, акведуком и мостами, по углам кусты с зайцами/кроликами."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «193» справа вверху. Сигнатура «N» под рамкой справа. Колонтитул SCIENTIA. без рубрики раздела на полосе. В стр.5 оборот строки: «ſum-» / «mum eſt» отдельной строкой; в чтении одна стихотворная строка."
+}

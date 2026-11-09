@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 186,
+ "source": "scan/frame_0186.jpg",
+ "page": "180",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HOSTILLITAS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In eum qui truculentia ſuo-",
+     "rum perierit."
+    ],
+    "reading": "In eum qui truculentia suorum perierit."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Морской берег: на переднем плане выброшенный на песок дельфин (с чешуйчатым телом, завитым хвостом и большой головой) лежит среди камней и раковин; справа скалы и большое раскидистое дерево; вдали море с волнами, парусные лодки, на горизонте берег/город; слева солнце с лучами за облаками.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Delphinem inuitum me in littora compulit æſtus,",
+     "Exemplum infido quanta pericla mari.",
+     "Nam ſi nec proprijs Neptunus parcit alumnis,",
+     "Quis tutos homines nauibus eſſe putet?"
+    ],
+    "reading": [
+     "Delphinem inuitum me in littora compulit æstus,",
+     "Exemplum infido quanta pericla mari.",
+     "Nam si nec propriis Neptunus parcit alumnis,",
+     "Quis tutos homines navibus esse putet?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "",
+   "subheading": {
+    "diplomatic": "PROSOPOPEIA.",
+    "reading": "PROSOPOPEIA."
+   }
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0185 (бусинные бордюры, связка плодов вверху, факелы и гротеск внизу; на нижних картушах мелкие литеры P … V?)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «180» слева вверху. Сигнатуры нет. Последняя строка эпиграммы сильно стёрта."
+}

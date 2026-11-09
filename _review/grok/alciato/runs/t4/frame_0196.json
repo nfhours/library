@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 196,
+ "source": "scan/frame_0196.jpg",
+ "page": "190",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PAX.",
+ "rubric": "PAX.",
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": {
+    "position": "между рубрикой и эпиграммой",
+    "description": "Боевой слон в попоне с подпругой запряжён в колесницу; на нём сидит погонщик, замахнувшийся дубиной; рядом идёт юноша, держащий на шесте трофей (доспехи-панцирь с круглым щитом/венком), за слоном фигура с поднятым шлемом-трофеем на шесте; на заднем плане колесница, облака.",
+    "inscriptions": [
+     {
+      "where": "верхняя часть рамки, треугольные щитки",
+      "text": "P … V"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Turrigeris humeris,dentis quoq; barrus eburni,",
+     "Qui ſuperare ferox Martia bella ſolet,",
+     "Suppoſuit nunc colla iugo:ſtimuliſq; ſubactus,",
+     "Cæſareos currus ad pia templa vehit.",
+     "Vel fera cognoſcit concordes vndique gentes.",
+     "Proiectiſq; armis munia pacis obit."
+    ],
+    "reading": [
+     "Turrigeris humeris, dentis quoque barrus eburni,",
+     "Qui superare ferox Martia bella solet,",
+     "Supposuit nunc colla iugo: stimulisque subactus,",
+     "Cæsareos currus ad pia templa vehit.",
+     "Vel fera cognoscit concordes undique gentes.",
+     "Proiectisque armis munia pacis obit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0195 (крылатая маска вверху, щитки с литерами P и V, вазы, кариатиды, полулежащие фигуры внизу)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «190» слева вверху. Сигнатуры нет. Рубрика раздела PAX. стоит на месте девиза; отдельного девиза нет."
+}

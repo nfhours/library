@@ -1,0 +1,58 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 182,
+ "source": "scan/frame_0182.jpg",
+ "page": "176",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMICITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": null,
+   "engraving": null,
+   "epigram": {
+    "diplomatic": [
+     "An quia nil referunt ingrati:atq; arcula inanis,",
+     "Eſt charitum?qui dat munera,nudus eget.",
+     "Addita cur nuper pedibus talaria?bis dat",
+     "Qui citò dat.minimi gratia tarda pretij eſt.",
+     "Implicitis vlnis cur vertitur altera?gratus",
+     "Fœnerat.huic remanent vna abeunte duæ.",
+     "Iuppiter ijs genitor,cœli de ſemine diuas",
+     "Omnibus acceptas edidit Eurynome."
+    ],
+    "reading": [
+     "An quia nil referunt ingrati: atque arcula inanis,",
+     "Est charitum? qui dat munera, nudus eget.",
+     "Addita cur nuper pedibus talaria? bis dat",
+     "Qui citò dat.minimi gratia tarda pretii est.",
+     "Implicitis ulnis cur vertitur altera? gratus",
+     "Fœnerat.huic remanent una abeunte duæ.",
+     "Iuppiter iis genitor, cœli de semine divas",
+     "Omnibus acceptas edidit Eurynome."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "",
+   "continuation_of": {
+    "frame": 181,
+    "page": "175",
+    "motto": "Gratiæ."
+   }
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка с бусинными лентами, маской и путто, что на 0181 (литеры P и V на нижних блоках)."
+  },
+  {
+   "position": "концовка под текстом",
+   "description": "Картуш-концовка: по бокам бородатые маски фавнов с рогами, вверху женская маска, внизу маленькая маска; в поле картуша сцена с фигурами на конях/кентаврами и сидящей фигурой."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «176» слева вверху. Сигнатуры нет. Продолжение эпиграммы «Gratiæ.» с 0181. Нижняя половина поля пустая (просвечивает текст оборота)."
+}

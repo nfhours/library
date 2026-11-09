@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 194,
+ "source": "scan/frame_0194.jpg",
+ "page": "188",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "VINDICTA:",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Alius peccat,alius plectitur."
+    ],
+    "reading": "Alius peccat, alius plectitur."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Человек в шапке и куртке замахивается поднятой рукой с камнем (в другой руке палка/камень) на собаку, которая справа внизу грызёт брошенный камень; за ним деревенский дом с остроконечной крышей, арочным входом и окнами, деревья, кусты; летящие птицы; на земле камни.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Arripit vt lapidem catulus,morſuq; fatigat,",
+     "Nec percuſſori mutua damna facit.",
+     "Sic plerique ſinunt veros elabier hoſteis.",
+     "Et quos nulla grauat noxia,dente petunt."
+    ],
+    "reading": [
+     "Arripit ut lapidem catulus, morsuque fatigat,",
+     "Nec percussori mutua damna facit.",
+     "Sic plerique sinunt veros elabier hosteis.",
+     "Et quos nulla gravat noxia, dente petunt."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же архитектурная рамка с гермами, что на 0193."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «188» слева вверху. Сигнатуры нет."
+}

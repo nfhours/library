@@ -1,0 +1,59 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 201,
+ "source": "scan/frame_0201.jpg",
+ "page": "195",
+ "signature": "N 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SCIENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Facundia difficilis."
+    ],
+    "reading": "Facundia difficilis."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Слева бородатый воин (Улисс) в шлеме с плюмажем, в доспехах и плаще, с мечом у пояса, протягивает руку; справа юный Меркурий в крылатом шлеме, с кадуцеем в левой руке, подаёт ему растение с цветком и корнями (моли); пейзаж с холмами, камнем, облаками, птицами.",
+    "inscriptions": [
+     {
+      "where": "боковые пилястры рамки, медальоны",
+      "text": "P … V"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Antidotum Aeææ medicata in pocula Circes",
+     "Mercurium hoc Ithaco fama dediſſe fuit.",
+     "Moly vocant,id vix radice euellitur atra,",
+     "Purpureus:ſed flos,lactis & inſtar habet.",
+     "Eloquij candor facundiaq; allicit omnes:",
+     "Sed multi res eſt tanta laboris opus."
+    ],
+    "reading": [
+     "Antidotum Aeææ medicata in pocula Circes",
+     "Mercurium hoc Ithaco fama dedisse fuit.",
+     "Moly vocant, id vix radice evellitur atra,",
+     "Purpureus: sed flos, lactis & instar habet.",
+     "Eloquii candor facundiaque allicit omnes:",
+     "Sed multi res est tanta laboris opus."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка с бусинным бордюром: вверху голова козла/барана с рогами между ремнями-волютами, по углам горящие светильники-вазы; по бокам пилястры с арабесками и медальонами (литеры P слева, V справа), ниже женские маски в тюрбанах; внизу маска-гротеск между волютами и двумя змеями/драконами с когтистыми лапами."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «195» справа вверху. Сигнатура «N 2» под рамкой справа."
+}

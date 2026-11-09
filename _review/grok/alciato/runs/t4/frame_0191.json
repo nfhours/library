@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 191,
+ "source": "scan/frame_0191.jpg",
+ "page": "185",
+ "signature": "M 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "VINDICTA.",
+ "rubric": "VINDICTA.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Iuſta vindicta."
+    ],
+    "reading": "Iusta vindicta."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "В пещере среди скал сидит огромный бородатый обнажённый Циклоп, схватившись рукой за голову (за глаз); справа юноша с развевающимися волосами и плащом (Улисс) вонзает ему в глаз длинный заострённый кол; рядом лежит/стоит бочонок (винный мех?); справа внизу овцы и баран; за скалами сухое дерево.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Dum reſidet Cyclops ſinuoſi in faucibus antri,",
+     "Hæc ſecum teneras concinit inter oues.",
+     "Paſcite vos herbas:ſocijs ego paſcar Achiuis,",
+     "Poſtremumq; Vtin viſcera noſtra ferent.",
+     "Audijt hæc Itachus,Cyclopaq; lumine caſſum",
+     "Reddidit.En pœnas vt ſuus author habet?"
+    ],
+    "reading": [
+     "Dum residet Cyclops sinuosi in faucibus antri,",
+     "Hæc secum teneras concinit inter oves.",
+     "Pascite vos herbas: sociis ego pascar Achivis,",
+     "Postremumque Utin viscera nostra ferent.",
+     "Audiit hæc Itachus, Cyclopaque lumine cassum",
+     "Reddidit.En pœnas ut suus author habet?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка из прямоугольных и овальных панелей с чёрным (маврским/арабесковым) плетёным орнаментом на светлом поле: вверху и внизу по две прямоугольные панели и центральный овал, по бокам вертикальные панели с арабесками и овалы с розетками."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «185» справа вверху. Сигнатура «M 5» под рамкой справа. Рубрика раздела VINDICTA."
+}

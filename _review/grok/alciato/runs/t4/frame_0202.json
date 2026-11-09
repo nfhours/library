@@ -1,0 +1,59 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 202,
+ "source": "scan/frame_0202.jpg",
+ "page": "196",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SCIENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Antiquiſsima quæque",
+     "commentitia."
+    ],
+    "reading": "Antiquissima quæque commentitia."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Старый бородатый Протей в доспехах, держащий длинный трезубец, стоит/поднимается из моря среди морских чудовищ (дельфины, тюлени, морские звери); на руке у него сидит зверёк; справа сияющее солнце с лицом, слева вдали берег с городом, облака, птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Pellenæ ſenex,cui forma eſt hiſtrica,Proteu,",
+     "Qui modò membra viri fers,modò mẽbra feri.",
+     "Dic age,quæ ſpecies ratio te vertit in omnes,",
+     "Nulla ſit vt vario certa figura tibi?",
+     "Signa vetuſtatis,primæui & præfero ſecli:",
+     "De quo quiſque ſuo ſomniat arbitrio."
+    ],
+    "reading": [
+     "Pellenæ senex, cui forma est histrica, Proteu,",
+     "Qui modò membra viri fers, modò membra feri.",
+     "Dic age, quæ species ratio te vertit in omnes,",
+     "Nulla sit ut vario certa figura tibi?",
+     "Signa vetustatis, primævi & præfero secli:",
+     "De quo quisque suo somniat arbitrio."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "",
+   "subheading": {
+    "diplomatic": "APOLOG[?]SIS.",
+    "reading": "APOLOG[?]SIS."
+   }
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка, что на 0201 (голова козла, светильники, пилястры с медальонами P и V, женские маски, маска и змеи внизу)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «196» слева вверху. Сигнатуры нет."
+}

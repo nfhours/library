@@ -1,0 +1,59 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 195,
+ "source": "scan/frame_0195.jpg",
+ "page": "189",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "VINDICTA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Inſani gladius."
+    ],
+    "reading": "Insani gladius."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Безумный Аякс в шлеме и доспехах, высоко замахнувшись мечом, бросается на стадо свиней: на переднем плане лежит крупная свинья/кабан, другие животные (свиньи, собака) разбегаются и лежат зарубленные; на заднем плане крестьянские дома с соломенными крышами, у двери фигура человека, тележка, горы.",
+    "inscriptions": [
+     {
+      "where": "верхняя часть рамки, слева",
+      "text": "P"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Setigeri medius ſtabat gregis enſifer Aiax,",
+     "Cæde ſuum,credens cædere Tantalidas.",
+     "Hoſtia ſic tanquam ſus ſuccedanea pœnas",
+     "Pro Laërtiade,pro caueaq; dabat.",
+     "Neſcit obeſſe ſuis furor hoſtibus,errat ab ictu,",
+     "Conſilijq; impos in ſua damna ruit."
+    ],
+    "reading": [
+     "Setigeri medius stabat gregis ensifer Aiax,",
+     "Cæde suum, credens cædere Tantalidas.",
+     "Hostia sic tanquam sus succedanea pœnas",
+     "Pro Laërtiade, pro caveaque dabat.",
+     "Nescit obesse suis furor hostibus, errat ab ictu,",
+     "Consiliique impos in sua damna ruit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка с ремнями и бусинным бордюром: вверху крылатая маска между волютами и треугольными щитками (на левом литера P), по углам подвешенные плоды; по бокам вазы-амфоры и гермы-кариатиды с волютами; внизу два полулежащих обнажённых путто/мужчины с гирляндами плодов по сторонам пустого картуша."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «189» справа вверху. Сигнатуры нет."
+}

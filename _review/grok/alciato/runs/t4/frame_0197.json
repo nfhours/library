@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 197,
+ "source": "scan/frame_0197.jpg",
+ "page": "191",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PAX.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ex bello pax."
+    ],
+    "reading": "Ex bello pax."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Большой рыцарский шлем-армэ с забралом и пышным плюмажем стоит на земле на переднем плане; вокруг и над ним летают пчёлы (одна садится на забрало — в шлеме улей); на заднем плане холмы, кусты, деревья.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "En galea,intrepidus quam miles geſſerat:& quæ",
+     "Sæpius hoſtili ſparſa cruore fuit.",
+     "Parta pace apibus tenuis conceſsit in vſum",
+     "Alueoli:atque fauos grataq; mella gerit.",
+     "Arma procul iaceant:fas ſit tunc ſumere bellum:",
+     "Quando aliter pacis non potes arte frui."
+    ],
+    "reading": [
+     "En galea, intrepidus quam miles gesserat: & quæ",
+     "Sæpius hostili sparsa cruore fuit.",
+     "Parta pace apibus tenuis concessit in usum",
+     "Alveoli: atque favos grataque mella gerit.",
+     "Arma procul iaceant: fas sit tunc sumere bellum:",
+     "Quando aliter pacis non potes arte frui."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка с гирляндами: вверху гирлянда плодов и листьев между двумя маскаронами на подставках; по бокам вертикальные гирлянды плодов, держимые внизу фигурами путто/юношей; внизу две совы с раскрытыми крыльями по сторонам корзины с плодами, ниже маска с лентами."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «191» справа вверху. Сигнатуры нет."
+}

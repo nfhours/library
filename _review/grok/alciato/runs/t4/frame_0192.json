@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 192,
+ "source": "scan/frame_0192.jpg",
+ "page": "186",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "VINDICTA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Iuſta vltio."
+    ],
+    "reading": "Iusta ultio."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Ворон с раскрытыми крыльями сидит на ветви поваленного/сухого дерева над скалой и держит в клюве скорпиона; справа толстый ствол дерева и лес, слева равнина с водой и облака; на переднем плане скалы и растения.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Raptabat volucres captum pede coruus in auras",
+     "Scorpion,audaci præmia parta gulæ.",
+     "Aſt ille infuſo ſenſim per membra veneno,",
+     "Raptorem in ſtygias compulit vltor aquas.",
+     "O riſu res digna.alijs qui fata parabat,",
+     "Ipſe perit:proprijs ſuccubuitq; dolis."
+    ],
+    "reading": [
+     "Raptabat volucres captum pede coruus in auras",
+     "Scorpion, audaci præmia parta gulæ.",
+     "Ast ille infuso sensim per membra veneno,",
+     "Raptorem in stygias compulit ultor aquas.",
+     "O risu res digna.aliis qui fata parabat,",
+     "Ipse perit: propriis succubuitque dolis."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка из панелей с чёрным арабесковым орнаментом, что на 0191."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «186» слева вверху. Сигнатуры нет. В конце 1-й строки нет знака препинания."
+}

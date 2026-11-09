@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 189,
+ "source": "scan/frame_0189.jpg",
+ "page": "183",
+ "signature": "M 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HOSTILITAS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Obnoxia infirmitas."
+    ],
+    "reading": "Obnoxia infirmitas."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Морская сцена: в воде крупная рыба (дорада) с раскрытой пастью гонится за стайкой мелких рыбок; сверху к поверхности воды пикируют две водяные птицы с раскрытыми крыльями — слева светлая (баклан/нырок), справа тёмная (лысуха). На горизонте берег с горами, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Piſciculos orata rapit medio æquore ſardas,",
+     "Ni fugiant pauidæ,ſumma mariſq; petant.",
+     "Aſt ibi ſunt mergis fulciſq; voracibus eſca.",
+     "Eheu intuta manens vndique debilitas."
+    ],
+    "reading": [
+     "Pisciculos orata rapit medio æquore sardas,",
+     "Ni fugiant pavidæ, summa marisque petant.",
+     "Ast ibi sunt mergis fulcisque voracibus esca.",
+     "Eheu intuta manens undique debilitas."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Растительная рамка: вверху фриз из сплетённых крылатых драконов/птиц с чешуёй и листьями; слева вьющаяся лоза с виноградными гроздьями, листьями и цветами; справа лоза с листьями, рогатой маской-гротеском и розеткой; внизу фриз из листьев, плодов и двух чудовищ."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «183» справа вверху. Сигнатура «M 4» под рамкой справа. Рамка иного типа, чем на 0187–0188."
+}

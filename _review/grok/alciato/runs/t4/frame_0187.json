@@ -1,0 +1,59 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 187,
+ "source": "scan/frame_0187.jpg",
+ "page": "181",
+ "signature": "M 3",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HOSTILITAS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Εχθρῶν ἄδωρα δῶρα,In dona",
+     "hoſtium."
+    ],
+    "reading": "Εχθρῶν ἄδωρα δῶρα, In dona hostium."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Двое воинов в античных доспехах и плащах обмениваются дарами перед военным лагерем с шатрами: левый (в шлеме, в чешуйчатом панцире, спиной вполоборота) протягивает меч, правый (бородатый, в шлеме с плюмажем) протягивает пояс/перевязь. За ними шатры, вдали город, холмы, летящие птицы.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Bellorum cœpiſſe ferunt monumenta viciſsim",
+     "Scutiferum Aiacem,Hectoraq; Iliacum.",
+     "Balthea Priamides,rigidũ Thelamonius enſem,",
+     "Inſtrumenta ſuæ cœpit vterque necis.",
+     "Enſis enim Aiacem cõfecit,at Hectora functum",
+     "Traxêre Aemonijs cingula nexa rotis.",
+     "Sic titulo obſequij,quæ mittunt hoſtibus hoſtes",
+     "Munera,venturi præſcia fata ferunt."
+    ],
+    "reading": [
+     "Bellorum cœpisse ferunt monumenta vicissim",
+     "Scutiferum Aiacem, Hectoraque Iliacum.",
+     "Balthea Priamides, rigidum Thelamonius ensem,",
+     "Instrumenta suæ cœpit uterque necis.",
+     "Ensis enim Aiacem confecit, at Hectora functum",
+     "Traxêre Aemoniis cingula nexa rotis.",
+     "Sic titulo obsequii, quæ mittunt hostibus hostes",
+     "Munera, venturi præscia fata ferunt."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка с бусинными бордюрами: вверху два лежащих зверя (львы/собаки) по сторонам центрального картуша с маской и розеткой; по бокам гротескные головы (слоновые/звериные маски) на постаментах и подвесные гирлянды плодов и цветов с лентами; внизу два крылатых дракона/грифона, сплетающихся над растительным орнаментом, по углам волюты."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «181» справа вверху. Сигнатура «M 3» под рамкой справа. Греческое изречение и латинский девиз в одной строке."
+}

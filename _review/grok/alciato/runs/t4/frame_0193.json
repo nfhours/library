@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 193,
+ "source": "scan/frame_0193.jpg",
+ "page": "187",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "VINDICTA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Parem delinquentis,& ſuaſoris",
+     "culpam eſſe."
+    ],
+    "reading": "Parem delinquentis, & suasoris culpam esse."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Перед каменной стеной/башней с воротами и опускной решёткой (тюрьма) воины в шлемах уводят пленника-трубача: один со щитом держит его, другой (в шлеме с плюмажем) толкает; справа позади ещё воины с копьями; на земле камни.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Præconem lituo perflantem claſsica,victrix",
+     "Captiuum in tetro carcere turba tenet.",
+     "Quẽis ille excuſat:quòd nec ſit ſtrenuus armis,",
+     "Vllius aut ſæuo læſerit enſe latus.",
+     "Huic illi:Quin ipſe magis timidiſsime peccas,",
+     "Qui clangore alios æris in arma cies."
+    ],
+    "reading": [
+     "Præconem lituo perflantem classica, victrix",
+     "Captivum in tetro carcere turba tenet.",
+     "Quenis ille excusat: quòd nec sit strenuus armis,",
+     "Ullius aut sævo læserit ense latus.",
+     "Huic illi: Quin ipse magis timidissime peccas,",
+     "Qui clangore alios æris in arma cies."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Архитектурная рамка: по бокам гермы-атланты на пьедесталах с вазами, барабанами-колонками и подвешенными кистями; вверху бородатая маска с рогами/крыльями между ремнями-волютами с овалами, по углам маски в головных уборах; внизу маска сатира между двумя змеями на постаменте, на боковых блоках рельефы-лежащие фигуры (раки/звери)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «187» справа вверху. Сигнатуры нет."
+}

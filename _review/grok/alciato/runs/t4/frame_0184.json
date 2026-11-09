@@ -1,0 +1,55 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 184,
+ "source": "scan/frame_0184.jpg",
+ "page": "178",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HOSTILITAS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Inanis impetus."
+    ],
+    "reading": "Inanis impetus."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Ночной пейзаж: на небе полная луна с серпом/ликом и звёзды; на холме в центре собака (волк?), задравшая морду к луне и лающая на неё; слева домик на холме, справа деревья и дом, облака; на переднем плане тропа/ступени и холмы.",
+    "inscriptions": [
+     {
+      "where": "картуш в верхней части рамки",
+      "text": "PV"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Lunarem noctu(vt ſpeculum)canis inſpicit orbem:",
+     "Seq; videns,altum credit ineſſe canem,",
+     "Et latrat:ſed fruſtra agitur vox irrita ventis,",
+     "Et peragit curſus ſurda Diana ſuos."
+    ],
+    "reading": [
+     "Lunarem noctu(ut speculum)canis inspicit orbem:",
+     "Seque videns, altum credit inesse canem,",
+     "Et latrat: sed frustra agitur vox irrita ventis,",
+     "Et peragit cursus surda Diana suos."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка с монограммой PV, что на 0183."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «178» слева вверху. Сигнатуры нет."
+}

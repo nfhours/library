@@ -1,0 +1,59 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 183,
+ "source": "scan/frame_0183.jpg",
+ "page": "177",
+ "signature": "M",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HOSTILITAS.",
+ "rubric": "HOSTILITAS.",
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In detractores."
+    ],
+    "reading": "In detractores."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Бородатый человек в короне/венке и длинном одеянии стоит в пейзаже: поднятой правой рукой держит над головой цикаду (насекомое), в левой — круглое опахало на ручке; справа вверху рой мух. Слева облака с дождём/лучами, развевающийся плащ; вдали город с башнями, справа дом под деревом, холмы, слева сухое дерево.",
+    "inscriptions": [
+     {
+      "where": "картуш в верхней части рамки",
+      "text": "PV"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Audent flagriferi matulæ,ſtupidiq; magiſtri",
+     "Bilem in me impuri pectoris euomere:",
+     "Quid faciam?reddámne vices?ſed nonne cicadam",
+     "Ala vna obſtreperam corripuiſſe ferar?",
+     "Quid prodeſt muſcas operoſis pellere flabris?",
+     "Negligere eſt ſatius,perdere quod nequeas."
+    ],
+    "reading": [
+     "Audent flagriferi matulæ, stupidique magistri",
+     "Bilem in me impuri pectoris evomere:",
+     "Quid faciam? reddámne vices? sed nonne cicadam",
+     "Ala una obstreperam corripuisse ferar?",
+     "Quid prodest muscas operosis pellere flabris?",
+     "Negligere est satius, perdere quod nequeas."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка с жгутовым и бусинным бордюрами: вверху картуш с монограммой PV между женской маской в повязке и крылатой фигуркой, по углам ремни-волюты; по бокам ремни-волюты с листьями; внизу маска-гротеск со змеевидными/рогатыми завитками между двумя профильными масками и гроздьями плодов."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «177» справа вверху. Сигнатура «M» под рамкой справа. Рубрика раздела HOSTILITAS."
+}

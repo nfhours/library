@@ -1,0 +1,63 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 200,
+ "source": "scan/frame_0200.jpg",
+ "page": "194",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "SCIENTIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Eloquentia Fortitudine præ-",
+     "ſtantior."
+    ],
+    "reading": "Eloquentia Fortitudine præstantior."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Старый бородатый Геркулес (Галльский) в львиной шкуре, с поднятой палицей в правой руке и луком в левой, стоит слева; от его рта (языка) тянутся тонкие цепочки к ушам толпы людей справа, которые послушно следуют за ним. На заднем плане горы, круглое здание-храм на холме, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Arcum læua tenet:rigidam fert dextera clauam,",
+     "Contegit & Nemees corpora nuda leo.",
+     "Herculis hæc igitur facies.non conuenit illud",
+     "Quòd vetus & ſenio tempora cana gerit.",
+     "Quid quod lingua illi leuibus traiecta cathenis,",
+     "Quẽis fiſſa facileis allicit aure viros?",
+     "Anné quòd Alciden lingua non robore Galli",
+     "Præſtantem,populis iura dediſſe ferunt?",
+     "Cedunt arma togæ,& quamuis duriſsima corda",
+     "Eloquio pollens ad ſua vota trahit."
+    ],
+    "reading": [
+     "Arcum læva tenet: rigidam fert dextera clavam,",
+     "Contegit & Nemees corpora nuda leo.",
+     "Herculis hæc igitur facies.non conuenit illud",
+     "Quòd vetus & senio tempora cana gerit.",
+     "Quid quod lingua illi levibus traiecta cathenis,",
+     "Quenis fissa facileis allicit aure viros?",
+     "Anné quòd Alciden lingua non robore Galli",
+     "Præstantem, populis iura dedisse ferunt?",
+     "Cedunt arma togæ, & quamuis durissima corda",
+     "Eloquio pollens ad sua vota trahit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка из деревьев с пейзажным фризом внизу, что на 0199."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «194» слева вверху. Сигнатуры нет."
+}

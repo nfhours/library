@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 190,
+ "source": "scan/frame_0190.jpg",
+ "page": "184",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HOSTILITAS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Vel poſt mortem formidoloſi."
+    ],
+    "reading": "Vel post mortem formidolosi."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Двое музыкантов на поле перед военным лагерем: слева человек в шапке и куртке с застёжками держит на перевязи/над плечом барабан (бубен) поднятым кверху; справа бородатый барабанщик в шляпе с пером бьёт палочками в большой подвешенный барабан. На заднем плане войско с копьями и знамёнами, шатры, кусты и деревья, облака с лучами.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Cætera muteſcent,coriumq; ſilebit ouillum,",
+     "Si confecta lupi tympana pelle ſonent.",
+     "Hanc mẽbrana ouium ſic exhorreſcit,vt hoſtem,",
+     "Exanimis quanuis non ferat exanimem.",
+     "Sic cute detracta Ciſchas,in tympana verſus,",
+     "Bœhemos potuit vincere pontifices."
+    ],
+    "reading": [
+     "Cætera mutescent, coriumque silebit ovillum,",
+     "Si confecta lupi tympana pelle sonent.",
+     "Hanc membrana ovium sic exhorrescit, ut hostem,",
+     "Exanimis quanuis non ferat exanimem.",
+     "Sic cute detracta Cischas, in tympana versus,",
+     "Bœhemos potuit vincere pontifices."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же растительная рамка, что на 0189."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «184» слева вверху. Сигнатуры нет."
+}

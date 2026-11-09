@@ -1,0 +1,61 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 181,
+ "source": "scan/frame_0181.jpg",
+ "page": "175",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "AMICITIA.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Gratiæ."
+    ],
+    "reading": "Gratiæ."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Три обнажённые Грации стоят в пейзаже, обнявшись: левая (с венком из листьев в волосах) лицом к зрителю, средняя (в чепце, с повязкой/поясом на талии) спиной к зрителю, правая (с кольцом/венком в левой руке) лицом к зрителю, держит среднюю за руку. Вокруг цветущие растения, камни, холмы; летящие птицы, облака.",
+    "inscriptions": [
+     {
+      "where": "нижняя часть рамки (по бокам)",
+      "text": "P … V"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Tres Charites Veneri aſsiſtunt,dominamq; ſe-",
+     "quuntur,",
+     "Hincq; voluptates,atque alimenta parant.",
+     "Lætitiam Euphroſyne,ſpecioſum Aglaia nitorem,",
+     "Suadela eſt Pithus,blandus & ore lepos.",
+     "Cur nudæ?mentis quoniam candore venuſtas",
+     "Conſtat,& eximia ſimplicitate placet."
+    ],
+    "reading": [
+     "Tres Charites Veneri assistunt, dominamque se-",
+     "quuntur,",
+     "Hincque voluptates, atque alimenta parant.",
+     "Lætitiam Euphrosyne, speciosum Aglaia nitorem,",
+     "Suadela est Pithus, blandus & ore lepos.",
+     "Cur nudæ? mentis quoniam candore venustas",
+     "Constat, & eximia simplicitate placet."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Рамка с ремнями и бусинными (овальными) лентами: вверху бородатая маска в венке между волютами и лентами; по бокам ремни-волюты с розетками; внизу путто с гирляндой плодов между двумя блоками с розетками, ленты с розетками свисают по углам; на левом и правом блоке нижней части литеры P и V (монограмма)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «175» справа вверху. Сигнатуры нет. Слово «ſequuntur» перенесено: «ſe-» в конце 1-й строки, «quuntur,» отдельной строкой (перенос оборота строки); в чтении — одна стихотворная строка."
+}

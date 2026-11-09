@@ -1,0 +1,54 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 198,
+ "source": "scan/frame_0198.jpg",
+ "page": "192",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PAX.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Ex pace vbertas."
+    ],
+    "reading": "Ex pace ubertas."
+   },
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Посреди спокойного моря скалистый остров с высокими утёсами и растительностью; на скале в гнезде среди кустов сидит птица-зимородок (альциона) с раскинутыми крыльями; вокруг волны, вдали берег с горами, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Grandibus ex ſpicis tenues contexe corollas,",
+     "Quas circum alterno palmite vitis eat.",
+     "His comptę Halcionet trãquilli in marmoris vnda",
+     "Nidificant,pullos inuolucreſq; fouent.",
+     "Lætus erit Cereri,Baccho quoque fertilis annus,",
+     "Aequorei ſi rex alitis inſtar erit."
+    ],
+    "reading": [
+     "Grandibus ex spicis tenues contexe corollas,",
+     "Quas circum alterno palmite vitis eat.",
+     "His comptæ Halcionet tranquilli in marmoris unda",
+     "Nidificant, pullos inuolucresque fovent.",
+     "Lætus erit Cereri, Baccho quoque fertilis annus,",
+     "Aequorei si rex alitis instar erit."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": ""
+  }
+ ],
+ "ornaments": [
+  {
+   "position": "рамка полосы",
+   "description": "Та же рамка с гирляндами, что на 0197 (гирлянды плодов, путти, совы внизу)."
+  }
+ ],
+ "errata": [],
+ "notes": "Номер «192» слева вверху. Сигнатуры нет."
+}
