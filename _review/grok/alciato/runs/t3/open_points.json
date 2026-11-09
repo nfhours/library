@@ -2430,6 +2430,257 @@
     "Æquoreum"
    ],
    "type": "ligature"
+  },
+  {
+   "frame": 151,
+   "page": "145",
+   "location": "гравюра, греческая надпись на змее",
+   "as_read": "TON · [...]NEIEOEITAI[?] · ME · KPOIΣ[?] · [...]AN · TIΣME[?] — буквы на ленте частично перевёрнуты и неразборчивы",
+   "candidates": [],
+   "type": "illegible"
+  },
+  {
+   "frame": 151,
+   "page": "145",
+   "location": "гравюра, топонимы",
+   "as_read": "BIBIENA[?] (первая буква с лигатурой), CIBLI[?]; надпись над ROMA неразборчива [...]",
+   "candidates": [
+    "BIBIENA",
+    "CIRLI",
+    "CIVLI"
+   ],
+   "type": "illegible"
+  },
+  {
+   "frame": 151,
+   "page": "145",
+   "location": "строка 5, «ſumnò»",
+   "as_read": "ſumnò (так напечатано; ожидаемо ſummò)",
+   "candidates": [
+    "ſummò"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 151,
+   "page": "145",
+   "location": "девиз, «Mediol.»",
+   "as_read": "Mediol. — сокращение с точкой, в чтении не раскрыто",
+   "candidates": [
+    "Mediolani"
+   ],
+   "type": "abbreviation"
+  },
+  {
+   "frame": 151,
+   "page": "145",
+   "location": "строка 1, «Duceſq;,»",
+   "as_read": "после q; стоит запятая",
+   "candidates": [],
+   "type": "punctuation"
+  },
+  {
+   "frame": 152,
+   "page": "146",
+   "location": "строка 1, «Dum»",
+   "as_read": "Dum (u сбита, видна как «D:m»)",
+   "candidates": [
+    "Dum"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 153,
+   "page": "147",
+   "location": "строка 1, «Aeacidæ»",
+   "as_read": "Aeacidæ (первая буква A, не Æ; следом e)",
+   "candidates": [
+    "Aeacidæ",
+    "Æacidæ"
+   ],
+   "type": "ligature"
+  },
+  {
+   "frame": 153,
+   "page": "147",
+   "location": "строка 1, «Rhœtæo»",
+   "as_read": "Rhœtæo (œ после h)",
+   "candidates": [
+    "Rhœtæo",
+    "Rhætæo"
+   ],
+   "type": "ligature"
+  },
+  {
+   "frame": 153,
+   "page": "147",
+   "location": "строка 5, «murus.magni»",
+   "as_read": "murus.magni — u в murus и a в magni плохо пропечатаны; знак после murus похож на точку",
+   "candidates": [
+    "murus,magni",
+    "murus magni"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 154,
+   "page": "148",
+   "location": "строка 1, «Cæcropias»",
+   "as_read": "Cæcropias (æ напечатано)",
+   "candidates": [
+    "Cecropias"
+   ],
+   "type": "typo"
+  },
+  {
+   "frame": 154,
+   "page": "148",
+   "location": "строка 6, «Antiqua»",
+   "as_read": "Antiqua[?] — t не пропечатана («An:iqua»)",
+   "candidates": [
+    "Antiqua"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 155,
+   "page": "149",
+   "location": "подзаголовок (греч.)",
+   "as_read": "Ἀ'λληγορικῶς. — над А напечатан знак придыхания/апостроф отдельно",
+   "candidates": [
+    "Ἀλληγορικῶς."
+   ],
+   "type": "greek"
+  },
+  {
+   "frame": 156,
+   "page": "150",
+   "location": "строка 5, «pœnam»",
+   "as_read": "pœnam (последняя m сбита, похожа на «w»)",
+   "candidates": [
+    "pœnam"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 157,
+   "page": "151",
+   "location": "строка 3, «potuit ,»",
+   "as_read": "пробел перед запятой после potuit (как напечатано)",
+   "candidates": [
+    "potuit,"
+   ],
+   "type": "spacing"
+  },
+  {
+   "frame": 159,
+   "page": "153",
+   "location": "строка 1, «ſine»",
+   "as_read": "ſine[?] — первая буква похожа и на f, и на ſ (перекладина неясна)",
+   "candidates": [
+    "ſine",
+    "fine"
+   ],
+   "type": "illegible"
+  },
+  {
+   "frame": 159,
+   "page": "153",
+   "location": "строка 1, после «orſus,»",
+   "as_read": "после запятой посторонний знак (возможно, сдвинутая литера/пятно), не транскрибирован",
+   "candidates": [],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 160,
+   "page": "154",
+   "location": "девиз, «Aemulatio»",
+   "as_read": "Aemulatio (A и e раздельно)",
+   "candidates": [
+    "Aemulatio",
+    "Æmulatio"
+   ],
+   "type": "ligature"
+  },
+  {
+   "frame": 160,
+   "page": "154",
+   "location": "строка 5, «ſtudentum»",
+   "as_read": "ſtudentum[?] — последняя литера видна как n (m не допечатана у края)",
+   "candidates": [
+    "ſtudentum",
+    "ſtudentun"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 161,
+   "page": "155",
+   "location": "строка 4, «poma gerit»",
+   "as_read": "между poma и gerit надстрочный знак (апостроф/пятно), не транскрибирован",
+   "candidates": [
+    "poma gerit"
+   ],
+   "type": "unclear_punctuation"
+  },
+  {
+   "frame": 161,
+   "page": "155",
+   "location": "девиз, «Alciatũ»",
+   "as_read": "Alciatũ (тильда = m)",
+   "candidates": [
+    "Alciatum"
+   ],
+   "type": "abbreviation"
+  },
+  {
+   "frame": 163,
+   "page": "157",
+   "location": "строка 7, «ſunt»",
+   "as_read": "ſunt[?] — u плохо пропечатана (похоже на «ſint»)",
+   "candidates": [
+    "ſunt",
+    "ſint"
+   ],
+   "type": "damaged_type"
+  },
+  {
+   "frame": 163,
+   "page": "157",
+   "location": "гравюра, глаза центральной фигуры",
+   "as_read": "закрыты[?] — по изображению неясно",
+   "candidates": [],
+   "type": "illegible"
+  },
+  {
+   "frame": 163,
+   "page": "157",
+   "location": "строка 9, «princeps.quòd»",
+   "as_read": "после princeps точка (не запятая)",
+   "candidates": [
+    ".",
+    ","
+   ],
+   "type": "punctuation"
+  },
+  {
+   "frame": 164,
+   "page": "158",
+   "location": "строка 3, «déinde»",
+   "as_read": "déinde — над e знак, похожий на акут (возможно, пятно)",
+   "candidates": [
+    "déinde",
+    "deinde"
+   ],
+   "type": "accent"
+  },
+  {
+   "frame": 165,
+   "page": "159",
+   "location": "гравюра, лежащая фигура",
+   "as_read": "раздутый живот/селезёнка[?] — трактовка детали неуверенна",
+   "candidates": [],
+   "type": "illegible"
   }
  ]
 }

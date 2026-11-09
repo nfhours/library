@@ -1,0 +1,60 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 153,
+ "source": "scan/frame_0153.jpg",
+ "page": "147",
+ "signature": "K 2",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Strenuorum immortale",
+     "nomen."
+    ],
+    "reading": "Strenuorum immortale nomen."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "На морском берегу стоит женщина (Фетида) в лёгком развевающемся платье, касаясь рукой гробницы; на гробнице надпись «ACHILLIS» и щиток с буквой «M»; вдали море с кораблём, город на скале, горы, птицы в небе.",
+    "inscriptions": [
+     {
+      "where": "на гробнице",
+      "text": "ACHILLIS"
+     },
+     {
+      "where": "на щитке гробницы",
+      "text": "M"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aeacidæ tumulum Rhœtæo in littore cernis,",
+     "Quem plerunque pedes viſitat alba Thetis.",
+     "Obtegitur ſemper viridi lapis hic amarantho,",
+     "Quòd nunquàm herois ſit moriturus honos.",
+     "Hic Graiũ murus.magni nex Hectoris.Haud plus",
+     "Debet Mæonidæ,quàm ſibi Mæonides."
+    ],
+    "reading": [
+     "Aeacidæ tumulum Rhœtæo in littore cernis,",
+     "Quem plerunque pedes visitat alba Thetis.",
+     "Obtegitur semper viridi lapis hic amarantho,",
+     "Quòd nunquàm herois sit moriturus honos.",
+     "Hic Graium murus.magni nex Hectoris.Haud plus",
+     "Debet Mæonidæ, quàm sibi Mæonides."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «HONOR.», номер «147» справа; сигнатура «K 2» внизу справа."
+}

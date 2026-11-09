@@ -1,0 +1,60 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 151,
+ "source": "scan/frame_0151.jpg",
+ "page": "145",
+ "signature": "K",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Tumulus Ioannis Galeacij Vice-",
+     "comitis,primi Ducis Mediol."
+    ],
+    "reading": "Tumulus Ioannis Galeacii Vicecomitis, primi Ducis Mediol."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Карта Италии (от Равенны до Рима) с морем вверху и внизу, кораблями и городками; через Адриатическое море извивается большой змей (герб Висконти), его тело — лента с греческой надписью; у Рима (справа внизу) стоит голый человечек с поднятой рукой.",
+    "inscriptions": [
+     {
+      "where": "названия на карте (сверху вниз, слева направо)",
+      "text": "CESENADEGO · RIMANO · ANCONA · PORTODERAVENA · RAVENA · BIBIENA[?] · MOTESCIO · FIRENSA · PERVRA · TVRNI · PISA · SIENA · CIBLI[?] · BOLSENA · [...] · MOTEARGETATO · CITAVECHIA · ROMA · MARTAFIVME · GIGLIO · CAPOLINARE"
+     },
+     {
+      "where": "на теле змея (греч.)",
+      "text": "TON · [...]NEIEOEITAI[?] · ME · KPOIΣ[?] · [...]AN · TIΣME[?]"
+     }
+    ]
+   },
+   "epigram": {
+    "diplomatic": [
+     "Pro tumulo pone Italiam,pone arma,Duceſq;,",
+     "Et mare,quod geminos mugii aduſq; ſinus.",
+     "Adde his barbariem conantem irrũpere fruſtra,",
+     "Et mercede emptas in fera bella manus.",
+     "Anguiger eſt ſumnò ſiſtens in culmine,dicat:",
+     "Quis paruis magnam me ſuperimpoſuit?"
+    ],
+    "reading": [
+     "Pro tumulo pone Italiam, pone arma, Ducesque,",
+     "Et mare, quod geminos mugii adusque sinus.",
+     "Adde his barbariem conantem irrumpere frustra,",
+     "Et mercede emptas in fera bella manus.",
+     "Anguiger est sumnò sistens in culmine, dicat:",
+     "Quis parvis magnam me superimposuit?"
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «HONOR.», номер «145» справа; сигнатура «K» внизу справа."
+}

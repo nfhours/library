@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 152,
+ "source": "scan/frame_0152.jpg",
+ "page": "146",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Optimus ciuis."
+    ],
+    "reading": "Optimus civis."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Группа граждан венчает венками двух мужчин в центре: слева бородатый муж в длинной одежде с мечом, справа воин в доспехах и шлеме; стоящие по бокам люди поднимают над их головами венки, на заднем плане толпа с ветвями.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Dum iuſtis patriã Thraſybulus vindicat armis,",
+     "Dumq; ſimultates ponere quemque iubet,",
+     "Concors ordo omnis magni inſtar muneris,illi",
+     "Palladiæ ſertum frondis habere dedit.",
+     "Cinge comã Thraſybule,geras hũc ſolus honorem,",
+     "In magna nemo eſt æmulus vrbe tibi."
+    ],
+    "reading": [
+     "Dum iustis patriam Thrasybulus vindicat armis,",
+     "Dumque simultates ponere quemque iubet,",
+     "Concors ordo omnis magni instar muneris, illi",
+     "Palladiæ sertum frondis habere dedit.",
+     "Cinge comam Thrasybule, geras hunc solus honorem,",
+     "In magna nemo est æmulus urbe tibi."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «146» слева, колонтитул «HONOR.»; сигнатуры нет."
+}

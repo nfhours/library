@@ -1,0 +1,49 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 155,
+ "source": "scan/frame_0155.jpg",
+ "page": "149",
+ "signature": "K 3",
+ "catchword": "Spernit",
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Duodecim certamina Herculis."
+    ],
+    "reading": "Duodecim certamina Herculis."
+   },
+   "subheading": {
+    "diplomatic": "Ἀ'λληγορικῶς.",
+    "reading": "Ἀ'λληγορικῶς."
+   },
+   "engraving": {
+    "position": "между подзаголовком и эпиграммой",
+    "description": "Обнажённый Геракл в развевающемся плаще замахивается палицей на многоголовую Лернейскую гидру (слева); на земле у их ног лежат отрубленные головы и тела; справа вдали лучник стреляет из лука и стоит ещё одна фигура.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Roboris inuicti ſuperat facundia laudes:",
+     "Dicta Sophiſtarum laqueoſq; reſoluit inanes.",
+     "Non furor,aut rabies virtute potentior vlla eſt.",
+     "Continuum ob curſum ſapienti opulentia cedit."
+    ],
+    "reading": [
+     "Roboris invicti superat facundia laudes:",
+     "Dicta Sophistarum laqueosque resolvit inanes.",
+     "Non furor, aut rabies virtute potentior ulla est.",
+     "Continuum ob cursum sapienti opulentia cedit."
+    ]
+   },
+   "continues_on_next_page": true,
+   "notes": "Строки с переменным отступом (2-я и 4-я с отступом). Текст продолжается на следующей странице; внизу справа кустода «Spernit»."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «HONOR.», номер «149» справа; сигнатура «K 3» внизу."
+}

@@ -1,0 +1,46 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 159,
+ "source": "scan/frame_0159.jpg",
+ "page": "153",
+ "signature": "K 5",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In deſciſcentes."
+    ],
+    "reading": "In desciscentes."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "На первом плане стоит большая длиннорогая коза, только что опрокинувшая копытом подойник: молоко выливается из лохани на землю; слева под деревом сидит пастух, рядом стадо овец и коз; вдали холмы, крепость, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Quòd ſine[?] egregios turpi maculaueris orſus,",
+     "In noxamq; tuum verteris officium,",
+     "Feciſti,quod capra,ſui mulctraria lactis",
+     "Cùm ferit,& proprias calce profundit opes."
+    ],
+    "reading": [
+     "Quòd sine[?] egregios turpi maculaveris orsus,",
+     "In noxamque tuum verteris officium,",
+     "Fecisti, quod capra, sui mulctraria lactis",
+     "Cùm ferit, & proprias calce profundit opes."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «HONOR.», номер «153» справа; сигнатура «K 5» внизу."
+}

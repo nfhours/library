@@ -1,0 +1,46 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 157,
+ "source": "scan/frame_0157.jpg",
+ "page": "151",
+ "signature": "K 4",
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "In nothos."
+    ],
+    "reading": "In nothos."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Слева стоит обнажённый бородатый Геракл с палицей (дубиной) на плече; справа вверху в облаках, под балдахином, сидит женщина (Юнона), кормящая грудью младенца, рядом другие фигуры; внизу пейзаж с деревьями, озером и башней.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Herculeos ſpurij ſemper celebretis honores:",
+     "Nam veſtri princeps ordinis ille fuit.",
+     "Nec prius eſſe deus potuit ,quàm ſugeret infans",
+     "Lac,ſibi quod fraudis neſcia Iuno dabat."
+    ],
+    "reading": [
+     "Herculeos spurii semper celebretis honores:",
+     "Nam vestri princeps ordinis ille fuit.",
+     "Nec prius esse deus potuit , quàm sugeret infans",
+     "Lac, sibi quod fraudis nescia Iuno dabat."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом. На строке 3 чернильное пятно у «deus»."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Колонтитул «HONOR.», номер «151» справа; сигнатура «K 4» внизу."
+}

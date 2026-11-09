@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 154,
+ "source": "scan/frame_0154.jpg",
+ "page": "148",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Nobiles & generoſi."
+    ],
+    "reading": "Nobiles & generosi."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Колоннада (портик) с кессонным потолком и плиточным полом, в глубине арочный проход; слева стоит мужчина в длинном одеянии и высокой шапке, справа — второй, в плаще, разглядывающий что-то в руке.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Aurea Cæcropias nectebat fibula veſtes:",
+     "Cui coniuncta tenax dente cicada fuit.",
+     "Calceus Arcadico ſuberat cui lunula ritu,",
+     "Geſtatur patribus mullea Romulidis:",
+     "Indigenas quòd ſe adſererent:hæc ſigna tulerunt",
+     "Antiqua[?] illuſtres nobilitate viri."
+    ],
+    "reading": [
+     "Aurea Cæcropias nectebat fibula vestes:",
+     "Cui coniuncta tenax dente cicada fuit.",
+     "Calceus Arcadico suberat cui lunula ritu,",
+     "Gestatur patribus mullea Romulidis:",
+     "Indigenas quòd se adsererent: hæc signa tulerunt",
+     "Antiqua[?] illustres nobilitate viri."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «148» слева, колонтитул «HONOR.»; сигнатуры нет."
+}

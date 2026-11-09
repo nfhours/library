@@ -1,0 +1,50 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 160,
+ "source": "scan/frame_0160.jpg",
+ "page": "154",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "HONOR.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Aemulatio impar."
+    ],
+    "reading": "Aemulatio impar."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Над морем летит большая хищная птица (гарпа/скопа), держащая в когтях рыбу; за ней следует коршун; в волнах внизу плавают крупные рыбы (одна пятнистая), выхватывающие падающую добычу; слева на берегу город, облака.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Altiuolam miluus comitatur degener harpam,",
+     "Et prædæ partem ſæpe cadentis habet.",
+     "Mullum proſequitur qui ſpretas ſargus ab illo,",
+     "Præteritaſq; auidus deuorat ore dapes.",
+     "Sic mecum Oenocrates agit:at deſerta ſtudentum[?]",
+     "Vtitur hoc lippo curia tanquam oculo."
+    ],
+    "reading": [
+     "Altivolam milvus comitatur degener harpam,",
+     "Et prædæ partem sæpe cadentis habet.",
+     "Mullum prosequitur qui spretas sargus ab illo,",
+     "Præteritasque avidus devorat ore dapes.",
+     "Sic mecum Oenocrates agit: at deserta studentum[?]",
+     "Utitur hoc lippo curia tanquam oculo."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «154» слева, колонтитул «HONOR.»; сигнатуры нет."
+}

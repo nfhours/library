@@ -1,0 +1,47 @@
+{
+ "schema": "alciato-1551-page/0.1",
+ "frame": 164,
+ "source": "scan/frame_0164.jpg",
+ "page": "158",
+ "signature": null,
+ "catchword": null,
+ "page_type": "emblem",
+ "running_head": "PRINCEPS.",
+ "rubric": null,
+ "emblems": [
+  {
+   "motto": {
+    "diplomatic": [
+     "Quod non capit Chriſtus,",
+     "rapit fiſcus."
+    ],
+    "reading": "Quod non capit Christus, rapit fiscus."
+   },
+   "subheading": null,
+   "engraving": {
+    "position": "между девизом и эпиграммой",
+    "description": "Правитель в короне и плаще стоит у колонны и лестницы, выжимая обеими руками губку, из которой на землю стекает вода; слева на колонне посох; справа вдали виселица с повешенными и группа людей, птицы в небе.",
+    "inscriptions": []
+   },
+   "epigram": {
+    "diplomatic": [
+     "Exprimit humentes,quas iam madefecerat antè",
+     "Spongiolas,cupidi Principis arcta manus.",
+     "Prouehit ad ſummum fures:quos déinde coërcet,",
+     "Vertat vt in fiſcum quæ malè parta ſuum."
+    ],
+    "reading": [
+     "Exprimit humentes, quas iam madefecerat antè",
+     "Spongiolas, cupidi Principis arcta manus.",
+     "Provehit ad summum fures: quos déinde coërcet,",
+     "Vertat ut in fiscum quæ malè parta suum."
+    ]
+   },
+   "continues_on_next_page": false,
+   "notes": "Чётные строки с отступом."
+  }
+ ],
+ "ornaments": [],
+ "errata": [],
+ "notes": "Номер «158» слева, колонтитул «PRINCEPS.»; сигнатуры нет."
+}
