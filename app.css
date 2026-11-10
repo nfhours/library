@@ -925,6 +925,24 @@ button.ic-toc-close{width:38px;height:38px;border:1px solid var(--rule);border-r
   box-shadow:0 14px 32px -10px rgba(70,46,20,.45);font-size:16px;line-height:1.5;color:var(--ink)}
 .ic-qm-pop p{font-size:1em;margin:0}
 
+/* экран загрузки книги (openBook, app.js). .ic САМ уже всегда несёт бумажную
+   текстуру (foxing.png + paper.jpg, см. правило .ic{} в начале файла) — но
+   без явной высоты её блок сжимается по содержимому (тут — одна строчка
+   текста), и остаток экрана под ним достаётся плоскому html,body{background:
+   #ece5d4} (index.html), отсюда и щель плоского кремового фона снизу под
+   тёмной .back-bar. Фикс — не замена фона (он уже верный), а растяжение:
+   .ic-loading получает min-height на всю видимую высоту (100dvh, с запасным
+   100vh), и этого достаточно, чтобы родительский .ic растянулся вместе с ним
+   и его собственная текстура покрыла весь экран. */
+.ic-loading{min-height:100vh;min-height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;padding:40px 28px;text-align:center}
+.ic-loading .ic-orn-loading{width:150px;max-width:55%;aspect-ratio:var(--orn-ratio);height:auto;background-color:var(--soft);opacity:.7}
+@media (prefers-reduced-motion:no-preference){
+  @keyframes ic-loading-pulse{0%,100%{opacity:.4}50%{opacity:.85}}
+  .ic-loading .ic-orn-loading{animation:ic-loading-pulse 2.8s ease-in-out infinite}
+}
+@media (prefers-reduced-motion:reduce){.ic-loading .ic-orn-loading{opacity:.7}}
+.ic-loading .ic-loading-text{margin:0}
+
 /* главная книги */
 .ic:has(.ic-home){background:url(img/paper.jpg) 0 0/1024px repeat,var(--paper)}
 .ic-home{max-width:900px}
@@ -987,10 +1005,22 @@ button.ic-toc-close{width:38px;height:38px;border:1px solid var(--rule);border-r
 .ic-gal-img{display:block;position:relative;aspect-ratio:4/5;background:var(--sheet);border:1px solid var(--rule);border-radius:2px;transition:border-color .2s}
 .ic-gal-img img{position:absolute;inset:6px;width:calc(100% - 12px);height:calc(100% - 12px);max-width:none;object-fit:contain}
 .ic-gal-cap{font-size:.8em;line-height:1.35;color:var(--soft);text-align:center;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-.ic-home-search{display:flex;gap:12px;align-items:flex-end;margin-top:24px}
-.ic-home-search input.ic-search{flex:1 1 auto;min-width:0;background:none}
+/* Поле поиска на /home/search стояло совсем без обрамления — просто нижняя
+   чёрточка общего input.ic-search, будто случайно вставленная строка, без
+   какого-либо визуального контейнера (в отличие от того же поля в выезжающей
+   шторке — .ic-rb-sheet-head input.ic-search — там оно в рамке со скруглением).
+   Плитка «Найти» на самой /home уже есть и ведёт именно на эту подстраницу,
+   так что сама функция поиска не лишняя — только её нынешнее голое оформление
+   здесь. Даём форме тот же «карточный» вид (лист поверх бумаги, со скруглением
+   и тонкой рамкой — тот же язык, что и .ic-rb-sheet-head), не затевая более
+   крупной переделки навигации к поиску. */
+.ic-home-search{display:flex;gap:12px;align-items:center;margin-top:24px;
+  background:var(--sheet);border:1px solid var(--rule);border-radius:12px;padding:10px 16px}
+.ic-home-search input.ic-search{flex:1 1 auto;min-width:0;background:none;border:0;padding:8px 2px}
+.ic-home-search input.ic-search:focus{border-bottom-color:transparent;outline:0}
 .ic-home-search .ic-search-wrap{flex:1 1 auto;min-width:0}
 .ic-home-search input.ic-search::-webkit-search-cancel-button{-webkit-appearance:none;display:none}
+.ic-home-search .ic-search-clear{flex:0 0 auto}
 .ic-sr{margin-top:6px}
 .ic-sr-hint{margin-top:18px;font-size:.95em;line-height:1.55;color:var(--soft)}
 .ic-sr-nav{display:flex;flex-wrap:wrap;gap:4px 18px;margin-top:16px;font-size:.88em}
@@ -1130,16 +1160,23 @@ button.ic-tv-sheet-reset{flex:none;height:34px;padding:0 14px;border:1px solid r
    скрывается целиком (замена, не варианты одновременно, см. правило выше).
    Список статей получает правый отступ (.ic-wrap.ic-tv ниже), чтобы текст
    не заезжал под столбик.
-   --tvbar-h — не статична: это РЕАЛЬНАЯ видимая высота шапки (.back-bar)
-   + капсулы (.ic-rbar) ПРЯМО СЕЙЧАС, в пикселях от верха экрана,
-   пересчитывается в app.js (updateRailTop) на каждый fill() и на каждый
-   тик installScrollHide (opts.onTick, заморожен на время жеста по рейлу —
-   см. app.js), через getBoundingClientRect() — учитывает и обычное
-   положение, и частичный/полный уход в transform (ic-rbar-hidden/
-   ic-bb-hidden), поэтому столбик всегда начинается точно под тем, что
-   реально видно, без зазора и без перекрытия. 66px — запасной статичный
-   fallback только на случай самого первого рендера до первого вызова
-   updateRailTop. */
+   --tvbar-h — не статична, пересчитывается в app.js (updateRailTop), на
+   каждый fill() и на каждый тик installScrollHide (opts.onTick, заморожен
+   на время жеста по рейлу — см. app.js). Round (пункт 6, баг «столбик
+   прыгает отдельно от капсулы на настоящем iPhone»): раньше это было
+   живое getBoundingClientRect().bottom обоих баров — постоянно движущаяся
+   цель, пока сами бары едут своей .3s transform-transition, которую затем
+   ещё и ДОГОНЯЛА собственная transition:top этого рейла — отсюда на видео
+   несколько кадров стоп-кадра и затем скачок. Теперь updateRailTop не
+   измеряет "где сейчас граница бара посреди анимации", а сразу подставляет
+   ОДНУ из двух КОНЕЧНЫХ целей (0 — бары полностью убраны, или их
+   суммарная высота — полностью показаны; .ic-rbar-hidden/.ic-bb-hidden —
+   это всегда ровно два стабильных состояния, переключаемых одним флагом в
+   один тик) — и собственная transition:top .3s ease рейла ниже идёт к этой
+   цели ТЕМ ЖЕ курсом/длительностью/easing, что .ic-rbar/.back-bar, запущенная
+   в тот же момент (см. порядок opts.onTick в installScrollHide, app.js) —
+   в покадровом согласии, а не вдогонку. 66px — запасной статичный fallback
+   только на случай самого первого рендера до первого вызова updateRailTop. */
 .ic-az-rail{display:none}
 .ic-az-peek{display:none}
 @media (max-width:620px){
@@ -1163,31 +1200,34 @@ button.ic-tv-sheet-reset{flex:none;height:34px;padding:0 14px;border:1px solid r
   .ic-tv-pg a{padding:2px .5em;min-width:2.3em;line-height:1.5;margin:2px 2px 2px 0}
 }
 
-/* "Пришли сюда" (round 5): ни заливки, ни рамки на самом абзаце/блоке —
-   только тонкая СЕРАЯ (не акцентно-красная — это не ошибка/ударение, просто
-   "вот сюда") черта на левом поле, и, когда известна позиция слова,
-   подчёркивание прямо в тексте (.ic-ch-mark). Обе создаются и гасятся из
-   app.js (hlMark/hlFadeOut) — здесь только их геометрия/цвет и CSS-
-   transition по opacity (никогда по размеру/отступам, чтобы угасание не
-   двигало раскладку). .ic-hl-mark либо ребёнок самого целевого блока
-   (position:relative на нём, top:0/height:100% по умолчанию — чертa точно
-   по высоте ЭТОГО блока или строки указателя), либо, для диапазона
-   страницы без найденного блока, ребёнок .ic-ch-body с top/height,
-   пересчитанными в app.js по границам всех блоков диапазона (та же
-   геометрия, что раньше была у ic-ch-pgline). */
+/* "Пришли сюда" (round 6): заливка ВСЕГО целевого абзаца/диапазона тёплым,
+   мягким оттенком (--accent-soft), без рамки и без radius — ровный
+   прямоугольник фона на весь блок-контейнер. Создаётся и гасится из app.js
+   (hlMark/hlFadeOut) — здесь только геометрия/цвет и CSS-transition по
+   opacity (никогда по размеру/отступам, чтобы угасание не двигало
+   раскладку). .ic-hl-mark либо ребёнок самого целевого блока
+   (position:relative на нём, inset:0 по умолчанию — заливка точно по
+   размеру ЭТОГО блока или строки указателя), либо, для диапазона страницы
+   без найденного блока, ребёнок .ic-ch-body с top/height, пересчитанными в
+   app.js по границам всех блоков диапазона (та же геометрия, что раньше
+   была у ic-ch-pgline, просто залита, а не тонкой линией). z-index:-1 (а не
+   порядок в DOM) держит заливку ПОД текстом внутри positioned-контейнера,
+   который сам создаёт контекст стекования — обычный (не позиционированный)
+   текст блока всегда рисуется выше. */
 .ic-ch-body{position:relative}
-.ic-hl-mark{position:absolute;left:-.9em;top:0;height:100%;width:0;border-left:1px solid var(--soft);pointer-events:none;opacity:1;transition:opacity .7s ease}
+.ic-hl-mark{position:absolute;inset:0;background:var(--accent-soft);pointer-events:none;opacity:1;z-index:-1;transition:opacity 2s ease}
 .ic-hl-mark[data-pg]::before{content:attr(data-pg);position:absolute;left:0;top:-1.35em;font-size:.68em;line-height:1;letter-spacing:.04em;white-space:nowrap;color:var(--soft);font-style:normal}
 .ic-hl-mark.ic-hl-fading{opacity:0}
-@media (max-width:520px){.ic-hl-mark{left:-.55em}}
+@media (prefers-reduced-motion:reduce){.ic-hl-mark{transition:none}}
 /* Слово, по которому реально пришли (из карточки имени/результата поиска —
-   см. markSpan у app.js) — подчёркивание, не цветной/жирный текст: не
-   конкурирует с существующими .ic-sr/.ic-nm-ms mark (списки находок), это
-   отдельный, более тихий приём прямо в читаемом тексте главы. */
-.ic-ch-mark{background:none;color:inherit;font-weight:inherit;font-style:inherit;
-  text-decoration:underline;text-decoration-color:var(--soft);text-decoration-thickness:1px;text-underline-offset:.15em;
-  opacity:1;transition:opacity .7s ease}
+   см. markSpan у app.js) — заливка-маркер плотнее, чем заливка абзаца вокруг
+   (тот же тёплый тон, более насыщенный), гаснет СИНХРОННО с заливкой абзаца
+   (тот же HL_FADE_MS из app.js). */
+.ic-ch-mark{background:rgba(142,43,29,.24);color:inherit;font-weight:inherit;font-style:inherit;
+  border-radius:1px;
+  opacity:1;transition:opacity 2s ease}
 .ic-ch-mark.ic-hl-fading{opacity:0}
+@media (prefers-reduced-motion:reduce){.ic-ch-mark{transition:none}}
 
 /* имена (#/<slug>/names) */
 .ic-nm-row{display:flex;align-items:baseline;justify-content:space-between;gap:6px 14px;padding:9px 0 8px;border-bottom:1px solid var(--rule);color:var(--ink)}

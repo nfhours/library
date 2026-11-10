@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "141";
+  var APP_VER = "142";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -101,6 +101,7 @@
     partN:        {ru:"ч. {n}", en:"pt. {n}", fr:"part. {n}"},
     pageAbbr:     {ru:"с.", en:"p.", fr:"p."},
     loading:      {ru:"Загрузка…", en:"Loading…", fr:"Chargement…"},
+    slowConn:     {ru:"Медленное соединение, ещё немного…", en:"Slow connection, almost there…", fr:"Connexion lente, encore un instant…"},
     loadError:    {ru:"Не удалось загрузить данные. Обновите страницу.", en:"Could not load the data. Please refresh the page.", fr:"Impossible de charger les données. Veuillez actualiser la page."},
     bookError:    {ru:"Эта книга временно недоступна.", en:"This book is temporarily unavailable.", fr:"Ce livre est temporairement indisponible."},
     back:         {ru:"К оглавлению", en:"Back to index", fr:"Retour à l'index"},
@@ -251,7 +252,7 @@
     plNoCap:      {ru:"У этой гравюры нет подписи в переводе.", en:"This engraving has no caption in the translation.", fr:"Cette gravure n’a pas de légende dans la traduction."},
     plEdition:    {ru:"издание\u00a01626", en:"1626\u00a0edition", fr:"édition\u00a0de\u00a01626"},
     plZoomLabel:  {ru:"Гравюра на весь экран", en:"Engraving, full screen", fr:"Gravure en plein écran"},
-    srHint:       {ru:"Введите слово или имя: ищем в русском переводе, в итальянском тексте издания, в подписях гравюр, среди имён и в указателе. Можно писать и «Фортуна», и «Fortuna».", en:"Type a word or a name: we search the Russian translation, the Italian text of the edition, engraving captions, names and the index. «Fortuna» and «Фортуна» both work.", fr:"Saisissez un mot ou un nom : nous cherchons dans la traduction russe, le texte italien de l’édition, les légendes des gravures, les noms et l’index. « Fortuna » et « Фортуна » fonctionnent."},
+    srHint:       {ru:"Введите слово или имя: ищем в русском переводе, в итальянском тексте издания, в подписях гравюр, среди имён и в указателе. Можно писать и «Фортуна», и «Fortuna».", en:"Type a word or a name: we search the translation, the Italian text of the edition, engraving captions, names and the index. «Fortuna» and «Фортуна» both work.", fr:"Saisissez un mot ou un nom : nous cherchons dans la traduction, le texte italien de l’édition, les légendes des gravures, les noms et l’index. « Fortuna » et « Фортуна » fonctionnent."},
     srLoading:    {ru:"Загружаю тексты…", en:"Loading the texts…", fr:"Chargement des textes…"},
     srNone:       {ru:"Ничего не найдено. Попробуйте другую форму слова или старое написание, например «Lanuuio» вместо «Lanuvio».", en:"Nothing found. Try another form of the word or an old spelling, e.g. «Lanuuio» for «Lanuvio».", fr:"Rien trouvé. Essayez une autre forme du mot ou une ancienne graphie, par exemple « Lanuuio » pour « Lanuvio »."},
     srText:       {ru:"В тексте", en:"In the text", fr:"Dans le texte"},
@@ -463,9 +464,41 @@
       .catch(function(){ library = []; cb(library); });
   }
 
+  // Экран загрузки (до того, как книга дошла с сервера — book.json/
+  // entries.json/ornaments.json/engravings.json, и до loadChapters() для
+  // книг с home+chapters, который сам не меняет этот экран, пока не
+  // отрендерит настоящую страницу, см. route()). Бумажная текстура — тот
+  // же приём, что у .ic-home (.ic:has(.ic-loading), app.css), применённый
+  // СРАЗУ, без ожидания отрисовки главной книги. Украшение — захардкоженный
+  // путь к одному конкретному (компактному, с низкой плотностью рисунка)
+  // divider-орнаменту Картари: вся эта серия правок посвящена именно
+  // Картари, а полноценный fetch ornaments.json только для этого экрана
+  // создал бы ту же задержку, что и сама причина показа экрана (курица и
+  // яйцо — ornaments.json — часть того, что ещё не загрузилось). Если файл
+  // не придёт (сеть) — mask-image просто ничего не покажет, без сломанной
+  // иконки картинки, а текст "Загрузка…" всё равно отрисован.
+  function loadingHtml(slug){
+    var orn = slug === "cartari"
+      ? '<span class="ic-orn ic-orn-loading" aria-hidden="true" style="--orn-src:url(\''+esc(BASE+"books/cartari/ornaments/divider_0509_468_1.png")+'\');--orn-ratio:'+(327/114)+'"></span>'
+      : "";
+    return '<div class="ic-loading">'+orn+'<p class="ic-sub ic-loading-text">'+esc(t("loading"))+'</p></div>';
+  }
   function openBook(slug, cb){
     if(books[slug] !== undefined){ cb(books[slug]==="error" ? null : books[slug]); return; }
-    root.innerHTML = '<div class="ic-wrap"><p class="ic-sub">'+t("loading")+'</p></div>';
+    root.innerHTML = loadingHtml(slug);
+    // Если экран загрузки держится дольше 8с — скорее всего медленная связь,
+    // меняем текст на подсказку об этом. loadGen пришпилен к renderGen на
+    // момент показа экрана (тот же сквозной паттерн отмены устаревших
+    // колбэков, что и везде в файле); textEl.isConnected — дополнительная
+    // защита: даже без новой навигации (gen не изменился) контент мог
+    // успеть отрендериться по-настоящему к этому моменту, и этот элемент
+    // уже не в DOM — тогда таймер не должен ничего трогать.
+    var loadGen = renderGen;
+    var textEl = root.querySelector(".ic-loading-text");
+    setTimeout(function(){
+      if(renderGen !== loadGen || !textEl || !textEl.isConnected) return;
+      textEl.textContent = t("slowConn");
+    }, 8000);
     fetch(BASE+"books/"+slug+"/book.json",{cache:"no-cache"}).then(function(r){ if(!r.ok) throw 0; return r.json(); })
       .then(function(meta){
         var ornCfg = meta.ornaments;
@@ -799,7 +832,8 @@
      (.ic-ch-mark, см. inl()/blockHtml()) — и то, и другое гаснет через
      HL_FADE_AFTER одной и той же CSS-transition по opacity (app.css), без
      каких-либо изменений геометрии/отступов. */
-  var HL_FADE_AFTER = 4000, HL_FADE_MS = 700;
+  var HL_FADE_AFTER = 1500, HL_FADE_MS = 2000;
+  var HL_FADE_STATIC = 3000; // prefers-reduced-motion: без анимации, держится статично, потом убирается
   function hlMark(container, label){
     var cs = getComputedStyle(container);
     if(cs.position === "static") container.style.position = "relative";
@@ -818,6 +852,17 @@
   // массив .ic-ch-mark подчёркиваний слова (или пусто) — оба угасают и
   // убираются из DOM синхронно, одной и той же задержкой.
   function hlFadeOut(markEl, wordEls, gen){
+    var reduced = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if(reduced){
+      // Без opacity-transition вовсе: заливка просто есть HL_FADE_STATIC
+      // мс статично, потом убирается одним прыжком — никакого fade.
+      setTimeout(function(){
+        if(gen !== undefined && gen !== renderGen) return;
+        if(markEl && markEl.parentNode) markEl.parentNode.removeChild(markEl);
+        (wordEls||[]).forEach(unwrapEl);
+      }, HL_FADE_STATIC);
+      return;
+    }
     setTimeout(function(){
       if(gen !== undefined && gen !== renderGen) return;
       if(markEl) markEl.classList.add("ic-hl-fading");
@@ -918,7 +963,6 @@
         barEl.classList.remove(hiddenClass);
         return;
       }
-      if(opts.onTick) opts.onTick();
       var y = window.scrollY, dy = y - lastY; lastY = y;
       var doc = document.documentElement;
       var nearTop = y < topGuard, nearBottom = (doc.scrollHeight - (y + window.innerHeight)) < bottomGuard;
@@ -929,6 +973,14 @@
       barEl.classList.toggle(hiddenClass, hidden);
       var bbar = document.querySelector(".back-bar");
       if(bbar) bbar.classList.toggle("ic-bb-hidden", hidden);
+      // onTick ПОСЛЕ toggle (не до, как было) — пункт 6 задания, уточнение:
+      // opts.onTick читает rbar.classList.contains(hiddenClass) (см.
+      // updateRailTop у renderTavola/renderNames) ради дискретного целевого
+      // --tvbar-h; вызов ДО toggle подставлял бы состояние классов ещё с
+      // ПРОШЛОГО кадра — на границе смены направления скролла столбик тогда
+      // трогался бы с места на один rAF-кадр позже капсулы/шапки, а не
+      // одновременно с ними.
+      if(opts.onTick) opts.onTick();
       requestAnimationFrame(tick);
     }
     requestAnimationFrame(tick);
@@ -2420,7 +2472,7 @@
       function ordered(){
         if(tavolaUi.sort==="it") return d.entries.map(function(e){ return {e:e, l:e.letter}; });
         var loc = state.lang==="en" ? "en" : state.lang==="fr" ? "fr" : "ru";
-        return d.entries.map(function(e){ var nm = nmForm(e); return {e:e, l:nmLetterOf(nm), k:nmSortKey(nm)}; }).sort(function(a,b){
+        return d.entries.map(function(e){ var nm = nmForm(e); return {e:e, l:nmLetterOf(nm, loc), k:nmSortKey(nm)}; }).sort(function(a,b){
           return a.l===b.l ? a.k.localeCompare(b.k, loc) : a.l.localeCompare(b.l, loc);
         });
       }
@@ -2540,19 +2592,59 @@
         var railLetters = lettersOf(ordered()).filter(function(l){ return have[l]; });
         rail.innerHTML = railLetters.map(function(l){ return '<button type="button" data-l="'+l+'">'+l+'</button>'; }).join("");
         rail.classList.toggle("ic-az-tight", railLetters.length > 26);
-        if(!azDragging) updateRailTop();
+        if(!azDragging) updateRailTop(true);
       }
       function barH(){ return rbar.getBoundingClientRect().height + (parseFloat(root.dataset.top)||0) + 10; }
-      // Реальная (не статичная) видимая высота шапки сайта (.back-bar) +
-      // капсулы (.ic-rbar) ПРЯМО СЕЙЧАС — учитывает частичный/полный уход
-      // обеих в transform (ic-bb-hidden/ic-rbar-hidden). Записывается
-      // в --tvbar-h на самом rail (см. app.css), оттуда top:calc(var(--tvbar-h)+14px).
-      // Не вызывается, пока azDragging (см. выше) — пункт 3 задания.
-      function updateRailTop(){
+      // Round (баг «столбик прыгает отдельно от капсулы на настоящем
+      // iPhone», см. задание, пункт 6): раньше это читало ЖИВОЙ
+      // getBoundingClientRect().bottom обоих баров КАЖДЫЙ кадр скролла —
+      // но rect.bottom САМ меняется непрерывно, пока бары едут своей
+      // родной .3s transform-transition (ic-bb-hidden/ic-rbar-hidden), то
+      // есть это была постоянно движущаяся цель. А --tvbar-h у .ic-az-rail
+      // в app.css висит на СВОЕЙ ОТДЕЛЬНОЙ transition:top .3s ease —
+      // получалось двойное сглаживание (CSS-переход гонится за постоянно
+      // смещающимся числом из JS), именно это и давало на видео эффект
+      // «несколько кадров стоит, потом скачок».
+      // Фикс — дискретный толчок: .ic-rbar-hidden/.ic-bb-hidden — это
+      // ВСЕГДА ровно два стабильных состояния (bars полностью показаны ИЛИ
+      // полностью убраны transform'ом), меняющиеся одним флагом в один и
+      // тот же тик installScrollHide, что и сам toggle этих классов.
+      // rect.height (в отличие от .bottom) НЕ меняется от translateY —
+      // это инвариантная величина независимо от того, идёт ли анимация
+      // прямо сейчас. Поэтому здесь не измеряется текущее "где сейчас
+      // находится край бара посреди его анимации", а сразу выставляется
+      // ОДНА из двух КОНЕЧНЫХ целей (0, когда бары убраны — или их полная
+      // суммарная высота, когда показаны) — и ТА ЖЕ самая CSS-transition
+      // .3s ease у .ic-az-rail, запущенная в тот же миг, что и transform
+      // капсулы/шапки, приходит к своей цели ТЕМ ЖЕ курсом/длительностью,
+      // в полном покадровом согласии, а не вдогонку. Не вызывается, пока
+      // azDragging (см. выше) — пункт 3 прежнего задания.
+      // lastHiddenForRail — ЕЩЁ один слой того же фикса, найденный уже на
+      // проверке (видео показало транзишен рейла длиннее заявленных .3s,
+      // ~0.47с вместо 0.3с): onTick зовёт updateRailTop() КАЖДЫЙ кадр, даже
+      // когда hiddenNow не менялся — а getBoundingClientRect().height
+      // самих баров отдаёт между кадрами суб-пиксельно дрожащие значения
+      // (63 vs 62.99998474121094 vs 63.00000762939453 — округление матрицы
+      // трансформации), и запись ЛЮБОГО нового значения в --tvbar-h, пусть
+      // и на тысячную пикселя отличного от предыдущего, ПЕРЕЗАПУСКАЕТ уже
+      // идущий CSS-transition рейса (новая цель — значит новый курс с
+      // текущей отметки), раз в кадр, бесконечно — отсюда транзишен рейла
+      // никогда не успевал реально завершиться за 0.3s, он непрерывно
+      // чуть-чуть продлевался. Раз цель в принципе бинарна (hiddenNow),
+      // пишем --tvbar-h РОВНО ОДИН РАЗ на границу смены состояния (edge-
+      // triggered), а не на каждый тик — тогда CSS-transition стартует
+      // ровно один раз и доигрывает свои честные .3s без помех. updateRailTop(true)
+      // у fill()/onDragEnd — принудительный пересчёт (там редко и не на
+      // каждый кадр, дрожание неважно, а новая раскладка — после жеста или
+      // новой фильтрации — действительно может изменить итоговую цель).
+      var lastHiddenForRail = null;
+      function updateRailTop(force){
+        var hiddenNow = rbar.classList.contains("ic-rbar-hidden");
+        if(!force && hiddenNow === lastHiddenForRail) return;
+        lastHiddenForRail = hiddenNow;
         var bbar = document.querySelector(".back-bar");
-        var bbBottom = bbar ? Math.max(0, bbar.getBoundingClientRect().bottom) : 0;
-        var barBottom = Math.max(0, rbar.getBoundingClientRect().bottom);
-        rail.style.setProperty("--tvbar-h", Math.max(bbBottom, barBottom)+"px");
+        var h = hiddenNow ? 0 : (bbar ? bbar.getBoundingClientRect().height : 0) + rbar.getBoundingClientRect().height;
+        rail.style.setProperty("--tvbar-h", Math.max(0,h)+"px");
       }
       // Тот же маргинальный маркер и то же ~4-секундное угасание, что у
       // перехода в главу (hlMark/hlFadeOut выше) — раньше здесь была
@@ -2569,7 +2661,7 @@
       wireAzRail(rail, peek, {
         onPick: function(l){ var el = document.getElementById("tv-L"+l); if(el) scrollToEl(el); },
         onDragStart: function(){ azDragging = true; },
-        onDragEnd: function(){ azDragging = false; updateRailTop(); }
+        onDragEnd: function(){ azDragging = false; updateRailTop(true); }
       });
       // Капсула прячется/появляется как .ic-rbar панели читалки (тот же
       // installScrollHide), но заморожена (suppress) пока открыта/анимируется
@@ -2670,8 +2762,18 @@
   // свою базовую букву в алфавитном столбике и фильтре.
   function nmFoldLatin(s){ return String(s||"").normalize("NFD").replace(/[̀-ͯ]/g,""); }
   function nmForm(e){ return (state.lang==="en" ? e.en : state.lang==="fr" ? e.fr : e.ru) || e.ru || (e.it||[])[0] || ""; }
-  function nmLetterOf(name){
-    var m = nmFoldLatin(name).toUpperCase().replace(/Ё/g,"Е").match(/[A-ZА-Я]/);
+  // nmLetterOf(name, loc) — буква алфавитного столбика, ЯЗЫКОЗАВИСИМАЯ:
+  // раньше регулярка искала первую подряд латинскую ИЛИ кириллическую букву
+  // без привязки к текущему языку сортировки — у t0173 (tavola.json) форма
+  // ru начинается с латинского "Deus" внутри русской фразы ("Deus: откуда
+  // происходит"), и запись получала букву «D» в RU-столбике вместо верной
+  // кириллической буквы. Теперь при loc==="ru" ищем СНАЧАЛА кириллицу
+  // (латиница — только если во всей строке кириллицы вовсе нет, запасной
+  // случай), при loc==="en"/"fr" — наоборот, латиницу первой.
+  function nmLetterOf(name, loc){
+    var s = nmFoldLatin(name).toUpperCase().replace(/Ё/g,"Е");
+    var cyr = s.match(/[А-Я]/), lat = s.match(/[A-Z]/);
+    var m = loc==="ru" ? (cyr || lat) : (lat || cyr);
     return m ? m[0] : "#";
   }
   function nmSortKey(name){ return nmFoldLatin(name).replace(/[«»\s]/g,""); }
@@ -2728,7 +2830,7 @@
       // языка без повторной навигации (bindLangSwitch перерисовывает страницу).
       function ordered(){
         var loc = state.lang==="en" ? "en" : state.lang==="fr" ? "fr" : "ru";
-        return d.names.map(function(e){ var nm = nmForm(e); return {e:e, name:nm, l:nmLetterOf(nm), k:nmSortKey(nm)}; })
+        return d.names.map(function(e){ var nm = nmForm(e); return {e:e, name:nm, l:nmLetterOf(nm, loc), k:nmSortKey(nm)}; })
           .sort(function(a,b){ return a.l===b.l ? a.k.localeCompare(b.k, loc) : a.l.localeCompare(b.l, loc); });
       }
       var letters = [];
@@ -2829,15 +2931,23 @@
         var railLetters = letters.filter(function(l){ return have[l]; });
         rail.innerHTML = railLetters.map(function(l){ return '<button type="button" data-l="'+(l==="#" ? "0" : l)+'">'+l+'</button>'; }).join("");
         rail.classList.toggle("ic-az-tight", railLetters.length > 26);
-        if(!azDragging) updateRailTop();
+        if(!azDragging) updateRailTop(true);
       }
       function barH(){ return rbar.getBoundingClientRect().height + (parseFloat(root.dataset.top)||0) + 10; }
-      // См. комментарий у того же хелпера в renderTavola — та же логика.
-      function updateRailTop(){
+      // См. комментарий у того же хелпера в renderTavola (пункт 6 задания) —
+      // та же логика: дискретная цель (0 / сумма высот), не живой .bottom,
+      // и запись --tvbar-h edge-triggered (lastHiddenForRail), не каждый
+      // кадр — иначе суб-пиксельное дрожание getBoundingClientRect().height
+      // между кадрами перезапускает уже идущий CSS-transition рейса (та же
+      // находка, см. комментарий у renderTavola).
+      var lastHiddenForRail = null;
+      function updateRailTop(force){
+        var hiddenNow = rbar.classList.contains("ic-rbar-hidden");
+        if(!force && hiddenNow === lastHiddenForRail) return;
+        lastHiddenForRail = hiddenNow;
         var bbar = document.querySelector(".back-bar");
-        var bbBottom = bbar ? Math.max(0, bbar.getBoundingClientRect().bottom) : 0;
-        var barBottom = Math.max(0, rbar.getBoundingClientRect().bottom);
-        rail.style.setProperty("--tvbar-h", Math.max(bbBottom, barBottom)+"px");
+        var h = hiddenNow ? 0 : (bbar ? bbar.getBoundingClientRect().height : 0) + rbar.getBoundingClientRect().height;
+        rail.style.setProperty("--tvbar-h", Math.max(0,h)+"px");
       }
       sheetInput.addEventListener("input",function(){ namesUi.q = sheetInput.value; updateSearchLabel(); fill(); });
       wireSearchClear(sheetInput);
@@ -2849,7 +2959,7 @@
       wireAzRail(rail, peek, {
         onPick: function(dl){ var el = document.getElementById("nm-L"+dl); if(el) window.scrollTo(0, window.scrollY + el.getBoundingClientRect().top - barH()); },
         onDragStart: function(){ azDragging = true; },
-        onDragEnd: function(){ azDragging = false; updateRailTop(); }
+        onDragEnd: function(){ azDragging = false; updateRailTop(true); }
       });
       // См. тот же комментарий в renderTavola — заморозка на время шторки/жеста.
       installScrollHide(rbar, {
@@ -3336,7 +3446,31 @@
           '<div class="ic-sr" aria-live="polite"></div>';
       }
       var orn = book.ornaments, ornRec = function(type, seed){ return orn && pickOrnament(orn[type], "home|"+seed); };
-      var hp = ornRec("headpiece","head"), tp = ornRec("tailpiece","tail"), dv = ornRec("divider","div");
+      var hp = ornRec("headpiece","head"), dv = ornRec("divider","div");
+      // Концовка /home (на любой вкладке read/gallery/search) — раньше тут
+      // сидел полновесный tailpiece (ink-заливка, 55% ширины — тот же
+      // приём, что в конце статьи), выбранный детерминированно по сиду
+      // "home|tail" (независимо от вкладки — читалось как "грубый,
+      // нечитаемый оттиск" на /home/search, где под ним и так ничего, кроме
+      // голого поля поиска). Пользователь просит одно чистое небольшое
+      // украшение внизу страницы — берём divider (он и так приглушённее:
+      // opacity .75, цвет --soft, а не --ink, меньше по размеру, см.
+      // .ic-orn-divider в app.css), отфильтрованный по собственному полю
+      // density из ornaments.json до нижней половины диапазона, чтобы не
+      // напороться на визуально плотный рисунок, перебрав ornaments.json:
+      // из 12 tailpiece density лежит в 0.066..0.158, медиана ~0.12 —
+      // фильтр <=0.1 оставляет только 3 самых лёгких файла (0.066/0.083/
+      // 0.096), старый пик (0.096, tailpiece_0550_509.png) среди них есть,
+      // но новый сид "home|tailLight" (отдельный от исходного "home|tail",
+      // чтобы не совпасть случайно) уводит выбор на tailpiece_0038_XXVIII.png
+      // (0.083) — другой, более лёгкий файл.
+      var tpRec = (function(){
+        var list = orn && orn.tailpiece;
+        if(!list || !list.length) return null;
+        var light = list.filter(function(o){ return (o.density||1) <= 0.1; });
+        var pool = light.length ? light : list;
+        return pool[strHash("home|tailLight") % pool.length];
+      })();
       root.innerHTML =
         '<div class="ic-wrap ic-home">'+
           '<div class="ic-top-row">'+(forcedBook?"":'<button type="button" class="ic-to-lib-link ic-to-lib-pill">'+t("toLibrary")+'</button>')+langSwitch()+'</div>'+
@@ -3362,7 +3496,7 @@
           '</header>'+
           (dv ? ornamentMaskHtml(book, dv, "ic-orn-divider") : "")+
           '<section class="ic-home-panel" id="ic-home-panel">'+panel+'</section>'+
-          (tp ? ornamentMaskHtml(book, tp, "ic-orn-tailpiece") : "")+
+          (tpRec ? ornamentMaskHtml(book, tpRec, "ic-orn-tailpiece") : "")+
         '</div>';
       bindLangSwitch(root);
       var toLib = root.querySelector(".ic-to-lib-link"); if(toLib) toLib.addEventListener("click",function(){ location.hash=""; });
