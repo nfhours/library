@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "142";
+  var APP_VER = "143";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -973,13 +973,13 @@
       barEl.classList.toggle(hiddenClass, hidden);
       var bbar = document.querySelector(".back-bar");
       if(bbar) bbar.classList.toggle("ic-bb-hidden", hidden);
-      // onTick ПОСЛЕ toggle (не до, как было) — пункт 6 задания, уточнение:
-      // opts.onTick читает rbar.classList.contains(hiddenClass) (см.
-      // updateRailTop у renderTavola/renderNames) ради дискретного целевого
-      // --tvbar-h; вызов ДО toggle подставлял бы состояние классов ещё с
-      // ПРОШЛОГО кадра — на границе смены направления скролла столбик тогда
-      // трогался бы с места на один rAF-кадр позже капсулы/шапки, а не
-      // одновременно с ними.
+      // onTick ПОСЛЕ toggle — исторически важно было для renderTavola/
+      // renderNames (az-rail синхронизировал свою позицию с hiddenClass в
+      // тот же кадр); тот механизм убран (столбик теперь статичен, см.
+      // .ic-az-rail в app.css), эти два вызывающих места больше не передают
+      // onTick вовсе. Параметр остаётся для других потребителей (например
+      // paintPg у читалки, см. renderChapter) — порядок после toggle не
+      // мешает им и не требует отдельного обоснования.
       if(opts.onTick) opts.onTick();
       requestAnimationFrame(tick);
     }
@@ -1210,20 +1210,17 @@
   // зажаты. Слушатели висят на самом контейнере rail, а не на кнопках —
   // кнопки каждый fill() пересобираются заново, но rail-элемент остаётся тем
   // же узлом, поэтому его не нужно перевешивать повторно.
-  // opts: {onPick, onDragStart, onDragEnd}. Round (баг «буквы меняют размер
-  // и положение» на телефоне): раньше btnAt() мерил rail.getBoundingClientRect()
-  // и список кнопок заново на КАЖДЫЙ pointermove — настоящий window.scrollTo()
-  // внутри onPick попадал в тик installScrollHide вызывающей стороны, который
-  // мог на лету поменять --tvbar-h (через onTick) и тем самым top/доступную
-  // высоту самого .ic-az-rail ПОКА палец ещё на экране — кнопки (flex:1 1 0,
-  // justify-content:space-between) каждый раз равномерно переразбивались на
-  // новую высоту. Фикс: геометрия (rail rect + список кнопок) кэшируется ОДИН
-  // раз на pointerdown и используется во всех btnAt() этого жеста; сброс — на
-  // pointerup/pointercancel. onDragStart/onDragEnd — сигнал вызывающей
-  // стороне (renderTavola/renderNames), чтобы она на время жеста заморозила
-  // installScrollHide (suppress) и пересчёт --tvbar-h (onTick) — без этого
-  // кэш геометрии рейла здесь не спасает: сама капсула/--tvbar-h всё равно
-  // могли бы шевельнуться от прокрутки под пальцем.
+  // opts: {onPick, onDragStart, onDragEnd}. Геометрия (rail rect + список
+  // кнопок) кэшируется ОДИН раз на pointerdown и используется во всех
+  // btnAt() этого жеста (сброс — на pointerup/pointercancel), просто чтобы
+  // не перезапрашивать getBoundingClientRect()/querySelectorAll на каждый
+  // pointermove. Столбик теперь статичен (top/bottom — неподвижные CSS-
+  // границы, см. .ic-az-rail в app.css) — геометрия физически не может
+  // измениться посреди жеста, но кэш всё равно дешевле повторных запросов.
+  // onDragStart/onDragEnd — сигнал вызывающей стороне (renderTavola/
+  // renderNames): замораживает installScrollHide (suppress), пока палец на
+  // полосе (чтобы жест не прятал капсулу), и переключает класс активности
+  // столбика (яркость кнопок в покое/при касании — см. задание).
   function wireAzRail(rail, peek, opts){
     opts = opts || {};
     var onPick = opts.onPick || function(){};
@@ -1239,7 +1236,13 @@
     function pick(btn, drag){
       if(!btn) return;
       onPick(btn.getAttribute("data-l"));
-      if(drag){ peek.textContent = btn.textContent; peek.classList.add("show"); }
+      // data-peek — ВСЕГДА одна исходная буква этой кнопки (см. buildAzRail),
+      // а не её видимый текст: в режиме «через одну» (.ic-az-paired) у
+      // нечётных кнопок видимого текста нет вовсе, а у чётных виден
+      // объединённый "А·Б" — подсказка в центре экрана должна показывать
+      // РОВНО ту одну букву, в которую сейчас попал палец, а не слипшуюся
+      // пару, иначе переход между соседними буквами не читался бы на пике.
+      if(drag){ peek.textContent = btn.getAttribute("data-peek") || btn.textContent; peek.classList.add("show"); }
     }
     function end(){
       if(!dragging) return;
@@ -1258,6 +1261,70 @@
     rail.addEventListener("pointermove", function(e){ if(dragging) pick(btnAt(e.clientY), true); });
     rail.addEventListener("pointerup", end);
     rail.addEventListener("pointercancel", end);
+  }
+
+  // Верхняя граница .ic-az-rail (--az-top, см. app.css) — столбик больше не
+  // двигается вообще (ни при скролле, ни при прятании/появлении шапки, см.
+  // задание), поэтому top считается ОДИН раз, а не на каждый кадр. Это
+  // высота .back-bar (root.dataset.top, см. syncTopVar выше) + РЕАЛЬНАЯ
+  // высота капсулы .ic-rbar В РАЗВЁРНУТОМ виде + отступ 14px. rect.height
+  // капсулы не меняется от translateY (тот же факт, на который опирается
+  // updateSheetMaxH выше) — поэтому измерение верно, даже если капсула в
+  // этот момент реально спрятана скроллом: шапка в развёрнутом виде тогда
+  // просто никогда не перекрывает буквы, а когда она спрятана — над
+  // столбиком остаётся немного свободного места (разрешено заданием). Не
+  // хардкод — высота капсулы зависит от языка интерфейса (RU/EN/FR) и от
+  // компактного ландшафтного режима на низком экране (см. медиа-правила
+  // .ic-rbar/.back-bar). Вызывается из fill() у renderTavola/renderNames (и
+  // из общего resize/orientationchange слушателя ниже) — один слушатель на
+  // весь модуль, no-op если рейла сейчас нет на странице (тот же приём, что
+  // у fitCtxLabels/closeQm).
+  function syncAzRailBounds(){
+    var rail = document.querySelector(".ic-az-rail");
+    if(!rail) return;
+    var rbar = document.getElementById("ic-rbar");
+    var top = (parseFloat(root.dataset.top)||0) + (rbar ? rbar.getBoundingClientRect().height : 0) + 14;
+    rail.style.setProperty("--az-top", Math.max(0,top)+"px");
+  }
+  window.addEventListener("resize", syncAzRailBounds);
+  window.addEventListener("orientationchange", syncAzRailBounds);
+
+  // buildAzRail — разметка кнопок столбика из списка реальных букв (letters,
+  // без disabled). available — текущая доступная высота столбика в px
+  // (измеряется ПОСЛЕ применения статичных top/bottom, см. вызов в fill()) —
+  // решает, нужен ли режим «через одну» (по образцу контактов iOS): если
+  // шаг на букву (available/letters.length) меньше AZ_MIN_STEP, показываем
+  // подпись только у ЧЁТНЫХ кнопок, "A·B" (текущая + следующая буква), а
+  // НЕЧЁТНЫЕ остаются в DOM без видимого текста — физических кнопок ровно
+  // столько же, сколько исходных букв, поэтому wireAzRail/btnAt (деление
+  // полосы по числу <button>) трогать не пришлось: жест пальцем попадает в
+  // любую исходную букву, не только показанную. Подпись чётной кнопки
+  // выезжает за её нижний край на половину высоты соседней (.ic-az-pair-label,
+  // position:absolute;top:100% — см. app.css), визуально сидя НА СТЫКЕ двух
+  // физических кнопок, как в контактах iOS. data-peek у КАЖДОЙ кнопки — её
+  // ОДНА исходная буква (не объединённая подпись) — именно её показывает
+  // крупная подсказка в центре экрана при протяжке (см. pick() у wireAzRail):
+  // иначе у нечётных кнопок (без видимого текста) подсказка осталась бы
+  // пустой, а у чётных показывала бы слипшуюся пару вместо одной буквы.
+  // dataAttrFn(l) — необязательное преобразование буквы в значение data-l
+  // (renderNames передаёт "#"→"0").
+  var AZ_MIN_STEP = 17; // px — эмпирический порог (см. отчёт проверки): ниже
+  // этого шага кнопки визуально слипаются/нечитаемы на реальном рендере —
+  // подтверждено реальными данными Cartari на укороченном портрете (390×500,
+  // "Имена" на RU: 26 букв, доступная высота 333px, шаг ~12.8px — paired
+  // срабатывает без необходимости подделывать данные).
+  function buildAzRail(letters, dataAttrFn, available){
+    var n = letters.length;
+    var paired = n > 0 && (available / n) < AZ_MIN_STEP;
+    var html = letters.map(function(l, i){
+      var dl = dataAttrFn ? dataAttrFn(l) : l;
+      if(!paired) return '<button type="button" data-l="'+dl+'" data-peek="'+l+'">'+l+'</button>';
+      if(i % 2 === 1) return '<button type="button" data-l="'+dl+'" data-peek="'+l+'"></button>';
+      var partner = letters[i+1];
+      var label = partner ? (l+"·"+partner) : l;
+      return '<button type="button" data-l="'+dl+'" data-peek="'+l+'"><span class="ic-az-pair-label">'+label+'</span></button>';
+    }).join("");
+    return {html: html, paired: paired, tight: paired || n > 26};
   }
 
   /* ---------- библиотека: список книг ---------- */
@@ -2565,12 +2632,14 @@
           rail = root.querySelector(".ic-az-rail"), peek = root.querySelector(".ic-az-peek");
       sheetInput.value = tavolaUi.q;
       // azDragging — выставляется wireAzRail'ом на весь жест по рейлу (между
-      // pointerdown и pointerup/cancel), читается в suppress/onTick ниже,
-      // чтобы на это время заморозить и скрытие капсулы, и пересчёт
-      // --tvbar-h/геометрии рейла (см. задание, пункт 3, и комментарий у
-      // wireAzRail). rbSheets — тот же паттерн взаимоисключения шторок, что
-      // в renderChapter (здесь фактически только одна шторка, но тот же
-      // общий механизм makeRbSheet этого требует).
+      // pointerdown и pointerup/cancel), читается в suppress ниже, чтобы на
+      // это время заморозить скрытие капсулы (жест по буквам не должен
+      // прятать шапку). Столбик сам больше НЕ синхронизирован с шапкой (см.
+      // .ic-az-rail в app.css и syncAzRailBounds/buildAzRail выше) — azDragging
+      // здесь только про suppress и про класс активности (яркость кнопок,
+      // см. wireAzRail ниже). rbSheets — тот же паттерн взаимоисключения
+      // шторок, что в renderChapter (здесь фактически только одна шторка, но
+      // тот же общий механизм makeRbSheet этого требует).
       var azDragging = false, rbSheets = [];
       function updateSearchLabel(){ searchLabelEl.textContent = tvSearchLabel(); }
       function fill(){
@@ -2589,63 +2658,19 @@
         lnav.innerHTML = lettersOf(ordered()).map(function(l){ return '<button type="button" data-l="'+l+'"'+(have[l] ? "" : " disabled")+'>'+l+'</button>'; }).join("");
         // Столбик на узких экранах — только буквы, у которых реально есть
         // статьи в текущем отборе (have), без disabled-кнопок вовсе.
+        // Границы статичны (syncAzRailBounds сам читает актуальную высоту
+        // капсулы) — buildAzRail меряет реально доступную высоту столбика
+        // (она уже верна благодаря position:fixed;top/bottom в app.css,
+        // независимо от текущего содержимого) и решает, нужен ли режим
+        // «через одну» (см. задание, пункт 2).
         var railLetters = lettersOf(ordered()).filter(function(l){ return have[l]; });
-        rail.innerHTML = railLetters.map(function(l){ return '<button type="button" data-l="'+l+'">'+l+'</button>'; }).join("");
-        rail.classList.toggle("ic-az-tight", railLetters.length > 26);
-        if(!azDragging) updateRailTop(true);
+        syncAzRailBounds();
+        var built = buildAzRail(railLetters, null, rail.getBoundingClientRect().height);
+        rail.innerHTML = built.html;
+        rail.classList.toggle("ic-az-tight", built.tight);
+        rail.classList.toggle("ic-az-paired", built.paired);
       }
       function barH(){ return rbar.getBoundingClientRect().height + (parseFloat(root.dataset.top)||0) + 10; }
-      // Round (баг «столбик прыгает отдельно от капсулы на настоящем
-      // iPhone», см. задание, пункт 6): раньше это читало ЖИВОЙ
-      // getBoundingClientRect().bottom обоих баров КАЖДЫЙ кадр скролла —
-      // но rect.bottom САМ меняется непрерывно, пока бары едут своей
-      // родной .3s transform-transition (ic-bb-hidden/ic-rbar-hidden), то
-      // есть это была постоянно движущаяся цель. А --tvbar-h у .ic-az-rail
-      // в app.css висит на СВОЕЙ ОТДЕЛЬНОЙ transition:top .3s ease —
-      // получалось двойное сглаживание (CSS-переход гонится за постоянно
-      // смещающимся числом из JS), именно это и давало на видео эффект
-      // «несколько кадров стоит, потом скачок».
-      // Фикс — дискретный толчок: .ic-rbar-hidden/.ic-bb-hidden — это
-      // ВСЕГДА ровно два стабильных состояния (bars полностью показаны ИЛИ
-      // полностью убраны transform'ом), меняющиеся одним флагом в один и
-      // тот же тик installScrollHide, что и сам toggle этих классов.
-      // rect.height (в отличие от .bottom) НЕ меняется от translateY —
-      // это инвариантная величина независимо от того, идёт ли анимация
-      // прямо сейчас. Поэтому здесь не измеряется текущее "где сейчас
-      // находится край бара посреди его анимации", а сразу выставляется
-      // ОДНА из двух КОНЕЧНЫХ целей (0, когда бары убраны — или их полная
-      // суммарная высота, когда показаны) — и ТА ЖЕ самая CSS-transition
-      // .3s ease у .ic-az-rail, запущенная в тот же миг, что и transform
-      // капсулы/шапки, приходит к своей цели ТЕМ ЖЕ курсом/длительностью,
-      // в полном покадровом согласии, а не вдогонку. Не вызывается, пока
-      // azDragging (см. выше) — пункт 3 прежнего задания.
-      // lastHiddenForRail — ЕЩЁ один слой того же фикса, найденный уже на
-      // проверке (видео показало транзишен рейла длиннее заявленных .3s,
-      // ~0.47с вместо 0.3с): onTick зовёт updateRailTop() КАЖДЫЙ кадр, даже
-      // когда hiddenNow не менялся — а getBoundingClientRect().height
-      // самих баров отдаёт между кадрами суб-пиксельно дрожащие значения
-      // (63 vs 62.99998474121094 vs 63.00000762939453 — округление матрицы
-      // трансформации), и запись ЛЮБОГО нового значения в --tvbar-h, пусть
-      // и на тысячную пикселя отличного от предыдущего, ПЕРЕЗАПУСКАЕТ уже
-      // идущий CSS-transition рейса (новая цель — значит новый курс с
-      // текущей отметки), раз в кадр, бесконечно — отсюда транзишен рейла
-      // никогда не успевал реально завершиться за 0.3s, он непрерывно
-      // чуть-чуть продлевался. Раз цель в принципе бинарна (hiddenNow),
-      // пишем --tvbar-h РОВНО ОДИН РАЗ на границу смены состояния (edge-
-      // triggered), а не на каждый тик — тогда CSS-transition стартует
-      // ровно один раз и доигрывает свои честные .3s без помех. updateRailTop(true)
-      // у fill()/onDragEnd — принудительный пересчёт (там редко и не на
-      // каждый кадр, дрожание неважно, а новая раскладка — после жеста или
-      // новой фильтрации — действительно может изменить итоговую цель).
-      var lastHiddenForRail = null;
-      function updateRailTop(force){
-        var hiddenNow = rbar.classList.contains("ic-rbar-hidden");
-        if(!force && hiddenNow === lastHiddenForRail) return;
-        lastHiddenForRail = hiddenNow;
-        var bbar = document.querySelector(".back-bar");
-        var h = hiddenNow ? 0 : (bbar ? bbar.getBoundingClientRect().height : 0) + rbar.getBoundingClientRect().height;
-        rail.style.setProperty("--tvbar-h", Math.max(0,h)+"px");
-      }
       // Тот же маргинальный маркер и то же ~4-секундное угасание, что у
       // перехода в главу (hlMark/hlFadeOut выше) — раньше здесь была
       // отдельная заливка строки (.ic-ch-hl), резко пропадавшая через 2.2с;
@@ -2660,16 +2685,18 @@
       });
       wireAzRail(rail, peek, {
         onPick: function(l){ var el = document.getElementById("tv-L"+l); if(el) scrollToEl(el); },
-        onDragStart: function(){ azDragging = true; },
-        onDragEnd: function(){ azDragging = false; updateRailTop(true); }
+        onDragStart: function(){ azDragging = true; rail.classList.add("ic-az-rail-active"); },
+        onDragEnd: function(){ azDragging = false; rail.classList.remove("ic-az-rail-active"); }
       });
       // Капсула прячется/появляется как .ic-rbar панели читалки (тот же
       // installScrollHide), но заморожена (suppress) пока открыта/анимируется
-      // выезжающая шторка поиска ИЛИ идёт жест по az-rail.
+      // выезжающая шторка поиска ИЛИ идёт жест по az-rail. onTick здесь
+      // больше не нужен — раньше он пересчитывал --tvbar-h на каждый тик
+      // скролла (столбик двигался вслед за шапкой); столбик теперь статичен
+      // (см. .ic-az-rail в app.css), так что опускаем параметр вовсе.
       installScrollHide(rbar, {
         isActive: function(){ return gen === renderGen; },
-        suppress: function(){ return azDragging || rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); }); },
-        onTick: function(){ if(!azDragging) updateRailTop(); }
+        suppress: function(){ return azDragging || rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); }); }
       });
       var sheetApi = makeRbSheet(sheetEl, searchBtn, {
         registry: rbSheets,
@@ -2904,8 +2931,9 @@
           lnav = root.querySelector(".ic-tv-letters-lt"),
           rail = root.querySelector(".ic-az-rail"), peek = root.querySelector(".ic-az-peek");
       sheetInput.value = namesUi.q;
-      // azDragging/rbSheets — см. тот же комментарий в renderTavola; здесь
-      // rbSheets реально взаимоисключает ДВЕ шторки (поиск и тип).
+      // azDragging/rbSheets — см. тот же комментарий в renderTavola (только
+      // suppress и класс активности столбика, не синхронизация позиции);
+      // здесь rbSheets реально взаимоисключает ДВЕ шторки (поиск и тип).
       var azDragging = false, rbSheets = [];
       function updateSearchLabel(){ searchLabelEl.textContent = nmSearchLabel(); }
       function updateTypeLabel(){ typeLabelEl.textContent = nmTypeLabel(); }
@@ -2928,27 +2956,16 @@
         lnav.innerHTML = letters.map(function(l){ return '<button type="button" data-l="'+(l==="#" ? "0" : l)+'"'+(have[l] ? "" : " disabled")+'>'+l+'</button>'; }).join("");
         // Столбик на узких экранах — только буквы, для которых реально есть
         // статьи при текущих отборе/фильтре типа (have), без disabled-кнопок.
+        // См. комментарий у того же места в renderTavola — границы столбика
+        // статичны, buildAzRail сам решает про режим «через одну».
         var railLetters = letters.filter(function(l){ return have[l]; });
-        rail.innerHTML = railLetters.map(function(l){ return '<button type="button" data-l="'+(l==="#" ? "0" : l)+'">'+l+'</button>'; }).join("");
-        rail.classList.toggle("ic-az-tight", railLetters.length > 26);
-        if(!azDragging) updateRailTop(true);
+        syncAzRailBounds();
+        var built = buildAzRail(railLetters, function(l){ return l==="#" ? "0" : l; }, rail.getBoundingClientRect().height);
+        rail.innerHTML = built.html;
+        rail.classList.toggle("ic-az-tight", built.tight);
+        rail.classList.toggle("ic-az-paired", built.paired);
       }
       function barH(){ return rbar.getBoundingClientRect().height + (parseFloat(root.dataset.top)||0) + 10; }
-      // См. комментарий у того же хелпера в renderTavola (пункт 6 задания) —
-      // та же логика: дискретная цель (0 / сумма высот), не живой .bottom,
-      // и запись --tvbar-h edge-triggered (lastHiddenForRail), не каждый
-      // кадр — иначе суб-пиксельное дрожание getBoundingClientRect().height
-      // между кадрами перезапускает уже идущий CSS-transition рейса (та же
-      // находка, см. комментарий у renderTavola).
-      var lastHiddenForRail = null;
-      function updateRailTop(force){
-        var hiddenNow = rbar.classList.contains("ic-rbar-hidden");
-        if(!force && hiddenNow === lastHiddenForRail) return;
-        lastHiddenForRail = hiddenNow;
-        var bbar = document.querySelector(".back-bar");
-        var h = hiddenNow ? 0 : (bbar ? bbar.getBoundingClientRect().height : 0) + rbar.getBoundingClientRect().height;
-        rail.style.setProperty("--tvbar-h", Math.max(0,h)+"px");
-      }
       sheetInput.addEventListener("input",function(){ namesUi.q = sheetInput.value; updateSearchLabel(); fill(); });
       wireSearchClear(sheetInput);
       lnav.addEventListener("click",function(e){
@@ -2958,14 +2975,14 @@
       });
       wireAzRail(rail, peek, {
         onPick: function(dl){ var el = document.getElementById("nm-L"+dl); if(el) window.scrollTo(0, window.scrollY + el.getBoundingClientRect().top - barH()); },
-        onDragStart: function(){ azDragging = true; },
-        onDragEnd: function(){ azDragging = false; updateRailTop(true); }
+        onDragStart: function(){ azDragging = true; rail.classList.add("ic-az-rail-active"); },
+        onDragEnd: function(){ azDragging = false; rail.classList.remove("ic-az-rail-active"); }
       });
-      // См. тот же комментарий в renderTavola — заморозка на время шторки/жеста.
+      // См. тот же комментарий в renderTavola — заморозка на время шторки/жеста;
+      // onTick не нужен (столбик статичен, см. .ic-az-rail в app.css).
       installScrollHide(rbar, {
         isActive: function(){ return gen === renderGen; },
-        suppress: function(){ return azDragging || rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); }); },
-        onTick: function(){ if(!azDragging) updateRailTop(); }
+        suppress: function(){ return azDragging || rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); }); }
       });
       var sheetApi = makeRbSheet(sheetEl, searchBtn, {
         registry: rbSheets,

@@ -1152,43 +1152,77 @@ button.ic-tv-sheet-reset{flex:none;height:34px;padding:0 14px;border:1px solid r
 @media (hover:hover){.ic-tv-pg a:hover{background:var(--accent);color:#fff;border-color:var(--accent)}}
 /* Столбик алфавита на узких экранах (≤620, тот же брейкпоинт, что у
    .ic-ch-outer/.ic-rbar выше) — по образцу списка контактов iPhone: узкая
-   полоса фиксирована у правого края экрана (не часть sticky-панели выше,
-   поэтому не прячется при прокрутке вместе с ней), буквы мелкие, кнопки
-   растянуты на равные доли высоты (flex:1 1 0 у каждой) — так деление
-   полосы касанием (btnAt в app.js) совпадает с видимыми границами кнопок.
-   Ряд .ic-tv-letters-lt (светлая часть страницы) на этой ширине просто
+   полоса фиксирована у правого края экрана, буквы мелкие, кнопки растянуты
+   на равные доли высоты (flex:1 1 0 у каждой) — так деление полосы касанием
+   (btnAt в app.js) совпадает с видимыми границами кнопок. Ряд
+   .ic-tv-letters-lt (светлая часть страницы) на этой ширине просто
    скрывается целиком (замена, не варианты одновременно, см. правило выше).
    Список статей получает правый отступ (.ic-wrap.ic-tv ниже), чтобы текст
    не заезжал под столбик.
-   --tvbar-h — не статична, пересчитывается в app.js (updateRailTop), на
-   каждый fill() и на каждый тик installScrollHide (opts.onTick, заморожен
-   на время жеста по рейлу — см. app.js). Round (пункт 6, баг «столбик
-   прыгает отдельно от капсулы на настоящем iPhone»): раньше это было
-   живое getBoundingClientRect().bottom обоих баров — постоянно движущаяся
-   цель, пока сами бары едут своей .3s transform-transition, которую затем
-   ещё и ДОГОНЯЛА собственная transition:top этого рейла — отсюда на видео
-   несколько кадров стоп-кадра и затем скачок. Теперь updateRailTop не
-   измеряет "где сейчас граница бара посреди анимации", а сразу подставляет
-   ОДНУ из двух КОНЕЧНЫХ целей (0 — бары полностью убраны, или их
-   суммарная высота — полностью показаны; .ic-rbar-hidden/.ic-bb-hidden —
-   это всегда ровно два стабильных состояния, переключаемых одним флагом в
-   один тик) — и собственная transition:top .3s ease рейла ниже идёт к этой
-   цели ТЕМ ЖЕ курсом/длительностью/easing, что .ic-rbar/.back-bar, запущенная
-   в тот же момент (см. порядок opts.onTick в installScrollHide, app.js) —
-   в покадровом согласии, а не вдогонку. 66px — запасной статичный fallback
-   только на случай самого первого рендера до первого вызова updateRailTop. */
+   Round («столбик больше не двигается вообще», см. задание): раньше верх
+   столбика синхронизировался с прячущейся/появляющейся шапкой через JS-
+   переменную --tvbar-h (сперва живой getBoundingClientRect() каждый кадр,
+   потом дискретная цель с собственной transition:top .3s ease у рейла) — на
+   настоящем iPhone (видео, ~/Projects/_docs/chapters-preview/iphone-bug2/)
+   синхронизация всё равно была рваной: шапка на нескольких кадрах успевала
+   перекрыть верхние буквы, столбик потом рывком досъезжал. Пользователь
+   решил кардинально сменить подход: столбик СТАТИЧЕН — top/bottom — две
+   неподвижные границы, никакого transition, никакой зависимости от
+   .ic-rbar-hidden/.ic-bb-hidden.
+   --az-top (app.js, syncAzRailBounds) — верхняя граница: высота .back-bar
+   (root.dataset.top) + РЕАЛЬНАЯ высота капсулы .ic-rbar В РАЗВЁРНУТОМ виде +
+   отступ 14px. rect.height капсулы не меняется от translateY (тот же факт,
+   на который опирается updateSheetMaxH выше) — поэтому измерение верно,
+   даже если капсула в этот момент реально спрятана скроллом: шапка в
+   развёрнутом виде тогда НИКОГДА не перекрывает буквы, а когда она спрятана
+   — над столбиком просто остаётся немного свободного места (это ожидаемо и
+   явно разрешено пользователем). Не хардкод — высота капсулы зависит от
+   языка интерфейса (RU/EN/FR — разная длина подписей) и от компактного
+   ландшафтного режима на низком экране (см. медиа-правила .ic-rbar/
+   .back-bar ниже/в index.html). 116px — запасной статичный fallback только
+   на случай самого первого рендера до первого вызова syncAzRailBounds.
+   Нижняя граница — фиксированный отступ 14px + ДОПОЛНИТЕЛЬНЫЙ запас 24px
+   сверх env(safe-area-inset-bottom): на практике safe-area-inset-bottom
+   покрывает только домашний индикатор, а не всю высоту нижней панели
+   адресной строки настоящего Safari, когда она показана не полностью
+   свёрнутой (та же проблема уже всплывала у выезжающих шторок читалки, см.
+   комментарий у updateSheetMaxH/#ic-rb-dim выше про --ic-rbar-bottom) — 24px
+   эмпирический запас сверху безопасной зоны.
+   .ic-az-tight/.ic-az-paired — см. buildAzRail (app.js): если после этих
+   статичных границ доступная высота не даёт всем буквам шаг хотя бы ~17px
+   (AZ_MIN_STEP в app.js), столбик переходит в режим «через одну» (по
+   образцу контактов iOS) — физических кнопок остаётся столько же, сколько
+   исходных букв (жест пальцем всё ещё попадает в любую из них, см.
+   wireAzRail/btnAt — их трогать не пришлось), просто у нечётных кнопок
+   текст не рисуется, а у чётных подпись "А·Б" уезжает за нижний край своей
+   кнопки на половину высоты соседней (.ic-az-pair-label ниже), визуально
+   сидя НА СТЫКЕ двух физических кнопок. */
 .ic-az-rail{display:none}
 .ic-az-peek{display:none}
 @media (max-width:620px){
   .ic-wrap.ic-tv{padding-right:calc(32px + env(safe-area-inset-right))}
   .ic-az-rail{display:flex;flex-direction:column;justify-content:space-between;align-items:center;
     position:fixed;z-index:6;right:calc(1px + env(safe-area-inset-right));
-    top:calc(var(--tvbar-h, 66px) + 14px);bottom:calc(14px + env(safe-area-inset-bottom));
-    width:30px;touch-action:none;transition:top .3s ease}
-  .ic-az-rail button{flex:1 1 0;display:flex;align-items:center;justify-content:center;width:100%;
+    top:var(--az-top, 116px);bottom:calc(14px + 24px + env(safe-area-inset-bottom));
+    width:30px;touch-action:none}
+  /* Кнопки в покое приглушены (opacity:.55) — яркость до 1 только пока
+     палец/курсор на полосе (.ic-az-rail-active, выставляется из app.js на
+     onDragStart/onDragEnd у wireAzRail — тот же колбэк, что покрывает и
+     одиночный тап, и протяжку). Переход быстрый (.15s), не как у прежней
+     анимации позиции рейла (которой больше нет вовсе). */
+  .ic-az-rail button{flex:1 1 0;position:relative;display:flex;align-items:center;justify-content:center;width:100%;
     min-height:0;border:0;background:none;padding:0;margin:0;
-    font-family:var(--serif);font-size:.62em;font-weight:600;color:var(--accent);cursor:pointer}
+    font-family:var(--serif);font-size:.62em;font-weight:600;color:var(--accent);cursor:pointer;
+    opacity:.55;transition:opacity .15s}
+  .ic-az-rail.ic-az-rail-active button{opacity:1}
   .ic-az-rail.ic-az-tight button{font-size:.54em}
+  /* Подпись-стык режима «через одну» (см. buildAzRail/.ic-az-paired выше) —
+     position:relative на самой кнопке (не меняет её место в flex-колонке)
+     даёт containing block для этого span: top:100% ставит его точно на
+     нижний край ЭТОЙ кнопки (= верх следующей, нечётной), translate(-50%)
+     по обеим осям центрирует подпись ровно на границе между двумя
+     физическими кнопками. */
+  .ic-az-pair-label{position:absolute;top:100%;left:50%;transform:translate(-50%,-50%);white-space:nowrap}
   .ic-az-peek{display:flex;position:fixed;top:50%;left:50%;
     transform:translate(-50%,-50%) scale(.82);width:124px;height:124px;border-radius:50%;
     background:rgba(33,29,23,.85);color:#ece5d4;align-items:center;justify-content:center;
