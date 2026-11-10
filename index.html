@@ -40,6 +40,22 @@
      bar is already position:sticky, so hiding it this way frees screen space
      without reflowing anything underneath. */
   .back-bar.ic-bb-hidden{transform:translateY(-100%)}
+  /* .back-bar-fixed — переключается app.js (route(), на входе/выходе с
+     указателя/«Имён») ТОЛЬКО на время, пока текущий маршрут #/cartari/index
+     или #/cartari/names: там жест по рейлу букв (.ic-az-rail, app.js) дёргает
+     window.scrollTo на каждый pointermove, а position:sticky у этой шапки
+     известно перерисовывается (пересчитывает композитный слой) в iOS Safari
+     от частых программных скроллов — шапка на долю кадра визуально пропадает
+     целиком. position:fixed с отдельным слоем композиции не пересчитывается
+     так же. left:0;right:0 — она и раньше была на всю ширину вьюпорта (эта
+     шапка не вложена в max-width-обёртку, в отличие от .ic-rbar-tv, app.css),
+     так что разницы в раскладке нет вовсе, ни на одной ширине экрана. На всех
+     ОСТАЛЬНЫХ страницах (библиотека, главная книги, читалка) класс не
+     добавляется — там шапка остаётся обычной sticky, без регрессии (там либо
+     нет частых программных scrollTo за время жеста, либо — читалка — см.
+     пункт 3 задания/отчёт: баг не воспроизведён при разумной имитации). */
+  .back-bar.back-bar-fixed{position:fixed;left:0;right:0;
+    transform:translateZ(0);will-change:transform;backface-visibility:hidden}
   .back-bar a{
     font-family:"IM Fell English","Iowan Old Style",Georgia,serif;
     font-size:20px;letter-spacing:.02em;
@@ -61,6 +77,6 @@
 <body>
 <div class="back-bar"><a href="https://94hours.com/projects/">Andrey Stepin</a><span id="back-bar-lang"></span></div>
 <div id="iconologie" data-book="library" data-top="52px"></div>
-<script src="app.js?v=122"></script>
+<script src="app.js?v=123"></script>
 </body>
 </html>

@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "145";
+  var APP_VER = "146";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -858,6 +858,14 @@
     if(activeSheetClose){ activeSheetClose(); }
     if(sv) sv.close();
     var p = parseHash(), gen = renderGen;
+    // .back-bar-fixed (index.html) — единая точка переключения position:
+    // fixed на внешней шапке, ТОЛЬКО для указателя/«Имён» (задание, пункт
+    // 1.2): здесь, один раз, по p.view — а не разбросано по всем render*-
+    // функциям. На любой другой маршрут класс снимается, и шапка возвращает
+    // своё обычное position:sticky (без регрессии нигде, кроме этих двух
+    // страниц).
+    var bbar = document.querySelector(".back-bar");
+    if(bbar) bbar.classList.toggle("back-bar-fixed", p.view==="tavola" || p.view==="names");
     if(!p.slug){ renderLibraryHome(); return; }
     openBook(p.slug, p, function(book){
       if(!book){ if(!forcedBook) renderLibraryHome(); return; }
@@ -1394,6 +1402,18 @@
     opts = opts || {};
     var onPick = opts.onPick || function(){};
     var dragging = false, cachedRect = null, cachedBtns = null;
+    // Троттлинг прыжков по rAF (пункт 2 задания): pointermove САМ больше не
+    // вызывает pick/onPick — он только обновляет pendingY (последнюю
+    // известную координату пальца). Один rAF-цикл, запущенный на
+    // pointerdown, на каждый кадр проверяет pendingY и, если нужно, зовёт
+    // pick — так onPick (а значит и реальный window.scrollTo внутри него,
+    // см. renderTavola/renderNames) срабатывает НЕ ЧАЩЕ одного раза за кадр,
+    // а не на каждое из множества pointermove между двумя кадрами на быстром
+    // свайпе. lastLetter — вторая часть троттлинга: даже если rAF тикнул,
+    // pick не зовётся повторно, если палец всё ещё над той же буквой, на
+    // которой уже стояли (сравнение data-l с прошлым разом), раз координата
+    // чуть сдвинулась в пределах той же кнопки.
+    var lastLetter = null, pendingY = null, rafId = null;
     function btnAt(clientY){
       var btns = cachedBtns || rail.querySelectorAll("button");
       if(!btns.length) return null;
@@ -1404,7 +1424,10 @@
     }
     function pick(btn, drag){
       if(!btn) return;
-      onPick(btn.getAttribute("data-l"));
+      var l = btn.getAttribute("data-l");
+      if(drag && l === lastLetter) return;
+      lastLetter = l;
+      onPick(l);
       // data-peek — ВСЕГДА одна исходная буква этой кнопки (см. buildAzRail),
       // а не её видимый текст: в режиме «через одну» (.ic-az-paired) у
       // нечётных кнопок видимого текста нет вовсе, а у чётных виден
@@ -1413,21 +1436,31 @@
       // пару, иначе переход между соседними буквами не читался бы на пике.
       if(drag){ peek.textContent = btn.getAttribute("data-peek") || btn.textContent; peek.classList.add("show"); }
     }
+    function frame(){
+      rafId = null;
+      if(!dragging) return;
+      if(pendingY != null) pick(btnAt(pendingY), true);
+      rafId = requestAnimationFrame(frame);
+    }
     function end(){
       if(!dragging) return;
       dragging = false; peek.classList.remove("show");
-      cachedRect = null; cachedBtns = null;
+      cachedRect = null; cachedBtns = null; lastLetter = null; pendingY = null;
+      if(rafId != null){ cancelAnimationFrame(rafId); rafId = null; }
       if(opts.onDragEnd) opts.onDragEnd();
     }
     rail.addEventListener("pointerdown", function(e){
       dragging = true;
       cachedRect = rail.getBoundingClientRect();
       cachedBtns = rail.querySelectorAll("button");
+      lastLetter = null;
       if(rail.setPointerCapture){ try{ rail.setPointerCapture(e.pointerId); }catch(err){} }
       if(opts.onDragStart) opts.onDragStart();
       pick(e.target.closest("button") || btnAt(e.clientY), true);
+      pendingY = e.clientY;
+      rafId = requestAnimationFrame(frame);
     });
-    rail.addEventListener("pointermove", function(e){ if(dragging) pick(btnAt(e.clientY), true); });
+    rail.addEventListener("pointermove", function(e){ if(dragging) pendingY = e.clientY; });
     rail.addEventListener("pointerup", end);
     rail.addEventListener("pointercancel", end);
   }
@@ -1449,9 +1482,24 @@
   // весь модуль, no-op если рейла сейчас нет на странице (тот же приём, что
   // у fitCtxLabels/closeQm).
   function syncAzRailBounds(){
+    var rbar = document.getElementById("ic-rbar");
+    // --tv-content-top (app.css, .ic-wrap.ic-tv) — компенсирующий отступ
+    // контенту указателя/«Имён» теперь, когда .back-bar/.ic-rbar-tv стали
+    // position:fixed (задание, пункт 1.3) и больше не резервируют своё
+    // место в потоке документа, как раньше делал sticky. Сумма реальных
+    // высот .back-bar (root.dataset.top, см. syncTopVar) + .ic-rbar-tv +
+    // её собственный margin-bottom (26px, app.css) — ровно то, что раньше
+    // давала обычная раскладка потока. Пишем на root — наследуется вниз по
+    // CSS-переменным до .ic-wrap.ic-tv, где бы он ни лежал в разметке.
+    // Ставим ТОЛЬКО когда реально на странице капсула указателя/«Имён»
+    // (.ic-rbar-tv) — на читалке (.ic-rbar без -tv) переменная не нужна, и
+    // пересчитывать её там не на чём (той обёртки с margin-top там нет).
+    if(rbar && rbar.classList.contains("ic-rbar-tv")){
+      var contentTop = (parseFloat(root.dataset.top)||0) + rbar.getBoundingClientRect().height + 26;
+      root.style.setProperty("--tv-content-top", Math.max(0, contentTop)+"px");
+    }
     var rail = document.querySelector(".ic-az-rail");
     if(!rail) return;
-    var rbar = document.getElementById("ic-rbar");
     var top = (parseFloat(root.dataset.top)||0) + (rbar ? rbar.getBoundingClientRect().height : 0) + 14;
     rail.style.setProperty("--az-top", Math.max(0,top)+"px");
   }
@@ -2853,7 +2901,14 @@
         var el = document.getElementById("tv-L"+b.getAttribute("data-l")); if(el) scrollToEl(el);
       });
       wireAzRail(rail, peek, {
-        onPick: function(l){ var el = document.getElementById("tv-L"+l); if(el) scrollToEl(el); },
+        // Прыжок именно во время ведения пальцем по рейлу (не тот же вызов,
+        // что у tap-клика по горизонтальному ряду букв lnav выше — там
+        // остаётся scrollToEl/двухаргументный scrollTo без изменений,
+        // задание трогать его не просит) — объектный синтаксис с явным
+        // behavior:"instant" (задание, пункт 2); WebKit его поддерживает,
+        // не ломается и не игнорирует (проверено Playwright/WebKit, см.
+        // отчёт).
+        onPick: function(l){ var el = document.getElementById("tv-L"+l); if(el) window.scrollTo({top: window.scrollY + el.getBoundingClientRect().top - barH(), left:0, behavior:"instant"}); },
         onDragStart: function(){ azDragging = true; rail.classList.add("ic-az-rail-active"); },
         onDragEnd: function(){ azDragging = false; rail.classList.remove("ic-az-rail-active"); }
       });
@@ -3137,7 +3192,12 @@
         if(el) window.scrollTo(0, window.scrollY + el.getBoundingClientRect().top - barH());
       });
       wireAzRail(rail, peek, {
-        onPick: function(dl){ var el = document.getElementById("nm-L"+dl); if(el) window.scrollTo(0, window.scrollY + el.getBoundingClientRect().top - barH()); },
+        // См. тот же комментарий в renderTavola — ТОЛЬКО прыжок во время
+        // ведения пальцем по рейлу получает объектный синтаксис с явным
+        // behavior:"instant" (задание, пункт 2); остальные scrollTo в этом
+        // файле (строка ниже у lnav, восстановление позиции и т.п.) не
+        // трогаются.
+        onPick: function(dl){ var el = document.getElementById("nm-L"+dl); if(el) window.scrollTo({top: window.scrollY + el.getBoundingClientRect().top - barH(), left:0, behavior:"instant"}); },
         onDragStart: function(){ azDragging = true; rail.classList.add("ic-az-rail-active"); },
         onDragEnd: function(){ azDragging = false; rail.classList.remove("ic-az-rail-active"); }
       });

@@ -294,6 +294,33 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    bar's own height — so clearing the viewport needs that offset added too,
    plus a small buffer against sub-pixel rounding. */
 .ic-rbar.ic-rbar-hidden{transform:translateY(calc(-100% - var(--top) - 16px))}
+/* .ic-rbar-tv (указатель/«Имена», app.js renderTavola/renderNames) — фикс
+   вспышки-пропадания меню на iPhone Safari при ведении пальцем по рейлу
+   букв (.ic-az-rail/wireAzRail, app.js): каждый pointermove там дёргал
+   window.scrollTo программно, а position:sticky у iOS Safari известно
+   перерисовывает композитный слой на частый программный скролл — на долю
+   кадра элемент визуально пропадает целиком. Переключаем ИМЕННО и ТОЛЬКО
+   .ic-rbar-tv (не базовое .ic-rbar — читалка главы, renderChapter, тот же
+   класс без -tv, продолжает жить на sticky, см. соседний комментарий ниже
+   и пункт 3 задания про читалку) на position:fixed + отдельный композитный
+   слой (translateZ(0)+will-change:transform, уже заданный выше в базовом
+   правиле, получает и -tv — will-change наследуется по специфичности
+   родительского правила автоматически + backface-visibility:hidden,
+   которых в базовом правиле не было). left:0;right:0 — без потолка
+   max-width:1120px, который раньше был у родителя .ic-ch-outer: сама
+   капсула теперь фиксирована к вьюпорту, а не к ширине бывшего родителя;
+   видимое содержимое (.ic-rbar-row) и так ограничено max-width:1120px и
+   центрировано само по себе (правило ниже) — так что кнопки/текст сидят
+   РОВНО там же, где раньше, и единственная разница на очень широких
+   десктопных экранах (>1160px) — непрозрачная цветная подложка идёт теперь
+   до самых краёв экрана вместо прежнего отступа в ~20px с каждой стороны;
+   на мобильных (≤620px, основной сценарий задания) разницы нет вовсе, там
+   .ic-ch-outer и так имел padding:0 (см. выше), то есть .ic-rbar уже
+   доходил до краёв. Компенсирующий отступ контенту под фиксированной
+   капсулой — --tv-content-top, см. .ic-wrap.ic-tv ниже и syncAzRailBounds
+   (app.js). */
+.ic-rbar.ic-rbar-tv{position:fixed;left:0;right:0;
+  transform:translateZ(0);will-change:transform;backface-visibility:hidden}
 /* .ic-rbar-elevated (z-index:20) — УБРАН этим раундом (был фикс для бага,
    который он сам же порождал). Раньше временно поднимал z-index .ic-rbar
    выше .back-bar (10, index.html) на всё время, пока открыта/анимируется
@@ -354,6 +381,20 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    ellipsis у вложенного span (.ic-rbar-ctx span выше) продолжает обрезание
    работать и в этой, более узкой, равнодолевой ширине. */
 .ic-rbar-tv .ic-rbar-ctx{flex:1 1 0;min-width:0}
+/* Компенсирующий отступ контенту указателя/«Имён» (.ic-wrap.ic-tv) под
+   фиксированным меню (.back-bar-fixed + .ic-rbar-tv, см. выше/index.html) —
+   раз оба стали position:fixed, они больше не резервируют своё место в
+   потоке документа (в отличие от прежнего position:sticky), поэтому без
+   этого отступа заголовок страницы (.ic-head) залез бы под шапку+капсулу.
+   margin-top (не трогаем padding-top у базового .ic-wrap — он остаётся
+   прежним, это ДОБАВОЧНЫЙ отступ) = --tv-content-top, которую пишет
+   syncAzRailBounds (app.js): реальная высота .back-bar + реальная высота
+   .ic-rbar-tv + её собственный margin-bottom (26px, см. .ic-rbar выше) —
+   то есть ровно та сумма, которую раньше неявно давала обычная раскладка
+   потока с двумя sticky-элементами. Фоллбэк 126px — запасной статичный
+   вариант только до первого вызова syncAzRailBounds (тот же приём, что у
+   --az-top). */
+.ic-wrap.ic-tv{margin-top:var(--tv-content-top, 126px)}
 /* Капсула указателя/«Имён» (renderTavola/renderNames) — у кнопки «К книге»
    текст раньше шёл напрямую в button, без обёртки в span, поэтому правило
    .ic-rbar-ctx span выше его не ловило: text-overflow НЕ применяется к
@@ -1224,7 +1265,11 @@ button.ic-tv-sheet-reset{flex:none;height:34px;padding:0 14px;border:1px solid r
   .ic-az-rail{display:flex;flex-direction:column;justify-content:space-between;align-items:center;
     position:fixed;z-index:6;right:calc(1px + env(safe-area-inset-right));
     top:var(--az-top, 116px);bottom:calc(14px + 24px + env(safe-area-inset-bottom));
-    width:30px;touch-action:none}
+    width:30px;touch-action:none;
+    /* Свой композитный слой (как у .back-bar-fixed/.ic-rbar-tv, см.
+       index.html/выше) — столбик уже был position:fixed с прошлого раунда,
+       но без явного слоя композиции; пользователь просит дать его и ему. */
+    transform:translateZ(0);will-change:transform;backface-visibility:hidden}
   /* Кнопки в покое приглушены (opacity:.55) — яркость до 1 только пока
      палец/курсор на полосе (.ic-az-rail-active, выставляется из app.js на
      onDragStart/onDragEnd у wireAzRail — тот же колбэк, что покрывает и
