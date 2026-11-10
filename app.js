@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "140";
+  var APP_VER = "141";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -183,13 +183,21 @@
     hmIndexSub:   {ru:"Предметы и имена по страницам издания 1626\u00a0года", en:"Subjects and names, by the pages of the 1626 edition", fr:"Sujets et noms, par pages de l’édition de 1626"},
     tvSub:        {ru:"Tavola delle cose notabili — указатель издания 1626 года. Цифры — страницы этого издания; ссылка открывает соответствующее место в переводе.", en:"Tavola delle cose notabili — the index of the 1626 edition. The numbers are pages of that edition; a link opens the matching place in the translation.", fr:"Tavola delle cose notabili — l’index de l’édition de 1626. Les chiffres sont les pages de cette édition ; le lien ouvre l’endroit correspondant dans la traduction."},
     tvSearchPh:   {ru:"Найти в указателе: имя, предмет…", en:"Search the index: name, subject…", fr:"Chercher dans l’index : nom, sujet…"},
+    // Короткая нейтральная подпись кнопки «Найти» в капсуле указателя
+    // (.ic-rbar-tvsearch), когда запрос ещё не введён — в отличие от
+    // tvSearchPh (длинная подсказка, только для placeholder/aria-label поля
+    // ВНУТРИ шторки поиска), эта подпись должна помещаться в узкую кнопку
+    // капсулы на 390px рядом с двумя другими кнопками. Тот же короткий стиль,
+    // что у nmSearchPh ("Найти имя"/"Find a name"), но без слова "имя" — тут
+    // ищут и предметы, и имена.
+    tvSearchBtn:  {ru:"Найти", en:"Find", fr:"Chercher"},
     // Активная метка кнопки «Найти» в новой капсуле .ic-rbar (указатель и
     // имена) — {q} подставляется как есть, без доп. кавычек/форматирования
     // (сам запрос короткий, 1-2 слова). Общий ключ для обеих страниц.
     tvSearchActive: {ru:"Найти: {q}", en:"Search: {q}", fr:"Chercher : {q}"},
     tvReset:      {ru:"Сбросить", en:"Reset", fr:"Réinitialiser"},
     tvBack:       {ru:"К книге", en:"To the book", fr:"Au livre"},
-    tvSortRu:     {ru:"По русскому алфавиту", en:"A–Z", fr:"Ordre alphabétique"},
+    tvSortRu:     {ru:"По алфавиту", en:"A–Z", fr:"Ordre alphabétique"},
     tvSortIt:     {ru:"Как в книге 1626 года", en:"As in the 1626 book", fr:"Comme dans le livre de 1626"},
     tvLetters:    {ru:"Буквы указателя", en:"Index letters", fr:"Lettres de l’index"},
     tvFound:      {ru:"Найдено статей: {n}", en:"Entries found: {n}", fr:"Articles trouvés : {n}"},
@@ -2404,18 +2412,23 @@
     loadTavola(book, function(d){
       if(gen !== renderGen) return;
       if(!d){ root.innerHTML = '<div class="ic-wrap"><p class="ic-sub">'+esc(t("chNotYet"))+'</p></div>'; return; }
-      function ruLetter(e){ var m = (e.ru||"").toUpperCase().replace(/Ё/g,"Е").match(/[А-Я]/); return m ? m[0] : e.letter; }
+      // ordered() — тот же приём, что у renderNames (см. nmForm/nmLetterOf/
+      // nmSortKey выше): при sort!=="it" список идёт по алфавиту ТЕКУЩЕГО
+      // языка интерфейса (кириллица на ru, латиница на en/fr), а не жёстко
+      // по русскому e.ru, как раньше (ruLetter читал только [А-Я]). Ветка
+      // sort==="it" (порядок и буквы издания 1626 года) не трогается.
       function ordered(){
         if(tavolaUi.sort==="it") return d.entries.map(function(e){ return {e:e, l:e.letter}; });
-        return d.entries.map(function(e){ return {e:e, l:ruLetter(e)}; }).sort(function(a,b){
-          return a.l===b.l ? (a.e.ru||a.e.it).replace(/[«»\s]/g,"").localeCompare((b.e.ru||b.e.it).replace(/[«»\s]/g,""), "ru") : a.l.localeCompare(b.l, "ru");
+        var loc = state.lang==="en" ? "en" : state.lang==="fr" ? "fr" : "ru";
+        return d.entries.map(function(e){ var nm = nmForm(e); return {e:e, l:nmLetterOf(nm), k:nmSortKey(nm)}; }).sort(function(a,b){
+          return a.l===b.l ? a.k.localeCompare(b.k, loc) : a.l.localeCompare(b.l, loc);
         });
       }
       function lettersOf(list){ var out = []; list.forEach(function(x){ if(out.indexOf(x.l)<0) out.push(x.l); }); return out; }
       function pagesHtml(e){
         if(e.see){
           var tg = e.see_id && d.byId[e.see_id];
-          return '<span class="ic-tv-see">'+esc(t("tvSee"))+' '+(tg ? '<a href="#" data-tv="'+esc(e.see_id)+'">'+esc(tg.ru||tg.it)+'</a>' : esc(e.see))+'</span>';
+          return '<span class="ic-tv-see">'+esc(t("tvSee"))+' '+(tg ? '<a href="#" data-tv="'+esc(e.see_id)+'">'+esc(nmForm(tg))+'</a>' : esc(e.see))+'</span>';
         }
         if(!e.pages || !e.pages.length) return "";
         return '<span class="ic-tv-pg">'+esc(t("tvPage"))+' '+e.pages.map(function(p){
@@ -2425,13 +2438,17 @@
         }).join(", ")+'</span>';
       }
       function entryHtml(e, sub){
+        // Крупно — форма на языке интерфейса (nmForm: en/fr/ru с фоллбэком),
+        // мелко рядом — всегда e.it (итальянский оригинал для сверки с
+        // книгой 1626 года, не меняется языком интерфейса).
+        var nm = nmForm(e);
         return '<div class="ic-tv-'+(sub?"sub":"e")+'"'+(sub?"":' id="tv-'+e.id+'"')+'>'+
-          '<div class="ic-tv-l"><span class="ic-tv-ru">'+esc(e.ru||e.it)+'</span>'+(e.ru ? ' <span class="ic-tv-it" lang="it">'+esc(e.it)+'</span>' : "")+'</div>'+
+          '<div class="ic-tv-l"><span class="ic-tv-ru">'+esc(nm||e.it)+'</span>'+(nm ? ' <span class="ic-tv-it" lang="it">'+esc(e.it)+'</span>' : "")+'</div>'+
           pagesHtml(e)+'</div>';
       }
       // Подпись кнопки «Найти» — активная («Найти: Амур»), когда tavolaUi.q
       // не пуста, иначе нейтральная (tvSearchPh, как у прежнего placeholder).
-      function tvSearchLabel(){ return tavolaUi.q ? t("tvSearchActive",{q:tavolaUi.q}) : t("tvSearchPh"); }
+      function tvSearchLabel(){ return tavolaUi.q ? t("tvSearchActive",{q:tavolaUi.q}) : t("tvSearchBtn"); }
       // Подпись кнопки сортировки — ТЕКУЩИЙ порядок (прямой переключатель,
       // без шторки): tvSortRu/tvSortIt — те же два i18n-ключа, что раньше
       // размечали два отдельных чипа .ic-tv-sort, теперь одна подпись.
@@ -2450,9 +2467,9 @@
         '<div class="ic-ch-outer">'+
           '<div class="ic-rbar" id="ic-rbar">'+
             '<div class="ic-rbar-row">'+
-              '<button type="button" class="ic-rbar-ctx" data-rb="back">'+esc(book.meta.home ? t("tvBack") : t("back"))+'</button>'+
+              '<button type="button" class="ic-rbar-ctx" data-rb="back"><span>'+esc(book.meta.home ? t("tvBack") : t("back"))+'</span></button>'+
               '<button type="button" class="ic-rbar-tvsearch" data-rb="search" aria-pressed="false"><span class="ic-rbar-tvsearch-label">'+esc(tvSearchLabel())+'</span></button>'+
-              '<button type="button" data-rb="sort">'+esc(tvSortLabel())+'</button>'+
+              '<button type="button" class="ic-rbar-sort" data-rb="sort"><span class="ic-rbar-sort-label">'+esc(tvSortLabel())+'</span></button>'+
             '</div>'+
             langSwitch()+
             '<div class="ic-rb-sheet" id="ic-tv-search-sheet">'+
@@ -2490,7 +2507,7 @@
       var sheetEl = root.querySelector("#ic-tv-search-sheet"), sheetInput = sheetEl.querySelector(".ic-search"),
           sheetCnt = sheetEl.querySelector(".ic-tv-sheet-count");
       var searchBtn = root.querySelector('[data-rb="search"]'), searchLabelEl = searchBtn.querySelector(".ic-rbar-tvsearch-label");
-      var sortBtn = root.querySelector('[data-rb="sort"]');
+      var sortBtn = root.querySelector('[data-rb="sort"]'), sortLabelEl = sortBtn.querySelector(".ic-rbar-sort-label");
       var list = root.querySelector(".ic-tv-list"), cnt = root.querySelector(".ic-tv-count"),
           lnav = root.querySelector(".ic-tv-letters-lt"),
           rail = root.querySelector(".ic-az-rail"), peek = root.querySelector(".ic-az-peek");
@@ -2577,7 +2594,7 @@
         if(act==="search"){ sheetApi.toggle(); return; }
         if(act==="sort"){
           tavolaUi.sort = tavolaUi.sort==="ru" ? "it" : "ru";
-          sortBtn.textContent = tvSortLabel();
+          sortLabelEl.textContent = tvSortLabel();
           fill(); window.scrollTo(0, Math.min(window.scrollY, Math.max(0, list.getBoundingClientRect().top + window.scrollY - barH())));
           return;
         }
@@ -2731,9 +2748,9 @@
         '<div class="ic-ch-outer">'+
           '<div class="ic-rbar" id="ic-rbar">'+
             '<div class="ic-rbar-row">'+
-              '<button type="button" class="ic-rbar-ctx" data-rb="back">'+esc(book.meta.home ? t("tvBack") : t("back"))+'</button>'+
+              '<button type="button" class="ic-rbar-ctx" data-rb="back"><span>'+esc(book.meta.home ? t("tvBack") : t("back"))+'</span></button>'+
               '<button type="button" class="ic-rbar-tvsearch" data-rb="search" aria-pressed="false"><span class="ic-rbar-tvsearch-label">'+esc(nmSearchLabel())+'</span></button>'+
-              '<button type="button" data-rb="type" aria-pressed="false">'+esc(nmTypeLabel())+'</button>'+
+              '<button type="button" class="ic-rbar-sort" data-rb="type" aria-pressed="false"><span class="ic-rbar-sort-label">'+esc(nmTypeLabel())+'</span></button>'+
             '</div>'+
             langSwitch()+
             '<div class="ic-rb-sheet" id="ic-tv-search-sheet">'+
@@ -2780,7 +2797,7 @@
       var sheetEl = root.querySelector("#ic-tv-search-sheet"), sheetInput = sheetEl.querySelector(".ic-search"),
           sheetCnt = sheetEl.querySelector(".ic-tv-sheet-count");
       var searchBtn = root.querySelector('[data-rb="search"]'), searchLabelEl = searchBtn.querySelector(".ic-rbar-tvsearch-label");
-      var typeBtn = root.querySelector('[data-rb="type"]'), typeSheetEl = root.querySelector("#ic-tv-type-sheet");
+      var typeBtn = root.querySelector('[data-rb="type"]'), typeLabelEl = typeBtn.querySelector(".ic-rbar-sort-label"), typeSheetEl = root.querySelector("#ic-tv-type-sheet");
       var list = root.querySelector(".ic-tv-list"), cnt = root.querySelector(".ic-tv-count"),
           lnav = root.querySelector(".ic-tv-letters-lt"),
           rail = root.querySelector(".ic-az-rail"), peek = root.querySelector(".ic-az-peek");
@@ -2789,7 +2806,7 @@
       // rbSheets реально взаимоисключает ДВЕ шторки (поиск и тип).
       var azDragging = false, rbSheets = [];
       function updateSearchLabel(){ searchLabelEl.textContent = nmSearchLabel(); }
-      function updateTypeLabel(){ typeBtn.textContent = nmTypeLabel(); }
+      function updateTypeLabel(){ typeLabelEl.textContent = nmTypeLabel(); }
       function fill(){
         var words = tvFold(sheetInput.value.trim()).split(/\s+/).filter(Boolean), html = "", n = 0, have = {}, cur = null;
         ordered().forEach(function(x){
@@ -3155,8 +3172,16 @@
     var nm = [];
     if(c.names) c.names.names.forEach(function(e){
       if(!srFind(e.h, tw)) return;
-      if(e.fr === undefined){ e.fr = tvFold(e.ru); e.fi = tvFold((e.it||[]).join(" ")); }
-      nm.push({e:e, k:(e.fr.indexOf(tw[0].w) === 0 || e.fi.indexOf(tw[0].w) === 0) ? 0 : 1});
+      // Внутренний кэш "свёрнутый ru"/"свёрнутый it" для ранжирования — НЕ
+      // "fr"/"fi": names.json отдал имени e.fr настоящее поле (французская
+      // форма) ещё в прошлом раунде локализации, так что ленивая
+      // инициализация тут никогда не срабатывала (e.fr почти всегда задано),
+      // e._srIt оставался настоящим undefined, и .indexOf падал. Префикс
+      // _sr гарантированно не пересекается ни с одним реальным полем
+      // источников книги (проверено по факту: `grep -o '"[a-zA-Z_]*":'
+      // books/cartari/*.json` не даёт ни одного ключа, начинающегося на _).
+      if(e._srRu === undefined){ e._srRu = tvFold(e.ru); e._srIt = tvFold((e.it||[]).join(" ")); }
+      nm.push({e:e, k:(e._srRu.indexOf(tw[0].w) === 0 || e._srIt.indexOf(tw[0].w) === 0) ? 0 : 1});
     });
     nm.sort(function(a,b){ return a.k-b.k || (b.e.n||0)-(a.e.n||0); });
     // Указатель
@@ -3199,7 +3224,7 @@
     }
     function nmRow(h){
       var e = h.e;
-      return '<a class="ic-nm-row" href="'+esc(hrefFor(book, "names/"+e.id))+'"><span class="ic-tv-l"><span class="ic-tv-ru">'+esc(e.ru)+'</span> <span class="ic-tv-it" lang="it">'+esc((e.it||[]).join(" · "))+'</span></span>'+
+      return '<a class="ic-nm-row" href="'+esc(hrefFor(book, "names/"+e.id))+'"><span class="ic-tv-l"><span class="ic-tv-ru">'+esc(nmForm(e))+'</span> <span class="ic-tv-it" lang="it">'+esc((e.it||[]).join(" · "))+'</span></span>'+
         '<span class="ic-nm-meta"><span class="ic-nm-type">'+esc(t("nmT1_"+e.t))+'</span>'+(e.n ? '<span class="ic-nm-n">'+e.n+'</span>' : "")+'</span></a>';
     }
     function tvPages(e){
@@ -3209,7 +3234,7 @@
         return '<a href="'+esc(hrefFor(book, "ch/"+p.ch+"/"+(p.n||0)+(p.a ? "/"+p.a+"-"+p.b+"-"+p.p : "")))+'" title="'+esc(t("tvOpen"))+'">'+p.p+'</a>'+note;
       }).join(", ")+(e.pages.length > 8 ? " …" : "")+'</span>';
     }
-    function tvLine(e){ return '<div class="ic-tv-l"><span class="ic-tv-ru">'+esc(e.ru||e.it)+'</span>'+(e.ru ? ' <span class="ic-tv-it" lang="it">'+esc(e.it)+'</span>' : "")+'</div>'; }
+    function tvLine(e){ var nm = nmForm(e); return '<div class="ic-tv-l"><span class="ic-tv-ru">'+esc(nm||e.it)+'</span>'+(nm ? ' <span class="ic-tv-it" lang="it">'+esc(e.it)+'</span>' : "")+'</div>'; }
     function tvRow(h){
       var showMain = h.main || !h.subs.length;
       return '<div class="ic-tv-e">'+tvLine(h.e)+(showMain ? tvPages(h.e) : "")+

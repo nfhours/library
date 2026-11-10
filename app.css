@@ -342,8 +342,30 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    светлая заливка, тёмный текст. Тот же паттерн aria-pressed="true", что и
    раньше — специфичность выше базового правила. */
 .ic-rbar-row button[aria-pressed="true"]{background:rgb(var(--cream));color:var(--bar)}
-.ic-rbar-row .ic-rbar-ctx{flex:0 1 auto;min-width:40px;justify-content:flex-start}
+.ic-rbar-row .ic-rbar-ctx{flex:0 1 auto;min-width:40px;justify-content:flex-start;overflow:hidden}
 .ic-rbar-ctx span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+/* Капсула указателя/«Имён» (renderTavola/renderNames) — у кнопки «К книге»
+   текст раньше шёл напрямую в button, без обёртки в span, поэтому правило
+   .ic-rbar-ctx span выше его не ловило: text-overflow НЕ применяется к
+   самому button, т.к. .ic-rbar button — display:flex (flex-контейнер не
+   является "block container" для text-overflow, см. спецификацию CSS —
+   проверено эмпирически на реальном рендеринге, overflow:hidden без span
+   просто жёстко обрезает текст без «…», ellipsis тихо игнорируется).
+   Фикс — не добавить text-overflow на сам button (это не сработало бы), а
+   обернуть текст кнопки «К книге» в <span> в разметке (app.js), как уже
+   сделано у «Найти» (.ic-rbar-tvsearch-label) и у читалки; overflow:hidden
+   на самом .ic-rbar-ctx остаётся как доп. граница обрезки на случай, если
+   даже span не умещается. */
+/* Кнопка сортировки указателя/«Тип» у «Имён» (data-rb="sort"/data-rb="type")
+   — в разметке у неё раньше вообще не было своего класса (просто
+   .ic-rbar button), поэтому ловилось только flex:none базовое правило:
+   кнопка не сжималась и при нехватке места распирала капсулу. .ic-rbar-sort
+   даёт ей класс с возможностью сжиматься; подпись обёрнута в
+   .ic-rbar-sort-label — ТОТ ЖЕ приём display:block+max-width:100%, что у
+   .ic-rbar-tvsearch-label (см. ниже), по той же причине (text-overflow не
+   работает на самом flex-button). */
+.ic-rbar-row .ic-rbar-sort{flex:1 1 auto;min-width:0;max-width:46%;overflow:hidden}
+.ic-rbar-sort-label{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block;max-width:100%}
 /* Ячейка возврата (.b.back в макете) — чуть светлее фона капсулы, не
    акцентная (round 7 отклонён заказчиком: там была яркая акцентная рамка/
    текст). Один и тот же сдержанный вид и для обычной кнопки «Книга», и для

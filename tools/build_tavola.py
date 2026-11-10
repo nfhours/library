@@ -14,6 +14,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 B = os.path.join(ROOT, "books", "cartari")
 PAGES = os.path.join(B, "_text", "pages")
 TSV = os.path.join(B, "_translation", "TAVOLA_RU.tsv")
+TSV_LANGS = {"en": os.path.join(B, "_translation", "TAVOLA_EN.tsv"),
+             "fr": os.path.join(B, "_translation", "TAVOLA_FR.tsv")}
 
 # ---------------------------------------------------------------- разбор указателя
 SKIP_LINES = {"TAVOLA", "TAVOLA.", "DELLE COSE NOTABILI", "Che nell'Opera si contengono.", "IL FINE.",
@@ -116,7 +118,15 @@ def parse_tavola():
     return heads
 
 
-# ---------------------------------------------------------------- русские заголовки
+# ---------------------------------------------------------------- переводы заголовков (ru/en/fr)
+def load_lang(path, col):
+    out = {}
+    if os.path.exists(path):
+        for r in csv.DictReader(open(path, encoding="utf8"), delimiter="\t"):
+            out[r["id"]] = r[col]
+    return out
+
+
 def load_ru():
     ru = {}
     if os.path.exists(TSV):
@@ -621,6 +631,8 @@ def norm_key(t):
 
 def build(heads):
     ru = load_ru()
+    en = load_lang(TSV_LANGS["en"], "en")
+    fr = load_lang(TSV_LANGS["fr"], "fr")
     L = Locator()
     keys = {}
     for h in heads:
@@ -632,7 +644,9 @@ def build(heads):
     def conv(e, parent=""):
         nonlocal refs, unresolved
         r = (ru.get(e["id"]) or {}).get("ru", "").strip()
-        d = {"id": e["id"], "it": e["it"], "ru": r}
+        en_v = (en.get(e["id"]) or "").strip() or e["it"]
+        fr_v = (fr.get(e["id"]) or "").strip() or e["it"]
+        d = {"id": e["id"], "it": e["it"], "ru": r, "en": en_v, "fr": fr_v}
         rstem = r + ((" " + STEM_FIX[e["id"]]) if e["id"] in STEM_FIX else "")
         pl = []
         for printed in e["pages"]:
