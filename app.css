@@ -342,8 +342,8 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    светлая заливка, тёмный текст. Тот же паттерн aria-pressed="true", что и
    раньше — специфичность выше базового правила. */
 .ic-rbar-row button[aria-pressed="true"]{background:rgb(var(--cream));color:var(--bar)}
-.ic-rbar-row .ic-rbar-ctx{flex:0 1 auto;min-width:40px;justify-content:flex-start;overflow:hidden}
-.ic-rbar-ctx span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ic-rbar-row .ic-rbar-ctx{flex:0 1 auto;min-width:40px;justify-content:center;overflow:hidden}
+.ic-rbar-ctx span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:center}
 /* Капсула указателя/«Имён» (renderTavola/renderNames) — у кнопки «К книге»
    текст раньше шёл напрямую в button, без обёртки в span, поэтому правило
    .ic-rbar-ctx span выше его не ловило: text-overflow НЕ применяется к
@@ -364,8 +364,8 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    .ic-rbar-sort-label — ТОТ ЖЕ приём display:block+max-width:100%, что у
    .ic-rbar-tvsearch-label (см. ниже), по той же причине (text-overflow не
    работает на самом flex-button). */
-.ic-rbar-row .ic-rbar-sort{flex:1 1 auto;min-width:0;max-width:46%;overflow:hidden}
-.ic-rbar-sort-label{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block;max-width:100%}
+.ic-rbar-row .ic-rbar-sort{flex:1 1 0;min-width:0;overflow:hidden}
+.ic-rbar-sort-label{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block;max-width:100%;text-align:center}
 /* Ячейка возврата (.b.back в макете) — чуть светлее фона капсулы, не
    акцентная (round 7 отклонён заказчиком: там была яркая акцентная рамка/
    текст). Один и тот же сдержанный вид и для обычной кнопки «Книга», и для
@@ -934,13 +934,17 @@ button.ic-toc-close{width:38px;height:38px;border:1px solid var(--rule);border-r
    .ic-loading получает min-height на всю видимую высоту (100dvh, с запасным
    100vh), и этого достаточно, чтобы родительский .ic растянулся вместе с ним
    и его собственная текстура покрыла весь экран. */
-.ic-loading{min-height:100vh;min-height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;padding:40px 28px;text-align:center}
-.ic-loading .ic-orn-loading{width:150px;max-width:55%;aspect-ratio:var(--orn-ratio);height:auto;background-color:var(--soft);opacity:.7}
-@media (prefers-reduced-motion:no-preference){
-  @keyframes ic-loading-pulse{0%,100%{opacity:.4}50%{opacity:.85}}
-  .ic-loading .ic-orn-loading{animation:ic-loading-pulse 2.8s ease-in-out infinite}
-}
-@media (prefers-reduced-motion:reduce){.ic-loading .ic-orn-loading{opacity:.7}}
+.ic-loading{min-height:100vh;min-height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:40px 28px;text-align:center}
+/* Оптическое центрирование: псевдоэлемент-груз ПОСЛЕ контента внутри того же
+   flex-столбца, центрированного justify-content:center, — не меняет высоту
+   .ic-loading, просто смещает видимую группу (заголовок/полоса/подпись)
+   на ~9% высоты вверх от геометрического центра экрана, тот же классический
+   приём, что у заголовков книжных обложек. */
+.ic-loading::after{content:"";flex:0 0 9vh}
+.ic-loading-title{margin:0}
+.ic-loading-bar{width:160px;height:2px;border-radius:2px;background:var(--rule);overflow:hidden}
+.ic-loading-bar-fill{height:100%;width:calc(var(--loading-progress,0) * 100%);background:var(--accent);border-radius:2px;transition:width .2s linear}
+@media (prefers-reduced-motion:reduce){.ic-loading-bar-fill{transition:none}}
 .ic-loading .ic-loading-text{margin:0}
 
 /* главная книги */
@@ -1108,8 +1112,8 @@ button.ic-sr-more{display:block;margin:14px 0 0;padding:8px 16px;font:inherit;fo
 /* Ячейка «Найти» — растягивается (как .ic-rbar-ctx), чтобы вместить активную
    подпись «Найти: …»; внутренний span — чтобы длинный запрос обрезался
    многоточием, а не распирал капсулу/не толкал соседние ячейки. */
-.ic-rbar-row .ic-rbar-tvsearch{flex:1 1 auto;min-width:0;justify-content:flex-start;overflow:hidden}
-.ic-rbar-tvsearch-label{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block;max-width:100%}
+.ic-rbar-row .ic-rbar-tvsearch{flex:1 1 0;min-width:0;justify-content:center;overflow:hidden}
+.ic-rbar-tvsearch-label{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block;max-width:100%;text-align:center}
 /* Буквы быстрого перехода и счётчик — теперь обычный светлый текст колонки
    (не тёмная плита), между .ic-tv-lead и списком. Тот же визуальный язык,
    что у .ic-tv-pg a (буква-кнопка со скруглением), просто крупнее и без
@@ -1249,8 +1253,8 @@ button.ic-tv-sheet-reset{flex:none;height:34px;padding:0 14px;border:1px solid r
    который сам создаёт контекст стекования — обычный (не позиционированный)
    текст блока всегда рисуется выше. */
 .ic-ch-body{position:relative}
-.ic-hl-mark{position:absolute;inset:0;background:var(--accent-soft);pointer-events:none;opacity:1;z-index:-1;transition:opacity 2s ease}
-.ic-hl-mark[data-pg]::before{content:attr(data-pg);position:absolute;left:0;top:-1.35em;font-size:.68em;line-height:1;letter-spacing:.04em;white-space:nowrap;color:var(--soft);font-style:normal}
+.ic-hl-mark{position:absolute;inset:-4px -6px;border-radius:8px;background:var(--accent-soft);pointer-events:none;opacity:1;z-index:-1;transition:opacity 2.5s ease}
+.ic-hl-mark[data-pg]::before{content:attr(data-pg);position:absolute;left:6px;top:-1.35em;font-size:.68em;line-height:1;letter-spacing:.04em;white-space:nowrap;color:var(--soft);font-style:normal}
 .ic-hl-mark.ic-hl-fading{opacity:0}
 @media (prefers-reduced-motion:reduce){.ic-hl-mark{transition:none}}
 /* Слово, по которому реально пришли (из карточки имени/результата поиска —
@@ -1258,8 +1262,8 @@ button.ic-tv-sheet-reset{flex:none;height:34px;padding:0 14px;border:1px solid r
    (тот же тёплый тон, более насыщенный), гаснет СИНХРОННО с заливкой абзаца
    (тот же HL_FADE_MS из app.js). */
 .ic-ch-mark{background:rgba(142,43,29,.24);color:inherit;font-weight:inherit;font-style:inherit;
-  border-radius:1px;
-  opacity:1;transition:opacity 2s ease}
+  border-radius:3px;box-shadow:0 0 0 3px rgba(142,43,29,.24);
+  opacity:1;transition:opacity 2.5s ease}
 .ic-ch-mark.ic-hl-fading{opacity:0}
 @media (prefers-reduced-motion:reduce){.ic-ch-mark{transition:none}}
 

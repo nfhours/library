@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "143";
+  var APP_VER = "144";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -469,23 +469,48 @@
   // книг с home+chapters, который сам не меняет этот экран, пока не
   // отрендерит настоящую страницу, см. route()). Бумажная текстура — тот
   // же приём, что у .ic-home (.ic:has(.ic-loading), app.css), применённый
-  // СРАЗУ, без ожидания отрисовки главной книги. Украшение — захардкоженный
-  // путь к одному конкретному (компактному, с низкой плотностью рисунка)
-  // divider-орнаменту Картари: вся эта серия правок посвящена именно
-  // Картари, а полноценный fetch ornaments.json только для этого экрана
-  // создал бы ту же задержку, что и сама причина показа экрана (курица и
-  // яйцо — ornaments.json — часть того, что ещё не загрузилось). Если файл
-  // не придёт (сеть) — mask-image просто ничего не покажет, без сломанной
-  // иконки картинки, а текст "Загрузка…" всё равно отрисован.
-  function loadingHtml(slug){
-    var orn = slug === "cartari"
-      ? '<span class="ic-orn ic-orn-loading" aria-hidden="true" style="--orn-src:url(\''+esc(BASE+"books/cartari/ornaments/divider_0509_468_1.png")+'\');--orn-ratio:'+(327/114)+'"></span>'
-      : "";
-    return '<div class="ic-loading">'+orn+'<p class="ic-sub ic-loading-text">'+esc(t("loading"))+'</p></div>';
+  // СРАЗУ, без ожидания отрисовки главной книги.
+  //
+  // Заголовок того, что открывается — захардкожен для Картари (книга ещё
+  // не пришла, значит book.json's title нам не доступен — та же проблема
+  // курицы и яйца, что раньше была с орнаментом на этом экране), плюс уже
+  // переведённые ключи t("hmIndex")/t("hmNames") и статичный словарь
+  // CHAP_SHORT (app.js, ниже) для тех глав, короткое название которых не
+  // требует загруженных данных. hashInfo — результат parseHash(), который
+  // route() уже посчитал ДО вызова openBook(); не парсим location.hash
+  // здесь повторно.
+  function loadingTitle(slug, hashInfo){
+    var p = hashInfo || {};
+    if(slug === "cartari"){
+      if(!p.view || p.view === "home"){
+        var book = {ru:"Образы богов древних", en:"The Images of the Gods of the Ancients", fr:"Les Images des Dieux des Anciens"};
+        return {text: book[state.lang] || book.ru, cls:"ic-title"};
+      }
+    }
+    if(p.view === "tavola") return {text: t("hmIndex"), cls:"ic-h-fr"};
+    if(p.view === "names") return {text: t("hmNames"), cls:"ic-h-fr"};
+    if(p.view === "chapter" && p.chapter && CHAP_SHORT[p.chapter]){
+      var e = CHAP_SHORT[p.chapter];
+      return {text: e[state.lang] || e.ru, cls:"ic-h-fr"};
+    }
+    return null;
   }
-  function openBook(slug, cb){
+  function loadingHtml(slug, hashInfo){
+    var title = loadingTitle(slug, hashInfo);
+    var titleHtml = title ? '<h1 class="'+title.cls+' ic-loading-title">'+esc(title.text)+'</h1>' : "";
+    var loadingLabel = t("loading").replace(/[…]+$/,"");
+    return '<div class="ic-loading">'+titleHtml+
+      '<div class="ic-loading-bar"><div class="ic-loading-bar-fill"></div></div>'+
+      '<p class="ic-sub ic-loading-text">'+esc(loadingLabel)+'</p></div>';
+  }
+  // Реальный прогресс загрузки (байтовый режим) или честная имитация
+  // (временной режим) — см. комментарий у trackedFetch() ниже про выбор
+  // режима. progress в обоих режимах выражается долей [0..1] и пишется в
+  // CSS-переменную --loading-progress на самом .ic-loading (app.css читает
+  // её как ширину заливки), не чаще раза на requestAnimationFrame.
+  function openBook(slug, hashInfo, cb){
     if(books[slug] !== undefined){ cb(books[slug]==="error" ? null : books[slug]); return; }
-    root.innerHTML = loadingHtml(slug);
+    root.innerHTML = loadingHtml(slug, hashInfo);
     // Если экран загрузки держится дольше 8с — скорее всего медленная связь,
     // меняем текст на подсказку об этом. loadGen пришпилен к renderGen на
     // момент показа экрана (тот же сквозной паттерн отмены устаревших
@@ -495,23 +520,146 @@
     // уже не в DOM — тогда таймер не должен ничего трогать.
     var loadGen = renderGen;
     var textEl = root.querySelector(".ic-loading-text");
+    var loadingEl = root.querySelector(".ic-loading");
     setTimeout(function(){
       if(renderGen !== loadGen || !textEl || !textEl.isConnected) return;
       textEl.textContent = t("slowConn");
     }, 8000);
-    fetch(BASE+"books/"+slug+"/book.json",{cache:"no-cache"}).then(function(r){ if(!r.ok) throw 0; return r.json(); })
+
+    var progressMode = null; // "bytes" | "time", решается один раз, по book.json (см. ниже)
+    var rafPending = false, pendingFrac = 0, shownFrac = 0;
+    // Монотонный храповик: полоса никогда не двигается назад, только вперёд,
+    // до самого finishProgress() — подстраховка поверх двухэтапной схемы
+    // ниже (которая и так не должна давать обратных скачков, но лишняя
+    // защита от дребезга в крайних случаях не повредит).
+    function setProgress(frac){
+      shownFrac = Math.max(shownFrac, Math.max(0, Math.min(1, frac)));
+      pendingFrac = shownFrac;
+      if(rafPending) return;
+      rafPending = true;
+      requestAnimationFrame(function(){
+        rafPending = false;
+        if(renderGen !== loadGen || !loadingEl || !loadingEl.isConnected) return;
+        loadingEl.style.setProperty("--loading-progress", pendingFrac);
+      });
+    }
+    function setProgressNow(frac){
+      if(renderGen !== loadGen || !loadingEl || !loadingEl.isConnected) return;
+      loadingEl.style.setProperty("--loading-progress", Math.max(0, Math.min(1, frac)));
+    }
+    var timeRaf = null;
+    function startTimeFallback(){
+      progressMode = "time";
+      var start = Date.now();
+      (function tick(){
+        if(renderGen !== loadGen) return;
+        var elapsed = Date.now() - start;
+        // плавное приближение к 90%, никогда не достигая его само по себе —
+        // рывок до 100% делает finishProgress() по факту реального завершения.
+        setProgress(0.9 * (1 - Math.exp(-elapsed/1800)));
+        timeRaf = requestAnimationFrame(tick);
+      })();
+    }
+    function finishProgress(){
+      if(timeRaf){ cancelAnimationFrame(timeRaf); timeRaf = null; }
+      setProgressNow(1);
+    }
+    // Байтовый режим — в два этапа, а не единым totalLoaded/totalExpected на
+    // всю загрузку: book.json (этап A) разбирается РАНЬШЕ, чем известно,
+    // сколько ещё запросов (entries/ornaments/engravings) вообще будет
+    // сделано — его знаменатель поэтому временно "весь мир", и голый
+    // totalLoaded/totalExpected показал бы ложные ~100% на этом файле одном,
+    // а затем заметно откатился бы назад, когда остальные запросы добавили
+    // бы свой вес. Этап A получает маленькую фиксированную долю шкалы
+    // (STAGE_A_SHARE); этап B (entries + опционально ornaments/engravings/
+    // engraving_map, все параллельно через Promise.all) ждёт, пока придут
+    // ЗАГОЛОВКИ (Content-Length) ВСЕХ его участников — их количество уже
+    // известно синхронно до того, как они запущены (см. вызов ниже) — и
+    // только тогда начинает показывать настоящее отношение байт; до этого
+    // момента полоса просто держится на границе этапа A, без ложных скачков.
+    var STAGE_A_SHARE = 0.08;
+    var stageAExpected = 0, stageALoaded = 0;
+    var stageBHeadersExpected = 0, stageBHeadersSeen = 0, stageBReady = false;
+    var stageBExpected = 0, stageBLoaded = 0;
+    function reportStageA(){
+      if(stageAExpected > 0) setProgress(Math.min(STAGE_A_SHARE, (stageALoaded/stageAExpected) * STAGE_A_SHARE));
+    }
+    function reportStageB(){
+      if(!stageBReady || stageBExpected <= 0) return;
+      var span = 0.95 - STAGE_A_SHARE;
+      setProgress(STAGE_A_SHARE + Math.min(span, (stageBLoaded/stageBExpected) * span));
+    }
+    // Читает тело ответа порциями (ReadableStream), суммируя реально пришедшие
+    // байты в loadedRef (этапный счётчик, через колбэк onChunk) по мере
+    // прихода каждого чанка — не чаще раза на requestAnimationFrame (см.
+    // setProgress/report* выше).
+    function readWithProgress(r, onChunk){
+      var reader = r.body.getReader(), chunks = [];
+      function pump(){
+        return reader.read().then(function(res){
+          if(res.done){
+            var blob = new Blob(chunks);
+            return blob.text();
+          }
+          chunks.push(res.value);
+          onChunk(res.value.length);
+          return pump();
+        });
+      }
+      return pump().then(function(txt){ return JSON.parse(txt); });
+    }
+    // role: "book" (этап A, тоже решает байтовый/временной режим — один раз,
+    // дальше не пересматривается) | "stageB" (entries/ornaments/engravings).
+    function trackedFetch(url, role){
+      return fetch(url,{cache:"no-cache"}).then(function(r){
+        if(!r.ok){
+          // Даже отказ (404 и т.п.) засчитывается как "заголовок пришёл" для
+          // этапа B — иначе опциональный ornaments/engravings-запрос, которому
+          // и так предстоит .catch() у вызывающего кода, навсегда заблокировал
+          // бы stageBReady (счётчик никогда не дотянется до ожидаемого числа).
+          if(role === "stageB") stageBHeadersSeen++;
+          throw 0;
+        }
+        if(role === "book"){
+          var len = parseInt(r.headers.get("Content-Length"), 10);
+          if(isFinite(len) && len > 0 && r.body && r.body.getReader){
+            progressMode = "bytes";
+            stageAExpected = len;
+            return readWithProgress(r, function(n){ stageALoaded += n; reportStageA(); });
+          }
+          startTimeFallback();
+          return r.json();
+        }
+        // stageB
+        stageBHeadersSeen++;
+        if(progressMode === "bytes" && r.body && r.body.getReader){
+          var len2 = parseInt(r.headers.get("Content-Length"), 10);
+          if(isFinite(len2) && len2 > 0){
+            stageBExpected += len2;
+            if(stageBHeadersSeen >= stageBHeadersExpected){ stageBReady = true; reportStageB(); }
+            return readWithProgress(r, function(n){ stageBLoaded += n; reportStageB(); });
+          }
+        }
+        if(stageBHeadersSeen >= stageBHeadersExpected){ stageBReady = true; reportStageB(); }
+        return r.json();
+      });
+    }
+
+    trackedFetch(BASE+"books/"+slug+"/book.json", "book")
       .then(function(meta){
         var ornCfg = meta.ornaments;
         var ornSlug = (ornCfg && ornCfg.enabled) ? (ornCfg.source || slug) : null;
+        // Количество запросов этапа B известно здесь, синхронно, ДО того,
+        // как они запущены ниже — этим и пользуется stageBReady выше.
+        stageBHeadersExpected = 1 + (ornSlug ? 3 : 0);
         return Promise.all([
           Promise.resolve(meta),
-          fetch(BASE+"books/"+slug+"/entries.json",{cache:"no-cache"}).then(function(r){ if(!r.ok) throw 0; return r.json(); }),
-          ornSlug ? fetch(BASE+"books/"+ornSlug+"/ornaments.json",{cache:"no-cache"})
-              .then(function(r){ return r.ok ? r.json() : []; }).catch(function(){ return []; })
+          trackedFetch(BASE+"books/"+slug+"/entries.json", "stageB"),
+          ornSlug ? trackedFetch(BASE+"books/"+ornSlug+"/ornaments.json", "stageB").catch(function(){ return []; })
             : Promise.resolve(null),
           ornSlug ? Promise.all([
-              fetch(BASE+"books/"+ornSlug+"/engravings.json",{cache:"no-cache"}).then(function(r){ return r.ok ? r.json() : []; }).catch(function(){ return []; }),
-              fetch(BASE+"books/"+ornSlug+"/engraving_map.json",{cache:"no-cache"}).then(function(r){ return r.ok ? r.json() : {}; }).catch(function(){ return {}; })
+              trackedFetch(BASE+"books/"+ornSlug+"/engravings.json", "stageB").catch(function(){ return []; }),
+              trackedFetch(BASE+"books/"+ornSlug+"/engraving_map.json", "stageB").catch(function(){ return {}; })
             ]) : Promise.resolve(null)
         ]);
       }).then(function(res){
@@ -533,7 +681,28 @@
         ornaments:groupOrnaments(ornList, ornSlug),
         engravings:groupEngravings(engRes, ornSlug)};
       books[slug] = book;
-      cb(book);
+      finishProgress();
+      // Плавный переход к настоящему контенту без мигания: root (сам .ic,
+      // несущий бумажную текстуру — она не меняется между экранами, поэтому
+      // не дёргается) уходит в opacity:0 ПЕРЕД заменой innerHTML, cb(book)
+      // синхронно подменяет содержимое (экран загрузки вместе с ним), и уже
+      // после этого двойной requestAnimationFrame включает CSS-переход
+      // обратно в opacity:1 за .25с — тот же приём, что nudgeRepaint()
+      // использует для форс-reflow, только здесь ещё и с анимацией.
+      var reduced = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      if(reduced){
+        cb(book);
+      } else {
+        root.style.transition = "none";
+        root.style.opacity = "0";
+        cb(book);
+        requestAnimationFrame(function(){
+          requestAnimationFrame(function(){
+            root.style.transition = "opacity .25s ease";
+            root.style.opacity = "1";
+          });
+        });
+      }
     }).catch(function(){
       books[slug] = "error";
       root.innerHTML = '<div class="ic-wrap"><p class="ic-empty">'+t("bookError")+'</p><button type="button" class="ic-back ic-to-lib">'+t("toLibrary")+'</button></div>';
@@ -690,7 +859,7 @@
     if(sv) sv.close();
     var p = parseHash(), gen = renderGen;
     if(!p.slug){ renderLibraryHome(); return; }
-    openBook(p.slug, function(book){
+    openBook(p.slug, p, function(book){
       if(!book){ if(!forcedBook) renderLibraryHome(); return; }
       var isPlateBook = book.meta.viewer==="plate";
       var hasHome = !!(book.meta.home && book.meta.chapters);
@@ -832,8 +1001,8 @@
      (.ic-ch-mark, см. inl()/blockHtml()) — и то, и другое гаснет через
      HL_FADE_AFTER одной и той же CSS-transition по opacity (app.css), без
      каких-либо изменений геометрии/отступов. */
-  var HL_FADE_AFTER = 1500, HL_FADE_MS = 2000;
-  var HL_FADE_STATIC = 3000; // prefers-reduced-motion: без анимации, держится статично, потом убирается
+  var HL_FADE_AFTER = 3000, HL_FADE_MS = 2500;
+  var HL_FADE_STATIC = 3500; // prefers-reduced-motion: без анимации, держится статично, потом убирается
   function hlMark(container, label){
     var cs = getComputedStyle(container);
     if(cs.position === "static") container.style.position = "relative";
