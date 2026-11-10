@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "144";
+  var APP_VER = "145";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -2753,7 +2753,7 @@
       root.innerHTML =
         '<div id="ic-rb-dim"></div>'+
         '<div class="ic-ch-outer">'+
-          '<div class="ic-rbar" id="ic-rbar">'+
+          '<div class="ic-rbar ic-rbar-tv" id="ic-rbar">'+
             '<div class="ic-rbar-row">'+
               '<button type="button" class="ic-rbar-ctx" data-rb="back"><span>'+esc(book.meta.home ? t("tvBack") : t("back"))+'</span></button>'+
               '<button type="button" class="ic-rbar-tvsearch" data-rb="search" aria-pressed="false"><span class="ic-rbar-tvsearch-label">'+esc(tvSearchLabel())+'</span></button>'+
@@ -2857,16 +2857,10 @@
         onDragStart: function(){ azDragging = true; rail.classList.add("ic-az-rail-active"); },
         onDragEnd: function(){ azDragging = false; rail.classList.remove("ic-az-rail-active"); }
       });
-      // Капсула прячется/появляется как .ic-rbar панели читалки (тот же
-      // installScrollHide), но заморожена (suppress) пока открыта/анимируется
-      // выезжающая шторка поиска ИЛИ идёт жест по az-rail. onTick здесь
-      // больше не нужен — раньше он пересчитывал --tvbar-h на каждый тик
-      // скролла (столбик двигался вслед за шапкой); столбик теперь статичен
-      // (см. .ic-az-rail в app.css), так что опускаем параметр вовсе.
-      installScrollHide(rbar, {
-        isActive: function(){ return gen === renderGen; },
-        suppress: function(){ return azDragging || rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); }); }
-      });
+      // Капсула/шапка здесь больше НЕ прячутся при скролле (в отличие от
+      // панели читалки renderChapter) — installScrollHide сюда больше не
+      // подключается, .ic-rbar/.back-bar остаются на месте всегда (см.
+      // задание, пункт 1).
       var sheetApi = makeRbSheet(sheetEl, searchBtn, {
         registry: rbSheets,
         onOpen: function(){ if(window.matchMedia && window.matchMedia("(pointer:fine)").matches) sheetInput.focus({preventScroll:true}); },
@@ -3044,7 +3038,7 @@
       root.innerHTML =
         '<div id="ic-rb-dim"></div>'+
         '<div class="ic-ch-outer">'+
-          '<div class="ic-rbar" id="ic-rbar">'+
+          '<div class="ic-rbar ic-rbar-tv" id="ic-rbar">'+
             '<div class="ic-rbar-row">'+
               '<button type="button" class="ic-rbar-ctx" data-rb="back"><span>'+esc(book.meta.home ? t("tvBack") : t("back"))+'</span></button>'+
               '<button type="button" class="ic-rbar-tvsearch" data-rb="search" aria-pressed="false"><span class="ic-rbar-tvsearch-label">'+esc(nmSearchLabel())+'</span></button>'+
@@ -3147,12 +3141,8 @@
         onDragStart: function(){ azDragging = true; rail.classList.add("ic-az-rail-active"); },
         onDragEnd: function(){ azDragging = false; rail.classList.remove("ic-az-rail-active"); }
       });
-      // См. тот же комментарий в renderTavola — заморозка на время шторки/жеста;
-      // onTick не нужен (столбик статичен, см. .ic-az-rail в app.css).
-      installScrollHide(rbar, {
-        isActive: function(){ return gen === renderGen; },
-        suppress: function(){ return azDragging || rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); }); }
-      });
+      // Капсула/шапка здесь больше НЕ прячутся при скролле — см. тот же
+      // комментарий в renderTavola (пункт 1 задания).
       var sheetApi = makeRbSheet(sheetEl, searchBtn, {
         registry: rbSheets,
         onOpen: function(){ if(window.matchMedia && window.matchMedia("(pointer:fine)").matches) sheetInput.focus({preventScroll:true}); },

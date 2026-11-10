@@ -344,6 +344,16 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
 .ic-rbar-row button[aria-pressed="true"]{background:rgb(var(--cream));color:var(--bar)}
 .ic-rbar-row .ic-rbar-ctx{flex:0 1 auto;min-width:40px;justify-content:center;overflow:hidden}
 .ic-rbar-ctx span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:center}
+/* Капсула указателя/«Имён» (.ic-rbar-tv, см. app.js renderTavola/renderNames)
+   — три ячейки РОВНО одинаковой ширины (пункт 2 задания): переопределяем
+   flex:0 1 auto у .ic-rbar-ctx базового правила выше (специфичность ВЫШЕ за
+   счёт доп. класса .ic-rbar-tv на самом .ic-rbar), не трогая само базовое
+   правило — капсула читалки главы (5 ячеек, .ic-rbar без .ic-rbar-tv) не
+   задета. min-width:0 вместо 40px — ячейке можно сжиматься до нуля наравне
+   с .ic-rbar-tvsearch/.ic-rbar-sort (уже flex:1 1 0 выше); text-overflow
+   ellipsis у вложенного span (.ic-rbar-ctx span выше) продолжает обрезание
+   работать и в этой, более узкой, равнодолевой ширине. */
+.ic-rbar-tv .ic-rbar-ctx{flex:1 1 0;min-width:0}
 /* Капсула указателя/«Имён» (renderTavola/renderNames) — у кнопки «К книге»
    текст раньше шёл напрямую в button, без обёртки в span, поэтому правило
    .ic-rbar-ctx span выше его не ловило: text-overflow НЕ применяется к
@@ -427,6 +437,12 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
      «К имени»/«К поиску»/«Книга», все три языка) должна помещаться ЦЕЛИКОМ,
      без обрезания fitEllipsisWord (app.js). */
   .ic-rbar-row .ic-rbar-ctx{flex:0 1 auto;min-width:0;max-width:46%}
+  /* Капсула указателя/«Имён» (.ic-rbar-tv) — та же равнодолевая ширина трёх
+     ячеек, что и на широких экранах (см. правило выше по файлу), а не
+     max-width:46% читалки главы: без этого переопределения правило читалки
+     (тот же уровень специфичности, но позже в каскаде) перебивало бы его
+     именно на ширинах ≤460px — ровно там, где проверка (iPhone 13 390px). */
+  .ic-rbar-tv .ic-rbar-ctx{flex:1 1 0;max-width:none}
   .ic-rbar-row .ic-rbar-pos{flex:1 1 0%;min-width:46px;padding:0 9px}
   .ic-rbar-pos-ch{display:none}
   /* Название главы скрыто целиком на этой ширине — номер страницы остаётся
