@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "147";
+  var APP_VER = "148";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -257,8 +257,8 @@
     plNoExpl:     {ru:"В тексте нет отдельного описания этой гравюры.", en:"The text has no separate description of this engraving.", fr:"Le texte ne décrit pas cette gravure à part."},
     plTitlePage:  {ru:"второй титульный лист", en:"second title page", fr:"second titre"},
     plAll:        {ru:"Все гравюры", en:"All engravings", fr:"Toutes les gravures"},
-    plPrev:       {ru:"Предыдущая гравюра", en:"Previous engraving", fr:"Gravure précédente"},
-    plNext:       {ru:"Следующая гравюра", en:"Next engraving", fr:"Gravure suivante"},
+    plPrev:       {ru:"Предыдущая", en:"Previous", fr:"Précédente"},
+    plNext:       {ru:"Следующая", en:"Next", fr:"Suivante"},
     plCount:      {ru:"Гравюра {k} из {n}", en:"Engraving {k} of {n}", fr:"Gravure {k} sur {n}"},
     plBetween:    {ru:"между с. {a} и {b}", en:"between pp. {a} and {b}", fr:"entre p. {a} et {b}"},
     plNoCap:      {ru:"У этой гравюры нет подписи в переводе.", en:"This engraving has no caption in the translation.", fr:"Cette gravure n’a pas de légende dans la traduction."},
@@ -884,8 +884,14 @@
     // любой другой маршрут класс снимается, и шапка+меню книги возвращают
     // своё обычное position:sticky (без регрессии нигде, кроме этих двух
     // страниц).
+    // Пункт 13 этого раунда: карточка имени (p.view==="names" && p.name,
+    // см. parseHash) — обычная страница, НЕ список; раньше делила один и тот
+    // же p.view==="names" с указателем/«Именами»-списком и получала
+    // back-bar-fixed (фикс мигания sticky при жесте по рейлу букв), который
+    // ей не нужен вовсе — на карточке нет .ic-az-rail/частых программных
+    // scrollTo. !p.name отличает список от карточки.
     var bbar = document.querySelector(".back-bar");
-    if(bbar) bbar.classList.toggle("back-bar-fixed", p.view==="tavola" || p.view==="names");
+    if(bbar) bbar.classList.toggle("back-bar-fixed", p.view==="tavola" || (p.view==="names" && !p.name));
     if(!p.slug){ renderLibraryHome(); return; }
     openBook(p.slug, p, function(book){
       if(!book){ if(!forcedBook) renderLibraryHome(); return; }
@@ -1008,7 +1014,14 @@
   // .back-bar, см. его комментарий) и для headerStackH()/syncHeaderStack()
   // выше (высота меню книги, которую строка раздела и столбик букв держат в
   // своих статичных отступах).
-  function bookTabsHtml(book, activeSect){
+  // fixed (пункт 13 этого раунда, 3-й параметр) — явно решает, нужен ли
+  // .ic-booktabs-fixed, НЕЗАВИСИМО от activeSect: карточка имени тоже
+  // передаёт activeSect="names" (чтобы подсветилась та же вкладка), но она —
+  // обычная страница без жеста по рейлу букв, поэтому вызывает с fixed:false.
+  // Без явного аргумента (undefined) поведение прежнее — автоматически по
+  // activeSect ("index"/"names"), как и раньше, для настоящих списков
+  // указателя/«Имён» (их вызовы bookTabsHtml этот параметр не передают).
+  function bookTabsHtml(book, activeSect, fixed){
     var tabs = [["text", t("bkTabText")], ["plates", t("hmGallery")]];
     if(book.meta.tavola) tabs.push(["index", t("hmIndex")]);
     if(book.meta.names) tabs.push(["names", t("hmNames")]);
@@ -1020,10 +1033,19 @@
     // toggle из route(), т.к. .ic-booktabs целиком пересобирается каждым
     // рендером (в отличие от .back-bar, которая живёт вне root и переживает
     // смену страниц).
-    var fixedCls = (activeSect==="index" || activeSect==="names") ? " ic-booktabs-fixed" : "";
+    var autoFixed = (activeSect==="index" || activeSect==="names");
+    var fixedCls = (fixed===false ? false : (fixed===true ? true : autoFixed)) ? " ic-booktabs-fixed" : "";
     return '<nav class="ic-booktabs'+fixedCls+'" id="ic-booktabs" aria-label="'+esc(t("hmNavLabel"))+'">'+
       tabs.map(function(x){
-        return '<a href="'+esc(hrefFor(book, x[0]))+'" class="'+(activeSect===x[0]?"on":"")+'">'+esc(x[1])+'</a>';
+        // .ic-bt-label (пункт 16 этого раунда) — подпись обёрнута в свой
+        // inline-block span, который сжимается до ширины СВОЕГО текста
+        // (сама <a> остаётся flex:1 1 0;text-align:center, вкладки — пять
+        // равных ячеек, как раньше): подчёркивание активной вкладки
+        // (app.css, .ic-bt-label.on::after) теперь ровно по ширине подписи,
+        // а не по фиксированному 22%/22% отступу, который на разных по
+        // длине подписях ("Текст" vs "Указатель") давал разную толщину/
+        // смещение черты на глаз.
+        return '<a href="'+esc(hrefFor(book, x[0]))+'" class="'+(activeSect===x[0]?"on":"")+'"><span class="ic-bt-label">'+esc(x[1])+'</span></a>';
       }).join("")+
     '</nav>';
   }
@@ -1213,6 +1235,12 @@
       if(bbar) bbar.classList.toggle("ic-bb-hidden", v);
       var bt = document.getElementById("ic-booktabs");
       if(bt) bt.classList.toggle("ic-bb-hidden", v);
+      // Пункт 1 этого раунда: строка раздела главы (.ic-rbar, БЕЗ -tv —
+      // указатель/«Имена» не трогаем, см. задание) теперь снова прячется
+      // вслед за шапкой+меню книги — в тот же тик, тем же v — снапом к
+      // top:0 (+safe-area), а не статичным var(--top2), как раньше.
+      var rb = document.getElementById("ic-rbar");
+      if(rb && !rb.classList.contains("ic-rbar-tv")) rb.classList.toggle("ic-rbar-snap", v);
     }
     function tick(){
       if(opts.isActive && !opts.isActive()){ setHidden(false); return; }
@@ -2314,15 +2342,20 @@
       function pgmHtml(b){
         var idxs = pmAt[b.n] || [];
         if(!idxs.length) return "";
-        var first = pmRows[idxs[0]][1], last = pmRows[idxs[idxs.length-1]][1];
-        if(idxs.length > 1 && /^\d+$/.test(first) && /^\d+$/.test(last)){
-          var mlb = t("tvPage")+" "+first+"–"+last;
+        // Пункт 4 этого раунда: слияние в один диапазон теперь ВСЕГДА, когда
+        // несколько страниц подряд начинаются с одного блока — не только для
+        // чисто цифровых меток ("тит."/"посв. N"/"Page N" тоже сливаются
+        // через pgLabel() на обоих концах, напр. «тит. 2v – посв. 1v»).
+        // Отдельная раскладка "в столбик" (прежний idxs.map-фоллбэк для
+        // нецифрового случая) больше не нужна — она не достижима, пока
+        // idxs.length>1 всегда уходит в эту ветку.
+        if(idxs.length > 1){
+          var first = pmRows[idxs[0]][1], last = pmRows[idxs[idxs.length-1]][1];
+          var mlb = pgLabel(first)+" – "+pgLabel(last);
           return '<div class="ic-pgm"><button type="button" class="ic-pgm-b" data-pi="'+idxs[0]+'" aria-pressed="false" aria-label="'+esc(t("svOpen",{p:first}))+'">'+esc(mlb)+'</button></div>';
         }
-        return idxs.map(function(i, k){
-          var lb = pgLabel(pmRows[i][1]);
-          return '<div class="ic-pgm" style="--k:'+k+'"><button type="button" class="ic-pgm-b" data-pi="'+i+'" aria-pressed="false" aria-label="'+esc(t("svOpen",{p:pmRows[i][1]}))+'">'+esc(lb)+'</button></div>';
-        }).join("");
+        var lb = pgLabel(pmRows[idxs[0]][1]);
+        return '<div class="ic-pgm" style="--k:0"><button type="button" class="ic-pgm-b" data-pi="'+idxs[0]+'" aria-pressed="false" aria-label="'+esc(t("svOpen",{p:pmRows[idxs[0]][1]}))+'">'+esc(lb)+'</button></div>';
       }
       var trl = trLang(book), enMode = !!trl, blocks = ch && (enMode ? (ch[trl] && ch[trl].blocks) : ch.blocks);
       var enPrep = enMode && ch && !blocks && chap.pm[slug] && chap.pm[slug].length;
@@ -2532,7 +2565,13 @@
         var pi = curPgIdx();
         if(pi === lastPaintedPi) return;
         lastPaintedPi = pi;
-        pgEl.textContent = pi >= 0 ? pgLabel(pmRows[pi][1]) : "";
+        // "· " перед номером страницы (пункт 3 этого раунда) — название главы
+        // (.ic-rbar-pos-ch, см. разметку выше) теперь снова видно на любой
+        // ширине, так что у двух ячеек нужен разделитель между ними; тот же
+        // " · ", что уже используется для пар "X · Y" по всему файлу (nmForm/
+        // chCtxLabel и т.п., см. задание). Пробел до точки даёт существующий
+        // margin-right:6px у .ic-rbar-pos-ch.
+        pgEl.textContent = pi >= 0 ? "· "+pgLabel(pmRows[pi][1]) : "";
       }
       paintPg();
       if(rbarRow) rbarRow.addEventListener("click", function(e){
@@ -2711,9 +2750,37 @@
         // прокрутки/видимости) — но больше не рамкой/заливкой, см. app.css: класс остался просто
         // вспомогательным маркером для будущего, без визуального эффекта сам по себе.
         if(okN && figs.length && figs[0]!==target) figs.forEach(function(f){ f.classList.add("ic-ch-fig-near"); });
-        var headerOffset = headerStackH(), baseOff = headerOffset + (okN ? 24 : 40);
+        var headerOffset = headerStackH();
+        // baseOff (задание, пункт 2) — ТЕКУЩЕЕ, реально действующее положение
+        // низа строки раздела (.ic-rbar) в момент прыжка: берём её собственный
+        // getBoundingClientRect().top (а не var(--top2)/0 напрямую, и БЕЗ
+        // Math.max с headerOffset — проверено Playwright-прогоном: именно
+        // этот max и обнулял весь смысл чтения реального .top, подставляя
+        // назад полную headerOffset даже когда капсула уже снапнута к 0)
+        // — это само по себе отражает оба состояния пункта 1 (строка на
+        // var(--top2), когда шапка+меню книги видны, ИЛИ снапнута к top:0,
+        // когда они спрятаны прокруткой), плюс её реальную высоту, плюс 16px
+        // гарантированного зазора сверху цели. headerOffset (сумма высот
+        // шапки+меню книги, без строки раздела) остаётся резервным —
+        // используется ниже только как запасное значение, если .ic-rbar
+        // почему-то не найден в DOM вовсе.
+        // curBaseOff — пункт 2 этого раунда: НЕ читаем rbar.getBoundingClientRect().top
+        // напрямую (нашли Playwright-прогоном: .ic-rbar теперь анимирует top
+        // transition'ом .3s, пункт 1, и геометрия в момент самого переключения
+        // класса — середина анимации, ещё не 0/не var(--top2)) — вместо этого
+        // сами знаем ИТОГОВОЕ значение top по классу (.ic-rbar-snap => 0,
+        // иначе headerStackH(), что и есть var(--top2) по построению), и берём
+        // только высоту капсулы из реального прямоугольника (она не анимируется,
+        // transition только на top). Это тот же принцип "текущее действующее
+        // положение", просто без гонки с переходной анимацией.
+        function curBaseOff(){
+          if(!rbar) return headerOffset + 16;
+          var finalTop = rbar.classList.contains("ic-rbar-snap") ? 0 : headerOffset;
+          return finalTop + rbar.getBoundingClientRect().height + 16;
+        }
         var snap = function(){
           if(gen !== renderGen) return;
+          var baseOff = curBaseOff();
           if(hlLine && hlLineIsRange){
             var bt0 = bodyEl.getBoundingClientRect().top, t0 = Infinity, t1 = 0;
             pgEls.forEach(function(el){ var r = el.getBoundingClientRect(); t0 = Math.min(t0, r.top-bt0); t1 = Math.max(t1, r.bottom-bt0); });
@@ -2751,7 +2818,7 @@
         // body главы — это эшелон обороны против ЛЮБОГО источника сдвига (не только img/fonts: то
         // же самое может вызвать <details>, донабор строки веб-шрифтом без лейаут-события, которое
         // мы бы иначе отследили, и т.п.), а не только двух конкретных отслеживаемых событий.
-        var stopped = false, ro = null;
+        var stopped = false, ro = null, mo = null;
         if(document.fonts && document.fonts.ready) document.fonts.ready.then(function(){ if(!stopped && gen===renderGen) snap(); });
         function stop(){
           if(stopped) return;
@@ -2762,6 +2829,7 @@
           document.removeEventListener("keydown", stop);
           document.removeEventListener("pointerdown", stop);
           if(ro){ ro.disconnect(); ro = null; }
+          if(mo){ mo.disconnect(); mo = null; }
         }
         // touchstart (а не только touchmove) — чтобы само касание экрана, ещё до какого-либо
         // движения пальцем, сразу считалось "пользователь взялся за страницу" и больше не мешать;
@@ -2783,6 +2851,23 @@
         if(window.ResizeObserver){
           ro = new ResizeObserver(function(){ if(!stopped && gen===renderGen) snap(); });
           ro.observe(bodyEl);
+        }
+        // mo (пункт 2 этого раунда, найдено Playwright-проверкой): сам прыжок
+        // снапа — большой разовый скачок window.scrollY за один тик — не
+        // отличим для installScrollHide (app.js) от обычной быстрой
+        // прокрутки читателем вниз: его independent rAF-цикл измеряет dy
+        // между кадрами и, увидев этот скачок, может ТОЛЬКО ПОСЛЕ самого
+        // snap() переключить класс ic-rbar-snap (пункт 1) — baseOff уже
+        // посчитан и применён ДО этого переключения, по состоянию "шапка
+        // ещё видна", и после переключения цель оказывается сдвинута от
+        // капсулы на лишние ~header+booktabs px вместо 16px. Наблюдаем за
+        // сменой класса #ic-rbar и пересчитываем snap() ещё раз, если она
+        // случилась, — тот же защитный приём, что уже есть для догрузки
+        // картинок/шрифтов/ResizeObserver выше, просто для ещё одного
+        // источника сдвига «эффективного верха» цели.
+        if(rbar && window.MutationObserver){
+          mo = new MutationObserver(function(){ if(!stopped && gen===renderGen) snap(); });
+          mo.observe(rbar, {attributes:true, attributeFilter:["class"]});
         }
         setTimeout(stop, 12000);
       } else toTop(true);
@@ -3322,34 +3407,67 @@
     order.sort(function(a,b){ return a-b; });
     var occ = 0; (e.m||[]).forEach(function(m){ occ += (m.length-2)/2; });
     var gal = pls.length ? '<h2 class="ic-nm-h">'+esc(t("nmPlates"))+'</h2><ul class="ic-gal">'+pls.map(function(g){
+      // width/height (пункт 7) — из w/h гравюры в plates.json, тот же приём,
+      // что уже был у renderPlateCard (p.w/p.h) — задаёт реальную пропорцию
+      // карточки сразу, без letterbox-рамки и без прыжка раскладки при
+      // догрузке файла. Номер страницы (пункт 8) — мелким приглушённым
+      // текстом под названием, тот же platePageStr, что у карточки гравюры.
+      var gPg = platePageStr(g.page);
       return '<li><a class="ic-gal-item" href="'+esc(hrefFor(book, "plate/"+g.id))+'">'+
-        '<span class="ic-gal-img"><img loading="lazy" src="'+esc(engBase+"thumb/"+g.file+"_t.webp")+'" alt=""></span>'+
-        '<span class="ic-gal-cap">'+esc(plTitle(chap, g))+'</span></a></li>';
+        '<span class="ic-gal-img"><img loading="lazy" src="'+esc(engBase+"thumb/"+g.file+"_t.webp")+'"'+(g.w && g.h ? ' width="'+g.w+'" height="'+g.h+'"' : "")+' alt=""></span>'+
+        '<span class="ic-gal-cap">'+esc(plTitle(chap, g))+(gPg ? '<small class="ic-gal-pg">'+esc(gPg)+'</small>' : "")+'</span></a></li>';
     }).join("")+'</ul>' : "";
+    // Пункт 15 этого раунда: главу "catalogo-autori" книга (не ошибка данных
+    // — см. задание) упоминает дважды подряд почти целиком (два издания
+    // внутри одной главы) — один и тот же автор может иметь два РАЗНЫХ по
+    // номеру блока, но БАЙТОВО идентичных по тексту упоминания в одной
+    // группе главы. Схлопываем такие в ОДНУ строку (ссылка — на первое) с
+    // счётчиком "×N", не теряя при этом различающиеся упоминания (сравнение
+    // по точному тексту блока, не по номеру главы/эвристике). totalCollapsed
+    // — пересчитанный итог для сводки (nmStat) ниже: число ВИДИМЫХ строк, а
+    // не сырых совпадений e.n.
+    var totalCollapsed = 0;
     var ments = order.map(function(ci){
       var slug = d.chapters[ci], ch = chap && chap.bySlug[slug];
       if(!ch || !ch.blocks) return "";
-      return '<section class="ic-nm-ch"><h3>'+esc(chapTitle(ch))+' <span class="ic-nm-chn">'+byCh[ci].length+'</span></h3><ul class="ic-nm-ms">'+byCh[ci].map(function(m){
+      var rows = [];
+      byCh[ci].forEach(function(m){
         var b = ch.blocks[m[1]-1];
-        if(!b) return "";
-        return '<li><a href="'+esc(chapterHrefWord(book, slug, m[1], m.slice(2)))+'">'+nmSnippet(nmBlockText(b), m.slice(2))+'</a></li>';
+        if(!b) return;
+        var text = nmBlockText(b);
+        var dup = rows.filter(function(row){ return row.text === text; })[0];
+        if(dup){ dup.count++; return; }
+        rows.push({m:m, text:text, count:1});
+      });
+      totalCollapsed += rows.length;
+      return '<section class="ic-nm-ch"><h3>'+esc(chapTitle(ch))+' <span class="ic-nm-chn">'+rows.length+'</span></h3><ul class="ic-nm-ms">'+rows.map(function(row){
+        var m = row.m, badge = row.count > 1 ? ' <span class="ic-nm-chn">×'+row.count+'</span>' : "";
+        return '<li><a href="'+esc(chapterHrefWord(book, slug, m[1], m.slice(2)))+'">'+nmSnippet(row.text, m.slice(2))+'</a>'+badge+'</li>';
       }).join("")+'</ul></section>';
     }).join("");
     root.innerHTML =
-      bookTabsHtml(book, "names")+
-      '<div class="ic-wrap ic-tv ic-nm">'+
-        '<div class="ic-nav"><button type="button" class="ic-back">← '+esc(t("hmNames"))+'</button><span class="ic-nav-pos"></span>'+langSwitch()+'</div>'+
-        '<header class="ic-head"><p class="ic-kicker">'+esc(t("nmT1_"+e.t))+'</p><h1 class="ic-h-fr">'+esc(nmForm(e))+'</h1>'+
+      // Пункт 13 этого раунда: карточка имени — обычная страница, НЕ список
+      // (fixed:false — см. комментарий у bookTabsHtml выше); обёртка больше
+      // не несёт .ic-tv (margin-top:var(--tv-content-top) — компенсация под
+      // ФИКСИРОВАННЫЙ .ic-rbar-tv указателя/«Имён», которого здесь вообще
+      // нет), только .ic-wrap ic-nm — та же база, что у Текста/Гравюр/Поиска
+      // (пункт 17 — одинаковая отбивка сверху у всех страниц без строки
+      // раздела).
+      bookTabsHtml(book, "names", false)+
+      '<div class="ic-wrap ic-nm">'+
+        '<div class="ic-top-row">'+langSwitch()+'</div>'+
+        // Пункт 14 этого раунда: кнопка "← Имена" убрана целиком (раздел уже
+        // подсвечен в общем меню книги сверху — отдельная навигация назад не
+        // нужна) — вместо неё обычная строка-крошка перед киккером, без
+        // стрелки и без семантики кнопки/ссылки.
+        '<header class="ic-head"><p class="ic-kicker">'+esc(t("hmNames"))+' · '+esc(t("nmT1_"+e.t))+'</p><h1 class="ic-h-fr">'+esc(nmForm(e))+'</h1>'+
           ((e.it||[]).length ? '<p class="ic-nm-it" lang="it">'+esc(e.it.join(" · "))+'</p>' : "")+'</header>'+
         gal+
         '<h2 class="ic-nm-h">'+esc(t("nmMentions"))+'</h2>'+
-        '<p class="ic-count">'+esc(e.n ? t("nmStat",{n:e.n, c:order.length}) : t("nmNoMentions"))+'</p>'+
+        '<p class="ic-count">'+esc(totalCollapsed ? t("nmStat",{n:totalCollapsed, c:order.length}) : t("nmNoMentions"))+'</p>'+
         ments+
       '</div>';
     bindLangSwitch(root);
-    root.querySelector(".ic-back").addEventListener("click",function(){
-      if(namesUi.via===location.hash) history.back(); else location.hash = hrefFor(book,"names").replace(/^#/,"");
-    });
     root.addEventListener("click",function(ev){
       var a = ev.target.closest(".ic-nm-ms a");
       if(a){
@@ -3481,8 +3599,13 @@
   // что читалось как "уже нажато" при обычном заходе на /home. Параметр
   // оставлен (а не удалён) только для обратной совместимости вызовов —
   // живой tap-feedback вместо него теперь даёт :active в CSS.
+  // Пункт 12 этого раунда: большие плитки .ic-home-tile-t/-s заменены
+  // компактным списком строк по образцу .secs a макета book-structure.html
+  // (заголовок <b> + одна строка описания <span>) — те же строки i18n
+  // (hmReadSub/hmGallerySub/... — не новые), просто другая разметка/CSS
+  // (см. .ic-home-tile/b/span в app.css). on/attrs — как раньше.
   function homeTile(href, title, sub, on, attrs){
-    return '<a class="ic-home-tile" href="'+esc(href)+'"'+(on?' aria-current="page"':"")+(attrs||"")+'><span class="ic-home-tile-t">'+esc(title)+'</span><span class="ic-home-tile-s">'+esc(sub)+'</span></a>';
+    return '<a class="ic-home-tile" href="'+esc(href)+'"'+(on?' aria-current="page"':"")+(attrs||"")+'><b>'+esc(title)+'</b><span>'+esc(sub)+'</span></a>';
   }
   /* ---------- поиск по книге (#/<slug>/search; книги с home и chapters) ----------
      Один запрос ищется сразу в пяти источниках: русском переводе (chapters_ru.json), итальянской
@@ -3584,6 +3707,31 @@
       if(sp) tx.push({k:chFirst[r.m.ch.slug]*1e9 + r.m.ch.ci*1e6 + r.m.block*2 + 1, r:r, sp:sp, it:true});
     });
     tx.sort(function(a,b){ return a.k-b.k; });
+    // Пункт 15(б) этого раунда — read-only аудит нашёл, что здесь (в отличие
+    // от гравюр/указателя, где виден номер страницы) этот же паттерн двух
+    // изданий в главе catalogo-autori ДЕЙСТВИТЕЛЬНО выглядел бы как
+    // визуальный дубль: строка результата показывает только главу и обрезок
+    // текста, без номера блока/страницы, так что два байтово идентичных
+    // абзаца (из разных изданий) неотличимы на глаз. ВАЖНО: такие пары НЕ
+    // обязательно соседние в списке после сортировки по k (блок первого
+    // печатания N и блок второго печатания N+39, см. задание) — между парой
+    // одного абзаца обычно стоит пара ДРУГОГО абзаца с меньшим N+39, чем N
+    // текущего (сортировка чисто по номеру блока чередует 2 разных абзаца:
+    // A(n1), B(n2), A(n1+39), B(n2+39)). Поэтому ищем совпадение по ВСЕМУ
+    // уже накопленному списку (по тексту r.raw + языку it/ru), а не только по
+    // непосредственно предыдущей записи — тот же приём схлопывания, что у
+    // карточки имени (пункт 15а выше), просто без предположения о соседстве.
+    (function(){
+      var out = [], byText = {};
+      tx.forEach(function(h){
+        var key = (h.it ? "it|" : "ru|")+h.r.raw;
+        var first = byText[key];
+        if(first){ first.count = (first.count||1)+1; return; }
+        byText[key] = h;
+        out.push(h);
+      });
+      tx = out;
+    })();
     // Гравюры
     var engBase = engBaseOf(book), pl = [];
     chap.pl.list.forEach(function(p){
@@ -3632,10 +3780,11 @@
       // блока, поэтому для этой ветки — только обычная ссылка на блок, без
       // подчёркивания слова (нечего честно подчёркивать, см. задание про "не
       // домысливать точность, которой нет").
+      var dupBadge = h.count > 1 ? ' <span class="ic-nm-chn">×'+h.count+'</span>' : "";
       if(h.it) return '<li><a class="ic-sr-a" href="'+esc(chapterHref(book, ch.slug, r.m.block))+'"><span class="ic-sr-meta">'+esc(chapTitle(ch))+' · '+esc(pgLabel(r.m.label))+' · '+esc(t("srItOrig"))+'</span>'+
-        '<span class="ic-sr-snip ic-sr-it" lang="it">'+nmSnippet(r.raw, h.sp)+'</span></a></li>';
+        '<span class="ic-sr-snip ic-sr-it" lang="it">'+nmSnippet(r.raw, h.sp)+'</span></a>'+dupBadge+'</li>';
       return '<li><a class="ic-sr-a" href="'+esc(chapterHrefWord(book, ch.slug, r.n, h.sp))+'"><span class="ic-sr-meta">'+esc(chapTitle(ch))+'</span>'+
-        '<span class="ic-sr-snip" lang="ru">'+nmSnippet(r.raw, h.sp)+'</span></a></li>';
+        '<span class="ic-sr-snip" lang="ru">'+nmSnippet(r.raw, h.sp)+'</span></a>'+dupBadge+'</li>';
     }
     function plRow(h){
       var p = h.p, snip = "";
@@ -3751,7 +3900,7 @@
       root.innerHTML =
         bookTabsHtml(book, null)+
         '<div class="ic-wrap ic-home">'+
-          '<div class="ic-top-row">'+(forcedBook?"":'<button type="button" class="ic-to-lib-link ic-to-lib-pill">'+t("toLibrary")+'</button>')+langSwitch()+'</div>'+
+          '<div class="ic-top-row">'+(forcedBook?"":'<button type="button" class="ic-to-lib-link">'+t("toLibrary")+'</button>')+langSwitch()+'</div>'+
           (hp ? ornamentMaskHtml(book, hp, "ic-orn-headpiece") : "")+
           '<header class="ic-home-hero">'+
             '<div class="ic-home-txt">'+
@@ -3816,10 +3965,10 @@
       galleryEntries(chap).forEach(function(p){ (byCh[p.chapter] = byCh[p.chapter] || []).push(p); });
       var html = chap.list.filter(function(c){ return byCh[c.slug] && byCh[c.slug].length; }).map(function(c){
         return '<h2 class="ic-pl-h">'+esc(chapTitle(c))+'</h2><ul class="ic-gal ic-gal-grid">'+byCh[c.slug].map(function(g){
-          var thumb = engBase+"thumb/"+g.file+"_t.webp";
+          var thumb = engBase+"thumb/"+g.file+"_t.webp", gPg = platePageStr(g.page);
           return '<li><a class="ic-gal-item" href="'+esc(hrefFor(book, "plate/"+g.id))+'" data-id="'+esc(g.id)+'">'+
-            '<span class="ic-gal-img"><img loading="lazy" src="'+esc(thumb)+'" alt=""></span>'+
-            '<span class="ic-gal-cap">'+esc(plTitle(chap, g))+'</span></a></li>';
+            '<span class="ic-gal-img"><img loading="lazy" src="'+esc(thumb)+'"'+(g.w && g.h ? ' width="'+g.w+'" height="'+g.h+'"' : "")+' alt=""></span>'+
+            '<span class="ic-gal-cap">'+esc(plTitle(chap, g))+(gPg ? '<small class="ic-gal-pg">'+esc(gPg)+'</small>' : "")+'</span></a></li>';
         }).join("")+'</ul>';
       }).join("");
       root.innerHTML =
@@ -3926,13 +4075,23 @@
       // (задание, пункт 1 — по макету book-structure.html, .row2/.row2 a):
       // заменяет прежний двуячеечный пейджер с заголовками соседних гравюр —
       // простые равные пилюли без названия статьи, как в макете.
+      // Пункт 10 этого раунда: без prev/next — нет пилюли вовсе (раньше
+      // рисовался пустой disabled-span ic-pc-off, видимый пробел-заглушка).
+      // Ряд .ic-pc-pager — flex, у каждой пилюли flex:1 1 0 (app.css), так
+      // что при 1-2 из 3 ячеек оставшиеся просто делят доступную ширину
+      // поровну — не требует отдельной компенсирующей разметки/CSS.
       function navPill(n, dir){
-        if(!n) return '<span class="ic-pc-pill ic-pc-off" aria-hidden="true"></span>';
+        if(!n) return "";
         return '<a class="ic-pc-pill" rel="'+dir+'" href="'+esc(hrefFor(book,"plate/"+n.id))+'">'+esc(t(dir==="prev"?"plPrev":"plNext"))+'</a>';
       }
-      var meta = [];
-      if(ch) meta.push('<span>'+esc(chapTitle(ch))+'</span>');
-      var pg = platePageStr(p.page); if(pg) meta.push('<span>'+esc(pg)+' · '+esc(t("plEdition"))+'</span>');
+      // Пункт 11 этого раунда: строка местоположения — ОДНА строка «глава ·
+      // страница» (тот же разделитель " · ", что и везде в файле — nmForm/
+      // chCtxLabel и пр.), без упоминания издания (· plEdition) — мокап не
+      // упоминает издание в строке местоположения карточки, только главу и
+      // страницу, так что этот суффикс убран, не просто сокращён.
+      var pg = platePageStr(p.page);
+      var locBits = []; if(ch) locBits.push(chapTitle(ch)); if(pg) locBits.push(pg);
+      var meta = locBits.length ? ['<span>'+esc(locBits.join(" · "))+'</span>'] : [];
       var trl = trLang(book), enP = !!trl;
       var enCapB = enP && (p.at==="cap" || cf) && cch && cch[trl] && cch[trl].blocks[(cf ? cf.block : p.block)-1];
       var explParas = p.expl.map(function(e){ return explHtml(chap, e); }).join("");

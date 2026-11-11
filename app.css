@@ -285,7 +285,16 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
   font-size:11px;letter-spacing:.05em;text-transform:uppercase;
   color:rgba(236,229,212,.62);position:relative;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .ic-booktabs a.on{color:#ece5d4}
-.ic-booktabs a.on::after{content:"";position:absolute;left:22%;right:22%;bottom:4px;height:2px;background:var(--accent)}
+/* .ic-bt-label (пункт 16 этого раунда) — подпись вкладки обёрнута в свой
+   inline-block span (app.js bookTabsHtml), который сжимается до ширины
+   СВОЕГО текста, а не тянется на всю ячейку (это по-прежнему делает
+   родительская <a>, flex:1 1 0;text-align:center, выше) — подчёркивание
+   активной вкладки теперь left:0;right:0 именно на этом span, т.е. ровно по
+   ширине подписи, вместо прежнего фиксированного left:22%;right:22% на
+   самой <a> (на разной длине подписи — «Текст» vs «Указатель» — старое
+   правило давало черту разной относительной толщины/координаты). */
+.ic-booktabs a.on .ic-bt-label{display:inline-block;position:relative}
+.ic-booktabs a.on .ic-bt-label::after{content:"";position:absolute;left:0;right:0;bottom:-6px;height:2px;background:var(--accent)}
 .ic-booktabs a:active{background:rgba(236,229,212,.08)}
 /* -100% одной только высоты .ic-booktabs не уводит её с экрана целиком: она
    sticky на top:var(--top), т.е. уже сдвинута вниз на высоту .back-bar —
@@ -324,13 +333,24 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    border-left. Фон полосы — непрозрачный почти-чёрный #16130f, тот же тон,
    что у .back-bar/.ic-booktabs. Текст светлый (--cream), капителью. */
 .ic-rbar{position:sticky;top:var(--top2, 96px);z-index:5;
-  --cream:236,229,212; --bar:#16130f; --rbar-accent:#d9a991;
+  --cream:236,229,212; --bar:#211d18; --rbar-accent:#d9a991;
   --rbar-ink:rgba(var(--cream),.94); --rbar-soft:rgba(var(--cream),.64);
   background:var(--bar);
   border-bottom:1px solid rgba(var(--cream),.12);
   margin:0 0 26px;
-  padding:10px calc(28px + env(safe-area-inset-right)) 10px calc(28px + env(safe-area-inset-left));
-  will-change:transform}
+  padding:7px calc(10px + env(safe-area-inset-right)) 7px calc(10px + env(safe-area-inset-left));
+  will-change:transform;
+  transition:top .3s ease}
+/* .ic-rbar-snap (этот раунд, задание пункт 1) — читалка главы (НЕ .ic-rbar-tv,
+   тот не трогаем): когда шапка+меню книги прячутся прокруткой
+   (installScrollHide/setHidden, app.js), строка раздела перестаёт стоять на
+   var(--top2) и сама садится вплотную к верху экрана (+safe-area), без щели
+   над собой — остаётся position:sticky (не fixed), поэтому естественно
+   уходит вниз вместе со страницей и возвращается на var(--top2), когда шапка
+   снова показывается. transition:top (на базовом правиле выше) — та же
+   длительность .3s ease, что у transform шапки/.ic-booktabs, чтобы оба
+   движения читались одним целым. */
+.ic-rbar.ic-rbar-snap:not(.ic-rbar-tv){top:env(safe-area-inset-top, 0px)}
 /* .ic-rbar-tv (указатель/«Имена», app.js renderTavola/renderNames) — фикс
    вспышки-пропадания меню на iPhone Safari при ведении пальцем по рейлу
    букв (.ic-az-rail/wireAzRail, app.js): каждый pointermove там дёргал
@@ -387,7 +407,7 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    ctx (ячейка 1) и pos (ячейка 2, самая широкая) переопределяют это ниже. */
 .ic-rbar button{flex:none;display:flex;align-items:center;justify-content:center;gap:6px;
   border:0;border-left:1px solid rgba(var(--cream),.22);border-radius:0;background:transparent;
-  height:40px;padding:0 14px;font-size:13.5px;letter-spacing:.07em;text-transform:uppercase;
+  height:36px;padding:0 12px;font-size:13.5px;letter-spacing:.07em;text-transform:uppercase;
   color:rgba(var(--cream),.9);cursor:pointer;white-space:nowrap;box-sizing:border-box;
   transition:background-color .12s,color .12s}
 .ic-rbar-row button:first-child{border-left:0}
@@ -450,13 +470,17 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    макет явно допускает усечение посередине слова), номер страницы рядом,
    старорежимными цифрами. На ≤460px название скрывается целиком через CSS
    (не через JS-измерение) — остаётся только номер страницы. */
-.ic-rbar-row .ic-rbar-pos{flex:1 1 0%;min-width:0;justify-content:flex-start;padding:0 14px;height:40px}
+.ic-rbar-row .ic-rbar-pos{flex:1 1 0%;min-width:0;justify-content:flex-start;padding:0 12px;height:36px}
 .ic-rbar-pos-inner{display:flex;align-items:center;gap:0;min-width:0;width:100%;overflow:hidden}
 .ic-rbar-pos-ch{flex:1 1 auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;
   font-style:italic;font-family:var(--old);font-size:15px;line-height:1.15;margin-right:6px;
   opacity:.75;color:rgba(var(--cream),.9)}
+/* text-transform:none (пункт 3 этого раунда) — без этого ярлык страницы
+   («тит. 2r») наследовал uppercase от базового .ic-rbar button (выше) и
+   показывался как «ТИТ. 2R»: страничные метки (в отличие от надписей кнопок
+   капсулы) нарочно в реальном регистре, не капителью. */
 .ic-rbar-pos-pg{flex:none;white-space:nowrap;text-align:center;color:rgba(var(--cream),.9);font-size:1em;line-height:1.15;
-  font-weight:400;letter-spacing:.04em;font-variant-numeric:oldstyle-nums}
+  font-weight:400;letter-spacing:.04em;font-variant-numeric:oldstyle-nums;text-transform:none}
 /* Ячейка 2 теперь тоже может получать aria-pressed="true" (кнопка «pos»
    активна весь срок, пока открыт список глав, см. задание пункт 1, по
    аналогии с «Поиск») — но .ic-rbar-pos-ch/-pg задают СВОЙ цвет текста
@@ -488,7 +512,7 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    (orientation:landscape) ловит именно такие короткие ландшафтные экраны,
    не задевая десктоп (1440x900 и подобные — там высота окна много больше). */
 @media (max-width:460px), (max-height:500px) and (orientation:landscape){
-  .ic-rbar{padding-left:calc(12px + env(safe-area-inset-left));padding-right:calc(12px + env(safe-area-inset-right))}
+  .ic-rbar{padding-left:calc(10px + env(safe-area-inset-left));padding-right:calc(10px + env(safe-area-inset-right))}
 }
 @media (max-width:460px){
   .ic-rbar button{font-size:12.5px;letter-spacing:.045em;padding:0 9px}
@@ -499,12 +523,13 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
      обрезания fitEllipsisWord (app.js). */
   .ic-rbar-row .ic-rbar-ctx{flex:0 1 auto;min-width:0;max-width:46%}
   .ic-rbar-row .ic-rbar-pos{flex:1 1 0%;min-width:46px;padding:0 9px}
-  .ic-rbar-pos-ch{display:none}
-  /* Название главы скрыто целиком на этой ширине — номер страницы остаётся
-     единственным содержимым ячейки 2, но без justify-content:center он
-     так и липнет к левому краю её (широкой, flex:1) области, хотя занимает
-     от силы несколько символов. */
-  .ic-rbar-pos-inner{justify-content:center}
+  /* Пункт 3 этого раунда: название главы больше НЕ скрывается на узких
+     экранах (раньше — .ic-rbar-pos-ch{display:none} — именно это было
+     причиной отсутствия названия главы в строке раздела на телефоне).
+     justify-content:center (раньше компенсировал пустоту слева от одинокого
+     номера страницы) снят вместе с ним — ячейка вернулась к обычному
+     flex-start, название+номер читаются одной строкой слева, как на
+     десктопе. */
 }
 
 /* Компактная форма .ic-rbar при малой высоте экрана (ландшафт телефона —
@@ -938,7 +963,7 @@ a.ic-ch-btn{display:inline-block;font-size:.78em;letter-spacing:.06em;text-trans
   transition:background-color .25s,color .25s,border-color .25s}
 @media (hover:hover){
   .ic-toc-body a:hover{color:var(--accent)}
-  .ic-home-tile:not(.ic-soon):hover{border-color:var(--accent);transform:translateY(-2px)}
+  .ic-home-tile:hover{border-color:var(--accent)}
   .ic-gal-item:hover .ic-gal-img{border-color:var(--accent)}
   .ic-qm:hover{background:var(--accent-soft)}
   a.ic-ch-btn:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
@@ -1022,20 +1047,24 @@ button.ic-toc-close{width:38px;height:38px;border:1px solid var(--rule);border-r
 .ic:has(.ic-home){background:url(img/paper.jpg) 0 0/1024px repeat,var(--paper)}
 .ic-home{max-width:900px}
 .ic-home .ic-top-row{margin-bottom:0}
-/* Капсула «Библиотека» на главной книги — та же форма/высота/радиус, что у
-   .ic-tv-back (К книге) на тёмной полосе указателя/имён, но в цветах светлой
-   страницы (--ink/--paper), не инверсия один-в-один: сплошная капсула цвета
-   чернил было бы слишком тяжело на светлой бумаге, поэтому заливка —
-   полупрозрачный тон чернил (как у .ic-view-toggle/.ic-orig-toggle рядом),
-   текст — обычный --ink. Без символа «←» — пользователь просил только
-   форму капсулы. */
-.ic-home button.ic-to-lib-link.ic-to-lib-pill{height:36px;padding:0 16px;border:0;border-radius:999px;
-  font-size:.78em;letter-spacing:.06em;text-transform:uppercase;
-  background:rgba(28,24,19,.08);color:var(--ink);cursor:pointer;transition:background-color .15s}
-@media (hover:hover){.ic-home button.ic-to-lib-link.ic-to-lib-pill:hover{background:rgba(28,24,19,.14)}}
-.ic-home button.ic-to-lib-link.ic-to-lib-pill:active{background:rgba(28,24,19,.18)}
+/* Пункт 12 этого раунда: капсула «Библиотека» на главной книги убрана —
+   заказчик требует обычную текстовую ссылку, не кнопку-пилюлю. Модификатор
+   .ic-to-lib-pill больше не добавляется в разметке (app.js renderHome) —
+   правила выше, которые были написаны ИМЕННО под пару классов
+   .ic-to-lib-link.ic-to-lib-pill, теперь ничему не соответствуют и удалены
+   целиком (а не оставлены мёртвым кодом: без .ic-to-lib-pill в разметке
+   базовое .ic-to-lib-link, app.css выше, уже само по себе — обычная плоская
+   подпись без фона/рамки/радиуса, см. его правило в начале файла). Добавлено
+   только подчёркивание — чтобы читалось как обычная внутристраничная
+   ссылка, а не просто приглушённый текст. */
+.ic-home .ic-to-lib-link{text-decoration:underline}
 .ic-home .ic-orn-headpiece{width:100%;margin:6px auto 4px}
-.ic-home-hero{display:grid;grid-template-columns:minmax(0,1fr);grid-template-areas:"txt" "tiles" "fig" "blurb";gap:22px;margin-top:18px}
+/* Порядок секций обложки (пункт 12 этого раунда, по макету book-structure.html):
+   название/автор/издание → гравюра → короткий текст → список из пяти
+   разделов. grid-template-areas, не DOM-порядок в разметке (app.js
+   renderHome), определяет видимый порядок — переставлена сама раскладка,
+   а не куски html. */
+.ic-home-hero{display:grid;grid-template-columns:minmax(0,1fr);grid-template-areas:"txt" "fig" "blurb" "tiles";gap:22px;margin-top:18px}
 .ic-home-txt{grid-area:txt}
 .ic-home-tiles{grid-area:tiles}
 .ic-home-fig{grid-area:fig;margin:0;justify-self:center;align-self:start}
@@ -1048,29 +1077,22 @@ button.ic-toc-close{width:38px;height:38px;border:1px solid var(--rule);border-r
 .ic-home-ed{margin-top:2px;font-size:.88em;color:var(--soft)}
 .ic-ed-short{display:none}
 .ic-home-blurb{font-size:.96em;line-height:1.65;color:var(--ink);max-width:34em}
-.ic-home-tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
-.ic-home-tiles .ic-home-tile:first-child{grid-column:1/-1}
+/* Пункт 12 этого раунда: пять карточек-разделов обложки — больше НЕ крупные
+   двуколоночные плитки, а компактный вертикальный список строк, по образцу
+   .secs/.secs a макета book-structure.html ("Меню сверху") — те же значения
+   (gap/фон/рамка/радиус/паддинг/типографика), скопированные из живого
+   макета (см. задание). */
+.ic-home-tiles{display:grid;gap:10px}
 @media (min-width:761px){
-  .ic-home-hero{grid-template-columns:minmax(0,300px) minmax(0,1fr);grid-template-areas:"fig txt" "fig tiles" "blurb blurb";column-gap:40px;row-gap:26px;align-items:start}
+  .ic-home-hero{grid-template-columns:minmax(0,300px) minmax(0,1fr);grid-template-areas:"fig txt" "fig blurb" "fig tiles";column-gap:40px;row-gap:26px;align-items:start}
   .ic-home-fig img{max-height:none}
   .ic-home .ic-orn-headpiece{width:60%}
   .ic-home-tiles{align-self:start}
 }
-.ic .ic-home-tile{display:flex;flex-direction:column;gap:6px;justify-content:center;min-height:88px;padding:16px 22px;border:1px solid var(--rule);border-radius:4px;
-  background:var(--sheet);color:var(--ink);box-shadow:0 14px 30px -22px rgba(70,46,20,.5);transition:border-color .25s,transform .25s,background-color .08s}
-.ic-home-tile-t{font-family:var(--old);font-size:1.55em;line-height:1.15}
-.ic-home-tile-s{font-size:.82em;color:var(--soft);line-height:1.4}
-/* Раньше здесь была [aria-current] (жирная акцентная рамка на вкладке,
-   которая и так активна при обычном заходе на /home) — задание прямо
-   требует, чтобы НИ ОДНА плитка не выглядела предварительно «нажатой»;
-   homeTile() теперь всегда вызывается с on=false (см. app.js), поэтому
-   этот селектор больше ничему не соответствует. Вместо персистентного
-   «выбранного» вида — обычный мгновенный :active-отклик на нажатие. */
-.ic .ic-home-tile:not(.ic-soon):active{background-color:var(--accent-soft);transform:translateY(1px)}
-.ic .ic-home-tile.ic-soon{min-height:0;padding:12px 22px;flex-direction:row;align-items:baseline;justify-content:space-between;
-  background:none;border-style:dashed;box-shadow:none;color:var(--soft);cursor:default}
-.ic-soon .ic-home-tile-t{font-size:1.15em}
-.ic-soon .ic-home-tile-s{font-style:italic;letter-spacing:.04em}
+.ic .ic-home-tile{display:block;background:var(--sheet);border:1px solid var(--rule);border-radius:10px;padding:14px 16px;color:var(--ink);transition:border-color .2s,background-color .1s}
+.ic-home-tile b{display:block;font-weight:400;font-size:20px}
+.ic-home-tile span{display:block;color:var(--soft);font-size:14.5px}
+.ic .ic-home-tile:active{background-color:var(--accent-soft)}
 .ic-home-panel{margin-top:6px;scroll-margin-top:12px}
 .ic-home-toc{display:grid;grid-template-columns:repeat(2,1fr);gap:0 44px}
 .ic-home-toc .ic-toc-part a{font-size:1em}
@@ -1081,15 +1103,38 @@ button.ic-toc-close{width:38px;height:38px;border:1px solid var(--rule);border-r
    вкладки-галереи на обложке), по образцу макета book-structure.html
    (.grid{grid-template-columns:1fr 1fr}), сгруппированная по главам. */
 .ic-gal.ic-gal-grid{grid-template-columns:repeat(2,1fr)}
-/* Заголовок главы-группы на «Гравюрах» — тот же визуальный язык, что у
-   заголовков частей содержания (.ic-toc-part h3 ниже). */
-.ic-pl-h{font-size:.72em;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);
-  padding-bottom:6px;border-bottom:1px solid var(--rule);margin:28px 0 10px}
-.ic-pl-h:first-child{margin-top:0}
+/* Заголовок главы-группы на «Гравюрах» (пункт 6 этого раунда) — по образцу
+   h2.part макета book-structure.html ("Меню сверху"): компактнее прежнего
+   (12.5px/.1em вместо .72em/.12em) и без border-bottom (линия убрана
+   целиком — ниже и так плотная двуколонная сетка карточек с подписями,
+   рамка читалась избыточно). Капители у этого шрифта нет (см. тот же
+   приём approximation у .ic-toc-part h3 ниже — простой uppercase+letter-
+   spacing, без font-variant-caps, чтобы не вводить новый приём рядом со
+   старым). Нижний отступ (6px) чуть больше макетных 4px — под этим
+   заголовком сразу идёт насыщенная подписями двуколонная сетка (пункт 7-8),
+   ей нужно чуть больше воздуха, чем короткому плоскому списку макета. */
+/* .ic .ic-pl-h (не просто .ic-pl-h) — специфичность (0,0,2,0) нужна, чтобы
+   перебить общий сброс ".ic h2{margin:0}" (строка 19 выше): у него
+   специфичность (0,0,1,1), выше голого одного класса — без этого уточнения
+   margin здесь тихо оставался бы 0 независимо от значения тут (проверено). */
+.ic .ic-pl-h{font-size:12.5px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);
+  margin:22px 0 6px}
+.ic .ic-pl-h:first-child{margin-top:0}
 .ic .ic-gal-item{display:flex;flex-direction:column;gap:8px;color:var(--ink)}
-.ic-gal-img{display:block;position:relative;aspect-ratio:4/5;background:var(--sheet);border:1px solid var(--rule);border-radius:2px;transition:border-color .2s}
-.ic-gal-img img{position:absolute;inset:6px;width:calc(100% - 12px);height:calc(100% - 12px);max-width:none;object-fit:contain}
-.ic-gal-cap{font-size:.8em;line-height:1.35;color:var(--soft);text-align:center;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+/* Пункт 7 этого раунда: раньше fixed aspect-ratio:4/5 + img absolute/inset
+   letterbox'ило любую гравюру, чья реальная пропорция не 4:5 (большинство
+   не 4:5 — у книги много широких вкладных листов). Теперь карточка растёт
+   под СВОЙ кадр: padding (не inset) даёт тот же маленький отступ по краям,
+   а <img> лежит в обычном потоке на всю ширину — её собственные width/height
+   атрибуты (app.js, из w/h в plates.json, тот же приём, что уже был у
+   renderPlateCard/p.w-p.h) задают пропорцию браузеру заранее (до загрузки
+   файла), без прыжка раскладки. */
+.ic-gal-img{display:block;padding:6px;background:var(--sheet);border:1px solid var(--rule);border-radius:2px;transition:border-color .2s}
+.ic-gal-img img{display:block;width:100%;height:auto}
+/* Пункт 8: подписи — слева (не центр), с номером страницы издания 1626 года
+   мелким приглушённым текстом (.ic-gal-pg) рядом с названием гравюры. */
+.ic-gal-cap{font-size:.8em;line-height:1.35;color:var(--soft);text-align:left;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.ic-gal-pg{display:block;font-size:.85em;opacity:.75}
 /* Поле поиска на /home/search стояло совсем без обрамления — просто нижняя
    чёрточка общего input.ic-search, будто случайно вставленная строка, без
    какого-либо визуального контейнера (в отличие от того же поля в выезжающей
@@ -1174,15 +1219,16 @@ button.ic-sr-more{display:block;margin:14px 0 0;padding:8px 16px;font:inherit;fo
 .ic-lbz-sc img{margin:auto;max-width:100%;max-height:100%;object-fit:contain;cursor:zoom-in;box-shadow:none;flex:none}
 .ic-lbz-sc.zoomed img{max-width:none;max-height:none;height:auto;cursor:zoom-out}
 @media (max-width:760px){
-  .ic-wrap.ic-home{padding-top:14px}
+  /* .ic-wrap.ic-home{padding-top:14px} — убрано (пункт 9/17 этого раунда):
+     давало обложке/карточке гравюры заметно меньший отступ под меню книги
+     на телефоне, чем у Текста/Гравюр/Поиска (обычный .ic-wrap, 32px на этой
+     же ширине, см. правило чуть выше) — обложка и карточка гравюры теперь
+     наследуют ту же базовую отбивку .ic-wrap, без собственного override. */
   .ic-ed-long{display:none}
   .ic-ed-short{display:inline}
   .ic-home-txt .ic-title{font-size:2.05em}
   .ic-home-author{margin-top:8px}
-  .ic-home-tiles{gap:12px}
-  .ic .ic-home-tile{min-height:0;padding:12px 16px}
-  .ic-home-tile-t{font-size:1.4em}
-  .ic .ic-home-tile.ic-soon{flex-direction:column;align-items:flex-start;gap:0;padding:10px 16px}
+  .ic .ic-home-tile{padding:12px 14px}
   .ic-home-toc{grid-template-columns:1fr}
   .ic-gal{grid-template-columns:repeat(2,1fr);gap:22px 14px}
 }
