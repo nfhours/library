@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "149";
+  var APP_VER = "150";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -2042,7 +2042,21 @@
       pls.forEach(function(p){ byId[p.id] = p; (p.old_ids||[]).forEach(function(o){ byOld[o] = p.id; }); });
       book.chap = {list:list, bySlug:bySlug, links:links, pl:{list:pls, byId:byId, byOld:byOld}, pm:(res[3] && res[3].chapters) || {}};
       if(tl) loadChaptersTr(book, tl, cb); else cb(book.chap);
-    }).catch(function(){ book.chap = null; cb(null); });
+    }).catch(function(){
+      // НЕ book.chap = null — так провал ОДНОЙ попытки (например, fetch
+      // оборван на лету реальной перезагрузкой/сменой вкладки iOS Safari —
+      // независимо подтверждено: в этом раунде воспроизведено, что ТАКОЙ же
+      // "TypeError: Load failed" у fetch(cfg.data) ловится здесь при быстрой
+      // перезагрузке страницы сразу после перехода в главу, ДО того как её
+      // загрузка успела завершиться) навсегда застревал бы книге: следующая
+      // же проверка `book.chap !== undefined` (выше) считала бы null таким
+      // же законным "уже загружено", как и настоящие данные, и КАЖДЫЙ
+      // следующий заход в любую главу этой книги получал бы chap:null без
+      // единой новой попытки — именно так и падал tocPartsHtml (см. его
+      // комментарий) на chap.bySlug. book.chap остаётся undefined — следующий
+      // вызов loadChapters для этой книги просто попробует загрузить заново.
+      cb(null);
+    });
   }
   // Переводы (chapters_en.json, chapters_fr.json): блоки совпадают с русскими по номерам. Готовые главы — c.en / c.fr = {title, blocks}.
   function trLang(book){
@@ -3478,15 +3492,21 @@
       return '<li><a href="'+esc(chapterHref(book, c.slug))+'"'+(c.slug===curSlug?' aria-current="page"':"")+((trLang(book) ? c[trLang(book)] : c.blocks)?"":' class="ic-ch-off"')+'>'+esc(chapTitle(c))+'</a></li>';
     }
     function extra(x){ return '<li><a href="'+esc(hrefFor(book, x.to))+'">'+esc(bt(x.title))+'</a></li>'; }
-    var groups = parts.map(function(pt){
+    // chap — null, если его загрузка не удалась (loadChapters, см. его
+    // комментарий: попытка не кэшируется навсегда именно ради следующей,
+    // повторной попытки) — у вызывающей стороны (renderChapter/renderBookText/
+    // openChapToc) в этот момент уже нечего показывать в самом списке глав,
+    // но пункт «Библиотека»/обложка (home ниже) не зависит от chap вообще и
+    // должен остаться доступным даже тогда.
+    var groups = chap ? parts.map(function(pt){
       var cs = pt.slugs.map(function(sl){ used[sl] = 1; return chap.bySlug[sl]; }).filter(Boolean);
       var li = cs.map(function(c){
         var after = (pt.links || []).filter(function(x){ return x.after===c.slug && (x.to!=="index" || book.meta.tavola); });
         return link(c)+after.map(extra).join("");
       }).join("");
       return cs.length ? '<section class="ic-toc-part"><h3>'+esc(bt(pt.name))+'</h3><ol>'+li+'</ol></section>' : "";
-    });
-    var rest = chap.list.filter(function(c){ return !used[c.slug]; });
+    }) : [];
+    var rest = chap ? chap.list.filter(function(c){ return !used[c.slug]; }) : [];
     if(rest.length) groups.push('<section class="ic-toc-part"><ol>'+rest.map(link).join("")+'</ol></section>');
     // Выход на главную книги из списка глав: ячейка 1 панели читалки (.ic-rbar-ctx)
     // при активном контексте перехода (chCtx) занята подписью «К указателю»/«К
