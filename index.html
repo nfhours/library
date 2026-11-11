@@ -40,32 +40,13 @@
      bar is already position:sticky, so hiding it this way frees screen space
      without reflowing anything underneath. */
   .back-bar.ic-bb-hidden{transform:translateY(-100%)}
-  /* .back-bar-fixed — переключается app.js (route(), на входе/выходе с
-     указателя/«Имён») ТОЛЬКО на время, пока текущий маршрут #/cartari/index
-     или #/cartari/names: там жест по рейлу букв (.ic-az-rail, app.js) дёргает
-     window.scrollTo на каждый pointermove, а position:sticky у этой шапки
-     известно перерисовывается (пересчитывает композитный слой) в iOS Safari
-     от частых программных скроллов — шапка на долю кадра визуально пропадает
-     целиком. position:fixed с отдельным слоем композиции не пересчитывается
-     так же. left:0;right:0 — она и раньше была на всю ширину вьюпорта (эта
-     шапка не вложена в max-width-обёртку, в отличие от .ic-rbar-tv, app.css),
-     так что разницы в раскладке нет вовсе, ни на одной ширине экрана. На всех
-     ОСТАЛЬНЫХ страницах (библиотека, главная книги, читалка) класс не
-     добавляется — там шапка остаётся обычной sticky, без регрессии (там либо
-     нет частых программных scrollTo за время жеста, либо — читалка — см.
-     пункт 3 задания/отчёт: баг не воспроизведён при разумной имитации). */
-  .back-bar.back-bar-fixed{position:fixed;left:0;right:0;
-    transform:translateZ(0);will-change:transform;backface-visibility:hidden}
-  /* Без этого правила .back-bar.back-bar-fixed.ic-bb-hidden не прячется
-     вовсе: .back-bar-fixed (выше) и .ic-bb-hidden (строка 42) — оба
-     двухклассовых селектора с одинаковой специфичностью, более поздний в
-     каскаде (.back-bar-fixed) побеждает и полностью перекрывает transform
-     у .ic-bb-hidden своим translateZ(0) — шапка остаётся видна на месте
-     при скролле на указателе/«Именах». Найдено независимой проверкой на
-     раунде cartari-structure-v1 (там же, где аналогичная причина уже была
-     учтена для .ic-booktabs-fixed, см. app.css — для .back-bar её в своё
-     время пропустили). */
-  .back-bar.back-bar-fixed.ic-bb-hidden{transform:translateY(-100%) translateZ(0)}
+  /* .back-bar-fixed/.ic-booktabs-fixed — фикс мигания sticky при жесте по
+     рейлу букв указателя/«Имён» (.ic-az-rail) через принудительный
+     position:fixed — убран этим раундом вместе с .ic-rbar-tv (см. app.css):
+     жест уже троттлится через rAF (wireAzRail), и на обычном sticky с этим
+     троттлингом мигание не возвращается (проверено видео-прогоном, см.
+     задание), так что указатель/«Имена» теперь везде обычный sticky, как
+     читалка главы — класс нигде в app.js больше не навешивается. */
   .back-bar a{
     font-family:"IM Fell English","Iowan Old Style",Georgia,serif;
     font-size:20px;letter-spacing:.02em;

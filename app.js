@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "148";
+  var APP_VER = "149";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -876,22 +876,13 @@
     if(activeSheetClose){ activeSheetClose(); }
     if(sv) sv.close();
     var p = parseHash(), gen = renderGen;
-    // .back-bar-fixed/.ic-booktabs-fixed (index.html/app.css) — единая точка
-    // переключения position:fixed на внешней шапке+меню книги, ТОЛЬКО для
-    // указателя/«Имён» (задание прошлых раундов, пункт 1.2 — фикс мигания
-    // sticky при частых программных scrollTo в жесте по рейлу букв): здесь,
-    // один раз, по p.view — а не разбросано по всем render*-функциям. На
-    // любой другой маршрут класс снимается, и шапка+меню книги возвращают
-    // своё обычное position:sticky (без регрессии нигде, кроме этих двух
-    // страниц).
-    // Пункт 13 этого раунда: карточка имени (p.view==="names" && p.name,
-    // см. parseHash) — обычная страница, НЕ список; раньше делила один и тот
-    // же p.view==="names" с указателем/«Именами»-списком и получала
-    // back-bar-fixed (фикс мигания sticky при жесте по рейлу букв), который
-    // ей не нужен вовсе — на карточке нет .ic-az-rail/частых программных
-    // scrollTo. !p.name отличает список от карточки.
-    var bbar = document.querySelector(".back-bar");
-    if(bbar) bbar.classList.toggle("back-bar-fixed", p.view==="tavola" || (p.view==="names" && !p.name));
+    // .back-bar-fixed/.ic-booktabs-fixed (index.html/app.css) — фикс
+    // мигания sticky при частых программных scrollTo в жесте по рейлу букв
+    // (указатель/«Имена») — убран этим раундом вместе с position:fixed у
+    // .ic-rbar-tv (см. комментарий там же в app.css): рейл теперь троттлится
+    // через rAF (wireAzRail/frame), и отдельный position:fixed сверху для
+    // той же цели больше не нужен — указатель/«Имена» живут на том же
+    // обычном sticky, что и читалка главы, без исключений.
     if(!p.slug){ renderLibraryHome(); return; }
     openBook(p.slug, p, function(book){
       if(!book){ if(!forcedBook) renderLibraryHome(); return; }
@@ -1014,28 +1005,16 @@
   // .back-bar, см. его комментарий) и для headerStackH()/syncHeaderStack()
   // выше (высота меню книги, которую строка раздела и столбик букв держат в
   // своих статичных отступах).
-  // fixed (пункт 13 этого раунда, 3-й параметр) — явно решает, нужен ли
-  // .ic-booktabs-fixed, НЕЗАВИСИМО от activeSect: карточка имени тоже
-  // передаёт activeSect="names" (чтобы подсветилась та же вкладка), но она —
-  // обычная страница без жеста по рейлу букв, поэтому вызывает с fixed:false.
-  // Без явного аргумента (undefined) поведение прежнее — автоматически по
-  // activeSect ("index"/"names"), как и раньше, для настоящих списков
-  // указателя/«Имён» (их вызовы bookTabsHtml этот параметр не передают).
+  // 3-й параметр (fixed) — историческое, игнорируется: .ic-booktabs-fixed
+  // (фикс мигания sticky при жесте по рейлу букв) убран этим раундом вместе
+  // с position:fixed у .ic-rbar-tv/.back-bar-fixed, см. комментарии там же —
+  // указатель/«Имена» теперь везде обычный sticky, как читалка главы.
   function bookTabsHtml(book, activeSect, fixed){
     var tabs = [["text", t("bkTabText")], ["plates", t("hmGallery")]];
     if(book.meta.tavola) tabs.push(["index", t("hmIndex")]);
     if(book.meta.names) tabs.push(["names", t("hmNames")]);
     tabs.push(["search", t("hmSearch")]);
-    // .ic-booktabs-fixed — тот же фикс мигания sticky при частых программных
-    // scrollTo (жест по рейлу букв .ic-az-rail), что у .back-bar-fixed
-    // (route()/index.html): нужен ТОЛЬКО на указателе/«Именах» (activeSect
-    // "index"/"names") — задаём классом прямо в разметке, а не отдельным
-    // toggle из route(), т.к. .ic-booktabs целиком пересобирается каждым
-    // рендером (в отличие от .back-bar, которая живёт вне root и переживает
-    // смену страниц).
-    var autoFixed = (activeSect==="index" || activeSect==="names");
-    var fixedCls = (fixed===false ? false : (fixed===true ? true : autoFixed)) ? " ic-booktabs-fixed" : "";
-    return '<nav class="ic-booktabs'+fixedCls+'" id="ic-booktabs" aria-label="'+esc(t("hmNavLabel"))+'">'+
+    return '<nav class="ic-booktabs" id="ic-booktabs" aria-label="'+esc(t("hmNavLabel"))+'">'+
       tabs.map(function(x){
         // .ic-bt-label (пункт 16 этого раунда) — подпись обёрнута в свой
         // inline-block span, который сжимается до ширины СВОЕГО текста
@@ -1235,12 +1214,19 @@
       if(bbar) bbar.classList.toggle("ic-bb-hidden", v);
       var bt = document.getElementById("ic-booktabs");
       if(bt) bt.classList.toggle("ic-bb-hidden", v);
-      // Пункт 1 этого раунда: строка раздела главы (.ic-rbar, БЕЗ -tv —
-      // указатель/«Имена» не трогаем, см. задание) теперь снова прячется
-      // вслед за шапкой+меню книги — в тот же тик, тем же v — снапом к
-      // top:0 (+safe-area), а не статичным var(--top2), как раньше.
+      // Строка раздела (.ic-rbar, ЛЮБАЯ — читалка главы И указатель/«Имена»,
+      // см. задание этого раунда: -tv больше не исключение, см. комментарий
+      // у .ic-rbar-tv в app.css) прячется вслед за шапкой+меню книги — в тот
+      // же тик, тем же v — снапом к top:0 (+safe-area), а не статичным
+      // var(--top2)/var(--az-top), как раньше.
       var rb = document.getElementById("ic-rbar");
-      if(rb && !rb.classList.contains("ic-rbar-tv")) rb.classList.toggle("ic-rbar-snap", v);
+      if(rb) rb.classList.toggle("ic-rbar-snap", v);
+      // Столбик букв указателя/«Имён» (.ic-az-rail) — тот же тик, та же
+      // причина: сидит сразу под строкой раздела в её текущем (прилипшем
+      // или нет) положении, см. .ic-az-rail-snap в app.css и
+      // syncAzRailBounds ниже, который считает оба положения заранее.
+      var rail = document.querySelector(".ic-az-rail");
+      if(rail) rail.classList.toggle("ic-az-rail-snap", v);
     }
     function tick(){
       if(opts.isActive && !opts.isActive()){ setHidden(false); return; }
@@ -1562,51 +1548,31 @@
     rail.addEventListener("pointercancel", end);
   }
 
-  // Верхняя граница .ic-az-rail (--az-top, см. app.css) — столбик больше не
-  // двигается вообще (ни при скролле, ни при прятании/появлении шапки, см.
-  // задание), поэтому top считается ОДИН раз, а не на каждый кадр. Это
-  // высота .back-bar (root.dataset.top, см. syncTopVar выше) + РЕАЛЬНАЯ
-  // высота капсулы .ic-rbar В РАЗВЁРНУТОМ виде + отступ 14px. rect.height
-  // капсулы не меняется от translateY (тот же факт, на который опирается
-  // updateSheetMaxH выше) — поэтому измерение верно, даже если капсула в
-  // этот момент реально спрятана скроллом: шапка в развёрнутом виде тогда
-  // просто никогда не перекрывает буквы, а когда она спрятана — над
-  // столбиком остаётся немного свободного места (разрешено заданием). Не
-  // хардкод — высота капсулы зависит от языка интерфейса (RU/EN/FR) и от
-  // компактного ландшафтного режима на низком экране (см. медиа-правила
-  // .ic-rbar/.back-bar). Вызывается из fill() у renderTavola/renderNames (и
-  // из общего resize/orientationchange слушателя ниже) — один слушатель на
+  // Верхняя граница .ic-az-rail — ДВА заранее посчитанных положения (этот
+  // раунд, задание пункт 2), не одно статичное, как раньше: --az-top (шапка+
+  // меню книги видны — headerStackH() + реальная высота капсулы .ic-rbar-tv
+  // + отступ 14px) и --az-top-snap (шапка+меню книги спрятаны, капсула сама
+  // сидит у top:0 — только её высота + 14px, см. .ic-az-rail-snap в
+  // app.css). Между ними переключает installScrollHide/setHidden тем же
+  // классом и в тот же тик, что и саму капсулу (.ic-rbar-snap) — редкий
+  // порог (hideAt/showAt), не каждый кадр скролла, так что считать здесь
+  // оба значения один раз, без пересчёта на каждый тик, по-прежнему можно и
+  // нужно. rect.height капсулы не меняется от translateY/top (тот же факт,
+  // на который опирается updateSheetMaxH выше), поэтому измерение верно
+  // независимо от того, спрятана ли капсула в этот момент. Не хардкод —
+  // высота капсулы зависит от языка интерфейса (RU/EN/FR) и от компактного
+  // ландшафтного режима на низком экране (см. медиа-правила .ic-rbar/
+  // .back-bar). Вызывается из fill() у renderTavola/renderNames (и из
+  // общего resize/orientationchange слушателя ниже) — один слушатель на
   // весь модуль, no-op если рейла сейчас нет на странице (тот же приём, что
   // у fitCtxLabels/closeQm).
   function syncAzRailBounds(){
     syncHeaderStack();
-    var rbar = document.getElementById("ic-rbar");
-    // --tv-content-top (app.css, .ic-wrap.ic-tv) — компенсирующий отступ
-    // контенту указателя/«Имён» теперь, когда .back-bar/.ic-booktabs/
-    // .ic-rbar-tv стали position:fixed (задание прошлых раундов, пункт 1.3,
-    // и этого раунда — меню книги добавилось в тот же стек) и больше не
-    // резервируют своё место в потоке документа, как раньше делал sticky.
-    // Сумма реальных высот .back-bar+.ic-booktabs (headerStackH(), см. выше)
-    // + .ic-rbar-tv + её собственный margin-bottom (26px, app.css) — ровно
-    // то, что раньше давала обычная раскладка потока. Пишем на root —
-    // наследуется вниз по CSS-переменным до .ic-wrap.ic-tv, где бы он ни
-    // лежал в разметке. Ставим ТОЛЬКО когда реально на странице капсула
-    // указателя/«Имён» (.ic-rbar-tv) — на читалке (.ic-rbar без -tv)
-    // переменная не нужна, и пересчитывать её там не на чём (той обёртки с
-    // margin-top там нет).
-    if(rbar && rbar.classList.contains("ic-rbar-tv")){
-      var contentTop = headerStackH() + rbar.getBoundingClientRect().height + 26;
-      root.style.setProperty("--tv-content-top", Math.max(0, contentTop)+"px");
-    }
     var rail = document.querySelector(".ic-az-rail");
     if(!rail) return;
-    // --az-top — верхняя граница столбика букв, теперь отсчитывается от
-    // СТРОКИ РАЗДЕЛА в её прилипшем положении (headerStackH() = шапка сайта
-    // + меню книги, ПЛЮС высота самой капсулы .ic-rbar-tv) — задание этого
-    // раунда, пункт 5: столбик статичен и сидит сразу под строкой раздела
-    // независимо от того, видны ли шапка+меню книги в данный момент.
-    var top = headerStackH() + (rbar ? rbar.getBoundingClientRect().height : 0) + 14;
-    rail.style.setProperty("--az-top", Math.max(0,top)+"px");
+    var rbar = document.getElementById("ic-rbar"), rbarH = rbar ? rbar.getBoundingClientRect().height : 0;
+    rail.style.setProperty("--az-top", Math.max(0, headerStackH() + rbarH + 14)+"px");
+    rail.style.setProperty("--az-top-snap", Math.max(0, rbarH + 14)+"px");
   }
   window.addEventListener("resize", syncAzRailBounds);
   window.addEventListener("orientationchange", syncAzRailBounds);

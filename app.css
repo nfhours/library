@@ -273,11 +273,10 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    "ic-bb-hidden", installScrollHide — см. app.js), той же анимацией
    transform/transition, что .back-bar, — одно совместное движение, без
    рассинхрона (задание, пункт 5).
-   .ic-booktabs-fixed — тот же фикс мигания sticky при частых программных
-   scrollTo (жест по рейлу букв), что у .back-bar-fixed (index.html): нужен
-   только на указателе/«Именах» — задаётся прямо в разметке (bookTabsHtml),
-   не отдельным классом из route(), т.к. .ic-booktabs целиком пересобирается
-   каждым рендером. */
+   .ic-booktabs-fixed (фикс мигания sticky при жесте по рейлу букв через
+   position:fixed) убран этим раундом — см. комментарий у .back-bar-fixed в
+   index.html: класс больше нигде не навешивается, указатель/«Имена» живут
+   на обычном sticky, как и здесь. */
 .ic-booktabs{position:sticky;top:var(--top);z-index:9;display:flex;
   background:#16130f;border-top:1px solid rgba(236,229,212,.12);
   transition:transform .3s ease;will-change:transform}
@@ -305,33 +304,25 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    раунде: без компенсации после "скрытия" .ic-booktabs оставалась видна
    почти целиком (верх на +8px вместо ухода за экран). */
 .ic-booktabs.ic-bb-hidden{transform:translateY(calc(-100% - var(--top)))}
-.ic-booktabs.ic-booktabs-fixed{position:fixed;left:0;right:0;
-  transform:translateZ(0);will-change:transform;backface-visibility:hidden}
-.ic-booktabs.ic-booktabs-fixed.ic-bb-hidden{transform:translateY(calc(-100% - var(--top))) translateZ(0)}
 @media (max-height:500px) and (orientation:landscape){
   .ic-booktabs a{padding:8px 6px 7px;font-size:10px}
 }
 
 /* Строка раздела книги (.ic-rbar) — под меню книги (.ic-booktabs). На главе —
    [контекст, если пришли по ссылке] [Глава · страница] [Скан] [Начало]; на
-   указателе/«Именах» (.ic-rbar-tv) — [Найти] [сортировка/Тип]. Round (этот
-   раунд, задание пункт 3-5): прежняя ячейка «Книга»/запасная кнопка возврата
-   убрана совсем (книжные вкладки сверху уже дают прямой доступ к любому
-   разделу) — см. app.js renderChapter/renderTavola/renderNames. Строка
-   раздела теперь НИКОГДА не прячется при прокрутке (новая двухуровневая
-   схема, пункт 5): прячутся только .back-bar+.ic-booktabs, единым
-   движением; строка раздела статична, top:var(--top2) (= высота .back-bar
-   + реальная высота .ic-booktabs, app.js syncHeaderStack/headerStackH) —
-   когда шапка+меню книги спрятаны прокруткой, над строкой раздела остаётся
-   немного свободного места (тот же приём, что уже был принят для столбика
-   букв .ic-az-rail в прошлых раундах — см. его комментарий ниже), когда
-   видны — строка раздела остаётся на том же месте, шапка+меню книги просто
-   встают НАД ней.
-   Round 8 (прошлый раунд): перенесён заказчиком утверждённый макет
-   rbar-proto.html, вариант Б («одна капсула с сегментами») — вся строка
-   заключена в общую рамку с радиусом, деление на ячейки — тонкие внутренние
-   border-left. Фон полосы — непрозрачный почти-чёрный #16130f, тот же тон,
-   что у .back-bar/.ic-booktabs. Текст светлый (--cream), капителью. */
+   указателе/«Именах» (.ic-rbar-tv) — [Найти] [сортировка/Тип]. Прежняя
+   ячейка «Книга»/запасная кнопка возврата убрана совсем (книжные вкладки
+   сверху уже дают прямой доступ к любому разделу) — см. app.js
+   renderChapter/renderTavola/renderNames.
+   Одинаково на ВСЕХ страницах книги (строка раздела прячется вслед за
+   шапкой+меню книги, см. .ic-rbar-snap ниже — раньше указатель/«Имена» были
+   исключением со своим вечно статичным положением и зазором над собой,
+   этим раундом исключение снято, см. задание). Вид — утверждённый макет
+   rbar-proto.html, вариант Б («одна капсула с сегментами»): вся строка в
+   общей рамке с радиусом, деление на ячейки — тонкие внутренние border-left.
+   Фон полосы — #211d18, на тон светлее почти-чёрного #16130f у .back-bar/
+   .ic-booktabs (видно как единый тёмный блок, но не слитно с ними — глава
+   этого раунда). Текст светлый (--cream), капителью. */
 .ic-rbar{position:sticky;top:var(--top2, 96px);z-index:5;
   --cream:236,229,212; --bar:#211d18; --rbar-accent:#d9a991;
   --rbar-ink:rgba(var(--cream),.94); --rbar-soft:rgba(var(--cream),.64);
@@ -350,30 +341,24 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    снова показывается. transition:top (на базовом правиле выше) — та же
    длительность .3s ease, что у transform шапки/.ic-booktabs, чтобы оба
    движения читались одним целым. */
-.ic-rbar.ic-rbar-snap:not(.ic-rbar-tv){top:env(safe-area-inset-top, 0px)}
-/* .ic-rbar-tv (указатель/«Имена», app.js renderTavola/renderNames) — фикс
-   вспышки-пропадания меню на iPhone Safari при ведении пальцем по рейлу
-   букв (.ic-az-rail/wireAzRail, app.js): каждый pointermove там дёргал
-   window.scrollTo программно, а position:sticky у iOS Safari известно
-   перерисовывает композитный слой на частый программный скролл — на долю
-   кадра элемент визуально пропадает целиком. Переключаем ИМЕННО и ТОЛЬКО
-   .ic-rbar-tv (не базовое .ic-rbar — читалка главы, renderChapter, тот же
-   класс без -tv, продолжает жить на sticky, см. соседний комментарий ниже
-   и пункт 3 задания про читалку) на position:fixed + отдельный композитный
-   слой (translateZ(0)+will-change:transform, уже заданный выше в базовом
-   правиле, получает и -tv — will-change наследуется по специфичности
-   родительского правила автоматически + backface-visibility:hidden,
-   которых в базовом правиле не было). top наследуется от базового правила
-   (var(--top2)) — та же сумма высот .back-bar+.ic-booktabs, что и у sticky-
-   варианта читалки. left:0;right:0 — без потолка max-width:1120px, который
-   раньше был у родителя .ic-ch-outer: сама капсула теперь фиксирована к
-   вьюпорту, а не к ширине бывшего родителя; видимое содержимое
-   (.ic-rbar-row) и так ограничено max-width:1120px и центрировано само по
-   себе (правило ниже) — так что кнопки/текст сидят РОВНО там же, где
-   раньше. Компенсирующий отступ контенту под фиксированной капсулой —
-   --tv-content-top, см. .ic-wrap.ic-tv ниже и syncAzRailBounds (app.js). */
-.ic-rbar.ic-rbar-tv{position:fixed;left:0;right:0;
-  transform:translateZ(0);will-change:transform;backface-visibility:hidden}
+.ic-rbar.ic-rbar-snap{top:env(safe-area-inset-top, 0px)}
+/* .ic-rbar-tv (указатель/«Имена», app.js renderTavola/renderNames) — этим
+   раундом (задание: «строка раздела должна вести себя как в главе») БОЛЬШЕ
+   НЕ отдельная position:fixed капсула со своим компенсирующим отступом —
+   живёт на той же sticky+snap схеме, что и базовый .ic-rbar читалки главы
+   (строки выше): резервирует своё место в потоке сама, без --tv-content-top
+   (убран, см. .ic-wrap.ic-tv ниже), и снимается к top:0 вместе с шапкой+
+   меню книги через то же .ic-rbar-snap (installScrollHide/setHidden,
+   app.js, больше не исключает -tv). Раньше здесь был фикс вспышки-
+   пропадания меню на iPhone Safari при ведении пальцем по рейлу букв
+   (.ic-az-rail/wireAzRail): каждый pointermove дёргал window.scrollTo
+   программно, а sticky у iOS Safari на частый программный скролл
+   перерисовывает композитный слой — элемент на долю кадра пропадал. Чинили
+   принудительным position:fixed. Теперь тот жест и так троттлится через
+   rAF (wireAzRail/frame(), не чаще раза за кадр — фикс более позднего
+   раунда) — проверено видео-прогоном (см. задание), на sticky с этим
+   троттлингом вспышка не возвращается, так что отдельный position:fixed
+   здесь больше не нужен. */
 /* .ic-rbar-elevated (z-index:20) — УБРАН этим раундом (был фикс для бага,
    который он сам же порождал). Раньше временно поднимал z-index .ic-rbar
    выше .back-bar (10, index.html) на всё время, пока открыта/анимируется
@@ -424,21 +409,15 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
 .ic-rbar-row button[aria-pressed="true"]{background:rgb(var(--cream));color:var(--bar)}
 .ic-rbar-row .ic-rbar-ctx{flex:0 1 auto;min-width:40px;justify-content:center;overflow:hidden}
 .ic-rbar-ctx span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:center}
-/* Компенсирующий отступ контенту указателя/«Имён» (.ic-wrap.ic-tv) под
-   фиксированным меню (.back-bar-fixed+.ic-booktabs-fixed+.ic-rbar-tv, см.
-   выше/index.html) — раз все три стали position:fixed, они больше не
-   резервируют своё место в потоке документа (в отличие от прежнего
-   position:sticky), поэтому без этого отступа заголовок страницы (.ic-head)
-   залез бы под шапку+меню книги+капсулу. margin-top (не трогаем padding-top
-   у базового .ic-wrap — он остаётся прежним, это ДОБАВОЧНЫЙ отступ) =
-   --tv-content-top, которую пишет syncAzRailBounds (app.js): headerStackH()
-   (реальная высота .back-bar + реальная высота .ic-booktabs) + реальная
-   высота .ic-rbar-tv + её собственный margin-bottom (26px, см. .ic-rbar
-   выше) — то есть ровно та сумма, которую раньше неявно давала обычная
-   раскладка потока с тремя sticky-элементами. Фоллбэк 126px — запасной
-   статичный вариант только до первого вызова syncAzRailBounds (тот же
-   приём, что у --az-top). */
-.ic-wrap.ic-tv{margin-top:var(--tv-content-top, 126px)}
+/* Компенсирующий отступ .ic-wrap.ic-tv (--tv-content-top) — УБРАН этим
+   раундом: указатель/«Имена» больше не используют отдельный position:fixed
+   стек (.back-bar-fixed/.ic-booktabs-fixed/.ic-rbar-tv — все трое теперь
+   живут на обычном sticky, см. index.html/комментарий у .ic-rbar-tv выше),
+   значит снова сами резервируют своё место в потоке документа, как у главы
+   (.ic-wrap.ic-ch-wrap, без какой-либо аналогичной компенсации). Раньше без
+   неё .ic-head залезал бы под фиксированный стек; теперь обычный
+   padding-top базового .ic-wrap (строка выше) делает ровно то же самое, что
+   и в читалке главы — без JS-расчёта высоты на каждый resize. */
 /* Ячейка возврата/контекста (.ic-rbar-ctx) — текст оборачивается в <span>
    в разметке (app.js), не идёт напрямую в button: text-overflow НЕ
    применяется к самому button, т.к. .ic-rbar button — display:flex
@@ -1343,11 +1322,25 @@ button.ic-tv-sheet-reset{flex:none;height:34px;padding:0 14px;border:1px solid r
   .ic-az-rail{display:flex;flex-direction:column;justify-content:space-between;align-items:center;
     position:fixed;z-index:6;right:calc(1px + env(safe-area-inset-right));
     top:var(--az-top, 116px);bottom:calc(14px + 24px + env(safe-area-inset-bottom));
-    width:30px;touch-action:none;
+    width:30px;touch-action:none;transition:top .3s ease;
     /* Свой композитный слой (как у .back-bar-fixed/.ic-rbar-tv, см.
        index.html/выше) — столбик уже был position:fixed с прошлого раунда,
        но без явного слоя композиции; пользователь просит дать его и ему. */
     transform:translateZ(0);will-change:transform;backface-visibility:hidden}
+  /* .ic-az-rail-snap (этот раунд, задание пункт 2) — столбик букв сидит
+     СРАЗУ под строкой раздела в её прилипшем (к top:0) положении, как и в
+     главе, а не в фиксированной точке, рассчитанной на всегда видимую
+     шапку. Остаётся position:fixed (не sticky — именно sticky при частых
+     программных scrollTo раньше давало вспышку, см. комментарий у
+     .ic-rbar-tv выше), просто top переключается между ДВУМЯ заранее
+     посчитанными значениями (--az-top/--az-top-snap, оба пишет
+     syncAzRailBounds за один раз, не на каждый кадр скролла) по тому же
+     классу .ic-az-rail-snap, что installScrollHide/setHidden (app.js)
+     вешает на капсулу и шапку+меню книги в ОДИН тик — порог срабатывания
+     редкий (переход через hideAt/showAt), а не на каждый пиксель прокрутки,
+     поэтому жест по самой полосе (частый scrollTo, см. wireAzRail) не
+     переключает этот класс чаще, чем сама шапка прячется/появляется. */
+  .ic-az-rail.ic-az-rail-snap{top:calc(env(safe-area-inset-top, 0px) + var(--az-top-snap, 56px))}
   /* Кнопки в покое приглушены (opacity:.55) — яркость до 1 только пока
      палец/курсор на полосе (.ic-az-rail-active, выставляется из app.js на
      onDragStart/onDragEnd у wireAzRail — тот же колбэк, что покрывает и
