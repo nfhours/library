@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "146";
+  var APP_VER = "147";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -29,8 +29,27 @@
     root.style.setProperty("--top", px);
   }
   syncTopVar();
-  window.addEventListener("resize", function(){ syncTopVar(); updateSheetMaxH(); });
-  window.addEventListener("orientationchange", function(){ syncTopVar(); updateSheetMaxH(); });
+  // bookTabsH/headerStackH/syncHeaderStack — этот раунд (задание, пункт 3-5):
+  // новое общее меню книги (.ic-booktabs, bookTabsHtml ниже) сидит МЕЖДУ
+  // внешней .back-bar и строкой раздела книги (капсула .ic-rbar/.ic-rbar-tv
+  // читалки/указателя/«Имён») на каждой странице книги — высота видимого
+  // "стека" над контентом/над капсулой теперь не просто root.dataset.top
+  // (высота .back-bar), а она ЖЕ + реальная высота .ic-booktabs, если она
+  // есть на странице (на страницах без book.meta.home её вовсе нет —
+  // bookTabsH() тогда 0, headerStackH() совпадает со старым root.dataset.top,
+  // ни одно из мест, где уже использовался root.dataset.top для прочих книг,
+  // не задето). --top2 (app.css) — та же сумма как CSS-переменная, читает её
+  // .ic-rbar/.ic-rbar-tv (position:sticky/fixed;top:var(--top2)) для
+  // собственной позиции под меню книги — синхронизируется явно, сразу после
+  // вставки разметки капсулы (см. renderChapter/renderTavola/renderNames), а
+  // не только по resize/orientationchange ниже (высота меню книги не зависит
+  // от скролла и не должна «плыть» при первом кадре).
+  function bookTabsH(){ var bt = document.getElementById("ic-booktabs"); return bt ? bt.getBoundingClientRect().height : 0; }
+  function headerStackH(){ return (parseFloat(root.dataset.top)||0) + bookTabsH(); }
+  function syncHeaderStack(){ root.style.setProperty("--top2", headerStackH()+"px"); }
+  syncHeaderStack();
+  window.addEventListener("resize", function(){ syncTopVar(); updateSheetMaxH(); syncHeaderStack(); });
+  window.addEventListener("orientationchange", function(){ syncTopVar(); updateSheetMaxH(); syncHeaderStack(); });
   // visualViewport — события, которые СУЩЕСТВУЮТ ИМЕННО для динамической
   // адресной строки iOS Safari (её показ/скрытие при скролле меняет
   // visualViewport.height независимо от window.innerHeight/resize, который
@@ -156,7 +175,6 @@
     chPrev:       {ru:"Предыдущая глава", en:"Previous chapter", fr:"Chapitre précédent"},
     chToc:        {ru:"Главы", en:"Chapters", fr:"Chapitres"},
     contents:     {ru:"Содержание", en:"Contents", fr:"Sommaire"},
-    rbBook:       {ru:"Книга", en:"Book", fr:"Livre"},
     rbCtxTv:      {ru:"К указателю", en:"To the index", fr:"À l’index"},
     rbCtxPl:      {ru:"К гравюре", en:"To the engraving", fr:"À la gravure"},
     rbCtxNm:      {ru:"К имени", en:"To the name", fr:"Au nom"},
@@ -166,16 +184,10 @@
     rbPosLabel:   {ru:"Открыть содержание", en:"Open the contents", fr:"Ouvrir le sommaire"},
     qmLabel:      {ru:"Пояснение к неясному месту", en:"Note on an unclear passage", fr:"Note sur un passage obscur"},
     qmDefault:    {ru:"Место в оригинале неясно, переведено по смыслу.", en:"The passage is unclear in the original; translated by sense.", fr:"Le passage est obscur dans l'original ; traduit selon le sens."},
-    hmRead:       {ru:"Читать книгу", en:"Read the book", fr:"Lire le livre"},
+    // hmReadSub — теперь подпись карточки раздела «Текст» на обложке
+    // (bkTabText выше задаёт заголовок) — плитки «Читать»/«Продолжить»
+    // и «Содержание» с главной книги убраны этим раундом.
     hmReadSub:    {ru:"Содержание по частям", en:"Contents by part", fr:"Sommaire par partie"},
-    // hmContinue/hmStart — подпись плитки «Читать»/«Продолжить» на главной
-    // книги (homeTile ниже): зависит от localStorage (ic-lastread:<slug>,
-    // см. saveLastRead/loadLastRead выше) — есть сохранённое место чтения
-    // или нет. {ch}/{n} — короткий заголовок главы и номер страницы.
-    hmContinue:   {ru:"Продолжить: {ch}, с. {n}", en:"Continue: {ch}, p. {n}", fr:"Continuer : {ch}, p. {n}"},
-    hmStart:      {ru:"Начать с начала", en:"Start from the beginning", fr:"Commencer au début"},
-    hmToc:        {ru:"Содержание", en:"Contents", fr:"Sommaire"},
-    hmTocSub:     {ru:"Список глав и частей книги", en:"List of chapters and parts", fr:"Liste des chapitres et parties"},
     hmGallery:    {ru:"Гравюры", en:"Engravings", fr:"Gravures"},
     hmGallerySub: {ru:"Все иллюстрации книги: {n}", en:"All the illustrations: {n}", fr:"Toutes les illustrations : {n}"},
     hmSearch:     {ru:"Поиск", en:"Search", fr:"Recherche"},
@@ -260,7 +272,13 @@
     srItOrig:     {ru:"итальянский текст", en:"Italian text", fr:"texte italien"},
     srPlace:      {ru:"Поиск по книге", en:"Search the book", fr:"Recherche dans le livre"},
     hmNavLabel:   {ru:"Разделы книги", en:"Book sections", fr:"Sections du livre"},
-    hmCloseToc:   {ru:"Закрыть содержание", en:"Close contents", fr:"Fermer le sommaire"}
+    hmCloseToc:   {ru:"Закрыть содержание", en:"Close contents", fr:"Fermer le sommaire"},
+    // bkTabText — подпись вкладки «Текст» в новом общем меню книги
+    // (.ic-booktabs, bookTabsHtml ниже): отдельный раздел «только содержание»
+    // (tocPartsHtml без текущей главы) — не то же самое, что hmRead/hmToc
+    // (прежняя плитка главной книги, убранная этим раундом), поэтому ключ
+    // новый, а не повторное использование hmToc/hmRead.
+    bkTabText:    {ru:"Текст", en:"Text", fr:"Texte"}
   };
   function t(key, vars){
     var s = (DICT[key] && (DICT[key][state.lang] || DICT[key].en || DICT[key].ru)) || key;
@@ -343,20 +361,9 @@
     state.q=""; state.filter="all"; state.sort="book";
     try{ var s=sessionStorage.getItem("ic-state:"+slug); if(s){ var o=JSON.parse(s); state.q=o.q||""; state.filter=o.filter||"all"; state.sort=o.sort||"book"; } }catch(e){}
   }
-  // «Последнее место чтения» (главная книги, плитка «Читать»/«Продолжить» —
-  // homeTile ниже): hash — адрес, который открывает ровно эту страницу главы
-  // (chapterHref с номером блока страницы, не просто адрес главы), ch — заголовок
-  // главы для подписи плитки (короткая форма, chapTitleShort), pg — номер
-  // страницы издания 1626 г. (pgLabel). try/catch — как у всех остальных
-  // localStorage в этом файле (ic-lang выше); ключ на книгу, не глобальный,
-  // по тому же паттерну "ic-…:"+slug, что у sessionStorage keep() выше.
-  function lastReadKey(slug){ return "ic-lastread:"+slug; }
-  function saveLastRead(book, data){
-    try{ localStorage.setItem(lastReadKey(book.slug), JSON.stringify(data)); }catch(e){}
-  }
-  function loadLastRead(book){
-    try{ var s = localStorage.getItem(lastReadKey(book.slug)); return s ? JSON.parse(s) : null; }catch(e){ return null; }
-  }
+  // «Последнее место чтения» (saveLastRead/loadLastRead/lastReadKey) — убрано
+  // целиком этим раундом (задание, пункт 2): обложка больше не предлагает
+  // плитку «Читать»/«Продолжить», поэтому ничего не пишет в localStorage.
 
   function esc(s){ return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];}); }
   function norm(s){ return String(s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"")
@@ -814,10 +821,18 @@
   }
 
   /* ---------- маршрутизация ---------- */
-  // Форматы адреса: "#/<slug>/<id>" — карточка; "#/<slug>" — указатель книги;
-  // "#/<slug>/about" — страница «О книге»; "#/<slug>/find" — указатель карточек книги с главной (там "#/<slug>" ведёт на главную); "#/<slug>/home[/gallery|search]" — главная книги (book.json home); "#/<slug>/ch/<глава>[/<блок>]" — глава
-  // русского перевода (только книги с book.json chapters); "#/<slug>/plate/<n>" — просмотр таблицы
-  // целиком с номерами (только для книг с book.json viewer:"plate");
+  // Форматы адреса: "#/<slug>/<id>" — карточка; "#/<slug>" — указатель книги
+  // (или обложка — "#/<slug>" без суффикса, книги с book.json home: пять
+  // самостоятельных разделов, задание этого раунда, пункт 1-2);
+  // "#/<slug>/about" — страница «О книге»; "#/<slug>/find" — указатель
+  // карточек книги с главной (там "#/<slug>" ведёт на обложку);
+  // "#/<slug>/text" — содержание по частям; "#/<slug>/plates" — все гравюры
+  // сеткой по главам; "#/<slug>/search" — поиск по книге;
+  // "#/<slug>/home[/gallery|search]" — ЛЕГАСИ, редирект на обложку/plates/
+  // search (route() ниже) — сохранённые/расшаренные ссылки до этого раунда;
+  // "#/<slug>/ch/<глава>[/<блок>]" — глава русского перевода (только книги с
+  // book.json chapters); "#/<slug>/plate/<n>" — просмотр таблицы целиком с
+  // номерами (только для книг с book.json viewer:"plate");
   // "#/" или пусто — библиотека (когда книга не закреплена через data-book).
   // Старый формат без слага "#/p1-3" по-прежнему работает и ведёт в "iconologie" —
   // так не ломаются ссылки, сохранённые до появления библиотеки.
@@ -836,6 +851,9 @@
     if(!rest.length) return {slug:slug};
     if(rest[0]==="about") return {slug:slug, view:"about"};
     if(rest[0]==="home") return {slug:slug, view:"home", tab:rest[1]};
+    if(rest[0]==="text") return {slug:slug, view:"text"};
+    if(rest[0]==="plates") return {slug:slug, view:"plates"};
+    if(rest[0]==="search") return {slug:slug, view:"search"};
     if(rest[0]==="find") return {slug:slug, view:"find"};
     if(rest[0]==="index") return {slug:slug, view:"tavola"};
     if(rest[0]==="names") return {slug:slug, view:"names", name:rest[1]};
@@ -850,7 +868,7 @@
     var rd = book.meta.legacyRedirect && book.meta.legacyRedirect[id], chap = book.chap, lk = chap && chap.links[id];
     if(rd) return hrefFor(book, rd);
     if(lk && chap.bySlug[lk.chapter]) return chapterHref(book, lk.chapter, lk.block);
-    return hrefFor(book, "home");
+    return coverHref(book);
   }
 
   function route(){
@@ -858,10 +876,12 @@
     if(activeSheetClose){ activeSheetClose(); }
     if(sv) sv.close();
     var p = parseHash(), gen = renderGen;
-    // .back-bar-fixed (index.html) — единая точка переключения position:
-    // fixed на внешней шапке, ТОЛЬКО для указателя/«Имён» (задание, пункт
-    // 1.2): здесь, один раз, по p.view — а не разбросано по всем render*-
-    // функциям. На любой другой маршрут класс снимается, и шапка возвращает
+    // .back-bar-fixed/.ic-booktabs-fixed (index.html/app.css) — единая точка
+    // переключения position:fixed на внешней шапке+меню книги, ТОЛЬКО для
+    // указателя/«Имён» (задание прошлых раундов, пункт 1.2 — фикс мигания
+    // sticky при частых программных scrollTo в жесте по рейлу букв): здесь,
+    // один раз, по p.view — а не разбросано по всем render*-функциям. На
+    // любой другой маршрут класс снимается, и шапка+меню книги возвращают
     // своё обычное position:sticky (без регрессии нигде, кроме этих двух
     // страниц).
     var bbar = document.querySelector(".back-bar");
@@ -871,12 +891,23 @@
       if(!book){ if(!forcedBook) renderLibraryHome(); return; }
       var isPlateBook = book.meta.viewer==="plate";
       var hasHome = !!(book.meta.home && book.meta.chapters);
-      if(hasHome && !p.id && !p.view){ location.replace(hrefFor(book, "home")); return; }
-      if(hasHome && p.view==="find"){ location.replace(hrefFor(book, "home/search")); return; }
+      // Legacy #/<slug>/home[,/gallery,/search] -> новые адреса обложки/
+      // разделов (задание, пункт 6 и пункт 2): обложка теперь сам базовый
+      // адрес книги без суффикса ("/home" больше не самостоятельный
+      // маршрут — только редирект для старых сохранённых/расшаренных ссылок).
+      if(hasHome && p.view==="home"){
+        if(p.tab==="gallery"){ location.replace(hrefFor(book, "plates")); return; }
+        if(p.tab==="search"){ location.replace(hrefFor(book, "search")); return; }
+        location.replace(coverHref(book)); return;
+      }
+      if(hasHome && p.view==="find"){ location.replace(hrefFor(book, "search")); return; }
       if(hasHome && p.id && book.chap===undefined){ loadChapters(book, function(){ if(gen===renderGen) route(); }); return; }
       if(hasHome && p.id && book.chap && book.chap.pl.byOld[p.id]){ location.replace(hrefFor(book, "plate/"+book.chap.pl.byOld[p.id])); return; }
       if(hasHome && p.id){ location.replace(legacyHref(book, p.id)); return; }
-      if(p.view==="home" && book.meta.home) renderHome(book, p.tab);
+      if(hasHome && !p.id && !p.view) renderHome(book);
+      else if(p.view==="text" && hasHome) renderBookText(book);
+      else if(p.view==="plates" && hasHome) renderBookPlates(book);
+      else if(p.view==="search" && hasHome) renderBookSearch(book);
       else if(p.view==="chapter" && book.meta.chapters) renderChapter(book, p.chapter, p.block, p.page);
       else if(p.view==="tavola" && book.meta.tavola) renderTavola(book);
       else if(p.view==="names" && book.meta.names) renderNames(book, p.name);
@@ -955,10 +986,47 @@
 
   function go(book, id){ state.scroll = window.scrollY; location.hash = forcedBook ? "#/"+id : "#/"+book.slug+"/"+id; }
   function goIndex(book){
-    if(book.meta.home && book.meta.chapters) location.hash = hrefFor(book, "home/search");
+    if(book.meta.home && book.meta.chapters) location.hash = hrefFor(book, "search");
     else location.hash = forcedBook ? "" : "#/"+book.slug;
   }
   function hrefFor(book, suffix){ return forcedBook ? "#/"+suffix : "#/"+book.slug+"/"+suffix; }
+  // coverHref — базовый адрес книги без суффикса (обложка), задание пункт 2:
+  // раньше это был hrefFor(book,"home") с собственным маршрутом "/home";
+  // теперь "/home" — только редирект на старые ссылки (route() ниже), сама
+  // обложка — пустой путь книги.
+  function coverHref(book){ return forcedBook ? "#/" : "#/"+book.slug; }
+  // bookTabsHtml — общее меню книги (задание, пункт 3): пять равных вкладок
+  // «Текст · Гравюры · Указатель · Имена · Поиск» НЕПОСРЕДСТВЕННО под шапкой
+  // сайта (.back-bar), ОДНО и то же на каждой странице книги (обложка,
+  // текст, глава, гравюры, карточка гравюры, указатель, имена, поиск) —
+  // вызывается из каждой render*-функции книги, не дублирует разметку.
+  // activeSect — один из "text"/"plates"/"index"/"names"/"search": глава и
+  // карточка гравюры передают "text"/"plates" соответственно (относятся к
+  // этим разделам, даже когда location.hash не совпадает буквально с адресом
+  // самого раздела) — см. вызовы в renderChapter/renderPlateCard.
+  // id="ic-booktabs" — общий якорь для installScrollHide (прячется вместе с
+  // .back-bar, см. его комментарий) и для headerStackH()/syncHeaderStack()
+  // выше (высота меню книги, которую строка раздела и столбик букв держат в
+  // своих статичных отступах).
+  function bookTabsHtml(book, activeSect){
+    var tabs = [["text", t("bkTabText")], ["plates", t("hmGallery")]];
+    if(book.meta.tavola) tabs.push(["index", t("hmIndex")]);
+    if(book.meta.names) tabs.push(["names", t("hmNames")]);
+    tabs.push(["search", t("hmSearch")]);
+    // .ic-booktabs-fixed — тот же фикс мигания sticky при частых программных
+    // scrollTo (жест по рейлу букв .ic-az-rail), что у .back-bar-fixed
+    // (route()/index.html): нужен ТОЛЬКО на указателе/«Именах» (activeSect
+    // "index"/"names") — задаём классом прямо в разметке, а не отдельным
+    // toggle из route(), т.к. .ic-booktabs целиком пересобирается каждым
+    // рендером (в отличие от .back-bar, которая живёт вне root и переживает
+    // смену страниц).
+    var fixedCls = (activeSect==="index" || activeSect==="names") ? " ic-booktabs-fixed" : "";
+    return '<nav class="ic-booktabs'+fixedCls+'" id="ic-booktabs" aria-label="'+esc(t("hmNavLabel"))+'">'+
+      tabs.map(function(x){
+        return '<a href="'+esc(hrefFor(book, x[0]))+'" class="'+(activeSect===x[0]?"on":"")+'">'+esc(x[1])+'</a>';
+      }).join("")+
+    '</nav>';
+  }
   function toTop(noImgSnap){
     // The standalone page's back-bar is sticky over the top of the viewport
     // (root.dataset.top, e.g. "52px"). Snapping root's top to 0 would land
@@ -1114,32 +1182,40 @@
     });
   }
 
-  // Общий механизм показа/скрытия липкой верхней панели по направлению
-  // прокрутки — вынесен из прежнего rbTick (панель читалки, .ic-rbar), чтобы
-  // его переиспользовала и строка поиска указателя/имён (.ic-tv-bar), без
-  // дублирования порогов/накопителей и синхронизации с внешней .back-bar.
-  // barEl — сама панель (ей назначается/снимается opts.hiddenClass, по
-  // умолчанию "ic-rbar-hidden", через transform в CSS). opts.isActive —
-  // функция-страж (gen===renderGen у вызывающей стороны): как только она
-  // вернёт false, цикл останавливается и снимает оба класса скрытия, не
-  // оставляя панель предыдущего рендера скрытой навсегда. opts.onTick —
-  // необязательная работа на каждый кадр ПОКА активно (paintPg у читалки).
-  // opts.suppress — необязательная функция: пока возвращает true, панель
-  // всегда показана и накопители сбрасываются (строка поиска не прячется,
-  // когда в поле есть текст или оно в фокусе).
-  function installScrollHide(barEl, opts){
+  // Общий механизм показа/скрытия шапки сайта (.back-bar) + меню книги
+  // (.ic-booktabs) по направлению прокрутки — единым движением, в один и тот
+  // же тик, тем же классом "ic-bb-hidden" на обоих элементах (они уже
+  // существовали отдельно: .back-bar — в index.html, .ic-booktabs — рендерит
+  // bookTabsHtml ниже; одинаковая transition в app.css даёт одно визуальное
+  // движение без рассинхрона). Round (этот раунд, задание пункт 5):
+  // двухуровневая схема — строка раздела (капсула .ic-rbar/.ic-rbar-tv),
+  // если она есть на странице, больше НЕ прячется вовсе (статична,
+  // position:sticky/fixed;top:var(--top2)) — поэтому функция больше не
+  // принимает panelEl/hiddenClass для какой-то третьей панели, только
+  // .back-bar+.ic-booktabs. Вызывается на КАЖДОЙ странице книги (не только
+  // там, где есть строка раздела) — на страницах без строки раздела (обложка,
+  // текст, гравюры, карточка гравюры, поиск) это и даёт «уезжает/
+  // возвращается всё целиком» (задание, пункт 5).
+  // opts.isActive — функция-страж (gen===renderGen у вызывающей стороны):
+  // как только она вернёт false, цикл останавливается и снимает класс
+  // скрытия, не оставляя шапку предыдущего рендера скрытой навсегда.
+  // opts.onTick — необязательная работа на каждый кадр ПОКА активно (paintPg
+  // у читалки). opts.suppress — необязательная функция: пока возвращает
+  // true, шапка+вкладки всегда показаны и накопители сбрасываются (когда
+  // открыта/анимируется шторка поиска/содержания/сортировки).
+  function installScrollHide(opts){
     opts = opts || {};
-    var hiddenClass = opts.hiddenClass || "ic-rbar-hidden";
     var hideAt = opts.hideAt != null ? opts.hideAt : 26, showAt = opts.showAt != null ? opts.showAt : 10;
     var topGuard = opts.topGuard != null ? opts.topGuard : 36, bottomGuard = opts.bottomGuard != null ? opts.bottomGuard : 160;
     var lastY = window.scrollY, down = 0, up = 0, hidden = false;
+    function setHidden(v){
+      var bbar = document.querySelector(".back-bar");
+      if(bbar) bbar.classList.toggle("ic-bb-hidden", v);
+      var bt = document.getElementById("ic-booktabs");
+      if(bt) bt.classList.toggle("ic-bb-hidden", v);
+    }
     function tick(){
-      if(opts.isActive && !opts.isActive()){
-        var bbar0 = document.querySelector(".back-bar");
-        if(bbar0) bbar0.classList.remove("ic-bb-hidden");
-        barEl.classList.remove(hiddenClass);
-        return;
-      }
+      if(opts.isActive && !opts.isActive()){ setHidden(false); return; }
       var y = window.scrollY, dy = y - lastY; lastY = y;
       var doc = document.documentElement;
       var nearTop = y < topGuard, nearBottom = (doc.scrollHeight - (y + window.innerHeight)) < bottomGuard;
@@ -1147,16 +1223,7 @@
       else if(nearTop || nearBottom){ hidden = false; down = 0; up = 0; }
       else if(dy > 0.5){ down += dy; up = 0; if(down > hideAt) hidden = true; }
       else if(dy < -0.5){ up += -dy; down = 0; if(up > showAt) hidden = false; }
-      barEl.classList.toggle(hiddenClass, hidden);
-      var bbar = document.querySelector(".back-bar");
-      if(bbar) bbar.classList.toggle("ic-bb-hidden", hidden);
-      // onTick ПОСЛЕ toggle — исторически важно было для renderTavola/
-      // renderNames (az-rail синхронизировал свою позицию с hiddenClass в
-      // тот же кадр); тот механизм убран (столбик теперь статичен, см.
-      // .ic-az-rail в app.css), эти два вызывающих места больше не передают
-      // onTick вовсе. Параметр остаётся для других потребителей (например
-      // paintPg у читалки, см. renderChapter) — порядок после toggle не
-      // мешает им и не требует отдельного обоснования.
+      setHidden(hidden);
       if(opts.onTick) opts.onTick();
       requestAnimationFrame(tick);
     }
@@ -1193,18 +1260,20 @@
     var vh = vv ? vv.height : window.innerHeight;
     // rbar.getBoundingClientRect().bottom НЕНАДЁЖЕН именно в тот момент,
     // когда он нужнее всего: open() зовёт showBarsForced() (снимает класс
-    // ic-rbar-hidden синхронно), а СРАЗУ ЗА ним — эту функцию, в том же
-    // тике, ДО того как CSS transition transform капсулы успеет продвинуться
-    // хоть на кадр — rect.bottom в этот момент ещё отражает СКРЫТУЮ позицию
-    // (тот же класс гонки, что был у бывшего --ic-topH, просто теперь из-за
-    // собственной транзишен капсулы, а не адресной строки Safari). transform
-    // — это только позиция, высоту (rect.height) он не меняет, поэтому низ
-    // капсулы «в покое» можно посчитать без оглядки на анимацию: var(--top)
-    // (её sticky-отступ — то же число, что и у натурального потока при
-    // scrollY=0, т.к. .ic-rbar идёт сразу за .back-bar) + собственная
-    // высота капсулы.
-    var top = parseFloat(root.dataset.top) || 0;
-    var bottom = top + rbar.getBoundingClientRect().height;
+    // ic-bb-hidden с .back-bar/.ic-booktabs синхронно), а СРАЗУ ЗА ним — эту
+    // функцию, в том же тике, ДО того как CSS transition transform шапки+
+    // меню книги успеет продвинуться хоть на кадр — rect.bottom в этот
+    // момент ещё отражает СКРЫТУЮ позицию (тот же класс гонки, что был у
+    // бывшего --ic-topH, просто теперь из-за собственной транзишен шапки,
+    // а не адресной строки Safari). Сама капсула .ic-rbar этим раундом
+    // больше не прячется вовсе (см. задание, пункт 5) — rect.bottom её
+    // высоты эта гонка не касается, только позиция элементов НАД ней.
+    // transform — это только позиция, высоту (rect.height) он не меняет, поэтому низ
+    // капсулы «в покое» можно посчитать без оглядки на анимацию: headerStackH()
+    // (--top сайта + реальная высота .ic-booktabs — её sticky-отступ, то же
+    // число, что и у натурального потока при scrollY=0, т.к. .ic-rbar идёт
+    // сразу за .ic-booktabs/.back-bar) + собственная высота капсулы.
+    var bottom = headerStackH() + rbar.getBoundingClientRect().height;
     var maxh = Math.max(120, vh - bottom - 8);
     document.documentElement.style.setProperty("--ic-sheet-maxh", maxh+"px");
     // --ic-rbar-bottom — тот же "bottom" (нижняя граница .ic-rbar от верха
@@ -1302,10 +1371,10 @@
     }
     function onKey(e){ if(e.key==="Escape") close(); }
     function showBarsForced(){
-      var rbar = document.getElementById("ic-rbar");
-      if(rbar) rbar.classList.remove("ic-rbar-hidden");
       var bbar = document.querySelector(".back-bar");
       if(bbar) bbar.classList.remove("ic-bb-hidden");
+      var bt = document.getElementById("ic-booktabs");
+      if(bt) bt.classList.remove("ic-bb-hidden");
     }
     function open(arg){
       registry.forEach(function(s){ if(s !== api && s.isOpen()) s.closeInstant(); });
@@ -1482,25 +1551,33 @@
   // весь модуль, no-op если рейла сейчас нет на странице (тот же приём, что
   // у fitCtxLabels/closeQm).
   function syncAzRailBounds(){
+    syncHeaderStack();
     var rbar = document.getElementById("ic-rbar");
     // --tv-content-top (app.css, .ic-wrap.ic-tv) — компенсирующий отступ
-    // контенту указателя/«Имён» теперь, когда .back-bar/.ic-rbar-tv стали
-    // position:fixed (задание, пункт 1.3) и больше не резервируют своё
-    // место в потоке документа, как раньше делал sticky. Сумма реальных
-    // высот .back-bar (root.dataset.top, см. syncTopVar) + .ic-rbar-tv +
-    // её собственный margin-bottom (26px, app.css) — ровно то, что раньше
-    // давала обычная раскладка потока. Пишем на root — наследуется вниз по
-    // CSS-переменным до .ic-wrap.ic-tv, где бы он ни лежал в разметке.
-    // Ставим ТОЛЬКО когда реально на странице капсула указателя/«Имён»
-    // (.ic-rbar-tv) — на читалке (.ic-rbar без -tv) переменная не нужна, и
-    // пересчитывать её там не на чём (той обёртки с margin-top там нет).
+    // контенту указателя/«Имён» теперь, когда .back-bar/.ic-booktabs/
+    // .ic-rbar-tv стали position:fixed (задание прошлых раундов, пункт 1.3,
+    // и этого раунда — меню книги добавилось в тот же стек) и больше не
+    // резервируют своё место в потоке документа, как раньше делал sticky.
+    // Сумма реальных высот .back-bar+.ic-booktabs (headerStackH(), см. выше)
+    // + .ic-rbar-tv + её собственный margin-bottom (26px, app.css) — ровно
+    // то, что раньше давала обычная раскладка потока. Пишем на root —
+    // наследуется вниз по CSS-переменным до .ic-wrap.ic-tv, где бы он ни
+    // лежал в разметке. Ставим ТОЛЬКО когда реально на странице капсула
+    // указателя/«Имён» (.ic-rbar-tv) — на читалке (.ic-rbar без -tv)
+    // переменная не нужна, и пересчитывать её там не на чём (той обёртки с
+    // margin-top там нет).
     if(rbar && rbar.classList.contains("ic-rbar-tv")){
-      var contentTop = (parseFloat(root.dataset.top)||0) + rbar.getBoundingClientRect().height + 26;
+      var contentTop = headerStackH() + rbar.getBoundingClientRect().height + 26;
       root.style.setProperty("--tv-content-top", Math.max(0, contentTop)+"px");
     }
     var rail = document.querySelector(".ic-az-rail");
     if(!rail) return;
-    var top = (parseFloat(root.dataset.top)||0) + (rbar ? rbar.getBoundingClientRect().height : 0) + 14;
+    // --az-top — верхняя граница столбика букв, теперь отсчитывается от
+    // СТРОКИ РАЗДЕЛА в её прилипшем положении (headerStackH() = шапка сайта
+    // + меню книги, ПЛЮС высота самой капсулы .ic-rbar-tv) — задание этого
+    // раунда, пункт 5: столбик статичен и сидит сразу под строкой раздела
+    // независимо от того, видны ли шапка+меню книги в данный момент.
+    var top = headerStackH() + (rbar ? rbar.getBoundingClientRect().height : 0) + 14;
     rail.style.setProperty("--az-top", Math.max(0,top)+"px");
   }
   window.addEventListener("resize", syncAzRailBounds);
@@ -2276,17 +2353,16 @@
         : enPrep ? '<div class="ic-text ic-ch-body ic-ch-itbody"></div>'
         : '<p class="ic-sub">'+esc(t("chNotYet"))+'</p>';
       // Контекстная ссылка «вернуться туда, откуда пришли» (chCtx — см. его
-      // определение у namesUi выше) занимает тот же слот (ячейка 1), что
-      // обычная кнопка «Книга»: показывается ТОЛЬКО если chCtx относится
-      // именно к этому переходу (его hash совпадает с тем, что сейчас
-      // открыли), иначе — обычная кнопка. Один слот на обе роли.
-      // Round 6: подпись ячейки 1 при активном контексте теперь короче и
-      // переиспользуется в двух формах — full (desktop, с названием статьи
-      // через ":") и short (390px, БЕЗ названия статьи вообще, только
-      // общее «К указателю»/«К гравюре»/«К имени»/«К поиску») — см.
-      // .ic-rbar-full/.ic-rbar-short в app.css. Обычная кнопка «Книга» (нет
-      // активного контекста) одинакова на обеих ширинах — короткое слово и
-      // так никогда не требует сокращения.
+      // определение у namesUi выше) — ячейка 1 строки раздела, показывается
+      // ТОЛЬКО если chCtx относится именно к этому переходу (его hash
+      // совпадает с тем, что сейчас открыли). Задание (этот раунд, пункт 3):
+      // запасной вариант «Книга» убран совсем — книжные вкладки (bookTabsHtml)
+      // теперь всегда видны сверху, явная кнопка возврата к обложке не нужна;
+      // когда контекст неактивен, ячейка 1 просто не рендерится вовсе.
+      // Подпись ячейки 1 при активном контексте — в двух формах — full
+      // (desktop, с названием статьи через ":") и short (390px, БЕЗ названия
+      // статьи вообще, только общее «К указателю»/«К гравюре»/«К имени»/
+      // «К поиску») — см. .ic-rbar-full/.ic-rbar-short в app.css.
       // chCtxLabel() — подпись пересчитывается КАЖДЫЙ рендер по текущему
       // state.lang, а не замораживается в момент клика: chCtx хранит сырые
       // ru/it поля исходной записи (указателя/имени), а не готовую строку,
@@ -2323,8 +2399,7 @@
       var ctxHtml = ctxActive
         ? '<button type="button" class="ic-rbar-ctx ic-rbar-ctx-back" data-rb="ctxback">'+
           '<span class="ic-rbar-full" data-full="'+esc(ctxFull)+'">'+esc(ctxFull)+'</span><span class="ic-rbar-short" data-full="'+esc(ctxShort)+'">'+esc(ctxShort)+'</span></button>'
-        : '<button type="button" class="ic-rbar-ctx" data-rb="back">'+
-          '<span class="ic-rbar-full" data-full="'+esc(t("rbBook"))+'">'+esc(t("rbBook"))+'</span><span class="ic-rbar-short" data-full="'+esc(t("rbBook"))+'">'+esc(t("rbBook"))+'</span></button>';
+        : "";
       var posTitle = ch ? chapTitle(ch) : "";
       var posTitleShort = ch ? chapTitleShort(ch) : "";
       // .ic-ch-outer — панель .ic-rbar вынесена ИЗ узкого .ic-wrap.ic-ch-wrap
@@ -2333,20 +2408,18 @@
       // заголовка главы длинны одновременно, а колонка чтения ниже остаётся
       // прежней ширины и центрируется независимо (margin:auto у обеих).
       //
-      // Round 6: полный редизайн компоновки/вида панели. Теперь это ВСЕГДА
-      // одна строка (и на 390, и на 1440) из пяти ячеек слева направо:
-      // [Книга/контекст] [Глава · страница] [Начало] [Скан] [Поиск] —
-      // .ic-rbar-row1/-row2-обёртки и мобильная раскладка в две строки
-      // (round 4-5) больше не нужны, все пять кнопок — прямые дети одной
-      // .ic-rbar-row (так CSS-селектор "кнопка+кнопка" в app.css кладёт
-      // тонкую границу между соседними ячейками без отдельного разделителя-
-      // орнамента, который этим раундом убран целиком — rbarSepHtml/
-      // RBAR_SEP/.ic-rbar-sep больше нет). Ячейка 2 (.ic-rbar-pos) — главный
-      // flex:1 элемент строки, забирает всё свободное место и поэтому шире
-      // остальных; номер страницы в ней (.ic-rbar-pos-pg) защищён flex:none
-      // и виден всегда целиком, при недостатке места ужимается короткая
-      // форма названия главы (.ic-rbar-pos-ch, обычный CSS-эллипсис).
+      // Этот раунд (задание, пункт 3-4): книжные вкладки (bookTabsHtml) —
+      // ОБЩЕЕ меню книги над строкой раздела, одно на все страницы книги.
+      // Строка раздела главы теперь — [контекст, если активен] [Глава ·
+      // страница] [Скан] [Начало] (порядок Скан/Начало — по макету
+      // book-structure.html, отличается от прежнего [Начало][Скан]). Ячейка
+      // «Поиск» и запасная «Книга» убраны совсем (см. комментарии у ctxHtml
+      // выше и у bookTabsHtml) — переход к поиску теперь через вкладку
+      // «Поиск» в общем меню книги, которая (вариант б, см. задание) на
+      // странице главы открывает ТОТ ЖЕ оверлей поиска шторкой, не уходя из
+      // главы — см. её перехват клика ниже, рядом с sheetApi.
       root.innerHTML =
+        bookTabsHtml(book, "text")+
         // #ic-rb-dim — единое затемнение страницы (ОДНО, не по одному внутри
         // каждой шторки), всегда position:fixed;inset:0 ВНЕ .ic-rbar — см.
         // подробный комментарий у syncSheetChrome() в app.js и у #ic-rb-dim
@@ -2361,9 +2434,8 @@
                   '<span class="ic-rbar-pos-ch" data-rb-ch><span class="ic-rbar-full">'+esc(posTitle)+'</span><span class="ic-rbar-short">'+esc(posTitleShort)+'</span></span>'+
                   '<span class="ic-rbar-pos-pg" data-rb-pg></span>'+
                 '</span></button>'+
-              '<button type="button" class="ic-rbar-top" data-rb="top"><span class="ic-rbar-full">'+esc(t("rbTop"))+'</span><span class="ic-rbar-short">'+esc(t("rbTopShort"))+'</span></button>'+
               '<button type="button" class="ic-rbar-scan" data-rb="scan" aria-pressed="false"'+(pmRows.length?"":" disabled")+'>'+esc(t("svScan"))+'</button>'+
-              (book.meta.home ? '<button type="button" class="ic-rbar-search" data-rb="search" aria-pressed="false">'+esc(t("hmSearch"))+'</button>' : "")+
+              '<button type="button" class="ic-rbar-top" data-rb="top"><span class="ic-rbar-full">'+esc(t("rbTop"))+'</span><span class="ic-rbar-short">'+esc(t("rbTopShort"))+'</span></button>'+
             '</div>'+
             langSwitch()+
             // Выезжающая панель поиска читалки (.ic-rb-sheet) — только у книг
@@ -2427,6 +2499,7 @@
         '</div>';
       bindLangSwitch(root);
       fitCtxLabels(root);
+      syncHeaderStack();
       if(enPrep){
         loadPagesIt(book, function(all){
           var box = root.querySelector(".ic-ch-itbody");
@@ -2446,7 +2519,7 @@
       // чей верх уже прошёл выше панели — классический приём «scrollspy».
       function curPgIdx(){
         if(!pgmEls.length) return -1;
-        var off = (parseFloat(root.dataset.top)||0) + (rbar ? rbar.getBoundingClientRect().height : 0) + 4;
+        var off = headerStackH() + (rbar ? rbar.getBoundingClientRect().height : 0) + 4;
         var cur = pgmEls[0];
         for(var i=0;i<pgmEls.length;i++){ if(pgmEls[i].getBoundingClientRect().top <= off) cur = pgmEls[i]; else break; }
         return +cur.getAttribute("data-pi");
@@ -2460,36 +2533,20 @@
         if(pi === lastPaintedPi) return;
         lastPaintedPi = pi;
         pgEl.textContent = pi >= 0 ? pgLabel(pmRows[pi][1]) : "";
-        // «Продолжить чтение» на главной книги (homeTile ниже) — запоминаем
-        // ровно эту страницу (hash с номером блока, а не просто главу), пока
-        // читатель скроллит; тот же pi/pmRows, что красит номер страницы выше.
-        if(book.meta.home && ch){
-          saveLastRead(book, {
-            hash: pi >= 0 ? chapterHref(book, ch.slug, pmRows[pi][2]) : chapterHref(book, ch.slug),
-            ch: chapTitleShort(ch),
-            pg: pi >= 0 ? pgLabel(pmRows[pi][1]) : ""
-          });
-        }
       }
       paintPg();
       if(rbarRow) rbarRow.addEventListener("click", function(e){
         var b = e.target.closest("[data-rb]"); if(!b || b.disabled) return;
         var act = b.getAttribute("data-rb");
         if(act==="ctxback"){ history.back(); return; }
-        if(act==="back"){
-          if(pgm && book.meta.tavola){ if(tavolaUi.via===location.hash) history.back(); else location.hash = hrefFor(book, "index").replace(/^#/,""); }
-          else if(book.meta.home) location.hash = hrefFor(book, "home"); else goIndex(book);
-          return;
-        }
         if(act==="pos"){ if(tocSheetApi) tocSheetApi.toggle(); return; }
         if(act==="top"){
-          var off = (parseFloat(root.dataset.top)||0) + (rbar ? rbar.getBoundingClientRect().height : 0) + 4;
+          var off = headerStackH() + (rbar ? rbar.getBoundingClientRect().height : 0) + 4;
           var r = root.querySelector(".ic-ch-wrap").getBoundingClientRect();
           window.scrollTo(0, window.scrollY + r.top - off);
           return;
         }
         if(act==="scan"){ var pi = curPgIdx(); if(pi >= 0) openSv(book, pmRows, pi); return; }
-        if(act==="search"){ if(sheetApi) sheetApi.toggle(); return; }
       });
       // Выезжающие панели читалки — поиск (.ic-rb-sheet, заменяет прежний
       // переход на home/search, см. act==="search" выше) и список глав
@@ -2500,12 +2557,20 @@
       // вынесенный в общий хелпер makeRbSheet (определён у installScrollHide
       // выше) — не дублируем его логику здесь.
       var rbSheets = [];
+      // Вкладка «Поиск» общего меню книги (bookTabsHtml) — на странице главы
+      // (вариант б, см. задание пункт 5/примечание про шторку поиска из
+      // главы) открывает ТОТ ЖЕ оверлей поиска ШТОРКОЙ поверх текущей главы,
+      // а не уходит на отдельную страницу #/cartari/search: перехватываем её
+      // клик ниже (preventDefault+toggle), вместо обычной навигации по href.
+      // Та же ссылка передаётся makeRbSheet как btn — получает aria-pressed,
+      // как раньше получала отдельная кнопка «Поиск» в капсуле (убрана этим
+      // раундом, см. задание пункт 4).
+      var booktabsSearchA = root.querySelector('#ic-booktabs a[href="'+hrefFor(book,"search")+'"]');
       var sheetApi = null, sheetEl = root.querySelector("#ic-rb-sheet");
       if(sheetEl){
         var sheetForm = sheetEl.querySelector(".ic-home-search");
         var sheetInput = sheetForm.querySelector(".ic-search");
-        var searchBtn = root.querySelector('[data-rb="search"]');
-        sheetApi = makeRbSheet(sheetEl, searchBtn, {
+        sheetApi = makeRbSheet(sheetEl, booktabsSearchA, {
           registry: rbSheets,
           onOpen: function(presetQuery){
             if(presetQuery != null){ sheetInput.value = presetQuery; sheetInput.dispatchEvent(new Event("input",{bubbles:true})); }
@@ -2529,6 +2594,7 @@
           if(a && /\/ch\//.test(a.getAttribute("href")||"")) searchReopen = {hash: location.hash, query: sheetInput.value};
         });
         if(reopenSearchQuery != null) sheetApi.open(reopenSearchQuery);
+        if(booktabsSearchA) booktabsSearchA.addEventListener("click", function(e){ e.preventDefault(); sheetApi.toggle(); });
       }
       var tocSheetApi = null, tocSheetEl = root.querySelector("#ic-rb-toc-sheet");
       if(tocSheetEl){
@@ -2578,15 +2644,19 @@
       // накопленного движения в одну сторону — короткое дрожание инерции на
       // телефоне меняет знак почти каждый кадр и обнуляет накопитель, не
       // долетая до порога; настоящая прокрутка быстро набирает нужную сумму.
-      // Пороги/накопители и синхронизация с .back-bar — в общей installScrollHide
-      // (см. выше, рядом с wireSearchClear); здесь только её привязка к этой
-      // панели, с paintPg как дополнительной работой на каждый активный кадр.
+      // Пороги/накопители и синхронизация с .back-bar+.ic-booktabs — в общей
+      // installScrollHide (см. выше, рядом с wireSearchClear); здесь только её
+      // подключение, с paintPg как дополнительной работой на каждый активный
+      // кадр. Строка раздела (rbar) этим раундом (задание, пункт 5) больше НЕ
+      // прячется вместе с шапкой+вкладками — она статична (position:sticky;
+      // top:var(--top2), app.css), прячутся только .back-bar и .ic-booktabs
+      // (единым движением, их синхронно переключает installScrollHide).
       // suppress — пока ЛЮБАЯ из двух панелей открыта ИЛИ ещё анимируется
-      // (открывается/закрывается) оба бара держим показанными: см. комментарий
-      // у makeRbSheet про sheetAnimating/transitionend — без учёта анимации
-      // scroll-hide иначе может начать прятать бары СРЕДИ анимации закрытия
-      // (это и было дёрганьем, пункт 3 задачи).
-      if(rbar) installScrollHide(rbar, {isActive:function(){ return gen === renderGen; }, onTick:paintPg, suppress:function(){
+      // (открывается/закрывается) шапку+вкладки держим показанными: см.
+      // комментарий у makeRbSheet про sheetAnimating/transitionend — без учёта
+      // анимации scroll-hide иначе может начать прятать их СРЕДИ анимации
+      // закрытия (это и было дёрганьем, пункт 3 задачи прошлого раунда).
+      installScrollHide({isActive:function(){ return gen === renderGen; }, onTick:paintPg, suppress:function(){
         return rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); });
       }});
       root.querySelectorAll("[data-ch]").forEach(function(b){ b.addEventListener("click",function(){ location.hash = chapterHref(book, b.getAttribute("data-ch")).replace(/^#/,""); }); });
@@ -2641,7 +2711,7 @@
         // прокрутки/видимости) — но больше не рамкой/заливкой, см. app.css: класс остался просто
         // вспомогательным маркером для будущего, без визуального эффекта сам по себе.
         if(okN && figs.length && figs[0]!==target) figs.forEach(function(f){ f.classList.add("ic-ch-fig-near"); });
-        var headerOffset = parseFloat(root.dataset.top) || 0, baseOff = headerOffset + (okN ? 24 : 40);
+        var headerOffset = headerStackH(), baseOff = headerOffset + (okN ? 24 : 40);
         var snap = function(){
           if(gen !== renderGen) return;
           if(hlLine && hlLineIsRange){
@@ -2799,11 +2869,11 @@
       // помещаются в капсулу — перенесены ниже, в светлую часть .ic-wrap.ic-tv
       // (см. задание, пункт 1).
       root.innerHTML =
+        bookTabsHtml(book, "index")+
         '<div id="ic-rb-dim"></div>'+
         '<div class="ic-ch-outer">'+
           '<div class="ic-rbar ic-rbar-tv" id="ic-rbar">'+
             '<div class="ic-rbar-row">'+
-              '<button type="button" class="ic-rbar-ctx" data-rb="back"><span>'+esc(book.meta.home ? t("tvBack") : t("back"))+'</span></button>'+
               '<button type="button" class="ic-rbar-tvsearch" data-rb="search" aria-pressed="false"><span class="ic-rbar-tvsearch-label">'+esc(tvSearchLabel())+'</span></button>'+
               '<button type="button" class="ic-rbar-sort" data-rb="sort"><span class="ic-rbar-sort-label">'+esc(tvSortLabel())+'</span></button>'+
             '</div>'+
@@ -2887,7 +2957,7 @@
         rail.classList.toggle("ic-az-tight", built.tight);
         rail.classList.toggle("ic-az-paired", built.paired);
       }
-      function barH(){ return rbar.getBoundingClientRect().height + (parseFloat(root.dataset.top)||0) + 10; }
+      function barH(){ return rbar.getBoundingClientRect().height + headerStackH() + 10; }
       // Тот же маргинальный маркер и то же ~4-секундное угасание, что у
       // перехода в главу (hlMark/hlFadeOut выше) — раньше здесь была
       // отдельная заливка строки (.ic-ch-hl), резко пропадавшая через 2.2с;
@@ -2912,10 +2982,11 @@
         onDragStart: function(){ azDragging = true; rail.classList.add("ic-az-rail-active"); },
         onDragEnd: function(){ azDragging = false; rail.classList.remove("ic-az-rail-active"); }
       });
-      // Капсула/шапка здесь больше НЕ прячутся при скролле (в отличие от
-      // панели читалки renderChapter) — installScrollHide сюда больше не
-      // подключается, .ic-rbar/.back-bar остаются на месте всегда (см.
-      // задание, пункт 1).
+      // Этот раунд (задание, пункт 5): строка раздела указателя (капсула
+      // .ic-rbar-tv) теперь СТАТИЧНА (position:fixed;top:var(--top2),
+      // app.css) и никогда не прячется — прячутся только .back-bar и
+      // .ic-booktabs (общее меню книги), единым движением, через
+      // installScrollHide (см. его подключение ниже, у az-rail).
       var sheetApi = makeRbSheet(sheetEl, searchBtn, {
         registry: rbSheets,
         onOpen: function(){ if(window.matchMedia && window.matchMedia("(pointer:fine)").matches) sheetInput.focus({preventScroll:true}); },
@@ -2927,7 +2998,6 @@
       rbarRow.addEventListener("click", function(e){
         var b = e.target.closest("[data-rb]"); if(!b) return;
         var act = b.getAttribute("data-rb");
-        if(act==="back"){ location.hash = book.meta.home ? hrefFor(book,"home") : ""; return; }
         if(act==="search"){ sheetApi.toggle(); return; }
         if(act==="sort"){
           tavolaUi.sort = tavolaUi.sort==="ru" ? "it" : "ru";
@@ -2958,6 +3028,10 @@
         }
       });
       fill();
+      syncHeaderStack();
+      installScrollHide({isActive:function(){ return gen===renderGen; }, suppress:function(){
+        return rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); }) || azDragging;
+      }});
       if(tavolaUi.scroll){ var y = tavolaUi.scroll; tavolaUi.scroll = 0; requestAnimationFrame(function(){ if(gen===renderGen) window.scrollTo(0,y); }); }
       else toTop(true);
       nudgeRepaint();
@@ -3091,11 +3165,11 @@
       // а кнопка, открывающая отдельную выезжающую шторку выбора типа
       // (makeRbSheet, тот же механизм, что у шторки «Содержание» читалки).
       root.innerHTML =
+        bookTabsHtml(book, "names")+
         '<div id="ic-rb-dim"></div>'+
         '<div class="ic-ch-outer">'+
           '<div class="ic-rbar ic-rbar-tv" id="ic-rbar">'+
             '<div class="ic-rbar-row">'+
-              '<button type="button" class="ic-rbar-ctx" data-rb="back"><span>'+esc(book.meta.home ? t("tvBack") : t("back"))+'</span></button>'+
               '<button type="button" class="ic-rbar-tvsearch" data-rb="search" aria-pressed="false"><span class="ic-rbar-tvsearch-label">'+esc(nmSearchLabel())+'</span></button>'+
               '<button type="button" class="ic-rbar-sort" data-rb="type" aria-pressed="false"><span class="ic-rbar-sort-label">'+esc(nmTypeLabel())+'</span></button>'+
             '</div>'+
@@ -3183,7 +3257,7 @@
         rail.classList.toggle("ic-az-tight", built.tight);
         rail.classList.toggle("ic-az-paired", built.paired);
       }
-      function barH(){ return rbar.getBoundingClientRect().height + (parseFloat(root.dataset.top)||0) + 10; }
+      function barH(){ return rbar.getBoundingClientRect().height + headerStackH() + 10; }
       sheetInput.addEventListener("input",function(){ namesUi.q = sheetInput.value; updateSearchLabel(); fill(); });
       wireSearchClear(sheetInput);
       lnav.addEventListener("click",function(e){
@@ -3222,7 +3296,6 @@
       rbarRow.addEventListener("click", function(e){
         var b = e.target.closest("[data-rb]"); if(!b) return;
         var act = b.getAttribute("data-rb");
-        if(act==="back"){ location.hash = book.meta.home ? hrefFor(book,"home") : ""; return; }
         if(act==="search"){ sheetApi.toggle(); return; }
         if(act==="type"){ typeSheetApi.toggle(); return; }
       });
@@ -3231,6 +3304,10 @@
         if(a){ namesUi.pos[location.hash] = window.scrollY; namesUi.via = a.getAttribute("href"); }
       });
       fill();
+      syncHeaderStack();
+      installScrollHide({isActive:function(){ return gen===renderGen; }, suppress:function(){
+        return rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); }) || azDragging;
+      }});
       var y = namesUi.pos[location.hash];
       if(y){ delete namesUi.pos[location.hash]; requestAnimationFrame(function(){ if(gen===renderGen) window.scrollTo(0,y); }); }
       else toTop(true);
@@ -3259,6 +3336,7 @@
       }).join("")+'</ul></section>';
     }).join("");
     root.innerHTML =
+      bookTabsHtml(book, "names")+
       '<div class="ic-wrap ic-tv ic-nm">'+
         '<div class="ic-nav"><button type="button" class="ic-back">← '+esc(t("hmNames"))+'</button><span class="ic-nav-pos"></span>'+langSwitch()+'</div>'+
         '<header class="ic-head"><p class="ic-kicker">'+esc(t("nmT1_"+e.t))+'</p><h1 class="ic-h-fr">'+esc(nmForm(e))+'</h1>'+
@@ -3284,6 +3362,7 @@
     var y = namesUi.pos[location.hash];
     if(y){ delete namesUi.pos[location.hash]; requestAnimationFrame(function(){ if(gen===renderGen) window.scrollTo(0,y); }); }
     else toTop(true);
+    installScrollHide({isActive:function(){ return gen===renderGen; }});
     nudgeRepaint();
   }
 
@@ -3329,7 +3408,7 @@
     // при активном контексте перехода (chCtx) занята подписью «К указателю»/«К
     // гравюре»/«К имени»/«К поиску», а не ведёт на главную — переход туда в этом
     // случае остаётся доступен здесь, первым пунктом выезжающего списка глав.
-    var home = book.meta.home ? '<section class="ic-toc-part"><ol><li><a href="'+esc(hrefFor(book,"home"))+'">'+esc(t("tvBack"))+'</a></li></ol></section>' : "";
+    var home = book.meta.home ? '<section class="ic-toc-part"><ol><li><a href="'+esc(coverHref(book))+'">'+esc(t("tvBack"))+'</a></li></ol></section>' : "";
     return home+groups.join("");
   }
   function openChapToc(book, chap, ch, opener){
@@ -3405,7 +3484,7 @@
   function homeTile(href, title, sub, on, attrs){
     return '<a class="ic-home-tile" href="'+esc(href)+'"'+(on?' aria-current="page"':"")+(attrs||"")+'><span class="ic-home-tile-t">'+esc(title)+'</span><span class="ic-home-tile-s">'+esc(sub)+'</span></a>';
   }
-  /* ---------- поиск по книге (#/<slug>/home/search; книги с home и chapters) ----------
+  /* ---------- поиск по книге (#/<slug>/search; книги с home и chapters) ----------
      Один запрос ищется сразу в пяти источниках: русском переводе (chapters_ru.json), итальянской
      транскрипции страниц (pages_it.json), подписях гравюр (plates.json), именах (names.json) и указателе
      (tavola.json). Всё считается в браузере, без перезагрузки: данные грузятся при первом открытии вкладки.
@@ -3614,7 +3693,7 @@
       if(b && b.classList.contains("ic-sr-more")){ searchUi.lim[b.getAttribute("data-g")] += SR_MORE; paint(); return; }
       if(b && b.getAttribute("data-jump")){
         var el = document.getElementById("ic-sr-"+b.getAttribute("data-jump"));
-        if(el) window.scrollTo(0, window.scrollY + el.getBoundingClientRect().top - (parseFloat(root.dataset.top) || 0) - 12);
+        if(el) window.scrollTo(0, window.scrollY + el.getBoundingClientRect().top - headerStackH() - 12);
         return;
       }
       if(a && a.getAttribute("href")){
@@ -3631,75 +3710,27 @@
     });
   }
 
-  function renderHome(book, tabArg){
-    var gen = renderGen, h = book.meta.home, tab = tabArg==="gallery" || tabArg==="search" ? tabArg : "read";
+  // renderHome — обложка книги (#/<slug>, базовый адрес без суффикса,
+  // задание этого раунда, пункт 2): название/автор/издание/гравюра/blurb +
+  // список пяти разделов-карточек (ведут на новые самостоятельные страницы
+  // text/plates/index/names/search, не на вкладки). Плитка «Читать»/
+  // «Продолжить» и вся логика localStorage (loadLastRead/saveLastRead),
+  // плитка «Содержание» (openChapToc) и встроенные вкладки gallery/search
+  // убраны целиком — это теперь отдельные страницы (renderBookText/
+  // renderBookPlates/renderBookSearch ниже), без состояния на обложке.
+  function renderHome(book){
+    var gen = renderGen, h = book.meta.home;
     restoreState(book.slug);
     loadChapters(book, function(chap){
       if(gen !== renderGen) return;
       var engBase = engBaseOf(book);
       var hero = h.hero ? engBase+h.hero : "";
-      var gal = tab==="gallery" ? galleryEntries(chap) : [];
       var galCount = galleryEntries(chap).length;
-      // Плитка «Читать»/«Продолжить» (задание, проблема A+новое поведение):
-      // если в localStorage (loadLastRead, см. выше) есть сохранённое место —
-      // ведёт туда же и подпись меняется на «Продолжить: <глава>, с. N»;
-      // иначе — на самую первую главу книги (chap.list[0], тот же порядок,
-      // что строит tocPartsHtml) и подпись «Начать с начала».
-      var lastReadRaw = loadLastRead(book);
-      var lastRead = lastReadRaw && lastReadRaw.hash && lastReadRaw.pg ? lastReadRaw : null;
-      var firstCh = chap && chap.list && chap.list[0];
-      var readHref = lastRead ? lastRead.hash : (firstCh ? chapterHref(book, firstCh.slug) : hrefFor(book,"home"));
-      var readSub = lastRead ? t("hmContinue",{ch:lastRead.ch, n:lastRead.pg}) : t("hmStart");
-      // Проблема B (задание, п.3): плитка «Читать» больше не раскрывает список
-      // частей/глав НА САМОЙ /home (tocPartsHtml здесь больше не используется) —
-      // клик по плитке ведёт прямо в главу (см. readHref/readSub ниже), а
-      // список глав доступен через отдельную плитку «Содержание» (openChapToc,
-      // тот же модальный список, что у кнопки «глава · страница» в читалке).
-      // Вкладка read на /home теперь ничего не показывает в .ic-home-panel —
-      // панель остаётся только у gallery/search.
-      // chRuOnly/chFrPartial раньше показывались здесь безусловно на EN/FR —
-      // устаревшая информация: book.meta.home+chapters.data_en/data_fr (и
-      // значит эта ветка renderHome) сейчас есть только у Cartari, а там все
-      // 25 глав переведены целиком на оба языка (chapters_en.json/chapters_fr.json
-      // — проверено: ни одной главы без blocks), так что общее "перевод
-      // доступен только на русском" тут всегда было бы ложью. Именно
-      // пер-главный прогресс (глава ещё не переведена) по-прежнему
-      // показывается там, где он мог бы быть реальным — renderChapter
-      // (chEnPrep/chFrPrep) и карточка гравюры (chEnSoon/chFrSoon) — их не
-      // трогаем.
-      var panel = "";
-      if(tab==="gallery"){
-        panel = '<ul class="ic-gal">'+gal.map(function(g){
-          var thumb = engBase+"thumb/"+g.file+"_t.webp";
-          return '<li><a class="ic-gal-item" href="'+esc(hrefFor(book, "plate/"+g.id))+'" data-id="'+esc(g.id)+'">'+
-            '<span class="ic-gal-img"><img loading="lazy" src="'+esc(thumb)+'" alt=""></span>'+
-            '<span class="ic-gal-cap">'+esc(plTitle(chap, g))+'</span></a></li>';
-        }).join("")+'</ul>';
-      } else if(tab==="search"){
-        panel = '<form class="ic-home-search" role="search">'+
-          '<span class="ic-search-wrap"><input class="ic-search" type="search" enterkeyhint="search" placeholder="'+esc(t("srPlace"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("srPlace"))+'">'+
-          '<button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span></form>'+
-          '<div class="ic-sr" aria-live="polite"></div>';
-      }
       var orn = book.ornaments, ornRec = function(type, seed){ return orn && pickOrnament(orn[type], "home|"+seed); };
       var hp = ornRec("headpiece","head"), dv = ornRec("divider","div");
-      // Концовка /home (на любой вкладке read/gallery/search) — раньше тут
-      // сидел полновесный tailpiece (ink-заливка, 55% ширины — тот же
-      // приём, что в конце статьи), выбранный детерминированно по сиду
-      // "home|tail" (независимо от вкладки — читалось как "грубый,
-      // нечитаемый оттиск" на /home/search, где под ним и так ничего, кроме
-      // голого поля поиска). Пользователь просит одно чистое небольшое
-      // украшение внизу страницы — берём divider (он и так приглушённее:
-      // opacity .75, цвет --soft, а не --ink, меньше по размеру, см.
-      // .ic-orn-divider в app.css), отфильтрованный по собственному полю
-      // density из ornaments.json до нижней половины диапазона, чтобы не
-      // напороться на визуально плотный рисунок, перебрав ornaments.json:
-      // из 12 tailpiece density лежит в 0.066..0.158, медиана ~0.12 —
-      // фильтр <=0.1 оставляет только 3 самых лёгких файла (0.066/0.083/
-      // 0.096), старый пик (0.096, tailpiece_0550_509.png) среди них есть,
-      // но новый сид "home|tailLight" (отдельный от исходного "home|tail",
-      // чтобы не совпасть случайно) уводит выбор на tailpiece_0038_XXVIII.png
-      // (0.083) — другой, более лёгкий файл.
+      // Концовка обложки — тот же легкий divider (не полновесный tailpiece),
+      // что и в прошлых раундах, см. подробное обоснование там же (density
+      // <= 0.1 из ornaments.json, сид "home|tailLight").
       var tpRec = (function(){
         var list = orn && orn.tailpiece;
         if(!list || !list.length) return null;
@@ -3707,7 +3738,18 @@
         var pool = light.length ? light : list;
         return pool[strHash("home|tailLight") % pool.length];
       })();
+      // Пять разделов-карточек (задание, пункт 2) — те же .ic-home-tile, что
+      // раньше показывали плитки «Читать»/«Содержание»/«Гравюры»/«Поиск»/
+      // «Указатель»/«Имена», теперь ведут на пять самостоятельных страниц.
+      var secs = [
+        homeTile(hrefFor(book,"text"), t("bkTabText"), t("hmReadSub"), false),
+        homeTile(hrefFor(book,"plates"), t("hmGallery"), t("hmGallerySub",{n:galCount}), false)
+      ];
+      if(book.meta.tavola) secs.push(homeTile(hrefFor(book,"index"), t("hmIndex"), t("hmIndexSub"), false));
+      if(book.meta.names) secs.push(homeTile(hrefFor(book,"names"), t("hmNames"), t("hmNamesSub"), false));
+      secs.push(homeTile(hrefFor(book,"search"), t("hmSearch"), t("hmSearchSub"), false));
       root.innerHTML =
+        bookTabsHtml(book, null)+
         '<div class="ic-wrap ic-home">'+
           '<div class="ic-top-row">'+(forcedBook?"":'<button type="button" class="ic-to-lib-link ic-to-lib-pill">'+t("toLibrary")+'</button>')+langSwitch()+'</div>'+
           (hp ? ornamentMaskHtml(book, hp, "ic-orn-headpiece") : "")+
@@ -3718,52 +3760,112 @@
               '<p class="ic-home-author">'+esc(bt(h.author))+'</p>'+
               '<p class="ic-home-ed">'+(h.editionShort ? '<span class="ic-ed-long">' : '<span>')+esc(bt(h.edition))+(h.addition ? ' · '+esc(bt(h.addition)) : "")+'</span>'+(h.editionShort ? '<span class="ic-ed-short">'+esc(bt(h.editionShort))+'</span>' : "")+'</p>'+
             '</div>'+
-            '<nav class="ic-home-tiles" aria-label="'+esc(t("hmNavLabel"))+'">'+
-              homeTile(readHref, t("hmRead"), readSub, false)+
-              (chap ? homeTile("#", t("hmToc"), t("hmTocSub"), false, ' data-tile="toc"') : "")+
-              homeTile(hrefFor(book,"home/gallery"), t("hmGallery"), t("hmGallerySub",{n:galCount}), false)+
-              homeTile(hrefFor(book,"home/search"), t("hmSearch"), t("hmSearchSub"), false)+
-              (book.meta.tavola ? homeTile(hrefFor(book,"index"), t("hmIndex"), t("hmIndexSub"), false) : "")+
-              (book.meta.names ? homeTile(hrefFor(book,"names"), t("hmNames"), t("hmNamesSub"), false) : "")+
-              (book.meta.tavola ? [] : ['hmIndex']).concat(book.meta.names ? [] : ['hmNames']).map(function(k){ return '<div class="ic-home-tile ic-soon" aria-disabled="true"><span class="ic-home-tile-t">'+esc(t(k))+'</span><span class="ic-home-tile-s">'+esc(t("hmSoon"))+'</span></div>'; }).join("")+
-            '</nav>'+
+            '<nav class="ic-home-tiles" aria-label="'+esc(t("hmNavLabel"))+'">'+secs.join("")+'</nav>'+
             (hero ? '<figure class="ic-home-fig"><div class="ic-fig ic-fig-eng" data-src="'+esc(hero)+'"><img class="ic-fade-img ic-eng-display" src="'+esc(hero)+'" alt="'+esc(t("engravingAlt",{title:bt(book.meta.title)}))+'"></div></figure>' : "")+
             '<p class="ic-home-blurb">'+esc(bt(h.blurb))+'</p>'+
           '</header>'+
           (dv ? ornamentMaskHtml(book, dv, "ic-orn-divider") : "")+
-          '<section class="ic-home-panel" id="ic-home-panel">'+panel+'</section>'+
           (tpRec ? ornamentMaskHtml(book, tpRec, "ic-orn-tailpiece") : "")+
         '</div>';
       bindLangSwitch(root);
       var toLib = root.querySelector(".ic-to-lib-link"); if(toLib) toLib.addEventListener("click",function(){ location.hash=""; });
-      // Плитка «Содержание» — та же модальная панель, что открывает кнопка
-      // «глава · страница» в .ic-rbar читалки (openChapToc), просто без
-      // текущей главы (ch=null, значит ни один пункт списка не подсвечен
-      // как активный) — поэтому это <a href="#"> с preventDefault и вызовом
-      // openChapToc, а не обычная ссылка.
-      var tocTile = root.querySelector('[data-tile="toc"]');
-      if(tocTile && chap) tocTile.addEventListener("click",function(e){ e.preventDefault(); openChapToc(book, chap, null, tocTile); });
       var fig = root.querySelector(".ic-home-fig .ic-fig"); if(fig) fig.addEventListener("click",function(){ lightbox(fig.getAttribute("data-src")); });
-      var gl = root.querySelector(".ic-gal"); if(gl) gl.addEventListener("click",function(e){
+      state.scroll = 0; toTop(true);
+      installScrollHide({isActive:function(){ return gen===renderGen; }});
+      nudgeRepaint();
+    });
+  }
+
+  // renderBookText — раздел «Текст» (#/<slug>/text, задание пункт 1): только
+  // содержание по частям, та же разметка tocPartsHtml, что строит выезжающую
+  // шторку «Содержание» в читалке (renderChapter), просто как полноценная
+  // страница (curSlug=null — ни одна глава не подсвечена) и без строки
+  // раздела (задание, пункт 4 — у этой страницы строки раздела нет вовсе).
+  function renderBookText(book){
+    var gen = renderGen;
+    loadChapters(book, function(chap){
+      if(gen !== renderGen) return;
+      root.innerHTML =
+        bookTabsHtml(book, "text")+
+        '<div class="ic-wrap">'+
+          '<div class="ic-top-row">'+langSwitch()+'</div>'+
+          '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("bkTabText"))+'</h1></header>'+
+          tocPartsHtml(book, chap, null)+
+        '</div>';
+      bindLangSwitch(root);
+      root.querySelectorAll("[data-ch]").forEach(function(b){ b.addEventListener("click",function(){ location.hash = chapterHref(book, b.getAttribute("data-ch")).replace(/^#/,""); }); });
+      state.scroll = 0; toTop(true);
+      installScrollHide({isActive:function(){ return gen===renderGen; }});
+      nudgeRepaint();
+    });
+  }
+
+  // renderBookPlates — раздел «Гравюры» (#/<slug>/plates, задание пункт 1):
+  // сетка 2 колонки, сгруппированная по главам — тот же приём, что раньше
+  // показывала вкладка tab==="gallery" на обложке (renderHome), теперь
+  // отдельный полноценный маршрут, не вкладка. Без строки раздела.
+  function renderBookPlates(book){
+    var gen = renderGen;
+    loadChapters(book, function(chap){
+      if(gen !== renderGen) return;
+      var engBase = engBaseOf(book);
+      // Группировка по главам в порядке книги (chap.list), не по порядку
+      // гравюр: словарь {chapterSlug: [гравюры...]}, заполняемый в порядке
+      // chap.pl.list (задание — "сохраняя порядок chap.pl.list").
+      var byCh = {};
+      galleryEntries(chap).forEach(function(p){ (byCh[p.chapter] = byCh[p.chapter] || []).push(p); });
+      var html = chap.list.filter(function(c){ return byCh[c.slug] && byCh[c.slug].length; }).map(function(c){
+        return '<h2 class="ic-pl-h">'+esc(chapTitle(c))+'</h2><ul class="ic-gal ic-gal-grid">'+byCh[c.slug].map(function(g){
+          var thumb = engBase+"thumb/"+g.file+"_t.webp";
+          return '<li><a class="ic-gal-item" href="'+esc(hrefFor(book, "plate/"+g.id))+'" data-id="'+esc(g.id)+'">'+
+            '<span class="ic-gal-img"><img loading="lazy" src="'+esc(thumb)+'" alt=""></span>'+
+            '<span class="ic-gal-cap">'+esc(plTitle(chap, g))+'</span></a></li>';
+        }).join("")+'</ul>';
+      }).join("");
+      root.innerHTML =
+        bookTabsHtml(book, "plates")+
+        '<div class="ic-wrap">'+
+          '<div class="ic-top-row">'+langSwitch()+'</div>'+
+          '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("hmGallery"))+'</h1></header>'+
+          html+
+        '</div>';
+      bindLangSwitch(root);
+      var gl = root.querySelector(".ic-gal"); if(gl) root.querySelectorAll(".ic-gal").forEach(function(g){ g.addEventListener("click",function(e){
         var a = e.target.closest(".ic-gal-item");
         if(a && !e.metaKey && !e.ctrlKey && !e.shiftKey && e.button===0){ e.preventDefault(); go(book, "plate/"+a.getAttribute("data-id")); }
-      });
-      var form = root.querySelector(".ic-home-search"), restoreY = 0;
-      if(tab==="search"){ restoreY = namesUi.pos[location.hash] || 0; delete namesUi.pos[location.hash]; }
-      if(form){
-        wireBookSearch(book, form, root.querySelector(".ic-sr"), gen, restoreY);
-        if(tabArg && !restoreY) form.querySelector(".ic-search").focus({preventScroll:true});
-      }
-      var pn = root.querySelector("#ic-home-panel");
-      if(tab==="gallery" && state.scroll){ var y = state.scroll; state.scroll = 0; window.scrollTo(0, y); }
-      else if(restoreY){ state.scroll = 0; }
-      else if(tabArg){
-        state.scroll = 0;
-        var off = (parseFloat(root.dataset.top) || 0) + 12;
-        var snap = function(){ if(gen !== renderGen) return; window.scrollTo(0, window.scrollY + pn.getBoundingClientRect().top - off); };
-        snap();
-        if(document.fonts && document.fonts.ready) document.fonts.ready.then(snap);
-      } else { state.scroll = 0; toTop(true); }
+      }); });
+      state.scroll = 0; toTop(true);
+      installScrollHide({isActive:function(){ return gen===renderGen; }});
+      nudgeRepaint();
+    });
+  }
+
+  // renderBookSearch — раздел «Поиск» (#/<slug>/search, задание пункт 1):
+  // перенос прежней вкладки home/search as-is — тот же контракт разметки
+  // .ic-home-search/.ic-sr и wireBookSearch, теперь отдельная страница. Без
+  // строки раздела (сама страница — уже прямой доступ к поиску).
+  function renderBookSearch(book){
+    var gen = renderGen;
+    loadChapters(book, function(chap){
+      if(gen !== renderGen) return;
+      var restoreY = namesUi.pos[location.hash] || 0; delete namesUi.pos[location.hash];
+      root.innerHTML =
+        bookTabsHtml(book, "search")+
+        '<div class="ic-wrap">'+
+          '<div class="ic-top-row">'+langSwitch()+'</div>'+
+          '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("hmSearch"))+'</h1></header>'+
+          '<form class="ic-home-search" role="search">'+
+            '<span class="ic-search-wrap"><input class="ic-search" type="search" enterkeyhint="search" placeholder="'+esc(t("srPlace"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("srPlace"))+'">'+
+            '<button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span></form>'+
+          '<div class="ic-sr" aria-live="polite"></div>'+
+        '</div>';
+      bindLangSwitch(root);
+      var form = root.querySelector(".ic-home-search");
+      wireBookSearch(book, form, root.querySelector(".ic-sr"), gen, restoreY);
+      if(!restoreY) form.querySelector(".ic-search").focus({preventScroll:true});
+      state.scroll = 0;
+      if(!restoreY) toTop(true);
+      installScrollHide({isActive:function(){ return gen===renderGen; }});
       nudgeRepaint();
     });
   }
@@ -3814,16 +3916,19 @@
     loadChapters(book, function(chap){
       if(gen !== renderGen) return;
       var pl = chap && chap.pl, p = pl && pl.byId[id];
-      if(!p){ location.replace(hrefFor(book, pl && pl.byOld[id] ? "plate/"+pl.byOld[id] : "home/gallery")); return; }
+      if(!p){ location.replace(hrefFor(book, pl && pl.byOld[id] ? "plate/"+pl.byOld[id] : "plates")); return; }
       var gal = pl.list, idx = gal.indexOf(p);
       var engBase = engBaseOf(book), src = engBase+p.file+"_display.webp";
       var ch = chap.bySlug[p.chapter], cf = p.cap_from, cch = cf ? chap.bySlug[cf.chapter] : ch,
         capB = (p.at==="cap" || cf) && cch && cch.blocks ? cch.blocks[(cf ? cf.block : p.block)-1] : null;
       var prev = idx > 0 ? gal[idx-1] : null, next = idx < gal.length-1 ? gal[idx+1] : null;
-      function navLink(n, dir){
-        if(!n) return '<span class="ic-pc-step ic-pc-'+dir+' ic-pc-off" aria-hidden="true"></span>';
-        return '<a class="ic-pc-step ic-pc-'+dir+'" rel="'+dir+'" href="'+esc(hrefFor(book,"plate/"+n.id))+'" aria-label="'+esc(t(dir==="prev"?"plPrev":"plNext"))+'">'+
-          '<span class="ic-pc-arrow" aria-hidden="true">'+(dir==="prev"?"←":"→")+'</span><span class="ic-pc-step-t">'+esc(plTitle(chap, n))+'</span></a>';
+      // Ряд из трёх равных пилюль «Предыдущая / Все гравюры / Следующая»
+      // (задание, пункт 1 — по макету book-structure.html, .row2/.row2 a):
+      // заменяет прежний двуячеечный пейджер с заголовками соседних гравюр —
+      // простые равные пилюли без названия статьи, как в макете.
+      function navPill(n, dir){
+        if(!n) return '<span class="ic-pc-pill ic-pc-off" aria-hidden="true"></span>';
+        return '<a class="ic-pc-pill" rel="'+dir+'" href="'+esc(hrefFor(book,"plate/"+n.id))+'">'+esc(t(dir==="prev"?"plPrev":"plNext"))+'</a>';
       }
       var meta = [];
       if(ch) meta.push('<span>'+esc(chapTitle(ch))+'</span>');
@@ -3836,8 +3941,9 @@
           : state.lang!=="ru" ? '<p class="ic-ch-note">'+esc(t("chRuOnly"))+'</p>' : explParas ? '<div class="ic-text ic-pc-expl-body" lang="ru">'+explParas+'</div>' : '<p class="ic-pc-none">'+esc(t("plNoExpl"))+'</p>')+
         '</section>';
       root.innerHTML =
+        bookTabsHtml(book, "plates")+
         '<div class="ic-wrap ic-home ic-plate-card">'+
-          '<div class="ic-top-row"><button type="button" class="ic-to-lib-link ic-back ic-pc-all">← '+esc(t("plAll"))+'</button>'+langSwitch()+'</div>'+
+          '<div class="ic-top-row">'+langSwitch()+'</div>'+
           '<article class="ic-pc" data-id="'+esc(p.id)+'">'+
             '<figure class="ic-pc-fig"><div class="ic-fig ic-fig-eng" data-src="'+esc(src)+'"><img class="ic-fade-img ic-eng-display" src="'+esc(src)+'"'+
               (p.w && p.h ? ' width="'+p.w+'" height="'+p.h+'"' : "")+' alt="'+esc(t("engravingAlt",{title:p.title}))+'"></div></figure>'+
@@ -3851,12 +3957,20 @@
               '<a class="ic-pc-read" href="'+esc(chapterHref(book, p.chapter, p.block))+'">'+esc(t("plRead"))+'</a>'+
             '</div>'+
           '</article>'+
-          '<nav class="ic-pc-pager" aria-label="'+esc(t("hmGallery"))+'">'+navLink(prev,"prev")+navLink(next,"next")+'</nav>'+
+          '<nav class="ic-pc-pager" aria-label="'+esc(t("hmGallery"))+'">'+navPill(prev,"prev")+
+            '<a class="ic-pc-pill" href="'+esc(hrefFor(book,"plates"))+'" data-rb="all">'+esc(t("plAll"))+'</a>'+
+            navPill(next,"next")+'</nav>'+
         '</div>';
       bindLangSwitch(root);
-      root.querySelector(".ic-pc-all").addEventListener("click",function(){
-        if(namesUi.via===location.hash){ history.back(); return; }
-        location.hash = hrefFor(book, "home/gallery");
+      // «Все гравюры» в новом ряду трёх пилюль — та же эвристика
+      // history.back(), что раньше была у верхней ссылки «← Все гравюры»
+      // (убрана этим раундом — книжные вкладки «Гравюры» сверху уже дают тот
+      // же путь назад, см. задание пункт 1): если пришли СЮДА именно со
+      // страницы «Гравюры» (namesUi.via), возврат идёт через history.back(),
+      // иначе — обычный переход по ссылке.
+      var pcAll = root.querySelector('[data-rb="all"]');
+      if(pcAll) pcAll.addEventListener("click",function(e){
+        if(namesUi.via===location.hash){ e.preventDefault(); history.back(); }
       });
       // Клик «Читать в главе» — глава запоминает, что пришли именно отсюда (карточка
       // гравюры), чтобы новая панель читалки могла предложить вернуться назад тем же
@@ -4295,7 +4409,7 @@
   }
   // удерживает на месте верхний видимый блок главы, пока меняется раскладка
   function keepAnchor(change){
-    var top0 = (parseFloat(root.dataset.top) || 0) + 8, kids = root.querySelectorAll(".ic-ch-body > :not(.ic-pgm):not(.ic-hl-mark)"), a = null, y0 = 0, i;
+    var top0 = headerStackH() + 8, kids = root.querySelectorAll(".ic-ch-body > :not(.ic-pgm):not(.ic-hl-mark)"), a = null, y0 = 0, i;
     for(i = 0; i < kids.length; i++){ var r = kids[i].getBoundingClientRect(); if(r.bottom > top0){ a = kids[i]; y0 = r.top; break; } }
     change();
     if(a){ var d = a.getBoundingClientRect().top - y0; if(d) window.scrollTo(0, window.scrollY + d); }
@@ -4310,7 +4424,7 @@
     var d = document.createElement("div");
     d.className = "ic ic-sv "+(panel ? "ic-sv-panel" : "ic-sv-full");
     d.setAttribute("role","dialog"); d.setAttribute("aria-label", t("svDlg"));
-    if(panel){ d.style.top = (parseFloat(root.dataset.top) || 0)+"px"; }
+    if(panel){ d.style.top = headerStackH()+"px"; }
     d.innerHTML =
       '<div class="ic-sv-bar">'+
         '<div class="ic-sv-pager"><button type="button" class="ic-sv-pv" aria-label="'+esc(t("svPrev"))+'">‹</button><span class="ic-sv-pos"></span><button type="button" class="ic-sv-nx" aria-label="'+esc(t("svNext"))+'">›</button></div>'+

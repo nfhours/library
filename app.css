@@ -262,38 +262,75 @@ button.ic-nav-pager-b{font-size:.78em;letter-spacing:.06em;text-transform:upperc
   box-shadow:inset 0 -1px 0 transparent;transition:box-shadow .2s,color .2s}
 button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
 
-/* Панель чтения главы (.ic-rbar): объединяет прежние .ic-nav и .ic-toc-btn
-   над текстом главы в одну липкую строку-тулбар из пяти ячеек слева направо —
-   [Книга/контекст] [Глава · страница] [Начало] [Скан] [Поиск]. Прячется/
-   возвращается вместе с внешней .back-bar по направлению прокрутки (см.
-   installScrollHide в app.js); sticky + transform, а не display/height,
-   чтобы скрытие не двигало текст под панелью.
-   Round 8: перенесён заказчиком утверждённый макет rbar-proto.html, вариант
-   Б («одна капсула с сегментами») — один живым куском: вся строка заключена
-   в общую рамку с радиусом (а не отдельные кнопки с gap, как в round 6-7),
-   деление на ячейки — тонкие внутренние border-left, не настоящий gap.
-   Фон полосы — непрозрачный почти-чёрный #16130f, ТОТ ЖЕ тон, что у внешней
-   .back-bar (раньше был на шаг светлее, #211d17 — в макете одна и та же
-   плоскость). Текст светлый (--cream), капителью. Нажатие — лёгкое
-   посветление ячейки, без scale (в отличие от вариантов А/В макета).
-   Активная ячейка (Скан/Поиск, aria-pressed) — сплошная светлая заливка,
-   тёмный текст. Ячейка возврата (.ic-rbar-ctx) — просто чуть светлее фона,
-   без акцентной рамки/цвета (это и было round 7 — заказчик отклонил, макет
-   отдаёт предпочтение сдержанному варианту). Брейкпоинт мобильной формы —
-   460px (было 620px). */
-.ic-rbar{position:sticky;top:var(--top);z-index:5;
+/* Общее меню книги (.ic-booktabs, app.js bookTabsHtml) — пять равных вкладок
+   «Текст · Гравюры · Указатель · Имена · Поиск», НЕПОСРЕДСТВЕННО под шапкой
+   сайта (.back-bar), ОДНО и то же на каждой странице книги — задание этого
+   раунда, пункт 3. Визуальный язык — макет book-structure.html, .tabs:
+   тёмная полоса (тот же тон #16130f, что у .back-bar/.ic-rbar), пять ячеек
+   поровну, активная подчёркнута акцентом снизу. position:sticky;top:var(--top)
+   — сразу под .back-bar (та же высота, что читает --top, см. syncTopVar в
+   app.js); прячется ВМЕСТЕ с .back-bar по направлению прокрутки (общий класс
+   "ic-bb-hidden", installScrollHide — см. app.js), той же анимацией
+   transform/transition, что .back-bar, — одно совместное движение, без
+   рассинхрона (задание, пункт 5).
+   .ic-booktabs-fixed — тот же фикс мигания sticky при частых программных
+   scrollTo (жест по рейлу букв), что у .back-bar-fixed (index.html): нужен
+   только на указателе/«Именах» — задаётся прямо в разметке (bookTabsHtml),
+   не отдельным классом из route(), т.к. .ic-booktabs целиком пересобирается
+   каждым рендером. */
+.ic-booktabs{position:sticky;top:var(--top);z-index:9;display:flex;
+  background:#16130f;border-top:1px solid rgba(236,229,212,.12);
+  transition:transform .3s ease;will-change:transform}
+.ic-booktabs a{flex:1 1 0;min-width:0;text-align:center;padding:13px 6px 12px;
+  font-size:11px;letter-spacing:.05em;text-transform:uppercase;
+  color:rgba(236,229,212,.62);position:relative;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ic-booktabs a.on{color:#ece5d4}
+.ic-booktabs a.on::after{content:"";position:absolute;left:22%;right:22%;bottom:4px;height:2px;background:var(--accent)}
+.ic-booktabs a:active{background:rgba(236,229,212,.08)}
+/* -100% одной только высоты .ic-booktabs не уводит её с экрана целиком: она
+   sticky на top:var(--top), т.е. уже сдвинута вниз на высоту .back-bar —
+   чтобы её верх после скрытия ушёл выше y=0 (а не просто чуть выше своей
+   исходной позиции, оставаясь видимой), транзишен должен компенсировать и
+   ЭТУ высоту тоже — тот же приём, что уже решён для .ic-rbar.ic-rbar-hidden
+   выше (calc(-100% - var(--top))), найден независимой проверкой на этом
+   раунде: без компенсации после "скрытия" .ic-booktabs оставалась видна
+   почти целиком (верх на +8px вместо ухода за экран). */
+.ic-booktabs.ic-bb-hidden{transform:translateY(calc(-100% - var(--top)))}
+.ic-booktabs.ic-booktabs-fixed{position:fixed;left:0;right:0;
+  transform:translateZ(0);will-change:transform;backface-visibility:hidden}
+.ic-booktabs.ic-booktabs-fixed.ic-bb-hidden{transform:translateY(calc(-100% - var(--top))) translateZ(0)}
+@media (max-height:500px) and (orientation:landscape){
+  .ic-booktabs a{padding:8px 6px 7px;font-size:10px}
+}
+
+/* Строка раздела книги (.ic-rbar) — под меню книги (.ic-booktabs). На главе —
+   [контекст, если пришли по ссылке] [Глава · страница] [Скан] [Начало]; на
+   указателе/«Именах» (.ic-rbar-tv) — [Найти] [сортировка/Тип]. Round (этот
+   раунд, задание пункт 3-5): прежняя ячейка «Книга»/запасная кнопка возврата
+   убрана совсем (книжные вкладки сверху уже дают прямой доступ к любому
+   разделу) — см. app.js renderChapter/renderTavola/renderNames. Строка
+   раздела теперь НИКОГДА не прячется при прокрутке (новая двухуровневая
+   схема, пункт 5): прячутся только .back-bar+.ic-booktabs, единым
+   движением; строка раздела статична, top:var(--top2) (= высота .back-bar
+   + реальная высота .ic-booktabs, app.js syncHeaderStack/headerStackH) —
+   когда шапка+меню книги спрятаны прокруткой, над строкой раздела остаётся
+   немного свободного места (тот же приём, что уже был принят для столбика
+   букв .ic-az-rail в прошлых раундах — см. его комментарий ниже), когда
+   видны — строка раздела остаётся на том же месте, шапка+меню книги просто
+   встают НАД ней.
+   Round 8 (прошлый раунд): перенесён заказчиком утверждённый макет
+   rbar-proto.html, вариант Б («одна капсула с сегментами») — вся строка
+   заключена в общую рамку с радиусом, деление на ячейки — тонкие внутренние
+   border-left. Фон полосы — непрозрачный почти-чёрный #16130f, тот же тон,
+   что у .back-bar/.ic-booktabs. Текст светлый (--cream), капителью. */
+.ic-rbar{position:sticky;top:var(--top2, 96px);z-index:5;
   --cream:236,229,212; --bar:#16130f; --rbar-accent:#d9a991;
   --rbar-ink:rgba(var(--cream),.94); --rbar-soft:rgba(var(--cream),.64);
   background:var(--bar);
   border-bottom:1px solid rgba(var(--cream),.12);
   margin:0 0 26px;
   padding:10px calc(28px + env(safe-area-inset-right)) 10px calc(28px + env(safe-area-inset-left));
-  transition:transform .3s ease;will-change:transform}
-/* -100% of the bar's own height isn't enough here: unlike .back-bar (which
-   sticks at top:0), this bar sticks at top:var(--top) — below the external
-   bar's own height — so clearing the viewport needs that offset added too,
-   plus a small buffer against sub-pixel rounding. */
-.ic-rbar.ic-rbar-hidden{transform:translateY(calc(-100% - var(--top) - 16px))}
+  will-change:transform}
 /* .ic-rbar-tv (указатель/«Имена», app.js renderTavola/renderNames) — фикс
    вспышки-пропадания меню на iPhone Safari при ведении пальцем по рейлу
    букв (.ic-az-rail/wireAzRail, app.js): каждый pointermove там дёргал
@@ -306,19 +343,15 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    слой (translateZ(0)+will-change:transform, уже заданный выше в базовом
    правиле, получает и -tv — will-change наследуется по специфичности
    родительского правила автоматически + backface-visibility:hidden,
-   которых в базовом правиле не было). left:0;right:0 — без потолка
-   max-width:1120px, который раньше был у родителя .ic-ch-outer: сама
-   капсула теперь фиксирована к вьюпорту, а не к ширине бывшего родителя;
-   видимое содержимое (.ic-rbar-row) и так ограничено max-width:1120px и
-   центрировано само по себе (правило ниже) — так что кнопки/текст сидят
-   РОВНО там же, где раньше, и единственная разница на очень широких
-   десктопных экранах (>1160px) — непрозрачная цветная подложка идёт теперь
-   до самых краёв экрана вместо прежнего отступа в ~20px с каждой стороны;
-   на мобильных (≤620px, основной сценарий задания) разницы нет вовсе, там
-   .ic-ch-outer и так имел padding:0 (см. выше), то есть .ic-rbar уже
-   доходил до краёв. Компенсирующий отступ контенту под фиксированной
-   капсулой — --tv-content-top, см. .ic-wrap.ic-tv ниже и syncAzRailBounds
-   (app.js). */
+   которых в базовом правиле не было). top наследуется от базового правила
+   (var(--top2)) — та же сумма высот .back-bar+.ic-booktabs, что и у sticky-
+   варианта читалки. left:0;right:0 — без потолка max-width:1120px, который
+   раньше был у родителя .ic-ch-outer: сама капсула теперь фиксирована к
+   вьюпорту, а не к ширине бывшего родителя; видимое содержимое
+   (.ic-rbar-row) и так ограничено max-width:1120px и центрировано само по
+   себе (правило ниже) — так что кнопки/текст сидят РОВНО там же, где
+   раньше. Компенсирующий отступ контенту под фиксированной капсулой —
+   --tv-content-top, см. .ic-wrap.ic-tv ниже и syncAzRailBounds (app.js). */
 .ic-rbar.ic-rbar-tv{position:fixed;left:0;right:0;
   transform:translateZ(0);will-change:transform;backface-visibility:hidden}
 /* .ic-rbar-elevated (z-index:20) — УБРАН этим раундом (был фикс для бага,
@@ -371,42 +404,29 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
 .ic-rbar-row button[aria-pressed="true"]{background:rgb(var(--cream));color:var(--bar)}
 .ic-rbar-row .ic-rbar-ctx{flex:0 1 auto;min-width:40px;justify-content:center;overflow:hidden}
 .ic-rbar-ctx span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:center}
-/* Капсула указателя/«Имён» (.ic-rbar-tv, см. app.js renderTavola/renderNames)
-   — три ячейки РОВНО одинаковой ширины (пункт 2 задания): переопределяем
-   flex:0 1 auto у .ic-rbar-ctx базового правила выше (специфичность ВЫШЕ за
-   счёт доп. класса .ic-rbar-tv на самом .ic-rbar), не трогая само базовое
-   правило — капсула читалки главы (5 ячеек, .ic-rbar без .ic-rbar-tv) не
-   задета. min-width:0 вместо 40px — ячейке можно сжиматься до нуля наравне
-   с .ic-rbar-tvsearch/.ic-rbar-sort (уже flex:1 1 0 выше); text-overflow
-   ellipsis у вложенного span (.ic-rbar-ctx span выше) продолжает обрезание
-   работать и в этой, более узкой, равнодолевой ширине. */
-.ic-rbar-tv .ic-rbar-ctx{flex:1 1 0;min-width:0}
 /* Компенсирующий отступ контенту указателя/«Имён» (.ic-wrap.ic-tv) под
-   фиксированным меню (.back-bar-fixed + .ic-rbar-tv, см. выше/index.html) —
-   раз оба стали position:fixed, они больше не резервируют своё место в
-   потоке документа (в отличие от прежнего position:sticky), поэтому без
-   этого отступа заголовок страницы (.ic-head) залез бы под шапку+капсулу.
-   margin-top (не трогаем padding-top у базового .ic-wrap — он остаётся
-   прежним, это ДОБАВОЧНЫЙ отступ) = --tv-content-top, которую пишет
-   syncAzRailBounds (app.js): реальная высота .back-bar + реальная высота
-   .ic-rbar-tv + её собственный margin-bottom (26px, см. .ic-rbar выше) —
-   то есть ровно та сумма, которую раньше неявно давала обычная раскладка
-   потока с двумя sticky-элементами. Фоллбэк 126px — запасной статичный
-   вариант только до первого вызова syncAzRailBounds (тот же приём, что у
-   --az-top). */
+   фиксированным меню (.back-bar-fixed+.ic-booktabs-fixed+.ic-rbar-tv, см.
+   выше/index.html) — раз все три стали position:fixed, они больше не
+   резервируют своё место в потоке документа (в отличие от прежнего
+   position:sticky), поэтому без этого отступа заголовок страницы (.ic-head)
+   залез бы под шапку+меню книги+капсулу. margin-top (не трогаем padding-top
+   у базового .ic-wrap — он остаётся прежним, это ДОБАВОЧНЫЙ отступ) =
+   --tv-content-top, которую пишет syncAzRailBounds (app.js): headerStackH()
+   (реальная высота .back-bar + реальная высота .ic-booktabs) + реальная
+   высота .ic-rbar-tv + её собственный margin-bottom (26px, см. .ic-rbar
+   выше) — то есть ровно та сумма, которую раньше неявно давала обычная
+   раскладка потока с тремя sticky-элементами. Фоллбэк 126px — запасной
+   статичный вариант только до первого вызова syncAzRailBounds (тот же
+   приём, что у --az-top). */
 .ic-wrap.ic-tv{margin-top:var(--tv-content-top, 126px)}
-/* Капсула указателя/«Имён» (renderTavola/renderNames) — у кнопки «К книге»
-   текст раньше шёл напрямую в button, без обёртки в span, поэтому правило
-   .ic-rbar-ctx span выше его не ловило: text-overflow НЕ применяется к
-   самому button, т.к. .ic-rbar button — display:flex (flex-контейнер не
-   является "block container" для text-overflow, см. спецификацию CSS —
-   проверено эмпирически на реальном рендеринге, overflow:hidden без span
-   просто жёстко обрезает текст без «…», ellipsis тихо игнорируется).
-   Фикс — не добавить text-overflow на сам button (это не сработало бы), а
-   обернуть текст кнопки «К книге» в <span> в разметке (app.js), как уже
-   сделано у «Найти» (.ic-rbar-tvsearch-label) и у читалки; overflow:hidden
-   на самом .ic-rbar-ctx остаётся как доп. граница обрезки на случай, если
-   даже span не умещается. */
+/* Ячейка возврата/контекста (.ic-rbar-ctx) — текст оборачивается в <span>
+   в разметке (app.js), не идёт напрямую в button: text-overflow НЕ
+   применяется к самому button, т.к. .ic-rbar button — display:flex
+   (flex-контейнер не является "block container" для text-overflow, см.
+   спецификацию CSS — проверено эмпирически на реальном рендеринге,
+   overflow:hidden без span просто жёстко обрезает текст без «…», ellipsis
+   тихо игнорируется). overflow:hidden на самом .ic-rbar-ctx остаётся как
+   доп. граница обрезки на случай, если даже span не умещается. */
 /* Кнопка сортировки указателя/«Тип» у «Имён» (data-rb="sort"/data-rb="type")
    — в разметке у неё раньше вообще не было своего класса (просто
    .ic-rbar button), поэтому ловилось только flex:none базовое правило:
@@ -446,7 +466,7 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    текст на светлой (та же --cream) заливке кнопки. */
 .ic-rbar-row .ic-rbar-pos[aria-pressed="true"] .ic-rbar-pos-ch,
 .ic-rbar-row .ic-rbar-pos[aria-pressed="true"] .ic-rbar-pos-pg{color:var(--bar)}
-.ic-rbar-top,.ic-rbar-scan,.ic-rbar-search{flex:none}
+.ic-rbar-top,.ic-rbar-scan{flex:none}
 /* full/short — на 1440 (широкий экран) показывается развёрнутая форма
    подписи ячейки 1 («Книга»/«К указателю: <статья>»); на 390 — короткая
    («Книга», «К указателю»). Тот же приём, что .ic-ed-long/.ic-ed-short на
@@ -475,15 +495,9 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
   .ic-rbar-full{display:none}
   .ic-rbar-short{display:inline}
   /* min-width — НЕ 0: короткая форма подписи ctx («К указателю»/«К гравюре»/
-     «К имени»/«К поиску»/«Книга», все три языка) должна помещаться ЦЕЛИКОМ,
-     без обрезания fitEllipsisWord (app.js). */
+     «К имени»/«К поиску», все три языка) должна помещаться ЦЕЛИКОМ, без
+     обрезания fitEllipsisWord (app.js). */
   .ic-rbar-row .ic-rbar-ctx{flex:0 1 auto;min-width:0;max-width:46%}
-  /* Капсула указателя/«Имён» (.ic-rbar-tv) — та же равнодолевая ширина трёх
-     ячеек, что и на широких экранах (см. правило выше по файлу), а не
-     max-width:46% читалки главы: без этого переопределения правило читалки
-     (тот же уровень специфичности, но позже в каскаде) перебивало бы его
-     именно на ширинах ≤460px — ровно там, где проверка (iPhone 13 390px). */
-  .ic-rbar-tv .ic-rbar-ctx{flex:1 1 0;max-width:none}
   .ic-rbar-row .ic-rbar-pos{flex:1 1 0%;min-width:46px;padding:0 9px}
   .ic-rbar-pos-ch{display:none}
   /* Название главы скрыто целиком на этой ширине — номер страницы остаётся
@@ -1062,6 +1076,16 @@ button.ic-toc-close{width:38px;height:38px;border:1px solid var(--rule);border-r
 .ic-home-toc .ic-toc-part a{font-size:1em}
 .ic-gal{list-style:none;display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:26px 18px;margin-top:22px}
 .ic-gal li{padding:0}
+/* Раздел «Гравюры» (#/<slug>/plates, задание этого раунда, пункт 1) — сетка
+   РОВНО 2 колонки на любой ширине экрана (не auto-fill, как у прежней
+   вкладки-галереи на обложке), по образцу макета book-structure.html
+   (.grid{grid-template-columns:1fr 1fr}), сгруппированная по главам. */
+.ic-gal.ic-gal-grid{grid-template-columns:repeat(2,1fr)}
+/* Заголовок главы-группы на «Гравюрах» — тот же визуальный язык, что у
+   заголовков частей содержания (.ic-toc-part h3 ниже). */
+.ic-pl-h{font-size:.72em;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);
+  padding-bottom:6px;border-bottom:1px solid var(--rule);margin:28px 0 10px}
+.ic-pl-h:first-child{margin-top:0}
 .ic .ic-gal-item{display:flex;flex-direction:column;gap:8px;color:var(--ink)}
 .ic-gal-img{display:block;position:relative;aspect-ratio:4/5;background:var(--sheet);border:1px solid var(--rule);border-radius:2px;transition:border-color .2s}
 .ic-gal-img img{position:absolute;inset:6px;width:calc(100% - 12px);height:calc(100% - 12px);max-width:none;object-fit:contain}
@@ -1122,13 +1146,20 @@ button.ic-sr-more{display:block;margin:14px 0 0;padding:8px 16px;font:inherit;fo
 .ic-pc-expl-body{font-size:.95em;line-height:1.6}
 .ic-pc-expl-body p,.ic-text.ic-pc-expl-body p.ic-ch-lines{text-indent:0;text-align:left;text-align-last:left;margin:0 0 .75em}
 .ic-pc-expl-body .ic-ch-quote{margin:.4em 0 .9em}
-.ic-pc-pager{display:flex;justify-content:space-between;gap:16px;margin-top:34px;padding-top:16px;border-top:1px solid var(--rule)}
-.ic .ic-pc-step{flex:1 1 0;min-width:0;display:flex;align-items:center;gap:10px;min-height:44px;color:var(--ink)}
-.ic-pc-next{justify-content:flex-end;text-align:right}
-.ic-pc-arrow{flex:none;font-size:1.4em;line-height:1;color:var(--accent)}
-.ic-pc-step-t{min-width:0;font-size:.88em;line-height:1.3;color:var(--soft);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.ic .ic-pc-step:hover .ic-pc-step-t{color:var(--ink)}
-.ic-pc-off{pointer-events:none}
+/* Ряд из трёх равных пилюль «Предыдущая / Все гравюры / Следующая» —
+   book-structure.html, .row2/.row2 a — заменяет прежний двуячеечный пейджер
+   с заголовками соседних гравюр (задание этого раунда, пункт 1). */
+.ic-pc-pager{display:flex;gap:8px;margin-top:34px;padding-top:16px;border-top:1px solid var(--rule)}
+/* white-space:normal (не nowrap+ellipsis) — короткие подписи («Все
+   гравюры»/«Следующая») на узких экранах (3 равные пилюли на 390px) иначе
+   обрезались бы многоточием почти всегда — в 2 строки они читаются лучше,
+   чем обрубленные посередине слова. */
+.ic .ic-pc-pill{flex:1 1 0;min-width:0;display:block;text-align:center;padding:10px 6px;
+  border:1px solid var(--rule);border-radius:9px;background:var(--sheet);color:var(--ink);
+  font-size:.7em;line-height:1.25;letter-spacing:.03em;text-transform:uppercase;
+  overflow:hidden;white-space:normal}
+.ic-pc-pill.ic-pc-off{pointer-events:none;opacity:.4}
+@media (hover:hover){.ic .ic-pc-pill:not(.ic-pc-off):hover{background:#efe7d6}}
 @media (min-width:761px){
   .ic-pc{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);column-gap:48px;align-items:start}
   .ic-pc-fig img{max-height:76vh}
@@ -1230,9 +1261,10 @@ button.ic-tv-sheet-reset{flex:none;height:34px;padding:0 14px;border:1px solid r
    решил кардинально сменить подход: столбик СТАТИЧЕН — top/bottom — две
    неподвижные границы, никакого transition, никакой зависимости от
    .ic-rbar-hidden/.ic-bb-hidden.
-   --az-top (app.js, syncAzRailBounds) — верхняя граница: высота .back-bar
-   (root.dataset.top) + РЕАЛЬНАЯ высота капсулы .ic-rbar В РАЗВЁРНУТОМ виде +
-   отступ 14px. rect.height капсулы не меняется от translateY (тот же факт,
+   --az-top (app.js, syncAzRailBounds) — верхняя граница: headerStackH()
+   (высота .back-bar + РЕАЛЬНАЯ высота .ic-booktabs, общее меню книги этого
+   раунда) + РЕАЛЬНАЯ высота капсулы .ic-rbar В РАЗВЁРНУТОМ виде + отступ
+   14px. rect.height капсулы не меняется от translateY (тот же факт,
    на который опирается updateSheetMaxH выше) — поэтому измерение верно,
    даже если капсула в этот момент реально спрятана скроллом: шапка в
    развёрнутом виде тогда НИКОГДА не перекрывает буквы, а когда она спрятана

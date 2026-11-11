@@ -56,6 +56,16 @@
      пункт 3 задания/отчёт: баг не воспроизведён при разумной имитации). */
   .back-bar.back-bar-fixed{position:fixed;left:0;right:0;
     transform:translateZ(0);will-change:transform;backface-visibility:hidden}
+  /* Без этого правила .back-bar.back-bar-fixed.ic-bb-hidden не прячется
+     вовсе: .back-bar-fixed (выше) и .ic-bb-hidden (строка 42) — оба
+     двухклассовых селектора с одинаковой специфичностью, более поздний в
+     каскаде (.back-bar-fixed) побеждает и полностью перекрывает transform
+     у .ic-bb-hidden своим translateZ(0) — шапка остаётся видна на месте
+     при скролле на указателе/«Именах». Найдено независимой проверкой на
+     раунде cartari-structure-v1 (там же, где аналогичная причина уже была
+     учтена для .ic-booktabs-fixed, см. app.css — для .back-bar её в своё
+     время пропустили). */
+  .back-bar.back-bar-fixed.ic-bb-hidden{transform:translateY(-100%) translateZ(0)}
   .back-bar a{
     font-family:"IM Fell English","Iowan Old Style",Georgia,serif;
     font-size:20px;letter-spacing:.02em;
@@ -77,6 +87,6 @@
 <body>
 <div class="back-bar"><a href="https://94hours.com/projects/">Andrey Stepin</a><span id="back-bar-lang"></span></div>
 <div id="iconologie" data-book="library" data-top="52px"></div>
-<script src="app.js?v=123"></script>
+<script src="app.js?v=124"></script>
 </body>
 </html>
