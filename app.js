@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "150";
+  var APP_VER = "151";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -179,6 +179,8 @@
     rbCtxPl:      {ru:"К гравюре", en:"To the engraving", fr:"À la gravure"},
     rbCtxNm:      {ru:"К имени", en:"To the name", fr:"Au nom"},
     rbCtxSr:      {ru:"К поиску", en:"To search", fr:"À la recherche"},
+    rbBack:       {ru:"Назад", en:"Back", fr:"Retour"},
+    nmBackAll:    {ru:"К списку имён", en:"To the list of names", fr:"À la liste des noms"},
     rbTop:        {ru:"К началу главы", en:"To the start", fr:"Au début"},
     rbTopShort:   {ru:"Начало", en:"Start", fr:"Début"},
     rbPosLabel:   {ru:"Открыть содержание", en:"Open the contents", fr:"Ouvrir le sommaire"},
@@ -1204,44 +1206,74 @@
   // у читалки). opts.suppress — необязательная функция: пока возвращает
   // true, шапка+вкладки всегда показаны и накопители сбрасываются (когда
   // открыта/анимируется шторка поиска/содержания/сортировки).
+  // opts.minToggleGap (этот раунд, задание пункт 1 — «не больше одного
+  // переключения за 400мс», сейчас используется только главой) — после
+  // ФАКТИЧЕСКОГО переключения (не каждого тика!) следующее игнорируется,
+  // пока не пройдёт этот интервал; счётчики down/up продолжают копиться как
+  // обычно, так что по истечении паузы применяется актуальное на тот момент
+  // направление, а не замороженное на момент последнего переключения.
   function installScrollHide(opts){
     opts = opts || {};
     var hideAt = opts.hideAt != null ? opts.hideAt : 26, showAt = opts.showAt != null ? opts.showAt : 10;
     var topGuard = opts.topGuard != null ? opts.topGuard : 36, bottomGuard = opts.bottomGuard != null ? opts.bottomGuard : 160;
-    var lastY = window.scrollY, down = 0, up = 0, hidden = false;
+    var minToggleGap = opts.minToggleGap != null ? opts.minToggleGap : 0;
+    var lastY = window.scrollY, down = 0, up = 0, hidden = false, curHidden = false, lastToggleAt = 0;
     function setHidden(v){
+      curHidden = v;
       var bbar = document.querySelector(".back-bar");
       if(bbar) bbar.classList.toggle("ic-bb-hidden", v);
       var bt = document.getElementById("ic-booktabs");
       if(bt) bt.classList.toggle("ic-bb-hidden", v);
-      // Строка раздела (.ic-rbar, ЛЮБАЯ — читалка главы И указатель/«Имена»,
-      // см. задание этого раунда: -tv больше не исключение, см. комментарий
-      // у .ic-rbar-tv в app.css) прячется вслед за шапкой+меню книги — в тот
-      // же тик, тем же v — снапом к top:0 (+safe-area), а не статичным
-      // var(--top2)/var(--az-top), как раньше.
+      // Строка раздела (.ic-rbar, читалка главы — указатель/«Имена» этим
+      // раундом сюда вообще не заходят, installScrollHide там не
+      // устанавливается, см. задание пункт 1/renderTavola/renderNames)
+      // прячется вслед за шапкой+меню книги — в тот же тик, тем же v —
+      // снапом к top:0 (+safe-area), а не статичным var(--top2), как раньше.
       var rb = document.getElementById("ic-rbar");
       if(rb) rb.classList.toggle("ic-rbar-snap", v);
-      // Столбик букв указателя/«Имён» (.ic-az-rail) — тот же тик, та же
-      // причина: сидит сразу под строкой раздела в её текущем (прилипшем
-      // или нет) положении, см. .ic-az-rail-snap в app.css и
-      // syncAzRailBounds ниже, который считает оба положения заранее.
       var rail = document.querySelector(".ic-az-rail");
       if(rail) rail.classList.toggle("ic-az-rail-snap", v);
     }
     function tick(){
-      if(opts.isActive && !opts.isActive()){ setHidden(false); return; }
+      if(opts.isActive && !opts.isActive()){ if(curHidden) setHidden(false); return; }
       var y = window.scrollY, dy = y - lastY; lastY = y;
       var doc = document.documentElement;
       var nearTop = y < topGuard, nearBottom = (doc.scrollHeight - (y + window.innerHeight)) < bottomGuard;
-      if(opts.suppress && opts.suppress()){ hidden = false; down = 0; up = 0; }
+      // Резиновый отскок iOS (scrollY < 0 или дальше конца документа) —
+      // этот раунд, задание пункт 1: Safari на границах страницы на кадр-два
+      // отдаёт y вне [0, max], с рывком dy, который иначе читался бы как
+      // настоящая прокрутка и мог бы переключить видимость на самом краю
+      // жеста. Полностью игнорируем такой тик — не трогаем ни счётчики, ни
+      // hidden, просто ждём кадра с нормальным y (как при suppress).
+      var overscroll = y < 0 || (y + window.innerHeight) > doc.scrollHeight + 0.5;
+      if(overscroll){ /* no-op этот тик */ }
+      else if(opts.suppress && opts.suppress()){ hidden = false; down = 0; up = 0; }
       else if(nearTop || nearBottom){ hidden = false; down = 0; up = 0; }
       else if(dy > 0.5){ down += dy; up = 0; if(down > hideAt) hidden = true; }
       else if(dy < -0.5){ up += -dy; down = 0; if(up > showAt) hidden = false; }
-      setHidden(hidden);
+      if(hidden !== curHidden){
+        var now = performance.now();
+        if(now - lastToggleAt >= minToggleGap){ lastToggleAt = now; setHidden(hidden); }
+      }
       if(opts.onTick) opts.onTick();
       requestAnimationFrame(tick);
     }
     requestAnimationFrame(tick);
+  }
+
+  // showBarsAlways — этот раунд (задание, пункт 1): указатель/«Имена»
+  // installScrollHide вообще не вызывают — шапка+меню книги+строка раздела
+  // там всегда на месте, единым неподвижным блоком (решение Андрея, см.
+  // задание). Но .back-bar живёт вне root (index.html) и переживает смену
+  // страниц — если читатель пришёл сюда СО страницы, где шапка была спрятана
+  // прокруткой (например, из главы), класс ic-bb-hidden иначе остался бы
+  // висеть на ней навсегда (тикать здесь некому, он снимается только внутри
+  // installScrollHide). .ic-booktabs/.ic-rbar/.ic-az-rail каждый раз
+  // пересобираются заново через root.innerHTML — свежая разметка и так без
+  // этих классов, сбрасывать нечего.
+  function showBarsAlways(){
+    var bbar = document.querySelector(".back-bar");
+    if(bbar) bbar.classList.remove("ic-bb-hidden");
   }
 
   // --ic-sheet-maxh — Round (баг «шторка выезжает под адресной строкой
@@ -2675,7 +2707,14 @@
       // комментарий у makeRbSheet про sheetAnimating/transitionend — без учёта
       // анимации scroll-hide иначе может начать прятать их СРЕДИ анимации
       // закрытия (это и было дёрганьем, пункт 3 задачи прошлого раунда).
-      installScrollHide({isActive:function(){ return gen === renderGen; }, onTick:paintPg, suppress:function(){
+      // hideAt/showAt/minToggleGap (этот раунд, задание пункт 1 — «спокойнее»
+      // в главе): было 26/10 без ограничения частоты — хватало короткого
+      // смаха, и мелкое колебание прокрутки у края жеста могло переключить
+      // видимость несколько раз подряд. Теперь прячет только после ≥80px
+      // прокрутки вниз подряд, показывает после ≥40px вверх подряд, и не
+      // чаще одного переключения за 400мс (см. installScrollHide выше).
+      installScrollHide({isActive:function(){ return gen === renderGen; }, onTick:paintPg,
+        hideAt:80, showAt:40, minToggleGap:400, suppress:function(){
         return rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); });
       }});
       root.querySelectorAll("[data-ch]").forEach(function(b){ b.addEventListener("click",function(){ location.hash = chapterHref(book, b.getAttribute("data-ch")).replace(/^#/,""); }); });
@@ -3094,9 +3133,7 @@
       });
       fill();
       syncHeaderStack();
-      installScrollHide({isActive:function(){ return gen===renderGen; }, suppress:function(){
-        return rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); }) || azDragging;
-      }});
+      showBarsAlways();
       if(tavolaUi.scroll){ var y = tavolaUi.scroll; tavolaUi.scroll = 0; requestAnimationFrame(function(){ if(gen===renderGen) window.scrollTo(0,y); }); }
       else toTop(true);
       nudgeRepaint();
@@ -3121,6 +3158,43 @@
   // повторной навигации; label — для типов, где ru/it не применимы (search:
   // произвольный текст запроса пользователя, не поле из tavola/names.json).
   var chCtx = {hash:"", type:"", ru:"", it:"", label:""};
+  // cardBackHtml — этот раунд (задание, пункт 2): строка раздела карточки
+  // имени/гравюры — та же капсула .ic-rbar/.ic-rbar-row, что у читалки главы
+  // (id="ic-rbar" — те же sticky/snap-к-top:0 правила app.css достаются
+  // бесплатно), но с ОДНОЙ ячейкой слева: «Назад: <откуда>» по chCtx (общий
+  // с читалкой главы контекст-механизм — отличается только тем, что здесь
+  // ПОДРАЗУМЕВАЕМЫЕ типы "names"/"search"/"plates"/"name" ведут на
+  // карточку, а не на главу, см. места, где chCtx выставляется:
+  // renderNames/wireBookSearch/renderBookPlates/renderNameCard). Без
+  // стрелок — просто текст на кнопке. Если chCtx не относится к ЭТОМУ
+  // переходу (пришли по прямой ссылке, либо ушли через пейджер «Пред./След.»
+  // и chCtx больше не совпадает hash'ем) — fallbackLabel целиком (без
+  // «Назад:», сам по себе законченная подпись: «К списку имён»/«Все
+  // гравюры»), клик ведёт по fallbackHref, а не History.back().
+  function cardBackHtml(fallbackLabel, fallbackHref){
+    var types = {names:1, search:1, plates:1, name:1};
+    var active = !!(chCtx.hash && chCtx.hash === location.hash && types[chCtx.type]);
+    var label, href = fallbackHref;
+    if(active){
+      var place = chCtx.type==="names" ? t("hmNames")
+        : chCtx.type==="search" ? t("hmSearch")
+        : chCtx.type==="plates" ? (chCtx.label || t("hmGallery"))
+        : (state.lang==="ru" ? chCtx.ru : (chCtx.it || chCtx.ru));
+      label = t("rbBack")+": "+place;
+    } else label = fallbackLabel;
+    return '<div class="ic-rbar" id="ic-rbar"><div class="ic-rbar-row">'+
+      '<button type="button" class="ic-rbar-ctx ic-rbar-back-solo" data-rb="cardback" data-active="'+(active?"1":"0")+'" data-fallback-href="'+esc(href)+'">'+
+        '<span class="ic-rbar-back-label">'+esc(label)+'</span>'+
+      '</button></div></div>';
+  }
+  function bindCardBack(root){
+    var btn = root.querySelector('[data-rb="cardback"]');
+    if(!btn) return;
+    btn.addEventListener("click",function(){
+      if(btn.getAttribute("data-active")==="1") history.back();
+      else location.hash = btn.getAttribute("data-fallback-href").replace(/^#/,"");
+    });
+  }
   // searchReopen — «вернуться к поиску»: открытие/закрытие выезжающей панели
   // поиска читалки (.ic-rb-sheet) НЕ меняет location.hash (это client-side
   // UI-состояние поверх текущей главы), поэтому chCtx (который сравнивается
@@ -3366,7 +3440,14 @@
       });
       list.addEventListener("click",function(e){
         var a = e.target.closest("a.ic-nm-row");
-        if(a){ namesUi.pos[location.hash] = window.scrollY; namesUi.via = a.getAttribute("href"); }
+        if(a){
+          namesUi.pos[location.hash] = window.scrollY; namesUi.via = a.getAttribute("href");
+          // chCtx — этот раунд, задание пункт 2: карточка имени читает это
+          // (type:"names") для строки «Назад: Имена» — тот же общий
+          // контекст-механизм, что у чтения глав (renderChapter), просто
+          // другой тип назначения.
+          chCtx = {hash: a.getAttribute("href"), type:"names"};
+        }
       });
       fill();
       syncHeaderStack();
@@ -3386,7 +3467,7 @@
     (e.m||[]).forEach(function(m){ if(!byCh[m[0]]){ byCh[m[0]] = []; order.push(m[0]); } byCh[m[0]].push(m); });
     order.sort(function(a,b){ return a-b; });
     var occ = 0; (e.m||[]).forEach(function(m){ occ += (m.length-2)/2; });
-    var gal = pls.length ? '<h2 class="ic-nm-h">'+esc(t("nmPlates"))+'</h2><ul class="ic-gal">'+pls.map(function(g){
+    var gal = pls.length ? '<h2 class="ic-nm-h">'+esc(t("nmPlates"))+'</h2><ul class="ic-gal" data-gal="1">'+pls.map(function(g){
       // width/height (пункт 7) — из w/h гравюры в plates.json, тот же приём,
       // что уже был у renderPlateCard (p.w/p.h) — задаёт реальную пропорцию
       // карточки сразу, без letterbox-рамки и без прыжка раскладки при
@@ -3434,12 +3515,13 @@
       // (пункт 17 — одинаковая отбивка сверху у всех страниц без строки
       // раздела).
       bookTabsHtml(book, "names", false)+
+      '<div class="ic-ch-outer">'+cardBackHtml(t("nmBackAll"), hrefFor(book, "names"))+'</div>'+
       '<div class="ic-wrap ic-nm">'+
         '<div class="ic-top-row">'+langSwitch()+'</div>'+
-        // Пункт 14 этого раунда: кнопка "← Имена" убрана целиком (раздел уже
-        // подсвечен в общем меню книги сверху — отдельная навигация назад не
-        // нужна) — вместо неё обычная строка-крошка перед киккером, без
-        // стрелки и без семантики кнопки/ссылки.
+        // Пункт 14 (прошлый раунд): кнопка "← Имена" убрана целиком (раздел
+        // уже подсвечен в общем меню книги сверху) — вместо неё строка-
+        // крошка перед киккером (тип записи, не источник перехода — это
+        // отдельно показывает строка раздела выше, см. cardBackHtml).
         '<header class="ic-head"><p class="ic-kicker">'+esc(t("hmNames"))+' · '+esc(t("nmT1_"+e.t))+'</p><h1 class="ic-h-fr">'+esc(nmForm(e))+'</h1>'+
           ((e.it||[]).length ? '<p class="ic-nm-it" lang="it">'+esc(e.it.join(" · "))+'</p>' : "")+'</header>'+
         gal+
@@ -3448,6 +3530,7 @@
         ments+
       '</div>';
     bindLangSwitch(root);
+    bindCardBack(root);
     root.addEventListener("click",function(ev){
       var a = ev.target.closest(".ic-nm-ms a");
       if(a){
@@ -3455,11 +3538,23 @@
         // it — массив (names.json), склеивается тем же разделителем " · ",
         // что и везде в рендере имён выше (ic-tv-it/ic-nm-it, см. e.it.join).
         chCtx = {hash: a.getAttribute("href"), type:"name", ru: e.ru, it: (e.it||[]).join(" · ") || e.ru};
+        return;
+      }
+      // Галерея гравюр этого имени (пункт 2 этого раунда) — карточка
+      // гравюры, открытая отсюда, должна уметь показать «Назад: <это имя>»
+      // (chCtx.type==="name", см. cardBackHtml) — тот же общий тип, что уже
+      // задаёт переход имя→глава по ссылке на упоминание выше, просто другая
+      // цель (гравюра вместо главы читает его точно так же).
+      var g = ev.target.closest('[data-gal] a.ic-gal-item');
+      if(g){
+        namesUi.pos[location.hash] = window.scrollY;
+        chCtx = {hash: g.getAttribute("href"), type:"name", ru: e.ru, it: (e.it||[]).join(" · ") || e.ru};
       }
     });
     var y = namesUi.pos[location.hash];
     if(y){ delete namesUi.pos[location.hash]; requestAnimationFrame(function(){ if(gen===renderGen) window.scrollTo(0,y); }); }
     else toTop(true);
+    syncHeaderStack();
     installScrollHide({isActive:function(){ return gen===renderGen; }});
     nudgeRepaint();
   }
@@ -3834,7 +3929,12 @@
       if(a && a.getAttribute("href")){
         var h = a.getAttribute("href");
         namesUi.pos[location.hash] = window.scrollY; namesUi.via = h; namesUi.chVia = h;
-        if(/\/ch\//.test(h)) chCtx = {hash: h, type:"search", label: q.value};
+        // chCtx — этот раунд, задание пункт 2: строка «Назад: Поиск» на
+        // карточке имени/гравюры нужна от ТЕХ ЖЕ результатов поиска, что и
+        // «К поиску» в читалке главы — расширил условие с /ch/ на /names/ и
+        // /plate/ (тип "search" общий, читает его renderNameCard/
+        // renderPlateCard так же, как renderChapter).
+        if(/\/ch\/|\/names\/|\/plate\//.test(h)) chCtx = {hash: h, type:"search", label: q.value};
       }
     });
     paint();
@@ -3950,9 +4050,14 @@
       var byCh = {};
       galleryEntries(chap).forEach(function(p){ (byCh[p.chapter] = byCh[p.chapter] || []).push(p); });
       var html = chap.list.filter(function(c){ return byCh[c.slug] && byCh[c.slug].length; }).map(function(c){
+        // data-chtitle (этот раунд, задание пункт 2) — заголовок ИМЕННО ТОЙ
+        // группы главы, из которой кликнули карточку: сетка уже сгруппирована
+        // по главам (см. комментарий выше), так что название группы — самый
+        // естественный контекст для «Назад: <глава>» на карточке гравюры,
+        // точнее общего «Гравюры».
         return '<h2 class="ic-pl-h">'+esc(chapTitle(c))+'</h2><ul class="ic-gal ic-gal-grid">'+byCh[c.slug].map(function(g){
           var thumb = engBase+"thumb/"+g.file+"_t.webp", gPg = platePageStr(g.page);
-          return '<li><a class="ic-gal-item" href="'+esc(hrefFor(book, "plate/"+g.id))+'" data-id="'+esc(g.id)+'">'+
+          return '<li><a class="ic-gal-item" href="'+esc(hrefFor(book, "plate/"+g.id))+'" data-id="'+esc(g.id)+'" data-chtitle="'+esc(chapTitle(c))+'">'+
             '<span class="ic-gal-img"><img loading="lazy" src="'+esc(thumb)+'"'+(g.w && g.h ? ' width="'+g.w+'" height="'+g.h+'"' : "")+' alt=""></span>'+
             '<span class="ic-gal-cap">'+esc(plTitle(chap, g))+(gPg ? '<small class="ic-gal-pg">'+esc(gPg)+'</small>' : "")+'</span></a></li>';
         }).join("")+'</ul>';
@@ -3967,9 +4072,16 @@
       bindLangSwitch(root);
       var gl = root.querySelector(".ic-gal"); if(gl) root.querySelectorAll(".ic-gal").forEach(function(g){ g.addEventListener("click",function(e){
         var a = e.target.closest(".ic-gal-item");
-        if(a && !e.metaKey && !e.ctrlKey && !e.shiftKey && e.button===0){ e.preventDefault(); go(book, "plate/"+a.getAttribute("data-id")); }
+        if(a && !e.metaKey && !e.ctrlKey && !e.shiftKey && e.button===0){
+          e.preventDefault();
+          namesUi.pos[location.hash] = window.scrollY;
+          chCtx = {hash: hrefFor(book, "plate/"+a.getAttribute("data-id")), type:"plates", label: a.getAttribute("data-chtitle")||""};
+          go(book, "plate/"+a.getAttribute("data-id"));
+        }
       }); });
-      state.scroll = 0; toTop(true);
+      var py = namesUi.pos[location.hash];
+      if(py){ delete namesUi.pos[location.hash]; state.scroll = 0; requestAnimationFrame(function(){ if(gen===renderGen) window.scrollTo(0,py); }); }
+      else { state.scroll = 0; toTop(true); }
       installScrollHide({isActive:function(){ return gen===renderGen; }});
       nudgeRepaint();
     });
@@ -4087,6 +4199,7 @@
         '</section>';
       root.innerHTML =
         bookTabsHtml(book, "plates")+
+        '<div class="ic-ch-outer">'+cardBackHtml(t("plAll"), hrefFor(book, "plates"))+'</div>'+
         '<div class="ic-wrap ic-home ic-plate-card">'+
           '<div class="ic-top-row">'+langSwitch()+'</div>'+
           '<article class="ic-pc" data-id="'+esc(p.id)+'">'+
@@ -4107,6 +4220,8 @@
             navPill(next,"next")+'</nav>'+
         '</div>';
       bindLangSwitch(root);
+      bindCardBack(root);
+      syncHeaderStack();
       // «Все гравюры» в новом ряду трёх пилюль — та же эвристика
       // history.back(), что раньше была у верхней ссылки «← Все гравюры»
       // (убрана этим раундом — книжные вкладки «Гравюры» сверху уже дают тот

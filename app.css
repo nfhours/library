@@ -411,6 +411,14 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
 .ic-rbar-row button[aria-pressed="true"]{background:rgb(var(--cream));color:var(--bar)}
 .ic-rbar-row .ic-rbar-ctx{flex:0 1 auto;min-width:40px;justify-content:center;overflow:hidden}
 .ic-rbar-ctx span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:center}
+/* .ic-rbar-back-solo (этот раунд, задание пункт 2) — строка раздела карточки
+   имени/гравюры: ЕДИНСТВЕННАЯ ячейка капсулы (cardBackHtml, app.js), без
+   стрелки, слева, а не по центру, как у обычной .ic-rbar-ctx в читалке
+   главы (та, живёт среди других ячеек) — специфичность класса+класса, чтобы
+   перебить flex/max-width/justify-content у базового .ic-rbar-ctx выше
+   (в т.ч. его же урезанный max-width:46% в узкой медиа ниже). */
+.ic-rbar .ic-rbar-row .ic-rbar-back-solo{flex:1 1 0;max-width:none;min-width:0;justify-content:flex-start;padding:0 14px}
+.ic-rbar-back-solo .ic-rbar-back-label{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:left}
 /* Компенсирующий отступ .ic-wrap.ic-tv (--tv-content-top) — УБРАН этим
    раундом: указатель/«Имена» больше не используют отдельный position:fixed
    стек (.back-bar-fixed/.ic-booktabs-fixed/.ic-rbar-tv — все трое теперь
