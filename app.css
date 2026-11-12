@@ -79,8 +79,13 @@
    in-content one, which scrolls away with the page. Embeds without that
    bar (e.g. Tilda) still get this as their only switch. */
 .has-back-bar-lang .ic-lang{display:none}
-button.ic-lang-b{font-size:.78em;letter-spacing:.08em;text-transform:uppercase;padding:4px 0;border:0;background:none;cursor:pointer;color:var(--soft);line-height:1.3;box-shadow:inset 0 -1px 0 transparent;transition:box-shadow .2s,color .2s}
-.ic-lang-b[aria-pressed="true"]{color:var(--ink);box-shadow:inset 0 -1px 0 var(--accent)}
+/* Выбранное — «вариант 3» (решение Андрея, round «tabs-selected»): та же
+   плашка со скруглением 8px, что у book-вкладок/RU-EN-FR в шапке, но на
+   светлой бумаге — поэтому тон не кремовый, а чернильный (--ink 28,24,19),
+   та же пара опасити .14/.28. */
+button.ic-lang-b{font-size:.78em;letter-spacing:.08em;text-transform:uppercase;padding:4px 10px;border-radius:8px;border:0;background:none;cursor:pointer;color:var(--soft);line-height:1.3;box-shadow:inset 0 0 0 1px transparent;transition:background-color .16s ease,box-shadow .16s ease,color .16s ease,transform .15s ease}
+.ic-lang-b[aria-pressed="true"]{color:var(--ink);background:rgba(28,24,19,.14);box-shadow:inset 0 0 0 1px rgba(28,24,19,.28)}
+.ic-lang-b:active{transform:scale(.95)}
 
 /* шапка указателя */
 .ic-title{font-family:var(--old);font-weight:500;font-size:2.6em;line-height:1.05;color:var(--ink)}
@@ -125,9 +130,12 @@ button.ic-search-clear{position:absolute;right:0;top:50%;transform:translateY(-5
 .ic-search-clear[hidden]{display:none}
 .ic-row{display:flex;flex-wrap:wrap;gap:18px 24px;align-items:center;margin-top:18px}
 .ic-seg{display:flex;flex-wrap:wrap;gap:18px}
-button.ic-chip{font-size:.85em;letter-spacing:.02em;padding:4px 0;border:0;background:none;cursor:pointer;
-  line-height:1.3;margin:0;color:var(--soft);box-shadow:inset 0 -1px 0 transparent;transition:box-shadow .2s,color .2s}
-.ic-chip[aria-pressed="true"]{color:var(--ink);background:none;box-shadow:inset 0 -1px 0 var(--accent)}
+/* Выбранное — «вариант 3» (round «tabs-selected»): та же плашка, что у
+   ic-lang-b на бумаге, вместо отдельного подчёркивания-акцента. */
+button.ic-chip{font-size:.85em;letter-spacing:.02em;padding:4px 10px;border-radius:8px;border:0;background:none;cursor:pointer;
+  line-height:1.3;margin:0;color:var(--soft);box-shadow:inset 0 0 0 1px transparent;transition:background-color .16s ease,box-shadow .16s ease,color .16s ease,transform .15s ease}
+.ic-chip[aria-pressed="true"]{color:var(--ink);background:rgba(28,24,19,.14);box-shadow:inset 0 0 0 1px rgba(28,24,19,.28)}
+.ic-chip:active{transform:scale(.95)}
 select.ic-sort{font-size:.85em;padding:4px 0;border:0;border-bottom:1px solid var(--rule);border-radius:0;
   background:transparent;cursor:pointer;color:var(--soft);margin-left:auto;flex:0 0 auto;width:auto;max-width:max-content}
 .ic-count{color:var(--soft);font-size:.78em;margin-top:10px}
@@ -293,7 +301,7 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    сайта (.back-bar), ОДНО и то же на каждой странице книги — задание этого
    раунда, пункт 3. Визуальный язык — макет book-structure.html, .tabs:
    тёмная полоса (тот же тон #16130f, что у .back-bar/.ic-rbar), пять ячеек
-   поровну, активная подчёркнута акцентом снизу. position:sticky;top:var(--top)
+   поровну. position:sticky;top:var(--top)
    — сразу под .back-bar (та же высота, что читает --top, см. syncTopVar в
    app.js); прячется ВМЕСТЕ с .back-bar по направлению прокрутки (общий класс
    "ic-bb-hidden", installScrollHide — см. app.js), той же анимацией
@@ -302,25 +310,30 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    .ic-booktabs-fixed (фикс мигания sticky при жесте по рейлу букв через
    position:fixed) убран этим раундом — см. комментарий у .back-bar-fixed в
    index.html: класс больше нигде не навешивается, указатель/«Имена» живут
-   на обычном sticky, как и здесь. */
-.ic-booktabs{position:sticky;top:var(--top);z-index:9;display:flex;
+   на обычном sticky, как и здесь.
+   Выбранная вкладка — «вариант 3» (решение Андрея, round «tabs-selected»):
+   underline-индикатор снизу убран везде на сайте в пользу одной и той же
+   плашки (скругление 8px, фон/рамка/текст — rgba(236,229,212,*)); здесь —
+   кнопки высотой 36px, 4px между ними, padding на самой полосе тоже 4px. */
+.ic-booktabs{position:sticky;top:var(--top);z-index:9;display:flex;gap:4px;
+  padding:4px;box-sizing:border-box;
   background:#16130f;border-top:1px solid rgba(236,229,212,.12);
   transition:transform .3s ease;will-change:transform}
-.ic-booktabs a{flex:1 1 0;min-width:0;text-align:center;padding:13px 6px 12px;
+.ic-booktabs a{flex:1 1 0;min-width:0;height:36px;box-sizing:border-box;
+  display:flex;align-items:center;justify-content:center;
+  border-radius:8px;
   font-size:11px;letter-spacing:.05em;text-transform:uppercase;
-  color:rgba(236,229,212,.62);position:relative;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.ic-booktabs a.on{color:#ece5d4}
-/* .ic-bt-label (пункт 16 этого раунда) — подпись вкладки обёрнута в свой
-   inline-block span (app.js bookTabsHtml), который сжимается до ширины
-   СВОЕГО текста, а не тянется на всю ячейку (это по-прежнему делает
-   родительская <a>, flex:1 1 0;text-align:center, выше) — подчёркивание
-   активной вкладки теперь left:0;right:0 именно на этом span, т.е. ровно по
-   ширине подписи, вместо прежнего фиксированного left:22%;right:22% на
-   самой <a> (на разной длине подписи — «Текст» vs «Указатель» — старое
-   правило давало черту разной относительной толщины/координаты). */
-.ic-booktabs a.on .ic-bt-label{display:inline-block;position:relative}
-.ic-booktabs a.on .ic-bt-label::after{content:"";position:absolute;left:0;right:0;bottom:-6px;height:2px;background:var(--accent)}
-.ic-booktabs a:active{background:rgba(236,229,212,.08)}
+  color:rgba(236,229,212,.62);background:none;box-shadow:inset 0 0 0 1px transparent;
+  position:relative;
+  transition:background-color .16s ease,box-shadow .16s ease,color .16s ease,transform .15s ease}
+/* .ic-bt-label — текст вкладки в своём span (app.js bookTabsHtml): ellipsis
+   должен стоять именно здесь, а не на самой <a> (теперь display:flex для
+   центрирования плашки) — у flex-потомка иначе нет собственного min-width:0,
+   переполнение на узких экранах (iPhone) не обрежется в «…». */
+.ic-booktabs a .ic-bt-label{min-width:0;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ic-booktabs a.on{color:rgb(236,229,212);background:rgba(236,229,212,.14);
+  box-shadow:inset 0 0 0 1px rgba(236,229,212,.28)}
+.ic-booktabs a:active{transform:scale(.95)}
 /* -100% одной только высоты .ic-booktabs не уводит её с экрана целиком: она
    sticky на top:var(--top), т.е. уже сдвинута вниз на высоту .back-bar —
    чтобы её верх после скрытия ушёл выше y=0 (а не просто чуть выше своей
@@ -426,12 +439,14 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
   border:0;border-left:1px solid rgba(var(--cream),.22);border-radius:0;background:transparent;
   height:36px;padding:0 12px;font-size:13.5px;letter-spacing:.07em;text-transform:uppercase;
   color:rgba(var(--cream),.9);cursor:pointer;white-space:nowrap;box-sizing:border-box;
-  transition:background-color .12s,color .12s}
+  transition:background-color .12s,color .12s,transform .15s ease}
 .ic-rbar-row button:first-child{border-left:0}
 .ic-rbar button[disabled]{opacity:.35;cursor:default}
-/* Нажатое состояние варианта Б — только посветление заливки, БЕЗ scale (в
-   отличие от вариантов А/В макета, которые уменьшают кнопку при нажатии). */
-.ic-rbar button:not([disabled]):active{background:rgba(var(--cream),.14)}
+/* Нажатое состояние — посветление заливки, как раньше (вариант Б), + лёгкое
+   вдавливание scale(.95) (round «tabs-selected», задание пункт 1: тот же
+   press-эффект, что у вкладок/языков, капсулы строки раздела сам вид
+   выбранного состояния НЕ меняют). */
+.ic-rbar button:not([disabled]):active{background:rgba(var(--cream),.14);transform:scale(.95)}
 /* Видимый фокус с клавиатуры — как в макете: обводка наружу (не внутрь). */
 .ic-rbar button:focus-visible{outline:2px solid rgb(var(--cream));outline-offset:2px}
 /* Активное состояние (.b.on в макете) — например «Скан», когда открыта его
@@ -516,8 +531,11 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    главной книги. */
 .ic-rbar-short{display:none}
 .ic-rbar .ic-lang{position:absolute;right:14px;top:50%;transform:translateY(-50%);gap:8px;background:none}
-.ic-rbar .ic-lang-b{color:var(--rbar-soft)}
-.ic-rbar .ic-lang-b[aria-pressed="true"]{color:var(--rbar-ink);box-shadow:inset 0 -1px 0 var(--rbar-accent)}
+/* Тёмная капсула — тот же «вариант 3», что у book-вкладок/шапки, а не
+   собственные --rbar-* тона: задание round «tabs-selected» — одинаковое
+   выбранное состояние везде на сайте. */
+.ic-rbar .ic-lang-b{color:rgba(236,229,212,.62);padding:4px 8px}
+.ic-rbar .ic-lang-b[aria-pressed="true"]{color:rgb(236,229,212);background:rgba(236,229,212,.14);box-shadow:inset 0 0 0 1px rgba(236,229,212,.28)}
 /* На узком экране — та же одна строка из пяти ячеек, мельче текст и уже
    паддинги (точные значения из макета: 12.5px/.045em на ≤460px, а не
    13.5px/.07em десктопных); название главы (.ic-rbar-pos-ch) скрывается
@@ -984,7 +1002,7 @@ a.ic-ch-btn{display:inline-block;font-size:.78em;letter-spacing:.06em;text-trans
   transition:background-color .25s,color .25s,border-color .25s}
 @media (hover:hover){
   .ic-toc-body a:hover{color:var(--accent)}
-  .ic-home-tile:hover{border-bottom-color:var(--accent)}
+  .ic-home-tile:hover{background-color:#f1e9d8}
   .ic-gal-item:hover .ic-gal-img{border-color:var(--accent)}
   .ic-qm:hover{background:var(--accent-soft)}
   a.ic-ch-btn:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
@@ -1092,24 +1110,30 @@ button.ic-toc-close{width:38px;height:38px;border:1px solid var(--rule);border-r
 .ic-home-ed{margin-top:2px;font-size:.88em;color:var(--soft)}
 .ic-ed-short{display:none}
 .ic-home-blurb{font-size:.96em;line-height:1.65;color:var(--ink);max-width:34em}
-/* Разделы обложки (этот раунд, задание пункт 5 — предыдущая версия со
-   своим фоном/рамкой/радиусом на строку по факту всё равно читалась как
-   плитки-карточки, не как список): плоский список БЕЗ фона/рамки/радиуса
-   у строк, разделитель — тонкая линия снизу между ними (тот же приём, что
-   .ic-nm-row — список имён/указателя, см. его border-bottom там же), без
-   gap между строками (отступ даёт сам паддинг строки). */
-.ic-home-tiles{display:block}
+/* Разделы обложки — «список-кнопки» (решение Андрея, round «tabs-selected»,
+   возврат к карточкам вместо плоского списка с линиями предыдущего раунда):
+   каждая строка — отдельная кнопка на всю ширину, своя рамка/радиус/фон,
+   10px между карточками (gap на самом .ic-home-tiles, а не margin на
+   строке — проще для :last-child). */
+.ic-home-tiles{display:flex;flex-direction:column;gap:10px}
 @media (min-width:761px){
   .ic-home-hero{grid-template-columns:minmax(0,300px) minmax(0,1fr);grid-template-areas:"fig txt" "fig blurb" "fig tiles";column-gap:40px;row-gap:26px;align-items:start}
   .ic-home-fig img{max-height:none}
   .ic-home .ic-orn-headpiece{width:60%}
   .ic-home-tiles{align-self:start}
 }
-.ic .ic-home-tile{display:block;padding:14px 0;border-bottom:1px solid var(--rule);color:var(--ink);transition:border-color .2s,background-color .1s}
-.ic-home-tiles .ic-home-tile:first-child{border-top:1px solid var(--rule)}
-.ic-home-tile b{display:block;font-weight:400;font-size:20px}
+.ic .ic-home-tile{display:block;position:relative;box-sizing:border-box;
+  padding:14px 40px 14px 16px;
+  background:#f4eee1;border:1px solid rgba(28,24,19,.16);border-radius:12px;
+  color:var(--ink);transition:background-color .15s ease,transform .15s ease}
+/* «›» справа — псевдоэлемент, а не узел разметки: заголовок/пояснение
+   (<b>/<span> ниже) остаются простыми блоками друг под другом, без
+   обёртки под flex, сам паддинг-справа у .ic-home-tile освобождает место. */
+.ic-home-tile::after{content:"›";position:absolute;right:16px;top:50%;transform:translateY(-50%);
+  color:var(--accent);opacity:.7;font-size:1.3em;line-height:1}
+.ic-home-tile b{display:block;font-weight:500;font-size:19px}
 .ic-home-tile span{display:block;color:var(--soft);font-size:14.5px;margin-top:2px}
-.ic .ic-home-tile:active{background-color:var(--accent-soft)}
+.ic .ic-home-tile:active{background-color:#e9e1cf;transform:scale(.98)}
 .ic-home-panel{margin-top:6px;scroll-margin-top:12px}
 .ic-home-toc{display:grid;grid-template-columns:repeat(2,1fr);gap:0 44px}
 .ic-home-toc .ic-toc-part a{font-size:1em}
@@ -1249,7 +1273,7 @@ button.ic-sr-more{display:block;margin:14px 0 0;padding:8px 16px;font:inherit;fo
   .ic-ed-short{display:inline}
   .ic-home-txt .ic-title{font-size:2.05em}
   .ic-home-author{margin-top:8px}
-  .ic .ic-home-tile{padding:12px 14px}
+  .ic .ic-home-tile{padding:12px 38px 12px 14px}
   .ic-home-toc{grid-template-columns:1fr}
   .ic-gal{grid-template-columns:repeat(2,1fr);gap:22px 14px}
 }
@@ -1483,7 +1507,7 @@ button.ic-tv-sheet-reset{flex:none;height:34px;padding:0 14px;border:1px solid r
 .ic .ic-sv-pager button:disabled{opacity:.25;cursor:default}
 .ic-sv-pos{min-width:4.2em;text-align:center;font-family:var(--old);font-size:1.05em;color:var(--ink);white-space:nowrap}
 .ic-sv-sw{gap:16px;margin-left:auto;flex-wrap:nowrap}
-.ic .ic-sv-sw .ic-chip{font-size:.9em;padding:8px 0;white-space:nowrap}
+.ic .ic-sv-sw .ic-chip{font-size:.9em;padding:8px 10px;white-space:nowrap}
 .ic .ic-sv-x{margin-left:0;flex:none}
 .ic-sv-stage{flex:1 1 auto;min-height:0;overflow:auto;position:relative;display:block;-webkit-overflow-scrolling:touch}
 .ic .ic-sv-img{display:block;width:100%;height:auto;max-width:none;cursor:zoom-in;-webkit-user-drag:none;user-select:none;-webkit-user-select:none}
