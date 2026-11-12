@@ -7,3 +7,5 @@ books/cartari/_text/_read2/
 books/cartari/_text/_read3/
 books/cartari/_text/_audit/
 books/cartari/_text/_reads/
+
+tools/playwright-check/node_modules/

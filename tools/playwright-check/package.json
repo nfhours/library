@@ -1,0 +1,8 @@
+{
+  "name": "library-playwright-check",
+  "private": true,
+  "description": "Локальный Playwright (WebKit) для визуальных проверок library — не публикуется, не часть сайта.",
+  "devDependencies": {
+    "playwright": "^1.65.0"
+  }
+}
