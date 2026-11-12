@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "151";
+  var APP_VER = "152";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -266,7 +266,7 @@
     plNoCap:      {ru:"У этой гравюры нет подписи в переводе.", en:"This engraving has no caption in the translation.", fr:"Cette gravure n’a pas de légende dans la traduction."},
     plEdition:    {ru:"издание\u00a01626", en:"1626\u00a0edition", fr:"édition\u00a0de\u00a01626"},
     plZoomLabel:  {ru:"Гравюра на весь экран", en:"Engraving, full screen", fr:"Gravure en plein écran"},
-    srHint:       {ru:"Введите слово или имя: ищем в русском переводе, в итальянском тексте издания, в подписях гравюр, среди имён и в указателе. Можно писать и «Фортуна», и «Fortuna».", en:"Type a word or a name: we search the translation, the Italian text of the edition, engraving captions, names and the index. «Fortuna» and «Фортуна» both work.", fr:"Saisissez un mot ou un nom : nous cherchons dans la traduction, le texte italien de l’édition, les légendes des gravures, les noms et l’index. « Fortuna » et « Фортуна » fonctionnent."},
+    srHint:       {ru:"Введите слово или имя: ищем в переводе (на русском, английском и французском), в итальянском тексте издания, в подписях гравюр, среди имён и в указателе. Можно писать и «Фортуна», и «Fortuna».", en:"Type a word or a name: we search the translation (in Russian, English and French), the Italian text of the edition, engraving captions, names and the index. «Fortuna» and «Фортуна» both work.", fr:"Saisissez un mot ou un nom : nous cherchons dans la traduction (en russe, anglais et français), le texte italien de l’édition, les légendes des gravures, les noms et l’index. « Fortuna » et « Фортуна » fonctionnent."},
     srLoading:    {ru:"Загружаю тексты…", en:"Loading the texts…", fr:"Chargement des textes…"},
     srNone:       {ru:"Ничего не найдено. Попробуйте другую форму слова или старое написание, например «Lanuuio» вместо «Lanuvio».", en:"Nothing found. Try another form of the word or an old spelling, e.g. «Lanuuio» for «Lanuvio».", fr:"Rien trouvé. Essayez une autre forme du mot ou une ancienne graphie, par exemple « Lanuuio » pour « Lanuvio »."},
     srText:       {ru:"В тексте", en:"In the text", fr:"Dans le texte"},
@@ -346,6 +346,37 @@
   }
   renderBackBarLang();
 
+  // back-bar-lib (задание этого раунда, пункт 1) — «Библиотека» рядом с
+  // именем в шапке сайта на ВСЕХ страницах книги, вместо отдельной кнопки
+  // на обложке (та убрана, см. renderHome ниже). Создаётся один раз (DOM-
+  // узел переживает смену страниц — .back-bar вне root, как и
+  // #back-bar-lang), текст только перезаполняется при смене языка.
+  // !forcedBook — та же проверка, что раньше решала, показывать ли кнопку
+  // в .ic-top-row: если сборка жёстко привязана к одной книге (data-book
+  // на #iconologie — конкретный слаг, не "library"), самой библиотеки
+  // нет, вести некуда.
+  var backBarEl = document.querySelector(".back-bar");
+  function renderBackBarLib(){
+    if(!backBarEl || forcedBook) return;
+    var a = backBarEl.querySelector("a.back-bar-lib");
+    if(!a){
+      a = document.createElement("a");
+      a.className = "back-bar-lib"; a.href = "#";
+      a.addEventListener("click", function(ev){ ev.preventDefault(); location.hash = ""; });
+      // .back-bar-brand (index.html) — та же группа, что и "Andrey Stepin":
+      // без неё оба были прямыми детьми .back-bar (flex,
+      // justify-content:space-between), и третий элемент (эта ссылка)
+      // раздвигало space-between НЕ рядом с именем, а к центру полосы,
+      // далеко от него — название переносилось на 2 строки, а
+      // "Библиотека" повисала отдельно. Один flex-item на двоих держит
+      // их вместе, как единое "Andrey Stepin · Библиотека".
+      var brand = backBarEl.querySelector(".back-bar-brand") || backBarEl.querySelector(":scope > a");
+      if(brand) brand.appendChild(a); else backBarEl.insertBefore(a, backBarEl.firstChild);
+    }
+    a.textContent = t("toLibrary");
+  }
+  renderBackBarLib();
+
   function setLang(l){
     state.lang = l;
     try{ localStorage.setItem("ic-lang", l); }catch(e){}
@@ -356,6 +387,7 @@
     }catch(e){}
     root.setAttribute("data-lang", l);
     renderBackBarLang();
+    renderBackBarLib();
     route();
   }
   function keep(slug){ try{ sessionStorage.setItem("ic-state:"+slug, JSON.stringify({q:state.q,filter:state.filter,sort:state.sort})); }catch(e){} }
@@ -3962,7 +3994,7 @@
       var hero = h.hero ? engBase+h.hero : "";
       var galCount = galleryEntries(chap).length;
       var orn = book.ornaments, ornRec = function(type, seed){ return orn && pickOrnament(orn[type], "home|"+seed); };
-      var hp = ornRec("headpiece","head"), dv = ornRec("divider","div");
+      var hp = ornRec("headpiece","head");
       // Концовка обложки — тот же легкий divider (не полновесный tailpiece),
       // что и в прошлых раундах, см. подробное обоснование там же (density
       // <= 0.1 из ornaments.json, сид "home|tailLight").
@@ -3986,7 +4018,10 @@
       root.innerHTML =
         bookTabsHtml(book, null)+
         '<div class="ic-wrap ic-home">'+
-          '<div class="ic-top-row">'+(forcedBook?"":'<button type="button" class="ic-to-lib-link">'+t("toLibrary")+'</button>')+langSwitch()+'</div>'+
+          // Пункт 1 этого раунда: ссылка «Библиотека» убрана отсюда — теперь
+          // она одна на все страницы книги, в шапке сайта рядом с именем
+          // (renderBackBarLib выше), а не только на обложке.
+          '<div class="ic-top-row">'+langSwitch()+'</div>'+
           (hp ? ornamentMaskHtml(book, hp, "ic-orn-headpiece") : "")+
           '<header class="ic-home-hero">'+
             '<div class="ic-home-txt">'+
@@ -3999,11 +4034,12 @@
             (hero ? '<figure class="ic-home-fig"><div class="ic-fig ic-fig-eng" data-src="'+esc(hero)+'"><img class="ic-fade-img ic-eng-display" src="'+esc(hero)+'" alt="'+esc(t("engravingAlt",{title:bt(book.meta.title)}))+'"></div></figure>' : "")+
             '<p class="ic-home-blurb">'+esc(bt(h.blurb))+'</p>'+
           '</header>'+
-          (dv ? ornamentMaskHtml(book, dv, "ic-orn-divider") : "")+
+          // Пункт 4 этого раунда: маленькая виньетка-разделитель (dv,
+          // раньше шла здесь перед концовкой) убрана — остаётся только
+          // ангел-концовка (tpRec) ниже.
           (tpRec ? ornamentMaskHtml(book, tpRec, "ic-orn-tailpiece") : "")+
         '</div>';
       bindLangSwitch(root);
-      var toLib = root.querySelector(".ic-to-lib-link"); if(toLib) toLib.addEventListener("click",function(){ location.hash=""; });
       var fig = root.querySelector(".ic-home-fig .ic-fig"); if(fig) fig.addEventListener("click",function(){ lightbox(fig.getAttribute("data-src")); });
       state.scroll = 0; toTop(true);
       installScrollHide({isActive:function(){ return gen===renderGen; }});

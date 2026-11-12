@@ -34,6 +34,15 @@
     .back-bar{height:38px}
     .back-bar a{font-size:17px}
   }
+  /* Этот раунд, задание пункт 1: "Andrey Stepin · Библиотека" рядом с
+     RU/EN/FR на 390px шире, чем было одно "Andrey Stepin" — без этой
+     поджатой формы имя обрезалось многоточием. Те же числа, что у
+     ландшафтного брейкпоинта выше, по той же причине (узко). */
+  @media (max-width:460px){
+    .back-bar{gap:10px;padding-inline:calc(14px + env(safe-area-inset-left)) calc(14px + env(safe-area-inset-right))}
+    .back-bar-brand a:first-child{font-size:17px}
+    #back-bar-lang{gap:10px}
+  }
   /* Added by the Cartari chapter reader bar (app.js rbTick): slides this bar
      away together with its own in-chapter nav bar on a scroll down, in sync,
      so the two disappear and come back as one unit. transform only — this
@@ -53,6 +62,34 @@
     color:rgba(236,229,212,.86);text-decoration:none;
   }
   .back-bar a:hover{color:#ece5d4}
+  .back-bar-brand{display:flex;align-items:baseline;gap:8px;min-width:0;overflow:hidden}
+  .back-bar-brand>a:first-child{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+  /* .back-bar-lib (задание этого раунда, пункт 1) — «Библиотека» рядом с
+     именем в шапке сайта, вместо отдельной ссылки на обложке книги (той
+     же кнопки, что раньше была в .ic-top-row — убрана, см. app.js
+     renderHome). Шрифт/размер — НЕ как у "Andrey Stepin" (это имя — 20px
+     декоративной антиквой): задание прямо сравнивает её с неактивными
+     RU/EN/FR, так что те же font-size/letter-spacing/uppercase, что у
+     #back-bar-lang button ниже — и вдобавок решает исходную тесноту (20px
+     "Andrey Stepin · Библиотека" целиком не помещалось на 390px рядом с
+     RU/EN/FR — обе половины обрезались многоточием). ::before — короткое
+     тире-разделитель, без лишнего текстового узла в разметке; заполняется
+     (как и #back-bar-lang) из app.js, по языку и только когда есть куда
+     вести (не forcedBook — отдельная книга без самой библиотеки). */
+  /* .back-bar a.back-bar-lib (не просто .back-bar-lib) — специфичность
+     (0,0,2,1) нужна, чтобы перебить ".back-bar a" выше (0,0,1,1, класс+тип):
+     тот же класс специфичности, который уже не раз ловился в этом файле —
+     без лишнего класса в селекторе здесь побеждал бы font-size:20px общего
+     правила для ссылок шапки, а не 13px ниже (проверено: без этого
+     уточнения вычисленный font-size оставался 20px несмотря на объявленные
+     здесь 13px). */
+  .back-bar a.back-bar-lib{
+    font-family:inherit;font-size:13px;letter-spacing:.08em;text-transform:uppercase;
+    color:rgba(236,229,212,.6);text-decoration:none;transition:color .2s;
+    white-space:nowrap;flex:none;
+  }
+  .back-bar a.back-bar-lib:hover{color:#ece5d4}
+  .back-bar-lib::before{content:"· "}
   /* Filled in by app.js: the RU/EN switch, always in the corner here instead
      of scrolling away with the page content. */
   #back-bar-lang{display:flex;gap:16px;flex:none}
@@ -66,8 +103,8 @@
 </style>
 </head>
 <body>
-<div class="back-bar"><a href="https://94hours.com/projects/">Andrey Stepin</a><span id="back-bar-lang"></span></div>
+<div class="back-bar"><span class="back-bar-brand"><a href="https://94hours.com/projects/">Andrey Stepin</a></span><span id="back-bar-lang"></span></div>
 <div id="iconologie" data-book="library" data-top="52px"></div>
-<script src="app.js?v=151"></script>
+<script src="app.js?v=152"></script>
 </body>
 </html>

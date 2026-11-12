@@ -7,6 +7,13 @@
   --old:"IM Fell English", "Iowan Old Style", Georgia, serif;
   --top:0px;
   all:initial; display:block; box-sizing:border-box;
+  /* min-height (задание этого раунда, пункт 3) — на короткой странице
+     (например «Поиск» без результатов) высота .ic по контенту была меньше
+     вьюпорта, и ниже неё текстура (фон этого же правила) обрывалась,
+     показывая гладкую заливку html/body (index.html, #ece5d4, без
+     text/foxing). dvh — именно динамическая высота вьюпорта, а не vh (на
+     iOS Safari дёргалась бы при показе/скрытии адресной строки). */
+  min-height:100dvh;
   background:
     url(img/foxing.png) 220px 140px/1400px repeat,
     url(img/paper.jpg) 0 0/1024px repeat,
@@ -22,7 +29,20 @@
 .ic img{max-width:100%;display:block;border:0}
 .ic :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 
-.ic-wrap{max-width:780px;margin:0 auto;padding:48px 28px 96px}
+/* padding-top (этот раунд, задание пункт 2): отступ от тёмного блока до
+   первой строки страницы должен быть ровно одинаковым на ВСЕХ страницах
+   книги — 36px/24px. Раньше он плавал (реально выходило ~62–104px в
+   зависимости от страницы) из-за ДВУХ источников, добавлявшихся поверх
+   этого padding independently от него: .ic-head{margin-top:30px} (убран
+   ниже) и margin-bottom:26px у .ic-rbar (убран там же) — схлопывание
+   соседних margin то давало +30 (там, где перед .ic-head стоял пустой
+   .ic-top-row — его margin-bottom:8px проигрывал большему margin-top
+   head'а), то CSS не давал им схлопнуться вовсе (.ic-head — первый
+   потомок padded-родителя без .ic-top-row перед ним, см. читалку главы/
+   указатель/«Имена» — там margin-top считался ПОЛНОСТЬЮ поверх padding
+   родителя, а не схлопывался с чем-либо). Теперь единственный источник
+   отступа — это самое padding-top, одно и то же число везде. */
+.ic-wrap{max-width:780px;margin:0 auto;padding:36px 28px 96px}
 
 /* Обёртка главы читалки (.ic-ch-outer): панель .ic-rbar живёт здесь, а не
    внутри узкого .ic-wrap.ic-ch-wrap — так ей есть куда расти вширь (до
@@ -46,7 +66,13 @@
 
 /* переключатель языка: без рамки и заливки, как активная ссылка в nav сайта —
    тонкое подчёркивание вместо закрашенной таблетки */
-.ic-top-row{display:flex;justify-content:flex-end;margin-bottom:8px}
+/* margin-bottom:0 этим раундом (задание пункт 2, см. комментарий у
+   .ic-wrap) — раньше 8px здесь схлопывались с margin-top .ic-head (30px) в
+   один margin между ними, равный БОЛЬШЕМУ значению (30, не 8+30) — теперь,
+   когда у .ic-head своего margin-top вообще нет, 8px тут добавляли бы
+   отступ сверх padding-top родителя НЕ на всех страницах (только там, где
+   .ic-top-row вообще есть в разметке) — ноль убирает эту асимметрию. */
+.ic-top-row{display:flex;justify-content:flex-end;margin-bottom:0}
 .ic-lang{display:flex;gap:16px;flex:none}
 /* When the page has its own fixed top-bar switch (standalone index.html),
    that one is authoritative and always visible — don't also show this
@@ -330,7 +356,11 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
   --rbar-ink:rgba(var(--cream),.94); --rbar-soft:rgba(var(--cream),.64);
   background:var(--bar);
   border-bottom:1px solid rgba(var(--cream),.12);
-  margin:0 0 26px;
+  /* margin-bottom убран этим раундом (был 26px, задание пункт 2 — см.
+     комментарий у .ic-wrap в начале файла): отступ до контента теперь
+     только padding-top .ic-wrap, одинаковый что со строкой раздела, что
+     без неё. */
+  margin:0;
   padding:7px calc(10px + env(safe-area-inset-right)) 7px calc(10px + env(safe-area-inset-left));
   will-change:transform;
   transition:top .3s ease}
@@ -740,7 +770,9 @@ button.ic-rb-sheet-close{flex:none;height:44px;border:1px solid rgba(28,24,19,.3
   border-left:3px solid var(--accent);padding-left:10px;margin-left:-13px}
 .ic-rb-sheet-toc .ic-toc-part a[aria-current]::before{content:none}
 
-.ic-head{margin-top:30px}
+/* margin-top убран этим раундом (задание пункт 2) — см. комментарий у
+   .ic-wrap в начале файла: отступ до .ic-head теперь только padding-top
+   родителя, одно и то же число на любой странице. */
 .ic-kicker{font-size:.8em;color:var(--soft)}
 .ic-h-fr{font-family:var(--old);font-style:italic;font-weight:500;font-size:2.5em;line-height:1.05;margin-top:6px}
 .ic-h-ru{font-size:1.3em;font-weight:500;margin-top:6px}
@@ -882,7 +914,7 @@ button.ic-scan-prev,button.ic-scan-next{width:38px;height:38px;border:1px solid 
 
 @media (max-width:520px){
   .ic{font-size:18px}
-  .ic-wrap{padding:32px 20px 64px}
+  .ic-wrap{padding:24px 20px 64px}
   .ic-title{font-size:2em}
   li.ic-book-card{padding:32px 28px}
   .ic-booklist{gap:22px}
@@ -952,7 +984,7 @@ a.ic-ch-btn{display:inline-block;font-size:.78em;letter-spacing:.06em;text-trans
   transition:background-color .25s,color .25s,border-color .25s}
 @media (hover:hover){
   .ic-toc-body a:hover{color:var(--accent)}
-  .ic-home-tile:hover{border-color:var(--accent)}
+  .ic-home-tile:hover{border-bottom-color:var(--accent)}
   .ic-gal-item:hover .ic-gal-img{border-color:var(--accent)}
   .ic-qm:hover{background:var(--accent-soft)}
   a.ic-ch-btn:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
@@ -1035,19 +1067,13 @@ button.ic-toc-close{width:38px;height:38px;border:1px solid var(--rule);border-r
 /* главная книги */
 .ic:has(.ic-home){background:url(img/paper.jpg) 0 0/1024px repeat,var(--paper)}
 .ic-home{max-width:900px}
-.ic-home .ic-top-row{margin-bottom:0}
-/* Пункт 12 этого раунда: капсула «Библиотека» на главной книги убрана —
-   заказчик требует обычную текстовую ссылку, не кнопку-пилюлю. Модификатор
-   .ic-to-lib-pill больше не добавляется в разметке (app.js renderHome) —
-   правила выше, которые были написаны ИМЕННО под пару классов
-   .ic-to-lib-link.ic-to-lib-pill, теперь ничему не соответствуют и удалены
-   целиком (а не оставлены мёртвым кодом: без .ic-to-lib-pill в разметке
-   базовое .ic-to-lib-link, app.css выше, уже само по себе — обычная плоская
-   подпись без фона/рамки/радиуса, см. его правило в начале файла). Добавлено
-   только подчёркивание — чтобы читалось как обычная внутристраничная
-   ссылка, а не просто приглушённый текст. */
-.ic-home .ic-to-lib-link{text-decoration:underline}
-.ic-home .ic-orn-headpiece{width:100%;margin:6px auto 4px}
+/* margin-top:0 этим раундом (был 6px, задание пункт 2 — см. комментарий у
+   .ic-wrap в начале файла): на обложке первый визуальный элемент —
+   виньетка-шапка (headpiece), отступ до неё теперь только padding-top
+   .ic-wrap, как и везде; то, что идёт ПОСЛЕ нее (высота самой картинки,
+   отступ до текста) — обычная вёрстка контента страницы, в это правило
+   не входит, как и высота картинки на карточке гравюры. */
+.ic-home .ic-orn-headpiece{width:100%;margin:0 auto 4px}
 /* Порядок секций обложки (пункт 12 этого раунда, по макету book-structure.html):
    название/автор/издание → гравюра → короткий текст → список из пяти
    разделов. grid-template-areas, не DOM-порядок в разметке (app.js
@@ -1066,21 +1092,23 @@ button.ic-toc-close{width:38px;height:38px;border:1px solid var(--rule);border-r
 .ic-home-ed{margin-top:2px;font-size:.88em;color:var(--soft)}
 .ic-ed-short{display:none}
 .ic-home-blurb{font-size:.96em;line-height:1.65;color:var(--ink);max-width:34em}
-/* Пункт 12 этого раунда: пять карточек-разделов обложки — больше НЕ крупные
-   двуколоночные плитки, а компактный вертикальный список строк, по образцу
-   .secs/.secs a макета book-structure.html ("Меню сверху") — те же значения
-   (gap/фон/рамка/радиус/паддинг/типографика), скопированные из живого
-   макета (см. задание). */
-.ic-home-tiles{display:grid;gap:10px}
+/* Разделы обложки (этот раунд, задание пункт 5 — предыдущая версия со
+   своим фоном/рамкой/радиусом на строку по факту всё равно читалась как
+   плитки-карточки, не как список): плоский список БЕЗ фона/рамки/радиуса
+   у строк, разделитель — тонкая линия снизу между ними (тот же приём, что
+   .ic-nm-row — список имён/указателя, см. его border-bottom там же), без
+   gap между строками (отступ даёт сам паддинг строки). */
+.ic-home-tiles{display:block}
 @media (min-width:761px){
   .ic-home-hero{grid-template-columns:minmax(0,300px) minmax(0,1fr);grid-template-areas:"fig txt" "fig blurb" "fig tiles";column-gap:40px;row-gap:26px;align-items:start}
   .ic-home-fig img{max-height:none}
   .ic-home .ic-orn-headpiece{width:60%}
   .ic-home-tiles{align-self:start}
 }
-.ic .ic-home-tile{display:block;background:var(--sheet);border:1px solid var(--rule);border-radius:10px;padding:14px 16px;color:var(--ink);transition:border-color .2s,background-color .1s}
+.ic .ic-home-tile{display:block;padding:14px 0;border-bottom:1px solid var(--rule);color:var(--ink);transition:border-color .2s,background-color .1s}
+.ic-home-tiles .ic-home-tile:first-child{border-top:1px solid var(--rule)}
 .ic-home-tile b{display:block;font-weight:400;font-size:20px}
-.ic-home-tile span{display:block;color:var(--soft);font-size:14.5px}
+.ic-home-tile span{display:block;color:var(--soft);font-size:14.5px;margin-top:2px}
 .ic .ic-home-tile:active{background-color:var(--accent-soft)}
 .ic-home-panel{margin-top:6px;scroll-margin-top:12px}
 .ic-home-toc{display:grid;grid-template-columns:repeat(2,1fr);gap:0 44px}
@@ -1162,7 +1190,11 @@ button.ic-sr-more{display:block;margin:14px 0 0;padding:8px 16px;font:inherit;fo
 
 /* карточка гравюры */
 .ic-plate-card{max-width:1040px}
-.ic-pc{display:grid;grid-template-columns:minmax(0,1fr);gap:22px;margin-top:18px}
+/* margin-top убран этим раундом (был 18px, задание пункт 2 — см. комментарий
+   у .ic-wrap в начале файла): на карточке гравюры первая строка страницы —
+   сама картинка (.ic-pc-fig), отступ до неё теперь только padding-top
+   .ic-wrap, как и везде. */
+.ic-pc{display:grid;grid-template-columns:minmax(0,1fr);gap:22px}
 .ic-pc-fig{margin:0;justify-self:center;align-self:start;max-width:100%}
 .ic-pc-fig .ic-fig{cursor:zoom-in;display:inline-block;max-width:100%}
 .ic-pc-fig img{display:block;width:auto;max-width:100%;height:auto;max-height:56vh;margin:0 auto}
