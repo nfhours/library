@@ -296,12 +296,13 @@ button.ic-nav-pager-b{font-size:.78em;letter-spacing:.06em;text-transform:upperc
   box-shadow:inset 0 -1px 0 transparent;transition:box-shadow .2s,color .2s}
 button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
 
-/* Общее меню книги (.ic-booktabs, app.js bookTabsHtml) — пять равных вкладок
-   «Текст · Гравюры · Указатель · Имена · Поиск», НЕПОСРЕДСТВЕННО под шапкой
-   сайта (.back-bar), ОДНО и то же на каждой странице книги — задание этого
-   раунда, пункт 3. Визуальный язык — макет book-structure.html, .tabs:
-   тёмная полоса (тот же тон #16130f, что у .back-bar/.ic-rbar), пять ячеек
-   поровну. position:sticky;top:var(--top)
+/* Общее меню книги (.ic-booktabs, app.js bookTabsHtml) — уголок-назад слева,
+   равные вкладки «Текст · Гравюры · Указатель · Имена» посередине (round
+   «nav-tabs», решение Андрея — без «Поиска»: та страница осталась только
+   для прямых ссылок, в меню теперь лупа справа, открывающая шторку поиска
+   прямо здесь), НЕПОСРЕДСТВЕННО под шапкой сайта (.back-bar), ОДНО и то же
+   на каждой странице книги. Визуальный язык — тёмная полоса (тот же тон
+   #16130f, что у .back-bar/.ic-rbar). position:sticky;top:var(--top)
    — сразу под .back-bar (та же высота, что читает --top, см. syncTopVar в
    app.js); прячется ВМЕСТЕ с .back-bar по направлению прокрутки (общий класс
    "ic-bb-hidden", installScrollHide — см. app.js), той же анимацией
@@ -319,6 +320,22 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
   padding:4px;box-sizing:border-box;
   background:#16130f;border-top:1px solid rgba(236,229,212,.12);
   transition:transform .3s ease;will-change:transform}
+/* Уголок-назад/лупа (round «nav-tabs», решение Андрея) — тонкие SVG-иконки
+   без заливки (currentColor), по бокам общего меню книги; вкладки между
+   ними — в своей обёртке .ic-bt-tabs (а не прямые дети .ic-booktabs, как
+   раньше), чтобы flex:1 1 0 у каждой <a> по-прежнему делил ширину поровну
+   МЕЖДУ СОБОЙ, а не со значками. */
+.ic-booktabs button.ic-bt-back,.ic-booktabs button.ic-bt-search{
+  flex:none;width:40px;height:38px;border:0;border-radius:9px;background:none;
+  display:flex;align-items:center;justify-content:center;padding:0;cursor:pointer;
+  color:rgba(236,229,212,.85);box-shadow:inset 0 0 0 1px transparent;
+  transition:background-color .16s ease,box-shadow .16s ease,color .16s ease,transform .15s ease}
+.ic-booktabs button.ic-bt-back:active,.ic-booktabs button.ic-bt-search:active{
+  transform:scale(.92);background:rgba(236,229,212,.14)}
+.ic-booktabs button.ic-bt-search[aria-pressed="true"]{
+  color:rgb(236,229,212);background:rgba(236,229,212,.14);
+  box-shadow:inset 0 0 0 1px rgba(236,229,212,.28)}
+.ic-bt-tabs{display:flex;gap:4px;flex:1 1 auto;min-width:0}
 .ic-booktabs a{flex:1 1 0;min-width:0;height:36px;box-sizing:border-box;
   display:flex;align-items:center;justify-content:center;
   border-radius:8px;
@@ -455,16 +472,6 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    же приглушённая плашка, что у вкладок/языков, а НЕ сплошная светлая
    заливка во всю ячейку (она выбивалась из тёмного меню). */
 .ic-rbar-row button[aria-pressed="true"]{background:rgba(var(--cream),.14);box-shadow:inset 0 0 0 1px rgba(var(--cream),.28);color:rgb(var(--cream))}
-.ic-rbar-row .ic-rbar-ctx{flex:0 1 auto;min-width:40px;justify-content:center;overflow:hidden}
-.ic-rbar-ctx span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:center}
-/* .ic-rbar-back-solo (этот раунд, задание пункт 2) — строка раздела карточки
-   имени/гравюры: ЕДИНСТВЕННАЯ ячейка капсулы (cardBackHtml, app.js), без
-   стрелки, слева, а не по центру, как у обычной .ic-rbar-ctx в читалке
-   главы (та, живёт среди других ячеек) — специфичность класса+класса, чтобы
-   перебить flex/max-width/justify-content у базового .ic-rbar-ctx выше
-   (в т.ч. его же урезанный max-width:46% в узкой медиа ниже). */
-.ic-rbar .ic-rbar-row .ic-rbar-back-solo{flex:1 1 0;max-width:none;min-width:0;justify-content:flex-start;padding:0 14px}
-.ic-rbar-back-solo .ic-rbar-back-label{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:left}
 /* Компенсирующий отступ .ic-wrap.ic-tv (--tv-content-top) — УБРАН этим
    раундом: указатель/«Имена» больше не используют отдельный position:fixed
    стек (.back-bar-fixed/.ic-booktabs-fixed/.ic-rbar-tv — все трое теперь
@@ -474,14 +481,6 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    неё .ic-head залезал бы под фиксированный стек; теперь обычный
    padding-top базового .ic-wrap (строка выше) делает ровно то же самое, что
    и в читалке главы — без JS-расчёта высоты на каждый resize. */
-/* Ячейка возврата/контекста (.ic-rbar-ctx) — текст оборачивается в <span>
-   в разметке (app.js), не идёт напрямую в button: text-overflow НЕ
-   применяется к самому button, т.к. .ic-rbar button — display:flex
-   (flex-контейнер не является "block container" для text-overflow, см.
-   спецификацию CSS — проверено эмпирически на реальном рендеринге,
-   overflow:hidden без span просто жёстко обрезает текст без «…», ellipsis
-   тихо игнорируется). overflow:hidden на самом .ic-rbar-ctx остаётся как
-   доп. граница обрезки на случай, если даже span не умещается. */
 /* Кнопка сортировки указателя/«Тип» у «Имён» (data-rb="sort"/data-rb="type")
    — в разметке у неё раньше вообще не было своего класса (просто
    .ic-rbar button), поэтому ловилось только flex:none базовое правило:
@@ -492,12 +491,6 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    работает на самом flex-button). */
 .ic-rbar-row .ic-rbar-sort{flex:1 1 0;min-width:0;overflow:hidden}
 .ic-rbar-sort-label{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block;max-width:100%;text-align:center}
-/* Ячейка возврата (.b.back в макете) — чуть светлее фона капсулы, не
-   акцентная (round 7 отклонён заказчиком: там была яркая акцентная рамка/
-   текст). Один и тот же сдержанный вид и для обычной кнопки «Книга», и для
-   активного контекста «К указателю/К гравюре/К имени/К поиску» — обе формы
-   несут класс .ic-rbar-ctx. */
-.ic-rbar button.ic-rbar-ctx{background:rgba(var(--cream),.08)}
 /* Ячейка 2 («глава · страница», .grow в макете) — главный flex:1 элемент
    строки, забирает всё свободное место. Одна строка (не двухуровневая, как
    в прежних раундах): название главы курсивом, приглушённое (opacity:.75),
@@ -553,10 +546,6 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
   .ic-rbar button{font-size:12.5px;letter-spacing:.045em;padding:0 9px}
   .ic-rbar-full{display:none}
   .ic-rbar-short{display:inline}
-  /* min-width — НЕ 0: короткая форма подписи ctx («К указателю»/«К гравюре»/
-     «К имени»/«К поиску», все три языка) должна помещаться ЦЕЛИКОМ, без
-     обрезания fitEllipsisWord (app.js). */
-  .ic-rbar-row .ic-rbar-ctx{flex:0 1 auto;min-width:0;max-width:46%}
   .ic-rbar-row .ic-rbar-pos{flex:1 1 0%;min-width:46px;padding:0 9px}
   /* Пункт 3 этого раунда: название главы больше НЕ скрывается на узких
      экранах (раньше — .ic-rbar-pos-ch{display:none} — именно это было
@@ -1315,7 +1304,7 @@ button.ic-sr-more{display:block;margin:14px 0 0;padding:8px 16px;font:inherit;fo
    (makeRbSheet, ниже), а быстрый переход по буквам и счётчик — в светлой
    части страницы (.ic-wrap.ic-tv, см. .ic-tv-letters-lt/.ic-tv-count ниже). */
 .ic-tv-lead{margin-top:20px;font-size:.88em;line-height:1.6;color:var(--soft)}
-/* Ячейка «Найти» — растягивается (как .ic-rbar-ctx), чтобы вместить активную
+/* Ячейка «Найти» — растягивается, чтобы вместить активную
    подпись «Найти: …»; внутренний span — чтобы длинный запрос обрезался
    многоточием, а не распирал капсулу/не толкал соседние ячейки. */
 .ic-rbar-row .ic-rbar-tvsearch{flex:1 1 0;min-width:0;justify-content:center;overflow:hidden}

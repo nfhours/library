@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "154";
+  var APP_VER = "155";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -175,13 +175,7 @@
     chPrev:       {ru:"Предыдущая глава", en:"Previous chapter", fr:"Chapitre précédent"},
     chToc:        {ru:"Главы", en:"Chapters", fr:"Chapitres"},
     contents:     {ru:"Содержание", en:"Contents", fr:"Sommaire"},
-    rbCtxTv:      {ru:"К указателю", en:"To the index", fr:"À l’index"},
-    rbCtxPl:      {ru:"К гравюре", en:"To the engraving", fr:"À la gravure"},
-    rbCtxNm:      {ru:"К имени", en:"To the name", fr:"Au nom"},
-    rbCtxSr:      {ru:"К поиску", en:"To search", fr:"À la recherche"},
     rbBack:       {ru:"Назад", en:"Back", fr:"Retour"},
-    rbCover:      {ru:"Обложка", en:"Cover", fr:"Couverture"},
-    nmBackAll:    {ru:"К списку имён", en:"To the list of names", fr:"À la liste des noms"},
     rbTop:        {ru:"К началу главы", en:"To the start", fr:"Au début"},
     rbTopShort:   {ru:"Начало", en:"Start", fr:"Début"},
     rbPosLabel:   {ru:"Открыть содержание", en:"Open the contents", fr:"Ouvrir le sommaire"},
@@ -297,17 +291,17 @@
   }
 
   var state={q:"",filter:"all",sort:"book",scroll:0,lang:"ru"};
-  // cameFromHash — хэш страницы, с которой реально пришли на ТЕКУЩУЮ (round
-  // «sheets-dark», задание часть 3): пишется в обработчике hashchange ниже
-  // по e.oldURL, т.е. не зависит от того, какая именно ссылка была нажата —
-  // общий для ВСЕХ переходов аналог chCtx (который помнит только переходы
-  // указатель/имена/поиск/гравюра → глава или карточку). Нужен кнопке
-  // «Назад: …» (backCellHtml/bindBackCell ниже), чтобы решить: если
-  // предыдущий шаг истории реально совпадает с родителем страницы —
-  // history.back() (переход назад тем же путём, что и пришли, со штатным
-  // восстановлением позиции через pagePos ниже); если нет (прямая ссылка,
-  // перезагрузка, внешний переход) — обычная навигация на родителя, а не
-  // history.back() в неизвестное место.
+  // cameFromHash — хэш страницы, с которой реально пришли на ТЕКУЩУЮ:
+  // пишется в обработчике hashchange ниже по e.oldURL, т.е. не зависит от
+  // того, какая именно ссылка была нажата — общий для ВСЕХ переходов
+  // аналог chCtx (который помнит только переходы указатель/имена/поиск/
+  // гравюра → глава или карточку). Нужен уголку-назад общего меню книги
+  // (bindBookBack ниже, round «nav-tabs»), чтобы решить: если предыдущий
+  // шаг истории реально совпадает с родителем страницы — history.back()
+  // (переход назад тем же путём, что и пришли, со штатным восстановлением
+  // позиции через namesUi.pos); если нет (прямая ссылка, перезагрузка,
+  // внешний переход) — обычная навигация на родителя, а не history.back()
+  // в неизвестное место.
   var cameFromHash = "";
   // Bumped on every route() dispatch (every navigation). toTop()'s snap()
   // can be deferred an arbitrary amount — it's re-run from an image's "load"
@@ -359,36 +353,30 @@
   }
   renderBackBarLang();
 
-  // back-bar-lib (задание этого раунда, пункт 1) — «Библиотека» рядом с
-  // именем в шапке сайта на ВСЕХ страницах книги, вместо отдельной кнопки
-  // на обложке (та убрана, см. renderHome ниже). Создаётся один раз (DOM-
-  // узел переживает смену страниц — .back-bar вне root, как и
-  // #back-bar-lang), текст только перезаполняется при смене языка.
-  // !forcedBook — та же проверка, что раньше решала, показывать ли кнопку
-  // в .ic-top-row: если сборка жёстко привязана к одной книге (data-book
-  // на #iconologie — конкретный слаг, не "library"), самой библиотеки
-  // нет, вести некуда.
+  // renderBackBarBrand (round «nav-tabs», решение Андрея, задание пункт 1) —
+  // слева в шапке сайта теперь только «Библиотека» (имя "Andrey Stepin"
+  // убрано совсем), тем же шрифтом/размером, каким оно было. Ведёт на
+  // главную библиотеки — ссылка <a>; на САМОЙ главной библиотеки это не
+  // ссылка, а обычный текст (span), isHome передаётся из route() (!p.slug)
+  // при каждой навигации и из setLang() при смене языка. !forcedBook — та
+  // же проверка, что и раньше: сборка жёстко привязана к одной книге
+  // (data-book на #iconologie — конкретный слаг, не "library") — самой
+  // библиотеки нет, элемент вообще не показываем.
   var backBarEl = document.querySelector(".back-bar");
-  function renderBackBarLib(){
+  var backBarBrandIsHome = false;
+  function renderBackBarBrand(isHome){
+    if(isHome != null) backBarBrandIsHome = isHome;
     if(!backBarEl || forcedBook) return;
-    var a = backBarEl.querySelector("a.back-bar-lib");
-    if(!a){
-      a = document.createElement("a");
-      a.className = "back-bar-lib"; a.href = "#";
-      a.addEventListener("click", function(ev){ ev.preventDefault(); location.hash = ""; });
-      // .back-bar-brand (index.html) — та же группа, что и "Andrey Stepin":
-      // без неё оба были прямыми детьми .back-bar (flex,
-      // justify-content:space-between), и третий элемент (эта ссылка)
-      // раздвигало space-between НЕ рядом с именем, а к центру полосы,
-      // далеко от него — название переносилось на 2 строки, а
-      // "Библиотека" повисала отдельно. Один flex-item на двоих держит
-      // их вместе, как единое "Andrey Stepin · Библиотека".
-      var brand = backBarEl.querySelector(".back-bar-brand") || backBarEl.querySelector(":scope > a");
-      if(brand) brand.appendChild(a); else backBarEl.insertBefore(a, backBarEl.firstChild);
+    var brand = backBarEl.querySelector(".back-bar-brand");
+    if(!brand) return;
+    if(backBarBrandIsHome){
+      brand.innerHTML = '<span>'+esc(t("toLibrary"))+'</span>';
+    } else {
+      brand.innerHTML = '<a href="#/">'+esc(t("toLibrary"))+'</a>';
+      brand.querySelector("a").addEventListener("click", function(ev){ ev.preventDefault(); location.hash = ""; });
     }
-    a.textContent = t("toLibrary");
   }
-  renderBackBarLib();
+  renderBackBarBrand(false);
 
   function setLang(l){
     state.lang = l;
@@ -400,7 +388,6 @@
     }catch(e){}
     root.setAttribute("data-lang", l);
     renderBackBarLang();
-    renderBackBarLib();
     route();
   }
   function keep(slug){ try{ sessionStorage.setItem("ic-state:"+slug, JSON.stringify({q:state.q,filter:state.filter,sort:state.sort})); }catch(e){} }
@@ -923,6 +910,7 @@
     if(activeSheetClose){ activeSheetClose(); }
     if(sv) sv.close();
     var p = parseHash(), gen = renderGen;
+    renderBackBarBrand(!p.slug);
     // .back-bar-fixed/.ic-booktabs-fixed (index.html/app.css) — фикс
     // мигания sticky при частых программных scrollTo в жесте по рейлу букв
     // (указатель/«Имена») — убран этим раундом вместе с position:fixed у
@@ -1054,41 +1042,128 @@
   // теперь "/home" — только редирект на старые ссылки (route() ниже), сама
   // обложка — пустой путь книги.
   function coverHref(book){ return forcedBook ? "#/" : "#/"+book.slug; }
-  // bookTabsHtml — общее меню книги (задание, пункт 3): пять равных вкладок
-  // «Текст · Гравюры · Указатель · Имена · Поиск» НЕПОСРЕДСТВЕННО под шапкой
-  // сайта (.back-bar), ОДНО и то же на каждой странице книги (обложка,
-  // текст, глава, гравюры, карточка гравюры, указатель, имена, поиск) —
-  // вызывается из каждой render*-функции книги, не дублирует разметку.
-  // activeSect — один из "text"/"plates"/"index"/"names"/"search": глава и
-  // карточка гравюры передают "text"/"plates" соответственно (относятся к
-  // этим разделам, даже когда location.hash не совпадает буквально с адресом
-  // самого раздела) — см. вызовы в renderChapter/renderPlateCard.
+  // Уголок-«назад» и лупа общего меню книги (round «nav-tabs», решение
+  // Андрея) — тонкие SVG-иконки без заливки, currentColor (наследуют цвет
+  // кнопки, см. app.css .ic-bt-back/.ic-bt-search).
+  var ICON_BACK = '<svg width="12" height="18" viewBox="0 0 12 18" fill="none" aria-hidden="true"><path d="M9.5 2 2.5 9l7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  var ICON_SEARCH = '<svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.6" stroke="currentColor" stroke-width="1.7"/><line x1="12.7" y1="12.7" x2="17.3" y2="17.3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>';
+  // bookTabsHtml — общее меню книги (round «nav-tabs», решение Андрея):
+  // уголок-назад слева, вкладки «Текст · Гравюры · Указатель · Имена»
+  // посередине (без «Поиска» — страница #/<slug>/search остаётся для
+  // прямых ссылок, но в этом меню больше не вкладка), лупа справа —
+  // открывает тёмную шторку полнотекстового поиска ПРЯМО ЗДЕСЬ, на любой
+  // странице книги (bindBookSearchSheet ниже), а не уводит на отдельную
+  // страницу. ОДНО и то же на каждой странице книги — вызывается из каждой
+  // render*-функции, не дублирует разметку.
+  // activeSect — один из "text"/"plates"/"index"/"names": глава и карточка
+  // гравюры/имени передают "text"/"plates"/"names" соответственно
+  // (относятся к этим разделам, даже когда location.hash не совпадает
+  // буквально с адресом самого раздела) — см. вызовы в renderChapter/
+  // renderPlateCard/renderNameCard.
+  // backOpts — {parentHref, ctxTypes, hide}: parentHref — структурный
+  // родитель (куда ведёт уголок, если не сработал более точный переход по
+  // ctxTypes — см. ctxActiveFor/bindBookBack ниже); hide — true только на
+  // обложке в режиме forcedBook (одна книга без самой библиотеки — вести
+  // назад некуда).
   // id="ic-booktabs" — общий якорь для installScrollHide (прячется вместе с
   // .back-bar, см. его комментарий) и для headerStackH()/syncHeaderStack()
   // выше (высота меню книги, которую строка раздела и столбик букв держат в
   // своих статичных отступах).
-  // 3-й параметр (fixed) — историческое, игнорируется: .ic-booktabs-fixed
-  // (фикс мигания sticky при жесте по рейлу букв) убран этим раундом вместе
-  // с position:fixed у .ic-rbar-tv/.back-bar-fixed, см. комментарии там же —
-  // указатель/«Имена» теперь везде обычный sticky, как читалка главы.
-  function bookTabsHtml(book, activeSect, fixed){
+  function bookTabsHtml(book, activeSect, backOpts){
+    backOpts = backOpts || {};
     var tabs = [["text", t("bkTabText")], ["plates", t("hmGallery")]];
     if(book.meta.tavola) tabs.push(["index", t("hmIndex")]);
     if(book.meta.names) tabs.push(["names", t("hmNames")]);
-    tabs.push(["search", t("hmSearch")]);
+    var backActive = backOpts.ctxTypes ? ctxActiveFor(backOpts.ctxTypes) : false;
+    var backHref = backOpts.parentHref || coverHref(book);
+    var backBtn = backOpts.hide ? "" :
+      '<button type="button" class="ic-bt-back" data-rb="back" data-active="'+(backActive?"1":"0")+'" data-fallback-href="'+esc(backHref)+'" aria-label="'+esc(t("rbBack"))+'">'+ICON_BACK+'</button>';
+    // Лупа — только у книг с «домашней» страницей (book.meta.home), т.е.
+    // ровно там, где вообще есть страница #/<slug>/search, на которую она
+    // ссылается по смыслу (как раньше ячейка «Поиск»/вкладка «Поиск»).
+    var searchBtn = book.meta.home
+      ? '<button type="button" class="ic-bt-search" data-rb="booksearch" aria-pressed="false" aria-label="'+esc(t("hmSearch"))+'">'+ICON_SEARCH+'</button>'
+      : "";
     return '<nav class="ic-booktabs" id="ic-booktabs" aria-label="'+esc(t("hmNavLabel"))+'">'+
-      tabs.map(function(x){
-        // .ic-bt-label (пункт 16 этого раунда) — подпись обёрнута в свой
-        // inline-block span, который сжимается до ширины СВОЕГО текста
-        // (сама <a> остаётся flex:1 1 0;text-align:center, вкладки — пять
-        // равных ячеек, как раньше): подчёркивание активной вкладки
-        // (app.css, .ic-bt-label.on::after) теперь ровно по ширине подписи,
-        // а не по фиксированному 22%/22% отступу, который на разных по
-        // длине подписях ("Текст" vs "Указатель") давал разную толщину/
-        // смещение черты на глаз.
+      backBtn+
+      '<div class="ic-bt-tabs">'+tabs.map(function(x){
+        // .ic-bt-label — см. предыдущие раунды: подпись в своём span,
+        // сжимается до ширины текста, подчёркивание/плашка активной
+        // вкладки (app.css) — ровно по её ширине.
         return '<a href="'+esc(hrefFor(book, x[0]))+'" class="'+(activeSect===x[0]?"on":"")+'"><span class="ic-bt-label">'+esc(x[1])+'</span></a>';
-      }).join("")+
+      }).join("")+'</div>'+
+      searchBtn+
+      (book.meta.home ? bookSearchSheetHtml(book) : "")+
     '</nav>';
+  }
+  // bookSearchSheetHtml — тёмная шторка полнотекстового поиска (та же
+  // разметка/контракт, что ждёт wireBookSearch на отдельной странице
+  // #/<slug>/search — форма .ic-home-search + соседний div.ic-sr),
+  // ВЛОЖЕНА внутрь .ic-booktabs (а не .ic-rbar, как раньше, когда поиск
+  // был ячейкой капсулы читалки) — тот же приём "position:absolute;top:
+  // 100% от ближайшего позиционированного предка", но предок теперь общее
+  // меню книги, которое есть на КАЖДОЙ странице (round «nav-tabs»).
+  function bookSearchSheetHtml(book){
+    return '<div class="ic-rb-sheet" id="ic-rb-sheet">'+
+        '<div class="ic-rb-sheet-slide">'+
+          '<div class="ic-rb-sheet-panel">'+
+            '<div class="ic-rb-sheet-head">'+
+              '<form class="ic-home-search" role="search">'+
+                '<span class="ic-search-wrap"><input class="ic-search" type="search" enterkeyhint="search" placeholder="'+esc(t("srPlace"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("srPlace"))+'">'+
+                '<button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
+              '</form>'+
+              '<button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button>'+
+            '</div>'+
+            '<div class="ic-sr" aria-live="polite"></div>'+
+          '</div>'+
+        '</div>'+
+      '</div>';
+  }
+  // bindBookBack — уголок-назад (единый на каждой странице книги, round
+  // «nav-tabs»): data-active="1" (chCtx реально привёл именно сюда, см.
+  // ctxActiveFor/CHAP_CTX_TYPES/CARD_CTX_TYPES ниже) — history.back()
+  // безусловно (возврат туда, откуда пришли, тем же путём, со штатным
+  // восстановлением позиции браузером/namesUi.pos); иначе — на структурный
+  // родитель (data-fallback-href), через history.back(), если реальный
+  // предыдущий хэш (cameFromHash) совпадает с ним, иначе обычная навигация.
+  function bindBookBack(root){
+    var btn = root.querySelector('[data-rb="back"]');
+    if(!btn) return;
+    btn.addEventListener("click",function(){
+      if(btn.getAttribute("data-active")==="1"){ history.back(); return; }
+      var target = btn.getAttribute("data-fallback-href");
+      if(cameFromHash && cameFromHash === target) history.back();
+      else location.hash = target.replace(/^#/,"");
+    });
+  }
+  // bindBookSearchSheet — лупа общего меню книги (round «nav-tabs»):
+  // открывает/закрывает ту же тёмную шторку, что раньше была ячейкой
+  // «Поиск» капсулы читалки (makeRbSheet — тот же общий хелпер, см. его
+  // определение у installScrollHide выше; wireBookSearch — тот же
+  // контракт, что и на отдельной странице #/<slug>/search). rbSheets —
+  // ОБЩИЙ на страницу регистр шторок (его же использует страница для
+  // своих ячеек «Содержание»/«Тип» и т.п., см. вызовы в соответствующих
+  // render*-функциях) — чтобы единое затемнение (#ic-rb-dim) и взаимное
+  // исключение шторок работали одинаково, какая бы из них ни открылась.
+  function bindBookSearchSheet(root, book, gen, rbSheets){
+    var btn = root.querySelector('[data-rb="booksearch"]'), sheetEl = root.querySelector("#ic-rb-sheet");
+    if(!btn || !sheetEl) return null;
+    var sheetForm = sheetEl.querySelector(".ic-home-search"), sheetInput = sheetForm.querySelector(".ic-search");
+    var sheetApi = makeRbSheet(sheetEl, btn, {
+      registry: rbSheets,
+      onOpen: function(presetQuery){
+        if(presetQuery != null){ sheetInput.value = presetQuery; sheetInput.dispatchEvent(new Event("input",{bubbles:true})); }
+        if(window.matchMedia && window.matchMedia("(pointer:fine)").matches) sheetInput.focus({preventScroll:true});
+      },
+      onClose: function(){ sheetInput.blur(); }
+    });
+    wireBookSearch(book, sheetForm, sheetEl.querySelector(".ic-sr"), gen, 0);
+    sheetEl.querySelector(".ic-sr").addEventListener("click", function(e){
+      var a = e.target.closest("a");
+      if(a && /\/ch\//.test(a.getAttribute("href")||"")) searchReopen = {hash: location.hash, query: sheetInput.value};
+    });
+    btn.addEventListener("click", function(){ sheetApi.toggle(); });
+    return sheetApi;
   }
   function toTop(noImgSnap){
     // The standalone page's back-bar is sticky over the top of the viewport
@@ -1123,12 +1198,10 @@
   }
   // restoreOrTop — тот же словарь namesUi.pos, что указатель/имена/гравюры/
   // поиск уже используют точечно для своих собственных переходов, но здесь
-  // общая точка для ЛЮБОЙ страницы книги (round «sheets-dark», задание часть
-  // 3): позиция пишется один раз, централизованно, в обработчике hashchange
-  // (см. его комментарий выше) для КАЖДОГО перехода, а не только там, где
-  // раньше была ручная расстановка — так что к возврату кнопкой «Назад»
-  // (bindBackCell) запись уже есть для любой страницы, даже для тех, где
-  // «Назад» раньше не было вовсе (обложка, Текст/Гравюры/Указатель/Поиск).
+  // общая точка для ЛЮБОЙ страницы книги: позиция пишется один раз,
+  // централизованно, в обработчике hashchange (см. его комментарий выше)
+  // для КАЖДОГО перехода — так что к возврату уголком-назад (bindBookBack)
+  // запись уже есть для любой страницы.
   function restoreOrTop(gen){
     var y = namesUi.pos[location.hash];
     if(y!=null){
@@ -1376,7 +1449,6 @@
   // числом.
   function updateSheetMaxH(){
     var rbar = document.getElementById("ic-rbar");
-    if(!rbar) return;
     var vv = window.visualViewport;
     var vh = vv ? vv.height : window.innerHeight;
     // rbar.getBoundingClientRect().bottom НЕНАДЁЖЕН именно в тот момент,
@@ -1394,7 +1466,11 @@
     // (--top сайта + реальная высота .ic-booktabs — её sticky-отступ, то же
     // число, что и у натурального потока при scrollY=0, т.к. .ic-rbar идёт
     // сразу за .ic-booktabs/.back-bar) + собственная высота капсулы.
-    var bottom = headerStackH() + rbar.getBoundingClientRect().height;
+    // Round «nav-tabs»: шторка поиска теперь вложена в .ic-booktabs (не
+    // .ic-rbar) и есть на страницах БЕЗ строки раздела вовсе — там .ic-rbar
+    // нет, и низ «стека» — это просто низ самого headerStackH() (шапка+
+    // вкладки), без высоты капсулы.
+    var bottom = headerStackH() + (rbar ? rbar.getBoundingClientRect().height : 0);
     var maxh = Math.max(120, vh - bottom - 8);
     document.documentElement.style.setProperty("--ic-sheet-maxh", maxh+"px");
     // --ic-rbar-bottom — тот же "bottom" (нижняя граница .ic-rbar от верха
@@ -2323,69 +2399,10 @@
     return '<p'+n+'>'+inl(b.text, qs, markSpan)+'</p>';
   }
 
-  // Обрезка контекстной подписи (.ic-rbar-ctx) по словам, не посимвольно:
-  // CSS text-overflow:ellipsis режет ровно по символам (в т.ч. посреди
-  // слова) — отдельно запрещено заданием («не многоточием посреди слова»).
-  // Вместо CSS — после вставки панели в DOM измеряем уже сжатую flex-box'ом
-  // ширину элемента (.ic-rbar-pos рядом не участвует в сжатии — у него
-  // min-width:max-content в app.css, так что весь дефицит достаётся именно
-  // ctx) и бинарным поиском подбираем наибольшее целое число слов исходной
-  // подписи, которое с добавленным «…» в неё помещается. span.clientWidth
-  // в момент первого обращения — это уже финальная, определённая flexbox'ом
-  // ширина (чтение layout-свойства форсирует синхронный reflow, что здесь
-  // и нужно).
-  //
-  // Переделано после ревью: первая версия (фиксировала только style.width
-  // на самом span) давала однобуквенный обрыв типа «Lismaco s…» — потому
-  // что .ic-rbar-ctx span сам является flex-элементом (его родитель-кнопка
-  // — display:inline-flex), а не обычным inline-элементом: width на нём
-  // не заменяет flex-basis полностью, flex-shrink:1 по умолчанию
-  // продолжает действовать, И — главное — сама КНОПКА .ic-rbar-ctx имеет
-  // flex-basis:auto (flex:0 1 auto в app.css), то есть при каждой пробной
-  // подстановке более короткого текста кнопка заново «обтягивала» новый,
-  // more короткий контент вместо того, чтобы оставаться той же ширины, что
-  // и при полном тексте — целевая w, снятая один раз до цикла, переставала
-  // соответствовать реальному слоту уже на первой итерации бинарного
-  // поиска, и тот принимал вариант, который на самом деле не помещается.
-  // Теперь сначала фиксируется ширина самой КНОПКИ (реальный flex-элемент
-  // строки, который ведёт себя предсказуемо) через flex:0 0 <px>, а не
-  // span — после этого слот стабилен на всех итерациях. И сверх того —
-  // защитная проверка после подбора: если после финальной отрисовки текст
-  // всё ещё не влезает (контент/шрифт поедает место неожиданно), урезаем
-  // ещё по слову, а не доверяем один снимок измерения вслепую.
-  function fitEllipsisWord(span){
-    if(!span) return;
-    var full = span.getAttribute("data-full");
-    if(full == null) return;
-    span.textContent = full;
-    if(span.scrollWidth <= span.clientWidth + 1) return;
-    var w = span.clientWidth;
-    var btn = span.closest(".ic-rbar-ctx");
-    if(btn) btn.style.flex = "0 0 "+btn.getBoundingClientRect().width+"px";
-    var words = full.split(/\s+/).filter(Boolean);
-    var lo = 0, hi = words.length;
-    function set(n){ span.textContent = words.slice(0, n).join(" ")+"…"; return span.scrollWidth <= w; }
-    while(lo < hi){
-      var mid = Math.ceil((lo+hi)/2);
-      if(set(mid)) lo = mid; else hi = mid-1;
-    }
-    lo = Math.max(lo, 1);
-    set(lo);
-    while(lo > 1 && span.scrollWidth > span.clientWidth + 1){ lo--; set(lo); }
-  }
-  function fitCtxLabels(container){
-    (container||document).querySelectorAll(".ic-rbar-ctx").forEach(function(btn){ btn.style.flex = ""; }); // сбросить предыдущую фиксацию перед новым замером (ресайз/смена языка)
-    (container||document).querySelectorAll(".ic-rbar-ctx .ic-rbar-full[data-full], .ic-rbar-ctx .ic-rbar-short[data-full]").forEach(fitEllipsisWord);
-  }
-  // Ячейка «глава · страница» (.ic-rbar-pos): название главы теперь усекается
-  // ПРОСТЫМ CSS-эллипсисом (text-overflow:ellipsis в app.css), как в
-  // утверждённом макете rbar-proto.html — никакого JS-измерения ширины
-  // по словам здесь больше не нужно (на ≤460px название скрывается целиком
-  // через обычный CSS @media, см. .ic-rbar-pos-ch{display:none} в app.css).
-  // Пересчёт при ресайзе окна (поворот экрана и т.п.) — тот же приём, что у
-  // closeQm ниже по файлу: один слушатель на весь модуль, no-op, если
-  // панели читалки сейчас нет на странице (querySelectorAll вернёт пусто).
-  window.addEventListener("resize", function(){ fitCtxLabels(document); });
+  // Ячейка «глава · страница» (.ic-rbar-pos): название главы усекается
+  // ПРОСТЫМ CSS-эллипсисом (text-overflow:ellipsis в app.css) — на ≤460px
+  // название скрывается целиком через обычный CSS @media, см.
+  // .ic-rbar-pos-ch{display:none} в app.css.
   // Пересчёт max-height выезжающей панели при ресайзе — уже покрыт общим
   // слушателем window resize/orientationchange+visualViewport у syncTopVar/
   // updateSheetMaxH() (самое начало файла); отдельный слушатель здесь
@@ -2472,20 +2489,6 @@
         ? '<div class="ic-text ic-ch-body" lang="'+(enMode ? trl : "ru")+'">'+blocks.map(function(b){ return pgmHtml(b)+figsHtml(book, b)+blockHtml(book, b, slug, (markSpan && !enMode && b.n===+blockN) ? markSpan : null); }).join("")+'</div>'
         : enPrep ? '<div class="ic-text ic-ch-body ic-ch-itbody"></div>'
         : '<p class="ic-sub">'+esc(t("chNotYet"))+'</p>';
-      // Контекстная ссылка «вернуться туда, откуда пришли» (chCtx — см. его
-      // определение у namesUi выше) — ячейка 1 строки раздела, показывается
-      // ТОЛЬКО если chCtx относится именно к этому переходу (его hash
-      // совпадает с тем, что сейчас открыли). Задание (этот раунд, пункт 3):
-      // запасной вариант «Книга» убран совсем — книжные вкладки (bookTabsHtml)
-      // теперь всегда видны сверху, явная кнопка возврата к обложке не нужна;
-      // когда контекст неактивен, ячейка 1 просто не рендерится вовсе.
-      // Ячейка 1 — «Назад: …» (round «sheets-dark», задание часть 3): теперь
-      // ВСЕГДА рендерится (раньше — только при активном chCtx, иначе пусто),
-      // по умолчанию «Назад: Текст» (hrefFor(book,"text")), либо «Назад:
-      // <источник>» по chCtx (указатель/гравюра/имя/поиск — CHAP_CTX_TYPES),
-      // тот же общий backCellBtnHtml, что у остальных страниц книги — см.
-      // его объявление и объявление chCtx выше.
-      var ctxHtml = backCellBtnHtml(hrefFor(book, "text"), t("bkTabText"), CHAP_CTX_TYPES, false);
       var posTitle = ch ? chapTitle(ch) : "";
       var posTitleShort = ch ? chapTitleShort(ch) : "";
       // .ic-ch-outer — панель .ic-rbar вынесена ИЗ узкого .ic-wrap.ic-ch-wrap
@@ -2494,18 +2497,15 @@
       // заголовка главы длинны одновременно, а колонка чтения ниже остаётся
       // прежней ширины и центрируется независимо (margin:auto у обеих).
       //
-      // Этот раунд (задание, пункт 3-4): книжные вкладки (bookTabsHtml) —
-      // ОБЩЕЕ меню книги над строкой раздела, одно на все страницы книги.
-      // Строка раздела главы теперь — [контекст, если активен] [Глава ·
-      // страница] [Скан] [Начало] (порядок Скан/Начало — по макету
-      // book-structure.html, отличается от прежнего [Начало][Скан]). Ячейка
-      // «Поиск» и запасная «Книга» убраны совсем (см. комментарии у ctxHtml
-      // выше и у bookTabsHtml) — переход к поиску теперь через вкладку
-      // «Поиск» в общем меню книги, которая (вариант б, см. задание) на
-      // странице главы открывает ТОТ ЖЕ оверлей поиска шторкой, не уходя из
-      // главы — см. её перехват клика ниже, рядом с sheetApi.
+      // Round «nav-tabs» (решение Андрея): книжные вкладки (bookTabsHtml) —
+      // ОБЩЕЕ меню книги над строкой раздела, одно на все страницы книги,
+      // с уголком-назад и лупой (шторка поиска теперь часть самого меню —
+      // см. bookTabsHtml/bookSearchSheetHtml/bindBookSearchSheet выше).
+      // Строка раздела главы — [Глава · страница] [Скан] [Начало] (без
+      // ячейки контекста — её роль целиком взял на себя уголок-назад общего
+      // меню, см. bindBookBack).
       root.innerHTML =
-        bookTabsHtml(book, "text")+
+        bookTabsHtml(book, "text", {parentHref: hrefFor(book,"text"), ctxTypes: CHAP_CTX_TYPES})+
         // #ic-rb-dim — единое затемнение страницы (ОДНО, не по одному внутри
         // каждой шторки), всегда position:fixed;inset:0 ВНЕ .ic-rbar — см.
         // подробный комментарий у syncSheetChrome() в app.js и у #ic-rb-dim
@@ -2514,7 +2514,6 @@
         '<div class="ic-ch-outer">'+
           '<div class="ic-rbar" id="ic-rbar">'+
             '<div class="ic-rbar-row">'+
-              ctxHtml+
               '<button type="button" class="ic-rbar-pos" data-rb="pos" aria-haspopup="dialog" aria-pressed="false" aria-label="'+esc(t("rbPosLabel"))+'">'+
                 '<span class="ic-rbar-pos-inner">'+
                   '<span class="ic-rbar-pos-ch" data-rb-ch><span class="ic-rbar-full">'+esc(posTitle)+'</span><span class="ic-rbar-short">'+esc(posTitleShort)+'</span></span>'+
@@ -2524,31 +2523,6 @@
               '<button type="button" class="ic-rbar-top" data-rb="top"><span class="ic-rbar-full">'+esc(t("rbTop"))+'</span><span class="ic-rbar-short">'+esc(t("rbTopShort"))+'</span></button>'+
             '</div>'+
             langSwitch()+
-            // Выезжающая панель поиска читалки (.ic-rb-sheet) — только у книг
-            // с «домашней» страницей (book.meta.home), т.е. ровно там, где
-            // раньше кнопка «Поиск» вела на home/search. Внутри — ТОТ ЖЕ
-            // контракт разметки, что ждёт wireBookSearch на странице
-            // home/search (форма .ic-home-search с input.ic-search + соседний
-            // div.ic-sr) — функция переиспользуется без переделок, просто
-            // подключена к другому DOM. ВЛОЖЕНА внутрь .ic-rbar (child, не
-            // сосед в .ic-ch-outer, как раньше) — см. комментарий у
-            // updateSheetMaxH()/makeRbSheet про чистый CSS top:100%.
-            (book.meta.home ?
-              '<div class="ic-rb-sheet" id="ic-rb-sheet">'+
-                '<div class="ic-rb-sheet-slide">'+
-                  '<div class="ic-rb-sheet-panel">'+
-                    '<div class="ic-rb-sheet-head">'+
-                      '<form class="ic-home-search" role="search">'+
-                        '<span class="ic-search-wrap"><input class="ic-search" type="search" enterkeyhint="search" placeholder="'+esc(t("srPlace"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("srPlace"))+'">'+
-                        '<button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
-                      '</form>'+
-                      '<button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button>'+
-                    '</div>'+
-                    '<div class="ic-sr" aria-live="polite"></div>'+
-                  '</div>'+
-                '</div>'+
-              '</div>'
-            : "")+
             // Выезжающая панель «Содержание» (кнопка data-rb="pos") — та же
             // разметка/анимация/класс .ic-rb-sheet..., что у панели поиска
             // выше (makeRbSheet ниже — общий хелпер для обеих, см. комментарий
@@ -2584,8 +2558,7 @@
           '</div>'+
         '</div>';
       bindLangSwitch(root);
-      bindBackCell(root);
-      fitCtxLabels(root);
+      bindBookBack(root);
       syncHeaderStack();
       if(enPrep){
         loadPagesIt(book, function(all){
@@ -2649,45 +2622,13 @@
       // вынесенный в общий хелпер makeRbSheet (определён у installScrollHide
       // выше) — не дублируем его логику здесь.
       var rbSheets = [];
-      // Вкладка «Поиск» общего меню книги (bookTabsHtml) — на странице главы
-      // (вариант б, см. задание пункт 5/примечание про шторку поиска из
-      // главы) открывает ТОТ ЖЕ оверлей поиска ШТОРКОЙ поверх текущей главы,
-      // а не уходит на отдельную страницу #/cartari/search: перехватываем её
-      // клик ниже (preventDefault+toggle), вместо обычной навигации по href.
-      // Та же ссылка передаётся makeRbSheet как btn — получает aria-pressed,
-      // как раньше получала отдельная кнопка «Поиск» в капсуле (убрана этим
-      // раундом, см. задание пункт 4).
-      var booktabsSearchA = root.querySelector('#ic-booktabs a[href="'+hrefFor(book,"search")+'"]');
-      var sheetApi = null, sheetEl = root.querySelector("#ic-rb-sheet");
-      if(sheetEl){
-        var sheetForm = sheetEl.querySelector(".ic-home-search");
-        var sheetInput = sheetForm.querySelector(".ic-search");
-        sheetApi = makeRbSheet(sheetEl, booktabsSearchA, {
-          registry: rbSheets,
-          onOpen: function(presetQuery){
-            if(presetQuery != null){ sheetInput.value = presetQuery; sheetInput.dispatchEvent(new Event("input",{bubbles:true})); }
-            // На устройствах без точного указателя (тач) клавиатура не должна
-            // появляться сама — только на desktop/с мышью (pointer:fine).
-            if(window.matchMedia && window.matchMedia("(pointer:fine)").matches) sheetInput.focus({preventScroll:true});
-          },
-          onClose: function(){ sheetInput.blur(); }
-        });
-        wireBookSearch(book, sheetForm, sheetEl.querySelector(".ic-sr"), gen, 0);
-        // Переход по результату поиска внутри оверлея — запоминаем, где он был
-        // открыт (searchReopen, см. его определение выше), чтобы «К поиску»
-        // на целевой главе могло привести обратно СЮДА и снова открыть панель
-        // с тем же запросом (история не меняет hash этой главы при открытии/
-        // закрытии оверлея, поэтому history.back() сам сюда и приведёт — не
-        // хватает только автооткрытия, этим и занимается searchReopen).
-        // wireBookSearch сам вешает отдельный click-слушатель на этот же box
-        // (устанавливает chCtx) — этот, независимый, только читает значения.
-        sheetEl.querySelector(".ic-sr").addEventListener("click", function(e){
-          var a = e.target.closest("a");
-          if(a && /\/ch\//.test(a.getAttribute("href")||"")) searchReopen = {hash: location.hash, query: sheetInput.value};
-        });
-        if(reopenSearchQuery != null) sheetApi.open(reopenSearchQuery);
-        if(booktabsSearchA) booktabsSearchA.addEventListener("click", function(e){ e.preventDefault(); sheetApi.toggle(); });
-      }
+      // Лупа общего меню книги (bookTabsHtml) — тот же оверлей поиска
+      // ШТОРКОЙ поверх текущей главы, что и на любой другой странице книги
+      // (round «nav-tabs», bindBookSearchSheet выше). Автооткрытие с
+      // прежним запросом при возврате «К поиску» (searchReopen) — через
+      // reopenSearchQuery, прочитанный в начале функции.
+      var sheetApi = bindBookSearchSheet(root, book, gen, rbSheets);
+      if(sheetApi && reopenSearchQuery != null) sheetApi.open(reopenSearchQuery);
       var tocSheetApi = null, tocSheetEl = root.querySelector("#ic-rb-toc-sheet");
       if(tocSheetEl){
         var posBtn = root.querySelector('[data-rb="pos"]');
@@ -3014,12 +2955,11 @@
       // помещаются в капсулу — перенесены ниже, в светлую часть .ic-wrap.ic-tv
       // (см. задание, пункт 1).
       root.innerHTML =
-        bookTabsHtml(book, "index")+
+        bookTabsHtml(book, "index", {parentHref: coverHref(book)})+
         '<div id="ic-rb-dim"></div>'+
         '<div class="ic-ch-outer">'+
           '<div class="ic-rbar ic-rbar-tv" id="ic-rbar">'+
             '<div class="ic-rbar-row">'+
-              backCellBtnHtml(coverHref(book), t("rbCover"), null, false)+
               '<button type="button" class="ic-rbar-tvsearch" data-rb="search" aria-pressed="false"><span class="ic-rbar-tvsearch-label">'+esc(tvSearchLabel())+'</span></button>'+
               '<button type="button" class="ic-rbar-sort" data-rb="sort"><span class="ic-rbar-sort-label">'+esc(tvSortLabel())+'</span></button>'+
             '</div>'+
@@ -3055,7 +2995,7 @@
           '</div>'+
         '</div>';
       bindLangSwitch(root);
-      bindBackCell(root);
+      bindBookBack(root);
       var rbar = root.querySelector("#ic-rbar"), rbarRow = root.querySelector(".ic-rbar-row");
       var sheetEl = root.querySelector("#ic-tv-search-sheet"), sheetInput = sheetEl.querySelector(".ic-search"),
           sheetCnt = sheetEl.querySelector(".ic-tv-sheet-count");
@@ -3075,6 +3015,7 @@
       // шторок, что в renderChapter (здесь фактически только одна шторка, но
       // тот же общий механизм makeRbSheet этого требует).
       var azDragging = false, rbSheets = [];
+      bindBookSearchSheet(root, book, gen, rbSheets);
       function updateSearchLabel(){ searchLabelEl.textContent = tvSearchLabel(); }
       function fill(){
         var words = tvFold(sheetInput.value.trim()).split(/\s+/).filter(Boolean), html = "", n = 0, have = {}, cur = null;
@@ -3210,67 +3151,11 @@
   // статьи указателя, plate — с карточки гравюры («Читать в главе»),
   // name — с упоминания в карточке имени, search — из результатов поиска.
   var CHAP_CTX_TYPES = {tavola:1, plate:1, name:1, search:1};
-  // ctxActiveFor/ctxPlaceLabel — общее ядро кнопки «Назад: …» (round
-  // «sheets-dark», задание часть 3): раньше это было по отдельности в
-  // backCellHtml (карточки) и прямо в renderChapter (глава, свой набор
-  // ctxBase/chCtxLabel) — теперь один источник истины для обоих мест и для
-  // новых ячеек на страницах, где кнопки «Назад» раньше не было вовсе
-  // (обложка, Текст/Гравюры/Указатель/Имена/Поиск).
+  // ctxActiveFor — общее ядро уголка-назад (round «nav-tabs», решение
+  // Андрея): используется bookTabsHtml/bindBookBack (см. их объявление
+  // выше) — показывает, что chCtx реально привёл именно на эту страницу
+  // (а не просто где-то когда-то был выставлен по другому поводу).
   function ctxActiveFor(types){ return !!(types && chCtx.hash && chCtx.hash === location.hash && types[chCtx.type]); }
-  function ctxPlaceLabel(){
-    if(chCtx.type==="tavola" || chCtx.type==="name") return (state.lang==="ru" ? chCtx.ru : (chCtx.it || chCtx.ru)) || "";
-    if(chCtx.type==="plates") return chCtx.label || t("hmGallery");
-    if(chCtx.type==="names") return t("hmNames");
-    if(chCtx.type==="search") return t("hmSearch");
-    if(chCtx.type==="plate") return t("hmGallery");
-    return "";
-  }
-  // backCellBtnHtml/backCellHtml — единая ячейка «Назад: <родитель>» (первая
-  // ячейка капсулы .ic-rbar/.ic-rbar-row, без стрелок), теперь на КАЖДОЙ
-  // странице книги — parentHref/parentLabel — структурный родитель страницы
-  // (всегда доступен как минимум); ctxTypes — какие типы chCtx (если есть)
-  // могут подменить подпись на более точный источник перехода («Назад:
-  // <конкретная статья>» вместо общего «Назад: Указатель» и т.п.); solo —
-  // true для страниц, где это ЕДИНСТВЕННАЯ ячейка капсулы (все, кроме главы
-  // читалки и Указателя/«Имён» — там рядом другие ячейки, back-ячейка
-  // остаётся узкой/по центру, как раньше у «Книга»/«К указателю»).
-  // data-active="1" (chCtx реально привёл именно сюда) — клик идёт через
-  // history.back() БЕЗУСЛОВНО (тот же приём, что был в старых ctxback/
-  // cardBack до этого раунда): chCtx.hash — адрес ЭТОЙ же страницы
-  // (назначения перехода, не родителя), использовать его как цель навигации
-  // нельзя — отсюда и был баг (клик не возвращал никуда, т.к. «переход» на
-  // tекущий же hash — no-op). Когда chCtx неактивен — data-fallback-href
-  // (структурный родитель), и уже тогда решает cameFromHash/bindBackCell:
-  // history.back(), если реальный предыдущий хэш совпадает с родителем,
-  // иначе обычная навигация (задание, часть 3).
-  function backCellBtnHtml(parentHref, parentLabel, ctxTypes, solo){
-    var active = ctxActiveFor(ctxTypes);
-    var place = (active && ctxPlaceLabel()) || parentLabel;
-    var cls = "ic-rbar-ctx"+(solo ? " ic-rbar-back-solo" : "");
-    var span = solo ? '<span class="ic-rbar-back-label">' : "<span>";
-    return '<button type="button" class="'+cls+'" data-rb="backup" data-active="'+(active?"1":"0")+'" data-fallback-href="'+esc(parentHref)+'">'+
-      span+esc(t("rbBack")+": "+place)+'</span></button>';
-  }
-  function backCellHtml(parentHref, parentLabel, ctxTypes, solo){
-    return '<div class="ic-rbar" id="ic-rbar"><div class="ic-rbar-row">'+
-      backCellBtnHtml(parentHref, parentLabel, ctxTypes, solo)+'</div></div>';
-  }
-  function bindBackCell(root){
-    var btn = root.querySelector('[data-rb="backup"]');
-    if(!btn) return;
-    btn.addEventListener("click",function(){
-      if(btn.getAttribute("data-active")==="1"){ history.back(); return; }
-      var target = btn.getAttribute("data-fallback-href");
-      // cameFromHash — реальный предыдущий хэш (см. его объявление и
-      // обработчик hashchange выше): совпадает с родителем только если
-      // существует настоящая запись истории браузера на него — тогда
-      // history.back() и штатное восстановление позиции через namesUi.pos
-      // сработают; иначе (прямая ссылка/перезагрузка/внешний переход) —
-      // обычная навигация, а не прыжок в историю в неизвестное место.
-      if(cameFromHash && cameFromHash === target) history.back();
-      else location.hash = target.replace(/^#/,"");
-    });
-  }
   // searchReopen — «вернуться к поиску»: открытие/закрытие выезжающей панели
   // поиска читалки (.ic-rb-sheet) НЕ меняет location.hash (это client-side
   // UI-состояние поверх текущей главы), поэтому chCtx (который сравнивается
@@ -3380,12 +3265,11 @@
       // а кнопка, открывающая отдельную выезжающую шторку выбора типа
       // (makeRbSheet, тот же механизм, что у шторки «Содержание» читалки).
       root.innerHTML =
-        bookTabsHtml(book, "names")+
+        bookTabsHtml(book, "names", {parentHref: coverHref(book)})+
         '<div id="ic-rb-dim"></div>'+
         '<div class="ic-ch-outer">'+
           '<div class="ic-rbar ic-rbar-tv" id="ic-rbar">'+
             '<div class="ic-rbar-row">'+
-              backCellBtnHtml(coverHref(book), t("rbCover"), null, false)+
               '<button type="button" class="ic-rbar-tvsearch" data-rb="search" aria-pressed="false"><span class="ic-rbar-tvsearch-label">'+esc(nmSearchLabel())+'</span></button>'+
               '<button type="button" class="ic-rbar-sort" data-rb="type" aria-pressed="false"><span class="ic-rbar-sort-label">'+esc(nmTypeLabel())+'</span></button>'+
             '</div>'+
@@ -3430,7 +3314,7 @@
           '</div>'+
         '</div>';
       bindLangSwitch(root);
-      bindBackCell(root);
+      bindBookBack(root);
       var rbar = root.querySelector("#ic-rbar"), rbarRow = root.querySelector(".ic-rbar-row");
       var sheetEl = root.querySelector("#ic-tv-search-sheet"), sheetInput = sheetEl.querySelector(".ic-search"),
           sheetCnt = sheetEl.querySelector(".ic-tv-sheet-count");
@@ -3444,6 +3328,7 @@
       // suppress и класс активности столбика, не синхронизация позиции);
       // здесь rbSheets реально взаимоисключает ДВЕ шторки (поиск и тип).
       var azDragging = false, rbSheets = [];
+      bindBookSearchSheet(root, book, gen, rbSheets);
       function updateSearchLabel(){ searchLabelEl.textContent = nmSearchLabel(); }
       function updateTypeLabel(){ typeLabelEl.textContent = nmTypeLabel(); }
       function fill(){
@@ -3592,14 +3477,12 @@
       // нет), только .ic-wrap ic-nm — та же база, что у Текста/Гравюр/Поиска
       // (пункт 17 — одинаковая отбивка сверху у всех страниц без строки
       // раздела).
-      bookTabsHtml(book, "names", false)+
-      '<div class="ic-ch-outer">'+backCellHtml(hrefFor(book, "names"), t("hmNames"), CARD_CTX_TYPES, true)+'</div>'+
+      bookTabsHtml(book, "names", {parentHref: hrefFor(book, "names"), ctxTypes: CARD_CTX_TYPES})+
       '<div class="ic-wrap ic-nm">'+
         '<div class="ic-top-row">'+langSwitch()+'</div>'+
-        // Пункт 14 (прошлый раунд): кнопка "← Имена" убрана целиком (раздел
-        // уже подсвечен в общем меню книги сверху) — вместо неё строка-
-        // крошка перед киккером (тип записи, не источник перехода — это
-        // отдельно показывает строка раздела выше, см. backCellHtml).
+        // Строка-крошка перед киккером (тип записи) — раздел, из которого
+        // пришли, теперь решает только уголок-назад общего меню (round
+        // «nav-tabs», bindBookBack).
         '<header class="ic-head"><p class="ic-kicker">'+esc(t("hmNames"))+' · '+esc(t("nmT1_"+e.t))+'</p><h1 class="ic-h-fr">'+esc(nmForm(e))+'</h1>'+
           ((e.it||[]).length ? '<p class="ic-nm-it" lang="it">'+esc(e.it.join(" · "))+'</p>' : "")+'</header>'+
         gal+
@@ -3608,7 +3491,8 @@
         ments+
       '</div>';
     bindLangSwitch(root);
-    bindBackCell(root);
+    bindBookBack(root);
+    bindBookSearchSheet(root, book, gen, []);
     root.addEventListener("click",function(ev){
       var a = ev.target.closest(".ic-nm-ms a");
       if(a){
@@ -3620,7 +3504,7 @@
       }
       // Галерея гравюр этого имени (пункт 2 этого раунда) — карточка
       // гравюры, открытая отсюда, должна уметь показать «Назад: <это имя>»
-      // (chCtx.type==="name", см. backCellHtml) — тот же общий тип, что уже
+      // (chCtx.type==="name", см. ctxActiveFor/CARD_CTX_TYPES) — тот же общий тип, что уже
       // задаёт переход имя→глава по ссылке на упоминание выше, просто другая
       // цель (гравюра вместо главы читает его точно так же).
       var g = ev.target.closest('[data-gal] a.ic-gal-item');
@@ -3681,10 +3565,10 @@
     }) : [];
     var rest = chap ? chap.list.filter(function(c){ return !used[c.slug]; }) : [];
     if(rest.length) groups.push('<section class="ic-toc-part"><ol>'+rest.map(link).join("")+'</ol></section>');
-    // Выход на главную книги из списка глав: ячейка 1 панели читалки (.ic-rbar-ctx)
-    // при активном контексте перехода (chCtx) занята подписью «К указателю»/«К
-    // гравюре»/«К имени»/«К поиску», а не ведёт на главную — переход туда в этом
-    // случае остаётся доступен здесь, первым пунктом выезжающего списка глав.
+    // Выход на главную книги из списка глав: уголок-назад общего меню при
+    // активном контексте перехода (chCtx) ведёт туда, откуда пришли, а не
+    // на обложку — переход на обложку в этом случае остаётся доступен
+    // здесь, первым пунктом выезжающего списка глав.
     var home = book.meta.home ? '<section class="ic-toc-part"><ol><li><a href="'+esc(coverHref(book))+'">'+esc(t("tvBack"))+'</a></li></ol></section>' : "";
     return home+groups.join("");
   }
@@ -4062,12 +3946,11 @@
       if(book.meta.names) secs.push(homeTile(hrefFor(book,"names"), t("hmNames"), t("hmNamesSub"), false));
       secs.push(homeTile(hrefFor(book,"search"), t("hmSearch"), t("hmSearchSub"), false));
       root.innerHTML =
-        bookTabsHtml(book, null)+
-        (forcedBook ? "" : backCellHtml("#/", t("toLibrary"), null, true))+
+        bookTabsHtml(book, null, {parentHref: "#/", hide: forcedBook})+
         '<div class="ic-wrap ic-home">'+
           // Пункт 1 этого раунда: ссылка «Библиотека» убрана отсюда — теперь
           // она одна на все страницы книги, в шапке сайта рядом с именем
-          // (renderBackBarLib выше), а не только на обложке.
+          // (renderBackBarBrand выше), а не только на обложке.
           '<div class="ic-top-row">'+langSwitch()+'</div>'+
           (hp ? ornamentMaskHtml(book, hp, "ic-orn-headpiece") : "")+
           '<header class="ic-home-hero">'+
@@ -4087,8 +3970,8 @@
           (tpRec ? ornamentMaskHtml(book, tpRec, "ic-orn-tailpiece") : "")+
         '</div>';
       bindLangSwitch(root);
-      bindBackCell(root);
-      syncHeaderStack();
+      bindBookBack(root);
+      bindBookSearchSheet(root, book, gen, []);
       var fig = root.querySelector(".ic-home-fig .ic-fig"); if(fig) fig.addEventListener("click",function(){ lightbox(fig.getAttribute("data-src")); });
       state.scroll = 0; restoreOrTop(gen);
       installScrollHide({isActive:function(){ return gen===renderGen; }});
@@ -4106,16 +3989,15 @@
     loadChapters(book, function(chap){
       if(gen !== renderGen) return;
       root.innerHTML =
-        bookTabsHtml(book, "text")+
-        backCellHtml(coverHref(book), t("rbCover"), null, true)+
+        bookTabsHtml(book, "text", {parentHref: coverHref(book)})+
         '<div class="ic-wrap">'+
           '<div class="ic-top-row">'+langSwitch()+'</div>'+
           '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("bkTabText"))+'</h1></header>'+
           tocPartsHtml(book, chap, null)+
         '</div>';
       bindLangSwitch(root);
-      bindBackCell(root);
-      syncHeaderStack();
+      bindBookBack(root);
+      bindBookSearchSheet(root, book, gen, []);
       root.querySelectorAll("[data-ch]").forEach(function(b){ b.addEventListener("click",function(){ location.hash = chapterHref(book, b.getAttribute("data-ch")).replace(/^#/,""); }); });
       state.scroll = 0; restoreOrTop(gen);
       installScrollHide({isActive:function(){ return gen===renderGen; }});
@@ -4151,16 +4033,15 @@
         }).join("")+'</ul>';
       }).join("");
       root.innerHTML =
-        bookTabsHtml(book, "plates")+
-        backCellHtml(coverHref(book), t("rbCover"), null, true)+
+        bookTabsHtml(book, "plates", {parentHref: coverHref(book)})+
         '<div class="ic-wrap">'+
           '<div class="ic-top-row">'+langSwitch()+'</div>'+
           '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("hmGallery"))+'</h1></header>'+
           html+
         '</div>';
       bindLangSwitch(root);
-      bindBackCell(root);
-      syncHeaderStack();
+      bindBookBack(root);
+      bindBookSearchSheet(root, book, gen, []);
       var gl = root.querySelector(".ic-gal"); if(gl) root.querySelectorAll(".ic-gal").forEach(function(g){ g.addEventListener("click",function(e){
         var a = e.target.closest(".ic-gal-item");
         if(a && !e.metaKey && !e.ctrlKey && !e.shiftKey && e.button===0){
@@ -4186,8 +4067,7 @@
       if(gen !== renderGen) return;
       var restoreY = namesUi.pos[location.hash] || 0; delete namesUi.pos[location.hash];
       root.innerHTML =
-        bookTabsHtml(book, "search")+
-        backCellHtml(coverHref(book), t("rbCover"), null, true)+
+        bookTabsHtml(book, "search", {parentHref: coverHref(book)})+
         '<div class="ic-wrap">'+
           '<div class="ic-top-row">'+langSwitch()+'</div>'+
           '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("hmSearch"))+'</h1></header>'+
@@ -4197,8 +4077,8 @@
           '<div class="ic-sr" aria-live="polite"></div>'+
         '</div>';
       bindLangSwitch(root);
-      bindBackCell(root);
-      syncHeaderStack();
+      bindBookBack(root);
+      bindBookSearchSheet(root, book, gen, []);
       var form = root.querySelector(".ic-home-search");
       wireBookSearch(book, form, root.querySelector(".ic-sr"), gen, restoreY);
       if(!restoreY) form.querySelector(".ic-search").focus({preventScroll:true});
@@ -4290,8 +4170,7 @@
           : state.lang!=="ru" ? '<p class="ic-ch-note">'+esc(t("chRuOnly"))+'</p>' : explParas ? '<div class="ic-text ic-pc-expl-body" lang="ru">'+explParas+'</div>' : '<p class="ic-pc-none">'+esc(t("plNoExpl"))+'</p>')+
         '</section>';
       root.innerHTML =
-        bookTabsHtml(book, "plates")+
-        '<div class="ic-ch-outer">'+backCellHtml(hrefFor(book, "plates"), t("hmGallery"), CARD_CTX_TYPES, true)+'</div>'+
+        bookTabsHtml(book, "plates", {parentHref: hrefFor(book, "plates"), ctxTypes: CARD_CTX_TYPES})+
         '<div class="ic-wrap ic-home ic-plate-card">'+
           '<div class="ic-top-row">'+langSwitch()+'</div>'+
           '<article class="ic-pc" data-id="'+esc(p.id)+'">'+
@@ -4312,8 +4191,8 @@
             navPill(next,"next")+'</nav>'+
         '</div>';
       bindLangSwitch(root);
-      bindBackCell(root);
-      syncHeaderStack();
+      bindBookBack(root);
+      bindBookSearchSheet(root, book, gen, []);
       // «Все гравюры» в новом ряду трёх пилюль — та же эвристика
       // history.back(), что раньше была у верхней ссылки «← Все гравюры»
       // (убрана этим раундом — книжные вкладки «Гравюры» сверху уже дают тот
