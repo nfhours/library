@@ -1549,3 +1549,14 @@ button.ic-tv-sheet-reset:active{transform:scale(.95)}
 .ic-sv-full .ic-sv-pager{flex:1}
 .ic-sv-full .ic-sv-x{order:2}
 .ic-sv-full .ic-sv-sw{order:3;width:100%;margin:0 0 0 8px;padding:0 0 2px}
+
+/* Единый sticky-контейнер шапки (app.js installBookHide / root.innerHTML-хук):
+   шапка сайта + меню книги + (в главе) строка раздела — ОДИН sticky-блок
+   вверху, дети в обычном потоке. Прятание = translateY(−(шапка+вкладки)) ЭТОГО
+   блока целиком одним transition: строка раздела приклеена к нижнему краю
+   вкладок и оказывается у верха экрана (+safe-area) без отдельной логики. */
+.ic-stack{position:sticky;top:0;z-index:10;transition:transform .3s ease;will-change:transform}
+.ic-stack.ic-stack-hidden{transform:translateY(calc(env(safe-area-inset-top, 0px) - var(--ic-stack-hide, 0px)))}
+.ic-stack .back-bar{position:relative;top:auto;z-index:10;transition:height .2s ease}
+.ic-stack .ic-booktabs{position:relative;top:auto;transition:none;will-change:auto}
+.ic-stack .ic-rbar{position:relative;top:auto;transition:none;will-change:auto}

@@ -5,11 +5,33 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "155";
+  var APP_VER = "156";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
   if(!root){ root = document.createElement("div"); root.id = "iconologie"; (me && me.parentNode ? me.parentNode : document.body).appendChild(root); }
+  // Единый sticky-контейнер шапки (.ic-stack): шапка сайта (.back-bar), меню
+  // книги (.ic-booktabs) и, в главе, строка раздела (.ic-rbar) — ОДИН
+  // sticky-элемент, прячется одним transform (installBookHide ниже). .back-bar
+  // живёт вне root (index.html), поэтому на каждой установке root.innerHTML
+  // она (1) сперва «паркуется» обратно в body перед root, чтобы не уничтожиться
+  // вместе со старой разметкой, и (2) если новая разметка начинается с
+  // .ic-stack — переезжает в него первым ребёнком. Страницы без .ic-stack
+  // (указатель, «Имена», карточка гравюры и др.) остаются со своей sticky-
+  // .back-bar в body, как раньше.
+  (function(){
+    var bb = document.querySelector(".back-bar");
+    var desc = Object.getOwnPropertyDescriptor(Element.prototype, "innerHTML");
+    if(!bb || !desc || !desc.set || !root.parentNode) return;
+    Object.defineProperty(root, "innerHTML", {configurable:true,
+      get:function(){ return desc.get.call(root); },
+      set:function(v){
+        if(bb.parentNode !== root.parentNode) root.parentNode.insertBefore(bb, root);
+        desc.set.call(root, v);
+        var st = root.querySelector(":scope > .ic-stack");
+        if(st) st.insertBefore(bb, st.firstChild);
+      }});
+  })();
   root.className = "ic";
   if(root.dataset.top) root.style.setProperty("--top", root.dataset.top);
   // syncTopVar — root.dataset.top/--top задаёт пользователь статично
@@ -1409,6 +1431,53 @@
     requestAnimationFrame(tick);
   }
 
+  // installBookHide — ОДНА общая функция прятания шапки для всех страниц
+  // книги, где она прячется (глава, Текст, Гравюры, Поиск, обложка, карточка
+  // имени); указатель/«Имена» её не вызывают. Прячется весь .ic-stack
+  // (шапка+вкладки+строка раздела) одним transform/transition: translateY(
+  // −(высота шапки+вкладок)), так что строка раздела (если есть) оказывается
+  // у верха экрана, без отдельной логики для неё. Спокойные пороги: вниз ≥80px,
+  // вверх ≥40px подряд, не чаще раза в 400мс; тики с scrollY<0, scrollY>maxScroll
+  // (резиновый отскок iOS) и с расстоянием до конца страницы <2px полностью
+  // игнорируются (ни счётчиков, ни lastY не трогаем). У верха (<36px) —
+  // всегда показана; у нижнего края сама НЕ возвращается.
+  // opts: isActive, suppress (держит шапку показанной), onTick.
+  function installBookHide(opts){
+    opts = opts || {};
+    var HIDE_AT = 80, SHOW_AT = 40, GAP = 400, TOP_GUARD = 36, END_EPS = 2;
+    var lastY = window.scrollY, down = 0, up = 0, want = false, cur = false, lastToggleAt = -1e9;
+    function setHidden(v){
+      var st = document.getElementById("ic-stack");
+      cur = v;
+      if(!st) return;
+      if(v){
+        var bb = st.querySelector(".back-bar"), bt = document.getElementById("ic-booktabs");
+        st.style.setProperty("--ic-stack-hide", ((bb ? bb.offsetHeight : 0) + (bt ? bt.offsetHeight : 0))+"px");
+      }
+      st.classList.toggle("ic-stack-hidden", v);
+    }
+    function tick(){
+      if(opts.isActive && !opts.isActive()){ if(cur) setHidden(false); return; }
+      var y = window.scrollY, doc = document.documentElement;
+      var maxY = Math.max(0, doc.scrollHeight - window.innerHeight);
+      if(y < 0 || y > maxY || (maxY - y) < END_EPS){ /* отскок/самый край — тик игнорируем */ }
+      else {
+        var dy = y - lastY; lastY = y;
+        if(opts.suppress && opts.suppress()){ want = false; down = 0; up = 0; }
+        else if(y < TOP_GUARD){ want = false; down = 0; up = 0; }
+        else if(dy > 0.5){ down += dy; up = 0; if(down >= HIDE_AT) want = true; }
+        else if(dy < -0.5){ up += -dy; down = 0; if(up >= SHOW_AT) want = false; }
+      }
+      if(want !== cur){
+        var now = performance.now();
+        if(now - lastToggleAt >= GAP){ lastToggleAt = now; setHidden(want); }
+      }
+      if(opts.onTick) opts.onTick();
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  }
+
   // showBarsAlways — этот раунд (задание, пункт 1): указатель/«Имена»
   // installScrollHide вообще не вызывают — шапка+меню книги+строка раздела
   // там всегда на месте, единым неподвижным блоком (решение Андрея, см.
@@ -1572,6 +1641,8 @@
       if(bbar) bbar.classList.remove("ic-bb-hidden");
       var bt = document.getElementById("ic-booktabs");
       if(bt) bt.classList.remove("ic-bb-hidden");
+      var stk = document.getElementById("ic-stack");
+      if(stk) stk.classList.remove("ic-stack-hidden");
     }
     function open(arg){
       registry.forEach(function(s){ if(s !== api && s.isOpen()) s.closeInstant(); });
@@ -2505,13 +2576,9 @@
       // ячейки контекста — её роль целиком взял на себя уголок-назад общего
       // меню, см. bindBookBack).
       root.innerHTML =
+        '<div class="ic-stack" id="ic-stack">'+
         bookTabsHtml(book, "text", {parentHref: hrefFor(book,"text"), ctxTypes: CHAP_CTX_TYPES})+
-        // #ic-rb-dim — единое затемнение страницы (ОДНО, не по одному внутри
-        // каждой шторки), всегда position:fixed;inset:0 ВНЕ .ic-rbar — см.
-        // подробный комментарий у syncSheetChrome() в app.js и у #ic-rb-dim
-        // в app.css. Показывается/прячется синхронно с любой из шторок ниже.
-        '<div id="ic-rb-dim"></div>'+
-        '<div class="ic-ch-outer">'+
+        '<div class="ic-ch-outer ic-ch-outer-bar">'+
           '<div class="ic-rbar" id="ic-rbar">'+
             '<div class="ic-rbar-row">'+
               '<button type="button" class="ic-rbar-pos" data-rb="pos" aria-haspopup="dialog" aria-pressed="false" aria-label="'+esc(t("rbPosLabel"))+'">'+
@@ -2547,6 +2614,14 @@
               '</div>'+
             '</div>'+
           '</div>'+
+        '</div>'+
+        '</div>'+
+        // #ic-rb-dim — единое затемнение страницы (ОДНО, не по одному внутри
+        // каждой шторки), всегда position:fixed;inset:0 ВНЕ .ic-rbar — см.
+        // подробный комментарий у syncSheetChrome() в app.js и у #ic-rb-dim
+        // в app.css. Показывается/прячется синхронно с любой из шторок ниже.
+        '<div id="ic-rb-dim"></div>'+
+        '<div class="ic-ch-outer">'+
           '<div class="ic-wrap ic-ch-wrap">'+
             '<header class="ic-head">'+
               '<p class="ic-kicker">'+esc(bt(book.meta.title))+'</p>'+
@@ -2695,8 +2770,8 @@
       // видимость несколько раз подряд. Теперь прячет только после ≥80px
       // прокрутки вниз подряд, показывает после ≥40px вверх подряд, и не
       // чаще одного переключения за 400мс (см. installScrollHide выше).
-      installScrollHide({isActive:function(){ return gen === renderGen; }, onTick:paintPg,
-        hideAt:80, showAt:40, minToggleGap:400, suppress:function(){
+      installBookHide({isActive:function(){ return gen === renderGen; }, onTick:paintPg,
+        suppress:function(){
         return rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); });
       }});
       root.querySelectorAll("[data-ch]").forEach(function(b){ b.addEventListener("click",function(){ location.hash = chapterHref(book, b.getAttribute("data-ch")).replace(/^#/,""); }); });
@@ -2776,7 +2851,8 @@
         // положение", просто без гонки с переходной анимацией.
         function curBaseOff(){
           if(!rbar) return headerOffset + 16;
-          var finalTop = rbar.classList.contains("ic-rbar-snap") ? 0 : headerOffset;
+          var stk0 = document.getElementById("ic-stack");
+          var finalTop = (stk0 && stk0.classList.contains("ic-stack-hidden")) ? 0 : headerOffset;
           return finalTop + rbar.getBoundingClientRect().height + 16;
         }
         var snap = function(){
@@ -3477,7 +3553,8 @@
       // нет), только .ic-wrap ic-nm — та же база, что у Текста/Гравюр/Поиска
       // (пункт 17 — одинаковая отбивка сверху у всех страниц без строки
       // раздела).
-      bookTabsHtml(book, "names", {parentHref: hrefFor(book, "names"), ctxTypes: CARD_CTX_TYPES})+
+      '<div class="ic-stack" id="ic-stack">'+
+        bookTabsHtml(book, "names", {parentHref: hrefFor(book, "names"), ctxTypes: CARD_CTX_TYPES})+'</div>'+
       '<div class="ic-wrap ic-nm">'+
         '<div class="ic-top-row">'+langSwitch()+'</div>'+
         // Строка-крошка перед киккером (тип записи) — раздел, из которого
@@ -3517,7 +3594,7 @@
     if(y){ delete namesUi.pos[location.hash]; requestAnimationFrame(function(){ if(gen===renderGen) window.scrollTo(0,y); }); }
     else toTop(true);
     syncHeaderStack();
-    installScrollHide({isActive:function(){ return gen===renderGen; }});
+    installBookHide({isActive:function(){ return gen===renderGen; }});
     nudgeRepaint();
   }
 
@@ -3946,7 +4023,8 @@
       if(book.meta.names) secs.push(homeTile(hrefFor(book,"names"), t("hmNames"), t("hmNamesSub"), false));
       secs.push(homeTile(hrefFor(book,"search"), t("hmSearch"), t("hmSearchSub"), false));
       root.innerHTML =
-        bookTabsHtml(book, null, {parentHref: "#/", hide: forcedBook})+
+        '<div class="ic-stack" id="ic-stack">'+
+        bookTabsHtml(book, null, {parentHref: "#/", hide: forcedBook})+'</div>'+
         '<div class="ic-wrap ic-home">'+
           // Пункт 1 этого раунда: ссылка «Библиотека» убрана отсюда — теперь
           // она одна на все страницы книги, в шапке сайта рядом с именем
@@ -3974,7 +4052,7 @@
       bindBookSearchSheet(root, book, gen, []);
       var fig = root.querySelector(".ic-home-fig .ic-fig"); if(fig) fig.addEventListener("click",function(){ lightbox(fig.getAttribute("data-src")); });
       state.scroll = 0; restoreOrTop(gen);
-      installScrollHide({isActive:function(){ return gen===renderGen; }});
+      installBookHide({isActive:function(){ return gen===renderGen; }});
       nudgeRepaint();
     });
   }
@@ -3989,7 +4067,8 @@
     loadChapters(book, function(chap){
       if(gen !== renderGen) return;
       root.innerHTML =
-        bookTabsHtml(book, "text", {parentHref: coverHref(book)})+
+        '<div class="ic-stack" id="ic-stack">'+
+        bookTabsHtml(book, "text", {parentHref: coverHref(book)})+'</div>'+
         '<div class="ic-wrap">'+
           '<div class="ic-top-row">'+langSwitch()+'</div>'+
           '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("bkTabText"))+'</h1></header>'+
@@ -4000,7 +4079,7 @@
       bindBookSearchSheet(root, book, gen, []);
       root.querySelectorAll("[data-ch]").forEach(function(b){ b.addEventListener("click",function(){ location.hash = chapterHref(book, b.getAttribute("data-ch")).replace(/^#/,""); }); });
       state.scroll = 0; restoreOrTop(gen);
-      installScrollHide({isActive:function(){ return gen===renderGen; }});
+      installBookHide({isActive:function(){ return gen===renderGen; }});
       nudgeRepaint();
     });
   }
@@ -4033,7 +4112,8 @@
         }).join("")+'</ul>';
       }).join("");
       root.innerHTML =
-        bookTabsHtml(book, "plates", {parentHref: coverHref(book)})+
+        '<div class="ic-stack" id="ic-stack">'+
+        bookTabsHtml(book, "plates", {parentHref: coverHref(book)})+'</div>'+
         '<div class="ic-wrap">'+
           '<div class="ic-top-row">'+langSwitch()+'</div>'+
           '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("hmGallery"))+'</h1></header>'+
@@ -4052,7 +4132,7 @@
         }
       }); });
       state.scroll = 0; restoreOrTop(gen);
-      installScrollHide({isActive:function(){ return gen===renderGen; }});
+      installBookHide({isActive:function(){ return gen===renderGen; }});
       nudgeRepaint();
     });
   }
@@ -4067,7 +4147,8 @@
       if(gen !== renderGen) return;
       var restoreY = namesUi.pos[location.hash] || 0; delete namesUi.pos[location.hash];
       root.innerHTML =
-        bookTabsHtml(book, "search", {parentHref: coverHref(book)})+
+        '<div class="ic-stack" id="ic-stack">'+
+        bookTabsHtml(book, "search", {parentHref: coverHref(book)})+'</div>'+
         '<div class="ic-wrap">'+
           '<div class="ic-top-row">'+langSwitch()+'</div>'+
           '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("hmSearch"))+'</h1></header>'+
@@ -4084,7 +4165,7 @@
       if(!restoreY) form.querySelector(".ic-search").focus({preventScroll:true});
       state.scroll = 0;
       if(!restoreY) toTop(true);
-      installScrollHide({isActive:function(){ return gen===renderGen; }});
+      installBookHide({isActive:function(){ return gen===renderGen; }});
       nudgeRepaint();
     });
   }
