@@ -450,10 +450,11 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
 /* Видимый фокус с клавиатуры — как в макете: обводка наружу (не внутрь). */
 .ic-rbar button:focus-visible{outline:2px solid rgb(var(--cream));outline-offset:2px}
 /* Активное состояние (.b.on в макете) — например «Скан», когда открыта его
-   панель, или «Поиск», когда открыта выезжающая панель поиска: сплошная
-   светлая заливка, тёмный текст. Тот же паттерн aria-pressed="true", что и
-   раньше — специфичность выше базового правила. */
-.ic-rbar-row button[aria-pressed="true"]{background:rgb(var(--cream));color:var(--bar)}
+   панель, «Содержание» (ячейка pos), или «Поиск»/«Найти»/«Тип», когда
+   открыта шторка: «вариант 3» (round «sheets-dark», задание часть 1) — та
+   же приглушённая плашка, что у вкладок/языков, а НЕ сплошная светлая
+   заливка во всю ячейку (она выбивалась из тёмного меню). */
+.ic-rbar-row button[aria-pressed="true"]{background:rgba(var(--cream),.14);box-shadow:inset 0 0 0 1px rgba(var(--cream),.28);color:rgb(var(--cream))}
 .ic-rbar-row .ic-rbar-ctx{flex:0 1 auto;min-width:40px;justify-content:center;overflow:hidden}
 .ic-rbar-ctx span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:center}
 /* .ic-rbar-back-solo (этот раунд, задание пункт 2) — строка раздела карточки
@@ -515,15 +516,12 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
    капсулы) нарочно в реальном регистре, не капителью. */
 .ic-rbar-pos-pg{flex:none;white-space:nowrap;text-align:center;color:rgba(var(--cream),.9);font-size:1em;line-height:1.15;
   font-weight:400;letter-spacing:.04em;font-variant-numeric:oldstyle-nums;text-transform:none}
-/* Ячейка 2 теперь тоже может получать aria-pressed="true" (кнопка «pos»
-   активна весь срок, пока открыт список глав, см. задание пункт 1, по
-   аналогии с «Поиск») — но .ic-rbar-pos-ch/-pg задают СВОЙ цвет текста
-   (светлый, rgba(var(--cream),.9)), который иначе перекрывает тёмный текст
-   базового правила button[aria-pressed="true"] выше (специфичность класса
-   у детей выше, чем у цвета родителя) и делает подпись невидимой — светлый
-   текст на светлой (та же --cream) заливке кнопки. */
-.ic-rbar-row .ic-rbar-pos[aria-pressed="true"] .ic-rbar-pos-ch,
-.ic-rbar-row .ic-rbar-pos[aria-pressed="true"] .ic-rbar-pos-pg{color:var(--bar)}
+/* Ячейка 2 тоже может получать aria-pressed="true" (кнопка «pos» активна
+   весь срок, пока открыт список глав) — плашка «вариант 3» выше (bg .14,
+   рамка .28) накладывается НА фон, не меняя цвет текста: базовые
+   .ic-rbar-pos-ch/-pg уже светлые (rgba(cream),.9), переопределение цвета
+   больше не нужно (раньше фон был сплошной светлый, и тёмный текст был
+   обязателен — см. историю округа «tabs-selected»). */
 .ic-rbar-top,.ic-rbar-scan{flex:none}
 /* full/short — на 1440 (широкий экран) показывается развёрнутая форма
    подписи ячейки 1 («Книга»/«К указателю: <статья>»); на 390 — короткая
@@ -689,7 +687,7 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
   transition:transform .34s cubic-bezier(.22,.9,.24,1)}
 .ic-rb-sheet.ic-rb-sheet-open .ic-rb-sheet-slide{transform:translate3d(0,0,0)}
 @media (prefers-reduced-motion:reduce){.ic-rb-sheet-slide{transition:none}}
-.ic-rb-sheet-panel{position:absolute;left:0;right:0;top:0;background:var(--paper);
+.ic-rb-sheet-panel{position:absolute;left:0;right:0;top:0;background:#16130f;
   /* max-height:100% — относительно .ic-rb-sheet-slide (height:100% от
      клип-бокса .ic-rb-sheet выше, та же --ic-sheet-maxh/dvh-формула, один
      источник истины, без повторного дублирования формулы здесь). overflow:
@@ -703,22 +701,29 @@ button.ic-nav-pager-b[disabled]{color:var(--rule);cursor:default}
   box-shadow:0 18px 36px -12px rgba(0,0,0,.45);
   padding:14px 16px calc(18px + env(safe-area-inset-bottom))}
 .ic-rb-sheet.ic-rb-sheet-open{visibility:visible;pointer-events:auto;transition:visibility 0s}
-.ic-rb-sheet-head{display:flex;gap:8px;align-items:center;position:sticky;top:0;background:var(--paper);
+.ic-rb-sheet-head{display:flex;gap:8px;align-items:center;position:sticky;top:0;background:#16130f;
   padding-bottom:10px;margin-bottom:2px;z-index:1}
 .ic-rb-sheet-head .ic-home-search{flex:1 1 auto;min-width:0;margin:0}
 /* Поле поиска внутри выезжающей панели читалки (.ic-rb-sheet-head) — рамка
    со всех сторон + скругление, как в утверждённом макете rbar-proto.html
    (.shead input), а не просто нижняя черта общего input.ic-search (та
    остаётся как есть везде, где поле поиска не в этом контексте — главная
-   книги, указатель, имена). Селектор специфичен ТОЛЬКО этому месту. */
-.ic-rb-sheet-head .ic-home-search input.ic-search{height:44px;border:1px solid rgba(28,24,19,.3);border-radius:10px;
-  padding:0 34px 0 14px;font-size:18px;background:#f7f2e7}
-.ic-rb-sheet-head .ic-home-search input.ic-search:focus{border-color:var(--accent)}
-.ic-rb-sheet-head .ic-search-clear{right:10px}
-button.ic-rb-sheet-close{flex:none;height:44px;border:1px solid rgba(28,24,19,.3);border-radius:10px;
+   книги, указатель, имена). Селектор специфичен ТОЛЬКО этому месту.
+   Тёмное поле (round «sheets-dark», задание часть 2 пункт 6) — та же тёмная
+   панель, что и сама шторка, а не светлая «f7f2e7» прежних раундов. */
+.ic-rb-sheet-head .ic-home-search input.ic-search{height:44px;border:1px solid rgba(236,229,212,.3);border-radius:10px;
+  padding:0 34px 0 14px;font-size:18px;background:#1d1915;color:rgb(236,229,212)}
+.ic-rb-sheet-head .ic-home-search input.ic-search::placeholder{color:rgba(236,229,212,.5)}
+.ic-rb-sheet-head .ic-home-search input.ic-search:focus{border-color:rgba(236,229,212,.55)}
+.ic-rb-sheet-head .ic-search-clear{right:10px;color:rgba(236,229,212,.6)}
+@media (hover:hover){.ic-rb-sheet-head button.ic-search-clear:hover{color:rgb(236,229,212);background:rgba(236,229,212,.14)}}
+/* «Закрыть» — в стиле кнопок меню (вариант 3 на нажатие/hover), не светлая
+   рамка-кнопка прежних раундов. */
+button.ic-rb-sheet-close{flex:none;height:44px;border:1px solid rgba(236,229,212,.3);border-radius:10px;
   background:transparent;padding:0 14px;font:13.5px var(--serif);letter-spacing:.07em;text-transform:uppercase;
-  color:var(--ink);cursor:pointer}
-@media (hover:hover){button.ic-rb-sheet-close:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}}
+  color:rgb(236,229,212);cursor:pointer;transition:background-color .16s ease,color .16s ease,border-color .16s ease,transform .15s ease}
+button.ic-rb-sheet-close:active{transform:scale(.95)}
+@media (hover:hover){button.ic-rb-sheet-close:hover{background:rgba(236,229,212,.14);border-color:rgba(236,229,212,.45)}}
 /* Взаимоисключение поиск/список глав (makeRbSheet, app.js): закрытие БЕЗ
    собственной анимации — временно снимает transition у панели/самой обёртки
    (видимость иначе держится ещё .34s после снятия .ic-rb-sheet-open, см.
@@ -777,15 +782,24 @@ button.ic-rb-sheet-close{flex:none;height:44px;border:1px solid rgba(28,24,19,.3
 
 /* Панель «Содержание» (.ic-rb-sheet-toc) — тот же .ic-rb-sheet-head, но
    заголовок текста вместо формы поиска. */
-.ic-rb-sheet-head-title{flex:1 1 auto;font-size:.95em;font-weight:600;letter-spacing:.04em;color:var(--ink)}
+.ic-rb-sheet-head-title{flex:1 1 auto;font-size:.95em;font-weight:600;letter-spacing:.04em;color:rgb(236,229,212)}
 .ic-rb-toc-body .ic-toc-part:first-child{margin-top:0}
-/* Текущая глава в этом списке — БЕЗ курсива/стрелки «›» старой шторки
-   (.ic-toc-part a[aria-current] выше): полужирное начертание + тонкая
-   акцентная черта слева, см. задание пункт 1. Выше по специфичности, чем
-   общее правило (которое остаётся как есть — его использует другое место,
-   плитка «Содержание» главной книги через openChapToc). */
-.ic-rb-sheet-toc .ic-toc-part a[aria-current]{color:var(--ink);font-style:normal;font-weight:700;
-  border-left:3px solid var(--accent);padding-left:10px;margin-left:-13px}
+/* Тёмная шторка (round «sheets-dark», задание часть 2): заголовки частей —
+   мелкие капители приглушённым светлым, БЕЗ линии (была border-bottom
+   var(--rule) — убрана, задание пункт 3/4); строки/разделители — светлая
+   rgba(236,229,212,.12) вместо тёмной rgba(28,24,19,.06). Переопределяет
+   светлые .ic-toc-part* (app.css выше) — те остаются как есть везде, где
+   используются ВНЕ шторки (страница «О книге»). */
+.ic-rb-sheet-panel .ic-toc-part h3{color:rgba(236,229,212,.6);border-bottom:0}
+.ic-rb-sheet-panel .ic-toc-part a{color:rgba(236,229,212,.92);border-bottom:1px solid rgba(236,229,212,.12)}
+.ic-rb-sheet-panel .ic-toc-part a.ic-ch-off{opacity:.45}
+/* Текущая глава — «вариант 3» (задание пункт 1/4), БЕЗ красной черты слева/
+   курсива/стрелки «›» прежних раундов. Выше по специфичности, чем общее
+   правило .ic-toc-part a[aria-current] (используется отдельно плиткой
+   «Содержание» главной книги через мёртвый код openChapToc — не трогаем). */
+.ic-rb-sheet-toc .ic-toc-part a[aria-current]{color:rgb(236,229,212);font-style:normal;font-weight:400;
+  background:rgba(236,229,212,.14);box-shadow:inset 0 0 0 1px rgba(236,229,212,.28);border-radius:8px;
+  border-left:0;margin-left:0;padding-left:10px}
 .ic-rb-sheet-toc .ic-toc-part a[aria-current]::before{content:none}
 
 /* margin-top убран этим раундом (задание пункт 2) — см. комментарий у
@@ -1209,6 +1223,19 @@ button.ic-toc-close{width:38px;height:38px;border:1px solid var(--rule);border-r
 .ic-sr-th img{position:absolute;inset:3px;width:calc(100% - 6px);height:calc(100% - 6px);max-width:none;object-fit:contain}
 .ic-sr-pb{min-width:0}
 .ic-sr-t{display:block;line-height:1.35}
+/* Поиск внутри тёмной шторки читалки (.ic-rb-sheet-panel .ic-sr) — round
+   «sheets-dark», задание часть 2 пункт 6: найденное слово — «вариант 3»,
+   не красное подчёркивание; остальной текст светлый. Светлая база .ic-sr*
+   выше остаётся как есть на отдельной странице «Поиск» (вне шторки). */
+.ic-rb-sheet-panel .ic-sr-hint{color:rgba(236,229,212,.6)}
+.ic-rb-sheet-panel .ic-sr-nav button{color:rgba(236,229,212,.75);border-bottom-color:rgba(236,229,212,.25)}
+.ic-rb-sheet-panel .ic-sr-nav b{color:rgba(236,229,212,.6)}
+.ic-rb-sheet-panel .ic-sr-ul li{border-bottom:1px dotted rgba(236,229,212,.12)}
+.ic-rb-sheet-panel .ic-sr-a{color:rgb(236,229,212)}
+.ic-rb-sheet-panel .ic-sr-meta{color:rgba(236,229,212,.6)}
+.ic-rb-sheet-panel .ic-sr-th{background:rgba(236,229,212,.08);border-color:rgba(236,229,212,.22)}
+.ic-rb-sheet-panel .ic-sr mark{background:rgba(236,229,212,.14);color:rgb(236,229,212);font-weight:600;
+  box-shadow:inset 0 0 0 1px rgba(236,229,212,.28);border-radius:4px}
 button.ic-sr-more{display:block;margin:14px 0 0;padding:8px 16px;font:inherit;font-size:.85em;color:var(--accent);background:none;border:1px solid var(--rule);border-radius:2px;cursor:pointer}
 @media (hover:hover){.ic-sr-a:hover .ic-sr-t,.ic-sr-nav button:hover{color:var(--ink)}button.ic-sr-more:hover{border-color:var(--accent)}}
 
@@ -1307,21 +1334,26 @@ button.ic-sr-more{display:block;margin:14px 0 0;padding:8px 16px;font:inherit;fo
 /* Низ шторки «Найти» (.ic-rb-sheet-foot) — живой счётчик найденного +
    «Сбросить», под полем поиска/кнопкой «Закрыть» головы шторки. */
 .ic-tv-sheet-foot{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:4px}
-.ic-tv-sheet-count{margin:0;color:var(--soft);font-size:.82em}
-button.ic-tv-sheet-reset{flex:none;height:34px;padding:0 14px;border:1px solid rgba(28,24,19,.3);border-radius:8px;
-  background:transparent;font-size:.78em;letter-spacing:.05em;text-transform:uppercase;color:var(--ink);cursor:pointer}
-@media (hover:hover){button.ic-tv-sheet-reset:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}}
+.ic-tv-sheet-count{margin:0;color:rgba(236,229,212,.6);font-size:.82em}
+button.ic-tv-sheet-reset{flex:none;height:34px;padding:0 14px;border:1px solid rgba(236,229,212,.3);border-radius:8px;
+  background:transparent;font-size:.78em;letter-spacing:.05em;text-transform:uppercase;color:rgb(236,229,212);cursor:pointer;
+  transition:background-color .16s ease,border-color .16s ease,transform .15s ease}
+button.ic-tv-sheet-reset:active{transform:scale(.95)}
+@media (hover:hover){button.ic-tv-sheet-reset:hover{background:rgba(236,229,212,.14);border-color:rgba(236,229,212,.45)}}
 /* Шторка выбора типа имени (кнопка «Тип» на /names) — список строк
    название+счётчик, тот же .ic-rb-sheet-head (заголовок+«Закрыть»), что у
-   шторки «Содержание» читалки. Выбранный тип — лёгкая заливка строки. */
+   шторки «Содержание» читалки. Выбранный тип — «вариант 3» (round
+   «sheets-dark», задание часть 2), не красная заливка прежних раундов. */
 .ic-tv-typelist{display:flex;flex-direction:column;gap:2px;margin-top:4px}
 .ic-tv-typerow{display:flex;align-items:center;justify-content:space-between;gap:12px;
-  height:44px;padding:0 10px;border:0;border-radius:8px;background:none;
-  font-size:.95em;color:var(--ink);cursor:pointer;text-align:left}
-.ic-tv-typerow[aria-pressed="true"]{background:var(--accent-soft);color:var(--accent);font-weight:600}
-.ic-tv-typecount{font-size:.82em;color:var(--soft)}
-.ic-tv-typerow[aria-pressed="true"] .ic-tv-typecount{color:var(--accent)}
-@media (hover:hover){.ic-tv-typerow:not([aria-pressed="true"]):hover{background:rgba(28,24,19,.06)}}
+  height:44px;padding:0 10px;border:0;border-radius:8px;background:none;box-shadow:inset 0 0 0 1px transparent;
+  font-size:.95em;color:rgba(236,229,212,.9);cursor:pointer;text-align:left;
+  transition:background-color .16s ease,box-shadow .16s ease,color .16s ease,transform .15s ease}
+.ic-tv-typerow:active{transform:scale(.97)}
+.ic-tv-typerow[aria-pressed="true"]{background:rgba(236,229,212,.14);box-shadow:inset 0 0 0 1px rgba(236,229,212,.28);color:rgb(236,229,212);font-weight:600}
+.ic-tv-typecount{font-size:.82em;color:rgba(236,229,212,.6)}
+.ic-tv-typerow[aria-pressed="true"] .ic-tv-typecount{color:rgb(236,229,212)}
+@media (hover:hover){.ic-tv-typerow:not([aria-pressed="true"]):hover{background:rgba(236,229,212,.08)}}
 .ic-tv-sec{scroll-margin-top:120px}
 .ic-tv-sec h2{font-family:var(--old);font-size:2.1em;font-weight:500;line-height:1;color:var(--accent);margin:30px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--rule)}
 .ic-tv-e{padding:9px 0 8px;border-bottom:1px solid var(--rule)}
@@ -1491,7 +1523,7 @@ button.ic-tv-sheet-reset{flex:none;height:34px;padding:0 14px;border:1px solid r
 @media (max-width:999px){
   .ic-pgm{height:auto;display:flex;justify-content:flex-end;margin:.4em 0 .1em}
   .ic .ic-pgm-b{position:static;margin:0;padding:1px 0;border:0;border-radius:0;background:none;font-size:.64em;opacity:.85}
-  .ic .ic-pgm-b[aria-pressed="true"]{background:none;box-shadow:inset 0 -1px 0 var(--accent)}
+  .ic .ic-pgm-b[aria-pressed="true"]{color:var(--accent);opacity:1;background:var(--accent-soft)}
   .ic-pgm+.ic-pgm{margin-top:.1em}
 }
 .ic.ic-has-sv,.ic-sv-panel{--pw:min(560px,calc(100vw - 800px))}

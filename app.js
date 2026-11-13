@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "153";
+  var APP_VER = "154";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -180,6 +180,7 @@
     rbCtxNm:      {ru:"К имени", en:"To the name", fr:"Au nom"},
     rbCtxSr:      {ru:"К поиску", en:"To search", fr:"À la recherche"},
     rbBack:       {ru:"Назад", en:"Back", fr:"Retour"},
+    rbCover:      {ru:"Обложка", en:"Cover", fr:"Couverture"},
     nmBackAll:    {ru:"К списку имён", en:"To the list of names", fr:"À la liste des noms"},
     rbTop:        {ru:"К началу главы", en:"To the start", fr:"Au début"},
     rbTopShort:   {ru:"Начало", en:"Start", fr:"Début"},
@@ -296,6 +297,18 @@
   }
 
   var state={q:"",filter:"all",sort:"book",scroll:0,lang:"ru"};
+  // cameFromHash — хэш страницы, с которой реально пришли на ТЕКУЩУЮ (round
+  // «sheets-dark», задание часть 3): пишется в обработчике hashchange ниже
+  // по e.oldURL, т.е. не зависит от того, какая именно ссылка была нажата —
+  // общий для ВСЕХ переходов аналог chCtx (который помнит только переходы
+  // указатель/имена/поиск/гравюра → глава или карточку). Нужен кнопке
+  // «Назад: …» (backCellHtml/bindBackCell ниже), чтобы решить: если
+  // предыдущий шаг истории реально совпадает с родителем страницы —
+  // history.back() (переход назад тем же путём, что и пришли, со штатным
+  // восстановлением позиции через pagePos ниже); если нет (прямая ссылка,
+  // перезагрузка, внешний переход) — обычная навигация на родителя, а не
+  // history.back() в неизвестное место.
+  var cameFromHash = "";
   // Bumped on every route() dispatch (every navigation). toTop()'s snap()
   // can be deferred an arbitrary amount — it's re-run from an image's "load"
   // event, and route() swaps root.innerHTML long before a big, un-sized
@@ -954,7 +967,22 @@
       else renderIndex(book);
     });
   }
-  window.addEventListener("hashchange", route);
+  // cameFromHash/pagePos (см. var cameFromHash выше и namesUi.pos ниже) —
+  // ОДНА точка перехвата на ЛЮБОЙ переход хэша, а не ручная расстановка в
+  // каждом обработчике клика (round «sheets-dark», задание часть 3): к
+  // моменту этого события location.hash уже новый, но window.scrollY ещё
+  // старый (страница не перерисована — route() вызывается ниже, синхронно
+  // внутри этого же обработчика) — e.oldURL хэшчендж-события даёт тот самый
+  // хэш, с которого ушли, без необходимости помнить его отдельно на каждой
+  // ссылке. namesUi.pos — тот же словарь «позиция на странице X», который
+  // этот файл уже использует точечно для указателя/имён/гравюр/поиска —
+  // здесь просто пишется для ЛЮБОГО хэша единообразно.
+  window.addEventListener("hashchange", function(e){
+    var oldHash = "#"+(e.oldURL.split("#")[1]||"");
+    namesUi.pos[oldHash] = window.scrollY;
+    cameFromHash = oldHash;
+    route();
+  });
   loadLibrary(function(){ route(); });
 
   // Collapse the sticky search/filter bar smoothly as the visitor scrolls
@@ -1092,6 +1120,21 @@
       if(img.complete) return;
       img.addEventListener("load", snap, {once:true});
     });
+  }
+  // restoreOrTop — тот же словарь namesUi.pos, что указатель/имена/гравюры/
+  // поиск уже используют точечно для своих собственных переходов, но здесь
+  // общая точка для ЛЮБОЙ страницы книги (round «sheets-dark», задание часть
+  // 3): позиция пишется один раз, централизованно, в обработчике hashchange
+  // (см. его комментарий выше) для КАЖДОГО перехода, а не только там, где
+  // раньше была ручная расстановка — так что к возврату кнопкой «Назад»
+  // (bindBackCell) запись уже есть для любой страницы, даже для тех, где
+  // «Назад» раньше не было вовсе (обложка, Текст/Гравюры/Указатель/Поиск).
+  function restoreOrTop(gen){
+    var y = namesUi.pos[location.hash];
+    if(y!=null){
+      delete namesUi.pos[location.hash];
+      requestAnimationFrame(function(){ if(gen===renderGen) window.scrollTo(0,y); });
+    } else toTop(true);
   }
   // WebKit (в т.ч. iPadOS) иногда не перерисовывает position:sticky после замены
   // innerHTML на SPA-переходе — элемент «застревает» в старом положении/размере.
@@ -2436,47 +2479,13 @@
       // запасной вариант «Книга» убран совсем — книжные вкладки (bookTabsHtml)
       // теперь всегда видны сверху, явная кнопка возврата к обложке не нужна;
       // когда контекст неактивен, ячейка 1 просто не рендерится вовсе.
-      // Подпись ячейки 1 при активном контексте — в двух формах — full
-      // (desktop, с названием статьи через ":") и short (390px, БЕЗ названия
-      // статьи вообще, только общее «К указателю»/«К гравюре»/«К имени»/
-      // «К поиску») — см. .ic-rbar-full/.ic-rbar-short в app.css.
-      // chCtxLabel() — подпись пересчитывается КАЖДЫЙ рендер по текущему
-      // state.lang, а не замораживается в момент клика: chCtx хранит сырые
-      // ru/it поля исходной записи (указателя/имени), а не готовую строку,
-      // иначе при переключении языка прямо в открытой главе (без повторного
-      // перехода) подпись оставалась бы на том языке, на котором по ней
-      // кликнули — см. langSwitch()/setLang(), который дёргает route() и
-      // перерисовывает текущую главу заново тем же путём. it — то же поле,
-      // что показывает сама статья указателя/карточка имени на EN/FR (в
-      // tavola.json/names.json нет отдельных en/fr полей вообще, только
-      // it/ru — см. комментарии у рендера указателя/имён выше).
-      function chCtxLabel(){
-        if(chCtx.type==="tavola" || chCtx.type==="name") return state.lang==="ru" ? (chCtx.ru||"") : (chCtx.it || chCtx.ru || "");
-        return chCtx.label || "";
-      }
-      var ctxActive = !!(chCtx.hash && chCtx.hash === location.hash), ctxBase = "", ctxLbl = "";
-      if(ctxActive){
-        ctxLbl = chCtxLabel();
-        if(chCtx.type==="tavola") ctxBase = t("rbCtxTv");
-        else if(chCtx.type==="plate") ctxBase = t("rbCtxPl");
-        else if(chCtx.type==="name") ctxBase = t("rbCtxNm");
-        else if(chCtx.type==="search") ctxBase = t("rbCtxSr");
-        else ctxActive = false;
-      }
-      // short — всегда только общая подпись, без статьи (у "plate" статьи и
-      // так никогда не было — там обе формы совпадают). full — та же общая
-      // подпись плюс ": <статья>", если у этого типа контекста есть статья.
-      var ctxShort = ctxBase;
-      var ctxFull = ctxActive && chCtx.type!=="plate" && ctxLbl ? ctxBase+": "+ctxLbl : ctxBase;
-      // data-full — несжатый оригинал подписи, читает fitEllipsisWord после
-      // вставки в DOM (обрезка по словам, см. комментарий там же); textContent
-      // спана при этом совпадает с ctxFull/ctxShort только до первого вызова
-      // fitCtxLabels ниже — тот заменит его укороченным вариантом, если не
-      // влезает.
-      var ctxHtml = ctxActive
-        ? '<button type="button" class="ic-rbar-ctx ic-rbar-ctx-back" data-rb="ctxback">'+
-          '<span class="ic-rbar-full" data-full="'+esc(ctxFull)+'">'+esc(ctxFull)+'</span><span class="ic-rbar-short" data-full="'+esc(ctxShort)+'">'+esc(ctxShort)+'</span></button>'
-        : "";
+      // Ячейка 1 — «Назад: …» (round «sheets-dark», задание часть 3): теперь
+      // ВСЕГДА рендерится (раньше — только при активном chCtx, иначе пусто),
+      // по умолчанию «Назад: Текст» (hrefFor(book,"text")), либо «Назад:
+      // <источник>» по chCtx (указатель/гравюра/имя/поиск — CHAP_CTX_TYPES),
+      // тот же общий backCellBtnHtml, что у остальных страниц книги — см.
+      // его объявление и объявление chCtx выше.
+      var ctxHtml = backCellBtnHtml(hrefFor(book, "text"), t("bkTabText"), CHAP_CTX_TYPES, false);
       var posTitle = ch ? chapTitle(ch) : "";
       var posTitleShort = ch ? chapTitleShort(ch) : "";
       // .ic-ch-outer — панель .ic-rbar вынесена ИЗ узкого .ic-wrap.ic-ch-wrap
@@ -2575,6 +2584,7 @@
           '</div>'+
         '</div>';
       bindLangSwitch(root);
+      bindBackCell(root);
       fitCtxLabels(root);
       syncHeaderStack();
       if(enPrep){
@@ -2621,7 +2631,6 @@
       if(rbarRow) rbarRow.addEventListener("click", function(e){
         var b = e.target.closest("[data-rb]"); if(!b || b.disabled) return;
         var act = b.getAttribute("data-rb");
-        if(act==="ctxback"){ history.back(); return; }
         if(act==="pos"){ if(tocSheetApi) tocSheetApi.toggle(); return; }
         if(act==="top"){
           var off = headerStackH() + (rbar ? rbar.getBoundingClientRect().height : 0) + 4;
@@ -2682,27 +2691,27 @@
       var tocSheetApi = null, tocSheetEl = root.querySelector("#ic-rb-toc-sheet");
       if(tocSheetEl){
         var posBtn = root.querySelector('[data-rb="pos"]');
-        // onOpen — прокрутка списка к текущей главе (задание, пункт 2):
-        // та же идея, что у openChapToc (bd.scrollTop = cur.offsetTop -
-        // bd.clientHeight/3, см. ниже по файлу), адаптированная к новой
-        // структуре — скроллящийся элемент теперь .ic-rb-sheet-panel (а не
-        // отдельный .ic-toc-body без собственной шапки внутри), и его sticky
-        // шапка (.ic-rb-sheet-head) ОБЯЗАТЕЛЬНО учитывается как отступ:
-        // offsetTop текущей главы уже включает высоту шапки (она в обычном
-        // потоке ПЕРЕД <nav>, sticky не вынимает её из layout), но при
-        // scrollTop>0 шапка перекрывает ровно top headH px видимой области
-        // панели — значит цель должна гарантировать cur.offsetTop-scrollTop
-        // >= headH, иначе глава оказалась бы под шапкой. headH вычитается
-        // явно (а не «на глазок»), оставшееся место делится на треть, как в
-        // openChapToc, чтобы над текущей главой было немного контекста.
+        // onOpen — прокрутка списка к текущей главе, ОДИН раз, синхронно,
+        // до первого кадра анимации выезда (round «sheets-dark», задание
+        // часть 2 пункт 5): scrollTop выставляется здесь же, пока браузер
+        // ещё не отрисовал кадр — слайд уже получил класс .ic-rb-sheet-open
+        // (startAnim()/classList.add выше, в open()), но сам рендер следующего
+        // кадра случится только после возврата из этого синхронного
+        // обработчика, так что строка уже на месте ДО того, как панель
+        // начнёт визуально выезжать — скачка/доскролла во время анимации нет.
+        // headH (высота sticky-шапки .ic-rb-sheet-head) вычитается явно —
+        // раньше оставшийся отступ считался как треть свободного места
+        // (avail/3), и для первых глав списка эта доля могла оказаться
+        // меньше высоты шапки, оставляя строку наполовину под ней; теперь
+        // фиксированный зазор headH+12px (задание) — строка гарантированно
+        // видна целиком при любой позиции в списке.
         tocSheetApi = makeRbSheet(tocSheetEl, posBtn, {registry: rbSheets, onOpen: function(){
           var panelEl = tocSheetEl.querySelector(".ic-rb-sheet-panel");
           var headEl = tocSheetEl.querySelector(".ic-rb-sheet-head");
           var cur = tocSheetEl.querySelector('[aria-current="page"]');
           if(!panelEl || !cur) return;
           var headH = headEl ? headEl.getBoundingClientRect().height : 0;
-          var avail = Math.max(0, panelEl.clientHeight - headH);
-          var target = cur.offsetTop - headH - avail/3;
+          var target = cur.offsetTop - headH - 12;
           panelEl.scrollTop = Math.max(0, target);
         }});
         // Выбор пункта списка — переход по обычной ссылке (<a href>), сама
@@ -3010,6 +3019,7 @@
         '<div class="ic-ch-outer">'+
           '<div class="ic-rbar ic-rbar-tv" id="ic-rbar">'+
             '<div class="ic-rbar-row">'+
+              backCellBtnHtml(coverHref(book), t("rbCover"), null, false)+
               '<button type="button" class="ic-rbar-tvsearch" data-rb="search" aria-pressed="false"><span class="ic-rbar-tvsearch-label">'+esc(tvSearchLabel())+'</span></button>'+
               '<button type="button" class="ic-rbar-sort" data-rb="sort"><span class="ic-rbar-sort-label">'+esc(tvSortLabel())+'</span></button>'+
             '</div>'+
@@ -3045,6 +3055,7 @@
           '</div>'+
         '</div>';
       bindLangSwitch(root);
+      bindBackCell(root);
       var rbar = root.querySelector("#ic-rbar"), rbarRow = root.querySelector(".ic-rbar-row");
       var sheetEl = root.querySelector("#ic-tv-search-sheet"), sheetInput = sheetEl.querySelector(".ic-search"),
           sheetCnt = sheetEl.querySelector(".ic-tv-sheet-count");
@@ -3190,41 +3201,74 @@
   // повторной навигации; label — для типов, где ru/it не применимы (search:
   // произвольный текст запроса пользователя, не поле из tavola/names.json).
   var chCtx = {hash:"", type:"", ru:"", it:"", label:""};
-  // cardBackHtml — этот раунд (задание, пункт 2): строка раздела карточки
-  // имени/гравюры — та же капсула .ic-rbar/.ic-rbar-row, что у читалки главы
-  // (id="ic-rbar" — те же sticky/snap-к-top:0 правила app.css достаются
-  // бесплатно), но с ОДНОЙ ячейкой слева: «Назад: <откуда>» по chCtx (общий
-  // с читалкой главы контекст-механизм — отличается только тем, что здесь
-  // ПОДРАЗУМЕВАЕМЫЕ типы "names"/"search"/"plates"/"name" ведут на
-  // карточку, а не на главу, см. места, где chCtx выставляется:
-  // renderNames/wireBookSearch/renderBookPlates/renderNameCard). Без
-  // стрелок — просто текст на кнопке. Если chCtx не относится к ЭТОМУ
-  // переходу (пришли по прямой ссылке, либо ушли через пейджер «Пред./След.»
-  // и chCtx больше не совпадает hash'ем) — fallbackLabel целиком (без
-  // «Назад:», сам по себе законченная подпись: «К списку имён»/«Все
-  // гравюры»), клик ведёт по fallbackHref, а не History.back().
-  function cardBackHtml(fallbackLabel, fallbackHref){
-    var types = {names:1, search:1, plates:1, name:1};
-    var active = !!(chCtx.hash && chCtx.hash === location.hash && types[chCtx.type]);
-    var label, href = fallbackHref;
-    if(active){
-      var place = chCtx.type==="names" ? t("hmNames")
-        : chCtx.type==="search" ? t("hmSearch")
-        : chCtx.type==="plates" ? (chCtx.label || t("hmGallery"))
-        : (state.lang==="ru" ? chCtx.ru : (chCtx.it || chCtx.ru));
-      label = t("rbBack")+": "+place;
-    } else label = fallbackLabel;
-    return '<div class="ic-rbar" id="ic-rbar"><div class="ic-rbar-row">'+
-      '<button type="button" class="ic-rbar-ctx ic-rbar-back-solo" data-rb="cardback" data-active="'+(active?"1":"0")+'" data-fallback-href="'+esc(href)+'">'+
-        '<span class="ic-rbar-back-label">'+esc(label)+'</span>'+
-      '</button></div></div>';
+  // Типы chCtx, из которых можно попасть на карточку имени/гравюры (в
+  // отличие от главы — см. CHAP_CTX_TYPES ниже): names/plates — переход со
+  // списка (Имена/Гравюры), search — из результатов поиска, name — с
+  // упоминания в ДРУГОЙ карточке имени (переход имя→имя или имя→гравюра).
+  var CARD_CTX_TYPES = {names:1, search:1, plates:1, name:1};
+  // Типы chCtx, из которых можно попасть в главу читалки: tavola — со
+  // статьи указателя, plate — с карточки гравюры («Читать в главе»),
+  // name — с упоминания в карточке имени, search — из результатов поиска.
+  var CHAP_CTX_TYPES = {tavola:1, plate:1, name:1, search:1};
+  // ctxActiveFor/ctxPlaceLabel — общее ядро кнопки «Назад: …» (round
+  // «sheets-dark», задание часть 3): раньше это было по отдельности в
+  // backCellHtml (карточки) и прямо в renderChapter (глава, свой набор
+  // ctxBase/chCtxLabel) — теперь один источник истины для обоих мест и для
+  // новых ячеек на страницах, где кнопки «Назад» раньше не было вовсе
+  // (обложка, Текст/Гравюры/Указатель/Имена/Поиск).
+  function ctxActiveFor(types){ return !!(types && chCtx.hash && chCtx.hash === location.hash && types[chCtx.type]); }
+  function ctxPlaceLabel(){
+    if(chCtx.type==="tavola" || chCtx.type==="name") return (state.lang==="ru" ? chCtx.ru : (chCtx.it || chCtx.ru)) || "";
+    if(chCtx.type==="plates") return chCtx.label || t("hmGallery");
+    if(chCtx.type==="names") return t("hmNames");
+    if(chCtx.type==="search") return t("hmSearch");
+    if(chCtx.type==="plate") return t("hmGallery");
+    return "";
   }
-  function bindCardBack(root){
-    var btn = root.querySelector('[data-rb="cardback"]');
+  // backCellBtnHtml/backCellHtml — единая ячейка «Назад: <родитель>» (первая
+  // ячейка капсулы .ic-rbar/.ic-rbar-row, без стрелок), теперь на КАЖДОЙ
+  // странице книги — parentHref/parentLabel — структурный родитель страницы
+  // (всегда доступен как минимум); ctxTypes — какие типы chCtx (если есть)
+  // могут подменить подпись на более точный источник перехода («Назад:
+  // <конкретная статья>» вместо общего «Назад: Указатель» и т.п.); solo —
+  // true для страниц, где это ЕДИНСТВЕННАЯ ячейка капсулы (все, кроме главы
+  // читалки и Указателя/«Имён» — там рядом другие ячейки, back-ячейка
+  // остаётся узкой/по центру, как раньше у «Книга»/«К указателю»).
+  // data-active="1" (chCtx реально привёл именно сюда) — клик идёт через
+  // history.back() БЕЗУСЛОВНО (тот же приём, что был в старых ctxback/
+  // cardBack до этого раунда): chCtx.hash — адрес ЭТОЙ же страницы
+  // (назначения перехода, не родителя), использовать его как цель навигации
+  // нельзя — отсюда и был баг (клик не возвращал никуда, т.к. «переход» на
+  // tекущий же hash — no-op). Когда chCtx неактивен — data-fallback-href
+  // (структурный родитель), и уже тогда решает cameFromHash/bindBackCell:
+  // history.back(), если реальный предыдущий хэш совпадает с родителем,
+  // иначе обычная навигация (задание, часть 3).
+  function backCellBtnHtml(parentHref, parentLabel, ctxTypes, solo){
+    var active = ctxActiveFor(ctxTypes);
+    var place = (active && ctxPlaceLabel()) || parentLabel;
+    var cls = "ic-rbar-ctx"+(solo ? " ic-rbar-back-solo" : "");
+    var span = solo ? '<span class="ic-rbar-back-label">' : "<span>";
+    return '<button type="button" class="'+cls+'" data-rb="backup" data-active="'+(active?"1":"0")+'" data-fallback-href="'+esc(parentHref)+'">'+
+      span+esc(t("rbBack")+": "+place)+'</span></button>';
+  }
+  function backCellHtml(parentHref, parentLabel, ctxTypes, solo){
+    return '<div class="ic-rbar" id="ic-rbar"><div class="ic-rbar-row">'+
+      backCellBtnHtml(parentHref, parentLabel, ctxTypes, solo)+'</div></div>';
+  }
+  function bindBackCell(root){
+    var btn = root.querySelector('[data-rb="backup"]');
     if(!btn) return;
     btn.addEventListener("click",function(){
-      if(btn.getAttribute("data-active")==="1") history.back();
-      else location.hash = btn.getAttribute("data-fallback-href").replace(/^#/,"");
+      if(btn.getAttribute("data-active")==="1"){ history.back(); return; }
+      var target = btn.getAttribute("data-fallback-href");
+      // cameFromHash — реальный предыдущий хэш (см. его объявление и
+      // обработчик hashchange выше): совпадает с родителем только если
+      // существует настоящая запись истории браузера на него — тогда
+      // history.back() и штатное восстановление позиции через namesUi.pos
+      // сработают; иначе (прямая ссылка/перезагрузка/внешний переход) —
+      // обычная навигация, а не прыжок в историю в неизвестное место.
+      if(cameFromHash && cameFromHash === target) history.back();
+      else location.hash = target.replace(/^#/,"");
     });
   }
   // searchReopen — «вернуться к поиску»: открытие/закрытие выезжающей панели
@@ -3341,6 +3385,7 @@
         '<div class="ic-ch-outer">'+
           '<div class="ic-rbar ic-rbar-tv" id="ic-rbar">'+
             '<div class="ic-rbar-row">'+
+              backCellBtnHtml(coverHref(book), t("rbCover"), null, false)+
               '<button type="button" class="ic-rbar-tvsearch" data-rb="search" aria-pressed="false"><span class="ic-rbar-tvsearch-label">'+esc(nmSearchLabel())+'</span></button>'+
               '<button type="button" class="ic-rbar-sort" data-rb="type" aria-pressed="false"><span class="ic-rbar-sort-label">'+esc(nmTypeLabel())+'</span></button>'+
             '</div>'+
@@ -3385,6 +3430,7 @@
           '</div>'+
         '</div>';
       bindLangSwitch(root);
+      bindBackCell(root);
       var rbar = root.querySelector("#ic-rbar"), rbarRow = root.querySelector(".ic-rbar-row");
       var sheetEl = root.querySelector("#ic-tv-search-sheet"), sheetInput = sheetEl.querySelector(".ic-search"),
           sheetCnt = sheetEl.querySelector(".ic-tv-sheet-count");
@@ -3547,13 +3593,13 @@
       // (пункт 17 — одинаковая отбивка сверху у всех страниц без строки
       // раздела).
       bookTabsHtml(book, "names", false)+
-      '<div class="ic-ch-outer">'+cardBackHtml(t("nmBackAll"), hrefFor(book, "names"))+'</div>'+
+      '<div class="ic-ch-outer">'+backCellHtml(hrefFor(book, "names"), t("hmNames"), CARD_CTX_TYPES, true)+'</div>'+
       '<div class="ic-wrap ic-nm">'+
         '<div class="ic-top-row">'+langSwitch()+'</div>'+
         // Пункт 14 (прошлый раунд): кнопка "← Имена" убрана целиком (раздел
         // уже подсвечен в общем меню книги сверху) — вместо неё строка-
         // крошка перед киккером (тип записи, не источник перехода — это
-        // отдельно показывает строка раздела выше, см. cardBackHtml).
+        // отдельно показывает строка раздела выше, см. backCellHtml).
         '<header class="ic-head"><p class="ic-kicker">'+esc(t("hmNames"))+' · '+esc(t("nmT1_"+e.t))+'</p><h1 class="ic-h-fr">'+esc(nmForm(e))+'</h1>'+
           ((e.it||[]).length ? '<p class="ic-nm-it" lang="it">'+esc(e.it.join(" · "))+'</p>' : "")+'</header>'+
         gal+
@@ -3562,7 +3608,7 @@
         ments+
       '</div>';
     bindLangSwitch(root);
-    bindCardBack(root);
+    bindBackCell(root);
     root.addEventListener("click",function(ev){
       var a = ev.target.closest(".ic-nm-ms a");
       if(a){
@@ -3574,7 +3620,7 @@
       }
       // Галерея гравюр этого имени (пункт 2 этого раунда) — карточка
       // гравюры, открытая отсюда, должна уметь показать «Назад: <это имя>»
-      // (chCtx.type==="name", см. cardBackHtml) — тот же общий тип, что уже
+      // (chCtx.type==="name", см. backCellHtml) — тот же общий тип, что уже
       // задаёт переход имя→глава по ссылке на упоминание выше, просто другая
       // цель (гравюра вместо главы читает его точно так же).
       var g = ev.target.closest('[data-gal] a.ic-gal-item');
@@ -4017,6 +4063,7 @@
       secs.push(homeTile(hrefFor(book,"search"), t("hmSearch"), t("hmSearchSub"), false));
       root.innerHTML =
         bookTabsHtml(book, null)+
+        (forcedBook ? "" : backCellHtml("#/", t("toLibrary"), null, true))+
         '<div class="ic-wrap ic-home">'+
           // Пункт 1 этого раунда: ссылка «Библиотека» убрана отсюда — теперь
           // она одна на все страницы книги, в шапке сайта рядом с именем
@@ -4040,8 +4087,10 @@
           (tpRec ? ornamentMaskHtml(book, tpRec, "ic-orn-tailpiece") : "")+
         '</div>';
       bindLangSwitch(root);
+      bindBackCell(root);
+      syncHeaderStack();
       var fig = root.querySelector(".ic-home-fig .ic-fig"); if(fig) fig.addEventListener("click",function(){ lightbox(fig.getAttribute("data-src")); });
-      state.scroll = 0; toTop(true);
+      state.scroll = 0; restoreOrTop(gen);
       installScrollHide({isActive:function(){ return gen===renderGen; }});
       nudgeRepaint();
     });
@@ -4058,14 +4107,17 @@
       if(gen !== renderGen) return;
       root.innerHTML =
         bookTabsHtml(book, "text")+
+        backCellHtml(coverHref(book), t("rbCover"), null, true)+
         '<div class="ic-wrap">'+
           '<div class="ic-top-row">'+langSwitch()+'</div>'+
           '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("bkTabText"))+'</h1></header>'+
           tocPartsHtml(book, chap, null)+
         '</div>';
       bindLangSwitch(root);
+      bindBackCell(root);
+      syncHeaderStack();
       root.querySelectorAll("[data-ch]").forEach(function(b){ b.addEventListener("click",function(){ location.hash = chapterHref(book, b.getAttribute("data-ch")).replace(/^#/,""); }); });
-      state.scroll = 0; toTop(true);
+      state.scroll = 0; restoreOrTop(gen);
       installScrollHide({isActive:function(){ return gen===renderGen; }});
       nudgeRepaint();
     });
@@ -4100,12 +4152,15 @@
       }).join("");
       root.innerHTML =
         bookTabsHtml(book, "plates")+
+        backCellHtml(coverHref(book), t("rbCover"), null, true)+
         '<div class="ic-wrap">'+
           '<div class="ic-top-row">'+langSwitch()+'</div>'+
           '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("hmGallery"))+'</h1></header>'+
           html+
         '</div>';
       bindLangSwitch(root);
+      bindBackCell(root);
+      syncHeaderStack();
       var gl = root.querySelector(".ic-gal"); if(gl) root.querySelectorAll(".ic-gal").forEach(function(g){ g.addEventListener("click",function(e){
         var a = e.target.closest(".ic-gal-item");
         if(a && !e.metaKey && !e.ctrlKey && !e.shiftKey && e.button===0){
@@ -4115,9 +4170,7 @@
           go(book, "plate/"+a.getAttribute("data-id"));
         }
       }); });
-      var py = namesUi.pos[location.hash];
-      if(py){ delete namesUi.pos[location.hash]; state.scroll = 0; requestAnimationFrame(function(){ if(gen===renderGen) window.scrollTo(0,py); }); }
-      else { state.scroll = 0; toTop(true); }
+      state.scroll = 0; restoreOrTop(gen);
       installScrollHide({isActive:function(){ return gen===renderGen; }});
       nudgeRepaint();
     });
@@ -4134,6 +4187,7 @@
       var restoreY = namesUi.pos[location.hash] || 0; delete namesUi.pos[location.hash];
       root.innerHTML =
         bookTabsHtml(book, "search")+
+        backCellHtml(coverHref(book), t("rbCover"), null, true)+
         '<div class="ic-wrap">'+
           '<div class="ic-top-row">'+langSwitch()+'</div>'+
           '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("hmSearch"))+'</h1></header>'+
@@ -4143,6 +4197,8 @@
           '<div class="ic-sr" aria-live="polite"></div>'+
         '</div>';
       bindLangSwitch(root);
+      bindBackCell(root);
+      syncHeaderStack();
       var form = root.querySelector(".ic-home-search");
       wireBookSearch(book, form, root.querySelector(".ic-sr"), gen, restoreY);
       if(!restoreY) form.querySelector(".ic-search").focus({preventScroll:true});
@@ -4235,7 +4291,7 @@
         '</section>';
       root.innerHTML =
         bookTabsHtml(book, "plates")+
-        '<div class="ic-ch-outer">'+cardBackHtml(t("plAll"), hrefFor(book, "plates"))+'</div>'+
+        '<div class="ic-ch-outer">'+backCellHtml(hrefFor(book, "plates"), t("hmGallery"), CARD_CTX_TYPES, true)+'</div>'+
         '<div class="ic-wrap ic-home ic-plate-card">'+
           '<div class="ic-top-row">'+langSwitch()+'</div>'+
           '<article class="ic-pc" data-id="'+esc(p.id)+'">'+
@@ -4256,7 +4312,7 @@
             navPill(next,"next")+'</nav>'+
         '</div>';
       bindLangSwitch(root);
-      bindCardBack(root);
+      bindBackCell(root);
       syncHeaderStack();
       // «Все гравюры» в новом ряду трёх пилюль — та же эвристика
       // history.back(), что раньше была у верхней ссылки «← Все гравюры»
