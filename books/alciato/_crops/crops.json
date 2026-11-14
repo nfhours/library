@@ -1,0 +1,1382 @@
+{
+  "frame_0001.jpg": {
+    "boxes": [],
+    "noPlate": true,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:11:47.250618Z"
+  },
+  "frame_0002.jpg": {
+    "boxes": [],
+    "noPlate": true,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:11:50.568428Z"
+  },
+  "frame_0003.jpg": {
+    "boxes": [],
+    "noPlate": true,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:11:52.105060Z"
+  },
+  "frame_0004.jpg": {
+    "boxes": [],
+    "noPlate": true,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:11:53.733883Z"
+  },
+  "frame_0005.jpg": {
+    "boxes": [],
+    "noPlate": true,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:11:56.696005Z"
+  },
+  "frame_0006.jpg": {
+    "boxes": [],
+    "noPlate": true,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:11:57.708847Z"
+  },
+  "frame_0007.jpg": {
+    "boxes": [
+      {
+        "x": 0.32,
+        "y": 0.24,
+        "w": 96.05,
+        "h": 94.78,
+        "label": "Front"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:13:46.004068Z"
+  },
+  "frame_0008.jpg": {
+    "boxes": [
+      {
+        "x": 8.71,
+        "y": 15.73,
+        "w": 21.6,
+        "h": 13.01,
+        "label": "Буквица I"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:14:26.833697Z"
+  },
+  "frame_0009.jpg": {
+    "boxes": [
+      {
+        "x": 0,
+        "y": 3.49,
+        "w": 97.69,
+        "h": 88.57,
+        "label": "Гравюра (рамка, внетри текст)"
+      },
+      {
+        "x": 16.31,
+        "y": 18.94,
+        "w": 19.62,
+        "h": 11.37,
+        "label": "Буквица E"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:16:45.961196Z"
+  },
+  "frame_0010.jpg": {
+    "boxes": [
+      {
+        "x": 1.1,
+        "y": 2.53,
+        "w": 97.01,
+        "h": 93.59,
+        "label": "Гравюра рамка + текст внеутри"
+      },
+      {
+        "x": 18.39,
+        "y": 14.21,
+        "w": 61.56,
+        "h": 64.5,
+        "label": "Текстовая область для вычитания"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:20:36.490881Z"
+  },
+  "frame_0011.jpg": {
+    "boxes": [
+      {
+        "x": 2.09,
+        "y": 3.1,
+        "w": 94.59,
+        "h": 90.91,
+        "label": "Гравюра рамка + текст внеутри"
+      },
+      {
+        "x": 18.92,
+        "y": 15.1,
+        "w": 60.01,
+        "h": 61.67,
+        "label": "Область текста для вычитания"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:22:12.582598Z"
+  },
+  "frame_0012.jpg": {
+    "boxes": [
+      {
+        "x": 0.89,
+        "y": 2.62,
+        "w": 98.55,
+        "h": 92.87,
+        "label": "Гравюра рамка + текст внеутри"
+      },
+      {
+        "x": 19.43,
+        "y": 15.52,
+        "w": 61.04,
+        "h": 49.15,
+        "label": "Текстовая область для вычитания"
+      },
+      {
+        "x": 23.77,
+        "y": 65.29,
+        "w": 49.24,
+        "h": 12.13,
+        "label": "концовка"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:24:26.325418Z"
+  },
+  "frame_0013.jpg": {
+    "boxes": [
+      {
+        "x": 1.94,
+        "y": 1.97,
+        "w": 96.4,
+        "h": 92.61,
+        "label": "Гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:25:23.006669Z"
+  },
+  "frame_0014.jpg": {
+    "boxes": [
+      {
+        "x": 0.6,
+        "y": 2.76,
+        "w": 98.04,
+        "h": 92.44,
+        "label": "Гравюра Mediolanum"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:26:18.621078Z"
+  },
+  "frame_0015.jpg": {
+    "boxes": [
+      {
+        "x": 2.34,
+        "y": 3.24,
+        "w": 94.99,
+        "h": 92.51,
+        "label": "Гравюра Nunquam procrastinandum"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:27:31.328312Z"
+  },
+  "frame_0016.jpg": {
+    "boxes": [
+      {
+        "x": 4.71,
+        "y": 3.94,
+        "w": 94.58,
+        "h": 90.76,
+        "label": "Гравюра In Deo ..."
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:28:21.204133Z"
+  },
+  "frame_0017.jpg": {
+    "boxes": [
+      {
+        "x": 0,
+        "y": 3.72,
+        "w": 94.94,
+        "h": 91.51,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:28:57.478239Z"
+  },
+  "frame_0018.jpg": {
+    "boxes": [
+      {
+        "x": 5.16,
+        "y": 3.26,
+        "w": 94.84,
+        "h": 89.75,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:29:18.379273Z"
+  },
+  "frame_0019.jpg": {
+    "boxes": [
+      {
+        "x": 0,
+        "y": 5.12,
+        "w": 94.75,
+        "h": 91.16,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:29:36.790416Z"
+  },
+  "frame_0020.jpg": {
+    "boxes": [
+      {
+        "x": 4.69,
+        "y": 4.25,
+        "w": 95.31,
+        "h": 89.79,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:30:20.168559Z"
+  },
+  "frame_0021.jpg": {
+    "boxes": [
+      {
+        "x": 0,
+        "y": 3.61,
+        "w": 93.55,
+        "h": 91.89,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:30:44.731391Z"
+  },
+  "frame_0022.jpg": {
+    "boxes": [
+      {
+        "x": 4.6,
+        "y": 2.92,
+        "w": 95.4,
+        "h": 90.73,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:31:06.039895Z"
+  },
+  "frame_0023.jpg": {
+    "boxes": [
+      {
+        "x": 1.18,
+        "y": 2.81,
+        "w": 96.82,
+        "h": 90.44,
+        "label": "гравюра"
+      },
+      {
+        "x": 25.45,
+        "y": 64.67,
+        "w": 46.58,
+        "h": 12.52,
+        "label": "концовка"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:32:14.795034Z"
+  },
+  "frame_0024.jpg": {
+    "boxes": [
+      {
+        "x": 3.08,
+        "y": 3.68,
+        "w": 96.28,
+        "h": 90.36,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:32:35.761609Z"
+  },
+  "frame_0025.jpg": {
+    "boxes": [
+      {
+        "x": 2.55,
+        "y": 2.8,
+        "w": 96.32,
+        "h": 91.45,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:33:08.057535Z"
+  },
+  "frame_0026.jpg": {
+    "boxes": [
+      {
+        "x": 3.79,
+        "y": 3.76,
+        "w": 94.96,
+        "h": 89.21,
+        "label": ""
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:33:25.035629Z"
+  },
+  "frame_0027.jpg": {
+    "boxes": [
+      {
+        "x": 0,
+        "y": 3.1,
+        "w": 95.74,
+        "h": 91.77,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:34:06.742019Z"
+  },
+  "frame_0028.jpg": {
+    "boxes": [
+      {
+        "x": 3.54,
+        "y": 3.02,
+        "w": 95.68,
+        "h": 91.6,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:34:35.052863Z"
+  },
+  "frame_0029.jpg": {
+    "boxes": [
+      {
+        "x": 1.75,
+        "y": 2.91,
+        "w": 96.85,
+        "h": 90.77,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:35:02.508952Z"
+  },
+  "frame_0030.jpg": {
+    "boxes": [
+      {
+        "x": 3.73,
+        "y": 3.88,
+        "w": 95.03,
+        "h": 89.82,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:35:25.382600Z"
+  },
+  "frame_0031.jpg": {
+    "boxes": [
+      {
+        "x": 0.73,
+        "y": 3.46,
+        "w": 96.29,
+        "h": 91.03,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:36:02.383737Z"
+  },
+  "frame_0032.jpg": {
+    "boxes": [
+      {
+        "x": 1.55,
+        "y": 3.23,
+        "w": 95.65,
+        "h": 89.43,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:36:48.668586Z"
+  },
+  "frame_0033.jpg": {
+    "boxes": [
+      {
+        "x": 0.86,
+        "y": 3.07,
+        "w": 95.69,
+        "h": 90.52,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:37:10.506650Z"
+  },
+  "frame_0034.jpg": {
+    "boxes": [
+      {
+        "x": 2.4,
+        "y": 3.14,
+        "w": 96.57,
+        "h": 89.87,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:37:31.617631Z"
+  },
+  "frame_0035.jpg": {
+    "boxes": [
+      {
+        "x": 0,
+        "y": 3.04,
+        "w": 94.66,
+        "h": 90.72,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:38:00.243916Z"
+  },
+  "frame_0036.jpg": {
+    "boxes": [
+      {
+        "x": 6.44,
+        "y": 2.55,
+        "w": 93.56,
+        "h": 89.53,
+        "label": "гравюра"
+      },
+      {
+        "x": 31.78,
+        "y": 63.33,
+        "w": 43.76,
+        "h": 12.48,
+        "label": "концовка"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:38:48.188048Z"
+  },
+  "frame_0037.jpg": {
+    "boxes": [
+      {
+        "x": 0,
+        "y": 2.49,
+        "w": 96.96,
+        "h": 92.29,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:39:09.188677Z"
+  },
+  "frame_0038.jpg": {
+    "boxes": [
+      {
+        "x": 4.27,
+        "y": 2.16,
+        "w": 95.29,
+        "h": 90.91,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:39:28.477544Z"
+  },
+  "frame_0039.jpg": {
+    "boxes": [
+      {
+        "x": 2.11,
+        "y": 3.35,
+        "w": 96.92,
+        "h": 90.66,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:39:48.747618Z"
+  },
+  "frame_0040.jpg": {
+    "boxes": [
+      {
+        "x": 0.44,
+        "y": 2.97,
+        "w": 96.35,
+        "h": 89.46,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:40:08.423768Z"
+  },
+  "frame_0041.jpg": {
+    "boxes": [
+      {
+        "x": 3.81,
+        "y": 3.08,
+        "w": 96.19,
+        "h": 91.16,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:40:37.419525Z"
+  },
+  "frame_0042.jpg": {
+    "boxes": [
+      {
+        "x": 0.71,
+        "y": 3.05,
+        "w": 97.08,
+        "h": 90.93,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:40:54.115579Z"
+  },
+  "frame_0043.jpg": {
+    "boxes": [
+      {
+        "x": 1.76,
+        "y": 4.16,
+        "w": 97.02,
+        "h": 91.25,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:41:31.158771Z"
+  },
+  "frame_0044.jpg": {
+    "boxes": [
+      {
+        "x": 2.54,
+        "y": 4.06,
+        "w": 95.38,
+        "h": 89.87,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:42:07.338787Z"
+  },
+  "frame_0045.jpg": {
+    "boxes": [
+      {
+        "x": 2.6,
+        "y": 3.15,
+        "w": 96.46,
+        "h": 91.3,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:42:39.808485Z"
+  },
+  "frame_0046.jpg": {
+    "boxes": [
+      {
+        "x": 2.91,
+        "y": 2.68,
+        "w": 96.38,
+        "h": 90.68,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:43:07.858591Z"
+  },
+  "frame_0047.jpg": {
+    "boxes": [
+      {
+        "x": 1.87,
+        "y": 3.15,
+        "w": 96.63,
+        "h": 90.55,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:43:43.675529Z"
+  },
+  "frame_0048.jpg": {
+    "boxes": [
+      {
+        "x": 2.44,
+        "y": 2.85,
+        "w": 96.51,
+        "h": 90.75,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:44:07.181983Z"
+  },
+  "frame_0049.jpg": {
+    "boxes": [
+      {
+        "x": 0.79,
+        "y": 3.15,
+        "w": 95.14,
+        "h": 91.55,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:44:36.630894Z"
+  },
+  "frame_0050.jpg": {
+    "boxes": [
+      {
+        "x": 3.89,
+        "y": 2.68,
+        "w": 95.56,
+        "h": 90.67,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:44:59.521961Z"
+  },
+  "frame_0051.jpg": {
+    "boxes": [
+      {
+        "x": 0,
+        "y": 2.78,
+        "w": 93.18,
+        "h": 92.81,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:45:18.721907Z"
+  },
+  "frame_0052.jpg": {
+    "boxes": [
+      {
+        "x": 7.27,
+        "y": 2.62,
+        "w": 92.73,
+        "h": 91.12,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:45:36.639548Z"
+  },
+  "frame_0053.jpg": {
+    "boxes": [
+      {
+        "x": 0,
+        "y": 2.03,
+        "w": 95.56,
+        "h": 92.87,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:45:53.709191Z"
+  },
+  "frame_0054.jpg": {
+    "boxes": [
+      {
+        "x": 4.99,
+        "y": 2.14,
+        "w": 95.01,
+        "h": 92.09,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:46:14.293200Z"
+  },
+  "frame_0055.jpg": {
+    "boxes": [
+      {
+        "x": 0.59,
+        "y": 3.27,
+        "w": 96.64,
+        "h": 91.35,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:46:39.494456Z"
+  },
+  "frame_0056.jpg": {
+    "boxes": [
+      {
+        "x": 4.67,
+        "y": 3.19,
+        "w": 95.33,
+        "h": 90.91,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:46:54.485550Z"
+  },
+  "frame_0057.jpg": {
+    "boxes": [
+      {
+        "x": 1.6,
+        "y": 3.52,
+        "w": 97.71,
+        "h": 91.17,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:47:12.066000Z"
+  },
+  "frame_0058.jpg": {
+    "boxes": [
+      {
+        "x": 1.45,
+        "y": 2.89,
+        "w": 97.05,
+        "h": 90.52,
+        "label": "гравюра"
+      },
+      {
+        "x": 24.24,
+        "y": 47.3,
+        "w": 50.15,
+        "h": 15.8,
+        "label": "концовка"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:47:50.530150Z"
+  },
+  "frame_0059.jpg": {
+    "boxes": [
+      {
+        "x": 1.65,
+        "y": 3.76,
+        "w": 95.97,
+        "h": 90.43,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:48:14.887439Z"
+  },
+  "frame_0060.jpg": {
+    "boxes": [
+      {
+        "x": 3.44,
+        "y": 2.65,
+        "w": 95.26,
+        "h": 90.19,
+        "label": ""
+      },
+      {
+        "x": 26.85,
+        "y": 62.83,
+        "w": 47.24,
+        "h": 12.37,
+        "label": "концовка"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:48:56.137536Z"
+  },
+  "frame_0061.jpg": {
+    "boxes": [
+      {
+        "x": 1.5,
+        "y": 3.24,
+        "w": 97.69,
+        "h": 90.59,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:49:19.688296Z"
+  },
+  "frame_0062.jpg": {
+    "boxes": [
+      {
+        "x": 1.13,
+        "y": 3.35,
+        "w": 96.1,
+        "h": 90.57,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:49:41.008123Z"
+  },
+  "frame_0063.jpg": {
+    "boxes": [
+      {
+        "x": 0,
+        "y": 3.55,
+        "w": 96.08,
+        "h": 90.63,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:50:00.568797Z"
+  },
+  "frame_0064.jpg": {
+    "boxes": [
+      {
+        "x": 5.59,
+        "y": 3.64,
+        "w": 94.41,
+        "h": 89.04,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:50:39.529598Z"
+  },
+  "frame_0065.jpg": {
+    "boxes": [
+      {
+        "x": 0,
+        "y": 3.31,
+        "w": 96.11,
+        "h": 91.66,
+        "label": "гравюра"
+      },
+      {
+        "x": 21.36,
+        "y": 61.54,
+        "w": 50.36,
+        "h": 15.08,
+        "label": "концовка"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:51:24.693928Z"
+  },
+  "frame_0066.jpg": {
+    "boxes": [
+      {
+        "x": 4.69,
+        "y": 3.43,
+        "w": 95.31,
+        "h": 90.77,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:51:39.527543Z"
+  },
+  "frame_0067.jpg": {
+    "boxes": [
+      {
+        "x": 0,
+        "y": 2.35,
+        "w": 95.38,
+        "h": 92.15,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:52:10.016009Z"
+  },
+  "frame_0068.jpg": {
+    "boxes": [
+      {
+        "x": 5.22,
+        "y": 2.61,
+        "w": 94.78,
+        "h": 90.94,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:52:30.705702Z"
+  },
+  "frame_0069.jpg": {
+    "boxes": [
+      {
+        "x": 0,
+        "y": 2.52,
+        "w": 95.08,
+        "h": 92.29,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:52:47.401321Z"
+  },
+  "frame_0070.jpg": {
+    "boxes": [
+      {
+        "x": 5.52,
+        "y": 2.83,
+        "w": 94.48,
+        "h": 90.85,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:53:11.646516Z"
+  },
+  "frame_0071.jpg": {
+    "boxes": [
+      {
+        "x": 0.07,
+        "y": 2.57,
+        "w": 97.24,
+        "h": 90.84,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:53:37.230080Z"
+  },
+  "frame_0072.jpg": {
+    "boxes": [
+      {
+        "x": 2.38,
+        "y": 2.49,
+        "w": 95.44,
+        "h": 91.61,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:53:50.706873Z"
+  },
+  "frame_0073.jpg": {
+    "boxes": [
+      {
+        "x": 0,
+        "y": 2.99,
+        "w": 96.17,
+        "h": 90.89,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:54:09.860980Z"
+  },
+  "frame_0074.jpg": {
+    "boxes": [
+      {
+        "x": 2.74,
+        "y": 3.93,
+        "w": 97.26,
+        "h": 90.5,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:54:27.057076Z"
+  },
+  "frame_0075.jpg": {
+    "boxes": [
+      {
+        "x": 0,
+        "y": 3.39,
+        "w": 95.02,
+        "h": 91.56,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:54:50.139534Z"
+  },
+  "frame_0076.jpg": {
+    "boxes": [
+      {
+        "x": 6.45,
+        "y": 3.58,
+        "w": 93.55,
+        "h": 89.65,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:55:04.321771Z"
+  },
+  "frame_0077.jpg": {
+    "boxes": [
+      {
+        "x": 0.8,
+        "y": 3.44,
+        "w": 97.77,
+        "h": 90.74,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:55:20.483531Z"
+  },
+  "frame_0078.jpg": {
+    "boxes": [
+      {
+        "x": 3.13,
+        "y": 3.34,
+        "w": 95.47,
+        "h": 90.16,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:55:34.689276Z"
+  },
+  "frame_0079.jpg": {
+    "boxes": [
+      {
+        "x": 1.57,
+        "y": 2.91,
+        "w": 96.25,
+        "h": 90.79,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:56:01.011909Z"
+  },
+  "frame_0080.jpg": {
+    "boxes": [
+      {
+        "x": 3.7,
+        "y": 2.85,
+        "w": 96.3,
+        "h": 90.75,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:56:24.277473Z"
+  },
+  "frame_0081.jpg": {
+    "boxes": [
+      {
+        "x": 2,
+        "y": 2.3,
+        "w": 98,
+        "h": 91.35,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:56:39.382387Z"
+  },
+  "frame_0082.jpg": {
+    "boxes": [
+      {
+        "x": 0,
+        "y": 3.42,
+        "w": 97.9,
+        "h": 90.35,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:56:54.701328Z"
+  },
+  "frame_0083.jpg": {
+    "boxes": [
+      {
+        "x": 0,
+        "y": 4.17,
+        "w": 96.78,
+        "h": 91.19,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:57:16.119658Z"
+  },
+  "frame_0084.jpg": {
+    "boxes": [
+      {
+        "x": 3.29,
+        "y": 2.97,
+        "w": 96.71,
+        "h": 89.86,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:57:32.155350Z"
+  },
+  "frame_0085.jpg": {
+    "boxes": [
+      {
+        "x": 0,
+        "y": 3.42,
+        "w": 94.51,
+        "h": 90.93,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:57:47.111591Z"
+  },
+  "frame_0086.jpg": {
+    "boxes": [
+      {
+        "x": 3.59,
+        "y": 3.02,
+        "w": 95.94,
+        "h": 89.45,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:58:07.410382Z"
+  },
+  "frame_0087.jpg": {
+    "boxes": [
+      {
+        "x": 0,
+        "y": 2.89,
+        "w": 95.95,
+        "h": 91.73,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:58:37.373278Z"
+  },
+  "frame_0088.jpg": {
+    "boxes": [
+      {
+        "x": 3.16,
+        "y": 2.39,
+        "w": 96.84,
+        "h": 90.65,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:58:54.983729Z"
+  },
+  "frame_0089.jpg": {
+    "boxes": [
+      {
+        "x": 1.5,
+        "y": 3.64,
+        "w": 98.5,
+        "h": 92.41,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:59:14.206056Z"
+  },
+  "frame_0090.jpg": {
+    "boxes": [
+      {
+        "x": 2.13,
+        "y": 2.81,
+        "w": 96.67,
+        "h": 91.68,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:59:30.413000Z"
+  },
+  "frame_0091.jpg": {
+    "boxes": [
+      {
+        "x": 1.94,
+        "y": 4.14,
+        "w": 98.06,
+        "h": 91.21,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T04:59:48.268928Z"
+  },
+  "frame_0092.jpg": {
+    "boxes": [
+      {
+        "x": 0,
+        "y": 4.02,
+        "w": 96.77,
+        "h": 89.92,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T05:00:03.882322Z"
+  },
+  "frame_0093.jpg": {
+    "boxes": [
+      {
+        "x": 0.26,
+        "y": 3.3,
+        "w": 97.41,
+        "h": 91.45,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T05:00:22.198369Z"
+  },
+  "frame_0094.jpg": {
+    "boxes": [
+      {
+        "x": 1.25,
+        "y": 2.8,
+        "w": 96.3,
+        "h": 90.43,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T05:00:36.366079Z"
+  },
+  "frame_0095.jpg": {
+    "boxes": [
+      {
+        "x": 0.42,
+        "y": 2.12,
+        "w": 96.71,
+        "h": 92.4,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T05:01:03.867572Z"
+  },
+  "frame_0096.jpg": {
+    "boxes": [
+      {
+        "x": 1.34,
+        "y": 2.69,
+        "w": 95.7,
+        "h": 92.24,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T05:01:21.280125Z"
+  },
+  "frame_0097.jpg": {
+    "boxes": [
+      {
+        "x": 0,
+        "y": 3.42,
+        "w": 94.46,
+        "h": 92.14,
+        "label": "гравюра"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": "2026-11-07T05:01:36.288502Z"
+  }
+}
