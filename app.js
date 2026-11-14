@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "166";
+  var APP_VER = "167";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -1042,10 +1042,18 @@
   // «назад» Safari/жест при открытом просмотре скана: запись {sv:1} снимается,
   // просмотр закрывается, хэш (глава) остаётся тем же.
   window.addEventListener("popstate", function(){
+    // popstate приходит ДО hashchange: histIdx здесь трогать нельзя (иначе
+    // hashchange не отличит «назад» от нового перехода и глава не вернёт
+    // место) — только при снятии записи просмотра скана, где хэш не меняется.
     var st = history.state;
-    if(st && st.ic != null) histIdx = st.ic;
-    if(sv && sv.panel !== true && !(st && st.sv)) sv.close(true);
+    if(sv && sv.panel !== true && !(st && st.sv)){
+      if(st && st.ic != null) histIdx = st.ic;
+      sv.close(true);
+    }
   });
+  // Позицию страницы ведём сами (namesUi.pos + navBack); встроенное
+  // восстановление Safari после «назад» спорило бы с ним.
+  try{ history.scrollRestoration = "manual"; }catch(e){}
   var histIdx = 0, navBack = false, histSeq = 0;
   function nextHistIdx(){ return Date.now()*1000 + (histSeq++ % 1000); }
   (function(){
