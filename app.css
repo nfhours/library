@@ -1575,3 +1575,19 @@ button.ic-tv-sheet-reset:active{transform:scale(.95)}
 .back-bar .back-bar-brand a{color:rgba(236,229,212,.9);text-decoration:none;border-radius:8px;padding:4px 6px;margin:-4px -6px;transition:background .15s}
 .back-bar .back-bar-brand a:active{background:rgba(236,229,212,.14);color:rgba(236,229,212,.9)}
 @media (hover:hover){.back-bar .back-bar-brand a:hover{color:rgba(236,229,212,.9)}}
+
+/* Шторки без «Закрыть» (закрытие — своя кнопка, затемнение, Esc, выбор пункта).
+   Панель — flex-колонка: сверху (если есть) поле ввода/заголовок, ниже ОДИН
+   прокручиваемый блок, низ которого плавно растворяется в фон шторки (mask), с
+   внутренним нижним отступом ≥48px, чтобы последний пункт докручивался до
+   полной видимости над растворением. */
+.ic-rb-sheet-panel{display:flex;flex-direction:column;overflow:hidden;padding:14px 16px 0}
+.ic-rb-sheet-head{position:static;flex:none}
+.ic-rb-sheet-panel .ic-sr,.ic-rb-sheet-panel .ic-tv-typelist,.ic-rb-sheet-toc .ic-rb-toc-body{
+  flex:1 1 auto;min-height:0;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;
+  padding-bottom:calc(48px + env(safe-area-inset-bottom));
+  -webkit-mask-image:linear-gradient(to bottom,#000 calc(100% - 48px),transparent);
+  mask-image:linear-gradient(to bottom,#000 calc(100% - 48px),transparent)}
+.ic-rb-sheet-toc .ic-rb-sheet-panel{padding:0}
+.ic-rb-sheet-toc .ic-rb-toc-body{padding:8px 16px calc(48px + env(safe-area-inset-bottom))}
+.ic-tv-sheet-foot{padding-bottom:16px}

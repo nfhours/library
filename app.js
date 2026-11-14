@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "158";
+  var APP_VER = "159";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -1134,7 +1134,6 @@
                 '<span class="ic-search-wrap"><input class="ic-search" type="search" enterkeyhint="search" placeholder="'+esc(t("srPlace"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("srPlace"))+'">'+
                 '<button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
               '</form>'+
-              '<button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button>'+
             '</div>'+
             '<div class="ic-sr" aria-live="polite"></div>'+
           '</div>'+
@@ -2484,12 +2483,6 @@
   // подключённой кнопке «Закрыть» внутри панели, а не вызовом closure
   // (sheetClose/sheetApi — приватные переменные внутри renderChapter,
   // недоступные здесь; DOM-кнопка — общий интерфейс, который есть всегда).
-  document.addEventListener("keydown", function(e){
-    if(e.key !== "Escape") return;
-    var openSheetEl = document.querySelector(".ic-rb-sheet.ic-rb-sheet-open");
-    var btn = openSheetEl && openSheetEl.querySelector(".ic-rb-sheet-close");
-    if(btn) btn.click();
-  });
   function renderChapter(book, slug, blockN, pageSpec){
     var gen = renderGen;
     // Автооткрытие панели поиска при возврате «К поиску» (searchReopen, см.
@@ -2605,10 +2598,6 @@
             '<div class="ic-rb-sheet ic-rb-sheet-toc" id="ic-rb-toc-sheet">'+
               '<div class="ic-rb-sheet-slide">'+
                 '<div class="ic-rb-sheet-panel">'+
-                  '<div class="ic-rb-sheet-head">'+
-                    '<span class="ic-rb-sheet-head-title">'+esc(t("contents"))+'</span>'+
-                    '<button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button>'+
-                  '</div>'+
                   '<nav class="ic-rb-toc-body">'+tocPartsHtml(book, chap, ch && ch.slug)+'</nav>'+
                 '</div>'+
               '</div>'+
@@ -3047,7 +3036,6 @@
                     '<form class="ic-home-search" role="search">'+
                       '<span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("tvSearchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("tvSearchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
                     '</form>'+
-                    '<button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button>'+
                   '</div>'+
                   '<div class="ic-tv-sheet-foot"><p class="ic-tv-sheet-count"></p><button type="button" class="ic-tv-sheet-reset">'+esc(t("tvReset"))+'</button></div>'+
                 '</div>'+
@@ -3357,7 +3345,6 @@
                     '<form class="ic-home-search" role="search">'+
                       '<span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("nmSearchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("nmSearchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
                     '</form>'+
-                    '<button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button>'+
                   '</div>'+
                   '<div class="ic-tv-sheet-foot"><p class="ic-tv-sheet-count"></p><button type="button" class="ic-tv-sheet-reset">'+esc(t("tvReset"))+'</button></div>'+
                 '</div>'+
@@ -3366,7 +3353,7 @@
             '<div class="ic-rb-sheet" id="ic-tv-type-sheet">'+
               '<div class="ic-rb-sheet-slide">'+
                 '<div class="ic-rb-sheet-panel">'+
-                  '<div class="ic-rb-sheet-head"><span class="ic-rb-sheet-head-title">'+esc(t("nmTypeLabel"))+'</span><button type="button" class="ic-rb-sheet-close">'+esc(t("close"))+'</button></div>'+
+                  '<div class="ic-rb-sheet-head"><span class="ic-rb-sheet-head-title">'+esc(t("nmTypeLabel"))+'</span></div>'+
                   '<div class="ic-tv-typelist" role="group" aria-label="'+esc(t("nmTypeLabel"))+'">'+
                     ["all"].concat(NM_TYPES).map(function(k){
                       return tcount[k] ? '<button type="button" class="ic-tv-typerow" data-ty="'+k+'" aria-pressed="'+(namesUi.ty===k)+'"><span>'+esc(t(k==="all" ? "nmAll" : "nmT_"+k))+'</span><span class="ic-tv-typecount">'+tcount[k]+'</span></button>' : "";
