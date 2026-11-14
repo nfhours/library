@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "160";
+  var APP_VER = "161";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -238,6 +238,7 @@
     tvSee:        {ru:"см.", en:"see", fr:"voir"},
     tvPage:       {ru:"с.", en:"p.", fr:"p."},
     svScan:       {ru:"Скан", en:"Scan", fr:"Scan"},
+    svTrans:      {ru:"Транскрипция", en:"Transcription", fr:"Transcription"},
     svIt:         {ru:"Итальянский текст", en:"Italian text", fr:"Texte italien"},
     svOpen:       {ru:"Открыть скан страницы {p} издания 1626 года", en:"Open the scan of page {p} of the 1626 edition", fr:"Ouvrir le scan de la page {p} de l’édition de 1626"},
     svTitle:      {ru:"тит.", en:"title", fr:"titre"},
@@ -4712,13 +4713,16 @@
     if(a){ var d = a.getBoundingClientRect().top - y0; if(d) window.scrollTo(0, window.scrollY + d); }
   }
 
-  /* ---------- Просмотр сканов на телефоне/узком экране (< 1400px): тёмный полноэкранный просмотрщик ----------
-     Верх — одна строка в стиле меню (назад · «с. N» · Скан|Текст), под ней страницы-слайды (текущая и соседние),
-     которые следуют за пальцем (свайп как в «Фото»); пока грузится полный скан, виден уменьшенный (scans/thumb);
-     щипок/двойное касание — увеличение, при увеличении свайп двигает картинку; свайп вниз — закрыть.
-     Жесты — на Pointer Events (touch-action:none), поэтому работают и мышью. */
+  /* ---------- Просмотр сканов на телефоне/узком экране (< 1400px): вертикальная лента ----------
+     Тёмный полноэкранный слой: сверху строка в стиле меню (назад · «с. N» · Скан|Транскрипция), под ней — ВСЕ сканы
+     главы друг под другом в обычной нативной прокрутке (никаких своих жестов). Заглушка каждого скана — коробка с
+     aspect-ratio по реальному размеру (scans/sizes.json) и миниатюрой scans/thumb, полный скан грузится лениво
+     (loading=lazy) и плавно проявляется поверх — при догрузке ничего не прыгает. Увеличение — нативный щипок
+     браузера (страница не блокирует масштаб: ни touch-action, ни user-scalable). «Транскрипция» — та же лента, но
+     вместо картинок итальянский набранный текст страниц с метками. «с. N» — страница, занимающая большую часть экрана. */
+  var svSizes = {};
   function openSvFull(book, rows, idx, scansDir){
-    var W = 0, H = 0, GAP = 12, pad4 = function(n){ return ("000"+n).slice(-4); };
+    var pad4 = function(n){ return ("000"+n).slice(-4); };
     var d = document.createElement("div");
     d.className = "ic ic-svx"; d.setAttribute("role","dialog"); d.setAttribute("aria-label", t("svDlg"));
     d.innerHTML =
@@ -4727,80 +4731,63 @@
         '<span class="ic-svx-pos"></span>'+
         '<div class="ic-svx-sw" role="group">'+
           '<button type="button" data-m="scan">'+esc(t("svScan"))+'</button>'+
-          '<button type="button" data-m="it">'+esc(t("bkTabText"))+'</button></div>'+
+          '<button type="button" data-m="it">'+esc(t("svTrans"))+'</button></div>'+
       '</div>'+
-      '<div class="ic-svx-stage"></div>';
-    var stage = d.querySelector(".ic-svx-stage"), bar = d.querySelector(".ic-svx-bar"), pos = d.querySelector(".ic-svx-pos");
-    var st = {idx:idx, panel:false}, slides = {}, Z = {s:1, x:0, y:0}, ptrs = {}, g = null, barHidden = false, lastTap = null, tapTimer = null;
+      '<div class="ic-svx-feed"></div>';
+    var feed = d.querySelector(".ic-svx-feed"), pos = d.querySelector(".ic-svx-pos");
+    var st = {idx:idx, panel:false}, items = [], ticking = false, quietUntil = 0;
 
     function mark(on){
       root.querySelectorAll(".ic-pgm-b").forEach(function(b){ b.setAttribute("aria-pressed", String(on && +b.getAttribute("data-pi") === st.idx)); });
       var scanBtn = root.querySelector(".ic-rbar-scan"); if(scanBtn) scanBtn.setAttribute("aria-pressed", String(on));
     }
-    function setBar(show){ barHidden = !show; d.classList.toggle("ic-svx-nobar", barHidden); }
-    function slideX(j, dx){ return (j - st.idx)*(W + GAP) + (dx || 0); }
-    function place(j, dx, anim){
-      var el = slides[j]; if(!el) return;
-      el.style.transition = anim ? "transform .28s cubic-bezier(.22,.9,.24,1)" : "none";
-      el.style.transform = "translate3d("+slideX(j, dx)+"px,0,0)";
+    function setPos(){ pos.textContent = pgLabel(rows[st.idx][1]); mark(true); }
+    function build(all){
+      feed.innerHTML = ""; items = [];
+      rows.forEach(function(r, j){
+        var it = document.createElement("section"); it.className = "ic-svx-item"; it.setAttribute("data-j", j);
+        if(svMode === "scan"){
+          var sz = svSizes[pad4(r[0])] || [1100, 1600];
+          var pg = document.createElement("div"); pg.className = "ic-svx-pg"; pg.style.aspectRatio = sz[0]+" / "+sz[1];
+          var th = document.createElement("img"); th.className = "ic-svx-th"; th.alt = ""; th.loading = "lazy"; th.src = scansDir+"thumb/"+pad4(r[0])+".webp";
+          var fu = document.createElement("img"); fu.className = "ic-svx-fu"; fu.alt = ""; fu.loading = "lazy"; fu.decoding = "async";
+          fu.addEventListener("load", function(){ fu.classList.add("ic-svx-on"); });
+          fu.src = scansDir+pad4(r[0])+".webp";
+          pg.appendChild(th); pg.appendChild(fu); it.appendChild(pg);
+        } else {
+          it.className += " ic-svx-t";
+          it.innerHTML = '<h3 class="ic-svx-h">'+esc(pgLabel(r[1]))+'</h3><div class="ic-sv-it" lang="it">'+itHtml(all[String(r[0])])+'</div>';
+        }
+        feed.appendChild(it); items.push(it);
+      });
     }
-    function fillSlide(el, j){
-      var r = rows[j]; el.innerHTML = "";
-      if(svMode === "scan"){
-        var pg = document.createElement("div"); pg.className = "ic-svx-pg";
-        var th = document.createElement("img"); th.className = "ic-svx-th"; th.alt = ""; th.draggable = false; th.src = scansDir+"thumb/"+pad4(r[0])+".webp";
-        var fu = document.createElement("img"); fu.className = "ic-svx-fu"; fu.alt = ""; fu.draggable = false; fu.decoding = "async";
-        fu.addEventListener("load", function(){ fu.classList.add("ic-svx-on"); });
-        fu.src = scansDir+pad4(r[0])+".webp";
-        pg.appendChild(th); pg.appendChild(fu); el.appendChild(pg);
-      } else {
-        var box = document.createElement("div"); box.className = "ic-svx-txt";
-        el.appendChild(box);
-        loadPagesIt(book, function(all){ if(sv === st) box.innerHTML = '<div class="ic-sv-it" lang="it">'+itHtml(all[String(r[0])])+'</div>'; });
+    function toCur(){ var it = items[st.idx]; quietUntil = performance.now()+500; if(it) feed.scrollTop = it.offsetTop; }
+    function curByScroll(){
+      // страница, занимающая большую часть экрана (наибольшее пересечение с видимой областью ленты)
+      var top = feed.scrollTop, bot = top + feed.clientHeight, best = st.idx, bestV = -1;
+      for(var j = 0; j < items.length; j++){
+        var it = items[j], a = it.offsetTop, z = a + it.offsetHeight;
+        if(z < top) continue; if(a > bot) break;
+        var v = Math.min(z, bot) - Math.max(a, top);
+        if(v > bestV){ bestV = v; best = j; }
       }
+      return best;
     }
-    function sync(){
-      for(var j = st.idx-1; j <= st.idx+1; j++){
-        if(!rows[j]){ continue; }
-        if(!slides[j]){ var el = document.createElement("div"); el.className = "ic-svx-slide"; slides[j] = el; fillSlide(el, j); stage.appendChild(el); place(j, 0, false); }
-      }
-      Object.keys(slides).forEach(function(k){ if(+k < st.idx-1 || +k > st.idx+1){ slides[k].remove(); delete slides[k]; } });
-      // предзагрузка полных сканов ±2 (миниатюры ±3), чтобы листание не упиралось в пустой экран
-      if(svMode === "scan"){
-        for(var k = -3; k <= 3; k++){ var rr = rows[st.idx+k]; if(!rr) continue;
-          (new Image()).src = scansDir+"thumb/"+pad4(rr[0])+".webp";
-          if(Math.abs(k) <= 2) (new Image()).src = scansDir+pad4(rr[0])+".webp"; }
-      }
-    }
-    function curPg(){ var el = slides[st.idx]; return el && el.querySelector(".ic-svx-pg"); }
-    function applyZ(anim){
-      var pg = curPg(); if(!pg) return;
-      pg.style.transition = anim ? "transform .25s ease" : "none";
-      pg.style.transform = (Z.s === 1 && !Z.x && !Z.y) ? "" : "translate("+Z.x+"px,"+Z.y+"px) scale("+Z.s+")";
-    }
-    function clampZ(){
-      var pg = curPg(); if(!pg) return;
-      var mx = Math.max(0, (pg.offsetWidth*Z.s - W)/2), my = Math.max(0, (pg.offsetHeight*Z.s - H)/2);
-      Z.x = Math.max(-mx, Math.min(mx, Z.x)); Z.y = Math.max(-my, Math.min(my, Z.y));
-    }
-    function resetZ(anim){ Z.s = 1; Z.x = Z.y = 0; applyZ(anim); }
-    function show(){
-      var r = rows[st.idx];
-      pos.textContent = pgLabel(r[1]);
+    feed.addEventListener("scroll", function(){
+      if(ticking) return; ticking = true;
+      requestAnimationFrame(function(){ ticking = false; if(performance.now() < quietUntil) return; var j = curByScroll(); if(j !== st.idx){ st.idx = j; setPos(); } });
+    }, {passive:true});
+    function render(){
       d.querySelectorAll(".ic-svx-sw [data-m]").forEach(function(b){ b.setAttribute("aria-pressed", String(b.getAttribute("data-m") === svMode)); });
       d.classList.toggle("ic-svx-textmode", svMode === "it");
-      stage.style.touchAction = svMode === "scan" ? "none" : "pan-y";
-      sync(); Object.keys(slides).forEach(function(k){ place(+k, 0, false); });
-      mark(true);
+      var at = st.idx;
+      if(svMode === "it") loadPagesIt(book, function(all){ if(sv !== st) return; build(all); st.idx = at; toCur(); setPos(); });
+      else { build(); toCur(); setPos(); }
     }
-    function go(i, anim){
-      if(i < 0 || i >= rows.length || i === st.idx){ Object.keys(slides).forEach(function(k){ place(+k, 0, true); }); return; }
-      resetZ(false); st.idx = i; setBar(true);
-      sync();
-      Object.keys(slides).forEach(function(k){ place(+k, 0, anim !== false); });
-      pos.textContent = pgLabel(rows[st.idx][1]); mark(true);
-    }
-    st.go = function(i){ go(i, true); };
+    d.querySelectorAll(".ic-svx-sw [data-m]").forEach(function(b){ b.addEventListener("click", function(){
+      var m = b.getAttribute("data-m"); if(m === svMode) return; svMode = m; render();
+    }); });
+    st.go = function(i){ if(i < 0 || i >= rows.length) return; st.idx = i; toCur(); setPos(); };
     st.close = function(){
       if(sv !== st) return;
       sv = null;
@@ -4811,126 +4798,17 @@
       // текст главы — к странице 1626, на которой остановились
       if(blk){ var top = blk.getBoundingClientRect().top + window.scrollY - headerStackH() - 16; window.scrollTo(0, Math.max(0, top)); }
     };
-    function onKey(e){
-      if(e.key === "Escape") st.close();
-      else if(e.key === "ArrowLeft") st.go(st.idx-1);
-      else if(e.key === "ArrowRight") st.go(st.idx+1);
-    }
-    function measure(){ W = stage.clientWidth; H = stage.clientHeight; Object.keys(slides).forEach(function(k){ place(+k, 0, false); }); }
-    function onResize(){ if(window.innerWidth >= 1400){ st.close(); return; } measure(); }
-
+    function onKey(e){ if(e.key === "Escape") st.close(); }
+    function onResize(){ if(window.innerWidth >= 1400) st.close(); }
     d.querySelector(".ic-svx-back").addEventListener("click", function(){ st.close(); });
-    d.querySelectorAll(".ic-svx-sw [data-m]").forEach(function(b){ b.addEventListener("click", function(){
-      var m = b.getAttribute("data-m"); if(m === svMode) return;
-      svMode = m; resetZ(false); setBar(true);
-      Object.keys(slides).forEach(function(k){ slides[k].remove(); delete slides[k]; });
-      show();
-    }); });
-
-    // ---- жесты ----
-    function dist(a, b){ return Math.hypot(a.x-b.x, a.y-b.y); }
-    function rel(cx, cy){ var r = stage.getBoundingClientRect(); return {x: cx-r.left-r.width/2, y: cy-r.top-r.height/2}; }
-    function setDim(a){ d.style.background = "rgba(22,19,15,"+a+")"; bar.style.opacity = String(Math.max(0, 1 - (1-a)*4)); }
-    function pts(){ return Object.keys(ptrs).map(function(k){ return ptrs[k]; }); }
-    stage.addEventListener("pointerdown", function(e){
-      if(e.target.closest && e.target.closest(".ic-svx-txt") && svMode === "it" && e.pointerType !== "mouse") { /* текст: вертикаль — нативный скролл */ }
-      try{ stage.setPointerCapture(e.pointerId); }catch(_){}
-      ptrs[e.pointerId] = {x:e.clientX, y:e.clientY};
-      var p = pts();
-      if(p.length === 2 && svMode === "scan"){
-        var m = rel((p[0].x+p[1].x)/2, (p[0].y+p[1].y)/2);
-        g = {mode:"pinch", d0:dist(p[0],p[1]), s0:Z.s, m0:m, zx0:Z.x, zy0:Z.y};
-        Object.keys(slides).forEach(function(k){ place(+k, 0, true); });
-      } else if(p.length === 1){
-        g = {mode:"pending", x0:e.clientX, y0:e.clientY, t0:Date.now(), zx:Z.x, zy:Z.y, moved:false, v:[{x:e.clientX, t:performance.now()}, ]};
-      }
-    });
-    stage.addEventListener("pointermove", function(e){
-      if(!ptrs[e.pointerId]) return;
-      ptrs[e.pointerId] = {x:e.clientX, y:e.clientY};
-      if(!g) return;
-      var p = pts();
-      if(g.mode === "pinch" && p.length >= 2){
-        var m = rel((p[0].x+p[1].x)/2, (p[0].y+p[1].y)/2), ns = Math.max(0.8, Math.min(3.5, g.s0*dist(p[0],p[1])/g.d0));
-        Z.x = m.x - (g.m0.x - g.zx0)*(ns/g.s0); Z.y = m.y - (g.m0.y - g.zy0)*(ns/g.s0); Z.s = ns;
-        if(ns > 1.02) { if(!barHidden) setBar(false); } clampZ(); applyZ(false); return;
-      }
-      if(p.length !== 1) return;
-      var dx = e.clientX-g.x0, dy = e.clientY-g.y0;
-      if(g.mode === "pending"){
-        if(Math.abs(dx) + Math.abs(dy) <= 8) return;
-        g.moved = true;
-        if(svMode === "it") g.mode = Math.abs(dx) > Math.abs(dy) ? "swipe" : "none";
-        else if(Z.s > 1.02) g.mode = "pan";
-        else g.mode = Math.abs(dx) > Math.abs(dy) ? "swipe" : "dismiss";
-      }
-      var now = performance.now(); g.v.push({x:e.clientX, y:e.clientY, t:now}); while(g.v.length > 2 && now - g.v[0].t > 100) g.v.shift();
-      if(g.mode === "swipe"){
-        var ex = dx;
-        if((st.idx === 0 && dx > 0) || (st.idx === rows.length-1 && dx < 0)) ex = dx*0.3;
-        Object.keys(slides).forEach(function(k){ place(+k, ex, false); });
-      } else if(g.mode === "dismiss"){
-        var pg = slides[st.idx]; if(pg){ pg.style.transition = "none"; pg.style.transform = "translate3d(0,"+dy+"px,0)"; }
-        setDim(Math.max(0, 1 - Math.abs(dy)/(H*0.7)));
-      } else if(g.mode === "pan"){
-        Z.x = g.zx + dx; Z.y = g.zy + dy; clampZ(); applyZ(false);
-      }
-    });
-    function endPtr(e, cancelled){
-      if(!ptrs[e.pointerId]) return;
-      delete ptrs[e.pointerId];
-      if(!g) return;
-      var left = pts().length;
-      if(g.mode === "pinch"){
-        if(left < 2){
-          if(Z.s < 1.05){ resetZ(true); setBar(true); }
-          g = left === 1 ? {mode:"none", moved:true, v:[]} : null;
-          if(left === 1){ var q = pts()[0]; g = {mode:"pan", x0:q.x, y0:q.y, zx:Z.x, zy:Z.y, moved:true, v:[]}; if(Z.s <= 1.02) g.mode = "none"; }
-        }
-        return;
-      }
-      if(left > 0) return;
-      var gg = g; g = null;
-      var dx = e.clientX-gg.x0, dy = e.clientY-gg.y0, v = gg.v || [], vx = 0, vy = 0;
-      if(v.length > 1){ var a = v[0], b = v[v.length-1], dt = Math.max(1, b.t-a.t); vx = (b.x-a.x)/dt; vy = ((b.y||0)-(a.y||0))/dt; }
-      if(gg.mode === "swipe" && !cancelled){
-        var next = st.idx;
-        if(Math.abs(dx) > W*0.22 || Math.abs(vx) > 0.45) next = st.idx + (dx < 0 ? 1 : -1);
-        go(next, true);
-      } else if(gg.mode === "dismiss"){
-        if(!cancelled && (Math.abs(dy) > 110 || Math.abs(vy) > 0.6)){
-          var pg = slides[st.idx]; if(pg){ pg.style.transition = "transform .22s ease"; pg.style.transform = "translate3d(0,"+(dy < 0 ? -H : H)+"px,0)"; }
-          setDim(0); setTimeout(function(){ st.close(); }, 200);
-        } else {
-          var pg2 = slides[st.idx]; if(pg2){ pg2.style.transition = "transform .25s ease"; pg2.style.transform = "translate3d("+slideX(st.idx,0)+"px,0,0)"; }
-          d.style.transition = "background .25s"; setDim(1); bar.style.opacity = ""; setTimeout(function(){ d.style.transition = ""; }, 260);
-        }
-      } else if(gg.mode === "pending" && !gg.moved && !cancelled){
-        // тап: двойной — увеличение, одиночный — показать/скрыть строку
-        var nowT = Date.now();
-        if(lastTap && nowT-lastTap.t < 320 && Math.hypot(e.clientX-lastTap.x, e.clientY-lastTap.y) < 40){
-          clearTimeout(tapTimer); lastTap = null;
-          if(svMode !== "scan") return;
-          if(Z.s > 1.02){ resetZ(true); setBar(true); }
-          else {
-            var m2 = rel(e.clientX, e.clientY), ns2 = 2.5;
-            Z.x = m2.x - (m2.x - Z.x)*(ns2/Z.s); Z.y = m2.y - (m2.y - Z.y)*(ns2/Z.s); Z.s = ns2; clampZ(); applyZ(true); setBar(false);
-          }
-        } else {
-          lastTap = {t:nowT, x:e.clientX, y:e.clientY};
-          clearTimeout(tapTimer); tapTimer = setTimeout(function(){ lastTap = null; setBar(barHidden); }, 320);
-        }
-      } else if(gg.mode === "swipe" || gg.mode === "none"){
-        Object.keys(slides).forEach(function(k){ place(+k, 0, true); });
-      }
-    }
-    stage.addEventListener("pointerup", function(e){ endPtr(e, false); });
-    stage.addEventListener("pointercancel", function(e){ endPtr(e, true); });
 
     sv = st;
     document.addEventListener("keydown", onKey); window.addEventListener("resize", onResize);
     document.body.appendChild(d);
-    measure(); show();
+    function start(){ if(sv === st) render(); }
+    if(svSizes.__loaded) start();
+    else fetch(scansDir+"sizes.json").then(function(r){ return r.ok ? r.json() : {}; }).catch(function(){ return {}; })
+      .then(function(j){ svSizes = j || {}; svSizes.__loaded = 1; start(); });
   }
 
   function openSv(book, rows, idx){
