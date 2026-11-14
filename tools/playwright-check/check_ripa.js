@@ -384,7 +384,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     const rs5 = await page.evaluate(() => { const row = document.querySelector('.ic-rbar-row'), b = row.querySelectorAll(':scope > button'), tab = document.querySelector('.ic-bt-tabs a .ic-bt-label') || document.querySelector('.ic-bt-tabs a'), sep = getComputedStyle(b[1], '::before');
       return { bd: getComputedStyle(row).borderTopWidth, fs: parseFloat(getComputedStyle(b[0]).fontSize), tabFs: parseFloat(getComputedStyle(tab).fontSize), sepBg: sep.backgroundColor, sepH: sep.height,
         on: [...b].map(x => x.classList.contains('ic-rbar-on') || x.getAttribute('aria-pressed') === 'true'), btnBd: [...b].map(x => getComputedStyle(x).borderLeftWidth + '/' + getComputedStyle(x).borderTopWidth) }; });
-    ok('section row: no frame, small, dividers, nothing highlighted by default', rs5.bd === '0px' && rs5.fs < rs5.tabFs && /236, 229, 212, 0\.18/.test(rs5.sepBg) && rs5.on.every(x => !x) && rs5.btnBd.every(x => x === '0px/0px'), rs5);
+    ok('section row: v180 look (frame, cells), buttons 10.5px, smaller than tabs, nothing highlighted by default', rs5.bd === '1px' && rs5.fs === 10.5 && rs5.fs < rs5.tabFs && rs5.on.every(x => !x), rs5);
     // 3. подписи и крестик
     const pl = await page.evaluate(() => ({ find: document.querySelector('[data-rb="find"]').textContent.trim(), part: document.querySelector('[data-rb="part"]').textContent.trim() }));
     ok('find label idle "Найти статью"', pl.find === 'Найти статью', pl);
@@ -423,6 +423,27 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     }
     await page.evaluate(() => sessionStorage.clear());
     ok('cartari loupe: same results from any tab, no "not added" message, placeholder', Object.values(loupeN).every(v => !/ещё не добавлен/.test(v.txt) && v.n > 0 && v.ph === 'Поиск по всей книге') && new Set(Object.values(loupeN).map(v => v.n)).size === 1, loupeN);
+  }
+  if (NEW) {
+    // ---- переход из лупы: первая отрисованная позиция уже у слова, без кадра с y=0 и без прыжка ----
+    await open('#/iconologie/list', 'ru'); await page.evaluate(() => sessionStorage.clear()); await page.reload({ waitUntil: 'load' }); await page.waitForSelector('.ic-row-item'); await W(1200);
+    for (const w of ['горе', 'любовь']) {
+      await page.evaluate(() => { window.__fr = []; (function t() { const m = document.querySelector('.ic-rp .ic-ch-mark'), wrap = document.querySelector('.ic-rp .ic-text, .ic-rp .ic-attrs, .ic-rp .ic-figs'), rp = document.querySelector('.ic-rp');
+        window.__fr.push({ h: location.hash, y: Math.round(scrollY), mark: m ? Math.round(m.getBoundingClientRect().top) : null, vis: !!rp && getComputedStyle(rp).visibility !== 'hidden' && !!wrap }); requestAnimationFrame(t); })(); });
+      await page.click('.ic-bt-search'); await W(500);
+      await page.locator('#ic-rb-sheet input.ic-search').fill(''); await page.locator('#ic-rb-sheet input.ic-search').pressSequentially(w, { delay: 30 }); await W(900);
+      if (!(await page.$('#ic-rb-sheet .ic-sr-a'))) console.log('DBG', w, await page.evaluate(() => location.hash + ' | ' + document.querySelector('#ic-rb-sheet').className + ' | ' + document.querySelector('#ic-rb-sheet .ic-sr').innerHTML.slice(0, 120)));
+      await page.click('#ic-rb-sheet .ic-sr-a'); await W(2500);
+      const fr = await page.evaluate(() => window.__fr);
+      const onArt = fr.filter(f => /#\/iconologie\/p\d/.test(f.h) && f.vis);
+      const first = onArt[0], ys = onArt.map(f => f.y);
+      const sh = await page.evaluate(() => { const m = document.querySelector('.ic-rp .ic-ch-mark'); return m ? Math.round(m.getBoundingClientRect().top) : -1; });
+      res['jump_' + w] = { frames: onArt.length, first, finalMarkTop: sh, minY: Math.min(...ys), maxY: Math.max(...ys) };
+      ok('loupe→article "' + w + '": first visible frame already at the word, no y=0 frame, no jump',
+        onArt.length > 0 && first.mark !== null && first.mark > 60 && first.mark < 420 && !onArt.some(f => f.y < 5) && Math.max(...ys) - Math.min(...ys) < 6, res['jump_' + w]);
+      console.log('JUMP', w, JSON.stringify(res['jump_' + w]));
+      await page.evaluate(() => { location.hash = '#/iconologie/list'; }); await W(1500);
+    }
   }
   if (NEW) { // ?new из закладок не ломает адрес: тот же основной вид
     await page.goto(BASE + '?new#/iconologie', { waitUntil: 'load' }); await W(900);

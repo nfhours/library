@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "181";
+  var APP_VER = "182";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -2770,10 +2770,34 @@
     var r = document.createRange(); r.setStart(found.node, found.ix); r.setEnd(found.node, found.ix+found.len);
     var m = document.createElement("mark"); m.className = "ic-ch-mark"; r.surroundContents(m);
     var edge = viewEdge();
-    var ty = Math.max(0, window.scrollY + m.getBoundingClientRect().top - edge - 90);
+    var ty = Math.max(0, window.scrollY + m.getBoundingClientRect().top - edge - Math.round((window.innerHeight - edge) * 0.22));
     holdAt(gen, ty); hardScrollTo(ty);
     hlFadeOut(null, [m], gen);
     return true;
+  }
+  // Переход из поиска: статья сразу открывается у найденного слова. Пока миниатюры гравюр не сообщили пропорции
+  // (ленивая картинка иначе догрузится и сдвинет текст), содержимое скрыто; высоты гравюр резервируются
+  // атрибутами width/height, затем прокрутка к слову — до первой отрисовки.
+  function ripaPlace(book, it, gen){
+    var wrap = root.querySelector(".ic-rp"); if(!wrap){ ripaHl = null; return; }
+    wrap.style.visibility = "hidden";
+    var imgs = Array.prototype.slice.call(wrap.querySelectorAll(".ic-fig img")), left = imgs.length, done = false;
+    function go(){
+      if(done) return; done = true;
+      if(gen !== renderGen) return;
+      if(!ripaHighlight(gen)) toTop();
+      wrap.style.visibility = "";
+    }
+    if(!left){ go(); return; }
+    setTimeout(go, 700);
+    imgs.forEach(function(im, k){
+      var src = (it.img||[])[k], th = new Image();
+      function fin(){ if(--left === 0) go(); }
+      th.onload = function(){ if(th.naturalWidth && !im.getAttribute("width")){ im.setAttribute("width", th.naturalWidth); im.setAttribute("height", th.naturalHeight); } fin(); };
+      th.onerror = fin;
+      if(!src){ fin(); return; }
+      th.src = BASE+"books/"+book.slug+"/thumb/"+src.replace(/\.(jpe?g|webp)$/i,"")+"_t.webp";
+    });
   }
   function ripaAnchors(){
     var i = 0;
@@ -2913,7 +2937,8 @@
       var tabList = root.querySelector('.ic-bt-tabs a[href="'+hrefFor(book,"list")+'"]');
       if(tabList) tabList.addEventListener("click", function(e){ if(e.metaKey||e.ctrlKey||e.shiftKey||e.button) return; e.preventDefault(); ripaToList(book, it.id); });
       if(keepRp && keepRp.anchor) restoreBlockPos(keepRp, gen);
-      else { toTop(); if(ripaHl && ripaHl.id===it.id) setTimeout(function(){ if(gen===renderGen) ripaHighlight(gen); }, 120); else ripaHl = null; }
+      else if(ripaHl && ripaHl.id===it.id) ripaPlace(book, it, gen);
+      else { toTop(); ripaHl = null; }
       installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return rpSheets.some(function(x){ return x.isOpen() || x.isAnimating(); }); }});
       nudgeRepaint();
       return;
