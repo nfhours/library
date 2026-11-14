@@ -1482,8 +1482,8 @@ button.ic-tv-sheet-reset:active{transform:scale(.95)}
    (тот же HL_FADE_MS из app.js). */
 .ic-ch-mark{background:rgba(142,43,29,.24);color:inherit;font-weight:inherit;font-style:inherit;
   border-radius:3px;box-shadow:0 0 0 3px rgba(142,43,29,.24);
-  opacity:1;transition:opacity 2.5s ease}
-.ic-ch-mark.ic-hl-fading{opacity:0}
+  transition:background-color 2.5s ease,box-shadow 2.5s ease}
+.ic-ch-mark.ic-hl-fading{background-color:rgba(142,43,29,0);box-shadow:0 0 0 3px rgba(142,43,29,0)}
 @media (prefers-reduced-motion:reduce){.ic-ch-mark{transition:none}}
 
 /* имена (#/<slug>/names) */

@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "164";
+  var APP_VER = "165";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -1292,7 +1292,7 @@
       setTimeout(function(){
         if(gen !== undefined && gen !== renderGen) return;
         if(markEl && markEl.parentNode) markEl.parentNode.removeChild(markEl);
-        (wordEls||[]).forEach(unwrapEl);
+        (wordEls||[]).forEach(function(w){ w.classList.add("ic-hl-fading"); });
       }, HL_FADE_STATIC);
       return;
     }
@@ -1302,7 +1302,8 @@
       (wordEls||[]).forEach(function(w){ w.classList.add("ic-hl-fading"); });
       setTimeout(function(){
         if(markEl && markEl.parentNode) markEl.parentNode.removeChild(markEl);
-        (wordEls||[]).forEach(unwrapEl);
+        // слово не разворачиваем: перестройка текста дала бы мигание; <mark>
+        // остаётся прозрачным
       }, HL_FADE_MS);
     }, HL_FADE_AFTER);
   }
@@ -1461,6 +1462,16 @@
     opts = opts || {};
     var HIDE_AT = 80, SHOW_AT = 40, GAP = 400, TOP_GUARD = 36, END_EPS = 2;
     var lastY = window.scrollY, down = 0, up = 0, want = false, cur = false, lastToggleAt = -1e9;
+    // Пока читатель сам не коснулся/не крутил страницу, любое смещение —
+    // программное (прыжок к месту перехода, подгонка при догрузке картинок):
+    // шапка остаётся показанной. Первый жест/колесо/клавиша снимает режим.
+    var userMoved = false;
+    function onUser(){
+      if(userMoved) return;
+      userMoved = true; lastY = window.scrollY; down = 0; up = 0;
+      ["touchstart","wheel","keydown","pointerdown"].forEach(function(n){ window.removeEventListener(n, onUser, true); });
+    }
+    ["touchstart","wheel","keydown","pointerdown"].forEach(function(n){ window.addEventListener(n, onUser, {capture:true, passive:true}); });
     function setHidden(v){
       var st = document.getElementById("ic-stack");
       cur = v;
@@ -1472,7 +1483,12 @@
       st.classList.toggle("ic-stack-hidden", v);
     }
     function tick(){
-      if(opts.isActive && !opts.isActive()){ if(cur) setHidden(false); return; }
+      if(opts.isActive && !opts.isActive()){
+        if(cur) setHidden(false);
+        ["touchstart","wheel","keydown","pointerdown"].forEach(function(n){ window.removeEventListener(n, onUser, true); });
+        return;
+      }
+      if(!userMoved){ lastY = window.scrollY; requestAnimationFrame(tick); return; }
       var y = window.scrollY, doc = document.documentElement;
       var maxY = Math.max(0, doc.scrollHeight - window.innerHeight);
       if(y < 0 || y > maxY || (maxY - y) < END_EPS){ /* отскок/самый край — тик игнорируем */ }
