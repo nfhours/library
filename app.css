@@ -1636,3 +1636,45 @@ button.ic-tv-sheet-reset:active{transform:scale(.95)}
 
 /* временный замок прокрутки на кадр (app.js hardScrollTo): гасит инерцию iOS */
 html.ic-hs-lock{overflow:hidden !important}
+
+/* ---- Иконология Рипы, новый вид (?new): app.js «Иконология Рипы: новый вид» ---- */
+/* строка раздела (капсула) — клетки по 44px */
+.ic-rbar-rp .ic-rbar-row{min-height:44px}
+.ic-rbar-rp button,.ic-rbar-rp .ic-rbar-lbl,.ic-rbar-rp .ic-rbar-part-l{height:44px}
+.ic-rbar-row .ic-rbar-lbl{flex:1 1 0%;min-width:0;display:flex;align-items:center;padding:0 12px;box-sizing:border-box;border-left:0}
+.ic-rbar-lbl .ic-rbar-pos-ch{flex:0 1 auto}
+.ic-rbar-lbl .ic-rbar-pos-pg{margin-left:2px}
+.ic-rbar-row .ic-rbar-nv{flex:none}
+.ic-rbar-part{flex:none;display:flex;align-items:stretch;border-left:1px solid rgba(var(--cream),.22)}
+.ic-rbar-part-l{display:flex;align-items:center;padding:0 2px 0 9px;font-size:12.5px;letter-spacing:.045em;text-transform:uppercase;color:rgba(var(--cream),.62)}
+.ic-rbar-part .ic-rbar-pt{border-left:0;min-width:40px;padding:0 6px}
+@media (max-width:460px){ .ic-rbar-rp .ic-rbar-pt{min-width:38px;padding:0 4px} .ic-rbar-row .ic-rbar-lbl{padding:0 9px} }
+/* список статей: типографика и отступы — как у указателя Картари (переменные --ic-li-*) */
+.ic .ic-rp .ic-rp-sec ul{list-style:none;margin:0;padding:0}
+.ic .ic-rp li.ic-row-item{display:flex;align-items:baseline;justify-content:space-between;gap:14px;min-height:44px;box-sizing:border-box;
+  padding:var(--ic-li-py) 0 calc(var(--ic-li-py) - 1px);border-bottom:1px solid var(--rule);cursor:pointer}
+.ic-rp-t{min-width:0}
+.ic-rp-t .ic-tv-it{display:inline}
+.ic-rp-pg{flex:none;min-width:2.2em;text-align:right;font-family:var(--old);font-size:calc(var(--ic-li-fs) * 1.04);line-height:1.2;color:var(--accent);font-variant-numeric:oldstyle-nums}
+.ic-rp-pg small{font-family:var(--serif);font-size:.72em;color:var(--soft);margin-right:.5em;letter-spacing:.02em}
+.ic .ic-rp .ic-tv-sec h2{display:flex;align-items:baseline;gap:10px}
+.ic .ic-rp .ic-tv-sec h2 .ic-gcap-w{font-family:var(--serif);font-size:.5em;line-height:1.25;color:var(--accent)}
+.ic .ic-rp .ic-tv-sec h2 .ic-gfr,.ic .ic-rp .ic-tv-sec h2 .ic-gpg{font-size:.42em}
+.ic .ic-rp .ic-part{font-family:var(--serif);font-size:12.5px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin:26px 0 4px}
+.ic .ic-rp .ic-rp-part:first-of-type{margin-top:8px}
+.ic .ic-rp .ic-rp-sec .ic-part{margin-top:22px}
+.ic-rp-count{margin-top:14px}
+/* гравюры: рамка фиксированной пропорции, чтобы ленивые картинки вне экрана не грузились разом */
+.ic .ic-rp-gimg{position:relative;aspect-ratio:4/5;padding:0}
+.ic .ic-rp-gimg img{position:absolute;inset:6px;width:calc(100% - 12px);height:calc(100% - 12px);max-width:none;object-fit:contain}
+/* соседние статьи внизу: слева предыдущая, справа следующая, тонкий уголок вместо стрелок */
+.ic .ic-rp-pager{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:44px}
+.ic .ic-rp-pager .ic-rp-nb{display:flex;flex-direction:row;align-items:center;justify-content:flex-start;gap:10px;min-height:56px;padding:10px 14px;box-sizing:border-box;
+  background:var(--sheet);border:1px solid var(--rule);border-radius:10px;color:var(--ink);text-align:left;cursor:pointer;font:inherit}
+.ic .ic-rp-pager .ic-rp-nb-next{justify-content:flex-end;text-align:right}
+.ic .ic-rp-pager .ic-rp-nb-t{display:block;min-width:0}
+.ic .ic-rp-pager .ic-rp-nb small{display:block;font-size:.68em;letter-spacing:.1em;text-transform:uppercase;color:var(--soft);opacity:1}
+.ic .ic-rp-pager .ic-rp-nb-t span{display:block;font-family:var(--serif);font-style:normal;font-size:1em;line-height:1.3;color:var(--ink);margin-top:2px;overflow-wrap:anywhere}
+.ic-rp-chev{flex:none;color:var(--soft)}
+.ic-rp-about{margin-top:14px}
+@media (hover:hover){.ic .ic-rp-pager .ic-rp-nb:hover{border-color:var(--accent)}}

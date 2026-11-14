@@ -50,7 +50,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     },
     async clear() { await A.search(''); },
     async part(v) { // 'all' | '1' | '2'
-      await page.evaluate(v => { document.querySelector('.ic-chip[data-f="' + v + '"]').click(); }, v); await W(300);
+      await page.evaluate(v => { document.querySelector('[data-f="' + v + '"]').click(); }, v); await W(300);
     },
     async sort(v) { // 'book' | 'ru' | 'page'
       if (!NEW) { await page.selectOption('.ic-sort', v); }
