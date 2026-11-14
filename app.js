@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "180";
+  var APP_VER = "181";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -227,6 +227,13 @@
     // что у nmSearchPh ("Найти имя"/"Find a name"), но без слова "имя" — тут
     // ищут и предметы, и имена.
     tvSearchBtn:  {ru:"Найти", en:"Find", fr:"Chercher"},
+    fbArt:    {ru:"Найти статью", en:"Find article", fr:"Chercher un article"},
+    fbName:   {ru:"Найти имя", en:"Find name", fr:"Chercher un nom"},
+    fbIdx:    {ru:"Найти в указателе", en:"Find in index", fr:"Chercher dans l’index"},
+    fbpArt:   {ru:"Статья", en:"Article", fr:"Article"},
+    fbpName:  {ru:"Имя", en:"Name", fr:"Nom"},
+    fbpIdx:   {ru:"Указатель", en:"Index", fr:"Index"},
+    srAllPh:  {ru:"Поиск по всей книге", en:"Search the whole book", fr:"Recherche dans tout le livre"},
     // Активная метка кнопки «Найти» в новой капсуле .ic-rbar (указатель и
     // имена) — {q} подставляется как есть, без доп. кавычек/форматирования
     // (сам запрос короткий, 1-2 слова). Общий ключ для обеих страниц.
@@ -1270,7 +1277,7 @@
   function bookSearchSheetHtml(book){
     return rbSheetHtml("ic-rb-sheet", "",
       '<form class="ic-home-search" role="search">'+
-        '<span class="ic-search-wrap"><input class="ic-search" type="search" enterkeyhint="search" placeholder="'+esc(t("srPlace"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("srPlace"))+'">'+
+        '<span class="ic-search-wrap"><input class="ic-search" type="search" enterkeyhint="search" placeholder="'+esc(t("srAllPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("srAllPh"))+'">'+
         '<button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
       '</form>',
       '<div class="ic-sr" aria-live="polite"></div>');
@@ -1531,6 +1538,42 @@
   // "x" button to empty the search field in one tap instead of holding
   // backspace — shows only once there's something to clear, re-fires the
   // input event so the existing filtering logic just runs as normal.
+  // Полоса «Найти» под строкой раздела: поле + крестик, список виден и фильтруется сразу.
+  // Закрывается по «Готово»/Enter, Esc, касанию списка и прокрутке; фильтр остаётся.
+  function findBarHtml(ph){
+    return '<div class="ic-rp-findbar" hidden><form class="ic-home-search" role="search"><span class="ic-search-wrap"><input class="ic-search" type="search" enterkeyhint="done" placeholder="'+esc(ph)+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(ph)+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span></form></div>';
+  }
+  function wireFindBar(o){
+    var bar = o.bar, form = bar.querySelector("form"), inp = bar.querySelector(".ic-search"), btn = o.btn, gen = o.gen, isOpen = false, at = 0;
+    wireSearchClear(inp);
+    function set(on){
+      if(on === isOpen) return;
+      isOpen = on; bar.hidden = !on; btn.setAttribute("aria-pressed", on ? "true" : "false");
+      if(on){
+        at = Date.now();
+        var bt0 = document.getElementById("ic-booktabs"), stk0 = document.getElementById("ic-stack");
+        if(bt0) bt0.classList.remove("ic-bb-hidden"); if(stk0) stk0.classList.remove("ic-stack-hidden");
+        inp.focus({preventScroll:true});
+      } else inp.blur();
+      syncHeaderStack();
+      if(o.onToggle) o.onToggle(on);
+    }
+    form.addEventListener("submit", function(e){ e.preventDefault(); set(false); });
+    inp.addEventListener("keydown", function(e){ if(e.key==="Escape") set(false); });
+    function outside(e){
+      if(gen !== renderGen){ document.removeEventListener("touchmove", outside, true); document.removeEventListener("wheel", outside, true); return; }
+      if(isOpen && Date.now()-at > 300 && !(e.target.closest && e.target.closest(".ic-rp-findbar"))) set(false);
+    }
+    document.addEventListener("touchmove", outside, true); document.addEventListener("wheel", outside, true);
+    return {set:set, isOpen:function(){ return isOpen; }, input:inp};
+  }
+  // Подпись кнопки «Найти …»: пока запроса нет — «Найти имя»; с запросом — «Имя: аполлон · 3», а если не влезает —
+  // короче («аполлон · 3», «Имя · 3», «3»), без обрезки посреди слова.
+  function fitFindLabel(btn, idle, pfx, q, n){
+    var el = btn.querySelector(".ic-rbar-tvsearch-label"); q = (q||"").trim();
+    var cands = q ? [pfx+": "+q+" · "+n, q+" · "+n, pfx+" · "+n, String(n)] : [idle];
+    for(var i=0;i<cands.length;i++){ el.textContent = cands[i]; if(el.scrollWidth <= el.clientWidth+1) return; }
+  }
   function wireSearchClear(q){
     var btn = q.parentNode.querySelector(".ic-search-clear");
     if(!btn) return;
@@ -2398,7 +2441,7 @@
   }
   function ripaLoupeSheet(){
     return rbSheetHtml("ic-rb-sheet", "ic-rp-loupe",
-      '<form class="ic-home-search" role="search"><span class="ic-search-wrap"><input class="ic-search" type="search" enterkeyhint="search" placeholder="'+esc(t("rpSrPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("rpSrPh"))+'">'+
+      '<form class="ic-home-search" role="search"><span class="ic-search-wrap"><input class="ic-search" type="search" enterkeyhint="search" placeholder="'+esc(t("srAllPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("srAllPh"))+'">'+
         '<button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span></form>',
       '<div class="ic-sr" aria-live="polite"></div>');
   }
@@ -2564,14 +2607,13 @@
     }
     var multi = book.meta.parts && book.meta.parts.length > 1, rbSheets = [];
     var findCount = 0;
-    function findLabel(){ return state.q.trim() ? t("tvSearchActive",{q:state.q.trim()})+" · "+findCount : t("tvSearchBtn"); }
     var rbar =
       '<div class="ic-rbar-row">'+
-        '<button type="button" class="ic-rbar-tvsearch'+(state.q.trim() ? " ic-rbar-active" : "")+'" data-rb="find" aria-pressed="false"><span class="ic-rbar-tvsearch-label">'+esc(findLabel())+'</span></button>'+
-        (multi ? '<button type="button" class="ic-rbar-sort ic-rbar-partb" data-rb="part"><span class="ic-rbar-sort-label">'+esc(ripaPartLabel())+'</span></button>' : "")+
-        '<button type="button" class="ic-rbar-sort" data-rb="sort"><span class="ic-rbar-sort-label">'+esc(ripaOrdLabel())+'</span></button>'+
+        '<button type="button" class="ic-rbar-tvsearch'+(state.q.trim() ? " ic-rbar-active ic-rbar-on" : "")+'" data-rb="find" aria-pressed="false"><span class="ic-rbar-tvsearch-label">'+esc(t("fbArt"))+'</span></button>'+
+        (multi ? '<button type="button" class="ic-rbar-sort ic-rbar-partb'+(state.filter!=="all" ? " ic-rbar-on" : "")+'" data-rb="part"><span class="ic-rbar-sort-label">'+esc(ripaPartLabel())+'</span></button>' : "")+
+        '<button type="button" class="ic-rbar-sort'+(state.sort!=="book" ? " ic-rbar-on" : "")+'" data-rb="sort"><span class="ic-rbar-sort-label">'+esc(ripaOrdLabel())+'</span></button>'+
       '</div>'+
-      '<div class="ic-rp-findbar" hidden><form class="ic-home-search" role="search"><span class="ic-search-wrap"><input class="ic-search" type="search" enterkeyhint="done" placeholder="'+esc(t("rpFindPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("rpFindPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span></form></div>'+
+      findBarHtml(t("rpFindPh"))+
       langSwitch()+
       (multi ? rbSheetHtml("ic-ripa-part", "", "",
         '<div class="ic-tv-typelist" role="group" aria-label="'+esc(t("rpPart"))+'">'+
@@ -2589,23 +2631,11 @@
       '</div></div>';
     var sheetApi = ripaBind(book, gen, rbSheets);
     var rbarEl = root.querySelector("#ic-rbar"), rbarRow = root.querySelector(".ic-rbar-row"), list = root.querySelector(".ic-rp-list");
-    var findBar = root.querySelector(".ic-rp-findbar"), findForm = findBar.querySelector("form"), findIn = findBar.querySelector(".ic-search");
+    var findBar = root.querySelector(".ic-rp-findbar");
     var sortEl = root.querySelector("#ic-ripa-sort"), partEl = root.querySelector("#ic-ripa-part"), partBtn = root.querySelector('[data-rb="part"]'), findBtn = root.querySelector('[data-rb="find"]'), sortBtn = root.querySelector('[data-rb="sort"]');
-    findIn.value = state.q; wireSearchClear(findIn);
-    // «Найти» — компактная полоса с полем под строкой раздела, без шторки и подложки: список виден сразу и
-    // фильтруется по мере ввода. Закрывается по «Готово»/Enter, Esc, касанию списка и прокрутке; фильтр остаётся.
-    var findOpen = false, findAt = 0;
-    function setFind(on){
-      if(on === findOpen) return;
-      findOpen = on; findBar.hidden = !on; findBtn.setAttribute("aria-pressed", on ? "true" : "false");
-      if(on){
-        findAt = Date.now();
-        var bt0 = document.getElementById("ic-booktabs"), stk0 = document.getElementById("ic-stack");
-        if(bt0) bt0.classList.remove("ic-bb-hidden"); if(stk0) stk0.classList.remove("ic-stack-hidden");
-        findIn.focus({preventScroll:true});
-      } else findIn.blur();
-      syncHeaderStack();
-    }
+    var fb = wireFindBar({bar:findBar, btn:findBtn, gen:gen, onToggle:function(){ updateLabels(); }}), findIn = fb.input;
+    findIn.value = state.q; findIn.dispatchEvent(new Event("input"));
+    function setFind(on){ fb.set(on); }
     function barH(){ return rbarEl.getBoundingClientRect().height + headerStackH() + 10; }
     function rowHtml(it, showPart){
       var fr = state.lang!=="fr" && it.fr ? ' <span class="ic-tv-it ic-rp-fr" lang="fr">'+esc(it.fr)+'</span>' : "";
@@ -2651,8 +2681,11 @@
       list.innerHTML = html;
     }
     function updateLabels(){
-      findBtn.querySelector(".ic-rbar-tvsearch-label").textContent = findLabel();
+      fitFindLabel(findBtn, t("fbArt"), t("fbpArt"), state.q, findCount);
       findBtn.classList.toggle("ic-rbar-active", !!state.q.trim());
+      findBtn.classList.toggle("ic-rbar-on", !!state.q.trim() || fb.isOpen());
+      sortBtn.classList.toggle("ic-rbar-on", state.sort!=="book");
+      if(partBtn) partBtn.classList.toggle("ic-rbar-on", state.filter!=="all");
       sortBtn.querySelector(".ic-rbar-sort-label").textContent = ripaOrdLabel();
       if(partBtn) partBtn.querySelector(".ic-rbar-sort-label").textContent = ripaPartLabel();
       root.querySelectorAll("#ic-ripa-part [data-f]").forEach(function(b){ b.setAttribute("aria-pressed", b.getAttribute("data-f")===state.filter); });
@@ -2660,11 +2693,6 @@
     }
     function toListTop(){ window.scrollTo(0, Math.min(window.scrollY, Math.max(0, list.getBoundingClientRect().top + window.scrollY - barH()))); }
     findIn.addEventListener("input", function(){ state.q = findIn.value; keep(book.slug); fill(); updateLabels(); toListTop(); });
-    findForm.addEventListener("submit", function(e){ e.preventDefault(); setFind(false); });
-    findIn.addEventListener("keydown", function(e){ if(e.key==="Escape") setFind(false); });
-    function touchOutside(e){ if(gen!==renderGen){ document.removeEventListener("touchmove", touchOutside, true); document.removeEventListener("wheel", touchOutside, true); return; }
-      if(findOpen && Date.now()-findAt > 300 && !(e.target.closest && e.target.closest(".ic-rp-findbar"))) setFind(false); }
-    document.addEventListener("touchmove", touchOutside, true); document.addEventListener("wheel", touchOutside, true);
     var sortApi = makeRbSheet(sortEl, sortBtn, {registry: rbSheets});
     var partApi = partEl ? makeRbSheet(partEl, partBtn, {registry: rbSheets}) : null;
     if(partEl) partEl.querySelector(".ic-tv-typelist").addEventListener("click", function(e){
@@ -2678,7 +2706,7 @@
     rbarRow.addEventListener("click", function(e){
       var b = e.target.closest("[data-rb]"); if(!b) return;
       var act = b.getAttribute("data-rb");
-      if(act==="find"){ rbSheets.forEach(function(sh){ if(sh.isOpen()) sh.close(); }); setFind(!findOpen); }
+      if(act==="find"){ rbSheets.forEach(function(sh){ if(sh.isOpen()) sh.close(); }); setFind(!fb.isOpen()); }
       else { setFind(false); if(act==="sort") sortApi.toggle(); else if(act==="part" && partApi) partApi.toggle(); }
     });
     function openRow(r){ if(r){ setFind(false); ripaOpen(book, r.getAttribute("data-id"), state.q); } }
@@ -2691,7 +2719,7 @@
       holdAt(gen, ty); hardScrollTo(ty);
       hlFadeOut(hlMark(focusRow), [], gen);
     } else if(keepPos) restoreBlockPos(keepPos, gen); else restoreOrTop(gen);
-    installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return findOpen || rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); }); }});
+    installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return fb.isOpen() || rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); }); }});
     nudgeRepaint();
   }
 
@@ -3647,7 +3675,7 @@
       }
       // Подпись кнопки «Найти» — активная («Найти: Амур»), когда tavolaUi.q
       // не пуста, иначе нейтральная (tvSearchPh, как у прежнего placeholder).
-      function tvSearchLabel(){ return tavolaUi.q ? t("tvSearchActive",{q:tavolaUi.q}) : t("tvSearchBtn"); }
+      var tvN = 0;
       // Подпись кнопки сортировки — ТЕКУЩИЙ порядок (прямой переключатель,
       // без шторки): tvSortRu/tvSortIt — те же два i18n-ключа, что раньше
       // размечали два отдельных чипа .ic-tv-sort, теперь одна подпись.
@@ -3667,22 +3695,11 @@
         '<div class="ic-ch-outer">'+
           '<div class="ic-rbar ic-rbar-tv" id="ic-rbar">'+
             '<div class="ic-rbar-row">'+
-              '<button type="button" class="ic-rbar-tvsearch" data-rb="search" aria-pressed="false"><span class="ic-rbar-tvsearch-label">'+esc(tvSearchLabel())+'</span></button>'+
-              '<button type="button" class="ic-rbar-sort" data-rb="sort"><span class="ic-rbar-sort-label">'+esc(tvSortLabel())+'</span></button>'+
+              '<button type="button" class="ic-rbar-tvsearch'+(tavolaUi.q.trim() ? " ic-rbar-active ic-rbar-on" : "")+'" data-rb="search" aria-pressed="false"><span class="ic-rbar-tvsearch-label">'+esc(t("fbIdx"))+'</span></button>'+
+              '<button type="button" class="ic-rbar-sort'+(tavolaUi.sort==="it" ? " ic-rbar-on" : "")+'" data-rb="sort"><span class="ic-rbar-sort-label">'+esc(tvSortLabel())+'</span></button>'+
             '</div>'+
             langSwitch()+
-            '<div class="ic-rb-sheet" id="ic-tv-search-sheet">'+
-              '<div class="ic-rb-sheet-slide">'+
-                '<div class="ic-rb-sheet-panel">'+
-                  '<div class="ic-rb-sheet-head">'+
-                    '<form class="ic-home-search" role="search">'+
-                      '<span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("tvSearchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("tvSearchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
-                    '</form>'+
-                  '</div>'+
-                  '<div class="ic-tv-sheet-foot"><p class="ic-tv-sheet-count"></p><button type="button" class="ic-tv-sheet-reset">'+esc(t("tvReset"))+'</button></div>'+
-                '</div>'+
-              '</div>'+
-            '</div>'+
+            findBarHtml(t("tvSearchPh"))+
           '</div>'+
           // .ic-ch-outer должен обнимать ВСЮ страницу (капсулу + светлую
           // колонку ниже), а не только капсулу — иначе её собственная высота
@@ -3703,14 +3720,13 @@
       bindLangSwitch(root);
       bindBookBack(root);
       var rbar = root.querySelector("#ic-rbar"), rbarRow = root.querySelector(".ic-rbar-row");
-      var sheetEl = root.querySelector("#ic-tv-search-sheet"), sheetInput = sheetEl.querySelector(".ic-search"),
-          sheetCnt = sheetEl.querySelector(".ic-tv-sheet-count");
-      var searchBtn = root.querySelector('[data-rb="search"]'), searchLabelEl = searchBtn.querySelector(".ic-rbar-tvsearch-label");
+      var searchBtn = root.querySelector('[data-rb="search"]');
+      var fb = wireFindBar({bar:root.querySelector(".ic-rp-findbar"), btn:searchBtn, gen:gen, onToggle:function(){ updateSearchLabel(); }}), sheetInput = fb.input;
       var sortBtn = root.querySelector('[data-rb="sort"]'), sortLabelEl = sortBtn.querySelector(".ic-rbar-sort-label");
       var list = root.querySelector(".ic-tv-list"), cnt = root.querySelector(".ic-tv-count"),
           lnav = root.querySelector(".ic-tv-letters-lt"),
           rail = root.querySelector(".ic-az-rail"), peek = root.querySelector(".ic-az-peek");
-      sheetInput.value = tavolaUi.q;
+      sheetInput.value = tavolaUi.q; sheetInput.dispatchEvent(new Event("input"));
       // azDragging — выставляется wireAzRail'ом на весь жест по рейлу (между
       // pointerdown и pointerup/cancel), читается в suppress ниже, чтобы на
       // это время заморозить скрытие капсулы (жест по буквам не должен
@@ -3722,7 +3738,11 @@
       // тот же общий механизм makeRbSheet этого требует).
       var azDragging = false, rbSheets = [];
       bindBookSearchSheet(root, book, gen, rbSheets);
-      function updateSearchLabel(){ searchLabelEl.textContent = tvSearchLabel(); }
+      function updateSearchLabel(){
+        fitFindLabel(searchBtn, t("fbIdx"), t("fbpIdx"), tavolaUi.q, tvN);
+        searchBtn.classList.toggle("ic-rbar-active", !!tavolaUi.q.trim());
+        searchBtn.classList.toggle("ic-rbar-on", !!tavolaUi.q.trim() || fb.isOpen());
+      }
       function fill(){
         var words = tvFold(sheetInput.value.trim()).split(/\s+/).filter(Boolean), html = "", n = 0, have = {}, cur = null;
         ordered().forEach(function(x){
@@ -3736,7 +3756,7 @@
         list.innerHTML = html || '<p class="ic-empty">'+esc(t("tvNone"))+'</p>';
         clampSheetScroll();
         var countText = words.length ? t("tvFound",{n:n}) : t("tvAll",{n:d.entries.length});
-        cnt.textContent = countText; sheetCnt.textContent = countText;
+        cnt.textContent = countText; tvN = n; updateSearchLabel();
         lnav.innerHTML = lettersOf(ordered()).map(function(l){ return '<button type="button" data-l="'+l+'"'+(have[l] ? "" : " disabled")+'>'+l+'</button>'; }).join("");
         // Столбик на узких экранах — только буквы, у которых реально есть
         // статьи в текущем отборе (have), без disabled-кнопок вовсе.
@@ -3759,8 +3779,8 @@
       // теперь единая система на оба случая.
       function flash(el){ hlFadeOut(hlMark(el), [], gen); }
       function scrollToEl(el){ window.scrollTo(0, window.scrollY + el.getBoundingClientRect().top - barH()); }
-      sheetInput.addEventListener("input",function(){ tavolaUi.q = sheetInput.value; updateSearchLabel(); fill(); });
-      wireSearchClear(sheetInput);
+      sheetInput.addEventListener("input",function(){ tavolaUi.q = sheetInput.value; fill(); toListTop(); });
+      function toListTop(){ window.scrollTo(0, Math.min(window.scrollY, Math.max(0, list.getBoundingClientRect().top + window.scrollY - barH()))); }
       lnav.addEventListener("click",function(e){
         var b = e.target.closest("button"); if(!b) return;
         var el = document.getElementById("tv-L"+b.getAttribute("data-l")); if(el) scrollToEl(el);
@@ -3782,26 +3802,20 @@
       // app.css) и никогда не прячется — прячутся только .back-bar и
       // .ic-booktabs (общее меню книги), единым движением, через
       // installScrollHide (см. его подключение ниже, у az-rail).
-      var sheetApi = makeRbSheet(sheetEl, searchBtn, {
-        registry: rbSheets,
-        onOpen: function(){ if(window.matchMedia && window.matchMedia("(pointer:fine)").matches) sheetInput.focus({preventScroll:true}); },
-        onClose: function(){ sheetInput.blur(); }
-      });
-      sheetEl.querySelector(".ic-tv-sheet-reset").addEventListener("click", function(){
-        sheetInput.value = ""; tavolaUi.q = ""; updateSearchLabel(); fill(); sheetInput.focus();
-      });
       rbarRow.addEventListener("click", function(e){
         var b = e.target.closest("[data-rb]"); if(!b) return;
         var act = b.getAttribute("data-rb");
-        if(act==="search"){ sheetApi.toggle(); return; }
+        if(act==="search"){ rbSheets.forEach(function(sh){ if(sh.isOpen()) sh.close(); }); fb.set(!fb.isOpen()); return; }
+        fb.set(false);
         if(act==="sort"){
           tavolaUi.sort = tavolaUi.sort==="ru" ? "it" : "ru";
-          sortLabelEl.textContent = tvSortLabel();
+          sortLabelEl.textContent = tvSortLabel(); sortBtn.classList.toggle("ic-rbar-on", tavolaUi.sort==="it");
           fill(); window.scrollTo(0, Math.min(window.scrollY, Math.max(0, list.getBoundingClientRect().top + window.scrollY - barH())));
           return;
         }
       });
       list.addEventListener("click",function(e){
+        fb.set(false);
         var a = e.target.closest("a");
         if(!a) return;
         if(a.hasAttribute("data-tv")){
@@ -3963,7 +3977,7 @@
       ordered().forEach(function(x){ if(letters.indexOf(x.l)<0) letters.push(x.l); });
       // Подпись кнопки «Найти» — та же схема, что в renderTavola (общий
       // ключ tvSearchActive), только нейтральная форма — nmSearchPh.
-      function nmSearchLabel(){ return namesUi.q ? t("tvSearchActive",{q:namesUi.q}) : t("nmSearchPh"); }
+      var nmN = 0;
       function nmTypeLabel(){ return t(namesUi.ty==="all" ? "nmAll" : "nmT_"+namesUi.ty); }
       // Верх страницы — та же капсула .ic-rbar/.ic-rbar-row, что у читалки и
       // у /index выше (см. подробный комментарий в renderTavola): id="ic-rbar"
@@ -3977,22 +3991,11 @@
         '<div class="ic-ch-outer">'+
           '<div class="ic-rbar ic-rbar-tv" id="ic-rbar">'+
             '<div class="ic-rbar-row">'+
-              '<button type="button" class="ic-rbar-tvsearch" data-rb="search" aria-pressed="false"><span class="ic-rbar-tvsearch-label">'+esc(nmSearchLabel())+'</span></button>'+
-              '<button type="button" class="ic-rbar-sort" data-rb="type" aria-pressed="false"><span class="ic-rbar-sort-label">'+esc(nmTypeLabel())+'</span></button>'+
+              '<button type="button" class="ic-rbar-tvsearch'+(namesUi.q.trim() ? " ic-rbar-active ic-rbar-on" : "")+'" data-rb="search" aria-pressed="false"><span class="ic-rbar-tvsearch-label">'+esc(t("fbName"))+'</span></button>'+
+              '<button type="button" class="ic-rbar-sort'+(namesUi.ty!=="all" ? " ic-rbar-on" : "")+'" data-rb="type" aria-pressed="false"><span class="ic-rbar-sort-label">'+esc(nmTypeLabel())+'</span></button>'+
             '</div>'+
             langSwitch()+
-            '<div class="ic-rb-sheet" id="ic-tv-search-sheet">'+
-              '<div class="ic-rb-sheet-slide">'+
-                '<div class="ic-rb-sheet-panel">'+
-                  '<div class="ic-rb-sheet-head">'+
-                    '<form class="ic-home-search" role="search">'+
-                      '<span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("nmSearchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("nmSearchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
-                    '</form>'+
-                  '</div>'+
-                  '<div class="ic-tv-sheet-foot"><p class="ic-tv-sheet-count"></p><button type="button" class="ic-tv-sheet-reset">'+esc(t("tvReset"))+'</button></div>'+
-                '</div>'+
-              '</div>'+
-            '</div>'+
+            findBarHtml(t("nmSearchPh"))+
             '<div class="ic-rb-sheet" id="ic-tv-type-sheet">'+
               '<div class="ic-rb-sheet-slide">'+
                 '<div class="ic-rb-sheet-panel">'+
@@ -4021,21 +4024,24 @@
       bindLangSwitch(root);
       bindBookBack(root);
       var rbar = root.querySelector("#ic-rbar"), rbarRow = root.querySelector(".ic-rbar-row");
-      var sheetEl = root.querySelector("#ic-tv-search-sheet"), sheetInput = sheetEl.querySelector(".ic-search"),
-          sheetCnt = sheetEl.querySelector(".ic-tv-sheet-count");
-      var searchBtn = root.querySelector('[data-rb="search"]'), searchLabelEl = searchBtn.querySelector(".ic-rbar-tvsearch-label");
+      var searchBtn = root.querySelector('[data-rb="search"]');
+      var fb = wireFindBar({bar:root.querySelector(".ic-rp-findbar"), btn:searchBtn, gen:gen, onToggle:function(){ updateSearchLabel(); }}), sheetInput = fb.input;
       var typeBtn = root.querySelector('[data-rb="type"]'), typeLabelEl = typeBtn.querySelector(".ic-rbar-sort-label"), typeSheetEl = root.querySelector("#ic-tv-type-sheet");
       var list = root.querySelector(".ic-tv-list"), cnt = root.querySelector(".ic-tv-count"),
           lnav = root.querySelector(".ic-tv-letters-lt"),
           rail = root.querySelector(".ic-az-rail"), peek = root.querySelector(".ic-az-peek");
-      sheetInput.value = namesUi.q;
+      sheetInput.value = namesUi.q; sheetInput.dispatchEvent(new Event("input"));
       // azDragging/rbSheets — см. тот же комментарий в renderTavola (только
       // suppress и класс активности столбика, не синхронизация позиции);
       // здесь rbSheets реально взаимоисключает ДВЕ шторки (поиск и тип).
       var azDragging = false, rbSheets = [];
       bindBookSearchSheet(root, book, gen, rbSheets);
-      function updateSearchLabel(){ searchLabelEl.textContent = nmSearchLabel(); }
-      function updateTypeLabel(){ typeLabelEl.textContent = nmTypeLabel(); }
+      function updateSearchLabel(){
+        fitFindLabel(searchBtn, t("fbName"), t("fbpName"), namesUi.q, nmN);
+        searchBtn.classList.toggle("ic-rbar-active", !!namesUi.q.trim());
+        searchBtn.classList.toggle("ic-rbar-on", !!namesUi.q.trim() || fb.isOpen());
+      }
+      function updateTypeLabel(){ typeLabelEl.textContent = nmTypeLabel(); typeBtn.classList.toggle("ic-rbar-on", namesUi.ty!=="all"); }
       function fill(){
         var words = tvFold(sheetInput.value.trim()).split(/\s+/).filter(Boolean), html = "", n = 0, have = {}, cur = null;
         ordered().forEach(function(x){
@@ -4052,7 +4058,7 @@
         list.innerHTML = html || '<p class="ic-empty">'+esc(t("tvNone"))+'</p>';
         clampSheetScroll();
         var countText = (words.length || namesUi.ty!=="all") ? t("nmFound",{n:n}) : t("nmTotal",{n:d.names.length});
-        cnt.textContent = countText; sheetCnt.textContent = countText;
+        cnt.textContent = countText; nmN = n; updateSearchLabel();
         lnav.innerHTML = letters.map(function(l){ return '<button type="button" data-l="'+(l==="#" ? "0" : l)+'"'+(have[l] ? "" : " disabled")+'>'+l+'</button>'; }).join("");
         // Столбик на узких экранах — только буквы, для которых реально есть
         // статьи при текущих отборе/фильтре типа (have), без disabled-кнопок.
@@ -4066,8 +4072,8 @@
         rail.classList.toggle("ic-az-paired", built.paired);
       }
       function barH(){ return rbar.getBoundingClientRect().height + headerStackH() + 10; }
-      sheetInput.addEventListener("input",function(){ namesUi.q = sheetInput.value; updateSearchLabel(); fill(); });
-      wireSearchClear(sheetInput);
+      sheetInput.addEventListener("input",function(){ namesUi.q = sheetInput.value; fill(); toListTop(); });
+      function toListTop(){ window.scrollTo(0, Math.min(window.scrollY, Math.max(0, list.getBoundingClientRect().top + window.scrollY - barH()))); }
       lnav.addEventListener("click",function(e){
         var b = e.target.closest("button"); if(!b) return;
         var el = document.getElementById("nm-L"+b.getAttribute("data-l"));
@@ -4085,14 +4091,6 @@
       });
       // Капсула/шапка здесь больше НЕ прячутся при скролле — см. тот же
       // комментарий в renderTavola (пункт 1 задания).
-      var sheetApi = makeRbSheet(sheetEl, searchBtn, {
-        registry: rbSheets,
-        onOpen: function(){ if(window.matchMedia && window.matchMedia("(pointer:fine)").matches) sheetInput.focus({preventScroll:true}); },
-        onClose: function(){ sheetInput.blur(); }
-      });
-      sheetEl.querySelector(".ic-tv-sheet-reset").addEventListener("click", function(){
-        sheetInput.value = ""; namesUi.q = ""; updateSearchLabel(); fill(); sheetInput.focus();
-      });
       var typeSheetApi = makeRbSheet(typeSheetEl, typeBtn, {registry: rbSheets});
       typeSheetEl.querySelector(".ic-tv-typelist").addEventListener("click", function(e){
         var b = e.target.closest("button"); if(!b) return;
@@ -4104,10 +4102,12 @@
       rbarRow.addEventListener("click", function(e){
         var b = e.target.closest("[data-rb]"); if(!b) return;
         var act = b.getAttribute("data-rb");
-        if(act==="search"){ sheetApi.toggle(); return; }
+        if(act==="search"){ rbSheets.forEach(function(sh){ if(sh.isOpen()) sh.close(); }); fb.set(!fb.isOpen()); return; }
+        fb.set(false);
         if(act==="type"){ typeSheetApi.toggle(); return; }
       });
       list.addEventListener("click",function(e){
+        fb.set(false);
         var a = e.target.closest("a.ic-nm-row");
         if(a){
           namesUi.pos[location.hash] = window.scrollY; namesUi.via = a.getAttribute("href");
@@ -4579,7 +4579,8 @@
 
   function wireBookSearch(book, form, box, gen, restoreY){
     var q = form.querySelector(".ic-search"), ctx = searchUi.ctx[book.slug] || null, timer = 0, lastQ = searchUi.q;
-    if(!book.chap){ box.innerHTML = '<p class="ic-sr-hint">'+esc(t("chNotYet"))+'</p>'; return; }
+    // главы могут быть ещё не загружены (вкладка «Имена», «Указатель», Рипа): грузим сами, а не показываем «перевод не добавлен»
+    if(!book.meta.chapters){ box.innerHTML = '<p class="ic-sr-hint">'+esc(t("chNotYet"))+'</p>'; return; }
     q.value = searchUi.q;
     wireSearchClear(q);
     function paint(){ if(gen === renderGen) srRender(book, box, ctx, q.value); }
@@ -4609,10 +4610,14 @@
       }
     });
     paint();
-    srLoad(book, book.chap, function(c){
+    loadChapters(book, function(chap){
       if(gen !== renderGen) return;
-      ctx = c; paint();
-      if(restoreY) requestAnimationFrame(function(){ if(gen === renderGen) window.scrollTo(0, restoreY); });
+      if(!chap){ box.innerHTML = '<p class="ic-sr-hint">'+esc(t("chNotYet"))+'</p>'; return; }
+      srLoad(book, chap, function(c){
+        if(gen !== renderGen) return;
+        ctx = c; paint();
+        if(restoreY) requestAnimationFrame(function(){ if(gen === renderGen) window.scrollTo(0, restoreY); });
+      });
     });
   }
 
@@ -4781,7 +4786,7 @@
           '<div class="ic-top-row">'+langSwitch()+'</div>'+
           '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("hmSearch"))+'</h1></header>'+
           '<form class="ic-home-search" role="search">'+
-            '<span class="ic-search-wrap"><input class="ic-search" type="search" enterkeyhint="search" placeholder="'+esc(t("srPlace"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("srPlace"))+'">'+
+            '<span class="ic-search-wrap"><input class="ic-search" type="search" enterkeyhint="search" placeholder="'+esc(t("srAllPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("srAllPh"))+'">'+
             '<button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span></form>'+
           '<div class="ic-sr" aria-live="polite"></div>'+
         '</div>';

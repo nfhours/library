@@ -349,18 +349,18 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     res.findBar = st1; ok('find strip open, list visible, no sheet/dim', st1.bar && st1.sheet === false && st1.dim === '0' && st1.rows > 100 && st1.h <= 44 && /0, 0, 0, 0|rgba\(0, 0, 0, 0\)/.test(st1.cream), st1);
     await page.locator('.ic-rp-findbar input.ic-search').pressSequentially('лав', { delay: 40 }); await W(400);
     const st2 = await page.evaluate(() => ({ lbl: document.querySelector('[data-rb="find"]').textContent.trim(), rows: document.querySelectorAll('.ic-row-item').length, heads: [...document.querySelectorAll('.ic-rp .ic-part')].map(e => e.textContent), count: document.querySelector('.ic-rp-count').textContent }));
-    ok('find label "Найти: лав · N"', st2.lbl === 'Найти: лав · ' + st2.rows && st2.rows > 0 && st2.rows < 100, st2);
+    ok('find label "Статья: лав · N"', st2.lbl === 'Статья: лав · ' + st2.rows && st2.rows > 0 && st2.rows < 100, st2);
     ok('find: no text-match sections', !st2.heads.some(h => /Совпадения/.test(h)) && /Найдено/.test(st2.count), st2);
     await page.keyboard.press('Enter'); await W(400);
     const st3 = await page.evaluate(() => ({ bar: !document.querySelector('.ic-rp-findbar').hidden, focus: document.activeElement && document.activeElement.tagName === 'INPUT', rows: document.querySelectorAll('.ic-row-item').length, lbl: document.querySelector('[data-rb="find"]').textContent.trim() }));
-    ok('Enter closes strip, filter kept, keyboard hidden', !st3.bar && !st3.focus && st3.rows === st2.rows && /^Найти: лав/.test(st3.lbl), st3);
+    ok('Enter closes strip, filter kept, keyboard hidden', !st3.bar && !st3.focus && st3.rows === st2.rows && /^Статья: лав/.test(st3.lbl), st3);
     await page.click('[data-rb="find"]'); await W(400);
     await page.evaluate(() => document.querySelector('.ic-rp-list').dispatchEvent(new Event('touchmove', { bubbles: true }))); await W(500);
     ok('wheel/scroll closes strip', await page.evaluate(() => document.querySelector('.ic-rp-findbar').hidden));
     await page.click('[data-rb="find"]'); await W(400);
     await page.click('.ic-rp-findbar .ic-search-clear'); await W(400);
     const st4 = await page.evaluate(() => ({ rows: document.querySelectorAll('.ic-row-item').length, lbl: document.querySelector('[data-rb="find"]').textContent.trim(), bar: !document.querySelector('.ic-rp-findbar').hidden }));
-    ok('clear cross resets filter', st4.rows === 440 && st4.lbl === 'Найти' && st4.bar, st4);
+    ok('clear cross resets filter', st4.rows === 440 && st4.lbl === 'Найти статью' && st4.bar, st4);
     await page.keyboard.press('Escape'); await W(300);
     // тёмные шторки: без кремовой рамки вокруг поля
     await page.click('.ic-bt-search'); await W(600);
@@ -368,9 +368,61 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     ok('loupe field: no cream frame, 8px dark field', lp.bg === 'rgba(0, 0, 0, 0)' && lp.bd === '0px' && lp.rad === '8px' && /0\.28/.test(lp.ibd), lp);
     await page.keyboard.press('Escape'); await W(300);
     await open('#/cartari/names', 'ru'); await W(2000); await page.click('.ic-rbar-tvsearch'); await W(600);
-    const cp = await page.evaluate(() => { const f = document.querySelector('#ic-tv-search-sheet .ic-home-search'), i = f.querySelector('input'); return { bg: getComputedStyle(f).backgroundColor, bd: getComputedStyle(f).borderTopWidth, rad: getComputedStyle(i).borderTopLeftRadius, ibd: getComputedStyle(i).borderTopColor }; });
-    ok('cartari sheet field: no cream frame', cp.bg === 'rgba(0, 0, 0, 0)' && cp.bd === '0px' && cp.rad === '8px' && /0\.28/.test(cp.ibd), cp);
+    const cp = await page.evaluate(() => { const f = document.querySelector('.ic-rp-findbar .ic-home-search'), i = f.querySelector('input'); return { bg: getComputedStyle(f).backgroundColor, bd: getComputedStyle(f).borderTopWidth, rad: getComputedStyle(i).borderTopLeftRadius, ibd: getComputedStyle(i).borderTopColor }; });
+    ok('cartari sheet field: no cream frame', cp.bg === 'rgba(0, 0, 0, 0)' && cp.bd === '0px' && cp.rad === '8px' && /0\.(28|5)/.test(cp.ibd), cp);
     await page.keyboard.press('Escape'); await W(300);
+
+    // ---- пятый заход ----
+    // 1. шторка «Порядок»: заканчивается сразу после последнего варианта
+    await open(LIST, 'ru'); await page.evaluate(() => sessionStorage.clear()); await page.reload({ waitUntil: 'load' }); await page.waitForSelector('.ic-row-item'); await W(1200);
+    await page.click('[data-rb="sort"]'); await W(700);
+    const sg = await page.evaluate(() => { const rows = document.querySelectorAll('#ic-ripa-sort .ic-tv-typerow'), last = rows[rows.length - 1].getBoundingClientRect(), pn = document.querySelector('#ic-ripa-sort .ic-rb-sheet-panel').getBoundingClientRect(); return Math.round(pn.bottom - last.bottom); });
+    ok('order sheet: no empty space under last option (<=34px)', sg >= 0 && sg <= 34, sg);
+    await page.keyboard.press('Escape'); await W(300);
+    await open(LIST, 'ru'); await page.waitForSelector('.ic-row-item'); await W(1200);
+    // 2. строка раздела: без рамки, разделители, мельче и тусклее вкладок, выделена только активная кнопка
+    const rs5 = await page.evaluate(() => { const row = document.querySelector('.ic-rbar-row'), b = row.querySelectorAll(':scope > button'), tab = document.querySelector('.ic-bt-tabs a .ic-bt-label') || document.querySelector('.ic-bt-tabs a'), sep = getComputedStyle(b[1], '::before');
+      return { bd: getComputedStyle(row).borderTopWidth, fs: parseFloat(getComputedStyle(b[0]).fontSize), tabFs: parseFloat(getComputedStyle(tab).fontSize), sepBg: sep.backgroundColor, sepH: sep.height,
+        on: [...b].map(x => x.classList.contains('ic-rbar-on') || x.getAttribute('aria-pressed') === 'true'), btnBd: [...b].map(x => getComputedStyle(x).borderLeftWidth + '/' + getComputedStyle(x).borderTopWidth) }; });
+    ok('section row: no frame, small, dividers, nothing highlighted by default', rs5.bd === '0px' && rs5.fs < rs5.tabFs && /236, 229, 212, 0\.18/.test(rs5.sepBg) && rs5.on.every(x => !x) && rs5.btnBd.every(x => x === '0px/0px'), rs5);
+    // 3. подписи и крестик
+    const pl = await page.evaluate(() => ({ find: document.querySelector('[data-rb="find"]').textContent.trim(), part: document.querySelector('[data-rb="part"]').textContent.trim() }));
+    ok('find label idle "Найти статью"', pl.find === 'Найти статью', pl);
+    await page.click('[data-rb="find"]'); await W(400);
+    await page.locator('.ic-rp-findbar input.ic-search').pressSequentially('лав', { delay: 30 }); await W(400);
+    const xs = await page.evaluate(() => { const x = document.querySelector('.ic-rp-findbar .ic-search-clear'), cs = getComputedStyle(x), r = x.getBoundingClientRect(), b = document.querySelector('[data-rb="find"]');
+      return { bl: cs.borderLeftWidth, bw: cs.borderTopWidth, w: Math.round(r.width), h: Math.round(r.height), onBtn: b.classList.contains('ic-rbar-on'), lbl: b.textContent.trim(), fit: (() => { const l = b.querySelector('.ic-rbar-tvsearch-label'); return l.scrollWidth <= l.clientWidth + 1; })() }; });
+    ok('clear cross: thin, no divider, 44px zone; find button highlighted; label fits', xs.bl === '0px' && xs.bw === '0px' && xs.w >= 44 && xs.h >= 44 && xs.onBtn && xs.fit, xs);
+    await page.keyboard.press('Enter'); await W(300);
+    // 3b. Картари: «Найти имя» — полоса вместо шторки
+    for (const [pg, idle, pfx, word] of [['names', 'Найти имя', 'Имя', 'аполлон'], ['index', 'Найти в указателе', 'Указатель', 'аполлон']]) {
+      await open('#/cartari/' + pg, 'ru'); await W(2000);
+      const i0 = await page.evaluate(() => document.querySelector('.ic-rbar-tvsearch').textContent.trim());
+      ok('cartari ' + pg + ' idle label', i0 === idle, i0);
+      await page.click('.ic-rbar-tvsearch'); await W(500);
+      const o1 = await page.evaluate(() => ({ bar: !document.querySelector('.ic-rp-findbar').hidden, sheets: document.querySelectorAll('.ic-rb-sheet-open').length, focus: document.activeElement && document.activeElement.tagName === 'INPUT' }));
+      ok('cartari ' + pg + ' strip opens (no sheet)', o1.bar && o1.sheets === 0, o1);
+      await page.locator('.ic-rp-findbar input.ic-search').pressSequentially(word, { delay: 30 }); await W(500);
+      const o2 = await page.evaluate(() => { const b = document.querySelector('.ic-rbar-tvsearch'), l = b.querySelector('.ic-rbar-tvsearch-label'); return { lbl: b.textContent.trim(), fit: l.scrollWidth <= l.clientWidth + 1, rows: document.querySelectorAll('.ic-tv-e,.ic-nm-row').length, on: b.classList.contains('ic-rbar-on') }; });
+      ok('cartari ' + pg + ' label with filter, fits, no mid-word cut', new RegExp('^(' + pfx + ': )?' + word + ' · \\d+$|^' + pfx + ' · \\d+$|^\\d+$').test(o2.lbl) && o2.fit && o2.on && o2.rows > 0, o2);
+      await page.keyboard.press('Enter'); await W(300);
+      const o3 = await page.evaluate(() => ({ bar: !document.querySelector('.ic-rp-findbar').hidden, focus: document.activeElement && document.activeElement.tagName === 'INPUT' }));
+      ok('cartari ' + pg + ' Enter closes strip, keyboard hidden', !o3.bar && !o3.focus, o3);
+      await page.click('.ic-rbar-tvsearch'); await W(300);
+      await page.evaluate(() => document.querySelector('.ic-tv-list').dispatchEvent(new Event('touchmove', { bubbles: true }))); await W(400);
+      ok('cartari ' + pg + ' scroll closes strip', await page.evaluate(() => document.querySelector('.ic-rp-findbar').hidden));
+    }
+    // 3c. лупа Картари: одинаковые результаты с любой вкладки, подсказка «Поиск по всей книге»
+    const loupeN = {};
+    for (const pg of ['names', 'index', 'text']) {
+      await open('#/cartari/' + pg, 'ru'); await W(2000);
+      await page.click('.ic-bt-search'); await W(500);
+      const ph = await page.$eval('#ic-rb-sheet input.ic-search', e => e.placeholder);
+      await page.locator('#ic-rb-sheet input.ic-search').pressSequentially('аполлон', { delay: 30 }); await W(2500);
+      loupeN[pg] = await page.evaluate(() => ({ ph: '', txt: document.querySelector('#ic-rb-sheet .ic-sr').innerText.slice(0, 40), n: document.querySelectorAll('#ic-rb-sheet .ic-sr li, #ic-rb-sheet .ic-sr-nm > *, #ic-rb-sheet .ic-sr-tv > *').length })); loupeN[pg].ph = ph;
+    }
+    await page.evaluate(() => sessionStorage.clear());
+    ok('cartari loupe: same results from any tab, no "not added" message, placeholder', Object.values(loupeN).every(v => !/ещё не добавлен/.test(v.txt) && v.n > 0 && v.ph === 'Поиск по всей книге') && new Set(Object.values(loupeN).map(v => v.n)).size === 1, loupeN);
   }
   if (NEW) { // ?new из закладок не ломает адрес: тот же основной вид
     await page.goto(BASE + '?new#/iconologie', { waitUntil: 'load' }); await W(900);
