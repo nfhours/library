@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "179";
+  var APP_VER = "180";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -1228,7 +1228,7 @@
       : "";
     return '<nav class="ic-booktabs" id="ic-booktabs" aria-label="'+esc(t("hmNavLabel"))+'">'+
       backBtn+
-      '<div class="ic-bt-tabs">'+tabs.map(function(x){
+      '<div class="ic-bt-tabs'+(backOpts.tabs ? " ic-bt-tabs-fit" : "")+'">'+tabs.map(function(x){
         // .ic-bt-label — см. предыдущие раунды: подпись в своём span,
         // сжимается до ширины текста, подчёркивание/плашка активной
         // вкладки (app.css) — ровно по её ширине.
@@ -2563,17 +2563,16 @@
       }
     }
     var multi = book.meta.parts && book.meta.parts.length > 1, rbSheets = [];
-    function findLabel(){ return state.q.trim() ? t("tvSearchActive",{q:state.q.trim()}) : t("tvSearchBtn"); }
+    var findCount = 0;
+    function findLabel(){ return state.q.trim() ? t("tvSearchActive",{q:state.q.trim()})+" · "+findCount : t("tvSearchBtn"); }
     var rbar =
       '<div class="ic-rbar-row">'+
-        '<button type="button" class="ic-rbar-tvsearch" data-rb="find" aria-pressed="false"><span class="ic-rbar-tvsearch-label">'+esc(findLabel())+'</span></button>'+
+        '<button type="button" class="ic-rbar-tvsearch'+(state.q.trim() ? " ic-rbar-active" : "")+'" data-rb="find" aria-pressed="false"><span class="ic-rbar-tvsearch-label">'+esc(findLabel())+'</span></button>'+
         (multi ? '<button type="button" class="ic-rbar-sort ic-rbar-partb" data-rb="part"><span class="ic-rbar-sort-label">'+esc(ripaPartLabel())+'</span></button>' : "")+
         '<button type="button" class="ic-rbar-sort" data-rb="sort"><span class="ic-rbar-sort-label">'+esc(ripaOrdLabel())+'</span></button>'+
       '</div>'+
+      '<div class="ic-rp-findbar" hidden><form class="ic-home-search" role="search"><span class="ic-search-wrap"><input class="ic-search" type="search" enterkeyhint="done" placeholder="'+esc(t("rpFindPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("rpFindPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span></form></div>'+
       langSwitch()+
-      rbSheetHtml("ic-ripa-find", "",
-        '<form class="ic-home-search" role="search"><span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("rpFindPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("rpFindPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span></form>',
-        '<div class="ic-tv-sheet-foot"><p class="ic-tv-sheet-count"></p><button type="button" class="ic-tv-sheet-reset">'+esc(t("tvReset"))+'</button></div>')+
       (multi ? rbSheetHtml("ic-ripa-part", "", "",
         '<div class="ic-tv-typelist" role="group" aria-label="'+esc(t("rpPart"))+'">'+
           [["all","rpPartAll"],["1","fPart1"],["2","fPart2"]].map(function(x){ return '<button type="button" class="ic-tv-typerow" data-f="'+x[0]+'" aria-pressed="'+(state.filter===x[0])+'"><span>'+esc(t(x[1]))+'</span></button>'; }).join("")+
@@ -2584,15 +2583,29 @@
         '</div>');
     root.innerHTML = ripaShell(book, "list", rbar)+
       '<div class="ic-ch-outer"><div class="ic-wrap ic-rp">'+
-        '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("rpTabArticles"))+'</h1></header>'+
+        '<header class="ic-head ic-rp-head"><h1 class="ic-h-fr ic-rp-h1">'+esc(t("rpTabArticles"))+'</h1></header>'+
         '<p class="ic-count ic-rp-count"></p>'+
         '<div class="ic-list ic-rp-list"></div>'+
       '</div></div>';
     var sheetApi = ripaBind(book, gen, rbSheets);
     var rbarEl = root.querySelector("#ic-rbar"), rbarRow = root.querySelector(".ic-rbar-row"), list = root.querySelector(".ic-rp-list");
-    var findEl = root.querySelector("#ic-ripa-find"), findIn = findEl.querySelector(".ic-search"), findCnt = findEl.querySelector(".ic-tv-sheet-count");
+    var findBar = root.querySelector(".ic-rp-findbar"), findForm = findBar.querySelector("form"), findIn = findBar.querySelector(".ic-search");
     var sortEl = root.querySelector("#ic-ripa-sort"), partEl = root.querySelector("#ic-ripa-part"), partBtn = root.querySelector('[data-rb="part"]'), findBtn = root.querySelector('[data-rb="find"]'), sortBtn = root.querySelector('[data-rb="sort"]');
     findIn.value = state.q; wireSearchClear(findIn);
+    // «Найти» — компактная полоса с полем под строкой раздела, без шторки и подложки: список виден сразу и
+    // фильтруется по мере ввода. Закрывается по «Готово»/Enter, Esc, касанию списка и прокрутке; фильтр остаётся.
+    var findOpen = false, findAt = 0;
+    function setFind(on){
+      if(on === findOpen) return;
+      findOpen = on; findBar.hidden = !on; findBtn.setAttribute("aria-pressed", on ? "true" : "false");
+      if(on){
+        findAt = Date.now();
+        var bt0 = document.getElementById("ic-booktabs"), stk0 = document.getElementById("ic-stack");
+        if(bt0) bt0.classList.remove("ic-bb-hidden"); if(stk0) stk0.classList.remove("ic-stack-hidden");
+        findIn.focus({preventScroll:true});
+      } else findIn.blur();
+      syncHeaderStack();
+    }
     function barH(){ return rbarEl.getBoundingClientRect().height + headerStackH() + 10; }
     function rowHtml(it, showPart){
       var fr = state.lang!=="fr" && it.fr ? ' <span class="ic-tv-it ic-rp-fr" lang="fr">'+esc(it.fr)+'</span>' : "";
@@ -2603,9 +2616,10 @@
     // Защита: исключение при построении списка не должно убирать страницу. Шапка/меню/строка раздела
     // остаются, шторки и подложка закрываются, ошибка уходит в консоль.
     function fill(){
-      try{ fillRaw(); clampSheetScroll(); }
+      try{ fillRaw(); updateLabels(); clampSheetScroll(); }
       catch(err){
         if(window.console && console.error) console.error("ripa list render failed", err);
+        try{ setFind(false); }catch(_){}
         rbSheets.forEach(function(sh){ try{ sh.close(); }catch(_){} });
         unlockBodyScroll();
         var dim = document.getElementById("ic-rb-dim"); if(dim) dim.classList.remove("ic-rb-dim-show");
@@ -2615,15 +2629,13 @@
     function fillRaw(){
       var res = filtered(book), nq = state.q.trim(), grouped = state.sort==="book" && !nq;
       var showPart = multi && (state.sort==="ru" || (!grouped && state.filter!=="1" && state.filter!=="2"));
-      var cnt = res.length ? t("found",{n:res.length}) : "";
-      root.querySelector(".ic-rp-count").textContent = cnt; findCnt.textContent = cnt;
+      findCount = res.length;
+      // «Найдено: N» — только при активном фильтре или выбранной части
+      root.querySelector(".ic-rp-count").textContent = (nq || state.filter==="1" || state.filter==="2") ? t("found",{n:res.length}) : "";
       if(!res.length){ list.innerHTML = '<p class="ic-empty">'+esc(t("emptySearch"))+'</p>'; return; }
-      var html = "", open = false, grp = null, part = 0, nqWords = nq ? norm(nq).split(/\s+/) : null, rel = null;
+      var html = "", open = false, grp = null, part = 0;
       res.forEach(function(it){
-        if(nq){
-          var hit = nqWords.every(function(w){ return it.titleKey.indexOf(w)>-1; }), rg = hit ? "title" : "body";
-          if(rg !== rel){ if(open) html += "</ul></section>"; html += '<section class="ic-rp-sec"><h2 class="ic-part">'+esc(t(hit?"matchTitle":"matchBody"))+'</h2><ul>'; open = true; rel = rg; }
-        } else if(grouped){
+        if(grouped){
           var gk = it.part+"|"+it.group+"|"+(it.group_fr||"")+"|"+(it.group_page||"");
           if(gk !== grp){
             if(open) html += "</ul></section>";
@@ -2640,22 +2652,25 @@
     }
     function updateLabels(){
       findBtn.querySelector(".ic-rbar-tvsearch-label").textContent = findLabel();
+      findBtn.classList.toggle("ic-rbar-active", !!state.q.trim());
       sortBtn.querySelector(".ic-rbar-sort-label").textContent = ripaOrdLabel();
       if(partBtn) partBtn.querySelector(".ic-rbar-sort-label").textContent = ripaPartLabel();
       root.querySelectorAll("#ic-ripa-part [data-f]").forEach(function(b){ b.setAttribute("aria-pressed", b.getAttribute("data-f")===state.filter); });
       sortEl.querySelectorAll("[data-sort-opt]").forEach(function(b){ b.setAttribute("aria-pressed", b.getAttribute("data-sort-opt")===state.sort); });
     }
     function toListTop(){ window.scrollTo(0, Math.min(window.scrollY, Math.max(0, list.getBoundingClientRect().top + window.scrollY - barH()))); }
-    findIn.addEventListener("input", function(){ state.q = findIn.value; keep(book.slug); updateLabels(); fill(); });
-    var findApi = makeRbSheet(findEl, findBtn, {registry: rbSheets,
-      onOpen: function(){ if(window.matchMedia && window.matchMedia("(pointer:fine)").matches) findIn.focus({preventScroll:true}); }, onClose: function(){ findIn.blur(); }});
+    findIn.addEventListener("input", function(){ state.q = findIn.value; keep(book.slug); fill(); updateLabels(); toListTop(); });
+    findForm.addEventListener("submit", function(e){ e.preventDefault(); setFind(false); });
+    findIn.addEventListener("keydown", function(e){ if(e.key==="Escape") setFind(false); });
+    function touchOutside(e){ if(gen!==renderGen){ document.removeEventListener("touchmove", touchOutside, true); document.removeEventListener("wheel", touchOutside, true); return; }
+      if(findOpen && Date.now()-findAt > 300 && !(e.target.closest && e.target.closest(".ic-rp-findbar"))) setFind(false); }
+    document.addEventListener("touchmove", touchOutside, true); document.addEventListener("wheel", touchOutside, true);
     var sortApi = makeRbSheet(sortEl, sortBtn, {registry: rbSheets});
     var partApi = partEl ? makeRbSheet(partEl, partBtn, {registry: rbSheets}) : null;
     if(partEl) partEl.querySelector(".ic-tv-typelist").addEventListener("click", function(e){
       var b = e.target.closest("[data-f]"); if(!b) return;
       state.filter = b.getAttribute("data-f"); keep(book.slug); updateLabels(); fill(); partApi.close(); toListTop();
     });
-    findEl.querySelector(".ic-tv-sheet-reset").addEventListener("click", function(){ findIn.value = ""; state.q = ""; keep(book.slug); updateLabels(); fill(); findIn.focus(); });
     sortEl.querySelector(".ic-tv-typelist").addEventListener("click", function(e){
       var b = e.target.closest("[data-sort-opt]"); if(!b) return;
       state.sort = b.getAttribute("data-sort-opt"); keep(book.slug); updateLabels(); fill(); sortApi.close(); toListTop();
@@ -2663,9 +2678,10 @@
     rbarRow.addEventListener("click", function(e){
       var b = e.target.closest("[data-rb]"); if(!b) return;
       var act = b.getAttribute("data-rb");
-      if(act==="find") findApi.toggle(); else if(act==="sort") sortApi.toggle(); else if(act==="part" && partApi) partApi.toggle();
+      if(act==="find"){ rbSheets.forEach(function(sh){ if(sh.isOpen()) sh.close(); }); setFind(!findOpen); }
+      else { setFind(false); if(act==="sort") sortApi.toggle(); else if(act==="part" && partApi) partApi.toggle(); }
     });
-    function openRow(r){ if(r) ripaOpen(book, r.getAttribute("data-id"), state.q); }
+    function openRow(r){ if(r){ setFind(false); ripaOpen(book, r.getAttribute("data-id"), state.q); } }
     list.addEventListener("click", function(e){ openRow(e.target.closest(".ic-row-item")); });
     list.addEventListener("keydown", function(e){ var r = e.target.closest(".ic-row-item"); if(r && (e.key==="Enter"||e.key===" ")){ e.preventDefault(); openRow(r); } });
     fill();
@@ -2675,7 +2691,7 @@
       holdAt(gen, ty); hardScrollTo(ty);
       hlFadeOut(hlMark(focusRow), [], gen);
     } else if(keepPos) restoreBlockPos(keepPos, gen); else restoreOrTop(gen);
-    installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); }); }});
+    installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return findOpen || rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); }); }});
     nudgeRepaint();
   }
 

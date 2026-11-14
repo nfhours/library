@@ -1639,8 +1639,6 @@ html.ic-hs-lock{overflow:hidden !important}
 
 /* ---- Иконология Рипы, новый вид (?new): app.js «Иконология Рипы: новый вид» ---- */
 /* строка раздела (капсула) — клетки по 44px */
-.ic-rbar-rp .ic-rbar-row{min-height:44px}
-.ic-rbar-rp button,.ic-rbar-rp .ic-rbar-lbl,.ic-rbar-rp .ic-rbar-part-l{height:44px}
 .ic-rbar-row .ic-rbar-lbl{flex:1 1 0%;min-width:0;display:flex;align-items:center;padding:0 12px;box-sizing:border-box;border-left:0}
 .ic-rbar-lbl .ic-rbar-pos-ch{flex:0 1 auto}
 .ic-rbar-lbl .ic-rbar-pos-pg{margin-left:2px}
@@ -1718,6 +1716,37 @@ html.ic-hs-lock{overflow:hidden !important}
   border-radius:4px;padding:.04em .16em;margin:0 -.04em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
 
 /* название статьи в строке раздела — кнопка к списку: как остальные кнопки строки, зона ≥44px */
-.ic-rbar-rp button.ic-rbar-lbl{justify-content:flex-start;text-align:left;text-transform:none;letter-spacing:normal;font-size:inherit;min-height:44px;cursor:pointer}
+.ic-rbar-rp button.ic-rbar-lbl{justify-content:flex-start;text-align:left;text-transform:none;letter-spacing:normal;font-size:inherit;cursor:pointer}
 .ic-rbar-rp button.ic-rbar-lbl .ic-rbar-pos-pg{text-transform:none}
 .ic .ic-rp li.ic-row-item{position:relative;isolation:isolate}
+
+/* ---- Рипа (?new), четвёртый заход: лёгкий верх ---- */
+/* меню книги Рипы: выделение вкладки по ширине слова с отступами, вкладки распределены ровно (как в Картари) */
+.ic-bt-tabs.ic-bt-tabs-fit{justify-content:space-evenly}
+.ic-bt-tabs-fit a{flex:0 1 auto;padding:0 14px}
+/* строка раздела: высота, шрифт, рамка и скругление как у указателя Картари (кнопки 36px, рамка 11px);
+   зона касания 44px — псевдоэлементами */
+.ic-rbar-rp .ic-rbar-row{overflow:visible}
+.ic-rbar-rp .ic-rbar-row > button{position:relative}
+.ic-rbar-rp .ic-rbar-row > button::after{content:"";position:absolute;left:0;right:0;top:50%;height:44px;transform:translateY(-50%)}
+.ic-rbar-rp .ic-rbar-row > button:first-child{border-radius:10px 0 0 10px}
+.ic-rbar-rp .ic-rbar-row > button:last-child{border-radius:0 10px 10px 0}
+/* «Найти»: компактная полоса с полем под строкой раздела */
+.ic-rp-findbar{margin-top:6px}
+.ic-rp-findbar[hidden]{display:none}
+.ic .ic-rp-findbar .ic-home-search{margin:0;padding:0;background:none;border:0;border-radius:0;box-shadow:none}
+.ic .ic-rp-findbar input.ic-search{height:36px;border:1px solid rgba(236,229,212,.28);border-radius:8px;padding:0 34px 0 12px;
+  font-size:16px;background:#1d1915;color:rgb(236,229,212)}
+.ic .ic-rp-findbar input.ic-search::placeholder{color:rgba(236,229,212,.5)}
+.ic .ic-rp-findbar input.ic-search:focus{border-color:rgba(236,229,212,.5)}
+.ic .ic-rp-findbar .ic-search-clear{right:6px;top:50%;transform:translateY(-50%);width:30px;height:30px;padding:0;border:0;border-radius:50%;background:none;box-shadow:none;
+  -webkit-appearance:none;appearance:none;font-size:22px;color:rgba(236,229,212,.6)}
+/* шапка списка короче: без строки с названием книги, заголовок как у разделов Картари, счётчик только при фильтре */
+.ic .ic-rp-head{margin-top:0}
+.ic .ic-rp .ic-rp-h1{font-size:var(--ic-sec-fs);font-style:normal;color:var(--accent);line-height:1;margin:6px 0 0}
+.ic-rp-count:empty{display:none}
+.ic-rp-count{margin-top:8px}
+/* поле ввода в тёмных шторках (лупа и др.): без кремовой рамки вокруг, тёмное, тонкая граница, радиус 8px */
+.ic .ic-rb-sheet-head .ic-home-search{margin:0;padding:0;background:none;border:0;border-radius:0;box-shadow:none}
+.ic .ic-rb-sheet-head .ic-home-search input.ic-search{border:1px solid rgba(236,229,212,.28);border-radius:8px}
+.ic-rbar-rp .ic-rbar-row > .ic-rbar-tvsearch.ic-rbar-active{flex:2.4 1 0}
