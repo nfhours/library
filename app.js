@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "157";
+  var APP_VER = "158";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -2722,13 +2722,13 @@
         // фиксированный зазор headH+12px (задание) — строка гарантированно
         // видна целиком при любой позиции в списке.
         tocSheetApi = makeRbSheet(tocSheetEl, posBtn, {registry: rbSheets, onOpen: function(){
-          var panelEl = tocSheetEl.querySelector(".ic-rb-sheet-panel");
-          var headEl = tocSheetEl.querySelector(".ic-rb-sheet-head");
+          var listEl = tocSheetEl.querySelector(".ic-rb-toc-body");
           var cur = tocSheetEl.querySelector('[aria-current="page"]');
-          if(!panelEl || !cur) return;
-          var headH = headEl ? headEl.getBoundingClientRect().height : 0;
-          var target = cur.offsetTop - headH - 12;
-          panelEl.scrollTop = Math.max(0, target);
+          if(!listEl || !cur) return;
+          // Текущая глава — примерно в верхней трети блока списка (он сам
+          // начинается под заголовком), целиком видна; один раз, до анимации.
+          var d = cur.getBoundingClientRect().top - listEl.getBoundingClientRect().top - listEl.clientHeight/3;
+          listEl.scrollTop = Math.max(0, listEl.scrollTop + d);
         }});
         // Выбор пункта списка — переход по обычной ссылке (<a href>), сама
         // навигация закроет панель через route()/activeSheetClose; здесь
