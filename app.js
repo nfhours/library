@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "163";
+  var APP_VER = "164";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -228,7 +228,6 @@
     // (сам запрос короткий, 1-2 слова). Общий ключ для обеих страниц.
     tvSearchActive: {ru:"Найти: {q}", en:"Search: {q}", fr:"Chercher : {q}"},
     tvReset:      {ru:"Сбросить", en:"Reset", fr:"Réinitialiser"},
-    tvBack:       {ru:"К книге", en:"To the book", fr:"Au livre"},
     tvSortRu:     {ru:"По алфавиту", en:"A–Z", fr:"Ordre alphabétique"},
     tvSortIt:     {ru:"Как в книге 1626 года", en:"As in the 1626 book", fr:"Comme dans le livre de 1626"},
     tvLetters:    {ru:"Буквы указателя", en:"Index letters", fr:"Lettres de l’index"},
@@ -992,8 +991,24 @@
     var oldHash = "#"+(e.oldURL.split("#")[1]||"");
     namesUi.pos[oldHash] = window.scrollY;
     cameFromHash = oldHash;
+    // Откуда пришли: «назад» (history.back, кнопка браузера, уголок) или новым
+    // переходом по ссылке. Каждой записи истории при первом заходе ставим
+    // возрастающий номер в history.state; переход к записи с меньшим номером —
+    // это возврат назад. Только при возврате глава восстанавливает место.
+    var st = history.state, idx = st && st.ic;
+    if(idx != null) navBack = idx < histIdx;
+    else { idx = nextHistIdx(); try{ history.replaceState({ic: idx}, ""); }catch(err){} navBack = false; }
+    histIdx = idx;
     route();
+    navBack = false;
   });
+  var histIdx = 0, navBack = false, histSeq = 0;
+  function nextHistIdx(){ return Date.now()*1000 + (histSeq++ % 1000); }
+  (function(){
+    var st = history.state;
+    if(st && st.ic != null) histIdx = st.ic;
+    else { histIdx = nextHistIdx(); try{ history.replaceState({ic: histIdx}, ""); }catch(err){} }
+  })();
   loadLibrary(function(){ route(); });
 
   // Collapse the sticky search/filter bar smoothly as the visitor scrolls
@@ -2485,7 +2500,7 @@
   // (sheetClose/sheetApi — приватные переменные внутри renderChapter,
   // недоступные здесь; DOM-кнопка — общий интерфейс, который есть всегда).
   function renderChapter(book, slug, blockN, pageSpec){
-    var gen = renderGen;
+    var gen = renderGen, cameBack = navBack;
     // Автооткрытие панели поиска при возврате «К поиску» (searchReopen, см.
     // его определение выше): если читатель открыл поиск на ЭТОЙ главе и
     // кликнул по результату, ведущему на другую главу, history.back() вернёт
@@ -2937,7 +2952,8 @@
           mo.observe(rbar, {attributes:true, attributeFilter:["class"]});
         }
         setTimeout(stop, 12000);
-      } else toTop(true);
+      } else if(cameBack) restoreOrTop(gen);
+      else toTop(true);
       nudgeRepaint();
     });
   }
@@ -3634,12 +3650,7 @@
     }) : [];
     var rest = chap ? chap.list.filter(function(c){ return !used[c.slug]; }) : [];
     if(rest.length) groups.push('<section class="ic-toc-part"><ol>'+rest.map(link).join("")+'</ol></section>');
-    // Выход на главную книги из списка глав: уголок-назад общего меню при
-    // активном контексте перехода (chCtx) ведёт туда, откуда пришли, а не
-    // на обложку — переход на обложку в этом случае остаётся доступен
-    // здесь, первым пунктом выезжающего списка глав.
-    var home = book.meta.home ? '<section class="ic-toc-part"><ol><li><a href="'+esc(coverHref(book))+'">'+esc(t("tvBack"))+'</a></li></ol></section>' : "";
-    return home+groups.join("");
+    return groups.join("");
   }
   function openChapToc(book, chap, ch, opener){
     var d = document.createElement("div");
