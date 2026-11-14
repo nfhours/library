@@ -1674,7 +1674,30 @@ html.ic-hs-lock{overflow:hidden !important}
 .ic .ic-rp-pager .ic-rp-nb-next{justify-content:flex-end;text-align:right}
 .ic .ic-rp-pager .ic-rp-nb-t{display:block;min-width:0}
 .ic .ic-rp-pager .ic-rp-nb small{display:block;font-size:.68em;letter-spacing:.1em;text-transform:uppercase;color:var(--soft);opacity:1}
-.ic .ic-rp-pager .ic-rp-nb-t span{display:block;font-family:var(--serif);font-style:normal;font-size:1em;line-height:1.3;color:var(--ink);margin-top:2px;overflow-wrap:anywhere}
+.ic .ic-rp-pager .ic-rp-nb-t span{display:block;font-family:var(--serif);font-style:normal;font-size:1em;line-height:1.3;color:var(--ink);margin-top:2px}
 .ic-rp-chev{flex:none;color:var(--soft)}
 .ic-rp-about{margin-top:14px}
 @media (hover:hover){.ic .ic-rp-pager .ic-rp-nb:hover{border-color:var(--accent)}}
+
+/* ---- Рипа (?new), второй заход ---- */
+/* гравюра в статье: не выше ~55% видимой высоты экрана (за вычетом шапки), по центру, пропорции сохранены */
+.ic .ic-rp .ic-fig img{display:block;margin:0 auto;width:auto;max-width:100%;height:auto;max-height:calc((100dvh - var(--ic-stack-full, 160px)) * .55)}
+.ic .ic-rp .ic-fig{display:flex;justify-content:center;flex-direction:column}
+/* просмотр одной гравюры (openImgFull) на базе .ic-svx */
+.ic-svx-one .ic-svx-feed{display:flex;align-items:center;justify-content:center;padding:8px}
+.ic .ic-svx-one .ic-svx-feed img{display:block;max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain}
+.ic-svx-one .ic-svx-pos{text-align:left;font-size:17px;overflow:hidden;text-overflow:ellipsis}
+/* кнопка «Часть» в строке раздела — как «порядок» */
+.ic-rbar-row .ic-rbar-partb{flex:1 1 0;min-width:0}
+/* результаты лупы: название и фрагмент слева, «с. N» справа */
+.ic .ic-rp-sra{display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding:11px 0}
+.ic-rp-srb{min-width:0;flex:1 1 auto}
+.ic .ic-rp-sra .ic-sr-t{display:block;font-size:1em;line-height:1.35;text-transform:none;letter-spacing:0}
+.ic .ic-rp-sra .ic-sr-snip{display:block;margin-top:3px;font-size:.88em;line-height:1.45;color:rgba(236,229,212,.72);text-transform:none;letter-spacing:0;overflow-wrap:break-word}
+.ic-rp-srp{flex:none;font-size:.88em;color:rgba(236,229,212,.6);text-transform:none;letter-spacing:0;white-space:nowrap}
+/* соседние статьи: переносы только по словам */
+.ic .ic-rp-pager .ic-rp-nb-t,.ic .ic-rp-pager .ic-rp-nb-t span{hyphens:none;-webkit-hyphens:none;word-break:normal;overflow-wrap:normal}
+/* кнопка очистки поля в шторках Рипы: без серого кружка UA-кнопки */
+#ic-rb-sheet.ic-rp-loupe .ic-search-clear,#ic-ripa-find .ic-search-clear{background:none;border:0;border-radius:50%;padding:0;box-shadow:none;-webkit-appearance:none;appearance:none;color:rgba(236,229,212,.6);width:30px;height:30px;font-size:22px}
+/* шторка лупы лежит внутри .ic-booktabs: правило «.ic-booktabs a» (высота 36px) к результатам не относится */
+.ic .ic-booktabs .ic-rp-sra{height:auto;flex:none;display:flex;align-items:baseline;justify-content:space-between;text-align:left;border-radius:0}

@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "174";
+  var APP_VER = "175";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -308,8 +308,12 @@
     rpOrdBook:    {ru:"Книга", en:"Book", fr:"Livre"},
     rpOrdAlpha:   {ru:"А–Я", en:"A–Z", fr:"A–Z"},
     rpOrdPage:    {ru:"Стр.", en:"Page", fr:"Page"},
-    rpSrPh:       {ru:"Сюжет, предмет или слово", en:"Subject, motif or word", fr:"Sujet, motif ou mot"},
-    rpSrHint:     {ru:"Поиск по названиям, описаниям и текстам статей.", en:"Searches titles, descriptions and article texts.", fr:"Recherche dans les titres, les descriptions et les textes."},
+    rpSrPh:       {ru:"Поиск по всему тексту", en:"Search the full text", fr:"Recherche dans tout le texte"},
+    rpFindPh:     {ru:"Название или предмет", en:"Title or subject", fr:"Titre ou sujet"},
+    rpPartAll:    {ru:"Все части", en:"All parts", fr:"Toutes les parties"},
+    rpPrevFull:   {ru:"Предыдущая", en:"Previous", fr:"Précédente"},
+    rpNextFull:   {ru:"Следующая", en:"Next", fr:"Suivante"},
+    rpSrHint:     {ru:"Ищет слово во всём тексте статей: в названиях, описаниях и переводах.", en:"Finds a word anywhere in the articles: titles, descriptions and translations.", fr:"Cherche un mot dans tous les textes : titres, descriptions et traductions."},
     rpSrMore:     {ru:"Ещё {n}: уточните запрос.", en:"{n} more: refine the query.", fr:"{n} de plus : précisez la requête."}
   };
   function t(key, vars){
@@ -2109,7 +2113,7 @@
       if(state.filter==="withimg" && it.textOnly) return false;
       if(state.filter==="noimg" && !it.textOnly) return false;
       if(!nq) return true;
-      var k = it.key, ck = chapKey(book, it);
+      var k = ripaNew(book) ? ripaFindKey(it) : it.key, ck = chapKey(book, it);
       if(ck) k += " "+ck;
       return nq.split(/\s+/).every(function(w){ return k.indexOf(w)>-1; });
     });
@@ -2361,6 +2365,17 @@
   var NEW_RIPA = /[?&]new(=|&|$)/.test(location.search);
   function ripaNew(book){ return NEW_RIPA && book && book.slug==="iconologie"; }
   var RIPA_CTX = {ripa:1};
+  // «Найти» в новом виде — только названия (RU/EN/FR и французское заглавие) и предметы (описание «что изображено»)
+  function ripaFindKey(it){
+    if(it.findKey === undefined){
+      it.findKey = norm([it.fr, it.ru, it.en||"", it.name_fr||"", (it.attrs||[]).map(function(a){ return (a.what||"")+" "+(a.what_en||"")+" "+(a.what_frtrans||""); }).join(" ")].join(" "));
+    }
+    return it.findKey;
+  }
+  function ripaFlag(it){
+    var f = state.lang==="fr" ? (it.flag_fr || it.flag) : state.lang==="en" ? (it.flag_en || it.flag) : it.flag;
+    return f ? " ("+esc(f)+")" : "";
+  }
   var ripaHl = null;   // {id, q}: слово, к которому ведёт результат поиска (подсветка в статье)
   function ripaTabs(book){
     return [["list", t("rpTabArticles"), coverHref(book)], ["plates", t("hmGallery"), hrefFor(book,"plates")], ["about", t("aboutTitle"), hrefFor(book,"about")]];
@@ -2416,7 +2431,7 @@
       parts.push(what, meaning);
     });
     (textFor(it, book)||[]).forEach(function(p){ parts.push(p); });
-    for(var i=1;i<parts.length;i++){
+    for(var i=2;i<parts.length;i++){
       var raw = String(parts[i]||"").replace(/¶/g," "), nr = norm(raw);
       for(var k=0;k<words.length;k++){
         var ix = nr.indexOf(words[k]);
@@ -2448,8 +2463,9 @@
       if(!res.length){ box.innerHTML = '<p class="ic-sr-hint">'+esc(t("emptySearch"))+'</p>'; return; }
       var LIM = 60;
       box.innerHTML = '<p class="ic-sr-hint">'+esc(t("found",{n:res.length}))+'</p><ul class="ic-sr-ul">'+res.slice(0,LIM).map(function(it){
-        return '<li><a class="ic-sr-a" href="'+esc(hrefFor(book,it.id))+'" data-id="'+esc(it.id)+'"><span class="ic-sr-meta">'+esc(t("pageAbbr"))+' '+esc(it.page)+(book.meta.parts && book.meta.parts.length>1 ? " · "+esc(t("partN",{n:it.part})) : "")+'</span>'+
-          '<span class="ic-sr-t">'+esc(titleOf(it))+'</span><span class="ic-sr-snip">'+ripaSnippet(it, words, book)+'</span></a></li>';
+        var sn = ripaSnippet(it, words, book);
+        return '<li><a class="ic-sr-a ic-rp-sra" href="'+esc(hrefFor(book,it.id))+'" data-id="'+esc(it.id)+'"><span class="ic-rp-srb"><span class="ic-sr-t">'+esc(titleOf(it))+'</span>'+(sn ? '<span class="ic-sr-snip">'+sn+'</span>' : "")+'</span>'+
+          '<span class="ic-rp-srp">'+esc(t("pageAbbr"))+' '+esc(it.page)+'</span></a></li>';
       }).join("")+'</ul>'+(res.length>LIM ? '<p class="ic-sr-hint">'+esc(t("rpSrMore",{n:res.length-LIM}))+'</p>' : "");
     }
     q.addEventListener("input", function(){ clearTimeout(timer); timer = setTimeout(run, 120); });
@@ -2463,6 +2479,7 @@
   }
 
   /* ----- «Статьи» ----- */
+  function ripaPartLabel(){ return t(state.filter==="1" ? "fPart1" : state.filter==="2" ? "fPart2" : "rpPartAll"); }
   function ripaOrdLabel(){ return t(state.sort==="ru" ? "rpOrdAlpha" : state.sort==="page" ? "rpOrdPage" : "rpOrdBook"); }
   function renderRipaList(book){
     var gen = renderGen, keepPos = (langKeep && langKeep.hash === location.hash) ? langKeep : null;
@@ -2472,14 +2489,18 @@
     var rbar =
       '<div class="ic-rbar-row">'+
         '<button type="button" class="ic-rbar-tvsearch" data-rb="find" aria-pressed="false"><span class="ic-rbar-tvsearch-label">'+esc(findLabel())+'</span></button>'+
-        (multi ? '<div class="ic-rbar-part" role="group" aria-label="'+esc(t("rpPart"))+'"><span class="ic-rbar-part-l">'+esc(t("rpPart"))+'</span>'+
-          [["all",t("fAll")],["1","1"],["2","2"]].map(function(x){ return '<button type="button" class="ic-rbar-pt" data-f="'+x[0]+'" aria-pressed="'+(state.filter===x[0])+'">'+esc(x[1])+'</button>'; }).join("")+'</div>' : "")+
+        (multi ? '<button type="button" class="ic-rbar-sort ic-rbar-partb" data-rb="part"><span class="ic-rbar-sort-label">'+esc(ripaPartLabel())+'</span></button>' : "")+
         '<button type="button" class="ic-rbar-sort" data-rb="sort"><span class="ic-rbar-sort-label">'+esc(ripaOrdLabel())+'</span></button>'+
       '</div>'+
       langSwitch()+
       rbSheetHtml("ic-ripa-find", "",
-        '<form class="ic-home-search" role="search"><span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("searchPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("searchPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span></form>',
+        '<form class="ic-home-search" role="search"><span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("rpFindPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("rpFindPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span></form>',
         '<div class="ic-tv-sheet-foot"><p class="ic-tv-sheet-count"></p><button type="button" class="ic-tv-sheet-reset">'+esc(t("tvReset"))+'</button></div>')+
+      (multi ? rbSheetHtml("ic-ripa-part", "",
+        '<span class="ic-rb-sheet-head-title">'+esc(t("rpPart"))+'</span>',
+        '<div class="ic-tv-typelist" role="group" aria-label="'+esc(t("rpPart"))+'">'+
+          [["all","rpPartAll"],["1","fPart1"],["2","fPart2"]].map(function(x){ return '<button type="button" class="ic-tv-typerow" data-f="'+x[0]+'" aria-pressed="'+(state.filter===x[0])+'"><span>'+esc(t(x[1]))+'</span></button>'; }).join("")+
+        '</div>') : "")+
       rbSheetHtml("ic-ripa-sort", "",
         '<span class="ic-rb-sheet-head-title">'+esc(t("rpOrder"))+'</span>',
         '<div class="ic-tv-typelist" role="group" aria-label="'+esc(t("rpOrder"))+'">'+
@@ -2494,13 +2515,13 @@
     var sheetApi = ripaBind(book, gen, rbSheets);
     var rbarEl = root.querySelector("#ic-rbar"), rbarRow = root.querySelector(".ic-rbar-row"), list = root.querySelector(".ic-rp-list");
     var findEl = root.querySelector("#ic-ripa-find"), findIn = findEl.querySelector(".ic-search"), findCnt = findEl.querySelector(".ic-tv-sheet-count");
-    var sortEl = root.querySelector("#ic-ripa-sort"), findBtn = root.querySelector('[data-rb="find"]'), sortBtn = root.querySelector('[data-rb="sort"]');
+    var sortEl = root.querySelector("#ic-ripa-sort"), partEl = root.querySelector("#ic-ripa-part"), partBtn = root.querySelector('[data-rb="part"]'), findBtn = root.querySelector('[data-rb="find"]'), sortBtn = root.querySelector('[data-rb="sort"]');
     findIn.value = state.q; wireSearchClear(findIn);
     function barH(){ return rbarEl.getBoundingClientRect().height + headerStackH() + 10; }
     function rowHtml(it, showPart){
       var fr = state.lang!=="fr" && it.fr ? ' <span class="ic-tv-it ic-rp-fr" lang="fr">'+esc(it.fr)+'</span>' : "";
       return '<li class="ic-row-item" tabindex="0" role="link" data-id="'+it.id+'" data-anchor="'+it.id+'">'+
-        '<span class="ic-rp-t"><span class="ic-tv-ru">'+esc(titleOf(it))+(it.flag?" ("+esc(it.flag)+")":"")+'</span>'+fr+'</span>'+
+        '<span class="ic-rp-t"><span class="ic-tv-ru">'+esc(titleOf(it))+ripaFlag(it)+'</span>'+fr+'</span>'+
         '<span class="ic-rp-pg">'+(showPart ? '<small>'+esc(t("partN",{n:it.part}))+'</small>' : "")+esc(it.page)+'</span></li>';
     }
     function fill(){
@@ -2532,7 +2553,8 @@
     function updateLabels(){
       findBtn.querySelector(".ic-rbar-tvsearch-label").textContent = findLabel();
       sortBtn.querySelector(".ic-rbar-sort-label").textContent = ripaOrdLabel();
-      root.querySelectorAll(".ic-rbar-pt").forEach(function(b){ b.setAttribute("aria-pressed", b.getAttribute("data-f")===state.filter); });
+      if(partBtn) partBtn.querySelector(".ic-rbar-sort-label").textContent = ripaPartLabel();
+      root.querySelectorAll("#ic-ripa-part [data-f]").forEach(function(b){ b.setAttribute("aria-pressed", b.getAttribute("data-f")===state.filter); });
       sortEl.querySelectorAll("[data-sort-opt]").forEach(function(b){ b.setAttribute("aria-pressed", b.getAttribute("data-sort-opt")===state.sort); });
     }
     function toListTop(){ window.scrollTo(0, Math.min(window.scrollY, Math.max(0, list.getBoundingClientRect().top + window.scrollY - barH()))); }
@@ -2540,16 +2562,20 @@
     var findApi = makeRbSheet(findEl, findBtn, {registry: rbSheets,
       onOpen: function(){ if(window.matchMedia && window.matchMedia("(pointer:fine)").matches) findIn.focus({preventScroll:true}); }, onClose: function(){ findIn.blur(); }});
     var sortApi = makeRbSheet(sortEl, sortBtn, {registry: rbSheets});
+    var partApi = partEl ? makeRbSheet(partEl, partBtn, {registry: rbSheets}) : null;
+    if(partEl) partEl.querySelector(".ic-tv-typelist").addEventListener("click", function(e){
+      var b = e.target.closest("[data-f]"); if(!b) return;
+      state.filter = b.getAttribute("data-f"); keep(book.slug); updateLabels(); fill(); partApi.close(); toListTop();
+    });
     findEl.querySelector(".ic-tv-sheet-reset").addEventListener("click", function(){ findIn.value = ""; state.q = ""; keep(book.slug); updateLabels(); fill(); findIn.focus(); });
     sortEl.querySelector(".ic-tv-typelist").addEventListener("click", function(e){
       var b = e.target.closest("[data-sort-opt]"); if(!b) return;
       state.sort = b.getAttribute("data-sort-opt"); keep(book.slug); updateLabels(); fill(); sortApi.close(); toListTop();
     });
     rbarRow.addEventListener("click", function(e){
-      var p = e.target.closest(".ic-rbar-pt");
-      if(p){ state.filter = p.getAttribute("data-f"); keep(book.slug); updateLabels(); fill(); toListTop(); return; }
       var b = e.target.closest("[data-rb]"); if(!b) return;
-      if(b.getAttribute("data-rb")==="find") findApi.toggle(); else if(b.getAttribute("data-rb")==="sort") sortApi.toggle();
+      var act = b.getAttribute("data-rb");
+      if(act==="find") findApi.toggle(); else if(act==="sort") sortApi.toggle(); else if(act==="part" && partApi) partApi.toggle();
     });
     function openRow(r){ if(r) ripaOpen(book, r.getAttribute("data-id"), state.q); }
     list.addEventListener("click", function(e){ openRow(e.target.closest(".ic-row-item")); });
@@ -2565,7 +2591,7 @@
   // рамка фиксированной пропорции, чтобы lazy-картинки вне экрана не грузились разом.
   function ripaThumb(book, it){
     var src = (it.img||[])[0]; if(!src) return "";
-    return BASE+"books/"+book.slug+"/img/"+src.replace(/\.(jpe?g|webp)$/i,"_display.webp");
+    return BASE+"books/"+book.slug+"/thumb/"+src.replace(/\.(jpe?g|webp)$/i,"")+"_t.webp";
   }
   function renderRipaPlates(book){
     var gen = renderGen, keepPos = (langKeep && langKeep.hash === location.hash) ? langKeep : null, multi = book.meta.parts && book.meta.parts.length > 1, rbSheets = [];
@@ -2700,8 +2726,8 @@
       '</div>'+langSwitch() : "";
     var rpPager = rp ?
       '<div class="ic-pager ic-rp-pager">'+
-        (prev ? '<button type="button" class="ic-rp-nb ic-rp-nb-prev" data-go="'+prev.id+'">'+RP_CHEV_L+'<span class="ic-rp-nb-t"><small>'+t("pagerBack")+'</small><span>'+esc(titleOf(prev))+'</span></span></button>' : '<span></span>')+
-        (next ? '<button type="button" class="ic-rp-nb ic-rp-nb-next" data-go="'+next.id+'"><span class="ic-rp-nb-t"><small>'+t("pagerNext")+'</small><span>'+esc(titleOf(next))+'</span></span>'+RP_CHEV_R+'</button>' : '<span></span>')+
+        (prev ? '<button type="button" class="ic-rp-nb ic-rp-nb-prev" data-go="'+prev.id+'">'+RP_CHEV_L+'<span class="ic-rp-nb-t"><small>'+t("rpPrevFull")+'</small><span>'+esc(titleOf(prev))+'</span></span></button>' : '<span></span>')+
+        (next ? '<button type="button" class="ic-rp-nb ic-rp-nb-next" data-go="'+next.id+'"><span class="ic-rp-nb-t"><small>'+t("rpNextFull")+'</small><span>'+esc(titleOf(next))+'</span></span>'+RP_CHEV_R+'</button>' : '<span></span>')+
       '</div>' : "";
     var rpSheets = [];
     root.innerHTML =
@@ -2745,7 +2771,7 @@
       var id=b.getAttribute("data-go"); if(!id) return;
       if(rp) ripaStep(book, id); else go(book, id);
     });});
-    root.querySelectorAll(".ic-fig").forEach(function(f){ f.addEventListener("click",function(){ lightbox(f.getAttribute("data-src")); }); });
+    root.querySelectorAll(".ic-fig").forEach(function(f){ f.addEventListener("click",function(){ if(rp) openImgFull(f.getAttribute("data-src"), titleOf(it)); else lightbox(f.getAttribute("data-src")); }); });
     if(showOrig && (hasScans||hasFr)) bindOriginal(it, pagesBase);
     if(rp){
       var gen = renderGen;
@@ -2758,6 +2784,8 @@
           if(det.open) hardScrollTo(Math.max(0, window.scrollY + det.getBoundingClientRect().top - viewEdge() - 12));
         });
       }
+      function setVis(){ var st0 = document.getElementById("ic-stack"); if(st0) root.style.setProperty("--ic-stack-full", Math.round(st0.getBoundingClientRect().height)+"px"); }
+      setVis(); window.addEventListener("resize", function rs(){ if(gen !== renderGen){ window.removeEventListener("resize", rs); return; } setVis(); });
       ripaAnchors();
       if(keepRp && keepRp.anchor) restoreBlockPos(keepRp, gen);
       else { toTop(); if(ripaHl && ripaHl.id===it.id) setTimeout(function(){ if(gen===renderGen) ripaHighlight(gen); }, 120); else ripaHl = null; }
@@ -5179,6 +5207,30 @@
     nudgeRepaint();
   }
 
+  // Просмотр одной гравюры на весь экран (новый вид Рипы): тёмный фон, нативный щипок;
+  // закрывается «назад»/жестом от края/Esc/уголком — запись истории, как у просмотра сканов.
+  function openImgFull(src, title){
+    if(sv) return;
+    var d = document.createElement("div");
+    d.className = "ic ic-svx ic-svx-one"; d.setAttribute("role","dialog"); d.setAttribute("aria-label", t("lbAlt"));
+    d.innerHTML = '<div class="ic-svx-bar"><button type="button" class="ic-svx-back" aria-label="'+esc(t("close"))+'">'+ICON_BACK+'</button><span class="ic-svx-pos">'+esc(title||"")+'</span></div>'+
+      '<div class="ic-svx-feed"><img alt="" src="'+esc(src)+'"></div>';
+    var st = {idx:0, panel:false};
+    function onKey(e){ if(e.key === "Escape") st.close(); }
+    st.close = function(fromPop){
+      if(sv !== st) return;
+      sv = null; document.removeEventListener("keydown", onKey);
+      if(fromPop !== true && history.state && history.state.sv){ try{ history.back(); }catch(e){} }
+      d.remove();
+    };
+    st.go = function(){};
+    d.querySelector(".ic-svx-back").addEventListener("click", function(){ st.close(); });
+    sv = st;
+    try{ histIdx = nextHistIdx(); history.pushState({ic: histIdx, sv: 1}, ""); }catch(e){}
+    ensureManual();
+    document.addEventListener("keydown", onKey);
+    document.body.appendChild(d);
+  }
   function lightbox(src){
     var d=document.createElement("div"); d.className="ic ic-lb"; d.setAttribute("role","dialog"); d.setAttribute("aria-label",t("lbAlt"));
     d.innerHTML='<img src="'+esc(src)+'" alt=""><button type="button" aria-label="'+esc(t("close"))+'">×</button>';

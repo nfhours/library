@@ -49,6 +49,11 @@ const W = ms => new Promise(r => setTimeout(r, ms));
       await W(300);
     },
     async clear() { await A.search(''); },
+    async loupe(q) { // только новый вид: лупа ищет по всему тексту
+      await page.evaluate(q => { const i = document.querySelector('#ic-rb-sheet input.ic-search'); i.value = q; i.dispatchEvent(new Event('input', { bubbles: true })); }, q);
+      await W(500);
+      return page.$$eval('#ic-rb-sheet .ic-sr-a', els => els.map(e => e.getAttribute('data-id')));
+    },
     async part(v) { // 'all' | '1' | '2'
       await page.evaluate(v => { document.querySelector('[data-f="' + v + '"]').click(); }, v); await W(300);
     },
@@ -74,6 +79,18 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     const n = await rows(), c = await countNum();
     res.search[k] = { n, c, first: await titles(3) };
     ok('search ' + k + ' > 0', n > 0, n); ok('search ' + k + ' count==rows', n === c, [n, c]);
+  }
+  if (NEW) {
+    // «Найти» — только названия и предметы; лупа — весь текст (числа лупы = числам прежнего общего поиска)
+    const base0 = fs.existsSync(BASEFILE) ? JSON.parse(fs.readFileSync(BASEFILE, 'utf8')) : null;
+    res.loupe = {};
+    for (const [k, q] of Object.entries(queries)) {
+      const ids = await A.loupe(q); res.loupe[k] = ids.length;
+      if (base0) ok('loupe ' + k + ' == baseline', ids.length === Math.min(60, base0.search[k].n), [ids.length, base0.search[k].n]);
+      if (base0) ok('find ' + k + ' <= baseline', res.search[k].n <= base0.search[k].n, [res.search[k].n, base0.search[k].n]);
+    }
+    ok('find word(text) narrower than loupe', res.search.word.n < res.loupe.word, [res.search.word.n, res.loupe.word]);
+    ok('find title_ru > 0', res.search.title_ru.n > 0);
   }
   await A.search('ъъъъъъ'); res.searchEmpty = await rows(); ok('empty search 0 rows', res.searchEmpty === 0);
   await A.clear(); ok('cleared back to 440', (await rows()) === 440);
@@ -161,6 +178,38 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     await A.search(q); res['search_' + L] = await rows(); ok('search ' + L + ' > 0', res['search_' + L] > 0);
   }
 
+  if (NEW) {
+    // кнопка «Часть» и шторка
+    await open('#/iconologie', 'ru'); await page.waitForSelector('.ic-row-item');
+    await A.clear(); await page.evaluate(() => { document.querySelector('#ic-ripa-part [data-f="all"]').click(); }); await W(300);
+    res.partBtn = await page.$eval('[data-rb="part"]', e => e.textContent.trim()); ok('part button label', /Все части/.test(res.partBtn), res.partBtn);
+    await page.click('[data-rb="part"]'); await W(600);
+    res.partRows = await page.$$eval('#ic-ripa-part [data-f]', els => els.map(e => e.textContent.trim() + ':' + e.getAttribute('aria-pressed')));
+    ok('part sheet 3 rows', res.partRows.length === 3 && /Все части:true/.test(res.partRows[0]), res.partRows);
+    await page.evaluate(() => document.querySelector('#ic-ripa-part [data-f="2"]').click()); await W(500);
+    res.partBtn2 = await page.$eval('[data-rb="part"]', e => e.textContent.trim()); ok('part button -> Часть 2', /Часть 2/.test(res.partBtn2), res.partBtn2);
+    ok('part 2 count', (await rows()) === 266);
+    // гравюра в статье: высота ≤ 55% видимой, просмотр на весь экран, «назад» закрывает
+    await open('#/iconologie/p1-5', 'ru'); await page.waitForSelector('.ic-fig img'); await W(1200);
+    const g = await page.evaluate(() => { const im = document.querySelector('.ic-fig img'), r = im.getBoundingClientRect(), st = document.getElementById('ic-stack').getBoundingClientRect().height; return { h: r.height, cap: (innerHeight - st) * 0.55, cx: Math.abs((r.left + r.width / 2) - innerWidth / 2) }; });
+    res.fig = g; ok('figure height <= 55%', g.h <= g.cap + 1, g); ok('figure centered', g.cx < 3, g);
+    await page.evaluate(() => scrollTo(0, 120)); await W(300); const y1 = await page.evaluate(() => scrollY);
+    await page.evaluate(() => document.querySelector('.ic-fig').click()); await W(700);
+    ok('viewer open', await page.evaluate(() => !!document.querySelector('.ic-svx-one img')));
+    await page.goBack(); await W(700);
+    ok('viewer closed by back', await page.evaluate(() => !document.querySelector('.ic-svx-one') && location.hash === '#/iconologie/p1-5'));
+    ok('article position kept after viewer', Math.abs((await page.evaluate(() => scrollY)) - y1) < 4, y1);
+    await page.evaluate(() => document.querySelector('.ic-fig').click()); await W(500); await page.click('.ic-svx-back'); await W(600);
+    ok('viewer closed by corner', await page.evaluate(() => !document.querySelector('.ic-svx-one')));
+    // подписи соседних статей
+    res.pagerLbl = await page.$$eval('.ic-rp-nb small', els => els.map(e => e.textContent)); ok('pager labels', res.pagerLbl.join() === 'Предыдущая,Следующая', res.pagerLbl);
+    // нет кириллицы в EN/FR на списке и в шторках
+    for (const L of ['en', 'fr']) {
+      await open('#/iconologie', L); await page.waitForSelector('.ic-row-item');
+      const bad = await page.evaluate(() => { const out = []; const w = document.createTreeWalker(document.getElementById('iconologie'), NodeFilter.SHOW_TEXT); let n; while ((n = w.nextNode())) if (/[\u0400-\u04FF]/.test(n.data)) out.push(n.data.trim().slice(0, 40)); return out.slice(0, 5); });
+      ok('no cyrillic ' + L, bad.length === 0, bad);
+    }
+  }
   ok('console clean', errs.length === 0, errs.slice(0, 5));
   await br.close();
 
@@ -170,9 +219,10 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     const b = JSON.parse(fs.readFileSync(BASEFILE, 'utf8'));
     const cmp = (name, a, c) => { if (JSON.stringify(a) !== JSON.stringify(c)) fails.push('baseline ' + name + ': ' + JSON.stringify(a) + ' vs ' + JSON.stringify(c)); };
     cmp('total', b.total, res.total);
-    for (const k of Object.keys(b.search)) cmp('search.' + k + '.n', b.search[k].n, res.search[k].n);
+    if (!NEW) for (const k of Object.keys(b.search)) cmp('search.' + k + '.n', b.search[k].n, res.search[k].n);
     cmp('part', b.part, res.part); cmp('p1_5', b.p1_5, res.p1_5); cmp('direct.h1', b.direct.h1, res.direct.h1);
-    cmp('searchEmpty', b.searchEmpty, res.searchEmpty); cmp('search_en', b.search_en, res.search_en); cmp('search_fr', b.search_fr, res.search_fr);
+    cmp('searchEmpty', b.searchEmpty, res.searchEmpty);
+    if (!NEW) { cmp('search_en', b.search_en, res.search_en); cmp('search_fr', b.search_fr, res.search_fr); }
     cmp('sort.page', b.sort.page, res.sort.page);
   }
   fs.writeFileSync(path.join(OUT, NEW ? 'ripa-new-result.json' : 'ripa-old-result.json'), JSON.stringify({ res, fails, errs }, null, 1));
