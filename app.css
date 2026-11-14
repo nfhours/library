@@ -1726,16 +1726,6 @@ html.ic-hs-lock{overflow:hidden !important}
 .ic-bt-tabs-fit a{flex:0 1 auto;padding:0 14px}
 /* строка раздела: высота, шрифт, рамка и скругление как у указателя Картари (кнопки 36px, рамка 11px);
    зона касания 44px — псевдоэлементами */
-/* «Найти»: компактная полоса с полем под строкой раздела */
-.ic-rp-findbar{margin-top:6px}
-.ic-rp-findbar[hidden]{display:none}
-.ic .ic-rp-findbar .ic-home-search{margin:0;padding:0;background:none;border:0;border-radius:0;box-shadow:none}
-.ic .ic-rp-findbar input.ic-search{height:36px;border:1px solid rgba(236,229,212,.28);border-radius:8px;padding:0 34px 0 12px;
-  font-size:16px;background:#1d1915;color:rgb(236,229,212)}
-.ic .ic-rp-findbar input.ic-search::placeholder{color:rgba(236,229,212,.5)}
-.ic .ic-rp-findbar input.ic-search:focus{border-color:rgba(236,229,212,.5)}
-.ic .ic-rp-findbar .ic-search-clear{right:6px;top:50%;transform:translateY(-50%);width:30px;height:30px;padding:0;border:0;border-radius:50%;background:none;box-shadow:none;
-  -webkit-appearance:none;appearance:none;font-size:22px;color:rgba(236,229,212,.6)}
 /* шапка списка короче: без строки с названием книги, заголовок как у разделов Картари, счётчик только при фильтре */
 .ic .ic-rp-head{margin-top:0}
 .ic .ic-rp .ic-rp-h1{font-size:var(--ic-sec-fs);font-style:normal;color:var(--accent);line-height:1;margin:6px 0 0}
@@ -1748,7 +1738,6 @@ html.ic-hs-lock{overflow:hidden !important}
 /* ---- пятый заход ---- */
 /* кнопки строки раздела: мельче (10.5px); остальное оформление — как в v180. «Найти» с активным фильтром шире, чтобы влезла подпись */
 .ic .ic-rbar-row > button{font-size:10.5px}
-.ic .ic-rbar-row > .ic-rbar-tvsearch.ic-rbar-active{flex:2.4 1 0}
 /* Рипа: зона касания 44px и скругления крайних кнопок — как в v180 */
 .ic-rbar-rp .ic-rbar-row{overflow:visible}
 .ic-rbar-rp .ic-rbar-row > button{position:relative}
@@ -1756,13 +1745,37 @@ html.ic-hs-lock{overflow:hidden !important}
 .ic-rbar-rp .ic-rbar-row > button:first-child{border-radius:10px 0 0 10px}
 .ic-rbar-rp .ic-rbar-row > button:last-child{border-radius:0 10px 10px 0}
 /* крестик очистки: тонкий ×, без черты и рамки, зона касания 44px (полоса «Найти» и шторка лупы) */
-.ic .ic-rp-findbar .ic-search-clear,.ic .ic-rb-sheet-head .ic-search-clear{position:absolute;right:0;top:50%;transform:translateY(-50%);width:44px;height:44px;
+.ic .ic-rb-sheet-head .ic-search-clear{position:absolute;right:0;top:50%;transform:translateY(-50%);width:44px;height:44px;
   padding:0;margin:0;border:0;border-left:0;border-radius:0;background:none;box-shadow:none;-webkit-appearance:none;appearance:none;
   font-size:24px;font-weight:200;line-height:1;color:rgba(236,229,212,.6);display:flex;align-items:center;justify-content:center;text-transform:none;letter-spacing:0}
-.ic .ic-rp-findbar .ic-search-clear::before,.ic .ic-rp-findbar .ic-search-clear::after,.ic .ic-rb-sheet-head .ic-search-clear::before,.ic .ic-rb-sheet-head .ic-search-clear::after{content:none}
-.ic .ic-rp-findbar input.ic-search,.ic .ic-rb-sheet-head input.ic-search{padding-right:44px}
-@media (hover:hover){.ic .ic-rp-findbar .ic-search-clear:hover,.ic .ic-rb-sheet-head .ic-search-clear:hover{background:none;color:rgb(236,229,212)}}
+@media (hover:hover){.ic .ic-rb-sheet-head .ic-search-clear:hover{background:none;color:rgb(236,229,212)}}
 /* шторки выбора («Часть», «Порядок», «Тип»): заканчиваются сразу после последнего варианта */
 .ic .ic-rb-sheet:not(.ic-rb-sheet-toc) .ic-rb-sheet-panel > .ic-tv-typelist{padding-bottom:calc(12px + env(safe-area-inset-bottom));-webkit-mask-image:none;mask-image:none}
 /* результаты лупы лежат внутри .ic-booktabs: правило «.ic-booktabs a» (высота 36px, flex) к ним не относится — строки налезали друг на друга */
 .ic .ic-booktabs .ic-sr a{height:auto;flex:none;min-width:0;padding:revert;text-align:left;border-radius:0}
+
+/* ---- шестой заход: нажатие без анимации; поиск прямо в строке раздела ---- */
+/* никаких transition/animation у кнопок: ни на нажатии, ни на выборе */
+.ic button,.ic .ic-lang-b,.ic .ic-booktabs a,.ic .ic-bt-tabs a,.ic .ic-chip,.ic .ic-home-tile,.ic .ic-tv-typerow,.ic .ic-rbar-row > *,.ic .ic-svx-bar button,
+.ic .back-bar .back-bar-brand a,.ic .ic-pgm-b,.ic .ic-ov-b{transition:none!important;animation:none!important;-webkit-tap-highlight-color:transparent}
+.ic button:focus:not(:focus-visible),.ic a:focus:not(:focus-visible){outline:none}
+/* нажатая кнопка сразу получает «вариант 3», без масштаба и без второй рамки */
+.ic .ic-lang-b:active,.ic .ic-booktabs a:active,.ic .ic-booktabs button:active,.ic .ic-rbar-row > button:not([disabled]):active,.ic .ic-tv-typerow:active,.ic .ic-chip:active,
+.ic button.ic-rb-sheet-close:active,.ic .ic-svx-bar button:active,.ic .ic-svx-back:active,.ic button.ic-tv-sheet-reset:active,.ic .ic-rbar-done:active,.ic .ic-rbar-findx:active{
+  background:rgba(236,229,212,.14)!important;box-shadow:inset 0 0 0 1px rgba(236,229,212,.28)!important;border-radius:8px!important;transform:none!important}
+.ic .ic-rbar-row > button[aria-pressed="true"]{border-radius:8px}
+.ic .ic-home-tile:active{transform:none!important}
+/* строка раздела в режиме ввода: та же высота, рамка и скругление, что у обычной строки */
+.ic-rbar-findrow{display:flex;align-items:stretch;min-width:0;max-width:1120px;margin:0 auto;border:1px solid rgba(var(--cream),.34);border-radius:11px;overflow:hidden}
+.ic-rbar-findrow[hidden],.ic-rbar-row[hidden]{display:none}
+.ic-rbar-findform{display:flex;align-items:stretch;flex:1 1 auto;min-width:0;margin:0}
+.ic-rbar-findwrap{flex:1 1 auto;min-width:0;display:flex}
+.ic .ic-rbar-findin{flex:1 1 auto;min-width:0;width:100%;height:36px;box-sizing:border-box;margin:0;padding:0 8px 0 12px;border:0;border-radius:0;background:transparent;box-shadow:none;
+  color:rgb(var(--cream));font-size:16px;line-height:1;-webkit-appearance:none;appearance:none;outline:0}
+.ic .ic-rbar-findin::placeholder{color:rgba(var(--cream),.5)}
+.ic .ic-rbar-findin::-webkit-search-cancel-button,.ic .ic-rbar-findin::-webkit-search-decoration{-webkit-appearance:none;display:none}
+.ic .ic-rbar-findx{flex:none;position:relative;width:34px;padding:0;border:0;border-left:0;border-radius:0;font-size:22px;font-weight:200;line-height:1;letter-spacing:0;text-transform:none;color:rgba(var(--cream),.6)}
+.ic .ic-rbar-done{flex:none;position:relative}
+.ic .ic-rbar-findx::after,.ic .ic-rbar-done::after{content:"";position:absolute;left:0;right:0;top:50%;height:44px;transform:translateY(-50%)}
+@media (max-height:500px) and (orientation:landscape){.ic .ic-rbar-findin{height:30px}}
+.ic .ic-rbar-done{font-size:10.5px}

@@ -16,7 +16,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     await p.evaluate(h => scrollTo(0, h * 0.4), H); await W(300); await p.evaluate(h => scrollTo(0, h * 0.4 + 300), H); await W(900);
     const y = await p.evaluate(() => scrollY);
     await p.click('.ic-rbar-tvsearch'); await W(800);
-    const inp = p.locator('.ic-rp-findbar input.ic-search'); const bad = []; let rows0 = await p.evaluate(() => document.body.offsetHeight);
+    const inp = p.locator('.ic-rbar-findin'); const bad = []; let rows0 = await p.evaluate(() => document.body.offsetHeight);
     for (const ch of word) { await inp.pressSequentially(ch, { delay: 30 }); await W(60); const v = await view(); if (v !== 'ok') bad.push(ch + ': ' + v); }
     const rows1 = await p.evaluate(() => document.body.offsetHeight);
     console.log(page, word, 'scrollY', y, 'H', H, 'body', rows0, '->', rows1, bad.length ? 'BAD ' + bad.slice(0, 3) : 'ok');

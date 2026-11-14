@@ -45,7 +45,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
       if (!NEW) {
         await page.evaluate(q => { const i = document.querySelector('.ic-wrap input.ic-search'); i.value = q; i.dispatchEvent(new Event('input', { bubbles: true })); }, q);
       } else {
-        await page.evaluate(q => { const i = document.querySelector('.ic-rp-findbar input.ic-search'); i.value = q; i.dispatchEvent(new Event('input', { bubbles: true })); }, q);
+        await page.evaluate(q => { const i = document.querySelector('.ic-rbar-findin'); i.value = q; i.dispatchEvent(new Event('input', { bubbles: true })); }, q);
       }
       await W(300);
     },
@@ -260,7 +260,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
       await page.evaluate(([pt, so]) => { document.querySelector('#ic-ripa-part [data-f="' + pt + '"]').click(); document.querySelector('#ic-ripa-sort [data-sort-opt="' + so + '"]').click(); }, [part, sort]); await W(300);
       await page.evaluate(() => scrollTo(0, 4000)); await W(300); await page.evaluate(() => scrollTo(0, 4300)); await W(700);
       await page.click('[data-rb="find"]'); await W(700);
-      const inp = page.locator('.ic-rp-findbar input.ic-search'); let bad = [];
+      const inp = page.locator('.ic-rbar-findin'); let bad = [];
       for (const str of typed[L]) {
         await inp.fill('');
         for (const ch of str) { await inp.pressSequentially(ch, { delay: 4 }); const v = await inView(); if (v !== 'ok') bad.push(str + '@' + ch + ': ' + v); }
@@ -277,7 +277,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     await pg.goto(URL0 + '#/iconologie/list', { waitUntil: 'load' }); await pg.waitForSelector('.ic-row-item'); await W(1200);
     await pg.click('[data-rb="find"]'); await W(600);
     await pg.evaluate(() => { const o = String.prototype.normalize; String.prototype.normalize = function () { throw new Error('boom'); }; setTimeout(() => { String.prototype.normalize = o; }, 1500); });
-    await pg.locator('.ic-rp-findbar input.ic-search').pressSequentially('аб', { delay: 10 }); await W(300);
+    await pg.locator('.ic-rbar-findin').pressSequentially('аб', { delay: 10 }); await W(300);
     const g = await pg.evaluate(() => ({ st: !!document.getElementById('ic-stack'), tabs: !!document.querySelector('.ic-booktabs'), bar: !!document.querySelector('.ic-rbar'), sheetOpen: !!document.querySelector('.ic-rb-sheet-open'), dim: getComputedStyle(document.getElementById('ic-rb-dim')).opacity, locked: document.body.style.position === 'fixed' }));
     res.guard = g; ok('guard: frame stays, sheet closed', g.st && g.tabs && g.bar && !g.sheetOpen && g.dim === '0' && !g.locked, g);
     ok('guard: error logged', gerrs.some(e => /ripa list render failed/.test(e)), gerrs);
@@ -319,7 +319,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     await A.search('Abondance'); await W(300);
     await page.evaluate(t => { location.hash = t; }, target); await page.waitForSelector('.ic-rbar-lbl-b'); await W(900);
     await page.click('.ic-rbar-lbl-b'); await W(1500);
-    const f2 = await page.evaluate(() => ({ part: document.querySelector('[data-rb="part"]').textContent.trim(), q: document.querySelector('.ic-rp-findbar input.ic-search').value, hl: !!document.querySelector('.ic-row-item[data-id="p2-123"] .ic-hl-mark') }));
+    const f2 = await page.evaluate(() => ({ part: document.querySelector('[data-rb="part"]').textContent.trim(), q: document.querySelector('.ic-rbar-findin').value, hl: !!document.querySelector('.ic-row-item[data-id="p2-123"] .ic-hl-mark') }));
     ok('hidden by text: text reset, part kept', f2.part === 'Часть 2' && f2.q === '' && f2.hl, f2);
     await page.evaluate(() => document.querySelector('#ic-ripa-part [data-f="all"]').click());
   }
@@ -342,34 +342,12 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     // шапка списка
     const hd = await page.evaluate(() => ({ kicker: !!document.querySelector('.ic-rp .ic-kicker'), h1: parseFloat(getComputedStyle(document.querySelector('h1')).fontSize), count: document.querySelector('.ic-rp-count').textContent, match: /Совпадения/.test(document.querySelector('.ic-rp').textContent) }));
     ok('list head: no kicker, small title, no count', !hd.kicker && hd.h1 <= 2.1 * 18 + 1 && hd.count === '', hd);
-    // «Найти»: полоса
-    await page.click('[data-rb="find"]'); await W(500);
-    const st1 = await page.evaluate(() => ({ bar: !document.querySelector('.ic-rp-findbar').hidden, focus: document.activeElement && document.activeElement.classList.contains('ic-search'), sheet: !!document.querySelector('.ic-rb-sheet-open'), dim: getComputedStyle(document.getElementById('ic-rb-dim')).opacity, h: Math.round(document.querySelector('.ic-rp-findbar').getBoundingClientRect().height),
-      cream: getComputedStyle(document.querySelector('.ic-rp-findbar .ic-home-search')).backgroundColor, rows: document.querySelectorAll('.ic-row-item').length }));
-    res.findBar = st1; ok('find strip open, list visible, no sheet/dim', st1.bar && st1.sheet === false && st1.dim === '0' && st1.rows > 100 && st1.h <= 44 && /0, 0, 0, 0|rgba\(0, 0, 0, 0\)/.test(st1.cream), st1);
-    await page.locator('.ic-rp-findbar input.ic-search').pressSequentially('лав', { delay: 40 }); await W(400);
-    const st2 = await page.evaluate(() => ({ lbl: document.querySelector('[data-rb="find"]').textContent.trim(), rows: document.querySelectorAll('.ic-row-item').length, heads: [...document.querySelectorAll('.ic-rp .ic-part')].map(e => e.textContent), count: document.querySelector('.ic-rp-count').textContent }));
-    ok('find label "Статья: лав · N"', st2.lbl === 'Статья: лав · ' + st2.rows && st2.rows > 0 && st2.rows < 100, st2);
-    ok('find: no text-match sections', !st2.heads.some(h => /Совпадения/.test(h)) && /Найдено/.test(st2.count), st2);
-    await page.keyboard.press('Enter'); await W(400);
-    const st3 = await page.evaluate(() => ({ bar: !document.querySelector('.ic-rp-findbar').hidden, focus: document.activeElement && document.activeElement.tagName === 'INPUT', rows: document.querySelectorAll('.ic-row-item').length, lbl: document.querySelector('[data-rb="find"]').textContent.trim() }));
-    ok('Enter closes strip, filter kept, keyboard hidden', !st3.bar && !st3.focus && st3.rows === st2.rows && /^Статья: лав/.test(st3.lbl), st3);
-    await page.click('[data-rb="find"]'); await W(400);
-    await page.evaluate(() => document.querySelector('.ic-rp-list').dispatchEvent(new Event('touchmove', { bubbles: true }))); await W(500);
-    ok('wheel/scroll closes strip', await page.evaluate(() => document.querySelector('.ic-rp-findbar').hidden));
-    await page.click('[data-rb="find"]'); await W(400);
-    await page.click('.ic-rp-findbar .ic-search-clear'); await W(400);
-    const st4 = await page.evaluate(() => ({ rows: document.querySelectorAll('.ic-row-item').length, lbl: document.querySelector('[data-rb="find"]').textContent.trim(), bar: !document.querySelector('.ic-rp-findbar').hidden }));
-    ok('clear cross resets filter', st4.rows === 440 && st4.lbl === 'Найти статью' && st4.bar, st4);
-    await page.keyboard.press('Escape'); await W(300);
+    // «Найти» в строке раздела — см. rowSearch ниже
     // тёмные шторки: без кремовой рамки вокруг поля
     await page.click('.ic-bt-search'); await W(600);
     const lp = await page.evaluate(() => { const f = document.querySelector('#ic-rb-sheet .ic-home-search'), i = f.querySelector('input'); return { bg: getComputedStyle(f).backgroundColor, bd: getComputedStyle(f).borderTopWidth, ibd: getComputedStyle(i).borderTopColor, rad: getComputedStyle(i).borderTopLeftRadius, ibg: getComputedStyle(i).backgroundColor }; });
     ok('loupe field: no cream frame, 8px dark field', lp.bg === 'rgba(0, 0, 0, 0)' && lp.bd === '0px' && lp.rad === '8px' && /0\.28/.test(lp.ibd), lp);
     await page.keyboard.press('Escape'); await W(300);
-    await open('#/cartari/names', 'ru'); await W(2000); await page.click('.ic-rbar-tvsearch'); await W(600);
-    const cp = await page.evaluate(() => { const f = document.querySelector('.ic-rp-findbar .ic-home-search'), i = f.querySelector('input'); return { bg: getComputedStyle(f).backgroundColor, bd: getComputedStyle(f).borderTopWidth, rad: getComputedStyle(i).borderTopLeftRadius, ibd: getComputedStyle(i).borderTopColor }; });
-    ok('cartari sheet field: no cream frame', cp.bg === 'rgba(0, 0, 0, 0)' && cp.bd === '0px' && cp.rad === '8px' && /0\.(28|5)/.test(cp.ibd), cp);
     await page.keyboard.press('Escape'); await W(300);
 
     // ---- пятый заход ----
@@ -385,32 +363,58 @@ const W = ms => new Promise(r => setTimeout(r, ms));
       return { bd: getComputedStyle(row).borderTopWidth, fs: parseFloat(getComputedStyle(b[0]).fontSize), tabFs: parseFloat(getComputedStyle(tab).fontSize), sepBg: sep.backgroundColor, sepH: sep.height,
         on: [...b].map(x => x.classList.contains('ic-rbar-on') || x.getAttribute('aria-pressed') === 'true'), btnBd: [...b].map(x => getComputedStyle(x).borderLeftWidth + '/' + getComputedStyle(x).borderTopWidth) }; });
     ok('section row: v180 look (frame, cells), buttons 10.5px, smaller than tabs, nothing highlighted by default', rs5.bd === '1px' && rs5.fs === 10.5 && rs5.fs < rs5.tabFs && rs5.on.every(x => !x), rs5);
-    // 3. подписи и крестик
-    const pl = await page.evaluate(() => ({ find: document.querySelector('[data-rb="find"]').textContent.trim(), part: document.querySelector('[data-rb="part"]').textContent.trim() }));
-    ok('find label idle "Найти статью"', pl.find === 'Найти статью', pl);
-    await page.click('[data-rb="find"]'); await W(400);
-    await page.locator('.ic-rp-findbar input.ic-search').pressSequentially('лав', { delay: 30 }); await W(400);
-    const xs = await page.evaluate(() => { const x = document.querySelector('.ic-rp-findbar .ic-search-clear'), cs = getComputedStyle(x), r = x.getBoundingClientRect(), b = document.querySelector('[data-rb="find"]');
-      return { bl: cs.borderLeftWidth, bw: cs.borderTopWidth, w: Math.round(r.width), h: Math.round(r.height), onBtn: b.classList.contains('ic-rbar-on'), lbl: b.textContent.trim(), fit: (() => { const l = b.querySelector('.ic-rbar-tvsearch-label'); return l.scrollWidth <= l.clientWidth + 1; })() }; });
-    ok('clear cross: thin, no divider, 44px zone; find button highlighted; label fits', xs.bl === '0px' && xs.bw === '0px' && xs.w >= 44 && xs.h >= 44 && xs.onBtn && xs.fit, xs);
-    await page.keyboard.press('Enter'); await W(300);
-    // 3b. Картари: «Найти имя» — полоса вместо шторки
-    for (const [pg, idle, pfx, word] of [['names', 'Найти имя', 'Имя', 'аполлон'], ['index', 'Найти в указателе', 'Указатель', 'аполлон']]) {
-      await open('#/cartari/' + pg, 'ru'); await W(2000);
-      const i0 = await page.evaluate(() => document.querySelector('.ic-rbar-tvsearch').textContent.trim());
-      ok('cartari ' + pg + ' idle label', i0 === idle, i0);
-      await page.click('.ic-rbar-tvsearch'); await W(500);
-      const o1 = await page.evaluate(() => ({ bar: !document.querySelector('.ic-rp-findbar').hidden, sheets: document.querySelectorAll('.ic-rb-sheet-open').length, focus: document.activeElement && document.activeElement.tagName === 'INPUT' }));
-      ok('cartari ' + pg + ' strip opens (no sheet)', o1.bar && o1.sheets === 0, o1);
-      await page.locator('.ic-rp-findbar input.ic-search').pressSequentially(word, { delay: 30 }); await W(500);
-      const o2 = await page.evaluate(() => { const b = document.querySelector('.ic-rbar-tvsearch'), l = b.querySelector('.ic-rbar-tvsearch-label'); return { lbl: b.textContent.trim(), fit: l.scrollWidth <= l.clientWidth + 1, rows: document.querySelectorAll('.ic-tv-e,.ic-nm-row').length, on: b.classList.contains('ic-rbar-on') }; });
-      ok('cartari ' + pg + ' label with filter, fits, no mid-word cut', new RegExp('^(' + pfx + ': )?' + word + ' · \\d+$|^' + pfx + ' · \\d+$|^\\d+$').test(o2.lbl) && o2.fit && o2.on && o2.rows > 0, o2);
-      await page.keyboard.press('Enter'); await W(300);
-      const o3 = await page.evaluate(() => ({ bar: !document.querySelector('.ic-rp-findbar').hidden, focus: document.activeElement && document.activeElement.tagName === 'INPUT' }));
-      ok('cartari ' + pg + ' Enter closes strip, keyboard hidden', !o3.bar && !o3.focus, o3);
+    // 3. «Найти» прямо в строке раздела: открытие, ввод, «Готово», повторное открытие с текстом, крестик в обоих режимах, ширины ячеек, без transition
+    const rowSearch = async (name, idle, ph, word, listSel) => {
+      const st = () => page.evaluate(() => { const r = document.querySelector('.ic-rbar-row'), f = document.querySelector('.ic-rbar-findrow'), b = document.querySelector('.ic-rbar-tvsearch'), l = b.querySelector('.ic-rbar-tvsearch-label'), i = f.querySelector('input');
+        return { rowHidden: r.hidden, rowH: Math.round(r.getBoundingClientRect().height), findHidden: f.hidden, findH: Math.round(f.getBoundingClientRect().height), widths: [...r.querySelectorAll(':scope > button')].map(x => Math.round(x.getBoundingClientRect().width)),
+          lbl: b.textContent.trim(), fit: l.scrollWidth <= l.clientWidth + 1, val: i.value, ph: i.placeholder, focus: document.activeElement === i, sheets: document.querySelectorAll('.ic-rb-sheet-open').length, pageH: document.documentElement.scrollHeight,
+          tr: [...document.querySelectorAll('.ic-rbar-row button, .ic-bt-tabs a, .ic-lang-b, .ic-bt-back, .ic-bt-search, .ic-rbar-findrow button')].map(x => getComputedStyle(x).transitionDuration + '|' + getComputedStyle(x).animationName) }; });
+      const s0 = await st();
+      ok(name + ': idle label', s0.lbl === idle, s0.lbl);
+      ok(name + ': no transition/animation on buttons', s0.tr.every(x => x === '0s|none'), s0.tr.filter(x => x !== '0s|none'));
+      const bb = await page.$eval('.ic-rbar-row > button:last-child', b => { const r = b.getBoundingClientRect(); return [r.left + r.width / 2, r.top + r.height / 2]; });
+      await page.mouse.move(bb[0], bb[1]); await page.mouse.down(); await W(80);
+      const pr = await page.$eval('.ic-rbar-row > button:last-child', b => { const c = getComputedStyle(b); return { bg: c.backgroundColor, sh: c.boxShadow, tf: c.transform, rad: c.borderRadius, tr: c.transitionDuration }; });
+      await page.mouse.move(200, 420); await page.mouse.up(); await W(100);
+      ok(name + ': pressed button instantly gets "variant 3", no scale/transition', pr.bg === 'rgba(236, 229, 212, 0.14)' && /0\.28/.test(pr.sh) && pr.tf === 'none' && pr.rad === '8px' && pr.tr === '0s', pr);
+      await page.click('.ic-rbar-tvsearch'); await W(400);
+      const s1 = await st();
+      ok(name + ': row becomes input (same height), keyboard focus, no sheet', s1.rowHidden && !s1.findHidden && s1.findH === s0.rowH && s1.focus && s1.ph === ph && s1.sheets === 0 && s1.pageH === s0.pageH, { s0h: s0.rowH, s1 });
+      await page.locator('.ic-rbar-findin').pressSequentially(word, { delay: 30 }); await W(500);
+      const s2 = await st();
+      ok(name + ': list filters while typing', await page.evaluate(sel => document.querySelectorAll(sel).length, listSel) > 0 && s2.val === word);
+      await page.keyboard.press('Enter'); await W(400);
+      const s3 = await st();
+      ok(name + ': Enter returns the row, filter kept, label "' + word + ' · N" without prefix, widths unchanged, keyboard hidden',
+        !s3.rowHidden && s3.findHidden && !s3.focus && !/:/.test(s3.lbl) && /^[^ ]+… · \d+$|^[^ ]+ · \d+$|^\d+$/.test(s3.lbl) && s3.fit && JSON.stringify(s3.widths) === JSON.stringify(s0.widths) && s3.rowH === s0.rowH, { s0w: s0.widths, s3 });
+      await page.click('.ic-rbar-tvsearch'); await W(400);
+      const s4 = await st(); ok(name + ': reopen shows typed text', !s4.findHidden && s4.val === word && s4.focus, s4);
+      await page.click('.ic-rbar-done'); await W(300);
+      const s5 = await st(); ok(name + ': "Done" returns the row, filter kept', !s5.rowHidden && s5.findHidden && s5.lbl === s3.lbl && !s5.focus, s5);
       await page.click('.ic-rbar-tvsearch'); await W(300);
-      await page.evaluate(() => document.querySelector('.ic-tv-list').dispatchEvent(new Event('touchmove', { bubbles: true }))); await W(400);
-      ok('cartari ' + pg + ' scroll closes strip', await page.evaluate(() => document.querySelector('.ic-rp-findbar').hidden));
+      await page.click('.ic-rbar-findx'); await W(400);
+      const s6 = await st(); ok(name + ': cross with text clears, field stays open', !s6.findHidden && s6.val === '' && s6.focus, s6);
+      await page.click('.ic-rbar-findx'); await W(400);
+      const s7 = await st(); ok(name + ': cross on empty field closes it, row shows "' + idle + '"', !s7.rowHidden && s7.findHidden && s7.lbl === idle && JSON.stringify(s7.widths) === JSON.stringify(s0.widths), s7);
+      await page.click('.ic-rbar-tvsearch'); await W(300);
+      await page.evaluate(sel => document.querySelector(sel).dispatchEvent(new Event('touchmove', { bubbles: true })), listSel.split(',')[0].replace(/^\.ic-tv-e$/, '.ic-tv-list')); await W(400);
+      const s8 = await st(); ok(name + ': scroll closes the field', !s8.rowHidden && s8.findHidden, s8);
+      await page.click('.ic-rbar-tvsearch'); await W(300);
+      await page.evaluate(() => document.querySelector('.ic-rbar-findin').dispatchEvent(new Event('keydown', { bubbles: true })));
+      await page.keyboard.press('Escape'); await W(200);
+      res['rowSearch_' + name] = { s0, s3 };
+    };
+    await open(LIST, 'ru'); await page.evaluate(() => sessionStorage.clear()); await page.reload({ waitUntil: 'load' }); await page.waitForSelector('.ic-row-item'); await W(1200);
+    await rowSearch('ripa list', 'Найти статью', 'Название или предмет', 'лав', '.ic-rp-list');
+    for (const [pg, idle, ph, listSel] of [['names', 'Найти имя', 'Имя', '.ic-tv-list'], ['index', 'Найти в указателе', 'Слово в указателе', '.ic-tv-list']]) {
+      await open('#/cartari/' + pg, 'ru'); await page.evaluate(() => sessionStorage.clear()); await page.reload({ waitUntil: 'load' }); await W(2200);
+      await rowSearch('cartari ' + pg, idle, ph, 'аполлон', listSel);
+    }
+    // EN/FR: подписи и подсказки
+    for (const [lang, idle, ph] of [['en', 'Find name', 'Name'], ['fr', 'Chercher un nom', 'Nom']]) {
+      await open('#/cartari/names', lang); await W(2200);
+      const l = await page.evaluate(() => ({ lbl: document.querySelector('.ic-rbar-tvsearch').textContent.trim(), ph: document.querySelector('.ic-rbar-findin').placeholder, done: document.querySelector('.ic-rbar-done').textContent.trim() }));
+      ok('cartari names ' + lang + ': labels', l.lbl === idle && l.ph === ph && l.done.length > 1, l);
     }
     // 3c. лупа Картари: одинаковые результаты с любой вкладки, подсказка «Поиск по всей книге»
     const loupeN = {};
