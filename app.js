@@ -5,7 +5,11 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "168";
+  // Режим восстановления прокрутки — в самом начале и при каждой навигации:
+  // у iOS Safari он относится к записи истории, и новая запись снова «auto».
+  function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
+  ensureManual();
+  var APP_VER = "169";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -64,7 +68,7 @@
     window.addEventListener("hashchange", function(e){ addr("hashchange", e); });
     window.addEventListener("popstate", function(e){ addr("popstate", e); });
     // после app-обработчика: какое state стало (replaceState для новых записей)
-    window.addEventListener("hashchange", function(){ setTimeout(function(){ var s = history.state; if(s && s.ic != null) lastIdx = s.ic; log("  state после route: ic="+(s && s.ic != null ? String(s.ic).slice(-6) : "null")); }, 0); });
+    window.addEventListener("hashchange", function(){ setTimeout(function(){ var s = history.state; if(s && s.ic != null) lastIdx = s.ic; log("  state после route: ic="+(s && s.ic != null ? String(s.ic).slice(-6) : "null")+" restoration="+history.scrollRestoration); }, 0); });
     window.addEventListener("scroll", function(){
       var now = performance.now();
       if(now - lastAddrAt <= 2000 && now - lastScrollLog >= 100){ lastScrollLog = now; log("scroll y="+sy()+" docH="+docH()); }
@@ -86,17 +90,36 @@
     }).observe(root, {childList: true});
     function build(){
       panel = document.createElement("div");
-      panel.style.cssText = "position:fixed;left:0;right:0;bottom:0;z-index:2147483647;background:rgba(0,0,0,.72);color:#9f9;font:9px/1.25 monospace;padding:3px 4px;pointer-events:none;max-height:36vh;overflow:hidden";
+      panel.style.cssText = "position:fixed;left:0;right:0;bottom:0;z-index:2147483646;background:rgba(0,0,0,.72);color:#9f9;font:9px/1.25 monospace;padding:3px 4px;pointer-events:none;max-height:36vh;overflow:hidden";
       pre = document.createElement("pre"); pre.style.cssText = "margin:0;white-space:pre-wrap;word-break:break-all;font:inherit"; panel.appendChild(pre);
+      document.body.appendChild(panel); pre.textContent = buf.slice(-30).join("\n");
+      // кнопка — отдельным элементом (внутри панели с overflow:hidden её обрезало)
       var b = document.createElement("button"); b.type = "button"; b.textContent = "Копировать";
-      b.style.cssText = "pointer-events:auto;position:absolute;right:4px;top:-26px;font:12px sans-serif;padding:4px 10px;border:0;border-radius:6px;background:rgba(0,0,0,.72);color:#fff";
+      b.style.cssText = "position:fixed;right:8px;bottom:calc(36vh + 8px);z-index:2147483647;font:14px sans-serif;padding:8px 14px;border:0;border-radius:8px;background:rgba(0,0,0,.8);color:#fff;touch-action:manipulation";
+      function done(ok){ b.textContent = ok ? "Скопировано" : "Не вышло — выделите текст вручную"; setTimeout(function(){ b.textContent = "Копировать"; }, 2000); }
+      function manual(txt){
+        // запасной вариант: видимое поле с выделенным текстом (долгий тап → «Скопировать»)
+        var w = document.createElement("div"); w.style.cssText = "position:fixed;inset:0;z-index:2147483647;background:rgba(0,0,0,.85);padding:10px;display:flex;flex-direction:column;gap:8px";
+        var ta = document.createElement("textarea"); ta.value = txt; ta.readOnly = false; ta.style.cssText = "flex:1;font:16px monospace;width:100%";
+        var x = document.createElement("button"); x.type = "button"; x.textContent = "Закрыть"; x.style.cssText = "font:16px sans-serif;padding:10px";
+        x.addEventListener("click", function(){ w.remove(); });
+        w.appendChild(ta); w.appendChild(x); document.body.appendChild(w);
+        ta.focus(); ta.setSelectionRange(0, txt.length);
+      }
       b.addEventListener("click", function(){
-        var txt = buf.join("\n");
-        function fb(){ var ta = document.createElement("textarea"); ta.value = txt; ta.style.cssText = "position:fixed;top:0;opacity:0"; document.body.appendChild(ta); ta.select(); try{ document.execCommand("copy"); }catch(e){} ta.remove(); }
-        try{ navigator.clipboard.writeText(txt).then(function(){ b.textContent = "Скопировано"; }, function(){ fb(); b.textContent = "Скопировано"; }); }catch(e){ fb(); b.textContent = "Скопировано"; }
-        setTimeout(function(){ b.textContent = "Копировать"; }, 1500);
+        var txt = buf.join("\n"), ok = false;
+        // 1) синхронно в жесте: textarea + execCommand (надёжно на iOS)
+        try{
+          var ta = document.createElement("textarea"); ta.value = txt;
+          ta.style.cssText = "position:fixed;left:0;top:0;width:1px;height:1px;font-size:16px;opacity:.01";
+          document.body.appendChild(ta); ta.focus(); ta.setSelectionRange(0, txt.length);
+          ok = document.execCommand("copy"); ta.remove();
+        }catch(e){ ok = false; }
+        if(ok){ done(true); return; }
+        // 2) Clipboard API — тоже сразу в обработчике жеста
+        try{ navigator.clipboard.writeText(txt).then(function(){ done(true); }, function(){ manual(txt); }); }catch(e){ manual(txt); }
       });
-      panel.appendChild(b); document.body.appendChild(panel); pre.textContent = buf.slice(-30).join("\n");
+      document.body.appendChild(b);
     }
     if(document.body) build(); else document.addEventListener("DOMContentLoaded", build);
   })();
@@ -1055,6 +1078,7 @@
   }
 
   function route(){
+    ensureManual();
     renderGen++;
     if(activeSheetClose){ activeSheetClose(); }
     if(sv) sv.close();
@@ -1115,6 +1139,7 @@
   // этот файл уже использует точечно для указателя/имён/гравюр/поиска —
   // здесь просто пишется для ЛЮБОГО хэша единообразно.
   window.addEventListener("hashchange", function(e){
+    ensureManual();
     var oldHash = "#"+(e.oldURL.split("#")[1]||"");
     namesUi.pos[oldHash] = window.scrollY;
     cameFromHash = oldHash;
@@ -1132,6 +1157,7 @@
   // «назад» Safari/жест при открытом просмотре скана: запись {sv:1} снимается,
   // просмотр закрывается, хэш (глава) остаётся тем же.
   window.addEventListener("popstate", function(){
+    ensureManual();
     // popstate приходит ДО hashchange: histIdx здесь трогать нельзя (иначе
     // hashchange не отличит «назад» от нового перехода и глава не вернёт
     // место) — только при снятии записи просмотра скана, где хэш не меняется.
@@ -1143,7 +1169,7 @@
   });
   // Позицию страницы ведём сами (namesUi.pos + navBack); встроенное
   // восстановление Safari после «назад» спорило бы с ним.
-  try{ history.scrollRestoration = "manual"; }catch(e){}
+  ensureManual();
   var histIdx = 0, navBack = false, histSeq = 0;
   function nextHistIdx(){ return Date.now()*1000 + (histSeq++ % 1000); }
   (function(){
@@ -1359,8 +1385,10 @@
     var gen = renderGen;
     function snap(){
       if(gen !== renderGen) return;
-      var r=root.getBoundingClientRect(); if(r.top<headerOffset) window.scrollTo(0, window.scrollY+r.top-headerOffset);
+      var r=root.getBoundingClientRect(); if(r.top<headerOffset) hardScrollTo(Math.max(0, window.scrollY+r.top-headerOffset));
     }
+    // Новый переход: целью стоит верх страницы до конца отрисовки (см. holdAt)
+    holdAt(gen, 0);
     snap();
     // The big plate/figure images have no explicit width/height, so the page
     // grows once each one finishes loading. The browser's own scroll
@@ -1385,14 +1413,49 @@
     var y = namesUi.pos[location.hash];
     if(y!=null){
       delete namesUi.pos[location.hash];
-      requestAnimationFrame(function(){ if(gen===renderGen) window.scrollTo(0,y); });
+      holdAt(gen, y);
+      requestAnimationFrame(function(){ if(gen===renderGen) hardScrollTo(y); });
     } else toTop(true);
   }
   // WebKit (в т.ч. iPadOS) иногда не перерисовывает position:sticky после замены
   // innerHTML на SPA-переходе — элемент «застревает» в старом положении/размере.
   // Небольшой форс-reflow после каждого рендера чинит это без видимого мигания.
   function nudgeRepaint(){
-    requestAnimationFrame(function(){ window.scrollTo(window.scrollX, window.scrollY); });
+    // Раньше здесь закреплялся ТЕКУЩИЙ scrollY — при инерции iOS это было
+    // промежуточное значение прокрутки предыдущей страницы. Если у перехода
+    // есть цель (holdAt: верх или сохранённая позиция), закрепляем её.
+    var gen = renderGen;
+    requestAnimationFrame(function(){
+      if(hold && hold.gen === gen && gen === renderGen) hardScrollTo(hold.y);
+      else window.scrollTo(window.scrollX, window.scrollY);
+    });
+  }
+  // hardScrollTo — scrollTo, который iOS не игнорирует во время инерционной
+  // прокрутки: на кадр overflow:hidden на html обрывает инерцию, затем
+  // прокручиваем и возвращаем overflow.
+  function hardScrollTo(y){
+    var de = document.documentElement, prev = de.style.overflow;
+    de.style.overflow = "hidden";
+    window.scrollTo(0, y);
+    void de.offsetHeight;
+    requestAnimationFrame(function(){
+      de.style.overflow = prev;
+      if(Math.abs(window.scrollY - y) > 1) window.scrollTo(0, y);
+    });
+  }
+  // holdAt — цель прокрутки текущего перехода (верх или сохранённая позиция
+  // при «назад»): пока читатель не коснулся экрана, несколько раз проверяем,
+  // что страница стоит на цели (инерция, догрузка раскладки, Safari).
+  var hold = null;
+  function holdAt(gen, y){
+    hold = {gen: gen, y: y};
+    var touched = false;
+    function onT(){ touched = true; }
+    ["touchstart","wheel","keydown"].forEach(function(n){ window.addEventListener(n, onT, {once:true, passive:true, capture:true}); });
+    [60, 200, 500, 1000].forEach(function(ms){ setTimeout(function(){
+      if(touched || gen !== renderGen) return;
+      if(Math.abs(window.scrollY - y) > 1) hardScrollTo(y);
+    }, ms); });
   }
 
   /* ---------- «пришли сюда»: единая подсветка места перехода ----------
@@ -5000,6 +5063,7 @@
 
     sv = st;
     try{ histIdx = nextHistIdx(); history.pushState({ic: histIdx, sv: 1}, ""); }catch(e){}
+    ensureManual();
     document.addEventListener("keydown", onKey); window.addEventListener("resize", onResize);
     document.body.appendChild(d);
     function start(){ if(sv === st) render(); }
