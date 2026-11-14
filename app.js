@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "178";
+  var APP_VER = "179";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -2418,6 +2418,16 @@
     namesUi.pos[location.hash] = window.scrollY;
     location.hash = h.replace(/^#/,"");
   }
+  // Название статьи в строке раздела и вкладка «Статьи» из статьи: в список, прокрученный к этой статье,
+  // со мягкой подсветкой строки. Обычный переход (запись истории), «назад» браузера вернёт в статью.
+  var ripaFocus = null;   // id статьи, к которой должен прокрутиться и которую подсветить список
+  function ripaToList(book, id){
+    ripaFocus = id;
+    namesUi.pos[location.hash] = window.scrollY;
+    var h = hrefFor(book, "list");
+    if(location.hash === h){ route(); return; }
+    location.hash = h.replace(/^#/,"");
+  }
   // Пред./След. — заменяют запись истории (статьи не копятся в «назад»).
   function ripaStep(book, id){
     var act = ctxActiveFor(RIPA_CTX), h = hrefFor(book, id);
@@ -2541,6 +2551,17 @@
   function renderRipaList(book){
     var gen = renderGen, keepPos = (langKeep && langKeep.hash === location.hash) ? langKeep : null;
     restoreState(book.slug); state.scroll = 0;
+    var focusId = ripaFocus; ripaFocus = null;
+    var focusIt = focusId && book.byId[focusId];
+    if(focusIt){
+      // сбрасываем только то, что скрывает статью: сперва текст в «Найти», потом часть
+      var inRes = function(){ return filtered(book).indexOf(focusIt) >= 0; };
+      if(!inRes()){
+        var q0 = state.q; state.q = "";
+        if(!inRes()){ state.q = q0; state.filter = "all"; if(!inRes()) state.q = ""; }
+        keep(book.slug);
+      }
+    }
     var multi = book.meta.parts && book.meta.parts.length > 1, rbSheets = [];
     function findLabel(){ return state.q.trim() ? t("tvSearchActive",{q:state.q.trim()}) : t("tvSearchBtn"); }
     var rbar =
@@ -2648,7 +2669,12 @@
     list.addEventListener("click", function(e){ openRow(e.target.closest(".ic-row-item")); });
     list.addEventListener("keydown", function(e){ var r = e.target.closest(".ic-row-item"); if(r && (e.key==="Enter"||e.key===" ")){ e.preventDefault(); openRow(r); } });
     fill();
-    if(keepPos) restoreBlockPos(keepPos, gen); else restoreOrTop(gen);
+    var focusRow = focusIt ? list.querySelector('.ic-row-item[data-id="'+focusIt.id+'"]') : null;
+    if(focusRow){
+      var ty = Math.max(0, window.scrollY + focusRow.getBoundingClientRect().top - barH() - 6);
+      holdAt(gen, ty); hardScrollTo(ty);
+      hlFadeOut(hlMark(focusRow), [], gen);
+    } else if(keepPos) restoreBlockPos(keepPos, gen); else restoreOrTop(gen);
     installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); }); }});
     nudgeRepaint();
   }
@@ -2771,7 +2797,7 @@
     var rpTitle = esc(titleOf(it)), rpHasOrig = !!(showOrig && (hasScans||hasFr));
     var rpBar = rp ?
       '<div class="ic-rbar-row">'+
-        '<span class="ic-rbar-lbl"><span class="ic-rbar-pos-ch">'+rpTitle+'</span><span class="ic-rbar-pos-pg">'+esc(t("pageAbbr"))+' '+esc(it.page)+'</span></span>'+
+        '<button type="button" class="ic-rbar-lbl ic-rbar-lbl-b" data-rb="tolist" aria-label="'+esc(t("rpTabArticles")+": "+titleOf(it))+'"><span class="ic-rbar-pos-ch">'+rpTitle+'</span><span class="ic-rbar-pos-pg">'+esc(t("pageAbbr"))+' '+esc(it.page)+'</span></button>'+
         '<button type="button" class="ic-rbar-scan" data-rb="scan" aria-pressed="false"'+(rpHasOrig?"":" disabled")+'>'+esc(t("svScan"))+'</button>'+
         '<button type="button" class="ic-rbar-nv" data-nav="prev" data-go="'+(prev?prev.id:"")+'"'+(prev?' title="'+esc(titleOf(prev))+'"':" disabled")+'>'+t("navPrev")+'</button>'+
         '<button type="button" class="ic-rbar-nv" data-nav="next" data-go="'+(next?next.id:"")+'"'+(next?' title="'+esc(titleOf(next))+'"':" disabled")+'>'+t("navNext")+'</button>'+
@@ -2839,6 +2865,9 @@
       function setVis(){ var st0 = document.getElementById("ic-stack"); if(st0) root.style.setProperty("--ic-stack-full", Math.round(st0.getBoundingClientRect().height)+"px"); }
       setVis(); window.addEventListener("resize", function rs(){ if(gen !== renderGen){ window.removeEventListener("resize", rs); return; } setVis(); });
       ripaAnchors();
+      var toListB = root.querySelector('[data-rb="tolist"]'); if(toListB) toListB.addEventListener("click", function(){ ripaToList(book, it.id); });
+      var tabList = root.querySelector('.ic-bt-tabs a[href="'+hrefFor(book,"list")+'"]');
+      if(tabList) tabList.addEventListener("click", function(e){ if(e.metaKey||e.ctrlKey||e.shiftKey||e.button) return; e.preventDefault(); ripaToList(book, it.id); });
       if(keepRp && keepRp.anchor) restoreBlockPos(keepRp, gen);
       else { toTop(); if(ripaHl && ripaHl.id===it.id) setTimeout(function(){ if(gen===renderGen) ripaHighlight(gen); }, 120); else ripaHl = null; }
       installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return rpSheets.some(function(x){ return x.isOpen() || x.isAnimating(); }); }});

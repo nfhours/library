@@ -1716,3 +1716,8 @@ html.ic-hs-lock{overflow:hidden !important}
 /* подсветка слова в результатах лупы: мягкий тёплый фон со скруглением, как подсветка в главах */
 .ic .ic-rp-sra mark{background:rgba(214,150,96,.32);color:inherit;font-weight:inherit;box-shadow:none;border:0;
   border-radius:4px;padding:.04em .16em;margin:0 -.04em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+
+/* название статьи в строке раздела — кнопка к списку: как остальные кнопки строки, зона ≥44px */
+.ic-rbar-rp button.ic-rbar-lbl{justify-content:flex-start;text-align:left;text-transform:none;letter-spacing:normal;font-size:inherit;min-height:44px;cursor:pointer}
+.ic-rbar-rp button.ic-rbar-lbl .ic-rbar-pos-pg{text-transform:none}
+.ic .ic-rp li.ic-row-item{position:relative;isolation:isolate}

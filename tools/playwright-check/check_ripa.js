@@ -283,6 +283,46 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     ok('guard: error logged', gerrs.some(e => /ripa list render failed/.test(e)), gerrs);
     await pg.close();
   }
+  if (NEW) {
+    // название статьи и вкладка «Статьи» → список на этой статье с подсветкой; «назад» браузера → в статью
+    const target = '#/iconologie/p2-123';
+    const onList = async (tag) => {
+      await W(1500);
+      const r = await page.evaluate(() => { const row = document.querySelector('.ic-row-item[data-id="p2-123"]'); if (!row) return { row: false, hash: location.hash }; const b = row.getBoundingClientRect(), st = document.getElementById('ic-stack').getBoundingClientRect();
+        return { row: true, hash: location.hash, top: b.top, stackBottom: st.bottom, h: innerHeight, hl: !!row.querySelector('.ic-hl-mark') }; });
+      ok(tag + ': list hash', r.hash === '#/iconologie/list', r);
+      ok(tag + ': row visible under header', r.row && r.top >= r.stackBottom - 2 && r.top < r.h - 40, r);
+      ok(tag + ': row highlighted', r.hl, r);
+      await W(6500);
+      ok(tag + ': highlight fades', await page.evaluate(() => !document.querySelector('.ic-row-item .ic-hl-mark')), tag);
+    };
+    for (const via of ['title', 'tab']) {
+      await open(LIST, 'ru'); await page.waitForSelector('.ic-row-item');
+      await page.evaluate(t => { location.hash = t; }, target); await page.waitForSelector('.ic-rbar-lbl-b'); await W(900);
+      if (via === 'title') {
+        const bt = await page.$eval('.ic-rbar-lbl-b', e => { const r = e.getBoundingClientRect(); return { h: r.height, tt: getComputedStyle(e).textTransform, cur: getComputedStyle(e).cursor }; });
+        ok('title button >=44px', bt.h >= 43.5, bt); ok('title pointer', bt.cur === 'pointer', bt);
+        await page.click('.ic-rbar-lbl-b');
+      } else await page.click('.ic-bt-tabs a[href$="/list"]');
+      await onList(via);
+      await page.goBack(); await W(900);
+      ok(via + ': browser back -> article', (await page.evaluate(() => location.hash)) === target);
+    }
+    // фильтры: сбрасывается только мешающее
+    await open(LIST, 'ru'); await page.waitForSelector('.ic-row-item'); await W(1500);
+    await page.evaluate(() => document.querySelector('#ic-ripa-part [data-f="1"]').click()); await W(300);
+    await page.evaluate(t => { location.hash = t; }, target); await page.waitForSelector('.ic-rbar-lbl-b'); await W(900);
+    await page.click('.ic-rbar-lbl-b'); await W(1500);
+    const f1 = await page.evaluate(() => ({ part: document.querySelector('[data-rb="part"]').textContent.trim(), hl: !!document.querySelector('.ic-row-item[data-id="p2-123"] .ic-hl-mark') }));
+    ok('hidden by part: part reset, article shown', f1.part === 'Часть' && f1.hl, f1);
+    await page.evaluate(() => document.querySelector('#ic-ripa-part [data-f="2"]').click()); await W(300);
+    await A.search('Abondance'); await W(300);
+    await page.evaluate(t => { location.hash = t; }, target); await page.waitForSelector('.ic-rbar-lbl-b'); await W(900);
+    await page.click('.ic-rbar-lbl-b'); await W(1500);
+    const f2 = await page.evaluate(() => ({ part: document.querySelector('[data-rb="part"]').textContent.trim(), q: document.querySelector('#ic-ripa-find input.ic-search').value, hl: !!document.querySelector('.ic-row-item[data-id="p2-123"] .ic-hl-mark') }));
+    ok('hidden by text: text reset, part kept', f2.part === 'Часть 2' && f2.q === '' && f2.hl, f2);
+    await page.evaluate(() => document.querySelector('#ic-ripa-part [data-f="all"]').click());
+  }
   if (NEW) { // ?new из закладок не ломает адрес: тот же основной вид
     await page.goto(BASE + '?new#/iconologie', { waitUntil: 'load' }); await W(900);
     ok('legacy ?new works', await page.evaluate(() => !!document.querySelector('.ic-home-hero') && !!document.querySelector('.ic-bt-tabs')));
