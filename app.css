@@ -1591,3 +1591,34 @@ button.ic-tv-sheet-reset:active{transform:scale(.95)}
 .ic-rb-sheet-toc .ic-rb-sheet-panel{padding:0}
 .ic-rb-sheet-toc .ic-rb-toc-body{padding:8px 16px calc(48px + env(safe-area-inset-bottom))}
 .ic-tv-sheet-foot{padding-bottom:16px}
+
+/* ---- Просмотр сканов < 1400px (app.js openSvFull): тёмный полноэкранный просмотрщик ---- */
+.ic-svx{position:fixed;inset:0;z-index:99999;background:#16130f;color:rgb(236,229,212);overflow:hidden;
+  overscroll-behavior:contain;-webkit-user-select:none;user-select:none}
+.ic-svx-bar{position:absolute;left:0;right:0;top:0;z-index:3;display:flex;align-items:center;gap:8px;box-sizing:border-box;
+  padding:calc(env(safe-area-inset-top,0px) + 6px) calc(10px + env(safe-area-inset-right)) 6px calc(6px + env(safe-area-inset-left));
+  min-height:calc(56px + env(safe-area-inset-top,0px));background:#16130f;border-bottom:1px solid rgba(236,229,212,.12);
+  transition:transform .25s ease,opacity .25s ease}
+.ic-svx-nobar .ic-svx-bar{transform:translateY(-100%);opacity:0;pointer-events:none}
+.ic .ic-svx-bar button{font:inherit;color:rgba(236,229,212,.86);background:none;border:0;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.ic .ic-svx-back{flex:none;width:44px;height:44px;display:flex;align-items:center;justify-content:center;border-radius:8px}
+.ic .ic-svx-back:active{background:rgba(236,229,212,.14)}
+.ic-svx-pos{flex:1 1 auto;min-width:0;text-align:center;font-size:21px;letter-spacing:.02em;color:rgb(236,229,212);white-space:nowrap}
+.ic-svx-sw{flex:none;display:flex;gap:4px}
+.ic .ic-svx-sw button{min-width:56px;height:40px;padding:0 12px;border-radius:8px;font-size:14px;letter-spacing:.06em;text-transform:uppercase;
+  box-shadow:inset 0 0 0 1px transparent;transition:background-color .16s,box-shadow .16s,color .16s}
+.ic .ic-svx-sw button[aria-pressed="true"]{color:rgb(236,229,212);background:rgba(236,229,212,.14);box-shadow:inset 0 0 0 1px rgba(236,229,212,.28)}
+.ic-svx-stage{position:absolute;inset:0;overflow:hidden;touch-action:none}
+.ic-svx-slide{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;will-change:transform}
+.ic-svx-pg{position:relative;display:block;transform-origin:50% 50%;will-change:transform;
+  width:min(calc(100vw - 16px),calc((100dvh - 24px) * .69))}
+.ic .ic-svx-pg img{display:block;max-width:none;-webkit-user-drag:none;pointer-events:none}
+.ic .ic-svx-th{width:100%;height:auto;aspect-ratio:1068/1600;object-fit:contain;background:rgba(236,229,212,.06)}
+.ic .ic-svx-fu{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;opacity:0;transition:opacity .2s ease}
+.ic .ic-svx-fu.ic-svx-on{opacity:1}
+.ic-svx-textmode .ic-svx-slide{align-items:stretch;justify-content:stretch}
+.ic-svx-txt{flex:1 1 auto;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;touch-action:pan-y;
+  padding:calc(env(safe-area-inset-top,0px) + 72px) 20px calc(40px + env(safe-area-inset-bottom));box-sizing:border-box;background:#16130f}
+.ic-svx .ic-sv-it{color:rgba(236,229,212,.92);padding:0;max-width:36em;margin:0 auto}
+.ic-svx .ic-sv-it .ic-sv-run,.ic-svx .ic-sv-it .ic-sv-foot,.ic-svx .ic-sv-it .ic-sv-ed,.ic-svx .ic-sv-it .ic-sv-none{color:rgba(236,229,212,.6)}
+.ic-svx .ic-sv-it .ic-sv-mar{color:rgba(236,229,212,.75);border-left-color:rgba(236,229,212,.25)}
