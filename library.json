@@ -1,8 +1,8 @@
 {
     "books": [
+        { "slug": "cartari", "path": "books/cartari/" },
         { "slug": "iconologie", "path": "books/iconologie/" },
         { "slug": "alciato", "path": "books/alciato/" },
-        { "slug": "cartari", "path": "books/cartari/" },
         { "slug": "verrien", "path": "books/verrien/" },
         { "slug": "audran", "path": "books/audran/" },
         { "slug": "grosson", "path": "books/grosson/" }
