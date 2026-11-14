@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "177";
+  var APP_VER = "178";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -2377,7 +2377,8 @@
      rbSheetHtml/makeRbSheet, installBookHide, hlMark/hlFadeOut, restoreOrTop,
      общий якорь смены языка data-anchor). Страницы: «Статьи» (список),
      «Гравюры» (сетка), «О книге», сама статья — renderCard (ветка rp). */
-  var NEW_RIPA = /[?&]new(=|&|$)/.test(location.search);
+  // новый вид — основной; ?old (временно) — прежний вид; устаревший ?new ничего не ломает
+  var NEW_RIPA = !/[?&]old(=|&|$)/.test(location.search);
   function ripaNew(book){ return NEW_RIPA && book && book.slug==="iconologie"; }
   var RIPA_CTX = {ripa:1};
   // «Найти» в новом виде — только названия (RU/EN/FR и французское заглавие) и предметы (описание «что изображено»)
@@ -3688,6 +3689,7 @@
         });
         if(cur) html += '</section>';
         list.innerHTML = html || '<p class="ic-empty">'+esc(t("tvNone"))+'</p>';
+        clampSheetScroll();
         var countText = words.length ? t("tvFound",{n:n}) : t("tvAll",{n:d.entries.length});
         cnt.textContent = countText; sheetCnt.textContent = countText;
         lnav.innerHTML = lettersOf(ordered()).map(function(l){ return '<button type="button" data-l="'+l+'"'+(have[l] ? "" : " disabled")+'>'+l+'</button>'; }).join("");
@@ -4003,6 +4005,7 @@
         });
         if(cur) html += '</section>';
         list.innerHTML = html || '<p class="ic-empty">'+esc(t("tvNone"))+'</p>';
+        clampSheetScroll();
         var countText = (words.length || namesUi.ty!=="all") ? t("nmFound",{n:n}) : t("nmTotal",{n:d.names.length});
         cnt.textContent = countText; sheetCnt.textContent = countText;
         lnav.innerHTML = letters.map(function(l){ return '<button type="button" data-l="'+(l==="#" ? "0" : l)+'"'+(have[l] ? "" : " disabled")+'>'+l+'</button>'; }).join("");

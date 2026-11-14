@@ -4,16 +4,16 @@
  *
  * Запуск (из корня репозитория, сайт отдаётся на BASE):
  *   python3 -m http.server 8950 &
- *   cd tools/playwright-check && BASE=http://localhost:8950/index.html node check_ripa.js          # старый вид
- *   cd tools/playwright-check && NEW=1 BASE=... node check_ripa.js                                   # новый вид (?new)
+ *   cd tools/playwright-check && OLD=1 BASE=http://localhost:8950/index.html node check_ripa.js    # прежний вид (?old)
+ *   cd tools/playwright-check && BASE=http://localhost:8950/index.html node check_ripa.js                                      # основной (новый) вид
  * Старый вид пишет out/ripa-baseline.json; новый сравнивает свои числа с ним.
  * Код выхода: 0 — всё прошло, 1 — есть расхождения.
  */
 const { webkit, devices } = require('playwright');
 const fs = require('fs'), path = require('path');
-const NEW = !!process.env.NEW;
+const NEW = !process.env.OLD;   // основной вид без флага; OLD=1 — прежний вид по ?old
 const BASE = process.env.BASE || 'http://localhost:8950/index.html';
-const URL0 = BASE + (NEW ? '?new' : '');
+const URL0 = BASE + (NEW ? '' : '?old');
 const OUT = path.join(__dirname, 'out'); fs.mkdirSync(OUT, { recursive: true });
 const BASEFILE = path.join(OUT, 'ripa-baseline.json');
 const res = {}, fails = [], errs = [];
@@ -282,6 +282,12 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     res.guard = g; ok('guard: frame stays, sheet closed', g.st && g.tabs && g.bar && !g.sheetOpen && g.dim === '0' && !g.locked, g);
     ok('guard: error logged', gerrs.some(e => /ripa list render failed/.test(e)), gerrs);
     await pg.close();
+  }
+  if (NEW) { // ?new из закладок не ломает адрес: тот же основной вид
+    await page.goto(BASE + '?new#/iconologie', { waitUntil: 'load' }); await W(900);
+    ok('legacy ?new works', await page.evaluate(() => !!document.querySelector('.ic-home-hero') && !!document.querySelector('.ic-bt-tabs')));
+    await page.goto(BASE + '?new#/iconologie/list', { waitUntil: 'load' }); await W(900);
+    ok('legacy ?new list', (await rows()) > 100);
   }
   ok('console clean', errs.length === 0, errs.slice(0, 5));
   await br.close();
