@@ -1,0 +1,123 @@
+{
+ "total": 440,
+ "countText": "Найдено: 440",
+ "search": {
+  "title_ru": {
+   "n": 8,
+   "c": 8,
+   "first": [
+    "p1-1",
+    "p1-27",
+    "p1-42"
+   ]
+  },
+  "title_fr": {
+   "n": 35,
+   "c": 35,
+   "first": [
+    "p1-1",
+    "p1-18",
+    "p1-27"
+   ]
+  },
+  "subject": {
+   "n": 12,
+   "c": 12,
+   "first": [
+    "p1-1",
+    "p1-19",
+    "p1-21"
+   ]
+  },
+  "word": {
+   "n": 21,
+   "c": 21,
+   "first": [
+    "p1-19",
+    "p1-20",
+    "p1-42"
+   ]
+  }
+ },
+ "searchEmpty": 0,
+ "part": {
+  "1": {
+   "n": 174,
+   "c": 174
+  },
+  "2": {
+   "n": 266,
+   "c": 266
+  },
+  "all": {
+   "n": 440,
+   "c": 440
+  }
+ },
+ "sort": {
+  "ru": [
+   "p2-26",
+   "p2-5",
+   "p1-2",
+   "p2-188",
+   "p2-105",
+   "p2-252"
+  ],
+  "page": [
+   "p1-1",
+   "p1-2",
+   "p1-3",
+   "p1-4",
+   "p1-5",
+   "p1-6"
+  ],
+  "book": [
+   "p1-1",
+   "p1-2",
+   "p1-3",
+   "p1-4",
+   "p1-5",
+   "p1-6"
+  ]
+ },
+ "openedHash": "#/iconologie/p1-49",
+ "h1": "Eloquence",
+ "articleScrollTop": 0,
+ "backHash": "#/iconologie",
+ "backY": 2684,
+ "backDelta": 158,
+ "goBackY": 2526,
+ "p1_5": "Amour dompté",
+ "next": "#/iconologie/p1-6",
+ "prev": "#/iconologie/p1-5",
+ "direct": {
+  "hash": "#/iconologie/p2-123",
+  "h1": "Docilité"
+ },
+ "scanOrig": true,
+ "lang": {
+  "en": {
+   "h1": "Amour dompté",
+   "sub": "Love Subdued",
+   "lang": "en",
+   "hash": "#/iconologie/p1-5"
+  },
+  "fr": {
+   "h1": "Amour dompté",
+   "sub": "",
+   "lang": "en",
+   "hash": "#/iconologie/p1-5"
+  },
+  "ru": {
+   "h1": "Amour dompté",
+   "sub": "Укрощённая любовь",
+   "lang": "en",
+   "hash": "#/iconologie/p1-5"
+  }
+ },
+ "listLangY": 2219,
+ "listLangYbefore": 2342,
+ "enListN": 440,
+ "search_en": 25,
+ "search_fr": 35
+}
