@@ -45,6 +45,15 @@ EXTRA_PLATE_KEYS = {"0564_523"}
 TWO_PLATES = {"0597_552": ("a", "b")}
 
 
+def load_title_translations():
+    """Переводы названий гравюр {id: {en, fr}} — books/cartari/_translation/plate_titles_enfr.json (имена по GLOSSARY.tsv)."""
+    p = os.path.join(BOOK, "_translation", "plate_titles_enfr.json")
+    return json.load(open(p, encoding="utf-8")) if os.path.exists(p) else {}
+
+
+TITLE_TR = None
+
+
 def load_pages():
     rows = {}
     with open(os.path.join(BOOK, "_text", "PAGES.tsv"), encoding="utf-8") as f:
@@ -167,6 +176,8 @@ def old_ids_by_file():
 
 
 def main():
+    global TITLE_TR
+    TITLE_TR = load_title_translations()
     ap = argparse.ArgumentParser()
     ap.add_argument("--report", action="store_true")
     ap.add_argument("--out", default=os.path.join(BOOK, "plates.json"))
@@ -227,6 +238,9 @@ def main():
         rec = {k: e[k] for k in ("id", "scan", "page", "file", "w", "h", "shared_file")}
         rec.update({"chapter": slug, "at": at, "block": blk, "it_caption": e["it_caption"], "ru_caption": ru,
                     "title": m["title"], "expl": expl})
+        tt = (TITLE_TR or {}).get(e["id"])
+        if tt:
+            rec["title_en"], rec["title_fr"] = tt["en"], tt["fr"]
         if cf:
             rec["cap_from"] = {"chapter": cf[0], "block": cf[1]}
         if m.get("note"):

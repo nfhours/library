@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "161";
+  var APP_VER = "163";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -2432,7 +2432,7 @@
       // от эагерной загрузки, а риск «картинка выше цели прогрузилась только через 9 секунд и
       // снап к тому моменту уже остановился» снимается тем, что запрос уходит сразу.
       return '<figure class="ic-ch-fig" data-for="'+b.n+'"><div class="ic-fig ic-fig-eng" data-src="'+esc(src)+'"><img class="ic-fade-img ic-eng-display" src="'+esc(src)+'"'+
-        (f.w&&f.h ? ' width="'+f.w+'" height="'+f.h+'" style="aspect-ratio:'+f.w+'/'+f.h+'"' : "")+' alt="'+esc(t("engravingAlt",{title:f.pt||""}))+'"></div>'+(f.cap ? '<figcaption>'+inl(f.cap, null)+'</figcaption>' : "")+'</figure>';
+        (f.w&&f.h ? ' width="'+f.w+'" height="'+f.h+'" style="aspect-ratio:'+f.w+'/'+f.h+'"' : "")+' alt="'+esc(t("engravingAlt",{title:plNameById(book, f.pid, f.pt)}))+'"></div>'+(f.cap ? '<figcaption>'+inl(f.cap, null)+'</figcaption>' : "")+'</figure>';
     }).join("");
   }
   function pageHref(book, label){
@@ -2462,7 +2462,7 @@
       // loading="lazy" снято по той же причине, что в figsHtml() выше.
       return '<figure class="ic-ch-fig"'+n+'>'+
         (src ? '<div class="ic-fig ic-fig-eng" data-src="'+esc(src)+'"><img class="ic-fade-img ic-eng-display" src="'+esc(src)+'"'+
-          (b.w&&b.h ? ' width="'+b.w+'" height="'+b.h+'" style="aspect-ratio:'+b.w+'/'+b.h+'"' : "")+' alt="'+esc(t("engravingAlt",{title:b.pt || b.text.slice(0,60)}))+'"></div>' : "")+
+          (b.w&&b.h ? ' width="'+b.w+'" height="'+b.h+'" style="aspect-ratio:'+b.w+'/'+b.h+'"' : "")+' alt="'+esc(t("engravingAlt",{title:plNameById(book, b.pid, b.pt) || b.text.slice(0,60)}))+'"></div>' : "")+
         '<figcaption>'+inl(b.text, qs)+'</figcaption></figure>';
     }
     if(b.t==="h") return '<h'+(b.lv===2?2:3)+' class="ic-ch-h"'+n+'>'+inl(b.text, qs, markSpan)+'</h'+(b.lv===2?2:3)+'>';
@@ -3528,7 +3528,13 @@
       totalCollapsed += rows.length;
       return '<section class="ic-nm-ch"><h3>'+esc(chapTitle(ch))+' <span class="ic-nm-chn">'+rows.length+'</span></h3><ul class="ic-nm-ms">'+rows.map(function(row){
         var m = row.m, badge = row.count > 1 ? ' <span class="ic-nm-chn">×'+row.count+'</span>' : "";
-        return '<li><a href="'+esc(chapterHrefWord(book, slug, m[1], m.slice(2)))+'">'+nmSnippet(row.text, m.slice(2))+'</a>'+badge+'</li>';
+        // Позиции слова (m[2..]) посчитаны по РУССКОМУ тексту; на EN/FR выдержка берётся из перевода того же блока
+        // (b.n совпадает) — с начала блока, без метки слова; нет перевода блока — только номер абзаца, без русского текста.
+        var trN = trLang(book), tb = trN && ch[trN] && ch[trN].blocks && ch[trN].blocks[m[1]-1], snipHtml;
+        if(!trN) snipHtml = nmSnippet(row.text, m.slice(2));
+        else if(tb){ var tt = nmBlockText(tb), cut = tt.length > 170 ? tt.lastIndexOf(" ", 170) : -1; snipHtml = nmPlain(cut > 40 ? tt.slice(0, cut) : tt.slice(0, 170))+(tt.length > 170 ? "…" : ""); }
+        else snipHtml = "¶ "+m[1];
+        return '<li><a href="'+esc(chapterHrefWord(book, slug, m[1], m.slice(2)))+'">'+snipHtml+'</a>'+badge+'</li>';
       }).join("")+'</ul></section>';
     }).join("");
     root.innerHTML =
@@ -3697,7 +3703,10 @@
   // Сетка и карточки гравюр читают только plates.json (chap.pl); файлы — books/<источник>/engravings/<file>_display.webp
   function engBaseOf(book){ return BASE+"books/"+(book.engravings ? book.engravings.srcSlug : (book.meta.ornaments && book.meta.ornaments.source || book.slug))+"/engravings/"; }
   function galleryEntries(chap){ return chap && chap.pl ? chap.pl.list : []; }
-  function plTitle(chap, p){ return state.lang==="fr" && chap && chap.pl ? t("plateTitle",{n:chap.pl.list.indexOf(p)+1}) : p.title; }
+  // Название гравюры на языке интерфейса (plates.json: title — рус., title_en/title_fr — переводы по GLOSSARY.tsv).
+  function plName(p){ if(!p) return ""; var l = state.lang; return (l==="en" && p.title_en) || (l==="fr" && p.title_fr) || p.title; }
+  function plNameById(book, id, fb){ var pl = book.chap && book.chap.pl, p = pl && id && pl.byId[id]; return p ? plName(p) : (fb || ""); }
+  function plTitle(chap, p){ return plName(p); }
   // on — больше никогда не делает плитку визуально "уже нажатой" (вызовы
   // ниже всегда передают false): раньше aria-current="page" на вкладке
   // tab==="read"/"gallery"/"search" давало плитке вид предварительно
@@ -3841,9 +3850,10 @@
     // Гравюры
     var engBase = engBaseOf(book), pl = [];
     chap.pl.list.forEach(function(p){
-      if(p.sf === undefined) p.sf = srFold(p.title+" | "+(p.ru_caption||"")+" | "+(p.it_caption||""));
+      if(p.sfl !== state.lang || p.sf === undefined){ p.sfl = state.lang; p.sf = undefined; }
+      if(p.sf === undefined) p.sf = srFold(plName(p)+" | "+(p.ru_caption||"")+" | "+(p.it_caption||""));
       if(!srFind(p.sf, words)) return;
-      var tsp = srFind(srFold(p.title), words, true);
+      var tsp = srFind(srFold(plName(p)), words, true);
       pl.push({p:p, tsp:tsp, k:tsp ? 0 : 1});
     });
     pl.sort(function(a,b){ return a.k-b.k; });
@@ -3900,7 +3910,7 @@
         if(sp) snip = '<span class="ic-sr-snip" lang="'+(cap === p.ru_caption ? "ru" : "it")+'">'+nmSnippet(cap, sp)+'</span>';
       }
       return '<li><a class="ic-sr-a ic-sr-pl" href="'+esc(hrefFor(book, "plate/"+p.id))+'"><span class="ic-sr-th"><img loading="lazy" src="'+esc(engBase+"thumb/"+p.file+"_t.webp")+'" alt=""></span>'+
-        '<span class="ic-sr-pb"><span class="ic-sr-t">'+(h.tsp ? srMark(p.title, h.tsp) : esc(p.title))+'</span>'+snip+'</span></a></li>';
+        '<span class="ic-sr-pb"><span class="ic-sr-t">'+(h.tsp ? srMark(plName(p), h.tsp) : esc(plName(p)))+'</span>'+snip+'</span></a></li>';
     }
     function nmRow(h){
       var e = h.e;
@@ -4242,10 +4252,10 @@
           '<div class="ic-top-row">'+langSwitch()+'</div>'+
           '<article class="ic-pc" data-id="'+esc(p.id)+'">'+
             '<figure class="ic-pc-fig"><div class="ic-fig ic-fig-eng" data-src="'+esc(src)+'"><img class="ic-fade-img ic-eng-display" src="'+esc(src)+'"'+
-              (p.w && p.h ? ' width="'+p.w+'" height="'+p.h+'"' : "")+' alt="'+esc(t("engravingAlt",{title:p.title}))+'"></div></figure>'+
+              (p.w && p.h ? ' width="'+p.w+'" height="'+p.h+'"' : "")+' alt="'+esc(t("engravingAlt",{title:plName(p)}))+'"></div></figure>'+
             '<div class="ic-pc-body">'+
               '<p class="ic-pc-count">'+esc(t("plCount",{k:idx+1, n:gal.length}))+'</p>'+
-              '<h1 class="ic-pc-title">'+esc(enCapB || trl==="fr" ? t("plateTitle",{n:idx+1}) : p.title)+'</h1>'+
+              '<h1 class="ic-pc-title">'+esc(plName(p))+'</h1>'+
               (enCapB ? '<p class="ic-pc-ru" lang="'+trl+'">'+inl(enCapB.text, qmState(enCapB))+'</p>' : trl==="fr" ? "" : p.ru_caption ? '<p class="ic-pc-ru" lang="ru">'+inl(p.ru_caption, capB ? qmState(capB) : null)+'</p>' : "")+
               (p.it_caption ? '<p class="ic-pc-it" lang="it">'+esc(p.it_caption)+'</p>' : "")+
               (meta.length ? '<p class="ic-pc-meta">'+meta.join('<span class="ic-pc-sep" aria-hidden="true"> · </span>')+'</p>' : "")+
