@@ -5,11 +5,101 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "167";
+  var APP_VER = "168";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
   if(!root){ root = document.createElement("div"); root.id = "iconologie"; (me && me.parentNode ? me.parentNode : document.body).appendChild(root); }
+  // ---- ВРЕМЕННЫЙ режим отладки: только при ?debug в адресе. Ничего не меняет в навигации:
+  // обёртки лишь пишут в лог и вызывают оригиналы. Панель внизу, кнопка «Копировать».
+  if(/[?&]debug\b/.test(location.search)) (function(){
+    var T0 = performance.now(), buf = [], lastAddrAt = -1e9, lastScrollLog = -1e9, lastIdx = null, panel, pre;
+    function ts(){ return String(Math.round(performance.now() - T0)); }
+    function docH(){ return Math.round(document.documentElement.scrollHeight); }
+    function log(s){
+      buf.push(ts()+" "+s); if(buf.length > 400) buf.shift();
+      if(pre) pre.textContent = buf.slice(-30).join("\n");
+    }
+    function caller(){
+      var st = (new Error()).stack || "", ls = st.split("\n"), i, r = [];
+      for(i = 0; i < ls.length && r.length < 2; i++){
+        if(/dbgWrap|caller@|log@/.test(ls[i])) continue;
+        var m = /^\s*(?:at\s+)?([^@(\s]*)[@(]?.*?:(\d+):(\d+)\)?\s*$/.exec(ls[i]);
+        if(m && /app\.js/.test(ls[i])) r.push((m[1] || "anon")+":"+m[2]);
+      }
+      return r.join("<") || "?";
+    }
+    function sy(){ return Math.round(window.scrollY); }
+    function wrapFn(obj, name, label){
+      var o = obj[name]; if(typeof o !== "function") return;
+      obj[name] = function dbgWrap(){
+        var a = Array.prototype.slice.call(arguments).map(function(x){ return (x && typeof x === "object") ? JSON.stringify(x) : String(x); }).join(",");
+        var el = (this && this !== window && this.tagName) ? this.tagName+"."+String(this.className).slice(0,20) : "";
+        log(label+"("+a+") "+el+" y="+sy()+" от "+caller());
+        var self = this, r = o.apply(this, arguments);
+        if(this === window || !this.tagName) setTimeout(function(){ log("  ↳ через 60мс y="+sy()); }, 60);
+        return r;
+      };
+    }
+    wrapFn(window, "scrollTo", "scrollTo"); wrapFn(window, "scroll", "scroll"); wrapFn(window, "scrollBy", "scrollBy");
+    wrapFn(Element.prototype, "scrollIntoView", "scrollIntoView");
+    try{
+      var d = Object.getOwnPropertyDescriptor(Element.prototype, "scrollTop");
+      if(d && d.set) Object.defineProperty(Element.prototype, "scrollTop", {configurable: true, enumerable: d.enumerable, get: d.get,
+        set: function(v){ log("scrollTop="+Math.round(v)+" "+this.tagName+"."+String(this.className).slice(0,20)+" от "+caller()); d.set.call(this, v); }});
+    }catch(e){}
+    log("start v"+APP_VER+" scrollRestoration="+history.scrollRestoration+" "+location.hash+" innerH="+window.innerHeight);
+    function addr(kind, e){
+      lastAddrAt = performance.now();
+      var st = history.state, idx = st && st.ic != null ? st.ic : null, dec;
+      if(idx == null) dec = "новый переход (state=null)";
+      else if(lastIdx != null && idx < lastIdx) dec = "назад";
+      else if(lastIdx != null && idx > lastIdx) dec = "вперёд";
+      else dec = "то же";
+      log(kind+" "+(e.oldURL ? e.oldURL.replace(/^.*?#/, "#")+" → "+e.newURL.replace(/^.*?#/, "#") : location.hash)+
+        " state.ic="+(idx == null ? "null" : String(idx).slice(-6))+" (пред. "+(lastIdx == null ? "-" : String(lastIdx).slice(-6))+") → "+dec+
+        " y="+sy()+" docH="+docH()+" restoration="+history.scrollRestoration);
+      if(idx != null) lastIdx = idx;
+    }
+    window.addEventListener("hashchange", function(e){ addr("hashchange", e); });
+    window.addEventListener("popstate", function(e){ addr("popstate", e); });
+    // после app-обработчика: какое state стало (replaceState для новых записей)
+    window.addEventListener("hashchange", function(){ setTimeout(function(){ var s = history.state; if(s && s.ic != null) lastIdx = s.ic; log("  state после route: ic="+(s && s.ic != null ? String(s.ic).slice(-6) : "null")); }, 0); });
+    window.addEventListener("scroll", function(){
+      var now = performance.now();
+      if(now - lastAddrAt <= 2000 && now - lastScrollLog >= 100){ lastScrollLog = now; log("scroll y="+sy()+" docH="+docH()); }
+    }, {passive: true});
+    ["touchstart","touchend","touchcancel"].forEach(function(n){
+      window.addEventListener(n, function(){ log(n+" y="+sy()); }, {passive: true, capture: true});
+    });
+    window.addEventListener("load", function(e){
+      if(e.target && e.target.tagName === "IMG" && performance.now() - lastAddrAt <= 3000) log("img load "+String(e.target.getAttribute("src")).slice(-24)+" y="+sy()+" docH="+docH());
+    }, true);
+    var moT = 0;
+    new MutationObserver(function(){
+      clearTimeout(moT);
+      moT = setTimeout(function(){
+        log("отрисовка root: docH="+docH()+" y="+sy()+" h1="+((root.querySelector("h1")||{}).textContent||"").slice(0,24));
+        requestAnimationFrame(function(){ requestAnimationFrame(function(){ log("  +2 кадра: docH="+docH()+" y="+sy()); }); });
+        setTimeout(function(){ log("  +500мс: docH="+docH()+" y="+sy()); }, 500);
+      }, 0);
+    }).observe(root, {childList: true});
+    function build(){
+      panel = document.createElement("div");
+      panel.style.cssText = "position:fixed;left:0;right:0;bottom:0;z-index:2147483647;background:rgba(0,0,0,.72);color:#9f9;font:9px/1.25 monospace;padding:3px 4px;pointer-events:none;max-height:36vh;overflow:hidden";
+      pre = document.createElement("pre"); pre.style.cssText = "margin:0;white-space:pre-wrap;word-break:break-all;font:inherit"; panel.appendChild(pre);
+      var b = document.createElement("button"); b.type = "button"; b.textContent = "Копировать";
+      b.style.cssText = "pointer-events:auto;position:absolute;right:4px;top:-26px;font:12px sans-serif;padding:4px 10px;border:0;border-radius:6px;background:rgba(0,0,0,.72);color:#fff";
+      b.addEventListener("click", function(){
+        var txt = buf.join("\n");
+        function fb(){ var ta = document.createElement("textarea"); ta.value = txt; ta.style.cssText = "position:fixed;top:0;opacity:0"; document.body.appendChild(ta); ta.select(); try{ document.execCommand("copy"); }catch(e){} ta.remove(); }
+        try{ navigator.clipboard.writeText(txt).then(function(){ b.textContent = "Скопировано"; }, function(){ fb(); b.textContent = "Скопировано"; }); }catch(e){ fb(); b.textContent = "Скопировано"; }
+        setTimeout(function(){ b.textContent = "Копировать"; }, 1500);
+      });
+      panel.appendChild(b); document.body.appendChild(panel); pre.textContent = buf.slice(-30).join("\n");
+    }
+    if(document.body) build(); else document.addEventListener("DOMContentLoaded", build);
+  })();
   // Единый sticky-контейнер шапки (.ic-stack): шапка сайта (.back-bar), меню
   // книги (.ic-booktabs) и, в главе, строка раздела (.ic-rbar) — ОДИН
   // sticky-элемент, прячется одним transform (installBookHide ниже). .back-bar
