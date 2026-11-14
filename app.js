@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "172";
+  var APP_VER = "173";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -429,12 +429,19 @@
     });
     return Math.max(0, e);
   }
+  // Общий якорь для смены языка: любой элемент с data-anchor (строка списка,
+  // абзац статьи) или блок главы (.ic-ch-body [data-n]). Запоминается
+  // первый элемент под верхним краем и его смещение, после перерисовки на
+  // новом языке тот же якорь возвращается на то же место.
+  var ANCHOR_SEL = ".ic-ch-body [data-n], [data-anchor]";
+  function anchorOf(el){ return el.getAttribute("data-anchor") || el.getAttribute("data-n"); }
   function captureBlockPos(){
-    if(!/^#\/[^?]*\/ch\//.test(location.hash) && !/^#\/ch\//.test(location.hash)) return null;
-    var edge = viewEdge(), els = root.querySelectorAll(".ic-ch-body [data-n]");
+    var chap = /^#\/[^?]*\/ch\//.test(location.hash) || /^#\/ch\//.test(location.hash);
+    var edge = viewEdge(), els = root.querySelectorAll(chap ? ".ic-ch-body [data-n]" : "[data-anchor]");
+    if(!chap && !els.length) return null;
     for(var i=0;i<els.length;i++){
       var r = els[i].getBoundingClientRect();
-      if(r.bottom > edge + 1) return {hash: location.hash, n: els[i].getAttribute("data-n"), dy: r.top - edge};
+      if(r.bottom > edge + 1) return {hash: location.hash, n: anchorOf(els[i]), dy: r.top - edge, anchor: !chap};
     }
     return null;
   }
@@ -444,7 +451,7 @@
     ["touchstart","wheel","keydown","pointerdown"].forEach(function(n){ window.addEventListener(n, onUser, {once:true, passive:true}); });
     function apply(){
       if(moved || gen !== renderGen) return;
-      var el = root.querySelector('.ic-ch-body [data-n="'+keep.n+'"]');
+      var el = root.querySelector(keep.anchor ? '[data-anchor="'+keep.n+'"]' : '.ic-ch-body [data-n="'+keep.n+'"]');
       if(!el) return;
       var d = el.getBoundingClientRect().top - viewEdge() - keep.dy;
       if(Math.abs(d) > 0.5) window.scrollTo(0, Math.max(0, window.scrollY + d));
@@ -1168,9 +1175,12 @@
   // своих статичных отступах).
   function bookTabsHtml(book, activeSect, backOpts){
     backOpts = backOpts || {};
-    var tabs = [["text", t("bkTabText")], ["plates", t("hmGallery")]];
-    if(book.meta.tavola) tabs.push(["index", t("hmIndex")]);
-    if(book.meta.names) tabs.push(["names", t("hmNames")]);
+    // backOpts.tabs — свой список вкладок [[раздел, подпись], ...] (книги без
+    // «домашней» страницы, напр. Рипа в новом виде); backOpts.searchSheet —
+    // готовая разметка своей шторки поиска (тогда лупа есть и без book.meta.home).
+    var tabs = backOpts.tabs || [["text", t("bkTabText")], ["plates", t("hmGallery")]];
+    if(!backOpts.tabs && book.meta.tavola) tabs.push(["index", t("hmIndex")]);
+    if(!backOpts.tabs && book.meta.names) tabs.push(["names", t("hmNames")]);
     var backActive = backOpts.ctxTypes ? ctxActiveFor(backOpts.ctxTypes) : false;
     var backHref = backOpts.parentHref || coverHref(book);
     var backBtn = backOpts.hide ? "" :
@@ -1178,7 +1188,7 @@
     // Лупа — только у книг с «домашней» страницей (book.meta.home), т.е.
     // ровно там, где вообще есть страница #/<slug>/search, на которую она
     // ссылается по смыслу (как раньше ячейка «Поиск»/вкладка «Поиск»).
-    var searchBtn = book.meta.home
+    var searchBtn = (book.meta.home || backOpts.searchSheet)
       ? '<button type="button" class="ic-bt-search" data-rb="booksearch" aria-pressed="'+(activeSect==="search"?"true":"false")+'" aria-label="'+esc(t("hmSearch"))+'">'+ICON_SEARCH+'</button>'
       : "";
     return '<nav class="ic-booktabs" id="ic-booktabs" aria-label="'+esc(t("hmNavLabel"))+'">'+
@@ -1190,8 +1200,30 @@
         return '<a href="'+esc(hrefFor(book, x[0]))+'" class="'+(activeSect===x[0]?"on":"")+'"><span class="ic-bt-label">'+esc(x[1])+'</span></a>';
       }).join("")+'</div>'+
       searchBtn+
-      (book.meta.home && activeSect !== "search" ? bookSearchSheetHtml(book) : "")+
+      (backOpts.searchSheet ? backOpts.searchSheet : (book.meta.home && activeSect !== "search" ? bookSearchSheetHtml(book) : ""))+
     '</nav>';
+  }
+  // bookShell — общий каркас страницы книги: единый sticky-контейнер
+  // #ic-stack (шапка «Библиотека» паркуется в него хуком на root.innerHTML) =
+  // меню книги (.ic-booktabs: уголок назад, вкладки, лупа) + опциональная
+  // строка раздела (rbarHtml — готовая .ic-ch-outer.ic-ch-outer-bar). Прячется
+  // installBookHide. Используют Картари (главы, гравюры, поиск) и Рипа (?new).
+  function bookShell(book, activeSect, o){
+    o = o || {};
+    return '<div class="ic-stack" id="ic-stack">'+bookTabsHtml(book, activeSect, o.tabsOpts)+(o.rbarHtml||"")+'</div>';
+  }
+  // rbSheetHtml — разметка тёмной шторки (.ic-rb-sheet) с содержимым от
+  // вызывающего: headHtml — липкая голова (поле поиска и т.п.), bodyHtml — остальное.
+  // Оживляется makeRbSheet(sheetEl, кнопка, {registry}).
+  function rbSheetHtml(id, cls, headHtml, bodyHtml){
+    return '<div class="ic-rb-sheet'+(cls?" "+cls:"")+'" id="'+id+'">'+
+        '<div class="ic-rb-sheet-slide">'+
+          '<div class="ic-rb-sheet-panel">'+
+            (headHtml ? '<div class="ic-rb-sheet-head">'+headHtml+'</div>' : "")+
+            (bodyHtml||"")+
+          '</div>'+
+        '</div>'+
+      '</div>';
   }
   // bookSearchSheetHtml — тёмная шторка полнотекстового поиска (та же
   // разметка/контракт, что ждёт wireBookSearch на отдельной странице
@@ -1201,19 +1233,12 @@
   // 100% от ближайшего позиционированного предка", но предок теперь общее
   // меню книги, которое есть на КАЖДОЙ странице (round «nav-tabs»).
   function bookSearchSheetHtml(book){
-    return '<div class="ic-rb-sheet" id="ic-rb-sheet">'+
-        '<div class="ic-rb-sheet-slide">'+
-          '<div class="ic-rb-sheet-panel">'+
-            '<div class="ic-rb-sheet-head">'+
-              '<form class="ic-home-search" role="search">'+
-                '<span class="ic-search-wrap"><input class="ic-search" type="search" enterkeyhint="search" placeholder="'+esc(t("srPlace"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("srPlace"))+'">'+
-                '<button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
-              '</form>'+
-            '</div>'+
-            '<div class="ic-sr" aria-live="polite"></div>'+
-          '</div>'+
-        '</div>'+
-      '</div>';
+    return rbSheetHtml("ic-rb-sheet", "",
+      '<form class="ic-home-search" role="search">'+
+        '<span class="ic-search-wrap"><input class="ic-search" type="search" enterkeyhint="search" placeholder="'+esc(t("srPlace"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("srPlace"))+'">'+
+        '<button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span>'+
+      '</form>',
+      '<div class="ic-sr" aria-live="polite"></div>');
   }
   // bindBookBack — уголок-назад (единый на каждой странице книги, round
   // «nav-tabs»): data-active="1" (chCtx реально привёл именно сюда, см.
@@ -3703,8 +3728,7 @@
       // нет), только .ic-wrap ic-nm — та же база, что у Текста/Гравюр/Поиска
       // (пункт 17 — одинаковая отбивка сверху у всех страниц без строки
       // раздела).
-      '<div class="ic-stack" id="ic-stack">'+
-        bookTabsHtml(book, "names", {parentHref: hrefFor(book, "names"), ctxTypes: CARD_CTX_TYPES})+'</div>'+
+      bookShell(book, "names", {tabsOpts:{parentHref: hrefFor(book, "names"), ctxTypes: CARD_CTX_TYPES}})+
       '<div class="ic-wrap ic-nm">'+
         '<div class="ic-top-row">'+langSwitch()+'</div>'+
         // Строка-крошка перед киккером (тип записи) — раздел, из которого
@@ -4172,8 +4196,7 @@
       if(book.meta.names) secs.push(homeTile(hrefFor(book,"names"), t("hmNames"), t("hmNamesSub"), false));
       secs.push(homeTile(hrefFor(book,"search"), t("hmSearch"), t("hmSearchSub"), false));
       root.innerHTML =
-        '<div class="ic-stack" id="ic-stack">'+
-        bookTabsHtml(book, null, {parentHref: "#/", hide: forcedBook})+'</div>'+
+        bookShell(book, null, {tabsOpts:{parentHref: "#/", hide: forcedBook}})+
         '<div class="ic-wrap ic-home">'+
           // Пункт 1 этого раунда: ссылка «Библиотека» убрана отсюда — теперь
           // она одна на все страницы книги, в шапке сайта рядом с именем
@@ -4216,8 +4239,7 @@
     loadChapters(book, function(chap){
       if(gen !== renderGen) return;
       root.innerHTML =
-        '<div class="ic-stack" id="ic-stack">'+
-        bookTabsHtml(book, "text", {parentHref: coverHref(book)})+'</div>'+
+        bookShell(book, "text", {tabsOpts:{parentHref: coverHref(book)}})+
         '<div class="ic-wrap">'+
           '<div class="ic-top-row">'+langSwitch()+'</div>'+
           '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("bkTabText"))+'</h1></header>'+
@@ -4261,8 +4283,7 @@
         }).join("")+'</ul>';
       }).join("");
       root.innerHTML =
-        '<div class="ic-stack" id="ic-stack">'+
-        bookTabsHtml(book, "plates", {parentHref: coverHref(book)})+'</div>'+
+        bookShell(book, "plates", {tabsOpts:{parentHref: coverHref(book)}})+
         '<div class="ic-wrap">'+
           '<div class="ic-top-row">'+langSwitch()+'</div>'+
           '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("hmGallery"))+'</h1></header>'+
@@ -4296,8 +4317,7 @@
       if(gen !== renderGen) return;
       var restoreY = namesUi.pos[location.hash] || 0; delete namesUi.pos[location.hash];
       root.innerHTML =
-        '<div class="ic-stack" id="ic-stack">'+
-        bookTabsHtml(book, "search", {parentHref: coverHref(book)})+'</div>'+
+        bookShell(book, "search", {tabsOpts:{parentHref: coverHref(book)}})+
         '<div class="ic-wrap">'+
           '<div class="ic-top-row">'+langSwitch()+'</div>'+
           '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("hmSearch"))+'</h1></header>'+

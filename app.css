@@ -6,6 +6,8 @@
   --serif:"EB Garamond", "Iowan Old Style", Georgia, serif;
   --old:"IM Fell English", "Iowan Old Style", Georgia, serif;
   --top:0px;
+  /* типографика и отступы списков (указатель Картари, список статей Рипы) */
+  --ic-li-fs:1.04em; --ic-li-sub-fs:.76em; --ic-li-py:9px; --ic-sec-fs:2.1em; --ic-li-pg-fs:.88em;
   all:initial; display:block; box-sizing:border-box;
   /* min-height (задание этого раунда, пункт 3) — на короткой странице
      (например «Поиск» без результатов) высота .ic по контенту была меньше
@@ -1344,11 +1346,11 @@ button.ic-tv-sheet-reset:active{transform:scale(.95)}
 .ic-tv-typerow[aria-pressed="true"] .ic-tv-typecount{color:rgb(236,229,212)}
 @media (hover:hover){.ic-tv-typerow:not([aria-pressed="true"]):hover{background:rgba(236,229,212,.08)}}
 .ic-tv-sec{scroll-margin-top:120px}
-.ic-tv-sec h2{font-family:var(--old);font-size:2.1em;font-weight:500;line-height:1;color:var(--accent);margin:30px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--rule)}
-.ic-tv-e{padding:9px 0 8px;border-bottom:1px solid var(--rule)}
+.ic-tv-sec h2{font-family:var(--old);font-size:var(--ic-sec-fs);font-weight:500;line-height:1;color:var(--accent);margin:30px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--rule)}
+.ic-tv-e{padding:var(--ic-li-py) 0 calc(var(--ic-li-py) - 1px);border-bottom:1px solid var(--rule)}
 .ic-tv-sub{font-size:1em;line-height:inherit;color:inherit;padding:5px 0 5px 1.4em;border-bottom:1px dotted var(--rule)}
-.ic-tv-ru{font-size:1.04em;line-height:1.4;color:var(--ink)}
-.ic-tv-it{font-size:.76em;font-style:italic;color:var(--soft);letter-spacing:.01em;white-space:normal}
+.ic-tv-ru{font-size:var(--ic-li-fs);line-height:1.4;color:var(--ink)}
+.ic-tv-it{font-size:var(--ic-li-sub-fs);font-style:italic;color:var(--soft);letter-spacing:.01em;white-space:normal}
 .ic-tv-pg,.ic-tv-see{display:block;margin-top:2px;font-size:.88em;color:var(--soft);line-height:1.9}
 .ic-tv-pg a{display:inline-block;min-width:1.9em;padding:0 .35em;margin:0 1px;text-align:center;border:1px solid var(--rule);border-radius:3px;line-height:1.6;color:var(--accent);background:var(--sheet)}
 .ic-tv-see a{text-decoration:underline;text-underline-offset:2px}
