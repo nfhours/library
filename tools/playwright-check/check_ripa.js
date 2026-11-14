@@ -250,6 +250,39 @@ const W = ms => new Promise(r => setTimeout(r, ms));
       ok('no cyrillic ' + L, bad.length === 0, bad);
     }
   }
+  if (NEW) {
+    // посимвольный ввод в «Найти» при прокрученном списке и открытой шторке: шапка и меню на месте, ошибок нет
+    const inView = () => page.evaluate(() => { const st = document.getElementById('ic-stack'); if (!st) return 'no stack'; const r = st.getBoundingClientRect(); return (r.top >= -1 && r.top < 5 && r.height > 50 && !!document.querySelector('.ic-booktabs') && !!document.querySelector('.ic-rbar')) ? 'ok' : 'stack off-screen top=' + Math.round(r.top); });
+    const typed = { ru: ['изобилие', 'ёж', 'дух-', '(любовь)', '«мир»', 'слава  мира', 'а', 'й'], en: ['Abundance', 'a', '-', "it's", '"a"'], fr: ['Éloquence', 'à la', 'œ', "l'a", 'ç', 'Amour (dompté)'] };
+    res.typing = {};
+    for (const L of ['ru', 'en', 'fr']) for (const [part, sort] of [['all', 'book'], ['1', 'ru'], ['2', 'page']]) {
+      await open(LIST, L); await page.waitForSelector('.ic-row-item'); await W(1800);
+      await page.evaluate(([pt, so]) => { document.querySelector('#ic-ripa-part [data-f="' + pt + '"]').click(); document.querySelector('#ic-ripa-sort [data-sort-opt="' + so + '"]').click(); }, [part, sort]); await W(300);
+      await page.evaluate(() => scrollTo(0, 4000)); await W(300); await page.evaluate(() => scrollTo(0, 4300)); await W(700);
+      await page.click('[data-rb="find"]'); await W(700);
+      const inp = page.locator('#ic-ripa-find input.ic-search'); let bad = [];
+      for (const str of typed[L]) {
+        await inp.fill('');
+        for (const ch of str) { await inp.pressSequentially(ch, { delay: 4 }); const v = await inView(); if (v !== 'ok') bad.push(str + '@' + ch + ': ' + v); }
+        await W(80); const v2 = await inView(); if (v2 !== 'ok') bad.push(str + ' end: ' + v2);
+      }
+      await inp.fill(''); await inp.press('Backspace'); await W(100);
+      ok('typing ' + L + ' ' + part + '/' + sort, bad.length === 0, bad.slice(0, 3));
+      res.typing[L + part + sort] = bad.length;
+    }
+    // защита: исключение в построении списка — каркас остаётся, шторка и подложка закрываются, ошибка в консоли
+    const pg = await ctx.newPage(); const gerrs = [];
+    pg.on('console', m => { if (m.type() === 'error' && !benign(m.text())) gerrs.push(m.text()); });
+    pg.on('pageerror', e => { if (!benign(e.message)) gerrs.push('pageerror: ' + e.message); });
+    await pg.goto(URL0 + '#/iconologie/list', { waitUntil: 'load' }); await pg.waitForSelector('.ic-row-item'); await W(1200);
+    await pg.click('[data-rb="find"]'); await W(600);
+    await pg.evaluate(() => { const o = String.prototype.normalize; String.prototype.normalize = function () { throw new Error('boom'); }; setTimeout(() => { String.prototype.normalize = o; }, 1500); });
+    await pg.locator('#ic-ripa-find input.ic-search').pressSequentially('аб', { delay: 10 }); await W(300);
+    const g = await pg.evaluate(() => ({ st: !!document.getElementById('ic-stack'), tabs: !!document.querySelector('.ic-booktabs'), bar: !!document.querySelector('.ic-rbar'), sheetOpen: !!document.querySelector('.ic-rb-sheet-open'), dim: getComputedStyle(document.getElementById('ic-rb-dim')).opacity, locked: document.body.style.position === 'fixed' }));
+    res.guard = g; ok('guard: frame stays, sheet closed', g.st && g.tabs && g.bar && !g.sheetOpen && g.dim === '0' && !g.locked, g);
+    ok('guard: error logged', gerrs.some(e => /ripa list render failed/.test(e)), gerrs);
+    await pg.close();
+  }
   ok('console clean', errs.length === 0, errs.slice(0, 5));
   await br.close();
 

@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "176";
+  var APP_VER = "177";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -1010,9 +1010,21 @@
       if(ripaNew(book)){
         if(p.view==="plates") renderRipaPlates(book);
         else if(p.view==="about"){ location.replace(coverHref(book)); return; }
-        else if(p.view==="list") renderRipaList(book);
-        else if(p.id && book.byId[p.id]) renderCard(book, book.byId[p.id]);
-        else renderRipaHome(book);
+        else {
+          try{
+            if(p.view==="list") renderRipaList(book);
+            else if(p.id && book.byId[p.id]) renderCard(book, book.byId[p.id]);
+            else renderRipaHome(book);
+          }catch(err){
+            // страница не должна пропадать: каркас (шапка, меню) остаётся, ошибка — в консоль
+            if(window.console && console.error) console.error("ripa render failed", err);
+            unlockBodyScroll();
+            if(!root.querySelector("#ic-stack")){
+              root.innerHTML = ripaShell(book, p.view==="list" ? "list" : null, "")+'<div class="ic-wrap ic-rp"><p class="ic-empty">'+esc(t("emptySearch"))+'</p></div>';
+              try{ ripaBind(book, gen, []); }catch(_){}
+            }
+          }
+        }
         return;
       }
       var isPlateBook = book.meta.viewer==="plate";
@@ -2566,7 +2578,19 @@
         '<span class="ic-rp-t"><span class="ic-tv-ru">'+esc(titleOf(it))+ripaFlag(it)+'</span>'+fr+'</span>'+
         '<span class="ic-rp-pg">'+(showPart ? '<small>'+esc(t("partN",{n:it.part}))+'</small>' : "")+esc(it.page)+'</span></li>';
     }
+    // Защита: исключение при построении списка не должно убирать страницу. Шапка/меню/строка раздела
+    // остаются, шторки и подложка закрываются, ошибка уходит в консоль.
     function fill(){
+      try{ fillRaw(); clampSheetScroll(); }
+      catch(err){
+        if(window.console && console.error) console.error("ripa list render failed", err);
+        rbSheets.forEach(function(sh){ try{ sh.close(); }catch(_){} });
+        unlockBodyScroll();
+        var dim = document.getElementById("ic-rb-dim"); if(dim) dim.classList.remove("ic-rb-dim-show");
+        list.innerHTML = '<p class="ic-empty">'+esc(t("emptySearch"))+'</p>';
+      }
+    }
+    function fillRaw(){
       var res = filtered(book), nq = state.q.trim(), grouped = state.sort==="book" && !nq;
       var showPart = multi && (state.sort==="ru" || (!grouped && state.filter!=="1" && state.filter!=="2"));
       var cnt = res.length ? t("found",{n:res.length}) : "";
@@ -5098,6 +5122,14 @@
     document.body.style.top=(-sheetScrollY)+"px";
     document.body.style.left="0"; document.body.style.right="0";
     document.documentElement.style.overflow="hidden";
+  }
+  // Пока шторка открыта, body закреплён с top=-scrollY. Если страница под шторкой стала короче
+  // (фильтр списка), липкая шапка остаётся в контейнере короче этого смещения и уезжает за экран.
+  // Поэтому после любой смены высоты контента подтягиваем сохранённую позицию к новому максимуму.
+  function clampSheetScroll(){
+    if(sheetScrollY==null) return;
+    var maxY = Math.max(0, document.body.offsetHeight - window.innerHeight);
+    if(sheetScrollY > maxY){ sheetScrollY = maxY; document.body.style.top = (-maxY)+"px"; }
   }
   function unlockBodyScroll(){
     if(sheetScrollY==null) return;
