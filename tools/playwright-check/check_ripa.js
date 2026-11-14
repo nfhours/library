@@ -18,6 +18,7 @@ const OUT = path.join(__dirname, 'out'); fs.mkdirSync(OUT, { recursive: true });
 const BASEFILE = path.join(OUT, 'ripa-baseline.json');
 const res = {}, fails = [], errs = [];
 const ok = (name, cond, info) => { if (!cond) fails.push(name + (info !== undefined ? ' :: ' + JSON.stringify(info) : '')); };
+const LIST = NEW ? '#/iconologie/list' : '#/iconologie';
 const W = ms => new Promise(r => setTimeout(r, ms));
 
 (async () => {
@@ -66,7 +67,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
   };
 
   // 1. Список: общий счёт, счётчик
-  await open('#/iconologie', 'ru');
+  await open(LIST, 'ru');
   await page.waitForSelector('.ic-row-item');
   res.total = await rows(); ok('list rows 440', res.total === 440, res.total);
   res.countText = await page.$eval('.ic-count', e => e.textContent); ok('count visible', /440/.test(res.countText), res.countText);
@@ -117,7 +118,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
   res.h1 = await page.$eval('h1', e => e.textContent); ok('article h1', !!res.h1);
   res.articleScrollTop = await page.evaluate(() => scrollY); ok('article opens at top', res.articleScrollTop < 5, res.articleScrollTop);
   await A.backCtl();
-  res.backHash = await page.evaluate(() => location.hash); ok('back ctl -> list', /^#\/iconologie\/?$/.test(res.backHash), res.backHash);
+  res.backHash = await page.evaluate(() => location.hash); ok('back ctl -> list', NEW ? res.backHash === '#/iconologie/list' : /^#\/iconologie\/?$/.test(res.backHash), res.backHash);
   res.backY = await page.evaluate(() => scrollY); res.backDelta = Math.abs(res.backY - y0);
   ok('back restores scroll', NEW ? res.backDelta <= 12 : res.backDelta < 600, { y0, backY: res.backY });
   // браузерное «назад»
@@ -165,30 +166,66 @@ const W = ms => new Promise(r => setTimeout(r, ms));
   }
   ok('en title differs from ru', res.lang.en.sub !== res.lang.ru.sub, res.lang);
   // язык на списке не сбрасывает прокрутку
-  await open('#/iconologie', 'ru'); await page.waitForSelector('.ic-row-item');
-  await page.evaluate(() => window.scrollTo(0, 2500)); await W(400);
+  await open(LIST, 'ru'); await page.waitForSelector('.ic-row-item');
+  await W(1800); await page.evaluate(() => window.scrollTo(0, 2500)); await W(500);
   const ys = await page.evaluate(() => scrollY);
   await page.evaluate(() => { const b = document.querySelector('.ic-lang-b[data-lang="en"]') || [...document.querySelectorAll('.ic-lang-b')].find(x => /en/i.test(x.textContent)); b.click(); }); await W(900);
   res.listLangY = await page.evaluate(() => scrollY); res.listLangYbefore = ys;
-  if (NEW) ok('list lang change keeps scroll', Math.abs(res.listLangY - ys) < 700, { ys, y: res.listLangY });
+  if (NEW) ok('list lang change keeps scroll', ys > 1000 && Math.abs(res.listLangY - ys) < 700, { ys, y: res.listLangY });
   res.enListN = await rows(); ok('en list 440', res.enListN === 440, res.enListN);
   // поиск работает на EN и FR
   for (const [L, q] of [['en', 'Abundance'], ['fr', 'Abondance']]) {
-    await open('#/iconologie', L); await page.waitForSelector('.ic-row-item');
+    await open(LIST, L); await page.waitForSelector('.ic-row-item');
     await A.search(q); res['search_' + L] = await rows(); ok('search ' + L + ' > 0', res['search_' + L] > 0);
   }
 
   if (NEW) {
     // кнопка «Часть» и шторка
-    await open('#/iconologie', 'ru'); await page.waitForSelector('.ic-row-item');
+    await open(LIST, 'ru'); await page.waitForSelector('.ic-row-item');
     await A.clear(); await page.evaluate(() => { document.querySelector('#ic-ripa-part [data-f="all"]').click(); }); await W(300);
-    res.partBtn = await page.$eval('[data-rb="part"]', e => e.textContent.trim()); ok('part button label', /Все части/.test(res.partBtn), res.partBtn);
+    res.partBtn = await page.$eval('[data-rb="part"]', e => e.textContent.trim()); ok('part button label default', res.partBtn === 'Часть', res.partBtn);
     await page.click('[data-rb="part"]'); await W(600);
     res.partRows = await page.$$eval('#ic-ripa-part [data-f]', els => els.map(e => e.textContent.trim() + ':' + e.getAttribute('aria-pressed')));
     ok('part sheet 3 rows', res.partRows.length === 3 && /Все части:true/.test(res.partRows[0]), res.partRows);
     await page.evaluate(() => document.querySelector('#ic-ripa-part [data-f="2"]').click()); await W(500);
     res.partBtn2 = await page.$eval('[data-rb="part"]', e => e.textContent.trim()); ok('part button -> Часть 2', /Часть 2/.test(res.partBtn2), res.partBtn2);
     ok('part 2 count', (await rows()) === 266);
+    // обложка, меню, шторки без заголовка, подписи кнопок
+    await open('#/iconologie', 'ru'); await page.waitForSelector('.ic-home-hero');
+    const cv = await page.evaluate(() => ({
+      kicker: document.querySelector('.ic-kicker').textContent, h1: document.querySelector('h1').textContent, author: document.querySelector('.ic-home-author').textContent,
+      ed: document.querySelector('.ic-home-ed').textContent, tiles: [...document.querySelectorAll('.ic-home-tile b')].map(e => e.textContent), blurb: document.querySelector('.ic-home-blurb').textContent.length,
+      fig: !!document.querySelector('.ic-home-fig img'), figH: document.querySelector('.ic-home-fig img').getBoundingClientRect().height, rows: document.querySelectorAll('.ic-row-item').length,
+      tabs: [...document.querySelectorAll('.ic-bt-tabs a')].map(a => a.textContent.trim() + (a.classList.contains('on') ? '*' : '')), orn: document.querySelectorAll('.ic-orn-headpiece,.ic-orn-tailpiece').length }));
+    res.cover = cv;
+    ok('cover texts', cv.kicker === 'Iconologie' && cv.h1 === 'Иконология' && cv.author === 'Чезаре Рипа' && cv.ed === 'Париж, 1677 · перевод Жана Бодуэна', cv);
+    ok('cover tiles/figure', cv.tiles.join() === 'Статьи,Гравюры' && cv.fig && cv.blurb > 100 && cv.rows === 0 && cv.orn === 0, cv);
+    ok('cover tabs none active', cv.tabs.join() === 'Статьи,Гравюры', cv.tabs);
+    ok('cover fig height like cartari (<=40vh)', cv.figH > 80 && cv.figH <= 844 * 0.4 + 2, cv.figH);
+    await page.click('.ic-home-tile >> nth=0'); await W(700);
+    ok('tile -> list', (await page.evaluate(() => location.hash)) === '#/iconologie/list');
+    await page.click('.ic-bt-back'); await W(700);
+    ok('back from list -> cover', (await page.evaluate(() => location.hash)) === '#/iconologie');
+    await page.click('.ic-bt-back'); await W(700);
+    ok('back from cover -> library', (await page.evaluate(() => location.hash)) === '' || (await page.evaluate(() => location.hash)) === '#/');
+    await open('#/iconologie/list', 'ru'); await page.waitForSelector('.ic-row-item');
+    const sh = await page.evaluate(() => ['#ic-ripa-part', '#ic-ripa-sort'].map(id => { const e = document.querySelector(id); const r = e.querySelector('.ic-tv-typerow'), cs = getComputedStyle(r);
+      return { head: !!e.querySelector('.ic-rb-sheet-head'), tt: cs.textTransform, bl: cs.borderLeftWidth, rad: cs.borderRadius, fs: cs.fontSize, minH: r.getBoundingClientRect().height }; }));
+    res.sheets = sh; ok('sheets: no head, no caps, no border', sh.every(x => !x.head && x.tt === 'none' && x.bl === '0px' && x.rad === '8px'), sh);
+    await page.click('[data-rb="sort"]'); await W(600);
+    ok('sort rows >=44px', await page.evaluate(() => [...document.querySelectorAll('#ic-ripa-sort .ic-tv-typerow')].every(r => r.getBoundingClientRect().height >= 43.5)));
+    res.ordDefault = await page.$eval('[data-rb="sort"]', e => e.textContent.trim()); ok('order label default', res.ordDefault === 'Порядок', res.ordDefault);
+    await page.evaluate(() => document.querySelector('#ic-ripa-sort [data-sort-opt="ru"]').click()); await W(500);
+    res.ordAlpha = await page.$eval('[data-rb="sort"]', e => e.textContent.trim()); ok('order label А–Я', res.ordAlpha === 'А–Я', res.ordAlpha);
+    ok('sort sheet closes on tap', await page.evaluate(() => !document.querySelector('#ic-ripa-sort.ic-rb-sheet-open')));
+    await page.evaluate(() => document.querySelector('#ic-ripa-sort [data-sort-opt="book"]').click()); await W(300);
+    // результаты лупы: крупнее, подсветка мягким фоном
+    await page.click('.ic-bt-search'); await W(500); await A.loupe('зеркал');
+    const lp = await page.evaluate(() => { const a = document.querySelector('#ic-rb-sheet .ic-rp-sra'), t = a.querySelector('.ic-sr-t'), sn = a.querySelector('.ic-sr-snip'), m = a.querySelector('mark');
+      return { t: getComputedStyle(t).fontSize, s: getComputedStyle(sn).fontSize, lh: getComputedStyle(sn).lineHeight, mb: m && getComputedStyle(m).boxShadow, mr: m && getComputedStyle(m).borderRadius, mbg: m && getComputedStyle(m).backgroundColor }; });
+    res.loupeStyle = lp; ok('loupe result sizes', lp.t === '17px' && lp.s === '15px' && lp.lh === '21px', lp);
+    ok('loupe mark soft', lp.mb === 'none' && parseFloat(lp.mr) >= 3 && /rgba\(214, 150, 96/.test(lp.mbg), lp);
+    await page.keyboard.press('Escape'); await W(300);
     // гравюра в статье: высота ≤ 55% видимой, просмотр на весь экран, «назад» закрывает
     await open('#/iconologie/p1-5', 'ru'); await page.waitForSelector('.ic-fig img'); await W(1200);
     const g = await page.evaluate(() => { const im = document.querySelector('.ic-fig img'), r = im.getBoundingClientRect(), st = document.getElementById('ic-stack').getBoundingClientRect().height; return { h: r.height, cap: (innerHeight - st) * 0.55, cx: Math.abs((r.left + r.width / 2) - innerWidth / 2) }; });
@@ -203,9 +240,12 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     ok('viewer closed by corner', await page.evaluate(() => !document.querySelector('.ic-svx-one')));
     // подписи соседних статей
     res.pagerLbl = await page.$$eval('.ic-rp-nb small', els => els.map(e => e.textContent)); ok('pager labels', res.pagerLbl.join() === 'Предыдущая,Следующая', res.pagerLbl);
-    // нет кириллицы в EN/FR на списке и в шторках
+    // нет кириллицы в EN/FR на обложке, списке и в шторках
     for (const L of ['en', 'fr']) {
-      await open('#/iconologie', L); await page.waitForSelector('.ic-row-item');
+      await open('#/iconologie', L); await page.waitForSelector('.ic-home-hero');
+      const badc = await page.evaluate(() => { const out = []; const w = document.createTreeWalker(document.getElementById('iconologie'), NodeFilter.SHOW_TEXT); let n; while ((n = w.nextNode())) if (/[\u0400-\u04FF]/.test(n.data)) out.push(n.data.trim().slice(0, 40)); return out.slice(0, 5); });
+      ok('no cyrillic cover ' + L, badc.length === 0, badc);
+      await open(LIST, L); await page.waitForSelector('.ic-row-item');
       const bad = await page.evaluate(() => { const out = []; const w = document.createTreeWalker(document.getElementById('iconologie'), NodeFilter.SHOW_TEXT); let n; while ((n = w.nextNode())) if (/[\u0400-\u04FF]/.test(n.data)) out.push(n.data.trim().slice(0, 40)); return out.slice(0, 5); });
       ok('no cyrillic ' + L, bad.length === 0, bad);
     }

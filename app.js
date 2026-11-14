@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "175";
+  var APP_VER = "176";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -303,6 +303,7 @@
     // новый, а не повторное использование hmToc/hmRead.
     bkTabText:    {ru:"Текст", en:"Text", fr:"Texte"},
     rpTabArticles:{ru:"Статьи", en:"Articles", fr:"Articles"},
+    rpArtSub:     {ru:"Все статьи в двух частях: {n}", en:"All articles in two parts: {n}", fr:"Tous les articles en deux parties : {n}"},
     rpPart:       {ru:"Часть", en:"Part", fr:"Partie"},
     rpOrder:      {ru:"Порядок", en:"Order", fr:"Ordre"},
     rpOrdBook:    {ru:"Книга", en:"Book", fr:"Livre"},
@@ -966,6 +967,7 @@
       slug = segs[0]; rest = segs.slice(1);
     }
     if(!rest.length) return {slug:slug};
+    if(NEW_RIPA && slug==="iconologie" && rest[0]==="list") return {slug:slug, view:"list"};
     if(rest[0]==="about") return {slug:slug, view:"about"};
     if(rest[0]==="home") return {slug:slug, view:"home", tab:rest[1]};
     if(rest[0]==="text") return {slug:slug, view:"text"};
@@ -1007,9 +1009,10 @@
       if(!book){ if(!forcedBook) renderLibraryHome(); return; }
       if(ripaNew(book)){
         if(p.view==="plates") renderRipaPlates(book);
-        else if(p.view==="about") renderRipaAbout(book);
+        else if(p.view==="about"){ location.replace(coverHref(book)); return; }
+        else if(p.view==="list") renderRipaList(book);
         else if(p.id && book.byId[p.id]) renderCard(book, book.byId[p.id]);
-        else renderRipaList(book);
+        else renderRipaHome(book);
         return;
       }
       var isPlateBook = book.meta.viewer==="plate";
@@ -2378,7 +2381,7 @@
   }
   var ripaHl = null;   // {id, q}: слово, к которому ведёт результат поиска (подсветка в статье)
   function ripaTabs(book){
-    return [["list", t("rpTabArticles"), coverHref(book)], ["plates", t("hmGallery"), hrefFor(book,"plates")], ["about", t("aboutTitle"), hrefFor(book,"about")]];
+    return [["list", t("rpTabArticles"), hrefFor(book,"list")], ["plates", t("hmGallery"), hrefFor(book,"plates")]];
   }
   function ripaLoupeSheet(){
     return rbSheetHtml("ic-rb-sheet", "ic-rp-loupe",
@@ -2390,7 +2393,7 @@
     return '<div class="ic-ch-outer ic-ch-outer-bar"><div class="ic-rbar ic-rbar-rp" id="ic-rbar">'+inner+'</div></div>';
   }
   function ripaShell(book, active, rbarInner, ctxTypes){
-    return bookShell(book, active, {tabsOpts:{tabs:ripaTabs(book), parentHref:(active==="list" && ctxTypes ? coverHref(book) : "#/"), ctxTypes:ctxTypes, searchSheet:ripaLoupeSheet()}, rbarHtml: rbarInner ? ripaBarWrap(rbarInner) : ""})+
+    return bookShell(book, active, {tabsOpts:{tabs:ripaTabs(book), parentHref:(!active ? "#/" : ctxTypes ? hrefFor(book,"list") : coverHref(book)), ctxTypes:ctxTypes, searchSheet:ripaLoupeSheet()}, rbarHtml: rbarInner ? ripaBarWrap(rbarInner) : ""})+
       '<div id="ic-rb-dim"></div>';
   }
   // Переход в статью из списка/сетки/поиска: запоминаем, откуда пришли (уголок «назад»
@@ -2478,9 +2481,50 @@
     run();
   }
 
+
+  /* ----- Обложка книги (#/iconologie, ?new): та же разметка и стили, что у обложки Картари (renderHome) ----- */
+  // Всё, что на обложке меняется руками, — здесь: гравюра обложки (id статьи; файл img/<id>_display.webp) и подписи.
+  var RIPA_COVER = {
+    plate: "p1-1",
+    author: {ru:"Чезаре Рипа", en:"Cesare Ripa", fr:"Cesare Ripa"},
+    edition: {ru:"Париж, 1677 · перевод Жана Бодуэна", en:"Paris, 1677 · translated by Jean Baudoin", fr:"Paris, 1677 · traduction de Jean Baudoin"}
+  };
+  function renderRipaHome(book){
+    var gen = renderGen, rbSheets = [];
+    restoreState(book.slug);
+    var it = book.byId[RIPA_COVER.plate], hero = it && it.img && it.img[0] ? BASE+"books/"+book.slug+"/img/"+it.img[0].replace(/\.(jpe?g|webp)$/i,"")+"_display.webp" : "";
+    var nPl = book.items.filter(function(x){ return !x.textOnly && x.img && x.img.length; }).length;
+    var secs = [
+      homeTile(hrefFor(book,"list"), t("rpTabArticles"), t("rpArtSub",{n:book.items.length}), false),
+      homeTile(hrefFor(book,"plates"), t("hmGallery"), t("hmGallerySub",{n:nPl}), false)
+    ];
+    var L = state.lang;
+    root.innerHTML = ripaShell(book, null, "")+
+      '<div class="ic-wrap ic-home">'+
+        '<div class="ic-top-row">'+langSwitch()+'</div>'+
+        '<header class="ic-home-hero">'+
+          '<div class="ic-home-txt">'+
+            '<p class="ic-kicker">'+esc(book.meta.title.original||"")+'</p>'+
+            '<h1 class="ic-title">'+esc(bt(book.meta.title))+'</h1>'+
+            '<p class="ic-home-author">'+esc(RIPA_COVER.author[L]||RIPA_COVER.author.ru)+'</p>'+
+            '<p class="ic-home-ed"><span>'+esc(RIPA_COVER.edition[L]||RIPA_COVER.edition.ru)+'</span></p>'+
+          '</div>'+
+          '<nav class="ic-home-tiles" aria-label="'+esc(t("hmNavLabel"))+'">'+secs.join("")+'</nav>'+
+          (hero ? '<figure class="ic-home-fig"><div class="ic-fig ic-fig-eng" data-src="'+esc(hero)+'"><img class="ic-fade-img ic-eng-display" src="'+esc(hero)+'" alt="'+esc(t("engravingAlt",{title:bt(book.meta.title)}))+'"></div></figure>' : "")+
+          '<p class="ic-home-blurb">'+esc(bt(book.meta.subtitle))+'</p>'+
+        '</header>'+
+      '</div>';
+    ripaBind(book, gen, rbSheets);
+    var fig = root.querySelector(".ic-home-fig .ic-fig"); if(fig) fig.addEventListener("click",function(){ lightbox(fig.getAttribute("data-src")); });
+    state.scroll = 0; restoreOrTop(gen);
+    installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); }); }});
+    nudgeRepaint();
+  }
+
   /* ----- «Статьи» ----- */
-  function ripaPartLabel(){ return t(state.filter==="1" ? "fPart1" : state.filter==="2" ? "fPart2" : "rpPartAll"); }
-  function ripaOrdLabel(){ return t(state.sort==="ru" ? "rpOrdAlpha" : state.sort==="page" ? "rpOrdPage" : "rpOrdBook"); }
+  // на кнопках строки выбор виден, только если он не по умолчанию
+  function ripaPartLabel(){ return t(state.filter==="1" ? "fPart1" : state.filter==="2" ? "fPart2" : "rpPart"); }
+  function ripaOrdLabel(){ return t(state.sort==="ru" ? "rpOrdAlpha" : state.sort==="page" ? "rpOrdPage" : "rpOrder"); }
   function renderRipaList(book){
     var gen = renderGen, keepPos = (langKeep && langKeep.hash === location.hash) ? langKeep : null;
     restoreState(book.slug); state.scroll = 0;
@@ -2496,13 +2540,11 @@
       rbSheetHtml("ic-ripa-find", "",
         '<form class="ic-home-search" role="search"><span class="ic-search-wrap"><input class="ic-search" type="search" placeholder="'+esc(t("rpFindPh"))+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(t("rpFindPh"))+'"><button type="button" class="ic-search-clear" aria-label="'+esc(t("clearSearch"))+'" hidden>&times;</button></span></form>',
         '<div class="ic-tv-sheet-foot"><p class="ic-tv-sheet-count"></p><button type="button" class="ic-tv-sheet-reset">'+esc(t("tvReset"))+'</button></div>')+
-      (multi ? rbSheetHtml("ic-ripa-part", "",
-        '<span class="ic-rb-sheet-head-title">'+esc(t("rpPart"))+'</span>',
+      (multi ? rbSheetHtml("ic-ripa-part", "", "",
         '<div class="ic-tv-typelist" role="group" aria-label="'+esc(t("rpPart"))+'">'+
           [["all","rpPartAll"],["1","fPart1"],["2","fPart2"]].map(function(x){ return '<button type="button" class="ic-tv-typerow" data-f="'+x[0]+'" aria-pressed="'+(state.filter===x[0])+'"><span>'+esc(t(x[1]))+'</span></button>'; }).join("")+
         '</div>') : "")+
-      rbSheetHtml("ic-ripa-sort", "",
-        '<span class="ic-rb-sheet-head-title">'+esc(t("rpOrder"))+'</span>',
+      rbSheetHtml("ic-ripa-sort", "", "",
         '<div class="ic-tv-typelist" role="group" aria-label="'+esc(t("rpOrder"))+'">'+
           [["book","sBook"],["ru","sAlpha"],["page","sPage"]].map(function(x){ return '<button type="button" class="ic-tv-typerow" data-sort-opt="'+x[0]+'" aria-pressed="'+(state.sort===x[0])+'"><span>'+esc(t(x[1]))+'</span></button>'; }).join("")+
         '</div>');
@@ -2612,21 +2654,6 @@
     }); });
     state.scroll = 0;
     if(keepPos) restoreBlockPos(keepPos, gen); else restoreOrTop(gen);
-    installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); }); }});
-    nudgeRepaint();
-  }
-
-  /* ----- «О книге» ----- */
-  function renderRipaAbout(book){
-    var gen = renderGen, rbSheets = [];
-    var metaLine = book.meta.author ? esc(book.meta.author)+(book.meta.year ? ", "+esc(book.meta.place ? book.meta.place+" " : "")+book.meta.year : "") : "";
-    root.innerHTML = ripaShell(book, "about", "")+
-      '<div class="ic-wrap ic-rp"><div class="ic-top-row">'+langSwitch()+'</div>'+
-        '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("aboutTitle"))+'</h1></header>'+
-        (metaLine ? '<p class="ic-book-meta">'+metaLine+'</p>' : "")+
-        '<p class="ic-sub ic-rp-about">'+esc(bt(book.meta.subtitle))+'</p></div>';
-    ripaBind(book, gen, rbSheets);
-    restoreOrTop(gen);
     installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return rbSheets.some(function(s){ return s.isOpen() || s.isAnimating(); }); }});
     nudgeRepaint();
   }
@@ -3898,7 +3925,6 @@
             '<div class="ic-rb-sheet" id="ic-tv-type-sheet">'+
               '<div class="ic-rb-sheet-slide">'+
                 '<div class="ic-rb-sheet-panel">'+
-                  '<div class="ic-rb-sheet-head"><span class="ic-rb-sheet-head-title">'+esc(t("nmTypeLabel"))+'</span></div>'+
                   '<div class="ic-tv-typelist" role="group" aria-label="'+esc(t("nmTypeLabel"))+'">'+
                     ["all"].concat(NM_TYPES).map(function(k){
                       return tcount[k] ? '<button type="button" class="ic-tv-typerow" data-ty="'+k+'" aria-pressed="'+(namesUi.ty===k)+'"><span>'+esc(t(k==="all" ? "nmAll" : "nmT_"+k))+'</span><span class="ic-tv-typecount">'+tcount[k]+'</span></button>' : "";
