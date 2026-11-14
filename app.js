@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "170";
+  var APP_VER = "171";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -2919,7 +2919,7 @@
         // " · ", что уже используется для пар "X · Y" по всему файлу (nmForm/
         // chCtxLabel и т.п., см. задание). Пробел до точки даёт существующий
         // margin-right:6px у .ic-rbar-pos-ch.
-        pgEl.textContent = pi >= 0 ? "· "+pgLabel(pmRows[pi][1]) : "";
+        pgEl.textContent = pi >= 0 ? pgLabel(pmRows[pi][1]) : "";
       }
       paintPg();
       if(rbarRow) rbarRow.addEventListener("click", function(e){
