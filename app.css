@@ -1631,3 +1631,6 @@ button.ic-tv-sheet-reset:active{transform:scale(.95)}
 @media (max-width:999px){.ic .ic-pgm-b{position:relative;right:auto;top:auto}}
 .ic-tv-pg a{position:relative}
 .ic-tv-pg a::after{content:"";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:max(100%,44px);height:max(100%,36px)}
+
+/* временный замок прокрутки на кадр (app.js hardScrollTo): гасит инерцию iOS */
+html.ic-hs-lock{overflow:hidden !important}

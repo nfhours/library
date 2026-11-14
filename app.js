@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "169";
+  var APP_VER = "170";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -1433,16 +1433,33 @@
   // hardScrollTo — scrollTo, который iOS не игнорирует во время инерционной
   // прокрутки: на кадр overflow:hidden на html обрывает инерцию, затем
   // прокручиваем и возвращаем overflow.
+  var hsLocked = false, hsTarget = 0;
+  function hsUnlock(){
+    hsLocked = false;
+    document.documentElement.classList.remove("ic-hs-lock");
+  }
+  // Один общий замок: повторный вызов в том же кадре второй блокировки не
+  // ставит (только обновляет цель), снимается замок всегда полностью, а не
+  // «возвращением прежнего значения»; страховка — любой touchstart/wheel.
   function hardScrollTo(y){
-    var de = document.documentElement, prev = de.style.overflow;
-    de.style.overflow = "hidden";
+    var de = document.documentElement;
+    hsTarget = y;
+    if(!hsLocked){
+      hsLocked = true;
+      de.classList.add("ic-hs-lock");
+      requestAnimationFrame(function(){
+        hsUnlock();
+        if(Math.abs(window.scrollY - hsTarget) > 10) window.scrollTo(0, hsTarget);
+      });
+      // страховка: если кадр не придёт (фоновая вкладка) — снять через 300 мс
+      setTimeout(hsUnlock, 300);
+    }
     window.scrollTo(0, y);
     void de.offsetHeight;
-    requestAnimationFrame(function(){
-      de.style.overflow = prev;
-      if(Math.abs(window.scrollY - y) > 1) window.scrollTo(0, y);
-    });
   }
+  ["touchstart","wheel","keydown","pointerdown"].forEach(function(n){
+    window.addEventListener(n, hsUnlock, {passive:true, capture:true});
+  });
   // holdAt — цель прокрутки текущего перехода (верх или сохранённая позиция
   // при «назад»): пока читатель не коснулся экрана, несколько раз проверяем,
   // что страница стоит на цели (инерция, догрузка раскладки, Safari).
@@ -1454,7 +1471,7 @@
     ["touchstart","wheel","keydown"].forEach(function(n){ window.addEventListener(n, onT, {once:true, passive:true, capture:true}); });
     [60, 200, 500, 1000].forEach(function(ms){ setTimeout(function(){
       if(touched || gen !== renderGen) return;
-      if(Math.abs(window.scrollY - y) > 1) hardScrollTo(y);
+      if(Math.abs(window.scrollY - y) > 10) hardScrollTo(y);
     }, ms); });
   }
 
