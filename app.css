@@ -1619,3 +1619,15 @@ button.ic-tv-sheet-reset:active{transform:scale(.95)}
 .ic-svx .ic-sv-it{color:rgba(236,229,212,.92);padding:0;max-width:36em;margin:0 auto}
 .ic-svx .ic-sv-it .ic-sv-run,.ic-svx .ic-sv-it .ic-sv-foot,.ic-svx .ic-sv-it .ic-sv-ed,.ic-svx .ic-sv-it .ic-sv-none{color:rgba(236,229,212,.6)}
 .ic-svx .ic-sv-it .ic-sv-mar{color:rgba(236,229,212,.75);border-left-color:rgba(236,229,212,.25)}
+
+/* Области нажатия ≥44px без изменения внешнего вида: прозрачный псевдоэлемент
+   продолжает кнопку за её видимые границы. */
+.ic-lang-b{position:relative}
+.ic-lang-b::after{content:"";position:absolute;left:-3px;right:-3px;top:50%;height:44px;transform:translateY(-50%)}
+.ic-booktabs button.ic-bt-back,.ic-booktabs button.ic-bt-search{position:relative}
+.ic-booktabs button.ic-bt-back::after,.ic-booktabs button.ic-bt-search::after{content:"";position:absolute;left:0;right:0;top:50%;height:44px;transform:translateY(-50%)}
+.ic-booktabs a::after{content:"";position:absolute;left:0;right:0;top:50%;height:44px;transform:translateY(-50%)}
+.ic .ic-pgm-b::after{content:"";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:max(100%,44px);height:max(100%,32px)}
+@media (max-width:999px){.ic .ic-pgm-b{position:relative;right:auto;top:auto}}
+.ic-tv-pg a{position:relative}
+.ic-tv-pg a::after{content:"";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:max(100%,44px);height:max(100%,36px)}

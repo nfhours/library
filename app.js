@@ -5,7 +5,7 @@
   // Бампать при каждой правке app.css (и, по желанию, когда меняется логика
   // в app.js, завязанная на новую разметку), чтобы браузеры и CDN не отдавали
   // старую закэшированную копию стилей после деплоя.
-  var APP_VER = "165";
+  var APP_VER = "166";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -283,7 +283,7 @@
     plNoCap:      {ru:"У этой гравюры нет подписи в переводе.", en:"This engraving has no caption in the translation.", fr:"Cette gravure n’a pas de légende dans la traduction."},
     plEdition:    {ru:"издание\u00a01626", en:"1626\u00a0edition", fr:"édition\u00a0de\u00a01626"},
     plZoomLabel:  {ru:"Гравюра на весь экран", en:"Engraving, full screen", fr:"Gravure en plein écran"},
-    srHint:       {ru:"Введите слово или имя: ищем в переводе (на русском, английском и французском), в итальянском тексте издания, в подписях гравюр, среди имён и в указателе. Можно писать и «Фортуна», и «Fortuna».", en:"Type a word or a name: we search the translation (in Russian, English and French), the Italian text of the edition, engraving captions, names and the index. «Fortuna» and «Фортуна» both work.", fr:"Saisissez un mot ou un nom : nous cherchons dans la traduction (en russe, anglais et français), le texte italien de l’édition, les légendes des gravures, les noms et l’index. « Fortuna » et « Фортуна » fonctionnent."},
+    srHint:       {ru:"Можно искать слова, имена и номера страниц: «Фортуна», «Fortuna», «429».", en:"Search words, names and page numbers: “Fortuna”, “Фортуна”, “429”.", fr:"Cherchez des mots, des noms et des numéros de page : « Fortuna », « Фортуна », « 429 »."},
     srLoading:    {ru:"Загружаю тексты…", en:"Loading the texts…", fr:"Chargement des textes…"},
     srNone:       {ru:"Ничего не найдено. Попробуйте другую форму слова или старое написание, например «Lanuuio» вместо «Lanuvio».", en:"Nothing found. Try another form of the word or an old spelling, e.g. «Lanuuio» for «Lanuvio».", fr:"Rien trouvé. Essayez une autre forme du mot ou une ancienne graphie, par exemple « Lanuuio » pour « Lanuvio »."},
     srText:       {ru:"В тексте", en:"In the text", fr:"Dans le texte"},
@@ -410,7 +410,44 @@
     }catch(e){}
     root.setAttribute("data-lang", l);
     renderBackBarLang();
+    langKeep = captureBlockPos();
     route();
+    langKeep = null;
+  }
+  // Смена языка внутри главы: блок под верхним краем (под строкой раздела) и
+  // его смещение запоминаются до перерисовки, после неё renderChapter
+  // возвращает тот же блок (data-n) на то же место уже на новом языке.
+  var langKeep = null;
+  function viewEdge(){
+    var e = 0;
+    [document.getElementById("ic-stack"), root.querySelector(".ic-rbar")].forEach(function(el){
+      if(el) e = Math.max(e, el.getBoundingClientRect().bottom);
+    });
+    return Math.max(0, e);
+  }
+  function captureBlockPos(){
+    if(!/^#\/[^?]*\/ch\//.test(location.hash) && !/^#\/ch\//.test(location.hash)) return null;
+    var edge = viewEdge(), els = root.querySelectorAll(".ic-ch-body [data-n]");
+    for(var i=0;i<els.length;i++){
+      var r = els[i].getBoundingClientRect();
+      if(r.bottom > edge + 1) return {hash: location.hash, n: els[i].getAttribute("data-n"), dy: r.top - edge};
+    }
+    return null;
+  }
+  function restoreBlockPos(keep, gen){
+    var moved = false;
+    function onUser(){ moved = true; }
+    ["touchstart","wheel","keydown","pointerdown"].forEach(function(n){ window.addEventListener(n, onUser, {once:true, passive:true}); });
+    function apply(){
+      if(moved || gen !== renderGen) return;
+      var el = root.querySelector('.ic-ch-body [data-n="'+keep.n+'"]');
+      if(!el) return;
+      var d = el.getBoundingClientRect().top - viewEdge() - keep.dy;
+      if(Math.abs(d) > 0.5) window.scrollTo(0, Math.max(0, window.scrollY + d));
+    }
+    apply(); requestAnimationFrame(apply);
+    [150, 500, 1100, 2200].forEach(function(ms){ setTimeout(apply, ms); });
+    root.querySelectorAll("img").forEach(function(img){ if(!img.complete) img.addEventListener("load", apply, {once:true}); });
   }
   function keep(slug){ try{ sessionStorage.setItem("ic-state:"+slug, JSON.stringify({q:state.q,filter:state.filter,sort:state.sort})); }catch(e){} }
   function restoreState(slug){
@@ -1002,6 +1039,13 @@
     route();
     navBack = false;
   });
+  // «назад» Safari/жест при открытом просмотре скана: запись {sv:1} снимается,
+  // просмотр закрывается, хэш (глава) остаётся тем же.
+  window.addEventListener("popstate", function(){
+    var st = history.state;
+    if(st && st.ic != null) histIdx = st.ic;
+    if(sv && sv.panel !== true && !(st && st.sv)) sv.close(true);
+  });
   var histIdx = 0, navBack = false, histSeq = 0;
   function nextHistIdx(){ return Date.now()*1000 + (histSeq++ % 1000); }
   (function(){
@@ -1120,7 +1164,7 @@
     // ровно там, где вообще есть страница #/<slug>/search, на которую она
     // ссылается по смыслу (как раньше ячейка «Поиск»/вкладка «Поиск»).
     var searchBtn = book.meta.home
-      ? '<button type="button" class="ic-bt-search" data-rb="booksearch" aria-pressed="false" aria-label="'+esc(t("hmSearch"))+'">'+ICON_SEARCH+'</button>'
+      ? '<button type="button" class="ic-bt-search" data-rb="booksearch" aria-pressed="'+(activeSect==="search"?"true":"false")+'" aria-label="'+esc(t("hmSearch"))+'">'+ICON_SEARCH+'</button>'
       : "";
     return '<nav class="ic-booktabs" id="ic-booktabs" aria-label="'+esc(t("hmNavLabel"))+'">'+
       backBtn+
@@ -1131,7 +1175,7 @@
         return '<a href="'+esc(hrefFor(book, x[0]))+'" class="'+(activeSect===x[0]?"on":"")+'"><span class="ic-bt-label">'+esc(x[1])+'</span></a>';
       }).join("")+'</div>'+
       searchBtn+
-      (book.meta.home ? bookSearchSheetHtml(book) : "")+
+      (book.meta.home && activeSect !== "search" ? bookSearchSheetHtml(book) : "")+
     '</nav>';
   }
   // bookSearchSheetHtml — тёмная шторка полнотекстового поиска (та же
@@ -1197,7 +1241,7 @@
     wireBookSearch(book, sheetForm, sheetEl.querySelector(".ic-sr"), gen, 0);
     sheetEl.querySelector(".ic-sr").addEventListener("click", function(e){
       var a = e.target.closest("a");
-      if(a && /\/ch\//.test(a.getAttribute("href")||"")) searchReopen = {hash: location.hash, query: sheetInput.value};
+      if(a && /\/ch\//.test(a.getAttribute("href")||"")) searchReopen = {hash: location.hash, query: sheetInput.value, top: sheetEl.querySelector(".ic-sr").scrollTop};
     });
     btn.addEventListener("click", function(){ sheetApi.toggle(); });
     return sheetApi;
@@ -2517,6 +2561,8 @@
   // недоступные здесь; DOM-кнопка — общий интерфейс, который есть всегда).
   function renderChapter(book, slug, blockN, pageSpec){
     var gen = renderGen, cameBack = navBack;
+    var keep = (langKeep && langKeep.hash === location.hash) ? langKeep : null;
+    if(keep){ blockN = null; pageSpec = null; }
     // Автооткрытие панели поиска при возврате «К поиску» (searchReopen, см.
     // его определение выше): если читатель открыл поиск на ЭТОЙ главе и
     // кликнул по результату, ведущему на другую главу, history.back() вернёт
@@ -2525,6 +2571,7 @@
     // как заново построится разметка панели ниже, чтобы один и тот же
     // возврат не открывал её повторно при будущих ре-рендерах того же hash.
     var reopenSearchQuery = (searchReopen && searchReopen.hash === location.hash) ? searchReopen.query : null;
+    var reopenSearchTop = (reopenSearchQuery != null && searchReopen.top) || 0;
     if(reopenSearchQuery != null) searchReopen = null;
     loadChapters(book, function(chap){
       if(gen !== renderGen) return;
@@ -2724,7 +2771,16 @@
       // прежним запросом при возврате «К поиску» (searchReopen) — через
       // reopenSearchQuery, прочитанный в начале функции.
       var sheetApi = bindBookSearchSheet(root, book, gen, rbSheets);
-      if(sheetApi && reopenSearchQuery != null) sheetApi.open(reopenSearchQuery);
+      if(sheetApi && reopenSearchQuery != null){
+        sheetApi.open(reopenSearchQuery);
+        // список результатов в шторке — на то же место прокрутки
+        var srTop = reopenSearchTop, srBox = root.querySelector("#ic-rb-sheet .ic-sr"), tries = 0;
+        if(srTop > 0 && srBox) (function fit(){
+          if(gen !== renderGen) return;
+          if(srBox.scrollHeight - srBox.clientHeight >= srTop - 1){ srBox.scrollTop = srTop; return; }
+          if(++tries < 40) setTimeout(fit, 50);
+        })();
+      }
       var tocSheetApi = null, tocSheetEl = root.querySelector("#ic-rb-toc-sheet");
       if(tocSheetEl){
         var posBtn = root.querySelector('[data-rb="pos"]');
@@ -2968,7 +3024,8 @@
           mo.observe(rbar, {attributes:true, attributeFilter:["class"]});
         }
         setTimeout(stop, 12000);
-      } else if(cameBack) restoreOrTop(gen);
+      } else if(keep) restoreBlockPos(keep, gen);
+      else if(cameBack) restoreOrTop(gen);
       else toTop(true);
       nudgeRepaint();
     });
@@ -4182,8 +4239,9 @@
         '</div>';
       bindLangSwitch(root);
       bindBookBack(root);
-      bindBookSearchSheet(root, book, gen, []);
       var form = root.querySelector(".ic-home-search");
+      var lp = root.querySelector('[data-rb="booksearch"]');
+      if(lp) lp.addEventListener("click", function(){ form.querySelector(".ic-search").focus(); });
       wireBookSearch(book, form, root.querySelector(".ic-sr"), gen, restoreY);
       if(!restoreY) form.querySelector(".ic-search").focus({preventScroll:true});
       state.scroll = 0;
@@ -4825,10 +4883,13 @@
       var m = b.getAttribute("data-m"); if(m === svMode) return; svMode = m; render();
     }); });
     st.go = function(i){ if(i < 0 || i >= rows.length) return; st.idx = i; toCur(); setPos(); };
-    st.close = function(){
+    st.close = function(fromPop){
       if(sv !== st) return;
       sv = null;
       document.removeEventListener("keydown", onKey); window.removeEventListener("resize", onResize);
+      // запись истории, добавленная при открытии: закрываем её «назад» (если
+      // закрыли не самим жестом назад и хэш не сменился)
+      if(fromPop !== true && history.state && history.state.sv){ try{ history.back(); }catch(e){} }
       var blk = rows[st.idx] && root.querySelector('.ic-ch-body [data-n="'+rows[st.idx][2]+'"]');
       if(!blk){ var pb = root.querySelector('.ic-pgm-b[data-pi="'+st.idx+'"]'); blk = pb && pb.closest(".ic-pgm"); }
       d.remove(); mark(false);
@@ -4840,6 +4901,7 @@
     d.querySelector(".ic-svx-back").addEventListener("click", function(){ st.close(); });
 
     sv = st;
+    try{ histIdx = nextHistIdx(); history.pushState({ic: histIdx, sv: 1}, ""); }catch(e){}
     document.addEventListener("keydown", onKey); window.addEventListener("resize", onResize);
     document.body.appendChild(d);
     function start(){ if(sv === st) render(); }
