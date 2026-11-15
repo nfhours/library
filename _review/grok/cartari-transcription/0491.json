@@ -1,0 +1,48 @@
+{
+  "id": "0491",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0491.webp"
+    ],
+    "printed_pages": "449",
+    "heading_on_scan": "De gli Antichi.",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Проза, 4 маргиналии и сигнатура Ff vi сверены; «ghiāde»→«ghiande» раскрыто верно."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0491-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "di ghiande, le quale sono frutti",
+      "current": "di ghiande, le quali sono frutti",
+      "suggested": "[typo: опечатка печати] di ghiande, le quale sono frutti",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0491-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "piu non dirò di lei",
+      "current": "più non dirò di lei",
+      "suggested": "не уверен: [accent] piu non dirò di lei",
+      "confidence": "low"
+    }
+  ]
+}

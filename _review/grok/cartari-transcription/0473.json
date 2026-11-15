@@ -1,0 +1,61 @@
+{
+  "id": "0473",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0473.webp"
+    ],
+    "printed_pages": "431",
+    "heading_on_scan": "De gli Antichi.",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Проза, 2 четверостишия (4+2 стиха), 5 маргиналий и кустода сверены; «congiungimeno», «seguirare», «ona'è» — как в печати."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0473-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 3,
+      "type": "ocr",
+      "original": "ch'io ſia ſtata",
+      "current": "ch'io sia Stata",
+      "suggested": "[capitalization] ch'io sia stata",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0473-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 4,
+      "type": "ocr",
+      "original": "già denſa ſpuma",
+      "current": "già densa Spuma",
+      "suggested": "[capitalization] già densa spuma",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0473-3",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 7,
+      "type": "ocr",
+      "original": "onde il ſo figliuolo Enea",
+      "current": "onde il suo figliuolo Enea",
+      "suggested": "[typo: опечатка печати] onde il so figliuolo Enea",
+      "confidence": "high"
+    }
+  ]
+}

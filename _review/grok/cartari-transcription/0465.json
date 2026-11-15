@@ -1,0 +1,87 @@
+{
+  "id": "0465",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0465.webp"
+    ],
+    "printed_pages": "423",
+    "heading_on_scan": "De gli Antichi.",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Проза, 2 маргиналии, сигнатура Dd 4 и кустода сверены. Три тильды раскрыты неверно (выпущено n)."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0465-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "habbia la madre coſi tra",
+      "current": "habbia la madre così tra",
+      "suggested": "[accent] habbia la madre cosi tra",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0465-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "ch'ella fà solamēte quanto",
+      "current": "ch'ella fà solamete quanto",
+      "suggested": "[reading] ch'ella fà solamente quanto",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0465-3",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "e ritornãdo di terra",
+      "current": "e ritornado di terra",
+      "suggested": "[reading] e ritornando di terra",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0465-4",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "li quali furono gia, e",
+      "current": "li quali furono già, e",
+      "suggested": "[accent] li quali furono gia, e",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0465-5",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "diuerſi tormē-ti",
+      "current": "diuersi tormeti",
+      "suggested": "[reading] diuersi tormenti",
+      "confidence": "high"
+    }
+  ]
+}

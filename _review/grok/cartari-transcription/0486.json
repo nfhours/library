@@ -1,0 +1,74 @@
+{
+  "id": "0486",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0486.webp"
+    ],
+    "printed_pages": "444",
+    "heading_on_scan": "Imagini de i Dei",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "6 стихов, проза, 3 маргиналии и кустода сверены; «Paffo», «Vitrice», «maneggia» — как в печати."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0486-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 7,
+      "type": "ocr",
+      "original": "la giudicò più bella",
+      "current": "la giudicò piu bella",
+      "suggested": "[accent] la giudicò più bella",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0486-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 7,
+      "type": "ocr",
+      "original": "entrare mai più di due Donne",
+      "current": "entrare mai piu di due Donne",
+      "suggested": "[accent] entrare mai più di due Donne",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0486-3",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 7,
+      "type": "ocr",
+      "original": "cura più di vn'anno",
+      "current": "cura piu di vn'anno",
+      "suggested": "[accent] cura più di vn'anno",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0486-4",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 7,
+      "type": "ocr",
+      "original": "[справа от строк «voleuano alcuni, che / … di Paffo sotto» — маленький рисунок: черта, кружок и треугольник («certa cosa fatta in questa guisa»)]",
+      "current": "(рисунок не отмечен)",
+      "suggested": "[omission] добавить пометку о рисунке, напр. [РИСУНОК: …]",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "0461",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0461.webp"
+    ],
+    "printed_pages": "419",
+    "heading_on_scan": "De gli Antichi.",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Проза, 3 стиха Петрарки, 5 маргиналий, сигнатура Dd 2 и кустода сверены."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0461-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 6,
+      "type": "ocr",
+      "original": "velo-ci ne ſempre vanno",
+      "current": "veloci, nè sempre vanno",
+      "suggested": "[accent] veloci, ne sempre vanno",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0461-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 6,
+      "type": "ocr",
+      "original": "di volere, ne ſempre ponno",
+      "current": "di volere, nè sempre ponno",
+      "suggested": "[accent] di volere, ne sempre ponno",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0461-3",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 6,
+      "type": "ocr",
+      "original": "ch'egli coſi lo portaua",
+      "current": "ch'egli così lo portaua",
+      "suggested": "[accent] ch'egli cosi lo portaua",
+      "confidence": "high"
+    }
+  ]
+}

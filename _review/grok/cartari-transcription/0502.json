@@ -1,0 +1,19 @@
+{
+  "id": "0502",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "не проверено",
+  "scope": "сверка pages_it со сканом",
+  "check": {
+    "status": "не проверено",
+    "method": "—",
+    "scans": [],
+    "printed_pages": "460",
+    "heading_on_scan": "",
+    "heading_matches": null,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "",
+    "note": ""
+  },
+  "issues": []
+}

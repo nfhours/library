@@ -1,0 +1,48 @@
+{
+  "id": "0478",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0478.webp"
+    ],
+    "printed_pages": "436",
+    "heading_on_scan": "Imagini de i Dei",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Проза, 6 маргиналий и кустода сверены; тильды intẽdere/pẽsieri раскрыты верно."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0478-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "la ſoauita de i piaceri",
+      "current": "la soauità de i piaceri",
+      "suggested": "[accent] la soauita de i piaceri",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0478-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "della brutezza di quella",
+      "current": "della bruttezza di quella",
+      "suggested": "[reading] della brutezza di quella",
+      "confidence": "high"
+    }
+  ]
+}

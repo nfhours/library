@@ -1,0 +1,48 @@
+{
+  "id": "0455",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0455.webp"
+    ],
+    "printed_pages": "413",
+    "heading_on_scan": "De gli Antichi.",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Стихи (7 строк), проза, 5 маргиналий и кустода сверены."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0455-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 3,
+      "type": "ocr",
+      "original": "e ſtringe",
+      "current": "e Stringe",
+      "suggested": "[capitalization] e stringe",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0455-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 8,
+      "type": "ocr",
+      "original": "coſi dunque Amore",
+      "current": "così dunque Amore",
+      "suggested": "[accent] cosi dunque Amore",
+      "confidence": "high"
+    }
+  ]
+}
