@@ -1,0 +1,56 @@
+{
+  "id": "0573",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "major",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0573.webp"
+    ],
+    "printed_pages": "531",
+    "heading_on_scan": "All'Imagine de i Dei.",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Шесть абзацев и шесть маргиналий сверены; «ora pianta», «figura ono», «Apolledoro», «Car. 188.» сохранены как в печати."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0573-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 10,
+      "type": "ocr",
+      "original": "«più confaceuole all Equità» (confaceuole = подходящий)",
+      "current": "più contraceuole all",
+      "suggested": "[reading] più confaceuole all (неверное чтение меняет смысл на противоположный)",
+      "confidence": "high",
+      "fix": [
+        {
+          "field": "text_it",
+          "paragraph": 10,
+          "before": "più contraceuole",
+          "after": "più confaceuole"
+        }
+      ]
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0573-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 6,
+      "type": "ocr",
+      "original": "πυρφοροι (строчная π)",
+      "current": "Πυρφοροι",
+      "suggested": "[capitalization] πυρφοροι",
+      "confidence": "medium"
+    }
+  ]
+}

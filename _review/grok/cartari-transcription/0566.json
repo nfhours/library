@@ -1,0 +1,48 @@
+{
+  "id": "0566",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0566.webp"
+    ],
+    "printed_pages": "524",
+    "heading_on_scan": "Annotationi",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Гравюра без подписи, абзацы, 5 стихов Вергилия, маргиналия «Car. 404. Lin. 8.» сверены."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0566-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 6,
+      "type": "ocr",
+      "original": "ordnie",
+      "current": "ordine",
+      "suggested": "[typo: опечатка печати] ordnie (опечатка печати)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0566-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Virgiiio",
+      "current": "Virgilio",
+      "suggested": "[typo: опечатка печати] не уверен: Virgiiio (вероятно, сбитая литера l; опечатка печати)",
+      "confidence": "low"
+    }
+  ]
+}

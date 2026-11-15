@@ -1,0 +1,48 @@
+{
+  "id": "0591",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0591.webp"
+    ],
+    "printed_pages": "545",
+    "heading_on_scan": "545",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Шмуцзаголовок «Seconda parte», подзаголовок Pignoria и абзац сверены; «chiamre», «Ne poca», «Nè tempi» сохранены как в печати."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0591-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 7,
+      "type": "ocr",
+      "original": "la circocisione (опечатка печати, без n; подтверждено увеличением)",
+      "current": "circoncisione",
+      "suggested": "[typo: опечатка печати] circocisione — опечатку печати не исправлять",
+      "confidence": "high"
+    },
+    {
+      "field": "marginalia",
+      "issue_id": "0591-2",
+      "fields": [
+        "marginalia"
+      ],
+      "paragraph": "marg",
+      "type": "addition",
+      "original": "(на поле печати этой пометы нет)",
+      "current": "5 служебных помет сверки чтений на русском (read1/read2/read3, hidden_errors_text/margin, both_wrong: о «Nè», «circocisione», сигнатуре «M m», колонтитуле, инициале H); помета о «circocisione» к тому же противоречит самому тексту, где стоит «circoncisione»",
+      "suggested": "[addition] редакторская помета на русском, в печати отсутствует; в поле marginalia (печатные маргиналии) её быть не должно — убрать или перенести в отдельное поле примечаний",
+      "confidence": "high"
+    }
+  ]
+}

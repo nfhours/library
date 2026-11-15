@@ -1,0 +1,48 @@
+{
+  "id": "0560",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0560.webp"
+    ],
+    "printed_pages": "518",
+    "heading_on_scan": "Annotationi",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Гравюра без подписи и абзац — как в печати; «pero» без ударения как в печати."
+  },
+  "issues": [
+    {
+      "field": "marginalia",
+      "issue_id": "0560-1",
+      "fields": [
+        "marginalia"
+      ],
+      "paragraph": "marg",
+      "type": "addition",
+      "original": "(на поле печати этой пометы нет)",
+      "current": "источник: Авсоний (в тексте: «conforme al pensiero d'Ausonio, che chiamò Antiochia, casa del Lauro di Febo»)",
+      "suggested": "[addition] редакторская помета на русском, в печати отсутствует; в поле marginalia (печатные маргиналии) её быть не должно — убрать или перенести в отдельное поле примечаний",
+      "confidence": "high"
+    },
+    {
+      "field": "marginalia",
+      "issue_id": "0560-2",
+      "fields": [
+        "marginalia"
+      ],
+      "paragraph": "marg",
+      "type": "addition",
+      "original": "(на поле печати этой пометы нет)",
+      "current": "источник: Аммиан Марцеллин, Res Gestae, кн. XXII (в тексте: «Ammiano Marcellino» / «Ammiano nel Lib. XXII.»)",
+      "suggested": "[addition] редакторская помета на русском, в печати отсутствует; в поле marginalia (печатные маргиналии) её быть не должно — убрать или перенести в отдельное поле примечаний",
+      "confidence": "high"
+    }
+  ]
+}

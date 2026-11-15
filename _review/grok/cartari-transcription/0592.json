@@ -1,0 +1,48 @@
+{
+  "id": "0592",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0592.webp"
+    ],
+    "printed_pages": "546",
+    "heading_on_scan": "SecondPaarte",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Один абзац сверен; «Paarte» (колонтитул), «d'inten lere», «Mare dell i Meca», «Proclamo», «quindeci» — как в печати."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0592-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "di Narco Polo (опечатка печати; подтверждено увеличением)",
+      "current": "di Marco Polo",
+      "suggested": "[typo: опечатка печати] Narco — опечатку печати не исправлять",
+      "confidence": "high"
+    },
+    {
+      "field": "marginalia",
+      "issue_id": "0592-2",
+      "fields": [
+        "marginalia"
+      ],
+      "paragraph": "marg",
+      "type": "addition",
+      "original": "(на поле печати этой пометы нет)",
+      "current": "5 служебных помет сверки чтений на русском (read1/read2/read3, hidden_errors: «trasmessero», колонтитул «SecondPaarte», «Narco Polo», «d'inten lere», «Mare dell i Meca»); помета о «Narco Polo» противоречит самому тексту, где стоит «Marco»",
+      "suggested": "[addition] редакторская помета на русском, в печати отсутствует; в поле marginalia (печатные маргиналии) её быть не должно — убрать или перенести в отдельное поле примечаний",
+      "confidence": "high"
+    }
+  ]
+}
