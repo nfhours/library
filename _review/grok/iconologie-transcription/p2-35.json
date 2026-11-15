@@ -1,0 +1,52 @@
+{
+  "id": "p2-35",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-33-1.webp",
+      "p2-34-4.webp",
+      "p2-35-3.webp",
+      "p2-35-4.webp"
+    ],
+    "printed_pages": "43–45",
+    "page_field": "43",
+    "heading_on_scan": "совпадает с fr «L'Equinoxe du Printemps» (в печати прописными)",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p2-35-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "deux aislerons (с. 43); l'aisleron blanc (с. 45, абз. 8); aux aislerons (с. 44)",
+      "current": "ailerons / aileron",
+      "suggested": "aislerons / aisleron",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-35-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 3,
+      "type": "ocr",
+      "original": "ils aioûtent (с. 44) — в печати так",
+      "current": "«aioûtent» — i не нормализовано",
+      "suggested": "ajoûtent",
+      "confidence": "low"
+    }
+  ]
+}

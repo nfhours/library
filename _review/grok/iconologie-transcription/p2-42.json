@@ -1,0 +1,80 @@
+{
+  "id": "p2-42",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-42-1.webp",
+      "p2-42-2.webp",
+      "p2-42-3.webp",
+      "p2-42-4.webp",
+      "p2-42-5.webp",
+      "p2-42-6.webp"
+    ],
+    "printed_pages": "53–57",
+    "page_field": "53",
+    "heading_on_scan": "совпадает с fr «Remarques generales sur les cinq sens de Nature» (в печати прописными)",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p2-42-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 3,
+      "type": "ocr",
+      "original": "dans son quatriéme Sympose question quatriéme (с. 54; проверено увеличением)",
+      "current": "Symposiaque",
+      "suggested": "Sympose",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-42-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 3,
+      "type": "ocr",
+      "original": "dans leurs figures hieroglyfiques (с. 54)",
+      "current": "hieroglysiques",
+      "suggested": "hieroglyfiques",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-42-3",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 6,
+      "type": "ocr",
+      "original": "в печати (с. 55–56) это четыре абзаца: «Il n'est pas hors de propos…» / «Quintilien vse encore…» / «Les autres attribuënt…» / «Mais quelques-uns…»",
+      "current": "всё слито в один абз. 6",
+      "suggested": "разделить на 4 абзаца, как в печати",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-42-4",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 8,
+      "type": "ocr",
+      "original": "qu'ils se trouvent tous reserrez (с. 57, ſ)",
+      "current": "referrez",
+      "suggested": "reserrez",
+      "confidence": "high"
+    }
+  ]
+}

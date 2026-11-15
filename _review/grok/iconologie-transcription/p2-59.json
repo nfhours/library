@@ -1,0 +1,39 @@
+{
+  "id": "p2-59",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "major",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-59-1.webp",
+      "p2-59-2.webp",
+      "p2-59-3.webp",
+      "p2-59-4.webp"
+    ],
+    "printed_pages": "74–76",
+    "page_field": "75",
+    "heading_on_scan": "совпадает с fr «Bonne Fortune» (в печати прописными)",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Абз. 1 — общее вступление о Фортуне без своего заголовка («QVELQVES-VNS appellent Fortune…»), начинается на с. 74 под гравюрами; заголовок «BONNE FORTVNE.» — на с. 75. page = 75 соответствует заголовку. Файл p2-59-4.webp (с. 77) в scans есть, но к этой статье не относится. Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p2-59-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 4,
+      "type": "addition",
+      "original": "Статья «BONNE FORTVNE.» (с. 75–76) кончается словами «…tantost elle prend plaisir à élever les autres.» (с. 76). Абзацы «A ces figures de la Fortune, l'on en peut adjoûter encore deux autres. / La premiere est celle de la Fortune Pacifique… / La seconde figure…» стоят на с. 77 — после статьи «FORTVNE D'OR.»",
+      "current": "абз. 4–5 p2-59 повторяют текст с. 77, который уже есть в p2-62 (абз. 3–5); здесь он лишний",
+      "suggested": "убрать абз. 4–5 из p2-59 (оставить их только в p2-62, где им место по печати)",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "p2-21",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-21-1.webp",
+      "p2-21-2.webp",
+      "p2-21-3.webp"
+    ],
+    "printed_pages": "27–29",
+    "page_field": "27",
+    "heading_on_scan": "совпадает с fr «Mars» (в печати прописными)",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась"
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p2-21-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Порядок в печати: заголовок «MARS» и абз. «IL est peint en jeune guerrier…» (с. 27), затем на с. 28 «Nous representons icy les Mois jeunes…»",
+      "current": "text_fr начинается с «Nous representons icy les Mois jeunes…» (абз. 1), а «Il est peint en jeune guerrier…» стоит абз. 2",
+      "suggested": "поменять абз. 1 и 2 местами, как в печати",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-21-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": null,
+      "type": "ocr",
+      "original": "стихи набраны в печати отдельными строками курсивом (с. 28; абз. 5, 6)",
+      "current": "стихи вписаны в строку абзаца без ¶ и без « / »",
+      "suggested": "разбить стихи по строкам (¶ или « / »)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-21-3",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 5,
+      "type": "ocr",
+      "original": "les Iours (с. 28, стих)",
+      "current": "«Iours» не нормализовано",
+      "suggested": "Jours",
+      "confidence": "low"
+    }
+  ]
+}

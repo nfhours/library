@@ -1,0 +1,37 @@
+{
+  "id": "p2-25",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-25-1.webp",
+      "p2-25-2.webp"
+    ],
+    "printed_pages": "32–33",
+    "page_field": "32",
+    "heading_on_scan": "JVILLET.",
+    "heading_matches": false,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "fr",
+      "issue_id": "p2-25-1",
+      "fields": [
+        "fr"
+      ],
+      "paragraph": null,
+      "type": "name",
+      "original": "Заголовок статьи «JVILLET.» (с. 32; с J); подпись к гравюре «IVILLET»",
+      "current": "fr = name_fr = «Iuillet»",
+      "suggested": "«Juillet» (как в заголовке и в тексте: «On l'appelle Juillet»)",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "p2-63",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "major",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-63-1.webp",
+      "p2-63-2.webp"
+    ],
+    "printed_pages": "78–79",
+    "page_field": "79",
+    "heading_on_scan": "FORCE D'ESPRIT ET DE CORPS. (перед ним на с. 78–79 — отдельная статья «FORCE.»)",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p2-63-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "wrong_article",
+      "original": "С. 78: отдельная статья «FORCE.» со своей гравюрой («FORCE.», первая из четырёх на с. 78) — «LA Force est icy dépeinte en femme guerriere…» … «…que le lion.» (с. 78–79). Статья «FORCE D'ESPRIT ET DE CORPS.» начинается на с. 79 словами «IL seroit difficile de la mieux dépeindre…»",
+      "current": "абз. 1 записи p2-63 — текст статьи «Force» (с. 78–79), приписанный к «Force d'esprit & de corps»; отдельной записи для «Force» нет",
+      "suggested": "вынести абз. 1 в отдельную запись «Force» (page 78); у p2-63 оставить абз. 2. Сам текст абз. 1 сверен и верен",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "p2-72",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-69-1.webp",
+      "p2-70-4.webp"
+    ],
+    "printed_pages": "89",
+    "page_field": "89",
+    "heading_on_scan": "совпадает с fr «Vranie» (в печати прописными)",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p2-72-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "стихи набраны в печати отдельными строками курсивом (с. 89; абз. 2)",
+      "current": "стихи вписаны в строку абзаца без ¶ и без « / »",
+      "suggested": "разбить стихи по строкам (¶ или « / »)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-72-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "à cause qu'elle y éleve les hommes sçavans (с. 89)",
+      "current": "y eleve",
+      "suggested": "y éleve",
+      "confidence": "low"
+    }
+  ]
+}

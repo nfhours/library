@@ -1,0 +1,37 @@
+{
+  "id": "p2-55",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-55-1.webp",
+      "p2-55-2.webp"
+    ],
+    "printed_pages": "70–71",
+    "page_field": "71",
+    "heading_on_scan": "CONCORDE CONJVGALE.",
+    "heading_matches": false,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Абз. 1 — общее вступление о Согласии без своего заголовка и гравюры («PAR la Concorde se doit entendre…»), начинается на с. 70 под гравюрами; заголовок «CONCORDE CONJVGALE.» — на с. 71. page = 71 соответствует заголовку; не уверен, надо ли считать началом с. 70. Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "fr",
+      "issue_id": "p2-55-1",
+      "fields": [
+        "fr"
+      ],
+      "paragraph": null,
+      "type": "name",
+      "original": "Заголовок статьи «CONCORDE CONJVGALE.» (с. 71; с J); подпись к гравюре «CONIVGALE»",
+      "current": "fr = name_fr = «Concorde Coniugale»",
+      "suggested": "«Concorde Conjugale»",
+      "confidence": "medium"
+    }
+  ]
+}

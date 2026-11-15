@@ -1,0 +1,64 @@
+{
+  "id": "p2-52",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "major",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-52-1.webp",
+      "p2-52-2.webp",
+      "p2-52-3.webp"
+    ],
+    "printed_pages": "66–68",
+    "page_field": "67",
+    "heading_on_scan": "JVSTICE INVIOLABLE. (перед ним на с. 66 — отдельная статья «JVSTICE.»)",
+    "heading_matches": false,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p2-52-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "wrong_article",
+      "original": "С. 66: отдельная статья «JVSTICE.» со своей гравюрой («IVSTICE.», первая из четырёх на с. 66) — «C'EST l'opinion de Platon…» … «…la plus precieuse de toutes les choses du monde.» (с. 66–67). Статья «JVSTICE INVIOLABLE.» начинается на с. 67 со слов «ELLE a pour emblême vne dame majestueuse…»",
+      "current": "абз. 1–3 записи p2-52 — это текст статьи «Justice» (с. 66–67), приписанный к «Justice inviolable»; отдельной записи для «Justice» в части 2 нет",
+      "suggested": "вынести абз. 1–3 в отдельную запись «Justice» (page 66); у p2-52 оставить абз. 4–8. Сам текст абз. 1–3 сверен и верен",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-52-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "стихи набраны в печати отдельными строками курсивом (с. 67; абз. 2)",
+      "current": "стихи вписаны в строку абзаца без ¶ и без « / »",
+      "suggested": "разбить стихи по строкам (¶ или « / »)",
+      "confidence": "low"
+    },
+    {
+      "field": "fr",
+      "issue_id": "p2-52-3",
+      "fields": [
+        "fr"
+      ],
+      "paragraph": null,
+      "type": "name",
+      "original": "Заголовок статьи «JVSTICE INVIOLABLE.» (с. 67; с J); подпись к гравюре — «IV…»",
+      "current": "fr = name_fr начинается с «Iustice»",
+      "suggested": "«Justice …» (как в заголовке статьи и в тексте)",
+      "confidence": "medium"
+    }
+  ]
+}

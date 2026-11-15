@@ -1,0 +1,51 @@
+{
+  "id": "p2-6",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-5-1.webp",
+      "p2-6-2.webp",
+      "p2-6-3.webp"
+    ],
+    "printed_pages": "8–9",
+    "page_field": "8",
+    "heading_on_scan": "совпадает с fr «L'Afrique» (в печати прописными)",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p2-6-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 6,
+      "type": "ocr",
+      "original": "leurs femmes ont accoustumé (с. 8)",
+      "current": "accoûtumé",
+      "suggested": "accoustumé",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-6-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 8,
+      "type": "ocr",
+      "original": "d'espics; стих Горация «Et tous les grains…» набран отдельной строкой (с. 9)",
+      "current": "d'épics; стих вписан в абзац без ¶",
+      "suggested": "d'espics; стих отдельной строкой ¶",
+      "confidence": "low"
+    }
+  ]
+}

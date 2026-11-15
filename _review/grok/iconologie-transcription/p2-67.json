@@ -1,0 +1,37 @@
+{
+  "id": "p2-67",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-66-1.webp",
+      "p2-66-3.webp"
+    ],
+    "printed_pages": "84",
+    "page_field": "84",
+    "heading_on_scan": null,
+    "heading_matches": false,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "fr",
+      "issue_id": "p2-67-1",
+      "fields": [
+        "fr"
+      ],
+      "paragraph": null,
+      "type": "name",
+      "original": "Заголовок «FVREVR EXTREME.» (с. 84); в тексте «Fureur extreme»",
+      "current": "fr = «Fureur extréme»",
+      "suggested": "«Fureur extreme»",
+      "confidence": "low"
+    }
+  ]
+}

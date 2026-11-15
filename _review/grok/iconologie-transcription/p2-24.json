@@ -1,0 +1,50 @@
+{
+  "id": "p2-24",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-21-1.webp",
+      "p2-24-2.webp"
+    ],
+    "printed_pages": "31",
+    "page_field": "31",
+    "heading_on_scan": "JVIN.",
+    "heading_matches": false,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "fr",
+      "issue_id": "p2-24-1",
+      "fields": [
+        "fr"
+      ],
+      "paragraph": null,
+      "type": "name",
+      "original": "Заголовок статьи «JVIN.» (с. 31; с J); подпись к гравюре «IVIN»",
+      "current": "fr = name_fr = «Iuin»",
+      "suggested": "«Juin» (как в заголовке и в тексте: «Les Latins l'appellent Juin»)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-24-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 4,
+      "type": "ocr",
+      "original": "d'aller à recullons (с. 31)",
+      "current": "reculons",
+      "suggested": "recullons",
+      "confidence": "low"
+    }
+  ]
+}

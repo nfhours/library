@@ -1,0 +1,50 @@
+{
+  "id": "p2-62",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-59-1.webp",
+      "p2-59-3.webp"
+    ],
+    "printed_pages": "76–77",
+    "page_field": "76",
+    "heading_on_scan": "совпадает с fr «Fortune d'or» (в печати прописными)",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "scans",
+      "issue_id": "p2-62-1",
+      "fields": [
+        "scans"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "текст статьи продолжается на с. 77 (файл p2-59-4.webp)",
+      "current": "этого файла нет в поле scans записи",
+      "suggested": "добавить p2-59-4.webp в scans (абз. 3–5: «A ces figures de la Fortune…» до конца); сам text_fr на этой странице верен",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-62-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 4,
+      "type": "ocr",
+      "original": "mais obeïssante à ce Prince (с. 77)",
+      "current": "obeissante",
+      "suggested": "obeïssante",
+      "confidence": "low"
+    }
+  ]
+}

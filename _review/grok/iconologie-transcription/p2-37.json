@@ -1,0 +1,52 @@
+{
+  "id": "p2-37",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-37-1.webp",
+      "p2-37-2.webp",
+      "p2-37-3.webp",
+      "p2-37-4.webp"
+    ],
+    "printed_pages": "46–49",
+    "page_field": "46",
+    "heading_on_scan": "DE L'AGE DE L'HOMME.",
+    "heading_matches": false,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "fr",
+      "issue_id": "p2-37-1",
+      "fields": [
+        "fr"
+      ],
+      "paragraph": null,
+      "type": "name",
+      "original": "Заголовок статьи на с. 46: «DE L'AGE DE L'HOMME.»",
+      "current": "fr = name_fr = «De l'âge de l'homme en general» — «en general» в заголовке нет",
+      "suggested": "«De l'âge de l'homme» (не уверен, откуда «en general» — возможно, из оглавления; на скане заголовка этого нет)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-37-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 18,
+      "type": "ocr",
+      "original": "qu'ils ne sont pas toûjours reserrez dans vn nombre (с. 49, ſ)",
+      "current": "referrez",
+      "suggested": "reserrez",
+      "confidence": "high"
+    }
+  ]
+}

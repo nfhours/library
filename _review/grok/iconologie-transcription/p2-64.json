@@ -1,0 +1,37 @@
+{
+  "id": "p2-64",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-63-1.webp",
+      "p2-63-2.webp"
+    ],
+    "printed_pages": "79",
+    "page_field": "79",
+    "heading_on_scan": "FORCE ET PRVDENCE.",
+    "heading_matches": false,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "fr",
+      "issue_id": "p2-64-1",
+      "fields": [
+        "fr"
+      ],
+      "paragraph": null,
+      "type": "name",
+      "original": "Заголовок статьи «FORCE ET PRVDENCE.» (с. 79), подпись к гравюре так же",
+      "current": "fr = «Force & Prudence ensemble» (слова «ensemble» в заголовке нет)",
+      "suggested": "«Force et Prudence» — не уверен: возможно, «ensemble» взято из оглавления",
+      "confidence": "low"
+    }
+  ]
+}

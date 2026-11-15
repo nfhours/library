@@ -1,0 +1,50 @@
+{
+  "id": "p2-5",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-5-1.webp",
+      "p2-5-2.webp"
+    ],
+    "printed_pages": "6–8",
+    "page_field": "6",
+    "heading_on_scan": "совпадает с fr «L'Asie» (в печати прописными)",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p2-5-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "vne riche robe, semée de pierreries (с. 6, ſemée)",
+      "current": "femée",
+      "suggested": "semée",
+      "confidence": "high"
+    },
+    {
+      "field": "scans",
+      "issue_id": "p2-5-2",
+      "fields": [
+        "scans"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "текст статьи продолжается на с. 8 (файл p2-6-2.webp)",
+      "current": "этого файла нет в поле scans записи",
+      "suggested": "добавить p2-6-2.webp в scans (конец абз. 7: «ce n'est pas sans vne grande raison…»); сам text_fr на этой странице верен",
+      "confidence": "high"
+    }
+  ]
+}

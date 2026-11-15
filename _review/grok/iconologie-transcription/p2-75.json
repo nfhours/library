@@ -1,0 +1,51 @@
+{
+  "id": "p2-75",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-69-2.webp",
+      "p2-73-3.webp",
+      "p2-75-3.webp"
+    ],
+    "printed_pages": "90–91",
+    "page_field": "90",
+    "heading_on_scan": "совпадает с fr «Euterpe» (в печати прописными)",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p2-75-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 3,
+      "type": "ocr",
+      "original": "стихи набраны в печати отдельными строками курсивом (с. 91; абз. 3)",
+      "current": "стихи вписаны в строку абзаца без ¶ и без « / »",
+      "suggested": "разбить стихи по строкам (¶ или « / »)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-75-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 3,
+      "type": "ocr",
+      "original": "& la pluspart disent qu'elle se plaist… (с. 91)",
+      "current": "la plus part",
+      "suggested": "la pluspart",
+      "confidence": "low"
+    }
+  ]
+}
