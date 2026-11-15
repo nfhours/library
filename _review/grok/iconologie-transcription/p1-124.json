@@ -1,0 +1,23 @@
+{
+  "id": "p1-124",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "ok",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p1-123-2.webp",
+      "p1-124-2.webp"
+    ],
+    "printed_pages": "188",
+    "page_field": "188",
+    "heading_on_scan": "Perfection CXXIV",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "В scans есть p1-124-2 (с. 189, начало «Persuasion») — лишний, но безвредный."
+  },
+  "issues": []
+}

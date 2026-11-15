@@ -1,0 +1,38 @@
+{
+  "id": "p1-108",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p1-107-2.webp",
+      "p1-108-2.webp",
+      "p1-108-3.webp",
+      "p1-108-4.webp"
+    ],
+    "printed_pages": "159–162",
+    "page_field": "159",
+    "heading_on_scan": "Nonchalance CVIII",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась"
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p1-108-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 5,
+      "type": "ocr",
+      "original": "«…le plus sage de tous les hommes. En effet la faineantise…» — в печати (с. 160) это один абзац",
+      "current": "«En effet la faineantise…» выделено в отдельный абзац 5",
+      "suggested": "объединить абзацы 4 и 5 (лишний разрыв абзаца)",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "p1-123",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "major",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p1-123-1.webp",
+      "p1-123-2.webp"
+    ],
+    "printed_pages": "187–188",
+    "page_field": "185",
+    "heading_on_scan": "Perspective CXXIII",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась"
+  },
+  "issues": [
+    {
+      "field": "page",
+      "issue_id": "p1-123-1",
+      "fields": [
+        "page"
+      ],
+      "paragraph": null,
+      "type": "wrong_article",
+      "original": "PERSPECTIVE. CXXIII. — гравюры и заголовок статьи на с. 187 (файл p1-123-1.webp); с. 185–186 занимает статья «Peril»",
+      "current": "page = \"185\" (как у предыдущей статьи p1-122)",
+      "suggested": "page = \"187\"",
+      "confidence": "high",
+      "fix": [
+        {
+          "field": "page",
+          "paragraph": null,
+          "before": "185",
+          "after": "187"
+        }
+      ]
+    }
+  ]
+}
