@@ -1,0 +1,36 @@
+{
+  "id": "p1-53",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p1-052-2.webp",
+      "p1-053-2.webp"
+    ],
+    "printed_pages": "80–81",
+    "page_field": "80",
+    "heading_on_scan": "Eternité LIII",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась"
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p1-53-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 4,
+      "type": "ocr",
+      "original": "…perpetuelle. J'obmets qu'il se voit… — в печати это продолжение того же абзаца (с. 81)",
+      "current": "«J'obmets…» выделено в отдельный абзац 4",
+      "suggested": "объединить абзацы 3 и 4 (лишний разрыв абзаца)",
+      "confidence": "low"
+    }
+  ]
+}

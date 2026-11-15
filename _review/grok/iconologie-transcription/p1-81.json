@@ -1,0 +1,48 @@
+{
+  "id": "p1-81",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p1-081-1.webp"
+    ],
+    "printed_pages": "118–119",
+    "page_field": "118",
+    "heading_on_scan": "Imagination LXXXI",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась"
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p1-81-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 4,
+      "type": "ocr",
+      "original": "Ses aislerons & ses cheveux herissez (с. 119)",
+      "current": "aillerons",
+      "suggested": "aislerons",
+      "confidence": "high"
+    },
+    {
+      "field": "scans",
+      "issue_id": "p1-81-2",
+      "fields": [
+        "scans"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "текст статьи продолжается на с. 119 (файл p1-082-1.webp)",
+      "current": "этого файла нет в поле scans записи",
+      "suggested": "добавить p1-082-1.webp в scans (конец абз. 3 – абз. 6); сам text_fr на этой странице верен",
+      "confidence": "high"
+    }
+  ]
+}

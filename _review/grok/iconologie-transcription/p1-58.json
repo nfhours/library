@@ -1,0 +1,36 @@
+{
+  "id": "p1-58",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p1-55-1.webp",
+      "p1-58-2.webp"
+    ],
+    "printed_pages": "86",
+    "page_field": "86",
+    "heading_on_scan": "Felicité eternelle LVIII",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась"
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p1-58-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 4,
+      "type": "ocr",
+      "original": "les yeux élevez à la contemplation (с. 86)",
+      "current": "elevez",
+      "suggested": "élevez",
+      "confidence": "low"
+    }
+  ]
+}

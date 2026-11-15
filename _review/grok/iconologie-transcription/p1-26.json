@@ -28,8 +28,8 @@
       "type": "name",
       "original": "CELERITE' ou VITESSE. XXVI. (заголовок статьи, с. 47); подпись гравюры на с. 42: CELERITE OV VISTESSE",
       "current": "fr / name_fr = «Celerité, ou Vistesse»",
-      "suggested": "заголовок статьи в печати — «Celerité ou Vitesse» (в тексте тоже «la Vitesse»); «Vistesse» — из подписи под гравюрой. Решить, что брать за название; не уверен, ошибка ли это или сознательный выбор",
-      "confidence": "medium"
+      "suggested": "Celerité ou Vitesse — заголовок статьи следует тексту статьи (в печати «CELERITE' ou VITESSE», в тексте «la Vitesse»); «Vistesse» — из подписи к гравюре, подпись не учитывается",
+      "confidence": "high"
     }
   ]
 }

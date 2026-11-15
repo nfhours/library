@@ -1,0 +1,62 @@
+{
+  "id": "p1-79",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p1-079-1.webp",
+      "p1-079-2.webp"
+    ],
+    "printed_pages": "115–117",
+    "page_field": "115",
+    "heading_on_scan": "Inclination LXXIX",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась"
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p1-79-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "& en l'autre des épines (с. 115)",
+      "current": "espines",
+      "suggested": "épines",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p1-79-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 3,
+      "type": "ocr",
+      "original": "dans l'Ecriture (с. 116)",
+      "current": "l'Escriture",
+      "suggested": "l'Ecriture (в p1-78 то же слово передано верно)",
+      "confidence": "medium"
+    },
+    {
+      "field": "scans",
+      "issue_id": "p1-79-3",
+      "fields": [
+        "scans"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "текст статьи продолжается на с. 117 (файл p1-080-1.webp)",
+      "current": "этого файла нет в поле scans записи",
+      "suggested": "добавить p1-080-1.webp в scans (конец абз. 6); сам text_fr на этой странице верен",
+      "confidence": "high"
+    }
+  ]
+}
