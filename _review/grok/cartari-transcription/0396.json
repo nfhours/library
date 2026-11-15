@@ -1,0 +1,61 @@
+{
+  "id": "0396",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0396.webp"
+    ],
+    "printed_pages": "354",
+    "heading_on_scan": "Imagini de i Dei",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Текст, 4 маргиналии и кустода сверены; в трёх местах транскрипция ставит ударение на «si», которого в печати нет."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0396-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": "00",
+      "type": "ocr",
+      "original": "«gli haueua ſi forte ſtancati» (в печати si без ударения)",
+      "current": "haueua sì forte",
+      "suggested": "[accent] si (как в печати)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0396-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": "00",
+      "type": "ocr",
+      "original": "«Baccho auueduto ſi dell'inganno» (без ударения)",
+      "current": "auueduto sì dell'inganno",
+      "suggested": "[accent] si (как в печати)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0396-3",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": "00",
+      "type": "ocr",
+      "original": "«in copia ſi grande» (без ударения)",
+      "current": "in copia sì grande",
+      "suggested": "[accent] si (как в печати)",
+      "confidence": "medium"
+    }
+  ]
+}

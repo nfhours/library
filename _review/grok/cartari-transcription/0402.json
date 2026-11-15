@@ -1,0 +1,48 @@
+{
+  "id": "0402",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0402.webp"
+    ],
+    "printed_pages": "360",
+    "heading_on_scan": "Imagini de i Dei",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Текст, 5 маргиналий и кустода сверены. Не уверен: в печати, похоже, «ſeminale» (длинное s, без правой перекладины f; ср. подпись к гравюре 0401 «virtù seminale»), транскрипция дважды даёт «feminale»."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0402-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": "00",
+      "type": "ocr",
+      "original": "«la intera virtù ſe-minale» — по виду длинное ſ (не уверен)",
+      "current": "virtù feminale, che piglia",
+      "suggested": "не уверен: [reading] seminale",
+      "confidence": "low"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0402-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": "00",
+      "type": "ocr",
+      "original": "«la occulta virtù ſeminale viene da lui» — по виду ſ (не уверен)",
+      "current": "virtù feminale viene",
+      "suggested": "не уверен: [reading] seminale",
+      "confidence": "low"
+    }
+  ]
+}

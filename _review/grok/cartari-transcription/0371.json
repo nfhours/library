@@ -1,0 +1,48 @@
+{
+  "id": "0371",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0371.webp"
+    ],
+    "printed_pages": "329",
+    "heading_on_scan": "De gli Antichi.",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Остальной текст, стихи (2), 4 маргиналии и кустода сверены."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0371-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": "00",
+      "type": "ocr",
+      "original": "в печати «gittò fra quelli il pomo» (без ударения; выше на странице «frà que' Dei»)",
+      "current": "gittò frà quelli",
+      "suggested": "[accent] gittò fra quelli",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0371-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": "00",
+      "type": "ocr",
+      "original": "в печати «Era la Disdordia fatta in forma» (опечатка печати)",
+      "current": "Era la Discordia",
+      "suggested": "[typo] Disdordia — опечатка печати, транскрипция исправила",
+      "confidence": "high"
+    }
+  ]
+}

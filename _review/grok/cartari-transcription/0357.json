@@ -1,0 +1,61 @@
+{
+  "id": "0357",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0357.webp"
+    ],
+    "printed_pages": "315",
+    "heading_on_scan": "De gli Antichi.",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Остальной текст («narura», «caderò» как в печати), 4 маргиналии и кустода сверены."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0357-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": "00",
+      "type": "ocr",
+      "original": "«ch'ei ne vide gia vno» (без ударения)",
+      "current": "vide già vno",
+      "suggested": "[accent] vide gia vno",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0357-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": "00",
+      "type": "ocr",
+      "original": "«vna statoa di Preseo» (опечатка печати)",
+      "current": "statoa di Perseo",
+      "suggested": "[typo] Preseo — опечатка печати, транскрипция исправила",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0357-3",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": "00",
+      "type": "ocr",
+      "original": "«la fauola piu commune» (без ударения, по полосе)",
+      "current": "più commune",
+      "suggested": "[accent] piu commune",
+      "confidence": "medium"
+    }
+  ]
+}
