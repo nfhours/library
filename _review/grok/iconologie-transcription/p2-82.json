@@ -1,0 +1,76 @@
+{
+  "id": "p2-82",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-82-1.webp",
+      "p2-82-2.webp"
+    ],
+    "printed_pages": "96–97",
+    "page_field": "97",
+    "heading_on_scan": "RENOMMEE, comme on la peint ordinairement.",
+    "heading_matches": false,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Абз. 1 — общее вступление о Славе без заголовка (с. 96–97, под гравюрами); заголовок статьи на с. 97 = page. Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "fr",
+      "issue_id": "p2-82-1",
+      "fields": [
+        "fr"
+      ],
+      "paragraph": null,
+      "type": "name",
+      "original": "Заголовок статьи «RENOMMEE, comme on la peint ordinairement.» (с. 97); подпись к гравюре «RENOMMEE.»",
+      "current": "fr = «Renommée peinte à l'ordinaire»",
+      "suggested": "«Renommée, comme on la peint ordinairement»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-82-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "стихи набраны в печати отдельными строками курсивом (с. 97; абз. 1)",
+      "current": "стихи вписаны в строку абзаца без ¶ и без « / »",
+      "suggested": "разбить стихи по строкам (¶ или « / »)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-82-3",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "a pour emblême vne femme (с. 96)",
+      "current": "embléme",
+      "suggested": "emblême",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-82-4",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "dont elle s'éleve en l'air (с. 97)",
+      "current": "s'eleve",
+      "suggested": "s'éleve",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "p2-171",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "major",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-171-1.webp",
+      "p2-171-2.webp"
+    ],
+    "printed_pages": "186–187",
+    "page_field": "185",
+    "heading_on_scan": "совпадает с fr «Rome victorieuse» (в печати прописными)",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась"
+  },
+  "issues": [
+    {
+      "field": "page",
+      "issue_id": "p2-171-1",
+      "fields": [
+        "page"
+      ],
+      "paragraph": null,
+      "type": "wrong_article",
+      "original": "ROME VICTORIEVSE. — заголовок статьи и начало текста на с. 186 (гравюра там же), конец на с. 187; на с. 185 только «REFORMATION.»",
+      "current": "page = \"185\" (как у предыдущей статьи p2-170)",
+      "suggested": "page = \"186\"",
+      "confidence": "high",
+      "fix": [
+        {
+          "field": "page",
+          "paragraph": null,
+          "before": "185",
+          "after": "186"
+        }
+      ]
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-171-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "«…il ne faut que lire l'histoire pour voir les dépouilles…» — в печати (с. 186–187) это один абзац",
+      "current": "«pour voir les dépouilles…» выделено в отдельный абзац 2",
+      "suggested": "объединить абзацы 1 и 2 (лишний разрыв абзаца)",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "p2-85",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "major",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-85-1.webp",
+      "p2-85-2.webp",
+      "p2-85-3.webp"
+    ],
+    "printed_pages": "99–101",
+    "page_field": "101",
+    "heading_on_scan": "VERTV INVINCIBLE. (перед ним на с. 99–101 — отдельная статья «VERTV.»)",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p2-85-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "wrong_article",
+      "original": "С. 99–101: отдельная статья «VERTV.» со своей гравюрой (подпись «VERTV.» на листе гравюр) — «LA Vertu nous est representée en general…» … «…dans la medaille de Domitian & de Galba.». Статья записи начинается словами «SA peinture est celle d'une Pallas…»",
+      "current": "абз. 1–9 записи — текст статьи «Vertv», приписанный к этой записи; отдельной записи для неё нет",
+      "suggested": "вынести абз. 1–9 в отдельную запись (page 99); в этой записи оставить абз. 10. Сам текст перенесённых абзацев сверен",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-85-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 3,
+      "type": "ocr",
+      "original": "aufquels les feuls vertueux (с. 100)",
+      "current": "auxquels",
+      "suggested": "ausquels",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "p2-148",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-147-1.webp",
+      "p2-147-2.webp"
+    ],
+    "printed_pages": "169",
+    "page_field": "169",
+    "heading_on_scan": null,
+    "heading_matches": false,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась"
+  },
+  "issues": [
+    {
+      "field": "fr",
+      "issue_id": "p2-148-1",
+      "fields": [
+        "fr"
+      ],
+      "paragraph": null,
+      "type": "name",
+      "original": "Заголовок статьи «JEVSNE.» (с. 169; с J); подпись к гравюре — «IEVSNE.»",
+      "current": "fr = «Ieusne»",
+      "suggested": "«Jeusne» (как в заголовке статьи и в тексте «Jeûne»)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-148-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Voicy l'emblême du Jeûne (с. 169)",
+      "current": "l'embleme",
+      "suggested": "l'emblême",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-148-3",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "«…PAVCA VESCOR. On le peint d'âge robuste…» — в печати (с. 169) это один абзац",
+      "current": "«On le peint d'âge robuste…» выделено в отдельный абзац 2",
+      "suggested": "объединить абзацы 1 и 2 (лишний разрыв абзаца)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-148-4",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "ils s'élevent plus haut (с. 169)",
+      "current": "s'elevent",
+      "suggested": "s'élevent",
+      "confidence": "low"
+    }
+  ]
+}

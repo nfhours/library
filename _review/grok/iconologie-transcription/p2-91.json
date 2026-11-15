@@ -1,0 +1,63 @@
+{
+  "id": "p2-91",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-88-1.webp",
+      "p2-89-4.webp"
+    ],
+    "printed_pages": "106–107",
+    "page_field": "106",
+    "heading_on_scan": "совпадает с fr «Vie contemplative» (в печати прописными)",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "scans",
+      "issue_id": "p2-91-1",
+      "fields": [
+        "scans"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "текст статьи продолжается на с. 107 (файл p2-91-3.webp)",
+      "current": "этого файла нет в поле scans записи",
+      "suggested": "добавить p2-91-3.webp в scans (конец абз. 3 «corruptibles, mais les porte…» и абз. 4); сам text_fr на этой странице верен",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-91-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "qui éleve au Ciel vne de ses mains (с. 106)",
+      "current": "eleve",
+      "suggested": "éleve",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-91-3",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 3,
+      "type": "ocr",
+      "original": "est signifiée l'élevation de l'entendement (с. 106)",
+      "current": "l'elevation",
+      "suggested": "l'élevation",
+      "confidence": "low"
+    }
+  ]
+}

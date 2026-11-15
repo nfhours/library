@@ -1,0 +1,37 @@
+{
+  "id": "p2-163",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-163-1.webp",
+      "p2-163-2.webp"
+    ],
+    "printed_pages": "180–181",
+    "page_field": "180",
+    "heading_on_scan": "совпадает с fr «Pardon» (в печати прописными)",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "В печати «de ce battre» (опечатка издания) — в text_fr молча исправлено на «de se battre»; не считается ошибкой."
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p2-163-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "«…pardon à Dieu, il s'écrie, LIBERA ME…» — в печати (с. 180–181) это один абзац",
+      "current": "«il s'écrie, LIBERA ME…» выделено в отдельный абзац 2",
+      "suggested": "объединить абзацы 1 и 2 (лишний разрыв абзаца)",
+      "confidence": "low"
+    }
+  ]
+}

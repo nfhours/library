@@ -1,0 +1,82 @@
+{
+  "id": "p2-101",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "major",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-101-1.webp",
+      "p2-101-2.webp",
+      "p2-101-3.webp",
+      "p2-101-4.webp",
+      "p2-101-5.webp",
+      "p2-101-6.webp",
+      "p2-101-7.webp",
+      "p2-101-8.webp"
+    ],
+    "printed_pages": "123–126",
+    "page_field": "123",
+    "heading_on_scan": "AMOVRS MONDAINS. (заголовок листа гравюр на с. 123; текст статьи начинается на с. 125 без заголовка)",
+    "heading_matches": false,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "page = 123 — страница с заголовком листа гравюр; сам текст начинается на с. 125. Не уверен, какое значение page задумано. Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p2-101-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 5,
+      "type": "addition",
+      "original": "Текст статьи «Amours mondains» (с. 125–126) кончается абзацем «La troisiéme, par la figure d'vn Amant…» … «…les plaisirs & les supplices.» (с. 126). Абзацы «DANS cette figure la belle Venus…» … «…aux puissances celestes.» — это четыре отдельные статьи на с. 131–134 со своими заголовками и гравюрами: «CHARIOT D'AMOVR.», «ELOQVENCE D'AMOVR.», «CHARMES D'AMOVR.», «AVTHORITE' D'AMOVR.»",
+      "current": "абз. 5–19 p2-101 дословно повторяют записи p2-105a, p2-105b, p2-105c, p2-105d",
+      "suggested": "убрать абз. 5–19 из p2-101 (этот текст уже есть в p2-105a…d); тогда из scans p2-101 можно убрать p2-101-5…8 (с. 131–134)",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-101-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 4,
+      "type": "addition",
+      "original": "На с. 125–126 (и на с. 127–134, просмотренных подряд) такого абзаца нет: после «…les plaisirs & les supplices.» (с. 126) текст статьи кончается",
+      "current": "абз. 4 «On y voit encore representez le Tourment, le Tesmoignage, & le Contentement d'Amour, sur la premiere de ces planches…» — в печати не найден",
+      "suggested": "проверить источник абзаца; если его нет в издании — удалить. Не уверен: мог стоять на странице вне просмотренного диапазона с. 123–134",
+      "confidence": "medium"
+    },
+    {
+      "field": "fr",
+      "issue_id": "p2-101-3",
+      "fields": [
+        "fr"
+      ],
+      "paragraph": null,
+      "type": "name",
+      "original": "Заголовок листа гравюр «AMOVRS MONDAINS.» (с. 123); отдельного заголовка над текстом нет",
+      "current": "fr = «Amours mondaines»",
+      "suggested": "«Amours mondains»",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-101-4",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "le jeu, l'harmonie, & le châtiment d'Amour (с. 125)",
+      "current": "chastiment",
+      "suggested": "châtiment",
+      "confidence": "low"
+    }
+  ]
+}

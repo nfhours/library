@@ -1,0 +1,34 @@
+{
+  "id": "p2-105d",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [],
+    "printed_pages": "133–134",
+    "page_field": "133",
+    "heading_on_scan": "совпадает с fr «Authorité d'Amour» (в печати прописными)",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "scans",
+      "issue_id": "p2-105d-1",
+      "fields": [
+        "scans"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "текст статьи стоит на с. 133–134 (p2-101-7.webp, p2-101-8.webp)",
+      "current": "поле scans пустое",
+      "suggested": "заполнить scans: p2-101-7.webp, p2-101-8.webp; text_fr сверен по этим страницам и верен",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "p2-114",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-114-1.webp",
+      "p2-114-2.webp",
+      "p2-114-3.webp",
+      "p2-114-4.webp",
+      "p2-114-5.webp",
+      "p2-114-6.webp"
+    ],
+    "printed_pages": "141–146",
+    "page_field": "141–145",
+    "heading_on_scan": "совпадает с fr «Les huit Beatitudes» (в печати прописными)",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "В печати опечатка «la pus noble» (с. 146) — в text_fr исправлено на «plus»; не ошибка. Римские номера I.–VIII. перед абзацами соответствуют подзаголовкам печати. Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "page",
+      "issue_id": "p2-114-1",
+      "fields": [
+        "page"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "Текст статьи идёт на с. 141–146: абз. VIII кончается на с. 146 («…ce qui est la plus noble partie de la Justice. A quoy nous encourage l'Apostre… aux consolations.»)",
+      "current": "page = «141–145»",
+      "suggested": "«141–146» (если page задумано как диапазон)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-114-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 4,
+      "type": "ocr",
+      "original": "leur est comme vne épée invincible (с. 143)",
+      "current": "vne epée invincible",
+      "suggested": "vne épée invincible",
+      "confidence": "low"
+    }
+  ]
+}

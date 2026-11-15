@@ -1,0 +1,37 @@
+{
+  "id": "p2-159",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-159-1.webp",
+      "p2-159-2.webp"
+    ],
+    "printed_pages": "177–178",
+    "page_field": "177",
+    "heading_on_scan": null,
+    "heading_matches": false,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Граница абзацев между «…pour le prendre.» (конец с. 177) и «Par où…» (начало с. 178) по скану не определяется (строка на с. 178 без отступа, но предыдущая полная) — разрыв абзаца в text_fr не оценивался (не уверен)."
+  },
+  "issues": [
+    {
+      "field": "fr",
+      "issue_id": "p2-159-1",
+      "fields": [
+        "fr"
+      ],
+      "paragraph": null,
+      "type": "name",
+      "original": "Заголовок статьи «OBEYSSANCE.» (с. 177); подпись к гравюре «OBEISSANCE»; в тексте «obeïssance»",
+      "current": "fr = «Obeïssance»",
+      "suggested": "не уверен: по заголовку статьи — «Obeyssance»; вариант написания, смысл тот же",
+      "confidence": "low"
+    }
+  ]
+}

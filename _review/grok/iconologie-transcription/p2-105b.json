@@ -1,0 +1,47 @@
+{
+  "id": "p2-105b",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [],
+    "printed_pages": "132–133",
+    "page_field": "132",
+    "heading_on_scan": "совпадает с fr «Eloquence d'Amour» (в печати прописными)",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "scans",
+      "issue_id": "p2-105b-1",
+      "fields": [
+        "scans"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "текст статьи стоит на с. 132–133 (p2-101-6.webp, p2-101-7.webp)",
+      "current": "поле scans пустое",
+      "suggested": "заполнить scans: p2-101-6.webp, p2-101-7.webp; text_fr сверен по этим страницам",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-105b-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "Amour leur dénouë la langue (с. 132)",
+      "current": "dénoüe",
+      "suggested": "dénouë",
+      "confidence": "low"
+    }
+  ]
+}
