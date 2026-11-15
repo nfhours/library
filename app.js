@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "204";
+  var APP_VER = "205";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -261,6 +261,10 @@
     svDlg:        {ru:"Оригинал 1626 года", en:"Original of 1626", fr:"Original de 1626"},
     svPrev:       {ru:"Предыдущая страница", en:"Previous page", fr:"Page précédente"},
     svNext:       {ru:"Следующая страница", en:"Next page", fr:"Page suivante"},
+    svMkEng:      {ru:"гравюра", en:"engraving", fr:"gravure"},
+    svMkOrn:      {ru:"орнамент", en:"ornament", fr:"ornement"},
+    svMkBlank:    {ru:"пустая страница", en:"blank page", fr:"page blanche"},
+    svMkSign:     {ru:"знак", en:"mark", fr:"signe"},
     svNoText:     {ru:"Текста на этой странице нет.", en:"No text on this page.", fr:"Pas de texte sur cette page."},
     tvOpen:       {ru:"Открыть место в переводе", en:"Open the place in the translation", fr:"Ouvrir l’endroit dans la traduction"},
     tvPrinted:    {ru:"в книге указана с. {n}", en:"the book’s own index cites p. {n}", fr:"l’index du livre indique la p. {n}"},
@@ -5451,12 +5455,14 @@
   function itHtml(e){
     if(!e) return '<p class="ic-sv-none">'+esc(t("svNoText"))+'</p>';
     function fmt(x){
-      if(state.lang !== "ru") x = x.replace(/\[(ИНИЦИАЛ|ГРАВЮРА|ВИНЬЕТКА|ПУСТАЯ СТРАНИЦА)([^\]]*)\]/g, function(m, k, r){
-        var body = r.replace(/^:\s*/, "");
-        if(k === "ИНИЦИАЛ") return body;
-        var cyr = (body.match(/[А-Яа-яЁё]/g) || []).length, label = {ГРАВЮРА: "engraving", ВИНЬЕТКА: "ornament"}[k] || "blank page";
-        return cyr > body.length * 0.3 || k !== "ГРАВЮРА" ? "[" + label + "]" : "[" + label + ": " + body + "]";
-      });
+      if(state.lang !== "ru"){
+        x = x.replace(/\[(ИНИЦИАЛ|ГРАВЮРА|ВИНЬЕТКА|ПУСТАЯ СТРАНИЦА)([^\]]*)\]/g, function(m, k, r){
+          var body = r.replace(/^:\s*/, "");
+          if(k === "ИНИЦИАЛ") return body;
+          var cyr = (body.match(/[А-Яа-яЁё]/g) || []).length, label = t({ГРАВЮРА: "svMkEng", ВИНЬЕТКА: "svMkOrn"}[k] || "svMkBlank");
+          return cyr > body.length * 0.3 || k !== "ГРАВЮРА" ? "[" + label + "]" : "[" + label + ": " + body + "]";
+        }).replace(/\[знак\]/g, "[" + t("svMkSign") + "]").replace(/(^| · )с\. /g, "$1p. ");
+      }
       return esc(x).replace(/\*([^*\n]+)\*/g,"<em>$1</em>").replace(/\[([^\]]*[А-Яа-яЁё][^\]]*)\]/g,'<span class="ic-sv-ed">[$1]</span>').replace(/\n/g,"<br>");
     }
     var h = "";

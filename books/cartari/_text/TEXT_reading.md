@@ -1638,7 +1638,7 @@ l'habito che haueuano, quando morirono. Et per questo anco si può dire, che sia
 
 ti da gli Egitij, perche era di legno vna statoa di Apollo in Argo dedicatagli da Danao, che fù antichissimo. Et pareua, che non si trouasse alcuno de' più antichi simulacri fatto di altro, che di Ebano, di Cipresso, di Cedro, di Quercia, di Hedera, o di Loto. Ma di Vliuo ancora ve ne fù qualch'vno, & fatto pel consiglio de l'Oracolo, che mostraua apunto, che in quei tempi amauano meglio i Dei essere fatti di legno, che di altra materia, Percioche si legge appresso di Herodoto, che quelli di Epidauro mandarono a dimandare all'Oracolo in Delfo il modo di rimediare ad vna grandissima sterilità, & fu loro risposto, che facessero doi simulacri a Damia & Auxesia (questi erano i Demoni, ò Genij, come vogliamo dire del paese) non di metallo, nè di pietra, ma di legno di vliuo non saluatico. Nel primo tempio che fù fatto a Giunone in Argo le fu posto vn simulacro di vn tronco di Pero: & in Roma, oue ella era dimandata Regina hebbe doi simulacri di Cipresso, li quali erano portati con solenni cerimonie, come scriue Liuio, a certo sacrificio, che fu ordinato la prima volta, che Hannibale passò in Italia. Et leggesi appresso di Plinio, che in Populonia fù vna statoa molto anticha di Gioue, fatta di vna vite sola. Et non è marauiglia, se però fu vero, che si trouassero viti così grandi, & grosse, che ne fossero fatte le colonne al tempio di Giunone in Metaponto, come il medesimo Plinio scriue. Et del Vitice ancora, che volgarmente si dimanda Agno casto, fu fatta vna statoa ad Esculapio, come scriue Pausania, in certa parte della Laconia, oue egli dalla materia della statoa fu detto Agnite. De legno medesimamente furono fatti i Dei da' Romani, mentre che alla semplice pouertà furono amici. Onde Tibullo, parlando a' Dei domestici chiamati Lari, dice parole, che questo suonauano in nostra lingua.
 
-*Nè Vergogna Vi prenda, se ben sete*
+*Nè vergogna vi prenda, se ben sete*
 *Fatti di secco tronco: perche tali*
 *Foste pur' anco ne i felici tempi*
 *De' poueri nostri Aui, quando furo*
@@ -1649,7 +1649,7 @@ ti da gli Egitij, perche era di legno vna statoa di Apollo in Argo dedicatagli d
 
 Et Propertio fà dire in questo modo a Vertunno della sua statoa.
 
-*Fatto senza arte fui d'Vn secco tronco,*
+*Fatto senza arte fui d'vn secco tronco,*
 *Et come pouerello Dio di legno*
 *Innanzi al tempo del buon Numa stetti*
 *Ne la Città, che mi fù sempre grata.*
@@ -1687,9 +1687,9 @@ Nelle Isole scoperte gl'anni passati da Spagnoli, che hora si addimandano il Mon
 Però dico, che la Eternita staua sempre con quelli Dei, che erano creduti immortali; la quale chi ella fosse dimostra assai bene col nome solo che viene a dire cosa, che in sè contiene tutte le età, & tutti i secoli, sì che spatio alcuno di tempo non la può misurare: benche si possa dire a certo modo, che ella sia parimente tempo, ma che non ha mai fine. Et perciò Trismegisto, i Pitagorici, & Platone dissero, che era il tempo la imagine della Eternità; perche questo in se stesso si riuolue, & pare che non se ne veggia mai il fine. Ma questa si può dire più tosto Perpetuità; perche, ancora che non habbia mai fine, non possiede però interamente tutta in vn medesimo punto questa sua vita infinita; che è proprio della Eternità, secondo Boetio; ilquale dice, che se bene parue a Platone che il mondo non habbi hauuto principio, nè sia per hauere mai fine, si ingannano però quelli, liquali seguitando questa opinione lo chiamano coeterno a Dio; perche a dare il suo proprio nome alle cose, hanno da dire, tenendo anco la opinione di Platone, che Dio è Eterno & il mõdo perpetuo. Descriue dunque Boetio la Eternità, che sia vn possesso presentaneo di tutti i tempi, & questa è propria di Dio, perche a lui non passa, nè viene il tempo, come a tutte le cose create; ancora che qualch'vna fosse per non hauere mai fine. Ma non la cerchiamo per hora tanto a minuto, come forse non la cercarono gli antichi, quando dissero eterni li suoi Dei, volendo perciò intendere che fossero immortali, & per non hauere mai fine, & che la Eternità fosse questa infinità di tempo. Onde Claudiano, che largamente la descriue nelle laudi di Stilicone, fà che vn serpente circonda l'antro, oue ella stà, in modo che si caccia la coda in bocca, che viene a mostrare l'effetto del tempo, ilquale in se stesso si và girando sempre, hauendone tolto l'essempio da quelli di Egitto, liquali mostrauano l'anno parimente col serpente, che si mordeua la coda; perche sono i tempi giunti insieme così, che il fine del passato è quasi principio di quel che hà da venire. Vedesi la Eternità in vna medaglia di Faustina fatta in questa guisa. Stà vna donna vestita da matrona in piè con vna palla nella destra mano, & hà sopra'l capo vn largo velo disteso, che la cuopre dall'vno homero all'altro. Ma vediamo tutto il disegno, che ne fà Claudiano, da me ritratto in nostra lingua à questo modo.
 
 *In parte sì da noi lunge, e secreta,*
-*Ch'alcun mortal vestigio non V'appare,*
+*Ch'alcun mortal vestigio non v'appare,*
 *Ou' a l'humana mente il gir si vieta,*
-*Nè Vi ponno anco i Dei forse arriuare,*
+*Nè vi ponno anco i Dei forse arriuare,*
 *Vna spelonca giace d'anni lieta,*
 *Madre d'infiniti anni, e d'età pare,*
 
@@ -1707,39 +1707,39 @@ Però dico, che la Eternita staua sempre con quelli Dei, che erano creduti immor
 
 ## Скан 0060 · с. 18
 
-Laqual con modo, ch'Vnqua non vien meno,
+Laqual con modo, ch'vnqua non vien meno,
 Manda, e richiama i tempi a l'ampio seno.
 Questa col flessuoso corpo cinge
-Vn serpe pien di Verdeggianti squame,
+vn serpe pien di verdeggianti squame,
 Qual ciò, che troua auidamente stringe.
 Come che diuorar ei tutto brame,
 E la coda si caccia in gola, e finge
 Voler mangiarla con auida fame.
-Vassene in giro, e con l'Vsate tempre,
+Vassene in giro, e con l'vsate tempre,
 Onde partì, cheto ritorna sempre.
 A la porta con faccia riuerenda,
 Et d'anni piena stà l'alma Natura,
 Come custode, che fedele attenda
 Chi vien', & và con diligente cura;
-D'intorno Volan l'anime, e che penda
+D'intorno volan l'anime, e che penda
 Ciascuna par con debita figura
 Da le membra, ch'à lei son date in sorte,
 E stan con lei fino che piace à Morte.
 Ne l'antro poi, ne la spelonca immensa
-Vn Vecchio, c'hà di bianca neue asperso
+Vn vecchio, c'hà di bianca neue asperso
 Il mento, e'l crine stà, scriue e dispensa
-Le ferme leggi date à l'Vniuerso.
+Le ferme leggi date à l'vniuerso.
 E mentre ch'à disporre il tutto pensa
 Con l'animo al bell'ordine conuerso,
 Certi numeri parte tra le stelle,
-Onde n'appaion poi sì Vaghe e belle.
+Onde n'appaion poi sì vaghe e belle.
 Con ordine immutabili prescriue
 A ciascuna quando habbia a gir, ò stare
-Da che quanto tra noi si more, ò Viue,
+Da che quanto tra noi si more, ò viue,
 Ha vita, e morte, poi torna a guardare.
 E riueder come al suo corso arriue
 Marte, qual, bench'auezzo à caminare
-Per Via certa, và pur'à certo fine;
+Per via certa, và pur'à certo fine;
 Che così voglion le leggi diuine.
 Come con certo passo giri intorno
 Gioue portando giouamento al mondo,
@@ -1748,7 +1748,7 @@ E tosto muti il bel lume feconde,
 Come partendo sia tardo al ritorno
 Saturno horrido, mesto, & infecondo,
 Quanto Venere bella, e doppo lei
-Errando Vada il messaggier de i Dei.
+Errando vada il messaggier de i Dei.
 
 Колонтитул: Imagini de i Dei · с. 18
 Кустод: E quando
@@ -1762,17 +1762,17 @@ Errando Vada il messaggier de i Dei.
 *Natura viene, e à gli altri rai s'inchina*
 *Il bianco Vecchio humile, e riuerente.*
 *All'hora da sè s'apre la diuina*
-*Spelonca, allhor si Vegono patente*
+*Spelonca, allhor si vegono patente*
 *L'adamantine porte, e a poco à poco*
 *Tutti i secreti appaion di quel loco.*
 *Quiui i secoli sono di diuersi*
-*Metalli fatti in Variati aspetti,*
+*Metalli fatti in variati aspetti,*
 *E pare ciaschedun di lor tenersi*
 *Nel seggio suo con suoi compagni eletti,*
 *Questo è di ferro, onde souente fersi*
 *I mortali frà lor danni, e dispetti;*
 *Di rame quello, al cui gouerno è stato*
-*Il mondo tutto Vn poco men turbato.*
+*Il mondo tutto vn poco men turbato.*
 *Vno ve n'è d'argento, che risplende*
 *In bel seggio eleuato d'ogn'intorno;*
 *Ma di rado trà noi mortai discende*
@@ -1936,7 +1936,7 @@ certi dì, che erano consecrati a lui, volendo in questo modo mostrare, che la c
 
 *Tale fù già Saturno quando volse,*
 *Cangiato in bel destrier, fuggir la moglie.*
-*Onde Veloce andò per gli alti monti,*
+*Onde veloce andò per gli alti monti,*
 *E scuotendo còl capo alto talhora*
 *Il duro crine, risonar faceua*
 *Col feroce anitrir l'alte spelonche.*
@@ -2018,7 +2018,7 @@ beate, & gli celesti giri, le quali cose non si mutano mai, & seruano sempre la 
 
 *Coronata di fior la Primauera,*
 *La nuda Està cinta di spiche il crine,*
-*L'Autunno tinto i piè d'Vua spremuta,*
+*L'Autunno tinto i piè d'vua spremuta,*
 *E l'Inuerno agghiacciato, horrido, e tristo.*
 
 Sono ancora le stagioni dell'anno mostrate alle volte in questo modo: Mettersi Venere per la Primauera, Cerere per la Estate, per l'Autunno Bacco, e per l'Inuerno talhora Volcano, che stà alla fucina ardente, & talhora i venti con Eolo Rè loro, perche questi fanno le tempeste, che nell'Inuerno sono più frequenti, che ne gli altri tempi furono anco posti sotto i piedi di Giano dodici altari, per li quali erano intesi i dodeci mesi dell'anno; ouero i dodici segni del Zodiaco trascorsi dal Sole in tutto l'anno. Et in Roma fù vn tempio di costui, che haueua quattro porte, & quattro colonne sosteneuano il volto di sopra, in ciascheduna delle quali erano nicchi con figure rappresentatrici de i mesi, che si partono nelle quattro stagioni dell'anno. Et due porte solamente hebbe da principio il suo tempio, quando fù fatto da Numa, dinanzi del quale egli staua assiso in bel seggio regale, & era chiamato quiui Patulcio, & Clusio da due voci Latine, che significano l'vna aprire l'altra serrare, perche l'vno, & l'altro era creduto venire dalla sua mano, come hò già detto, & chiamauansi queste le porte della guerra, delle quali Vergilio così scrisse:
@@ -2574,11 +2574,11 @@ cose de gli Astrologi, perche le imagini da loro poste poco fanno à mio proposi
 *Quini ad vn parto il Sole, e la sorella*
 *Finto ella stessa hauea, ma non conformi*
 *Già di sembianti, che diuerso assai*
-*Del Volto era il color, i quai dal Cielo*
+*Del volto era il color, i quai dal Cielo*
 *Al giorno, & a la notte fosser duci.*
 *Dolce cantando poi Thetide in culla*
 *I piccioli bambini lusingando*
-*Acqueta; e raddormenta, ò Ver nel grembo*
+*Acqueta; e raddormenta, ò ver nel grembo*
 *Grata gli tiene. se le paion tristi,*
 *Piena d'Amor li pasce, & li consola.*
 *Titan col braccio destro ella sostiene,*
@@ -2589,7 +2589,7 @@ cose de gli Astrologi, perche le imagini da loro poste poco fanno à mio proposi
 *Quando de' raggi le fiammelle ancora*
 *Non tenea al capo, e la corona ardente,*
 *Ma tepido caler sol da la bocca*
-*Gli Vsciua fuor, & al suo picciol grido*
+*Gli vsciua fuor, & al suo picciol grido*
 *Si vedea di splendor qualche scintilla.*
 *La sua sorella de la poppa molle*
 *Nel lato manco fuor il latte sugge.*
@@ -2666,7 +2666,7 @@ Et le dauano in compagnia alcune poche verginelle, le quali sono parimente descr
 *Le man di lieui dardi sono armate,*
 *Ei non hanno ornamento alcuno intorno*
 *Fatto con arte, nè però men belle*
-*Appaion, mentre che Van seguitando*
+*Appaion, mentre che van seguitando*
 *Le faticose caccie, e di sudore*
 
 Колонтитул: De gli Antichi. 97
@@ -2748,14 +2748,14 @@ Di questi l'vno era negro, e l'altro bianco, dice il Boccaccio; perche non solam
 
 re gli antichi con questo animale, che non hà la Luna luce da sè, mà risplende con l'altrui lume, quasi che il Sole glie la presti; sì come il Mulo non nasce di animali di sua razza, ma dall'altrui, che sono Asini, e Caualle. Pausania, oue racconta le gran cose, che erano nel tempio di Gioue Olimpio appresso de gli Elei in Grecia, dice, che vi era vna Diana, la quale pareua a lui, che cacciasse vn Cauallo; benche soggiunge poi, hauer detto alcuni, che questa sia tirata non da Caualli, ma da Muli per certa vana fauola, che si racconta del Mulo; & altro non ne dice. Prudentio contra Simaco scriue, che gli antichi Romani sacrificauano vna vacca sterile alla Luna, & che due vacche, le quali doueuano essere parimente sterili; tirauano il suo carro. Oltre di ciò sonoui stati di quelli, che hanno posto al carro della Luna i Giouenchi, come Claudiano, quando finse, che Cerere, per cercare la perduta figlia, accendesse in Mongibello gli tagliati pini dicendo;
 
-*Acciò tengano in sè Virtù maggiore*
+*Acciò tengano in sè virtù maggiore*
 *Di quel liquor, che Febo i destrier suole,*
 *E i suoi Giouenchi la bicorne Luna*
-*In quant' Vopo lor la sia gli asperge, e bagna.*
+*In quant' vopo lor la sia gli asperge, e bagna.*
 
 Et Ausonio Gallo fece il medesimo, quando scriuendo à Paolino disse:
 
-*Già fea Veder la Luna i bei Giouenchi.*
+*Già fea veder la Luna i bei Giouenchi.*
 
 Di questi si legge la medesima ragione, che hò detto de i Muli, cioè, che mostrano la sterilità. Imperoche, come scriue Xenofonte, & si vede fare etiandio tutto dì, si castrano i Tori, per farli più mansueti, & più commodi a coltiuare il terreno, donde è che non ponno poi più generare. Oueramente fu dato questo animale alla Luna, per la simiglianza, che è frà loro delle corna: conciosia, che al simulacro di quella, che era di vaga Ninfa, come hò detto, metteuano due piccole cornette in capo. Et in Egitto era consecrato alla Luna quel bue, che quiui haueuano in tanta riuerenza, il quale bisognaua, che hauesse vna macchia bianca nel destro fianco, & le corna picciole, come sono quelle della Luna quando comincia à crescere, secondo che si legge appresso di Plinio. Et glie ne sacrificauano vno ancora di sei mesi, dicono alcuni il settimo dì, & alcuni altri il decimo dopò il parto, che era quando con le loro cerimonie metteuano il nome a' figliuoli nati. Et faceuano gli antichi questo all'hora alla Luna forse ringratiandola, quasi che per lei il maturo parto fosse venuto in luce, perche dicono, che la Luna per esser pianeta humido affretta il tempo tal'hora con il suo influsso, onde ne
 
@@ -2803,7 +2803,7 @@ nascono alle volte i figliuoli nel settimo mese, che e a lei sottoposto, & fà q
 ouero che questa Dea era l'apportatrice della luce a' nascenti fanciulli, perche porgeua loro aiuto ad vscire del ventre della madre. Per la qual cosa i Greci le metteuano in capo ghirlande di Dittamo, herba, che posta sotto alle donne, quando stanno per figliare, gioua loro assai. Leggesi ancora che, facendo gli antichi Diana con l'arco in mano, voleano mostrare le acute punture de i dolori, che hanno le donne al partorire, & così la faceuano quasi sempre. Onde Marco Tullio scriuendo contra Verre disegna vn simulacro di Diana da lui rapito nella Sicilia, in questa foggia; era alto, & grande, con veste, che lo copriua tutto fin giù a piedi, giouane di faccia, & di Virginale aspetto, che nella destra mano portaua vna facella ardente, e teneua vn'arco nella sinistra, & le saette gli pendeuano da gli homeri. Può l'accesa face in mano di Diana (come scriue pur'anco Pausania, che ne fu vn simulacro di metallo nell'Arcadia alto forse sei piedi oltre a quello, che hò detto) mostrare ancora, ch'ella lucendo di notte fa la scorta a' viandanti, & perciò era chiamata quiui Diana scorta, & duce; sì come in Roma nel tempio, che ella hebbe su'l monte Palatino, fù detta Nottiluca. Et hebbe altri diuersi nomi ancora, delli quali si dirà poi. Pausania, quando descriue l'arca di Cipsello Tiranno di Corinto posta quiui nel tempio di Giunone, dice; che vi erano scolpite, & intagliate molte figure d'oro, & di auorio, & che frà queste vi era Diana con le ali a gli homeri, laquale porgeua con la destra mano vn Pardo, & vn Lione con la sinistra, & che non sà renderne alcuna ragione: onde io non mi vergognerò di dire il medesimo, non hauendo trouato fin quì, chi ne habbi scritto. Lascio dunque, che la interpreti ogni vno a modo suo, & vengo a dire, che Virgilio ha posto tre faccie alla Vergine Diana, & che ella fu perciò chiamata Triforme, Trigemina, e Triuia: nè Diana solamente, ma Hecate ancora fu così detta, onde Ouidio scrisse,
 
 *Vedi, che con tre faccie Hecate guarda*
-*Tre Vie, che poi riescon tutte in Vna.*
+*Tre vie, che poi riescon tutte in vna.*
 
 Benche fossero poi tutte vna medesima cosa, & i nomi solamente erano diuersi, per mostrare con questi, come tante volte hò già detto le diuerse potenze, & qualità diuerse, che dauano gli antichi a' suoi Dei, & i varij effetti, che da quelli erano creduti venire. Et perciò dissero le fauole, che Hecate nata di Gioue hebbe da lui autorità, e potere sopra tutti gli elementi, & che fu così nomata, perche appresso de' Greci vna simile voce viene a dire cento, che appo loro spesse volte è tolto per numero infinito, come ch'ella fosse di possanza infinita; perche pare che da lei qual'è come hò detto la Luna, siano gouernati gli Elementi, & quasi tutte le cose composte di quelli & che
 
@@ -2863,16 +2863,16 @@ metallo di Hercole, che haueua la bocca, & il mento quasi logori, cosi spesso er
 
 nuti granelli, come gran numero di persone sta insieme vnito nelle Città. Et fù opinione di alcuni Filosofi, che così fosse habitato colà su l'orbe della Luna, come è quà giù la terra, & diceuano che le Città, le selue, & i monti, che quiui sono; fanno quelle macchie, che ci par di vedere nella faccia di quella, ma Plinio vuole che siano fatte per l'humidità, ch'ella tira dalla terra. Scriue Pausania, che in Egina Città de i Corinthi, Hecate era adorata più di tutti gli altri Dei: & che quiui ella hebbe vn simulacro di legno fatto da Mirone con vna faccia sola, & il resto del corpo era a guisa di tronco; come che non fosse fatta sempre con tre faccie, ma credesi, che Alcamene innanzi a tutti gli altri la facesse tale a gli Atheniesi. Delle tre teste dunque, che hebbe il simulacro di Hecate, l'vna alla destra era di cauallo, l'altra di cane & la terza che era nel mezo di huomo rustico, & rozo, come dicono alcuni, o come altri vogliono, di cinghiale, che forse meglio si confà a quello, che si dice della Luna, percioche considerata quando sparge il lume sopra di noi, vien chiamata Diana, & cacciatrice, il che si può intendere per lo Cinghiale, perche stà questa bestia nelle selue sempre, e nei boschi sì come la testa di Cauallo animale veloce ci fa vedere, ch'ella circonda velocissimamente il Cielo; & quella del cane ci dinota, che la medesima, quando noi si nasconde, fu creduta la Dea dello Inferno, & chiamata Proserpina, perche si da il Cane al Dio dell'Inferno come Cerbero, dalle fauole tanto celebrato, ne fa fede. Et Prudentio; scriuendo la vanità de Gentili difesa da Simmaco, dice in questo modo della Luna:
 
-*Hor sul bel carro da due Vacche tratto*
-*Candida Va pel Ciel: hor ne l'Inferno*
-*L'empie sorelle con Viperea sferza*
+*Hor sul bel carro da due vacche tratto*
+*Candida va pel Ciel: hor ne l'Inferno*
+*L'empie sorelle con viperea sferza*
 *Castiga, e falle vscir contra mortali:*
-*Hor, per le selue le Veloci dame*
+*Hor, per le selue le veloci dame*
 *Fere, e traffige con gli acuti dardi.*
 *E quindi vien, che in tre forme diuerse*
 *Con tre diuersi nomi ella si mostra:*
 *Percioche Luna è detta quando appare*
-*Di bel lucido velo à noi Vestita,*
+*Di bel lucido velo à noi vestita,*
 *Quando succinta spiega le quadrella,*
 *E la vergine figlia di Latona;*
 *E quando in alto seggio assisa, legge*
@@ -2943,14 +2943,14 @@ la fà apparire in sogno a Theletusa, così la dipinge, mettendo con lei alcuni 
 *Da be' misterij con non finte larue*
 *Da due corna la fronte hauea segnata*
 *La qual di bianche, e di mature spiche*
-*Con Vaghezza mirabile era ornata.*
-*Anubi, che con Voci à buoni amiche*
+*Con vaghezza mirabile era ornata.*
+*Anubi, che con voci à buoni amiche*
 *Caninamente latra, e'l scettro porta,*
 *Che gli posero in man le genti amiche.*
 *Bubaste santa, & Api, e chi conforta*
 *Le persone al silentio era con lei*
 *Al bel tacer con man facendo scorta.*
-*E quei, che Van con dolorosi homei*
+*E quei, che van con dolorosi homei*
 *Cercando sempre, Osiri, che fu posto*
 *Poi da la moglie frà gli eterni Dei.*
 *E le sono i Serpenti, e i Sistri accosto.*
@@ -2977,15 +2977,15 @@ dente, & erano intorno al lembo attaccati con bellissimo ordine fiori, & frutti 
 
 *Quando la Luna à racquistar comincia*
 *Là già perduta luce, se con fosche*
-*Corna Viene abbracciando l'aer negro,*
+*Corna viene abbracciando l'aer negro,*
 *Gli agricoltori, & i nocchieri hauranno*
 *Gran pioggie: ma, se di rossore honesto*
-*Sparge le belle guancie, farà Vento;*
-*Che mostra Vento sempre che rosseggia*
+*Sparge le belle guancie, farà vento;*
+*Che mostra vento sempre che rosseggia*
 *La Luna: e se nel quarto apparir (ch'vnqua*
 *Questo non falle) andrà bella, e serena*
 *Con le lucide corna per lo Cielo,*
-*Quel giorno, e gli altri, che Verranno dietro*
+*Quel giorno, e gli altri, che verranno dietro*
 *Per tutto il mese, siano asciutti, e queti.*
 
 L'altra veste tutta negra mostra, che la Luna, come hò già detto più volte, non hà lume da sè, ma da altri lo riceue. Hanno poi detto alcuni, che Apuleio mette quel ciembalo in mano a questa Dea, per mostrare la vsanza de gli antichi, li quali vsciti allo scoperto faceuano certo strepito, & rumore con vasi di rame, & di ferro, pensando di giouare in quel modo alla Luna, allhora ch'e la perde il lume per intraporsi la terra frà lei, & il Sole, che è nel tempo della Ecclisse, della quale non sapendo la causa, diceuano, che la Luna era tirata in terra per forza d'incanti, perche allhora alcuni Incantatori haueuano dato ad intendere al mondo di potere fare questo, e più ancora. Onde Virgilio disse in persona di certa maga, che gli incantati versi hanno forza di ritirare la Luna giù dal Cielo: & di Medea si legge spesso, che ella faceua discendere la Luna a suo dispetto: & Lucano parlando de gl'incantatori della Thessaglia dice, che essi furono i primi, che facessero forza alle stelle, & che faceuano diuentar la Luna negra, & oscura allhora, che ella doueua essere più chiara, e più lucida, & la teneuano tale fin che ella fosse venuta in terra a fare quello,
@@ -3003,7 +3003,7 @@ che voleuano. Et appresso di Apuleio vna di queste incantatrici si vanta di pote
 *De gli alti monti, oue adorata sei,*
 *O gran Dea de le selue, ò chiaro lume*
 *Del Cielo, ò de la scura humida notte*
-*Vero ornamento la cui face dona*
+*vero ornamento la cui face dona*
 *Alterna luce al mondo, ò Dea triforme*
 *Hecate santa, porgi il tuo fauore*
 *A l'opra cominciata.*
@@ -3126,7 +3126,7 @@ Et perche talhora pare, che nelle selue si spauentino i greggi, nè si possa ved
 *L'orecchie qual di Capra lunge, & hirte,*
 *L'hispida barba scende sopra il petto*
 *Dal duro mento, e porta questo Dio*
-*Sempre vna Verga Pastorale in mano,*
+*Sempre vna verga Pastorale in mano,*
 *Cui cigne i fianchi di timida Dama*
 *La maculosa pelle, il petto e'l dosso.*
 
@@ -3146,11 +3146,11 @@ non potendo talhora trouarlo, ne pigliaua quel dispiacere, che spesso si piglia 
 
 *A che cerchi pur tu sciocco Pittore*
 *Di far di me Pittura? che son tale*
-*Che non mi Vide mai occhio mortale,*
+*Che non mi vide mai occhio mortale,*
 *E non hò forma, corpo, nè colore.*
 *De l'aria, e de la lingua à tutte l'hore*
 *Nasco, e son madre poi di cosa, quale*
-*Nulla Vol dir, però che nulla Vale*
+*Nulla vol dir, però che nulla vale*
 *La voce, che gridando i' mando fore.*
 *Quando son per perir, gli vltimi accenti*
 *Rinouo, e con le mie l'altrui parole*
@@ -3167,7 +3167,7 @@ Il che à me non dà già l'animo di fare, ma porrò bene la imagine, che ne fec
 *Che tanto altrui ricide, quanto ascolta;*
 *S'amor ti torne à suoi piu lieti balli,*
 *E che ti renda la tua forma tolta,*
-*Fuor d'este Valli abbandonate, e sole;*
+*Fuor d'este valli abbandonate, e sole;*
 *Sciogli i miei dubbi in semplici parole.*
 
 Колонтитул: Imagini de i Dei. 118
@@ -3184,7 +3184,7 @@ Il che à me non dà già l'animo di fare, ma porrò bene la imagine, che ne fec
 *Viue ella sempre, ò pur sen more?*
 *Debbo fuggir la sorte dura?*
 *Chi darà fine al gran dolore?*
-*Com'hò dà Vincer chi è spergiura?*
+*Com'hò dà vincer chi è spergiura?*
 *Dunque l'inganno ad amor piace?*
 *Che fin'è d'esso, guerra, ò pace?*
 
@@ -3192,14 +3192,14 @@ In questo loco mi pare, che non sia fuor di proposito, ma anzi che debba recare 
 
 *Valli, Sassi, Montagne, Antri, Herbe, & Piagge,*
 *Colli, Selue, Fontane, Augelli, & Fere,*
-*Satiri, Fauni, & Voi Ninfe leggiadre*
+*Satiri, Fauni, & voi Ninfe leggiadre*
 *Odite per pietà la pena mia.*
 *Vdite come Amor mi mena à Morte*
 *Legato in duro, e indissolubil nodo?*
 *Voce odo; Deh chi sei tu, che rispondi*
 *A l'amaro, & dolente pianger mio?*
 *Ninfa sei forse? dì se Ninfa sei*
-*Tu, che di questa Voce formi il suono?*
+*Tu, che di questa voce formi il suono?*
 *Ninfa sei dunque? deh dimmi anco il nome,*
 *Ch'io sappia chi si moue à pianger meco?*
 *Hora poi ch'Echo sei, porgimi orecchio,*
@@ -3212,7 +3212,7 @@ In questo loco mi pare, che non sia fuor di proposito, ma anzi che debba recare 
 *In qualche parte almen per te si annulla?*
 *I' ti ringratio. Hor dunque mi consiglia,*
 *Poi che più altro premio non richiedi?*
-*Tu Vedi Ninfa com' Amor mi strugge,*
+*Tu vedi Ninfa com' Amor mi strugge,*
 *Ch'io corro à morte, e a pena me n'aueggo?*
 *Che mi consigli? che farò perch'io*
 *Troui pietà la dou' Amor mi chiama?*
@@ -3243,7 +3243,7 @@ Che fiamma è questa, come non finisce
 Di consumar, se mai non mi rallenta?
 In che loco s'annida? oue soggiorna?
 Che parte è quella, ou'arde a mio dispetto?
-Com'entra dimmi? oue troua la Via,
+Com'entra dimmi? oue troua la via,
 Perch'ella dentro al petto si trabocchi?
 Entra per gli occhi? parmi hauer inteso,
 Che molti per vdir s'innamoraro.
@@ -3251,7 +3251,7 @@ Dimmi, che cibo e'l suo? oue si pasce?
 Che par che di continuo ella m'accore?
 Se m'arde il cor, debbo durare ancora
 Al giogo, ou'io mia libertà perdei?
-Adunque Vuoi, ch'in stia nel mio pensiero,
+Adunque vuoi, ch'in stia nel mio pensiero,
 Costante ancor, benche sia afflito, e stanco?
 Tante lagrime spargo, e nulla gioua?
 Dimmi sarebbe forsi il pianto in vano?
@@ -3271,10 +3271,10 @@ Dunque Ninfa gentil lo sperar gioua,
 E la mortale passion rafrena?
 Qual sia la vita mia, se senza speme
 Terrammi preso Amor con man'accorta?
-Se siano corti i giorni di mia Vita
+Se siano corti i giorni di mia vita
 Non saran lieti almen benc'hor m'attristi?
 Che spererò? mi lice sperar forse,
-Che far mi debba Vn giorno Amor felice?
+Che far mi debba vn giorno Amor felice?
 Vorrei saper chi mi darà speranza,
 Poi ch'à sperar la tua ragion m'inuita?
 Vita haurò dunque? haurò poi altro s'io
@@ -3318,7 +3318,7 @@ Seguir a queste membra afflitte, e smorte?
 Morte? se dunque il timor passa'l segno,
 Tal hor si more per souerchio Amore?
 Come lo scaccierò? l'alma si strugge,
-Che non lo Vuole, piange, e si dispera?
+Che non lo vuole, piange, e si dispera?
 Tu pur dici ch'io speri, speme forse
 Credi, che sola sia, ch'altri consola?
 Leuerà tutto, ò parte del tormento
@@ -3326,19 +3326,19 @@ Lasso, che mi consuma, e'l cor mi parte?
 Adunque la speranza per se sola
 Beato non potrà farmi giamai?
 Ma oltre Amore seruitute, e speme,
-Che ci Vuol? dimmi'l tutto a parte a parte?
+Che ci vuol? dimmi'l tutto a parte a parte?
 Chi mi darà quest'arte forsi Amore;
 Altri chi sia? se non è Amor istesso?
 Insegna dunque Amor, dunque a gli amanti
-Amor del Vero Amor l'arte dimostra?
+Amor del vero Amor l'arte dimostra?
 Dimmi di gratia, scoprirò la fiamma,
 O mi consigli, ch'io non la discopri?
-A cui debbo scoprirla? ad ogn'Vn forse?
+A cui debbo scoprirla? ad ogn'vn forse?
 O basterà, che sol l'intenda alcuno?
-Vuoi che ad Vn sol amico sia palese,
+Vuoi che ad vn sol amico sia palese,
 Celato à gli altri sia'l corpo mortale?
 Sapremo soli tre dunque il mio ardore,
-Se Vuoi, che con Vn solo mi consoli?
+Se vuoi, che con vn solo mi consoli?
 Ma dimmi quale deue esser colui,
 A cui l'ardor secreto mio confido?
 Trouerans'in Amor fedeli amici,
@@ -3348,8 +3348,8 @@ Che sia fidel, sì come si ricerca?
 E s'io lo trouo, che potrà giouarmi?
 Forsi tal'hor la passion rileua?
 Hor questo, che mi detti dimmi'l modo
-Vero d'Amor, dimmi di gratia'l Vero?
-Se questo è il Vero modo, i' son felice
+Vero d'Amor, dimmi di gratia'l vero?
+Se questo è il vero modo, i' son felice
 Homai non temo, ch'l dolor m'atterri?
 
 Колонтитул: De gli Antichi. 121
@@ -3380,13 +3380,13 @@ Homai non temo, ch'l dolor m'atterri?
 ## Скан 0164 · с. 122
 
 *Perch'erro? forsi ancor altro ci vuole?*
-*Perche senz'ale il mio pensier non Vole?*
-*Altro ci Vuol ancor? non basta questo?*
+*Perche senz'ale il mio pensier non vole?*
+*Altro ci vuol ancor? non basta questo?*
 *Deh dimmi'l ver non mi lasciar incerto?*
 *Che ci vol dunque dì per cortesia,*
 *Perche di goia sia l'alma consorte?*
 *Sorte? hor altro ci vuol accioche in fine*
-*Voglia, e speme in Van nè starò in sorte?*
+*Voglia, e speme in van nè starò in sorte?*
 *In somma di sopra tutto che gioua,*
 *Perche non sia'l desir indarno, e sorte?*
 *Hor resta in pace Ninfa; io ti ringratio,*
@@ -3596,7 +3596,7 @@ ricchezze, & gli beni temporali. La copia dunque de i fiori & de i frutti stà n
 
 sù due Tori. Ma all'incontro poi in alcune medaglie pure antiche di Antonino Pio, & di Gordiano stà Gioue nudo, & in piedi, & hà l'hasta nella destra, & il fulmine nella sinistra, con lettere, che dicono: Gioue Statore; che ei fù così chiamato in certo Tempio a lui fatto da Romulo, perche a suoi preghi fermò i soldati Romani, & fattigli voltar fronte gli fece star saldi già vna volta, che combattendo con gli Sabini si erano messi in fuga. Da questo non è molto dissimile Gioue conseruatore, che si vede nelle antiche medaglie di Diocletiano, il quale stà parimente dritto, & ha nella destra due saette in guisa, che si ponno pigliar anco per due fulmini, & vna hasta nella sinistra. Et in vn'altra medaglia del medesimo Diocletiano è chiamato Gioue conseruatore dello vniuerso, & tiene la hasta con la sinistra, & con la destra porge vna breue imagine della vittoria. Ne altra insegna pare, che sia propria a Gioue del Fulmine, benche lo dessero i Romani, come scriue Plinio, al Dio Sumano ancora, il quale era il medesimo, che Plutone, ma quello però solamente, che veniua la notte, perche il fulmine del dì era di Gioue. Gli Etrusci, antichissimi osseruatori di queste cose, vollero che anco Volcano, & Minerua parimente spiegasse il fulmine, col quale si legge, che ella abbruciò già l'armata de i Greci. Onde Virgilio fa così dire a Giunone sdegnata frà sè medesima per non potere fare il male; che voleua ad Enea, & a gli altri Troiani, quando dopò la rouina di Troia andauano in Italia.
 
-*Hà Pallade potuto Vendicarsi*
+*Hà Pallade potuto vendicarsi*
 *De' Greci, & abbruciar le naui loro,*
 *Spiegando sopra quelle di sua mano*
 *Da l'alte nubi il fulmine di Gioue:*
@@ -4010,22 +4010,22 @@ donne parimente gli portauano. Et tutto il disegno, che hò fatto di costui è d
 
 *O de l'alto Helicone*
 *Habitator felice,*
-*O d'Vriana celeste,*
+*O d'vriana celeste,*
 *Lieto, e giocondo figlio,*
 *Che ne le forti braccia*
 *Del disioso amante*
 *Con legittimo nodo*
-*Metti la declicata Verginella.*
+*Metti la declicata verginella.*
 *Cinge Himeneo le tempie*
-*Di belli, e Vaghi fiori*
+*Di belli, e vaghi fiori*
 *De l'odorata persa,*
 *E tenendo con mano*
-*Il colorito Velo*
+*Il colorito velo*
 *Moue lieto per noi*
 *Il bianco piè vestito*
 *Et adorno del bel dorato socco.*
 *In questo di giocondo*
-*Vien con soaue Voce*
+*Vien con soaue voce*
 *Cantando a' noui sposi*
 *Allegre canzonette.*
 *Con piè prospero mena*
@@ -4043,7 +4043,7 @@ Seneca parimente così ne dice:
 
 Claudiano in certo Epitalamio descrisse Himeneo in questo modo.
 
-*Da gli occhi Vn soauissimo splendore*
+*Da gli occhi vn soauissimo splendore*
 *Esce, ch'à rimirarlo altrui contenta.*
 *E i caldi rai del Sole, e quel rossore,*
 *Ch'ogn'animo pudico tocca, e tenta,*
@@ -4175,7 +4175,7 @@ Et a questa cerimonia andauano innanzi al carro molti co i piedi scalzi, come di
 
 [ГРАВЮРА: двое мужчин возлагают башенную корону на статую богини Кибелы, стоящую на колеснице, запряжённой двумя быками/коровами, которых погоняют фигуры со жгутами/рогами]
 
-*Simulacro della Dea Cibele, che è la terra, & il carro doue era condotto processionalmente tirato da due Vacche dinotanti la fertilità della terra, & la vtilità che da quella ne viene à mortali.*
+*Simulacro della Dea Cibele, che è la terra, & il carro doue era condotto processionalmente tirato da due vacche dinotanti la fertilità della terra, & la vtilità che da quella ne viene à mortali.*
 
 Колонтитул: 180 Imagini de i Dei
 Кустод:
@@ -4312,11 +4312,11 @@ Et Ouidio parimente così ne canta;
 Et perciò tanto fu riuerita, & come Dea adorata, & fu creduta di hauere dato le leggi innanzi a tutti gli altri, perche poi che fu trouato l'vso del grano, lasciarono gli huomini insieme con le ghiande quella prima vita tutta rozza, & quasi ferina, & ragunatisi insieme fecero le Città, & vissero poscia ciuilmente. Et per questo fu anco detto, che il nume di Cerere mostraua la virtù di quella terra, che si può coltiuare, & che produce largamente il grano. Onde fu la sua statoa fatta in forma di matrona con ghirlande di spiche in capo, & teneua vn mazzetto di papaueri in mano, perche questo è segno di fertilità, & due fieri Draghi tirauano il suo carro, come scrisse Orfeo. Onde Claudiano, quando la fà ritornare di Sicilia, oue ella haueua riposta la figliuola, così dice:
 
 *Ascende il carro, e a le materne case*
-*Drizza de' Draghi il Volo, a cui le membra*
+*Drizza de' Draghi il volo, a cui le membra*
 *Spesso percuote, & elli per le nubi*
 *Ondeggian torti suffolando, e'l freno*
 *Placidamente leccano, che molle*
-*De l'amico Velen la schiuma rende.*
+*De l'amico velen la schiuma rende.*
 *Questi coperta la superba fronte*
 *Tengon d'altere creste, & hanno il tergo*
 *Di nodi tutto, e di rotelle asperso.*
@@ -4474,8 +4474,8 @@ NETTVNO.
 
 *Varcando il mar' Egeo Nettuno in porto*
 *Mena gli affaticati suoi destrieri:*
-*Che'l capo, il collo, il petto, e l'Vgne prime*
-*Han di Cauallo ch'Vbbidisce al freno;*
+*Che'l capo, il collo, il petto, e l'vgne prime*
+*Han di Cauallo ch'vbbidisce al freno;*
 *E son nel resto poi guizzanti pesci.*
 
 Et alle volte l'hanno vestito ancora, mettendogli intorno vn panno di colore cilestre, come dice Fornuto, che rappresenta il color del mare. Et Lusciano nei suoi sacrificij lo finge hauere i capegli pari-
@@ -4500,9 +4500,9 @@ Et alle volte l'hanno vestito ancora, mettendogli intorno vn panno di colore cil
 
 mente cilestri, & negri ancora; benche Seruio dica, che appresso de gli antichi tutti i Dei del mare erano fatti con capegli canuti, e bianchi, & per lo più vecchi, conciosia che i capi loro biancheggino per la spuma del mare. Onde Filostrato dipingendo Glauco, che fu parimente Dio marino, dice, che egli hà la barba bianca tutta bagnata, e molle, & le chiome medesimamente bagnate si spargono sopra gli homeri, le ciglia sono spesse, folte, & raggiunte insieme, & le braccia à guisa di chi volendo nuotare con quelle taglia l'onde, & al nuotare le fa facili, il petto è tutto carico di verde lanugine, e di alga marina, & il ventre a poco a poco si vien mutando in modo, che il resto del corpo, le coscie, & le gambe diuentano pesce, qual si mostra con la coda alzata fuor dell'acqua. Et Ouidio, quando lo fa raccontare à Scilla sua inamorata, come di pescatore diuentasse Dio marino, poi che vide il pesce da lui preso non si tosto messo sù l'herba, che tornò gittarsi in mare, onde lui hauendo parimente gustato di quella herba, fu spinto à gittarsi dietro à quello, fa che ei disegna insieme la figura sua in questa guisa.
 
-*Allhor subito Vidi questa barba,*
-*E questa chioma tutta Verdeggiante*
-*Coprirmi il petto, e l'empie terga, & Vidi,*
+*Allhor subito vidi questa barba,*
+*E questa chioma tutta verdeggiante*
+*Coprirmi il petto, e l'empie terga, & vidi,*
 *Verdeggiar queste braccia parimente,*
 *E le coscie, e le gambe farsi pesce.*
 
@@ -4510,7 +4510,7 @@ Il medesimo Filostrato dice poi di Nettuno, ò che ei và per lo mare tranquillo
 
 *Viensene il Rè del mar alto e sublime*
 *Tratto da ferocissimi destrieri,*
-*A gli spumosi fren de i quali Vanno*
+*A gli spumosi fren de i quali vanno*
 *I Tritoni nuotando, e fanno segno*
 *A l'onde che si debbano quetare.*
 
@@ -4747,11 +4747,11 @@ ne, quando ella lo pregò appresso di Virgilio, che turbasse il mare con grandis
 *Tù, qualunque il mio regno sia, mi fai*
 *Rè, tù mi rendi il sommo Gioue amico,*
 *E da te vien, che sono in mio potere*
-*I fieri Venti, i nembi e le tempeste.*
+*I fieri venti, i nembi e le tempeste.*
 
 Nondimeno nè hora sarà fuori di proposito dirne quel poco, che ne hò trouato scritto, hauendo gli antichi adorati questi ancora come Dei, & fatto loro sacrificio, ò perche fossero già stati, ò perche hauessero ad essere fauoreuoli all'auenire: & gli dipinsero con le ali, con il capo tutto rabbuffato, & con le guancie gonfie in guisa di chi soffia con gran forza, & secondo poi, che diuersi sono gli effetti, che essi operano col soffiar loro; perche alcuni raccogliono le nuuole insieme, & fanno le pioggie, alcuni le scacciano, & in molti altri modi mostrano il poter loro, così furono da' Poeti descritti diuersamente. E ben che di molti si legga, quattro però solamente sono i principali, che soffiano dalle quattro parti del mondo, ciascheduno dalla sua, come sono disegnati da Ouidio nel partimento primo dell'vniuerso. Ma vi sono stati ancora secondo Strabone alcuni, che hanno voluto, che non fossero più di due. L'vno detto Aquilone, & chiamato Borea ancora, & da' marinari de' nostri tempi Tramontana, che soffia da Settentrione, & questo scriue Pausania, che era scolpito da vn lato dell'arca di Cipsello nel tempio di Giunone appresso de gli Elei in Grecia, che rapiua Orithia, come fingono le fauole, ne dice, come ei fosse fatto, se non che in vece di piedi haueua code di serpenti: ma perche ei fa col suo soffiare freddo grande, porta le neui; & indurisce il ghiaccio, gli si fà la barba, i capegli, & l'ali tutte coperte di neue. L'altro è l'Austro detto etiandio Noto, & Ostro da' marinari, che viene dalle parti mezzo dì: di doue perche questo con il suo soffiare adduce per lo più pioggie, così lo descriue Ouidio.
 
-*Spiega l'ali guazzose Noto, e Viene*
+*Spiega l'ali guazzose Noto, e viene*
 *Con viso oscuro, e carco di spauento.*
 *Le bianche chiome son di pioggia piene,*
 *E di nembi il barbuto horrido mento.*
@@ -4886,8 +4886,8 @@ l'vno delle braccia, & hà cinto il capo di verde canna, & è con vn manto pur v
 
 VERTVNNO.
 
-A che ti marauigli di Vedere,
-Tante forme in Vn capo? se m'ascolti
+A che ti marauigli di vedere,
+Tante forme in vn capo? se m'ascolti
 Che sia Vertunno tu potrai sapere.
 Quà venni di Toscana, oue da molti
 Visitato non son, nè mi dier mai
@@ -4941,12 +4941,12 @@ E farò con la falce vn mettitore,
 S'haurò di fien la fronte coronata.
 Vestito d'arme già non poco honore
 Per quelle hò meritato, sì pareua
-A tutti ch'io fossi huom di gran Valore,
+A tutti ch'io fossi huom di gran valore,
 Et chi l'arme d'intorno poi mi leua,
 E mi veste da graue litigante,
 Paio nato a le liti, e se t'aggreua
 Vedermi sì seuero, conuiuante
-Quasi ebbro mi Vedrai, se'l capo m'orni
+Quasi ebbro mi vedrai, se'l capo m'orni
 Di rose, e che giocondo, e lieto cante.
 Parrotti Bacco poi, se tu mi adorni
 De la mitra, ch'ei porta, e giurerai
@@ -4954,7 +4954,7 @@ Che veduto non hai vnqua a tuoi giorni
 Che più Febo assomigli, se mi dai
 L'arco, e la cetra, & vn gran cacciatore
 S'haurò le reti tu mi crederai.
-Mi dirà ogn'Vno Vago Vccellatore
+Mi dirà ogn'vno vago vccellatore
 Simile a Fauno, che mi veggia in mano
 La lieue canna; e che? non mi dà il core
 Dimostrarmiti ancor à mano à mano
@@ -5074,7 +5074,7 @@ te della Grecia fu posta vna, tauola, nella quale erano intagliate molte cose, &
 *Lo fa d'horribil voce risonare,*
 *Porgendo graue tema a le triste ombre,*
 *Il capo, e'l collo ha cinto di serpenti,*
-*Et è la coda Vn fero Drago, il quale*
+*Et è la coda vn fero Drago, il quale*
 *Fischia, s'aggira, e tutto si dibatte.*
 
 Così lo descriue anco Appollodoro; se non che dice di più, che i peli del dosso sono tutti serpentelli. Et Dante così dice del medesimo.
@@ -5082,8 +5082,8 @@ Così lo descriue anco Appollodoro; se non che dice di più, che i peli del doss
 *Cerbero fera crudele, e diuersa*
 *Con tre gole caninamente latra*
 *Soura a la gente, che quiui è sommersa.*
-*Gli occhi ha vermigli, la barba Vnta & atra,*
-*Il Ventre largo, & onghiate le mani.*
+*Gli occhi ha vermigli, la barba vnta & atra,*
+*Il ventre largo, & onghiate le mani.*
 *Graffia gli spirti, gl'ingoia, & i squatra.*
 
 Hesiodo lo fece con cento teste, & dice che era il portinaio di Plutone, & che faceua carezze à tutti quelli, che entrauano in inferno, ma a chi voleua vscirne si auuentaua subito, & lo diuoraua. Il che si confà molto bene al suo nome, perche tirando dal Greco, Cerbero viene à dire, che diuora la carne. Et per questo hanno detto alcuni, che per lui s'intende la terra, la quale diuora gli corpi morti. Et vn simile fu fra gli Dei dell'inferno in Delfo, chiamato da quelle genti Eurinomo, ilquale era creduto mangiare la carne de'morti in modo, che ne lasciaua l'ossa tutte nude, come recita Pausania, che lo descriue tutto negriccio, & del colore delle mosche star à sedere sù vna pelle di auoltoio, & mostrare gli denti. Hanno anco voluto alcuni, che per Cerbero si intenda questo nostro corpo, il quale si mostra piaceuole à chi entra in inferno cioè si dona à i vitij, & a' lasciui piaceri, & grida poi a chi ne vuole vscire, cioè lasciare questi, & darsi alla vir-
@@ -5221,7 +5221,7 @@ rano gli huomini à fare ogni male senza pure hauer alcun minimo rispetto, nè a
 
 *Non và più lieta altroue, ò più veloce,*
 *Nè sà meglio di questa alcuna via;*
-*Ne la Ve à l'alme peccatrici noce*
+*Ne la ve à l'alme peccatrici noce*
 *V'è bolgia tal, ch'à lei più grata sia.*
 *Mille Ceraste da la fronte atroce*
 *Fanno ombra al volto spauentosa, & ria,*
@@ -5280,13 +5280,13 @@ Et quando Giunone la manda à leuare il senno ad Athamante, Ouidio la descriue d
 
 corpo, come habbiamo detto, che faceuano anco le Furie; alle quali Virgilio aggiunge le ali, & dice, che elle sono preste sempre dinanzi à Gioue, qualunque volta egli vuole mandare a' mortali qualche spauento grande di morte, di guerra, di peste, ò di altro grauissimo male. Et Eliano scriue, che le Tortorelle furono consecrate da gli antichi alle Furie; ne trouo, che altro animale fosse proprio loro, se nõ che Virgilio ne fa cangiare vna in Ciuetta, ò Gufo che fosse, quando Gioue la manda à spauentare Turno, mentre che combatte con Enea. Sono stati di quelli poi, li quali alle tre furie già dette aggiungono la quarta, che chiamano Lissa. Questa significa appò noi rabbia, & perciò vogliono, che ella sia, che faccia arrabbiare i mortali, e perdere il senno. Onde Euripide finge, che Iride comandata da Giunone mena costei ad Hercole, perche lo faccia diuentar furioso, & arrabbiato. Ella hà il capo cinto di serpenti, & porta vno stimolo, ouero vna ferza in mano. Alle Furie potiamo aggiungere le Arpie, perche credeuano gli antichi, che mandassero i Dei queste parimente talhora à punire i mortali del loro maluagio operare; le quali stauano pure in Inferno, quantunque Virgilio le facesse vna volta habitare le Isole Strofade nel mare Ionio: ma quiui, od altroue che stessero, non importa à me nel dipingerle, & meno à chi vorrà sapere come fossero fatte. Haueuano queste adunque la faccia di donna assai bella, ma magra, & il resto del corpo era di vccello, con ali grandi, & con adunchi artigli, che così le descriue Virgilio, qual dall'Ariosto è stato molto bene imitato, & quasi tradotto in questa parte; il che fa, che io lascio i versi di Virgilio, e pongo quelli solamente dell'Ariosto, che così dicono dell'Arpie,
 
-*Erano sette in Vna schiera a tutte*
+*Erano sette in vna schiera a tutte*
 *Volto di donna hauean pallide, e smorte,*
 *Per lunga fame attenuate, e asciutte,*
-*Horribili à Veder più, che la morte.*
+*Horribili à veder più, che la morte.*
 *L'alacce grande hauean de formi, e brutte,*
 *Le man rapaci, e l'vgne incurue, e torte.*
-*Grande, e fetido il Ventre, e lunga coda,*
+*Grande, e fetido il ventre, e lunga coda,*
 *Come di Serpe, che s'aggira, e snoda.*
 
 Et Dante parimente, togliendone pur'il ritratto da Virgilio, ne fece vno schizzo, dicendo nel suo Inferno.
@@ -5295,7 +5295,7 @@ Et Dante parimente, togliendone pur'il ritratto da Virgilio, ne fece vno schizzo
 *Che cacciar de le Strofade i Troiani*
 *Con tristo annuncio di futuro danno.*
 *Ali hanno late, colli e visi humani.*
-*Piè con artigli, e pennuto il gran Ventre*
+*Piè con artigli, e pennuto il gran ventre*
 *Fanno lamenti in sù gli alberi strani.*
 
 Колонтитул: De gli Antichi · с. 245
@@ -5313,7 +5313,7 @@ Et Dante parimente, togliendone pur'il ritratto da Virgilio, ne fece vno schizzo
 Dalle Arpie dice Ouidio che nacquero le Streghe, le quali erano certi vccellacci grandi, spauenteuoli, & auidissimi del sangue humano, & così le descriue.
 
 *Han grande il capo, e gli occhi sono fuore*
-*Del commun Vso grossi, & eminenti,*
+*Del commun vso grossi, & eminenti,*
 *Pieni di brutto, e di crudele horrore.*
 *Gli artigli incurui, & à la preda intenti,*
 *Adunco il rostro, e di color canuto*
@@ -5364,9 +5364,9 @@ ca, come dice Virgilio ancora, che la mette nella prima entrata dell'inferno con
 *Fiero rettore, e giudice onde sempre*
 *Gli stami noi volgendo insieme tanto*
 *Ci affatichiam per te aggradir del tutto*
-*Da cui dipende il fin Vltimo, e il seme,*
-*Che il Viuer, e'l morir reggi, che serbi*
-*Gli humani corpi eternamente Vguali.*
+*Da cui dipende il fin vltimo, e il seme,*
+*Che il viuer, e'l morir reggi, che serbi*
+*Gli humani corpi eternamente vguali.*
 
 Et non è marauiglia che le Parche seruano à Plutone, perche elle furono credute filare la vita humana, la quale ò poco dura, ò molto, secondo che il corpo frale è di natura sua atto à viuere più, ò meno, & è questo nell'huomo la materia rapresentata da Plutone. Dalle mutationi dunque, che riceue in sè la materia, viene la morte, & la vita, quale alla misura di quella fanno le Parche lunga, & breue. Et perciò finsero gli antichi, che fossero tre, & l'vna hauesse la cura del nascere, l'altra del viuere, la terza del morire. Onde è, che stando tutte tre insieme à filare le vite de i mortali, teneua vna, Cloto la più giouane, la conocchia, e tiraua il filo, l'altra Lachesi di maggior età l'auuolgeua intorno al fuso, e la terza Attopo già vecchia lo tagliaua. Però Virgilio così parla di Dante a chi si marauigliaua di vederlo tanto oltre il Purgatorio, volendo dire, ch'ei non era anco morto,
 
@@ -5414,10 +5414,10 @@ del passato, Cloto del presente, & Atropo di quello, che hà da venire; e metton
 *Che le tremanti membra cuopre, e cinge*
 *Circondata di porpora, e à le teste*
 *Han bianca benda, che l'annoda, e stringe.*
-*E benche Vecchie sian, son però preste*
+*E benche vecchie sian, son però preste*
 *Con la man sempre, che lo stame finge*
-*In Varij modi, onde l'humana Vita*
-*Viene, e vassene all'Vltima partita.*
+*In varij modi, onde l'humana vita*
+*Viene, e vassene all'vltima partita.*
 
 Homero nelle laudi che ei canta à Mercurio dice, che le Parche sono tre sorelle vergini, che hanno le ali, & il capo sparso di bianchissima farina. Et appresso di Pausania si legge, che Venere fu posta da i Greci per vna delle Parche, & massime da quelli di Athene, li quali haueuano in certo tempio dedicato à questa Dea vn simulacro fatto in forma quadra, come gli Hermi che si faceuano per Mercurio, con vno epigramma che lo nomaua Venere celeste vna delle Parche, & la più vecchia di loro, nè vi era persona, che ne sapesse dire altro. Ilche mi riduce à mente quello che faceuano i Romani; che teneuano nel tempio di Libitina quelle cose, che seruiuano a portare i morti alla sepoltura. Di che rendendo la ragione Plutarco, dice che Libitina era Venere, & che nel suo tempio erano guardati gli ornamenti de i morti, per ammonirci della fragilità della vita humana, il principio, & fine della quale era in potere di vna medesima Dea. Perche, come vn'altra volta habbiamo detto, Venere fu la
 
@@ -5460,7 +5460,7 @@ Dea della generatione, & il farla la più vecchia delle Parche voleua à punto d
 
 ## Скан 0297 · с. 255
 
-[ГРАВЮРА: Imagini delle tre Parche trouate secondo Pietro Appiano in Stiria del 1500. interpretate Cloto euocatione cioè principio di vita, Lachesi sorte cioè vso, e camino, o corso di vita, Atropo senza ordine, cioè necessità & varietà della morte à tutte le cose del mondo comune. (надписи на гравюре: CLOTO, LACHESIS., ATROPOS)]
+[ГРАВЮРА: Imagini delle tre Parche trouate secondo Pietro Appiano in Stiria del 1500. interpretate Cloto euocatione cioè principio di vita, Lachesi sorte cioè vso, e camino, o corso di vita, Atropo senza ordine, cioè necessità & varietà della morte à tutte le cose del mondo comune.]
 
 Колонтитул: De gli Antichi · с. 255
 Кустод:
@@ -5471,7 +5471,7 @@ Dea della generatione, & il farla la più vecchia delle Parche voleua à punto d
 
 Ma questa distintione non faceuano gli antichi; imperoche voleuano che l'anime tutte vi andassero dopò morte benche non fossero tutte passate ad vn modo, come si raccoglie da Virgilio quando fa andare Enea in inferno, che in arriuando passauano quelle solamente, i corpi de i quali erano già stati sepolti: ma quelle, che non haueuano ancor hauuto sepoltura al corpo, andauano errando cento anni, prima che potero entrare nella piccola barca di Charonte, che le portaua all'altra ripa, Charon Dimonio, con gli occhi di bragia. Il quale da Seneca è descritto in questa guisa, quando nelle Tragedie di Hercole furioso, fa, che Theseo racconta ad Anfitrione ciò, che egli hà visto giù in Inferno.
 
-*Guarda quel fiume Vn vecchio horrido, è tristo*
+*Guarda quel fiume vn vecchio horrido, è tristo*
 *Ne l'aspetto, e ne l'habito, e da l'vna*
 *A l'altra ripa porta le meste ombre*
 *Con la piccola barca, al cui gouerno*
@@ -5480,7 +5480,7 @@ Ma questa distintione non faceuano gli antichi; imperoche voleuano che l'anime t
 *Tutte piene, e dal vecchio mento pende*
 *La rabbuffata barba, e il negro panno,*
 *Che cuopre in parte pur le sozze membra,*
-*Raccoglie Vn nodo senza ordine, od arte.*
+*Raccoglie vn nodo senza ordine, od arte.*
 
 Et bassi da credere, che ei ne togliesse il ritratto da Virgilio, quale buon tempo prima di lui così lo dipinse.
 
@@ -5493,13 +5493,13 @@ Et bassi da credere, che ei ne togliesse il ritratto da Virgilio, quale buon tem
 *Gli occhi hà di foco, e pallido è in aspetto è*
 *Bianca la barba, e lunga infino al petto.*
 *La vesta giù da gli homeri gli pende,*
-*Legata à Vn nodo, di lordezza carca.*
+*Legata à vn nodo, di lordezza carca.*
 *Esso al gouerno di continuo attende*
 *Con remo, e vela d'vna lieue barca.*
 *La qual de l'alme onde gran copia scende*
 *Giù ne l'Inferno, ogn' hor, non d'altro carca*
 *Già vecchio, e pien d'orgoglio, e pien d'asprezza,*
-*Ma d'Vna cruda, e Verde in lui vecchiezza.*
+*Ma d'vna cruda, e verde in lui vecchiezza.*
 
 Колонтитул: Imagini de i Dei · с. 256
 Кустод: Et
@@ -5525,11 +5525,11 @@ Et così l'haueua dipinto anco Polignoto in certe tauole, che ei ne fece nel tem
 *Del cieco Regno fiero, e horribil, quanto*
 *Sà l'alma, che la giù dannata scende,*
 *Sù la primiera entrata ha seggio il Pianto,*
-*E'l rio Pensier, ch'a la Vendetta intende.*
+*E'l rio Pensier, ch'a la vendetta intende.*
 *Con faccia smorta, e con lugubre manto*
 *Quiui l'Infermitade il piè sospende,*
 *E giace di dolor ripiena il petto,*
-*Con la Vecchiezza in Vn medesimo letto.*
+*Con la Vecchiezza in vn medesimo letto.*
 
 Колонтитул: Imagini de i Dei · с. 258
 Кустод: V'habita
@@ -5553,17 +5553,17 @@ E i tristi Gaudij de le menti torte.
 
 V'hauea luogo à l'incontro l'empia Guerra
 Col petto, e con le man tinte di sangue:
-Si come quella, che Volge la terra
+Si come quella, che volge la terra
 Spesso sossopra, ond'ella plora, e langue;
 Poi di ferrigne mura vn tetto serra
-Le trè Furie, ch'al crine han più d'Vn'Angue;
+Le trè Furie, ch'al crine han più d'vn'Angue;
 Anzi in vece di crin, di rabbia ardenti
 Cingon le tempie lor mille serpenti.
 
 Stà seco, nè giamai da quelle bande
 La rea pazza Discordia arretra il piede;
 Di cui pender sù'l collo copia grande
-D'auuelenate biscie anco si Vede.
+D'auuelenate biscie anco si vede.
 Nel mezo ancor l'antiche braccia spande
 Vn grand'Olmo, sù'l qual tengon lor sede
 Accolti trà le foglie i folli Sogni,
@@ -5700,7 +5700,7 @@ Percioche la Fede hà da stare secreta, cioè le cose, che altrui sono credute i
 
 *Non par che da gli antichi si dipinga*
 *La santa Fè vestita in altro modo,*
-*Che d'Vn vel bianco, che la cuopre tutta,*
+*Che d'vn vel bianco, che la cuopre tutta,*
 *Che vn sol punto vn sol neo la può far brutta.*
 
 Колонтитул: Imagini de i Dei · с. 266
@@ -5762,10 +5762,10 @@ loro sacerdoti. Ma già è tempo che ritorniamo a Mercurio disegnato con l'ali a
 *Ne i dorati Talari i piedi asconde,*
 *I quai con ali preste ad ogni vento*
 *Alto il porta da terra, e sopra l'onde,*
-*Prende la Verga con cui in Vn momento*
+*Prende la verga con cui in vn momento*
 *L'anime trahe da le Tartaree sponde,*
-*Et altre Vi ripone, e dona, e toglie*
-*I sonni, e molti ancor di Vita scioglie.*
+*Et altre vi ripone, e dona, e toglie*
+*I sonni, e molti ancor di vita scioglie.*
 
 Potrei porre de gli altri Poeti ancora, li quali nel medesimo modo l'hanno descritto: ma parmi, che questi due siano di tanta auttorità, che quando essi fanno fede di vna cosa, non se ne debba cercare altro poi, se forse non fosse per dare meglio ad intendere quello che da loro fu detto, il che non fa hora dibisogno. Furono poi date le penne a Mercurio, come hò detto, perche nel parlare, di che egli era il Dio (ò che significaua forse anco la cosa stessa) le parole se ne volano per l'aria non altrimenti, che se hauessero l'ali. Onde Homero chiama quasi sempre le parole veloci, alate, & che hanno penne. Che Mercurio hauesse sempre le penne in capo, si vede appresso di Plauto, quando per poco di hora, ch'ei si trauesti, non ne volle essere senza, benche dicesse di farlo; perche gli spettatori conoscessero lui dal seruo di Anfitrione, nel quale si era mutato, & queste sono sue parole.
 
@@ -5874,30 +5874,30 @@ rietà de' sogni.
 qualche poco, & è così dipinta, che rappresenta l'ornamento del Cielo. Tibullo fà, che con costei vanno le Stelle sue figliuole, il Sonno, & i Sogni quando così dice:
 
 *Dateui pur piacer che homai la notte*
-*I suoi destrier' hà giunti insieme, e Viene*
+*I suoi destrier' hà giunti insieme, e viene*
 *Correndo à noi dalle Cimmerie grotte:*
-*E le stelle di Vaga luce piene*
+*E le stelle di vaga luce piene*
 *Seguono il carro de la madre, quali*
 *Il ciel' in bel drapello accolte tiene.*
 *Et il Sonno spiegando le negre ali*
-*Và lor dietro, e vi Van gl'incerti Sogni*
+*Và lor dietro, e vi van gl'incerti Sogni*
 *Con piè non fermo, e passi disuguali.*
 
 Dalle quali parole si conosce, che'l Sonno parimente haueua l'ali, il che disse Statio ancora, quando si duole, che già sono tanti dì, ch'ei non può dormire, & lo prega, che a sè voglia venire homai, e scuotergli sopra il capo le lieui penne, & il medesimo disse Silio Italico. Oltre di ciò il Sonno è giouine, che il medesimo Statio lo fatale, chiamalo piaceuolissimo di tutti i Dei, come che non sia cosa più grata, nè che piaccia più a' mortali dopò le fatiche del riposo, che ci apporta il piaceuole Sonno, onde Seneca disse così di lui:
 
 *O Sonno almo ristoro à le fatiche*
 *De' mortali, de l'animo quiete,*
-*E del Viuer' human la miglior parte,*
-*O de la bella Astrea Veloce figlio,*
+*E del viuer' human la miglior parte,*
+*O de la bella Astrea veloce figlio,*
 *E de la Morte languido fratello,*
 *Ch'insieme mesci il vero, & la bugia,*
-*E quel, che dee Venir chiaro ci mostri*
+*E quel, che dee venir chiaro ci mostri*
 *Con corto, e spesso ( ohime ) con tristo nuncio;*
 *Padre di tutto, porto de la vita,*
 *Riposo de la luce, e de la Notte*
 *Fido compagno, tu non più risguardi*
 *Al Rè, ch'al seruo, ma vieni egualmente*
-*A l'Vno, e à l'altro, ne le stanche membra,*
+*A l'vno, e à l'altro, ne le stanche membra,*
 *Placido entrando la stanchezza scacci,*
 *E à quel, che tanto temono i mortali*
 *Gli auezzi sì, ch'imparano il morire.*
@@ -6249,7 +6249,7 @@ Nientedimeno Statio dà pur'anco la medesima forza à Minerua, & la fa non punto
 
 *O Dea feroce del gran padre honore,*
 *De le guerre terribile padrona,*
-*Cui orna il capo con Vn Vago horrore*
+*Cui orna il capo con vn vago horrore*
 *Il forte elmo, & il petto la Gorgona*
 *Di sangue sparsa, e de la qual maggiore*
 *Forza non haue Marte, nè Bellona*
@@ -6355,8 +6355,8 @@ sia il vero premio di questa, che fu per ciò fatta con due ali, conciosia che l
 campi pieni di soauissimi frutti. Et perche a questa si accostò Hercole, hebbe così glorioso nome. Dante fingendo nel suo Purgatorio di hauer visto in sogno la Voluttà, la descriue vna femina balba, con gli occhi guerchi, & co i piè storti, & man monche, & di colore scialba, la quale cominciaua poi a parlare speditamente, si drizzaua tutta, e lo smarritto volto, come amor vuole, così lo coloraua, & hauerebbe tratto lui à sè con sue dolci parole, se non che apparue vna donna santa, & honesta, la quale dice egli.
 
 *L'altra prendeua, & dinanzi l'apriua,*
-*Fendendo i drappi, e mostrauami il Ventre,*
-*Quel mi suegliò col puzzo che n'Vsciua,*
+*Fendendo i drappi, e mostrauami il ventre,*
+*Quel mi suegliò col puzzo che n'vsciua,*
 
 Le quali cose si confanno molto bene alle vie de' piaceri vitiosi, & della virtù. Ma chi volesse in altro modo ancora mostrare queste due vie potrebbe far la lettera di Pithagora, sopra della quale scrisse Virgilio que' pochi versi, mostrando ch'ella ci figuraua la vita humana, li quali vengono à dire questo in nostra lingua.
 
@@ -6369,20 +6369,20 @@ Le quali cose si confanno molto bene alle vie de' piaceri vitiosi, & della virt�
 *Ma poi facile à chi la via non falle,*
 *Perche ascendendo giugne, oue s'oblia*
 *Le fatiche lasciatesi à le spalle,*
-*Da la sinistra uà più larga Via*
+*Da la sinistra uà più larga via*
 *Facile, e piana, ma che poi l'huom mena*
 *Oue sol pianto, e pentimento sia.*
 *Però qualunque il suo desir affrena,*
-*Ne lo lascia seguire il Van piacere,*
+*Ne lo lascia seguire il van piacere,*
 *Ch'à principio par gioia, al fin è pena.*
-*E virtù segue con fermo Volere*
+*E virtù segue con fermo volere*
 *Di patir i disagi, che fortuna*
 *Cui meno ella douria fà sostenere.*
-*S'acquista tanto honor, che poi più d'Vna*
+*S'acquista tanto honor, che poi più d'vna*
 *Età ne tien memoria, e illustre, e chiara*
 *Sua fama fà, che saria stata bruna.*
 *Ma chi soll'ocio, e la lasciua hà cara,*
-*Con biasmo Viue, e quella Vita al fine,*
+*Con biasmo viue, e quella vita al fine,*
 *Che si gli parue dolce sente amara,*
 *Et traffigonli il cor pungenti spine.*
 
@@ -6429,9 +6429,9 @@ libertà, come altroue è stato detto. Et del Lupo si legge, che fa diuentare ro
 *Il Terrore, e à destrier lo manda innanzi,*
 *Al cui poter non è chi il suo paregge,*
 *In far temer altrui, non che l'auanzi.*
-*Per costui par, che l'huomo il Ver dispregge,*
+*Per costui par, che l'huomo il ver dispregge,*
 *Se nel timido petto auien che stanzi*
-*Il mostro horrendo, c'hà Voci infinite,*
+*Il mostro horrendo, c'hà voci infinite,*
 *E mani sempre al mal preste, & ardite.*
 *Vna sola non è sempre la faccia,*
 *Ma molte, e tutte in variati aspetti,*
@@ -6456,9 +6456,9 @@ libertà, come altroue è stato detto. Et del Lupo si legge, che fa diuentare ro
 
 *Le Città, che poi credeno ogni male.*
 *Crederan, che non piu sia Sol Un Sole,*
-*E parrà lor quel, che non è Vedere,*
+*E parrà lor quel, che non è vedere,*
 *Se i miseri mortali a le parole*
-*Del tremendo Terror di rado Vere,*
+*Del tremendo Terror di rado vere,*
 *Porgon l'orecchie, e che le stelle inuole*
 *Vn nembo, ond'habbiam poi tutti a cadere*
 *Che la terra pauenti, e tutta trieme;*
@@ -6713,7 +6713,7 @@ Lo dipingeuano gli antichi terribile nella faccia quasi sanguinolenta, che mostr
 mamente di Marte, il cui tempio perche le pioggie, & la mala temperie dell'aria di quel paese lo guastauano presto, rifaceuano ogni anno in questo modo. Raccoglieuano insieme cento cinquanta carra di sarmenti, e ne faceuano come vn gran legnaio in quanto, che da tre lati era alto, & il quarto veniua abbassandosi in modo, che per là si poteua commodamente andare di sopra, oue metteuano certo coltello da loro vsato, & detto Acinace, che forse era, come vna scimitarra, e fu coltello proprio de' Persiani. Questo à loro era il simulacro di Marte, questo adorauano, & à questo faceuano più frequenti sacrificij, che ad alcun'altro Dio. Come faceuano quelli dell'Arabia Petrea, secondo che riferisce Suida, à certa pietra negra, & quadra senza altra figura, alta quattro, & larga duo piedi, che staua sù vna base d'oro, perche l'haueuano per il vero simulacro di Marte, che da loro era principalmente adorato. Descriuendo Statio la casa di Marte, la finge essere in Thracia, oue egli anco nacque, come hò detto, perche le genti di quel paese amano assai la guerra; che sia tutta di ferro non lucido, e risplendente, nè anco rugginoso, e fosco, ma quasi affocato, & che a risguardarla solamente spauenta, & attrista. Quiui sono l'impetuoso Furore, l'Ira arrabbiata, la Impietà crudele, il pallido Timore, le occulte Insidie, che vanno di nascosto, nè lasciano vedere altrui gli acuti coltelli, che tengono coperti, & la Discordia armata ambe le mani di tagliente ferro. Questa fù da gli antichi posta frà que' Dei, che adorauano; non perche potessero giouare, ma accioche non nocessero; percioche ouunque ella si troua, non è mai pace, nè riposo, & Gioue per questo la cacciò di Cielo, nè fu chiamata alle nozze di Tetide, & di Peleo, oue erano quasi tutti gli altri Dei, di che ella sdegnata gittò frà quelli il pomo donde nacque la rouina di Troia pel giudicio, che ne fece Paride. Era la Discordia fatta in forma di Furia infernale, come la descriue Virgilio, quando dice:
 
 *Annoda, e stringe a la Discordia pazza*
-*Il crin Vipereo sanguinosa benda.*
+*Il crin vipereo sanguinosa benda.*
 
 Et il medesimo ne disse Petronio. Aristide la finge vna donna, che hà il capo alto, le labbra liuide, e smorte, gli occhi biechi, guasti, & pregni di lagrime, che del continuo rigano le pallide gote; non tiene a sè le mani mai, & è prestissima al mouerle, porta vn coltello cacciato nel petto, & hà le gambe torte: & i piedi sottili, & intorno vna tenebrosa, & oscura nebbia, che a guisa di rete la circonda tutta. Pausania scriue, che da vn lato dell'arca di Cipselo erano intagliati Aiace, & Hettore, quali combatteuano insieme alla presenza della Discordia, ch'era quiui loro appresso, & era vna donna di faccia bruttissima. Nè altro ne dice, e meno come la facesse Califonte Samio,
 
@@ -6739,7 +6739,7 @@ Et il medesimo ne disse Petronio. Aristide la finge vna donna, che hà il capo a
 
 mio, il quale com'ei soggiunge, ad essempio di quella la dipinse nel tempio di Diana Efesia, oue fece la guerra, che fu poco lungi dalle naui de' Greci. Ma chi da gli antichi non sà fare ritratto della Discordia, lo faccia da quello, che n'hanno detto i moderni, e tra questi ancora contentisi dell'Ariosto solo, il quale benissimo la dipinge, quando ei fa, che l'Angelo Michele la và a trouare, e dice così.
 
-*La conobbe al Vestir di color cento*
+*La conobbe al vestir di color cento*
 *Fatto à liste ineguali, & infinite,*
 *C'hor la cuoprono, hor nò, che i passi, e'l vento*
 *Le gieno aprendo, ch'erano sdruscite,*
@@ -6958,20 +6958,20 @@ gli huomini terribili, & iracondi, e per questa, che gli fa lieti, e giocondi be
 
 vsarono gli antichi le corna de i buoi in vece di vasi per bere, onde gli Atheniesi ancora beeuano con certi vasi di argento fatti in foggia di corni. Hanno oltre di ciò voluto alcuni, che per le corna intendiamo certi pochi capelli che da ambe le parte del capo scendeuano giù come a dì nostri veggiamo hauere i Sacerdoti Armeni, li quali poi sono rasi sopra la fronte, & alla nuca. E così vogliono intender, che fosse fatta la statoa di Baccho, & non che veramente hauesse le corna. E dicono che Lisimaco Re fu perciò parimente fatto con le corna, come si vede in alcune sue medaglie antiche. Et alla statoa di Seleuco, che fu cognominato Nicatore, furono anco fatte le corna, come riferisce Suida, non già per questo, ma perche essendo fuggito vn Toro da Alessandro, che era posto per sacrificarlo, ei lo prese per le corna, & lo tenne fermo. Che Baccho poi hauesse le chiome lunghe lo mostra Seneca, quando così dice,
 
-*Senza Vergogna sparge i lunghi crini*
+*Senza vergogna sparge i lunghi crini*
 *Baccho lasciuo, e molle, e lieui Thirsi*
 *Porta scuotendo con tremante mano,*
-*Nè si Vergogna andar con lento passo,*
-*E trarsi dietro l'ampia, e lunga Veste,*
+*Nè si vergogna andar con lento passo,*
+*E trarsi dietro l'ampia, e lunga veste,*
 *Ornata tutta di barbarico oro.*
 
 Percioche lo vestirono alcuna volta di habito feminile, come lo fa Filostrato nella Tauola di Ariadna, quando lo dipinge, che vada à lei, con bella veste, porporea, lunga, e grande, & coronato di rose, Nè bisognaua farlo in altra guisa in quello atto amoroso, perche egli andaua per congiungersi amorosamente con Ariadna, quando fu abandonata da Theseo, onde questi tutti, che quasi sempre erano con lui, come femine ardite, e feroci, diuerse vaghe Ninfe, Sileni, Satiri, Siluani, & altri simili (li quali come scriue Strabone, erano ministri, & seguaci di Baccho, & chiamauansi il choro, e la compagnia di Ariadna, intagliata già in marmo bianco la Dedalo in Creta), lo seguitano gridando con voci liete. come si legge appresso di Catullo.
 
-*Andauano scotendo i Verdi Thirsi*
+*Andauano scotendo i verdi Thirsi*
 *Alcuni, alcuni le squarciate membra*
 *Del Vitello portauano, vna parte*
 *Con ritorti serpenti si cingeua,*
-*Et Vna parte ne le caue ceste*
+*Et vna parte ne le caue ceste*
 *Portando celebraua i bei misteri,*
 *I misteri da gli empi indarno cerchi.*
 *Chi percoteua con le aperte palme*
@@ -7002,7 +7002,7 @@ Percioche lo vestirono alcuna volta di habito feminile, come lo fa Filostrato ne
 *Di rame facea lieue, e piccol suono.*
 *E chi faceua l'aria rimbombare*
 *Con strideuoli cerni, e facean molti*
-*De le straniere tibie Vdir' il canto.*
+*De le straniere tibie vdir' il canto.*
 
 Questi erano quasi tutti misteri di Baccho, & cerimonie, che vsauano nelle sue feste, le quali da principio furono celebrate con pompa tale. Era portata innanzi vn'Anfora di vino con rami di vite, & la seguitaua chi si traheua dietro vn capro : poi veniua chi portaua vna cesta di noci, & in vltimo era il Phallo, che fu la imagine del membro virile. Così la racconta Plutarco, oue parla della cupidigia delle ricchezze, la quale cominciò a sprezzare quelle pouere cose etiandio ne' Bacchanali, & introdusse duo vasi d'oro, pretiose vesti, e carri con mascherate sontuose, come può vedere chi vuole appresso di Atheneo, che descriue vna di queste pompe Bacchanali ambitiosissima, rappresentata già per Tolomeo Filadelfo, perche il riferirla hor'a me non seruirebbe altro che di perdere tempo. Vsarono anco di portare il cribro dato a Baccho, e posto tra le sue cose sacre; perche, come dice Seruio, credeano gli antichi che giouassero molto i sacramenti di Baccho alla purgatione de gli animi, & che per gli suoi sacri misterij così fossero questi purgati, come si purga il grano col cribro. Et il Boccaccio riferisce, che credettero alcuni, che fosse fatta questa purgatione ne gli huomini con la vbbriachezza, la quale è il Sacramento di Baccho, perche passata, che sia poi questa, ò con il vomito, ò in altro modo, & rassettatosi il ceruello, pare che l'animo si habbia scordato ogni trauaglio, & spogliatosi tutti i noiosi pensieri rimanghi lieto e, tranquillo, come dice Seneca ancora, oue scriue della tranquillità dell'animo. Et hanno detto alcuni, che Baccho fu chiamato Libero Padre, perche beendo largamente l'huomo si libera da' pensieri fastidiosi : & parla piu liberamente assai, che quando è sobrio. Mà sono stati altri, li quali hanno voluto, ch'ei fosse più tosto chiamato così dalla Libertà, della quale fu creduto Dio, perche, come scriue Plutarco, ei combattè già assai per questa. Da che venne, che vsarono gli antichi, come dice Seruio sopra Virgilio, di mettere nelle Città libere, per segno certo di libertà, il simulacro di Marsia; che fu vno de' Satiri ministri di Baccho. Et si legge appresso di Plinio; che fu posto in prigione Publio Munatio, perche leuò dalla statoa di Marsia vna ghirlanda di fiori, & a sè la pose in capo. Di Marsia hanno anco detto le fauole, ch'ei fu scorticato da Apollo, perche lo sfidò a sonare hauendo trouata la piua, che fu gittata via da Minerua: di che piansero tanto le Ninfe, e gli altri Satiri, che fecero con le lagrime loro quel fiume, che dal nome di lui fu detto Marsia.
 
@@ -7024,7 +7024,7 @@ Ma la verità fu, che questo era vn'eccellente musico, come riferisce Atheneo da
 *Vien Baccho allegro, coronato, e cinto*
 *D'Hedera trionfal, a cui le spalle*
 *Cuopre d'Hircana Tigre horrida pelle.*
-*Egli di Vin poi madido col Thirso*
+*Egli di vin poi madido col Thirso*
 *Ferma le piante, e sì nel gir s'aita.*
 
 Et questo, che qui dice Claudiano del Thirso, hanno detto altri della Ferola, che Baccho con essa si và sostenendo in piè, & l'hanno posta in mano a tutti quelli, che vanno con lui. Di che rende Eusebio la ra-
@@ -7075,9 +7075,9 @@ hà le foglie verdi) che della vite, la quale al tempo dello inuerno la perde. E
 *Già s'auuicina à le materne mura*
 *Baccho col carro tutto circondato,*
 *E coperto di vite: le Pantere*
-*Da l'Vn lato, e da l'altro Van con lui*
+*Da l'vn lato, e da l'altro van con lui*
 *E leccano le briglie, e gli altri arnesi*
-*Di Vino aspersi le Veloci Tigri.*
+*Di vino aspersi le veloci Tigri.*
 
 Del carro dato à Baccho rende il Boccaccio questa ragione, che il troppo vino fa spesso così aggirare il ceruello à gli huomini, come si aggirano le ruote de' carri, di che oltre alla proua, che se ne vede tutto dì, fa anco fede certa nouelletta assai piaceuole scritta già da Timeo Taurominitano, & riferita da Atheneo nelle sue cene, di alcuni giouani di Agrigento Città della Sicilia, li quali ragunatisi a banchettare insieme in certa casa vna sera, tanto beuerono, & imbriacaronsi di sì fatta maniera, che cominciò loro à parere di essere sù vna Galea, la quale fosse stranamente agitata dalle turbate onde del mare: e così si voltò loro il ceruello, che anco il dì seguente pensauano tutti di essere in gran fortuna di mare: e temendo non forse la Galea andasse à fondo, gittarono fuori dalle finestre letti, tauole, banche, casse, & ciò che si trouarono della masseritia di casa, parendo loro, che'l nocchiero
 
@@ -7140,16 +7140,16 @@ oue furono poi Delfini, come hò detto. Vedesi à tempi nostri ancora quasi la m
 
 ## Скан 0398 · с. 356
 
-*L'Vue cotanto da mortai gradite.*
+*L'vue cotanto da mortai gradite.*
 *Perche di queste al tempo suo mature*
 *Spremono i rozzi piedi il dolce succo,*
 *Come insegnò di fare Osiri pure.*
 E dopò per alcuni versi seguita così,
-*In te mai non si Vede segno Osiri*
+*In te mai non si vede segno Osiri*
 *Di mestitia, e da te stan lunge sempre*
 *I pensier tristi, il pianto, & i sospiri.*
 *Ma bel choro Cantando in liete tempre*
-*Tuttauia t'accompagna ouunqua Vai,*
+*Tuttauia t'accompagna ouunqua vai,*
 *Si ch'amor, gioco, e riso è teco sempre.*
 *Tu sei ornato di bei fiori, & hai*
 *La fronte cinta d'Hedera, e dorata*
@@ -7220,7 +7220,7 @@ se anco vna medesima cosa, vsarono gli antichi nelle feste Bacchanali di portare
 
 *Deh se tu possi hauer a'mo Priapo*
 *Ombrosi tetti sì che neue, ò Sole*
-*Non Venga Vnqua à toccarti il nudo capo.*
+*Non venga vnqua à toccarti il nudo capo.*
 
 Колонтитул: De gli Antichi. 361
 Кустод: Dimmi
@@ -7248,13 +7248,13 @@ se anco vna medesima cosa, vsarono gli antichi nelle feste Bacchanali di portare
 
 ## Скан 0405 · с. 363
 
-*Dimmi con che arte fai tù, che ti Vole*
+*Dimmi con che arte fai tù, che ti vole*
 *Ogni bel giouinetto sì gran bene,*
 *E quanto può ti riuerisce, e cole?*
 *Non sei già bello, & hai di squallor piene*
 *L'inculte chiome, e barba rabbuffata,*
-*Che t'ami ogn'vno dunque donde Viene?*
-*Tù così nudo Vai à l'agghiacciata*
+*Che t'ami ogn'vno dunque donde viene?*
+*Tù così nudo vai à l'agghiacciata*
 *Staggion del freddo Inuerno com'al Sole*
 *De la rouente state inarsicciata.*
 *Furono tutte queste mie parole,*
@@ -7277,7 +7277,7 @@ Lo vestirono alle volte ancora con vn panno, ch'ei teneua raccolto con mano, & p
 *E col membro, onde ognun di voi è nato,*
 *La canna poi ch'in testa hauer mi sento*
 *Piantata, fà, ch'ogni importuno augello*
-*Fugge da gli horti ratto come Vento.*
+*Fugge da gli horti ratto come vento.*
 
 Potrassi fare anco talhora l'Asino con Priapo, perche glielo sacrificorono gli Antichi, come vittima a lui propria, ò per la simiglianza, ch'era fra loro del gran membro, secondo che riferisce Lattantio: ouero per l'odio, che portaua colui à questa bestia, perche l'Asino di Sileno con l'importuno suo raggiare gli disturbò il piacere, ch'ei si
 
@@ -7316,7 +7316,7 @@ apparecchiaua di cogliere di Vesta già vna volta, che la trouò addormentata in
 
 *Et voi Lari custodi gia de' ricchi.*
 *Hor de' poueri campi, i vostri doni*
-*Accettate, c'humil Vi porgo, e sacro.*
+*Accettate, c'humil vi porgo, e sacro.*
 
 Onde furono adorati souente sù i crocicchi delle vie, oue appendeuano loro in certi dì alcune palle, & figurette di lana; quelle erano per gli serui, queste per gli altri; & tante ne metteua ciascheduno delle vne, & delle altre, quanti erano tutti di casa, accioche venendo i Lari si appigliassero a queste, ne facessero poi male alle persone; perche credettero alcuni, ch'eglino fossero Demonij d'inferno, li quali venuti sopra terra allhora, ch'erano celebrati alcuni dì per loro, haurebbono fatto del male alle persone; se trouato non hauessero da trastullarsi intorno alle figurette, ch'io dissi. O veramente fu fatto questo da gli antichi, perche alcuni altri dissero che i Lari erano le anime nostre vscite già de' corpi mortali, le quali veniuano a queste feste, & bisognaua, che trouassero qualche corpo, oue riposare, che l'vno, e l'altro si raccoglie da Festo. Ma per lo più erano stimati i Lari certi Demoni custodi priuati delle case & erano perciò fatti in forma di giouanetti vestiti con pelle di Cane, che habbino a' piedi pur anco il Cane; volendo gli antichi mostrare per questo animale, ch'eglino erano fideli, e diligenti guardiani delle case, formidabili a gli stranieri, & piaceuoli a' domestici, come apunto sono i cani, secondo che Plutarco riferisce; & Ouidio parimente haueua già scritto il medesimo rendendo la ragione, perche il cane fosse co i Lari. Li quali erano anco alle volte vestiti con panni succinti, & riuolti sopra la spalla sinistra, in modo che vengono sotto la destra, per esser più spediti al loro vfficio, qual'era, come dice il medesimo Plutarco, di andare cercando tutto quello, che faceua ciascheduno, & spiare con diligenza tutte le opere humane, accioche per loro fossero poi gastigati gli empij, & maluagi huomini de' misfatti loro. A questi Lari furono simili i Penati, almeno nel guardare le città, & hauerne buona custodia: & alcuni vollero, che appresso de' Romani fossero Gioue, Giunone, e Minerua. Altri dissero, che furono Apollo, e Nettuno, li quali fecero le mura a Troia. Cicerone scrisse, che Penati erano certi numinati nelle priuate case, & adorati nelle più secrete parti di quelle. Onde Demifonte appresso di Terentio dice di volere andare a casa a salutare i Penati, per ritornar dapoi alla piazza alle facende: & quindi si vede, che questi etiandio non meno de i Lari stauano dimesticamente nelle case; & la imagine loro, come scriue Timeo Historico, furono due verghe di ferro lunghe, & intorte, come quelle, che teneuano gl'indiuini in mano, quando pigliauano augurio, con certo vaso di terra: e teneuano gli antichi queste cose frà loro sacri misterij.
 
@@ -7368,11 +7368,11 @@ Alcuni altri, come Censorino, hanno detto, che il Genio fù adorato da gli antic
 
 molti per leggerissime cause, come recita Suetonio, soleua dire questo di alcuni, che gli faceua morire, perche non haueuano giurato mai per lo suo Genio, come che perciò lo sprezzassero, e mostrassero di giudicarlo non degno di esser adorato. Era dunque il Genio certo nume, che infino dal loro primo nascimento accompagnaua gli homini sempre: & à i luochi ancora erano dati alle volte questi Numi, come dice Iamblico Filosofo, mostrando, che a quelli Dei, li quali sono particolari custodi, e guardiani di alcun luoco, si hà da fare sacrificio di quelle cose, che nascono quiui, perche le cose gouernate sono piu care delle altre a chi le gouerna. E Virgilio, quando fa che ad Enea, mentre che rinoua le esequie al padre Anchise, appare vn gran serpente.
 
-*Il cui tergo Verdeggia di dorate*
+*Il cui tergo verdeggia di dorate*
 *Macchie dipinto, e lo squammoso dosso*
 *Risplendendo rassembra il celeste arco,*
 *Che tra le nubi al Sole apposto mostra*
-*Con gran Vaghezza assai color diuersi.*
+*Con gran vaghezza assai color diuersi.*
 
 Lascia in dubbio se quello fosse il genio del luoco, ò che altro fosse. Da che viene, che alcuni hanno fatto il Genio in forma di serpente alcuni altri di fanciullo, altri di giouane, & altri di vecchio, come Cebete nella sua tauola. Pausania scriue, che gli Elei adorarono certo Dio sotto il nome di Sosipoli, che viene a dire Saluatore della Città, come Genio loro, proprio del paese. Questi era nel tempio di Lucina, e gli sacrificauano ogni anno con certe cerimonie; di che fu la ragione, che essendo andati già gli Arcadi addosso a gli Elei per certa guerra, ch'era fra loro, vna femina, che haueua vn piccolo fanciullino in braccio, che poppaua, disse a' Capitani de gli Elei: Signori, questo è mio figliuolo, & quando io lo partorì, che non ha molto, mi fu comandato in sogno, che ve lo douessi dare per compagno di guerra, & perciò eccouelo, ch'io ve lo dò. Gli Elei non isdegnarono punto la buona femina, anzi dandosi à credere, che ciò non fosse senza qualche gran misterio, & tolsero il mammolino, & lo posero tutto nudo alla fronte del loro essercito: oue gli Arcadi andati indi a poco ad assaltargli, lo videro cangiarsi subito in gran serpente: di che restarono tutti spauentati in modo, che non osarono più di andare innanzi, ma voltando le spalle si dierono a fuggire, sì che fu facile a gli Elei cauarli de' loro confini, li quali perciò vittoriosi chiamarono quel bambino Sosipoli, riconoscendo la conseruatione della Città da lui, il quale così serpente, come era, parue cacciarsi sottera in certa cauerna, oue gli Elei drizzarono poi vn tempio a nome di Lucina, & vi fecero anco, comme diremmo noi, vna cappella à Sosipoli, ordinando
 
@@ -7425,7 +7425,7 @@ FORTVNA.
 
 *Questa è colei che tanto è posta in croce,*
 *Pur da color, che le deurian dar lode,*
-*Dandole biasmo à torto, e mala Voce.*
+*Dandole biasmo à torto, e mala voce.*
 
 [ИНИЦИАЛ: C]osì dice Dante della Fortuna, da che hò voluto cominciare, douendo già proporre la sua imagine, conciosia che à costei danno i mortali colpa di tutto quello, che intrauiene fuori del loro pensamento, recandosi a male spesso quello, che più tosto grã bene dourebbono giudicare. E par, che vogliono, che l'acquisto, la perdita de gli honori, & delle ricchezze venghi dalla Fortuna, & il riuolgimento di tutte le cose mondane. Onde il Petrarca nella Canzone,
 
@@ -7433,8 +7433,8 @@ FORTVNA.
 fa, che ella così gli dice di sè stessa :
 *Io son d'altro poter, che tu non credi,*
 *E sò far lieti, e tristi in vn momento;*
-*Più leggiera che Vento:*
-*E reggo, e volgo quanti al mondo Vedi.*
+*Più leggiera che vento:*
+*E reggo, e volgo quanti al mondo vedi.*
 
 Et quindi nascono gli infiniti biasmi, ch'ella di sè ode poi tutto il dì; percioche pare, che queste cose, le quali dimandiamo beni di Fortuna, vadino per lo più a chi n'è men degno, & che ne resti miseramente priuato chi piu gli meriterebbe. Ilche se sia bene, ò male, lascio considerare a chi può vedere quanti noiosi pensieri, quanti trauagli, e quanti pericoli portino seco i beni di questo mondo: imperoche pochi sono, che mettano mente a questo; ma ricerchiamo quasi tutti sempre di hauerne; e perche non potiamo satiare il disordinato nostro desiderio, ci lamentiamo poi della Fortuna, la quale secondo la opinione di molti non è; onde Giuuenale così ne disse;
 
@@ -7451,8 +7451,8 @@ Et quindi nascono gli infiniti biasmi, ch'ella di sè ode poi tutto il dì; perc
 
 *Oue prudenza sia, non ha potere*
 *Alcuno la Fortuna, & il suo nume*
-*E tutto Vano: ma noi sciocchi, e stolti*
-*Pur Vogliam farla Dea, chabiti in Cielo.*
+*E tutto vano: ma noi sciocchi, e stolti*
+*Pur vogliam farla Dea, chabiti in Cielo.*
 
 E Lattantio parimente dice, che la Fortuna, non è altro, che vn nome vano, che dimostra il poco sapere de gli huomini, accordandosi con Marco Tullio, il quale prima di lui haueua scritto, che fu introdotto il nome della Fortuna per coprire la ignoranza humana, la quale dà colpa a costei di tutto ciò, ch'ella non sa renderne ragione. Ma non meno si ingannarono gli antichi in questa, che ne gli altri Dei, & perciò la adorarono come Dea dispensatrice di tutti i beni mondani: e pensarono, che da lei venisse ancora il male. Per la qual cosa due erano credute le Fortune, vna bona, l'altra ria, da quella veniuano i beni, & le felicità, & da questa le disauenture tutte, e gli altri mali. Onde viene, che hanno talhora alcuni fatta la Fortuna con due faccie, l'vna era bianca, che mostraua la buona, l'altra era negra, che significaua la cattiua. Et à Preneste, oue ella hebbe vn tempio molto celebrato per gli certi responsi, che quindi si riportauano, fu adorata, secondo che riferisce Alessandro Napolitano, sotto la imagine di due sorelle. Et per la medesima ragione forse anco Pindaro, come riferisce Plutarco, la fece volgere due temoni con mano. Nientedimeno per lo più si tiene, che vna solamente sia la Fortuna, la quale verrò dipingendo secondo i varij disegni lasciatici da gli Scrittori, cominciando da quello, che mette Pausania, oue scriue, che tra le memorie de gli antichi non si troua statoa alcuna della Fortuna più antica di quella, che fece Bupalo architetto, e scultore eccellente à gli Smirnei, gente della Grecia, in forma di donna, che sul capo haueua vn polo, & con l'vna delle mani teneua il corno della copia. Mostraua questa statoa qual fosse l'vfficio della Fortuna, che è dare, e torre le ricchezze rappresentate per lo corno di douitia, le quali cose si aggirano del continuo, come si aggira il Cielo intorno à i due poli. Et hanno mostrato il medesimo poi sempre tutti quelli, li quali hanno dipinto la Fortuna, e ne hanno fatte statoe in qual si voglia modo, volendoci dare ad intendere, ch'ella habbia il gouerno delle cose di quà giù, & che la possa dispensare come vuole. Il che si legge appresso di Lattantio ancora, il quale descriue, che gli antichi finsero la Fortuna con il corno della copia, & le posero à canto vn temone da naue, come che a lei stesse il dare le ricchezze, & fosse in sua mano il gouerno delle humane cose, & de i beni temporali, perche in questi non si troua fermezza alcuna, nè paiono ragioneuolmente partiti, conciosia che i buoni per lo più ne patiscono disagi grandi, & i rei huomini ne abondano copiosamente. Et percio fu detta la Fortuna essere in-
 
@@ -7491,10 +7491,10 @@ constante, cieca, pazza, & amica molto più a' maluagi, che a' buoni, come si le
 *E godono i maluagi*
 *Ogni tuo ben. tù ne la verde etade*
 *A gli huomini dai morte acerba, e alhora*
-*Che d'anni carchi annoia lor la Vita,*
-*(Perche dispensi i tempi con Volere.*
-*Non giusto) gli Vuoi pur qui ritenere.*
-*A gli empi Và ciò, che per te partita*
+*Che d'anni carchi annoia lor la vita,*
+*(Perche dispensi i tempi con volere.*
+*Non giusto) gli vuoi pur qui ritenere.*
+*A gli empi và ciò, che per te partita*
 *Fà da' migliori, nè per far dimora*
 *Con questi, si ti muti in poco d'hora,*
 *Fragile, incerta, perfida, e fugace,*
@@ -7524,7 +7524,7 @@ ciosia che le ricchezze siano della Fortuna, & le virtù nostre, e noi mettiamo 
 
 *O Cittadini, Cittadini sciocchi,*
 *Ricercate pur prima le richezze,*
-*E le Virtù lasciate dietro a queste.*
+*E le virtù lasciate dietro a queste.*
 
 Mostrarono poi gli antichi la buona, & lieta Fortuna, che è quando ella à noi porge de' suoi beni, & la mesta, & sconsolata, come siamo noi, quando di quelli restiamo priuati, amendue insieme in questo modo, benche la iscrittione dica alla buona Fortuna solamente, come spesso si vede ne gli antichi marmi de' Greci. Stà à sedere vna donna honestamente vestita in habito di matrona mesta in vista, & sconsolata, alla quale è dauanti vna giouine bella, & vaga nello aspetto, che le dà la destra mano, & di dietro è vna fanciulla, che stà con vna mano appoggiata alla fede della matrona, la quale mostra la passata Fortuna, e perciò stà mesta: la giouane, che le dà la mano, & si mostra lieta, è la Fortuna presente, & la fanciulla, di dietro stà appoggiata alla fede, è quella, che viene, ouero ha da venire. Ma prima ch'io vada più oltre parlando della Fortuna, voglio dire chi fosse Nemesi; perche sono queste due molto simili tra loro, e tanto, che le hanno credute alcuni vna medesima cosa, come da quello si vede, che pur dinanzi hò riferito di Martiano: nondimeno fù pure adorata ciaschena da sè, & hebbero quella, & questa imagine trà loro differenti, come apparirà per lo mio disegno. Fù dunque Nemesi vna Dea, la quale era creduta mostrare a ciascheduno quello, che gli stesse bene a fare: & Ammiano Marcellino così dice di lei. Questa è la Dea, che punisce i maluagi, & dà premio a' buoni, conoscitrice di tutte le cose, onde la finsero gli antichi Theologi figliuola della Giustitia, che da certa secreta parte della Eternità, se ne stesse a riguardare le opere de' Mortali. Macrobio dice di costei, ch'ella fu adorata come vendicatrice della superbia, & alla vsanza sua la tira al potere del Sole. Percio che'l Sole è di questa natura, che douunque appare, oscura lo splendore di ogni altro lume, & fa spesso apparire, & risplendere quello, che prima staua occulto, & pareua oscuro. così fà Nemesi parimente, che opprime i troppo superbi, & solleua gli humili, & a ben viuere gli aiuta, & in somma era creduta questa Dea punire tutti quelli, li quali troppo si insuperbiuano del bene, che haueuano, & la chiamarono spesso i Poeti Rhannusia da certo luoco nel paese di Athene, oue ella hebbe vn bellissimo simulacro di marmo. Fù detta ancora alle volte Adrastia da Adrasto Rè, perch'ei fù il primo che mettesse tempio a costei: la quale fù da gli antichi fatta con le ali,
 
@@ -7659,18 +7659,18 @@ Conciosia che, come dicono alcuni versi creduti di Virgilio, e tirati in questa 
 *E sempre il cor gli è roso*
 *Da quella inuida rabbia, qual'hauere*
 *Non può mai fine; & al cui graue male*
-*Rimedio alcun di medico non Vale.*
+*Rimedio alcun di medico non vale.*
 
 Et Ouidio facendola in forma di donna, perche come dicemmo poco fà nella dipintura di Apelle, i Greci la fecero huomo così la descriue.
 
-*Pallido ha il Volto, il corpo magro, e asciutto,*
+*Pallido ha il volto, il corpo magro, e asciutto,*
 *Gli occhi son biechi, e rugginoso il dente,*
 *Il petto arde d'amaro fele, e brutto*
 *Velen colma la lingua, nè mai sente*
 *Piacer alcun, se non de l'altrui lutto:*
 *Alhor ride la Inuidia, ch'altrimente*
 *Si mostra ogni hor addolorata, e mesta,*
-*E sempre à l'altrui mal Vigile, e desta.*
+*E sempre à l'altrui mal vigile, e desta.*
 
 Et descriuendo prima la sua casa trista, fredda, & caliginosa, haueua detto, che ella quiui se ne staua mangiando serpenti. Plutarco scrisse assai lungamente della Inuidia, & il gran Basilio facendone vna Oratione, dice, che gl'inuidiosi sono simili a gli auoltoi, & alle mosche: perche, come quelli volando passano sopra lieti campi, & sopra fioriti prati, ne si calano, se non oue veggono qualche puzzolente corpo, e di questo ancora lasciando le intere parti vanno ricercando le corrotte, & guaste; così gli inuidiosi non guardano mai, ò che dissimulano di vedere quello, che in altrui meriti di esser lodato, & à quello solo pongono mente, che possa essere biasimato in qualche modo. Come fù creduto fare Momo fra gli Dei, il quale fu parimente Dio appresso de gli antichi, & nacque secondo Hesiodo del Sonno, e della Notte: nè faceua egli cosa alcuna mai; ma guardaua quello, che gli altri Dei faceuano, & riprendeua liberamente, & biasimaua ciò che non era fatto à modo suo. Onde Esopo scrisse, e lo riferisce Aristotele, che Momo biasimaua chi fece il
 
@@ -7696,11 +7696,11 @@ Et descriuendo prima la sua casa trista, fredda, & caliginosa, haueua detto, che
 bue dicendo che fu mal auisato a farli le corna su'l capo, perche doueua fargliele sù le spalle, accioche con forza maggiore potesse ferire. Et dell'huomo diceua, come racconta Luciano; che errò grandemente chi lo fece à non fargli vna finestretta nel petto, accioche si potesse ageuolmente vedere ciò, che egli hauesse in cuore. A Venere non trouò che dire, come Filostrato scriue se non che le pianelle faceuano troppo rumore, quendo ella caminaua. La imagine di costui è descritta da certi Epigrammi Greci in forma di vecchio magro, e secco, tutto pallido, con bocca aperta, e chinato verso terra, la quale ei và percotendo con vn bastone, che hà in mano, forse perche tutti i Dei de gli antichi furono detti figliuoli della terra. Fra gli quali Momo Dio della riprensione, & del biasimo faceua l'vfficio, che fanno alcuni fra noi, & perciò sono parimente detti Momi: li quali mossi solo da vaghezza di dire male d'altrui a loro piacere, & senza ragione alcuna, biasimano ciò che veggono: ilche viene per lo più, come hò già detto, dalla Inuidia, qual'è come diceua Euripide, & lo riferisce Eliano, cosa fuor di modo trista, maluagia, & vergognosa; & si legge, che gli antichi la disegnauano facendo l'anguilla: perche questa, come dice il medesimo Eliano, se ne stà da sè, ne và con gli altri pesci mai. La Fraude poi, quale fece Apelle in forma di donna, fu disegnata da Dante con faccia solamente di huomo da Bene, & giusto, ma che habbia il resto del corpo tutto di serpente, macchiato di diuersi colori, & che termini, & finisca in coda di Scorpione. Le parole sue sono queste.
 
 *E quella sozza imagine di froda*
-*Sen' Venne, & arriuò la testa, e'l busto.*
+*Sen' venne, & arriuò la testa, e'l busto.*
 *Ma in sù la riua non trasse la coda.*
 *La faccia sua era faccia d'huom giusto,*
 *Tanto benigna hauea di fuor la pelle,*
-*E d'Vn serpente l'Vno, e l'altro fusto.*
+*E d'vn serpente l'vno, e l'altro fusto.*
 *Due branche hauea pelose in fin l'ascelle,*
 *Lo dosso, il petto, & amendue le coste*
 *Dipinte hauea di nodi, e di rotelle.*
@@ -7745,8 +7745,8 @@ gnare la Fraude: percioche questo arbore, & per l'altezza, e drittura sua, & per
 *Prima lieti, e contenti,*
 *Fà miseri, e scontenti,*
 *E mutandosi quasi à tutte l'hore,*
-*A l'Vn dà, à l'altro toglie,*
-*Cui sian benigne, ò auerse le sue Voglie.*
+*A l'vn dà, à l'altro toglie,*
+*Cui sian benigne, ò auerse le sue voglie.*
 *Però ringratio lei*
 *Quando per me si ferma,*
 *Et i suoi beni godo volontieri.*
@@ -7945,7 +7945,7 @@ Di tutti gli affetti de gli animi nostri non vi è il piu commune, il più bello
 gioni ancora, secondo che dai più degni scrittori le hò potuto ritrouare, li quali ragionando di Amore in diuerse maniere, & in diuersi modi l'hanno considerato, perche hanno, visto che, diuerse sono le virtù sue. Donde viene, che hanno detto non essere vn solo Amore, ma molti, & due principalmente furono posti da Platone, sì come ei pose due Veneri parimente, L'vna celeste, della quale nacque il celeste Cupido, e quel diuino Amore, che solleua l'animo humano alla contemplatione di Dio, delle menti separate, che noi chiamiamo Angeli, & delle cose del Cielo. Et habita questo ne i Cieli, come scriue Filostrato, dicendo che l'Amore celeste, il quale è vno, se ne sta in Cielo, & quiui hà cura delle cose celesti, & è tutto puro, mondo, e sincerissimo, & perciò fassi di corpo giouine, tutto lucido, e bello, & gli si danno l'ali per mostrare il riuolgimento, qual fanno gli animi humani mossi dallo amoroso desiderio al Cielo, & a quelle cose che quiui sono; come fanno etiandio quelle pure menti, le quali sopra i Cieli sono ordinate tutte secondo i gradi loro, che si inalzano quanto più ponno alla vista di quella beata faccia, che è fonte eterno di tutta la bellezza, la quale in diuersi modi dalla piu alta parte del Cielo manda i raggi suoi ad irritare, e prouocare le cose tutte, perche à lei si riuolghino, & questi sono le saette, e gli acuti strali, che souente scocca Amore. Chi dunque nella imagine di Cupido considera l'Amore diuino, vede la purità di questo nel lucido corpo di quello. Et per l'ali (l'officio delle quali è alzare in alto, e portare per l'aria que' corpi, li quali per loro stessi non si potrebbono leuare di terra) vede il solleuamento, che fa Amore de gli animi nostri alle diuine bellezze. Si come per le saette può comprendere gli raggi della diuina luce, la quale in mille modi ci viene a ferire, perche ci riuoltiamo a lei, & inuaghiti della bellezza sua, non piu stimiamo le cose di quà giù, che quanto elle ci sono scala da salire al Cielo, come ben disse Amore di sè stesso, quando in vna sua Canzone lo chiama il Petrarca in giudicio.
 
 *Ancor, e questo è quel, che tutto auanza,*
-*Da Volar sopra il Ciel gli haueua date ali.*
+*Da volar sopra il Ciel gli haueua date ali.*
 *Per le cose mortali,*
 *Che son scala al Fattor chi ben, l'estima.*
 
@@ -7968,10 +7968,10 @@ Et per non entrare più adentro nelle cose dell'Amore diuino, perche tãto vi sa
 fiammato desiderio si riuolgono alle cose del Cielo. Ilche hà fatto, che sia data alla imagine di Amore l'accesa face ancora: per dimostrare l'ardente effetto, con che seguitiamo le cose amate, trahendone piacere del continuo, parlando però solo delle diuine. Nelle quali consideriamo della face di Amore quel, che luce solamente, & che risplende come diletteuole, & giocondo da vedere, non quello che arde, & abbruccia, perche fa male, & è noioso; e questo più si confà all'Amore delle cose terrene, il quale non porge diletto mai, ne piacere alcuno intero, & che sia senza tormento; ma così aggiunge l'vno all'altro, come nella face sono insieme lo splendore, che diletta, & la fiamma, che tormenta ardendo. Et fu questa poi opinione di Plutarco, il quale scriue che i Poeti, gli Scultori, & i Dipintori finsero, che Cupido portasse in mano la face accesa, perche del fuoco: quel che luce, è diletteuolissimo, ma quel che abbruccia poi, è fuor di modo molesto. Il che tolse egli con gli altri forse da Platone, il quale scriue nel Timeo, che Amore in noi è misto di piacere, & di dolore. Nacque questo Amore di Volcano, e dell'altra Venere, la quale chiama Platone volgare, mondana, e terrena; volgare parimente, terreno, e pieno di lasciuia humana, secondo che finsero le fauole. Onde Seneca nella Tragedia di Ottauia descriuendolo, dice così.
 
 *L'error de' ciechi, e miseri mortali*
-*Per coprir il suo stolto, e Van desio*
+*Per coprir il suo stolto, e van desio*
 *Finge che Amor sia Dio,*
 *Sì par, che del suo inganno si dilette,*
-*In Vista assai piaceuole, ma rio*
+*In vista assai piaceuole, ma rio*
 *Tanto che gode sol de gli altrui mali,*
 *C'habbia a gli homeri l'ali,*
 *Le mani armate d'arco, e di saette*
@@ -7979,14 +7979,14 @@ fiammato desiderio si riuolgono alle cose del Cielo. Ilche hà fatto, che sia da
 *Porti le fiamme, che per l'vniuerso*
 *Và poi spargendo sì, che del suo ardore*
 *Resta acceso ogni core,*
-*E che da l'Vso human poco diuerso*
+*E che da l'vso human poco diuerso*
 *Di Volcano, e di Venere sia nato,*
 *E del Ciel tenga il più sublime stato.*
 *Amor è vitio de la mente in sana,*
 *Quando si moue dal suo proprio loco,*
 *Che di piaceuol foco*
-*L'animo scalda, e nasce ne' Verdi anni*
-*A l'età, ch'assai può, ma Vede poco.*
+*L'animo scalda, e nasce ne' verdi anni*
+*A l'età, ch'assai può, ma vede poco.*
 *L'ocio il nodrisce, e lasciuia humana,*
 *Mentre che va lontana.*
 
@@ -8002,7 +8002,7 @@ fiammato desiderio si riuolgono alle cose del Cielo. Ilche hà fatto, che sia da
 *Spiegando i tristi vanni,*
 *E la buona, e felice stà presente,*
 *Porgendo ciò, che tien nel ricco seno.*
-*Ma se questa Vien meno,*
+*Ma se questa vien meno,*
 *Onde il cieco desir al mal consente,*
 *Il fuoco, ch'ardea pria tutto s'ammorza*
 *E tosto perde Amor ogni sua forza.*
@@ -8064,7 +8064,7 @@ potesse suegliare ne gli animi giouenili le lasciuie, & i dishonesti piaceri, li
 *Errando me ne vado dopò cena,*
 *Senza pur hauer vno in compagnia.*
 *La sorte, nè sò già come, mi mena*
-*Doue vno stuol mi Vien'ad incontrare*
+*Doue vno stuol mi vien'ad incontrare*
 *Di fanciulli, che paion nati a pena.*
 *Quanti fosser non sò, che numerare*
 *Non gli potei per la tema, ch'al core*
@@ -8073,8 +8073,8 @@ potesse suegliare ne gli animi giouenili le lasciuie, & i dishonesti piaceri, li
 *Di loro, se ben'eran piccolini;*
 *Ch'assai son grandi in dar'altrui dolore.*
 *Mostrauan tutti i nudi corpiccini*
-*Così Vaghi, sì belli, e ben formati:*
-*Che mai non Vidi piu bè fanciullini:*
+*Così vaghi, sì belli, e ben formati:*
+*Che mai non vidi piu bè fanciullini:*
 *Et alcuni di loro erano armati*
 *Di viue fiamme in facellette accolte,*
 *Onde ogni dì ne son molti abbruciati.*
@@ -8102,9 +8102,9 @@ Filostrato parimente nelle sue dipinture dice; che gli Amori sono molti, e gli f
 
 fiori. Le dorate chiome a gli Amori sono in vece di ghirlande: nè sono le penne delle ali tutte di vn medesimo colore, ma alcune rosse, alcune gialle, & alcune di color cilestre. Et di loro, quattro i più belli si sono scostati da gli altri, delli quali due giuocando si gettano pomi à vicenda l'vn co l'altro, e gli altri due si saettano l'vno con l'altro non mostrandosi però in viso di essere punto adirati, anzi ciascheduno di loro porge il nudo petto, accioche non vengano gli strali in vano, ma feriscano là, doue sono indrizzati. Le quali cose mostrano il cominciamento dello Amore, & la confermatione del medesimo, perche gli due, che giocano co i pomi danno principio all'Amore; onde si vede, che questo bacia il pomo, & lo getta, e questo stà con le mani alte per pigliarlo, acennando che lo bacierà anch'egli, quando l'haurà pigliato, & lo rimanderà parimente. E da questo forse tolse Suida quello, ch'ei scriue, che gittare altrui vn pomo significa inuitarlo ad amare. Onde Virgilio ancora in vna sua pastorale, fà così dire a Dameta.
 
-*La Vaga Galatea mi getta vn pomo,*
+*La vaga Galatea mi getta vn pomo,*
 *E poi sen fugge, ma pria, che s'asconda*
-*Frà Verdi salci Vuol pur, ch'io la veggia.*
+*Frà verdi salci vuol pur, ch'io la veggia.*
 
 Gli altri due poi, che si saettano confermano l'Amore gia cominciato, quasi che essi lo facciano penetrare al cuore. Quelli dunque giuocano per cominciare ad amare, questi saettano, perche l'Amore si confermi, & perseueri. Vna Lepre è poi, che stà sotto vn'arbore mangiando de i pomi già caduti a terra, alla quale gli Amori danno la caccia, & la spauentano, questo battendo le mani insieme quello gridando, e quell'altro scuotendo la veste, ch'era in terra. Alcuni vi volano sopra, & le gridano, alcuni pian piano vanno dietro alla sua orma, & alcuni si lanciano, quasi gli si vogliano gittare addosso; ma l'animale si volta in altra parte, oue vno de gli Amori stà in agguato, credendosi di pigliarlo con le mani per vn piede, & vn'altro, che l'haueua già quasi pigliato, se lo vede vscire di mano: di che ridono poi tutti sì fattamente, che per le risa non si ponno tenere in piè, ma si lasciano cadere à terra, chi di trauerso, chi boccone, e chi risguardano con la faccia al Cielo. Nè vuole però alcuno di loro adoperare gli pungenti strali, ma tutti vorrebbono pigliare quello animale viuo, per farne poi gratissimo sacrificio à Venere, come che la Lepre molto bene a lei si confaccia, perche dicono, ch'ella è frequentissima al coito, onde mentre che lata gli figliuoli gia fatti, ne fa de gli altri tuttauia, e tuttauia si impregna, sì che partorisce la Lepre a tutti i tempi, come scriue Plinio, nè si conosce il maschio dalla femina, ma si crede, che in tutti sia la medesima virtù così del maschio, come della femina. Oltre di ciò, dice il medesimo Plinio, che credettero alcuni,
 
@@ -8121,10 +8121,10 @@ cuni, che la carne della Lepre facesse più bello assai, & più gratioso, che no
 
 *Quando mi mandi Gellia mia talhora*
 *A donar Lepre, mi mandi anco à dire,*
-*Ch'in sette dì Vedrommi (e d'hora in hora)*
+*Ch'in sette dì vedrommi (e d'hora in hora)*
 *Piu bel quella mangiando diuenire.*
-*Se vero è, Vita mia, cotesto, fora*
-*Ver' anco, e si potria senza mentire*
+*Se vero è, vita mia, cotesto, fora*
+*ver' anco, e si potria senza mentire*
 *Giurare, che non habbi mai mangiata*
 *Carne di Lepre tu, da che sei nata.*
 
@@ -8149,7 +8149,7 @@ Et perche Alessandro Seuero vsaua di mangiare souente la Lepre, fu chi con in al
 ## Скан 0455 · с. 413
 
 *Accenandole, che per ciò non tema*
-*De la Vittoria, ma ne Vadi certa.*
+*De la vittoria, ma ne vadi certa.*
 *E gli altri Amori vezzosetti, e lieti*
 *Le sono intorno, e chi raccoglie, e stringe*
 *I biondi crini da la bianca fronte*
@@ -8172,9 +8172,9 @@ Apuleio, quando fà comparir Venere in scena accompagnata da gli Amori, dice, ch
 
 che la bellezza sua auanza tutte le altre, per laquale trà la brutezza, & lui è discordia grande, & hà in tutta la persona vn colore così bello, e così vago, che meglio non si può vedere, di che fa fede il vederlo spesso habitare; & quasi sempre tra fiori, anzi oue non sono fiori, non habita egli mai, & per ciò di lui rimangono priuati tutti gli animi, & i corpi, li quali sono senza fiori di giouinezza, e di bellezza; che Amore non vuole stare altroue, che in luochi belli, floridi, odorati, e lieti. Molte altre cose ancora si potrebbon dire della bellezza d'Amore, ma più non ne dice per hora Platone, dal quale potiamo raccorre, che Amore è giouine, tenero, molle, e delicato, di corpo ben fatto, & di buonissimo colore. Più minutamente lo dipinse Apuleio nella nouella di Psiche, quando racconta, ch'ella contra il comandamento da lui hauuto, stà con la lucerna in mano a rimirarlo, & lo vide tale, che hà la dorata chioma tutta molle per l'ambrosia sparsaui sopra il collo bianchissimo, le guancie colorite sì, che paiono di porpora, & i bei crini in varie guise ritorti, o crespi pendono parte per gli homeri bianchissimi, & parte si spargono sopra la bella faccia, e sono così lucidi, e tanto risplendono, che non lasciano apparire il lume della lucerna, che stà loro sopra: a gli homeri hà due ali sparse di freschissima rugiada, le lieui piume delle quali, benche stiano ferme quasi da soauissimo vento tocche si muouono lieuemente, & è poi tutto il corpo così pulito, & lucido, che non hà Venere da pentirsi di hauerlo partorito; l'arco, la faretra, & le saette sono quiui in terra dauanti al letto. Non gli lega Apuleio gli occhi, ò perche non bisognaua forse, ch'ei dormiua all'hora, ò perche tenne con quelli, li quali non lo fanno cieco, come il Petrarca, quando scriue di hauerlo visto ne gli occhi della sua donna, e dice,
 
-*Cieco non già, ma faretrato il Veggio,*
-*Nudo, se non quanto Vergogna il Vela,*
-*Garzon con l'ali, non pinto, ma Viuo.*
+*Cieco non già, ma faretrato il veggio,*
+*Nudo, se non quanto vergogna il vela,*
+*Garzon con l'ali, non pinto, ma viuo.*
 
 E Mosco poeta Greco lo fa parimente con gli occhi lucidi, & infiammati, quando finge, che Venere lo vada cercando, la quale interamente lo dipinge, accioche chi lo troua lo riconosca, lo pigli, e lo rimeni; cui ella promette di dare vn baccio poi, & maggior premio ancora. Fu questa cosa fatta latina dal Politiano, e tirata in volgare poi da molti, ma meglio de gli altri mi pare, che habbia fatto M. Luigi Alamanni, voltandola in certi versi pari, che vanno a due a due: & perciò oltre, ch'io non haurei saputo; nè anco hò voluto prouare di fare meglio di lui, & per fare peggio, mi sono seruito della sua tradottione. Questo dunque è Amore fuggitiuo di Mosco, che così pose egli nome a' suoi versi, fatti volgari dallo Alamanni.
 
@@ -8195,7 +8195,7 @@ E chiamando dicea per ogni riua.
 A chi m'insegna Amor da me fuggito
 Dono vn bacio in mercede, e à chi sia ardito
 Di rimenarlo à me, prometto, e giuro
-Ch'assai più gli darò d'Vn bacio puro.
+Ch'assai più gli darò d'vn bacio puro.
 Hà tai segni il fanciullo, e tali arnesi,
 Ch'al suo primo apparir saran palesi.
 Non hà bianco il color, ma sembra foco,
@@ -8210,7 +8210,7 @@ Crinita egli hà la fronte, e fero il volto.
 Picciol braccio, e sottil, ma snello, e sciolto.
 Ond'ei lunge auuentar può vn dardo acuto
 Fin nel basso Acheronte in braccio à Pluto.
-Hà Velato il pensier il corpo nudo,
+Hà velato il pensier il corpo nudo,
 A lato come augello, ardito, e crudo.
 Hor'in questo, hor'in quello drizza il volo,
 E nel mezzo de i cuori alloggia solo.
@@ -8253,31 +8253,31 @@ Fiamma, peste tormento, e morte sono.
 
 Tocca questo disegno buona parte della forza, e de gli effetti d'Amore, & perciò lo fa di color rosso, & quasi acceso per tutto il corpo, onde forse ne tolse l'essempio il Petrarca, quando lo pose sopra vno affocato carro, facendolo trionfare, oue dice:
 
-*Vidi Vn vittorioso e sommo duce*
-*Pur com'Vn di color, che'n Campidoglio*
+*Vidi vn vittorioso e sommo duce*
+*Pur com'vn di color, che'n Campidoglio*
 *Trionfal carro à gran gloria conduce.*
 *Quattro destrier via piu che neue bianchi;*
-*Sopr'Vn carro di foco Vn garzon crudo*
+*Sopr'vn carro di foco vn garzon crudo*
 *Con arco in mano, e con saette à fianchi:*
-*Contra a le qua' non Val elmo, nè scudo;*
+*Contra a le qua' non val elmo, nè scudo;*
 *Sopra gli homeri hauea sol due grand'ali*
 *Di color mille, e tutto l'altro ignudo:*
 *D'intorno innumerabili mortali*
-*Parte presi in battaglia, parte Vccisi,*
+*Parte presi in battaglia, parte vccisi,*
 *Parte feriti da pungenti strali.*
-*Che debb'io dir? in Vn passo men'Varco:*
+*Che debb'io dir? in vn passo men'varco:*
 *Tutti son qui prigion gli Dei di Varro;*
 *E di laccinoli innumerabil carco*
 *Vien catenato Gioue inanzi al carro.*
 *Quest'è colui, che'l mondo chiama Amore;*
-*Amaro come vedi, & Vedrai meglio,*
+*Amaro come vedi, & vedrai meglio,*
 *Quando sia tuo, com'è nostro Signore;*
-*Mansueto fanciullo, e fiero Veglio;*
+*Mansueto fanciullo, e fiero veglio;*
 *Ei nacque d'otio, & di lasciuia humana*
 *Nudrito di pensier dolci, e soaui,*
 *Fatto signor, e Dio da gente vana.*
 *Qual'è morto da lui; qual con più graui*
-*Leggi mena sua Vita aspra, & acerba*
+*Leggi mena sua vita aspra, & acerba*
 *Sotto mille catene, e mille chiaui.*
 
 Che mostra l'ardente desiderio de gl'innamorati, il quale acompagnato dalla speranza si raccende, e s'infiamma più sempre, come dice Alessandro in vn suo quesito, ch'ei fà perche sia, che l'estreme parti del corpo de gli innamorati sono fredde talhora, e talhora calde; & vuole, che di tutto questo sia cagione la tema, & la speranza. Perche essendo il cuore la sede, & il fonte della vita, il quale manda per tutto il corpo gli spiriti, che gli danno forza, & viuacità; ogni volta, ch'egli da qualche dolore è oppresso, non solamente non può mandare più vigore alle parti lontane, ma riuoca etiandio a sè il già mandato, per esser più forte a sostenere il dolore; che l'opprime. Ma chi sente maggiore dolore di colui, che teme di non potere conseguire quello, che tanto brama, & perciò di non douere essere mai
@@ -8359,7 +8359,7 @@ Porta Amore le saette, ouero perche queste parimente sono veloci, nè sempre van
 *Conobbe, e come fuor d'ogni ragione*
 *Perdon lor primi ben per leggier cura.*
 *Nè hà l'ali à gli homer suoi senza cagione*
-*Che da questo, e quel cor lo fan Volare,*
+*Che da questo, e quel cor lo fan volare,*
 *Perche quelle alme in cui suo nido pone.*
 *Mentre per questo tempestoso mare*
 *Corron, dall'onde alterne ributtate*
@@ -8403,7 +8403,7 @@ delle Gratie, e delle Hore, che andauano con costei sempre, aggiungerò à quest
 
 moue quelle à pietà, le quali la pregano à perdonargli, & esse parimente gli perdonano, e lo sciogliono lasciandolo andare, cosa che non hauerei già fatta io: ma poi che tutte erano donne quelle, che lo pigliarono, altro non se ne poteua aspettare. La cosa è nel Latino, molto bella, non sò che sia di lei nel volgare: ma chi sà Latino, legila nella sua lingua; e chi nò, si contenti di questa, ch'io hò ridotta al volgare per hora, fin che venga chi la ritiri in miglior forma.
 
-*Ne i mesti campi, doue i Verdi Mirti*
+*Ne i mesti campi, doue i verdi Mirti*
 *Fanno la selua ombrosa, ch'in se chiude*
 *Gl'innamorati, & infelici spirti,*
 *Eran l'alme, ch'in sè fur empie, e crude*
@@ -8413,14 +8413,14 @@ moue quelle à pietà, le quali la pregano à perdonargli, & esse parimente gli 
 *Rinouando mastraua ciascheduna*
 *Come, e perche morì così per tempo.*
 *Hà la gran selua poca luce, e bruna,*
-*Come talhor, ch'oscuro Vel nasconde*
+*Come talhor, ch'oscuro vel nasconde*
 *A noi la bianca faccia della Luna.*
 *Taciti Lachi, che le torbide onde*
 *Non mostran mai, e fiumi lenti, e cheti,*
 *Che stretti van trà le fiorite sponde.*
 *L'aer caliginoso par che vieti*
 *Ogni allegrezza à i fiori, che son quiui*
-*Sì ch'Vnqua non si ponno mostrar lieti,*
+*Sì ch'vnqua non si ponno mostrar lieti,*
 *I quali furon, mentre ch'eran viui,*
 *Giouani tutti di somma bellezza,*
 *Che ne restar miseramente priui.*
@@ -8430,12 +8430,12 @@ moue quelle à pietà, le quali la pregano à perdonargli, & esse parimente gli 
 *Croco da l'aurea chioma, Aiace vinto*
 *Da sdegno sì, che dandosi nel petto*
 *Lascia il terren del sangue suo dipinto.*
-*Adone, che già tante Volte stretto*
+*Adone, che già tante volte stretto*
 *Da la madre d'Amor fu nel bel seno*
 *Cogliendone piaceuole diletto,*
 *Et hora fatto fior orna il terreno*
 *Di pordoreo color con altri assai,*
-*Ond'è di Varij fior quel luoco pieno.*
+*Ond'è di varij fior quel luoco pieno.*
 *E rimembrando i già passati guai,*
 
 Колонтитул: 424 Imagini de i Dei
@@ -8450,44 +8450,44 @@ I dolorosi accenti, e i tristi lai,
 Rinouano con quelli anco i dolori,
 C'hanno sentiti all'vltima partita,
 Quando lasciar morendo i primi ardori.
-Trà questi, e le Verdi herbe, ond'è gradita
-La densa selua, Van le donne antiche,
+Trà questi, e le verdi herbe, ond'è gradita
+La densa selua, van le donne antiche,
 Ch'amar miseramente in questa vita.
 E fanno proua allhor quanto nimiche
 A sè stesse fur già, mentre che furo
-A le Voglie d'Amor già troppo amiche.
+A le voglie d'Amor già troppo amiche.
 Mostra piangendo Semele, a che duro
 Partito fosse quando fulminata
 Produsse al mondo il parto non maturo.
-E Vorebbe poter non esser stata
+E vorebbe poter non esser stata
 Compiacciuta di quel, che chiese a Gioue
 Alhor che da Giunone fu ingannata.
 Onde si scuote, e con la mano moue
-Spesso la veste, e fassi Vento, e finge
+Spesso la veste, e fassi vento, e finge
 Che la fulminca fiamma si rinoue
 Ira, di sdegno, e graue duolo astringe
-Cenida poi che femina si Vede
+Cenida poi che femina si vede
 Di nuouo, e in viso l'animo dipinge.
-Procri Vicina à morte in terra siede,
+Procri vicina à morte in terra siede,
 Le piaghe asciuga, & al suo feritore
 Serua pur'anco l'amorosa fede,
-Col lume in mano Vinta dal dolore,
+Col lume in mano vinta dal dolore,
 Salta nel mar la giouane di Sesto,
-Oue affogato Vede il suo amatore.
+Oue affogato vede il suo amatore.
 Nè di lei mostra hauere il piè men presto
 Saffo à salire sopra il duro sasso
 Per gittarsi ne l'onde, e'l dishonesto
 Amor, ch'infiammò Creta, à lento passo
 Andar fa l'infelice, che si duole,
 Che si sia posto il cor suo così basso,
-E mostra vn bianco Toro, e dopò Vuole,
-Che non men del suo error si Vegga quello,
+E mostra vn bianco Toro, e dopò vuole,
+Che non men del suo error si vegga quello,
 Che per Amor'han fatto le figliuole,
 Per le quali restò morto il fratello
 Da chi lasciò di lor l'altra su'l lito,
 E seco trasse l'altra, che del bello
 Hippolito hebbe il cor già sì inuaghito;
-Ma non potendo poi trarlo a sue Voglie,
+Ma non potendo poi trarlo a sue voglie,
 
 Колонтитул: De gli Antichi. 425
 Кустод: Tanto
@@ -8499,7 +8499,7 @@ Ma non potendo poi trarlo a sue Voglie,
 Tanto l'odiò, quanto l'hauea gradito,
 Par che Laodamia s'allegri, e doglie
 De' falsi sogni, nè dopò la morte
-Del suo Protesilao più Viuer Voglie.
+Del suo Protesilao più viuer voglie.
 Et altre poi, le quai con braccio forte
 L'infelici alme trassero de i petti,
 Mostrano i duri ferri, onde son morte.
@@ -8532,8 +8532,8 @@ L'ali, che'l miserello, che si sforza
 Pur di fuggir, e de i nimici teme.
 In vano s'affatica, e si rinforza
 L'impeto feminile in modo tale,
-Che Vinto se ne resta in altrui foza.
-Era ne la gran selua Vn Mirto, quale
+Che vinto se ne resta in altrui foza.
+Era ne la gran selua vn Mirto, quale
 Era il tormento di chi fosse stato
 Ingiustamente altrui cagion di male.
 Que già da Proserpina legato
@@ -8551,12 +8551,12 @@ A questo vengon tutte le seuere,
 E meste donne, e con lor tranno Amore,
 Qual fanno a l'alto tronco sostenere.
 Gli hanno legati le mani, e piedi; e fuore
-D'ogni Vso di pietà cercan di fare
+D'ogni vso di pietà cercan di fare
 Nel misero, contento il lor furore.
 L'accusan tutte, nè però trouare
 Sano giusta cagion di dargli pena,
 Ma giusto fan che sia quanto lor pare.
-Ond'ei si sente andar per ogni Vena
+Ond'ei si sente andar per ogni vena
 Vn timor freddo, che l'aghiaccia, e turba
 Il mesto duol la faccia già serena,
 Poi che si vede in mano à l'empia turba,
@@ -8564,27 +8564,27 @@ La qual'incolpa lui de i propri errori,
 Et ogni legge, & ordine conturba.
 A lui ciascuna improuera i dolori
 De la passata morte, e poi gli dice,
-Com'io già, così Voglio, ch'hor tu mori.
+Com'io già, così voglio, ch'hor tu mori.
 E pensano di far lieto, e felice
-Tutte lo stato lor, se fan Vendetta
+Tutte lo stato lor, se fan vendetta
 Di lui, come lor par, se ben lice.
 Però mostrano quel, onde intercetta
 Fù lor la vita, e nel medesmo modo
 Che si tormenti Amor ciascuna affretta.
-Porta questa Vn coltello, e grida i' lodo,
+Porta questa vn coltello, e grida i' lodo,
 Che sia questo ad Amor tormento, e morte.
-Quella mostra d'Vn laccio il saldo nodo.
+Quella mostra d'vn laccio il saldo nodo.
 Quella altra par, ch'assai si riconforte
 Mostrando i caui fiumi, perche spera
-Veder'in altri l'Vltima sua sorte.
+veder'in altri l'vltima sua sorte.
 Chi l'erte rupi, chi l'irata, e fera
 Onda del mar, chi mostra il mar quieto,
 Secondo che piu brama, ch'Amor pera.
 Alcuna dice, hora farò pur lieto
 Il mio cor con la morte di questo empio
-Se la vendetta à me stessa non Vieto.
+Se la vendetta à me stessa non vieto.
 Queste fiamme faranno il crudo scempio,
-E scuotendo l'ardenti fiamme Vuole,
+E scuotendo l'ardenti fiamme vuole,
 Ch'Amor del suo morir sia nuouo essempio.
 Mirrha scoprendo la matura prole
 Squarcia il bel ventre e piglia poi con mano
@@ -8613,10 +8613,10 @@ Oueramente che siano infiammate
 Con lumi accesi quelle belle parte,
 Onde son le persone generate,
 La bella Citherea, ch'era in disparte,
-Quando intende del figlio, lieta Vuole
+Quando intende del figlio, lieta vuole
 Anch'essa hauer ne' suoi tormenti parte.
-A lui subito Vien, nè come sole
-Piaceuol parla, ma turbata in Vista
+A lui subito vien, nè come sole
+Piaceuol parla, ma turbata in vista
 Gli accresce duolo, e tema con parole
 Chiamandolo cagion d'ogni sua trista
 Fama, e li grida, ahi scelerato sai
@@ -8625,19 +8625,19 @@ Poi gli improuera quanto fece mai,
 Gli adulterij di Marte, che scoperse
 Al Ciel Febo con suoi lucidi rai.
 Il membruto Priapo, che le aperse
-Il Ventre con figura dishonesta,
+Il ventre con figura dishonesta,
 Di che non poco scorno già sofferse.
 L'Hermafrodito, il cui nome anco resta
 A chi d'huomo e di donna habbia l'insegna,
-Nè Veramente sia poi quel, nè questa
+Nè veramente sia poi quel, nè questa
 L'empio Erice, del qual'ella si sdegna
 Per la sua crudeltade, e ch'habbia fatto
-Ch'a star con huom mortal più volte Vegna.
+Ch'a star con huom mortal più volte vegna.
 Nè del dirsi contenta, ma con atto
 Di chi gastigar voglia il proprio errore
 In colui, ch'ad errar già l'habbia tratto,
-Raccoglie insieme Vno, & Vn'altro fiore
-E le Vermiglie rose, con le quali
+Raccoglie insieme vno, & vn'altro fiore
+E le vermiglie rose, con le quali
 Poi batte il mesto, e sconsolato Amore.
 
 Колонтитул: 428 Imagini de i Dei
@@ -8663,9 +8663,9 @@ Placata dunque Vener le meschine
 Donne ringratia del pietoso officio,
 Poi scioglie il figlio con le man diuine,
 Quel già sicuro dal crudele esitio,
-Che gli fu apparecchiato, Via sen'Vola,
+Che gli fu apparecchiato, via sen'vola,
 Così foss'egli andato in precipitio,
-Nè più di lui s'Vdisse mai parola.
+Nè più di lui s'vdisse mai parola.
 
 [ВИНЬЕТКА: декоративная наборная линейка из растительных орнаментов]
 
@@ -8695,7 +8695,7 @@ VENERE.
 giunga quasi mai huomo, e donna insieme, se questo non v'intrauiene: & à costei dettero parimente gli antichi, oltra Himeneo, e Giunone, la cura delle nozze, percioche, queste si fanno, accioche ne seguiti il carnale congiungimeno, onde ne habbia da seguirare poi la generatione de i figliuoli. Fu la bellezza ancora data in guardia à Venere, sì ch'ella potesse darla, e torre come pareua à lei. Ma secondo le cose della natura poi, le quali sotto il nome di questa Dea ci sono in diuersi modi significate, ella mostra quella virtù occulta, per la quale gli animali tutti sono tirati al desiderio di generare. Onde quelli, li quali vogliono, che l'anima humana di Cielo scenda ne i corpi nostri, e passãdo disfera in sfera tragga da ciascheduna di quelle affetti particolari, dicono che da Venere ella piglia l'appetito concupiscibile, che la moue alla libidine, & à i lasciui desiderij, e fanno ancora alcuni, tirando pure le fauole alle cose naturali, che Venere, Giunone, la Luna, Proserpina, Diana, & alcune altre siano vna Dea sola, ma siano tanti i nomi, e così diuersi, perche tante sono le diuerse virtù, che da quella vengono, come si vederà ancora per diuersi disegni della sua imagine, cominciando da quello, che riferisce il suo primo nascimento; percioche raccontano le fauole, ch'ella nacque della spuma del mare hauendoui Saturno gittato dentro i testicoli, ch'ei tagliò à Celo suo padre. La qual cosa hanno esposta molti, e più chiaramente forse di tutti Leone Hebreo ne i suoi dialoghi di Amore. Volendo dunque gli antichi mostrare, che Venere fosse nata del mare, la dipingeuano, che ella quindi vsciua fuori, stando in vna gran conca marina, giouane e bella, quanto era possibile di farla, e tutta nuda, e la faceuano ancora ch'ella se n'andaua à suo diletto nuotando pel mare. Onde Ouidio risguardando à questo la fa così dire à Nettuno.
 
 *Et ho che far'anch'io pur qualche cosa*
-*Tra queste onde se Vero è ch'io sia stata*
+*Tra queste onde se vero è ch'io sia stata*
 *Nel mar già densa spuma, dalla quale*
 *Ho hauuto il nome, c'hoggi ancora serbo.*
 
@@ -8797,7 +8797,7 @@ re, che ha belle natiche per questa cagione. Due figliuole di vn Contadino, giou
 
 ## Скан 0481 · с. 439
 
-[ГРАВЮРА: Imagini di Venere, di Cupido, del Gioco, & del Capro, quali significano la generatione, & l'imagine della Testudine hieroglifico, che dinota il pericolo delle Donne maritate, e parturienti, & qual deue essere il loro vfficio nella cura familiare & alleuar figliuoli, & il silentio esser necessario alle donne sopra ogni virtù. (надписи на гравюре: IOCVS, VENVS, CVPIDO)]
+[ГРАВЮРА: Imagini di Venere, di Cupido, del Gioco, & del Capro, quali significano la generatione, & l'imagine della Testudine hieroglifico, che dinota il pericolo delle Donne maritate, e parturienti, & qual deue essere il loro vfficio nella cura familiare & alleuar figliuoli, & il silentio esser necessario alle donne sopra ogni virtù.]
 
 Колонтитул: De gli Antichi. 439
 Кустод:
@@ -8866,8 +8866,8 @@ Et la prima eloquenza fu de gl'innamorati, quali cercarono di persuadere alle am
 *Lite, ch'andar ti fa cotanto altiera,*
 *E siane pur giudice Pari, & ella*
 *Rispose, ah temeraria, dunque spera*
-*L'animo tuo di Vincer' hor me armata,*
-*Che nuda già ti Vinsi, e disarmata?*
+*L'animo tuo di vincer' hor me armata,*
+*Che nuda già ti vinsi, e disarmata?*
 
 Et ò per questo, ò perche altro fosse, fu chiamata Venere anco talhora Vittrice: e trouasi, che in certa parte del paese Corintho fu vna statoa, che porgeua vna Vittoria con la mano, & era perciò detta Nicofora con voce Greca, che viene a dire appo noi che porta la Vittoria. Et scriue Pausania, che questa fu dedicata da Hipermestra, poscia che fu liberata dal giudicio, che le haueua mosso contra Danao suo padre, perche ella non le haueua voluto vbbidire di ammazzare il marito, come haueuano fatto tutte le altre sue sorelle. Et i Romani faceuano Venere Vittrice in questo modo, come si vede in vna medaglia di Numeriano Imperadore. Dipingeuano, & scolpiuano vna donna bellissima con veste lunga fino a terra la quale con la mano destra porgeua vna breue imagine della Vittoria, e nella sinistra haueua certa cosa fatta in questa guisa, la quale voleuano alcuni, che rappresentasse la imagine, che adorauano quelli di Paffo sotto [знак] il nome di Venere, come hò già detto; & alcuni altri hanno voluto, che piu tosto sia vno specchio, perche scriue Filostrato nella dipintura, ch'ei fa de gli Amori, che le Ninfe posero vna statoa a Venere, perch'ella le fece madri di così bella prole, come sono gli Amori, & le dedicarono vno specchio d'argento, con alcuni adornamenti da i piedi dorati. In altro modo ancora si vede Venere in vna medaglia antica di Faustina Augusta la quale con la sinistra mano tiene vno scudo appoggiato in terra, che hà due piccole figurette scolpite nel mezo, e con la destra porge vna vittoria, & hà le lettere intorno, che dicono, Venere Vitrice. Ricordomi di hauere veduta vn'altra medaglia ancora antica pur di Faustina, oue erano lettere, che diceuano, Venere, con vna donna in piè vestita, la quale con la sinistra mano da vna parte teneua il lembo della veste, & lo tiraua sù con l'altra porgeua certo non sò che, che pareua vn pomo, forse per memoria di quello, che le fu dato Pari, quando la giudicò piu bella di Giunone, e di Pallade. Onde Pausania le mette parimente vn pomo in mano, quando riferisce vna certa statoa di Venere, la quale era appresso de i Sicionij in Grecia dicendo, che quiui era vn Tempio dedicato a questa Dea, nel quale non poteua entrare mai piu di due Donne: & di queste l'vna, che ne haueua la guardia, staua casta sempre, nè giaceua con il marito mai, mentre che era à questo officio; l'altra bisognaua, che fosse vergine: perche maneggia le cose de gli sacrifici, nè staua à questa cura piu di vn'anno. E tutti gli altri, che a questo
 
@@ -8894,13 +8894,13 @@ tempio andauano per pregare la Dea di alcuna cosa, stauano fuori dinanzi alle po
 re, & le facesse liete di noua prole, & di bella successione. Si che fu Venere nume commune à tutte le qualità di Donne, le quali, come che fossero forse più de gli altri obligate a questa Dea, riconosceuano da lei quasi tutto ciò, che succedeua loro felicemente, e gli huomini ancora la ringratiauano di ogni ben fatto, che da quella fosse venuto. Onde perche le donne tutte si tagliarono i capelli per farne le funi da tirare le machine, che vsauano allhora alla guerra, quando i Romani assediati da' Francesi nel Campidoglio erano all'estremo bisogno di tutte le cose, questi liberati dall'assedio dedicarono, come riferisce Lattantio, vn tempio à Venere, oue la fecero Calua, & così la chiamarono per memoria di ciò, che le donne haueuano fatto a beneficio publico, conciosia che altrimenti si faccia Venere sempre con bellissimi capelli, come la descriue Claudiano, dicendo:
 
 *Venere allhora in bel dorato seggio*
-*Stando à compor le Vaghe, e bionde chiome*
+*Stando à compor le vaghe, e bionde chiome*
 *Hauea le Gratie intorno, de le quali*
 *Sparge l'vna di Nettare soaue*
 *I dorati capegli, e quelli l'altra*
 *Distende, e scioglie con l'eburneo dente,*
 *La terza con bel ordine gli annoda*
-*Con bianca mano, e in Vaghe treccie accoglie.*
+*Con bianca mano, e in vaghe treccie accoglie.*
 
 Nè solamente con le chiome la fecero gli antichi, ma con la barba ancora che vna così fatta statoa era adorata in Cipro per Venere, come riferice Alessandro Napolitano, la quale di faccia, e di aspetto pareua huomo, ma poi haueua intorno vesti di donna. Et Suida scriue, che fu fatta la statoa di Venere con vn pettine in mano, e con la barba al viso, perche già venne alle donne Romane certo male, che cadeuano loro tutti i capelli, come spesso ancora intrauiene a' tempi nostri, onde più non era loro bisogno di adoprar pettine: il perche le donne da così brutto male trauagliate si votarono à Venere, e con infiniti voti la pregarono, che volesse prouedere alla loro miseria: & essa, che benigna fu sempre, eccettando gli diuoti preghi, fece sì che alle donne più non caddero i capelli, & i già caduti rinacquero. E queste per segno di gratitudine le posero poi vna statoa, che teneua in mano vn pettine. Et alla medesima fecero la barba, accioche questa Dea hauesse l'insegna di maschio, & di femina, come quella, che alla vniuersal generatione de gli animali era sopra, & perciò dal mezzo in sù la faceuano in forma di maschio, & dal resto in giù era di femina. Nè di Venere solamente dissero questo gli antichi, ma di tutti gli altri Dei ancora, dando à ciaschedano nome di maschio, & di femina, come che fra quelli non sia la differenza di sesso, che è trà
 
@@ -8995,8 +8995,8 @@ del Sole, fà, che elle vengono preste à leuare le briglie a i velocissimi dest
 *Nascondendosi sotto l'Oceano,*
 *Le belle, e vaghe figlie di Nereo*
 *Habitatrici del profondo mare*
-*Gli sono intorno; e con Veloci passe*
-*A lui subito Vengon l'Hore preste*
+*Gli sono intorno; e con veloci passe*
+*A lui subito vengon l'Hore preste*
 *A sciore i fren' da le spumose bocche*
 *De i feroci cauai, ch'à le verdi herbe*
 *Mandano poi accioche le fatiche*
@@ -9102,7 +9102,7 @@ Le produsse ministre liete, e grate
 A l'alma Citherea, sì che per loro
 Ella souente con il bel Cupido
 Gli amorosi piaceri accresce in modo,
-Ch'ogni animo gentil ne resta Vinto.
+Ch'ogni animo gentil ne resta vinto.
 
 IL FINE.
 
@@ -9162,7 +9162,7 @@ Lucano non dice, che facessero quei di Marseglia riuerenza a gl'alti tronchi; & 
 Ecco gli Altari. più giù,
 
 *-- tum plurima nigris*
-*Fontibus Vnda cadit, simulacraq; mæsta Deorum*
+*Fontibus vnda cadit, simulacraq; mæsta Deorum*
 *Arte carent, cæsisq; extant informia truncis.*
 
 Ecco le statue. ma non è huomo chi non falla.
@@ -9233,7 +9233,7 @@ Io vidi in Roma l'anno 1606. vn gran pezzo di marmo, nella piazza di Campidoglio
 
 ## Скан 0507 · с. 465
 
-ga del Sole, & vna Biga della Luna. Et questo gran pezzo di marmo io ho pensato alcuna volta, che sia delli auanzi della Gentilità, la rouina de' quali fu procurata da quel Gracco, del quale fano mentione S. Girolamo scriuendo a Leta, & Prudentio nel fine del Lib. 1. contra Simmaco. Le parole di S. Girolamo sono. *Ante paucos annos propinquus vester Gracchus, nobilitatem patriciam sonans nomine, cum Præfecturam gereret Vrbanam, non ne specum Mithræ, & omnia portentosa simulacra, quibus Corax, Misus, Meles,* (così legge Martiano Vittorio) *Leo, Perses, Helios, Bromius Pater initiantur, subuertit, fregit, exussit?*
+ga del Sole, & vna Biga della Luna. Et questo gran pezzo di marmo io ho pensato alcuna volta, che sia delli auanzi della Gentilità, la rouina de' quali fu procurata da quel Gracco, del quale fano mentione S. Girolamo scriuendo a Leta, & Prudentio nel fine del Lib. 1. contra Simmaco. Le parole di S. Girolamo sono. *Ante paucos annos propinquus vester Gracchus, nobilitatem patriciam sonans nomine, cum Præfecturam gereret vrbanam, non ne specum Mithræ, & omnia portentosa simulacra, quibus Corax, Misus, Meles,* (così legge Martiano Vittorio) *Leo, Perses, Helios, Bromius Pater initiantur, subuertit, fregit, exussit?*
 
 Et a proposito di questi nomi rammemorati da S. Girolamo fa marauigliosamente vn luogo di Porfirio nel Lib. 4. dell'Astinenza, doue racconta, che ne' misterij di Mitra gl'huomini si chiamauano Leoni, le donne Leonze, altri Corui, alcuni Aquile, & certi Sparuieri.
 
@@ -9536,7 +9536,7 @@ nostro Autore si sia abbatuto in vna Medaglia o logora, o guasta da rinettatori,
 
 Il nodo d'Ercole chi volesse sapere com'era fatto lo può cauare da queste parole di Macrobio nel Lib. 1. de' Saturnali al cap. 19.
 
-*In Mercurio Solem coli, etiam ex Caduceo claret, quod Aegyptij in specie draconum maris, & fœminæ coniunctorum figurauerunt, Mercurio consecrandum. Hi dracones parte media voluminis sui, inuicem, nodo, quem Vocant Herculis, obligantur: primæque partes eorum reflexæ in circulum, pressis, oculis ambitum circuli iungunt: & postmodum caudæ reuocantur ad capulum Caducei, ornaturq; alis ex eadem capuli parte nascentibus.*
+*In Mercurio Solem coli, etiam ex Caduceo claret, quod Aegyptij in specie draconum maris, & fœminæ coniunctorum figurauerunt, Mercurio consecrandum. Hi dracones parte media voluminis sui, inuicem, nodo, quem vocant Herculis, obligantur: primæque partes eorum reflexæ in circulum, pressis, oculis ambitum circuli iungunt: & postmodum caudæ reuocantur ad capulum Caducei, ornaturq; alis ex eadem capuli parte nascentibus.*
 
 Si che chi vede il Caduceo de gl'Antichi, intende che sia il nodo d'Ercole. ho detto de gl'Antichi; perche i nostri Pittori non lo sanno disegnare.
 
@@ -9641,7 +9641,7 @@ L'Anno M. DC. VIII. il mese di Febraro, lauorandosi vna Vigna de' Sig. Leni fuor
 
 ## Скан 0530 · с. 488
 
-ne nostra. Hora s'ha da sapere, che questo Pilo, o Sepoltura era sopra la via Appia,la quale ritenne il nome da Appio Claudio Censore, il quale per trauerso dell'Italia fin'a Brindisi la fece lastricare. Di più che sopra le strade costumauano gl'Antichi di fabricare le sepolture loro, acciò che come dice Varrone in tal maniera ammoniscero i passaggieri che haueuano ancor essi a morire. Et si sa molto bene, che nelle Città non era lecito sepelire, il che fu in vso non solamente appresso i Romani, ma appresso gl'Hebrei ancora, come si caua dal Sepolcro di Lazaro in S. Giouanni, e dal figliuolo della Vedoua risuscitato in S. Luca, per cio fare s'eleggeuano per lo più le Vie come ho detto, & lo proua Plinio il giouane, il quale parlando della sepoltura di Pallante Liberto dell'Imper.Claudio dice così. *Est via Triburtina, intra primum lapidem ( proxime adnotaui ) Monimentum Pallantis ita inscriptum HVIC SENATVS OBFIDEM &c.* e per questo rispetto molti Cemeteri de' Christiani stauano appresso le strade Salaria, Ardeatina, Ostiense, & altre. A Capo di Bue per testimonio di Cicerone nel primo delle Tusculane è chiara cosa che haueuano le sepolture loro molte famiglie nobili. Scriue egli. *an tu egressus Porta Capena, cum Calatini, Scipionum, Seruiliorũ, Metellorum sepulcra vides miseros putas illos ?* Si che bisogna quasi concludere, che la presente della quale trattiamo sia vna delle nominate, e si può prouare non difficilmente quanto comportano l'Antichità, e l'Ingiuria di chi ha lasciato la cassa nuda,e portatosene il resto *Quandoquidem data sunt ipsis quoque fata Sepulcris* dice Giuuenale. E veramente attestano i cauatori, che intorno a questo Pilo si sono trouati sodi contraforti di Peperino, che arguiscono fabrica notabile. Ma di chi voremo che sia ? Io per me, se m'è lecito indouinare inchino ad Attilio Calatino, il quale l'Anno Ab. V. C. 496. come sta ne' Fasti, & inanzi la Natiuità di Christo 254.trionfò EX SICILIA DE POENEIS; huomo di gran valore, come si legge appresso Floro, e Cornelio Nepote. E se bene non si vede nel Pilo quello, che al tempo di Cicerone vi si leggeua nel sepolcro. *Vno ore plurimæ consentiunt Gentes populi primarium fuisse Virum*, gia habbiamo detto, che gl'ornamenti della Sepoltura se ne sono andati; il che è accaduto a tante altre, che intorno questa strada si vedono restate spogliate. Le ragioni della mia congettura sono, la mostra detta di sepolcro grande, e magnifico, i fragmenti d'vna Statua equestre veduti da me, il Panno ch'io stimo che fosse Clamide molto ricco, e copioso di robba. Hanno però stimato certi, che fossero molti vestiti. Io credo di no, poi che le statoe ci mostrano, che vn'huomo portaua intorno la robba sì grande, che i Fondachi hora non ci stanno per nulla. Che non per altro penso io, che Giuuenale chiamasse la Toga Auloca, o come diressimo noi panni d'Arazzo. Il colore di detto Panno io non dubito che fosse di Por-
+ne nostra. Hora s'ha da sapere, che questo Pilo, o Sepoltura era sopra la via Appia,la quale ritenne il nome da Appio Claudio Censore, il quale per trauerso dell'Italia fin'a Brindisi la fece lastricare. Di più che sopra le strade costumauano gl'Antichi di fabricare le sepolture loro, acciò che come dice Varrone in tal maniera ammoniscero i passaggieri che haueuano ancor essi a morire. Et si sa molto bene, che nelle Città non era lecito sepelire, il che fu in vso non solamente appresso i Romani, ma appresso gl'Hebrei ancora, come si caua dal Sepolcro di Lazaro in S. Giouanni, e dal figliuolo della Vedoua risuscitato in S. Luca, per cio fare s'eleggeuano per lo più le Vie come ho detto, & lo proua Plinio il giouane, il quale parlando della sepoltura di Pallante Liberto dell'Imper.Claudio dice così. *Est via Triburtina, intra primum lapidem ( proxime adnotaui ) Monimentum Pallantis ita inscriptum HVIC SENATVS OBFIDEM &c.* e per questo rispetto molti Cemeteri de' Christiani stauano appresso le strade Salaria, Ardeatina, Ostiense, & altre. A Capo di Bue per testimonio di Cicerone nel primo delle Tusculane è chiara cosa che haueuano le sepolture loro molte famiglie nobili. Scriue egli. *an tu egressus Porta Capena, cum Calatini, Scipionum, Seruiliorũ, Metellorum sepulcra vides miseros putas illos ?* Si che bisogna quasi concludere, che la presente della quale trattiamo sia vna delle nominate, e si può prouare non difficilmente quanto comportano l'Antichità, e l'Ingiuria di chi ha lasciato la cassa nuda,e portatosene il resto *Quandoquidem data sunt ipsis quoque fata Sepulcris* dice Giuuenale. E veramente attestano i cauatori, che intorno a questo Pilo si sono trouati sodi contraforti di Peperino, che arguiscono fabrica notabile. Ma di chi voremo che sia ? Io per me, se m'è lecito indouinare inchino ad Attilio Calatino, il quale l'Anno Ab. V. C. 496. come sta ne' Fasti, & inanzi la Natiuità di Christo 254.trionfò EX SICILIA DE POENEIS; huomo di gran valore, come si legge appresso Floro, e Cornelio Nepote. E se bene non si vede nel Pilo quello, che al tempo di Cicerone vi si leggeua nel sepolcro. *vno ore plurimæ consentiunt Gentes populi primarium fuisse Virum*, gia habbiamo detto, che gl'ornamenti della Sepoltura se ne sono andati; il che è accaduto a tante altre, che intorno questa strada si vedono restate spogliate. Le ragioni della mia congettura sono, la mostra detta di sepolcro grande, e magnifico, i fragmenti d'vna Statua equestre veduti da me, il Panno ch'io stimo che fosse Clamide molto ricco, e copioso di robba. Hanno però stimato certi, che fossero molti vestiti. Io credo di no, poi che le statoe ci mostrano, che vn'huomo portaua intorno la robba sì grande, che i Fondachi hora non ci stanno per nulla. Che non per altro penso io, che Giuuenale chiamasse la Toga Auloca, o come diressimo noi panni d'Arazzo. Il colore di detto Panno io non dubito che fosse di Por-
 
 Колонтитул: 488 · Annotationi
 Кустод: pora
@@ -9650,11 +9650,11 @@ ne nostra. Hora s'ha da sapere, che questo Pilo, o Sepoltura era sopra la via Ap
 
 ## Скан 0531 · с. 489
 
-pora nell'estremità,poi che se ne vede ancora il segno. Ne era la Porpora d'vn solo colore, come alcuni s'imaginano. Poiche scriue Vitruuio,che se ne trouaua di tirate al nero,di rossa,e di violacea,lequali differenze egli ascriue a diuerse positure del Mondo, doue si pescauano le Cocchiglie. Questa nostra sarà dell'atra, del colore del Porfido, che da la Purpura s'è pure buscato il nome di Porfirite. L'Odore è quello medesimo, che si proua ne' Cadaueri, che d'Egitto ci vengono, chiamati con nome Arabico Numie, & è di Mirra se l'Odorato non c'inganna. La Bulla di rame seruiua per coperchio della Fibula, con la quale s'affibbiaua la Clamide sopra l'homero,manco,& se ne vede essempio in Campidoglio nel Cortile de' Conseruadori in vna statua loricata di Costantino, & in casa de' medesimi in vna testa co'l petto di Giulio Cesare; o come faceuano piu frequentemente sopra la destra spalla. *Chlamys* ( dice Isidoro ) *est quæ ex Vna parte induitur neq; consuitur,sed Fibula infrenatur*. Et questa Fibula ouero era tornita schietta nel Coperchio, o fatta di qualche gioia; ouero haueua alcuna Figura, come in vna testa di marmo co'l petto dell'Imperatore Hadriano ho vedut' io nel coperchio della Fibula : i ritratti d'Hadriano, e Sabina marito, e moglie, di basso rilieuo ben fatti. Nella presente sta scolpita gentilmente Scilla simbolo della Sicilia, nella quale hebbe che fare Calatino. Et pare che'l Maestro ( se bene piu antico ) hauesse auanti gli occhi que' Versi di Virgilio nell'Ecloga 6. ripetiti vn poco diuersamente nella Ciri.
+pora nell'estremità,poi che se ne vede ancora il segno. Ne era la Porpora d'vn solo colore, come alcuni s'imaginano. Poiche scriue Vitruuio,che se ne trouaua di tirate al nero,di rossa,e di violacea,lequali differenze egli ascriue a diuerse positure del Mondo, doue si pescauano le Cocchiglie. Questa nostra sarà dell'atra, del colore del Porfido, che da la Purpura s'è pure buscato il nome di Porfirite. L'Odore è quello medesimo, che si proua ne' Cadaueri, che d'Egitto ci vengono, chiamati con nome Arabico Numie, & è di Mirra se l'Odorato non c'inganna. La Bulla di rame seruiua per coperchio della Fibula, con la quale s'affibbiaua la Clamide sopra l'homero,manco,& se ne vede essempio in Campidoglio nel Cortile de' Conseruadori in vna statua loricata di Costantino, & in casa de' medesimi in vna testa co'l petto di Giulio Cesare; o come faceuano piu frequentemente sopra la destra spalla. *Chlamys* ( dice Isidoro ) *est quæ ex vna parte induitur neq; consuitur,sed Fibula infrenatur*. Et questa Fibula ouero era tornita schietta nel Coperchio, o fatta di qualche gioia; ouero haueua alcuna Figura, come in vna testa di marmo co'l petto dell'Imperatore Hadriano ho vedut' io nel coperchio della Fibula : i ritratti d'Hadriano, e Sabina marito, e moglie, di basso rilieuo ben fatti. Nella presente sta scolpita gentilmente Scilla simbolo della Sicilia, nella quale hebbe che fare Calatino. Et pare che'l Maestro ( se bene piu antico ) hauesse auanti gli occhi que' Versi di Virgilio nell'Ecloga 6. ripetiti vn poco diuersamente nella Ciri.
 
 *Quid loquar aut Scillam Nisi ? aut quam fama secuta est*
 *Candida succinctam latrantibus inguina Monstris*
-*Dulchias Vexape rates, & gurgite in alto*
+*Dulchias vexape rates, & gurgite in alto*
 *Ah timidos nautas Canibus lacerasse marinis ?*
 
 E quelli altri di Silio Italico, da' quali si caua, ch'era portata per impresa in guerra anco sopra l'Elmo
@@ -9769,7 +9769,7 @@ La Sfinge. & la Chimera sono cauate dalle memorie antiche, & li due Camei sono p
 
 quentissima nelle monete di Corinto. Delle Lamie vedasi il Del-rio nelle disquisitione Magiche.
 
-Plinio non dice che la Sfinge fosse nume saluatico. le parole di lui sono queste; *ante has est Sphynx Vel magis miranda : qua siluestria sunt accolentium* ; le quali il Landino traduce così, inanzi a queste è Sfinge tanto piu marauigliosa, perche è in luoghi seluaggi. Et bene.
+Plinio non dice che la Sfinge fosse nume saluatico. le parole di lui sono queste; *ante has est Sphynx vel magis miranda : qua siluestria sunt accolentium* ; le quali il Landino traduce così, inanzi a queste è Sfinge tanto piu marauigliosa, perche è in luoghi seluaggi. Et bene.
 
 Haueuano gl'antichi in veneratione il Fato sotto tre Imagini di Donna rappresentate come qui sotto.
 
