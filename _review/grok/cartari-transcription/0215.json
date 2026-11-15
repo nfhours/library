@@ -1,0 +1,48 @@
+{
+  "id": "0215",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 4 горизонтальным полосам в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места (кроме ударений) увеличены. Ударения читались на уровне полосы (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0215.webp"
+    ],
+    "printed_pages": "173",
+    "heading_on_scan": "De gli Antichi.",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Виньетки, заголовок, инициал L, текст, маргиналии (3 группы) совпадают; сигнатуры нет."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0215-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": "06",
+      "type": "addition",
+      "original": "последняя строка «… gli antichi morta-», кустод «li,&»",
+      "current": "mortali, & (кустод влит в текст)",
+      "suggested": "[pagebreak] morta- в тексте; «li,&» — в поле кустода",
+      "confidence": "high"
+    },
+    {
+      "field": "custode",
+      "issue_id": "0215-2",
+      "fields": [
+        "custode"
+      ],
+      "paragraph": "custode",
+      "type": "omission",
+      "original": "кустод «li,&»",
+      "current": "поле кустода пустое",
+      "suggested": "[custode] li,&",
+      "confidence": "high"
+    }
+  ]
+}

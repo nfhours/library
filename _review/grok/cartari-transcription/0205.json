@@ -1,0 +1,35 @@
+{
+  "id": "0205",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 4 горизонтальным полосам в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места (кроме ударений) увеличены. Ударения читались на уровне полосы (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0205.webp"
+    ],
+    "printed_pages": "163",
+    "heading_on_scan": "De gli Antichi. ·",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Остальной текст, маргиналии (3), кустод «bi fu», сигнатура L 2 совпадают; перенос «am-» в конце сохранён как в печати."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0205-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": "00",
+      "type": "ocr",
+      "original": "«che fossero rappacifficati insieme» (в печати двойное ff)",
+      "current": "rappacificati",
+      "suggested": "[typo] rappacifficati — опечатка печати, транскрипция исправила",
+      "confidence": "medium"
+    }
+  ]
+}

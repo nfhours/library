@@ -1,0 +1,48 @@
+{
+  "id": "0226",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 4 горизонтальным полосам в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места (кроме ударений) увеличены. Ударения читались на уровне полосы (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0226.webp"
+    ],
+    "printed_pages": "184",
+    "heading_on_scan": "Imagini de i Dei",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Остальной текст, маргиналии (4 группы), сигнатуры нет — совпадают; «in sei partiera» — так в печати."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0226-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": "00",
+      "type": "addition",
+      "original": "последняя строка «… che fossero caste intera-», кустод «men-»",
+      "current": "caste interamen- (кустод влит в текст)",
+      "suggested": "[pagebreak] intera- в тексте; «men-» только в поле кустода",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0226-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": "00",
+      "type": "ocr",
+      "original": "«quando questo aueniua (?) era di malissimo augurio» — после «aueni» в печати два штриха и a",
+      "current": "auenira",
+      "suggested": "[reading] aueniua (= avveniva), не уверен",
+      "confidence": "low"
+    }
+  ]
+}
