@@ -1759,23 +1759,31 @@ html.ic-hs-lock{overflow:hidden !important}
 .ic button,.ic .ic-lang-b,.ic .ic-booktabs a,.ic .ic-bt-tabs a,.ic .ic-chip,.ic .ic-home-tile,.ic .ic-tv-typerow,.ic .ic-rbar-row > *,.ic .ic-svx-bar button,
 .ic .back-bar .back-bar-brand a,.ic .ic-pgm-b,.ic .ic-ov-b{transition:none!important;animation:none!important;-webkit-tap-highlight-color:transparent}
 .ic button:focus:not(:focus-visible),.ic a:focus:not(:focus-visible){outline:none}
-/* нажатая кнопка сразу получает «вариант 3», без масштаба и без второй рамки */
+/* ---- седьмой заход: нажатие и выбор не меняют форму; «Найти…» — поле прямо в ячейке строки ---- */
+/* нажатие = только заливка в той же форме (границы и радиус те же, без inset-рамки и масштаба); выбранное нажатие — чуть плотнее */
 .ic .ic-lang-b:active,.ic .ic-booktabs a:active,.ic .ic-booktabs button:active,.ic .ic-rbar-row > button:not([disabled]):active,.ic .ic-tv-typerow:active,.ic .ic-chip:active,
-.ic button.ic-rb-sheet-close:active,.ic .ic-svx-bar button:active,.ic .ic-svx-back:active,.ic button.ic-tv-sheet-reset:active,.ic .ic-rbar-done:active,.ic .ic-rbar-findx:active{
-  background:rgba(236,229,212,.14)!important;box-shadow:inset 0 0 0 1px rgba(236,229,212,.28)!important;border-radius:8px!important;transform:none!important}
-.ic .ic-rbar-row > button[aria-pressed="true"]{border-radius:8px}
+.ic button.ic-rb-sheet-close:active,.ic .ic-svx-bar button:active,.ic .ic-svx-back:active,.ic button.ic-tv-sheet-reset:active{background:rgba(236,229,212,.14)!important;transform:none!important}
+.ic .ic-lang-b[aria-pressed="true"]:active,.ic .ic-booktabs a.on:active,.ic .ic-booktabs a[aria-current]:active,.ic .ic-rbar-row > button[aria-pressed="true"]:active,.ic .ic-rbar-row > button.ic-rbar-on:active,.ic .ic-tv-typerow[aria-pressed="true"]:active{background:rgba(236,229,212,.2)!important}
 .ic .ic-home-tile:active{transform:none!important}
-/* строка раздела в режиме ввода: та же высота, рамка и скругление, что у обычной строки */
-.ic-rbar-findrow{display:flex;align-items:stretch;min-width:0;max-width:1120px;margin:0 auto;border:1px solid rgba(var(--cream),.34);border-radius:11px;overflow:hidden}
-.ic-rbar-findrow[hidden],.ic-rbar-row[hidden]{display:none}
-.ic-rbar-findform{display:flex;align-items:stretch;flex:1 1 auto;min-width:0;margin:0}
-.ic-rbar-findwrap{flex:1 1 auto;min-width:0;display:flex}
-.ic .ic-rbar-findin{flex:1 1 auto;min-width:0;width:100%;height:36px;box-sizing:border-box;margin:0;padding:0 8px 0 12px;border:0;border-radius:0;background:transparent;box-shadow:none;
-  color:rgb(var(--cream));font-size:16px;line-height:1;-webkit-appearance:none;appearance:none;outline:0}
-.ic .ic-rbar-findin::placeholder{color:rgba(var(--cream),.5)}
+/* выбранная ячейка строки: только заливка, без внутренней рамки */
+.ic .ic-rbar-row > button[aria-pressed="true"],.ic .ic-rbar-row > button.ic-rbar-on,.ic .ic-rbar-row > .ic-rbar-findcell.ic-rbar-on{background:rgba(var(--cream),.14);box-shadow:none;color:rgb(var(--cream))}
+/* ячейка-поле «Найти…» */
+.ic .ic-rbar-row > .ic-rbar-findcell{flex:1 1 0;min-width:0;position:relative;display:flex;align-items:stretch;height:36px;box-sizing:border-box;border-left:1px solid rgba(var(--cream),.22)}
+.ic .ic-rbar-row > .ic-rbar-findcell:first-child{border-left:0}
+.ic .ic-rbar-findin{flex:1 1 auto;min-width:0;width:100%;height:100%;margin:0;padding:0 8px;border:0;border-radius:0;background:transparent;box-shadow:none;outline:0;
+  font-family:inherit;font-size:16px;line-height:1;color:rgb(var(--cream));text-align:center;-webkit-appearance:none;appearance:none}
+.ic .ic-rbar-findin::placeholder{font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;color:rgba(var(--cream),.9);opacity:1}
+@media (max-width:460px){.ic .ic-rbar-findin::placeholder{letter-spacing:.045em}}
+.ic .ic-rbar-findin:not(:placeholder-shown){padding-right:30px}
 .ic .ic-rbar-findin::-webkit-search-cancel-button,.ic .ic-rbar-findin::-webkit-search-decoration{-webkit-appearance:none;display:none}
-.ic .ic-rbar-findx{flex:none;position:relative;width:34px;padding:0;border:0;border-left:0;border-radius:0;font-size:22px;font-weight:200;line-height:1;letter-spacing:0;text-transform:none;color:rgba(var(--cream),.6)}
-.ic .ic-rbar-done{flex:none;position:relative}
-.ic .ic-rbar-findx::after,.ic .ic-rbar-done::after{content:"";position:absolute;left:0;right:0;top:50%;height:44px;transform:translateY(-50%)}
-@media (max-height:500px) and (orientation:landscape){.ic .ic-rbar-findin{height:30px}}
-.ic .ic-rbar-done{font-size:10.5px}
+.ic .ic-rbar-findx{position:absolute;right:2px;top:50%;transform:translateY(-50%);width:30px;height:30px;padding:0;margin:0;border:0;border-left:0;border-radius:0;background:none;box-shadow:none;
+  display:flex;align-items:center;justify-content:center;font-size:22px;font-weight:200;line-height:1;letter-spacing:0;text-transform:none;color:rgba(var(--cream),.6)}
+.ic .ic-rbar-findx[hidden]{display:none}
+.ic-rbar-rp .ic-rbar-row > .ic-rbar-findcell:first-child{border-radius:10px 0 0 10px}
+.ic-rbar-rp .ic-rbar-findin{height:44px;margin:-4px 0}
+@media (max-height:500px) and (orientation:landscape){.ic .ic-rbar-row > .ic-rbar-findcell{height:30px}}
+/* RU/EN/FR в шапке (index.html, вне .ic) и ссылка «Библиотека»: тот же принцип — нажатие только заливка, без масштаба и анимации */
+#back-bar-lang button,.back-bar a{transition:none!important;animation:none!important;-webkit-tap-highlight-color:transparent}
+#back-bar-lang button:active{background:rgba(236,229,212,.14)!important;transform:none!important}
+#back-bar-lang button[aria-pressed="true"]:active{background:rgba(236,229,212,.2)!important}
+#back-bar-lang button:focus:not(:focus-visible),.back-bar a:focus:not(:focus-visible){outline:none}

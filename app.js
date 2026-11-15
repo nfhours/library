@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "183";
+  var APP_VER = "184";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -1543,55 +1543,34 @@
   // input event so the existing filtering logic just runs as normal.
   // Полоса «Найти» под строкой раздела: поле + крестик, список виден и фильтруется сразу.
   // Закрывается по «Готово»/Enter, Esc, касанию списка и прокрутке; фильтр остаётся.
-  function findBarHtml(ph){
-    return '<div class="ic-rbar-findrow" hidden><form class="ic-rbar-findform" role="search"><span class="ic-rbar-findwrap"><input class="ic-rbar-findin" type="search" enterkeyhint="done" placeholder="'+esc(ph)+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(ph)+'"></span>'+
-      '<button type="button" class="ic-rbar-findx" aria-label="'+esc(t("clearSearch"))+'">&times;</button>'+
-      '<button type="submit" class="ic-rbar-done">'+esc(t("fbDone"))+'</button></form></div>';
+  // «Найти…» — ячейка строки раздела, она же поле ввода (input уже в DOM, при касании ничего не перерисовывается).
+  function findCellHtml(ph, val){
+    return '<div class="ic-rbar-findcell'+(String(val||"").trim() ? " ic-rbar-on" : "")+'"><input class="ic-rbar-findin" type="search" enterkeyhint="search" value="'+esc(val||"")+'" placeholder="'+esc(ph)+'" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="'+esc(ph)+'">'+
+      '<button type="button" class="ic-rbar-findx" aria-label="'+esc(t("clearSearch"))+'"'+(String(val||"") ? "" : " hidden")+'>&times;</button></div>';
   }
-  // Поиск прямо в строке раздела: тап по «Найти…» заменяет строку полем той же высоты (поле, тонкий крестик, «Готово»),
-  // список под строкой фильтруется по мере ввода. «Готово»/Enter, тап по списку и начало прокрутки возвращают строку, фильтр остаётся.
-  // Крестик: есть текст — очищает; пусто — закрывает поле.
+  // Enter/«Найти» на клавиатуре, тап по списку и начало прокрутки снимают фокус (клавиатура уходит), текст остаётся.
+  // Крестик виден только при тексте: очищает и оставляет фокус. Ячейка с текстом залита как выбранная.
   function wireFindBar(o){
-    var bar = o.bar, row = bar.parentNode.querySelector(".ic-rbar-row"), form = bar.querySelector("form"), inp = bar.querySelector("input"), xb = bar.querySelector(".ic-rbar-findx"), done = bar.querySelector(".ic-rbar-done");
-    var btn = o.btn, gen = o.gen, isOpen = false, at = 0;
-    function set(on){
-      if(on === isOpen) return;
-      isOpen = on; bar.hidden = !on; row.hidden = on;
-      if(on){
-        at = Date.now();
-        var bt0 = document.getElementById("ic-booktabs"), stk0 = document.getElementById("ic-stack");
-        if(bt0) bt0.classList.remove("ic-bb-hidden"); if(stk0) stk0.classList.remove("ic-stack-hidden");
-        inp.focus({preventScroll:true});
-      } else inp.blur();
-      syncHeaderStack();
-      if(o.onToggle) o.onToggle(on);
-    }
-    form.addEventListener("submit", function(e){ e.preventDefault(); set(false); });
-    inp.addEventListener("keydown", function(e){ if(e.key==="Escape") set(false); });
-    [xb, done].forEach(function(b){ b.addEventListener("mousedown", function(e){ e.preventDefault(); }); b.addEventListener("touchstart", function(e){ if(isOpen) e.preventDefault(); }, {passive:false}); });
-    xb.addEventListener("click", function(){
-      if(inp.value){ inp.value = ""; inp.dispatchEvent(new Event("input", {bubbles:true})); inp.focus({preventScroll:true}); }
-      else set(false);
+    var cell = o.cell, inp = cell.querySelector("input"), xb = cell.querySelector(".ic-rbar-findx"), gen = o.gen, at = 0;
+    function sync(){ xb.hidden = !inp.value; cell.classList.toggle("ic-rbar-on", !!inp.value.trim()); }
+    function blur(){ if(document.activeElement === inp) inp.blur(); }
+    inp.addEventListener("focus", function(){
+      at = Date.now();
+      var bt0 = document.getElementById("ic-booktabs"), stk0 = document.getElementById("ic-stack");
+      if(bt0) bt0.classList.remove("ic-bb-hidden"); if(stk0) stk0.classList.remove("ic-stack-hidden");
+      if(o.onFocus) o.onFocus();
     });
-    done.addEventListener("click", function(){ set(false); });
+    inp.addEventListener("input", sync);
+    inp.addEventListener("keydown", function(e){ if(e.key==="Enter" || e.key==="Escape"){ e.preventDefault(); blur(); } });
+    xb.addEventListener("mousedown", function(e){ e.preventDefault(); });
+    xb.addEventListener("touchstart", function(e){ e.preventDefault(); xb.click(); }, {passive:false});
+    xb.addEventListener("click", function(){ inp.value = ""; sync(); inp.dispatchEvent(new Event("input", {bubbles:true})); inp.focus({preventScroll:true}); });
     function outside(e){
       if(gen !== renderGen){ document.removeEventListener("touchmove", outside, true); document.removeEventListener("wheel", outside, true); return; }
-      if(isOpen && Date.now()-at > 300 && !(e.target.closest && e.target.closest(".ic-rbar-findrow"))) set(false);
+      if(document.activeElement === inp && Date.now()-at > 300 && !(e.target.closest && e.target.closest(".ic-rbar-findcell"))) blur();
     }
     document.addEventListener("touchmove", outside, true); document.addEventListener("wheel", outside, true);
-    return {set:set, isOpen:function(){ return isOpen; }, input:inp};
-  }
-  // Подпись кнопки: пока запроса нет — «Найти имя»; с запросом — «лох · 2» (без префикса); не влезает — запрос сокращается с «…».
-  function fitFindLabel(btn, idle, q, n){
-    var el = btn.querySelector(".ic-rbar-tvsearch-label"); q = (q||"").trim();
-    if(!q){ el.textContent = idle; return; }
-    el.textContent = q+" · "+n;
-    if(el.scrollWidth <= el.clientWidth+1) return;
-    for(var k = q.length-1; k >= 1; k--){
-      el.textContent = q.slice(0,k).replace(/\s+$/,"")+"… · "+n;
-      if(el.scrollWidth <= el.clientWidth+1) return;
-    }
-    el.textContent = String(n);
+    return {set:function(on){ if(!on) blur(); }, blur:blur, sync:sync, isOpen:function(){ return document.activeElement === inp; }, input:inp};
   }
   function wireSearchClear(q){
     var btn = q.parentNode.querySelector(".ic-search-clear");
@@ -2628,11 +2607,10 @@
     var findCount = 0;
     var rbar =
       '<div class="ic-rbar-row">'+
-        '<button type="button" class="ic-rbar-tvsearch'+(state.q.trim() ? " ic-rbar-active" : "")+'" data-rb="find" aria-pressed="false"><span class="ic-rbar-tvsearch-label">'+esc(t("fbArt"))+'</span></button>'+
+        findCellHtml(t("fbArt"), state.q)+
         (multi ? '<button type="button" class="ic-rbar-sort ic-rbar-partb'+(state.filter!=="all" ? " ic-rbar-on" : "")+'" data-rb="part"><span class="ic-rbar-sort-label">'+esc(ripaPartLabel())+'</span></button>' : "")+
         '<button type="button" class="ic-rbar-sort'+(state.sort!=="book" ? " ic-rbar-on" : "")+'" data-rb="sort"><span class="ic-rbar-sort-label">'+esc(ripaOrdLabel())+'</span></button>'+
       '</div>'+
-      findBarHtml(t("rpFindPh"))+
       langSwitch()+
       (multi ? rbSheetHtml("ic-ripa-part", "", "",
         '<div class="ic-tv-typelist" role="group" aria-label="'+esc(t("rpPart"))+'">'+
@@ -2650,10 +2628,8 @@
       '</div></div>';
     var sheetApi = ripaBind(book, gen, rbSheets);
     var rbarEl = root.querySelector("#ic-rbar"), rbarRow = root.querySelector(".ic-rbar-row"), list = root.querySelector(".ic-rp-list");
-    var findBar = root.querySelector(".ic-rbar-findrow");
-    var sortEl = root.querySelector("#ic-ripa-sort"), partEl = root.querySelector("#ic-ripa-part"), partBtn = root.querySelector('[data-rb="part"]'), findBtn = root.querySelector('[data-rb="find"]'), sortBtn = root.querySelector('[data-rb="sort"]');
-    var fb = wireFindBar({bar:findBar, btn:findBtn, gen:gen, onToggle:function(){ updateLabels(); }}), findIn = fb.input;
-    findIn.value = state.q; findIn.dispatchEvent(new Event("input"));
+    var sortEl = root.querySelector("#ic-ripa-sort"), partEl = root.querySelector("#ic-ripa-part"), partBtn = root.querySelector('[data-rb="part"]'), sortBtn = root.querySelector('[data-rb="sort"]');
+    var fb = wireFindBar({cell:root.querySelector(".ic-rbar-findcell"), gen:gen, onFocus:function(){ rbSheets.forEach(function(sh){ if(sh.isOpen()) sh.close(); }); }}), findIn = fb.input;
     function setFind(on){ fb.set(on); }
     function barH(){ return rbarEl.getBoundingClientRect().height + headerStackH() + 10; }
     function rowHtml(it, showPart){
@@ -2700,8 +2676,6 @@
       list.innerHTML = html;
     }
     function updateLabels(){
-      fitFindLabel(findBtn, t("fbArt"), state.q, findCount);
-      findBtn.classList.toggle("ic-rbar-active", !!state.q.trim());
             sortBtn.classList.toggle("ic-rbar-on", state.sort!=="book");
       if(partBtn) partBtn.classList.toggle("ic-rbar-on", state.filter!=="all");
       sortBtn.querySelector(".ic-rbar-sort-label").textContent = ripaOrdLabel();
@@ -2724,11 +2698,10 @@
     rbarRow.addEventListener("click", function(e){
       var b = e.target.closest("[data-rb]"); if(!b) return;
       var act = b.getAttribute("data-rb");
-      if(act==="find"){ rbSheets.forEach(function(sh){ if(sh.isOpen()) sh.close(); }); setFind(!fb.isOpen()); }
-      else { setFind(false); if(act==="sort") sortApi.toggle(); else if(act==="part" && partApi) partApi.toggle(); }
+      setFind(false); if(act==="sort") sortApi.toggle(); else if(act==="part" && partApi) partApi.toggle();
     });
     function openRow(r){ if(r){ setFind(false); ripaOpen(book, r.getAttribute("data-id"), state.q); } }
-    list.addEventListener("click", function(e){ openRow(e.target.closest(".ic-row-item")); });
+    list.addEventListener("click", function(e){ setFind(false); openRow(e.target.closest(".ic-row-item")); });
     list.addEventListener("keydown", function(e){ var r = e.target.closest(".ic-row-item"); if(r && (e.key==="Enter"||e.key===" ")){ e.preventDefault(); openRow(r); } });
     fill();
     var focusRow = focusIt ? list.querySelector('.ic-row-item[data-id="'+focusIt.id+'"]') : null;
@@ -3738,11 +3711,10 @@
         '<div class="ic-ch-outer">'+
           '<div class="ic-rbar ic-rbar-tv" id="ic-rbar">'+
             '<div class="ic-rbar-row">'+
-              '<button type="button" class="ic-rbar-tvsearch'+(tavolaUi.q.trim() ? " ic-rbar-active" : "")+'" data-rb="search" aria-pressed="false"><span class="ic-rbar-tvsearch-label">'+esc(t("fbIdx"))+'</span></button>'+
+              findCellHtml(t("fbIdx"), tavolaUi.q)+
               '<button type="button" class="ic-rbar-sort'+(tavolaUi.sort==="it" ? " ic-rbar-on" : "")+'" data-rb="sort"><span class="ic-rbar-sort-label">'+esc(tvSortLabel())+'</span></button>'+
             '</div>'+
             langSwitch()+
-            findBarHtml(t("fbPhIdx"))+
           '</div>'+
           // .ic-ch-outer должен обнимать ВСЮ страницу (капсулу + светлую
           // колонку ниже), а не только капсулу — иначе её собственная высота
@@ -3763,8 +3735,7 @@
       bindLangSwitch(root);
       bindBookBack(root);
       var rbar = root.querySelector("#ic-rbar"), rbarRow = root.querySelector(".ic-rbar-row");
-      var searchBtn = root.querySelector('[data-rb="search"]');
-      var fb = wireFindBar({bar:root.querySelector(".ic-rbar-findrow"), btn:searchBtn, gen:gen, onToggle:function(){ updateSearchLabel(); }}), sheetInput = fb.input;
+      var fb = wireFindBar({cell:root.querySelector(".ic-rbar-findcell"), gen:gen, onFocus:function(){ rbSheets.forEach(function(sh){ if(sh.isOpen()) sh.close(); }); }}), sheetInput = fb.input;
       var sortBtn = root.querySelector('[data-rb="sort"]'), sortLabelEl = sortBtn.querySelector(".ic-rbar-sort-label");
       var list = root.querySelector(".ic-tv-list"), cnt = root.querySelector(".ic-tv-count"),
           lnav = root.querySelector(".ic-tv-letters-lt"),
@@ -3781,10 +3752,7 @@
       // тот же общий механизм makeRbSheet этого требует).
       var azDragging = false, rbSheets = [];
       bindBookSearchSheet(root, book, gen, rbSheets);
-      function updateSearchLabel(){
-        fitFindLabel(searchBtn, t("fbIdx"), tavolaUi.q, tvN);
-        searchBtn.classList.toggle("ic-rbar-active", !!tavolaUi.q.trim());
-              }
+      function updateSearchLabel(){ fb.sync(); }
       function fill(){
         var words = tvFold(sheetInput.value.trim()).split(/\s+/).filter(Boolean), html = "", n = 0, have = {}, cur = null;
         ordered().forEach(function(x){
@@ -3847,7 +3815,6 @@
       rbarRow.addEventListener("click", function(e){
         var b = e.target.closest("[data-rb]"); if(!b) return;
         var act = b.getAttribute("data-rb");
-        if(act==="search"){ rbSheets.forEach(function(sh){ if(sh.isOpen()) sh.close(); }); fb.set(!fb.isOpen()); return; }
         fb.set(false);
         if(act==="sort"){
           tavolaUi.sort = tavolaUi.sort==="ru" ? "it" : "ru";
@@ -4033,11 +4000,10 @@
         '<div class="ic-ch-outer">'+
           '<div class="ic-rbar ic-rbar-tv" id="ic-rbar">'+
             '<div class="ic-rbar-row">'+
-              '<button type="button" class="ic-rbar-tvsearch'+(namesUi.q.trim() ? " ic-rbar-active" : "")+'" data-rb="search" aria-pressed="false"><span class="ic-rbar-tvsearch-label">'+esc(t("fbName"))+'</span></button>'+
+              findCellHtml(t("fbName"), namesUi.q)+
               '<button type="button" class="ic-rbar-sort'+(namesUi.ty!=="all" ? " ic-rbar-on" : "")+'" data-rb="type" aria-pressed="false"><span class="ic-rbar-sort-label">'+esc(nmTypeLabel())+'</span></button>'+
             '</div>'+
             langSwitch()+
-            findBarHtml(t("fbPhName"))+
             '<div class="ic-rb-sheet" id="ic-tv-type-sheet">'+
               '<div class="ic-rb-sheet-slide">'+
                 '<div class="ic-rb-sheet-panel">'+
@@ -4066,8 +4032,7 @@
       bindLangSwitch(root);
       bindBookBack(root);
       var rbar = root.querySelector("#ic-rbar"), rbarRow = root.querySelector(".ic-rbar-row");
-      var searchBtn = root.querySelector('[data-rb="search"]');
-      var fb = wireFindBar({bar:root.querySelector(".ic-rbar-findrow"), btn:searchBtn, gen:gen, onToggle:function(){ updateSearchLabel(); }}), sheetInput = fb.input;
+      var fb = wireFindBar({cell:root.querySelector(".ic-rbar-findcell"), gen:gen, onFocus:function(){ rbSheets.forEach(function(sh){ if(sh.isOpen()) sh.close(); }); }}), sheetInput = fb.input;
       var typeBtn = root.querySelector('[data-rb="type"]'), typeLabelEl = typeBtn.querySelector(".ic-rbar-sort-label"), typeSheetEl = root.querySelector("#ic-tv-type-sheet");
       var list = root.querySelector(".ic-tv-list"), cnt = root.querySelector(".ic-tv-count"),
           lnav = root.querySelector(".ic-tv-letters-lt"),
@@ -4078,10 +4043,7 @@
       // здесь rbSheets реально взаимоисключает ДВЕ шторки (поиск и тип).
       var azDragging = false, rbSheets = [];
       bindBookSearchSheet(root, book, gen, rbSheets);
-      function updateSearchLabel(){
-        fitFindLabel(searchBtn, t("fbName"), namesUi.q, nmN);
-        searchBtn.classList.toggle("ic-rbar-active", !!namesUi.q.trim());
-              }
+      function updateSearchLabel(){ fb.sync(); }
       function updateTypeLabel(){ typeLabelEl.textContent = nmTypeLabel(); typeBtn.classList.toggle("ic-rbar-on", namesUi.ty!=="all"); }
       function fill(){
         var words = tvFold(sheetInput.value.trim()).split(/\s+/).filter(Boolean), html = "", n = 0, have = {}, cur = null;
@@ -4143,7 +4105,6 @@
       rbarRow.addEventListener("click", function(e){
         var b = e.target.closest("[data-rb]"); if(!b) return;
         var act = b.getAttribute("data-rb");
-        if(act==="search"){ rbSheets.forEach(function(sh){ if(sh.isOpen()) sh.close(); }); fb.set(!fb.isOpen()); return; }
         fb.set(false);
         if(act==="type"){ typeSheetApi.toggle(); return; }
       });

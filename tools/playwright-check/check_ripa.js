@@ -259,7 +259,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
       await open(LIST, L); await page.waitForSelector('.ic-row-item'); await W(1800);
       await page.evaluate(([pt, so]) => { document.querySelector('#ic-ripa-part [data-f="' + pt + '"]').click(); document.querySelector('#ic-ripa-sort [data-sort-opt="' + so + '"]').click(); }, [part, sort]); await W(300);
       await page.evaluate(() => scrollTo(0, 4000)); await W(300); await page.evaluate(() => scrollTo(0, 4300)); await W(700);
-      await page.click('[data-rb="find"]'); await W(700);
+      await page.click('.ic-rbar-findin'); await W(700);
       const inp = page.locator('.ic-rbar-findin'); let bad = [];
       for (const str of typed[L]) {
         await inp.fill('');
@@ -275,7 +275,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     pg.on('console', m => { if (m.type() === 'error' && !benign(m.text())) gerrs.push(m.text()); });
     pg.on('pageerror', e => { if (!benign(e.message)) gerrs.push('pageerror: ' + e.message); });
     await pg.goto(URL0 + '#/iconologie/list', { waitUntil: 'load' }); await pg.waitForSelector('.ic-row-item'); await W(1200);
-    await pg.click('[data-rb="find"]'); await W(600);
+    await pg.click('.ic-rbar-findin'); await W(600);
     await pg.evaluate(() => { const o = String.prototype.normalize; String.prototype.normalize = function () { throw new Error('boom'); }; setTimeout(() => { String.prototype.normalize = o; }, 1500); });
     await pg.locator('.ic-rbar-findin').pressSequentially('аб', { delay: 10 }); await W(300);
     const g = await pg.evaluate(() => ({ st: !!document.getElementById('ic-stack'), tabs: !!document.querySelector('.ic-booktabs'), bar: !!document.querySelector('.ic-rbar'), sheetOpen: !!document.querySelector('.ic-rb-sheet-open'), dim: getComputedStyle(document.getElementById('ic-rb-dim')).opacity, locked: document.body.style.position === 'fixed' }));
@@ -334,7 +334,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
         touch: [...row.querySelectorAll(':scope > button')].map(x => parseFloat(getComputedStyle(x, '::after').height)) }; });
     res.rbarMeasure = { cart: cm, ripa: rm };
     ok('rbar like cartari index', ['rowH', 'btnH', 'fs', 'ls', 'tt', 'ff', 'fw', 'bd', 'rad'].every(k => cm[k] === rm[k]), res.rbarMeasure);
-    ok('rbar touch zone >=44', rm.touch.length === 3 && rm.touch.every(h => h >= 44), rm.touch);
+    ok('rbar touch zone >=44', rm.touch.length === 2 && rm.touch.every(h => h >= 44) && (await page.$eval('.ic-rbar-findin', e => e.getBoundingClientRect().height)) >= 44, rm.touch);
     const tb = await page.evaluate(() => { const a = [...document.querySelectorAll('.ic-bt-tabs a')], on = document.querySelector('.ic-bt-tabs a.on'), lab = on.querySelector('.ic-bt-label'), tr = document.querySelector('.ic-bt-tabs').getBoundingClientRect();
       const r = a.map(x => x.getBoundingClientRect()), gapL = r[0].left - tr.left, gapM = r[1].left - r[0].right, gapR = tr.right - r[1].right;
       return { w: Math.round(on.getBoundingClientRect().width), lab: Math.round(lab.getBoundingClientRect().width), gapL: Math.round(gapL), gapM: Math.round(gapM), gapR: Math.round(gapR) }; });
@@ -363,58 +363,55 @@ const W = ms => new Promise(r => setTimeout(r, ms));
       return { bd: getComputedStyle(row).borderTopWidth, fs: parseFloat(getComputedStyle(b[0]).fontSize), tabFs: parseFloat(getComputedStyle(tab).fontSize), sepBg: sep.backgroundColor, sepH: sep.height,
         on: [...b].map(x => x.classList.contains('ic-rbar-on') || x.getAttribute('aria-pressed') === 'true'), btnBd: [...b].map(x => getComputedStyle(x).borderLeftWidth + '/' + getComputedStyle(x).borderTopWidth) }; });
     ok('section row: v180 look (frame, cells), buttons 10.5px, smaller than tabs, nothing highlighted by default', rs5.bd === '1px' && rs5.fs === 10.5 && rs5.fs < rs5.tabFs && rs5.on.every(x => !x), rs5);
-    // 3. «Найти» прямо в строке раздела: открытие, ввод, «Готово», повторное открытие с текстом, крестик в обоих режимах, ширины ячеек, без transition
-    const rowSearch = async (name, idle, ph, word, listSel) => {
-      const st = () => page.evaluate(() => { const r = document.querySelector('.ic-rbar-row'), f = document.querySelector('.ic-rbar-findrow'), b = document.querySelector('.ic-rbar-tvsearch'), l = b.querySelector('.ic-rbar-tvsearch-label'), i = f.querySelector('input');
-        return { rowHidden: r.hidden, rowH: Math.round(r.getBoundingClientRect().height), findHidden: f.hidden, findH: Math.round(f.getBoundingClientRect().height), widths: [...r.querySelectorAll(':scope > button')].map(x => Math.round(x.getBoundingClientRect().width)),
-          lbl: b.textContent.trim(), fit: l.scrollWidth <= l.clientWidth + 1, val: i.value, ph: i.placeholder, focus: document.activeElement === i, sheets: document.querySelectorAll('.ic-rb-sheet-open').length, pageH: document.documentElement.scrollHeight,
-          tr: [...document.querySelectorAll('.ic-rbar-row button, .ic-bt-tabs a, .ic-lang-b, .ic-bt-back, .ic-bt-search, .ic-rbar-findrow button')].map(x => getComputedStyle(x).transitionDuration + '|' + getComputedStyle(x).animationName) }; });
+    // 3. «Найти…» — поле прямо в ячейке строки: фокус с первого тапа без перерисовки, ввод, крестик, Enter снимает фокус и оставляет текст, ширины неизменны, :active не меняет форму
+    const rowSearch = async (name, idle, listSel) => {
+      const st = () => page.evaluate(() => { const r = document.querySelector('.ic-rbar-row'), c = r.querySelector('.ic-rbar-findcell'), i = c.querySelector('input'), x = c.querySelector('.ic-rbar-findx'), cs = getComputedStyle(c);
+        return { same: c === window.__cell, focus: document.activeElement === i, val: i.value, ph: i.placeholder, xHidden: x.hidden, on: c.classList.contains('ic-rbar-on'), sheets: document.querySelectorAll('.ic-rb-sheet-open').length,
+          widths: [...r.children].map(x => Math.round(x.getBoundingClientRect().width)), h: Math.round(c.getBoundingClientRect().height), bh: Math.round(r.querySelector(':scope > button').getBoundingClientRect().height),
+          shadow: cs.boxShadow, bg: cs.backgroundColor, fs: getComputedStyle(i).fontSize, phFs: getComputedStyle(i, '::placeholder').fontSize, phTt: getComputedStyle(i, '::placeholder').textTransform,
+          tr: [...document.querySelectorAll('.ic-rbar-row > *, .ic-bt-tabs a, .ic-lang-b, #back-bar-lang button, .ic-bt-back, .ic-bt-search')].map(x => getComputedStyle(x).transitionDuration + '|' + getComputedStyle(x).animationName), cnt: (document.querySelector('.ic-rp-count, .ic-tv-count') || {}).textContent, ae: document.activeElement.tagName }; });
+      await page.evaluate(() => { window.__cell = document.querySelector('.ic-rbar-findcell'); });
       const s0 = await st();
-      ok(name + ': idle label', s0.lbl === idle, s0.lbl);
-      ok(name + ': no transition/animation on buttons', s0.tr.every(x => x === '0s|none'), s0.tr.filter(x => x !== '0s|none'));
-      const bb = await page.$eval('.ic-rbar-row > button:last-child', b => { const r = b.getBoundingClientRect(); return [r.left + r.width / 2, r.top + r.height / 2]; });
-      await page.mouse.move(bb[0], bb[1]); await page.mouse.down(); await W(80);
-      const pr = await page.$eval('.ic-rbar-row > button:last-child', b => { const c = getComputedStyle(b); return { bg: c.backgroundColor, sh: c.boxShadow, tf: c.transform, rad: c.borderRadius, tr: c.transitionDuration }; });
-      await page.mouse.move(200, 420); await page.mouse.up(); await W(100);
-      ok(name + ': pressed button instantly gets "variant 3", no scale/transition', pr.bg === 'rgba(236, 229, 212, 0.14)' && /0\.28/.test(pr.sh) && pr.tf === 'none' && pr.rad === '8px' && pr.tr === '0s', pr);
-      await page.click('.ic-rbar-tvsearch'); await W(400);
+      ok(name + ': permanent input in the cell, placeholder = label, cell height = other cells', s0.ph === idle && s0.h === s0.bh && s0.xHidden && !s0.on, s0);
+      ok(name + ': placeholder 10.5px uppercase like neighbours; no transition/animation', s0.phFs === '10.5px' && s0.phTt === 'uppercase' && s0.tr.every(x => x === '0s|none'), { phFs: s0.phFs, phTt: s0.phTt, tr: s0.tr.filter(x => x !== '0s|none') });
+      // :active не меняет форму
+      const shape = sel => page.$eval(sel, e => { const c = getComputedStyle(e), r = e.getBoundingClientRect(); return { rad: c.borderRadius, sh: c.boxShadow, tf: c.transform, w: Math.round(r.width * 10), h: Math.round(r.height * 10), bl: c.borderLeftWidth, bg: c.backgroundColor }; });
+      for (const sel of ['.ic-rbar-row > button:last-child', '.ic-bt-tabs a:not(.on)', '#back-bar-lang button:not([aria-pressed="true"])']) {
+        const before = await shape(sel), pt = await page.$eval(sel, e => { const r = e.getBoundingClientRect(); return [r.left + r.width / 2, r.top + r.height / 2]; });
+        await page.mouse.move(pt[0], pt[1]); await page.mouse.down(); await W(80); const during = await shape(sel); await page.mouse.move(200, 430); await page.mouse.up(); await W(100);
+        ok(name + ': :active only fills (' + sel + ')', during.bg === 'rgba(236, 229, 212, 0.14)' && during.rad === before.rad && during.sh === before.sh && during.tf === before.tf && during.w === before.w && during.h === before.h && during.bl === before.bl, { before, during });
+      }
+      await page.tap('.ic-rbar-findin'); await W(400);
       const s1 = await st();
-      ok(name + ': row becomes input (same height), keyboard focus, no sheet', s1.rowHidden && !s1.findHidden && s1.findH === s0.rowH && s1.focus && s1.ph === ph && s1.sheets === 0 && s1.pageH === s0.pageH, { s0h: s0.rowH, s1 });
-      await page.locator('.ic-rbar-findin').pressSequentially(word, { delay: 30 }); await W(500);
-      const s2 = await st();
-      ok(name + ': list filters while typing', await page.evaluate(sel => document.querySelectorAll(sel).length, listSel) > 0 && s2.val === word);
+      ok(name + ': first tap focuses the same cell (no re-render), no sheet', s1.same && s1.focus && s1.sheets === 0 && JSON.stringify(s1.widths) === JSON.stringify(s0.widths), s1);
+      await page.keyboard.type('аполлон'.slice(0, 0) + (name.startsWith('ripa') ? 'лав' : 'аполлон'), { delay: 30 }); await W(500);
+      const s2 = await st(), nrows = await page.evaluate(sel => document.querySelectorAll(sel).length, listSel);
+      ok(name + ': typing filters list, cross appears, cell filled as selected, no inner ring', s2.focus && !s2.xHidden && s2.on && nrows > 0 && s2.bg === 'rgba(236, 229, 212, 0.14)' && s2.shadow === 'none' && /\d/.test(s2.cnt || ''), { s2, nrows });
       await page.keyboard.press('Enter'); await W(400);
       const s3 = await st();
-      ok(name + ': Enter returns the row, filter kept, label "' + word + ' · N" without prefix, widths unchanged, keyboard hidden',
-        !s3.rowHidden && s3.findHidden && !s3.focus && !/:/.test(s3.lbl) && /^[^ ]+… · \d+$|^[^ ]+ · \d+$|^\d+$/.test(s3.lbl) && s3.fit && JSON.stringify(s3.widths) === JSON.stringify(s0.widths) && s3.rowH === s0.rowH, { s0w: s0.widths, s3 });
-      await page.click('.ic-rbar-tvsearch'); await W(400);
-      const s4 = await st(); ok(name + ': reopen shows typed text', !s4.findHidden && s4.val === word && s4.focus, s4);
-      await page.click('.ic-rbar-done'); await W(300);
-      const s5 = await st(); ok(name + ': "Done" returns the row, filter kept', !s5.rowHidden && s5.findHidden && s5.lbl === s3.lbl && !s5.focus, s5);
-      await page.click('.ic-rbar-tvsearch'); await W(300);
-      await page.click('.ic-rbar-findx'); await W(400);
-      const s6 = await st(); ok(name + ': cross with text clears, field stays open', !s6.findHidden && s6.val === '' && s6.focus, s6);
-      await page.click('.ic-rbar-findx'); await W(400);
-      const s7 = await st(); ok(name + ': cross on empty field closes it, row shows "' + idle + '"', !s7.rowHidden && s7.findHidden && s7.lbl === idle && JSON.stringify(s7.widths) === JSON.stringify(s0.widths), s7);
-      await page.click('.ic-rbar-tvsearch'); await W(300);
-      await page.evaluate(sel => document.querySelector(sel).dispatchEvent(new Event('touchmove', { bubbles: true })), listSel.split(',')[0].replace(/^\.ic-tv-e$/, '.ic-tv-list')); await W(400);
-      const s8 = await st(); ok(name + ': scroll closes the field', !s8.rowHidden && s8.findHidden, s8);
-      await page.click('.ic-rbar-tvsearch'); await W(300);
-      await page.evaluate(() => document.querySelector('.ic-rbar-findin').dispatchEvent(new Event('keydown', { bubbles: true })));
-      await page.keyboard.press('Escape'); await W(200);
+      ok(name + ': Enter blurs, text stays, widths unchanged, "Found N" above list', !s3.focus && s3.val === s2.val && s3.on && JSON.stringify(s3.widths) === JSON.stringify(s0.widths) && /\d/.test(s3.cnt || ''), { s0w: s0.widths, s3 });
+      await page.tap('.ic-rbar-findin'); await W(300);
+      const s4 = await st(); ok(name + ': tap again keeps the typed text', s4.focus && s4.val === s2.val && s4.same, s4);
+      await page.tap('.ic-rbar-findx'); await W(400);
+      const s5 = await st(); ok(name + ': cross clears and keeps focus, then hides', s5.val === '' && s5.focus && s5.xHidden && !s5.on && s5.same && JSON.stringify(s5.widths) === JSON.stringify(s0.widths), s5);
+      await page.keyboard.type(name.startsWith('ripa') ? 'лав' : 'аполлон', { delay: 20 }); await W(300);
+      await page.evaluate(sel => document.querySelector(sel).dispatchEvent(new Event('touchmove', { bubbles: true })), listSel.split(',')[0]); await W(400);
+      const s6 = await st(); ok(name + ': scroll blurs, text stays', !s6.focus && s6.val.length > 0 && s6.on, s6);
+      await page.tap('.ic-rbar-findin'); await W(300); await page.evaluate(() => document.querySelector('.ic-rp-list, .ic-tv-list').click()); await W(300);
+      const s7 = await st(); ok(name + ': tap on list blurs', !s7.focus && s7.val.length > 0, s7);
       res['rowSearch_' + name] = { s0, s3 };
     };
     await open(LIST, 'ru'); await page.evaluate(() => sessionStorage.clear()); await page.reload({ waitUntil: 'load' }); await page.waitForSelector('.ic-row-item'); await W(1200);
-    await rowSearch('ripa list', 'Найти статью', 'Название или предмет', 'лав', '.ic-rp-list');
-    for (const [pg, idle, ph, listSel] of [['names', 'Найти имя', 'Имя', '.ic-tv-list'], ['index', 'Найти в указателе', 'Слово в указателе', '.ic-tv-list']]) {
+    await rowSearch('ripa list', 'Найти статью', '.ic-row-item');
+    for (const [pg, idle, listSel] of [['names', 'Найти имя', '.ic-nm-row'], ['index', 'Найти в указателе', '.ic-tv-e']]) {
       await open('#/cartari/' + pg, 'ru'); await page.evaluate(() => sessionStorage.clear()); await page.reload({ waitUntil: 'load' }); await W(2200);
-      await rowSearch('cartari ' + pg, idle, ph, 'аполлон', listSel);
+      await rowSearch('cartari ' + pg, idle, listSel);
     }
     // EN/FR: подписи и подсказки
     for (const [lang, idle, ph] of [['en', 'Find name', 'Name'], ['fr', 'Chercher un nom', 'Nom']]) {
       await open('#/cartari/names', lang); await W(2200);
-      const l = await page.evaluate(() => ({ lbl: document.querySelector('.ic-rbar-tvsearch').textContent.trim(), ph: document.querySelector('.ic-rbar-findin').placeholder, done: document.querySelector('.ic-rbar-done').textContent.trim() }));
-      ok('cartari names ' + lang + ': labels', l.lbl === idle && l.ph === ph && l.done.length > 1, l);
+      const l = await page.evaluate(() => ({ ph: document.querySelector('.ic-rbar-findin').placeholder }));
+      ok('cartari names ' + lang + ': labels', l.ph === idle, l);
     }
     // 3c. лупа Картари: одинаковые результаты с любой вкладки, подсказка «Поиск по всей книге»
     const loupeN = {};
