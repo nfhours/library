@@ -1,0 +1,61 @@
+{
+  "id": "0312",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0312.webp"
+    ],
+    "printed_pages": "270",
+    "heading_on_scan": "Imagini de i Dei",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Остальной текст, 2 стихотворные цитаты, 4 маргиналии и кустода сверены."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0312-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": "11",
+      "type": "ocr",
+      "original": "«ch'ei si trauestì» (в печати с ударением)",
+      "current": "trauesti",
+      "suggested": "[accent] trauestì",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0312-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": "11",
+      "type": "ocr",
+      "original": "«nõ ne» (тильда)",
+      "current": "nò ne",
+      "suggested": "[spelling] nõ ne / non ne",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0312-3",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": "16",
+      "type": "ocr",
+      "original": "«dal-|l'homero» (перенос внутри слова)",
+      "current": "dal l'homero",
+      "suggested": "[hyphen] dall'homero",
+      "confidence": "high"
+    }
+  ]
+}
