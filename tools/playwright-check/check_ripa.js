@@ -68,8 +68,8 @@ const W = ms => new Promise(r => setTimeout(r, ms));
   // 1. Список: общий счёт, счётчик
   await open(LIST, 'ru');
   await page.waitForSelector('.ic-row-item');
-  res.total = await rows(); ok('list rows 440', res.total === 440, res.total);
-  res.countText = await page.$eval('.ic-count', e => e.textContent); ok('count visible', NEW ? res.countText === '' : /440/.test(res.countText), res.countText);
+  res.total = await rows(); ok('list rows 444', res.total === 444, res.total);
+  res.countText = await page.$eval('.ic-count', e => e.textContent); ok('count visible', NEW ? res.countText === '' : /444/.test(res.countText), res.countText);
 
   // 2. Поиск: сюжет (название, RU и FR), предмет (атрибут), слово из текста
   const queries = { title_ru: 'Изобилие', title_fr: 'Abondance', subject: 'венке', word: 'зеркал' };
@@ -91,13 +91,13 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     ok('find title_ru > 0', res.search.title_ru.n > 0);
   }
   await A.search('ъъъъъъ'); res.searchEmpty = await rows(); ok('empty search 0 rows', res.searchEmpty === 0);
-  await A.clear(); ok('cleared back to 440', (await rows()) === 440);
+  await A.clear(); ok('cleared back to 444', (await rows()) === 444);
 
   // 3. Фильтр по частям
   res.part = {};
   for (const v of ['1', '2', 'all']) { await A.part(v); res.part[v] = { n: await rows(), c: await countNum() }; if (NEW && v === 'all') res.part[v].c = res.part[v].n; ok('part ' + v + ' n==c', res.part[v].n === res.part[v].c, res.part[v]); }
-  ok('parts sum', res.part['1'].n + res.part['2'].n === 440, res.part);
-  ok('part all=440', res.part.all.n === 440);
+  ok('parts sum', res.part['1'].n + res.part['2'].n === 444, res.part);
+  ok('part all=444', res.part.all.n === 444);
 
   // 4. Сортировка
   res.sort = {};
@@ -169,7 +169,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
   await page.evaluate(() => { const b = document.querySelector('.ic-lang-b[data-lang="en"]') || [...document.querySelectorAll('.ic-lang-b')].find(x => /en/i.test(x.textContent)); b.click(); }); await W(900);
   res.listLangY = await page.evaluate(() => scrollY); res.listLangYbefore = ys;
   if (NEW) ok('list lang change keeps scroll', ys > 1000 && Math.abs(res.listLangY - ys) < 700, { ys, y: res.listLangY });
-  res.enListN = await rows(); ok('en list 440', res.enListN === 440, res.enListN);
+  res.enListN = await rows(); ok('en list 444', res.enListN === 444, res.enListN);
   // поиск работает на EN и FR
   for (const [L, q] of [['en', 'Abundance'], ['fr', 'Abondance']]) {
     await open(LIST, L); await page.waitForSelector('.ic-row-item');
@@ -186,7 +186,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     ok('part sheet 3 rows', res.partRows.length === 3 && /Все части:true/.test(res.partRows[0]), res.partRows);
     await page.evaluate(() => document.querySelector('#ic-ripa-part [data-f="2"]').click()); await W(500);
     res.partBtn2 = await page.$eval('[data-rb="part"]', e => e.textContent.trim()); ok('part button -> Часть 2', /Часть 2/.test(res.partBtn2), res.partBtn2);
-    ok('part 2 count', (await rows()) === 266);
+    ok('part 2 count', (await rows()) === 270);
     // обложка, меню, шторки без заголовка, подписи кнопок
     await open('#/iconologie', 'ru'); await page.waitForSelector('.ic-home-hero');
     const cv = await page.evaluate(() => ({
@@ -549,6 +549,19 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     const lo = await page.evaluate(() => { const m = document.querySelector('.ic-rp .ic-ch-mark'); const r = m && m.getBoundingClientRect(); return { y: Math.round(window.scrollY), mark: !!m, vis: !!r && r.top >= 0 && r.bottom <= innerHeight }; });
     res.loupeOpen = lo; ok('loupe "зеркал" → article opens at the word with highlight', lo.mark && lo.vis && lo.y > 40, lo);
     await page.evaluate(() => { location.hash = '#/iconologie/list'; }); await W(800);
+  }
+  if (NEW) { // выделенные в отдельные записи статьи (были влиты в соседние): стоят на своих местах, открываются, пред./след. работают
+    const order = await page.evaluate(async () => { const d = await (await fetch('books/iconologie/entries.json')).json(); return d.items.map(x => x.id); });
+    for (const [id, prev, next] of [['p2-51a', 'p2-51', 'p2-52'], ['p2-62a', 'p2-62', 'p2-63'], ['p2-65a', 'p2-65', 'p2-66'], ['p2-84a', 'p2-84', 'p2-85']]) {
+      const i = order.indexOf(id); ok('new entry ' + id + ' placed between ' + prev + ' and ' + next, i > 0 && order[i - 1] === prev && order[i + 1] === next, [order[i - 1], order[i + 1]]);
+      await open('#/iconologie/' + id, 'ru'); await page.waitForSelector('.ic-rp h1', { timeout: 6000 }).catch(() => {}); await W(900);
+      const st = await page.evaluate(() => ({ h1: (document.querySelector('.ic-rp h1') || {}).textContent, img: !!document.querySelector('.ic-rp .ic-fig img'), paras: document.querySelectorAll('.ic-rp .ic-text > p').length }));
+      ok('new entry ' + id + ' opens with picture and text', !!st.h1 && st.img && st.paras > 0, st);
+      await page.click('[data-nav="next"]'); await W(900);
+      ok('next from ' + id + ' -> ' + next, await page.evaluate(n => location.hash === '#/iconologie/' + n, next), await page.evaluate(() => location.hash));
+      await page.click('[data-nav="prev"]'); await W(900);
+      ok('prev back to ' + id, await page.evaluate(n => location.hash === '#/iconologie/' + n, id), await page.evaluate(() => location.hash));
+    }
   }
   ok('console clean', errs.length === 0, errs.slice(0, 5));
   await br.close();
