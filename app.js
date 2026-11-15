@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "187";
+  var APP_VER = "188";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -494,6 +494,17 @@
   // плитку «Читать»/«Продолжить», поэтому ничего не пишет в localStorage.
 
   function esc(s){ return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];}); }
+  // Совпадение только с начала слова: перед найденным местом — начало строки или не буква/цифра (пробел, пунктуация, дефис, кавычка).
+  // Окончание после слова может быть любым («лоно» → лоно/лона/лоном), но «лоно» не находится внутри «слоном», «Аполлоном».
+  var WS_LETTER = /[\p{L}\p{N}]/u;
+  function wsFind(f, w, from){
+    var p = from || 0;
+    while((p = f.indexOf(w, p)) >= 0){
+      if(p === 0 || !WS_LETTER.test(f.charAt(p-1))) return p;
+      p++;
+    }
+    return -1;
+  }
   function norm(s){ return String(s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"")
     .replace(/¶/g,"").replace(/ſ/g,"s").replace(/ё/g,"е").replace(/j/g,"i").replace(/v/g,"u").replace(/y/g,"i").replace(/['’]/g," "); }
   // paragraphs may embed a quoted verse after a ¶ marker, with lines separated by " / ";
@@ -2171,7 +2182,7 @@
       if(!nq) return true;
       var nw = ripaNew(book), k = nw ? ripaFindKey(it) : it.key, ck = nw ? "" : chapKey(book, it);
       if(ck) k += " "+ck;
-      return nq.split(/\s+/).every(function(w){ return k.indexOf(w)>-1; });
+      return nq.split(/\s+/).every(function(w){ return wsFind(k, w) > -1; });
     });
     if(state.sort==="ru") res.sort(function(a,b){ return titleOf(a).localeCompare(titleOf(b),state.lang==="ru"?"ru":state.lang); });
     else if(state.sort==="page") res.sort(function(a,b){ return a.part-b.part || a.pn-b.pn || a.ord-b.ord; });
@@ -2182,8 +2193,8 @@
     if(nq){
       var words = nq.split(/\s+/);
       res.sort(function(a,b){
-        var am = words.every(function(w){ return a.titleKey.indexOf(w)>-1; }) ? 0 : 1;
-        var bm = words.every(function(w){ return b.titleKey.indexOf(w)>-1; }) ? 0 : 1;
+        var am = words.every(function(w){ return wsFind(a.titleKey, w)>-1; }) ? 0 : 1;
+        var bm = words.every(function(w){ return wsFind(b.titleKey, w)>-1; }) ? 0 : 1;
         return am - bm;
       });
     }
@@ -2268,7 +2279,7 @@
     var html="", part=0, grp=null, open=false, openTag="", relGroup=null;
     res.forEach(function(it){
       if(nq){
-        var isTitleHit = nqWords.every(function(w){ return it.titleKey.indexOf(w)>-1; });
+        var isTitleHit = nqWords.every(function(w){ return wsFind(it.titleKey, w)>-1; });
         var rg = isTitleHit ? "title" : "body";
         if(rg!==relGroup){
           if(open){ html+="</ul></"+openTag+">"; open=false; }
@@ -2501,7 +2512,7 @@
     for(var i=2;i<parts.length;i++){
       var raw = String(parts[i]||"").replace(/¶/g," "), nr = norm(raw);
       for(var k=0;k<words.length;k++){
-        var ix = nr.indexOf(words[k]);
+        var ix = wsFind(nr, words[k]);
         if(ix>=0 && nr.length===raw.length){
           var a0 = Math.max(0, ix-40), b0 = Math.min(raw.length, ix+words[k].length+70);
           return (a0>0?"…":"")+esc(raw.slice(a0,ix))+"<mark>"+esc(raw.slice(ix,ix+words[k].length))+"</mark>"+esc(raw.slice(ix+words[k].length,b0))+(b0<raw.length?"…":"");
@@ -2521,10 +2532,10 @@
       if(!nq){ box.innerHTML = '<p class="ic-sr-hint">'+esc(t("rpSrHint"))+'</p>'; return; }
       var words = nq.split(/\s+/);
       var res = book.items.filter(function(it){
-        var k = it.key; return words.every(function(w){ return k.indexOf(w)>-1; });
+        var k = it.key; return words.every(function(w){ return wsFind(k, w)>-1; });
       });
       res.sort(function(a,b){
-        var am = words.every(function(w){ return a.titleKey.indexOf(w)>-1; }) ? 0 : 1, bm = words.every(function(w){ return b.titleKey.indexOf(w)>-1; }) ? 0 : 1;
+        var am = words.every(function(w){ return wsFind(a.titleKey, w)>-1; }) ? 0 : 1, bm = words.every(function(w){ return wsFind(b.titleKey, w)>-1; }) ? 0 : 1;
         return am - bm || a.ord - b.ord;
       });
       if(!res.length){ box.innerHTML = '<p class="ic-sr-hint">'+esc(t("emptySearch"))+'</p>'; return; }
@@ -2639,7 +2650,7 @@
         f = [{t:ttl, vis:true, lang:state.lang}, {t:it.fr||"", vis:state.lang!=="fr", lang:"fr"}];
         var seen = {}; seen[norm(ttl)] = 1; seen[norm(it.fr||"")] = 1;
         [["ru", it.ru], ["en", it.en], ["fr", it.name_fr]].forEach(function(p){ var k = norm(p[1]); if(p[1] && !seen[k]){ seen[k] = 1; f.push({t:p[1], vis:false, lang:p[0]}); } });
-        r = hfMatch(f, hmW.length, norm, function(s, w){ var p = s.indexOf(hmW[w]); return p >= 0 ? [p, hmW[w].length] : null; });
+        r = hfMatch(f, hmW.length, norm, function(s, w){ var p = wsFind(s, hmW[w]); return p >= 0 ? [p, hmW[w].length] : null; });
       }
       var fr = state.lang!=="fr" && it.fr ? ' <span class="ic-tv-it ic-rp-fr" lang="fr">'+(r ? hfMark(it.fr, r.sp[1]) : esc(it.fr))+'</span>' : "";
       return '<li class="ic-row-item" tabindex="0" role="link" data-id="'+it.id+'" data-anchor="'+it.id+'">'+
@@ -2763,7 +2774,7 @@
       if(node.parentNode.closest(".ic-original,.ic-head,.ic-top-row,.ic-pager")) continue;
       var nt = norm(node.data);
       if(nt.length !== node.data.length) continue;
-      for(var i=0;i<words.length;i++){ var ix = nt.indexOf(words[i]); if(ix>=0){ found = {node:node, ix:ix, len:words[i].length}; break; } }
+      for(var i=0;i<words.length;i++){ var ix = wsFind(nt, words[i]); if(ix>=0){ found = {node:node, ix:ix, len:words[i].length}; break; } }
       if(found) break;
     }
     if(!found) return false;
@@ -3822,7 +3833,7 @@
         var words = tvFold(sheetInput.value.trim()).split(/\s+/).filter(Boolean), html = "", n = 0, have = {}, cur = null;
         ordered().forEach(function(x){
           var e = x.e;
-          if(words.length && !words.every(function(w){ return e.h.indexOf(w) >= 0; })) return;
+          if(words.length && !words.every(function(w){ return wsFind(e.h, w) >= 0; })) return;
           if(x.l !== cur){ if(cur) html += '</section>'; cur = x.l; have[cur] = 1; html += '<section class="ic-tv-sec" id="tv-L'+cur+'"><h2>'+cur+'</h2>'; }
           n++;
           html += entryHtml(e, false) + (e.subs||[]).map(function(x){ return entryHtml(x, true); }).join("");
@@ -4112,11 +4123,11 @@
       function updateTypeLabel(){ typeLabelEl.textContent = nmTypeLabel(); typeBtn.classList.toggle("ic-rbar-on", namesUi.ty!=="all"); }
       function fill(){
         var words = tvFold(sheetInput.value.trim()).split(/\s+/).filter(Boolean), html = "", n = 0, have = {}, cur = null;
-        var nmHm = words.length ? {n:words.length, fn:function(f, w){ var p = f.indexOf(words[w]); return p >= 0 ? [p, words[w].length] : null; }} : null;
+        var nmHm = words.length ? {n:words.length, fn:function(f, w){ var p = wsFind(f, words[w]); return p >= 0 ? [p, words[w].length] : null; }} : null;
         ordered().forEach(function(x){
           var e = x.e;
           if(namesUi.ty !== "all" && e.t !== namesUi.ty) return;
-          if(words.length && !words.every(function(w){ return e.h.indexOf(w) >= 0; })) return;
+          if(words.length && !words.every(function(w){ return wsFind(e.h, w) >= 0; })) return;
           if(x.l !== cur){ if(cur) html += '</section>'; cur = x.l; have[cur] = 1; html += '<section class="ic-tv-sec" id="nm-L'+(cur==="#" ? "0" : cur)+'"><h2>'+cur+'</h2>'; }
           n++;
           html += '<a class="ic-nm-row" href="'+esc(hrefFor(book, "names/"+e.id))+'">'+

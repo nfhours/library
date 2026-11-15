@@ -9,6 +9,7 @@
  * Старый вид пишет out/ripa-baseline.json; новый сравнивает свои числа с ним.
  * Код выхода: 0 — всё прошло, 1 — есть расхождения.
  */
+const { audit: loupeAudit } = require('./loupe_common.js');
 const { webkit, devices } = require('playwright');
 const fs = require('fs'), path = require('path');
 const NEW = !process.env.OLD;   // основной вид без флага; OLD=1 — прежний вид по ?old
@@ -225,7 +226,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     const lp = await page.evaluate(() => { const a = document.querySelector('#ic-rb-sheet .ic-rp-sra'), t = a.querySelector('.ic-sr-t'), sn = a.querySelector('.ic-sr-snip'), m = a.querySelector('mark');
       return { t: getComputedStyle(t).fontSize, s: getComputedStyle(sn).fontSize, lh: getComputedStyle(sn).lineHeight, mb: m && getComputedStyle(m).boxShadow, mr: m && getComputedStyle(m).borderRadius, mbg: m && getComputedStyle(m).backgroundColor }; });
     res.loupeStyle = lp; ok('loupe result sizes', lp.t === '17px' && lp.s === '15px' && lp.lh === '21px', lp);
-    ok('loupe mark soft', lp.mb === 'none' && parseFloat(lp.mr) >= 3 && /rgba\(214, 150, 96/.test(lp.mbg), lp);
+    ok('loupe mark soft', /^rgba\(214, 150, 96, 0.32\) 0px 0px 0px 1px$/.test(lp.mb) && /rgba\(214, 150, 96/.test(lp.mbg), lp);
     await page.keyboard.press('Escape'); await W(300);
     // гравюра в статье: высота ≤ 55% видимой, просмотр на весь экран, «назад» закрывает
     await open('#/iconologie/p1-5', 'ru'); await page.waitForSelector('.ic-fig img'); await W(1200);
@@ -391,7 +392,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
       const s1 = await st();
       const a1 = await al(); ok(name + ': focus: cell filled, hint hidden, text/caret left with padding', LEFT(a1) && a1.w === a0.w && a1.tr === '0s', { a0, a1 });
       ok(name + ': first tap focuses the same cell (no re-render), no sheet', s1.same && s1.focus && s1.sheets === 0 && JSON.stringify(s1.widths) === JSON.stringify(s0.widths), s1);
-      await page.keyboard.type('аполлон'.slice(0, 0) + (name.startsWith('ripa') ? 'лав' : 'аполлон'), { delay: 30 }); await W(500);
+      await page.keyboard.type('аполлон'.slice(0, 0) + (name.startsWith('ripa') ? 'изоб' : 'аполлон'), { delay: 30 }); await W(500);
       const s2 = await st(), nrows = await page.evaluate(sel => document.querySelectorAll(sel).length, listSel);
       ok(name + ': typing filters list, cross appears, cell filled as selected, no inner ring', s2.focus && !s2.xHidden && s2.on && nrows > 0 && s2.bg === 'rgba(236, 229, 212, 0.14)' && s2.shadow === 'none' && /\d/.test(s2.cnt || ''), { s2, nrows });
       await page.keyboard.press('Enter'); await W(400);
@@ -403,7 +404,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
       await page.tap('.ic-rbar-findx'); await W(400);
       const a5 = await al(); ok(name + ': after cross (focus, empty): still left, hint hidden', LEFT(a5), a5);
       const s5 = await st(); ok(name + ': cross clears and keeps focus, then hides', s5.val === '' && s5.focus && s5.xHidden && !s5.on && s5.same && JSON.stringify(s5.widths) === JSON.stringify(s0.widths), s5);
-      await page.keyboard.type(name.startsWith('ripa') ? 'лав' : 'аполлон', { delay: 20 }); await W(300);
+      await page.keyboard.type(name.startsWith('ripa') ? 'изоб' : 'аполлон', { delay: 20 }); await W(300);
       await page.evaluate(sel => document.querySelector(sel).dispatchEvent(new Event('touchmove', { bubbles: true })), listSel.split(',')[0]); await W(400);
       const s6 = await st(); ok(name + ': scroll blurs, text stays', !s6.focus && s6.val.length > 0 && s6.on, s6);
       await page.tap('.ic-rbar-findin'); await W(300); await page.evaluate(() => document.querySelector('.ic-rp-list, .ic-tv-list').click()); await W(300);
@@ -495,6 +496,22 @@ const W = ms => new Promise(r => setTimeout(r, ms));
       ok('find article hidden-field caption: ' + nm, !bad, r);
     }
     await open(LIST, 'ru'); await page.evaluate(() => sessionStorage.clear()); await page.reload({ waitUntil: 'load' }); await W(500);
+  }
+  if (NEW) { // оформление лупы Рипы (общий блок с лупой Картари), поиск только с начала слова
+    for (const [lang, q] of [['ru', 'зеркал'], ['ru', 'апол'], ['ru', 'лоно'], ['en', 'abund'], ['fr', 'abond']]) {
+      await open(LIST, lang); await page.evaluate(() => sessionStorage.clear()); await page.reload({ waitUntil: 'load' }); await page.waitForSelector('.ic-row-item'); await W(1000);
+      await page.click('.ic-bt-search'); await W(500);
+      await page.locator('#ic-rb-sheet input.ic-search').pressSequentially(q, { delay: 25 }); await W(1500);
+      const a = await loupeAudit(page, 'ripa loupe ' + lang + ' ' + q);
+      ok(a.name + ': readable, isolated from menu styles, marks without border/padding/margin, results > 0', a.bad.length === 0 && (q === 'лоно' || (a.items > 0 && a.marks > 0)), a);
+      if (q === 'зеркал' || q === 'abund' || q === 'abond') { await page.evaluate(() => { document.querySelector('#ic-rb-sheet .ic-sr').scrollTop = 0; }); await W(300); await page.screenshot({ path: path.join(__dirname, 'out', 'loupe-ripa-' + lang + '.png') }); }
+    }
+    // «Найти статью»: только с начала слова — «зобил» (внутри «Изобилие») не находит; «изобил», «абонд»-варианты находят
+    await open(LIST, 'ru'); await page.evaluate(() => sessionStorage.clear()); await page.reload({ waitUntil: 'load' }); await page.waitForSelector('.ic-row-item'); await W(1000);
+    const cntq = async q => { await page.tap('.ic-rbar-findin'); await page.evaluate(() => { const i = document.querySelector('.ic-rbar-findin'); i.value = ''; i.dispatchEvent(new Event('input', { bubbles: true })); }); await page.keyboard.type(q, { delay: 15 }); await W(400); return rows(); };
+    const inside = await cntq('зобил'), full = await cntq('изобил'), part = await cntq('изоб');
+    ok('find article: word-start only ("зобил" inside "Изобилие" → 0)', inside === 0 && full > 0 && part >= full, { inside, full, part });
+    await page.evaluate(() => { sessionStorage.clear(); location.hash = '#/iconologie/list'; }); await W(500);
   }
   if (NEW) { // ?new из закладок не ломает адрес: тот же основной вид
     await page.goto(BASE + '?new#/iconologie', { waitUntil: 'load' }); await W(900);

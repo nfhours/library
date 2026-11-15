@@ -1,6 +1,8 @@
 /* Картари: шапка и меню остаются на месте при посимвольном вводе в «Найти» под открытой шторкой после глубокой прокрутки
  * (указатель #/cartari/index и имена #/cartari/names). Запуск: BASE=http://localhost:8971/index.html node cart_scroll_check.js */
 const { webkit, devices } = require('playwright');
+const { audit } = require('./loupe_common.js');
+const OUT = require('path').join(__dirname, 'out');
 const BASE = process.env.BASE || 'http://localhost:8971/index.html';
 const W = ms => new Promise(r => setTimeout(r, ms));
 (async () => {
@@ -79,6 +81,26 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     await setLang(lang); await fresh('text'); await p.click('.ic-bt-search'); await W(500);
     await p.locator('#ic-rb-sheet input.ic-search').pressSequentially(q, { delay: 25 }); await W(2500);
     const r = await nameRow('#ic-rb-sheet a.ic-nm-row', id); check('loupe names ' + nm, r, exp);
+  }
+  // оформление результатов лупы Картари: изоляция от стилей меню, читаемость, миниатюры, подсветка, совпадение с начала слова
+  const loupeOpen = async (lang, q) => { await setLang(lang); await fresh('text'); await p.click('.ic-bt-search'); await W(500); await p.locator('#ic-rb-sheet input.ic-search').pressSequentially(q, { delay: 25 }); await W(2500); };
+  for (const [lang, q] of [['ru', 'аполлон'], ['en', 'apollo'], ['fr', 'apollon'], ['ru', 'апол'], ['ru', 'лоно']]) {
+    await loupeOpen(lang, q); const a = await audit(p, 'cartari loupe ' + lang + ' ' + q);
+    const bad = a.bad.length || a.marks === 0 || (q === 'аполлон' && a.imgs === 0);
+    console.log('loupe', a.name, 'items', a.items, 'marks', a.marks, 'imgs', a.imgs, bad ? 'BAD ' + a.bad.slice(0, 4).join(' ; ') : 'ok'); if (bad) fails.push(a.name + ' ' + JSON.stringify(a.bad.slice(0, 4)) + ' marks=' + a.marks);
+    if (['аполлон', 'apollo', 'apollon'].includes(q)) {
+      await p.evaluate(() => { document.querySelector('#ic-rb-sheet .ic-sr').scrollTop = 0; }); await W(300);
+      await p.screenshot({ path: OUT + '/loupe-cartari-' + lang + '-top.png' });
+      await p.evaluate(() => { const h = document.getElementById('ic-sr-n') || document.getElementById('ic-sr-i'); if (h) h.scrollIntoView(); }); await W(500);
+      await p.screenshot({ path: OUT + '/loupe-cartari-' + lang + '-names.png' });
+    }
+  }
+  // «Найти» в списках — только с начала слова: «поллон» (внутри «Аполлон») не находит ничего, «аполлон» и «апол» находят
+  for (const [pg, sel] of [['names', '.ic-nm-row'], ['index', '.ic-tv-e']]) {
+    await setLang('ru'); await fresh(pg);
+    const cnt = async q => { await typeFind(q); return p.evaluate(s => document.querySelectorAll(s).length, sel); };
+    const inside = await cnt('поллон'), full = await cnt('аполлон'), part = await cnt('апол');
+    const bad = inside !== 0 || full === 0 || part < full; console.log('find word-start', pg, { inside, full, part }, bad ? 'BAD' : 'ok'); if (bad) fails.push('find word-start ' + pg + JSON.stringify({ inside, full, part }));
   }
   await setLang('ru');
   if (errs.length) fails.push('console: ' + errs[0]);
