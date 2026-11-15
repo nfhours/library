@@ -1,0 +1,35 @@
+{
+  "id": "p1-26",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница из поля scans открыта и прочитана глазами, text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p1-026-1.webp"
+    ],
+    "printed_pages": "47",
+    "heading_on_scan": "CELERITE' ou VITESSE. XXVI.",
+    "heading_matches": false,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась"
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p1-26-1",
+      "fields": [
+        "fr",
+        "name_fr"
+      ],
+      "paragraph": null,
+      "type": "name",
+      "original": "CELERITE' ou VITESSE. XXVI. (заголовок статьи, с. 47); подпись гравюры на с. 42: CELERITE OV VISTESSE",
+      "current": "fr / name_fr = «Celerité, ou Vistesse»",
+      "suggested": "заголовок статьи в печати — «Celerité ou Vitesse» (в тексте тоже «la Vitesse»); «Vistesse» — из подписи под гравюрой. Решить, что брать за название; не уверен, ошибка ли это или сознательный выбор",
+      "confidence": "medium"
+    }
+  ]
+}

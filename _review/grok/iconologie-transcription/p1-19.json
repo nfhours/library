@@ -1,0 +1,35 @@
+{
+  "id": "p1-19",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница из поля scans открыта и прочитана глазами, text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p1-019-1.webp",
+      "p1-019-2.webp"
+    ],
+    "printed_pages": "35–36",
+    "heading_on_scan": "Beauté de femme XIX",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась"
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p1-19-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 6,
+      "type": "ocr",
+      "original": "Je ne parle point de sa nudité (с. 36, J)",
+      "current": "Ie ne parle point de sa nudité",
+      "suggested": "Je ne parle point",
+      "confidence": "medium"
+    }
+  ]
+}

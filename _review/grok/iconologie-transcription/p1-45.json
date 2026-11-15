@@ -1,0 +1,20 @@
+{
+  "id": "p1-45",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "ok",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница из поля scans открыта и прочитана глазами, text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p1-045-1.webp"
+    ],
+    "printed_pages": "71",
+    "heading_on_scan": "Divinité XLV",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась"
+  },
+  "issues": []
+}

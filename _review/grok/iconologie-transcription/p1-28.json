@@ -1,0 +1,35 @@
+{
+  "id": "p1-28",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница из поля scans открыта и прочитана глазами, text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p1-027-3.webp",
+      "p1-028-2.webp"
+    ],
+    "printed_pages": "50–51",
+    "heading_on_scan": "Confiance XXVIII",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась"
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p1-28-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "De trois ramparts d'airain (с. 51)",
+      "current": "De trois remparts d'airain",
+      "suggested": "ramparts (старое написание в печати)",
+      "confidence": "high"
+    }
+  ]
+}

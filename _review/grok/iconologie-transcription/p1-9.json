@@ -1,0 +1,22 @@
+{
+  "id": "p1-9",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "ok",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница из поля scans открыта и прочитана глазами, text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p1-008-2.webp",
+      "p1-009-2.webp"
+    ],
+    "printed_pages": "18–19",
+    "heading_on_scan": "Amour divin IX",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Опечатки печати «aistes», «tremblet» в text_fr молча исправлены (aisles, trembler) — не ошибка."
+  },
+  "issues": []
+}

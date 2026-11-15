@@ -1,0 +1,34 @@
+{
+  "id": "p1-1",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница из поля scans открыта и прочитана глазами, text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p1-001-1.webp"
+    ],
+    "printed_pages": "3–4",
+    "heading_on_scan": "Abondance I",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась"
+  },
+  "issues": [
+    {
+      "field": "page",
+      "issue_id": "p1-1-1",
+      "fields": [
+        "scans"
+      ],
+      "paragraph": 5,
+      "type": "wrong_article",
+      "original": "Quant à la corne d'Amalthée … elles la consacrerent. (с. 4, вверху; файл p1-002-1.webp)",
+      "current": "scans = ['p1-001-1.webp'] — только с. 3",
+      "suggested": "добавить в scans 'p1-002-1.webp': абзац 5 и стихи Овидия напечатаны на с. 4, которой нет в списке сканов записи. Сам text_fr верен.",
+      "confidence": "high"
+    }
+  ]
+}

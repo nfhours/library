@@ -1,0 +1,56 @@
+{
+  "id": "p1-5",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "major",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница из поля scans открыта и прочитана глазами, text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p1-004-3.webp",
+      "p1-005-2.webp"
+    ],
+    "printed_pages": "12–13",
+    "heading_on_scan": "Amour dompté V",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась"
+  },
+  "issues": [
+    {
+      "field": "page",
+      "issue_id": "p1-5-1",
+      "fields": [
+        "page"
+      ],
+      "paragraph": null,
+      "type": "wrong_article",
+      "original": "AMOVR DOMPTE'. V. — заголовок статьи на с. 12 (файл p1-004-3.webp)",
+      "current": "page = \"10\" (как у предыдущей статьи p1-4)",
+      "suggested": "page = \"12\"",
+      "confidence": "high",
+      "fix": [
+        {
+          "field": "page",
+          "paragraph": null,
+          "before": "10",
+          "after": "12"
+        }
+      ]
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p1-5-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 3,
+      "type": "ocr",
+      "original": "Κιγκλὸς (с. 13, с грависом перед запятой)",
+      "current": "Κιγκλός",
+      "suggested": "Κιγκλὸς — в печати гравис; мелочь",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "p1-10",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница из поля scans открыта и прочитана глазами, text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p1-009-2.webp",
+      "p1-010-2.webp",
+      "p1-010-3.webp",
+      "p1-010-4.webp",
+      "p1-010-5.webp"
+    ],
+    "printed_pages": "19–23",
+    "heading_on_scan": "Amour de la Patrie X",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась"
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p1-10-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 4,
+      "type": "ocr",
+      "original": "Pour la mesme fin encore s'il arrivoit (с. 21)",
+      "current": "Pour la mesme fin encores s'il arrivoit",
+      "suggested": "encore s'il",
+      "confidence": "high"
+    }
+  ]
+}

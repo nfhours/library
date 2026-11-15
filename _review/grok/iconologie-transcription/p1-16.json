@@ -1,0 +1,48 @@
+{
+  "id": "p1-16",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница из поля scans открыта и прочитана глазами, text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p1-015-2.webp",
+      "p1-016-2.webp"
+    ],
+    "printed_pages": "30–31",
+    "heading_on_scan": "Authorité XVI",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась"
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p1-16-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 5,
+      "type": "ocr",
+      "original": "paroles de Jesus-Christ (с. 31, прямой шрифт, J)",
+      "current": "paroles de Iesus-Christ",
+      "suggested": "Jesus-Christ (в других статьях, напр. p1-37, p1-45, J передано как J)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p1-16-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": null,
+      "type": "ocr",
+      "original": "Ie te donneray les clefs … ; que toute puissance vient de Dieu (с. 31, курсив внутри строки прозы)",
+      "current": "«¶Ie te donneray…» (абз. 5) и «¶que toute puissance vient de Dieu» (абз. 6) размечены ¶ как отдельный стихотворный блок",
+      "suggested": "это цитаты прозой курсивом внутри абзаца, не стихи; разметка ¶ — мелочь оформления, слова верны",
+      "confidence": "low"
+    }
+  ]
+}
