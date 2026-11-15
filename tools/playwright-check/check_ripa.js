@@ -79,10 +79,10 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     await A.search(q);
     const n = await rows(), c = await countNum();
     res.search[k] = { n, c, first: await titles(3) };
-    ok('search ' + k + ' > 0', n > 0, n); ok('search ' + k + ' count==rows', n === c, [n, c]);
+    const titleOnly = NEW && (k === 'subject' || k === 'word'); ok('search ' + k + (titleOnly ? ' == 0 (find article: titles only)' : ' > 0'), titleOnly ? n === 0 : n > 0, n); ok('search ' + k + ' count==rows', n === c, [n, c]);
   }
   if (NEW) {
-    // «Найти» — только названия и предметы; лупа — весь текст (числа лупы = числам прежнего общего поиска)
+    // «Найти статью» — только названия; лупа — весь текст (числа лупы = числам прежнего общего поиска)
     const base0 = fs.existsSync(BASEFILE) ? JSON.parse(fs.readFileSync(BASEFILE, 'utf8')) : null;
     res.loupe = {};
     for (const [k, q] of Object.entries(queries)) {
@@ -90,6 +90,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
       if (base0) ok('loupe ' + k + ' == baseline', ids.length === Math.min(60, base0.search[k].n), [ids.length, base0.search[k].n]);
       if (base0) ok('find ' + k + ' <= baseline', res.search[k].n <= base0.search[k].n, [res.search[k].n, base0.search[k].n]);
     }
+    ok('loupe finds subject and text word', res.loupe.subject > 0 && res.loupe.word > 0, res.loupe);
     ok('find word(text) narrower than loupe', res.search.word.n < res.loupe.word, [res.search.word.n, res.loupe.word]);
     ok('find title_ru > 0', res.search.title_ru.n > 0);
   }
@@ -455,6 +456,23 @@ const W = ms => new Promise(r => setTimeout(r, ms));
       console.log('JUMP', w, JSON.stringify(res['jump_' + w]));
       await page.evaluate(() => { location.hash = '#/iconologie/list'; }); await W(1500);
     }
+  }
+  if (NEW) { // «Найти статью» ищет только по названиям; предметы и текст — только лупа
+    const total = {};
+    for (const [lang, q, why] of [['ru', 'изобил', 'title RU'], ['en', 'abund', 'title EN'], ['fr', 'abond', 'title FR (original)'], ['ru', 'лок', 'subject-only word']]) {
+      await open(LIST, lang); await page.evaluate(() => sessionStorage.clear()); await page.reload({ waitUntil: 'load' }); await page.waitForSelector('.ic-row-item'); await W(1000);
+      total[lang] = total[lang] || await rows();
+      await page.tap('.ic-rbar-findin'); await page.keyboard.type(q, { delay: 20 }); await W(500);
+      const n = await rows(); res['findTitle_' + lang + '_' + q] = n;
+      if (q === 'лок') ok('find article: "лок" (only in subjects) gives no articles', n === 0, { n });
+      else ok('find article ' + why + ': "' + q + '" finds by title', n > 0 && n < total[lang], { n, total: total[lang] });
+    }
+    await open(LIST, 'ru'); await page.evaluate(() => sessionStorage.clear()); await page.reload({ waitUntil: 'load' }); await page.waitForSelector('.ic-row-item'); await W(1000);
+    await page.click('.ic-bt-search'); await W(500);
+    await page.locator('#ic-rb-sheet input.ic-search').pressSequentially('лок', { delay: 30 }); await W(1500);
+    const ln = await page.evaluate(() => document.querySelectorAll('#ic-rb-sheet .ic-sr-a').length);
+    ok('loupe still finds by subjects: "лок" gives results', ln > 0, { ln });
+    await page.evaluate(() => { location.hash = '#/iconologie/list'; }); await W(800);
   }
   if (NEW) { // ?new из закладок не ломает адрес: тот же основной вид
     await page.goto(BASE + '?new#/iconologie', { waitUntil: 'load' }); await W(900);

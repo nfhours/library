@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "185";
+  var APP_VER = "186";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -2169,7 +2169,7 @@
       if(state.filter==="withimg" && it.textOnly) return false;
       if(state.filter==="noimg" && !it.textOnly) return false;
       if(!nq) return true;
-      var k = ripaNew(book) ? ripaFindKey(it) : it.key, ck = chapKey(book, it);
+      var nw = ripaNew(book), k = nw ? ripaFindKey(it) : it.key, ck = nw ? "" : chapKey(book, it);
       if(ck) k += " "+ck;
       return nq.split(/\s+/).every(function(w){ return k.indexOf(w)>-1; });
     });
@@ -2422,10 +2422,10 @@
   var NEW_RIPA = !/[?&]old(=|&|$)/.test(location.search);
   function ripaNew(book){ return NEW_RIPA && book && book.slug==="iconologie"; }
   var RIPA_CTX = {ripa:1};
-  // «Найти» в новом виде — только названия (RU/EN/FR и французское заглавие) и предметы (описание «что изображено»)
+  // «Найти статью» в новом виде — только названия (RU/EN/FR и оригинальное французское заглавие); предметы и текст ищет лупа
   function ripaFindKey(it){
     if(it.findKey === undefined){
-      it.findKey = norm([it.fr, it.ru, it.en||"", it.name_fr||"", (it.attrs||[]).map(function(a){ return (a.what||"")+" "+(a.what_en||"")+" "+(a.what_frtrans||""); }).join(" ")].join(" "));
+      it.findKey = norm([it.fr, it.ru, it.en||"", it.name_fr||""].join(" "));
     }
     return it.findKey;
   }
