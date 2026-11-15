@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "«Cartagine espngnata già» (в печати espngnata)",
       "current": "espugnata",
-      "suggested": "[typo] espngnata — опечатка печати, транскрипция исправила",
+      "suggested": "[typo: опечатка печати] espngnata — опечатка печати, транскрипция исправила",
       "confidence": "high"
     }
   ]

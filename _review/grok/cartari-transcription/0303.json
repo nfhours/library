@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "«guerrra, peste, fame» (в печати guerrra)",
       "current": "guerra",
-      "suggested": "[typo] guerrra — опечатка печати, транскрипция исправила",
+      "suggested": "[typo: опечатка печати] guerrra — опечатка печати, транскрипция исправила",
       "confidence": "high"
     }
   ]

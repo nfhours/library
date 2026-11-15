@@ -41,7 +41,7 @@
       "type": "ocr",
       "original": "в печати «Era la Disdordia fatta in forma» (опечатка печати)",
       "current": "Era la Discordia",
-      "suggested": "[typo] Disdordia — опечатка печати, транскрипция исправила",
+      "suggested": "[typo: опечатка печати] Disdordia — опечатка печати, транскрипция исправила",
       "confidence": "high"
     }
   ]

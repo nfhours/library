@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "Furono po vittime di Gioue",
       "current": "Furono poi vittime di Gioue",
-      "suggested": "[typo] po (опечатка печати — транскрипция исправила)",
+      "suggested": "[typo: опечатка печати] po (опечатка печати — транскрипция исправила)",
       "confidence": "high"
     }
   ]

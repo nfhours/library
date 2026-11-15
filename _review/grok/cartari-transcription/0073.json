@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "succedendo l'vno all'alrro — так в печати",
       "current": "l'vno all'altro",
-      "suggested": "[typo] опечатка печати «alrro» исправлена транскрипцией; по правилу — как напечатано",
+      "suggested": "[typo: опечатка печати] опечатка печати «alrro» исправлена транскрипцией; по правилу — как напечатано",
       "confidence": "high"
     },
     {

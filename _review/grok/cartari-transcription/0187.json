@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "la beata vista delle cose terne (в печати одно e: «cofe terne»/«cofeterne»)",
       "current": "delle cose eterne",
-      "suggested": "[typo] cose terne / coseterne (опечатка печати — транскрипция исправила)",
+      "suggested": "[typo: опечатка печати] cose terne / coseterne (опечатка печати — транскрипция исправила)",
       "confidence": "medium"
     }
   ]

@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "«in vista piò crudele» (в печати piò)",
       "current": "più crudele",
-      "suggested": "[typo] piò — опечатка печати, транскрипция исправила",
+      "suggested": "[typo: опечатка печати] piò — опечатка печати, транскрипция исправила",
       "confidence": "high"
     },
     {
@@ -41,7 +41,7 @@
       "type": "ocr",
       "original": "«ma Ethocle per sua colpa» (в печати Ethocle)",
       "current": "ma Etheocle",
-      "suggested": "[typo] Ethocle — опечатка печати, транскрипция исправила",
+      "suggested": "[typo: опечатка печати] Ethocle — опечатка печати, транскрипция исправила",
       "confidence": "high"
     }
   ]

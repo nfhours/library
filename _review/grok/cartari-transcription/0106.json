@@ -41,7 +41,7 @@
       "type": "ocr",
       "original": "secondo che rif-|ferisce pur'anco Macrobio — в печати «rifferisce»",
       "current": "riferisce",
-      "suggested": "[typo] rifferisce (опечатка печати; транскрипция её исправила)",
+      "suggested": "[typo: опечатка печати] rifferisce (опечатка печати; транскрипция её исправила)",
       "confidence": "high"
     },
     {

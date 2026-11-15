@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "«vna ſtatoa della pace» (в печати statoa)",
       "current": "vna statua",
-      "suggested": "[typo] statoa — опечатка печати, транскрипция исправила",
+      "suggested": "[typo: опечатка печати] statoa — опечатка печати, транскрипция исправила",
       "confidence": "high"
     },
     {
@@ -41,7 +41,7 @@
       "type": "ocr",
       "original": "«dicono del a terra intesa per Cerere» (в печати del a)",
       "current": "della terra",
-      "suggested": "[typo] del a terra — опечатка печати, транскрипция исправила",
+      "suggested": "[typo: опечатка печати] del a terra — опечатка печати, транскрипция исправила",
       "confidence": "medium"
     }
   ]

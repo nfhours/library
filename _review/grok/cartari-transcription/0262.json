@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "«perche alcuoi raccogliono» (в печати alcuoi)",
       "current": "perche alcuni raccogliono",
-      "suggested": "[typo] alcuoi — опечатка печати, транскрипция исправила",
+      "suggested": "[typo: опечатка печати] alcuoi — опечатка печати, транскрипция исправила",
       "confidence": "high"
     }
   ]

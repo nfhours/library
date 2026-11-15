@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "маргиналия в печати «Ferola dara à Baccho.» (опечатка печати)",
       "current": "Ferola data à Baccho.",
-      "suggested": "[typo] dara — опечатка печати, транскрипция исправила",
+      "suggested": "[typo: опечатка печати] dara — опечатка печати, транскрипция исправила",
       "confidence": "medium"
     }
   ]

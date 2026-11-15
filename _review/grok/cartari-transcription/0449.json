@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "la vendettà di Timagora",
       "current": "la vendetta di Timagora",
-      "suggested": "[typo] la vendettà di Timagora",
+      "suggested": "[typo: опечатка печати] la vendettà di Timagora",
       "confidence": "high"
     }
   ]

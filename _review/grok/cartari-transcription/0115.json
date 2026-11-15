@@ -41,7 +41,7 @@
       "type": "ocr",
       "original": "che fu figliuolo di Escolapio, come recita Pausania — в печати «Escolapio»",
       "current": "figliuolo di Esculapio",
-      "suggested": "[typo] Escolapio (опечатка/вариант печати; транскрипция нормализовала)",
+      "suggested": "[typo: опечатка печати] Escolapio (опечатка/вариант печати; транскрипция нормализовала)",
       "confidence": "high"
     }
   ]

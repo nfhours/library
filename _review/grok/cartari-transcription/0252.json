@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "«la tetribile incantatrice» (в печати tetribile)",
       "current": "la terribile incantatrice",
-      "suggested": "[typo] tetribile — опечатка печати, транскрипция исправила",
+      "suggested": "[typo: опечатка печати] tetribile — опечатка печати, транскрипция исправила",
       "confidence": "high"
     }
   ]

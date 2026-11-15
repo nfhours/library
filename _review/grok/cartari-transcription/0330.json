@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "«a Ciato giouinettto» (в печати giouinettto)",
       "current": "giouinetto",
-      "suggested": "[typo] giouinettto — опечатка печати, транскрипция исправила",
+      "suggested": "[typo: опечатка печати] giouinettto — опечатка печати, транскрипция исправила",
       "confidence": "high"
     },
     {
@@ -41,7 +41,7 @@
       "type": "ocr",
       "original": "«nefando quelllo» (в печати quelllo)",
       "current": "quello",
-      "suggested": "[typo] quelllo — опечатка печати, транскрипция исправила",
+      "suggested": "[typo: опечатка печати] quelllo — опечатка печати, транскрипция исправила",
       "confidence": "high"
     }
   ]

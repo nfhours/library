@@ -41,7 +41,7 @@
       "type": "ocr",
       "original": "la vitrù sola",
       "current": "la virtù sola",
-      "suggested": "[typo] la vitrù sola",
+      "suggested": "[typo: опечатка печати] la vitrù sola",
       "confidence": "high"
     },
     {

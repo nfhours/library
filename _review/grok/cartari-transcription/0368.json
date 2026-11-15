@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "в подписи «nè à gl'huemini» (опечатка печати)",
       "current": "gl'huomini",
-      "suggested": "[typo] gl'huemini — опечатка печати, транскрипция исправила",
+      "suggested": "[typo: опечатка печати] gl'huemini — опечатка печати, транскрипция исправила",
       "confidence": "medium"
     }
   ]

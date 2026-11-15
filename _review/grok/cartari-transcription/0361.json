@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "«sotto il nome di Volcauo è» (опечатка печати)",
       "current": "di Volcano è",
-      "suggested": "[typo] Volcauo — опечатка печати, транскрипция исправила",
+      "suggested": "[typo: опечатка печати] Volcauo — опечатка печати, транскрипция исправила",
       "confidence": "high"
     },
     {
@@ -41,7 +41,7 @@
       "type": "ocr",
       "original": "«effetto alcnno» (опечатка печати)",
       "current": "effetto alcuno",
-      "suggested": "[typo] alcnno — опечатка печати, транскрипция исправила",
+      "suggested": "[typo: опечатка печати] alcnno — опечатка печати, транскрипция исправила",
       "confidence": "high"
     },
     {
@@ -54,7 +54,7 @@
       "type": "ocr",
       "original": "«dell'vno, & dell'alrro» (опечатка печати)",
       "current": "dell'altro",
-      "suggested": "[typo] dell'alrro — опечатка печати, транскрипция исправила",
+      "suggested": "[typo: опечатка печати] dell'alrro — опечатка печати, транскрипция исправила",
       "confidence": "high"
     }
   ]

@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "& a latto gli staua vn cane",
       "current": "& a lato gli staua vn cane",
-      "suggested": "[typo] latto — опечатка печати исправлена в транскрипции",
+      "suggested": "[typo: опечатка печати] latto — опечатка печати исправлена в транскрипции",
       "confidence": "high"
     }
   ]

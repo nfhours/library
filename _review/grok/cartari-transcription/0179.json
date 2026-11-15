@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "l'Aquila in qualche, modo, come vccello",
       "current": "in qualche modo, come",
-      "suggested": "[typo] qualche, modo (лишняя запятая — опечатка печати, транскрипция исправила)",
+      "suggested": "[typo: опечатка печати] qualche, modo (лишняя запятая — опечатка печати, транскрипция исправила)",
       "confidence": "high"
     }
   ]

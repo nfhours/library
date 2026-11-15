@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "«come vuole Qintiliano» (в печати Qintiliano)",
       "current": "come vuole Quintiliano",
-      "suggested": "[typo] Qintiliano — опечатка печати, транскрипция исправила",
+      "suggested": "[typo: опечатка печати] Qintiliano — опечатка печати, транскрипция исправила",
       "confidence": "high"
     }
   ]

@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "«chiama egi Rhea» (в печати egi)",
       "current": "chiama egli Rhea",
-      "suggested": "[typo] egi — опечатка печати, транскрипция исправила",
+      "suggested": "[typo: опечатка печати] egi — опечатка печати, транскрипция исправила",
       "confidence": "high"
     }
   ]

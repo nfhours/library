@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "che la Eterni-|nità va sopra a tutti i tempi — в печати слог продублирован через перенос строки («Eterni-nità»)",
       "current": "che la Eternità va sopra",
-      "suggested": "[typo] опечатка печати: транскрипция её исправила; по правилу — как напечатано («Eterninità»)",
+      "suggested": "[typo: опечатка печати] опечатка печати: транскрипция её исправила; по правилу — как напечатано («Eterninità»)",
       "confidence": "high"
     },
     {

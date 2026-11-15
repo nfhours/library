@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "con qnela di Mercurio",
       "current": "con quela di Mercurio",
-      "suggested": "[typo] con qnela di Mercurio",
+      "suggested": "[typo: опечатка печати] con qnela di Mercurio",
       "confidence": "high"
     }
   ]

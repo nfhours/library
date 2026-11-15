@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "«accioche mglio castigasse» (в печати mglio)",
       "current": "meglio",
-      "suggested": "[typo] mglio — опечатка печати, транскрипция исправила",
+      "suggested": "[typo: опечатка печати] mglio — опечатка печати, транскрипция исправила",
       "confidence": "high"
     }
   ]

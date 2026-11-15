@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "scriuendo nell'Enconomia di quelli — так в печати («Enconomia»)",
       "current": "nell'Economia",
-      "suggested": "[typo] nell'Enconomia (опечатка печати; транскрипция её исправила)",
+      "suggested": "[typo: опечатка печати] nell'Enconomia (опечатка печати; транскрипция её исправила)",
       "confidence": "high"
     }
   ]

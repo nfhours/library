@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "«i giusti gindici» (в печати gindici)",
       "current": "i giusti giudici",
-      "suggested": "[typo] gindici — опечатка печати, транскрипция исправила",
+      "suggested": "[typo: опечатка печати] gindici — опечатка печати, транскрипция исправила",
       "confidence": "medium"
     }
   ]

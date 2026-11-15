@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "«Che prona l’argamente l’acque versa» (в печати l’argamente)",
       "current": "Che prona largamente l'acque versa.",
-      "suggested": "[typo] l’argamente — опечатка печати, транскрипция исправила",
+      "suggested": "[typo: опечатка печати] l’argamente — опечатка печати, транскрипция исправила",
       "confidence": "high"
     }
   ]

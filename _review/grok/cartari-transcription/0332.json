@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "«che significa ta notte» (в печати ta)",
       "current": "la notte",
-      "suggested": "[typo] ta notte — опечатка печати, транскрипция исправила",
+      "suggested": "[typo: опечатка печати] ta notte — опечатка печати, транскрипция исправила",
       "confidence": "high"
     }
   ]

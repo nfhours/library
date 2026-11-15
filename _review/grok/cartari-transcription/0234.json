@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "маргиналия «Cerrere in Caualla.» (в печати Cerrere)",
       "current": "Cerere in Caualla.",
-      "suggested": "[typo] Cerrere — опечатка печати, транскрипция исправила",
+      "suggested": "[typo: опечатка печати] Cerrere — опечатка печати, транскрипция исправила",
       "confidence": "high"
     }
   ]

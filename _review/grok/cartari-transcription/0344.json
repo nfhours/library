@@ -41,7 +41,7 @@
       "type": "ocr",
       "original": "«nelle arti tronate da lei» (опечатка печати)",
       "current": "arti trouate da lei",
-      "suggested": "[typo] arti tronate — опечатка печати, транскрипция исправила",
+      "suggested": "[typo: опечатка печати] arti tronate — опечатка печати, транскрипция исправила",
       "confidence": "high"
     }
   ]

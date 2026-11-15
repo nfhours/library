@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "& raccontaualo a quei Saderdoti, che ne teneuano conto — в печати «Saderdoti»",
       "current": "a quei Sacerdoti",
-      "suggested": "[typo] Saderdoti (опечатка печати; транскрипция её исправила)",
+      "suggested": "[typo: опечатка печати] Saderdoti (опечатка печати; транскрипция её исправила)",
       "confidence": "high"
     }
   ]

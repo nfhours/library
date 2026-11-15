@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "perche sotto il reggimento di Saturuo — так в печати",
       "current": "di Saturno",
-      "suggested": "[typo] опечатка печати «Saturuo» исправлена транскрипцией; по правилу — как напечатано",
+      "suggested": "[typo: опечатка печати] опечатка печати «Saturuo» исправлена транскрипцией; по правилу — как напечатано",
       "confidence": "high"
     },
     {
@@ -41,7 +41,7 @@
       "type": "ocr",
       "original": "Fu detto anco Satuno, Vitisatore — так в печати",
       "current": "Fu detto anco Saturno",
-      "suggested": "[typo] опечатка печати «Satuno» исправлена транскрипцией; по правилу — как напечатано",
+      "suggested": "[typo: опечатка печати] опечатка печати «Satuno» исправлена транскрипцией; по правилу — как напечатано",
       "confidence": "high"
     },
     {

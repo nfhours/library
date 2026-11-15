@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "da qualunqne lo sà",
       "current": "da qualunque lo sà",
-      "suggested": "[typo] da qualunqne lo sà",
+      "suggested": "[typo: опечатка печати] da qualunqne lo sà",
       "confidence": "high"
     },
     {
@@ -41,7 +41,7 @@
       "type": "ocr",
       "original": "non ne tro fatta mentione",
       "current": "non ne trouo fatta mentione",
-      "suggested": "[typo] non ne tro fatta mentione",
+      "suggested": "[typo: опечатка печати] non ne tro fatta mentione",
       "confidence": "high"
     }
   ]

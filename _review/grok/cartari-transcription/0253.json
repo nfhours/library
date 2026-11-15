@@ -28,7 +28,7 @@
       "type": "ocr",
       "original": "подпись «di Anfitri-ce sua moglie» (в печати Anfitrice)",
       "current": "di Anfitrite sua moglie",
-      "suggested": "[typo] Anfitrice — опечатка печати, транскрипция исправила",
+      "suggested": "[typo: опечатка печати] Anfitrice — опечатка печати, транскрипция исправила",
       "confidence": "high"
     }
   ]
