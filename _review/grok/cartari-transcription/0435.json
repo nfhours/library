@@ -1,0 +1,61 @@
+{
+  "id": "0435",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0435.webp"
+    ],
+    "printed_pages": "393",
+    "heading_on_scan": "De gli Antichi.",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Текст, 6 маргиналий и кустода сверены; ударение, исправленная опечатка печати и пропущенная при раскрытии тильды буква."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0435-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "ſi che ne restaua",
+      "current": "sì che ne restaua",
+      "suggested": "[accent] si che ne restaua",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0435-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "epigramma di Asonio",
+      "current": "epigramma di Ausonio",
+      "suggested": "[typo] epigramma di Asonio",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0435-3",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "vn epigrā-ma (epigramma)",
+      "current": "vn'epigrama",
+      "suggested": "[reading] vn'epigramma",
+      "confidence": "high"
+    }
+  ]
+}

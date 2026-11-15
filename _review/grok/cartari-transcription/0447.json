@@ -1,0 +1,48 @@
+{
+  "id": "0447",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0447.webp"
+    ],
+    "printed_pages": "405",
+    "heading_on_scan": "De gli Antichi.",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Проза, стихи Сенеки, маргиналия, сигнатура Cc 3 и кустода сверены; пунктуация в стихах отличается от печати."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0447-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 11,
+      "type": "ocr",
+      "original": "Porti le fiamme . che per l vniuerso",
+      "current": "Porti le fiamme, che per l'vniuerso",
+      "suggested": "[punctuation] Porti le fiamme. che per l'vniuerso",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0447-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 23,
+      "type": "ocr",
+      "original": "Mentre che va lontana",
+      "current": "Mentre che va lontana.",
+      "suggested": "[punctuation] Mentre che va lontana",
+      "confidence": "medium"
+    }
+  ]
+}

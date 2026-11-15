@@ -1,0 +1,61 @@
+{
+  "id": "0443",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0443.webp"
+    ],
+    "printed_pages": "401",
+    "heading_on_scan": "De gli Antichi.",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Текст, 2 маргиналии, сигнатура Cc и кустода сверены; две ошибки раскрытия тильды и исправленная опечатка печати."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0443-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "se nō quelli",
+      "current": "se nò quelli",
+      "suggested": "[reading] se non quelli",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0443-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "la vitrù sola",
+      "current": "la virtù sola",
+      "suggested": "[typo] la vitrù sola",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0443-3",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "in questo mōdo, per-che non è",
+      "current": "in questo modo, perche non è",
+      "suggested": "[reading] in questo mondo, perche non è",
+      "confidence": "high"
+    }
+  ]
+}

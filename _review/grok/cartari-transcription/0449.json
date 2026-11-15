@@ -1,0 +1,35 @@
+{
+  "id": "0449",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0449.webp"
+    ],
+    "printed_pages": "407",
+    "heading_on_scan": "De gli Antichi.",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Текст, 2 маргиналии, сигнатура Cc 4 и кустода сверены; повтор «a porre a porre» есть в печати; транскрипция убрала ошибочное ударение печати."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0449-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "la vendettà di Timagora",
+      "current": "la vendetta di Timagora",
+      "suggested": "[typo] la vendettà di Timagora",
+      "confidence": "high"
+    }
+  ]
+}
