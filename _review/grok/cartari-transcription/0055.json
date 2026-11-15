@@ -1,0 +1,74 @@
+{
+  "id": "0055",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 4 горизонтальным полосам в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места (кроме ударений) увеличены. Ударения читались на уровне полосы (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0055.webp"
+    ],
+    "printed_pages": "13",
+    "heading_on_scan": "De gli Antichi.",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Остальной текст, 6 маргиналий, совпадают; сигнатуры нет. Тильды «infecōda» (сохранена) и «tē-pi» (раскрыта в «tempi») — известная непоследовательность (ALGORITHM.md), не ошибка."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0055-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "& d'oro parimente fu fatto … ne fu vna di Apollo — в печати «fu» без ударения (оба места)",
+      "current": "fù fatto … ne fù vna",
+      "suggested": "[accent] fu fatto … ne fu vna",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0055-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "perche cosi scriue (Платон) — в печати «cosi» без ударения",
+      "current": "perche così scriue",
+      "suggested": "[accent] perche cosi scriue",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0055-3",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "addition",
+      "original": "последняя строка «fossero stati fat-», кустод «ti di»",
+      "current": "fossero stati fatti",
+      "suggested": "[pagebreak] fossero stati fat- (перенос в конце страницы как в печати)",
+      "confidence": "high"
+    },
+    {
+      "field": "custode",
+      "issue_id": "0055-4",
+      "fields": [
+        "custode"
+      ],
+      "paragraph": "custode",
+      "type": "ocr",
+      "original": "кустод в печати «ti da» (0056 начинается «ti da gli Egitij»)",
+      "current": "ti di",
+      "suggested": "[other] ti da",
+      "confidence": "high"
+    }
+  ]
+}

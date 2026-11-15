@@ -1,0 +1,61 @@
+{
+  "id": "0066",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 4 горизонтальным полосам в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места (кроме ударений) увеличены. Ударения читались на уровне полосы (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0066.webp"
+    ],
+    "printed_pages": "24",
+    "heading_on_scan": "Imagini de i Dei",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Остальной текст, 4 маргиналии, кустод «vn» совпадают; сигнатуры нет. «campi'.», «vitti» — как в печати."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0066-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "perche sotto il reggimento di Saturuo — так в печати",
+      "current": "di Saturno",
+      "suggested": "[typo] опечатка печати «Saturuo» исправлена транскрипцией; по правилу — как напечатано",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0066-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "Fu detto anco Satuno, Vitisatore — так в печати",
+      "current": "Fu detto anco Saturno",
+      "suggested": "[typo] опечатка печати «Satuno» исправлена транскрипцией; по правилу — как напечатано",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0066-3",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "perche ò sempre e stato — в печати «e» без ударения",
+      "current": "ò sempre è stato",
+      "suggested": "[accent] ò sempre e stato",
+      "confidence": "medium"
+    }
+  ]
+}
