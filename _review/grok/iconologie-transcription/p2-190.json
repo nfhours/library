@@ -1,0 +1,23 @@
+{
+  "id": "p2-190",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "ok",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-187-1.webp",
+      "p2-190-2.webp"
+    ],
+    "printed_pages": "199",
+    "page_field": "199",
+    "heading_on_scan": "совпадает с fr «Doute» (в печати прописными)",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "На с. 199 через текст идёт складка бумаги (задеты «sujet», «AVRIBVS», «cherché», «pareilles»); слова читаются по контексту и остаткам букв — text_fr им соответствует."
+  },
+  "issues": []
+}

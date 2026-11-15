@@ -1,0 +1,49 @@
+{
+  "id": "p2-227",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-227-1.webp",
+      "p2-227-2.webp"
+    ],
+    "printed_pages": "226–227",
+    "page_field": "226",
+    "heading_on_scan": "SOTISE.",
+    "heading_matches": false,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась"
+  },
+  "issues": [
+    {
+      "field": "fr",
+      "issue_id": "p2-227-1",
+      "fields": [
+        "fr"
+      ],
+      "paragraph": null,
+      "type": "name",
+      "original": "Заголовок статьи «SOTISE.» (с. 226), в тексте «la Sotise»; подпись к гравюре «SOTTISE»",
+      "current": "fr = «Sottise» (по подписи к гравюре)",
+      "suggested": "«Sotise» (по заголовку статьи и тексту); вариант написания",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-227-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "«…ce qu'elles doivent aimer, & sont plus changeantes que la Lune…» — в печати (с. 226–227) это один абзац",
+      "current": "«plus changeantes que la Lune…» выделено в отдельный абзац 2",
+      "suggested": "объединить абзацы 1 и 2 (лишний разрыв абзаца)",
+      "confidence": "low"
+    }
+  ]
+}

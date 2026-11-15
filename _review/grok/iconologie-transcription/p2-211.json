@@ -1,0 +1,48 @@
+{
+  "id": "p2-211",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-211-1.webp"
+    ],
+    "printed_pages": "215–216",
+    "page_field": "215",
+    "heading_on_scan": "совпадает с fr «Injure» (в печати прописными)",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась"
+  },
+  "issues": [
+    {
+      "field": "scans",
+      "issue_id": "p2-211-1",
+      "fields": [
+        "scans"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "текст статьи продолжается на с. 216 (файл p2-212-2.webp)",
+      "current": "этого файла нет в поле scans записи",
+      "suggested": "добавить p2-212-2.webp в scans (абз. 2: «qui sont les symboles des traits injurieux…»); сам text_fr на этой странице верен",
+      "confidence": "high"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-211-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "«…ou plûtost des épines, qui sont les symboles…» — в печати (с. 215–216) это один абзац",
+      "current": "«qui sont les symboles…» выделено в отдельный абзац 2",
+      "suggested": "объединить абзацы 1 и 2 (лишний разрыв абзаца)",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "p2-209",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-207-1.webp",
+      "p2-207-2.webp",
+      "p2-209-3.webp"
+    ],
+    "printed_pages": "213–214",
+    "page_field": "213",
+    "heading_on_scan": "совпадает с fr «Irresolution» (в печати прописными)",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась"
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p2-209-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "«…l'esprit des hommes irre-|solus; & les corbeaux…» — в печати (с. 213–214) один абзац, перенос внутри слова «irresolus» на стыке страниц",
+      "current": "абзац 1 кончается «irre-», абзац 2 начинается «solus;» — слово разорвано между абзацами",
+      "suggested": "объединить абзацы 1 и 2 и восстановить «irresolus»",
+      "confidence": "medium"
+    }
+  ]
+}

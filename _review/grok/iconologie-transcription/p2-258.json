@@ -1,0 +1,51 @@
+{
+  "id": "p2-258",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-255-1.webp",
+      "p2-257-2.webp",
+      "p2-258-3.webp"
+    ],
+    "printed_pages": "254–255",
+    "page_field": "254",
+    "heading_on_scan": "совпадает с fr «Symmetrie» (в печати прописными)",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "В печати «Marsille Fiscin» (с. 255) — в text_fr «Ficin»; молча исправленная опечатка/вариант, не ошибка."
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p2-258-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 5,
+      "type": "ocr",
+      "original": "«…d'vne statuë de Venus. Car il est montré par là…» — в печати (с. 255) это один абзац",
+      "current": "«Car il est montré par là…» выделено в отдельный абзац 5",
+      "suggested": "объединить абзацы 4 и 5 (лишний разрыв абзаца)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-258-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 3,
+      "type": "ocr",
+      "original": "de la plusspart des Philosophes (с. 254)",
+      "current": "plûpart",
+      "suggested": "plusspart",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "p2-251",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p2-251-1.webp",
+      "p2-251-2.webp"
+    ],
+    "printed_pages": "248–249",
+    "page_field": "248",
+    "heading_on_scan": "совпадает с fr «Architecture Militaire» (в печати прописными)",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась"
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p2-251-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "«…tirer des plans, & de la gauche vn tableau…» — в печати (с. 248–249) это один абзац",
+      "current": "«& de la gauche vn tableau…» выделено в отдельный абзац 2",
+      "suggested": "объединить абзацы 1 и 2 (лишний разрыв абзаца)",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p2-251-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 8,
+      "type": "ocr",
+      "original": "pour y bastir dessus (с. 249)",
+      "current": "bâtir",
+      "suggested": "bastir",
+      "confidence": "low"
+    }
+  ]
+}
