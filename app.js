@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "192";
+  var APP_VER = "193";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -988,7 +988,7 @@
       slug = segs[0]; rest = segs.slice(1);
     }
     if(!rest.length) return {slug:slug};
-    if(NEW_RIPA && slug==="iconologie" && rest[0]==="list") return {slug:slug, view:"list"};
+    if(slug==="iconologie" && rest[0]==="list") return {slug:slug, view:"list"};
     if(rest[0]==="about") return {slug:slug, view:"about"};
     if(rest[0]==="home") return {slug:slug, view:"home", tab:rest[1]};
     if(rest[0]==="text") return {slug:slug, view:"text"};
@@ -1028,7 +1028,7 @@
     if(!p.slug){ renderLibraryHome(); return; }
     openBook(p.slug, p, function(book){
       if(!book){ if(!forcedBook) renderLibraryHome(); return; }
-      if(ripaNew(book)){
+      if(isRipa(book)){
         if(p.view==="plates") renderRipaPlates(book);
         else if(p.view==="about"){ location.replace(coverHref(book)); return; }
         else {
@@ -2180,8 +2180,7 @@
       if(state.filter==="withimg" && it.textOnly) return false;
       if(state.filter==="noimg" && !it.textOnly) return false;
       if(!nq) return true;
-      var nw = ripaNew(book), k = nw ? ripaFindKey(it) : it.key, ck = nw ? "" : chapKey(book, it);
-      if(ck) k += " "+ck;
+      var k = isRipa(book) ? ripaFindKey(it) : it.key;
       return nq.split(/\s+/).every(function(w){ return wsFind(k, w) > -1; });
     });
     if(state.sort==="ru") res.sort(function(a,b){ return titleOf(a).localeCompare(titleOf(b),state.lang==="ru"?"ru":state.lang); });
@@ -2423,15 +2422,13 @@
     return it[key+"_"+state.lang] || it[key+"_ru"] || it[key] || "";
   }
 
-  /* ---------- Иконология Рипы: новый вид (?new) ----------
-     Включается флагом ?new в адресе (index.html?new#/iconologie); без флага
-     весь код ниже не вызывается. Каркас — общий с Картари (bookShell,
+  /* ---------- Иконология Рипы ----------
+     Каркас — общий с Картари (bookShell,
      rbSheetHtml/makeRbSheet, installBookHide, hlMark/hlFadeOut, restoreOrTop,
      общий якорь смены языка data-anchor). Страницы: «Статьи» (список),
      «Гравюры» (сетка), «О книге», сама статья — renderCard (ветка rp). */
-  // новый вид — основной; ?old (временно) — прежний вид; устаревший ?new ничего не ломает
-  var NEW_RIPA = !/[?&]old(=|&|$)/.test(location.search);
-  function ripaNew(book){ return NEW_RIPA && book && book.slug==="iconologie"; }
+  // Рипа — единственный вид; флаги ?old/?new в адресе ничего не меняют (игнорируются)
+  function isRipa(book){ return !!book && book.slug==="iconologie"; }
   var RIPA_CTX = {ripa:1};
   // «Найти статью» в новом виде — только названия (RU/EN/FR и оригинальное французское заглавие); предметы и текст ищет лупа
   function ripaFindKey(it){
@@ -2672,7 +2669,7 @@
     }
     function fillRaw(){
       var res = filtered(book), nq = state.q.trim(), grouped = state.sort==="book" && !nq;
-      hmW = ripaNew(book) ? norm(nq).split(/\s+/).filter(Boolean) : [];
+      hmW = isRipa(book) ? norm(nq).split(/\s+/).filter(Boolean) : [];
       var showPart = multi && (state.sort==="ru" || (!grouped && state.filter!=="1" && state.filter!=="2"));
       findCount = res.length;
       // «Найдено: N» — только при активном фильтре или выбранной части
@@ -2816,7 +2813,7 @@
   }
 
   function renderCard(book, it){
-    var rp = ripaNew(book), keepRp = (langKeep && langKeep.hash === location.hash) ? langKeep : null;
+    var rp = isRipa(book), keepRp = (langKeep && langKeep.hash === location.hash) ? langKeep : null;
     var s=seq(book), i=s.indexOf(it);
     if(i<0){ s=book.items; i=it.ord; }
     var prev=s[i-1], next=s[i+1];
@@ -3053,21 +3050,6 @@
     return h+'</div>';
   }
   // Поиск в русском интерфейсе идёт и по новому переводу: текст фрагмента главы, к которому привязана запись.
-  function chapKey(book, it){
-    if(state.lang!=="ru" || !book.chap) return "";
-    if(it.chKey===undefined){
-      var lk = book.chap.links[it.id], ch = lk && book.chap.bySlug[lk.chapter], parts = [];
-      if(ch && ch.blocks && lk.block && lk.block <= ch.blocks.length){
-        var end = Math.min(Math.max(lk.end || lk.block, lk.block), ch.blocks.length, lk.block+149);
-        for(var i = lk.block-1; i < end; i++){
-          var b = ch.blocks[i];
-          parts.push(b.t==="quote" ? (b.lines||[]).join(" ") : (b.text||""));
-        }
-      }
-      it.chKey = parts.length ? norm(parts.join(" ").replace(/\*/g,"").replace(/\[\?\]/g," ")) : "";
-    }
-    return it.chKey;
-  }
   function chapterHref(book, slug, block){ return hrefFor(book, "ch/"+slug+(block?"/"+block:"")); }
   // Тот же адрес главы, но с позицией конкретного найденного слова внутри
   // блока — "w<start>-<len>" четвёртым сегментом (см. wordSpec в

@@ -4,19 +4,17 @@
  *
  * Запуск (из корня репозитория, сайт отдаётся на BASE):
  *   python3 -m http.server 8950 &
- *   cd tools/playwright-check && OLD=1 BASE=http://localhost:8950/index.html node check_ripa.js    # прежний вид (?old)
- *   cd tools/playwright-check && BASE=http://localhost:8950/index.html node check_ripa.js                                      # основной (новый) вид
- * Старый вид пишет out/ripa-baseline.json; новый сравнивает свои числа с ним.
+ *   cd tools/playwright-check && BASE=http://localhost:8950/index.html node check_ripa.js
+ * Старого вида нет: адреса с ?old и ?new открывают тот же (единственный) вид.
  * Код выхода: 0 — всё прошло, 1 — есть расхождения.
  */
 const { audit: loupeAudit } = require('./loupe_common.js');
 const { webkit, devices } = require('playwright');
 const fs = require('fs'), path = require('path');
-const NEW = !process.env.OLD;   // основной вид без флага; OLD=1 — прежний вид по ?old
+const NEW = true;   // единственный вид (флаг оставлен, чтобы не трогать ветки теста)
 const BASE = process.env.BASE || 'http://localhost:8950/index.html';
-const URL0 = BASE + (NEW ? '' : '?old');
+const URL0 = BASE;
 const OUT = path.join(__dirname, 'out'); fs.mkdirSync(OUT, { recursive: true });
-const BASEFILE = path.join(OUT, 'ripa-baseline.json');
 const res = {}, fails = [], errs = [];
 const ok = (name, cond, info) => { if (!cond) fails.push(name + (info !== undefined ? ' :: ' + JSON.stringify(info) : '')); };
 const LIST = NEW ? '#/iconologie/list' : '#/iconologie';
@@ -84,12 +82,9 @@ const W = ms => new Promise(r => setTimeout(r, ms));
   }
   if (NEW) {
     // «Найти статью» — только названия; лупа — весь текст (числа лупы = числам прежнего общего поиска)
-    const base0 = fs.existsSync(BASEFILE) ? JSON.parse(fs.readFileSync(BASEFILE, 'utf8')) : null;
     res.loupe = {};
     for (const [k, q] of Object.entries(queries)) {
       const ids = await A.loupe(q); res.loupe[k] = ids.length;
-      if (base0) ok('loupe ' + k + ' == baseline', ids.length === Math.min(60, base0.search[k].n), [ids.length, base0.search[k].n]);
-      if (base0) ok('find ' + k + ' <= baseline', res.search[k].n <= base0.search[k].n, [res.search[k].n, base0.search[k].n]);
     }
     ok('loupe finds subject and text word', res.loupe.subject > 0 && res.loupe.word > 0, res.loupe);
     ok('find word(text) narrower than loupe', res.search.word.n < res.loupe.word, [res.search.word.n, res.loupe.word]);
@@ -528,6 +523,14 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     ok('plates grid has no p2-92 / p2-93', g.hasNo, g);
   }
   if (NEW) { // ?new из закладок не ломает адрес: тот же основной вид
+    for (const fl of ['?old', '?old=1', '?new']) {
+      await page.goto(BASE + fl + '#/iconologie', { waitUntil: 'load' }); await W(900);
+      ok('legacy ' + fl + ' cover', await page.evaluate(() => !!document.querySelector('.ic-home-hero') && !!document.querySelector('.ic-bt-tabs')));
+      await page.goto(BASE + fl + '#/iconologie/list', { waitUntil: 'load' }); await W(900);
+      ok('legacy ' + fl + ' list', (await rows()) > 100);
+      await page.goto(BASE + fl + '#/iconologie/p1-5', { waitUntil: 'load' }); await W(1200);
+      ok('legacy ' + fl + ' article', await page.evaluate(() => !!document.querySelector('.ic-rp') && /Amour/.test(document.querySelector('.ic-rp h1')?.textContent || '')));
+    }
     await page.goto(BASE + '?new#/iconologie', { waitUntil: 'load' }); await W(900);
     ok('legacy ?new works', await page.evaluate(() => !!document.querySelector('.ic-home-hero') && !!document.querySelector('.ic-bt-tabs')));
     await page.goto(BASE + '?new#/iconologie/list', { waitUntil: 'load' }); await W(900);
@@ -551,18 +554,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
   await br.close();
 
   // сравнение с базой
-  if (!NEW) { fs.writeFileSync(BASEFILE, JSON.stringify(res, null, 1)); }
-  else if (fs.existsSync(BASEFILE)) {
-    const b = JSON.parse(fs.readFileSync(BASEFILE, 'utf8'));
-    const cmp = (name, a, c) => { if (JSON.stringify(a) !== JSON.stringify(c)) fails.push('baseline ' + name + ': ' + JSON.stringify(a) + ' vs ' + JSON.stringify(c)); };
-    cmp('total', b.total, res.total);
-    if (!NEW) for (const k of Object.keys(b.search)) cmp('search.' + k + '.n', b.search[k].n, res.search[k].n);
-    cmp('part', b.part, res.part); cmp('p1_5', b.p1_5, res.p1_5); cmp('direct.h1', b.direct.h1, res.direct.h1);
-    cmp('searchEmpty', b.searchEmpty, res.searchEmpty);
-    if (!NEW) { cmp('search_en', b.search_en, res.search_en); cmp('search_fr', b.search_fr, res.search_fr); }
-    cmp('sort.page', b.sort.page, res.sort.page);
-  }
-  fs.writeFileSync(path.join(OUT, NEW ? 'ripa-new-result.json' : 'ripa-old-result.json'), JSON.stringify({ res, fails, errs }, null, 1));
+  fs.writeFileSync(path.join(OUT, 'ripa-result.json'), JSON.stringify({ res, fails, errs }, null, 1));
   console.log(JSON.stringify(res));
   console.log(fails.length ? 'FAIL:\n' + fails.join('\n') : 'OK');
   process.exit(fails.length ? 1 : 0);
