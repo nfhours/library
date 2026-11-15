@@ -1787,3 +1787,7 @@ html.ic-hs-lock{overflow:hidden !important}
 #back-bar-lang button:active{background:rgba(236,229,212,.14)!important;transform:none!important}
 #back-bar-lang button[aria-pressed="true"]:active{background:rgba(236,229,212,.2)!important}
 #back-bar-lang button:focus:not(:focus-visible),.back-bar a:focus:not(:focus-visible){outline:none}
+/* поле «Найти…» в ячейке: при фокусе ячейка залита как выбранная, подсказка скрыта, текст и курсор слева */
+.ic .ic-rbar-row > .ic-rbar-findcell:focus-within{background:rgba(var(--cream),.14)}
+.ic .ic-rbar-findin:focus{text-align:left;padding-left:12px}
+.ic .ic-rbar-findin:focus::placeholder{color:transparent}

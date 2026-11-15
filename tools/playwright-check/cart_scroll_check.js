@@ -15,7 +15,10 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     const H = await p.evaluate(() => document.documentElement.scrollHeight);
     await p.evaluate(h => scrollTo(0, h * 0.4), H); await W(300); await p.evaluate(h => scrollTo(0, h * 0.4 + 300), H); await W(900);
     const y = await p.evaluate(() => scrollY);
+    const alg = () => p.evaluate(() => { const i = document.querySelector('.ic-rbar-findin'), ci = getComputedStyle(i); return [ci.textAlign, getComputedStyle(i, '::placeholder').color, getComputedStyle(i.parentNode).backgroundColor]; });
+    const g0 = await alg(); if (g0[0] !== 'center' || g0[2] !== 'rgba(0, 0, 0, 0)') fails.push(page + ' unfocused ' + g0);
     await p.click('.ic-rbar-findin'); await W(800);
+    const g1 = await alg(); if (g1[0] !== 'left' || !/, 0\)$|transparent/.test(g1[1]) || g1[2] === 'rgba(0, 0, 0, 0)') fails.push(page + ' focused ' + g1);
     const inp = p.locator('.ic-rbar-findin'); const bad = []; let rows0 = await p.evaluate(() => document.body.offsetHeight);
     for (const ch of word) { await inp.pressSequentially(ch, { delay: 30 }); await W(60); const v = await view(); if (v !== 'ok') bad.push(ch + ': ' + v); }
     const rows1 = await p.evaluate(() => document.body.offsetHeight);
