@@ -1,0 +1,4 @@
+id,check,detail,resolution
+aud10,nums_ru,p1 missing {'2': 1} extra {},«2 tétins» → «двумя сосками» — ok
+aud10,nums_en,p1 missing {'2': 1} extra {},«2 tétins» → «the two nipples» — ok
+aud30,no_fr,,нет оригинала — по GROK.md не проверяется (как и 26 окт.)
