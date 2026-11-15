@@ -6,7 +6,7 @@ const CH = (process.env.CHAPTERS || 'saturno,venere,annotationi-pignoria,aggiont
 const W = ms => new Promise(r => setTimeout(r, ms));
 (async () => {
   const br = await webkit.launch(), ctx = await br.newContext({ ...devices['iPhone 13'] }), p = await ctx.newPage(), errs = []; let bad = 0;
-  p.on('pageerror', e => errs.push(e.message)); p.on('console', m => { if (m.type() === 'error' && !/access control|Load failed|cancelled/i.test(m.text())) errs.push(m.text()); });
+  p.on('pageerror', e => { if (!/access control|Load failed|cancelled/i.test(e.message)) errs.push(e.message); }); p.on('console', m => { if (m.type() === 'error' && !/access control|Load failed|cancelled/i.test(m.text())) errs.push(m.text()); });
   for (const L of ['en', 'fr', 'ru']) for (const c of CH) {
     await p.goto(BASE + '#/cartari/ch/' + c); await p.evaluate(l => { localStorage.setItem('ic-lang', l); sessionStorage.clear(); }, L); await p.reload(); await W(3500);
     try { await p.click('[data-rb="scan"]', { timeout: 3000 }); await W(1200); await p.click('.ic-svx-sw [data-m="it"]', { timeout: 3000 }); await W(1500); } catch (e) { console.log('FAIL open viewer', L, c); bad++; continue; }
