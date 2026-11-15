@@ -1,0 +1,48 @@
+{
+  "id": "0192",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 4 горизонтальным полосам в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места (кроме ударений) увеличены. Ударения читались на уровне полосы (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0192.webp"
+    ],
+    "printed_pages": "150",
+    "heading_on_scan": "· Imagini de i Dei",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Заголовок GIVNONE, инициал Q, остальной текст, курсив стихов, маргиналии (5), кустод «la» совпадают; сигнатуры нет. «hauẽdo» раскрыто — не ошибка."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0192-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": "0",
+      "type": "omission",
+      "original": "над заголовком «GIVNONE» — полоса флеронов, под ним — двойная малая полоса орнамента",
+      "current": "разметки [ВИНЬЕТКА] нет",
+      "suggested": "[other] [ВИНЬЕТКА: …] как на 0129",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0192-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 4,
+      "type": "omission",
+      "original": "перед «Discese con feconde pioggie» — ряд точек «. . . .» (знак неполного стиха)",
+      "current": "*Discese con feconde pioggie*",
+      "suggested": "[other] сохранить отточие перед стихом",
+      "confidence": "medium"
+    }
+  ]
+}
