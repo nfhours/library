@@ -1,0 +1,50 @@
+{
+  "id": "p1-154",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p1-151-1.webp",
+      "p1-154-2.webp"
+    ],
+    "printed_pages": "230",
+    "page_field": "230",
+    "heading_on_scan": "Servitude CLIV",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p1-154-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 1,
+      "type": "ocr",
+      "original": "gruë (с. 230)",
+      "current": "grue",
+      "suggested": "gruë",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p1-154-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 4,
+      "type": "ocr",
+      "original": "стих Плавта набран в печати отдельными строками (с. 230)",
+      "current": "стих вписан в строку абзаца без ¶",
+      "suggested": "разбить стих по строкам ¶",
+      "confidence": "low"
+    }
+  ]
+}

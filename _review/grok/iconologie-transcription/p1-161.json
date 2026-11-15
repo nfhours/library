@@ -1,0 +1,51 @@
+{
+  "id": "p1-161",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p1-159-1.webp",
+      "p1-160-3.webp",
+      "p1-161-3.webp"
+    ],
+    "printed_pages": "239–241",
+    "page_field": "239",
+    "heading_on_scan": "Theorie CLXI",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p1-161-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 4,
+      "type": "ocr",
+      "original": "Son visage élevé (с. 240)",
+      "current": "Son visage elevé",
+      "suggested": "Son visage élevé",
+      "confidence": "low"
+    },
+    {
+      "field": "scans",
+      "issue_id": "p1-161-2",
+      "fields": [
+        "scans"
+      ],
+      "paragraph": null,
+      "type": "omission",
+      "original": "текст статьи продолжается на с. 241 (файл p1-162-3.webp)",
+      "current": "этого файла нет в поле scans записи",
+      "suggested": "добавить p1-162-3.webp в scans (конец абз. 5 и весь абз. 6 «Le compas qu'elle a sur la teste…»); сам text_fr на этой странице верен",
+      "confidence": "high"
+    }
+  ]
+}

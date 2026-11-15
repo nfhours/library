@@ -1,0 +1,38 @@
+{
+  "id": "p1-173",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p1-171-1.webp",
+      "p1-172-3.webp",
+      "p1-173-3.webp"
+    ],
+    "printed_pages": "256–257",
+    "page_field": "256",
+    "heading_on_scan": "Volonté CLXXIII",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p1-173-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 5,
+      "type": "ocr",
+      "original": "les aiflerons (aislerons) qu'elle porte aux pieds (с. 256)",
+      "current": "ailerons",
+      "suggested": "aislerons",
+      "confidence": "low"
+    }
+  ]
+}

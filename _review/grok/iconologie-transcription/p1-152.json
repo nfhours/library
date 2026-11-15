@@ -1,0 +1,52 @@
+{
+  "id": "p1-152",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p1-151-1.webp",
+      "p1-151-2.webp",
+      "p1-152-3.webp",
+      "p1-152-4.webp"
+    ],
+    "printed_pages": "227–229",
+    "page_field": "227",
+    "heading_on_scan": "Secret, ou Silence CLII",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p1-152-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 4,
+      "type": "ocr",
+      "original": "«Elle a pour cette mesme fin vne grenouille…» — в печати (с. 228) начинается новый абзац",
+      "current": "слито с абз. 4",
+      "suggested": "выделить отдельный абзац",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p1-152-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": null,
+      "type": "ocr",
+      "original": "vn iour (с. 227–229) — в печати так",
+      "current": "«vn iour» не нормализовано в «jour», как во всём остальном тексте",
+      "suggested": "vn jour",
+      "confidence": "low"
+    }
+  ]
+}

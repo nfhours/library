@@ -1,0 +1,53 @@
+{
+  "id": "p1-165",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p1-163-1.webp",
+      "p1-163-2.webp",
+      "p1-165-3.webp",
+      "p1-165-4.webp",
+      "p1-165-5.webp"
+    ],
+    "printed_pages": "244–247",
+    "page_field": "244",
+    "heading_on_scan": "Vergogne honneste CLXV",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p1-165-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "nostre honneur… pouvoir chocquer (с. 245)",
+      "current": "choquer",
+      "suggested": "chocquer",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p1-165-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 7,
+      "type": "ocr",
+      "original": "cette lasche vergogne (с. 246)",
+      "current": "lâche",
+      "suggested": "lasche",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "p1-158",
+  "book": "iconologie",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка text_fr (и заголовка/номера) со сканами страниц",
+  "check": {
+    "status": "проверено полностью",
+    "method": "каждая страница статьи открыта и прочитана глазами (включая страницы, которых нет в scans, но на которых идёт текст статьи), text_fr сверен по абзацам; сомнительные места увеличены. Без OCR и без выборки.",
+    "scans": [
+      "p1-155-1.webp",
+      "p1-157-3.webp",
+      "p1-158-3.webp",
+      "p1-158-4.webp"
+    ],
+    "printed_pages": "234–236",
+    "page_field": "234",
+    "heading_on_scan": "Splendeur de Nom CLVIII",
+    "heading_matches": true,
+    "data": "origin/main @ e6b8cbf (books/iconologie/entries.json, books/iconologie/pages/)",
+    "not_checked": "пунктуация (запятые, точки с запятой) сплошь не сверялась",
+    "note": "Первое слово статьи набрано целиком прописными (буквица + капитель в печати) — с p1-127 это делается систематически; не ошибка смысла, отмечено как общее замечание в summary."
+  },
+  "issues": [
+    {
+      "field": "text_fr",
+      "issue_id": "p1-158-1",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 6,
+      "type": "ocr",
+      "original": "La chaisne (с. 235–236)",
+      "current": "chaîne",
+      "suggested": "chaisne",
+      "confidence": "low"
+    },
+    {
+      "field": "text_fr",
+      "issue_id": "p1-158-2",
+      "fields": [
+        "text_fr"
+      ],
+      "paragraph": 5,
+      "type": "ocr",
+      "original": "стих Овидия набран в печати отдельными строками",
+      "current": "стих вписан в строку абзаца без ¶",
+      "suggested": "разбить стих по строкам ¶",
+      "confidence": "low"
+    }
+  ]
+}
