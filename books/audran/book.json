@@ -18,5 +18,7 @@
     "viewer": "figure",
     "showOriginal": false,
     "sourceIsFrench": true,
-    "source_url": "https://archive.org/details/gri_proportionsd00audr"
+    "source_url": "https://archive.org/details/gri_proportionsd00audr",
+  "libAuthor": {"ru": "Жерар Одран", "en": "Gérard Audran", "fr": "Gérard Audran"},
+  "libTitle": {"ru": "Пропорции человеческого тела", "en": "Proportions of the Human Body", "fr": "Les Proportions du corps humain"}
 }

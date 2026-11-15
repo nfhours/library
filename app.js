@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "199";
+  var APP_VER = "200";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -2141,14 +2141,16 @@
     var placeYear = [pl, m.year].filter(Boolean).join(", ");
     var orig = m.title && m.title.original && m.title.original !== bt(m.title) ? m.title.original : "";
     var thumb = BASE+"books/"+b.slug+"/"+(m.libThumb || "lib-thumb.webp");
+    var auth = m.libAuthor ? (m.libAuthor[L] || m.libAuthor.ru) : m.author;
+    var title = m.libTitle ? (m.libTitle[L] || m.libTitle.ru) : bt(m.title);
     var desc = !wip && m.libDesc ? (m.libDesc[L] || m.libDesc.ru) : "";
     return '<li class="ic-lib-row'+(wip ? " ic-lib-wip" : "")+'" data-slug="'+esc(b.slug)+'"'+
         (wip ? ' aria-disabled="true"' : ' tabindex="0" role="link"'+(m.home && m.chapters ? ' data-home="1"' : ""))+'>'+
       '<div class="ic-lib-thumb"><img src="'+esc(thumb)+'" alt="" decoding="async"></div>'+
       '<div class="ic-lib-txt">'+
         (orig ? '<span class="ic-lib-orig">'+esc(orig)+'</span>' : "")+
-        '<h2 class="ic-lib-title">'+esc(bt(m.title))+'</h2>'+
-        (m.author ? '<span class="ic-lib-author">'+esc(m.author)+'</span>' : "")+
+        '<h2 class="ic-lib-title">'+esc(title)+'</h2>'+
+        (auth ? '<span class="ic-lib-author">'+esc(auth)+'</span>' : "")+
         (placeYear ? '<span class="ic-lib-place">'+esc(placeYear)+'</span>' : "")+
         (wip ? '<span class="ic-lib-tag">'+esc(t("libWipTag"))+'</span>' : (desc ? '<span class="ic-lib-desc">'+esc(desc)+'</span>' : ""))+
       '</div>'+

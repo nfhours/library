@@ -42,5 +42,10 @@
     "ru": "Свод аллегорий: добродетели, пороки и понятия в виде фигур",
     "en": "A compendium of allegories: virtues, vices and concepts given the form of figures",
     "fr": "Recueil d'allégories : vertus, vices et notions figurés sous forme de personnages"
+  },
+  "libAuthor": {
+    "ru": "Чезаре Рипа",
+    "en": "Cesare Ripa",
+    "fr": "Cesare Ripa"
   }
 }

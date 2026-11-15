@@ -685,5 +685,7 @@
       "about-22.webp"
     ]
   },
-  "sourceIsFrench": true
+  "sourceIsFrench": true,
+  "libAuthor": {"ru": "Жан-Батист-Бернар Гроссон", "en": "Jean-Baptiste-Bernard Grosson", "fr": "Jean-Baptiste-Bernard Grosson"},
+  "libTitle": {"ru": "Собрание древностей Марселя", "en": "Marseille Antiquities", "fr": "Antiquités marseillaises"}
 }

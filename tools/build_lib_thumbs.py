@@ -14,7 +14,7 @@ def first_img(slug):
             n = e["img"][0].rsplit(".", 1)[0]
             for c in (f"img/{n}_display.webp", f"img/{e['img'][0]}"):
                 if os.path.exists(f"{R}/books/{slug}/{c}"): return c
-SRC = {"cartari": "engravings/0069_28_display.webp", "iconologie": "img/title-part1_display.webp"}
+SRC = {"cartari": "engravings/0069_28_display.webp", "iconologie": "img/title-part1_display.webp", "grosson": "img/pl33-full.webp"}
 for slug in ("cartari", "iconologie", "alciato", "verrien", "audran", "grosson"):
     src = SRC.get(slug) or first_img(slug)
     im = Image.open(f"{R}/books/{slug}/{src}")

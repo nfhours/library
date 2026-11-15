@@ -10,6 +10,11 @@ let bad=0; const ok=(n,c,x)=>{ if(!c){bad++;} console.log((c?'ok  ':'FAIL ')+n+(
   ok(lang+' no second h1',r.h1===0,'h1='+r.h1); ok(lang+' order',r.rows.map(x=>x.s).join()==='cartari,iconologie,alciato,verrien,audran,grosson');
   ok(lang+' ready rows have desc, wip have tag, no desc',r.rows.every(x=>x.wip?(x.tag&&!x.desc):(x.desc&&!x.tag)));
   ok(lang+' thumbs ≤84×110 and loaded',r.rows.every(x=>x.tw<=84.5&&x.th<=110.5&&x.loaded>0), JSON.stringify(r.rows.map(x=>[Math.round(x.tw),Math.round(x.th)])));
+  const AU={ru:['Винченцо Картари','Чезаре Рипа','Андреа Альчато','Николя Верриен','Жерар Одран','Жан-Батист-Бернар Гроссон'],en:['Vincenzo Cartari','Cesare Ripa','Andrea Alciato','Nicolas Verrien','Gérard Audran','Jean-Baptiste-Bernard Grosson'],fr:['Vincenzo Cartari','Cesare Ripa','André Alciat','Nicolas Verrien','Gérard Audran','Jean-Baptiste-Bernard Grosson']}[lang];
+  const tx=await p.evaluate(()=>[...document.querySelectorAll('.ic-lib-row')].map(r=>({a:r.querySelector('.ic-lib-author').textContent,t:r.querySelector('.ic-lib-title').textContent,pad:getComputedStyle(r).paddingTop+'/'+getComputedStyle(r).paddingBottom,fs:[getComputedStyle(r.querySelector('.ic-lib-title')).fontSize,getComputedStyle(r.querySelector('.ic-lib-place')).fontSize,(r.querySelector('.ic-lib-desc')?getComputedStyle(r.querySelector('.ic-lib-desc')).fontSize:'')]})));
+  ok(lang+' authors',JSON.stringify(tx.map(x=>x.a))===JSON.stringify(AU),tx.map(x=>x.a).join(' | '));
+  ok(lang+' padding 14/14 and sizes 22/15/15',tx.every(x=>x.pad==='14px/14px'&&x.fs[0]==='22px'&&x.fs[1]==='15px'&&(!x.fs[2]||x.fs[2]==='15px')),JSON.stringify(tx[0]));
+  ok(lang+' short wip titles',tx.slice(3).every(x=>x.t.length<=32),tx.slice(3).map(x=>x.t).join(' | '));
   ok(lang+' rows ≥44px',r.rows.every(x=>x.h>=44)); ok(lang+' section',!!r.sect,r.sect); ok(lang+' no «+ Подробнее»',!r.rows[0].more);
  }
  await p.goto(BASE+'#/'); await W(1500);

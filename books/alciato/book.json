@@ -17,5 +17,6 @@
   "idPrefix": "alc",
   "viewer": "figure",
   "showOriginal": false,
-  "pagesDir": "img/"
+  "pagesDir": "img/",
+  "libAuthor": {"ru": "Андреа Альчато", "en": "Andrea Alciato", "fr": "André Alciat"}
 }
