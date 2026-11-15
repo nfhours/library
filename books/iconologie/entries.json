@@ -81,6 +81,7 @@
         "As for the horn of Amalthea, so famous in the writings of the mythologists, it appears plainly enough to be a symbol of Abundance from these verses in the 9th book of Ovid's Metamorphoses, where it is said: ¶With flowers and with fruits the Nymphs did fill it, / Then to the immortal Gods they consecrated it."
       ],
       "scans": [
+        "ia-p1-pl01.webp",
         "p1-001-1.webp",
         "p1-002-1.webp"
       ],
@@ -209,6 +210,7 @@
         "And inasmuch as the reading of books is the ordinary exercise of the Academy, she is therefore given many of them, and at her side is painted a monkey, an ingenious animal, which among the Egyptians was a mystical figure of Letters and Sciences; for which reason they consecrated it to Mercury, as the inventor of them all."
       ],
       "scans": [
+        "ia-p1-pl01.webp",
         "p1-002-1.webp",
         "p1-002-2.webp",
         "p1-002-3.webp",
@@ -305,6 +307,7 @@
         "And inasmuch as the pursuit of Letters is no less capable of immortalizing a man than that of arms, he is therefore made to hold a book in his left hand, and a skull beneath his foot, to teach us that those who excel in either of these noble professions never see the river of oblivion, and that, ¶in spite of Charon, who takes them into his boat, / Their name and their virtue triumph over Fate."
       ],
       "scans": [
+        "ia-p1-pl01.webp",
         "p1-002-5.webp",
         "p1-003-2.webp",
         "p1-003-3.webp"
@@ -385,6 +388,7 @@
         "This Virtue is also painted barefoot, because there is no hardship she will not endure in the service of her friend: and she is likewise made to embrace a dry elm, encircled by a vine shoot, so as to make known thereby that Friendship must show itself no less in misfortunes than in favorable successes, and that there is no friend so little useful that he cannot find some way to repay, in time of need, the courtesies and tokens of goodwill shown to him."
       ],
       "scans": [
+        "ia-p1-pl01.webp",
         "p1-003-3.webp",
         "p1-004-2.webp",
         "p1-004-3.webp"
@@ -460,6 +464,7 @@
         "There is, then, no need to reduce Love to despair, which is the worst of all ills, since we have shown that time and poverty suffice to tame it, and bring it to reason, however bad it may be."
       ],
       "scans": [
+        "ia-p1-pl01.webp",
         "p1-004-3.webp",
         "p1-005-2.webp"
       ],
@@ -519,6 +524,7 @@
         "He is here figured as a child with wings on his back, and four garlands of laurel, one upon his head, and the other three in his two hands. This means, if I am not mistaken, that among so many Loves of different nature, which the Poets have taken pleasure in depicting for us, none is found more excellent, nor more illustrious, than that of Virtue. It is indeed true that she possesses marvelous charms, and an absolute dominion over all things in the world. The garlands she wears are the true marks of that high preeminence which is rightfully owed to her. And as the laurel, which is their glorious material, never loses its greenness, so it may be affirmed that the Love of this Queen is incorruptible and without bounds, just as is the crown upon her head, which by its spherical shape signifies eternity."
       ],
       "scans": [
+        "ia-p1-pl01.webp",
         "p1-006-1.webp"
       ],
       "caption": "Amour de vertu",
@@ -3409,41 +3415,91 @@
       ],
       "attrs": [
         {
-          "what": "Юноша в разноцветной одежде с часами на голове и золотым кругом в одной руке",
-          "meaning": "Разные цвета означают различные способы упражняться; часы — постоянство труда во времени",
-          "what_en": "A young man in multicoloured clothing with a clock on his head and a golden ring in one hand",
-          "meaning_en": "The varied colours signify the different ways of exercising; the clock, the constancy of labour over time",
-          "what_frtrans": "Un jeune homme vêtu de couleurs variées, une horloge sur la tête et un cercle d'or en une main",
-          "meaning_frtrans": "Les couleurs variées signifient les diverses manières de s'exercer ; l'horloge, la constance du travail dans la durée."
+          "what": "Юноша в разноцветной одежде, руки обнажены",
+          "meaning": "Разные цвета означают различные способы упражняться; обнажённые руки — гибкость и проворство",
+          "what_en": "A young man in multicoloured clothing, arms bare",
+          "meaning_en": "The varied colours signify the different ways of exercising; the bare arms, suppleness and agility",
+          "what_frtrans": "Un jeune homme vêtu de couleurs variées, les bras nus",
+          "meaning_frtrans": "Les couleurs variées signifient les diverses manières de s'exercer ; les bras nus, la souplesse et la vivacité"
         },
         {
-          "what": "Свиток с надписью ENCYCLOPÆDIA в другой руке, рядом — оружие и земледельческие орудия",
-          "meaning": "Ни в каком искусстве не достичь совершенства, если природное дарование, знание и упражнение не действуют заодно",
-          "what_en": "A scroll inscribed ENCYCLOPÆDIA in his other hand, with weapons and farming tools nearby",
-          "meaning_en": "No art can be mastered unless natural aptitude, knowledge, and exercise act together",
-          "what_frtrans": "Un rouleau inscrit ENCYCLOPÆDIA en l'autre main, auprès de lui des armes et des instruments d'agriculture",
-          "meaning_frtrans": "Nul art ne saurait être porté à sa perfection si le don naturel, le savoir et l'exercice n'agissent de concert."
+          "what": "Часы на голове",
+          "meaning": "Благодаря ему мы приходим к познанию истинного, как по непрестанному ходу колёс различаем время и часы",
+          "what_en": "A clock on his head",
+          "meaning_en": "Through it we come to the knowledge of the truth, as by the ceaseless action of a clock's wheels we distinguish time and hours",
+          "what_frtrans": "Une horloge sur la tête",
+          "meaning_frtrans": "Par elle nous parvenons à la connaissance du vrai, comme par l'action continuelle des roues d'une horloge nous distinguons le temps et les heures"
+        },
+        {
+          "what": "Золотой круг в руке",
+          "meaning": "Знак совершенства: круг — самая завершённая из математических фигур, золото — чистейший из металлов",
+          "what_en": "A golden ring in his hand",
+          "meaning_en": "A mark of perfection: the circle is the most complete of mathematical figures, gold the purest of metals",
+          "what_frtrans": "Un cercle d'or en la main",
+          "meaning_frtrans": "Marque de perfection : le cercle est la plus accomplie des figures mathématiques, l'or le plus pur des métaux"
+        },
+        {
+          "what": "Свиток с надписью ENCYCLOPÆDIA в другой руке",
+          "meaning": "Тесная связь Искусств и Наук — на войне и в мире",
+          "what_en": "A scroll inscribed ENCYCLOPÆDIA in his other hand",
+          "meaning_en": "The close bond between the Arts and Sciences, in war and in peace",
+          "what_frtrans": "Un rouleau inscrit ENCYCLOPÆDIA en l'autre main",
+          "meaning_frtrans": "L'étroite liaison des Arts et des Sciences, pour la guerre comme pour la paix"
+        },
+        {
+          "what": "Чётки на поясе",
+          "meaning": "Духовное упражнение: иные упражнения суть орудия спасения, неотделимые от Религии",
+          "what_en": "A rosary at his belt",
+          "meaning_en": "Spiritual exercise: some exercises are instruments of salvation, inseparable from Religion",
+          "what_frtrans": "Un chapelet à la ceinture",
+          "meaning_frtrans": "L'exercice spirituel : certains exercices sont des instruments de salut, inséparables de la Religion"
+        },
+        {
+          "what": "Половина крыла у каждой ноги",
+          "meaning": "Упражнение должно быть умеренным: излишество вредно, умеренное даёт силу духу и крепость телу",
+          "what_en": "Half a wing at each foot",
+          "meaning_en": "Exercise must be moderate: excess harms, moderate exercise gives vigor to mind and body",
+          "what_frtrans": "Un petit bout d'aile à chaque pied",
+          "meaning_frtrans": "L'exercice doit être modéré : l'excès nuit, l'exercice modéré donne la vigueur à l'esprit et au corps"
+        },
+        {
+          "what": "Оружие и блестящие орудия земледелия у ног",
+          "meaning": "Они блестят от труда возделывания земли: упражнение необходимо для поддержания жизни",
+          "what_en": "Weapons and gleaming farming tools at his feet",
+          "meaning_en": "They gleam from the toil of tilling the earth: exercise is necessary to sustain life",
+          "what_frtrans": "Des armes et des instruments d'agriculture luisants à ses pieds",
+          "meaning_frtrans": "Ils luisent du labeur de la terre : l'exercice est nécessaire à l'entretien de la vie"
         }
       ],
       "text_ru": [
         "Различные действия, производимые Упражнением, показаны нам юношей, одетым в разноцветное платье, с обнажёнными руками, часами на голове, золотым кругом в одной руке и свитком в другой, на котором написано слово ENCYCLOPÆDIA. Он носит, кроме того, чётки на поясе и небольшой кончик крыла у каждой из своих ног, вокруг которых видны некоторые части оружия и блестящие, отполированные орудия земледелия.",
         "Упражнение есть обычный труд, которым занимается человек, дабы сделаться искусным в своём деле; достичь этого ему трудно, если он не приложит руку к делу, ибо, по свидетельству Аристотеля, никто никогда не достигает совершенства ни в каком искусстве, если природное дарование, знание и упражнение не действуют совместно.",
-        "Его изображают юным, ибо нет такого возраста, что мог бы лучше противостоять усталости. Он одет в разные цвета, дабы показать, что существуют различные способы предаваться этому занятию; а руки его обнажены, дабы быть более гибким и проворным."
+        "Его изображают юным, ибо нет такого возраста, что мог бы лучше противостоять усталости. Он одет в разные цвета, дабы показать, что существуют различные способы предаваться этому занятию; а руки его обнажены, дабы быть более гибким и проворным.",
+        "Часы, которые он носит на голове, означают, что благодаря ему мы приходим к познанию истинного, подобно тому как по непрестанному действию колёс часов мы различаем время и часы. Золотой круг, который он держит в руке, есть знак совершенства, ибо эта фигура — самая завершённая из всех фигур Математики, а золото — самый чистый из всех металлов. Свиток, который он несёт в правой руке, со словом ENCYCLOPEDIE, показывает тесную связь, какую он устанавливает между Искусствами и Науками — на войне ли, в мире ли. Подобно этому и чётки, свисающие с его пояса, изображают духовное Упражнение: из многих упражнений есть такие, что служат орудиями спасения, как нераздельные с Религией.",
+        "Если же ему дают лишь половину крыла у каждой ноги, то это для того, чтобы показать, что он непременно должен держаться в должной умеренности, без которой он может быть лишь вредным: ибо как праздность делает человека вялым и нездоровым, так умеренное Упражнение придаёт силу духу и крепость телу, укрепляя его теплоту.",
+        "Что до различных орудий для обработки земли, лежащих вокруг него, свободных от ржавчины и блестящих, то это значит, что они отполированы трудом, который затрачивают на возделывание земли и растений; отсюда надлежит заключить, что Упражнение необходимо для поддержания жизни. Потому и сказано в Писании: «кто будет возделывать свою землю, насытится хлебом»."
       ],
       "text_fr": [
         "Les divers effets que l'Exercice produit, nous sont demontrez par vn jeune homme vestu de plusieurs couleurs, avec les bras nuds, vne horloge à la teste, vn cercle d'or en vne main, & en l'autre vn rouleau, où est écrit ce mot, ENCYCLOPÆDIA. Il porte de plus vn chapelet à la ceinture, & vn petit bout d'aisle à chaque costé de ses pieds, à l'entour desquels se voyent quelques pieces d'armes, & des outils d'Agriculture luisans & polis.",
         "L'Exercice est le travail ordinaire où l'homme s'employe pour se rendre habile en sa profession; à quoy il peut arriver difficilement, s'il ne met la main à l'œuvre, puisqu'au rapport d'Aristote, l'on n'excelle jamais en quelque art que ce soit, si le naturel, le sçavoir & l'exercice n'agissent ensemble.",
-        "Il est peint jeune, parce qu'il n'y a point d'âge qui puisse mieux resister à la fatigue que celuy-là. Il est vestu de plusieurs couleurs, pour montrer qu'il y a divers moyens de s'y adonner; & ses bras sont découverts, afin d'estre plus souple & plus dispos."
+        "Il est peint jeune, parce qu'il n'y a point d'âge qui puisse mieux resister à la fatigue que celuy-là. Il est vestu de plusieurs couleurs, pour montrer qu'il y a divers moyens de s'y adonner; & ses bras sont découverts, afin d'estre plus souple & plus dispos.",
+        "L'horloge qu'il a sur la teste signifie, que par luy nous parvenons à la connoissance du vray, comme par la continuelle action des roues d'vne horloge nous distinguons le temps & les heures. Le cercle d'or qu'il tient en main est vne marque de perfection; d'autant que cette figure est la plus accomplie de toutes celles de la Mathematique, & l'or, le plus pur de tous les metaux. Le rouleau qu'il porte en la main droite, avec le mot d'ENCYCLOPEDIE, montre l'étroite liaison qu'il fait des Arts & des Sciences, soit pour la guerre, soit pour la paix. Tout de mesme que le chapelet qui pend à sa ceinture, nous figure l'Exercice spirituel entre plusieurs, qu'il y en a qui sont autant d'instrumens au salut, comme inseparables d'avec la Religion.",
+        "Que si l'on ne luy donne que la moitié d'vne aisle à chaque pied, c'est pour faire voir qu'il faut necessairement qu'il soit dans vne juste moderation, sans laquelle il ne peut estre que nuisible: car comme l'oisiveté rend l'homme lasche & indisposé, ainsi l'Exercice moderé donne de la vigueur à l'esprit, & de l'embonpoint au corps, dont il fortifie la chaleur.",
+        "Quant aux divers outils pour le labourage, qui sont à l'entour de luy, exempts de rouille & luisans, cela veut dire qu'ils se polissent par la peine que l'on prend à cultiver la terre & les plantes: d'où il faut conclure que l'Exercice est necessaire à l'entretenement de la vie. Aussi est-il dit dans l'Ecriture, que celuy qui labourera sa terre, sera rassasié de pain."
       ],
       "en": "Exercise",
       "group_en": "E",
       "scans": [
-        "p1-053-2.webp"
+        "p1-053-2.webp",
+        "ia-p1-082.webp"
       ],
       "text_en": [
         "The various effects that Exercise produces are shown to us by a young man clothed in several colors, with bare arms, a clock upon his head, a golden ring in one hand, and in the other a scroll, on which is written the word ENCYCLOPAEDIA. He wears, moreover, a rosary at his belt, and a small wing-tip at each side of his feet, around which are seen some pieces of armor, and gleaming, polished tools of Agriculture.",
         "Exercise is the ordinary labor to which man applies himself to become skilled in his profession; which he can hardly attain unless he puts his hand to the work, since, according to Aristotle, one never excels in any art whatsoever unless natural aptitude, knowledge, and exercise act together.",
-        "He is painted young, because there is no age that can better withstand fatigue than that one. He is clothed in several colors, to show that there are various ways of devoting oneself to it; and his arms are bare, so as to be more supple and more agile."
+        "He is painted young, because there is no age that can better withstand fatigue than that one. He is clothed in several colors, to show that there are various ways of devoting oneself to it; and his arms are bare, so as to be more supple and more agile.",
+        "The clock he wears upon his head signifies that through him we come to the knowledge of the truth, just as by the continual action of the wheels of a clock we distinguish time and the hours. The golden ring he holds in his hand is a mark of perfection, since this figure is the most complete of all those of Mathematics, and gold the purest of all metals. The scroll he carries in his right hand, with the word ENCYCLOPEDIE, shows the close bond he makes between the Arts and Sciences, whether for war or for peace. In the same way the rosary hanging at his belt figures for us spiritual Exercise: among the many exercises there are some that are so many instruments of salvation, as inseparable from Religion.",
+        "If he is given only half a wing at each foot, it is to show that he must necessarily keep within due moderation, without which he can only be harmful: for as idleness makes a man slack and unwell, so moderate Exercise gives vigor to the mind and robustness to the body, whose heat it fortifies.",
+        "As for the various tools of husbandry that lie around him, free of rust and gleaming, this means that they are polished by the toil one undertakes in cultivating the earth and plants; from which it must be concluded that Exercise is necessary to the maintenance of life. Hence it is said in Scripture, that he who tills his land shall be filled with bread."
       ],
       "name_fr": "Exercice",
       "group_frtrans": "E",
@@ -25422,5 +25478,29 @@
       "group_frtrans": "Sciences et arts (sans titre dans le livre)",
       "crop_verified": true
     }
-  ]
+  ],
+  "ia_scans": {
+    "ia-p1-082.webp": {
+      "part": 1,
+      "page": 82,
+      "leaf": 106,
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/iconologieounouv00ripa/page/n105"
+    },
+    "ia-p1-pl01.webp": {
+      "part": 1,
+      "page": "pl. (planche, p. 2)",
+      "leaf": 26,
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/iconologieounouv00ripa/page/n25"
+    },
+    "ia-p2-title.webp": {
+      "part": 2,
+      "page": "gravé title",
+      "leaf": 283,
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/iconologieounouv00ripa/page/n282",
+      "note": "not shown on site"
+    }
+  }
 }

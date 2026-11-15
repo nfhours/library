@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "196";
+  var APP_VER = "197";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -2557,6 +2557,7 @@
   /* ----- Обложка книги (#/iconologie, ?new): та же разметка и стили, что у обложки Картари (renderHome) ----- */
   // Всё, что на обложке меняется руками, — здесь: гравюра обложки (id статьи; файл img/<id>_display.webp) и подписи.
   var RIPA_COVER = {
+    hero: "title-part1_display.webp", // гравированный титул части 1 (экземпляр Internet Archive), img/
     plate: "p1-1",
     author: {ru:"Чезаре Рипа", en:"Cesare Ripa", fr:"Cesare Ripa"},
     edition: {ru:"Париж, 1677 · перевод Жана Бодуэна", en:"Paris, 1677 · translated by Jean Baudoin", fr:"Paris, 1677 · traduction de Jean Baudoin"}
@@ -2564,7 +2565,7 @@
   function renderRipaHome(book){
     var gen = renderGen, rbSheets = [];
     restoreState(book.slug);
-    var it = book.byId[RIPA_COVER.plate], hero = it && it.img && it.img[0] ? BASE+"books/"+book.slug+"/img/"+it.img[0].replace(/\.(jpe?g|webp)$/i,"")+"_display.webp" : "";
+    var it = book.byId[RIPA_COVER.plate], hero = RIPA_COVER.hero ? BASE+"books/"+book.slug+"/img/"+RIPA_COVER.hero : (it && it.img && it.img[0] ? BASE+"books/"+book.slug+"/img/"+it.img[0].replace(/\.(jpe?g|webp)$/i,"")+"_display.webp" : "");
     var nPl = book.items.filter(function(x){ return !x.textOnly && x.img && x.img.length; }).length;
     var secs = [
       homeTile(hrefFor(book,"list"), t("rpTabArticles"), t("rpArtSub",{n:book.items.length}), false),
