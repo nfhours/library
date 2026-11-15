@@ -117,7 +117,10 @@ const pages = [
     await page.unroute('**/books/cartari/**');
 
     for (const [name, url] of pages) {
-      await page.goto(url); await page.waitForSelector('.ic-wrap, .ic-ch-outer', { timeout: 8000 }).catch(() => {}); await settle(name.startsWith('plate/') || name.startsWith('names/') ? 250 : 600);
+      if (process.env.ONLY && !process.env.ONLY.split(',').includes(name)) continue;
+      await page.goto(url); await page.waitForSelector('.ic-wrap, .ic-ch-outer', { timeout: 8000 }).catch(() => {});
+      // готовность: выбран нужный язык (иначе можно снять страницу до смены языка)
+      await page.waitForFunction(l => { const b = document.querySelector('.ic-lang-b[aria-pressed="true"]'); return !b || b.dataset.lang === l; }, L, { timeout: 3000 }).catch(() => {});
       await grab(name);
       if (name === 'cover' || name === 'text' || name === 'plates' || name === 'search') {
         // поиск (шторка меню книги): открыть, ввести запрос

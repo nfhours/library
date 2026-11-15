@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "190";
+  var APP_VER = "191";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -4749,7 +4749,7 @@
           (hp ? ornamentMaskHtml(book, hp, "ic-orn-headpiece") : "")+
           '<header class="ic-home-hero">'+
             '<div class="ic-home-txt">'+
-              '<p class="ic-kicker">'+esc(book.meta.title.original||"")+'</p>'+
+              '<p class="ic-kicker" lang="it">'+esc(book.meta.title.original||"")+'</p>'+
               '<h1 class="ic-title">'+esc(bt(book.meta.title))+'</h1>'+
               '<p class="ic-home-author">'+esc(bt(h.author))+'</p>'+
               '<p class="ic-home-ed">'+(h.editionShort ? '<span class="ic-ed-long">' : '<span>')+esc(bt(h.edition))+(h.addition ? ' · '+esc(bt(h.addition)) : "")+'</span>'+(h.editionShort ? '<span class="ic-ed-short">'+esc(bt(h.editionShort))+'</span>' : "")+'</p>'+
