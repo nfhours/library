@@ -265,9 +265,9 @@
       "id": "aud11",
       "num": "11",
       "page": "11",
-      "fr": "Terme égyptien (vue 2)",
-      "ru": "Египетский герм (вид 2)",
-      "en": "Egyptian herm (view 2)",
+      "fr": "Antinoüs (statue du Vatican)",
+      "ru": "Антиной (статуя Ватикана)",
+      "en": "Antinous (Vatican statue)",
       "group": "Антиной",
       "group_fr": "Antinoüs",
       "img": [
@@ -281,7 +281,7 @@
         "It is 7 heads 2 parts in height."
       ],
       "group_en": "Antinous",
-      "name_fr": "Terme égyptien (vue 2)",
+      "name_fr": "Antinoüs (statue du Vatican)",
       "group_frtrans": "Antinoüs",
       "text_fr": [
         "Elle a de hauteur 7 têtes 2 parties."
@@ -655,11 +655,11 @@
       "id": "aud26",
       "num": "26",
       "page": "26",
-      "fr": "Enfant de Laocoon (suite)",
-      "ru": "Сын Лаокоона (продолжение)",
-      "en": "Son of Laocoön (continued)",
-      "group": "Лаокоон",
-      "group_fr": "Laocoon",
+      "fr": "Enfant à la cruche",
+      "ru": "Ребёнок с кувшином",
+      "en": "Child with a jug",
+      "group": "Ребёнок с кувшином",
+      "group_fr": "Enfant à la cruche",
       "img": [
         "aud26.webp"
       ],
@@ -670,9 +670,9 @@
       "text_en": [
         "He is 5 heads in height."
       ],
-      "group_en": "Laocoön",
-      "name_fr": "Enfant de Laocoon (suite)",
-      "group_frtrans": "Laocoon",
+      "group_en": "Child with a jug",
+      "name_fr": "Enfant à la cruche",
+      "group_frtrans": "Enfant à la cruche",
       "text_fr": [
         "Il a 5 têtes de hauteur."
       ]
