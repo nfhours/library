@@ -1,0 +1,61 @@
+{
+  "id": "0012",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт целиком и по 8 горизонтальным полосам, каждая строка прочитана глазами и сверена с pages_it (текст, маргиналии, кустод, сигнатура); сомнительные места увеличены. Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0012.webp"
+    ],
+    "printed_pages": "",
+    "heading_on_scan": "",
+    "heading_matches": null,
+    "data": "origin/main @ 52bd8f7 (books/cartari/pages_it.json, books/cartari/scans/)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Вся страница в печати набрана курсивом, в pages_it курсив не размечен — отмечаю как общее наблюдение, не как ошибку страницы. Заголовок «Prefatione al Lettore.», буквица N, кустод «biamo» совпадают."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0012-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "che confusione operino (в печати одна ſ: confuſione)",
+      "current": "confussione",
+      "suggested": "confusione",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0012-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "ON cosi fuora di proposito … Hora si come … cosi disuniti — в печати без ударения",
+      "current": "così fuora … sì come … così disuniti",
+      "suggested": "cosi … si come … cosi (как напечатано; в других местах страницы «così» с ударением есть)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0012-3",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "Hor·Apolline (per cominciare di quà) se d'Hor-Apolline",
+      "current": "Hor Apolline … d'Hor Apolline",
+      "suggested": "Hor-Apolline … d'Hor-Apolline (в печати дефис/точка между частями; на скане 0013 в pages_it «Hor-Apolline» с дефисом)",
+      "confidence": "medium"
+    }
+  ]
+}

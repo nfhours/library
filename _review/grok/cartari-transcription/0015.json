@@ -1,0 +1,69 @@
+{
+  "id": "0015",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "major",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт целиком и по 8 горизонтальным полосам, каждая строка прочитана глазами и сверена с pages_it (текст, маргиналии, кустод, сигнатура); сомнительные места увеличены. Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0015.webp"
+    ],
+    "printed_pages": "",
+    "heading_on_scan": "",
+    "heading_matches": null,
+    "data": "origin/main @ 52bd8f7 (books/cartari/pages_it.json, books/cartari/scans/)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Вся страница в печати набрана курсивом, в pages_it курсив не размечен — отмечаю как общее наблюдение, не как ошибку страницы. Кустод «riuato» верен."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0015-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "delle quali questo Libro, in quante Editioni io ho vedute, e stato fin'hora priuo.",
+      "current": "e stato fin'hora primo.",
+      "suggested": "e stato fin'hora priuo. (в печати отчётливо «priuo» = «лишён»; «primo» искажает смысл фразы)",
+      "confidence": "high",
+      "fix": [
+        {
+          "field": "text_it",
+          "paragraph": 0,
+          "before": "e stato fin'hora primo.",
+          "after": "e stato fin'hora priuo."
+        }
+      ]
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0015-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "Si che si lasciarà ad altri questo pensiero; si come anco — в печати «si» без ударения",
+      "current": "sì come anco",
+      "suggested": "si come anco",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0015-3",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "addition",
+      "original": "последняя строка: «sono ar-», кустод «riuato»",
+      "current": "… sono ar-riuato (окончание слова из кустода внесено в текст, а скан 0016 тоже начинается с «riuato»)",
+      "suggested": "sono ar- (или единообразно склеить перенос через страницу), без дублирования «riuato»",
+      "confidence": "medium"
+    }
+  ]
+}

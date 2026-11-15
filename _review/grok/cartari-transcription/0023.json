@@ -1,0 +1,48 @@
+{
+  "id": "0023",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт целиком и по 8 горизонтальным полосам, каждая строка прочитана глазами и сверена с pages_it (текст, маргиналии, кустод, сигнатура); сомнительные места увеличены. Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0023.webp"
+    ],
+    "printed_pages": "",
+    "heading_on_scan": "",
+    "heading_matches": null,
+    "data": "origin/main @ 52bd8f7 (books/cartari/pages_it.json, books/cartari/scans/)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Списки авторов, скобочные группы, кустод «Sico-» и сигнатура «††» совпадают. Перечни набраны курсивом, разметки курсива нет (общее замечание). Вся страница в печати набрана курсивом, в pages_it курсив не размечен — отмечаю как общее наблюдение, не как ошибку страницы."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0023-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 6,
+      "type": "ocr",
+      "original": "[A]Pollodoro (в печати заглавная P)",
+      "current": "[ИНИЦИАЛ: A]pollodoro",
+      "suggested": "[регистр после инициала] [ИНИЦИАЛ: A]Pollodoro",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0023-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 22,
+      "type": "ocr",
+      "original": "[A]Lbrico (в печати заглавная L)",
+      "current": "[ИНИЦИАЛ: A]lbrico",
+      "suggested": "[регистр после инициала] [ИНИЦИАЛ: A]Lbrico",
+      "confidence": "high"
+    }
+  ]
+}

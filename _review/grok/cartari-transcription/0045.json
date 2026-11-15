@@ -1,0 +1,35 @@
+{
+  "id": "0045",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт целиком и по 8 горизонтальным полосам, каждая строка прочитана глазами и сверена с pages_it (текст, маргиналии, кустод, сигнатура); сомнительные места увеличены. Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0045.webp"
+    ],
+    "printed_pages": "3",
+    "heading_on_scan": "De gli Antichi.",
+    "heading_matches": true,
+    "data": "origin/main @ 52bd8f7 (books/cartari/pages_it.json, books/cartari/scans/)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Весь текст, 7 маргиналий, колонтитул «De gli Antichi. 3», кустод «dia,», сигнатура «A 2» совпадают; опечатка печати «Statue fate» сохранена."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0045-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "del Zodiaco, coſi vi ſono (в печати без ударения)",
+      "current": "così vi sono",
+      "suggested": "[добавлен акцент] cosi vi sono",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "0037",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "не проверено",
+  "scope": "сверка pages_it со сканом",
+  "check": {
+    "status": "не проверено",
+    "method": "—",
+    "scans": [],
+    "printed_pages": "",
+    "heading_on_scan": "",
+    "heading_matches": null,
+    "data": "origin/main @ 52bd8f7 (books/cartari/pages_it.json, books/cartari/scans/)",
+    "not_checked": "скана 0037.webp нет в books/cartari/scans/ и нет ключа «37» в pages_it.json на origin/main — сверять нечего. По PAGES.tsv это лист «XXVI» (Heidelberg cartari1626); PROGRESS.md (строки 13–14) пишет, что служебные листы и вставка 1a не транскрибированы (запись частично устарела: 0005–0024 уже есть в pages_it)"
+  },
+  "issues": []
+}

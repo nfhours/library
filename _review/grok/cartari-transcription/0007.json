@@ -1,0 +1,61 @@
+{
+  "id": "0007",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт целиком и по 8 горизонтальным полосам, каждая строка прочитана глазами и сверена с pages_it (текст, маргиналии, кустод, сигнатура); сомнительные места увеличены. Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0007.webp"
+    ],
+    "printed_pages": "",
+    "heading_on_scan": "",
+    "heading_matches": null,
+    "data": "origin/main @ 52bd8f7 (books/cartari/pages_it.json, books/cartari/scans/)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Слова титула совпадают полностью; рукописные пометки («B. V.», «in Salem.», зачёркнутая владельческая запись) — не текст книги."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0007-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 6,
+      "type": "ocr",
+      "original": "Ridotte da capo a piedi alle loro reali, & non più per l'adietro osseruate simiglianze.",
+      "current": "строка размечена курсивом *…*",
+      "suggested": "в печати эта строка набрана красным прямым шрифтом, не курсивом (только разметка, слова верны)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0007-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 14,
+      "type": "ocr",
+      "original": "Con le Allegorie sopra le Imagini di CESARE MALFATTI Padouano, migliorate, & accresciute nouamente.",
+      "current": "размечено курсивом *…*",
+      "suggested": "в печати красный прямой шрифт, не курсив (только разметка)",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0007-3",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 17,
+      "type": "ocr",
+      "original": "Con l'aggiunta d'vn'altro Catalogo de gl'Autori Antichi, & Moderni…",
+      "current": "размечено курсивом *…*",
+      "suggested": "в печати красный прямой шрифт, не курсив (только разметка)",
+      "confidence": "medium"
+    }
+  ]
+}
