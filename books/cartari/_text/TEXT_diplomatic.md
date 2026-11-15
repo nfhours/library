@@ -156,7 +156,7 @@ biamo di Hieroglifici, o se più tosto compendio del medesimo fatto da altri, Ho
 
 Колонтитул:
 Кустод: lontane
-Сигнатура: [?] 4 (орнамент перед цифрой, похож на крестик/четырёхлистник)
+Сигнатура: [?] 4
 Маргиналии:
 
 ## Скан 0014 · с. III
@@ -242,8 +242,7 @@ Per Cesare Malfatto Padoano.
 Колонтитул:
 Кустод: 33 Vulcano
 Сигнатура:
-Маргиналии:
-- В конце строки с пунктом 15 в правом поле напечатано «(Mare» — это окончание фразы пункта 16 («…imperatori del Mare»), вынесенное печатником вбок из-за нехватки места в строке; место вставки сохранено как в книге, без переноса слова в основной текст пункта 16.
+Маргиналии: (нет)
 
 ## Скан 0019 · с. VIII
 
@@ -389,7 +388,7 @@ Vicenzo Cartari, nel Flauio. } Le Feste, & Celebrità.
 
 Колонтитул:
 Кустод: Sico-
-Сигнатура: ✝✝ (два крестика)
+Сигнатура: ✝✝
 Маргиналии:
 
 ## Скан 0024 · с. XIII
@@ -1708,48 +1707,48 @@ Però dico, che la Eternita staua sempre con quelli Dei, che erano creduti immor
 
 ## Скан 0060 · с. 18
 
-*Laqual con modo, ch'Vnqua non vien meno,*
-*Manda, e richiama i tempi a l'ampio seno.*
-*Questa col flessuoso corpo cinge*
-*Vn serpe pien di Verdeggianti squame,*
-*Qual ciò, che troua auidamente stringe.*
-*Come che diuorar ei tutto brame,*
-*E la coda si caccia in gola, e finge*
-*Voler mangiarla con auida fame.*
-*Vassene in giro, e con l'Vsate tempre,*
-*Onde partì, cheto ritorna sempre.*
-*A la porta con faccia riuerenda,*
-*Et d'anni piena stà l'alma Natura,*
-*Come custode, che fedele attenda*
-*Chi vien', & và con diligente cura;*
-*D'intorno Volan l'anime, e che penda*
-*Ciascuna par con debita figura*
-*Da le membra, ch'à lei son date in sorte,*
-*E Stan con lei fino che piace à Morte.*
-*Ne l'antro poi, ne la spelonca immensa*
-*Vn Vecchio, c'hà di bianca neue asperso*
-*Il mento, e'l crine stà, scriue e dispensa*
-*Le ferme leggi date à l'Vniuerso.*
-*E mentre ch'à disporre il tutto pensa*
-*Con l'animo al bell'ordine conuerso,*
-*Certi numeri parte tra le stelle,*
-*Onde n'appaion poi sì Vaghe e belle.*
-*Con ordine immutabili prescriue*
-*A ciascuna quando habbia a gir, ò stare*
-*Da che quanto tra noi si more, ò Viue,*
-*Ha vita, e morte, poi torna a guardare.*
-*E riueder come al suo corso arriue*
-*Marte, qual, bench'auezzo à caminare*
-*Per Via certa, và pur'à certo fine;*
-*Che così voglion le leggi diuine.*
-*Come con certo passo giri intorno*
-*Gioue portando giouamento al mondo,*
-*Come la Luna si nasconda il giorno,*
-*E tosto muti il bel lume feconde,*
-*Come partendo sia tardo al ritorno*
-*Saturno horrido, mesto, & infecondo,*
-*Quanto Venere bella, e doppo lei*
-*Errando Vada il messaggier de i Dei.*
+Laqual con modo, ch'Vnqua non vien meno,
+Manda, e richiama i tempi a l'ampio seno.
+Questa col flessuoso corpo cinge
+Vn serpe pien di Verdeggianti squame,
+Qual ciò, che troua auidamente stringe.
+Come che diuorar ei tutto brame,
+E la coda si caccia in gola, e finge
+Voler mangiarla con auida fame.
+Vassene in giro, e con l'Vsate tempre,
+Onde partì, cheto ritorna sempre.
+A la porta con faccia riuerenda,
+Et d'anni piena stà l'alma Natura,
+Come custode, che fedele attenda
+Chi vien', & và con diligente cura;
+D'intorno Volan l'anime, e che penda
+Ciascuna par con debita figura
+Da le membra, ch'à lei son date in sorte,
+E stan con lei fino che piace à Morte.
+Ne l'antro poi, ne la spelonca immensa
+Vn Vecchio, c'hà di bianca neue asperso
+Il mento, e'l crine stà, scriue e dispensa
+Le ferme leggi date à l'Vniuerso.
+E mentre ch'à disporre il tutto pensa
+Con l'animo al bell'ordine conuerso,
+Certi numeri parte tra le stelle,
+Onde n'appaion poi sì Vaghe e belle.
+Con ordine immutabili prescriue
+A ciascuna quando habbia a gir, ò stare
+Da che quanto tra noi si more, ò Viue,
+Ha vita, e morte, poi torna a guardare.
+E riueder come al suo corso arriue
+Marte, qual, bench'auezzo à caminare
+Per Via certa, và pur'à certo fine;
+Che così voglion le leggi diuine.
+Come con certo passo giri intorno
+Gioue portando giouamento al mondo,
+Come la Luna si nasconda il giorno,
+E tosto muti il bel lume feconde,
+Come partendo sia tardo al ritorno
+Saturno horrido, mesto, & infecondo,
+Quanto Venere bella, e doppo lei
+Errando Vada il messaggier de i Dei.
 
 Колонтитул: Imagini de i Dei · с. 18
 Кустод: E quando
@@ -2816,7 +2815,6 @@ Benche fossero poi tutte vna medesima cosa, & i nomi solamente erano diuersi, pe
 - Cipsello Tiranno di Corintio.
 - Diana triforme.
 - Ouidio.
-- [?] (обрезанная на внешнем поле помета, видны только верхушки нескольких букв)
 
 ## Скан 0139 · с. 97
 
@@ -3241,48 +3239,48 @@ In questo loco mi pare, che non sia fuor di proposito, ma anzi che debba recare 
 
 ## Скан 0162 · с. 120
 
-*Che fiamma è questa, come non finisce*
-*Di consumar, se mai non mi rallenta?*
-*In che loco s'annida? oue soggiorna?*
-*Che parte è quella, ou'arde a mio dispetto?*
-*Com'entra dimmi? oue troua la Via,*
-*Perch'ella dentro al petto si trabocchi?*
-*Entra per gli occhi? parmi hauer inteso,*
-*Che molti per vdir s'innamoraro.*
-*Dimmi, che cibo e'l suo? oue si pasce?*
-*Che par che di continuo ella m'accore?*
-*Se m'arde il cor, debbo durare ancora*
-*Al giogo, ou'io mia libertà perdei?*
-*Adunque Vuoi, ch'in stia nel mio pensiero,*
-*Costante ancor, benche sia afflito, e stanco?*
-*Tante lagrime spargo, e nulla gioua?*
-*Dimmi sarebbe forsi il pianto in vano?*
-*Che farò dunque, acciò al mio casto ardire,*
-*Che m'arde, honesto premio si riserui?*
-*Credi, che l'Amor mio le sarà grato,*
-*Et ch'ella sia del mio seruir contenta?*
-*Ogni via tentarò, se credi, ch'io*
-*Possa alcun premio riportarne poi?*
-*Hor qual esser deurò, se pur talhora*
-*Il dolor mi farà tremante infermo?*
-*Ma che farò, s'egli così mi strugge,*
-*Ch'in pianto la mia vita si distempra?*
-*Com'io la temprerò, s'Amor non cessa*
-*Di saettarmi da la terza spera?*
-*Dunque Ninfa gentil lo sperar gioua,*
-*E la mortale passion rafrena?*
-*Qual sia la vita mia, se senza speme*
-*Terrammi preso Amor con man'accorta?*
-*Se siano corti i giorni di mia Vita*
-*Non saran lieti almen benc'hor m'attristi?*
-*Che spererò? mi lice sperar forse,*
-*Che far mi debba Vn giorno Amor felice?*
-*Vorrei saper chi mi darà speranza,*
-*Poi ch'à sperar la tua ragion m'inuita?*
-*Vita haurò dunque? haurò poi altro s'io*
-*Non mi lascio giamai mancar di spene?*
-*Pene? sperando dunque che mi gioua?*
-*Ma chi sia causa, che di pene i' tema?*
+Che fiamma è questa, come non finisce
+Di consumar, se mai non mi rallenta?
+In che loco s'annida? oue soggiorna?
+Che parte è quella, ou'arde a mio dispetto?
+Com'entra dimmi? oue troua la Via,
+Perch'ella dentro al petto si trabocchi?
+Entra per gli occhi? parmi hauer inteso,
+Che molti per vdir s'innamoraro.
+Dimmi, che cibo e'l suo? oue si pasce?
+Che par che di continuo ella m'accore?
+Se m'arde il cor, debbo durare ancora
+Al giogo, ou'io mia libertà perdei?
+Adunque Vuoi, ch'in stia nel mio pensiero,
+Costante ancor, benche sia afflito, e stanco?
+Tante lagrime spargo, e nulla gioua?
+Dimmi sarebbe forsi il pianto in vano?
+Che farò dunque, acciò al mio casto ardire,
+Che m'arde, honesto premio si riserui?
+Credi, che l'Amor mio le sarà grato,
+Et ch'ella sia del mio seruir contenta?
+Ogni via tentarò, se credi, ch'io
+Possa alcun premio riportarne poi?
+Hor qual esser deurò, se pur talhora
+Il dolor mi farà tremante infermo?
+Ma che farò, s'egli così mi strugge,
+Ch'in pianto la mia vita si distempra?
+Com'io la temprerò, s'Amor non cessa
+Di saettarmi da la terza spera?
+Dunque Ninfa gentil lo sperar gioua,
+E la mortale passion rafrena?
+Qual sia la vita mia, se senza speme
+Terrammi preso Amor con man'accorta?
+Se siano corti i giorni di mia Vita
+Non saran lieti almen benc'hor m'attristi?
+Che spererò? mi lice sperar forse,
+Che far mi debba Vn giorno Amor felice?
+Vorrei saper chi mi darà speranza,
+Poi ch'à sperar la tua ragion m'inuita?
+Vita haurò dunque? haurò poi altro s'io
+Non mi lascio giamai mancar di spene?
+Pene? sperando dunque che mi gioua?
+Ma chi sia causa, che di pene i' tema?
 
 Колонтитул: Imagini de i Dei. 120
 Кустод: Tema
@@ -3311,48 +3309,48 @@ In questo loco mi pare, che non sia fuor di proposito, ma anzi che debba recare 
 
 ## Скан 0163 · с. 121
 
-*Tema la causa sia? Deh dimmi il vero*
-*Dunque tema potrà farmi mendico?*
-*Ahi lasso, ahi discortese, empio timore,*
-*Hor questo dunque il mio piacer conturba?*
-*Puommi far peggio? dimmi se può peggio*
-*Seguir a queste membra afflitte, e smorte?*
-*Morte? se dunque il timor passa'l segno,*
-*Tal hor si more per souerchio Amore?*
-*Come lo scaccierò? l'alma si strugge,*
-*Che non lo Vuole, piange, e si dispera?*
-*Tu pur dici ch'io speri, speme forse*
-*Credi, che sola sia, ch'altri consola?*
-*Leuerà tutto, ò parte del tormento*
-*Lasso, che mi consuma, e'l cor mi parte?*
-*Adunque la speranza per se sola*
-*Beato non potrà farmi giamai?*
-*Ma oltre Amore seruitute, e speme,*
-*Che ci Vuol? dimmi'l tutto a parte a parte?*
-*Chi mi darà quest'arte forsi Amore;*
-*Altri chi sia? se non è Amor istesso?*
-*Insegna dunque Amor, dunque a gli amanti*
-*Amor del Vero Amor l'arte dimostra?*
-*Dimmi di gratia, scoprirò la fiamma,*
-*O mi consigli, ch'io non la discopri?*
-*A cui debbo scoprirla? ad ogn'Vn forse?*
-*O basterà, che sol l'intenda alcuno?*
-*Vuoi che ad Vn sol amico sia palese,*
-*Celato à gli altri sia'l corpo mortale?*
-*Sapremo soli tre dunque il mio ardore,*
-*Se Vuoi, che con Vn solo mi consoli?*
-*Ma dimmi quale deue esser colui,*
-*A cui l'ardor secreto mio confido?*
-*Trouerans'in Amor fedeli amici,*
-*C'habbin riguardo poi d'amico al grado?*
-*Come dunque farò, perche lo troui,*
-*Che sia fidel, sì come si ricerca?*
-*E s'io lo trouo, che potrà giouarmi?*
-*Forsi tal'hor la passion rileua?*
-*Hor questo, che mi detti dimmi'l modo*
-*Vero d'Amor, dimmi di gratia'l Vero?*
-*Se questo è il Vero modo, i' son felice*
-*Homai non temo, ch'l dolor m'atterri?*
+Tema la causa sia? Deh dimmi il vero
+Dunque tema potrà farmi mendico?
+Ahi lasso, ahi discortese, empio timore,
+Hor questo dunque il mio piacer conturba?
+Puommi far peggio? dimmi se può peggio
+Seguir a queste membra afflitte, e smorte?
+Morte? se dunque il timor passa'l segno,
+Tal hor si more per souerchio Amore?
+Come lo scaccierò? l'alma si strugge,
+Che non lo Vuole, piange, e si dispera?
+Tu pur dici ch'io speri, speme forse
+Credi, che sola sia, ch'altri consola?
+Leuerà tutto, ò parte del tormento
+Lasso, che mi consuma, e'l cor mi parte?
+Adunque la speranza per se sola
+Beato non potrà farmi giamai?
+Ma oltre Amore seruitute, e speme,
+Che ci Vuol? dimmi'l tutto a parte a parte?
+Chi mi darà quest'arte forsi Amore;
+Altri chi sia? se non è Amor istesso?
+Insegna dunque Amor, dunque a gli amanti
+Amor del Vero Amor l'arte dimostra?
+Dimmi di gratia, scoprirò la fiamma,
+O mi consigli, ch'io non la discopri?
+A cui debbo scoprirla? ad ogn'Vn forse?
+O basterà, che sol l'intenda alcuno?
+Vuoi che ad Vn sol amico sia palese,
+Celato à gli altri sia'l corpo mortale?
+Sapremo soli tre dunque il mio ardore,
+Se Vuoi, che con Vn solo mi consoli?
+Ma dimmi quale deue esser colui,
+A cui l'ardor secreto mio confido?
+Trouerans'in Amor fedeli amici,
+C'habbin riguardo poi d'amico al grado?
+Come dunque farò, perche lo troui,
+Che sia fidel, sì come si ricerca?
+E s'io lo trouo, che potrà giouarmi?
+Forsi tal'hor la passion rileua?
+Hor questo, che mi detti dimmi'l modo
+Vero d'Amor, dimmi di gratia'l Vero?
+Se questo è il Vero modo, i' son felice
+Homai non temo, ch'l dolor m'atterri?
 
 Колонтитул: De gli Antichi. 121
 Кустод: Per-
@@ -3609,7 +3607,7 @@ Et diceuano che i fulmini spiegati da gli altri Dei, che così interpretaremo pe
 Колонтитул: De gli Antichi. 139
 Кустод: &
 Маргиналии:
-- Gioue Statore.
+- Gioue statore.
 - Gioue conseruatore.
 - Fulmine di Sumano.
 - Fulmine dato à più Dei.
@@ -4045,7 +4043,7 @@ Seneca parimente così ne dice:
 
 Claudiano in certo Epitalamio descrisse Himeneo in questo modo.
 
-*Da gli occhi Vn soauissimo Splendore*
+*Da gli occhi Vn soauissimo splendore*
 *Esce, ch'à rimirarlo altrui contenta.*
 *E i caldi rai del Sole, e quel rossore,*
 *Ch'ogn'animo pudico tocca, e tenta,*
@@ -4622,7 +4620,7 @@ naue alcuna passasse di là, per fare miserabile preda de' nauiganti, come già 
 
 [ГРАВЮРА: Нептун с короной и трезубцем рядом с Амфитритой, оба стоят на колеснице, запряжённой двумя морскими чудовищами (коне-драконами); вверху слева медальон с фигурой на лодке, справа медальон с всадником]
 
-*Imagini di Nettuno dio del mare, & di Anfitrice sua moglie, dinotanti la Spuma del mare, & le tre qualità dell'acqua marina, de fiumi, & de laghi, salata, dolce, & neutrale, con il veloce & frequente moto delle acque.*
+*Imagini di Nettuno dio del mare, & di Anfitrice sua moglie, dinotanti la spuma del mare, & le tre qualità dell'acqua marina, de fiumi, & de laghi, salata, dolce, & neutrale, con il veloce & frequente moto delle acque.*
 
 Колонтитул: De gli Antichi. 211
 Кустод:
@@ -4888,48 +4886,48 @@ l'vno delle braccia, & hà cinto il capo di verde canna, & è con vn manto pur v
 
 VERTVNNO.
 
-*A che ti marauigli di Vedere,*
-*Tante forme in Vn capo? se m'ascolti*
-*Che sia Vertunno tu potrai sapere.*
-*Quà venni di Toscana, oue da molti*
-*Visitato non son, nè mi dier mai*
-*Tempi, con archi, ò con soperbi volti.*
-*Di che punto non curo, perche assai*
-*Mi basta di veder il Roman Foro,*
-*Et vnqua d'altri honor non mi curai.*
-*Passauan di quà via col corso loro*
-*L'acque del Tebro già, come si dice,*
-*Che in altra parte poi voltate foro.*
-*Perche'l bel Tebro con lieto, e felice*
-*Successo al popol suo volse dar loco,*
-*E ciò fù del mio nome la radice.*
-*O che da l'anno, qual a poco a poco*
-*Si và volgendo, fui Vertunno detto,*
-*E consecrato ancora in questo loco.*
-*Quasi che per me sotto l'humil tetto*
-*Riponga il contadino la ricolta,*
-*Che poscia gode, e per cotal rispetto*
-*Vedi che circondato son di molta*
-*Vua, che porporeggia, e la mia testa*
-*E' tutta di mature spiche auolta.*
-*Et par che'l tempo ogni anno mi riuesta*
-*Secondo la stagion di dolci frutti,*
-*Che mi porge la mano al mio honor presta.*
-*Però qui vedi i pomi già produtti*
-*Dal pero a suo dispetto, che l'accorto*
-*Inseritor m'offerse, nè di tutti*
-*Gli altri ti vò dir hora, perche scorto*
-*Da la mendace fama altra ragione*
-*Di nouo del mio nome anco t'apporto.*
-*Ma tu, non quel, che dicon le persone*
-*Di me, ma quel ch'io stesso dico credi,*
-*Ch'al ver non son tutte le lingue buone.*
-*La mia natura è atta, come vedi,*
-*A trasformarsi in tutte le figure,*
-*Pommi in carro, à cauallo, ò fammi à piedi.*
-*Io mi confaccio a tutto, e se tu cure*
-*Vedermi giouinetta delicata,*
-*Dammi feminil vesti monde, e pure*
+A che ti marauigli di Vedere,
+Tante forme in Vn capo? se m'ascolti
+Che sia Vertunno tu potrai sapere.
+Quà venni di Toscana, oue da molti
+Visitato non son, nè mi dier mai
+Tempi, con archi, ò con soperbi volti.
+Di che punto non curo, perche assai
+Mi basta di veder il Roman Foro,
+Et vnqua d'altri honor non mi curai.
+Passauan di quà via col corso loro
+L'acque del Tebro già, come si dice,
+Che in altra parte poi voltate foro.
+Perche'l bel Tebro con lieto, e felice
+Successo al popol suo volse dar loco,
+E ciò fù del mio nome la radice.
+O che da l'anno, qual a poco a poco
+Si và volgendo, fui Vertunno detto,
+E consecrato ancora in questo loco.
+Quasi che per me sotto l'humil tetto
+Riponga il contadino la ricolta,
+Che poscia gode, e per cotal rispetto
+Vedi che circondato son di molta
+Vua, che porporeggia, e la mia testa
+E' tutta di mature spiche auolta.
+Et par che'l tempo ogni anno mi riuesta
+Secondo la stagion di dolci frutti,
+Che mi porge la mano al mio honor presta.
+Però qui vedi i pomi già produtti
+Dal pero a suo dispetto, che l'accorto
+Inseritor m'offerse, nè di tutti
+Gli altri ti vò dir hora, perche scorto
+Da la mendace fama altra ragione
+Di nouo del mio nome anco t'apporto.
+Ma tu, non quel, che dicon le persone
+Di me, ma quel ch'io stesso dico credi,
+Ch'al ver non son tutte le lingue buone.
+La mia natura è atta, come vedi,
+A trasformarsi in tutte le figure,
+Pommi in carro, à cauallo, ò fammi à piedi.
+Io mi confaccio a tutto, e se tu cure
+Vedermi giouinetta delicata,
+Dammi feminil vesti monde, e pure
 
 Колонтитул: 228 Imagini de i Dei
 Кустод: Huom
@@ -4938,46 +4936,46 @@ VERTVNNO.
 
 ## Скан 0271 · с. 229
 
-*Huom farò, se la toga mi fia data,*
-*E farò con la falce vn mettitore,*
-*S'haurò di fien la fronte coronata.*
-*Vestito d'arme già non poco honore*
-*Per quelle hò meritato, sì pareua*
-*A tutti ch'io fossi huom di gran Valore,*
-*Et chi l'arme d'intorno poi mi leua,*
-*E mi veste da graue litigante,*
-*Paio nato a le liti, e se t'aggreua*
-*Vedermi sì seuero, conuiuante*
-*Quasi ebbro mi Vedrai, se'l capo m'orni*
-*Di rose, e che giocondo, e lieto cante.*
-*Parrotti Bacco poi, se tu mi adorni*
-*De la mitra, ch'ei porta, e giurerai*
-*Che veduto non hai vnqua a tuoi giorni*
-*Che più Febo assomigli, se mi dai*
-*L'arco, e la cetra, & vn gran cacciatore*
-*S'haurò le reti tu mi crederai.*
-*Mi dirà ogn'Vno Vago Vccellatore*
-*Simile a Fauno, che mi veggia in mano*
-*La lieue canna; e che? non mi dà il core*
-*Dimostrarmiti ancor à mano à mano*
-*Vn dotto auriga, simile a chi regge*
-*I correnti destrier con forte mano?*
-*I somma non hà termino, nè legge*
-*Alcuna il mio cangiarmi in varie forme,*
-*Qual fò sì ben, ch'alcun mai nol corregge,*
-*S'io vorrò, sarò simile à chi l'orme*
-*Guarda de i vaghi greggi, e de gli armenti,*
-*Ouer farommi a vn pescator conforme.*
-*E quel, che fa più forse che mi senti*
-*Nominar spesso, e che de i ben colti horti*
-*I bei frutti mi son sempre presenti.*
-*Come la Zucca, e'l cauol con ritorti*
-*Giunchi legato, e me notano ancora*
-*I cocomeri, quali mi son porti.*
-*Et ti concludo che quanto orna, e infiora*
-*I lieti prati, tutto mi vien dato,*
-*Et perche mi riuolto adhora adhora*
-*In forme assai, Vertunno fui chiamato.*
+Huom farò, se la toga mi fia data,
+E farò con la falce vn mettitore,
+S'haurò di fien la fronte coronata.
+Vestito d'arme già non poco honore
+Per quelle hò meritato, sì pareua
+A tutti ch'io fossi huom di gran Valore,
+Et chi l'arme d'intorno poi mi leua,
+E mi veste da graue litigante,
+Paio nato a le liti, e se t'aggreua
+Vedermi sì seuero, conuiuante
+Quasi ebbro mi Vedrai, se'l capo m'orni
+Di rose, e che giocondo, e lieto cante.
+Parrotti Bacco poi, se tu mi adorni
+De la mitra, ch'ei porta, e giurerai
+Che veduto non hai vnqua a tuoi giorni
+Che più Febo assomigli, se mi dai
+L'arco, e la cetra, & vn gran cacciatore
+S'haurò le reti tu mi crederai.
+Mi dirà ogn'Vno Vago Vccellatore
+Simile a Fauno, che mi veggia in mano
+La lieue canna; e che? non mi dà il core
+Dimostrarmiti ancor à mano à mano
+Vn dotto auriga, simile a chi regge
+I correnti destrier con forte mano?
+I somma non hà termino, nè legge
+Alcuna il mio cangiarmi in varie forme,
+Qual fò sì ben, ch'alcun mai nol corregge,
+S'io vorrò, sarò simile à chi l'orme
+Guarda de i vaghi greggi, e de gli armenti,
+Ouer farommi a vn pescator conforme.
+E quel, che fa più forse che mi senti
+Nominar spesso, e che de i ben colti horti
+I bei frutti mi son sempre presenti.
+Come la Zucca, e'l cauol con ritorti
+Giunchi legato, e me notano ancora
+I cocomeri, quali mi son porti.
+Et ti concludo che quanto orna, e infiora
+I lieti prati, tutto mi vien dato,
+Et perche mi riuolto adhora adhora
+In forme assai, Vertunno fui chiamato.
 
 Колонтитул: De gli Antichi. 229
 Кустод: PLV
@@ -5486,7 +5484,7 @@ Ma questa distintione non faceuano gli antichi; imperoche voleuano che l'anime t
 
 Et bassi da credere, che ei ne togliesse il ritratto da Virgilio, quale buon tempo prima di lui così lo dipinse.
 
-*Quiui è la Strada, che per l'aria nera*
+*Quiui è la strada, che per l'aria nera*
 *Diritto ad Acheronte ci conduce,*
 *E la Palude, ch'ogn' hor più s'annera,*
 *E calda arena entro Cocito adduce.*
@@ -5544,32 +5542,32 @@ Et così l'haueua dipinto anco Polignoto in certe tauole, che ei ne fece nel tem
 
 ## Скан 0301 · с. 259
 
-*V'habita à lei da presso la Paura*
-*E languida la Fame al furto amica,*
-*La Pouertà, che d'honor poco cura,*
-*La morte ( horribil forme ) e la Fatica.*
-*E quel che l'huomo à sè medesimo fura,*
-*E spesso lo ristora, e lo nutrica,*
-*Il Sonno, che parente è de la Morte,*
-*E i tristi Gaudij de le menti torte.*
+V'habita à lei da presso la Paura
+E languida la Fame al furto amica,
+La Pouertà, che d'honor poco cura,
+La morte ( horribil forme ) e la Fatica.
+E quel che l'huomo à sè medesimo fura,
+E spesso lo ristora, e lo nutrica,
+Il Sonno, che parente è de la Morte,
+E i tristi Gaudij de le menti torte.
 
-*V'hauea luogo à l'incontro l'empia Guerra*
-*Col petto, e con le man tinte di sangue:*
-*Si come quella, che Volge la terra*
-*Spesso sossopra, ond'ella plora, e langue;*
-*Poi di ferrigne mura vn tetto serra*
-*Le trè Furie, ch'al crine han più d'Vn'Angue;*
-*Anzi in vece di crin, di rabbia ardenti*
-*Cingon le tempie lor mille serpenti.*
+V'hauea luogo à l'incontro l'empia Guerra
+Col petto, e con le man tinte di sangue:
+Si come quella, che Volge la terra
+Spesso sossopra, ond'ella plora, e langue;
+Poi di ferrigne mura vn tetto serra
+Le trè Furie, ch'al crine han più d'Vn'Angue;
+Anzi in vece di crin, di rabbia ardenti
+Cingon le tempie lor mille serpenti.
 
-*Stà seco, nè giamai da quelle bande*
-*La rea pazza Discordia arretra il piede;*
-*Di cui pender sù'l collo copia grande*
-*D'auuelenate biscie anco si Vede.*
-*Nel mezo ancor l'antiche braccia spande*
-*Vn grand'Olmo, sù'l qual tengon lor sede*
-*Accolti trà le foglie i folli Sogni,*
-*Che fan, che spesso l'huom vegliando agogni.*
+Stà seco, nè giamai da quelle bande
+La rea pazza Discordia arretra il piede;
+Di cui pender sù'l collo copia grande
+D'auuelenate biscie anco si Vede.
+Nel mezo ancor l'antiche braccia spande
+Vn grand'Olmo, sù'l qual tengon lor sede
+Accolti trà le foglie i folli Sogni,
+Che fan, che spesso l'huom vegliando agogni.
 
 [ВИНЬЕТКА: гравированная печатная виньетка-марка с маской/лицом в центре и растительным орнаментом, внизу страницы]
 
@@ -5653,7 +5651,7 @@ la moglie nel tempio di Esculapio con molti altri, li quali si abbruciarono poi 
 
 Et le guerre sono cagione del contrario. Onde Claudiano finge, che Cerere non volle maritar la figliuola Proserpina à Marte, nè a Febo, che ambi la dimandauano, perche i vehementi ardori del Sole, se troppo durano, così nuocono alle biade, come le guerre. Il perche fecero gli antichi alle volte per la Pace, come si vede in alcune medaglie antiche, vna donna, qual teneua con mano vna spica di formento. E Tibullo perciò disse.
 
-*Vieni alma Pace con la Spica in mano,*
+*Vieni alma Pace con la spica in mano,*
 *Et di bei frutti pieno il bianco senno.*
 
 Et la coronauano talhora di vliuo, & alle volte di Lauro. Et vedesi ancora in alcune medaglie antiche la Pace con ghirlanda di rose. Ma bèche siano i nomi diuersi, & ne fossero ancora fatte diuerse imagini, nondimeno mi pare, che la Pace, & la Concordia siano vna medesima cosa, & furono l'vna, e l'altra adorate da gli antichi, accioche dessero loro vita quieta, & riposata. Sarà dunque bene, che hauendo disegnata, quella io disegni questa ancora, la quale era fatta in forma di donna, che teneua con la destra mano vna tazza, & nella sinistra haueua il corno della copia, onde così disse Seneca di lei.
@@ -5744,12 +5742,12 @@ Et per esser creduto, che la sede propria della Fede fosse nella destra mano, & 
 
 [ГРАВЮРА: Меркурий в крылатом шлеме, с кадуцеем в руке, касается им сидящей на скале Палестры, держащей на коленях ветвь оливы; справа — герма с крылатой головой на сужающемся книзу постаменте; в верхнем левом медальоне — две крылатые борющиеся фигуры, в нижнем левом медальоне — обнажённая бегущая фигура]
 
-*Imagine di Mercurio inuentore delle Lettere,*
-*della Musica, della Geometria, & delle buone*
-*arti, & imagine di Palestra sua figliuola,*
-*Dea della lotta, che tiene in grembo vn ra-*
-*mo di vliuo, essendo vso de lottatori di vn-*
-*gersi con olio.*
+Imagine di Mercurio inuentore delle Lettere,
+della Musica, della Geometria, & delle buone
+arti, & imagine di Palestra sua figliuola,
+Dea della lotta, che tiene in grembo vn ra-
+mo di vliuo, essendo vso de lottatori di vn-
+gersi con olio.
 
 Колонтитул: De gli Antichi. 269
 Кустод:
@@ -5789,12 +5787,12 @@ Perche haueua Mercurio il cappello ancora, & à questo erano anco attacate l'ali
 
 [ГРАВЮРА: герма (бюст) крылатого Меркурия на сужающемся книзу квадратном постаменте, по бокам — две курильницы с гирляндами, из которых поднимается пламя; в верхнем левом медальоне — сцена со стадом овец и пастухом, в верхнем правом медальоне — погрудный портрет бородатого мужчины в венке]
 
-*Statue di Mercurio, dette Hermi, per esser lui*
-*stato l'inuentore di tutte le buone arti, quali*
-*non temono colpi di tempo ò di fortuna, & li*
-*virtuosi non temono niuna loro ingiuria. si-*
-*gnificano ancora la saldezza del parlar veri-*
-*dico.*
+Statue di Mercurio, dette Hermi, per esser lui
+stato l'inuentore di tutte le buone arti, quali
+non temono colpi di tempo ò di fortuna, & li
+virtuosi non temono niuna loro ingiuria. si-
+gnificano ancora la saldezza del parlar veri-
+dico.
 
 Колонтитул: De gli Antichi. 271
 Кустод:
@@ -5860,11 +5858,11 @@ viuere vna vita domestica, honesta, & ciuile. Et per questo consecrarono gli ant
 
 [ГРАВЮРА: крылатый Сон парит над сидящей женской фигурой (Ночь) в усыпанном звёздами одеянии, держащей на коленях двух спящих детей (белого и тёмного) и крылатого мальчика рядом с собой; в одной руке летящей фигуры — дымящийся факел, в другой — рог]
 
-*Imagine della Notte nutrice della Morte, & del*
-*Sonno, & imagine del Sonno fratello & com-*
-*pagno della Morte; quiete & dolce ristoro de*
-*mortali. & il corno dinota il riposo, & va-*
-*rietà de' sogni.*
+Imagine della Notte nutrice della Morte, & del
+Sonno, & imagine del Sonno fratello & com-
+pagno della Morte; quiete & dolce ristoro de
+mortali. & il corno dinota il riposo, & va-
+rietà de' sogni.
 
 Колонтитул: De gli Antichi. 275
 Кустод:
@@ -5878,7 +5876,7 @@ qualche poco, & è così dipinta, che rappresenta l'ornamento del Cielo. Tibullo
 *Dateui pur piacer che homai la notte*
 *I suoi destrier' hà giunti insieme, e Viene*
 *Correndo à noi dalle Cimmerie grotte:*
-*E le Stelle di Vaga luce piene*
+*E le stelle di Vaga luce piene*
 *Seguono il carro de la madre, quali*
 *Il ciel' in bel drapello accolte tiene.*
 *Et il Sonno spiegando le negre ali*
@@ -5955,14 +5953,14 @@ Voleuano poi gli antichi ancora, che Mercurio hauesse cura de' Pastori; di che f
 
 [ГРАВЮРА: двое воинов с поднятыми мечами по сторонам гермы с двуликой (Янус-подобной) головой на сужающемся книзу постаменте; справа обнажённый крылатый Меркурий в крылатом шлеме с кадуцеем в руке, несущий на плечах барана; внизу справа медальон с маленькой фигурой]
 
-*Imagine di Mercurio dio della eloquenza, scor-*
-*ta de passeggieri, Dio de Pastori, inteso anco per*
-*la forza del Sole; & imagine del dio Anubi*
-*dio della sagacità appo gli Egittij, che è vn*
-*istesso con Mercurio, & il Caduceo quì signi-*
-*fica il Sole & la Luna il demone la fortuna,*
-*l'amore, & la necessità che vanno co'l nasci-*
-*mento humano.*
+Imagine di Mercurio dio della eloquenza, scor-
+ta de passeggieri, Dio de Pastori, inteso anco per
+la forza del Sole; & imagine del dio Anubi
+dio della sagacità appo gli Egittij, che è vn
+istesso con Mercurio, & il Caduceo quì signi-
+fica il Sole & la Luna il demone la fortuna,
+l'amore, & la necessità che vanno co'l nasci-
+mento humano.
 
 Колонтитул: De gli Antichi. 279
 Кустод:
@@ -7258,7 +7256,7 @@ se anco vna medesima cosa, vsarono gli antichi nelle feste Bacchanali di portare
 *Che t'ami ogn'vno dunque donde Viene?*
 *Tù così nudo Vai à l'agghiacciata*
 *Staggion del freddo Inuerno com'al Sole*
-*De la rouente State inarsicciata.*
+*De la rouente state inarsicciata.*
 *Furono tutte queste mie parole,*
 *E mi rispose con la falce in mano*
 *Così di Baccho la rustica prole.*
@@ -8192,50 +8190,50 @@ E Mosco poeta Greco lo fa parimente con gli occhi lucidi, & infiammati, quando f
 
 ## Скан 0457 · с. 415
 
-*Venere il figlio Amor cercando giua,*
-*E chiamando dicea per ogni riua.*
-*A chi m'insegna Amor da me fuggito*
-*Dono vn bacio in mercede, e à chi sia ardito*
-*Di rimenarlo à me, prometto, e giuro*
-*Ch'assai più gli darò d'Vn bacio puro.*
-*Hà tai segni il fanciullo, e tali arnesi,*
-*Ch'al suo primo apparir saran palesi.*
-*Non hà bianco il color, ma sembra foco,*
-*Gli occhi ardenti, e mouenti, e pien di gioco.*
-*Dolce voce, e parlar, crudele il core,*
-*Nè quel dentro vorria, che mostra fore.*
-*Mentitor, disleale, e s'ei s'adira,*
-*Furor, fiamma, veleno, e rabbia spira.*
-*Traditor, garzoncel, fallace, e scherza*
-*Sempre in danno d'altrui con laccio, ò sferza.*
-*Crinita egli hà la fronte, e fero il volto.*
-*Picciol braccio, e sottil, ma snello, e sciolto.*
-*Ond'ei lunge auuentar può vn dardo acuto*
-*Fin nel basso Acheronte in braccio à Pluto.*
-*Hà Velato il pensier il corpo nudo,*
-*A lato come augello, ardito, e crudo.*
-*Hor'in questo, hor'in quello drizza il volo,*
-*E nel mezzo de i cuori alloggia solo.*
-*Vn piccol'arco ha in man, sour'esso è sempre.*
-*Vn pungente quadrel d'amare tempre.*
-*Ben'è breue lo stral, ma il ciel offende;*
-*Vna faretra d'oro a gli homer pende*
-*E son l'empie saette, ond'io talhora*
-*Impiagata ne fu dolente ancora.*
-*Aspro à tutti, e crudel, ma com'io veggio*
-*Il disleal'à suoi fa sempre peggio.*
-*Breue facella hà in man, ch'io vidi spesso*
-*Far nell'acque auampar Nettuno stesso.*
-*Se tu il, puoi ripigliare a forza il mena,*
-*E non hauer pietà se'l vedi in pena*
-*Lagrimando restar, pon mente fiso*
-*Ch'ei non fugga in quel, se moue riso,*
-*Ma tu lo stringi alhor. Se vuol baciarte,*
-*Fuggi, perche le labra in ogni parte*
-*Son di tosco ripiene, s'ei dicesse*
-*Prendi queste arme mie, vatten con esse,*
-*Non l'ardir di toccar rifiuta il dono,*
-*Fiamma, peste tormento, e morte sono.*
+Venere il figlio Amor cercando giua,
+E chiamando dicea per ogni riua.
+A chi m'insegna Amor da me fuggito
+Dono vn bacio in mercede, e à chi sia ardito
+Di rimenarlo à me, prometto, e giuro
+Ch'assai più gli darò d'Vn bacio puro.
+Hà tai segni il fanciullo, e tali arnesi,
+Ch'al suo primo apparir saran palesi.
+Non hà bianco il color, ma sembra foco,
+Gli occhi ardenti, e mouenti, e pien di gioco.
+Dolce voce, e parlar, crudele il core,
+Nè quel dentro vorria, che mostra fore.
+Mentitor, disleale, e s'ei s'adira,
+Furor, fiamma, veleno, e rabbia spira.
+Traditor, garzoncel, fallace, e scherza
+Sempre in danno d'altrui con laccio, ò sferza.
+Crinita egli hà la fronte, e fero il volto.
+Picciol braccio, e sottil, ma snello, e sciolto.
+Ond'ei lunge auuentar può vn dardo acuto
+Fin nel basso Acheronte in braccio à Pluto.
+Hà Velato il pensier il corpo nudo,
+A lato come augello, ardito, e crudo.
+Hor'in questo, hor'in quello drizza il volo,
+E nel mezzo de i cuori alloggia solo.
+Vn piccol'arco ha in man, sour'esso è sempre.
+Vn pungente quadrel d'amare tempre.
+Ben'è breue lo stral, ma il ciel offende;
+Vna faretra d'oro a gli homer pende
+E son l'empie saette, ond'io talhora
+Impiagata ne fu dolente ancora.
+Aspro à tutti, e crudel, ma com'io veggio
+Il disleal'à suoi fa sempre peggio.
+Breue facella hà in man, ch'io vidi spesso
+Far nell'acque auampar Nettuno stesso.
+Se tu il, puoi ripigliare a forza il mena,
+E non hauer pietà se'l vedi in pena
+Lagrimando restar, pon mente fiso
+Ch'ei non fugga in quel, se moue riso,
+Ma tu lo stringi alhor. Se vuol baciarte,
+Fuggi, perche le labra in ogni parte
+Son di tosco ripiene, s'ei dicesse
+Prendi queste arme mie, vatten con esse,
+Non l'ardir di toccar rifiuta il dono,
+Fiamma, peste tormento, e morte sono.
 
 Колонтитул: De gli Antichi. 415
 Кустод: Tocca
@@ -8447,49 +8445,49 @@ moue quelle à pietà, le quali la pregano à perdonargli, & esse parimente gli 
 
 ## Скан 0467 · с. 425
 
-*Le lagrime, i sospir, i mesti amori,*
-*I dolorosi accenti, e i tristi lai,*
-*Rinouano con quelli anco i dolori,*
-*C'hanno sentiti all'vltima partita,*
-*Quando lasciar morendo i primi ardori.*
-*Trà questi, e le Verdi herbe, ond'è gradita*
-*La densa selua, Van le donne antiche,*
-*Ch'amar miseramente in questa vita.*
-*E fanno proua allhor quanto nimiche*
-*A sè stesse fur già, mentre che furo*
-*A le Voglie d'Amor già troppo amiche.*
-*Mostra piangendo Semele, a che duro*
-*Partito fosse quando fulminata*
-*Produsse al mondo il parto non maturo.*
-*E Vorebbe poter non esser stata*
-*Compiacciuta di quel, che chiese a Gioue*
-*Alhor che da Giunone fu ingannata.*
-*Onde si scuote, e con la mano moue*
-*Spesso la veste, e fassi Vento, e finge*
-*Che la fulminca fiamma si rinoue*
-*Ira, di sdegno, e graue duolo astringe*
-*Cenida poi che femina si Vede*
-*Di nuouo, e in viso l'animo dipinge.*
-*Procri Vicina à morte in terra siede,*
-*Le piaghe asciuga, & al suo feritore*
-*Serua pur'anco l'amorosa fede,*
-*Col lume in mano Vinta dal dolore,*
-*Salta nel mar la giouane di Sesto,*
-*Oue affogato Vede il suo amatore.*
-*Nè di lei mostra hauere il piè men presto*
-*Saffo à salire sopra il duro sasso*
-*Per gittarsi ne l'onde, e'l dishonesto*
-*Amor, ch'infiammò Creta, à lento passo*
-*Andar fa l'infelice, che si duole,*
-*Che si sia posto il cor suo così basso,*
-*E mostra vn bianco Toro, e dopò Vuole,*
-*Che non men del suo error si Vegga quello,*
-*Che per Amor'han fatto le figliuole,*
-*Per le quali restò morto il fratello*
-*Da chi lasciò di lor l'altra su'l lito,*
-*E seco trasse l'altra, che del bello*
-*Hippolito hebbe il cor già sì inuaghito;*
-*Ma non potendo poi trarlo a sue Voglie,*
+Le lagrime, i sospir, i mesti amori,
+I dolorosi accenti, e i tristi lai,
+Rinouano con quelli anco i dolori,
+C'hanno sentiti all'vltima partita,
+Quando lasciar morendo i primi ardori.
+Trà questi, e le Verdi herbe, ond'è gradita
+La densa selua, Van le donne antiche,
+Ch'amar miseramente in questa vita.
+E fanno proua allhor quanto nimiche
+A sè stesse fur già, mentre che furo
+A le Voglie d'Amor già troppo amiche.
+Mostra piangendo Semele, a che duro
+Partito fosse quando fulminata
+Produsse al mondo il parto non maturo.
+E Vorebbe poter non esser stata
+Compiacciuta di quel, che chiese a Gioue
+Alhor che da Giunone fu ingannata.
+Onde si scuote, e con la mano moue
+Spesso la veste, e fassi Vento, e finge
+Che la fulminca fiamma si rinoue
+Ira, di sdegno, e graue duolo astringe
+Cenida poi che femina si Vede
+Di nuouo, e in viso l'animo dipinge.
+Procri Vicina à morte in terra siede,
+Le piaghe asciuga, & al suo feritore
+Serua pur'anco l'amorosa fede,
+Col lume in mano Vinta dal dolore,
+Salta nel mar la giouane di Sesto,
+Oue affogato Vede il suo amatore.
+Nè di lei mostra hauere il piè men presto
+Saffo à salire sopra il duro sasso
+Per gittarsi ne l'onde, e'l dishonesto
+Amor, ch'infiammò Creta, à lento passo
+Andar fa l'infelice, che si duole,
+Che si sia posto il cor suo così basso,
+E mostra vn bianco Toro, e dopò Vuole,
+Che non men del suo error si Vegga quello,
+Che per Amor'han fatto le figliuole,
+Per le quali restò morto il fratello
+Da chi lasciò di lor l'altra su'l lito,
+E seco trasse l'altra, che del bello
+Hippolito hebbe il cor già sì inuaghito;
+Ma non potendo poi trarlo a sue Voglie,
 
 Колонтитул: De gli Antichi. 425
 Кустод: Tanto
@@ -8498,49 +8496,49 @@ moue quelle à pietà, le quali la pregano à perdonargli, & esse parimente gli 
 
 ## Скан 0468 · с. 426
 
-*Tanto l'odiò, quanto l'hauea gradito,*
-*Par che Laodamia s'allegri, e doglie*
-*De' falsi sogni, nè dopò la morte*
-*Del suo Protesilao più Viuer Voglie.*
-*Et altre poi, le quai con braccio forte*
-*L'infelici alme trassero de i petti,*
-*Mostrano i duri ferri, onde son morte.*
-*Tisbe quel del suo sposo, i cui diletti*
-*Amorosi da sorte troppo fera,*
-*Quando men si douea, furo intercetti.*
-*Canace l'hebbe dal fratello, & era,*
-*De l'hospite quell'altro, c'hauea Dido.*
-*Che già no'lascia acciò, ch'ella ne pera.*
-*E com'hà detto già il publico grido*
-*Quiui mostra la Luna, ch'ella spesso*
-*D'Endimion scese a l'amato nido.*
-*Più di mille altre poi veniamo appresso*
-*Mostrando ciascheduna quel, c'haueua*
-*Già per Amor contra di sè commesso.*
-*E mentre che ciascuna si doleua*
-*De' suoi antichi danni dolcemente,*
-*Che'l lamentarsi in parte il duol rileua,*
-*Ecco che vien inauedutamente*
-*Battendo l'ali per la selua ombrosa*
-*Amor tra questa addolorata gente*
-*La qual, benche sia quasi come ascosa,*
-*L'ardente face, e la faretra d'oro*
-*L'arco, e li strai per l'aria nebulosa,*
-*Lo riconosce nondimeno, e foro*
-*Subito quelle donne tutte insieme*
-*Per tener il commun nemico loro.*
-*Cui l'aria humida, e graue così preme*
-*L'ali, che'l miserello, che si sforza*
-*Pur di fuggir, e de i nimici teme.*
-*In vano s'affatita, e si rinforza*
-*L'impeto feminile in modo tale,*
-*Che Vinto se ne resta in altrui foza.*
-*Era ne la gran selua Vn Mirto, quale*
-*Era il tormento di chi fosse stato*
-*Ingiustamente altrui cagion di male.*
-*Que già da Proserpina legato*
-*Adone fu punito dell'hauere*
-*Per Venere l'amor di lei sprezzato.*
+Tanto l'odiò, quanto l'hauea gradito,
+Par che Laodamia s'allegri, e doglie
+De' falsi sogni, nè dopò la morte
+Del suo Protesilao più Viuer Voglie.
+Et altre poi, le quai con braccio forte
+L'infelici alme trassero de i petti,
+Mostrano i duri ferri, onde son morte.
+Tisbe quel del suo sposo, i cui diletti
+Amorosi da sorte troppo fera,
+Quando men si douea, furo intercetti.
+Canace l'hebbe dal fratello, & era,
+De l'hospite quell'altro, c'hauea Dido.
+Che già no'lascia acciò, ch'ella ne pera.
+E com'hà detto già il publico grido
+Quiui mostra la Luna, ch'ella spesso
+D'Endimion scese a l'amato nido.
+Più di mille altre poi veniamo appresso
+Mostrando ciascheduna quel, c'haueua
+Già per Amor contra di sè commesso.
+E mentre che ciascuna si doleua
+De' suoi antichi danni dolcemente,
+Che'l lamentarsi in parte il duol rileua,
+Ecco che vien inauedutamente
+Battendo l'ali per la selua ombrosa
+Amor tra questa addolorata gente
+La qual, benche sia quasi come ascosa,
+L'ardente face, e la faretra d'oro
+L'arco, e li strai per l'aria nebulosa,
+Lo riconosce nondimeno, e foro
+Subito quelle donne tutte insieme
+Per tener il commun nemico loro.
+Cui l'aria humida, e graue così preme
+L'ali, che'l miserello, che si sforza
+Pur di fuggir, e de i nimici teme.
+In vano s'affatita, e si rinforza
+L'impeto feminile in modo tale,
+Che Vinto se ne resta in altrui foza.
+Era ne la gran selua Vn Mirto, quale
+Era il tormento di chi fosse stato
+Ingiustamente altrui cagion di male.
+Que già da Proserpina legato
+Adone fu punito dell'hauere
+Per Venere l'amor di lei sprezzato.
 
 Колонтитул: 426 Imagini de i Dei
 Кустод: A que-
@@ -8549,48 +8547,48 @@ moue quelle à pietà, le quali la pregano à perdonargli, & esse parimente gli 
 
 ## Скан 0469 · с. 427
 
-*A questo vengon tutte le seuere,*
-*E meste donne, e con lor tranno Amore,*
-*Qual fanno a l'alto tronco sostenere.*
-*Gli hanno legati le mani, e piedi; e fuore*
-*D'ogni Vso di pietà cercan di fare*
-*Nel misero, contento il lor furore.*
-*L'accusan tutte, nè però trouare*
-*Sano giusta cagion di dargli pena,*
-*Ma giusto fan che sia quanto lor pare.*
-*Ond'ei si sente andar per ogni Vena*
-*Vn timor freddo, che l'aghiaccia, e turba*
-*Il mesto duol la faccia già serena,*
-*Poi che si vede in mano à l'empia turba,*
-*La qual'incolpa lui de i propri errori,*
-*Et ogni legge, & ordine conturba.*
-*A lui ciascuna improuera i dolori*
-*De la passata morte, e poi gli dice,*
-*Com'io già, così Voglio, ch'hor tu mori.*
-*E pensano di far lieto, e felice*
-*Tutte lo stato lor, se fan Vendetta*
-*Di lui, come lor par, se ben lice.*
-*Però mostrano quel, onde intercetta*
-*Fù lor la vita, e nel medesmo modo*
-*Che si tormenti Amor ciascuna affretta.*
-*Porta questa Vn coltello, e grida i' lodo,*
-*Che sia questo ad Amor tormento, e morte.*
-*Quella mostra d'Vn laccio il saldo nodo.*
-*Quella altra par, ch'assai si riconforte*
-*Mostrando i caui fiumi, perche spera*
-*Veder'in altri l'Vltima sua sorte.*
-*Chi l'erte rupi, chi l'irata, e fera*
-*Onda del mar, chi mostra il mar quieto,*
-*Secondo che piu brama, ch'Amor pera.*
-*Alcuna dice, hora farò pur lieto*
-*Il mio cor con la morte di questo empio*
-*Se la vendetta à me stessa non Vieto.*
-*Queste fiamme faranno il crudo scempio,*
-*E scuotendo l'ardenti fiamme Vuole,*
-*Ch'Amor del suo morir sia nuouo essempio.*
-*Mirrha scoprendo la matura prole*
-*Squarcia il bel ventre e piglia poi con mano*
-*Le lagrime, onde mesta ancor si duole.*
+A questo vengon tutte le seuere,
+E meste donne, e con lor tranno Amore,
+Qual fanno a l'alto tronco sostenere.
+Gli hanno legati le mani, e piedi; e fuore
+D'ogni Vso di pietà cercan di fare
+Nel misero, contento il lor furore.
+L'accusan tutte, nè però trouare
+Sano giusta cagion di dargli pena,
+Ma giusto fan che sia quanto lor pare.
+Ond'ei si sente andar per ogni Vena
+Vn timor freddo, che l'aghiaccia, e turba
+Il mesto duol la faccia già serena,
+Poi che si vede in mano à l'empia turba,
+La qual'incolpa lui de i propri errori,
+Et ogni legge, & ordine conturba.
+A lui ciascuna improuera i dolori
+De la passata morte, e poi gli dice,
+Com'io già, così Voglio, ch'hor tu mori.
+E pensano di far lieto, e felice
+Tutte lo stato lor, se fan Vendetta
+Di lui, come lor par, se ben lice.
+Però mostrano quel, onde intercetta
+Fù lor la vita, e nel medesmo modo
+Che si tormenti Amor ciascuna affretta.
+Porta questa Vn coltello, e grida i' lodo,
+Che sia questo ad Amor tormento, e morte.
+Quella mostra d'Vn laccio il saldo nodo.
+Quella altra par, ch'assai si riconforte
+Mostrando i caui fiumi, perche spera
+Veder'in altri l'Vltima sua sorte.
+Chi l'erte rupi, chi l'irata, e fera
+Onda del mar, chi mostra il mar quieto,
+Secondo che piu brama, ch'Amor pera.
+Alcuna dice, hora farò pur lieto
+Il mio cor con la morte di questo empio
+Se la vendetta à me stessa non Vieto.
+Queste fiamme faranno il crudo scempio,
+E scuotendo l'ardenti fiamme Vuole,
+Ch'Amor del suo morir sia nuouo essempio.
+Mirrha scoprendo la matura prole
+Squarcia il bel ventre e piglia poi con mano
+Le lagrime, onde mesta ancor si duole.
 
 Колонтитул: De gli Antichi. 427
 Кустод: E quelle
@@ -8599,48 +8597,48 @@ moue quelle à pietà, le quali la pregano à perdonargli, & esse parimente gli 
 
 ## Скан 0470 · с. 428
 
-*E quelle arditamente di lontano*
-*Verso lui spiega, che di sè pauenta,*
-*Vedendosi a partito troppo strano.*
-*Alcuna di schernirlo si contenta,*
-*Mostrando perdonargli, e che quell'ira*
-*C'hebbe già contra lui tutta sia spenta,*
-*Ma lo scherno, è ben tal, che ne sospira*
-*Amor non men, che s'aspettasse morte,*
-*Perche graue tormento seco tira,*
-*Chà da far vno stil pungente, a forte*
-*Spicciar fuor de le membra delicate*
-*Il sangue, che le rose hebbero in sorte.*
-*Oueramente che siano infiammate*
-*Con lumi accesi quelle belle parte,*
-*Onde son le persone generate,*
-*La bella Citherea, ch'era in disparte,*
-*Quando intende del figlio, lieta Vuole*
-*Anch'essa hauer ne' suoi tormenti parte.*
-*A lui subito Vien, nè come sole*
-*Piaceuol parla, ma turbata in Vista*
-*Gli accresce duolo, e tema con parole*
-*Chiamandolo cagion d'ogni sua trista*
-*Fama, e li grida, ahi scelerato sai*
-*Ben tu, che per te sol biasmo s'acquista.*
-*Poi gli improuera quanto fece mai,*
-*Gli adulterij di Marte, che scoperse*
-*Al Ciel Febo con suoi lucidi rai.*
-*Il membruto Priapo, che le aperse*
-*Il Ventre con figura dishonesta,*
-*Di che non poco scorno già sofferse.*
-*L'Hermafrodito, il cui nome anco resta*
-*A chi d'huomo e di donna habbia l'insegna,*
-*Nè Veramente sia poi quel, nè questa*
-*L'empio Erice, del qual'ella si sdegna*
-*Per la sua crudeltade, e ch'habbia fatto*
-*Ch'a star con huom mortal più volte Vegna.*
-*Nè del dirsi contenta, ma con atto*
-*Di chi gastigar voglia il proprio errore*
-*In colui, ch'ad errar già l'habbia tratto,*
-*Raccoglie insieme Vno, & Vn'altro fiore*
-*E le Vermiglie rose, con le quali*
-*Poi batte il mesto, e sconsolato Amore.*
+E quelle arditamente di lontano
+Verso lui spiega, che di sè pauenta,
+Vedendosi a partito troppo strano.
+Alcuna di schernirlo si contenta,
+Mostrando perdonargli, e che quell'ira
+C'hebbe già contra lui tutta sia spenta,
+Ma lo scherno, è ben tal, che ne sospira
+Amor non men, che s'aspettasse morte,
+Perche graue tormento seco tira,
+Chà da far vno stil pungente, a forte
+Spicciar fuor de le membra delicate
+Il sangue, che le rose hebbero in sorte.
+Oueramente che siano infiammate
+Con lumi accesi quelle belle parte,
+Onde son le persone generate,
+La bella Citherea, ch'era in disparte,
+Quando intende del figlio, lieta Vuole
+Anch'essa hauer ne' suoi tormenti parte.
+A lui subito Vien, nè come sole
+Piaceuol parla, ma turbata in Vista
+Gli accresce duolo, e tema con parole
+Chiamandolo cagion d'ogni sua trista
+Fama, e li grida, ahi scelerato sai
+Ben tu, che per te sol biasmo s'acquista.
+Poi gli improuera quanto fece mai,
+Gli adulterij di Marte, che scoperse
+Al Ciel Febo con suoi lucidi rai.
+Il membruto Priapo, che le aperse
+Il Ventre con figura dishonesta,
+Di che non poco scorno già sofferse.
+L'Hermafrodito, il cui nome anco resta
+A chi d'huomo e di donna habbia l'insegna,
+Nè Veramente sia poi quel, nè questa
+L'empio Erice, del qual'ella si sdegna
+Per la sua crudeltade, e ch'habbia fatto
+Ch'a star con huom mortal più volte Vegna.
+Nè del dirsi contenta, ma con atto
+Di chi gastigar voglia il proprio errore
+In colui, ch'ad errar già l'habbia tratto,
+Raccoglie insieme Vno, & Vn'altro fiore
+E le Vermiglie rose, con le quali
+Poi batte il mesto, e sconsolato Amore.
 
 Колонтитул: 428 Imagini de i Dei
 Кустод: E tan-
@@ -8649,25 +8647,25 @@ moue quelle à pietà, le quali la pregano à perdonargli, & esse parimente gli 
 
 ## Скан 0471 · с. 429
 
-*E tante gli ne dà, che de' suoi mali*
-*Quelle donne diuennero pietose,*
-*Che pria gli minacciar pene mortali.*
-*Però la pregar tanto, che depose*
-*La bella madre l'ira, e il graue sdegno,*
-*Che mal contra il figliuol già la dispose.*
-*E ciascheduna dice essere indegno*
-*Amor di tante pene, e che per lui*
-*Non giunse alcuna mai al tristo segno*
-*Di darsi morte, ma che furo i sui*
-*Fati cagion del miserabil fine,*
-*Che destinar così, disser, di nui,*
-*Placata dunque Vener le meschine*
-*Donne ringratia del pietoso officio,*
-*Poi scioglie il figlio con le man diuine,*
-*Quel già sicuro dal crudele esitio,*
-*Che gli fu apparecchiato, Via sen'Vola,*
-*Così foss'egli andato in precipitio,*
-*Nè più di lui s'Vdisse mai parola.*
+E tante gli ne dà, che de' suoi mali
+Quelle donne diuennero pietose,
+Che pria gli minacciar pene mortali.
+Però la pregar tanto, che depose
+La bella madre l'ira, e il graue sdegno,
+Che mal contra il figliuol già la dispose.
+E ciascheduna dice essere indegno
+Amor di tante pene, e che per lui
+Non giunse alcuna mai al tristo segno
+Di darsi morte, ma che furo i sui
+Fati cagion del miserabil fine,
+Che destinar così, disser, di nui,
+Placata dunque Vener le meschine
+Donne ringratia del pietoso officio,
+Poi scioglie il figlio con le man diuine,
+Quel già sicuro dal crudele esitio,
+Che gli fu apparecchiato, Via sen'Vola,
+Così foss'egli andato in precipitio,
+Nè più di lui s'Vdisse mai parola.
 
 [ВИНЬЕТКА: декоративная наборная линейка из растительных орнаментов]
 
@@ -8871,7 +8869,7 @@ Et la prima eloquenza fu de gl'innamorati, quali cercarono di persuadere alle am
 *L'animo tuo di Vincer' hor me armata,*
 *Che nuda già ti Vinsi, e disarmata?*
 
-Et ò per questo, ò perche altro fosse, fu chiamata Venere anco talhora Vittrice: e trouasi, che in certa parte del paese Corintho fu vna statoa, che porgeua vna Vittoria con la mano, & era perciò detta Nicofora con voce Greca, che viene a dire appo noi che porta la Vittoria. Et scriue Pausania, che questa fu dedicata da Hipermestra, poscia che fu liberata dal giudicio, che le haueua mosso contra Danao suo padre, perche ella non le haueua voluto vbbidire di ammazzare il marito, come haueuano fatto tutte le altre sue sorelle. Et i Romani faceuano Venere Vittrice in questo modo, come si vede in vna medaglia di Numeriano Imperadore. Dipingeuano, & scolpiuano vna donna bellissima con veste lunga fino a terra la quale con la mano destra porgeua vna breue imagine della Vittoria, e nella sinistra haueua certa cosa fatta in questa guisa, la quale voleuano alcuni, che rappresentasse la imagine, che adorauano quelli di Paffo sotto il nome di Venere, come hò già detto; & alcuni altri hanno voluto, che piu tosto sia vno specchio, perche scriue Filostrato nella dipintura, ch'ei fa de gli Amori, che le Ninfe posero vna statoa a Venere, perch'ella le fece madri di così bella prole, come sono gli Amori, & le dedicarono vno specchio d'argento, con alcuni adornamenti da i piedi dorati. In altro modo ancora si vede Venere in vna medaglia antica di Faustina Augusta la quale con la sinistra mano tiene vno scudo appoggiato in terra, che hà due piccole figurette scolpite nel mezo, e con la destra porge vna vittoria, & hà le lettere intorno, che dicono, Venere Vitrice. Ricordomi di hauere veduta vn'altra medaglia ancora antica pur di Faustina, oue erano lettere, che diceuano, Venere, con vna donna in piè vestita, la quale con la sinistra mano da vna parte teneua il lembo della veste, & lo tiraua sù con l'altra porgeua certo non sò che, che pareua vn pomo, forse per memoria di quello, che le fu dato Pari, quando la giudicò piu bella di Giunone, e di Pallade. Onde Pausania le mette parimente vn pomo in mano, quando riferisce vna certa statoa di Venere, la quale era appresso de i Sicionij in Grecia dicendo, che quiui era vn Tempio dedicato a questa Dea, nel quale non poteua entrare mai piu di due Donne: & di queste l'vna, che ne haueua la guardia, staua casta sempre, nè giaceua con il marito mai, mentre che era à questo officio; l'altra bisognaua, che fosse vergine: perche maneggia le cose de gli sacrifici, nè staua à questa cura piu di vn'anno. E tutti gli altri, che a questo
+Et ò per questo, ò perche altro fosse, fu chiamata Venere anco talhora Vittrice: e trouasi, che in certa parte del paese Corintho fu vna statoa, che porgeua vna Vittoria con la mano, & era perciò detta Nicofora con voce Greca, che viene a dire appo noi che porta la Vittoria. Et scriue Pausania, che questa fu dedicata da Hipermestra, poscia che fu liberata dal giudicio, che le haueua mosso contra Danao suo padre, perche ella non le haueua voluto vbbidire di ammazzare il marito, come haueuano fatto tutte le altre sue sorelle. Et i Romani faceuano Venere Vittrice in questo modo, come si vede in vna medaglia di Numeriano Imperadore. Dipingeuano, & scolpiuano vna donna bellissima con veste lunga fino a terra la quale con la mano destra porgeua vna breue imagine della Vittoria, e nella sinistra haueua certa cosa fatta in questa guisa, la quale voleuano alcuni, che rappresentasse la imagine, che adorauano quelli di Paffo sotto [знак] il nome di Venere, come hò già detto; & alcuni altri hanno voluto, che piu tosto sia vno specchio, perche scriue Filostrato nella dipintura, ch'ei fa de gli Amori, che le Ninfe posero vna statoa a Venere, perch'ella le fece madri di così bella prole, come sono gli Amori, & le dedicarono vno specchio d'argento, con alcuni adornamenti da i piedi dorati. In altro modo ancora si vede Venere in vna medaglia antica di Faustina Augusta la quale con la sinistra mano tiene vno scudo appoggiato in terra, che hà due piccole figurette scolpite nel mezo, e con la destra porge vna vittoria, & hà le lettere intorno, che dicono, Venere Vitrice. Ricordomi di hauere veduta vn'altra medaglia ancora antica pur di Faustina, oue erano lettere, che diceuano, Venere, con vna donna in piè vestita, la quale con la sinistra mano da vna parte teneua il lembo della veste, & lo tiraua sù con l'altra porgeua certo non sò che, che pareua vn pomo, forse per memoria di quello, che le fu dato Pari, quando la giudicò piu bella di Giunone, e di Pallade. Onde Pausania le mette parimente vn pomo in mano, quando riferisce vna certa statoa di Venere, la quale era appresso de i Sicionij in Grecia dicendo, che quiui era vn Tempio dedicato a questa Dea, nel quale non poteua entrare mai piu di due Donne: & di queste l'vna, che ne haueua la guardia, staua casta sempre, nè giaceua con il marito mai, mentre che era à questo officio; l'altra bisognaua, che fosse vergine: perche maneggia le cose de gli sacrifici, nè staua à questa cura piu di vn'anno. E tutti gli altri, che a questo
 
 Колонтитул: 444 Imagini de i Dei
 Кустод: tempio
@@ -9094,17 +9092,17 @@ imitando, quanto per loro si può la bontà diuina, la quale al farti bene è se
 
 ## Скан 0501 · с. 459
 
-*Questa Eufrosina, quella Aglaia, hà nome;*
-*Con grati nodi de le belle braccia*
-*A la terza sorella insieme auinte.*
-*Gioue è lor padre, e del celeste seme*
-*Fur concepute da la madre Eunomia,*
-*Ch'al mondo poscia con felice parto*
-*Le produsse ministre liete, e grate*
-*A l'alma Citherea, sì che per loro*
-*Ella souente con il bel Cupido*
-*Gli amorosi piaceri accresce in modo,*
-*Ch'ogni animo gentil ne resta Vinto.*
+Questa Eufrosina, quella Aglaia, hà nome;
+Con grati nodi de le belle braccia
+A la terza sorella insieme auinte.
+Gioue è lor padre, e del celeste seme
+Fur concepute da la madre Eunomia,
+Ch'al mondo poscia con felice parto
+Le produsse ministre liete, e grate
+A l'alma Citherea, sì che per loro
+Ella souente con il bel Cupido
+Gli amorosi piaceri accresce in modo,
+Ch'ogni animo gentil ne resta Vinto.
 
 IL FINE.
 
@@ -10554,8 +10552,8 @@ ta da alcuno per sua deuotione, ilquale fosse initiato così ne i misteri di Cib
 [ВИНЬЕТКА: типографская концовка-гравюра в виде короны]
 
 Колонтитул: 544 Aggionta
-Кустод: (отсутствует — страница заканчивается виньеткой и сигнатурой, отдельной строки-кустода нет)
-Сигнатура: S[?]. — после «S» стоит сильно переиспачканный типографской краской знак (блот), в котором неразличимы границы буквы; визуально ближе всего к «f»/декоративной «E», но определить однозначно по увеличенному фрагменту фото не удалось
+Кустод:
+Сигнатура: S[?].
 Маргиналии: (нет)
 
 ## Скан 0587 · с. Titelblatt_r
@@ -10567,9 +10565,9 @@ IMAGINI
 DE GLI DEI
 INDIANI.
 
-Колонтитул: (нет)
-Кустод: (нет)
-Сигнатура: (нет)
+Колонтитул:
+Кустод:
+Сигнатура:
 Маргиналии: (нет)
 
 Нумерация: второй (внутренний) титульный лист вставки без печатного номера страницы; печатная пагинация книги прерывается между сканами 0586 (с. 544) и 0591 (с. 545) — сканы 0587–0590 (второй титул и посвящение издателя Pietro Paolo Tozzi) номера страницы не несут, см. PAGES.tsv (Titelblatt_r).
@@ -10578,9 +10576,9 @@ INDIANI.
 
 [ПУСТАЯ СТРАНИЦА]
 
-Колонтитул: (нет)
-Кустод: (нет)
-Сигнатура: (нет)
+Колонтитул:
+Кустод:
+Сигнатура:
 Маргиналии: (нет)
 
 Нумерация: без печатного номера страницы (оборот второго титульного листа вставки, см. PAGES.tsv: Titelblatt_v).
@@ -10597,9 +10595,9 @@ PIERO BVARNO.
 
 [ИНИЦИАЛ: L]A memoria, ch'io tengo dei fauori riceuuti per lunga mano di tempo da Vostra Sig. molt'Illustre, è cosi fresca & viua nel mio pensiero, che se io hauessi occasione alle mani così pronta di mostrarmele grato, come so desiderarla, ardirei di promettermi qualche allegerimento di quel peso, di che la cortesia sua m'ha caricato in buona somma. Però mentre qualche corso di fauoreuole occasione mi portarà innanzi cosa di momento maggiore per le mie pretensioni, porgo a Vostra Sig. molt'Illustre questo Trattato, che sotto nome della parte delle Imagini delli Dei, esce in luce fuor della mia Stamperia; di mente ancora dell'Autore di esso, che fa stima singolare del valore di lei, & m'ha dato segno d'hauer caro, ch'io mi rissol-
 
-Колонтитул: (нет)
+Колонтитул:
 Кустод: uesse
-Сигнатура: ✠✠ 2 (два одинаковых типографских орнамента в форме креста-патте/мальтийского креста с раздвоенными лепестковидными концами лучей, затем цифра «2»)
+Сигнатура: ✠✠ 2
 Маргиналии: (нет)
 
 Нумерация: без печатного номера страницы (начало посвящения издателя Pietro Paolo Tozzi, см. PAGES.tsv: Widmung_r).
@@ -10614,9 +10612,9 @@ Seruitore humilissimo
 
 Pietro Paolo Tozzi.
 
-Колонтитул: (нет)
-Кустод: (отсутствует — конец письма, подпись без кустода)
-Сигнатура: (нет)
+Колонтитул:
+Кустод:
+Сигнатура:
 Маргиналии: (нет)
 
 Нумерация: без печатного номера страницы (посвящение, PAGES.tsv: Widmung_v). Текст — завершение посвятительного письма издателя Пьетро Паоло Тоцци; переноса на следующий скан нет, страница завершена подписью.
@@ -10643,7 +10641,7 @@ appresso questi popoli, fatto in maniera di fregata, mostraua qualche orma delle
 
 Колонтитул: 546 SecondPaarte
 Кустод: mede-
-Сигнатура: (нет)
+Сигнатура:
 Маргиналии: (нет)
 
 ## Скан 0593 · с. 547
@@ -10660,8 +10658,8 @@ medesimo peso siano; (& pure ne ho pesato & maneggiato piu d'vno). ma al caso no
 [ГРАВЮРА: без подписи]
 
 Колонтитул: 548 Parte Seconda
-Кустод: (отсутствует — страница целиком занята гравюрой с орнаментальной рамкой, отдельной строки-кустода нет)
-Сигнатура: (нет)
+Кустод:
+Сигнатура:
 Маргиналии: (нет)
 
 Нумерация: полностраничная гравюра (изображение Homoyoca, бога мексиканцев, упомянутого на предыдущей странице); печатной подписи под гравюрой нет, текст о ней дан на с. 547 (скан 0593).
@@ -10673,7 +10671,7 @@ medesimo peso siano; (& pure ne ho pesato & maneggiato piu d'vno). ma al caso no
 [ГРАВЮРА: без подписи]
 
 Колонтитул: Delle Imagini de i Dei. 549
-Кустод: (отсутствует — страница заканчивается гравюрой и сигнатурой, отдельной строки-кустода нет)
+Кустод:
 Сигнатура: M m 3
 Маргиналии: (нет)
 
@@ -10685,7 +10683,7 @@ medesimo peso siano; (& pure ne ho pesato & maneggiato piu d'vno). ma al caso no
 
 Колонтитул: 550 Parte Seconda
 Кустод: Ha-
-Сигнатура: (нет; снизу страницы видны лишь слабые отпечатки текста с оборота листа — не печатная сигнатура)
+Сигнатура:
 Маргиналии: (нет)
 
 ## Скан 0597 · с. 551
@@ -10695,7 +10693,7 @@ medesimo peso siano; (& pure ne ho pesato & maneggiato piu d'vno). ma al caso no
 [ГРАВЮРА: без подписи]
 
 Колонтитул: Delle Imagini de i Dei. 551
-Кустод: (отсутствует — страница заканчивается гравюрой и сигнатурой, отдельной строки-кустода нет)
+Кустод:
 Сигнатура: Mm 4
 Маргиналии: (нет)
 
