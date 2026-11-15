@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "186";
+  var APP_VER = "187";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -2632,10 +2632,18 @@
     var fb = wireFindBar({cell:root.querySelector(".ic-rbar-findcell"), gen:gen, onFocus:function(){ rbSheets.forEach(function(sh){ if(sh.isOpen()) sh.close(); }); }}), findIn = fb.input;
     function setFind(on){ fb.set(on); }
     function barH(){ return rbarEl.getBoundingClientRect().height + headerStackH() + 10; }
+    var hmW = [];
     function rowHtml(it, showPart){
-      var fr = state.lang!=="fr" && it.fr ? ' <span class="ic-tv-it ic-rp-fr" lang="fr">'+esc(it.fr)+'</span>' : "";
+      var ttl = titleOf(it), r = null, f = null;
+      if(hmW.length){
+        f = [{t:ttl, vis:true, lang:state.lang}, {t:it.fr||"", vis:state.lang!=="fr", lang:"fr"}];
+        var seen = {}; seen[norm(ttl)] = 1; seen[norm(it.fr||"")] = 1;
+        [["ru", it.ru], ["en", it.en], ["fr", it.name_fr]].forEach(function(p){ var k = norm(p[1]); if(p[1] && !seen[k]){ seen[k] = 1; f.push({t:p[1], vis:false, lang:p[0]}); } });
+        r = hfMatch(f, hmW.length, norm, function(s, w){ var p = s.indexOf(hmW[w]); return p >= 0 ? [p, hmW[w].length] : null; });
+      }
+      var fr = state.lang!=="fr" && it.fr ? ' <span class="ic-tv-it ic-rp-fr" lang="fr">'+(r ? hfMark(it.fr, r.sp[1]) : esc(it.fr))+'</span>' : "";
       return '<li class="ic-row-item" tabindex="0" role="link" data-id="'+it.id+'" data-anchor="'+it.id+'">'+
-        '<span class="ic-rp-t"><span class="ic-tv-ru">'+esc(titleOf(it))+ripaFlag(it)+'</span>'+fr+'</span>'+
+        '<span class="ic-rp-t"><span class="ic-tv-ru">'+(r ? hfMark(ttl, r.sp[0]) : esc(ttl))+ripaFlag(it)+'</span>'+fr+(r && r.cap >= 0 ? hfCaption(f[r.cap], r.sp[r.cap]) : "")+'</span>'+
         '<span class="ic-rp-pg">'+(showPart ? '<small>'+esc(t("partN",{n:it.part}))+'</small>' : "")+esc(it.page)+'</span></li>';
     }
     // Защита: исключение при построении списка не должно убирать страницу. Шапка/меню/строка раздела
@@ -2653,6 +2661,7 @@
     }
     function fillRaw(){
       var res = filtered(book), nq = state.q.trim(), grouped = state.sort==="book" && !nq;
+      hmW = ripaNew(book) ? norm(nq).split(/\s+/).filter(Boolean) : [];
       var showPart = multi && (state.sort==="ru" || (!grouped && state.filter!=="1" && state.filter!=="2"));
       findCount = res.length;
       // «Найдено: N» — только при активном фильтре или выбранной части
@@ -3637,6 +3646,62 @@
     s = String(s||"").toLowerCase().replace(/ё/g,"е").normalize("NFD").replace(/[̀-ͯ]/g,"");
     return s.replace(/ph/g,"f").replace(/th/g,"t").replace(/ch/g,"c").replace(/h/g,"").replace(/v/g,"u").replace(/j/g,"i").replace(/k/g,"c").replace(/y/g,"i").replace(/([a-z])\1+/g,"$1");
   }
+  // ---- совпадение по полям, которых может не быть в строке списка ----
+  // fields: [{t:текст, vis:есть ли в строке, lang}] в порядке показа: язык интерфейса, оригинал, варианты, остальные языки.
+  // Слово ищется сначала в видимых полях (подсветка в строке), иначе — в первом скрытом (одна подпись под строкой).
+  function hfSpan(text, fold, fs, fl){
+    var n = text.length, lens = [0], i, a = -1, b = -1;
+    for(i = 1; i <= n; i++) lens[i] = fold(text.slice(0, i)).length;
+    for(i = 0; i < n; i++){
+      if(a < 0 && lens[i+1] > fs) a = i;
+      if(a >= 0 && lens[i+1] >= fs+fl){ b = i+1; break; }
+    }
+    if(a < 0) return null;
+    return [a, (b < 0 ? n : b)-a];
+  }
+  function hfMerge(list){
+    list.sort(function(x, y){ return x[0]-y[0]; });
+    var flat = [];
+    list.forEach(function(p){
+      var l = flat.length;
+      if(l && p[0] < flat[l-2]+flat[l-1]) flat[l-1] = Math.max(flat[l-1], p[0]+p[1]-flat[l-2]);
+      else flat.push(p[0], p[1]);
+    });
+    return flat;
+  }
+  function hfMatch(fields, nw, fold, matcher){
+    var fs = fields.map(function(f){ return f.t ? fold(f.t) : ""; }), asg = [], cap = -1, out = fields.map(function(){ return []; }), w, i;
+    for(w = 0; w < nw; w++){
+      for(i = 0; i < fields.length; i++){
+        var m = fs[i] && matcher(fs[i], w);
+        if(m){ asg.push([i, m]); break; }
+      }
+    }
+    asg.forEach(function(a){ if(!fields[a[0]].vis && (cap < 0 || a[0] < cap)) cap = a[0]; });
+    asg.forEach(function(a){
+      if(fields[a[0]].vis || a[0] === cap){ var sp = hfSpan(fields[a[0]].t, fold, a[1][0], a[1][1]); if(sp) out[a[0]].push(sp); }
+    });
+    return {sp: out.map(hfMerge), cap: cap};
+  }
+  function hfMark(text, sp){
+    var out = "", cur = 0;
+    for(var k = 0; k < sp.length; k += 2){ out += esc(text.slice(cur, sp[k]))+'<mark class="ic-hf-mark">'+esc(text.slice(sp[k], sp[k]+sp[k+1]))+"</mark>"; cur = sp[k]+sp[k+1]; }
+    return out+esc(text.slice(cur));
+  }
+  function hfCaption(f, sp){ return '<span class="ic-hf"'+(f.lang ? ' lang="'+f.lang+'"' : "")+'>'+hfMark(f.t, sp)+'</span>'; }
+  // имена Картари: строка показывает имя на языке интерфейса и итальянский оригинал
+  function nmFields(e, name){
+    var f = [{t:name, vis:true, lang:state.lang}, {t:(e.it||[]).join(" · "), vis:true, lang:"it"}], seen = {};
+    seen[tvFold(name)] = 1; seen[tvFold(f[1].t)] = 1;
+    (e.v||[]).forEach(function(v){ var k = tvFold(v); if(v && !seen[k]){ seen[k] = 1; f.push({t:v, vis:false, lang:""}); } });
+    ["ru","en","fr"].forEach(function(l){ var v = e[l], k = tvFold(v); if(v && !seen[k]){ seen[k] = 1; f.push({t:v, vis:false, lang:l}); } });
+    return f;
+  }
+  function nmLineHtml(e, name, hm){
+    var f = nmFields(e, name), r = hm ? hfMatch(f, hm.n, tvFold, hm.fn) : null;
+    return '<span class="ic-tv-ru">'+(r ? hfMark(f[0].t, r.sp[0]) : esc(name))+'</span> <span class="ic-tv-it" lang="it">'+(r ? hfMark(f[1].t, r.sp[1]) : esc(f[1].t))+'</span>'+
+      (r && r.cap >= 0 ? hfCaption(f[r.cap], r.sp[r.cap]) : "");
+  }
   function loadTavola(book, cb){
     if(tavolaCache[book.slug]){ cb(tavolaCache[book.slug]); return; }
     fetch(BASE+"books/"+book.slug+"/"+book.meta.tavola,{cache:"no-cache"}).then(function(r){ if(!r.ok) throw 0; return r.json(); })
@@ -4047,6 +4112,7 @@
       function updateTypeLabel(){ typeLabelEl.textContent = nmTypeLabel(); typeBtn.classList.toggle("ic-rbar-on", namesUi.ty!=="all"); }
       function fill(){
         var words = tvFold(sheetInput.value.trim()).split(/\s+/).filter(Boolean), html = "", n = 0, have = {}, cur = null;
+        var nmHm = words.length ? {n:words.length, fn:function(f, w){ var p = f.indexOf(words[w]); return p >= 0 ? [p, words[w].length] : null; }} : null;
         ordered().forEach(function(x){
           var e = x.e;
           if(namesUi.ty !== "all" && e.t !== namesUi.ty) return;
@@ -4054,7 +4120,7 @@
           if(x.l !== cur){ if(cur) html += '</section>'; cur = x.l; have[cur] = 1; html += '<section class="ic-tv-sec" id="nm-L'+(cur==="#" ? "0" : cur)+'"><h2>'+cur+'</h2>'; }
           n++;
           html += '<a class="ic-nm-row" href="'+esc(hrefFor(book, "names/"+e.id))+'">'+
-            '<span class="ic-tv-l"><span class="ic-tv-ru">'+esc(x.name)+'</span> <span class="ic-tv-it" lang="it">'+esc((e.it||[]).join(" · "))+'</span></span>'+
+            '<span class="ic-tv-l">'+nmLineHtml(e, x.name, nmHm)+'</span>'+
             '<span class="ic-nm-meta"><span class="ic-nm-type">'+esc(t("nmT1_"+e.t))+'</span>'+(e.n ? '<span class="ic-nm-n">'+e.n+'</span>' : "")+'</span></a>';
         });
         if(cur) html += '</section>';
@@ -4550,9 +4616,10 @@
       return '<li><a class="ic-sr-a ic-sr-pl" href="'+esc(hrefFor(book, "plate/"+p.id))+'"><span class="ic-sr-th"><img loading="lazy" src="'+esc(engBase+"thumb/"+p.file+"_t.webp")+'" alt=""></span>'+
         '<span class="ic-sr-pb"><span class="ic-sr-t">'+(h.tsp ? srMark(plName(p), h.tsp) : esc(plName(p)))+'</span>'+snip+'</span></a></li>';
     }
+    var nmHm = {n:tw.length, fn:function(f, w){ var r = srFind(f, [tw[w]], true); return r && r !== true ? [r[0], r[1]] : null; }};
     function nmRow(h){
       var e = h.e;
-      return '<a class="ic-nm-row" href="'+esc(hrefFor(book, "names/"+e.id))+'"><span class="ic-tv-l"><span class="ic-tv-ru">'+esc(nmForm(e))+'</span> <span class="ic-tv-it" lang="it">'+esc((e.it||[]).join(" · "))+'</span></span>'+
+      return '<a class="ic-nm-row" href="'+esc(hrefFor(book, "names/"+e.id))+'"><span class="ic-tv-l">'+nmLineHtml(e, nmForm(e), nmHm)+'</span>'+
         '<span class="ic-nm-meta"><span class="ic-nm-type">'+esc(t("nmT1_"+e.t))+'</span>'+(e.n ? '<span class="ic-nm-n">'+e.n+'</span>' : "")+'</span></a>';
     }
     function tvPages(e){

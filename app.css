@@ -1791,3 +1791,7 @@ html.ic-hs-lock{overflow:hidden !important}
 .ic .ic-rbar-row > .ic-rbar-findcell:focus-within{background:rgba(var(--cream),.14)}
 .ic .ic-rbar-findin:focus{text-align:left;padding-left:12px}
 .ic .ic-rbar-findin:focus::placeholder{color:transparent}
+
+/* v187: совпадение по полю, которого нет в строке — мелкая подпись под строкой; подсветка — мягкий тёплый фон, как в главах */
+.ic .ic-hf{display:block;font-size:.78em;line-height:1.3;color:var(--soft);margin-top:1px;font-style:normal;letter-spacing:.01em}
+.ic .ic-hf-mark,.ic .ic-sr mark.ic-hf-mark,.ic .ic-rb-sheet-panel .ic-sr mark.ic-hf-mark{background:rgba(214,150,96,.32);color:inherit;font-weight:inherit;font-style:inherit;box-shadow:none;border:0;border-radius:2px;padding:0}

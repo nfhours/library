@@ -474,6 +474,28 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     ok('loupe still finds by subjects: "лок" gives results', ln > 0, { ln });
     await page.evaluate(() => { location.hash = '#/iconologie/list'; }); await W(800);
   }
+  if (NEW) { // совпадение по другому языку названия: мелкая подпись под строкой с подсветкой; видимое — подсветка в строке без подписи
+    const hf = async (lang, q) => {
+      await open(LIST, lang); await page.evaluate(() => sessionStorage.clear()); await page.reload({ waitUntil: 'load' }); await page.waitForSelector('.ic-row-item'); await W(1000);
+      await page.tap('.ic-rbar-findin'); await page.keyboard.type(q, { delay: 20 }); await W(500);
+      return page.evaluate(() => { const r = document.querySelector('.ic-row-item[data-id="p1-1"]'); if (!r) return null; const c = r.querySelector('.ic-hf'), m = c && c.querySelector('mark');
+        return { title: r.querySelector('.ic-tv-ru').textContent, titleMark: [...r.querySelectorAll('.ic-tv-ru mark')].map(x => x.textContent).join('|'), frMark: [...r.querySelectorAll('.ic-rp-fr mark')].map(x => x.textContent).join('|'),
+          cap: c ? c.textContent : null, capMark: m ? m.textContent : null, bg: m ? getComputedStyle(m).backgroundColor : null, small: c ? parseFloat(getComputedStyle(c).fontSize) < parseFloat(getComputedStyle(r.querySelector('.ic-tv-ru')).fontSize) : null, caps: r.querySelectorAll('.ic-hf').length }; });
+    };
+    const cases = [['ru', 'abund', { title: 'Изобилие', cap: 'Abundance', capMark: 'Abund', caps: 1, small: true }, 'RU «abund» → Изобилие + caption Abundance'],
+      ['ru', 'изобил', { titleMark: 'Изобил', cap: null }, 'RU «изобил» visible, no caption'],
+      ['ru', 'abond', { frMark: 'Abond', cap: null }, 'RU «abond» matches visible French original, highlighted, no caption'],
+      ['en', 'изобил', { title: 'Abundance', cap: 'Изобилие', capMark: 'Изобил', caps: 1 }, 'EN «изобил» → caption Изобилие'],
+      ['en', 'abund', { titleMark: 'Abund', cap: null }, 'EN «abund» visible, no caption'],
+      ['fr', 'изобил', { title: 'Abondance', cap: 'Изобилие', capMark: 'Изобил', caps: 1 }, 'FR «изобил» → caption Изобилие'],
+      ['fr', 'abund', { cap: 'Abundance', capMark: 'Abund', caps: 1 }, 'FR «abund» → caption Abundance'],
+      ['fr', 'abond', { titleMark: 'Abond', cap: null }, 'FR «abond» visible, no caption']];
+    for (const [lang, q, exp, nm] of cases) {
+      const r = await hf(lang, q); const bad = !r || Object.keys(exp).some(k => r[k] !== exp[k]) || (r.cap && r.bg !== 'rgba(214, 150, 96, 0.32)');
+      ok('find article hidden-field caption: ' + nm, !bad, r);
+    }
+    await open(LIST, 'ru'); await page.evaluate(() => sessionStorage.clear()); await page.reload({ waitUntil: 'load' }); await W(500);
+  }
   if (NEW) { // ?new из закладок не ломает адрес: тот же основной вид
     await page.goto(BASE + '?new#/iconologie', { waitUntil: 'load' }); await W(900);
     ok('legacy ?new works', await page.evaluate(() => !!document.querySelector('.ic-home-hero') && !!document.querySelector('.ic-bt-tabs')));
