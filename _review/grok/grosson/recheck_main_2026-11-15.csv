@@ -1,0 +1,47 @@
+id,check,detail,resolution
+pl1-1,caps_ru,p2 missing {'MASSALIETON': 1},покрыто заметкой notes.csv (RU пишет МАССАЛИЕТОН кириллицей) — не issue
+pl1-7,len_ru,p1 ratio 0.72 (257->185),перечитано: перевод полный — ok
+pl1-8,len_ru,p1 ratio 0.74 (298->222),перечитано: перевод полный — ok
+pl1-13,len_ru,p1 ratio 0.68 (233->159),перечитано: перевод полный — ok
+pl1-17,caps_ru,p1 missing {'LACYDON': 1},"RU пишет «ЛАКИДОН» кириллицей (тот же приём, что МАССАЛИЕТОН в pl1-1, см. notes.csv) — косметика, не issue"
+pl1-18,len_ru,p1 ratio 0.75 (399->298),перечитано: перевод полный — ok
+pl7-1,nums_ru,p1 missing {} extra {'29': 1},покрыто pl7-1-1 («dans sa 29e année» → «29 лет»)
+pl9-5,nums_ru,p1 missing {'1696': 1} extra {},"в text_fr «1696 [1596]» с редакторской поправкой; переводы дают 1596 — покрыто notes.csv, не issue"
+pl9-5,nums_en,p1 missing {'1696': 1} extra {},"то же, что RU"
+pl9-7,len_ru,p1 ratio 0.75 (233->174),перечитано; единственное замечание — pl9-7-1 (typo)
+pl15-2,nums_ru,p1 missing {} extra {'5': 1},"«5e. volume/planche» во FR (цифра с суффиксом, не распознана проверкой) → порядковое в RU — ok"
+pl16-4,nums_ru,p1 missing {} extra {'6': 1},"«6e. volume/planche» во FR (цифра с суффиксом, не распознана проверкой) → порядковое в RU — ok"
+pl17-1,nums_ru,p3 missing {} extra {'1': 1},"«un pied» → «1 фут» — форма записи, ok"
+pl17-1,nums_en,p3 missing {} extra {'1': 1},"«un pied» → «1 foot» — форма записи, ok"
+pl19-2,nums_ru,p1 missing {} extra {'1653': 1},"«mil six cent cinquante-trois» → 1653 — число словами во FR, ok"
+pl19-2,nums_en,p1 missing {} extra {'1653': 1},"«mil six cent cinquante-trois» → 1653 — число словами во FR, ok"
+pl20-1,nums_ru,p7 missing {} extra {'14': 1},«14e. Planche» → «14-й таблице» — ok
+pl27-1,nums_ru,p5 missing {} extra {'1760': 1},"MDCCLX → 1760 — верное раскрытие римской даты, ok"
+pl27-1,caps_ru,p5 missing {'MDCCLX': 1},то же
+pl27-1,nums_en,p5 missing {} extra {'1760': 1},то же
+pl27-1,caps_en,p5 missing {'MDCCLX': 1},то же
+pl30-1,caps_ru,p2 missing {'FAVOUYO': 1},FAVOUYO передано строчными «favouyo» — ok
+pl30-1,caps_en,p2 missing {'FAVOUYO': 1},то же
+pl30-6,nums_ru,p1 missing {} extra {'6': 1},"«6e. volume/planche» во FR (цифра с суффиксом, не распознана проверкой) → порядковое в RU — ok"
+pl31-7,nums_ru,p2 missing {} extra {'6': 1},"«6e. volume/planche» во FR (цифра с суффиксом, не распознана проверкой) → порядковое в RU — ok"
+pl32-2,nums_ru,p1 missing {} extra {'6': 1},"«6e. volume/planche» во FR (цифра с суффиксом, не распознана проверкой) → порядковое в RU — ok"
+pl32-7,caps_ru,"p2 missing {'XISTARQUE': 1, 'GYMNASTE': 1}","XISTARQUE/GYMNASTE (капитель FR) → «ксистарх»/«гимнаст», EN передаёт словами — ok"
+pl32-7,caps_en,"p2 missing {'XISTARQUE': 1, 'GYMNASTE': 1}","XISTARQUE/GYMNASTE (капитель FR) → «ксистарх»/«гимнаст», EN передаёт словами — ok"
+pl33-6,caps_ru,p1 missing {'OTONOIA': 1},"OTONOIA (чтение Гроссона) — см. notes.csv (pl33-6, source), не issue"
+pl36-1,nums_ru,p11 missing {} extra {'42': 1},"«42e. volume/planche» во FR (цифра с суффиксом, не распознана проверкой) → порядковое в RU — ok"
+pl36-1,caps_ru,p17 missing {'EXPLICATION': 1},заголовок EXPLICATION переведён — ok
+pl36-1,caps_en,p17 missing {'EXPLICATION': 1},то же
+pl37-1,nums_ru,p2 missing {} extra {'29': 1},«29e. fois» → «в 29-й раз» — ok
+pl37-2,caps_ru,"p7 missing {'CAIA': 1, 'LEPHENA': 1, 'FILLE': 1, 'POSIDONAX': 1, 'DENIS': 1, 'IVLES': 1, 'FILS': 1, 'DIAS': 1, 'NICVS': 1, 'MONVMENT': 1, 'LEVR': 1, 'MERE': 1}","надпись капителью: RU передаёт кириллической капителью, EN латиницей с переводом FILLE/FILS/MERE — ok (имена — см. pl37-2-1)"
+pl37-2,caps_en,"p7 missing {'FILLE': 1, 'IVLES': 1, 'FILS': 1, 'NICVS': 1, 'MONVMENT': 1, 'LEVR': 1, 'MERE': 1}","надпись капителью: RU передаёт кириллической капителью, EN латиницей с переводом FILLE/FILS/MERE — ok (имена — см. pl37-2-1)"
+pl37-3,nums_ru,p3 missing {} extra {'7': 1},"«7e. volume/planche» во FR (цифра с суффиксом, не распознана проверкой) → порядковое в RU — ok"
+pl38-1,nums_ru,p4 missing {} extra {'136': 1},"CXXXVI → 136, M.DCC.LIV → 1754 — верное раскрытие римских чисел, ok"
+pl38-1,caps_ru,p4 missing {'CXXXVI': 1},"CXXXVI → 136, M.DCC.LIV → 1754 — верное раскрытие римских чисел, ok"
+pl38-1,nums_ru,p7 missing {} extra {'1754': 1},"CXXXVI → 136, M.DCC.LIV → 1754 — верное раскрытие римских чисел, ok"
+pl38-1,caps_en,p4 missing {'CXXXVI': 1},"CXXXVI → 136, M.DCC.LIV → 1754 — верное раскрытие римских чисел, ok"
+pl38-1,nums_en,p7 missing {} extra {'1754': 1},"CXXXVI → 136, M.DCC.LIV → 1754 — верное раскрытие римских чисел, ok"
+frag-4,nums_en,p1 missing {'8': 1} extra {},«le 8 des Kalendes» → «the 8th of the Kalends» — ok
+frag-21,nums_ru,p4 missing {} extra {'2': 1},«2e. vol.» → «т. 2» — ok
+frag-21,nums_en,p4 missing {} extra {'2': 1},«2e. vol.» → «vol. 2» — ok
+frag-22,caps_ru,"p1 missing {'CAIVS': 1, 'VECTICVS': 1, 'VECTICIA': 1, 'NEON': 1}","CAIVS, VECTICVS… в переводах как Caius, Vecticus… — ok"
+frag-22,caps_en,"p1 missing {'CAIVS': 1, 'VECTICVS': 1, 'VECTICIA': 1, 'NEON': 1}","CAIVS, VECTICVS… в переводах как Caius, Vecticus… — ok"
