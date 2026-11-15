@@ -12,7 +12,7 @@
     "heading_on_scan": "",
     "heading_matches": null,
     "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
-    "not_checked": "",
+    "not_checked": "не проверено: скан 0502.webp отсутствует в origin/main (books/cartari/scans/), записи 0502 нет и в pages_it.json — сверять нечего (по PAGES.tsv это печ. с. 460).",
     "note": ""
   },
   "issues": []
