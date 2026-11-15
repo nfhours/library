@@ -137,5 +137,10 @@
   },
   "legacyRedirect": {
     "cartm_tavola": "index"
+  },
+  "libDesc": {
+    "ru": "Как древние изображали своих богов: облик, атрибуты и их смысл",
+    "en": "How the ancients pictured their gods: their looks, attributes and meaning",
+    "fr": "Comment les Anciens figuraient leurs dieux : apparence, attributs et sens"
   }
 }

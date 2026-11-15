@@ -1,10 +1,34 @@
 {
-    "books": [
-        { "slug": "cartari", "path": "books/cartari/" },
-        { "slug": "iconologie", "path": "books/iconologie/" },
-        { "slug": "alciato", "path": "books/alciato/" },
-        { "slug": "verrien", "path": "books/verrien/" },
-        { "slug": "audran", "path": "books/audran/" },
-        { "slug": "grosson", "path": "books/grosson/" }
-    ]
+  "books": [
+    {
+      "slug": "cartari",
+      "path": "books/cartari/",
+      "status": "ready"
+    },
+    {
+      "slug": "iconologie",
+      "path": "books/iconologie/",
+      "status": "ready"
+    },
+    {
+      "slug": "alciato",
+      "path": "books/alciato/",
+      "status": "wip"
+    },
+    {
+      "slug": "verrien",
+      "path": "books/verrien/",
+      "status": "wip"
+    },
+    {
+      "slug": "audran",
+      "path": "books/audran/",
+      "status": "wip"
+    },
+    {
+      "slug": "grosson",
+      "path": "books/grosson/",
+      "status": "wip"
+    }
+  ]
 }

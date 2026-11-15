@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "198";
+  var APP_VER = "199";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -122,6 +122,8 @@
     libSub:       {ru:"Старые книги об образах и древностях, с переводом на русский, английский и французский.",
                     en:"Old books on allegory and antiquities, translated into Russian, English and French.",
                     fr:"D'anciens livres sur les emblèmes et les antiquités, traduits en russe, en anglais et en français."},
+    libWip:       {ru:"В работе", en:"In progress", fr:"En cours"},
+    libWipTag:    {ru:"в работе", en:"in progress", fr:"en cours"},
     libEmpty:     {ru:"Книги ещё не добавлены.", en:"No books added yet.", fr:"Aucun livre n'a encore été ajouté."},
     progress:     {ru:"Переведено статей: {done} из {total}", en:"Articles translated: {done} of {total}", fr:"Articles traduits : {done} sur {total}"},
     searchPh:     {ru:"Найти: сюжет, предмет, слово по-русски, по-французски или по-английски", en:"Search: subject, motif, a word in English, French, or Russian", fr:"Rechercher : sujet, motif, un mot en français, en anglais ou en russe"},
@@ -2126,44 +2128,58 @@
   }
 
   /* ---------- библиотека: список книг ---------- */
+  // Города на главной библиотеки: book.json хранит место на языке издания (Padova, Paris…).
+  var LIB_PLACE = {
+    "Padova":    {ru:"Падуя",   en:"Padua",     fr:"Padoue"},
+    "Paris":     {ru:"Париж",   en:"Paris",     fr:"Paris"},
+    "Lyon":      {ru:"Лион",    en:"Lyon",      fr:"Lyon"},
+    "Marseille": {ru:"Марсель", en:"Marseille", fr:"Marseille"}
+  };
+  function libRowHtml(b, m){
+    var wip = b.status === "wip", L = state.lang;
+    var pl = m.place ? ((LIB_PLACE[m.place] && (LIB_PLACE[m.place][L] || LIB_PLACE[m.place].ru)) || m.place) : "";
+    var placeYear = [pl, m.year].filter(Boolean).join(", ");
+    var orig = m.title && m.title.original && m.title.original !== bt(m.title) ? m.title.original : "";
+    var thumb = BASE+"books/"+b.slug+"/"+(m.libThumb || "lib-thumb.webp");
+    var desc = !wip && m.libDesc ? (m.libDesc[L] || m.libDesc.ru) : "";
+    return '<li class="ic-lib-row'+(wip ? " ic-lib-wip" : "")+'" data-slug="'+esc(b.slug)+'"'+
+        (wip ? ' aria-disabled="true"' : ' tabindex="0" role="link"'+(m.home && m.chapters ? ' data-home="1"' : ""))+'>'+
+      '<div class="ic-lib-thumb"><img src="'+esc(thumb)+'" alt="" decoding="async"></div>'+
+      '<div class="ic-lib-txt">'+
+        (orig ? '<span class="ic-lib-orig">'+esc(orig)+'</span>' : "")+
+        '<h2 class="ic-lib-title">'+esc(bt(m.title))+'</h2>'+
+        (m.author ? '<span class="ic-lib-author">'+esc(m.author)+'</span>' : "")+
+        (placeYear ? '<span class="ic-lib-place">'+esc(placeYear)+'</span>' : "")+
+        (wip ? '<span class="ic-lib-tag">'+esc(t("libWipTag"))+'</span>' : (desc ? '<span class="ic-lib-desc">'+esc(desc)+'</span>' : ""))+
+      '</div>'+
+    '</li>';
+  }
+
+  /* ---------- библиотека: список книг ---------- */
   function renderLibraryHome(){
-    root.innerHTML = '<div class="ic-wrap"><p class="ic-sub">'+t("loading")+'</p></div>';
+    root.innerHTML = loadingHtml("", {});
     loadLibrary(function(list){
       Promise.all(list.map(function(b){
         return fetch(BASE+"books/"+b.slug+"/book.json",{cache:"no-cache"}).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;});
       })).then(function(metas){
-        var cards = list.map(function(b,i){
-          var m = metas[i]; if(!m) return "";
-          return '<li class="ic-book-card" tabindex="0" role="link" data-slug="'+esc(b.slug)+'"'+(m.home && m.chapters ? ' data-home="1"' : "")+'>'+
-            '<div class="ic-book-head">'+
-              '<h2 class="ic-book-title">'+esc(bt(m.title))+'</h2>'+
-              (m.author?'<p class="ic-book-author">'+esc(m.author)+(m.year?", "+m.year:"")+'</p>':"")+
-            '</div>'+
-            (m.subtitle?
-              '<details class="ic-book-more"><summary>'+esc(t("moreInfo"))+'</summary>'+
-              '<p class="ic-book-sub">'+esc(bt(m.subtitle))+'</p></details>'
-            : "")+
-          '</li>';
-        }).join("");
+        var ready = [], wip = [];
+        list.forEach(function(b,i){
+          if(!metas[i]) return;
+          (b.status === "wip" ? wip : ready).push(libRowHtml(b, metas[i]));
+        });
         root.innerHTML =
-          '<div class="ic-wrap">'+
+          '<div class="ic-wrap ic-lib">'+
             '<div class="ic-top-row">'+langSwitch()+'</div>'+
-            '<h1 class="ic-title">'+t("libTitle")+'</h1>'+
-            '<p class="ic-sub">'+t("libSub")+'</p>'+
-            '<ul class="ic-booklist">'+(cards || '<p class="ic-empty">'+t("libEmpty")+'</p>')+'</ul>'+
+            '<p class="ic-sub ic-lib-sub">'+t("libSub")+'</p>'+
+            (ready.length || wip.length ? "" : '<p class="ic-empty">'+t("libEmpty")+'</p>')+
+            (ready.length ? '<ul class="ic-lib-list">'+ready.join("")+'</ul>' : "")+
+            (wip.length ? '<h2 class="ic-lib-sect">'+esc(t("libWip"))+'</h2><ul class="ic-lib-list">'+wip.join("")+'</ul>' : "")+
           '</div>';
         bindLangSwitch(root);
-        // The <details>/<summary> toggle only expands/collapses the longer
-        // description in place — a click or Enter/Space on it must not also
-        // trigger the card's own handler below, which is what opens the book.
-        root.querySelectorAll(".ic-book-card").forEach(function(c){
-          c.addEventListener("click",function(e){
-            if(e.target.closest(".ic-book-more")) return;
-            location.hash = "#/"+c.getAttribute("data-slug")+(c.hasAttribute("data-home") ? "/home" : "");
-          });
-          c.addEventListener("keydown",function(e){
-            if((e.key==="Enter"||e.key===" ") && !e.target.closest(".ic-book-more")){ e.preventDefault(); location.hash = "#/"+c.getAttribute("data-slug")+(c.hasAttribute("data-home") ? "/home" : ""); }
-          });
+        root.querySelectorAll(".ic-lib-row:not(.ic-lib-wip)").forEach(function(c){
+          function go(){ location.hash = "#/"+c.getAttribute("data-slug")+(c.hasAttribute("data-home") ? "/home" : ""); }
+          c.addEventListener("click", go);
+          c.addEventListener("keydown",function(e){ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); go(); } });
         });
         nudgeRepaint();
       });
