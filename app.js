@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "191";
+  var APP_VER = "192";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -2720,7 +2720,7 @@
       var act = b.getAttribute("data-rb");
       setFind(false); if(act==="sort") sortApi.toggle(); else if(act==="part" && partApi) partApi.toggle();
     });
-    function openRow(r){ if(r){ setFind(false); ripaOpen(book, r.getAttribute("data-id"), state.q); } }
+    function openRow(r){ if(r){ setFind(false); ripaOpen(book, r.getAttribute("data-id"), ""); } }
     list.addEventListener("click", function(e){ setFind(false); openRow(e.target.closest(".ic-row-item")); });
     list.addEventListener("keydown", function(e){ var r = e.target.closest(".ic-row-item"); if(r && (e.key==="Enter"||e.key===" ")){ e.preventDefault(); openRow(r); } });
     fill();

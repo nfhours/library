@@ -533,6 +533,20 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     await page.goto(BASE + '?new#/iconologie/list', { waitUntil: 'load' }); await W(900);
     ok('legacy ?new list', (await rows()) > 100);
   }
+  if (NEW) { // переход из списка («Найти статью») — всегда с верха статьи без подсветки; из лупы — на слове с подсветкой
+    await open(LIST, 'ru'); await page.evaluate(() => sessionStorage.clear()); await page.reload({ waitUntil: 'load' }); await page.waitForSelector('.ic-row-item'); await W(1000);
+    await page.tap('.ic-rbar-findin'); await page.keyboard.type('се', { delay: 30 }); await W(600);
+    const rowSel = await page.evaluate(() => { const rs = Array.from(document.querySelectorAll('.ic-row-item')); const r = rs.find(x => /Сентябрь/.test(x.textContent)) || rs[0]; return r ? r.getAttribute('data-id') : null; });
+    await page.tap('.ic-row-item[data-id="' + rowSel + '"]'); await W(1800);
+    const fl = await page.evaluate(() => ({ h: location.hash, y: Math.round(window.scrollY), marks: document.querySelectorAll('.ic-rp .ic-ch-mark, .ic-rp mark').length, h1: !!document.querySelector('.ic-rp') }));
+    res.findOpen = fl; ok('list "се" → tap article: opens at top, no highlight', fl.h1 && fl.y < 40 && fl.marks === 0 && /#\/iconologie\/p/.test(fl.h), fl);
+    await open(LIST, 'ru'); await page.evaluate(() => sessionStorage.clear()); await page.reload({ waitUntil: 'load' }); await page.waitForSelector('.ic-row-item'); await W(1000);
+    await page.click('.ic-bt-search'); await W(500); await A.loupe('зеркал');
+    await page.tap('#ic-rb-sheet .ic-rp-sra'); await W(2200);
+    const lo = await page.evaluate(() => { const m = document.querySelector('.ic-rp .ic-ch-mark'); const r = m && m.getBoundingClientRect(); return { y: Math.round(window.scrollY), mark: !!m, vis: !!r && r.top >= 0 && r.bottom <= innerHeight }; });
+    res.loupeOpen = lo; ok('loupe "зеркал" → article opens at the word with highlight', lo.mark && lo.vis && lo.y > 40, lo);
+    await page.evaluate(() => { location.hash = '#/iconologie/list'; }); await W(800);
+  }
   ok('console clean', errs.length === 0, errs.slice(0, 5));
   await br.close();
 
