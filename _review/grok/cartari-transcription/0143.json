@@ -1,0 +1,35 @@
+{
+  "id": "0143",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 4 горизонтальным полосам в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места (кроме ударений) увеличены. Ударения читались на уровне полосы (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0143.webp"
+    ],
+    "printed_pages": "101",
+    "heading_on_scan": "De gli Antichi.",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Текст, стихи Пруденция (16 строк), маргиналии (2), кустод «Seguita», сигнатура G 3 совпадают."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0143-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": "3,4,6,11",
+      "type": "ocr",
+      "original": "Candida va pel Ciel / con viperea sferza / le veloci dame / à noi vestita",
+      "current": "Candida Va / con Viperea / le Veloci / à noi Vestita",
+      "suggested": "[other] va / viperea / veloci / vestita — в курсиве тот же строчный знак 𝓋, что в «vien», «velo», «vergine» на той же странице (там транскрибировано строчной); «Vacche» — вероятно, тоже строчная — не уверен",
+      "confidence": "low"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "0150",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 4 горизонтальным полосам в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места (кроме ударений) увеличены. Ударения читались на уровне полосы (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0150.webp"
+    ],
+    "printed_pages": "108",
+    "heading_on_scan": "Imagini de i Dei",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Начало «dente,» дублирует конец 0148 (см. 0148). Текст, маргиналия «Virgilio.», кустод «che» совпадают; сигнатуры нет. «Là già perduta luce» — так в печати."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0150-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": "2–13",
+      "type": "ocr",
+      "original": "стихи Вергилия «Quando la Luna à racquistar comincia … siano asciutti, e queti.» набраны курсивом",
+      "current": "12 строк без разметки *…*",
+      "suggested": "[italic] *…* для каждой строки",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0150-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": "4,7,8,12",
+      "type": "ocr",
+      "original": "Corna viene / farà vento / mostra vento / che verranno",
+      "current": "Corna Viene / farà Vento / mostra Vento / che Verranno",
+      "suggested": "[other] строчная курсивная v (не заглавная) — не уверен",
+      "confidence": "low"
+    }
+  ]
+}

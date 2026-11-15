@@ -1,0 +1,35 @@
+{
+  "id": "0131",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 4 горизонтальным полосам в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места (кроме ударений) увеличены. Ударения читались на уровне полосы (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0131.webp"
+    ],
+    "printed_pages": "89",
+    "heading_on_scan": "De gli Antichi.",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Текст, маргиналии «Pausania.», «Vedi Liuio.», кустод «il bue» (продолжение на 0133 после гравюры 0132) совпадают; сигнатуры нет. «altri, Dei alli quali» — запятая так стоит в печати."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0131-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "doueua pur'hauere tuttauia",
+      "current": "doueua pur hauere tuttauia",
+      "suggested": "[other] pur'hauere (в печати апостроф)",
+      "confidence": "high"
+    }
+  ]
+}

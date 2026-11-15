@@ -1,0 +1,48 @@
+{
+  "id": "0115",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 4 горизонтальным полосам в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места (кроме ударений) увеличены. Ударения читались на уровне полосы (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0115.webp"
+    ],
+    "printed_pages": "73",
+    "heading_on_scan": "De gli Antichi.",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Остальной текст, 6 маргиналий, кустод «chette» совпадают; сигнатуры нет. «qualli» — так в печати."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0115-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "ma come potesse fuggir di là; — в печати «di là» с ударением",
+      "current": "fuggir dila;",
+      "suggested": "[accent] fuggir di là;",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0115-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "che fu figliuolo di Escolapio, come recita Pausania — в печати «Escolapio»",
+      "current": "figliuolo di Esculapio",
+      "suggested": "[typo] Escolapio (опечатка/вариант печати; транскрипция нормализовала)",
+      "confidence": "high"
+    }
+  ]
+}

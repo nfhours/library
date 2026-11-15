@@ -1,0 +1,48 @@
+{
+  "id": "0144",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 4 горизонтальным полосам в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места (кроме ударений) увеличены. Ударения читались на уровне полосы (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0144.webp"
+    ],
+    "printed_pages": "102",
+    "heading_on_scan": "Imagini de i Dei",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Остальной текст, маргиналии (3), кустод «mo-» (продолжение на 0146 после гравюры 0145) совпадают; сигнатуры нет. «muttaua», «Ciembalo», «statoa» — так в печати."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0144-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "non hà luce dn sè",
+      "current": "non hà luce da sè",
+      "suggested": "[typo] dn — опечатка печати исправлена в транскрипции",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0144-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "in Egitto fù chiamata quiui Iside",
+      "current": "in Egitto fu chiamata quiui Iside",
+      "suggested": "[accent] fù (в печати с ударением)",
+      "confidence": "high"
+    }
+  ]
+}

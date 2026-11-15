@@ -1,0 +1,35 @@
+{
+  "id": "0125",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 4 горизонтальным полосам в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места (кроме ударений) увеличены. Ударения читались на уровне полосы (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0125.webp"
+    ],
+    "printed_pages": "83",
+    "heading_on_scan": "De gli Antichi.",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Остальной текст, 27 строк стихов (курсив размечен), 2 маргиналии, кустод «Merig-», сигнатура «F 2» совпадают. «Quini», «ascinga», «caler», «Gli Vsciua» — так в печати, сохранено верно."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0125-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 10,
+      "type": "ocr",
+      "original": "Grata gli tiene. se le paion tristi, — в печати строчная «ſe»",
+      "current": "Grata gli tiene. Se le paion tristi,",
+      "suggested": "[case] Grata gli tiene. se le paion tristi,",
+      "confidence": "high"
+    }
+  ]
+}
