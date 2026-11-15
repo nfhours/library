@@ -1,0 +1,35 @@
+{
+  "id": "0046",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт целиком и по 8 горизонтальным полосам, каждая строка прочитана глазами и сверена с pages_it (текст, маргиналии, кустод, сигнатура); сомнительные места увеличены. Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0046.webp"
+    ],
+    "printed_pages": "4",
+    "heading_on_scan": "Imagini de i Dei",
+    "heading_matches": true,
+    "data": "origin/main @ 52bd8f7 (books/cartari/pages_it.json, books/cartari/scans/)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Весь текст, 10 маргиналий, колонтитул «4 Imagini de i Dei», кустод «daua-» совпадают."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0046-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "hauesse rotto gli ordiui loro antichi (в печати «ordiui», перевёрнутая n)",
+      "current": "gli ordini loro antichi",
+      "suggested": "[опечатка печати нормализована] gli ordiui loro antichi (по правилу «опечатки как в печати»)",
+      "confidence": "medium"
+    }
+  ]
+}

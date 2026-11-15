@@ -1,0 +1,61 @@
+{
+  "id": "0054",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт целиком и по 8 горизонтальным полосам, каждая строка прочитана глазами и сверена с pages_it (текст, маргиналии, кустод, сигнатура); сомнительные места увеличены. Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0054.webp"
+    ],
+    "printed_pages": "12",
+    "heading_on_scan": "Imagini de i Dei",
+    "heading_matches": true,
+    "data": "origin/main @ 52bd8f7 (books/cartari/pages_it.json, books/cartari/scans/)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Остальной текст, 6 маргиналий, колонтитул «12 Imagini de i Dei», кустод «l'habi-» совпадают; сигнатуры нет."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0054-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "il Rè cosi dissero",
+      "current": "il Rè così dissero",
+      "suggested": "il Rè cosi dissero — Акцент добавлен; в печати «coſi» без акцента.",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0054-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "chi giouine, è chi vecchio",
+      "current": "chi giouine, e chi vecchio",
+      "suggested": "chi giouine, è chi vecchio — В печати «è chi» с акцентом (вероятно опечатка наборщика; по правилу опечатки сохраняются).",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0054-3",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "& gli effetci (?)",
+      "current": "& gli effetti",
+      "suggested": "Не уверен: в печати похоже на «effetci» (поломанная литера или опечатка); при данном разрешении однозначно не читается.",
+      "confidence": "low"
+    }
+  ]
+}

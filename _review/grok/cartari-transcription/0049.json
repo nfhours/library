@@ -1,0 +1,48 @@
+{
+  "id": "0049",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт целиком и по 8 горизонтальным полосам, каждая строка прочитана глазами и сверена с pages_it (текст, маргиналии, кустод, сигнатура); сомнительные места увеличены. Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0049.webp"
+    ],
+    "printed_pages": "7",
+    "heading_on_scan": "De gli Antichi.",
+    "heading_matches": true,
+    "data": "origin/main @ 52bd8f7 (books/cartari/pages_it.json, books/cartari/scans/)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Остальной текст, 5 маргиналий, колонтитул «De gli Antichi. 7», кустод «uesse», сигнатура «A 4» совпадают."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0049-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "addition",
+      "original": "le ha-",
+      "current": "le hauesse",
+      "suggested": "le ha- — Последнее слово дописано до конца («hauesse»), хотя в печати строка кончается «ha-»; «uesse» — кустод и начало стр. 0050, т.е. слог дублируется.",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0049-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "si offeri",
+      "current": "si offerì",
+      "suggested": "si offeri — Акцент добавлен; в печати «offeri» без акцента.",
+      "confidence": "medium"
+    }
+  ]
+}

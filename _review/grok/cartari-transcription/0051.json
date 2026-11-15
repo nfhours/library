@@ -1,0 +1,35 @@
+{
+  "id": "0051",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт целиком и по 8 горизонтальным полосам, каждая строка прочитана глазами и сверена с pages_it (текст, маргиналии, кустод, сигнатура); сомнительные места увеличены. Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0051.webp"
+    ],
+    "printed_pages": "9",
+    "heading_on_scan": "De gli Antichi.",
+    "heading_matches": true,
+    "data": "origin/main @ 52bd8f7 (books/cartari/pages_it.json, books/cartari/scans/)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Остальной текст, 7 маргиналий, колонтитул «De gli Antichi. 9», кустод «simo» совпадают; сигнатуры нет (поле пустое — соответствует)."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0051-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "addition",
+      "original": "grauis-",
+      "current": "grauissimo",
+      "suggested": "grauis- — Последнее слово дописано до конца, хотя в печати строка кончается «grauiſ-», а «ſimo» — кустод; на других страницах (0042, 0045, 0048, 0054) перенос оставлен как в печати.",
+      "confidence": "medium"
+    }
+  ]
+}
