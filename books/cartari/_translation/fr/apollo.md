@@ -152,7 +152,7 @@ Martianus Capella pareillement, quand il décrit Philologie entrant dans la sph�
 
 Du scarabée on lit chez Eusèbe que les Égyptiens en faisaient grand cas et le révéraient beaucoup, le croyant être la véritable et vivante image du Soleil ; parce que les scarabées sont tous, comme l'écrit Élien et comme le rapporte aussi Souda, des mâles, et n'ont point de femelles parmi eux. C'est pourquoi il était ordonné là aux hommes de guerre d'en porter sans cesse à la main, gravés sur des anneaux, pour montrer qu'il leur fallait avoir une âme tout à fait virile et nullement efféminée.
 
-Les scarabées réparent ensuite leur progéniture de cette manière : ils répandent la semence dans la fiente, qu'ils roulent ensuite avec les pieds, et ils en font des boulettes qu'ils vont faire rouler sans cesse pendant vingt-huit jours, de sorte que, échauffées autant qu'il leur est nécessaire, elles prennent âme, et il en naît de nouveaux scarabées. Et c'est pourquoi ils sont semblables au Soleil, parce que lui aussi répand sur la terre la vertu séminale[?3] et tourne continuellement autour d'elle, et que, en tournant autour du ciel, il fait que la Lune se renouvelle chaque mois, dans le temps que le scarabée renouvelle sa progéniture.
+Les scarabées réparent ensuite leur progéniture de cette manière : ils répandent la semence dans la fiente, qu'ils roulent ensuite avec les pieds, et ils en font des boulettes qu'ils vont faire rouler sans cesse pendant vingt-huit jours, de sorte que, échauffées autant qu'il leur est nécessaire, elles prennent âme, et il en naît de nouveaux scarabées. Et c'est pourquoi ils sont semblables au Soleil, parce que lui aussi répand sur la terre la vertu séminale et tourne continuellement autour d'elle, et que, en tournant autour du ciel, il fait que la Lune se renouvelle chaque mois, dans le temps que le scarabée renouvelle sa progéniture.
 
 > Apollon embrassant Daphné, pour montrer la conformité qu'a le laurier avec ce dieu, d'être toujours vert et d'avoir une force purgative ; outre qu'il montre la protection qu'Apollon accorde aux empereurs et aux poètes.
 
@@ -275,7 +275,7 @@ Autour de la poitrine il avait ensuite une cuirasse ; de la main droite il tena
 
 <aside>Interprétation</aside>
 
-La barbe, qui pend sur la poitrine, signifie que du ciel sur la terre le Soleil répand ses rayons. La corbeille dorée, qui se dresse en haut, montre le feu céleste dont on croit que le Soleil est fait. La lance et la cuirasse[?4] se font pour Mars, car on dit que par lui se montre la véhémente ardeur du Soleil. La Victoire veut dire que tout est soumis à la vertu du Soleil. La fleur signifie la beauté des choses, que la vertu cachée du Soleil sème et fomente, et que sa chaleur tempérée fait naître, nourrit et conserve. La femme qui est devant lui, à ses pieds, est la terre, que le Soleil illumine du ciel de ses rayons.
+La barbe, qui pend sur la poitrine, signifie que du ciel sur la terre le Soleil répand ses rayons. La corbeille dorée, qui se dresse en haut, montre le feu céleste dont on croit que le Soleil est fait. La lance et la cuirasse[?3] se font pour Mars, car on dit que par lui se montre la véhémente ardeur du Soleil. La Victoire veut dire que tout est soumis à la vertu du Soleil. La fleur signifie la beauté des choses, que la vertu cachée du Soleil sème et fomente, et que sa chaleur tempérée fait naître, nourrit et conserve. La femme qui est devant lui, à ses pieds, est la terre, que le Soleil illumine du ciel de ses rayons.
 
 <aside>Adad</aside>
 <aside>Adargatis</aside>
@@ -359,7 +359,7 @@ Et c'est pourquoi Socrate chez Platon, quand il va mourir, laisse par testament 
 <aside>Serpent d'Esculape</aside>
 <aside>Comment Esculape fut porté à Rome</aside>
 
-Les Phliasiens, dans le pays de Corinthe, l'eurent aussi sans barbe ; et chez les Sicyoniens il était pareillement tel, comme l'écrit encore Pausanias, fait tout d'or et d'ivoire, tenant dans la main droite un sceptre et dans l'autre une pomme de pin, qui est le fruit du pin[?5]. Et ces peuples disaient l'avoir eu de cette façon : une femme nommée Nicagora le leur apporta d'Épidaure sur un char tiré par deux mulets, non pas fait comme l'était sa statue, mais changé en serpent, comme l'eurent aussi les Romains, quand, pour remédier à une grave pestilence (selon ce que rapporte Valère Maxime), ils envoyèrent de même à Épidaure chercher Esculape sur l'avis des livres sibyllins : car ils eurent un grand et beau serpent qui y était adoré comme la divinité d'Esculape, lequel, sorti du temple, s'en alla trois jours par la ville à son gré, au grand et religieux émerveillement de chacun ; puis, entré dans le navire des Romains et placé au lieu le plus honorable, enroulé en beaux cercles, avec une souveraine quiétude il se laissa porter à Rome, où, entré dans le temple qui est dans l'île qui fut dédiée à Esculape, il fut adoré selon le rite que les Romains apportèrent avec le serpent d'Épidaure.
+Les Phliasiens, dans le pays de Corinthe, l'eurent aussi sans barbe ; et chez les Sicyoniens il était pareillement tel, comme l'écrit encore Pausanias, fait tout d'or et d'ivoire, tenant dans la main droite un sceptre et dans l'autre une pomme de pin, qui est le fruit du pin[?4]. Et ces peuples disaient l'avoir eu de cette façon : une femme nommée Nicagora le leur apporta d'Épidaure sur un char tiré par deux mulets, non pas fait comme l'était sa statue, mais changé en serpent, comme l'eurent aussi les Romains, quand, pour remédier à une grave pestilence (selon ce que rapporte Valère Maxime), ils envoyèrent de même à Épidaure chercher Esculape sur l'avis des livres sibyllins : car ils eurent un grand et beau serpent qui y était adoré comme la divinité d'Esculape, lequel, sorti du temple, s'en alla trois jours par la ville à son gré, au grand et religieux émerveillement de chacun ; puis, entré dans le navire des Romains et placé au lieu le plus honorable, enroulé en beaux cercles, avec une souveraine quiétude il se laissa porter à Rome, où, entré dans le temple qui est dans l'île qui fut dédiée à Esculape, il fut adoré selon le rite que les Romains apportèrent avec le serpent d'Épidaure.
 
 > Image d'Esculape, dieu de la médecine, avec les coqs, oiseaux qui lui sont consacrés, signifiant la vigilance nécessaire aux Médecins, et le serpent, symbole de santé et de longueur de vie, qui provient du soin des Médecins.
 
@@ -434,7 +434,7 @@ L'une fut un Bouc de métal offert à Apollon par les Cléonéens, peuple de la 
 <aside>Âne offert à Apollon</aside>
 <aside>Sicyoniens, Ambraciotes</aside>
 
-L'autre fut celle d'un Âne, pour cette raison. Les Ambraciotes et les Sicyoniens, tous peuples de la Grèce, se faisaient la guerre, et les uns ayant dressé une embuscade à ceux qui devaient sortir de la ville, il arriva une nuit qu'un âne, poussé par l'ânier[?6] avec quelque charge sur le dos vers la ville, sentit par hasard qu'une ânesse allait devant lui et se mit à la suivre en braillant du plus fort qu'il pouvait au monde, et en marchant beaucoup plus que l'ânier ne l'eût voulu, lequel se mit pour cela à crier lui aussi ; et, comme si sa bête dût mieux l'entendre, il élevait chaque fois la voix plus asinement, de sorte que le bruit fut grand ; épouvantés, les Sicyoniens, comme si les ennemis les avaient découverts, sortis de leurs embûches, se mirent à fuir, et les Ambraciotes, avertis de cela, leur fondirent dessus et les défirent ; puis, ayant fait un bel âne de métal, ils l'envoyèrent offrir à Delphes dans le temple d'Apollon, en mémoire du bienfait qu'il leur semblait avoir reçu de cette bête, et parce qu'ils voulaient aussi reconnaître cette victoire comme venant de ce dieu.
+L'autre fut celle d'un Âne, pour cette raison. Les Ambraciotes et les Sicyoniens, tous peuples de la Grèce, se faisaient la guerre, et les uns ayant dressé une embuscade à ceux qui devaient sortir de la ville, il arriva une nuit qu'un âne, poussé par l'ânier[?5] avec quelque charge sur le dos vers la ville, sentit par hasard qu'une ânesse allait devant lui et se mit à la suivre en braillant du plus fort qu'il pouvait au monde, et en marchant beaucoup plus que l'ânier ne l'eût voulu, lequel se mit pour cela à crier lui aussi ; et, comme si sa bête dût mieux l'entendre, il élevait chaque fois la voix plus asinement, de sorte que le bruit fut grand ; épouvantés, les Sicyoniens, comme si les ennemis les avaient découverts, sortis de leurs embûches, se mirent à fuir, et les Ambraciotes, avertis de cela, leur fondirent dessus et les défirent ; puis, ayant fait un bel âne de métal, ils l'envoyèrent offrir à Delphes dans le temple d'Apollon, en mémoire du bienfait qu'il leur semblait avoir reçu de cette bête, et parce qu'ils voulaient aussi reconnaître cette victoire comme venant de ce dieu.
 
 <aside>Colombe sur l'épaule d'Apollon</aside>
 
@@ -451,7 +451,7 @@ Les poètes ont ensuite donné à Phébus, qui est le même qu'Apollon, comme je
 
 Tout cela qu'Ovide met dans le char de Phébus, et d'autres choses encore, Martianus le plaça autour du corps même de celui-ci, quand il en fait ainsi le portrait. Phébus a sur la tête une couronne de douze gemmes très lumineuses, dont trois lui ornent le front, et resplendissent tant qu'elles éblouissent quiconque tourne les yeux vers lui ; et ce sont Lychnite, Astrite et Cérauno ; six sont des deux côtés des tempes, trois de chaque côté, qui sont Émeraude, Scythis, Jaspe, Hyacinthe, Dendrite et Héliotrope, lesquelles à certains temps peignent si bien la terre de leurs couleurs qu'elles la font toute verdoyer ; et l'on croit que le Printemps et l'Automne les lui ont données, afin qu'il s'en serve lorsqu'il revient en ses saisons. Les trois autres, appelées Hydatide, Diamant et Cristal, engendrées par l'Hiver glacé, sont dans la partie arrière de la couronne.
 
-La chevelure est si blonde qu'elle semble d'or. Le visage, à sa première apparition, se montre d'un tendre enfant, puis d'un fier jeune homme, et à la fin d'un vieillard froid. Le reste du corps paraît être tout de flamme ; et il a les plumes des pieds ornées[?7] de très ardentes escarboucles. Autour de lui il a un manteau tissé d'or et de pourpre. De la main gauche il tient un bouclier très lumineux, et de la droite il présente une torche allumée. Je ne m'arrête pas à dire autre chose de cette image, parce qu'elle est telle que chacun peut fort bien la comprendre de soi-même.
+La chevelure est si blonde qu'elle semble d'or. Le visage, à sa première apparition, se montre d'un tendre enfant, puis d'un fier jeune homme, et à la fin d'un vieillard froid. Le reste du corps paraît être tout de flamme ; et il a les plumes des pieds ornées[?6] de très ardentes escarboucles. Autour de lui il a un manteau tissé d'or et de pourpre. De la main gauche il tient un bouclier très lumineux, et de la droite il présente une torche allumée. Je ne m'arrête pas à dire autre chose de cette image, parce qu'elle est telle que chacun peut fort bien la comprendre de soi-même.
 
 <aside>Eusèbe</aside>
 
@@ -488,7 +488,7 @@ Je mettrai donc désormais fin à ce que j'avais à dire du Soleil, mais non tou
 > Sa sœur, du sein mou
 > du côté gauche, tire le lait.
 > Et, de la liqueur nourricière mal rassasiée,
-> de la pieuse Téthys elle assèche[?8] le sein.
+> de la pieuse Téthys elle assèche[?7] le sein.
 > Ses tempes se gonflent quelque peu,
 > et de son front couleur d'argent
 > pointent déjà les jeunes cornes.
@@ -526,14 +526,13 @@ Certains feignent encore que l'Aurore, à sa première apparition, vienne toute 
 
 - [?1] Dans le livre, les mots sont imprimés soudés, sans espace (« dall'arcomostrano ») ; il faut probablement lire « de l'arc, ils montrent » ; traduit selon le sens.
 - [?2] Le texte est altéré à cet endroit (lacune ou coquille) ; le sens est rétabli d'après le contexte.
-- [?3] Coquille dans le livre : on a imprimé *feminale* (« féminine »), alors qu'il faut lire *seminale* (« séminale ») ; traduit « vertu séminale ».
 - Scan 0100 : « la quale non hauesse più fatto » (à propos de la Vache dont naissait le Taureau) est ambigu ; traduit selon le sens « qui n'eût jamais vêlé auparavant ». « Città del Nilo » est rendu « Ville du Nil » (Nilopolis), sans [?].
 - Scan 0102 : « vn qua » est lu comme *unqua* (« jamais ») ; la phrase est traduite selon le sens, sans [?].
-- [?4] Dans le livre, une conjonction semble manquer entre « lance » et « cuirasse » ; traduit selon le sens.
-- [?5] Coquille dans le livre : on a imprimé *furto* (« vol »), alors qu'il faut lire *frutto* (« fruit ») ; traduit « fruit du pin ».
-- [?6] Le livre dit que l'âne était chassé par le « somaro » (« baudet ») ; c'est apparemment une erreur pour le conducteur ; traduit « ânier ».
-- [?7] Dans le livre, le mot « ornati » (« ornés ») s'accorde avec « pieds », alors que, d'après le sens, il doit se rapporter aux « plumes » ; traduit avec cette correction de sens.
-- [?8] La forme verbale de l'original est incertaine à cet endroit (« ascinga ») ; il faut probablement lire « assèche » ; traduit selon le sens.
+- [?3] Dans le livre, une conjonction semble manquer entre « lance » et « cuirasse » ; traduit selon le sens.
+- [?4] Coquille dans le livre : on a imprimé *furto* (« vol »), alors qu'il faut lire *frutto* (« fruit ») ; traduit « fruit du pin ».
+- [?5] Le livre dit que l'âne était chassé par le « somaro » (« baudet ») ; c'est apparemment une erreur pour le conducteur ; traduit « ânier ».
+- [?6] Dans le livre, le mot « ornati » (« ornés ») s'accorde avec « pieds », alors que, d'après le sens, il doit se rapporter aux « plumes » ; traduit avec cette correction de sens.
+- [?7] La forme verbale de l'original est incertaine à cet endroit (« ascinga ») ; il faut probablement lire « assèche » ; traduit selon le sens.
 - Scan 0127 : le numéro de page imprimé est 95 (selon l'ordre, 85), et sur le scan 0128 il est 96 (selon l'ordre, 86) ; l'en-tête donne la numérotation 41–86 selon PAGES.tsv.
 - Les gravures placées sur les scans au milieu de phrases ou de mots (notamment 0089, 0112, 0114, 0117, 0119, 0121, 0123, 0124, 0126) ont été déplacées : les légendes sont placées après le paragraphe où la phrase s'achève (la légende de 0089 après le paragraphe qui se termine par « pur et sain »). La légende de la gravure du scan 0099 (« Apollon Mithra ») est rétablie après les vers d'Homère. La légende de la gravure du scan 0128 (Diane) est laissée à la fin du chapitre, comme dans les chapitres précédents : la gravure précède le titre du chapitre suivant.
 - Les titres marginaux « Esculapio » (0111), « Aurora » (0127) et autres, placés avant le texte, sont rendus comme marginalia ; les notes de service (en-têtes, réclames, signatures) sont omises. La note « Corone delle Muse » est imprimée en marge du scan 0086, mais se rapporte au texte du scan 0088 et y est placée.

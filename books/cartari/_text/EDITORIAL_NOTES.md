@@ -1,0 +1,75 @@
+# Служебные пометы редактора по сканам Картари
+
+Перенесено из полей «Маргиналии:» pages/NNNN.md (в печати этих помет нет; на сайт не выводятся). Данные для работы над переводом и сверкой.
+
+## Скан 0507
+- источник: Иероним Стридонский, Epistola ad Laetam
+
+## Скан 0513
+- источник: Псалом XC (Vulgata)
+- источник: Минуций Феликс, «Октавий» (Minucio Felice nell'Ottauio)
+
+## Скан 0519
+- источник: Вергилий, Энеида (I, 39–41)
+
+## Скан 0528
+- источник: Вергилий, Энеида, VIII (стих о реке Ниле на щите Энея)
+
+## Скан 0530
+- источник: Plinio il Giovane, Epistole (citazione «Est via Triburtina...»)
+- источник: Cicerone, Tusculanae Disputationes (citazione «an tu egressus Porta Capena...»)
+- источник: Giovenale, Satire (citazione «Quandoquidem data sunt ipsis quoque fata Sepulcris»)
+
+## Скан 0531
+- источник: Isidoro, Etymologiae (citazione «Chlamys... est quæ ex vna parte induitur...»)
+- источник: Virgilio (pseudo), Ciris (versi «Quid loquar aut Scillam...»)
+- источник: Silio Italico, Punica (versi «Cassis erat munita Viro...»)
+
+## Скан 0548
+- источник: Virgilio, Aeneis VIII (verso «Egidaq; horrificam turbatæ Palladis arma»; nel testo «l'ottauo dell'Eneide»)
+
+## Скан 0549
+- источник: Martiale, Epigrammata VII (versi «Dum vacat hæc, & Cæsar, poterit lorica vocari»; nel testo «Martiale ... nel principio del Libro VII»)
+
+## Скан 0555
+- источник: Вергилий (в тексте назван как «Virgilio»; конкретное произведение цитаты не установлено с уверенностью)
+
+## Скан 0557
+- источник: Гораций (в тексте: «chiamato vergognoso da Horatio», «si come si vede ne' prossimi versi d'Horatio»; дословная цитата не приведена)
+- источник: Арнобий, Adversus Gentes, кн. 5 (в тексте: «Leggasi Arnobio nel Lib. 5. contra i Gentili»)
+
+## Скан 0559
+- источник: Вергилий, Энеида, кн. V (в тексте: «come notò ancora Virgilio nella Serpe vedutasi vscire dal tumulo d'Anchise»)
+- источник: Теодоро Марчилио (Theodor Marcilius), комментарий ко второй сатире Персия (в тексте: «lo proua Teodoro Marcilio, sopra la seconda Satira di Persio»)
+
+## Скан 0560
+- источник: Авсоний (в тексте: «conforme al pensiero d'Ausonio, che chiamò Antiochia, casa del Lauro di Febo»)
+- источник: Аммиан Марцеллин, Res Gestae, кн. XXII (в тексте: «Ammiano Marcellino» / «Ammiano nel Lib. XXII.»)
+
+## Скан 0561
+- источник: Филострат, Жизнь Аполлония Тианского, кн. 1 (в тексте: «Filostrato nel primo Lib. della vita d'Apollonio»)
+
+## Скан 0591
+**Примечание к сверке (скрытые совпавшие ошибки, см. ALGORITHM.md п.7):**
+- «Nè» (не «Ne») перед «tempi più antichi» — read1 и read3 независимо дали «Ne» без грависа, read2 — верно «Nè». hidden_errors_text.
+- «circocisione» (опечатка наборщика, без «n») — read2 и read3 независимо «исправили» на «circoncisione», read1 сохранил опечатку верно, по фото подтверждено «circocisione». hidden_errors_text (ошибочная «правка» опечатки печатника).
+- Сигнатура «M m» (с явным зазором между буквами по фото) — read2 и read3 дали «Mm» слитно, read1 верно передал зазор. hidden_errors_margin.
+- Колонтитул: верно только «545» (число страницы) — раздельская «SECONDA PARTE...» это заголовок тела страницы, не колонтитул; все три прочтения ошибочно включили заголовок в колонтитул в разных вариантах (both_wrong).
+- Декоративный инициал «H» перед «ERODOTO»: read1 ошибочно продублировал букву H как отдельный символ с пробелом; по фото — инициал слит с «ERODOTO» без пробела, read2/read3 верно.
+
+## Скан 0592
+**Примечание к сверке (скрытые совпавшие ошибки, см. ALGORITHM.md п.7):**
+- «trasmessero» (не «trasmissero») — по фото чётко «trafmeffero» (долгая ſ+ſ передаётся как ff = «ss»); read1 и read3 независимо дали «trasmissero», read2 верно. hidden_errors_text.
+- Колонтитул «546 SecondPaarte» (без пробела между Second и Paarte, опечатка наборщика «Paarte» с двумя «a» сохранена как напечатано) — read1 и read3 независимо вставили лишний пробел «Second Paarte», read2 верно передал слитное написание (число пробелов после «546» нормализовано до одного — широкий зазор в наборе типографский, не два отдельных пробела). hidden_errors_margin.
+- «Narco Polo» (не «Marco Polo») — проверено по фото: буква действительно «N» (не «M», сравнение с «Millione» в той же колонке подтверждает форму буквы) — опечатка самого печатника, не исправлять. read1 и read3 верно сохранили опечатку, read2 молча «исправил» на «Marco» — это ошибка read2, НЕ скрытая (большинство 2 из 3 верны).
+- «d'inten lere» (с реальным пробелом и буквой l, не d) — подтверждено по фото зумом, три прочтения разошлись на три разных варианта (read1 «d'inten dere», read2 «d'inten lere», read3 «d'intendere» слитно) — верен read2, явно опечатка/дефект литеры в оригинале, транскribируется буквально.
+- «Mare dell i Meca» — подтверждено по фото: три отдельных токена «dell», «i» (без апострофа), «Meca»; read2 единственный передал верно (read1 пропустил «i», read3 нормализовал в «della»).
+
+## Скан 0593
+**Примечание к сверке:**
+- «Vvytflier» (не «Vvytfliet») — по фото увеличенному крупному зуму последняя буква чётко «r» (не «t»); read1 и read2 верно, read3 единственный ошибся. Не скрытая ошибка (большинство верно).
+- «fin'all'introduttione» (не «sin'all'introduttione») — по фото чёткое «f»; read2 и read3 верны, read1 один ошибся.
+- «medesimo peso» в начале страницы — read3 вставил посторонний текст «Delle Imagini de i Dei» вместо начала слова «me-», явная ошибка read3 (продублировал колонтитул соседней страницы); read1 и read2 верно «medesimo». Подтверждено по фото.
+- Сигнатура «M m 2» (с зазором между M и m, как и на скане 0591) — read1/read3 верно, read2 дал «Mm 2» слитно.
+- Множество (≈16) случаев, где read1 и read3 сохраняют перенос слова через конец печатной строки с дефисом (напр. «hab-/biamo», «lit-/terati», «apres-/so», «gl'E-/gitij» и т.п.), а read2 даёт тот же текст слитным абзацем без переносов — это не содержательное расхождение, а артефакт формата (tools/compare.py не склеивает перенесённые через дефис слова при сравнении reflow-текста против текста с сохранёнными переносами строк); отмечено как noise, не ошибка ни одного из прочтений. Тот же паттерн подтверждён явной проверкой по фото на сканах 0590–0593.
+

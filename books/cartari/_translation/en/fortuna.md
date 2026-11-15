@@ -465,7 +465,7 @@ Her image, that is, of Felicity (for this is the Latin name, and Macaria the Gre
 
 Cebes, in his tablet, depicts Felicity as a woman who sits at the entrance of a certain fortress on a handsome seat, well adorned but not with much art, and crowned with most beautiful and pleasing flowers. Everyone seems to want to go to her, but only those arrive who walk under the guidance of virtue, leaving all other things behind them; for it was his opinion, as it was of many others before him, that virtue alone could make a man happy.
 
-This we must say too, speaking as Christians and meaning not the felicity which everyone here blindly craves in this way, because it is not felicity, though it seems so, but that which the blessed souls enjoy in the heavenly seats, true, immutable, and eternal. Everyone may firmly hope to reach it who, guided by the most lucid rays of divine goodness, walks the whole journey of this world in the company of Faith, treading the dry and barren ground with the feet of Charity.
+This we must say too, speaking as Christians and meaning not the felicity which everyone blindly craves in this world, because it is not felicity, though it seems so, but that which the blessed souls enjoy in the heavenly seats, true, immutable, and eternal. Everyone may firmly hope to reach it who, guided by the most lucid rays of divine goodness, walks the whole journey of this world in the company of Faith, treading the dry and barren ground with the feet of Charity.
 
 > Image of the goddess Macaria, or goddess Felicity, daughter of Hercules, with the caduceus and the cornucopia in her hands, the former signifying virtue, the latter riches, both necessary to human felicity.
 

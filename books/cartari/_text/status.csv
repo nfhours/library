@@ -81,7 +81,7 @@ scan,label,printed_number,state,unclear,engravings,note,method,discrepancies,err
 0080,38,,done,0,2,,double,3,3,0,0,0,,,,,,,
 0081,39,39,done,0,0,,double,7,7,0,0,0,,,,,2,0,0
 0082,40,40,done,0,1,,double,3,3,0,0,0,,,,,,,
-0083,41,41,done,0,1,,double,8,8,0,0,0,,,,,1,0,0
+0083,41,41,done,0,2,,double,8,8,0,0,0,,,,,1,0,0
 0084,42,42,done,0,0,,double,9,9,0,0,0,,,,,3,1,0
 0085,43,43,done,0,1,,double,3,2,1,0,0,,,,,,,
 0086,44,44,done,0,0,,double,10,8,2,0,0,,,,,2,2,0
@@ -153,7 +153,7 @@ scan,label,printed_number,state,unclear,engravings,note,method,discrepancies,err
 0152,110,110,done,0,0,both_wrong/noise: reconstructed,double,10,7,2,0,1,,,,,3,0,0
 0153,111,111,done,0,0,both_wrong/noise: reconstructed,double,5,4,0,0,1,,,,,1,2,0
 0154,112,112,done,0,1,,,,,,,,,,,,0,0,0
-0155,113,113,done,0,1,both_wrong/noise: reconstructed,double,7,6,1,0,0,,,,,6,2,0
+0155,113,113,done,0,2,both_wrong/noise: reconstructed,double,7,6,1,0,0,,,,,6,2,0
 0156,114,114,done,0,1,,,,,,,,,,,,,,
 0157,115,115,done,0,0,both_wrong/noise: reconstructed,double,4,3,1,0,0,,,,,3,0,0
 0158,116,116,done,0,0,both_wrong/noise: reconstructed,double,6,6,0,0,0,,,,,8,0,0
@@ -190,7 +190,7 @@ scan,label,printed_number,state,unclear,engravings,note,method,discrepancies,err
 0189,147,147,done,0,0,,double,22,12,10,0,0,,,,,9,2,0
 0190,148,,done,0,0,,double,19,6,0,0,13,,,,,0,0,1
 0191,149,149,done,0,1,,double,15,7,2,0,6,,,,,5,1,0
-0192,150,,done,0,1,,double,15,3,1,0,11,,,,,5,1,0
+0192,150,,done,0,2,,double,15,3,1,0,11,,,,,5,1,0
 0193,151,151,done,0,1,,double,4,2,0,0,2,,,,,,,
 0194,152,,done,0,0,,double,29,11,0,0,18,,,,,12,1,0
 0195,153,153,done,0,0,,double,28,8,1,1,20,,,,,11,1,1
@@ -358,7 +358,7 @@ scan,label,printed_number,state,unclear,engravings,note,method,discrepancies,err
 0357,315,315,done,0,0,,double,22,2,2,0,18,,,,,0,0,0
 0358,316,,done,0,0,,double,4,3,1,1,1,,,,,0,0,0
 0359,317,317,done,0,1,,double,1,0,0,0,1,,,,,,,
-0360,318,,done,0,1,,double,7,2,5,1,1,,,,,0,0,0
+0360,318,,done,0,0,,double,7,2,5,1,1,,,,,0,0,0
 0361,319,319,done,0,0,,double,7,4,2,0,1,,,,,1,0,1
 0362,320,,done,0,0,,double,5,2,2,0,1,,,,,2,2,0
 0363,321,321,done,0,1,,double,1,0,0,0,1,,,,,,,
@@ -628,7 +628,7 @@ scan,label,printed_number,state,unclear,engravings,note,method,discrepancies,err
 0627,581,581,done,0,2,,triple,10,3,1,0,4,1,0,1,0,1,0,0
 0628,582,,done,0,2,,triple,1,0,0,0,1,0,0,0,0,0,0,0
 0629,583,583,done,0,2,,triple,2,0,0,0,1,0,0,0,0,0,0,0
-0630,584,,done,1,1,,triple,3,0,1,0,0,0,0,0,0,,,
+0630,584,,done,0,1,,triple,3,0,1,0,0,0,0,0,0,,,
 0631,585,585,done,0,1,,triple,14,3,0,0,11,1,0,0,1,2,0,0
 0632,586a,586,done,0,1,"Нумерация: на странице напечатано 586, в PAGES.tsv 586a",triple,0,0,0,0,0,0,0,0,0,,,
 0633,587a,587,done,0,1,"Нумерация: на странице напечатано 587, в PAGES.tsv 587a",triple,0,0,0,0,0,0,0,0,0,,,

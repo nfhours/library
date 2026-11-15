@@ -212,7 +212,7 @@ That Jupiter was wreathed with olive was noted also by Carolus Paschalius in his
 Iris was messenger not only of Juno but of the other gods too, as Lactantius Placidus notes in Book 2 of Statius's *Achilleid*, and the same notes in Book 1 of the *Thebaid* that Iris is the passage of the gods.
 
 <aside>Fol. 158, line 4.</aside>
-The two beams signifying Castor and Pollux were called among the Lacedaemonians Δίκαρα, as it seems to me Plutarch relates. And their figure we [?4] shall place below, together with the character or cipher that the astrologers have introduced in the Zodiac for them, taken without doubt from the antique. Hence I give little credit, in this particular, to the thought of Joseph Scaliger, who in his *Annotations on Manilius* holds that this cipher derives from another figure.
+The two beams signifying Castor and Pollux were called among the Lacedaemonians Δὶκανα, as it seems to me Plutarch relates. And their figure we [?4] shall place below, together with the character or cipher that the astrologers have introduced in the Zodiac for them, taken without doubt from the antique. Hence I give little credit, in this particular, to the thought of Joseph Scaliger, who in his *Annotations on Manilius* holds that this cipher derives from another figure.
 
 <aside>Fol. 158, line 40.</aside>
 And besides the apparition of these brothers to the Locrians, described by Justin and reported by Cartari, very notable among the Romans was that of the same Castors, which occurred (as Dionysius of Halicarnassus, Valerius Maximus, Plutarch and others write) at Lake Regillus, in the victory that Aulus Postumius the dictator won over the Latins. In token of which coins were afterwards struck, one of which has been represented in the principal figure.

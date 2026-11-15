@@ -42,7 +42,7 @@
 | 0042 | 1 | виньетка | декоративная наборная полоса из орнаментов вверху страницы | |
 | 0042 | 1 | виньетка | небольшой орнаментальный разделитель | |
 | 0042 | 1 | инициал | D | |
-| 0044 | 3a | гравюра | A carte 3 — вставная полностраничная гравюра: иерархическая схема мироздания в виде веера концентрических дуг; наверху сонм языческих божеств на облаках, ниже пояс зодиакальных созвездий и зверей, далее семь планетных знаков в медальонах, затем пояса с летящими и борющимися обнажёнными фигурами (гении/души), внизу пламя с рогатыми демонами и страждущими душами | |
+| 0044 | 3a | гравюра | A carte 3 — вставная полностраничная гравюра: иерархическая схема мироздания в виде веера концентрических дуг; наверху сонм языческих божеств на облаках, ниже пояс зодиакальных созвездий и зверей, далее шесть планетных знаков в медальонах, затем пояса с летящими и борющимися обнажёнными фигурами (гении/души), внизу пламя с рогатыми демонами и страждущими душами | |
 | 0052 | 10 | гравюра | Imagini della Dea Prouidenza, tenuta da gl'antichi anima del Mondo & creatrice del tutto. | |
 | 0058 | 16 | гравюра | Imagini della Eternità, con l'imagine del dio Demogorgone compagno della Eternità, co'l serpente, che si morde la coda, significante l'anno, & sua reuolutione. | |
 | 0062 | 20 | гравюра | Antro dell'Eternità, con l'imagine del Tempo, ò del Fato, di Febo, della Natura, & delli quattro secoli, che significano da Dio venir il tutto, & da quello il tutto esser compreso, & la reuolutione delle cose humane. | |
@@ -55,7 +55,8 @@
 | 0078 | 36 | гравюра | Imagini delle quattro stagioni dell'anno, dinotanti gli effetti & essercitij di quelle, con gli animali à loro sacrati, che pur dimostrano la natura della stagione. | |
 | 0080 | 38 | гравюра | Tempio di Giano Dio della pace, & della guerra ilquale staua serrato in tempo di pace, & aperto nella guerra, inteso per il Cielo, ilquale girandosi influisce hora pace, hora guerra. | |
 | 0080 | 38 | виньетка | типографская концовка-орнамент под текстом подписи | |
-| 0082 | 40 | гравюра | Imagine del Sole ò Febo, & di Gioue apo gli Assirÿ tenuti per vna medesima cosa, intesi da loro per l'anima del mondo, & il loro potere esser congionto insieme. | |
+| 0082 | 40 | гравюра | Imagine del Sole ò Febo, & di Gioue apo gli Assirij tenuti per vna medesima cosa, intesi da loro per l'anima del mondo, & il loro potere esser congionto insieme. | |
+| 0083 | 41 | виньетка | декоративная разделительная полоса из растительного орнамента, двойная строка | |
 | 0083 | 41 | инициал | P | |
 | 0085 | 43 | гравюра | Imagine, & Tempio di Hebe dea della Giouentù, & Copiera de gli Dei, figliuola di Giunone, senza Padre, con i Ceppi, & Catene appese alle piante della sua Seluetta, per mostrare, che'l vigore della Giouentù non comporta per l'ordinario gl'incontri della mala Fortuna. | |
 | 0087 | 45 | гравюра | Imagine delle noue Muse riferite all'armonia de gl'Orbi celesti, & inuentrici della Retorica, Astrologia, Musica, & fauole rappresentatiue. | |
@@ -91,6 +92,7 @@
 | 0147 | 105 | гравюра | Imagine d'Iside Dea Egittia, che è la Luna tenuta la Dea de Nauiganti, & fù Io apo Greci, la quale transformata in vacca dà Gioue essendo stata stuprata & ritornata nella sua propria forma fuggì per mare in Egitto, & quiui fù da quelli popoli adorata per benefitij riceuuti. | |
 | 0149 | 107 | гравюра | Imagine d Iside dea de gli Egitij, che è la Luna, con arnesi in mano denotanti la natura del Nilo & dell'Egitto, gl'Ecclissi lunari, & altri effetti suoi si nelle acque, come nelle cose elementari. | |
 | 0154 | 112 | виньетка | — солнце с лицом | |
+| 0155 | 113 | виньетка | декоративная разделительная полоса из растительного орнамента, двойная строка | |
 | 0155 | 113 | инициал | T | |
 | 0156 | 114 | гравюра | Imagine di Gioue & di Pan significante l'vniuerso, l'vno Dio delli del Celesti, l'altro Dio de Pastori, quello sedente per significar l'immutabilità di Dio, & sua prouidenza, & questo il corso del mondo stando in piedi & in moto. | |
 | 0167 | 125 | гравюра | Imagine del Dio creatore de gli Egittij, & di Gioue dio delli dei de gli antichi etnici, che dinotano la natura di Dio, & la sua prouidenza, bontà, communicatione, & gouerno di tutte le cose. | |
@@ -104,6 +106,7 @@
 | 0186 | 144 | гравюра | Imagine dell'oracolo di Gioue Hammonio de Trogloditi significante l'oscurità, & viltà delle cose mondane, & che bisogna riguardare, & inalzarsi con l'acutezza dell'intelletto all'altezza delle diuine. | |
 | 0188 | 146 | гравюра | Imagine di Gioue Hammonio de gli Arcadi, & degli Egittij, & della quercia, & del montone à lui sacrati, significanti Iddio esser auttore della vita & mantenitore del viuere, & delle risposte dubie del detto oracolo Hammonio. | |
 | 0191 | 149 | виньетка | — два путти с вазами | |
+| 0192 | 150 | виньетка | декоративная разделительная полоса из растительного орнамента, двойная строка | |
 | 0192 | 150 | инициал | Q | |
 | 0193 | 151 | гравюра | Imagine di Giunone Lucina, & della Dea Siria de Hieropoli nell'Assiria, che è vn'istessa con Giunone, & delli vccelli à lei sacrati, significanti Giunone esser regina del Cielo, dominatrice dell'aria signora de regni, & delle ricchezze. Questa fù intesa ancora per la virtù. | |
 | 0197 | 155 | гравюра | Imagine di Iride messaggiera di Giunone, figliuola di Thaumante; o sia della ammiratione: simbolo per i suoi colori delle ricchezze, che sono di marauiglia a' sciocchi, & presto spariscono. | |
@@ -167,7 +170,6 @@
 | 0349 | 307 | гравюра | *Imagini della Dea Volupia Dea de piaceri conculcante la Dea Virtù sotto li piedi suoi, denotante la detestanda, & infame vita de' dati à piaceri, in tutto spreggiatori della virtù, solo dati ad ogni sorte di vitio, quasi irrationali.* | |
 | 0352 | 310 | гравюра | *Imagine della Dea Angerona da alcuni tenuta Dea del Piacere & delle humane operationi, & anco sopra il male della gola, del silentio, & del sopportare, & imagine del Dio del Silentio detto Harpocate ò Sigalione.* | |
 | 0359 | 317 | гравюра | Imagine di Gioue fulminatore de i Giganti, che con le gambe loro di Serpe rappresentano gli empij sprezzatori di Dio, che non fanno mai cosa, che sia dritta nè giusta. | |
-| 0360 | 318 | инициал | G | |
 | 0363 | 321 | гравюра | Imagine di Vulcano Dio del Fuoco con la sua fucina, & li Ciclopi, che fabricauano li strali à Gioue & l'armi alli Dei & à gli heroi. E tolto Vulcano ancora per il calore naturale & generatiuo. | |
 | 0366 | 324 | гравюра | Imagine di Marte Dio della guerra, del suo carro, & della Fama sua messaggiera & anticipatrice, che più dice di quello è in effetto. Et per Marte vien inteso quell'ardor del Sole, che accende il sangue & li spiriti per farli poi facili alle ire, guerre, & furori. | |
 | 0368 | 326 | гравюра | Imagine del Furore, & dell'Ira, & de suoi mali effetti, che sono sprezzar ogni pericolo, benche manifesto di morte & perdita d'honore non riguardando nè à Dio, nè à gl'huomini, nè ad amici ò consanguinei, nè pur al proprio interesse; perdendo il furioso & iracondo la ragione nel furore & nell'ira. | |
@@ -222,7 +224,7 @@
 | 0481 | 439 | гравюра | Imagini di Venere, di Cupido, del {Giogo\|Gioco}, & del Capro, quali significano la generatione, & l'imagine della Testudine hieroglifico, che dinota il pericolo delle Donne maritate, e parturienti, & qual deue essere il loro vfficio nella cura familiare & alleuar figliuoli, & il silentio esser necessario alle donne sopra ogni virtù. (надписи на гравюре: IOCVS, VENVS, CVPIDO) | |
 | 0484 | 442 | гравюра | Imagine di Venere armata, di Venere vitrice, & di Venere in ceppi dinotante la fermezza, che deue essere nelli maritati & amanti, dinota ancora questa imagine il valore delle Donne Lacedemonie contro i Messenij, che andauano à saccheggiar la loro Città, da esse valorosamente difesa. | |
 | 0489 | 447 | гравюра | Imagine di Venere maschio e femina, significante questa esser sopra l'vniuersal generatione delle cose, essendo tolta per l'aria; & nelli Dei non esser differenza di esso, come ne mortali, & imagine di Venere addolorata per la morte d'Adone morto dal Cinghiale, inteso per la stagione hiemale & fredda. | |
-| 0492 | 450 | виньетка | два орнаментальных картуша-розетки | |
+| 0492 | 450 | виньетка | три орнаментальных картуша-розетки | |
 | 0493 | 451 | виньетка | орнаментальная наборная рамка-бордюр | |
 | 0493 | 451 | инициал | P (гравированный, со сценой внутри) | |
 | 0495 | 453 | гравюра | Imagine delle Hore dette anco da alcuni Gratie, & di Apolline, intese quelle per le quattro stagioni dell'anno, questo per il Sole che varia le stagioni, tenute ancora per Dee dell'amicitia, bellezza, venustà, & amabilità, Dee dell'allegrezza, gioco, & piacere, dinotano ancora la misericordia di Dio verso li colpeuoli. | |

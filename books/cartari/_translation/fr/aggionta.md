@@ -38,7 +38,7 @@ Maintenant, si Thémis (comme l'écrit Cornutus) était celle dont il parle ains
 > sous la protection de qui nous concluons les contrats, passons des accords et observons de bonne foi les conventions
 > *(Cornutus)*
 
-alors ce sera l'Équité, que les premiers empereurs figuraient sur leurs monnaies debout, avec une balance dans la main droite et, dans la gauche, une lance. Ceux qui vinrent ensuite lui donnèrent la corne d'abondance à la place de la lance, voulant faire entendre que l'abondance convenait mieux[?2] à l'Équité que la lance, symbole souvent de guerre.
+alors ce sera l'Équité, que les premiers empereurs figuraient sur leurs monnaies debout, avec une balance dans la main droite et, dans la gauche, une lance. Ceux qui vinrent ensuite lui donnèrent la corne d'abondance à la place de la lance, voulant faire entendre que l'abondance convenait mieux à l'Équité que la lance, symbole souvent de guerre.
 
 Mais si Thémis était la Justice, comme le soutient Budé dans les Annotations sur les Pandectes, elle était représentée assise, avec la patère à la main, appuyée sur une lance. Et ainsi elle figure sur les médailles d'Hadrien, d'Antonin le Pieux, d'Alexandre Sévère. De la déesse Thémis, Stephanus Pighius a fait imprimer un élégant discours.
 
@@ -52,7 +52,7 @@ Et le récit de Pausanias sur l'Arcadie, c'est-à-dire au huitième livre, méri
 Les lions de cette manière conviennent à Pluton plus qu'à Cybèle. On sait que Pluton était le dieu de la terre ; et pourtant, comme le dit le seigneur Aleandro, on ne trouve personne qui les donne à Pluton, pour autant qu'on ait pu l'observer. Les serpents qui tirent le char de Cérès, je me souviens de les avoir vus ainsi faits, en relief, sur un très ancien vase de gemme. Et sur une médaille antique que j'ai chez moi, ils tirent le char de Triptolème, représentés de cette manière.
 
 <aside>Fol. 191, ligne 22.</aside>
-L'image d'Attis se voit au fol. 188[?3], tirée d'un marbre antique qui se trouve à Rome et d'une gemme d'anneau. Cependant, comme on en a trouvé une en Flandre ces années passées, très belle, j'ai voulu la placer en cet endroit.
+L'image d'Attis se voit au fol. 188[?2], tirée d'un marbre antique qui se trouve à Rome et d'une gemme d'anneau. Cependant, comme on en a trouvé une en Flandre ces années passées, très belle, j'ai voulu la placer en cet endroit.
 
 Et qui veut en voir davantage peut en lire suffisamment dans un de nos Commentaires, imprimé à Paris et réimprimé à Venise sous le titre *Les mystères de M. D. M. I. et d'Attis*. Et le seigneur de Peiresc, conseiller royal à Aix-en-Provence, seigneur très savant et très noble, en a une semblable ; mais la sienne est d'une fonte plus agitée et d'un visage plus rude. Avec celle de Flandre fut trouvée une main de la même matière, c'est-à-dire de bronze, que j'ai aussi expliquée dans le petit livre cité plus haut.
 
@@ -74,10 +74,9 @@ Jusqu'ici, le seigneur Aleandro, très savamment.
 ## Passages douteux
 
 - [?1] Faute d'impression dans le livre : on a imprimé « Aratro » (« charrue ») au lieu de « Arato », titre de l'ouvrage de Grotius sur Aratos ; traduit « dans l'*Aratus* ».
-- [?2] Le livre imprime un mot qui n'existe pas (« contraceuole ») ; c'est apparemment une coquille pour « convenable » (*confaceuole*) ; traduit « convenait mieux ».
 - « l'Equità » (scan 0573) : traduit « l'Équité », pour la distinguer de « Giustitia » (« Justice »), que l'auteur examine plus bas ; l'entrée existe dans le glossaire (Equità, « Équité »).
 - « la mano di Tornax » (scan 0585) : *Tornax* est laissé tel qu'imprimé (« la main de Tornax ») ; ce pourrait être un lieu de découverte (Tournai, en latin *Tornacum*), mais le texte ne le dit pas, c'est pourquoi le nom n'est pas remplacé.
-- [?3] Dans le livre, après « si vede », manquent les mots « a car. » (« au fol. ») ; ajoutés d'après le sens.
+- [?2] Dans le livre, après « si vede », manquent les mots « a car. » (« au fol. ») ; ajoutés d'après le sens.
 - « M. D. M. I. & Attidis initia » (scan 0580) : la première partie du titre est donnée par des initiales (probablement « Magnae Deum Matris Idaeae », « de la Grande Mère des dieux de l'Ida ») ; rendue telle qu'imprimée : « M. D. M. I. » ; *initia* se rapporte aux deux génitifs et est traduit « mystères » (rites d'initiation) : « Les mystères de M. D. M. I. et d'Attis ».
 - « Atide » (scans 0578, 0580, 0586) : « Attis » (comme dans le chapitre de la Grande Mère).
 - « Veretro » (scan 0586, lettre d'Aleandro) : *veretrum* est le mot latin pour le membre viril ; rendu « phallus ».

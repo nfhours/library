@@ -101,6 +101,7 @@
 | 0335 | 293 | denaso | denaro | перепутанная буква |
 | 0343 | 301 | Sacerdore | Sacerdote | перепутанная буква |
 | 0344 | 302 | tronate | trouate | перепутанная буква |
+| 0346 | 304 | signfica | significa | пропущена буква |
 | 0348 | 306 | manmella | mammella | перепутанная буква |
 | 0353 | 311 | lingu | lingua | пропущена буква |
 | 0354 | 312 | Agamennome | Agamennone | перепутанная буква |

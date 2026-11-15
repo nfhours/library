@@ -38,7 +38,7 @@ Now if Themis (as Cornutus writes) was she of whom he speaks thus:
 > under whose protection we conclude contracts, make agreements, and keep the pacts in good faith
 > *(Cornutus)*
 
-Then she will be Equity, whom the first emperors on their coins depicted standing, with scales in her right hand and a spear in her left. Those who succeeded them afterwards gave her the cornucopia in place of the spear, wishing to imply that abundance was more fitting [?2] to Equity than the spear, often a symbol of war.
+Then she will be Equity, whom the first emperors on their coins depicted standing, with scales in her right hand and a spear in her left. Those who succeeded them afterwards gave her the cornucopia in place of the spear, wishing to imply that abundance was more fitting  to Equity than the spear, often a symbol of war.
 
 But if Themis were Justice, as Budaeus holds in the *Annotations on the Pandects*, she was depicted seated, with a patera in her hand, resting on a spear. And so she is on the medals of Hadrian, of Antoninus Pius, of Alexander Severus. Stephanus Pighius has printed an elegant discourse on the goddess Themis.
 
@@ -52,7 +52,7 @@ And worthy of notice (inasmuch as on the band one sees Minerva, Diana and Hercul
 Lions in that manner are fitting for Pluto more than for Cybele. It is known that Pluto was the god of the earth; and yet, as Signor Aleandro says, no one is found who gives them to Pluto, as far as it has been possible to observe. The serpents that draw the chariot of Ceres I remember having seen thus fashioned in relief on a very ancient vase of gemstone. And on an ancient medal that I have, they draw the chariot of Triptolemus, fashioned in this manner.
 
 <aside>Fol. 191, line 22.</aside>
-The image of Attis is seen on fol. 188 [?3], taken from an ancient marble that is in Rome, and from a ring gem. However, since a very beautiful one was found in Flanders in past years, I wished to place it in this spot.
+The image of Attis is seen on fol. 188 [?2], taken from an ancient marble that is in Rome, and from a ring gem. However, since a very beautiful one was found in Flanders in past years, I wished to place it in this spot.
 
 And whoever wishes to see more of them can read about them sufficiently in a Commentary of ours printed in Paris and reprinted in Venice with the title *Mysteries of M. D. M. I. and of Attis*. And Signor de Peiresc, Royal Councillor at Aix in Provence, a most learned and most noble gentleman, has a similar one; but his is in a more agitated cast and with a rougher face. With the one from Flanders there was found a hand of the same material, that is, of bronze, which I have likewise explained in the booklet cited above.
 
@@ -74,10 +74,9 @@ So far Signor Aleandro, very learnedly.
 ## Doubtful passages
 
 - [?1] “Aratro del Grotio” (scan 0571): the printed word is “Aratro” (“plough”); the sense requires “Arato” (Grotius's work on Aratus, *Syntagma Arateorum*, 1600). Rendered “Grotius's *Aratus* [?]”.
-- [?2] “contraceuole” (scan 0573, on the cornucopia and Equity): the word does not exist; probably a misprint for *confaceuole* (“fitting”). Rendered “more fitting [?]”.
 - “l'Equità” (scan 0573): rendered “Equity”, to distinguish it from “Giustitia” (“Justice”), which the author discusses below; the glossary has the entry (Equità, “Equity”).
 - “la mano di Tornax” (scan 0585): *Tornax* is kept as printed (“the hand of Tornax”); it may be a place of discovery (Tournai, Latin *Tornacum*), but the text does not say so, so the name is not altered.
-- [?3] “si vede 188” (scan 0578): after “si vede” the words “a car.” (“at fol.”) are missing; rendered “is seen on fol. 188 [?]”. The marginal note at this paragraph is “Fol. 191, line 22”.
+- [?2] “si vede 188” (scan 0578): after “si vede” the words “a car.” (“at fol.”) are missing; rendered “is seen on fol. 188 [?]”. The marginal note at this paragraph is “Fol. 191, line 22”.
 - “M. D. M. I. & Attidis initia” (scan 0580): the first part of the title is given in initials (probably “Magnae Deum Matris Idaeae”, “of the Great Idaean Mother of the Gods”); kept as printed, “M. D. M. I.”; *initia* belongs to both genitives and is rendered “mysteries” (initiatory rites): “Mysteries of M. D. M. I. and of Attis”.
 - “Atide” (scans 0578, 0580, 0586): “Attis” (as in the chapter on the Great Mother).
 - “Veretro” (scan 0586, letter of Aleandro): *veretrum* is the Latin word for the male member; rendered “phallus”.
