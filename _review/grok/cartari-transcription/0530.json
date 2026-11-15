@@ -1,0 +1,74 @@
+{
+  "id": "0530",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0530.webp"
+    ],
+    "printed_pages": "488",
+    "heading_on_scan": "· Annotationi",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Проза, латинские цитаты (Плиний Мл., Цицерон, Ювенал, эпитафия Калатина), надписи заглавными и кустода сверены; «ammoniscero», «Triburtina», «OBFIDEM», «Seruiliorũ», «voremo», «Auloca» — как в печати."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0530-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 0,
+      "type": "ocr",
+      "original": "Monimentnm Pallantis ita",
+      "current": "Monimentum Pallantis ita",
+      "suggested": "[typo: опечатка печати] Monimentnm (как в печати)",
+      "confidence": "medium"
+    },
+    {
+      "field": "marginalia",
+      "issue_id": "0530-2",
+      "fields": [
+        "marginalia"
+      ],
+      "paragraph": "marg",
+      "type": "addition",
+      "original": "(на поле печати этой пометы нет)",
+      "current": "источник: Plinio il Giovane, Epistole (citazione «Est via Triburtina...»)",
+      "suggested": "[addition] редакторская помета на русском, в печати отсутствует; в поле marginalia (печатные маргиналии) её быть не должно — убрать или перенести в отдельное поле примечаний",
+      "confidence": "high"
+    },
+    {
+      "field": "marginalia",
+      "issue_id": "0530-3",
+      "fields": [
+        "marginalia"
+      ],
+      "paragraph": "marg",
+      "type": "addition",
+      "original": "(на поле печати этой пометы нет)",
+      "current": "источник: Cicerone, Tusculanae Disputationes (citazione «an tu egressus Porta Capena...»)",
+      "suggested": "[addition] редакторская помета на русском, в печати отсутствует; в поле marginalia (печатные маргиналии) её быть не должно — убрать или перенести в отдельное поле примечаний",
+      "confidence": "high"
+    },
+    {
+      "field": "marginalia",
+      "issue_id": "0530-4",
+      "fields": [
+        "marginalia"
+      ],
+      "paragraph": "marg",
+      "type": "addition",
+      "original": "(на поле печати этой пометы нет)",
+      "current": "источник: Giovenale, Satire (citazione «Quandoquidem data sunt ipsis quoque fata Sepulcris»)",
+      "suggested": "[addition] редакторская помета на русском, в печати отсутствует; в поле marginalia (печатные маргиналии) её быть не должно — убрать или перенести в отдельное поле примечаний",
+      "confidence": "high"
+    }
+  ]
+}

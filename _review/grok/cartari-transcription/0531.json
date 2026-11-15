@@ -1,0 +1,74 @@
+{
+  "id": "0531",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0531.webp"
+    ],
+    "printed_pages": "489",
+    "heading_on_scan": "All'Imagini del Cartari. ·",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Проза и два стихотворных блока (Ciris, Silio Italico) сверены; «ſauosq;», «Dulchias Vexape», «ripetiti», «Numie» — как в печати."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0531-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 14,
+      "type": "ocr",
+      "original": "…Non rida chi può. ¶ Onde non sarà marauiglia…",
+      "current": "…Non rida chi può. Onde non sarà marauiglia…",
+      "suggested": "[format] в печати с «Onde» начинается новый абзац (с отступом) — разделить",
+      "confidence": "high"
+    },
+    {
+      "field": "marginalia",
+      "issue_id": "0531-2",
+      "fields": [
+        "marginalia"
+      ],
+      "paragraph": "marg",
+      "type": "addition",
+      "original": "(на поле печати этой пометы нет)",
+      "current": "источник: Isidoro, Etymologiae (citazione «Chlamys... est quæ ex vna parte induitur...»)",
+      "suggested": "[addition] редакторская помета на русском, в печати отсутствует; в поле marginalia (печатные маргиналии) её быть не должно — убрать или перенести в отдельное поле примечаний",
+      "confidence": "high"
+    },
+    {
+      "field": "marginalia",
+      "issue_id": "0531-3",
+      "fields": [
+        "marginalia"
+      ],
+      "paragraph": "marg",
+      "type": "addition",
+      "original": "(на поле печати этой пометы нет)",
+      "current": "источник: Virgilio (pseudo), Ciris (versi «Quid loquar aut Scillam...»)",
+      "suggested": "[addition] редакторская помета на русском, в печати отсутствует; в поле marginalia (печатные маргиналии) её быть не должно — убрать или перенести в отдельное поле примечаний",
+      "confidence": "high"
+    },
+    {
+      "field": "marginalia",
+      "issue_id": "0531-4",
+      "fields": [
+        "marginalia"
+      ],
+      "paragraph": "marg",
+      "type": "addition",
+      "original": "(на поле печати этой пометы нет)",
+      "current": "источник: Silio Italico, Punica (versi «Cassis erat munita Viro...»)",
+      "suggested": "[addition] редакторская помета на русском, в печати отсутствует; в поле marginalia (печатные маргиналии) её быть не должно — убрать или перенести в отдельное поле примечаний",
+      "confidence": "high"
+    }
+  ]
+}

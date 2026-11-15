@@ -1,0 +1,35 @@
+{
+  "id": "0516",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0516.webp"
+    ],
+    "printed_pages": "474",
+    "heading_on_scan": "Annotationi",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Гравюра (два сатира) без подписи; проза, маргиналия и кустода сверены; «faceua'l», «ne i quali», «1595.» — как в печати."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0516-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "il Cartari e da leggere",
+      "current": "il Cartari è da leggere",
+      "suggested": "[accent] Cartari e da",
+      "confidence": "medium"
+    }
+  ]
+}

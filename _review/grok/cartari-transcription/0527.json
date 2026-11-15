@@ -1,0 +1,48 @@
+{
+  "id": "0527",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0527.webp"
+    ],
+    "printed_pages": "485",
+    "heading_on_scan": "All'Imagini del Cartari. ·",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Проза, 4 маргиналии, сигнатура Hh 3 и кустода сверены; «Capeduncula», «le Chiamano», «cio», «luochi», «Mitaliero» — как в печати."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0527-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "memorie antiche . del quale si veda",
+      "current": "memorie antiche, del quale si veda",
+      "suggested": "[punctuation] antiche. del quale",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0527-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "facendole alate . & con quattro piedi",
+      "current": "facendole alate, & con quattro piedi",
+      "suggested": "[punctuation] alate. & con",
+      "confidence": "medium"
+    }
+  ]
+}

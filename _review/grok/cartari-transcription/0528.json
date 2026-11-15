@@ -1,0 +1,61 @@
+{
+  "id": "0528",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0528.webp"
+    ],
+    "printed_pages": "486",
+    "heading_on_scan": "· Annotationi",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Проза, 3 стиха Вергилия, 4 печатные маргиналии и кустода сверены; «Pindentemq;», «Lenino Torrentio», «Viuano»/«Viuiano», «falsissimamente» — как в печати."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0528-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 10,
+      "type": "ocr",
+      "original": "magno mȩrentem (e caudata — крючок снизу, = mœrentem)",
+      "current": "magno mẽrentem",
+      "suggested": "[reading] mȩrentem / mærentem",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0528-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 14,
+      "type": "ocr",
+      "original": "& Aciscolario → печать: & Aciſculario ne medesimi",
+      "current": "Aciscolario",
+      "suggested": "[reading] Acisculario",
+      "confidence": "high"
+    },
+    {
+      "field": "marginalia",
+      "issue_id": "0528-3",
+      "fields": [
+        "marginalia"
+      ],
+      "paragraph": "marg",
+      "type": "addition",
+      "original": "(на поле печати этой пометы нет)",
+      "current": "источник: Вергилий, Энеида, VIII (стих о реке Ниле на щите Энея)",
+      "suggested": "[addition] редакторская помета на русском, в печати отсутствует; в поле marginalia (печатные маргиналии) её быть не должно — убрать или перенести в отдельное поле примечаний",
+      "confidence": "high"
+    }
+  ]
+}

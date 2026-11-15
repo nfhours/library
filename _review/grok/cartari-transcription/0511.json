@@ -1,0 +1,35 @@
+{
+  "id": "0511",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0511.webp"
+    ],
+    "printed_pages": "469",
+    "heading_on_scan": "All'Imagini del Cartari.",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Гравюра (колесница с петухами) без подписи; проза, маргиналия, сигнатура Gg 3 и кустода сверены; «pero», «Martin Delrio», «giudicarà» — как в печати."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0511-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 4,
+      "type": "ocr",
+      "original": "la Città dAstroth. Carnaim (печать: Aſtroth)",
+      "current": "la Città d Astaroth. Carnaim",
+      "suggested": "[typo: опечатка печати] Astroth (как в печати)",
+      "confidence": "medium"
+    }
+  ]
+}

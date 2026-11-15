@@ -1,0 +1,48 @@
+{
+  "id": "0514",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 2 горизонтальным полосам (верх/низ) в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, стихи, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места увеличены (zoom). Ударения читались на уровне полосы, увеличивались лишь подозрительные (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0514.webp"
+    ],
+    "printed_pages": "472",
+    "heading_on_scan": "Annotationi",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Гравюра (Исида, Юпитер, Минерва) без подписи; проза, 3 маргиналии сверены; «è ben vero» со строчной, «Ne era», «Traduttore» — как в печати."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0514-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 2,
+      "type": "ocr",
+      "original": "che tanto piu conferma",
+      "current": "che tanto più conferma",
+      "suggested": "[accent] tanto piu",
+      "confidence": "medium"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0514-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": 6,
+      "type": "ocr",
+      "original": "a cap. XI car. 120.",
+      "current": "a cap. XI. car. 120.",
+      "suggested": "не уверен: [punctuation] a cap. XI car. 120.",
+      "confidence": "low"
+    }
+  ]
+}
