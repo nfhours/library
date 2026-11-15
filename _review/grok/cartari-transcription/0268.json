@@ -1,0 +1,61 @@
+{
+  "id": "0268",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 4 горизонтальным полосам в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места (кроме ударений) увеличены. Ударения читались на уровне полосы (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0268.webp"
+    ],
+    "printed_pages": "226",
+    "heading_on_scan": "Imagini de i Dei",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Остальной текст, 4 маргиналии, кустод «VER-» сверены; сигнатуры нет."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0268-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": "00",
+      "type": "ocr",
+      "original": "«de i piu nobili fiumi» (в печати piu без ударения)",
+      "current": "de i più nobili fiumi",
+      "suggested": "[accent] [accent] de i piu nobili fiumi",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0268-2",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": "00",
+      "type": "ocr",
+      "original": "«ilqnale rende» (в печати ilqnale)",
+      "current": "ilquale rende",
+      "suggested": "[typo] ilqnale — опечатка печати, транскрипция исправила",
+      "confidence": "high"
+    },
+    {
+      "field": "text_it",
+      "issue_id": "0268-3",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": "00",
+      "type": "ocr",
+      "original": "«porro solo quello» (в печати без ударения)",
+      "current": "porrò solo quello",
+      "suggested": "[accent] [accent] porro solo quello",
+      "confidence": "medium"
+    }
+  ]
+}

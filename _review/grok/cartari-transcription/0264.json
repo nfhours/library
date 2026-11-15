@@ -1,0 +1,35 @@
+{
+  "id": "0264",
+  "book": "cartari",
+  "pass": "B",
+  "verdict": "minor",
+  "scope": "сверка pages_it (text_it, маргиналии, кустод, сигнатура) со сканом",
+  "check": {
+    "status": "проверено полностью",
+    "method": "скан открыт по 4 горизонтальным полосам в исходном разрешении (для страниц-гравюр — ещё нижняя часть с подписью), каждая строка прочитана глазами и сверена с pages_it (текст, маргиналии, кустод — с началом следующего скана, сигнатура); сомнительные места (кроме ударений) увеличены. Ударения читались на уровне полосы (уверенность medium). Без OCR-сравнения и без выборки.",
+    "scans": [
+      "0264.webp"
+    ],
+    "printed_pages": "222",
+    "heading_on_scan": "Imagini de i Dei",
+    "heading_matches": true,
+    "data": "origin/main @ 590d5fe (books/cartari/pages_it.json, books/cartari/scans/; содержимое books/cartari идентично 52bd8f7)",
+    "not_checked": "пунктуация (запятые, точки с запятой, пробелы) сплошь не сверялась; колонтитул и номер страницы по заданию не оцениваются",
+    "note": "Остальной текст, 4 стиха Овидия и 3 стиха Стация (курсив), 7 маргиналий, кустода «Et» сверены; сигнатуры нет."
+  },
+  "issues": [
+    {
+      "field": "text_it",
+      "issue_id": "0264-1",
+      "fields": [
+        "text_it"
+      ],
+      "paragraph": "11",
+      "type": "ocr",
+      "original": "«Che prona l’argamente l’acque versa» (в печати l’argamente)",
+      "current": "Che prona largamente l'acque versa.",
+      "suggested": "[typo] l’argamente — опечатка печати, транскрипция исправила",
+      "confidence": "high"
+    }
+  ]
+}
