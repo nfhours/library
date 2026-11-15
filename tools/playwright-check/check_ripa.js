@@ -513,6 +513,20 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     ok('find article: word-start only ("зобил" inside "Изобилие" → 0)', inside === 0 && full > 0 && part >= full, { inside, full, part });
     await page.evaluate(() => { sessionStorage.clear(); location.hash = '#/iconologie/list'; }); await W(500);
   }
+  if (NEW) { // p2-92 «Vie courte» и p2-93 «Vie longue»: в оригинале гравюр нет — статья без картинки выглядит нормально
+    for (const [id, prev, next] of [['p2-92', 'p2-91', 'p2-93'], ['p2-93', 'p2-92', 'p2-94']]) {
+      await open('#/iconologie/' + id, 'ru'); await page.evaluate(() => sessionStorage.clear()); await page.reload({ waitUntil: 'load' }); await W(1800);
+      const r = await page.evaluate(() => { const rp = document.querySelector('.ic-rp'), figs = document.querySelectorAll('.ic-fig, .ic-fig-eng, .ic-rp-figs img'), h1 = document.querySelector('h1'), box = [...document.querySelectorAll('.ic-figs, .ic-rp-figs, .ic-plate')].map(e => Math.round(e.getBoundingClientRect().height)),
+        a = [...document.querySelectorAll('.ic-rp-pager [data-go]')].map(x => x.getAttribute('data-go')), text = (rp.querySelector('.ic-text, .ic-rp-text, .ic-attrs') || rp).innerText.length; return { figs: figs.length, emptyBoxes: box.filter(x => x > 0 && x < 40).length, h1: h1 && h1.textContent, hrefs: a, textLen: text }; });
+      ok(id + ': no engraving figure, no empty box/frame, has title and text', r.figs === 0 && r.emptyBoxes === 0 && !!r.h1 && r.textLen > 100, r);
+      ok(id + ': prev/next links work (' + prev + ' / ' + next + ')', r.hrefs.includes(prev) && r.hrefs.includes(next), r.hrefs);
+      await page.click('.ic-rp-pager [data-go="' + next + '"]'); await W(1200);
+      ok(id + ': next opens ' + next, await page.evaluate(n => location.hash.endsWith('/' + n), next));
+    }
+    await open('#/iconologie/plates', 'ru'); await W(2500);
+    const g = await page.evaluate(() => ({ hasNo: !document.querySelector('[href$="/p2-92"],[href$="/p2-93"],[data-id="p2-92"],[data-id="p2-93"]'), n: document.querySelectorAll('.ic-plate-row, .ic-svx-one, .ic-pl a, [data-n]').length }));
+    ok('plates grid has no p2-92 / p2-93', g.hasNo, g);
+  }
   if (NEW) { // ?new из закладок не ломает адрес: тот же основной вид
     await page.goto(BASE + '?new#/iconologie', { waitUntil: 'load' }); await W(900);
     ok('legacy ?new works', await page.evaluate(() => !!document.querySelector('.ic-home-hero') && !!document.querySelector('.ic-bt-tabs')));

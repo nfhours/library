@@ -7,9 +7,9 @@
     "fr": "Iconologie"
   },
   "subtitle": {
-    "ru": "Чезаре Рипа во французском переводе Жана Бодуэна, Париж, 1677 — основополагающий свод аллегорических образов западной традиции: добродетели, пороки и отвлечённые понятия в виде узнаваемых фигур с атрибутами. Указатель обеих частей с переводом; нажмите на сюжет, чтобы открыть статью.",
-    "en": "Cesare Ripa, in the French translation of Jean Baudoin, Paris, 1677 — the foundational emblem book of Western allegorical imagery: virtues, vices and abstract ideas given recognizable figures and attributes. Index of both parts with translation; click a subject to open the article.",
-    "fr": "Cesare Ripa, dans la traduction française de Jean Baudoin, Paris, 1677 — le recueil fondateur de l'imagerie allégorique occidentale : vertus, vices et notions abstraites donnés sous des figures reconnaissables avec leurs attributs. Index des deux parties avec traduction ; cliquez sur un sujet pour ouvrir l'article."
+    "ru": "Чезаре Рипа во французском переводе Жана Бодуэна, Париж, 1677 — основополагающий свод аллегорических образов западной традиции: добродетели, пороки и отвлечённые понятия в виде узнаваемых фигур с атрибутами.",
+    "en": "Cesare Ripa, in the French translation of Jean Baudoin, Paris, 1677 — the foundational emblem book of Western allegorical imagery: virtues, vices and abstract ideas given recognizable figures and attributes.",
+    "fr": "Cesare Ripa, dans la traduction française de Jean Baudoin, Paris, 1677 — le recueil fondateur de l'imagerie allégorique occidentale : vertus, vices et notions abstraites donnés sous des figures reconnaissables avec leurs attributs."
   },
   "author": "Cesare Ripa (trad. Jean Baudoin)",
   "year": 1677,
@@ -32,5 +32,10 @@
   ],
   "sourceIsFrench": true,
   "flatGroups": true,
-  "publisher": "Louis Billaine"
+  "publisher": "Louis Billaine",
+  "source": {
+    "ru": "Собственный экземпляр из коллекции Андрея Стёпина; фото автора (кадры A001–A515)",
+    "en": "Author's own copy from the collection of Andrey Stepin; photographs by the author (frames A001–A515)",
+    "fr": "Exemplaire personnel de la collection d'Andrey Stepin ; photographies de l'auteur (vues A001–A515)"
+  }
 }
