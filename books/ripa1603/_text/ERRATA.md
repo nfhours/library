@@ -48,3 +48,9 @@
 | 0441 | 420 | Penclope | Penelope | перепутанная буква |
 | 0456 | 435 | d'habiio | d'habito | перепутанная буква |
 | 0457 | 436 | ordinarioni | ordinationi | перепутанная буква |
+| 0510 | 489 | pignale | pugnale | перепутанная буква |
+| 0518 | 497 | questob asterà | questo basterà | перестановка букв |
+| 0519 | 498 | sactta | saetta | перепутанная буква |
+| 0520 | 499 | verirà | verità | перепутанная буква |
+| 0521 | 500 | tanto | tanta | перепутанная буква |
+| 0525 | 504 | difficolià | difficoltà | перепутанная буква |

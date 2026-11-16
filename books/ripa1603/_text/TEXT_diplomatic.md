@@ -10800,3 +10800,597 @@ L'acqua, & il fuoco si prende per lo bene, & per lo male, secondo il detto dell'
 Кустод: TRA-
 Сигнатура: 
 Маргиналии:
+
+## Скан 0510 · с. 489
+
+[ЗАГОЛОВОК: TRADIMENTO.]
+
+[ИНИЦИАЛ: V]N' huomo armato, di brutto aspetto, il quale stia in atto di basciare vn'altro huomo bello, & senza armi; terrà la mano dritta al pugnale dietro al fianco.
+
+Si fà d'aspetto dispiaceuole, perche questo vitio è macchia enorme, & deformità infame della vita dell'huomo.
+
+Il bacio è indicio d'amicitia, & di beneuolenza; dar la mano al pignale per vccidere, è effetto d'odio, di rancore, & di tradimento.
+
+L'huomo disarmato, dimostra l'innocẽza, la quale fà scoprir maggiore la macchia del tradimento, & che i traditori sono vigliacchi nell'essercitio dell'armi, non si curando perdere l'honore, per esser sicuri nel risico della vita.
+
+[ЗАГОЛОВОК: Tradimento.]
+
+[ИНИЦИАЛ: V]Na faccia infernale, acconciatamente vestita, tenga vna maschera sopra il viso, & alzandola alquanto con vna mano, faccia scoprire in parte la faccia macilente, & brutta, la detta maschera hauerà i capelli biondi, & ricci, in capo porterà vn velo sottilissimo dal quale traspariscono li capelli serpentini.
+
+Fingono i Poeti, che le furie, siano alcune donne nell'Inferno destinate à tormenti altrui; & che siano sempre inclinate alla ruina dell'huomini, brutte, dispiaceuoli, fetente, con capelli serpentini, & occhi di fuoco, & per questo essendo esse ministre di grandissimo male, ricoperte con la maschera, noteranno il tradimento, che è vn'effetto nociuo, & luttuoso ricoperto con apparenza di bene, & però hà la detta maschera i capelli biondi, & ricci, che sono i pensieri finti, per ricoprire la propria sceleraggine, & mantener celata la calamità, che preparano altrui. Il che notano i serpenti, che sono tutti veleno, & tossico, & i capelli serpentini, che appariscono sotto al cielo, dimostrano, che ogni tradimento alla fine si scuopre, & ogni mal pensiero si sà secondo il detto di Christo N. S.
+
+[ЗАГОЛОВОК: TRAGEDIA.]
+
+[ИНИЦИАЛ: D]ONNA vestita di nero, nella destra mano tiene vn pugnale ignudo insanguinato, con gli stiualetti ne' piedi, & in terra dietro alle spalle vi sarà vn vestimento d'oro, & diuerse gemme pretiose.
+
+Vestesi la Tragedia di color nero, per essere tal habito maninconico, & conueneuole in questa sorte di Poesia, non contenendo essa altro, che le calamità, & ruine de Prencipi con morte violente, & crudele; il che dimostra il pugnale insanguinato.
+
+Et fù questa Poesia ritrouata da gl'antichi, per molte ragioni, ma principalmente per ricreare, & confortare gl'animi di cittadini, li quali hauessero potuto pensare per confidenza de se stessi, di douer arriuare alla tirannide, & al regimento gl'altri huomini, togliendo loro la speranza di buon successo, con l'essempio dell' infelicità de gl'altri, che à queste arriuate si sono fabricate grandissime calamità.
+
+Колонтитул: DI CESARE RIPA. 589
+Кустод: Dal
+Сигнатура: Hh 3
+Маргиналии:
+
+## Скан 0511 · с. 490
+
+Dal che si conchiude, esser bene contentarsi dell'honesta fortuna, & senza altra pompa viuere allegramente, con quei pochi commodi, che partorisce la debole fortuna de semplici Cittadini.
+
+[ЗАГОЛОВОК: TRAGEDIA.]
+
+[ГРАВЮРА: без подписи]
+
+Insegna ancora à i Prencipi, & Signori, à non violentar tanto il corso della loro grandezza col danno de Cittadini, che non si ricordino, che la loro fortuna, & la vita, stà spesse volte riposta nelle mani de Vassalli.
+
+Il pugnale insanguinato, dimostra, che non le morti simplicemente, ma le morti violente de Prencipi iugiusti sono il soggetto della Tragedia, & se bene dice Aristotile nell'arte Poetica, che possono essere le Tragedie senza auuenimento di morte, ò spargimento di sangue, con tutto ciò è tanto ben seguitare in questo caso l'vso de Poeti, che le hanno compo-
+
+Колонтитул: 490 ICONOLOGIA
+Кустод: ste
+Сигнатура: 
+Маргиналии:
+
+## Скан 0512 · с. 491
+
+ste di tempo, in tempo, quanto i precetti, che nedia vn filosofo, ancorche dottissimo.
+
+Gli stiualetti erano portati da Prencipi per mostrare preminenza alla plebe, & à gl'huomini ordinarij, & però si introduceuano i rappresentatori ad imitatione di quelli calzati, con questa sorte di scarpe, & li dimandauano coturni. E dimostra, che questa sorte di Poema, hà bisogno di parole graui, & di concetti, che non siano plebei, ne triuiali. Però disse Horatio.
+
+*Effutrie leues indigna Tragedia versus.*
+
+[ЗАГОЛОВОК: TRANQVILLITA']
+
+[ИНИЦИАЛ: D]ONNA con allegro volto, tenga con ambe le mani vn'Alcione, vccello il quale stia dentro al suo nido, & vn'altro ne voli intorno alla testa di essa.
+
+Gli Alcioni, fanno il nido alla ripa del mare con mirabile artificio di officiole, & spine de pesci assai piccioli, & in tal modo intessato, & fortificato, che è sicuro ancora di colpi di spada; hà forma simile alla Zicca, & non hà se non vn picciolo pertugio per il quale à fatica entra, & esce l'Alcione istesso, il quale fù presso à gl'antichi Egittij indicio di tranquillità, perche esso per naturale istinto, conosce i tempi, & si pone à far il nido quando vede, che sia per continuare molti giorni tranquilli, & quieti; però tirando di quì la metafora, dimandauano i Romani giorni alcionij, quei pochi dì, che non era lecito andare in giuditio, & attendere alle liti nel Foro.
+
+[ЗАГОЛОВОК: Tranquillità.]
+
+[ИНИЦИАЛ: D]Onna bella d'aspetto, la quale stando appoggiata ad vna Naue, con la destra mano tenga vn cornucopia, & con la sinistra le faldi de panni; per terra vi sarà vn'anchora arruginita, & in cima all'albero della naue, si vedrà vna fiamma di fuoco.
+
+Si appoggia alla naue, per dimostrare la fermezza, & tranquillità, che consiste nella quiete dell'onde, che non la solleuando, fanno, che sicuramente detta donna s'appoggi.
+
+Il cornucopia, dimostra, che la tranquillità del cielo, & del mare, producono l'abondanza, l'vna con l'arte delle mercantie, l'altra con la natura delle influenze.
+
+L'anchora è istromento da mantenere la naue salda, quando impetuosamente è molestata dalle tempeste, gittandosi in mare, & però sarà segno di tranquillità, vedendosi applicata ad altro vso, che à quello di mare.
+
+La fiamma del fuoco sopra alla naue, dimostra quella, che i nauiganti dimandano luce di S. Ermo, dalla quale quando apparisce sopra l'albero della naue, essi prendono certo presaggio di vicina tranquillità.
+
+Колонтитул: DI CESARE RIPA. 491
+Кустод: Tran
+Сигнатура: Hh 4
+Маргиналии:
+
+## Скан 0513 · с. 492
+
+[ЗАГОЛОВОК: Tranquillità.]
+
+Vedi à Sicurezza.
+
+[ЗАГОЛОВОК: TRANQVILLITA']
+*Nella Medaglia d'Antonino Pio.*
+
+[ИНИЦИАЛ: D]ONNA, che tiene con la man destra vnTimone, & con la sinistra due spighe di grano, mostrando per esse spighe l'abondanza del grano, che si può hauere per mare, in tempo tranquillo, & quieto.
+
+[ЗАГОЛОВОК: TRIBVLATIONE]
+
+[ИНИЦИАЛ: D]ONNA vestita di nero, sarà scapigliata, nella destra mano terrà tre martelli, & nella sinistra vn cuore.
+
+E vestita di nero, perche porta neri, & oscuri i pensieri, i quali continuamente macerano l'anima, & il cuore, non altrimente, che se fussero martelli, i quali con percosse continue, lo tormentassero..
+
+I capelli sparsi, significano i pensieri, che dissipano, & si intricano insieme nel multiplicare delle tribulationi, & de'trauagli.
+
+[ЗАГОЛОВОК: Tribulatione.]
+
+[ИНИЦИАЛ: D]Onna, mesta, & afflitta, con le mani, & i piedi legati, & che à canto vi sia vn'affamato Lupo, in atto di volerla diuorare.
+
+[ЗАГОЛОВОК: TRISTITIA, OVERO]
+*Rammarico del ben'altrui.*
+
+Vedi à Rammarico.
+
+[ЗАГОЛОВОК: VALORE.]
+
+[ИНИЦИАЛ: H]VOMO ignudo, con vna pelle di Leone à torno, sarà cinto da vn gran serpe, al quale con le mani stringa la gola, & lo soffochi, appresso hauerà vna volpe presa alla rete.
+
+Il valore, è vna congiuntione della virtù del corpo, & dell'animo insieme. Però si dipinge vestito con la pelle di Leone, essendo questo animale audace nel prendere, & potente nel condurre à fine molte imprese difficili, & come la virtù del capo, supera la forza altrui (il che si dimostra nel serpente, che vccide con le mani) così con quella dell'animo impedisce i passi all'astutia, & con mirabil prouidenza tiene in modo, che non possono nuocere, ne pregiudicare ad alcuno; Però gl'antichi lo figurorno il valore nell'imagine di Hercole, & lo dimandauano con nome di virtù.
+
+[ЗАГОЛОВОК: Valore.]
+
+[ИНИЦИАЛ: H]Vomo di età virile, vestito d'oro, nella destra mano tiene vna ghirlanda d'Alloro, & vn Scettro; & con la sinistra accarezza vn Leone, il quale gli si appoggia al sinistro fianco;
+
+All'età virile, si appoggia il valore facilmente, perche suol per sè stessa portare la fortezza dell'animo, & la robustezza del corpo, & come l'oro nelle fiamme si affina, così la perfettione dell'huomo si acquista nelle fiamme de gl'odij nndriti, ò dall'inuidia, ò dalla fortuna.
+
+Колонтитул: 492 ICONOLOGIA
+Кустод: Gli
+Сигнатура: 
+Маргиналии:
+
+## Скан 0514 · с. 493
+
+Gli si fà lo scettro, perche al valore si deuono di ragione i gouerni, le signorie; & la corona dell'alloro, che sempre mantiene il verde senza impallidirse, dimostra l'offitio dell'huomo valoroso, secondo il detto d'Horatio nelle Epistole.
+
+*Nil conscire sibi, nulla pallescere culpa.*
+
+Perche la pallidezza, è segno ne' pericoli di poco valore.
+
+Il Leone col quale si accarezza, dimostra che è opera di vero valore, saper acquistare gl'animi de gl'huomini fieri, & bestiali, con prouocarli alla beneuolenza, spogliandoli con particolar garbo de'costumi maligni, & delle manieri spiaceuoli.
+
+[ЗАГОЛОВОК: VANITA']
+
+[ИНИЦИАЛ: G]IOVANETTA, ornatamente vestita, con la faccia lisciata, porti sopra alla testa vna tazza con vn cuore,
+
+Vanità si domanda nell'huomo, tutto quello, che non è drizato à fine perfetto, & stabile, per esser solo il fine regola delle nostre attioni, come dicono i Filosofi. Et perche il vestire pomposamente, & il lisciarsi la faccia, si fà per fine di piacer ad altrui con intentione di cosa vile, & poco durabile, però questi si pongono ragioneuolmente per segno di vanità.
+
+E' vanità medesimamente scoprire à tutti il suo cuore, & i suoi pensieri, perche è cosa, che non hà fine alcuno, & facilmente può nuocere senza speranza di giouamento, & però il cuore si dipinge apparente, sopra alla testa.
+
+[ЗАГОЛОВОК: VBRIACHEZZA.]
+
+[ИНИЦИАЛ: D]ONNA vecchia, rossa, & ridente, vestita del color delle rose secche, in mano terrà vn vaso da beuere pieno di vino, & à canto vi sarà vna Pantera.
+
+Rappresentasi vecchia, perche il troppo vino fà, che gl'huomini presto inuecchiano, & diuentano deboli.
+
+La Pantera, mostra, che gl'vbriachi sono furiosi, di costumi crudeli, & feroci, come sono le pantere, le quali, come dice Arist. nella historia de gl'animali, non si domesticano mai.
+
+[ЗАГОЛОВОК: Vecchiezza.]
+
+[ИНИЦИАЛ: D]Onna grinza, & canuta, vestita di nero semplicemente, con vn ramo di Senicio in mano; perche i fiori di questa herba sono di color pallido, & nella loro più alta parte, diuentano come canuti, & cadono.
+
+[ЗАГОЛОВОК: Vecchiezza.]
+
+[ИНИЦИАЛ: D]Onna con la testa canuta, macilente, & con molte crespe per la faccia, vestita di quel colore de le foglie, quando hanno perduto il vigore, senza ornamento, tenẽdo nella man sinistra vn'horologio da poluere, il quale stia nel fine dell'hora, & vn paro d'occhiali, con l'altra appoggiandosi ad vn bastone, insegnerà col dito detto horologio, & terrà vn piede alto, & sospeso sopra vna fossa, mostrando il vicino pericolo.
+
+Колонтитул: DI CESARE RIPA. 493
+Кустод: Vec-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0515 · с. 494
+
+Vecchiezza è quella età dell'huomo, che tiene da cinquanta fino à settanta anni, nella quale l'huomo, che và in declinatione per la freddezza del sangue, deuiene inhabile alle fatiche corporale, & essercitij mentali, i quali per la debolezza de sensi, non può fare senza difficultà, & questa età è tutta declinatione.
+
+Che la vecchiezza sminuisca la vista, le forze, l'ambitione, le bellezze, & le speranze, si mostra con gl'occhiali, col bastone, col vestimento, con la faccia, & con l'horologio, che stà in fine, ouero del color della veste somigliante à quello delle frondi de gl'alberi nell'Autunno, ouero dalla fossa quale stà per cadere.
+
+Si potrà ancora dipingere, che tenga in mano le spine, ouero la pianta d'alcune rose, le quali siano sfrondate in gran parte, & languide.
+
+[ЗАГОЛОВОК: VELOCITA'.]
+
+[ИНИЦИАЛ: D]ONNA con l'ali alle spalle, in atto di correre, tenga vn Sparuiero in capo con l'ali aperte, il che è conforme ad vn detto di Homero, doue si esprime vna gran velocità, col volo dello Sparuiero.
+
+[ЗАГОЛОВОК: Velocità.]
+
+[ИНИЦИАЛ: D]Onna, con habito, con l'ali alle spalle, portando i Talori, ouero stiualetti simili à quelli di Mercurio, & nella destra mano vna saetta.
+
+I talori sono indicio di velocità, però disse Virg. di Mercurio.
+
+*Aurea quæ sublimem alij siuè æquora supra*
+*Seu terram rapido pariter cum flumine portant.*
+
+La saetta ancora nel suo moto velocissimo, merita che se ne faccia memoria in questo proposito.
+
+Appresso hauerà vn Delfino, & vna Vela, questa perche fà andare veloce la naue, quello perche muoue sè stesso velocemente.
+
+[ЗАГОЛОВОК: VENDETTA.]
+
+[ИНИЦИАЛ: D]ONNA armata, & vestita di rosso, nella destra tiene vn pugnale ignudo, & si morde vn dito della sinistra, à canto hà vn Leone ferito con vn dardo, il quale si veda in detta ferita, & il Leone stia in atto spauenteuole.
+
+La vendetta si rappresenta con vn pugnale in mano, per dimostrare quello atto spontaneo della volontà, che corre à vendicare le ingiurie, con lo spargimento del sangue, & però ancora si veste di rosso.
+
+Si dipinge armata, perche per mezzo delle proprie forze, facilmente può l'huomo vendicare l'offese.
+
+Et si morde il dito, perche chi è inclinato à vendicarsi per hauer memoria più stabile, si serue così del male spontaneo, che si fà da sè stesso, per memoria del male violento, che proua per lo sforzo de gl'altri.
+
+Il Leone essendo ferito, osserua mirabilmente il percussore, & non lascia
+
+Колонтитул: 494 ICONOLOGIA
+Кустод: mai
+Сигнатура: 
+Маргиналии:
+
+## Скан 0516 · с. 495
+
+mai occasione di vendicarsi. Onde il Pierio racconta, che vn giouane compagno di Giuba Re de Mori, mentre il detto Re andaua con l'Esercito per li deserti dell'Africa per cagione di prouedere alle sue cose, incontrandosi in vn Leone, lo percosse con vn dardo, & l'anno dapoi ripassando il detto già spedito per quel medesimo loco, comparue il detto Leone, & osseruando il giouane, che l'haueua ferito, andando con velocissimo corso fra le gran moltitudine de Soldati, miserabilmente lo lacerò, partendosi senza offendere alcun'altro; solo sodisfacendosi d'hauer vendicata la vecchia offesa. Però gli Egittij dipingeuano nel detto modo il Leone per la vendetta.
+
+[ЗАГОЛОВОК: Vendetta.]
+
+[ИНИЦИАЛ: D]Onna armata, con vna fiamma di fuoco sopra all'elmo, hauerà mozza la sinistra mano, & tenendo gl'occhi fissi al tronco del braccio, dimostri con l'aspetto turbato, maninconia, & rabbia, dall'altra mano terrà il pugnale in atto di voler ferire, sarà vestita di rosso, & à canto hauerà [?] Coruo con vn Scorpione in bocca, il quale punga con la punta della coda[?] il Coruo nel collo.
+
+L'armatura, dimostra il valore, & la fortezza del corpo esser necessaria alla vendetta de' danni riceuuti.
+
+Il fuoco è indicio del moto, & del feruore del sangue intorno al cuore, per ira, & per appetito di vendetta, à che corresponde l'aspetto turbato.
+
+Et guarda il tronco del braccio, perche non è cosa alcuna, che inanimi aggiormente alla vendetta, che la memoria fresca de' danni riceuuti.
+
+Et però è dimostrata col Coruo punto dallo Scorpione, dal che l'Alciatira vn suo emblema, diendo.
+
+*Raptabat volucres captum pede Coruus in auras,*
+*Scorpion, audaci præmia parta gulæ.*
+*Ast ille infuso sensim per membra veneno,*
+*Raptorem in stygias compulit vltor aquas.*
+*O risu res digna; alys qui fata parabat,*
+*Jpse perit, propriis succubuitq; dolus.*
+
+[ЗАГОЛОВОК: VENTI.]
+*Eolo Re de Venti.*
+
+[ИНИЦИАЛ: H]VOMO con l'ali, & con capelli rabuffatti, cinti di vna corona, le guancie gonfie, & con ambe le mani tenghi in fiera attitudine vn freno.
+
+Si dipinge che porti la corona, & il freno, percioche i Poeti lo chiamano Re de venti, & per quanto referisce il Boccaccio lib.xiij. così.
+
+*Venne in Eolia alla Città de venti,*
+*Oue con gran furor son colmi i luoghi,*
+*D'Austri irati, quinci in la gran caua*
+*Eolo preme i faticosi venti,*
+
+Колонтитул: DI CESARE RIPA. 495
+Кустод: Et
+Сигнатура: 
+Маргиналии:
+
+## Скан 0517 · с. 496
+
+*Et le sonante tempe, & come Rege*
+*Per lor legami, & gli raffrena chiusi.*
+*Ou'essi disdegnosi d'ogni intorno,*
+*Fumono, & alte ne rimbomba il monte.*
+
+Et Virgilio ancor egli descriuendolo nel primo dell'Eneide così dice.
+
+*Talia flamanti, secum Dea corde volutans*
+*Nimborum in patriam, loca foeta furentibus austris*
+*Aeoliam venit, hic vasto Rex Aeolus antro*
+*Lucrantes ventos, tempestatesq; sonoras.*
+*Imperio præmit ac vinculis, & carcere frenat*
+*Illi indignantes magno cum murmure motis*
+*Circum claustra fremunt; celsa sedet æolus arce*
+*Sceptra tenens, mollitq; animos & temperat iras.*
+
+[ЗАГОЛОВОК: EOLO]
+*Come si possa dipingere d'altra maniera.*
+
+[ИНИЦИАЛ: H]VOMO inhabitato di Re, con vna fiamma di fuoco in capo, terrà con vna mano vna vela di naue, & con l'altra vn Scettro.
+
+Si rappresenta in questa guisa, perche Diodoro Siculo nel 6. libro delle sue historie, dice, che Eolo regnò nelle Isole chiamate da gl'antichi dal suo nome Eolie, che sono nel mare di Sicilia, & fù Re giustissimo, humano, & pietoso, & insegnò alli Marinari l'vso delle vele, & con la diligente osseruatione delle fiamme del fuoco, conosceua i venti che doueuano tirare, & li prediceua; onde hebbe luogo la fauola, che egli era Re de venti.
+
+[ЗАГОЛОВОК: VENTI.]
+
+[ИНИЦИАЛ: A]NCORCHE di molti venti, si faccia mentione, nondimeno quattro sono li principali, & di questo faremo pittura, i quali soffiano dalle quattro parte del mondo, ciaschuno dalla sua parte; & Ouidio nelle Metamorfosi, di loro così dice, mettendo ciascuno al suo luogo nel libro primo.
+
+*Euro verso l'Aurora il regno tolse,*
+*Che al raggio mattintin si sottopone.*
+*Fauonio nell'Occaso il seggio volse*
+*Opposto al ricco albergo di Titone*
+*Ver la fredda, e crudel Scitia si volse*
+*L'horribil Borea, nel Settentrione*
+*Tenne l'Austro la terra à lui contraria,*
+*Che di nube, & di pioggie ingombra l'aria.*
+
+[ЗАГОЛОВОК: EVRO.]
+
+[ИНИЦИАЛ: H]VOMO con le gote gonfiate, con l'ali à gl'homeri, di carnagione moresca, hauerà in capo vn Sole rosso.
+
+Questo vento soffia dalle parti dell'Oriente.
+
+Колонтитул: 496 ICONOLOGIA
+Кустод: Si
+Сигнатура: 
+Маргиналии:
+
+## Скан 0518 · с. 497
+
+Si dipinge di color nero, per similitudine de gl'Ethiopi, che sono Leuante donde egli viene, & così è stato dipinto da gl'antichi.
+
+L'ali sono inditio della velocità de i venti, & circa l'ali questob asterà per dichiaratione de tutti gl'altri venti.
+
+Si rappresenta con il Sole rosso in cima del capo, perche se il Sole quando tramonta è rosso, & infocato, mostra che questo vento hà da soffiare dì che vien dietro, come mostra Vergilio libro primo della Georgica scriuendo li segni, che hà il Sole delle stagioni, dicendo
+
+*Cæruleus pluuiam denunciat igneus Eurus.*
+
+[ЗАГОЛОВОК: FAVONIO, O ZEPHIRO]
+*che dir vogliamo.*
+
+[ИНИЦИАЛ: V]N Giouane di leggiadro aspetto, con l'ali, & con le gote gonfiate, come communemente si fingono i venti, tiene con bella gratia vn Cigno con l'ale aperte; & in atto di cantare.
+
+Hauerà in capo vna ghirlanda con testa di varij fiori, così è dipinto da Philostrato nel primo libro dell'imagine, doue dice che quando viene que[?] vento, i Cigni cantano più suauemente del solito, & il Boccaccio nel [?]to libro della Geonologia delli Dei, dice che Zephiro è di complesio[?] fredda, & humida, nondimeno temperatamente, & che risolue i vermi, & produce l'herbe, & i fiori, & perciò gli si dipinge la ghirlanda in capo.
+
+Vien detto Zephiro da Zephs, che volgarmente suona vita, vien detto poi Fauonio, perche fauorisce tutte le piante, spira soauemente, & conpiaceuolezza da mezzo giorno, fino à notte, & dal principio di Primauera fino al fine dell'Estate.
+
+[ЗАГОЛОВОК: BOREA, OVERO AQVILONE.]
+
+[ИНИЦИАЛ: H]VOMO horrido, con la barba, i capelli, & le ali tutte piene di neue, & con li piedi come code di serpi; così viene dipinto da Pausanio, & Ouidio nel 6. lib. delle Metamorfosi, di lui così dice.
+
+*Deh perche l'arme mie poste hò in oblio*
+*E'l mio poter, che ogni potenza sforza,*
+*Perche vò vsar contra il costume mio*
+*Lusinghe, & priegbi in vece della forza.*
+*Io son pur quel temuto in terra Dio,*
+*Che soglio al mondo far di giel la scorza;*
+*Che quando per lo ciel batto le piume*
+*Gangio la pioggia in neue, e'n ghiaccio il fiume.*
+*Tutto, all'immensa terra imbianco il seno*
+*Quando in giù verso il mio gelido lembo,*
+*E come alla mia rabbia alento il freno*
+*Apro il mar fino al suo più cupo grembo*
+*E per rendere al mondo il ciel sereno*
+
+Колонтитул: DI CESARE RIPA. 497
+Кустод: Scaccio
+Сигнатура: 
+Маргиналии:
+
+## Скан 0519 · с. 498
+
+*Scaccio dall'aere ogni vapore, e nembo,*
+*E quando in giostra incontro, e che percuoto,*
+*Vinco, & abbatto il nero horrido Noto.*
+*Quando l'orgoglio mio per l'aria irato*
+*Scaccia i nembi vers' Austro, e soffia, e freme,*
+*E'l forte mio fratel dall'altro lato*
+*Altre nubi ver me ributta, e preme,*
+*E che questo, e quel nuolo è sforzato*
+*Nel mezzo del camin d'vrtarsi insieme.*
+*Io pur quel son, che con horribil suono*
+*Fà vscir il fuoco, la sactta, e'l tuono.*
+*Non solo il soffio mio gl'arbori atterra,*
+*Ma sia palazzo pur fondato, e forte,*
+*E se tal' hor m'ascondo, e stò sotterra*
+*Nel tetro carcer delle genti morte,*
+*Fò d'intorno tremar tutta la terra,*
+*Se io trouo all'vscir mio chiuse le porte,*
+*E fin che io non esalo all'aria il vento*
+*Di tremor empio il mondo, e di spauento.*
+
+[ЗАГОЛОВОК: AVSTRO.]
+Come descritto da Ouidio nel primo lib. delle Metamorf.
+
+*Con l'ali humide sù per l'aria poggia*
+*Gl'ingombra il volto, molle oscuro nembo*
+*Dal dorso horrido suo, scende tal pioggia,*
+*Che par che tutto il mare tenga nel grembo.*
+*Piouon spesse acque in spauentosa foggia*
+*La barba, il crine, e il suo piumoso lembo.*
+*Le nebbie hà in fronte, i nuoli alle bande*
+*Ouunque l'ale tenebrose spande.*
+
+Per quanto riferisce il Boccaccio nel lib. 4. della Geonologia delli Dei, dice, che questo vento, è naturalmēte freddo, & secco, nondimeno mentre venendo à noi, passa per la zona torrida piglia calore, & dalla quantità dell'acque, che consiste nel mezzo giorno, riceue l'humidità, & così cangiata natura, peruiene à noi calido, & humido, & con il suo calore apre la terra, & per lo più è auezzo moltiplicar l'humor, & indurre nube, & pioggie; & Ouidio descriuendoli tutti quattro nel primo lib. Tristium eleg. 2. così dice.
+
+*Nam modo purpureo vires cupit Eurus ab ortu.*
+*Nunc Zephyrus sero vespere missus adest:*
+*Nunc gelidus sicca Boreas baccatur ab arcto:*
+*Nunc Notus aduersa prælia fronte gerit.*
+
+Колонтитул: 498 ICONOLOGIA
+Кустод: AVRA
+Сигнатура: 
+Маргиналии:
+
+## Скан 0520 · с. 499
+
+[ЗАГОЛОВОК: AVRA.]
+[ИНИЦИАЛ: V]NA fanciulla con i capelli biondi, sparsi al vento, con bella acconciatura di varij fiori in capo .
+Il viso sarà alquanto grasso, cioè con le gote gonfie simile à quelle de i venti, ma che sieno tali,che non desdicano à gl'homeri, porterà l'ali, le quali faranno di più colori , ma per lo più del colore dell' aria , & spargerà con ambe le mani diuersi fiori .
+Aure sono tre, la prima è all'apparire del giorno, la seconda à mezzo giorno , & la terza verso la sera .
+Furno pinte dalli Poeti fanciulle, piaceuole , seminatrice de fiori con l'occasione de quei venticioli, che al tempo della primauera vanno dolcemente spargendo gl'odori de fiori, come dice il Petrarca in vna sestina doue dice.
+*Là ver l'aurora, che si dolce l'Aura*
+*Al tempo nuouo suol mouere i fiori .*
+Et nel Sonetto 162 .
+*L'aura gentil che raserena i poggi*
+*Destando i fior per questo ombroso bosco*
+*Al suaue suo spirto riconosco , &c.*
+Giouane,& con l'ali si dipinge , per rappresentare la velocità del suo moto .
+[ЗАГОЛОВОК: VERITA'.]
+[ИНИЦИАЛ: V]NA bellissima donna ignuda , tiene nella destra mano alta il Sole, il quale rimira , & con l'altra vn libro aperto,con vn ramo di palma,& sotto al destro piede , il globo del mondo .
+Verità è vn'habito dell'animo disposto à non torcere la lingua dal dritto , & proprio essere delle cose,di che egli parla,& scriue , affermando solo quello che è , & negando quello, che non è senza mutar pensiero .
+Ignuda si rappresenta , per dinotare, che la simplicità gli è naturale ; onde Euripide in Phænissis,dice esser semplice il parlare della verità, ne li fà bisogno di vane interpretationi ; percioche ella per se sola è opportuna . Il medesimo dice Eschilo, & Senica nell'epistola quinta,che la verità è semplice oratione,però si fà nuda , come habbiamo detto , & non deue hauere adornamento alcuno .
+Tiene il sole,per significare, che la verità è amica della luce, anzi ella è luce chiarissima, che dimostra quel che è .
+Si può anco dire che riguarda il sole cioè Dio, senza la cui luce non è verità alcuna;anzi egli è l'istessa verità ; dicendo Christo N. S. Io sono Via , Verità, & Vita .
+Il libro aperto,accenna,che ne i libri si suona la verità delle cose,& per ciò è lo studio delle scienze .
+Il ramo della palma , ne può significare la sua forza , percioche si come è noto,che la palma nō cede al peso,cosi la veriràō cede alle cose cōtrarie,& ben che molti le impugnano, nondimeno si solleua,& cresce in alto.
+
+Колонтитул: DI CESARE RIPA. 499
+Кустод: Oltre
+Сигнатура: 
+Маргиналии:
+
+## Скан 0521 · с. 500
+
+[ЗАГОЛОВОК: VERITA'.]
+[ГРАВЮРА: без подписи]
+Oltre ciò significa la fortezza,& la vittoria ; Et chine poi cōtra Timarco dice la verità hauer tanto forza , che supera tutti i pensieri humani .
+Bacchilide chiama la verità onnipotente, sapienza nell'Esdra al 4.cap.
+Et la senteza di Zerobabel Giudeo dice la verità esser più forte d'ogni altra cosa , & che volse più di tutte l'altre presso al Rè Dario .
+Ma che dica io delle sentenze, puoi che li fatti de i nostri Christiani amplissimamente ciò hanno prouato , essendosi molte migliaia di persone d'ogni età,d'ogni sesso,& quasi d'ogni paese esposto al spargere il sangue , & la vita per mantenere la verità della fede Christiana; onde riputando glorioso trionfo de i crudelissimi tiranni d'infinite palme , & corone , hanno la verità Christiana adornata .
+
+Колонтитул: 500 ICONOLOGIA
+Кустод: Il mon-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0522 · с. 501
+
+Il mondo sotto il piè , denota, che ella è superiore à tutte le cose del mondo , & di loro più pretiosa , anzi che è cosa diuina , onde Menandro in Nannis,dice che la verità è cittadina del cielo , & che gode solo stare tra'Dei .
+[ЗАГОЛОВОК: Verità .]
+[ИНИЦИАЛ: D]Onna risplendente, & di nobile aspetto, vestita di color bianco pomposamente, con chioma d'oro, nella destra mano tenendo vn specchio ornato di gioie, nell'altra vna bilancia d'oro .
+La conformità,che hà l'intelletto con le cose intelligibili si dimanda da filosofi con questo nome di verità , & perche quel che è vero è buono, & il buono è priuo di macchia , & di lordura, però si veste di bianco la verità , aggiungendosi che è simile alla luce, & la bugia alle tenebre,& à questo alludeuano le parole di Christo S.N. quando disse,quel che vi dico nelle tenebre , narrate nella luce, cioè,quel che dico inanzi alla pianezza del tempo,che sia scoperta la verità delle profetie in me ditelo voi,quando sarò salito al cielo, che sarà riuelato, & aperto il tutto, & però egli ancora è dimandato , & luce , & verità : onde lo splendore di questa figura , & il vestito si può dire che si conformino nel medesimo significato .
+Et lo specchio insegna, che la verità allora,è in sua perfettione , quando,come si è detto,l'intelletto si conferma con le cose intelligibili, come lo specchio è buono quando rende la vera forma della cosa, che vi risplende,& è la bilancia indicio di questa egualità .
+[ЗАГОЛОВОК: Verità .]
+[ИНИЦИАЛ: F]Anciulla ignuda, con alcuni veli bianchi d'intorno, per dimostrare, che essa deue esser ricoperta , & adornata in modo con le parole, che non si leui l'apparenza del corpo suo bello , & delicato , & di se stesso più che d'ogn'altra cosa s'adorna,& s'arricchisce .
+[ЗАГОЛОВОК: Verità .]
+[ИНИЦИАЛ: I]Gnuda, come si è detto , nella destra mano il Sole, & nella sinistra vn tempo d'horologio .
+Il Sole le si dà in mano, per l'istessa ragione che si è detta di sopra dello splendore ; & il tempo nella man sinistra significa,che à lungo andare la verità necessariamente si scopre, & apparisce, & però è dimandata figliuola del tempo, & in lingua Greca hà il significato di cosa,che non stà occulta .
+[ЗАГОЛОВОК: Verità .]
+[ИНИЦИАЛ: G]Iouanetta ignuda, tiene nella destra mano vicino al cuore vn Persico, con vna sola foglia,& nella sinistra vn'horologio da poluere .
+Il persico è antico ieroglifico del cuore,come la sua foglia della lingua,& si è vsato sempre in molti simili propositi la similitudine che hanno con l'vno,& con l'altra , & insegna che deue esser congionto il cuore, & la lingua , come il persico , & la sua foglia , accioche quello che si dice habbia forma , & apparenza di verità .
+
+Колонтитул: DI CESARE RIPA. 501
+Кустод: Et l'ho-
+Сигнатура: Ii
+Маргиналии:
+
+## Скан 0523 · с. 502
+
+Et l'horologio è in luogo del tempo, che si è detto nell'altra .
+[ЗАГОЛОВОК: VIGILANZA.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: D]ONNA con vn libro nella destra mano , & nell'altra con vna verga,& vna lucerna accesa,in terra vi sarà vna Grue, che sostenga vn sasso col piede .
+E' tanto in vso, che si dica vigilante , & suegliato vn'huomo di spirito viuace,che se bene hà preso questo nome della vigilanza de gli occhi corporali, nondimeno il continuo vso se l'è quasi conuertito in natura , & fatto suo, però l'vna, & l'altra vigilanza,& del corpo,& dell'anima, vien dimostrata nella presente figura , quella dell'animo nel libro del quale apprendendosi le scienze si fà l'huomo vigilante , & desto à tutti gl'incontri della fortuna , per la agitatione della mente contemplando, & la
+
+Колонтитул: 502 ICONOLOGIA
+Кустод: verga
+Сигнатура: Ii
+Маргиналии:
+
+## Скан 0524 · с. 503
+
+verga sueglia il corpo adormentato, come il libro ,& la contemplatione destono li spiriti sonnolenti; però del corpo , & dell'animo , si intende il detto della Cantica *Ego dormio, & cor meum vigilat.*
+Et le Grue, insegnano , che si deue star vigilante in guardia di se medesimo , & della propria vita ; perche come si racconta da molti quando vanno insieme per riposarsi securamente, si aiutano in questo modo , che tenendo vna di esse vn sasso col piede raccolto , l'altre sin che il sasso non cade, sono sicure di esser custodite per la vigilanza delle compagne,& cadendo , che non auuiene , se non nel dormire di dette guardie , che al rumore si destano , & se ne fuggono via ;
+La Lucerna dimostra, che la vigilanza propriamente s'intende in quel tempo che è più conueniente al riposo , & al sonno , però si dimandauano da gli antichi Vigilie alcune hore della notte , nelle quali i Soldati erano obligati à star vigilanti per sicurezza dell'essercito , & tutta la notte si spartiua in quattro vigilie , come dice Cesare nel primo de suoi commentarij .
+[ЗАГОЛОВОК: Vigilanza .]
+[ИНИЦИАЛ: D]Onna vestita di bianco, con vn Gallo, & con vna Lucerna in mano, perche il gallo si desta nell'hore della notte , all'essercitio del suo canto , nè tralascia mai di obedire alli occulti ammaestramenti della natura, così insegna à gl'huomini la vigilanza .
+Et la Lucerna , mostra questo medesimo vsandosi da noi accioche le tenebre non siano impedimento all'attioni lodeuoli .
+Et però si legge , che Demostene interrogato , come haueua fatto à diuentare valente Oratore, rispose di hauere vsato più olio , che il vino , intendendo con quello la vigilanza de gli studij , con questo la sonnolenza delle delicie .
+[ЗАГОЛОВОК: Vigilanza .]
+[ИНИЦИАЛ: D]Onna , che stia in piedi con vn campanello in mano, & con vn Leone vicino in atto di dormire con gli occhi aperti .
+La campana è instromento sacro, & si è ritrouato per destar non meno gli animi dal sonno de gl'errori con la penitenza alla quale c'inuita chiamandoci al tempio , che i corpi dalle piazze,& dalle commodità del dormire .
+Il Leone fù presso à gli Egitij indicio della vigilanza , perche , come racconta il Pierio non apre mai intieramente bene gl'occhi, se non quando si addormenta , & però lo figurauano alle porte de tempij , mostrando che in Chiesa si deue vegliare con l'animo nell'orationi, se bene il corpo par che dorma alle attioni del mondo .
+
+Колонтитул: DI CESARE RIPA. 503
+Кустод: Vigi-
+Сигнатура: Ii 2
+Маргиналии:
+
+## Скан 0525 · с. 504
+
+[ЗАГОЛОВОК: Vigilanza per difendersi, & oppugnare altri.]
+[ИНИЦИАЛ: D]ONNA, che nella destra tiene vn serpe , & con la sinistra vn dardo .
+[ЗАГОЛОВОК: VILTA'.]
+[ИНИЦИАЛ: D]ONNA mal vestita, giacendo per terra in luogo fangoso,& brutto ; tenendo in mano l'vccello Vpupa , & mostri non hauer ardire d'alzare gli occhi da terra , standogli appresso vn Cuniglio .
+Vile si dimanda l'huomo , che si stima meno di quel che vale, & non ardisce quello , che potrebbe conseguire con la sua lode , senza mouersi à tale openione di se stesso dalla credenza che egli habbia d'oprare con virtù , & però si rappresenta la viltà in vna donna, che giace per terra , & mal vestita , essendo ordinariamente le donne più facili de gl'huomini à mancar di animo nell'attioni d'importanza .
+Il vestimento stracciato, nota, che in vn vile, non vi sia pensiero di addobbare il corpo suo, per dubbio di non poter sostentare quella grauità ,& quei costumi , che richiedono i panni, ouero per quel detto triuiale , che si suol dire . *Audaces fortuna iuuat, timidosque repellit.*
+Et non hauendo ardire l'huomo per viltà offerirsi ad imprese grandi, se ne stà frà il fango d'vna sordida vita, senza venir mai à luce, & à cognitione de gli huomini, che lo possono souenire delle cose necessarie .
+L'vpupa si descriue da diuersi autori, per vccello vilissimo, nutrendosi de sterco , & altre sporcitie,per non hauer' ardire mettersi à procacciare il cibo con difficolià .
+Il tenere gl'occhi bassi,dinota il poco ardire,come per l'effetto si vede.
+Il coniglio , è di sua natura vilissimo, come chiaro si sà da molti, che hanno scritto la natura de gli animali .
+[ЗАГОЛОВОК: VIOLENZA.]
+[ИНИЦИАЛ: D]ONNA armata, che al sinistro fianco , porti vna scimitarra , nella destra vn bastone, & con la sinistra tenghi vn fanciullo, & lo percuota .
+Violenza , è la forza, che si adopra contro i meno potenti, & però si dipinge armata all'offesa di vn fanciullo debole , & senza aiuto d'alcuna parte . Cosi diciamo esser violento il moto della pietra gittata in alto contro al moto datogli dalla natura del fiume, che ascende, & che altre cose simili, le quale in questi moti poco durano,perche la natura alla quale l'arte,& la forza finalmente vbidisce,le richiama, & le fà facilmente secondare la propria inclinatione .
+[ЗАГОЛОВОК: VIRGINITA'.]
+[ИНИЦИАЛ: G]IOVANE, pallida,& alquāto magra,di bello,& gratioso aspetto cō vna ghirlāda de fiori in capo,vestita di biāco,&suoni vna citara, mostrādosi piena d'allegrezza, seguēdo vn'Agnello in mezzo d'vn prato .
+Si dipinge giouane , perche dalla sua giouentù si misura il suo trionfo , & il suo prezzo,per la contraria inclinatione di quella età.
+La pallidezza, & allegrezza sono indicij di digiuno, & di penitenza,& sono dui particolari custodi della virginità .
+
+Колонтитул: 504 ICONOLOGIA
+Кустод: Hà il
+Сигнатура: 
+Маргиналии:
+
+## Скан 0526 · с. 505
+
+Hà il capo cinto di fiori, perche,come dicono i Poeti,la virginità non è altro,che vn fiore, il quale subito che è colto,perde tutta la gratia, & bellezza . Segue l'Agnello,perche tanto è lodeuole la virginità,quanto se ne và seguendo l'orme di Christo, che fù il vero essempio della virginità,& il vero Agnello, che toglie li peccati del mondo .
+Il Prato verde,dimostra le delicie della vita lasciua, la quale comincia & finisce in herba, per non hauer in sè frutto alcuno di vera contentezza, ma solo vna semplice apparenza , che poi si secca , & sparisce, la quale è dalla virginità calcata con animo generoso, & allegro, & però suona la Cetra .
+[ЗАГОЛОВОК: Virginità .]
+[ИНИЦИАЛ: G]Iouanetta,la quale accarezzi con le mani vn'Alicorno, perche,come alcuni scriuono,questo animale non si lascia prendere se non per mano di Vergine .
+[ЗАГОЛОВОК: VIRGINITA'.]
+[ГРАВЮРА: без подписи]
+
+Колонтитул: DI CESARE RIPA. 505
+Кустод: VNA
+Сигнатура: Ii 3
+Маргиналии:
+
+## Скан 0527 · с. 506
+
+[ИНИЦИАЛ: V]NA bellissima giouanetta, vestita di panno lino bianco, con vna ghirlanda de smeraldi, che li coroni il capo, & che con ambi le mani si cinga con bella gratia vn cintolo di lana bianca .
+Lo smeraldo , per quello, che narra Pierio Valeriano lib. 41. è segno di virginità , & fù consecrato à Venere celeste, creduta all'hora Dea dell'Amor puro, dal quale non possono nascere se non puri,& candidi effetti; essendo,che da lei viene quel puro , & sincero amore, che in tutto , è alieno dal congiongimento de i corpi ; & però lo smeraldo da molti , & in particolare da gl'Astrologi, è posto per segno della virginità .
+Si dipinge con il cintolo di lana nella guisa che dicemmo , percioche fù antico costume, che le Vergini si cingessero con il cinto, in segno di virginità, la quale si soleua sciorre dalli Sposi la prima sera , che elle douessero dormire con essi, come scriue Festo Pompeo, & à questo alludo Catullo nell'epitalamio de Manlio, & di Giulia così dicendo .
+*Te suis tremulus parens*
+*Inuocat tibi virgines*
+*Zonula soluat linus .*
+Il bianco vestimento, significa purità , fondata ne i buoni pensieri verginali, & nelle sante attioni del corpo , che rendono l'anima candida , & bella .
+[ЗАГОЛОВОК: Virilità .]
+[ИНИЦИАЛ: D]Onna di età di 50. anni, con habito d'oro, & nella destra mano con vn Scettro, nella sinistra con vn Libro,& siede sopra vn Leone,con la spada al fianco .
+Virilità, è quella età dell'huomo,che tiene da 35. sino à 50. anni , nella quale egli fatto capace di ragione, & esperto delle cose, opera come huomo in tutte l'attioni ciuili,& mecaniche,vniuersali,& particolari, & questa è la età, onde esso huomo fà l'habito, che lo conduce à fin di bene , ò di male, secondo che egli elegge per gratia diuina,ò inclinatione naturale ; questa età è principio della declinatione .
+Si dipinge con il Scettro, il Libro, il Leone , & la Spada , per dimostrare, che à questa,che è l'età perfetta dell'huomo, si aspetta di consigliare , di risoluere,& di determinare con grandezza d'animo le cose,circa le quali possa hauer luogo in qualche modo la virtù .
+[ЗАГОЛОВОК: Virtù heroica]
+[ЗАГОЛОВОК: Come depinta da gl'antichi, & come si veda nella Medaglia di Gordiano Imperatore .]
+[ИНИЦИАЛ: E]Rcole nudo, appoggiato sopra la sua Claua , con vna pelle di Leone auiluppata intorno al braccio,come si vede in due bellissime statue nel Palazzo dell'Illustrissimo Sig. Cardinale Odoardo Farnese vero amatore delle virtù .
+Virtù, è propria dispositione , & facultà principale dell'animo in atto , & in pensiero volta al bene sotto il gouerno della ragione, anzi è la ragione istessa .
+
+Колонтитул: 506 ICONOLOGIA
+Кустод: Gli
+Сигнатура: 
+Маргиналии:
+
+## Скан 0528 · с. 507
+
+Gli si dà la pelle di Leone, & s'appoggia alla Claua , per esser ambidue fortissimi , & la virtù piantata con fortissime radici , & con nissuna forza si può estirpare, ne mouere di luogo .
+Si fà nuda la virtù, come quella che non cerca ricchezze, ma l'immortalità, gloria, & honore, come si è visto in vn marmo antico , che dice .
+*Virtus nudo homine contenta est .*
+[ЗАГОЛОВОК: Virtù heroica ,]
+[ЗАГОЛОВОК: Nella Medaglia d'oro di Massimino.]
+[ИНИЦИАЛ: V]N' Ercole nudo, che tiene per le corna vn Ceruo, che fù vna delle sue dodeci fatiche .
+[ЗАГОЛОВОК: VIRTV' HEROICA]
+[ЗАГОЛОВОК: Nella Medaglia di Geta.]
+[ИНИЦИАЛ: P]ER la virtù heroica si rappresenta Ercole, che con la destra mano tenghi la claua alzata per amazzare vn Dragone, che si aggira intorno ad vn' arbore con i pomi, & al braccio sinistro tiene inuolta la pelle Leonina .
+Ciò significa hauer Ercole ( inteso per la virtù) posto moderatione alla concupiscenza, intendendosi per il Dragone il piaceuole appetito della libidine .
+La spoglia del Leone in Ercole ci dimostra la generosità , & fortezza dell'animo .
+La claua, significa la ragione, che regge,& doma l'appetito, percioche questa virtù è grand'eccellenza in Ercole, però gli è attribuita la claua fatta d'vn fermo, & forte arbore,che è il Quercio, il quale dà legno di fermezza, & di forza .
+Fingesi la claua nodosa, per le difficoltà, che da ogni parte occorrono , & si offeriscono à coloro, che vanno seguitando,& cercando la virtù,& però Ercole essendo in giouenile età, dicesi,che si trouasse in vna solitudine, doue seco deliberando qual sorte di via douesse prendere , ò quella della virtù, ouero quella de i piaceri, & hauendo molto bene sopra di ciò considerato, si elesse la via della virtù quantuncunque ardua, & di grandissima difficultà .
+[ЗАГОЛОВОК: VIRTV' HEROICA]
+[ИНИЦИАЛ: S]I troua in Roma, cioè in Campidoglio vna statua di metallo indorata d'Ercole, vestita della spoglia del Leone, con la claua,& con la sinistra mano tiene tre pomi d'oro portati da gli horti Esperidi, i quali significano le tre vrtù eroiche ad Ercole attribuite .
+La prima, è la moderatione dell'Ira .
+La seconda, la temperanza dell'Auaritia .
+L'altra, è il generoso sprezzamento delle delitie, & de i piaceri, & però dicesi , che la virtù eroica nell'huomo, è quando la ragione hà talmente sottoposti gli affetti sensitiui, che sia giunta al punto indiuisibile de i mezzi virtuosi, & fattosi pura, & illustre , che trappassi l'eccellenza humana , & à gli Angeli si accosti .
+
+Колонтитул: DI CESARE RIPA. 507
+Кустод: VIRTV'
+Сигнатура: Ii 4
+Маргиналии:
+
+## Скан 0529 · с. 508
+
+[ЗАГОЛОВОК: VIRTV' DELL' ANIMO, ET DEL CORPO]
+[ЗАГОЛОВОК: Nella Medaglia di Traiano.]
+[ИНИЦИАЛ: S]I rappresenterà Ercole, nudo, che con la destra mano tenghi la Claua in spalla con bella attitudine, & con la sinistra guidi vn Leone , & vn Cignale congiunti insieme .
+Per lo Ercole ignudo con la Claua in spalla, & con la pelle di Leonina , si deue intendere l'Idea di tutte le virtù , & per il Leone la magnanimità , & fortezza dell'animo, come testifica Oro Apollo ne i suoi hieroglifici , & per il Cignale la virtù corporale ; per la robusta fortezza d'esso , scriuesi, che Admeto giunse insieme il Leone, & il Porco, volendo per tale compagnia intendere lui hauere accopiato insieme la virtù dell'animo,&del corpo ; di che rende testimonio il Pierio,doue parla del segno del Leone .
+[ЗАГОЛОВОК: VIRTV']
+[ЗАГОЛОВОК: Nella Medaglia di Alessandro.]
+[ИНИЦИАЛ: D]ONNA bella, armata, & d'aspetto virile, che in vna mano tiene il mondo, & con l'altra vna lancia . Significando, che la virtù domina tutto il mondo .
+Armata se depinge, percioche continuamente combatte col vitio .
+Si rappresenta d'aspetto virile,perche il suo nome viene ( secondo Tito Liuio nel lib.27. & Valerio Massimo lib.1. cap.1.) à viro vel à viribus,& mostra la fortezza, che conuiene al virtuoso .
+[ЗАГОЛОВОК: VIRTV']
+[ЗАГОЛОВОК: Nella Medaglia di Domitiano Galieno, & in quella di Galba .]
+[ИНИЦИАЛ: S]I rappresentaua vna donna in guisa d'vn'Amazone, con la celata , Parazonio,che è vna spada larga senza punta,& con la lancia, posando il piede sopra vna celata, ouero sopra vn mondo .
+[ЗАГОЛОВОК: VIRTV']
+[ЗАГОЛОВОК: Nella Medaglia di Lucio Vero.]
+[ИНИЦИАЛ: P]ER Bellerofonte bellissimo giouane à cauallo del Pegaseo, che con vn dardo in mano vccidendo la Chimera, si rappresenta per la virtù .
+La Chimera allegoricamente , s'intende vna certa moltiforme varietà de vitij , la quale vccide Bellerofonte, il cui nome dall'Etimologia sua vuol dire vccisione de i vitij, & l'Alciati nelli suoi Emblemi così dice .
+*Bellerophon, vt fortis eques superare chimæram,*
+*Et lycij potuit sternere monstra soli,*
+*Sic tu Pegaseis vectus petis æthera pennis ,*
+*Consilioq; animi monstra superba domas .*
+Mostrano i detti versi,che col consiglio,& con la virtù, si supera la chimera, cioè i superbi mostri de i vitij .
+
+Колонтитул: 508 ICONOLOGIA
+Кустод: Giouane
+Сигнатура: 
+Маргиналии:

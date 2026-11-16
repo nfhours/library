@@ -462,3 +462,23 @@
 | 0507 | TERREMOTO.; Timidità, ò Timore. |  |  | r616, r617 | нет рамки |
 | 0508 | TIMORE.; TIRANNIDE. |  |  | r618, r619 | нет рамки |
 | 0509 | TOLERANZA.; TORMENTO D'AMORE.; TORMENTO. |  |  | r620, r621 | нет рамки |
+| 0510 | TRADIMENTO.; Tradimento.; TRAGEDIA. |  |  | r622, r623 | нет рамки |
+| 0511 | TRAGEDIA. |  | 0511_1 | r623 | заголовок перед гравюрой |
+| 0512 | TRANQVILLITA'; Tranquillità. |  |  | r624 | нет рамки |
+| 0513 | Tranquillità.; TRANQVILLITA'; TRIBVLATIONE; Tribulatione.; TRISTITIA, OVERO; VALORE.; Valore. |  |  | r624, r625 | нет рамки |
+| 0514 | VANITA'; VBRIACHEZZA.; Vecchiezza.; Vecchiezza. |  |  | r626, r627, r628 | нет рамки |
+| 0515 | VELOCITA'.; Velocità.; VENDETTA. |  |  | r629, r630 | нет рамки |
+| 0516 | Vendetta.; VENTI. |  |  | r630, r631 | нет рамки |
+| 0517 | EOLO; VENTI.; EVRO. |  |  | r631, r633 | нет рамки |
+| 0518 | FAVONIO, O ZEPHIRO; BOREA, OVERO AQVILONE. |  |  | r634, r635 | нет рамки |
+| 0519 | AVSTRO. |  |  | r636 | нет рамки |
+| 0520 | AVRA.; VERITA'. |  |  | r637, r638 | нет рамки |
+| 0521 | VERITA'. |  | 0521_1 | r638 | заголовок перед гравюрой |
+| 0522 | Verità .; Verità .; Verità .; Verità . |  |  | r638 | нет рамки |
+| 0523 | VIGILANZA. |  | 0523_1 | r639 | заголовок перед гравюрой |
+| 0524 | Vigilanza .; Vigilanza . |  |  | r639 | нет рамки |
+| 0525 | Vigilanza per difendersi, & oppugnare altri.; VILTA'.; VIOLENZA.; VIRGINITA'. |  |  | r640, r641, r642, r643 | нет рамки |
+| 0526 | Virginità .; VIRGINITA'. |  | 0526_1 | r643 | заголовок перед гравюрой |
+| 0527 | Virilità .; Virtù heroica; Come depinta da gl'antichi, & come si veda nella Medaglia di Gordiano Imperatore . |  |  | r644, r645 | нет рамки |
+| 0528 | Virtù heroica ,; Nella Medaglia d'oro di Massimino.; VIRTV' HEROICA; Nella Medaglia di Geta.; VIRTV' HEROICA |  |  | r645 | нет рамки |
+| 0529 | VIRTV' DELL' ANIMO, ET DEL CORPO; Nella Medaglia di Traiano.; VIRTV'; Nella Medaglia di Alessandro.; VIRTV'; Nella Medaglia di Domitiano Galieno, & in quella di Galba .; VIRTV'; Nella Medaglia di Lucio Vero. |  |  | r646 | нет рамки |
