@@ -8433,3 +8433,396 @@ La penitenza è vn dolore de peccati più per amor di Dio, che per timor delle p
 Кустод: randosi
 Сигнатура: 
 Маргиналии:
+
+## Скан 0410 · с. 389
+
+randosi nel fonte,& vedendosi già cōsumata dalla vecchiaia,piange il tempo passato mal speso,& significato per le sozzure nella candida veste, che è l'innocentia donateci per mezzo del sacro Battesimo, & contaminata per la nostra colpa.
+
+La pietra oue siede,& si posa,non è altro che Christo Nostro Saluatore, sopra il quale il peccator sedendo, cioè fermandosi col pensiero alla contemplatione del fonte,che è la gratia, la quale da lui scaturisce come disse egli alla Samaritana ; si spoglia della veste imbrattata per lauarla nel fonte ; lauandosi, e facendosi candida l'anima per mezzo della penitentia, la quale è sacramento hauuto per noi da mera benignità di lui. Però disse Dauid à Dio. Signore tu mi lauerai,e mi farò più bianco della neue.
+
+Il luogo solitario,significa il secreto del cuore, nel quale ritirandosi, & dalle vanità mondane allontanandosi la mente, troua la pace di Dio, & col dolore de peccati torna in gratia.
+
+[ЗАГОЛОВОК: Penitenza.]
+[ИНИЦИАЛ: D]Onna macilente,& vestita di cilicio, terrà nella man destra vna sferza,& nella sinistra vna croce,nella quale riguardi fissamente.
+Il cilicio,significa,che il Penitente deue menar la vita lontana dalle delitie,& non accarezzare la carne.
+
+La disciplina, è la correttione di sè stesso, & la croce la patienza, per la conformità,che il penitente acquista con l'istesso Christo, & per lo dispregio del mondo,conforme alle sue parole,che dicono. *Qui non tollit crucem suam,& sequitur me, non potest meus esse discipulus.*
+Penitenza, descritta da Ausonio Gallo, in questi versi.
+*Sum Dea, cui nomen nec Cicero ipsi dedit,*
+*Sum Dea, quæ facti non factiq; exigo pœnas,*
+*Nempe vt pœniteat sic me Tamæa vocor.*
+
+[ЗАГОЛОВОК: PENSIERO.]
+[ИНИЦИАЛ: H]VOMO vestito di nero, con l'acconciatura di capo piena di noccioli di persico, hauerà per la veste molte spine voltate con le punte verso la carne.
+I noccioli di persico,mostrano,che come essi sono diuisi da molti,& varij canaletti,ancorche siano di materia soda,e dura,così è l'anima nostra, la quale,ancorche sia immortale, è diuisa nondimeno da pensieri in varie parti, come bene auerte il Pierio.
+Le spine, ci manifestano, che non altramente pungono, e tormentano i pensieri l'animo ; che le spine tormentino, & affligono il corpo dell'huomo,dandogli occasione di malinconia, che si nota nel color nero della veste.
+[ЗАГОЛОВОК: Pensiero.]
+[ИНИЦИАЛ: H]Vomo vecchio, pallido, magro,e malinconico vestito di cangiante, con capelli riuolti in sù, con vn par d'ali al capo, & alle spalle, hauerà appoggiato la guancia sopra alla sinistra mano, e con la destra rerrà vn viluppo di filo tutto intrigato, con vn'Aquila appresso.
+
+Колонтитул: DI CESARE RIPA. 389
+Кустод: Vecchio
+Сигнатура: Bb
+Маргиналии:
+
+## Скан 0411 · с. 390
+
+Vecchio si rappresenta, per esser i pensieri più scolpiti, e più potenti nell'età vecchia, che nella giouentù.
+E pallido, magro,& malinconico, perche i pensieri, & massime quelli, che nascono da qualche dispiacere, sono cagioni,che l'huomo se n'affligge, macera, e consuma.
+Il vestimento di cangiante,significa,che i pensieri sono diuersi,& da vn' hora all'altra ne sorgono infiniti, come dice il Petrarcha nella canz. xvij.
+*A ciascun passo nasce vn pensier nono ,*
+Alato si finge dal medesimo nel Sonetto 83. dicendo.
+*Volo con l'ali de pensieri al Cielo.*
+Però Dante nel nono dell'Inferno,dice che il pensiero, è vn velocissimo motto della mente,il quale vola subito doue lo volge l'intentione,& è capace di tutte l'imagini passate, presenti, e future.
+I capelli riuolti in sù, e la sinistra mano alla guancia,sono segni dell'eleuatione della mente, nata per la quiete del corpo.
+Il viluppo di filo intricato, è simile al pensiero,il quale quanto più s'aggira,tanto più moltiplica, & si fà maggiore, & alle volte s'intriga di modo, che fà perdere la speranza di strigarsi, e cresce per nuocer' à sè stesso con le proprie forze ; & è vero, che alle volte il pensiero dà risolutione a' negotij, & troua strada da suilupparsi de fastidij ; il che ancora dimostra il filo, il quale fù guida à Theseo,& è guida ancora à tutti gl'huomini prudenti per vscire da laberinti, che porta seco la vita nostra mortale, & per mostrare la nobiltà del pensiero, vi si dipinge l'Aquila, vccello nobile, & di gran volo.
+
+[ЗАГОЛОВОК: PENTIMENTO.]
+[ИНИЦИАЛ: V]N' huomo, che stia con ambi le mani ad vn'aratro, in atto di voler lauorare la terra, e con la faccia guardi dietro con la testa piegata in modo, che mostri affatto alienatione d'animo da quella attione, alla quale s'era applicato,& è conforme alle parole di Christo Signor nostro, nel Vangelo.
+[ЗАГОЛОВОК: Pentimento de Peccati.]
+[ИНИЦИАЛ: H]Vomo vestito di nero, fodrato di tanè, starà in ginocchione, percotendosi con la destra mano il petto, col capo alquanto chino, con gl'occhi riuolti al cielo, piangendo dirottamente, hauerà vn Pellicano à canto.
+Pentimento, è quel dolore, e quella puntura, che tormenta, & affligge l'huomo, per la bruttezza, dishonore, e danno dell'error commesso, giudicato dalla conscienza ; onde il Profeta nel salmo 28. così dice. Non è pace nell'ossa mie dalla faccia del peccato mio.
+Il color del vestimento, & il percotersi il petto , significano dolore, & rendersi in colpa de gl'errori commessi, per le ragioni dette di sopra.
+Lo stare in ginocchione mirando il Cielo, è dimandar perdono delle offese fatte à Dio per propria colpa.
+
+Колонтитул: ICONOLOGIA 390
+Кустод: 
+Сигнатура: II
+Маргиналии:
+
+## Скан 0412 · с. 391
+
+Il Pellicano, dice S.Girolamo, che doppò hauer col becco vccisi i suoi figliuoli, stà tre giorni nel nido continuamente piangendo, il che è vero effetto del pentimento, come disse il Ruscelli nell' impresa del Cardinale d'Augusta à simil proposito: Delle lagrime parla Ouidio nel lib. 9. delle Metamorf. nell'Allegoria di Bibli trasmutata in fonte, per essempio, che quando ci vediamo giunti à penitenza di qualche nostro errore, debbiamo risoluerci in lagrime, per segno, che siamo veramente pentiti.
+[ЗАГОЛОВОК: PERFETTIONE.]
+Di Pier Lione Casella.
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: D]ONNA vestita d'oro, mostri le mammelle, & tutto il petto scoperto, starà dentro al cerchio del Zodiaco, disegnando col compasso nella sinistra mano vn circolo,il quale si scolpisca quasi finito.
+
+Колонтитул: DI CESARE RIPA. 391
+Кустод: Il ve-
+Сигнатура: Bb 2
+Маргиналии:
+
+## Скан 0413 · с. 392
+
+Il vestimento d'oro, le si deue per la perfettione, che hà fra tutti i metalli.
+Le mammelle, insieme col petto scoperto, significano vna parte della perfettione molto principale, che è di nudrire altrui, & esser pronto à communicare i proprij beni, essendo cosa più perfetta il dare, che il riceuere i beneficij ; la onde Iddio, che è infinita perfettione, à tutti dà, non riceuendo cosa alcuna dalle sue creature.
+Il compasso, onde ella descriue il cerchio, è perfetta figura fra le Matematiche, & il cerchio del Zodiaco è simbolo della ragione, & è debita, & conueneuole misura dell'attioni perfette.
+
+[ЗАГОЛОВОК: PERFIDIA.]
+[ИНИЦИАЛ: D]ONNA vestita del color del verderame, & in ambidue le mani tenga vn Serpente significatiuo, secondo che si caua d'Aristotile, d'estrema perfidia.
+[ЗАГОЛОВОК: PERPETVITÀ.]
+Vedi Eternità.
+
+[ЗАГОЛОВОК: PERSECVTIONE.]
+[ИНИЦИАЛ: D]ONNA vestita del color del verderame, accompagnato col color della ruggine, alle spalle porti l'ali, & nella sinistra tenghi vn'arco, stando in atto di voler colpire, & hauerà à piedi vn Cocodrillo.
+Il color del verderame, & della ruggine, significa il fine della persecutione, che è di consumar altrui, danneggiando, ò nell'honore, ò nella robba.
+L'ali, significano, che la persecutione, è sempre presta, & veloce al male altrui.
+Tiene l'arco per ferire etiandio di lontano con parole malediche.
+Il Cocodrillo, si dipinge appresso, perche perseguita, e vol guerra solo con quelli che fuggono, così la persecutione non si può dimandare con questo modo, se non è forza essercitata in persona, che non voglia, ò non si curi di resistere con le forze proprie. Però persecutione fù quella de Santi Martiri, che si lasciauano dar la morte, senza pensiero d'offender altri, & è persecutione quella de gl'inuidiosi,e detrattori, che cercano leuar sempre la fama alle persone d'honore,non pensando mai ad altro, se non all'vtile proprio.
+
+Колонтитул: 392 ICONOLOGIA
+Кустод: PER-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0414 · с. 393
+
+[ГРАВЮРА: без подписи]
+[ЗАГОЛОВОК: PERSEVERANZA.]
+[ИНИЦИАЛ: V]N fanciullo, il quale con le mani si sostenga ad vn ramo di palma alzato assai da terra.
+Per la fanciullezza, si mostrano le prime impiegature dell'animo in bene,tenendosi alla palma,che significa virtù,per non sapere star soggetta à pesi,come si è detto altre volte,ma s'alza,quando il peso gli s'aggraua sopra,come la virtù,che si conosce quando il vitio gli da occasione di far resistenza,& perde sè stessa la perseueranza,lasciando le buone opere, come il fanciullo spinto non puol lasciare il ramo della palma,dal quale stà pendente,& lontano da terra, che insieme con esso non lasci ancora la vita cadendo. Però la perseueranza,come disse Cicerone nella Rettorica, si contrapone alla pertinacia,& è vna fermezza , e stabilità perpetua del voler nostro
+
+Колонтитул: DI CESARE RIPA. 393 / PERSECVTIONE.
+Кустод: nostro
+Сигнатура: Bb 3
+Маргиналии:
+
+## Скан 0415 · с. 394
+
+nostro,retta,e gouernata dalla ragione in quanto è necessaria all'attioni honeste dell'huomo.
+[ЗАГОЛОВОК: Perseueranza.]
+[ИНИЦИАЛ: D]Onna vestita di bianco, & nero che significano, per essere l'estremità de colori,proposito fermo,abbraccia vn'Alloro,il quale arbore è posto dal Ruscelli,come ancora dal Doni,per la perseueranza, riguardando l'effetto di mantenere le frondi,e la scorza sempre verde.
+Potrà ancora farsi detta figura vestita di turchino , per simiglianza del color celeste,il quale non si trasmuta mai per sè stesso.
+*Perseueranza, come depinta nel Palazzo del Card. b.m. Orsino, à Pasquino.*
+[ИНИЦИАЛ: D]Onna, che con la destra mano tiene vn serpe,riuolto in circolo,tenendo la coda in bocca, e con la sinistra vn mazzo di corde d'Archibugio accese.
+[ЗАГОЛОВОК: PERSVASIONE.]
+[ГРАВЮРА: без подписи]
+
+Колонтитул: 394 ICONOLOGIA
+Кустод: VNA
+Сигнатура: 
+Маргиналии:
+
+## Скан 0416 · с. 395
+
+[ИНИЦИАЛ: V]NA Matrona in habito honesto,con bella acconciatura di capo, sopra alla quale vi sia vna lingua, & à piè d'essa vn'occhio, sarà stretta con molte corde,& ligaccie d'oro,terrà con ambi le mani vna corda, alla quale sia legato vn'animale con tre teste,vna di Cane,l'altra di Gatto, la terza di Scimia.
+La lingua per esser il più principale,e più necessario istromento da persuadere altrui,si dipingerà nell'acconciatura della testa,& si faceua da gli Egittij Antichi,per dimostrare le parole,e la persuasione senza arte, e solo con l'aiuto della natura.
+Per mostrare poi vn parlare aiutato da molto essercitio, e da grand'arte,faceuano vn'occhio alquanto sanguigno,perche come il sangue è la sede dell'anima,secondo il detto d'alcuni Filosofi,così il parlare con arte, è la sede delle sue attioni, e come l'occhio è finestra , onde ella vede, così il parlare è finestra ond'è veduta da gl'altri.
+Le ligaccie dell'oro per la vita, dimostrano che la persuasione non è altro,che vn'esser cattiuato ad altri,e legato con la destrezza,e soauità dell'eloquente parlare.
+L'animale di tre faccie,mostra la necessità di tre cose , che deue hauere quello che dà luogo in sè stesso alla persuasione; prima deue esser fatto beneuolo, ilche si mostra con la faccia di Cane , che accarezza per suo interesse . Deue ancora farsi docile,cioè che sappia quello che gli si deue persuadere,ciò si dimostra con la Scimia , che fra tutti gl'altri animali pare che capisca meglio i concetti de gl'huomini. Ancora si deue far attento , e si dimostra ciò col Gatto,che nelle sue attioni è diligentissimo, & attentissimo . Tiene la corda di detto animale con ambi le mani; perche se la persuasione non hà questi messaggieri, ò non si genera, ò debolmente camina.
+[ЗАГОЛОВОК: PERTINACIA.]
+[ИНИЦИАЛ: D]ONNA vestita di nero,con molta edera,che gli nasca sopra il vestito,& in capo terrà vn dado di piombo.
+Il color del vestimento significa fermezza,stabilità,& ignoranza,iquali effetti sono notati per l'oscurità sua,e da questi effetti nasce la pertinacia.
+Per questa cagione,si pone il dado di piombo in capo , il quale è graue, e difficile da muouersi,& il piombo è inditio dell'ignoranza,come habbiamo detto al suo luogo, & si rammenta come madre, e nudrice della pertinacia.
+L'Edera abbarbicateli adosso, si fà per dimostrare, che l'opinioni de gli ostinati ne gl'animi loro,fanno l'effetto,che fà l'edera nel suo luogo oue si tratta hauer buon fondamento , la quale se bene si radica, non perde il vigore,& se bene si fà diligenza, pur molte volte fà cadere in terra in luogo medesimo, sopra il quale si sostentaua.
+[ВИНЬЕТКА: орнаментальная заставка]
+
+Колонтитул: DI CESARE RIPA. 395
+Кустод: PER-
+Сигнатура: Bb 4
+Маргиналии:
+
+## Скан 0417 · с. 396
+
+[ГРАВЮРА: без подписи]
+[ЗАГОЛОВОК: PERTVRBATIONE.]
+[ИНИЦИАЛ: D]ONNA vestita di varij colori,con vn Mantice in mano.
+La perturbatioue nella vita dell'huomo , nasce dal disordine delle prime qualità nell'anima,nasce dal disordine delle opinioni de Magistrati,e de Popoli ; talche col disordine si cagiona , e si conosce il confuso ordine delle perturbationi, non essendo altro il disordine , che disunione , & inequalità . Dunque la perturbatione nasce dall'inequalità ; il che si mostra col Mantice,che col vento souerchio desta la calidità del fuoco,e maggiormente l'accende,& oue non sono mottiui contrarij non può esser perturbatione ; però la mescolanza de colori mostra confusione delle passioni.
+
+Колонтитул: 396 ICONOLOGIA / PERTINACIA.
+Кустод: PE-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0418 · с. 397
+
+[ЗАГОЛОВОК: PESTE ouero PESTILENTIA.]
+[ИНИЦИАЛ: D]ONNA vestita di color tanè oscuro , hauerà la faccia smorta, & spauenteuole,la fronte fasciata,le braccia,e le gambe ignude,la veste sarà aperta da'fianchi, & per l'apertura si vedrà la camiscia imbrattata,& sporca ; parimente si vedranno le mammelle anch'esse sozze,& ricoperte da vn velo trasparente,& à piedi d'essa vi sarà vn Lupo .
+La peste, è vn'infirmità contagiosa, cagionata in gran parte dalla corrottione dell'aria,della quale non occorre dir altro,per esser la figura assai chiara per sè stessa; solo dobbiamo pregare Iddio che non ce ne faccia hauer altra cognitione,che quella che ci viene dalli Scrittori,ò quelli che ci danno i ragionamenti de'vecchi.
+Il Lupo significa pestilenza ; però secondo che dice Philostrato, vedendo Palamede scorrere alcuni Lupi per il monte Ideo, fece sacrificare ad Apollo,sperando souenire al pericolo della peste, il qual vedeua soprastare ; & si sà à tempo di peste vedersi per le campagne più Lupi dell' ordinario.
+[ЗАГОЛОВОК: Peste , ò Pestilentia.]
+[ИНИЦИАЛ: D]Onna, vecchia, macilenta,& spauenteuole,di carnaggione gialla,sarà scapigliata,& in capo hauerà vna ghirlanda di nuuoli oscuri, sarà vestita di color bigio,sparso d'vmori,e vapori,di color giallaccio,starà sedere sopra alcune pelli d'agnelli,di pecore,& altri animali,tenendo in mano vn flagello con le corde accolte sanguinose ;
+Come è questa figura per la vecchiezza, & color macilente, spiaceuole à vedere,così la peste per la brutta, e malinconica apparenza vniuersale, è horribile,e detestabile ; la carnaggione gialla mostra l'infettioni de corpi,essendo questo color solo in quelli,che sono pochi sani della vita.
+I nuuoli mostrano che è proprio effetto del cielo , e dell'aria mal conditionata ; Il color bigio è il color che apparisce nel cielo in tempo di pestilenza.
+Le pelli di molti animali significano mortalità , sentendo nocumento da questa infettione d'aria non pur gl'huomini,ma ancor le bestie,che nel viuere dipendono da esse.
+Il flagello, mostra,che egualmente batte, e sfaza ciascuno , non perdonando ne ad età,ne à sesso,ne à gradi, ne à dignità , ne à qual si voglia altra cosa , per cui suole andarsi ritenendo nel castigo il rispetto humano.
+
+[ЗАГОЛОВОК: PHISICA.]
+[ИНИЦИАЛ: D]ONNA, che stia con la destra mano in atto di girare vn globo cõ la terra in mezzo,il quale sarà fisso sopra li poli,& lo miri con attentione,e con la sinistra mano tenghi vicino al detto globo vna Clepsidra, cioè vn'Orologio antico d'acqua ; perche la consideratione Phisica , non è altró,che quella delle cose soggette alla mutatione,e al tempo in quanto tale, & sempre seguita il senso.
+
+Колонтитул: DI CESARE RIPA. 397
+Кустод: PIA-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0419 · с. 398
+
+[ЗАГОЛОВОК: PIACERE.]
+[ИНИЦИАЛ: V]N Giouane di sedici anni in circa,di bello aspetto,& ridente,con vna ghirlanda di rose in capo,vestito di verde, e molto ornato, con vn'Iride,che da vna spalla,all'altra, gli circondi il capo ; con la mano destra tenga vn filo verde con molti hami ad esso ligati, e nella sinistra vn mazzo di fiori.
+La Giouentù di questa età,è più di tutte l'altre dedita à piaceri,per esser come vn nouo,& mondo cristallo,per lo quale traspariscono belle , & chiare tutte le delitie mondane.
+Per lo volto bello , & ridente si dimostra , che dalla bellezza deriua il piacere.
+Le rose furono dedicate à Venere come soprastante de piaceri, perche queste hanno soaue odore , & rappresentano le soauità de piaceri amorosi,come ancora la loro debole,& corta duratione.
+Il vestimento verde conuiene alla Giouentù,& al piacere,perche essendo il color verde il più temperato fra il bianco, & il nero, ò fra l'opaco, & il lucido de gl'altri,sia in sè la perfetta misura dell'obbietto alla virtù del vedere proportionata,che più conforta,e rallegra la vista,che gl'altri colori non fanno, i quali s'auuicinano all'estremo .
+Gl'hami,sono i varij allettamenti , che nelle cose piaceuoli del mondo si ritrouano appesi al verde filo della debole speranza ; sentendosi al fine le ponture della conscienza , senza che l'huomo si sappia torre dal dolce inganno.
+L'Iride , è indicio della bellezza apparente delle cose mortali, le quali quasi nell'apparire spariscono,e si disfanno.
+[ЗАГОЛОВОК: Piacere.]
+[ИНИЦИАЛ: G]Iouanetto di sedici anni,vestito di drappo verde,la veste sarà tutta fiorita,con vn Corsaletto dipinto di varij colori , per cimiero portarà vna Sirene, nella mano destra tenendo molti hami legati in seta verde, e nella sinistra hauerà vno scudo ouato,e dorato, dentro al quale sarà dipinta vna meta di marmo mischio,col motto *Huc omnia* , col numero di xvj. notauano gl'Egittij il piacere ; perche in tal anno cominciano i Giouani à gustarlo,come racconta il Pierio,doue ragiona de numeri.
+Il corsaletto dipinto, mostra, che vn'huomo dedito a'piaceri, ogni cosa impiega à tal fine,come chi porta il corsaletto, il quale solo douerebbe seruire per difender la vita,& così dipinto serue per vaghezza, & lasciuia ; & così l'huomo di solazzo , vorrebbe ch'ogni gran negotio terminasse ne' piaceri, e nelle delicatezze del viuere.
+La Sirena, mostra,che come ella inganna co'l canto i Marinari, così il piacere con l'apparente dolcezza mondana, manda in ruina i suoi seguaci.
+L'impresa dipinta nello scudo,mostra quello che habbiamo detto,cioè il piacer esser il fine de gli huomini vani.
+
+Колонтитул: 398 ICONOLOGIA
+Кустод: PIA-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0420 · с. 399
+
+[ЗАГОЛОВОК: PIACERE.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: G]IOVANE, con la chioma di color d'oro, & inanellata, nella quale si vedranno con ordine molti fiori, e sarà circondata di perle vna ghirlanda di mortella fiorita, sarà ignudo, & alato, le ali saranno di diuersi colori, & in mano terrà vn'Arpa, e nelle gambe portarà stiualetti d'oro.
+La chioma profumata, & ricciuta con arte, sono segni di delicatezza, di lasciuia, e d'effeminati costumi; Vi sono moltissimi essempij appresso i Poeti, che per mostrar d'hauer dato bando a'piaceri, dicono di non acconciarsi i capelli; ma lasciargli andar negletti,& senza arte; però al Piacere si faranno con artificio inanellati.
+Le Gemme, & i fiori, sono ministri, & incitamenti al piacere.
+
+Колонтитул: DI CESARE RIPA. 399
+Кустод: La
+Сигнатура: 
+Маргиналии:
+
+## Скан 0421 · с. 400
+
+La Corona di mirto,nota l'istesso, per esser dedicato à Venere,& si dice che quando ella s'espone al giuditio di Paride, era coronata di questa pianta.
+L'ali mostrano,che il piacere presto và à fine, & vola,e fugge ; e però fù da gl'Antichi Latini dimandato *Voluptas*.
+L'Arpa,per la dolcezza del suono,si dice hauer conformità con Venere, e con le Gratie, che come questo, così quella diletta gl'animi, e ricrea li spiriti.
+Gli stiualetti d'oro, conuengono al piacere, per mostrare, che l'oro lo tiene in poco conto,se non gli serue per sodisfarne gl'appetiti,ouero perche pigliandosi i piedi molte volte per l'inconstanza, secondo il Salmo. *Mei autem penè moti sunt pedes*, si scuopre,che volontieri s'impiega à nouità, & non mai stima molto vna cosa medesima .
+[ЗАГОЛОВОК: PIACERE HONESTO.]
+[ИНИЦИАЛ: V]ENERE vestita di nero,honestemente,cinta có vn cingolo d'oro, & ornato di gioie, tenendo nella destra mano vn funo, e nella sinistra vn bracciolare da misurare.
+Per significar il piacer honesto,Venere vien chiamata da gl'Antichi Nera,non per altra cagione,secondo che scriue Pausania nell'Arcadia,se non perche alcuni piaceri da gl'huomini si sogliono pigliar copertamente, & honestamente di notte,à differenza de gl'altri animali,che ad ogni tempo e in ogni luogo, si fanno lecito il tutto.
+Dipingesi col cingolo, come è descritta Venere da Homero in più luoghi dell'Iliade,per mostrare,che Venere all'hora, è honesta,e lodeuole , quando stà ristretta dentro a gl'ordini delle leggi,significate da gl'Antichi per quel cingolo; e di più gli si dipinge il freno in mano, e la misura, perche ancora dentro alli termini delle leggi, i piaceri deuono essere moderati, e ritenuti.
+[ЗАГОЛОВОК: PIACERE VANO.]
+[ИНИЦИАЛ: V]N Giouane, ornatamente vestito, il quale porti sopra la testa vna tazza con vn cuore dentro; perche è proprietà dell'huomo vano, di mostrar il cuor suo, e tutti i fatti suoi ad ogn'vno, e chi cerca i piaceri fuor di Dio,bisogna che necessariamente à gl'altri manifesti il cuore;però si dice volgarmente,che ne il fuoco,ne l'amore, si può tener secreto,perche il cuore , è fonte donde necessariamente scaturiscano , & oue si formano tutti i caduchi piaceri.
+[ЗАГОЛОВОК: PIACEVOLEZZA.]
+Vedi Affabilità.
+[ЗАГОЛОВОК: PIANTO.]
+Vedi alla terza Beatitudine.
+[ЗАГОЛОВОК: PIANTO.]
+[ИНИЦИАЛ: D]ONNA vestita di nero, scapigliata,che con la mano destra si stracci i capelli, coronati d'vna ghirlanda d'apio, e con la sinistra tiene vn ramo di faua con fiori,e frutto,& à canto vi sarà vna Rondine.
+
+Колонтитул: 400 ICONOLOGIA
+Кустод: 
+Сигнатура: Ii
+Маргиналии:
+
+## Скан 0422 · с. 401
+
+Il vestimento nero,fù sempre inditio di mestitia,e pianto; i capelli sparsi, e suelti, & medesimamente la ghirlanda dell'apio,significa pianto,perche da gl'Antichi s'adopraua per far il letto a'Morti.
+Il ramo della faua, si pone per seguitar l'opinioni de gl'Antichi Latini, che volsero,che questa fosse pianta di lutto,e di mestitia, dicendo, che ne' fiori vi è scritto la parola di pianto;& però Varrone prohibì il mangiar le faue a'Sacerdoti , & mi piace à questo proposito raccontare la pazzia di Pittagora, il quale essendo assalito da nemici, & potendosi commodamente saluare in vn campo di faue quiui vicino, volse più tosto lasciarsi ammazzare , dicendo non voler disturbar l'anime de morti, le quali pensaua scioccamente stare à riposarsi tra quei fiori .
+La Rondine,si pone per lo pianto, essendo il suo canto molto lamentenole;onde i Poeti la fingono Progne,che pianga l'ingiuria fattali daTereo suo marito, come diffusamente raccontano molti Scrittori.
+[ЗАГОЛОВОК: PIETA'.]
+[ГРАВЮРА: без подписи]
+
+Колонтитул: DI CESARE RIPA. 401
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Скан 0423 · с. 402
+
+[ИНИЦИАЛ: G]IOVANE, di carnaggione bianca, di bello aspetto, con gl'occhi grassi, e con il naso aquilino, hauerà l'ali alle spalle, farà vestita di rosso, con vna fiamma in cima del capo, si tenga la man sinistra sopra il cuore, e con la destra versi vn Cornucopia, pieno di diuerse cose vtili alla vita humana.
+Si dipinge di carnaggione bianca , di bello aspetto, occhi grassi, e col naso aquilino,perche in questo modo la descriuano i Fisognomici.
+Vestisi di rosso, perche è compagna , e sorella della carità , alla quale conuiene questo colore, per le ragioni dette al suo luogo.
+Porta l'ali, perche tra tutte le virtù , questa principalmente si dice volare ; perche vola à Dio, alla patria, e dalla patria à parenti, e da parenti à noi stessi, continuamente .
+La fiamma, che gl'arde il capo , significa la mente accendersi all' amor di Dio, all'essercitio della pietà,che naturalmente aspira alle cose celesti.
+La mano sinistra sopra la banda del cuore, significa,che l'huomo pietoso,suol dar inditio della sua carità,cō opere viue,e nobili,e fatte cō intentione salda,& perfetta, senza ostinatione,ò desiderio di vanagloria ; Però dicono alcuni,che per leuar ogn'ombra alla pietà d'Enea, Virgilio, con gl'altri Poeti, disse la grand' opera della sua pietà, essersi essercitata frà l'oscurità della notte .
+Il Cornucopia, mostra, che in materia di pietà, non si deue tenere conto delle ricchezze del mondo ; il che hà mostrato come si faccia , con singolar essempio fra gl'altri, nelle molte penurie de nostri tempi di Roma , il Sig.Patritio Patritij, al quale si deuono da tutte le parti molto maggior lodi , di quelle, che possono nascere dalla mia penna .
+[ЗАГОЛОВОК: Pietà.]
+[ИНИЦИАЛ: D]Onna, la quale con la sinistra mano,tiene vna Cicogna, & hà il braccio destro posto sopra vn'altare con la spada, & à canto vi è vn'Elefante, & vn fanciullo .
+La pietà, è amor di Dio, della patria,de figliuoli,& di padre,& madre; però si dipinge con il fanciullo .
+La Cicogna, insegna la pietà verso il padre, & la madre, col suo essempio dette altre volte .
+Il tener il braccio destro con la spada in mano sopra l'altare , dimostra quella pietà, che si deue vsare verso la santa Religione, esponendosi à tutti i pericoli.
+Riferisce dell'Elefante Plutarco,che in Roma certi fanciulli per scherzo, hauēdo punto la proboscide ad vn'Elefante, e perciò essendo esso adirato, pigliò vn di detti fanciulli per gettarlo in aria ; ma gridando,e piangendo gl'altri per la perdita del compagno , l'Elefante con pietà piaceuolmente lo ripose in terra, senza farli male ; hauendo castigata la troppo audacia solo con la paura .
+
+Колонтитул: 402 ICONOLOGIA
+Кустод: PIE
+Сигнатура: 
+Маргиналии:
+
+## Скан 0424 · с. 403
+
+[ЗАГОЛОВОК: PIETA']
+Nella Medaglia di Tiberio si vede scolpita.
+[ИНИЦИАЛ: V]NA Donna a sedere, con vna tazza nella destra mano, & col gomito manco posato sopra vn fanciullo.
+[ЗАГОЛОВОК: Pietà.]
+[ИНИЦИАЛ: Q]Vando gl'Egittij voleuano significar la pietà, dipingeuano due Giouane insieme, che tirauanno vn carro, per la ricordanza di Bitonide, & Cleobé fratelli, che per atto di pietà , tirano la propria Madre al Tempio di Giunone .
+[ЗАГОЛОВОК: Pietà]
+Si vede ancora nella Medaglia d'Antonino .
+[ИНИЦИАЛ: D]Onna con vn fanciullo in braccio, e con vno à piedi .
+[ЗАГОЛОВОК: PIETA' DE FIGLIVOLI]
+verso i Padri.
+[ИНИЦИАЛ: V]N Giouane,che porti sopra le spalle vn vecchio, fugendo l'incendio, per la ricordanza della pietà d'Enea.
+[ЗАГОЛОВОК: PIETA']
+Come fù depinta di Antonino Pio .
+[ИНИЦИАЛ: V]NA Matrona,con la veste lunga,con vn Turibolo in mano,chiamato da Latini Acerra, & auanti essa Matrona,vn'ara cinta d'vn festone,sopra la quale v'è fuoco acceso per sacrificare .
+Cicerone dice nel lib. della natura delli Dei, che l'esser pio,non è altro, che la riuerenza che noi habbiamo hauer' à Dio, à i nostri Maggiori,à Parenti, a gl'Amici, & alla Patria .
+[ЗАГОЛОВОК: PIGRITIA.]
+[ИНИЦИАЛ: D]ONNA, con faccia, e fronte grande, e naso grosso, con le gambi sottili, starà à sedere in terra. L'Ariosto
+Dall'altro la pigritia in terra siede,
+Che non può andar , e mal si regge in piede .
+[ЗАГОЛОВОК: Pigritia.]
+[ИНИЦИАЛ: D]Oonna scapigliata, terrà il capo chino, sarà vestita d'habito vile , e rotto, sederà, tenendo ambi le mani in seno coperte , & i piedi vn sopra l'altro, & à canto le starà vn'Asino à giacere, ouero vna Tartaruga.
+Essendo la denominatione di pigro epiteto dell'Inuerno , ragioneuolmente si fà questa figura della pigritia sua collaterale figlia , percioche come il calor nelli corpi humani è cagione del moto, e delle preste attioni,cosi all'incontro il freddo fà immobilità , stupidezza, tardità , e somiglianti effetti .
+Stà la detta figura col capo chino,e siede, tenendo le mani,& i pidi nella guisa,che s'è detto ; perche gl'Egittij, come riferisce Pierio Valeriano nel lib.xxxv. delli suoi Hieroglifici, in questa forma rappresentorno , volendo significar,che l'huomo pigro è come immobile, e priuo d'ogni sorte di buona operatione.
+Il capo scapigliato, la veste vile, e rotta , denotano l'infelice conditio-
+
+Колонтитул: DI CESARE RIPA. 403
+Кустод: ne
+Сигнатура: 
+Маргиналии:
+
+## Скан 0425 · с. 404
+
+ne della pigritia, mercè della quale l'huomo pigro per se stesso è sempre pouero,vile, e di niun prezzo quanto all'animo, & quanto al corpo , perche non acquista virtù , ne ricchezze , ne honore ; come ben dice Esiodo in questa sentenza.
+Non enim piger vir implet domum
+Neq; differens studium sane opus auget
+Semper differens vir damnis luctatur .
+Le si dipinge à canto l'Asino à giacere, essendo questo animale reputato da molti assai pigro, come dice il sopradetto Pierio nel lib.xij.
+Et il medesimo dice,che significa la Tartaruga al lib.xxviij.
+[ЗАГОЛОВОК: PITTVRA.]
+[ИНИЦИАЛ: D]ONNA, bella, con capelli neri, & grossi, sparsi,& ritorti in diuerse maniere, con le ciglia inarcate, che mostrino pensieri fantastichi, si cuopra la bocca, con vna fascia ligata dietro à gli orecchi, con vna catena d'oro al collo,dalla quale penda vna maschera,& habbia scritto nella fronte, *imitatio*. Terrà in vna mano il pennello,& nell'altra la tauola; con la veste di drappo cangiante, la quale le cuopra li piedi, & à piè di essa si potranno fare alcuni istromenti della pittura, per mostrare che la pittura, è esercitio nobile, nō si potendo fare senza molta applicatione dell'intelletto , dalla quale applicatione sono cagionate, & misurate appresso di noi, tutte le professioni di qual si voglia sorte , non facendo l'opre fatte à caso, quantunque perfettissime alla lode dell'Autore, altrimente che se non fossero sue .
+Si dipinge questa imagine molto bella, & che la bellezza noti nobiltà , si vede, perche l'vna,& l'altra è perfettione,& l'vna,& l'altra è degna d'imperio ; & secondo il detto di Homero, ambedue piacciono , & dilettano, muouono,& inamorano, ma l'vna,che è corporale,primieramente i sensi, l'altra che è intelligibile l'intelletto ; anzi non pure sono simili, ma l'istesse riputate da molti Filosofi,& volgarmente si suol credere, che doue sono belle qualità del corpo,vi sieno per lo più quelle dell'animo,& doue è bellezza vi sia nobiltà .
+I capelli della testa si fanno neri,& grossi, perche stando il buon Pittore in pensieri continui dell'imitatione della natura,& dell'arte,in quanto dà prospettiua,& è oggetto dell'occhio,& per questo bisognandoli quasi continuamente hauer per la fantasia tutti gli effetti visibili della natura,viene per tal cagione à prendere molta cura, & maninconia , che genera poi adustione,come dicono i Medici,dalla quale naturalmente ne gli huomini con molti altri, questo particolare accidente si produce .
+Saranno i capelli hirsuti,& sparsi in alto,& in diuerse parti con anellature , che appariscano prodotte dalla negligenza, perche nascono questi esteriormente dalla testa, come interiormente ne nascono i pensieri , & i fantasmi, che sono mezzi come alla speculatione , cosi ancora all'opere materiali.
+Le ciglia inarcate, mostrano marauiglia , & veramente il Dipintore si
+
+Колонтитул: 404 ICONOLOGIA
+Кустод: estende
+Сигнатура: 
+Маргиналии:
+
+## Скан 0426 · с. 405
+
+estende, à tanta sottile inuestigatione di cose minime in se stesse per aiuto dell'arte sua, che facilmente n'acquista marauiglia,& maninconia .
+La bocca ricoperta, è inditio, che non è cosa che gioui quanto il silentio,& la solitudine ; però si riserrano i Pittori in luoghi secreti, non perche temino riprensione dell'imperfetto lauoro,come volgarmēte si stima.
+Tiene la catena d'oro onde pende la Maschera, per mostrare,che l'imitatione, è congionta con la pittura inseparabilmente .
+Gli anelletti della catena, mostrano la conformità di vna cósa,con l'altra,& la congiuntione, perche non ogni cosa , come dice Cicerone nella sua Rettorica, il Pittore impara dal Maestro, ma con vna sola ne apprende molte, venendo per la conformità , & similitudine congionte , & incatenate insieme .
+Le qualità dell'oro dimostra, che quando la pittura non è mantenuta dalla nobiltà, facilmente si perde,& la maschera mostra l'imitatione conueniente alla Pittura .
+Gli Antichi dimandauano imitatione quel discorso,che,ancorche falso si faceua con la guida di qualche verità successa, & perche voleuano che que'Poeti à quali mancaua quella parte , non fossero Poeti riputati, cosi non sono da riputarsi i Pittori , che non l'hanno , essendo vero quel detto triuiale, che la Poesia tace nella Pittura , & la Pittura nella Poesia ragiona ; vero è che sono differenti nel modo d'imitare, procedendo per oppositione, perche gli accidenti visibili,che il Poeta con l'arte sua fà quasi vedere con l'intelletto per mezzo d'accidenti intelligibili , sono prima considerati dal Pittore, per mezzo delli quali fà poi che la mente intende le cose significate,& non è altro il piacere che si prende dall'vna,& l'altra di queste professioni, se non che à forza d'arte quasi con inganno della natura, fa l'vna intendere co'sensi, & l'altra sentire con l'intelletto . Hà bisogno dunque la Pittura della imitatione di cose reali, il che accenna la maschera, che è ritratto della faccia dell'huomo .
+La veste cangiante, mostra, che la varietà particolarmente diletta come mostrano i piedi ricoperti, che quelle proportioni , le quali sono fondamento della Pittura , & che vanno notate nel disegno, auanti che dia mano à colori, deuono ricuoprirsi , & celarsi nell' opera compita , & come è grand'arte presso à gli Oratori saper fingere di parlare senz'arte ; cosi presso à i Pittori saper dipinger in modo, che non apparisca l'arte se non à più intelligenti, e quella lode, che sola attende il Pittore curioso di fama,nata dalla virtù .
+
+Колонтитул: DI CESARE RIPA. 405
+Кустод: POESIA
+Сигнатура: Cc
+Маргиналии:
+
+## Скан 0427 · с. 406
+
+[ЗАГОЛОВОК: POESIA.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: G]IOVANE bella, vestita d'azznro celeste,sopra il qual vestimento vi saranno molte stelle, sarà coronata di alloro, mostri le mammelle ignude piene di latte, col viso infiammato, & pensoso, con tre fanciulli à lati, che volandoli intorno, vno le porga la Lira,& il Plettro, l'altro la Fistola,& il terzo la Tromba ; & non volendo rappresentare i tre fanciulli per non ingombrare troppo il luogo , i detti istromenti si posaranno appresso di essa .
+Poesia, secondo Platone,non è altro, ch'espressione di cose diuine eccitate nella mente da furore, & gratia celeste.
+Si dipinge giouane, & bella, perche ogni huomo,ancorche rozzo,è allettato dalla sua dolcezza,& tirato dalla sua forza.
+
+Колонтитул: 406 ICONOLOGIA
+Кустод: Si
+Сигнатура: 
+Маргиналии:
+
+## Скан 0428 · с. 407
+
+Si corona di lauro , il quale stà sempre verde, & non teme forza di fulmine celeste,perche la Poesia fà gl'huomini immortali, & gli assicura da colpi del tempo, il quale suol tutte le cose ridurre all'obliuione.
+La veste con le stelle, significa la diuinità,per conformità di quello,che differo i Poeti hauer origine dal cielo.
+Le mammelle piene di latte, mostrano la fecondità de concetti, & dell'inuentioni,che sono l'anima della Poesia.
+E pensosa,& infiammata nell'aspetto, perche il Poeta hà sempre l'anima piena di velocissimi motti somiglianti al furore.
+I tre fanciulli, sono le tre maniere principali di poetare , cioè Pastorale, Lirico, & Heroico ; le quale dipendono più dall'habilità naturale, che dall'arte ; dicendosi per commune opinione, che gli Poeti nascono, & gli Oratori si fanno.
+Infinite cose si potrebbono dire della Poesia senza variar dal nostro proposito ; ma hormai ogni bello spirito tanto ne sà , per lo molto esercitio delle Academie,& Scole d'Italia, che sarebbe vn voler dar lume alla luce del Sole , volerne scriuere in questo luogo: Del che mi saranno testimonio certo in Perugia mia patria , l'Academia de gl'Insensati, illustre già molt'anni, la quale rende marauiglia non pure à se stessa, ma all'Italia,& à tutto il Mondo, per le nobili parti de gl'ingegni, che essa nodrisce,i quali tutti insieme lei rendono nobile, come ella poi ciascuno separatamente rende famoso .
+[ЗАГОЛОВОК: Poesia.]
+[ИНИЦИАЛ: D]Onna vestita del color del cielo , nella sinistra mano tenga vna Lira, & con la destra il Plettro, sarà coronata d'Alloro , & a'piedi vi sarà vn Cigno .
+Si veste del color del cielo, perche il cielo in greco si dice Vranos , & la Musa, che da spirito di poesia, è Vrania , & per testimonio di tutti i poeti non può vn'huomo esser valente in queste arti , se non è di particolar talento del cielo dotato ; & però si dicono i Poeti hauer origine dal cielo , come si è detto .
+La Lira, si dà in mano, perche molto gioua alla consonanza della poesia,l'armoniaca consonanza del suono,& in particolare si seruiuano anticamente di questo istromento, quelli che cantauano cose basse,onde dall'istessa Lira furono Lirici nominati.
+La corona d'alloro, dimostra, che l'intento di tutti i poeti non è altro , che di acquistare fama , oue tutte le altre professioni hanno mescolato seco qualche vtile, & l'Alloro non hà cosa più mirabile in sè,che la viridità delle foglie perpetua, come essi la viuacità del nome .
+Il Cigno,in vecchiezza và meglio articolando continuamente la voce, per estenuarsi la gola;& così i poeti vanno migliorando nell'arte loro con gli anni,come si racconta di Edipo Coloneo, & di altri .
+[ЗАГОЛОВОК: Poesia.]
+[ИНИЦИАЛ: D]Onna, con l'ali in testa, coronata di lauro , con la sinistra tenga vn
+
+Колонтитул: DI CESARE RIPA. 407
+Кустод: libro,
+Сигнатура: Cc 2
+Маргиналии:
+
+## Скан 0429 · с. 408
+
+libro, & con la destra vn Scettro similmente di lauro.
+Per l'ali si conosce la velocità,& forza dell'intelletto ; & per l'allo ro,oltre quel che habbiamo già detto,si nota la fatica,& diligenza, perche nelle foglie sue vi è grandissima amarezza, come è grandissima fatica ridurre à perfettione vn'opera,che possa portar lode,& gloria all'Autore.
+[ЗАГОЛОВОК: Poesia.]
+[ИНИЦИАЛ: S]I potrà dipingere, secondo l'vso commune , vn'Apollo ignudo, con vna corona di alloro nella destra mano, con la quale faccia sembiante di volere incoronare qualch'vno ,& con la sinistra mano tenghi vna Lira, & il Plettro.
+[ЗАГОЛОВОК: POEMA LIRICO.]
+[ИНИЦИАЛ: D]ONNA Giouane, con la Lira nella sinistra mano, & la destra tenghi il Plettro, sarà vestita d'habito di varij colori,ma gratioso,attillato,& stretto, per manifestare,che sotto vna sola cosa, più cose vi si contengono, hauerà vna cartella con motto,che dica .
+Breui complector singula cantu .
+[ЗАГОЛОВОК: POEMA EROICO.]
+[ИНИЦИАЛ: H]VOMO di real maestà , vestito di habito sontuoso , & graue ; in capo hauerà vna ghirlanda d'alloro,& nella destra mano vna Tromba, con vn motto che dica .
+Non nisi grandia canto .
+[ЗАГОЛОВОК: POEMA PASTORALE.]
+[ИНИЦИАЛ: G]IOVANE di semplice,& natural bellezza,con vna siringa in mano, con stiualetti à staffa,acciò che mostri il piede ignudo,con queste parole sopra .
+Pastorum carmina ludo .
+[ЗАГОЛОВОК: POEMA SATIRICO.]
+[ИНИЦИАЛ: H]VOMO ignudo, con faccia allegra, lasciua, ardita , & che vibri la lingua, con vn Tirso in mano, & vi sia scritto il motto .
+Irridens cuspide figo .
+[ЗАГОЛОВОК: Pouertà.]
+[ИНИЦИАЛ: D]Onna vestita come vna Zingara , co'l collo torto, in atto di domandare elemosina, in cima del capo terrà vn'vccello chiamato Codazinzola, ouero squassacoda .
+Racconta il Valeriano , che volendo gli Egittij significar vn'huomo di estrema pouertà, dipingeuano quest'vccello ; perche, come dice ancora Eliano , è animale di tanto poco vigore , che non si può far il nido , & per questo và facendo l'oua ne'nidi altrui.
+Rappresentasi la pouertà,in forma di Zingara,per non si trouare la più meschina generatione di questa, la quale non hà ne robba , ne nobiltà, ne gusto , ne speranza di cosa alcuna , che possa dare vna particella di quella felicità, che è fine della vita politica .
+
+Колонтитул: 408 ICONOLOGIA
+Кустод: [?]
+Сигнатура: 
+Маргиналии:

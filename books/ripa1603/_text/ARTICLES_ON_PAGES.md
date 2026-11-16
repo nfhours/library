@@ -362,3 +362,23 @@
 | 0407 | PARTIALITA'. |  |  | r473 | нет рамки |
 | 0408 | PENA.; PENITENTIA. |  |  | r474, r475 | нет рамки |
 | 0409 | Penitenza. | PENITENZA. | 0409_1 | r475 | бегущий заголовок |
+| 0410 | Penitenza.; PENSIERO.; Pensiero. |  |  | r475, r476 | нет рамки |
+| 0411 | PENTIMENTO.; Pentimento de Peccati. |  |  | r477, r478 | нет рамки |
+| 0412 | PERFETTIONE. |  | 0412_1 | r479 | заголовок перед гравюрой |
+| 0413 | PERFIDIA.; PERPETVITÀ.; PERSECVTIONE. |  |  | r480, r481, r482 | нет рамки |
+| 0414 | PERSEVERANZA. | PERSECVTIONE. | 0414_1 | r482 | бегущий заголовок |
+| 0415 | Perseueranza.; PERSVASIONE. |  | 0415_1 | r484 | заголовок перед гравюрой |
+| 0416 | PERTINACIA. |  |  | r485 | нет рамки |
+| 0417 | PERTVRBATIONE. | PERTINACIA. | 0417_1 | r485 | бегущий заголовок |
+| 0418 | PESTE ouero PESTILENTIA.; Peste , ò Pestilentia.; PHISICA. |  |  | r487, r488 | нет рамки |
+| 0419 | PIACERE.; Piacere. |  |  | r489 | нет рамки |
+| 0420 | PIACERE. |  | 0420_1 | r489 | заголовок перед гравюрой |
+| 0421 | PIACERE HONESTO.; PIACERE VANO.; PIACEVOLEZZA.; PIANTO.; PIANTO. |  |  | r490, r491, r492, r493 | нет рамки |
+| 0422 | PIETA'. |  | 0422_1 | r494 | заголовок перед гравюрой |
+| 0423 | Pietà. |  |  | r494 | нет рамки |
+| 0424 | PIETA'; Pietà.; Pietà; PIETA' DE FIGLIVOLI; PIETA'; PIGRITIA.; Pigritia. |  |  | r494, r495 | нет рамки |
+| 0425 | PITTVRA. |  |  | r496 | нет рамки |
+| 0426 |  |  |  | — | нет рамки |
+| 0427 | POESIA. |  | 0427_1 | r497 | заголовок перед гравюрой |
+| 0428 | Poesia.; Poesia. |  |  | r497 | нет рамки |
+| 0429 | Poesia.; POEMA LIRICO.; POEMA EROICO.; POEMA PASTORALE.; POEMA SATIRICO.; Pouertà. |  |  | r497, r498, r499, r500, r501, r502 | нет рамки |
