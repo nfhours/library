@@ -3664,3 +3664,506 @@ Il fascio di verghe con la scure,era portato anticamente in Roma da littori inan
 Кустод: La fiam-
 Сигнатура: 
 Маргиналии:
+
+## Скан 0210 · с. 189
+
+La fiamma mostra, che la mente del giudice deue esser sempre drizzata verso il Cielo.
+Per lo struzzo s'impara,che le cose, che vengono in giuditio, per intricate che sieno non si deue mancare di strigarle,& isnodarle, senza perdonare à fatica alcuna,con animo patiente, come lo struzzo digerisce il ferro,ancorche sia durissima materia,come raccontano molti scrittori.
+[ЗАГОЛОВОК: Giustitia retta, che non si pieghi per amicitia, né per odio.]
+[ИНИЦИАЛ: D]Onna con la spada alta , coronata nel mezo di corona regale, & con la bilancia da vna banda li farà vn cane significatiuo dell'amicitia & dall'altra vna serpe posta per l'odio.
+La spada alta nota, che la Giustitia non si deue piegare da alcuna banda , ne per amicitia, ne per odio di qualsiuoglia persona, & all'hora è lodeuole , & mantenimento dell'imperio.
+Per le bilancie ne seruirà quanto per dichiaratione habbiamo detto nella quarta Beatitudine.
+[ЗАГОЛОВОК: Giustitia rigorosa.]
+[ИНИЦИАЛ: V]N' anotomia,come quelle, che si dipingono,per la morte in vn manto bianco,che la cuopra in modo,che il viso,le mani,& i piedi si vedano con la spada ignuda , & con le bilancie al modo detto . E questa figura dimostra che il giudice rigoroso non perdona ad alcuno sotto qual si voglia pretesto di scuse, che possano allegerir la pena,come la morte, che ne ad età, ne à sesso, ne à qualità di persone ha risguardo per dare essecutione al debito suo.
+La vista spauenteuole di questa figura mostra,che spauenteuole è ancora a'populi questa sorte di Giustitia, che non fa in qualche occasione interpretare leggiermente la legge.
+[ЗАГОЛОВОК: Giustitia nelle Medaglie d Adriano,d'Antonino Pio,& d'Alessandro.]
+[ИНИЦИАЛ: D]Onna à sedere con vn bracciolare, ò scettro in mano, con l'altra tiene vna patena.
+Siede significando la grauità conueniente à i sauij, & per questo i Giudici hanno da sententiare sedendo.
+Lo scettro gli si da per segno di comandare,& gouernare il mondo.
+Il bracciolare si piglia per la misura, & la patena, per esser la giustitia cosa diuina.
+[ЗАГОЛОВОК: GLORIA DE' PRINCIPI.]
+[ЗАГОЛОВОК: Nella Medaglia d'Adriano.]
+[ИНИЦИАЛ: D]ONNA bellissima , che habbia cinta la fronte d'vn cerchio d'oro contesto di diuerse gioie di grande stima . I capelli saranno ricciuti , e biondi , significando i magnanimi,e gloriosi pensieri , che occupano le menti de'Prencipi, nell'opere de'quali sommamente risplende la gloria loro.Terrà con la sinistra mano vna piramide , la quale significa la chiara , & alta gloria de i Prencipi, che con magnificenza fanno fabriche sontuose,e grandi , con le quali si mostra essa gloria . Et Martiale benche di altro proposito parlando disse :
+
+Колонтитул: DI CESARE RIPA. 198
+Кустод: Barbara
+Сигнатура: 
+Маргиналии:
+
+## Скан 0211 · с. 190
+
+[ЗАГОЛОВОК: GLORIA DE' PRENCIPI.]
+[ЗАГОЛОВОК: Nella Medaglia d'Adriano.]
+[ГРАВЮРА: без подписи]
+Barbara Pyramidum, sileat miracula Memphis.
+Et à sua imitatione il diuino Ariosto:
+Taccia qualunque le mirabil sette
+Moli del mondo in tanta fama mette.
+Et similmente gl'antichi metteuano le piramidi per simbolo della gloria, che però s'alzarono le grandi, & magnifiche piramidi dell'Egitto, delle quali scriue Plinio nel lib. 36. cap. 12. che per farne vna sola stettero trecento sessanta mila persone vent'anni. Cose veramente degne : ma di più stima , & di maggior gloria sono quelle che hanno riguardo all'honor di Dio , com'è il fabricar Tempij, Altari, Collegij per instruttione de'giouani,così nelle buone arti, come nella Religione . Di che habbiamo ma-
+
+Колонтитул: 190 ICONOLOGIA
+Кустод: nifesto
+Сигнатура: 
+Маргиналии:
+
+## Скан 0212 · с. 191
+
+nifesto esempio nelle aFbriche della buona memoria dell'Illustrissimo Signore Cardinal Saluiati, che hà edificato in Roma il bellissimo Tempio di S.Iacomo de gl'Incurabili, & nel medesimo luogo ampli, & nobilissimi edifitij per commodo de gl'Infermi, e loro ministri. Et per non essere in sua Signoria Illustrissima altro fine, che di fare opere lodeuoli, e virtuose, essendo lui Protettore de gl'Orfani, hà di detti Orfani instituito vn nobil Collegio dal suo nome detto Saluiato , & con grandissima liberalità dotatolo da poterui mantenere molti giouani Orfani di bell'ingegno , che per pouertà non poteuano oprarlo, oue s'instruiscono da ottimi Precettori ne l'humane lettere, & nella Religione. Ha fatto ancora vna magnifica Cappella dedicata alla Beata Vergine nella Chiesa di San Gregorio di Roma ampliando le scale del Tempio , & fattogli auanti vna spatiosa piazza per commodità del Popolo , che à grandissimo numero vi concorre ne i giorni delle Stationi , & altri tempi in detta Chiesa,oltre altri edifitij da sua Signoria Illustrissima fatti per ornamento della Città, & habitatione della sua famiglia , come il nuouo palazzo che si vede nella piazza dell'Arco di Camigliano , & l'altro nel suo Castello di Giuliano nel Latio, doue non meno appare la magnificenza di questo Principe in hauer cinta quella Terra di muraglie , & resala sicura dall'incursioni di rei huomini . Onde hora da molte parti vi concorre gran gente ad habire , tirata ancora dalla benignità , & dall'incorrotta giustitia , & dalla sua vera pietà Christiana sempre riuolta al souuenimento de'bisognosi. Ha non pure nel suo testamento ordinato , che delle sue proprie facoltà non solo si facci da'fondamenti vn'Hospedale per le pouere , e bisognose donne in San Rocco, acciò siano nelle loro infermità gouernate di tutto quel che facci lor bisogno : ma hà ancora lasciato che nel suo Castello di Giuliano siano ogn'anno maritate alcune pouere zitelle, hauendogli assegnato per ciò tanti luochi di monti non vacabili . Hauea anco cominciato da'fondamenti con bellissima architettura la Chiesa di S. Maria in Acquiro , & l'haurebbe condotta à fine con quella prontezza, & zelo che soleua l'opere dedicate al seruitio , & culto d'Iddio : ma quasi nel cominciare detto Edifitio è stato richiamato à miglior vita lasciando suo Herede l'Illustrissimo Signor Lorenzo Saluiati, Signore non meno herede delle facultà , che del pietoso , e liberale animo di esso Cardinale , che però con grandissima prontezza ha disposto di finire à sua spesa detta Chiesa, mostrando sua gratitudine verso la memoria del defunto , & la sua Christiana pietà in non lasciare imperfetta si sant'opera.Ma con questa occasione non deuo tralasciare le lodi di tanto generoso Cardinale dette da più felici penne della mia , che sono le sottoscritte.
+Pyramidem dextra tollens ad sydera palmæ
+Quæ mulier Fuluia Cæsaris ære nitet?
+Gloria quæ Regum commendat nomina famæ
+Qui moles cæsis has statuere iugis.
+Et quid Saluiati potius non sustinet illa
+Gymnasia,hospitia,mœnia, templa,lares?
+Humanæ,non hæc æquat pondera laudis,
+Diuina in Cœlo gloria sola manet
+
+Колонтитул: DI CESARE RIPA. 191
+Кустод: Pyramidis
+Сигнатура: 
+Маргиналии:
+
+## Скан 0213 · с. 192
+
+Pyramidis Thariæ moles operosa Puellæ
+Cur se sublimem tollit ad astra manu?
+Gloria sic pingi voluit, quæ vertice Cœlum
+Contingens magno parta labore venit
+Quadrato letere, & tenuatam cuspide acuta
+Pyramidem Virgo fert generosa manu
+Sic se Cæsareo celari iussit in ære
+Gloria, qua Regum nomina clara vigent
+Nempe operum ætérnam famam monumenta merentur
+Quæ decorant ripas vndiq; Nile tuas,
+Illa tamen Tharijs humana superbia sua sit
+Solis & indigno fecit honore coli
+Quanto igitur melius fulceret dextera vero
+Quæ Saluiate Deo tu monumenta locas;
+Seu quas in Campo castæ das Virginis Aedes
+Seu quæ Flaminiæ stant regione viæ
+Siue lares media surgentes Vrbe superbos
+Siue procul muris oppida cincta modis
+Adde etiam hospitijs Sedem magna Atria Vulgi,
+Adde & Pierio tecta dicata Choro.
+Non tamen hæc forsam maiori robore digna
+Sustinet imbelli gloria vana manu.
+Pone manu Thariam gestas quam Gloria molem
+Et lege Saluiati qualibet acta Patris,
+Siue placet celsa surgens testudine Templum
+Flaminiæ cernis quæ regione Viæ,
+Aut ægræ turbæ laxas quas condidit Aedes
+Aut grata Aonio tecta dicata Choro
+Siue vbi Romuleus spectauit Equiria sanguis
+Virginis æthereæ nobilis Ara placet
+Ponderibus nimium si tantis dextra grauatur
+Forte [?] patrios quos nouat ille lares
+Quid si cincta nouis dentur vetera oppida muris,
+Non indigna tua sint monumenta manu,
+Quicquid Saluiati sumes, illustrius isto
+Imposuit saxo, quod tibi Cæsar, erit.
+[ЗАГОЛОВОК: GLORIA.]
+[ИНИЦИАЛ: D]ONNA, con vna Corona d'oro in capo, & nella destra mano con vna tromba
+La Gloria, come dice Cicerone, è vna fama di molti, & segnalati benefitij fatti à suoi, à gl'amici, alla Patria, & ad ogni sorte di persone.
+Et si dipinge con la tromba in mano perche con essa si publicano à populi i desiderij de Principi.
+La corona, è inditio del premio, che merita ciascun huomo famoso, &
+
+Колонтитул: 192 ICONOLOGIA
+Кустод: la si-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0214 · с. 193
+
+la signoria,che hà il benefattore sopra di coloro,che hanno da lui riceuuti benefitij, rimanendo essi con obligo di rendere in qualche modo il guiderdone.
+[ЗАГОЛОВОК: Gloria.]
+[ИНИЦИАЛ: D]Onna vestita d'oro,tutta risplendente, nella sinistra con vn Cornucopia,& nella destra,cõ vna figuretta d'oro,che rappresēti la verità.
+[ЗАГОЛОВОК: Gloria,& Honore.]
+[ИНИЦИАЛ: D]Onna,riccamente vestita,che tenga molte corone d'oro, & ghirlande in mano, come premio di molte attioni virtuose.
+[ЗАГОЛОВОК: Gloria.]
+[ИНИЦИАЛ: D]Onna,che con la destra mano tiene vn'Angioletto,& sotto al piè destro vn cornucopia pieno di frondi ,fiori,& frutti.
+[ЗАГОЛОВОК: Gloria .]
+[ИНИЦИАЛ: D]Onna, che mostra le mammelle,& le braccia ignude, nella destra mano tiene vna figuretta succintamente vestita , la quale in vna mano porta vna ghirlanda,& nell'altra vna palma,nella sinistra poi della gloria farà vna Sfera, con segni del Zodiaco . Et in questi quattro modi si vede in molte monete,& altre memorie de gli antichi.
+[ЗАГОЛОВОК: GOLA.]
+[ИНИЦИАЛ: D]Onna vestita del color della ruggine,col collo lungo, come la grue , & il ventre assai grande.
+La Gola secondo che narra S. Tomasso 2. 2. questione 148. Art. 1. è vn disordinato appetito delle cose,che al gusto s'appartengono, & si dipinge col collo così lungo,per la memoria di Filostene Ericinio, tanto goloso,che desideraua d'hauere il collo simile alle grue , per più lungamente godere del cibo,mentre scendeua nel ventre .
+La grandezza,& grossezza del ventre si referisce all'effetto d'essa gola, & goloso si dice chi hà posto il sommo bene nel ventre,& lo vuota per empirlo , & l'empie per votarlo co'l fine dellla giottonia , & del piacere del mangiare .
+L'habbito del color sopradetto,all'ignobiltà dell'animo vinto , & soggiogato da questo brutto vitio , & spogliato di virtù , & come la ruggine diuora il ferro onde nasce,così il goloso diuora le sue sustanze,& ricchezze,per mezzo delle quali si era nutrito,& alleuato .
+[ЗАГОЛОВОК: Gola .]
+[ИНИЦИАЛ: D]Onna à sedere sopra vn Porco ,perche i porci,come racconta il Pierio Valeriano lib.9.de i suoi Hieroglifici,sono infinitamente golosi. Nella sinistra mano tiene vna Folica Vcello similmente goloso , & con la destra s'appoggia sopra d'vno Struzzo , del quale così dice l'Alciato .
+Lo Struzzo sembra à quei che mai non tace
+Ne con la gola in alcuntempo hà pace
+
+Колонтитул: DI CESARE RIPA. 193
+Кустод: GO-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0215 · с. 194
+
+[ЗАГОЛОВОК: GOVERNO DELLA REPVBLICA.]
+[ИНИЦИАЛ: D]ONNA simile à Minerua ; nella destra mano tiene vn' ramo d'oliuo,col braccio sinistro vno scudo, & nella medesima mano vn dardo, & con vn morione in capo.
+Il portamento simile à quello di Minerua ci dimostra , che la sapienza è il principio del buon reggimento.
+Il morione,che la Republica,deue essere fortificata, & sicura dalla forza di fuora .
+L'oliuo,& il dardo,significano,che la guerra , & la pace sono beni della Republica,l'vna perche da esperienza,valore,& ardire;l'altra perche somministra l'otio, per mezo del quale acquistiamo scienza , & prudenza nel gouernare, & si dà l'oliuo nella mano destra, perche la pace è più degna della guerra, come suo fine, & è gran parte della publica felicità .
+[ЗАГОЛОВОК: GRAMMATICA.]
+[ИНИЦИАЛ: D]ONNA che nella destra mano tiene vn breue,scritto in lettere latine,le quali dicono : *Vox litterata, & articulata*; debito modo pronunciata,& nella sinistra vna sferza , & dalle mammelle verserà molto latte .
+Il breue sopradetto dichiara , & definisce l'essere della grammatica .
+La sferza dimostra,che come principio s'insegna a' fanciulli le più volte adoprandosi il castigo che li dispone,& li rende capaci di disciplina .
+Il latte che gl'esce dalle mammelle significa,che la dolcezza della scienza esce dal petto, & dalle viscere della grammatica.
+[ЗАГОЛОВОК: Grammatica.]
+[ИНИЦИАЛ: D]Onna , che nella destra mano tiene vna raspa di ferro , & con la sinistra vn vaso , che sparge acqua sopra vna tenera pianta .
+Grammatica è prima tra le sette arti liberali,& chiamasi regola, & ragione del parlare aperto, & corretto .
+La raspa dimostra,che la grammatica desta, & assottiglia gl'intelletti .
+Et il vaso dell'acqua è inditio ,che con essa si fanno crescere le piante ancor tenerelle de gl'ingegni nuoui al Mondo , perche diano a' suoi tempi frutti di dottrina, & di sapere come l'acqua fà crescere le piante stesse .
+[ЗАГОЛОВОК: GVARDIA.]
+[ИНИЦИАЛ: D]ONNA armata,con vna grue per cimiero, nella mano destra con la spada , & nella sinistra con vna facella accesa, & con vn paparo. ouero ocha , che le stia appresso .
+Lafacella con la grue, significa vigilanza , per le raggioni, che si sono dette altroue in simil proposito l'istesso significa l'ocha,la quale dodici volte si sueglia in tutta la notte dalche credono alcuni,che si prendesse la misura dell'hore,con le quali misuriamo il tempo, nello suegliarsi questo animale fà molto strepito con la voce,& tale,che narra Tito Liuio , che i soldati Romani , dormendo nella guardia del Campidoglio furno suegliati per benefitio solo d'vn papero , & così prohibirno à Francesi l'entrata : Questi due animali adunque dinotano,che la vigilanza , & la fedeltà sono necessarijssime alla guardia , accompagnate , con la forza da resistere ; il che si mostra nell'armatura , & nella spada .
+
+Колонтитул: 194 ICONOLOGIA
+Кустод: GRA-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0216 · с. 195
+
+[ЗАГОЛОВОК: GRATIA.]
+[ИНИЦИАЛ: G]IOVANETTA ridente,& bella di vaghissimo habito vestita , coronata di diaspri pietre pretiose , & nelle mani tenga in atto di gittare piaceuolmente rose di molti colori, senza spine , hauerà al collo vn vezzo di perle .
+Il diaspro si pone per la gratia , conforme à quello , che li naturali dicono , cioè , che portandosi adosso il diaspro si acquista la gratia de gli huomini .
+Questo medesimo significa la rosa senza spine , & le perle , le quali risplendono , & piacciono , per singolare , & occulto dono della natura , come la gratia, che è ne gl'huomini vna certa venustà particolare , che muoue , & rapisce gl'animi all'amore , & genera occultamente obligo , & beneuolenza .
+[ЗАГОЛОВОК: GRATIA DIVINA.]
+[ИНИЦИАЛ: D]ONNA bella , & ridente con la faccia riuolta verso il Cielo, doue sia lo Spirito santo in forma di colomba , come ordinariamente si dipinge . Nella destra mano tenga vn ramo d'oliua con vn libro , & con la sinistra vna tazza .
+Guarda il Cielo , perche la gratia non vien se non da Dio , il quale per manifestatione si dice esser in Cielo , la qual gratia per conseguire douiamo conuertirci à lui , & dimandargli con tutto il cuore perdono delle nostre graui colpe , però disse : *Conuertimini ad me , & ego conuertar ad vos .*
+Si dipinge lo Spirito santo per attribuirsi meritamente da i Sacri Teologi à lui l'infusione della diuina gratia ne'petti nostri , & però dicesi che la gratia è vn ben proprio di Dio , che si diffonde in tutte le creature per propria liberalità di esso Iddio , & senza alcun merito di quelle .
+Il ramo di Oliuo significa la pace , che in virtù della Gratia il peccatore riconciliatosi con Iddio sente nell'anima .
+La tazza ancora dinota la gratia , secondo il detto del Profeta. *Calix meus inebrians quàm præclarus est .*
+Vi si potranno scriuere quelle parole . *Bibite , & inebriamini ,* Perche chi è in gratia di Dio , sempre sta ebrio delle dolcezze dello amore suo , percioche questa imbriachezza è sì gagliarda , & potente, che fa scordar la sete delle cose mondane , & senza alcun disturbo da perfetta , & compita satietà .
+[ЗАГОЛОВОК: GRATIA DI DIO.]
+[ИНИЦИАЛ: V]NA bellissima , e gratiosa giouanetta , ignuda , con bellissima , & vaga acconciatura di capo . Li capelli faranno biondi , & ricciuti , & faranno circondati da vn gran splendore , terrà con ambe le mani vn corno di douitia , che gli coprirà d'auanti , acciò non mostri le parti meno honeste , & con esso verserà diuerse cose per l'vso humano sì Ecclesiastiche , come anco d'altra sorte , & nel Cielo sia vn raggio, il qual risplenda fino à terra .
+
+Колонтитул: DI CESARE RIPA. 195
+Кустод: GRA-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0217 · с. 196
+
+[ЗАГОЛОВОК: GRATIE.]
+[ИНИЦИАЛ: T]RE fanciullette coperte di sottilissimo velo sotto il quale appariscano ignude , così le figurorno gl'antichi Greci perche le Gratie , tanto sono più belle, & si stimano, quanto più sono spogliate d'interessi , i quali sminuiscono in gran parte in esse la decenza,& la purità; Però gl'Antichi figurauano in esse l'amicitia vera, come si vede al suo loco .
+[ЗАГОЛОВОК: GRATITVDINE.]
+[ИНИЦИАЛ: D]ONNA ch'in mano tenghi vna Cicogna , & vn ramo di lupini , ò di faua,Oro Apolline dice,che questo animale più d'ogn'altro ristora i suoi genitori in vecchiezza , & in quel luogo medesimo, oue da essi è stato nutrito, apparecchia loro il nido, gli suelle le penne inutili , & le dà da mangiare sino che siano nate le buone , & che da se stessi possano trouare il cibo , però gl'Egittij ornauano li scettri con questo animale , & lo teneuano in molta consideratione scriue Plinio nel lib. 18. al cap. 14. che come il lupino , & la faua ingrassano il campo , doue sono cresciute , così noi per debito di gratitudine dobbiamo sempre duplicare la buona fortuna à quelli, che à noi la megliorano .
+Si potrà fare ancora à canto à questa figura vn'Elefante , il quale dal Pierio Valeriano nel 1. lib. vien posto per la gratitudine , & cortesia : Et Eliano scriue d'vn'elefante che hebbe animo d'entrare à combattere per vn suo Padrone , il quale essendo finalmente dalla forza de gl'inimici superato, & morto,con la sua proboside lo prese, & lo portò alla sua stalla, mostrandone grandissimo cordoglio, & amaritudine .
+[ЗАГОЛОВОК: GRAVITA.]
+[ИНИЦИАЛ: D]ONNA vestita nobilmente di porpora, con vna scrittura sigillata al collo insino al petto pendẽte, nell'acconciatura del capo farà vna Colonna con vna picciola statuetta sopra: & la veste tutta aspersa d'occhi di pauone, con vna lucerna accesa fatta secondo l'vsanza de gl'antichi nella destra mano .
+La porpora è vestimento commune à questa,& all'honore,come à qualità Regali , & nobilissime .
+Il breue è autentico segno di nobiltà,la quale,è vera nudrice di grauità d'altierezza di gloria , & di fausto .
+La colonna s'acconcierà in capo per le mascherate à piedi,ò à cauallo; ma per statua di scoltura,ò pittura si potrà fare à canto , & che co'l braccio sinistro se posi sopra d'essa per memoria delle gloriose attioni che fomentano la grauità .
+Gl'occhi di pauone sono per segno,che la grauità somministra pompa, & nasce con l'ambitione .
+La lucerna dimostra, che gl'huomini graui sono la lucerna della plebe , & del Volgo .
+[ЗАГОЛОВОК: Grauità nell'huomo .]
+[ИНИЦИАЛ: D]Onna in habito di Matrona, tenga con ambe le mani vn gran sasso legato & sospeso ad vna corda .
+
+Колонтитул: 196 ICONOLOGIA
+Кустод: L'habi-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0218 · с. 197
+
+L'habito di Matrona,mostra, che allo stato dell'età matura si conuiene più la grauità,che à gl'altri,perche più si conosce in esso l'honore,& con maggior ansietà si procura con la grauità , & temperanza de costumi .
+Il sasso mostra, che la grauità ne costumi dell'huomo si dice similitudine della grauità ne' corpi pesanti,& è quel decoro, che egli sà tenere nelle sue attioni senza piegare à leggierezza vanità , buffonarie , ò cose simili,le quali non sono atte à rimouere la seuerità dalla fronte , ò dal core,come alle cose graui per alcuno accidente non si può leuar quella natural inclinatione, che le fà andare al luogo conueniente .
+[ЗАГОЛОВОК: Grauità dell'oratione .]
+Vedi à fermezza , & grauità dell'oratione .
+[ЗАГОЛОВОК: GVERRA.]
+[ИНИЦИАЛ: D]ONNA armata di corazza,elmo,& spada,con le chiome sparse, & insanguinate,come saranno ancora ambedue le mani,sotto all'armatura,hauerà vna trauersina rossa,per rappresentare l'ira,& il furore,starà detta figura sopra vn cauallo armato ; nella destra mano tenendo vn'asta in atto di lanciarla,& nella sinistra vna facella accesa, con vna Colonna appresso .
+Rappresentasi questa Donna col cauallo armato , secondo l'antico costume Egittio, & la più moderna auttorità di Virgilio , che dice .
+Bello armantur æqui , bellum hæc armenta minantur
+cioè i caualli s'armano per la guerra , & minacciano guerra .
+Leggesi ,che già innanzi al tempio di Bellona fù vna certa Colonna non molto grande,la quale i Romani chiamauano Colonna bellica , perche deliberato,che haueuano di fare alcuna guerra à quella andaua l'vno de Consoli dopoi che haueua aperto il Tempio di Giano , & quindi lanciaua vn'asta,verso la parte,oue era il Popolo nemico,& intendeuasi, che allora fosse gridata, & publicata la guerra , & perciò questa figura tiene nella destra mano l'asta in atto di lanciarla presso alla Colonna sopradetta . Tiene poi nella sinistra mano vna facella accesa, secondo il detto di Silio Italico .
+Scuote l'accesa face , è l biondo crine
+Sparso di molto sangue è và scorrendo
+La gran Bellona per l'armate squadre .
+Soleuano ancora gl'Antichi, prima che fussero trouate le trombe , quando erano per fare battaglia mandare inanzi à gl'esserciti alcuni con faci accese in mano,lequali si gittauano contro dall'vna parte , & dall'altra , & cominciauano dopoi la battaglia col ferro .
+
+Колонтитул: DI CESARE RIPA. 197
+Кустод: GRAS-
+Сигнатура: N'
+Маргиналии:
+
+## Скан 0219 · с. 198
+
+[ЗАГОЛОВОК: GRASSEZZA.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: D]ONNA corpulenta con la destra mano tenga vn ramo d'oliuo, che habbia solo i frutti senza fronde , nella sinistra tenga vn granchio marino,il quale è soggetto molto alla grassezza,quando la Luna cresce, ò per particular dispositione tirata dalle qualità della Luna, ouero, perche quando essa è piena,& luminosa gli dà commodità, di procacciarsi più facilmente il cibo .
+L'oliuo, è il vero hieroglifico della grassezza non solo trà Poeti , & Historici, ma anco nelle sacre lettere, come in più luoghi si può vedere , & l'Epitetto proprio dell'oliuo, è l'esser grasso .
+[ЗАГОЛОВОК: Guerra .]
+[ИНИЦИАЛ: D]Onna armata, che per cimiero porti vn Pico, nella mano destra la spada ignuda,& nella sinistra lo scudo, con vna testa di lupo dipinta nel mezo d'essa .
+
+Колонтитул: 194 ICONOLOGIA
+Кустод: GVER-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0220 · с. 199
+
+[ЗАГОЛОВОК: GVERRA.]
+[ИНИЦИАЛ: D]ONNA spauenteuole in vista, & armata con vna face accesa in mano in atto di caminare, hauerà appresso molti vasi d'oro, & d'argento,& gemme gittate confusamente per terra,frà le quali vi sia vn'imagine di Pluto, Dio delle ricchezze tutta rotta,per dimostrare,che la guerra dissipa,rouina, & consuma tutte le ricchezze non pure doue ella si ferma, mà doue camina , & trascorre.
+
+[ЗАГОЛОВОК: GVIDA SICVRA de veri honori.]
+[ИНИЦИАЛ: D]ONNA nel modo, che la virtù al suo luogo habbiamo descritta, con vno scudo al braccio,nel quale siano scolpiti li due Tempij di M. Marcello, l'vno dell'honore , & l'altro della Virtù; sieda detta Donna sotto vna quercia, con la destra mano in alto leuata ; mostri alcune corone militari, con scettri, insegne, Imperiali,Cappelli, Mitre,& altri ornamenti di dignità, che saranno posti sopra i rami di detto albero, oue sia vn breue con il motto : *Hinc omnia* , & sopra il capo dell'imagine vi sarà vn'altro motto , che dica *Me Duce* .
+Il tutto dimostrerà, che da Gioue, datore delle gratie, al quale è dedicato quest'albero,ò per dir bene dall'istesso Dio , si potranno hauere tutti gl'honori,& le dignità mondane, con la scorta , & guida delle virtù , il che insegnano i due Tempij misticamente da M. Marcello fabricati , perche l'vno dedicato all'honore non haueua l'entrata , se non per quello di essa Virtù.
+
+[ЗАГОЛОВОК: HIPPOCRESIA.]
+[ИНИЦИАЛ: D]ONNA con faccia,& mani leprose,vestita di pelle di pecora bianca , con vna Canna verde in mano , la quale habbia le sue foglie , & pennacchio : I piedi medesimamente saranno leprosi,& nudi,con vn lupo che esca di sotto alla veste di essa , & con vn Cigno vicino .
+Quello che disse Christo Signor Nostro in S. Matteo al cap. 23. basta per l'intelligenza di questa imagine , perche volendo improuerare à gli Scribi, & Farisei,la loro Hipocresia,disse che erano simili, a' sepolcri, che sono belli di fuori , & dentro pieni di ossa d'huomini morti & di puzza ; Adunque Hipocresia non sarà altra,che vna fintione, di bontà , & santità in quelli,che sono maligni,& scelerati; però si dipinge donna leprosa , vestita di habito biancho,perche il color della veste significa l'habito virtuoso,che artifitiosamente, ricopre la lepra del peccato,che stà radicato nella carne , & nell'anima .
+La Canna verde, e simbolo ( come dice Hettorre Pinto nel cap. 40. di Ezechielle Propheta ) dell' Hippocresia , perche nascendo con abondanza di foglie dritta , & bella, non fà poi frutto alcuno , se non piuma, & dentro è vacua , & piena di vento . Dell' istesso ancora dice
+
+Колонтитул: DI CESARE RIPA. 199
+Кустод: il me-
+Сигнатура: N 2
+Маргиналии:
+
+## Скан 0221 · с. 200
+
+il medesimo Autore,dare inditio il Cigno il quale hà le penne candide, & la carne nera.Il lupo che si mostra sotto, alla veste di pelle diuersa dalla sua, è tanto chiaro per le parole di Christo nell'Euangelio, che non ci bisogna dirne altro .
+
+[ЗАГОЛОВОК: HIPPOCRESIA.]
+[ГРАВЮРА: HIPPOCRESIA.]
+[ИНИЦИАЛ: D]Onna magra,& pallida,vestita d'habito di meza lana,di color bertino,rotto in molti luoghi con la testa china verso la spalla sinistra,hauerà in capo vn velo,che gli cuopra quasi tutta la fronte;terrà con la sinistra mano vna grossa,& lunga corona,& vn offitiuolo,& con la destra mano,con il braccio scoperto porgerà in atto publico vna moneta ad vn pouero,hauerà le gambe,& li piedi simili al lupo .
+
+Колонтитул: 200 ICONOLOGIA
+Кустод: Hipo-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0222 · с. 201
+
+Hipocresia appresso S.Thomasso secunda secunde, quest.3. art. 2. è vitio, che induce l'huomo di simulare,& fingere quel che non è in atti, parole , & opere esteriori,cō ambitione vana di essere tenuto buono,essēdo tristo.
+Magra,& pallida si dipinge,percioche come dice S.Ambrosio nel 4. de i suoi morali,gl'Hipocriti,non si curano , di estenuare il corpo per essere tenuti,& stimati buoni,& S.Matteo al cap.6. *Cum ieiunatis nolite fieri sicut Hipocritæ,tristes exterminant enim facies suas vt videantur ab hominibus ieiunantes* .
+Il vestimento, come dicemmo essendo composto di lino, & di lana dimostra (come dice il sopradetto S.Ambrogio,nel cap.8.de morali) l'opera di coloro,i quali con parole,& attione d'hipocresia cuoprono la sottigliezza della malitia interna, & mostrano di fuori la semplicità dell'innocenza; questo si mostra per significato della lana , & la malitia per il lino.
+La testa china,con il velo che gli cuopre la frōte,la Corona,& l'offitiuolo,dinotano che l'Hipocrito,mostra d'essere lontano,dalle cose mondane, & riuolto alla contemplatione dell'opere diuine .
+Il porgere la moneta ad vn pouero,nella guisa che si è detto , dimostra la vanagloria,degli hipocriti,i quali per acquistar fama,& gloria del Mõdo, fanno elemosina publicamente come ne fà fede S. Mattheo al 6. così dicendo .*Cum ergo facis elemosinam noli tuba cauere ante te, sicut Hypocrite faciunt, in synagogis , & in vicis , aut honorificentur ab hominibus , &c.*
+Le gambe , & i piedi simili al lupo significano come dice S. Mattheo al 7.che gl'Hippocriti nell'esteriore sono agnelli,& di dentro lupi rapaci.
+
+[ЗАГОЛОВОК: HOMICIDIO.]
+[ИНИЦИАЛ: H]VOMO bruttissimo armato,co'l manto di color rosso, per cimiero porterà vna testa di tigre,farà pallido,terrà con la sinistra mano per i capelli vna testa humana tronca dal busto , & con la destra vna spada ignuda insanguinata : Bruttissimo si rapresenta l'homicidio,percioche non solo è abomineuole alle persone, ma quello che molto più importa al sommo Iddio, ilquale trà gl'altri comandamenti che ci hà dati,ci prohibisce l'homicidio come cosa molto dannosa , & à lui tanto odiosa , che come si vede nell'Exodo 21. comanda che non si lasci accostare al suo altare l'homicida .
+*Si quis per industriam occiderit proximum suum , & per insidias , ab altari meo auelles eum , &c.*
+Si dipinge armato, perche l'homicidio genera il pericolo della vendetta,alla quale si prouede con la custodia di se stesso .
+La Tigre significa fierezza , & crudeltà le quali danno incitamento , & spronano l'homicidia la pallidezza è effetto, dell'ira che conduce all'homicidio , & del timore che chiama à penitenza ; Però si dice nel Genesi che Caim hauendo vcciso il fratello, andò fuggendo,temendo il castigo della giustitia di Dio .
+
+Колонтитул: DI CESARE RIPA. 201
+Кустод: HO-
+Сигнатура: N 3
+Маргиналии:
+
+## Скан 0223 · с. 202
+
+[ЗАГОЛОВОК: HONESTA.]
+[ИНИЦИАЛ: D]ONNA con gl'occhi bassi,vestita nobilmente,con vn velo in testa, che le cuopra gl'occhi.
+La grauità dell'habito, è inditio ne gl'huomini d'animo honesto, & però si honorano, & si tengono in conto alcuni , che non si conoscono per lo modo del vestire, essendo le cose esteriori dell'huomo tutte inditio delle interiori, che riguardano il compimento dell'anima .
+Gl'occhi bassi, sono inditio di honestà, perche ne gl'occhi spirando la lasciuia, come si dice, & andando l'amore per gl'occhi al cuore,secondo il detto de Poeti ; Abbassati verso terra, danno segno,che nè spirti di lasciuia ne forza d'amor e possa penetrare nel petto .
+Il velo in testa,è inditio d'honestà, per antico,& moderno costume, per esser volontario impedimento al girar lasciuo de gl'occhi .
+
+[ЗАГОЛОВОК: HONORE.]
+[ИНИЦИАЛ: G]IOVANE bello,vestito di Porpora,& coronato d'Alloro , con vn'asta nella mano destra,& nella sinistra con vn Cornucopia, pieno di frutti, fiori,& fronde:Honore è nome di possessione libera , & volontaria de gl'animi virtuosi , attribuita all'huomo per premio d'essa virtù, & cercata co'l fine dell'honesto;& S.Tomaso 2.2.q.129.ar.4.dice che *honor est cuiuslibet virtutis præmium* .
+Si fà giouane,& bello,perche per se stesso,senza ragioni,ò sologismi,alletta ciascuno,& si fà desiderare.Si veste della Porpora perche è ornamento Regale,& inditio di honor supremo .
+L'hasta,& il Cornucopia, & la Corona d'Alloro significano le trè cagioni principali,onde gl'huomini sogliono essere honorati, cioè, la scienza , la ricchezza,& l'armi , & l'alloro significa la scienza, perche come questo albero hà le foglie perpetuamente verdi,ma amare al gusto,così la scienza,se bene fà immortale la fama di chi la possiede , nondimeno non si acquista senza molta fatica,& sudore. Però disse Efiodo , che le Muse gli haueuano donato vno scettro di lauro,essendo egli in bassa fortuna,per mezo delle molte fatiche ariuato alla scienza delle cose, & alla immortalità del suo nome .
+
+[ЗАГОЛОВОК: Honore.]
+[ИНИЦИАЛ: H]Vomo d'aspetto venerãdo,& coronato di palma,con vn collar d'oro al collo,& manigli medesimamẽte d'oro alle braccia, nella man destra terrà vn'asta, & nella sinistra vno scudo , nel quale siano dipinti due Tempij co'l motto : *Hic terminus hæret,* alludendo à tempij di Marcello detti da noi poco inanzi .
+Si corona di Palma, perche quest'Albero , come scriue Aulo Gellio nel 3. lib. delle Notti Attiche è segno di Vittoria, perche , se si pone sopra il suo legno qualche peso ancor che graue, non solo non cede,ne si piega,ma s'inalza,& essendo l'Honore, figliuolo della Vittoria ,come scriue il Boccaccio nel 3.della Geonologia de Dei,conuien che sia ornato dell'insegne della Madre .
+
+Колонтитул: 202 ICONOLOGIA
+Кустод: L'asta,
+Сигнатура: 
+Маргиналии:
+
+## Скан 0224 · с. 203
+
+L'asta,& lo scudo furono insegna de gl'antichi Rè, in luogo della Corona come narra Pierio Valeriano nel lib.42.Però Virgilio nel 6.dell'Eneide,descriuendo Enea Siluio Rè di Alba disse :
+*Ille ( vides ? ) pura iuuenis , qui nititur hasta* .
+Et perche nel Tempio dell'Honore non si poteua entrare , se non per lo Tempio della Virtù,s'impara, che quello solamente è vero honore,il quale nasce dalla Virtù .
+Le maniglie alle braccia , & il collaro d'oro al collo , erano antichi segni d'honore,& dauansi da Romani per premio,à chi s'era portato nelle guerre valorosaméte,come scriue Plinio nel 33.lib.dell'Historia naturale.
+[ЗАГОЛОВОК: Honore nella Medaglia d'Antonino Pio .]
+[ИНИЦИАЛ: V]N Giouane vestito di veste lunga , & leggiera, con vna ghirlanda d'Alloro in vna mano,& nell'altra con vn Cornucopia pieno di frondi, fiori, & frutti .
+[ЗАГОЛОВОК: Honore nella Medaglia di Vitellio .]
+[ИНИЦИАЛ: G]Iouane con vn'asta nella destra mano, col petto mezo ignudo , & col Cornucopia nella sinistra;al piè manco hà vn'Elmo, & il suo capo farà ornato con bella acconciatura de' suoi capelli medesimi .
+L'asta,& le mammelle scoperte,dimostrano che con la forza si deue difendere l'honore, & con la candidezza conseruare .
+Il Cornucopia, & l'Elmo,dimostrano due cose,le quali facilmente trouano credito da esser honorati;l'vna è la robba; l'altra l'essercitio militare; quella genera l'honore con la benignità, questa con l'alterezza; quella con la possibilità di far del bene ; questa col pericolo del nocumento; quella perche fà sperare;questa perche fà temere : ma l'vna mena l'honore per mano piaceuolmente; l'altra se lo tira dietro per forza .
+
+[ЗАГОЛОВОК: HORE DEL GIORNO.]
+[ИНИЦИАЛ: M]OLTE volte può venire occasione di dipinger l'hore, & ancorche se ne possa pigliare il disegno da quelli, che da molti sono state descritte,nondimeno hò voluto ancor io dipingerle differente da quelle perche la varietà suole dilettare alli studiosi .
+Dico dunque,che l'hore sono ministre del Sole diuise in 24. & ciascuna è guidatrice del timone del carro solare, per il suo spatio, onde Ouidio nel 2.delle Metamorf. così dice .
+*A dextra læuaq; dies , & mensis , & annus*
+*Sæculaq; & positæ spatijs æqualibus horæ*
+& il medesimo , più à basso .
+*Iungere equos Titan velocibus imperat horis*
+*Iussa Deæ celeres peragunt , ignemq; vomentes*
+*Ambrosiæ succo saturos præsepibus altis*
+*Quadrupedes ducunt , adduntq; sonantia fræna*
+Et il Boccaccio nel libro quarto, della Geonologia delli Dei , dice che l'hore sono figliuole del Sole , & di Croniche , & questo da i Greci vien-
+
+Колонтитул: DI CESARE RIPA. 203
+Кустод: detto
+Сигнатура: N 4
+Маргиналии:
+
+## Скан 0225 · с. 204
+
+detto il tempo,percioche per lo camino del Sole con certo spatio di tempo vengono à formarsi , & successiuamente l'vna dopo l'altra, fanno che la notte passa , & il giorno giunge , nel quale il Sole entra dalla successione di esse , essendogli dall'hore del giorno aperte le porte del Cielo , cioè il nascimento della luce del quale offitio dell'hore fà mentione Homero , & dice che sono soprastanti alle porte del Cielo , & che ne hanno cura con questi versi .
+αὐτόμαται δὲ πύλαι μύκον οὐρανοῦ ἃς ἔχον ὧραι
+τῆς ἐπιτέτραπτο μέγας οὐρανὸς ὕλη μπόλος [?]
+*Spōte fores patuerūt cœli quas seruabant horæ* *Quibus cura est magnū cœlū,et Olympus.*
+Il qual luoco Homero imitando Ouidio dice che l'hore hanno cura delle porte del Cielo insieme con Giano .
+*Præsideo foribus⁹ cœli cum mitibus horis.*
+Volendo noi dunque dar principio à questa pittura, faremo che la prima hora sia nell'apparir del Sole .
+[ЗАГОЛОВОК: HORA PRIMA.]
+[ИНИЦИАЛ: F]ANCIVLLA bella , ridente , con ciuffo di capegli biondi com'oro sparsi al vento dalla parte d'auanti , & quelli di dietro siano stesi , & canuti .
+Sarà vestita d'habito succinto , & di color incarnato con l'ali à gli homeri , stando però in atto gratioso , e bello di volare.
+Terrà con la destra mano ( ouero doue parerà all'accorto pittore , che sia il suo luoco proprio ) il segno del Sole [знак] dritto , & eminente : ma che sia grande , & visibile , & con la sinistra vn bel mazzo di fiori , rossi , & gialli in stato di cominciarsi ad aprire .
+Si dipinge giouane , bella , ridente , & con fiori nella guisa che dicemmo , percioche allo spuntar de'chiari , & risplendenti raggi del Sole , la natura tutta si rallegra , & gioisce , ridono i prati s'aprono i fiori, & i vaghi augelli sopra i verdeggianti rami, con il soauissimo canto fanno festa, e tutti gl'altri animali mostrano piacere , & allegrezza , il che benissimo descriue Seneca nel primo choro , in Hercole furente con questi versi :
+*Iam [?] equis*
+*Titan , summum prospicit oetan,*
+*Iam Cadmæis inclyta baccis*
+*Asperſa die , dumeta rubent*
+*Phœbique fugit reditura soror.*
+*Labor exoritur durus,& omnes*
+*Agitat curas,aperitque domos*
+*Pastor gelida cana pruina*
+*Grege dimisso pabula carpit*
+*Ludit prato liber aperto*
+*Nondum rupta fronte iuuencus .*
+*Vacua reparant vbera matres.*
+*Errat cursu leuis incerto*
+*Molli petulans hædus in herba*
+*Pendet summo stridula ramo ,*
+*Pinnasque nouo tradere soli*
+*Gestit,quenilos inter nidos*
+*Thracia pellex,turbaque circum*
+*Confusa sonat murmure mixto*
+*Testata diem.*
+I capelli biondi sparsi al vento dalla parte dauanti,& quelli dietro stesi,& canuti significano che l'hore in breue spatio di tempo principiano, & finiscono ritornando però al solito corso .
+
+Колонтитул: 204 ICONOLOGIA
+Кустод: Il color
+Сигнатура: 
+Маргиналии:
+
+## Скан 0226 · с. 205
+
+Il color incarnato del vestimento dinota il rosseggiare , che fanno li raggi del Sole in Oriente quando cominciano à spuntare sopra il nostro emispero, come dimostra Virgilio nel settimo dell'Eneide .
+*Iamque rubescebat radijs mare,& æthere ab alto Aurora in roseis fulgebat lutea bigis*
+Et Ouidio nel 4.de'Fasti.
+*Nox vbi transierit cœlumque rubescere primo Cœperit*
+Et nel 2.
+*Ecce vigil nitido patefecit ab ortu Purpureas Aurora fores,& plena rosarum atria.*
+Et nel 6.delle Metham.
+*Vt solet aer purpureus fieri,cum primum Aurora mouetur.*
+Boetio lib.2.metr.3.
+*Cum polo Phœbus roseis quadrigis lucem spargere cœperit .*
+L'istesso nel metro 8.
+*Quod Phœbus roseum diem Curru prouebit aureo .*
+Et Statio 2.Theb.
+*Et iam Mygdonijs elata cubilibus alto Rorantes excussa,comas multumq; sequenti,*
+*Impluerat cœlo gelidas Aurora tenebras Sole rubens .*
+Et Silio Italico lib.12.
+*Atque vbi nox depulsa polo primaque rubescit Lampade Neptunus .*
+L'habito succinto , & l'ali à gl'homeri in atto di volare , significano la velocità dell'hore , come nel luogo di sopra citato dice Ouidio 2. Metamorfosi .
+*Iungere æquos Titan velocibus imperat horis Iussa Deæ celeres peragunt.*
+Gli si da il segno del Sole , perche soleuano gl'antichi dare al giorno dodici hore , & dodici alla notte le quali si dicono planetali , & si chiamano così , perche ciascuna di esse vien signoreggiata da vno de'segni de'Pianeti, come si vede in Gregorio Giraldo tom.2.lib.de annis, & mensibus, con queste parole : *Præterea quoniam singuli Planetæ , singulis horis dominari , & præesse ab Astrologis dicuntur , & mortalib⁹, vt aiunt, disponere ; ideò planetarum, hoc est errantium stellarum horæ , quæ ab eis planetariæ vocantur , constitutæ sunt .* Oltre questo chi volesse maggiore esplicatione legga Tolomeo , & Zeone , & da certi versi d'Ouidio si raccoglie il medesimo .
+*Non Venus affulsit , non illa Iuppiter hora Lunaque &c.*
+Giouanni del Sacrobosco intorno à questo così dice nel computo Ecclesiastico : *Notandum etiam quod dies septimanæ , secundum diuersos , diuersas habeat appellationes ; Philosophi enim gentiles quemlibet diem septimanæ , ab illo planeta qui dominatur in prima hora illius dici denominant , dicunt enim planetas successiue dominari per horas diei .*
+Et se bene in ogni giorno della settimana ciaschedun'hora hà particolar segno differente da quelli de gli altri giorni , tuttauia noi intendiamo assolutamente rappresentare dodici hore del giorno , & altrettante della notte senza hauer riguardo a'particolari giorni , & à loro successione,nel circolo della settimana , si che per dimostratione , si darà principio alla prima hora del giorno con il Sole , come quello , che distrugge l'hore , &
+
+Колонтитул: DI CESARE RIPA. 204
+Кустод: è misu-
+Сигнатура: 
+Маргиналии:
+Нумерация: на странице напечатано 204 (ожидается 205)
+
+## Скан 0227 · с. 206
+
+è misura del tempo, e questo basterà , per dichiaratione de i segni, si per questa prima hora che habbiamo descritta , come anco per il restante.
+[ЗАГОЛОВОК: HORA SECONDA.]
+[ИНИЦИАЛ: F]ANCIVLLA ancor'ella con l'ale aperte in atto di volare, hauerà i capelli di forma,e colore come la prima : ma quelli dauanti non faranno tanto biondi , l'habito sarà succinto,di color d'oro, ma circondato d'alcuni piccioli nuuoletti , & nebbia, essendo che in quest'hora il Sole,tira à se i vapori della terra,più,ò meno,secondo l'humidità del tempo passato,& à quest'hora volse alludere Lucano nel 5.della guerra di Farsaglia.
+*Sed nocte fugata læsum nube diem iubar extulit .*
+Et Sil.Ital.lib.5.
+*Donec flammiferum tollētes æquore currum Caligo in terras nitida resoluta seren*
+*Solis æqui spargere diem iamq;orbe renato Mollis erat tellus rorata mane pruina.*
+*Diluerat nebulas Titan sensimque fluebat*
+Claud.2.de vap.Prof.
+*Nondū pura dies tremulis vibratur in vndis Dum nouus humectat flauētes lucifer agros*
+*Ardor,& errantes ludunt per cærula flāmæ Roranti prouectus æquo .*
+*Dum matutinis præsudat solibus aer*
+Et Stat.1.Achill.
+*Iā præmit astra dies humilisq;ex equore titā Sublatum curru pelagus cadit*
+*Rorantes euoluit æquos,& æthere magno*
+Terrà con la destra mano il segno di Venere ♀ in bella attitudine , & con la sinistra vn mazzo d'elitropio,ouero cicoria con i fiori , i quali per antica osseruanza,si sà,& si vede che continuamente seguitano il giro che fa il Sole,& per hauer'io alla prima hora dichiarato, che significano i capelli,& l'ali mi pare superfluo sopra di ciò dir'altro , anzi detta dichiaratione , seruirà anco alle altre hore,che ci restano à dipingere .
+[ЗАГОЛОВОК: HORA TERZA.]
+[ИНИЦИАЛ: F]ANCIVLLA anch'ella , con la forma de i capelli già detti : ma quelli d'auanti faranno trà il biondo , & negro .
+Sarà alata,& come l'altre in atto gratioso di volare,con habito succinto,e spedito,di color cangiante, cioè doi parte di bianco , & vna di rosso , percioche quanto più il Sole s'inalza dall'Oriente,la luce vien maggiore, & di quest'hora intende Ouidio nel 6.delle Metam.quando dice:
+*vt solet aer Purpureus fieri,cum primum Aurora mouetur;*
+*Et breue post tempus candescere Solis ab ortu.*
+Terrà con la destra mano con bellissimo gesto il segno di Mercurio ☿ e con la sinistra vn'horiolo solare,l'ombra del qual deue mostra hora 3.l'inuentore per quanto narra Plinio nel libro secondo fu Anaximene Milesio discepolo di Talete di questo horologio riferisce Gellio che tratta Plauto nella fauola detta Beotio: *Vt illum Dij perdant qui primus horas reperit,quique adeo primus statuit hic solarium,qui mihi comminuit misero articulatim diem .*
+
+Колонтитул: 206 ICONOLOGIA
+Кустод: HO-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0228 · с. 207
+
+[ЗАГОЛОВОК: HORA QVARTA.]
+[ИНИЦИАЛ: F]ANCIVLLA come l'altre,con l'ale,& i capelli nella guisa,che habbiamo detto di sopra,l'habito succinto, & di color bianco , percioche dice il Boccaccio,nel lib.4.della Geneologia delli Dei,essendosi già sparso il Sole,& hauendo cacciato i vapori,il giorno e più chiaro, & Ouid. dice nel 4.delle Metham. *cum puro nitidissimus orbe*
+*Opposita speculi referitur imagine Phœbus* Et Sil.Ital.lib.12.
+*Redditur ex templo flagrantur æthere lampas*
+*Et tremula infuso resplendent cærula Phœbo .*
+Terrà con la destra mano il segno della luna ☽ auertendo il diligente Pittore rappresentarlo in modo, che si conosca il segno in prima vista .
+Porgerà con la sinistra mano,in atto gratioso,& bello, vn Giacinto fiore quale per quanto narra Ouid.nel lib. 10.fù vn putto amato da Appolline,& hauendolo egli per disgratia vccifo, lo mutò in fiore .
+Ilche dimostra,che la virtù del Sole, la mattina, và purgando ne i semplici la souerchia humidità della notte; Onde per essersi con quest'hora risoluta,è proprio suo cogliere i semplici,essendo,che non sono troppo morbidi,per la souerchia humidità, ne troppo asciutti per lo souerchio ardore de' raggi del Sole .
+[ЗАГОЛОВОК: HORA QVINTA.]
+[ИНИЦИАЛ: F]ANCIVLLA alata in atto di volare, con i capelli nella guisa dell'altre,& con habito succinto di color cangiante,in bianco, & ranciato,essendo che il Sole , quanto più s'auuicina al mezo giorno più risplende . Terrà con vna delle mani il segno di Saturno ♄ & con l'altra l'Elitropio del quale Plinio nel lib. 2. cap. 41. così dice .
+*Miretur hoc qui non obseruet quotidiano experimento , herbam vnam quæ vocatur Eliotropium abeuntē solem intueri semper ommnibus horis cum ea verti vel nubilo obumbrante; Et Varrone . Nec minus admirandum quod fit in floribus quos vocant Eliotropia, ab eo quod solis ortum mane spectant , & eius iter ita sequuntur ad occasum , vt ad eum semper spectent.* Et Ouidio nel quarto delle sue Metham.dice di quest'herba , che fù vna Ninfa chiamata Clitia amata dal Sole, la quale per vn ingiuria riceuuta da quello si ramaricò, talmente , che si voltò in quest'herba , le parole del Poeta son queste .
+*At Clytien quamuis amor excusare dolorē,*
+*Indiciumq;dolor poterat,nō amplius auctor*
+*Lucis adit,Venerisq; modū sibi fecit in illa*
+*Tabuit ex illo dementer amoribus vsa-*
+*Nymphārū impatiēs et sub Ioue nocte,dieq;*
+*Sedit humo nuda, nudis incompta capillis*
+*Perque nouem luces expers vndæq; cibique,*
+*Rore mero, lacrimisq; suis ieiunia pauit*
+*Nec se mouit humo,tantū spectabat euntis*
+*Ora Dei, vultusq; suo , flectebat ad illum.*
+*Mēbra ferūt hæsisse solo;partemq; coloris*
+*Luridus exãgues pallor cōuertit in herbas*
+*Est in parte rubor violaque simillimus ora*
+*Flos tegit,illa suū quamuis radice tenetur,*
+*Vertitur ad solem,mutataq; seruat amorē.*
+[ЗАГОЛОВОК: HORA SESTA.]
+[ИНИЦИАЛ: F]ANCIVLLA; sarà quest'hora di aspetto più fiero , & mostrerà le braccia,& gãbe nude;hauēdo però ne i piedi stiualetti gratiosi,& belli . il color del vestimēto sarà rosso infiāmato,perche dice il Bocc.lib.4. della
+
+Колонтитул: DI CESARE RIPA. 207
+Кустод: Geneo-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0229 · с. 208
+
+Geneologia delli Dei, ritrouandosi il Sole in mezo del Cielo , molto più risplende , & rende maggior ardore, che perciò si rappresenta che mostri le braccia , & gambe nude , il che significa anco Virgilio nel libro ottauo dell'Eneide .
+*Sol medium Cœli conscenderat igneus orbem .*
+Et Martiale nel lib.3.
+*Iam prono Phætonte sudat Aethon Interiungit equos meridiana.*
+*Exarsitque dies , & hora Iassos*
+Et Lucano nel lib.1.
+*Quaque dies Medius flagrantibus æstuat horis .*
+Terrà con la destra mano il segno di Gioue ♃ , & con la sinistra vn mazzo d'herba fiorita , chiamata da Greci , & Latini loto ; l'effetto della quale , secondo che narra Plinio nel lib. 13.al cap.17.& 18. & Theofrasto; è marauiglioso , percioche ritrouandosi dett'herba nel fondo del fiume Eufrate , la mattina allo spuntar del Sole , ancor'ella comincia à spuntar fuori dell'acque , & secondo che il Sole si và inalzando , così fà quest'herba , in modo , che quando il Sole è arriuato à mezo il Cielo, ella è in piedi dritta , & hà prodotto , & aperti i suoi fiori . & secondo poiche il Sole dall'altra parte del Cielo verso l'occidente, va calando , così il loto , à imitatione dell'hore va seguitando fino al tramontare del Sole , entrando nelle sue acque , & fino alla meza notte si va profondando . La forma di dett'herba , & fiori , secondo che scriue Plinio nel luogo citato di sopra è simile alla faua , & è solta di gambe , & di foglie : ma più corte , & sottile, i fiori sono bianchi , & il frutto somiglia al papauero .
+[ЗАГОЛОВОК: HORA SETTIMA.]
+[ИНИЦИАЛ: V]ESTITA di colore ranciato , il quale dimostra il principio della declinatione dell'antecedente hora terrà con vna delle mani il segno di Marte ♂ , & con l'altra vn ramo di luperi, con li bacelli atteso che si riuolge al Sole , & ancorche nuuolo sia dimostra l'hore à i Contadini di ciò fa fede Plinio nel libro 18.al cap.14.dicendo : *Nec vllius quæ feruntur natura assensu terræ mirabilior est : primum omnium cum Sole quotidie circumagitur horasque agniolis etiam nubili demonstrat.*
+[ЗАГОЛОВОК: HORA OTTAVA.]
+[ИНИЦИАЛ: F]ANCIVLLA , farà vestita di cangiante bianco , & ranciato, terrà il segno del Sole [знак] , & vn horiolo Solare : ma con gesto differente dell'hora terza , non per significato : ma per rendere vario il gesto, e bella la pittura , & che l'ombra di esso mostri, essere questa l'ottaua hora , essendo che anche la prima, ha il medesimo segno del Sole , denota anco detto oriolo la distintione dell'hore del giorno da quelle della notte .
+Il color del vestimento, dimostra, che quanto più crescono l'hore tanto più il giorno, va declinando , & và perdendo la luce .
+Et questo basterà per dichiaratione de i colori de'vestimenti, che mancano all'hore sequenti.
+
+Колонтитул: 208 ICONOLOGIA
+Кустод: HO-
+Сигнатура: 
+Маргиналии:

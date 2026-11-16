@@ -18,3 +18,4 @@
 | 0194 | 173 | Fragilitd | Fragilità | перепутанная буква |
 | 0194 | 173 | discoueniente | disconueniente | пропущена буква |
 | 0202 | 181 | ranto | tanto | перепутанная буква |
+| 0217 | 196 | piccla | picciola | прочее |

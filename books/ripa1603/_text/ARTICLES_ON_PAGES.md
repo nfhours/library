@@ -162,3 +162,23 @@
 | 0207 | Giuditio , ouero Inditio d'Amore .; GIVDICE. |  |  | r265, r267 | нет рамки |
 | 0208 | GIVOCO DALL' ANTICO.; GIVRISDITTIONE.; GIVSTITIA. |  |  | r268, r269, r270 | нет рамки |
 | 0209 |  |  |  | — | нет рамки |
+| 0210 | Giustitia retta, che non si pieghi per amicitia, né per odio.; Giustitia rigorosa.; Giustitia nelle Medaglie d Adriano,d'Antonino Pio,& d'Alessandro.; GLORIA DE' PRINCIPI.; Nella Medaglia d'Adriano. |  |  | r272, r273, r274 | нет рамки |
+| 0211 | GLORIA DE' PRENCIPI.; Nella Medaglia d'Adriano. |  | 0211_1 | — | заголовок перед гравюрой |
+| 0212 |  |  |  | — | нет рамки |
+| 0213 | GLORIA. |  |  | r275 | нет рамки |
+| 0214 | Gloria.; Gloria,& Honore.; Gloria.; Gloria .; GOLA.; Gola . |  |  | r275, r276, r277 | нет рамки |
+| 0215 | GOVERNO DELLA REPVBLICA.; GRAMMATICA.; Grammatica.; GVARDIA. |  |  | r278, r279, r280 | нет рамки |
+| 0216 | GRATIA.; GRATIA DIVINA.; GRATIA DI DIO. |  |  | r281, r282, r283 | нет рамки |
+| 0217 | GRATIE.; GRATITVDINE.; GRAVITA.; Grauità nell'huomo . |  |  | r284, r285, r286, r287 | нет рамки |
+| 0218 | Grauità dell'oratione .; GVERRA. |  |  | r288, r289 | нет рамки |
+| 0219 | GRASSEZZA.; Guerra . |  | 0219_1 | r290 | заголовок перед гравюрой |
+| 0220 | GVERRA.; GVIDA SICVRA de veri honori.; HIPPOCRESIA. |  |  | r289, r291, r292, r293 | нет рамки |
+| 0221 | HIPPOCRESIA. |  | 0221_1 | r292, r293 | заголовок перед гравюрой |
+| 0222 | HOMICIDIO. |  |  | r294 | нет рамки |
+| 0223 | HONESTA.; HONORE.; Honore. |  |  | r295, r296 | нет рамки |
+| 0224 | Honore nella Medaglia d'Antonino Pio .; Honore nella Medaglia di Vitellio .; HORE DEL GIORNO. |  |  | r297 | нет рамки |
+| 0225 | HORA PRIMA. |  |  | — | нет рамки |
+| 0226 |  |  |  | — | нет рамки |
+| 0227 | HORA SECONDA.; HORA TERZA. |  |  | — | нет рамки |
+| 0228 | HORA QVARTA.; HORA QVINTA.; HORA SESTA. |  |  | — | нет рамки |
+| 0229 | HORA SETTIMA.; HORA OTTAVA. |  |  | — | нет рамки |
