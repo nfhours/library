@@ -4,7 +4,7 @@
 
   python3 tools/build_ripa1603.py
 
-Читает books/ripa1603/_crops/crops.json (рамки в % исходного кадра ~/Projects/photos/ripa1603/<ключ>),
+Читает books/ripa1603/_crops/crops.json (рамки в % исходного кадра ~/Projects/photos/ripa1603/<ключ>, ключи IA/NNNN.jpg — копия Internet Archive, Duke; прежние H/… — Heidelberg),
 режет оригиналы и пишет в репозиторий данных ~/Projects/ripa-1603/ (публикуется на GitHub Pages):
   img/<скан>_<k>.webp        — гравюра (длинная сторона ≤ 1600)
   thumb/<скан>_<k>_t.webp    — миниатюра (ширина 240)
@@ -32,7 +32,7 @@ def main():
     for key in sorted(crops):
         rec = crops[key]
         if rec.get("noPlate") or not rec.get("boxes"): continue
-        scan = int(re.search(r"(\d{4})_", key).group(1))
+        scan = int(re.search(r"(\d{4})[_.]", key).group(1))
         im = Image.open(PH + key).convert("RGB"); W, H = im.size
         for k, b in enumerate(rec["boxes"], 1):
             x0, y0 = round(b["x"] / 100 * W), round(b["y"] / 100 * H)
