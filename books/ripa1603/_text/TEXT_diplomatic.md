@@ -2614,7 +2614,6 @@ Il freno d'esso cauallo gouernato da Mercurio, ci dinota, che la fama è portata
 
 ## Скан 0165 · с. 144
 
-[ЗАГОЛОВОК: .]
 [ГРАВЮРА: FAMA CHIARA.]
 do, quanto quella delle lingue, & dal parlare del gl'huomini è accresciuta, & sparsa.
 Et il popolo Romano per honorare Domitiano fece battere in vna Medaglia il Cauallo Pegaseo significante la fama, che per il mondo di lui s'era sparsa; vedi Sebastiano Erizzo.
@@ -2723,5 +2722,413 @@ Si fà il cornucopia, per adoprarsi ancora questa parola di fecondità metaforic
 
 Колонтитул: 148 ICONOLOGIA.
 Кустод: FEDE
+Сигнатура: 
+Маргиналии:
+
+## Скан 0170 · с. 149
+
+[ЗАГОЛОВОК: FEDE CHRISTIANA.]
+[ИНИЦИАЛ: D]ONNA in piedi sopra vna base, vestita di bianco, nella sinistra hauerà vna croce, & nella destra vn calice.
+La Fede è vna ferma credenza,per l'autorità di Dio, di cose che per argomento non appariscono,nelle quali è fondata la speranza Christiana.
+Si rappresenta sopra vna base,per dimostrare,che ella,come dice S.Ambrogio lib. 1. de Patri, Abr.cap.2.tom.4. è la base Regina di tutte l'altre virtu, poiche senza di essa è impossibile piacere à Dio, come dice S.Paolo ad Hebr.cap.11.
+Et si fa in piedi, e non à sedere, con vn calice nella destra, per significare le operationi corrispondenti ad essa, essendo che, come attesta S.Agostino lib. de fid. & oper. cap.15.tom.4. & S.Iacomo al cap.2. *Per fidem sine operibus nemo potest saluari, nec iustificari, nam fides sine operibus mortua est, & ex operibus consumatur*; si che con l'opere douemo seguitare la fede nostra, poiche quello veramente crede, il quale esercita con l'opere ciò che crede: dice S.Agostino sopra S.Matteo al cap.11. *Non enim satis est credere, sed videndum est vt credatur*.
+Et perche due principali capi d'essa Fede,come dice S.Paolo, sono credere in Christo Crocifisso, & nel Sacramento dell'Altare: però si dipinge con la croce, & col calice.
+[ЗАГОЛОВОК: Fede Christiana.]
+[ИНИЦИАЛ: V]Na vergine con habito bianchissimo sopra vna pietra quadrata , con la destra terrà eleuata vna Croce, & con essa vn libro aperto guardandolo fissamente,& col dito indice della sinistra, additerà toccando quasi l'orecchio suo; lasciando da parte l'esplicatione dell'altre cose già dette di sopra .
+Si rappresenta col dito all'orecchio, & col libro aperto,percioche due sono i mezi per apprendere la Fede santa,vno è l'vdito,& questo è il principale,dicendo S.Paolo ad Rom.cap.10. *Fides ex auditu,auditus autem per verbum Christi*; l'altro è il leggere i libri Canonici, & questo è men potente: *Viuus est enim sermo Dei,& efficax,& penetrabilior omni gladio ancipiti,pertingens vsque ad diuisionem animæ,ac spiritus compagum quoque, ac medullarum,& discretor cogitationum,& intentionum cordis*. Dice il medesimo Apostolo ad Hæbr.cap.4. oltre che ne significa,che alla Fede la pietra,come à fondamento s'appoggiano tutte l'altre virtù,ne può anche dimostrare, che questa pietra fondamentale sia Christo: *Petra autem erat Christus*, il quale douemo credere (come veramente egli è)vero Dio,& vero huomo,Redentore del mondo, e principio d'ogni bene nostro .
+[ЗАГОЛОВОК: FEDE CATTOLICA.]
+[ИНИЦИАЛ: D]ONNA vestita di biando,che si tenga la destra mano sopra il petto, & con la sinistra terrà vn calice,& attentamente lo guardi.
+Sono tre le virtù insegnateci nella noua , & vltima legge data per bocca di Christo N. S. come tre anella collegate vn dentro all'altro : ma la Fede è prima alle altre due , non potendo alcuno hauere , ne Speranza , ne Carità senza essa , dalla quale queste dependono in questa vita necessa-
+
+Колонтитул: DI CESARE RIPA. 149
+Кустод: necessa-
+Сигнатура: K
+Маргиналии:
+
+## Скан 0171 · с. 150
+
+necessariamente . Questa dunque si fà vestita di bianco , & bella di faccia,perche come il color bianco ci mostra la similitudine della luce, quale è cosa esistente , & perfetta di sua natura, & il color negro ci mostra le tenebre,che sono solo priuatione d'essa: così dobbiamo noi credere , che chi hà fede perfetta,& formata oon la carità , habbia l'essere , & viua, & chi di questa sia priuo, s'auuicini, ò sia in tutto prossimo alla priuatione, & alla morte eterna; l'vno ci disse Christo S. N. in quelle parole . *Qui credit in me etiam si mortuus fuerit viuet*; l'altro s'hà del sacro Simbolo di Santo Athanasio . *Hæc est fides Cattholica, quam nisi quisque fideliter,firmiterque crediderit saluus esse non poterit*.
+Mostra ancora la bianchezza del vestimento,che questa virtù, nó s'acquista con l'introdurre le scienze nell'anima, come il color bianco à pãni non si dà con colori materiali, ma solo s'acquista purificando il panno da gl'altri colori,così la fede quando è netta,l'anima con la gratia,& charità in modo , che non penna troppo all'inclinationi, che dando diletto,ne alle scienze,che fanno superbo ; più efficacemente opera,& hà la sua perfettione . Nota ancora questo colore , che facil cosa è deuiar da questa santa virtù,come è facile macchiare vn canidissimo vestimento, però disse l'Ariosto à questo proposito .
+*Non par , che da gl'antichi si dipinga*
+*La santa Fè vestita in altro modo*
+*Che d'vn vel bianco,che la cuopra tutta*
+*Che vn sol pūto , vn sol neo la può far brutta* .
+E per questa cagione molti incorrendo,in vn solo errore, con pertinacia , sono à ragione ributtati dalla S. Chriesa,sapendosi, che . *Qui in vno diliquit factum est omnium reus* .
+La mano , che tiene sopra il petto,mostra,che dentro nel cuore si riposa la vera,& viua fede , & di quella faremo premiati,della quale dice San Giouanni nell'Apocalissi al cap. 2. *Esto fidelis vsq. ad mortem , & dabo tibi , dicit Dominus,Coronam vitæ* , non della finta , che molte volte si mostra nella mortificata apparenza de'corpi .
+Nell'altra mano tiene il calice , simbolo della Fede , doue si sostentano tutte le nostre speranze , & il fine de'nostri desiderij , essendo la Fede vna ferma credenza , fuori d'ogni dubbio confidata nel certo essere di Dio, & prouidenza , & potenza di quello .
+[ЗАГОЛОВОК: Fede Cattolica .]
+[ИНИЦИАЛ: D]Onna vestita di bianco , con l'elmo in capo , nella mano destra terrà vna candela accesa sopra vn cuore,& nella sinistra la tauola della legge vecchia insieme con vn libro aperto .
+La Fede come vna delle virtù Teologiche tiene in capo l'elmo , per dimostrare , che per hauere la vera Fede si deue mantenere l'ingegno sicuro da'colpi dell'armi nemiche, che sono le ragioni naturali de'Filosofi , & le sofistiche ragioni de gl'Heretici, & mali Christiani , tenendo ferma la mente alla dottrina Euangelica,& a'diuini comandamenti, dicendo San Gregorio nell'homelia 26. che : *Fides non habet meritum,vbi humana ratio præbet experimentum* .
+
+Колонтитул: 150 ICONOLOGIA
+Кустод: Il libro
+Сигнатура: 
+Маргиналии:
+
+## Скан 0172 · с. 151
+
+[ГРАВЮРА: без подписи]
+Il libro con le tauole di Moise, sono il testamento nuouo , & vecchio insieme , come principal somma di ciò , che si deue credere , che sono li commandamenti di Christo S.N. insieme con quelli della vecchia legge, per conformità del detto suo , che dice: Non sono venuto à destruggere la legge ma adempirla .
+Il cuore in mano con la candela accesa mostra l'illuminatione della mente nata per la Fede , che discaccia le tenebre dell'infedeltà , & dell'ignoranza , dicendo S.Agostino sopra S.Giouanni al capitolo nono : *Cecitas est infidelitas , & illuminatio fides*, però per antica ceremonia nel sacrificio della Messa , & in altri atti Ecclesiastici, si vede l'vso de'lumi , & delle torcie accese, del che diffusamente tratta Stefano Durante, de ritib. Eccl.lib.1.cap.[?].[?]
+
+Колонтитул: DI CESARE RIPA. FEDE CATTOLICA. 151
+Кустод: FEDE
+Сигнатура: K 2
+Маргиналии:
+
+## Скан 0173 · с. 152
+
+[ЗАГОЛОВОК: FEDE NELL' AMICITIA.]
+[ИНИЦИАЛ: D]ONNA vecchia,& canuta coperta di velo bianco, col braccio destro disteso,& d'vn altro velo farà coperta la destra mano.
+Tiene coperta la mano destra , secondo l'ordine di Numa Pompilio Rè de'Romani nel sacrifitio da farsi alla Fede,per dare ad intendere,che si ha da seruare la Fede con ogni sincerità all'amico, poiche : *Fides* ( come dice Pitagora ) *est amoris fundamentum, qua sublata tota amicitiæ lex, ius, vis, ac ratio peribit* .
+Rappresentasi canuta,e vecchia,perche così la chiamò Virgilio , ilche dichiara vn'interprete, dicendo, che si troua più fede ne gl'huomini, che hanno per molti anni maggiore esperienza ; & aggiunge per mostrare , che non basta conseruare la Fede per alcun tempo : ma bisogna che sia perpetua .
+Racconta di più Acrone, che sacrificando alla Fede il Sacerdote, si copriua non solo la destra mano con bianco velo,ma il capo ancora, e quasi tutto il corpo, per dimostrare la candidezza dell'animo, che deue essere compagna della Fede nell'amicitia.
+[ЗАГОЛОВОК: FEDE MARITALE.]
+[ИНИЦИАЛ: D]ONNA vestita di bianco, con le prime due dita della destra mano tiene vn'anello,cioè vna fede d'oro.
+[ЗАГОЛОВОК: FEDELTA.]
+[ИНИЦИАЛ: D]ONNA vestita di bianco, come la Fede, con due dita della destra mano,tenga vn'anello,ouer sigillo,& à canto vi sia vn cane bianco.
+Si fa il sigillo in mano,per segno di Fedeltà,perche con esso si serrano,e nascondano li secreti.
+Il cane perche è fidelissimo hauerà luogo appresso questa imagine per l'autorità di Plinio nel lib.8.dell'historia naturale,doue racconta in particolare del cane di Tito Labieno veduto in Roma nel consolato d'Appio Iunio,& Publio Silio,il quale,essendo il sopradetto Tito in prigione non si partì mai da giacere per quanto poteua vicino à lui , & essendo egli finalmente come reo gettato dalle scale gemonie supplicio che si vsaua inRoma à quelli,che erano condannati dalla giustitia, staua il cane intorno al corpo del già morto padrone , mostrando moltissimi effetti di dolore , & portando tutto il cibo,che gli si daua,alla bocca d'esso, essendo alla fine il cadauero gettato nel Teuere , il cane ancora di propria voglia vi si gettò reggendo sopra l'ácque per buono spatio quel corpo con infinita merauiglia de'riguardanti.
+Si legge anco in Erasto d'vn Cauallier Romano,che haueua vn figliuolo vnico nelle fasce , appresso al quale di continuo staua vn cane domestic o di casa , & auenne , che facendosi vn giorno nella Città alcuni giochi militari , oue il Caualliere doueua interuenire , voile la curiosa sua mo-
+
+Колонтитул: 152 ICONOLOGIA
+Кустод: sua mo-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0174 · с. 153
+
+[ГРАВЮРА: без подписи]
+sua moglie interuenire alla festa , & hauendo serrato il fanciullo col cane in vna medesia stanza, conducendo seco tutte le sue serue , se ne andò sopra vn palco della casa , donde si poteua hauer della festa trattenimento; vscì in quel tempo per vna fissura della muraglia vn'horribil serpente , & andatosene alla culla per vccider il bambino,fù dal cane assalito,e vcciso, restando esso solo insanguinato per alcuni morsi del serpe , à caso in quel combattimento del cane,& del serpe la culla si voltò sottosopra ; la Balia allo spettacolo del sangue , & della culla riuersata , riaornata che fù conietturando la morte del fanciullo, portò con lagrime al padre la falsa noua:egli infuriato per tali parole corse alla stãza,&cõō vn colpo della spa da l'innocentiss. cane per merito di fideltà diuise in due parti , poi piangendo andò verso la culla , & credendo vedere le tenere membra sbranate
+
+Колонтитул: DI CESARE RIPA. FEDE NELL' AMICITIA. 153
+Кустод: nate
+Сигнатура: K 3
+Маргиналии:
+
+## Скан 0175 · с. 154
+
+nate trouò il fanciullo viuo,& sano con sua grandissima allegrezza,& marauiglia , poi accorgendosi del serpe morto , venne in cognitione della verità, dolendosi infinitamente d'hauer dato all' innocente animale la morte , in recompensa della rarissima fedeltà . Molt'altri essempij, raccontano diuersi altri auttori in questo proposito,à noi bastano questi .
+[ЗАГОЛОВОК: Fedeltà .]
+[ИНИЦИАЛ: D]Onna,vestita di bianco, con la destra mano tiene vna chiaue , & alli piedi vn cane .
+La chiaue è inditio di secretezza , che si deue tenere delle cose appartenenti alla fedeltà dell' amicitia, il che ancora per singulare instinto di natura la fedeltà si significa per il cane, come si è detto in altre occasioni.
+[ЗАГОЛОВОК: FELICITA NELLA MEDAGLIA DI]
+[ЗАГОЛОВОК: Giulia Mammea con queste lettere .]
+[ЗАГОЛОВОК: FELICITAS PVBLICA.]
+[ИНИЦИАЛ: D]ONNA , che siede in vn bel seggio regale , nella destra mano tiene il Caduceo , & nella sinistra il Cornucopia pieno di frutti , & inghirlandata di fiori .
+La felicità è vn riposo dell'animo in vn bene sommamente conosciuto, & desiderato,& desiderabile , però si dipinge à sedere , col caduceo in segno di pace , & di sapienza .
+Il cornucopia accenna il frutto conseguito delle fatiche,senza le quali è impossibile arriuare alla felicità , che per mezzo d'esse si conosce , & desidera .
+I fiori sono inditio d'allegrezza,dalla quale il felice stato non si diuide giamai ; significa ancora il caduceo la virtù , & il cornucopia la ricchezza , però felici sono trà di noi coloro , che hanno tanti beni temporali, che possono prouedere alle necessità del corpo,& tanto virtuosi, che possono alleggerir quelle dell'anima .
+[ЗАГОЛОВОК: FELICITA ETERNA.]
+[ИНИЦИАЛ: G]IOVANE ignuda,con le treccie d'oro,coronata di lauro sia bella,& risplendente,sederè sopra il cielo stellato, tenendo vna palma nella sinistra mano,& nella destra vna fiamma di fuoco, alzando gl'occhi in alto , con segni d'allegrezzà .
+Giouane si depinge, percioche la felicità eterna non hà seco,se non allegrezza perpetua , sanità vera,bene incorrotto , & tutte le gratie particolari , che seguono la giouentù , & delle quali l'altre età sono molte difettose .
+Si fà ignuda , perche non hà bisogno di velarsi delle cose caduche della terra,ò per souuenire alla vita, ò per ornarsi, ma tutto il ben suo , & l'altrui nasce immediatamente da lei medesima .
+I capelli d'oro sono i pẽsieri soaui di sẽpiterna pace, & sicura cōcordia. In questo significato è pigliato l'oro āãcora da Poeti,che è la prima età incorrotta da gl'huomini , quando si viueua senza contaminare le leggi .
+Ponsi à sedere sopra il cielo stellato , per dimostrare , che la vera felicità
+
+Колонтитул: 154 ICONOLOGIA
+Кустод: felicità
+Сигнатура: 
+Маргиналии:
+
+## Скан 0176 · с. 155
+
+[ГРАВЮРА: без подписи]
+felicità , che solo in cielo si gode,non è soggetta al rapido corso delle stelle,& allo scambieuole mouimento de tempi.
+La corona del lauro con la palma mostra , che non si può andare alla felicità del cielo,se non per molte tribulationi , essendo vero il detto di S. Paolo , che dice . *Non coronabitur nisi,qui legitimè certauerit* .
+La fiamma ardente dimostra l'amor di Dio,& il mirar alto la contemplatione di lui, perche in ambe due queste parti consiste la beatitudine , & la compita felicità .
+[ЗАГОЛОВОК: FELICITA BREVE.]
+[ИНИЦИАЛ: D]ONNA vestita di bianco,& giallo, che tenga in capo vna corona d'oro,sia cinta di varie gēme,nella mano destra hauerà vn scettro, tenendo il braccio alto,al quale s'auuintichi con le sue frondi vna zucca, che sor-
+
+Колонтитул: DI CESARE RIPA. FELICITA. 155
+Кустод: che sor-
+Сигнатура: K 4
+Маргиналии:
+
+## Скан 0177 · с. 156
+
+che sorga dal terreno vicino à piedi d'essa,con la sinistra tenga vn baccile, pieno di monete,& di gemme .
+Il vestimento bianco,& giallo è inditio di contentezza,la corona,& lo scettro di signoria, & il baccile di gran ricchezze , nelle quali cose la breue,& vana felicità consiste,assimigliandosi alla zucca , la quale in breuissimo spatio di tempo altissima diuentata , in pochissimo tempo poi perde ogni suo vigore,& cade à terra,il che è conforme à quel,che ne disse l'Alciato tradotto in nostra lingua .
+*Crebbe la zucca à tanta altezza,ch'ella*
+*A vn'altissimo Pin passò la cima
+E mentre abbraccia in q̃sta parte,è in q̃lla
+I rami suoi superba oltre ogni stima*
+*Il Pin sen rise,e à lei così fauella*
+*Breue è la gloria tua ; perche non prima*
+*Verrà il verno di neue,& giaccio cinto*
+*Che fià ogni tuo vigore del tutto estinto* .
+[ЗАГОЛОВОК: FERMEZZA.]
+[ИНИЦИАЛ: D]ONNA con le membra grosse,d'aspetto robusto, vestita d'azzurro,& ricamato d'argento,come di stelle, & con ambe le mani terrà vna torre .
+Questa figura è formata in maniera,che facilmente senza molta dichiaratione si può intendere,però per non ci trattenere,oue non bisogna , dico solo, che il color della veste con le stelle fisse scolpiteui sopra , mostrano fermezza , per similitudine della fermezza del cielo,il quale per la sua perfettione , secondo il tutto, non è soggetto à mutatione locale, ne corrottiua,& non può in modo alcuno vacillare in alcuna parte .
+[ЗАГОЛОВОК: FERMEZZA ET GRAVITA]
+[ЗАГОЛОВОК: dell' Oratione .]
+[ИНИЦИАЛ: S]CRIVE il Pierio nel primo libro de suoi Hieroglifici, che quando i Sacerdoti Egittij voleuano dimostrare in pittura la fermezza , & la grauità dell'oratione,faceuano Mercurio sopra vna base quadrata senza piedi , il che dimostraua la fermezza , & forza delle parole esseguite , le quali senza l'aiuto delle mani, ò piedi possono per se stesse fare l'offitio , che da loro s'aspetta .
+[ЗАГОЛОВОК: FERMEZZA D' AMORE.]
+[ИНИЦИАЛ: D]ONNA, d'ornatissimo habito vestita , per acconciatura del capo due ancore , che in mezzo con bella ligatura tengono vn cuore humano, con vn motto che lo circondi , & dica . *Mens est firmissima* .
+[ЗАГОЛОВОК: FIVMI.]
+[ЗАГОЛОВОК: TEVERE.]
+[ИНИЦИАЛ: S]I vede il Teuere rappresentato in molti luoghi in Roma , & particolarmente nel Vaticano in vna bellissima statua di marmo,che sta giacendo , & sotto il braccio destro tiene vna lupa , sotto la quale si veggiono due piccioli fanciullini , che con la bocca prendono il latte da essa . Sotto il medesimo braccio tiene vn'vrna , dalla quale esce acqua in grandissima copia , ha nella sinistra mano vn cornucopia pieno di varij frutti , e con la destra mano tien'vn remo , hà la barba , & i capelli longhi , & è coronato da vna bella ghirlanda di varij frutti , e fiori.
+
+Колонтитул: 156 ICONOLOGIA
+Кустод: Il Te-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0178 · с. 157
+
+[ГРАВЮРА: MENS·EST·FIRMISSIMA.]
+Il Teuere è fiume d'Italia,il quale esce dal destro lato dell'Apennino,& diuide la Toscana dall'Vmbria,e Campagna,come anco la città di Roma.
+Si dipingono i fiumi giacendo , per dimostrare, che la loro proprietà è l'andare per terra .
+I due piccioli fanciulli,che prendono il latte dalla lupa,si fanno per memoria di Romolo,e Remo fratelli,fondatori di Roma, i quali furono trouati alla riua del Teuere esposti,che pigliauano il latte da vna lupa.
+Si corona detta figura in memoria delle vittorie de'Romani , che per ciò si vede il ritratto in alcuni luoghi, che detta figura sia coronata non solo de'fiori, e frutti, ma di lauro .
+Il cornucopia con la diuersità de'frutti, significa la fertilità del paese , doue passa .
+
+Колонтитул: DI CESARE RIPA. FERMEZZA D' AMORE. 157
+Кустод: Il re-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0179 · с. 158
+
+Il remo dimostra esser fiume nauigabile,& commodo alle mercantie .
+[ЗАГОЛОВОК: Teuere, come dipinto da Virgilio nel settimo dell' Eneide.]
+[ИНИЦИАЛ: Q]Vádo in ripa del fiume il padre Enea
+Sotto l'aperto Ciel post'à giacere
+Diede alle membra al fin breue riposo,
+Et ecco il Dio del luogo, il Tebro stesso
+Da gl'oppi folti tra le spesse fronde
+Parue ch'vscisse dal tranquillo fiume
+Vestito d'vn sottil ceruleo velo
+Et di frondosa canna cinto il crine.
+Il vestimento del colore ceruleo si fa per dimostrare la chiarezza dell'acque , essendo all'hora più chiara , quando meglio riceue il colore del cielo, & però fu dimandato il Teuere Albula da principio, che poi da Tiberino Rè de gl'Albani nel Teuere sommerso fu chiamato Tiberi , & hoggi Teuere .
+Potrassi anco far il velo di color flauo , perche così lo dipinge Virgilio nel 7.dell'Eneide.
+*Et multa flauus arena Tyberis* . Et Horatio : *Vidimus flauum Tyberin* .
+La ghirlanda di canna che gli da Virgilio conuiene à tutti i fiumi, perche facilmente nascono in luoghi acquosi .
+[ЗАГОЛОВОК: ARNO.]
+[ИНИЦИАЛ: V]N vecchio con barba,e con capelli longhi, che giacendo sia posato con vn gomito sopra vn'vrna , dalla quale esca acqua , hauerà questa figura cinto il capo da vna ghirlanda di faggio, & à canto vi sarà à giacere vn leone,il quale tenghi con le zampe vn giglio rosso, che d'vno, e l'altro dinotano l'antica arme di Fiorenza principal Città della Toscana, per mezo della quale passa l'Arno .
+Dicesi che altre volte i Fiorentini si elessero per loro insegna [?] tutti i fiori il giglio bianco in campo rosso : ma poi per alcune discordie nate tra di loro, come racconta Cristoforo Landini, elessero il giglio rosso in campo bianco .
+Elessero parimente fra gl'animali il leone, si come Rè di tutti l'animali , e fra gl'huomini eccellenti per il lor maggior sigillo Hercole.
+Gli si da la ghirlanda del faggio per dinotare,che l'Arno, secondo che racconta Strabone , esce dal lato destro del monte Apennino da vn luogo chiamato Falterona,oue è gran copia di faggi.
+Scende questo fiume dal sopradetto luogo, da principio come vn ruscello d'acqua fra strani balzi,& straboccheuoli luoghi,& valli verso l'Occidente , & poi entrandoui molte sorgiue d'acqua,torrenti, & fiumi si ingrossa,& lassando alla sinistra Arezzo, entra nel Fiorentino, & passa à Firenze , & la partisce in due parti, & quindi scendendo à Pisa parimente quella diuide,& poi corre alla marrana,oue finisce il suo corso.
+Si può anco dipingere detta figura con il cornucopia , atteso, che doue egli passa sono luoghi fertili di Toscana.
+[ЗАГОЛОВОК: PO.]
+[ИНИЦИАЛ: D]A diuersi , & in particolare da Probo è stato dipinto il Pò , non solo che si appoggi,come gl'altri fiumi all'vrna,e che habbia cinto il capo di ghirlanda di canne,ma c'habbia la faccia di toro con [?] corna . Dipin-
+
+Колонтитул: 158 ICONOLOGIA
+Кустод: Dipin-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0180 · с. 159
+
+Dipingesi in questa guisa,percioche(come racconta Seruio, & Probo ) il suono,che fa il corso di questo fiume,è simile al rugito del bue,come anco le sue ripe sono incuruate à guisa di corna .
+Per la dichiaratione della ghirlanda di canna, ci seruiremo dell'auttorità de gl'antichi, percioche loro coronauono li fiumi di canne , perche come habbiamo detto nella pittura del Teuere, la canna nasce,& cresce meglio ne i luoghi acquosi, che ne gl'aridi .
+Si potrà anco dipingere questo fiume vecchio con capelli,e barba longa canuta, & come habbiamo detto , che s'appoggi all'vrna , dalla quale eschi copia d'acqua, e faccia sette rami, & in essa fia vn cigno, terrà con vna delle mani il corno di douitia,e con l'altra vn ramo d'arbore,dal qual si veda lagrimare humor giallo .
+Hauerà in capo vna ghirlanda di pioppa , per mostrare non solo , che questo fiume è circondato da questi arbori , ma per memoria di quello che si racconta fauolosamente delle sorelle di Fetonte , il quale fù fulminato da Gioue,& sommerso nel Pò,& esse trasformate in pioppe alla riua di questo fiume,come anco Cigno Rè diLiguria in Cigno,che per ciò vi si dipinge , anco il detto vcello vedendosene di essi in detto fiume gran quantità .
+E questo fiume notissimo in Lombardia, il quale nasce nel grembo dell'altissimo mōte Vesalo dalli confini di Liguri Gabieni cōō chiarissimo , & breuissimo principio per l'alpi scende, & poi calando sotto terra risorge, & entra con sette bocche nel Hadriatico mare,onde si dice far sette mari.
+Per il cornucopia racconta Plinio nel 3. lib. che il Pò ingrossa nel nascimento della canicula,quando si strugono le neui,& è più rapido per li campi , che per li nauilij, ma non però si appropria nulla di quello che toglie, & doue passa,quiui rimane più grasso,& diuitioso .
+Per dichiaratione del ramo,che stilla l'humor sopradetto,il Boccaccio nel 7. lib. della Genealogia delli Dei , dice che d' intorno al Pò nascono diuerse spetie di arbori per la forza del sole senza esser piantati,onde circa il fine dell'estate,mentre che il sole comincia à declinare, sudano vn certo humore giallo in modo di lagrime , il quale si raccoglie con artificio,& si compone in ambra .
+[ЗАГОЛОВОК: ADIGE.]
+[ИНИЦИАЛ: V]N vecchio , come gli altri,à giacere appoggiato ad vn'vrna,dalla quale eschi copia d'acqua, farà coronato di vna ghirlanda di diuersi fiori,& frutti,& con la destra mano tenghi vn remo.
+L'Adige hà la sua fontana,dalla quale esce nell'Alpi di Trento ( secondo Plinio) & mette il capo nel mare Adriatico alle fossoni,oue è assai bel porto .
+Gli si dà la bella ghirlanda de varij fiori,& frutti , per dimostrare che per doue egli passa,è ameno , & fruttifero , come bene dimostra Virgilio nella Buccolica,& nel nono lib. dell'Eneide quando dice .
+Siue Padi ripis,Athesim seu propter amœnum .
+
+Колонтитул: DI CESARE RIPA. 159
+Кустод: Il remo
+Сигнатура: 
+Маргиналии:
+
+## Скан 0181 · с. 160
+
+Il remo,che tiene con la destra mano , dinota esser questo nobil fiume nauigabile, percioche per esso si conducono varie cose per l'vso de gli huomini.
+[ЗАГОЛОВОК: NILO.]
+*Rappresentato in vna statua di marmo posta nel Vaticano di Roma.*
+[ИНИЦИАЛ: S]TA à giacere con chiome,e barba lunga, ha il capo inghirlandato di fiori, frondi, e frutti, giace con il braccio sinistro appoggiato sopra vna sfinge, quale ha la faccia fin'alle mammelle di giouanetta , & il resto del corpo di leone , fra la sfinge , & il corpo del Nilo si vede vscire gran quantità d'acqua, tiene con la sinistra mano vn corno di douitia pieno di frondi,fiori,e frutti, stanno sopra la persona di detto fiume, com'anco sopra d'vn cocodrillo posto à canto ad esso sedici piccioli fanciullini,i quali con allegrezza mostrano di notare .
+Il Nilo, come dice il Boccaccio nel settimo libro della geneologia delli Dei è fiume meridionale,che diuide l'Egitto dall'Ethiopia,e secondo la commune opinione nasce ne i monti di Mauritania presso all'Oceano .
+Questo fiume si posa sopra alla sfinge , come mostro famoso dell'Egitto , oue passa questo fiume .
+Metteuisi anco il cocodrillo, per esser'ancor'esso animale dell'Egitto, e per il più solito stare alla riua del Nilo .
+La gran quantità d'acqua,ch'esce nel detto modo, mostra l'inondatione del Nilo nella regione d'Egitto,e ne gl'altri paesi,oue egli passa.
+Li sedici fanciulli significano sedici cubiti di altezza dell'inondatione del Nilo,che è stata la maggiore,che habbia fatto , e l'allegrezza de i puttini mostra l'vtile,che di tale inondatione cauano le persone di quei luoghi,che sono aridi , e secchi, per esser sottoposti alla gran forza del Sole , onde per tale inondatione si fanno li terreni fertili , & i paesi abondanti , che ciò significa il cornucopia , & la ghirlanda.
+[ЗАГОЛОВОК: TIGRE.]
+*Nella medaglia di Traiano .*
+[ИНИЦИАЛ: H]VOMO vecchio,che come gl'altri sta giacendo con l'vrna da vn lato , & dall'altro vna Tigre.
+Nasce questo fiume nella maggiore Armenia nel piano di vn loco detto Elongosine , & girando in diuersi luoghi con dieci bocche , entra nel mare Persico .
+Dicesi,c'hebbe questo nome di Tigre per la velocità , come anco , perche nel luogo,oue passa,si dice esserui quantità di queste fiere .
+[ЗАГОЛОВОК: DANVBIO.]
+*Nella medaglia di Traiano .*
+[ИНИЦИАЛ: V]N vecchio,che si appoggi come gl'altri all'vrna, la quale versi acqua , & che tenghi coperta la testa con velo .
+Copresi il capo con velo, percioche non si sapeua di certo l'origine del suo nascimento , onde Ausonio.....così dice :
+Danubius perit[?] caput occultatus in ore.
+
+Колонтитул: 160 ICONOLOGIA
+Кустод: ACHE
+Сигнатура: 
+Маргиналии:
+
+## Скан 0182 · с. 161
+
+[ЗАГОЛОВОК: ACHEOLO.]
+[ИНИЦИАЛ: D]A Ouidio nel lib. 9. delle Metamorfosi vien descritto con barba , e capegli longhi, hà da vna banda della fronte vn corno , & dall'altra banda non vi essendo l'altro , si veda la rottura di esso , è ghirlandato di salce , & di canne ; Et Ouidio nel luogo detto di sopra così fa mentione , quando esso fiume di se stesso dice doppò l'esser stato abbattuto da Hercole .
+Io mi trouai scornato,e senza moglie
+Con doppio dishonor,con doppio affanno
+Ben c'hoggi con corone, e canne, e foglie .
+Di salce ascondo à la mia fronte il danno.
+Tiene sotto all'vn de bracci doi vrne , da vna delle quali esce acqua , & dall'altra no.
+Acheolo è fiume famosissimo della Grecia , & nasce nel monte Pindo,& diuidendo la Etolia dall'Arcadia , finalmente descende con il mare in Malia .
+Secondo che fauolosamente dicono i Poeti : Oneo promise Deianira sua figliuola, bellissima giouane , per moglie ad Hercole con questa conditione , che riducesse le acque del fiume Acheolo in vn sol letto, perche scorrendo con due allagaua tutti li frutti , & le biade di quei paesi , & faceua grandissimi danni , però dicesi , che Hercole dopo molte fatiche , combattendo con Acheolo cangiato in toro , lo vinse con rompergli , & torgli vn corno dal capo , che fù quando raccolse l'acque in vn sol luogo , & lo rese fertile, & abondante, & perciò si rappresenta con vn'vrna , che getti acqua, e l'altra nò.
+[ЗАГОЛОВОК: ACI.]
+[ИНИЦИАЛ: E] Descritto da Ouidio nel trigesimo libro delle Metarmorfosi , & Galatea di lui innamorata così dice :
+Vn bel giouane in tanto in mezo al fonte
+Io veggio insino al petto apparir fuore .
+Che ornata di doi corna hauea la fronte
+Di maestà ripiena, e di splendore
+Io riconobbi alle fattezze conte
+Aci, se non che molto era maggiore
+Lucide hauea le carni,e cristalline,
+E di corona,e canne ornato il crine,
+Aci è fiume della Sicilia procedente dal monte Etna .
+[ЗАГОЛОВОК: ACHERONTE.]
+*Fiume infernale.*
+[ИНИЦИАЛ: Q]VESTO fiume sarà di color tanè stinto , che getta per l'vrna acqua,e rena percioche Virgilio nel lib.1o.dell'Eneide così dice :
+Hinc via Tartarei,quęę fert Acherontis ad vndas Aestuat,atque omnēē Cocyti eructat arenã.
+Turbidus hic cæno,vastaque voragine gurges.
+[ЗАГОЛОВОК: COCITO.]
+*Fiume infernale.*
+[ИНИЦИАЛ: S]ARA questo fiume di color tutto nero , & che per l'vrna getti acqua del medemo colore,perche Virgilio nel sesto libro dell'Eneide , così dice :
+Cocytusque sinu labens circumfluit atro.
+
+Колонтитул: DI CESARE RIPA. 161
+Кустод: STI
+Сигнатура: 
+Маргиналии:
+
+## Скан 0183 · с. 162
+
+[ЗАГОЛОВОК: STIGE.]
+*Palude Infernale.*
+[ИНИЦИАЛ: V]NA Ninfa di color tanè oscuro , & che versi con l'vrna acqua del medesimo colore .
+[ЗАГОЛОВОК: FLEGETONTE.]
+*Fiume Infernale.*
+[ИНИЦИАЛ: D]I color tutto rosso, con l'vrna in spalla del medesimo colore, dalla quale versi acqua , & rossa, & bollente, per seguitare la sentenza di Dante al 14.canto dell'Inferno quando dice:
+In tutte le tue qeustion certo mi piaci
+Rispose,ma il bollor de l'acqua rossa
+Douea ben soluer l'vna che tu taci.
+[ЗАГОЛОВОК: INDO.]
+[ИНИЦИАЛ: D]I aspetto graue , & giouiale, con vna corona di fiori , & frutti in capo , appoggiato da vna parte all'vrna , & dall'altra vi sarà vn camelo.
+Indo è fiume grandissimo , il quale riceue sessanta fiumi , & più di cento torrenti .
+Si corona di fiori , & di frutti , in segno, che il paese rigato da lui è fertile oltre modo,& i suoi habitanti viuono politicamente.
+Gli si mette à canto il camelo,come animale molto proprio del paese, oue è questo fiume .
+[ЗАГОЛОВОК: GANGE.]
+[ИНИЦИАЛ: D]I aspetto rigido , con corona di palma in testa , s'appoggia da vna parte , come gl'altri fiumi , all'vrna , & dall'altra parte vi sarà vn rinoceronte .
+Gange gran fiume de gl'Indi nasce dal fonte del Paradiso.
+Si rappresenta d'aspetto rigido , essendo li suoi habitanti poco dediti alla cultura, e per consequenza poco ciuili.
+Gli si pone à canto l'animale sopradetto, come animale del paese , oue passa questo fiume .
+[ЗАГОЛОВОК: GANGE]
+*Fiume come dipinto nell'esequie di Michel'Angelo Buonaroti in Firenze .*
+[ИНИЦИАЛ: V]N vecchio inghirlandato di gemme,come l'altri fiumi, con l'vrna , & à canto l'vcel grifone .
+[ЗАГОЛОВОК: NIGER.]
+[ИНИЦИАЛ: H]VOMO moro, con corona di raggi intorno alla testa , s'appoggi all'vrna,& da vna parte vi è vn leone .
+A questo fiume per esser sotto la zona torrida 'gli si fanno i raggi in capo,di carnagione mora,come si vede l'habitanti doue egli passa, che sono mori,e quasi brugiati dal Sole .
+Gli si mette à canto il leone, come animale principalissimo del paese oue riga questo fiume .
+[ЗАГОЛОВОК: FILOSOFIA.]
+[ИНИЦИАЛ: D]ONNA giouane, e bella in atto d'hauer gran pensieri, ricoperta con vn vestimento stracciato in diuerse parti, talche apparisca la
+
+Колонтитул: 162 ICONOLOGIA
+Кустод: carne
+Сигнатура: 
+Маргиналии:
+
+## Скан 0184 · с. 163
+
+carne ignuda in molti luoghi, conforme al verso del Petrarca vsurpato dalla plebe , che dice :
+Pouera, e nuda vai Filosofia.
+Mostri salire vna montagna molto malageuole,e sassosa,tenendo vn libro serrato sotto il braccio .
+Filosofia, secondo Platone , è vna notitia di tutte le cose diuine , naturali, & humane .
+E la Filosofia detta madre, & figliuola della virtù , madre perche dalla cognitione del bene nasce l'amore d'esso, & il desiderio d'operare in somma perfettione cose lodeuoli,& virtuose ; figlia,perche se non è vn'animo ben composto con molte attioni lodeuoli, fondato nella virtù,non suole stimare la Filosofia , ne tenere in conto alcuno i suoi seguaci : ma perche pare molto ordinario,e naturale,che la virtù, habito della volontà generi la scienza,che è habito dell'intelletto, però ( essendo massime da Cicerone,& da Macrobio dipinta la virtù d'età senile, che caminando per via sassosa spera alla fine ritrouarsi in luogo di riposo ) si dourà fare la Filosofia giouane, come figlia, fuor di strada,& per luogo dishabitato , per mostrare participatione del genio,& dell'inclinatione materna .
+Si da poi ad intendere per la giouentù,la curiosità de'suoi quesiti,e che è non men grata à gl'intelletti de'virtuosi , che sia à gl'occhi de gl'effeminati vna faccia molle,& lasciua, mostra ancora ,che se bene alletta molti l'età bella, e fresca si fa nondimeno tirare indietro la difficultà della via , & la pouertà mendica de'vestimenti.
+Sta pensosa perche è solitaria,solitaria per cercare se stessa nella quiete fuggendo li trauagli che trouaua nelle conuersationi mondane .
+E mal vestita perche vn'huomo , che fuor de'luoghi habitati attende à se stesso,poca cura tiene de gl'adornamenti del corpo.
+E anche mal vestita forse perche non auanza tanto à buffoni nelle corti de'Prencipi , che se ne possano vestire i Filosofi,& virtuosi, talche si può credere,che da quel tempo in qua,che il Petrarcha l'vdì chiamare pouera e nuda,ancora non habbia cangiato cognitione,ò risarcite le vestimenta.
+Il libro serrato,che tiene sotto il braccio ci mostra i secreti della natura,che difficilmente si sanno , & le loro cagioni , che difficilmente si possano capire,se col pensiero non si sta considerando , & contemplando minutamente la natura de'corpi sodi,& liquidi,semplici,& composti, oscuri, & opachi,rari,& spessi,le qualità essentiali, & accidentali di tutte le cose , delle piante,delle pietre,dell'herbe,de'fiumi,delle minere,de gl'effetti meteorologici , della dispositione de'Cieli, della forma del moto, dell'oppositioni,& influenze,dell'anima humana,e suo principio, della sua essenza, & delle sue parti, della sua nobiltà, & felicità delle sue operationi, & sentimenti,con altre moltissime cose non dissimili da queste medesime.
+In diuerse altre maniere si potrebbe rappresentare la Filosofia , à noi basti hauerla fatta così per la facilità di chi legge , & per non hauere à confonderci con gli enigmi fuori della chiarezza di quelle cose , le quali
+
+Колонтитул: DI CESARE RIPA. 163
+Кустод: portano
+Сигнатура: 
+Маргиналии:
+
+## Скан 0185 · с. 164
+
+portano confusione ancora à gli scritti de migliori Auttori, & però molte con facilità se ne possano, & fabricare , & dichiarare, comprendendosi da questa sola, che la filosofia è scienza nobilissima, che con l'intelletto tuttauia si perfettiona nell'huomo,che è poco stimata dal volgo,& sprezzata da signori ignoranti, s'esercita in cose difficili godendo al fine tranquillità di mente, & quiete dell'intelletto.
+[ЗАГОЛОВОК: FILOSOFIA.]
+*Come depinta da Boetio in consolatione philosophica .*
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: D]ONNA in piedi , che mostra nel sembiante d'esser degna di grand'honore , & riuerenza .
+Con gli occhi riuolti al Cielo con più nobile, & più acuta potenza viua , che non hà il comun corso de gli huomini .
+
+Колонтитул: 164 ICONOLOGIA
+Кустод: Il co
+Сигнатура: 
+Маргиналии:
+
+## Скан 0186 · с. 165
+
+Il color della carnagione è di vago , & sopranaturale colore .
+Le sue veste sono di sottilissimo filo , composte con mirabile artifitio, & di color lustro , nondimeno alquanto caliginoso, e fosco, & squarciate in alcuni luochi .
+Nell'estrema parte di detto vestimento vi è vn P greco , & nella parte superiore vi è vn T & tra l'vna, e l'altra lettera vi sono certi gradi à modo di scala designati, per i quali dalla più bassa , & inferiore lettera si ascende alla soprana .
+Con la destra mano tiene alcuni libri, & nella sinistra hauerà vn Scettro Regale .
+[ЗАГОЛОВОК: FLAGELLO DI DIO.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: H]VOMO vestito di color rosso, nella mano destra tenga vna sferza, & nella sinistra vn fulmine, essendo l'aria torbida , & il terreno
+
+Колонтитул: DI CESARE RIPA. 165
+Кустод: doue
+Сигнатура: L
+Маргиналии:
+
+## Скан 0187 · с. 166
+
+doue stà pieno di locuste,si prende il sesso per lo vigore,& per la possanza sopra i colpeuoli,& scelerati.
+Il color rosso,significa ira,& vendetta,la sferza è la pena à gli huomini più degni di perdono , per corregerli, & rimenarli nella bona via , secondo il detto . *Quos amo, arguo, & castigo .*
+Il fulmine è segno del castigo di coloro,che ostinatamente perseuerano nel peccato, credendosi alla fine della vita ageuolmente impetrare da Dio perdono .
+Significa etiandio il fulmine la caduta d'alcuni,che per vie torte in ingiuste sono ad altissimi gradi della gloria peruenuti, oue quando più superbamente siedono non altrimente,che folgore precipitosi,cascano nelle miserie , & calamità .
+Per le locuste,che riempono l'aere , & la terra s'intende l'vniuersal castigo , che Iddio manda alle volte sopra i popoli , accendandosi l'historia de flagelli d'Eitto , mandati per cagione della pertinacia , & ostinata voglia di Faraone .
+[ЗАГОЛОВОК: FORTEZZA.]
+[ИНИЦИАЛ: D]ONNA armata , & vestita di color lionato, il qual color significa fortezza,per esser somigliante à quello del leone,s'appoggia questa donna,ad vna colonna,perche delle parti dell'edifitio,questa è la più forte,che l'altre sostiene; à i piedi di essa figura,vi giacerà vn leone,animale da gliEgittij adoperato in questo proposito,come si legge in molti scritti.
+[ЗАГОЛОВОК: FORTEZZA.]
+[ИНИЦИАЛ: D]ONNA armata,& vestita di lionato,& se si deue osseruare, la fisonomia,hauerà il corpo largo,la statura dritta,l'ossa grandi, il petto carnoso, il color della faccia fosco, i capelli ricci, & duri, l'occhio lucido, non molto aperto;nella destro mano terrà vn'asta,con vn ramo di rouere & nel braccio sinistro vno scudo,in mezo del quale vi sia dipinto vn leone che s'azzuffi con vn cignale .
+L'essercitarsi intorno alle cose difficili, conuiene à tutte le virtù particolari,nondimeno la Fortezza principalmente ha questo riguardo, e tutto il suo intento è di sopportar ogni auuenimento con animo inuitto, per amor della virtù . Si fa donna,non per dichiarare , che à costumi feminili debba auuicinarsi l'huomo forte:ma per accommodare la figura al modo di parlare,ouero perche essendo ogni virtù specie del vero,bello, & appetibile,il quale si gode con l'intelletto,& attribuendosi volgarmente il bello alle donne,si potrà quello con queste conuenientemente rappresentare ò più tosto,perche come le donne,priuandosi di quei piaceri,à quali le hà fatte piegheuoli la natura,s'acquistano,e conseruano la fama di vn'honor singolare,così l'huomo forte,co'rischi del proprio corpo, in pericoli della istessa vita,con animo acceso di virtù, fa di se nascere opinione, e fama di grande stima,non deue però ad ogni pericolo della vita esporsi,perche cõō intentione di fortezza,si può facilmente incorrere nel vitio di temerario, d'arrogante,di mente catto,& d'inimico di natura,andando à pericolo di strugger se stesso,nobil fattura della mano diDio,per cosa non equiualẽte
+
+Колонтитул: 166 ICONOLOGIA
+Кустод: alla
+Сигнатура: 
+Маргиналии:
+
+## Скан 0188 · с. 167
+
+[ЗАГОЛОВОК: FORTEZZA.]
+[ГРАВЮРА: без подписи]
+alla vita donatagli da lui.Però si dice che la fortezza,e mediocrità determinata,con vera raggione . Circa la temenza,& confidenza de cose graui,& terribili in sostenerle,come , & quando conuiene , à fine di non fare cosa brutta,& per far cosa bellissima;per amor dell'honesto, sono i suoi eccessi quelli che la fà troppo audace, come la diceuamo pur hora , & la temidità la quale,per mancamento di vere ragioni,non si cura del male imminente,per sfuggire quello, che falsamente crede che le stia sopra;& come non si può dir forte,chi ad ogni pericolo indefferentemente hà desiderio,& volõtà d'applicarsi,cõō pericolo cosi ne anco questo,che tutti li fugge per timore della vita corporale,per mostrare che l'huomo forte,sà dominarealle passioni dell'animo,come anco vincere,& superare gli oppressori del corpo , quando n'habbia giusta cagione , & essendo ambi spettanti
+
+Колонтитул: DI CESARE RIPA. 167
+Кустод: tanti
+Сигнатура: L 2
+Маргиналии:
+
+## Скан 0189 · с. 168
+
+tanti alla felicità della vita politica. Si fà donna armata col ramo di rouere in mano,perche l'armatura mostra la fortezza del corpo, & la rouere quella dell'animo,per resister quella alle spade, & altre armi materiali,& sode;questa al soffiar de'venti aerei,& spirituali,che sono i vitij, & difetti, che ci stimolano à declinar dalla virtù, e se ben molti altri alberi potrebbono significare questo medesimo,facendo ancor'essi resistenza grandissima alla forza de'temporali, nondimeno si pone questo come più noto , & adoprato da Poeti in tal proposito,forse anche per esser legno, che resta grandemente alla forza dell'acqua,serue per edifitij,& resiste à pesi graui per lungo tempo,& maggiormente perche da questo albero,da'Latini detto robur,chiamamo gl'huomini forti,e robusti.
+Il color della veste simile alla pelle del leone, mostra,che deue portarsi nell'imprese l'homo,che da questa virtù vuol che l'honor suo deriui,come il leone,il quale si manifesta nell'apparenza di color lionato, & è animale che da se stesso à cose grādi s'espone, e le vili con animo sdegnoso aborrisce , anzi si sdegnaria porsi ad esercitar le sue forze con chi sia apparentenente inferiore , e così può andare à pericolo di perder il nome di forte l'huomo che con stratij di donne, di fanciulli, d'homini infermi,ò effeminati vuol mostrarsi poderoso del corpo,nè l'animo è lodeuole , il quale à così vili pēsieri s'impiega;onde vien da molti ripreso Virgilio,che facesse à Enea finto per homo forte venir pēsiero d'amazzar Helena donna imbelle , à cui la speranza delviuere venia nodrita dalle lagrime,che n'hauea in abondanza,& non dalla spada che forse non hauea mai tocca.Forti si dicono Sãsone,e Dauid Rè nelle sacre lettere, forte si dice Hercole nelle fauole de'Poeti,& molt'altri in diuersi luoghi,c'han cōbattuto, & vinti i leoni.
+L'asta significa,che non solo si deue oprar forza in ribattere i danni,che ponno venire da altri,come si mostra con l'armatura di dosso,e col scudo, ma anco reprimendo la superbia,&arroganza altrui con le proprie forze .
+L'asta nota maggioranza,e signoria,la quale vien facilmente acquistata per mezo della Fortezza . I segni di fisonomia son tratti da Aristotile per non mancar di diligenza in qnel che si può fare à proposito .
+Il leone azzuffato con il cignale,dice Pierio Valeriano lib. 2. che significa la fortezza dell'animo,e quella delcorpo accompagnate,percioche il leone va con modo,e con misura nelle attioni,& il cignale senza altrimenti pensare si fa innanzi precipitosamente si fa innanzi ad ogni impresa.
+[ЗАГОЛОВОК: Fortezza.]
+[ИНИЦИАЛ: D]Onna che con vna mazza simile à quella d'Hercole suffoghi vn gran leone,& a'piedi vi sia la faretra con le faette,& arco. questa figura è cauata da vna bellissima medaglia,vedi Pierio nel lib.1.
+[ЗАГОЛОВОК: Fortezza d'animo , & di corpo .]
+[ИНИЦИАЛ: D]Onna armata di corazza,elmo,spada,e lancia,nel braccio sinistro,tenendo vno scudo con vna testa di leone dipintaui,sopra alla qual stà vna mazza,per questo s'intende la fortezza del corpo,& per il capo di leone,la generosità dell'animo, e si vede così in vna medaglia molto antica .
+
+Колонтитул: 168 ICONOLOGIA
+Кустод: Fortezza
 Сигнатура: 
 Маргиналии:

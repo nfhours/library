@@ -12,3 +12,6 @@
 | 0158 | 137 | tartarco | tartareo | перепутанная буква |
 | 0161 | 140 | trattaio | trattato | перепутанная буква |
 | 0161 | 140 | done | doue | перепутанная буква |
+| 0171 | 150 | oon | con | перепутанная буква |
+| 0183 | 162 | qeustion | question | перестановка букв |
+| 0189 | 168 | apparentenente | apparentemente | перепутанная буква |

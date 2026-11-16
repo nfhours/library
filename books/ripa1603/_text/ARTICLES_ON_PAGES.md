@@ -117,8 +117,28 @@
 | 0162 | Eternità.; Eternità. |  |  | r184 | нет рамки |
 | 0163 | EVENTO BVONO.; FALSITA D'AMORE, OVERO INGANNO.; FAMA. |  |  | r186, r187, r188 | нет рамки |
 | 0164 | FAMA BVONA. |  |  | r189 | нет рамки |
-| 0165 | .; Fame. |  | 0165_1 | — | заголовок перед гравюрой |
+| 0165 | Fame. |  | 0165_1 | r192 | заголовки страницы (неоднозначно) |
 | 0166 | Fatica.; Fatica. |  |  | r193 | нет рамки |
 | 0167 | Fato.; Fato. |  |  | r195 | нет рамки |
 | 0168 | Fauore.; Fauore. |  |  | r196 | нет рамки |
 | 0169 | FECONDITA.; FEDE NELLA MEDAGLIA di Plautilla. |  |  | r197 | нет рамки |
+| 0170 | FEDE CHRISTIANA.; Fede Christiana.; FEDE CATTOLICA. |  |  | r199, r200 | нет рамки |
+| 0171 | Fede Cattolica . |  |  | r200 | нет рамки |
+| 0172 |  |  | 0172_1 | — | заголовки страницы (неоднозначно) |
+| 0173 | FEDE NELL' AMICITIA.; FEDE MARITALE.; FEDELTA. |  |  | r201, r202, r203 | нет рамки |
+| 0174 |  |  | 0174_1 | — | заголовки страницы (неоднозначно) |
+| 0175 | Fedeltà .; FELICITA NELLA MEDAGLIA DI; Giulia Mammea con queste lettere .; FELICITAS PVBLICA.; FELICITA ETERNA. |  |  | r203, r205 | нет рамки |
+| 0176 | FELICITA BREVE. |  | 0176_1 | r206 | заголовки страницы (неоднозначно) |
+| 0177 | FERMEZZA.; FERMEZZA ET GRAVITA; dell' Oratione .; FERMEZZA D' AMORE.; FIVMI.; TEVERE. |  |  | r207, r209, r210, r211 | нет рамки |
+| 0178 |  |  | 0178_1 | — | заголовки страницы (неоднозначно) |
+| 0179 | Teuere, come dipinto da Virgilio nel settimo dell' Eneide.; ARNO.; PO. |  |  | r212, r213 | нет рамки |
+| 0180 | ADIGE. |  |  | r214 | нет рамки |
+| 0181 | NILO.; TIGRE.; DANVBIO. |  |  | r215, r216, r217 | нет рамки |
+| 0182 | ACHEOLO.; ACI.; ACHERONTE.; COCITO. |  |  | r218, r219 | нет рамки |
+| 0183 | STIGE.; FLEGETONTE.; INDO.; GANGE.; GANGE; NIGER.; FILOSOFIA. |  |  | r224, r225, r226, r227 | нет рамки |
+| 0184 |  |  |  | — | нет рамки |
+| 0185 | FILOSOFIA. |  | 0185_1 | r227 | заголовок перед гравюрой |
+| 0186 | FLAGELLO DI DIO. |  | 0186_1 | r228 | заголовок перед гравюрой |
+| 0187 | FORTEZZA.; FORTEZZA. |  |  | r229 | нет рамки |
+| 0188 | FORTEZZA. |  | 0188_1 | r229 | заголовок перед гравюрой |
+| 0189 | Fortezza.; Fortezza d'animo , & di corpo . |  |  | r229, r230 | нет рамки |
