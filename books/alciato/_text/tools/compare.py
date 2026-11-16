@@ -31,7 +31,7 @@ import sys
 import unicodedata
 
 # слово: буквы любого алфавита, цифры, комбинирующие знаки (тильды, ударения); апостроф внутри
-WORD_PAT = r"[^\W_][\w\u0300-\u036f]*(?:'[\w\u0300-\u036f]+)?"
+WORD_PAT = r"\[\?\]|[^\W_][\w\u0300-\u036f]*(?:'[\w\u0300-\u036f]+)?"
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PAGES_DIR = os.path.join(BASE, "pages")

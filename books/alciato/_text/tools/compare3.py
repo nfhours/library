@@ -29,7 +29,7 @@ MULTI = ("Нумерация", "Рукописно", "Штамп")
 
 
 def norm(w):
-    return C.normalize_word(w)
+    return "[?]" if w == "[?]" else C.normalize_word(w)  # [?] — отдельный токен: «слово» против «[?]» = расхождение
 
 
 def parse(path):
