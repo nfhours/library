@@ -382,3 +382,23 @@
 | 0427 | POESIA. |  | 0427_1 | r497 | заголовок перед гравюрой |
 | 0428 | Poesia.; Poesia. |  |  | r497 | нет рамки |
 | 0429 | Poesia.; POEMA LIRICO.; POEMA EROICO.; POEMA PASTORALE.; POEMA SATIRICO.; Pouertà. |  |  | r497, r498, r499, r500, r501, r502 | нет рамки |
+| 0430 | POVERTA'; POVERTA' DEL DONI.; POVERTA' |  |  | r502 | нет рамки |
+| 0431 | POVERTA' DI SPIRITO.; PERDONO. | POVERTA' | 0431_1 | r502 | бегущий заголовок |
+| 0432 | POLITICA.; PREGHIERE.; PREGHIERA A DIO.; PREMIO. |  |  | r506, r507, r508, r509 | нет рамки |
+| 0433 | PREVIDENZA. | PREMIO. | 0433_1 | r509 | бегущий заголовок |
+| 0434 | PRODIGALITA'. |  | 0434_1 | r511 | заголовок перед гравюрой |
+| 0435 | PROMISSIONE.; PRONTEZZA.; PROVIDENZA DELL' ANNONA |  |  | r512, r513, r514 | нет рамки |
+| 0436 | PROVIDENZA; PROVIDENZA |  |  | r515 | нет рамки |
+| 0437 | PRVDENZA. |  | 0437_1 | r516 | заголовок перед гравюрой |
+| 0438 |  |  |  | — | нет рамки |
+| 0439 | Prudenza. |  |  | r516 | нет рамки |
+| 0440 | PROSPETTIVA.; Prospettiua. |  |  | r518 | нет рамки |
+| 0441 | PVDICITIA.; PVDICITIA.; Pudicitia. |  |  | r519 | нет рамки |
+| 0442 | PVERITIA.; PVNITIONE.; Punitione.; PVRITA'; Purità.; PVRITA, ET SINCERITA' D'ANIMO. |  |  | r520, r521, r522, r523 | нет рамки |
+| 0443 | QVERELA A DIO. |  | 0443_1 | r524 | заголовок перед гравюрой |
+| 0444 | Querela.; QVIETE.; Quiete. |  |  | r525, r526 | нет рамки |
+| 0445 | RABBIA.; RAGIONE.; RAGIONE. |  |  | r527, r528 | нет рамки |
+| 0446 | RAGIONE. |  | 0446_1 | r528 | заголовок перед гравюрой |
+| 0447 | Ragione.; Ragione.; RAGIONE DI STATO. |  |  | r528, r529 | нет рамки |
+| 0448 | RAGIONE DI STATO. |  | 0448_1 | r529 | заголовок перед гравюрой |
+| 0449 | RAMMARICO DEL BENE ALTRVI.; Rammarico.; RAPINA. |  |  | r530, r531 | нет рамки |

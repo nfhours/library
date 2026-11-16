@@ -8826,3 +8826,412 @@ Rappresentasi la pouertà,in forma di Zingara,per non si trouare la più meschin
 Кустод: [?]
 Сигнатура: 
 Маргиналии:
+
+## Скан 0430 · с. 409
+
+[ЗАГОЛОВОК: POVERTA']
+[ИНИЦИАЛ: D]ONNA ignuda, & macilenta, à sedere sopra vn'aspra rupe, con le mani, & i piedi legati, tenti di sciorre le legaccie co'denti, essendo nella spalla dritta punta da vn scarauaggio, & habbia i capelli intricati.
+Quì si dipinge, non quella pouertà della quale si ragiona presso ad Aristofane nel Pluto posta nell'hauere quanto è bastante alla necessità del vitto senza soprabondanza, ma la pouertà di quelli, che non hanno da viuere: Però si dipinge ignuda, & macilenta, con capelli intricati, & con le mani, & piedi legati, sopra lo scoglio, per essere il Pouero priuo del maneggio di molti negotij; che lo renderebbono famoso. Però disse S. Gregorio Nazianzeno la pouertà essere vn viaggio, che molti viaggi impedisce, & molte attioni; & procura sciogliersi i nodi co'denti, perche come si dice triuialmente, la pouertà fà l'huomo industrioso, & sagace; onde disse Teocrito à Diofante: la pouertà sola esser quella, che suscita l'arti, perche è stimolo significato in quell'animaletto, che noi chiamamo scarauaggio.
+*Pouertà.*
+[ИНИЦИАЛ: D]Onna pallida, & furiosa, vestita di nero, come dice Aristofane nella Comedia chiamata Pluto.
+La pallidezza, si pone, perche doue è pouertà, è carestia delle cose da viuere, & oue queste mancano, fanno perdere il colore, & lo spirito.
+Si fà furiosa, ouero in atteggiamento di pazzia, perche tutte le parole, & attioni d'vn pouero, sono riputate pazzia, ne più si dà fede à lui, che ad vno insensato.
+Il color nero, perche è nuntio di morte, & di cose spiaceuoli, ci dà ad intendere, che la pouertà, è cosa fastidiosa, difficile, luttuosa, & miserabile.
+[ЗАГОЛОВОК: POVERTA' DEL DONI.]
+[ИНИЦИАЛ: D]Onnna distesa sopra rami d'Alberi secchi, con alcuni pochi stracci d'intorno.
+Li rami secchi, mostrano l'essere d'vno, che viue al mondo in pouertà, che non è stimato buono, non potendo far frutto da sè medesimo, se non per ardore, cioè per adoprarsi in tutti i bisogni à capriccio dell' industria altrui. Però à tutti i pericoli della Republica, à tutti i trauagli del Regno, à tutti gli aggrauij della Città, subito si sottopongono i poueri, con grandissimi pericoli della vita, & però Virgilio disse nel pri. della Georgica. *Duris vrgens in rebus egestas.*
+[ЗАГОЛОВОК: POVERTA']
+*In vno c'habbia bello ingegno.*
+[ИНИЦИАЛ: D]ONNA mal vestita, che tenga la mano destra legata ad vn gran sasso posato in terra, & la sinistra alzata, con vn paro d'ali aperte, attaccate fra la mano, & il braccio.
+
+Колонтитул: DI CESARE RIPA. 409
+Кустод: Pouertà
+Сигнатура: Cc
+Маргиналии:
+
+## Скан 0431 · с. 410
+
+[ГРАВЮРА: без подписи]
+Pouertà, è mancamento delle cose necessarie all' huomo, per sostegno della vita, & acquisto della virtù.
+L'ali, nella mano sinistra, significano il desiderio d'alcuni poueri ingegnosi, i quali aspirano alle difficultà della virtù, ma oppressi dalle proprie necessità, sono sforzati à starsi nell'abiettioni, & nelle viltà della plebe, & si attribuisce à Greci la lode dell'inuentione di questa figura.
+[ЗАГОЛОВОК: POVERTA' DI SPIRITO.]
+Vedi alla prima Beatitudine.
+[ЗАГОЛОВОК: PERDONO.]
+[ИНИЦИАЛ: H]VOMO, che hauendo'l petto ferito, e'l volto, & gl'occhi verso il cielo, & nella destra mano vna spada nuda con la punta riuolta in terra, mostri di far forza, & in effetto di spezzarla.
+
+Колонтитул: 410 ICONOLOGIA / POVERTA'
+Кустод: Il
+Сигнатура: 
+Маргиналии:
+
+## Скан 0432 · с. 411
+
+Il petto ferito, dimostra l'offese, le quali si presuppongono dal perdono.
+Il spezzare della spada, significa, che il perdono si depone, & la volontà, & la commodità di fare ogni vendetta.
+Il viso riuolto al cielo, denota il riguardo, che si hà nel perdonare à Dio nostro Signore, il quale ci dice *Dimittite, & dimittetur vobis; & altroue, mihi vindictam, & ego retribuam.*
+[ЗАГОЛОВОК: POLITICA.]
+[ИНИЦИАЛ: D]ONNA, che con la destra mano tenghi vn paro di bilancie.
+Perche la politica aggiusta in modo gli stati della Republica, che l'vno per l'altro si solleua, & si sostenta sopra la terra, con quella felicità della quale è capace fra q̃ste miserie l'infirmità, & debole natura nostra.
+[ЗАГОЛОВОК: PREGHIERE.]
+[ИНИЦИАЛ: D]VE Vecchie grinze, meste, zoppe, guercie, maninconiche, & vestite di torchino, così le dipinge Homero; & zoppe si dipingono forse, perche quando si vuol pregare, si piegano le ginocchia, ouero perche con animo dubbioso si và a pregare, non hauendo certezza alcuna d'ottenere quello che si prega.
+Hanno poi la faccia mesta, perche le preghiere, sono effetti, che notano indigenza, & mancamento di cose, che non si hanno, ò timore di non perderle, possèdendole volontieri; & l'indigenza se bene è cagione di perfettione nelle Città, come dice Aristotile nel quinto libro dell'Etica; è nondimeno indicio di mancanza, & genera mestitia, & macilenza ne gli huomini particolari, come il medesimo dice nel primo della Fisica, & per tal cagione, macilenta, & mesta si deue fare la presente figura.
+Sarà ancora guercia, per notare con la diuersità dello sguardo di due occhi, la diuersità dell'intendere di due intelletti, per essere ordinariamente di contraria opinione, quello che prega altrui da quello che è pregato.
+Il vestimento del color torchino, dimostra le preghiere, douer essere del color del Cielo, cioè non mascherate, & allisciate, non con finte ragioni abbellite, ma pure, chiare, & reali; accioche si possa ottenere quanto l'huomo vuole, & desidera.
+[ЗАГОЛОВОК: PREGHIERA A DIO.]
+[ИНИЦИАЛ: D]ONNA in ginocchioni, con le mani giunte, con la testa alta verso il cielo, dalla bocca gli esca vna fiamma di fuoco.
+Questa figura, è molto all'Inuocatione, & Oratione somigliante, hauendo il medesimo oggetto, & similissimo fine.
+Le ginocchia in terra, & le mani giunte insieme, mostrano l'effetto esteriore dell'huomo; la testa riuolta al cielo, & la fiamma, l'affetto interiore della mente, & del cuore.
+[ЗАГОЛОВОК: PREMIO.]
+[ИНИЦИАЛ: H]VOMO vestito di bianco, cinto d'vn velo d'oro, tenendo nella destra mano vna palma con vn ramo di quercia, & nella sinistra corone, & ghirlande.
+
+Колонтитул: DI CESARE RIPA. 411
+Кустод: Due
+Сигнатура: Cc 4
+Маргиналии:
+
+## Скан 0433 · с. 412
+
+[ГРАВЮРА: без подписи]
+Due sono le parti del premio principali, cioè l'honore, & l'vtile; però si dipinge in mano à questa figura il ramo della quercia, & della palma, significando quella l'vtile, & questa l'honore.
+Il vestimento bianco cinto col velo dell'oro, significa la verità accompagnata dalla virtù, perche non è premio quel bene, che si dà alle persone senza merito.
+[ЗАГОЛОВОК: PREVIDENZA.]
+[ИНИЦИАЛ: D]ONNA con due teste, sarà vestita di giallo, nella destra mano terrà vno Schiratto, & nella sinistra vn Compasso.
+Il vestimento giallo, significa sapienza, senza la quale non si può hauere la preuidenza.
+Lo Schiratto, da Plinio nel lib. 8. al cap. 38. è posto per la Preuidenza, dicendo, che tra gli altri doni, che tiene dalla natura, quando si vuol riposare
+
+Колонтитул: 412 ICONOLOGIA / PREMIO.
+Кустод: sare
+Сигнатура: 
+Маргиналии:
+
+## Скан 0434 · с. 413
+
+sare all'aria, hà la coda che gli serue per coprirsi contra l'ardore de' raggi del Sole, & contra l'impeto de venti, & delle pioggie, preuedendo per istinto naturale la mutatione del tempo.
+Le due teste, dimostrano, che per preuedere le cose da venire, gioua assai la cognitione delle cose passate; però si vede che la esperienza, è cagione della prudenza ne gli huomini, & vn'huomo prudente, è facilissimo à preuedere; essendo il Preuedere, & il Prouedere effetti proprij della Prudenza, onde si dice vtile alla vita humana, la cognitione di molte historie, & di casi successi di molti tempi, generando in noi prudenza per giudicare le cose da venire, le quali senza questo fine sarebbono mera curiosità, & perdimento di tempo.
+Il Compasso, mostra, che per preuedere le cose, si deuono misurare le qualità, gli ordini, le dispositioni, i tempi, & tutti gli accidenti col discorso di sauio giuditio, & di discretto pensiero.
+[ЗАГОЛОВОК: PRODIGALITA'.]
+[ГРАВЮРА: без подписи]
+
+Колонтитул: DI CESARE RIPA. 413
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Скан 0435 · с. 414
+
+[ИНИЦИАЛ: D]ONNA con occhi velati, di faccia ridente, tiene con ambi le mani vn Cornucopia, co'l quale sparge oro, & altre cose di grā prezzo.
+Prodighi sono quelli, che donano, & spendono senza guida della ragione le facoltà, & i danari; però hà bendato gl'occhi questa figura, dispensando i beni senza giuditio à chi nō li merita, & lasciando di donare à più degni. Et è brasimeuole non si saper temperare in dar la propria robba, & le proprie ricchezze, che possono esser finestra, & istromento di viuer bene, & beatamente.
+*Prodigalità.*
+[ИНИЦИАЛ: D]Onna lasciua, vestita riccamente, con bella acconciatura di testa piena di gioie, co'crini molli, come la descriue Dante, portando à canto due gran borse di danari, de quali gitti via gran parte; Si vedano ancora due Arpie, che le rubbino i danari nascostamente, per mostrare, che quelli che stanno presso all'huomo prodigo, mentre egli si occupa in gettar via le proprie facultà, gli mostrano buona cera, & gli fanno riuerenza; il che nota la faccia feminile dell'Arpia; ma nell' intentione lo sprezzano, come huomo, che auuilisce sè stesso, assomigliando la loro intentione al resto del corpo di questo mostro, che è brutto, & puzzolente.
+[ЗАГОЛОВОК: PROMISSIONE.]
+[ИНИЦИАЛ: D]ONNA, che stia col braccio, & con la mano dritta stesa, tenendosi la sinistra al petto.
+Il braccio dritto steso, è indicio di promettere alcuna cosa, con la sinistra al petto si mostra di assicurare altrui sopra la fede propria col giuramento, per la conseruatione di sè stesso, la quale dal petto, & dal core dipende principalmente.
+[ЗАГОЛОВОК: PRONTEZZA.]
+[ИНИЦИАЛ: D]ONNA ignuda, & alata, nella mano destra tenga vna fiamma di fuoco, & nella sinistra vno Schirattolo.
+Ignuda si dipinge, per esser libera d'ogni impedimento all'operare.
+Alata, per la prestezza, & velocità, indicij della prontezza.
+Il fuoco nella mano, significa viuacità d'ingegno, che si scuopre nelle operationi di vna natura pronta, & de gli huomini tanto, è più pronto l'vno dell'altro, quanto più partecipa di questo elemento; Et lo Schirattolo si dipinge, perche è animal velocissimo.
+[ЗАГОЛОВОК: PROVIDENZA DELL' ANNONA]
+*nella Medaglia d'Alessandro Seuero.*
+[ИНИЦИАЛ: D]ONNA, che nella mano destra tiene vn mazzo di spighe di grano, & nella sinistra vn Cornucopia, con vn vaso in terra pieno medesimamente di spighe.
+Questa figura è simile à quelle dell' abondanza descritte nel principio dell'opera. Però non occorre, che ci stendiamo lungamente in ragionare; basta sapere che è virtù, che deriua dalla prudenza, & si restringe à particolari termini della prouisione delle cose necessarie al viuere, ò di sè stesso, ò di molti; però si attribuisce questa lode ancora à Dio, come quello,
+
+Колонтитул: 414 ICONOLOGIA
+Кустод: che
+Сигнатура: 
+Маргиналии:
+
+## Скан 0436 · с. 415
+
+che irreprensibilmente prouede à tutte le necessità nostre.
+*Prouidenza.*
+[ИНИЦИАЛ: D]Onna con due teste à somiglianza di Iano, vna testa sarà ghirlandata di spighe di grano, & l'altra di vite con il frutto, in vna mano terrà due chiaui, & nell'altra vn Timone, non potendo essere alcun'huomo prouido senza la cognitione del tempo passato, & del futuro.
+A ragione si dipinge questa figura con le due faccie, le quali dicemmo esser conuenienti alla prouidenza descritta di sopra.
+Le chiaui mostrano, che non basta il prouedere le cose, ma bisogna ancora operare per essere perfetto ne gli atti virtuosi, & le chiaui notano ancora tutte le cose, che sono istrōmenti delle attioni appartenenti alla terra, & che ci aprono li laberinti fabricati sopra alla difficultà del viuere humano.
+Il Timone, ci mostra ancora nel Mare adoprarsi prouidenza in molte occasioni, per acquistarne ricchezze, & fama, & ben spesso ancora solo per saluar la vita; Et la prouidenza regge il Timone di noi stessi, & dà speranza al viuer nostro, il quale quasi naue in alto Mare, è solleuato, & scosso da tutte le bande da venti della fortuna.
+[ЗАГОЛОВОК: PROVIDENZA]
+*Nella Medaglia di Probo.*
+[ИНИЦИАЛ: S]I vede per la prouidenza nella Medaglia di Probo, vna Donna stolata, che nella destra mano tiene vn Scettro, & nella sinistra vn Cornucopia, con vn globo a'piedi, & si mostra la prouidenza particolarmente appartenere à Magistrati.
+[ЗАГОЛОВОК: PROVIDENZA]
+*Nella Medaglia di Massimino.*
+[ИНИЦИАЛ: D]ONNA, che nella destra tiene vn mazzo di spighe di grano, & nella sinistra vn'hasta, che con diuerse cose mostra il medesimo, che si è detto dell'altra.
+*Prouidenza.*
+[ИНИЦИАЛ: E]T nella Medaglia di Tito, si vede vna Donna con vn timone, & con vn globo, come in vna di Floriano col globo, & con vn'hasta.
+*Prouidenza.*
+[ИНИЦИАЛ: V]NA Donna, che alza ambe le braccia verso il cielo, & si riuolge quasi con le mani giunte verso vna stella, con lettere, *Prouidentia Deorum;* la quale è di Elio Pertinace, come racconta l'Erizzo.
+Fra gl'huomini plebei, la prouidenza, perche immediatamête da Dio, il quale è datore di tutti i beni, & conoscitore di tutte le cose, secondo il detto dell'Apostolo, *Omnis sufficientia nostra ex Deo est;* & non ci prouedendo esso delle cose necessarie, poco, ò nulla vale la prouidenza nostra, che è come la volontà de teneri fanciullini trasportata dal desiderio di caminare, che presto cade; se la forza della nutrice non le sostenta.
+*Prouidenza.*
+[ИНИЦИАЛ: S]I vede nella Medaglia di Balbino, vna Donna, che con la sinistra mano
+
+Колонтитул: DI CESARE RIPA. 415
+Кустод: no
+Сигнатура: 
+Маргиналии:
+
+## Скан 0437 · с. 416
+
+no tiene vn Corno di diuitia, & nella destra vna claua, col Mondo a'piedi, con lettere che dicono *Prouidentia Deorum, & S. C.*
+[ЗАГОЛОВОК: PRVDENZA.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: D]ONNA, con due faccie simile à Giano, & che si specchi, tenendo vn Serpe auolto ad vn braccio.
+Le due faccie significano, che la prudenza è vna cognitione vera, & certa, la quale ordina ciò che si deue fare, & nasce dalla consideratione delle cose passate, & delle future insieme.
+L'eccellenza di questa virtù, è tanto importante, che per essa si rammentano le cose passate, si ordinano le presenti, & si preuedono le future; onde l'huomo, che n'è senza, non sà raquistare quello che hà perduto, ne conseruare quello che possiede, ne cercare quello che aspetta.
+Lo specchiarsi, significa la cognitione di sè medesimo, non potendo alcuno
+
+Колонтитул: 416 ICONOLOGIA
+Кустод: cuno
+Сигнатура: 
+Маргиналии:
+
+## Скан 0438 · с. 417
+
+cuno regolare le sue attioni, se i proprij difetti non conosce.
+Il Serpe quando è combattuto, oppone tutto il corpo alle percosse, armandosi la testa con molti giri, & ci dà ad intendere, che per la virtù, che è quasi il nostro capo, & la nostra perfettione, debbiamo opporre à colpi di fortuna, tutte l'altre nostre cose, quantunque care; & questa è la vera prudenza. Però si dice nella sacra Scrittura: *Estote prudentes sicut Serpentes.*
+*Prudenza.*
+[ИНИЦИАЛ: D]Onna con l'elmo dorato in capo, circondato da vna ghirlanda delle foglie del moro; hauerà due faccie, come s'è detto di sopra, nella destra mano terrà vna frezza, intorno alla quale vi sarà riuolto vn pesce detto Ecneide, ouero Remora, che così è chiamato da Latini, il quale scriue Plinio, che attaccandosi alla Naue, hà forza di fermarla, & perciò è posto per la tardanza; nella sinistra terrà lo specchio, nel quale mirando, contempla se stessa, & à piedi vi sarà vn Ceruo di lunghe corna, & che rumini.
+La Prudenza, secondo Aristotile, è vn'habito attiuo con vera ragione, circa cose possibili, per conseguire il bene, & fuggire il male, per fine della vita felice; & per la vita felice si deue intendere quella, che si aspetta doppo il pellegrinaggio di questa presente, secondo i Theologi, & secondo vna parte di Filosofi, quella che si puol hauere, & partecipare nel tempo dell' vnione dell'anima, col corpo, per li quali ambidoi fini, si può, & si deue adoprare la prudenza, come pare, che mostri Christo Signor nostro, dicendo nel Vangelo *Prudentiores sunt filij huius saeculi filijs lucis.* Ne vien distinta la qualità dell'attione, dalla diuersità de fini, quando sieno insieme ordinati, come è la felicità politica, con la quale ordinatamente viuendo, si può fare scala per salire alla felicità preparataci in cielo; la quale è più, & meno conosciuta, secondo che minori, ò maggiori sono i doni della natura, ò della gratia.
+Per dichiaratione delli visi, basterà quello che si è detto auanti.
+L'Elmo dorato, che tiene in capo, significa l'ingegno dell'huomo prudente, & accorto, armato di saggi consigli, che facilmente si difende da ciò, che fia per fargli male, & tutto risplende nelle belle, & degne opere che fà.
+La ghirlanda delle foglie del moro, che circonda l'elmo, dinota, che l'huomo sauio, & prudente non deue fare le cose inanzi tempo, ma ordinarle con giuditio; & però l'Alciato disse.
+*Non germina giamai il tardo moro*
+*Fin che'l freddo non è mancato, e spento:*
+*Ne'l sauio fà le cose inanzi tempo,*
+*Ma l'ordina con modo, & con decoro.*
+Il Pesce auolto alla frezza, è indicio di questo medesimo; Di più ammonisce, che non si deue esser troppo tardo nell'applicarsi al bene conosciuto; il che ancora esprimendo l'Alciato, non mi par fuor di proposito scriuerlo qui sotto.
+
+Колонтитул: DI CESARE RIPA. 417
+Кустод: Ch'esser
+Сигнатура: 
+Маргиналии:
+
+## Скан 0439 · с. 418
+
+Ch'esser si debba in ogni impresa molto
+Saggio al parlar, & nell'oprar intento,
+Il pesce il mostra à la saetta auolto,
+Che suol Naue fermar nel maggior vento,
+Vola dall'arco, & dalla mano sciolto
+Il dardo, e l'altro troppo pigro, e lento
+Nuoce il tardar, come esser presto, e lieue
+La via di mezzo seguitar si deue.
+Lo specchio, significa la cognitione del prudente non poter regolar le sue attioni, se i proprij suoi diffetti non conosce, & corregge. Et questo intendeua Socrate quando esortaua i suoi Scolari à riguardar se medesimi ogni mattina nello specchio.
+Il Ceruo, nel modo detto, il medesimo mostra che il dardo, & il pesce; perche quanto le lunghe, & disposte gambe l'incitano al corso, tanto lo ritarda il graue peso delle corna, & il pericolo d'impedirsi con esse fra le selue, e gli sterpi. E à proposito ancora, il ruminare di questo animale al discorso che precede la risolutione de buoni pensieri; Ne m'increscerà à questo proposito scriuere il Sonetto del gentile Sign. Giouanni Buondelmonte, che dice così.
+*Rara, e nobil virtù, che sola rendi,*
+*Via più d'ogn'altra l'huom di laude degno,*
+*Et sei del viuer nostro alto sostegno,*
+*Et del tuo ben' oprar sol gloria attendi.*
+*Tù luogo, e tempo accortamente prendi,*
+*E distingui, risolui, e tocchi il segno.*
+*Del passato discorri, & per tuo ingegno,*
+*Scorgi il futuro, & il presente intendi.*
+*Ordinata ragion, tu guida, & duce,*
+*Di chi gouerna sei, di chi consiglia,*
+*Et biasmo, & danno sai schiuar souente.*
+*Prudenza amata, & cara, altera figlia*
+*Di Gioue, vn raggio almen della tua luce*
+*L'ignoranza disgombra à la mia mente.*
+[ЗАГОЛОВОК: Prudenza.]
+[ИНИЦИАЛ: D]Onna, la quale tiene nella sinistra mano vna testa di morto, & nella destra vn Serpe.
+La testa di morto, dimostra, che per acquisto della prudenza, molto gioua guardare il fine, & successo delle cose, & per esser la prudenza in gran parte effetto della Filosofia, la quale, è secondo i migliori Filosofi, vna continua meditatione della morte, l'impara, che il pensare alle nostre miserie, è la strada reale per l'acquisto d'essa.
+Per la dichiaratione del Serpe basterà quanto si è detto.
+
+Колонтитул: 418 ICONOLOGIA
+Кустод: Profe-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0440 · с. 419
+
+Profetia, come dipinta in vna facciate della Libraria di N.S. nel Vaticano .
+[ИНИЦИАЛ: D]Onna con il viso velato, con la destra mano tiene vna spada nuda, & vna tromba, & con la sinistra piglia vna catena,la quale esce,& pende da vn Sole, che gli stà sopra dalla parte sinistra, & sopra alla testa di detta figura vi è vna Colomba .
+[ЗАГОЛОВОК: PROSPETTIVA.]
+[ИНИЦИАЛ: D]ONNA di bellissimo, e gratioso aspetto; hauerà al collo vna collana d'oro, c'habbia per pendente vn'occhio humano , tenga con la destra mano Compasso, Riga, con Squadra, vn Piombo pendente , & vno Specchio, & con la sinistra dui Libri con l'iscrittioni di fuori, ad vno *Ptolomei*, & all'altro *Vitellionis*; nel vestimento da piedi sarà il colore oscuro , & di mano in mano ascendendo sarà più chiaro, tanto che da capo venga ad esser chiarissimo .
+La Prospettiua è detta da Greci ὀπτικὴ dal vedere è nobilissima scientia,come che sopra le Matematiche,& Fisiche dimostrationi fondata,tratta della natura & proprietà della luce, & potenza visiua,della quale nella vita humana,& nell'vniuersità delle cose non hà più eccellente,ne più merauigliosa. E' la prospettiua, come si è detto, diletteuole, & giocondissima ; & perciò si rappresenta di bello, & gratioso aspetto . Hà il pendente con l'occhio,percioche dal vedere hà la sua denominatione, si come quella,che sù le spetie visibili, & attione visoria è tutta posta .
+Per gl'istromenti si dimostra la conditione ,& l'operationi sue .
+Nello Speccio le figure rette si riflettono,& perche questa scienza di luce retta,& di reflessa,seruendosi, fà vedere di belle merauiglie . Per tanto in segno si è posto lo Specchio . Et risiedendo le scienze nelli scritti de famosi huomini, si sono dati à questa figura l'opere di due Autori, che per hauer d'essa ottimamente trattato, sono per lei assai celebrati ; onde per gl'Autori tal scienza si rende molto ben manifesta .
+Li colori nelle vesti variati da oscuro al chiaro,sono per dimostrare,che l'operationi della prospettiua si fanno col chiaro della luce, & con l'oscuro dell'ombra con vna certa graduatione,secondo le distantie , & reflessi .
+Et in vero si deuono render gratie à Dio, che & nel passato secolo , & nel presente non siano mancati, ne manchino huomini in ogni sorte di scienze,& arti celebri, come ne anco in questa professione di prospettiua, fra' quali è stato M. Giouanni Alberti del Borgo , il quale in che stima si douesse hauere , lo dimostrano tante famose opere sue , & in spetie quella di Pittura fatta nella Sala del nuouo Palazzo nel Vaticano,detta la Clementina, in compagnia di M. Cherubino vero suo fratello, non meno per natura, che per pari eccellenza in quest'arte .
+[ЗАГОЛОВОК: Prospettiua.]
+[ИНИЦИАЛ: D]Onna, che con ambe le mani tiene vna prospettiua , & alli piedi hà squadre, compassi,& altri stromenti conueneuoli à quest'arte,& come per rappresentare simil figura non si può allontanare dalle cose istesse,
+
+Колонтитул: DI CESARE RIPA. 419
+Кустод: così
+Сигнатура: 
+Маргиналии:
+
+## Скан 0441 · с. 420
+
+cosi non bisogna molto studio per dichiararle; atteso che lor medesime fanno noto à quanto sopra ciò fà mestiero .
+[ЗАГОЛОВОК: PVDICITIA.]
+[ИНИЦИАЛ: D]ONNA vestita di bianco , nella destra mano tiene vn'Armellino, & hà il volto velato .
+Ogni peccato è macchia dell'anima ; ma propriamente pare , che solo dalle cose veneree si dicano gl'huomini restar macchiati, & immondi, dimandandosi da Latini Polluto solo colui, che in simili piaceri è immerso . Et chi in questo erraua souerchiamente nella vecchia legge, era castigato con la lepra, per la similitudine di contaminatione , & douendo il popolo d'Israel riceuer la legge da Dio ; bisognò, che s'astenesse ancora dalle proprie moglie per tre giorni intieri, secondo il suo detto: Siate mondi voi come io son mondo,& netto ; Per questa cagione si fà il vestito bianco ; & l'Armellino il qual animale è tanto netto , che essendo serrato in qualche luogo dell'immondezza, talche non possa vscir senza imbrattarsi, elegge più tosto morire,che perdere in parte alcuna la sua candidezza .
+Il volto velato,significa modestia,& pudicitia , & cominciò l'vso di velar la testa alla pudicitia,dalla memoria di Penclope,la quale essendo pregata dal Padre à starsene in Lacedemonia per sua sodisfattione, & sentendosi spronare dall'altra banda dell'amor d'Vlisse suo marito à seguitarlo, non hauendo ardire per modestia di manifestare apertamente la volontà, se ne staua tacendo col viso velato ; & per tal memoria, in quel medesimo luogo,il padre drizzò vn Tempio alla Modestia, & alla Pudicitia .
+[ЗАГОЛОВОК: PVDICITIA.]
+[ИНИЦИАЛ: S]I potrà ancora questa Fanciulla far vestita di verde, con vn'Armellino in mano, il quale al collo vn collar d'oro,& Topazij , come disse il Petrarca nel Trionfo della castità .
+Era la loro vittoriosa Insegna
+In campo verde vn candido Armellino .
+Et la veste verde significherà, che la pudicitia hà per fine la speranza delle cose promessole in premio da Christo N.Sig.
+[ЗАГОЛОВОК: Pudicitia.]
+[ИНИЦИАЛ: D]Onna con vn velo trasparente, che le cuopra la faccia, con habito lungo, & graue ; con la sinistra tiene vn lembo del manto, & con la destra stà in atto di pigliare vna Tortorella,che mostri con picciol motto volare verso lei ; sotto al destro piede tiene vna Testudine, per denotare , che le donne pudiche, & caste deuono stare quanto più possono nelle lor case, & andar rare volte ne'luoghi publici,& frequentati .
+La Tortora hauendo persa la sua compagna,secondo che scriuono,tutto il tempo che le resta viue castissima; & però si pone per segno di pudicitia .
+Per lo velo si dà ad intendere quanto la donna casta, & pudica deue sprezzare l'abbellimento della sua persona .
+
+Колонтитул: ICONOLOGIA 420
+Кустод: PVE.
+Сигнатура: 
+Маргиналии:
+
+## Скан 0442 · с. 421
+
+[ЗАГОЛОВОК: PVERITIA.]
+[ИНИЦИАЛ: V]N puttino vestito di varij colori, à cauallo sopra vna canna .
+Pueritia, è la prima età dell'huomo,che comincia dal nascere,& dura fino al decimo anno, nella quale non potendo l'huomo essercitare la ragione per i suoi mezzi, per esser deboli i sensi in questa età, & questo si chiama principio .
+La varietà de colori conuiene alla pueritia, & anco la canna, perche questa, & quelli mostrano varietà, & leggierezza .
+[ЗАГОЛОВОК: PVNITIONE.]
+[ИНИЦИАЛ: D]ONNA risplendente, che stà sopra vna rota in piedi,con vn Timone à canto, nella mano destra tenendo vn braccio da misurare , & nella sinistra vn freno .
+[ЗАГОЛОВОК: Punitione.]
+[ИНИЦИАЛ: D]Onna vestita di bianco, sarà alata, nella destra mano terrà vn passo, ouero legno da misurare, & nella destra vn freno .
+Questa figura si rappresenta per la Dea Nemesi, onde si dice esser figliuola della Giustitia, & si veste di bianco per la ragione detta .
+L'ali dimostrano la velocità, & la prestezza, che si deue adoprare , in punire i maluaggi, & in premiare i meriteuoli .
+Il freno, & il passo da misurare , significa, che ella raffrena le lingue , & l'opre cattiue, misurando il modo, che nè la pena , nè la colpa ecceda souerchiamente , ma che serbino insieme conueniente misura,& proportione ; il che si osserua nell'antica legge, pagando ciascuno in pena l'occhio , per l'occhio, il piede, per lo piede, & la vita, per la vita .
+[ЗАГОЛОВОК: PVRITA']
+Vedi à Innocenza .
+[ЗАГОЛОВОК: Purità.]
+[ИНИЦИАЛ: G]Iouanetta, vestita di bianco, con vna Colomba in mano .
+Giouanetta si dipinge la purità, perche stà ne' cori teneri,doue non hà ancora fatte le radici la malitia ; & il vestimento bianco, è tal dispositione di mente conueneuole , come la bianchezza più d'alcun'altro colore partecipe della luce, della quale nessun'accidente sensibile,è più puro , & perfetto, mostrandosi ancora in questo modo la purità essere più di tutte le altre virtù alla diuinità somigliante .
+La Colomba bianca , ci dimostra la simplicità, & purità della vita, & col colore, ch'essa con ogni delicatezza mantiene, & col costume naturale, che è di godere con singolar purità il suo compagno,senz'altro desiderare, ò volere, per fine de naturali desiderij d'Amore .
+[ЗАГОЛОВОК: PVRITA, ET SINCERITA' D'ANIMO.]
+[ИНИЦИАЛ: D]ONNA vestita di bianco, per la ragione detta in altri luoghi, & che tenghi con bella gratia vn Gallo .
+Il Gallo, come riferisce Pierio Valeriano lib. 24. appresso gli Antichi, significaua la purità, & sincerità dell'animo, onde Pitagora commandò à
+
+Колонтитул: DI CESARE RIPA. 421
+Кустод: suoi
+Сигнатура: Dd
+Маргиналии:
+
+## Скан 0443 · с. 422
+
+suoi Scolari, che douessero nutrire il Gallo; cioè la purità, & sincerità de gli animi loro; & Socrate appresso Platone quando era per morire,lasciò nel suo testamento vn Gallo ad Esculapio; volendo in quel modo mostrare il saggio Filosofo,che rendeua alla diuina bontà curatrice di tutti i mali, l'anima sua pura, & sincera come era prima . Onde Giulio Camillo nel fin della canzona in morte del Delfin di Francia,cosi disse.
+Ma à te Esculapio adorno
+Ei sacrò pria l'augel nuncio del giorno .
+[ЗАГОЛОВОК: QVERELA A DIO.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: D]ONNA vestita d'vn candido velo,che hauendo il viso mesto,& lagrimeuole riuolto al cielo, & la destra mano al petto,mostri l'altra mano esser morsicata da fieri, & velenosi serpenti .
+La mestitia del volto, dimostra qual sia l'affetto della querela .
+
+Колонтитул: ICONOLOGIA 422
+Кустод: Si
+Сигнатура: 
+Маргиналии:
+
+## Скан 0444 · с. 423
+
+Si dipinge con gli occhi lagrimeuoli, riuolti al cielo, perche come si è detto s'indrizza la querela à Dio *Qui habitat in cœlis* .
+Con la mano morsicata da serpenti, si vuol denotare la querela hauere per ragioni l'offese, & l'ingiurie significate per li serpenti .
+Il vestimento bianco, & la mano su'l petto, dimostrano l'innocenza , & l'integrità, per la quale hà efficacia detta querela .
+[ЗАГОЛОВОК: Querela.]
+[ИНИЦИАЛ: D]Onna vestita di tanè, percioche gli Antichi ne'mortorij , & nelle auersità loro, si vestiuano di tal colore, hauerà in capo vn Passaro solitario, vccello, che hà il canto maninconico, & mesto .
+[ЗАГОЛОВОК: QVIETE.]
+[ИНИЦИАЛ: D]ONNA , che stà in piedi sopra vna base di figura Cubica, con la man destra sostenga vn Perpendicolo .
+La figura Cubica , come riferisce Platone , secondo il parere di Timeo Locrense discepolo di Pitagora, il quale imparò la dottrina sua in gran parte da gli Egittij, significa la terra, che con difficoltà si muoue per esser nel luogo suo proprio, come è il centro dell'vniuerso, & riposandosi quietamente, si dimostra per cagione della sua quiete,& venendo questa principalmente, & immediatamente mostrata , à ragione si potrà dire , che il Cubo significhi quiete, & riposo,stando egualmente posato in tutti modi, & mouendosi con difficoltà .
+Il Perpendicolo, ci dimostra, che la quiete , & il riposo di tutte le cose , è il fine , & la perfettione di esse; ma perche non possono mantenersi in quiete, ne pure gli elementi semplici, che non hanno compositione, anzi che si generano, & corrompono per lo mantenimento de composti,liquali medesimamente si compongono,& risoluono di continouo, & ne'cieli che sono incorrottibili, vediamo chiaramente vn perpetuo moto; quindi è, che non conoscendo noi realmente la quiete , diciamo essere il cessare del moto , il quale non potendo giustificare col senso, andiamo imaginando con l'intelletto ; & perche della quiete noi parliamo in rispetto dell'huomo, diremo allora esso quietarsi , quando i suoi moti del pensiero, & dell'attioni sono regolati,& retti, in modo,che distintamente vadino à ferire al luogo della quiete sua , che è l'altra vita apparecchiata à Beati, per quietarsi eternamente, come il Perpendicolo, che è graue,& fuori del suo luogo naturale, stà drittamente pendendo per arriuare mouendosi naturalmente al punto imaginato dell'Orizonte, oue è la sua quiete .
+[ЗАГОЛОВОК: Quiete.]
+[ИНИЦИАЛ: D]Onna, d'aspetto graue, & venerabile ; sarà vestita di nero, che porti seco qualche segno di Religione,sopra all'acconciatura della testa, vi starà vn nido, dentro del quale si veda vna Cicogna tutta pelata per la vecchiezza, la quale si riposa nel nido,& è nutrita dalla pietà de figliuoli.
+La vera quiete, è impossibile, come habbiamo detto, poterla ritrouar compita in questo mondo ; Con tutto ciò vn certo cessar da negotij d'importanza per menare vita senza pensieri, che mantengono con ansietà la
+
+Колонтитул: DI CESARE RIPA. 423
+Кустод: mente
+Сигнатура: Dd 2
+Маргиналии:
+
+## Скан 0445 · с. 424
+
+mente, si domanda volgarmente Quiete, & è solo vn lasciar altrui per attendere à sè stesso, & però è molto riprensibile nel consortio de gli huomini, & nel viuere politico, priuarsi di quella felicità, che viene dal giouamento,che sentono i Parenti , & gli Amici dall'opra d'vn Cittadino vtile alla sua Patria, se non si fà per cagione di Religione, la quale sola merita, che si lasci da banda ogn'altro interesse ; & però si dipinge detta figura in habito religioso, graue, & venerabile, non essendo ogni huomo atto à seguitar con lode tal sorte di vita, c'hà bisogno d'intero giuditio, & di salda intentione notata nell'aspetto del viso , & nella compositione del corpo , come racconta Aristotile nel lib. di Fison .
+Il vestimento nero , mostra la fermezza di pensieri, & la quiete della mente, non essendo atto questo colore à pigliar de gli altri, come si è detto altroue .
+Ancora dimostra, che l'huomo, che attende alla propria quiete,è oscuro appresso il Mondo, non rendendo famoso nel superar le difficoltà della vita con vtile del prossimo .
+Per la Cicogna s'impara, che in vecchiezza , principalmente , si deue procurare quella poca quiete,che si può trouare, quando stanchi , & fatij delle cose terrene, & caduche ; con più ardore,& maggior fede aspiriamo alle celesti, & perpetue .
+[ЗАГОЛОВОК: RABBIA.]
+Vedi à Furore .
+[ЗАГОЛОВОК: RAGIONE.]
+[ИНИЦИАЛ: D]ONNA vestita del color celeste , starà co' piedi sopra alcuni serpenti alati, & mostruosi, li quali terrà legati con vn freno .
+La ragione, è virtù dell'Anima , con la quale si reggono, & gouernano le potenze di essa, le quali per cagione del peccato originale, & del suo fomite,sono in noi corrotte, & mal inclinate .
+Dipingesi di color celeste il vestimento, perche la ragione deue sempre conformarsi col Cielo, & hauere splendore, & chiarezza .
+Il freno , è indicio del discorso, & della ragione, con la quale tutti gli appetiti inferiori, che si rappresentano sotto figura di serpenti ; perche mordono l'anima, incitandola al peccare ; & tirando speranza della nostra rouina dall'effetto della lor prima impresa fatta con Adamo,sono tenuti à freno, & domati .
+[ЗАГОЛОВОК: RAGIONE.]
+[ИНИЦИАЛ: V]NA Giouane, armata, con la corona dell'oro in capo, & le braccia ignude, nella destra mano tenga vna spada, & con la sinistra vn freno, col quale affrena vn Leone, sarà cinta d'vna candida benda, dipinta tutta con notte d'Aritmetica .
+Questa virtù, è domandata da Theologi forza dell'Anima,per essere la Regina, che dà le vere, & legitime leggi à tutto l'huomo .
+
+Колонтитул: ICONOLOGIA 424
+Кустод: Si
+Сигнатура: 
+Маргиналии:
+
+## Скан 0446 · с. 425
+
+[ЗАГОЛОВОК: RAGIONE.]
+[ГРАВЮРА: без подписи]
+Si dipinge giouane , armata , perche è difesa, & mantenuta dal vigore della sapienza, si piglia molte volte presso gli Antichi, l'armatura esteriore, come nel significato di Pallade, & in altri propositi .
+La corona dell'oro, che tiene in testa, mostra,che la ragione , è sola bastante à far scoprire gli huomini di valore, & dar loro splendore, fama , prezzo , & chiarezza , ne è così singolare l'oro fra metalli, ancorche sia il più pregiato , che più singolare non sia frà le potenze dell'anima nostra , questa,che dimandiamo Ragione, la quale hà la sede sua nella più nobil parte del corpo, & oue hà l'anima maggior vigore all'operare .
+Per le braccia ignude, s'intendono l'opere, le quali quando hanno principio della vera ragione, non hanno macchia, ò sospetto alcuno, che le veli,ò le adombri ; talche non si veda immediatamente la vera,& perfetta virtù .
+
+Колонтитул: DI CESARE RIPA. 425
+Кустод: La
+Сигнатура: Dd 3
+Маргиналии:
+
+## Скан 0447 · с. 426
+
+La spada, è il rigore,che bisogna adoprare alla ragione , per mantener netto il campo delle virtù da vitij predatori de beni dell'anima ; & a questo proposito disse Christo Signor nostro , *Non veni pacem mittere in terram sed gladium;* perche tutta la sua dottrina,non fù altro diretta,che à fare la disunione de vitij già inuecchiati nell'anima, dalla virtù,per mezzo della ragione illuminata dalla sua gratia .
+Il freno in bocca del Leone , ci nota il senso soggiogato, & sottomesso ad essa, il quale per sè stesso, è ferocissimo, & indomito .
+Le note de Aritmetica sono poste, perche con queste si fanno le ragioni in detta arte, che prouano le cose reali, come con la ragione, che stà nell'anima, si proua, & si conosce tutto quello, che appartiene al ben nostro .
+[ЗАГОЛОВОК: Ragione.]
+[ИНИЦИАЛ: V]Na Giouane, vestita del color celeste, con clamidetta d'oro, nella destra mano tiene vn'hasta,abbracciando vn'alloro con la sinistra ; dal quale penda vno Scudo con la testa di Medusa depinta nel mezzo d'esso ; heuerà l'elmo in capo con vna fiamma per cimiero .
+Già si è detta la ragione del vestimento, & della Clamide dell'oro nelle figure di sopra ; Et perche l'hasta significa l'imperio, ci dà ad intendere la ragione esser la Regina, che commanda in tutto il regno della compostura dell'huomo .
+L'Arbore dell'alloro con la testa di Medusa pendere, da esso, dimostra la vittoria , che hà la ragione de gli inimici contrarij alla virtù, quale gli rende stupidi,come la testa di Medusa,che faceua restare mèdesimamente stupidi quelli,che la guardauano, & leggiamo che Domitiano Imperatore la portaua sempre scolpita nell'armature , & nel sigillo, à fine di mostrarsi vittorioso .
+L'Elmo, nota la fortezza,& la sapienza della ragione, essendo egli quella prudenza nell'anima intellettuale,che discorre i fini delle cose,& quelli che giudica buoni,segue, & fugge i contrarij .
+La fiamma, mostra,che è proprietà della ragione inalzarsi verso il Cielo, & di farsi simile à Dio, dal quale deriua la nostra nobiltà .
+[ЗАГОЛОВОК: Ragione.]
+[ИНИЦИАЛ: D]Onna Matrona di bellissimo aspetto, che con la destra mano tenghi vna sferza, & con la sinistra vn freno, si come il cauallo si doma col freno,& li putti con la sferza, cosi la raggione gouerna, e doma le cattiue affettioni dell'huomo .
+[ЗАГОЛОВОК: RAGIONE DI STATO.]
+[ИНИЦИАЛ: D]ONNA armata di Corazza, Elmo , & Scimitarra . Sotto l'armatura portarà vna trauersina di colore torchino riccamata tutta di occhi, e d'orecchie, con la destra mano terrà vna bacchetta , con la quale mostri di dare vn rouerscio dal lato destro , oue siano alcuni papaueri, i maggiori de quali si mostrarà con l'atto sopradetto della bacchetta , che siano da essa rotti , & gettati i capi per terra, vedendosi rimasto solo il gambo intiero . Terrà la sinistra mano appoggiata sopra la testa d'vn
+
+Колонтитул: ICONOLOGIA 426
+Кустод: Leone,
+Сигнатура: 
+Маргиналии:
+
+## Скан 0448 · с. 427
+
+Leone, à piedi del quale sia vn libro posposto da parte, con l'inscrittione IVS.
+[ЗАГОЛОВОК: RAGIONE DI STATO.]
+[ГРАВЮРА: без подписи]
+Si dipinge armata, per dimostrare l'huomo che si serue di tal ragione, vuole quando fossero le forze il tutto dominare cōō l'arme, ò altro mezzo.
+Si rappresenta con la veste di colore torchino contesta d'occhi,e d'orecchie , per significare la gelosia, che tiene del suo dominio, che per tutto vuol hauer occhi,& orecchie di spie, per poter meglio guidare i suoi disegni, & gl'altrui troncare .
+Se gli dà la bacchetta per mostrare questa Ragione di stato essere propria di chi hà dominio, & signoria, dalla quale l'huomo diuiene imperioso, ancorche ogn'vno,per ben che Prencipe non sia , possi hauere vna certa ragione di stato in propria, con la quale vogli gouernare il dominio
+
+Колонтитул: DI CESARE RIPA. 427
+Кустод: delle
+Сигнатура: Dd 4
+Маргиналии:
+
+## Скан 0449 · с. 428
+
+delle sue cose, e drizzarle al proposto fine .
+I papaueri gettati per terra, come dicemmo, significano, che chi si serue della ragione di stato,non lassa mai sorger persona,che possa molestarlo, à somiglianza della tacita risposta data da Tarquinio al Messo del suo Figliuolo . *Rex velut deliberabundus in hortum ædium transit sequente nuncio filij, ibi inambulans tacitus summa papauerum capita dicitur baculo decussisse;* parole di T.Liuio nel primo lib. Decade prima .
+Gli si mette à canto il Leone,per esser di natura simile à quelli, che per ragion di stato cercano esser di continuo superiori à tutti gl'altri , come anco per dinotare la vigilante custodia,che si deue hauere con fortezza , per conseruatione del suo Stato .
+Il Libro posposto col motto I V S , dimostra, che taluolta si pospone la ragione ciuile, non tanto per causa di regnare, quanto per la publica vtilità,come per essempio può condonare tal uolta il Prencipe à molti la vita,che per lor misfatti per legge Ciuile haueuano perduta, per seruirsi di essi in guerra giusta, essendo che risulta molto hauer huomini di virtù, e di valore .
+[ЗАГОЛОВОК: RAMMARICO DEL BENE ALTRVI.]
+[ИНИЦИАЛ: D]ONNA macilente, vestita di nero, & scapigliata, con la destra si strappi i capelli, habbi alla sinistra mammella attaccata vna Serpe, & alli piedi vn Nibio magro .
+E vestita di nero, perche i pensieri , che piegano à danno del prossimo , sono tutti luttuosi,& mortali, che fanno stare continuamente in dolore,& in tenebre,che offuscano l'anima,e trauagliano il corpo . Et però si strappa i capelli dalla testa, essendo i suoi pensieri tronchi,& volti sinistramente con suo dolore, & fastidio .
+Il che con più chiarezza dimostra il Serpe attaccato alla mammella , il quale come manda freddissimo veleno al core , & estingue il calore, che manteneua l'huomo viuo, cosi questa tristitia affligge l'anima,& l'vccide, introducendo il veleno per li sensi, che in qualche modo sentono l'altrui felicità, & però ancora si dipinge macilente .
+Il Nibio hà tanto dolore del bene altrui, che si stende fino all' odio de proprij figli, come si è detto in altro luogo, & però si adopra in questo proposito .
+[ЗАГОЛОВОК: Rammarico.]
+Vedi Affanno.
+[ЗАГОЛОВОК: RAPINA.]
+[ИНИЦИАЛ: D]ONNA armata con vn Nibio per cimiero , & con la spada ignuda nella man dritta, nella sinistra hauerà vno Scudo,in mezzo del quale sia dipinto Plutone , che rapisca Proserpina , & à canto da vna parte vi sia vn Lupo .
+Non è altro la rapina,secondo S.Tomaso secunda secundæ q.66. art. 8. che vn torre à forza la robba altrui , & però si dipinge armata con la spada ignuda in mano, come ancor lo dimostra Virgilio,quando dice .
+
+Колонтитул: ICONOLOGIA 428
+Кустод: Raptas
+Сигнатура: 
+Маргиналии:
