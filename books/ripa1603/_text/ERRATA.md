@@ -29,3 +29,6 @@
 | 0281 | 260 | torus | totus | перепутанная буква |
 | 0286 | 265 | sihnifica | significa | перепутанная буква |
 | 0303 | 282 | qualnnque | qualunque | перепутанная буква |
+| 0310 | 289 | riccameute | riccamente | перепутанная буква |
+| 0316 | 295 | lusuria | lussuria | пропущена буква |
+| 0321 | 300 | alcuaa | alcuna | перепутанная буква |

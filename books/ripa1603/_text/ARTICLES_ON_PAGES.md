@@ -262,3 +262,23 @@
 | 0307 | SICILIA. |  |  | r363 | нет рамки |
 | 0308 |  |  | 0308_1 | — | заголовки страницы (неоднозначно) |
 | 0309 |  |  |  | — | нет рамки |
+| 0310 | LASCIVIA.; LASSITVDINE ò languidezza estiua. |  |  | r364, r365 | нет рамки |
+| 0311 | LEALTA.; LEGGIEREZZA.; LETITIA.; LETTERE; LIBERALITA. |  |  | r366, r367, r368, r369, r370 | нет рамки |
+| 0312 |  | LIBERALITA. | 0312_1 | r370 | бегущий заголовок |
+| 0313 | LIBERTA. |  |  | r371 | нет рамки |
+| 0314 |  | LIBERTA. | 0314_1 | r371 | бегущий заголовок |
+| 0315 | LIBIDINE. |  |  | r372 | нет рамки |
+| 0316 | LIBERO ARBITRIO. |  |  | r374 | нет рамки |
+| 0317 |  |  | 0317_1 | — | заголовки страницы (неоднозначно) |
+| 0318 | LICENZA.; LITE. |  |  | r375, r376 | нет рамки |
+| 0319 | LOGICA. |  |  | r377 | нет рамки |
+| 0320 | Logica.; LONGANIMITA. |  |  | r377, r378 | нет рамки |
+| 0321 | MACHINA DEL MONDO.; MAGNANIMITA. |  |  | r379, r380 | нет рамки |
+| 0322 | Magnanimità.; MAGNIFICENZA. |  |  | r380, r381 | нет рамки |
+| 0323 | Magnificenza.; MALIGNITA.; MALEDICENZA. |  |  | r381, r382, r383 | нет рамки |
+| 0324 | MALINCONIA.; MALEVOLENZA. |  |  | r384, r385 | нет рамки |
+| 0325 | MANSVETVDINE.; MARTIRIO. |  |  | r386, r387 | нет рамки |
+| 0326 | MAESTA REGIA.; MARAVIGLIA.; MATRIMONIO.; Matrimonio. |  |  | r388, r389, r390 | нет рамки |
+| 0327 |  | MATRIMONIO. | 0327_1 | r390 | бегущий заголовок |
+| 0328 | MATHEMATICA. |  |  | r391 | нет рамки |
+| 0329 |  | MATEMATICA. | 0329_1 | r391 | бегущий заголовок |

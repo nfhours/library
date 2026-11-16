@@ -5682,7 +5682,7 @@ dal Pò Fiume. Fù poscia nominata Gallia Togata, come si raccoglie an-
 co da Martiale nel terzo libro che iui lo compose.
 *Hoc tibi, quicquid idest, longinquis mittit ab oris.*
 
-Колонтитул: DI CESARE RIPA. 171
+Колонтитул: DI CESARE RIPA. 271
 Кустод: Gallia
 Сигнатура: 
 Маргиналии:
@@ -5734,7 +5734,7 @@ Et gli ottimi, e generosi vini di Cesena, se bene possono essere supera-
 ti in altri luoghi prodotti, ma gli antichi gli riposero tra i vini generosi,
 come si legge appresso Plinio nel lib. 3. al cap. 6. & Mecenate ne faceua
 
-Колонтитул: 172 ICONOLOGIA
+Колонтитул: 272 ICONOLOGIA
 Кустод: gran
 Сигнатура: 
 Маргиналии:
@@ -5859,7 +5859,7 @@ lebre per lo fulminato Fetonte che in esso cadde, & si sommerse, come
 diuinamente lasciò scritto Ouidio nel secondo libro delle sue Metamor-
 fosi in questi versi.
 
-Колонтитул: DI CESARE RIPA. 175
+Колонтитул: DI CESARE RIPA. 275
 Кустод: At Tha-
 Сигнатура: 
 Маргиналии:
@@ -5911,7 +5911,7 @@ tre, farà vestita sotto di color azurro, hauerà vna sopraueste ò manto di
 oro ricamato di spighe, & fregiato di verdeggianti, & fruttifere viti.
 Starà à sedere sopra il dorso di vn'alato leone, terrà la destra mano ap-
 
-Колонтитул: 176 ICONOLOGIA
+Колонтитул: 276 ICONOLOGIA
 Кустод: poggia-
 Сигнатура: 
 Маргиналии:
@@ -5932,7 +5932,7 @@ Ella di presente contiene in se noue Città principali, le quali tutte
 hanno il loro Vescouato, oltre le molte Terre murate, & Castella che
 vi sono, & oltre il gran numero di villaggi non solamente per la grassez-
 
-Колонтитул: DI CESARE RIPA. 177
+Колонтитул: DI CESARE RIPA. 277
 Кустод: za del
 Сигнатура: S
 Маргиналии:
@@ -5984,7 +5984,7 @@ ri le otto Città soggette, & la Torre nel mezo più eminente dell'altre
 rappresenta la Città dominante.
 Il colore azurro del vestimento, denota l'intimo Golfo dell'Adriatico
 
-Колонтитул: 178 ICONOLOGIA
+Колонтитул: 278 ICONOLOGIA
 Кустод: mare
 Сигнатура: 
 Маргиналии:
@@ -6169,5 +6169,400 @@ Et Silio nel 14.
 
 Колонтитул: ICONOLOGIA 288
 Кустод: Inclusi
+Сигнатура: 
+Маргиналии:
+
+## Скан 0310 · с. 289
+
+*Inclusi gemitus, pelagique imitata furorem*
+*Murmure per cæcos tonat irrequieta fragores*
+*Nocte dieque simul fonte è Phlegetontis vt atro*
+*Flammarum exundat torrens, piceaque procella*
+*Seniambusta rotat liquefactis saxa cauernis,*
+*Turbine, & assiduo subnascens profluit ignis*
+*Summo cani iugo cohibet (mirabile dictu)*
+*Vicinam flammis glaciem, æternoque rigore*
+*Ardentes horrent scopuli, stat vertice celsi*
+*Collis hiems calidaue niuem tegit atra fauilla.*
+[ЗАГОЛОВОК: LASCIVIA.]
+[ИНИЦИАЛ: D]ONNA giouane riccameute vestita, terrà vn specchio con la sinistra mano, nel quale con attentione si specchi, con la destra stia in atto di farsi bello il viso, à canto vi saranno alcuni passeri vcelli lasciui, e lussuriosi, & vn armellino, del quale dice l'Alciato.
+*Dinota l'armellin candido, e netto*
+*Vn huom, che per parer bello, e lasciuo*
+*Si coltiua la chioma, e'l viso, e'l petto.*
+*Lasciuia.*
+[ИНИЦИАЛ: D]Onna con ornamento barbaro, e che mostri con vn dito di fregarsi leggiermente la testa.
+Così la dipingeuano gl'antichi, come si vede appresso il Pierio.
+[ЗАГОЛОВОК: LASSITVDINE ò languidezza estiua.]
+[ИНИЦИАЛ: D]ONNA magra, sarà d'habito sottile assai leggiermente vestita, mostrando il petto discoperto, con la sinistra mano s'appoggierà ad vn bastone, e con la destra terrà vn ventaglio mostrando di farsi vento.
+Per la languidezza, ò lassitudine (come habbiamo detto) intendiamo quella debolezza che esteriormente accade al corpo, e che l'annoia.
+Si dice estiua, per dimostrare non la languidezza, ò lassitudine cagionata da malatia, ò d'altra cosa: ma quella causata da stagione naturalmente calda ch'è l'Estate.
+Si dipinge magra, perche esalando la sostanza del corpo per mezo del calore che la dissolue, viene necessariamente à dimagrarsi.
+L'habito, & il petto nudo sono segni così della stagione vsando gl'huomini in quelli vestimenti assai leggieri per sentire men caldo che sia possibile, come anco son segni del calore, che attualmente ci troua in detta languidezza.
+Con l'appoggiarsi, mostriamo hauer bisogno di sostentamento, e chi hà bisogno di sostentamento, non hà forze sufficienti per se stesso il che è propriissimo della nostra figura, che si è detto esser debolezza di forze del corpo humano.
+Il ventaglio mostra che mouendo l'aria prossima già riscaldata fà luogo all'altra più fresca, il che è di molto refrigerio al corpo, di maniera che
+
+Колонтитул: DI CESARE RIPA. 189
+Кустод: che
+Сигнатура: 
+Маргиналии:
+
+## Скан 0311 · с. 290
+
+che l'vso del ventaglio essendo per la noia, & affanno del caldo, dimostra sufficientemente, quello che propriamente si troua nella languidezza, che è la detta molestia del calore.
+[ЗАГОЛОВОК: LEALTA.]
+[ИНИЦИАЛ: D]ONNA vestita di bianco, tiene la mano destra al petto, & vn cagnolino appresso.
+La man destra sopra il petto, significa integrità dell'animo, & il cagnolino per la propria inclinatione parimente fideltà, e lealtà.
+*Lealtà.*
+[ИНИЦИАЛ: D]Onna vestita di sottilissima veste; in vna mano tenga vna lanterna accesa nella quale ammiri attentamente, & nell'altra vna maschera spezzata in più luoghi, & sia in atto di sbatterla in qualche muro, ò sasso.
+La veste sottile mostra, che nelle parole dell'huomo reale si deue scoprire l'animo sincero, & senza impedimento essendo le parole à concetti dell'animo nostro, come la veste ad vn corpo ignudo.
+La lanterna medesimamente si pone per l'anima, & per lo cor nostro, & lo splendore, che penetra difuori del vetro, sono le parole, & l'attioni esteriori, & come la lanterna manda fuori quel medesimo lume, che nasce dentro di lei, così l'huomo leale deue esser dentro, e fuori della medesima qualità. A questo proposito disse Christo nostro Signore, sia tale la vostra luce presso à gli huomini che essi ne rendano gloria à Dio, che alla fama de meriti vostri corrispondano l'opre.
+La maschera che getta per terra, e spezza, mostra medesimamente il dispregio della fintione, e della doppiezza dell'animo, come si è mostrato in altri propositi.
+*Lealtà.*
+[ИНИЦИАЛ: D]Onna vestita di bianco, che aprendosi il petto, mostri il proprio core per esser'ella vna corrispondenza dell'animo, con le parole ò con l'attioni acciò le sia interamente prestata fede.
+[ЗАГОЛОВОК: LEGGIEREZZA.]
+[ИНИЦИАЛ: D]ONNA che habbi l'ali alle mani, a' piedi à gl'homeri, & alla testa, & sarà vestita di piuma finissima.
+[ЗАГОЛОВОК: LETITIA.]
+Vedi Allegrezza.
+[ЗАГОЛОВОК: LETTERE]
+*Come rappresentate in Firenze, in vn bellissimo apparato.*
+[ИНИЦИАЛ: D]ONNA vestita d'honesto, e gentil'habito, che con la destra mano tiene vn libro, e con la sinistra dui flauti, per significare concetti, e parole, queste come dilettevoli, quelle come honorabili.
+[ЗАГОЛОВОК: LIBERALITA.]
+[ИНИЦИАЛ: D]ONNA con occhi vn poco concaui, con la fronte quadrata, è col naso aquilino, sarà vestita di bianco con vn'Aquila in capo, e nella destra mano vn Cornucopia, & vn compasso, e col cornucopia versi gioie, danari, collane, & altre cose di prezzo,  nella sinistra hauerà vn'altro cornucopia pieno di frutti, e fiori.
+
+Колонтитул: ICONOLOGIA 190
+Кустод: Le
+Сигнатура: 
+Маргиналии:
+
+## Скан 0312 · с. 291
+
+[ГРАВЮРА: без подписи]
+La Liberalità è vna mediocrità nello spendere per habito virtuoso, & moderato.
+Si dipinge con occhi concaui, e fronte quadra, per similitudine del leone liberalissimo frà gl'animali irragioneuoli, e col naso aquilino per la similitudine de l'aquila liberalissima tra tutti gl'vcelli, la qual si farà sopra la testa di detta figura, per mostrare, che la detta liberalità non consiste nell'atto casuale di donare altrui le cose proprie: ma nell'habito, e nell'intentione della mente, come ancora tutte l'altre virtù. Scriue Plinio, che l'aquila si fà preda di qualche animale per propria industria, non attende tanto satiare l'appetito suo, che non si ricordi sempre di lasciarne parte à gl'altri vcelli, godendo, e riputandosi d'assai perveder che l'opera sua sola sia bastante à mantenerne la vita di molti animali.
+
+Колонтитул: DI CESARE RIPA. 291 / LIBERALITA.
+Кустод: I due
+Сигнатура: 
+Маргиналии:
+
+## Скан 0313 · с. 292
+
+I due corni nel modo detto, dinotano, che l'abondanza delle ricchezze è conueneuol mezo di farvenir à luce la liberalità quando è accompagnato con la nobiltà dell'animo generoso, secondo il potere, & la forza di chi dona.
+Vestesi di bianco la liberalità perche come questo colore è semplice, e netto senza alcuno artificio, così la Liberalità è senza speranza di vile interesse.
+Il compasso ci dimostra la liberalità douersi misurare con le ricchezze che si possiedono, e col merito della persona con la qual s'esercita questa virtù, e che (se è lecito à seruitore entrar nelle lodi del suo Signore) merita particolarissima memoria l'Illustrissimo Signor Cardinale Saluiati, patrone mio, il qual conforme al bisogno, & al merito di ciascuno comparte le proprie facoltà con sì giusta misura, & con animo sì benigno, che facilita in vn'istesso tempo per se la strada del Cielo, e della gloria, e per gli altri quella della vita presente, e della virtù, con applauso vniuersale di fama sincera.
+*Liberalità.*
+[ИНИЦИАЛ: D]Onna vestita di bianco, nella destra tiene vn dado, e con la sinistra sparge gioe, e danari.
+Il dado insegna che egualmente è liberale chi dona poco, hauendo poco; & chi dona assai hauendo molto, purche si resti in piedi da tutte le bande con la facultà principale.
+*Liberalità.*
+[ИНИЦИАЛ: G]Iouanetta di faccia allegra, & riccamente vestita, con la sinistra mano tenga appoggiato al sinistro fianco vn bacile pieno di gemme, e di monete d'oro, delle quali con l'altra mano habbia preso vn gran pugno, & le sparga ad alcuni puttini ridenti, & allegri, che da se stessi se ne adornano, & le portano in mostra per la gratitudine, & per l'obligo, che si deue alla liberalità del benefattore, ouero per mostrare, che ancora il riceuere fauori, & ricchezze con debito modo, è parte di liberalità, secondo l'opinione de'Morali; se bene è più nobile attione, e più beata, il donar altrui le cose sue.
+Il Piero Valeriano assegna per antico Ieroglifico di liberalità, il bacile solo, il quale noi accompagniamo con l'altre cose per compimento della figura, & per dichiaratione della liberalità figurata.
+[ЗАГОЛОВОК: LIBERTA.]
+[ИНИЦИАЛ: D]ONNA vestita di bianco, nella destra mano tiene vn scettro, nella sinistra vn cappello, & in terra vi si vede vn gatto.
+Lo scettro significa l'auttorità della Libertà, & l'imperio che tiene di se medesima, essendo la Libertà vna possessione assoluta d'animo, & di corpo, & robba, che per diuersi mezzi si muouono al bene; l'animo con la gratia di Dio; il corpo con la virtù; la robba con la prudenza.
+Gli si da il cappello come dicemmo, perciòche quando voleuano i Romani dare libertà ad vn seruo dopò d'hauergli raso i capelli gli faceuono portare il cappello, & si faceua questa cerimonia nel tempio di vna Dea
+
+Колонтитул: ICONOLOGIA 292
+Кустод: creduta
+Сигнатура: 
+Маргиналии:
+
+## Скан 0314 · с. 293
+
+[ГРАВЮРА: без подписи]
+creduta protettrice di quelli ch'acquistauano la libertà, & la dimãdauano Feronia però si dipinge ragioneuolmente con il cappello.
+Il gatto ama molto la Libertà, & perciò gl'antichi Alani, i Borgognoni, & i Sueri, secondo che scriue Metodico lo portauono nelle loro insegne dimostrando, che come detto animale non può comportare di essere riferrato nell'altrui forza, così loro erano impatientissimi di seruitù.
+*Libertà.*
+[ИНИЦИАЛ: D]Onna che nella sinistra mano tiene vna mazza, come quella d'Hercole, & nella destra mano tiene vn cappello con lettere.
+LIBERTAS AVGVSTI ex S. C.
+Il che significa libertade acquistata per proprio valore, & virtù conforme à
+
+Колонтитул: DI CESARE RIPA. 293 / LIBERTA.
+Кустод: me à
+Сигнатура: T
+Маргиналии:
+
+## Скан 0315 · с. 294
+
+me à quello che si è detto di sopra, & si vede così scolpita nella medaglia di Antonino Eliogabalo.
+*Libertà.*
+[ИНИЦИАЛ: D]Onna che nella mano destra tenga vn cappello, & per terra vi farà vn giogo rotto.
+[ЗАГОЛОВОК: LIBIDINE.]
+[ИНИЦИАЛ: D]ONNA bella, & di bianca faccia, con i capelli grossi, & neri, ribuffati all'in sù, & folti nelle tempie, con occhi grassi, lucenti, & lasciui; mostrano questi segni abondanza di sangue, il quale in buona temperatura è cagione di Libidine, & il naso riuolto in sù, è segno di questo istesso per segno del becco animale molto libidinoso, come disse Aristotele de fisonomia al capitolo 69. hauerà in capo vna ghirlanda di edera, sarà lasciuamente ornata, porterà in trauerso vna pelle di pardo, e per terra à canto vi sarà vna pantera tenendole detta figura la sinistra mano sopra il capo.
+L'hedera da li Greci è chiamato cisso, & cissare (tirando le loro parole al nostro proposito) significa essere dato alla Libidine; però Eustachio dice che fù data l'hedera à Bacco per segno di Libidine, cagionata dal vino.
+La pelle del pardo, che porta à trauerso à guisa di banda, come dice ancora Cristoforo Landino, parimente significa Libidine, essendo à ciò detto animale molto inclinato, mescolandosi non solamente con gli animali della sua specie: ma ancora (come riferisce Plinio) con il leone, e come la pelle del pardo è macchiata, così similmente è macchiata la mente dell'huomo libidinoso di pensieri cattiui, & di voglie le quali tutte sono illecite.
+E ancora proprio di questo animale sfuggire quanto può di essere veduto quando si pasce, & pascendo di suggersi il proprio sangue, il che è proprijssimo della libidine, perche più d'ogn'altra cosa le sue voglie procura di pascere nascostamente, e che niuno il veda, & di satiarsi euacuando il proprio sangue, & togliendosi le forze.
+Per dichiaratione della pantera il medesimo Landino dice, che molti la fanno differente dal pardo solamente nel colore, perciòche questo hà più bianco, & vogliono anco che sia la femina del pardo, & se crediamo esser vera questa cosa, potemo comprendere che la libidine principalmente, e con maggior violentia domina nelle femine, che ne gli maschi, (come si crede communemente) in ciascuna specie d'animali.
+Afferma Plinio esser la pantera tanto bella, che ogni fiera la desiderano: ma temono della fierezza che dimostra nella testa, onde essa occultando il capo, e mostrando il dorso l'alletta, e dopo con subito empito le prende, e diuora.
+Il che è molto simile alla libidine, la quale con la bellezza, e lusinga ci tira, e poi ci diuora, perche ci consuma il tempo, il denaro, la fama, il corpo, &
+
+Колонтитул: 294 ICONOLOGIA
+Кустод: po, &
+Сигнатура: 
+Маргиналии:
+
+## Скан 0316 · с. 295
+
+po, & l'anima istessa ci macchia, e ci auuilisce, facendola serua del peccato, e del demonio.
+*Libidine.*
+[ИНИЦИАЛ: D]Onna lasciuamente ornata, sedendo appoggiata sopra il gomito sinistro, nella man destra terrà vn scorpione, à canto vi farà vn becco acceso alla libidine, & vna vite con alcuni grappi d'vue.
+Racconta il Pierio Valeriano nel libro decimosesto, che lo scorpione significa Libidine, ciò può esser perche le pudende parti del corpo humano sono dedicate da gl'astrologi allo scorpione.
+Medesimamente s'intende il becco per la libidine, essendo ne gli atti di Venere molto potente, & dedito à tale inclinatione souerchiamente, come si vede nel luoco citato nell'altra figura à questo proposito.
+Sta à sedere, & appoggiata sù'l braccio per mostrar l'otio, del quale si fomenta in gran parte la libidine, secondo il detto.
+*Otia si tollas periere cupidinis arcus*
+La vite è chiaro inditio di libidine, secondo il detto di Terentio.
+*Sine Cerere, & Baccho friget Venus.*
+Et ancora perche si dicono lussuriare le viti che crescono gagliardamente, come gli huomini accecati dalla Libidine, che non quietano mai.
+*Libidine, ò Lussuria.*
+[ИНИЦИАЛ: D]Ipingeuano per la lussuria ancora gli antichi vn Fauno con vna corona d'eruca, & vn grappo d'vua in mano per fingersi il Fauno libidinoso, e l'eruca per inuitare, & spronare assai gli atti di Venere.
+Et propriamente sono lussuriosi quelli, li quali sono souerchi ne i vezzi di amore cagionato dal vino, che riscalda, & da molte altre lasciue commodità.
+*Lussuria.*
+[ИНИЦИАЛ: G]LI antichi vsauono dipingere Venere sopra vn montone per la lusuria, mostrando la soggettione della ragione al senso, & alle concupiscenze illecite.
+[ЗАГОЛОВОК: LIBERO ARBITRIO.]
+[ИНИЦИАЛ: H]VOMO d'età giouenile con habito Regio di diuersi colori, in capo habbia vna corona d'oro con la destra mano tenga vno scettro, in cima del quale sia la lettera Greca Y.
+Il Libero Arbitrio, secondo San Thomasso, è libera potestà attribuita alla natura intelligente per maggiore gloria d'Iddio di eleggere tra più cose, le quali conferiscono al fine nostro vna più tosto che vn'altra, ouero data vna sola cosa di accettarla, ò di rifiutarla come più piace. Et Aristotele nel terzo dell'Ethica non è da tale definitione discordante, dicendo essere vna facultà di potersi eleggere diuerse cose per arriuare al fine, percioche non hà dubbio alcuno; che da ciascuno hà voluto, e desiderato il sommo bene, cioè, la felicità eterna, la quale è l'vltimo fine di tutte l'attioni humane; ma sono gli
+
+Колонтитул: DI CESARE RIPA. 295
+Кустод: huomi-
+Сигнатура: T2
+Маргиналии:
+
+## Скан 0317 · с. 296
+
+[ГРАВЮРА: LIBERO ARBITRIO.]
+huomini molto perflessi, & varij, e diuersi trà di loro circa l'elettione de modi, e vie d'arriuare à quella meta.
+Si dipinge giouane richiedendosi al libero arbitrio l'vso della discretione, la quale tosto che è venuta nell'huomo, fà ch'egli si disponga à conseguire il suo fine con i mezi li quali si conuengono allo stato, & alla conditione sua.
+L'habito Regio, lo scettro, & la corona sono per significare la sua potestà di voler assolutamente quello che più assolutamente gli piace.
+Li diuersi colori nell'habito sono per dimostrare l'indeterminatione sua potendo come s'è detto per diuersi mezi operare.
+La lettera Greca Y si aggiunge allo scettro, per dinotare quella sententia di Pitagora Filosofo famoso con essa dichiarò che la vita humana
+
+Колонтитул: 196 ICONOLOGIA
+Кустод: haueua
+Сигнатура: 
+Маргиналии:
+
+## Скан 0318 · с. 297
+
+haueua due vie, come la sopradetta lettera è diuisa in due rami, del quale il destro è come la via della virtù, che da principio è angusta, & erta: ma nella sommità è spatiosa, & agiata, & il ramo sinistro è come la strada del vitio, la quale è larga, & commoda: ma finisce in angustia, & precipitij, si come molto bene spiegano i versi, i quali si attribuiscono à Virgilio.
+Per la qual cosa attribuendo noi al Libero Arbitrio questa lettera, ragioneuolmente significano essere in mano sua eleggere la buona, la rea, la sicura, ò men sicura via da potere peruenire alla felicità propostaci.
+*Littera Pythagoræ discrimine secta bicorni,*
+*Humanæ vitæ speciem preferre videtur*
+*Nam via virtutis dextrum petit ardua callem*
+*Difficilemque aditum primum spectantibus offert,*
+*Sed requiem præbet fessis in vertice summo*
+*Molle ostentat iter via lata, sed vltima meta*
+*Præcipitat captos voluitque per ardua saxa*
+*Quisquis enim duros casses virtutis amore*
+*Vicerit ille sibi, laudemque, decusque parabit*
+*At qui desidiam luxumque sequetur inertem*
+*Dum fugit oppositos incauta mente labores*
+*Turpis, inopsque simul miserabile transigit æuum.*
+[ЗАГОЛОВОК: LICENZA.]
+[ИНИЦИАЛ: D]ONNA ignuda, & scapigliata, con la bocca aperta, e con vna ghirlanda di vite in capo.
+Licentiosi si dimandano gli huomini che fanno più di quello che conuiene al grado loro, riputando in se stessi lode, far quelle attioni che ne gl'altri son biasimeuoli in egual fortuna, e perche puol esser questa licenza nel parlare, però si fà con la bocca aperta, & perche puol essere anco nella libertà, di far palese le parti che per istinto naturale dobbiamo ricoprire, la qual cosa si mostra nella nudità; nel resto dell'altre opere pigliandosi libertà di far molte cose che non s'appartengono, e questo si dinota con la vite, la quale inchinando con il frutto suo molte volte fà fare molte cose inconuenienti, e disdiceuoli, & come li capelli che non sono legati insieme scorrono liberamente oue il vento gli trasporta, così scorrono i pensieri, e l'attioni d'vn huomo licentioso da se medesime.
+[ЗАГОЛОВОК: LITE.]
+[ИНИЦИАЛ: D]ONNA vestita di varij colori, nella destra mano tiene vn vaso di acqua, il quale versa sopra vn gran fuoco che arde in terra, il che è per segno del contrario al quale l'altro contrario naturalmente opponendosi, e cercando impadronirsi della materia, e sostanza dell'altro, dà cõ strepito segno di lite, e d'inimicitia, il qual effetto inuitano gl'animi discordi, & litigiosi che non quietano per se stessi, nè danno riposo à gl'altri.
+
+Колонтитул: DI CESARE RIPA. 297
+Кустод: LOGI-
+Сигнатура: T3
+Маргиналии:
+
+## Скан 0319 · с. 298
+
+[ЗАГОЛОВОК: LOGICA.]
+[ИНИЦИАЛ: D]ONNA giouane viuace, & pronta, vestita di bianco, tiene vn stocco nella destra mano, & nella sinistra, quattro chiaui col Elmo in capo, & per cimiero vn falcone pelegrino.
+La logica è vna scientia, che considera la natura, e proprietà dell'operationi dell'intelletto onde si viene ad acquistare la facilità di separare il vero dal falso: Adunque come quella che considera sottilissimi, & varij modi d'intendere, si dipinge così lo stocco il quale è segno d'acutezza d'ingegno, & l'elmo in capo mostra stabilità, e verità di scienza, & come il falcone s'inalza à volo à fin di preda, così il logico disputa altamente per far preda del discorso altrui, che volontieri alle sue raggioni si sottomette.
+Le quattro chiaui significano i quattro modi d'aprire la verità in ciascuna figura sillogistica, insegnate con molta diligenza da professori di quest'arte.
+Vestisi di bianco per la similitudine, che hà la bianchezza con la verità, perche come quello frà i colori è il più perfetto, così questa frà le perfettioni dell'anima è la migliore, e più nobile, e deue esser'il fin d'ogniuno, che voglia esser vero logico, & non sofista ouero gabbatore.
+*Logica.*
+[ИНИЦИАЛ: D]Onna con la faccia velata, vestita di bianco, con vna sopraueste di varij colori, mostri con gran forza delle mani di stringere vn nodo in vna corda assai ben grossa, & ruuida, vi sia per terra della canape ouero altra materia da far corde.
+La faccia velata di questa figura mostra la difficoltà, & che è impossibile à conoscersi al primo aspetto, come pensano alcuni, che per far profitto in essa, credono esser souerchi al loro ingegno sei mesi soli, e poi in sei anni ancor non sanno la definitione d'essa. Per notar'il primo aspetto si dimostra il viso, perche il viso è la prima cosa, che si guardi nell'huomo.
+Il color bianco nel vestimento si pone per la simiglianza della verità come s'è detto la quale e ricoperta da molte cose verisimili, oue molti fermando la vista, si scordano d'essa che sotto colori d'esse stà ricoperta, perche delle cose verisimili tirate con debito modo, di grado in grado, ne nasce poi finalmente la dimostratione la quale è come vna cassa oue sia riposta la verità, & si apre per mezo delle chiaue già dette de' sillogismi probabili, li quali si notano con varij colori, che se bene hanno qualche conformità con la luce non n'hanno però tanta quanto il bianco, che è l'effetto più puro d'essa.
+La corda doue si stringe il nodo, mostra che la conclusione certa, è quella che stà principalmente nell'intentione del logico, & dalla similitudine della corda si dice il logico legare vn'huomo che non sappia, che si dire in contrario alla verità mostrata da lui, & le sue proue fondate con la sua arte sono nodi indissolubili ò per forza, ò per ingegno di qual si voglia altra
+
+Колонтитул: 298 ICONOLOGIA
+Кустод: pro-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0320 · с. 299
+
+professione, la ruuidezza della corda, mostra la difficultà della materia.
+La canape per terra mostra, che non solo è offitio della logica fare il nodo delle corde fatte,ma quelle medesime corde ancora prouedere con l'arte sua propria seruendosi d'alcuni principij della natura, & insegnando di conoscere i nomi le propositioni,& ogni altra parte ouero istromento della dimostratione il suo vero, & reale istromento.
+[ЗАГОЛОВОК: Logica.]
+[ИНИЦИАЛ: G]Iouane pallida con capelli intricati,è sparsi di conueneuole lunghezza;nella mano destra tiene vn mazzo di fiori,con vn motto sopra, che dichi *Verum, & falsum,* & nella sinistra vn serpente.
+Questa donna e pallida perche il molto vigliare,& il grande studio,che intorno ad essa è necessario, e ordinariamente cagione di pallidezza, & indispositione della vita.
+I capelli intrigati,& sparsi dimostrano,che l'huomo ilquale attende alla speculatione delle cose intelligibili,suole ogni altra cosa lasciar da parte,e dimenticarsi della custodia del corpo.
+I fiori son segno,che per industria di questa professione si vede il vero apparire, & il falso rimanere oppresso, come per opra della natura, dall'herba nascono i fiori, che poi la ricoprono.
+Il serpente c'insegna la prudentia necessarijssima à professione,come à tutte l'altre non s'affaticando in altro, l'humana industria, che in distinguere il vero dal falso,& secondo quella distintione saper poi operare con proportionata conformità al vero conosciuto, & amato. Scuopre ancora il serpente,che la logica è stimata velenosa materia, & inaccessibile à chi non hà grande ingegno,& è amara à chi la gusta,& morde, & vccide quelli che con temerità le si oppongono.
+[ЗАГОЛОВОК: LONGANIMITA.]
+[ИНИЦИАЛ: V]N A matrona assai attempata,à sedere sopra d'un sasso, con l'occhi verso il cielo, con le braccia aperte, & mani alzate.
+La longanimità, è annouerata dall'Apostolo al cap. 4. de' Galati trà li dodici frutti dello Spirito santo,& S.Tomaso nella 2.2.q.136. art.5. è vna virtù mediante la quale la persona hà in animo d'arriuare à qualche cosa assai ben discosta,ancorche ci andassi ogni longo tempo.Et S.Anselmo sopra il detto c.5.à Galati, dice la longanimità essere vna longhezza d'animo, che tollera patientemente le cose contrarie, & che stà longo tempo aspettando li premij eterni, & se ben pare,che sia l'istessa virtù, che la patientia,tutta via sono differenti trà loro, perche come dicano li suddetti Auttori,& Dionisio Certosino sopra l'istesso cap.5.à Galati la longanimità,è accompagnata dalla speranza, che fà che stiamo aspettando fino alla fine li beni promessici da Dio Nostro Signore, & però questa virtù pare
+
+Колонтитул: DI CESARE RIPA. 299
+Кустод: che
+Сигнатура: T 4
+Маргиналии:
+
+## Скан 0321 · с. 300
+
+che guardi più la speranza, e'l bene che la paura, ò l'audacia, ò la malinconia,ma la patienza sopporta li mali,l'ingiurie,& l'auersità presenti à fine d'hauer poi bene:ma perche non basta soffrire al presente solamente se hà da sopportare per qualsiuoglia longhezza di tempo,& per quanto piacerà al Sig.Dio,che però si dipinge matrona tempata,e à sedere sù'l sasso.
+Si dipinge con gl'occhi verso il Cielo questa virtù,al quale s'appropria come costa nel Salmo : *Deus longanimis, & multum misericors,* per il fine che sono li beni eterni promessici da Dio.
+Si rappresenta con le mani alzate per la speranza che accompagna, e fa parer breue l'aspettare in questo mondo.
+[ЗАГОЛОВОК: MACHINA DEL MONDO.]
+[ИНИЦИАЛ: D]O N N A c'habbia intorno al capo i giri de i sette pianeti,& in luogo di capelli faranno fiamme di fuoco, il suo vestimento sarà compartito in tre parti, & di tre colori.
+Il primo che cuopre il petto, & parte del corpo sarà azurro con nuuoli.
+Il secondo ceruleo con onde d'acqua.
+Il terzo fin'à piedi sarà verde con monti,città, & castella, terrà in vna mano il serpe riuolto in circolo che si tenga la coda in bocca,il che significa,che il mōdo da se stesso,& per se stesso si nutrisce, & in se medesimo,& per se medesimo si riuolge sempre con temperato, & ordinato moto, & il principio corre dietro al fine,& il fine ritorna al suo stesso principio, per questo ancora vi si dipingono i sette pianeti.
+Il fuoco che ha in cima del capo, & il color del vestimento, significa li quattro Elementi, che sono le parti minori della grandissima machina vniuersale.
+[ЗАГОЛОВОК: MAGNANIMITA.]
+[ИНИЦИАЛ: D]O N N A bella,con fronte quadrata, & naso rotondo, vestita di oro con la corona imperiale in capo,sedendo sopra vn leone, nella man destra terrà vn scettro,& nella sinistra vn cornucopia,dal quale versi monete d'oro.La Magnanimità è quella virtù, che consiste in vna nobile moderatione d'affetti,& si troua solo in quelli che conoscendosi degni d' esser honorati da gl'huomini giuditiosi,e stimando i giuditij del volgo contrarij alla verità spesse volte,ne per prospera troppo fortuna s'inalza, ne per contraria si lasciano sottomettere in alcuaa parte,ma ogni loro mutatione con egual'animo sostengono, & aborriscono far cosa brutta per non violar la legge dell'honestà.
+Si rappresenta questa donna bella,con fronte quadrata,e naso rotondo à somiglianza del leone,secondo il detto d'Aristotele de fison.al cap.9.
+Vestesi d'oro,perche questa è la materia atta per mandar à effetto molti nobili pensieri d'vn animo liberale,& magnanimo.
+Porta in capo la corona,& in mano lo scettro,perche l'vno dimostra nobiltà di pensieri,l'altro potēza d'esseguirli,per notar che senza queste due cose è impossibile essercitare magnanimità,essendo ogni habito effetto di molte attioni particolari:si dimostra la magnanimità esser vera dominatrice delle passioni vili,e larga dispensatrice della facoltà per altrui benefitio
+
+Колонтитул: 300 ICONOLOGIA
+Кустод: fitio
+Сигнатура: 
+Маргиналии:
+
+## Скан 0322 · с. 301
+
+fitio,è non per vanità,& popolare applauso. Al leone da'Poeti sono assomigliati li magnanimi,perche non teme di quest'animale le forze de gl'animali grandi,non degna esso i piccioli,& impatiente , de'benefitij altrui largo rimuneratore,& non mai si nasconde da'cacciatori, se egli s'auede d'esser scoperto,ch'altrimenti si ritira, quasi non volendo correr pericolo senza necessità.Questa figura versa le monete senza guardarle,perche la Magnanimità nel dare altrui si deue osseruare senza pensare ad alcuna sorte di remuneratione,e di qui nacque quel detto. Dà le cose tue con occhi serrati,e con occhi aperti riceui l'altrui . Il Doni dipinge questa virtù poco diuersamente,dicendo douersi fare donna bella , & coronata all'Imperiale, riccamente vestita con lo scettro in mano, d'intorno con palazzi nobili , & loggie di bella prospettiua, sedendo sopra vn leone con doi fanciulli à piedi abbracciati insieme, vno di queste sparge molte medaglie di oro,& d'argento,l'altro tiene le giuste bilancie,e la dritta spada della giustitia in mano.Le loggie, & le fabriche di grande spese molto più conuengono alla magnificenza ch'altra virtù heroica, la quale s'esercita in spese grandi,& opre di molto danaro,che alla Magnanimità moderatrice de gli affetti,& in questo non so se per auuentura habbia errato il Doni,se non si dice che senza la magnanimità la Magnificenza non nascerebbe.
+Il leone,oltre quello c'habbiamo detto,si scriue , che combattendo non guarda mai il nemico per non lo spauentare,& acciò che più animoso venga all'affronto nel scontrarsi poi con lento passo,ò con salto allegro si rinselua,con fermo proposito di non far cosa indecente alla sua nobiltà.
+I due fanciulli mostrano che con giusta misura si deuon abbracciar tutte le difficoltà per amor dell'honesto,per la patria,per l'honore, per li parenti,e per l'amici magnanimamētespendendo il denaro in tutte l'imprese honorate.
+[ЗАГОЛОВОК: Magnanimità.]
+[ИНИЦИАЛ: D]Onna che per elmo portarà vna testa di leone, sopra alla qual vi sieno doi piccioli corni di douitia,con veli,& adornamenti d'oro, sarà vestita in habito di guerriera,& la veste sarà di color torchino , & ne'piedi hauerà stiualetti d'oro .
+[ЗАГОЛОВОК: MAGNIFICENZA.]
+[ИНИЦИАЛ: D]O N N A vestita,& coronata d'oro, hauerà la fisonomia simile alla Magnanimità,terrà la sinistra mano sopra di vn'ouato, in mezo al quale vi sarà dipinto vna pianta di sontuosa fabrica.
+La Magnificenza è vna virtù,la quale consiste intorno all'operar cose grandi,e d'importanza,come habbiamo detto,e però sarà vestita d'oro.
+L'ouato,sopra il qual posa la sinistra mano,ci dà d'intendere,che l'effetto della Magnificenza è l'edificar tempij,palazzi, & altre cose di marauiglia,& che riguardano ò l'vtile publico,ò l'honor dello stato,dell'imperio & molto più della Religione,& non hà luogo quest'habito se non ne Prencipi grandi,e però si dimanda virtù heroica , della quale si gloriaua Augusto quando diceua hauer trouato Roma fabricata de' mattoni, & douerla lasciar fabricata di marmo.
+
+Колонтитул: DI CESARE RIPA. 301
+Кустод: Magni-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0323 · с. 302
+
+[ЗАГОЛОВОК: Magnificenza.]
+[ИНИЦИАЛ: D]O N N A vestita d'incarnato,portarà li stiualetti d'oro,hauerà nella destra mano vn'imagine di Pallade, sederà sopra d'vn ricchissimo seggio,& se si rappresentarà à cauallo,hauerà detta seggia à canto.
+Gli stiualetti erono vsati da gl'antichi Rè,& per segno di soggetto Reale,l'adoperorno per i tragici Poeti ne'lor personaggi, & sono segno ancora in quest'imagine di che sorte d'homini sia propria la Magnificenza,che hà bisogno delle forze di molta ricchezza.
+L'imagine di Pallade è per segno, che l'opere grandi deuono portar seco l'amor d'operare virtuosamente,& secondo il decoro,altrimenti sarebbono opere di vanità,e mera pazzia.Le statue ancora, che con gran spesa, & con poco vtile si riducono à nobil termine dalla fatica, & dall'industria de'sudditi,son effetti della Magnificenza de'Prencipi, & perche tutte queste cose le fanno solo con cenni,comandando senza molto fatica, però appresso si dipinge la seggia,che già fù il Ieroglifico dell'Imperio.
+[ЗАГОЛОВОК: MALIGNITA.]
+[ИНИЦИАЛ: D]O N N A brutta,pallida,vestita del color della ruggine , & che tenghi vna coturnice con la testa alta verso il cielo,& con l'ali aperte.
+Brutta si dipinge,percioche l'operationi del maligno sono bruttissime, & fuggite da ogni conuersatione politica , & ciuile.
+La pallidezza significa che quando son'infette d'humor maligno le parti interiori si manifestano ne gl'esteriori del corpo.
+Il colore del vestimento, dimostra che si come la rugine continuamente consuma ogni metallo,oue ella si pone,così il maligno non cessa mai có la pessima sua natura di danneggiare ogn'opera lodeuole,& virtuosa.
+La coturnice nella guisa che dicemmo,significa malignità perche come narra Pierio Valeriano nel lib.24.de'suoi Ieroglifici volendo l'Egittij mostrare la malignità,dipingeuano vna coturnice, percioche è di così pessima,& maligna natura,c'hauendo beuuto,con le zampe, e con il becco intorbida il resto dell'acqua,acciò niun'altro animale ne possi bere,& à questo fine Ezechiele Profeta nel cap. 34. rimprouerando la malignità de gli Hebrei dice: *Et cum purissimam aquam biberitis reliquam pedibus vestris turbatis.*
+[ЗАГОЛОВОК: MALEDICENZA.]
+[ИНИЦИАЛ: D]O N N A con gl'occhi concaui, vestita del color del verderame, con ciascuna mano tenga vna facella accesa, vibrando fuori la lingua simile alla lingua di vn serpe, & à trauerso del vestimento terrà vna pelle d'istrice.
+Il colore del vestimento , & gli occhi concaui, significano malignità , come si legge nella Fisonomia di Aristotele, & il dir male delle buone attioni altrui non nasce se non da malignità, la quale fà desiderare l'altrui dishonore senza alcun profitto per se medesimo , dando à credere che la gloria altrui reca alla propria lode impedimento.
+Le due facelle accese, dimostra che la maledicenza accende il fuoco fomentando facilmente gli odij , & la lingua ancorche humida è molte volte in-
+
+Колонтитул: 302 ICONOLOGIA
+Кустод: te in-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0324 · с. 303
+
+te instromento d'accendere questi fuochi inestinguibili bene spesso.
+La pungente pelle dell'istrice,ci dinota,che è proprio della Maledicenza il pungere non la vita come quella : ma l' honore , & la riputatione, acquistata con fatiche, & stenti.
+[ЗАГОЛОВОК: MALINCONIA.]
+[ИНИЦИАЛ: D]O N N A vecchia,mesta,& dogliosa,di brutti panni vestita, senza alcun'ornamento,starà à sedere sopra vn sasso,con gomiti posati sopra i ginocchi,& ambe le mani sotto il mento, & vi sarà à canto vn'albero senza fronde,& frà i sassi.Fà la malinconia nell'huomo quegli effetti istessi che fà la forza del verno ne gl'alberi,& nelle piante, li quali agitati da diuersi venti,tormentati dal freddo,& ricoperti dalle neui,appariscono secchi,sterili,nudi,& di vilissimo prezzo,però non è alcuno che non fugga,come cosa dispiaceuole la conuersatione de gl' huomini malinconici, vanno essi sempre col pensiero nelle cose difficili li quali se gli fingono presenti , & reali,il che mostrano i segni della mestitia,e del dolore.
+Vecchia si dipinge,percioche gl'è ordinario de'giouani stare allegri, & i vecchi malenconici,però ben disse Virgilio nel 6.
+*Pallentes habitant morbi, tristisque senectus.*
+E mal vestita senza ornamento, per la conformità de gl'alberi senza foglie , & senza frutti , non alzando mai tanto l' animo il malenconico che pensi à procurarsi le commodità per stare in continua cura di sfuggire , ò proueder à mali che s'imagini esser vicini.
+Il sasso medesimamente oue si posa,dimostra che il malenconico , e duro,e sterile di parole,& di opere,per se,& per gli altri, come il sasso , che non produce herba,ne lascia che la produca la terra , che gli sta sotto: ma se bene pare otiosa al tempo del suo verno nell'attioni Politiche, al tempo nondimeno della Primauera, che si scopre nelle necessità dell'huomini sapienti , i malenconiosi sono trouati , & esperimentati sapientissimi , & giuditiosissimi.
+[ЗАГОЛОВОК: MALEVOLENZA.]
+[ИНИЦИАЛ: V]E C C H I A con occhi concaui,brutta,scapigliata,e magra,con vn mazzo d'ortiche in mano,& vn basilisco appresso.
+Questa è della medesima natura dell'affettione, dalla quale nasce che e l'odio:ma per esser meno principale, & molto ristretta , è dipinta in questo luogo donna vecchia, perche l' età senile la partorisce , essendo che li giouani nuoui al mondo, stimano parimente nuoue tutte le cose, & però le amano : ma i vecchi come stanchi di veder gran copia di cose, hanno à noia facilmente il tutto.
+E scapigliata per dimostrare, che li malenoli non allettono gli animi à beneuolenza,anzi si fanno abhorrire come peste, che infetti le dolci conuersationi, il che dichiara il basilisco, che solo con lo sguardo gl'huomini auelena. La magrezza è effetto del continuo ramarico del bene conosciuto in persona del prossimo.
+L'ortiche come à questa figura,così anco conuengono à la maledicenza perche
+
+Колонтитул: DI CESARE RIPA. 303
+Кустод: perche
+Сигнатура: 
+Маргиналии:
+
+## Скан 0325 · с. 304
+
+perche come l'ortica punge lasciando dolore senza ferita,così il maledicente non pregiudica nella vita, ò nella robba,ma nell'honore,che à pena si fà quelche sia secondo alcuni Filosofi,& pur cuoce, & dispiace à tutti sentirsi offeso doue si scuopra pur vn poco questo particolar interesse.
+[ЗАГОЛОВОК: MANSVETVDINE.]
+[ИНИЦИАЛ: D]O N N A coronata d'oliuo,con vn Elefante accanto , sopra del quale posi la man destra.
+La mansuetudine secondo Aristotele nell'Etica lib. 4. è vna mediocrità determinata con vera raggione circa la passione dell'ira fuggirla principalmente,& in seguirla ancora in quelle cose , con quelle persone come,& quando,& doue conuiene per amore del buono, & bello,e pacifico viuere.
+L'elefante nelle lettere degl'Antichi Egittij, perche hà per natura di nōō combattere con le fiere meno possenti di esso , nè con le più forti se non è grandemente prouocato , da grande inditio di mansuetudine , & ancora perche caminando in mezo d'vn'armento di pecore,che le vengono incōtro si tira da banda acciòche imprudentemente non le venissero offese , & porta tanta osseruanza , à così deboli animali, che per la presenza loro, quando è addirato torna piaceuole,& trattabile, oltre à ciò riferisce Plutarcho,che se qualche Peregrino caminando per diserti, habbia perduta la strada, & s'incontri nell'Elefante , non solamente non è offeso, ma è ridotto alla via smarrita.
+L'oliuo è segno di pace,& di mansuetudine, e però i Sacerdoti de gl'Antichi ne' primi tempi voleuano , che tutti i simulachri de' Dei loro fussero fabricati col legno dell'oliua interpretando che à Dio conuiene esser largo donatore delle gratie sue à mortali,volgendosi con benignità , & mansuetudine à perdonar loro i commessi peccati,& dargli abondanza de tutti i beni,à questo bel Hieroglifico parue,che i Dei acconsentissero secondo che riferisce Herodoto quando furno pregati da gli Spedauricensi à torre la sterilità del paese loro,alche fù risposto , che la gratia sarebbe seguita quando hauessero fabricato i simulachri di Damia, & di Aurelia, di legno d'oliua,& parue che da indi in poi fin'à certo tempo presso à Milisij ardesse senza opra di fuoco materiale vn tronco di detto legno.
+Si dice oltre di questo,che l'olio hà tanta forza contro il furore, che ancora sparso nel mare quando è turbato fà cessare la tempesta , e lo fà tornar quieto , e tranquillo.
+[ЗАГОЛОВОК: MARTIRIO.]
+[ИНИЦИАЛ: G]IOVANE bello,& ridente, vestito di rosato , con l'occhi riuolti al cielo,& le carni asperse di sangue,hauerà per le membra i segni delle ferite,le quali à guisa di pretiosissime gioie risplenderanno.
+Martirio è propriamente il supplitio, che si pate per amor di Dio, & à difesa della fede catholica,& della Religione,per gratia dello Spirito santo,& espettatione dell'eterna vita , le quali cose lo fanno stare allegro , & ridente , con il vestimento di rosato , in segno di questo amore , & con le cicatrici
+
+Колонтитул: 304 ICONOLOGIA
+Кустод: cicatrici
+Сигнатура: 
+Маргиналии:
+
+## Скан 0326 · с. 305
+
+cicatrici che sono autentici sigilli de'Santi Martiri.
+[ЗАГОЛОВОК: MAESTA REGIA.]
+Nella Medaglia di Antonino Pio.
+[ИНИЦИАЛ: V]NA donna coronata , & sedente mostri nell'aspetto grauità, nella destra mano tiene lo scettro , & in grembo dalla sinistra mano vn'aquila.
+Lo scettro, la corona , & lo stare à sedere , significa la maestà Regia, & per l'aquila gl'Egitij Sacerdoti , dinotauano la potenza Regia, percioche Gioue à questa sola diede il Regno con la signoria sopra tutti gl'vcelli , essendo frà tutti di fortezza, & di gagliardezza prestantissima,la quale essendo veramente stata dotata dalla natura de'costumi Regali, imita à fatto in tutte le cose la Regia Maestà.
+[ЗАГОЛОВОК: MARAVIGLIA.]
+[ИНИЦИАЛ: V]NA giouane che tenghi il braccio destro alquanto alto con la mano aperta , & il sinistro steso à basso con la mano parimente aperta : ma che la palma di essa mano sia riuoltata verso la terra, & con gamba più indietro che l'altra, starà con la testa alquanto china verso della spalla sinistra , & con l'occhi riuolti in alto.
+Marauiglia è vn certo stupore di animo , che viene quando si rappresenta cosa nuoua à sensi, li quali sospesi in quella rendono l'huomo ammiratiuo , & stupido , che perciò si dipinge con il gesto del capo , & delle braccia nella guisa che si è detto.
+Giouane si rappresenta, percioche il marauigliarsi è proprio delli giouani , non essendo ancora in loro esperienza.
+[ЗАГОЛОВОК: MATRIMONIO.]
+[ИНИЦИАЛ: V]N giouane di prima barba il qual tiene nella mano sinistra vn'anello, ouero vna fede d'oro, & con la destra s'appoggi ad vn giogo .
+Matrimonio è nome di quell'atto che si fà nell'accoppiare l'huomo , & la donna in marito , & moglie , legitimo, il quale appresso à noi Christiani è Sacramento ; vedi S.Mattheo al 19.
+La fede d'oro dimostra la fedeltà , e purità dell'animo , che deue essere trà il marito, & la moglie , & il primo vso dell' anello fù , ( secondo che racconta il Pierio Valeriano) per tener à memoria di mandare ad effetto qualche cosa particolare , & si faceua il detto anello, ouero ricordo di cosa molto vile ; dapoi crescendo l'industria, & l'ambitione di vana pretentione di pompa , si venne all'oro , & alle gemme, portate per ornamento delle mani, dall'intentione di quel primo vso è nato poi , & riceuuto come per legge , che si debbano portare per segno di Matrimonio ; per ricordanza d'osseruare in perpetuo la fede promessa vna volta.
+Il giogo dimostra che il Matrimonio doma gl'animi giouenili, e li rende per se , & per l'altri profitteuoli.
+[ЗАГОЛОВОК: Matrimonio.]
+[ИНИЦИАЛ: V]N giouane pomposamente vestito , con vn giogo sopra il collo , & con i ceppi à i piedi , con vn'anello , ouero vna fede d'oro in dito , tenendo
+
+Колонтитул: DI CESARE RIPA. 305
+Кустод: tenendo
+Сигнатура: 
+Маргиналии:
+
+## Скан 0327 · с. 306
+
+[ГРАВЮРА: без подписи]
+tenendo nella medesima mano vn cotogno , & sotto à piedi hauerà vna vipera.
+Per lo giogo , & per li ceppi si dimostra , che il Matrimonio è peso alle forze dell'huomo assai graue , & è impedimento al caminare in molte attioni di libertà , essendo il maritarsi vn vendere se stesso , & obligarsi à legge perpetua , con tutto ciò è caro , & desiderabile per molti rispetti , & particolarmente per lo acquisto de' successori nelle sue facoltà , le quali siano veri heredi della robba , & della fama , per l'honore , & credito che s'acquista nella Città , prendendosi questo carico per mantenimento d'essa , & per lo piacere di Venere che lecitamente se ne gode , però si fà con l'anello, il quale è segno di preminenza,& di grado honorato.
+
+Колонтитул: 306 ICONOLOGIA / MATRIMONIO.
+Кустод: Il coto-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0328 · с. 307
+
+Il cotogno, per commandamento di Solone , si presentaua à gli sposi in Athene,come dedicato à Venere per la fecondità, & si vede in molte medaglie scolpito in quest'istesso proposito, perche sono inditio d'amore scambieuole;come dice il Pierio,gittandosi alle Donne nobili in alcuni luoghi,per effetto amoroso con baciamento di mani dall'vna , & dall'altra parte, ò più tosto perche si dice l'huomo corre il frutto,quando viene à quel fine, che si conseguisce lecitamente per mezo del matrimonio,essendo altrimenti peccato graue,& che ci fà alieni dal regno di Dio.
+La vipera sotto i piedi,dimostra che si deue calpestrare, come cosa vile ogni pensiero,che sia con danno della compagnia,à chi è congiunto in matrimonio, fuggendo il costume della vipera, che per diletto amoroso ammazza il marito, come s'è detto altroue.
+[ЗАГОЛОВОК: MATHEMATICA.]
+[ИНИЦИАЛ: D]O N N A di mez'età,vestita di velo bianco è trasparenti,con l'ali alla testa, le treccie siano distese giù per le spalle, con vn compasso nella destra mano, mostri di misurare vna tauola segnata d'alcune figure, & numeri,& sostentata da vn fanciullo al quale ella mostri di parlare insegnandoli,con l'altra mano terrà vna palla grande figurata per la terra col disegno dell'hore,& circoli celesti, & nel lembo della veste sia vn fregio intessuto di figure Mathematiche, siano i piedi ignudi sopra vna base.
+Il vestimento trasparente dimostra, che ella sia di aperte, & chiare dimostrationi,nelche auanza facilmente l'altre scienze.
+L'ali alla testa insegnano, che ella col'ingegno s'inalza al volo della contemplatione delle cose astratte.
+La faccia di giouane lasciua,conuiene alla Poesia, & all'altre professioni, che nell'età giouanili oprano la forza loro,& somministrano allegrezza che è proprietà della giouentù. Ma alla Mathematica conuiene l'aspetto di donna graue,& di matrona nobile , talche ne molte grinze la guastino, nè molta splendidezza l'adorni,perche quelle disdicano oue sia piaceuole nobiltà,questa perche arguisce pochi anni, ouero poca prudenza , & molta lasciuia ilche non è in questa scienza amata da tutti gl'huomini dotti , che non si fondano nella vanità delle parole, ò de concetti plebei, de quali prendono solo materia di nudrirsi l'orecchi degl'huomini più delicati,& meno sapienti ; Questo istesso mostrano le treccie sparse senza arte per le spalle,che da se sole danno ornamento à se medesime.
+Il compasso è l'istromento proprio , & proportionato di questa professione,& mostra che ella di tutte le cose dà la proportione , la regola , è la misura.
+Stà in atto di tirare il circolo,perche se bene la Mathematica è speculatiua scienza, denominandola dal suo più vero, & nobil fine , nondimeno ancora l'vso, è fine, se non della scienza, almeno di chi la possiede,essendo necessario dopò l'acquisto dell'habito d'essa per giouamēto dell'altri manifestarla
+
+Колонтитул: DI CESARE RIPA. 307
+Кустод: nifestarla
+Сигнатура: 
+Маргиналии:
+
+## Скан 0329 · с. 308
+
+[ГРАВЮРА: без подписи]
+nifestarla in qualche modo , e di qui sono nate l'inuentioni di musiche , di prospettiua , di Architettura , di Geometria , d'Aritmetica,e d'altre professioni , che tutti date alle Stampe,& cauate da'principij di questa scienza continuamente recono gusto alli studiosi con sodisfattione de gl' autori , i quali per questi mezi , come per ampia scala sagliono alla fama , & all'immortalità.
+Tali habbiamo molti de gl'antichi , & non pochi che viuono à gloria dell'età nostra , frà quali hanno luogo Christoforo Clauio , Giouan Paolo Vernalione , Giouan Battista Raimondo, Luca Valerio, Federico Metio, Pietro Maillardi , Cesare Ruida, Camillo Agrippa, & molti altri che con esquisita scienza , & con fondamento che viuamente possiedono in premio delle fatiche loro in dono in questa professione al nostro secolo fama
+
+Колонтитул: 308 ICONOLOGIA / MATEMATICA.
+Кустод: smarrita
 Сигнатура: 
 Маргиналии:
