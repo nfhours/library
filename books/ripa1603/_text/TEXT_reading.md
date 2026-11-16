@@ -7137,7 +7137,7 @@ Si rappresenta bella per la vaghezza della Prouincia molto bene distinta dalla n
 Si dipinge di virile aspetto con vna mano appoggiata alla targa, & altre armi, per mostrare li buoni soldati, che d'essa Prouincia escono.
 Si li mette per cimiero il pico arme di questa regione, essendo che il pico
 
-Колонтитул: DI CESARE RIPA. 169
+Колонтитул: DI CESARE RIPA. 269
 Кустод: vcello
 Сигнатура: 
 Маргиналии:

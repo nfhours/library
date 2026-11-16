@@ -288,7 +288,7 @@ scan,label,printed_number,state,unclear,engravings,note,method,discrepancies,err
 0287,266,,done,0,1,,triple,7,0,1,0,5,0,0,0,0,,,
 0288,267,267,done,0,2,,triple,7,1,1,0,5,1,0,0,1,,,
 0289,268,,done,1,0,,triple,21,1,1,0,16,3,0,0,3,,,
-0290,269,169,done,0,2,,triple,4,1,0,0,3,1,0,0,1,,,
+0290,269,269,done,0,2,,triple,4,1,0,0,3,1,0,0,1,,,
 0291,270,,done,4,1,,triple,24,15,11,5,1,2,1,0,1,,,
 0292,271,271,done,0,1,,triple,2,2,1,1,0,1,0,1,0,,,
 0293,272,,done,0,0,,triple,6,2,3,0,1,1,0,1,0,,,
