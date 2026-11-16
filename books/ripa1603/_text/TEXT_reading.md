@@ -7160,7 +7160,7 @@ La verga dimostra il gouerno della natura, per la quale tutte le cose (massime q
 [ГРАВЮРА: без подписи]
 Si dimostra anco per la verga ritorta l' anno, il qual si ritorce in se stesso.
 nell'altra mano tiene la fistula delle sette canne, perche fù Pan il primo, che trouasse il modo di comporre più canne insieme con cera, & il primo che la sonasse ancora, come dice Virgilio nell'egloga 2.
-Si rappresenta dal mezo in giù in forma di capra pelosoо, & ispido, intendendosi per ciò la terra, la qual'è dura, aspra, & tutta disuguale, coperta d'arbori d'infinite piante, & di molt'herbe.
+Si rappresenta dal mezo in giù in forma di capra peloso, & ispido, intendendosi per ciò la terra, la qual'è dura, aspra, & tutta disuguale, coperta d'arbori d'infinite piante, & di molt'herbe.
 
 Колонтитул: DI CESARE RIPA / MONDO. / Come dipinto dal Boccaccio nel primo libro della Geneologia delli Dei, con le quattro sue Parti. / 331
 Кустод: MON-
@@ -7558,5 +7558,493 @@ Se li dà la cetera per l'auttorità del Poeta, che nel detto opuscolo dice Terp
 
 Колонтитул: 348 ICONOA LOGI
 Кустод: Gli
+Сигнатура: 
+Маргиналии:
+
+## Скан 0370 · с. 349
+
+Gli si dà la ghirlanda, come si è detto, sì perche soleuano gli antichi tal'hora coronare le Muse con penne di diuersi colori, mostrando con esse il trofeo della vittoria, che hebbero le Muse per hauer vinto le Sirene à cantare, come scriue Pausania nel 9. lib. della Grecia, & le noue figliuole di Pierio, & di Euripe, & conuertite in Gaze, come dice Ouidio nel 5. lib. delle trasformationi.
+Significano anco dette penne l'agilità, & moto di detta Musa, essendo Terpsicore sopra i balli.
+[ЗАГОЛОВОК: VRANIA.]
+[ИНИЦИАЛ: H]AVERA' vna ghirlanda di lucenti stelle, sarà vestita di azurro, & hauerà in mano vn globo rappresentante le sfere celesti.
+La presente Musa è detta da Latini celeste, significando ὀρανός, che è l'istesso che il Cielo. Vogliono alcuni che ella sia cosi detta, perche inalza al cielo gl'huomini dotti.
+Se gli dà la corona di stelle, & il vestimento azurro in conformità del suo significato, & globo sferico, dicendo cosi, Virg. in opusc. de Musis.
+*Vrania cœli motus scrutatur, & astra.*
+[ЗАГОЛОВОК: CALLIOPE.]
+[ИНИЦИАЛ: G]IOVANE ancor'ella, & hauerà cinta la fronte di vn cerchio d'oro, nel braccio sinistro terrà molte ghirlande di lauro; & con la destra mano tre libri, in ciascan de'quali apparirà il proprio titolo, cioè in vn'Odissea, nell'altro Ilias, & nel terzo Eneide.
+Calliope è detta dalla bella voce, quasi [?] donde anco Homero lo chiama Deam clamantem.
+Se gli cinge la fronte con il cerchio d'oro, perche secondo Hesiodo, è la più degna, & la prima tra le sue compagne, come anco dimostra Ouidio lib.5. Fasti. *Prima sui cœpit Calliopæ chori.*
+Et Lucano, & Lucretio lib.6.
+*Calliope requier hominum, dicumque voluptas.*
+Le corone d'alloro dimostrano, che ella fà i Poeti, essendo queste premio loro, & simbolo della Poesia.
+I libri sono l'opere de più illustri Poeti in verso heroico, il quale verso si attribuisce à questa musa per il verso di Vergilio in opusc.
+*Carmina Calliope libris heroica mandat.*
+A questi versi di Vergilio c'habbiamo citati si confanno li simulacri de le muse, che stanno impresse nel lib. de Fuluio Orsino de Familijs Romanorum nelle medaglie della gente Pomponia.
+[ЗАГОЛОВОК: MVSE.]
+*Cauate da certe Medaglie antiche dal Sig. Vincenzo della Porta eccellentissimo nell'Atichità.*
+[ЗАГОЛОВОК: CLIO.]
+[ИНИЦИАЛ: T]ene vna tromba, per mostrare le lodi che ella fà risonare per li fatti de gli huomini illustri.
+
+Колонтитул: DI CESARE RIPA. 349
+Кустод: Euterpe
+Сигнатура: 
+Маргиналии:
+
+## Скан 0371 · с. 350
+
+[ЗАГОЛОВОК: Euterpe.]
+Con due Tibie.
+[ЗАГОЛОВОК: Talia.]
+Con vna maschera, percioche à detta Musa vogliono che fosse la Comedia dedicata, hà ne i piedi i socchi.
+[ЗАГОЛОВОК: Melpomene.]
+Con vn mascharone in segno della Tragedia, hà ne i piedi i coturni.
+[ЗАГОЛОВОК: Terpsicore.]
+Tiene questa Musa vna citara.
+[ЗАГОЛОВОК: Erato.]
+Con la lira, & capelli longhi, come datrice de l'Elegia.
+[ЗАГОЛОВОК: Polinnia.]
+Con il barbito da vna mano, & con la penna da l'altra.
+[ЗАГОЛОВОК: Vrania.]
+Con la sesta facendo vn cerchio: ma molto meglio che tenghi vna sfera poiche à lei si attribuisce l'Astrologia.
+[ЗАГОЛОВОК: Calliope.]
+Con vn volume, per scriuere i fatti de gl'huomini illustri.
+[ЗАГОЛОВОК: MVSE.]
+*Dipinte con grandissima diligenza, & le pitture di esse le hà il Signor Francesco Bonauentura, Gentil'huomo Fiorentino, amatore, & molto intelligente di belle lettere.*
+[ЗАГОЛОВОК: Clio.]
+Con vna tromba in mano.
+[ЗАГОЛОВОК: Euterpe.]
+Con vn flauto in mano, & con molti altri stromenti da fiato alli piedi.
+[ЗАГОЛОВОК: Talia.]
+Con vn volume.
+[ЗАГОЛОВОК: Melpomene.]
+Con vna maschara.
+[ЗАГОЛОВОК: Terpsicore.]
+Con vn arpa.
+[ЗАГОЛОВОК: Erato.]
+Con vn squadro.
+[ЗАГОЛОВОК: Polinnia.]
+Con vn aria presso alla bocca in segno della voce, & vna mano alzata per li gesti de'quali si serue l'Oratore.
+[ЗАГОЛОВОК: Vrania]
+Con vn globo celeste.
+[ЗАГОЛОВОК: Calliope.]
+Con vn libro.
+
+Колонтитул: 350 ICONOLOGIA
+Кустод: MV-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0372 · с. 351
+
+[ЗАГОЛОВОК: MVSE.]
+*Come dipinte dall'Illustrissimo Cardinal di Ferrara à Monte Cauallo nel suo giardino.*
+[ЗАГОЛОВОК: Clio.]
+[ИНИЦИАЛ: C]On la destra mano tiene vna tromba, & con la sinistra vn volume, e dalla medesima banda vi è vn puttino, che per ciascuna mano tiene vna facella accesa, & in capo vna ghirlanda.
+[ЗАГОЛОВОК: Euterpe.]
+[ИНИЦИАЛ: C]On ambe le mani tiene vna maschara.
+[ЗАГОЛОВОК: Talia.]
+[ИНИЦИАЛ: C]On la destra mano tiene vna maschara con i corni, & con la sinistra vn cornucopia pieno di foglie, & di spighe di grano : ma verdi, & per terra vn'aratro.
+[ЗАГОЛОВОК: Melpomene.]
+[ИНИЦИАЛ: C]On la destra mano tiene vna maschara, & con la sinistra vna tromba, & per terra vi è vn libro di musica aperto.
+[ЗАГОЛОВОК: Terpsicore.]
+[ИНИЦИАЛ: C]On la sinistra mano tiene vna lira, & con la destra il plettro.
+[ЗАГОЛОВОК: Erato.]
+[ИНИЦИАЛ: T]Ien con la destra mano vn corno di diuitie pieno di fronde, fiori, & diuersi frutti, & con la sinistra mano vn flauto, & dalla medesima banda vi è vn Cupido, che con la sinistra mano tien vna maschara, & con la destra vn'arco con la corda sciolta.
+[ЗАГОЛОВОК: Polinnia.]
+[ИНИЦИАЛ: T]Ien con la destra mano vn legno simile ad vna misura, & con la sinistra vna maschara, & per terra vn'aratro.
+[ЗАГОЛОВОК: Calliope.]
+[ИНИЦИАЛ: C]On la destra mano tiene vn libro, & con la sinistra vn pifaro, & per terra vna maschara.
+[ЗАГОЛОВОК: Vrania.]
+[ИНИЦИАЛ: T]Ien con la destra mano vna tauola bianca, appoggiata alla coscia, & con la sinistra vn specchio.
+[ЗАГОЛОВОК: NATVRA.]
+[ИНИЦИАЛ: D]ONNA ignuda, con le mammelle cariche di latte, & con vn'auoltore in mano, come si vede in vna Medaglia d'Adriano Imperatore, essendo la Natura, come diffinisce Aristotile nel 2. della Fisica, principio in quella cosa, oue ella si ritroua del moto, & della mutatione, per la quale si genera ogni cosa corruttibile.
+Si farà donna, & ignuda, & diuidendosi questo principio in attiuo, & passiuo, l'attiuo dimandorono con il nome di forma, & con nome di materia il passiuo.
+L'attiuo si nota con le mammelle piene di latte, perche la forma è che nudrisce, & sostenta tutte le cose create, come con le mammelle la donna nutrisce, & sostenta li fanciulli.
+
+Колонтитул: DI CESARE RIPA. 351
+Кустод: L'auol-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0373 · с. 352
+
+L'Auoltore vccello auidissimo di preda, dimostra particolarmente l'altro principio dimandato materia, la quale per lo appetito della forma mouendosi, & alterandosi strugge à poco à poco tutte le cose corruttibili.
+[ЗАГОЛОВОК: NAVIGATIONE.]
+[ИНИЦИАЛ: D]ONNA la quale con gratiosa attitudine tenga vna vela donde pendano le sarte sopra vn timone da naue, & stia in atto di riguardare con attentione vn Nibbio, che vada per l'aria volando, & di lontano per mare si veda vna naue che scorra à piena vela.
+La vela, le sarte, il timone, & la naue sono cose note per sè stesse, & danno cognitione della figura senza molta difficoltà.
+Il Nibbio vccello rapace, & ingordo, si pone con l'autorità di Plinio nella naturale historia, oue dice, che gl'antichi imparauano d'acconciare il timone alla naue dal volare del Nibbio, osseruando che come questo vccello per lo spatioso campo dell'aria, và hor quà, & hor là, mouendo con gratia le penne della coda, per dar à sè stesso aiuto nel volgere, & aggirar il corpo, accompagnando il volo con l'ali, così medesimamente si poteua col timone posto dietro alla naue, volgendo nel modo che volgeua la coda quest'vccello, con l'aiuto della vela solcar il mare, ancorche fusse turbato, & hauendo fatto di ciò proua di felice successo, vollero, che questo vccello fosse il hieroglifico della Nauigatione, come nel Pierio Valeriano si legge al suo luogo.
+[ЗАГОЛОВОК: Nauigatione.]
+[ИНИЦИАЛ: V]Na donna ignuda, prostrata in terra, che habbia gli capelli lunghissimi, che spargendoli per terra venghino à fare onde, simili à quelle del mare, tenendo con vna delle mani vn remo, & con l'altra la carta, & bussolo da nauicare.
+[ЗАГОЛОВОК: NINFE IN COMMVNE.]
+[ИНИЦИАЛ: D]ALLE fintioni de gl'Antichi non è dubbio alcuno, che molte, & diuerse vtilità si possino raccorre, dimostrando la potenza, & prouidenza di Dio; perche altri ne insegnano precetti di Religione, moralità, & altri simili beneficij, si come hora particolarmente con l'allegoria delle Ninfe si dinota l'opera della natura, significandosi per esse Ninfe la virtù vegetatiua consistente nell'humore preparato, per la quale si fà la generatione, nutritione, & aumento delle cose; onde si dice le Ninfe esser figliuole dell'Oceano, madri del fiume, nutrici di Bacco, si dicono fruttifere, vaghe di fiori, che pascano gli armenti, mantengono la vita de'mortali, & che in lor tutela, & cura i monti, le valli, i prati, i boschi, & gl'alberi, & ciò non per altra cagione, che per esser detta virtù dell'humore sparsa in tutte le sudette cose, & operare simili effetti naturali, si come intese Orfeo celebrando in vn suo hinno le dette Ninfe, in questa sentenza.
+*Nutrices Bacchi, quibus est occulta domus*
+*Quæ fructiferæ, & lætæ pratorum floribus æstis,*
+*Pascitis, & pecudes, & opem mortalibus ipsæ.*
+
+Колонтитул: 352 ICONOLOGIA
+Кустод: Cum
+Сигнатура: 
+Маргиналии:
+
+## Скан 0374 · с. 353
+
+*Cum Cerere, & Bacco vitam portastis alumnæ.*
+Le quali cose siano dette qui in commune delle Ninfe per non hauere à replicare l'istesse cose nella esplicatione delle particolari figure, che seguiranno appresso.
+[ЗАГОЛОВОК: Ninnedi, & Napee.]
+[ИНИЦИАЛ: S]Aranno donzelle gratiose, il lor habito succinto, & come dir si suole nitale, di color verde, l'acconciatura della testa adornaranno varie sorti di fiori con loro mischiati, & varij colori, mostraranno anco gran quantità di herbette, e fiori nel grembo raccolti, tenendolo con ambi le mani di quà, & di là con bell'atto spaso.
+Il Boccaccio nel libro della Geneologia de li Dei riferisce le Ninfe de prati, & de fiori chiamarsi Ninnedi: ma Natale Comite lib. 5. de le mythologie al cap.12. de le Ninfe, dice tali Ninfe chiamarsi Napee voce deriuata dalla Greca, napos, che significa colliua, & pascolo.
+Il verde colore del vestimento, le tenere herbette, & fiori dimostrano quel che è lor naturale.
+[ЗАГОЛОВОК: Driadi, & Hamadriadi.]
+[ИНИЦИАЛ: S]I dipingeranno donne rozze, senza alcun ornamento di testa, anzi in vece di capelli si potrà fargli vna chioma di musco arboreo, ò lanugine, che si vede pender intorno à i rami de l'arbori.
+L'habito sia di verde oscuro, li stiualetti di scorza d'albori, in ciascuna mano terrà vn ramo d'albero siluestro col suo frutto, cioè chi di ginepro, chi di quercia, chi di cerro, & altri simili.
+Le Driadi, & Hamadriadi sono Ninfe de le selue, & de le quercie. Mnesimaco vuole, che siano nominate Driadi, perche ne le quercie menano lor vita, & che siano dette Hamadriadi, perche insieme con le quercie son prodotte, ouero, come dice il Commentatore d'Apollonio, & Isacio perche elle con le quercie periscono.
+Il misterio Filosofico contenuto sotto queste fintioni, si è dichiarato di sopra, quando s'è detto de le Ninfe in commune.
+[ЗАГОЛОВОК: Ninfe di Diana.]
+[ИНИЦИАЛ: T]Vtte le Ninfe di Diana saranno vestite d'habito succinto, & di color bianco in segno de la lor virginità.
+Haueran le braccia, & spalle quasi nude, con arco in mano, & faretra al fianco.
+Così le dipinge Claudiano 3. lib. de le laudi di Stilicone quando dice.
+*Et pharetra tarum comitum inuiolabile cogis*
+*Concilium veniunt humeros & brachia nudæ.*
+Nel palazzo dell'Illustrissimo, & Reuerendissimo Signor Cardinale Farnese ve n'è vna di queste Ninfe, molto gratiosa, & fatta con le medesime osseruationi.
+Potrebbesi anco oltre il succinto vestimento adornare di pelle di varij animali per segno che sieno cacciatrici.
+
+Колонтитул: DI CESARE RIPA. 353
+Кустод: NA-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0375 · с. 354
+
+[ЗАГОЛОВОК: NAIADI.]
+[ЗАГОЛОВОК: Ninfe de fiumi.]
+[ИНИЦИАЛ: S]Iano donzelle leggiadre, con braccia, e gambe nude, con capelli lucidi e chiari come d'argento, e di cristallo per gl'omeri sparsi.
+Ciascuna harà in capo vna ghirlanda di foglie di canna, e sotto il braccio sinistro vn'vrna da la qual n'esca acqua.
+Dice il Boccaccio nel 7. lib. della Geneologia delli Dei le Naiade esser dette da voce significante flusso, & quella commotione che si vede nell'acque mentre scorrono.
+Si fan con braccia, gambe, e piedi nudi, per significare la semplicità de l'acque, essendo elemento senza mistione.
+Li capelli chiari, lucenti, & sparsi significano l'acque correnti.
+Il vaso, & la ghirlanda di canne son per segno de la loro podestà ne le acque, & per quella ragione per la quale si danno l'vrne, & le ghirlande à i fiumi.
+[ЗАГОЛОВОК: MARE.]
+[ИНИЦИАЛ: V]N vecchio con crini longhi, barba folta, inordinata, farà nudo, & orrido, ma à torno si vedrà cortina, che suolazzando gli copra le parti dinanzi, sotto vn piede si vedrà vn delfino, e sotto l'altro vna conchiglia marina, & in mano vn timon di naue, ò d'altri vasselli da solcar il mare.
+Si dipinge il mare huomo vecchio, per esser egli antichissimo, & coetaneo de la nostra madre terra.
+Si fa horrido, e spauenteuole per le sue commotioni.
+Il lenzuolo d'atorno gli fa vela, & il timone che tiene con la mano, essendo istromenti significanti l'operationi di nauigare dichiarano la conditione di esso mare.
+Il medesimo effetto fa il delfino, & la conchiglia, essendo animali, che si generano, & viuono in questo largo campo.
+[ЗАГОЛОВОК: THETHI.]
+[ЗАГОЛОВОК: Ninfa del Mare.]
+[ИНИЦИАЛ: D]ONNA di carnagion fosca, hauerà i capegli sparsi torno al capo, gli faranno vna ghirlanda di gongole, & chiocchiole marine, hauerà per vestimento vn velo di color turchino, & terrà in mano vna bella pianta ramosa di coralli.
+Teti fù finta esser Dea marina, & si intende per essa quella massa d'acqua, ò vogliamo dire humore apparecchiato, & consparente à la generatione, & nutritione perciòche è detta Thetys, quasi tithyj, cioè nutrice, perche l'humore nutrisce ogni cosa, ò pur s'intende l'elemento de l'acqua, il quale abondantissimamente si racchiude dal mare, il che intese Virgilio nel suo Polione con questi versi.
+*Pauca tamen suberunt priscæ vestigia fraudis*
+*Quæ tentare Thetin ratibus quæ cingere muris*
+*Oppida, &c.*
+Da Theti tiene il cognome in Perugia mia patria l'antica famiglia
+
+Колонтитул: 354 ICONOLOGIA
+Кустод: hono-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0376 · с. 355
+
+honorata hoggi nẽ la persona del Signor Girolamo Tetij gentil'huomo di rarissime qualità.
+Il color de le carni, e del velo di Teti dimostrano quel de l'acque marine.
+Le gongole, le chiocciole, & la pianta de coralli sono cose di mare atte à far più manifesta la nostra figura.
+[ЗАГОЛОВОК: Galatea.]
+[ИНИЦИАЛ: D]Onna giouane bianchissima, le chiome faran sparse, rilucenti, quasi fila d'argento, terrà à l'orecchie pendenti di chiarissime, & finissime perle, de le quali hauerà vna collana, & per vestimento vn velo candido come latte, parte à torno il corpo rauuolto, & à l'aria spiegato, con vna mano terrà il velo, & con l'altra vna spugna, i piedi si poseranno sopra vna bianchissima conchiglia.
+Galatea è detta da gada, che significa latte, però la candidezza de la carne, & del velo rispondono al significato del nome, & à l'esser suo.
+Le perle, & le conchiglie sono per segno che è Deità del mare.
+Quanto à la spugna narra il Boccaccio nel 7. lib. de la geneol. de i Dei, che per Galatea Dea de la bianchezza si dinota la schiuma, che da l'onde marine sbattute accogliente fra loro l'aere si genera, la qual è bianchissima, da la qual poi si generano le spugne.
+[ЗАГОЛОВОК: NINFE DE L'ARIA.]
+[ЗАГОЛОВОК: Iride.]
+[ИНИЦИАЛ: V]Na fanciulla con l'ali spiegate in forma d'vn mezo cerchio, le quali sieno di diuersi orlini, cioè di porpora, paonazzo, azurro, verde, & che le chiome sieno sparse auanti il volto, il petto in forma di nebbia, & gocciole minute d'acqua, che cadano per la persona, frà le quali si vedano varij colori mischiati del vestimento, dal ginocchio in giù da nuole, & aere caliginoso coperta, e con la man destra tenga vn giglio ceruleo.
+L'iride, è l'arco che volgarmente chiamano arco baleno.
+Si fa fanciulla alata, per essere secondo che riferisce Phornuto nel primo libro de la natura de li Dei, chiamata da'Poeti veloce, & messaggiera de li Dei, & massime di Giunone di cui si dice che è Ninfa, percioche Virgilio nel quinto libro de l'Enéide fà che Giunone la mandi per ambasciatrice.
+*Irim de cœlo misit Saturnia Iunio*
+*Iliacam ad classem: ventosque aspirat eunti*
+*Multa mouens, nec dum, antiquum extaurata dolorem*
+*Illa viam celerans per mille coloribus arcum*
+*Nulli visa, cito decurrit tramite Virgo.*
+Ouero vogliamo noi dire, che è messaggiera per esser prenuncia de la futura pioggia, ò serenità. Le fascie di colori ne l'ali sono per rappresentar quelle che si vedono ne l'arco baleno. I capelli figurati con nebbia, & gocciole minute, dimostrano quella minuta pioggia, senza la quale non si farebbe arco. Non si vede detta figura da le ginocchia à basso, perche l'arco baleno non è mai circolo perfetto.
+
+Колонтитул: DI CESARE RIPA. 355
+Кустод: Il giglio
+Сигнатура: 
+Маргиналии:
+
+## Скан 0377 · с. 356
+
+Il giglio torchino che tien in mano, se gli conuiene per li varij colori, che tiene l'arco baleno; onde è detto Iris, del cui arco, & Iride appariscono bellissime descrittioni ne gli opuscoli di Vergilio, vna delle quali è questa.
+*Thaumantis proles varianti veste figuras,*
+*Multicolor picto per nubila deuolat arcu:*
+*Cum Sol ardentes radios in nubila iecit.*
+Et più à basso.
+*Nuncia Iunonis vario decorata colore*
+*Aethera nubificum complectitur orbe decoro,*
+*Cum Phœbus radios in nubem iecit aquosam.*
+[ЗАГОЛОВОК: Serenità del Giorno.]
+[ЗАГОЛОВОК: Ninfa dell'aria.]
+[ИНИЦИАЛ: V]Na giouanetta in habito di Ninfa, di colore giallo, con bionde, & longe treccie ornate di perle, & di veli di più colori, sopra alla chioma poserà vn Sole chiaro, & bellissimo, à piè del quale penderà vn velo d'oro, & con bella gratia caderà sopra le spalle di detta figura.
+Il colore del vestimento sarà torchino, & ne i piedi hauerà li stiualetti d'oro.
+Così hò osseruato esser dipinta la serenità del giorno in molti luochi; onde potiamo dire, che la bellezza, & gl'adornamenti di questa figura, significano quanto sia vago, & bello il giorno chiaro, & sereno, il che dimostra anco il color del vestimento, & il risplendente Sole.
+[ЗАГОЛОВОК: Serenità della Notte.]
+[ИНИЦИАЛ: A]Ncor'essa con habito alla Ninfale di color azurro, tutto contesto di chiarissime stelle d'oro, sarà di carnagione fosca, i capelli saranno alquanto oscuretti, & le treccie saranno adorne di perle, & di veli paonazzi, sopra li quali si poserà vna luna d'argento con vn velo di argento, & di seta azurra, che gli cali sopra le spalle con bella gratia.
+[ЗАГОЛОВОК: Pioggia.]
+[ЗАГОЛОВОК: Ninfa dell'Aria.]
+[ИНИЦИАЛ: V]Na fanciulla vestita di bigio, hauerà in capo vna ghirlanda di sette stelle, delle quali sarà vna scura, & nel petto n'hauerà altre 17. delle quali sette saranno oscure, & dieci chiare, in mano terrà vn ragnatelo, che faccia la tela.
+Le sette stelle, che porta in capo, sono le Pleiade, le quali spesse volte menano pioggia; onde Statio nel 4. della Thebaide dice così.
+*Inachæ Persa: neque violentior exit*
+*Amnis humo*
+*Cum Taurum, aut Pleiadas ausit aquosa.*
+Et per le dicisette stelle del petto s'intende l'Orione, ch'è vna figura, la quale apparendo, fa pioggie, e tempeste assai, però Virgilio nel primo dell'Eneide così dice.
+*Cum subito assurgens fluctu nymbosus Orion.*
+
+Колонтитул: 356 ICONOLOGIA
+Кустод: Et
+Сигнатура: 
+Маргиналии:
+
+## Скан 0378 · с. 357
+
+Et Propertio nel 2. libro delle sue Elegie.
+*Non hæc Pleiades faciunt, neque aquosus Orion.*
+Gli si dà il ragno come dicemmo; perche quando è tempo da piouere, fà la tela sua, con più fretta, & assiduità, che quando è sereno, seruendosi del beneficio del tempo, essendo all'hora più opportuno per cagione dell'humido à far quell'opera che nel tempo sereno, & asciutto; onde Plinio nel lib.11. dell'historia naturale parlando così dice.
+*Aedem sereno non texunt, nubilo texunt, ideoq; multa Aranea imbrium signa.*
+Il color bigio del vestimento, come dicemmo, è color proprio, & segno del Cielo disposto à piouere; onde sopra di ciò Tibullo nel 2. lib. così dice.
+*Quamuis præsens picta ferrugine cœlum*
+*Venturam admittat imbrifer arcus aquam.*
+[ЗАГОЛОВОК: RVGIADA.]
+[ЗАГОЛОВОК: Ninfa dell'Aria.]
+[ИНИЦИАЛ: D]ONNA vestita di verde, in capo hauerà vna acconciatura di cespugli, & tronchi d'arbori pieni tutti di rugiada, come anco tutto il restante di sua figura; Hauerà parimente sopra tutti i cespugli vna luna piena, si fà il vestimento di color verde, per significare gli herbosi prati, & verdeggiante campagne doue la rugiada si riposa, & si mantiene longo tẽpo.
+La Luna piena, denota il tempo opportuno alla sua generatione, scriuendo Aristotile nel 3. lib. delle Meteore della rugiada, & della brina, che il lume, & calor della Luna quanto è maggiore, hà più forza di alzare maggiore quantità di vapori, & di tenergli sospesi in questa terza regione dell'Aria, i quali poi non essendo da forza basteuole tirati più sù alla seconda Regione, ricadendo à basso fanno molta rugiada secondo la moltitudine di detti vapori.
+[ЗАГОЛОВОК: COMETA.]
+[ЗАГОЛОВОК: Ninfa dell'Aria.]
+[ИНИЦИАЛ: V]NA giouanetta d'aspetto fiero, di carnaggione, & vestimento rosso con chioma sparsa, & parimente accesa, hauerà in fronte vna stella, con vna mano terrà vn ramo d'alloro, & vno di verminaca, & con l'altra vn pezzo di zolfo.
+Si dipinge di aspetto terribile, con le fiammeggianti chiome, & con il vestimento rosso, & la stella in fronte; percioche la Cometa è per se stessa spauenteuole, minacciando sempre qualche sinistro, & graue accidente nel mondo; si come significa Siluio Italico nel primo lib. doue disse.
+*Crine vt flammifero terret fera regna Cometes*
+*Sanguineum spargens ignem vomit atra, rubentes*
+*Fax cœlo radios, & sæua luce coruscum*
+*Scintillat sidus, terrisq; extrema minatur.*
+Gli si dà il pezzo del solforo in mano; perche la Cometa, come scriue Aristotile nel 3. lib. delle Meteore, è di natura sulfurea, & da gli Antichi fù riputata cosa prodigiosa; scriue anco Plinio nel 2. lib. dell'Historia naturale, & Virg. nella prima della Georgica.
+
+Колонтитул: DI CESARE RIPA 357
+Кустод: Fulgura
+Сигнатура: Z
+Маргиналии:
+
+## Скан 0379 · с. 358
+
+*Fulgura: nec diri toties arsere Cometæ.*
+Gli si danno in mano i rami dell'alloro, & della verminaca; perche con essi gli antichi faceuano le purgationi de portenti cattiui, che loro appariuano, si come della verminaca scriue Plinio nel lib. 22. & dell'alloro nel lib. 16. & ancora del solfo di che habbiamo detto nel 35. della sua Historia naturale.
+[ЗАГОЛОВОК: NECESSITA.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: D]ONNA, che nella mano destra tiene vn martello, & nella sinistra vn mazzo di chiodi.
+Necessità è vn essere della cosa in modo che non possa stare altrimenti, & pone ouunque si ritroua vn laccio indissolubile, & perciò si rassomiglia ad vno che porta il martello da vna mano, & dall'altra li chiodi dicendosi
+
+Колонтитул: 358 ICONOLOGIA
+Кустод: volgar-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0380 · с. 359
+
+volgarmente quando non è più tempo da determinare vna cosa con consiglio,esser fitto il chiodo intendendo la necessità dell'operationi.
+[ЗАГОЛОВОК: Necessità.]
+[ИНИЦИАЛ: D]Onna sopra d'vno alto piedestallo , che tenga vn gran fuso di Diamante,come si legge nelli scritti di Platone .
+[ЗАГОЛОВОК: NEGLIGENZA.]
+[ИНИЦИАЛ: D]ONNA vestita di habito tutto squarciato,& rotto,farà scapigliata , stando à giacere con vno horologgio da poluere di trauerso in mano,ò per terra .
+Dipingesi la Negligenza scapigliata , & mal vestita , per segno , che il negligente non è compito nelle sue attioni,& spiace generalmēte à tutti .
+Lo stare à giacere,significa desiderio di riposo,d'onde è cagionato questo vitio .
+L'horologgio posto in modo , che non corra l'arena , dinota il tempo perso,& è questo vitio figliuolo dell'Accidia , ouero nato ad vn parto con essa ; però si potrà dipingere con vna testudine, che gli cammini su per la veste,per esser lenta,& negligente nelle sue operationi per il peso della viltà dell'animo, che non la lascia vscire dalla sua natural sordidezza .
+[ЗАГОЛОВОК: NOBILTA.]
+[ИНИЦИАЛ: D]ONNA togata riccam.cō vna stella in capo,& cō vn scetro in mano.
+La veste lunga presso à Romani non era lecito portarsi da ignobili.
+La stella in capo posta,& lo scetro in mano,mostrano che è attione d'animo nobile prima inclinare à gli splendori dell'animo , significati per la stella,poi à commodi del corpo,significati nello scettro , & che la Nobiltà nasce dalla virtù di vn'animo chiaro,& splendente,& si conserua facilmente per mezzo delle ricchezze mondane .
+[ЗАГОЛОВОК: NOBILTA.]
+[ИНИЦИАЛ: D]ONNA in habito graue,cō vn'hasta nella mano destra, & nella sinistra col simolacro di Minerua,come si vede nella medaglia di Geta.
+La grauità dell'habito significa le maniere,& i costumi graui, che nella persona nobile si ricercano .
+L'asta , & il simolacro di Minerua,dimostrano,che per la fama , ò delle scienze,ò dell'armi,la nobiltà si acquista; essendo Minerua protettrice,secondo il credere de Poeti de gli vni,& dell'altri vgualmente; per esser nata dal capo di Gioue , che è il discorso , & l'intelletto per mezzo del quale questi hanno il valore , & la fama .
+[ЗАГОЛОВОК: Nobiltà.]
+[ИНИЦИАЛ: D]Onna di matura età mostrandosi nella faccia alquanto robusta , & ben disposta di corpo : farà vestita di nero honestamente,portarà in mano due corone l'vna d'oro, l'altra d'argento .
+Si fà di età matura; per dimostrare che nelli principij di nobiltà,ne anche il fine, che si notarebbe con l'età senile cioè quell'antichità de Casati, che non ritiene altro che il nome si possono dire vera nobiltà , come nota l'Arnigio nelle sue viglie . Il vestito nero conuiene al nobile per mostrare che senza splendore de vestimenti, è chiaro,& illustre per se medesimo.
+
+Колонтитул: DI CESARE RIPA. 359
+Кустод: Per
+Сигнатура: Z2
+Маргиналии:
+
+## Скан 0381 · с. 360
+
+Per le due Corone si notano i beni dell'anima , & quelli del corpo, che insieme fanno la nobiltà .
+[ЗАГОЛОВОК: NOBILTA.]
+[ГРАВЮРА: без подписи]
+[ЗАГОЛОВОК: NOTTE.]
+[ИНИЦИАЛ: D]ONNA vestita d'vn manto azurro tutto pieno di stelle , & habbia alle spalle due grande ali in atto di volare , farà di carnaggione fosca,& hauerà in capo vna ghirlanda di papauero, & nel braccio destro terrà vn fanciullo bianco, & nel sinistro vn'altro fanciullo nero , & hauerà i piedi storti ; & ambidue detti fanciulli dormiranno . Quasi tutto questo scriue Hesiodo;& il vestimento del colore del Cielo con l'ornamento delle stelle si dipinge, perche apparisce solo la notte .
+La ghirlanda di papauero per la sua singolare proprietà di fare dormire significa il sonno figliuolo, & effetto della notte ; il quale è notato più
+
+Колонтитул: 360 ICONOLOGIA
+Кустод: più
+Сигнатура: 
+Маргиналии:
+
+## Скан 0382 · с. 361
+
+più particolarmente nel fanciullo tenuto da la sinistra mano dormendo , come l'altro mal fatto,e distorto è posto per la morte. così racconta Pausania Scrittor greco ne gli Eliaci, essersi à tempo loro trouata vna statua dentro ad vn tempio ne la prouincia de gli Elei .
+[ЗАГОЛОВОК: Le quattro parti de la Notte.]
+[ЗАГОЛОВОК: Parte prima .]
+[ИНИЦИАЛ: M]Acrobio nel primo libro de i Saturnali al cap.3. diuide la notte in sette tempi, altri nondimeno son stati che l'han diuisa in quattro , fingendo la notte hauer vn carro con quattro rote , intendendo per esse le quattro parti de la notte,& questa diuisione , come dice il Boccaccio nel primo libro de la geneologia de li Dei,è stata osseruata da i Soldati, & da i nocchieri ne le guardie loro .
+Per tanto anco à noi è piaciuto diuider la notte similmente in quattro tempi,non per rappresentar le vigilie de'soldati,ò le guardie de'nocchieri ma per descriuer in genere queste parti mediante i segni, e effetti loro più noti,& conuenienti.Dico dunque che la prima parte de la notte la rappresentaremo in vna donna vestita di color bertino, vedendosi sopra la sua testa alcune stelle,& per l'aria vna nottola volante .
+Terrà con la sinistra mano vna pietra da far fuoco,sopra la quale sia vn pezzo di esca,& con la sinistra tenga vn'accialino, col quale mostri hauer percosso detta pietra,& si vedano per aria molte fauille,& l'esca accesa .
+Appresso à la detta figura vi farà vn candelieri con vna candela per accenderla .
+Il color del vestimento bertino mostra la declinatione de la luce à le tenebre de la notte .
+Le stelle , come detto habbiamo , significano come riferisce il Boccaccio nel primo libro de la Geneologia , la prima parte,essendo che in questo tempo le stelle cominciano ad apparire.
+La nottola volante, denota similmente questo tempo, perche questo animal nemico de la luce,subito che comincia à imbrunir l'aria esce fuora del suo albergo , & va volando à torno.
+Si dipinge che con la destra mano habbia percossa la pietra focaia con l'accialino per segno di voler accendere la candela,che gli sta à lato , percioche come narra il Boccaccio cessando la luce del giorno si cominciano ad accendere i lumi , per vincere con quelli le tenebre de la notte , per poter attende re à quell'opere , che in questo tempo si conuengono.
+[ЗАГОЛОВОК: Se conda parte .]
+[ИНИЦИАЛ: V]Na donna vestita di color lionato in vna notte,che con la destra mano tenghi con bellissima gratia vna sfera celeste stando in atto di contemplare quella , da vn canto vn fanciullino che dorma , & da l' altro lato vn pauone che con la coda faccia vna bella rota. Si dipinge vestita di lionato , perche come si va più vers'il profondo de la notte , così la qualità del colore deue approssimarsi al scuro de le tenebre.
+
+Колонтитул: DI CESARE RIPA. 361
+Кустод: Tien
+Сигнатура: Z3
+Маргиналии:
+
+## Скан 0383 · с. 362
+
+Tiene la sfera celeste contemplando quella , perche le stelle in questo tempo si rendono più visibili, & più atte à potersi contemplare .
+Il medesimo si può dire che significhi il pauone nella guisa , che dicemmo; percioche come riferisce Pierio Valeriano nel lib.24. gl'Egittij per esso significano la notte chiara,& stellata,vedendosi nella sua coda tanti occhi,come tante stelle nel Cielo .
+[ИНИЦИАЛ: Q]uesta parte della notte si chiama Concubia,di ciò ne fa fede il Boccaccio più volte citato ; percioche in questo tempo doppo l'essersi alquanto vegliatosi và à riposare , che per tal significato si mette à lato alla sopradetta imagine il fanciullino che dorma .
+[ЗАГОЛОВОК: Terza parte della notte .]
+[ИНИЦИАЛ: V]Na donna vestita di nero in vna notte oscura, starà giacendo in terra in atto di dormire,terrà con la destra mano vn ghiro,& accanto diuersi animali dormendo .
+Si veste di color negro, essendo che in questo tempo la notte è più oscura,& più densa,& chiamasi intempesta; percioche , come narra il Boccaccio,& come habbiamo detto altre volte à questo proposito non pare commoda à veruna operatione , che perciò si rappresenta à giacer per terra, dormendo con diuersi animali , & che tenghi con la destra mano vn ghiro addormentato,come animale , che la maggior parte del tempo quasi perduto nel sonno è priuo di ogni operatione, & sentimento essendo à lui tutto quel tempo vna perpetua notte, qual'hora descriuendo Virgilio nell'8. dell'Eneide così disse .
+*Noxerat , & terras animalia fessa per omnes*
+*Alituum , pecudumque genus sopor altus habebat :*
+[ЗАГОЛОВОК: Quarta parte della notte .]
+[ИНИЦИАЛ: D]Onna vestita di cangiante, cioè bianche,è torchino, & che dalla cinta in giù del detto vestimento siano alcune stelle , ma picciole , & poco rilucenti.
+Cóme anco sopra il capo della parte del viso vna bellissima, & rilucente stella grande, & che stando detta figura à federe mostri con bellissima gratia cusciendo di far vn vaghissimo ricamo d'oro, & di seta di varij colori,ouero tenghi vn libro aperto, & mostri di studiare .
+Gli farà a cāto vn gallo con l'ali aperte,& il capo alto in atto di cātare.
+Si veste di cangiante bianco,e torchino,& con le stelle picciole, & poco rilucenti dalla cinta in giù , per mostrare che in questo tempo comincia à cangiarsi la notte declinando le stelle,come mostra Virg.lib.8.dell'Eneid.
+*Surge,age,Nate Dea,primisque cadentibus astris*   *Iunoni ferrite preces , &c.*
+Gli si dipinge la bella,& chiara stella, come dicemmo;percioche in questo tempo ella ci porta la luce, & da i Poeti,& altri Scrittori vien chiamata Fosforo,ò lucifero,che tanto vol dire fosforo in lingua greca quanto lucifero nella latina,& portatore di luce,nell'Italiana.Onde Ouidio facendo mentione di questa stella nel primo lib.de Tristibus eleg.3. così dice.
+*Dum loquor,& flemus,cœlo nitidissimus alto*   *Stella grauis nobis lucifer ortus erat.*
+
+Колонтитул: 362 ICONOLOGIA
+Кустод: Gli si
+Сигнатура: 
+Маргиналии:
+
+## Скан 0384 · с. 363
+
+Gli si mette inanti il gallo nella guisa, che habbiamo detto , percioche questa vltima parte della notte vien detta gallocinio , conciosia cosa che venendo la notte verso il giorno,i Galli cantano, come dice Lucretio .
+*Explaudentibus alis*   *Auroram clara consuetus voce vocare .*
+Et Plinio nel lib.10. al cap.21. narra che i galli sono le nostre guardie notturne, prodotti dalla natura , per destare gl'huomini all'opere , & per rompere il sonno,essendo che alla quarta vigilia con il canto chiama alla cura , & alle fatiche .
+Onde si può dire che il gallo significhi la vigilanza , che deuono vsar gli huomini ; perche, è brutto fuor di modo dormendo consumare tutta la notte, & star longamente sepolti nel sonno, ma si bene rinfrancati che siano gli spirti, ritornare alle vsate opere , che ciò rappresenta questa pittura con fare il bellissimo ricamo d'oro,ouero come habbiamo detto,mostri di studiare, come attione più nobile , & più degna .
+[ЗАГОЛОВОК: OBEDIENZA.]
+[ИНИЦИАЛ: D]ONNA di faccia nobile,& modesta,vestita d'habito religioso, tenga con la sinistra mano vn Crocefisso, & con la destra vn giogo , col motto che dica SVAVE.
+L'obedienza e di sua natura virtù, perche consiste nel soggiogare i proprij appetiti della volontà degli altri spontaneamente per cagione di bene, ilche nõ si fà di leggiero da chi non sente stimoli della lode,& dell'honestà:Però si dipinge di faccia nobile,essẽdo i nobili più amatori dell'honesto & più amici della ragione,dalla quale deriua principalmente l'obediẽza .
+Il Crocefisso, & l'habito religioso sono segni chi per amore della Religione è commendabile sommamente l'obedienza, & però dicono i cõtemplatiui, & timorati di Dio, che in virtù d'essa si fà facilmente la Diuina bontà condescendere alle preghiere nostre , & all'adempimento de' desiderij nostri.
+Il giogo col motto SVAVE , è per dimostrare la facilità dell'obedienza quando è spontanea fù impresa di Leone X. mentre era fanciullo , la qual poi ritenne ancor nel Pontificato , adornandone tutte l'opere di magnificenza,le quali pur sono molte,che fece,& dentro,& fuori di Roma tirandola dal detto di Christo S.N.che disse *Iugum meum suaue est*, intendendo dell'obedienza,che doueuano hauer i suoi seguaci à tutti i suoi legitimi Vicarij .
+[ЗАГОЛОВОК: Obedienza .]
+[ИНИЦИАЛ: D]Onna modesta,& humile,starà con la testa china,& con gl'occhi riuolti al Cielo,donde esca vn raggio di splendore,dal quale penda vn freno,& ella allegramẽte porga le braccia per prenderlo.Et oltre ciò gl'Egittij quando voleuano rappresentare l'obedienza dipingeuano vn cane con la testa riuolta verso la schiena ; percioche nissun animal si troua più obediente di questo che lascia ancora di pigliare il cibo oltre al costume de gl'altri animali alla semplice parola del padrone per vdire , & obedire al suo cenno;Però si potrà dipingere in questo proposito , & per la dichiaratione del corpo tutto basti quel poco che si'è detto di sopra .
+
+Колонтитул: DI CESARE RIPA. 363
+Кустод: Obe-
+Сигнатура: Z4
+Маргиналии:
+
+## Скан 0385 · с. 364
+
+[ГРАВЮРА: без подписи]
+[ЗАГОЛОВОК: Obedienza.]
+[ИНИЦИАЛ: D]Onna vestita di bianco,che caminando miri vers'il cielo,nel qual sarà vn ragio di splendore,& porterà detta donna vna croce in spalla.
+Quì si nota che l'obedienza deu'esser monda d'interessi, che la macchia no piena di speranze de'premij immortali,che l'assicurino la via,& patiente à pesi de le leggi difficili al senso che la nobilitano.
+Il primo si nota nel vestito bianco,l'altro nel guardar lo splendor Cielo & il terzo ne la croce che tiene in spalla .
+[ЗАГОЛОВОК: Obedienza verso Dio.]
+[ИНИЦИАЛ: D]Onna vestita d'habito lungo, & honesto, stia con molta attentione à guardar vn sacrificio che arda sopra vn'altare,& con vna mano tinta de la vittima si tocchi l'estrema parte de l'orecchio dritto .
+
+Колонтитул: 164 ICONOLOGIA / OBEDIENZA.
+Кустод: Il si-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0386 · с. 365
+
+Il significato di questa figura si caua da le sacre lettere doue si dice, che Mosè col dito tinto nel sangue de la vittima andaua toccando l' estreme parti de l'orecchi ad Aaron sommo Sacerdote,& à suoi figliuoli,il che da i sacri Theologi s'interpreta per l'obedienza,& per la prontezza d'vdire, & esseguir le cose appartenenti al sacro culto di Dio.
+[ЗАГОЛОВОК: Obedienza.]
+[ИНИЦИАЛ: D]Onna scalza,e succinta,mostrando prontezza con vn filatorio di lana in mano,il qual si giri da l'vna,e da l'altra banda secondo ch'è mosso come si deue mouer l'obediente à cenni di chi comanda legitimamente .
+[ЗАГОЛОВОК: OBLICO.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: H]VOMO armato,con due teste,quattro braccia, e quattro mani, per mostrare,che l'huomo obligato sostien doi persone,l'vna per attender à se medesimo, l'altra per sodisfare altrui .
+Et si dipinge con quattro braccia,e due teste,significandosi per queste i pensie-
+
+Колонтитул: DI CESARE RIPA. 365
+Кустод: pensie-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0387 · с. 366
+
+pensieri dell'animo spartiti,& per quelle l'operationi diuerse .
+[ЗАГОЛОВОК: OCCASIONE.]
+[ИНИЦИАЛ: F]IDIA antico,& nobilissimo scultore,disegnò l'occasione;Dōna ignuda,con vn velo à trauerso che le copriua le parti vergognose , & con li capelli sparsi per la fronte , in modo che la nuccha restaua tutta scoperta, & calua con piedi alati ; posandosi sopra vna ruota , & con la mano destra vn rasoio .
+I capelli riuolti tutti verso la fronte ci fanno conoscere, che l'occasione si deue preuenire aspettandola al passo, & non seguirla per pigliarla quando hà volto le spalle ; perche passa velocemente , con piedi alati posasi sopra la ruota che perpetuamente si gira .
+Tiene il rasoio in mano perche deue essere subito à troncare ogni sorte d'impedimento.Onde Ausonio Poeta sopra questa statua di Fidia,il quale vi scolpì anco quella della penitenza , come che spesse volte ci pentiamo della perduta occasione à dichiaratione dell'una , & l'altra statua fece questo bell'epigramma .
+*Cuius opus ? Phidiæ , qui signum Palladis , eius ,*
+*Quique Iouem fecit , tertia palma ego sum ,*
+*Sum Dea , quæ rara : & paucis occasio nota*
+*Quid rotulæ insistis ? stare loco nequeo .*
+*Quid talaria habes ? volucris sum Mercurius qua*
+*Fortunare solet , trado ego : cum volui :*
+*Crine tegis faciem ? cognosci nolo , sed heustu ,*
+*Occipiti caluo es ? ne tenear fugiens .*
+*Quæ tibi iuncta comes ? dicat tibi , dic rogo quæsit*
+*Sum Dea , cui nomen nec Cicero ipse dedit .*
+*Sum Dea , quæ facti , non factique exigo pœnas ;*
+*Nempe vt pœniteat , sic Metanæa vocor .*
+*Tu modo dic , quid agat tecum ? si quando volaui ,*
+*Hæc manet , hanc retinent , quos ego præterij .*
+*Tu quoque dum rogitas ; dum percunctando moraris ,*
+*Elapsam dices me tibi de manibus .*
+[ЗАГОЛОВОК: ODIO CAPITALE.]
+[ИНИЦИАЛ: H]VOMO vecchio armato,che per cimiero porti due vcelli, cioè vn cardellino , & vn Egitale ambedue con l'ali aperte stando in atto di combattere insieme,nella destra mano terrà vna spada ignuda,& nel braccio sinistro vn scudo , in mezo del quale farà dipinta vna canna con le foglie, & vn ramo di felce .
+L'odio secondo S.Tomasso è vna ripugnanza , & alienatione di volontà da quello che si stima come cosa contraria, & nociua .
+Si dipinge vecchio perche negli anni in vecchiati suole star radicato come all'incontro l'ira nei giouani armati per difender se, & offender altrui.
+Gli vcelli del cimiero si fanno per l'odio che frà di loro essercitano,perche come riferisce Plutarcho negli opusculi trattando della differenza che
+
+Колонтитул: 366 ICONOLOGIA
+Кустод: che
+Сигнатура: 
+Маргиналии:
+
+## Скан 0388 · с. 367
+
+che è frà l'odio,& inuidia;il sangue di questi animaletti non si può mescolare insieme,& mescolato tutto si separa l'vno dall'altro , essercitando l'odio ancora doppo morte .
+La canna , & la felce dipinte nello scudo parimente significano odio capitale; perche se sono piantate vicino l'vna all'altra,l'vna necessariamente si secca, come racconta Pierio Valeriano nel lib. 58.
+[ЗАГОЛОВОК: Odio capitale .]
+[ИНИЦИАЛ: H]Vomo vecchio , armato con arme da difendersi, & da offendere , stia in mezo frà vn scorpione marino , & vn coccodrillo,che siano in atto di azzuffarsi à battaglia: Così dipingeuano l'odio gl'Egittij perche di questi due animali subito che l'uno vede l'altro spontaneamente s'incontrano insieme per ammazzarsi.
+[ЗАГОЛОВОК: OPERA VANA.]
+[ИНИЦИАЛ: D]ONNA , che stia con sembiante attonito, à riguardare molte tele di ragno,che essa tiene con ambe le mani, per dinotare,che si come queste tele son tessute con gran diligenza,& fabricate con fatica per la sottigliezza loro,nondimeno sono sottoposte ad ogni picciolo intoppo , perche ogni cosa le guasta come l'opere vane,non hauendo fondamento di vere,& perfette ragioni per ogni vile incontro dissipate vanno per terra .
+[ЗАГОЛОВОК: Opera vana .]
+[ИНИЦИАЛ: V]N huomo moro,ignudo , il quale con vna mano tenga vn vaso d'acqua,& se la sparga per dosso , & con l'altra mostri di volersi leuar via la negrezza, & questo può esser simbolo dell'opere vane,che alla fine non possono hauer esito lodeuole, per non esserui ne debiti mezi, & debita dispositione.
+[ЗАГОЛОВОК: Opera vana .]
+[ИНИЦИАЛ: D]Onna , la quale con la spada tagli vna gran fiamma di fuoco, ouero come si dice in prouerbio pesti l'acqua nel mortaio,se però con vero simile si potrà dipingere .
+[ЗАГОЛОВОК: OPERATIONE MANIFESTA.]
+[ИНИЦИАЛ: D]ONNA che mostri ambe le mani aperte ciaschuna di esse habbia vn occhio nel mezo della palma .
+Questa fù bellissima figura degli Antichi, & le mani s'intendono facilmente per l'operationi, come vero istromento dell'operationi nostre più principali , & necessarie .
+Per l'occhio si mostra la qualità dell'opera,che deue esser manifesta , & chiara , ne propriamente simile alla lucerna, che fa lume altrui,& per se stessa non vede,ma all'occhio,che con la sua luce adorna , & arricchisce se stesso con che si mostra,che l'operationi ne per vanagloria,ne per altro fine mecanico,si deuono essercitare,mà solo per beneficare se, & altri.
+[ЗАГОЛОВОК: OPERATIONE PERFETTA.]
+[ИНИЦИАЛ: D]ONNA che tiene con la destra mano vn specchio , & con la sinistra vn squadro , & vn compasso.
+Lo specchio doue si vedono l'imagini che nõ son reali ci può eser similitudine dell'intelletto nostro, oue faciamo a piacer nostro aiutati dalla dispo
+
+Колонтитул: DI CESARE RIPA. 367
+Кустод: sitione
+Сигнатура: 
+Маргиналии:
+
+## Скан 0389 · с. 368
+
+[ГРАВЮРА: без подписи]
+sitione naturale nascere molte idee di cose che non si vedono: ma si possono porre in opera mediante l'arte operatrice di cose sensibili per mezo di istromenti materiali.
+Oltre di questo innanzi che l'opera si possa ridurre à compimento , bisogna sapere le qualità elquisitamente,che à ciò far sono necessarie,il che si nota col compasso , & con lo squadro , che aguagliano le forze con la spesa,l'opra con l'intentione, & la cosa imaginata con la reale,senza questi si cominciano l'opere : ma non si riducono à fine lodeuole , & sono poi cagione,che molti ridono del poco giuditio di chi le cominciò, secondo il detto del Saluator nostro ne l'Euangelio.
+
+Колонтитул: 368 ICONOLOGIA / OPERATIONE MANIFESTA
+Кустод: OPI-
 Сигнатура: 
 Маргиналии:

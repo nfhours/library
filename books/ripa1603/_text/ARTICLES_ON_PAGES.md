@@ -322,3 +322,23 @@
 | 0367 | MVSE.; CLIO.; EVTERPE. |  |  | r424 | нет рамки |
 | 0368 | TALIA.; MELPOMENE.; POLINNIA. |  |  | — | нет рамки |
 | 0369 | ERATO.; TERPSICORE. |  |  | — | нет рамки |
+| 0370 | VRANIA.; CALLIOPE.; MVSE.; CLIO. |  |  | r626, r424 | нет рамки |
+| 0371 | Euterpe.; Talia.; Melpomene.; Terpsicore.; Erato.; Polinnia.; Vrania.; Calliope.; MVSE.; Clio.; Euterpe.; Talia.; Melpomene.; Terpsicore.; Erato.; Polinnia.; Vrania; Calliope. |  |  | r626, r424 | нет рамки |
+| 0372 | MVSE.; Clio.; Euterpe.; Talia.; Melpomene.; Terpsicore.; Erato.; Polinnia.; Calliope.; Vrania.; NATVRA. |  |  | r424, r626, r425 | нет рамки |
+| 0373 | NAVIGATIONE.; Nauigatione.; NINFE IN COMMVNE. |  |  | r426, r427 | нет рамки |
+| 0374 | Ninnedi, & Napee.; Driadi, & Hamadriadi.; Ninfe di Diana. |  |  | r428, r429, r430 | нет рамки |
+| 0375 | NAIADI.; Ninfe de fiumi.; MARE.; THETHI.; Ninfa del Mare. |  |  | r432, r433 | нет рамки |
+| 0376 | Galatea.; NINFE DE L'ARIA.; Iride. |  |  | r434, r435, r436 | нет рамки |
+| 0377 | Serenità del Giorno.; Ninfa dell'aria.; Serenità della Notte.; Pioggia.; Ninfa dell'Aria. |  |  | r435, r438 | нет рамки |
+| 0378 | RVGIADA.; Ninfa dell'Aria.; COMETA.; Ninfa dell'Aria. |  |  | r435 | нет рамки |
+| 0379 | NECESSITA. |  | 0379_1 | r442 | заголовок перед гравюрой |
+| 0380 | Necessità.; NEGLIGENZA.; NOBILTA.; NOBILTA.; Nobiltà. |  |  | r442, r443, r444 | нет рамки |
+| 0381 | NOBILTA.; NOTTE. |  | 0381_1 | r444 | заголовок перед гравюрой |
+| 0382 | Le quattro parti de la Notte.; Parte prima .; Se conda parte . |  |  | — | нет рамки |
+| 0383 | Terza parte della notte .; Quarta parte della notte . |  |  | r448, r449 | нет рамки |
+| 0384 | OBEDIENZA.; Obedienza . |  |  | r450 | нет рамки |
+| 0385 | Obedienza.; Obedienza verso Dio. | OBEDIENZA. | 0385_1 | r450 | бегущий заголовок |
+| 0386 | Obedienza.; OBLICO. |  | 0386_1 | r452 | заголовок перед гравюрой |
+| 0387 | OCCASIONE.; ODIO CAPITALE. |  |  | r453, r454 | нет рамки |
+| 0388 | Odio capitale .; OPERA VANA.; Opera vana .; Opera vana .; OPERATIONE MANIFESTA.; OPERATIONE PERFETTA. |  |  | r454, r455, r456, r457 | нет рамки |
+| 0389 |  | OPERATIONE MANIFESTA | 0389_1 | r456 | бегущий заголовок |
