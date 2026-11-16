@@ -1825,7 +1825,6 @@ Discordia è vn moto alteratiuo dell'animo, & de'sensi, che nasce dalle varie op
 
 ## Скан 0130 · с. 105
 
-[ЗАГОЛОВОК: .]
 [ГРАВЮРА: без подписи]
 ancorche da pochissima gente habitato, che in esso non si lasci vedere la discordia.però dissero alcuni Filosofi, ch'ella era vn principio di tutte le cose naturali.chiara cosa è,che se fra gl'huomini fosse vn'intiera concordia,che gl'elementi seguissero il medesimo tenore, che saremmo priui di quanto ha di buono,e di bello il mondo,e la natura.Ma quella discordia, che tende alla distruttione, e non alla conseruatione del ben publico, si dee riputar cosa molto abomineuole. Però si dipingono le serpi a questa figura,percioche son'i cattiui pẽsieri,i quali partoriti dalla discordia, son sempre cinti,e circondati dalla morte de gl'huomini,e dalla distruttione delle famiglie,per via di sangue,e di ferite,& per questa medesima ragione gli si benda la fronte, però Virgilio disse;
 
@@ -2240,5 +2239,489 @@ Rende mansuete,& benigne le fiere,per le quali s'intendono gl'huomini crudeli , 
 
 Колонтитул: 128 ICONOLOGIA
 Кустод: Elo-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0150 · с. 129
+
+[ИНИЦИАЛ: P]Er la figura dell'Eloquenza dipingeremo Anfione, il quale cõō il suono della Citara,& con il canto,si veda,che tiri à se molti sassi, che saranno sparsi in diuersi luoghi.
+Ciò significa, che la dolce armonia del parlare dell'Eloquenza persuade,& tira à se gl'ignoranti,rozzi,& duri huomini, che quà è là sparsi dimorino,& che insieme conuengono,& ciuilmente viuino .
+[ЗАГОЛОВОК: EMVLATIONE.]
+[ИНИЦИАЛ: D]ONNA giouane,bella con braccie ignude,& capelli biondi,& ricciuti, che riuolti in gratiosi giri, facciano vna vaga acconciatura al capo, l'habito sarà succinto, e di colore verde . Starà in atto di correre, hauendo i piedi alati, & con la destra mano tenghi con bella gratia vno sperone,ouero vn mazzo di spine.
+L'Emulatione, secondo Aristotile nel 2. lib. della Rettorica è vn dolore, il quale fà, che ci paia vedere ne i simili à noi di natura alcun ben honorato,& ancora possibile da conseguirsi, & questo dolore non nasce perche colui non habbia quel bene, ma perche noi ancora vorressimo hauerlo, & non l'habbiamo.
+Giouane si dipinge, percioche l'emulatione regna in età giouenile, essendo in quella l'animo più ardito,e generoso.
+I capelli biondi,& ricciuti,sono i pensieri, che incitano gl' emuli alla gloria.
+L'habito succinto,e di color verde,significa la speranza di conseguire quello,che si desidera.
+Le braccia,& i piedi ignudi alati,e la dimostratione del correre,dinotano la prontezza,& la velocità d'appareggiare almeno, se non trapassare le persone,che sono adornate di virtuose,& lodeuoli conditioni.
+Gli si da lo sperone,come racconta il Caualcante nella sua Rettorica, nel lib.4. dicendo,che l'emulatione è vno sperone,che fortemente punge, & incita non già i maluagi a desiderare,& operare contra il bene d'altrui come inuidiosi,ma i buoni,& generosi à procacciare à loro stessi quello, che in altrui veggendo,conoscono a loro stessi mancare,& a questo proposito si dice: *Stimulos dedit æmula virtus*.
+[ЗАГОЛОВОК: EQVITA]
+Nella medaglia di Gordiano.
+[ИНИЦИАЛ: D]ONNA vestita di bianco,che nella destra tiene le bilance, & nella sinistra vn cornucopia.
+Si dipinge vestita di bianco, perche, con candidezza d' animo senza lasciarsi corrompere dagl'interessi, questa giudica i meriti, & demeriti altrui,& li premia,& condanna,ma con piaceuolezza,& remissione,significandosi ciò per le bilance,& per il cornucopia.
+Equità in molte Medaglie.
+[ИНИЦИАЛ: V]Na donzella discinta,che stando in piedi, tenga con vna mano vn paro di bilance pari, & con l'altra vn bracciolare.
+
+Колонтитул: DI CESARE RIPA. 129 / Eloquenza.
+Кустод: Equità
+Сигнатура: 
+Маргиналии:
+
+## Скан 0151 · с. 130
+
+[ИНИЦИАЛ: D]Onna con vn regolo Lesbio di piombo in mano, perche i Lesbij fabricauano di pietre a bugne,& le spianauano solo di sopra, & di sotto,& per essere questo regolo di piombo,si piega secondo la bassezza delle pietre, ma però non esce mai del dritto : cosi l'equità si piega, & inchina all'imperfettione humana,ma però non esce mai del dritto della giustitia . Questa figura fu fatta dal Reuerendiss. Padre Ignatio Vescouo di Alatri, & Matematico già di Gregorio 13. essendosi cosi ritrouata trà le sue scritture.
+[ЗАГОЛОВОК: EQVALITA.]
+Come dipinta nella Libraria Vaticana .
+[ИНИЦИАЛ: D]ONNA , che tiene in ciascuna mano vna torcia , accendendo l'vna con l'altra.
+[ЗАГОЛОВОК: EQVINOTTIO DELLA PRIMAVERA.]
+[ИНИЦИАЛ: G]IOVANE di giusta statura,vestito dalla parte destra da alto,& a basso di color bianco,& dall'altro lato di color negro,cinto in mezzo con vna cintura alquanto larga, di color turchino,seguita senza nodi con alcune stelle, à vso di circolo, terrà sotto il braccio destro con bella gratia vn'ariete,& con la sinistra mano vn mazzo di varij fiori,& alli piedi hauera due alette del color del vestimento, cioè dal lato bianco bianche,& dal lato negro nere .
+Equinottio è quel tempo, nel quale il giorno è eguale con la notte, & questo auuiene due volte l'anno, vna di Marzo alli 21. entrando il sole nel segno dell'Ariete , portando à noi la Primauera , & di Settembre alli 13. portando l'Autunno con la maturità de'frutti.
+Si dice Equinottio,cioè eguale,& equinottiale , cioè equidiale,& anco equatore, cioè eguagliatore del giorno con la notte, & per quello, che ne mostra il Sacrobosco nella sua sfera : equinottiale è vn circolo , che diuide la sfera per mezzo,cingendo il primo mobile, lo diuide in due parti,& similmente i poli del mondo.
+Si dipinge giouane, perche venendo l'equinottio nel principio della Primauera,nel mese di Marzo,gli antichi faceuano,che in detto mese fosse principio dell'anno.Dicesi anco,che fosse la creatione del mondo,& anco l'anno della Redentione,& della Passione di N. S. & anco da quello nel primo grado dell'Ariete essere stato creato il Sole, auttore del detto Equinotio; onde non fuor di proposito gl' antichi fecero , che in questo mese fosse principio dell'anno,essendo che egli sia priuilegiato piu degl' altri, non solo per le ragioni dette di sopra , ma perche da questo si pigliano l'Epatte,le lettere Dominicali, & altri computi celesti.
+Si rappresenta di giusta statura, per essere eguagliatore,che vuol dire eguale, cioè pari.
+Il color bianco significa il giorno,& il negro la notte,la metà per eguaglianza l'vn dell'altro,il bianco dalla destra, perche il giorno precede, alla notte,per esser piu nobile .
+
+Колонтитул: ICONOLOGIA / 130 / Equità del Reuerendiss. Padre Fr. Ignatio.
+Кустод: La cin-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0152 · с. 131
+
+[ГРАВЮРА: без подписи]
+La cintura di color celeste,nella quale sono alcune stelle, ne rappresenta il circolo, che fa detto Equinotio,che cinge il primo mobile.
+Si cinge anco il detto cerchio,per esser egli senza nodo, & perche li circoli non hanno principio,ne fine,ma sono eguali.
+L'Ariete,che tiene sotto il braccio destro,ne dimostra , che entrando il sole nel detto segno,si fa l'equinotio di Primauera, che per tale dimostratione tiene con la sinistra mano il mazzo de i varij fiori,come anco dimostra, che l'ariete l'inuerno giace nel lato sinistro, & la primauera nel destro , cosi il sole nell'inuerno sta dal lato sinistro del firmamento , & nell'equinotio comincia à giacere nel destro .
+L'ali à' piedi ne dimostrano la velocità del tempo, & corso de i detti segni,
+
+Колонтитул: DI CESARE RIPA. 131 / EQVINOTTIO DELLA PRIMAVERA.
+Кустод: gni,
+Сигнатура: 
+Маргиналии:
+
+## Скан 0153 · с. 132
+
+gni,il bianco dal pie destro,per la velocita del giorno, & il negro dalla sinistra per la notte .
+[ЗАГОЛОВОК: EQVINOTIO DELL' AVTVNNO.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: H]VOMO d'età virile vestito nella guisa dell'altro,& cinto parimēte dal cerchio con le stelle , & turchino,terrà con la destra mano il segno della libra,cioè vn paro di bilance egualmente pendenti con due globi,vno per lato in dette bilance, la metà di ciascun globo sarà bianco, & l'altra metà negro, voltando l'vno al rouerscio dell'altro,& con la sinistra mano alcuni rami di più frutti,& vue, & alli piedi l'ali, come dicemmo all'Equinotio di sopra .
+Per hauer noi detto,che cosa sia Equinotio,& dichiarato il color del vestimento,come anco quello, che denota il cerchio,& l'ali alli piedi, sopra di ciò mi par che basti anco per dichiaratione à quest'altra figura,essendo che
+
+Колонтитул: ICONOLOGIA 132
+Кустод: che
+Сигнатура: 
+Маргиналии:
+
+## Скан 0154 · с. 133
+
+che in essa significa il medesimo di quella di sopra ; solo dirò quello , che significa l'essere di età virile, dico dunque, che con essa si dimostra la perfettione di questo tempo , percioche in esso molti dicono , che il nostro Signore creasse il mondo, à noi basta sapere, che nel mese di Settembre alli 13. fa l'Equinotio , & ne porta l'Autunno con la maturità , e perfettione de i frutti,che per tal significato si mostra,che con la sinistra mano ne tenghi di più forte .
+La libra, ouero bilancia è vno de i dodici segni del Zodiaco , nel quale entra il Sole il mese di Settembre, & fassi in questo tempo l'Equinotio , cioè s'vguaglia il giorno con la notte, dimostrandosi con li due globi,metà bianchi per il giorno, & metà negri per la notte , volti per vn contrario all'altro vgualmente pendenti per l'vgualità dell'vso del giorno con la notte .
+[ЗАГОЛОВОК: ERRORE.]
+[ИНИЦИАЛ: H]VOMO quasi in habito di viandante, c'habbia bendati gl'occhi, & vada con vn bastone tentone,in atto di cercare il viaggio,per andare assicurandosi, & questo va quasi sempre con l'ignoranza.
+L'errore(secondo gli Stoici)è vn'vscire di strada,& deuiare dalla linea, come il non errare è vn caminare per la via dritta senza inciampare dall'vna,ò dall'altra banda,talche tutte l'opere ò del corpo , ò dell'intelletto nostro si potrà dire, che siano in viaggio, ò pellegrinaggio,dopo il quale non storcendo,speriamo arriuare alla felicità.
+Questo ci mostrò Christo N. S. l'attioni del quale furono tutte per instruttione nostra, quando apparì à suoi discepoli in habito di pellegrino , & Iddio nel Leuitico commandando al popolo d'Israel, che non volesse, caminando torcere da vna banda,ò dall'altra . Per questa cagione l'errore si douerà fare in habito di pellegrino , ouero di viandante , non potendo essere l'errore senza il passo delle nostre attioni, ò pensieri, come si è detto .
+Gl'occhi bendati significano , che quando è oscurato il lume dell'intelletto con il velo de gl'interessi mondani, facilmente s' incorre ne gli errori.
+Il bastone,con il quale va cercando la strada , si pone per il senso, come l'occhio per l'intelletto, perche come quello è più corporeo,cosi l'atto di questo è meno sensibile,e più spirituale,e si nota in somma,che chi procede per la via del senso , facilmente può ad ogni passo errare , senza il discorso dell'intelletto , & senza la vera ragione di qualsiuoglia cosa , questo medesimo , & più chiaramente dimostra l'ignoranza , che appresso si dipinge .
+[ЗАГОЛОВОК: ESILIO.]
+Come depinto dal R.F.Ignatio Perugino Vescouo d' Alatri.
+[ИНИЦИАЛ: H]VOMO in habito da pellegrino , che con la destra mano tiene vn bordone,& con la sinistra vn falcone in pugno .
+Due esilij sono, vn publico,e l'altro priuato, il publico è quando l'huo-
+
+Колонтитул: DI CESARE RIPA. 133
+Кустод: mo ò
+Сигнатура: I
+Маргиналии:
+
+## Скан 0155 · с. 134
+
+[ГРАВЮРА: без подписи]
+mo ò per colpa, ò per sospetto è bandito dal Prencipe,ò dalla Republica, & condannato à viuere fuor di patria perpetuo , ò à tempo.
+Il priuato è quando l'huomo volontariamente,ò per qualche accidente si elegge di viuere, e morire fuor di patria, senza esserne cacciato, che ciò significa l'habito del pellegrino,& il bordone .
+Et per il publico lo dinota il falcone con i getti alli piedi.
+[ЗАГОЛОВОК: ETICA.]
+[ИНИЦИАЛ: D]ONNA di aspetto graue , terrà con la sinistra mano l'istromento detto archipendolo,& dal lato destro hauerà vn leone imbrigliato.
+L'etica significa dottrina di costumi, contenendosi con essa il concupisceuole,& irasceuole appetito nella mediocrità,e stato di mezo,oue consiste la virtù,per consistere l'estremi, il vitio al quale detto appetito s'acosta-
+
+Колонтитул: 134 ICONOLOGIA / ESILIO.
+Кустод: costa.
+Сигнатура: 
+Маргиналии:
+
+## Скан 0156 · с. 135
+
+[ГРАВЮРА: без подписи]
+costa tutta volta,che dall'vna,ò dall'altra parte declina .
+Tiene appresso di se il leone,nobile,& feroce animale, imbrigliato, per significare,ch'ella raffrena questa parte animale dell'huomo già detta.
+L'archipendolo ne da per similitudine ad intendere, che si come allora vna cosa essere bene in piano si dimostra,quando il filo pendente trà le due gambe di detto istrumento non transgredisce verso veruno de l'estremi,ma s'aggiusta con la linea segnata nella parte superiore , ond'egli descende ; così questa dottrina dell'Etica insegna l'huomo , che alla rettitudine, & vguaglianza della ragione il sensuale appetito si conforma,quando non pende à gl'estremi,ma nel mezo si ritiene .
+
+Колонтитул: DI CESARE RIPA. 135 / ETICA.
+Кустод: ETA
+Сигнатура: I 2
+Маргиналии:
+
+## Скан 0157 · с. 136
+
+[ЗАГОЛОВОК: ETA DELL'ORO.]
+[ИНИЦИАЛ: V]NA bella giouanetta all'ombra d'vn faggio,ouer d'oliuo,in mezzo del quale sia vn sciamo d'api, che habbiano fatto la fabrica, della quale si veda stillare copia dimele . Hauerà li capelli biondi com'oro, & sparsi giù per le spalle senz'artificio alcuno, ma naturalmente si veda la vaghezza loro .
+Sarà vestita d'oro senz'altro ornamento, con la destra mano terrà vn Cornucopia pieno di varij fiori, corgnole , fraole , castagne, more , & ghiande .
+Giouanetta , & vestita d'oro si rappresenta per mostrare la purità di quei tempi .
+Il semplice vestimento d'oro, & i capelli senz'artificio significano, che nell'età d'oro la verità fù aperta,e manifesta à tutti,& à questo proposito Ouidio nel libro primo delle Metamorfosi tradotto dall' Anguillara cosi dice .
+Questo vn secolo fù purgato e netto
+D'ogni maluaggio,e perfido pensiero
+Vn proceder real,libero,e schietto,
+Seruando ogn'vn la fè, dicendo il vero
+Non v'era chi temesse il fiero aspetto
+Del giudice implacabil,e seuero
+Ma giunti essendo all'hor semplici,e puri
+Viuean senza altro giudice sicuri .
+Mostra lo star'all'ombra del faggio,che in quei tempi felici d'altra habitatione non si curauano , ma solo di star sotto gl'arbori si contentauano .
+Il cornocopia pieno delle sopradette cose,& il fauo di mele, per dichiaratione d'esse cose, ne scriueremo dell' auttorità del nominato auttore nel sopradetto lib. che cosi dice .
+Senz'esser rotto, e lacerato tutto
+Dal vomero, dal rostro, e dal bidente
+Ogni soaue , e delicato frutto
+Daua il grato terren liberamente,
+E quale egli venia da lui produtto
+Tal sel godea la fortunata gente ,
+Che [?] condir le lor viuande (de
+Mãgiauan corgne,e more,e fraghe,e ghiã
+Febo sempre più lieto il suo viaggio
+Facea girando la suprema sfera,
+E con fecondo,e temperato raggio
+Recaua al mondo eterna Primauera.
+Zefiro i fior d' Aprile,e i fior di Maggio
+Notria con aura tepida,e leggiera
+Stillaua il miel da gl'elci,e da gl'oliui
+Correan nettare,e latte i fiumi,e i riui.
+[ЗАГОЛОВОК: ETA DELL' ARGENTO.]
+[ИНИЦИАЛ: V]NA giouane , ma non tanto bella, come quella di sopra, stando appresso d'vna capanna,sarà vestita d'argento,il quale vestimento farà adorno con qualche bel ricamo , & anco artificiosamente acconcia la testa con belli giri di perle ; con la destra mano s'appoggiarà sopra d'vn'aratro , & con la sinistra mano tenghi vn mazzo di spighe di grano , & nelli piedi portarà stiualetti d'argento .
+L'esser questa giouane men bella di quella dell'età dell' oro , & vestita nella guisa che dicemmo;& con la conciatura del capo, mostra la varietà di questa alla prima età dell'oro , onde sopra di ciò per dichiaratione seguitaremo quanto dice il sopradetto Anguillara nel libro citato .
+
+Колонтитул: 136 ICONOLOGIA
+Кустод: Poiche
+Сигнатура: 
+Маргиналии:
+
+## Скан 0158 · с. 137
+
+Poiche al più vecchio Dio,noioso,e lento
+Dal suo maggior figliuol fu tolto il Regno,
+Seguì il secondo secol de l'argento
+Men buon del primo,e del terzo più degno
+Che fu quel viuer lieto in parte spento,
+Che al huom conuene vsar l'arte,e l'inge-
+Seruon modi,costumi,e leggi noue, (gno,
+Si come piacque al suo tiranno Gioue .
+Egli quel dolce tempo,ch'era eterno
+Fece parte dell'anno molto breue,
+Aggiungendoui Estate,Autũno,e Verno,
+Foco empio,acuti morbi,e fredda neue.(ne
+S'hebber l' homini all'hor qualche geuer-
+Nel mãgiar,nel vestir,hor graue,hor leue
+S' accomodaron al variar del giorno
+Secondo ch'era in Cancro,o in Capricorno .
+L' aratro, le spighe del grano, come anco la capanna, mostrano la coltiuatione , che cominciò nell'età dell'argento , & l'habitatione , che in quei tempi cominciorno à vsare , come appare nella sopradetta autorità nel libro primo , doue dice.
+Già Tirsi,e Mopso il fier giouenco atterra
+Per porlo al giogo, ond'ei vi mugge,e ge-
+Già il rozzo agricoltor fere la terra (me
+Col crudo aratro,e poi vi sparge il seme,
+Nelle grotte al coperto ogn' vn s'inserra
+Ouero arbori,e frasche inteße insieme,
+E questo,e quel si fa capanna, ò loggia
+Per fuggir sole,e neue,e venti,e pioggia.
+[ЗАГОЛОВОК: ETA DEL RAME.]
+[ИНИЦИАЛ: D]ONNA d'aspetto fiero,armata,e con la veste succinta tutta ricamata in varij modi,in capo porterà vn'elmo, che per cimiero vi sia vna testa di leone,& in mano terrà vn'asta,stando in atto di fierezza, così la dipinge Ouidio nel libro primo delle Metamorfosi,doue dice.
+Dal metallo,che fuso in varie forme
+Rende adorno il Tarpeo,e'l Vaticano
+Sortì la terza età,come conforme
+A quel che trouò poi l'ingegno humano
+Che nacque al huom si vario, e si deforme
+Che li fece venir con l'arme in mano
+L'vn contra l'altro impetuosi,e fieri
+I lor discordi , e ostinati pareri .
+Al'huom, che già viuea del suo sudore
+S'aggiunse noia,incommodo,& affanno
+Pericol nella vita,e nell'honore,
+Espesso in ambidue vergogna,e danno.
+Ma se ben v'era riffa,odio,e rumore
+Non v'era falsità,non v'era inganno,
+Come fur nella quarta età più dura,
+Che dal ferro pigliò nome,e natura.
+[ЗАГОЛОВОК: ETA DEL FERRO.]
+[ИНИЦИАЛ: D]ONNA d'aspetto terribile,armata,& il vestimento farà del color del ferro , hauerà in capo vn'elmo con vna testa di lupo, con la destra mano terrà vna spada nuda in atto di combattere, & con la sinistra scudo,in mezo del quale vi sia depinta la fraude,cioè con la faccia d'huomo giusto,& il resto del corpo di serpente,con diuerse macchie, & colori, ouero in luoco di questo mostro vi si potrà dipingere vna sirena,& à canto della sopradetta figura vi saranno diuerse armi , & insegne, tamburi, trombe , & simili.
+Il mostro,ouero la sirena l'vno,e l'altro son il simbolo,della fraude, come si può vedere , doue in altri luoghi io ho parlato d'essa, & per gl'effetti,e natura della sopradetta età seguitaremo per dichiaratione il piuvolte nominato Ouidio, che di ciò così parla .
+Il ver, la fede, e ogni bontà del mondo
+Fuggirn'e vers'il Ciel spiegaron l'ali
+En terra vsciron dal tartarco fondo
+La menzogna,la fraude,e tutti i mali,
+
+Колонтитул: DI CESARE RIPA. 137
+Кустод: Ogn'in-
+Сигнатура: I 3
+Маргиналии:
+
+## Скан 0159 · с. 138
+
+Ogn' infame pensier,ogn'atto immondo
+Entrò ne'crudi petti de mortali,
+Et le pure virtù candide, e belle
+Giro à splender nel Ciel fra l'altre stelle.
+Vn cieco,& vano amor d'honori,e Regni
+Gl' huomini indusse à diuentar tiranni
+Per le ricchezze i già suegliati ingegni
+Dars' à i furti,alle forze, & all'inganni,
+A gl' homicidij, & à mille atti indegni,
+Et à tante dell'huom ruine,e danni ,
+Che per ostar in parte à tanti mali
+S'introdusser le leggi,e i tribunali.
+[ЗАГОЛОВОК: ETA DELL' ORO, ARGENTO, BRONZO, & ferro ; come rappresentate in Parigi in vna Comedia , auanti Enrico II. Rè di Francia.]
+[ЗАГОЛОВОК: ETA DELL' ORO.]
+[ИНИЦИАЛ: V]NA bellissima giouanetta,vestita d'oro,e con stiuali del medesimo, in vna mano porta vn fauo di mele , & con l'altra vn ramo di quercia con ghiande .
+[ЗАГОЛОВОК: ETA DELL' ARGENTO.]
+[ИНИЦИАЛ: D]ONNA vestita d'argento con bellissimi adornamenti di perle , & veli d'argento, come anco con gran vaghezza adorno il capo, nelli piedi porta stiualetti d'argento,e con vna delle mani vna coppia di pane.
+[ЗАГОЛОВОК: ETA DEL BRONZO.]
+[ИНИЦИАЛ: D]ONNA armata, & con vn'elmo in capo , che per cimiero porta vna testa di leone, la veste è succinta , & si l'armature,come anco la veste, sono del color del bronzo , in vna mano tiene vn'asta , & sta in atto superbo , & altiero .
+[ЗАГОЛОВОК: ETA DEL FERRO.]
+[ИНИЦИАЛ: D]ONNA armata , & vestita del color del ferro, in capo ha vna celata con vna testa di lupo,con la bocca aperta, & con la man destra tiene vn'asta con vna falce in cima d'essa, & con l'altra vn rastello , & ha i piedi d'auoltoio.
+[ЗАГОЛОВОК: ETERNITA.]
+[ИНИЦИАЛ: D]ONNA con tre teste, che tenga nella sinistra mano vn cerchio , & la destra sia col dito indice alto .
+L'eternità per non esser cosa sensibile,non può conoscersi dall'intelletto humano , che dipenda da'sensi , se non per negatione , dicendosi , che è luoco senza varietà, moto senza moto, mutatione, e tempo senza prima ò poi, fu, ò sarà fine,ò principio,però disse il Petrarca descriuendo le circostanze dell'eternità , nell'vltimo de'Trionfi .
+Non haurà luogo, fu, sarà, ne era
+Ma è solo in presente, & hora, & hoggi
+Et sola eternità raccolta , e vera.
+Però le teste sono le tre parti del tempo,cioè,presente,passato,e da venire,le quali sono ristrette in vna sola nell'eternità .
+Il dito indice alzato, è per segno di stabile fermezza, che è nell'eternità,lontana da ogni sorte di mutatione,essendo simile atto solito à farsi da coloro,che vogliono dar segno d'animo costante,e dal già fatto proponimento non si mutano.
+
+Колонтитул: 138 ICONOLOGIA
+Кустод: Il cer-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0160 · с. 139
+
+Il cerchio è simbolo dell'eternità, per non hauere principio ne fine, & per essere perfettissima fra tutte l'altre.
+[ЗАГОЛОВОК: ETERNITA.]
+*Nella medaglia di Faustina.*
+[ИНИЦИАЛ: D]ONNA in piedi, & in habito di matrona, tiene nella mano destra il mondo, & in capo vn velo che le cuopra le spalle.
+Lo star in piedi senza alcuna dimostratione di mouimento, ci fa comprendere, che nell'eternità non vi è moto, ne mutatione del tempo, ò delle cose naturali, ò dell'intelligibili. però disse il Petrarca del tempo dell'eternità.
+*Qual marauiglia hebb'io, quando restare* *Vidi in vn piè colui, che mai non stette*
+*Ma discorrendo suol tutto cangiare.*
+La ragione, perche questa figura non si faccia à sedere, essendo il sedere inditio di maggior stabilità, è che il sedere si suol notare quasi sempre quella quiete, che è correlatiua del moto, & senza il quale non si può esso intendere, & non essendo compresa sotto questo genere la quiete dell'eternità, nè anche si deue esprimere in questa maniera, ancorche da tutti questo non sia osseruato, come si dirà qui di sotto.
+Si fa donna per la conformità del nome, Matrona per l'età stabile.
+Tiene il mondo in mano, perche il mondo produce il tempo, con la sua mobiltà, & significa, che l'eternità è fuora del mondo.
+Il velo, che ambidue gl'homeri le cuopre, mostra, che quel tempo, che non è presente nell'eternità, s'occulta, essendoui eminentemente.
+*Eternità nella Medaglia di Tito.*
+[ИНИЦИАЛ: D]Onna armata, che nella destra mano tiene vn'asta, & nella sinistra vn cornucopia, e sotto à i piedi vn globo. Per la detta figura con parola eternità, non si deue intendere dell'eternità di sopra reale: ma di vna certa duratione ciuile lunghissima, che nasce dal bon gouerno, il quale consiste principalmente in proueder le cose alla vita necessarie, perche riconoscendo i Cittadini l'abondanza della beneficenza del Prencipe, hanno continouamente l'animo volto à ricompensar l'obligo con la concordia, & con la fedeltà, e però l'antichi dipinsero questa duratione, e perpetuità col cornucopia pieno di frutti, nasce parimente la lunga duratione de gli stati, dal mantenere la guerra in piedi contro le nationi barbare e nemiche, & per due cagioni, l'vna è che si mantengono i popoli bellicosi & esperti, per resistere all'audacia, & all'impeto d'altri popoli stranieri, che volessero offendere; l'altra è, che si assicura la pace, & la concordia fra i Cittadini, perche tanto maggiormente il tutto si vnisce con le parti, quanto è più combattuto dal suo contrario, & questo si è veduto, & vede tuttauia in molte Città, & Regni, che fra loro tanto più sono disuniti i cittadini, quanto meno sono da gl'inimici trauagliati, & si moltiplicano le dissentioni ciuili, con quiete, & riso dell'inimico. però si dipinge l'eternità con l'hasta, & con l'armatura.
+
+Колонтитул: DI CESARE RIPA. 139
+Кустод: ETER-
+Сигнатура: I 4
+Маргиналии:
+
+## Скан 0161 · с. 140
+
+[ЗАГОЛОВОК: ETERNITA.]
+Descritta da Francesco Barberini Fiorentino nel suo trattaio d'amore.
+[ИНИЦИАЛ: F]RANCESCO Barberini Fiorentino nel suo trattato, c'ha fatto di amore, quale si troua scritto à penna in mano di Monsignor Maffeo Barberini Chierico di Camera, & dell'istessa famiglia, hà descritto l'eternità con inuentione molto bella: & hauendola io con particolar gusto veduta, hò pensato di rappresentarla qui, secondo la copia, che dall'originale detto Monsignore si è compiaciuto lasciarmi estrarre.
+Egli la figura. donna di forma venerabile, con capelli d'oro alquanto lunghi, & ricadenti sopra alle spalle, à cui dal sinistro, e destro lato, done si douerebbero stendere le coscie, in cambio di esse si vanno prolungando due mezi circoli, che piegando quello alla destra, e questo alla sinistra parte, vanno circondando detta donna fino sopra alla testa, doue si
+
+Колонтитул: 140 ICONOLOGIA
+Кустод: ue si
+Сигнатура: 
+Маргиналии:
+
+## Скан 0162 · с. 141
+
+ue si vniscono insieme, hà due palle d'oro vna per mano alzate in su, & è vestita tutta di azurro celeste stellato, ciascuna delle quali cose è molto à proposito conueniente per denotare l'Eternità, poiche la forma circolare non ha principio, nè fine.
+L'oro è incorruttibile, & fra tutti li metalli il più perfetto, e l'azurro stellato ci rappresenta il Cielo, del quale cosa non appare più lontana dalla corruttione.
+[ЗАГОЛОВОК: Eternità.]
+[ИНИЦИАЛ: D]Onna in habito di matrona, che nella destra mano hauerà vn serpe in giro, che si tenga la coda in bocca, e terrà detta imagine vn velo in testa, che le ricuopra ambedue le spalle.
+Si ricuopre le spalle, perche il tempo passato nell'eternità non si vede.
+Il serpe in giro dimostra, che l'eternità si pasce di se stessa, ne si fomenta di cosa alcuna esteriore, & appresso à gli antichi significaua il mondo, & l'anno, che si girano perpetuamente (secondo alcuni Filosofi) in se medesimi, però se n'è rinouata pochi anni sono la memoria, & l'occasione dell'insegna di Papa Gregorio XIII. & dell'anno ritornato al suo sesto per opra di lui, & ciò sarà testimonio degno dell'eternità della fama di si gran Prencipe.
+[ЗАГОЛОВОК: Eternità.]
+[ИНИЦИАЛ: D]Onna giouane, & vestita di verde, per dimostrare, ch'ella non è sottoposta al tempo, ne consumata dalle sue forze, starà à sedere sopra vna sedia, con vn'asta, nella mano sinistra posata in terra, e con la destra sporga vn genio, così si vede scolpita in vna medaglia antica, con lettere, che dicono: CLOD. SEPT. ALB. AVG.
+Hauerà ancora in capo vn basalisco d'oro: quest'animale era appresso à gl'Egittij inditio dell'eternità, perche non può essere amazzato da animale alcuno, si come dice Oro Egittio ne'suoi Ieroglifici, anzi facilmente col fiato solo amazza le fiere, & gl'huomini, & secca l'herbe, & le piante. Fingesi di oro, perche l'oro è meno soggetto alla corruttione de gli altri metalli.
+*Eternità nella medaglia d'Adriano.*
+[ИНИЦИАЛ: D]Onna, che sostiene due teste coronate, vna per mano con queste lettere AETERNITAS AVGVSTI & S.C. vedi Sebastiano Erizzo.
+*Eternità, ò Perpetuità.*
+[ИНИЦИАЛ: D]Onna, che siede sopra vna sfera celeste, con la destra porga vn Sole, con i suoi raggi, & con la sinistra sostenga vna luna, per mostrare, come ancòra nota Pierio Valeriano ne'suoi Ieroglifici, che il Sole, è la luna sono perpetui genitori delle cose, & per propria virtù generano, e conseruano, & danno il notrimento à tutti li corpi inferiori, il che fu molto bene considerato da gli antichi Egittij, per rappresentare l'eternità, credendo fermamente, che questi due lumi del mondo fussero per durare infiniti secoli, & che fussero conseruatori, & anco nutritori
+
+Колонтитул: DI CESARE RIPA. 141
+Кустод: tori
+Сигнатура: 
+Маргиналии:
+
+## Скан 0163 · с. 142
+
+tori di tutte le cose create sotto di loro. Siede sotto la sfera celeste, come cosa, che sia durabile, & perpetua. nelle medaglie di Domitiano, & di Traiano si vede l'eternità, che con la destra mano tiene vn sole, & con la sinistra la luna, col vestimento scinto, & largo.
+[ЗАГОЛОВОК: EVENTO BVONO.]
+[ИНИЦИАЛ: G]IOVANE lieto, & vestito riccamente, nella man destra hauerà vna tazza, nella sinistra vn papauero, & vna spica di grano, questo buono euento teneuano così scolpito anticamente i Romani in Campidoglio, insieme con quello della bona fortuna, & è come vna somma felicità di buon successo in tutte le cose, però lo fingeuano in questa maniera, volendo intendere per la tazza, & per la spica la lautezza delle viuande, & del bere; per la giouentù i beni dell'animo; per l'aspetto lieto i piaceri, che dilettano, & rallegrano il corpo; per lo vestito nobile i beni della fortuna, senza i quali rimanendo ignudo il buono euento facilmente varia nome, & natura.
+Il papauero si prende per lo sonno, & per la quiete, nel che ancora si scuopre, & accresce il buono Euento.
+[ЗАГОЛОВОК: FALSITA D'AMORE, OVERO INGANNO.]
+[ИНИЦИАЛ: D]ONNA superbamente vestita, terrà con le mani vna serena, che guardi in vn specchio.
+Il falso amante sotto la delicatura d'vna leggiadra apparenza, & sotto la dolcezza delle finte parole, tiene per ingannare ascose le parti più deformi de suoi pensieri maluaggi, & per i piedi, & per l'estremità, come habbiamo detto altre volte, si prendono, & però gl'antichi dipingeuano la serena in questo proposito.
+Lo specchio è vero simbolo di falsità, perche se bene pare, che in esso specchio siano tutte quelle cose, che li sono poste innanzi, è però vna sola similitudine, che non ha realità, & quello, che gli si appresenta alla sinistra, viene alla destra mano, & medesimamente quello, che è dalla destra viene alla sinistra; il che è tutto quello, che importa questo nome di falsità, come benissimo racconta il Pierio nel lib. 42.
+[ЗАГОЛОВОК: FAMA.]
+[ИНИЦИАЛ: D]ONNA vestita d'vn velo sottile succinto à trauerso, raccolto à mezza gamba, che mostri correre leggiermente, hauerà due grand'ali, farà tutta pennata, & per tutto vi saranno tant' occhi, quante penne, & tra questi vi saranno molte bocche, & orecchie, nella destra mano terrà vna tromba, così la descrisse Virgilio, & per piu chiarezza scriueremo le sue parole medesime, tradotte in lingua nostra, così:
+*La fama è vn mal, di cui non piu veloce*
+*E nessun altro, e di volubilezza*
+*Sol viue, & caminando acquista forze,*
+*Piccola al timor primo, & poi s'inalza*
+*Fino alle stelle, & entra nella terra,*
+*E tra i nuuoli ancora estende il capo.*
+Et poco poi soggiunge.
+*E veloce di piedi, & leggier d'ale*
+*Vn mostro horrẽdo, e grande, al quale quāte*
+*Sono nel corpo piume, son tant' occhi,*
+*Di sotto vigilanti, & tanti lingue,*
+
+Колонтитул: 142 ICONOLOGIA.
+Кустод: Mara
+Сигнатура: 
+Маргиналии:
+
+## Скан 0164 · с. 143
+
+*(Marauiglia da dire) & tante bocche*
+*Suonano in lei, & tant'orecchie inalza,*
+*Vola di notte in mezzo il ciel stridendo,*
+*Et per l'ombra terrena, ne mai china*
+*Gl'occhi per dolce sonno, & siede il giorno*
+*Ala guardia del colmo d'alcun tetto,*
+*O sopra d'alte, & eminenti torri,*
+*Le gran città smarrendo, & si del falso,*
+*Come del vero è messaggier tenace.*
+[ЗАГОЛОВОК: FAMA BVONA.]
+[ИНИЦИАЛ: D]ONNA con vna tromba nella mano dritta, & nella sinistra con vn ramo d'oliua, hauerà al collo vna collana d'oro, alla quale sia per pẽdente vn cuore, & hauerà l'ali bianche à gl'homeri.
+La tromba significa il grido vniuersale sparso per gl'orecchi degl' huomini.
+Il ramo d'oliua mostra la bontà della fama, e la sincerità dell'huomo famoso per opere illustri, pigliandosi sempre & l'oliuo, & il frutto suo in buona parte; però nella Sacra Scrittura si dice dell'olio, parlandosi di Christo N.S. in figura, *Oleum effusum nomen tuum.* & dell' oliua dice il Salmo, *Oliua fructifera in domo Domini*: & per questa cagione soleuano gl'antichi coronar Gioue d'oliua, fingendolo sommamente buono, & sommamente perfetto.
+Il cuore pendente al collo, significa, come narra Oro Apolline ne i suoi Ieroglifici, la fama d'vn huomo da bene.
+L'ali di color bianco, notano la candidezza, & la velocità della fama buona.
+*Fama cattiua di Claudiano.*
+[ИНИЦИАЛ: D]Onna con vn vestito dipinto d'alcune imaginette nere, come puttini con l'ali nere, & con vna tromba in mano, conforme al detto di Claudiano nel lib. della guerra Getica, contro Alarico.
+*Famaque nigrantes succincta pauonibus alas.*
+Sono l'imaginette notate per quei timori, che si accrescono nel crescere la cattiua fama.
+L'ali nere mostrano l'oscurità dell'attioni, & la sordidezza.
+*Fama chiara nella medaglia di Antinoo.*
+[ИНИЦИАЛ: V]Na bellissima figura nuda d'vn Mercurio con i talari a' piedi, & al capo, sopra il braccio sinistro tenghi con bella gratia vn panno, & in mano il caduceo, & nella destra per lo freno vn cauallo Pegaseo, che s'erga con i piedi in alto per volare.
+La figura di Mercurio con i talari, & caduceo, significa la chiara fama percioche gl'antichi lo finsero nuntio di Gioue, e per lui s'intende il parlare cioè l'efficacia della voce, & del grido, che per tutto si spande, & si diffonde.
+I talari, & l'ale, che tiene in capo significano le parole veloci.
+Il cauallo Pegaseo s'intende per la chiara fama di Antinoo velocemente portata, & sparsa per l'vniuerso.
+Il freno d'esso cauallo gouernato da Mercurio, ci dinota, che la fama è portata dalle parole, & dalla voce, che suona dalle virtù degl' illustri fatti degl'huomini, & che tanto più, ò meno cotal fama peruiene al mondo,
+
+Колонтитул: DI CESARE RIPA. 143
+Кустод: do,
+Сигнатура: 
+Маргиналии:
+
+## Скан 0165 · с. 144
+
+[ЗАГОЛОВОК: .]
+[ГРАВЮРА: FAMA CHIARA.]
+do, quanto quella delle lingue, & dal parlare del gl'huomini è accresciuta, & sparsa.
+Et il popolo Romano per honorare Domitiano fece battere in vna Medaglia il Cauallo Pegaseo significante la fama, che per il mondo di lui s'era sparsa; vedi Sebastiano Erizzo.
+[ЗАГОЛОВОК: Fame.]
+[ИНИЦИАЛ: L]A Fame vien descritta da Ouidio nelle Metamorfosi al lib. 8. che in nostra lingua così dice.
+*Ogn'occhio infermo suo si stà seppulto.*
+*In vn'occulta, & cauernosa fossa*
+*Raro hà l'inculto crin ruuido, e sciolto*
+*E di sangue ogni vena ignuda, e sciolta,*
+*Pallido, e crespo, magno, e oscuro hà il volto*
+*E deya pelle sol vestite l'ossa*
+*E dell'ossa congiunte in varij modi*
+*Traspaien varie forme, e varij nodi.*
+
+Колонтитул: 144 ICONOLOGIA
+Кустод: De
+Сигнатура: 
+Маргиналии:
+
+## Скан 0166 · с. 145
+
+*De le ginocchia il nodo infuor si stende*
+*E per le secche coscie par gonfiato,*
+*La poppa che à la costa appesa pende*
+*Sembra vna palla di vento senza fiato*
+*Ventre nel ventre suo non sie comprende*
+*Ma il loco par che sia già ventre stato*
+*Rasembra in somma l'affamata rabbia*
+*D'ossa vn'anotomia, che l'anima habbia.*
+[ЗАГОЛОВОК: Fatica.]
+[ИНИЦИАЛ: D]Onna giouane, mal vestita, di color verde, in mano terrà vn libro aperto, stādo ī atto di leggerlo, & à cāto vi sarà vn vitello, ò giouẽco.
+La fatica, secondo il detto di Cicerone nel 2. delle Tusculane, è vna certa operatione di grand'attione d'animo, ò di corpo; & si rappresenta vestita di verde, perche la speranza la ricopre, & la mantiene.
+Si dipinge giouane, percioche la giouentù è atta alla fatica più d'ogn'altra età dell'huomo. Et Ouidio nel lib. 2. de Arte amandi volendo dimostrare, che nella giouentù si deue durar fatica, così dice.
+*Dum vires, animiq. sinunt tolerate labores*
+*Iam veniet tacito curua senecta pede.*
+Col libro si dimostra la fatica della mente, che s'apprende principalmente per mezzo de gl'occhi, come strada più facile di cognitione in ogni proposito all'intelletto. Quella del corpo si rappresenta per lo significato del giouenco conforme al detto d'Ouidio nel libro 15. delle Metamorfosi doue dice.
+*Cæde laboriferi credunt gaudere iuuenci.*
+[ЗАГОЛОВОК: Fatica.]
+[ИНИЦИАЛ: D]Onna robusta, & vestita di pelle d'asino in maniera, che la testa dell'asino faccia l'acconciatura de capelli, essendo quest'animale nato alla fatica, & à portare pesi: s'aggiungeranno ancora alla detta acconciatura due ali di Grue, & in mano terrà i piedi del medesimo vcello, il quale serue per memoria della fatica, perche è antica opinione, che i nerui dell'ali, & de piedi di Grue portati adosso, faccino sopportare ogni fatica ageuolmente, & senza alcun dispiacere, come auertisce Pierio Valeriano al libro 17.
+*Fatica estiua.*
+[ИНИЦИАЛ: V]Na giouane robusta, vestita d'habito succinto, e leggiero cō le braccia nude, che con la destra mano tenghi vna falce da mietere il grano, & con la sinistra vno scorreggiato strumento da batter il frumento, & appresso vi sia vn bue.
+Giouane, & robusta si dipinge, per esser in questa età le forze del corpo più che in altra vigorose, & anco più atta alle fatiche, come bene lo dimostra Ouidio lib. 15. Metamorfosi.
+*Fitque valens iuuenis, neque enim robustior ætas*
+*Vlla, nec vberior, nec quæ magis ardeat vlla.*
+L'habito succinto, & leggiero, & le braccia nude dimostrano la dispositione, & prontezza, che si richiede all'operatione, rimouendosi tutti l'impedimenti, come sono i vestimenti graui à quelli, che in tempo di gran caldo deuono esercitarsi alla fatica.
+La falce, & il scorreggiato sono instromenti di opere di molta fatica, massime
+
+Колонтитул: DI CESARE RIPA. 145
+Кустод: massime
+Сигнатура: 
+Маргиналии:
+
+## Скан 0167 · с. 146
+
+massime, che si fanno nella stagione ardentissima dell'estate, nella quale ogni minima fatica è grauissima, & sopra di ciò ne seruiremo del detto di Virgilio nel 4. della Georgica, oue dice.
+*Æstate laborem experiuntur.*
+Il bue, essendo posto da molti per simbolo della fatica, sarà maggiormente nota la nostra figura.
+[ЗАГОЛОВОК: Fato.]
+[ИНИЦИАЛ: H]Vomo vestito, con amplissimo vestimento di panno di lino, starà riguardando nel cielo vna stella, che risplenda in mezzo à molta luce, la quale sia terminata da alcune nuuole da tutte le bande, dalle quali cada in giro fino à terra vna catena d'oro, così è descritta nell'ottauo libro dell'Iliade, & significa, secondo che riferiscono Macrobio, & Luciano, la cognuntione, & il legamento delle cose humane con le diuine, & vn vincolo dell'humana generatione col sommo fattore suo, il quale, quando li piace tira à se, & fà inalzare le nostre menti al più alto cielo, oue mai altrimente non potremo arriuare al nostro sforzo terreno; però il diuin Platone volse, che questa catena fusse la forza dello spirito diuino, & del suo ardore celeste, dal quale sono bene spesso rapiti gl'animi di gran valore à segnalate imprese.
+Si veste di lino, perche, come racconta il Pierio Valeriano nel lib. 40. gl'antichi Sacerdoti Egittij poneuano il lino per lo fato, rendendone ragione, che come il lino è frutto, & parto della luna, così anco sono li mortali soggetti alle mutationi del cielo. Et questa come anco la seguente imagine, habbiamo descritta conforme alla superstitione de gentili, essendo cosa illecita à noi Christiani credere il fato, come diffusamente insegna S. Tomasso contra gentiles lib. 3. cap. 93.
+[ЗАГОЛОВОК: Fato.]
+[ИНИЦИАЛ: H]Vomo vestito di panno di lino, per la ragione sopradetta, hauerà in capo vna stella, nella man destra il Caduceo di Mercurio, nella sinistra vna cornacchia col fuso, ma che il filo sia tronco nel mezzo.
+Le raggioni, che si assegnano alle dette cose, sono queste primieramente, perche il fato si tiene per diuolgata opinione de sauij della gentilità, che consiste nella dispositione delle stelle, & che tutti li nostri humani affari, & importanti negotij trapassino, secondando il moto d'esso, però sopra il capo, come dominatrice si dipinge la stella detta.
+Il Caduceo denota la potestà del fato, ouero vn certo diuino spirito, ò moto, per lo quale non solamente la mente nostra, ma tutte le cose create ancora diceuano esser mosse, & gouernate, & credeuano di più i gentili, che fusse vn certo vincolo, co'l quale noi venissimo obligati, & ristretti con l'istesso Dio, & che con noi la necessità di questo medesimo adunasse tutte le cose.
+Lo dipingeuano con la cornacchia, & co'l fuso, perche così si mostra il debolissimo filo de nostri giorni, attaccato alle potenze del cielo.
+
+Колонтитул: 146 ICONOLOGIA
+Кустод: Fauore
+Сигнатура: 
+Маргиналии:
+
+## Скан 0168 · с. 147
+
+[ЗАГОЛОВОК: Fauore.]
+[ИНИЦИАЛ: G]L'antichi fingeuano vn giouane ignudo, allegro, con l'ali alle spalle, cō vna benda à gli occhi, & co'piedi tremanti staua sopra vna ruota. Io non so vedere, per qual altro fine così lo depingessero, se non per dimostrare i tre fonti, onde scaturiscono, & deriuono tutti i fauori. Il primo è la virtù, significata per l'ali da gl'antichi spesse volte, per mantenere la metafora del volo dell' ingegno. Il secondo è la fortuna, dalla quale diceuano hauer le ricchezze, & per quelle la nobiltà, le quali due cose principalmente danno, & mantengono il fauore viuo, & gagliardo, & la fortuna è dimostrata con la ruota, per la ragione da dirsi à suo luogo. l'altra cagione del fauore è il capriccio, & inclinatione di chi fauorisce, senza alcun fine stabile, ò senza sprone d'alcuna cosa ragioneuole, & questo vien significato per la cecità de gli occhi corporali, da quali s'impara esser corto il conoscimento dell'intelletto, & queste sono tre cagioni.
+Si possono ancora con queste medesime cose significare tre effetti d'esso, cioè l'ali l'ardire, che si hà dal fauore per impiegarsi à grand'imprese: la superbia, che toglie la virtù, & la conoscenza delle persone men grandi, il che si nota nella cecità, & il dominio della fortuna, che per lo più si conseguisce per mezzo de'fauori, & ciò per la ruota si manifesta, però questo si dice secondo il volgo, non douendo noi attribuire dominio alcuno alla fortuna, dipendendo tutto dalla diuina prouidenza. Et in questo s'hà da seguitare la verità, insegnataci da S. Tomasso contra gentiles li. 3. cap. 92.
+[ЗАГОЛОВОК: Fauore.]
+[ИНИЦИАЛ: V]N giouane, armato, con vno scudo grande posato in terra, oue sarà depinto il mare con vn delfino, che porti sopra al dorso vn giouine, che suoni la lira, & con la mano dritta terrà vno scettro abbassato verso la terra.
+Si depinge il fauore armato per l'audacia di scoprirsi vigoroso nelle imprese di molta difficultà, alle quali spesso s'arrischia, & ne esce facilmente con honore.
+Lo scudo è segno, che i fauori sono difesa della fama, & della robba, come esso è fatto per difesa della vita corporale.
+Il Delfino nel modo detto, accenna la fauola d'Arione nobile sonatore, il quale per inuidia d'alcuni marinari, essendo gettato dalla barca nell'acque, fù da questo pesce amoreuolmente portato alla riua, il qual'offitio si può prendere in questo proposito, perche il fauore deue esser senza obligo, & senza danno di chi lo fà, ma con vtile, & honore di chi lo riceue; le quali qualità si vedono espresse nell'attioni del delfino, che senza suo scomodo porta il sonatore per l'acque, & gli salua la vita.
+Si dice ancora esser portato vno, che è solleuato da fauore, & per mezzo d'essi facilmente viene à termine de suoi desiderij. In cambio del delfino si potrebbe ancora fare vna naue in alto mare, con vn vento, che le spiri in poppa, per dimostrare, che il fauore è l'aiuto, che s'hà per lo compimento de desiderij.
+
+Колонтитул: DI CESARE RIPA. 147
+Кустод: Lo scet-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0169 · с. 148
+
+Lo scettro piegato verso la terra è il segno, che dauano i Rè di Persia per fauorire i vassalli, trouandogli la testa, perciò si legge nell'Istorie sacre, che Assuero Artaserse detto da gli scrittori profani per fauorire Ester sua moglie, le toccò con lo scettro la testa.
+Gl'antichi ancora, dipingeuono il fauore col dito più grosso della mano piegato, di che si può vedere la ragione appresso il Pierio, & altri scrittori.
+[ЗАГОЛОВОК: FECONDITA.]
+[ИНИЦИАЛ: D]ONNA d'allegro, & giocondo viso, con grauità di matrona, coronata di senape, tenga nel grembo vna gallina con suoi pulcini à pena nati dua per oua, in terra sarà vna lepre con suoi parti mandati fuora di fresco. Per antico costume la lepre è seruita in questo proposito, come ancora la pecora con gl'angelli, perche sono di propria natura animali fecondissimi.
+Si fà coronata di senape, perche il minutissimo seme di quest'herba senza molta industria, ò diligenza del coltiuatore, frà tutte l'herbe diuiene tale, & di tanta grandezza, che è atta à sostenere gl'vcelli, che vi si posano.
+La gallina in grembo, con l'oua, che nascono due pulcini per oua, dimostra la fecondità di questo domestico vcello. Tali racconta il Pierio hauerne vedute in Padoua, & si legge ne gli scritti d'Alberto, che in vn certo luogo della Macedonia couando vna gallina 22. oua nel nascere furono ritrouati 44. pulcini.
+Adoperauano ancora gl'antichi in questo proposito la pecora con due agnelli insieme legati, perche l'antiche Matrone, quando haueano partorito due figliuoli ad vn parto soleuano sacrificare vna pecora con due agnelli à Giunone presidente dell'opulenza, & de regni, & aiutatrice delle donne ne' parti.
+Della lepre si legge, che è tanto feconda, che mentre dà il latte partorisce, & pone frà l'vno è l'altro parto pochissimo interuallo, & racconta Valerio Massimo d'vn'Isola, doue furono forzati à partirsi gl' habitatori, per la gran copia, che vi era moltiplicata di questi animali. Però non sono mancati alcuni, che hanno detto, che i maschi concepiscono, partoriscono, & nodriscono i parti proprij, come fanno le femine stesse.
+*Fecondità nella Medaglia di Mamea.*
+[ИНИЦИАЛ: D]Onna, che con la sinistra tenga vn Cornocopia, & con la destra meni per mano vn fanciullo.
+Si fà il cornucopia, per adoprarsi ancora questa parola di fecondità metaforicamente nella terra, ne gl'arbori, ne gl'ingegni, & in ogni altra cosa buona.
+*Fecondità nella Medaglia di Faustina.*
+[ИНИЦИАЛ: D]Onna sopra vn letto geniale, & intorno le scherzino due fanciulli.
+[ЗАГОЛОВОК: FEDE NELLA MEDAGLIA di Plautilla.]
+[ИНИЦИАЛ: V]N huomo con vna donna, che si danno la fede stringendosi la destra mano.
+
+Колонтитул: 148 ICONOLOGIA.
+Кустод: FEDE
 Сигнатура: 
 Маргиналии:

@@ -36,7 +36,10 @@ def main():
             if not os.path.exists(ans): print(s, "НЕТ answers.txt"); continue
             r = run(T + "reconcile.py", "--scan", s, "--answers", ans, quiet=True)
             if r.returncode: print(s, "ОШИБКА:", (r.stderr or r.stdout).strip()[-300:]); continue
-            p = open("%s/pages/%s.md" % (HERE, s), encoding="utf-8").read()
+            pth = "%s/pages/%s.md" % (HERE, s)
+            p = open(pth, encoding="utf-8").read()
+            p2 = "\n".join(l for l in p.split("\n") if l.strip() not in ("[ЗАГОЛОВОК: .]", "[ЗАГОЛОВОК: ]"))
+            if p2 != p: open(pth, "w", encoding="utf-8").write(p2); p = p2
             h = p.split("\n")[0]
             g = lambda k: int(re.search(k + r": (\d+)", h).group(1))
             tot["d"] += g("discrepancies"); tot["e1"] += g("errors_r1"); tot["e2"] += g("errors_r2"); tot["e3"] += g("errors_r3")

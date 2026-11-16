@@ -9,3 +9,6 @@
 | 0078 | 53 | dannno | danno | лишняя буква |
 | 0097 | 72 | Comedin | Comedia | перепутанная буква |
 | 0139 | 118 | ieresoluto | irresoluto | перепутанная буква |
+| 0158 | 137 | tartarco | tartareo | перепутанная буква |
+| 0161 | 140 | trattaio | trattato | перепутанная буква |
+| 0161 | 140 | done | doue | перепутанная буква |

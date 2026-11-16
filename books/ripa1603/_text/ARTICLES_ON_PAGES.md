@@ -82,7 +82,7 @@
 | 0127 |  | DESIDERIO VERS'IDDIO. | 0127_1 | r145 | бегущий заголовок |
 | 0128 | DETRATTIONE.; DIVOTIONE.; DIALETTICA. |  |  | r147, r148, r149 | нет рамки |
 | 0129 | DIGNITA.; DILIGENZA.; DISCORDIA. |  |  | r150, r151, r152 | нет рамки |
-| 0130 | . |  | 0130_1 | — | заголовок перед гравюрой |
+| 0130 |  |  | 0130_1 | — | заголовки страницы (неоднозначно) |
 | 0131 | Discordia.; Discordia.; Discordia.; DISPERATIONE. |  |  | r152, r153 | нет рамки |
 | 0132 |  |  | 0132_1 | — | заголовки страницы (неоднозначно) |
 | 0133 | DISPREGIO DELLA VIRTV.; DISEGNO.; DIVINITA. |  |  | r155, r156, r157 | нет рамки |
@@ -102,3 +102,23 @@
 | 0147 | ELOQVENZA. |  |  | r171 | нет рамки |
 | 0148 | Eloquenza.; Eloquenza. |  |  | r171 | нет рамки |
 | 0149 | Eloquenza.; Eloquenza nella Medaglia di Marc'Antonio. |  |  | r171 | нет рамки |
+| 0150 | EMVLATIONE.; EQVITA | Eloquenza. |  | r172, r173 | нет рамки |
+| 0151 | EQVALITA.; EQVINOTTIO DELLA PRIMAVERA. | 130 / Equità del Reuerendiss. Padre Fr. Ignatio. |  | r174, r175 | нет рамки |
+| 0152 |  | EQVINOTTIO DELLA PRIMAVERA. | 0152_1 | r175 | бегущий заголовок |
+| 0153 | EQVINOTIO DELL' AVTVNNO. |  | 0153_1 | r176 | заголовок перед гравюрой |
+| 0154 | ERRORE.; ESILIO. |  |  | r177, r178 | нет рамки |
+| 0155 | ETICA. | ESILIO. | 0155_1 | r178 | бегущий заголовок |
+| 0156 |  | ETICA. | 0156_1 | r179 | бегущий заголовок |
+| 0157 | ETA DELL'ORO.; ETA DELL' ARGENTO. |  |  | r180, r181 | нет рамки |
+| 0158 | ETA DEL RAME.; ETA DEL FERRO. |  |  | r182, r183 | нет рамки |
+| 0159 | ETA DELL' ORO, ARGENTO, BRONZO, & ferro ; come rappresentate in Parigi in vna Comedia , auanti Enrico II. Rè di Francia.; ETA DELL' ORO.; ETA DELL' ARGENTO.; ETA DEL BRONZO.; ETA DEL FERRO.; ETERNITA. |  |  | r180, r181, r183, r184 | нет рамки |
+| 0160 | ETERNITA. |  |  | r184 | нет рамки |
+| 0161 | ETERNITA. |  | 0161_1 | r184 | заголовки страницы (неоднозначно) |
+| 0162 | Eternità.; Eternità. |  |  | r184 | нет рамки |
+| 0163 | EVENTO BVONO.; FALSITA D'AMORE, OVERO INGANNO.; FAMA. |  |  | r186, r187, r188 | нет рамки |
+| 0164 | FAMA BVONA. |  |  | r189 | нет рамки |
+| 0165 | .; Fame. |  | 0165_1 | — | заголовок перед гравюрой |
+| 0166 | Fatica.; Fatica. |  |  | r193 | нет рамки |
+| 0167 | Fato.; Fato. |  |  | r195 | нет рамки |
+| 0168 | Fauore.; Fauore. |  |  | r196 | нет рамки |
+| 0169 | FECONDITA.; FEDE NELLA MEDAGLIA di Plautilla. |  |  | r197 | нет рамки |
