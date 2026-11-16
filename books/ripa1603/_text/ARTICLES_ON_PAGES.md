@@ -42,3 +42,23 @@
 | 0087 | CARRO D' AMORE.; CARRO DELLA CASTITA.; CARRO DELLA MORTE.; CARRO DELLA FAMA.; CARRO DEL TEMPO.; CARRO DELLA DIVINITA. |  |  | r82, r83, r84, r85, r86, r87 | нет рамки |
 | 0088 | CARESTIA.; CARITA.; Carità. |  |  | r88, r89 | нет рамки |
 | 0089 |  |  | 0089_1 | — | заголовки страницы (неоднозначно) |
+| 0090 | CARITA. |  | 0090_1 | r89 | заголовок перед гравюрой |
+| 0091 | CASTITA'; Castità.; Castità Matrimoniale. |  |  | r90, r91 | нет рамки |
+| 0092 | CASTITA. |  |  | r90 | нет рамки |
+| 0093 | CECITA DELLA MENTE.; CELERITA.; CHIAREZZA.; CLEMENZA. |  |  | r92, r93, r94, r95 | нет рамки |
+| 0094 |  | CHIAREZZA. | 0094_1 | r94 | бегущий заголовок |
+| 0095 | Clemenza.; Clemenza, e Moderatione.; Nella Medaglia di Vitellio.; COGNITIONE.; Cognitione delle cose.; COMEDIA. |  |  | r95, r96, r97, r98, r99 | нет рамки |
+| 0096 |  | COGNITIONE. | 0096_1 | r97 | бегущий заголовок |
+| 0097 | COMEDIA.; COMEDIA VECCHIA. |  |  | r99, r100 | нет рамки |
+| 0098 | COMPVNTIONE. |  |  | r101 | нет рамки |
+| 0099 | COMPLESSIONI.; COLERICO PER IL FVOCO. | COMPVNTIONE. | 0099_1 | r101 | бегущий заголовок |
+| 0100 | COLLERICO PER IL FVOCO. |  | 0100_1 | — | заголовок перед гравюрой |
+| 0101 | SANGVIGNO PER L' ARIA. |  |  | — | нет рамки |
+| 0102 | SANGVIGNO PER L' ARIA. |  | 0102_1 | — | заголовок перед гравюрой |
+| 0103 | FLEMMATICO PER L' ACQVA. |  | 0103_1 | — | заголовок перед гравюрой |
+| 0104 | MALENCONICO PER LA TERRA. |  | 0104_1 | — | заголовок перед гравюрой |
+| 0105 | CONCORDIA MARITALE.; CONCORDIA.; CONCORDIA MILITARE.; CONCORDIA EXERCITVVM. |  |  | r107, r109, r108 | нет рамки |
+| 0106 | CONCORDIA.; Concordia.; Concordia .; Concordia.; Concordia nella Medaglia di Papieno.; Concordia Militare . |  |  | r109, r108 | нет рамки |
+| 0107 | CONCORDIA DI PACE.; CONCORDIA DEGL' ANTICHI.; CONCORDIA INSVPERABILE.; CONFIDENZA.; CONFVSIONE. |  |  | r110, r111, r112, r113, r114 | нет рамки |
+| 0108 | CONFERMATIONE,; COSCIENZA.; Coscienza. |  |  | r115, r116 | нет рамки |
+| 0109 | CONSERVATIONE. |  | 0109_1 | r117 | заголовок перед гравюрой |

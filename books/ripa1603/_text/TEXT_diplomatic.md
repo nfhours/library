@@ -903,3 +903,427 @@ I tre fanciulli dimostrano, che se bene la carità è vna sola virtù, hà nondi
 Кустод: O più
 Сигнатура: 
 Маргиналии:
+
+## Скан 0090 · с. 65
+
+O più d'ogn'altro raro, e pretioso
+Dono, che in noi vien da Celeste mano
+Così haues'io lo stile alto, & sourano,
+Come son di lodarti disioso.
+Tu in cor superbo mai, ne ambitioso
+Nõ hai tuo albergo, ma in benigno, e humano
+Tu patiente sei,non opri in vano
+Ne del ben far sei tumido,ò fastoso.
+Ogni cosa suffrisci, e credi, e speri,
+Non pensi al mal, di verità sei pieno
+In ricchezze, in honor non poni affetto
+O dolce carità, che mai vien meno
+Deh có'l tuo fuoco i bassi miei pensieri
+Scaccia, e di te sol mi riscalda il petto
+[ЗАГОЛОВОК: CARITA.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: V]Na carità viddi al Signor Isidro Ruberti Auditor del Cardinal Saluiati gentil'huomo di molta bontà,& di varia eruditione ornato,& però assai caro al suo Signore. Era questa carità rappresentata da vn'arbore d'oliua, al quale cominciaua à seccar'alcuni rami, e dal tronco d'es-
+
+Колонтитул: DI CESARE RIPA. 65
+Кустод: so vsci-
+Сигнатура: E
+Маргиналии:
+
+## Скан 0091 · с. 66
+
+so vsciua vn liquore, che daua nodrimento ad alcune herbe ,e alboretti, parte de quali vsciuano dalle radici dell'arbor grande,e parte d'essi più di lontano. Credo vogli significare,che la carità, & colui, che la vuol vsare deue toglier del nodrimento a se,per compartirlo ad altri , e prima a più prossimi , e poi a più lontani. Quell'herbette credo significhino alcuni aiuti,che da a maritar Zitelle secondo intendo, & gl'alboretti certo sono alcuni Giouani, che a sue spese tiene qui in Roma a studio, tra quali sono Ludouico,& Marc'Antonio Ruberti, vno Nipote del Signor Gio. Matteo Ruberti, che fu Secretario di Paolo IV. e poi di Pio V. l'altro Nepote del Sig. Francesco Ruberti,che fu Secretario di Sisto V. mentre erano Cardinali, i quali restati poco commodi sono dal detto Sig.Isidoro, in tutto nodriti. Et perche sopra l'arbore vi è vn motto, che dice : *Moriens reuiuiscit,* par che anche voglia dire, che mentre egli inuecchia, & va alla fine, nodrendo quelli giouani in esso rinasca.
+[ЗАГОЛОВОК: CASTITA']
+[ИНИЦИАЛ: D]ONNA vestita di bianco s'appoggi ad vna colonna, sopra la quale vi farà vn criuello pieno d'acqua, in vna mano tiene vn ramo di cinnamomo, nell'altra vn vaso pieno d'anella,sotto alli piedi vn serpente morto,& per terra vi saranno danari, & gioie.
+Vestesi questa donna di bianco per rappresentare la purità dell'animo, che mantiene questa virtù , & s'appoggia alla colonna, perche non è finto, & apparente, ma durabile , & vero.
+Il criuello sopra detta colonna per lo gran caso , che successe alla Vergine Vestale è inditio ò simbolo di castità.
+Il Cinnamomo odorifero, & pretioso dimostra,che non è cosa della castità più pretiosa, & suaue, & nascendo quest'albero nelle rupi, & nelle spine mostra, che fra le spine della mortificatione di noi stessi nasce la castità , & particolarmente la verginale.
+L'anella sono indicio della castità matrimoniale.
+Il serpente è la concupiscenza che continouamente ci stimola per mezo d'amore.
+Le monete che si tiene sotto a'piedi danno segno , che il fuggir l'auaritia è conueniente mezo per conseruar la castità.
+[ЗАГОЛОВОК: Castità.]
+[ИНИЦИАЛ: D]Onna bella , d'honesta faccia, nella destra mano terrà vna sferza alzata in atto di battersi, & vn cupido con gl'occhi bendati gli stia sotto a i piedi, farà vestita di lungo, come vna Vergine vestale , & cinta nel mezo d'vna fascia,come hoggi inRoma vsano le vedoue,sopra la quale vi sia scritto il detto di S.Paolo : *Castigo corpus meum.*
+[ЗАГОЛОВОК: Castità Matrimoniale.]
+[ИНИЦИАЛ: V]NA donna vestita di bianco, in capo hauerà vna ghirlanda di ruta, nella destra mano tenga vn ramo d'alloro , & nella sinistra vna tortora.
+La ruta ha proprietà di raffrenare la libidine , per l'acutezza del suo
+
+Колонтитул: 66 ICONOLOGIA
+Кустод: odore
+Сигнатура: 
+Маргиналии:
+
+## Скан 0092 · с. 67
+
+odore , il quale essendo composto di parti sottili per la sua calidità risolue la ventosità,& spegne le fiamme di Venere , come dice il Mattiolo nel 3. lib. de suoi Commenti sopra Dioscoride.
+Tiene il ramo d'alloro , perche quest'albero hà grandissima simiglianza con la castità, douendo essa esser perpetua , come è perpetuo il verde del lauro, & stridere , & fare resistenza alle fiamme d' amore, come stridono, & resistono le sue foglie, & i suoi rami gettati sopra il fuoco. Però Ouidio nel 1. lib. delle Metamorfosi finge, che Daphne donna casta si trasformasse in lauro.
+La Tortora c'insegna co'l proprio essempio à non contaminare giamai l'honore , & la fede del Matrimonio conuersando solamente sempre con quella,che da principio s'elesse per compagna.
+Si può ancora dipingere l'armellino per la gran cura,che hà di non imbrattare la sua bianchezza,simile à quella d'vna persona casta.
+[ЗАГОЛОВОК: CASTITA.]
+[ИНИЦИАЛ: D]ONNA, che habbia velato il viso, vestita di bianco, stia in atto di caminare , con la destra mano tenga vno scettro, & con la sinistra due Tortore.
+La castità, come afferma S. Tomasso in 2. 2. quest. 151. art. 1. è nome di virtù,detta dalla castigatione della carne, ò concupiscenza,che rende l'huomo in tutto puro,& senza alcuna macchia carnale.
+Gli si fà velato il viso per esser proprio del casto raffrenar gli occhi percioche,come narra S. Gregorio ne i Morali si deuono reprimere gli occhi come rattori alla colpa.
+Il vestimento bianco denota , che la castità deue esser pura, & netta da ogni macchia , come dice Tibullo nel 2. lib. Epistola prima.
+*Casta placent superis,pura cum veste venite, Et manibus puris sumite fontis aquam.*
+Lo stare in atto di caminare dimostra, che non bisogna stare in otio causa,& origine d'ogni male,& però ben disse Ouidio de remedio amoris.
+*Otia si tollas periere cupidinis arcus.*
+Le tortori sono come riferisce Pierio Valeriano nel lib. 22. de gli suoi Ieroglifici,il simbolo della castità, percioche la tortora, perduto che hà la compagna, non si congiunge mai più.
+Lo scettro significa il dominio che hà sopra di se il casto, percioche sebene la carne è principalmente nemica dello spirito, nondimeno quando egli vole non può esser mai abbattuto,ne vinto da quello, & se bene è scritto.*Continua pugna,rara victoria* nondimeno come fiè detto di sopra,quando l'huomo hà saldoproponimento,in contrario non può esser superato in alcun modo , &prima si deue mettere in essecutione quel verso d'Ouidio nel terzo librodelle Metamorfosi , quando dice.
+*Ante ait morian quam sit tibi copia nostri.*
+Che miseramente traboccare nel vitio delle carnali concupiscenze.
+
+Колонтитул: DI CESARE RIPA. 87
+Кустод: CECI-
+Сигнатура: E 2
+Маргиналии:
+Нумерация: на странице напечатано 87 (по порядку должно быть 67)
+
+## Скан 0093 · с. 68
+
+[ЗАГОЛОВОК: CECITA DELLA MENTE.]
+[ИНИЦИАЛ: D]ONNA vestita di verde, stia in prato pieno di varij fiori, col capo chino, & con vna talpa appresso.
+Cecità si dice la priuatione della luce de gl'occhi , & per similitudine , ouero per analogia,si domanda ancora offuscatione della mente, però l'vna si dimostra con la talpa per antico costume de gl'Egittij , come racconta Oro Apolline:l'altra con la testa china verso li caduchi fiori della terra,che sono le delitie mondane,che allettano l'anima,e la tengono occupata senza profitto,perche quanto di bene il mondo lusinghiero cipromette,tutto è vn poco di terra non pur sotto falsa speranza da breue piacere ricoperta:ma con grandissimi pericoli di tutta la nostra vita , come ben dice Lucretio lib.2.de natura rerum.
+*O miseras hominum mentes,& pectora cæca, Degitur hoc aeui quodcumque est.*
+*Qualibus in tenebris vitæ,quantisq; periclis.*
+Et Ouidio nel lib.6.delle Metamorfosi.
+*Pro superi quantum mortalia pectora cæca Noctis habent.*
+[ЗАГОЛОВОК: CELERITA.]
+[ИНИЦИАЛ: D]ONNA che nella destra mano tiene vn folgore,come narra Pierio Valeriano nel lib.43.de'suoi Ieroglifici,à canto hauerà vn delfino,e per l'aria vn sparuiero ancor'egli posto dal sopradetto Pierio nel lib.21. per la celerità, ciascuno di questi è velocissimo nel suo moto dalla cognitione del quale in essi si sa facilmente che cosa sia celerità.
+[ЗАГОЛОВОК: CHIAREZZA.]
+[ИНИЦИАЛ: V]NA giouane ignuda, circondata di molto splendore da tutte le bande , & che tenga in mano il Sole.
+Chiaro si dice quello che si può ben vedere per mezo della luce,che l'illumina , & fà la chiarezza, dimandaremo quella fama che l'huomo,ò con la nobiltà, ò con la virtù s'acquista,come dimostra Pierio Valeriano nel lib.44. & S.Ambrogio chiama chiarissimi quelli , i quali son stati al mondo illustri di Santità , & di dottrina , si dice ancora Chiarezza vna delle quattro doti de'Beati in Cielo , & in ciascuno di questi significati.
+Si dipinge giouane, perche nel fiorire de'suoi meriti, ciascuno si dice essere chiaro per la similitudine del Sole,che fà visibile il tutto.
+[ЗАГОЛОВОК: CLEMENZA.]
+[ИНИЦИАЛ: D]ONNA sedendo sopra vn leone,nella sinistra mano tiene vn'asta , e nella destra vna saetta,la quale mostri di non lanciarla:ma di gittarla via,così è scolpita in vna medaglia di Seuero Imperatore con queste lettere INDVLGENTIA AVG. INCAR.
+Il leone è simbolo della clemenza , perche come raccontano i Naturali se egli per forza supera , & gitta à terra vn'huomo,se non sia ferito da lui, non lo lacera nè l'offende se non con leggierissima scossa.
+La saetta nel modo che dicemmo è segno di Clemenza , non operando-
+
+Колонтитул: 68 ICONOLOGIA
+Кустод: si in per-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0094 · с. 69
+
+[ГРАВЮРА: без подписи]
+si in pregiuditio di quelli che sono degni di castigo ; onde sopra di ciò Seneca nel libro de Clemenza così dice : *Clementia est lenitas superioris aduersus inferiorem in constituendis poenis.* Clemenza .
+[ИНИЦИАЛ: D]Onna che calchi vn monte d'armi, & con la destra mano porga vn ramo d'oliuo , apoggiandosi con il braccio sinistro ad vn tronco del medesimo albero, dal quale pendano i fasci consolari.
+La Clemenza non è altro, che vn' astinenza da correggere i rei col debito castigo , & essendo vn temperamento della seruitù, viene à comporre vna perfetta maniera di Giustitia, & à quelli che gouernano , è molto necessaria.
+Appoggiasi al tronco dell'oliuo, per mostrare , che non è altro la Clemenza , che inclinatione dell'animo alla misericordia.
+
+Колонтитул: DI CESARE RIPA. 69 / CHIAREZZA.
+Кустод: Porge
+Сигнатура: E 3
+Маргиналии:
+
+## Скан 0095 · с. 70
+
+Porge il ramo della medesima pianta per dar segno di pace,e l'armi gittate per terra co'fasci consolari sospesi, nota il non volere contra i colpeuoli essercitar la forza,secondo che si potrebbe,per rigor di giustitia,però si dice,che propriamente è Clemenza l'Indulgenza di Dio à nostri peccati però il Vida Poeta religioso in cambio di Mercurio,finge che Gioue della Clemenza si serua nell'ambasciaria,nel lib.5.della Christiade. E Seneca in Ottauia ben'esprime quāto s'è detto,di sopra della Clemenza,così dicēdo:
+*Pulchrum est eminere inter illustres viros*
+*Consulere Patriæ , parcere afflictis, fere*
+*Cedæ abstinere, tempus, atq; iræ dare*
+*Orbi quietem, Sæculo pacem suo.*
+*Hæc summa virtus , petitur hac Cœlum via*
+*Sic illæ Patriæ primus Augustus parens*
+*Complexus astra est,colitur et templis Deus.*
+[ЗАГОЛОВОК: Clemenza.]
+[ИНИЦИАЛ: D]Onna che con la sinistra mano tenga vn processo, & con la destra lo cassi con vna penna , & sotto à i piedi vi saranno alcuni libri.
+[ЗАГОЛОВОК: Clemenza, e Moderatione.]
+[ЗАГОЛОВОК: Nella Medaglia di Vitellio.]
+[ИНИЦИАЛ: D]Onna à sedere , con vn ramo di lauoro in vna mano, & con l'altra tiene vn bastone vn poco lontano.
+La Clemenza è vna virtù d'animo,che muoue l'huomo à compassione , & lo fà facile à perdonare , & pronto à souuenire.
+Si dipinge che sieda per significare mansuetudine , e quiete.
+Il bastone mostra che può,& non vuole vsare il rigore ; però ben si può dire alludendosi al presente Pontificato :
+*Cedan mille Seueri ad vn Clemente.*
+Et potrebbesi anco dire quel che dice Ouidio nel lib.3.de Ponto.
+*Principe nec nostro Deus est moderatior vllus Iustitia vires temperat ille suas.*
+Il ramo del lauro mostra , che con esso si purificauano quelli c'haueano offesi gli Dij.
+[ЗАГОЛОВОК: COGNITIONE.]
+[ИНИЦИАЛ: D]Onna che stando à sedere tenghi vna torcia accesa,& appresso haurà vn libro aperto,che con il dito indice della destra mano l'accenni.
+La torcia accesa,significa, che come à i nostri occhi corporali , fà bisogno della luce per vedere, così all'occhio nostro interno, che è l'intelletto per riceuere la cognitione delle spetie intelligibili, fà mestiero dell'istrumento estrinseco de'sensi,& particolarmente di quello del vedere, che dimostrarsi col lume della torcia,percioche come dice Aristotele: *Nihil est in intellectu, quod prius non fuerit in sensu* , ciò mostrando ancora il libro aperto, perche ò per vederlo,ò per vdirlo leggere si fà in noi la cognition delle cose.
+[ЗАГОЛОВОК: Cognitione delle cose.]
+[ИНИЦИАЛ: D]Onna che nella destra mano tiene vna verga,ouero vn scettro,& nella sinistra vn libro; da che si comprende, che la cognition delle cose s'acquista per mezo de l'attenta lettione de'libri, il che è vn dominio dell'anima.
+[ЗАГОЛОВОК: COMEDIA.]
+[ИНИЦИАЛ: D]ONNA *in* habito di zingara:ma il suo vestimento sarà divarij colori,nella destra mano terrà vn cornetto da sonar di musica,nella sinistra vna maschera,& ne'piedi i socchi.La diuersità de'colori,nota le varie, & diuer-
+
+Колонтитул: 70 ICONOLOGIA
+Кустод: & diuer-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0096 · с. 71
+
+[ГРАВЮРА: без подписи]
+& diuerse attioni,che s'esprimono in questa sorte di poesia,la quale diletta à l'occhio dell'intelletto , non meno, che la varietà de'colori diletti al'occhio corporeo,per esprimere gl'accidenti dell'humana vita, virtù,vitij, & conditioni mondane,in ogni stato,& qualità di genti, fuorche nel stato Reale . & questo si mostra con li socchi, i quali furono da gli antichi adoprati in recitar Comedie , per mostrare la mediocrità dello stile , & delle persone, che s'introducono à negotiare.
+La Comedia hà propositioni facili , & attioni difficili,& però si dipinge in habito di zingara,per essere questa sorte di gente larghissima in promettere altrui bene di fortuna, le quali difficilmente,per la pouertà propria possano communicare.
+
+Колонтитул: DI CESARE RIPA. 71 / COGNITIONE.
+Кустод: Il cor-
+Сигнатура: E 4
+Маргиналии:
+
+## Скан 0097 · с. 72
+
+Il cornetto, & la maschera s'adoprauano nelle Comedie de gl'antichi & notano l'vno l'armonia , & l'altro l'imitatione.
+I socchi sono calciamenti comici , come habbiamo detto.
+[ЗАГОЛОВОК: COMEDIA.]
+[ИНИЦИАЛ: D]Onna d'età matura,d'aspetto nobile,in mano terrà la tibia,in piedi i socchi,nell'acconciatura della testa vi saranno molti trauolgimenti,& con grande intrigo di nodi,con questo motto: *Describo mores hominum.*
+[ЗАГОЛОВОК: COMEDIA VECCHIA.]
+[ИНИЦИАЛ: D]ONNA ridente , vecchia , ma con volto grinzo,& spiaceuole,hauera il capo canuto , e scarmigliato, le vesti stracciate , & rappezzate , & di più colori variate , con la man destra terrà alcune saette,ouero vna sferza , auanti à lei vi sarà vna scimia , che gli porge vna cestella coperta , la quale scoprendo da vn canto la detta donna , con la sinistra mano faccia mostra di diuersi brutti , & venenosi animali, cioè , vipere , aspidi , rospi , & simili .
+Si dice della Comedia vecchia à distintione della nuoua , la quale successe à lei in assai cose differente , percioche li Poeti nelle scuole della vecchia Comedia dilettauano il popolo ( appresso del quale all'hora era la somma del gouerno ) col dire , & raccontare cose facete , ridicolose , acute, mordaci, in biasmo , & irrisione dell'ingiustitia de i Giudici, dell'auaritia , & corruttela de'Pretori , de'cattiui costumi , & disgratie de i Cittadini , & simili altre cose, la qual licenza poi riformando,& le sciocchezze del riso , & buffonerie , à fatto togliendo la Comedin nuoua ( richiedendo così altra fortuna di stato , e di gouerno , & altra ingegnosa,& sauia inuentione de gl'huomini ) s'astrinse à certe leggi,& honestà più ciuili, per le quali il suggetto , la locutione , & ancora la dispositione di essa è fatta molto diuersa da quello che soleua essere della sopradetta Comedia vecchia , come può il Lettore vedere à pieno le differenze , trà l'vna , e l'altra nella Poetica dello Scaligero nel primo libro detto l' Istoria al cap.7. L'offitio dunque della vecchia Comedia , essendo di tirare li vitij , & attioni de gl'huomini in riso , & sciocchezza ; perciò si è fatta la detta figura di tal viso , & forma , che se andrà di mano in mano dichiarando .
+Le vesti stracciate , & rappezzate , così per il soggetto che haueua alle mani , come per le persone che faceuano così fatta rappresentatione,non v'interuenendo come nella Tragedia persone Regali ; nè come nella Comedia togata , ò pretestata de'Romani Cittadini di conto.
+Per li varij colori del suo vestimento si dimostra la diuersità , & inconuenienza di più cose , che poneua insieme in vna compositione, & anco il vario stile, meschiando insieme diuersi generi di cose .
+La scimia che li porge la cestella, mostra la sozza imitatione per mezo la quale faceua palesi li vitij , & le bruttezze altrui, che si dimostrano , ò per li sozzi , & venenosi animali, che ella con riso , & sciocchezza scopre al popolo, di che vn'esempio si può vedere nel Gurguglione di Plauto .
+
+Колонтитул: 72 ICONOLOGIA
+Кустод: Tum i
+Сигнатура: 
+Маргиналии:
+
+## Скан 0098 · с. 73
+
+*Tum isti graci palliati, capite operto , qui ambulatur*
+*Qui incedunt suffarcinati, cum libris , cum sportulis*
+*Constant, conferunt, sermones inter se tamquam drapetæ*
+*Obstant, obsistunt, incedunt cum suis sententijs*
+*Quos semper bibentes videas esse in ænopolio*
+*Vbi quid sarripuere, operto capitulo , caldum bibant*
+*Tristes, atque ebrioli incedunt.*
+Le saette nella destra significano gl'acuti detti, & l'aspre maledicenze, con le quali licentiosamente feriua, & occideua la fama,& riputatione de particolari huomini; onde Horatio nella Poetica parlando della spetie di poesia viene à dire della Comedia vecchia in tal modo.
+*Successit vetus his comædia,non sine multa*
+*Laude,sed in vitium libertas excidit,& vim.*
+*Dignam lege Regi,lex est accepta,chorusq;;*
+*Turpiter obticuit sublato iure nocendi.*
+Et il detto Horatio ancora nel lib. 1. de'sermoni, nella Satira quarta così parlò delli Scrittori della Comedia vecchia.
+*Eupolis, atque Cratinius, Aristophanesque Poetæ*
+*Atque alij, quorum Comædia prisca virorum*
+*Si quis erat dignus describi, quod malus, aut fur*
+*Quod mœchus foret, aut Siccarius, aut alioqui*
+*Famosus multa cum libertate notabant.*
+[ЗАГОЛОВОК: COMPVNTIONE.]
+[ИНИЦИАЛ: D]ONNA vestita di cilitio, adolorata , con la bocca aperta in atto di parlare,con gl'occhi riuolti al Cielo,che versino copiose lagrime, con vna corona di pungenti spine in capo,tenendo con la sinistra manovn cuore parimenti coronato di spine,terrà la destra mano alta, & il dito indice dritto verso il cielo.
+Si fà vestita di cilitio , & lagrimeuole, perche dice S.Gio:Grisostomo, nel suo libro de compunct. cord. *Sola compunctio facit horrere purpuram, desiderare cilicium : amare lacrimas, fugere risum est enim mater fletus.*
+Se li fanno due corone di spine,perche per la spina nel salmo 31. in quel versetto che dice : *Dum configitur spina* , vien denotata la colpa contratta dal peccato , la quale del continuo morde , & punge la coscienza significata per la corona , che tiene in capo,& non bastando questa compuntione , come infruttuosa , nascendo per l'ordinario dal timore della pena , & conoscimento del male. Però se gli aggiunge la corona delle spine al cuore, denotando per quest'altra la vera compuntione del cuore , che nasce da quello immenso dolore , & conoscimento d' hauer offeso Iddio sommo bene , & persa la gratia sua , & perche la perfetta compuntione deue hauere quattro conditioni, cioè che habbia quel sommo dolore già detto , però si fà addolorata, e lagrimeuole.
+Secondo che habbia fermo proposito di non commettere più peccato , che si dimostra per l'indice alzato della man destra .
+Terzo , che similmente habbia saldo proponimento di confessarsene , il che vien significato per la bocca aperta.
+
+Колонтитул: DI CESARE RIPA. 71
+Кустод: Vltimo,
+Сигнатура: 
+Маргиналии:
+Нумерация: на странице напечатано 71 (по порядку должно быть 73)
+
+## Скан 0099 · с. 74
+
+[ГРАВЮРА: без подписи]
+Vltimo,c'habbia sodisfare , come parimente si promette per la destra alta,& pronta in operare bene,conforme alla sua bona,& santa risolutione.
+[ЗАГОЛОВОК: COMPLESSIONI.]
+[ЗАГОЛОВОК: COLERICO PER IL FVOCO.]
+[ИНИЦИАЛ: V]N giouane magro di color gialliccio,& con sguardo fiero, che essendo quasi nudo tenghi con la destra mano vna spada nuda , stando con prontezza di voler combattere .
+Da vn lato ( cioè per terra ) farà vno scudo in mezo del qual sia dipinta vna gran fiamma di fuoco,& dall'altro lato vn feroce leone.
+Dipingesi magro,perche(come dice Galeno nel 4.delli aphorismi nel commento 6.)in esso predomina molto il calore , il qual essendo cagione della siccità si rappresenta con la fiamma nello scudo.
+
+Колонтитул: 74 ICONOLOGIA / COMPVNTIONE.
+Кустод: Il co-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0100 · с. 75
+
+[ЗАГОЛОВОК: COLLERICO PER IL FVOCO.]
+[ГРАВЮРА: без подписи]
+Il color gialliccio, significa, che il predominio dell' humore del corpo spesso si viene à manifestare nel color della pelle ; d'onde nasce, che per il color bianco si dimostra la flemma ; per il pallido, ouero flauo la collera; per il rubicondo misto con bianco la complessione sanguigna; & per il fosco la malenconia , secondo Galeno nel 4. de sanitate tuenda al cap. 7. & nel 1.dell'Aphorismi nel commento 2.
+Si dipinge con fiero sguardo, essendo ciò suo proprio, come ben dimostra Ouidio nel lib. 3.de arte amandi.
+Ora tument ira nigrescunt sanguine venæ Lumina gorgoneo sæuius angue micant.
+Et Persio nella 3. Satira.
+Hunc face supposita feruescit sanguis, & ira Scintillant oculi, &c.
+
+Колонтитул: DI CESARE RIPA. 75
+Кустод: La spa-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0101 · с. 76
+
+La spada nuda, e la prontezza di voler combattere, dinota non solo il colerico esser pronto alla rissa : ma anco presto à tutte l'altre operationi, come ancora significa la sopradetta fiamma di fuoco, essendo suo proprio di ri soluere.
+Si dipinge giouane, quasi nudo, & con lo scudo per terra ; perciòche guidato dall'impetuosa passione dell'animo non si prouede di riparo: ma senza giuditio, & consiglio s'espone ad ogni pericolo, secondo il detto di Seneca in Troade : Iuuenile vitium est regere non posse impetum. Et però bene disse Auicenna nel 2. del 1. della dittione 3. al cap. 3. che quando l'opere sono fatte con maturità danno segno di vn temperamento perfetto : ma quando si fanno con impeto, & con poco consiglio danno segno di molto calore.
+Gli si dipinge il leone à canto, per dimostrare la fierezza, & animosità dell'animo nascente dalla già detta cagione . Oltre di ciò metteuisi questo animale per essere il Colerico simile à l'iracondo leone, del quale così scrisse l'Alciato ne i suoi Emblemi.
+Alceam veteres caudam dixere leonis Luthea cum surgit bilis crudescere, & atro
+Qua stimulante iras concipit, ille graues, Felle dolor furias excitat indomitas.
+Denota anco il leone esser il colerico di natura magnanima, & liberale, anzi che passando li termini, diuiene prodigo, come gl'infrascritti versi della Scuola Salernitana, non solo di questa : ma di tutte l' altre qualità sopradette dicono.
+Est humor cholera, qui competit impetuosis Inde,et magnanimi sūt,largi sūma petētes
+Hoc genus est hominū cupiēs pręcellere cūctos Hirsutus,fallax,irascens,prodigus,audax ,
+Hi leuiter discūt,multū comedūt,cito crescunt Astutus,gracilis,siccus,croceiq;coloris .
+[ЗАГОЛОВОК: SANGVIGNO PER L' ARIA.]
+[ИНИЦИАЛ: V]N giouane allegro , ridente , con vna ghirlanda di varij fiori in capo , di corpo carnoso , & oltre i capelli biondi hauerà il color della faccia rubicondo misto con bianco , & che sonando vn leuto dia segno con riuolgere gl'occhi al Cielo , che gli piaccia il suono , & il canto , da vna parte d'essa figura vi farà vn montone , tenendo in bocca vn grappo d'vua & da l'altra banda vi farà vn libro di musica aperto .
+Giouane, allegro , con la ghirlanda di fiori, & ridente si dipinge il sanguigno , perche ( secondo Hippocrate ) in quelli che abondano di sangue temperato, & perfetto ; si generano spiriti vitali puri , & sottili , da quali nasce il riso , & l'allegrezza ; onde questi sono piaceuoli , faceti , & amano i suoni , & i canti .
+L'esser di corpo carnoso , secondo Galeno nel 2.libro del temperamento al cap.9.& Auicenna nel lib.1 significa , che dalla virtù assimulatiua , che ne i sanguigni è molto potente , nasce l'habito del corpo carnoso .
+Dipingesi rubicondo misto con bianco , perche (secondo Auicenna nel 2.del 1.)questo colore denota abondanza di sangue , & però dice Galeno nel 2.de gli Aphorismi nel commento 2.che l'humore , che nel corpo predomina , da il colore alla carne .
+
+Колонтитул: 76 ICONOLOGIA
+Кустод: Il mon-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0102 · с. 77
+
+[ЗАГОЛОВОК: SANGVIGNO PER L' ARIA.]
+[ГРАВЮРА: без подписи]
+Il montone con il grappo d'vua,significa il sanguigno esser dedito à Venere,& à Bacco;per Venere s'intende la natura del montone, essendo questo animale assai inclinato alla lussuria,come narra Pierio Valeriano lib. 10. & per Bacco il grappo d'vua; onde Aristotele nel problema 31.dice, che ciò auuiene nel sanguigno, perche in esso abonda molto seme , il quale è cagione dell'appetiti venerei,come anco si può vedere per la descrittione della Scuola Salernitana .
+Natura pingues isti sunt , atq;rocantes Omnibus his studijs habiles sunt,et magis apti
+Rumoresq;nouos cupiunt audire frequenter Qualibet ex causa non hos facile excitat ira
+Hos Venus,et Bacchus delectat fercula risus Largus,amans,hilaris,ridens,rubeiq;coloris
+Et facit hos hilares,& dulcia verba loquētes Cantus,carnosus,satis audax,atq;benignus.
+
+Колонтитул: DI CESARE RIPA. 77
+Кустод: FLEM-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0103 · с. 78
+
+[ЗАГОЛОВОК: FLEMMATICO PER L' ACQVA.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: H]VOMO di corpo grasso, & di color bianco,che stando à sedere sia vestito di pelle di tasso, tenendo ambe le mani in seno , & la testa china, la quale sia cinta d'vn panno negro,che gli cuopra quasi gl'occhi, & à canto vi sia vna tartaruga .
+Dipingesi grasso, perche si come la siccità del corpo procede da calidità , così la grassezza deriua da frigidità , & humidità, come dice Galeno nel secondo del temperamento al cap. 6.
+Si veste di pelle di tasso, perche si come questo animale è sonnacchioso e pigro,così è il flemmatico per hauer egli pochi spiriti, & quelli oppressi da molta frigidità , che in esso predomina ; onde auuiene ch'è anco poco atto à gli studij hauendo l'ingegno ottuso , & adormentato , & non habi-
+
+Колонтитул: 78 ICONOLOGIA
+Кустод: le à me-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0104 · с. 79
+
+le à meditare quello che sarebbe cagione di solleuarlo dalle cose vili , & basse , che però li si cinge il capo di panno negro .
+Si rappresenta con il capo chino,perche egli è pigro, negligente è tardo sì nell'operationi dell'intelletto , come in tutte l'altre del corpo, simile alla tartaruga,che si gli fà à lato, il che tutto vien ottimamente espresso dalla Scuola Salernitana ne i versi che seguono .
+Phlegma dabit vires modicas,latosq;breuesq; Sēsus habes,tardus motus,pigritia somnus
+Phlegma facit pingues sanguis reddit medio- Hic somnolentes piger in sputamine multus
+Otia nō studio tradūt sed corpora somno (cres Est huic sēsus hebes pinguis facie color albus
+[ЗАГОЛОВОК: MALENCONICO PER LA TERRA.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: H]VOMO di color fosco, che posandosi con il piede destro sopra di vna figura quadrata, ò cuba, tenghi con la sinistra mano vn libro aperto mostrando di studiare .
+
+Колонтитул: DI CESARE RIPA. 79
+Кустод: Hauerà
+Сигнатура: 
+Маргиналии:
+
+## Скан 0105 · с. 80
+
+Hauerà cinta la bocca da vna benda , & con la man destra terrà vna borsa ligata, & in capo vn passero vcello solitario .
+La benda che gli copre la bocca, significa il silentio,che nel malinconico suol regnare,essendo egli di natura fredda,e secca,& si come la calidità fà loquace, così per lo contrario la frigidità è cagione del silentio .
+Il libro aperto, & l'attentione del studiare,dimostra il malenconico esser dedito alli studij, & in essi far progresso; fugendo l'altrui conuersationi;onde Horatio nell'vltima Epistola del 2.lib.dice :
+Scriptorum chorus omnis amat nemus Et fugit Vrbes .
+Che però gli si dipinge il passero solitario sopra il capo,essendo vcello,che habita in luochi solitarij, & non conuersa con gli altri vcelli.
+La borsa serrata significa l'auara natura, che suole per lo più regnare ne i malenconici,come dicono i seguenti versi della Scola Salernitana.
+Restat adhuc tristis choleræ substantia nigra Seruāt propositū sibi nil reputāt fore tutum
+Quæ reddit prauos,per tristes pauca loquētes Inuidus,& tristis cupidus dextræq; tenacis
+Hi vigilant studijs:nec mens est dedita somno Non expers fraudis,timidus luteiq;coloris.
+[ЗАГОЛОВОК: CONCORDIA MARITALE.]
+Di Pier Leone Casella.
+[ИНИЦИАЛ: V]N' huomo à man dritta di vna donna, ambi vestiti di porpora, & che vna sola catena d' oro incateni il collo ad ambidue, & che la detta catena habbia per pendente vn core, il quale venghi sostentato da vna mano per vna di detti huomo, e donna.
+La collana nella guisa che dicemmo, dimostra, che il Matrimonio è composto di amore, di amicitia, & di beneuolenza trà l' huomo, & la donna, ordinato dalla narura, & dalle diuine leggi, le quali vogliono, che il marito, & la moglie siano due in vna carne, che non possino essere diuise se non per morte .
+[ЗАГОЛОВОК: CONCORDIA.]
+[ИНИЦИАЛ: V]N A donna in piedi, che tiene due spighe di grano in vna mano, & con l'altra vna tazza piena d'vcelletti viui, ouero di cuori.
+La tazza piena di vcelletti, ouero di cuori, significa conformità di più persone, per le quali ne segue l'abbondanza, significata, per le spighe del grano .
+[ЗАГОЛОВОК: CONCORDIA MILITARE.]
+Nella Medaglia di Nerua.
+[ИНИЦИАЛ: D]O N N A che tenghi con la destra mano vn rostro di naue, sopra del quale vi è vn'insegna militare , & in mezo d'essa, cioè in mezo dell'asta vi sono due mani giunte,come quando si da la fede , con lettere , che dicono .
+[ЗАГОЛОВОК: CONCORDIA EXERCITVVM.]
+Le due mani nella guisa che dicemmo, dimostrano la Concordia l'insegna , & il rostro gl'Eserciti .
+
+Колонтитул: 80 ICONOLOGIA
+Кустод: Concor-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0106 · с. 81
+
+[ЗАГОЛОВОК: CONCORDIA.]
+[ИНИЦИАЛ: D]ONNA, che tiene in mano vn fascio di verghe strettamente legato.
+La Concordia è vna vnione di volere , & non volere di molti, che viuono , & conuersano insieme . Però si rappresenta con vn fascio di verghe, delle quali ciascuna per se stessa è debile, ma tutte insieme sono forti, & dure, onde disse Salamone : *Funiculus triplex, difficile rumpitur*. Et mediante l'vnione si stabilisce maggior forza nell'operationi de gli huomini, come dimostra Salustio in bello Iugurtino : *Concordia paruæ res crescunt, concordia maximę dilabuntur.*
+[ЗАГОЛОВОК: Concordia.]
+[ИНИЦИАЛ: D]Onna bella, che mostri grauità, nella destra mano tenghi vna tazza, nella quale vi farà vn pomo granato, nella sinistra vno scettro che in cima habbia fiori, & frutti di varie sorti : in capo ancora hauerà vna ghirlanda di mele granate, con le foglie, & con frutti, insieme con la ghirlanda, per acconciatura vi farà vna mulachia , & così nelle medaglie antiche si vede scolpita .
+[ЗАГОЛОВОК: Concordia .]
+[ИНИЦИАЛ: D]Onna, che nella destra mano tiene vn pomo granato, & nella sinistra vn mazzo di mortella,e si fabrica tal maniera, secondo il detto di Pierio Valeriano , con l' autorità di Democrito, dicendo, che la mortella, & i pomi granati s'amano tanto, che se bene le radici di dette piante sono poste alquanto lontane l'vna dall'altra, si auuicinano nondimeno, & s'intrecciano insieme .
+[ЗАГОЛОВОК: Concordia.]
+[ИНИЦИАЛ: D]Onna coronata d'oliuo, che tenga con la man destra vn fascio di frezze, legato con vna benda bianca da vn capo d'essa, & con vna rossa dall'altra; nella mano sinistra tenga vn Cornucopia .
+Si corona d'oliuo, per segno di pace, effetto della Concordia .
+Il fascio di frezze legato al modo detto, significa la moltitudine de gl'animi vniti insieme co'l vincolo della carità, & della sincerità,che difficilmente si possano spezzare, somministrandosi fra se stesse il vigore, & la gagliardezza. onde poi è la concordia produttrice di frutti piaceuoli, come dall'altra banda la discordia non sà se non produrre spine , & triboli di maledicenza , & liti,che sturbano la compagnia , & l'amoreuole consortio de gl'huomini nel viuere politico, & ragioneuole.
+[ЗАГОЛОВОК: Concordia nella Medaglia di Papieno.]
+[ИНИЦИАЛ: D]Onna sedente, che nella destra ha vna patena , & nella sinistra due corni di douitia con lettere : CONCORDIA AVGG. & S.C. Vedi Sebastiano Erizzo .
+La patena significa esser cosa santa la concordia, alla quale si debbe rendere honore , e sacrifitio.
+Li due corni di douitia, mostrano,mediante la concordia duplicata abondanza.
+[ЗАГОЛОВОК: Concordia Militare .]
+[ИНИЦИАЛ: D]Onna armata, con le mani tenga vn gran viluppo di serpi, perche è preparata per difendere se stessa con l'armi, e per nocere altrui col veleno,che somministra l'ira .
+
+Колонтитул: DI CESARE RIPA. 81
+Кустод: CON-
+Сигнатура: F
+Маргиналии:
+
+## Скан 0107 · с. 82
+
+[ЗАГОЛОВОК: CONCORDIA DI PACE.]
+[ИНИЦИАЛ: D]ONNA,che tiene due corna d'abondanza ritorte insieme,che sono l'vnione de'pensieri,e delle volontà di diuerse persone,& con l' altra mano vn vaso di fuoco,perche la concordia nasce dall'amore scambieuole , il quale s'assomiglia al fuoco materiale,per essere effetto di calore interiore dell'anima .
+[ЗАГОЛОВОК: CONCORDIA DEGL' ANTICHI.]
+[ИНИЦИАЛ: D]ONNA, che nella mano destra tiene alcuni pomi granati, & nella sinistra vn cornucopia,con vna cornacchia,la quale si vede in molte Medaglie di Faustina Augusta scolpita co'l motto: CONCORDIA, per l'eterna fedeltà,ch'vsa questo animale cōō la sua cōpagnia, però disse l'Alciato: Cornicū mira inter se concordia vitæ Mutua statq. illis intemerata fides .
+I pomi granati presso a gl'antichi significauano concordia , perche tali deuono essere gl'animi concordi, & in tale vnione trà se stessi , come sono le granella di questi pomi, dalla quale vnione, nasce poi l'abondanza, che è il neruo di viuere politico, & concorde .
+[ЗАГОЛОВОК: CONCORDIA INSVPERABILE.]
+[ИНИЦИАЛ: P]ER la concordia insuperabile si rappresenta Gerione huomo armato, con tre visi, co'l capo cinto d'vna corona d'oro, sei braccia, & altre tante gambe, che tenga in vna mano destra vna lancia, con l'altra vna spada nuda, & nella terza vno scetro. Et l'altre tre mani de la parte senistra, si posano sopra d'vno scudo.
+Dicesi, che Gerione fu Re de Spagna , il quale perche haueua tre Regni fu detto tricorpore, cioè, che haueua tre corpi; fu amazzato da Hercole ; altri dicano essere stati tre fratelli, così concordi, che erano giudicati vn solo .
+[ЗАГОЛОВОК: CONFIDENZA.]
+[ИНИЦИАЛ: D]ONNA con i capelli sparsi,cōō ambedue le mani sostenti vna naue.
+La confidenza porta seco la cognitione dell'imminente pericolo, & la salda credenza di douerne scampare libero, & senza queste due qualità variarebbe nome , & cangiarebbe l'essere suo. Però si dipinge con la naue,che è segno di confidenza,con la naue i nauiganti ardiscono di pratticare l'onde del mare, le quali solo con la facilità del perpetuo moto,par che minaccino ruina, morte , & esterminio all'huomo , che quando passa la terra, esce fuora de suoi confini. A questo proposito disse Horatio nella 3. ode del primo libro.
+Illi robur, & æs triplex Primus, & poi,
+Circa pectus erat, qui fragilem truci Quem mortis timuit gradum?
+Commisit pelago ratem ,   Con quel, che segue .
+[ЗАГОЛОВОК: CONFVSIONE.]
+[ИНИЦИАЛ: D]ONNA giouane, confusamente vestita de diuersi colori, che hauendo i capelli mal composti, posi la destra sopra quattro elementi confusamente vniti , & la sinistra sopra la torre di Babel co'l motto, che dica: BABILONIA, VNDIQVE.
+
+Колонтитул: 82 ICONOLOGIA
+Кустод: Gioua-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0108 · с. 83
+
+Giouane si dipinge, come età più atta alla confusione, non hauendo esperienza, senza la quale non può terminare , essendo trasportata da diuersi appetiti, quali nell'opere rendono confusione.
+Li capelli longhi , & corti, & mal composti denotano i molti , & varij pensieri , che confondano l'intelletto .
+Li diuersi colori del vestimento significano le vane , & disordinate attioni confusamente operate : *Et vbi multitudo, ibi confusio.*
+La torre di Babel è posta, come cosa molto conosciuta per segno di confusione:poiche nel fabricare d'essa, Iddio, si come cōfuse il linguaggio de i fabricatori, con fare, che ciascuno di loro diuersamente parlasse, così anco confuse la mente loro , facendo , che l'opra rimanesse imperfetta per castigo di quelle superbe, & empie genti, che prouorno di fare quell'impresa contro la sua onnipotenza , & per maggior chiarezza per rappresentare la confusione , vi si dipinge il Chaos , in quel modo , che rappresenta Ouidio nel primo libro delle Metamorfosi, oue dice.
+Vnus erat toto naturæ vultus in orbe Quem dixere chaos rudis,indigestaque moles.
+Et l'Anguillara nella traduttione.
+Pria che'l ciel fosse,il mar, la terra, e'l foco Che vi era,e terra,e cielo,e mare,e foco
+Era il foco,la terra,il ciel,e'l mare: Doue era e cielo,e terra,fuoco,e mare
+Ma il mar rendeua il ciel,la terra, e'l foco La terra,il foco,e'l mare era nel cielo
+Deforme il foco,il ciel,la terra,e il mare Nel mar,nel foco,e nella terra il cielo.
+[ЗАГОЛОВОК: CONFERMATIONE,]
+Come depinta nel Palazzo di N.S.à monte cauallo.
+[ИНИЦИАЛ: D]ONNA con due chiaui nella destra mano, & tien con la sinistra vna piramide, nella quale è scritto : *Super hanc petram.*
+[ЗАГОЛОВОК: COSCIENZA.]
+[ИНИЦИАЛ: D]ONNA con vn cuore in mano dinanzi a l' occhi con questo scritto in lettera d'oro: [?], cioè la propria coscienza, stando in piedi in mezo vn prato di fiori, & vn campo di spine.
+La coscienza è la cognitione , che ha ciascuno dell'opere, & de'pensieri nascosti, & celati a gl'altri huomini.
+Però si dipinge in atto di riguardare il proprio cuore,nel quale ciascuno tiene occultate le sue secretezze , le quali solo a lui medesimo sono a viua forza palesi.
+Sta con piedi ignudi nel luogo sopradetto,per dimostrare la buona, e cattiua via , per le quali ciascuno caminando, ò con le virtù, ò co'vitij, è atto a sentire l'aspre punture del peccato , come il suaue odore della virtù .
+[ЗАГОЛОВОК: Coscienza.]
+[ИНИЦИАЛ: D]Onna di sembiante bellissimo, vestita di bianco, con la sopraueste nera, nella destra mano terrà vna lima di ferro,hauerà scoperto il petto dalla parte del cuore,donde la morderà vn serpe , ouero vn verme, che sempre stimola , & rode l'anima del peccatore, però bene disse Lucano nel settimo libro. Heu quantum misero pœnæ mens conscia donat.
+
+Колонтитул: DI CESARE RIPA. 83
+Кустод: CON-
+Сигнатура: F a
+Маргиналии:
+
+## Скан 0109 · с. 84
+
+[ЗАГОЛОВОК: CONSERVATIONE.]
+Di Pier Leone Casella.
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: D]ONNA vestita d'oro, con vna ghirlanda d'oliuo in capo, nella mano destra terrà vn fascio di miglio, & nella sinistra vn cerchio d'oro.
+L'oro, & l'oliuo significano conseruatione , questo, perche conserua li corpi dalla corruttione,& quello,perche difficilmente si corrompe.
+Il miglio parimente conserua le Città .
+Il cerchio, come quello, che nelle figure non ha principio, ne fine, può significare la duratione delle cose, che per mezo d'vna circolare trasmutatione si conseruano.
+
+Колонтитул: 84 ICONOLOGIA
+Кустод: CON-
+Сигнатура: 
+Маргиналии:
