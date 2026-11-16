@@ -29,6 +29,11 @@
       "slug": "grosson",
       "path": "books/grosson/",
       "status": "wip"
+    },
+    {
+      "slug": "ripa1603",
+      "path": "https://nfhours.github.io/ripa-1603/",
+      "status": "wip"
     }
   ]
 }
