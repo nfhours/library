@@ -51,7 +51,7 @@ function foreignStrings(L) {
 
 // ---- что собирать на странице (выполняется в браузере) ----
 const COLLECT = `(function(L, FOREIGN){
-  var SKIP = '[lang="it"],[lang="la"],.ic-sv-it,.ic-pc-it,.ic-nm-it,#back-bar-lang,.ic-lang,script,style,noscript';
+  var SKIP = '[lang="it"],[lang="la"],.ic-kicker[lang="fr"],.ic-sv-it,.ic-pc-it,.ic-nm-it,#back-bar-lang,.ic-lang,script,style,noscript';
   var CYR = /[А-Яа-яЁё]/, LAT = /[A-Za-z]{3,}(?:[\\s,.;:'’-]+[A-Za-z]{3,})+/;
   var out = [];
   function sel(el){ var s = el.tagName.toLowerCase(); if(el.id) s += '#'+el.id; else if(el.className && typeof el.className==='string') s += '.'+el.className.trim().split(/\\s+/).slice(0,2).join('.'); return s; }
@@ -91,7 +91,7 @@ const pages = [
   ...plates.map(i => ['plate/' + i, R('plate/' + i)]),
   ...names.map(i => ['names/' + i, R('names/' + i)]),
   // Одран: обложка, «Таблицы», страницы таблиц (выборка), текст, подписи
-  ['audran/cover', BASE + '#/audran'], ['audran/plates', BASE + '#/audran/plates'],
+  ['audran/cover', BASE + '#/audran'], ['audran/plates', BASE + '#/audran/plates'], ['audran/preface', BASE + '#/audran/preface'],
   ...['aud1', 'aud10', 'aud15', 'aud25', 'aud30'].map(i => ['audran/' + i, BASE + '#/audran/' + i]),
 ];
 

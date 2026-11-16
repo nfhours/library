@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "206";
+  var APP_VER = "207";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -319,6 +319,8 @@
     // новый, а не повторное использование hmToc/hmRead.
     bkTabText:    {ru:"Текст", en:"Text", fr:"Texte"},
     audTables:    {ru:"Таблицы", en:"Plates", fr:"Planches"},
+    audPreface:   {ru:"Предисловие", en:"Preface", fr:"Préface"},
+    audPrefaceSub:{ru:"Предисловие и предуведомление автора", en:"The preface and the notice to the reader", fr:"La préface et l’avertissement"},
     audTblAbbr:   {ru:"табл.", en:"pl.", fr:"pl."},
     audTablesSub: {ru:"Все гравированные таблицы: {n}", en:"All the engraved plates: {n}", fr:"Toutes les planches gravées : {n}"},
     rpTabArticles:{ru:"Статьи", en:"Articles", fr:"Articles"},
@@ -1002,6 +1004,7 @@
     }
     if(!rest.length) return {slug:slug};
     if(slug==="iconologie" && rest[0]==="list") return {slug:slug, view:"list"};
+    if(slug==="audran" && rest[0]==="preface") return {slug:slug, view:"preface"};
     if(rest[0]==="about") return {slug:slug, view:"about"};
     if(rest[0]==="home") return {slug:slug, view:"home", tab:rest[1]};
     if(rest[0]==="text") return {slug:slug, view:"text"};
@@ -1043,7 +1046,8 @@
       if(!book){ if(!forcedBook) renderLibraryHome(); return; }
       if(isRpLayout(book)){
         if(isAud(book) && p.view==="list"){ location.replace(hrefFor(book,"plates")); return; }
-        if(p.view==="plates") renderRipaPlates(book);
+        if(isAud(book) && p.view==="preface") renderAudPreface(book);
+        else if(p.view==="plates") renderRipaPlates(book);
         else if(p.view==="about"){ location.replace(coverHref(book)); return; }
         else {
           try{
@@ -2476,7 +2480,7 @@
   }
   var ripaHl = null;   // {id, q}: слово, к которому ведёт результат поиска (подсветка в статье)
   function ripaTabs(book){
-    if(isAud(book)) return [["plates", t("audTables"), hrefFor(book,"plates")]];
+    if(isAud(book)) return [["plates", t("audTables"), hrefFor(book,"plates")], ["preface", t("audPreface"), hrefFor(book,"preface")]];
     return [["list", t("rpTabArticles"), hrefFor(book,"list")], ["plates", t("hmGallery"), hrefFor(book,"plates")]];
   }
   function ripaLoupeSheet(){
@@ -2610,7 +2614,8 @@
     var it = book.byId[RIPA_COVER.plate], hero = RIPA_COVER.hero ? BASE+"books/"+book.slug+"/img/"+RIPA_COVER.hero : (it && it.img && it.img[0] ? BASE+"books/"+book.slug+"/img/"+it.img[0].replace(/\.(jpe?g|webp)$/i,"")+"_display.webp" : "");
     var nPl = book.items.filter(function(x){ return !x.textOnly && x.img && x.img.length; }).length;
     var secs = isAud(book)
-      ? [homeTile(hrefFor(book,"plates"), t("audTables"), t("audTablesSub",{n:nPl}), false)]
+      ? [homeTile(hrefFor(book,"plates"), t("audTables"), t("audTablesSub",{n:nPl}), false),
+         homeTile(hrefFor(book,"preface"), t("audPreface"), t("audPrefaceSub"), false)]
       : [homeTile(hrefFor(book,"list"), t("rpTabArticles"), t("rpArtSub",{n:book.items.length}), false),
          homeTile(hrefFor(book,"plates"), t("hmGallery"), t("hmGallerySub",{n:nPl}), false)];
     var L = state.lang;
@@ -2781,6 +2786,47 @@
     var src = (it.img||[])[0]; if(!src) return "";
     return BASE+"books/"+book.slug+"/thumb/"+src.replace(/\.(jpe?g|webp)$/i,"")+"_t.webp";
   }
+  /* ----- Одран: «Предисловие» (предисловие + предуведомление): текст на языке интерфейса, сканы и транскрипция — как у глав Картари ----- */
+  function loadAudPreface(book, cb){
+    if(book.pref){ cb(book.pref); return; }
+    fetch(BASE+"books/"+book.slug+"/preface.json",{cache:"no-cache"}).then(function(r){ if(!r.ok) throw 0; return r.json(); })
+      .then(function(d){ book.pref = d; cb(d); }).catch(function(){ cb(null); });
+  }
+  function renderAudPreface(book){
+    var gen = renderGen, keep = (langKeep && langKeep.hash === location.hash) ? langKeep : null, rbSheets = [];
+    restoreState(book.slug);
+    loadAudPreface(book, function(pf){
+      if(gen !== renderGen) return;
+      var L = state.lang, rows = pf ? pf.rows : [], pmAt = {};
+      rows.forEach(function(r, i){ (pmAt[r[2]] = pmAt[r[2]] || []).push(i); });
+      function pgm(n){
+        var ix = pmAt[n]; if(!ix) return "";
+        var first = rows[ix[0]][1], lb = ix.length > 1 ? pgLabel(first)+" – "+pgLabel(rows[ix[ix.length-1]][1]) : pgLabel(first);
+        return '<div class="ic-pgm"><button type="button" class="ic-pgm-b" data-pi="'+ix[0]+'" aria-pressed="false" aria-label="'+esc(t("svOpen",{p:first}))+'">'+esc(lb)+'</button></div>';
+      }
+      var body = pf ? pf.blocks.map(function(b){ return pgm(b.n)+blockHtml(book, {n:b.n, t:b.t, lv:b.lv, text:b[L] || b.ru}, "preface", null); }).join("")
+        : '<p class="ic-sub">'+esc(t("chNotYet"))+'</p>';
+      var rbar = '<div class="ic-rbar-row">'+
+          '<button type="button" class="ic-rbar-lbl ic-rbar-lbl-b" data-rb="top"><span class="ic-rbar-pos-ch">'+esc(t("audPreface"))+'</span></button>'+
+          '<button type="button" class="ic-rbar-scan" data-rb="scan" aria-pressed="false"'+(rows.length ? "" : " disabled")+'>'+esc(t("svScan"))+'</button>'+
+        '</div>'+langSwitch();
+      root.innerHTML = ripaShell(book, "preface", rbar, null)+
+        '<div class="ic-ch-outer"><div class="ic-wrap ic-ch-wrap ic-rp-aud">'+
+          '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(t("audPreface"))+'</h1></header>'+
+          '<div class="ic-text ic-ch-body" lang="'+(L === "fr" ? "fr" : L)+'">'+body+'</div>'+
+        '</div></div>';
+      ripaBind(book, gen, rbSheets);
+      function openAt(i){ if(rows.length) openSv(book, rows, i); }
+      root.querySelectorAll(".ic-pgm-b").forEach(function(b){ b.addEventListener("click", function(){ openAt(+b.getAttribute("data-pi")); }); });
+      var scanB = root.querySelector('[data-rb="scan"]'); if(scanB) scanB.addEventListener("click", function(){ openAt(0); });
+      var topB = root.querySelector('[data-rb="top"]'); if(topB) topB.addEventListener("click", function(){ hardScrollTo(0); });
+      state.scroll = 0;
+      if(keep) restoreBlockPos(keep, gen); else restoreOrTop(gen);
+      installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return !!sv; }});
+      nudgeRepaint();
+    });
+  }
+
   function renderRipaPlates(book){
     var gen = renderGen, keepPos = (langKeep && langKeep.hash === location.hash) ? langKeep : null, multi = book.meta.parts && book.meta.parts.length > 1, rbSheets = [];
     var aud = isAud(book), byPart = {}, order = [];
@@ -2950,7 +2996,7 @@
         '</div>')+
         headHtml+
         '<header class="ic-head">'+
-          (aud ? '<p class="ic-kicker">'+esc(groupOf(it))+'</p><h1 class="ic-h-fr">'+esc(titleOf(it))+'</h1>' :
+          (aud ? (norm(groupOf(it)) !== norm(titleOf(it)) ? '<p class="ic-kicker">'+esc(groupOf(it))+'</p>' : "")+'<h1 class="ic-h-fr">'+esc(titleOf(it))+'</h1>' :
           '<p class="ic-kicker">'+(it.num?it.num+". ":"")+esc(it.group_fr?groupOf(it):(book.meta.parts&&book.meta.parts.length>1?partLabel(book,it.part):""))+'</p>'+
           '<h1 class="ic-h-fr">'+esc(it.fr)+'</h1>'+
           (titleOf(it)!==it.fr?'<p class="ic-h-ru">'+esc(titleOf(it))+'</p>':""))+

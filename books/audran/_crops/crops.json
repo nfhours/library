@@ -1,0 +1,422 @@
+{
+  "0013.jpg": {
+    "boxes": [
+      {
+        "x": 5.8,
+        "y": 13.07,
+        "w": 79.43,
+        "h": 70.97,
+        "label": "1"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0015.jpg": {
+    "boxes": [
+      {
+        "x": 18.23,
+        "y": 13.57,
+        "w": 60.03,
+        "h": 71.7,
+        "label": "2"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0017.jpg": {
+    "boxes": [
+      {
+        "x": 22.61,
+        "y": 14.07,
+        "w": 55.09,
+        "h": 71.13,
+        "label": "3"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0019.jpg": {
+    "boxes": [
+      {
+        "x": 7.38,
+        "y": 13.37,
+        "w": 77.49,
+        "h": 72.97,
+        "label": "4"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0021.jpg": {
+    "boxes": [
+      {
+        "x": 8.96,
+        "y": 13.73,
+        "w": 76.48,
+        "h": 69.17,
+        "label": "5"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0023.jpg": {
+    "boxes": [
+      {
+        "x": 5.96,
+        "y": 14.03,
+        "w": 78.51,
+        "h": 68.8,
+        "label": "6"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0025.jpg": {
+    "boxes": [
+      {
+        "x": 7.64,
+        "y": 13.53,
+        "w": 78.26,
+        "h": 71.9,
+        "label": "7"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0027.jpg": {
+    "boxes": [
+      {
+        "x": 3.72,
+        "y": 12.77,
+        "w": 79.74,
+        "h": 73.0,
+        "label": "8"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0029.jpg": {
+    "boxes": [
+      {
+        "x": 12.93,
+        "y": 14.73,
+        "w": 73.32,
+        "h": 70.73,
+        "label": "9"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0031.jpg": {
+    "boxes": [
+      {
+        "x": 6.21,
+        "y": 13.9,
+        "w": 78.21,
+        "h": 72.5,
+        "label": "10"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0033.jpg": {
+    "boxes": [
+      {
+        "x": 7.48,
+        "y": 12.9,
+        "w": 77.95,
+        "h": 72.1,
+        "label": "11"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0035.jpg": {
+    "boxes": [
+      {
+        "x": 7.03,
+        "y": 12.9,
+        "w": 77.85,
+        "h": 72.4,
+        "label": "12"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0037.jpg": {
+    "boxes": [
+      {
+        "x": 5.09,
+        "y": 13.2,
+        "w": 79.89,
+        "h": 72.07,
+        "label": "13"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0039.jpg": {
+    "boxes": [
+      {
+        "x": 22.51,
+        "y": 13.37,
+        "w": 61.86,
+        "h": 71.97,
+        "label": "14"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0041.jpg": {
+    "boxes": [
+      {
+        "x": 8.4,
+        "y": 13.87,
+        "w": 74.69,
+        "h": 73.17,
+        "label": "15"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0043.jpg": {
+    "boxes": [
+      {
+        "x": 15.17,
+        "y": 15.43,
+        "w": 68.94,
+        "h": 72.1,
+        "label": "16"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0045.jpg": {
+    "boxes": [
+      {
+        "x": 3.92,
+        "y": 14.7,
+        "w": 79.43,
+        "h": 73.67,
+        "label": "17"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0047.jpg": {
+    "boxes": [
+      {
+        "x": 4.94,
+        "y": 12.1,
+        "w": 73.68,
+        "h": 72.4,
+        "label": "18"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0049.jpg": {
+    "boxes": [
+      {
+        "x": 5.55,
+        "y": 13.23,
+        "w": 72.45,
+        "h": 72.23,
+        "label": "19"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0051.jpg": {
+    "boxes": [
+      {
+        "x": 6.16,
+        "y": 13.2,
+        "w": 72.51,
+        "h": 72.5,
+        "label": "20"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0053.jpg": {
+    "boxes": [
+      {
+        "x": 4.38,
+        "y": 17.27,
+        "w": 78.26,
+        "h": 65.47,
+        "label": "21"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0055.jpg": {
+    "boxes": [
+      {
+        "x": 6.01,
+        "y": 15.6,
+        "w": 77.19,
+        "h": 72.4,
+        "label": "22"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0057.jpg": {
+    "boxes": [
+      {
+        "x": 3.11,
+        "y": 16.27,
+        "w": 79.43,
+        "h": 71.7,
+        "label": "23"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0059.jpg": {
+    "boxes": [
+      {
+        "x": 3.26,
+        "y": 19.77,
+        "w": 79.68,
+        "h": 68.27,
+        "label": "24"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0061.jpg": {
+    "boxes": [
+      {
+        "x": 6.21,
+        "y": 18.9,
+        "w": 77.39,
+        "h": 57.87,
+        "label": "25"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0063.jpg": {
+    "boxes": [
+      {
+        "x": 8.6,
+        "y": 14.57,
+        "w": 75.87,
+        "h": 72.0,
+        "label": "26"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0065.jpg": {
+    "boxes": [
+      {
+        "x": 4.68,
+        "y": 13.93,
+        "w": 78.56,
+        "h": 73.33,
+        "label": "27"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0067.jpg": {
+    "boxes": [
+      {
+        "x": 7.43,
+        "y": 15.8,
+        "w": 76.99,
+        "h": 70.33,
+        "label": "28"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0069.jpg": {
+    "boxes": [
+      {
+        "x": 15.12,
+        "y": 22.6,
+        "w": 58.2,
+        "h": 58.17,
+        "label": "29"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  },
+  "0071.jpg": {
+    "boxes": [
+      {
+        "x": 10.18,
+        "y": 22.57,
+        "w": 68.69,
+        "h": 53.93,
+        "label": "30"
+      }
+    ],
+    "noPlate": false,
+    "flagged": false,
+    "updatedAt": null
+  }
+}

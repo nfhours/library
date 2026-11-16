@@ -7,9 +7,9 @@
         "original": "Les Proportions du corps humain"
     },
     "subtitle": {
-        "ru": "Жерар Одран, Париж, 1683 — классический справочник пропорций: 30 гравированных таблиц с обмерами знаменитых античных статуй (Лаокоон, Геркулес Фарнезский, Венера Медичи, Аполлон Пифийский и другие). Ценность — в самих гравюрах с нанесёнными линиями измерений: материал для художника, рисующего фигуру.",
-        "en": "Gérard Audran, Paris, 1683 — a classic reference on proportion: 30 engraved plates measuring famous antique statues (the Laocoön, the Farnese Hercules, the Venus de' Medici, the Pythian Apollo and others). Its value lies in the engravings themselves, with measurement lines overlaid — material for an artist drawing the figure.",
-        "fr": "Gérard Audran, Paris, 1683 — un classique de référence sur les proportions : 30 planches gravées mesurant de célèbres statues antiques (le Laocoon, l'Hercule Farnèse, la Vénus de Médicis, l'Apollon Pythien et d'autres). Sa valeur tient aux gravures elles-mêmes, avec leurs lignes de mesure : un matériel pour l'artiste qui dessine la figure."
+        "ru": "Классический справочник пропорций: 30 гравированных таблиц с обмерами знаменитых античных статуй. Линии измерений нанесены прямо на гравюры, так что книга служит пособием для художника, рисующего фигуру.",
+        "en": "A classic reference on proportion: 30 engraved plates measuring famous antique statues. The measurement lines are drawn right on the engravings, so the book serves as a guide for an artist drawing the figure.",
+        "fr": "Un classique de référence sur les proportions : 30 planches gravées mesurant de célèbres statues antiques. Les lignes de mesure sont tracées sur les gravures mêmes, si bien que le livre sert de guide à l'artiste qui dessine la figure."
     },
     "author": "Gérard Audran",
     "year": 1683,
@@ -33,5 +33,9 @@
         "ru": "Справочник пропорций: обмеры античных статуй",
         "en": "A reference on proportion: measured antique statues",
         "fr": "Référence sur les proportions : statues antiques mesurées"
+    },
+    "chapters": {
+        "scans": "scans/",
+        "pagesIt": "pages_it.json"
     }
 }

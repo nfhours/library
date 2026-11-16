@@ -1,0 +1,312 @@
+{
+ "rows": [
+  [
+   7,
+   "I",
+   1,
+   10
+  ],
+  [
+   8,
+   "II",
+   11,
+   18
+  ],
+  [
+   9,
+   "III",
+   18,
+   24
+  ],
+  [
+   10,
+   "IV",
+   24,
+   31
+  ],
+  [
+   11,
+   "V",
+   32,
+   39
+  ]
+ ],
+ "blocks": [
+  {
+   "n": 1,
+   "t": "h",
+   "ru": "Предисловие",
+   "en": "Preface",
+   "fr": "Préface",
+   "lv": 2
+  },
+  {
+   "n": 2,
+   "t": "p",
+   "ru": "Не думаю, что здесь нужно распространяться о необходимости, в какой находятся все рисовальщики, знать пропорции в совершенстве: известно довольно, что стоит им хоть сколько-нибудь пренебречь их точным соблюдением, как у них выходят лишь искалеченные и уродливые фигуры.",
+   "en": "I do not think there is any need here to dwell upon the necessity that all Draughtsmen are under of knowing the proportions perfectly; it is well enough known that if they dispense themselves ever so little from observing them exactly, they make only maimed and monstrous figures.",
+   "fr": "Je ne crois pas qu’il soit besoin icy de m’étendre sur la necessité qu’ont tous les Dessignateurs de connoistre parfaitement les proportions; on sçait assez que pour peu qu’ils se dispensent de les observer exactement, ils ne font que des figures estropiées & monstrueuses."
+  },
+  {
+   "n": 3,
+   "t": "p",
+   "ru": "Все соглашаются с этим началом, если смотреть на него вообще, но каждый применяет его на деле по-своему; и вот в чём вся трудность, которая сводится к тому, чтобы найти твёрдые правила для верности и для благородства пропорций. Поскольку мнения о них нередко расходятся, надобно поставить судью, к которому можно было бы с уверенностью обращаться.",
+   "en": "Everyone agrees on this principle, taken in general, but each puts it into practice differently; and there is the point of the difficulty, which reduces itself wholly to finding certain rules for the exactness and for the nobility of proportions, upon which, as opinions are often divided, it is necessary to set up a Judge to whom one may refer with assurance.",
+   "fr": "Tout le monde convient de ce principe à le regarder en general, mais chacun le met en pratique differemment; & voila le poinct de la difficulté, qui se reduit toute à trouver des regles certaines pour la justesse & pour la noblesse des proportions, sur lesquelles, comme les avis sont souvent partagez, il s’agit d’établir un Juge à qui l’on s’en puisse rapporter avec sureté."
+  },
+  {
+   "n": 4,
+   "t": "p",
+   "ru": "Сперва это кажется весьма лёгким: поскольку всё совершенство Искусства состоит в том, чтобы хорошо подражать природе, представляется, что незачем спрашивать никакого другого наставника и достаточно работать с живых моделей; однако, если углубиться в дело, обнаружится, что мало или вовсе нет людей, у которых все части были бы в надлежащей пропорции без всякого изъяна. Итак, надобно выбирать в каждом то, что есть в нём прекрасного, и брать лишь то, что обычно называют прекрасной природой. Но кто осмелится полагать, что обладает достаточно верным суждением, чтобы не ошибиться в таком выборе?",
+   "en": "This appears at first very easy: for since the whole perfection of Art consists in imitating nature well, it seems that one need consult no other Master, and need only work after living models; yet if one wishes to look into the matter deeply, one will see that there are few or no men whose parts are all in their just proportion without any defect. One must therefore choose what is beautiful in each, and take only what is commonly called fine nature. But who will dare presume to have discernment just enough not to be deceived in such a choice?",
+   "fr": "Cela paroît d’abord fort aisé: car puisque toute la perfection de l’Art consiste à bien imiter la nature, il semble qu’il ne faille point consulter d’autre Maistre, & qu’on n’ait qu’à travailler d’aprés les modelles vivans; toutefois si l’on veut approfondir la chose, on verra qu’il ne se trouve que peu ou point d’hommes dont toutes les parties soient dans leur juste proportion sans aucun defaut. Il faut donc choisir ce qu’il y a de beau dans chacun, & ne prendre que ce qu’on nomme communément la belle nature. Mais qui osera presumer d’avoir le discernement assez juste pour ne se point tromper dans un tel choix?"
+  },
+  {
+   "n": 5,
+   "t": "p",
+   "ru": "Наши величайшие мастера затрудняются в этом и нередко не сходятся между собой; они составляют себе различные понятия о красоте, которые устанавливают почти всегда сообразно своей стране и своему темпераменту.",
+   "en": "Our greatest Masters are embarrassed by it, and often do not agree among themselves; they form different ideas of beauty, which they regulate almost always according to their country and their temperament.",
+   "fr": "Nos plus grands Maistres s’y trouvent embarassez, & souvent ne conviennent pas entre eux; ils se forment differentes idées de beauté; lesquelles ils reglent presque toûjours suivant leur païs & leur temperament."
+  },
+  {
+   "n": 6,
+   "t": "p",
+   "ru": "Я говорю: сообразно стране, потому что, как все люди своим обликом и манерами всегда многим обязаны краю, где они родились, так и Живописцы складывают особые вкусы по предметам, которые беспрестанно видят и которыми так наполняют воображение, что приводят к ним все свои фигуры.",
+   "en": "I say according to their country: for as all men, in their air and in their manners, always partake much of the climate where they were born, so Painters form particular tastes from the objects they see unceasingly, with which they so fill their imagination that they conform all their Figures to them.",
+   "fr": "Je dis suivant leur païs: car comme tous les hommes, dans leur air & dans leurs manieres, tiennent toûjours beaucoup du climat où ils sont nez, les Peintres se forment des goûts particuliers sur les objets qu’ils voyent sans cesse, dont ils se remplissent tellement l’imagination, qu’ils y conforment toutes leurs Figures."
+  },
+  {
+   "n": 7,
+   "t": "p",
+   "ru": "Отсюда происходит, что есть Провинции, по названию которых характеризуют Живописцев, говоря: это вкус такой-то Страны; и что в самом деле этот вкус обнаруживается, в большей или меньшей мере, у всех рисовальщиков этих Наций.",
+   "en": "Hence it comes that there are Provinces by whose name Painters are characterized, saying, this is of the taste of such a Country; and that in effect this taste is found, more or less, in all the Draughtsmen of those Nations.",
+   "fr": "De là vient qu’il y a des Provinces du nom desquelles on caracterise les Peintres, en disant c’est du goût d’un tel Païs, & qu’en effet ce goût se trouve, ou plus ou moins dans tous les Dessignateurs de ces Nations."
+  },
+  {
+   "n": 8,
+   "t": "p",
+   "ru": "Что до темперамента, то он действует на нас ещё сильнее. Поскольку именно он создаёт самое существенное различие между одним человеком и другим, он участвует во всём, что мы делаем. В этом смысле можно сказать, что Живописец изображает самого себя в своих Произведениях и что, будь у нас достаточно проницательности, мы могли бы прочесть в них его господствующие склонности. Тайное чувство, рождённое вместе с нами и причины которого мы часто не знаем, обыкновенно и определяет наш выбор и побуждает нас приводить наши фигуры в согласие с обликом тех лиц, к которым мы питаем наибольшее расположение.",
+   "en": "As for temperament, it acts still more powerfully in us. Since it is what makes the most essential distinction between one man and another, it has a share in everything we do. It is in this sense that one may say that a Painter paints himself in his Works, and that if we had penetration enough, we might read in them his dominant inclinations. A secret feeling born with us, and of which we often do not know the cause, is ordinarily what determines us in our choice, and makes us conform our figures to the air of the persons for whom we have the most inclination.",
+   "fr": "Pour ce qui est du temperament, il agit encore plus puissamment en nous. Comme c’est luy qui fait la distinction la plus essentielle d’un homme à un autre, il a part à tout ce que nous faisons. C’est dans ce sens qu’on peut dire qu’un Peintre se peint soy-mesme dans ses Ouvrages, & que si nous avions assez de penetration, nous y pourrions lire ses inclinations dominantes. Un sentiment secret né avec nous, & dont souvent on ne connoît pas la cause, est ordinairement ce qui nous determine dans nostre choix, & nous fait conformer nos figures à l’air des personnes pour qui nous aurions le plus de penchant."
+  },
+  {
+   "n": 9,
+   "t": "p",
+   "ru": "Бывают даже Живописцы, у которых темперамент выражен так ясно, что в нём невозможно ошибиться. У нас были такие, что сами собой обращались лишь к известным сюжетам: одни — к приятным, как купания Дианы, игры Нимф и тому подобное; другие всегда выбирали сюжеты суровые, колдовство, явления мёртвых и всё, что по природе внушает ужас.",
+   "en": "There are even Painters in whom the temperament is so marked that one cannot be mistaken in it. We have had some who were carried of themselves only to certain subjects: some to agreeable subjects such as the baths of Diana, the sports of Nymphs, and similar things; others always chose rude subjects, sorceries, apparitions of the dead, and all things naturally frightful.",
+   "fr": "Il y a mesmes des Peintres en qui le temperament est si marqué qu’on ne sçauroit s’y méprendre. Nous en avons eu qui ne se portoient d’eux-mesmes qu’à certains sujets; les uns à des sujets agreables comme des bains de Diane, des jeux de Nymphes, & choses semblables; d’autres choisissoient toûjours des sujets rudes, des sortileges, des apparitions de morts, & toutes choses naturellement effrayantes."
+  },
+  {
+   "n": 10,
+   "t": "p",
+   "ru": "Если бы взять на себя труд наблюдать их с этой точки зрения, обнаружилось бы, что образ жизни тех и других соответствовал их Произведениям и что склад их ума был отмечен в них не только в выборе сюжетов, но и в каждой отдельной Фигуре.",
+   "en": "If one took the trouble to observe them according to this remark, one would find that the manner of living of the one and the other corresponded to their Works, and that the character of their mind was marked in them, not only in the choice of subjects, but moreover in each Figure in particular.",
+   "fr": "Si l’on prenoit la peine de les observer suivant cette remarque, on trouveroit que la façon de vivre des uns & des autres répondoit à leurs Ouvrages, & que le caractere de leur esprit y estoit marqué, non seulement dans le choix des sujets, mais encore dans chaque Figure en particulier."
+  },
+  {
+   "n": 11,
+   "t": "p",
+   "ru": "Прибавим к стольким предубеждениям, какие каждый питает сам к себе, те, что исходят от Учителя, от манеры которого почти всегда что-нибудь сохраняется. Заметим здесь мимоходом, что то, что в Живописи называют манерой, обычно есть недостаток, ибо большей частью это не что иное, как какой-нибудь приятный приём, которым так увлеклись, что отягчили его излишеством; тем самым перешли надлежащую точку того Истинного, которого все ищут и до которого так трудно дойти.",
+   "en": "Let us add to so many prejudices that each takes against himself, those which come from the Master, from whose manner one almost always retains something. Whereupon we may remark in passing that what is called manner, in Painting, is commonly a defect, being for the most part nothing other than some agreeable stroke in which one has so taken pleasure that one has charged it to excess; whereby one has passed the just point of that Truth which everyone seeks, and which it is so difficult to attain.",
+   "fr": "Ajoûtons à tant de preventions que chacun prend de soy-mesme, celles qui viennent du Maistre, de la maniere duquel on retient presque toûjours quelque chose. Sur quoy, nous pouvons remarquer en passant, que ce qu’on appelle maniere, en Peinture, est communément un defaut, n’estant pour l’ordinaire autre chose que quelque trait agreable où l’on s’est tellement pleu qu’on l’a chargé avec excés; en quoy l’on a passé le juste poinct de ce Vray que tout le monde cherche, & où il est si difficile de parvenir."
+  },
+  {
+   "n": 12,
+   "t": "p",
+   "ru": "Что же может сделать рисовальщик среди стольких трудностей? Я не вижу ничего, кроме антики, на что можно было бы положиться вполне. Скульпторы, оставившие нам дошедшие до нас прекрасные Фигуры, счастливо вышли из этого затруднения. Иных из этих трудностей для них не существовало, а остальные они сумели совершенно одолеть.",
+   "en": "What, then, can a Draughtsman do in the midst of so many difficulties? I see only the antique in which one may place an entire confidence. The Sculptors who have left us the beautiful Figures that remain to us extricated themselves happily from this embarrassment. Some of these difficulties were not difficulties for them, and they knew perfectly how to overcome the others.",
+   "fr": "Que peut donc faire un Dessignateur au milieu de tant de difficultez? Je ne vois que l’antique en quoy l’on puisse prendre une entiere confiance. Les Sculpteurs qui nous ont laissé les belles Figures qui nous restent, se sont heureusement tirez de cét embarras. Quelques-unes de ces difficultez n’estoient pas difficultez pour eux, & ils ont sceu parfaitement surmonter les autres."
+  },
+  {
+   "n": 13,
+   "t": "p",
+   "ru": "Во-первых, что касается Страны, то работали они в Греции или в Италии. Известно довольно, что одна была плодовита красотами, а другая, будучи владычицей Мира, притягивала к себе со всех сторон всё, что было в нём прекрасного и редкого.",
+   "en": "First, as regards the Country, it was in Greece, or in Italy that they worked. It is well enough known that the one was fertile in beauties; the other being the mistress of the World, all that there was of fine and rare flowed to it from all quarters.",
+   "fr": "Premierement, pour ce qui regarde le Pays, c’étoit dans la Grece, ou dans l’Italie qu’ils travailloient. On sçait assez que l’une étoit fertile en beautez; l’autre étant la maistresse du Monde, tout ce qu’il y avoit de beau & de rare y abordoit de toutes parts."
+  },
+  {
+   "n": 14,
+   "t": "p",
+   "ru": "Что до темперамента и страстей, то, без сомнения, они были им подвержены, как и мы: природная бесчувственность не была бы даже особенно счастливым расположением для Искусств; трудно, чтобы Произведения не отдавали хоть немного этой крайней холодности. Но по меньшей мере эти великие Мужи не позволяли страстям настолько овладевать собой, чтобы не соблюдать всего, чего следовало избегать и что следовало применять сообразно разным характерам их Фигур; и притом с такой точностью, что никто за столько веков ещё не достиг той высокой степени совершенства, до которой они довели свои Произведения.",
+   "en": "With regard to temperament and the passions, doubtless they were subject to them as we are: a natural insensibility would not even be a very happy disposition for the Arts; it would be hard for the Works not to partake a little of that extreme coldness. But at least these great Men did not let themselves be so far prepossessed by their passions as not to observe all that was to be avoided and all that was to be practised according to the diverse characters of their Figures; and that with such exactness that no one, in so many centuries, has yet attained to that high degree of perfection to which they carried their Works.",
+   "fr": "A l’égard du temperament & des passions, sans doute ils y étoient sujets comme nous: ce ne seroit pas mesme une fort heureuse disposition pour les Arts qu’une insensibilité naturelle: il seroit mal-aisé que les Ouvrages ne tinssent un peu de cette extrême froideur: mais du moins ces grands Hommes ne se laissoient pas tellement prevenir à leurs passions qu’ils n’observassent tout ce qui étoit à fuir & à pratiquer suivans les divers caracteres de leurs Figures; & cela avec une telle exactitude, que personne, depuis tant de siecles, n’a encore atteint à ce haut degré de perfection où ils ont poussé leurs Ouvrages."
+  },
+  {
+   "n": 15,
+   "t": "p",
+   "ru": "Можно смело утверждать, что они в некотором роде превзошли природу; потому что, хотя и верно сказать, что они воистину лишь подражали ей, это следует понимать о каждой части в отдельности, но никогда о целом, и не нашлось человека, столь же совершенного во всех своих частях, как некоторые из их Фигур. Они подражали рукам одного, ногам другого, собирая так в одной Фигуре все красоты, какие могли подойти предмету, который они изображали; так мы видим, что они соединили в Геркулесе все черты, означающие силу, а в Венере — всю нежность и все прелести, способные образовать завершённую красоту. Они не жалели ни времени, ни трудов; нашёлся и такой, что работал всю жизнь, чтобы создать лишь одну совершенную Фигуру.",
+   "en": "One may boldly maintain that they in some sort surpassed nature; for although it is true to say that they truly did only imitate her, this is understood of each part in particular, but never of the whole together, and there has never been found a man as perfect in all his parts as some of their Figures are. They imitated the arms of one, the legs of another, gathering thus into a single Figure all the beauties that could suit the subject they represented, as we see that they assembled in the Hercules all the traits that mark strength, and in the Venus all the delicacy and all the graces that can form a consummate beauty. They spared neither time nor pains; there was one found who worked all his life with a view to producing only a single perfect Figure.",
+   "fr": "On peut avancer hardiment qu’ils ont en quelque sorte surpassé la nature; car bien qu’il soit vray de dire qu’ils n’ont fait veritablement que l’imiter, cela s’entend pour chaque partie en particulier, mais jamais pour le tout ensemble, & il ne s’est point trouvé d’homme aussi parfait en toutes ses parties que le sont quelques-unes de leurs Figures. Ils ont imité les bras de l’un, les jambes de l’autre, ramassant ainsi dans une seule Figure toutes les beautez qui pouvoient convenir au sujet qu’ils representoient, comme nous voyons qu’ils ont rassemblé dans l’Hercule tous les traits qui marquent la force, & dans la Venus toute la délicatesse & toutes les graces qui peuvent former une beauté achevée. Ils ne plaignoient ny le temps ny les soins; il s’en est trouvé tel qui a travaillé toute sa vie en vuë de produire seulement une Figure parfaite."
+  },
+  {
+   "n": 16,
+   "t": "p",
+   "ru": "Их одушевляли три могучих побуждения: Религия, Слава и выгода. Они почитали своего рода религиозным служением делать Фигуры своих Богов с таким благородством, чтобы те могли привлечь любовь и благоговение Народов. Тут находила себе место и их собственная слава: когда им удавалось, им воздавались особые почести. А о своём достатке им уже не нужно было заботиться, как только они достигали известной степени достоинства.",
+   "en": "Three powerful motives animated them: Religion, Glory, and interest. They regarded it as a sort of Religious worship to make the Figures of their Gods with such nobility that they might attract the love and veneration of the Peoples. Their own glory met with it there; singular honours were decreed them when they had succeeded. And as for their fortune, they had no further need to trouble themselves about it, once they had arrived at a certain degree of merit.",
+   "fr": "Trois puissants motifs les animoient; la Religion, la Gloire, & l’interest. Ils regardoient comme une sorte de culte Religieux de faire les Figures de leurs Dieux avec tant de noblesse qu’elles peussent attirer l’amour & la veneration des Peuples. Leur propre gloire s’y rencontroit, on leur decernoit des honneurs singuliers quand ils avoient reüssi. Et pour leur fortune ils n’avoient plus besoin de s’en mettre en peine, dés qu’ils étoient parvenus à un certain degré de merite."
+  },
+  {
+   "n": 17,
+   "t": "p",
+   "ru": "Помимо этих причин, которые, кажется, всего более способствовали образованию этих превосходных Мужей, несомненно, что бывают счастливые века, каковы были век Александра и век Августа. Мы живём ныне при подобном царствовании: так заметно расцветают в нём прекрасные Искусства, что есть основание надеяться, что можно будет наконец достичь совершенства Греков и Римлян в их наиболее завершённых Произведениях.",
+   "en": "Besides these reasons, which seem to have contributed most to forming these excellent Men, it is certain that there are happy ages, such as were the age of Alexander and that of Augustus. We live today under a like reign: the fine Arts so flourish again in it that there is ground to hope that one may at last attain to the perfection of the Greeks and Romans in their most finished Works.",
+   "fr": "Outre ces raisons qui semblent avoir le plus contribué à former ces excellens Hommes, il est certain qu’il y a des siecles heureux, tels qu’ont été le siecle d’Alexandre & celuy d’Auguste. Nous vivons aujourd’huy sous un pareil regne: on y voit tellement refleurir les beaux Arts, qu’il y a lieu d’esperer qu’on pourra parvenir enfin à la perfection des Grecs & des Romains dans leurs Ouvrages les plus achevez."
+  },
+  {
+   "n": 18,
+   "t": "p",
+   "ru": "Однако высокое уважение, которое мы питаем к Древним, как бы оно ни было основательно, не должно слепо привязывать нас ко всем античным Фигурам; надо полагать, что, как были Мастера, так были и Ученики, чьи произведения дошли до нас, хотя вряд ли заслуживают той заботы, с какою их сберегали. Поэтому из великого числа, оставшегося у нас, я выбрал те, что пользуются наиболее всеобщим одобрением и на которые самые известные рисовальщики смотрят не иначе как с восхищением, выдавая их за самые надёжные образцы.",
+   "en": "Yet the high esteem that we have for the Ancients, however well founded, must not attach us blindly to all antique Figures; it is to be believed that as there were Masters, so there were also Pupils, some of whose Works have come down to us, although they hardly merit the care that has been taken to preserve them. Wherefore, in the great number that remains to us, I have chosen those which have the most universal approbation, and which the most famous Draughtsmen regard only with admiration, giving them out as the surest models.",
+   "fr": "Il ne faut pas toutefois que la haute estime que nous avons pour les Anciens, quoy que bien fondée, nous attache aveuglement à toutes les Figures antiques; il est à croire que comme il y avoit des Maistres, il y avoit aussi des Ecoliers, dont quelques Ouvrages ont passé jusqu’à nous, bien qu’ils ne meritent gueres le soin qu’on a pris de les conserver. C’estpourquoy dans le grand nombre qui nous en reste, j’ay choisi celles qui ont l’approbation la plus universelle, & que les plus fameux Dessignateurs ne regardent qu’avec admiration, les donnant comme les modeles les plus asseurez."
+  },
+  {
+   "n": 19,
+   "t": "p",
+   "ru": "Поскольку именно на этих Фигурах вам надлежит строить главное своё Изучение, полезно обратить ваше внимание на то, что в лучших из них замечаешь вещи, которые наверное сочли бы ошибками, будь они в Произведениях современного мастера. У Лаокоона левая нога длиннее другой на четыре минуты; у Аполлона левая нога длиннее правой примерно на девять минут. У Венеры нога, которая сгибается, длиннее почти на одну часть три минуты, чем та, что несёт тело. Правая нога большого Сына Лаокоона длиннее левой почти на девять минут.",
+   "en": "Since it is upon these Figures that you must make your principal Study, it is well to make you observe that in the finest of them one remarks things which one would assuredly take for faults, if one saw them in the Works of a Modern. The Laocoon has the left leg longer than the other by four minutes; the Apollo has the left leg longer than the right by about nine minutes. The Venus has the leg that bends longer, by almost one part three minutes, than that which bears. The right leg of the great Child of Laocoon is longer, by nearly nine minutes, than the left.",
+   "fr": "Comme c’est sur ces Figures que vous devez faire vostre principale Etude, il est bon de vous faire observer que dans les plus belles on remarque des choses qu’on prendroit asseurément pour des fautes, si on les voyoit dans les Ouvrages d’un Moderne. Le Laocoon a la jambe gauche plus longue que l’autre de quatre minutes; L’Apollon a la jambe gauche plus longue que la droite d’environ neuf minutes. La Venus a la jambe qui ploye plus longue presque d’une partie trois minutes que celle qui porte. La jambe droite du grand Enfant de Laocoon est plus longue de prés de neuf minutes que la gauche."
+  },
+  {
+   "n": 20,
+   "t": "p",
+   "ru": "Однако я не могу не питать благоговения даже к этим кажущимся ошибкам: я полагаю, что у Скульпторов были свои основания и что было бы дерзостью осуждать их; как можно думать, чтобы эти великие Мужи, создавшие Произведения, которые можно назвать совершенными, впали в столь грубые ошибки, как те, о которых мы только что говорили, если бы не делали их намеренно?",
+   "en": "I cannot, however, help having veneration even for these apparent faults: I believe that the Sculptors had their reasons, and that there would be temerity in condemning them; how is one to think that these great Men who made Works that may be called perfect, should have fallen into faults as gross as those of which we have just spoken, had they not made them on purpose?",
+   "fr": "Je ne puis cependant m’empescher d’avoir de la veneration mesmes pour ces fautes apparentes: je croy que les Sculpteurs ont eu leurs raisons, & qu’il y auroit de la temerité à les condamner; le moyen de penser que ces grands Hommes qui ont fait des Ouvrages qu’on peut dire parfaits, soient tombez dans des fautes aussi grossieres que feroient celles dont nous venons de parler, s’ils ne les avoient pas faites à dessein?"
+  },
+  {
+   "n": 21,
+   "t": "p",
+   "ru": "Среди многих соображений, какие у них могли быть и каких мы не представляем, может статься, что они поступили так из-за ракурса. Вот как я понимаю дело. Эти Фигуры делались для того, чтобы их ставили в таких местах, откуда их видели главным образом с известных сторон, на высотах и расстояниях, способных изменить видимость предмета; замеченные нами части, представляясь тогда в ракурсе, показались бы погрешающими; и это, на мой взгляд, побудило делать их длиннее. Отсюда мы можем извлечь важный урок: когда Фигура должна быть видна со всех сторон и с расстояния, позволяющего вполне рассмотреть её, надо придавать ей такие пропорции, какие мы находим в Антике, в тех частях, которые видны без всякого ракурса; но если Фигура должна быть поставлена с такими стеснениями, в местах или на расстояниях, что часть её скрыта от наших глаз, тогда было бы хорошо, а быть может и необходимо, прибегнуть к тем учёным уловкам, которыми Древние столь счастливо пользовались.",
+   "en": "Among the several considerations they may have had, and which we do not imagine, it may be that they used it so on account of foreshortening. Here is how I understand the matter. These Figures were made to be placed in situations from which they were seen chiefly from certain sides, with heights and distances which might change the appearances of the object; the parts that we have remarked, appearing then in foreshortening, would have seemed defective; and this, to my mind, is what obliged them to make them longer; whence we might draw an important lesson, which is that when a Figure is to be seen from all sides, and from a distance permitting it to be entirely examined, one must give it the proportions such as we find them in the Antique, in the parts which show themselves without any foreshortening; but if the Figure is to be placed under constraints, in places or at distances which withdraw some part of it from our eyes, then it would be fine, and perhaps necessary, to use those learned artifices of which the Ancients so happily availed themselves.",
+   "fr": "Entre plusieurs considerations qu’ils ont pû avoir, & que nous n’imaginons pas, il se peut faire qu’ils en ayent usé de la sorte, à cause du raccourcy. Voicy comme je comprends la chose. Ces Figures étoient faites pour estre placées dans des endroits d’où elles étoient principalement vuës de certains costez, avec des hauteurs & des distances qui pouvoient changer les apparences de l’objet; les parties que nous avons remarquées paroissant alors en raccourcy auroient semblé defectueuses; & c’est à mon sens, ce qui a obligé de les tenir plus longues; d’où nous pourrions tirer une leçon importante, qui est que lors qu’une Figure doit estre vuë de tous costez, & d’une distance à la pouvoir entierement examiner, il faut luy donner les proportions telles que nous les trouvons dans l’Antique, aux parties qui se font voir sans aucun raccourcy, mais si la Figure devoit estre placée avec des assujettissemens à des lieux ou à des distances qui en dérobassent quelque partie à nos yeux, alors il seroit beau, & peut-estre necessaire, d’user de ces sçavants artifices dont les Anciens se sont si heureusement servis."
+  },
+  {
+   "n": 22,
+   "t": "p",
+   "ru": "Я сперва предполагал сделать это Сочинение обширнее, присоединив к нему те же Фигуры, оттенённые с наибольшим вкусом и тщательностью, какие были бы мне возможны, и прежде всего в правильности моих мер; но так как меня торопили выдать его Публике на пользу Учащихся, я не счёл нужным медлить дольше, тем более что всё необходимое здесь есть, а остальное служило бы лишь для большего удовольствия. Надо лишь предупредить вас, что, так как эти Фигуры не оттенены, а места, которые должны были бы быть округлыми, предстают вам лишь плоской поверхностью, может случиться, что они покажутся вам короткими; пусть это вас не смущает: они выполнены в самых изящных пропорциях; если вы сомневаетесь, нарисуйте какую-нибудь из них в тех же мерах, какие я вам указал, оттените её нежно, не обводя контуром, и у вас выйдет Фигура весьма лёгкая.",
+   "en": "I had proposed to myself at first to make this Work more ample, by adding to it these same Figures, shaded with the most taste and the most neatness that might have been possible to me; and above all, in the regularity of my measures; but as I have been pressed to give it to the Public, for the utility of Students, I did not think I ought to delay further, the more so as all that is necessary is here, and the rest would be only for greater agreeableness. I must only warn you that, these Figures not being shaded, and the places which should be round presenting to you only a flat surface, it may happen that they will appear short to you; let that not stop you, they are in the most elegant proportions; if you doubt it, draw some one of them in the same measures that I have marked for you, shade it tenderly without outlining it, and you will make a very light Figure.",
+   "fr": "Je m’étois proposé d’abord de rendre cét Ouvrage plus ample, en y ajoûtant ces mesmes Figures, ombrées avec le plus de goust & le plus de propreté qu’il m’eust esté possible; & sur tout, dans la regularité de mes mesures; mais comme l’on m’a pressé de le donner au Public, pour l’utilité des Etudiants, je n’ay pas crû devoir differer davantage, d’autant plus que tout ce qu’il y a de necessaire est icy, & que le reste ne seroit que pour un plus grand agrément. Il faut seulement vous avertir que ces Figures n’estant point ombrées, & les endroits qui devroient estre ronds ne vous presentans qu’une superficie plate, il pourra arriver qu’elles vous paroistront courtes; que cela ne vous arreste pas, elles sont dans les proportions les plus élegantes; si vous en doutez, dessignez-en quelqu’une dans les mesmes mesures que je vous ay marquées, ombrez-la tendrement sans la tracer, & vous ferez une Figure fort legere."
+  },
+  {
+   "n": 23,
+   "t": "p",
+   "ru": "О предмете этом написано разных Книг; мне кажется, что многие из тех, кто о нём писал, взяли на себя роль Глав секты, давая меры, как им заблагорассудилось, не опираясь ни на какой авторитет. Я полагаю, что они ошибались; судить об этом вам: сопоставьте их пропорции с моими, нарисуйте одну и ту же Фигуру по разным правилам — и вы увидите результат.",
+   "en": "Various Books have been made on this matter; it seems to me that several of those who have treated of it have affected to make themselves Heads of a Sect, giving measures as it pleased them, without resting on any authority. I believe they have erred; it is for you to judge of it: make a parallel of their proportions with mine, draw one same Figure according to the different rules, and you will see the effect.",
+   "fr": "On a fait differens Livres sur cette matiere; il me paroist que plusieurs de ceux qui en ont traité ont affecté de se faire Chefs de Secte, en donnant des mesures comme il leur a pleu, sans s’appuyer d’aucune authorité. Je croy qu’ils ont erré; c’est à vous d’en juger, faites le parallele de leurs proportions avec les miennes, dessignez une mesme Figure suivant les differentes regles, & vous en verrez l’effet."
+  },
+  {
+   "n": 24,
+   "t": "p",
+   "ru": "Я нашёл и других, которые, выполнив на глаз весьма правильные и со вкусом Фигуры по Антике, затем обмерили мраморы, чтобы дать их пропорции, и, не проявив при этом всей необходимой точности, составили Писания, не соответствовавшие их Фигурам.",
+   "en": "I have found others who, after drawing by eye very regular Figures of good taste, after the Antique, then measured the marbles to give their proportions, and, not having brought to it all the necessary exactness, their Writings did not correspond to their Figures.",
+   "fr": "J’en ay trouvé d’autres qui aprés avoir dessigné à vuë d’œil des Figures fort regulieres & de bon goust, d’aprés l’Antique, avoient ensuite mesuré les marbres, pour en donner les proportions, & n’y ayant pas apporté toute l’exactitude necessaire, leurs Ecrits ne répondoient pas à leurs Figures."
+  },
+  {
+   "n": 25,
+   "t": "p",
+   "ru": "Я старался избежать в равной мере обоих этих недостатков. Я не даю вам ничего от себя, всё взято мною с Антики; но я ничего не нанёс на бумагу, пока не отметил циркулем всех мер, чтобы мои контуры ложились точно по моим цифрам.",
+   "en": "I have tried to avoid both these defects alike. I give you nothing of my own; I have taken everything from the Antique, but I have traced nothing on paper until I had marked with the compass all the measures, so that my contours might fall exactly according to my figures.",
+   "fr": "J’ay tâché d’éviter également ces deux defauts. Je ne vous donne rien de moy mesme, j’ay tout pris sur l’Antique, mais je n’ay rien tracé sur le papier, qu’aprés avoir marqué au compas toutes les mesures, pour faire que mes contours tombassent juste suivant mes chifres."
+  },
+  {
+   "n": 26,
+   "t": "p",
+   "ru": "Я выбрал Фигуры различного характера и обмерил их со многих сторон, чтобы вы могли найти в одних или в других что-нибудь вам подходящее. Я расположил свои меры так, чтобы вы могли пользоваться ими в какой бы профессии вы ни состояли, где нужно уметь рисовать.",
+   "en": "I have chosen Figures of different character, and I have measured them from several sides, so that you may find in some or in others something that suits you. I have arranged my measures in such manner that you may use them in whatever profession you may be, where there is need to know how to draw.",
+   "fr": "J’ay choisi des Figures de different caractere, & je les ay mesurées de plusieurs costez, afin que vous puissiez trouver dans les unes ou dans les autres quelque chose qui vous convienne. J’ay disposé mes mesures de maniere que vous puissiez vous en servir dans quelque profession que vous soyez, où l’on ait besoin de sçavoir dessigner."
+  },
+  {
+   "n": 27,
+   "t": "p",
+   "ru": "Если вы Скульптор, вы без сомнения найдёте здесь, больше чем кто-либо другой, то, что вам пригодится; потому что ваше Искусство ничего не измышляет и представляет Фигуры со всеми их действительными размерами, вы можете водить свой циркуль по всем местам, в которых сомневаетесь.",
+   "en": "If you are a Sculptor, it is beyond doubt that you will find here, more than another, things that will be proper to you; for as your Art feigns nothing, and represents Figures with all their effective dimensions, you may carry your compass over all the places of which you are in doubt.",
+   "fr": "Si vous estes Sculpteur, il est sans difficulté que vous y trouverez, plus qu’un autre, des choses qui vous seront propres; car comme vostre Art ne feint rien, & qu’il represente les Figures avec toutes leurs dimensions effectives, vous pourrez promener vostre compas sur tous les endroits dont vous douterez."
+  },
+  {
+   "n": 28,
+   "t": "p",
+   "ru": "Если вы Живописец или Гравёр, вы найдёте здесь тоже много полезного, потому что, с какой бы стороны ни предстала вам Фигура, в ней всегда много измеримых частей. Я придумал сверх того два способа измерения, отличных от обычного: один пригодится вам для уходящих частей — вы найдёте его в Седьмой таблице; а другой, для измерения частей в ракурсе, я указал в Восемнадцатой таблице.",
+   "en": "If you are a Painter, or Engraver, you will find here also a quantity of useful things, because from whatever view a Figure presents itself to you, there are always many measurable parts. I have devised besides two ways of measuring different from the ordinary; the one will serve you for the receding parts, you will find it in the Seventh Plate; and the other, for measuring the parts in foreshortening, I have marked in the Eighteenth Plate.",
+   "fr": "Si vous estes Peintre, ou Graveur, vous y trouverez encore quantité de choses utiles, parce que de quelque vuë qu’une Figure se presente à vous, il y a toûjours beaucoup de parties mesurables. J’ay imaginé outre cela deux manieres de mesurer differentes de l’ordinaire; l’une vous servira pour les parties fuyantes, vous la trouverez dans la Planche septiéme; Et l’autre pour mesurer les parties dans le raccourcy, je l’ay marquée dans la Planche dix-huitiéme."
+  },
+  {
+   "n": 29,
+   "t": "p",
+   "ru": "Признаюсь, вы весьма смутили бы большую часть Живописцев, если бы приложили циркуль к их Произведениям во всех местах, которые можно измерить: многие спасаются благодаря прелестям Живописи; но не будем льстить себе: ни живость колорита, ни богатство композиций, ни самые сильные выражения никогда не образуют прекрасного целого и будут лишь ложной видимостью красоты, если не поддержаны правильностью рисунка. Пусть, однако, это вас не отвращает: хотя немногие Картины способны выдержать такое испытание, вы всё же можете применить строгость циркуля к Произведениям Рафаэля, Аннибале Карраччи, Пуссена и некоторых наших славнейших Мастеров; мы знаем даже ныне и таких, с кем ещё можно так поступить; их скромность мешает мне назвать их, их Произведения достаточно их обнаруживают; рассмотрите их хорошенько; вы найдёте Живописцев, у которых Картины верны во всех пропорциях благодаря контурам, одновременно твёрдым и изящным: о таких я и говорю.",
+   "en": "I avow that you would greatly embarrass the greater part of Painters if you carried the compass over their Works in all the places that can be measured: many save themselves by the favour of the graces of Painting; but let us not flatter ourselves, neither the vivacity of colouring, nor the richness of dispositions, nor the strongest expressions will ever form a fine whole, and they will be only false appearances of beauty, if they are not sustained by the correctness of the drawing. Let this nevertheless not put you off, for although few Pictures can sustain such an examination, you may yet bring the severity of the compass to the Works of Raphael, of Annibal Carache, of Poussin, and of some of our most famous Masters; we know even today some with whom one may still do so; their modesty prevents me from naming them, their Works discover them well enough; examine them well; you will find Painters whose Pictures are just in all the proportions through contours certain and graceful together: it is of those that I mean to speak.",
+   "fr": "J’avouë que vous embarasseriez fort la plus grande partie des Peintres si vous portiez le compas sur leurs Ouvrages dans tous les endroits qui se peuvent mesurer: plusieurs se sauvent à la faveur des graces de la Peinture, mais ne nous flatons point, ni la vivacité du coloris, ni la richesse des dispositions, ni les expressions les plus fortes, ne formeront jamais un beau tout, & ne seront que de fausses apparences de beauté, si elles ne sont soûtenuës de la correction du dessein. Que cela toutefois ne vous rebute pas, car bien que peu de Tableaux puissent soûtenir un tel examen, vous pouvez pourtant apporter la severité du compas aux Ouvrages de Raphaël, d’Annibal, Carache, du Poussin, & de quelques-uns de nos plus fameux Maistres; nous en connoissons mesme aujourd’huy avec qui on en peut encore user de la sorte; leur modestie m’empesche de les nommer, leurs Ouvrages les découvrent assez; examinez-les bien; vous trouverez des Peintres dont les Tableaux sont justes dans toutes les proportions par des contours certains & gracieux tout ensemble, c’est de ceux là que j’entends parler."
+  },
+  {
+   "n": 30,
+   "t": "p",
+   "ru": "Когда я так высоко хвалю Живописцев, Произведения которых можно измерять, мой замысел всё же не в том, чтобы вы тратили слишком много времени на измерение своих Фигур циркулем, что наверняка замедлило бы ваши успехи в рисунке; но вы можете пользоваться циркулем и моими мерами, чтобы разрешать трудности, которые возникнут у вас с пропорциями: тогда, неоднократно получив разъяснение, вы почувствуете дело как природное и приобретёте привычку правильно соблюдать их без циркуля.",
+   "en": "When I give such great praises to the Painters whose Works can be measured, my intention is nevertheless not to make you employ a time too considerable in measuring your Figures with the compass, which would assuredly retard your progress in drawing; but you may use the compass and my measures to resolve the difficulties that will arise for you on proportions: then, having been enlightened several times, the thing will become natural to you, and you will form the habit of observing them regularly without the compass.",
+   "fr": "Quand je donne de si grands éloges aux Peintres dont on peut mesurer les Ouvrages, mon intention n’est pas neantmoins de vous faire employer un temps trop considerable à mesurer vos Figures avec le compas, ce qui retarderoit asseurément vostre progrés dans le dessein; mais vous pouvez vous servir du compas & de mes mesures pour resoudre les difficultez qui vous naistront sur les proportions: alors vous en estant plusieurs fois éclaircis, la chose vous deviendra naturelle, & vous vous formerez l’habitude de les observer regulierement sans compas."
+  },
+  {
+   "n": 31,
+   "t": "p",
+   "ru": "Впрочем, не сочтите дурным, что я здесь хвалю своё Сочинение: главная слава не мне — я хвалю Антику; Антика являет мне удивительные Произведения, я делаю их своим особым предметом изучения, ей обязан тем немногим, что знаю, я прилежно собираю с неё меры, чтобы лучше рассмотреть красоты, и предлагаю их вам, желая, чтобы вы извлекли из них всю пользу, какую можно извлечь.",
+   "en": "For the rest, take it not ill that I vaunt my Work here: the principal glory is not for me, it is the Antique that I vaunt; the Antique presents to me admirable Works, I make of it my particular study, I owe to it the little that I know, I take care to gather its measures in order to examine its beauties the better, and I offer them to you, wishing that you may gather all the fruit that can be drawn from them.",
+   "fr": "Au reste ne trouvez pas mauvais que je vous vante ici mon Ouvrage: la principale gloire n’est pas pour moy, c’est l’Antique que je vante; l’Antique me presente des Ouvrages admirables, j’en fais mon étude particuliere, je luy dois le peu que je sçay, je prens soin d’en ramasser les mesures pour en mieux examiner les beautez, & je vous les offre, souhaittant que vous en recueüilliez tout le fruit qui s’en peut tirer."
+  },
+  {
+   "n": 32,
+   "t": "h",
+   "ru": "Предуведомления",
+   "en": "Notices",
+   "fr": "Avertissements",
+   "lv": 2
+  },
+  {
+   "n": 33,
+   "t": "p",
+   "ru": "Чтобы пользоваться этими мерами, надо прежде всего знать, что у искусных Живописцев и Скульпторов в обычае делать свои Фигуры немного приниженными, чтобы придать им больше грации и чтобы они казались более гибкой природы; почти все античные Статуи в той или иной мере выполнены в этом вкусе, смотря по тому, чего требуют сюжеты. Места, в которых совершается это принижение, — сгиб бёдер, изгиб поясницы и наклон головы: всё это, правда, составляет немногое в некоторых Фигурах, как Аполлон, который почти прям; но в других, как Фигура Антиноя, уменьшение составляет около одной части десяти минут. Поэтому когда мы говорим, что такая-то Фигура имеет такую-то высоту, это не значит, что, измерив Статую от макушки головы до подошвы ног в том положении, в каком она стоит, найдут в ней действительно ту высоту, какую мы ей приписываем; это понимается так: если бы Фигура была прямой, как Терм, и стояла ровно на обеих ногах, при тех же пропорциях, какие у неё есть, она имела бы ту высоту, какую мы ей даём.",
+   "en": "To make use of these measures, it must first be known that it is the usage of skilful Painters and Sculptors to make their Figures a little lowered, in order to give them more grace, and to make them appear of a more supple nature; almost all the antique Statues are in this taste, more or less, according as the subjects require. The places in which these lowerings are made are the fold of the hips, the curve of the loins, and the inclination of the head: all this indeed amounts to little in certain Figures, such as the Apollo, which is almost upright; but in others, such as the Figure of Antinous, the diminution is about one part ten minutes. When therefore we say that such a Figure has so much height, this does not mean that, measuring the Statue from the top of the head to the sole of the feet, in the attitude in which it is, one would find in it effectively the height that we attribute to it, but it is to be understood that if the Figure were upright like a Term, and equally set upon its two feet, in the same proportions that it has, it would have the height that we give it.",
+   "fr": "Pour se servir de ces mesures, il faut premierement sçavoir que c’est l’ordinaire des habiles Peintres & Sculpteurs, de faire leurs Figures un peu surbaissées, afin de leur donner plus de grace, & pour les faire paroistre d’une nature plus souple; Presque toutes les Statuës antiques sont dans ce goust, plus ou moins, suivant que les sujets le requierent. Les endroits par lesquels ces surbaissemens se font sont le pli des hanches, le courbe des reins, & le panchement de la teste: Tout cela veritablement ne va qu’à peu de chose dans certaines Figures, comme l’Apollon qui est presque droit; mais dans d’autres, telles qu’est la Figure d’Antinoüs, la diminution est d’environ une partie dix minutes. Lors donc que nous disons une telle Figure a tant de hauteur, cela ne veut pas dire, qu’à mesurer la Statuë depuis le sommet de la teste jusqu’à la plante des pieds, dans l’attitude où elle est, on y trouvast effectivement la hauteur que nous luy attribuons, mais cela s’entend que si la Figure estoit droite comme un Terme, & également posée sur ses deux pieds, dans les mesmes proportions qu’elle a, elle auroit la hauteur que nous luy donnons."
+  },
+  {
+   "n": 34,
+   "t": "p",
+   "ru": "Приняв это, я измерил свои Фигуры в той высоте, какую они имели бы, будь они прямыми; я отметил, что в некоторых местах уменьшено, и главные свои меры снял с тех частей, которые видны во всём своём протяжении.",
+   "en": "This supposed, I have measured my Figures in the height they would have if they were upright; I have marked what is diminished in some places, and I have taken my principal measures upon the parts which are found in their whole extent.",
+   "fr": "Cela supposé, j’ay mesuré mes Figures dans la hauteur qu’elles auroient si elles estoient droites; j’ay marqué ce qu’il y a de diminué dans quelques endroits, & j’ay pris mes principales mesures sur les parties qui se trouvent dans toute leur étenduë."
+  },
+  {
+   "n": 35,
+   "t": "p",
+   "ru": "Меры всей Фигуры я установил по отношению к голове, следуя самому обычному способу. Голова делится на четыре части, а именно: одна — от низа подбородка до низа носа; вторая — от низа носа до верха, между двумя бровями; третья — от середины бровей до начала волос на лбу; и четвёртая — от начала волос до макушки головы. Каждая часть делится на двенадцать минут, а минуты делятся на половины, трети и четверти. Вот как всё это обозначается: P. означает часть, M. — минуту, m ½ — половину минуты, m ⅓ — треть минуты, m ¼ — четверть минуты. Чтобы не обременять свои Фигуры лишними цифрами, я провёл такое различие между половиной минуты и полутора минутами: когда я отмечаю половину минуты, я отмечаю её так: m ½, без всякой цифры перед буквой M. А когда хочу сказать «полторы минуты», ставлю цифру перед буквой M, так что 1. m ½ означает полторы минуты. Фигуру, изображающую Мир греков, я измерил в футах, дюймах и линиях ради большей точности, потому что она очень мала; но вы найдёте, что это соотносится с мерами, снятыми с головы, и что эта Фигура, содержащая сорок пять дюймов, семь линий, приходится ровно на тридцать частей головы, так что вы сможете приводить все свои меры способом, который вам окажется удобнейшим.",
+   "en": "I have regulated the measures of the entire Figure by relation to the head, following the most ordinary method. The head is divided into four parts; namely, one from the underside of the chin to the underside of the nose; the second, from the underside of the nose to the upper side, between the two eyebrows; the third, from the middle of the eyebrows to the growth of the hair upon the forehead; and the fourth, from the growth of the hair to the top of the head. Each part is divided into twelve minutes, and the minutes are divided into half, thirds, and quarters. Here is how the whole is marked: P. signifies part, M. minute, m ½ half minute, m ⅓ third of a minute, m ¼ quarter of a minute. In order not to burden my Figures with useless figures, I have made this difference between a half minute and a minute and a half, that when I mark the half minute, I mark it thus, m ½, without any numeral before the letter M. And when I mean to say a minute and a half, I put a numeral before the letter M, so that 1. m ½ signifies a minute and a half. I have measured the Figure which represents the Peace of the Greeks by feet, inches, and lines, for greater exactness, because it is very small; but you will find that this relates to the measures taken upon the head, and that this Figure, containing forty-five inches, seven lines, comes out exactly to thirty parts of head, so that you will be able to reduce all your measures in the manner that will be most convenient to you.",
+   "fr": "J’ay reglé les mesures de la Figure entiere par rapport à la teste, suivant la methode la plus ordinaire. La teste se divise en quatre parties; sçavoir, une depuis le dessous du menton jusqu’au dessous du nez; La seconde, depuis le dessous du nez jusqu’au dessus, entre les deux sourcils; La troisiéme, depuis le milieu des sourcils jusqu’à la naissance des cheveux sur le front; Et la quatriéme, depuis la naissance des cheveux jusqu’au sommet de la teste. Chaque partie se divise en douze minutes, & les minutes se divisent en demie, en tiers, & en quarts. Voici comment le tout se marque, P. signifie partie, M. minute, m ½ demie minute, m ⅓ tiers de minute m ¼ quart de minute. Pour ne charger pas mes Figures de chifres inutiles, j’ay fait cette difference entre une demie minute, & une minute & demie, que quand je marque la demie minute, je la marque ainsi m ½ sans aucun chifre avant la lettre M. Et quand je veux dire minute & demie, je mets un chifre avant la lettre M, en sorte que 1. m ½ signifie une minute & demie. J’ay mesuré la Figure qui represente la Paix des Grecs par pieds, poulces, & lignes, pour une plus grande exactitude, à cause qu’elle est fort petite; Mais vous trouverez que cela se rapporte aux mesures qui sont prises sur la teste, & que cette Figure contenant quarante-cinq poulces, sept lignes, revient juste à trente parties de teste, en sorte que vous pourrez reduire toutes vos mesures de la maniere qui vous sera la plus commode."
+  },
+  {
+   "n": 36,
+   "t": "h",
+   "ru": "Выписка из королевской привилегии",
+   "en": "Extract from the King’s Privilege",
+   "fr": "Extrait du privilège du Roy",
+   "lv": 2
+  },
+  {
+   "n": 37,
+   "t": "p",
+   "ru": "Милостью и по привилегии Короля дозволено сьеру Жирару Одрану печатать, продавать и сбывать через кого ему будет угодно Книгу под названием *Пропорции человеческого тела* в течение десяти лет; запрещается всем Граверам-печатникам и прочим Лицам копировать, гравировать или заказывать гравирование названных Фигур в какой бы то ни было форме, манере и величине без согласия означенного Сьера, под страхом конфискации Экземпляров и Таблиц, возмещения всех издержек, убытков и ущерба и штрафа в тысячу пятьсот ливров, как это подробнее изложено в самой Привилегии. Дано в Версале, 17-го дня Декабря 1682. Подписано: по повелению Короля, Беллавуан; и скреплено большой печатью из жёлтого воска.",
+   "en": "By grace and Privilege of the King, permission is given to the sieur Girard Audran to have printed, sell and retail, by such person as shall seem good to him, a Book entitled *The Proportions of the Human Body*, during the time and space of ten years: Prohibitions to all Engravers-Printers, and other Persons, to copy, engrave, or have engraved in any sort, manner and size whatsoever the aforesaid Figures, without the consent of the said Sieur, on pain of confiscation of the Copies and Plates, and of all costs, damages and interests, and of fifteen hundred livres of fine, as is more amply set forth by the said Privilege. Given at Versailles, the 17th day of December 1682. Signed, by the King, Bellavoine; And sealed with the great Seal of yellow wax.",
+   "fr": "Par grace & Privilege du Roy, il est permis au sieur GIRARD AUDRAN, de faire Imprimer, vendre & debiter par telle personne que bon luy semblera un Livre intitulé, *Les Proportions du Corps Humain*, durant le temps & espace de dix années: Défenses à tous Graveurs-Imprimeurs, & autres Personnes de copier, graver, ou faire graver en telle sorte, maniere & grandeur que ce soit les Figures susdites, sans le consentement dudit Sieur, à peine de confiscation des Exemplaires & Planches, & de tous dépens, dommages & interests, & de quinze cens livres d’amende, comme il est plus amplement porté par ledit Privilege. Donné à Versaille, le 17me jour de Decembre 1682. Signé, par le Roy, BELLAVOINE; Et scellé du grand Sceau de cire jaune."
+  },
+  {
+   "n": 38,
+   "t": "p",
+   "ru": "*Внесено в Книгу Корпорации торговцев книгами, 19 февраля 1683.* Подписано: К. Анго, синдик.",
+   "en": "*Registered in the Book of the Community of Booksellers, the 19th of February 1683.* Signed, C. Angot, Syndic.",
+   "fr": "*Registré sur le Livre de la Communauté des Marchands Libraires, le 19. Février 1683.* Signé, C. ANGOT, Syndic."
+  },
+  {
+   "n": 39,
+   "t": "p",
+   "ru": "Экземпляры представлены.",
+   "en": "The Copies have been furnished.",
+   "fr": "Les Exemplaires ont esté fournis."
+  }
+ ]
+}
