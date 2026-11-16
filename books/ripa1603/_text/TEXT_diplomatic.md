@@ -2,6 +2,1534 @@
 
 Опечатки печатника переданы как напечатаны, без исправления. Читательскую версию с исправлениями см. TEXT_reading.md, список расхождений — ERRATA.md. Собрано из pages/*.md скриптом build.py.
 
+## Скан 0001 · с. Einbandvorne
+
+[ПУСТАЯ СТРАНИЦА]
+
+Колонтитул: 
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Скан 0002 · с. Titelblatt
+
+[ВИНЬЕТКА: гравированная титульная рамка: вверху медальон с портретом Рипы и надписью «[?]RIPA. MILIT. SS. MAVR[?] ET LAZAR[?]», по сторонам две женские фигуры, путти]
+ICONOLOGIA
+OVERO
+DESCRITTIONE DI DIVERSE IMAGINI
+cauate dall'antichità, & di propria inuentione,
+*Trouate, & dichiarate*
+DA CESARE RIPA
+PERVGINO,
+Caualiere de Santi Mauritio, &
+Lazaro.
+*Di nuouo reuista, & dal medesimo ampliata*
+*di 400. & più Imagini,*
+*Et di Figure d intaglio adornata.*
+OPERA
+Non meno vtile che necessaria a Poeti,
+Pittori,Scultori,& altri, per rappresentare le Virtù, Vitij, Affetti,
+& Passioni humane.
+[ВИНЬЕТКА: ваза между двумя завитками]
+IN ROMA,
+*Appresso Lepido Faeij.* M. DC. III.
+CON LICENTIA DE' SVPERIORI.
+
+Колонтитул: 
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Скан 0003 · с. Titelblatt_a
+
+[ГРАВЮРА: без подписи]
+
+Колонтитул: 
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Скан 0004 · с. Widmung_1
+
+[ВИНЬЕТКА: наборная орнаментальная заставка]
+ALL'ILLVSTRISS.MO SIG.OR
+ET PADRON MIO COLENDISS.
+IL SIGNOR
+LORENZO
+SALVIATI.
+[ВИНЬЕТКА: маскарон между завитками]
+[ИНИЦИАЛ: E]SSENDO la prima editione della mia Iconologia vscita sotto i felici auspici del Sig. Cardinale Saluiati fel.me. dalla cui gran benignità mi fù concesso,mentre era alli suoi seruigi, otio tranquillo di potere secondo la mia inclinatione attendere à sì fatti studi. Hora, che la medesima opera esce di nuouo in luce, accresciuta di varie figure, à niuno mi è parso, che più conuenga esser da me dedicata, che à V.S.Illustrissima, la quale rappresenta, come herede, la Persona di chi tanto mi beneficò, & oltre à ciò, ella mi hà benignamente chiamato à continouare nel seruitio della sua Casa. Onde s'altramente io facesse mostrarei mal conoscere, che cosa sia gratitudine la cui figura
+
+Колонтитул: 
+Кустод: hò
+Сигнатура: †2
+Маргиналии:
+
+## Скан 0005 · с. Widmung_2
+
+hò quì posta, & altri non intenderebbe come ella è nella mia mente, parto della grandezza dell'animo di quel gran Cardinale, e di V.S.Illustrissima. Però vengo ad offerirle con quella riuerenza, che posso maggiore, queste mie fatiche con nuoua giunta ristampate, e ridotte à quella miglior perfettione, che per me s'è potuto. Per tanto prego V.S. Illustris. ad accettare, e gradire in esse l'infinita diuotione dell'animo mio, e tener per constante,che io le sarò sempre se non vtile almeno fidele Seruitore, e degno in qualche parte, che ella si compiaccia di hauere in protettione me, & l'opere mie qualunque si sieno,e questa particolarmente che porta in fronte il generoso nome di V. Sig.Illustrissima, nella cui gratia humilmente raccomandandomi prego il Sig.Dio, che le conceda la felicità, che ella stessa desidera.
+In Roma il dì 17. Decembre 1602.
+D. V. S. Illustrissima
+Humiliss. & Deuotiss. Seruitore
+Cesare Ripa.
+
+Колонтитул: 
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Скан 0006 · с. Widmung_3
+
+[ЗАГОЛОВОК: DEL SIG. OTTAVIO CAPOCCI.]
+[ИНИЦИАЛ: D]ESTAR di vera gloria à bel desire
+Il cor soffrir gl'oltraggi, e l'onte inuitto
+Di ria fortuna, & à ragion suo dritto
+Render, domar i sensi, e frenar l'ire.
+Con la gioia temprar saggio il martire
+Ridursi trauiato à camin dritto
+Far con l'altrui volere il suo prescritto
+Viuer in altri, in sè stesso morire
+Raccolta in Dio verace sua salute
+L'alma sprezzar del mondo ori, ostri, e regni
+Et al Ciel aspirar, onde discese
+Fuggir il vitio al fin, seguir virtute
+Co' sproni ardenti, e pronte voglie accese
+Con l'imagini tue Cesare insegni.
+[ЗАГОЛОВОК: D' ACADEMICO INTRONATO.]
+[ИНИЦИАЛ: C]ESAR dalla cui Ripa illustre altera
+Tutti precipitar veggio gl'errori,
+Che penne fecer mai, ferri, ò colori
+Dell' imagini lor nell'ampia schiera
+Pensiero è in te, qual nel gran Cesar era
+Ond' è ragion, che de Cesarei allori
+Quella feconda Ripa vn tronco honori
+Cui sia feconda eterna Primauera.
+Giulio fè di Pompeo drizzar l'imago
+Che nel foro giacea. Quinci la sua
+Erge per sempre, il dotto Tullio disse;
+E tù Cesar, ancor d'illustrar vago
+L'alme imagini altrui, farai la tua
+Poggiar al Ciel. Quest' il tuo Tardo scrisse.
+
+Колонтитул: 
+Кустод: THA-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0007 · с. Widmung_4
+
+[ЗАГОЛОВОК: THADÆI DONNOLÆ HYSPELLATIS]
+ANAGRAMMA
+*CÆSAR RIPA*
+*PAR CÆSARI.*
+[ИНИЦИАЛ: Q]VÆ scribant omnes Cæsar; quæ Ripa sequantur,
+Quæ fugiant omnes, hic dedit, ille dedit
+Deuicit Cæsar, deuicit Ripa, sed ambo
+Dissimiles, armis, milite dissimiles.
+Omnes ingenio vicit Ripa, Imperio alter,
+Sic Cæsar victor, Cæsar vterque sonat.
+[ВИНЬЕТКА: наборный орнамент из арабесок]
+
+Колонтитул: 
+Кустод: PROE-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0008 · с. Proemio_1
+
+[ВИНЬЕТКА: заставка с путти, маскаронами и картушем]
+[ЗАГОЛОВОК: PROEMIO]
+[ЗАГОЛОВОК: A' LETTORI.]
+[ИНИЦИАЛ: L]E Imagini fatte per significare vna diuersa cosa da quella, che si vede con l'occhio, non hanno altra più certa, ne più vniuersale regola, che l'imitatione delle memorie, che si trouano ne' Libri, nelle Medaglie, e ne' Marmi intagliate per industria de' Latini, & Greci, ò di quei più antichi, che furono inuentori di questo artifitio. Però communemente pare, che, chi s'affatica fuori di questa imitatione, erri, ò per ignoranza, ò per troppo presumere, le quali due macchie sono molto abhorrite da quelli,che attendono con le proprie fatiche all'acquisto di qualche lode. Per fuggire adunque il sospetto di questa colpa, hò giudicato buona cosa, (hauendo io voluto di tutte queste Imagini fare vn fascio maggiore di quello, che si poteua raccorre dall'osseruationi delle cose più antiche, & però bisognando fingere molte, & molte prenderne delle moderne, dichiarando verisimilmente ciascuna) trattare alcune cose intorno al modo di formare, & dichiarare i concetti simbolici nel principio di quest'opera, la quale forse con troppa diligenza da molti amici si sollecita, & si aspetta da chi sono io in principal obligo di contentare. Lasciando dunque da parte quell'Imagine, della quale si serue l' Oratore, & della quale tratta Aristotele nel terzo libro della sua Rettorica, dirò solo di quella, ch'appartiene à Dipintori, ouero à quelli, che per mezzo di colori, ò d'altra cosa visibile possono rappresentare qualche cosa differente da essa, & hà conformità con l'altra; perche, come questa persuade molte volte per mezzo dell' occhio, così quella per mezzo delle parole muoue la voluntà: & perche questa guarda le metafore delle cose, che stanno fuori dell' huomo, & quelle, che con esso sono congiun-
+
+Колонтитул: 
+Кустод: te,
+Сигнатура: 
+Маргиналии:
+
+## Скан 0009 · с. Proemio_2
+
+te, & che si dicono essentiali. Nel primo modo furono trattate da molti antichi fingendo l'Imagini delle Deità, le quali non sono altro, che veli, ò vestimenti da tenere ricoperta quella parte di filosofia, che riguarda la generatione, & la corrottione delle cose naturali, ò la dispositione de' Cieli, ò l'influenza delle Stelle, ò la fermezza della terra, ò altre simili cose, le quali con vn lungo studio ritrouarono per auanzare in questa cognitione la Plebe, & accioche non egualmente i dotti, & gl'ignoranti potessero intendere, & penetrare le cagioni delle cose, se le andauano copertamente communicando frà sè stessi, & copertamente ancora per mezzo di quest'imagini le lasciauano à Posteri, che doueuano à gl'altri essere superiori di dignità, & di sapienza. Di qui è nata la gran moltitudine delle Fauole de gl'antichi Scrittori, le quali hanno l'vtile della scienza per li dotti, & il dolce delle curiose narrationi per gl'ignoranti. Però molti ancora de gl'huomini di gran conto hanno stimato loro degna fatica lo spiegare quelle cose, che trouauano in queste Fauole occultate, lasciandoci scritto, che per l'imagine di Saturno, intendeuano il Tempo, il quale à gl'anni, à mesi, & à giorni dà, & toglie l'essere, come esso diuoraua quei medesimi fanciulli, che erano suoi figliuoli; & per quella di Gioue fulminante, la parte del Cielo più pura, donde vengono quasi tutti gl'effetti Meteorologici. Per l'Imagine ancora di Venere d'estrema bellezza, l'appetito della materia prima, come dicono i Filosofi, alla forma che gli dà il compimento. Et che quelli, che credeuano il Mondo essere corpo mobile, & ogni cosa succedere per il predominio delle Stelle (secondo, che racconta nel Pimandro Mercurio Trismegisto) finsero Argo Pastorale, che con molti occhi da tutte le bande riguardasse. Questo istesso mostrarono in Giunone, sospesa in aria dalla mano di Gioue, come disse Homero, & infinite altre imagini, le quali hanno già ripieni molti volumi, & stancati molti Scrittori, ma con profitto di dottrina, & di sapienza. Il secondo modo dell'Imagini abbraccia quelle cose, che sono nell'huomo medesimo, ò che hanno gran vicinanza con esso, come i concetti, & gli habiti, che da concetti ne nascano, con la frequenza di molte attioni particolari; & concetto dimandiamo senza più sottile inuestigatione tutto qnello, che può esser significato con le parole; il qual tutto vien commodamente in due parti diuiso.
+
+Колонтитул: PROEMIO.
+Кустод: L'vna
+Сигнатура: 
+Маргиналии:
+
+## Скан 0010 · с. Proemio_3
+
+L'vna parte è, che afferma, ò nega qualche cosa d'alcuno; l'altra, che nò. Con quella formano l'artificio loro quelli, che compongono l'imprese, nelle quali con pochi corpi; & poche parole vn sol concetto s'accenna, & quelli ancora, che fanno gl'Emblemi, oue maggior concetto con più quantità di parole, & di corpi si manifesta. Con questa poi si forma l'arte dell'altre Imagini, le quali appartengono al nostro discorso, per la conformità, che hanno con le definitioni; le quali solo abbracciano le virtù, & i vitij, ò tutte quelle cose, che hanno conuenienza con questi, ò con quelle, senza affermare, ò negare alcuna cosa, & per essere ò sole priuationi, ò habiti puri si esprimono con la figura humana conuenientemente. Percioche, si come l'huomo tutto è misura di tutte le cose, secondo la commune opinione de Filosofi, & d'Aristotile in particolare, quasi come la definitione è misura del definito, così medesimamente la forma accidentale, che apparisce esteriormente d'esso, può esser misura accidentale delle qualità definibili, qualunque si siano, ò dell'anima nostra sola, ò di tutto il composto. Adunque vediamo, che Imagine non si può dimandare in proposito nostro quella, che non hà la forma dell'huomo, & che è imagine malamente distinta, quando il corpo principale non fà in qualche modo l'vfficio, che fà nella definitione il suo genere.
+Nel numero dell'altre cose da auuertire sono tutte le parti essentiali della cosa istessa; & di queste sarà necessario guardar minutamente le dispositioni, & le qualità.
+Dispositione nella testa sarà la positura alta, ò bassa, allegra, ò maninconica, & diuerse altre passioni, che si scoprono, come in Teatro nell'apparenza della faccia dell'huomo. Dourà ancora nelle braccia, nelle mani, nelle gambe, ne' piedi, nelle treccie, ne' vestiti, & in ogni altra cosa notarsi la dispositione, ouero positione distinta, & regolata, la quale ciascuno potrà da sè medesimo facilmente conoscere, senza che ne parliamo altramente.
+Le qualità poi saranno, l'essere bianca, ò nera, proportionata, ò sproportionata, grassa, ò magra, giouane, ò vecchia, ò simili cose, che non facilmente si possano separare dalla cosa, nella quale sono fondate, auertendo, che tutte queste parti facciano insieme
+
+Колонтитул: PROEMIO.
+Кустод: vn'ar-
+Сигнатура: †
+Маргиналии:
+
+## Скан 0011 · с. Proemio_4
+
+vn' armonia talmente concorde, che nel dichiararla renda sodisfattione il conoscere la conformità delle cose, & il buon giuditio di colui, che l'hà sapute ordinare insieme in modo, che ne resulti vna cosa sola, ma perfetta, & diletteuole.
+Tali sono quasi vniuersalmente tutte quelle de gl' Antichi, & quelle ancora de Moderni, che non si gouernano à caso. Et perche la fisonomia, & i colori sono considerati da gl' Antichi, si potrà ciascuno guidare in ciò conforme all'auttorità d'Aristotele, il quale si deue credere, secondo l'opinione de Dotti, che supplisca solo in ciò, come nel resto, à quel che molti ne dicono: & spesso lasciaremo di dichiararli, bastando dire vna, ò due volte frà tante cose poste insieme quello, che, se fossero distinte, bisognerebbe manifestare in ciascuna. Et la definitione scritta se bene si fa di poche parole, & di poche parole par che debbia esser questa in pittura ad imitatione di quella; non è però male l'osseruatione di molte cose proposte, accioche ò dalle molte si possano eleggere le poche, che fanno più à proposito, ò tutte insieme facciano vna compositione, che sia più simile alla descrittione, che adoprano gli Oratori, & i Poeti, che alla propria definitione de Dialettici. Il che forse tanto più conuenientemente vien fatto, quanto nel resto per sè stessa la Pittura più si confà con queste arti più facili, & più diletteuoli, che con quella più occulta, & più difficile. Chiara cosa è, che delle antiche se ne vedono, & dell'vna, & dell' altra maniera molto belle, & molto giudiciosamente composte.
+Hora vedendosi, che questa sorte d'Imagini si riduce facilmente alla similitudine della definitione, diremo, che di queste, come di quelle, quattro sono i capi, ò le cagioni principali, dalle quali si può pigliare l'ordine di formarle, & si dimandano con nomi vsitati nelle Scole, di Materia, Efficiente, Forma, & Fine, dalla diuersità de quali capi nasce la diuersità, che tengono gli Auttori molte volte in definire vna medesima cosa, & la diuersità medesimamente di molte Imagini fatte per significare vna cosa sola. Il che ciascuno per sè stesso potrà notare in queste istesse, che noi habbiamo da diuersi Antichi principalmente raccolte, & tutte quattro adoprate insieme per mostrare vna sola cosa, se bene si trouano in alcu-
+
+Колонтитул: PROEMIO.
+Кустод: ni
+Сигнатура: 
+Маргиналии:
+
+## Скан 0012 · с. Proemio_5
+
+ni luoghi; con tutto ciò, douendosi hauer riguardo principalmente ad insegnare cosa occulta con modo non ordinario, per dilettare con l'ingegnosa inuentione, è lodeuole, farlo con vna sola, per non generare oscurità, & fastidio in ordinare, spiegare, & mandare à memoria le molte.
+Nelle cose adunque, nelle quali si possa dimostrare l'vltima differenza, se alcuna se ne troua, questa sola basta per fare l'imagine lodeuole, & di somma perfettione, in mancanza della quale, che è vnita sempre con la cosa medesima, nè si discerne, si adoprano le generali, come sono queste, che poste insieme mostrano quello istesso, che conterrebbe essa sola.
+Dapoi, quando sappiamo per questa strada distintamente le qualità, le cagioni, le proprietà, & gli accidenti d'vna cosa definibile, accioche se ne faccia l'imagine, bisogna cercare la similitudine, come habbiamo detto nelle cose materiali, la quale terrà in luogo delle parole nell' Imagine, ò definitione de' Rettori; Et la similitudine, che serua à questo proposito, dourà essere di quelle, che consistono nell' egual proportione, che hanno due cose distinte frà sè stesse ad vna sola diuersa da ambedue, prendendosi quella, che è meno; come, se, per similitudine di Fortezza si dipinge la Colonna, perche ne gl'edificij sostiene tutti i sassi, & tutto l'edificio, che le stà sopra, senza muouersi, ò vacillare, dicendo, che tale è la fortezza nell'huomo, per sostenere la grauezza di tutti i fastidij, & di tutte le difficoltà, che gli vengono addosso, & per similitudine della Rettorica la Spada, & lo Scudo, perehe, come con questi istromenti il Soldato difende la vita propria, & offende l'altrui, così il Rettore, & l'Oratore, co' suoi argomenti, ouero entimemi, mantiene le cose fauoreuoli, & ribatte indietro le contrarie.
+Serue ancora, oltre à questa, vn' altra sorte di similitudine, che è quando due cose distinte conuengono in vna sola differente da esse; come, se, per notare la magnanimità, prendessimo il Leone, nel quale essa in gran parte si scuopre; il qual modo è meno lodeuole, ma più vsato per la maggior facilità della inuentione,
+
+Колонтитул: PROEMIO.
+Кустод: &
+Сигнатура: †2
+Маргиналии:
+
+## Скан 0013 · с. Proemio_6
+
+& della dichiaratione; & sono queste due sorti di similitudine il neruo, & la forza della imagine ben formata; senza le quali come essa non hà molta difficoltà, così rimane insipida, & sciocca.
+Ciò non è auuertito molto da alcuni moderni, i quali rappresentano gl'effetti contingenti, per mostrare l'essentiali qualità, come fanno, dipingendo per la Disperatione vno, che s'appicca per la gola: per l'Amicitia due persone, che si abbracciano: ò simili cose di poco ingegno, & di poca lode. E ben vero, come hò detto, che quelli accidenti, che seguitano necessariamente la cosa significata nell'Imagine, sarà lode, porli in alcuni luoghi distinti, & nudi, come in particolare quelli, che appartengono alla fisonomia, & all'habitudine del corpo, che danno indicio del predominio, che hanno le prime qualità nella compositione dell'huomo, le quali dispongono gli accidenti esteriori d'esso, & lo inclinano alle dette passioni, ò à quelle, che hanno con esse conformità. Come, se douendo dipingere la Maninconia, il Pensiero, la Penitenza, & altre simili, sarà ben fatto il viso asciutto, macilento, le chiome ribuffate, la barba inuolta, & le carni non molto giouenili; ma bella, lasciua, fresca, rubiconda, & ridente, si dourà fare, il Piacere, il Diletto, l'Allegrezza, & ogn'altra cosa simile à queste, &, se bene tal cognitione non hà molto luogo nella numeratione de simili, nondimeno è vsata assai; & questa regola de gli accidenti, & de gli effetti già detti, non sempre seguitarà; eome nel dipingere la Bellezza, la quale è vna cosa fuori della comprensione de' predicabili, &, se bene nell'huomo è vna proportione di linee, & di colori, non è per questo ben espressa l'imagine, che sia souerchiamente bella, & proportionata; perche sarebbe vn dichiarare idem per idem, ouero più tosto vna cosa incognita con vn' altra meno conosciuta, & quasi vn volere con vna candela far vedere distintamente il Sole, & non haurebbe la similitudine, che è l'anima; ne potrebbe dilettare, per non hauere varietà in proposito di tanto momento: il che principalmente si guarda.
+
+Колонтитул: PROEMIO.
+Кустод: Però
+Сигнатура: 
+Маргиналии:
+
+## Скан 0014 · с. Proemio_7
+
+Però noi l'habbiamo dipinta al suo luogo co'l capo frà le nuuole, & con altre conuenienti particolarità. Per hauere poi le similitudini, atte, & conueneuoli in ogni proposito, è bene d'auuertire, quel che auuertiscono i Rettori, cioè, che per le cose conoscibili si cercano cose alte, per le lodabili, splendide; per le vituperabili, vili; per le commendabili, magnifiche. Dalle quali cose sentirà ciascuno germogliare tanta quantità di concetti nell'ingegno suo, se non è più, che sterile, che per sè stesso con vna sola cosa, che si proponga, sarà bastante à dare gusto, & sodisfattione all'appetito di molti, & diuersi ingegni, dipingendone l'imagine in diuerse maniere, & sempre bene.
+Ne io oltre à questi auuertimenti; li quali si potrebbono veramente spiegare con assai maggior diligenza, sò vederne quasi alcuno altro degno di scriuersi; per cognitione di quest'Imagini, le quali sono in vero ammaestramento nato prima dall' abondanza della dottrina Egittiaca, come fà testimonio Cornelio Tacito, poi ribellito, & acconcio con il tempo, come racconta Gio. Gorocopio ne' suoi Ieroglifici; talmente, che potremo questa cognitione assimigliarla ad vna persona sapiente, ma versata nelle solitudini, & nuda per molti anni, la quale per andare doue è la conuersatione si riueste, accioche gl'altri allettati dalla vaghezza esteriore del corpo, che è l'imagine desiderino d'intendere minutamente quelle qualità, che danno splendidezza all'anima, che è la cosa significata, & solo cra mentre staua nelle solitudini accarezzato da pochi stranieri. Et solo si legge, che Pitagora, per vero desiderio di sapienza penetrasse in Egitto con grandissima fatica, oue apprese i secreti delle cose, che occultauano in questi Enigmi, & però tornatosene à casa carico d'anni, & di sapienza, meritò che dopò morte della sua casa si facesse vn Tempio, consacrato al merito del suo sapere. Trouasi ancora, che Platone gran parte della sua dottrina cauò fuora dalle sue segretezze, nelle quali ancora i santi Profeti l'ascosero. Et Christo, che fù l'adempimento delle Profetie, occultò gran parte de secreti diuini sotto l'oscurità delle sue parabole.
+Fù adunque la sapientia de gli Egittij come huomo horrido, & mal vestito, adornato dal tempo per consiglio dell'esperienza, che mostraua esser male celar gl'indicij de' luoghi, ne' quali sono i Tesori, accioche tutte affaticandosi arriuino per questo mezzo à qualche grado di felicità. Questo vestire fù il comporre i corpi dell'imagini dictinte di colori
+
+Колонтитул: PROEMIO.
+Кустод: alle
+Сигнатура: †3
+Маргиналии:
+
+## Скан 0015 · с. Proemio_8
+
+alle proportioni di molte varietà con belle attitudini, & con esquisita delicatura, & dell'arte, & delle cose istesse dalle quali non è alcuno, che alla prima vista non si senta muouere vn certo desiderio d'inuestigare à che fine siano con tale dispositione, & ordini rappresentate. Questa curiosità viene ancora accresciuta dal vedere i nomi delle cose sottoscritte all'istesse imagini. Et mi par cosa da osseruarsi il sottoscriuere i nomi, eccetto quando deuono essere in forma d'Enigma, perche senza la cognitione del nome non si può penetrare alla cognitione della cosa significata, se non sono Imagini triuiali, che per l'vso alla prima vista da tutti ordinariamente si riconoscono.
+Et questo è quanto mi è parso conueneuole scriuere per sodisfattione di quelli, che si compiacciano delle nostre fatiche: Nel che, come in tutto il resto dell'opera, se l'ignoranza si tira adosso qualche biasimo, hauerò caro, che venga in parte sgrauata dalla diligenza, dalla quale principalmente hò aspettato lode, & hò tolto volontieri il tempo à gl'occhi per darlo alla penna, accioche venendo l'opera benigni Lettori in mano vostra io conosca da qualche applauso delle vostre lingue di non hauer perso il tempo scriuendo.
+[ВИНЬЕТКА: малый фигурный флерон]
+[ВИНЬЕТКА: концовка: ваза с ветвями между двумя крылатыми химерами]
+
+Колонтитул: PROEMIO.
+Кустод: AVER-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0016 · с. Tavola_01
+
+[ВИНЬЕТКА: заставка: гротески с двумя фигурами среди завитков]
+[ИНИЦИАЛ: A]VERTENDOVI che in questa Editione con tutto, che più volte si hà ammonito lo Stampatore, che senza il Correttore per lo più hà trascorso l'opera, si sono commessi molti errori, quali nel fine si corregono. Oltre ciò l'Intagliatore di queste nostre Figure non è stato in alcuni luochi osseruatore del testo; Però doue la figura non si confrontarà con il testo, ad ogni occasione, che vi piacerà per seruitio vostro rappresentarla, la formarete conforme alle nostre parole.
+[ВИНЬЕТКА: малая наборная концовка из арабесок]
+
+Колонтитул: 
+Кустод: TAVOLA
+Сигнатура: †4
+Маргиналии:
+
+## Скан 0017 · с. Tavola_02
+
+[ВИНЬЕТКА: наборная заставка из арабесок в два ряда]
+[ЗАГОЛОВОК: TAVOLA DELLE FIGVRE]
+[ЗАГОЛОВОК: CHE SI DESCRIVENO NELL'OPERA.]
+[ВИНЬЕТКА: малая наборная полоса из арабесок]
+A
+[ИНИЦИАЛ: A]BONDANZA.c.1.2
+Accidia. 1.2.3.
+Acquisto cattiuo. 4.
+Adolescenza. 4.
+Adulatione. 5.6 7.
+Affanno. 7.
+Affanno, cordoglio, ramarico. 7.
+Affabilità, piaceuolezza, amabilità. 8.
+Agilità. 8.
+Studio dell'Agricoltura. 8.
+Agricoltura. 9.10.
+Allegrezza. 10.11.12.
+Allegrezza d'amore. 11.
+Allegrezza, letitia, giubilo. 12.
+Amaritudine. 12.
+Ambitione. 12.13.
+Ampiezza della gloria. 15.
+Amicitia. 15.16.17.
+Amicitia senza giouamento. 17.
+Amaestramento. 18.
+Amor di virtù. 18.
+Amor verso Iddio. 18.
+Amor del prossimo. 18.
+Amor di sè stesso. 18.
+Amore. 19.
+Amor di fama. 20.
+Anno. 20. 21.
+Anima ragioneuole, e beata. 21.
+Anima dannata. 22.
+Architettura. 23.
+Ardire magnanimo, e generoso. 24.
+Ardire vltimo, e necessario. 24.
+Arme. 26.
+Armonia. 26.
+Aroganza. 27.
+Aritmetica. 27.
+Arte. 27.28.
+Astinenza. 28.
+Assiduità. 28.
+Astrologia. 28.29.
+Astutia. 29.
+Auaritia. 29.30.31.32.
+Audacia. 33.
+Augurio buono. 33.
+Augurio cattiuo. 33.34.
+Aurora. 34.
+Autorità, ò potestà. 34.
+B
+[ИНИЦИАЛ: B]Eatitudini. 36.37.38.39.40.
+Bellezza. 40.
+Bellezza feminile. 42.
+Benignità. 43.
+Biasimo. 44.
+Bontà. 45.
+Bugia. 46.
+Buio. 46.
+C
+[ИНИЦИАЛ: C]Alamità. 47.
+Calunia. 47.
+
+Колонтитул: 
+Кустод: Ca-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0018 · с. Tavola_03
+
+Capriccio. 48.
+Carri de i setti Pianeti. 48.
+Carro della Luna. 48.
+Carro di Mercurio. 50.
+Carro di Venere. 51.
+Carro del Sole. 51.
+Carro di Marte. 52.
+Carro di Gioue. 53.
+Carro di Saturno. 53.
+Carro di Minerua. 54.
+Carro di Plutone. 55.
+Carri de i quattro Elementi. 56.
+Carro del Fuoco. 56.
+Carro dell'Aria. 57.
+Carro dell'Acqua. 57.
+Carro della Terra. 58.
+Carro della Notte. 59.
+Carro di Bacco. 59.
+Carro dell'Aurora. 60.
+Carro del giorno naturale. 60.
+Carro del giorno artificiale. 61.
+Carro dell'Anno. 61.
+Carro di Cerere. 61.
+Carro dell'Oceano. 61.
+Carro d'Amore. 62.
+Carro della Castità. 62.
+Carro della Morte. 62.
+Carro della Fama. 62.
+Carro del Tempo. 62.
+Carro della Diuinità. 62.
+Carestia. 63.
+Carità. 63.64.
+Castità. 66.
+Castità Matrimoniale. 66.67
+Cecità della mente. 68.
+Celerità. 68.
+Chiarezza. 68.
+Clemenza. 68.69.
+Clemenza, e moderatione. 70.
+Cognitione. 70.
+Cognitione delle cose. 70.
+Comedia. 70.72.
+Comedia vecchia. 72.
+Compuntione. 71.
+Complessioni. 74.
+Collerico. 74.
+Sanguigno. 76.
+Flematico. 78.
+Malenconico. 79.
+Concordia maritale. 80.
+Concordia militare. 80.81.
+Concordia. 80.81.
+Concordia di pace. 82.
+Concordia de gl'antichi. 82.
+Concordia insuperabile. 82.
+Confidenza. 82.
+Confusione. 82.
+Confermatione. 83.
+Conscienza. 83.
+Conseruatione. 84.
+Consideratione. 85.
+Consiglio. 85.
+Costanza. 86.
+Costanza, & intrepidità. 86.
+Consuetudine. 86.
+Contento. 87.
+Contento amoroso 87.
+Contrasto. 88.89.
+Contrittione. 89.
+Continenza. 90.
+Continenza militare. 90.
+Conuito. 90.
+Cordoglio. 90.
+Correttione. 91.92.
+Corpo humano. 91.
+Coruttela ne'Giudici. 93.
+Corte. 93.
+Cortesia. 95.
+Crepusculo della matina. 95.
+Crepusculo della sera. 97.
+Crapula. 98.
+Crudeltà. 99.
+Cupidità. 99.
+Curiosità. 99.
+Custodia. 100.
+D
+[ИНИЦИАЛ: D]Apocaggine. 100.
+Derisione. 101.
+
+Колонтитул: TAVOLA.
+Кустод: Desi-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0019 · с. Tavola_04
+
+Desiderio verso Iddio. 101
+Desiderio. 101
+Detrattione. 103
+Diuotione. 103
+Dialetica. 103
+Dignità. 104
+Diligenza. 104
+Discordia. 104.106
+Disperatione. 106
+Dispregio del mondo. 107
+Dispregio della virtù. 108
+Disegno. 108
+Diuinità. 108
+Diuinatione. 109
+Dolore. 110
+Dolore di zeusi. 111
+Dominio di sè stesso. 112
+Dottrina. 113
+Dubbio. 118
+E
+[ИНИЦИАЛ: E]Conomia. 118.119
+Elemosina. 119
+Elementi. 119.120.121.122.123.124
+Fuoco. 119.120.121.122.123.124
+Aria. eodem.
+Acqua. eodem.
+Terra. eodem.
+Eloquenza. 126.127.128
+Emulatione. 129
+Equità. 129.130
+Equalità. 130
+Equinottio della Primauera. 131
+Equinottio dell'Autunno. 132
+Errore. 133
+Esilio. 133
+Etica. 134
+Età dell'Oro. 136.138
+Età dell'Argento. 136.138
+Età del Rame. 137.138
+Età del Ferro. 137.138
+Eternità. 138.139.140.141
+Eternità, ò perpetuità. 141
+Euento buono. 142
+F
+[ИНИЦИАЛ: F]alsità d'amore, ouero inganno. 142
+Fama. 142
+Fama buona. 143
+Fama cattiua. 143
+Fama chiara. 143
+Fame. 144
+Fatica. 145
+Fatica estiua. 145
+Fato. 146
+Fauore. 147
+Fecondità. 148
+Fede. 148
+Fede Christiana. 149
+Fede Catholica. 149.150
+Fede nell'amicitia. 152
+Fede maritale. 152
+Fedeltà. 152.154
+Felicità. 154
+Felicità eterna. 154
+Felicità breue. 155
+Fermezza. 156
+Fermezza, & grauità dell'oratione. 156
+Fermezza d'amore. 156
+Fiumi. 156
+Teuere. 156.158
+Arno. 158
+Pò. 158
+Adige. 159
+Nilo. 160
+Tigre. 160
+Danubio. 160
+Acheolo. 161
+Aci. 161
+Acheronte fiume infernale. 161
+Cocito fiume infernale. 161
+Stige palude infernale. 162
+Flegetonte fiume infernale. 162
+Indo. 162
+Gange. 162
+Niger. 162
+Filosofia. 162.163
+Flagello de Dio. 165
+
+Колонтитул: TAVOLA.
+Кустод: For-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0020 · с. Tavola_05
+
+Fortezza. 166.168
+Fortezza d'animo, & di corpo. 168
+Fortezza, e valore del corpo congiunto con la prudenza, & virtù dell'animo. 169
+Fortezza del corpo congiunta con la generosità dell'animo. 169
+Fortuna. 169
+Fortuna buona. 170
+Fortuna infelice. 170
+Fortuna gioueuole ad amore. 170
+Fortuna pacifica, ouero clemente. 170
+Fortuna aurea. 171
+Forza. 171.172
+Forza d'amore. 171
+Forza minore da maggior forza superata. 171.
+Forza d'amore, sì nell'acqua, come in terra. 171
+Fragilità. 173
+Fragilità humana. 173
+Fraude. 173.174.175
+Fuga. 175
+Fuga populare. 175
+Furie. 175
+Furore. 176.177
+Furore, & rabbia. 177
+Furore superbo, & indomito. 177
+Furor poetico. 178
+Furto. 179
+G
+[ИНИЦИАЛ: G]Agliardezza. 180
+Gelosia. 181
+Genio buono. 182
+Genio catiuo. 183
+Geometria. 183
+Giorno naturale. 183
+Giorno artificiale. 183.184
+Giouentù. 184
+Gioia d'amore. 184
+Giubilo. 185
+Giuditio. 185
+Giuditio, ouero inditio d'amore. 186
+Giuditio giusto. 186
+Giudice. 186
+Giuoco dall'antico. 187
+Giurisdittione. 187
+Giustitia. 187.188.189
+Giustitia diuina. 188
+Giustitia retta, che non si pieghi per amicitia, ne per odio. 198
+Giustitia rigorosa. 198
+Gloria de Principi. 198
+Gloria. 192.193
+Gloria, & honore. 193
+Gola. 193
+Gouerno della Republica. 194
+Gramatica. 194
+Guardia. 194
+Gratia. 195
+Gratia Diuina. 195
+Gratia di Dio. 195
+Gratie. 196
+Gratitudine. 196
+Grauità. 196
+Grauità nell'huomo. 196
+Grauita dell'oratione. 197
+Guerra. 197
+Grassezza. 198
+Guida sicura de veri honori. 199
+H
+[ИНИЦИАЛ: H]Ippocresia. 199
+Hippocresia. 200
+Homecidio. 201
+Honestà. 202
+Honore. 202.203
+Hore del Giorno. 203
+Hore della Notte. 210.211.212.213
+Humiltà. 214.215
+Humanità. 216
+Heresia. 216
+Historia. 218
+
+Колонтитул: TAVOLA.
+Кустод: Iattan-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0021 · с. Tavola_06
+
+I
+[ИНИЦИАЛ: I]Attanza. 218.
+Idolatria. 219.
+Indulgentia. 219.
+Infamia. 220.227.
+Infelicità. 220.
+Ingegno. 220
+Ingnoranza. 221.222
+Ingnoranza in vn ricco senza lettere. 222
+Ingnoranza come depinta dall'Alciati. 223.
+Imitatione. 223
+Immortalità. 223
+Immutatione. 223
+Impassibilità. 224
+Imperfettione. 224
+Impietà. 224
+Incostanza. 225.226
+Inditio d'Amore. 226
+Industria. 226.227
+Infermità. 228
+Infortunio. 228
+Inganno. 228.229
+Ingiuria. 230
+Ingiustitia. 230.231
+Ingordigia. 232
+Ingratitudine. 232.233
+Inimicitia. 233
+Iniquità. 234
+Inquietudine. 234
+Inquietudine d'animo. 234
+Irresolutione. 234
+Innocenza. 235
+Innocenza, ò purità. 236
+Inubidienza. 236
+Insidia. 237
+Instabilità, ouero incostanza. 237
+Intelletto. 237.238
+Intelligenza. 239
+Intrepidità, & costanza. 239
+Intelligenza. 240
+Inuentione. 240
+Inuidia. 241.242.243
+Inuocatione. 243
+Ira. 243 244
+Interesse proprio. 245.246
+Italia con le sue Prouincie, & parti dell'Isole. 246
+Liguria. 249
+Toscana. 252
+Vmbria. 255
+Latio. 259
+Campagna felice, ouero Terra di Lauoro. 261.262.
+Calabria. 263
+Puglia. 265
+Abruzzo, 267
+Marca, 269
+Romagna, 270
+Lombardia, 273
+Marca Triuisana, 276
+Friuli, 280
+Corsica, 283
+Sardegna, 248
+Sicilia, 286
+L
+[ИНИЦИАЛ: L]Asciuia. 289
+Lassitudine, ò lãguidezza estiua, 289
+Lealtà, 290
+Leggierezza, 290
+Letitia, 290
+Lettere, 290
+Liberalità, 290.292
+Libertà, 292.293.294
+Libidine, 294.295
+Lussuria, 295
+Libero arbitrio, 295
+Licenza, 297
+Lite, 297
+Logica, 298.299
+Longanimità, 299
+M
+[ИНИЦИАЛ: M]Achina del Mondo. 300
+Magnanimità, 300.301
+
+Колонтитул: TAVOLA.
+Кустод: Magni-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0022 · с. Tavola_07
+
+Magnificenza. 301.302
+Malignità. 302
+Maledicenza. 302
+Malenconia. 303
+Maleuolenza. 303
+Mansuetudine. 304
+Martirio. 304
+Maestà Regia. 305
+Marauiglia. 305
+Matrimonio. 305
+Mathematica. 307
+Meditatione. 309
+Meditatione spirituale. 310
+Meditatione della morte. 310
+Medicina. 310.312
+Mediocrità. 312
+Memoria. 312.313
+Merito. 313.314
+Mesi. 315
+Mesi secondo l'agricoltura. 321
+Mese in generale. 326
+Metafisica. 327
+Minaccie. 327
+Miseria. 328
+Miseria mondana. 328
+Misericordia. 328
+Mondo. 330.332
+Europa. 332
+Asia. 334
+Africa. 336
+America. 338
+Morte. 339.340
+Mormoratione. 340
+Mostri. 340
+Scilla. 340.341
+Cariddi. 341
+Chimera. 342
+Griffo. 342
+Sfinge. 342
+Arpie. 342
+Hidra. 343
+Cerbero. 343
+Musica. 344.345
+Muse. 346. 347.348.349 350.351
+N
+[ИНИЦИАЛ: N]Atura. 351
+Nauigatione. 352
+Ninfe in commune. 352
+Hinnedi, & Napee. 353
+Driadi, & Hamadriadi. 353
+Ninfe de Diana. 353
+Naiadi Ninfe de fiumi. 354
+Mare. 354
+Theti Ninfa del Mare. 454
+Galatea. 355
+Ninfe dell'Aria. 355
+Iride. 355
+Serenità del giorno Ninfa dell'Aria. 356
+Serenità della notte. 356
+Pioggia Ninfa dell'aria. 356
+Rugiada Ninfa dell'aria. 357
+Cometa Ninfa dell'aria. 357
+Necessità. 358.359
+Negligenza. 359
+Nobiltà. 359.360
+Notte con le sue 4. parti. 360
+Parte prima della notte. 361
+Seconda parte della notte. 361
+Terza parte della notte. 362
+Quarta parte della notte. 362
+O
+[ИНИЦИАЛ: O]Bedienza. 363.364
+Obedienza verso Dio. 364
+Obligo. 365
+Occasione. 366
+Odio capitale. 366.367
+Opera vana. 367
+Operatione manifesta. 367
+Operatione perfetta. 367
+Openione. 369
+Opulenza. 370
+Oratione. 370.371
+Ostinatione. 373
+Otio. 373.374.375
+
+Колонтитул: TAVOLA.
+Кустод: Pace
+Сигнатура: 
+Маргиналии:
+
+## Скан 0023 · с. Tavola_08
+
+P
+[ИНИЦИАЛ: P]Ace. 375.376.377.378
+Pacifico. 378
+Passione d'amore. 378
+Patienza. 379.380
+Pazzia. 381.382
+Paura. 382
+Peccato. 383
+Pecunia. 384
+Peregrinaggio. 384
+Parsimonia. 385
+Partialità. 386
+Pena. 387
+Penitenza. 387.388.389
+Pensiero. 389
+Pentimento. 390
+Pentimento de peccati. 390
+Perfettione. 391
+Perfidia. 392
+Perpetuità. 392
+Persecutione. 392
+Perseucranza. 393.394
+Persuasione. 394
+Pertinacia. 395
+Perturbatione. 396
+Peste, ouero pestilenza. 397
+Phisica. 397
+Piacere. 398.399
+Piacere honesto. 400
+Piacer vano. 400
+Piaceuolezza. 400
+Pianto. 400
+Pietà. 401.402.403
+Pigritia. 403
+Pittura. 404
+Poesia. 406.407
+Poema Lirico. 408
+Poema Eroico. 408
+Poema Pastorale. 408
+Poema Satirico. 408
+Pouertà. 408.409
+Pouertà in vno ch'habbia bello ingegno. 409.
+Pouertà de spirito. 410
+Perdono. 410
+Politica. 411
+Preghiere. 411
+Preghiera à Dio. 411
+Premio. 411
+Preuidenza. 412
+Prodigalità. 413.414
+Promissione. 414
+Prontezza. 414
+Prouidenza dell'annona. 414
+Prouidenza. 415
+Prudenza. 416.417.418
+Profetia. 4[?]9
+Prospettiua. 419
+Pudicitia. 420
+Pueritia. 421
+Punitione. 421
+Purità. 421
+Purità, & sincerità d'animo. 421
+Q
+[ИНИЦИАЛ: Q]Verela à Dio. 422
+Querela. 423
+Quiete. 423
+R
+[ИНИЦИАЛ: R]Abbia. 424
+Ragione. 424.426
+Ragion di Stato. 426
+Ramarico del bene altrui. 428
+Rapina. 428
+Realtà. 429
+Regalità. 429
+Religione. 429
+Religione vera Christiana. 429
+Religione. 430.432
+Religione finta. 432
+Restitutione. 433
+Resurrettione. 433
+Rettorica. 433
+Ricchezza. 434
+
+Колонтитул: TAVOLA.
+Кустод: Rigo-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0024 · с. Tavola_09
+
+Rigore. 434
+Riprensione. 434
+Riforma. 435.436
+Riso. 437
+Rumore. 438
+S
+[ИНИЦИАЛ: S]Alute. 438.439
+Sanità. 440
+Sapienza. 440.441.442
+Sapienza humana. 442
+Sapienza vera. 442
+Sceleratezza, ò vitio. 443
+Scienza. 444.445
+Sciocchezza. 445
+Scoltura. 445
+Scorno. 446
+Sdegno. 446
+Secretezza. 446
+Secolo. 447
+Sentimenti. 447
+Viso. 447
+Vdito. 447.448
+Odorato. 448
+Gusto. 448
+Tatto. 448
+Senso. 448
+Sensi come si possano rappresentare in vna figura sola. 449
+Seruitio. 450
+Seruitù per forza. 451.452
+Sete di giustitia. 452
+Sfacciataggine. 452
+Sforzo con inganno. 452
+Sicurezza, & tranquillità. 452
+Sicurtà, ò sicurezza. 453
+Silentio. 453.454
+Simplicità. 455
+Simulatione. 455
+Signoria. 455
+Sincerità. 455.456
+Sobrietà. 456
+Soccorso. 457
+Solitudine. 458
+Sollecitudine. 459.460
+Solstitio estiuo. 461
+Solstitio hiemale. 463
+Sonno. 464
+Sorte. 465.466
+Sospitione. 467
+Sostanza. 468
+Sottilità. 568
+Spauento. 468
+Speranza. 469.470
+Speranza delle fatiche. 470.471
+Speranza diuina, & certa. 471
+Speranza fallace. 472
+Stabilità. 472
+Stagioni dell'anno. 473
+Primauera. 473.476
+Estate. 474
+Autunno. 475
+Inuerno. 475
+Sterilità. 477
+Stultitia. 478
+Studio dell'agricoltura. 478
+Studio. 478
+Supplicatione. 478
+Superbia. 479
+T
+[ИНИЦИАЛ: T]Ardità. 480
+Temperanza. 480.481.482
+Tempesta Ninfa dell'aria. 482
+Tempo. 482.483
+Tentatione. 483
+Tentatione d'amore. 483
+Teologia. 484
+Terrore. 484
+Terrrmoto. 486
+Timidità, ò timore. 486
+Timore. 487
+Tirannide. 487
+Tolleranza. 488
+Tormento d'amore. 488
+Tradimento. 489
+Tragedia. 489
+Tranquillità. 491
+
+Колонтитул: TAVOLA.
+Кустод: Velo-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0025 · с. Tavola_10
+
+V
+[ИНИЦИАЛ: V]Alore. 492
+Vanità. 493
+Vbriacchezza. 493
+Vecchiezza. 493
+Velocità. 494
+Vendetta. 494.495
+Venti. 495.496
+Eolo Re de venti. 495.496
+Euro. 496
+Fauonio, ò Zefiro. 497
+Borea, ouero Aquilone. 497
+Austro. 498
+Aura. 499
+Verità. 499.501
+Vigilanza. 502.503
+Vigilanza per difendersi, & oppugnar altri. 504
+Viltà. 504
+Violenza. 504
+Virginità. 504.505.506
+Virilità. 506
+Virtù heroica. 506.507.508
+Virtù. 508.509.510.511
+Virtù insuperabile. 509
+Vita. 512
+Vita attiua. 513
+Vita contemplatiua. 513.514
+Vita humana. 514
+Vita inquieta. 514
+Vitio. 515
+Vittoria. 515.516.517.518
+Vittoria nauale. 516.517
+Volontà. 518.519.520
+Voluttà. 520
+Voracità. 520
+Vsanza. 521
+Vsura. 521
+Vtilità. 521
+Z
+[ИНИЦИАЛ: Z]Elo. 522
+[ЗАГОЛОВОК: IL FINE DELLA TAVOLA.]
+[ВИНЬЕТКА: ваза с ветвями между двумя крылатыми чудовищами]
+
+Колонтитул: TAVOLA.
+Кустод: ABON-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0026 · с. 1
+
+[ЗАГОЛОВОК: ABONDANZA.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: D]ONNA gratiosa,che hauendo d' vna bella ghirlanda di vaghi fiori cinta la fronte,& il vestimento di color verde,ricamato d'oro, cõ la destra mano tenga il corno della douitia pieno di molti,& diuersi frutti,vue, oliue, & altri ; & col sinistro braccio stringa vn fascio di spighe di grano, di miglio, panico, legumi , & somiglianti, dal quale si vederanno molte di dette spighe vscite cadere, & sparse anço per terra.
+Bella , & gratiosa si debbe dipingere l'Abondanza , si come cosa buona, & desiderata da ciascheduno, quanto brutta , & abomineuole è riputata la carestia, che di quella è contraria.
+Hà la ghirlanda de' fiori , percioche sono i fiori de i frutti che fanno l'abondanza messaggieri,& auttori ; possono anco significare l' allegrezza , & le delitie di quella vera compagna.
+
+Колонтитул: 1
+Кустод: Il co-
+Сигнатура: A
+Маргиналии:
+
+## Скан 0027 · с. 2
+
+Il color verde,& i fregi dell'oro del suo vestimento,sono colori proprij, essendo che il bel verdeggiar della campagna mostri fertile produttione; & l' ingiallire,la maturatione delle biade,& de i frutti, che fanno l' abondanza.
+Il corno della douitia per la fauola della Capra Amaltea , raccontata da Hermogene nel lib. della Frigia,si come riferisce Natale Comite nel 7. libro delle sue Meteologie al cap. 2. di Acheloo,& per quello che Ouidio scriue del detto Acheloo sotto figura di Toro,nel lib. 9. delle Trasformationi , è manifesto segno dell' abondanza , dicendo cosi :
+*Naiades hoc pomis,& floris odore repletũ, Sacrarũt,diuesq. meo bona copia cornu est.*
+Et perche l'Abondanza si dice Copia , per mostrarla la rappresentamo che con il braccio sinistro habbia come il destro la sua carica , & d'auantaggio , essendo che parte di quelle spighe si spargono per terra.
+*In præscriptam Abundantiæ figuram, Dominicus Ancaianus .*
+*Aspice terrarum flauentes vndiq. campos*
+*Multiplici complet messe benigna Ceres.*
+*Pomorum vario curuantur pondere rami,*
+*Et bromio vitis plena liquore rubet .(mor*
+*Cerne boũ,pecudũq. greges hinc lacteus hu*
+*Hinc pingui sudant vimina vincta lacu.*
+*Sylua feras nutrit,producũt æquora pisces,*
+*Aerijs campis læta vagatur auis .*
+*Quid iã deposcas proprios mortalis in vsus*
+*Nec cælũ quicquam, nec tibi terra negat.*
+[ЗАГОЛОВОК: Abondanza.]
+[ИНИЦИАЛ: D]Onna in piedi, vestita d'oro, con le braccia aperte , tenendo l'vn'& l'altra mano sopra alcuni cestoni di spighe di grano , i quali stanno dalle bande di detta figura, & è cauata dalla medaglia di Antonino Pio , con lettere che dicono : ANNONA AVG. COS. IIII. & S. C.
+[ЗАГОЛОВОК: Abondanza Maritima.]
+[ИНИЦИАЛ: C]Erere si rappresenta con le spighe nella destra mano stesa sopra la prora d'vna naue,& a piedi vi sarà vna misura di grano con le spighe dentro come l'altra di sopra.
+[ЗАГОЛОВОК: Abondanza Maritima .]
+[ИНИЦИАЛ: D]Onna che con la destra mano tiene vn timone , & con la sinistra le spighe.
+[ЗАГОЛОВОК: Abondanza.]
+[ИНИЦИАЛ: D]Onna con la ghirlãda di spighe di grano,nella destra mano vn mazzo di canape,cõ le foglie, & nella sinistra il corno della douitia,& vn ramo di ginestra , sopra del quale saranno molte boccette di seta.
+[ЗАГОЛОВОК: ACCIDIA.]
+[ИНИЦИАЛ: D]ONNA vecchia, brutta,mal vestita, che stia à sedere, & che tenghi la guancia appoggiata sopra alla sinistra mano , dalla quale penda vna cartella con vn motto , che dichi : TORPET INERS, & il gomito di detta mano sia posato sopra il ginocchio , tenendo il capo chino , & che sia cinto con vn panno di color nero , & nella destra mano vn pesce detto Torpedine.
+Accidia,secondo S.Giouanni Damasceno l. 2.è vna tristitia,che aggraua la mente, che non permette, che si facci opera buona.
+
+Колонтитул: 2 ICONOLOGIA
+Кустод: Vecchia
+Сигнатура: 
+Маргиналии:
+
+## Скан 0028 · с. 3
+
+[ЗАГОЛОВОК: ACCIDIA.]
+[ГРАВЮРА: TORPET·INERS]
+Vecchia si dipinge , perche ne gl'anni senili cessano le forze , & manca la virtù d'operare,come dimostra Dauid nel Salmo 70.doue dice: *Ne proijcias me in tempore senectutis , cum defecerit virtus mea ne derelinquas me .*
+Mal vestita si rapresenta,perche l'Accidia non operando cosa veruna, induce pouertà,& miseria,come narra Salamone ne i Prouerbij al 28. *Qui operatur terram suam satiabitur panibus , qui autem sectatur otium replebitur ægestate* , & Seneca nel lib.de benef. *Pigritia est nutrix ægestatis.*
+Il stare à sedere nella guisa, che dicemmo significa che l'Accidia rende l'huomo otioso,& pigro,come bene lo dimostra il motto sopradetto, & S. Bernardo nell' Epistole riprendendo gl'accidiosi così dice : *O homo imprudens milia milium ministrant ei,& decies centena milia assistũt ei,& tu sedere presumis?*
+La testa circondata col panno nero , dimostra la mente dell'accidioso
+
+Колонтитул: DI CESARE RIPA. 3
+Кустод: occu-
+Сигнатура: A2
+Маргиналии:
+
+## Скан 0029 · с. 4
+
+occupata dal torpore,& che rende l'huomo stupido,& insensato,come narra Isidoro ne' soliloquij lib. 2. *Per torporem vires, & ingenium defluunt .*
+Il pesce,che tiene nella destra mano significa Accidia, percioche si come questo pesce ( come dicono molti Scrittori,& particolarmente Pierio Valeriano lib. 3.)per la natura , & proprietà sua , chi lo tocca con le proprie mani,ouero con qualsiuoglia istromento,corda, rete, o altro, lo rende talmente stupido,che non può operar cosa nissuna; così l'accidia hauẽd'egli l' istesse male qualità , prende , supera , & vince di maniera quelli che a questo vitio si danno , che li rende inhabili , insensati , & lontani da opera lodeuole, & virtuosa .
+[ЗАГОЛОВОК: Accidia .]
+[ИНИЦИАЛ: D]Onna vecchia, brutta, che stia a sedere , con la destra mano tenghi vna corda, & con la sinistra vna lumaca,ouero vna tartaruca.
+La corda denota che l'accidia lega,& vince gl'huomini, & li rende inabili ad operare.
+Et la lumaca,o tartaruca , dimostrano la proprietà degl'accidiosi , che sono otiosi,& pigri .
+[ЗАГОЛОВОК: Accidia .]
+[ИНИЦИАЛ: D]Onna che stia a giacere per terra, & a canto starà vn asino similmẽte a giacere,ilqual animale si soleua adoperar da gl'Egittij per mostrare la lontananza del pensiero dalle cose sacre, & religiose , con occupatione continua nelle vili, & i pensieri biasimeuoli , come racconta Pierio Valeriano .
+[ЗАГОЛОВОК: ACQVISTO CATTIVO.]
+[ИНИЦИАЛ: H]VOMO vestito del color delle foglie dell'albero quando stanno per cascare; starà detta figura in atto di caminare, & vn lẽbo della veste stia attaccato ad vn spino , tirando vn grande squarcio , a che riuolta mostri il dispiacere che ne sente , & nella destra mano terrà vn nibbio che rece.
+Vestesi del detto colore , perche si come facilmente cascano le foglie dell'albero,così anco cascano,& vanno a male le cose non bene acquistate ; il medesimo dimostra lo spino,percioche quando l'huomo meno pensa alle cose di mal'acquisto, all'hora ne riceue danno, e vergogna .
+Tiene con la destra mano il nibbio , per dimostrare quello che à questo proposito disse l'Alciato , tradotto in nostra lingua.
+*L'edace Nibbio mentre*
+*Rece il souerchio cibo , che rapio ,*
+*Con la madre si duol del fato rio:*
+*Dicendo , Ahi , che del ventre*
+*M'escono l'interiora , e in gran periglio*
+*Mi sento : & ella a lui,*
+*Non ti doler ò figlio,*
+*Che' l tuo non perdi nò, ma quel d'altrui.*
+[ЗАГОЛОВОК: ADOLESCENZA.]
+[ИНИЦИАЛ: V]ERGINELLA di bello aspetto, coronata di fiori,mostri riso, & allegrezza,con la veste di varij colori .
+Adolescenza è quella età dell'huomo,che tiene dal decimo fino al ventesimo anno, nella quale l'huomo comincia col mezzo de' sensi ad inten-
+
+Колонтитул: 4 ICONOLOGIA
+Кустод: dere
+Сигнатура: 
+Маргиналии:
+
+## Скан 0030 · с. 5
+
+dere,& imparare , ma non operare se non confusamente : comincia bene ad acquistare vigore ne' sensi per cui desta la ragione ad eleggere, & volere,& questo si chiama augumento.
+La veste di varij colori è antica inuentione, perche gli Egittij, quando voleuano mostrare nelle lor pitture l'Adolescenza (secondo che racconta Pierio ) faceuano vna veste di varij colori, significando la volubilità della natura giouenile,& la varietà de'desiderij, che sogliono venire à giouani, mentre sono nella piu fresca età,& ne gli anni piu teneri:però dicesi che la via dell' Aquila in cielo, del serpe in terra , della naue in acqua, & dell'huomo nell'adolescenza sono difficili da conoscere , & ciò si truoua nelli Prouerbij al 3.
+La corona de' fiori,& la dimostratione del riso, significano allegrezza, il che suole regnare assai in questa età , che perciò si rappresenta allegra , & di bello aspetto,dicendosi ne i Prouerbij al xv. Che l'animo allegro rende l'età florida.
+[ЗАГОЛОВОК: ADVLATIONE.]
+[ИНИЦИАЛ: D]ONNA allegra con fronte raccolta , sarà vestita di cangiante, & il vestimento sarà tutto dipinto di Camaleonti, con la destra mano terrà vn mantice d'accendere il fuoco, & con la sinistra vna corda.
+Adulatione,secondo Cicerone nel 2. lib.delle questioni Tusculane,è vn peccato fatto da vn ragionamento d'vna lode data ad alcuno con animo, & intentione di compiacere , ouero è falsa persuasione , & bugiardo consentimento, che vsa il finto amico nella conuersatione d'alcuno, per farlo credere di se stesso , & delle cose proprie quello che non è, & fassi per piacere, ò per auaritia.
+Vestesi di cangiante , perche l' adulatore è facilissimo ad ogni occasione à cangiar volto, & parole,& dire si,& no, secondo il gusto di ciascuna persona , come dimostra Terentio nell' Eunuco .
+*Quicquid dicunt laudo:id rursum si negant laudo, Id quoque negat quis, nego : ait, aio.*
+I Camaleonti si pongono per lo troppo secondare gl'appetiti, & l'openione altrui : percioche questo animale , secondo che dice Aristotele, si trasmuta secondo le mutationi de tempi , come l'adulatore,si stima perfetto nella sua professione , quando meglio conforma se stesso ad applaudere per suo interesse à gl'altrui costumi,ancorche biasimeuoli.Dicesi ancora che per essere il Camaleonte timidissimo , hauendo in se stesso pochissimo sangue, & quello intorno al cuore,ad ogni debole incontro teme & si trasmuta, donde si può vedere, che l'adulatione è indicio di poco spirito, & d'animo basso in chi l'esercita,& in chi volontieri l'ascolta,dicendo Aristotele nel iv. dell'Ethica,che , *Omnes adulatores sunt seruiles , & abiecti homines .*
+Il mantice, che è attissimo instromento ad accendere il fuoco, & ad amorzare i lumi accesi,solo col vento, ci fa conoscere,che gl'adulatori col vento delle parole vane,ouero accẽdono il fuoco delle passioni,in chi volontieri gl'ascolta, ouero amorzano il lume della verità , che altrui man-
+
+Колонтитул: DI CESARE RIPA. 5
+Кустод: teneua
+Сигнатура: A3
+Маргиналии:
+
+## Скан 0031 · с. 6
+
+teneua per la cognitione di se stesso .
+La corda , che tiene con la sinistra mano dimostra come testifica S. Agostino sopra il Salmo 9.che l'adulatione lega gl'huomini nei peccati, dicendo : *Adulantium linguæ ligant homines in peccatis, delectat enim ea facere in quibus non solum non metuitur reprehensor, sed etiam laudatur operator .* Et nell'istesso Salmo si legge : *In laqueo isto , quem absconderunt comprehensus est pes eorum .*
+L'hauere la fronte raccolta secondo Aristotele de Fisonomia cap. 9. significa adulatione.
+[ЗАГОЛОВОК: ADVLATIONE.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: V]Na donna vestita d'habito artifitioso , & vago , che suoni la tibia, ouero il flauto,con vn ceruo, che li stia dormendo vicino à piedi : così la depinge Oro Appolline, & Pierio Valeriano nel 7.lib. de i suoi Ie-
+
+Колонтитул: 6 ICONOLOGIA
+Кустод: roglifici
+Сигнатура: 
+Маргиналии:
+
+## Скан 0032 · с. 7
+
+roglifici, & scriuono alcuni, che il ceruo di sua natura allettato dal suono del flauto , quasi si dimentica di se stesso , & si lascia pigliare . In conformatione di ciò è la presente imagine , nella quale si dichiara la dolcezza delle parole con la melodia del suono, & la natura di chi volentieri si sente adulare con l'infelice naturale instinto del ceruo , il quale mostra ancora , che è timido , & d'animo debole , chi volontieri porge gl' orecchi à gl'adulatori.
+[ЗАГОЛОВОК: Adulatione .]
+[ИНИЦИАЛ: D]Onna con due faccie l'vna di giouane bella,& l' altra di vecchia macilente: dalle mani l'escono molte Api,che volino in diuerse parti,& a canto vi sia vn cane.
+La faccia bella è indicio della prima apparenza delle parole adulatrici ; & l'altra faccia brutta mostra i difetti dissimulati , & mandati dietro alle spalle.
+L'Api , secondo Eucherio,sono proprio simulacro dell'adulatore , perche nella bocca portano il mele, & nell'occulto tengano il pungente aculeo , col quale feriscono molte volte l'huomo che non se ne auuede .
+Il cane con lusinghe accarezza chi gli da il pane , senza alcuna distintione di meriti,ò demeriti,& alcune volte ancora morde chi non lo merita,& quello stesso che li daua il pane , s'auuiene che tralasci : però si assimiglia assai all' adulatore , & a questo proposito lo pigliò Marc'Antonio Cataldi Romano in quel sonetto .
+*Nemico al vero , & delle cose humane ,*
+*Corruttor , cecità dell'intelletto,*
+*Venenosa beuanda , e cibo infetto*
+*Di gusti, e d'alme sobrie , e menti sane .*
+*Di lodi , di lusinghe , e glorie vane .*
+*Vasto albergo , alto nido , ampio ricetto*
+*D' opre , di fintion' , di vario aspetto ,*
+*Sfinge , Camaleonte , e Circe immane.*
+*Can che lusinga , e morde , acuto strale ,*
+*Che non piaga,e che induce à strane morti*
+*Lingua che dolce appar mẽtre e piu fella.*
+*In somma e piacer rio , gioia mortale ,*
+*Dolce tosco, aspro mel, morbo di corti ,*
+*Quel che Adular l'errante volgo appella.*
+[ЗАГОЛОВОК: AFFANNO.]
+[ИНИЦИАЛ: H]VOMO vestito di berettino , vicino al negro, co'l capo chino,& volto mesto , & in ambe le mani tenga dell'assentio .
+Il capo chino,& l'aspetto di mala voglia ci dimostra, che l'affanno è vna spetie di malinconia , & dispiacere , che chiude la via al cuore, per ogni sorte di consolatione , & di dolcezza , & per dare ad intendere, che l' affanno è vn dispiacere più intenso de gl'altri; vi si dipinge l'assentio per segno d'amaritudine del dolore , che per significare quest'istesso disse il Petrarca .
+*Lagrimar sempre è il mio sommo diletto,*
+*Il rider doglia, il cibo assentio, e tosco .*
+[ЗАГОЛОВОК: AFFANNO, CORDOGLIO, RAMMARICO.]
+[ИНИЦИАЛ: H]Vomo mesto , malinconioso, & tutto rabuffato , con ambe le mani s'apre il petto, & si mira il cuore circondato da diuersi serpi . Sarà vestito di berettino vicino al negro , il detto vestimento sarà stracciato solo per dimostrare il dispregio di se stesso , & che quando vno è in traua-
+
+Колонтитул: DI CESARE RIPA. 7
+Кустод: gli
+Сигнатура: A4
+Маргиналии:
+
+## Скан 0033 · с. 8
+
+gli dell'animo, non puo attendere alla coltura del corpo;& il color negro significa l'vltima ruina, & le tenebre della morte, alla quale conducono i rammarichi, & i cordogli .
+Il petto aperto, & il core dalle serpi cinto,dinotano i fastidij, & trauagli mondani , che sempre mordendo il core infondono in noi stessi veleno di rabbia , & di rancore .
+[ЗАГОЛОВОК: AFFABILITA, PIACEVOLEZZA, AMABILITA.]
+[ИНИЦИАЛ: G]IOVANE vestita d'vn velo bianco , & sottile , & con faccia allegra , nella destra mano terra vna rosa , & in capo vna ghirlanda di fiori : Affabilità è habito fatto nella discretione del conuersar dolcemente, con desiderio di giouare, & dilettare ogn'vno, secondo il grado.
+Giouane si dipinge,percioche essendo la giouentù ancor nuoua ne i diletti, & piaceri mondani, grata, & piaceuole ogn'hor si dimostra .
+Il velo, che la ricopre, significa , che gl'huomini affabili sono poco meno che nudi nelle parole , & nell'opere loro , & perciò amabili, & piaceuoli si dimandono quelli, che à luogo, & tempo , secondo la propria conditione , & l'altrui , quanto , & quando si conuiene , sanno gratiosamente ragionare senza offendere alcuno gentilmente, & con garbo, scoprendo se stessi . Si dimostra ancora , che l'animo si deue sol tanto ricoprire, quanto non ne resti palese la uergogna , & che di grandissimo aiuto alla piaceuolezza è l'essere d'animo libero, & sincero .
+La rosa dinota quella gratia , per la quale ogn' vno volentieri si appressa all'huomo piaceuole,& della sua conuersatione riceue gusto, fuggendo la spiaceuolezza di costumi, che è congiunta con la seuerità , alla quale significatione si riferisce ancora la ghirlanda di fiori .
+[ЗАГОЛОВОК: AGILITA]
+[ЗАГОЛОВОК: Del Reuerendissimo P. Fr. Ignatio Danti.]
+[ИНИЦИАЛ: D]ONNA che voli con le braccia stese , in modo di nuotare per l' aria.
+[ЗАГОЛОВОК: Agilità .]
+[ИНИЦИАЛ: G]Iouane ignuda , & snella , con due ali sopra gl'homeri , non molto grandi,in modo che mostrino piu tosto d'aiutare l'agilità che'l volo: deue stare in piedi in cima d'vna rupe sostenendosi à pena con la punta del pie manco,& col pie dritto solleuato in atto di voler leggiadramente saltar da quella in vn altra rupe,& però si depingeranno l'ali tese.E ignuda per non hauer cosa che l'impedisca : in piedi per mostrare dispositione al moto: in luogo difficile , & pericoloso, perche in quello piu l'agilità si manifesta;col piede a pena tocca la terra aiutata dall'ali, perche l'agilità humana,che questa intẽdiamo,si solleua col vigor degli spiriti significati per l'ali,& alleggerisce,in gran parte in noi,il peso della soma terrena.
+[ЗАГОЛОВОК: STVDIO DELL AGRICOLTVRA]
+[ЗАГОЛОВОК: nella medaglia di Gordiano .]
+[ИНИЦИАЛ: V]NA donna in piedi,che sta con le braccia aperte , & mostra due animali che le stanno a piedi , cioè vn toro da vna banda , & dall'altra vn leone.
+
+Колонтитул: 8 ICONOLOGIA
+Кустод: Il
+Сигнатура: 
+Маргиналии:
+
+## Скан 0034 · с. 9
+
+Il leone significa la terra,percioche finsero gl'antichi,che il carro della dea Cibele fusse tirato da due leoni,e per quelli intẽdeuano l'agricoltura
+Il toro ci mostra lo studio dell'arare la terra , & ci dichiara li commodi delle biade,con studio raccolte .
+[ЗАГОЛОВОК: AGRICOLTVRA.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: D]Onna vestita di verde,con vna ghirlanda di spighe di grano in capo, nella sinistra mano tenga il circolo de i dodici segni celesti, abbracciando con la destra vn arboscello,che fiorisca , mirandolo fisso , a piedi vi sarà vn aratro.
+Il vestimento verde significa la speranza , senza la quale non sarebbe chi si desse giamai alla fatica del lauorare,& coltiuar la terra .
+La corona di spighe si dipinge per lo principal fine di quest'arte,ch'è di
+
+Колонтитул: DI CESARE RIPA. 9
+Кустод: far
+Сигнатура: 
+Маргиналии:
+
+## Скан 0035 · с. 10
+
+far moltiplicar le biade,che son necessarie a mãtener la vita dell'huomo.
+L'abbracciar l'arboscello fiorito,& il riguardarlo fisso, significa l'amor dell'agricoltore verso le piante, che sono quasi sue figlie, attendendone il desiato frutto , che nel fiorir gli promettono.
+I dodici segni sono i varij tempi dell' anno , & le stagioni che da essa agricoltura si considerano .
+L'aratro si depinge come instrumento principalissimo per quest' arte .
+[ЗАГОЛОВОК: Agricoltura .]
+[ИНИЦИАЛ: D]Onna con vestimento contesto di varie piante , con vna bella ghirlanda di spighe di grano,& altre biade, & di pampane con l'vue; portera in spalla con bella gratia vna zappa, & con l'altra mano vn roncetto,& per terra vi sarà vn aratro.
+Agricoltura è arte di lauorare la terra, seminare, piãtare, & insegnare ogni sorte d'herbe , & arbori,cõ cõseruatione di tẽpo,di luoghi,& di cose.
+Si dipinge di veste contesta di varie piante, & con la corona in testa tessuta di spighe di grano, & altre biade,per esser tutte queste cose ricchezze dell'agricoltura , si come riferisce Propertio lib. 3. dicendo .
+*Felix agrestum quondam parata iuuentus , Diuitiæ quorum messis , & arbor erant.*
+Gli si da la zappa in spalla , il roncio dall' altra mano , & l' aratro da banda per esser questi stromenti necessarij all'agricoltura .
+[ЗАГОЛОВОК: Agricoltura .]
+[ИНИЦИАЛ: D]Onna vestita di giallo, con vna ghirlanda in capo di spighe di grano,nella destra mano terra vna falce,& nell'altra vn cornucopia pieno di diuersi frutti, fiori , & fronde .
+Il color giallo del vestimento si pone per similitudine del color delle biade , quando hanno bisogno che l' agricoltore le raccolga in premio delle sue fatiche , che però gialla si dimanda Cerere dagl' antichi Poeti .
+[ЗАГОЛОВОК: ALLEGREZZA.]
+[ИНИЦИАЛ: G]IOVANETTA con fronte carnosa , liscia , & grande , sara vestita di bianco, & detto vestimento dipinto di verdi fronde , & fiori rossi, & gialli , con vna ghirlanda in capo di varij fiori , nella mano destra tenga vn vaso di cristallo , pieno di vino rubicondo , & nella sinistra vna gran tazza d'oro.Sia d'aspetto gratioso,& bello,& prontamente mostri di ballare in vn prato pieno di fiori.
+Allegrezza è passione d'animo volto al piacere di cosa che intrinsicamente contempli sopranaturalmente , ò che gli siano portate estrinsicamente dal senso per natura, ò per accidente .
+Hauerà la fronte carnosa , grande , & liscia per lo detto d'Aristotele de Fisonomia al 6.cap. I fiori significano per se stessi allegrezza,& si suol dire , che i prati ridono , quando sono coperti di fiori ; pero Virgilio gli dimandò piaceuoli nella 2. Ecloga dicendo :
+*Ipsa tibi blandos fundent cunabula flores.*
+Il vaso di christallo pieno di vino vermiglio , con la tazza d'oro,dimostra,che l'allegrezza per lo più non si cela, & volontieri si communica co-
+
+Колонтитул: 10 ICONOLOGIA
+Кустод: me
+Сигнатура: 
+Маргиналии:
+
+## Скан 0036 · с. 11
+
+[ЗАГОЛОВОК: ALLEGREZZA.]
+[ГРАВЮРА: без подписи]
+me testifica S. Gregorio nel lib. 28. de Morali,così dicendo : *Solet lætitia arcana mentis aperire.* Et il Profeta dice: Il vino rallegra il cuore dell'huomo, & l'oro parimente ha virtù di confortare gli spiriti : Et questo conforto è cagione dell'allegrezza . La dispositione del corpo, & la dimostratione del ballo è manifesto inditio dell'allegrezza .
+[ЗАГОЛОВОК: Allegrezza.]
+[ИНИЦИАЛ: G]Iouanetta con ghirlanda de fiori in capo,nella destra mano terrà vn Tirso,coronato tutto con molti giri di fronde,& ghirlande di diuersi fiori,nella sinistra hauerà il corno di diuitia,& si potrà vestire di verde.
+[ЗАГОЛОВОК: Allegrezza d'amore .]
+[ИНИЦИАЛ: G]Iouane vestita con diuersità di colori piaceuoli , con vna pianta di fiori di boragine sopra i capelli, in mano porterà saette d'oro, & di piombo , ouero suonerà l'Arpa .
+
+Колонтитул: DI CESARE RIPA. 11
+Кустод: Alle-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0037 · с. 12
+
+[ЗАГОЛОВОК: Allegrezza, Letitia, & Giubilo.]
+[ИНИЦИАЛ: V]Na giouane appoggiata ad vn olmo ben fornito di viti, & calchi leggiermente vn cauolo sodo, allarghi le mani, come se volesse donar presenti, & nel petto hauerà vn libro di Musica aperto . L'olmo circondato di viti, significa allegrezza del cuore, cagionata in gran parte dal vino, come disse Dauid : & l'vnione di se stesso, & delle proprie forme, & passioni,accennate col cauolo : & la melodia di cose grate à gli occhi, come la Musica, ch'è cagione della letitia, la quale fa parte delle sue facoltà à chi n'è bisognoso, per arriuare à più perfetto grado di contentezza .
+[ЗАГОЛОВОК: Allegrezza.]
+[ИНИЦИАЛ: V]Na giouanetta con ghirlanda di fiori in capo , perche li fanciulli stanno sempre allegri : & perche nelle feste publiche antiche tutti si coronauano, e loro, e le porte delle loro case, e tempij, & animali, come fa mentione Tertull.nel lib.de corona Militis ; & con la destra mano tiene vn ramo di palma, & di oliua, per memoria della Domenica delle Palme, & l'allegrezza con che fu riceuuto Christo N.S. con molti rami di palme, & d'oliue .
+[ЗАГОЛОВОК: AMARITVDINE.]
+[ИНИЦИАЛ: P]ER l'amaritudine si dipinge da alcuni vna donna vestita di nero, che tenga con ambe le mani vn fauo di mele, dal quale si veda germogliare vna pianta d'assentio, forse perche quando siamo in maggior felicità della vita, allora ci trouiamo in maggior pericolo de disastri della Fortuna; ouero perche conoscendosi tutte le qualità dalla cognitione del contrario, all' hora si può hauere perfetta scienza della dolcezza , quando si è gustata vn'estrema amaritudine,però disse l'Ariosto.
+*Non conosce la pace, e non la stima*
+*Chi prouato non hà la guerra prima.*
+Et perche quella medesima amaritudine,che è nell'assentio,si dice ancora per metafora essere ne gl'huomini appassionati.
+[ЗАГОЛОВОК: AMBITIONE.]
+[ИНИЦИАЛ: V]NA donna giouane vestita di verde con fregi d'hellera, in atto di salire vn'asprissima rupe, la quale in cima habbia alcuni scettri, & corone di più sorte, & in sua compagnia vi sia vn leone con la testa alta .
+L'Ambitione, come la descriue Alessandro Afrodiseo,è vn appetito di signoria, ouero come dice S. Tomasso,è vn' appetito inordinato d'honore ; laonde si rappresenta per vna donna vestita di verde, perche il cuore dell'huomo ambitioso non si pasce mai d' altro, che di speranza di grado d' honore, & però si dipinge che saglia la rupe .
+I fregi dell'hellera ci fanno conoscere, che come questa pianta sempre va salendo in alto, & rompe spesso le mura,che la sostentano; cosi l'ambitioso non perdona alla patria,ne a i parenti, ne alla religione,ne a chi gli porge aiuto, o consiglio, che non venga continuamente tormentando cõ l'ingordo desiderio d'esser reputato sempre maggior degl' altri.
+
+Колонтитул: 12 ICONOLOGIA
+Кустод: Il leo-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0038 · с. 13
+
+Il leone con la testa alta dimostra, che l' Ambitione non è mai senza superbia . Da Christoforo Landino è posto il Leone per l' Ambitione, percioche non fa empito contro chi non gli resiste , cosi l' ambitioso cerca d'esser superiore, & accetta chi cede , onde Plauto disse : *Superbus minores despicit , maioribus inuidet ,* & Boetio : *Ira intemperantis fremit , vt Leonis animum gestare credant .* Et à questo proposito , poiche l'hò alle mani, aggiungerò per sodisfattione de i Lettori vn sonetto di Marco Antonio Cataldi , che dice cosi :
+*O di discordia , e risse altrice vera ,*
+*Rapina di virtù , ladra d'honori ,*
+*Che di fasti , di pompe , e di splendori*
+*Soura il corso mortal ti pregi altera :*
+*Tu sei di glorie altrui nemica fiera*
+*Madre d'hippocrisia , fonte d'errori,*
+*Tu gl'animi auueleni , e infetti i cuori*
+*Via più di Tisifon , più di Megera.*
+*Tu festi vn nuouo Dio stimarsi Annone,*
+*D'Etna Empedocle esporsi al foco eterno ,*
+*O' di morte ministra Ambitione.*
+*Tu dunque à l'onde Stige , al lago Auerno*
+*Torna, che senza te langue Plutone,*
+*L'alme non senton duol,nulla è l'Inferno.*
+[ЗАГОЛОВОК: Ambitione .]
+[ИНИЦИАЛ: D]Onna giouane,vestita di verde,con habito succinto,e con li piedi nudi ; hauerà a gl'homeri l'ali , & con ambi le mani mostri di mettersi confusamente in capo più sorte di Corone, & hauerà gl'occhi bendati .
+Ambitione,secondo S.Tomaso 2.2.q.131. art.2. è vn'appetito disordinato di farsi grande,e di peruenire a Gradi, Stati,Signorie, Magistrati, & Officij, per qual si voglia giusta, ò ingiusta occasione , virtuoso, ò vitioso mezo;onde auuiene,che quello si dica essere ambitioso,come dice Aristotele nel quarto dell'Ethica , il quale più che non faccia mestiere , & oue non bisogni cerchi honori.
+Si dipinge giouane vestita di verde , percioche i giouani son quelli che molto si presumono , & molto sperano , essendo lor proprio vitio , come dice Seneca in Troade , per non poter reggere l' impeto dell'animo,che perciò se gli fanno l'ali a gl'homeri, dimostrando anco , che appetiscono, & arditamente desiderano quelle cose , che non conuengono loro , cioè volare sopra gl'altri , & essere superiore a tutti.
+L' habito succinto, & i piedi nudi significano le fatiche, i disagi , i danni, & le vergogne , che l'ambitioso sostiene , per conseguir quelli honori che fieramente ama , poiche per essi ogni cosa ardisce di fare , & soffrire con patienza , come ben dimostra Claudian.lib. 2. in Stilicon.laudem.
+*Trudis auaritiam , cuius fædissima nutrix*
+*Ambitio,quæ vestibulis,foribusq; poterũ,*
+*Excubat,et precijs commercia poscit honorum.*
+*Pulsa simul.*
+Si rappresenta , ch'ella medesima si ponghi le sopradette cose in capo per dimostrare che l'ambitioso opera temerariamente , essendo scritto in S. Paolo ad Hebr. cap. 5. *Nemo sibi sumat honorem, sed qui vocatur à Deo tamquam Aaron ,* non sapendo se egli ne sia degno.
+Si dipinge con l'occhi bendati,perche ella ha questo vitio,che non sa discernere , come dice Seneca nell'epist. 105.
+*Tantus est ambitionis furor*
+*Vt nemo tibi post te videatur*
+*Si aliquis ante te fuerit.*
+
+Колонтитул: DI CESARE RIPA. 13
+Кустод: Le qua-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0039 · с. 14
+
+[ЗАГОЛОВОК: AMBITIONE.]
+[ГРАВЮРА: без подписи]
+Le qualità delle corone dimostrano , che l' ambitione è vn disordinato appetito,secondo il detto di Seneca nel 2.de ira.
+*Non est contenta honoribus*
+*Annuis si fieri potest vno nomine*
+*Vult fastos occupare , & per omnem*
+*Orbem titulos disponere.*
+Et à questo proposito non voglio lasciare di scriuere vn'Agramma fatto sopra la presente figura da Taddeo Donnola , che così dice.
+*Ambitio. Amo tibi.*
+*Grammaticã falsam quid rides? desine nãq;*
+*Ex vitio vitium nil nisi colligitur.*
+*Tu lude hic homines,quos ambitiosa cupido,*
+*Cæcos,dementes,ridiculosque facit.*
+
+Колонтитул: 14 ICONOLOGIA
+Кустод: AM-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0040 · с. 15
+
+[ЗАГОЛОВОК: AMPIEZZA DELLA GLORIA.]
+[ИНИЦИАЛ: S]I dipinge per tale effetto la figura d' Alessandro Magno con vn fol gore in mano , & con la corona in capo .
+Gl'antichi Egitij intendeuano per il folgore l'ampiezza della gloria & la fama per tutto il mondo distesa , essendo , che niun' altra cosa rende maggior suono , che i tuoni dell' aere ; de' quali esce il folgore , onde per tal cagione scriuono gl'Historici ch'Appelle Pittore Eccellentissimo, volendo dipingere l'effigie del Magno Alessandro gli pose in mano il folgore , accioche per quello significasse la chiarezza del suo nome dalle cose da lui fatte in lontani paesi portata , & celebre per eterna memoria . Dicesi anco , che ad Olimpia madre d'Alessandro , apparue in sogno vn folgore,il quale gli daua inditio dell'ampiezza,& fama futura nel figliuolo .
+[ЗАГОЛОВОК: AMICITIA.]
+[ИНИЦИАЛ: D]ONNA vestita di bianco, ma rozzamente,mostri quasi la sinistra spalla,& il petto ignudo,con la destra mano mostri il cuore,nel quale vi sarà vn motto in lettere d'oro così, LONGE, ET PROPE: & nell'estremo della veste vi sarà scritto, MORS, ET VITA. Sarà scapigliata , & in capo terrà vna ghirlanda di mortella , & di fiori di pomi granati intrecciati insieme, nella fronte vi sarà scritto .
+HYEMS, AESTAS.
+Sarà scapigliata, & con il braccio sinistro terrà vn olmo secco, il quale sarà circondato da vna vite verde . Amicitia secondo Aristotele è vna scambieuole, espressa, & reciproca beneuolenza guidata per virtù,& per ragione tra gli huomini, che hanno conformità de influssi , & di complessioni . Il vestimento bianco , & rozzo , è la semplice candidezza dell'animo , onde il vero amore si scorge lontano da ogni sorte di fintioni , & di lisci artifitiosi .
+Mostra la spalla sinistra,& il petto ignudo,additando il cuore col motto , *Longe , & prope* , perche il vero amico , ò presente , ò lontano , che sia dalla persona amata,col cuore non si separa giamai; & benche i tempi,& la fortuna si mutino,egli è sempre il medesimo preparato à viuere,& morire per l'interesse dell'amicitia , & questo significa il motto , che ha nel lembo della veste , & quello della fronte . Ma se è finta , ad vn minimo volgimento di fortuna , vedesi subitamente , quasi sottilissima nebbia al Sole dileguare . L'essere scapigliata,& l'hauere la ghirlanda di mirto con i fiori di pomi granati , mostra , che il frutto dell'amor concorde, & dell'vnione interna sparge fuori l'odor suaue de gl'esempij, & dell' honoreuoli attioni , & ciò senza vanità di pomposa apparenza, sotto la quale si nasconde bene spesso l'adulatione nemica di questa virtù .
+Dipingesi parimente scalza , per dimostrare sollecitudine, ouero prestezza, & che per lo seruigio dell'amico non si deuono prezzare gli scommodi: Come dimostra Ouidio de Arte amandi: *Si rota defuerit, tu pede carpe viam .* Abbraccia finalmente vn olmo secco circondato da vna vite verde, accioche si conosca , che l'amicitia fatta nelle prosperita , deue durar
+
+Колонтитул: DI CESARE RIPA. 15
+Кустод: sempre,
+Сигнатура: 
+Маргиналии:
+
+## Скан 0041 · с. 16
+
+[ЗАГОЛОВОК: AMICITIA]
+[ГРАВЮРА: без подписи]
+sempre , & ne i maggiori bisogni deue esser più che mai amicitia , ricordandosi, che non è mai amico tanto inutile, che non sappia trouar strada in qualche modo di pagare gl'oblighi dell'amicitia .
+[ЗАГОЛОВОК: Amicitia .]
+[ИНИЦИАЛ: D]Onna vestita di biancho, per la medesima ragione detta di sopra, hauerà i capelli sparsi;sotto il braccio sinistro terrà vn cagnolino bianco abbracciato, & stretto;nella destra mano vn mazzo di fiori, & sotto al piede destro vna testa di morto .
+I capelli sparsi sono per le ragioni gia dette. Il cagnolino bianco mostra, che si deue conseruare netta d'ogni macchia,all'amico la pura fideltà;per i fiori s'intende l'odore del buon ordine,che cagiona l'amicitia nel
+
+Колонтитул: 16 ICONOLOGIA
+Кустод: consortio,
+Сигнатура: 
+Маргиналии:
+
+## Скан 0042 · с. 17
+
+consortio, & nella commune vsanza de gl'huomini . Sotto al piè destro si dipinge la testa di morto calpestata, perche la vera amicitia genera spesse volte per seruigio dell'amico il dispregio della morte . Però disse Ouidio , lodando due cari amici nel 3.lib.de Ponto.
+*Ire iubet Pylades,charum periturus Oresten*
+*Hic negat,inque vicẽ pugnat vterq;mori*
+[ЗАГОЛОВОК: Amicitia.]
+[ИНИЦИАЛ: L]E tre gratie ignude , ad vna delle quali si vedrà le spalle , & all'altre due il viso congiungendosi con le braccia insieme . Vna d'esse hauerà in mano vna rosa , l'altra vn dado, e la terza vn mazzo di mirto , dalle imagini di queste tre gratie , senza dubbio si regola la buona, & perfetta amicitia , secondo che gl'antichi pensauano , imperoche l'amicitia non ha altro per suo fine , che il giouare, & far benefitio altrui , & non lassarsi superare in beneuolenza , & come tre sono le gratie de gl'antichi , così tre gradi i benefitij tengono nell'amicitia.
+Il primo è di dar le cose . Il secondo di riceuer l'altrui . Il terzo di render il contracambio . Et delle tre gratie l' vna stringe la mano , ouero il braccio dell'altra , perche l'ordine di far benefitio altrui è , che debbia passare di mano in mano , & ritornare in vtile di chi lo fece prima , & in questa maniera il nodo dell'amicitia tiene strettamente gl'huomini vniti fra di loro .
+Si rappresentano queste tre gratie ignude , perche gl' huomini insieme l'vn l'altro debbano esser d'animo libero, & sciolto da ogni inganno, vna sola volge le spalle , & due volgono il viso , per mostrare , che sempre duplicato si deue rendere il benefitio all'amico.
+Si rappresentano allegre nell'aspetto , perche tale si deue dimostrare chi fa benefitio altrui , & tali ancora coloro , che lo riceuono . Hanno l'apparenza virginale, perche l'amicitia non vuol'esser contaminata dalla viltà d'alcuno interesse particolare .
+La rosa significa la piaceuolezza , quale sempre deue essere tra gl'amici,essendo fra di loro continua vnione di volontà.
+Il dado significa l'andare , & ritornare alternamente de i benefitij,come fanno i dadi , quando si giuoca con essi.
+Il mirto , che è sempre verde, è segno, che l'amicitia deue l'istessa conseruarsi, ne mai per alcuno accidente farsi minore .
+[ЗАГОЛОВОК: Amicitia.]
+[ИНИЦИАЛ: V]N cieco, che porti sopra alle spalle vno, che non possa stare in piedi, come i seguenti versi dell'Alciato dichiarano .
+*Porta il cieco il ritratto in sù le spalle,*
+*Et per voce di lui ritroua il calle,*
+*Così l'intero di due mezzi fassi,*
+*L'vn prestando la vista ,e l'altro i passi.*
+[ЗАГОЛОВОК: Amicitia senza giouamento .]
+[ИНИЦИАЛ: D]Onna, rozzamente vestita, che tenga con la mano vn nido , con alcuni rondini dentro,& d'intorno à detto nido volino due, ò tre rondini . Quest'vcello è all'huomo domestico , & famigliare , & più de gl'altri prende sicurtà delle case di ciascuno , ma senza vtile , non si domesti-
+
+Колонтитул: DI CESARE RIPA. 17
+Кустод: cando
+Сигнатура: B
+Маргиналии:
+
+## Скан 0043 · с. 18
+
+cando giamai , & auuicinandosi il tempo di Primauera , entra in casa per proprio interesse , come i finti amici , che solo nella Primauera delle prosperità s'auuicinano , & soprauenendo l'Inuerno de'fastidij abbandonano gl'amici,fuggendo in parte di quiete , con tal similitudine volendo Pittagora mostrare , che si hauessero a tener lontani gl' amici finti , e ingrati,fece leuare da i tetti della casa tutti i nidi delle rondini.
+[ЗАГОЛОВОК: AMMAESTRAMENTO.]
+[ИНИЦИАЛ: H]VOMO d'aspetto magnifico , & venerabile , con habito longo , e ripieno di magnanima grauità, con vno specchio in mano,intorno al quale sarà vna cartella con queste parole . INSPICE,CAVTVS ERIS.
+L'Ammaestramento è l'essercitio , che si fa per l'acquisto d'habiti virtuosi , ò di qualità lodeuoli , per mezo ò di voce , ò di scrittura, & si fa di aspetto magnifico , perche gl'animi nobili soli facilmente s'impiegano a i fastidij,che vanno auanti alla virtù . Il vestimento longo , & continuato , mostra , che al buon habito si ricerca continuato essercitio,e lo specchio ci da intendere, che ogni nostra attione deue esser calcolata,& compassata con l'attioni de gl'altri , che in quella stessa cosa siamo vniuersalmente lodati , come dichiara il motto medesimo.
+[ЗАГОЛОВОК: AMOR DI VIRTV.]
+[ИНИЦИАЛ: V]N fanciullo ignudo , alato , in capo tiene vna ghirlanda d'alloro , & tre altre nelle mani , perche tra tutti gl'altri amori,quali variamente da i Poeti si dipingono , quello della virtù tutti gli altri supera di nobiltà , come la virtù istessa è più nobile di ogn'altra cosa , & si dipinge con la ghirlanda d'alloro, per segno dell'honore che si deue ad essa virtù, Et per mostrare che l'amor d'essa non è corruttibile , anzi come l'alloro sempre verdeggia, & come corona, ò ghirlanda ch'è di figura sferica non ha giamai alcun termine . Si può ancor dire,che la ghirlanda della testa significhi la Prudenza, & l'altre virtù Morali, ò Cardinali, che sono Giustitia , Prudenza, Fortezza, e Temperanza , & per mostrare doppiamente la virtù con la figura circolare , & con il numero ternario , che è perfetto delle corone .
+[ЗАГОЛОВОК: AMORE VERSO IDDIO.]
+[ИНИЦИАЛ: H]VOMO che stia riuerente con la faccia riuolta verso il Cielo,quale additi con la sinistra mano,e con la destra mostri il petto aperto.
+[ЗАГОЛОВОК: Amor del prossimo .]
+[ИНИЦИАЛ: H]Vomo vestito nobilmente , che gli stia a canto vn pelicano con li suoi figliuolini , li quali stieno in atto di pigliare con il becco il sangue ch'esce d'vna piaga , che detto pelicano si fa con il proprio becco in mezo il petto , & con vna mano mostri di solleuar da terra vn pouero, & con l'altra gli porga denari , secondo il detto di Christo nostro Signore nell'Euangelio.
+[ЗАГОЛОВОК: Amor di se stesso.]
+[ИНИЦИАЛ: S]I dipingerà secondo l'antico vso Narciso , che si specchia in vn fonte , perche amar se stesso nõ è altro,che vagheggiarsi tutto nell'opere proprie con sodisfattione,& con applauso . Et ciò è cosa infelice, e degna di
+
+Колонтитул: 18 ICONOLOGIA
+Кустод: riso,
+Сигнатура: 
+Маргиналии:
+
+## Скан 0044 · с. 19
+
+[ЗАГОЛОВОК: AMOR DI VIRTV.]
+[ГРАВЮРА: без подписи]
+riso,quanto infelice , & ridicolosa fu da i poeti antichi finta la fauola di Narciso , però disse l'Alciato.
+*Si come rimirando il bel Narciso,*
+*Nelle chiar'onde il vago suo sembiante*
+*Lodando hor i begli occhi,hor il bel viso,*
+*Fu di se stesso micidiale amante,*
+*Così souente auuien,che sia deriso*
+*L'huom,che sprezzãdo altrui si ponga inãte*
+*Con lodi amor souerchio di se stesso,*
+*E vanitade,e danno,e biasmo espresso.*
+[ЗАГОЛОВОК: AMORE.]
+*Scritto da Seneca nella Tragedia d'Ottauia , e trasportato in lingua nostra così.*
+[ИНИЦИАЛ: L]*'Error de ciechi,e miseri mortali*
+*Per coprir il suo stolto , e van desio,*
+*Finge che amor sia Dio ;*
+*Si par,che del suo inganno si diletti,*
+*In vista assai piaceuole, ma rio*
+
+Колонтитул: DI CESARE RIPA. 19
+Кустод: Tanto
+Сигнатура: B2
+Маргиналии:
+
+## Скан 0045 · с. 20
+
+*Tanto, che gode sol de gl'altrui mali*
+*C'habbia à gl'homeri l'ali*
+*Le mani armate d'arco, e di saette,*
+*E in breue face astrette*
+*Porti le fiamme, che per l'vniuerso*
+*Và poi spargendo si, che del suo ardore*
+*Resta acceso ogni core,*
+*E che dall'vso human poco diuerso*
+*Di Volcan'e di Venere sia nato*
+*E del Ciel tenga il più sublime stato.*
+*Amor é vitio della mente insana;*
+*Quando si muoue dal suo proprio loco,*
+*L'animo scaldi, è nasce ne verd'anni*
+*All'età, che assai puó, ma vede poco*
+*L'otio il nodrisce, e la lasciuia humana,*
+*Mentre che và lontana*
+*La ria fortuna con suoi graui danni,*
+*Spiegando i tristi vanni,*
+*E la buona, e felice stà presente*
+*Porgendo ciò che tien nel ricco seno :*
+*Ma se questa vien meno ,*
+*Onde il cieco desio al mal consente*
+*Il fuoco , che ardea pria, tutto s'ammorza,*
+*E tosto perde amor ogni sua forza .*
+[ЗАГОЛОВОК: Amor di Fama.]
+[ИНИЦИАЛ: V]N fanciullo nudo coronato di laoro con i suoi rami , & bacche, hauerà nella destra mano in atto di porgere la corona Ciuica , & nella sinistra la corona Obsidionale , & sopra vn piedestallo vicino à detta figura, vi saranno distintamente quelle corone , che vsauano i Romani in segno di valore, cioè la Murale, la Castrense, & la Nauale .
+Racconta A. Gellio , che la corona trionfale d'oro , la quale si daua in honore del trionfo al Capitano , ò all' Imperatore fu anticamente di lauoro , & l'obsidionale di gramigna, & si daua à quelli solamente , che in qualche estremo pericolo hauessero saluato tutto l'esercito,ò s'hauessero leuato l'esercito da tornò . La corona Ciuica era di quercia,& gl'antichi coronauano di quercia quasi tutte le statue di Gioue , quasi che questa fusse segno di vita , & i Romani soleuano dare la ghirlanda di quercia à chi hauesse in guerra difeso da morte vn Cittadino Romano, volendo dare l'insegna della vita à chi era altrui cagione di viuere . Soleuano ancora fare questa ghirlanda d'ilice per la similitudine di detti arbori . La corona Murale era quella, che si daua al Capitano, ouero al soldato , che era stato il primo a montare su le mura del nemico . La corona Castrense si daua a chi fusse prima d'ogn'altro montato dentro i bastioni , & alloggiamẽti de'nemici. La Nauale si daua a colui, che era il primo a montare su l'armata nemica . & queste tre si faceuano d'oro, & la Murale era con certi merli fatti a simiglianza delle mura , oue era asceso . La Castrense era fatta nella cima a guisa d'vn bastione . La Nauale haueua per ornamenti i segni de rostri delle naui , & questo è quanto bisognaua scriuere in tal proposito per commodità de'Pittori .
+[ЗАГОЛОВОК: ANNO.]
+[ИНИЦИАЛ: H]VOMO di mezza età con l'ale a gl'omeri,col capo,il collo,la barba, & i capelli pieni di neue,e giaccio. Il capo , & i fianchi rossi , & adorni di varie spighe di grano , le braccia verdi , & piene di più sorti di fiori , le coscie , & le gambe cõ gratia coperte di grappi , & frondi d'vue. In vna mano terrà vn serpe riuolto in giro , che si tengha la coda in bocca, & nell'altra hauerà vn chiodo .
+
+Колонтитул: 20 ICONOLOGIA
+Кустод: Se
+Сигнатура: 
+Маргиналии:
+
+## Скан 0046 · с. 21
+
+Si dipinge alato con l' autorità del Petrarca nel trionfo del tempo,oue dice .
+*Che volan l'hore , i giorni , gl'anni , e i mesi.*
+L' anno , secondo l'vso commune , comincia di Gennaio , quando il giaccio , & le neui sono grandissime , & perciò gli si pone la neue in capo , & perche la Primauera è adorna d ogni sorte di fiori , e d'herbe , & le cose in quel tempo fatte cominciano in vn certo modo à suegliarsi, & tutti fanno più viuacemente le loro operationi,però se gl'adornano le braccia nel modo sopradetto.
+L'Estate per esser caldi grandissimi , & le biade tutte mature , si rappresenta col petto , & i fianchi rossi , & con le spighe.
+L'vue nelle gambe , mostrano l'Autunno , che è l'vltima parte dell'anno . Il serpe posto in circolo , che morde la coda è antichissima figura dell'anno , percioche l'anno si riuolge in se stesso , & il principio di vn anno consuma il fine dell' altro , si come per quel serpe ridotto in forma di circolo si rode la coda ; onde Virg.nel 2.della Georg.così disse.
+*Fronde nemus agricolis labor actus in orbẽ,*
+*Atq;in se sua per vestigia voluitur annus .*
+Scriue Festo Pompeo , che gl'antichi Romani ficcauano ogn'anno nelle mura de i tempij vn chiodo , & dal numero di quei chiodi poi numerauano gl'anni , & però segno dell'anno si potrà dire che siano i chiodi.
+[ЗАГОЛОВОК: Anno.]
+[ИНИЦИАЛ: H]Vomo maturo , alato , per la ragione detta di sopra , sopra vn carro con quattro caualli bianchi, guidato dalle quattro stagioni,che sono parte dell'anno,le quali si dipingeranno cariche de' frutti , secondo la diuersità de'tempi.
+[ЗАГОЛОВОК: ANIMA RAGIONEVOLE E BEATA.]
+[ИНИЦИАЛ: D]ONZELLA gratiosissima , hauerà il volto coperto con vn finissimo , e trasparente velo, il vestimento chiaro , & lucente , à gl'homeri vn paro d'ale , & nella cima del capo vna stella .
+Benche l'anima , come si dice da' Teologi,sia sustanza incorporea , & immortale,si rappresenta nondimeno in quel meglior modo,che l'huomo legato à quei sensi corporei con l' imaginatione,la può comprendere , & non altrimenti,che si sogli rappresentare Iddio , & gl' Angeli , ancorche siano pure sustanze incorporee .
+Si dipinge donzella gratiosissima , per esser fatta dal Creatore , che è fonte d'ogni bellezza , & perfettione,à sua similitudine.
+Se gli fa velato il viso per dinotare , che ella è , come dice S. Agostino nel lib.de definit.anim.sustanza inuisibile à gl'occhi humani , e forma sustantiale del corpo,nel quale ella non è euidente , saluo che per certe attioni esteriori si comprende .
+Il vestimento chiaro , & lucente è per dinotare la purità , & perfettione della sua essenza .
+Se le pone la stella sopra il capo , essendo che gl'Egitij significassero cõ la stella l'immortalità dell'anima , come riferisce Pierio Valeriano nel lib.44.de'suoi Ieroglifici.
+
+Колонтитул: DI CESARE RIPA. 21
+Кустод: L'ali
+Сигнатура: B3
+Маргиналии:
+
+## Скан 0047 · с. 22
+
+[ЗАГОЛОВОК: ANIMA RAGIONEVOLE E BEATA.]
+[ГРАВЮРА: без подписи]
+L'ali à gl'homeri denotano cosi l'agilità, e spiritualità sua , come anco le due potenze intelletto,e volontà .
+[ЗАГОЛОВОК: Anima dannata.]
+[ИНИЦИАЛ: O]Ccorrendo spesse volte nelle tragedie , & rappresentationi di casi seguiti , & finti , si spirituali come profani,introdurre nel palco l'anima di alcuna persona, fa mestiero hauer luce, come ella si debba visibilmente introdurre.Per tanto si dourà rappresentare in forma, & figura humana,ritenendo l'effigie del suo corpo . Sarà nuda, o da sottilissimo & trasparente velo coperta , come anco scapigliata, & il colore della carnagione di lionato scuro,& il velo di color negro .
+L'anima dal corpo separata,essendo spirituale,& incorporea, non ha
+
+Колонтитул: 22 ICONOLOGIA
+Кустод: dubbio,
+Сигнатура: 
+Маргиналии:
+
+## Скан 0048 · с. 23
+
+dubbio , che non gli conuiene per se stessa figura , & formatione , & altre qualità , che alla materia solamente stanno attaccate , tuttauia douendo questa rappresentatione farsi obietto de sensi corporali, siamo astretti di proporcela auanti sotto forma , medesimamente corporea , & accomodare ancora la cosa intesa al nostro concetto . dunque se gli da la figura humana con quella licenza,con la quale ordinariamẽte si dipingono ancora gl'Angioli,& perche l'anima da forma al corpo,non si può imaginare,che sia d'altra figura ; se bene sappiamo ella,come si è detto di sopra , non essere da questi termini materiali circonscritti . Riterrà dunque l'effigie del suo corpo per essere riconosciuta , & per accostarsi à quello , che scriuono diuersi Poeti , tra gl'altri Virgilio nel 6. Quando fa ch'Enea vadi nell'Inferno , e riconosca molti di quelli , c'hauea cognitione in questa vita , & il Dante nel cap. 3. dell'Inferno.
+*Poscia ch' io vi hebbi alcun riconosciuto .*
+Dicesi anco meglio conoscerla,se gli habbia à dare altri segnali della sua conditione, perche taluolta occorrerà rappresentarla con diuersi accidenti , come per esempio , ferita , ò in gloria , ò tormentata , &c. & in tal caso si qualificherà in quella maniera , che si conuiene allo stato , & conditione sua .
+Dipingesi ignuda per essere essa per sua natura sciolta di ogni impedimento corporeo , onde il Petrarca nella canzone Italia mia, così disse. Che l'alma ignuda , & sola . Et in altra canzone il principio della quale: Quando il suaue mio fido conforto . Seguita , & dice : Spirto ignudo, &c. Et nel trionfo della morte cap. 1. Ch'è hoggi nudo spirto, &c.
+Li capelli sparsi giù per gl'homeri non solo dimostrano l' infelicità , & miseria dell'anime dannate , ma la perdita del ben della ragione, & dello intelletto.onde Dante nel cap. 3.dell'inferno così dice.
+*Noi sem venuti al luogo, ou'io t'hò detto,*
+*Che vedrai le genti dolorose,*
+*C'hanno perduto il ben dell'intelletto.*
+Il colore della carnagione,& del velo che la circonda , significa la priuatione della luce , & gratia diuina . Però disse Dante nel cap.3.parlando della forma,& sito dell'inferno,che alla porta di quello vi sia scritto.
+*Lassate ogni speranza ò voi,ch'entrate.*
+[ЗАГОЛОВОК: ARCHITETTVRA.]
+[ИНИЦИАЛ: D]ONNA di matura età con le braccia ignude , & con la veste di color cangiante, tenga in vna mano l'archipendolo,& il compasso con vn squadro , nell'altra tenga vna carta, doue sia disegnata la pianta d'vn palazzo con alcuni numeri à torno.
+Dice Vitruuio, nel principio dell'opera sua,che l'Architettura è scienza , cioè cognitione di varie cognitioni ornata , per mezzo della quale tutte l'opere delle altre arti si perfettionano . Et Platone diceua , che gli architetti sono soprastanti à quelli, che l'esercitano nell'artifitij, talche è suo proprio offitio fra l'arti d'insegnare , dimostrare , distinguere, descriuere , limitare , giudicare , & apprendere l'altre il modo da essa . Però è
+
+Колонтитул: DI CESARE RIPA. 23
+Кустод: sola
+Сигнатура: B4
+Маргиналии:
+
+## Скан 0049 · с. 24
+
+sola partecipe di documenti d'Aritmetica , & di Geometria , dalle quali; come ancor disse Daniel ne suoi Commentarij , ogn'artificio prende la sua nobiltà . Per questa cagione tiene la squadra , & il compasso, istromenti della Geometria, & i numeri, che appartengono all'Aritmetica, si fanno intorno alla pianta d'Architettura,che essa tiene nell' altra mano. L'archipendolo , ouero perpendicolo ci dichiara , che il buono Architetto deue hauer sempre l'occhio alla consideratione del centro , dal quale si regola la positione durabile di tutte le cose,che hanno grauità, come si vede chiaro in tal professione per il bello ingegno del sig. Caualiero Domenico Fontana,& di Carlo Maderno,huomini di gran giuditio,& di valore,lassãdo da parte molt'altri,che son degni di maggior lode della mia. Et si dipinge d'età matura , per mostrare l'esperienza della virilità con l'attezza dell'opere difficili ,& la veste di cangiante è la concorde varietà delle cose, che diletta in quest'arte all'occhio, come all'orecchio dilettano le voci sonore nell'arte musicale .
+Le braccia ignude mostrano l'attione, che fà all'Architettura ritenere il nome d'arte, ò d'artificio .
+[ЗАГОЛОВОК: ARDIRE MAGNANIMO & generoso.]
+[ИНИЦИАЛ: V]N giouine di statura robusta , e fiera in viso, hauerà il destro braccio armato col quale cacci per forza con gagliarda attitudine la lingua ad vn gran leone , che gli stia sotto le ginocchia . Il restante del corpo sarà disarmato, & in molte parti ignudo . Il che allude al generoso ardire di Lisimaco figliuolo d'Agatocle nobile di Macedonia, & vn de successori d'Alessandro Magno, che per hauer dato il veleno al suo Maestro Callistene filosofo, dimandatoli da lui, per leuarsi dalla miseria della prigionia , in cui l'haueua confinato Alessandro ; fù dato à diuorare ad vn leone, ma con l'ingegno superò la fiera,& confidatosi nella sua forza , il destro braccio, che egli secretamente s'era armato, cacciò in bocca al leone , & dalla gola li trasse per forza la lingua,restandone la fiera subitamente morta . Per lo quale fatto fu da indi in poi nel numero de più cari del Re Alessandro , & ciò gli fu scala per salire al gouerno delli stati,& all'eternità della gloria . Volendo rappresentare questa figura à cauallo in qualche mascherata, o in altro,se gli farà la lingua in mano,& il leone morto sopra il cimiero .
+[ЗАГОЛОВОК: Ardire vltimo, & necessario.]
+[ИНИЦИАЛ: H]Vomo armato di tutte le armi, ò sia a cauallo,ò a piedi co la spada nella destra mano, intorno al quale vi sarà questo motto .
+PER TELA PER HOSTES.
+Nella sinistra mano vno scudo , oue stia sculpito , ò depinto vn Caualiero , che corra à tutta briglia contro l'arme lanciate da i nemici con animo ò di scampare combattendo , ò di restar morto valorosamente frà i nemici . Et intorno all orlo di detto scudo vi sarà scritto quel verso di Virgilio : *Vna salus victis, nullam sperare salutem .*
+
+Колонтитул: 24 ICONOLOGIA
+Кустод: Que-
+Сигнатура: 
+Маргиналии:
+
 ## Скан 0050 · с. 25
 
 [ЗАГОЛОВОК: ARDIRE MAGNANIMO, E GENEROSO.]

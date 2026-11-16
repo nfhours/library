@@ -2,6 +2,55 @@
 
 | Скан | Заголовки на странице | Бегущий | Гравюры | Статья (Tavola id) | Способ |
 |---|---|---|---|---|---|
+| 0001 |  |  |  | — | нет рамки |
+| 0002 |  |  |  | — | нет рамки |
+| 0003 |  |  |  | — | нет рамки |
+| 0004 |  |  |  | — | нет рамки |
+| 0005 |  |  |  | — | нет рамки |
+| 0006 | DEL SIG. OTTAVIO CAPOCCI.; D' ACADEMICO INTRONATO. |  |  | — | нет рамки |
+| 0007 | THADÆI DONNOLÆ HYSPELLATIS |  |  | — | нет рамки |
+| 0008 | PROEMIO; A' LETTORI. |  |  | r509 | нет рамки |
+| 0009 |  |  |  | — | нет рамки |
+| 0010 |  |  |  | — | нет рамки |
+| 0011 |  |  |  | — | нет рамки |
+| 0012 |  |  |  | — | нет рамки |
+| 0013 |  |  |  | — | нет рамки |
+| 0014 |  |  |  | — | нет рамки |
+| 0015 |  |  |  | — | нет рамки |
+| 0016 |  |  |  | — | нет рамки |
+| 0017 | TAVOLA DELLE FIGVRE; CHE SI DESCRIVENO NELL'OPERA. |  |  | — | нет рамки |
+| 0018 |  |  |  | — | нет рамки |
+| 0019 |  |  |  | — | нет рамки |
+| 0020 |  |  |  | — | нет рамки |
+| 0021 |  |  |  | — | нет рамки |
+| 0022 |  |  |  | — | нет рамки |
+| 0023 |  |  |  | — | нет рамки |
+| 0024 |  |  |  | — | нет рамки |
+| 0025 | IL FINE DELLA TAVOLA. |  |  | — | нет рамки |
+| 0026 | ABONDANZA. |  | 0026_1 | r1 | заголовок перед гравюрой |
+| 0027 | Abondanza.; Abondanza Maritima.; Abondanza Maritima .; Abondanza.; ACCIDIA. |  |  | r1, r2 | нет рамки |
+| 0028 | ACCIDIA. |  | 0028_1 | r2 | заголовок перед гравюрой |
+| 0029 | Accidia .; Accidia .; ACQVISTO CATTIVO.; ADOLESCENZA. |  |  | r2, r3, r4 | нет рамки |
+| 0030 | ADVLATIONE. |  |  | r5 | нет рамки |
+| 0031 | ADVLATIONE. |  | 0031_1 | r5 | заголовок перед гравюрой |
+| 0032 | Adulatione .; AFFANNO.; AFFANNO, CORDOGLIO, RAMMARICO. |  |  | r5, r6, r7 | нет рамки |
+| 0033 | AFFABILITA, PIACEVOLEZZA, AMABILITA.; AGILITA; Del Reuerendissimo P. Fr. Ignatio Danti.; Agilità .; STVDIO DELL AGRICOLTVRA; nella medaglia di Gordiano . |  |  | r8, r9, r10, r604 | нет рамки |
+| 0034 | AGRICOLTVRA. |  | 0034_1 | r11 | заголовок перед гравюрой |
+| 0035 | Agricoltura .; Agricoltura .; ALLEGREZZA. |  |  | r11, r12 | нет рамки |
+| 0036 | ALLEGREZZA.; Allegrezza.; Allegrezza d'amore . |  | 0036_1 | r12 | заголовок перед гравюрой |
+| 0037 | Allegrezza, Letitia, & Giubilo.; Allegrezza.; AMARITVDINE.; AMBITIONE. |  |  | r14, r12, r15, r16 | нет рамки |
+| 0038 | Ambitione . |  |  | r16 | нет рамки |
+| 0039 | AMBITIONE. |  | 0039_1 | r16 | заголовок перед гравюрой |
+| 0040 | AMPIEZZA DELLA GLORIA.; AMICITIA. |  |  | r17, r18 | нет рамки |
+| 0041 | AMICITIA; Amicitia . |  | 0041_1 | r18 | заголовок перед гравюрой |
+| 0042 | Amicitia.; Amicitia.; Amicitia senza giouamento . |  |  | r18, r19 | нет рамки |
+| 0043 | AMMAESTRAMENTO.; AMOR DI VIRTV.; AMORE VERSO IDDIO.; Amor del prossimo .; Amor di se stesso. |  |  | r20, r21, r22, r23, r24 | нет рамки |
+| 0044 | AMOR DI VIRTV.; AMORE. |  | 0044_1 | r21 | заголовок перед гравюрой |
+| 0045 | Amor di Fama.; ANNO. |  |  | r26, r27 | нет рамки |
+| 0046 | Anno.; ANIMA RAGIONEVOLE E BEATA. |  |  | r27, r28 | нет рамки |
+| 0047 | ANIMA RAGIONEVOLE E BEATA.; Anima dannata. |  | 0047_1 | r28 | заголовок перед гравюрой |
+| 0048 | ARCHITETTVRA. |  |  | r30 | нет рамки |
+| 0049 | ARDIRE MAGNANIMO & generoso.; Ardire vltimo, & necessario. |  |  | r31, r32 | нет рамки |
 | 0050 | ARDIRE MAGNANIMO, E GENEROSO. |  | 0050_1 | r31 | заголовок перед гравюрой |
 | 0051 | ARME; ARMONIA. |  | 0051_1 | r34 | заголовок перед гравюрой |
 | 0052 | ARROGANZA.; ARITMETICA.; Aritmetica.; ARTE. |  |  | r35, r36, r37 | нет рамки |

@@ -4,6 +4,13 @@
 
 | Скан | Стр. | Напечатано | Исправлено | Тип опечатки |
 |---|---|---|---|---|
+| 0002 | Titelblatt | Faeij | Facij | перепутанная буква |
+| 0012 | Proemio_5 | perehe | perche | перепутанная буква |
+| 0013 | Proemio_6 | eome | come | перепутанная буква |
+| 0014 | Proemio_7 | cra | era | перепутанная буква |
+| 0014 | Proemio_7 | dictinte | distinte | перепутанная буква |
+| 0023 | Tavola_08 | Perseucranza | Perseueranza | перепутанная буква |
+| 0038 | 13 | Annone | Ammone | перестановка/замена букв |
 | 0063 | 38 | couosciuta | conosciuta | перепутанная буква |
 | 0067 | 42 | qnel | quel | перепутанная буква |
 | 0078 | 53 | dannno | danno | лишняя буква |
