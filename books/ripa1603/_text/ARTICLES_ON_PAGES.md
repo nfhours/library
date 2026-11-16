@@ -202,3 +202,23 @@
 | 0247 | INCOSTANZA.; INDITIO D'AMORE.; INDVSTRIA. |  |  | r318, r319, r320 | нет рамки |
 | 0248 | INFAMIA. |  |  | r306 | нет рамки |
 | 0249 | INFERMITA.; INFORTVNIO.; INGANNO. |  |  | r321, r322, r323 | нет рамки |
+| 0250 | Inganno.; Inganno. | INGANNO. | 0250_1 | r323 | бегущий заголовок |
+| 0251 | INGIVRIA.; Ingiustitia. |  |  | r324, r325 | нет рамки |
+| 0252 | Ingiustitia. | INGIVSTITIA. | 0252_1 | r325 | бегущий заголовок |
+| 0253 | INGORDIGIA.; Ingordigia.; Ingordigia.; INGRATITVDINE.; Ingratitudine. |  |  | r326, r327 | нет рамки |
+| 0254 | Ingratitudine.; INIMICITIA. |  |  | r327, r328 | нет рамки |
+| 0255 | INIQVITA.; INQVIETVDINE.; Inquietudine d'animo.; IRRESOLVTIONE. | INIQVITA. |  | r329, r330, r331, r332 | нет рамки |
+| 0256 | INNOCENZA. | IRRESOLVTIONE. | 0256_1 | r332 | бегущий заголовок |
+| 0257 | Innocenza, ò Purità.; INVBIDIENZA. |  |  | r334, r335 | нет рамки |
+| 0258 | INSIDIA.; Insidia.; INSTABILITA.; Instabilità, ouero Incostanza.; INTELLETTO. |  |  | r336, r596, r337, r338 | нет рамки |
+| 0259 | INTELLETTO.] [ГРАВЮРА: без подписи |  | 0259_1 | r338 | заголовки страницы (неоднозначно) |
+| 0260 | INTELLIGENZA.; Intelligenza.; INTREPIDITA ET COSTANZA. |  |  | r339, r341, r340 | нет рамки |
+| 0261 | INVENTIONE. | INTELLIGENZA. | 0261_1 | r339, r341 | бегущий заголовок |
+| 0262 | INVIDIA. | INTREPIDITA ET COSTANZA. | 0262_1 | r340 | бегущий заголовок |
+| 0263 | Inuidia.; Inuidia.; Inuidia. |  |  | r343 | нет рамки |
+| 0264 | Inuidia.; Inuidia, dell'Alciato.; INVOCATIONE.; IRA. |  |  | r343, r344, r345 | нет рамки |
+| 0265 |  | IRA. | 0265_1 | r345 | бегущий заголовок |
+| 0266 | Ira .; INTERESSE PROPRIO. |  |  | r345, r346 | нет рамки |
+| 0267 | Interesse .; ITALIA CON LE SVE PROVINCIE, ET PARTI DE L' ISOLE. |  |  | r347 | нет рамки |
+| 0268 |  | ITALIA CON LE SVE PROVINCIE, E PARTI DE L' ISOLE. | 0268_1 | r347 | бегущий заголовок |
+| 0269 |  |  |  | — | нет рамки |

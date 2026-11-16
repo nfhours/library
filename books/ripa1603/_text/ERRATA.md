@@ -21,3 +21,5 @@
 | 0217 | 196 | piccla | picciola | прочее |
 | 0243 | 222 | dell'intelto | dell'intelletto | прочее |
 | 0244 | 223 | souo | sono | перепутанная буква |
+| 0251 | 230 | iugiuria | ingiuria | перепутанная буква |
+| 0254 | 233 | sosteguo | sostegno | перепутанная буква |

@@ -4671,3 +4671,463 @@ Il Cornucopia riuolto, & i piedi scalzi, dimostrano la priuatione del bene, & d'
 Кустод: INGAN-
 Сигнатура: 
 Маргиналии:
+
+## Скан 0250 · с. 229
+
+[ГРАВЮРА: без подписи]
+[ЗАГОЛОВОК: Inganno.]
+[ИНИЦИАЛ: H]Vomo coperto da vna pelle di capra, in modo, che à pena gli si veda il viso. In mano tenga vna rete, con alcuni sarghi pesci, di forma simili all'orata dentro d'essa.
+Così lo scriue l'Alciato, & ne dà ragione con versi latini. Il concetto dice così.
+*Ama il sargo la capra; e'l Pescatore,* *, Conuien che preso à le sue insidie reste;*
+*Che ciò comprende, la sua pelle veste;* *Così la meretrice con inganni*
+*Onde ingannato il misero amatore* *Prende l'amante cieco à proprij danni.*
+[ЗАГОЛОВОК: Inganno.]
+[ИНИЦИАЛ: H]Vomo vestito di giallo, nella mano destra tenga molti hami, & nella sinistra vn mazzo di fiori, dal quale esca vn serpe.
+
+Колонтитул: DI CESARE RIPA. 229 / INGANNO.
+Кустод: Si
+Сигнатура: P
+Маргиналии:
+
+## Скан 0251 · с. 230
+
+Si dipinge con gli hami in mano,come quelli,che coperto dall'esca pungono,& tirano pungendo la preda, come l'ingannatore, tirando gl'animi semplici doue ei desidera, li fà incautamente precipitare, Onde Horatio de Cenipeta così dice
+*Occultum visus decurrere piscis ad hamum.*
+Il mazzo di fiori co'l serpe in mezzo, significa l'odor finto della bontà, donde esce il veleno vero de gli effetti nociui.
+[ЗАГОЛОВОК: INGIVRIA.]
+[ИНИЦИАЛ: D]ONNA giouane, d'aspetto terribile, con gl'occhi infiammati,vestita di rosso, con la lingua fuori della bocca, la quale sarà simile à quella del serpe, & dall'vna, & l'altra parte hauerà molta saliua. In mano tenga vn mazzo di spine, & sotto i piedi vna bilancia, Aristotile nella sua Rettorica dice, che è proprio de giouani, per l'abondanza del sangue, & per lo calor naturale esser arditi, & confidenti nell'ingiuriare altrui, come anco, perche amando i giouani l'eccellenza,vogliano soprastare à gli altri, nel modo, che possono, & però giouane l'ingiuria si rappresenta,col brutto aspetto, & gl'occhi infiammati mostrano,che l'ingiuria nasce da perturbatione d'animo, la quale perturbatione si mostra particolarmente nel viso: la lingua simile à quella del serpe, è segno, che l'ingiuria consiste in gran parte nelle parole, le quali pungono, non altrimenti, che se fossero spine; sono segno ancora le bilancie sotto à i piedi, che ingiuria, è atto d'ingiustitia, dandosi altrui quei biasmi, che ò non si meritano,ò non si fanno.
+[ЗАГОЛОВОК: Ingiustitia.]
+[ИНИЦИАЛ: D]Onna vestita di bianco tutta macchiata, tenendo nella destra mano vna spada,& vn rospo nella sinistra; per terra vi saranno le tauole della legge rotte in pezzi, sarà cieca dall'occhio destro,& sotto alli piedi terrà le bilancie.
+Il vestimento bianco macchiato, dimostra non essere altro l'ingiustitia, che corrottione, & macchia dell'anima, per la inosseruanza della legge, la quale viene sprezzata,& spezzata dalli malfattori, & però si dipinge, con la tauola della legge, & con le bilancie al modo detto.
+Vede l'ingiustitia solo con l'occhio sinistro, perche non si fonda se non nelle vtilità del corpo, lasciando da banda quelle, che sono più reali, & perfette, & che si estendono a' beni dell'anima, la quale è veramente l'occhio dritto, & la luce megliore di tutto l'huomo.
+Il rospo il quale è segno d'auaritia, per la raggione detta altroue, c'insegna, che l'ingiustitia hà l'origine sua fondata, ne gl'interessi, & nel desiderio di commodità terrene, & però non è vn vitio solo, & particolare nella parte del vitio, mà vna maluagità,nella quale tutte le sceleraggini si contengono, & tutti i vitij si raccolgono.
+
+Колонтитул: 230 ICONOLOGIA
+Кустод: IN-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0252 · с. 231
+
+[ГРАВЮРА: без подписи]
+[ЗАГОЛОВОК: Ingiustitia.]
+[ИНИЦИАЛ: D]ONNA difforme, vestita di bianco, sparsa di sangue, con vn turbante in capo, all'vso de Barbari nella mano sinistra, tiene vna gran tazza d'oro, alla quale terrà gl'occhi riuolti, nella destra hauerà vna scimitarra, & per terra le bilancie rotte.
+Difforme si dipinge, perche l'Ingiustitia,onde il male vniuersale de Popoli,& le guerre ciuili souente deriuano,bruttissima si deue stimare.
+La scimitarra significa il giuditio torto; & il vestimento Barbaro la crudeltà, la veste bianca macchiata di sangue, significa la purità corrotta della giustitia, alla quale corrutela appartiene pure la tazza d'oro,hauendo gl'occhi,cioè la volontà, & il pensiero l'ingiusto Giudice per l'auaritia
+
+Колонтитул: DI CESARE RIPA. 231 / INGIVSTITIA.
+Кустод: ritia
+Сигнатура: P 2
+Маргиналии:
+
+## Скан 0253 · с. 232
+
+ritia riuolti, alla vaghezza dell'oro solamente perche non potendo insieme sostenere le bilancie, & la ragione, cadono, onde vengono calpestrate come se cosa fossero di minor prezzo.
+[ЗАГОЛОВОК: INGORDIGIA.]
+[ИНИЦИАЛ: D]ONNA vestita del color della ruggine, nella sinistra mano tenga vn Folpo, & à canto vi farà vn struzzo.
+L'Ingordigia propriamente detta, è vn disordinato appetito delle cose,che al nutrimento si appartengono,più vitioso di quello, che dimandiamo gola, ò Crapula, & si dipinge vestita del color della ruggine, perche diuora questa il ferro senza suo vtile, come l'ingordo ogni cosa trangugia senza gusto, al che appartiene ancora lo struzzo, che il ferro diuora, & digerisce.
+Il folpo,in Oro Apolline,significa il medesimo perche mancandogli i cibi si nudrisce della carne medesima.
+[ЗАГОЛОВОК: Ingordigia.]
+[ИНИЦИАЛ: D]Onna di brutto aspetto, vestita di color della ruggine,che vomiti il pasto per la bocca; tenga nella destra mano il pesce detto scaro,& nella sinistra mano vna lampreda, da Latini detta mustela marina ouero Hebrias.
+Il pesce scaro,à noi è incognito; perche dicono, che non si troua se non nel mare Carpaseo, & non esce quasi mai dal promontorio di Troade; dalli Scrittori, è tenuto pesce ingordissimo, perche solo ( secondo che riferisce Aristotile ) trà pesci osserua l'vso di caminare come gli animali quadrupedi, & si pasce dell'herbe, & ancora perche con molta auidità diuora tutti i pesci piccoli,che se gli fanno incontro per ingordigia, & poi li vomita per la satietà, & somiglia il suo corpo in gran parte à quello dell'orata.
+La lampreda, come dice Oro Egittio, partorisce per la bocca, & subito partorito,diuora quell'istessi suoi figliuoli, se non sono presti à fuggire.
+[ЗАГОЛОВОК: Ingordigia.]
+[ИНИЦИАЛ: D]Onna col ventre grosso, ilche significa ingordigia parasitica, & tenga in mano vn vaso di trasparente vetro,dentro al quale siano molte sanguisughe, ouero sanguattole, perche come la sanguisugha, posta à sorbire il sangue altrui non stacca mai per sua natura, finche non crepa; così gl'ingordi,non cessano mai fin che l'ingordigia istessa non gli affoga.
+[ЗАГОЛОВОК: INGRATITVDINE.]
+[ИНИЦИАЛ: D]ONNA vestita del colore della ruggine, tenga in seno vn serpente in modo di accarezzarlo;in capo haurà la testa dell'Ippopotamo,& il restante della pelle del detto animale gli seruirà per manto. Vedi in Oro Apolline.
+[ЗАГОЛОВОК: Ingratitudine.]
+[ИНИЦИАЛ: D]Onna vecchia, che nella man destra tiene due vnghie dell'Ippopotamo, altrimente cauallo del Nilo, per mostrare quanto sia cosa abomineuole l'ingratitudine: In Oro Apolline si legge,che gl'Antichi adoperauano
+
+Колонтитул: 232 ICONOLOGIA
+Кустод: rauano
+Сигнатура: 
+Маргиналии:
+
+## Скан 0254 · с. 233
+
+rauano ancora l'vnghie dell'Ippopotamo,& già la raggione si è detta nell'imagine dell'impietà: figurorno ancora gl'Antichi l'ingratitudine in Atheone,diuorato dalli proprij cani,onde nacque il prouerbio in Teocrito; *Nutri caues, vt te edant.*
+[ЗАГОЛОВОК: Ingratitudine.]
+[ИНИЦИАЛ: D]Onna vestita di edera, tenendo in vna mano due vipere, l'vno maschio, & l'altra femina, & il maschio tengha la testa in bocca della femina.
+Ingratitudine è propria malignità nell'animo rozzo, & vile, che rende l'huomo sconoscente de' benefitij verso Dio, e'l prossimo, siche scordando il ben presente, brama sempre il futuro con appetito disordinato.
+L'edera porta il significato dell'ingratitudine, perche quel medesimo albero, ò muro che gli è stato sostegno nell'andar in alto, & à crescere, ella alla fine in remuneratione di gratitudine, lo fà seccare, & cadere à terra.
+Significa questo medesimo la vipera, la quale per merito della dolcezza, che riceue ne' piaceri di Venere col compagno, bene spesso tenendo il suo capo in bocca, lo schiacca, & esso ne rimane morto: Et poi che mi souuiene vn sonetto à questo proposito, di M. Marco Antonio Cataldi, non m'incresce scriuerlo, per sodisfatione de' Lettori.
+*O di colpe, & d'errori albergo, & sede,* *Che non curi amistà, ne serui fede:*
+*Rubella al giusto, à la natura, à Dio,* *Tù lupo arpia, Grifon d'opre, e d'aspetto*
+*Peste infernal, morbo peruerso è rio,* *Tù di virtù, tù d'animo honorato*
+*Fecce, schiuma, fetor, macchia, è difetto,*
+*O di Pietà nemico, è di mercede,* *Tù sei con l'Auaritia à vn parto nato,*
+*Mostro à riceuer pronto, à dar restio,* *Fuggi dal pensier mio, non che dal petto,*
+*O di promesse, e beneficij oblio;* *Ch'è de vitij il peggior l'essere ingrato.*
+[ЗАГОЛОВОК: INIMICITIA.]
+[ИНИЦИАЛ: D]ONNA vestita di nero, piena di fiamme di fuoco, con la destra mano, in atto di minacciare,con la sinistra tiene vn anguilla, & in terra siano vn cane, & vna gatta, che si azzuffino insieme.
+Il vestimento nero,con le fiamme, significa l'ira mescolata, con la malinconia, che insieme fanno l'inimicitia durabile,laquale non è solo quell'ira,che hà nel profondo del core, fatte le radici con appetito di vendetta,in pregiuditio del prossimo, & che ciò si mostri per lo fuoco, & lo manifesta la definitione, oue si dice, l'ira essere vn feruor del sangue, intorno al core, per appetito di vendetta, & la malinconia,è dimandata da medici Atrabilis, però si può significare, nel color nero,& fà gli huomini recordeuoli dell'ingiurie.
+L'anguilla, il cane, & la gatta, dimostrano il medesimo effetto,essendo quella solita d'andar lontana da gli altri pesci, per inimicitia, come dice Oro Apolline, & questi insieme essendo in continuo contrasto naturalmente.
+
+Колонтитул: DI CESARE RIPA. 233
+Кустод: INI-
+Сигнатура: P 3
+Маргиналии:
+
+## Скан 0255 · с. 234
+
+[ЗАГОЛОВОК: INIQVITA.]
+[ИНИЦИАЛ: D]ONNA vestita di fiamme di fuoco, & fugga velocemente. Si dipinge in fuga, perche non è sicura in luogo alcuno, ogni cosa gli fà ombra,& ogni minimo auenimento la spauenta,generando il timore, il quale con la fuga si consiglia, & si risolue perpetuamente. È vestita di fuoco perche l'iniquità abbrugia l'anime peruerse, come il fuoco abbrugia i legni più secchi.
+[ЗАГОЛОВОК: INQVIETVDINE.]
+[ИНИЦИАЛ: D]ONNA giouane vestita di cangiante,che tenga vna girella di carta,come quella, che sogliono tenere i fanciulli, che girano al vento, perche tali sono gl'huomini inquieti, che non si fermano mai in vn proposito con stabilità, che perciò si veste anco di color cangiante.
+[ЗАГОЛОВОК: Inquietudine d'animo.]
+[ИНИЦИАЛ: D]Onna mesta,& in piedi,che con la destra mano tenghi vn core, sopra del quale vi sia vn tempo d'horologio,& con la sinistra vna banderola di queste che mostrano i venti.
+Si rappresenta con l'horologio, sopra il core, & con la banderola, come dicemmo,per dimostrare, che si come l'horologio,& la banderola di continuo sono in moto, così chi è inquieto dell'animo, mai non hà riposo, & gli conuiene esporsi à tutti i contrarij,che lo molestano.
+[ЗАГОЛОВОК: IRRESOLVTIONE.]
+[ИНИЦИАЛ: D]ONNA vecchia à sedere vestita di cangiante,cò vn panno nero auolto alla testa,& con ciascuna mano tenga vn coruo,in atto di cantare
+Irresoluti si dicono gl'huomini, che conoscendo la diuersità, & difficultà delle cose, non si risoluono à deliberare quello,che più conuengha, & però si rappresenta, che stia à sedere.
+Vestesi di cangiante, che mostra diuersi colori, come diuerse apparenze delle cose, che fanno gl'huomini irresoluti.
+Si dipinge vecchia, perche la vecchiezza per le molte esperienze fà gli huomini irresoluti nell'attioni. Onde conoscendosi molto più in questa età, che nell' altre, ragioneuolmente si dubita d'ogni cosa, & però non si và nell'attioni risolutamente come in giouentù.
+Gli si dà i Corui per ciascuna mano in atto di cantare, il qual canto è sempre Cras, Cras, così gl'huomini irresoluti, differiscono di giorno in giorno,quanto debbono con ogni diligenza operare,come dice Martiale.
+*Cras te victurum, cras dicis Posthume semper*
+*Dic mihi cras istud Posthume quando venit?*
+*Quàm longè cras istud, vbi est, aut vnde petendum?*
+*Nunquid apud Parthos, Armeniosq; latet?*
+*Iam cras istud habet Priami, vel Nestoris annos.*
+*Cras istud quanti, die mihi posset emi.*
+*Cras viues, hodie iam viuere Posthume serum est:*
+*Ille sapit quisquis Posthume vixit heri.*
+Il panno negro auolto alla testa,mostra l'oscurità, e confusione dell'Intellecto, per la varietà de'pensieri, i quali lo rendono irresoluto.
+
+Колонтитул: 234 ICONOLOGIA / INIQVITA.
+Кустод: IRRE-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0256 · с. 235
+
+[ГРАВЮРА: без подписи]
+[ЗАГОЛОВОК: INNOCENZA.]
+[ИНИЦИАЛ: V]ERGINELLA, vestita di bianco, in capo tiene vna ghirlanda di fiori, con vn'Agnello in braccio.
+Con la ghirlanda,& habito di Vergine si dipinge, per essere la mente, dell'innocente intatta,& immaculata: Però dicesi che l'innocenza è vna libera,& pura mente dell'huomo, che senza ignoranza pensi, & operi in tutte le cose con candidezza di spirito, & senza puntura di coscienza.
+L'Agnello significa l'innocenza, perche non hà nè forza, nè intentione di nuocere ad alcuno, & offeso non s'adira, nè s'accende à desiderio di vendetta, mà tolera patientemente, senza repugnanza, che gli si tolga, & la lana,& la vita;douẽdo così fare chi desidera d'assimigliarsi à Christo.
+
+Колонтитул: DI CESARE RIPA. 235 / IRRESOLVTIONE.
+Кустод: Qui
+Сигнатура: P 4
+Маргиналии:
+
+## Скан 0257 · с. 236
+
+*Qui coram tondente se obmutuit.* come dice nelle sacre lettere per essere nobilissimo lui l'idea dell'innocenza.
+[ЗАГОЛОВОК: Innocenza, ò Purità.]
+[ИНИЦИАЛ: G]Iouanetta coronata di Palma,& starà in atto di lauarsi ambe le mani in vn bacile posato sopra vn piedestallo, vicino al quale sia vn Agnello ouero vna pecora.
+L'innocenza, ouero Purità nell'anima humana, è come la limpidezza nell'acqua corrente d'vn viuo fiume. Et con la consideratione di questo rispetto, molto le conuiene il nome di Purità. Però gli Antichi, quando voleuano giurare d'essere innocenti di qualche sceleratezza, dalla quale si sentiuano incolpati, ouero voleuano dimostrare, che non erano meschiati di alcuna bruttura, soleuano nel cospetto del popolo lauarsi le mani, manifestando, con la mondezza di esse,& con la purità dell'acqua, la mondezza, & la purità della mente.
+Di quì nacque, che poi ne' Hieroglifici furono queste due mani, che si lauauano insieme, vsate da gl'Antichi, come racconta Pierio Valeriano nel libro trentacinque,& S. Cipriano nel libro de Liuore, ci esorta à ricordarsi sempre, perche chiami Christo la sua Plebe,& nomini il suo Popolo, adoperando il nome di pecore,volendo così auuertire, che l'Innocenza, & la purità Christiana si deue mantenere intatta, & inuiolabile.
+La Corona di palma da S. Ambrogio in quel luogo *Statura tva similis facta est palmæ*, è interpretata per l'innocenza, & purità, che ci è donata da Dio subito che siamo regenerati pe'l santissimo battesimo.
+[ЗАГОЛОВОК: INVBIDIENZA.]
+[ИНИЦИАЛ: D]ONNA vestita di rosso, con vn freno sotto à i piedi,& in capo con acconciatura di penne di Pauone, tenga la destra mano alzata per mostrare stabilità di proposito: In terra vi sia Aspide, il quale con vn orecchio prema la terra, & l'altro lo serri con la coda.
+L'Inubidienza non è altro, che vna transgressione volontaria de precetti diuini, ò de gl'humani.
+Il vestito rosso,e la mano alta conuengono alla pertinacia,la quale è cagione d'inubidienza: il freno dimostra che l'amore delle proprie passioni conduce altrui à volontario dispregio delle leggi,& de comandamenti, a' quali siamo tenuti obedire per giustitia,& che però si dimandano metaforicamente, freno de Popoli.
+Hà il capo adorno di penne di pauone, perche l'inubidienza nasce dalla troppa presontione, & superbia.
+L'Aspide si pone per l'inubidienza, perche si attura gl'orecchi per non sentire,& vbidire l'incantatore,che per forza de' suoi incanti lo chiama, come testifica Dauid nel Salmo 57. dicendo *Furor illis secundum similitudinem serpentis, sicut Aspidis surdæ, & obturantis aures suas, qua non exaudit vocem incantantium, & venefici incantantis sapienter.*
+
+Колонтитул: 236 ICONOLOGIA
+Кустод: INSI-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0258 · с. 237
+
+[ЗАГОЛОВОК: INSIDIA.]
+[ИНИЦИАЛ: D]Onna armata,con vna volpe per cimiero,cinta intorno di folta nebbia,terrà vn pugnal nudo nella destra,e nella sinistra tre dardi, sarà vna serpe in terra fra l'herbe verde, che porghi in fuori alquanto la testa.
+L'insidia è vn'attione occulta fatta per offender il prossimo,e però s'arma,mostrãdo l'animo apparecchiato à nocer col pugnale,e co'dardi,cioè lontano,e vicino,hà per cimiero vna volpe, perche l'astutie son i sui principali pensieri,la nebbia è la secretezza, & gl'occulti adornamenti ch'assicurano il passo all'Insidia.
+Il serpe somiglia l'insidioso,secondo quel commun detto: *Latet anguis in herba*, interpretato da tutti gli espositori in simil proposito.
+[ЗАГОЛОВОК: Insidia.]
+[ИНИЦИАЛ: D]Onna armata,nel sinistro braccio tenga vno scudo,& con la destra vna rete.Da gl'antichi fu tenuta per significato dell'insidia la rete. Et Pittaco vno de'sette sauij della Grecia, douendo venir à battaglia con Frinone huomo di gran forza,& Capitano de gli Atheniesi, portò vna rete sotto vno scudo,la quale quando gli parue hora opportuna,gittò adosso il detto Frinone, & lo vinse.
+[ЗАГОЛОВОК: INSTABILITA.]
+[ИНИЦИАЛ: D]ONNA vestita di molti colori, con la man destra s'appoggi à vna canna con le foglie,e sotto i piedi tenga vna palla.
+Vestesi di varij colori l'instabilità,per la frequente mutation di pensieri dell'huomo instabile.
+Si appoggia ad vna fragil canna,sopra alla palla,percioche non è stato di conditione alcuna,doue la volubil mente fermandosi si assicuri,e doue non si appigli conforme alle cose più mobili,e meno certe.
+[ЗАГОЛОВОК: Instabilità, ouero Incostanza.]
+[ИНИЦИАЛ: D]Onna vestita di varij colori, per la ragione già detta, stia à cauallo sopra l'hiena serpente, ouero tenga detto animale in quel miglior modo che parrà à chi la vuol rappresentare.
+Instabili si dimandano quei ch'in poco tempo sicangiano d'opinione, senza cagione,e senza fondamento,& però si dipinge con l'hiena appresso, animale,che mai sta fermo,e stabile nel medesimo essere:ma hora è forte, hora è debole,hor audace,& hor timido, molte volte si manifesta per maschio,& tal'hora per femina,talche si può ragioneuolmente dire,che in esso si truoui la vera instabilità,come dice Oro Apolline.
+[ЗАГОЛОВОК: INTELLETTO.]
+[ИНИЦИАЛ: H]VOMO armato di corazza,e vestito d'oro,in capo tiene vn'elmo dorato,e nella destra vn'asta.
+Quest'huomo di questa maniera descritto, dimostra, la perfettione dell'Intelletto, il quale armato di saggi consigli facilmente si difende da ciò che sia per fargli male, & così risplende in tutte le belle, & lodeuoli opere, che egli fa, ouero perche in Guerra, come in pace è necessarijssimo.
+
+Колонтитул: DI CESARE RIPA. 237
+Кустод: Ha l'el-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0259 · с. 238
+
+Ha l'elmo dorato in testa,per mostrare, che l'intelletto rende l'huomo sodo, e sauio, e lo fa lodeuole, e piaceuole à gl'altri,che lo cognoscono di prezzo,come è di prezzo l'oro, e saldo,com'è saldo l'acciaio; l'asta si pone perche dall'intelletto nasce tutta la virtù, che può venir in difesa dell'huomo,il qual come Rè siede nella più nobil parte, & hà carico di comandare,e di dar legge ad vn popolo di passioni,che in noi senza esso farebbe tumulto,e continoui solleuamenti.
+[ЗАГОЛОВОК: INTELLETTO.] [ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: G]Iouinetto vestito d'oro,in capo terrà vna corona,medesimamente di oro,ouero vna ghirlanda di senape,i suoi capelli saran biondi,e acconci con bell'anellature, dalla cima del capo gl'vscirà vna fiamma di foco,nella destra mano terrà vn scettro, e con la sinistra mostrerà vn'aquila che gli sia vicina. L'Intelletto è per natura incorruttibile, & non inuecchia giamai, & però si dipinge giouane.
+
+Колонтитул: 238 ICONOLOGIA
+Кустод: Il vesti-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0260 · с. 239
+
+Il vestimento d'oro significa la purità,& semplicità dell'esser suo,essendo l'oro purissimo fra gl'altri metalli,come s'è detto.
+I capelli son conformi alla vaghezza delle sue operationi.
+La corona,e lo scettro sono segni del dominio, ch'esso hà sopra tutte le passioni dell'anima nostra,& sopra l'istessa volontà,la quale non appetisce cosa che prima da esso non venga proposta .
+La fiamma è il natural desiderio di sapere, nato dalla capacità della virtù intellettiua,la quale sempre aspira alle cose alte,e diuine, se da sensi che mal volentieri l'obediscono alla consideratione di cose terrene,e basse non si lascia suiare .
+Il mostrar l'aquila col dito, significa l'atto dell'intendere, essendo proprio de l'intelletto, il ripiegar l'operatione sua in se stesso vincendo l'aquila nel volo, la quale supera tutti gl'altri vcelli,& animali in questo, come anco nel vedere .
+La senape infiamma la bocca, e scarica la testa, & per questo significa l'operatione grande d'vn intelletto purificato nel tempo, che non l'offuscan le nebbie delle passioni,ò le tenebre dell'ignoranza. Vedi Pier.lib.57.
+[ЗАГОЛОВОК: INTELLIGENZA.]
+[ИНИЦИАЛ: D]ONNA vestita d'oro,che nella destra mano tenga vna sfera,e con la sinistra vna serpe, sarà inghirlandata di fiori.
+Intelligenza dimandiamo noi quella vnione,che fa la mente nostra con la cosa intesa da lei,& si veste d'oro,perche vuol'esser lucida, chiara, & risplendente non triuiale,ma nobile,& lontana dal sapere dal volgo,e delle persone plebee,che tutto distingue nelle qualità singolari dell'oro.
+Si potrebbe poco diuersamente ancora mostrare la figura di quella intelligenza che moue le sfere celesti, secondo i Filosofi : ma perche principal intento nostro è di quelle cose,che dipendono dall'opere, e dal sapere humano,parlamo di questa sola,la qual con la sfera,e con la serpe,mostra che per intendere le cose alte,e sublimi,bisogna prima andar per terra come fa il serpe,e nell'intender nostro andare con principij delle cose terrene,che sono men perfette delle celesti,però si fa nella man sinistra il serpe & nella destra ch'è più nobile , la sfera .
+La ghirlanda di fiori in capo,mostra,in che parte del corpo sia collocata quella potenza,con la quale noi intendiamo, & i fiori mostrano, che di sua natura l'intendere è perfettione dell'animo,e da bon odore, per generar buona fama,e buon concetto di se stesso ne la mente de gl'altri .
+[ЗАГОЛОВОК: Intelligenza.]
+[ИНИЦИАЛ: D]Onna che nella destra tien vn lituo,e nella sinistra vna tauola scritta.
+Mostra che l'Intelligenza nasce per lo più,ò dall'esperienza, ò dallo studio de'libri,come facilmente si comprende per le cose già dette .
+[ЗАГОЛОВОК: INTREPIDITA ET COSTANZA.]
+[ИНИЦИАЛ: G]IOVANE vigoroso,vestito di bianco,e rosso,che mostri le braccia ignude,e starà in atto d'attendere,e sostenere l'impeto d'vn toro.
+Intrepidità è l'eccesso della Fortezza,opposto alla viltà,e codardia, & allora
+
+Колонтитул: DI CESARE RIPA. 239
+Кустод: allora
+Сигнатура: 
+Маргиналии:
+
+## Скан 0261 · с. 240
+
+[ГРАВЮРА: без подписи]
+allora si dice vn'huomo intrepido quando per fine conforme alla dritta ragione non teme quello, che da animi ancor sicuri si suol temere.
+Sono le braccia ignude, per mostrare confidenza del proprio valore; e combatte col toro,il quale essendo molestato diuiene ferocissimo,& hà bisogno per resistere solo delle proue d'vna disperata fortezza.
+[ЗАГОЛОВОК: INVENTIONE.]
+Come rappresentata in Firenze dal Gran Duca Ferdinando.
+[ИНИЦИАЛ: V]NA bella donna,che tiene in capo vn par d'ale come quelle di Mercurio,& vn'orsa à piedi, e lecca vn'orsachino,che mostra,che di poco sia stato da dett'orsa partorito, e leccando mostra ridurlo à perfettione della sua forma.
+
+Колонтитул: 240 ICONOLOGIA / INTELLIGENZA.
+Кустод: INVI-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0262 · с. 241
+
+[ГРАВЮРА: без подписи]
+[ЗАГОЛОВОК: INVIDIA.]
+[ИНИЦИАЛ: D]Onna vecchia,magra,brutta,di color liuido,haurà la mamella sinistra nuda,e morsicata da vn serpe,il qual sia riuolto in molti giri sopra di detta mamella, & à canto vi sarà vn'hidra sopra della quale terrà appoggiata la mano.
+Inuidia non è altro,che allegrarsi del male altrui,& attristarsi del bene con vn tormento, che strugge,e diuora l'huomo in se stesso.
+L'esser magra,e di color liuido, dimostra,che il liuore nasce communemente da freddo, e l'Inuidia è fredda , & hà spento in se ogni fuoco, & ardore di charità .
+Il serpe che morsica la sinistra mamella,nota il ramarico c'hà sempre al core
+
+Колонтитул: DI CESARE RIPA. 241 / INTREPIDITA ET COSTANZA.
+Кустод: core
+Сигнатура: 
+Маргиналии:
+
+## Скан 0263 · с. 242
+
+core l'inuidioso del bene altrui, come disse Horatio nell'Epistole.
+Inuidus alterius macrescit rebus opimis
+Gli si dipinge appresso l'hidra,perciòche il suo puzolente fiato,& il veleno infetta,& vccide più d'ogn'altro velenoso animale ; così l'inuidia altro non procaccia se non la ruina de gl'altrui beni sì de l'anima, come del corpo,& essendo(come dicono i Poeti)mozzo vn capo à l'idra più ne rinascono, così l'Inuidia quanto più l'huomo con la forza della virtù cerca di estinguerla tanto più cresce contro di essa virtù . Però ben disse il Petrarca in vn sonetto :
+O inuidia nemica di virtute Ch'à bei principij volontier contrasti.
+Et Ouidio nel lib.2.delle Metamorfosi .
+E tutto fiele amaro il core,e'l petto ,
+La lingua è infusa d'vn venen ch'vccide
+Ciò che gli esce di bocca, è tutto infetto,
+Auuenena col fiato , e mai non ride
+Se non tal hor, che prende in gran diletto
+S'vn per troppo dolor languisce , e stride ,
+L'occhio non dorme mai : ma sempre geme
+Tanto il gioir altrui l'affligge , e preme.
+All hor si strugge , si consuma, e pena,
+Che felice quel ch'vn viuer comprende,
+E questo è il suo supplicio, e la sua pena
+Che se non noce à lui se stessa offende ;
+Sempre cerca por mal, sempre auuena
+Qualch'emul suo,fin che infelice il rende
+Tiene per non veder la fronte bassa
+Minerua, e tosto la risolue, e lassa.
+[ЗАГОЛОВОК: Inuidia.]
+[ИНИЦИАЛ: D]Onna vecchia,brutta,e pallida,il corpo sia asciutto, con l'occhi biechi,vestita di colore della rugine,sarà scapigliata , & frà i capelli vi saranno mescolati con alcuni serpi , stia mangiando il proprio core , il quale terrà in mano.
+Si dipinge vecchia , perche , per dir poco, hà hauuto lunga, & antica inimicitia con la virtù .
+Ha pieno il capo di serpi , in vece di capelli, per significatione de'mali pensieri,essendo ella sempre in continua riuolutione de'danni altrui,e apparecchiata sempre à spargere il veleno ne gl'animi di coloro,con i quali senza mai quietare si riposa , discordandosi il core da se medesima , il che è propria pena de l'inuidia . Et però disse Iacomo Sanazaro.
+L'inuidia figliuol mio se stessa macera Che non gli vale ombra di cerro, ò d'acera .
+E si dilegua come agnel per fascino
+[ЗАГОЛОВОК: Inuidia.]
+[ИНИЦИАЛ: P]Allido hà'l volto,il corpo magro,e asciut Piacer alcun ; se non dell'altrui lutto
+L'occhi sō biechi,e ruginoso e'l dente(to, Allor ride l'inuidia, ch'altrimente
+Il petto arde d'amaro fele , e brutto Si mostra ogn'hor adolorata , e mesta,
+Venen colma la lingua, nè mai sente E sempre all'altrui mal vigila ,e desta.
+[ЗАГОЛОВОК: Inuidia.]
+[ИНИЦИАЛ: D]Onna vecchia, mal vestita, del color di ruggine ; si tenga vna mano alla bocca, nel modo che sogliono le donne sfacendate in bassa fortuna , guardi con occhio torto in disparte , hauerà appresso vn cane magro, il quale come da molti effetti si vede è animale inuidiosissimo, e tutti gli beni de gl'altri vorrebbe in se solo, anzi racconta Plinio nel lib.25. cap.8.
+
+Колонтитул: 242 ICONOLOGIA
+Кустод: cap.8.
+Сигнатура: 
+Маргиналии:
+
+## Скан 0264 · с. 243
+
+cap,8.che sentendosi il cane morso da qualche serpe, per non restar offeso magna vna certa herba insegnatagli dalla natura, e per inuidia nel prenderla guarda di non esser veduto da gl'huomini .
+E mal vestita,perche questo vitio hà luogo particolarmente frà gl'huomini bassi, e con la plebe.
+La mano alla bocca è per segno ch'ella non noce ad altri:ma à se stessa, e che nasce in gran parte dall'otio .
+[ЗАГОЛОВОК: Inuidia.]
+Il veleno,e l'inuidia, che diuora
+Le midolle,& il sangue tutto lugge,
+Onde l'inuido n'hà debita pena
+Perche mentre l'altrui forte l'accora
+Sospira , freme , e come leon rugge
+Mostrando c'hà la misera alma piena
+D'odio crudel che'l mena
+A veder l'altrui ben con occhio torto
+Però dentro si fà ghiaccio, e furore
+Bagnasi di sudore,
+Che altrui può far del suo dolor accorto ,
+E con la lingua di veleno armata
+Morde, e biasma sempre ciò che guata ,
+Vn pallido color tinge la faccia ,
+Qual da del duol interno certo segno
+Et il misero capo diuen tale
+Che par che si distrugga, e si disfaccia;
+Ciò che vede gli porge odio, e disdegno,
+Però fugge la luce, e tutto à male
+Gli torna e con eguale
+Dispiacer schifa il cibo, ancora'l bere
+Vnqua non dorme : mai non hà riposo ,
+E sempre il cor gli è roso,
+Da quell'inuida rabbia, qual hauere
+Non può mai fine , & al cui graue male
+Rimedio alcun di Medico non vale .
+[ЗАГОЛОВОК: Inuidia, dell'Alciato.]
+[ИНИЦИАЛ: D]Onna squallida , e brutta,
+Che di carne di vipera si pasce;
+E mangia il proprio cuore
+Cui dolgon l'occhi liuidi à tutt'hore ,
+Magra, pallida , e asciutta,
+E douunque ella va, presso, ò lontano
+Porta dardi spinosi nelle mani ,
+Che nel suo sangue tinge.
+In questo habito strano,
+E in tal forma l'Inuidia si dipinge .
+[ЗАГОЛОВОК: INVOCATIONE.]
+[ИНИЦИАЛ: D]ONNA vestita di rosso , in capo hà vna fiamma di fuoco,& vn'altra simili glie n'esce di bocca .
+L'Inuocatione si fà chiamando, & aspettando con gran desiderio il diuino aiuto .
+Però si dipinge conuenevolmente con due fiamme , che gli escono vna dalla bocca , e l'altra dalla cima del capo, che dimostrano la vera, e profitteuole inuocatione consistere non solo nella voce , ma anco nell'intention della mente , con che chiedendosi cosa giusta , & ispediente dalla diuina benignità facilmente s'impetra .
+[ЗАГОЛОВОК: IRA.]
+[ИНИЦИАЛ: D]ONNA giouane , di carnagione rossa, oscura , & perche appartiene a l'habitudine del corpo de gl'iracondi, come dice Aristotele al sesto,e nono capitolo della Fisonomia hauer le spalle grande , la faccia gonfia , gli occhi rossi, la fronte rotonda , il naso acuto, & le narici aperte si potrà osseruare ancora questo ; farà armata , e per cimiero portarà vna testa d'orso,dalla quale n'esca fiamma,e fumo ; terrà nella destra mano vna
+
+Колонтитул: DI CESARE RIPA. 243
+Кустод: no vna
+Сигнатура: 
+Маргиналии:
+
+## Скан 0265 · с. 244
+
+[ГРАВЮРА: без подписи]
+no vna spada ignuda, & nella sinistra hauerà vna facella accesa, & sarà vestita di rosso .
+Giouane si dipinge l'Ira, perciòche ( come narra Aristotele nel secondo libro della Rhetorica ) i giouani sono iracondi , & pronti ad adirarsi , & atti ad eseguire l'impeto de l'iracondia, & da essa sono vinti il più delle volte , & questo interuiene,perche essendo ambitiosi essi non possono patire di esser dispregiati, anzi si dolgono acerbamente quando par loro di essere ingiuriati .
+La testa dell'orso si fa perche questo animale è all'Ira inclinatissimo, e però nacque il Prouerbio : *Fumantem visi nasum ne tetigeris* , quasi che il fumo è fuoco che si dipinge appresso , significhino Ira, e conturbatione de l'animo . Vedi Pierio nel lib.11.
+
+Колонтитул: 244 ICONOLOGIA / IRA.
+Кустод: La spada
+Сигнатура: 
+Маргиналии:
+
+## Скан 0266 · с. 245
+
+La spada ignuda , significa che l'Ira subito porge la mano al ferro , & si fà strada alla vendetta .
+La facella accesa è il core dell'homo irato,che di continuo s'accende, e consuma
+Hà la faccia gonfia , perche l'Ira spesso si muta , & cambia il corpo per lo ribollimento del sangue che rende ancora gli occhi infiammati.
+[ЗАГОЛОВОК: Ira .]
+[ИНИЦИАЛ: D]Onna vestita di rosso ricamato di nero,sarà cieca,con la schiuma alla bocca, haurà in capo per acconciatura vna testa di rinoceronte,e appresso vi sarà vn cinocephalo.Stat.7.Theb.descriuendo la casa di Marte nel paese de'Traci dice,che vi era frà molti l'Ira , & la chiama rossa dicendo :
+E feribus cæcumque nefas iræque rubentes.
+perche nasce dal moto del sangue , e procura sempre la vendetta col danno,e con la morte altrui, però và ricamato il vestimento di nero .
+Il Rinoceronte è animale che tardi s'adira , e bisogna irritarlo inanzi gran pezzo : ma quando è adirato diuiene ferocissimo;però Martiale nel 1.lib. de suoi Epigrammi disse .
+Sollicitant pauidi rinocerota magistri Seque diu magnæ colligit ira feræ .
+Gl'Egittij quando voleuano rappresentar l'ira dipingeuano vn cinocefalo per esser più d'ogn'altro animale iracondo.Vedi Pier.Valer.lib.6.
+Cieca con la schiuma alla bocca si rapresenta, percioche essendo l'huomo vinto dall'ira perde il lume della ragione, e cerca con fatti, e con parole offendere altrui , e però dicesi.
+Vn crudel moto violente è l'Ira
+Ch'in fosca nube il tristo animo vela
+E d'amaro bollore il cor circonda
+Coprendo i labri d'arrabbiata spuma ,
+E focoso desio nel petto accende
+Di rouina dannosa , e di vendetta
+Ira è breue furor , e chi no'l frena
+E furor longo ; che il suo possessore
+Che spinge l'huomo à furor empio , e presto
+Che l'intelletto in folle ardir accieca ,
+E ogni diuina inspiration rimoue
+Dall'alma vile , e la conduce à morte
+Priua di gratia, e di salute eterna.
+Et il Petrarca nel Sonetto 197.
+Spesso à vergogna , e à morte tal'hor mena .
+[ЗАГОЛОВОК: INTERESSE PROPRIO.]
+[ИНИЦИАЛ: H]VOMO vecchio,vestito di nero,che tenga con vna mano vna canna con l'hamo da pescare,e con l'altra vn rastello, da vn canto vi sia vn gallo , & da l'altro vn lupo .
+Interesse è vn'appetito disordinato del proprio commodo, e si stende à molti , e diuersi obietti secondo gli appetiti de gli huomini: ma volgarmente all'acquisto,& conseruatione della robba , che però si dipinge vecchio ( come dice Aristotele nella Poetica ) essendo quest'età naturalmente molto inclinata all'Auaritia capo particolare dell'interesse . La canna con l'amo mostra,che l'interesse sforza spesse volte à far benefitio altrui : ma con intention di giouamento proprio,e non per la sola virtù, che non può hauer fine meno nobile di se stessa,perche cō la canna i pescatori pongono il cibo al pesce, cō intētione di prenderlo,e tirarlo fuori dell'acqua.
+Questo medesimo affetto di propria affettione , si dimostra nel rastello instrumen-
+
+Колонтитул: DI CESARE RIPA. 245
+Кустод: instrumen-
+Сигнатура: Q
+Маргиналии:
+
+## Скан 0267 · с. 246
+
+instromento di Villa, il quale non serue per altro, solo che per tirare verso quello che lo maneggia .
+Si veste di negro, per mostrare che si come detto colore non si può tramutare in altri colori, così l'interessato sta sempre fermo ne'suoi vtili, e commodi, oltre che l'interesse proprio è macchia che da ciascuna parte oscura il bianco della virtù, e perche l'interesse tiene altrui in gelosia del proprio commodo, & in continua vigilanza, così d'animo, come de'sensi se gli accompagna seco il gallo posto nel modo che di sopra si è detto .
+Gli si mette à canto il lupo, percioche l'Interesse hà la medesima natura , & proprietà di questo animale, essendo , che del continuo è auido , & ingordo .
+[ЗАГОЛОВОК: Interesse .]
+[ИНИЦИАЛ: H]Vomo brutto , magro , nudo, ma che habbia à trauerso vna pelle di lupo , & del medesimo animale habbia l'orecchie , & che abbracci, & stringi con auidità con ambe le mani vn globo,che rappresenti il mondo , così vien dipinto da Gironimo Maffei Lucchese , pittore , huomo di bello ingegno , & di bonissimo giuditio .
+[ЗАГОЛОВОК: ITALIA CON LE SVE PROVINCIE, ET PARTI DE L' ISOLE.]
+Come rappresentata nelle Medaglie di Commodo, Tito, & Antonino .
+[ИНИЦИАЛ: V]NA bellissima donna vestita d'habito sontuoso , & ricco , la quale siede sopra vn globo , hà coronata la testa di torre di muraglie , con la destra mano tiene vno scettro, ouero vn'asta , che con l'vno, & con l'altra vien dimostrata nelle sopradette Medaglie , & con la sinistra mano vn cornucopia pieno di diuersi frutti , & oltre ciò faremo anco che habbia sopra la testa vna bellissima stella .
+Italia è vna parte dell'Europa , & fù chiamata prima Hesperia da Hespero fratello d'Atlante , il quale cacciato dal fratello , diè il nome , & alla Spagna , & all'Italia , ouero fù detta Hesperia ( secondo Macrobio lib. 1.cap.2. ) dalla stella di Venere , che la sera è chiamata Hespero per esser l'Italia sottoposta all'occaso di questa stella . Si chiamò etiamdio Oenotria , ò dalla bontà del vino che vi nasce , perche οἶνον , chiamano li Greci il vino , ò da Oenotrio che fù Rè de'Sabini . Vltimamente fù detta Italia da Italo Rè di Sicilia , il quale insegnò à gl'Italiani il modo di coltiuare la terra , & vi diede anco le leggi , percioche egli venne à quella parte doue poi regnò Turno , & la chiamò così dal suo nome , come afferma Vergilio nel lib.1.dell'Eneide .
+Est locus,Hesperiam Graij cognomine dicunt Oenotrij coluere viri,nunc fama, minores
+Terra antiqua,potẽs armis,atq;vbere glebæ Italiam dixisse, Ducis de nomine gentem .
+Hora noi la chiamiamo Italia dal nome di colui che vi regnò : ma Timeo , e Varrone vogliono che sia detta così da i buoi , che in lingua greca anticamente si chiamauano Itali per esserne quantità , & belli .
+Et per non esser io tedioso sopra i nomi che habbia hauto questa nobilissima parte di tutto il mondo sopra di ciò non dirò altro : ma solo con breuità attenderò alla dichiaratione di quello che appartiene all'habito e all'al-
+
+Колонтитул: 246 ICONOLOGIA
+Кустод: e all'al-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0268 · с. 247
+
+[ГРАВЮРА: без подписи]
+& all'altre cose che sono nell'imagine sopradetta . Dico dunque che [?][?]si dipinge per la dignità,& grande eccellenza delle cose, le quali in essa per adietro continouamente ritrouate si sono,& alli tempi nostri ancora si trouano , onde il Petrarca ritornando di Francia , & auuicinatosi à l'Italia,& vedendo quella con grandissima allegrezza disse :
+Salue cara Deo tellus sanctissima,salue Tellus nobilibus multum generosior oris .
+Tellus tuta bonis,tellus metuenda superbis
+Et Virgilio nella 2. delle Georgiche anch'egli marauigliato della sua gran bellezza dice .
+Salue magna Parens frugum Saturnia tellus Magna virum .
+Et Strabone nel sesto libro della sua Geografia , & Dionisio Alicarnasseo
+
+Колонтитул: DI CESARE RIPA. 247 / ITALIA CON LE SVE PROVINCIE, E PARTI DE L' ISOLE.
+Кустод: nel
+Сигнатура: Q 2
+Маргиналии:
+
+## Скан 0269 · с. 248
+
+nel principio dell'historia di Roma ragionando d'Italia mostrano , quanto sia degna di lode , percioche in questa felicissima Prouincia si ritroua per la maggior parte l'aria molto temperata , onde ne seguita esserui adagiato viuere , & con assai differentie di animali, di augelli si domestici, come anco seluaggi per vso de gl'huomini, non tanto per la lor necessità , quanto anco per i piaceri , & trastulli loro .
+Gli si mette la bella stella sopra il capo per la ragione detta di sopra .
+Si veste d'habito ricco , & sontuoso , essendo che in questa nobilissima Prouincia si veggono molti fiumi,cupi,e larghi diletteuoli fontane , vene di saluberrime acque tanto calde , quanto fresche , piene di diuerse virtù talmente prodotte dalla natura , così per il ristoro , e conseruatione della sanità dell'huomo , com'anche per i piaceri d'esso . Il medesimo Virgilio nella 2. della Georgica così dice :
+An mare,quod supra,memorēē quodq; alluit Atque indignatum magnis stridoribus æquor
+Annē lacus tātos?te lari maxime?teq;(infra Iulia qua Ponto longe sonat vnda refuso,
+Fluctibus,et fremitu assurgēs Benace marino? Tyrrhenusq;fretis immittitur æstus auernis?
+An memorēē portus,lucrinoq;addita claustra
+Vi sono ancora non solo per maggior ricchezza, & sontuosità diuerse minere di metalli : ma etiamdio varij , & diuersi marmi , & altre pietre fine , onde il detto Virgil.al luoco nominato narra così seguendo :
+Hæc eadem Argenti riuos,ærisque metalla Ostendit venis,atque auro plurima fluxit.
+La corona di torri, & di muraglie dimostra l'ornamento, e nobiltà delle Città, Terre, Castelli, & Ville , che sono in questa risplendente , e singolar Prouincia,onde il Poeta nel 2.della Georgica hebbe à dire .
+Adde tot egregias Vrbes , operumque laborem
+Tot congesta manu præruptis oppida saxis :
+Fluminaque antiquos subter labentia muros .
+Lo scettro , ouero l'asta che tiene con la destra mano , l'vno , & l'altra significano , l'imperio , & il dominio , che hà sopra tutte l'altre nationi , per l'eccellenza delle sue rare virtù non solo dell'arme : ma ancora delle lettere . Lasciarò molt'altre cose dignissime di tal lode per non esser lungo : ma solo metterò in consideratione quello che testifica sopra di ciò il nostro più volte allegato Poeta nel 2.della sua Georg.
+Hæc genus acre virūū Marsos,pubēq;Sabellāā Scipiadas duros bello,& te maxime Cæsar,
+Assuetumq;malo ligurēē,Volscosq;verutos Qui nunc extremis Asiæ iam victor in oris
+Extulit:hæc decios,marios,magnosq; camillos Imbellem auertis Romanis arcibus Indum .
+Il cornucopia pieno di varij frutti, significa la fertilità maggiore di tutte l'altre Prouincie del mondo, ritrouandosi in essa tutte le bone qualità essendo che hà i suoi terreni atti à produrre tutte le cose, che son necessarie all'humano vso,come ben si vede per Virgilio nel medesimo libro .
+Sed neque Medorum syluæ,ditissima terra, Laudibus Italiæ certēt:nōō Bactra,neq;Indi.
+Nec pulcher Ganges,atq;auro turbidus hermus Totaq;turiferis Banchaia pinguis arenis .
+Et poco dopoi .
+Sed grauidæ fruges,et Bacchi massicus humor Impleuere:tenent oleæq;armentaq;læta
+
+Колонтитул: 248 ICONOLOGIA
+Кустод: Hinc
+Сигнатура: 
+Маргиналии:
