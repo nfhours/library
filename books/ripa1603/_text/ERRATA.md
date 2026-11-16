@@ -28,3 +28,4 @@
 | 0278 | 257 | Imperaratrici | Imperatrici | прочее |
 | 0281 | 260 | torus | totus | перепутанная буква |
 | 0286 | 265 | sihnifica | significa | перепутанная буква |
+| 0303 | 282 | qualnnque | qualunque | перепутанная буква |

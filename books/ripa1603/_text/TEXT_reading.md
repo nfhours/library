@@ -5327,6 +5327,7 @@ di bel-
 Кустод: di bel-
 Сигнатура: 
 Маргиналии:
+- Dona Ioui.
 
 ## Скан 0281 · с. 260
 
@@ -5596,5 +5597,577 @@ accese la guerra chiamata Marsica, la quale durò due anni, & finalmente ottenne
 
 Колонтитул: 268 ICONOLOGIA
 Кустод: MAR-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0290 · с. 269
+
+[ЗАГОЛОВОК: MARCA.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: S]I dipinge in forma di vna donna bella, & di virile aspetto, che con la destra mano si appoggi ad vna targa attrauersata d'arme d'asta, con l'elmo in capo, & per cimiero vn pico, & con la sinistra mano tenghi vn mazzo di spighe di grano in atto di porgerle, & appresso à lei vi sarà vn cane.
+Si rappresenta bella per la vaghezza della Prouincia molto bene distinta dalla natura in valli, colli, piani, riui, & fiumi che per tutto l'irrigano; & la rendono oltre modo vaga, & bella.
+Si dipinge di virile aspetto con vna mano appoggiata alla targa, & altre armi, per mostrare li buoni soldati, che d'essa Prouincia escono.
+Si li mette per cimiero il pico arme di questa regione, essendo che il pico
+
+Колонтитул: DI CESARE RIPA. 169
+Кустод: vcello
+Сигнатура: 
+Маргиналии:
+
+## Скан 0291 · с. 270
+
+vcello di Marte fusse guida, & andassi auanti le legioni de'Sabini, e quel-
+le nella Marca conducesse ad[?]essere[?]colonia di quella Prouincia, & per
+questo fù detto à tempo de'Romani la Marca, *Ager Picenus,* come assai
+ben descriue in vn breue elogio il Signor Isidoro Ruberti nella bellissima,
+& marauigliosa Galleria di Palazzo nel Vaticano fatta far da Papa Gre-
+gorio XIII. di felicissima memoria, nella qual fù di molto aiuto al Re-
+uerendissimo Padre Ignatio Danti Perugino, & Vescouo d'Alatri, che
+n'hebbe suprema cura da sua Beatitudine, & l'elogio fù questo
+*Ager Picenus, ager dictus est propter fertilitatem, Picenus d Pico Martis [?]aue vt Stra-
+bonis placet, nam annona, & militibus [?] quibus sæpè Romam, cæterasque Italiæ
+Europæque partes iunit.* Et certamente gli huomini di questa Prouincia, non
+solo hanno souuenuto continuamente di grano Roma, & l'altre Prouin-
+cie: ma ancora hanno dato aiuto di fortissimi soldati, & insieme segni di
+notabil fedeltà, ne i maggior bisogni loro, & della Christianità, contro
+Turchi, & contro Eretici, & à tempo de' Romani antichi specialmente
+fecero, quando congiurando contro di essi gran parte delle Colonie d'I-
+talia gli mossero guerra solo li Marchegiani, de'quali i Fermani restorno
+in fede, & combatterrono in lor seruigio; onde questa Prouincia, & que-
+sta Città ne acquistò lode di fedele, & per loro gloria ne i luoghi publici
+si vede scritto. *Firmum firma fides Romanorum Colonia;* onde ragioneuolmen-
+te se gli è messo à canto il cane, per dimostrare la fedeltà loro
+Oltre di ciò per dimostrare, che in questa Prouincia vi sono cani di gran
+stima, e bontà, & di essi ne vanno per tutta l'Italia, & ritornando al valore, &
+fedeltà di questi soldati, si dimostra da Velleio Paterculo quando dice,
+che Pompeo armò per la Republica numero grandissimo di gente: ma che
+*In Cohorte Picena plurimum confidebat.*
+A tempi più moderni quando Papa Clemente vIII. si trouaua assediato
+in Castello S.Angelo da i Spagnoli, & da i Tedeschi, i Marchegiani qua-
+si popularmente s'inuiorono alla volta di Roma, de i quali spingendosi
+auanti il Conte Nicolò Mauritio da Tolentino con alquanti caualli, e con
+esso Tullio Ruberti, si ritrouorono à cauarlo di Castello, quando si andò
+à saluare ad Oruieto.
+[ЗАГОЛОВОК: ROMAGNA.]
+[ИНИЦИАЛ: D]ONNA con bella ghirlanda in capo di lino con le sue foglie, e fio-
+ri, & di rubbia, con la destra mano terrà vn ramo di pino con il frut-
+to, & con la sinistra panocchie di miglio, panico, bacelli di faue, e fagioli.
+Hebbe questa Prouincia diuersi nomi, vno de'quali fù Flaminia, & di-
+cesi, che habbia ottenuto questo nome dalla via Silicata, & rassettata da
+C.Flaminio Console Romano, come narra Strabone nel lib. 5. & P.Liuio
+nel 9.delle guerre de'Macedoni, dicendo, che Flaminio hauendo foggio-
+gato i Liguri, & fatto pace con vicini Popoli, non potendo patire che i
+vittoriosi soldati fossero otiosi, vi fece silicare, & rassettare la via da Ro-
+ma per Toscana, & l'Vmbria fino à Rimino. Fù poi detta Emilia da M.
+Lepido Emilio, il qual fece vna strada che veniua da Piacenza à congiun-
+
+Колонтитул: 170 ICONOLOGIA
+Кустод: gersi
+Сигнатура: 
+Маргиналии:
+
+## Скан 0292 · с. 271
+
+[ЗАГОЛОВОК: ROMAGNA.]
+[ГРАВЮРА: без подписи]
+gersi con la Flaminia. Fù poscia chiamata Gallia Cisalpina, per essere
+stata habitata lungo tempo da Galli Boij, Insubri, Genomani, & da al-
+tri simili generationi ( come dimostra Polibio nel quarto libro ) dicen-
+do, che hauendo detti Galli trapassato l'Alpi, & scendendo in questo pae-
+se, scacciati i Toscani, che quiui haueuano edificato dodici Città qui-
+ui si fermorono, & da essi Galli fù poi nominato tutto questo paese Gal-
+lia Cisalpina. Fù poi detta Gallia Cispadana, & Transpadana, per es-
+sere da gl'Antichi partita la Cisalpina in due parti, cioè, di quà, & di là
+dal Pò Fiume. Fù poscia nominata Gallia Togata, come si raccoglie an-
+co da Martiale nel terzo libro che iui lo compose.
+*Hoc tibi, quicquid idest, longinquis mittit ab oris.*
+
+Колонтитул: DI CESARE RIPA. 171
+Кустод: Gallia
+Сигнатура: 
+Маргиналии:
+
+## Скан 0293 · с. 272
+
+*Gallia, Romanæ nomine dicta toge.*
+Et più à basso dice specificamente che era nel foro Cornelio, cioè Inola.
+*Romam vade liber: si veneris vnde, requiret:*
+*Aemilia, dices, de regione via.*
+*Si quibus in Terris, qua simus in Vrbe, rogabit:*
+*Corneli referas, me licet esse foro.*
+Fù detta Gallia essendoui i Galli Senoni, & parimente i Boij passati
+nell'Italia, & quiui hauendone scacciati i Toscani ( come habbiamo det-
+to ) & abitandoui cominciorno à poco, à poco pigliare i ciuili costumi de
+Romani non solamente del modo di viuere, ma altieri del conuesare, &
+vestire, percioche vedendo quelli esser togati, anch'eglino pigliorno le
+toghe, che erano vestimenti de Romani.
+Vltimamente fù ( come narra il Biondo ) chiamata Romagna da Car-
+lo Magno, & da Papa Adriano primo dopò la rouina de Longobardi, per
+esser stata Rauenna con alquante altre Città, & Terre vicine sempre per
+tutto il tempo de Longobardi fedelissimi al Popolo Romano.
+Si fà à questa prouincia la ghirlanda di lino hauendo Plinio in molta
+stima il lino di Faenza nel lib. 19. ponendo nel terzo grado di sottigliez-
+za, & densità, & nel secondo grado di bianchezza.
+La rubbia vien molto lodata quella di Rauenna da Dioscoride, come
+cosa notabile. Le panocchie di miglio, & di panico denotano la fertilità
+del paese quanto à tutte le sorte di biade, & legumi, & specialmente migli,
+panichi, faua, & fagioli.
+Il ramo di pino con il frutto, che tiene con la destra mano, e per dimo-
+strare la nobilissima selua di pini intorno à Rauenna, & Ceruia che è cosa
+tanto propria di questa Prouincia in Italia, che niuna cosa la fà tanto dif-
+ferente dall'altre quanto essa. Onde Sisto V. di felice memoria in vna
+sua Bolla circa la cōseruatione di quelle pinete la chiama decoro d'Italia.
+Ma per non lassar di dire cosa che notabil sia, & per dare occasione ad
+altri porgendogli materia di variare à modo loro la forma di questa
+figura: Io trouo appresso Plinio lodato i Rombi, & Asparagi di Rauen-
+na, onde Martiale di essi così dice nel 3. lib.
+*Mollis in æquorea quæ creuit spina Rauenna*
+*Non erit incultis gratior Asparagis.*
+Racconta anco l'abondanza delle rane, che si trouano quiui, & di lo-
+ro così fauella.
+*Cum comparata rictibus tuis ora.*
+*Niliacus habeat crocodilus angusté*
+*Meliusque Ranæ garriunt Rauennates.*
+Vi sono ancora le viti fertili di Faenza de quali ne fà mentione Marco
+Varrone lib. 1. cap. 2. de re rustica.
+Et gli ottimi, e generosi vini di Cesena, se bene possono essere supera-
+ti in altri luoghi prodotti, ma gli antichi gli riposero tra i vini generosi,
+come si legge appresso Plinio nel lib. 3. al cap. 6. & Mecenate ne faceua
+
+Колонтитул: 172 ICONOLOGIA
+Кустод: gran
+Сигнатура: 
+Маргиналии:
+
+## Скан 0294 · с. 273
+
+gran stima, & però furono chiamati Mecenatini. Onde non terrei per er-
+rore far nella ghirlanda comparire alcune foglie di vite.
+Potrassi anco dipingere il Sale che da Platone nel Timeo fù detto caro,
+& amico à Dio, & nel 9. delle Iliade fù da Homero chiamato diuino, & di
+cui Plinio scrisse quel antico prouerbio *Sale nihil vtilius,* il quale si fà à
+Ceruia in tanta copia, che si partecipa ad altre prouincie, & mi parebbe
+non disdiceuole, che ne tenesse in mano, ò in'altro luoco in vn vaso, che
+rappresentasse la maiolica, che si fà in singolar lode in Faenza.
+Et finalmente oltre le sopradette cose potrebbesi anco fare armata per
+attribuirli virtù militare, hauendo prodotto per lo tempo passato, & al
+presente brauissimi huomini, & famosi Capitanij, come Almerico Barbia-
+no restitutore dell'antica disciplina militare in Italia, lo Sforza da Coti-
+gnola, tanti Malatesti da Cesena, & Rimino, i Polentani Lunardi, & Ra-
+sponi da Rauenna; i Caluoli, Ordolaffi, gli Asti, de quali il Capitan Co-
+smo Luogotenente Generale nella impresa di Famagosta; oue per la S.
+Fede fù dal Turco decapitato insieme con Astor Baglione suo Generale.
+Et i Brandolini da Forlì, i Manfredi, & Martino da Faenza, Vincentio,
+& Dionisio Naldi da Bresichella Generale della Inuittissima Rep. di Ve-
+netia ambedui Guerrieri famosi nominati dal Giouio, & dal Bembo de
+re Veneta: & molti altri generosi Capitani di questa bellicosa Famiglia,
+dalla quale anco sono discesi i Signori de la Bordigiera, gli Alidossi da
+Imola, i Guidi hora Marchesi di Bagni discesi da Othone Imperatore ho-
+mini di gran stima, e valore, & altri che lasso per non esser tedioso.
+[ЗАГОЛОВОК: LOMBARDIA.]
+[ИНИЦИАЛ: V]NA donna bella, grassa, & allegra, il suo vestimento sia di color
+verde tutto fregiato d'oro, & argento con ricami, & altri ricchis-
+simi, & vaghi adornamenti; nella destra mano tenga con bella gratia
+l'imperial Corona d'argento, & con la sinistra vn bacile, oue siano mol-
+te corone d'oro Ducali appoggiato al fianco, & appresso i piedi dal de-
+stro lato sia il Pò fiume cioè huomo ignudo, vecchio, con barba lunga,
+& longhi, & stesi capelli, coronato d'vna corona d'oro. Ouero per va-
+riar questa figura sia la testa di toro con vna ghirlanda di pioppa, appog-
+giato il fianco, ò braccio destro sopra d'vn'vrna, dalla quale eschi copia
+d'acqua, & che si diuida in sette rami, & con la sinistra mano tenga con
+bella attitudine vn cornucopia.
+Hà hauuto questa nobile, & bellissima Prouincia diuersi nomi secondo
+la diuersità de'tempi, & il primo fù Bianora Gallia Cisalpina, & anco es-
+sa per vna parte Gallia Togata, Felsina, Aurelia, & Emilia, come riferi-
+sce Catone in libro Originum, poscia fù detta Longobardia, & hora
+Lombardia.
+Io non mi estenderò à dichiarare per qual caggione habbia hauuto li
+sopradetti nomi per non esser tedioso, ma solo dirò, perche si chiamasse
+Bianora che fù il primo nome che ella hauesse, come anco perche sia sta-
+ta nominata Lombardia, che è stato l'vltimo nome.
+
+Колонтитул: DI CESARE RIPA. 173
+Кустод: Dico
+Сигнатура: 
+Маргиналии:
+
+## Скан 0295 · с. 274
+
+[ЗАГОЛОВОК: LOMBARDIA.]
+[ГРАВЮРА: без подписи]
+Dico dunque, che trasse primieramente il nome di Bianora da Ocno
+Bianoro valoroso Capitano de'Toscani, il quale passando l'Apennino se
+insignorì di questo paese, secondo che riferisce Catone nell' origini, do-
+ue dice:
+*Gallia Cispadana, olim Bianora à victore Ocno.*
+Fù finalmente detta Longobardia da i Longobardi, che longo tempo
+tennero la Signoria di essa Regione, hora dicesi Lombardia per maggior
+dolcezza della pronuntia.
+Bella, grassa, allegra, & vestita di color verde si rappresenta, per es-
+sere gli huomini di questa Prouincia amoreuoli, conuerseuoli, & molto
+dediti alli solazzi della vita, godendo vn paese quanto possa esser ameno,
+fertile,
+
+Колонтитул: 174 ICONOLOGIA
+Кустод: fertile,
+Сигнатура: 
+Маргиналии:
+
+## Скан 0296 · с. 275
+
+fertile, abondante di viuere, di delitie, & di tutte le cose che si richiedo-
+no al felice viuere de gli habitatori oue sono molte Città grandi, famose
+Terre, infiniti Villaggi, & sontuosi Castelli, magnificentissimi edifitij
+publici, & priuati, dentro, & fuori della Città, fiumi celebri, fonti, &
+laghi di grandissima consideratione, valli, piani, & monti ricchi di tut-
+te le gratie della natura, & dell'arte.
+I lauori d'oro, & argento, ricami, & altri vaghi ornamenti, significano la magnificenza, lo splendore, & la pompa de i popoli di questa Pro-
+uincia, à i quali abondano di ricchezze, & artifitij, di nobili lauori con-
+forme al merito della lor molta gran nobiltà, gran virtù, & valore.
+L'Imperial corona d'argento dimostra l'illustre dignità, & honoranza
+di questa Prouincia riceuendo il Rè de'Romani in essa la detta corona di
+argento quando viene in Italia per incoronarsi, percioche come riferi-
+scono i dottori nel c.venerab.de elect.& la glosa nella Clementina.i.super
+verbo vestigijs de iurando; di tre diuerse corone la Maestà dell'Impera-
+tore si corona.
+Primieramente quella di ferro riceue dall'Arciuescouo di Colonia in
+Aquisgrana, poi questa d'argento gli vien data dall'Arciuescouo di Mi-
+lano, & la terza d'oro gli vien data dal Sommo Pontefice nella Chiesa di
+S.Pietro di Roma, delle quali quella di ferro significa la fortezza con la
+quale deue soggiogare i ribelli, l'altra d'argento dinota la purità de'co-
+stumi, & le chiare attioni che deuono essere in tutti i Principi, l'vltima
+d'oro significa la sua preminenza in giustitia, & potenza sopra tutti gli
+altri Rè, & Principi temporali del mondo, si come l'oro di molto auanza
+tutti gli altri metalli.
+Le corone d'oro Ducali nobilitano anco, & inalzano questa sopra tut-
+te l'altre prouincie d'Italia, dimostrando ch'ella abbraccia, & in se con-
+tiene più famosi Ducati, come di Milano.
+Vi è anco l'antico, & nobile Ducato di Turino, doue haueuano il suo
+seggio i Duchi de' Longobardi ( secondo Paolo Diacono, Biondo, & Sa-
+bellico ) & hoggi è posseduto con ottimo, & giustissimo gouerno dall'Al-
+tezza Serenissima di CARLO EMANVELE Duca di Sauoia, veramen-
+te Principe meriteuole di maggiore, & qualsiuoglia stato, per esser egli
+di singolar valore, & risplendente di tutte le virtù, come anco celebre di
+gloriosa fama, per la grandezza, & antichissima nobiltà de l'origin sua.
+Vi è anco Mantoua, di Parma, di Piacenza, di Ferrara, & hora quel-
+lo di Reggio, & Modena; de' quali quanto sia la magnificenza, la gran-
+dezza, & lo splendore non solo di questa Prouincia: ma di tutta l'Italia è
+noto à tutto il mondo.
+Gli si dipinge à canto il Pò, come cosa notabile di essa Prouincia, il qual
+passando per mezo di essa gli apporta infiniti commodi, e piaceri, & è ce-
+lebre per lo fulminato Fetonte che in esso cadde, & si sommerse, come
+diuinamente lasciò scritto Ouidio nel secondo libro delle sue Metamor-
+fosi in questi versi.
+
+Колонтитул: DI CESARE RIPA. 175
+Кустод: At Tha-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0297 · с. 276
+
+*At Phæton rutilos flamma populante capillos,*
+*Voluitur in præceps, longoque per aera tractu*
+*Fertur, vt interdum de Cælo stella sereno*
+*Quæ si non cecidit, potuit cecidisse videri.*
+*Quem procul à Patria diuerso maximus Orbe*
+*Excipit Eridanus fumantiaque abluit ora.*
+Si fà anche coronato il detto fiume, per essere il maggiore d'Italia,
+raccogliendo nel suo grembo le ricchezze di molti altri fiumi, & perche
+il Petrarca nel Sonetto 143. così lo chiama.
+*Rè de gl'altri superbo, altero fiume*
+Anzi per essere non solo il maggiore d'Italia, come si è detto, ma per
+non cedere punto alla grandezza de'più famosi del mondo, cioè del Nilo,
+e dell'Istro. Lucano nel lib.2. così dice.
+*Quoque magis nullum tellus se soluit in amnem,*
+*Erydanus, fractasque euoluit in æquore syluas,*
+*Hesperiamque exhaurit æquis. Hunc fabula primum*
+*Populea fluuium ripas vmbrasse corona:*
+*Cumque diem pronum transuerso limite ducens,*
+*Succendit Phæton flagrantibus æthera loris,*
+*Gurgitibus raptis penitus tellure perusta,*
+*Hunc habuisse pares Phæbeis ignibus vndas.*
+*Non minor hic Nilo si non per plana iacentis*
+*Aegypti hybicas Nilus stagnaret arenas.*
+*Non minor hic Istro, nisi quod dum permeat orbem*
+*Ister, casuros in qualibet æquora fontes*
+*Accipit, & Scythicas exit non solus in vndas. &c.*
+Et come si è detto, si potrà dipingere questo fiume con la testa di toro
+con le corna, percioche ( come narra Seruio, & Probo ) il suono che fà il
+corso di questo fiume, è simile al mugito de'buoi, come anco perche le
+sue ripe sono incuruate à guisa di corna.
+Il cornucopia nella guisa che dicemmo, significa l'abondanza grande
+causata da questo celebre fiume, essendo che nel tempo della canicola,
+come narra Plinio nel lib.3.cap.16. quando fù l' Alpi si struggono le neui
+ingrossandosi, & spargendosi da torno, lascia poi quei luochi tocchi da
+lui fertilissimi, & diuidendo la Prouincia in due parti con sette bocche
+entra nel mare Adriatico con tanta copia d'acqua che ( come dice Plinio
+nel luoco citato ) fà sette mari.
+[ЗАГОЛОВОК: MARCA TRIVISANA.]
+[ИНИЦИАЛ: V]NA donna leggiadra, & bella che habbia tre faccie, hauerà il ca-
+po ornato à guisa di Berecintia madre de gli Dei antichi, di coro-
+na turrita con otto torri d'intorno, & nel mezo vna più eminente de l'al-
+tre, farà vestita sotto di color azurro, hauerà vna sopraueste ò manto di
+oro ricamato di spighe, & fregiato di verdeggianti, & fruttifere viti.
+Starà à sedere sopra il dorso di vn'alato leone, terrà la destra mano ap-
+
+Колонтитул: 176 ICONOLOGIA
+Кустод: poggia-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0298 · с. 277
+
+[ЗАГОЛОВОК: MARCA TRIVISANA.]
+[ГРАВЮРА: без подписи]
+poggiata ad vna quercia, dalla quale penda vn rostro di naue, ò di gale-
+ra, & con la sinistra mano tenghi con bella gratia vn libro, & anco vn
+ramo d'oliuo.
+La Prouincia di Venetia che da Longobardi Marca Triuisana fù detta,
+per hauer eglino posto il seggio del Marchesato nella Città di Treuigi. E
+Prouincia nobilissima al pari d'ogni altra che sia nell'Italia habitata già
+da gli Euganei, poscia da gli Eneti, & Troiani, che doppo la rouina di
+Troia con Antenore in Italia passorno.
+Ella di presente contiene in se noue Città principali, le quali tutte
+hanno il loro Vescouato, oltre le molte Terre murate, & Castella che
+vi sono, & oltre il gran numero di villaggi non solamente per la grassez-
+
+Колонтитул: DI CESARE RIPA. 177
+Кустод: za del
+Сигнатура: S
+Маргиналии:
+
+## Скан 0299 · с. 278
+
+za del terreno il quale è fertilissimo: ma in gran parte per lo sito amenis-
+simo, si che si può ragioneuolmente dire, che quella bellezza che nell'al-
+tre Regioni d'Italia si vede per la delitiosa coltura de gli habitatori, in
+questa solamente si vegga per l'opera della gran maestra Natura, che co-
+sì l'hà voluta fabricare.
+Le Città sono Vinegia, la quale è capo, & Signora della Prouincia,
+Verona, Vicenza, Padoua, Treuigi, Ceneta, Belluno, Feltro, & Tren-
+to, che è posto alle confine di Germania, nell'Alpe, delle quali Città
+sono in ogni tempo, & in ogni età riusciti molti huomini illustri in let-
+tere, & in arme, che longo sarebbe il farne qui mentione, poscia che ne
+le Historie, che si veggono in luce delle cose seguite in Italia così ne gli
+Antichi, come anco ne i moderni tempi ritrouansi in più luoghi descrit-
+ti i loro fatti illustri, & copiosamente raccontati, tra'quali si può per va-
+loroso nominare Ezelino da Romano, il quale se ben fù tiranno, fù però
+huomo valoroso nell'armi, & gran Capitano.
+Si potrebbero anco annouerare gli Scaligeri, che già per i tempi pas-
+sati furono Signori di Verona, di Vicenza, & di molte altre Città fuori
+di questa Prouincia, i Carnaresi Signori di Padoua, i Caninesi Signori di
+Treuiso, di Ceneta, di Feltro di Belluno, & tanti altri valorosi Capitani
+di militia, vsciti di queste Città: ma per non parere che si faccia emula-
+tione con l'altre Prouincie, qui gli tralascerò, si come anco i più moder-
+ni, che nelle guerre fatte, & sostenute dalla Signoria de' Venetiani in
+questa, & in altre Prouincie hanno dato manifesti segni del lor valore, &
+del loro nome hanno lasciato immortal memoria.
+Quanto al sito, poscia che ella è rinchiusa trà la Lombardia, la Roma-
+gna, il mare Adriatico, il Ducato del Friuli, & l'Alpi Treuisane, che
+dalla Germania la separano, essa è dalle parti del Settentrione montuo-
+sa: ma nel rimanente piana, se bene ripiena de'vaghi, & ben colti colli,
+da quali si cauano delicatissimi vini, & saporitissimi frutti. Dal piano
+poi che amplissimo si scuopre nel Padouano, nel Treuisano, & nel Cedo-
+nese assai più che nel Veronese, & nel Vicentino, che per la maggiore
+parte sono territorij montuosi, & nel Bellunese, Feltrino, & Tridentino
+che sono posti monti assai angusti, & ristretti, & però sono più feraci di
+vino, che di grano.
+Si rappresenta bella, & leggiadra con tre faccie, percioche veramen-
+te è bellissima questa Prouincia, come anco per alludere al nome di Tre-
+uisi, ò Treuigiana Marca.
+Si può ancora dire, che per tale similitudine sia somigliante all'ima-
+gine della Dea Prudenza, che così da gli Antichi era figurata, la cui vir-
+tù nel Senato Venetiano particolarmente riluce.
+La Corona Turrita, nel modo che dicemmo, dimostra per le otto tor-
+ri le otto Città soggette, & la Torre nel mezo più eminente dell'altre
+rappresenta la Città dominante.
+Il colore azurro del vestimento, denota l'intimo Golfo dell'Adriatico
+
+Колонтитул: 178 ICONOLOGIA
+Кустод: mare
+Сигнатура: 
+Маргиналии:
+
+## Скан 0300 · с. 279
+
+mare che la bagna, & che da' i medesimi Signori è dominato.
+La sopraueste ò manto d'oro ricamato di spighe, & fregiato di verdegianti, & fruttifere viti dimostra che del grano, & del vino che essa produce ci sono accumulate gran ricchezze.
+Siede sopra il dorso dell'alato leone per alludere all'insegna della Republica di Venegia.
+Il tener la destra mano appoggiata alla quercia dalla quale penda il rostro di naue, ouer di galera, dimostrà che questa Prouincia e forte, & potentissima in Italia, & per terra, & per mare mantiene in se quella grandezza, che da tutti li Prencipi de Christiani vien molto stimata, & insieme temuta, & rispettata per il dominio che ella hà di questa Prouincia percioche nell'armate di mare, con le quali essa hà ottenuto vittorie segnalatissime in ogni tempo per il numero grande de nauilij, & galere che può fare: & se hà sempre seruito di questa Prouincia così d'huomini di battaglia per armarle, traendone sempre di essa quanti gli sono stati à bastanza per ogni grand'armata; come anco per ogni sorte di materia necessaria per il fabricare, & armeggiare i legni, essendo in essa Prouincia molti boschi d'arbori à cotal fabrica bene appropriati, & specialmente nel Treuisano, doue si vede à gran commodo della Republica il celebre, & famoso bosco dalla natura prodotto ne' colli del Montello tutto di altissime, grosse, & dure querce lungo dieci miglia, & sei largo, da Treuigi lontano dieci miglia, & dalle lagune di Vinegia venti, si come nel Bellunese altri boschi di altissimi abeti, larici, & faggi per fabricare antenne, arbori, & remi; & nel Veronese, Vicentino, & nel Padouano grandissima copia de' canapi per fare le vele, le gomone, & ogni altro necessario armigio.
+Oltre che in questa istessa regione ne i monti di sopra, che sono nel Veronese, nel Trentino, & nel Bellunese se ne caua il ferro in tanta quantità quanto può bastare per rendere perfetta tutta la fabrica dello armamento marinareccio, il quale nell'Arsenale di Vinegia con grandissima copia di eccelentissimi Maestri del continuo si tratta.
+Il libro, che tiene con la finistra mano, significa, non solo gli huomini celebri nelle lettere: ma ancora il nobilissimo studio di Padoua, fecondissimo Seminario di ogni virtù, che quiui fiorisce, dal quale sono in ogni tempo riusciti sapientissimi Theologi, Philosophi, Medici, Iurisconsulti, Oratori, & infiniti professori delle Arti Liberali, che hanno apportato sempre splendore non pure alla Prouincia, ma à tutta l'Italia insieme.
+Il ramo dell'oliuo che tiene insieme con il libro, significa la pace, che gli conserua il suo Principe, & Signore.
+
+Колонтитул: DI CESARE RIPA. 279
+Кустод: FRIVLI.
+Сигнатура: S 2
+Маргиналии:
+
+## Скан 0301 · с. 280
+
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: D]ONNA vestita d'habito sontuoso, & vario, con vn castello turrito in testa si come si figura Berecintia, hauerà il braccio destro armato con vna lancia in mano, & che insieme tenga alcuni priuilegij con sigilli pendenti.
+Starà appoggiata ad vna grande, & feconda vite, & à seder sopra due corni di douitia, l'vno da vna banda di ogni sorte di spighe, grani; risi, migli, & simili; l'altro dall' altra parte pieno di ogni sorte de' frutti di arbori.
+Terrà nella sinistra mano vn libro, & ne i piedi i coturni simili à quelli di Diana, & appresso d'essi vi saranno cannuccie, & giunchi.
+Sono tante, & sì diuerse le qualità, & conditioni che si scorgono nel Friuli, che si potrebbono con longo discorso di parole: ma con vna piccola
+
+Колонтитул: ICONOLOGIA / FRIVLI. 280
+Кустод: figura
+Сигнатура: 
+Маргиналии:
+
+## Скан 0302 · с. 281
+
+figura in disegno non mai basteuolmête esplicare, percioche nel circuito di ducento, & cinquãta miglia che lo cóprende si trouano prima altissime balze, & dirupate; poi monti men'aspri, & più vtili per gran copia di legni & per pastura d'animali, indi fertili, & ameni colli, & finalmente grandissima, & ampijssima pianura, che si stende fin'al mar adriatico. In questo spatio ci sono, & torrenti, & fiumi, & laghi, & paludi, & porti di mare, & de' fiumi, altri sono rapidi, e veloci come il tagliamento, il turro, e'l naticone, altri quieti, & nauigabili come il timauo, la natessa, il lisonzo, & altri, ne i fiumi, & ne i laghi, & altre acque si pescano varie spetie di pesci, de' quali ve ne hà molti, & buonissimi, come lamprede, marsioni, temoli, & anco trutte, & queste pur'anche più d'vna sorte, poiche di bianche, & rosse se ne trouano assai, per lasciare i gamberi, che in gran quantità tutto l'anno si prendono, & oltre il pesce maritimo, che da Marano, & da Monfalcone luoghi del paese si conducono à Vdine, & altroue per l'vso de gli habitatori; ne di minor diuersità si troua anco nella terra istessa, essendouene di leggiera, di greue, di mezana di più, & di manco fecondo.
+L'habito sontuoso, & vario dinota la diuersità delle qualità di che questa Prouincia è habitata, come si dirà.
+Si gli mette la corona di torri in capo, perche in questa Prouincia vi sono molti castelli, & alcune terre situate d'ogn'intorno sopra i monti, e colli del paese, come ne fà fede Virg. nel 3. della Georg. dicendo.
+*Castella in tumulis, & lapidis arua Timaui.*
+Le quali possegono giurisdittioni separate con nobilissimi priuilegij, & di Imperatori antichi, & di patriarchi d'Aquileia, ch'vn tempo ne furno padroni, & finalmente anco del dominio Veneto, c'hora possiede quasi tutta laProuincia, e certo questa qualità è molto singolar in lei, poiche si numerano fin'à settantadue giurisditioni, le quali han voce in parlamento, che è vn consiglio vniuersale, il qual ogn'anno si fà vna, e più volte à la presenza del Luogotenente generale residente in Vdine, oltre à molt'altre che non vi interuengono, oue per tal'effetto si vede chiaro che gli si conuien detta corona di torri in capo, come anco ben il dimostra Virg. nel 6. dell'Eneide volendo somigliare questa Prouincia à Roma, & non per altro ciò fece se non per i sette colli che in essa Città si rinchiudono, onde disse:
+*Qualis Berecynthia mater*
+*Inuehitur curru Phrygias turrita per Vrbes.*
+Il che tanto più conuiensi, perche così si viene leggiadramente ad esprimere anco la Città d'Vdine, c'hora è la Metropoli, & capo del Friuli, contenendo in mezo di se vn erto colle, & sopra d'esso vn grande, & molto riguardeuole castello, onde si scuopre tutto il paese per fino alla marina.
+Il braccio armato con la lancia, e priuilegi, dimostrano che le sopradette giurisdittioni son in obligo à tempi di guerra di contribuire alcuni canalli con huomini armati per seruigio del Principe, che perciò han priuilegij, come han hauto anticamête (come s'è detto) da Imperatori, & altri.
+Sta appoggiata à la verdeggiante, e feconda vite, perche la qualità de i
+
+Колонтитул: DI CESARE RIPA. 281
+Кустод: vini
+Сигнатура: S 3
+Маргиналии:
+
+## Скан 0303 · с. 282
+
+vini è tanto abôdante in questa Prouincia, ch'in essi cõsiste il maggior neruo delle sue ricchezze, percioche oltre la quantità sufficiente non solo per i suoi popoli: ma per gran parte ancora dell'Alemagna, & Venetia, & sono talmente nominati, & pretiosi, che Plinio nel libro decimo quarto al capitolo sesto disse: *Augusta lxxxij. annos vitæ Lucilio retulit acceptos non alio vsu gignitur in sinu Adriatici maris non procul à Timauo fonte saxeo colle maritimo à flatu paucas coquente amphoras, nec aliud aptius medicamentis indicatur. Hoc esse crediderim quod Græci celebrantes miris laudibus Pictano appellauerunt ex Adriatico sinu.*
+Non mi estenderò à far mentione de i luoghi in particolare: ma solo dirò che il vino del vipaco non lontano da Gloriatia hà virtù di rendere le donne alla generatione, onde nella vicina Germania, che tutto quasi ve l'assorbe, è nato il prouerbio. Vipocher chender mocher.
+Siede in mezo à i due cornucopia, come dicemmo, percioche è commune conditione di produrre tutte le sorti di biade, legumi, e per fino à risi, che se bene non rende questa terra tanti per vno quanto le fertilissime, tutta volta in alcuna parte di lei non cede à molt' altre: ma questo è marauiglioso in essa, & gli si può ascriuere à singolar fertilità, poiche in quei medesimi campi, oue le vigne porgono le loro vue si semina il formento, e dopo quello il miglio, ouero il formentone, doue che tutte tre queste raccolte si fanno in vn'anno medesimo; di maniera, che se in altre regioni la terra produce più grano, hà bisogno poi di riposarsi, nè suole in quell'anno istesso d'altre biade caricar i granai del padrone: ma questa con tutto che rade volte gli si dia tregua, non suole ( essendo debitamente lauorata) defraudare la speranza de l'agricoltore.
+Genera parimente tutte le sorte de' frutti d'alberi, & si ad ogni artificio, che in questo genere vsar si può, si ancora alle piante peregrine si proua essere molto arendeuole, intanto che è per copia, & per bontà si può aguagliare à qualunque altra, & pur di sopra à molt'altre ancora, come ne rende testimonio Atheneo nel lib. 3. che parlando de' pomi così dice.
+*Ego vero viri amici maxime omnium ea mala quæ Romæ venduntur Mutiana dicta sum admiratus quæ ex pago quodam in Alpibus Aquileiæ constituto as portari dicuntur.*
+Il libro che tiene con la destra mano, ne dimostra, che questa Prouincia è feconda di belli ingegni, li quali, & in prosa, & in verso, & in tutte le facoltà sono stati celebri, & ne gli scritti loro hanno lasciato nobilissima testimonianza della loro dottrina, come furono i Paoli Veneti, i Diaconi, gli Alberti, i Moroni, gli Amasei, i Robertelli, i Deciani, i Gratiani, i Cortoni, i Candidi, i Susani, i Lusini, gli Aregoni, i Rorai, gli Astemij, i Parthenij, i Valscasoni, i Frangipani, & altri infiniti per lasciar da parte quelli che sono in vita.
+Et per essere opportuna alle cacciagioni, gli si mettono per su edimostrationi i coturni, come quelli di Diana, & finalmente, perche nella parte sua Australe termina in acque, & paludi se gli fingono alli piedi le cannuccie, & i giunchi.
+
+Колонтитул: ICONOLOGIA 282
+Кустод: CORSI-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0304 · с. 283
+
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: D]ONNA di aspetto rozzo sopra di eminente sasso circondato d'acqua, in capo hauerà vna ghirlanda di foglie di viti, sarà armata, & con la destra mano terrà vna corsesca, dalla parte destra vi sarà vn cane corso: ma che sia grande, & in vista feroce, secondo che narra Plinio libro terzo capitolo quinto.
+La Corsica è Isola nel mar Ligustico, & fù primieramente nominata da Greci Cyrnus, come dimostra Strabone lib. 5. & Virgilio nell'egloga 9. quando dice:
+*Sic tua Cyrneas fugiant examina taxos.*
+Et vogliono alcuni che acquistasse questo nome da Cirno figliuolo d'Hercole e fratello di Sardo, il quale passando dalla Libia à questo luogo, e quiui fermatosi volse che da lui fosse con questo nome addimandato, essendo
+
+Колонтитул: DI CESARE RIPA. CORSICA. 283
+Кустод: che pri-
+Сигнатура: S 4
+Маргиналии:
+
+## Скан 0305 · с. 284
+
+che prima era detta Terafine, come narra Nicolò Perotto.
+Poscia fù ella dimandata Corsica, da vna donna così chiamata, la quale era passata in quell'Isola in cercare vn suo vitello perduto, & ritrouatolo quiui, & aggradendogli il luogo vè si fermò, e tanto piacquero gli suoi costumi alli rozzi habitatori, che nominorno l'Isola dal suo nome. Altri dicono che ella fusse così nominata da Corso, quiui fatto da Corso valentissimo huomo, il quale lungo tempo tenne la signoria di quel Paese, & frà molti che scriuono di questa Isola Dionisio dice, che ella acquistasse il nome di Corsia dalla gran moltitudine delle cime de' monti; percioche questo nome Corso in Greco, & in Latino denota le tempie de capi, come se dicesse l'Isola delle tempie de' monti.
+Dipingesi sopra l'eminente sasso, perche questa Isola è molto mal disposta da coltiuare, si per i sassi, come anco per esserci altissimi luoghi, come dice Rutilio nel 1. lib. del suo Itinerario così.
+*Incipit obscuros ostendere Corsica montes*
+*Nubiferumque caput concolor vmbra leuat.*
+Si rappresenta di aspetto rozzo, percioche gli habitatori di questa Isola per lo più sono di costumi poco ciuili, che così dice Strabone nel lib. 5.
+La ghirlanda di vite dimostra che questa Isola produce delicati vini, i quali in Roma, & in molti altri luoghi d'Italia sono di molta stima.
+Si dipinge, che sia armata, & che con la destra mano tenga vna corsesca per esser dette armi molto vsate dalli Corsi, li quali sono stimati buoni, & valorosi soldati.
+Gli si dipinge à canto il cane nella forma, che dicemmo, percioche dell'Italia, quiui sono li maggiori, & più feroci contra gl'animali, li quali ne vanno in molti luoghi stimati assai per la bontà, & ferocità, e bellezza loro.
+[ЗАГОЛОВОК: SARDEGNA.]
+[ИНИЦИАЛ: D]ONNA di corpo robusto, & di color gialliccio sopra d'vn sasso in forma della pianta d'vn piede humano circondato dall'acqua. Hauerà in capo vna ghirlanda d'oliuo. Sarà vestita di color verde. Hauerà à canto vn'animale chiamato musalo, il quale come dice Frà Leandro Alberti nella descrittione, che fà di quest'Isola hà la pelle, & i piedi come cerui, & le corna simili à quelle del montone, mà riuolte à dietro circonflesse, e di grandezza d'vn mediocre ceruo, terrà con la destra mano vn mazzo di spighe di grano, & con la sinistra, dell'herba chiamata dal Mattiolo, Sardonia ò Ranuncolo, che è simile all'Appio saluatico. Plinio nel 3. lib. cap. 7. dimostra con l'auttorità di Timeo, fusse chiamata la Sardegna Sandalioton dalla figura, & somiglianza che tiene della scarpa, la quale da' Greci è detta Sandialonen, & da Marsilio Iehnusa, per esser ella fatta à simiglianza del vestigio del piede humano, che per tal dimostratione dipinghiamo la sudetta imagine sopra il sasso, nella forma del piede, che dicemmo, & per denotare, che questo luogo sia Isola la circondamo con l'acqua come hauemo dimostrato di sopra.
+
+Колонтитул: ICONOLOGIA 284
+Кустод: Dicesi
+Сигнатура: 
+Маргиналии:
+
+## Скан 0306 · с. 285
+
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: D]ICESI anco, che ella acquistasse nome di Sardegna, da Sardo, figliuolo di Hercole, & di Thespia, che quiui passò dalla Libia, con molti compagni, si dipinge di corpo robusto, & sopra il sasso perche i Sardi sono huomini di corpo robusto, & di costumi duri, & rustici, & alle fatiche molto disposti:
+Di color gialliccio si dipinge, per caggione non solo dell'ardor del Sole ma come dice Strabone nel lib. 5. in quest'Isola sempre vi fà cattiua aria, e massime nel tempo dell'Estate, nel quale si vede sempre rossa, & grossa, mà più doue si caua il grano, & altri frutti, che sono luoghi più bassi.
+Se gli dà la ghirlanda di oliuo, percioche viuono trà loro molto pacificamente. Non vsano armi percioche frà di loro non fanno guerra, ne anco niuno artefice è nell'Isola, che faccia spade, pugnali, ò altre armi, ma se ne
+
+Колонтитул: DI CESARE RIPA. SARDEGNA. 285
+Кустод: vogliono,
+Сигнатура: 
+Маргиналии:
+
+## Скан 0307 · с. 286
+
+vogliono, ne pigliano nella Spagna, o in Italia.
+Il color verde del vestito, denota ( come mostra Strabone lib. 5.) esser questo luogo fertile di tutte le cose.
+Tien con la destra mano le spighe del grano, perche quiui ne abonda in quantità, & se i Sardi attendessero meglio che non fanno à coltiuar la terra, raccoglierebbero tanto grano, che superarebbe quest'Isola la Sicilia.
+Se gli dà l'herba Sardonia, ò Ranuncolo, che dir vogliamo, come cosa segnalata, la quale ( come racconta Mattiolo ) chi la mangia more come in atto di ridere per causa delli neruì, che li ritirano, & da tale effetto è tratto il prouerbio del riso Sardonio.
+Gli si mette à canto il sopradetto animale, perche ( come racconta il sopradetto F. Leandro) in niun'altro luogo di Europa si troua eccetto che in Corsica, & in questa Isola. Et anticamente li Sardi vsauano le pelle di tale animale, per loro armatura, & di essi ve n'è in tanta copia che gli Isolani per trarne le pelli, & acconcie che l'hanno, & fattone cordouani, ne fanno mercantia in quà, & in là per tutta l'Italia con gran guadagno oltre l'vtile che ne cauano per l'vso lor del viuere, essendo essi animali bonissimi à mangiare.
+[ЗАГОЛОВОК: SICILIA.]
+[ИНИЦИАЛ: V]NA bellissima donna vestita d'habito sontuoso, & ricco, che sieda sopra d'vn luoco in forma triangolare, circondato dall'acqua, hauerà adornato il capo di vna bellissima acconciatura di varie, & ricche gemme, terrà con la destra mano vn caduceo, con la sinistra vn mazzo di varij fiori, & frà essi vi saranno mescolati alcuni papaueri.
+Gli siano à canto due gran fasci di grano, & vno della mirabil canna Emdosia hoggi detta canna mele, di cui si fà il zuccaro, & da vn lato vi sia il monte etna dal quale esca fumo, & fiamme di fuoco.
+La Sicilia (come scriue Strabone nel libro sesto) fù chiamata Trinacria, & il medesimo afferma Trogo da i trè promontorij, che mirano à tre parti del mondo, che sono il Peloro, il Pachino, & Lilibeo. Onde sopra di ciò Ouidio nel 13. lib. delle sue Metamorphosi così dice.
+*Sicaniam tribus hac excurrit in æquora linguis,*
+*Equibus imbriferos versa est Pachynos ad austros*
+*Mollibus expositum Zephyris Lilybæon ad arctos*
+*Aequoris expertes, spectat Boreamq. Pelorus*
+Fù anco per maggior consonanza chiamata Trinacris di cui dice Ouidio nel 4. de Fasti.
+*Terra tribus scopulis vastum procurrit in æquor*
+*Trinacris à positu nomen adepta loci*
+Poi trasse il nome di Triquestra, che ciò riferisce Plinio nel 3. lib. dalla forma triangolare, che per ciò rappresentiamo la pittura di questa imagine supra il luogo triangolare.
+Pigliò anco il nome di Sicania, come narra Diodoro con l'autorità di
+
+Колонтитул: ICONOLOGIA 286
+Кустод: Timeo,
+Сигнатура: 
+Маргиналии:
+
+## Скан 0308 · с. 287
+
+[ГРАВЮРА: без подписи]
+Timeo dicendo che fusse così dimandata dalli Sicani antichissimi habitatori di essa li quali dall'Isola si partirono per le continue ruine, che faceuano i fuochi.
+Alfine fù detta Sicilia, come mostra Polibio, & Dionisio dalli Siculi antichissimi, & molto potenti Popoli d'Italia.
+Bella si dipinge con habito suntuoso, & ricco per mostrare la nobiltà, e bellezza di tutta l'Isola nella quale vi sono ricche, & nobili Città, Terre, Ville, Castelli, & altri luoghi di marauiglia, che ciò così dice Ouidio.
+*Grata domus Cereri, multas ea possidet Vrbes.*
+La bella acconciatura di capo con varie, & ricche gemme significano, come
+
+Колонтитул: DI CESARE RIPA. SICILIA. 287
+Кустод: come
+Сигнатура: 
+Маргиналии:
+
+## Скан 0309 · с. 288
+
+come li Sciliani siano d'acuto ingegno, e nobile nelle inuentioni.
+Tiene con la destra mano il caduceo, per mostrare la facondia che hanno nel parlare, & che con la forza del loro ingegno, fossero inuentori dell'arte oratoria, de i versi buccolici, pastorali, & di molte altre cose degne di memoria; & Silio Italico nel 14. lib. sopra di ciò così dice.
+*Hic Phœbo dignum, & Musis venerabile Vatum*
+*Ora excellentum sacras qui carmine syluas*
+*Quiq. Syracusia resonant Helicona Camœna*
+*Prompta gens lingua, ast eadem cum bella eieret*
+*Portus æquoreis sueta insignire tropheis.*
+Il fascio delle canne mele, che gli sono à lato, & i papaueri con i varij fiori che tiene con la sinistra mano, dimostra la grandissima fertilità che è in questa felicissima Isola, il che afferma Strabone nel sesto libro, dicendo che non è punto inferiore à quasiuoglia altra Isola, & Prouincia d'Italia producendo copiosissimamente tutto quello, che si conuiene al viuere humano. Et Homero disse, che ogni cosa vi nasceua da se stessa; & Claudiano l'afferma à questo proposito così dicendo.
+*salue gratissima Tellus*
+*Quam nos prætulimus Cœlo tibi gaudia nostri*
+*Sanguinis, & caros vteri commendo labores*
+*Præmia digna manent, nullos patiere ligones*
+*Et nullo rigidi versabere vomeris ictu,*
+*Sponte tuus florebit ager cessante iuuenco*
+*Ditior oblatas mirabitur incola messes.*
+Gli si mettono li due gran fasci di grano à canto, come dicemmo, percioche in quest'Isola ve n'è in tanta copia, che in molti luoghi moltiplica con vsura grandissima; onde Cicerone à questo fine chiamò quest'Isola, granaro de' Romani.
+Gli si mette à canto il monte Etna, come cosa notabile di quest'Isola, e degna di farne mentione, poiche molti illustri Poeti ne parlano, tra quali Ouidio nel 4. de' Fasti così dice.
+*Alta iacet vasti super ora Typhœos Ætnæ,*
+*Cuius anhelatis ignibus ardet humus*
+*Illic accendit geminas pro lampade pinus,*
+*Hinc Cereris sacris nunc quoque tæda datur.*
+*Est specus exesi structura pumicis asper*
+*Non homini facilis, non adeunda feræ.*
+Et Lucano nel 2.
+*Ora ferox Sicula laxauit Mulciber Ætna*
+Et Silio nel 14.
+*At non æquus amat Trinacria Mulciber antra*
+*Nam Lipare vastis subter depasta caminis*
+*Sulphureum vomit exeso de vertice fumum*
+*Ast Ætna eructat tremefactis cautibus ignes*
+
+Колонтитул: ICONOLOGIA 288
+Кустод: Inclusi
 Сигнатура: 
 Маргиналии:
