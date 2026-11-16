@@ -90,6 +90,9 @@ const pages = [
   ...chapters.map(c => ['ch/' + c, R('ch/' + c)]),
   ...plates.map(i => ['plate/' + i, R('plate/' + i)]),
   ...names.map(i => ['names/' + i, R('names/' + i)]),
+  // Одран: обложка, «Таблицы», страницы таблиц (выборка), текст, подписи
+  ['audran/cover', BASE + '#/audran'], ['audran/plates', BASE + '#/audran/plates'],
+  ...['aud1', 'aud10', 'aud15', 'aud25', 'aud30'].map(i => ['audran/' + i, BASE + '#/audran/' + i]),
 ];
 
 (async () => {

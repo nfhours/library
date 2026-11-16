@@ -1703,6 +1703,9 @@ html.ic-hs-lock{overflow:hidden !important}
 /* гравюра в статье: не выше ~55% видимой высоты экрана (за вычетом шапки), по центру, пропорции сохранены */
 .ic .ic-rp .ic-fig img{display:block;margin:0 auto;width:auto;max-width:100%;height:auto;max-height:calc((100dvh - var(--ic-stack-full, 160px)) * .55)}
 .ic .ic-rp .ic-fig{display:flex;justify-content:center;flex-direction:column}
+/* Одран: таблица на ширину экрана, но не выше ~70% экрана; тап открывает полноэкранный просмотр (щипок) */
+.ic .ic-rp-aud .ic-fig{cursor:zoom-in}
+.ic .ic-rp-aud .ic-fig img{max-height:70vh;max-height:70dvh}
 /* просмотр одной гравюры (openImgFull) на базе .ic-svx */
 .ic-svx-one .ic-svx-feed{display:flex;align-items:center;justify-content:center;padding:8px}
 .ic .ic-svx-one .ic-svx-feed img{display:block;max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain}

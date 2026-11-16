@@ -7,9 +7,9 @@
         "original": "Les Proportions du corps humain"
     },
     "subtitle": {
-        "ru": "Жерар Одран, Париж, 1683 — классический справочник пропорций: 30 гравированных табличек с обмерами знаменитых античных статуй (Лаокоон, Геркулес Фарнезский, Венера Медичи, Аполлон Бельведерский и другие). Текста почти нет — вся ценность в самих гравюрах с нанесёнными линиями измерений: практический материал для рисующего фигуру художника. Источник: Internet Archive / Getty Research Institute.",
-        "en": "Gérard Audran, Paris, 1683 — a classic reference on proportion: 30 engraved plates measuring famous antique statues (the Laocoön, the Farnese Hercules, the Venus de' Medici, the Apollo Belvedere and others). The book carries almost no text; its value is in the engravings themselves, with measurement lines overlaid — practical material for an artist drawing the figure. Source: Internet Archive / Getty Research Institute.",
-        "fr": "Gérard Audran, Paris, 1683 — un classique de référence sur les proportions : 30 planches gravées mesurant de célèbres statues antiques (le Laocoon, l'Hercule Farnèse, la Vénus de Médicis, l'Apollon du Belvédère et d'autres). Le texte est presque absent — toute la valeur réside dans les gravures elles-mêmes, avec leurs lignes de mesure : un matériel pratique pour l'artiste dessinant la figure. Source : Internet Archive / Getty Research Institute."
+        "ru": "Жерар Одран, Париж, 1683 — классический справочник пропорций: 30 гравированных таблиц с обмерами знаменитых античных статуй (Лаокоон, Геркулес Фарнезский, Венера Медичи, Аполлон Пифийский и другие). Ценность — в самих гравюрах с нанесёнными линиями измерений: материал для художника, рисующего фигуру.",
+        "en": "Gérard Audran, Paris, 1683 — a classic reference on proportion: 30 engraved plates measuring famous antique statues (the Laocoön, the Farnese Hercules, the Venus de' Medici, the Pythian Apollo and others). Its value lies in the engravings themselves, with measurement lines overlaid — material for an artist drawing the figure.",
+        "fr": "Gérard Audran, Paris, 1683 — un classique de référence sur les proportions : 30 planches gravées mesurant de célèbres statues antiques (le Laocoon, l'Hercule Farnèse, la Vénus de Médicis, l'Apollon Pythien et d'autres). Sa valeur tient aux gravures elles-mêmes, avec leurs lignes de mesure : un matériel pour l'artiste qui dessine la figure."
     },
     "author": "Gérard Audran",
     "year": 1683,
@@ -19,6 +19,19 @@
     "showOriginal": false,
     "sourceIsFrench": true,
     "source_url": "https://archive.org/details/gri_proportionsd00audr",
-  "libAuthor": {"ru": "Жерар Одран", "en": "Gérard Audran", "fr": "Gérard Audran"},
-  "libTitle": {"ru": "Пропорции человеческого тела", "en": "Proportions of the Human Body", "fr": "Les Proportions du corps humain"}
+    "libAuthor": {
+        "ru": "Жерар Одран",
+        "en": "Gérard Audran",
+        "fr": "Gérard Audran"
+    },
+    "libTitle": {
+        "ru": "Пропорции человеческого тела",
+        "en": "Proportions of the Human Body",
+        "fr": "Les Proportions du corps humain"
+    },
+    "libDesc": {
+        "ru": "Справочник пропорций: обмеры античных статуй",
+        "en": "A reference on proportion: measured antique statues",
+        "fr": "Référence sur les proportions : statues antiques mesurées"
+    }
 }
