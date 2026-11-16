@@ -23,3 +23,8 @@
 | 0244 | 223 | souo | sono | перепутанная буква |
 | 0251 | 230 | iugiuria | ingiuria | перепутанная буква |
 | 0254 | 233 | sosteguo | sostegno | перепутанная буква |
+| 0271 | 250 | Genona | Genoua | перепутанная буква |
+| 0278 | 257 | Franceco | Francesco | пропущена буква |
+| 0278 | 257 | Imperaratrici | Imperatrici | прочее |
+| 0281 | 260 | torus | totus | перепутанная буква |
+| 0286 | 265 | sihnifica | significa | перепутанная буква |
