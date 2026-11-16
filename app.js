@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "217";
+  var APP_VER = "218";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -342,6 +342,7 @@
     audTablesSub: {ru:"Все гравированные таблицы: {n}", en:"All the engraved plates: {n}", fr:"Toutes les planches gravées : {n}"},
     // единицы обмеров — строго по предисловию Одрана (preface.json, блок 35)
     audUnits:     {ru:"Цифры на гравюре — размеры частей тела. Мерой служит голова статуи: она делится на 4 части (p.), часть — на 12 долей, «минут» (m.). Например, «2 p. 3 m.» — две части и три минуты, чуть больше половины головы.", en:"The figures on the engraving are the sizes of the parts of the body. The unit is the statue’s head: it is divided into 4 parts (p.), and each part into 12 smaller units, “minutes” (m.). For example, “2 p. 3 m.” means two parts and three minutes, a little more than half a head.", fr:"Les chiffres de la gravure donnent la taille des parties du corps. L’unité est la tête de la statue : elle se divise en 4 parties (p.), et chaque partie en 12 petites unités, les « minutes » (m.). Par exemple, « 2 p. 3 m. » signifie deux parties et trois minutes, un peu plus d’une demi-tête."},
+    audHowTo:     {ru:"Как читать цифры", en:"How to read the numbers", fr:"Comment lire les chiffres"},
     audUnitsFt:   {ru:"Цифры на гравюре — размеры частей тела. Эта небольшая статуя обмерена в футах, дюймах (p.) и линиях (l.): вся фигура — 45 дюймов 7 линий, что равно 30 частям головы.", en:"The figures on the engraving are the sizes of the parts of the body. This small statue is measured in feet, inches (p.) and lines (l.): the whole figure is 45 inches 7 lines, which equals 30 parts of the head.", fr:"Les chiffres de la gravure donnent la taille des parties du corps. Cette petite statue est mesurée en pieds, pouces (p.) et lignes (l.) : la figure entière fait 45 pouces 7 lignes, ce qui égale 30 parties de tête."},
     rpTabArticles:{ru:"Статьи", en:"Articles", fr:"Articles"},
     rpArtSub:     {ru:"Все статьи в двух частях: {n}", en:"All articles in two parts: {n}", fr:"Tous les articles en deux parties : {n}"},
@@ -2868,7 +2869,7 @@
     }).join("");
     root.innerHTML = ripaShell(book, "plates", "")+
       '<div class="ic-wrap ic-rp'+(aud ? " ic-rp-aud" : "")+'"><div class="ic-top-row">'+langSwitch()+'</div>'+
-        '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(aud ? t("audTables") : t("hmGallery"))+'</h1></header>'+html+'</div>';
+        '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(aud ? t("audTables") : t("hmGallery"))+'</h1>'+(aud ? '<p class="ic-sub ic-aud-intro">'+esc(t("audUnits"))+'</p>' : "")+'</header>'+html+'</div>';
     ripaBind(book, gen, rbSheets);
     root.querySelectorAll(".ic-gal").forEach(function(g){ g.addEventListener("click", function(e){
       var a = e.target.closest(".ic-gal-item");
@@ -2966,7 +2967,11 @@
         }).join("");
     var captionLine = it.caption && !aud ? '<p class="ic-caption"><b>'+esc(t("captionLbl"))+'</b> '+esc(it.caption)+'</p>' : "";
     // Одран: под гравюрой — единицы обмеров (aud13 «Мир греков» обмерен в футах/дюймах/линиях; aud29–30 — головы без обмеров)
-    if(aud && it.id!=="aud29" && it.id!=="aud30") captionLine = '<p class="ic-aud-units">'+esc(t(it.id==="aud13" ? "audUnitsFt" : "audUnits"))+'</p>';
+    // Одран: пояснение к цифрам. Общее — на странице «Таблицы»; здесь — ссылка «Как читать цифры», открывающая его в тёмной шторке.
+    // aud13 «Мир греков» (футы/дюймы/линии) — своё пояснение видно под гравюрой; aud29–30 — головы без обмеров: ничего.
+    var audHelp = aud && it.id!=="aud13" && it.id!=="aud29" && it.id!=="aud30";
+    if(aud && it.id==="aud13") captionLine = '<p class="ic-aud-units">'+esc(t("audUnitsFt"))+'</p>';
+    else if(audHelp) captionLine = '<button type="button" class="ic-aud-howto" data-rb="audhelp" aria-pressed="false">'+esc(t("audHowTo"))+'</button>';
     var attrs=(it.attrs||[]).map(function(a){
       var what = state.lang==="fr" ? (a.what_frtrans || a.what_en || a.what) : state.lang==="en" && a.what_en ? a.what_en : a.what;
       var meaning = state.lang==="fr" ? (a.meaning_frtrans || a.meaning_en || a.meaning) : state.lang==="en" && a.meaning_en ? a.meaning_en : a.meaning;
@@ -3001,7 +3006,8 @@
         (aud ? "" : '<button type="button" class="ic-rbar-scan" data-rb="scan" aria-pressed="false"'+(rpHasOrig?"":" disabled")+'>'+esc(t("svScan"))+'</button>')+
         '<button type="button" class="ic-rbar-nv" data-nav="prev" data-go="'+(prev?prev.id:"")+'"'+(prev?' title="'+esc(titleOf(prev))+'"':" disabled")+'>'+t("navPrev")+'</button>'+
         '<button type="button" class="ic-rbar-nv" data-nav="next" data-go="'+(next?next.id:"")+'"'+(next?' title="'+esc(titleOf(next))+'"':" disabled")+'>'+t("navNext")+'</button>'+
-      '</div>'+langSwitch() : "";
+      '</div>'+langSwitch()+
+      (audHelp ? rbSheetHtml("ic-aud-help", "ic-aud-help-sheet", "", '<div class="ic-aud-help-body"><p>'+esc(t("audUnits"))+'</p></div>') : "") : "";
     var rpPager = rp ?
       '<div class="ic-pager ic-rp-pager">'+
         (prev ? '<button type="button" class="ic-rp-nb ic-rp-nb-prev" data-go="'+prev.id+'">'+RP_CHEV_L+'<span class="ic-rp-nb-t"><small>'+t("rpPrevFull")+'</small><span>'+esc(titleOf(prev))+'</span></span></button>' : '<span></span>')+
@@ -3042,6 +3048,10 @@
 
     if(rp) ripaBind(book, renderGen, rpSheets);
     else bindLangSwitch(root);
+    if(audHelp){
+      var helpBtn = root.querySelector('[data-rb="audhelp"]'), helpEl = root.querySelector("#ic-aud-help");
+      if(helpBtn && helpEl){ var helpApi = makeRbSheet(helpEl, helpBtn, {registry: rpSheets}); helpBtn.addEventListener("click", function(){ helpApi.toggle(); }); }
+    }
     var backEl = root.querySelector(".ic-back");
     if(backEl) backEl.addEventListener("click",function(){
       goIndex(book);
