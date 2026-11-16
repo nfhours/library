@@ -15,3 +15,6 @@
 | 0171 | 150 | oon | con | перепутанная буква |
 | 0183 | 162 | qeustion | question | перестановка букв |
 | 0189 | 168 | apparentenente | apparentemente | перепутанная буква |
+| 0194 | 173 | Fragilitd | Fragilità | перепутанная буква |
+| 0194 | 173 | discoueniente | disconueniente | пропущена буква |
+| 0202 | 181 | ranto | tanto | перепутанная буква |

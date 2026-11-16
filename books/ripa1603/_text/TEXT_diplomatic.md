@@ -2823,7 +2823,7 @@ I fiori sono inditio d'allegrezza,dalla quale il felice stato non si diuide giam
 [ИНИЦИАЛ: G]IOVANE ignuda,con le treccie d'oro,coronata di lauro sia bella,& risplendente,sederè sopra il cielo stellato, tenendo vna palma nella sinistra mano,& nella destra vna fiamma di fuoco, alzando gl'occhi in alto , con segni d'allegrezzà .
 Giouane si depinge, percioche la felicità eterna non hà seco,se non allegrezza perpetua , sanità vera,bene incorrotto , & tutte le gratie particolari , che seguono la giouentù , & delle quali l'altre età sono molte difettose .
 Si fà ignuda , perche non hà bisogno di velarsi delle cose caduche della terra,ò per souuenire alla vita, ò per ornarsi, ma tutto il ben suo , & l'altrui nasce immediatamente da lei medesima .
-I capelli d'oro sono i pẽsieri soaui di sẽpiterna pace, & sicura cōcordia. In questo significato è pigliato l'oro āãcora da Poeti,che è la prima età incorrotta da gl'huomini , quando si viueua senza contaminare le leggi .
+I capelli d'oro sono i pẽsieri soaui di sẽpiterna pace, & sicura cōcordia. In questo significato è pigliato l'oro ãcora da Poeti,che è la prima età incorrotta da gl'huomini , quando si viueua senza contaminare le leggi .
 Ponsi à sedere sopra il cielo stellato , per dimostrare , che la vera felicità
 
 Колонтитул: 154 ICONOLOGIA
@@ -3130,5 +3130,537 @@ Il leone azzuffato con il cignale,dice Pierio Valeriano lib. 2. che significa la
 
 Колонтитул: 168 ICONOLOGIA
 Кустод: Fortezza
+Сигнатура: 
+Маргиналии:
+
+## Скан 0190 · с. 169
+
+[ЗАГОЛОВОК: Fortezza, & valore del corpo congionto con la prudenza, & virtù dell'animo.]
+[ИНИЦИАЛ: D]Onna armata di corazza, elmo, & scudo, nella destra mano habbia vna spada ignuda, intorno alla quale vi sia con bei giri auuolto vn serpe,&sopra l'elmo habbia vna corona di lauro cõ oro intrecciata, con vn motto per cimiero, che dica: *HIS FRVGIBVS*. La spada significa la fortezza,& valor del corpo,e la serpe la prudenza, & virtù dell'animo, cõ le quali due virtù spesse volte si vedono salire l'huomini di vile conditione alla trionfal corona d'alloro,cioè ad alti honori della militia.
+[ЗАГОЛОВОК: Fortezza del corpo congiunta con la generosità dell'animo.]
+[ИНИЦИАЛ: D]Onna armata,come s'è detto;nella destra tega la claua d'Hercole,in capo per elmo vna testa di leone,si come si vede nelle statue antiche.
+[ЗАГОЛОВОК: FORTVNA.]
+[ИНИЦИАЛ: D]ONNA con gl'occhi bendati,sopra vn'albero,con vn'asta assai lunga percuota i rami d'esso,& ne cadano varij istromenti appartenenti à varie professioni,come scettri, libri, corone, gioie,armi,&c.Et così la dipinge il Doni. Alcuni dimandano Fortuna quella virtù operatrice delle stelle,le quali variamente dispongono le nature de gl'huomini, mouendo l'appetito sensitiuo, & per mezo di quello inclinado anco in certo modo senza sforzarlo l'appetito ragioneuole, in modo che non ne senta violenza nell'operare:ma in questa figura si pigli solo per quel successo casuale, che può essere nelle cose, che senza intentione dell'agente rarissime volte suol auuenire,il quale per apportare spesse volte,ò gran bene, ò gran male, gli huomini che non sanno comprendere, che cosa alcuna si possa fare senza l'intentione di qualche agente, hanno con l'imaginatione fabricata come signora di quest'opre questa che dimandano Fortuna ; & è per le bocche dell'ignoranti continuamente. Si dipinge cieca communemente da tutti gl'autori gentili,per mostrare che non fauorisce più vn'huomo che vn'altro,ma tutti indifferemente ama,& odia,mostrandone que'segni che'l caso le appresenta, quindi è ch'essalta bene spesso a'primi honori vn scelerato,che sarebbe degno di supplicio,& vn'altro meriteuole lascia cadere in miseria,e calamità.Però questo dico secondo l'opinione de'gentili,e che suole seguir il volgo ignorante,che non sa più oltre: ma la verità è,che il tutto dispone la diuina prouidenza,come insegna S.Tomaso lib.3. contra gentes cap.92.citato di sopra. Gli huomini che stanno intorno all'albero danno testimonio di quel detto antico che dice: *Fortuna sua quisque faber*,perche se bene alcuno potesse esser(come si dice)ben fortunato,nondimeno s'egli non è giuditioso in drizzare il camino della vita sua per loco conueniente,non è possibile,che venga à quel fine,che desideraua nelle sue operationi.
+[ЗАГОЛОВОК: Fortuna.]
+[ИНИЦИАЛ: D]Onna à sedere sopra vna palla , & à gl'homeri porta l'ali.
+[ЗАГОЛОВОК: Fortuna.]
+[ИНИЦИАЛ: D]Onna co'l globo celeste in capo,e in mano il cornucopia.Il globo celeste dimostra, si come egli è in continuo moto , così la fortuna sempre si moue,e muta faccia à ciascuno hor'inalzãdo,& hor'abbassãdo,e perche
+
+Колонтитул: DI CESARE RIPA. 169
+Кустод: pare
+Сигнатура: L 3
+Маргиналии:
+
+## Скан 0191 · с. 170
+
+pare che ella sia la dispensatrice delle ricchezze, & delli beni di questo mondo ; però se le fa anco il cornucopia, per dimostrare , che non altrimenti quelli girano di mano in mano , che faccia il globo celeste , onde disse Ausonio Gallo : *Fortuna nunquam sistit in eodem statu semper mouetur, variat , & mutat vices , & summa in imum vertit,ac versa erigit .* Può anco significare il Globo , che la Fortuna vien vinta , & superata dalla dispositione celeste , la quale è cagionata , & retta , dal Signore della Fortuna , & della Natura , secondo quello ch'egli ha ordinato ab eterno.
+[ЗАГОЛОВОК: Fortuna buona.]
+[ЗАГОЛОВОК: Nella medaglia di Antonino Geta.]
+[ИНИЦИАЛ: D]Onna à sedere , che si appoggia con il braccio destro sopra vna ruota , in cambio del globo celeste , & con la sinistra mano tiene vn cornucopia .
+[ЗАГОЛОВОК: Fortuna infelice.]
+[ИНИЦИАЛ: D]Onna sopra vna naue senza timone , & con l'albero , & la vela rotti dal vento .
+La naue è la vita nostra mortale, la quale ogn'huomo cerca di condurre à qualche porto tranquillo di riposo ; la vela , e l'albero spezzato , & gl'altri arnesi rotti , mostrano la priuatione della quiete , essendo la mala fortuna vn successo infelice , fuor dell'intedimento di colui che opera per elettione .
+[ЗАГОЛОВОК: Fortuna gioueuole ad Amore.]
+[ИНИЦИАЛ: D]Onna la quale con la mano destra tiene il cornucopia,& la sinistra sarà posata sopra al capo di vn Cupido , che le scherzi d' intorno alla veste .
+[ЗАГОЛОВОК: Fortuna pacifica , ouero clemente .]
+[ЗАГОЛОВОК: Nella medaglia di Antonino Pio.]
+[ИНИЦИАЛ: V]Na bella donna in piedi , che con la destra mano si appoggi sopra vn timone , & con la sinistra tiene vn cornucopia con lettere.COS. IIII. Et altre FORTVNA OPSEQVEN. ET S. C. Fù rappresentata questa Fortuna in Roma nel consolato quarto di Antonino Pio , non ad altro fine , che à gloria , & honor suo , dimostrandosi per questa figura la sua prospera,e benigna Fortuna,ilche le lettere intorno ad essa l'esprimono , significandosi per quelle essere à questo Prencipe la Fortuna obediente , & compiaceuole ; & quantunque varij siano nel mondo gli mouimenti di quella , essendo la Fortuna, secondo i Gentili, vna Dea mutatrice de'Regni , & subita volgitrice delle cose mondane; nondimeno per dimostrare la felicità dell'Imperio di questo Prencipe gli segnorno nel riuerso della sopradetta medaglia , vna buona, & serena Fortuna pacifica.
+La Dea Fortuna oltre molti altri cognomi , fu anco da i Romani chiamata Obsequens , cioè indulgente , ouero clemente , si come nelle antiche inscrittioni si legge , & particolarmente à Como si troua in vn sasso , in cui queste lettere si veggono scritte . *Fortuna obsequenti ord.*
+*Comens,voto pro salute Ciuium suscepto.* Vedi Sebastiano Erizzo .
+
+Колонтитул: 170 ICONOLOGIA
+Кустод: Fortuna.
+Сигнатура: 
+Маргиналии:
+
+## Скан 0192 · с. 171
+
+[ЗАГОЛОВОК: Fortuna.]
+[ИНИЦИАЛ: D]Onna che con la destra mano tiene vn cornucopia , & vn ramo d'alloro, con la sinistra mano s'appoggia ad vn timone ; significando , ch'ella fa trionfare chiunque vuole , & la dimostratione di ciò si rappresenta con il ramo dell'alloro .
+[ЗАГОЛОВОК: Fortuna aurea .]
+[ЗАГОЛОВОК: Nella medaglia d'Adriano .]
+[ИНИЦИАЛ: V]Na bellissima donna , che giace in vn letto sternio con vn timone alli piedi .
+Questa è quella Fortuna aurea , che in camera de gl'Imperadori si soleua ponere mentre viueuano , & che reggeuano l'Imperio, come per la loro Fortuna .
+[ЗАГОЛОВОК: FORZA.]
+[ИНИЦИАЛ: D]ONNA robusta,con le corna di toro in testa,à canto terrà vn'elefante,con la probosside dritta; perche volendo l'Egittij significare vn'huomo forte lo dimostrauano con quest'animale, come si legge in Oro Egittio nel lib.secondo de'suoi Ieroglifici;le corna ancora,e spetialmente il toro,mostrano questo medesimo;onde Catone presso à Cicerone nel libro della vecchiezza dice che quando egli era giouane non desideraua le forze ne d'vn toro,ne d'vn elefante, prendendo questi due animali come più forti , & gagliardi de gl'altri .
+[ЗАГОЛОВОК: Forza d'Amore .]
+[ИНИЦИАЛ: C]Vpido con l'ali alle spalle , con l'arco, & le saette in mano , & con la faretra al fianco,la mano sinistra alzata verso il Cielo , donde scendono alcune fiamme di fuoco , insieme con molte saette spezzate, che gli piouano intorno da tutte le bande,mostrandosi così, che Amore può tanto che rompe la forza di Gioue,& incende tutto il mondo , così è dipinto dall'Alciato in vno Emblema , così dicendo :
+Aligerum fulmen fregit Deus aliger,igne Dum demostrat [?][?] est,fortior ignis Amor ,
+Per significare questo medesimo,l'istesso auttore descriue Amore in vn carro tirato da leoni,come si vede nell'istesso luogo .
+[ЗАГОЛОВОК: Forza d'Amore si nell'acqua come in terra .]
+[ИНИЦИАЛ: F]Anciullo ignudo , con l'ali à gl'omeri, con la destra mano tiene vn pesce , & con la sinistra vn mazzo di fiori , così l' Alciati dal Greco lo tradusse .
+Nudus Amor vidē,vt ridet placidũq;tuetur? Altera,sed manuũ flores gerit,altera pisceẽ,
+Nec faculas,nec qua cornua flectat habet, Scilicet vt terræ iura,det,atque mari.
+[ЗАГОЛОВОК: Forza minore , da maggior forza superata.]
+[ИНИЦИАЛ: P]Er esprimere gl'antichi questo concetto , il quale è piu conueniente all'emblema,che à quello che si appartiene à noi di trattare , dipingeuano vna pelle d'hiena,con vn'altra di Pantera appresso,per l'esperienza che si vede nella contrarietà di questi due animali , & per l'effetto delle loro pelli , perche stando vicine quelle della hiena si guasta , & corrompe quella della pantera,ilche auuiene ancora nelle penne dell'aquila , le
+
+Колонтитул: DI CESARE RIPA. 171
+Кустод: quali
+Сигнатура: L 4
+Маргиналии:
+
+## Скан 0193 · с. 172
+
+[ГРАВЮРА: FORZA D' AMORE SI NELL' ACQVA come in Terra.]
+quali auuicinate alle penne de gl'altri vcelli,fanno che si tarmano,& vanno in pezzi . Il tutto racconta diffusamente Pierio Valeriano . Però volendosi rappresentare vna forza dall'altra superata, si potrà fare , conporre dinanzi à gl'occhi la memoria di questi effetti, in quel miglior modo,che al pittore parerà , che possa dilettare , e star bene.
+[ЗАГОЛОВОК: Forza.]
+[ИНИЦИАЛ: D]Onna armata di corazza, & elmo in capo , con la destra mano tenghi vna spada ignuda, & con la sinistra vna facella accesa,& à canto vi sia vn leone che stia in atto fiero,& che vccida vn'agnello.
+
+Колонтитул: 172 ICONOLOGIA
+Кустод: FRAGI-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0194 · с. 173
+
+[ЗАГОЛОВОК: FRAGILITA.]
+[ИНИЦИАЛ: D]ONNA che in ciascuna mano tenga della cicuta, la quale è da Virgilio nella Buccolica dimandata fragile dicendo .
+*Hac te nos fragili donabimus ante cicuta* . Alla quale poi si assomigliano tutte le cose che meno hanno nome di fragilità.
+[ЗАГОЛОВОК: Fragilità.]
+[ИНИЦИАЛ: D]Onna vestita d'vn sottilissimo velo,nella destra mano tiene vn ramo di tiglio,& con la sinistra vn gran vaso di vetro sospeso ad vn filo . Il velo le conuiene perche ageuolmente si squarcia. Il tiglio da Virgilio nel libro secondo della Georgica è detto fragile,& il vaso di vetro sospeso dal filo,non ha bisogno d'altra dichiaratione, per essere il vetro ageuolmente bello, & facile à spezzarsi, fragile medesimamente è il sesso feminile , & si deue dare ancora la corrispondenza di questo .
+[ЗАГОЛОВОК: Fragilitd Humana.]
+[ИНИЦИАЛ: D]Onna con faccia macilente,& afflitta, vestita poueramente, tenga con ambe le mani molti di quei bamboli d'acqua agghiacciata,che pendono il verno da'tetti delle case , li quali bamboli dice il Pierio Valeriano che erano da gl'antichi Egittij posti per la fragilità dell'humanavita:non sarebbe anco discoueniente fare , che questa figura mostrasse, per la grauezza de gl'anni d'andare molto china appogiandosi ad vna fieuole canna,per essere anc'essa vero simbolo della fragilità,come la vecchiezza alla quale quando vn huomo arriua facilmẽte sente ogni minima lesione, & facilmente ne rimane oppresso . Notarono alcuni ancora la fragilità humana,con quelle bolle che fà l'acqua , che paiono in vn subito qualche cosa,ma tosto spariscono, & non senza ragione .
+[ЗАГОЛОВОК: FRAVDE.]
+[ИНИЦИАЛ: D]ANTE dipinge nel suo inferno la fraude con la faccia di huomo giusto,& con tutto il resto del corpo di serpente,distinto con diuerse macchie,e colori,e la sua coda ritirata in punta di scorpione,ricoperta nell'onde di Cocito,ouero in acqua torbida,e nera,così dipinta la dimãda Gerione,e per la faccia d'huomo giusto si comprende l'estrinseco de gli homini fraudolenti,essendo di volto,& di parole benigne,nell'habito modesti,nel passo graui,ne'costumi,& in ogn'altra cosa piaceuoli; nell'opere poi nascoste sotto il finto zelo di religione, & di charità, sono armati d'astutia,& tinti di macchie di sceleragine,talmente,che in ogni loro operatione alla fine si scopre piena di mortifero veleno,& si dice esser Gerione, perche regnando costui presso à l'Isole Baleari,con benigno volto,cõ parole carezzeuoli,e con ogni familiarità,era vso à riceuere i viandanti,e li amici,poi sotto color di quella cortesia,quando dormiuano l'vccideua,come raccontano molti scrittori antichi,e fra'moderni il Boccaccio nella geneologia de i Dei .
+[ЗАГОЛОВОК: Fraude.]
+[ИНИЦИАЛ: D]Onna cõ due faccie,vna di giouane bella,l'altra di vecchia brutta,farà nuda fino alle mãmelle,farà vestita di giallolino fin'à meza gãba , haurà i piedi simili all'aquila,e la coda di scorpione, vedẽdosi al par delle
+
+Колонтитул: DI CESARE RIPA. 173
+Кустод: gambe,
+Сигнатура: 
+Маргиналии:
+
+## Скан 0195 · с. 174
+
+[ГРАВЮРА: FRAVDE.]
+gambe,nella destra mano terrà due cuori,& vna maschera con la sinistra.
+Fraude è vitio che vuole inferire mancamẽto del debito offitio del bene,& abondanza d'inuentioni nel male,fingendo sempre il bene, & s'esseguisce col pensiero, con le parole,& con l'opere sotto diuersi inganneuoli colori di bontà , & ciò si dimostra con le due faccie .
+Il giallolino significa tradimento,inganno,& mutatione fraudolente.
+I due cuori significano le due apparenze,del volere,& non volere vna cosa medesima .
+La maschera dinota , che la Fraude fa apparire le cose altrimenti da quel che sono per compire i suoi desiderij.
+La coda di scorpione , & i piedi dell'aquila , significano , il veleno ascoso ,
+
+Колонтитул: 174 ICONOLOGIA.
+Кустод: coso,
+Сигнатура: 
+Маргиналии:
+
+## Скан 0196 · с. 175
+
+coso, che fomenta continouamente, come vcello di preda, per rapire altrui, ò la robba , ò l'honore.
+[ЗАГОЛОВОК: Fraude.]
+[ИНИЦИАЛ: D]Onna che tenga in mano vna canna con l'hamo , col quale habbia preso vn pesce, & altri pesci si vedano in vn vaso già morti, perciòche Fraude , ò inganno altro non è, che fingere di fare vna cosa buona , & fuori dell'opinione altrui farne vna cattiua , come fà il pescatore , che porgendo mangiare a'pesci , gli prende , & amazza .
+[ЗАГОЛОВОК: Fraude , de l'Ariosto.]
+Hauea vn piaceuol viso,habito honesto,
+Vn'humil volger d'occhi, vn'andar graue,
+Vn parlar sì benigno,e sì modesto
+Che parea Gabriel, che dicesse Aue
+Era brutta, e deforme in tutto il resto:
+Ma nascondea queste fatezze praue
+Con lungo habito, e largo, e sotto quello
+Attossicato hauea sempre il coltello.
+[ЗАГОЛОВОК: FVGA.]
+[ИНИЦИАЛ: D]ONNA con habito spedito , scappigliata, con l'ali alle spalle , & con vn fanciullo in braccio , & che stia in habito di fuggire .
+[ЗАГОЛОВОК: Fuga .]
+[ИНИЦИАЛ: D]Onna vestita leggiermente , alata , in atto di fuggire , con le treccie sparse , & che volti la schiena.
+Dipingesi alata, perche la Fuga non è Fuga se non con prontezza .
+Li capelli sparsi dinotano la poca cura , che si tiene di se stesso in caso di subita Fuga .
+Si veste d'habito leggiero, perche non deuo hauere cosa alcuna, che gli dia impedimento .
+Si fa con la schiena riuolta,perche in latina locutione voltar la schiena non vuol dir altro che fuggire .
+[ЗАГОЛОВОК: Fuga Popolare .]
+[ИНИЦИАЛ: D]Onna che similmente fugga : ma tenga con ambe le mani vno sciamo d'api, sotto il quale vi sia vn grandissimo fumo .
+Questo l'habbiamo per tal significato da gl'Egitij , & si vede per esperienza , che l'api da nessun'altra cosa , più che dal fumo s'allontanano, & confusamente si mettono in fuga, come alle volte si vede vn popolo solleuarsi per leggierissima , & piccolissima cagione .
+[ЗАГОЛОВОК: FVRIE.]
+[ИНИЦИАЛ: D]ANTE nell'Inferno dipinge le Furie, donne di bruttissimo aspetto , con vestiti di color negro , macchiate di sangue , cinte con serpi , con capelli serpentici, con vn ramo di cipresso in vna mano , nell'altra con vna tromba, dalla quale esce fiamma , & fumo nero, & son finte da gli antichi Poeti, donne destinate à tormentare nell'inferno l'anime de'malfattori .
+[ЗАГОЛОВОК: Furie.]
+[ИНИЦИАЛ: C]Adendo giù fan ombra all'empio viso
+I minor serpi del vipereo crine
+Egl'occhi son sotto la trista fronte
+Cacciati in due gran caue,onde vna luce
+Spauenteuole vien,simile à quella,
+Che tal'hor vinta da caneati versi
+
+Колонтитул: DI CESARE RIPA. 175
+Кустод: Quasi
+Сигнатура: 
+Маргиналии:
+
+## Скан 0197 · с. 176
+
+Quasi piena di sdegno,e di vergogna
+Mostra la vaga Luna : di veleno
+La pelle è sparsa , & vn color di foco
+Tinge la scura faccia,dalla quale
+L'arida sete,la vorace fame,
+I tristi mali,e la spietata morte
+Sopra i mortali cade,e dalle spalle
+Scende vn'horrido panno,che nel petto
+Si stringe alla crudel furia rinoua
+Spesso la terza delle tre sorelle
+Che la vita mortal con cui li stami
+Misurano,è Proserpina con lei,
+Et ella,ambe le man scotendo in questa
+La face porta con funeree fiamme
+In quella hà vn fiero serpe,onde percote
+L'aria , attristando ouunque volge il piede ;
+Statio così le dipinge .
+[ГРАВЮРА: FVRORE.]
+[ИНИЦИАЛ: H]VOMO che mostri rabbia nel viso , & à gli occhi tenga legata vna fascia, stia in gagliardo mouimento, & in atto di volere gittare di lontano vn gran fascio di varie sorte di armi in hasta , le quali
+
+Колонтитул: 176 ICONOLOGIA
+Кустод: habbia
+Сигнатура: 
+Маргиналии:
+
+## Скан 0198 · с. 177
+
+habbia fra le braccia ristrette , & sia vestito d'habito corto.
+La fascia legata à gl'occhi mostra,che priuo resta l'intelletto quando il Furore prende il dominio nell'anima,non essendo altro il Furore , che cecità di mente del tutto priua del lume intellettuale , che porta l'huomo à fare ogni cosa fuor di ragione:
+L'armi che tien fra le braccia son inditio,che'l Furore da se stesso porta l'instromenti da vendicarsi, & da fomentar se medesimo.
+E vestito di corto.perche non guarda ne decenza,ne decoro.
+[ЗАГОЛОВОК: Furore .]
+[ИНИЦИАЛ: H]Vomo d'aspetto horribile,il quale sedẽdo sopravarij arnesi di guerra, mostri di fremere , hauendo le mani legate dietro alle spalle con molte catene,& faccia forza di romperle con l'impeto della fuga .
+Il Furore è ministro della guerra,come accenna Virgilio in quel verso.
+Iamque faces , & saxa volant furor arma ministrat.
+Et perciò il medemo altroue lo dipinse sedente sopra vn monte d'armi di più sorte,quasi che in tempo di guerra le somministri à coloro,che hanno l'animo acceso alla vendetta .
+Si lega,per dimostrare,che il Furore è vna spetie di pazzia,la quale deue esser legata,e vinta dalla ragione.
+E horribile nell'aspetto, perche vn'huomo vscito di se stesso, per subito impeto dell'ira,piglia natura,e sembianza di fiera, ò d'altra cosa più spauenteuole .
+[ЗАГОЛОВОК: Furore.]
+[ИНИЦИАЛ: H]Vomo horribile, con capelli rabuffati , porti nella man destra vna gran torce accesa,& nella sinistra la testa di Medusa.
+[ЗАГОЛОВОК: Furore , & rabbia.]
+[ИНИЦИАЛ: H]Vomo armato, con vista spauenteuole, & fiera, hauerà il colore del viso rosso,con la spada ignuda nella destra mano,stando in atto minaccieuole,nel braccio sinistro hauerà vno scudo, in mezo del quale vi sia vn leone, così lo descriue l'Alciato.
+[ЗАГОЛОВОК: Furore superbo , & indomito .]
+[ИНИЦИАЛ: H]Vomo armato di corazza,& elmo,con volto fiero,e sanguinoso,con la spada nella destra mano,e nella sinistra vno scudo,nel qual vi sia dipinto , o scolpito vn leone,che per ira, & rabbia vccida , squarciando li proprij figlioli,& per cimiero dell'elmo vi sia vn serpente viuace, & auolto in molti giri .
+Il leone nel modo sopradetto secondo gl'Egittij,è il vero , & il proprio Hieroglifico del Furore indomito, il serpente che vibra le tre lingue dalle sacre lettere è tenuto per implacabile nel furore,la ragione è che il serpẽte subito che si sente in qualche modo offeso sale in tanta rabbia , & furore,che non resta mai fin tanto, che non habbia vomitato tutto'l veleno in pregiuditio di quello,che l'hà offeso,e molte,volte riferiscono essersi veduto morire di rabbia solo per non poter vendicarsi nel suo furore .
+
+Колонтитул: DI CESARE RIPA. 177
+Кустод: FV-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0199 · с. 178
+
+[ГРАВЮРА: FVROR POETICO.]
+[ИНИЦИАЛ: G]Iouane viuace , & rubicondo con l'ali alla testa , coronato di lauro , & cinto d'edera , stando in atto di scriuere : ma con la faccia riuolta verso il Cielo .
+L'ali significano , la prestezza , & la velocità dell'intelletto Poetico , che non s'immerge : ma si sublima , portando seco nobilmente la fama de gl'huomini , che poi si mantiene verde , se bella per molti secoli, come la fronde del lauro , & dell'edera si mantengono.
+Si fa viuace , & rubicondo,perche è il furor poetico vna soprabondanza di viuacità di spirti, che arricchisce l'anima de numeri, & de'concetti merauigliosi, i quali parendo impossibile che si possono hauere solo per dono della natura, sono stimati doni particolari, & singolar gratia del
+
+Колонтитул: 178 ICONOLOGIA
+Кустод: Cielo,
+Сигнатура: 
+Маргиналии:
+
+## Скан 0200 · с. 179
+
+Cielo, & Platone disse, che si muoue la mente de'Poeti per diuin furore, col quale formano molte volte nell'idea imagini di cose sopranaturali, le quali notate da loro in carte, & rilette dipoi à pena sono intese, e conosciute,però si dimandano i Poeti presso a'Gentili,per antico costume,Santi,generatione del cielo,figliuoli di Gioue,interpreti delle Muse,& sacerdoti d'Apollo . Per lo scriuere si mostra ancora che questo furore si genera col molto essercitio , & che la natura non basta se non viene dall'arte aiutata ,però disse Horatio:
+
+*Cur ego si nequeo, ignoroque poeta salutor .*
+
+Accennando l'opera dell'arte col non potere, & quella dell'ingegno con l'ignoranza .
+
+[ЗАГОЛОВОК: FVRTO.]
+
+[ИНИЦИАЛ: G]IOVANE vestito d'habito spedito , con vn capuccio in testa , & con le scarpe di feltro, ouero di pelle , in vna mano tenendo vna lanterna serrata , & nell'altra vn grimaldello, & vna scala di corde , l'habito sarà pieno di pecchie , così si vede dipinto in molti luoghi.
+
+Le pecchie sopra il vestimento si fanno , forse , perche esse vanno rubbando a'fiori da tutte le bande il dolce per congregarlo poi tutto insieme nella propria casa,ouero per accennare vna falsa sorte d'api , dimandata fuco da'Latini,che non fa se non mangiare il mele fatto con la fatica dell'altre,come i ladri,che consumano la robba acquistata con sudore,& con le miserie altrui , ne fa mentione Virgilio nel 1 .dell'Eneide dicendo :
+
+*Aut onera accipiũt venientũ,aut agmine facto Ignauũ fucos pecus à præsepibus arcent.*
+
+[ЗАГОЛОВОК: Furto.]
+
+[ИНИЦИАЛ: G]Iouane pallido , vestito di pelle di lupo, con le braccia, e gambe nude , & con piedi alati , in mezo d'vna notte , nella man sinistra tenga vna borsa , & nella destra vn coltello , con vn grimaldello , l'orecchie saranno simili à quelle del lepre , & l'apparenza molto attonita .
+
+Giouane si dipinge il Furto, per notare , l'imprudenza , & la temerità che è propria de'giouani , & proprijssima de'ladri , i quali vedendo ogni giorno infiniti spettacoli di successi infelici di chi toglie con insidie altrui la robba , non però s'emendano , per dare alla fine nelle reti , ò più tosto ne' lacci .
+
+La pallidezza del volto , & l'orecchie del lepre , significano , il continuo sospetto , & la perpetua paura , con la quale viue li ladro , temendo sempre di non esser scoperto,e però fugge, e odia la luce,amico della notte fauoreuole compagna delle sue dishonorate attioni .
+
+E vestito di pelle di lupo,perche il lupo viue solo de l'altrui robba,& di rapine,come il ladro,che per leggierezza di ceruello crede con questo medesimo pensiero di souuenire à suoi bisogni .
+
+Il grimaldello,& il coltello non han bisogno di molta esplicatione .
+
+Le braccia , & gambe ignude , dimostrano , la destrezza , & l'ali a'piedi la velocità , che con grand'industria si procura dal ladro , per timore de'meritati supplicij .
+
+Колонтитул: DI CESARE RIPA. 179
+Кустод: GAGLIAR-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0201 · с. 180
+
+[ГРАВЮРА: FVRTO.]
+
+[ЗАГОЛОВОК: GAGLIARDEZZA.]
+
+[ИНИЦИАЛ: D]ONNA di maturo aspetto, ma vago, di vista proportionata, & suelta, sarà di leggiadro habito vestita, coronata di amaranto , & tenga con ambe le mani vn ramo di oliuo con li suoi frutti, & sopra à detto ramo vi sarà vn fauo di mele con alcune api .
+
+L'amaranto è vna spica perpetua , la quale fuor de l'vso de gl'altri fiori,significa stabilità , gagliardezza, e conseruatione, per la particolare qualità sua di non immarcire giamai , & di star sempre bella , & di verno quando sono mancati gl'altri fiori , solo tenuta nell'acqua si rinuerdisce , però li popoli di Tessaglia astretti dall'oracolo Dodoneo à far ogni anno l'espiationi al sepolcro di Achille, come si scriue, portauano dell'amaranto
+
+Колонтитул: 180 ICONOLOGIA
+Кустод: ranto
+Сигнатура: 
+Маргиналии:
+
+## Скан 0202 · с. 181
+
+ranto , acciòche mancando gl'altri fiori questo, che presto si rinuerdisce fusse in difesa della loro diligenza , coronandosi con esso la testa nel fare l'oblationi . Per questo è detto fiore immortale, & si dedica all' immortalità col ramo d'oliuo , & il fauo di mele , allude à quella risposta , che fece Diogene Cinico ad alcuni , che gli dimandarono in che modo si potesse allungare il filo della vita humana . Dicendo , che le parti interiori si doueuano irrigar di mele , & l'esteriori vngerle con l'olio , & voleua intendere costui sotto oscurità , come era il solito suo , che per viuere sano , & gagliardo bisogna stare con il core allegro , & pieno di dolci , & suaui pensieri continouamente , & per lo corpo hauer la commodità necessaria tenendolo in essercitio , acciòche non sia consumato , e guastato dall'otio : ma aiutato , & consolidato . Dice oltre à ciò Atheneo , che chi vsa li cibi conditi con il mele , viue molto più di quelli , che vsano li cibi composti di cose forti . Et in questo proposito adduce l' essempio di alcuni popoli detti Cirnei, nell'Isola di Corsica , li quali viueuano longhissimo tempo, perche si pasceuano di cibi dolci , e composti di mele . Et.Diaphe , il quale scrisse dell' Agricoltura , afferma , che il cibo di mele vsato di continuo , non solo fà giouamento grandissimo alla viuacità dell' intelletto : ma conserua ancora li sensi sani , & interi .
+
+[ЗАГОЛОВОК: GELOSIA.]
+
+[ИНИЦИАЛ: D]ONNA con vna veste di torchino à onde, dipinta tutta d'occhi, e d'orecchie,con l'ali alle spalle, con vn gallo nel braccio sinistro, & nella destra mano con vn mazo di spine .
+
+Gelosia è vna passione , & vn timore, che fa che il valore della virtù, ò de'meriti d'altri, superando le qualità virtuose di chi ama non le tolga la possessione della cosa amata .
+
+Dipingesi la Gelosia col gallo in braccio perche quest' animale è gelosissimo,vigilante desto , & accorto .
+
+L'ali significano la prestezza , & velocità de'suoi variati pensieri .
+
+Gli occhi , & orecchie dipinte nella veste significano l'assidua cura del geloso di vedere , & intendere sottilmente ogni minimo atto, & cenno della persona amata da lui, però disse il Tasso nuouo lume dell'età nostra in vn sonetto .
+
+*Geloso amante , apro mill'occhi, e miro, E mill'orecchi, ad ogni suono intenti.*
+
+Il mazzo delle spine , dimostra i fastidij pungentissimi del geloso, che di continuo lo pungono, non altrimenti , che se fossero spine acutissime , le quali per tal cagione gli si dipingono in mano .
+
+[ЗАГОЛОВОК: Gelosia.]
+
+[ИНИЦИАЛ: D]Onna vestita nel modo sopradetto, nella destra mano terrà vna pianta di helitropio .
+
+Il color del vestimento è proprio significato di Gelosia,per hauer il color del mare, il quale mai non si varia così tranquillo, che non ne sorga sospetto , così tra li scogli di Gelosia per certo che l'huomo sia dell'altrui
+
+Колонтитул: DI CESARE RIPA. 181
+Кустод: fede
+Сигнатура: M
+Маргиналии:
+
+## Скан 0203 · с. 182
+
+[ГРАВЮРА: без подписи]
+
+fede non passa mai senza timore , e fastidio .
+
+Si fa ancora quest'imagine,che in vna mano tiene il fiore helitropio , il quale si gira sempre intorno , e incontro al Sole , seguitando il suo moto , come il geloso, con passi, con le parole , & col pensiero, sempre sta volto alla contemplatione delle bellezze da lui per souerchio amore stimate rare , & vniche al mondo .
+
+[ЗАГОЛОВОК: GENIO BVONO.]
+
+*Secondo i Gentili.*
+
+[ИНИЦИАЛ: V]N fanciullo con bellissimi capelli , sarà coronato di platano , & in mano tiene vn serpente . Così si vede scolpito in alcune Medaglie antiche .
+
+Колонтитул: 182 ICONOLOGIA / GELOSIA.
+Кустод: GENIO
+Сигнатура: 
+Маргиналии:
+
+## Скан 0204 · с. 183
+
+[ЗАГОЛОВОК: GENIO CATTIVO.]
+
+*Secondo i Gentili.*
+
+[ИНИЦИАЛ: H]Vomo grãde,nero,di volto spauẽteuole,cõ barba , e capelli lunghi, e neri , in mano tien vn gufo . Scriue Plutarco,ch'apparue à Marco Bruto occisor di Cesare il genio cattiuo in questa forma,e il gufo come stimauano l'antichi è vcello di trist'augurio:però Virgilio nel 4 .dell'Eneide
+
+*Solaq; culminibus ferali carmine bubo Sæpe queri,& longas in fletum ducere voces .*
+
+Molti sono ( si racconta ) i Genij , secondo l'applicationi de l'ingegni , de'quali si prendono , ma à noi sarebbe diligenza souerchia dipingere alcuno oltre à questi, che sono gli vniuersali per acconciar tutto il resto , che se ne potrebbe dire à i luoghi conuenienti , secondo l'ordine , che habbiamo preso:
+
+[ЗАГОЛОВОК: GEOMETRIA.]
+
+[ИНИЦИАЛ: D]ONNA che tenga in vna mano vn perpendicolo , & con l'altra vn compasso:nel perpendicolo si rappresenta il moto,il tẽpo, e la grauezza de'corpi:nel compasso la linea, la superficie, & la profondità, nelle quali consiste il general soggetto della Geometria.
+
+*Geometria .*
+
+[ИНИЦИАЛ: D]Onna,che con la destra mano tiene vn compasso , & con la sinistra vn triangolo.
+
+[ЗАГОЛОВОК: GIORNO NATVRALE.]
+
+[ИНИЦИАЛ: S]I dipinge giouane alato,per la ragione detta nella figura dell'anno, con vn cerchio in mano sopra vn carro , sopra le nuuole con vn torchio acceso in mano,essendo tirato detto carro da quattro caualli,vno di color bianco,l'altro nero scuro,gl'altri due di color baio, & significano le quattro sue parti,cioè il nascere, & tramontare il Sole,il mezo giorno , & la meza notte , li quali tutti quattro giunti insieme fanno il giorno naturale,che è tutto quel tempo,che consuma il Sole in girare vna volta sola tutto'l cielo,il che si nota col circolo,che detta figura tiene in mano.
+
+*Giorno artifitiale .*
+
+[ИНИЦИАЛ: G]Iouine di bello aspetto alato,per esser parte del tempo,tirato da due caualli rossi,e guidato dall'Aurora,nel resto è come quello di sopra .
+
+I due caualli rossi sono i due crepuscoli che fanno il giorno artifitiale , che è tutto quel tempo,che si vede lume sopra la terra , & si dice l'Aurora guidare il giorno,perche sempre preuiene al suo apparire .
+
+*Giorno artifitiale.*
+
+[ИНИЦИАЛ: G]Iouane vestito di bianco,& risplendente, alato, & coronato di Ornithogalo fiore bianco,che comincia ad aprirsi quando il Sole si scuopre,& si chiude quando esso si nasconde,si come il giorno si dice da Poeti aprirsi ancor esso al leuar del Sole,& chiudersi al tramontare.
+
+Terrà in mano vn pauone con la coda bassa, & chiusa di maniera , che cuopra gli occhi delle penne , percioche di giorno si nascondono tutte le stelle, le quali vengono significate nell'occhi della coda del pauone,per esempio de gli Antichi , li quali finsero Giunone, significando , l'aria più
+
+Колонтитул: DI CESARE RIPA. 183
+Кустод: pura,
+Сигнатура: M 2
+Маргиналии:
+
+## Скан 0205 · с. 184
+
+pura, & più perfetta, essere nel suo Carro tirata dalli pauoni medesimamente .
+
+*Giorno artifitiale.*
+
+[ИНИЦИАЛ: G]Iouane alato che nella destra mano tenga vn mazzo di fiori, & nella sinistra vn torchio acceso .
+
+[ЗАГОЛОВОК: GIOVENTV.]
+
+[ИНИЦИАЛ: F]ANCIVLLA coronata di corona d'oro , & vestita riccamente , secondo il detto d'Hesiodo nella Teogonia , & con vn ramo di mandorlo fiorito in mano , per mostrare, come narra Pierio Valeriano nel libro 5 1.de'suoi Ieroglifici , che come il mandorlo è il primo albero , che con fiori dia speranza dell'abōdanza de gl'altri frutti, così i giouani danno saggio di che perfettione debba essere la vita loro ne gl'anni maturi .
+
+La corona dell'oro, mostra, che i gradi dell'età dell'huomo, quello della giouentù è il più elegibile , & più perfetto in se stesso .
+
+Il vestimento ricco , dimostra , che l'ostentatione de'beni è propria di questa età , & gli antichi figurauano la giouentù con l'imagine di Bacco , & d'Apollo,che si prendeuano per la mano;auertendo, che l'homo in giouentù,& per vigor di corpo,& per forza d'ingegno è potente,& lodeuole .
+
+*Giouentù.*
+
+[ИНИЦИАЛ: D]Onna di bella età inghirlandata di fiori , & nella destra mano tenga vna coppa d'oro,perche da'Poeti è detta fior de l'anni,& è pretiosa , come la coppa dell'oro , & così fù dipinta Hebe Dea della giouentù.
+*Giouentù.*
+
+[ИНИЦИАЛ: V]N giouine altiero,vestito di varij colori, con ghirlanda di semplici fiori,da vna parte vi farà vn cane da caccia, & dall'altra vn cauallo ben guarnito , e con la destra stia in atto di sparger danari.
+
+Giouentù,e quella età,che tien da vent'anni fin'à trentacinque, secondo Aristotile,nella quale l'huomo intende,e può operare , secondo la virtù:ma per la nouità,& caldezza del sangue è tutto intento all'attioni sensibili , ne opera la ragione nel giouane senza gran contrasto, ò della concupiscenza,ò del desio dell'honore , & questo ancora si chiama augumento , altri dicono stato .
+
+Si dipinge altiero, & che gli sia alato i sopradetti animali con la dimostratione del spargere denari , per dimostratione del spargere denari, per dimostrare la particolare inclinatione del giouane,che è d'essere altiero , amatore della caccia,& prodigo del denaro, come dimostra Horatio nella Poetica .
+
+*Gaudet equis,canibusq;et aprici gramine cāpi Vtiliū tardus peruisor prodigus æris (nix. Cereus in vitium flecti, monitoribus asper, Sublimis,cupidusq;et amata relinquere per-*
+
+La varietà de'colori significa la frequente mutatione de i pensieri , & proponimenti giouenili , & si corona di fiori senza frutti, per dimostrare che li giouani sono più vaghi del bello , & apparente , che dello vtile , & reale .
+
+[ЗАГОЛОВОК: GIOIA D'AMORE.]
+
+Vedi Contento Amoroso.
+
+Колонтитул: 184 ICONOLOGIA
+Кустод: GIV-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0206 · с. 185
+
+[ЗАГОЛОВОК: GIVBILO.]
+
+Vedi Allegrezza .
+
+[ЗАГОЛОВОК: GIVDITIO.]
+
+[ГРАВЮРА: без подписи]
+
+[ИНИЦИАЛ: H]VOMO ignudo, attempato à sedere sopra l'iride, ouero arco celeste , tenendo in mano la squadra , il regolo , il compasso , & l'archipendolo .
+
+Non essendo altro il Giuditio , che vna cognitione fatta , per discorso della debita misura sì nell'attioni , come in qualunque altra opera che nasce dall'intelletto , & essendosi tali instromenti ritrouatosi da gli Artefici , per hauere simil notitia nell'opere di Geometria meritamente , adunque per quelli si dimostra il discorso , & ancora l'elettione , che deue fare lo ingegno dell' huomo , per cognoscere , & giudicare ogni sorte di cose, percioche non dirittamente giudica colui , che nel
+
+Колонтитул: DI CESARE RIPA. 185
+Кустод: mede-
+Сигнатура: M 3
+Маргиналии:
+
+## Скан 0207 · с. 186
+
+medesimo modo vuol misurare tutte l'attioni .
+
+Per dichiaratione dell'iride , diremo , che ciascuno che sale à gradi de l'attioni humane, siano di qual sorte si vogliano , bisogna , che da molte esperienze apprenda il giuditio, il quale quindi risulti, come l'iride risulta dell'apparenza di molti diuersi colori auuicinati insieme in virtù de raggi Solari .
+
+[ЗАГОЛОВОК: Giuditio , ouero Inditio d'Amore .]
+
+[ИНИЦИАЛ: H]VOMO nobilmente vestito , con il capo pieno di papaueri , che significano indicio d'Amore presso à quelli antichi , i quali con il gettar delle sorti prediceuano le cose da venire , perche volendo far'esperienza , se l'amante fosse riamato pigliauano le foglie del papauero fiorito;& se le poneuano su'l pugno , poi con la palma della destra mano per-cotendo cõ ogni forza le dette foglie, dallo strepito che esse faceuano sot-to la percossa giudicauano l'amore da essi desiderato .
+
+Questo racconta il Pierio Valeriano col testimonio di Taurisio nel libro 5 8.de suoi Ieroglifici se bene è cosa superstitiosa , & ridicola.
+
+*Giuditio giusto.*
+
+[ИНИЦИАЛ: H]Vomo vestito d'habito longo , & graue , habbia in guisa di monile , che gli penda dal collo vn cuore humano nel quale sia scolpita vna imaginetta , che rappresenti la Verità , egli stia con il capo chino , & con gl'occhi bassi à contemplare fissamente detto monile , tenga à'piedi alcuni libri di Legge aperti ; ilche dinota che il vero , & perfetto giudice , deue esser integro , & non deue mai per qualsiuoglia accidente rimouere gli occhi dal giusto delle sante Leggi , & dalla contemplatione della pura , & intera verità : vedi Pierio Valeriano nel lib. 5 1 .
+
+[ЗАГОЛОВОК: GIVDICE.]
+
+[ИНИЦИАЛ: H]VOMO vecchio, sedente , & vestito d'habito graue , terrà con la destra mano vna bacchetta , intorno alla quale sia auolto vn serpe , da vn lato saranno alcuni libri di Legge aperti , & vn'aquila, & dall'altra parte vn'horologio , & vna pietra di paragone, essendoui sopra d'essa vna moneta d'oro , & vna di rame , & dell' vna come dell' altra apparischi il segno del lor tocco .
+
+Giudice è detto da giudicare , reggere , & esseguire la Giustitia , & è nome attribuito ad huomini periti di essa Giustitia , & delle leggi poste da Prencipi,ò Republiche alla ministratione di quelle .
+
+Si dipinge vecchio , sedente , & vestito grauemente , dicendo Aristotele nel terzo della Topica , che non si debba eleggere Giudici giouani non essendo nell'età giouenile esperientia , ne moderatione d'affetti .
+
+La bacchetta che tiene nella man destra, ne significa il dominio , c'ha il Giudice sopra i rei.
+
+Il serpe che intorno ad essa si riuolge , denota la Prudenza , che si richiede ne gli huomini posti al gouerno . Dicendo la Sacra Scrittura :
+
+*Estote prudentes sicut serpentes.*
+
+I libri aperti dimostrano , che il vero , & perfetto Giudice deue esser molto
+
+Колонтитул: 186 ICONOLOGIA
+Кустод: molto
+Сигнатура: 
+Маргиналии:
+
+## Скан 0208 · с. 187
+
+molto ben perito , circunspetto , integro , & vigilante , che perciò gli si dipinge à canto l'orologio , acciò non mai per qualsiuoglia accidente rimoua gl'occhi dall'equità , & dal giusto , & come l'aquila posta da gl'antichi per vcello di acutissima vista , deue il giudice vedere, & penetrar sino alla nascosta , & occulta verità rappresentata per la pietra del paragone , nella guisa,che si è detto,la quale ne significa la cognitione del vero , & del falso.
+
+[ЗАГОЛОВОК: GIVOCO DALL' ANTICO.]
+
+[ИНИЦИАЛ: V]N fanciullo nudo alato,con ambedue le mani distese in alto, prendendo vna di due treccie che pendono da vna testa di donna , che sia posta in qualche modo alta , che il fanciullo non vi possa arriuar à fatto . Sia questa testa ornata d'vn panno , che discenda insino al mezo di dette treccie , & vi farà scritto . IOCVS.
+
+Si fa alato perche il giuoco consiste nella velocità del moto cõ scherzo.
+
+[ЗАГОЛОВОК: GIVRISDITTIONE.]
+
+[ИНИЦИАЛ: H]VOMO vestito di porpora , nella destra mano tenga vno scettro , qual'è vero inditio di natural giurisdittione , & nell'altra i fasci cõ-solari , che si portauano per segno di questo medesimo.
+
+[ЗАГОЛОВОК: GIVSTITIA.]
+
+*Secondo che riferisce Aulio Gellio.*
+
+[ИНИЦИАЛ: D]ONNA in forma di bella vergine, coronata , & vestita d'oro, che con honestà , seuerità, si mostri degna di riuerenza con gl'occhi di acutissima vista,con vn monile al collo nel quale sia vn'occhio scolpito .
+
+Dice Platone , che la Giustitia vede il tutto , & che da gl'antichi sacerdoti fu chiamata veditrice di tutte le cose . Onde Apuleio giura per l'occhio del Sole , & della Giustitia insieme , quasi che non vegga questo men di quello , le quali cose habbiamo noi ad intendere , che deuono essere ne ministri della Giustitia , perche bisogna , che questi con acutissimo vedere penetrino fino alla nascosta , & occulta verità , & sieno come le caste vergini puri d'ogni passione , siche nè pretiosi doni , nè false lusinghe , nè altra cosa li possa corrompere : ma siano saldi, maturi, graui, e puri , come l'oro che auanza gl'altri metalli , in doppio peso , & valore .
+
+Et perciò potiamo dire , che la Giustitia sia quell'habito , secondo il quale l'huomo giusto per propria elettione , e operatore , e dispensatore , così del bene,come del male frà se , & altri , ò fra altri , & altri secondo le qualità,ò di proportione Geometrica, ouero Aritmetica, per fin del bello,e dell'vtile accomodato alla felicità publica.
+
+Per mostrare la Giustitia , & l'integrità della mente gli antichi soleuano rappresentare ancora vn boccale,vn bacile,& vna colonna,come se ne vede espressa testimonianza in molte sepolture di marmo, & altre antichità che si trouano tutta via,però disse l'Alciato.
+
+*Ius hæc forma monet dictum sine sordibus esse Defunctum,puras atq;habuisse manus .*
+
+*Giustitia di Pausania ne gl'Eliaci.*
+
+[ИНИЦИАЛ: D]Onna di bella faccia, & molt'adorna, la quale con la mano sinistra suffoghi vna vecchia brutta percuotendola con vn bastone .
+
+Колонтитул: DI CESARE RIPA. 187
+Кустод: Et que-
+Сигнатура: M 4
+Маргиналии:
+
+## Скан 0209 · с. 188
+
+Et questa vecchia dice Pausania esser l'ingiuria , laquale da giusti giudici,deue sempre tenersi oppressa,acciòche non s'occulti la verità , & deuono ascoltar patientemente quel che ciascuno dice per difesa .
+
+*Giustitia Diuina.*
+
+[ИНИЦИАЛ: D]Onna di singolar bellezza,vestita d'oro con vna corona d'oro in testa,sopra alla qual vi sia vna colomba circondata di splendore, hauerà i capelli sparsi sopra le spalle,che con li occhi miri come cosa bassa il mondo,tenendo nella destra la spada nuda,& nella sinistra le bilancie .
+
+Questa figura ragioneuolmente si dourebbe figurare bellissima,perche quello che è in Dio , è la medesima essenza con esso(come san benissimo i sacri Teologi ) il quale è tutto perfettione,& vnità di bellezza.
+
+Si veste d'oro,per mostrare con la nobiltà del suo metallo, & con il suo splendore l'eccellenza , & sublimità della detta Giustitia . (del mondo .
+
+La corona d'oro è per mostrare ch'ell'hà potenza sopra tutte le potẽze
+
+Le bilancie significano , che la Giustitia diuina dà regola à tutte le attioni , & la spada le pene de'delinquenti.
+
+La colomba mostra lo Spirito santo terza persona della santissima Trinità, & vincolo d'amore tra il Padre , & il Figliuolo, per lo qual spirito la Diuina giustitia si communica à tutti i prencipi del mondo.
+
+Si fa detta colomba bianca , e risplendente , perche sono queste fra le qualità visibili , e nobilissime.
+
+Le treccie sparse mostrano le gratie, che scendono dalla bontà del cielo senza offensione della diuina Giustitia, anzi sono proprij effetti d'essa .
+
+Risguarda come cosa bassa il mondo , come soggetto à lei, non essendo niuna cosa à lei superiore .
+
+Si comprende anco per la spada,e per le bilancie(toccando l'instromento,la vita,& l'altro la robba de gl'huomini) con le quali due cose l'honore mondano si solleua , & s'abbassa bene spesso,che sono dati,e tolti , & questa,e quella per Giustitia diuina , secondo i meriti de gli huomini, & conforme a'seuerissimi giudicij di Dio.
+
+*Giustitia.*
+
+[ИНИЦИАЛ: D]Onna vestita di bianco , habbia gl'occhi bendati; nella destra mano tenga vn fascio di verghe,con vna scure legata insieme con esse,nella sinistra vna fiamma di fuoco,& à canto hauerà vno struzzo, ouero tenga la spada , & le bilancie .
+
+Questa è questa quella sorte di Giustitia , che esercitano ne'Tribunali i giudici , & gli essecutori secolari.
+
+Si veste di bianco,perche il giudice deu'esser senza macchia di proprio interesse,ò d'altra passione,che possa deformar laGiustitia,ilche vien fatto tenendosi gl'occhi bendati,cioè non guardando cosa alcuna della quale s'adopri per giudice il senso nemico della ragione.
+
+Il fascio di verghe con la scure,era portato anticamente in Roma da littori inanzi a'Consoli,& al Tribuno della Plebe,per mostrar che nó si deue rimanere di castigare,oue richiede la Giustitia, ne si deue esser precipitoso : ma dar tempo à maturare il giuditio nel sciorre delle verghe.
+
+Колонтитул: 188 ICONOLOGIA
+Кустод: La fiam-
 Сигнатура: 
 Маргиналии:

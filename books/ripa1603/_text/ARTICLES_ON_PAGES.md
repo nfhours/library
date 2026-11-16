@@ -142,3 +142,23 @@
 | 0187 | FORTEZZA.; FORTEZZA. |  |  | r229 | нет рамки |
 | 0188 | FORTEZZA. |  | 0188_1 | r229 | заголовок перед гравюрой |
 | 0189 | Fortezza.; Fortezza d'animo , & di corpo . |  |  | r229, r230 | нет рамки |
+| 0190 | Fortezza, & valore del corpo congionto con la prudenza, & virtù dell'animo.; Fortezza del corpo congiunta con la generosità dell'animo.; FORTVNA.; Fortuna.; Fortuna. |  |  | r231, r232, r233 | нет рамки |
+| 0191 | Fortuna buona.; Nella medaglia di Antonino Geta.; Fortuna infelice.; Fortuna gioueuole ad Amore.; Fortuna pacifica , ouero clemente .; Nella medaglia di Antonino Pio. |  |  | r234, r235, r236, r237 | нет рамки |
+| 0192 | Fortuna.; Fortuna aurea .; Nella medaglia d'Adriano .; FORZA.; Forza d'Amore .; Forza d'Amore si nell'acqua come in terra .; Forza minore , da maggior forza superata. |  |  | r233, r238, r239, r240, r242, r241 | нет рамки |
+| 0193 | Forza. |  | 0193_1 | r239 | заголовки страницы (неоднозначно) |
+| 0194 | FRAGILITA.; Fragilità.; {Fragilitd|Fragilità} Humana.; FRAVDE.; Fraude. |  |  | r243, r245 | нет рамки |
+| 0195 |  |  | 0195_1 | — | заголовки страницы (неоднозначно) |
+| 0196 | Fraude.; Fraude , de l'Ariosto.; FVGA.; Fuga .; Fuga Popolare .; FVRIE.; Furie. |  |  | r245, r246, r247, r248 | нет рамки |
+| 0197 |  |  | 0197_1 | — | заголовки страницы (неоднозначно) |
+| 0198 | Furore .; Furore.; Furore , & rabbia.; Furore superbo , & indomito . |  |  | r249, r250, r251 | нет рамки |
+| 0199 |  |  | 0199_1 | — | заголовки страницы (неоднозначно) |
+| 0200 | FVRTO.; Furto. |  |  | r253 | нет рамки |
+| 0201 | GAGLIARDEZZA. |  | 0201_1 | r254 | заголовки страницы (неоднозначно) |
+| 0202 | GELOSIA.; Gelosia. |  |  | r255 | нет рамки |
+| 0203 | GENIO BVONO. | GELOSIA. | 0203_1 | r255 | бегущий заголовок |
+| 0204 | GENIO CATTIVO.; GEOMETRIA.; GIORNO NATVRALE. |  |  | r257, r258, r259 | нет рамки |
+| 0205 | GIOVENTV.; GIOIA D'AMORE. |  |  | r261, r262 | нет рамки |
+| 0206 | GIVBILO.; GIVDITIO. |  | 0206_1 | r264 | заголовок перед гравюрой |
+| 0207 | Giuditio , ouero Inditio d'Amore .; GIVDICE. |  |  | r265, r267 | нет рамки |
+| 0208 | GIVOCO DALL' ANTICO.; GIVRISDITTIONE.; GIVSTITIA. |  |  | r268, r269, r270 | нет рамки |
+| 0209 |  |  |  | — | нет рамки |
