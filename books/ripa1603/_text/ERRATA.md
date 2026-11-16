@@ -32,3 +32,7 @@
 | 0310 | 289 | riccameute | riccamente | перепутанная буква |
 | 0316 | 295 | lusuria | lussuria | пропущена буква |
 | 0321 | 300 | alcuaa | alcuna | перепутанная буква |
+| 0340 | 319 | faettando | saettando | перепутанная буква |
+| 0340 | 319 | faettatori | saettatori | перепутанная буква |
+| 0342 | 321 | hauese | hauesse | пропущена буква |
+| 0345 | 324 | l'inueruo | l'inuerno | перепутанная буква |

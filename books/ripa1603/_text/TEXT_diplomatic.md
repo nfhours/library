@@ -6566,3 +6566,544 @@ Tali habbiamo molti de gl'antichi , & non pochi che viuono à gloria dell'età n
 Кустод: smarrita
 Сигнатура: 
 Маргиналии:
+
+## Скан 0330 · с. 309
+
+smarrita, mercè d'alcuni che per l'applauso della fortuna iusuperbiti vogliono esser tenuti huomini di gran sapere in questi studij, stando fra la calce, & i sassi, non sapendo essi, che la virtù i tributarij ama, non serua della fortuna. Conuiene adunque per non deuiar molto dal nostro proposito di ritornar à quello che diceuamo.
+
+Il compasso alla Mathematica, & il fregio di triangoli, e d'altre figure intorno alla veste, mostra che come sono nel lembo i fregi d' ornamento, e di fortezza, cosi nelle proue Mathematiche queste istesse sono principij & fondamenti.
+
+La palla con la descrittione della terra, & con le zone Celesti, danno inditio, che la terra, nel misurar delle quali si va scambieuolmente, non hauerebbono proue, se non di poco momento, quando non si sostentassero, & difendessero con le ragioni Matematiche.
+
+Il fanciullo che sostien la tauola,& attende per capir le dimostratiue ragioni,c'insegna, che non si deue differir la cognitione di questi principij à altra età,che nella puerile,perche oltre che l'ingegni più rozzi,e men'atti & con questa s'apre come vna porta di bel palazzo, ò giardino, nel quale poi s'entra nell'anni seguenti dell'età,fan anche vn'istromento da segnare nell'intelletto nostro,ch'è come carta bianca,ò tauola rasa, quasi tutte le cose,che ò da valent'huomini, ò da libri ci verranno messe auanti per l'auenire,e per questo forse principalmente i Greci quel tempo che noi consumamo à apprender lingue straniere, nell'età puerile seruendosi essi della propria,e naturale l'adoprauano nella Mathematica; onde difficili si stimano hoggi molti di quelli esempij ch'essi danno per chiarezza delle dottrine.
+
+[ИНИЦИАЛ: I]piedi nudi, & stabili in terra, sono per dimostratione della sua euidenza, e stabilità à confermatione di quel che s'è detto.
+
+[ЗАГОЛОВОК: MEDITATIONE.]
+
+[ИНИЦИАЛ: D]ONNA d'età matura, d'aspetto graue, & modesto,la quale posta à sedere sopra vn monte di libri,sopra la mano del sinistro braccio, piegato sù la cossa del lato detto riposi la gota in atto di stare pensosa, & sopra il destro ginocchio con l'altra mano vn libro succhiuso, hauendoui fra mezo qualche dito.
+
+Essendo la Meditatione vna ferma consideratione riguardante la semplice virtù delle cose, par che conuengono le suddette qualità, perche lo intelletto in quell'età è atto à discernere il vero.
+
+La grauità, e modestia non si discosta dal conueneuole dell'età, & dello studio.
+
+L'atto di sostentare il volto, ne significa la grauità de i pensieri, che occupano la mente in quelle cose, che si hanno ad esseguire per operare perfettamente, & non à caso, come ben disse Ausonio de ludo septem sapientum con questi versi.
+
+*Nihil est, quod ampliorem curam postulet quam cogitare quid gerendum sit de hinc incogitantes sors non consilium regit.*
+
+Колонтитул: DI CESARE RIPA. 309
+Кустод: Lo sta-
+Сигнатура: V
+Маргиналии:
+
+## Скан 0331 · с. 310
+
+Lo star sedendo sopra i libri, ne può dinotare l' assiduità della sua propria operatione fondata nelle scritture, le quali contengono i primi principij naturali, con li quali principalmente si procede alla inuestigatione del vero.
+
+Il tener il libro succhiuso è per accennare, ch'ella fa le reflessioni sopra la cognitione delle cose, per fermar l'opinioni buone, è perfette, dalle quali vien'honore, & etano bene, come si dimostra per il seguente Epigramma il qual dice :
+
+*Felix qui vitæ curas exatus manes*
+*Exercet meditans nobile mentis opus*
+*Hic potuit certas venturis linquere secles*
+*Vnde homines verum discere rite queant*
+*Hunc ergo merito æterno dignatur honore*
+*Et celebri cantu fama per astra vehit.*
+
+[ЗАГОЛОВОК: MEDITATIONE SPIRITVALE.]
+
+[ИНИЦИАЛ: D]ONNA posta con le ginocchia in terra, con le man giunte, haurà gl'occhi chiusi, & vn velo la cuopra tutta, in modo che trasparisca la forma di detta donna.
+
+La Meditation Spirituale, non è altro ch'vn'attion interna, che l'anima congiunta per carità con Dio fà considerando le cose che fanno à proposito per la sua perfettione, & salute, perciò lo star con le ginocchia in terra, & con le mani giunte insieme, significa l' effetto di deuotione, & humiltà, che hà la persona, la qual continoua, & vsa la Meditation Spirituale.
+
+L'hauer chiusi l'occhi, dimostra l'operation interna, astratta dalle cose visibili, il che si nota col manto che la cuopre.
+
+Il detto coprimento può significar come chi medita, si nasconde in loco ritirato, & stassi solitario, fuggendo l'occasioni della distrattion della mente.
+
+[ЗАГОЛОВОК: Meditatione della Morte.]
+
+[ИНИЦИАЛ: D]ONNA scapigliata, con vesti lugubre, appoggiata col braccio à qualche sepoltura, tenendo ambi l'occhi fissi in vna testa di morto, che sia sopra detta sepoltura, & che alli piedi sia vna pecorella con la testa alzata, tenendo in bocca herba in segno di ruminare.
+
+[ЗАГОЛОВОК: MEDICINA.]
+
+[ИНИЦИАЛ: D]ONNA attempata, in capo haurà vna ghirlanda d'alloro, nella man destra terrà vn gallo, & con la sinistra vn baston nodoso auoltoui vn serpe.
+
+Medicina è scientia per la quale l'affetti vitali, & nutritiui del corpo, per mettere, & cauare si conoscono.
+
+Donna di tempo si dipinge, percioche gli Antichi tennero, che fusse vergogna all'huomo che hauesse passato quaranta anni chiamar il medico, presupponendo alla sua complessione, & con il fuggire l' vno, & se-
+
+Колонтитул: 310 ICONOLOGIA
+Кустод: guir
+Сигнатура: 
+Маргиналии:
+
+## Скан 0332 · с. 311
+
+[ГРАВЮРА: .]
+
+guir l'altro potesse curar se stesso, però il Medico vecchio con l'arte,econ l'esperienza,conserua la sanità presente,& ricupera la perduta.
+
+Gli si cinge il capo di vna ghirlanda di alloro, perche questo albero gioua à molte infermità, & soleuasi alle Kalende di Gennaro da' Romani dare alli nuoui Magistrati alcune foglie di lauro, in segno che hauessero da conseruarsi sani tutto l'anno, perche fù creduto il lauro conferirsi assai alla sanità.
+
+Il serpe ,& il gallo, come racconta Festo Pompeo, sono animali vigilantissimi, & tali conuiene che siano quei che ministrano la Medicina,furono anco i serpi appresso à gl'antichi segno di sanità,perche si come il serpe posta giù la vecchia spoglia si rinoua,così paiono gli huomini risanandosi esser rinouati.
+
+Колонтитул: DI CESARE RIPA. MEDICINA. 311
+Кустод: Il ba-
+Сигнатура: V 2
+Маргиналии:
+
+## Скан 0333 · с. 312
+
+Il bastone tutto noderoso,significa la difficultà della Medicina, & il serpe fù insegna di Esculapio, Dio della Medicina , come cresero falsamente i Gentili.
+
+[ЗАГОЛОВОК: Medicina.]
+
+[ИНИЦИАЛ: D]Onna che stia in atto di scendere vn grado di scala,sarà vestita di verde à foggia di Sibilla,portarà nelle mani alcuni semplici Medicinali,hauerà appresso vn Sole, & vna Cicogna,la quale tenga in bocca vn ramo d'origano.
+
+E arte la medicina nata dall'esperienza nell'altrui infermità, & aiutata con la scientia delle cose naturali, li quali sono osseruate diligentemente da' Medici per la sanità dell'huomo, si fà che scende lo scalino perche dalla contemplatione, che è cosa molto nobile,& molto alta scende all'attione della cura per mezo di cose particulari.
+
+E vestita di verde per la speranza,che porta seco all'infermi,& per lo vigore che rende alla vita che andaua mancando.
+
+Con l'origano la cicogna aiuta la debolezza del proprio stomacho,e però fù da gli Egittij adoperata nel modo detto per Hieroglifico di medicina. A questo proposito vsorno ancora l'vcello Ibi, ilquale come s'è detto altroue col rostro da se stesso si purga il ventre, come il Ceruo il quale dopò che hà vccifo il camaleonte smorza il veleno masticando le frondi dell'alloro, ilche fà ancora la colomba per risanarsi nell'Infermità.
+
+Il Sole mostra,che la virtù naturale del cuore,è fauorita dal calor di esso Sole per lo quale si mantiene, & conserua la sanità in tutte le membra del corpo, & oltre acciò molte virtù, & proprietà all'herbe infonde per mezo delle quali la medicina s'essercita.
+
+[ЗАГОЛОВОК: MEDIOCRITA.]
+
+[ИНИЦИАЛ: D]ONNA con la destra mano tiene vn leone ligato con vna catena, & con la sinistra vn'agnello ligato con vn debole, & sottil laccio,dimostrandosi per essi due estremi il troppo risentimento, & la troppo sofferenza,& tenendo detta donna il luogho di mezo , trà questi estremi di fierezza , e di mansuetudine, per li quali veniamo in cognitione d'ogn'altro estremo in ciascun'habito dell'animo,ci può esser vero Hieroglifico di mediocrità la quale si deue hauere in tutte l'attioni accioche meritino il nome , & la lode di virtù.
+
+[ЗАГОЛОВОК: Mediocrità.]
+
+[ИНИЦИАЛ: D]Onna bella,& risplendente, con l'ali alle spalle con le quali si solleua da terra,additando con vna mano la terra,& con l'altra il cielo con vn motto scritto che dica *Medio tutissimus ibis* .
+
+[ЗАГОЛОВОК: MEMORIA.]
+
+[ИНИЦИАЛ: D]ONNA di mez'età, hauerà nell'acconciatura della testa vn Gioilliero, ouero vn scrigno pieno di varie gemme, & sarà vestita di
+
+Колонтитул: 312 ICONOLOGIA
+Кустод: nero,
+Сигнатура: 
+Маргиналии:
+
+## Скан 0334 · с. 313
+
+nero , con li due primi diti della mano destra si tiri la'punta dell'orecchio destro, & con la sinistra terrà vn cane nero.
+
+Dipingesi la Memoria di mezza età, perche Aristotele nel libro della Memoria , & della ricordanza dice, che gl'huomini hanno più memoria nell'età perfetta che non hanno nella vecchiaia, per la scordanza, ò nella pueritia per non hauer imparato.
+
+L'acconciatura del capo, nel modo che s'è detto , dimostra, che la memoria , è fidelissima ritentrice, & conseruatrice di tutte le cose, che le sono rappresentate da nostri sensi,& dalla fantasia,però è dimandata l'arca delle scienze , e de'Thesori dell'anima.
+
+Vestesi di nero, il qual colore significa fermezza, & stabilità per la ragione detta altroue,essendo proprio della memoria ritener fermamente le forme del senso, come diceuomo rappresentate, & Aristotele l'afferma nel luogo citato di sopra.
+
+Tirasi la punta dell'orecchio, in conformità di quel che dice Plinio lib. 11.dell'Istoria naturale con queste parole:
+*Est in aure ima memoriæ locus quem tangentes attestamur.*
+Et Virgilio nell'Eleoga 6.dice.
+*Cum canerem Reges, & prœlia Cynthius aurem*
+*Vellit, & admoniut.*
+
+Il cane nero si pone per la medesima ragione del colore del vestimento di detta figura , come anco perche il cane è animale di gran memoria , il che si vede per esperienza continoua che condotto in paese straniero , & lontano per ritornare , onde è stato leuato da se stesso senza difficultà ritroua la strada . Dicesi anco che ritornando Vlisse in patria doppo venti anni non fù altro, che vn cane lasciato da lui alla partenza, che lo riconoscesse, & accarezzasse . Onde Socrate appresso Platone nel Fedro , giura per lo cane , che Federo haueua imparato à mente tutta l' oratione che Lisa haueua composta.
+
+[ЗАГОЛОВОК: Memoria.]
+
+[ИНИЦИАЛ: D]ONNA con due faccie, vestita di nero, & che tenga nella man destra vna penna, & nella sinistra vn libro .
+
+La memoria è vn dono particolare della natura , & di molta consideratione abracciandosi con essa tutte le cose passate per regola di prudenza in quelle che hanno à succedere per lo auuenire, però si fà con due faccie.
+
+Il libro , e la penna, dimostrano come si suol dire, che la memoria con l'vso si perfettiona il quale vso principalmente consiste, ò nello leggere , ò nello scriuere.
+
+[ЗАГОЛОВОК: MERITO.]
+
+[ИНИЦИАЛ: H]VOMO sopra d'vn luoco erto , & aspero , il vestimento sarà sontuoso,& ricco,& il capo ornato d'vna ghirlanda d'alloro, terrà con la destra mano , & braccio armato vno scettro, & con la man sinistra nuda vn libro.
+
+Колонтитул: DI CESARE RIPA. 313
+Кустод: Il me-
+Сигнатура: V 3
+Маргиналии:
+
+## Скан 0335 · с. 314
+
+[ГРАВЮРА: MERITO.]
+
+Il merito secondo S.Tomasso nella 3. parte della somma questione 45. art. 6. è attione virtuosa alla quale si deue qualche cosa pregiata in recognitione.
+
+Si dipinge sopra il detto luogho aspro, per la difficoltà , per mezo della quale l'huomo peruiene à meritare qualche cosa, perciò si dice , che Hercole figurato per l'huomo studioso di fama,& di gloria lasciata la via piana , & diletteuole intesa per quella de'piaceri, si elegesse l' altra difficile , & alpestre del monte , cioè quella della virtù; onde per tante,& così celebri sue fatiche meritò d'esser numerato frà più degni Heroi.
+
+Il ricco vestimento, significa la dispositione,e l'habito della virtù;mercè del quale l'huomo fa l'attioni degne d'honore,& di lode.
+
+Колонтитул: 314 ICONOLOGIA
+Кустод: Hauendo
+Сигнатура: 
+Маргиналии:
+
+## Скан 0336 · с. 315
+
+Hauendo il Merito relatione à qualche cosa, se gli è dato lo corona , e lo scettro, per farlo il più che si può spettabile , essendo quelli premij segnalati douuti à gran merito, & però S.Paolo della corona così dice :
+*Non coronabitur nisi qui legitime certauerit.*
+
+La destra mano,& braccio armato, & la sinistra con il libro, dimostrano due generi di merito ciuili, l'vno dell'attione di guerre , & l' altro dello studio, & opere delle lettere , per ciascuno de' quali l'huomo si può far meriteuole dello scettro, significante la potestà di commandare à gli altri huomini, & anco alla corona d'alloro premio non meno d'eccellente nelle lettere, che d'inuitti Capitani, la quale significa vero honore, & perpetua gloria.
+
+[ЗАГОЛОВОК: MERITO.]
+*Come dipinto nella sala della Cancellaria di Roma.*
+
+[ИНИЦИАЛ: H]Vomo ignudo, con vn manto regale, tiene vna corona in capo , & con la destra vn scettro.
+
+Ma perche il merito è cosa che auanza le nostre parole, lassaremo che egli medesimo à maggior efficacia parli di se stesso.
+
+[ЗАГОЛОВОК: MESI.]
+
+[ЗАГОЛОВОК: MARZO.]
+
+[ИНИЦИАЛ: G]IOVANE di aspetto fiero, & habbia in capo vn'elmo, vestito di color tanè, che tiri al negro, & à gl'omeri l'ali, con la destra mano tenghi con bella gratia il segno dell'Ariete , adorno di fiori di mandole , & con la sinistra mano vna bella tazza piena di prugnoli , sparagi , & lupali .
+
+Giouani dipingeuano i Mesi, percioche volendo noi diuidere il tempo in Hore, Giorni, Mesi, & Anni , faremo che l' hore siano nella pueritia , il giorno nell'Adolescenza , il mese nella Giouentù, l'anno nella Virilità, & il tempo che è tutta la parte insieme lo faremo vecchio.
+
+L'esser questo mese d'aspetto fiero, & che tenga in capo l'elmo, dimostra esser stato dedicato da Romolo à Marte suo genitore, e da quello così chiamato .
+
+Si veste del sopradetto colore , essendo il color tanè composto di due parti nero, & rosso .
+
+Per le due parti nero ci viene à significare il colore della terra, & la parte rossa la virtù, & forza d'essa , la quale in questo mese col tepido calor del Sole, incominciano à germogliar le piante , & la natura di tutti li animali à risentirsi .
+
+L'esser alato ci dimostra il continuo corso che fanno i mesi,& il Petrarca nel trionfo del tempo così dice :
+*Volano gl' anni , i mesi , i giorni , e l'hore .*
+
+Il tenere con la destra mano il segno dell' ariete circondato da i sopradetti fiori, ci dimostra i principij della Primauera , onde l'Ariosto sopra di ciò così dice .
+
+Колонтитул: DI CESARE RIPA. 315
+Кустод: Ma poi
+Сигнатура: V 4
+Маргиналии:
+
+## Скан 0337 · с. 316
+
+*Ma poi che il sol nell'animal discreto*
+*Che portò Phrisio illuminò la sfera*
+*E zeffiro tornò suaue , è lieto*
+*A rimenar la dolce primauera.*
+
+Mostra anco che come l'Ariete,è vn'animal debile di dietro,m'hà qualche forza dauanti, così il Sole nel principio di esso segno hà le forze sue debili per causa del freddo , che sminuisce la sua gagliardezza, ma più auanti verso l'estate, è più gagliardo cioè più caldo .
+
+La tazza piena di prugnoli , sparagi , e lupali , ci da segno quali siano i frutti di detto mese, mà si deue auuertire, che i frutti così di questo mese come degl'altri si possano dal diligente Pittore variare,secondo la qualità de i luoghi, perche l'aere doue è più caldo , più presto vengano , è per lo contrario ne i paesi freddi.
+
+[ЗАГОЛОВОК: APRILE.]
+
+[ИНИЦИАЛ: G]IOVANE con vna ghirlanda di mortella in capo, vestito di color verde, haurà à gl'omeri l'ali, con la destra mano terrà il segno del Tauro,il quale sarà con bell'artifitio adorno di più sorti di viole,e di varij fiori,che in detto mese si trouano,& con la sinistra vna bella cistella piena di carcioffi,baccelli,mandole fresche,frutti che nel mese d'Aprile , cominciano à venire .
+
+Chiamasi questo mese Aprile secōdo Varrone,quasi Aperile,percioche in esso s'apre la terra,è spāde fuori le sue ricchezze,& per l'istessa ragione Greci chiamarono l'istesso mese [?], perche in quello ogni cosa fiorisce,ouero come dice Ouid.dalla chiarezza,e serenità del cielo, così dice
+*Aprilem memorant ab aperto tempore dictum .*
+
+La ghirlanda di mortella,che tiene in capo, significa che essendo questa pianta dedicata, secondo gl'Antichi à Venere, in questo mese si desta gagliardamente l'amore nelle piante, come negl'animali. Et il Petrarca nel Sonetto 42. così dice .
+*L'aria , l'acqua , la terra è d'amor piena*
+*Ogn'animal d'amar si reconciglia .*
+
+Si veste di color verde , perche in questo mese la terra si veste di questo bel colore rendendosi à riguardanti bellissima cosa à vedere , per essere il verde di sua natura grato alla vista , massime che tante,& così varie sorti di viui colori i quali sono i bei fiori dipinti quasi gemme rilucenti nel verde campo appariscono scintillando, & singular vaghezza gl'apportano. Onde il Petrarcha nel Sonetto 42. così dice
+*Zephiro torna e'l bel tempo rimena*
+*E i fiori, è l'herbe, sua dolce famiglia ;*
+*E gioir Progne; e pianger Filomena ,*
+*E primauera candida , e vermiglia*
+*Ridono i prati , e'l ciel si rasserena*
+*Gioue s'allegra di mirar sua figlia*
+
+Il segno del Tauro , che tiene con la man destra, è per significare, che il Sole và caminando in questo mese per questo segno, il quale tuttauia piglia maggior forza,si come il Toro,è più forte del Montone,dicono ancora che il Sole regna in detto segno, perche nel mese d'Aprile , si cominciano à vedere le fatiche de i buoi , cioè le biade .
+
+[ЗАГОЛОВОК: MAGGIO.]
+
+[ИНИЦИАЛ: G]IOVANE vestito di color verde ricamato di varij fiori,come d'essi, parimente haurà in capo vna ghirlanda, terrà con la destra ma-
+
+Колонтитул: 116 ICONOLOGIA
+Кустод: no
+Сигнатура: 
+Маргиналии:
+
+## Скан 0338 · с. 317
+
+no i Gemini,quali saranno circondati di rose bianche,rosse , & vermiglie, con la sinistra vna bella cestella piena di cerase, piselli, fragole, vua spina, & altri frutti,che in detto mese nascono , ouerò si ritrouano .
+
+E chiamato questo mese Maggio dalli Latini à Maioribus , perche hauendo Romolo distribuito il Popolo Romano in due parti, cioè in maggiore,& minore,ò vogliamo dire giouani,e vecchi,che quelli con l'armi,& questi con il consiglio gouernassero la Rip.in honor dell'vna Maggio, & il seguente Giugno in honor dell'altra onde Ouidio
+*Hinc sua Maioris tribuere vocabula Maio*
+*Iunius à Iuuenum nomine dictus adest .*
+
+Gli si dà il verde, & fiorito vestimento , & la ghirlanda in testa de varij fiori, per mostrare la bellezza,e vaghezza de i prati, colli, & campagne , quali tutte ordinate, & ornate di varij fiori,& verdi herbe,rendono marauiglia, & allegrezza alli riguardanti, & incitano gl'augelli à cantare suauemente, è tutta la natura gioisce. Onde ben disse il Sannazzarro.
+*Vn bel fiorito , & dilettoso Maggio .*
+
+Il segno di Gemini ci mostra,che in questo mese la forza del Sole si raddoppia , perche cominciando ad esser caldo , & secco essendo che per doi gradi il Sole si eleua dalla terra , & in questo mese le cose si raddoppiano, cioè si moltiplicano percioche gl'animali partoriscano.
+
+[ЗАГОЛОВОК: GIVGNO.]
+
+[ИНИЦИАЛ: G]IOVANE, & alato come gl'altri mesi, & vestiti di verde chiaro, ouero come dicono verde gaio, hauerà in capo vna ghirlanda di spighe di grano non mature, con la destra mano portarà per insegno il Cancer ouerò Grancio il quale sarà circondato dalle sopradette spighe,e con la sinistra vna tazza , ouero vna bella cesta , dentro alla quale vi saranno guisciole,scafe,briccocole,pere moscarole, cocuzze,citroli,brugne, finocchio fresco, & altri frutti , che sogliono essere in questo tempo .
+
+Chiamasi Giugno da'Latini per la causa detta di sopra nel mese di Maggio benche alcuni lo chiamano da Giunone latinamente *Iunonium* , leuato doi lettere di mezo dicono *Iunium* perche al primo di questo fù dedicato il tempio di Giunone,ouero da Iunio Bruto,che scacciò dal Regno il primo giorno di questo mese Tarquinio.
+
+Si veste di color verde chiaro perche in questo mese per il calore del Sole incomincia à ingiallire il grano, & anco diuerse herbe.
+
+Il segno del Grancio denota,che arriuando il Sole à questo segno,incomincia à tornare indietro, scostandosi da noi à guisa di detto animale , il quale camina all'indietro .
+
+[ЗАГОЛОВОК: LVGLIO.]
+
+[ИНИЦИАЛ: G]IOVANE , sarà alato,& vestito di colore ranciato , & coronato di spighe di grano hauerà nell'vna delle mani il segno del Leone anch'esso ornato di varie sorti di biade mature,& legumi vestito, & con l'altra mano portarà vna bella cestella con meloni , fichi primiticci , pere, di più sorti , nocchie , & altri frutti che questo mese suole apportare .
+
+Колонтитул: DI CESARE RIPA. 317
+Кустод: Chia-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0339 · с. 318
+
+Chiamasi Luglio in honore di Giulio Cesare Dittatore, perche in questo mese à i dodici nacque se ben prima fù chiamato Quintile dal numero cominciando da Marzo essendo quinto in ordine.
+
+Si dipinge con vestimento ranciato, perche maturandosi in questo mese le biade ingialdiscono.
+
+Il leone è animale di natura calida , & ferocissimo, & dimostra questo tempo , nel quale il Sole asceso al grado di questo segno, produce caldo eccessiuo , & siccità grande .
+
+[ЗАГОЛОВОК: AGOSTO.]
+
+[ИНИЦИАЛ: G]IOVANE di fiero aspetto, vestito di color fiammeggiante , sarà coronato d'vna ghirlanda di rose damaschine, gelsomini di Catalogna,garofali d'India,& altri fiori,che la stagione apportà,terrà con la destra mano il segno della Vergine,e con la sinistra vna cestella piena di pere di più sorti,prugne,moscatello,fichi,noci,& mandole mature.
+
+E questo mese similmente in honore di Augusto , & dal Senato fù consegnato , perche in questo mese fù la prima volta fatto Console, Trionfò tre volte in Roma , & soggiogò sotto la podestà del Popolo Romano l' Egitto , & pose fine alle guerre ciuili, prima detto mese si chiamaua Sestile, per esser il sesto in ordine,cominciando come s'è detto nel mese di Luglio da Marzo .
+
+Il fiero aspetto ci dà ad intendere quanto questo mese sia molesto, & come di molti mali può esser cagione , per la stella canicula doue il Sole si troua , il quale à guisa di rabbioso cane offendendo chi non si hà buona cura .
+
+Il segno Celeste che regna in questo mese , è chiamato Vergine, per dimostrare , che si come la Vergine è sterile , nè da se genera , così il Sole in questo tempo non produce cosa alcuna : ma solo le prodotte matura,& perfettiona .
+
+Per la cesta piena de'sopradetti frutti,e la ghirlanda de fiori si dimostra quello che questo mese produce .
+
+[ЗАГОЛОВОК: SETTEMBRE.]
+
+[ИНИЦИАЛ: G]IOVANE alato,allegro, ridente, vestito di porpora , hauerà in capo vna ghirlanda di miglio,e di panico , nella destra mano il segno della Libra , & con l'altra mano vn cornucopia pieno di vue bianche, & nere , persiche , fichi , pere , mele , lazarole , granati, & altri frutti, che si trouano in detto mese .
+
+Chiamasi Settembre , per essere , come si è detto il settimo , se bene si chiamò qualche tempo Germanico da Germanico Imperatore.
+
+Si veste di porpora , perche si come la porpora è vestimento Regale , & solo conuiensi à Rè , & huomini Illustri , & grandi , i quali abondano di Tesori , & grandezze . Così questo mese , come Rè , & Principe di tutti gl'altri mesi dona in maggior copia tutte quelle cose , che sono necessarie al vitto humano .
+
+Колонтитул: 118 ICONOLOGIA
+Кустод: Tiene
+Сигнатура: 
+Маргиналии:
+
+## Скан 0340 · с. 319
+
+Tiene il segno della Libra, per dimostrare che in questo tempo viene il Sole in questo,& fassi l'Equinotio aguagliandosi la notte, con il giorno, come disse ancora Virgilio.
+*Libra dies, somnique partes vbi fecerit horas.*
+[ЗАГОЛОВОК: OTTOBRE.]
+[ИНИЦИАЛ: G]IOVANE con vestimento di color incarnato, & con l'ali come li altri mesi; porterà in capo vna ghirlanda di virgulti di quercia con le ghiande, con la destra mano il segno del Scorpione, & con la sinistra vna bella cestella piena di sorbe,nespole,fonghi di più sorte, castagne con ricci, & senza.
+Fù chiamato questo mese Domitiano, da Domitiano Imperatore: ma per decreto del Senato, & à questo, & à quello meritamente furono cancellati, si come erano stati tirannicamente imposti, & gli restò il nome antico d'Ottobre, per esser l'ottauo in ordine.
+Gli si da il vestimento di color incarnato, perche declinando il Sole nel Solstitio hiemale comincia à ristringersi l' humore nelle piante, onde le loro foglie diuentano del detto colore.
+Dipingesi con lo scorpione, perche in questo mese il Sole si ritroua sotto detto segno, & è chiamato Scorpione dalla figura dalle stelle, e da l'effetti che produce in queste parti,imperòche come lo scorpione col suo veleno pungendo da la morte se presto non si soccorre à quelli che son punti così mentre il Sole in questo segno per l'inequalità del tempo, apporta malatie molto pericolose, & per questo disse Hippocrate ne gl'aphorismi, che l'inequalità del tempo partorisce infermità; massime quando nell'istesso giorno, hora regna il freddo, e caldo, ilche spesso auuiene nell'autunno.
+La cestella sopradetta,contiene i frutti che porta seco esso mese.
+[ЗАГОЛОВОК: NOVEMBRE.]
+[ИНИЦИАЛ: G]IOVANE vestito di colore delle foglie, quando incominciano à seccarsi, & cadono da gli alberi, alato, hauerà cinto il capo d'vna ghirlanda d'oliuo con il suo frutto, porterà nella destra mano il segno del Sagittario, & con la sinistra vna tazza piena di rape, radice,cauoli, & altri frutti che il mese di Nouembre porta seco.
+Il tenere il Sagittario nella destra mano ci significa, che il Sole in questo mese regna, & passa sotto questo segno il quale è detto Sagittario, sì dalla figura delle stelle, come anco da gli effetti che produce, poiche in questo tempo faettando dal Cielo grandine, pioggie, folgori, arrecano non poco spauento, come anco in questo mese più s'esercita la quale si fa per li faettatori.\nLo ghirlanda di oliuo con il frutto è segno di questo tempo, nel quale l'oliua già matura si coglie per farne l'olio, liquore vtilissimo per più cose alla vita humana.
+Si chiama Nouembre dal numero, per esser il nono, si come anco il seguente per esser il decimo si chiama Decembre.
+
+Колонтитул: DI CESARE RIPA. 319
+Кустод: DECEM-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0341 · с. 320
+
+[ЗАГОЛОВОК: DECEMBRE.]
+[ИНИЦИАЛ: G]IOVANE di aspetto horrido, come anco saranno gli altri due mesi seguenti, vestito di nero, alato, con la destra mano terrà il capricorno, & con la sinistra vna tazza piena di tartuffi.
+Horrido, & vestito di nero si dipinge, perche in questo mese la terra è spogliata d'ogni suo adornamento, che perciò anco si rappresenta senza ghirlanda.
+Per il capricorno segno celeste, si dimostra questo mese nel quale il Sole camina per detto segno è detto capricorno, perche si come il capricorno si pasce nelli precipitij,& monti altissimi, così in questo mese il Sole è in vn'altissimo grado verso il mezo giorno.
+Se gli da i tartuffi, perche questi nel mese di Decembre, si trouano in maggior quantità, & più perfetti.
+[ЗАГОЛОВОК: GENNARO.]
+[ИНИЦИАЛ: G]IOVANE alato, & vestito di bianco, il quale terrà con ambe le mani il segno d'acquario.
+Questo mese, & il secondo furono aggiunti all'anno di Romolo da Numa Pompilio, & chiamato questo da Iano Ianuario, perche si come Iano si fa con doi faccie, così questo mese quasi con vna guarda il passato, & con l'altra il principio di quello che hà da venire,secondo che dicono i Moderni.
+Lo dipingemo con il vestimento bianco, perche in questo mese, per l'ordinario la terra è coperta di neue, che si veggono le campagne tutte d'vn colore.
+Tien con ambe le mani il segno d'acquario,perche si faccia noto questo mese per il corso del Sole,il qual è dett' acquario,perche abondano le neui,e pioggie in questo tempo.
+[ЗАГОЛОВОК: FEBRARO.]
+[ИНИЦИАЛ: G]IOVANE il quale habbia l'ali, & sarà vestito di colore berrettino, portando con bella gratia con la destra mano il segno del pesce.
+Numa Pompilio chiamò questo mese Febraro ò dalle febri le quali all' hora facilmente vengono, ouero da questa parola Latina *Febrius*, cioè purgationi februe, poi significauano sacrifitij fatti per li morti, perche i Romani in questo mese, faceuono la memoria dell'anime, & quelle intendeuano di purgare con celebrare l'essequie de'morti.
+Si veste di berrettino, perche in questo mese regnano molto le pioggie onde per il più il cielo è coperto di nuuoli, li quali rappresentano il sopradetto colore.
+Porta ( come dicemmo ) il pesce, perche passando il Sole, per questo segno Celeste ne dinota questo mese, & si come il pesce è animal acquatile, così questo tempo per le molte pioggie è assai humido, ouero perche essendosi risolute l'acque, è tempo di pescagione.
+
+Колонтитул: 320 ICONOLOGIA
+Кустод: MESI
+Сигнатура: 
+Маргиналии:
+
+## Скан 0342 · с. 321
+
+[ЗАГОЛОВОК: MESI secondo l'Agricoltura.]
+[ЗАГОЛОВОК: GENNARO.]
+[ИНИЦИАЛ: H]VOMO di virile aspetto,che stando à lato d'vna ruota d'arrotare ferramenti,tenghi con la destra mano vn roncio,e con la sinistra mostri con il dito indice diuersi ferramenti necessarij all'Agricoltura, qual siano per terra da vna banda, & dall'altra vn gallo.
+Dipingesi di virile aspetto,& con il roncio nella destra mano,percioche in questo mese il diligente Padre di famiglia, ò altri che fanno arte di campo,potranno riuedere tutti li ferramenti, che si sogliono adoperare alla coltiuatione delle vigne, come ronci,ò falcetti, quali seruono per potare.
+Si mostra che stia accanto ad vna ruota perche conuiene hauere in questo mese ( essendo egli secondo i moderni principio dell'anno) coti,pietre, ruote per arrotare,& aguzzare detti ferramenti sottili, & che taglino bene, come dice Columella lib.3. cap.24. *Duris tenuissimisque ferramentis omne opus rusticum exequendum.*
+Mostra con la sinistra mano i detti ferramenti, perche similmēte in detto mese chi fà arte di Campo deue mettere in ordine le gomere con li suoi aratri,ricalzare vanghe,bidenti,zapponi,& altri ferramēti necessarij, per hauersene poi à seruire nel seguente mese , perche dice Marco Catone de re rustica cap.5. *Omnia maturè conficias nam res rustica sic est si vnam rem sero feceris omnia opera sero facies.*
+Bisogna dunque che sia molto vigilante,& li negotij non vadino trattenendosi de giorno in giorno,che perciò gli si dipinge il gallo, à canto,& à questo proposito sarà bene,che io faccia mentione di quello che narra Plinio lib.18. cap.6. mostrando quanto sia vtile all'Agricoltori l'essere vigilanti, & laboriosi.
+G. Furio Cresina,di schiauo che egli era fatto franco,ricogliendo in vn campo molto piccolo, molto più che i suoi vicini nelle possessioni grandi, era molto odiato come se per incanti egli hauese tirate à se le biade , de i campi vicini. Per la qual cosa essendo citato da Spurio Albino Edile Curule,& accusato al Popolo,& perciò temendo egli d'esser condannato percioche bisognaua che le Tribu mettessero il partito,comparue in giuditio, & portò quiui tutti i suoi ferramenti con quali egli lauoraua, & menò vna sua figliuola ben guarnita , & vestita. I ferramenti erano graui, & grandi, & ben fatti zappe grandi, non piccioli vomeri, & boui ben pasciuti, & disse. O Cittadini Romani, questi sono i miei incantesmi, ma non -
+
+Колонтитул: DI CESARE RIPA. 321
+Кустод: vi pos-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0343 · с. 322
+
+vi posso già, come io vi mostro i miei ferramenti, mostrate le vigilie, le fatiche, & i sudori miei. Et ciò detto fù assoluto.
+[ЗАГОЛОВОК: Febraro.]
+[ИНИЦИАЛ: H]Vomo d'età virile,che stando in vna vigna mostri potar quella.
+Sono doi tempi di potare: ma secondo Magone si pota prima che germini la vite, perche essendó piena d' humori piglia leggier ferita, & vguale, ne resiste al coltello.
+[ЗАГОЛОВОК: Marzo.]
+[ИНИЦИАЛ: V]N giouane con vna vanga in mano, & mostri di scalzare le viti, & da vn lato sia vn cauallo.
+Si dipinge giouane,per esser l'opera della vanga di gran fatica,e perche in questo mese si comincia à scalzare le viti, come si dice à cauallo; conuiene auertire che non si scalzi più tardi perché la vite potrebbe germogliare & perdere assai speranza della vindemia, buttando gl'occhi della vite per terra.
+Vi si mette à canto il cauallo, percioche in questo mese , come narra Plinio libro 8. capitolo 42. vanno in amore nello Equinottio della Primauera.
+[ЗАГОЛОВОК: Aprile.]
+[ИНИЦИАЛ: P]ER auertimento che danno molti che trattano dell' Agricoltura per il mese d'Aprile si potrà dipinger vn contadino sbracciato, che metta le canne alle viti, cioè che tenda, & non molto lontano vi sia vna vacca che pascoli con vn vitello che latti detta vacca, percioche Palladio al lib.5.narra che i vitelli sogliono nascere in questo mese,& per l'abondanza de'pascoli le vacche resistono alle fatiche , & al lattare.
+Et volendo far differente questa pittura con accompagnarla insieme con altri animali.
+Il medesimo Palladio nel lib. 5. dice che in questo mese si tosano le pecore: onde in luoco della vacca si potrà mettere vn'huomo che tosi le pecore , dicesi anco , che in questo tempo è la prima, & più potente apritura de i montoni, & di essi si hanno d'inuerno gli Agnelli, che già si sono maturati, e fatti.
+[ЗАГОЛОВОК: Maggio.]
+[ИНИЦИАЛ: I]N questo mese ( secondo che narra Palladio nel lib.6.de re rustica ) si segano i fieni: onde ragioneuolmente si potrà dipingere per il mese di Maggio.
+Vn contadino giouane, che stia in mezo d'vn campo pieno di verdura, & con ambi le mani tenghi vna falce fenara, & con bella dispositione mostri di segare il fieno.
+Tagliasi il fieno il mese di Maggio, percioche Columella 7. de re rustica dice che si debba segare prima che si secchi, perche non solo se ne ha maggior copia: ma anco à gl'animali gl'è più grato il cibo , essendo , che non è al tutto secco ne verde, doue stia nella sua perfettione.
+
+Колонтитул: 322 ICONOLOGIA
+Кустод: Giugno.
+Сигнатура: 
+Маргиналии:
+
+## Скан 0344 · с. 323
+
+[ЗАГОЛОВОК: Giugno.]
+[ИНИЦИАЛ: N]Arra Palladio lib.7.che in questo mese si comincia à mietere l'orzo e poi il grano onde si potrà dipingere;
+Vn contadino giouane con braccia nude , & che tenghi con la destra mano vna tagliente falce , con la quale tagli i couoni delle spighe di grano , le quali raccoglie con la sinistra mano ,ouero che mostri d'hauer mietuto , & che di esso grano faccia vna metà.
+Dicesi, come racconta Columella lib. 2. de Agricoltura, che in questo mese oue saranno mature le biade mieterle, prima che si abbruscino da i vapori della state , che sono nell'apparir della Canicula grandissimi. Però si deuono mieter in fretta , percioche è noioso ogni tardare , essendo, che gl'vcelli, & altri animali fanno danno, come anco essendo secche le guscie , i grani, & le spighe cadono, però , come hò detto, si deue mietere quando vgualmente le biade ingialdiscono.
+[ЗАГОЛОВОК: Luglio.]
+[ИНИЦИАЛ: P]Erche il più notabile effetto di questo mese è la ricolta de i grani dipingeremo per esso.
+Vn contadino robusto in vn'aia, mezo nudo, terrà con ambe le mani vn correggiato , il quale è instromento da battere il grano , & stando con bella attitudine mostri di batter il grano , il quale sarà steso nell'aia , à canto alla quale vi sarà vna pala,rastello, & altri instromenti per simile esercitio.
+[ЗАГОЛОВОК: Agosto.]
+[ИНИЦИАЛ: V]N huomo che stia in atto di acconciare botte, tini, bigonzi, e barili, hauendo appresso di se tutti quelli instromenti necessarij à simile vffitio ; che così narra Palladio lib.9.de re rustica.
+Si potrà anco dipingersi à canto vna biocca con i pulcini, atteso che i polli che nascono di questo mese fanno più oua assai de gli altri, i quali nascono in altri mesi.
+[ЗАГОЛОВОК: Settembre.]
+[ИНИЦИАЛ: H]Vomo che tenghi vn cesto pieno d'vue,con le coscie,e gambe nude , come quelli che s'occupano ne gl'esercitij di cauar il mosto da l'vue & à canto vi sarà vn tino pieno d'vue,le quali mostrando d'esser peste da esso tino eschi il mosto,& entri in vn'altro vaso .
+E per esser anco che in questo mese si fa il miele non sarà fuor di proposito di metterui à canto doi , ò tre copelle d'api.
+[ЗАГОЛОВОК: Ottobre.]
+[ИНИЦИАЛ: H]Vomo che tenghi con la man sinistra vn cesto pieno di grano, & con la destra pigliando esso grano mostri di spargerlo in terra , & che venghi coperto da vno che stimoli i buoi, i quali tirano vn'aratro , & ancorche, secondo Hesiodo , il qual fù il primo che scriuesse de l'Agricoltura ( come narra Plinio libro 18. ) si deue seminare alli 10. di Nouembre , che in tal giorno tramontano le Vergilie, sette giorni dopoi sogliono per lo più seguir le pioggie, & esser fauoreuoli alle biade seminate, nondimeno
+
+Колонтитул: DI CESARE RIPA. 323
+Кустод: meno
+Сигнатура: 
+Маргиналии:
+
+## Скан 0345 · с. 324
+
+meno per la varietà delli terreni caldi,& freddi si semina più presto,ò più tardi . Ma per non confondere le nostre pitture , & terminare à ciascun mese l'offitio suo ,faremo che in questo mese si semini il grano, come cosa principalé al viuere humano.
+[ЗАГОЛОВОК: Nouembre.]
+[ИНИЦИАЛ: E]T perche l'olio è molto necessario all'huomo, non solo per mangiare ma anco per molti altri commodi, faremo che in questo mese come narra Palladio lib.12.de re rustica si faccia l'olio, per essere, come habbiamo detto, molto necessario come si vede in tutte le scritture sacre, essendo, che di questo pretioso liquore non solo si serue in condire i cibi,ma anco in consecrare li ministri della Santa Chiesa, & l'altre cose à lei pertinenti.
+Dunque dipingeremo vn'huomo, che tenghi con la destra mano vna sferza , & vadi dietro à vn cauallo, il quale sia attaccato ad vna rota da molino, oue si macina l'oliue, & à lato di essa vi sia vn monte d'oliue , & vna pala , vn torchio , fiescoli, & quanto sarà bisogno à tal officio.
+[ЗАГОЛОВОК: Decembre.]
+[ИНИЦИАЛ: H]Vomo robusto che con ambi le mani tenghi vna cetta, & con bella dispositione mostri di tagliar vn arbore.
+Secondo Palladio lib. 13. de re rustica essendo Decembre principio de l'inueruo, & l'aria fredda, la virtù de gl'alberi si concentra in essi, & sono più durabili li legnami per le fabriche, & per far ogn'altra opera, doue che in questo mese si tagliono non solo le selue per far legnami per le fabriche, & per far ogn'altra opera , come habbiamo detto, ma i souerchi rami, & le siepe verdi per far fuoco, si tagliono ancora le pertiche, li gionchi per le vigne, & anco d'esse se ne fanno le ceste , & molt'altre cose che sono opportune all'vso nostro.
+[ЗАГОЛОВОК: MESI.]
+[ЗАГОЛОВОК: Come dipinti da Eustachio Filosofo.]
+[ЗАГОЛОВОК: Marzo principio dell'Anno, secondo gli Antichi.]
+[ИНИЦИАЛ: V]N soldato tutto vestito di ferro , con la lancia, & scudo alludendo al nome del mese formata da Marte, perche in questo mese , come dice Eustachio si finiscono i fuernarmenti della Militia , & si ritorna à gli esercitij della guerra vigorosamente.
+[ЗАГОЛОВОК: Aprile.]
+[ИНИЦИАЛ: S]I dipinge il mese d'Aprile in forma di pastore con le braccia, e gambe nude , hauendo appresso vna capra con doi capretti nuouamente partoriti, & che detto pastore mostri di sonare vna sampogna .
+Così si dipinge da Eustachio, & dichiara che si nota in particolare che Aprile moltiplica con il parto gl'armenti.
+
+Колонтитул: 324 ICONOLOGIA
+Кустод: Maggio.
+Сигнатура: 
+Маргиналии:
+
+## Скан 0346 · с. 325
+
+[ЗАГОЛОВОК: Maggio.]
+[ИНИЦИАЛ: S]I dipinge giouanetto con faccia bella , e lasciua, hà i capelli ricciuti circondati da vna ghirlanda tessuta di rose bianche , & vermiglie , il vestimento lauorato d'oro, e contesto di fiori essendo mosso dal vento con leggiadria , hà le mani piene di rose , & di viole , con i piedi scalzi sopra di verdi herbette.
+Il che dimostra che in questo mese la terra quasi dal sonno de l'inuerno già nuda si sueglia , e si riueste di nuoue pompe conuienti à se stessa, che sono l'herbe , le foglie , & i fiori.
+Et però gli huomini all' hora facilmente s' incitano al piacere con le apparenze della vaghezza del mondo , & si gode con allegrezza , tutto quello che la terra produce lontano dalla malenconia essendo che questo mese apporta allegrezza infinita.
+[ЗАГОЛОВОК: Giugno.]
+[ИНИЦИАЛ: H]Vomo vestito da contadino con vna ghirlanda de fiori di lino , sta in mezo d'vn campo pieno di verdure , e tiene vna falce fenara.
+Si dipinge così perche in questo mese secondo Eustachio il Sole prende vigore , & si secca il fieno , & si miete.
+[ЗАГОЛОВОК: Luglio.]
+[ИНИЦИАЛ: H]Vomo mezo nudo chinato,che con la destra mano tien vna tagliente falce con la quale taglia i couoni de le spighe di grano le quali egli raccoglie con la sinistra mano , tiene in capo vn cappello largo con il quale mostra di difendersi da l'acceso calor del Sole.
+Il significato di quanto habbiamo detto di questa imagine,è ch'essendo i grani maturi si soglion tagliar quando il Sole hà più vigore.
+[ЗАГОЛОВОК: Agosto.]
+[ИНИЦИАЛ: H]Vomo ignudo, il qual mostra di esser vscito da vn fiume,& essersi lauato , & postosi à la riua di quello , à sedere , si cuopre con vn panno di lino le parti men'honeste , & mostra per l' eccessiuo caldo sospirare , & mettersi vna tazza alla bocca per bere.
+Questa figura che nel bagno si laua, & che beue altro non dinota, ch' il nascimento della canicula, da cui raddoppiato il caldo gl'huomini hanno bisogno di bagnarsi per vmettare il corpo , e bere per spegner la sete.
+[ЗАГОЛОВОК: Settembre.]
+[ИНИЦИАЛ: H]Vomo anch' esso in habito di contadino, con vna ghirlanda di pampane in testa, tiene in mano alcuni grappi d'vua con le gambe , & coscie nude , come quelli che si occupano nello esercitio di cauare il mosto da l'vue.
+Et à canto vi è vn tino pieno di vue peste, & da esso tino esce il mosto, & entra in vn'altro vaso.
+Altro non dimostra questa figura se non la vendemia , la quale si suol far nel mese di Settembre quando l'vue sono mature.
+
+Колонтитул: DI CESARE RIPA 325
+Кустод: Otto-
+Сигнатура: X
+Маргиналии:
+
+## Скан 0347 · с. 326
+
+[ЗАГОЛОВОК: Ottobre.]
+[ИНИЦИАЛ: V]N giouane in vn prato,& in esso mostri di hauer piantato molte frasche , & in quelle si vede hauerci tesi sottilissimi lacci, & reti , accioche l'vcelli non pur s'auuedano de l' inganno , ma ancora non possano veder quelli , che per lo prato sparsi dolcemente cantano , & non molto lontano sta detto giouanetto nascosto in capanello , & ridente mostra di amazzare vn preso vcello , il quale sarà con l' ali aperte per tentar di voler fuggire.
+Ciò significa che nel mese di Ottobre si da principio alle caccie per pigliar gl'vcelli.
+[ЗАГОЛОВОК: Nouembre.]
+[ИНИЦИАЛ: H]Vomo, che stimola i buoi, i quali tirano vno aratro in mezo di vn campo.
+Costui il quale con fatica s'appoggia all'aratro, mostra la stagion de la pliade,le quali come diceEustachio,è molto atto à l'esercitio de l'arare.
+[ЗАГОЛОВОК: Decembre.]
+[ИНИЦИАЛ: H]Vomo che tien con la man sinistra vn cesto pieno di semente di grano,la quale con la man destra mostra di spargerla in terra, la quale vien coperta da alcuni lauoratori.
+Ciò dimostra il tempo delle semente , le quali si sogliono con l'autorità del detto Eustachio spargere in terra il mese di Decembre.
+[ЗАГОЛОВОК: Gennaro.]
+[ИНИЦИАЛ: V]N giouane , il quale mostra d'andar à caccia con diuersi cani, tien con vna mano vn corno da sonare , & in spalla vn bastone , con il quale porta vn lepre con altri animali.
+Con questo si mostra il tempo d'andar à caccia,percioche essendo riposto il grano, & il vino, & raccolte tutte l'altre cose che sono vtili alla vita humana,l'huomo se ne va in questo mese di Gennaro à caccia.
+[ЗАГОЛОВОК: Febraro.]
+[ИНИЦИАЛ: V]N vecchio crespo, canuto , vestito di pelle fin'a i piedi , sta à sedere appresso vn gran fuoco , & mostra scaldarsi .
+Questa figura mostra non pur l'asprezza de l'inuerno , ma il freddo de l'istessa vecchiezza , si come si suol dire.
+*La stagion fredda , e i piacer amorosi*
+*Dal vigor natural costui spogliando*
+*Condotto l'hanno star vicin al fuoco.*
+[ЗАГОЛОВОК: MESE IN GENERALE.]
+[ИНИЦИАЛ: G]IOVANE vestito di bianco, con due cornetti bianchi, volti verso la terra , & terrà la mano sopra vn vitello d'vn corno solo, & sarà coronato di palma.
+E il mese da Orfeo domandato Vitello di vn corno , solo , perche in questo modo si hà la definitione del Mese , il quale non è altro , che il corso, che fa la Luna per li dodici Segni del Zodiaco , nel quale viaggio, pare à gli occhi nostri che parte del tempo cresca , & parte scemi-
+
+Колонтитул: 326 ICONOLOGIA
+Кустод: Lo sce-
+Сигнатура: X
+Маргиналии:
+
+## Скан 0348 · с. 327
+
+Lo scemare si dimostra col corno tagliato,& col crescere l' età del vitello , il quale per se stesso si viene aumentando col crescere , & col calare della Luna ; però la Luna è da Apollodoro , & da alcuni altri scrittori dimandata Taurione.
+Le due corna della testa,dimostrano l'apparenza che fa essa à noi altri , quando è nella fine del mese.
+Eustatio dimanda il mese bue, come cagione della generatione , commentando il primo libro dell'Iliade .
+La palma ogni nuoua Luna manda fuori vn nuouo ramo , & quando la Luna hà vint'otto giorni , ella hà l'vltima parte di fuori illuminata , in modo che l'estreme parti della Luna riguardano all'in giù,& de suoi frutti quelli più si stimano, per alcune medicine , i quali hanno forma più simili alla Luna.
+Si potrà fare ancora con l'herba detta lunaria , la quale si scriue essere di tal natura , che ogni giorno perde vna foglia , finche la Luna cala , poi al crescer d'essa , cresce ogni giorno all'herba vn'altra foglia , talche in vn sol mese tutte le perde , e racquista.
+[ЗАГОЛОВОК: METAFISICA.]
+[ИНИЦИАЛ: D]ONNA con vn globo , & vn horologio sotto alli piedi , hauerà gli occhi bendati , & in capo vna corona , facendo con la destra mano vn gesto tale , che dia segno di contemplatione , & con la sinistra tenga vn scettro , perche essendo ella Regina di tutte l' altre scienze acquistate per lume naturale , & sprezzando le cose soggette alla mutatione, e al tempo considera le cose superiori con la sola forza dell'intelletto , non curando del senso.
+[ЗАГОЛОВОК: Metafisica.]
+[ИНИЦИАЛ: D]Onna , che sotto al piede sinistro tenga vn globo , con la destra mano appoggiata alla guancia , & che stia pensosa , & con la sinistra mano stia in atto di accennare.
+Per la palla considera il mondo tutto,& le cose corruttibili,che soggiaciono , come vili à questa scienza , la quale s'inalza sola alle cose celesti,e diuine.
+[ЗАГОЛОВОК: MINACCIE.]
+[ИНИЦИАЛ: D]ONNA con la bocca aperta, con acconciatura di testa, che rappresenti vn mostro spauenteuole, vestita di bigio ricamato di rosso, & nero, in vna mano terrà vna spada , & nell' altra vn bastone in atto minaccieuole . Minaccie son le dimostrationi,che si fanno per spauentar & dar terrore altrui,& perche in quattro maniere può nascer lo spauento però quattro cose principali si notano in questa figura descritta da Eustatio , & sono la testa , il vestito , la spada , & il bastone.
+Si fa con bocca aperta , per mostrare , che l' impeto delle minaccie fa la voce , il quale poi accresce spauento à quelli , perche si grida , & perche nel gridare si commoue il sangue , si porta sempre vn non so che spauenteuole nella faccia , & si come la voce commoue l' orecchie , così i lineamenti della faccia spauentono per la vista dispiaceuole , come
+
+Колонтитул: DI CESARE RIPA. 327
+Кустод: anco
+Сигнатура: X2
+Маргиналии:
+
+## Скан 0349 · с. 328
+
+ancora la horribile acconciatura della sua testa.
+Il vestito bigio per esser questo colore composto di bianco, & di nero , è messo per somigliar la notte ch'è spauēteuole non quando è oscurissima: ma quando ha solo tanta luce che serua per veder le forme spauenteuoli, che si ponno rappresentar confusamente in essa,per questo si dice da Poeti l'inferno esser pien di oscura luce,& Virgilio nel 6.dell'Eneide disse.
+*Quale per incertam lunam sub luce maligna*
+*Est iter in syluis vbi cœlum condidit vmbra*
+*Iuppiter ,&c.*
+Il ricamo di rosso, & nero, mostra che il minaccio si stende per spauentare , ò al sangue, ouero alla morte.
+Il bastone , & la spada, fanno conoscere qual sorte di minaccie si deue adoprare con nemici valorosi, & quale con seruitori, & genti plebee,che poco sanno, & conoscono delle cose d'honore.
+[ЗАГОЛОВОК: MISERIA.]
+Vedi à Calamità.
+[ЗАГОЛОВОК: Miseria Mondana.]
+[ИНИЦИАЛ: D]Onna che tenga la testa dentro ad vna palla di vetro, & che sia trasparente, & con vna borsa versi denari, & gioie.
+La testa ne la palla di vetro facilmente per la continoa esperienza de le vanità di questa vita,si comprende quel che significhi,e ciascun per se stesso nel peregrinaggio di questi pochi giorni , che stiamo sopra la terra , sa quanto vani siano li nostri desiderij, & corte le nostre speranze .
+La testa si piglia per il pensiere , effetto dell'anima in essa.
+Il vetro mostra la vanità delle cose mondane per la fragiltà sua, ouero perche la miseria humana consiste in veder in qual parte l'huomo si volta alle cose maggiori di quel che sonno , stimando gran cosa gli honori , le ricchezze , & cose simili , che poi senza il vetro , si vede che sono vanità , & miseria, ouero che come il vetro non termina la vista di quello , che vi guarda per esser corpo diafono , così le ricchezze , & beni del mondo non danno mai termine à nostri pensieri, anzi che tutta via accrescono il desiderio di passar auanti,e con questo infelice continuo stimulo si conducemo miseramente alla morte.
+La borsa che ella versa , mostra che come volgarmente si crede essere felice chi hà gran facoltà , così si vede esser priuo di gran commodi chi ne è senza , il che facilmente può succedere à ciascuno.
+[ЗАГОЛОВОК: MISERICORDIA.]
+Vedi alle Beatitudini.
+[ЗАГОЛОВОК: Misericordia.]
+[ИНИЦИАЛ: D]Onna di carnagione bianca,hauerà gl'occhi grassi,& il naso alquanto aquilino, con vna ghirlanda d'oliua in capo, stando con le braccia aperte, ma tenga con la destra mano vn ramo di cedro con il frutto,& à canto vi sarà l'vcello pola, ouero cornacchia.
+
+Колонтитул: ICONOLOGIA 328
+Кустод: Miseri-
+Сигнатура: 
+Маргиналии:

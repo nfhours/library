@@ -282,3 +282,23 @@
 | 0327 |  | MATRIMONIO. | 0327_1 | r390 | бегущий заголовок |
 | 0328 | MATHEMATICA. |  |  | r391 | нет рамки |
 | 0329 |  | MATEMATICA. | 0329_1 | r391 | бегущий заголовок |
+| 0330 | MEDITATIONE. |  |  | r392 | нет рамки |
+| 0331 | MEDITATIONE SPIRITVALE.; Meditatione della Morte.; MEDICINA. |  |  | r393, r394, r395 | нет рамки |
+| 0332 |  |  | 0332_1 | — | заголовки страницы (неоднозначно) |
+| 0333 | Medicina.; MEDIOCRITA.; Mediocrità.; MEMORIA. |  |  | r395, r396, r397 | нет рамки |
+| 0334 | Memoria.; MERITO. |  |  | r397, r398 | нет рамки |
+| 0335 |  |  | 0335_1 | — | заголовки страницы (неоднозначно) |
+| 0336 | MERITO.; MESI.; MARZO. |  |  | r398, r399 | нет рамки |
+| 0337 | APRILE.; MAGGIO. |  |  | — | нет рамки |
+| 0338 | GIVGNO.; LVGLIO. |  |  | — | нет рамки |
+| 0339 | AGOSTO.; SETTEMBRE. |  |  | — | нет рамки |
+| 0340 | OTTOBRE.; NOVEMBRE. |  |  | — | нет рамки |
+| 0341 | DECEMBRE.; GENNARO.; FEBRARO. |  |  | — | нет рамки |
+| 0342 | MESI secondo l'Agricoltura.; GENNARO. |  |  | r400 | нет рамки |
+| 0343 | Febraro.; Marzo.; Aprile.; Maggio. |  |  | — | нет рамки |
+| 0344 | Giugno.; Luglio.; Agosto.; Settembre.; Ottobre. |  |  | — | нет рамки |
+| 0345 | Nouembre.; Decembre.; MESI.; Come dipinti da Eustachio Filosofo.; Marzo principio dell'Anno, secondo gli Antichi.; Aprile. |  |  | r399 | нет рамки |
+| 0346 | Maggio.; Giugno.; Luglio.; Agosto.; Settembre. |  |  | — | нет рамки |
+| 0347 | Ottobre.; Nouembre.; Decembre.; Gennaro.; Febraro.; MESE IN GENERALE. |  |  | r401 | нет рамки |
+| 0348 | METAFISICA.; Metafisica.; MINACCIE. |  |  | r402, r403 | нет рамки |
+| 0349 | MISERIA.; Miseria Mondana.; MISERICORDIA.; Misericordia. |  |  | r404, r405, r406 | нет рамки |
