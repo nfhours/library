@@ -11394,3 +11394,411 @@ Mostrano i detti versi,che col consiglio,& con la virtù, si supera la chimera, 
 Кустод: Giouane
 Сигнатура: 
 Маргиналии:
+
+## Скан 0530 · с. 509
+
+[ГРАВЮРА: без подписи]
+Giouane,& bello si dipinge, percioche bellissima è veramente la virtù, & è proprio suo di attrahere à sè gl'animi,& all'vso suo conuincerli.
+[ЗАГОЛОВОК: VIRTV' INSVPERABILE.]
+[ИНИЦИАЛ: D]ONNA coperta di bella armatura,nella destra mano terrà l'hasta & nel braccio sinistro lo scudo , dentro al quale sarà depinto vn'Elcio; per cimiero, portarà vna pianta d'alloro minacciata,ma non percossa dal fulmine, con vn motto che dice : *Nec forte, nec fato* .
+La virtù come guerriera, che di continuo col vitio suo inimico combatte, si dipinge armata, & col fulmine, il quale come racconta Plinio, non può con tutta la sua violenza offendere il lauro, come la virtù non può esser offesa da qualsiuoglia accidente disordinato.
+
+Колонтитул: DI CESARE RIPA. 509 / VIRTV'.
+Кустод: L'elce.
+Сигнатура: 
+Маргиналии:
+
+## Скан 0531 · с. 510
+
+L'elce,che è dipinto dentro allo scudo,altro non significa che virtù ferma, & costante, come questo albero, che hauendo le radici profonde, i rami, & le foglie ampie, verdeggiante, quanto più vien reciso, tanto più germoglia,& prende maggior vigore ; anzi quanto più è scosso, & trauagliato ,tanto più cresce, & con maggior ampiezza spande i rami , però si assomiglia alla virtù, la quale nelle tribulationi,& ne'trauagli,principalmente si scopre .
+Gli si può dipingere à canto ancora vn'Istrice, il quale non fà altro preparamento per difender la vita sua, che di ritirarsi in se medesimo , & difendersi con se stesso, come la virtù di se stessa si difende , & in se medesima confida, per superare ageuolmente ogn'incontro di sinistro accidente, & forze, à ciò alludeua Horatio dicendo di nascondersi nella propria virtù .
+[ЗАГОЛОВОК: Virtù.]
+[ИНИЦИАЛ: D]Onna vestita d'oro,piena di maestà, con la destra mano tiene vn'hasta , & con la sinistra vn cornucopia pieno di varij frutti, con vna testudine sotto à i piedi .
+Il vestimento d'oro , significa il pregio della virtù,che adorna, & nobilita tutto l'huomo .
+Tiene l'hasta in mano,perche ella impugna , & abbatte continuamente il vitio , & lo perseguita .
+[ЗАГОЛОВОК: Virtù.]
+[ИНИЦИАЛ: G]Iouanetta alata, & modestamente vestita, farà coronata di lauro,& in mano terrà vn ramo di quercia , con vn motto nel lembo della veste , che dica .
+[ЗАГОЛОВОК: MEDIO. TVTISSIMA.]
+Disse Siluio Italico nel 13. lib. della guerra Cartaginese , che la virtù istessa è conueniente mercede à se medesima , & si conformò con questo detto all'opinione de i Stoici , che diceuano fuor di lei non esser cosa alcuna , che la possa premiare à bastanza , & fù da gl'antichi dipinta così , perche , come la quercia resiste alli insulti delle tempeste immobile , così la virtù resta immobile , à tutte le oppositioni de contrarij auuenimenti .
+Per significato del lauro , ne seruirà quello che diremo nella seguente figura , che nell'vna , & nell'altra si rappresenta detta pianta .
+Il motto dimostra che queste attioni , solo sono dependenti dalla virtù , le quali hanno la loro estremità,che sono , come fosse oue l'huomo cade , & s'immerge cadendo dal suo dritto sentiero , però disse Oratio .
+Est modus in rebus sunt certi denique fines
+Quos vltra citrasque; nequit consistere rectum .
+[ЗАГОЛОВОК: Virtù.]
+[ИНИЦИАЛ: V]Na giouane bella , & grotiosa , con l'ali alle spalle,nella destra mano tenghi vn'hasta , & con la sinistra vna corona di lauro , & nel petto habbia vn sole .
+
+Колонтитул: 510 ICONOLOGIA
+Кустод: Si di-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0532 · с. 511
+
+[ГРАВЮРА: без подписи]
+Si dipinge giouane , perche mai non inueechia, anzi più sempre vien vigorosa , & gagliarda , poi che gl'atti suoi constituiscono gli habiti , & durano quanto la vita de gl'huomini .
+Bella si rappresenta , perche la virtù è il maggior ornamento dell'animo .
+L'ali dimostrano, che è proprio della virtù l'alzarsi à volo sopra il commune vso de gl'huomini volgari, per gustare quei diletti, che solamente prouano gl'huomini più virtuosi , i quali , come disse Vergilio , sono alzati sino alle stelle dell'ardente virtù,& diciamo che s'inalza al cielo, che per mezzo della virtù si fà chiaro,perche diuenta simile à Dio,che è l'istessa virtù , & bontà .
+
+Колонтитул: DI CESARE RIPA. 511 / VIRTV'.
+Кустод: Il sole
+Сигнатура: 
+Маргиналии:
+
+## Скан 0533 · с. 512
+
+Il sole dimostra,che come dal cielo illumina esso la terra,così del cuore la virtù defende le sue potenze regolate à dar il moto, & il vigore à tutto il corpo nostro , che è mondo piccolo, come dissero i Greci, & poi per la virtù s'illumina,scalda,& auuigora in maniera, che buona parte de Filosofi antichi la stimornò bastante à supplire alle sodisfattioni , & à gusti, che nella vita humana possono desiderarsi , & perche Christo S. N. si dimanda nelle sacre lettere sole di giustitia, intendendo quella giustitia vniuersalissima, che abbraccia tutte le virtù, però si può dire , che chi porta esso nel cuore, hà il principal'ornamento della vera,& perfetta virtù .
+La ghirlanda dell'alloro, ne significa che si come il lauro è sempre verde, & non è mai tocco da fulmine, così la virtù mostra sempre vigore , & non è mai abbattuta da qualsiuoglia aduersario, come anco ne per incendio,ne per naufragio, si perde,ne per aduersa fortuna , ò sorte contraria .
+Le si dà l'asta per segno di maggioranza , la quale da gli antichi per quella era significata .
+Dimostra anco la forza,& la potestà,che hà sopra il vitio, il quale sempre dalla virtù è sottoposto , & vinto .
+[ЗАГОЛОВОК: VITA.]
+[ИНИЦИАЛ: D]ONNA vestita di verde,con vna ghirlanda in capo di sempreuiuo,& nella destra mano con vn mazzo della medesima herba sopra del quale vi sia vna Fenice; con la sinistra tiene vna tazza, dando da bere ad vn fanciullo .
+Quello,che da Latini si dice nell'huomo viuere,si dice nell'herbe,&nelle piante Virere,& la medesima propositione,che è frà le parole , è ancora fra le cose significate da esse , perche non è altro la vita dell'huomo,che vna viriditá,che mantiene,& accresce il calore , il moto , & quanto hà in sè di bello,& di buono,&la viriditá nelle piante,nō è altro,che vna vita,la quale mancando,manca il nodrimento,il calore,le fiamme, & la vaghezza,però l'herba,che tiene nella mano,&nel capo quest'imagine,si dimanda sempreuiua,& l'età prospera nell'huomo si chiama viriditá,& da virere parola latina , si sono chiamati gl'huomini viri , però si farà non senza proposito inghirlandata di quest'herba .
+Quasi il medesimo dimostra il vestimento verde, & come dall'herbe non si attende altro che la viriditá , così nell' huomo non è bene alcuno (parlando humanamente) che si debbia anteporre alla virtù istessa .
+L'historia , ò fauola che sia della Fenice è tanto nota , che non hà bisogno di molte parole , & si prende per la vita lunga , & ancora per l'eternità,rinouando se medesima , come si è detto .
+Il fanciullo, che beue , significa , che la vita si mantiene con li alimenti & con la dispositione,gli alimenti la nudriscano, & si prendono per la bocca, ouero per la parte superiore , & la dispositione la fà durare , & deue essere in tutto il corpo, come l'età tenera de fanciulli , che crescono, & fà à questo proposito quel che si è detto della salute .
+
+Колонтитул: 512 ICONOLOGIA
+Кустод: VITA
+Сигнатура: 
+Маргиналии:
+
+## Скан 0534 · с. 513
+
+[ЗАГОЛОВОК: VITA ATTIVA.]
+[ИНИЦИАЛ: S]ONO due le strade, che conducano alla felicità, & queste sono diuersamente seguitate secondo la diuersità, ò delle inclinationi,ò delle ragioni persuasiue,& si significano con nome di vita attiua, & contemplatiua, & furono ambedue approuate da Christo Saluator nostro nella persona di S.Marta,& di Maria,& se bene questa à quella, che staua occupata nelle attioni fù preferita, con tutto ciò ancor quella è degna della sua lode, & de suoi premij .
+Si dipinge adunque la vita attiua con vn capello grande in testa, & vna zappa in spalla,con la sinistra mano appoggiata sopra il manico d'vn'Aratro,& appresso con alcuni instromenti d'agricoltura ; perche , essendo l'agricoltura la più necessaria attione, che si faccia, per conseruatione dell' huomo con essercitio delle membra, & con distratione della mente , mantenendosi per ordinario fra gl'huomini di villa con l'ingegno offuscato,potrano questi soli instrumenti dimostrare quel tutto, che si appartiene ad vna indistinta cognitione di quelle cose , alle quali l'industria stimolata dalla necessità, hà diligentemente aperta la via in tanti modi,in quanti si distinguono l'arti, & gl'essercitij manuali .
+Michel Angelo Buonaruota rappresentò per la vita attiua alla sepoltura di Giulio Secondo, Lia figlia di Laban , che è vna statua con vno specchio in mano,per la consideratione , che si deue hauere per le attioni nostre, e nell'altra vna ghirlanda di fiori,per le virtù, che ornano la vita nostra in vita,& doppo la morte, la fanno gloriosa .
+[ЗАГОЛОВОК: Vita attiua.]
+[ИНИЦИАЛ: D]Onna con vn Bacino,& con la Mescirobba in atto di mettere dell'acqua,col motto del Salmo : *Fiducialiter agam, & non timebo* . Questa dà vn cenno, che si deuono fare l'attioni con le mani leuate , cioè senza interesse, che imbrattano spesse volte la fama , & confidenza di buon successo per diuina bontà, & che Iddio così prospera i successi delle nostre attioni .
+[ЗАГОЛОВОК: VITA CONTEMPLATIVA.]
+[ИНИЦИАЛ: L]A vita contemplatiua si dipingeua da gli antichi donna col viso volto in cielo, con molta humiltà , & con vn raggio di splendore, che scendendo l'illumina, tenendo la destra mano alta,& stesa, la sinistra bassa, & serrata,con due picciole alette in capo .
+Contemplatione è fruire,& conoscere Dio,imaginando la perfettione della quale consiste in creder bene, cioè nella istessa fede pura, & viua .
+L'ali, che tiene in capo significano l'eleuatione dell'intelletto , la quale non lascia abbassare i pensieri alle cose corrottibili , oue s'imbratta bene spesso la nobiltà dell'anima,& la purità delle voglie caste, però si dipinge, che miri al cielo donde esce lo splendore che l'illumina,perche l'hauer l'anima atta alla contemplatione, è dono particolare di Dio, come affermò Dauid,dicendo : *Domine adiuua me, & meditabor in iustificationibus tuis* .
+Stà con humiltà , perche Iddio resiste a' superbi, & fà gratia à gli humili .
+
+Колонтитул: DI CESARE RIPA. 513
+Кустод: L'vna
+Сигнатура: 
+Маргиналии:
+
+## Скан 0535 · с. 514
+
+L'vna mano stesa, & alta,& l'altra serrata, & bassa, dimostrano la rilassatione della mente ne gli alti pensieri del Cielo, & la parcità intorno alle basse voglie terrene .
+[ЗАГОЛОВОК: VITA CONTEMPLATIVA.]
+[ИНИЦИАЛ: D]ONNA ignuda, che stenda vna mano aperta verso il Cielo, & con l'altra tenga vn libro, nel quale sia scritto il motto tratto dal salmo *Mihi adhærere Deo bonum est* .
+Michel Angelo, come si è detto della attiua, fà vna statua di Rachele , sorella di Lia , & figliuola di Laban per la contemplatiua, con le mani giunte, con vn ginochio piegato,& col volto par che stia leuata in spirito, & ambidue queste statue mettono in mezzo il Moise tanto famoso del già detto sepolcro .
+[ЗАГОЛОВОК: VITA HVMANA.]
+[ИНИЦИАЛ: D]ONNA, che si posi co'piedi nel mezzo di vna Ruota di sei raggi, la quale stia in piano rotondo, sopra vn piedestallo in modo formato,che non pieghi, ne dalla destra,ne dalla sinistra parte, terrà in vna mano il Sole, nell'altra la Luna .
+Sono tanti, & tanto varij casi dell'humana vita, che per la moltitudine & nelle penne, che scriuono,& ne gl'intelletti stessi, che discorrono, fanno confusione, parendo impossibile arriuare à tanti indiuidui,che con molti vniformi attioni possono generar scienza di sè stessi ; pur da tutti questi si raccoglie quasi vn'epilogo, che la vita è incerta, volubile , & però si mostrano nella Luna,& nel Sole,le cagioni superiori necessarie, & nella ruota l'inferiori accidentali ; & se bene la sorte, ouero la fortuna non hà cosa alcuna fuor de gli auuenimenti stessi, che vengono di raro,& fuor dell'intentione di chi opera, con tutto ciò l'animo nostro per lo più troppo credulo in quello oue si troua interessato,hà dato facilmente luogo di signoria particolare in sè stesso à questa imaginata deità di quelle cose,alle quali non sà assegnar la cagione,ne dà alla fortuna ò la colpa , ò la lode, & diciamo,che la ruota significa l'auuenimenti, che hanno cagione inferiore , & accidentale,cioè di fortuna, la quale con la ruota si dipengea da gli antichi come colei,che riuolgesse à suo piacere li stati,& le grandezze .
+[ЗАГОЛОВОК: VITA INQVIETA.]
+[ИНИЦИАЛ: L]A vita de mortali esser soggetta ad vna perpetua inquietudine,lo potrà significare la figura di Sisifo , il quale secondo le fintioni de molti Poeti, mai cessa di riuolgere verso la cima di vn gran monte vn graue sasso,& da alto tornando à ricadere, muoua , & perpetua fatica si aggionge al misero huomo , per ricondurre di nuouo in cima al monte il sasso , oue non è bastante di fermarlo, onde Ouidio nel lib.4. così dice .
+Sisifo vn graue sasso ogn'hor tormenta .
+Il monte è simbolo della vita nostra .
+La cima di esso, denota la quiete , & tranquillità di quella , alla quale ciascun spira .
+Il sasso è lo studio,& la fatica,che ciascuno prende per poterui arriuare .
+
+Колонтитул: 514 ICONOLOGIA
+Кустод: Sisifo
+Сигнатура: 
+Маргиналии:
+
+## Скан 0536 · с. 515
+
+Sisifo è (per quanto narra Gio. Battista Rinaldi ne i suoi Teatri) significatore dell'anima, la quale mentre è qui giù, sempre à qualche quiete spira, & che à pena hà vna cosa essequita,tosto l'altra desidera, percioche altri ne gl'honori la vera felicità ripongono, altri nelle ricchezze,chi nella scienza, chi nella sanità,chi nella fama,chi nella nobiltà ; la onde è forza,che il nostro desiderio la vera sua quiete ritroui .
+[ЗАГОЛОВОК: VITIO.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: V]EDI à Sceleratezza .
+[ЗАГОЛОВОК: VITTORIA.]
+Nella Medaglia di Domitiano .
+[ИНИЦИАЛ: P]ER la vittoria si dipinge vna donna alata, che nella destra tiene vn cornucopia, & nella sinistra vn ramo di palma .
+Et qui sono le due sorti di bene,che porta seco la vittoria,cioè la fama, ouero
+
+Колонтитул: DI CESARE RIPA. 515
+Кустод: ouero
+Сигнатура: 
+Маргиналии:
+
+## Скан 0537 · с. 516
+
+onero l'honore,& la ricchezza, & l'vna, & l'altra per ragione di guerra, si toglie per forza di mano all'inimico .
+[ЗАГОЛОВОК: Vittoria.]
+[ИНИЦИАЛ: D]Onna vestita d'oro,nella destra mano tiene vn pomo granato,& nella sinistra vn'elmo, così la descriue Eliodoro .
+Perche due cose sono necessarie per conseguir la vittoria, cioè la forza , & la concordia, questa per ritrouar la via che li si nasconde, quella per aprirla con animo coraggioso ; La forza si mostra nell'elmo, che resiste à colpi, che vanno per offendere la testa, & l'ingegni vniti nel pomo granato, il quale è ristretto con l'vnione de suoi granelli,come gl'huomini di valore, restringono in vna sola opinione, tutti i pensieri di molti ingegni .
+[ЗАГОЛОВОК: VITTORIA.]
+Nella Medaglia di Ottauio .
+[ИНИЦИАЛ: S]I dipinge donna, alata , che stà sopra vna base in piedi, con la palma in vna mano, & nell'altra con vna corona, & due serpenti dell'vna,& dell'altra parte , & con vn'altro serpe, che giacendo si auuolga intorno à gl'altri due, con lettere *Asia recepta* , così si vede nella Medaglia di Augusto .
+Il serpente è indicio della prudenza, come si è detto altroue,& si dipinge intorno alla corona, perche dalla prudenza de Prencipi nasce ben spesso, & così si stabilisce per molti anni la vittoria,& come vase de nostri pensieri aiuta à sostenere i pesi de nostri desiderij .
+[ЗАГОЛОВОК: Vittoria de gl'antichi.]
+[ИНИЦИАЛ: D]Onna di faccia verginile,& voli per l'aria, con la destra mano tenga vna ghirlanda di lauro,ouero di oliuo,& nella sinistra vna palma , con l'Aquila sotto a'piedi, la quale tiene nelle zampe vn ramo pur di palma, & il vestimento si farà di color bianco,con la clamidetta gialla .
+Il lauro, l'oliuo, & la palma, furono da gl'antichi vsate per segno di honore, il quale voleuano dimostrare douersi à coloro, che hauessero riportato vittoria de nemici in beneficio della Patria , & le ragioni sono dette da noi altroue , & sono tanto chiare per sè stesse , che non hanno bisogno di esser replicate più d'vna volta .
+Si fà in atto di volare, perche tanto è cara la vittoria, quanto significa più manifestamente valore eminente, & dominatore .
+Questo medesimo significa ancora l'Aquila , & però augurando buona fortuna alle loro imprese gli antichi Imperatori nell'Insegne la dipingeuano,& la portauano inanzi, per nudrire la speranza della vittoria ne gli animi de Soldati .
+Il vestimento bianco, dimostra, che deue esser la vittoria senza tintura di biasmo d'alcuna sorte, con prudenza di saperla vsare dopò che si è conseguita, ilche si mostra nel vestimento di giallo .
+[ЗАГОЛОВОК: VITTORIA NAVALE]
+Nella Medaglia di Vespasiano .
+[ИНИЦИАЛ: D]ONNA, alata, in piedi sopra vn rostro di Naue, nella destra mano-
+
+Колонтитул: 516 ICONOLOGIA
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Скан 0538 · с. 517
+
+no tiene vna corona,& nella sinistra vna palma, con lettere *Victoria naualis, & S. C.*
+[ЗАГОЛОВОК: VITTORIA NAVALE]
+come depinta da Romani.
+[ИНИЦИАЛ: Q]VANDO la vittoria, è sopra vna prura dell'inimico,ouero quando stà à canto à vn Trofeo doue siano stromenti nauali, come sono Timoni, Anchore, Remi, si chiama vittoria nauale ,onde hauendo i Romani hauuto vittoria di quelli di Antio nel fiume del Teuere, tagliorno le prure delle loro Nauilij, & fecero vn pulpito nel foro Romano , che chiamorno Rostri, doue orauano le cause,& nelle Medaglie di Vespasiano per la vittoria nauale vi è vna colonna rostrata , si che volendo depingere la vittoria nauale nell'vno, & nell'altro modo starà bene .
+Vittoria della Medaglia di Tito .
+[ИНИЦИАЛ: D]Onna senza ale, con vna palma, & corona di alloro ; In questo modo mostraua Tito non voler che ella si partisse mai da lui,così la depinsero anco gli Ateniesi, come racconta Pausania nelle sue antichità per la medesima ragione di Tito .
+[ЗАГОЛОВОК: VITTORIA.]
+Nella Medaglia d'Augusto .
+[ИНИЦИАЛ: D]ONNA sopra vn globo,con l'ali aperte per volare , con vna corona di alloro in vna mano, & nell'altra il Labbaro Insegna dell'Imperatore,che i Francesi hoggi dicono Cornetta , solita à portarsi inanzi al Prencipe, quando in persona si troua alla guerra,come mostrano le lettere che sono intorno alla Medaglia . IMPERATOR CAESAR .
+[ЗАГОЛОВОК: VITTORIA.]
+come depinta da gl'Antichi .
+[ИНИЦИАЛ: G]L'ANTICHI dipinsero la vittoria in forma di Angelo,con l'ali, & bene spesso à sedere sopra le spoglie de i nemici con Trofeo dinanzi al petto con vna palma, & vno Scudo, & parole,che dicono VICTORIA AVGVSTI, così l'hà descritta Claudiano quando dice .
+Ipsa Duci sacras victoria panderet alas ,
+Et palma viridi gaudens, & amica Trophæis
+Custos Imperij virgo, quæ sola mederis
+Vulneribus : nullumq; doces sentire dolorem .
+Et Plinio: *Laborem in victoria nemo sentit* .
+[ЗАГОЛОВОК: VITTORIA]
+Nella Medaglia di Seuero .
+[ИНИЦИАЛ: D]ONNA, che siede sopra di vn Scudo , & tiene vn'elmo in mano, che debbe esser quello del Vincitore .
+
+Колонтитул: DI CESARE RIPA. 517
+Кустод: VITTO-
+Сигнатура: KK
+Маргиналии:
+
+## Скан 0539 · с. 518
+
+[ЗАГОЛОВОК: VITTORIA.]
+Nella Medaglia di Lucio Vero .
+[ИНИЦИАЛ: H]Vomo con vn'elmo in testa, che porta con la destra vn'hasta, & con la sinistra vn trofeo in spalla con le spoglie in segno di vittoria .
+Vittoria, come rappresentata nella Medagia di Vespesiano .
+[ИНИЦИАЛ: V]NA donna alata in piedi, che scriue entro ad vno scudo , che stà appresso ad vna palma , con littere che dicono *Iudea capta* .
+Vittoria nella Medaglia di Domitiano .
+[ИНИЦИАЛ: V]NA donna alata , che tiene vn piede sopra vn'elmo, & scriue entro ad vno scudo appeso ad vn' arbore , & dall'altra parte dell'albore ornato d'vn trofeo , quiui vna donna sedente , che hà vna mano sotto le guancie, mesta in vista .
+Questa medaglia fù battuta in honore di Domitiano quando pigliò la Germania .
+[ЗАГОЛОВОК: VOLONTA'.]
+[ИНИЦИАЛ: V]NA grouane mal vestita di rosso , e giallo, hauerà l'ali alle spalle, & à piedi ; farà cieca, sporgendo ambedue le mani auanti vna più dell'altra in atto di volersi appigliare ad vna cosa .
+La volontà scriuono alcuni, che sia come Regina,la quale sedendo nella più nobil parte dell'huomo , dispensi le leggi sue,secondo l'auuenimenti, ò fauoreuoli, ò contrarij , che ò riporti il senso, ò persuada la ragione : & quando, ò da questa, ò da quello vi è malamente informata, s'inganna nel commandare, & disturba la concordia dell'huomo interiore , la qual si può ancora forse dire ministra dell'intelletto , à cui volentieri si sommette per fuggire il sospetto di contumace, & di sentimenti , i quali và secondando, accioche non diano occasione di tumulto , & però fù dall'auttore di questa, come credo , depinta con vestito pouero, se bene Zenofonte, conforme all'altra opinione, la dipinse molto ricca, come diremo poi .
+Il color rosso, & giallo, cagionati presso el Sole per l'abbondanza della luce, potranno in questo luogo , secondo quella corrispondenza dimostrar la verità, che è chiarezza, lume, & splendore dell'intelletto .
+Si depinge con l'ali, perche si dimanda col nome di volontà ,& perche con vn perpetuo volo discorrendo inquieta se stessa per cercar la quiete , la qual non ritrouando, con volo ordinario vicino alla terra , ingagliardisce il suo moto in verso il cielo , & verso Iddio, & però ancora à piedi
+
+Колонтитул: 518 ICONOLOGIA
+Кустод: tiene
+Сигнатура: 
+Маргиналии:
+
+## Скан 0540 · с. 519
+
+tiene l'ali, che l'aiutano sminuendo la timidità, & l'audacia.
+[ЗАГОЛОВОК: VOLONTA']
+[ГРАВЮРА: без подписи]
+La cecità le conuiene, perche non vedendo per se stessa cosa alcuna, và quasi tentone dietro il senso, se è debole, & ignobile, ò dietro la ragione, se è gagliarda, & di prezzo.
+*Volontà.*
+[ИНИЦИАЛ: D]Onna, vestita di cangiante, sarà alata, & con ambi le mani terrà vna palla de varij colori.
+Volontà è potenza, con la quale s'appetiscono le cose conosciute bene, ò con verità, ò con apparenza, & per non essere in lei stabilità tiene la palla di varij colori, il vestimento di cangiante, & l'ali.
+
+Колонтитул: DI CESARE RIPA. 519
+Кустод: Volontà
+Сигнатура: KK 2
+Маргиналии:
+
+## Скан 0541 · с. 520
+
+*Volontà.*
+[ИНИЦИАЛ: D]Onna, giouane, coronata di corona regale, con l'ali come si è detto,in vna mano terrà vn'Antenna con la vela gonfiata, & nell'altra vn fiore di Elitropio .
+Si depinge coronata di corona regale , per conformità di quello che si è detto .
+La vela gonfiata mostra che i venti de i pensieri nostri quando stimolano la volontà, fanno, che la Naue,cioè tutto l'huomo interiore,& esteriore , si muoua, & camini doue ella lo tiri .
+Et lo Elitropio che si gira sempre col giro del Sole, dà indicio, che l'atto della volontà non può esser giudicato , se non dal bene conosciuto, il quale necessariamente tira detta valontà à volere , & à commandare in noi stessi, se bene auuiene alle volte, che ella si inganni, & che segua vn finto bene in cambio del reale, & perfetto .
+*Voluttà.*
+[ИНИЦИАЛ: D]Onna bella, & lasciua, terrà in mano vna palla con due ali, & caminando per vna strada piena di fiori, & di rose, hauerà per argine, come vn precipitio .
+Non che sòsi possa con vna sola parola della lingua nostra, esprimere bene quello che i latini dicono con questo nome di voluttà , la quale è vn piacere di poco momento, & che presto passa, però si dipinge bella , & lasciua , & con la palla dell'ali, la quale vola , & si volge, & così con vn sol nome tiene doppia significatione d'vn solo effetto, simile à quello della palla alata .
+Questo medesimo dechiara la strada piena di fiori, & il precipitio vicino .
+[ЗАГОЛОВОК: VORACITA']
+[ИНИЦИАЛ: D]ONNA vestita del colore della ruggine, con vna mano fà carezze ad vn lupo , & l'altra tiene sopra d'vn struzzo .
+La voracità nasce dal souerchio piacere, che sente il goloso nel mangiare esquisite viuande , & è priua di quello stesso piacere che da lei si aspetta , perche attendendo sempre à nuouo gusto di saporite viuande , si affretta à dare ispeditione à quelle che tiene in bocca , senza gustarle , & così sempre facendo consuma tutte le cose , & non ne gusta pur vna , & fà come il cane , che per troppa voglia di far caccia all'animali, & non l'vccide.
+Però si veste del color della ruggine, la quale diuora il ferro , con lupo appresso , & con lo struzzo , & perche l'vno ingoia li pezzi di ferro , l'altro quello che hà tutto consuma in vna volta senza pensare per la necessità del tempo da venire .
+
+Колонтитул: 520 ICONOLOGIA
+Кустод: VSAN-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0542 · с. 521
+
+[ЗАГОЛОВОК: VSANZA.]
+Vedi Consuetudine .
+[ЗАГОЛОВОК: VSVRA.]
+[ИНИЦИАЛ: D]Onna vecchia, macilente, & brutta, terrà sotto il braccio manco, vn baccile d'argento , & nella mano il boccale , con alcune catene d'oro, & con l'altra mano sporgendola in fuori, mostri di contare alcune monete picciole, nel che si accenna quello in che consiste l'vsura, cioè il presto de denari con certezza di maggior guadagno,che conuiene,& senza pericolo di perdita ; però tiene gli argenti, che sono di molto prezzo stretti sotto al braccio, & pagati con poco prezzo , con pregiuditio al prossimo dell'vtile, & à sè dell'honore , essendo questa sorte di gente, come infame condennata dalle leggi di Dio, & da quelle de gl'huomini.
+[ЗАГОЛОВОК: VTILITA']
+[ИНИЦИАЛ: D]ONNA vestita di vestimento d'oro, in vna mano terrà vn ramo di quercia con le ghiande , & con le frondi, l'altra mano starà posata sopra la testa d'vna pecora, & in capo porterà vna ghirlanda di spighe di grano .
+Si dimandano vtili le cose che sono di molto vso, per aiuto dell'humana necessità , & queste appartengono, ò al vitto, ò al vestito , che ci tengono securi dal freddo , & dalla fame , ne quali bisogni, quello che più ci riueste, & ci nudrisce con la carne, & con latte proprio . Il medesimo fà l'oro, che si tramuta per tutti gli vsi, & per ogni sorte di vtilità, però si manifesta nel vestimento .
+Et perche il grano è la più vtil cosa, che creasse Dio per l'huomo dalle sue spighe, si corona, & il ramo di quercia con suoi frutti denota questo medesimo, per hauer scampati dalla fame gl'huomini ne primi tempi secondo l'opinione de Poeti, & piacesse al cielo, che non si potesse dire che gli scampa nell'vltimi nostri à tante calamità siamo ridotti per colpa de nostri errori.
+[ВИНЬЕТКА: орнамент-маскарон]
+
+Колонтитул: DI CESARE RIPA. 521
+Кустод: ZELO
+Сигнатура: KK 3
+Маргиналии:
+
+## Скан 0543 · с. 522
+
+[ЗАГОЛОВОК: ZELO.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: H]VOMO in habito di Sacerdote,che nella destra mano tenga vna sferza, & nella sinistra vna lucerna accesa .
+Il zelo è vn certo amore della religione col quale si desidera , che le cose appartenenti al culto diuino siano essequite con ogni sincerità , prontezza, & diligenza .
+A che fare due cose accennate in quest'imagine sono necessarijssime , cioè iusegnare à gl'ignoranti, & correggere , & castigare gl'errori ; ambe due queste parti adempì Christo Saluatore, scacciando quei che faceuano mercato nel Tempio di Gierusalemme , & insegnando per tutto quel giorno in esso la sua dottrina, assimigliandosi questa, & quello conuenien-
+
+Колонтитул: 522 ICONOLOGIA
+Кустод: temente
+Сигнатура: 
+Маргиналии:
+
+## Скан 0544 · с. 523
+
+temente con la lucerna, & col flagello, perche doue ci percuote non è chi sani, & oue fà lume non è chi oscuri, in nome del quale dobbiamo pregare, che siano tutte le nostre fatiche cominciate, & finite felicemente .
+Laus DEO, & Beatæ Viginis MARIAE .
+EINIS
+[ВИНЬЕТКА: типографская марка: орёл в овальной раме с венцом и лавровой ветвью, девиз по нижней ленте]
+
+Колонтитул: DI CESARE RIPA. 523
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Скан 0545 · с. 524
+
+[ИНИЦИАЛ: E]GO Lucas Valerius fidem facio , hanc D. Cæsaris Ripæ Iconologiam , non solum nihil fidei Catholicæ, aut bonis moribus repugnans continere ; verum etiam opus esse elegantissimum , atq; omnibus ad virtutem amplectendam , & fugiendam vitia profuturum.
+Imprimatur si placet R. P. Magist. S. Palatij Apostolici.
+B. Gypsius Vicesgeren.
+Imprimatur Fr. Angelus Barb. Venetus Magist. & socius Reuerendiss. P. Magist. Sacri Palatij .
+
+Колонтитул: 
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Скан 0546 · с. 525
+
+[ЗАГОЛОВОК: ERRORI COMMESSI NELL' INTAGLIO.]
+I La figura dell'Abondanza deue tenere il cornocopia con la destra mano , & non per terra .
+11. Nella figura dell'Allegrezza vi mancano i fiori alli piedi .
+77. Nella figura del Sanguigno,non vi hà da essere il leggio,ma vn libro di musica aperto con le sue note .
+97. Il crepusculo della sera hà da essere del colore come quello della mattina .
+107. Al Dispregio del mondo gli manca la corona d'alloro . Alla figura dell'Economia gli manca la ghirlanda d'oliuo . Gli Equinotij deuono hauere il vestito dalla parte destra da alto à basso di color bianco, & dall'altro lato di color negro .
+180. Al Furto gli mancano l'ale alli piedi, & deue hauer l'orecchie come quelle del Lepore .
+182. Alla figura della Gelosia gli mancano l'ale alle spalle .
+252. Nella figura della Toscana vi mancano alla sinistra banda diuerse sorte d'arme .
+277. Nella Marca Triuigiana manca nella soprauesta,ò manto che dir vogliamo il ricamo di spighe di grano, fruttifere vite .
+289. Nella figura del Friuli gli manca ne i piedi i coturni .
+306. Nella figura del Matrimonio alli piedi vi manca vna Vipera .
+329. La figura della Misericordia deue tenere nella destra mano vn ramo di Cedro con il frutto,& non la palma,& vi manca alli piedi vna cornacchia .
+394. La figura della Persuasione deue hauere vn occhio à piede della lingua,che hà in cima del capo,& non al piede della figura .
+399. La figura del Piacere,hà da essere nudo,& non vestito .
+427. La figura della Ragione di Stato non tiene bene la bachetta con la quale fà cascare i papaueri .
+450. Alla figura della Seruitù vi manca che gli stia vna Grue,che tenghi vn sasso con vn piede .
+461. La figura del Solstitio estiuo non stà nella sua positura,cioè non stà in atto di ritornare indietro .
+[ЗАГОЛОВОК: ERRORI NEL VOLGARE.]
+Facciata 12. occhi.legge orecchi. 20.il capo.l.il petto. 23.circonscritti.l.circonscritta.
+33.d'ogni mendico.l.ci và auanti pouero. 33.di notte.l.dinota.
+43.il quale quãto più &c. mancano le seguenti parole, 43. e di stelle illustrato , & abbellito tanto più si dice &c.
+44 perche il biasmo nacque ci manca doppò, 44. da vn parto con la natura antichissima madre di tutte le cose,& dell'huomo in particolare.
+45.di.l.chi. 53.altri.l.alti. 55.perche.l.ma perche. 57.fascina.l.fascia. 57.dipinto Nettuno.l.è dipinto Nettuno.
+58. Le marine sono false,& amare ci mancano doppò queste parole, 58. & quelle de i laghi non sono amare.
+59.ghirlanda d'hedera, manca doppò, 49. perilche l'edera è dedicata &c. 60. spenta.l.spinta.
+61.&in vn altro luogo ci manca 61. 3. elegiarum. 73.Comedin.l.Comedia. 74. ch'habbia sadisfare. l. ch babbia à sodisfare.
+81.tal maniera. l. in tal maniera. 94.armata.l.hornata. 94.veuto.l.vento 94.vn danno.l.vn penar.
+95.l'ordine. l.l'ordire. 95.cupro.l.crepero. 100.consigio.l.consiglio. 108.occopa.l.occupa.
+114.ierefoluto. l.irresoluto. 114 timore.l.timone. 118.quat.l.quattro. 126.inerme.l.inerne. 127. 187.l.sessantesimo.
+136.scriueremo.l.seruiremo. 142.no me.l.nome. 142.lai.l.ali. 144.seppulto.l.sepolto. 144.sciolta.l.scossa.
+144.e deya.l.e della 144.modi l.nodi. 144.nodi. l.modi. 146.cornacchia l.conocchia. 146.cornacchia.l.conocchia.
+148 trouandogli.l.toccandogli. 149.biando.l.biaco. 150.oon.l.con. 150 penna.l.penda. 150.canidissimo.l.candidissimo.
+150.Chriesa.l.Chiesa. 153.riaornata. l.ritornata. 154 federe. l.federa. 158.marrana. l.marina.
+160.di notare l.di scherzare. 166.torte in. l.torte &. 166 Eito.l.Egitto. 166.finosomia.l.fisonomia.
+166.nella destro.l.nella destra. 168.apparentenente. l.apparentemente. 168.homo.l.huomo. 168.si fà inanzi, và casso vna volta.
+169.inclinado.l.inclinando.
+
+Колонтитул: ERRORI COMMESSI NELL' INTAGLIO.
+Кустод: nando.
+Сигнатура: 
+Маргиналии:
+
+## Скан 0547 · с. 526
+
+170.si troua in vn.l.si troua vn sasso. 175.in habito.l.in atto. 175.serpentici.l.serpentini
+198.epitteto.l.epiteto 202.Gouane l.Giouane. 203.Croniche. l.Croni. 205.distrugge. l.distingue. 208.♀.l.♂. 210.♀ l.♂. 213.pur l'istesso. 213.alberi.l.albori.
+216.vn libro succhiuso, deue seguire, 216.donde appariscono vscire &c. 218. del quale l'ouato.l. del quale posi l'ouato. 235.coscienza.l.conscienza. 237.adornamenti.l.andamenti.
+242.discordandosi.l.diuorandosi. 242.l'occhi.l.gl'occhi. 243.il veleno.l.vn veleno. 243.lugge l.sugge. 243.capo.l.corpo. 243. ancora.l.anoia. 245. Et il Petrarca nel Son.197.
+và dall'altra parte auanti. Ira è breue furor,e chi no'l frena. 248.larghi.l.laghi. 250.Beuzo.l.beroso. 257.Franceco.l.Francesco.
+258.di Strabone.l.dice Strabone. 258.de Vrbino.l.Vrbibus. 260.dal suo.l.del suo. 260.Ciclo.l.Cielo. 261.fa. l. fu. 270.canalli. l.caualli.
+272.conuesare.l.conuersare. 275.ai quali.l.li quali. 275.hora. l.hoggi. 310.& etano.l.& anco. 313.raragione. l.ragione. 313.Eleoga 6 l. Ecloga.
+315.dipingeuano. l.dipingeremo. 316.reconciglia.l.riconsiglia. 317.la Rip. l.la Rep. 318.Giouane di fiero, l.Giouane alato di fiero.
+318.consegnato. l.consegrato. 318.offendendo. l. offende. 319.s'esercita la quale. l.s'esercita la caccia la quale. 320.poi. l.che. 321. qual siano. l. quali siano.
+324 formata.l.formato. 325.conuienti. l.conuenienti. 327.Eustatio. l.Eustachio. 327.Eustatio.l Eustachio. 342.Ariosto.l.l'Ariosto. 343.Per lunga fame attenuate , e asciutte ci và doppò. Horribil' d veder più che la morte.
+346. così l'opere.l.così per l'opere. 349.vesi.l.versi. 353.Ninnedi.l.Hinnedi. 353.nifale.l.ninfale. 359.riccam.l.riccamente. 359.Minerba.l.Minerua.
+364.splendor cielo.l.splendor del cielo. 373.frezze. l.sferze. 397.sfaza. l. sferza. 400.s'espone. l. s'espose. 400.funo .l. freno. 402.ostinatione. l. astentatione.
+402.dette. l. detto. 403.pidi. l piedi. 404.l'ssuomo.l.l'huomo. 409.ardore.l.ardere. 419.facciate.l facciata. 420.il quale al collo.l.il quale hauerà al collo.
+429.il Nipio.l.il Nibio. 436.ordinarioni.l.ordinationi. 455.s'arriua cielo.l.s'arriua al cielo 457.fama.l.fame. 461. Capricorno.l.Grancio ouer Cancro.
+470.spirandosi l.sperandosi. 474.trattato dell'agricoltura,và casso. 479.quattro.l.altri. 480. tiranno.l.tirando. 489 pignale.l.pugnale. 489.faccia.l.furia.
+489.gl'altri huomini. l.de gl'altri huomini.489.arriuate.l.arriuati.489.fabricate. l.fabricati. 491.intessato. l.intessuto. 491.Zicca.l.Zucca. 492.capo.l.corpo.
+492.nndriti. l.nodriti. 493.manieri. l.maniere. 494.del color. l.dal color.496.in habitato. l.in habito.499. Senica.l. Seneca.506.Allu do.l.Allude.
+[ЗАГОЛОВОК: ERRORI NEL TESTO LATINO.]
+Facciata 3.milia milium.legge millia millium. 10. 2 ecloga. l. 4 ecloga. 14.hic. l.hinc. 21.nemus agricolis. l.nemus redit agricolis. 31.ode. l.ode 2.lib.2.
+31. hydropus. l.hydrops. 32.quid tam.l.quid tantum. 32.Qui nec bibit,qui è parola superflua. 32.poma potentia.l.poma patentia. 32.vita.l.vota. 32.fuit.l.erit.
+33.ost.l.est. 33. bestia prauagerunt.l.bestia praua gerit. 34. prædillit.l.prædixit. 34. augores. l.Augures. 34.litous. l.lituus. 34.dixerit.l.direxit. 35.antem.l.autem.
+35.antiqnis.l.antiquis. 53. armentia. l. armenta . 57. Tytiro.l.Tityro. 58. Berecinthia. l. Berecynthia. 58. currum. l. curru. 58.Phrigias.l.Phrygias.
+61.flaua ceres spicis. l.[?] Ceres tenues spicis. 67. ante ait moriar.l. ante ait emoriar. 70.fere.l.feræ. 73 graci.l.græci. 73.ambulatur.l.ambulant
+73.Regi.l.regi. 73.siccarius.l.sicarius. 77.cantus.l.cautus. 81.concordia. l. discordia. 99.voluerts.l.volucris. 99.subis.l.subit. 99.Ere.l.uere. 103.seper.l.semper.
+106.Intre muent.l.Intremuere. 116.non eris.l.non æris. 126.Thea. l. Rhea. 126. in uertice. l. in vertice
+
+Колонтитул: 
+Кустод: vertice
+Сигнатура: 
+Маргиналии:
+
+## Скан 0548 · с. 527
+
+vertice Daphnes. 126.Plorabat.l.Ploraret. 126.incautem. l.incautam. 128.flendum. l.dolendum. 150.diliquit.l.deliquit. 150.factum est.l.factus est. 151.Cecitas.l.Cæcitas. 184.pernisor.l.prouisor. 191.fuluia.l.fulgens.
+191.non æquat pondera, l. non æquat vis pondera. 192.lctere.l.latere. 192.illæ.l.illa. 192.fulceret. l.fulciret. 192.quæ. l.quod. 197.æqui.l.equi. 201.aut.l.vt.
+204.quenilos.l.querulos. 205.æquos.l.equos. 206.æqui l.equi. 206.nitida.l.nitido. 206.de uap.l.de rap. 206.æquo.l.equo. 206.præmit.l.premit. 206.equore.l.æquore.
+206.æquos.l.equos. 207.flagrantur.l.flagrantior. 207.vultusq; suo.l.vultusque suos. 207.violaque.l.violæque. 208.Phætonte.l. Phàetonte. 208.agmolis.l.agricolis.
+208.nubili.l.nubilo. 209.Phætontias. l.Phàetontias. 209. ore. l. rore. 209.equam.l.æquam. 210.exastus.l.exactus. 210. fænarum. l. fæuarum. 210. Cænatæq; l.Conatæq; 211.factum est.l.pactum est.
+211.ac.l.at. 211.simplex dum.l.dum simplex. 211.flegethontide.l.Phlegethontide. 211.pertinentia. l.per inertia. 211.volucris. l.vulucris. 212.varia.l.vacca. 212.exiget.l.exigit.
+212.præbent.l.præbet. 213.solus. l.somnus. 213.nitiens.l.nitens. 213.repercussio.l.repercusso. 220.modica.l.modicæ. 233 nutri caues.l.nutri canes. 234.die.l.dic.
+244.visi.l.viri. 246.Oemotrij.l.Oenotrij. 248.lari.l.Lari. 248.Banchaia.l.Panchaia. 249.sampe.l.sæpe. 257.sectat.l.secat. 257.subari.l.subasi. 258.Italiæ medio.l.Italiæ in medio.
+258.vtrique.l.vtrimque. 258.Crinys l.Erinnys. 258.Clitunne.l.Clitumne. 258.Meccanus.l.Menanus. 258.erat.l.arat. 258 Clitunnus.l.Glitumnus. 258.gelio.l.gelido.
+258.Clitunnus.l.Clitumnus. 258.latus. l. latos. 259.perit.l.petit. 259.pedet Iuder. l. pendet Tuder. 259. Meccania. l.Meuania. 260. Saturniam. l. Saturnum.
+260. in pratio. l. in pretio. 263. monti. l. monte. 270.aue vt Strabonis. l. aut vt Straboni. 270. iunit. l. iuuit. 272. toge. l. togæ. 272. que. l.qua. 276.Phæton.l.Phàeton.
+276.æquis.l.aquis. 276.Phæton.l.Phàeton. 276.hybicas.l.lybicas. 288.eieret.l.cieret. 297.casses.l.calles. 310.exatus.l.exutus. 310.secles l.sedes. 320.febrius.l.februus.
+337.crunctæ.l.cruentæ. 347.cur liquidam.l.cui liquidam 347.Tragedia.l.Tragædia. 348. Quæ fructifera,quæ và in fine del verso,che stà auanti.
+349.requier.l.requies. 349.dicumq; l.diuumq; 355.extaurata.l.exsaturata. 362.Noxerat.l.Nox erat. 362.ferrite.l.fer rite. 389.me Tamæa.l.Metanæa. 429. Cur vestitu vilis ? opes.l.Cur vestes viles ? pompas.
+429.Cur nduum.l.Cur nudum. 430.præmitur. l.premitur. 436.presca.l.pressa. 466.reperit.l.repperit. 473.gauido.l.grauido. 473.renouatur.l.renquatur. 475.feruire.l.feruere.
+475.viuenta.l.iuuenta. 476. Socrate. l. foracte. 476.meum.l.merum. 476.nisi hoc sciat.l.nisi te scire hoc sciat alter. 486. iræ animi.l.ire animai. 486.vèreti.l.venti.
+486.incuti.l.incutit. 491.effutrie. l.effutire. 491. Tragedia.l.Tragædia. 496.flamati.l.flammanti. 496.focta.l.fæta. 496.lucrantes.l.luctantes. 496.præmit.l.premit.
+496.vinculis.l.vinclis. 496.motis.l.montis. 496.æolus. l.Aeolus. 498.cupit.l.capit. 510.citrasq; l.citraq;.
+
+Колонтитул: 
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Скан 0549 · с. 528
+
+[ВИНЬЕТКА: орнаментальная полоса из цветочных мотивов]
+REGISTRO
+[знак]ABCDEFGHIKLMNOPQRSTVXYZ
+Aa Bb Cc Dd Ee Ff Gg Hh Ii KK.
+Tutti sono duerni eccetto [знак] che è vn foglio solo, & Kk che è vn foglio, e mezzo.
+[ВИНЬЕТКА: типографская марка Лепидо Фачи: овальный картуш с рукой, держащей цветы, над ним малый овал с орлом]
+IN ROMA,
+Appresso Lepido Faci. M. DCIII.
+CON LICENZA DE'SVPERIORI.
+
+Колонтитул: 
+Кустод: 
+Сигнатура: 
+Маргиналии:

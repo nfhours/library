@@ -482,3 +482,23 @@
 | 0527 | Virilità .; Virtù heroica; Come depinta da gl'antichi, & come si veda nella Medaglia di Gordiano Imperatore . |  |  | r644, r645 | нет рамки |
 | 0528 | Virtù heroica ,; Nella Medaglia d'oro di Massimino.; VIRTV' HEROICA; Nella Medaglia di Geta.; VIRTV' HEROICA |  |  | r645 | нет рамки |
 | 0529 | VIRTV' DELL' ANIMO, ET DEL CORPO; Nella Medaglia di Traiano.; VIRTV'; Nella Medaglia di Alessandro.; VIRTV'; Nella Medaglia di Domitiano Galieno, & in quella di Galba .; VIRTV'; Nella Medaglia di Lucio Vero. |  |  | r646 | нет рамки |
+| 0530 | VIRTV' INSVPERABILE. | VIRTV'. | 0530_1 | r646 | бегущий заголовок |
+| 0531 | Virtù.; Virtù.; MEDIO. TVTISSIMA.; Virtù. |  |  | r646 | нет рамки |
+| 0532 |  | VIRTV'. | 0532_1 | r646 | бегущий заголовок |
+| 0533 | VITA. |  |  | r648 | нет рамки |
+| 0534 | VITA ATTIVA.; Vita attiua.; VITA CONTEMPLATIVA. |  |  | r649, r650 | нет рамки |
+| 0535 | VITA CONTEMPLATIVA.; VITA HVMANA.; VITA INQVIETA. |  |  | r650, r651, r652 | нет рамки |
+| 0536 | VITIO.; VITTORIA. |  | 0536_1 | r653 | заголовок перед гравюрой |
+| 0537 | Vittoria.; VITTORIA.; Vittoria de gl'antichi.; VITTORIA NAVALE |  |  | r654, r655 | нет рамки |
+| 0538 | VITTORIA NAVALE; VITTORIA.; VITTORIA.; VITTORIA |  |  | r655, r654 | нет рамки |
+| 0539 | VITTORIA.; VOLONTA'. |  |  | r654, r656 | нет рамки |
+| 0540 | VOLONTA' |  | 0540_1 | r656 | заголовок перед гравюрой |
+| 0541 | VORACITA' |  |  | r658 | нет рамки |
+| 0542 | VSANZA.; VSVRA.; VTILITA' |  |  | r659, r660, r661 | нет рамки |
+| 0543 | ZELO. |  | 0543_1 | r662 | заголовок перед гравюрой |
+| 0544 |  |  |  | — | нет рамки |
+| 0545 |  |  |  | — | нет рамки |
+| 0546 | ERRORI COMMESSI NELL' INTAGLIO.; ERRORI NEL VOLGARE. |  |  | — | нет рамки |
+| 0547 | ERRORI NEL TESTO LATINO. |  |  | — | нет рамки |
+| 0548 |  |  |  | — | нет рамки |
+| 0549 |  |  |  | — | нет рамки |
