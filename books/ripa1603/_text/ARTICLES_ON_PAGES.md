@@ -323,7 +323,7 @@
 | 0368 | TALIA.; MELPOMENE.; POLINNIA. |  |  | — | нет рамки |
 | 0369 | ERATO.; TERPSICORE. |  |  | — | нет рамки |
 | 0370 | VRANIA.; CALLIOPE.; MVSE.; CLIO. |  |  | r626, r424 | нет рамки |
-| 0371 | Euterpe.; Talia.; Melpomene.; Terpsicore.; Erato.; Polinnia.; Vrania.; Calliope.; MVSE.; Clio.; Euterpe.; Talia.; Melpomene.; Terpsicore.; Erato.; Polinnia.; Vrania; Calliope. |  |  | r626, r424 | нет рамки |
+| 0371 | Euterpe.; Talia.; Melpomene.; Tersicore.; Erato.; Polinnia.; Vrania.; Calliope.; MVSE.; Clio.; Euterpe.; Talia.; Melpomene.; Tersicore.; Erato.; Polinnia.; Vrania; Calliope. |  |  | r626, r424 | нет рамки |
 | 0372 | MVSE.; Clio.; Euterpe.; Talia.; Melpomene.; Terpsicore.; Erato.; Polinnia.; Calliope.; Vrania.; NATVRA. |  |  | r424, r626, r425 | нет рамки |
 | 0373 | NAVIGATIONE.; Nauigatione.; NINFE IN COMMVNE. |  |  | r426, r427 | нет рамки |
 | 0374 | Ninnedi, & Napee.; Driadi, & Hamadriadi.; Ninfe di Diana. |  |  | r428, r429, r430 | нет рамки |
@@ -342,3 +342,23 @@
 | 0387 | OCCASIONE.; ODIO CAPITALE. |  |  | r453, r454 | нет рамки |
 | 0388 | Odio capitale .; OPERA VANA.; Opera vana .; Opera vana .; OPERATIONE MANIFESTA.; OPERATIONE PERFETTA. |  |  | r454, r455, r456, r457 | нет рамки |
 | 0389 |  | OPERATIONE MANIFESTA | 0389_1 | r456 | бегущий заголовок |
+| 0390 | OPINIONE. | OPERATIONE PERFETTA. | 0390_1 | r457 | бегущий заголовок |
+| 0391 | OPVLENZA.; ORATIONE. |  |  | r459, r460 | нет рамки |
+| 0392 | Oratione .; Oratione . |  |  | r460 | нет рамки |
+| 0393 |  | ORATIONE. | 0393_1 | r460 | бегущий заголовок |
+| 0394 | OSTINATIONE.; OTIO. |  |  | r461, r462 | нет рамки |
+| 0395 | Otio.; Otio.; Otio. |  |  | r462 | нет рамки |
+| 0396 | Otio.; PACE; Pace . |  |  | r462, r463 | нет рамки |
+| 0397 | Pace .; Pace .; Pace . |  |  | r463 | нет рамки |
+| 0398 | Pace .; Pace .; Pace .; Pace . |  |  | r463 | нет рамки |
+| 0399 | Pace; Pace .; Pace .; Pace .; PACIFICO.; PASSIONE D'AMORE. |  |  | r463, r464, r465 | нет рамки |
+| 0400 | PATIENZA. |  |  | r466 | нет рамки |
+| 0401 | Patienza.; Patienza.; Patienza. |  |  | r466 | нет рамки |
+| 0402 | PAZZIA. | PATIENZA. | 0402_1 | r466 | бегущий заголовок |
+| 0403 | PAZZIA.; PAVRA. |  |  | r467, r468 | нет рамки |
+| 0404 | PECCATO. |  | 0404_1 | r469 | заголовок перед гравюрой |
+| 0405 | PECVNIA.; PELLEGRINAGGIO. |  |  | r470, r471 | нет рамки |
+| 0406 | PARSIMONIA. |  | 0406_1 | r472 | заголовок перед гравюрой |
+| 0407 | PARTIALITA'. |  |  | r473 | нет рамки |
+| 0408 | PENA.; PENITENTIA. |  |  | r474, r475 | нет рамки |
+| 0409 | Penitenza. | PENITENZA. | 0409_1 | r475 | бегущий заголовок |

@@ -7598,7 +7598,7 @@ Con due Tibie.
 Con vna maschera, percioche à detta Musa vogliono che fosse la Comedia dedicata, hà ne i piedi i socchi.
 [ЗАГОЛОВОК: Melpomene.]
 Con vn mascharone in segno della Tragedia, hà ne i piedi i coturni.
-[ЗАГОЛОВОК: Terpsicore.]
+[ЗАГОЛОВОК: Tersicore.]
 Tiene questa Musa vna citara.
 [ЗАГОЛОВОК: Erato.]
 Con la lira, & capelli longhi, come datrice de l'Elegia.
@@ -7618,7 +7618,7 @@ Con vn flauto in mano, & con molti altri stromenti da fiato alli piedi.
 Con vn volume.
 [ЗАГОЛОВОК: Melpomene.]
 Con vna maschara.
-[ЗАГОЛОВОК: Terpsicore.]
+[ЗАГОЛОВОК: Tersicore.]
 Con vn arpa.
 [ЗАГОЛОВОК: Erato.]
 Con vn squadro.
@@ -7959,7 +7959,7 @@ Il primo si nota nel vestito bianco,l'altro nel guardar lo splendor Cielo & il t
 [ЗАГОЛОВОК: Obedienza verso Dio.]
 [ИНИЦИАЛ: D]Onna vestita d'habito lungo, & honesto, stia con molta attentione à guardar vn sacrificio che arda sopra vn'altare,& con vna mano tinta de la vittima si tocchi l'estrema parte de l'orecchio dritto .
 
-Колонтитул: 164 ICONOLOGIA / OBEDIENZA.
+Колонтитул: 364 ICONOLOGIA / OBEDIENZA.
 Кустод: Il si-
 Сигнатура: 
 Маргиналии:
@@ -8046,5 +8046,390 @@ Oltre di questo innanzi che l'opera si possa ridurre à compimento , bisogna sap
 
 Колонтитул: 368 ICONOLOGIA / OPERATIONE MANIFESTA
 Кустод: OPI-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0390 · с. 369
+
+[ГРАВЮРА: без подписи]
+[ЗАГОЛОВОК: OPINIONE.]
+Hippocrate .
+[ИНИЦИАЛ: D]ONNA honestamente ornata,di faccia non molto bella, ne molto brutta, ma si mostri audace, & presta ad appigliarsi acciò che se le rappresenta, & per questo deue tener l'ali nelle mani, & alle spalle come disse Hippocrate .
+Opinione è forse tutto quello che hà luogo nella mente,& nell'imaginatione dell'huomo,ò almeno quello solo, che non è per dimostratione apparente,& perche varij sono l'ingegni,& l'inclinationi,varie ancora,anzi infinite son l'opinioni, & di quì hà origine il detto triuiale che dice *Quot capita tot sententiæ* .
+
+Колонтитул: DI CESARE RIPA. 369 / OPERATIONE PERFETTA.
+Кустод: Quì
+Сигнатура: 
+Маргиналии:
+
+## Скан 0391 · с. 370
+
+[ИНИЦИАЛ: Q]ui anco si può conoscer essere infiniti i concetti delle menti humane, come infinite sono l'inclinationi,& dispositioni particolari.Per questa cagione l'Auttore della presente figura volle che fusse di faccia , nè bella ne dispiaceuole,perche non è opinione alcuna così irragioneuole, che non possa venir sostentata con qualche apparenza verisimile , & con qualche ragione conuenientemente fondata, ne alcuna se ne troua così ferma,che in mille modi dagl'ingegni di qualche consideratione, non venga facilmente biasmata , & abbattuta.
+L'ali alle mani, & alle spalle mostrano la velocità con che si prendono, & lasciano l'opinioni, quasi in vn medesimo tempo, scorrendo subito per tutto il mondo, & portando spesse volte i panni dell'ignoranza .
+[ЗАГОЛОВОК: OPVLENZA.]
+[ИНИЦИАЛ: D]ONNA riccamente vestita,che stia à sedere sopra vna seggia d'oro circondata di molti vasi d'oro,& d'argento, & casse di gioie, & sacchetti di denari, tenendo nella mano destra vna corona imperiale, & nella sinistra vn scettro, & vicino vi hà vna pecora .
+I vestimenti nobili,le seggi, & i vasi d'oro, le casse di gioie, le corone, & gli scettri sono cose, che per commodità,& nobiltà dell'huomo non impetrano se non le ricchezze ; però come effetto di esse saranno conuenienti à darci cognitione dell'opulenza procedendo nel conoscere dall'effetto alla causa , come si fà nel principio di ogni nostra cognitione .
+Le pecore sono ancor esse inditio di opulenzà ; perche di tutto quello, che in esse si troua si può cauar danari,& ricchezze ; perche la carne , la pelle, il latte,& il pelo,sono stromenti bonissimi per i cōmodi dell'huomo, anzi che la sua bocca rosicando il grano nascente, lo fà crescere, & pigliar vigore,& il suo sterco ingrassa i campi, & li fà fecondi, però gl'Antichi ne conseruauano gran quantità,& col numero di esse numerauano le ricchezze degli huomini formandone il nome della pecunia : Et per questo si dice che anticamente haueuano le pecore lana d'oro, & Hercole riportando dalla vittoria Africana gran quantità di pecore , si disse riportare i pomi dell'oro dal giardino dell'Hesperide,come racconta Pierio nel 10. lib.dell'opera sua .
+[ЗАГОЛОВОК: ORATIONE.]
+[ИНИЦИАЛ: D]ONNA vestita di verde,stando in ginocchione con gl'occhi riuolti al Cielo, li vscirà dalla bocca vna fiamma di fuoco , tenendo il dito indice della sinistra mano sopra la mammella sinistra , & facendo segno di mostrare il core , con la destra batte ad vna porta serrata .
+Vestita di verde si dipinge l'Oratione,per la speranza , che hà di conseguire la gratia, che dimanda à Dio, il quale principalmente si muoue per humiltà nostra,la quale si dimostra tenendosi le ginocchia in terra;il quale costume è stato antico indicio di honore, & di sommissione, non sò se per natural instinto, ò più tosto perche l'inuentore di questa cerimonia sapesse che i fanciulli,come racconta Gio.Goropio mentre stanno nel ventre della Madre toccano con le ginocchia le guancie , & gl'occhi d'onde
+
+Колонтитул: 370 ICONOLOGIA.
+Кустод: vengano
+Сигнатура: 
+Маргиналии:
+
+## Скан 0392 · с. 371
+
+vengano le lagrime, con cui volontieri Iddio offeso si lascia placare .
+Nella lingua latina le ginocchia dimandono Genua nome, che hà gran conformità con le guancie, che pur sono dette Genæ : talche ambe queste parti disposte al medesimo effetto,con l'intentione , & oratione del core, fanno insieme tale Armonia,che Iddio vinto dalla pietà,facilmente condona quei supplitij, che si doueuano alle sceleratezze commesse .
+Rappresentasi con gl'occhi riuolti al Cielo , perche le cose dimandate nell'oratione deueno esser'appartenenti al Cielo, che è nostra patria , & non alla terra, oue siamo peregrini .
+Per la fiamma, che l'esce di bocca, si significa l'ardente affetto dell'oratione, che c'infiamma la mente dell'amor di Dio .
+Il dito indice in atto di mostrare il core,è segno che l'oratione si deue far prima col core, poi con la bocca , & il picchiare alla porta , che l'huomo deue esser con l'oratione importuno , & con speranza di conseguire l'intento con la perseueranza confidando nelle parole di Christo, che dicono , *Petite,& dabitur vobis ; Quærite,& inuenietis, Pulsate , & aperietur* , come si legge nel 11. cap. di S. Luca .
+[ЗАГОЛОВОК: Oratione .]
+[ИНИЦИАЛ: V]N Sacerdote vecchio in habito bianco Pontificale inginocchione auanti ad vn altare con vn incensiere nella destra mano,stando in atto d'incẽsare,& con gl'occhi riuolti al Cielo, con la sinistra porga vn core.
+Il vecchio sacerdote mostra che l'huomo innanzi, che parli con Dio per mezo dell'oratione deue preparare l'anima sua con opere buone, & essere alieno d'ogni immondezza,che possa imbrattarla,ilche si comprende nell'età senile che stanca nel seruire al Mondo, se dà ordinariamente feruentissima al seruitio di Dio .
+L'habito bianco, mostra la medesima purità della mente, che si deue portare nel cospetto di esso Signore nostro .
+Si fà inginocchione con gli occhi riuolti al Cielo mostrandosi il cognoscimento di se stesso,che genera humiltà,& la cognitione di Dio,che genera confidenza,insegnandoci che non dobbiamo esser nel dimandare tanto humili, che ci desperiamo, ne tanto confidenti che non dubbitiamo per li demeriti nostri .
+Il Turibolo si pone per l'oratione, perche in quel medesimo luogo, che era appresso Iddio nell'antico testamento l'incenso, honore la nuoua legge le preghiere degli huomini giusti .
+Il core che tiene nell'altra mano in segno d'offerirlo, nota che ( come disse S. Agostino, ) se non ora il core è vana ogni opera della lingua .
+[ЗАГОЛОВОК: Oratione .]
+[ИНИЦИАЛ: D]Onna vecchia di sembiante humile,vestita d'habito semplice, & di color bianco,starà in ginocchione con le braccia aperte, mà che con la destra mano tenga vn incensiero fumigante,le catene del quale siano corone, ò rosarij della Gloriosa Vergine Maria , & terrà la faccia alzata, che miri vno splendore .
+
+Колонтитул: DI CESARE RIPA. 371
+Кустод: Si di-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0393 · с. 372
+
+[ГРАВЮРА: без подписи]
+Si dipinge vestita di bianco ; percioche come riferisce S.Ambrogio nel lib.De offic. l'oratione deue esser pura, semplice, lucida, & manifesta .
+Lo stare inginocchione con le braccia aperte dimostra la riuerenza,che si deue hauere al Signor Iddio , & in particolare quando si stà in oratione.
+Il tenere la faccia alzata,& che miri lo splendore denota , come dice S. Tomasso quest.83.art. 1. che l'oratione è vna eleuatione di mente,& eccitatione d'affetto,col quale parlando l'huomo porge prieghi à Dio,palesandoli i secreti, & desiderij del suo core .
+L'incensiere fumicante,è il simbolo dell'oratione, & sopra di ciò il Profeta così disse nel salmo 140.
+*Dirigatur Domine oratio mea* *Sicutincensum in conspectu tuo* .
+
+Колонтитул: 372 ICONOLOGIA / ORATIONE.
+Кустод: Le co-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0394 · с. 373
+
+Le Corone,che sono come catene all'Incensiere , vi si mettono perche con esse si fà oratione,& in esse consiste il Pater noster , & l'Aue Maria . Il Pater noster fù composto da Christo Nostro Signore, & insegnato à gli Apostoli quando gli dimandorono,che gl'insegnasse di orare : Et l'Aue Maria dall'Angelo Gabriello,da S.Elisabetta,& da Santa Chiesa .
+Si dipinge vecchia,percioche in tale età si frequenta più l'oratione, per esser più vicino ciascuno alla partenza di questo Mondo .
+[ЗАГОЛОВОК: OSTINATIONE.]
+[ИНИЦИАЛ: D]ONNA vestita di nero con la testa circondata dalla nebbia, sostenendo con ambedue le mani vna testa d'Asino .
+Il vestimento di nero,è conueniente all'ostinatione,perche come il panno tinto in nero non può pigliare altro colore, così vn'huomo ostinato in vna opinione non sà volgersi per alcuna ragione alla luce della verità dimostratagli .
+Hauerà la testa circondata di nebbia, perche gli ostinati sogliono vedere poco lontano, & però si fermano saldi nella loro opinione ; perche non è dubbio esser cosa da sauio leuarsi di opinione per esser talmente ordinato il nostro sapere,che ò per perfettione, & numero grande di cose perfette,ò per la poca luce, & oscurità del nostro intelletto non siamo mai à tal termine,che non habbiamo luogo di passar innanzi, & da tor la palma del sapere nostro à noi medesimi,con la successione che si fà delle cose di tempo in tempo .
+La testa dell'Asino mostra la medesima ignoranza, già detta esser madre dell'ostinatione,& si figura l'ignoranza nella testa dell'Asino,per esser questo animale stolidissimo equalmente d'ogni cosa,sodisfacendosi, e del bene,e del male,mostrandosi sensibile alle frezze, ò cordoglio, à differenza de gli altri animali .
+[ЗАГОЛОВОК: OTIO.]
+[ИНИЦИАЛ: G]IOVANE grasso, in vna cauerna oscura, sedendosi appoggiato col gomito sinistro sopra d'vn Porco,che stia disteso in terra,& con la medesima mano si gratti il capo ; sarà tutto sonnacchioso .
+Giouane si dipinge,come quello, che non hà esperimentato l'incommodità della vecchiezza .
+Grasso, per li pochi pensieri, i quali non danno noia per la troppa occupatione del pensiero,& dell'intelletto , alla dilatatione del sangue per le membra .
+Siede in vn'oscura cauerna; percioche l'huomo otioso non è pronto all'honoreuoli,& gloriose attioni ; onde conuiene menare la vita ignobile , & tenebrosa .
+Si appoggia ad vn Porco,perche l'otioso nella conuersatione de gl'altri huomini, è simile al porco,per la viltà,e dapocagine sua .
+E' opinione d'Aristotile , che questo animale nella fisonomia sia il più incapace di ammaestramento di tutti gli altri animali ; come l'otioso che non cura alcun lodeuole essercitio , si rende inhabile ad apprendere qual
+
+Колонтитул: DI CESARE RIPA. 373
+Кустод: siuoglia
+Сигнатура: A a
+Маргиналии:
+
+## Скан 0395 · с. 374
+
+siuoglia disciplina ; & si come questo istesso animale ad altro non attende che à sodisfare l'appetito della gola , & di Venere ; così l'huomo dall'otio dominato, si dà tutto à contentare sè stesso, sodisfacendo a'proprij appetiti con perdita della propria fama .
+Si gratta il capo come quello à guisa di coloro , che mal sanno prender consiglio,non hauendo imparato la prudenza,spendendo la maggior parte del tempo nella deliberatione delle attioni ; le quali se sono buone non le mandano à fine, se ree le pregiudicano all'honore,& alla fama .
+[ЗАГОЛОВОК: Otio.]
+[ИНИЦИАЛ: G]Iouane grasso,& corpolento,farà à giacere per terra, per vestimento portarà vna pelle di porco,& per terra vi farà vn vomere istromento di ferro da arare la terra, ma tutto pieno di ruggine .
+Per dichiaratione della giouentù,& della grassezza, del giacere in terra,& del vestimento della pelle di porco,di questa figura seruirà la dechiaratione fatta della figura di sopra : solo diremo che è significatiuo dell'otio il vomere arruginito come de negotij,& dell'attioni,questo medesimo chiaro,& netto, essendo il più importante negotio nostro far cose appartenenti al viuere , & come non adoprandosi il vomere viene rugginoso ; così l'huomo che tralascia il ben'oprare , dandosi in preda all' otio si cuopre,& empie d'infamie , & di vitij , che lo rendono poi dispiaceuole à Dio,& à gli huomini,& questo otio non è altro che vna quiete dell' intelletto , il quale non mostrando la strada di oprare virtuosamente a' sensi , anch'essi se ne stanno sopiti,ò quel ch'è peggio discacciati dalla via conueniente . Per questo disse S.Gregorio l'otio esser vna sepoltura dell'huomo viuo,& la Scrittura,che tutti i mali del mondo gli hà insegnati l'otio . Ne si prende in questo luogo l'otio per contemplatione ; come lo pigliò scherzando con parole Scipione il grande,dicendo di sè stesso, che all'hora hauea men'otio che mai,quando ne hauea più abondanza ; per dir che quanto meno era impiegato nell'attioni, tanto era più intento al contemplare,perche di questo otio godono solo quelli,che con la lettione de molti libri,& con l'intendere cose alte, & nobili,mantengono senza che muouere altro che la lingua,ò la penna ; la pietà,la religione, il zelo di Dio,il consortio de gli huomini,& in somma quanto è bene fra le miserie di questa vita mortale .
+[ЗАГОЛОВОК: Otio.]
+[ИНИЦИАЛ: H]Vomo vecchio,vestito di giallo dipinto à Maschare, & à trauerso hauerà vna banda berettina con vn Fagiano per cimiero, nella destra mano vna facella di color bigio spenta,& nella sinistra vn'ouato in campo d'oro,nel quale sia dipinto vn giro col motto *In quiete voluptas* .
+[ЗАГОЛОВОК: Otio.]
+[ИНИЦИАЛ: H]Vomo grasso,corpolento, à sedere in terra con vn scudo sopra, tutto ricoperto di strali, & frezze tirate da diuerse bande,quasi che l'otio sia scudo di tutti i vitij . Grasso lo dipingemo per la cagione detta di sopra, & così lo fà l'Ariosto dicendo .
+
+Колонтитул: 374 ICONOLOGIA
+Кустод: In
+Сигнатура: 
+Маргиналии:
+
+## Скан 0396 · с. 375
+
+*In questo albergo , il graue sonno giace*
+*L' otio da vn canto corpolent' , e grasso .*
+Lo scudo ripieno di frezze, mostra che l'huomo otioso si lascia venire adosso tutte le calamità , prima che pensi à volersi leuare dalla poltronaria nel perdere il tempo,& fin che gli resta da viuere,ò sia con lode, ò con biasimo,con honore, ò con vergogna, con danno , ò con vtile poco cura il tutto . Et perche il mal suo infestolito non bisogni guarirlo con lo sminuire del sangue,& col tagliare delle vene,si contenta venire mancando à poco à poco con sua vergogna , fastidio de gli amici , & vituperio della famiglia .
+[ЗАГОЛОВОК: Otio.]
+[ИНИЦИАЛ: V]N Giouane mal vestito, il quale stia col capo chino, & scoperto , & con ambi le mani in seno .
+[ЗАГОЛОВОК: PACE]
+*Nella Medaglia d'Augusto si vede scolpita .*
+[ИНИЦИАЛ: D]ONNA, che nella sinistra mano tiene vn Cornucopia, pieno di frutti, fiori, frondi,con vn ramo d'vliuo,& nella destra vna facella, con la quale abbrucci vn montone d'Arme .
+Il Cornucopia significa l'abbondanza, madre, & figliuola della pace ; non si mantenendo la carestia senza la guerra , ne l'abbondanza del vitto senza l'abbondanza di pace,come dice il Salmo :
+*Fiat pax in virtute tua, & abundantia in turribus tuis .*
+Il ramo dell'vliuo dinota la mitigatione de gli animi adirati, come si è detto più longamente in altri luoghi .
+Et la facella,che abbrucci il monte d'arme , significa l'amore vniuersale,& scambieuole fra i Popoli,che abbruggia, & consuma tutte le reliquie de gli odij,che sogliono rimanere doppò la morte de gli huomini . Per dichiaratione del Cornucopia,ne seruiremo di quello , che habbiamo detto nella figura dell'abbondanza .
+[ЗАГОЛОВОК: Pace .]
+[ИНИЦИАЛ: G]Iouane bella con ghirlanda d'vliuo in capo , nella mano destra terrà la figura di Pluto,& nella sinistra vn fascio di spighe di grano,come si caua dalli scritti di Pausania .
+La corona dell'vliuo, & le spighe di grano, sono segno di pace , essendo questi frutti in abondanza solo , doue la pace arreca à gli huomini commodità di coltiuar la terra , la quale per la guerra rimane infecondo , & disutile .
+Questo volle esprimere quel Poeta, quando parlando del Bue disse, che l'opre della pace ci sono state insegnate . Et Minerua viẽ lodata da Gioue nelle fauole comevero Parto della sua testa, p esser stata ellainuétrice dell'
+
+Колонтитул: DI CESARE RIPA. 375
+Кустод: vliuo
+Сигнатура: A a 2
+Маргиналии:
+
+## Скан 0397 · с. 376
+
+vliuo,come Nettunno inuentor del Cauallo,essendo l'vno per presidio della pace , & l'altro per fortezza della guerra ; perche il Prencipe deue più inclinare alla pace de Popoli,che alla guerra,che solo hà per fine l'istessa pace ; con la quale si aumentano , & conseruano le ricchezze . Però vi dipinge Pluto finto Dio, & protettore di esse .
+[ЗАГОЛОВОК: Pace .]
+[ИНИЦИАЛ: D]Onna vestita d'incarnato tenendo vna statuetta nella destra mano, & la sinistra sia posata sopra vn piedestallo, oue sia vn Calice, & con detta mano sostenga vn ramo d'vliuo .
+La statuetta mostra che la pace è ministra de gli artificij humani,liquali non si possono imparare se non con la spesa di molto tempo,& senza pensieri di guerra, li quali ordinariamente suiano gli animi dall'acquisto de gli habiti virtuosi,& la forma esteriore dell'huomo, dà occasione di molti artificij, li quali tutti sono effetti di pace .
+Il piedestallo mostra , che in pace si fortificano i Popoli, & l'vnioni si agagliardiscono, crescendo per essa il danaro publico , del quale si fabricano poi Teatri, Tempij, & altre opere di magnificenza .
+Si sostenta poi con questa la fede , & l'honor di Dio ; il che si mostra col Calice .
+L'Vliuo, per non replicare molte volte la medesima cosa , si dice essere ritrouato da Pallade Dea di pace, & di quiete ; & però presso à gli Hebrei nella vecchia legge,fra le altre cagioni, si vngeuano i Rè , che erano eletti pacificamente,acciò che si raccordassero di viuere in pace,& in quiete ; questa stimando la maggior lode,che si potesse hauere à quei tempi,secondo il detto , *Rex pacificus magnificatus est* .
+[ЗАГОЛОВОК: Pace .]
+[ИНИЦИАЛ: D]Onna, che nella destra mano tiene vna face accesa riuolta in giù , & sotto à quella vi è vn monte di arme di più sorte,& appresso vn Leone,& vn'Agnello giacendo insieme .
+Pace si dice con eguaglianza di molte volontà mostrata con segni esteriori,il che si mostra nello stare insieme il Leone,& la Pecora, che per natura sono diuersissimi di costume,& si prende da Vergilio, il quale volendo augurare pace al tempo di Pollione,disse che gli Agnelli,& i Leoni haurebbono insieme habitato .
+[ЗАГОЛОВОК: Pace .]
+[ИНИЦИАЛ: D]Onna, la quale tenga in grembo l'vccello chiamato Alcione,& in terra à canto d'essa vi farà vn Castoro in atto di strapparsi con denti i genitali .
+L'Alcione è vn picciolo vccello,il quale fà il nido alla riua del Mare, & per quei pochi giorni,che quiui si trattiene,cessa ogni vento, & ogni tempesta,restando il Mare,& il Cielo tranquillo , & sereno ; però è indicio di tranquillità, & di pace ; onde metaforicamente giorni Alcionij si dimandano da gli Antichi, ne'quali il Tribunale si quietaua, & si posauano li Litiganti .
+
+Колонтитул: 376 ICONOLOGIA
+Кустод: Il
+Сигнатура: 
+Маргиналии:
+
+## Скан 0398 · с. 377
+
+Il castore,il quale perseguitato da cacciatori, come scriuono alcuni , con denti si mozza i genitali,sapendo per questi esser da loro seguitato,è indicio di gran desiderio di pace,& ammonitione à serrar gl'occhi alla perdita di qualche bene , & di qualche vtile, per amor suo . Et si legge à questo proposito vna lettera di Sapore scritta à Costantino,la quale lo esorta à lasciare vna parte del Regno dell'Asia per viuere in pace , con l'essempio di questo animale irragioneuole , il quale per priuarsi del sospetto , si taglia quel membro, che lo fà stare inquieto .
+[ЗАГОЛОВОК: Pace .]
+[ИНИЦИАЛ: D]Onna giouane à sedere,con la destra mano tiene legati insieme vn lupo , & vn Agnello sotto ad vn giogo medesimo , & nella sinistra porta vn ramo d'vliuo .
+Questa figura mostra la pace esser cagionata dal reggimento de' Prencipi,che fanno abbassare l'arroganza de' superbi,& farli viuere sotto il medesimo giogo con più humili,& meno potenti per mostrare che è sola, e propria virtù de' Prencipi saper far nascere,& mantenere la pace nelle Città, & ne' Regni,la qual viene spesse volte perturbata dall'alterezza de' superbi,& però Ilioneo orãdo à Didone presso Virgilio nel primo lib.dell'Eneide la loda di questo capo particolare. Et la pace di noi stessi che nella medesima figura si può intendere ; non è altro che la concordanza de' sensi del corpo con le potenze dell'anima rendendo egualmente obedienza alla ragione chi domina,& da leggi ad vne, & a gl'altri . Et per significare l'imperio del Prencipe si fà la figura che siede ; non si potendo dar giuditio publico senza star à sedere forse per conformità del detto d'Aristotele che dice , che la prudenza nell'anima s'introduce per mezo del sedere, della quiete .
+[ЗАГОЛОВОК: Pace .]
+*Nella medaglia di Filippo .*
+[ИНИЦИАЛ: D]Onna,che nella destra mano tiene vn ramo d'oliuo , & con la sinistra vn'hasta.Per questa figura si dipinge la pace acquistata per propria virtù , & valore, & ciò denota l'hasta che tiene in mano .
+[ЗАГОЛОВОК: Pace .]
+*In vna medaglia di Vespasiano si vede scolpita .*
+[ИНИЦИАЛ: D]Onna che da vna mano tiene vn ramo d'oliuo dall'altra il Caduceo, & in vn'altra si vede con vn mazzo di spighe di grano, & col cornucopia,& con la fronte coronata d'oliuo .
+[ЗАГОЛОВОК: Pace .]
+*Nella medaglia di Tito .*
+[ИНИЦИАЛ: D]Onna che nella destra mano tiene vn ramo di palma, & nella sinistra vn'hasta .
+La palma promette premio à meriteuoli,l'hasta minaccia castigo à delinquenti, & queste due speranza, & timore mantengono gli huomini in quiete , & in pace .
+
+Колонтитул: DI CESARE RIPA. 377
+Кустод: Pace .
+Сигнатура: A a 3
+Маргиналии:
+
+## Скан 0399 · с. 378
+
+[ЗАГОЛОВОК: Pace]
+*Nella Medaglia di Sergio Galba con nome di pace scolpita stà .*
+[ИНИЦИАЛ: V]Na donna di bell'aspetto, che siede, & nella destra mano tiene vn ramo d'vliuo, nella sinistra vna Claua con lettere .
+*Pax August. & S. C.*
+Nota questa figura la pace acquistata per valor dell'animo,&per vigor del corpo,l'animo se scopre nella bellezza,& nel sedere della donna.Il corpo della Claua,istromento col quale Hercole soleua castigar gl'inimici, con reprimere l'audacia de malfattori .
+[ЗАГОЛОВОК: Pace .]
+*Nella Medaglia di Traiano si fà solo .*
+[ИНИЦИАЛ: D]Onna,che con la destra tiene vn ramo di vliuo, & con la sinistra vn Corno di diuitia .
+[ЗАГОЛОВОК: Pace .]
+Et in vn'altra di Filippo si vede in forma di Donna, che con la destra mano alza vn ramo d'vliuo , & con la sinistra tiene vn'hasta con lettere
+*Pax fundata cum Persis* , & di tutte queste potrà il diligente Pittore eleggere quella,che più gli parrà à proposito, & anche di molte farne vna sola, che vedrà meglio potersi spiegare la sua intentione .
+[ЗАГОЛОВОК: Pace .]
+*Nella Medaglia di Claudio .*
+[ИНИЦИАЛ: V]Na donna,che abbassa il Caduceo verso la terra doue è vn serpe con fieri strauolgimenti,mostrando la diuersità de colori, il veleno che tiene,& con l'altra mano si scuopre gl'occhi con vn velo per non vedere il serpe, con queste lettere
+PAX ORB. TERR. AVG.
+Chiamorno gli Latini Caduceo , perche al suo apparire faceua cadere tutte le discordie,& fù per ciò l'insegna della pace .
+Il cuoprirsi gli occhi col velo per non vedere il serpe , dimostra che la guerra rappresentata per il velenoso serpe,sia noiosa, & d'infinito danno . Onde Virgilio nel primo dell'Eneide sopra di ciò così disse .
+*Nulla salus bello ,pacem te poscimus omnes .*
+[ЗАГОЛОВОК: PACIFICO.]
+Vedi alle Beatitudini la settima .
+[ЗАГОЛОВОК: PASSIONE D'AMORE.]
+[ИНИЦИАЛ: D]ONNA, che con vna mano tiene vna verga,& con l'altra vna tazza,& appresso di se da vn lato vi faranno Leoni,Orsi,Lupi, Cignali, Cani , & simili ; & dall'altra parte molti sassi . Si prende per la passione d'Amore Circe,come narra Ouidio , & dissero gli Antichi esser vna Maga potentissima,che trasformaua gli huomini à sua voglia,& volsero, come habbiamo detto significare con essa la passione d'Amore .
+Tiene la verga , perche Homero nel lib.x. dell'Odyss. finge che la detta donna hauendo dato à bere vn suo liquore à i compagni di Vlisse , toccatoli
+
+Колонтитул: 378 ICONOLOGIA
+Кустод: toli
+Сигнатура: 
+Маргиналии:
+
+## Скан 0400 · с. 379
+
+[?][?] con la verga, li trasformasse in fiere .
+La tazza, è per dinotare quei sughi d'herbe,& beuande, coi quali si dice che faceua vscire gli huomini fuori di sè, rendendoli à guisa di sassi, & bruti animali ; sopra di ciò ne raggiona Ouidio xiiij. lib. Metamorf. con questi versi .
+*Nec mora, misceri tosti iubet ordea grani ,*
+*Mellaq; vimq; meri, cum lacte coagu'a presso ,*
+*Quiq; sub hac lateant furtim dulce [?] succos*
+*Adijcit ; accipimus sacra data pocula dextra .*
+Et Virgilio nel 7.
+*Hinc exaudiri gemitus, iraq; Leonum*
+*Vincla recusantum, & fera sub nocte rudentum*
+*Setigeriq, sues, atq; in praesepibus Vrsi*
+*Saeuire, ac formae magnorum vlulare Luporum :*
+*Quos hominum ex facie Dea saeua potentibus herbis*
+*Induerat Circe in vultus ac terga ferarum .*
+Il che dinotano i diuersi animali,& la moltitudine de sassi; si che si deue cōsiderare che la sopradetta figura è vna espressione della passione d'amore,la quale prende dominio in quegli huomini,che si lasciano otiosamente pigliare col gusto di cose diletteuoli,& piaceuoli al senso , che offusca l'intelletto, & li toglie in tutto la ragione, rendendoli quasi bruti animali di specie diuerse conforme alla loro naturale inclinatione,con la natura di questa,& di quell'altra sorte di animali,cosi gl'iracondi si dicono diuentar Orsi,& Leoni; i carnali Porci; gl'inuidiosi Cani; i golosi Lupi, & altri .
+[ЗАГОЛОВОК: PATIENZA.]
+[ИНИЦИАЛ: D]ONNA vestita di berettino accompagnato col taneto,con vn giogo in spalla in sembiante modesto,& humile .
+La patienza consiste in tolerare fortemente le cose auuerse,& è vno de principali effetti della fortezza, la quale si stende fin'al sopire il giogo della seruitù, con l'animo intrepido,& costante quando la necessità lo richiede . Però fù da Sauij notato Catone d'animo vile, perche volse vccidere sè stesso,più tosto che viuere sotto il gouerno del Tiranno .
+Il vestimento del colore detto,significa patienza,per auuicinarsi molto al nero, il quale nota in questo proposito, mortificatione, mala sodisfattione,& dolore ; nondimeno perche la virtù frà le auuersità non si smorza a fatto, si deue fare di colore berettino, che ritiene quella poca di viuacità, che è la speranza di cambiare fortuna frà le miserie,& è vn'aspettare all'occaso del Sole, che di nuouo sorga la luce bella, & chiara, per illuminare il giorno, oscurato nelle miserie .
+Il giogo , è significatiuo della patienza, la quale come si è detto, si essercita solo nel tolerare le auuersità, con animo costante , & tranquillo . Et in questo proposito disse Christo Nostro Signore , che il
+
+Колонтитул: DI CESARE RIPA. 379
+Кустод: suo
+Сигнатура: Aa 4
+Маргиналии:
+
+## Скан 0401 · с. 380
+
+suo giogo era soaue per il premio , che s'aspetta doppo [?] l'osseruanza de suoi santi còmmandamenti ; che sono vn giogo , alquale volontieri sottomette il collo ogni Christiano che habbia zelo dell'honor di Dio .
+[ЗАГОЛОВОК: Patienza.]
+[ИНИЦИАЛ: D]Onna con vn torchio acceso in vna mano, con la quale versi la cera liquefatta sopra l'altro braccio ignudo, & à piedi per terra vi saranno alcune lumache, le quali si pongono per la patienza, per secondar i tempi,& starsi molti giorni rinchiuse nelle loro cocciole finche viene il tempo à proposito di vscir fuora .
+[ЗАГОЛОВОК: Patienza.]
+[ИНИЦИАЛ: D]Onna vestita di berettino con le mani ligate da vn paro di manette di ferro,& à canto vi farà vno scoglio, dal quale esca acqua à goccia, à goccia,& cada sopra le manette di detta figura .
+Per la quale si mostra che ad vn'huomo che sà aspettare ogni cosa succede felicemente , & ancorche i principij di fortuna siano cattiui, aiutati poi da qualche fauore del Cielo,che non lascia mai senza premio,i meriti dell'huomo,in vn punto nasce quel bene,che molti anni si era in vano desiderato. Di questa sorte di patienza,& dell'esito felice, habbiamo de nostri memorabili essempij nella Corte di Roma , essendo solo per la patienza d'vna assidua seruitù, molti arriuati all'honor del Cardinalato, & d'altri gradi in portanti della Hierarchia Ecclesiastica; oue come Città fabricate nell'alte montagne , sono esposti à gl'occhi de tutto il mondo , & hanno occasione di farsi chiari per la virtù dell'animo , come sono celebri per la dignità , & grandezza esteriore .
+Ma quando bene non succedesse , che alla patienza fusse guiderdone la libertà in questa vita, come si vede cosi spesso, che la forza dell'acqua consumi il ferro;non dobbiamo però perderci d'animo , parlando con quelli, che drizzano la loro seruitù à buon fine & nōō all'ambitione,viuẽdo virtuosamente,sapendo le promesse fatteci,per la bocca di Christo N.S.che consistono in beni non corrottibili, dicendo *In patientia vestra possidebitis animas vestras* , & che è solito castigare , & correggere in questa vita quelli che ama,& desidera premiare nell'altra .
+[ЗАГОЛОВОК: Patienza.]
+[ИНИЦИАЛ: D]Onna d'età matura,à sedere sopra vn sasso, con le mani in modo che mostri segno di dolore , & con li piedi ignudi sopra vn fascio di spine .
+La patienza si scuopre nel sopportare i dolori del corpo,& dell'animo: però si dipinge la presente figura in quest'atto .
+Le spine sono quelle punture,che toccono nell'honore, ò nella robba, ò nella vita, le quali se bene pungono i piedi, cioè danno fastidio nel corso degli affetti terreni ; nondimeno lasciano libera la testa , & le altre membra più nobili; perche vn'anima ben regolata , & ben disposta sopra alla stabilità della virtù , non proua il danno fondato nelle cose terrene .
+
+Колонтитул: 380 ICONOLOGIA
+Кустод: Il se-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0402 · с. 381
+
+[ГРАВЮРА: без подписи]
+Il sedere sopra il sasso,dimostra esser dura cosa saper reggere la patienza con animo tranquillo, mà che facilmente si supera .
+[ЗАГОЛОВОК: PAZZIA.]
+[ИНИЦИАЛ: V]N'huomo di età virile, vestito di lungo,& di color nero, starà ridente,& à cauallo sopra vna canna , nella destra mano terrà vna girella di carta istromento piaceuole,& trastullo de fanciulli, li quali con gran studio lo fanno girare al vento .
+La pazzia si fà conuenientemente nel modo sopradetto ; perche non è altro l'esser pazzo,secondo il nostro modo di parlare, che far le cose senza decoro,& fuor del commune vso de gli huomini per priuatione di discorso senza ragione verisimile,ò stimolo di Religione . Quindi è , che si dice communemente esser meglio essercitare la pazzia con molti, che esser sa-
+
+Колонтитул: DI CESARE RIPA. 381 / PATIENZA.
+Кустод: uio
+Сигнатура: 
+Маргиналии:
+
+## Скан 0403 · с. 382
+
+uio con pochi; perche misurandosi la nostra sauiezza d[?] alla nostra cognitione,& conoscendosi più ordinariamente in molti, che in pochi , par che quelli, non questi, si debbano seguitare: perciò che il più de gli huomini misurando la bontà dell'attioni altrui con le sue,approuarà quei costumi, che à suoi si assomigliano; onde è necessario per acquistare questo buon concetto, all'opinione d'altri nelle sue attioni, accostarsi. Quindi è , che nelli honori vno si stima felice ; perche dal maggior numero de gli huomini questi sono stimati gran parte della felicità,nella pouertà si giudica ciascuno meschino,perche da molti tale si vede reputato; Et di questa pazzia & di questa sauiezza,si parla sempre da gl'huomini, non bastando l'ali del nostro sapere,à conoscere quella,che è netta di questi accidenti,& di queste intentioni . Onde reputandosi sauiezza nella Città ad vn'huomo di età matura,trattare de reggimenti della famiglia,& della Republica; Pazzia si dirà ragioneuolmente alienarsi da queste attioni,per essercitare giochi puerili,& di nessun momento ; mà in quanto alla commune opinione de gli huomini, ci dobbiamo guardare di non lasciarci ingannare dalle false opinioni del volgo contrarie alla vera virtù , quantunque il volgo sia in grandissimo numero,che infinita è la turba delli sciocchi .
+Il riso è facilmente indicio di pazzia , secondo il detto di Salomone ; però si vede che gli huomini reputati sauij , poco ridono, & Christo N. S. che fù la vera sauiezza,& sapienza,non si legge,che ridesse giamai .
+[ЗАГОЛОВОК: PAZZIA.]
+Come rappresentata nell' Incoronat. del Petrarcha .
+[ИНИЦИАЛ: V]NA giouane scapigliata , & scalza con vna pelle d'Orso ad armacollo,il vestimento di color cangiante, nella destra mano teneua vna candela accesa, hauendo vicino il Sole .
+Pazzia,è nome generale d'ogni alteratione , che cade nella mente dell'huomo , ò per malenconia, ò per iracondia , ò per dolore, ò per timore,ò che viene d'imperfettione naturale .
+Giouane, scapigliata , & scalza si dipinge ; percioche il pazzo non stima se medesimo,ne altri,& è lontano d'ogni politica conuersatione , per non conoscere il bene di quella,& non per fine di contemplatione,ò dispregio del Mondo per amor di Dio ; & ciò dico per rispetto di quelli,c'hauendo già domati gli affetti loro p la cōuersatione,si ritirano à vita solitaria.
+Il color cangiāte del vestimēto,denota instabil[?]tà,che regna nella pazzia.
+La pelle dell'Orso, significa che i pazzi per il più si reggono dall'ira ; percioche si veggono quasi continuamente far diuerse strauagantie .
+Tiene con la sinistra mano vna candela accesa vicino il Sole ; perche è segno veramente di pazzia presumere di vedere più per forza d'vn picciolo lumicino,che per mezzo della gran virtù del Sole, che sì mirabilmente risplende .
+[ЗАГОЛОВОК: PAVRA.]
+[ИНИЦИАЛ: D]ONNA con faccia picciola, & smorta ; la picciolezza arguisce , come dicono i Fisognomiti pusillanimità, & starà in atto di fuggire con spauento, & con le mani alzate in alto: hauerà i capelli drizzati per l'effetto della paura, & alle spalle vi sarà vn mostro spauenteuole ; si può
+
+Колонтитул: 382 ICONOLOGIA
+Кустод: vedere
+Сигнатура: 
+Маргиналии:
+
+## Скан 0404 · с. 383
+
+vedere quanto si è detto del timore,& dello spauento, i quali sono affetti, ò similissimi,ò gli stessi con la differenza solo del più,& del meno .
+[ЗАГОЛОВОК: PECCATO.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: G]IOVANE, cieco, ignudo,& nero, il quale mostri di caminare per vie precipitate, rupide,& distorte ; cinto à trauerso da vn serpe,con vn verme,che penetrando il lato manco, gli roda il core .
+Il Peccato si dipinge giouane,& cieco per l'imprudēza,& cecità di quello che lo commette,non essendo il peccato per se stesso altro, che vna trasgressione delle leggi,& vno deuiar dal bene, com'anco dicesi .
+*Peccato è quell'error, che'l voler vuole ,*
+*E la ragion non regola, ò reprime,*
+*Ma consente co'l senso all'atto ,e l'vso .*
+Si fà ignudo, & nero, perche il peccato spoglia della gratia, & priua
+
+Колонтитул: DI CESARE RIPA. 383
+Кустод: à fatto
+Сигнатура: 
+Маргиналии:
+
+## Скан 0405 · с. 384
+
+à fatto del candore della virtù stando in pericolo di precipitare per l'incertezza della Morte,che lo tira nell'Inferno, se non si aiuta con la penitenza, & col dolore .
+E circondato dal serpente, perche il peccato è vna signoria del Diauolo nostro nimico,il quale cerca continuamente ingannarci con finte apparenze di bene, sperandone sempre il successo, che ne hebbe con la prima nostra Madre infelice .
+Il verme al cuore, è il verme della conscienza, ò la conscienza stessa , che dicono i Theologi, la quale stimola,& rode l'anima peccatrice,& sempre stà viuace,& gagliardo,fin che nel peccato sente il polso , & il sangue onde prende il vigore, & si nodrisce .
+[ЗАГОЛОВОК: PECVNIA.]
+[ИНИЦИАЛ: D]ONNA vestita di giallo, di bianco, & di tanè scuro,in capo hauerà vna bella acconciatura,sopra la quale vi sarà vna Ciuetta,& terrà in mano alcuni torsegli,& pile .
+I colori del vestimento significano le sorte delle monete , le quali si fanno d'oro,d'argento,& di metallo ; con le torselli, & le pile , che sono stromenti da battere monete .
+La Ciuetta presso à Greci significaua danari, perche per gratificare gli Ateniesi,che per insegna portauano quest'animale , quasi tutti i Greci lo stāpauano nelle monete loro,come scriue Plutarco nella vita di Lisandro .
+Si nota ancora la pecunia con le Nottole,lequali in Atene si stampauano nelle monete per vna memorabile astutia di vn Seruitore di Gilippo pur in Atene ; raccontata dal medesimo Plutarco nell' istesso luogo ; Perche hauendo carico questo Gilippo di trasportare vna gran pecunia in Lacedemonia, buona parte ne occultò sotto le tegole del tetto di casa, il che hauendo veduto il detto suo Seruitore,& essendo legge appresso di coloro,che non si douesse credere al Seruitore, che testificaua in pregiuditio del suo proprio Padrone,disse solo in giuditio che sotto le tegole della Casa del suo Padrone vi era grandissima quantità di Nottole, Ilche essendo inteso da gli accorti Giudici rintegrorno la Republica di quel danaro, lodando l'accortezza del Seruitore, & dimandorno poi in alcune occasioni il danaro col nome di Nottole .
+[ЗАГОЛОВОК: PELLEGRINAGGIO.]
+[ИНИЦИАЛ: H]VOMO in habito di Pellegrino, ma che habbia rasa la metà della testa,& similmente della barba,& dalla destra habbia i capelli longhissimi,che gli pendano sopra le spalle , & similmente la metà della barba longa,& hirsuta per imitare gli Egittij,i quali in questo modo dipingeuano il Pellegrinaggio ; & la cagione fù che essendo Osiride partito per l'espeditione contro li Giganti in dieci anni, che stette lontano sempre cō gran studio,coltiuò la barba,& la testa ; poi ritornato in Egitto adoprò il rasoio . Gli Egittij volendo denotare poi il suo Pellegrinaggio col felice successo del ritorno, lo dipingeuano nel modo detto; ilche poi ancora fecero per esprimere ogni sorte di Pellegrinaggio .
+
+Колонтитул: 384 ICONOLOGIA
+Кустод: Hauerà
+Сигнатура: 
+Маргиналии:
+
+## Скан 0406 · с. 385
+
+Hauerà della destra mano vn Bordone sopra delquale vi sarà vna rondine ; perche questo vccello, secondo che hanno osseruato gli Antichi subito c'hà incominciato à volare, si parte , & và lontano dal padre,& dalla madre pellegrinando .
+[ЗАГОЛОВОК: PARSIMONIA.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: D]ONNA di età virile , vestita d'habito semplice,& senza ornamento alcuno, con la destra mano tenghi vn compasso , & nella sinistra vna borsa piena di danari ligata,con vna cartella riuolta in bei giri con vn motto che dichi IN MELIVS SERVAT .
+Parsimonia è vna delle due parti principali della liberalità , che consiste nel ritenersi dalle spese che non sono conformi alla ragione,& transgrediscono il mezzo .
+Si fà di età virile , percioche in questo stato l'huomo è fatto capace di
+
+Колонтитул: DI CESARE RIPA. 385
+Кустод: ragione
+Сигнатура: 
+Маргиналии:
+
+## Скан 0407 · с. 386
+
+ragione,& opera secondo l'vtile, & honore .
+L'habito semplice,& senza artificio,denota che la parsimonia è lontana da ogni spesa vana,& superflua; onde sopra di ciò S.Ambrosio ad Vercellen. cosi dice: *Nihil tam necessarium,quam cognoscere quod sit necessarium .*
+Il compasso,significa l'ordine,& misura in tutte le cose; percioche si come il compasso non esce punto dalla sua circonferenza,cosi la parsimonia non eccede il modo dell'honesto,& del ragioneuole .
+La borsa co'l motto *in melius seruat,* dimostra che è maggior industria,& honore il conseruare quello che si hà, che acquistare quello che manca , come dimostra Claudiano lib.2. Intilicon .
+*Plus est seruasse repertum ,*
+*Quam quæsisse decus .*
+Et Ouidio lib.2. de Arte amandi .
+*Non minor est virtus, quam quærere parta tueri*
+*Casus inest illic; hic erit artis opus .*
+[ЗАГОЛОВОК: PARTIALITA'.]
+[ИНИЦИАЛ: D]ONNA brutta, che tenghi la destra mano serrata, & il braccio alquanto raccolto verso il petto,& il sinistro steso con la mano aperta, e per acconciatura del capo vna cartella con vn motto, che dica EADEM NON OMNIBVS. Terrà il viso riuolto,& che guardi da la parte sinistra,& sotto li piedi vn paro di bilancie .
+Partialità è vitio,& è contrario alla giustitia,essendo che non dà a tutti quello che gli si conuiene,come benissimo lo dimostra il motto sopradetto ; & S.Tomaso sopra di ciò in secunda,secundæ q. 63. art. 4. cosi dice : *Acceptio personarum : est inæqualitas iustitiæ distributiuæ , inquantum aliquid attribuitur alicui præter proportionem .*
+Brutta se depinge , percioche in essa si comprendono molti vitij ; onde Origene sopra il salmo 37. Homel.1. dimostra, che la bruttezza della faccia,è figura del peccato disordinatamente commesso ; & essendo la partialità peccato grauissimo dell'ingiustitia,gli si conuiene l'essere bruttissima & abbomineuole ad ogn'vno,& Cicerone in 2.Tuscu. *Nihil est malum , nisi quod turpe aut vitiosum est .*
+Il tenere la destra mano serrata,& raccolta,& la sinistra stesa,& aperta significa che la partialità opera non secondo la giustitia,che con somma perfettione dà con ambi le mani à ciascuno quanto gli si conuenghi, ma guidata da l'interesse, ò altra peruersa causa , distribuisce ingiustamente senza hauere riguardo al giusto,& al ragioneuole ; come benissimo testifica Innocentio lib. 2. *De vilitate conditionis humanæ . Vos non attenditis merita causarum, sed personarum,non iura, sed munera,non quod ratio dictet, sed quod voluntas affectet, non quod sentiat, sed quod mens cupiat, non quod liceat,sed quod libeat .*
+Il tenere il viso riuolto da la parte sinistra,dimostra che il partiale non hà l'animo retto,ne di volgere la mente al vero,ma più à vno,che à l'altro come partiale,& nemico del bene oprare ; onde Aristotile nel primo libro della Rettorica à questo proposito cosi dice : *Amor, & odium, & proprium*
+
+Колонтитул: 386 ICONOLOGIA
+Кустод: commo-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0408 · с. 387
+
+*commodum sæpe faciunt iudicem non cognoscere verum.*
+Le bilancie sotto li piedi, significano tanto più la peruersa natura di questa peste,poiche essendo continuamente contraria al giusto, cō dispregio cerca di conculcare la retta giustitia . Si potrà anco per fare differente questa figura,oltre il tenere le bilancie sotto li piedi, che con la sinistra mano porgesi qualche dono ad vn fanciullo di bellissimo aspetto, nobilmente vestito,& coronato con vna ghirlanda di lauro, & con la destra mano scacciasi con vna sferza vn'altro fanciullo simile al primo, & coronato di lauro anch'egli,che ciò dimostra il merito de l'vno,& l'altro fanciullo,& la mala inclinatione,& opera peruersa di questa iniqua,& scellerata partialità .
+[ЗАГОЛОВОК: PENA.]
+[ИНИЦИАЛ: D]ONNA di brutto aspetto, con bocca aperta in atto di gridare,con habito mesto,e maninconico,& in diuerse parti stracciato , con vna sferza in mano,sarà zoppa da vn piè,cioè con vna gamba di legno, mostri discendere vna gran cauerna,& si sustenti con fatica sopra le crocciole .
+Frà la penitentia, e la pena vi è questa differenza particolare,che la penitentia si genera con la volontà, & consenso dell'huomo, che già si duole de gl'errori commessi ; ma la pena,è quella che il giuditio,ò de gl'huomini,ò di Dio dà a peccati senza stimolo di pentimento,ò desiderio di sodisfare con le buone opere .
+Per mostrare adunque questa circonstanza cosi importante,che si ritroua nella pena : si dipinge la sua figura brutta d'aspetto,in atto di gridare, per mostrare il desiderio di far resistenza, ò per vendicarsi per la violenza del giuditio .
+Si dipinge con la sferza,e con la gamba di legno,conoscendosi cosi che non puol caminare di sua propria volontà, & la forza altrui, ouero il giuditio Diuino spesse volte conducono l'huomo al precipitio,& al merito degno dell'attioni scelerate, al quale se ben mal volontieri si camina, & con guai,non si perde affatto nondimeno il vigore,perche il lume dell'intelletto,& il verme della conscienza detto di sopra,fanno che à forza si conosce l'errore, & il merito del castigo che si pate .
+[ЗАГОЛОВОК: PENITENTIA.]
+[ИНИЦИАЛ: D]ONNA estenuata,& macilente in viso,con habito maninconico,e pouero,risguardi con molta attentione verso il Cielo, e tenga con ambi le mani vna Craticola, la quale si pone per segno della vera penitenza da sacri Theologi; perche come essa è mezzo fra la cosa che si cuoce,& il fuoco,cosi la penitenza è mezzana fra i dolori del peccatore , & l'amor di Dio, il quale è motore di essi .
+Hà la penitenza tre parti principali,che sono, contritione,confessione, & sodisfattione;però si potrà dire che la contritione s'accenni con l'aspetto malenconico,e doloroso ; la confessione con la faccia riuolta al cielo in segno di dimandare perdono, facendola però à Sacerdoti approuati ; & la sodisfattione con la craticola istromento proportionato alla pena temporale , dalla quale si misura ancor il merito di questa virtù viua, e vitale .
+
+Колонтитул: DI CESARE RIPA. 387
+Кустод: PE-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0409 · с. 388
+
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: D]O N N A con la veste di color berettino , la quale farà tutta rotta, & squarciata,starà questa figura mesta, piangendo, con vn fascetto di spine in vna mano, e nell'altra con vn pesce , perche la penitenza deue essere condita col digiuno, e col ramarico .
+[ЗАГОЛОВОК: Penitenza.]
+[ИНИЦИАЛ: D]Onna vecchia,& canuta vestita d'vn panno di color bianco,ma tutto macchiato,& stia à sedere in luogo solitario sopra vna pietra,donde esca vn fonte,nel quale specchiandosi col capo chino versi molte lachrime stando in atto di spogliarsi .
+La penitenza è vn dolore de peccati più per amor di Dio, che per timor delle pene ; il qual dolore nascendo dal core scerne sè stesso,& la bruttura delle sue attioni passate ; e però si rappresenta questa Donna che mi-
+
+Колонтитул: 388 ICONOLOGIA / PENITENZA.
+Кустод: randosi
 Сигнатура: 
 Маргиналии:
