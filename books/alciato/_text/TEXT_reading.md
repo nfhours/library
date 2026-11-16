@@ -450,7 +450,7 @@ Mulxerit & tumida seditione grauem.
 
 ## Кадр 0029 · с. 23
 
-[ЗАГОЛОВОК: Πῆ παρέβην? τί [?] ερξἔα? τί μοι δέον, οὐκ ἐτελέσθη? Quid excessi? quid admisi? quid omisi?]
+[ЗАГОЛОВОК: Πῆ παρέβην? Τί [?] ἔρεξα? Τί μοι δέον, οὐκ ἐτελέσθη? Quid excessi? quid admisi? quid omisi?]
 [ГРАВЮРА: без подписи]
 Italicæ Samius sectæ celeberrimus autor
 Ipse suum clausit carmine dogma breui.
