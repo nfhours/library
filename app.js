@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "215";
+  var APP_VER = "216";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -341,8 +341,8 @@
     audTblAbbr:   {ru:"табл.", en:"pl.", fr:"pl."},
     audTablesSub: {ru:"Все гравированные таблицы: {n}", en:"All the engraved plates: {n}", fr:"Toutes les planches gravées : {n}"},
     // единицы обмеров — строго по предисловию Одрана (preface.json, блок 35)
-    audUnits:     {ru:"Обмеры: в головах, частях (p.) и минутах (m.); голова = 4 части, часть = 12 минут", en:"Measurements in heads, parts (p.) and minutes (m.); head = 4 parts, part = 12 minutes", fr:"Mesures en têtes, parties (p.) et minutes (m.) ; tête = 4 parties, partie = 12 minutes"},
-    audUnitsFt:   {ru:"Обмеры: в футах, дюймах (p.) и линиях (l.); вся фигура — 45 дюймов 7 линий = 30 частей головы", en:"Measurements in feet, inches (p.) and lines (l.); the whole figure, 45 inches 7 lines = 30 parts of the head", fr:"Mesures en pieds, pouces (p.) et lignes (l.) ; la figure entière, 45 pouces 7 lignes = 30 parties de tête"},
+    audUnits:     {ru:"Цифры на гравюре — размеры частей тела. Мерой служит голова статуи: она делится на 4 части (p.), часть — на 12 долей, «минут» (m.). Например, «2 p. 3 m.» — две части и три минуты, чуть больше половины головы.", en:"The figures on the engraving are the sizes of the parts of the body. The unit is the statue’s head: it is divided into 4 parts (p.), and each part into 12 smaller units, “minutes” (m.). For example, “2 p. 3 m.” means two parts and three minutes, a little more than half a head.", fr:"Les chiffres de la gravure donnent la taille des parties du corps. L’unité est la tête de la statue : elle se divise en 4 parties (p.), et chaque partie en 12 petites unités, les « minutes » (m.). Par exemple, « 2 p. 3 m. » signifie deux parties et trois minutes, un peu plus d’une demi-tête."},
+    audUnitsFt:   {ru:"Цифры на гравюре — размеры частей тела. Эта небольшая статуя обмерена в футах, дюймах (p.) и линиях (l.): вся фигура — 45 дюймов 7 линий, что равно 30 частям головы.", en:"The figures on the engraving are the sizes of the parts of the body. This small statue is measured in feet, inches (p.) and lines (l.): the whole figure is 45 inches 7 lines, which equals 30 parts of the head.", fr:"Les chiffres de la gravure donnent la taille des parties du corps. Cette petite statue est mesurée en pieds, pouces (p.) et lignes (l.) : la figure entière fait 45 pouces 7 lignes, ce qui égale 30 parties de tête."},
     rpTabArticles:{ru:"Статьи", en:"Articles", fr:"Articles"},
     rpArtSub:     {ru:"Все статьи в двух частях: {n}", en:"All articles in two parts: {n}", fr:"Tous les articles en deux parties : {n}"},
     rpPart:       {ru:"Часть", en:"Part", fr:"Partie"},

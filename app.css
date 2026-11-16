@@ -1714,7 +1714,7 @@ html.ic-hs-lock{overflow:hidden !important}
 .ic .ic-wrap.ic-rp-aud{animation:none}
 .ic .ic-gal-aud .ic-gal-img{isolation:isolate}
 .ic .ic-gal-aud .ic-gal-img img{mix-blend-mode:multiply}
-.ic .ic-rp-aud .ic-aud-units{margin:8px 0 0;font-size:12px;line-height:1.4;color:var(--soft);text-align:center}
+.ic .ic-rp-aud .ic-aud-units{margin:10px 0 0;font-size:14px;line-height:1.4;color:var(--ink);text-align:left}
 .ic .ic-rp-aud .ic-fig img{max-height:70vh;max-height:70svh;max-height:calc(var(--ic-svh, 100svh) * .7)}
 /* просмотр одной гравюры (openImgFull) на базе .ic-svx */
 .ic-svx-one .ic-svx-feed{display:flex;align-items:center;justify-content:center;padding:8px}
