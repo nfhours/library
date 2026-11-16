@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "210";
+  var APP_VER = "211";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -2856,7 +2856,7 @@
     if(!aud) order = Object.keys(byPart).sort();
     var html = order.map(function(pn){
       var head = aud ? '<h2 class="ic-pl-h">'+esc(groupOf(byPart[pn][0]))+'</h2>' : (multi ? '<h2 class="ic-pl-h">'+esc(partLabel(book,+pn))+'</h2>' : "");
-      return head+'<ul class="ic-gal ic-gal-grid">'+byPart[pn].map(function(it){
+      return head+'<ul class="ic-gal ic-gal-grid'+(aud ? " ic-gal-aud" : "")+'">'+byPart[pn].map(function(it){
         return '<li><a class="ic-gal-item" href="'+esc(hrefFor(book,it.id))+'" data-id="'+esc(it.id)+'" data-anchor="'+esc(it.id)+'"><span class="ic-gal-img ic-rp-gimg"><img loading="lazy" decoding="async" src="'+esc(ripaThumb(book,it))+'" alt=""></span>'+
           '<span class="ic-gal-cap">'+esc(titleOf(it))+'<small class="ic-gal-pg">'+(aud ? esc(t("audTblAbbr"))+' '+esc(it.num) : esc(t("pageAbbr"))+' '+esc(it.page))+'</small></span></a></li>';
       }).join("")+'</ul>';

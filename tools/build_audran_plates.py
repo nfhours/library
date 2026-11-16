@@ -5,7 +5,7 @@
   python3 tools/build_audran_plates.py --detect   # первичная разметка: books/audran/_crops/crops.json (рамки в % исходного кадра)
                                                   # и angles.json (наклон, градусы); существующие рамки НЕ перезаписываются без --force
   python3 tools/build_audran_plates.py --scans    # сканы предисловия (кадры 0007–0011): books/audran/scans/NNNN.webp, scans/thumb, scans/sizes.json
-  python3 tools/build_audran_plates.py            # сборка по crops.json: img/audN.webp (длинная сторона 1600), img/audN_full.webp (2400),
+  python3 tools/build_audran_plates.py            # сборка по crops.json: img/audN.webp (длинная сторона 1600, бумага выровнена до белого — для multiply), img/audN_full.webp (2400, исходный тон — для полноэкранного просмотра на тёмном фоне),
                                                   # thumb/audN_t.webp (240 по ширине)
 
 Таблица N = кадр ~/Projects/photos/audran/00(11+2N).jpg. Листы таблиц 21–30 в кадре лежат боком: после обрезки их поворачивают
@@ -76,7 +76,21 @@ def detect(n):
     return dict(x=round(100.0 * ox / W0, 2), y=round(100.0 * oy / H0, 2), w=round(100.0 * ow / W0, 2), h=round(100.0 * oh / H0, 2), label=str(n)), round(float(ang), 2)
 
 
-def cut(n, box, ang, long_side):
+def flatten_paper(c):
+    """Выравнивает бумагу листа до белого (по каждому каналу делит на локальный уровень бумаги): на странице гравюра кладётся
+    через mix-blend-mode:multiply, бумага сливается с бумагой сайта, линии и цифры остаются как были."""
+    f = c.astype(np.float32)
+    out = np.empty_like(f)
+    for k in range(3):
+        bg = cv2.GaussianBlur(cv2.dilate(f[..., k], cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (61, 61))), (0, 0), 30)
+        out[..., k] = f[..., k] / np.maximum(bg, 1.0)
+    for k in range(3):   # уровень бумаги (медиана светлых пикселей) → 255
+        lev = float(np.percentile(out[..., k], 60))
+        out[..., k] = out[..., k] / max(lev, 0.5)
+    return (np.clip(out, 0, 1) * 255.0).astype(np.uint8)
+
+
+def cut(n, box, ang, long_side, flat=False):
     im = cv2.imread(PH + frame(n)); H0, W0 = im.shape[:2]
     x, y, w, h = [box[k] / 100.0 for k in ("x", "y", "w", "h")]
     X0, Y0, X1, Y1 = int(x * W0), int(y * H0), int((x + w) * W0), int((y + h) * H0)
@@ -88,6 +102,7 @@ def cut(n, box, ang, long_side):
         M = cv2.getRotationMatrix2D((c.shape[1] / 2, c.shape[0] / 2), ang, 1)
         c = cv2.warpAffine(c, M, (c.shape[1], c.shape[0]), flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REPLICATE)
     c = c[Y0 - ay0:Y1 - ay0, X0 - ax0:X1 - ax0]
+    if flat: c = flatten_paper(c)
     if n >= LAND_FROM: c = rot_cw(c)
     pil = Image.fromarray(cv2.cvtColor(c, cv2.COLOR_BGR2RGB))
     s = long_side / max(pil.size)
@@ -133,9 +148,9 @@ def main():
         f = frame(n); e = crops.get(f)
         if not e or not e.get("boxes"): print("нет рамки", f); continue
         ang = float(angles.get(f, 0.0))
-        cut(n, e["boxes"][0], ang, 1600).save(B + "img/aud%d.webp" % n, quality=82, method=6)
+        cut(n, e["boxes"][0], ang, 1600, True).save(B + "img/aud%d.webp" % n, quality=82, method=6)
         cut(n, e["boxes"][0], ang, 2400).save(B + "img/aud%d_full.webp" % n, quality=72, method=6)
-        t = cut(n, e["boxes"][0], ang, 1600); t.thumbnail((240, 360), Image.LANCZOS); t.save(B + "thumb/aud%d_t.webp" % n, quality=55, method=6)
+        t = cut(n, e["boxes"][0], ang, 1600, True); t.thumbnail((240, 360), Image.LANCZOS); t.save(B + "thumb/aud%d_t.webp" % n, quality=55, method=6)
     print("готово")
 
 
