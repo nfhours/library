@@ -415,3 +415,333 @@ Consilioq; animi monstra superba domas.
 Кустод: 
 Сигнатура: 
 Маргиналии:
+
+## Кадр 0027 · с. 21
+
+[ЗАГОЛОВОК: Vigilantia, & custodia.]
+[ГРАВЮРА: без подписи]
+Instantis quòd signa canens det gallus ëoi,
+Et reuocet famulas ad noua pensa manus:
+Turribus in sacris effingitur, ærea mentem
+Ad superos peluis[?] quòd reuocet vigilem,
+Est leo. sed custos oculis quia dormit apertis:
+Templorum idcircò ponitur ante fores.
+
+Колонтитул: PRVDENTIA. 21
+Кустод: 
+Сигнатура: B 3
+Маргиналии:
+
+## Кадр 0028 · с. 22
+
+[ЗАГОЛОВОК: Νῆφε καὶ μέμνησ' ἀπιστεῖν. ἄρθρα ταῦτα τῶν φρενῶν. Sobriè viuendum: & non temerè credendum.]
+[ГРАВЮРА: без подписи]
+Ne credas ne (Epicharmus ait) non sobrius esto,
+Hi nerui, humanæ membraq; mentis erunt:
+Ecce oculata manus credens id quod videt. Ecce
+Pulegium, antiquæ sobrietatis olus,
+Quo turbam ostenso sedauerit Heraclitus,
+Mulxerit & tumida seditione grauem.
+
+Колонтитул: 22 PRVDENTIA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0029 · с. 23
+
+[ЗАГОЛОВОК: Πῆ παρέβην? τί [?] ερξἔα? τί μοι δέον, οὐκ ἐτελέσθη? Quid excessi? quid admisi? quid omisi?]
+[ГРАВЮРА: без подписи]
+Italicæ Samius sectæ celeberrimus autor
+Ipse suum clausit carmine dogma breui.
+Quò prętergressus? quid agis? qd omittis agendũ?
+Hanc rationem vrgens reddere quenq; sibi.
+Quod didicisse gruũ volitantũ ex agmine fertur,
+Arreptum gestant quæ pedibus lapidem,
+Ne cessent, neu transuersas mala flamina raptet.
+Qua ratione hominum vita regenda fuit.
+
+Колонтитул: PRVDENTIA. 23
+Кустод: 
+Сигнатура: B 4
+Маргиналии:
+
+## Кадр 0030 · с. 24
+
+[ЗАГОЛОВОК: Prudentes. Problema.]
+[ГРАВЮРА: без подписи]
+Iane bifrons, qui iam transacta, futuraq; calles,
+Quiq; retro sannas (sicut & antè) vides,
+Tot te cur oculis, tot fingunt vultibus? an quòd
+Circunspectum hominem forma fuisse docet?
+
+Колонтитул: 24 PRVDENTIA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0031 · с. 25
+
+[ЗАГОЛОВОК: Prudens, magis quàm loquax.]
+[ГРАВЮРА: без подписи]
+Noctua Cecropijs insignia præstat Athenis,
+Inter aues sani Noctua consilij.
+Armiferæ meritò obsequijs sacrata Mineruæ est,
+Garrula quo cornix cesserat antè loco.
+
+Колонтитул: PRVDENTIA. 25
+Кустод: 
+Сигнатура: B 5
+Маргиналии:
+
+## Кадр 0032 · с. 26
+
+[ЗАГОЛОВОК: Maturandum.]
+[ГРАВЮРА: без подписи]
+Maturare iubent properè, & cunctarier omnes.
+Ne nimiùm præceps, neu mora longa nimis.
+Hoc tibi declaret connexum echeneide telum,
+Hæc tarda est, volitant spicula missa manu.
+
+Колонтитул: 26 PRVDENTIA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0033 · с. 27
+
+[ЗАГОЛОВОК: In deprehensum.]
+[ГРАВЮРА: без подписи]
+Iamdudum quacunq; fugis te persequor: at nunc
+Cassibus in nostris denique captus ades.
+Amplius haud poteris vires eludere nostras.
+Ficulno anguillam strinximus in folio.
+
+Колонтитул: PRVDENTIA. 27
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0034 · с. 28
+
+[ЗАГОЛОВОК: Custodiendas virgines.]
+[ГРАВЮРА: без подписи]
+Vera hæc effigies. innuptæ est Palladis: eius
+Hic Draco, qui dominæ constitit ante pedes.
+Cur diuæ comes hoc animal? custodia rerum
+Huic data. sic lucos, sacraq; templa colit.
+Innuptas opus est cura asseruare puellas
+Peruigili. laqueos vndique tendit amor.
+
+Колонтитул: 28 PRVDENTIA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0035 · с. 29
+
+[ЗАГОЛОВОК: Vino prudentiam augeri.]
+[ГРАВЮРА: без подписи]
+Hæc Bacchus pater, & Pallas communiter ambo
+Templa tenent, soboles vtraque vera Iouis:
+Hæc caput, illè femur soluit: huic vsus oliui
+Debitus: inuenit primus at ille merum.
+Iunguntur merito, quòd si qui abstemius odit
+Vina: Deæ nullum sentiet auxilium.
+
+Колонтитул: PRVDENTIA. 29
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0036 · с. 30
+
+[ЗАГОЛОВОК: Prudentes vino abstinent.]
+[ГРАВЮРА: без подписи]
+Quid me vexatis rami? sum Palladis arbor:
+Auferte hinc botros. virgo fugit Bromium.
+[ВИНЬЕТКА: концовка]
+
+Колонтитул: 30 PRVDENTIA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0037 · с. 31
+
+[ЗАГОЛОВОК: In statuam Bacchi.]
+[ЗАГОЛОВОК: DIALOGISMVS.]
+[ГРАВЮРА: без подписи]
+Bacche pater: quis te mortali lumine nouit?
+Et docta effinxit quis tua membra manu?
+Praxiteles, qui me rapientem Gnosida uidit.
+Atque illo pinxit tempore qualis eram.
+Cur iuuenis, teneraq; etiam lanugine vernat
+Barba, queas Pylium cùm superare senem?
+
+Колонтитул: PRVDENTIA. 31
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0038 · с. 32
+
+Muneribus quandoque meis si parcere disces
+Iunior, & forti pectore semper eris.
+Tympana nō manibus, capiti non cornua desunt.
+Quos (nisi dementeis) talia signa decent?
+Hoc doceo, nostro quòd abusus munere sumit
+Cornua: & insanus mollia sistra quatit.
+Quid vult ille color membris penè igneus? (omen
+Absit) an humanis vreris ipse focis?
+Cùm Semeles de vētre parens me fulmine traxit
+Igniuomo: infectum puluere mersit aquis.
+Hinc sapit hic, liquidis qui nos bene diluit vndis:
+Qui non ardenti torret ab igne iecur.
+Sed nunc me doceas quî vis miscerier? & qua
+Te sanus tutum prendere lege queat?
+Quadrātem addat aquæ, calicē sumpsisse falerni
+Qui cupit. hoc fumi pocula more iuuat.
+Stes intra heminas: nam qui procedere tendit
+Vltrà: alacer, sed mox ebrius inde furit.
+Res dura hæc nimiùm. Sunt pēdula guttura, dulce
+Tu fluis. Heu facilè commoda nulla cadunt.
+[ВИНЬЕТКА: концовка]
+
+Колонтитул: 32 PRVDBNTIA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0039 · с. 33
+
+[ЗАГОЛОВОК: Gramen.]
+[ГРАВЮРА: без подписи]
+Gramineam Fabio patres tribuêre corollam,
+Fregerat vt Pœnos Hannibalemq; mora.
+Occulit inflexo nidum sibi gramine alauda,
+Vulgò aiunt, pullos sic fouet illa suos.
+Saturno Martiq; sacrum, quo Glaucus adeso
+Polybides, factus creditur esse Deus.
+His meritò arguitur nodis tutela, salusq;:
+Herbaq; tot viret hæc digitalis habet.
+
+Колонтитул: PRVDENTIA. 33
+Кустод: 
+Сигнатура: C
+Маргиналии:
+
+## Кадр 0040 · с. 34
+
+[ЗАГОЛОВОК: IVSTITIA.]
+[ЗАГОЛОВОК: Nec verbo, nec facto quenquam lædendum.]
+[ГРАВЮРА: без подписи]
+Assequitur, Nemesisq; virûm vestigia seruat,
+Continet & cubitum, duraq; fræna manu.
+Nè malè qd facias: néue improba verba loquaris:
+Et iubet in cunctis rebus adesse modum.
+
+Колонтитул: 34 IVSTITIA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0041 · с. 35
+
+[ЗАГОЛОВОК: Tandem, tandem Iustitia obtinet.]
+[ГРАВЮРА: надпись: AIACIS]
+Aeacidæ Hectoreo perfusum sanguine scutum:
+Quod Græcorum Ithaco concio iniqua dedit:
+Iustior arripuit Neptunus in æquora iactum
+Naufragio, vt dominum posset adire suum.
+Littoreo Aiacis tumulo nanque intulit vnda,
+Quæ boat, & tali uoce sepulchra ferit.
+Vicisti Thelamoniade, tu dignior armis.
+Affectus fas est cedere iustitiæ.
+
+Колонтитул: IVSTITIA. 35
+Кустод: 
+Сигнатура: C 2
+Маргиналии:
+
+## Кадр 0042 · с. 36
+
+[ЗАГОЛОВОК: Etiam ferocissimos domari.]
+[ГРАВЮРА: без подписи]
+Romanum postquàm eloquiū, Cicerone perempto,
+Perdiderat patriæ pestis acerba suæ:
+Inscendit currus victor, iunxitq; leones,
+Compulit & durum colla subire iugum,
+Magnanimos cessisse suis Antonius armis,
+Ambage hac cupiens significare duces.
+
+Колонтитул: 36 IVSTITIA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0043 · с. 37
+
+[ЗАГОЛОВОК: Gratiam referendam.]
+[ГРАВЮРА: без подписи]
+Aërio insignis pietate Ciconia nido,
+Inuestes pullos pignora grata fouet.
+Taliaq; expectat sibi munera mutua reddi,
+Auxilio hoc quoties mater egebit anus.
+Nec pia spem soboles fallit, sed fessa parentum
+Corpora fert humeris, præstat & ore cibos.
+
+Колонтитул: IVSTITIA. 37
+Кустод: 
+Сигнатура: C 3
+Маргиналии:
+
+## Кадр 0044 · с. 38
+
+[ЗАГОЛОВОК: Abstinentia.]
+[ГРАВЮРА: без подписи]
+Marmoreæ in tumulis vna stat parte columnæ
+Vrceus, ex alia cernere malluuium est.
+Ius hæc forma monet dictum sine sordibus esse,
+Defunctum puras atque habuisse manus.
+
+Колонтитул: 38 IVSTITIA.
+Кустод: 
+Сигнатура: 
+Маргиналии:
+
+## Кадр 0045 · с. 39
+
+[ЗАГОЛОВОК: Bonis à diuitibus, nihil timendum.]
+[ГРАВЮРА: без подписи]
+Iunctis contiguo Marius mihi pariete, nec non
+Subbardus, nostri nomina nota fori,
+Aedificant bene nummati, sataguntq; vel vltrò
+Obstruere heu nostris vndiq; luminibus.
+Me miserū, geminę quem tanquam Phinea raptāt
+Harpyiæ, vt proprijs sedibus eijciant.
+Integritas nostra, atq; animus quæsitor honesti,
+His nisi sint Zetes, his nisi sint Calais.
+
+Колонтитул: IVSTITIA. 39
+Кустод: 
+Сигнатура: C 4
+Маргиналии:
+
+## Кадр 0046 · с. 40
+
+[ЗАГОЛОВОК: FORTITVDO.]
+[ЗАГОЛОВОК: Signa fortium.]
+[ЗАГОЛОВОК: DIALOGISMVS.]
+[ГРАВЮРА: надпись: D·M ARISTOMENIS]
+Quæ te causa mouet volucris Saturnia, magni
+Vt tumulo insideas ardua Aristomenis?
+Hoc moneo: Quātū inter aues ego robore præsto,
+Tantùm Semideos inter Aristomenes.
+Insideant timidæ timidorum busta columbæ,
+Nos aquilæ intrepidis signa benigna damus.
+
+Колонтитул: 40 FORTITVDO.
+Кустод: 
+Сигнатура: 
+Маргиналии:
