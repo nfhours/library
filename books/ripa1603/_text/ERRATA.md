@@ -19,3 +19,5 @@
 | 0194 | 173 | discoueniente | disconueniente | пропущена буква |
 | 0202 | 181 | ranto | tanto | перепутанная буква |
 | 0217 | 196 | piccla | picciola | прочее |
+| 0243 | 222 | dell'intelto | dell'intelletto | прочее |
+| 0244 | 223 | souo | sono | перепутанная буква |

@@ -4167,3 +4167,507 @@ Et questo basterà per dichiaratione de i colori de'vestimenti, che mancano all'
 Кустод: HO-
 Сигнатура: 
 Маргиналии:
+
+## Скан 0230 · с. 209
+
+[ЗАГОЛОВОК: HORA NONA.]
+[ИНИЦИАЛ: F]ANCIVLLA alata, il colore del suo vestimento sarà giallo pagliato.
+Terrà con destra mano il segno di Venere [знак], & con l'altra vn ramo di vliuo, percioche questa pianta riuolge le sue foglie nel solstitio, come si è visto per l'osseruatione da molti, di che ancora ne fa fede Plinio.
+[ЗАГОЛОВОК: HORA DECIMA.]
+[ИНИЦИАЛ: F]ANCIVLLA alata, vestita di color giallo: ma che tiri alquanto al negro.
+Terrà con la destra mano il segno di Mercurio [знак], & con la sinistra vn ramo di pioppa per hauere anco questa pianta il medesimo significato de l'vliuo, laonde per questa causa il Pontano ne'suoi versi la chiama arbore del Sole, così dicendo.
+Thætontias arbor Fundit ore nouo, &c. Intendendo la pioppa.
+[ЗАГОЛОВОК: HORA VNDECIMA.]
+[ИНИЦИАЛ: F]ANCIVLLA alata, il suo vestimento sarà cangiante di giallo, & negro, auertendo che tenghi come habbiam detto con bella gratia il segno della luna, & vna clepsidra oriolo d'acqua, del quale fa mention Cicerone nel 2.de natur.Deor. *Quid igitur*, inquit, *conuenit cum solarium, vel descriptum, aut ex aqua contemplaris*, & nel fine della settima Tusculana: *Cras ergo ad clepsydram*; percioche con queste clepsidre orioli d'acqua si prefiniua anticamente il tempo à gl'oratori, come bene accenna Cicerone, nel 3. de orat. *At hunc non declamat[?]r aliquis ad clepsidram, latrare docuerat.*
+Et Mar[?]iale nel libro sesto.
+Septem clepsydras magna tibi voce petenti Arbiter inuitus, Caciliane dedit.
+Et ancorche questo oriolo non sia solare, nondimeno Scipione Natica, l'anno 595.della edificatione di Roma, con l'acqua diuise l'hore egualmēte della notte, e del giorno, essendo che molte volte l'oriolo solare quando era nuuolo, non seruiua, come ne fa testimonianza Plinio lib. 7.
+L'inuentore di quest'oriolo, come dice Vitruuio lib.9.de architettura fu Ctesibio Alessandrino figliuolo d'vn barbiere.
+[ЗАГОЛОВОК: HORA DVODECIMA.]
+[ИНИЦИАЛ: F]ANCIVLLA alata, vestita succintamente, di color violato, e parimente con i capelli, come habbiamo detto de l'altre.
+Di quest'hora disse Silio Italico lib.2.
+Iamque diem ad metas defessis Phæbus olympo. Paulatim infusa properantem ad littora
+Impellebat equis, fuscabat & hesperus vmbra. (currum.
+Et nel libro decimo sesto.
+Obscuro iam vesper olympo. Fundere non aquam trepidanti cœperit vmbram.
+Terrà con la destra mano il segno di Saturno [знак], & con l'altra vn ramo di salce, essendo che la pioppa, l'vliuo, & il salce, riuolgono le foglie nel Solistitio, come Plinio scriue.
+
+Колонтитул: DI CESARE RIPA. 109
+Кустод: HO-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0231 · с. 210
+
+[ЗАГОЛОВОК: HORE DELLA NOTTE.]
+[ЗАГОЛОВОК: HORA PRIMA.]
+[ИНИЦИАЛ: F]ANCIVLLA alata, & parimente con capelli, come le altre hore del giorno, ma il colore di quelli dalla parte d'auanti farà negro. L'habito farà succinto, & di varij colori, percioche essendo il Sole tramontato nell'Occidente tale si dimostra, per la ripercussione de i soi raggi molti colori, come dice Statio 2.Achille.
+Frangebat radios humili iampronus olympo. Promittebat equis,
+Phæbus,et Oceani penetrabile litus anhelis
+Del vario colore fa testimonianza Seneca in Agamenone così dicendo:
+Suspecta varius Occidens fecit freta.
+Terrà con la destra mano il segno di Gioue [знак], & con la sinistra vna nottola, ouero vespertilio, così detto *à vespertino tempore*, come dice Gieroaldo commentatore d'Apuleio, che è la sera quando questi animali cominciano à comparire, come dottamente descriue Ouid.4.Metam. nella fauola dell'istesso animale, così dicendo:
+Iamque dies exactus erat, tempusque subibat
+Quod tu, nec tenebras, nec posses dicere lucem,
+Sed cum luce tamen dubia confinia noctis
+Tecta repente quati pinguesque ardere videntur
+Lampades, & rutilis collucent ignibus ædes
+Falsaque sænarum simulacrum vlulare ferarum.
+Fumida Iamdudum latitant per tecta sorores
+Diuersæque locis ignes ac lumina vitant
+Dumque petunt tenebras paruos membrana per artus
+Porrigitur tenuesque includunt brachia pennæ
+Nec qua perdiderint veterem ratione figuram
+Scire sinunt tenebræ, non illas pluma leuauit
+Sustinuere tamen se perlucentibus alis
+Cænateque loqui minimam pro corpore vocem
+Emittunt : peraguntque leui stridore querelas
+Tectaque non syluas celebrant lucemque perosæ
+Nocte volant, seroque trahunt, à Vespere nomen.
+[ЗАГОЛОВОК: HORA SECONDA.]
+[ИНИЦИАЛ: F]ANCIVLLA alata, & vestita di color bertino, percioche quantopiù il Sole s'allontana dal nostro emispero, e passa per l'Occidente tanto più per la successione dell'hore l'aria si oscura, come dice Virgilio al 2.dell'Eneide.
+Vertitur interea cœlū,& ruit Oceano nox Inuoluens vmbra magna terramq; polumq;
+Et nel terzo.
+Sol ruit interea, & montes vmbrantur opaci.
+Et questo basterà per i significati de i colori delli vestimenti dell'hore, che hanno da succedere.
+Terrà con la destra mano il segno di Marte [знак], & con la sinistra vna ci
+
+Колонтитул: ICONOLOGIA 110
+Кустод: uetta
+Сигнатура: 
+Маргиналии:
+
+## Скан 0232 · с. 211
+
+uetta per esser figura della notte, come dice Pierio Valeriano ne l libro 20.& piglia il nome da essa, essendo che il latino si dichiara noctua, dalla notte.
+[ЗАГОЛОВОК: HORA TERZA.]
+[ИНИЦИАЛ: F]ANCIVLLA alata, & vestita di bertino, più scuro dell'antecedente, terrà con la destra mano il segno del Sole [знак], ma però che tenghi la mano bassa quanto più si può, mostrando con tal gesto, che il Sole sia tramontato, & con la sinistra vn bubone, ò barbagianni, vcello notturno, la fauola del quale racconta Ouidio libro 5. delle Metam. l'argomento è questo. Gioue hauendo concesso à Cerere, che rimenasse Proserpina sua figliuola dall'inferno, con questo patto, che ella non hauesse gustato cosa alcuna in quel luoco, subito Ascalafo disse, che gli haueua visto mangiare delli granati, & impedì la sua tornata, la onde adirata Cerere lo transmutò in questo animale, il quale suole arrecare sempre male nuoue.
+Repetet Proserpina Cœlum
+Lege tamen certa, si nullos contigit illic
+Ore cibos; nam sic parcarum fœdere factum est
+Dixerat, ac Cereri certum est educere natam.
+Non ita fata sinunt quoniam ieiunia Virgo,
+Solu[?][?][?]t, & cultis simplex dum errat in hortis
+Puniceum curua decerpserat arbore pomum
+Sumptaque Pallenti septem de cortice grana
+Presserat ore suo, solusque ex omnibus illud
+Ascalaphus vidit quem quondam dicitur Orphne
+Inter Auernales haud ignotissima Nymphas
+Ex. Acheronte sue furuis peperisse sub antris.
+Vidit, & indicio reditum crudelis ademit.
+Ingemuit Regina Erebi, testemque profanum
+Fecit auem, sparsumque caput Flegethontide lympha
+In rostrum, & plumas, & grandia lumina vertit.
+Ille sibi ablatus fuluis amicitur in alis,
+Inque caput crescit, longosque reflectitur vngues,
+Vixque mouet nata pertinentia brachia pennas
+Fœdaque fit volueris venturi nuncia luctus
+Ignauus bubo dirum mortalibus omen.
+Di questo animale così dice Plinio, nel libro decimo al capitolo 12.
+Bubo funebris, & maximè abominans publicis præcipue auspicijs deserta incolit, nec tantum desolata sed dura etiam, & inacessa, noctis monstrum nec cantu aliquo vocali, sed gemitu.
+[ЗАГОЛОВОК: HORA QVARTA.]
+[ИНИЦИАЛ: F]ANCIVLLA alata in atto di volare, farà il suo vestimento di color lionato.
+Con la destra mano terrà il segno di Venere [знак], & con la sinistra vno horiolo da poluere.
+
+Колонтитул: DI CESARE RIPA. 211
+Кустод: HO-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0233 · с. 212
+
+[ЗАГОЛОВОК: HORA QVINTA.]
+[ИНИЦИАЛ: F]ANCIVLLA alata, come l'altre il color del vestimento farà di lionato che tiri al negro.
+Con l'vna delle mani terrà il segno di Mercurio [знак], & con l'altra vn mazo di papauero, essendo, che di questa pianta si corona la notte, come dice Ouidio lib.4.fast.6.
+Interea placidam redimita papauere frontem Nox venit, & secum somnia nigra trahit.
+Et hà proprietà di far dormire, come operatione notturna, laonde Virgilio lo chiama soporifero nel 4.dell'Eneide.
+Spargens humida mella, soporiferumque papauer
+Et Ouidio ancora nel 5.de Trist.
+Quotque soporiferum grana papauer habet.
+Et Politiano pieno di sonno.
+Hic gratum cereri plenumque sopore papauer.
+[ЗАГОЛОВОК: HORA SESTA.]
+[ИНИЦИАЛ: F]ANCIVLLA alata, e vestita di color negro, come dice Ouid.4.fasti.
+Iam color vnus inest rebus tenebrisque teguntur omnia.
+Con la destra mano tenghi il segno della Luna [знак], & con il braccio sinistro vna gatta, percioche significa la Luna, dicendo, che i Dei fuggendo l'ira di Tifone se ne andarono in Egitto, ne quiui si teneuano securi se non prendeuano forma chi d'vno, & chi d'vn'altro animale fra quali la Luna si cangiò in gatta come dice Ouidio nel lib.5.delle Metamorfosi.
+Fele soror Phæbi, niuea Saturnia varia pisce Venus latuit.
+Percioche la gatta è molto varia, vede la notte, & la luce de i suoi occhi cresce, ò diminuisce, secondo che cala, ò cresce il lume della Luna. Statio lib.12.Theb.di quest'hora disse.
+[?] [?] nox magis ipsa tacebat. Cum graue nocturna cœlum subtexitur vmbra.
+[?] migrantes laxabant astra tenebras.
+Et nel libro secondo.
+Ast vbi prona dies lōgos super æquora fines Exiget,atq;ingēs medio natat vmbra profūdo
+[ЗАГОЛОВОК: HORA SETTIMA.]
+[ИНИЦИАЛ: F]ANCIVLLA alata, farà il suo vestimento di color cangiante, ceruleo, & negro. Terrà con la destra mano il segno di Saturno [знак], e con il braccio sinistro vn tasso, per mostrare, ch'essendo quest'hora nel profondo della notte, ad altro non si attende, che à dormire, come fà quest'animale, il che dottamente descriuono i poeti. Virg.4.Eneid.
+Nox erat, & placidū carpebant fessa soporem Æquora cū medio voluūtur sydera lapsu
+Corpora,per terras syluæq, & sæua quierant Cū tacit omnis ager pecudes,pictæq;volucres.
+Sil.Ital.lib.8. Tacito nox atra sopore
+Cuncta[?]per & terras, & lati stagna profundi condiderat.
+Ouid.5.fast.
+Nox vbi iam media est somnusque silentia præbent.
+Et cantu, & varia conticuistis aues.
+Stat.1.Theb.
+
+Колонтитул: ICONOLOGIA 212
+Кустод: Iamq;
+Сигнатура: 
+Маргиналии:
+
+## Скан 0234 · с. 213
+
+Iamq;per emeriti surgens confinia Phœbi Iā pecudes volucresq;[?]facet,Iã somnus auaris
+Titanis late mundo subuecta silenti. Inserpit curis pronusque per aera nutat
+Rorifera gelidum tenuauerat aera biga Grata laboratæ referens obliuia vitæ.
+[ЗАГОЛОВОК: HORA OTTAVA.]
+[ИНИЦИАЛ: F]ANCIVLLA alata, in atto di volare, il colore del vestimento farà ceruleo oscuro. Con vna delle mani terrà il segno di Gioue, [знак], & perche questa è trà l'hore del più profondo sonno, con l'altra mano gli si farà tenere, con bella gratia, vn Ghiro, come animale sonnacchioso, della qual cosa ne fa testimonianza Martiale nel libro 5. così dicendo.
+Somniculosos ille porrigit ghires
+Et nel libro 13. parlando il ghiro.
+Tota mihi dormitur hiems, & pinguior illo Tempore sum quod me nil nisi solus alit.
+[ЗАГОЛОВОК: HORA NONA.]
+[ИНИЦИАЛ: F]ANCIVLLA vestita di paonazzo, & come l'altre sarà alata, & starà in atto di volare. Terrà con vna mano il segno di Marte [знак], & vn gufo, come vcello proprio della notte.
+[ЗАГОЛОВОК: HORA DECIMA.]
+[ИНИЦИАЛ: F]ANCIVLLA alata, & il color del vestimento, sarà alquanto più chiaro dell'hora sopradetta.
+Terrà il segno del Sole [знак], nella guisa che habbiamo detto della prima hora della notte, per la medesima ragione, & con l'altra mano vn'horiolo in forma di vn bel tempietto, con la sfera che mostri l'hora decima, & sopra la campana da sonare l'hore, essendo, che il suono dispone, & chiama ogn'vno al suo esercitio, come dice Gieroaldo Commentatore d'Apuleio, lib.5.& massime all'hora decima, essendo già passato il tempo di dormire.
+[ЗАГОЛОВОК: HORA VNDECIMA.]
+[ИНИЦИАЛ: F]ANCIVLLA alata, farà vestita di turchino. Terrà con la destra mano il segno di Venere [знак], & con l'altra mano vn'horiolo da poluere, nel quale si veda la diuisione dell'hora, con il segno, & mostri, che la poluere sia giunta all'hora vndecima.
+[ЗАГОЛОВОК: HORA DVODECIMA.]
+[ИНИЦИАЛ: F]ANCIVLLA alata, & come l'altre in atto di volare, il color del vestimento sarà ceruleo, & bianco, percioche auuicinandosi il giorno l'oscurità della notte è in declinatione, come dice Virg.8.Eneide.
+Vbi Oceani perfusus lucifer vnda Extulit os sacrum cœlo,tenebrasque resoluit.
+Quem Venus ante alios astrorum diligit ignes. Sil.lib.5.
+Et iam curriculo nigram nox roscida metam Protulerat,stabatque nitens in limine primo
+Stringebat nec se thalamis Tithonia coniux Cum minus annuerit noctem desisse viator
+Quam cœpisse diem.
+Stat.1.Theb.
+Rarescentibus vmbris longa repercussio nituere crepuscula Phœbo.
+Terrà con la destra mano il segno di Mercurio [знак], & sotto il braccio sinistro con bella gratia vn cigno, per mostrar i primi albori della mattina,
+
+Колонтитул: DI CESARE RIPA. 213
+Кустод: auanti
+Сигнатура: O
+Маргиналии:
+
+## Скан 0235 · с. 214
+
+auanti che arriua il Sole, il quale fa il dì simile alla bianchezza del Cigno, quando viene à noi, & partendosi fa parimenti la notte negra, come è il Coruo.
+[ЗАГОЛОВОК: HVMILTA.]
+[ИНИЦИАЛ: D]ONNA con vestimento bianco, con gli occhi bassi, & in braccio tiene vno agnello.
+La Humiltà è quella virtù dell'animo, onde gli huomini si stimano inferiori à gli altri, con pronta, & disposta voluntà di vbbidire altrui, con intentione di nascondere i doni d'Iddio, che possiedono, per non hauer cagione d'insuperbire.
+Si dipinge donna vestita di bianco, perche si conosca che la candidezza, & purità della mente partorisce nell'huomo ben disposto, & ordinato alla ragione, quella humiltà che è basteuole à rendere l'attioni sue piaceuoli à Dio, che da la gratia sua à gl'humili, & fa resisteuza alla voluntà de'superbi.
+L'agnello è il vero ritratto dell'huomo 'mansueto, & humile, per questa cagione Christo Signor nostro è detto agnello in molti luoghi, e dello Euangelio, & de Profeti.
+[ЗАГОЛОВОК: Humiltà.]
+[ИНИЦИАЛ: D]ONNA che nella spalla destra porti vn sacchetto pieno, & con la sinistra mano vna sporta di pane, sarà vestita di sacco, & calpestrarà diuersi vestimenti di valore.
+L'humiltà deue esser vna volontaria bassezza di pensieri di se stesso per amor di Dio, dispregiando l'vtili, e l'honori. Ciò si mostra con la presente figura, che potendosi vestire riccamente s'elegge il sacco, il pane è indicio che si procura miseramente il vitto, senza esquisitezza di molte delicature, per riputarsi indegna de i commodi di questa vita. Il sacchetto che aggraua, è la memoria de'peccati, ch'abbassa lo spirto de gl'humili.
+[ЗАГОЛОВОК: Humiltà.]
+[ИНИЦИАЛ: D]ONNA con la sinistra mano al petto, e con la destra distesa, & aperta; farà la faccia volta verso il Cielo, & con vn piede calchi vna vipera meza morta, auuitichiata intorno à vn specchio tutto rotto, e spezzato, & con vna testa di leone ferito pur sotto à piedi.
+La mano al petto, mostra, ch'il core è la vera stanza d'humiltà.
+La destra aperta è segno che l'humiltà, deue essere reale, & patiente, & non simile à quella del lupo vestito di pelle pecorina, per diuorare gli agnelli.
+Per la vipera s'interpreta l'odio, e l'inuidia, per il specchio l'amor di se stesso, e per il leone la superbia; l'amor di se stesso fa poco pregiar l'humiltà; l'odio, e l'ira son'effetti che tolgon le forze, e la superbia, l'estingue; però si deuon queste tre cose tener sotto i piedi, cõ salda, e santa risolutione.
+[ЗАГОЛОВОК: Humiltà.]
+[ИНИЦИАЛ: D]ONNA vestita di colore bertino, con le braccia in croce al petto, tenendo con l'vna delle mani vna palla, vna cinta al collo, la
+
+Колонтитул: ICONOLOGIA 214
+Кустод: testa
+Сигнатура: 
+Маргиналии:
+
+## Скан 0236 · с. 215
+
+[ГРАВЮРА: без подписи]
+testa china, & sotto il piè destro hauerà vna corona d'oro.
+Tutti segni della interior cognitione della bassezza de i proprij meriti, nel che consiste principalmente questa virtù, della quale trattando S.Agostino così disse: *Humilitas est ex intuitu propriæ cognitionis, & sui conditoris voluntaria, mentis inclinatio, suo imo ordinabili ad suum conditorem.*
+La palla si può dire, che sia simbolo dell'humiltà, percioche quanto più è percossa in terra tanto più s'inalza, & però S.Luca nel 14.etiam 18. disse così: *Qui se humiliat exaltabitur.*
+Il tener la corona d'oro sotto il piede, dimostra, che l'humiltà non pregia le grandezze, e ricchezze, anzi è dispregio d'esse, come S.Bernardo dice quando tratta delli gradi dell'humiltà, & per dimostratione di questa
+
+Колонтитул: DI CESARE RIPA. HVMILTA. 215
+Кустод: rara
+Сигнатура: O 4
+Маргиналии:
+
+## Скан 0237 · с. 216
+
+rarà virtù Baldouino primo Rè di Hierusalem si rese humile, dicendo nel refutare la corona d'oro tolga Dio da me che io porti corona d'oro la doue il mio Redentore la portò di spine. Et Dante nel settimo del Paradiso così dice.
+E tutti gli altri modi erano scarsi Non fosse humiliato ad incarnarsi.
+Alla giustitia sel' figliuol di Dio.
+[ЗАГОЛОВОК: HVMANITA.]
+[ИНИЦИАЛ: V]NA bella donna che porti in seno varij fiori, & con la sinistra mano tenghi vna catena d'oro.
+Humanità, che dimandamo volgarmente cortesia è vna certa inclinatione d'animo, che si mostra per compiacere altrui.
+Però si dipinge con i fiori, che sono sempre di vista piaceuole, & con la catena d'oro allaccia nobilmente gli animi delle persone, che in se stesse sentono l'altrui amicheuole cortesia.
+[ЗАГОЛОВОК: Humanità.]
+[ИНИЦИАЛ: D]ONNA con habito di Ninfa, & viso ridente, tiene vn cagnolino in braccio, il quale con molti vezzi gli va lambendo la faccia con la lingua, & vicino vi sarà l'elefante.
+L'humanità consiste in dissimular le grandezze, & i gradi per compiacenza, & satisfattione delle persone più basse.
+Si fa in habito di ninfa per la piaceuolezza ridente, per applauso di gētilezza, ilche ancora dimostra il cagnolino, al quale ella fa carezze, per aggradire l'opere conforme al desiderio dell'autor loro.
+L'elefante si scorda della sua grandezza, per fare seruitio all'huomo, dal quale desidera esser tenuto in conto, & però da gl'antichi fù per indicio d'humanità dimostrato.
+[ЗАГОЛОВОК: HERESIA.]
+[ИНИЦИАЛ: V]NA vecchia estenuata di spauenteuole aspetto, getterà per la bocca fiamma affumicata, hauerà i crini disordinatamente sparsi, & irti, il petto scoperto, come quasi tutto il resto del corpo, le mammelle asciutte, e assai pendenti, terrà con la sinistra mano vn libro succhiuso vscire fuora serpenti, & con la destra mano mostri di spargere varie sorti.
+L'Heresia secondo S.Tomasso sopra il libro quarto delle sentenze, & altri Dottori, è errore dell'intelletto, al quale la volontà ostinatamente adherisce intorno à quello, che si deue credere, secondo la Santa Chiesa Cattolica Romana.
+Si fa vecchia, per dinotare l'vltimo grado di peruersità inueterata de l'Heretico.
+E di spauenteuole aspetto, per essere priua della bellezza, & luce chiarissima della Fede, & verità Christiana, per lo cui mancamento l'huomo è più brutto dell'istesso demonio.
+Spira per la bocca fiamma affumicata, per significare, l'empie persuasioni, & l'affetto prauo di consumare ogni cosa, che à lei è contraria.
+
+Колонтитул: ICONOLOGIA 216
+Кустод: I crini
+Сигнатура: 
+Маргиналии:
+
+## Скан 0238 · с. 217
+
+[ЗАГОЛОВОК: HERESIA.] [ГРАВЮРА: без подписи]
+I crini sparsi, & erti, sono i rei pensieri, i quali sono sempre pronti in sua difesa.
+Il corpo quasi nudo, come dicemmo, ne dimostra, che ella è nuda di ogni virtù.
+Le mammelle asciutte, & assai pendenti, dimostrano, l'auidità di vigore, senza il quale non si possono nutrire opere, che siano degne di vita eterna.
+Il libro succhiuso con i serpi, significa la falsa dottrina, & le sentenze più nocie, & abomineuoli, che i più velenosi serpenti.
+Il spargere i serpi dinota l'effetto di seminare false operationi.
+
+Колонтитул: DI CESARE RIPA. 217
+Кустод: HI-
+Сигнатура: O 3
+Маргиналии:
+
+## Скан 0239 · с. 218
+
+[ЗАГОЛОВОК: HISTORIA.]
+[ИНИЦИАЛ: D]ONNA alata, & vestita di bianco, che guardi indietro, tenghi con la sinistra mano vn'ouato, ouero vn libro, sopra del quale mostri di scriuere, posandosi con il piè sinistro sopra d'vn sasso quadrato, & à canto vi sia vn Saturno, sopra le spalle del quale l'ouato, ouero il libro oue ella scriue.
+Historia è arte con la quale scriuendo s'esprimono l'attioni notabili de l'homini, diuision de'tēpi, nature, e accidenti preteriti, e presenti delle persone, e delle cose, la qual'richiede tre cose, verità, ordine, & consonanza.
+Si fa alata, essendo ella vna memoria di cose seguite, degne di sapersi, la quale si diffonde per le parti del mondo, & scorre di tempo in tempo alli pastori.
+Il volgere lo sguardo indietro, mostra che l'Historia è memoria delle cose passate nata per la posterità:
+Si rappresenta, che scriua nella guisa che si è detto, percioche l'historie scritte sono memorie de gli animi, & le statue del corpo, onde il Petrarca nel Sonetto 84.
+Pandolfo mio quest'opere son frali Che fà per fama gl'huomin'immortali.
+A lungo andar: ma il nostro studio è quello
+Tiene posato il piede sopra il quadrato, perche l'Historia deue star sempre salda, nè lassarsi corrompere, ò fuggiacere da alcuna banda con la bugia per interesse, che perciò si veste di bianco.
+Gli si mette à canto il Saturno, perche l'historia è detta da Marco Tullio, testimonia de i tempi, maestra della vita, luce della memoria, & spirito dell'attioni.
+[ЗАГОЛОВОК: HISTORIA.]
+[ИНИЦИАЛ: S]I potrà dipingere vna donna, che volgendo il capo guardi dietro alle spalle, & che per terra, doue ella guarda, vi siano alcuni fasci di scritture meze auuoltate, tenghi vna penna in mano, & farà vestita di verde, essendo detto vestimento contesto tutto di quei fiori, li quali si chiamano sempreuiui, & dall'altra parte vi si dipingerà vn Fiume torto, si come era quello chiamato Meandro, nella Phrigia, il quale si raggiraua in se stesso.
+[ЗАГОЛОВОК: IATTANZA.]
+[ИНИЦИАЛ: D]ONNA di superba apparenza, vestita di penne di pauone, nella sinistra mano tenga vna tromba, & la destra sarà alzata in alto.
+La iattanza, secondo S.Tomasso, è vitio di coloro, che troppo più di quel che sono inalzandosi, ouero che gl'huomini stessi credono, con le parole si gloriano, & però si finge donna con le penne di pauone, perche la iattanza è compagna, ò come dicono alcuni Teologi, figliuola della Superbia, la quale si dimostra per lo pauone, perche come esso si reputa assai, per la bella varietà delle penne, che lo ricuoprono senza vtile, così i superbi fomentano l'Ambitione con le gratie particolari di Dio, che possiedono senza merito proprio, & come il pauone spiega la sua superbia
+
+Колонтитул: ICONOLOGIA 218
+Кустод: bia
+Сигнатура: 
+Маргиналии:
+
+## Скан 0240 · с. 219
+
+bia con le lodi altrui, che gli danno incitamento, così la Iattanza con le lodi proprie, le quali sono significate nella tromba, che apprende fiato, & suono dalla bocca medesima. La mano alzata ancora dimostra assertiua testimonianza.
+[ЗАГОЛОВОК: IDOLOLATRIA.]
+[ИНИЦИАЛ: D]ONNA ciecha, con le ginocchia in terra, & dia incenso con turibolo alla statua di vn toro di bronzo.
+Idololatria, secondo San Thomasso 2. 2. quæst. 94. art. *Est cultus Deo debitus creaturæ exhibitus.*
+Le ginocchia in terra sono vn'effetto, & segno di religione, col quale si confessa sommissione, & humiltà, in rispetto alla grandezza di Dio, il quale solo è potentissimo in se stesso, & solo à lui conuiene propriamente l'adoratione; per la ragione che ne daremo scriuendo al suo luogo de l'oratione, se bene vi è anco la veneratione de'Santi ne pur questa basta, senza la retta intentione di dar gl'honori conuenientemente, & questa intentione si dichiara col Turibulo, che manda fumi odoriferi, li quali significano, che la buona intentione drittamente piegata, manda odore di orationi feruenti, & accette. Però ancora i nostri Sacerdoti per santa institutione, danno l'incenso nel santissimo Sacrificio della Messa, pregando Iddio, che come il fumo, & l'odore dell'incenso s'inalza; così s'inalzi l'orationi loro verso di lui. Et il toro di metallo, si prende per le cose create, & fatte, ò dalla natura, ò dall'arte, alle quali la cecità de i popoli, hà dato molte volte stoltamente quell'honore che à Dio solo era obligata di conseruare; dal che è nato il nome d'idololatria, che vuol dire adoratione di falsa Deità.
+[ЗАГОЛОВОК: INDVLGENTIA.]
+*Nelle Medaglie di Antonino Pio.*
+[ИНИЦИАЛ: V]NA donna à sedere, con vn bastone nella sinistra mano, quale tiene lontano vn puoco da se, & nella destra mano vna patera, ouero patena, che dir vogliamo distesa per porgere con essa qualche cosa.
+Tiene il bastone lontano, perche l'indulgentia allontana il rigore della Giustitia, e porge auanti la patena, per la liberalità che fa con possanza quasi Diuina.
+[ЗАГОЛОВОК: INDVLGENTIA.]
+*Nella Medaglia di Seuero.*
+[ИНИЦИАЛ: S]I dipinge Cibele torrita stando sopra d'vn leone, con la sinistra mano tiene vn'asta, & con la destra vn folgore, il quale mostri di non lanciarlo: ma di gittarlo via con lettere che dicono,
+*Indulgentia Augustorum.*
+[ЗАГОЛОВОК: INDVLGENTIA.]
+*Nella Medaglia di Gordiano.*
+[ИНИЦИАЛ: V]NA donna in mezo di vn leone, & d'vn toro, perche l'indulgentia adomestica gl'animali, & gl'animi feroci, ouero perche l'indulgentia addolcisce il rigore.
+
+Колонтитул: DI CESARE RIPA. 219
+Кустод: INFA-
+Сигнатура: O 4
+Маргиналии:
+
+## Скан 0241 · с. 220
+
+[ЗАГОЛОВОК: INFAMIA.]
+[ИНИЦИАЛ: D]ONNA brutta, e mal vestita, tenga le mani l'vna contro l'altra, con il dito di mezo d'ambe due le mani disteso, & con gl'altri tutti stretti, & raccolti.
+Brutta, e mal vestita si dipinge, perciòche bruttissima è veramente l'infamia, & accostandosi ella alla pouerta la rende brutta, & mendica, come dice Plauto in Persa con i seguenti versi.
+*Quamquam res nostræ sunt pater pauperculæ
+Modica, & Modestæ melius est tamen ita viuere*
+*Nam vbi ad paupertatem accessit infamia*
+*Grauior paupertas fit fides heblestior.*
+[ЗАГОЛОВОК: INFELICITA.]
+[ИНИЦИАЛ: D]ONNA pallida, & macilente, con il petto nudo, & le mammelle lunghe, & asciutte, tenghi in braccio vn fanciullo magro, mostrando dolore di non poterlo alimentare, per il mancamento di latte, & essendo senza la mano del braccio sinistro lo stenda in atto di pietosa compassione, hauendo il vestimento stracciato in molti luoghi.
+Con quanto si è detto, si dimostra, il mancamento de i beni della natura, & della Fortuna, da i quali la quiete, & tranquillità nostra dipende.
+[ЗАГОЛОВОК: INGEGNO.]
+[ИНИЦИАЛ: V]N giouane d'aspetto feroce, & ardito, farà nudo, hauerà in capo vn elmo, & per cimiero vn'Aquila à gl'homeri l'ali di diuersi colori.
+Terrà con la sinistra mano vn'arco, & con la destra vna frezza, stando con attentione in atto di tirare.
+Ingegno è quella potenza di spirito, che per natura rende l'homo pronto, e capace di tutte quelle scienze, ond'egli applica il volere, e l'opera.
+Giouane si dipinge, per dimostrare, che la potenza intellettiua non inuecchia mai.
+Si rappresenta con la testa armata, & in vista fiero, & ardito, per dimostrare, il vigore, & la forza.
+L'aquila per cimiero dinota la generosità, & sublimità sua; perciòche Pindaro paragona gli huomini di alto ingegno à questo vcello, hauendo egli la vista acutissima, & il volo di gran lunga superiore à gli altri animali volatili.
+Si dipinge nudo e con l'ali di diuersi colori, per significare la sua velocità, prontezza nel suo discorso, & la varietà dell'inuentioni.
+L'arco, e la frezza in atto di tirare, mostra l'inuestigatione, e l'acutezza.
+Et gl'Egittij, & Greci, per Hieroglifico dell'Ingegno, & della forza dell'intelligenza dipingeuano Hercole con l'arco in vna mano, & nell'altra vna frezza con tre punte, per dimostrare, che l'huomo con la forza, & acutezza dell'ingegno, va inuestigando le cose celesti, terrene, & inferne, ouero, le naturali, diuine, & matematiche, come riferisce Pierio Valeriano nell'aggiunta dell'Hieroglifici.
+
+Колонтитул: ICONOLOGIA 220
+Кустод: INGE-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0242 · с. 221
+
+[ГРАВЮРА: без подписи]
+[ЗАГОЛОВОК: IGNORANZA.]
+[ИНИЦИАЛ: D]ONNA con faccia carnosa, difforme, & cieca, in capo hauerà vna ghirlanda di Papauero, caminando scalza, in campo pieno di Pruni, & triboli, fuori di strada, vestita sontuosamente d'oro, & di gemme, & à canto vi farà per l'aria vn Pipistrello ouero vna Nottola.
+Per la presente figura, non si rappresenta il semplice non sapere, ma il vitio dell'ignoranza, che nasce dal dispreggio della scienza di quelle cose, che l'huomo, è tenuto d'imparare; & però si dipinge scalza, che camina liberamente fuor di via, & trà le spine; si fà senza occhi perche l'ignoranza è vno stupore, & vna cecità di mente nella quale l'huomo fonda vn'opinione di se stesso, & crede essere quello che non è in ogni cosa, ouero per le molte difficultà, che l'ignorante, trauiando dal dritto sentiero della
+
+Колонтитул: DI CESARE RIPA. INGEGNO. 221
+Кустод: virtù
+Сигнатура: 
+Маргиналии:
+
+## Скан 0243 · с. 222
+
+virtù per le male apprensioni dell'intelletto, troua nel viuere.
+Si dipinge presso il Pipistrello, ouero Nottola, perche, come dice Pierio Valeriano lib. 25. alla luce simiglia la sapienza, & alle tenebre; dalle quali non esce mai la Nottola ignoranza.
+L'ignoranza si fà poi brutta di faccia, perche, quanto nella natura humana il bello della sapienza riluce, tanto il brutto dell'ignoranza appare sozzo, & dispiaceuole.
+Il pomposo vestito, è trofeo dell'ignoranza, & molti s'industriano nel bel vestire, forse perche sotto i belli habiti del corpo si tenga sepolto, al meglio, che si può il cattiuo odore dell'ignoranza dell'anima.
+La ghirlanda di papauero, significa il miserabile sonno della mente ignorante.
+[ЗАГОЛОВОК: IGNORANZA]
+*in vn ricco senza lettere.*
+[ИНИЦИАЛ: H]VOMO à cauallo sopra vn Montone di colore d'oro, in mezo all'acque, è concetto, che l'Alciato hebbe da gl'Antichi, & in lingua nostra dice cosi
+*Sopra al ricco Monton varcando il Mare Col ignoranza sua si fà portare.*
+*Friso ci mostra vn huom, che dal suo senso [?]*
+*Ignoranza.*
+[ИНИЦИАЛ: D]onna, come di sopra si è detto, alla quale si potrà aggiungere, che la veste sia contesta di scaglie di pesce, le quali sono il vero simbolo dell'ignoranza, come si vede nel Pierio Valeriano lib. 31.
+La ragione è, perche il pesce è di sua natura stolido, & lontano da ogni capacità, eccetto il Delfino, & alcuni altri, che si raccontano per marauiglia, & come si scaglie con facilità, si leuano dal corpo de pesci, così con gli studij delle lettere si può leuare all'huomo il velo dell'ignoranza.
+*Ignoranza di tutte le cose.*
+[ИНИЦИАЛ: G]l'Antichi Egittij, per dimostrare vn'ignorante di tutte le cose, faceuano vna imagine col capo dell'asino, che guardasse la terra, perche al sole della virtù non s'alza mai l'occhio de gl'ignoranti, i quali sono nell'amor di se stessi, & delle cose proprie, molto più licentiosi de gl'altri, come questo animale più teneramente de gli altri ama i suoi parti, come dice Plinio al lib. 11. cap. 35.
+*Ignoranza.*
+[ИНИЦИАЛ: I]Gnoranza dipinta da Greci, come dice Tomasso Garzoni.
+Vn fanciullo nudo à cauallo sopra d'vn'asino, hà bendato gl'occhi, & tiene con vna mano vna canna.
+Fanciullo, & nudo, si dipinge, per dimostrare, che l'ignorante, è semplice, & di puerile ingegno, & nudo d'ogni bene.
+Si mette à cauallo sopra dell'asino, per esser detto animale priuo di ragione, & indocile, & molto simile à lui, come piace à Pierio Val. nel lib. 12. delle Hieroglifice.
+La benda, che li cuopre gli occhi, denota, che è cieco affatto dell'intelletto, & non sà, che si fare, & però disse Isidoro *Soliloquiorum* lib. 2. cap. 17.
+
+Колонтитул: ICONOLOGIA 222
+Кустод: Summa
+Сигнатура: 
+Маргиналии:
+
+## Скан 0244 · с. 223
+
+*Summa miseria est nescire quotendas*
+Se gli dà la Canna in mano per essere cosa fragile, & vana, & molto degna di lui, si come dice Pierio Val. lib. 57. delle Hieroglifiche.
+*Ignoranza come dipinta da l'Alciati, nelle sue Emblemi.*
+*Che mostro è questo Sfinge, perche serba*
+*Faccia di donna; è le sue membra veste*
+*Piuma d'Augello, è di lione hà i piedi*
+*Dinota l'ignoranza, che procede*
+*Dà trè cagioni, ò da intelletto lieue,*
+*O dà vaghezza de' piaceri mondani*
+*O da superbia, che virtù corrompe*
+*Ma l'huom che sà perch'egli è nato, à questa*
+*S'oppone, è vincitor felice viue.*
+[ЗАГОЛОВОК: IMITATIONE.]
+[ИНИЦИАЛ: D]ONNA, che nella mano destra, tiene vn mazzo di pennelli, nella sinistra vna maschera, & a' piedi vna scimia.
+L'imitatione, si vede in qual si voglia attione, ouero opera fatta ad alcun altra somigliante, & però si dipinge con vn mazzo di pennelli in mano, come istromenti dell'arte, imitatrice de' colori, & delle figure dalla natura prodotte, ò dall'arte istessa.
+La maschera, & la scimia, ci dimostrano l'imitatione dell'attioni humane; questa per essere animale, atto per imitare l'huomo co' suoi gesti; & quella, per imitar uelle Comedie, & fuori, l'apparenza, & il portamento di diuersi personaggi.
+[ЗАГОЛОВОК: IMMORTALITA.]
+[ИНИЦИАЛ: D]ONNA con l'ali alle spalle, & nella man destra vn cerchio d'oro.
+L'ali significano la solleuatione da terra, la quale non sostiene se non cose mortali.
+Il cerchio dell'oro, rappresenta l'immortalità, per essere trà tutti i metalli il men corrottibile, & per hauer la forma circolare, la quale non hà termine doue finisca.
+*Immortalità.*
+[ИНИЦИАЛ: D]Onna, vestita d'oro, la quale terrà la destra mano al fianco, & nella sinistra vna fenice.
+Già si è data la ragione dell'oro, la mano al fianco, nota stabilità, & fermezza.
+La Fenice, per rinouarsi dalle sue proprie ceneri, abbrugiate perpetuamente, come è commune opinione, è inditio dell'immortalità medesima, la quale è vna eternità col rispetto solo del tempo da venire.
+[ЗАГОЛОВОК: IMMVTATIONE.]
+[ИНИЦИАЛ: D]ONNA armata, vestita di cangiante, al fianco sinistro porta vna spada, & con ambedue le mani squarcia vn panno di lino.
+L'intelligenza di questa figura hà bisogno di lungo discorso, il quale lasciando in gran parte alla sottigliezza de belli ingegni, dirò solo, che si dipinge dōna armata, per dimostrare, che la mutatione, alla quale sono soggette tutte le cose create, per se stessa è forte, & si conserua sotto all'armature, cioè sotto al mouimento de' Cieli, che essendo di diuersa, & più salda materia di essa, sono cagione del suo moto, poi del calore, poi della generatione, & corruttione, che à vicenda procedono, secondo la dottrina d'Aristotile, & la conseruano in questo modo.
+
+Колонтитул: DI CESARE RIPA. 223
+Кустод: Il lino
+Сигнатура: 
+Маргиналии:
+
+## Скан 0245 · с. 224
+
+Il lino è posto da Poeti per lo fato, dandosi alle Parche, & gl'interpreti di Teocrito, rendendone la ragione, dicono, che come il lino nasce nella Terra, & quindi à poco tempo cui si corrompe, così l'huomo della terra medesimamente nato in essa per necessità di natura si risolue.
+Le mani, che, tirando in contrario luogo, squarciano il panno, sono le contrarie qualità, che in vigore del moto de' Cieli distruggono, & moltiplicano le cose terrene: & si nota la moltiplicatione nelle due parti del panno.
+[ЗАГОЛОВОК: IMPASSIBILITA.]
+[ИНИЦИАЛ: Q]VESTA è vna delle principali doti del corpo glorificato, come scriuono i sacri Theologi. Però si dipinge ignuda, & bella, che stia co' piedi eleuati sopra i quattro Elementi fuori delle cose corrottibili.
+[ЗАГОЛОВОК: IMPERFETTIONE.]
+[ИНИЦИАЛ: D]ONNA, vestita di colore giallolino; in ambedue le mani tenga delle Rane, con vn Orsa à canto, la quale con la lingua dia perfettione al suo parto.
+Il color del giallolino si scopre in molte cose imperfette, al tempo, che s'incominciano à corrompere. Però si prende in questo significato.
+Le Rane parimente, come animali, che si generano di putredine, sono da Oro Apolline per l'imperfettione assegnate. Imperfetto è ancora il parto dell'Orsa, per essere solo vn pezzo di carne senza forma d'animale, mà con la lingua, per continua diligenza prende poi la sua forma, come ogni nostra attione nel principio imperfetta, se non manca la diligenza, in virtù del buon principio si compie.
+[ЗАГОЛОВОК: IMPIETA.]
+[ИНИЦИАЛ: D]ONNA vestita del colore del verderame, farà in vista crudele, terrà nel braccio sinistro l'ippopotamo, & con la destra mano vna facella accesa riuolta in giù, con la quale abbrugia vn Pellicano co' suoi figli: che faranno in terra.
+L'impietà, è vitio contrario alla pietà, non pure alla giustitia, & si esercita in danno di se stesso, della Patria di Padre, & di Madre, & si rappresenta vestita di colore di verderame, che è indicio di natura maligna, & nociua, la quale si ritroua in coloro, che drizzano le proprie operationi à danno de benefattori.
+Nel sinistro braccio tiene l'Ippopotamo; perche come esso, quando è cresciuto in età, per desiderio di congiungersi con la madre, vccide il proprio genitore, che gli fà resistenza, così l'empio per secondare i suoi sfrenati appetiti, condescende sceleratamente alla ruina de' suoi maggiori, & benefattori.
+Tiene nella destra mano vna facella accesa, abbrugiando il Pellicano; perche l'operationi dell'empio, non sono volte altroue, che al distruggimento della Carità, & Pietà, la quale assai bene per lo significato del Pellicano, si dichiara come racconta il Ruscello, nel secondo libro delle sue impre se, & noi diremo più diffusamente in altra occasione.
+
+Колонтитул: ICONOLOGIA 224
+Кустод: IM-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0246 · с. 225
+
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: D]ONNA che passi co' piedi sopra vn Granchio grande, fatto come quello, che si dipinge nel Zodiaco; sia vestita di color torchino, & in mano tenga la luna.
+Il Granchio è animale, che camina inanzi, & in dietro, con eguale dispositione, come fanno quelli che essendo irresoluti, hor lodano la cōtemplatione, hora l'attione, hora la guerra, hora la pace, hor la scienza, hor l'ignoranza, hor la conuersatione, & hora la solitudine, acciòche non resti cosa alcuna intentata al biasmo, nato, & nudrito nelle loro lingue, & all'incostanza, disseminata in tutto quello che fanno: Questa sorte di huomini è molto dannata da Gionanni Scholastico, anzi da Christo nostro Signore; con l'essempio di quel che pone le mani all'aratro, & si pente.
+Il vestimento torchino, è posto per la similitudine dell'onde marine,
+
+Колонтитул: DI CESARE RIPA. INCOSTANZA. 225
+Кустод: le qua-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0247 · с. 226
+
+le quali sono inconstantissime, & di tempo in tempo pateno alteratione, come si vede.
+La Luna medesimamente, è mutabilissima, per quanto ne giudicano gl'occhi nostri; però si dice, che lo stolto si cangia come la Luna, che non stà mai vn'hora nel medesimo modo; Vi si può ancora dipingere vna Nottola la quale vola irresolutissima, hor da vna banda, hor dall'altra, come dice Basilio *de const. monast.*
+[ЗАГОЛОВОК: INCOSTANZA.]
+Vedi Instabilità
+[ЗАГОЛОВОК: INDITIO D'AMORE.]
+Vedi à giuditio d'Amore.
+[ЗАГОЛОВОК: INDVSTRIA.]
+[ИНИЦИАЛ: D]ONNA giouane, & ignuda con l'elmo in capo, & hauendo intorno al braccio sinistro riuolto vn manto bianco, dipinto di verde frondi, vi sia scritto per motto nel lembo: Proprio Marte; nella mano destra terrà vna spada ignuda, dimostrandosi ardita, & pronta, à combattere.
+L'Industria è parte del valore; & però l'imagine sua, alla imagine di esso si assomiglia,
+Si dipinge ignuda, per dimostrare, che ella per lo più nasce da bisogni, & dalle scommodità.
+Tien l'elmo in capo, percioche la principal parte sua, è l'ingegno, & la prudenza, che la tiene fortificata; stà con la spada ignuda prontamente per combattere; perche industria è star desto, saperli difendere con auantaggio, ne' duelli della Fortuna.
+Il manto bianco, dipinto à verde frondi, è la speranza fondata nella candidezza de costumi, & della dritta intentione, non potendo essere industria lodeuole, se non doue il fine dell'efficacia, & sagacità humana sia reale, honesto, & virtuoso: si conosce ancora per questa figura che l'industria consiste in prouedersi del bene, co' commodi, & in liberarsi dal male co' pericoli; però gran vantaggio nella vita politica si stimano hauere coloro, che per propria virtù, con la cappa, & con la spada, si sono acquistati la fama vniuersale de gl'huomini, & qualche commodità da mantenersene in pace.
+*Industria.*
+[ИНИЦИАЛ: D]Onna con vestimento trapunto, & ricamato con molto artifitio; nella destra tenga vn sciamo d'Api, l'altra mano sia posata sopra vn argano, di quelli che si adoprano per mouere i pesi; sia scalza, hauendo in capo vna statuetta di Pluto.
+Il vestimento, lo sciamo, & l'argano danno facilmente cognitione di questa figura, & la statua di Pluto, tenuto da' Gentili, Dio delle ricchezze, dimostra, che queste sono principale oggetto dell'Industria dell'huomo: I piedi nudi sono segno, che l'Industria non discerne, se non quanto abbraccia l'vtile; nè si alza à fine di cosa più nobile, & però così ignudo si posa il piede sopra alla Terra.
+
+Колонтитул: ICONOLOGIA 226
+Кустод: Indu-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0248 · с. 227
+
+*Industria.*
+[ИНИЦИАЛ: D]Onna, che nella destra mano tiene vno scettro, in cima del quale è vna mano aperta, & in mezo di essa vn occhio; al fine della mano, & dello scettro, vi sono due alette, simili à quelle del Caduceo.
+Lo scettro è segno di grandezza, & di prontezza, la mano d'industria, & d'artifitio, però questa sostentandosi sopra di quello, dà inditio che i Prencipi, & quei che dominano à gli altri, alzano da terra l'industria humana quando li piace.
+E opinione di Artemidoro, che le mani significhino artifitio, conforme all'vso de gl'Egittij, perche quasi tutte l'arti con l'aiuto delle mani si mettono in opera.
+L'occhio dimostra, la Prudenza, per la quale l'Industria si deue reggere; & l'ali che significano velocità accrescono in parte, i meriti dell'industria.
+*Industria.*
+[ИНИЦИАЛ: N]Ell'imagine di Mercurio, che nella destra tiene il Caduceo, & con la sinistra vn Flauto; gli Antichi figurarono, le due cagioni, che generano l'industria, cioè l'vtile per se, & il diletto per altri, quello si mostra nel Caduceo col quale fingono i Poeti, che Mercurio suscitasse gl'huomini già morti, questo col Flauto istrumento atto per adolcire gl'animi, & sminuir le molestie.
+[ЗАГОЛОВОК: INFAMIA.]
+[ИНИЦИАЛ: D]ONNA brutta con l'ali negre alle spalle, & ricoperta di piume di vcello Ardiolo infino alla cintola, & dalla cintola in giù farà vestita d'vna trauersina di giallolino fregiata del colore del verderame, mà stracciata, & in braccio terrà l'Ibis vcello.
+L'Infamia è il concetto cattiuo, che si hà delle persone, di mala vita; però si dipinge con l'ali nere, notandosi, che il suo è volo di fama, mà infelice, & cattiuo.
+Le piume dell'vcello detto mostrano, che l'infamia nasce in gran parte dall'incostanza; perche questa è indicio di pazzia, & si vede in questo vcello, che è incostantissimo, Però Martiale dimandò Ardiolo, vno che andaua da vna all'altra attione senza far cosa buona.
+Il color giallo, & il verderame si adoprano per l'inganno, & per l'infamia vniuersalmente, & ancora l'vcello Ibis, il quale è sordidissimo, come scriuono alcuni, & si adopra in simil proposito; & come la veste stracciata infama gli huomini appresso al volgo; così i vitij dell'anima tolgono il credito presso a' sapienti, & rendono l'huomo dispiaceuole à Dio doue principalmente, si sostenta la nostra bona fama.
+*Infamia.*
+[ИНИЦИАЛ: D]Onna ignuda, & leprosa, per tutta la vita, con l'ali nere, con capelli sparsi, in atto di sonare vn corno, habbia scritto nella fronte la parola TVRPE & si scuopra vn fianco con vna mano.
+La lepra nell'antico testamento era figura del peccato, il quale genera principalmente l'infamia.
+Il corno che sona, mostra, che la sua è notitia infelice presso à gli huomini, come questo è sono rozzo & ignobile.
+
+Колонтитул: DI CESARE RIPA. 227
+Кустод: Il mot-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0249 · с. 228
+
+Il motto scritto in fronte ci dichiara, che l'infamia, da tutti è meglio veduta, che da quelli che la portano à dosso, però volontariamente si scuopre il fianco, sciogliendo il freno a' vitij senza vedere, ò pensare il dannoso successo della propria riputatione.
+[ЗАГОЛОВОК: INFERMITA.]
+[ИНИЦИАЛ: D]ONNA pallida, & magra, con vn ramo d'Anemone in mano, & vna ghirlanda della medesima herba; perche scriue, Oro Egittio ne' suoi Hieroglifici, che gl'Antichi per quest'herba significauano la malatia, & è quella, nella qual fingono i Poeti essersi tramutato Adone, drudo di Venere, essendo al Cignale amazzato, come racconta Teocrito, fà il fior purpureo, & bello, mà poco dura il fiore, & l'herba, & forse per questo significa l'infermità.
+[ЗАГОЛОВОК: INFORTVNIO.]
+[ИНИЦИАЛ: H]VOMO con vna vesta di Taneto scuro, & dipinta di rouine di case, le giunga fino al ginocchio, con le braccia, le gambe, & i piedi nudi, senza cosa alcuna in capo, nella destra tenga vn Cornucopia riuolto verso la terra, che sia voto, & nella sinistra vn Coruo.
+L'Infortunio, come si raccoglie d'Aristotele è vn euente contrario al bene, che l'huomo per conseguire s'adopraua, & però si dipinge la veste sparsa di rouine con le braccia ignude.
+Il Cornucopia riuolto, & i piedi scalzi, dimostrano la priuatione del bene, & d'ogni contento: & il coruo non per esser vcello di mal augurio, mà per esser celebrato per tale da Poeti, ci può seruire per segno dell'infortunio: si come spesse volte, vn tristo auuenimento è presaggio di qualche maggior male soprastante, & si deue credere, che vengano gl'infelici successi, & le ruine per Diuina permissione, come gli Auguri antichi credeuano, che i loro augurij fussero inditio della volontà di Gioue. Quindi siamo ammoniti à riuolgerci dal torto sentiero dell'attioni cattiue, al sicuro della virtù, con la quale si placa l'ira di Dio, & cessano gl'infortunij.
+[ЗАГОЛОВОК: INGANNO.]
+[ИНИЦИАЛ: H]VOMO vestito d'oro, & dal mezo in giù finiranno le sue gambe in due code di serpente, à canto hauerà vna Pantera, con la testa frà le gambe. Ingannare è il far cosa spiaceuole ad alcuno, sotto contraria apparenza: però hà imagine di sembiante humano, & vestito d'oro, mà finisce in coda di serpente, mostrando in prima faccia l'ingannatore bontà, & cortesia, per allettare i semplici, & inuilupparli nell'orditura delle proprie insidie, come la Pantera, che occultando il capo, & mostrando il dosso, alletta con la bellezza della pelle varie fiere, le quali poi con subito empito prende, & diuora.
+*Inganno.*
+[ИНИЦИАЛ: D]Onna, con vna maschera di bellissima giouane, & riccamente ornata, & sotto si scuopra parte del viso di vecchia molto difforme, e canuta. In vna mano tiene vn vaso, che mesce dell'acqua, & con l'altra in quel cambio sporge vn vaso di fuoco. La sua veste sarà dipinta à maschere di più sorti, perche in ogni occasione l'huomo, che per habito, ò per natura procede doppiamente, la sua fraude, & l'inganno apparecchia.
+
+Колонтитул: ICONOLOGIA 228
+Кустод: INGAN-
+Сигнатура: 
+Маргиналии:

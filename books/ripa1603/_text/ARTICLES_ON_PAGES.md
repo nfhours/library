@@ -182,3 +182,23 @@
 | 0227 | HORA SECONDA.; HORA TERZA. |  |  | — | нет рамки |
 | 0228 | HORA QVARTA.; HORA QVINTA.; HORA SESTA. |  |  | — | нет рамки |
 | 0229 | HORA SETTIMA.; HORA OTTAVA. |  |  | — | нет рамки |
+| 0230 | HORA NONA.; HORA DECIMA.; HORA VNDECIMA.; HORA DVODECIMA. |  |  | — | нет рамки |
+| 0231 | HORE DELLA NOTTE.; HORA PRIMA.; HORA SECONDA. |  |  | r298 | нет рамки |
+| 0232 | HORA TERZA.; HORA QVARTA. |  |  | — | нет рамки |
+| 0233 | HORA QVINTA.; HORA SESTA.; HORA SETTIMA. |  |  | — | нет рамки |
+| 0234 | HORA OTTAVA.; HORA NONA.; HORA DECIMA.; HORA VNDECIMA.; HORA DVODECIMA. |  |  | — | нет рамки |
+| 0235 | HVMILTA.; Humiltà.; Humiltà.; Humiltà. |  |  | r299 | нет рамки |
+| 0236 |  |  | 0236_1 | — | заголовки страницы (неоднозначно) |
+| 0237 | HVMANITA.; Humanità.; HERESIA. |  |  | r300, r301 | нет рамки |
+| 0238 | HERESIA.] [ГРАВЮРА: без подписи |  | 0238_1 | r301 | заголовки страницы (неоднозначно) |
+| 0239 | HISTORIA.; HISTORIA.; IATTANZA. |  |  | r302, r303 | нет рамки |
+| 0240 | IDOLOLATRIA.; INDVLGENTIA.; INDVLGENTIA.; INDVLGENTIA. |  |  | r304, r305 | нет рамки |
+| 0241 | INFAMIA.; INFELICITA.; INGEGNO. |  |  | r306, r307, r308 | нет рамки |
+| 0242 | IGNORANZA. |  | 0242_1 | r309 | заголовки страницы (неоднозначно) |
+| 0243 | IGNORANZA |  |  | r309 | нет рамки |
+| 0244 | IMITATIONE.; IMMORTALITA.; IMMVTATIONE. |  |  | r312, r313, r314 | нет рамки |
+| 0245 | IMPASSIBILITA.; IMPERFETTIONE.; IMPIETA. |  |  | r315, r316, r317 | нет рамки |
+| 0246 |  |  | 0246_1 | — | заголовки страницы (неоднозначно) |
+| 0247 | INCOSTANZA.; INDITIO D'AMORE.; INDVSTRIA. |  |  | r318, r319, r320 | нет рамки |
+| 0248 | INFAMIA. |  |  | r306 | нет рамки |
+| 0249 | INFERMITA.; INFORTVNIO.; INGANNO. |  |  | r321, r322, r323 | нет рамки |
