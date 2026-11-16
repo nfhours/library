@@ -402,3 +402,23 @@
 | 0447 | Ragione.; Ragione.; RAGIONE DI STATO. |  |  | r528, r529 | нет рамки |
 | 0448 | RAGIONE DI STATO. |  | 0448_1 | r529 | заголовок перед гравюрой |
 | 0449 | RAMMARICO DEL BENE ALTRVI.; Rammarico.; RAPINA. |  |  | r530, r531 | нет рамки |
+| 0450 | REALTÀ.; Regalità.; RELIGIONE.; RELIGIONE VERA CHRISTIANA. |  |  | r532, r533, r534, r536, r535 | нет рамки |
+| 0451 | RELIGIONE. |  | 0451_1 | r534, r536 | заголовок перед гравюрой |
+| 0452 |  |  |  | — | нет рамки |
+| 0453 | Religione.; Religione.; RELIGIONE FINTA. |  |  | r534, r536, r537 | нет рамки |
+| 0454 | Restitutione.; Resurrettione.; RESVRRETTIONE.; RETTORICA.; Rettorica. |  |  | r538, r539, r540 | нет рамки |
+| 0455 | RICCHEZZA.; Ricchezza.; RIGORE.; RIPRENSIONE. |  |  | r541, r542, r543 | нет рамки |
+| 0456 | RIFORMA. |  | 0456_1 | r544 | заголовок перед гравюрой |
+| 0457 | EPIGRAMMA.; RIFORMA. |  |  | r544 | нет рамки |
+| 0458 | RISO.; Riso.; Riso. |  |  | r545 | нет рамки |
+| 0459 | RVMORE.; SALVTE DI PAVSANIA. |  | 0459_1 | r546 | заголовок перед гравюрой |
+| 0460 | SALVTE. |  |  | r547 | нет рамки |
+| 0461 | SANITA'.; SAPIENZA. |  |  | r548, r549 | нет рамки |
+| 0462 | SAPIENZA. |  |  | r549 | нет рамки |
+| 0463 | SAPIENZA VERA. |  |  | r551 | нет рамки |
+| 0464 | SCELERATEZZA, O VITIO. |  |  | r552 | нет рамки |
+| 0465 | SCIENZA. |  |  | r553 | нет рамки |
+| 0466 | SCIOCCHEZZA.; SCOLTVRA. |  |  | r554, r555 | нет рамки |
+| 0467 | SCORNO.; SDEGNO.; SECRETEZZA. |  |  | r556, r557, r558 | нет рамки |
+| 0468 | SECOLO.; SENTIMENTI.; VISO.; VDITO. |  |  | r559, r560, r561, r562 | нет рамки |
+| 0469 | ODORATO.; GVSTO.; TATTO.; SENSO. |  |  | r563, r564, r565, r566 | нет рамки |

@@ -9235,3 +9235,582 @@ Non è altro la rapina,secondo S.Tomaso secunda secundæ q.66. art. 8. che vn to
 Кустод: Raptas
 Сигнатура: 
 Маргиналии:
+
+## Скан 0450 · с. 429
+
+Raptas sine more Sabinas.
+Il Nipio è rapacissimo vccello, come è noto à ciascuno, & perche sempre viue con l'altrui, rappresenta la Rapina.
+Proserpina in mezzo allo Scudo in braccio à Plutone, significa questo medesimo, come anco il Lupo, come dimostra Tibullo eleg. prima.
+At vos, exiguo pecori, furesq; Lupique
+Parcite, de magno est preda petenda grege
+[ЗАГОЛОВОК: REALTÀ.]
+[ИНИЦИАЛ: D]ONNA, che aprendosi il petto, mostri il core; perche all'hora si dice vn'huomo reale, quando hà le medesime cose nell'opre,& nella lingua, le quali porta nel core,& nell'intentione.
+[ЗАГОЛОВОК: Regalità.]
+[ИНИЦИАЛ: D]Onna giouane, allegra, la quale stia in atto gratioso di porgere con la destra mano vna coppa d'oro, & à canto vi sia vn'Aquila.
+Si dipinge giouane,& che porghi la coppa d'oro nella guisa che dicemmo,percioche è proprio de i giouani di donare,& regalare altrui,per hauer loro l'animo grande, & generoso, come anco dimostra questo istesso l'Aquila, per essere fra gli vccelli magnanimo,& liberale.
+[ЗАГОЛОВОК: RELIGIONE.]
+[ИНИЦИАЛ: D]ONNA vestita d'vn Camiscio, Stola, & Piuiale, starà sopra d'vna pietra quadrata come habbiamo detto in altre figure della Religione, terrà con la sinistra mano, con bella gratia, vn bellissimo Tempio, & per terra vi sarà vna Cicogna con vna serpe in bocca.
+[ЗАГОЛОВОК: RELIGIONE VERA CHRISTIANA.]
+[ИНИЦИАЛ: D]ONNA di bello aspetto, circondata intorno intorno di splendenti raggi, hauerà il petto bianco, & scoperto,& alle spalle l'ali, sarà vestita con vna veste stracciata,e vile, gli starà vna Croce à lato, terrà nella man dritta alzata verso il cielo vn Libro aperto in modo, che paia vi si specchi, nel quale sia scritto, *Diliges Dominum Deum tuum ex toto corde tuo, & ex tota anima tua, & ex omnibus viribus tuis. Hoc est primum, & maximum mandatum, secundum autem simile huic. Diliges proximum sicut te ipsum. In his duobus mandatis tota lex pendet, & Prophetæ*. Starà appoggiata con la man sinistra in modo, che paia si riposi sopra la banda dritta del tronco trauerso della croce, & dalla banda sinistra di detto tronco, penderà vn freno, & calcarà con li piedi vna morte in terra quiui prostrata, in modo, che sia la Caluaria di essa al piede della Croce. Alla significatione di detta figura, perche tanto bene, & cosi facilmente è stata stesa,& dichiarata da vn bell'ingegno nell'epigramma sequente, non occorre, che vi aggionga altra espositione
+Quænam tam lacero vestita incedis amictu ?
+Religio summi vera [?] soboles.
+Cur vestitu vilis ? opes contemno caducas
+Quis liber hic ? Patris lex veneranda mei.
+Cur nduum pectus ? decet hoc candoris amicum .
+
+Колонтитул: DI CESARE RIPA. 429
+Кустод: Cur
+Сигнатура: 
+Маргиналии:
+
+## Скан 0451 · с. 430
+
+Cur innixa Cruci ? Crux mihi grata quies.
+Cur alata ? homines doceo super astra volare
+Cur radians ? mentis discutio tenebras
+Quid docet hoc frænum ? mentis cohibere furores
+Cur tibi mors præmitur ? mors quia mortis ego.
+[ЗАГОЛОВОК: RELIGIONE.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: D]ONNA alla quale, vn sottil velo cuopra il viso,tenga nella destra mano vn Libro, & vna Croce, con la sinistra vna fiamma di fuoco, & appresso detta figura sia vn'Elefante.
+Secondo la diffinitione di S.Tomaso nella 2. della 2. parte,alla quest.71 & art.7. & alla quest.84. art.2. & gl'altri Scolastici, è virtù morale, per la quale l'huomo porta honore, & riuerenza interiormente nell'animo, & esteriormente col corpo al vero Dio. E' anco ne gli huomini talmente
+
+Колонтитул: 430 ICONOLOGIA
+Кустод: inserta
+Сигнатура: 
+Маргиналии:
+
+## Скан 0452 · с. 431
+
+inserta da natura la religione,che come dice Aristotile per quella più,che per essere ragioneuole, sono differenti da brutti animali, vedendosi ciò chiaramente da questo,che ne'pericoli improuisi, senz'altra deliberatione, ci volgiamo à chiamare il diuino aiuto.
+Si li fà velato il viso, perche la religione ne gli huomini riguarda Dio, come dice S.Paolo *per speculum in ænigmate*, essendo eglino legati à questi sensi corporei; & perche la religione è stata sempre segreta, conseruandosi in misterij, che sono figure, riti, & cerimonie, come sotto certi velami ascosa.
+La Croce, ò ne significhi Christo N. S. crocifisso, ò cosa d'esso Christo, è gloriosa insegna della religione Christiana,à quale i Christiani portono somma veneratione, riconoscendo per quella il singolar beneficio della redention loro.
+Il Libro, ne dà ad intendere le diuine Scritture, reuelationi,& traditioni, delle quali vien formata ne gli animi la religione.
+Il fuoco, significa la deuotione della pura, & sincera nostra mente tendente verso Dio, il che è proprio della religione.
+Gli si dipinge à lato l'Elefante, per essere più d'ogn'altro animale religioso,come si dirà : Narra Plinio nel lib.8. al cap.1. che questo animale è raro in bontà, prudente, amator dell'equità,e humano, percioche incontrando l'huomo à caso ne' deserti,che habbia smarrito il camino, tutto amoreuole,& mansueto gli mostra la via ; è discretto, perche come dice l'istesso Plinio, occorrendoli di passare frà armenti si scanza tanto destramente,per non far lor male, che eglino medesimi non se ne auedono .
+Ma quel che fà più à nostro proposito, è questo raro animale il Hieroglifico della Religione; raccontando pur esso Plinio al luogo citato , che egli hà in veneratione il Sole,& le Stelle,& apparendo la noua Luna,spontaneamente và à lauarsi in acqua di viuo fiume , & amalandosi chiama aiuto dal Cielo, buttando verso il cielo dell'herbe, come mezzi, per intercedere gratia di sanità . Il che tutto vien confirmato da Pierio Valeriano, & altri Autori, & il Sannazaro nella sua Arcadia,cosi dice.
+Dimmi qual fera , è si di mente humana ,
+Che s'inginocchia al raggio della Luna ,
+Et per purgarsi scende alla fontana ?
+Onde vedendo io tante rare qualità in questo nobilissimo animale, non poco piacere, & sodisfattione hò preso, considerando, che tal figura è propria insegna dell'Illustrissimo Cardinal Montelparo mio Signore, per vedere,che singolarmente conuengono in S.S. Illustrissima le sudette qualità di Religione, Prudenza, Giustitia, & Mansuetudine, che con rarissimo essempio risplendono nella Persona d'esso Sig. Cardinale ; in modo, che non pure l'hanno reso degno del grado del Cardinalato, ma lo fanno anco dignisimo di maggior honore, & esaltatione, come viene per i suoi gran meriti da tutto il mondo desiderato.
+
+Колонтитул: DI CESARE RIPA. 431
+Кустод: Religio-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0453 · с. 432
+
+[ЗАГОЛОВОК: Religione.]
+[ИНИЦИАЛ: M]Atrona, d'aspetto venerabile,vestita di panno lino bianco; terrà la destra mano aperta, & la sinistra sopra vn'altare, nel quale arderà vna fiamma di fuoco.
+Il fuoco sopra l'altare, è stato in vso di sacrificio presso à molte,& antichissime nationi fino alla venuta di Christo, il quale placò l'ira di Dio,nõ col sangue de Tori,ò de gl'Agnelli, mà con sè stesso, & con la sua propria carne, & col proprio sangue, il quale miracolosamente si cela per salute nostra sotto specie di Pane,& di Vino nel santissimo Sacramento dell'Eucharistia. Et si vede questa figura con la mano aperta, & con l'altare in vna Megaglia antica di Elio Antonino.
+Vestesi di panno di lino bianco,per mostrare la candidezza,che si ricerca in materia di religione,& però gl'Egittij nõ voleuano,che ne'loro Tempij si portassero panni di lana, anzi ancora i morti sepelliuano con panni di lino, mostrando cosi la religione,& purità di essi. Et Plutarco nel lib. d'Iside,& Osiride, dice,che à Dio non si conuiene cosa alcuna, che non sia pura, & candida, & perche il panno lino bianco si purga, & netta più de gl'altri, giudicorno gli Egittij, che fosse più conueneuole à Sacerdoti, & alle cose di Religione,che ciascun'altra sorte di panno,ò di drappo.
+[ЗАГОЛОВОК: Religione.]
+[ИНИЦИАЛ: D]Onna di maestà, & di grauità, vestita con manto ricco fatto à vso di Piuiale,hauerà velata la testa,sopra la quale lo Spirito santo risplenda con la luce de suoi raggi in forma di Colomba. Starà detta figura sopra vna pietra riquadrata, che dinota Christo Signor nostro, il quale è la vera pietra angulare,che disse il Profeta riprouata da gli Edificatori della vecchia Legge,& è per esser posta poi nel principal cantone della sua santa Chiesa ; non è alcuno , che possa porui altro fondamento , come disse S.Paolo .
+Hà questa figura da vna banda vn fanciullo con le tauole di Mosè, con alcune rose,& alcuni rami secchi,per mostrare le passate cerimonie de sacrificij antichi , & dall' altra banda sarà vn'altro fanciullo, che sostiene il libro de Vangelij, perche in Christo terminorono tutte le profetie,& cerimonie della vecchia legge .
+Tiene ella nella sinistra mano la verga del Sacerdote Aron, & nella destra le chiaui della Potestà Ecclesiastica, per aprire , & serrare il Cielo, à gli huomini conforme à loro meriti. Dunque da questo vero , & viuo ritratto, è nata la nostra santa , & vera Religione modello di salute , fabricato da santi Dottori sopra le pietre riquadrate da quattro Euangelisti Scrittori della Legge piena di Spirito santo, di Religione, di fuoco,d'amore, & di carità .
+[ЗАГОЛОВОК: RELIGIONE FINTA.]
+[ИНИЦИАЛ: D]ONNA con habito graue, e lungo, à sedere in vna Sedia d'oro,sopra vn'Hidra di sette capi, hauendo detta Donna vna corona in testa piena di gioie risplendenti con molti ornamenti di veli, & d'oro, nella destra
+
+Колонтитул: 432 ICONOLOGIA
+Кустод: destra
+Сигнатура: 
+Маргиналии:
+
+## Скан 0454 · с. 433
+
+destra mano hà vna tazza d'oro con vn serpe dentro . Inanzi à lei sono molti inginocchiati in atto di adorarla,& alcuni ne sono morti per terra; perche i falsi ammaestramenti de gli empij allettano con qualche apparenza di piacere, ò di finta commodità terrena, ma al fine preparano l'Inferno nell'altra vita, & le calamità nella presente , che per secreti giuditij di Dio,vengono in tempo non aspettato .
+[ЗАГОЛОВОК: Restitutione.]
+[ИНИЦИАЛ: D]Onna la quale conta danari con la man destra sopra la sinistra sua, & à canto vi sarà vna cassa, & vn sacchetto di danari.
+Il contare i danari d'vna mano nell'altra, ci dimostra, che vno , che fà restitutione della robba non sua, non si priua di cosa alcuna, anzi moltiplica in sè stesso le facultà, disponendo cosi il Creditore ad esser liberale verso di se; ouero mostra che la restitutione deue esser libera, & la deue fare ciascuno da sè stesso, senz'altra mezzanità .
+La cassa, & il sacchetto, ci danno segno, che tanto il poco quanto l'assai, si deue restituire à proprij Padroni.
+[ЗАГОЛОВОК: Resurrettione.]
+[ИНИЦИАЛ: D]Onna ignuda, che esca fuora d'vna sepoltura.
+[ЗАГОЛОВОК: RESVRRETTIONE.]
+[ИНИЦИАЛ: D]ONNA ignuda ,che à trauerso habbia vn velo, & con la sinistra tenga vna Fenice, la quale per opinione d'alcuni Scrittori, è vccello che si troua nell'Arabia, oue se ne stà senza compagnia della sua spetie,& quando è vecchia, per lunga età, accende il fuoco con l'ali al calor del Sole,& abbrugia ,poi dalle sue ceneri ne nasce vn'ouo,& da questo ella risorge giouane à viuere vn'altra volta, per far l'istesso alla vecchiaia,& è molto bene questa attione celebrata da Latantio Firmiano .
+[ЗАГОЛОВОК: RETTORICA.]
+[ИНИЦИАЛ: D]ONNA bella, vestita riccamente, con nobile acconciatura di testa,mostrandosi allegra , & piaceuole, nella mano destra terrà vno Scettro, & nella sinistra vn Libro, portando nel lembo della veste scritte queste parole . *Ornatus persuasiq;* ; & il color del viso sarà, robicondo .
+Non è huomo sì rustico, & sì seluaggio,che non senta la dolcezza d'vn' artificioso ragionamento in bocca di persona faconda , che si sforza persuadere qualche cosa, però si dipinge bella, nobile, & piaceuole .
+Il Libro dimostra ,che quest'arte s'impara con lo studio, per non hauersi da alcuno in perfettione per dono di natura .
+Le parole , *Ornatus & persuasio* , insegnano l'offitio del Rettorico, ch'è d'instruire altrui à parlare conuenientemente per persuadere .
+Lo Scettro , è per segno , che la Rettorica , è regina de gli animi, & gli sprona, raffrena, & piega in quel modo,che più gli piace .
+[ЗАГОЛОВОК: Rettorica.]
+[ИНИЦИАЛ: D]Onna con la mano destra aperta, & stesa, & con la sinistra serrata, & raccolta ; alludendosi alla sentenza di Zenone Filosofo raccontata in altro luogo.
+
+Колонтитул: DI CESARE RIPA. 433
+Кустод: RIC-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0455 · с. 434
+
+[ЗАГОЛОВОК: RICCHEZZA.]
+[ИНИЦИАЛ: D]ONNA vecchia, cieca, & vestita di panno d'oro . Cieca dipinge Aristofane la Ricchezza nella Comedia intitolata Pluto,perche per lo più se ne và in casa d'huomini poco meriteuoli,à quali se hauessi occhi, che le seruissero, non si auuicinarebbe giamai ; ouero perche fa gli huomini ciechi alla cognitione del bene, con vn finto raggio , che appresenta loro de commodi, & de piaceri mondani, senza lasciar loro veder la vera luce della virtù, se per particolar gratia non è superata la sua inclinatione .
+Si dipinge vecchia, perche inuecchia alcuni col pensiero d'acquistarla; altri col timore di non perderla hauendone il possesso.
+Il vestimento dell'oro, mostra , che le ricchezze sono beni esteriori, & che non fanno all'interna quiete, & al riposo dell'huomo .
+[ЗАГОЛОВОК: Ricchezza.]
+[ИНИЦИАЛ: D]Onna in habito regale riccamato con diuerse gioie di gran stima, che nella man destra tenga vna corona Imperiale, & nella sinistra vno Scettro, & vn vaso d'oro à piedi .
+Ricchezza è possessione d'oro, d'argento, gioie, Stati, terreni, edificij, giumenti, serui, vestimenti, &c.
+La corona in mano, lo Scettro, & il vaso à piedi, mostrano , che la prima, & principal ricchezza, è possedere la volontà de gli huomini , come fanno i Re ; la seconda, è il danaro .
+[ЗАГОЛОВОК: RIGORE.]
+[ИНИЦИАЛ: H]VOMO rigido, & spauenteuole , che nella destra tiene vna bacchetta di ferro, & à canto vno Struzzo .
+Si deue dipingere quest'huomo rigido, & spauenteuole, essendo il rigore sempre dispiaceuole , & solito ad indur timore ne gli animi de sudditi . Onde la verga di ferro si pone per l'asprezza del castigo,ò di fatti, ò di parole . Perciò S.Paolo minacciando à Colossensi,dimandò se voleuano,che egli andassi à loro con la piaceuolezza, ò pure con la verga di ferro .
+Dipingesi appresso lo Struzzo,per dimostrare,che il Rigore, è ministro della Giustitia punitiua,& che supera per sè stesso qualsiuoglia contrasto.
+[ЗАГОЛОВОК: RIPRENSIONE.]
+[ИНИЦИАЛ: D]ONNA horrida, & armata con corazza , elmo, & spada à canto, nella man destra tiene vn vaso di fuoco, & nella sinistra vn corno,in atto di sonario .
+La Riprensione, è vn rimprouerare altrui i difetti,à fine che se ne astenga, & però si dipinge horrida , & armata , per generarsi dalla riprensione il timore, & si come l'huomo s'arma di spada, & altri arnesi per ferire il corpo, cosi la riprensione di parole ferisce l'animo .
+Tiene il fuoco in mano, per accender nell'huomo colpeuole, il rossore della vergogna .
+Il corno , è per segno del dispiaceuol suono, generato dalle voci di riprensione .
+
+Колонтитул: 434 ICONOLOGIA
+Кустод: RIFOR-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0456 · с. 435
+
+[ЗАГОЛОВОК: RIFORMA.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: D]ONNA vecchia, vestita d'habito semplice,corto,& senz'ornamento alcuno ; con la destra mano terrà vn roncietto , ouero vn par di forbice, & con la sinistra vn libro aperto , nel quale vi siano scritte le seguenti parole .
+Pereunt discrimine nullo .
+Ammissæ leges .
+Vecchia si dipinge, percioche à questa età più conuiene, & è più atta à riformare, & reggere altrui,secondo Platone nel v. della Rep. onde per la riforma intendiamo i buoni vsi conformi alle leggi,i quali siano tralasciati per licentioso abuso de gli huomini, che poi si riducano alla lor forma, & consiste principalmente la riforma esteriore, & interiore .
+Si veste d'habito semplice,& corto, perche gli habiti riccamenti guar,
+
+Колонтитул: DI CESARE RIPA. 435
+Кустод: niti,
+Сигнатура: 
+Маргиналии:
+
+## Скан 0457 · с. 436
+
+niti, non solo sono nota di superfluità, ma ancora alle volte di licentiosi costumi, & ciò causano la morbidezza, & gli agi di tali habiti nelle persone, che quelli vsano soprabondantemente .
+Il roncietto ancora, è chiara significatione di riforma, percioche si come gl'albori, i rami de quali superfluamente cresciuti sono, con esso si riformano , tagliando via quello che soprabonda, & che toglie all'albero il vigore . Cosi la riforma leua via gl'abusi di quegl'huomini in quelle cose le quali licentiosamente si sono lasciati trascorrere più oltre di quello che comportano le leggi . Il simile ancora si può dire delle forbice, che tagliano le superfluità, come è manifesto à tutti .
+Il libro dinota le leggi,& constitutioni,secondo le quali si deue viuere , & riformare i trasgressori, che se bene quanto à essi le leggi sono perdute, che non le osseruano, anzi fanno il contrario , non però quelle periscono per caso alcuno, come bene dimostrano quelle parole di Lucano nel lib.3. *de bello ciuili*, che dicono .
+Percunt discrimine nullo
+Ammissæ leges .
+Et cosi per esso libro si riducono all'vso antico le leggi tralasciate, tanto ne'costumi, come ne gli habiti, & di nuouo si riforma ne gl'huomini la virtù dell'osseruanza, & lo stato di buon reggimento .
+[ЗАГОЛОВОК: EPIGRAMMA.]
+Quos ratio mores docet & lex prauus abusus
+Deformat, longa diminuitq; die .
+Hinc velut arboribus late ramalia crescunt
+Nec matura suo tempore poma ferunt.
+Sic vana exurgunt vitiorum germina, & alta
+Virtus humano in pectore pressa iacet.
+Noxia rerum igitur fortis censura recidat
+Vt vitæ redeat splendida forma nouæ .
+[ЗАГОЛОВОК: RIFORMA.]
+[ИНИЦИАЛ: M]ATRONA vecchia, vestita d'habito graue,ma semplice senz'alcun'ornamento,con la destra mano terrà vna sferza,& con la sinistra vn libro aperto col motto,*Argue*, in vna facciata, & *Obsecra*,nell'altra .
+Per la riforma intendiamo quelle ordinationi de Superiori,con le quali a'buoni costumi tralasciati per licentioso abuso de gli huomini si dà nuoua,e miglior forma, conforme alle leggi , e si tornano di nuouo ad introdurre tra i medesimi, e questo con quei due principali,e conuenienti mezzi,cioè con l'esortare dimostrato per il libro aperto; e col riprendere,e castigare dimostrato per la sferza , ambidoi meglio significati con le due parole del motto cauate da S.Paolo nel cap.4.della 2. à Timoteo,e del sacro Concilio di Trento alla sess.13. nel cap.1. della Riforma,ricordato à detti Superiori,acciò se ne seruino in questa materia, cioè,che debbono esser Pastori,& non percussori, che deuono ricercare di ritirare i sudditi da gli abusi più con l'esortationi , che col castigo, operando più in uerso quelli
+
+Колонтитул: 436 ICONOLOGIA
+Кустод: amore-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0458 · с. 437
+
+amoreuolezza, che l'austerità, più l'esortationi, che le minaccie, e più la carità, che l'imperio . Ma non bastando poi l'esortatione, si potrà venire alla sferza, sempre però mitigando il rigore con la mansuetudine, il giuditio con la misericordia, e la seuerità con la piaceuolezza, che cosi s'introdurrà facilmente ogni riforma ne'popoli soggetti, e tanto più quanto il tutto si farà con maturo consiglio , che però si dipinge in età di Matrona .
+[ЗАГОЛОВОК: RISO.]
+[ИНИЦИАЛ: G]IOVANE, vago, vestito di varij colori, in mezzo d'vn verde , & fiorito prato, in capo hauerà vna ghirlanda di rose, le quali comincino ad aprirsi.
+Il Riso è figliuolo dell'allegrezza, & è vno spargimento di spiriti sottili mossi nel diaframma per cagione della marauiglia,che prendono li sensi mezzani .
+Si dipinge il Riso giouane, perche all'età più giouenile, & più tenera , più facilmente si comporta il riso , il quale nasce in gran parte dall' allegrezza ; però si dipinge giouane, & bello .
+I Prati si suol dire, che ridono quando verdeggiano, & i fiori quando si aprono , però ambedue conuengono à questa figura .
+[ЗАГОЛОВОК: Riso.]
+[ИНИЦИАЛ: G]Iouanetto, vestito d'habito verde, dipinto di fiori con vn capelletto in testa pieno di varie penne, le quali significano leggierezza, & instabilità, onde suol nascere l'immoderato riso, secondo il detto del Sauio: *Risus abundat in ore stultorum .*
+[ЗАГОЛОВОК: Riso.]
+[ИНИЦИАЛ: V]V Giouane, allegro, & bello : terrà in vna mano vna Maschera con la faccia distorta, & brutta, perche il brutto, & l'indecente, è senza decoro , come disse Aristotile nella Poetica dà materia di riso, & vi farà vn motto . *Amara risu tempera* .
+[ВИНЬЕТКА: mascaron: маска с лицом между завитками]
+
+Колонтитул: DI CESARE RIPA. 437
+Кустод: RVMO-
+Сигнатура: Ee
+Маргиналии:
+
+## Скан 0459 · с. 438
+
+[ЗАГОЛОВОК: RVMORE.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: H]VOMO armato ,che mandi saette ; cosi lo dipingeuano gli Egittij in Oro Apolline .
+[ЗАГОЛОВОК: SALVTE DI PAVSANIA.]
+[ИНИЦИАЛ: D]ONNA à sedere sopra vn'alto seggio, con vna tazza in mano,& à canto vi sarà vn'Altare, sopra al quale sia vna serpe raccolta con la testa alta .
+Questa figura, è formata seconda la più antica intelligenza, dalla quale s'impara facilmente,che sia salute, & in che consista .
+Primieramente l'Altare presso gli Antichi, era vltimo rifugio di quelli, che non haueuano altro modo per scampar dall'ira dell'inimico , & se ad esso alcuno s'auuicinaua, non si trouaua huomo tanto prosontuoso,ò di sì poca religione, che l'offendesse ; & però Virgilio introducendo Priamo
+
+Колонтитул: 438 ICONOLOGIA
+Кустод: nell'
+Сигнатура: 
+Маргиналии:
+
+## Скан 0460 · с. 439
+
+nell'vltima necessità senza alcuna speranza humana, finse che da Creusa
+fosse esortato à star vicino all'Altare', con ferma credenza di conseruar la
+vita per mezzo della religione ; Adunque esser saluo come di quì si raccoglie, non è altro,che esser libero di graue pericolo soprastante, per opra ò
+di sè, ò d'altri .
+Il seggio, & il sedere, dimostra, che la salute partorisce riposo , il quale
+è fine d'essa, ouero di quello, che la riceue . Però Numa Pompilio primo
+introduttore delle cerimonie sacre in Roma, volse,che doppo che il sacrificio fosse compito , il Sacerdote sedesse , dando indicio della ferma fede
+del popolo, per ottenimento delle gratie dimandata nel sacrificare .
+La tazza dimostra, che per mezzo del beuere si riceue la salute molte[знак]
+volte, con le medicine, & con medicamenti pigliati per bocca .
+Il Serpe ancora,è segno di salute,perche ogn'anno si rinoua, & ringiouanisse, è tenacissimo della vita, forte, & sano, & buono per moltissime medicine . Si scriue,che per sè stesso troua vn'herba da consolidar la vista,&
+vn'altra , che è molto più da suscitar sè stesso ancora morto . Et nelle sacre lettere misteriosamente dal Sig. Iddio fù ordinato à Mosé , che fabricasse vn Serpente di bronzo su'l legno,nel qual guardando , chi si trouaua
+ferito, riceueua solo con lo sguardo la sanità .
+Si notano adunque in questa figura quattro cagioni , onde nasce la salute , le quali sono prima Iddio , dal quale dipende principalmente ogni
+bene, & si dimostra con l'altare ; Poi le medicine, & le cose necessarie alla
+vita per nutrimento , & si significano con la tazza , l'altra l'euacuatione[знак]
+de gli humori souerchi mostrati nel Serpente , il qual si spoglia della propria pelle per ringiouenire . Il quarto è il caso accidétale nato senz'opra
+ò pensamento alcuno,ilche si mostra nel seder otioso,come auenne à quello , che si risanò della pugnalata dell'inimico , che gli franse la cruda postema[знак] .
+Et perche si distingue la salute de sacri Theologi in salute d'anima,& di
+corpo,diremo quella dell'anima possedersi,quando si spoglia l'huomo delle proprie passioni, & cerca in tutte le cose conformarsi con la volontà di
+Dio,& quella del corpo quando si hà commodità da nodrirsi in quiete , &
+senza fastidio . Il che si mostra nella tazza, & nella seggia .
+[ЗАГОЛОВОК: SALVTE.]
+*Nella Medaglia d'Antonino Pio stà scolpita .*
+[ИНИЦИАЛ: F]ANCIVLLA , che nella destra mano tiene vna tazza,con la quale porge da beuere ad vn Serpe, & nella sinistra vna verga,col titolo,
+*Salus publica Aug.*
+*Salute .*
+[ИНИЦИАЛ: I]N vn'altra del medesimo, si vede vna Donna, la quale con la sinistra[знак]
+mano tiene vn'hasta, & con la destra vna tazza,dando da bere ad vna
+Serpe inuolta ad vn piedestallo .
+L'hasta,& il piedestallo, mostrano la fermezza,& stabilità in luogo della seggia detta di sopra, perche non si può dimandare salute , quando non
+
+Колонтитул: DI CESARE RIPA. 439
+Кустод: fia
+Сигнатура: Ee 2
+Маргиналии:
+
+## Скан 0461 · с. 440
+
+sia sicura, & stabile , ò che habbia pericolo di sinistro accidente, ò pur di
+cadere[знак] . Dal che l'assicura l'hasta , sopra alla quale si sostenga questa figura[знак] .
+[ЗАГОЛОВОК: SANITA'.]
+Vedi Gagliardezza .
+*Sanità .*
+[ИНИЦИАЛ: D]Onna d'età matura, nella man destra hauerà vn Gallo , & nella sinistra vn bastone nodoso,al quale sarà auuiticchiato intorno vn serpe .
+Il Gallo, è consecrato ad Esculapio inuentore della medicina,per la vigilanza,che deue hauere continuamente il buon Medico . Questo animale da gli Antichi era tenuto in tanta veneratione,che gli faceuano sacrificio come à Dio ; Socrate , come si legge presso à Platone , quando si trouaua vicino alla morte, lasciò per testamento vn Gallo ad Esculapio, volendo significare,che come saggio Filosofo rendeua gratie alla diuina bontà, la quale medica facilmente tutte le nostre molestie;& però è intesa per
+Esculapio la participatione della vita presente .
+Il serpe, nel modo detto , è segno di sanità per esser sanissimo , & molto
+più de gli altri animali, che vanno per terra ; & posti insieme il bastone[знак] ,
+& il serpe che lo circonda, significano la sanità del corpo mantenuta per
+vigore dell'animo, & de gli spiriti .
+Et così si dichiara ancora da alcuni, il serpente di Mosè posto medesimamente sopra il legno .
+[ЗАГОЛОВОК: SAPIENZA.]
+[ИНИЦИАЛ: D]ONNA ignuda, & bella,solo con vn velo ricuopra le parti vergognose, starà in piedi sopra vno Scettro, mirando vn raggio , che dal
+cielo le risplenda nel viso, con le mani libere da ogni impaccio .
+Quà si dipinge la Sapienza,che risponde alla fede, & consiste nella contemplatione di Dio, & nel dispreggio delle cose terrene , della quale si dice ; *Qui inuenerit me, inueniet vitam, & hauriet salutem à Domino* . Et però si dipinge ignuda, come quella, che per sè stessa non hà bisogno di molto ornamento, ne di ricchezze, potendo dire con ragione chi la possiede d'hauer
+seco ogni bene, non con l'arroganza di Filosofo,come Biante, ma con l'humiltà di Christiano come gli Apostoli di Christo , perche chi possiede Iddio per intelligenza, & per amore, possiede il principio nel quale ogni cosa creata più perfettamente, che in sè stessa si troua .
+Calca questa figura lo Scettro,per segno di dispreggio de gli honori del
+mondo,i quali tenuti in credito d'ambitione, fanno,che l'huomo non può
+auuicinarsi alla sapienza, essendo proprio di questa illuminare,& di quella render la mente tenebrosa .
+Mira con giubilo il raggio celeste, con le mani libere d'ogni impaccio ,
+per essere proprio suo il contemplare la diuinità , al che sono d'impedimento l'attioni esteriori, & le occupationi terrene .
+
+Колонтитул: 440 ICONOLOGIA
+Кустод: SAPIEN-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0462 · с. 441
+
+[ЗАГОЛОВОК: SAPIENZA.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: G]IOVANE in vna notte oscura,vestita di color turchino, nella destra mano tiene vna lampada piena d'olio accesa, & nella sinistra[знак]
+vn Libro
+Si dipinge giouane, perche hà dominio sopra le stelle , che non l'inuecchiano , ne gli tolgano l'intelligenza de secreti di Dio, i quali sono viui,
+& veri eternamente[знак] .
+La lampada accesa, è il lume dell'intelletto , il quale per particolare[знак]
+dono di Dio, arde nell'anima nostra senza mai consumarsi , ò sminuirsi ;
+solo auuiene per nostro particolare mancaméto, che venga spesso in gran
+parte offuscato , & ricoperto da vitij , che sono le tenebre , le quali soprabondano nell'anima , & occupando la vista del lume , fanno estinguere la
+sapienza , & introducono in suo luogo l'ignoranza , & i cattiui pensieri ;
+
+Колонтитул: DI CESARE RIPA. 441
+Кустод: Quin-
+Сигнатура: Ee 3
+Маргиналии:
+
+## Скан 0463 · с. 442
+
+Quindi è, che non essendo pratichi poi per le vie del Cielo , le quali sono
+aspre , & difficili , insieme con le cinque vergini incaute , & imprudenti ,
+restiamo serrati fuora della casa muttiale .
+Il libro si pone per la Bibia , che vuol dir libro de libri, perche in esso
+s'impara tutta la sapienza, che è necessaria per farci salui .
+*Sapienza humana .*
+[ИНИЦИАЛ: V]N Giouane ignudo con quattro mani,& quattro orecchi,con la man
+destra distesa con la Tibia istromento musicale consacrato ad Apollo, & con la faretra al fianco .
+Questa fù inuentione de Lacedemoni, i quali volsero dimostrare, che[знак]
+non bastaua per essere sapiente la contemplatione,ma vi era necessario il
+molto vso, & la pratica de negotij, significata per le mani, & l'ascoltare i
+consigli altrui, ilche s'accenna per gli orecchi, così fortificandosi,& allettato dal suono delle proprie lodi, come dimostra l'istromento musicale[знак] ,
+con la faretra appresso, s'acquista, & ritiene il nome di sapiente .
+[ЗАГОЛОВОК: SAPIENZA VERA.]
+[ИНИЦИАЛ: D]ONNA quasi ignuda, la quale stende le mani,& il viso in alto,mirando vna luce, che gli soprastà ; hauerà i piedi eleuati da terra[знак] ,
+mostrando essere assorta in Dio , & spogliata delle cose terrene .
+Non è la sapienza numerata fra gli habiti virtuosi acquistati con vso ,
+& esperienza ; ma è particolar dono dello Spirito santo, il quale spira doue gli piace , senza eccettione di persona . Et gli Antichi che parlauano
+d'essa, & discorreuano non hauendo lume di cognitione di Christo Signor
+nostro vera Sapienza del Padre eterno, con tutto ciò ne ragionauano con
+gran religione, molto cautamente , & voleuano, che il nome di sapiente[знак]
+non si potesse dare ad alcun'huomo mortale, se non fosse compito,& irreprensibile . Quindi è, che in tutta la Grecia madre delle scienze , & delle
+virtù, sette huomini solo seppero sciegliere per dar loro questo nome, reputando , che ò fosse cosa maggiore di virtù , ò almeno virtù dalla quale[знак]
+l'altre virtù deriuassero,essendo ella ab eterno generata, come dice Salomone , inanzi alla terra , & inanzi al cielo , godendo nel seno dell'eterno
+Dio,& quindi secondo i giusti giuditii di lui,communicandosi particolarmente nel petto di pochi mortali . Però si dipinge eleuata da terra , con
+la luce, che le scende nel viso , dimostrando che sia il sapiente distaccato
+col core da gli affetti terreni, & illuminato dalla diuina gratia, & che chi
+la ritroua , senza confondersi fra la finta sapienza de gli sciocchi, ritroua
+la vita, & ne conseguisce lã salute .
+*Sapienza .*
+[ИНИЦИАЛ: E] commune opinione che gli Antichi nell'imagine di Minerua con[знак]
+l'oliua appresso, volessero rappresentare la Sapienza, secondo il modo,che era conosciuta da essi , & però finsero , che fosse nata dalla testa di
+Gioue, come cosa conosciuta per molto più perfetta , non sapendo errare
+in cosa alcuna,di quel che comporta la potenza dell'huomo, & fingeuano
+che hauesse tre teste,per consigliare altrui,intender per sè,& operare virtuosa-
+
+Колонтитул: 442 ICONOLOGIA
+Кустод: tuosa-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0464 · с. 443
+
+tuosamente ; il che più chiaro si comprende per l'armatura, & per l'hasta,
+con le quali si resiste ageuolmente alla forza esteriore d'altrui, essendo
+l'huomo fortificato in sè stesso, & si gioua à chi è debole , & impotente[знак] ,
+come si è detto in altro proposito.
+Lo Scudo con la testa di Medusa, dimostra che il sapiente deue troncare tutti gli habiti cattiui da sè stesso, & dimostrarli, insegnando à gl'ignoranti , accioche li fuggano, & che si emendino.
+L'oliua dimostra, che dalla sapienza nasce la pace interiore,& esteriore, & però ancora interpretano molti, che il ramo finto necessario da Virgilio all'andata di Enea à i campi Elisij, non sia altro che la sapienza, la[знак]
+qual conduce,& riduce l'huomo à felice termine in tutte le difficoltà.
+Alcuni la figurauano col cribro, ouero criuello,per dimostrare,che è effetto di sapienza saper distinguere, & separar il grano, dal gioglio , & la[знак]
+buona, dalla cattiua semenza ne'costumi, & nell'attione dell'huomo .
+[ЗАГОЛОВОК: SCELERATEZZA, O VITIO.]
+[ИНИЦИАЛ: V]N Nano sproportionato, guercio, di carnaggione bruna, di pelo
+rosso, & che abbracci vn'Hidra .
+Le sproportioni del corpo si domandano vitij della natura , perche come in vn'huomo atto ad operare bene, che s'impiega al male,quel male si
+domanda vitio, & sceleratezza ; perche pende dalla volontà per elettione male habituata .
+Così si chiama vitio tutto quello , che non è secondo la sua proportione in vn corpo, che perciò si dipinge la forma d'esso, che habbia vitij della natura , come al contrario si fà per significare la virtù , essendo che secondo il Filosofo,la proportione di belli lineamenti del corpo , arguisce[знак]
+l'animo bello,& bene operante ; stimandosi,che come i panni s'acconciano al dosso, così i lineamenti, e le qualità del corpo si conformino con le[знак]
+perfettioni dell'anima ; però Socrate fù anch'egli d'opinione, che le qualità del corpo, & dell'anima, habbino insieme conuenienza .
+Guercio,brutto,e di pelo rosso si rappresenta,percioche queste qualità
+sono stimate communemente vitiose, onde à questo proposito disse Martiale xij. de suoi epigrammi .
+*Crine ruber, niger ore, breuis pede, lumine læsus ,*
+*Rem magnam præstas, Zoile , si bonus es .*
+Si dipinge, che abbracci l'Hidra la quale hà sette teste , & vien messa[знак]
+per i sette peccati mortali ; percioche s'auuiene, che alcuna d'esse teste[знак]
+sia tagliata, si come in essa rinascono dell'altre , & acquista maggior forza, con chi gli s'oppone, così il vitio in vn corpo, il quale tutto che venga
+combattuto dalla virtù , nondimeno per hauer egli più capi in esso per la
+volontà habituata nel male, tosto per essa risorge più vigoroso , & ostinato nelle peruerse operationi, ma al fine conuiene che resti superato,& vinto con resisterli,ò fuggirlo, come quello che sin dal principio del mondo ,
+gabbando il nostro primo Padre, è stato, & è la rouina di noi miseri mortali,come si dimostra per il seguente Anagramma,che dice così .
+
+Колонтитул: DI CESARE RIPA. 443
+Кустод: VI-
+Сигнатура: Ee 4
+Маргиналии:
+
+## Скан 0465 · с. 444
+
+VITIVM.
+MVTIVI.
+*Cœpisti primum submissa voce Parentum ,*
+*Hinc nos clamores tollere ad astra facis .*
+*Heu scelus ? heu vtinam mutescas tempus in omne ,*
+*Quam tua nos tradant amplius ora neci .*
+EPIGRAMMA.
+*Miraris sceleris monstrum deforme nefandi ,*
+*Talia non , dices , stix & Auernus habent .*
+*Aspice quam facie , quam formidabile vultu*
+*Quam turpes maculæ corpora nigra notant .*
+*Quam facile arridens lernæam amplectitur hidram ,*
+*Porrigit & collo brachia nexa feræ .*
+*Nil mirum hæc sceleris sunt argumenta probrosi*
+*Quo nil aspectu fædius esse potest .*
+*Tale igitur monstrum dum se mortalis iniquis*
+*Obstringit vitijs criminibusq; refert .*
+[ЗАГОЛОВОК: SCIENZA.]
+[ИНИЦИАЛ: D]ONNA con l'ali al capo, nella destra mano tenghi vno specchio,
+& con la sinistra vna palla sopra della quale sia vn triangolo .
+Scienza, è habito dell'intelletto speculatiuo di conoscere,& considerar
+le cose per le sue cause .
+Si dipinge con l'ali, perche non è scienza doue l'intelletto non s'alza[знак]
+alla contemplatione delle cose ; onde sopra di ciò ben disse Lucretio nel
+lib. 4. della natura delle cose .
+*Nam nihil egregius quam res discernere apertas*
+*At dubijs animi quas ab se protinus abdit .*
+Lo specchio dimostra quel che dicono i Filosofi, che *scientia fit abstrahendo* , perche il senso nel capire gli accidenti ,porge all'intelletto la cognitione delle sostanze ideali;come vedendosi nello specchio la forma accidentale delle cose esistenti si considera la loro essenza .
+La palla dimostra,che la scienza non hà contrarietà d'opinioni, come[знак]
+l'orbe non hà contrarietà di moto .
+Il triangolo mostra, che si come i tre lati fanno vna sola figura, così tre
+termini nelle propositioni causano la dimostratione, & scienza .
+In scientiam ab eodem descriptam .
+*Cæsar scientiam pinxit mulierem ferre*
+*Alatam in capite desuper cristam ,*
+*Et in dextera recte continere speculum*
+*Conspicuis è longe imaginibus splendem .*
+*In alia vero orbem manu apparere ,*
+*Et super orbem figura triangularis inest .*
+*Hæc scientiæ imago . at si aspicias*
+*Cæsarem , scientiæ imaginem Cæsarem dixeris .*
+
+Колонтитул: 444 ICONOLOGIA
+Кустод: Scien-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0466 · с. 445
+
+*Scienza .*
+[ИНИЦИАЛ: D]Onna giouane, con vn libro in mano , & in capo con vn deschetto
+d'oro da tre piedi , perche senza libri solo con la voce del Maestro
+difficilmente si può capire,& ritenere gran copia di cose, che partoriscono la cognitione,& la scienza in noi stessi .
+Il deschetto,ouero tripode, è indicio della scienza, & per la nobiltà del
+metallo,col quale adornandosi le cose più care, si honorano ; & per lo numero de piedi , essendo il numero ternario perfetto , come racconta Aristotile nel primo del Cielo, per esser primo numero , à cui conuiene il nome del tutto come la scienza è perfetta, & perfettione dell'anima nostra ;
+& però racconta Plutarco nella vita di Salone , che hauendo alcuni Milesij à rischio comperata vna tirata di rete di certi pescatori nella Città di
+Coo, i quali hauendo tirato in luogo del pesce vn desco d'oro,dubitandosi
+poi fra di loro di chi douesse essere tal pescaggione,& nascédo per ciò nella Città molto disturbo,fecero finalmente conuentione, che si douesse andare all'Oracolo d'Apolline Pitheo,& che da lui si aspettasse risolutione[знак],
+il quale rispose douersi dar in dono al più sauio della Grecia; Onde di comun consenso fù portato à Socrate, il quale essendo consapeuole del significato d'esso,subito lo rimandò all'Oracolo,dicendo,che fuor di lui medesimo non si doueua ad alcuno , perche solo Dio penetra , sà, & conosce[знак]
+tutte le cose .
+[ЗАГОЛОВОК: SCIOCCHEZZA.]
+[ИНИЦИАЛ: D]ONNA mal vestita, la quale ride di vna girella che tiene in mano
+di quelle,che fanno voltare i fanciulli al vento,cō vna massa di piombo in capo, alludendosi al detto latino , *Plumbeum ingenium* , perche come[знак]
+il piombo è greue, & se ne stà di sua natura al basso,così ancora è lo sciocco,che non alza mai l'ingegno,ò la mente à termine di discorso, ouero perche come il piombo acquista lo splendore,& tosto lo perde,così lo sciocco
+facilmente s'allontana da buoni propositi .
+Il riso senza occasione, è effetto di sciocchezza ; però disse Salomone[знак],
+Molto riso abonda nella bocca delli sciocchi .
+La girella, dimostra, che come i suoi pensieri, così l'opre sono di nissun[знак]
+valore, & si girano continuamente .
+[ЗАГОЛОВОК: SCOLTVRA.]
+[ИНИЦИАЛ: G]IOVANE bella, con l'acconciatura della testa semplice , & negligente, sopra la quale farà vn ramo di lauro verde, si farà vestita
+di drappo di vago colore,con la destra mano sopra al capo di vna statua[знак]
+di sasso,nell'altra tenghi varij istrométi necessarij per l'essercitio di quest'
+arte, co'piedi posati sopra vn ricco tapeto .
+Si dipinge la scoltura di faccia piaceuole,ma poco ornata,perche mentre con la fantasia l'huomo s'occupa in conformare le cose dell'arte con[знак]
+quelle della natura, facendo l'vna , & l'altra somigliante, non può impiegarsi molto nella cura del cose del corpo .
+Il ramo del lauro ,che nella seuerità del verno conserua la verdezza[знак]
+
+Колонтитул: DI CESARE RIPA. 445
+Кустод: nelle
+Сигнатура: 
+Маргиналии:
+
+## Скан 0467 · с. 446
+
+nelle sue frondi,dimostra,che la scoltura nell'opere sue, si conserua bella ,
+& viua contro alla malignità del tempo .
+Il vestito di drappo di vago colore , farà conforme alla scoltura istessa ,
+la quale si esercita per diletto, & si mantiene per magnificenza .
+La mano ancora sopra alla statua , dimostra , che se bene la scoltura è
+principalmente oggetto dell'occhi, può esser medesimamente ancor del
+tatto, perche la quantità soda circa la quale artificiosamente composta[знак]
+dalla natura si essercita quest'arte, può esser egualmente oggetto dell'occhio, & del tatto . Onde sappiamo,che Michel Angelo Buonaruota,lume
+& splendore di essa , essendogli in vecchiezza per lo continuo studio mancata quasi affatto la luce, soleua col tatto palpeggiando le statue , ò antiche, ò moderne che si fossero, dar giuditio, & del pezzo , & del valore .
+Il tapeto sotto i piedi,dimostra come si è detto, che dalla magnificenza
+vien sostenuta la scoltura, & che senza essa farebbe vile, ò forse nulla .
+[ЗАГОЛОВОК: SCORNO.]
+[ИНИЦИАЛ: H]VOMO con vn Gufo in capo, & con la veste mal composta, & discinta[знак] .
+Lo scorno è vna subita offesa nell'honore, & si dipinge col Gufo, il quale è vccello di cattiuo augurio , secondo l'opinione sciocca de Gentili, &
+notturno , perche fà impiegar gli animi facilmente à cattiui pensieri .
+[ЗАГОЛОВОК: SDEGNO.]
+[ИНИЦИАЛ: H]VOMO armato, & vestito di rosso, con alcune fiamme di fuoco ,
+starà con le braccia ignude , porterà ricoperte le gambe con due[знак]
+pelle di piedi di Leoni fatte à vso di calza, tenendo in capo vna testa d'Orso, dalla quale esca fiamma, & fumo .
+Il suo viso farà rosso,& sdegnoso, & in mano porterà alcune catene rotte in pezzi .
+Il vestimento rosso, & le fiamme, mostrano, che lo sdegno è vn viuace
+ribollimento del sangue .
+Le gembe, & le braccia , nel modo detto, danno indicio , che lo sdegno
+può esser sì potente nell'huomo per opra delle passioni menó nobili, che si
+renda simile à gli animali brutti , & alle fiere seluaggie. Et però ancora vi
+si dipinge la pelle dell'Orso, il quale è incitatissimo allo sdegno .
+Le catene rotte mostrano,che lo sdegno suscita la forza,& il vigore per
+superar tutte le difficoltà .
+[ЗАГОЛОВОК: SECRETEZZA.]
+[ИНИЦИАЛ: D]ONNA, che non solo habbia cinta la bocca con vna benda,ma anco sigillata, & il resto della persona sia da vn gran manto tutta coperta[знак] .
+Soleuono gl'Antichi con la bocca legata,& sigillata rappresentare Angerona Dea della secretezza, per denotare l'obligo di tacere i suoi, & gli
+altrui secreti .
+Si dipinge con il manto nella guisa c'habbiam detto, percioche si com'
+egli ricuopre tutte le parti del corpo , così la secretezza cela , & tiene oc-
+
+Колонтитул: 446 ICONOLOGIA
+Кустод: culte
+Сигнатура: 
+Маргиналии:
+
+## Скан 0468 · с. 447
+
+culte tutte quelle cose, che gli vengono confidate .
+[ЗАГОЛОВОК: SECOLO.]
+[ИНИЦИАЛ: H]VOMO vecchio con vna Fenice in mano,che si arde, & stà dentro
+alla nona sfera[знак] .
+Si fà vecchio , perche il secolo , è lo spatio della più longa età dell'huomo, ouero di cent'anni, & lo spatio della vita della Fenice ; ouero il moto
+d'vn grado della nona sfera .
+[ЗАГОЛОВОК: SENTIMENTI.]
+[ЗАГОЛОВОК: VISO.]
+[ИНИЦИАЛ: G]IOVANETTO, che nella destra mano tenga vn'Auoltoio, così
+lo rappresentauano gl'Egittij,come racconta Oro Apolline,nella[знак]
+sinistra terrà vno specchio,& sotto al braccio, & à canto si vedrà vno Scudo oue sia dipinta vn'Aquila con due, ò tre Aquilette,che guardino il Sole, col moto che dica, *cognitionis via* .
+Lo specchio dimostra , che questa nobil qualità non è altro , che vn'apprensione,che fà l'occhio nostro, il quale è risplendente come lo specchio,
+ouero diafane come l'acqua delle forme accidentali, visibili de corpi naturali, & le riceue in sè non altrimenti, che le riceue lo specchio, porgendole al senso commune, & quindi alla fantasia, le quali fanno l'apprensione , se bene molte volte falsa ; & di quì nasce la difficoltà nelle scienze , &
+nelle cognitioni appartenenti alla verità delle cose ; da questo Aristotile
+giudicò la nobiltà di questo sentimento, & che più ageuolmente de gli altri facci strada à gli occulti secreti della natura,sepolti nelle sostanze delle cose istesse; che si cauano poi alla luce con questi mezzi dell'intelletto .
+L Aquila hà per costume , come raccontano i diligenti Osseruatori, di
+portare i suoi figliuoli vicino al Sole, per sospetto che non gli siano stati
+cambiati, & se vede che stanno immobili, sopportando lo splendore,li raccoglie,& li notrisce,ma se troua il contrario come parto alieno li scaccia;
+da che s'impara questa singolar potenza quando non serua per fin nobile,
+& per essercitio di operationi lodeuoli, torna in danno , & in vituperio di
+chi l'adopra; Et forse à questo fine durò nell'Italia,& nell'Europa per molti anni, mentre durorno le seditioni di Vandali,che i Signori principali, i
+quali hauessero mancato di debito, ò con Dio, ò con gli huomini, si faceuano accecare, accioche viuessero in quella miseria .
+Si può ancora vicino à questo imagine dipingere il Lupo ceruiero, da[знак]
+Latini dimandato Lincio, per l'acutezza del suo vedere .
+[ЗАГОЛОВОК: VDITO.]
+[ИНИЦИАЛ: V]OLENDO gli Egittij significar l'vdito, dipingeuano l'orecchia[знак]
+del Toro , perche quando la Vacca appetisce il coito ( il che è solo
+per termine di tre hore) manda fuori grandissimi mugiti, nel qual tempo
+non soprauenendo il Toro ( il che rare volte auuiene ) non si suol piegare
+à tal atto fino all'altro tempo determinato ; però stà il Toro cótinuamente desto à questa voce,come racconta Oro Apolline , significando forse in
+tal modo,che si deue ascoltare diligentemente quello in particolare più
+
+Колонтитул: DI CESARE RIPA. 447
+Кустод: d'ogn'
+Сигнатура: 
+Маргиналии:
+
+## Скан 0469 · с. 448
+
+d'ogn'altra cosa, che è necessario alla duratione , & alla conseruatione di
+noi stessi,in quel miglior modo,che è possibile . Et perche meglio si conosca questa figura, si potrà dipingere detta imagine,che tenga con le mani
+l'orecchia d'vn Toro .
+*Vdito .*
+[ИНИЦИАЛ: D]Onna che suoni vn Liuto, & à canto vi sarà vna Cerua .
+[ЗАГОЛОВОК: ODORATO.]
+[ИНИЦИАЛ: G]IOVANETTO ,che nella mano sinistra tenga vn vaso , & nella
+destra vn mazzo di fiori,con vn Bracco a'piedi, & sarà vestito di color verde dipinto di rose, & altri fiori .
+Il vaso significa l'odore artificiale, & il mazzo di fiori il naturale .
+Il Cane bracco si pone, perche la virtù di questo sentimento, come in
+tutti i cani è di molto vigore,così è di grandissimo ne'Bracchi,che col solo
+odorato ritrouano le fiere ascose molte volte in luoghi secretissimi , & all'odore si sono veduti spesso fare allegrezza de Padroni vicini, che altramente non si vedeuano
+Si veste di color verde, perche dalla verdura delle frondi , si tolgono i
+fiori teneri, & odoriferi[знак] .
+[ЗАГОЛОВОК: GVSTO.]
+[ИНИЦИАЛ: D]ONNA, che con la destra tenga vn cesto pieno di diuersi frutti, &
+nella sinistra vn persico .
+Il Gusto, è vno de cinque sentimenti del corpo, ouero vno delle cinque
+parti, per le quali entrano l'idee,& l'apprensioni ad habitar l'anima, della
+quale fanno i loro consigli bene spesso in vtile , & spessissimo anche in ruina di essa; ingannati dalla falsa imagine delle cose apparenti,che sono gli
+esploratori, & spie tal volta false, & però cagionano gran male à lei,& ad
+essi ; false spie hebbero in particolare gli Epicurei, li quali gli riferiuano ,
+che buona cosa fosse attendere alla crapula senza molti pensieri d'honore, ò di gloria humana .
+Si dipinge con varietà de frutti, perche questi senza artificio, diuersamente dal gusto si fanno sentire ; & il persico si prende spesso à simile proposito da gli Antichi .
+[ЗАГОЛОВОК: TATTO.]
+[ИНИЦИАЛ: D]ONNA col braccio sinistro ignudo sopra del quale tiene vn Falcone, che con gl'artigli lo stringe , & per terra vi sarà vna Testudine .
+[ЗАГОЛОВОК: SENSO.]
+[ИНИЦИАЛ: G]IOVANE, ignudo,& grasso, stando in vn Ruscello d'acqua à mezza gamba, & nelle riue vi sieno varie piante, da vna delle quali esso
+con la destra mano colga il frutto , & con la sinistra tenga vn mazzo di
+fiori .
+Il senso si dipinge ignudo,perche fà gl'huomini andar'nudi de'beni dell'anima,& del corpo, mentre stanno intenti al presente piacere, non si prouedendo,ne si preuedendo per le future calamità .
+La grassezza , è indicio d'anima sensitiua , di pensieri bassi, & di poca
+
+Колонтитул: 448 ICONOLOGIA
+Кустод: specu-
+Сигнатура: 
+Маргиналии:

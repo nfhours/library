@@ -46,3 +46,5 @@
 | 0411 | 390 | nono | nouo | перепутанная буква |
 | 0427 | 406 | azznro | azzurro | пропущена буква |
 | 0441 | 420 | Penclope | Penelope | перепутанная буква |
+| 0456 | 435 | d'habiio | d'habito | перепутанная буква |
+| 0457 | 436 | ordinarioni | ordinationi | перепутанная буква |
