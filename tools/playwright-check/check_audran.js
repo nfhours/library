@@ -76,31 +76,22 @@ let bad=0; const ok=(n,c,x)=>{ if(!c) bad++; console.log((c?'ok  ':'FAIL ')+n+(x
      const sel='.ic-gal-item[data-id="'+id+'"] .ic-gal-img'; await p.evaluate(s=>document.querySelector(s).scrollIntoView({block:'center'}),sel); await W(600);
      const g=await geo(sel); const v=await px(sel,[g.paper,g.card]);
      ok('grid '+id+': light card (bg, border) + multiply in card; paper ≈ card colour',g.bg==='rgb(244, 239, 227)'&&g.bd==='1px'&&g.iso==='isolate'&&g.bm==='multiply'&&d(v[0],v[1])<=10&&d(v[1],[244,239,227])<=4,JSON.stringify({g,v})); } }
- // пояснение к цифрам: один абзац на «Таблицах»; на обычной таблице — ссылка «Как читать цифры» → тёмная шторка;
- // aud13 «Мир греков» — своё пояснение видно под гравюрой (без ссылки); aud29–30 — ничего. Обложка — одна простая фраза.
+ // пояснение к цифрам: один абзац на «Таблицах»; на таблицах ни ссылки, ни шторки, ни абзаца под гравюрой;
+ // aud13 «Мир греков» — своё пояснение видно под гравюрой; aud29–30 — ничего. Обложка — одна простая фраза.
  { const RE={ru:/Мерой служит голова статуи: она делится на 4 части \(p\.\), часть — на 12 долей, «минут» \(m\.\)\. Например, «2 p\. 3 m\.» — две части и три минуты, чуть больше половины головы/,
              en:/divided into 4 parts \(p\.\), and each part into 12 smaller units, “minutes” \(m\.\)\. For example, “2 p\. 3 m\.”/,
              fr:/se divise en 4 parties \(p\.\), et chaque partie en 12 petites unités, les « minutes » \(m\.\)\. Par exemple, « 2 p\. 3 m\. »/};
-   const LINK={ru:'Как читать цифры',en:'How to read the numbers',fr:'Comment lire les chiffres'};
-   const st=()=>p.evaluate(()=>{ const q=s=>document.querySelector(s), u=q('.ic-rp-aud .ic-aud-units'), l=q('.ic-rp-aud .ic-aud-howto'), sh=q('#ic-aud-help');
-     return {units:u?u.textContent:null, link:l?l.textContent:null, lh:l?Math.round(l.getBoundingClientRect().height):0, sheet:!!sh, open:!!(sh&&sh.classList.contains('ic-rb-sheet-open')), head:!!(sh&&sh.querySelector('.ic-rb-sheet-head')), txt:sh?sh.textContent:'', dim:!!q('#ic-rb-dim.ic-rb-dim-show')}; });
+   const st=()=>p.evaluate(()=>{ const q=s=>document.querySelector(s), u=q('.ic-rp-aud .ic-aud-units');
+     return {units:u?u.textContent:null, link:!!q('.ic-aud-howto,[data-rb="audhelp"]'), sheet:!!q('#ic-aud-help,.ic-aud-help-sheet')}; });
    for(const L of ['ru','en','fr']){
      await p.goto(BASE+'#/audran/plates'); await setLang(L); await W(800);
      const intro=await p.evaluate(()=>{ const e=document.querySelector('.ic-rp-aud .ic-head .ic-aud-intro'); return e?{t:e.textContent,cls:e.className,n:document.querySelectorAll('.ic-aud-intro').length}:null; });
      ok(L+' plates: one explanation paragraph under the heading (intro style)',!!intro&&intro.n===1&&/ic-sub/.test(intro.cls)&&RE[L].test(intro.t),intro&&intro.t);
-     await p.goto(BASE+'#/audran/aud15'); await W(1200); let v=await st();
-     ok(L+' aud15: link «'+LINK[L]+'», ≥44px, no paragraph under engraving',v.link===LINK[L]&&v.lh>=44&&v.units===null&&v.sheet&&!v.open,JSON.stringify({link:v.link,lh:v.lh,units:v.units}));
-     await p.locator('.ic-aud-howto').scrollIntoViewIfNeeded(); await p.tap('.ic-aud-howto'); await W(900); v=await st();
-     ok(L+' aud15: tap opens dark sheet with the explanation, no title row, dim shown',v.open&&!v.head&&v.dim&&RE[L].test(v.txt),JSON.stringify({open:v.open,head:v.head,dim:v.dim}));
-     if(L==='ru'){ const bg=await p.evaluate(()=>getComputedStyle(document.querySelector('#ic-aud-help .ic-rb-sheet-panel')).backgroundColor); ok('help sheet is the shared dark rbSheet',bg==='rgb(22, 19, 15)',bg); await p.screenshot({path:path.join(OUT,'audran-help-sheet-ru.png')}); }
-     await p.touchscreen.tap(30,p.viewportSize().height-40); await W(900); v=await st(); ok(L+' aud15: tap outside (on dim) closes the sheet',!v.open&&!v.dim,JSON.stringify(v.open));
-     if(L==='ru'){ await p.tap('.ic-aud-howto'); await W(900); await p.keyboard.press('Escape'); await W(900); v=await st(); ok('aud15: Esc closes the sheet',!v.open);
-       await p.tap('.ic-aud-howto'); await W(900); await p.tap('.ic-bt-back'); await W(1500); const h=await p.evaluate(()=>({h:location.hash,open:!!document.querySelector('.ic-rb-sheet-open'),lock:document.documentElement.classList.contains('ic-hs-lock')})); ok('aud15: «back» with sheet open leaves cleanly (no open sheet, no scroll lock)',!h.open&&!h.lock,JSON.stringify(h)); }
-     await p.goto(BASE+'#/audran/aud13'); await W(1200); v=await st();
-     ok(L+' aud13: own explanation visible under engraving, no link/sheet',!!v.units&&v.link===null&&!v.sheet&&(L!=='ru'||/обмерена в футах, дюймах \(p\.\) и линиях \(l\.\): вся фигура — 45 дюймов 7 линий, что равно 30 частям головы/.test(v.units)),v.units);
+     for(const id of ['aud1','aud15','aud29','aud30']){ await p.goto(BASE+'#/audran/'+id); await W(900); const v=await st(); ok(L+' '+id+': no link, no sheet, no explanation under engraving',v.units===null&&!v.link&&!v.sheet,JSON.stringify(v)); }
+     await p.goto(BASE+'#/audran/aud13'); await W(1200); const v=await st();
+     ok(L+' aud13: own explanation visible under engraving, no link/sheet',!!v.units&&!v.link&&!v.sheet&&(L!=='ru'||/обмерена в футах, дюймах \(p\.\) и линиях \(l\.\): вся фигура — 45 дюймов 7 линий, что равно 30 частям головы/.test(v.units)),v.units);
      if(L==='ru'){ const cs=await p.evaluate(()=>{ const e=document.querySelector('.ic-rp-aud .ic-aud-units'), c=getComputedStyle(e), tx=document.querySelector('.ic-rp-aud .ic-text p')||document.querySelector('.ic-rp-aud .ic-sec'); return {c:c.color,fs:c.fontSize,lh:parseFloat(c.lineHeight)/parseFloat(c.fontSize),ta:c.textAlign,l:Math.round(e.getBoundingClientRect().left),tl:tx?Math.round(tx.getBoundingClientRect().left):null}; });
-       ok('aud13 explanation: ink colour, 14px, line-height ~1.4, left-aligned with article text',cs.c==='rgb(28, 24, 19)'&&cs.fs==='14px'&&Math.abs(cs.lh-1.4)<0.05&&cs.ta==='left'&&cs.l===cs.tl,JSON.stringify(cs)); }
-     for(const id of ['aud29','aud30']){ await p.goto(BASE+'#/audran/'+id); await W(900); v=await st(); ok(L+' '+id+': neither link nor explanation',v.units===null&&v.link===null&&!v.sheet); } }
+       ok('aud13 explanation: ink colour, 14px, line-height ~1.4, left-aligned with article text',cs.c==='rgb(28, 24, 19)'&&cs.fs==='14px'&&Math.abs(cs.lh-1.4)<0.05&&cs.ta==='left'&&cs.l===cs.tl,JSON.stringify(cs)); } }
    await setLang('ru'); await p.goto(BASE+'#/audran'); await W(1500); const bl=await p.evaluate(()=>(document.querySelector('.ic-home-blurb')||{}).textContent||''); ok('cover: units phrase in description',/Мерой служит голова статуи: она делится на 4 части, а каждая часть — на 12 «минут»\./.test(bl),bl); }
  // высота окна меняется при прокрутке в Safari: размеры гравюры и рамки не должны меняться
  { const M=()=>p.evaluate(()=>{ const r=e=>e?[Math.round(e.getBoundingClientRect().width),Math.round(e.getBoundingClientRect().height)]:null; return {fig:r(document.querySelector('.ic-fig')),img:r(document.querySelector('.ic-fig img')),hero:r(document.querySelector('.ic-home-fig img'))}; });
