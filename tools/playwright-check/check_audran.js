@@ -61,19 +61,28 @@ let bad=0; const ok=(n,c,x)=>{ if(!c) bad++; console.log((c?'ok  ':'FAIL ')+n+(x
  await p.goto(BASE+'#/audran/aud30'); await setLang('ru'); const t30=await p.evaluate(()=>({h1:document.querySelector('h1').textContent,next:!!document.querySelector('.ic-rbar-nv[data-nav="next"]:not([disabled])')})); ok('aud30: title by subject, no next',/голов/.test(t30.h1)&&!t30.next,t30.h1);
 
 
- // однородность тона: бумага гравюры (multiply) совпадает с фоном страницы
- { const tone=async(sel,label)=>{ const r=await p.evaluate(s=>{const e=document.querySelector(s); if(!e) return null; e.scrollIntoView({block:'center'}); const b=e.getBoundingClientRect(); return {l:b.left,t:b.top,w:b.width,h:b.height}; },sel); await W(600);
-     const r2=await p.evaluate(s=>{const b=document.querySelector(s).getBoundingClientRect(); return {l:b.left,t:b.top,w:b.width,h:b.height};},sel);
-     const buf=await p.screenshot(); const px=await p.evaluate(async([b64,x1,y1,x2,y2])=>{ const im=await createImageBitmap(await (await fetch('data:image/png;base64,'+b64)).blob()); const c=document.createElement('canvas'); c.width=im.width; c.height=im.height; const g=c.getContext('2d'); g.drawImage(im,0,0); const k=im.width/window.innerWidth; const get=(x,y)=>[...g.getImageData(Math.round(x*k),Math.round(y*k),1,1).data].slice(0,3); return [get(x1,y1),get(x2,y2)]; },[buf.toString('base64'),r2.l+r2.w*0.02,r2.t+r2.h*0.5,Math.max(2,r2.l-8),r2.t+r2.h*0.5]);
-     const d=Math.max(...px[0].map((v,i)=>Math.abs(v-px[1][i]))); ok('tone of paper matches page background ('+label+')',d<=10,JSON.stringify(px)); };
-   await p.goto(BASE+'#/audran/aud15'); await setLang('ru'); await tone('.ic-fig img','card');
+ // однородность тона: светлая карточка-подложка (как до v211), гравюра multiply на саму карточку (isolation): бумага листа ≈ цвет карточки.
+ // Проверка по скриншоту ЭЛЕМЕНТА карточки: пиксель бумаги внутри картинки против пикселя карточки в её поле (padding).
+ { const px=async(sel,pts)=>{ const el=p.locator(sel).first(); await el.scrollIntoViewIfNeeded(); await W(500); const buf=await el.screenshot();
+     return p.evaluate(async([b64,pts])=>{ const im=await createImageBitmap(await (await fetch('data:image/png;base64,'+b64)).blob()); const c=document.createElement('canvas'); c.width=im.width; c.height=im.height; const g=c.getContext('2d'); g.drawImage(im,0,0); return pts.map(([x,y])=>[...g.getImageData(Math.round(x*im.width),Math.round(y*im.height),1,1).data].slice(0,3)); },[buf.toString('base64'),pts]); };
+   const geo=sel=>p.evaluate(s=>{ const f=document.querySelector(s), i=f.querySelector('img'), fb=f.getBoundingClientRect(), b=i.getBoundingClientRect(), k=Math.min(b.width/i.naturalWidth,b.height/i.naturalHeight), w=i.naturalWidth*k;
+       const cs=getComputedStyle(f); return {paper:[(b.left+(b.width-w)/2+w*0.03-fb.left)/fb.width,(b.top+b.height*0.5-fb.top)/fb.height], card:[3/fb.width,0.5], bg:cs.backgroundColor, bd:cs.borderTopWidth, pad:cs.paddingTop, iso:cs.isolation, bm:getComputedStyle(i).mixBlendMode}; },sel);
+   const d=(a,b)=>Math.max(...a.map((v,i)=>Math.abs(v-b[i])));
+   await p.goto(BASE+'#/audran/aud15'); await setLang('ru'); await W(1500);
+   { const g=await geo('.ic-rp-aud .ic-fig'); ok('plate: light card chrome back (sheet bg, border, as before v211), multiply isolated in card',g.bg==='rgb(244, 239, 227)'&&g.bd==='1px'&&g.iso==='isolate'&&g.bm==='multiply',JSON.stringify(g));
+     const v=await px('.ic-rp-aud .ic-fig',[g.paper,g.card]); ok('plate: paper inside engraving ≈ card colour (element screenshot)',d(v[0],v[1])<=8&&d(v[1],[244,239,227])<=4,JSON.stringify(v)); }
    await p.goto(BASE+'#/audran/plates'); await W(2500);
-   for(const id of ['aud1','aud15','aud21','aud28']){   // реальный экран: пиксель бумаги ВНУТРИ миниатюры (в пределах самой картинки, а не её рамки) против фона рядом
-     await p.evaluate(id=>document.querySelector('.ic-gal-item[data-id="'+id+'"] img').scrollIntoView({block:'center'}),id); await W(900);
-     const g=await p.evaluate(id=>{ const i=document.querySelector('.ic-gal-item[data-id="'+id+'"] img'), b=i.getBoundingClientRect(), k=Math.min(b.width/i.naturalWidth,b.height/i.naturalHeight), w=i.naturalWidth*k, h=i.naturalHeight*k; return {x:b.left+(b.width-w)/2+w*0.03, y:b.top+b.height/2, ox:Math.max(2,b.left-5), oy:b.top+b.height/2}; },id);
-     const buf=await p.screenshot(); const px=await p.evaluate(async([b64,g])=>{ const im=await createImageBitmap(await (await fetch('data:image/png;base64,'+b64)).blob()); const c=document.createElement('canvas'); c.width=im.width; c.height=im.height; const x=c.getContext('2d'); x.drawImage(im,0,0); const k=im.width/window.innerWidth; const get=(a,b)=>[...x.getImageData(Math.round(a*k),Math.round(b*k),1,1).data].slice(0,3); return [get(g.x,g.y),get(g.ox,g.oy)]; },[buf.toString('base64'),g]);
-     const d=Math.max(...px[0].map((v,i)=>Math.abs(v-px[1][i]))); ok('grid thumbnail paper matches page background on screen ('+id+')',d<=12,JSON.stringify(px)); }
-   if(1){ await p.evaluate(()=>window.scrollTo(0,0)); await W(300); const cs=await p.evaluate(()=>({card:getComputedStyle(document.querySelector('.ic-gal-aud .ic-gal-img')).backgroundColor,bd:getComputedStyle(document.querySelector('.ic-gal-aud .ic-gal-img')).borderTopWidth,bm:getComputedStyle(document.querySelector('.ic-gal-aud .ic-gal-img img')).mixBlendMode})); ok('grid: no card chrome, multiply',/rgba\(0, 0, 0, 0\)|transparent/.test(cs.card)&&cs.bd==='0px'&&cs.bm==='multiply',JSON.stringify(cs)); } }
+   for(const id of ['aud1','aud15','aud21','aud28']){
+     const sel='.ic-gal-item[data-id="'+id+'"] .ic-gal-img'; await p.evaluate(s=>document.querySelector(s).scrollIntoView({block:'center'}),sel); await W(600);
+     const g=await geo(sel); const v=await px(sel,[g.paper,g.card]);
+     ok('grid '+id+': light card (bg, border) + multiply in card; paper ≈ card colour',g.bg==='rgb(244, 239, 227)'&&g.bd==='1px'&&g.iso==='isolate'&&g.bm==='multiply'&&d(v[0],v[1])<=10&&d(v[1],[244,239,227])<=4,JSON.stringify({g,v})); } }
+ // единицы обмеров под гравюрой (по предисловию: голова = 4 части, часть = 12 минут; «Мир греков» — футы/дюймы/линии) и фраза на обложке
+ { const U=()=>p.evaluate(()=>{ const e=document.querySelector('.ic-rp-aud .ic-figs + .ic-aud-units'); return e?e.textContent:null; });
+   for(const [L,re] of [['ru',/голова = 4 части, часть = 12 минут/],['en',/head = 4 parts, part = 12 minutes/],['fr',/tête = 4 parties, partie = 12 minutes/]]){
+     await p.goto(BASE+'#/audran/aud15'); await setLang(L); await W(900); const u=await U(); ok(L+' aud15: units line under engraving',!!u&&re.test(u),u); }
+   await setLang('ru'); await p.goto(BASE+'#/audran/aud13'); await W(900); const u13=await U(); ok('aud13: feet/inches/lines, 45 inches 7 lines = 30 parts',!!u13&&/дюйм/.test(u13)&&/45 дюймов 7 линий = 30 частей/.test(u13),u13);
+   await p.goto(BASE+'#/audran/aud29'); await W(900); ok('aud29: no units line (heads without measurements)',(await U())===null);
+   await p.goto(BASE+'#/audran'); await W(1500); const bl=await p.evaluate(()=>(document.querySelector('.ic-home-blurb')||{}).textContent||''); ok('cover: units phrase in description',/голова делится на 4 части, часть — на 12 минут/.test(bl),bl); }
  // высота окна меняется при прокрутке в Safari: размеры гравюры и рамки не должны меняться
  { const M=()=>p.evaluate(()=>{ const r=e=>e?[Math.round(e.getBoundingClientRect().width),Math.round(e.getBoundingClientRect().height)]:null; return {fig:r(document.querySelector('.ic-fig')),img:r(document.querySelector('.ic-fig img')),hero:r(document.querySelector('.ic-home-fig img'))}; });
    const vp=p.viewportSize(); await p.goto(BASE+'#/audran'); await setLang('ru');

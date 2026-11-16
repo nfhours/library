@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "214";
+  var APP_VER = "215";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -340,6 +340,9 @@
     audPrefaceSub:{ru:"Предисловие и предуведомление автора", en:"The preface and the notice to the reader", fr:"La préface et l’avertissement"},
     audTblAbbr:   {ru:"табл.", en:"pl.", fr:"pl."},
     audTablesSub: {ru:"Все гравированные таблицы: {n}", en:"All the engraved plates: {n}", fr:"Toutes les planches gravées : {n}"},
+    // единицы обмеров — строго по предисловию Одрана (preface.json, блок 35)
+    audUnits:     {ru:"Обмеры: в головах, частях (p.) и минутах (m.); голова = 4 части, часть = 12 минут", en:"Measurements in heads, parts (p.) and minutes (m.); head = 4 parts, part = 12 minutes", fr:"Mesures en têtes, parties (p.) et minutes (m.) ; tête = 4 parties, partie = 12 minutes"},
+    audUnitsFt:   {ru:"Обмеры: в футах, дюймах (p.) и линиях (l.); вся фигура — 45 дюймов 7 линий = 30 частей головы", en:"Measurements in feet, inches (p.) and lines (l.); the whole figure, 45 inches 7 lines = 30 parts of the head", fr:"Mesures en pieds, pouces (p.) et lignes (l.) ; la figure entière, 45 pouces 7 lignes = 30 parties de tête"},
     rpTabArticles:{ru:"Статьи", en:"Articles", fr:"Articles"},
     rpArtSub:     {ru:"Все статьи в двух частях: {n}", en:"All articles in two parts: {n}", fr:"Tous les articles en deux parties : {n}"},
     rpPart:       {ru:"Часть", en:"Part", fr:"Partie"},
@@ -2960,6 +2963,8 @@
             (it.img.length>1?'<figcaption>'+t("figOf",{k:k+1,n:it.img.length})+'</figcaption>':"")+'</figure>';
         }).join("");
     var captionLine = it.caption && !aud ? '<p class="ic-caption"><b>'+esc(t("captionLbl"))+'</b> '+esc(it.caption)+'</p>' : "";
+    // Одран: под гравюрой — единицы обмеров (aud13 «Мир греков» обмерен в футах/дюймах/линиях; aud29–30 — головы без обмеров)
+    if(aud && it.id!=="aud29" && it.id!=="aud30") captionLine = '<p class="ic-aud-units">'+esc(t(it.id==="aud13" ? "audUnitsFt" : "audUnits"))+'</p>';
     var attrs=(it.attrs||[]).map(function(a){
       var what = state.lang==="fr" ? (a.what_frtrans || a.what_en || a.what) : state.lang==="en" && a.what_en ? a.what_en : a.what;
       var meaning = state.lang==="fr" ? (a.meaning_frtrans || a.meaning_en || a.meaning) : state.lang==="en" && a.meaning_en ? a.meaning_en : a.meaning;

@@ -1706,14 +1706,15 @@ html.ic-hs-lock{overflow:hidden !important}
 .ic .ic-rp .ic-fig img{display:block;margin:0 auto;width:auto;max-width:100%;height:auto;max-height:calc((100svh - var(--ic-stack-full, 160px)) * .55);max-height:calc((var(--ic-svh, 100svh) - var(--ic-stack-full, 160px)) * .55)}
 .ic .ic-rp .ic-fig{display:flex;justify-content:center;flex-direction:column}
 /* Одран: таблица на ширину экрана, но не выше ~70% экрана; тап открывает полноэкранный просмотр (щипок) */
-/* Одран: таблица лежит прямо на бумаге сайта (без светлой карточки и рамки): бумага в картинке выровнена до белого,
-   mix-blend-mode:multiply сливает её с фоном страницы, линии и цифры остаются чёткими. Полноэкранный просмотр (тёмный фон) — без умножения. */
-.ic .ic-rp-aud .ic-fig{cursor:zoom-in;background:none;border:0;padding:0;box-shadow:none;transform:none}
+/* Одран: таблица на светлой карточке (как до v211: фон --sheet и рамка). Бумага в картинке выровнена до белого;
+   mix-blend-mode:multiply умножает её на саму карточку (isolation:isolate — смешивание только внутри карточки, не с фоном страницы):
+   бумага листа сливается с карточкой, линии и цифры чёткие. Полноэкранный просмотр (тёмный фон) — без умножения. */
+.ic .ic-rp-aud .ic-fig{cursor:zoom-in;isolation:isolate}
 .ic .ic-rp-aud .ic-fig img{mix-blend-mode:multiply}
-.ic .ic-wrap.ic-rp-aud{animation:none}   /* без анимации страницы: иначе WebKit изолирует слой и multiply не видит фон */
-.ic .ic-gal-aud .ic-gal-img{background:none;border:0;padding:0}
+.ic .ic-wrap.ic-rp-aud{animation:none}
+.ic .ic-gal-aud .ic-gal-img{isolation:isolate}
 .ic .ic-gal-aud .ic-gal-img img{mix-blend-mode:multiply}
-@media (hover:hover){.ic .ic-gal-aud .ic-gal-item:hover .ic-gal-img{border-color:transparent}}
+.ic .ic-rp-aud .ic-aud-units{margin:8px 0 0;font-size:12px;line-height:1.4;color:var(--soft);text-align:center}
 .ic .ic-rp-aud .ic-fig img{max-height:70vh;max-height:70svh;max-height:calc(var(--ic-svh, 100svh) * .7)}
 /* просмотр одной гравюры (openImgFull) на базе .ic-svx */
 .ic-svx-one .ic-svx-feed{display:flex;align-items:center;justify-content:center;padding:8px}
