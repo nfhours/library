@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "211";
+  var APP_VER = "213";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -2862,7 +2862,7 @@
       }).join("")+'</ul>';
     }).join("");
     root.innerHTML = ripaShell(book, "plates", "")+
-      '<div class="ic-wrap ic-rp"><div class="ic-top-row">'+langSwitch()+'</div>'+
+      '<div class="ic-wrap ic-rp'+(aud ? " ic-rp-aud" : "")+'"><div class="ic-top-row">'+langSwitch()+'</div>'+
         '<header class="ic-head"><p class="ic-kicker">'+esc(bt(book.meta.title))+'</p><h1 class="ic-h-fr">'+esc(aud ? t("audTables") : t("hmGallery"))+'</h1></header>'+html+'</div>';
     ripaBind(book, gen, rbSheets);
     root.querySelectorAll(".ic-gal").forEach(function(g){ g.addEventListener("click", function(e){
