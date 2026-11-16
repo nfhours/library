@@ -9420,7 +9420,7 @@ I Prati si suol dire, che ridono quando verdeggiano, & i fiori quando si aprono 
 [ИНИЦИАЛ: G]Iouanetto, vestito d'habito verde, dipinto di fiori con vn capelletto in testa pieno di varie penne, le quali significano leggierezza, & instabilità, onde suol nascere l'immoderato riso, secondo il detto del Sauio: *Risus abundat in ore stultorum .*
 [ЗАГОЛОВОК: Riso.]
 [ИНИЦИАЛ: V]V Giouane, allegro, & bello : terrà in vna mano vna Maschera con la faccia distorta, & brutta, perche il brutto, & l'indecente, è senza decoro , come disse Aristotile nella Poetica dà materia di riso, & vi farà vn motto . *Amara risu tempera* .
-[ВИНЬЕТКА: mascaron: маска с лицом между завитками]
+[ВИНЬЕТКА: маскарон: маска с лицом между завитками]
 
 Колонтитул: DI CESARE RIPA. 437
 Кустод: RVMO-
@@ -9812,5 +9812,493 @@ La grassezza , è indicio d'anima sensitiua , di pensieri bassi, & di poca
 
 Колонтитул: 448 ICONOLOGIA
 Кустод: specu-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0470 · с. 449
+
+speculatione nelle cose difficili, la quale principalmente macera il corpo, & indebolisce le membra, come confermano i Fisiognomici.
+Stà co'piedi nell'acqua corrente , per dimostrare, che i piaceri del senso, sono in continuo moto, & corrono,& menano via l'età senza profitto , & senza merito . Et è difficile il sostenersi, come pericoloso il caminar per essi .
+Si piglia alcune volte l'acqua per i peccati, & l'huomo che vi stà per lo peccatore, secondo il detto di Dauid : *Intrauerunt aquæ vsq; ad animam meã .* Et in questo proposito si mostra, che seguitando l'huomo la via del senso, stà in gran pericolo di non sommergersi per mezzo d'esso, mortalmente cascando .
+I fiori,& i frutti, notano più particolarmente quattro effetti del senso, cioè il vedere, il gusto, l'odorato , & il tatto , i quali si oprano ne' fiori , & ne'frutti, scoprendo l'altro dell'vdito nel mormorio,che facilmente si può venire in cognitione, che faccia l'acqua corrente .
+[ЗАГОЛОВОК: *Sensi , come si possono rappresentare in vna figura sola .*]
+[ИНИЦИАЛ: G]Iouane, vestito di varij colori, hauerà in capo vna ghirlanda di diuersi fiori, & frutti, con vn pennacchio , il quale mostri d'esser mosso dal vento ; nella sinistra mano hauerà vna Cetera,ò Tibia, ouero Fistula,& la destra terrà nel guanto .
+Giouane si dipinge , per dimostrare con quest' età la volubilezza de i sensi .
+Li varij colori del vestimento,dinotano il senso del vedere, di cui insieme con la luce sono obietto; cosi i fiori l'odorato, & i frutti il gusto dimostrano ; & l'istromento da sonare significa quello dell'vdito,riferendo Pierio Valeriano nel 7. lib. de suoi Hieroglifici, gli Egittij hauer con alcuni de detti istromenti significato il senso dell'orecchio .
+Il tatto si dimostra col guanto,il cui vso è di difendere la mano dal freddo, dal Sole, & somiglianti cose , che al senso del tatto fanno alteratione .
+Gli si pone il pennacchio in capo , perche i sensi facilmente si mutano , come si moue il pennacchio à picciol vento .
+[ЗАГОЛОВОК: SENSI.]
+[ИНИЦИАЛ: P]ER rappresentare i cinque sentimenti del corpo in vna sola figura , si dipinge vn giouane vestito di bianco,che in capo habbia vn ragnatelo, & che gli sieno appresso vna Scimia, vn'Auoltoio, vn Cignale , & vn Lupo ceruiero ; ciascuno di questi animali si crede , che habbia vn senso più acuto,& più esquisito,che non hà l'huomo; però si dicono questi versi.
+*Nos aper auditu , linx visu, Simia gustu ,*
+*Vultur odoratu , superat Aranea tactu .*
+
+Колонтитул: DI CESARE RIPA. 449
+Кустод: S.ER
+Сигнатура: 
+Маргиналии:
+
+## Скан 0471 · с. 450
+
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: V]NA Giouane scapigliata, vestita d'habito corto, & spedito, di color bianco, che tenghi in spalla vn giogo,ouero vn grosso,& pesante sasso : Hauerà i piedi nudi alati, & camini per luogo disastroso,& pieno di spine, essendoli à canto vna Grue , che tenghi vn sasso con vn piede .
+Gli si potrà anco mettere in capo vna candela accesa, con vn motto, che dichi *Io seruo altrui, è me stessa consumo .*
+Seruitù non è altro ( si come si caua dal primo libro dell'Instituta ciuile,nel titolo de iure personarum ) che vn stato della legge de gl'huomini , col quale viene qualch'vno à esser sottoposto all'altrui dominio non per natura .
+Giouane si dipinge la seruitù, percioche resiste à gl'incommodi, à i disaggi, & alle fatiche .
+
+Колонтитул: 450 ICONOLOGIA / SERVITV'
+Кустод: L'esser
+Сигнатура: 
+Маргиналии:
+
+## Скан 0472 · с. 451
+
+L'esser scapigliata, dimostra,che essendo chi stà in seruitù obligato alli seruitij del Padrone,non può attendere alli suoi ; come ben dimostra Aristotele nel primo lib. della Politica , dicendo , che il seruo sia istromento attiuo animato con ragione tutto d'altri, & nulla di sè stesso .
+Il color bianco del vestimento, denota la candida, & pura fedeltà, la quale continuamente deue regnare nel seruo , come dice S. Matteo xxv.
+*Euge serue bone, & fidelis, quia in pauca fuisti fidelis &c.*
+Il giogo in spalla anticamente era posto per simbolo della seruitù, come narra Pierio Valeriano nel lib. 47. de suoi Hieroglifici, come anco fà mentione Seneca in Hercole Fucente, doue dice :
+*Quot iste famulus tradidit Reges neci*
+*Cur ergo Regi seruit & patitur iugum ?*
+Et Plauto in Milite .
+*Nam homini seruo suos*
+*Domitos oportet habere oculos & manus .*
+Et come habbiamo detto, in cambio del giogo si potrà rappresentare , che tenghi vn graue sasso ; percioche veramente, è duro, & graue , il sopportare il peso della seruitù, come dice Seneca in Troade .
+*Durum , inuisum, graue est seruitium ferre .*
+L'habito corto, & i piedi nudi,& alati ,significano, che conuiene alla seruitù la prontezza, & velocità .
+Il caminar con li piedi sopra le spine, dinota gl'incommodi, & difficultà, che patisce di continuo chi in seruitù si troua . Onde Dante nel 5. del Purgatorio, così dice :
+*Et prouerai si come sà di sale*
+*Lo pane altrui , & quanto è duro calle*
+*Lo scendere e salire, per l'altrui scale .*
+La Grue con il sasso nel piede, come dicemmo , significa la vigilanza che i seruitori debbano hauere per seruigio de i lor Padroni, come dice il Signor Nostro Giesù Christo, *Beati serui illi, quos cum venerit dominus inuenerit vigilantes .*
+[ЗАГОЛОВОК: SERVITV' PER FORZA.]
+[ИНИЦИАЛ: D]ONNA con il capo raso, magra, scalza, & mal vestita, che habbia segnato il viso da qualche carattere, & che sia legata con catene, & ferri alli piedi .
+La seruitù di cui parliamo vien detta à seruando, percioche essendo alcuni presi alla guerra, non s'ammazzauano,ma si seruauano,& si faceuano serui, i quali si chiamauano per forza .
+Si dipinge con il capo raso, percioche appresso i Greci,& Latini (come riferisce Pierio Valeriano nel lib. 32. de suoi Hieroglifici ) era manifesto segno di seruitù .
+L'esser magra, scalza, & mal vestita , dimostra in questa spetie di seruitù la pouertà del vitto, gl'incommodi, & non hauere cosa alcuna, che la sollieui, ripari, & che cuopra le sue miserie .
+
+Колонтитул: DI CESARE RIPA. 451
+Кустод: Il
+Сигнатура: 
+Маргиналии:
+
+## Скан 0473 · с. 452
+
+Il viso segnato nella guisa, che dicemmo, è chiarissimo segno di priuatione della libertà, come chiaramente hoggidì anco si vede .
+Le catene, & gli ferri denotano i duri legami, che di continuo tengono oppressa l'infelice vita dello schiauo .
+[ЗАГОЛОВОК: Seruitù.]
+[ИНИЦИАЛ: D]Onna scapigliata, scalza, magra,& legata,con catene,manette,& ferri a' piedi .
+Scapigliata si dipinge la seruitù, perche essendo il suo pensiero occupato in sciorsi da' fastidij importantissimi delle catene, non attende à gl'ornamenti : Mostra ancora, che i pensieri seruili sono bassi, vili, & terreni .
+E scalza, perche non hà cosa alcuna, che solleui le sue speranze , che ripari i suoi intoppi, & che ricuopra le sue bruttezze .
+E magra, per la pouertà del vitto, che seguita principalmente gli huomini di seruitù .
+Le legaccie di catene,& di ferri, sono indicio di ammissione di libertà , & d'vn possesso certo di pene, & di dolori .
+[ЗАГОЛОВОК: SETE DI GIVSTITIA.]
+Vedi la quarta Beatitudine .
+[ЗАГОЛОВОК: SFACCIATAGGINE.]
+[ИНИЦИАЛ: D]ONNA con occhi bene aperti , & fronte grande, & palpebre sanguinose, farà lasciuamente vestita, & alzandosi i panni con ambe le mani, scuopra le gambe, & le coscie ignude, appresso vi farà vna Scimia, che mostri le parti dishoneste .
+La sfacciataggine, è vn'effetto vituperabile opposto alla vergogna,che per mala operatione apporta biasimo .
+Hà gli occhi con segni sopradetti, perche notano sfacciataggine, come dice Aristotile nel 6. cap. della Fisonómia .
+Et lasciuamente si veste, per lo desiderio d'impiegare l'opere sue in danno, & vituperio dell'honor proprio .
+Parimente scuopre le celate parti del corpo , perche lo sfacciato non prezza l'honore posto in quel modo,che lo mantengono gl'altri huomini .
+La Scimia significa sfacciataggine , perche quelle parti , che si deuono tenere celate, essa per naturale instinto, scuopre, & manifesta senza alcuna auuertenza,come dimostra Pierio Valeriano lib. 6.
+[ЗАГОЛОВОК: SFORZO CON INGANNO.]
+[ИНИЦИАЛ: V]N Giouane robusto, armato da guerriero, nel destro braccio tenga auuolta vna pelle di Leone, & nella sinistra mano vna di Volpe, in atto d'esser pronto à tutti bisogni per offendere il nimico con la forza significata per il Leone ; & con la fraude , ouero inganno dimostrato nella Volpe .
+[ЗАГОЛОВОК: SICVREZZA, ET TRANQVILLITA']
+[ЗАГОЛОВОК: Nella Medaglia di Giordano .]
+[ИНИЦИАЛ: D]ONNA in piedi appoggiata ad vna colonna ,& tiene con mano vn'hasta, ouero vn Scettro, & auanti vn'Altare .
+
+Колонтитул: 452 ICONOLOGIA
+Кустод: Possiamo
+Сигнатура: 
+Маргиналии:
+
+## Скан 0474 · с. 453
+
+Possiamo intendere, che colui che stà bene con Dio, al quale si conuiene il sacrificio, può sicuramente riposare .
+[ЗАГОЛОВОК: SICVRTA', O SICVREZZA.]
+[ИНИЦИАЛ: D]ONNA, che si appoggia ad vn'hasta con la destra mano, & con la sinistra ad vna colonna, cosi si vede in vna Medaglia di Macrino.
+Et sicurtà si dice,quella fermezza,che sente l'huomo nello stato suo,come in ogn'altra cosa, senza pericolo d'esser rimosso ; Però si fà appoggiata alla colonna, che dimostra fermezza, & all'hasta , che dimostra imperio , & maggioranza , dalla quale è pericolo cascare à terra, come è virtù saperuisi conseruare con honore .
+[ЗАГОЛОВОК: Sicurtà.]
+[ИНИЦИАЛ: D]Onna, che in capo tiene vna ghirlanda d'oliuo, stà à sedere dormendo, con la destra tiene vn'hasta, nella sinistra mano posa la guancia, & la testa, tenendo il gomito del braccio della medesima mano sopra vna colonna .
+[ЗАГОЛОВОК: Sicurtà.]
+[ИНИЦИАЛ: S]Tà nella Medaglia d'Otone vna donna , che nella destra mano tiene la corona, & nella sinistra vn'hasta, con lettere, *Securitas P. R.*
+[ЗАГОЛОВОК: Sicurtà.]
+[ИНИЦИАЛ: N]Ella Medaglia d'Opilio Macrino si dipinge vna donna, la quale con la sinistra mano s'appoggia ad vna mazza, & con l'altra sopra d'vna colonna, con lettere, *Securitas temporum .*
+[ЗАГОЛОВОК: SILENTIO APPVLEIO.]
+[ИНИЦИАЛ: H]VOMO senza faccia, con vn capelletto in testa , ignudo, con vna pelle di Lupo à trauerso, & tutto il corpo suo farà pieno d'occhi, & d'orecchi.
+Questo huomo senza faccia, dimostra, che con tutto il viso si parla , prestamente con la lingua, tacitamente con gli occhi, con la fronte,& con le ciglia ; & però per dar ad intendere il silentio Appuleio formò questa imagine .
+Il capello sopra alla testa, significa la libertà , che l'huomo hà di parlare,& di tacere, ma sopra d'vna testa senza lingua dimostra esser meglio il tacere, che il parlare, quando non sia necessario, perche gli occhi, & gli orecchi per la veste, auertiscano, che molto si deue vedere , & vdire, ma parlar poco, come accenna la pelle del Lupo, perche il Lupo , se vede alcuno auanti,che sia veduto da lui, gli fà perdere subito la parola,in modo che con gran sforzo quello, che è veduto, à pena può mandar fuori vn debolisimo suono, & tacendo, à gran passi questo animale se ne fugge con la preda rapita . Però giudicorno gl'antichi, che si douesse adoprare per memoria del silentio .
+[ЗАГОЛОВОК: Silentio.]
+[ИНИЦИАЛ: D]Onna con vna benda legata à trauerso del viso , che le ricuopra la bocca .
+E sentenza di Macrobio , che la figura di Angenora con la bocca lega-
+
+Колонтитул: DI CESARE RIPA. 453
+Кустод: ta
+Сигнатура: Ff
+Маргиналии:
+
+## Скан 0475 · с. 454
+
+ta, & suggellata in segni, che chi sà patire, & tacere , dissimulando gli affanni, li vince al fine facilmente, & ne gode poi vita lieta,& piaceuole .
+[ЗАГОЛОВОК: Silentio.]
+[ИНИЦИАЛ: V]N Giouanetto, che si tenga il dito indice alla bocca in atto di far cenno, che si taccia, & che nella sinistra mano tenghi vn persico con le foglie .
+Fù il Persico dedicato ad Arpocrate Dio del silentio, perche hà le foglie simili alla lingua humana, & il frutto rassomiglia al core,volsero forse significare, che il tacere à suoi tempi è virtù , però l'huomo prudente non dee consumare il tempo in molte parole vane, & senza frutto, ma tacendo hà da considerare le cose prima, che ne parli.
+Si fà giouane, perche ne i giouani principalmente il silentio è segno di modestia, & effetto virtuoso, seguitando l'vso de gli Antichi, che dipingeuano Arpocrate giouane con l'ali, & col viso di color nero, perche il silentio, è amico della notte, come dicono i Poeti. Ne mi pare di douer tralasciare i versi dell'Ariosto, che del silentio dicono cosi.
+*Il silentio và intorno , e fà la scorta .*
+*Hà le scarpe di feltro , e'l mantel bruno ,*
+*Et à quanti n'incontra di lontano ,*
+*Che non debba venir cenna con mano .*
+[ЗАГОЛОВОК: Silentio.]
+[ИНИЦИАЛ: H]VOMO vecchio, il quale si tenga vn dito alle labra della bocca & appresso vi farà vn'Oca con vn sasso in bocca .
+Perche l'età senile persuade facilmente il silentio,come quella che confida più ne'meriti , nella fama acquistata, che nelle parole , si fà il silentio da alcuni di questa età .
+L'Oca,è molta dedita al continuo stridere,& cingottire con molta garrulità, & senza consonanza , ò armonia alcuna ; però tenendo il sasso in bocca, c'insegna, che non ci trouando noi atti à poter parlare in modo , che ne possiamo acquistare lode, dobbiamo tacere più tosto ; accioche se non si cresce, almeno non si sminuisca l'opinione del nostro sapere ; essendo che il silentio agguaglia più i più ignoranti, à più dotti, & però diceua vn sauio, che l'huomo s'assomigliaua alle pentole,le quali non si conoscano se siano sane, ò rotte, se non si fanno sonare . Et Socrate douendo dar giuditio di vno nouo Scolare della sua scola , disse di volerlo sentire, per poterlo vedere . Scriue Ammiano dell'Oche,che partendosi per lo troppo calore del Sole dall'Oriente, all'Occidente,& essendo loro necessità passare per lo monte Tauro, oue è gran abondanza d'Aquile , timide della forza loro,per non manifestarsi con lo strepito naturale della bocca, prendano con essa vn sasso,& lo sostentano fino che si esce fuori del pericolo .
+[ЗАГОЛОВОК: Silentio.]
+[ИНИЦИАЛ: F]Anciullo,come si è detto,col dito alla bocca, con l'ali alle spalle di color nero ; stà sedendo , & mostrando di non potersi reggere in piedi , per difetto della debolezza delle gambe;tiene in mano vn corno di diuitia
+
+Колонтитул: 454 ICONOLOGIA
+Кустод: &
+Сигнатура: 
+Маргиналии:
+
+## Скан 0476 · с. 455
+
+& d'intorno alcuni vasi pieni di lenticchie,& d'altri legumi,cõ le persiche, che sono le primitie, che al silentio per religione si offeriuano .
+Gli si farà ancora appresso vn Cocodrillo, il quale non hauendo lingua da fare alcuna sorte di strepito , à ragione si potrà dire hieroglifico del silentio .
+[ЗАГОЛОВОК: SIMPLICITA'.]
+[ИНИЦИАЛ: G]IOVANETTA, vestita di bianco,la quale tenga in mano vna Colomba bianca, & vn Fagiano.
+Giouanetta si dipinge, per la proportione dell'età , la quale nel principio del sapere, è simile ad vna carta bianca,oue non sia scritto, non essendo altro la simplicità,che vn'ignoranza iscusabile del bene,& del male senza cattiua intentione . Et si prende in questo luogo in buona parte per coloro,che non hanno applicato l'animo à vitij, se bene ancora si domandano semplici gli huomini di poco partito .
+Vestesi di bianco, per essere questo colore semplicissimo, ouero senza compositione .
+Et la colomba ancora si pone per esser da Christo Sig.Nostro data per inditio della vera,& lodeuole semplicità , con la quale si arriua cielo . Et per questo egli medesimo chiamaua i fanciulli, dicendo, *Sinite paruulos venire ad me .*
+Et in proposito di simplicità biasmeuole si dipinge il Fagiano , il quale crede non esser veduto da altri,quando esso hà nascosta la testa,& che non può vedere,come raccontano molti . Et Ouidio nel 6. delle Metam.
+[ЗАГОЛОВОК: SIMVLATIONE.]
+[ИНИЦИАЛ: D]ONNA con vna Maschera sopra al viso, in modo che mostri due faccie, farà vestita di cangiante, & nella destra mano terrà vna Pica.
+Simulatione, è il nascondere con doppiezza di parole, & di cenni l'animo, & il core proprio ; però tiene la maschera sopra il volto , ricoprendo il vero per far vedere il falso . Il che si mostra ancora per lo color cangiante della veste .
+La Pica, significa simulatione, perche hà vna parte della penna bianca, & l'altra nera .
+[ЗАГОЛОВОК: SIGNORIA.]
+Vedi Imperio .
+[ЗАГОЛОВОК: SINCERITA'.]
+[ИНИЦИАЛ: D]ONNA vestita d'oro, che con la destra mano tenghi vna Colomba bianca, & cõ la sinistra porghi in atto gratioso,& bello vn cuore .
+E' la sincerità pura, & senza finta apparenza, & artificio alcuno ; però si rappresenta, che tenghi la bianca Colomba,& il vestimento d'oro .
+
+Колонтитул: DI CESARE RIPA. 455
+Кустод: Il por-
+Сигнатура: Ff 2
+Маргиналии:
+
+## Скан 0477 · с. 456
+
+[ГРАВЮРА: без подписи]
+Il porgere il cuore,denota l'integrità sua,perche non hauendo l'huomo sincero vitio alcuno di volontà , non cela l'intrinseco del cuor suo , ma lo fà palese ad ogn'vno .
+[ЗАГОЛОВОК: Sincerità .]
+[ИНИЦИАЛ: V]Na bellissima giouanetta con capelli biondi com'oro , sparsi giù per le spalle, senz'artificio alcuno, sarà vestita d'vn sottilissimo,& candido velo,& che con la destra mano mostri d'hauersi scoperto il petto,mostrando ambe le mammelle , & con la sinistra tenghi vn Caduceo , in cima del quale sia vna colomba bianca .
+[ЗАГОЛОВОК: SOBRIETA']
+[ИНИЦИАЛ: D]ONNA vestita semplicemente,che con la destra mano tenghi vna chiaue, la sinistra sopra il petto, & sotto alli piedi vn pesce , & da vn lato di detta figura vi sia vna fontana,dallaquale scaturisca acqua chiara.
+
+Колонтитул: 456 ICONOLOGIA / SINCERITA'.
+Кустод: SOC-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0478 · с. 457
+
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: H]VOMO armato, che nella destra mano porti vna spada ignuda,& nella sinistra vn ramo di Quercia col suo frutto .
+Il Soccorso hà due parti principali, l'vna aiuta , & soccorre altrui con vettouaglia , per scacciare il pericolo della fama, con l'altra resiste alla forza de gl'inimici.per salute di quello,che si soccorre ; però si dipinge armato per aiutare i deboli,& bisognosi, contro alla potenza de gl'inimici , & col ramo di quercia carco de ghiande, per aiutare nelle necessità della fame, hauendo anticamente soccorso à sè stessi gli huomini in tempo di necessità per mezzo di questo frutto, che è dedicato à Gioue , il qual gioua, & soccorre tutto il mondo, essendo Gioue l'aria più pura, & purgata , onde noi respiriamo, & viuiamo .
+
+Колонтитул: DI CESARE RIPA. 457 / SOCCORSO.
+Кустод: SOLI-
+Сигнатура: Ff 3
+Маргиналии:
+
+## Скан 0479 · с. 458
+
+[ИНИЦИАЛ: D]ONNA vestita di bianco, con vn Passaro solitario in cima del capo ; terrà sotto il braccio destro vn Lepre, & nella sinistra vn libro , stando in luogo remoto,& solitario ; & però dicesi , che la solitudine è habitatione de gl'huomini in luogo rustico,& remoto, lungi dalle conuersationi del volgo,& da publici,& priuati maneggi della Patria, essercitando religione, dottrine , ò qualche virtuosa attione ; & il Petrarca nel Sonetto 28.
+*Solo è pensoso i più diserti campi*
+*Vò misurando à passi tardi , e lenti .*
+Il color bianco del vestimento, significa l'intentione di colui,che habita nella solitudine , che è di mantenersi candido , & puro da ogni sorte di macchia, che possa imbrattare l'anima, ò da negotij , che la coloriscono , ò da gl'amori mondani, che la rendono fosca ; onde il Petrarca nel Sonetto 222. sopra di ciò così dice .
+*Cercato hò sempre sol'taria vita*
+*Le riue il sanno le campagne , e i boschi ,*
+*Per fuggir questi ingegni sordi , e loschi ,*
+*Che la strada del Cielo hanno smarrita .*
+Il Passaro , come dicemmo , è per sua natura vccello solitario, come dice il Salmo 91.
+*Factus sum sicut passer solitarius in tecto .*
+Gli si mette sotto il braccio destro il Lepre, percioche volendo gl'Egittij, come narra PierioValeriano nel lib.13. significare l'huomo solitario, si dipingeuono vn Lepore nel suo couile,atteso,che questo animale stà solo, & rare volte se ne trouono nel medesimo couile due , ò quando stanno vicino,stanno lontano l'vno dall'altro per spatio d'vna pezza di terra .
+Il libro, ci dimostra, che il fine dell'huomo solitario, deue essere lo studio di sapienza, & di dottrina , altrimente la solitudine è cosa degna d'infamia ; però disse Aristotile nel primo lib. della Politica , che l'huomo solitario ò è Angelo, ò bestia, per Angelo intendendo quel,che fatio delle cose mondane si riuolta alle contemplationi,& gode in sè stesso,ne gl'Angeli, ne gl'huomini, nelle piante, & in tutte le cose, rendendo le lodi,che deue al suo Creatore ; per bestia dall'altra banda, quel che viue in solitudine per poltroneria , perche la vita solitaria à chi non hà dottrina è piena d'infidie , e di paura , come disse Cicerone nel primo lib. de fini : & à chi non hà religione è biasmeuole, & vituperosa .
+
+Колонтитул: 458 ICONOLOGIA / SOLITVDINE.
+Кустод: SOLLE-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0480 · с. 459
+
+[ЗАГОЛОВОК: SOLLECITVDINE.]
+[ИНИЦИАЛ: D]ONNA vestita di rosso, & verde, nella destra mano tenga vn sti-
+molo, ouero sperone, & nella sinistra vna facella.
+Il vestimento rosso,& verde, significa la speranza insieme col desiderio
+& l'amore, onde si genera la sollecitudine.
+Il stimolo significa il desiderio efficace di conseguire, ò di finire alcuna
+cosa ; però Teocrito vsaua spesso di nominare la sollecitudine, amorosa punta, ouero stimolo d'amore.
+Per la facella, ancora si dimostra il desiderio,& la sollecitudine intenta
+che ardendo nel cuore non lascia viuere in pace, fin che non si è venuto à
+buon fine.
+Et la fiamma significa la sollecitudine, perche con caldezza,& prestezza fà l'opera sua, consumando quel che bisogna, per mantenere nell'esser
+suo il proprio splendore.
+[ЗАГОЛОВОК: SOLLECITVDINE.]
+[ИНИЦИАЛ: D]ONNA Giouane, con l'ale nelle spalle, & à piedi hauerà le braccia, & gambe ignude, & hauerà vna trauersina rossa con vn' arco
+teso nella sinistra mano, cauando con la destra vna faetta dalla faretra, &
+à piedi vi sarà vn Gallo.
+L'ali alle spalle, & à piedi, mostrano velocità, & sollecitudine, & però
+si dice, alcun'hauere messe l'ali, quando è sollecito nelle sue attioni, così
+disse Vergilio di Caco ladrone perseguitato da Hercole.
+*Speluncamq; petit, pedibus timor addidit alas.*
+Le braccia, & gambe ignude, significano destrezza, & speditione.
+Il color rosso, è per la somiglianza del fuoco, il quale significa solleci-
+tudine, per la già detta ragione.
+L'arco teso, & lo strale apparecchiato per saettare, è la continua intentione della mente, che drizza i pensieri all'opera, come à suo fine.
+Si dipinge il Gallo come animale sollecito, il quale all'hore sue determinate, si desta cantando, perche non lascia la sollecitudine finire li sonni intieri, conforme al detto di Homero.
+[ВИНЬЕТКА: орнаментальная заставка с маскароном]
+
+Колонтитул: DI CESARE RIPA. 459
+Кустод: SOLLE-
+Сигнатура: Ff 4
+Маргиналии:
+
+## Скан 0481 · с. 460
+
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: B]ELLA Donna, leuata sopra due ali, con vn Gallo sotto a' piedi, & il Sole che spunti fuori dall'onde marine.
+Si dipinge questa figura bella, perche la sollecitudine piglia per i capelli l'occasione, & la ritiene con tutto il bene,& bello che porta seco.
+L'ali significano velocità, & il Gallo diligenza. Et per mostrare, che deue essere perseuerante la sollecitudine, per essere commendabile,si aggionge il Sole, il quale nel suo veloce corso, è durabile,& permanente.
+[ЗАГОЛОВОК: Sollecitudine.]
+[ИНИЦИАЛ: D]onna con vn'Orologio in mano.
+L'Orologio si pone per il tempo, il quale è tanto veloce, che propriamente l'andar suo si puol dire volo, & ammonisce noi altri, che nelle
+nostre attioni,siamo presti,& solleciti,per non esser, tardando,oppressi da
+lui,& presi nelle insidie, che tutta via ci ordisce.
+
+Колонтитул: 460 ICONOLOGIA / SOLLECITVDINE.
+Кустод: SOL-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0482 · с. 461
+
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: V]N Giouane d'età di 25. anni, tutto nudo,eccetto le parti vergognose,quali saranno coperte con vn velo di colore purpurino ; starà detta figura in atto di ritornare indietro, hauendo in capo vna ghirlanda di
+spicche di grano.
+Hauerà sopra la testa à vso d'vna corona, vn circolo turchino, largo
+quanto sarà la figura nelle spalle,nel qual circolo si scolpiranno noue stelle, & in mezzo d'esse il segno del Capricorno 64. Con la destra mazo terrà vn globo,ò palla, che dir vogliamo , della quale sarà oscura la quarta parte, che sarà la parte verso terra, & il restante , cioè li tre quarti di so-
+pra, saranno luminosi,con l'altra mano terrà vn Grancio, & alli piedi hauerà quattro alette, dal piede destro doi alette bianche, & dal sinistro vna
+bianca, & l'altra negra.
+
+Колонтитул: DI CESARE RIPA. 461 / SOLSTITIO ESTIVO.
+Кустод: 
+Сигнатура: Ii
+Маргиналии:
+
+## Скан 0483 · с. 462
+
+Il Solstitio, è in quel tempo,che il Sole è più vicino à noi,& in quel tempo, che è più lontano,& si dimanda l'vno estiuo, & fassi alli 21.di Giugno,
+& l'altro Hiemale,& fassi alli 21. di Decembre, & si dimāda Solstitio,cioè
+stato del Sole,perche il Sole non passa più auanti, & in questo suo viaggio,
+ne descriue doi circoli, che terminano il suo corso, vno verso il polo Artico,& l'altro verso il polo Antartico,& ciascuno di essi è distante dal suo polo gradi 66. & dall'equinottionale gradi 24. & ciascuno diuide la sfera in
+doi parte inequale , & si chiamano circoli Tropici, che vuol dire conuersione, ouero ritorno , perche stando il Sole nel primo punto del Cancro ,
+ne fà il circolo detto nel moto del firmamento, & è l'vltimo da lui fatto
+nella parte Settentrionale, & è quello che si dice circolo del Solstitio estiuo, & doue per il passato si auicinaua à noi, per l'auenire si discosta, & allontana sino che arriua al punto del Capricorno , facendo l'altro vltimo
+circolo nel moto del firmamento dall'altre parti verso il polo Antartico,
+& è quello,che si dice circolo del Solstitio Hiemale, & doue prima sempre
+si allontanaua da noi,per l'auenire si vien'accostando,& l'offitio de i detti
+circoli, è di distinguere i Solstitij nelle maggiori declinationi del Sole,come si è detto nelli primi gradi del Cancro,& del Capricorno,& si dice estiuo nel primo punto del Cancro, perche essendo più vicino che possa essere
+à noi, ne porta l'estate,& in tal tempo , è il maggior giorno di tutto l'anno, & la minor notte,& nel primo punto di Capricorno chiamasi Solstitio
+brumale , cioè dell'Inuerno , & è quando il Sole se ne stà più lontano da
+noi, che possi essere, apportandoci l'Inuerno,& in tal tempo è la maggior
+notte di tutto l'anno , & il minor giorno, & tanto è il giorno del Solstitio
+estiuo, quanto è la notte del Solstitio hiemale .
+Si dipinge giouane di età di 25. anni , perche essendosi partito il Sole
+dal primo punto di Ariete,& arriuato al primo punto del Cancro,hà fatto la quarta parte del suo corso.
+Si fà nudo, & con il velo,come dicemmo,di color purpurino , per segno
+di maggiori caldi dell'anno .
+Stà in atto di ritornare indietro,perche il Sole toccando il circolo equinotiale, non si ferma, ma ritorna indietro .
+Il circolo con il segno del Cancro, & le noue stelle si domanda Tropico
+del Cancro , & vi sono le noue stelle, per essere le più notabile nel detto segno, & gli si pone in cima del capo , perche il Sole in tal tempo è più vicino à noi, & toccando detto circolo, fà il Solstitio.
+Il Globo ouero palla, lo deue tenere con la mano destra, per essere il Sole in quel tẽpo della parte di Settẽtrione,che è la parte destra del mondo.
+Li tre quarti luminosi, ne significano la lunghezza delli giorni in tal
+tempo, & il quarto oscuro ne dinota la cortezza della notte, facendo il Sole tale effetto .
+Tiene con la sinistra mano il Cancro,cioè Grancio, per essere vno delli
+dodici segni del Zodiaco, & questo segno hà proprietà del detto animale,
+essendo, che egli camina all'indietro , facendo in tal tempo il Sole simil-
+mente
+
+Колонтитул: 462 ICONOLOGIA
+Кустод: mente
+Сигнатура: 
+Маргиналии:
+
+## Скан 0484 · с. 463
+
+mente tale effetro , ritornando in dietro .
+L'alette alli piedi, significano il moto del tempo , perche come vogliono alcuni Filosofi, il tempo non è altro,che vn moto circolare successiuamente, & ne porta le stagioni vna doppo l'altra , l'Estate doppo la Primauera, l'Inuerno doppo l'Autunno, & di nuouo ritornando per modo di successione ciascuna stagione, ne porta l'effetti suoi .
+Le tre bianche, ne dimostrano tanto maggiore essere il giorno, quanto
+minore la notte significata per la negra , che tanto l'vno quanto l'altro
+caminano .
+La ghirlanda di spighe di grano, dinota tal segno portarci l'estate , per
+differenza del Solstitio hiemale, che ne porta l'Inuerno .
+[ЗАГОЛОВОК: SOLSTITIO HIEMALE.]
+[ГРАВЮРА: без подписи]
+
+Колонтитул: 463 DI CESARE RIPA.
+Кустод: HVO-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0485 · с. 464
+
+[ИНИЦИАЛ: H]VOMO maturo quasi vecchio, vestito tutto di pelle, con vn circolo alli piedi à vso di corona di color turchino,in mezzo del quale vi sarà il segno del Capricorno , & à torno à detto circolo, vi saranno
+scolpite 12. stelle.
+Con la sinistra mano terrà vn globo, ouero palla, della quale la quarta
+parte sarà luminosa, & il restante oscura .
+Sotto al braccio destro, terrà con bella gratia vna capra.
+Alli piedi hauerà quattro alette, al piede destro l'vna sarà bianca , &
+l'altra negra, & al piè sinistro, saranno ambedue negre .
+Si deue figurare quasi vecchio, perche essendosi partito il Sole dal primo punto dell'Ariete,& auicinato al Capricorno, hà fatto le tre parti del
+suo viaggio .
+Vestesi di pelle, per essere in quella stagione li maggiori freddi di tutto
+l'anno .
+Hauerà alli piedi il circolo con il segno di Capricorno,& le 12. stelle ,
+atteso che il Sole sia arriuato doue hà potuto arriuare lontano da noi verso il polo Antartico, & chiamasi circolo Tropico di Capricorno .
+Tiene con la sinistra mano il globo,ouero palla simile all'altre, eccetto
+che dalla parte da basso li 3. quarti sono oscuri,& il quarto di sopra luminoso , & per dimostrare che tal tempo ne porta la notte più longa , & il
+giorno più breue .
+Lo tiene con la mano sinistra , perche il Sole in questo tempo si ritroua
+à man sinistra verso il polo Antartico .
+Tiene sotto al braccio destro vna Capra,animale appropriato à detto
+segno, perche si come la capra si pasce nell'alte rupe , & ne gl'alti precipitij,cosi il Sole in questo tempo è nell'altisimo grado verso mezzo giorno,
+ouero perche il Capricorno suole salire li monti, cosi il Sole in questo tempo comincia à salire verso noi.
+L'alette alli piedi, ne significano, come si è detto,il moto del tempo , le
+tre parti negre per la notte , & la bianca per il giorno ; & per dare ad intendere la disuguaglianza, che è da vn'altro , la bianca sarà dal piede destro, perche la luce precede alle tenebre .
+[ЗАГОЛОВОК: SONNO.]
+[ИНИЦИАЛ: H]VOMO corpolento, & graue, vestito di pelle di Tasso, stando sopra vn letto di papauero , & vna vita carica d'vua matura gli farà
+ombra, & hauerà vna grotta vicina, oue si veda vn zampollo d'acqua.
+[ЗАГОЛОВОК: Sonno.]
+[ИНИЦИАЛ: V]N Giouane con l'ali alle spalle, che con la destra mano tenghi vn Cornucopia, onde esca fumo, sarà languido,con due vesti,vna bianca di sopra,che cuopra fino alla cintura , & l'altra di sotto nera, & lunga ;
+nella sinistra mano terrà vna verga .
+Perche il sonno nell'oscurità della notte commodamente si fomenta; si
+dipinge con la veste nera, & con la bianca, perche l'vno, & l'altro tempo
+può seruire a'bisognosi d'essi .
+
+Колонтитул: 464 ICONOLOGIA
+Кустод: 
+Сигнатура: H
+Маргиналии:
+
+## Скан 0486 · с. 465
+
+Il cornucopia di cui esce il fumo, dimostra la cagione del sonno essere i
+vapori, i quali salendo alla testa , lo cangiano , & per mezzo di esso si risoluano .
+La verga si dipinge, per lo costume antico, che diedi à Mercurio la verga, con la quale dispensaua à mortali, ò il sonno, ò la morte, come i Poeti
+raccontano,& Virgilio nel v. dell'Eneide descriuendo il sonno,che fece cadere Palinuro dalla naue in mare, dice che portaua vn ramo infuso,& bagnato nelle onde stigie .
+L'ali, & l'età giouenile , dimostrano la velocità del sonno , & la piaceuolezza dell'hore, che dormendo si spendono . Però disse Seneca .
+O sonno, almo ristoro alle fatiche
+De mortali , & del animo quiete ,
+E del viuere human la miglior parte ;
+O de la bella Astrea veloce figlio ,
+E de la morte languido fratello ,
+Che insieme mesci il vero, & la bugia ,
+E quel che dee venir chiaro ci mostri ,
+Con certo, & spesso ( ahime ) con tristo nuncio ,
+Padre di tutto , porto de la vita
+Riposo de la luce, & de la notte ,
+Fido compagno, tu non più riguardi
+Al Re , che al seruo, ma vieni egualmente
+A l'vno, & l'altro ; e ne le stanche membra
+Placido entrando la stanchezza facci.
+E à quel , che tanto temono i mortali
+Li auezzi sì , che imparino il morire .
+Et queste cose non hanno bisogno di dichiaratione per esser ampla descrittione poetica,tirata da gl'effetti che si vedono,& si trouano del sōno.
+[ЗАГОЛОВОК: Sonno.]
+[ИНИЦИАЛ: I]L Doni finse per lo sonno vn'huomo , che dorme tra due Tassi, con alcuni ghiri appresso ; i quali sono animali inclinatissimi à dormire.
+[ЗАГОЛОВОК: SORTE.]
+[ИНИЦИАЛ: D]ONNA vestita di color mischio, nella destra mano tiene vna corona d'oro, & vna borsa piena, & nella sinistra vna corda .
+Il color mischio, significa la varietà delle sorti .
+La corona d'oro, & il laccio, sono segno, che per sorte ad alcuno tocca
+la felicità, ad altri l'infortunio ; & il discorrere se la sorte sia , ò che cosa
+sia, è opra da trattare in altr'occasione . Basta solo, che noi sorte dimandiamo i rari auenimenti delle cose,che sono fuor dell'intentione dell'agente . Il che fù espresso benissimo conforme à questa figura, in quei quattro
+versi tradotti d'Ausonio,di Greco in questa guisa .
+
+Колонтитул: 465 DI CESARE RIPA.
+Кустод: Thesauro
+Сигнатура: 
+Маргиналии:
+
+## Скан 0487 · с. 466
+
+[ГРАВЮРА: без подписи]
+*Thesauro inuento, qui limina mortis inibat
+Liquit ouans laqueum, quo periturus erat.
+At, qui, quod terræ abdiderat, non reperit aurum,
+Quem laqueum inuenit, nexuit, & peryt.*
+[ЗАГОЛОВОК: Sorte.]
+[ИНИЦИАЛ: G]Iouanetta cieca, ma di fresca età, alla quale soffiando da vna banda
+il vento, mostri di gonfiare la veste, & porti nel grembo alcune gioie, & ornamenti di nobiltà .
+Poca distintione si dà fra la sorte, & la fortuna, & però l'vna,& l'altra si
+dipinge
+
+Колонтитул: 466 ICONOLOGIA / SORTE.
+Кустод: dipinge
+Сигнатура: 
+Маргиналии:
+
+## Скан 0488 · с. 467
+
+dipinge cieca, perche non seguitono il merito de gli huomini, anzi quasi
+naturalmente ambedue attendono à fauorire il merito di minor prezzo ;
+però diciamo, che l'età fresca, & giouenile suol essere madre de pochi
+meriti .
+I venti che gonfiano la veste, dimostrano, che la sorte viene aiutata
+dalle parole, & dal fauore de gli huomini efficaci, ouero dall'aura popolare, & porta il grembo pieno di gemme, perche la si essercita in far abondare gl'huomini de beni non aspettati , & si dice tal'hora sorte ancora , il
+successo de gli auenimenti cattiui.
+[ЗАГОЛОВОК: SOSTITIONE.]
+[ИНИЦИАЛ: D]ONNA vecchia, magra, armata, & per cimiero portarà vn Gallo,sarà vestita sotto dall'armatura d'vna trauersina di color turchino, & giallo ; nel sinistro braccio porterà vn Scudo, nel quale sia dipinta
+vna Tigre, porgerà il detto braccio in fuori in atto di guardia, & con la
+destra terrà vna spada ignuda in atto di ferire .
+Vecchia si dipinge, per la lunga esperienza dalla quale ella è solita di
+nascere, & però si veggono i giouani essere pocchissimi,& i vecchi moltissimi sospettosi.
+L'Elmo, & lo Scudo con la spada in atto di ferire, significa timore , con
+che il sospettoso è solito di prouedere à sè stesso, onde sopra di ciò l'Ariosto nel secondo de gl'vltimi cinque Canti del sospetto, cosi dice .
+*Grida da merli, & tiene le guardie deste ,
+Ne mai riposa al Sol, ne al ciel oscuro .
+E ferro sopra ferro , e ferro veste ,
+Quanto più s'arma, è tanto men sicuro .
+Muta , & accresce hor quelle cose, hor queste
+Alle porte, al serraglio, al fosso, al muro
+Per darne altrui monition, gli auanza ,
+E non par che mai ne habbia à bastanza .*
+Il Gallo nel cimiero, dimostra la vigilanza de sospettosi, essendo il gallo,come dice Appiano, animale egualmente vigilante, & sospettoso .
+La Tigre posta nel Scudo, secondo Aristotile nell'historia de gl'animali, significa sospettione ; forse perche il sospettoso prende in sinistra parte
+le cose, che si fanno, come la Tigre, che sentendo l'armonia del suono,che
+è per sè stesso piaceuole, prende fastidio, & rammarico .
+[ВИНЬЕТКА: орнаментальная заставка с маскароном]
+
+Колонтитул: 467 DI CESARE RIPA.
+Кустод: SOSTAN-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0489 · с. 468
+
+[ЗАГОЛОВОК: SOSTANZA.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: D]ONNA vestita d'oro, nella destra mano tiene vn mazzo di spiche
+di grano, & nella sinistra alcuni grappi d'vua, gettando latte dalle
+mammelle.
+[ЗАГОЛОВОК: SOTTILITA'.]
+[ИНИЦИАЛ: L]A Sottilità hà somiglianza con la prudenza, perche come il prudente
+penetra tutte le cose, cosi anco la sottilità nel corpo de Beati penetra
+tutti gli spatij ; Però si dipinge Donna,che trapassi vna muraglia da vna
+parte all'altra , & si dicono per metafora , sottili i pensieri alti, & difficili
+de belli ingegni .
+[ЗАГОЛОВОК: SPAVENTO.]
+[ИНИЦИАЛ: S]I dipinge con faccia, & habito di femina, ma alterato,& spauenteuole, & vna cosi fatta imagine dello spauento dedicorno i Corinti a' fi-
+
+Колонтитул: 468 ICONOLOGIA / SOSTANZA.
+Кустод: gliuoli
 Сигнатура: 
 Маргиналии:

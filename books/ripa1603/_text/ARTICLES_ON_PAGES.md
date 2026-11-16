@@ -422,3 +422,23 @@
 | 0467 | SCORNO.; SDEGNO.; SECRETEZZA. |  |  | r556, r557, r558 | нет рамки |
 | 0468 | SECOLO.; SENTIMENTI.; VISO.; VDITO. |  |  | r559, r560, r561, r562 | нет рамки |
 | 0469 | ODORATO.; GVSTO.; TATTO.; SENSO. |  |  | r563, r564, r565, r566 | нет рамки |
+| 0470 | *Sensi , come si possono rappresentare in vna figura sola .*; SENSI. |  |  | r567 | нет рамки |
+| 0471 |  | SERVITV' | 0471_1 | — | бегущий заголовок |
+| 0472 | SERVITV' PER FORZA. |  |  | r569 | нет рамки |
+| 0473 | Seruitù.; SETE DI GIVSTITIA.; SFACCIATAGGINE.; SFORZO CON INGANNO.; SICVREZZA, ET TRANQVILLITA'; Nella Medaglia di Giordano . |  |  | r570, r571, r572, r573 | нет рамки |
+| 0474 | SICVRTA', O SICVREZZA.; Sicurtà.; Sicurtà.; Sicurtà.; SILENTIO APPVLEIO.; Silentio. |  |  | r574, r575 | нет рамки |
+| 0475 | Silentio.; Silentio.; Silentio. |  |  | r575 | нет рамки |
+| 0476 | SIMPLICITA'.; SIMVLATIONE.; SIGNORIA.; SINCERITA'. |  |  | r576, r577, r578, r579 | нет рамки |
+| 0477 | Sincerità .; SOBRIETA' | SINCERITA'. | 0477_1 | r579 | бегущий заголовок |
+| 0478 |  | SOCCORSO. | 0478_1 | r581 | бегущий заголовок |
+| 0479 |  | SOLITVDINE. |  | — | нет рамки |
+| 0480 | SOLLECITVDINE.; SOLLECITVDINE. |  |  | r583 | нет рамки |
+| 0481 | Sollecitudine. | SOLLECITVDINE. | 0481_1 | r583 | бегущий заголовок |
+| 0482 |  | SOLSTITIO ESTIVO. | 0482_1 | r584 | бегущий заголовок |
+| 0483 |  |  |  | — | нет рамки |
+| 0484 | SOLSTITIO HIEMALE. |  | 0484_1 | r585 | заголовок перед гравюрой |
+| 0485 | SONNO.; Sonno. |  |  | r586 | нет рамки |
+| 0486 | Sonno.; SORTE. |  |  | r586, r587 | нет рамки |
+| 0487 | Sorte. | SORTE. | 0487_1 | r587 | бегущий заголовок |
+| 0488 | SOSTITIONE. |  |  | r588 | нет рамки |
+| 0489 | SOSTANZA.; SOTTILITA'.; SPAVENTO. | SOSTANZA. | 0489_1 | r589 | заголовок перед гравюрой |
