@@ -1327,3 +1327,498 @@ Il cerchio, come quello, che nelle figure non ha principio, ne fine, può signif
 Кустод: CON-
 Сигнатура: 
 Маргиналии:
+
+## Скан 0110 · с. 85
+
+[ЗАГОЛОВОК: CONSIDERATIONE.]
+[ИНИЦИАЛ: D]ONNA che nella sinistra mano tiene vn regolo, nella destra vn compasso, & ha a canto vna grue volante con vn sasso in vn piede. Sarà detta figura vestita di color perso.
+Tiene il regolo in mano, & il compasso per dimostrare, che si come sono questi instromenti mezani per conseguire con l'opera quella drittura, che l'intelletto dell'artefice si forma, così li buoni esempij, & i sauij ammaestramenti guidano altrui per dritta via del vero fine,al quale generalmente tutti aspirano, & pochi arriuano, perche molti per torte vie quasi ciechi, si lasciano dal cieco senso alla loro mala ventura trasportare.
+La grue si può adoprare in questo proposito lecitamente, & per non portare altre auttorità, che possino infastidire, basti quella dell'Alciato, che dice in lingua nostra così.
+Pittagora insegnò,che l'huom douesse
+Considerar con ogni somma cura
+L'opera, ch'egli fatta il giorno hauesse,
+S'ella eccedeua il dritto,e la misura,
+E quella,che da far pretermettesse.
+Ciò fa la grue,che'l volo suo misura
+Onde ne'piedi suoi portar vn sasso
+Per non cessar ò gir troppo alto,ò basso.
+[ЗАГОЛОВОК: CONSIGLIO.]
+[ИНИЦИАЛ: H]VOMO vecchio, vestito d'habito graue, & di color rosso, hauerà vna collana d'oro, alla quale sia per pendente vn cuore, nella destra mano tiene vn libro, & nella sinistra vna ciuetta.
+Consiglio è vn discorso, & deliberatione, che si fa intorno alle cose incerte, & dubbie, che sono da farsi, il quale con ragione elegge, & risolue il più virtuoso, & miglior effetto.
+L'huomo vecchio dimostra consiglio, come dice S.Ambrogio in Hexameron: *Senectus est in consilijs vtilior*, perche l'età matura è quella,che partorisce la perfettione del sapere, & dell'intendere, non potendo nella giouentù essere per lo poco tempo molta maturità, onde Aristotele nel libro primo Polyticorum dice, che: *Consilium pueri est imperfectum.*
+Il libro nella mano destra significa,che il consiglio nasce dallo studio di sapienza.
+La ciuetta fu l'insegna de gl'Ateniesi huomini di gran sapienza, & consiglio, fu consecrata ancora a Minerua Dea della sapienza, & nata dalle ceruella di Gioue, perche chi consiglia,deue veder lume, quando a gli altri è oscuro, & giudicare, & discernere il bene dal male,& il bianco dal nero, come la ciuetta, che vede benissimo di notte, come scriuono i naturali.
+Si vedono ancora mediante il consiglio le cose, quantunque difficili,& occulte, & leuato dall'animo il velo delle menzogne, si penetra con la vista dell'intelletto la verità.
+Vestesi di rosso, perche questo colore significa Carità, per la quale si deue muouere il saggio a consigliare li dubbiosi, il che è vna delle
+
+Колонтитул: DI CESARE RIPA. 85
+Кустод: sette
+Сигнатура: F 3
+Маргиналии:
+
+## Скан 0111 · с. 86
+
+sette opere della misericordia spirituali.
+Gli si mette al collo il cuore, percioche,come narra Pierio Valeriano nel libro 34.de suoi Ieroglifici, gli Egittij metteuano per simbolo del consiglio il cuore, essendo, che il vero, & perfetto consiglio viene dal cuore.
+[ЗАГОЛОВОК: COSTANZA.]
+[ИНИЦИАЛ: D]ONNA che tiene la destra mano alta, con la sinistra vn'asta, & si posa co'piedi sopra vna base quadra.
+Costanza è vna dispositione ferma di non cedere a dolori corporali, ne lasciarsi vincere a tristezza, ò fatica, ne a trauaglio alcuno per la via della virtù,in tutte l'attioni.
+La mano alta è inditio di costanza ne fatti proponimenti.
+La base quadrata significa fermezza,perche da qualsiuoglia banda si posi sta salda, & contrapesata egualmente dalle sue parti, ilche non hanno in tanta perfettione i corpi d'altra figura.
+L'asta parimente è conforme al detto volgare, che dice . Chi bene si appoggia cade di rado.
+Et esser costante non è altro, che stare appoggiato, & saldo nelle ragioni, che muouono l'intelletto a qualche cosa.
+[ЗАГОЛОВОК: Costanza, & Intrepidità.]
+[ИНИЦИАЛ: G]Iouane vigoroso, vestito di bianco, & rosso, che mostri le braccia ignude, & starà in atto di attendere, e sostenere l'impeto di vn toro.
+Intrepidità è l'eccesso della fortezza, opposto alla viltà, & codardia, & all'hora si dice vn'huomo intrepido, quando non teme, etiamdio quel che l'huomo costante è solito temere.
+Sono le braccia ignude, per mostrare confidenza del proprio valore, e combatte col toro, il quale essendo molestato diuiene ferocissimo, & hà bisogno, per resistere solo delle proue d'vna desperata fortezza.
+[ЗАГОЛОВОК: Costanza.]
+[ИНИЦИАЛ: V]NA donna, che con il destro braccio tenghi abbracciata vna colonna; & con la sinistra mano vna spada ignuda sopra d'vn gran vaso di fuoco acceso, & mostri volontariamente di volersi abbrugiare la mano, & il braccio .
+[ЗАГОЛОВОК: CONSVETVDINE.]
+[ИНИЦИАЛ: H]VOMO vecchio, in atto di andare,con barba canuta, & appoggiato ad vn bastone con vna mano, nella quale terrà ancora vna carta con vn motto ,che dica: *Vires acquirit eundo.* porterà in spalla vn fascio d'istromenti, co' quali s'esercitano l'arti,& vicino haurà vna ruota d'arrotare coltelli.
+L'vso imprime nella mente nostra gl'habiti di tutte le cose, li conserua à posteri,li fà decenti, & a sua voglia si fabrica molte leggi nel viuere , & nella conuersatione.
+Et si dipinge vecchio, perche nella lunga esperienza consiste la sua
+
+Колонтитул: 86 ICONOLOGIA
+Кустод: autto-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0112 · с. 87
+
+auttorità, & quanto più è vecchio,tanto meglio stà in piedi, il che s'accenna col motto che tiene in mano, il quale è conueniente ancora alla ruota, perche se essa non si muoue in giro, non hà forza di consummare il ferro, ne di arrottarlo, come non muouendosi l'vso con esercitio del consenso commune non acquista auttorità, ma volgendosi in giro vnisce talmente la volontà in vn volere, che senza saper assegnare i termini di ragione tiene gl'animi vniti in vna medesima occupatione, & constantemente se gli conserua . Però si dice, che le leggi della consuetudine sono valide, come quelle dell'Imperatore istesso, & in tutte l'arti, & in tutte le professioni, per prouar vna cosa dubbia, si pone in consideratione l'vso nato dal consenso vniuersale, quasi che sia impossibile esser le cose diuerse da quello, che esso approua. Però disse Horatio, che le buone parole del Poeta si deuono prendere dall'vso ; & in somma si nota, & si osserua in tutte le cose ,accioche non venga violato il decoro tanto necessario nel corso della ciuile conuersatione.
+Et però porterà in spalla vn fascio d'instromenti artifitiali, secondo il capriccio del pittore , non si curando noi dargli in questo altra legge.
+[ЗАГОЛОВОК: CONTENTO.]
+[ИНИЦИАЛ: G]IOVANE in habito bianco,& giallo, mostri le braccia, e gambe ignude, & i piedi alati, tenendo vn pomo d'oro nella mano destra, & nella sinistra vn mazzo di fiori, sia coronato d'oliuo,e gli risplenda in mezo al petto vn rubino .
+[ЗАГОЛОВОК: Contento Amoroso.]
+[ИНИЦИАЛ: G]Iouanetto di bello aspetto, con faccia ridente, con la ueste dipinta di fiori, in capo terrà vna ghirlanda di mirto, & di fiori insieme intessuti, nella sinistra mano vn vaso pieno di rose, con vn cuore, che si veda tra esse. Stia con l'altra mano in atto di leuarsi i fiori di capo,per fiorirne il detto cuore, essendo proprietà de gl'amanti cercar sempre di far partecipe altrui della propria allegrezza.
+[ЗАГОЛОВОК: Contento.]
+[ИНИЦИАЛ: V]N giouane pomposamente vestito, con spada a lato, haurà gioie, & penne per ornamento della testa, & nella destra mano vno specchio, & con la sinistra un bacile d'argento,appoggiato alla coscia, il quale sarà pieno di monete, & gioie.
+Il contento,dal quale pende quel pocò di felicità, che si gode in questa vita, nasce principalmene dalla cognitione del bene posseduto, perche,chi non conosce il proprio bene ( ancorche sia grandissimo ) non ne può sentire contento, & così restano li suoi meriti fraudati dentro di se stesso .
+Però si dipinge l'imagine del contento , che guarda se medesima nello specchio,& così si contempla, & si gode ricca, bella, e pomposa di corpo,
+
+Колонтитул: DI CESARE RIPA. 87
+Кустод: & d'ani-
+Сигнатура: F 4
+Маргиналии:
+
+## Скан 0113 · с. 88
+
+& d'anima, ilche dimostrano le monete, & i vestimenti.
+[ЗАГОЛОВОК: CONTRASTO]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: G]IOVANE armato, con vna trauersina rossa sotto il corsaletto, tenga vna spada ignuda in atto di volerla spingere contro alcun nemico,con vna gatta a'piedi da vna parte,& dall'altra vn cane .
+Il contrasto è vna forza di contrarij, de'quali vno cerca preualere all'altro,& pero si dipinge armato,& presto a difendersi, & offendere il nemico.
+Il color rosso ci dimostra l'alterezza dell'animo,& il dominio delle passioni , che stanno in moto,& muouono il sangue.
+Si fa in mezzo d'vn cane, & d'vna gatta, perche da dissimili, e contrarie nature prende esso l'origine.
+
+Колонтитул: 88 ICONOLOGIA
+Кустод: Con-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0114 · с. 89
+
+[ЗАГОЛОВОК: Contrasto.]
+[ИНИЦИАЛ: G]Iouanetto, che sotto all'armatura habbia vna veste di color rosso, nella destra mano tenga vn pugnale ignudo con fiero sguardo, con vn'altro pugnale nella sinistra, tirando la mano in dietro,in atto di voler ferire.
+[ЗАГОЛОВОК: CONTRITIONE.]
+[ИНИЦИАЛ: D]ONNA d'aspetto gratioso, & bello, stia in piedi co'l pugno della mano dritta serrato in atto di percuotersi il petto nudo, dalla sinistra banda, co'l braccio sinistro steso alquanto in giù, & la mano aperta, gl'occhi pieni di lachrime, riuolti verso il Cielo, con sembiante mesto, & dolente .
+La Contritione, è il dolore grandissimo, che hà vn peccatore d'hauer offeso la diuina Maestà : onde sopra di ciò l'auttore de i seguenti versi disse .
+Dolce dolor,che da radice amara
+Nasci,e de'falli all'hor,c'hai maggior dolo
+Più gioui all'alma,che conforto ha solo
+Quanto dolersi,e lagrimar impara.
+Doglia felice,auuenturosa,e rara,
+Che non opprimi il cuor:ma l'alzi al volo
+Nel tuo dolce languire io mi consolo
+Che ben sei tu d'ogni gioir più cara.
+Sebri aspra altrui,pur meco è tuo soggiorno
+Suaue,e per te fuor d'abisso oscuro
+Erto camin poggiando al Ciel ritorno.
+Così doppò calle spinoso,e duro
+Prato si scorge di bei fiori adorno,
+Che rende stanco piè lieto,e sicuro.
+Et il Petrarca nel Sonetto 86.doue dice .
+I'vo piangendo i miei passati tempi.
+[ЗАГОЛОВОК: Contritione.]
+[ИНИЦИАЛ: D]Onna bella in piedi, con capelli sparsi , vestita di bianco,con il petto scoperto , mostrando di percuoterlo con il pugno dritto , & con la sinistra mano si spogli della sua veste , la quale sarà stracciata , & di colore berrettino, in atto diuoto , & supplicheuole, calchi con i piedi vna maschera .
+Dipingesi la contritione di faccia bella , per dimostrare , che il cuore contrito , & humiliato non è sprezzato da Dio, anzi è mezano a placarlo nell'ira,come dice Dauid nel Salmo 1.& è questa vna dispositione contraria al peccato, ouero , come definiscono i Teologi, vn dolore preso de proprij peccati,con intentione di confessarli,& di sodisfare: il nome istesso non significa altro, come dice San Tomasso nell'additione della terza parte della sua somma al primo articolo: che vna confrattione , & sminuzzamento d'ogni pretensione, che ci potesse dare la superbia,per qualche bene in noi conosciuto.
+La maschera sotto a i piedi,significa il dispregio delle cose mondane,le quali sono beni apparenti solo, che lusingano, ingannano, & ritardano la vera cognitione in noi stessi.
+Sta in atto di spogliarsi de vestimenti stracciati, perche è la contritione vna parte della penitenza , per mezzo della quale ci spogliamo de vestimenti dell'huomo vecchio , riuestendoci di Christo istesso, & della
+
+Колонтитул: DI CESARE RIPA. 89
+Кустод: sua
+Сигнатура: 
+Маргиналии:
+
+## Скан 0115 · с. 90
+
+sua gratia, che adorna, & assicura l'anima nostra da ogni cattiuo incontro .
+[ЗАГОЛОВОК: CONTINENZA.]
+[ИНИЦИАЛ: D]ONNA d'età virile, che stando in piedi sia vestita d'habito semplice, come ancor cinta da vna zona,ò cintola, terrà con l'vna delle mani con bella gratia vn candido armellino .
+Continenza, è vn'affetto dell'animo, che si muoue con la ragione, à contrastare con il senso, & superare l'appetito de i diletti corporei, & per ciò si dipinge in piedi, & d'età virile, come quella più perfetta dell'altre etadi, operandosi con il giuditio, come anco con le forze al contrasto di ogni incontro, che se gli rappresenta.
+L'habito semplice, & la zona significano il ristringimento de gli sfrenati appetiti.
+Il candido armellino dimostra essere il vero simbolo della continenza, percioche non solo mangia vna volta il giorno, ma anco per non imbrattarsi, più tosto consente d'esser preso da i cacciatori, li quali per pigliare questo animaletto gli circondano la sua tana con il fango.
+[ЗАГОЛОВОК: CONTINENZA MILITARE]
+Come fu rappresentata nella Pompa funerale del Duca di Parma Alessandro Farnese, in Roma.
+[ИНИЦИАЛ: D]ONNA con vna celata in capo, & con la destra mano tiene vna spada con la punta in giù nel fodero, & il braccio sinistro steso con la mano aperta , voltando però la palma di essa mano in su.
+[ЗАГОЛОВОК: CONVITO.]
+[ИНИЦИАЛ: G]IOVANE ridente, & bello di prima lanugine, stando dritto in piedi, con vna vaga ghirlanda di fiori in capo, nella destra mano vna facella accesa,& nella sinistra con vn'asta,& sarà vestito di verde, così la dipinse Filostrato .
+Et si fa giouane, per essere tale età più dedita alle feste, & à solazzi, che l'altre non sono.
+I conuiti si fanno a fine di commune allegrezza tra gl'amici,però si dipinge bello , & ridente con vna ghirlanda di fiori, che mostra relassation d'animo in delicature, per cagione di conuersare, & accrescere l'amicitie, che suole il conuito generare.
+La face accesa si dipingeua da gl'antichi in mano d' Himeneo Dio delle nozze, perche tiene gl'animi, & l'ingegni suegliati, & allegri il conuito, & ci rende splendidi, & magnanimi in sapere egualmente fare, & riceuere con gl'amici offitij di gratitudine.
+[ЗАГОЛОВОК: CORDOGLIO.]
+[ИНИЦИАЛ: H]VOMO mesto, malinconioso, & tutto rabuffato, con ambe le mani s'apre il petto,e si mira il cuore,circondato da diuersi serpenti .
+Sarà vestito di berrettino vicino al nero,il detto vestimento sarà stracciato,solo per dimostrare il dispregio di se stesso, & che quando vno è in-
+
+Колонтитул: 90 ICONOLOGIA
+Кустод: traua-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0116 · с. 91
+
+trauagli dell'animo,non può attendere alla coltura del corpo, & il color negro significa l'vltima ruina, & le tenebre della morte , alla quale conducono i rammarichi, & i cordogli.
+Il petto aperto, & il cuore dalle serpe cinto,dinotano i fastidij,& i trauagli mondani, che sempre mordendo il cuore, & infondano in noi stesso veleno di rabbia, & di rancore .
+[ЗАГОЛОВОК: CORRETTIONE.]
+[ИНИЦИАЛ: D]ONNA d'età matura, che nella mano destra tenga vn lituo con vn fascetto di scritture, & la sinistra in atto di ammonire .
+Qui per la correttione intendiamo l'atto del drizzare la torta attione humana,& che si dilunga dalla via della ragione. Il che deue farsi da persone , che habbino auttorità, & dominio sopra coloro, che deuono esser corretti, & però si fa co'l lituo in mano vsato, segno di signoria presso gl'antichi Rè Latini, & Imperatori Romani .
+Il fascetto di scritture significa le querele,quasi materia di correttione.
+[ЗАГОЛОВОК: CORPO HVMANO.]
+[ИНИЦИАЛ: O]CCORRENDO spesse volte di rapresentare in atto sù le scene il corpo humano, & l'anima , ciascuno da se,habbiamo formate le presenti figure dell'vna,& dell'altra, come si potrà vedere al suo luogo, ma è d'auuertire prima , che per il corpo humano noi non intendiamo il corpo realmente separato dall'anima,percioche così se descriuerebbe vn cadauero, ma si bene il corpo all'anima collegato, che ambe due fanno il composito dell'huomo tutto,che per certa significatione poetica,& astrattione mentale si presuppôghino,come se ciascuna di queste parti stesse per se sola; lo rapresenteremo dunque huomo coronato di fiori ligustri,vestito pomposamente, terrà in mano vna lanterna di tela, di quella, che s'alza, & abbassa, senza lume con questo motto : ALVMINE VITA.
+Si corona di ligustri, per esser da grauissimi huomini assimigliata la vita dell'huomo, rispetto alla fragilità , & caducità di questo nostro corpo alli fiori, de quali non so, che altra cosa sia più fugace , onde il Salmista cantò nel Salmo 102 .
+*Recordatus est, quoniam puluis sumus : homo sicut fænum,dies eius tamquam flos agri sic efflorebit.* Et nel Salmo 89.
+*Mane sicut herba transeat, manè floreat, & transeat; vespere decidat,induret, & arescat.*
+Et similmente il patientissimo Iob .
+*Quasi flos egreditur, & conteritur .*
+Il vestimento delitioso, dimostra quello, che è proprio del corpo, cioè l'amare, & abbracciare i piaceri, & delettationi sensuali, si come per lo contrario aborrire li disagi, asprezze, & le molestie .
+La lanterna,nella guisa, che dicemmo, dimostra, che il corpo non hà operationi senza l'anima, si come la lanterna senza il lume non fà l'offitio suo, come il motto molto bene dichiara .
+
+Колонтитул: DI CESARE RIPA. 91
+Кустод: COR-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0117 · с. 92
+
+[ЗАГОЛОВОК: CORRETTIONE.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: D]Onna vecchia, grinza, che sedendo nella sinistra mano tenga vna ferula,ouero vno staffile,& nell'altra con la penna emendi vna scrittura,aggiungendo, & togliendo varie parole .
+Si dipinge vecchia,& grinza,perche,come è effetto di prudenza la correttione in chi la fà, così è cagione di rammarico in quello, che da occasione di farla, perche non suole molto piacere altrui sentir correggere ,& emendare l'opere sue: & perche la correttione s'essercita nel mancamento, che facciamo nella via ò dell'attioni, ò delle contemplationi.
+Si dipinge con lo staffile,& con la penna,che corregge le scritture, prouedendo l'vna co'l dispiacere del corpo alla conuersatione politica,l'altra con li termini di cognitione alla beatitudine Filosofica .
+
+Колонтитул: 92 ICONOLOGIA
+Кустод: CORRVT-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0118 · с. 93
+
+[ЗАГОЛОВОК: CORRVTTELA NE GIVDICI.]
+[ИНИЦИАЛ: D]ONNA, che stia a sedere per trauerso in Tribunale, con vn memoriale, & vna catena d'oro nella mano dritta, con vna volpe a piedi, & sarà vestita di verde .
+Dipingesi a sedere in Tribunale nella guisa, che dicemmo, perche la corruttela cade in coloro, che sententiano in giuditio, essendo essa vno storcimento della voluntà del giudice a giudicare ingiustamente per forza de'doni.
+Il memoriale in mano, & la collana sono indicio , che ò con parole , ò con danari la giustitia si corrompe .
+La volpe per lo più si pone per l'astutia, & perciò è conueniente a questo vitio, essendo , che s'essercita con astutia, per impadronirsi de denari, & delle volontà de gl'altri huomini.
+Vestesi di verde per li fondamenti della speranza,che stanno nell'hauere, come detto habbiamo di sopra .
+[ЗАГОЛОВОК: CORTE.]
+[ИНИЦИАЛ: D]ONNA giouine, con bella acconciatura di testa, vestita di verde, & di cangiante,con ambe le mani,s'alzi il lembo della veste dinanzi in modo, che scuopra le ginocchia, portando nella veste alzata molte ghirlande di varie sorti di fiori, & con vna di dette mani terrà anco de gli ami legati in filo di seta verde,hauerà a i piedi vna statuetta di Mercurio, alla quale s'appoggiarà alquanto , & dall'altra banda vn paro di ceppi di oro, ouero i ferri, che si sogliono mettere ad ambi li piedi, & che vi sieno con essi le catene parimente d'oro: sarà la terra , oue si posa sassosa , ma sparsa di molti fiori,che dalla veste le cadano ; ne piedi hauerà le scarpe di piombo.
+La corte è vna vnione d'huomini di qualità alla seruitù di persona segnalata , & principale, & se bene io d'essa posso parlare con qualche fondamento, per lo tempo,che vi ho consumato dal principio della mia fanciullezza fino a quest'hora , nondimeno racconterò solo l'Encomio d'alcuni , che dicono la corte esser gran maestà del viuere humano, sostegno della politezza,scala dell'eloquenza,teatro de gl'honori,scala delle grandezze, & campo aperto delle conuersationi , & dell'amicitie: che impara d'obedire, & di commandare, d'esser libero, & seruo, di parlare , & di tacere , di secondar le voglie altrui, di dissimular le proprie, d'occultar gli odij, che non nuocono, d'ascondere l'ire, che non offendono, che insegna esser graue, & affabile, liberale , & parco, seuero, & faceto, delicato, & patiente, che ogni cosa fà,& ogni cosa intende de'secreti de Prencipi,delle forze de Regni, de prouedimenti della Città, dell'elettioni de partiti, della conseruatione delle fortune, & per dirla in vna parola sola, di tutte le cose più honorate , & degne in tutta la fabrica del mondo, nel quale si fonda, & afferma ogni nostro oprare, & intendere .
+Però si dipinge con varie sorti di ghirlande nella veste alzata , le
+
+Колонтитул: DI CESARE RIPA. 93
+Кустод: quali
+Сигнатура: 
+Маргиналии:
+
+## Скан 0119 · с. 94
+
+quali significano quest'odorifere qualità, che essa partorisce, se bene veramente molte volte a molti con interesse delle proprie facoltà, & quasi con certo pericolo dell'honore , per lo sospetto continuo della perdita della gratia, & del tempo passato, il che si mostra nelle ginocchia ignude, & vicine a mostrare le vergogne, & ne'ceppi, che lo raffrenano , & l'impediscono,onde l'Alciati nelle sue embleme così dice.
+Vana palatinos quos educat aula clientes , Dicitur auratis nectere compedibus .
+I fiori sparsi per terra in luogo sterile, & sassoso, mostrano l'apparenza nobile del cortegiano, la quale è più artifitiosa per compiacere il suo Signore , che naturale per appagare se medesimo .
+L'acconciatura della testa maestreuolmente fatta,è segno di delicatura , & dimostratione d'alti, & nobili pensieri.
+La veste di cãgiãte,mostra che tale è la corte,dãdo,e togliẽdo a suo piacere in poco tẽpo la beneuolẽza de'Principi, e cõ essa l'honori, e facultà.
+Tien con vna mano l'hami legati cõ filo di color verde,per dimostrare, che la corte prende gl'huomini con la speranza , com'hamo il pesce.
+Le scarpe di piombo mostrano,che nel seruigio si dee esser graue, e non facilmente mouersi a'venti delle parole,ouero delle vnioni altrui,per cõcepirne odio , sdegno, rancore,& inuidia,con appetito d'altra persona .
+Se gli pone appresso la statua di Mercurio,la quale da gl'antichi fu posta per l'eloquenza, che si vede esser perpetua compagna del cortegiano.
+E stata da molte persone in diuersi modi dipinta , secondo la varietà della Fortuna , che da lei riconoscono; fra gl'altri il Sig.Cesare Caporale Perugino,huomo di bellissimo ingegno, di lettere, & di valore la dipinse, come si può vedere nei seguenti suoi versi, che così dice.
+La Corte si dipinge vna matrona
+Con viso asciutto, e chioma profumata
+Dura di schiena , e molle di persona.
+La qual se'n và d'vn drappo verde armata
+Benche à trauerso à guisa d'Hercol tiene
+Vna gran pelle d'asino ammantata .
+Le pendon poi dal collo aspre catene
+Per poca dapocaggine fatale ,
+Che scior se le potrebbe , e vscir di pene .
+Ma di specchi , e scopette vna reale
+Corona ; tien sedendo su la paglià
+Vn piè in bordello , e l'altro à lo spedale .
+Sostien con la man destra vna medaglia
+One sculta nel mezo è la speranza ,
+Che fà stentar la misera canaglia.
+Seco il tempo perduto alberga, e stanza ,
+Che vede incanutir la promissione
+Di fargli vn dì del ben se gli n'auanza .
+Poi nel rouescio v'è l'adulatione ,
+Che fà col vento de le sberrettate ,
+Gl'ambitiosi gonfiar , come vn pallone .
+Vi son anco le muse affatichate ,
+Per solleuar la misera , e mendica
+Virtute oppressa da la pouertate .
+Ma si gittano al veuto ogni faticha ,
+Che ha su'l corpo vna macina da guato ,
+E Fortuna ad ogn'hor troppo nimica .
+Tien poi nell'altra man l'ham'indorato ,
+Con esca pretiosa cruda , e cotta ,
+Che per lo più diuenta pan muffato.
+Ne lasciarò di scriuere il Sonetto del Sig. Marc'Antonio Cataldi , il quale dice a quest'istesso proposito .
+Vn vario stato . vna volubil sorte ,
+Vn guadagno dubbioso , vn danno aperto ,
+Vn sperar non sicuro , vn danno certo ,
+Vn con la vita amministrar la morte .
+
+Колонтитул: 94 ICONOLOGIA
+Кустод: Vna
+Сигнатура: 
+Маргиналии:
+
+## Скан 0120 · с. 95
+
+Vna prigion di sensi, vn laccio forte,
+Vn vender libertade, d prezzo incerto,
+Vn'aspettar mercè contraria al merto,
+E questo, che il vil volgo appella Corte.
+Quiui han gl'adulatori albergo fido
+Tenebre il ben'oprar, la fraude lume
+Sede l'ambitioni, l'inuidia nido,
+L'ordine insidie, il farsi idolo, e nume
+Vn huom mortal, l'esser di fede infido,
+Appar qui gloria: ahi secolo? ahi costume?
+[ЗАГОЛОВОК: CORTESIA.]
+[ИНИЦИАЛ: D]ONNA vestita d'oro, coronata a guisa di Regina, e che sparge collane, danari, & gioie.
+La Cortesia è virtù, che serra spesso gli occhi ne demeriti altrui, per non serrar il passo alla propria benignità.
+[ЗАГОЛОВОК: CREPVSCVLO DELLA MATTINA.]
+[ИНИЦИАЛ: F]ANCIVLLO di carnagione bruna, c'habbia l'ali a gli omeri del medesimo colore, stando in atto di volare in alto, hauerà in cima del capo vna grande, & rilucente stella, & che con la sinistra mano tenghi vn'vrna riuolta all'ingiù versando con essa minutissime gocciole d'acqua & có la destra vna facella accesa, riuolta da la parte di dietro, e per l'aria vna rondinella.
+Crepusculo (per quello che riferisce il Boccaccio nel primo libro della Geneologia de gli Dei) viene detto da cupro che significa dubbio, conciosia che pare si dubiti, se quello spatio di tempo sia da concedere alla notte passata, o al giorno venente, essendo ne li confini tra l'vno, & l'altro. Onde per tal cagione dipingeremo il crepusculo di color bruno.
+Fanciullo alato lo rappresentiamo, come parte del tempo, e per significare la velocità di questo interuallo che presto passa.
+Il volare all'in su dimostra, che il crepusculo della mattina s'alza spento dall'alba che appare in Oriente.
+La grande, & rilucente stella, che ha sopra il capo si chiama Lucifer, cioè, apportatore della luce, & per essa gli Egittij, (come riferisce Pierio Valeriano nel libro 46. de' suoi Ieroglifici) significauano il crepusculo della mattina, & il Petrarca nel trionfo della Fama, volendo mostrare, che questa stella appare nel tempo del crepusculo così dice:
+Qual in su'l giorno l'amorosa stella
+Suol venire d'Oriente innanzi al Sole.
+Lo spargere con l'vrna le minutissime gocciole d'acqua, dimostra, che nel tempo d'estate cade la ruggiada, & l'Inuerno per il gelo la brina, onde l'Ariosto sopra di ciò così disse.
+Rimase adietro il lido, & la meschina
+Olimpia che dormìa senza destarse
+Finche l'Aurora la gelata brina
+Dalle dorate ruote in terra sparse.
+Et Giulio Camillo in vn suo Sonetto.
+Rugiadose dolcezze in matutini
+Celesti humor, che i boschi inargentate
+Hor tra gl'oscuri, e lucidi confini
+Della notte, & del dì, &c.
+La facella ardente riuolta nella guisa, che dicemmo, ne dimostra, che il crepusculo della mattina è messaggiero del giorno.
+
+Колонтитул: DI CESARE RIPA. 95
+Кустод: La ron-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0121 · с. 96
+
+[ГРАВЮРА: без подписи]
+La rondinella suol cominciare a cantare auanti giorno nel crepusculo, come dimostra il Dante nel cap. 23. del Paradiso così dicendo.
+Nell'hora, che comincia i tristi lai
+La rondinella presso alla mattina
+Forse à memoria de suoi tristi guai.
+Et Anacreonte Poeta Greco in quel suo lirico così disse in sua sentenza.
+Ad Hirundinem.
+Quibus loquax, quibusnam
+Te plectam hirundo poenis?
+Vtrum ne vis volucres,
+Alas tibi recidam
+Imam secemue linguam?
+Tibi, quod ille Tercus
+Fecisse fertur olim ??
+Nam tu quid ante lucem
+Meas strepens ad aures
+E somnijs beatus
+
+Колонтитул: 96 ICONOLOGIA / CREPVSCVLO DELLA MATTINA.
+Кустод: Mihi
+Сигнатура: 
+Маргиналии:
+
+## Скан 0122 · с. 97
+
+*Mihi rapis bathyllum.* Ilche fu imitato dal Signor Filippo Alberti in quelli suoi quadernali.
+Te, che io pianga al tuo pianto
+Rondinella importuna innanzi al die
+Da le dolcezze mie
+Tu pur cantando mi richiami al pianto.
+[ЗАГОЛОВОК: CREPVSCVLO DELLA SERA.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: F]ANCIVLLO ancor'egli, e parimente alato, & di carnagione bruna, starà in atto di volare all'ingiù verso l'Occidente, in capo hauerà vna grande, & rilucente stella, con la destra mano terrà vna frezza in atto di lanciarla, & si veda per l'aria, che n'habbia gettate dell'altre, & che caschino all'ingiù, & con la sinistra mano tenghi vna nottola con l'ali aperte.
+
+Колонтитул: DI CESARE RIPA. 97
+Кустод: Il vo-
+Сигнатура: G
+Маргиналии:
+
+## Скан 0123 · с. 98
+
+Il volare all'in giù verso l'Occidente, dimostra per tale effetto essere il crepusculo della sera.
+La stella che ha in cima del capo si chiama Hespero, la quale apparisce nel tramontar del Sole, appresso gl'Egittij, come dice Pierio Valeriano nel luogo citato di sopra, significaua il crepusculo della sera.
+Le frezze nella guisa che dicemmo, significano i vapori della terra tirati in alto dalla potenza del Sole, il quale allontanãdosi da noi, e non hauendo detti vapori, chi li sostenghi, vengono à cadere, & per essere humori grossi, nuocono più, ò meno, secondo il tempo, e luoghi humidi, più freddi, ò più caldi, più alti, ò più bassi.
+Tiene la nottola con l'ali aperte, come animale proprio, & si vede volare in questo tempo.
+[ЗАГОЛОВОК: CRAPVLA.]
+[ИНИЦИАЛ: D]ONNA grassa, brutta nell'aspetto, & mal vestita con tutto lo stomaco ignudo, hauerà il capo fasciato sino a l'occhi, nelle mani terrà vna testa di leone, che stia con la bocca aperta, & per terra vi saranno de gl'vcelli morti, & de'pasticci, ò simili cose.
+Si fa donna brutta, perche la Crapula non lascia molto alzare l'huomo da'pensieri feminili, & dall'opere di cucina.
+Si veste poueramente, per mostrare, che li crapuloni, ò per lo più sono huomini sprezzatori della politezza, e solo attendono ad ingrassare, & empire il ventre, ò perche sono poueri di virtù, & non si stendono con il pensier loro fuor di questi confini.
+Lo stomaco scoperto mostra, che la crapula ha bisogno di buona complessione, per smaltire la varietà de'cibi, & però si fa con la testa fasciata, doue i fumi ascendono, & l'offendono. La grassezza è effetto prodotto dalla crapula, che non lascia pensare a cose fastidiose, che fanno la faccia macilente.
+La testa del leone è antico simbolo della crapula, perche questo animale s'empie tanto souerchio, che facilmente poi sopporta per due, o tre giorni il digiuno, & per indigestione il fiato continuamente li pute, come dice Pierio Valeriano al suo luogo.
+Gl'vcelli morti, & i pasticci, si pongono, come cose, intorno alle quali s'esercita la crapula.
+[ЗАГОЛОВОК: Crapula.]
+[ИНИЦИАЛ: D]Onna mal vestita, e di color verde, sarà grassa, di carnagione rossa, si appoggierà con la man destra sopra vno scudo, dentro del quale vi sarà depinta vna tauola apparecchiata con diuerse viuande cõ vn motto nella touaglia che dica: *Vera felicitas,* l'altra mano la terrà sopra vn porco.
+La crapula è vn'effetto di gola, e consiste nella qualità, e quantità de'cibi, e suole communemente regnare in persone ignoranti, & di grossa pasta, che non sanno pensar cose, che non tocchino il senso.
+Vestesi la crapula di verde, percioche del continuo ha speranza di mutar varij cibi, & passar di tempo in tempo con allegrezza.
+
+Колонтитул: 98 ICONOLOGIA
+Кустод: Lo scudo
+Сигнатура: 
+Маргиналии:
+
+## Скан 0124 · с. 99
+
+Lo scudo nel sopradetto modo è per dimostrar il fine di quei, che attendono alla crapula, cioè il gusto, il quale credono, che porti seco la felicità di questo mondo, come voleua Epicuro.
+Il porco da molti scrittori è posto per la crapula, percioche ad altro nõ attende, ch'a mangiare, e mentre diuora le sporcitie nel fango, non alza la testa, ne mai si volge indietro, ma del continuo seguita auanti per trouar miglior cibo.
+[ЗАГОЛОВОК: CRVDELTA.]
+[ИНИЦИАЛ: D]ONNA di color rosso nel viso, e nel vestimẽto, di spauentosa guardatura, in cima del capo habbia vn rosignuolo, e con ambi le mani affoghi vn fanciullo nelle fasce: perche grandiss.effetto di crudeltà è l'occidere, chi non nuoce altrui: ma è innocente in ogni minima sorte di delitto. però si dice, che la crudeltà è insatiabil'appetito di male nel punir l'innocenti, rapir'i beni d'altri, offendere, e nõ difendere i buoni, e la giustitia.
+Il vestimento rosso dimostra, che i suoi pensieri sono tutti sanguigni.
+Per lo rosignuolo si viene accennando la fauola di Progne, e di Filomena, vero indicio di crudeltà, onde disse l'Alciato:
+Ecquid Colchi pudet, vel te Progne improba[?]mortē
+Cū volueris proprię prolis amore subit
+[ЗАГОЛОВОК: Crudeltà.]
+[ИНИЦИАЛ: D]Onna ridente vestita di ferruggine, con vn grosso diamante in mezo al petto, che stia ridendo in piedi, cõ le mani appoggiate a i fianchi, e miri vn'incẽdio di case, & occision di fanciulli riuolti nel proprio sãgue.
+La crudeltà è vna durezza d'animo, che fa gioire delle calamità de l'altri, & però le si fa il diamante, che è pietra durissima, e per la sua durezza è molto celebrata da Poeti in proposito della crudeltà delle donne.
+L'incendio, e l'occisione rimirante col viso allegro, sono i maggior segni di crudeltà, di qualsiuoglia altro, & pur di questa sorte d'huomini ha voluto poter gloriarsi il mondo a'tempi passati nella persona di più di vn Nerone, & di molti Herodi, accioche non sia sorte alcuna di sceleraggine, che non si conserui a perpetua memoria nelle cose publiche, che son l'historie fabricate per esempio de'posteri.
+[ЗАГОЛОВОК: CVPIDITA.]
+[ИНИЦИАЛ: D]ONNA ignuda, c'habbia bendati gl'occhi con l'ali alle spalle.
+La cupidità è vn'appetito fuor della debita misura, ch'insegna la ragione, però gl'occhi bendati sono segno, che non si serue del lume dello intelletto. Lucretio lib. 4. de natura rerum.
+Nam faciunt homines plerumque [?] ne ce[?],
+Et tribuūt ea quæ non sunt tib[?] commoda erè
+L'ali mostrano velocità, con le quali essa segue, ciò che sotto spetie di buono, & di piaceuole le si rappresenta.
+Si fa ignuda, perche con grandissima facilità scuopre l'esser suo.
+[ЗАГОЛОВОК: CVRIOSITA.]
+[ИНИЦИАЛ: D]ONNA con vestimento rosso, & azurro, sopr'il quale vi siano sparse molt'orecchie, & rane, hauerà i capelli dritti, con le mani alte, col capo che sporga in fuora, & sarà alata.
+
+Колонтитул: DI CESARE RIPA. 99
+Кустод: La cu-
+Сигнатура: G 2
+Маргиналии:
+
+## Скан 0125 · с. 100
+
+La curiosità è desiderio sfrenato di coloro, che cercano sapere più di quello, che deuono.
+Gl'orecchi mostrano, che il curioso ha solo desiderio d'intendere, & di sapere cose riferite da altri. E S.Bernardo de gradib.superb. volendo dimostrare vn Monaco curioso, lo descriue con questi segni così dicendo: *Si videris monachum euagari caput erectum, aures portare suspensas, curiosum cognoscas.*
+Le rane, per hauer l'occhi grossi, son'inditio di curiosità, e per tal significato son prese da gl'antichi, percioche l'Egittij, quando voleuano significare vn'homo curioso rappresentauano vna rana, e Pierio Valeriano dice, che l'occhi di rana, legati in pelle di ceruo, insieme cō carne di rosignolo, fanno l'huomo desto, & suegliato, dalche nasce l'esser curioso.
+Tien alte le mani, con la testa in fuora, perche il curioso sempre sta desto, & viuace per sapere, e intendere da tutte le bande le nouità. Ilche dimostrano ancora l'ali, & i capelli dritti, che sono i pensieri viuaci, & i colori del vestimento significano desiderio di sapere.
+[ЗАГОЛОВОК: CVSTODIA.]
+[ИНИЦИАЛ: D]ONNA armata, che nella destra mano tenga vna spada ignuda, & a canto haurà vn drago.
+Per la bona custodia due cose necessarijssime si ricercano, vna è il preuedere i pericoli, e lo star desto, che nō venghino all'improuiso, l'altra è la potenza di resistere alle forze esteriori, quando per la vicinanza nō si può col consigio, e co'discorsi sfuggire: però si dipinge semplicemente col drago, come bene dimostra l'Alciati nelle sue Emblemi dicendo:
+Vera hæc effigies innuptæ est Palladis, eius
+Hic draco, qui dominæ constitit ante pedes.
+Cur diuæ comes hoc animal custodia rerum
+Huic data, sic lucos, sacraque templa colit,
+Innuptas opus est cura asseruare puellas
+Peruigil, laqueos, vndique tendit amor.
+Et con l'armature, che difendano, e danno ardire ne'vicini pericoli.
+[ЗАГОЛОВОК: DAPOCAGGINE.]
+[ИНИЦИАЛ: D]ONNA con capelli sparsi, vestita di berrettino, che tiri più al bianco, che al nero, la qual veste sarà stracciata, stia a sedere con le mani sopra le ginocchia, col capo basso, & a canto vi sia vna pecora.
+Dipingesi la dapocaggine con capelli sparsi, per mostrare la tardità, e pigritia nell'operare, che è difetto cagionato da essa medesima, essendo l'huomo da poco, lento, e pigro nelle sue attioni, e però come inetto a tutti gli esercitij d'industria, sta con le mani posate sopra alle ginocchia.
+La veste rotta ci rappresenta la pouertà, & il disagio soprauenente a coloro, che per dapocaggine non si sanno gouernare.
+Stassi a sedere col capo chino, perche l'huomo dapoco non ardisce di alzare la testa, a paragone de l'altri huomini, e di caminare per la via della lode, la quale consiste nell'operatione delle cose difficili.
+La pecora è molto stolida, ne sa pigliare partito in alcuno auuenimento. Però disse Dante nel suo Inferno:
+Huomini siate, e non pecore matte.
+
+Колонтитул: 100 ICONOLOGIA
+Кустод: DERI-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0126 · с. 101
+
+[ЗАГОЛОВОК: DERISIONE.]
+[ИНИЦИАЛ: D]ONNA con la lingua fuori della bocca, vestita di pelle d'istrice, con braccia, & piedi ignudi col dito indice della mano destra steso, tenendo nella sinistra vn mazzo di penne di pauone, appoggiando la detta mano sopra vn'asino, il quale starà co'l capo alto in atto di sgrignare, mostrando i denti.
+Derisione, secondo San Tomasso in 2. 2. quest. 75. è quando l'huomo prende in scherzo il male, & il difetto altrui, per proprio diletto sodisfacendosi, che il delinquente ne senta vergogna.
+Il cauar la lingua fuori della bocca (perche è atto deforme, facendosi alla presenza d'alcuno è segno, che se ne tiene poco conto, & però la natura l'insegna a fare a'fanciulli in questo proposito.
+La pelle d'istrice, che è spinosa, mostra, che senz'arme il derisore è come l'istrice, il quale punge chi gli s'auuicina, & perche il principale pensiero del derisore, è notare l'imperfettioni altrui; però si farà co'l dito nel modo detto.
+Le penne del pauone si dipingono, per memoria della superbia di questo animale, che stima fra tutti gl'altri se stesso bellissimo, perche non è alcuno, che rida de mali costumi altrui, che quelli stessi non riconosca lontani da se medesimo.
+L'asino nel modo detto fù adoprato da gl'antichi in questo proposito, come ne fà testimonianza il Pierio Valeriano, & altri.
+[ЗАГОЛОВОК: DESIDERIO VERSO IDDIO.]
+[ИНИЦИАЛ: G]IOVANETTO vestito di rosso, & giallo, i quali colori significano desiderio. Sarà alato, per significare la prestezza con cui l'animo inferuorato subitamente vola a pensieri celesti, dal petto l'esca vna fiamma, perche è quella fiamma, che Christo N.S. venne a portar'in terra.
+Terrà la sinistra mano al petto, & il braccio destro disteso, il viso riuolto al Cielo, & hauerà a canto vn ceruo, che beua l'acqua d'vn ruscello, secondo il detto di Dauid nel Salmo 41. doue assomigliò il desiderio dell'anima sua verso Iddio, al desiderio, che ha vn ceruo assetato d'auuicinarsi a qualche limpida fontana.
+La sinistra mano al petto, & il braccio destro disteso, & il viso riuolto al Cielo è per dimostrare, che deuono l'opere, gl'occhi, il cuore, & ogni cosa essere in noi riuolte verso Iddio.
+[ЗАГОЛОВОК: DESIDERIO.]
+[ИНИЦИАЛ: D]ONNA ignuda, che habbia ad armacollo vn velo di varij colori, farà alata, & che mandi fuora dal cuore vna fiamma ardente.
+Il desiderio è vn intenso volere d'alcuna cosa, che all'intelletto per buona si rappresenti, & però tale operatione ha assai dell'imperfetto, e all'intelletto della materia prima s'assomiglia, la quale dice Aristotele desiderare la forma nel modo, che la femina desidera il maschio, & con ragione: essendo l'appetito di cose future, & che non si possedono, però il desiderio sotto forma di donna si rappresenta.
+
+Колонтитул: DI CESARE RIPA. 101
+Кустод: Si può
+Сигнатура: G 3
+Маргиналии:
+
+## Скан 0127 · с. 102
+
+[ГРАВЮРА: без подписи]
+Si può anco dire, che il desiderio è moto spiritale d'animo, che non posa mai, fin che la cosa a che lo muoue la inclinatione, vien conseguita, & agita sempre intorno le cose, che mancano, & co'l possesso di quelle s'estingue.
+Il velo di varij colori significa, che l'oggetto del desiderio è il bene, & come si trouano diuersi sorte di beni, così sono diuerse sorte di desiderij.
+L'ali notano la sua velocità, che in subito viene, & sparisce.
+La fiamma ci dimostra il desiderio essere vn fuoco del cuore, & della mente, che quasi hà materia secca, s'appiglia, tosto che gli si presenta cosa, che habbia apparenza di bene.
+
+Колонтитул: 102 ICONOLOGIA / DESIDERIO VERS'IDDIO.
+Кустод: PETRA-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0128 · с. 103
+
+[ЗАГОЛОВОК: DETRATTIONE.]
+[ИНИЦИАЛ: D]ONNA a sedere con bocca alquanto aperta mostrando la lingua doppia simile a quella del serpe, terrà in capo vn panno nero, tirandolo in fuori parte d'esso, con la sinistra mano in modo, che faccia ombra al viso, & il restante del vestimento sarà di colore della rugine, rotto in più luoghi, hauerà sotto a i piedi vna tromba, & con la destra mano vn pugnale nudo in atto d'offendere.
+Detrattione secondo S. Tomasso 2. 2. quest. 73. art. 4 altro non è, che occulta maledicenza contro la fama, & reputatione altrui.
+A sedere si dipinge, percioche l'otio è potentissima causa della mormoratione, & si suol dire, che chi ben siede, mal pensa.
+La bocca aperta, & la lingua serpentina ne dimostra la prontezza del detratore in dir male di ciascuno, alludendo al detto del Profeta nel salmo 139. che dice: *Acuerunt linguam, sicut serpentes, venenum aspidum sub [?] [?] eorum.*
+L'atto del panno nero sopra il capo, che fa l'ombra alla faccia, significa le proprietà del mormoratore, che è dir male occultamente, & essendo l'effetto d'esso d'offuscare, opprimere, & occultare la riputatione altrui, ò co'l dire, ò co'l tacere, però si dipinge, che calpestri vna tromba, che significa la buona fama d'altrui, & però ben disse Terentio ne. Phormione.
+Nihil est Antipho.
+Quin male narrando possit à p[?]uarier Tu id, quod boni est, excerpis, dicis, quod mali est.
+
+Il vestimento rotto, & del colore della ruggine mostra, che la mormoratione regna in huomini bassi, vili, & pusillanimi, & come la ruggine rode il ferro, & altri metalli; così la detrattione consuma la buona estimatione altrui. Plauto in capt. assomigliando i detrattori a i sorci, i quali cercono sempre di rodere l'altrui cibo, così disse: *Quasi mures seper edimus alienū cibū, Vbi res prolatæ sunt, quum rus homines eunt Simul prolatæ res sunt nostris dentibus.*
+Il tenere il pugnale nudo, con la destra mano in atto d'offendere significa che il detrattore è humicidiale, percioche per quanto è in lui, spoglia l'anima di quella virtù, della quale ella viue, onde il Profeta nel Salmo 56. sopra di ciò così disse.
+Filij hominum dentes eorum arma, & sagittæ, lingua eorum gladius acutus.
+[ЗАГОЛОВОК: DIVOTIONE.]
+[ИНИЦИАЛ: D]ONNA inginocchione con gl'occhi riuolti al Cielo, & che con la destra mano tenghi vn lume acceso.
+Diuotione è vn particolar atto della volōtà, che rende l'homo pronto a darsi tutto alla familiarità di Dio cō affetti, e opere, che però viē ben mostrato col lume, e con le ginocchia in terra, & con gl'occhi riuolti al Cielo.
+[ЗАГОЛОВОК: DIALETTICA.]
+[ИНИЦИАЛ: D]ONNA giouane, che porti vn'elmo in capo con due penne, l'vna bianca, & l'altra nera, & per cimiero vna Luna, & con vn stocco nella man dritta, che d'ambe due le parti pūga & tagli, pigliandosi con la mano in mezzo frà l'vna, & l'altra ponta, tenga le due prime dita della mano manca alte, & stese, stando in piedi con prontezza, & ardire.
+
+Колонтитул: DI CESARE RIPA. 103
+Кустод: L'elmo
+Сигнатура: G 4
+Маргиналии:
+
+## Скан 0129 · с. 104
+
+L'elmo significa vigor d'intelletto, quale nella Dialettica particolarmente si richiede.
+Le due penne mostrano, che cosi il vero, come il falso con probabili ragioni questa facoltà difende, & l'vn'e l'altro facilmente solleua, come facilmente il vento solleua le penne: & le ragioni, effetti d'intelletto gagliardo, sono come le penne mantenute su la durezza dell'elmo, che si mostrano dritte, e belle egualmente nell'occasione. La luna che porta per cimiero significa il medesimo; percioche (come riferisce Pierio Valeriano nel lib. 44. de'suoi Ieroglifici) Clitomaco simigliaua la Dialettica alla Luna, per la varietà delle forme, che piglia.
+Il medesimo dimostra lo stocco da due pūte, e la sinistra mano alta con le dita acconcie, in modo d'aiutare il discorso co'gesti, per mostrare, ch'il proprio fine di quest'arte è il disputare, & discorrere di qualsiuoglia cosa, che si proponga. Et però si dice Dialettica, che significa disputa.
+[ЗАГОЛОВОК: DIGNITA.]
+[ИНИЦИАЛ: D]ONNA ben'ornata, ma c'habbia vn grandissimo sasso sopra le spalle, il qual sasso sia ornato di molti fregi d'oro, e di gēme: stia con la testa, e le spalle alquanto curuate. Dal che si cōprende chiaro quello, che molto più chiaro vede chi lo proua, che l'honori non sono altro che pesi, e carichi, e però si prende molte volte questa parola carichi in lingua nostra in cambio d'honori, & è felice colui che sa portarli senza guastarsi la schiena, & fracassarsi l'ossa.
+[ЗАГОЛОВОК: DILIGENZA.]
+[ИНИЦИАЛ: D]ONNA vestita di rosso, che nella mano destra tenghi vno sperone, & nella sinistra vn'horologio.
+Diligenza è vn desiderio efficace di far qualche cosa per vedern'il fine.
+L'horologio, & lo sperone mostrano i due effetti della diligenza, l'vn de'quali è il tempo auanzato, l'altro è lo stimolo, dal quale vengono incitati gl'altri a fare il medesimo, & perche il tempo è quello, che misura la diligenza, & lo sperone quello che la fa nascere, si dipinge detta figura con queste due cose.
+[ЗАГОЛОВОК: DISCORDIA.]
+[ИНИЦИАЛ: D]ONNA in forma di furia infernale, vestita di varij colori, farà scapigliata, li capelli faranno di più colori, & vi faranno mescolati di molti serpi, hauerà cinta la fronte d'alcune bende insanguinate, nella destra mano terrà vn fucile d'accendere il fuoco, & vna pietra focaia, & nella sinistra vn fascio di scritture, sopra le quali vi siano scritte citationi, esamini, procure, & cose tali.
+Discordia è vn moto alteratiuo dell'animo, & de'sensi, che nasce dalle varie operationi de gl'huomini, & gl'induce à nimicitia: le cause sono ambitione, sete d'hauere, dissimilitudine di nature, stati, professioni, complessioni, & nationi. I varij colori della veste sono i varij pareri de gli huomini, da'quali nasce la discordia, & come non si trouano due persone del medesimo parere in tutte le cose, così ne anche è luogo tanto solitario,
+
+Колонтитул: 104 ICONOLOGIA
+Кустод: ancor-
+Сигнатура: 
+Маргиналии:

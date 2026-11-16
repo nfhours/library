@@ -62,3 +62,23 @@
 | 0107 | CONCORDIA DI PACE.; CONCORDIA DEGL' ANTICHI.; CONCORDIA INSVPERABILE.; CONFIDENZA.; CONFVSIONE. |  |  | r110, r111, r112, r113, r114 | нет рамки |
 | 0108 | CONFERMATIONE,; COSCIENZA.; Coscienza. |  |  | r115, r116 | нет рамки |
 | 0109 | CONSERVATIONE. |  | 0109_1 | r117 | заголовок перед гравюрой |
+| 0110 | CONSIDERATIONE.; CONSIGLIO. |  |  | r118, r119 | нет рамки |
+| 0111 | COSTANZA.; Costanza, & Intrepidità.; Costanza.; CONSVETVDINE. |  |  | r120, r121, r122 | нет рамки |
+| 0112 | CONTENTO.; Contento Amoroso.; Contento. |  |  | r123, r124 | нет рамки |
+| 0113 | CONTRASTO |  | 0113_1 | r125 | заголовок перед гравюрой |
+| 0114 | Contrasto.; CONTRITIONE.; Contritione. |  |  | r125, r126 | нет рамки |
+| 0115 | CONTINENZA.; CONTINENZA MILITARE; CONVITO.; CORDOGLIO. |  |  | r127, r128, r129, r130 | нет рамки |
+| 0116 | CORRETTIONE.; CORPO HVMANO. |  |  | r131, r132 | нет рамки |
+| 0117 | CORRETTIONE. |  | 0117_1 | r131 | заголовок перед гравюрой |
+| 0118 | CORRVTTELA NE GIVDICI.; CORTE. |  |  | r133, r134 | нет рамки |
+| 0119 |  |  |  | — | нет рамки |
+| 0120 | CORTESIA.; CREPVSCVLO DELLA MATTINA. |  |  | r135, r136 | нет рамки |
+| 0121 |  | CREPVSCVLO DELLA MATTINA. | 0121_1 | r136 | бегущий заголовок |
+| 0122 | CREPVSCVLO DELLA SERA. |  | 0122_1 | r137 | заголовок перед гравюрой |
+| 0123 | CRAPVLA.; Crapula. |  |  | r138 | нет рамки |
+| 0124 | CRVDELTA.; Crudeltà.; CVPIDITA.; CVRIOSITA. |  |  | r139, r140, r141 | нет рамки |
+| 0125 | CVSTODIA.; DAPOCAGGINE. |  |  | r142, r143 | нет рамки |
+| 0126 | DERISIONE.; DESIDERIO VERSO IDDIO.; DESIDERIO. |  |  | r144, r145, r146 | нет рамки |
+| 0127 |  | DESIDERIO VERS'IDDIO. | 0127_1 | r145 | бегущий заголовок |
+| 0128 | DETRATTIONE.; DIVOTIONE.; DIALETTICA. |  |  | r147, r148, r149 | нет рамки |
+| 0129 | DIGNITA.; DILIGENZA.; DISCORDIA. |  |  | r150, r151, r152 | нет рамки |
