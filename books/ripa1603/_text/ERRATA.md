@@ -36,3 +36,4 @@
 | 0340 | 319 | faettatori | saettatori | перепутанная буква |
 | 0342 | 321 | hauese | hauesse | пропущена буква |
 | 0345 | 324 | l'inueruo | l'inuerno | перепутанная буква |
+| 0369 | 348 | connien | conuien | перепутанная буква |

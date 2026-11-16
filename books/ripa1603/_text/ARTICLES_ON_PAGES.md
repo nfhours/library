@@ -302,3 +302,23 @@
 | 0347 | Ottobre.; Nouembre.; Decembre.; Gennaro.; Febraro.; MESE IN GENERALE. |  |  | r401 | нет рамки |
 | 0348 | METAFISICA.; Metafisica.; MINACCIE. |  |  | r402, r403 | нет рамки |
 | 0349 | MISERIA.; Miseria Mondana.; MISERICORDIA.; Misericordia. |  |  | r404, r405, r406 | нет рамки |
+| 0350 |  | MISERICORDIA. / 329 | 0350_1 | r406 | бегущий заголовок |
+| 0351 | MONDO. | ICONOLOGIA |  | r407 | нет рамки |
+| 0352 |  | MONDO. / Come dipinto dal Boccaccio nel primo libro della Geneologia delli Dei, con le quattro sue Parti. / 331 | 0352_1 | — | бегущий заголовок |
+| 0353 | EVROPA. | ICONOLOGIA / MONDO. / Come dipinto nel primo libro de i Commenti Hieroglifici di Pierio Valeriano. |  | r408 | нет рамки |
+| 0354 |  | EVROPA. / 333 | 0354_1 | — | бегущий заголовок |
+| 0355 | ASIA. | ICONOLOGIA |  | r409 | нет рамки |
+| 0356 | AFRICA. | ASIA. / 335 | 0356_1 | — | бегущий заголовок |
+| 0357 |  | ICONOLOGIA / AFRICA. | 0357_1 | — | бегущий заголовок |
+| 0358 |  | AFRICA. / 337 | 0358_1 | — | бегущий заголовок |
+| 0359 |  | ICONOLOGIA / AMERICA. | 0359_1 | — | бегущий заголовок |
+| 0360 | MORTE.; Morte. |  |  | r412 | нет рамки |
+| 0361 | Morte.; MORMORATIONE.; MOSTRI.; SCILLA. |  |  | r412, r413, r414, r415 | нет рамки |
+| 0362 | SCILLA.; Cariddi. |  |  | r415, r416 | нет рамки |
+| 0363 | Chimera.; Griffo.; Sfinge.; Arpie. |  |  | r417, r418, r419, r420 | нет рамки |
+| 0364 | Hidra.; Cerbero. |  |  | r421, r422 | нет рамки |
+| 0365 | MVSICA. |  |  | r423 | нет рамки |
+| 0366 | Musica.; Musica.; Musica.; Musica. |  |  | r423 | нет рамки |
+| 0367 | MVSE.; CLIO.; EVTERPE. |  |  | r424 | нет рамки |
+| 0368 | TALIA.; MELPOMENE.; POLINNIA. |  |  | — | нет рамки |
+| 0369 | ERATO.; TERPSICORE. |  |  | — | нет рамки |

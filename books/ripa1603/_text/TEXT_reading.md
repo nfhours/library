@@ -6808,7 +6808,7 @@ Il segno del Tauro , che tiene con la man destra, è per significare, che il Sol
 
 [ИНИЦИАЛ: G]IOVANE vestito di color verde ricamato di varij fiori,come d'essi, parimente haurà in capo vna ghirlanda, terrà con la destra ma-
 
-Колонтитул: 116 ICONOLOGIA
+Колонтитул: 316 ICONOLOGIA
 Кустод: no
 Сигнатура: 
 Маргиналии:
@@ -6873,7 +6873,7 @@ Chiamasi Settembre , per essere , come si è detto il settimo , se bene si chiam
 
 Si veste di porpora , perche si come la porpora è vestimento Regale , & solo conuiensi à Rè , & huomini Illustri , & grandi , i quali abondano di Tesori , & grandezze . Così questo mese , come Rè , & Principe di tutti gl'altri mesi dona in maggior copia tutte quelle cose , che sono necessarie al vitto humano .
 
-Колонтитул: 118 ICONOLOGIA
+Колонтитул: 318 ICONOLOGIA
 Кустод: Tiene
 Сигнатура: 
 Маргиналии:
@@ -6890,7 +6890,8 @@ Dipingesi con lo scorpione, perche in questo mese il Sole si ritroua sotto detto
 La cestella sopradetta,contiene i frutti che porta seco esso mese.
 [ЗАГОЛОВОК: NOVEMBRE.]
 [ИНИЦИАЛ: G]IOVANE vestito di colore delle foglie, quando incominciano à seccarsi, & cadono da gli alberi, alato, hauerà cinto il capo d'vna ghirlanda d'oliuo con il suo frutto, porterà nella destra mano il segno del Sagittario, & con la sinistra vna tazza piena di rape, radice,cauoli, & altri frutti che il mese di Nouembre porta seco.
-Il tenere il Sagittario nella destra mano ci significa, che il Sole in questo mese regna, & passa sotto questo segno il quale è detto Sagittario, sì dalla figura delle stelle, come anco da gli effetti che produce, poiche in questo tempo saettando dal Cielo grandine, pioggie, folgori, arrecano non poco spauento, come anco in questo mese più s'esercita la quale si fa per li saettatori.\nLo ghirlanda di oliuo con il frutto è segno di questo tempo, nel quale l'oliua già matura si coglie per farne l'olio, liquore vtilissimo per più cose alla vita humana.
+Il tenere il Sagittario nella destra mano ci significa, che il Sole in questo mese regna, & passa sotto questo segno il quale è detto Sagittario, sì dalla figura delle stelle, come anco da gli effetti che produce, poiche in questo tempo saettando dal Cielo grandine, pioggie, folgori, arrecano non poco spauento, come anco in questo mese più s'esercita la quale si fa per li saettatori.
+Lo ghirlanda di oliuo con il frutto è segno di questo tempo, nel quale l'oliua già matura si coglie per farne l'olio, liquore vtilissimo per più cose alla vita humana.
 Si chiama Nouembre dal numero, per esser il nono, si come anco il seguente per esser il decimo si chiama Decembre.
 
 Колонтитул: DI CESARE RIPA. 319
@@ -7105,5 +7106,457 @@ Vedi alle Beatitudini.
 
 Колонтитул: ICONOLOGIA 328
 Кустод: Miseri-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0350 · с. 329
+
+[ГРАВЮРА: без подписи]
+Misericordia è vn'affetto de l'animo compassioneuole verso l'altrui male,
+come dice S.Giouanni Damasceno lib.2.cap.24.
+La carnagione bianca,l'occhi grassi, & il naso aquilino secondo il detto di Aristotele al capo sesto de fisonomia, significano inclinatione à la Misericordia.
+La ghirlanda d'oliuo che tiene in capo, è il vero simbolo de la Misericordia nelle sacre lettere, à le quali si deue l'obligo della cognition vera di questa santa virtù, & il ramo di cedro significa il medesimo, come fa fede Pierio Valeriano, oue tratta del cedro.
+Lo stare con le braccia aperte, dinota che la Misericordia è à guisa di Giesù Christo Redentor nostro, ch'è la vera Misericordia,con prontezza c'aspetta sempre con le braccia aperte,per abbracciar tutti,e souenir à le
+
+Колонтитул: DI CESARE RIPA. / MISERICORDIA. / 329
+Кустод: miserie
+Сигнатура: X 3
+Маргиналии:
+
+## Скан 0351 · с. 330
+
+miserie nostre, & Dante nel lib.3.del Purgatorio sopra di ciò così dice:
+Horribil furon li peccati miei
+Ma la bontà infinita hà sì gran braccie
+Che prende ciò che si riuolge à lei.
+Gli si dipinge à canto l'vcello pola, percioche appresso gl'Egittij significaua misericordia, come si può vedere in Oro Apolline.
+[ЗАГОЛОВОК: MONDO.]
+Come dipinto dal Boccaccio nel primo libro della Geneologia delli Dei, con le quattro sue Parti.
+[ИНИЦИАЛ: P]ER, il Mondo dipinse il Boccaccio nel luogo citato, & ne i commenti Ieroglifici di Pierio Valeriano Pan con faccia caprina, di colore rosso infocato, con le corna nella fronte, che guardano in Cielo, la barba lunga, & pendente verso il petto, & ha in luocho di veste vna pelle di pantera, che li cinge il petto, & le spalle tiene con l'vna delle mani vna bacchetta, la cima della quale è riuolta in guisa di pastorale, & con l'altra la fistola istromento di sette canne, dal mezo in giù è in forma di capra peloso, & ispido.
+Et Silio Italico lo dipinge ancor egli in questa guisa così dicendo.
+Lieto delle sue feste Pan dimena
+La picciol coda, & hà di acuto pino
+Le tempie cinte, e dalla rubiconda
+Fronte escono due breui corna, e sono
+L'orecchie qual di capra lunghe, & hirte
+L'hispida barba scende sopra il petto
+Dal duro mento, e porta questo Dio
+Sempre vna verga pastorale in mano
+Cui cinge i fianchi di timida Dama
+La maculosa pelle il petto, e il dorso.
+Pan è voce Greca, & in nostra lingua significa l'vniuerso, onde gli antichi volendo significare il Mondo per questa figura intendeuano per li corni nella guisa che dicemmo, il Sole, & la Luna, & il Boccaccio nel sopradetto luogo vuole, che li detti corni riuolti al Cielo,mostrino i corpi celesti, & gli effetti loro nelle cose di qua giù.
+La faccia rossa, & infocata, significa quel foco puro, che sta sopra gli altri Elementi, in confine delle celesti sfere.
+La barba lunga, che va giù per lo petto, mostra che i due Elementi superiori, cioè l'aria, e'l fuoco sono di natura, e forza maschile, & mandano le loro impressioni di natura feminile.
+Ci rappresenta la maculosa pelle, che gli cuopre il petto, & le spalle, l'ottaua sfera, tutta dipinta di chiarissime stelle, la quale parimente copre tutto quello che appartiene alla natura delle cose.
+La verga dimostra il gouerno della natura, per la quale tutte le cose (massime quelle che mancano di raggione) sono gouernate, & nelle sue operationi sono anco guidate à determinato fine.
+
+Колонтитул: 330 / ICONOLOGIA
+Кустод: Si dim-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0352 · с. 331
+
+[ГРАВЮРА: без подписи]
+Si dimostra anco per la verga ritorta l' anno, il qual si ritorce in se stesso.
+nell'altra mano tiene la fistula delle sette canne, perche fù Pan il primo, che trouasse il modo di comporre più canne insieme con cera, & il primo che la sonasse ancora, come dice Virgilio nell'egloga 2.
+Si rappresenta dal mezo in giù in forma di capra pelosoо, & ispido, intendendosi per ciò la terra, la qual'è dura, aspra, & tutta disuguale, coperta d'arbori d'infinite piante, & di molt'herbe.
+
+Колонтитул: DI CESARE RIPA / MONDO. / Come dipinto dal Boccaccio nel primo libro della Geneologia delli Dei, con le quattro sue Parti. / 331
+Кустод: MON-
+Сигнатура: X 4
+Маргиналии:
+
+## Скан 0353 · с. 332
+
+[ИНИЦИАЛ: H]VOMO che tenghi li piedi in atto di fortezza, con vna veste longa di diuersi colori, porta in capo vna gran palla, ò globo sferico di oro.
+Si dipinge così per mostrar la fortezza della terra.
+La veste di diuersi colori, dinota li quattro Elementi, & le cose da essi generate, della varietà de'quali la terra si veste.
+La palla sferica d'oro significa il Cielo, & il suo moto circolare.
+Volendo gl'Egittij ( come narra Oro Apolline ) scriuer il Mondo, pingeuano vn serpe che diuorasse la sua coda, & detto serpe era figurato di varie squame per le quali intendeuono le stelle del Mondo, & ancora per esser questo animale graue per la grandezza sua intesero la terra; è parimente sdruccioloso, per il che dissero ch'è simile à l'acqua; muta ogn'anno insieme con la vecchiezza la pelle,per la qual cosa facendo ogn'anno il tempo mutatione nel Mondo, diuien giouane.
+Si rappresenta ch'adopri il suo corpo per cibo, questo significa tutte le cose, le quali per diuina prouidenza sono gouernate nel Mondo.
+[ЗАГОЛОВОК: EVROPA.]
+Vna delle parti principali del Mondo.
+[ИНИЦИАЛ: D]ONNA ricchissimamente vestita di habito Regale di più colori, con vna corona in testa, & che sieda in mezo di due cornucopia incrociati,pieni d'ogni sorte di frutti,grani, migli, panichi, risi, & simili, come anco vue bianche, & negre, con la destra mano tiene vn bellissimo tempio,& con il dito indice della sinistra mano, mostri Regni, Corone diuerse, Scettri, ghirlande, & simili cose, che gli staranno da vna parte, & da l'altra vi sarà vn cauallo, trofei, scudi, & più sorte d'armi, vi sarà ancora vn libro, & sopra di esso vna ciuetta, & à canto diuersi instromenti musicali, vna squadra, alcuni scarpelli, & vna tauoletta, la quale sogliono adoperare i pittori con diuersi colori sopra, & vi saranco anco alquanti pennelli.
+Europa è prima, & principale parte del Mondo, come riferisce Plinio nel terzo libro al capitolo primo, & tolse questo nome da Europa figliola di Antenore Rè de'Phenici, rubbata, & condotta ne l'isola di Candia da Gioue.
+Si veste riccamente d'habito Reale, & di più colori, per la ricchezza che è in essa, & per essere ( come dice Strabone nel secondo libro) di forma più varia de l'altra parte del Mondo.
+La corona che porta in testa è per mostrare, che l'Europa è stata sempre superiore, & Regina di tutto il Mondo.
+Si dipinge che sieda in mezo di due corni di douitia pieni d' ogni sorte
+
+Колонтитул: 332 / ICONOLOGIA / MONDO. / Come dipinto nel primo libro de i Commenti Hieroglifici di Pierio Valeriano.
+Кустод: di frutti
+Сигнатура: 
+Маргиналии:
+
+## Скан 0354 · с. 333
+
+[ГРАВЮРА: без подписи]
+di frutti, percioche come dimostra Strabone nel luoco citato di sopra, e questa parte sopra tutte l'altre feconda, & abondante di tutti quei beni, che la natura ha saputo produrre,come si potrà vedere da alcune sue parti da noi descritte.
+Si rappresenta che tenghi con la destra mano il tempio, per dinotare, ch'in lei al presente ci è la perfetta, & verissima Religione, & superiore à tutte l'altre.
+Mostra con il dito indice della sinistra mano Regni, Corone, Scettri, Ghirlande, & altre simili cose, essendo che nell' Europa vi sonno i maggiori, e più potenti Principi del Mondo; come la Maestà Cesarea, & il Sommo Pontefice Romano, la cui auttorità si stende per tutto, doue hà luocho la Santissima, & Cattholica Fede Christiana, la
+
+Колонтитул: DI CESARE RIPA. / EVROPA. / 333
+Кустод: quale
+Сигнатура: 
+Маргиналии:
+
+## Скан 0355 · с. 334
+
+quale per gratia del Signor Iddio hoggi è peruenuta fin al nouo mondo.
+Il cauallo,le più forti d'armi, la ciuetta sopra il libro, & li diuersi strumenti musicali,dimostrano che è stata sempre superiore à l'altre parti del mondo,ne l'armi, ne le lettere, & in tutte l'arti liberali.
+Le squadre, pennelli, & i scarpelli, significano hauer hauti, & hauere huomini illustri, & d'ingegno prestantissimi, sì de Greci, Latini, & altri eccellentissimi nella pittura, scoltura, & architettura.
+[ЗАГОЛОВОК: ASIA.]
+[ИНИЦИАЛ: D]ONNA coronata di vna bellissima ghirlanda di vaghi fiori, & di diuersi frutti contesta, sarà vestita di habito ricchissimo, tutto ricamato d'oro, di perle, & altre gioie [?]; di stima nella mano destra hauerà ramuscelli con foglie, & frutti di cassia, di pepe, & di garofani,le cui forme si potranno vedere nel Matthiolo, nella sinistra terrà vn bellissimo, & artificioso incensiero dal qual si veggia esalare assai fumo.
+Appresso la detta donna vi starà vn camelo à giacere su le ginocchia, ò in altro modo come meglio parerà all'accorto, & discreto pittore.
+L'Asia è la metà del Mondo quanto à l'estensione del paese ch'ella comprende: ma quanto à la diuisione della Cosmografia è solo la terza parte di esso Mondo.
+E detta Asia da Asia Ninfa figlia di Thetis, & de l'Oceano; la qual vogliono che tenesse l'Imperio sì de l'Asia maggiore,come de la minore.
+La ghirlanda di fiori, & frutti è per significare che l'Asia hà ( come riferisce Gio: Boemo ) il Cielo molto temperato, & benigno. Onde produce non solo tuttto quel che fà mestiero al viuere humano: ma ancora ogni sorte di delitie, perciò il Bembo così di lei cantò.
+Nell' odorato, & lucido Oriente
+Là sotto il vago, e temperato Cielo
+Viue vna lieta, e riposata gente
+Che non l' offende mai caldo, nè gelo.
+L'habito ricco d'oro, & di gioie contesto, dimostra non solo la copia grande che hà di essa questa felicissima parte del mondo, ma anco il costume delle genti di quel paese, percioche come narra il sopradetto Gio: Boemo non solo gl'huomini: mà le donne ancora portano pretiosi ornamenti, collane, maniglie, pendenti, & vsano altri diuersi abigliamenti.
+Tien con la destra mano i rami di diuersi aromati, percioche è l'Asia di essi così feconda, che liberamente gli distribuisce à tutte l'altre regioni.
+Il fumigante incensiero, dimostra li soaui, & odoriferi liquori, gomme, & spetie che producono diuerse Prouincie de l'Asia: laonde Luigi Tansillo dolcemente cantò.
+Et spirauan soaui Arabi odori.
+Et particolarmente dell'incenso ve n'è in tanta copia, che basta abondantemente per i sacrificij à tutto il mondo.
+Il Camelo è animal molto proprio de l'Asia, & di essi si seruono più che di ogn'altro animale.
+
+Колонтитул: 334 / ICONOLOGIA
+Кустод: AFRI-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0356 · с. 335
+
+[ГРАВЮРА: без подписи]
+[ЗАГОЛОВОК: AFRICA.]
+[ИНИЦИАЛ: V]NA donna mora, quasi nuda, hauerà li capelli crespi, & sparsi,tenendo in capo come per cimiero vna testa di elefante, al collo vn filo di coralli, & di essi à l'orecchie due pendenti, con la destra mano tenga vn scorpione, & con la sinistra vn cornucopia pien di spighe di grano; da vn lato appresso di lei vi sarà vn ferocissimo leone, & da l'altro vi faranno alcune vipere, & serpenti venenosi.
+Africa vna delle quattro parti del Mondo è detta Africa, quasi aprica, cioè vaga del Sole, perche è priua del freddo, ouero è detta da Afro vno de discendenti d'Abraham, come dice Giosefo.
+Si rappresenta mora, essendo l'Africa sottoposta al mezo dì, & parte
+
+Колонтитул: DI CESARE RIPA. / ASIA. / 335
+Кустод: di essa
+Сигнатура: 
+Маргиналии:
+
+## Скан 0357 · с. 336
+
+[ГРАВЮРА: без подписи]
+di essa anco alla zona torrida; onde gli Africani vengono ad essere naturalmente bruni, & mori.
+Si fa nuda, perche non abonda molto di ricchezze questo paese.
+La testa dell'elefante si pone, perche così sta fatta nella Medaglia de l'Imperadore Adriano, essendo questi animali proprij de l' Africa, quali menati da quei popoli in guerra, diedero non solo merauiglia: ma da principio spauento à Romani loro nemici.
+Li capelli neri, crespi, coralli al collo, & orecchie, son ornamenti loro proprij moreschi.
+Il ferocissimo leone, il scorpione, & gli altri venenosi serpenti, dimostrano che ne l'Africa di tali animali ve n'è molta copia, & sono infinitamente venenosi, onde sopra di ciò così disse Claudiano.
+
+Колонтитул: 336 / ICONOLOGIA / AFRICA.
+Кустод: Namq;
+Сигнатура: 
+Маргиналии:
+
+## Скан 0358 · с. 337
+
+[ГРАВЮРА: без подписи]
+Namque feras alijs tellus maurusia donum Præbuit, huic soli debet ceu victa tributum.
+Il cornucopia pieno di spighe di grano denota l'abondanza, & fertilità frumentaria dell'Africa, della quale ci fa fede Horatio.
+Quicquid de Libycis verritur areis.
+Et Gio: Boemo anch' egli nella descrittione, che fà de'costumi, leggi, & vsanze di tutte le genti, dice che due volte l'anno gl' Africani mietono le biade,hauendo medesimamente due volte nell'anno l'estate. Et Ouidio nel quarto libro delle Metamorfosi anch'egli.
+Cumque super Libycas victor penderet arenas
+Gorgonei capitis guttæ cecidere cruentæ,
+Quas humus excerptas varios animauit in angues;
+Vnde frequens illa est, infestaque terra colubris.
+
+Колонтитул: DI CESARE RIPA. / AFRICA. / 337
+Кустод: AME-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0359 · с. 338
+
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: D]ONNA ignuda, di carnagione fosca, di giallo color mista, di volto terribile, & che vn velo rigato di più colori calandogli da vna spalla à trauerso al corpo,le copri le parti vergognose.
+Le chiome saranno sparse, & à torno al capo sia vn vago, & artificioso ornamento di penne di varij colori.
+Tenga con la sinistra mano vn'arco, con la destra mano vna frezza, & al fianco la faretra parimente piena di frezze,sotto vn piede vna testa humana passata da vna frezza, & per terra da vna parte sarà vna lucertola, ouero vn liguro di smisurata grandezza.
+Per esser nouellamente scoperta questa parte del mondo gli Antichi Scrittori non possono hauerne scritto cosa alcuna, però mi è stato mestie-
+
+Колонтитул: 338 / ICONOLOGIA / AMERICA.
+Кустод: ri vc
+Сигнатура: 
+Маргиналии:
+
+## Скан 0360 · с. 339
+
+ri veder quello che i migliori Historici moderni ne hanno referto, cioè il Padre Girolamo Gigli, Ferrante Gonzales, il Botero, i Padri Giesuiti, & ancora di molto profitto mi è stata la viua voce del Signor Fausto Rughese da Montepulciano, al quale per benignità, & cortesia gli è piaciuto darmi di questo paese pieno ragguaglio, come Gentil' huomo peritissimo, che d'Historia, & di Cosmografia nuouamente hà mandato in luce le Tauole di tutte quattro le parti del Mondo, con gli elogij dottissimi à ciascuna di esse.
+Si dipinge senza habito per essere vsanza di quei popoli di andar ignudi, è ben vero che cuoprono le parti vergognose con diuersi veli di bombace, ò d'altra cosa.
+La ghirlanda di varie penne è ornamento, che eglino sogliono vsare, anzi di più sogliono impennarsi il corpo in certo tempo, secondo che vien riferito da sopradetti autori.
+L'arco, & le frezze sono proprie armi, che adropano continouamente sì gl'huomini, come anco le donne in assai Prouincie.
+La testa humana sotto il piede apertamente dimostra di questa barbara gente esser la maggior parte vsata pascersi di carne humana; perciòche gli huomini da loro vinti in guerra li mangiono, così gli schiaui da loro comprati, & altri per diuerse altre occasioni.
+La lucerta, ouero liguro sono animali fra gli altri molto notabili in quei paesi, perciòche sono così grandi, & fieri, che deuorono non solo li altri animali: ma gl'huomini ancora.
+[ЗАГОЛОВОК: MORTE.]
+[ИНИЦИАЛ: D]ONNA pallida, con gl'occhi serrati, vestita di nero, secondo il parlar de Poeti, li quali per lo priuar del lume intendono il morire come Virgilio in molti luochi, & nel secondo lib. de l'Eneide.
+*Demisere neci, nunc cassum lumine lugent.*
+Et Lucretio nel 5. libro.
+*Dulcia linquebant lamentis lumina vitæ.*
+Ouero perche come il sonno è vna breue morte, così la morte è vn longo sonno, & nelle sacre lettere spesso si prende per la Morte il sonno medesimo.
+[ЗАГОЛОВОК: Morte.]
+[ИНИЦИАЛ: C]Amillo da Ferrara pittore intelligente. dipinse la morte con l'ossatura, muscoli, & nerui tutti scolpiti, la veste d'vn manto d'oro fatto à broccato riccio, perche spoglia i potenti, & altri delle ricchezze, come i miseri, & poueri de lo stento, & dolore; su la testa gli fece vna delicata maschera di bellissima fisonomia, & colore, perche non à tutti si mostra medesima: ma con mille faccie continuamente trasmutandosi, ad altri spiace ad altri è cara, altri la desiderano, altri la fuggono, & è il fine di vna prigione oscura à gl'animi gentili, à gl' altri è noia, & così l'opinioae de gli huomini si potrà dire che siano le maschere della Morte.
+Et perche molto ci preme nel viuer politico la Religione, la Patria,
+
+Колонтитул: DI CESARE RIPA. 339
+Кустод: la fa-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0361 · с. 340
+
+la fama, & la conseruatione delli stati giudichiamo esser bello il morire per queste cagioni, & ce la fa desiderare il persuaderci, che vn bello morire tutta la vita honora, il che potrà ancora alludere al vestimento.
+Coronò questo pittore l'osso del capo d'essa di vna ghirlanda di verde alloro, per mostrare l'Imperio suo sopra tutti li mortali, & la legge perpetua, nella sinistra mano le pinse vn coltello auolto, con vn ramo d'oliuo, perche non si può auuicinar la pace, & il commodo mondano, che non s'auuicini ancor la morte, & la morte per se stessa apporta pace, & quiete, & che la sua è ferita di pace, & non di guerra, non hauendo chi gli resista.
+Le fa tenere vn bordone da peregrino in sù la spalla, carico di corone, di mitre, di cappelli, di libri, strumenti musicali, collane da Caualieri; anella da maritaggio, & gioie, tutti istromenti de l'allegrezze mondane le quali fabricano la Natura, & l'arte, & ella emula ambedue, va per tutto inquieta peregrinando, per furare, & ritornare tutto quello di che à l'industria, & al sapere humano fecero donatione.
+[ЗАГОЛОВОК: Morte.]
+[ИНИЦИАЛ: S]I può ancor figurare con vna spada in mano in atto minaccieuole, & ne l'altra con vna fiamma di fuoco, significando che la Morte taglia & diuide il mortale dall'immortale, & con la fiamma abbrugia tutte le potenze sensitiue, togliendo il vigore à sensi, & col corpo le riduce in cenere, & in fumo.
+[ЗАГОЛОВОК: MORMORATIONE.]
+Vedi à Detrattione.
+[ЗАГОЛОВОК: MOSTRI.]
+[ИНИЦИАЛ: P]ERCHE molte volte occorre di rappresentare diuersi Mostri, sì terrestri, come acquatici, & aerei, hò trouato alcuni Poeti, che ne fanno mentione; onde mi pare à proposito di mescolarli insieme, per chi ne hauerà bisogno.
+[ЗАГОЛОВОК: SCILLA.]
+Secondo Homero nell'Odissea.
+[ИНИЦИАЛ: V]N mostro horrendo dentro d'vna spelonca marina, con dodici piedi, & sei colli, con altretanti capi, & ogn'vn di quelli hauerà vna gran bocca con tre ordini di denti, da i quali vedrassi cascare mortifero veneno.
+Sta in atto di sporgere in fuori dell'antro le spauenteuoli teste, come per guardar se potesse far preda de' Nauiganti, come già si fece de' compagni di Vlisse, che tanti ne furno deuorati, quante erano le voraci bocche del crudel mostro, il quale abbaia come cane. Et Ouidio lib. 14. lo dipinge in vn lago auelenato da Circe, & così dice.
+*Scilla meglio vi guarda, e ancor no'l crede*
+*El pur tocca, e la pelle irsuta, e dura:*
+*Ma quando chiaro al fin conosce, e vede*
+*Che tutto è can di sotto alla cintura,*
+
+Колонтитул: 340 ICONOLOGIA.
+Кустод: Si straccia
+Сигнатура: 
+Маргиналии:
+
+## Скан 0362 · с. 341
+
+*Si straccia il crin, el volto, el petto fiede*
+*E tale ha di se stesso onta, e paura,*
+*Che fugge il nuouo can, seco s'adira*
+*Ma fugg' ouunque vuol seco sel gira.*
+Et Virg. nel 3. dell'Eneide disse.
+*Scilla si stringe nell'aguati oscuri.*
+*D'vna spelonca, en fuor porge la bocca*
+*E i legni trahe dentro à gl'ascosi scogli*
+*Human' ha il volto, e nel leggiadro aspetto*
+*Vergine sembra, e le postreme parti*
+*Di marin mostro spauentoso, e grande*
+*Congiunge son di lupo al fiero ventre*
+*Di delfin porta al fin l'altere code.*
+Scilla, e Cariddi sono due scogli posti nel mare di Sicilia, & sono stati sempre pericolosissimi alli nauiganti, però i Poeti antichi li diedero figura di mostri marini oppressosi di tutti quelli che passano vicini ad essi.
+[ЗАГОЛОВОК: SCILLA.]
+Mostro nella Medaglia di Sesto Pompeo.
+[ИНИЦИАЛ: V]NA donna nuda sino al belico, la quale con ambi le mani tiene vn timone di naue, & par che con esso vogli menare vn colpo, & dal belico in giù è pesce, & si diuide in due code attorcigliate, & sotto al belico escono come tre cani, & tengono mezo il corpo fuori, & par che abbaiano.
+Tiene il timone in atto minaccieuole, & nociuo per dinotare, che essendo Scilla vn passo molto pericoloso à i nauiganti, suol spezzare le naui, & ammazzare i marinari.
+Si dimostra per i cani lo strepito grande che fa il mar tempestoso, quando batte in quei scogli che s'assomiglia à latrare de cani, & il danno, che riceuono dalla fierezza di Scilla quelli che danno à trauerso, onde Virgilio così dice con questi versi nella sesta egloga.
+*Candida succinctam latrantibus inguina monstris*
+*Dulichias vexasse rates, & gurgite in alto*
+*Ab timidos Nautas canibus lacerasse marinis.*
+[ЗАГОЛОВОК: Cariddi.]
+[ИНИЦИАЛ: C]Ariddi è poi l'altro scoglio anch'esso pericolosissimo, che l'acqua intorcendosi d'intorno sorbisce molte volte le naui, è tal'hora s'inalza sopra i monti di maniera che grandissimo spauento rende à nauiganti.
+Però fù detto da i poeti che era di bruttissimo aspetto con le mani, & piedi d'vcello rapace, & con la bocca aperta.
+Scill'e Cariddi son vicini l'vn l'altro, & oue son posti è pericoloso di nauigare per l'onde di due contrarij mari, che iui incontrandosi insieme combattono, & perciò il Petrarca disse.
+*Passa la naue mia colma d'oblio*
+*Intra Scill'e Caridi, &c.*
+
+Колонтитул: DI CESARE RIPA. 341
+Кустод: CHI-
+Сигнатура: Y
+Маргиналии:
+
+## Скан 0363 · с. 342
+
+[ЗАГОЛОВОК: Chimera.]
+[ИНИЦИАЛ: L]Vcretio, & Homero dicono, che la Chimera hà il capo di Leone, il ventre di capra, & la coda di drago, & che getta fiamme per la bocca come racconta anco Virgilio, che la finge nella prima entrata dell'inferno insieme con altri mostri.
+Quello che dissero fauoleggiando i Poeti della Chimera fù fondato ne l'historia d'vn monte della Licia, dalla cima del quale continouamente escono fiamme, & hà d'intorno gran quantità di leoni, essendo poi più à basso verso il mezo della sua altezza molt' abondanza d'arbori, e pascoli.
+[ЗАГОЛОВОК: Griffo.]
+[ИНИЦИАЛ: S]I dipinge con la testa, con l'ali, e con l'artigli all'aquila somiglianti, & con il resto del corpo, e co'piedi posteriori, & con la coda al leone.
+Dicono molti, che questi animali si trouano ne i monti dell'Armenia, è il griffo insegna di Perugia mia patria datali già da gl'Armeni, li quali passati quiui con figliuoli, & nepoti, & piacendoli infinitamente il sito, essendo dotato da la natura di tutti i beni, che sono necessarij à l' vso humano, lecitamente v'habitarono dando principio alla presente nobile, inuitta, & generosa posterità.
+[ЗАГОЛОВОК: Sfinge.]
+[ИНИЦИАЛ: L]A Sfinge, come racconta Eliano hà la faccia fino alle mammelle di vna giouane, & il resto del corpo di leone, & Ausonio Gallo oltre ciò dice ch'ella hà due grand'ali.
+La Sfinge, secondo la fauola che si racconta, staua vicino à Thebe, sopra d'vna certa rupe, & à qualunque persona che passaua di là proponeua questo enigma, cioè. Qual fosse quell'animale, c'hà due piedi, & il medesimo hà tre piedi, & quattro piedi, & quei che non sapeuano sciorre questo detto da lei restauano miseramente vccisi, & diuorati; lo sciolse Edipo dicendo ch'era l'huomo, il qual ne la fanciullezza à le mani, & à i piedi appoggiandosi è di quattro piedi, quando è grande camina con due piedi: ma in vecchiezza seruendosi del bastone è di tre piedi; Onde sentendo il mostro dichiarato il suo enigma, precipitosamente giù del monte oue staua si lanciò.
+[ЗАГОЛОВОК: Arpie.]
+[ИНИЦИАЛ: F]Insero li poeti l'arpie in forma d'vcelli sporchi, & fetidi, & dissero, che furono mandate al Mondo per gastigo di FineoRè d'Arcadia, al quale, perche hauea accecati due suoi figliuoli, per condescendere à la voglia de la moglie madregna di essi, questi vcelli, essendo acciecato l'imbrattauono, & toglieuano le viuande mentre mangiaua, & che poi furono quest'arpie scacciate da gl'Argonauti in seruitio di detto Rè nel mare Aonio nell'isole dette Strofadi, come racconta Apollonio diffusamente vna di queste racconta Virgilio nel 3. de l'Eneide vna di queste predicesse a i Troiani la venuta infelice, & i fastidij che doueuano sopportare in pena d'hauer prouato d'vcciderle, & à simiglianza di Vergilio le descriue Ariosto così.
+
+Колонтитул: 342 ICONOLOGIA
+Кустод: Erano
+Сигнатура: 
+Маргиналии:
+
+## Скан 0364 · с. 343
+
+*Erano sette in vna schiera, e tutte*
+*Volto di donna hauean pallide, e smorte*
+*Per lunga fame attenuate, e asciutte,*
+*L'alaccie grandi hauean difform' e brutte*
+*Le man rapaci, e l'vgne incurue, e torte*
+*Grand' e fetido il ventre, e lunga coda*
+*Come di serpe, che s'aggira, e snoda.*
+Furono l'arpie dimandate cani di Gioue, perche sono l'istesse, che le furie pinte ne l'inferno con faccia di cane, come disse Virgilio nel sesto de l'Eneide.
+*Visæque canes vlulare per vmbram.*
+Dicesi questi vcelli hanno perpetua fame à similitudine de gl'auari.
+[ЗАГОЛОВОК: Hidra.]
+[ИНИЦИАЛ: D]Ipingesi l'hidra per vn spauenteuole serpente, il quale come racconta Ouidio lib. 9. Methamorf. hà più capi, & di lei Hercole così disse quando combattè con Acheloo trasformato in serpente.
+*Tu con vn capo sol qui meco giostri*
+*L'hidra cento n'hauea, nè la stimai,*
+*E per ogn'vn ch'io ne troncai, di vento*
+*Ne viddi nascer due di più spauento.*
+Ci sono alcuni che la pingono con sette capi rappresentati per i sette peccati mortali.
+[ЗАГОЛОВОК: Cerbero.]
+[ИНИЦИАЛ: S]Eneca lo descriue in questo modo.
+*Il terribile cane ch'alla guardia*
+*Sta del perduto regno, e con tre bocche*
+*Lo fà d'horribil voce risonare*
+*Porgendo graue tema à le trist'ombre*
+*Il capo, el collo hà cinto di serpenti,*
+*Et è la coda vn fiero drago il quale*
+*Fischia s'aggira, tutto si dibatte.*
+Apollodoro medesimamente lo descriue, ma di più dice, che i peli del dorso son tutti serpentelli.
+Et anco Dante così dice:
+*Cerbero fera crudel, e diuersa*
+*Con tre gole caninamente latra*
+*Soura la gente, che quiui è sommersa*
+*Gl'occhi vermigli, la barba vnta, & atra*
+*Il ventre largo, & onghiate le mani*
+*Graffi i gli spirti, gl'ingoia, & squarta.*
+Alcuni dicono che Cerbero si intenda per la terra, la quale diuora li corpi morti.
+
+Колонтитул: DI CESARE RIPA. 343
+Кустод: MV-
+Сигнатура: Y 2
+Маргиналии:
+
+## Скан 0365 · с. 344
+
+[ЗАГОЛОВОК: MVSICA.]
+[ИНИЦИАЛ: D]Onna giouane à seder sopra vna palla di color celeste, con vna penna in mano, tenghi gl'occhi fissi in vna carta di musica, stesa sopra vna incudine, con bilance à piedi, dentro alle quali siano alcuni martelli di ferro.
+Il sedere dimostra esser la musica vn singular riposo de l'animo trauagliato.
+La palla scuopre che tutta l'armonia della Musica sensibile si riposa, & fonda nell'armonia de i Cieli conosciuta da Pittagorici, della quale ancora noi per virtù d'essi participamo, & però volontieri porgemo gli orecchi alle consonanze armoniache, & musicali. Et è opinione di molti antichi gentili, che senza consonanze musicali non si potesse hauere la perfettione del lume da ritrouare le consonanze dell'anima, & la simmetria, come dicono i Greci delle virtù.
+Per questo si scriue da poeti, li quali furono autentici secretarij della vera Filosofia, che hauendo li Cureti, & Coribanti tolto Gioue ancora fanciullo dalla crudeltà di Saturno suo Padre, lo condussero in Candia, acciò si nudrisse, & alleuasse, & per la strada andorno sonando sempre cimbali, & altri instromenti di rame, interpretandosi Gioue moralmente per la bontà, & sapienza acquistata, la quale non si può alleuare, ne crescere in noi, senza l'aiuto dell'armonia musicale di tutte le cose, la quale occopando d'intorno l'anima, non possono penetrare ad hauer nostra intelligenza gl'habiti contrarij alla virtù, che sono padri, per esser prima in noi l'inclinatione al peccato, che à gli atti, li quali sono virtuosi, & lodeuoli.
+E Gioue scampato sano dalle mani di Saturno, quella più pura parte del Cielo incorruttibile, contro la quale non può esercitare le sue forze il tempo diuoratore di tutti gli Elementi, & consumator di tutte le compositioni materiali.
+Furno alcuni de'Gentili, che dissero i Dei esser composti di numeri, & armonie, come l'homini d'anima, e corpo, e che però ne i lor sacrifitij sentiuano volentieri la musica, & la dolcezza de'suoni, & di questo tutto dà cenno, & inditio la figura, che siede, & si sostenta sopra il Cielo.
+Il libro di musica mostra la regolavera da far participar altrui l'armonie in quel modo che si può per mezo de gl'occhi.
+Le bilancie mostrano la giustezza ricercarsi nelle voci per giuditio de l'orecchi, non meno che nel peso per giuditio de gl'altri sensi.
+L'incudine si pone, perche li scriue, & crede quindi hauere hauto origine quest'arte, & si dice che Auicenna con questo mezo venne in cognitione, & si diede à scriuere della conuenienza, & misura de' tuoni musicali, & delle voci, & così vn leggiadro ornamento accrebbe al consortio, & alla conuersatione de gl'huomini.
+
+Колонтитул: 344 ICONOLOGIA.
+Кустод: Musi-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0366 · с. 345
+
+[ЗАГОЛОВОК: Musica.]
+[ИНИЦИАЛ: D]Onna, che con ambedue le mani tiene la Lira di Apolline, & à piedi hà varij stromenti musicali.
+Gli Egittij per la Musica fingeuano vna lingua con quattro denti, come hà raccolto Pierio Valeriano diligente osseruatore dell'antichità.
+[ЗАГОЛОВОК: Musica.]
+[ИНИЦИАЛ: D]Onna con vna veste piena di diuersi stromenti, & diuerse cartelle, nelle quali siano segnate le note, e tutti i tempi di esse. In capo terrà vna mano musicale, acconciata fra'capelli, & in mano vna Viola da gamba, ò altro istromento musicale.
+[ЗАГОЛОВОК: Musica.]
+[ИНИЦИАЛ: S]I dipingono alla riua d'vn chiaro fonte quasi in circolo molti Cigni, & nel mezzo vn giouanetto con l'ali alle spalle, con faccia molle, & delicata, tenendo in capo vna ghirlanda de fiore, il quale rappresenta Zefiro in atto di gonfiare le goti, & di spiegar vn leggiero vento verso i detti cigni, per la ripercussion di questo vento parerà che le piume di essi dolcemente si muouono, perche, come dice Eliano, questi vccelli non cantano mai, se non quando spira Zefiro, come i Musici, che non sogliono volontieri cantare, se non spira qualche vento delle loro lodi, & appresso persone, che gustino la loro armonia.
+[ЗАГОЛОВОК: Musica.]
+[ИНИЦИАЛ: D]Onna, che suoni la cetra, la quale habbia vna corda rotta, & in luogo della corda vi sia vna cicala; in capo habbia vn Rosignuolo vccello notissimo; a' piedi vn gran vaso di vino, & vna Lira col suo arco.
+La cicala posta sopra le cetra, significa la Musica, per vn caso auuenuto d'vn certo Eunomio, al quale, sonando vn giorno à concorrenza con Aristosseno Musico, nel più dolce sonare si ruppe vna corda, & subito sopra quella cetera andò volando vna cicala, la quale col suo canto suppliua al mancamento della corda, così fù vincitore della concorrenza musicale. Onde per beneficio della cicala, in memoria di tal fatto, li Greci drizzorno vna statua al detto Eunomio con vna cetera con la cicala sopra, & la posero per hieroglifico della Musica.
+Il Rosignuolo era simbolo della Musica per la varia, soaue, & dilettabile melodia della voce; perche auertirno gli antichi nella voce di questo vccello tutta la perfetta scienza della Musica, cioè la voce hor graue, & hor acuta, con tutte le altre, che s'osseruano per dilettare.
+Il vino si pone, perche la Musica fù ritrouata per tener gli animi allegri come fà il vino, & ancora perche molto aiuto dà alla melodia della voce il vino buono, & delicato; però dissero gli antichi Scrittori vadino in compagnia di Bacco.
+
+Колонтитул: DI CESARE RIPA. 345
+Кустод: MV-
+Сигнатура: Y 3
+Маргиналии:
+
+## Скан 0367 · с. 346
+
+[ЗАГОЛОВОК: MVSE.]
+[ИНИЦИАЛ: F]VRONO rappresentate le Muse da gli antichi, giouani, gratiose, & vergini, quali si dichiarono nell'epigramma di Platone referto da Diogene Laertio in questa sentenza.
+*Hæc Venus ad Musas. Venerem exhorrescite Nymphæ,*
+*Armatus vobis aut amor insiliet.*
+*Tunc Musæ ad Venerem. Lepida hæc ioca tolle præcamur,*
+*Aliger huc ad nos non volat ille puer.*
+Et Eusebio nel lib. della preparatione Euangelica dice esser chiamate le Muse dalla voce Greca μυέω, che significa instruire di honesta, & buona disciplina; onde Orfeo nelli suoi hinni canta come le Muse han dimostrata la Religione, & il ben viuere à gli huomini. Li nomi di dette Muse sono questi: Clio, Euterpe, Talia, Melpomene, Polinnia, Erato, Tersicore, Vrania, & Calliope.
+[ЗАГОЛОВОК: CLIO.]
+[ИНИЦИАЛ: R]APPRESENTAREMO Clio donzella con vna ghirlanda di lauro, che con la destra mano tenghi vna tromba, & con la sinistra vn libro che di fuora sia scritto TVCIDIDES.
+Questa Musa è detta Clio, dalla voce Greca κλέα, che significa lodare, ò dall'altra κλέως, significante gloria, & celebratione delle cose, che ella canta, ouero per la gloria, che hanno li Poeti presso gli huomini dotti, come dice Cornuto, come anco per la gloria, che riceuono gl'huomini, che sono celebrate da Poeti.
+Si dipinge con il libro Tucidides, perciòche attribuendosi à questa Musa l'historia, dicendo Virg. in opusc. de Musis.
+*Clio gesta canens transacti tempora reddit.*
+Conuien che ciò si dimostri con l'opere di famoso Historico, qual fù il detto Tucidide.
+La corona di lauro dimostra, che sì come il lauro è sempre verde, e longhissimo tempo si mantiene, così l'opere dell'Historia perpetuamente viuono le cose passate, come ancor le presenti.
+[ЗАГОЛОВОК: EVTERPE.]
+[ИНИЦИАЛ: G]IOVANETTA bella, hauerà cinta la testa di vna ghirlanda di varij fiori, terrà con ambi le mani diuersi stromenti da fiato.
+Euterpe, secondo la voce Greca significa gioconda, & diletteuole, per il piacere, che si piglia dalla buona eruditione, come dice Diodoro lib. 5. cap. 1. & dalli Latini si chiama Euterpe: *Bene delectans*.
+Alcuni vogliono, che questa Musa sia sopra la Dialettica, ma i più dicono che si diletta delle tibie, & altri instromenti da fiato, così dicendo Oratio nella prima ode del lib. 1.
+*Si neqúe tibias Euterpe cohibet.*
+Et Virg. in opusc. de Musis.
+*Dulciloquis calamos Euterpe flatibus vrget.*
+Gli si dà la ghirlanda di fiori, perche gl'antichi dauano alle Muse ghirlande
+
+Колонтитул: 346 ICONOLOGIA
+Кустод: lande
+Сигнатура: 
+Маргиналии:
+
+## Скан 0368 · с. 347
+
+lande di fiori, per esprimer la giocondità del proprio significato per il suo nome, & effetto del suono, che tratta.
+[ЗАГОЛОВОК: TALIA.]
+[ИНИЦИАЛ: G]IOVANE di lasciuo, & allegro volto, in capo hauerà vna ghirlanda d'hedera, terrà con la sinistra mano vna maschera ridiculosa, & ne i piedi i socchi.
+A questa Musa si attribuisce l'opera della Comedia, dicendo Virgilio in opusc. de Musis.
+*Comica lasciuo gaudet sermone Talia.*
+Perciò li stà bene il volto allegro, & lasciuo, come anco la ghirlanda di hedera in segno della sua prerogatiua sopra la Poesia comica.
+La maschera ridicolosa, significa la rappresentatione del soggetto rideuole per proprio della Comedia.
+Li socchi essendo calciamenti, che vsauano anticamente portare i recitanti di Comedia, dichiarano di vantaggio la nostra figura.
+[ЗАГОЛОВОК: MELPOMENE.]
+[ИНИЦИАЛ: D]ONZELLA d'aspetto, & vestito graue, con ricca, & vaga acconciatura di capo, terrà con la sinistra mano scettri, & corone alzate in alto, & parimente faranno altri scettri, & corone auanti lei gittate per terra, & con la destra mano terrà vn pugnale nudo, & ne i piedi i coturni. Virgilio attribuisce à questa Musa l'opera della Tragedia con questo verso.
+*Melpomene tragico proclamat mœsta boatu.*
+Benche altri la facciano inuentrice del canto, donde anco hà riceuuto il nome, peròche vien detta dal nome Greco μολπὴ, che vuol dire Cantilena, & melodia, per la quale sono addolciti gli auditori. Di quì dice Horatio ode 24. lib. 1.
+*Cur liquidam pater vocem cum cithara dedit.*
+Si rappresenta di aspetto, & di habito graue, perche il soggetto della Tragedia è cosa tale, essendo attione nota per fama, ò per l'historie, qual grauità gli viene attribuita da Ouidio.
+*Omne genus scripti grauitate Tragedia vincit.*
+Le corone, & scettri parte in mano, & parte in terra, & il pugnale nudo, significano il calo della felicità, & infelicità mondana de gl'huomini per contenere la Tragedia trapasso di felicità à miserie, ouero il contrario da miserie à felicità.
+Li coturni che tiene ne i piedi sono istromenti di essa Tragedia.
+Onde Horatio nella Poetica dice Eschilo hauergli dati tali instromenti.
+*Post hunc personæ pallæque repertor honestæ*
+*Aeschylus, & modicis instrauit pulpita tignis:*
+*Et docuit, magnumque loqui, nitique coturno.*
+[ЗАГОЛОВОК: POLINNIA.]
+[ИНИЦИАЛ: S]TARA' in atto d'orare, tenendo alzato l'indice della destra mano:
+
+Колонтитул: DI CESARE RIPA. 347
+Кустод: L'ac-
+Сигнатура: Y 4
+Маргиналии:
+
+## Скан 0369 · с. 348
+
+L'acconciatura della testa sarà di perle, & gioie di varij, & vaghi colori vagamente orneta. L'habito sarà tutto bianco, & con la sinistra mano terrà vn volume sopra del quale sia scritto SVADERE.
+Il stare in atto di orare, & il tenere in alto l'indice della destra mano dimostra che questa musa soprastà (secondo l'opinione d'alcuni) à Retorici dicendo Verg. in Opusc. de Musis.
+*Signat cuncta manu, loquitur Polymnia gestu.*
+Et Ouidio nel 5. de Fasti l'induce che parli in questa guisa.
+*Dissensere Deæ, quarum Polymnia cœpit.*
+Le perle, & le gioie che tiene attorno le chiome, denotono le doti, & virtù sue. Seruendosi la Rhetorica dell'inuentione, della dispositione, della memoria, & della pronunciatione, massime essendo il nome di Polimnia composto delle voci πολλυ & μ che significano molta memoria.
+L'habito bianco, denota la purità, & sinceritá, cose che fanno all'Oratore sicura fede intorno à quello che dice più d'ogn'altra cosa.
+Il volume, col motto suadere è per dichiarare compitamente la somma della Rhetorica, hauendo per vltimo fine il persuadere.
+[ЗАГОЛОВОК: ERATO.]
+[ИНИЦИАЛ: D]ONZELLA gratiosa, & festeuole, harà cinte le tempie con vna corona di mirto, & di rose, con la sinistra mano terrà vna lira, & con l'altra il plettro, & appresso à lei farà vn'Amorino alato con vna facella in mano, con l'arco, & faretra.
+Erato, è detta dalla voce Greca ἔρος, significante amore, il che mostrà Ouidio nel 2. de Arte amandi così dicendo.
+*Nunc mihi quando Puer, & Citherea fauore*
+*Nunc Erato nam tu nomen amoris habes.*
+Li si dà corona di mirto, & di rose, percioche trattando questa musa di cose amorose, gli si conuien à canto il Cupido, il mirto, & la rosa. Essendo che siano in tutela di Venere madre delli amori, onde Ouidio 4. Fast. così dice.
+*Leuiter mea tempora mirto*
+*Tontano beauit Veneris sapora mirtus.*
+Et Anacheonte nell'ode della rosa dice.
+*Rosam amoribus dicatam.*
+La Lira, & il plettro gli si dà per l'auttorità del Poeta che così dice nell'opusc. & de Musis.
+*Pletira gerens erato saltat pede, carmine, vultu.*
+[ЗАГОЛОВОК: TERPSICORE.]
+[ИНИЦИАЛ: S]I dipingerà parimente donzella di leggiadro, & vago aspetto, & terrà la cetera mostrando di sonarla, harà in capo vna ghirlanda di penne di varij colori, trà quali saranno quelli di Gaza, & starà in atto gratioso di ballare.
+Se li dà la cetera per l'auttorità del Poeta, che nel detto opuscolo dice Terpsicore.
+*Affectus citharis mouet, imperat, auget.*
+
+Колонтитул: 348 ICONOA LOGI
+Кустод: Gli
 Сигнатура: 
 Маргиналии:
