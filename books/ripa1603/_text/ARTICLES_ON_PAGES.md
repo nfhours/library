@@ -442,3 +442,23 @@
 | 0487 | Sorte. | SORTE. | 0487_1 | r587 | бегущий заголовок |
 | 0488 | SOSTITIONE. |  |  | r588 | нет рамки |
 | 0489 | SOSTANZA.; SOTTILITA'.; SPAVENTO. | SOSTANZA. | 0489_1 | r589 | заголовок перед гравюрой |
+| 0490 | SPERANZA. | SPERANZA. | 0490_1 | r592 | заголовок перед гравюрой |
+| 0491 | SPERANZA.; Speranza.; Speranza.; SPERANZA DELLE FATICHE. |  |  | r592, r593 | нет рамки |
+| 0492 | SPERANZA. come dipinta da gli antichi.; SPERANZA DIVINA, ET CERTA. |  |  | r594 | нет рамки |
+| 0493 | SPERANZA FALLACE.; STABILITA. |  |  | r595, r596 | нет рамки |
+| 0494 | Stabilità.; STAGIONI DELL'ANNO.; Primauera . |  |  | r596, r597, r598 | нет рамки |
+| 0495 | ESTATE. |  |  | r599 | нет рамки |
+| 0496 | AVTVNNO.; INVERNO. |  |  | r600, r601 | нет рамки |
+| 0497 | STAGIONI. Le quattro Stagioni dell'Anno nella Medaglia d'Antonino Caracolla .; Stagioni . Come rappresentate in Fiorenza da Francesco Gran Duca di Toscana in vn bellissimo apparato .; PRIMAVERA. |  |  | r598 | нет рамки |
+| 0498 | ESTATE.; AVTVNNO.; INVERNO.; STERILITÀ. |  |  | r599, r600, r601, r602 | нет рамки |
+| 0499 | STOLTITIA.; STVDIO DELL'AGRICOLTVRA.; STVDIO.; SVPPLICATIONE. Nelle Medaglie di Nerone . |  |  | r603, r10, r604, r605 | нет рамки |
+| 0500 | SVPERBIA. |  |  | r607 | нет рамки |
+| 0501 | TARDITA'.; TEMPERANZA.; TEMPERANZA. |  |  | r608, r609 | нет рамки |
+| 0502 | TEMPERANZA. | TEMPERANZA. | 0502_1 | r609 | заголовок перед гравюрой |
+| 0503 | TEMPESTA NINFA DELL'ARIA.; TEMPO. |  |  | r610, r611 | нет рамки |
+| 0504 | TENTATIONE D'AMORE. |  |  | r613 | нет рамки |
+| 0505 | TEOLOGIA.; TERRORE. |  |  | r614, r615 | нет рамки |
+| 0506 | TERRORE |  | 0506_1 | r615 | заголовок перед гравюрой |
+| 0507 | TERREMOTO.; Timidità, ò Timore. |  |  | r616, r617 | нет рамки |
+| 0508 | TIMORE.; TIRANNIDE. |  |  | r618, r619 | нет рамки |
+| 0509 | TOLERANZA.; TORMENTO D'AMORE.; TORMENTO. |  |  | r620, r621 | нет рамки |

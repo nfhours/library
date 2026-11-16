@@ -10302,3 +10302,501 @@ de belli ingegni .
 Кустод: gliuoli
 Сигнатура: 
 Маргиналии:
+
+## Скан 0490 · с. 469
+
+gliuoli di Medea da loro vccisi già, per lo dono che haueuono portato alla figliuola di Creonte,la quale ne perì con tutta la casa regale .
+[ЗАГОЛОВОК: SPERANZA.]
+[ИНИЦИАЛ: N]ELLA Medaglia di Claudio, è dipinta donna vestita di verde,con vn giglio in mano, perche il fiore ci dimostra la speranza , la quale è vna aspettatione del bene,si come all'incontro il timore è vn commouimento dell'animo nell'aspettatione del male,onde noi vedendo i fiori, sogliamo sperare i frutti,li quali poi col corso qualche giorno ci dà la natura, per non ingannar le nostre speranze, & se bene i fiori tutti destano in noi la speranza , il giglio nondimeno come fiore molto più suaue de gl'altri , la porge maggiore,come dice il Pierio nel lib. 55.
+Vestesi questa figura di verde per la similitudine dell'herbe, che danno speranza di buona raccolta .
+[ГРАВЮРА: без подписи]
+
+Колонтитул: DI CESARE RIPA. 469 / SPERANZA.
+Кустод: DON-
+Сигнатура: Gg
+Маргиналии:
+
+## Скан 0491 · с. 470
+
+[ЗАГОЛОВОК: SPERANZA.]
+[ИНИЦИАЛ: D]ONNA vestita di verde,con vna ghirlanda de fiori,tenendo amore in braccio al quale dia à suggere le proprie mammelle .
+La ghirlanda de fiori, per la ragione detta del giglio nell'altra figura, significa speranza, spirandosi i frutti all'apparire che fanno i fiori .
+Amore,che prende il latte dal petto di questa,è vno inditio , che dimostra la speranza esser vero fomento d'amore,& che doue manca la speranza,amore in vn subito sparisce, perche essendo vna passione alteratiua del desiderio per possedere vna cosa amata,non è dubio , che ne senza amore ella,ne amor senza lei, può durare lungo tempo . Et come non si desidera già mai il male, cosi sempre si spera il bene da vn'huomo , che viue con la guida della natura , & della ragione , & per essere il bene ageuolmente conosciuto,facilmente muoue ad amare,& à sperare d'essere posseduto,& goduto . Però disse S. Agostino nel Salmo 104. che l'amore senza la speranza,non può venir'à fine de desiderij .
+[ЗАГОЛОВОК: Speranza.]
+[ИНИЦИАЛ: D]Onna vestita di gialdo,con vn'arboscello fiorito in capo, la veste sarà tutta piena di varie piante,& nella sinistra terrà vn'anchora .
+Due sono le qualità del bene,che si può desiderare,vna è l'honestà,l'altra l'vtilità,quella si accenna con la pianta fiorita,che sono gl'ornament d'honore ; l'altro con l'ancora che aiuta ne i pericoli maggiori della fortuna .
+Si veste di gialdo la speranza , & di tal colore vestasi l'Aurora , & non senza ragione gl'Atheniesi addimandorno Aurora speranza , perche nel nascer di quella insieme col giorno,ogni cosa si rinouella,& si incomincia nouamente à sperare alcuna cosa già persa .
+[ЗАГОЛОВОК: Speranza.]
+[ИНИЦИАЛ: D]Onna vestita di verde,con la sinistra mano alzi vn lembo della veste, & nella destra tenga vna tazza dentro alla quale sia vn giglio , cosi si vede scolpita in vna Medaglia d'oro d'Adriano Imperatore con queste lettere P. R.
+[ЗАГОЛОВОК: SPERANZA DELLE FATICHE.]
+[ИНИЦИАЛ: D]ONNA vestita di verde,che nel grembo tiene del grano, & con l'altra mano lo semina .
+Questa figura mostra,che la speranza è vn desiderio di cosa buona, con la cognitione dell'attitudine à potersi conseguire , & acquistare , perche seminando il grano con debito modo , si sà per esperienza passata , che moltiplica, & volontieri si gitta via il puoco presente, con la speranza del molto da venire . Il che può ancora essere impedito da molti accidenti; peròdisse il Dante .
+*Speranza è vn certo mel misto d'assentio,*
+*Che hor dolce , hor aspro il tempo al gusto porge*
+
+Колонтитул: 470 ICONOLOGIA
+Кустод: In cui
+Сигнатура: 
+Маргиналии:
+
+## Скан 0492 · с. 471
+
+*In cui nostro disio s'abbassa , & sorge ,*
+*Fin che la morte al tutto pon silentio .*
+[ЗАГОЛОВОК: SPERANZA. come dipinta da gli antichi.]
+[ИНИЦИАЛ: V]NA fanciulletta allegra, con vn vestito longo, & trasparente, & senza cingersi,tiene con dui dita della mano vn'herba di tre foglie, & con l'atra mano s'alza la veste , & par che camini in punta de-piedi .
+Fanciulla si rappresenta la speranza , percioche ella comincia come i fanciulli , perche si come di loro si tiene speranza , che faranno buoni, cosi quello che l'huomo spera non lo gode ancora perfettamente .
+Si dimostra allegra , perche ogni seguace di quello che l'huomo spera , gli causa allegrezza .
+Il vestimento longo,e trasparente denota , che tutte le speranze sono longhe , & per esse si strauede il desiderio .
+Si dimostra esso vestimento senza cingersi , perche la speranza non piglia,ne stringe la verità, ma solamente prende quello,che gli vien portato dall'aria,& di quà , & di là .
+L'herba chiamata trifoglie,è quella prima herba , che nasce dal grano seminato , & questo è quello,che si chiama il verde della speranza .
+Il caminare in punta di piedi, perche la speranza non stà ferma , e non [?]ragiunge mai se non à caso, & sempre ci pare assai maggiore quel che desideriamo,che quello , che habbiamo .
+[ЗАГОЛОВОК: SPERANZA DIVINA, ET CERTA.]
+[ИНИЦИАЛ: G]IOVANETTA, vestita nel modo detto disopra, con le mani giunte vers'il cielo, & gl'occhi alzati .
+Come il mondo,& gl'huomini che sono mortali,& incerti della duratione di se stessi nō possono partorire effetto di ben certo,& sicuro,cosi Iddio che è datore de tutti i beni,& il vero fondamento delle speranze humane li dona , & li possiede in se stesso perfettamente , & però si dipinge questa figura con gli occhi alzati al cielo,& con le mani giunte , dicendo ancora il Profeta, è beato colui, che non hà fissi gli occhi alle vanità , & alle false pazzie , ma con la mente , & con l'intentione nobilita se stesso,desiderando , & sperando cose incoruttibile,non soggette alla mutatione de tempi, ne sottoposte a gl'accidenti della vita mortale.
+Si fà anco giouanetta, perche deue essere sana,& ben fondata,gagliarda,& piaceuole,non si potendo sperare quel che non si ama,ne amar quel che non hà speranza de bene , ò di bello, & questa speranza non è altro, come dice S. Girolamo nella 5. Epistola,che vna aspettatione della cose, delle quale habbiamo fede .
+
+Колонтитул: DI CESARE RIPA. 471
+Кустод: STE-
+Сигнатура: Gg 2
+Маргиналии:
+
+## Скан 0493 · с. 472
+
+[ЗАГОЛОВОК: SPERANZA FALLACE.]
+[ИНИЦИАЛ: G]IOVANETTA di grande statura , con capelli diritti verso il cielo,con le mammelle ignude,con vn'occhio solo in fronte,hauerà due grandi ale à gl'huomeri ,nella destra mano tenendo vna nuuola , & con la sinistra vna nottola,& vna zucca .
+Si dipinge giouanetta , perche si come quell'età è instabile,cosi questa speranza vacilla,sperando senza fondamento cose fuor di ragione , & del douere .
+Hà vn'occhio solo,perche l'huomo à cui manca il lume delle cose mondane,non hauendo altra confidenza,ò altro lume nato dalla fede , ò dalla religione,che è la vera tauola nel naufragio delle speranze cascate,perde la luce à fatto,& si dispera .
+Si fà con l'ali molto grande, perche all'ombra d'esse corre assai gente , perche infinita è la turba delli sciocchi.
+La nuuola ci mostra , che questa speranza quasi nuuola dal vento scacciata in vn subito,senza che l'huomo si raueda fugge,& sparisce .
+Viene ancora assimigliata la speranza mondana alla nottola,la quale la più parte del tempo vola nell'oscuro , non hauendo lo splendore della luce,che è Christo S. N. & il fauore della sua gratia . Però si dipinge con essa,& si dice esser seguaci della speranza,bugie,sogni,atti fallaci , & mentite coniecture .
+Dipingesi con le mamelle ignude , perche volentieri ciascuno nodrisce col suo latte .
+La zucca la quale in pochissimo tempo assai cresce, & s'inalza, ma poi in vn subito casca in terra, & si secca , dimostra che questa speranza che è mal fondata , quanto più si vede in alto , tanto più stà in pericolo d'annichilarsi,& d'andare in fumo .
+[ЗАГОЛОВОК: STABILITA.]
+[ИНИЦИАЛ: D]ONNA vestita di nero con la man destra , & col dito indice alto , starà in piedi sopra vna base quadrata,& con la sinistra si appoggia ad vn'asta , la quale farà posata sopra vna statua di Saturno , che stia per terra .
+Vestesi di nero,perche tal colore dimostra stabilità, conciosia cosa che ogn'altro fuor che questo colore può essere commutato , & conuertito in qualunque altro colore si voglia , ma questo in altro non può essere trasferito , dunque dimostra stabilità,& costanza .
+Lo stare in piedi sopra la base quadrata , ci mostra essere la stabilità costante,& salda apparenza delle cose, la quale primieramente noi esperimentiamo,& conosciamo ne'corpi materiali,dalla stabilità de' quali facciamo poi nascere l'analogia delle cose imateriale , & diciamo stabilità essere nell'intelletto,nell'operationi del discorso , & in Dio istesso, il quale disse di propria bocca ; *Ego Deus , & non mutor.*
+La mano destra,& il dito alto,si fà per simiglianza del gesto di coloro , che si mostrono di voler star fermi nel loro proponimento .
+
+Колонтитул: 472 ICONOLOGIA
+Кустод: L'asta
+Сигнатура: 
+Маргиналии:
+
+## Скан 0494 · с. 473
+
+L'hasta di legno mostra stabilità,come la canna il contrario; per la debolezza sua,come si è detto al suo luogo, perche come si suol dire volgarmente : Chi male si appoggia presto cade .
+La statua di Saturno sopra la quale stà posata l'hasta, è indicio,che vera stabilità non può essere, oue è il tempo, essendo tutte le cose nelle quali esso opra , soggette inuiolabilmente alla mutatione ; onde il Petrarca volendo dire vn miracolo , & effetto di beatitudine nel trionfo della diuinità scrisse .
+*Vidi restare colui, che mai non stette ,*
+*Ma variando suol tutto cangiare .*
+Et doue è il tempo vi è tanto annessa la mutatione , che si stima ancor esser opra da sapiente il sapersi mutare d'opinione , & di giuditio ; onde l'istesso Poeta disse .
+*Per tanto variar natura è bella .*
+Se bene ricorda l'Apostolo,che chi stà in piedi con le virtú sopra le quali non può ne tempo , ne moto , deue auertire molto bene di non cascare in qualche vitio, acciò poi non si dica : *Stultus vt Luna mutatur .*
+[ЗАГОЛОВОК: Stabilità.]
+[ИНИЦИАЛ: D]Onna, che stia à sedere sopra d'vn piedestallo alto, tenendo sotto à i piedi vna palla di colonna in grembo molte medaglie .
+[ЗАГОЛОВОК: STAGIONI DELL'ANNO.]
+[ЗАГОЛОВОК: Primauera .]
+[ИНИЦИАЛ: V]NA Fanciulla coronata di mortella,& che habbia piene le mani di varij fiori, hauerà appresso di sè alcuni animali giouanetti, che scherzono .
+Fanciulla si dipinge, percioche la Primauera si chiama l'infantia dell'anno, per essere la terra piena d'humori generatiui , da quali si vede crescere frondi, fiori, & frutti ne gli arbori, & nell'herbe .
+Gli si dà la ghirlanda di mortella, percioche Horatio nel libro primo ode 4. cosi dice .
+*Nunc decet aut viridi nitidum caput impedire myrto ,*
+*Aut floræ , terræ quem ferunt solutæ .*
+I fiori, & gl'animali, che scherzono, sono conforme à quello,che dice Ouidio nel lib. primo de Fasti .
+*Omnia tunc florent, tunc est noua temporis ætas ,*
+*Et noua de gauido palmite gemma tumet .*
+*Et modo formatis operitur frondibus arbor ,*
+*Prodit & in summum seminis herba solum .*
+*Et tepidum volucres concentibus aera mulcent ,*
+*Ludit & in pratis , luxuriatq; pecus .*
+*Tunc blandi soles , ignotaq; prodit hirundo ,*
+*Et luteum celsa sub trabe fingit opus*
+*Tunc patitur cultus ager , & renouatur aratro ;*
+*Hæc anni nouitas iure vocanda fuit .*
+
+Колонтитул: DI CESARE RIPA. 473
+Кустод: Si
+Сигнатура: Gg 3
+Маргиналии:
+
+## Скан 0495 · с. 474
+
+Si dipinge anco per la Primauera Flora coronata di fiori de quali hà anco piene le mani, & Ouidio poi descriuendo la Primauera dice nel 2.libro delle Metamorfosi trattato dell'agricoltura cosi .
+*Gli stà dalla man destra vna donzella*
+*Ne mai stà che non rida , giochi , ò balli ,*
+*E la stagion che verde hà la gonella*
+*Sparta di bianchi fior , vermigli , & gialdi .*
+*Di rose , e latte , è la sua faccia e bella ,*
+*Son perle i denti , e le labra coralli ,*
+*E ghirlande le fan di varij fiori ,*
+*Scherzando seco i suoi lasciui amori .*
+[ЗАГОЛОВОК: ESTATE.]
+[ИНИЦИАЛ: V]NA Giouane d'aspetto robusto, coronata di spiche di grano,vestita di color gialdo , & che con la destra mano tenghi vna facella accesa .
+Giouanetta, & d'aspetto robusto si dipinge , percioche l'Estate si chiama la giouentù dell'anno,per essere il caldo della terra più forte , & robusto à maturare i fiori prodotti dalla primauera , il qual tempo descriuendo Ouidio nel 15 .lib. delle metamorf. cosi dice .
+*Transit in æstatem post ver robustior annus ,*
+*Fitq; valens iuuenis , neque enim robustior ætas*
+*Vlla , nec vberior , nec quæ magis ardeat vlla est .*
+La ghirlanda de spiche di grano, dimostra il principalissimo frutto,che rende questa stagione .
+Le si dà il vestimento del color giallo, per la similitudine del color delle biade mature .
+Tiene con la destra mano la facella accesa , per dimostrar il gran calore, che rende in questo tempo il Sole, come piace à Manilio libro quinto, cosi dicendo .
+*Cum verò in vastos surgit Nemæus hiatus*
+*Exoriturq; canis, latratq; canicula flammas*
+*Et rapit igne suo , geminatq; incendia Solis*
+*Quæ subdente facem terris radiosq; mouente .*
+Et Ouidio cosi la dipinge nel 2. libro delle metamorfosi .
+*Vna donna il cui viso arde , & risplende*
+*V'è che di varie spighe il capo hà cinto ,*
+*Con vn specchio , che al Sol il fuoco accende*
+*Doue il suo raggio è ribattuto , e spinto .*
+*Tutto quel che percuote in modo offende ,*
+*Che resta secco , strutto , arso , & estinto .*
+*Ouunque si riuerberi , & allumi*
+*Cuoce l'herbe , arde i boschi , & secca i fiumi .*
+Soleuano anco gl'antichi ( come dice Gregorio Giraldi nella sua opera della deità ) dipingere per l'Estate Cerere in habito di Matrona con
+
+Колонтитул: 474 ICONOLOGIA
+Кустод: vn
+Сигнатура: 
+Маргиналии:
+
+## Скан 0496 · с. 475
+
+vn mazzo di spighe di grano, & di papauero con altre cose à lei apartenenti .
+[ЗАГОЛОВОК: AVTVNNO.]
+[ИНИЦИАЛ: V]NA Donna di età virile, grassa, & vestita riccamente , hauerà in capo vna ghirlanda d'vue con le sue foglie , & con la destra mano tenghi vn cornucopia di diuersi frutti .
+Dipingesi di età virile, percioche la stagione dell'Autunno si chiama la virilità dell'anno per essere la terra disposta à rendere i frutti già maturi dal calore estinto, & diporre i semi, & le foglie quasi stanca del generare , come si legge in Ouidio lib.xv. Metamorf.
+*Excipit autumnus posito feruore viuenta*
+*Maturus mitisq; inter iuuenemq; senemq;*
+*Temperie medius sparsus quoque tempora canis .*
+Grassa, & vestita riccamente si rappresenta, percioche l'Autunno è più ricco dell'altre stagioni .
+La ghirlanda di vue, & il cornucopia pieno di diuersi frutti, significano che l'Autunno è abondantissimo di vini, frutti , & di tutte le cose per l'vso de mortali .
+Et Ouidio lib.2. Metamorf. cosi lo dipinge ancor egli .
+*Staua vn'huomo più maturo da man manca ,*
+*Duo de tre mesi à quai precede Agosto ,*
+*Che'l viso hà rosso , e già la barba imbianca ,*
+*E stà sordido , e grasso , e pien di mosto ,*
+*Hà il fiato infetto , e tardi si ranfresca ,*
+*Che vien dal suo venen nel letto posto .*
+*Di vue mature sono le sue ghirlande ,*
+*Di fichi , e ricci , di castagne , e ghiande .*
+Si può anco rappresentare per l'Autunno Bacco carico d'vue con la Tigre, che saltando, li voglia rapire l'vue di mano, ouero dipingerassi vna Baccante nella guisa che si suole rappresentare come anco Pomona .
+[ЗАГОЛОВОК: INVERNO.]
+[ИНИЦИАЛ: H]VOMO , ò donna vecchia, canuta, e grinza,vestita de panni,& di pelle, che stando ad vna tauola bene apparechiata appresso al fuoco, mostri di mangiare, & scaldarsi .
+Si rappresenta vecchia, canuta,e grinza, percioche l'Inuerno si chiama vecchiezza dell'anno, per essere la terra già lassa delle sue naturali fatiche, & attione annuali, & rendesi fredda, malinconica,& priua di bellezza , il qual tempo descriuendo Ouidio nel xv. libro delle Metamorfosi, cosi disse .
+*Inde senilis hyems tremulo venit horrida passu ,*
+*Aut spoliata suos, aut quos habet alba capillos .*
+L'habito de panni , di pelle, & la tauola apparecchiata appresso al fuoco , significa , ( come narra Pierio Valeriano ) perche il freddo,
+
+Колонтитул: DI CESARE RIPA. 475
+Кустод: è la
+Сигнатура: Gg 4
+Маргиналии:
+
+## Скан 0497 · с. 476
+
+è la quiete doppo i molti trauagli dell'Estate, & le ricchezze datecci dalla terra, pare che ci inuitiamo à viuere più lautamente di quello che si è fatto delle stagioni antecedenti ; & Oratio nell'Ode 9. lib.primo, cosi dice .
+*Vides , vt alta stet niue candidum*
+*Socrate : nec iam sustineant onus*
+*Syluæ laborantes ; geluque*
+*Flumina constiterint acuto ?*
+*Dissolue frigus ; ligna super foco*
+*Large reponens : atq; benignius .*
+*Deprome quadrimum Sabina*
+*O Thaliarche meum dyota .*
+Ouidio ancor egli, dipingendo l'Inuerno, nel 2. libro delle Metamof. cosi dice .
+*Vn vecchio v'è , che ogn'vn d'horrore eccede ,*
+*E fa tremar ciascun , che à lui pon mente .*
+*Sol per trauerso il Sol tal volta il vede ,*
+*Ci stà rigido , e freme , batte il dente ,*
+*E' ghiaccio ogni suo pel dal capo , al piede ,*
+*Ne men brama ghiacciar quel raggio ardente ,*
+*Et nel fiatar tal nebbia spirar suole ,*
+*Che offusca quasi il suo splendore al Sole .*
+Dipingesi anco per l'Inuerno Vulcano alla fucina,come anco Eolo co i venti, perche questi fanno le tempeste,che nell'Inuerno son più frequente che ne gl'altri tempi .
+[ЗАГОЛОВОК: STAGIONI. Le quattro Stagioni dell'Anno nella Medaglia d'Antonino Caracolla .]
+[ИНИЦИАЛ: S]I rappresentano le sopradette stagioni per quattro bellissime figure figure di fanciulli vn maggior dell'altro .
+Il primo porta sopra le spalle vna cesta piena di fiori .
+Il secondo tiene con la destra mano vna falce .
+Il terzo con la sinistra porta vn cesto pieno de varij frutti, & con la destra vn'animale morto,& questi tre fanciulli sono ignudi .
+Il quarto è vestito, & hà veiato il capo , & porta sopra le spalle vn bastone, dal quale pende vn'vccello morto , & con la sinistra mano parimente porta vn'altro vccello morto vn differente dall'altro .
+[ЗАГОЛОВОК: Stagioni . Come rappresentate in Fiorenza da Francesco Gran Duca di Toscana in vn bellissimo apparato .]
+[ЗАГОЛОВОК: PRIMAVERA.]
+[ИНИЦИАЛ: T]RE Fanciulle con bionde, & crespe treccie, sopra le quali vi erano bellissimi adornamenti di perle,& altre gioie,ghirlandate di varij,
+
+Колонтитул: 476 ICONOLOGIA
+Кустод: &
+Сигнатура: 
+Маргиналии:
+
+## Скан 0498 · с. 477
+
+& vaghi fiori, si che esse treccie faceuano acconciatura , & basa à i segni celesti, & la prima rappresentaua Marzo, & come habbiamo detto, in cima della testa fra le gioie, & fiori, era il segno dell'Ariete .
+La seconda Aprile, & haueua il Tauro .
+La terza Maggio con il Gemini, & il vestimento di ciascuna era di color verde, tutto riccamato di varij fiori, com'anco d'essi ne teneuano con ambe le mani, & ne i piedi stiualetti d'oro .
+[ЗАГОЛОВОК: ESTATE.]
+[ИНИЦИАЛ: T]RE Giouane ghirlandate de spiche di grano .
+La prima era Giugno,& haueua sopra il capo il segno del Grancio.
+La seconda Luglio con il Leone .
+La terza Agosto, & portaua la Vergine ; il colore del vestimento era giallo, contesto di gigli, & ne i piedi portauano stiualetti d'oro .
+[ЗАГОЛОВОК: AVTVNNO.]
+[ИНИЦИАЛ: T]RE Donne d'età virile,che per acconciatura del capo haueuano adornamenti di gioie , & ghirlandate di foglie di vite, con vue , & altri frutti .
+La prima era Settembre, & per il segno haueua la Libra .
+La seconda Ottobre con il Scorpione .
+La terza Nouembre,& haueua il Sagittario; il colore del vestimento era cangiante rosso, & turchino fregiato delli medesimi frutti delle ghirlan con stiualetti d'oro alli piedi .
+[ЗАГОЛОВОК: INVERNO.]
+[ИНИЦИАЛ: T]RE vecchie per acconciatura del capo portauano veli paonazzi, & vedeuansi sopra di essi la brina, & neue, & chiarissimi cristalli somiglianti per il ghiaccio .
+La prima era Decembre, & haueua il segno di Capricorno .
+La seconda Genaro, co'l segno dell'Acquario .
+La terza Febraio, & per insegna portaua il Pesce ; il color del vestimento era paonazzo scuro, ma pieno di neue, brina, & di ghiaccio, & il medesimo erano guarniti i stiualetti .
+[ЗАГОЛОВОК: STERILITÀ.]
+[ИНИЦИАЛ: D]ONNA stenuata, macilenta, & mesta , terrà in mano vn ramo de salice, appresso hauerà vn mulo, il quale è animale sterile , perche nascendo dall'Asino, & dal Cauallo, è animale difettosissimo nel generare,come racconta Aristotile nel 2. lib. della Generatione de gl'animali , & risultando in lui questo difetto dell'vna, & dell'altra parte,non può hauer medicina, che basti per aiutarlo à tal opra ; solo per prodigio si legge che habbiano alcune volte generato , & partorito .
+Il salce è da Vergilio nominato fra le piante infeconde , & Seruio suo interprete vi aggiunge, che le donne mangiando di questo seme diuengono sterili, & perche nell'antico testamento la sterilità era reputato flagello di Dio, & le donne sterili si credeuano nemiche di lui , & si dipinge macilente , & mesta, la quale mestitia si scuopre particolarmente in Sarra
+
+Колонтитул: DI CESARE RIPA. 477
+Кустод: moglie
+Сигнатура: 
+Маргиналии:
+
+## Скан 0499 · с. 478
+
+moglie d'Abraham, in Anna moglie d'Elcana, & in Elisabetta moglie di Zacharia .
+[ЗАГОЛОВОК: STOLTITIA.]
+[ИНИЦИАЛ: D]ONNA ignuda, e ridente, e gettata per terra in atto sconcio , in modo però,che non si mostrino le parti dishoneste, con vna pecora vicino, perche il pazzo palesa i suoi difetti ad ogn'vno , & il sauio li cela , & perciò si dipinge ignuda, & senza vergogna .
+La pecora da gl'antichi, secondo che segna il Pierio Valeriano, fù posta molte volte per la stoltezza, però disse Dante .
+*Huomini siate , & non pecore matte .*
+Hauerà in vna mano la Luna,perche ad essa stãno molto soggetti i pazzi, & sentono facilmente le loro mutationi .
+[ЗАГОЛОВОК: STVDIO DELL'AGRICOLTVRA.]
+Vedi Agricoltura .
+[ЗАГОЛОВОК: STVDIO.]
+[ИНИЦИАЛ: V]N Giouane di volto pallido, vestito d'habito modesto, farà à sedere, con la sinistra mano terrà vn libro aperto, nel quale miri attentamente, con la destra vna penna da scriuere, & gli farà à canto vn lume acceso, & vn Gallo .
+Giouane si dipinge, percioche il giouane è atto alle fatiche dello studio :
+Pallido , perche quelle sogliano estenuare , & impedire il corpo , come dimostra Giouenale satira v.
+*At te nocturnis viuat impallescere cartis .*
+Si veste d'habito modesto , percioche gli studiosi sogliono attendere alle cose moderate, & sode .
+Si dipinge, che stia à sedere, dimostrando la quiete , & assiduità che ricerca lo studio .
+L'attentione sopra il libro aperto , dimostra che lo studio è vna vehemente applicatione d'animo alla cognitione delle cose.
+La penna che tiene con la destra mano, significa l'operatione,& l'intentione di lasciare, scriuendo , memoria di sè stesso , come dimostra Persio satira prima .
+*Scire tuum nihil est , nisi hoc sciat alter .*
+Il lume acceso, dimostra, che gli studiosi consumano più olio,che vino.
+Il Gallo si pone da diuersi per la sollecitudine, & per la vigilanza, ambedue conuenienti, & necessarie allo studio .
+[ЗАГОЛОВОК: SVPPLICATIONE. Nelle Medaglie di Nerone .]
+[ИНИЦИАЛ: V]NA verginella coronata di lauro, con la sinistra mano tiene vn cestello pieno di varij fiori,& frondi odorifere, i quali con la destra mano sparga sopra d'vn'Altare con gran sommissione , al piè del quale Altare vi è vn letto con grandi, & varij adornamenti .
+
+Колонтитул: 478 ICONOLOGIA
+Кустод: Hauendo
+Сигнатура: 
+Маргиналии:
+
+## Скан 0500 · с. 479
+
+Hauendo i Romani in vso per supplicare i Dij, i letti sternij,che erano alcuni letti,i quali stendeuano ne i tempij, quando voleuano pregare gli Dij,gli fossero propitij,& queste supplicationi,& letti sternij si faceuano, ò per allegrezza , ò per placare l'ira delli Dei, nel qual tempo li Senatori con le moglie , & figliuoli andauano à i tempij , & alli altari delli Dei, & alcune volte soleuano anco in tale occasione andare i nobili fanciulli,& li libertini,& anco le vergine tutte coronate, portando la laurea , hauendo seco con pompa i sacri Carri delli Dei, & soleuano dimandare, & pregare con sacri versi la pace à quelli, & si stendeuano i letti sternij appresso gli altari delli Dei con varij ornamenti, & spargeuano, come habbiamo detto verde,& odorifere frondi,& fiori d'ogni sorte , & le verbene auanti , & dentro delli tempij .
+[ЗАГОЛОВОК: SVPERBIA.]
+[ИНИЦИАЛ: D]ONNA bella,& altera,vestita nobilmente di rosso , coronata d'oro,di gemme in gran copia , nella destra mano tiene vn pauone , & nella sinistra vn specchio nel quale miri,& contempli se stessa .
+La superbia,come dice S. Bernardo è vn'appetito disordinato della pria eccellenza,& però suol cadere per lo più ne gli animi gagliardi, l'ingegno instabile,quindi è che si dipinge bella,& altera, & riccamente vestita .
+Lo specchiarsi dimostra,che il superbo si rappresenta buono, & bello,à se stesso vagheggiando in quel bene, che è in se,col quale fomenta l'ardire senza volger giamai gl'occhi all'imperfettione che lo possono molestare, però si assomiglia al pauone,il quale compiacendosi della sua piuma esteriore,non degna la compagnia de gli quattro vccelli .
+La corona nel modo detto , dimostra che il superbo è desideroso di regnare,e dominare a gl'altri,& che la superbia è regina, ouero radice, come dice Salamone,di tutti vitij,& che fu fra le corone , & nelle grandezze s'acquista,& si conserua principalmente la superbia ; di che porge manifesto essempio Lucifero,che nel colmo delle sue felicità cadde nelle miserie della superbia . Però disse Dante nel 29. del Paradiso .
+Principio del cader fù il maledetto
+Superbir di colui, che tu vedesti
+Da tutto i pesi del mondo costretto .
+Et però si dice per prouerbio.
+A cader và chi troppo in alto sale .
+Il vestimento rosso , ci fà conoscere , che la superbia si troua particolarmente negli huomini colerici,& sanguigni,li quali sempre si mostrano alteri,sforzandosi mantenere questa opinione di se stessi con gli ornamenti esteriori del corpo .
+
+Колонтитул: DI CESARE RIPA. 479
+Кустод: TAR
+Сигнатура: 
+Маргиналии:
+
+## Скан 0501 · с. 480
+
+[ЗАГОЛОВОК: TARDITA'.]
+[ИНИЦИАЛ: D]ONNA vestita di berettino,& hauerà la faccia, & la fronte grande; starà à cauallo sopra vna gran Testudine,la quale regga con la briglia,& sarà coronata di gingiolo , arboro tardissimo à dar frutto .
+[ЗАГОЛОВОК: TEMPERANZA.]
+[ИНИЦИАЛ: D]ONNA vestita di porpora, nella destra mano tenga vn ramo di palma,& nella sinistra vn freno .
+La temperanza è vna mediocrità determinata con vera ragione circa i piaceri,& dispiaceri del corpo,per conto del gusto,& del tatto, vsandosi come si conuiene per amor dell'honesto,& dell'vtile; che sia mediocrità si mostra col vestimento di porpora composto di dui diuersissimi colori, li quali così posti insieme fanno apparire vna diletteuole,& vaga compositione,come due estremi guardati da vn sagace, & accorto intelletto,& ne nasce vn'idea,& vn concetto di molta perfettione , quale poi manifestata nell'opere dimandiamo con questo nome di temperanza , per mostrare, che sia circa i piaceri,& dispiaceri del corpo .
+Le si dà la palma in mano,simbolo del premio, che hanno in cielo quelli,che dominando alle passioni,hanno soggiogati se stessi .
+La palma non si piega ancorche le stiano sopra grandissimi pesi, anzi si solleua, come dicono i scrittori, così anco l'animo temperato quanto più sonno apparenti le passioni,che lo molestano,tanto più è auueduto, & accorto in superarle,& in procurarne vittoria .
+Il freno dichiara, che deue esser la temperanza principalmente adoperata nel gusto,& nel tatto,l'vno de quali solo si partecipa per la bocca , & l'altro è steso per tutto il corpo .
+Gli antichi col freno dipingeuano Nemesis figliuola della Giustitia,la quale con seuerità castigaua gli affetti intemperati de gli huomini , & alcuni dipingono la temperanza con dui vasi,che vno si versa nell'altro,per la similitudine del temperamento , che si fà di due liquori insieme , con quello che si fà di due estremi diuersi .
+Si potrebbe ancora fare in vna mano vn'arco di tirar frezze , per mostrare la mezanità fatta, & generata dalla temperatura nell'attioni , perche tirato con certa misura,manda fuori le saette con velocità , & non tiranno la corda,ò tirandola troppo,ò non vale,o si spezza .
+Temperanza .
+[ИНИЦИАЛ: D]Onna,che nella destra mano tiene vna palma,& nella sinistra vn freno,& à canto vi sia vn leone abbracciato,con vno toro .
+Il freno si piglia per la moderatione de gli appetiti , & la palma per la vittoria,che hà il temperante vincendo se medesimo,come si è detto .
+Il leone abbracciato col toro è simbolo dell'huomo dato alla temperanza secondo l'opinione de gli Egittij, come racconta il Pierio .
+[ЗАГОЛОВОК: TEMPERANZA.]
+[ИНИЦИАЛ: D]ONNA la quale con la destra mano tiene vn freno , con la sinistra vn tempo di horologio,& à canto vi tiene vn'Elefante .
+
+Колонтитул: 480 ICONOLOGIA
+Кустод: Dipin-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0502 · с. 481
+
+[ЗАГОЛОВОК: TEMPERANZA.]
+[ГРАВЮРА: без подписи]
+Dipingesi col freno in vna mano,& col tempo nell'altra , per dimostrare l'offitio della temperanza , che è di rafrenare , & moderare gl'appetiti dell'animo, secondo i tempi, significandosi anco per lo tempo la misura del moto, & della quiete , perche con la temperanza si misurano i mouimenti dell'animo , & si danno i termini dell'vna , & dall'altra banda , da quali vscendo la temperanza, si guasta come i fiumi,che vanno fuori delle sponde loro .
+L'Elefante dal Pierio nel 2. libro, è posto per la temperanza, perche essendo assuefatto ad vna certa quantità di cibo, non vuol mai passare il solito , prendendo solo tanto , quanto è sua vsanza per cibarsi ; Et à questo proposito Plutarco racconta,che in Siria hauendo vn seruitore ordine dal suo Signore di dare vna misura di biada il giorno ad vno Elefante,che haueua,
+
+Колонтитул: DI CESARE RIPA. 481 / TEMPERANZA.
+Кустод: ueua,
+Сигнатура: 
+Маргиналии:
+
+## Скан 0503 · с. 482
+
+ueua, il seruitore per molti giorni fece stare detto animale solo con mezza misura, & essendoui vna volta il Padrone presente gli diede il seruitore tutta la misura insieme, di che l'Elefante auedutosi,diuise in due parti l'orzo con la proboscide,& lasciatane vna,mangiò l'altra secondo il suo ordinario; dal che il Padrone venne in cognitione facilmente di quello,ch'era, prendendo sdegno dell'ingordigia del seruitore poco fedele,& marauiglia della temperanza dell'Elefante molto contenente .
+Temperanza .
+[ИНИЦИАЛ: B]Ella giouane, vestita di tela d'argento, con Clamideta d'oro , sopra la testa per acconciatura portarà vna Testudine; nella destra mano vn freno d'argento, & nella sinistra vn'ouato oue sia dipinto vn paro di celte, con motto che dica *Virtutis instrumentum* .
+Temperanza .
+[ИНИЦИАЛ: D]Onna di bello aspetto, con capelli lunghi, & biondi, nella destra mano terrà vna tenaglia cō vn ferro infocato,& nella sinistra vn'vaso di acqua, nel quale tempera quel ferro ardente, & farà vestita di veluto rosso, con lacci d'oro .
+[ЗАГОЛОВОК: TEMPESTA NINFA DELL'ARIA.]
+Vedi à Grandine .
+[ЗАГОЛОВОК: TEMPO.]
+[ИНИЦИАЛ: H]VOMO vecchio, vestito di cangiante color vario,& diuerso, farà detto vestimento riccamente à stelle, perche di tempo, in tempo esse sono dominatrice alle cose corrottibile,farà coronato di rose,di spighe, di frutti,& di tronchi secchi come Re,& signore dell'anno,& delle stagioni; starà sopra il circolo del Zodiaco, perche la sua virtù , è la sù nel Cielo altamente collocata, & misurando à noi moti del Sole , & de gli altri pianeti, ci distingue,& estingue i mesi , gl'anni, & l'età ; terrà vn specchio in mano, il quale ci fà conoscere,che del tempo solo il presente si vede , & hà l'essere, il quale per ancora è tanto breue,& incerto,che non auanza la falsa imagine dello specchio .
+A canto hauerà vn fanciullo magro,& macilente, da vna banda;& dall'altra, vn'altro bello, & grasso , ambidue con lo specchio , & sono il tempo passato, che si và consumando nelle memorie de gl'huomini , & il futuro , che accresce le speranze tuttauia .
+A' piedi farà vn libro grande,nel quale due altri fanciulli scriuano,tendendo l'vno significato per lo giorno, il Sole in testa , & l'altro per la notte, la Luna .
+Tempo .
+[ИНИЦИАЛ: V]Ecchio vestito di varij colori, nella destra mano terrà vn serpe riuolto in circolo, mostrerà di andare con la tardità,& lentezza,hauerà il capo coperto di vn velo di color verde,sopra alla chioma canuta,perche il freddo,& le neui significati nella canutezza sono cagione, che la terra si veste di herbe, & di fiori .
+
+Колонтитул: 482 ICONOLOGIA
+Кустод: Il
+Сигнатура: 
+Маргиналии:
+
+## Скан 0504 · с. 483
+
+Il serpe, nel modo sopradetto , significa l'anno , secondo l'opinione de gli antichi , il quale si misura , & si distingue col tempo , & è immediatamente congiunto con sè stesso .
+Tempo .
+[ИНИЦИАЛ: H]Vomo vecchio alato, il quale tiene vn cerchio in mano,& stà in mezzo d'vna ruina, hà la bocca aperta, mostrando i denti, li quali sieno del colore del ferro .
+Si fà alato, secondo il detto *Volat irreparabile tempus* , il che è tanto chiaro per esperienza, che per non disacerbar le piaghe della nostra miseria, non occorre farui lungo discorso .
+Il cerchio, è segno che il tempo sempre gira, ne hà per sua natura principio,ne fine, ma è principio , e fine de sè solo alle cose terrene , & à gli elementi, che sono sferici .
+La ruina, & la bocca aperta, & i denti di ferro, mostrano,che il tempo strugge, guasta, consuma , & manda per terra tutte le cose senza spesa , & senza fatica .
+Tempo .
+[ИНИЦИАЛ: H]Vomo vecchio, alato, col piede destro sopra d'vna ruota , & con le bilancie, ouero col peso geometrico in mano .
+Il piè destro sopra alla ruota, la quale con la sua circonferenza, non tocca, se non in vn punto,che nõ stà mai fermo,ci fà comprendere,che il tempo non hà se non il preterito , & il futuro, essendo il presente vn momento indiuisibile .
+Le bilancie, ouero peso geometrico, dimostrano che il tempo, è quello, che agguaglia,& aggiusta tutte le cose .
+Tentatione .
+[ИНИЦИАЛ: D]Onna la quale con la destra mano tiene vn vaso di fuoco , & con la sinistra tenendo vn bastone lo stuzzica, & maneggia, perche tentare, non è altro,che fomentare quello,che per sè stesso hà poca forza, se bene è potente ad hauerne assai, & ad accelerar l'opera, ò di corpo , ò di mente .
+[ЗАГОЛОВОК: TENTATIONE D'AMORE.]
+[ИНИЦИАЛ: V]NA bella verginella,di poueri habiti vestita,la quale mostri di stare ambigua,se debba raccogliere alcune collane d'oro , & gioie, & denari, che stanno per terra , & si dipingerà in vna notte; dietro lei si vedrà il viso d'vna vecchia brutta, & macilente .
+Alla gagliardezza delle tentationi, molto fà l'importanza delle cose che si promettono, ma molto più stimola la necessità, che l'huomo sente in sè stesso delle cose offerte. Però si dipinge questa giouenetta pouera, & mal vestita, con l'occasione d'arrichire in luogo, che co'l silentio, & con la secretezza, par che inclini, & pieghi l'animo à farlo con le persuasioni, che non cessono stimolare à gli orecchi, ò il cuore , vedendo, ò dalla concupiscenza, che per sè stessa non cessa, ò dalle parole
+
+Колонтитул: DI CESARE RIPA. 483
+Кустод: di
+Сигнатура: 
+Маргиналии:
+
+## Скан 0505 · с. 484
+
+di persona habituata nel vitio, che continuamente sprona , & tanto più se l'animo è feminile, che per sè stesso concorre a' fomenti della natura , à queste inclinationi principalmente accompagnato dalla debolezza,che volentieri si lascia partecipare , & dalla verginità , che per la poca esperienza incauta facilmente si lusinga, & tira .
+[ЗАГОЛОВОК: TEOLOGIA.]
+[ИНИЦИАЛ: D]ONNA con due faccie dissimile, guardando con l'vna più giouane al Cielo, con l'altra più vecchia la terra , starà à sedere sopra vn globo, ouero vna palla turchina, piena di stelle,tenendo la destra mano al petto, & la sinistra stesa verso la terra ,& sostenendo il lembo della veste vicino alla quale si vede vna ruota,che è il proprio hieroglifico nelle sacre lettere della scienza Theologica, perche come la ruota tocca la terra, se non con l'infime parte della sua circōferenza mouendosi,così il vero Teologo si deue seruir del senso nella sua scienza,solo tanto, che l'aiuti à camminare inanzi,& non per affondarsi dentro .
+Le due faccie con le quale guarda il Cielo, & la terra , dimostrano , che come disse S.Agostino à Volusiano, tutta la Teologia è fondata nel riguardare continuamente,& amare con perseueranza Iddio , & il prossimo , & per non si poter alzar l'vna, che l'altra non si abbassi, dimostra,che il Teologo non bisogna, che mai tanto s'inalzi con l'ingegno , che non si ricorda di essere huomo, & che facilmente può incorrere in molti errori , & però deue andare cauto, & procedere con auuertenza nel riuolgersi per la bocca il testamento di Dio .
+Si somiglia all'età giouenile quello, che guarda il cielo , perche le cose alte, & remote, sono curiose, & piaceuole, come le cose terrene , & basse per hauer seco fastidij, & molestie, sono dispiaceuoli,& tediose .
+Stà à sedere sopra il Cielo stellato, perche la Teologia non si riposa in cosa alcuna inferiore,ma và direttamente à ferire alla cognitione di Dio, donde hà poi regola, & norma da sapere, & intendere tutte le cose , che le sia con facilità ordinate, rendono marauiglia à gl'occhi nostri in terra .
+La mano al petto, mostra grauità, per esser questa , scienza di tutte le scienze .
+Il lembo delle veste sostenuto dalla mano che stà distesa verso terra, dimostra che vna parte di Teologia si stende alle cose basse , ma necessarie, che sono il formare debitamente le attioni nostre ,regolarsi nelle virtù , fuggire li vitij , honorar Dio esteriormente, & altre cose simile , le quali sono, come vna veste, sotto alla quale non penetrano, se non le menti illuminate da Dio .
+[ЗАГОЛОВОК: TERRORE.]
+[ИНИЦИАЛ: H]VOMO con la testa di Leone, vestito di cangiante,tenendo in mano vn flagello,perche par proprietà del Leone atterire chi lo riguarda, però gl'antichi vsorno al terrore far la faccia di questo animale .
+Il flagello, è indicio, che il terrore sforza gl'animi , & gli guida à modo suo , & i colori ancora significano le varie passioni, alle quale impiega l'animo
+
+Колонтитул: 484 ICONOLOGIA
+Кустод: l'animo
+Сигнатура: 
+Маргиналии:
+
+## Скан 0506 · с. 485
+
+l'animo vn'huomo, che dal terrore si lascia spauentare .
+Sono ancora queste le tre cagioni, che atterriscono gli huomini,cioè gli aspetti formidabili, i successi nociui, & le subitanee mutationi delle cose; l'vno è nel viso, l'altro nella sferza ; il terzo nella veste di cangiante .
+[ЗАГОЛОВОК: TERRORE]
+[ГРАВЮРА: без подписи]
+Pausania finge, che Marte per commissione di Gioue vada à suscitar guerra fra gl'Argiui, & i Thebani,& dice che pigliò lo spauento, & il terrore, & gli fece andare auanti , & lo disegna in parte, & in parte descriue gli effetti,che da lui vengono, & si è voltato in lingua nostra così .
+Della plebe crudel, che hà intorno elegge
+Il terror , e à i destrier lo manda inanzi ,
+Al cui poter non è , che il suo pareggi ,
+
+Колонтитул: DI CESARE RIPA. 485
+Кустод: In
+Сигнатура: Hh
+Маргиналии:
+
+## Скан 0507 · с. 486
+
+In far temer altrui, non che l'auanzi,
+Per costui pur che l'huom, il ver dispregge .
+Se nel timido petto, auuien, che stanzi
+Il mostro horrendo, che hà voce infinite,
+Et mani sempre al mal poste, & ardite .
+Vna sola non è sempre la faccia,
+Ma molte , e tutte in variati aspetti .
+Che si cangiano ogn'hor, pur che à lui piaccia
+Di accordar quei co' spauentosi detti.
+Quelli ne' cuori humani si forte caccia,
+Che à dar loro ogni fede sono astretti .
+Et con tanto spauento spesso assale
+Le Città, che poi credono ogni male .
+Il Terrore depinto con la faccia di Leone,racconta Pausania,che si vedea scolpito presso à gl'Elei nello Scudo di Agamennone, ma che in molte altre occasione si dipingeua donna infuriata , & terribile, forse per memoria di Medusa , la testa della quale era da Domitiano portata inanz' al petto nell'armatura, per dare terrore, & spauento à chi lo miraua .
+[ЗАГОЛОВОК: TERREMOTO.]
+[ИНИЦИАЛ: I]L Terremoto si potrà rappresentare in disegno con figura d'huom' che gonfiando le guancie, & storgendo in strana , & fiera attitudine viso, mostri con gran forza di vscire da vna spelonca, ò dalle fissure del terra,& già si veda con i crini longhi, & sparsi .
+La terra d'intorno si potrà fare rotta , & solleuata con arbori gettati à terra fracassati, con le radiche riuolte al cielo .
+Il terremoto, è quel tremore, che fà la terra per cagione dell'essalationi ristrette nelle viscere di essa, che cercando l'esito la scuotono , & si fanno strada all'vscire fuora con euidente apertura di quella . Onde Lucretio disse ,
+Quod nisi prorumpit tamen impetus iræ animi,
+Et fera vis vereti per crebra foramina terræ .
+Dispertitur vt horror, & incuti inde tremorem .
+[ЗАГОЛОВОК: Timidità, ò Timore.]
+[ИНИЦИАЛ: H]Vomo vecchio, vestito di giallolino, col corpo curuo, la faccia alquanto pallida, gli occhi piccioli,& bianchi, le mani lunghe,& sottile, & i piedi alati; starà mesto , & sotto vn braccio sinistro terrà vn Lepore ; se bene fra il timore,& la timidità vi è qualche poco di differenza , non è però tanta, che non si possano abbracciare sotto vn'istessa imagine; onde diciamo, che il timore è vna passione dell'animo, nata ne gl'huomini dal dubbio, che hanno,che l'opinioni fatte , non vengono giustificate à bastanza .
+E' vecchio, perche si genera doue non è abondanza di sangue , ne viuacità di spiriti , il che si vede auuenire ne' vecchi , che perdono il vigore
+
+Колонтитул: 486 ICONOLOGIA
+Кустод: insieme
+Сигнатура: 
+Маргиналии:
+
+## Скан 0508 · с. 487
+
+insieme con l'età , & però facilmente temono tutti gl'infortunij .
+Il giallolino , del qual colore è la veste , è imperfetto , come il timore mostra imperfettione nell'huomo non nascendo se non dalla cognitione della propria indignità .
+I segni sopradetti del corpo, sono ne' timorosi notati da tutti i fisiognomici,& da Aristotile in particolare al cap. 6. 9. 10 .
+Il lepre sotto al braccio sinistro , come dice il medesimo Auttore nel lib. dell'historia de gl'animali è timidissimo di sua natura , & se ne vedono manifesti segni,& effetti .
+I piedi alati , significano la fuga , che nasce per lo timore spessissimo, come si è detto in altro proposito .
+[ЗАГОЛОВОК: TIMORE.]
+[ИНИЦИАЛ: V]ECCHIO, pallido, vestito di pelle di ceruo , in modo che la testa del ceruo faccia l'acconciatura del capo , & ne gl'occhi del ceruo vi saranno molte penne di color rosso .
+Si dipinge pallido il timore,perche rende pallidi quelli che l'hanno .
+Vestesi di pelle di ceruo, perche il ceruo è animale timidissimo , & fuggendo da qualche sinistro, se troua correndo delle penne rosse , ferma il corso, & si aggira in modo che spesse volte ne resta preso , il che Vergilio nel 12. dell'Eneide, accennò con queste parole .
+Inclusi veluti si quando flumine nactus
+Ceruum , aut punicæ septum formidine pennæ .
+[ЗАГОЛОВОК: TIRANNIDE.]
+[ИНИЦИАЛ: D]ONNA armata,alquanto pallida, superba , & crudele in vista , & stando in piedi, sotto all'armatura hauerà vna trauersina di porpora , in capo vna corona di ferro ; nella destra mano vna spada ignuda , & con la sinistra terrà vn giogo .
+Armata,& in piedi si dipinge,per dimostrare la vigilanza, che è necessaria al tiranno,per conseruare la grandezza dello stato suo violento ; che però stà sempre con l'animo , & con le forze apparecchiate alla difesa di se stesso , & all'offesa d'altrui .
+E' pallida, per lo timore continuo , & per l'ansietà che perpetuamente la molestano, & affliggono .
+Dimostra crudeltà,& superbia nell'aspetto, perche l'vna di queste due pesti, gli fà la strada alle ingiuste grandezze , & l'altra ce lo fà essere perseuerante .
+Si veste di porpora,& si corona di ferro, per dimostratione di signoria, ma barbara , & crudele .
+In vece dello scettro segno di dominio, & di gouerno legittimo, tiene vna spada ignuda , come quella , che si procura l'obedienza de sudditi, con terrore, pascendoli, non per il ben loro, come fà il buon pastore,ma per soggiogarli all'aratro, & per scorticarli , come fà il bifolco mercenario de buoui , hauendo per fine solo la propria vtilità ; & però tiene il giogo in mano .
+
+Колонтитул: DI CESARE RIPA. 487
+Кустод: TOLE-
+Сигнатура: Hh 2
+Маргиналии:
+
+## Скан 0509 · с. 488
+
+[ЗАГОЛОВОК: TOLERANZA.]
+[ИНИЦИАЛ: S]I dipinge donna, vestita di berettino, d'aspetto senile, in atto di soportare sopra alle spalle vn sasso con molta fatica, con vn motto,che dica *Rebus me seruo secundis .*
+Tolerare , è quasi portare qualche peso , dissimulando la grauezza di esso per qualche buon fine, & son pesi dell'anima, alla quale appartiene il sopportare, & tolerare per cagione di virtù li fastidij , & le afflittioni , le quali si dimostrano col sasso , che per la grauità sua , opprime quello, che gli stà sotto .
+E' vecchia d'aspetto, perche la toleranza nasce da maturità di consiglio, la quale è dell'età senile in maggior parte de gl'huomini mantenuta, & adoprata .
+Et il motto da ad intendere il fine della toleranza, che è di quiete,& di riposo, perche la speranza sola di bene apparente, fà tolerare , & sopportare volontieri tutti li fastidij .
+[ЗАГОЛОВОК: TORMENTO D'AMORE.]
+[ИНИЦИАЛ: H]VOMO, mesto, & maninconico, vestito di color bruno,& fosco, cinto di spine; nell'acconciatura del capo porterà vn cuore passato da vna frezza con due serpi, che lo circondano, mostrerà detta figura il petto aperto, & lacerato da vno Auoltore, stando in atto di mostrare con le mani, le sue passioni, & il suo tormento .
+[ЗАГОЛОВОК: TORMENTO.]
+[ИНИЦИАЛ: H]VOMO vestito di giallolino, con due teste, vna di vaga giouene, & l'altra di vecchio, orgoglioso; nella destra mano terrà vn vaso di fuoco,& nella sinistra vn'altro vaso d'acqua ; sporgendo il braccio inanzi.
+Il tradimento, è vn vitio dell'animo di coloro , che machinano male contr'alcuno, sotto pretesto di beneuolenza, & d'affettione, ò con fatti, ò con parole ; & però detta figura si veste di giallolino, che dimostra tradimento .
+Dipingesi con due teste, per la dimostratione di due passioni distinte , vna che inclina alla beneuolenza finta, l'altra alla maleuolenza vera,che tiene celata nel cuore per dimostrarla con l'occasione della ruina altrui .
+I due vasi, vno di fuoco, & l'altro d'acqua, insegnano, che il tradimento si serue di contrarij, perche quanto il tradimento deue essere maggiore, tanto mostra maggiore l'affettione, & la beneuolenza .
+L'acqua, & il fuoco si prende per lo bene, & per lo male, secondo il detto dell'Apocal.
+*Aquam, & ignem apposui tibi, ad quodcunq; volueris , porrige manum tuam .*
+
+Колонтитул: 488 ICONOLOGIA
+Кустод: TRA-
+Сигнатура: 
+Маргиналии:
