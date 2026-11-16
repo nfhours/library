@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "208";
+  var APP_VER = "209";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -2630,7 +2630,7 @@
             '<p class="ic-home-ed"><span>'+esc(RIPA_COVER.edition[L]||RIPA_COVER.edition.ru)+'</span></p>'+
           '</div>'+
           '<nav class="ic-home-tiles" aria-label="'+esc(t("hmNavLabel"))+'">'+secs.join("")+'</nav>'+
-          (hero ? '<figure class="ic-home-fig"><div class="ic-fig ic-fig-eng" data-src="'+esc(hero)+'"><img class="ic-fade-img ic-eng-display" src="'+esc(hero)+'" alt="'+esc(t("engravingAlt",{title:bt(book.meta.title)}))+'"></div></figure>' : "")+
+          (hero ? '<figure class="ic-home-fig"><div class="ic-fig ic-fig-eng" data-src="'+esc(hero)+'"><img class="ic-eng-display" src="'+esc(hero)+'" alt="'+esc(t("engravingAlt",{title:bt(book.meta.title)}))+'"></div></figure>' : "")+
           '<p class="ic-home-blurb">'+esc(bt(book.meta.subtitle))+'</p>'+
         '</header>'+
       '</div>';
@@ -2933,11 +2933,13 @@
           // по клику открывается полная картинка (<имя>.webp).
           if(book.slug==="iconologie" && /\.(jpe?g|webp)$/i.test(src)){
             var disp = imgBase+src.replace(/\.(jpe?g|webp)$/i,"_display.webp");
-            return '<figure class="ic-fig ic-fig-eng" data-src="'+esc(imgBase+src)+'"><img class="ic-fade-img ic-eng-display" loading="lazy" src="'+esc(disp)+'" alt="'+esc(t("engravingAlt",{title:titleOf(it)}))+'">'+
+            return '<figure class="ic-fig ic-fig-eng" data-src="'+esc(imgBase+src)+'"><img class="ic-eng-display" loading="lazy" src="'+esc(disp)+'" alt="'+esc(t("engravingAlt",{title:titleOf(it)}))+'">'+
               (it.img.length>1?'<figcaption>'+t("figOf",{k:k+1,n:it.img.length})+'</figcaption>':"")+'</figure>';
           }
           var full = aud ? imgBase+src.replace(/\.(jpe?g|webp)$/i,"_full.webp") : imgBase+src;
-          return '<figure class="ic-fig" data-src="'+esc(full)+'"><img class="ic-fade-img" loading="lazy" src="'+esc(imgBase+src)+'" alt="'+esc(t("engravingAlt",{title:titleOf(it)}))+'">'+
+          // Одран: без анимации появления (картинка сразу на месте); размеры из данных резервируют место
+          var wh = aud && it.img_wh ? ' width="'+it.img_wh[0]+'" height="'+it.img_wh[1]+'"' : "";
+          return '<figure class="ic-fig" data-src="'+esc(full)+'"><img class="'+(aud ? "" : "ic-fade-img")+'" loading="lazy" src="'+esc(imgBase+src)+'"'+wh+' alt="'+esc(t("engravingAlt",{title:titleOf(it)}))+'">'+
             (it.img.length>1?'<figcaption>'+t("figOf",{k:k+1,n:it.img.length})+'</figcaption>':"")+'</figure>';
         }).join("");
     var captionLine = it.caption && !aud ? '<p class="ic-caption"><b>'+esc(t("captionLbl"))+'</b> '+esc(it.caption)+'</p>' : "";
