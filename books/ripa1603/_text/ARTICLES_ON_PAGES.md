@@ -82,3 +82,23 @@
 | 0127 |  | DESIDERIO VERS'IDDIO. | 0127_1 | r145 | бегущий заголовок |
 | 0128 | DETRATTIONE.; DIVOTIONE.; DIALETTICA. |  |  | r147, r148, r149 | нет рамки |
 | 0129 | DIGNITA.; DILIGENZA.; DISCORDIA. |  |  | r150, r151, r152 | нет рамки |
+| 0130 | . |  | 0130_1 | — | заголовок перед гравюрой |
+| 0131 | Discordia.; Discordia.; Discordia.; DISPERATIONE. |  |  | r152, r153 | нет рамки |
+| 0132 |  |  | 0132_1 | — | заголовки страницы (неоднозначно) |
+| 0133 | DISPREGIO DELLA VIRTV.; DISEGNO.; DIVINITA. |  |  | r155, r156, r157 | нет рамки |
+| 0134 | DIVINATIONE |  | 0134_1 | r158 | заголовки страницы (неоднозначно) |
+| 0135 | DOLORE. |  | 0135_1 | r159 | заголовок перед гравюрой |
+| 0136 | Dolore, di Zeusi.; DOMINIO DI SE STESSO.; DOTTRINA. |  |  | r160, r161, r162 | нет рамки |
+| 0137 |  |  | 0137_1 | — | заголовки страницы (неоднозначно) |
+| 0138 |  |  | 0138_1 | — | заголовки страницы (неоднозначно) |
+| 0139 | DVBBIO.; Dubbio.; Dubbio.; ECONOMIA. |  |  | r163, r164 | нет рамки |
+| 0140 |  |  | 0140_1 | — | заголовки страницы (неоднозначно) |
+| 0141 | ELEMOSINA.; ELEMENTI.; FVOCO. |  |  | r165, r166, r167 | нет рамки |
+| 0142 | ARIA.; ACQVA.; TERRA. |  |  | r168, r169, r170 | нет рамки |
+| 0143 | ELEMENTI.; TERRA. |  |  | r166, r170 | нет рамки |
+| 0144 | ACQVA.; ARIA.; FVOCO. |  |  | r169, r168, r167 | нет рамки |
+| 0145 | ELEMENTI.; FVOCO.; AERE.; ACQVA.; TERRA.; Terra. |  |  | r166, r167, r169, r170 | нет рамки |
+| 0146 | Terra, come dipinta nella medaglia di Commodo.; ELEMENTI SECONDO EMPEDOCLE. |  |  | — | нет рамки |
+| 0147 | ELOQVENZA. |  |  | r171 | нет рамки |
+| 0148 | Eloquenza.; Eloquenza. |  |  | r171 | нет рамки |
+| 0149 | Eloquenza.; Eloquenza nella Medaglia di Marc'Antonio. |  |  | r171 | нет рамки |

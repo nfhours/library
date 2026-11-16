@@ -1822,3 +1822,423 @@ Discordia è vn moto alteratiuo dell'animo, & de'sensi, che nasce dalle varie op
 Кустод: ancor-
 Сигнатура: 
 Маргиналии:
+
+## Скан 0130 · с. 105
+
+[ЗАГОЛОВОК: .]
+[ГРАВЮРА: без подписи]
+ancorche da pochissima gente habitato, che in esso non si lasci vedere la discordia.però dissero alcuni Filosofi, ch'ella era vn principio di tutte le cose naturali.chiara cosa è,che se fra gl'huomini fosse vn'intiera concordia,che gl'elementi seguissero il medesimo tenore, che saremmo priui di quanto ha di buono,e di bello il mondo,e la natura.Ma quella discordia, che tende alla distruttione, e non alla conseruatione del ben publico, si dee riputar cosa molto abomineuole. Però si dipingono le serpi a questa figura,percioche son'i cattiui pẽsieri,i quali partoriti dalla discordia, son sempre cinti,e circondati dalla morte de gl'huomini,e dalla distruttione delle famiglie,per via di sangue,e di ferite,& per questa medesima ragione gli si benda la fronte, però Virgilio disse;
+
+Колонтитул: DI CESARE RIPA. DIGNITA. 105
+Кустод: [?]
+Сигнатура: 
+Маргиналии:
+
+## Скан 0131 · с. 106
+
+*Armada, e stringe alla discordia pazza*
+*Il crin viperreo sanguinosa benda.*
+Et l'Ariosto del fucile,parlando della discordia.
+*Dilli che l'esca,e'l fucil seco prẽda, E nel cāpo de' Mori il fuoco accẽda.* e quel che segue
+Dicesi anco, che la Discordia è vn fuoco,che arde ogni buon'vso, perche come fregandosi insieme il focile, & la pietra, fanno fuoco, così contrastando gl'animi pertinaci, accendono l'ira.
+Le scritture nel modo,che dicemmo, significano gli animi discordi di coloro, che litigano, che bene spesso per tale effetto consumano la robba, & la vita.
+[ЗАГОЛОВОК: Discordia.]
+[ИНИЦИАЛ: D]Onna vestita,come di sopra, con capelli di varij colori, con la mano destra tenga vn mantice, & con la sinistra vna facella accesa.
+La varietà de'colori significa la diuersità de gl'animi, come s'è detto, però l'Ariosto scrisse.
+*La conobbe al vestir di color cento*
+*I crin haueã qual d'oro,e qual d'argento,*
+*Fatto a liste ineguali,e infinite,*
+*E neri,e bigi hauer pareano lite*
+*C'hor la coprano,hor no,ch'i passi,e'l vito*
+*Altri in treccia,altri in nastro erã raccolti*
+*[?] spalle,alcuni al petto sciolti.*
+Il mantice, che tiene, con il vaso di fuoco, mostrano, ch'ella deriua dal soffio delle male lingue, & dall'ira fomentata ne'petti humani.
+[ЗАГОЛОВОК: Discordia.]
+[ИНИЦИАЛ: D]Onna con il capo alto, le labbra liuide, smorte, gli occhi biecchi, guasti, & pieni di lagrime, le mani in atto di mouerle di continuo con vn coltello cacciato nel petto, con le gambe, e piedi sottili,& inuolta in foltissima nebbia, che a guisa di rete la circondi, & così la dipinse Aristide.
+[ЗАГОЛОВОК: Discordia.]
+*Come è descritta da Petronio Arbitio Satirico con li seguenti versi.*
+*[ИНИЦИАЛ: I]Ntremuent tubę,ac scisso d[?]scordia crine* *Tabo lingua fluens, obsessa draconibus ora*
+*[?]xtulit ad superos stygiũ caput,huius in* *Atque inter toto laceratam pectore vestẽ,*
+*[?] tremula quatiebat lāpade dextra*
+*Stabant irati scabra rubigine dentes*
+[ЗАГОЛОВОК: DISPERATIONE.]
+[ИНИЦИАЛ: D]ONNA vestita di berrettino, che tiri al bianco, nella sinistra mano tenga vn ramo di cipresso, con vn pugnale dentro al petto, ouero vn coltello, starà in atto quasi di cadere,& in terra vi farà vn compasso rotto.
+Il color berrettino significa disperatione.
+Il ramo dei cipresso ne dimostra, che si come il detto albero tagliato non riforge, ò de'virgulti, così l'huomo datosi in preda alla disperatione, estingue in se ogni seme di virtù, & di operationi degne, & illustri.
+Il compasso rotto, il quale è per terra, mostra la ragione nel disperato essere venuta meno, nè hauer più l'vso retto, & giusto, & perciò si rappresenta col coltello nel petto.
+
+Колонтитул: 106 ICONOLOGIA
+Кустод: DISPRE-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0132 · с. 107
+
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: H]VOMO d'età virile, armato,con vn ramo di palma nella sinistra mano, & nella destra con vn'asta, tenendo il capo riuolto verso il cielo. sarà coronato d'alloro, e calchi co i piedi vna corona d'oro con vn scettro.
+Il dispregio del mondo altro non è, che hauer à noia, & stimar vile le ricchezze, & gli honori di questa vita mortale, per conseguire li beni della vita eterna. Il che si mostra nello scettro, & nella corona calpestrata.
+Tien la testa volta vers'il Cielo, perche tal dispregio nasce da pensieri, e stimoli santi, e dirizzati in Dio solo.
+Si dipinge armato, perche non s'arriua a tanta perfettione senza la guerra,che fa con la ragione il senso aiutato dalle potenze infernali,e da
+
+Колонтитул: DI CESARE RIPA. DISPREGIO DEL MONDO. 107
+Кустод: gl'huo-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0133 · с. 108
+
+gl'huomini scelerati lor ministri, de'quali al fine restando vittorioso meritamente si corona d'alloro, hauendo lasciato adietro di gran lunga coloro, che per vie torte s'affrettano a peruenire alla felicità falsamente,credendo, che essa sia posta in vna breue, e vana rappresentatione di cose piaceuoli a gusti loro, onde l'Apostolo ben disse: *Non coronabitur nisi qui legitime certauerit.*
+[ЗАГОЛОВОК: DISPREGIO DELLA VIRTV.]
+[ИНИЦИАЛ: H]VOMO vestito di color di verderame,nella sinistra mano tien'vn ardiolo,e con la destra li fa carezze,a canto vi farà vn porco,il quale calpestri rose, & fiori.
+Il color del vestimento significa malignità della mente, la qual'è radice del dispregio della virtù, & di amare il vitio, il che chiaro si dimostra per le carezze, che fa all'ardiolo, il quale è vcello colmo d'inganno, & d'infiniti vitij, come ne fa testimonio l'Alciato ne l'emblemi, da noi spesso citato per la diligẽza dell'auttore, & per l'esquisitezza delle cose a nostro proposito. Fù vsanza presso a gl'Egitij, quando voleuano rappresentare vn mal costumato dipingere vn porco, che calpestrasse le rose. alche si conforma la sacra Scrittura in molti luoghi, ponendo le rose, & altri odori per la sincerità della vita,& de'costumi. Però la sposa nella cantica diceua,che l'odore del sposo, cioè dell'huomo virtuoso, che viue secondo Dio, era simile all'odore d'vn campo pieno di fiori.
+[ЗАГОЛОВОК: DISEGNO.]
+[ИНИЦИАЛ: S]I potrà dipingere il disegno ( per esser padre della scoltura, pittura, & architettura, con tre teste vguali, e simili, & che con le mani tenghi diuersi istromenti conueneuoli alle sopradette arti, & perche questa pittura per se stessa è chiara, mi pare sopra di essa non farci altra dichiaratione.
+[ЗАГОЛОВОК: DIVINITA.]
+[ИНИЦИАЛ: D]ONNA vestita di bianco,con vna fiamma di fuoco in cima il capo, & con ambi le mani tenga due globi azurri, & da ciascuno esca vna fiamma, ouero, che sopra il capo habbia vna fiamma, che si diuida in tre fiamme vguali.
+La candidezza del vestimento mostra la purità dell'essenza, che è nelle tre persone diuine, oggetto della scienza de'sacri Teologi,& mostrato nelle tre fiamme vguali, per dinotare l'vgualità delle tre persone, ò in vna fiamma partita in tre, per significare anco l'vnità della natura con la distintione delle persone.
+Il color bianco è proprio della diuinità,perche si fa senza compositione di colori,come nelle cose diuine non vi è compositione di sorte alcuna.
+Però Christo N.S. nel monte Tabor trasfigurandosi apparue col vestito come di neue.
+I due globi di figura sferica, mostrano l'eternità, che alla diuinità è inseparabile, & si occupa la mano dritta, & la manca con esse, perche l'huomo ancora, per l'opere meritorie fatte tali per i meriti di Christo,
+
+Колонтитул: 108 ICONOLOGIA
+Кустод: participa
+Сигнатура: 
+Маргиналии:
+
+## Скан 0134 · с. 109
+
+[ГРАВЮРА: без подписи]
+partecipa dell'eternità celeste.
+Et questo basti hauer detto lasciando luogo di più lungo discorso alle persone più dotte.
+[ЗАГОЛОВОК: DIVINATIONE]
+*Secondo i Gentili.*
+[ИНИЦИАЛ: D]ONNA con vn lituo in mano, istromento proprio de gl'auguri; le si vederanno sopra alla testa varij vcelli, & vna stella.
+Così la depinse Gio. Battista Giraldi, perche Cicerone fa mentione di due maniere di diuinatione, vna della natura, l'altra dell'arte. Alla prima appartengono i sogni, & la commotione della mente, il che significano i varij vcelli d'intorno alla testa; all'altra si rife-
+
+Колонтитул: DI CESARE RIPA. DIVINITA. 109
+Кустод: riscono
+Сигнатура: 
+Маргиналии:
+
+## Скан 0135 · с. 109a
+
+riscono l'interpretationi de gl'oracoli,de gl'auguri,de'folgori,delle stelle dell'interiori de gl'animali,& de prodigij,le quali cose accennano la stella,& il lituo. La Diuinatione fù attribuita ad Apolline, perche il Sole illustra gli spiriti, & li fa atti a preuedere le cose future con la contemplatione dell'incorrottibili, come stimorno i gentili, però noi Christiani ci douemo con ogni diligenza guardare da queste superstitioni.
+[ЗАГОЛОВОК: DOLORE.]
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: H]VOMO mezzo ignudo con le mani,& piedi incatenati,& circondato da vn serpente, che fieramente gli morda il lato manco, farà in vista molto malinconoso.
+Le mani, & piedi incatenati,sono l'intelletto,con cui si camina,discorrendo l'opere, che danno effetto, & discorso, & vengono legati dall'acerbità
+
+Колонтитул: 102 ICONOLOGIA
+Кустод: bità
+Сигнатура: 
+Маргиналии:
+
+## Скан 0136 · с. 109b
+
+bità del dolore, non si potendo se non difficilmente attendere alle solite operationi.
+Il serpente, che cinge la persona in molte maniere,significa ordinariamente sempre male, & il male, che è cagione di destruttione, è principio di dolore nelle cose, che hanno l'essere.
+Nelle sacre lettere si prende ancora alcune volte il serpente per lo diauolo infernale con l'auttorità di S.Girolamo,e di S. Cipriano,li quali,dichiarando quelle parole del Pater noster, *Libera nos à malo,* dicono, che esso è il maggior nostro male, come cagione di tutte l'imperfettioni dell'huomo interiore, & esteriore.
+[ЗАГОЛОВОК: Dolore, di Zeusi.]
+[ИНИЦИАЛ: H]Vomo mesto, pallido, vestito di nero, con vn torchio spento in mano, che ancora renda vn poco di fumo; gl'inditij del dolore, sono necessariamente alcuni segni, che si scoprano nella fronte, come in vna piazza dell'anima, doue esso, come disse vn Poeta, discuopre tutte le sue mercantie,& sono le crespe,le lagrime,la mestitia,la pallidezza,& altre simili cose,che per tale effetto si faranno nella faccia della presente figura.
+Il vestimento nero fu sempre segno di mestitia,& di dolore,come quello, che somiglia le tenebre, che sono priuatione della luce, essendo essa principio, & cagione della nostra allegrezza, come disse Tobia cieco,raccontando le sue disgratie al figliuolo.
+Il torchio spento, mostra, che l'anima(secondo alcuni filosofi)non è altro,che fuoco, & ne continui dolori,& fastidij ò s'ammorza,ò non dà tanto lume, che possa discernere l'vtile, & il bene nell'attioni, & che l'huomo addolorato è simile ad vn torchio ammorzato di fresco, il quale non hà fiamma, ma solo tanto caldo, che basta a dar il fumo, che puote, seruendosi della vita l'addolorato, per nodrire il dolore istesso, & s'attribuisce l'inuentione di questa figura a Zeusi antichissimo dipintore.
+[ЗАГОЛОВОК: DOMINIO DI SE STESSO.]
+[ИНИЦИАЛ: H]VOMO a sedere sopra vn leone, che habbia il freno in bocca, & regga con vna mano detto freno, & con l'altra punga esso leone con vno stimolo.
+Il leone presso a gl'antichi Egittij, fu figurato per l'animo, & per la sua forza, però il Pierio Valeriano dice vedersi in alcuni luoghi antichi vn huomo figurato nel modo detto, per mostrare, che la ragione deue tenere il freno all'animo,oue troppo ardisca, & pungendo oue si mostri tardo, & sonnolento.
+[ЗАГОЛОВОК: DOTTRINA.]
+[ИНИЦИАЛ: D]ONNA vestita d'oro, che nella sinistra mano tenga vna fiamma ardente alquanto bassa:si che vn fanciullo ignudo accenda vna candela, & detta donna mostri al fanciullo vna strada dritta in mezzo d'vna grande oscurità.
+Il vestimento d'oro sembra la purità della dottrina, in cui si cerca la nuda verità,mostrandosi insieme il prezzo suo.
+
+Колонтитул: DI CESARE RIPA. 103
+Кустод: La fiam-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0137 · с. 110
+
+[ГРАВЮРА: без подписи]
+La fiamma nella mano, alquanto bassa, onde vn fanciullo n'accenda vna candela, è il lume del sapere, communicato all'intelletto più debole, & men capace,inuolto ancora nelle cose sensibili, & materiali, & accomodandosi alla bassezza,mostra al fanciullo la buona via della verità,rimouendolo dal precipitio dell'errore, che sta nelle tenebre oscure della commune ignoranza del volgo, fra la quale è sol beato colui, che tanto può vedere,che basti per non inciampare caminando. Et ragioneuolmente la Dottrina si assomiglia alla fiamma, perche insegna la strada all'anima, la viuifica, & non perde la sua luce, in accendere altro fuoco.
+
+Колонтитул: 111 ICONOLOGIA DOMINIO DI SE STESSO.
+Кустод: DOT-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0138 · с. 111
+
+[ГРАВЮРА: без подписи]
+[ИНИЦИАЛ: D]ONNA d'età matura, vestita di paonazzo, che sta à sedere con le braccia aperte, come volesse abbracciare altrui, con la destra mano terrà vno scettro, in cima del quale vi sia vn Sole, hauerà ingrembo vn libro aperto, & si veda dal Ciel sereno cadere gran quantità di rugiada.
+L'età matura mostra,che non senza molto tempo s'apprendono le dottrine.
+Il color paonazzo significa grauità,che è ornamento della Dottrina.
+Il libro aperto, & le braccia aperte parimente denotano essere la dottrina liberalissima da se stessa.
+Lo scettro con il Sole è inditio del dominio, che hà la dottrina sopra li horrori della notte dell'ignoranza.
+
+Колонтитул: DI CESARE RIPA. DOTTRINA. 911
+Кустод: Il ca-
+Сигнатура: H
+Маргиналии:
+
+## Скан 0139 · с. 118
+
+Il cadere dal Cielo gran quantità di rugiada, nota secondo l'auttorità de gl'Egittij,come racconta Oro Apolline,la dottrina,perche, come essa intenerisce le piante giouani, & le vecchie indura, così la dottrina gl'ingegni piegheuoli, con il proprio consenso arricchisce di se stessa, & altri ignoranti di natura lascia in disparte.
+[ЗАГОЛОВОК: DVBBIO.]
+[ИНИЦИАЛ: G]IOVANETTO senza barba,in mezo alle tenebre,vestito di cangiante,in vna mano tenga vn bastone,nell'altra vna lanterna, e stia col piè sinistro in fuora, per segno di caminare.
+Dubbio è vn'ambiguità dell'animo intorno al sapere,& per conseguenza ancora del corpo intorno all'operare.
+Si dipinge giouane,perche l'huomo in quest'età,per nō esser habituato ancora bene nella pura, e semplice verità, ogni cosa facilmente riuoca in dubbio,& facilmente da fede egualmente a diuerse cose.
+Per lo bastone,e la lanterna si notano l'esperienza,& la ragione,con lo aiuto delle quali due cose il dubbio facilmente,o camina,o si ferma.
+Le tenebre sono i campi di discorsi humani, ond'egli, che non sa stare in otio,sempre con nuoui modi camina, & però si dipinge col piè sinistro in fuora.
+[ЗАГОЛОВОК: Dubbio.]
+[ИНИЦИАЛ: H]Vomo che tenga vn lupo per l'orecchie,percioche gl'antichi haueuano in prouerbio dire,di tener il lupo per l'orecchie, quando non sapeuano come si risoluere in qualche cosa dubbiosa,come si legge in persona di Demifone nel 3.atto della comedia di Terentio,detta Formione,e la ragione è tanto chiara,che non ha bisogno d'altro commento.
+[ЗАГОЛОВОК: Dubbio.]
+[ИНИЦИАЛ: H]Vomo ignudo,tutto pensoso,incontratosi in due,ouero tre strade, mostri esser confuso, per non saper risoluere qual di dette vie debbia pigliare.Et questo è dubbio con speranza di bene,come l'altro con timore di cattiuo successo, & si fa ignudo, per essere irresoluto.
+[ЗАГОЛОВОК: ECONOMIA.]
+[ИНИЦИАЛ: V]NA matrona d'aspetto venerando, coronata d'oliuo, che tenghi con la sinistra mano vn compasso,& con la destra vna bacchetta, & à canto vi sia vn timone.
+Perche alla felicità del comun viuere politico se richiede l'vnione di molte famiglie,che sotto le medesime leggi viuano,& per quelle si gouernino, & per mantenersi ciascuna famiglia con ordine conueniente,hà bisogno di leggi particolari, & più ristrette dell'vniuersali. però questo priuato ordine di gouernare la famiglia se dimanda da i nostri con parola venuta da i Greci Economia,& hauendo ogni casa,ò famiglia communemẽte in se tre rispetti per esser ella pertinẽte alla vita, come suo membro di padrone,& di serui,di padri, & di figliuoli, di marito, & di moglie, perciò questa figura si dipingerà con la bacchetta,che significa l'imperio, che hà il padrone sopra i suoi serui,& il timore dimostra la cura, & il reggimento-
+
+Колонтитул: 118 ICONOLOGIA
+Кустод: gimento,
+Сигнатура: 
+Маргиналии:
+
+## Скан 0140 · с. 119
+
+[ГРАВЮРА: без подписи]
+gimento,che deue tenere il padre de i figliuoli, perche nel mare delle delitie giouenili eglino non torcano il corso delle virtù, nelle quali si deuono alleuare con ogni vigilanza, & studio .
+La ghirlanda de l'oliuo dimostra, che il buono Economo deue necessariamente mantenere la pace in casa sua .
+Il compasso insegna quanto ciascuno debba misurare le sue forze,& secondo quelle gouernarsi tanto nello spendere, come nell'altre cose, per mantenimento della sua famiglia, & perpetuità di quella, per mezo della misura,che per ciò si dipinge matrona, quasi che à quella età conuenga il gouerno della casa,per l'esperienza,che hà delle cose del mondo. ciò si può vedere nel seguente Epigramma fatto da vn bellissimo ingegno .
+
+Колонтитул: DI CESARE RIPA. ECONOMIA. 119
+Кустод: Illa do-
+Сигнатура: H 2
+Маргиналии:
+
+## Скан 0141 · с. 120
+
+Illa domus fælix, certis quã frenat habenis
+Prodiga non eris mater,& ipsa vigil
+Quæ caueat nati scopulis ne forte iuuentus
+Allidat sæuis,nec superetur aquis,
+Vt bene concordet,cuncti sua iussa capessant
+Vnaque sit varia gente coacta domus
+Si caput auellas migrauit corpore vita,
+Sic sine matre proba quanta ruina domus
+[ЗАГОЛОВОК: ELEMOSINA.]
+[ИНИЦИАЛ: D]ONNA di bello aspetto,con habito lungo, & graue, con la faccia coperta d'vn velo,perche quello,che fa elemosina, deue veder à chi la fa, e quello che la riceue non deue spiar da chi venga,ò donde.
+Habbia ambe le mani nascoste sotto alla veste,porgendo così danari à due fanciulli,che stiano aspettando dalle bande . Hauerà in capo vna lucerna accesa circondata da vna ghirlanda di oliua con le sue foglie, & frutti.
+Elemosina è opera caritatiua,con la quale l'huomo soccorre al pouero in alloggiarlo,cibarlo,vestirlo,visitarlo,redimerlo,& sepelirlo.
+Le mani fra i panni nascose significano quel che dice S. Matteo cap.6. *Nesciat sinistra tua quid faciat dextera*, & quell'altro precetto, che dice : *Vt sit Eleemosina tua in abscondito, & pater tuus, qui videt in abscondito reddat tibi.*
+La lucerna accesa dimostra,che come da vn lume s'accēde l'altro, senza diminutione di luce,così nell'esercitio dell'elemosina Iddio non pate, che alcuno resti con le sue facoltà diminuite, anzi che gli promette, e dona realmente centuplicato guadagno.
+L'oliua per corona del capo, dimostra quella misericordia, che muoue l'huomo à far elemosina , quando vede, che vn pouero n'habbia bisogno. però disse Dauid nel Salmo 51. *Oliua fructifera est in domo Domini.* Et Hesichio Gierosolimitano,interpretando nel Leuitico : *Superfusum oleum*, dice significare Elemosina.
+[ЗАГОЛОВОК: ELEMENTI.]
+[ЗАГОЛОВОК: FVOCO.]
+[ИНИЦИАЛ: D]ONNA che con ambe le mani tenga vn bel vaso pieno di foco, da vna parte vi farà vna salamandra in mezo d'vn foco,e dall'altra vna fenice parimente in vna fiamma,sopra la quale sia vn risplendente Sole, ouero in cambio della fenice il pirale,che è animale con le penne,il quale (come scriue Plinio,& riferisce il Thomai nella sua idea del Giardino del mondo al cap.51.)viue tanto,quanto sta nel fuoco, & spengendosi quello, vola poco lontano , & subito si muore.
+Della salamandra Plinio nel lib.10.cap.67.dice , che è animale simile alla lucertola,pieno di stelle,il quale non vien mai,se non à tempo di lunghe pioggie , & per sereno manca .
+Questo animale è tanto freddo, che spegne il fuoco tocco non altrimente , che farebbe il ghiaccio , & dicesi anco, che quest'animale sta , & viue nel fuoco , & più tosto l'estingue, che da quello riceua nocumento alcuno , come dicono Aristotele , & altri scrittori delle cose naturali
+
+Колонтитул: 120 ICONOLOGIA
+Кустод: ARIA.
+Сигнатура: 
+Маргиналии:
+
+## Скан 0142 · с. 121
+
+[ЗАГОЛОВОК: ARIA.]
+[ИНИЦИАЛ: D]ONNA con i capelli solleuati, & sparsi al vento, che sedendo sopra le nuuole, tenga in mano vn bel pauone , come animale consecrato à Giunone Dea dell'aria,& si vedranno volare per l'aria varij vccelli , & a i piedi di detta figura vi farà vn camaleonte , come animale, che non mangia cosa alcuna, ne beue : ma solo d'aria si pasce , & viue. Ciò riferisce Plinio nel lib.8.cap.33.
+[ЗАГОЛОВОК: ACQVA.]
+[ИНИЦИАЛ: D]ONNA nuda,ma che le parti vergognose sieno coperte con bella gratia da vn panno ceruleo, & che sedendo à piè di vno scoglio circondato dal mare,in mezo del quale siano vno, ò due mostri marini , tenghi con la destra mano vno scettro , & appoggiandosi con il gomito sinistro sopra d'vn'vrna,& che da detta vrna esca copia d'acqua , & varij pesci, in capo hauerà vna ghirlanda di canne palustre , ma meglio farà, che porti vna bella corona d'oro.
+A quest'elemento dell'acqua si da lo scettro,& la corona, perche non si troua elemento alla vita humana,e al compimento del mondo più necessario dell'acqua, della quale scriuendo Hesiodo Poeta, & Talete Milesio , dissero ,che essa non solamente era principio di tutte le cose, ma Signora di tutti gl'Elementi, percioche questa consuma la terra, spegne il fuoco , saglie sopra l'aria , & cadendo dal Cielo quà giù , è cagione , che tutte le cose necessarie all'huomo nascano in terra . Onde fu anticamente appresso i Gentili in tanta stima , & veneratione , che temeuano giurare per quella , & quando giurauano , era segno ( come dice Virgilio nel sesto libro dell'Eneide ) d'infallibile giuramento , come anco riferisce , & approua Tomasso Tomai nell' idea del Giardino del Mondo , al capitolo quarantaquattro .
+[ЗАГОЛОВОК: TERRA.]
+[ИНИЦИАЛ: V]NA matrona à sedere, vestita d'habito pieno di varie herbe, e fiori , con la destra mano tenghi vn globo , in capo vna ghirlanda di fronde, fiori,e frutti,& de i medesimi ne farà pieno vn corno di douitia, il quale tiene con la destra mano,& à canto vi farà vn leone,& altri animali terrestri .
+Si fà matrona , per essere ella da i Poeti chiamata gran madre di tutti gl'animali,come bene trà gl'altri disse Ouidio nel 1. della Metamorfosi così . *Ossaq. post tergum magnæ iactata parentis.* Et in altro luogo del medesimo 1. lib. disse anco .
+Magna parens terra est , lapidesq. in corpore Terræ ,
+Ossa reor dici iacere hos post terga iubemur .
+Et l'istesso anco replicò nel 2. lib. de Fasti, come anco meglio lo dice Lucretio lib. 2. de natura rerum .
+Si dipinge con il globo,& che stia à sedere, per esser la terra sferica , & immobile,come dimostra Manilio nel 1. lib. Astronom. doue dice .
+*Vltima subsedit glomerato pondere tellus .* Et poco dopoi . *Est igitur tellus mediam sortita cauernam aeris .* Et con quello che segue appresso .
+
+Колонтитул: DI CESARE RIPA. 121
+Кустод: Si veste
+Сигнатура: H 3
+Маргиналии:
+
+## Скан 0143 · с. 122
+
+Si veste con habito pieno di varij fiori, & herbe, & con il cornucopia pieno di più sorte di frutti, & con la ghirlanda sopradetta in capo, percioche la terra rende ogni sorte di frutti, come ben dimostra Ouidio nel lib. 1.de arte amandi , doue dice :
+Hæc tellus eadem parit omnia vitibus illa
+Conuenit,hæc oleis,hic bene farra virent.
+Et Statio nella Thebaide, come riferisce il Boccaccio nel libro 1.della geneologia de gli Dei, così dice della terra.
+O eterna madre d'huomini, e di Dei
+Che generi le selue,i fiumi,e tutti,
+Del mondo i semi ,gl'animali, e fiere
+Di Prometeo le mani,e insieme i sassi
+Di Pirra,e quella fosti,la qual diede
+Prima d'ogn'altra gl'elementi primi .
+Et gl'huomini cangiasti, & che camini
+E'l mare guidi,onde à te intorno siede .
+La quieta gente de gl'armenti, & l'ira
+Delle fiere,e'l riposo de gl'vcelli,
+Et appresso del mondo,la fortezza.
+Stabile,e ferma,& del Ciel d'Occidente,
+La machina veloce,& l'vno,& l'altro
+Carro circonda te,che in aere voto
+Pendente stai . o de le cose mezo
+Et indiuisa a i grandi tuoi fratelli,
+Adunque insieme sola a tante genti ,
+Et vna basti a tante alteCittadi,
+Et populi di sopra, anco di sotto ,
+Che senza sopportar fatica alcuna
+Atlante guidi, il qual pur affatica
+Il Ciel à sostener le stelle , e i Dei .
+[ЗАГОЛОВОК: ELEMENTI.]
+[ИНИЦИАЛ: I] Quattro Elementi,per compositione de i quali si fanno le generationi naturali,participano in sommo grado delle quattro prime qualità, & con tal rispetto si trouano nell'huomo quattro complessioni, quattro virtù, quattro sciẽze principali,quattro arti le più nobili nel mōdo, quattro tempi dell'anno , quattro siti , quattro venti, quattro differenze locali , & quattro cause, ò cagioni delle humane scienze . Et verranno questi quattro Elementi bene, & piaceuolmente rappresentati co i loro visibili effetti, senza hieroglifico metaforico , hauendo fatto così per rappresentare alla vista l'istesse cose visibili, molte volte ancora gli antichi, & però con l'aiuto solo della definitione materiale si farà prima la terra.
+[ЗАГОЛОВОК: TERRA.]
+[ИНИЦИАЛ: D]ONNA vecchia, vestita di manto lungo, & fosco, si sostenti in aria sopra vn bastone , il quale pendendo egualmente alla figura dall'vna , & dall'altra parte , habbia nell'vna , & nell'altra sommità vna stella, attrauersi detto bastone la figura fin doue possono arriuar le braccia stese all'in giù, stando la figura dritta, e posandosi con le mani in detto bastone , la testa alzata in alto , & a foggia di treccie , hauerà vna selua d'arbori , & nelle spalle si vederanno come monili due piramidi, che rappresentino Città , & tenendo le mammelle fuori del petto, getti fuora acqua, che si raccoglia sopra il lembo della veste, & sopra al detto bastone si vedano pendere grappi d'vue ,& spighe di grano , & tenga detta figura al collo vn monile di foglie d'oliue .
+Così si rappresentano i tre frutti principali della terra , il deriuar che fa il mare da i fonti, la stabilità della terra librata dal proprio peso,& sostenuta , per dir così , dalle lationi celesti , mostrate nelle due stelle , che
+
+Колонтитул: 122 ICONOLOGIA
+Кустод: signifi-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0144 · с. 123
+
+significano anco i due Poli, il bastone mostra l'asse del cielo, i luoghi habitati, & siluestri sono espressi nella selua , & nelle Piramidi .
+Il color della veste è color della terra , & la faccia di vecchia è,perche di lei si dice a gl'huomini tutti: Tornate alla gran madre antica.
+Rhea,ouero Cibale ancora era già rappresentata per la terra, come si vede appresso gli scrittori della Deità .
+[ЗАГОЛОВОК: ACQVA.]
+[ИНИЦИАЛ: D]ONNA giouane vestita di veste sottili, & di color ceruleo,in modo, che ne traspariscano le carni ignude,con le pieghe la veste per tutto imiti l'onda del mare, mostri detta figura di sostener con fatica vna naue sopra la testa, stia co i piedi sopra vn' ancora in forma di caminare all'in giù , habbia pendente di coralli , & d'altre cose marine , al petto si vedano due conchiglie grandi, che rassembrino la forma delle mammelle, s'appoggi ad vna canna, o remo , o scoglio con diuerse sorte di pesci d'intorno,disposti al giuditio del discreto pittore .
+Gli antichi per l'acqua faceuano Nettunno vecchio, tirato per l'onde da due caualli, con tridente in mano , di che sono scritte l'interpretationi da gl'altri .
+Per l'istesso pigliauano ancora Dori, Galatea , Naiadi, & altri nomi , secondo che voleuano significare, ò fiume , ò mare , & questo ò c'hauesse calma , ò fortuna .
+[ЗАГОЛОВОК: ARIA.]
+[ИНИЦИАЛ: D]ONNA giouanetta,& di vago aspetto,sia vestita di color bianco, e trasparente più dell'altro dell'acqua, con ambe le mani mostri di sostentare vn cerchio di nuuole,che la circondi d'intorno alla veste,& sopra dette nuuole si veda la forma dell'arco Celeste .
+Tenga sopra la testa il Sole,quale si mostri, che si serua per raggi suoi delle chiome di lei,tenga l'ali alle spalle,& sotto a i piedi ignudi vna vela, si potrà dipingere ancora il camaleonte animale, che si nodrisce d'aria , secondo si scriue , & si crede .
+E di facile dichiaratione,il Sole mostra quest'elemento esser diafane di sua natura,e sentir più de gl'altri, & cōmunicare anco i benefitij del Sole.
+La vela dimostra il natural sito suo essere sopra l'acque .
+Finsero gl'antichi per aria Gioue, & Giunone , Gioue per la parte più pura,Giunone per la parte più mista,e con tutte le fauole a loro spettanti,che sono quasi infinite,si simboleggia sopra la natura dell'aria, & delle varie trasmutationi per mezo suo .
+[ЗАГОЛОВОК: FVOCO.]
+[ИНИЦИАЛ: G]IOVANETTO nudo di color viuace , con vn velo rosso a trauerso,il qual velo si pieghi diuersamente in forma di fiamma. Porti la testa calua , con vn sol fiocco di capelli all'in su , si veda sopra la testa vn cerchio con l'imagine della Luna , per mostrare che questo fra gli elementi ha luogo superiore , tenga vn piede sospeso in aria , per mostrare la sua leggierezza , & sotto alle piante de i piedi si mostrino i venti, che
+
+Колонтитул: DI CESARE RIPA. 123
+Кустод: ti, che
+Сигнатура: H 4
+Маргиналии:
+
+## Скан 0145 · с. 124
+
+ti , che soffiano; sotto alla regione del fuoco .
+Vulcano, & la Dea Vesta furono da gli antichi creduti Dei del fuoco , & da i sapienti conosciuti, che l'vno ci significasse i carboni, e l'altra le fiamme : ma in questo io non mi stendo , per esserui altri, che ne parlano lungamente .
+[ЗАГОЛОВОК: ELEMENTI.]
+[ЗАГОЛОВОК: FVOCO.]
+[ИНИЦИАЛ: D]ONNA con la Fenice in capo, che s'abbrugi, & nella man destra tenga il fulmine di Gioue , con le scintille tutte sfauillanti, & sia vestita di rosso .
+[ЗАГОЛОВОК: AERE.]
+[ИНИЦИАЛ: D]ONNA che con ambe le mani tenga l'iride,ouero arco celeste, & habbia in capo vna calandra con l'ali distese, & col becco aperto, e sia vestita detta figura di turchino assai illuminato .
+[ЗАГОЛОВОК: ACQVA.]
+[ИНИЦИАЛ: D]ONNA che habbia vn pesce in capo assai grande,nelle mani tenga vna naue senza vela:ma con l'albero,antenna,e sarte,e siano nel vestimento scolpite l'onde del mare .
+[ЗАГОЛОВОК: TERRA.]
+[ИНИЦИАЛ: D]ONNA con vn Castello in capo, & con vna torre nelle mani tenga diuerse piante, il vestimento sarà di tanè, con vna sopraueste di color verde .
+[ЗАГОЛОВОК: Terra.]
+[ИНИЦИАЛ: L]A Terra è vn'elemento il più infimo, il più graue , & minimo di tutti, situato in mezo del mondo tra l'vno , e l'altro Polo , per natura graue, & immobile sostenuta dalla propria grauezza, restringendosi verso il centro , quale sta in mezo d'essa , perche tutte le cose graui vanno al centro,& perciò essendo graue,hauendo il centro in se,sta per se stessa intorno al suo centro .
+Hauendosi à far figura , che ne rappresenti la terra , sarà impossibile darli tutte le sue qualità,perche sono infinite,se ne piglierà dunque delle più proprie,& più à proposito nostro con farla
+Donna d'età matura , non molto grande , con vna veste berrettina del color della terra,nella quale vi saranno alcuni rospi,& sopra la detta veste hauerà vn manto verde con diuerse herbette, fiori, & spighe di grano, & vue bianche,e negre,con vna mano terrà vn fanciullo che zinna,& con l'altra abbracciato vn'huomo morto,dall'altra zinna ne scatorirà vn fonte,quale anderà sotto li piedi,nel quale vi saranno diuersi serpenti, sopra la testa terrà vna Città, hauerà al collo dell'oro, & dell egioie alle mani , & a i piedi ancora .
+Si farà donna attempata,per esser come madre di tutta la generatione, d'età matura, per esser creata dal principio del mondo,e da durare fin' al fine,non molto grande,per esser il minimo tra l'altri elemēti,la veste berrettina significa l'istessa terra,có i rospi sopra,perche il rospo viue di terra
+
+Колонтитул: 124 ICONOLOGIA
+Кустод: Il manto
+Сигнатура: 
+Маргиналии:
+
+## Скан 0146 · с. 125
+
+Il manto verde con herbe,fiori,spighe di grano, e vue bianche,e negre, è il proprio vestimento della terra , percioche , secondo le stagioni ella si veste,con dare abondantemente tutti quei beni,che sono necessarij a tutti li viuenti .
+Il fanciullo che tiene nella destra zinnando, ci mostra, come lei è nostra nutrice , somministrandoci il vitto .
+L'huomo morto,che tiene abbracciato dall'altro lato, ne significa, come i viui sostenta , & i morti abbraccia , tenendoci in deposito fino alla Resurretione .
+La zinna,che scatorisce acqua , ne rappresenta i fonti, & i fiumi, che ella scatorisce .
+L'acqua che ella tiene sotto a i piedi con i serpenti, sono l'aque sotterranee nelli meati della terra con i serpenti, che si rinchiudono nelle cauerne d'essa .
+La Città , che tiene in testa,ne dinota , come la terra è sostentamento nostro,& di tutte le nostre habitationi .
+Le gioie,che stanno al collo, à le mani, & à li piedi , sono la varietà de l'oro , argento, & altri metalli, & delle gioie, che stanno dentro le viscere della terra,apportandole à noi, per nostro vtile, & dilettatione, & come racconta Plinio nel primo libro.è benigna madre, & sempre gioua , e mai nuoce .
+[ЗАГОЛОВОК: Terra, come dipinta nella medaglia di Commodo.]
+[ИНИЦИАЛ: D]Onna a giacere in terra,meza nuda,come cosa stabile,con vn braccio appoggiato sopra d'vn vaso, dal quale esce vna vite, & con l'altro riposa sopra vn globo, intorno al quale sono quattro picciole figure , che le presentano vna dell'vue,l'altra delle spighe di grano,cō vna corona di fiori,la terza vn vaso pieno di liquore, e la quarta è la Vittoria con vn ramo di palma con lettere . TELLVS STABILIS .
+[ЗАГОЛОВОК: ELEMENTI SECONDO EMPEDOCLE.]
+[ИНИЦИАЛ: E]Mpedocle Filosofo disse essere i principij i quattro elementi , cioè il fuoco, l'aere, l'acqua,& la terra,ma con due principali potenze,amicitia,& discordia, l'vna delle quali vnisce, l'altra separa , da altri dette combinationi possibili,& impossibili; le sue parole greche tradotte poi in Latino son queste in Diogene Laertio :
+Ζεὺς ἀργὴς Ἥρη τε φερέσβιος, ἠδ᾽ Ἀϊδωνεὺς
+Νῆστις θ᾽ ἣ δακρύοις τέγγει κρούνωμα βρότειον.
+Iuppiter albus , & alma soror Iuno , atque potens Dis
+Et Nestis,lacrimis hominum quæ lumina complet .
+Che furono volgarizati da Seluaggio, Academico occulto , in cotal guisa , se bene nel secondo , & vltimo verso è alquanto lontano dal testo Greco , & Latino .
+O di quattro radici delle cose
+Gioue alto, alma Giunone, e Pluto ricco,
+E Nesti,che di pianto n'empie i fiumi .
+Ond'egli Gioue parimente intende per lo fuoco , che è sopra l'aere , & chiamalo Fisicamente Gioue , percioche niuno maggiore gioua-
+
+Колонтитул: DI CESARE RIPA. 125
+Кустод: mento
+Сигнатура: 
+Маргиналии:
+
+## Скан 0147 · с. 126
+
+mento altronde si riceue,che dal fuoco . L'alma Giunone intende per l'aere,& in questo molto con esso lui si concordano i Poeti, i quali fingono Giunone moglie , & sorella di esso Gioue,atteso quasi l' istessa qualità , & pochissima differenza dell'vno,& dell'altra,onde Homero nel suo linguaggio disse .
+Iunonem cano aurithronam , quam peperit Rhæa
+Immortalem reginam , excelsam formam habentem .
+Iouis valdisoni sororem , vxoremque ,
+Inclytam , quam omnes beati per longum Olympum
+Læti honorant simul cum Ioue oblectante fulminibus .
+Pigliasi poi il padre Dite per la terra , & è chiamato Plutone, cioè Re, & Signore ricco della terra , percioche in essa sono riposti i più pretiosi tesori , & da lei si caua oro,argento,& ogn'altro metallo.
+Nesti vltimamente si mette per li fiumi, cioè per lo generare dell'acque . Ne voglio in questo luogo tralasciare vn'epigramma di Gio. Zaratino Castellini, altra volta nominato,nel quale con sensi mistici,di Empedocle, in forma di enigma espone,come alla morte d'vn rosignuolo interuennero tutti gl'elementi , mentre egli staua cantando in cima d'vn alloro,à piè del quale scorreua vn riuo d'acqua . (pinqui,
+Dũ priscũ tenera Philomela in vertice Daph
+Plorabat querulo gutture mæsta dolũ (nes
+Perculit incautẽ crudeli vulnere Pluto,
+Quam Iuno haud potuit sustinuisse diu .
+In lacrimas Nestis cecidit moribunda pro-
+Nestis,& in lacrimis funditus interijt .
+Extinctam lento combussit Iuppiter æstu.
+In viuo tumulo sic tumulata fuit .
+[ЗАГОЛОВОК: ELOQVENZA.]
+[ИНИЦИАЛ: G]IOVANE bella,col petto armato,& con le braccia ignude,in capo hauerà vn'elmo circondato di corona d'oro, al fianco hauerà lo stocco,nella mano destra vna verga, nella sinistra vn fulmine, & farà vestita di porpora .
+Giouane bella,& armata si dipinge, percioche l' eloquenza non hà altro fine,ne altro intento, che persuadere , & non potendo far cio senz' allettare,& muouere,però si dee rappresentare vaghissima d'aspetto, essendo l'ornamento,& la vaghezza delle parole,delle quali deue esser fecondo chi vuole persuadere altrui, però ancora gl' antichi dipinsero Mercurio giouane,piaceuole,& senza barba,i costumi della quale età sono ancora conformi allo stile dell'eloquenza,che è piaceuole,audace,altera, lasciua, & confidente .
+La delicatura delle parole s'insegna ancora nelle braccia ignude , le quali escono fuora dal busto armato , perche senza i fondamenti di salda dottrina , & di ragione efficace,l'eloquenza sarebbe inerme , & impotente à conseguire il suo fine.Però si dice,che la dottrina è madre dell'eloquēza,& della persuasione ; ma perche le ragioni della dottrina sono per la difficultà mal volentieri vdite , & poco intese , però adornandosi con parole , si lasciano intendere , & partoriscono spesse volte effetti di persuasioni , & cosi si souuiene alla capacità , & a gl'effetti dell'animo mal composto,però si vede,che,ò per dichiarare le ragioni difficili,& dubbie,o per
+
+Колонтитул: 126 ICONOLOGIA
+Кустод: spro-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0148 · с. 127
+
+spronar l'animo al moto delle passioni,o per raffrenarlo,sono necessarij i varij,& artifitiosi giri di parole dell' oratore , fra'quali egli sappia celare il suo artifitio,& così potrà muouere,& incitare l'altiero; ouero sueglian-do l'animo addormentato dell'huomo basso , & pigro,& con la verga della piu bassa , & commune maniera di parlare , o con la spada della mezzana,& piu capace d'ornamenti, o finalmente col folgore della sublime , che hà forza d'atterrire,& di spauentare ciascuno .
+La veste di porpora con la corona d'oro in capo, dà chiaro segno,come ella risplende nelle menti di chi l'ascolta, & tiene il dominio degl' animi humani,essendo,che,come dice Platone in Pol. *Oratoria dignitas cum regia dignitate coniuncta est, dum quod iustum est, persuadet, & cum illa Respublicas gubernat.*
+[ЗАГОЛОВОК: Eloquenza.]
+[ИНИЦИАЛ: D]Onna vestita di rosso,con ghirlanda in capo d'herba chiamata iride, nella mano destra tiene vn folgore,& nella sinistra vn libro aperto.
+La ghirlanda della sopradetta herba,significa come narra il Pierio Valeriano nel lib.187.de i suoi Ieroglifici,eloquenza,percioche Homero volendo dimostrare, che gl'ambasciatori Troiani fossero eloquentissimi,disse, che hauessero mangiato l'iride,i fiori della quale , si come sono di varij colori,così l'oratione deue essere vestita,& di più concetti ornata,& iride viene anco detto da gl'antichi l'arco celeste , il quale dicesi essere Dea de l'eloquenza, per essere messaggiera,& ambasciatrice di Giunone .
+Per lo libro si mostra , che cosa sia eloquenza , che è l'effetto di molte parole acconcie insieme con arte, & è in gran parte scritta,perche si conserui à posteri , & per lo fulmine si mostra , come narra Pierio Valeriano nel lib. 43. che non con minore forza l'eloquenza d'vn huomo facondo,& sapiente, batte à terra la pertinacia fabricata , & fondata dall'ignoranza nelle menti de gli stolidi profuntuosi, che il fulmine percuote , & abbatte le torri,che s'inalzano sopra gl'alti edifitij .
+[ЗАГОЛОВОК: Eloquenza.]
+[ИНИЦИАЛ: D]Onna vestita di rosso, nella man destra tiene vn libro, con la sinistra mano alzata , & con l'indice, che è il secondo dito dell'istessa mano steso,& presso à suoi piedi vi farà vn libro,& sopra esso vn'orologio da poluere,vi farà ancora vna gabbia aperta con vn papagallo sopra .
+Il libro,& l'orologio,come si è detto è indicio,che le parole sono l'istromento dell'eloquente : le quali però deuono essere adoprate in ordine , & misura del tempo , essendo dal tempo solo misurata l'oratione , & da esso riceuendo i numeri,lo stile,la gratia,& parte dell'attitudine à persuadere.
+Il papagallo , è simbolo dell'eloquente , perche si rende marauiglioso con la lingua , & con le parole , imitando l'huomo , nella cui lingua solamente consiste l'essercitio dell'eloquenza .
+Et si dipinge il papagallo fuora della gabbia, perche l'eloquenza non è ristretta à termine alcuno , essendo l'offitio suo di saper dire probabilmente di qualsiuoglia materia proposta,come dice Cicerone nella Rettorica, & gl'altri, che hanno scritto prima, & dopoi.
+
+Колонтитул: DI CESARE RIPA. 127
+Кустод: Il vesti-
+Сигнатура: 
+Маргиналии:
+
+## Скан 0149 · с. 128
+
+Il vestimento rosso dimostra, che l'oratione deue essere concitata , & affettuosa in modo , che ne risulti rossore nel viso , accioche sia eloquente,& atta alla persuasione , conforme al detto d'Horatio .
+*Si vis me flere , flendum est primum ipsi tibi.*
+Et questa assertione concitata si dimostra anco nella mano , & nel dito alto: perche vna bona parte dell'eloquenza cōsiste nel gesto dell'oratione.
+[ЗАГОЛОВОК: Eloquenza.]
+[ИНИЦИАЛ: M]Atrona vestita d'habito honesto , in capo hauerà vn Papagallo , & la mano destra aperta in fuora,& l'altra serrata mostri d'asconderla sotto le vesti .
+Questa figura è conforme all'opinione di Zenone Stoico,il quale diceua , che la Dialetica era somigliante à vna mano chiusa , perche procede astutamente , & l'eloquenza simigliante à vna mano aperta , che si allarga , & diffonde assai più . Per dichiaratione del Papagallo seruirà quanto si è detto di sopra.
+[ЗАГОЛОВОК: Eloquenza nella Medaglia di Marc'Antonio.]
+[ИНИЦИАЛ: E]Ra da gli antichi Orfeo rappresentato per l'eloquenza , & lo dipinsero in habito filosofico , ornato dalla tiara Persiana , sonando la lira , & auanti d'esso vi erano Lupi,Leoni,Orsi,Serpenti,& diuersi altri animali , che gli leccauano i piedi , & non solo v'erano anco diuersi vccelli , che volauano,ma ancora monti , & alberi , che se gli inchinauano,& parimente sassi dalla musica commossi,& tirati .
+Per dichiaratione di questa bella figura ci seruiremo di quello , che hà interpretato l'Anguillara à questo proposito nelle Metamorfosi d'Ouidio al lib. 10. dicendo , che Orfeo ci mostra quanta forza , & vigore habbia l'eloquenza , come quella , che è figliuola d'Apollo , che non è altro , che la sapienza .
+La lira è l'arte del fauellare propriamente la quale hà somiglianza della lira , che và mouendo gl' affetti col suono hor acuto , hor graue della voce , & della pronuntia .
+Le selue , & i monti,che si muouono,altro non sono , che quegl'huomini fissi , & ostinati nelle loro opinioni , & che con grandissima difficultà si lassano vincere dalla suauità delle voci , & della forza del parlare, perche gl'alberi, che hanno le loro radici ferme,& profonde notano gl'huomini, che fissano nel centro dell'ostinatione le loro opinioni .
+Ferma ancora Orfeo i fiumi,che altro non sono,che i disonesti,& lasciui huomini , che quando non sono ritenuti dalla forza della lingua dalla loro infame vita , scorrono senza ritegno alcuno fin'al mare , ch'è il pentimento , & l'amarezza,che suole venire subito dietro à i piaceri carnali.
+Rende mansuete,& benigne le fiere,per le quali s'intendono gl'huomini crudeli , & ingordi del sangue altrui,essere ridotti dal giuditioso fauellatore à più humana,& lodeuole vita .
+
+Колонтитул: 128 ICONOLOGIA
+Кустод: Elo-
+Сигнатура: 
+Маргиналии:
