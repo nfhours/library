@@ -563,6 +563,17 @@ const W = ms => new Promise(r => setTimeout(r, ms));
       ok('prev back to ' + id, await page.evaluate(n => location.hash === '#/iconologie/' + n, id), await page.evaluate(() => location.hash));
     }
   }
+  { // высота окна меняется при прокрутке в Safari (панель прячется/показывается): размеры гравюры и рамки не должны меняться
+    const M = () => page.evaluate(() => { const f = document.querySelector('.ic-rp .ic-fig'), i = document.querySelector('.ic-rp .ic-fig img'), h = document.querySelector('.ic-home-fig img'), r = e => e ? [Math.round(e.getBoundingClientRect().width), Math.round(e.getBoundingClientRect().height)] : null; return { fig: r(f), img: r(i), hero: r(h) }; });
+    const vp = page.viewportSize();
+    for (const [name, h] of [['card #/iconologie/p1-5', '#/iconologie/p1-5'], ['cover #/iconologie', '#/iconologie']]) {
+      await open(h, 'ru'); await W(2500); await page.evaluate(() => window.scrollTo(0, 120)); await W(400);
+      const a = await M(); await page.setViewportSize({ width: vp.width, height: vp.height + 86 }); await page.evaluate(() => window.scrollTo(0, 220)); await W(700);
+      const b = await M(); await page.setViewportSize({ width: vp.width, height: vp.height }); await W(500); const c = await M();
+      const same = (x, y) => JSON.stringify(x) === JSON.stringify(y);
+      ok('viewport height change keeps engraving/frame size (' + name + ')', same(a, b) && same(a, c), { a, b, c });
+    }
+  }
   ok('console clean', errs.length === 0, errs.slice(0, 5));
   await br.close();
 

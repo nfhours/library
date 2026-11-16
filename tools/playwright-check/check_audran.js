@@ -59,4 +59,12 @@ let bad=0; const ok=(n,c,x)=>{ if(!c) bad++; console.log((c?'ok  ':'FAIL ')+n+(x
  }
  // next/prev steps and last plate (aud30) title
  await p.goto(BASE+'#/audran/aud30'); await setLang('ru'); const t30=await p.evaluate(()=>({h1:document.querySelector('h1').textContent,next:!!document.querySelector('.ic-rbar-nv[data-nav="next"]:not([disabled])')})); ok('aud30: title by subject, no next',/голов/.test(t30.h1)&&!t30.next,t30.h1);
+
+ // высота окна меняется при прокрутке в Safari: размеры гравюры и рамки не должны меняться
+ { const M=()=>p.evaluate(()=>{ const r=e=>e?[Math.round(e.getBoundingClientRect().width),Math.round(e.getBoundingClientRect().height)]:null; return {fig:r(document.querySelector('.ic-fig')),img:r(document.querySelector('.ic-fig img')),hero:r(document.querySelector('.ic-home-fig img'))}; });
+   const vp=p.viewportSize(); await p.goto(BASE+'#/audran'); await setLang('ru');
+   for(const [name,h] of [['card','#/audran/aud15'],['cover','#/audran']]){ await p.goto(BASE+h); await W(2500); await p.evaluate(()=>window.scrollTo(0,120)); await W(400);
+     const a=await M(); await p.setViewportSize({width:vp.width,height:vp.height+86}); await p.evaluate(()=>window.scrollTo(0,220)); await W(700);
+     const b=await M(); await p.setViewportSize({width:vp.width,height:vp.height}); await W(500); const c=await M();
+     ok('viewport height change keeps engraving/frame size ('+name+')',JSON.stringify(a)===JSON.stringify(b)&&JSON.stringify(a)===JSON.stringify(c),JSON.stringify([a,b,c])); } }
  ok('console clean',errs.length===0,errs.slice(0,3).join('|')); await br.close(); console.log(bad?'FAILS '+bad:'ALL OK'); })();

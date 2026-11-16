@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "209";
+  var APP_VER = "210";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -74,8 +74,25 @@
   function headerStackH(){ return (parseFloat(root.dataset.top)||0) + bookTabsH(); }
   function syncHeaderStack(){ root.style.setProperty("--top2", headerStackH()+"px"); }
   syncHeaderStack();
-  window.addEventListener("resize", function(){ syncTopVar(); updateSheetMaxH(); syncHeaderStack(); });
-  window.addEventListener("orientationchange", function(){ syncTopVar(); updateSheetMaxH(); syncHeaderStack(); });
+  // Стабильная высота экрана для гравюр (Рипа, Одран): считается один раз на ширину окна и пересчитывается только при смене
+  // ширины (поворот). Прокрутка в iOS Safari прячет/показывает адресную строку и меняет высоту окна (resize) — размер гравюры
+  // от этого меняться не должен. --ic-vh — наибольшая высота (100vh, как у обложки Картари), --ic-svh — наименьшая (100svh).
+  var stableVhW = 0;
+  function stableVh(){
+    var w = window.innerWidth;
+    if(stableVhW === w || !document.body) return;
+    stableVhW = w;
+    var p = document.createElement("div");
+    p.style.cssText = "position:fixed;left:-9999px;top:0;width:1px;visibility:hidden;pointer-events:none;height:100vh";
+    document.body.appendChild(p);
+    var lv = p.getBoundingClientRect().height; p.style.height = "100svh";
+    var sv = p.getBoundingClientRect().height || lv; p.remove();
+    document.documentElement.style.setProperty("--ic-vh", lv+"px");
+    document.documentElement.style.setProperty("--ic-svh", Math.min(lv, sv)+"px");
+  }
+  stableVh();
+  window.addEventListener("resize", function(){ syncTopVar(); updateSheetMaxH(); syncHeaderStack(); stableVh(); });
+  window.addEventListener("orientationchange", function(){ syncTopVar(); updateSheetMaxH(); syncHeaderStack(); stableVh(); });
   // visualViewport — события, которые СУЩЕСТВУЮТ ИМЕННО для динамической
   // адресной строки iOS Safari (её показ/скрытие при скролле меняет
   // visualViewport.height независимо от window.innerHeight/resize, который
@@ -2620,7 +2637,7 @@
          homeTile(hrefFor(book,"plates"), t("hmGallery"), t("hmGallerySub",{n:nPl}), false)];
     var L = state.lang;
     root.innerHTML = ripaShell(book, null, "")+
-      '<div class="ic-wrap ic-home">'+
+      '<div class="ic-wrap ic-home ic-home-rp">'+
         '<div class="ic-top-row">'+langSwitch()+'</div>'+
         '<header class="ic-home-hero">'+
           '<div class="ic-home-txt">'+
@@ -3040,7 +3057,8 @@
         });
       }
       function setVis(){ var st0 = document.getElementById("ic-stack"); if(st0) root.style.setProperty("--ic-stack-full", Math.round(st0.getBoundingClientRect().height)+"px"); }
-      setVis(); window.addEventListener("resize", function rs(){ if(gen !== renderGen){ window.removeEventListener("resize", rs); return; } setVis(); });
+      var visW = window.innerWidth;   // высота панелей от прокрутки не меняется: пересчёт только при смене ширины (поворот)
+      setVis(); window.addEventListener("resize", function rs(){ if(gen !== renderGen){ window.removeEventListener("resize", rs); return; } if(window.innerWidth === visW) return; visW = window.innerWidth; setVis(); });
       ripaAnchors();
       var toListB = root.querySelector('[data-rb="tolist"]'); if(toListB) toListB.addEventListener("click", function(){ ripaToList(book, it.id); });
       var tabList = root.querySelector('.ic-bt-tabs a[href="'+hrefFor(book, aud ? "plates" : "list")+'"]');
