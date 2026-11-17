@@ -25,14 +25,14 @@ BOOK = os.path.join(ROOT, "books", "alciato")
 HEAVY = sys.argv[1] if len(sys.argv) > 1 else os.path.expanduser("~/Projects/alciato")
 
 SEC_FR = {
-    "EMBLEM. DEDIC": "Introduction", "DEVS SIVE RELIGIO": "Dieu, ou la Religion", "FIDES": "La Foi",
+    "EMBLEM. DEDIC": "Introduction", "DEVS SIVE RELIGIO": "Dieu, ou la Religion", "FIDES": "Foi",
     "PRVDENTIA": "Prudence", "IVSTITIA": "Justice", "FORTITVDO": "Force", "CONCORDIA": "Concorde",
-    "SPES": "Espérance", "PVDICITIA": "Pudeur", "PERFIDIA": "Perfidie", "STVLTITIA": "Folie",
+    "SPES": "Espérance", "PVDICITIA": "Chasteté", "PERFIDIA": "Perfidie", "STVLTITIA": "Folie",
     "SVPERBIA": "Orgueil", "INVIDIA": "Envie", "LVXVRIA": "Luxure", "DESIDIA": "Paresse",
     "AVARITIA": "Avarice", "GVLA": "Gourmandise", "DOCTORVM AGNOMINA": "Surnoms des savants",
     "NATVRA": "Nature", "ASTROLOGIA": "Astrologie", "AMOR": "Amour", "FORTVNA": "Fortune",
-    "HONOR": "Honneur", "PRINCEPS": "Le Prince", "RESPVBLICA": "La République", "VITA": "La Vie",
-    "MORS": "La Mort", "AMICITIA": "Amitié", "HOSTILITAS": "Hostilité", "VINDICTA": "Vengeance",
+    "HONOR": "Honneur", "PRINCEPS": "Le Prince", "RESPVBLICA": "La République", "VITA": "Vie",
+    "MORS": "Mort", "AMICITIA": "Amitié", "HOSTILITAS": "Inimitié", "VINDICTA": "Vengeance",
     "PAX": "Paix", "SCIENTIA": "Science", "IGNORANTIA": "Ignorance", "MATRIMONIVM": "Mariage",
     "ARBORES": "Arbres",
 }

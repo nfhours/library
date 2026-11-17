@@ -34,9 +34,11 @@ let bad=0, n=0; const ok=(name,c,x)=>{ n++; if(!c) bad++; console.log((c?'ok  ':
   ok(L+' list: 35 sections, first «'+t.intro+'» (3 intros), then «'+t.first+'», last «'+t.last+'»',ls.secs.length===35&&ls.secs[0]===t.intro&&ls.intro.join()==='intro-1,intro-2,intro-3'&&ls.secs[1]===t.first&&ls.secs[34]===t.last,ls.secs.length+' '+ls.secs.slice(0,2).join('|'));
   ok(L+' list: 211 rows, active tab',ls.rows===211&&ls.tabOn===t.emb,ls.rows+' '+ls.tabOn);
   ok(L+' list row: thumb (engraving only), motto, Latin italic, page',ls.r&&/thumb\/alc10_t\.webp/.test(ls.r.th)&&ls.r.t.length>5&&ls.r.la==='In Deo lætandum'&&ls.r.laIt==='italic'&&ls.r.pg==='10',JSON.stringify(ls.r));
-  ok(L+' list: no motto → section name; two-page page range',ls.nm&&ls.nm.t===({ru:'Целомудрие',en:'Chastity',fr:'Pudeur'}[L])&&!ls.nm.la&&ls.two==='31–32',JSON.stringify(ls.nm)+' '+ls.two);
+  ok(L+' list: no motto → section name; two-page page range',ls.nm&&ls.nm.t===({ru:'Целомудрие',en:'Chastity',fr:'Chasteté'}[L])&&!ls.nm.la&&ls.two==='31–32',JSON.stringify(ls.nm)+' '+ls.two);
   ok(L+' list: section row «'+t.find+' | '+t.sec+'»',ls.find===t.find&&ls.secb===t.sec,ls.find+' | '+ls.secb);
   { const h=await p.evaluate(eval(HIT),'.ic-alc-row'); ok(L+' list rows: touch zones ≥44',h.every(Boolean),JSON.stringify(h.map((x,i)=>x?'':i).filter(String))); }
+  { const h=await p.evaluate(eval(HIT),'.ic-rbar-secb'); ok(L+' list: «'+t.sec+'» touch zone ≥44 (not clipped)',h.length===1&&h.every(Boolean),JSON.stringify(h)); }
+  { const x=await p.evaluate(()=>{ const a=document.querySelector('.ic-alc-row[data-id="intro-1"]'),b=document.querySelector('.ic-alc-row[data-id="alc10"]'); return [Math.round(a.querySelector('.ic-rp-t').getBoundingClientRect().left),Math.round(b.querySelector('.ic-rp-t').getBoundingClientRect().left)]; }); ok(L+' list: no-thumb row text aligned with thumb rows',x[0]===x[1],x.join('/')); }
   if(L==='ru') await p.screenshot({path:path.join(OUT,'alciato-list-ru.png')});
   // «Раздел»: шторка, тап → прокрутка к разделу
   await p.tap('[data-rb="sec"]'); await W(700);
@@ -65,13 +67,15 @@ let bad=0, n=0; const ok=(name,c,x)=>{ n++; if(!c) bad++; console.log((c?'ok  ':
       ok(L+' loupe result opens emblem with highlighted word',/alciato\/alc10$/.test(hl.hash)&&!!hl.mark,JSON.stringify(hl)); await p.goBack(); await W(2000); }
     else { await p.tap('[data-rb="booksearch"]'); await W(500); }
   }
+  { await p.goto(BASE+'#/alciato/alc119'); await W(2200); const m=await p.evaluate(()=>({h1:(document.querySelector('.ic-alc-motto')||{}).textContent,la:(document.querySelector('.ic-alc-la')||{}).textContent}));
+    ok(L+' emblem 106: motto fully translated, Latin only in its line',!!m.h1&&!/id amor|Αντέρως/.test(m.h1)&&/Αντέρως, id amor virtutis/.test(m.la),JSON.stringify(m)); }
   // 4. открыть эмблему из середины списка, «назад» — на то же место
   await p.goto(BASE+'#/alciato/list'); await W(2000);
   await p.evaluate(()=>document.querySelector('.ic-alc-row[data-id="alc128"]').scrollIntoView({block:'center'})); await W(700);
   const y0=await p.evaluate(()=>Math.round(scrollY));
   await p.tap('.ic-alc-row[data-id="alc128"]'); await W(2500);
   const cd=await p.evaluate(()=>{ const f=[...document.querySelectorAll('.ic-alc-figs .ic-fig img')]; const q=s=>document.querySelector(s);
-    return {hash:location.hash,pages:f.map(i=>i.getAttribute('src').replace(/^.*plates\//,'')),gap:f.length>1?Math.round(f[1].getBoundingClientRect().top-f[0].getBoundingClientRect().bottom):null,w:f[0]?Math.round(f[0].getBoundingClientRect().width):0,blend:f[0]&&getComputedStyle(f[0]).mixBlendMode,
+    return {hash:location.hash,pages:f.map(i=>i.getAttribute('src').replace(/^.*pages\//,'')),gap:f.length>1?Math.round(f[1].getBoundingClientRect().top-f[0].getBoundingClientRect().bottom):null,w:f[0]?Math.round(f[0].getBoundingClientRect().width):0,blend:f[0]&&getComputedStyle(f[0]).mixBlendMode,
       sec:(q('.ic-rbar-lbl-b')||{}).textContent,scan:!!q('[data-rb="scan"]'),prev:!!q('.ic-rbar-nv[data-nav="prev"]:not([disabled])'),next:!!q('.ic-rbar-nv[data-nav="next"]:not([disabled])'),
       h1:(q('.ic-alc-motto')||{}).textContent,la:(q('.ic-alc-la')||{}).textContent,h3:[...document.querySelectorAll('.ic-rp-alc .ic-sec h3')].map(x=>x.textContent),
       trLines:document.querySelectorAll('.ic-rp-alc .ic-sec:not(.ic-alc-orig) .ic-alc-v span').length,laLines:document.querySelectorAll('.ic-alc-orig .ic-alc-v span').length,laIt:q('.ic-alc-orig .ic-alc-v')&&getComputedStyle(q('.ic-alc-orig .ic-alc-v')).fontStyle,
@@ -84,10 +88,11 @@ let bad=0, n=0; const ok=(name,c,x)=>{ n++; if(!c) bad++; console.log((c?'ok  ':
   ok(L+' emblem: bottom pager with titles',cd.pager.length===2&&cd.pager[0].includes(t.prev),cd.pager.join(' / ').slice(0,90));
   { const h=await p.evaluate(eval(HIT),'.ic-rbar-nv,.ic-rp-nb,.ic-rbar-lbl-b'); ok(L+' emblem: touch zones ≥44',h.every(Boolean)); }
   if(L==='ru') await p.screenshot({path:path.join(OUT,'alciato-emblem2-ru.png'),fullPage:true});
+  { const sz=await p.evaluate(()=>[...document.querySelectorAll('.ic-alc-figs .ic-fig img')].map(i=>[i.naturalWidth,i.naturalHeight])); ok(L+' two-page emblem: full printed pages loaded (pages/)',sz.length===2&&sz.every(a=>a[0]>=600&&a[1]>=1400),JSON.stringify(sz)); }
   // полноэкранный просмотр: _full, обе страницы, закрытие «назад»
   await p.tap('.ic-alc-figs .ic-fig[data-k="1"]'); await W(2500);
-  const fs=await p.evaluate(()=>{ const im=[...document.querySelectorAll('.ic-svx-alc img')]; const fd=document.querySelector('.ic-svx-alc .ic-svx-feed'); return {n:im.length,srcs:im.map(i=>i.src.replace(/^.*plates\//,'')),nat:im.map(i=>i.naturalWidth),st:fd?Math.round(fd.scrollTop):-1,bg:im[0]&&getComputedStyle(im[0]).backgroundColor}; });
-  ok(L+' fullscreen: both _full pages, hi-res, scrolled to tapped page, paper under ink',fs.n===2&&fs.srcs.join()==='alc128_full.webp,alc129_full.webp'&&fs.nat.every(x=>x>=1400)&&fs.st>100&&fs.bg!=='rgba(0, 0, 0, 0)',JSON.stringify(fs));
+  const fs=await p.evaluate(()=>{ const im=[...document.querySelectorAll('.ic-svx-alc img')]; const fd=document.querySelector('.ic-svx-alc .ic-svx-feed'); return {n:im.length,srcs:im.map(i=>i.src.replace(/^.*pages\//,'')),nat:im.map(i=>i.naturalWidth),st:fd?Math.round(fd.scrollTop):-1,bg:im[0]&&getComputedStyle(im[0]).backgroundColor}; });
+  ok(L+' fullscreen: both _full pages, hi-res, scrolled to tapped page, paper under ink',fs.n===2&&fs.srcs.join()==='alc128_full.webp,alc129_full.webp'&&fs.nat.every(x=>x>=1100)&&fs.st>100&&fs.bg!=='rgba(0, 0, 0, 0)',JSON.stringify(fs));
   if(L==='ru') await p.screenshot({path:path.join(OUT,'alciato-full-ru.png')});
   await p.goBack(); await W(900); ok(L+' fullscreen closes with browser back',await p.evaluate(()=>!document.querySelector('.ic-svx')&&/alciato\/alc128$/.test(location.hash)));
   await p.tap('.ic-alc-figs .ic-fig[data-k="0"]'); await W(1200); await p.tap('.ic-svx-back'); await W(800); ok(L+' fullscreen closes with corner',await p.evaluate(()=>!document.querySelector('.ic-svx')));
@@ -108,7 +113,7 @@ let bad=0, n=0; const ok=(name,c,x)=>{ n++; if(!c) bad++; console.log((c?'ok  ':
   await p.tap('.ic-bt-back'); await W(2200); const g1=await p.evaluate(()=>Math.round(scrollY)); ok(L+' back → engravings, same place',await p.evaluate(()=>/alciato\/plates$/.test(location.hash))&&Math.abs(g1-g0)<120,g0+'→'+g1);
   // 6. вступление — та же страница
   await p.goto(BASE+'#/alciato/intro-3'); await W(2500);
-  const it=await p.evaluate(()=>({pages:[...document.querySelectorAll('.ic-alc-figs img')].map(i=>i.getAttribute('src').replace(/^.*plates\//,'')),h1:(document.querySelector('.ic-alc-motto')||{}).textContent,la:(document.querySelector('.ic-alc-la')||{}).textContent,h3:[...document.querySelectorAll('.ic-rp-alc .ic-sec h3')].map(x=>x.textContent),greek:(document.querySelector('.ic-alc-greek')||{}).textContent||'',prev:!!document.querySelector('.ic-rbar-nv[data-nav="prev"]:not([disabled])'),sec:(document.querySelector('.ic-rbar-lbl-b')||{}).textContent}));
+  const it=await p.evaluate(()=>({pages:[...document.querySelectorAll('.ic-alc-figs img')].map(i=>i.getAttribute('src').replace(/^.*pages\//,'')),h1:(document.querySelector('.ic-alc-motto')||{}).textContent,la:(document.querySelector('.ic-alc-la')||{}).textContent,h3:[...document.querySelectorAll('.ic-rp-alc .ic-sec h3')].map(x=>x.textContent),greek:(document.querySelector('.ic-alc-greek')||{}).textContent||'',prev:!!document.querySelector('.ic-rbar-nv[data-nav="prev"]:not([disabled])'),sec:(document.querySelector('.ic-rbar-lbl-b')||{}).textContent}));
   ok(L+' intro-3: page fm0015, title, Latin title, translation/original/greek',it.pages.join()==='fm0015.webp'&&it.h1&&/procrastinandum/.test(it.la)&&it.h3.length===3&&/ΑΝΑΒΑΛΛΟΜΕΝΟΣ/.test(it.greek)&&it.prev&&it.sec.includes(t.pg+' 9'),JSON.stringify(it).slice(0,200));
   if(L==='ru') await p.screenshot({path:path.join(OUT,'alciato-intro-ru.png'),fullPage:true});
   await p.goto(BASE+'#/alciato/alc10'); await W(2500);

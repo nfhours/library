@@ -1781,6 +1781,8 @@ html.ic-hs-lock{overflow:hidden !important}
 .ic-rbar-rp .ic-rbar-row{overflow:visible}
 .ic-rbar-rp .ic-rbar-row > button{position:relative}
 .ic-rbar-rp .ic-rbar-row > button::after{content:"";position:absolute;left:0;right:0;top:50%;height:44px;transform:translateY(-50%)}
+/* overflow:hidden у «Раздел»/«Порядок»/«Часть» обрезал ::after — подпись усекается своим .ic-rbar-sort-label */
+.ic-rbar-rp .ic-rbar-row > .ic-rbar-sort,.ic-rbar-rp .ic-rbar-row > .ic-rbar-tvsearch{overflow:visible}
 .ic-rbar-rp .ic-rbar-row > button:first-child{border-radius:10px 0 0 10px}
 .ic-rbar-rp .ic-rbar-row > button:last-child{border-radius:0 10px 10px 0}
 /* крестик очистки: тонкий ×, без черты и рамки, зона касания 44px (полоса «Найти» и шторка лупы) */

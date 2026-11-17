@@ -24,6 +24,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
   const br = await webkit.launch();
   const ctx = await br.newContext({ ...devices['iPhone 13'] });
   const page = await ctx.newPage();
+  { const _c = page.click.bind(page); page.click = async (sel, o) => { try { return await _c(sel, Object.assign({ timeout: 4000 }, o)); } catch (e) { await page.tap(sel); } }; } // WebKit: html перехватывает клик при спрятанной шапке — касание надёжнее
   const benign = t => /access control checks|Load failed|cancelled/i.test(t); // fetch, оборванный перезагрузкой страницы
   page.on('console', m => { if (m.type() === 'error' && !benign(m.text())) errs.push(m.text()); });
   page.on('pageerror', e => { if (!benign(e.message)) errs.push('pageerror: ' + e.message); });
@@ -62,7 +63,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
       else { await page.evaluate(v => { document.querySelector('[data-sort-opt="' + v + '"]').click(); }, v); }
       await W(300);
     },
-    async backCtl() { await page.click(NEW ? '.ic-bt-back' : '.ic-back'); await W(700); },
+    async backCtl() { await page.tap(NEW ? '.ic-bt-back' : '.ic-back'); await W(700); },
   };
 
   // 1. Список: общий счёт, счётчик
@@ -181,7 +182,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
     await open(LIST, 'ru'); await page.waitForSelector('.ic-row-item');
     await A.clear(); await page.evaluate(() => { document.querySelector('#ic-ripa-part [data-f="all"]').click(); }); await W(300);
     res.partBtn = await page.$eval('[data-rb="part"]', e => e.textContent.trim()); ok('part button label default', res.partBtn === 'Часть', res.partBtn);
-    await page.click('[data-rb="part"]'); await W(600);
+    await page.evaluate(() => window.scrollTo(0, 0)); await W(400); await page.tap('[data-rb="part"]'); await W(600);
     res.partRows = await page.$$eval('#ic-ripa-part [data-f]', els => els.map(e => e.textContent.trim() + ':' + e.getAttribute('aria-pressed')));
     ok('part sheet 3 rows', res.partRows.length === 3 && /Все части:true/.test(res.partRows[0]), res.partRows);
     await page.evaluate(() => document.querySelector('#ic-ripa-part [data-f="2"]').click()); await W(500);
@@ -268,7 +269,7 @@ const W = ms => new Promise(r => setTimeout(r, ms));
       res.typing[L + part + sort] = bad.length;
     }
     // защита: исключение в построении списка — каркас остаётся, шторка и подложка закрываются, ошибка в консоли
-    const pg = await ctx.newPage(); const gerrs = [];
+    const pg = await ctx.newPage(); { const _c = pg.click.bind(pg); pg.click = async (sel, o) => { try { return await _c(sel, Object.assign({ timeout: 4000 }, o)); } catch (e) { await pg.tap(sel); } }; } const gerrs = [];
     pg.on('console', m => { if (m.type() === 'error' && !benign(m.text())) gerrs.push(m.text()); });
     pg.on('pageerror', e => { if (!benign(e.message)) gerrs.push('pageerror: ' + e.message); });
     await pg.goto(URL0 + '#/iconologie/list', { waitUntil: 'load' }); await pg.waitForSelector('.ic-row-item'); await W(1200);

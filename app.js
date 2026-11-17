@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "220";
+  var APP_VER = "221";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -3049,12 +3049,12 @@
   }
   function alcThumbSrc(book, it){ var pg = book.alc.pages[it.id]; return pg && book.alc.thumbs[it.id] ? alcHeavy(book)+"thumb/"+pg[0][0]+"_t.webp" : ""; }
   function alcPageLbl(it){ return String(it.page).replace("-", "–"); }
-  // Страница эмблемы: страницы книги (plates, с рамкой; вторая страница двухстраничной — сразу под первой), девиз в переводе
+  // Страница эмблемы: страницы книги целиком (pages, с рамкой и напечатанным текстом; вторая страница двухстраничной — сразу под первой), девиз в переводе
   // крупно и латинский под ним, «Перевод» (эпиграмма построчно), «Оригинал» (латынь построчно курсивом), греческие места.
   function alcCardHtml(book, it){
     var A = book.alc, H = alcHeavy(book), tt = alcTrOf(it), la = A.la[it.id] || {lines:[]};
     var figs = (A.pages[it.id]||[]).map(function(pg, k){
-      return '<figure class="ic-fig ic-alc-pg" data-k="'+k+'"><img src="'+esc(H+"plates/"+pg[0]+".webp")+'" width="'+pg[1]+'" height="'+pg[2]+'" alt="'+esc(t("engravingAlt",{title:titleOf(it)}))+'"></figure>';
+      return '<figure class="ic-fig ic-alc-pg" data-k="'+k+'"><img src="'+esc(H+"pages/"+pg[0]+".webp")+'" width="'+pg[1]+'" height="'+pg[2]+'" alt="'+esc(t("engravingAlt",{title:titleOf(it)}))+'"></figure>';
     }).join("");
     function lines(arr, lang){
       var h = "", buf = [];
@@ -3198,7 +3198,7 @@
       if(rp) ripaStep(book, id); else go(book, id);
     });});
     root.querySelectorAll(".ic-fig").forEach(function(f){ f.addEventListener("click",function(){
-      if(alc){ openImgFull((book.alc.pages[it.id]||[]).map(function(pg){ return alcHeavy(book)+"plates/"+pg[0]+"_full.webp"; }), titleOf(it), {at:+f.getAttribute("data-k"), cls:"ic-svx-alc"}); return; }
+      if(alc){ openImgFull((book.alc.pages[it.id]||[]).map(function(pg){ return alcHeavy(book)+"pages/"+pg[0]+"_full.webp"; }), titleOf(it), {at:+f.getAttribute("data-k"), cls:"ic-svx-alc"}); return; }
       if(rp) openImgFull(f.getAttribute("data-src"), titleOf(it)); else lightbox(f.getAttribute("data-src")); }); });
     if(showOrig && (hasScans||hasFr)) bindOriginal(it, pagesBase);
     if(rp){
