@@ -25,16 +25,16 @@ CVM PRIVILE[?]
 ## Кадр 0008 · с. f0008
 
 [ЗАГОЛОВОК: PRIVILEGE DV ROY.]
-[ИНИЦИАЛ: I]L ha pleu au Roy nostre Syre, de dōner
+[ИНИЦИАЛ: I]L ha pleu au Roy nostre Syre, de dõner
 priuilege & permission à Guillaume
 Rouille libraire, & à Macé Bonhomme
-Imprimeur demourās à Lyon, d'imprimer
+Imprimeur demourãs à Lyon, d'imprimer
 ou faire imprimer vn petit liure intitulé
 Emblemata Alciati, qu'ilz ont faict dresser &
 mettre en ordre per tiltres generaulx & lieux communs,
 pour plus facile intelligence d'iceluy, & adiouster
 figures nouuelles aux Emblemes que par cy deuant
-n'auoyent esté faictes, n'inuētées. Ensemble plusieurs
+n'auoyent esté faictes, n'inuẽtées. Ensemble plusieurs
 Emblemes nouuelles qu'ilz ont recouuertes dudict
 Autheur non plus misez en lumiere, digerées en
 leur ordre, & figurées. Parquoy sont faictes deffences
@@ -42,11 +42,11 @@ de par ledict seigneur à tous libraires, & Imprimeurs,
 & autres sur certaines grans peines, de n'imprimer ou
 faire imprimer, vendre ou distribuer en son Royaulme,
 pays, terres & seigneuries, desdicts Emblemata Alciati,
-de telle sorte, ou semblable inuention, ordōnance,
+de telle sorte, ou semblable inuention, ordõnance,
 correction, augmentation, ne contrefaire leurs figures
 nouuelles en quelque maniere et en quelque volume
 que ce soit, iusques au temps et terme de six ans
-prochains, comme plus à plain est cōtenu es lettres patentes
+prochains, comme plus à plain est cõtenu es lettres patentes
 sur ce despeschées à Mascon, le ix. d'Aoust.
 M. D. xlviij. Signées, Le Chandelier: Et séellées du
 grand séel en cyre Iaulne, sur simple queüe.
@@ -61,24 +61,24 @@ grand séel en cyre Iaulne, sur simple queüe.
 [ЗАГОЛОВОК: AD LECTOREM.]
 [ИНИЦИАЛ: E]MBLEMATA ILLA
 pulcherrima Andreæ Alciati
-Patricij Mediolanensis, Iuriscōsultorū
-eloquētissimi, & eloquentiū
-iuriscōsultissimi, quę vir ille nūquā ab literis
+Patricij Mediolanensis, Iuriscõsultorũ
+eloquẽtissimi, & eloquentiũ
+iuriscõsultissimi, quę vir ille nũquã ab literis
 feriatus, dum à seuerioribus legum studijs respirat,
 & humanæ litteraturæ Musis amœnioribus
 recreatur, ludendo effudit ἀφοριστικῶς, καὶ ἀνακόλουθως,
 prout varium vel sensibus externis,
 vel commentationibus internis sese offerebat argumentum.
-Ea nos sub generalibus præcipuarū
+Ea nos sub generalibus præcipuarũ
 rerum capitibus in locos communes, tanquam in
 certas classes digesseramus: à summis, ad ima
 progredientes. Non eo sanè consilio, vt Autore
-ipso in œconomia sui operis, aut diligētiores, aut
-cōcinniores videri studeremus: sed vt illius lusus,
-in cōmunes vsus adduceremus, Eius operis duplici
-habita ratione, voluptatis nimirū, & vtilitatis.
-Priore quidē, vt speciosior quędā operis forma
-extaret oculis legētiū, singula suo quoq; collocata
+ipso in œconomia sui operis, aut diligẽtiores, aut
+cõcinniores videri studeremus: sed vt illius lusus,
+in cõmunes vsus adduceremus, Eius operis duplici
+habita ratione, voluptatis nimirũ, & vtilitatis.
+Priore quidẽ, vt speciosior quędã operis forma
+extaret oculis legẽtiũ, singula suo quoq; collocata
 co considerantium. Composita namq; sparsis, &
 ordinata confusis, ferè solent apparere pulchriora.
 Altera autem, vt facilior, & promptior esset
@@ -95,15 +95,15 @@ diuersi res generis in suum quasque ordinem &
 locum dispositas: quàm in turbam, temerè congestas
 inuestigare, si quando ijs opus habemus vtendum.
 Porrò vsus Emblematum, præter gratiam,
-ac voluptatem ex iucunda nouitate, quæ tædiū
+ac voluptatem ex iucunda nouitate, quæ tædiũ
 leuat, breuem sententiæ argutiam, quæ animum
-pungit, numerosam versuū suauitatem, quæ aures
+pungit, numerosam versuũ suauitatem, quæ aures
 mulcet, τῶν εἰκόνων picturam non inanem,
-quæ oculos pascit, Etiā ille (inquam) vsus est, vt
+quæ oculos pascit, Etiã ille (inquam) vsus est, vt
 quoties rebus vacuis complementum, nudis ornamentum,
-mutis sermonē, alogis rationem tribuere,
-aut certè affingere velit quispiam, is ex Emblematū
-libello, tāquam ex promptuario instructissimo
+mutis sermonẽ, alogis rationem tribuere,
+aut certè affingere velit quispiam, is ex Emblematũ
+libello, tãquam ex promptuario instructissimo
 habeat quod domesticis parietibus, vitreis
 fenestris, aulæis, peristromatis, tabulis, vasis,
 signis, anulis sigillaribus, vestimentis, mensæ,
@@ -113,8 +113,8 @@ hoc scilicet vt vsquequaque loquax, & aspectu
 iucunda sit rerum ad vsum communem spectantium
 facies. Quare & ipse Alciatus, sua hęc epigrammata
 appellatione conuenientissima inscribi
-voluit Emblemata. Sunt em̄ Emblemata vermiculata
-opera ex tessellis insititijs apta & cōposita,
+voluit Emblemata. Sunt em̃ Emblemata vermiculata
+opera ex tessellis insititijs apta & cõposita,
 interprete Budæo, qđ & ipsa vocabuli Grę-
 
 Колонтитул: 4
@@ -126,24 +126,24 @@ interprete Budæo, qđ & ipsa vocabuli Grę-
 
 ci origo ostendit. Verùm quum hæc omnia superiore
 editione præstitissemus, ecce aliquot noua
-Emblemata ad nos mittūtur, ab Autore ipso superioribus
-addita. Hæc in suū & propriū quæq;
-ordinē veluti superiora redegimus: quibus etiā,
+Emblemata ad nos mittũtur, ab Autore ipso superioribus
+addita. Hæc in suũ & propriũ quæq;
+ordinẽ veluti superiora redegimus: quibus etiã,
 & alijs nonnullis prioribus, in quibus imagines
 desiderabantur, figuras appinximus, quoad fieri
 potuit, aptissimas. Superiora etiam Emblemata
 partim immutauit Autor ipse, partim emendatiora,
-& melius cōformata reddidit. Quæ omnia
+& melius cõformata reddidit. Quæ omnia
 postrema hac nostra editione in opus vnum, quod
 quantò locupletius, tantò sit perfectius, exhibemus.
 Quisquis igitur & sententiæ breuis acumine,
 & festiua imagine res suas decorare volet:
 ex hoc libello abunde habiturus est, vnde sibi
 desumat quod ad rem quamlibet accommodari
-posse videatur, idq; prōptissimè, & facilimè, adaptato
+posse videatur, idq; prõptissimè, & facilimè, adaptato
 nimirum suo commento ad summa rerum
 genera, & singulas generum formas suo quasq;
-ordine dispositas, iuxta rerum naturalē seriem,
+ordine dispositas, iuxta rerum naturalẽ seriem,
 & vsum communem. Quarum etiam index tabula
 subiecta est operi vniuerso, à multis, & magnis,
 quibus vitiatum erat mendis expurgato, &
@@ -156,7 +156,7 @@ planè restituto κατὰ τὸ αὐτόγραφον.
 
 ## Кадр 0012 · с. f0012
 
-[ЗАГОЛОВОК: CLARISS. VIRI ANDR. ALCIATI IN Librum primum Emblematū præfatio, ad Chonradum Peutingerum Augustanum.]
+[ЗАГОЛОВОК: CLARISS. VIRI ANDR. ALCIATI IN Librum primum Emblematũ præfatio, ad Chonradum Peutingerum Augustanum.]
 Dum pueros iuglans, iuuenes dum tessera fallit,
 Detinet & segnes chartula picta viros:
 Hæc nos festiuis Emblemata cudimus horis,
@@ -177,13 +177,13 @@ Quæ (Chonrade) mei pignus amoris habe.
 ## Кадр 0013 · с. f0013
 
 [ЗАГОЛОВОК: EMBLEM. DEDIC.]
-[ЗАГОЛОВОК: Ad illust. Maximil. ducē Mediol. Super insigni Ducatus Mediolan.]
+[ЗАГОЛОВОК: Ad illust. Maximil. ducẽ Mediol. Super insigni Ducatus Mediolan.]
 [ГРАВЮРА: без подписи]
 Exiliens infans sinuosi è faucibus anguis,
 Est gentilitijs nobile stemma tuis.
 Talia Pellæum gessisse nomismata regem,
 Vidimus, hisq; suum concelebrasse genus.
-Dū se Ammone satū, matrē anguis imagine lusā,
+Dũ se Ammone satũ, matrẽ anguis imagine lusã,
 Diuini & sobolem seminis esse docet.
 Ore exit, tradunt sic quosdam enitier angues,
 An quia sic Pallas de capite orta Iouis?
@@ -358,7 +358,7 @@ In nihilum illa omnis soluitur harmonia.
 
 [ЗАГОЛОВОК: In silentium.]
 [ГРАВЮРА: без подписи]
-Cùm tacet: haud quicquā differt sapiētibus amēs.
+Cùm tacet: haud quicquã differt sapiẽtibus amẽs.
 Stultitiæ est index linguaq;, voxq; suæ.
 Ergo premat labias: digitoq; silentia signet:
 Et sese Pharium vertat in Harpocratem.
@@ -588,23 +588,23 @@ Barba, queas Pylium cùm superare senem?
 
 Muneribus quandoque meis si parcere disces
 Iunior, & forti pectore semper eris.
-Tympana nō manibus, capiti non cornua desunt.
+Tympana nõ manibus, capiti non cornua desunt.
 Quos (nisi dementeis) talia signa decent?
 Hoc doceo, nostro quòd abusus munere sumit
 Cornua: & insanus mollia sistra quatit.
 Quid vult ille color membris penè igneus? (omen
 Absit) an humanis vreris ipse focis?
-Cùm Semeles de vētre parens me fulmine traxit
+Cùm Semeles de vẽtre parens me fulmine traxit
 Igniuomo: infectum puluere mersit aquis.
 Hinc sapit hic, liquidis qui nos bene diluit vndis:
 Qui non ardenti torret ab igne iecur.
 Sed nunc me doceas quî vis miscerier? & qua
 Te sanus tutum prendere lege queat?
-Quadrātem addat aquæ, calicē sumpsisse falerni
+Quadrãtem addat aquæ, calicẽ sumpsisse falerni
 Qui cupit. hoc fumi pocula more iuuat.
 Stes intra heminas: nam qui procedere tendit
 Vltrà: alacer, sed mox ebrius inde furit.
-Res dura hæc nimiùm. Sunt pēdula guttura, dulce
+Res dura hæc nimiùm. Sunt pẽdula guttura, dulce
 Tu fluis. Heu facilè commoda nulla cadunt.
 [ВИНЬЕТКА: концовка]
 
@@ -668,7 +668,7 @@ Affectus fas est cedere iustitiæ.
 
 [ЗАГОЛОВОК: Etiam ferocissimos domari.]
 [ГРАВЮРА: без подписи]
-Romanum postquàm eloquiū, Cicerone perempto,
+Romanum postquàm eloquiũ, Cicerone perempto,
 Perdiderat patriæ pestis acerba suæ:
 Inscendit currus victor, iunxitq; leones,
 Compulit & durum colla subire iugum,
@@ -718,7 +718,7 @@ Iunctis contiguo Marius mihi pariete, nec non
 Subbardus, nostri nomina nota fori,
 Aedificant bene nummati, sataguntq; vel vltrò
 Obstruere heu nostris vndiq; luminibus.
-Me miserū, geminę quem tanquam Phinea raptāt
+Me miserũ, geminę quem tanquam Phinea raptãt
 Harpyiæ, vt proprijs sedibus eijciant.
 Integritas nostra, atq; animus quæsitor honesti,
 His nisi sint Zetes, his nisi sint Calais.
@@ -736,7 +736,7 @@ His nisi sint Zetes, his nisi sint Calais.
 [ГРАВЮРА: надпись: D·M ARISTOMENIS]
 Quæ te causa mouet volucris Saturnia, magni
 Vt tumulo insideas ardua Aristomenis?
-Hoc moneo: Quātū inter aues ego robore præsto,
+Hoc moneo: Quãtũ inter aues ego robore præsto,
 Tantùm Semideos inter Aristomenes.
 Insideant timidæ timidorum busta columbæ,
 Nos aquilæ intrepidis signa benigna damus.
@@ -806,7 +806,7 @@ Qui Cereris non nouit opes, nec dona Iyæi,
 Et pretiosa tamen stragula semper habet:
 Nam murinæ illum perstringunt vndiq; pelles.
 Lumina sola patent, cætera opertus agit.
-Sic furē haud metuit, sic vētos temnit & himbres,
+Sic furẽ haud metuit, sic vẽtos temnit & himbres,
 Tutus apudq; viros, tutus apudq; deos.
 
 Колонтитул: 44 FORTITVDO.
@@ -821,7 +821,7 @@ Tutus apudq; viros, tutus apudq; deos.
 [ГРАВЮРА: без подписи]
 Cornicum mira inter se concordia vitæ est,
 Mutua statq; illis intemerata fides.
-Hinc volucres hæc sceptra gerūt: ꝙ scilicet omnes
+Hinc volucres hæc sceptra gerũt: ꝙ scilicet omnes
 Consensu populi stantq;, caduntq; duces:
 Quem si de medio tollas, discordia præceps
 Aduolat, & secum regia fata trahit.
@@ -902,7 +902,7 @@ Innumeris agitur respub. uostra procellis,
 Et spes venturę sola salutis adest:
 Non secus ac nauis medio circum æquore, venti
 Quam rapiunt: salsis iamq; fatiscit aquis.
-Quòd si Helenę adueniāt lucētia sydera fratres:
+Quòd si Helenę adueniãt lucẽtia sydera fratres:
 Amissos animos spes bona restituit.
 
 Колонтитул: 50 SPES.
@@ -918,8 +918,8 @@ Amissos animos spes bona restituit.
 Quæ Dea tam læto suspectans sydera vultu?
 Cuius peniculis reddita imago fuit?
 Elpidij fecêre manus. Ego nominor illa,
-Quæ miseris prōptā Spes bona præstat opem.
-Cur viridis tibi palla? Quòd om̄ia me duce vernēt.
+Quæ miseris prõptã Spes bona præstat opem.
+Cur viridis tibi palla? Quòd om̃ia me duce vernẽt.
 Quid manibus mortis tela refracta geris?
 
 Колонтитул: SPES. 51
@@ -937,7 +937,7 @@ Quæ tibi adest volucris? Cornix fidissimus oscen,
 Est bene cùm nequeat dicere: dicit, Erit.
 Qui comites? Bonus euentus, præcepsq; Cupido,
 Qui præeunt? Vigilum somnia vana vocant.
-Quæ tibi iūcta astat? Scelerū Rhamnusia vindex,
+Quæ tibi iũcta astat? Scelerũ Rhamnusia vindex,
 Scilicet vt speres nil nisi quod liceat.
 [ВИНЬЕТКА: концовка]
 
@@ -1107,9 +1107,9 @@ Perdidit, & speras parcat vt illa tuis?
 [ЗАГОЛОВОК: STVLTITIA.]
 [ЗАГОЛОВОК: Temeritas.]
 [ГРАВЮРА: без подписи]
-In præceps rapitur, frustra quoque tēdit habenas
+In præceps rapitur, frustra quoque tẽdit habenas
 Auriga: effræni quem vehit oris equus.
-Haud facilè huic credas, ratio quē nulla gubernat,
+Haud facilè huic credas, ratio quẽ nulla gubernat,
 Et temerè proprio ducitur arbitrio.
 
 Колонтитул: STVLTITIA. 63
@@ -1122,7 +1122,7 @@ Et temerè proprio ducitur arbitrio.
 [ЗАГОЛОВОК: Furor, & rabies.]
 [ГРАВЮРА: надпись: AGAMENNON]
 Ora gerit clypeus rabiosi picta leonis,
-Et scriptū in summo margine carmen habet:
+Et scriptũ in summo margine carmen habet:
 Hic hominum est terror, cuius possessor Atrida
 Talia magnanimus signa Agamemno tulit.
 
@@ -1217,7 +1217,7 @@ Ad res diuersas trahitur. mala nomina primùm
 Signat: quæ latitant iudiciumq; timent.
 Inde & philosophos, qui dum cœlestia quærunt,
 Caligant oculis, falsaq; sola vident.
-Tandē & versutos, cùm clàm sectentur vtrumq;,
+Tandẽ & versutos, cùm clàm sectentur vtrumq;,
 Acquirunt neutra qui sibi parte fidem.
 
 Колонтитул: 70 STVLTITIA.
@@ -1290,7 +1290,7 @@ Qui sua neglexit stultè, aliena petit.
 [ЗАГОЛОВОК: SVPERBIA.]
 [ЗАГОЛОВОК: Superbia.]
 [ГРАВЮРА: без подписи]
-En statuæ statua, & ductū de marmore marmor,
+En statuæ statua, & ductũ de marmore marmor,
 Se conferre deis ausa procax Niobe.
 Est vitium muliebre superbia, & arguit oris
 Duritiem, ac sensus, qualis inest lapidi.
@@ -1322,7 +1322,7 @@ Quòd nimiùm tua forma tibi Narcisse [?],
 In florem, & noti est versa stuporis olus.
 Ingenij est marcor, cladesq; Philautia: doctos
 Quæ pessum plures datq; deditq; viros:
-Qui veterū abiecta methodo, noua dogmata q̄rūt,
+Qui veterũ abiecta methodo, noua dogmata q̃rũt,
 Nilq; suas præter tradere phantasias.
 
 Колонтитул: SVPERBIA. 77
@@ -1379,7 +1379,7 @@ Et satyri nymphas semper amare solent.
 [ГРАВЮРА: без подписи]
 Rupibus aëreis, summiq; crepidine saxi
 Immites fructus ficus acerba parit,
-Quos corui comedūt, quos deuorat improba cornix,
+Quos corui comedũt, quos deuorat improba cornix,
 Qui nihil humanæ commoditatis habent.
 Sic fatuorum opibus parasiti, & scorta fruuntur:
 Et nulla iustos vtilitate iuuant.
@@ -1463,7 +1463,7 @@ Ne dirus te vincat amor, neu fœmina mentem
 Diripiat magieis artibus vlla tuam:
 Bacchica auis præsto tibi motacilla paretur,
 Quam quadriradiam circuli in orbe loces:
-Ore crucem & cauda, & geminis vt cōplicet alis,
+Ore crucem & cauda, & geminis vt cõplicet alis,
 Tale amuletum carminis omnis erit.
 Dicitur hoc Veneris signo Pagasæus Iason
 Phasiacis lædi non potuisse dolis.
@@ -1509,7 +1509,7 @@ Non se, non alios vtilitate iuuat.
 
 [ЗАГОЛОВОК: Desidiam abijciendam.]
 [ГРАВЮРА: без подписи]
-Quisquis iners abeat. Nam in chœnice sigere sedē,
+Quisquis iners abeat. Nam in chœnice sigere sedẽ,
 Nos prohibent Samij dogmata sancta senis.
 Surge igitur, duroq; manus adsuesce labori,
 Det tibi dimensos crastina vt hora cibos.
@@ -1541,7 +1541,7 @@ Egregijs iuuenes seuocat à studijs.
 [ГРАВЮРА: без подписи]
 Ignaui ardeolam stellarum effingere serui
 Et studia, & mores fabula prisca fuit.
-Quæ famulū Asteriā volucris sumpsisse figurā:
+Quæ famulũ Asteriã volucris sumpsisse figurã:
 Est commenta: fides sit penes historicos.
 Degener hic veluti qui cæuet in aëre falco est,
 Dictus ab antiquis vatibus ardelio.
@@ -1574,7 +1574,7 @@ Septitius populos inter ditissimus omnes,
 Arua senex nullus quo magis ampla tenet.
 Defraudans geniumq; suum, mensasq; paratas,
 Nil præter betas, duraq; rapa vorat.
-Cui similem dicā hunc, inopem quem copia reddit?
+Cui similem dicã hunc, inopem quem copia reddit?
 An ne asino? Sic est: instar hic eius habet.
 Nanque asinus dorso pretiosa opsonia gestat:
 Seq; rubo, aut dura carice pauper alit.
@@ -1633,7 +1633,7 @@ Qui pace, arctati legibus, esuriunt.
 [ГРАВЮРА: без подписи]
 Delphini insidens vada cærula sulcat Arion,
 Hocq; aures mulcet, frænat & ora sono.
-Quàm sit auari hominis, nō tā mēs dira ferarū est:
+Quàm sit auari hominis, nõ tã mẽs dira ferarũ est:
 Quiq; viris rapimur, piscibus eripimur.
 
 Колонтитул: AVARITIA. 97
@@ -1710,7 +1710,7 @@ Arbusto geminæ non bene Ficedulæ.
 [ГРАВЮРА: без подписи]
 Regna[?]orq; penus, mensæq; arrosor herilis
 Ostrea mus summis vidit hiulca labris.
-Qu[?]s tenerā apponēs barbā falsa ossa momordit,
+Qu[?]s tenerã apponẽs barbã falsa ossa momordit,
 Ast ea clausérunt tacta repentè domum.
 Deprensum & tetro tenuérunt carcere furem,
 Semet in obscurum qui dederat tumulum.
@@ -1784,7 +1784,7 @@ Tam multa surgunt nomina.
 [ЗАГОЛОВОК: NATVRA.]
 [ЗАГОЛОВОК: Vis naturæ.]
 [ГРАВЮРА: без подписи]
-Pana colūt gentes, (naturam hoc dicere rerum est)
+Pana colũt gentes, (naturam hoc dicere rerum est)
 Semicaprumq; hominem, semiuirumq; Deum.
 Est vir pube tenus, quòd nobis insita virtus
 Corde oriens, celsa verticis arce sedet..
@@ -1933,7 +1933,7 @@ Securus fati, quod iacet ante pedes.
 [ГРАВЮРА: без подписи]
 Aspice vt inuictus vires auriga leonis,
 Expressus gemma pusio vincat amor:
-Vtq; manu hac scuticā tenet, hac vt flectit habenas,
+Vtq; manu hac scuticã tenet, hac vt flectit habenas,
 Vtq; est in pueri plurimus ore decor.
 Dira lues procul esto: feram qui vincere talem
 Est potis, à nobis temperet ánne manus?
@@ -2113,7 +2113,7 @@ Illius est, nigro punica glans clypeo.
 [ГРАВЮРА: без подписи]
 Iam dudum missa patria, oblitusq; tuorum,
 Quos tibi seu sanguis, siue parauit amor,
-Romam habitas: nec cura domū subit vlla reuerti.
+Romam habitas: nec cura domũ subit vlla reuerti.
 Aeternæ tantùm te capit vrbis honos.
 Sic Ithacûm præmissa manus dulcedine Loti
 Liquerat & patriam, liquerat atque ducem.
@@ -2446,7 +2446,7 @@ Prosequitur: toto mandat & orbe legi.
 [ГРАВЮРА: надпись: CESENADEGO · RIMANO · ANCONA · PORTODERAVENA · RAVENA · BIBIENA · MOTESCIO · FIRENSA · PERVRA · TVRNI · PISA · SIENA · CIRLI · EIGENE · BOLSENA · MOTEARGETATO · CITAVECHIA · ROMA · MARTAFIVME · GIGLIO · CAPOLINARE; на ленте: TON [?] TIΣME]
 Pro tumulo pone Italiam, pone arma, Ducesq;,
 Et mare, quod geminos mugit adusq; sinus.
-Adde his barbariem conantem irrūpere frustra,
+Adde his barbariem conantem irrũpere frustra,
 Et mercede emptas in fera bella manus.
 Anguiger est summò sistens in culmine, dicat:
 Quis paruis magnam me superimposuit?
@@ -2556,7 +2556,7 @@ Lac, sibi quod fraudis nescia Iuno dabat.
 [ГРАВЮРА: без подписи]
 Vt sublime volans tenuem secat aëra falco,
 Vt pascuntur humi graculus, anser, anas:
-Sic summū scandit super æthera Pindarus ingēs,
+Sic summũ scandit super æthera Pindarus ingẽs,
 Sic scit humi tantùm serpere Bacchilydes.
 
 Колонтитул: 152 HONOR.
@@ -2596,7 +2596,7 @@ Vtitur hoc lippo curia tanquam oculo.
 
 ## Кадр 0161 · с. 155
 
-[ЗАГОЛОВОК: Albutij ad Alciatū, suadentis vt de tumultibus Italicis se subducat: & in Gallia profiteatur.]
+[ЗАГОЛОВОК: Albutij ad Alciatũ, suadentis vt de tumultibus Italicis se subducat: & in Gallia profiteatur.]
 [ГРАВЮРА: без подписи]
 Quæ dedit hos fructus arbor, cœlo aduena nostro,
 Venit ab Eoo Persidis axe prius:
@@ -2619,7 +2619,7 @@ Multùm corde sapis, nec minus ore vales.
 [ГРАВЮРА: без подписи]
 Titanij quoties conturbant æquora fratres,
 Tum miseros nautas anchora iacta iuuat.
-Hanc pius erga homines Delphin cōplectitur: imis
+Hanc pius erga homines Delphin cõplectitur: imis
 Tutius vt possit figier illa vadis.
 Quàm decet hæc memores gestare insignia Reges?
 Anchora quod nautis, se populo esse suo?
@@ -2638,7 +2638,7 @@ Effigies manibus truncæ ante altaria diuûm
 Hic resident: quarum lumine capta prior.
 Signa Potestatis summæ, Sanctiq; Senatus
 Thebanis fuerant ista reperta viris.
-Cur resident? Quia mēte graues decet esse quieta
+Cur resident? Quia mẽte graues decet esse quieta
 Iuridicos: animo nec variare leui.
 Cur sine sunt manibus? Capiant ne xenia: nec se
 Pollicitis flecti muneribúsue sinant.
@@ -2813,7 +2813,7 @@ Fac ego amem: subeat fac Acheronta senex.
 
 [ЗАГОЛОВОК: In formosam fato præreptam.]
 [ГРАВЮРА: без подписи]
-Cur puerū Mors ausa dolis es carpere Amorem?
+Cur puerũ Mors ausa dolis es carpere Amorem?
 Tela tua vt iaceret: dum propria esse putat.
 [ВИНЬЕТКА: концовка]
 
@@ -3071,7 +3071,7 @@ Eheu intuta manens vndique debilitas.
 [ГРАВЮРА: без подписи]
 Cætera mutescent, coriumq; silebit ouillum,
 Si confecta lupi tympana pelle sonent.
-Hanc mēbrana ouium sic exhorrescit, vt hostem,
+Hanc mẽbrana ouium sic exhorrescit, vt hostem,
 Exanimis quanuis non ferat exanimem.
 Sic cute detracta Cischas, in tympana versus,
 Bœhemos potuit vincere pontifices.
@@ -3346,11 +3346,10 @@ Hoc trutinæ examen, siue libella docet.
 Noscere se Chilon Spartanus quenque iubebat.
 Hoc specula in manibus, vitraq; sumpta dabũt.
 
-Колонтитул: 100 SCIENTIA.
+Колонтитул: 200 SCIENTIA.
 Кустод: 
 Сигнатура: 
 Маргиналии:
-Нумерация: на странице напечатано 100, ожидалось 200 (опечатка печати)
 
 ## Кадр 0207 · с. 201
 
@@ -3377,15 +3376,15 @@ In laqueos sociam parra, meropsq; trahit.
 [ЗАГОЛОВОК: Submouendam ignorantiam.]
 [ЗАГОЛОВОК: Διαλογισμός.]
 [ГРАВЮРА: без подписи]
-Quod mōstrū id? Sphinx est. Cur cādida virginis ora,
+Quod mõstrũ id? Sphinx est. Cur cãdida virginis ora,
 Et volucrum pennas, crura leonis habet?
 Hanc faciem assumpsit rerum ignorantia: tanti
 Scilicet est triplex causa & origo mali.
-Sunt quos ingeniū leue, sunt quos blanda voluptas,
+Sunt quos ingeniũ leue, sunt quos blanda voluptas,
 Sunt & quos faciunt corda superba rudes.
 At quibus est notum, quid Delphica littera possit:
 Præcipitis monstri guttura dira secant.
-Nāq; vir ip̄e, bipesq;,: tripesq; & quadrupes idē est,
+Nãq; vir ip̃e, bipesq;,: tripesq; & quadrupes idẽ est,
 Primaq; prudentis laurea, nosse virum.
 
 Колонтитул: 202 IGNORANTIA.
@@ -3413,7 +3412,7 @@ Hoc quale caput est, sed cerebrum non habet.
 
 [ЗАГОЛОВОК: Diues indoctus.]
 [ГРАВЮРА: без подписи]
-Tranat aquas residēs precioso in vellere Phrixus,
+Tranat aquas residẽs precioso in vellere Phrixus,
 Et flauam impauidus per mare scandit ouem.
 Ecquid id est? vir sensu hebeti, sed diuite gaza,
 Coniugis aut serui quem regit arbitrium.
@@ -3430,7 +3429,7 @@ Coniugis aut serui quem regit arbitrium.
 [ГРАВЮРА: без подписи]
 Ecce puella, viro quæ dextra iungitur. Ecce
 Vt sedet: vt catulus lusitat ante pedes?
-Hæc fidei est species: Veneris quā si educat ardor,
+Hæc fidei est species: Veneris quã si educat ardor,
 Malorum in læua non malè ramus erit.
 Poma etenim Veneris sunt, sic Schenëida vicit
 Hippomenes. petijt sic Galathea virum.
@@ -3480,7 +3479,7 @@ Ante diem vernam boreali cana palumbes
 Frigore nidificat, præcoqua & oua fouet:
 Mollius & pulli vt iaceant, sibi vellicat alas,
 Quẽis nuda hyberno deficit ipsa gelu.
-Ecꝗd Colchi pudet, vel te Procne improba? mortē
+Ecꝗd Colchi pudet, vel te Procne improba? mortẽ
 Cùm volucris propriæ prolis amore subit?
 
 Колонтитул: 208 MATRIMONIVM.
@@ -3507,7 +3506,7 @@ Nulla erit: erepto sed patre summa mihi.
 [ЗАГОЛОВОК: Mulieris famam, non formam, vulgatam esse oportere.]
 [ЗАГОЛОВОК: DIALOGISMVS.]
 [ГРАВЮРА: без подписи]
-Alma Venus quænā hæc facies, quid denotat illa
+Alma Venus quænã hæc facies, quid denotat illa
 Testudo, molli quam pede Diua premis?
 Me sic effinxit Phidias, sexumq; referri
 Fœmineum, nostra iussit ab effigie.
@@ -3767,7 +3766,7 @@ Consilio,ac virtute Chimæram superari : id est, fortiores, & deceptores 20
 Vigilantia,& custodia 21
 Νῆφε καὶ μέμνης ἀπιστεῖν ἄρθρα ταῦτα τῶν φρενῶν ῆ παρέβην? Τί δὲ ἔρεξα? Τί μοι δέον οὐκ ἐτελέσθην 23
 Prudentes 24
-Prudēs, magis quàm loquax 25
+Prudẽs, magis quàm loquax 25
 Maturandum 26
 In deprehensum 27
 Custodiendas virgines 28
@@ -3776,7 +3775,7 @@ Prudentes vino abstinent 30
 In statuam Bacchi 31
 Gramen 33
 [ЗАГОЛОВОК: IVSTITIA.]
-Nec verbo,nec facto quēquam lædendum 34
+Nec verbo,nec facto quẽquam lædendum 34
 Tandem, tandem Iustitia obtinet 35
 Etiam ferocissimos domari 36
 Gratiam referendam 37
@@ -3786,14 +3785,14 @@ Bonis à diuitibus nihil timendum 39
 Signa fortium 40
 Ανέχου καὶ ἀπέχου 41
 In adulari nescientes 42
-Obdurādū aduersus vrgētia 43
+Obdurãdũ aduersus vrgẽtia 43
 Omnia mea mecum porto 44
 [ЗАГОЛОВОК: CONCORDIA.]
 Concordiæ Symbolum 45
 Concordia 46
 Concordia insuperabilis 47
 Vnum nihil, duos plurimum posse 48
-Firmissima cōuelli nō posse 49
+Firmissima cõuelli nõ posse 49
 [ЗАГОЛОВОК: SPES.]
 Spes proxima 50
 
@@ -3857,12 +3856,12 @@ In auaros 93
 In Aulicos 94
 In Sordidos 95
 In diuites publico malo 96
-In auaros, Vel quib⁹ melior cōditio ab extraneis offertur 97
+In auaros, Vel quib⁹ melior cõditio ab extraneis offertur 97
 [ЗАГОЛОВОК: GVLA.]
 Gula 98
 Ocni effigies 99
 In Parasitos 100
-Paruam culinā duobus ganeonibus non sufficere 101
+Paruam culinã duobus ganeonibus non sufficere 101
 Captiuus ob gulam 102
 In Garrulum, & Gulosum 103
 Natura 104
@@ -3883,15 +3882,15 @@ In quatuor tempora anni 109
 Scyphus Nestoris 110
 Quæ supra nos,nihil ad nos 112
 In Astrologos 113
-Qui alta cōtēplātur cadere 114
+Qui alta cõtẽplãtur cadere 114
 [ЗАГОЛОВОК: AMOR.]
-Potētissimus affectus Amor 115
+Potẽtissimus affectus Amor 115
 Potentia amoris 116
 Vis amoris 117
-In studiosum amore captū 118
+In studiosum amore captũ 118
 Αντέρως. id est,amor virtutis 119
 Αντέρως. Amor Virtutis alium Cupidinem superans 120
-Dulcia quādoq; amara fieri 121
+Dulcia quãdoq; amara fieri 121
 Ferè simile,ex Theocrito 122
 In statuam Amoris 123
 In obliuionem patriæ 125
@@ -3905,15 +3904,15 @@ Paupertatem summis ingenijs obesse,ne prouehantur 132
 In Occasionem 133
 In subitum terrorem 134
 In illaudata laudantes 135
-In momentaneā felicitatem 136
+In momentaneã felicitatem 136
 Ex damno alterius vtilitas 137
-Bonis auspicijs incipiēdum 138
+Bonis auspicijs incipiẽdum 138
 Nil reliqui 139
-Malè parta,malè dilabūtur 140
-Sēper pręsto esse infortunia 141
+Malè parta,malè dilabũtur 140
+Sẽper pręsto esse infortunia 141
 Remedia in arduo,mala in prono esse 142
 [ЗАГОЛОВОК: HONOR.]
-Ex arduis perpetuū nomen 143
+Ex arduis perpetuũ nomen 143
 Ex literarum studijs immortalitatem acquiri 144
 Tumulus Ioannis Galeacij Vicecomitis,Primi Ducis Mediolanensis 145
 Optimus ciuis 146
@@ -3924,7 +3923,7 @@ In nothos 151
 Imparilitas 152
 In desciscentes 153
 Aemulatio impar 154
-Albutij ad D.Alciatū suadentis vt &c. 155
+Albutij ad D.Alciatũ suadentis vt &c. 155
 [ЗАГОЛОВОК: PRINCEPS.]
 Princeps subditorum incolumitatem procurans 156
 In Senatum boni Principis 157
@@ -3947,16 +3946,16 @@ Aere quandoque salutem redimendam 165
 ## Кадр 0236 · с. index
 
 [ЗАГОЛОВОК: MORS.]
-Cum Laruis non luctādum 166
+Cum Laruis non luctãdum 166
 De Morte,& Amore 167
-In formosam fato præreptā 168
+In formosam fato præreptã 168
 In mortem præproperam 169
 Terminus 170
 Opulenti hæreditas 171
 [ЗАГОЛОВОК: AMICITIA.]
 Amicitia etiam post mortem durans 172
 Mutuum auxilium 173
-Auxiliū nunquā deficiens 174
+Auxiliũ nunquã deficiens 174
 Gratiæ 175
 [ЗАГОЛОВОК: HOSTILITAS.]
 In detractores 177
@@ -3964,7 +3963,7 @@ Inanis impetus 178
 Aliquid mali, propter vicinum malum 179
 In eum qui truculentia suorum perierit 180
 Εχθρῶν, ἄδωρα δῶρα. In dona hostium 181
-A minimis quoque timēdū 182
+A minimis quoque timẽdũ 182
 Obnoxia infirmitas 183
 Vel post mortem formidolosi 184
 [ЗАГОЛОВОК: VINDICTA.]
@@ -3979,20 +3978,20 @@ Ex bello pax 191
 Ex Pace vbertas 192
 [ЗАГОЛОВОК: SCIENTIA.]
 Doctos Doctis obloqui nefas esse 193
-Eloquentia,fortitudine præstātior 194
+Eloquentia,fortitudine præstãtior 194
 Facundia difficilis 195
-Antiquissima quæque cōmentitia 196
+Antiquissima quæque cõmentitia 196
 Insignia Poëtarum 197
 Musicam Dijs curæ esse 198
 Litera occidit : Spiritus viuificat 199
 Dicta septem sapientum 200
 [ЗАГОЛОВОК: IGNORANTIA.]
-Submouendā ignorantiam 202
-Mentem,nō formam plus pollere 203
+Submouendã ignorantiam 202
+Mentem,nõ formam plus pollere 203
 Diues indoctus 204
 [ЗАГОЛОВОК: MATRIMONIVM.]
 In fidem vxoriam 205
-Reuerentiā in matrimonio requiri 206
+Reuerentiã in matrimonio requiri 206
 In fœcunditatem sibijpsi damnosam 207
 Amor filiorum 208
 Pietas filiorum in parentes 209

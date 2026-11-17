@@ -198,7 +198,7 @@ scan,label,printed_number,state,unclear,engravings,note,method,discrepancies,err
 0203,197,197,done,0,1,,draft+blind,0,0,0,0,0,0,0,0,0,,,
 0204,198,,done,0,1,,draft+blind,0,0,0,0,0,0,0,0,0,,,
 0205,199,199,done,0,1,,draft+blind,1,1,0,0,0,0,0,0,0,,,
-0206,200,100,done,0,1,"Нумерация: на странице напечатано 100, ожидалось 200 (опечатка печати)",draft+blind,3,2,1,0,0,0,0,0,0,,,
+0206,200,,done,0,1,,draft+blind,3,2,1,0,0,0,0,0,0,,,
 0207,201,201,done,0,1,,draft+blind,0,0,0,0,0,0,0,0,0,,,
 0208,202,,done,0,1,,draft+blind,4,2,3,2,1,0,0,0,0,,,
 0209,203,203,done,0,1,,draft+blind,1,0,1,0,0,0,0,0,0,,,
