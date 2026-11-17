@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "221";
+  var APP_VER = "222";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -2998,9 +2998,9 @@
   function alcLoad(book, cb){
     var base = BASE+"books/"+book.slug+"/", tr = base+"_translation_v2/";
     function j(u){ return fetch(u,{cache:"no-cache"}).then(function(r){ if(!r.ok) throw 0; return r.json(); }); }
-    Promise.all([j(base+"text.json"), j(tr+"ru.json"), j(tr+"en.json"), j(tr+"fr.json"), j(tr+"intro.json")])
-      .then(function(res){ alcPrep(book, res[0], {ru:res[1], en:res[2], fr:res[3]}, res[4]); cb(); })
-      .catch(function(err){ if(window.console && console.error) console.error("alciato data failed", err); book.alc = {sections:[], secBy:{}, la:{}, pages:{}, thumbs:{}}; cb(); });
+    Promise.all([j(base+"text.json"), j(tr+"ru.json"), j(tr+"en.json"), j(tr+"fr.json"), j(tr+"intro.json"), j(base+"fit.json").catch(function(){ return {}; })])
+      .then(function(res){ alcPrep(book, res[0], {ru:res[1], en:res[2], fr:res[3]}, res[4]); book.alc.fit = res[5] || {}; cb(); })
+      .catch(function(err){ if(window.console && console.error) console.error("alciato data failed", err); book.alc = {sections:[], secBy:{}, la:{}, pages:{}, thumbs:{}, fit:{}}; cb(); });
   }
   function alcTrim(s){ return String(s||"").replace(/\s+$/,"").replace(/\.$/,""); }
   function alcPrep(book, d, tr, intro){
@@ -3051,9 +3051,88 @@
   function alcPageLbl(it){ return String(it.page).replace("-", "–"); }
   // Страница эмблемы: страницы книги целиком (pages, с рамкой и напечатанным текстом; вторая страница двухстраничной — сразу под первой), девиз в переводе
   // крупно и латинский под ним, «Перевод» (эпиграмма построчно), «Оригинал» (латынь построчно курсивом), греческие места.
+  // Пилот «перевод в рамке страницы»: у этих эмблем перевод набирается HTML-текстом в поле для текста (области «вычитания» crops.json,
+  // fit.json), поверх plates/; «Оригинал» — pages/ (фото страницы с латынью). Остальные — страницы целиком, как раньше.
+  var ALC_PILOT = {"alc10":1,"alc17":1,"alc31":1,"alc55":1,"alc82":1,"alc119":1,"alc123":1,"alc149":1,"alc196":1,"intro-2":1};
+  var ALC_FIT_FLOOR = 10, ALC_FIT_CAP = 0.036, ALC_LH = [1.3, 1.22, 1.15, 1.1];
+  var alcMode = "tr";
+  try{ if(localStorage.getItem("ic-alc-mode") === "orig") alcMode = "orig"; }catch(e){}
+  function alcIsFit(book, it){
+    if(!ALC_PILOT[it.id]) return false;
+    var A = book.alc, pgs = A.pages[it.id] || [];
+    return pgs.length > 0 && pgs.every(function(pg){ return A.fit && A.fit[pg[0]]; });
+  }
+  // строки перевода по страницам эмблемы: строки стиха делятся так, как шли строки латыни (fit[страница].n)
+  function alcFieldItems(book, it, tt){
+    var A = book.alc, pgs = A.pages[it.id] || [], items = [], out = pgs.map(function(){ return []; });
+    if(tt.subheading) items.push({lab:tt.subheading});
+    (tt.epigrams||[]).forEach(function(e){ if(e.label) items.push({lab:e.label}); (e.reading||[]).forEach(function(l){ items.push({l:l}); }); });
+    var cur = 0, used = 0, last = pgs.length - 1;
+    items.forEach(function(x){
+      if(cur < last && used >= A.fit[pgs[cur][0]].n){ cur++; used = 0; }
+      out[cur].push(x); if(x.l !== undefined) used++;
+    });
+    return out;
+  }
+  function alcFitHtml(book, it, tt){
+    var A = book.alc, H = alcHeavy(book), pgs = A.pages[it.id] || [], per = alcFieldItems(book, it, tt || {epigrams:[]});
+    var alt = esc(t("engravingAlt",{title:titleOf(it)}));
+    return '<div class="ic-alc-sw" role="group"><button type="button" data-alcm="tr" aria-pressed="'+(alcMode==="tr")+'">'+esc(t("translSec"))+'</button>'+
+        '<button type="button" data-alcm="orig" aria-pressed="'+(alcMode==="orig")+'">'+esc(t("originalSec"))+'</button></div>'+
+      '<div class="ic-figs ic-alc-figs ic-alc-fitfigs" data-mode="'+alcMode+'">'+pgs.map(function(pg, k){
+        var f = A.fit[pg[0]].h;
+        return '<figure class="ic-fig ic-alc-pg ic-alc-fit" data-k="'+k+'" style="aspect-ratio:'+pg[1]+'/'+pg[2]+'">'+
+          '<img class="ic-alc-pl" src="'+esc(H+"plates/"+pg[0]+".webp")+'" width="'+pg[1]+'" height="'+pg[2]+'" alt="'+alt+'">'+
+          '<img class="ic-alc-or" data-src="'+esc(H+"pages/"+pg[0]+".webp")+'" width="'+pg[1]+'" height="'+pg[2]+'" alt="'+alt+'"'+(alcMode==="orig" ? ' src="'+esc(H+"pages/"+pg[0]+".webp")+'"' : "")+'>'+
+          '<div class="ic-alc-fld" data-pg="'+pg[0]+'" style="left:'+f[0]+'%;top:'+f[1]+'%;width:'+f[2]+'%;height:'+f[3]+'%"><div class="ic-alc-in">'+
+            per[k].map(function(x){ return x.lab !== undefined ? '<span class="ic-alc-fl">'+esc(x.lab)+'</span>' : '<span class="ic-alc-fv">'+esc(x.l)+'</span>'; }).join("")+
+          '</div></div></figure>';
+      }).join("")+'</div>';
+  }
+  // Подбор кегля под поле (до показа): верхний предел — латиница в печати (доля ширины страницы), нижний — читаемый на iPhone;
+  // не влезло на нижнем пределе — меньше межстрочный; всё равно не влезло — data-fit="over" (текст не обрезается).
+  function alcFitField(fl){
+    var fig = fl.parentNode, inn = fl.firstChild, W = fig.clientWidth; if(!W || !inn) return;
+    var w = fl.clientWidth, h = fl.clientHeight, cap = Math.max(ALC_FIT_FLOOR, W * ALC_FIT_CAP), lh = ALC_LH[0], fs, state = "ok";
+    function fits(f, l){ inn.style.fontSize = f+"px"; inn.style.lineHeight = l; return inn.offsetHeight <= h + 0.5 && inn.scrollWidth <= w + 0.5; }
+    if(fits(cap, lh)) fs = cap;
+    else if(fits(ALC_FIT_FLOOR, lh)){
+      var lo = ALC_FIT_FLOOR, hi = cap;
+      for(var i = 0; i < 8; i++){ var mid = (lo + hi) / 2; if(fits(mid, lh)) lo = mid; else hi = mid; }
+      fs = lo;
+    } else {
+      fs = ALC_FIT_FLOOR; state = "over";
+      for(var k = 1; k < ALC_LH.length; k++){ if(fits(fs, ALC_LH[k])){ lh = ALC_LH[k]; state = "lh"; break; } }
+      if(state === "over") lh = ALC_LH[ALC_LH.length - 1];
+    }
+    fs = Math.floor(fs * 100) / 100; fits(fs, lh);
+    fl.setAttribute("data-fit", state); fl.setAttribute("data-fs", fs); fl.setAttribute("data-lh", lh);
+    fl.style.visibility = "";
+  }
+  function alcFitAll(){ var r = root.querySelectorAll(".ic-alc-fld"); for(var i = 0; i < r.length; i++) alcFitField(r[i]); }
+  var alcFitBound = false;
+  function alcBindFit(book, it){
+    alcFitAll();
+    var fg = root.querySelector(".ic-alc-fitfigs"); if(!fg) return;
+    function setMode(m){
+      alcMode = m; try{ localStorage.setItem("ic-alc-mode", m); }catch(e){}
+      fg.setAttribute("data-mode", m);
+      root.querySelectorAll(".ic-alc-sw button").forEach(function(b){ b.setAttribute("aria-pressed", b.getAttribute("data-alcm") === m); });
+      if(m === "orig") fg.querySelectorAll(".ic-alc-or").forEach(function(im){ if(!im.getAttribute("src")) im.setAttribute("src", im.getAttribute("data-src")); });
+      else alcFitAll();
+    }
+    root.querySelectorAll(".ic-alc-sw button").forEach(function(b){ b.addEventListener("click", function(){ setMode(b.getAttribute("data-alcm")); }); });
+    if(alcMode === "orig") setMode("orig");
+    if(!alcFitBound){
+      alcFitBound = true; var tm = 0;
+      window.addEventListener("resize", function(){ cancelAnimationFrame(tm); tm = requestAnimationFrame(function(){ if(root.querySelector(".ic-alc-fld")) alcFitAll(); }); });
+    }
+    if(document.fonts && document.fonts.ready) document.fonts.ready.then(function(){ if(root.querySelector(".ic-alc-fld")) alcFitAll(); });
+  }
   function alcCardHtml(book, it){
     var A = book.alc, H = alcHeavy(book), tt = alcTrOf(it), la = A.la[it.id] || {lines:[]};
-    var figs = (A.pages[it.id]||[]).map(function(pg, k){
+    var fit = alcIsFit(book, it);
+    var figs = fit ? "" : (A.pages[it.id]||[]).map(function(pg, k){
       return '<figure class="ic-fig ic-alc-pg" data-k="'+k+'"><img src="'+esc(H+"pages/"+pg[0]+".webp")+'" width="'+pg[1]+'" height="'+pg[2]+'" alt="'+esc(t("engravingAlt",{title:titleOf(it)}))+'"></figure>';
     }).join("");
     function lines(arr, lang){
@@ -3071,9 +3150,9 @@
     var greek = tt && tt.greek && tt.greek.length ? '<section class="ic-sec ic-alc-greek"><h3>'+esc(t("alcGreek"))+'</h3><ul class="ic-attrs">'+tt.greek.map(function(g){
       return '<li><b lang="grc">'+esc(g.original)+'</b>'+(g.translation ? '<span>'+esc(g.translation)+'</span>' : "")+'</li>'; }).join("")+'</ul></section>' : "";
     var laMotto = it.intro ? it.fr : (it.no_motto ? "" : la.motto);
-    return '<div class="ic-figs ic-alc-figs">'+figs+'</div>'+
+    return (fit ? alcFitHtml(book, it, tt) : '<div class="ic-figs ic-alc-figs">'+figs+'</div>')+
       '<header class="ic-head ic-alc-head"><h1 class="ic-h-fr ic-alc-motto">'+esc(titleOf(it))+'</h1>'+(laMotto ? '<p class="ic-alc-la" lang="la">'+esc(laMotto)+'</p>' : "")+'</header>'+
-      (tr ? '<section class="ic-sec"><h3>'+esc(t("translSec"))+'</h3><div class="ic-text ic-alc-verse">'+tr+'</div></section>' : "")+
+      (tr && !fit ? '<section class="ic-sec"><h3>'+esc(t("translSec"))+'</h3><div class="ic-text ic-alc-verse">'+tr+'</div></section>' : "")+
       (la.lines.length ? '<section class="ic-sec ic-alc-orig"><h3>'+esc(t("originalSec"))+'</h3><div class="ic-text ic-alc-verse" lang="la">'+lines(la.lines)+'</div></section>' : "")+
       greek;
   }
@@ -3197,7 +3276,9 @@
       var id=b.getAttribute("data-go"); if(!id) return;
       if(rp) ripaStep(book, id); else go(book, id);
     });});
-    root.querySelectorAll(".ic-fig").forEach(function(f){ f.addEventListener("click",function(){
+    if(alc && alcIsFit(book, it)) alcBindFit(book, it);
+    root.querySelectorAll(".ic-fig").forEach(function(f){ f.addEventListener("click",function(e){
+      if(alc && e.target.closest && e.target.closest(".ic-alc-fld")) return; // текст перевода выделяется, не открывает просмотр
       if(alc){ openImgFull((book.alc.pages[it.id]||[]).map(function(pg){ return alcHeavy(book)+"pages/"+pg[0]+"_full.webp"; }), titleOf(it), {at:+f.getAttribute("data-k"), cls:"ic-svx-alc"}); return; }
       if(rp) openImgFull(f.getAttribute("data-src"), titleOf(it)); else lightbox(f.getAttribute("data-src")); }); });
     if(showOrig && (hasScans||hasFr)) bindOriginal(it, pagesBase);

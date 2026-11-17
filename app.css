@@ -1921,3 +1921,18 @@ html.ic-hs-lock{overflow:hidden !important}
 .ic-svx-alc .ic-svx-feed img{background:var(--sheet)}
 .ic-svx-alc.ic-svx-many .ic-svx-feed{display:block}
 .ic-svx-alc.ic-svx-many .ic-svx-feed img{width:100%;max-width:100%;max-height:none;margin:0 auto 8px}
+
+/* пилот «перевод в рамке страницы»: переключатель, поле с HTML-текстом поверх plates/, «Оригинал» — pages/ */
+.ic-alc-sw{display:flex;gap:6px;margin:6px 0 10px}
+.ic .ic-alc-sw button{flex:0 0 auto;min-height:44px;padding:0 16px;border:1px solid rgba(28,24,19,.28);border-radius:8px;background:transparent;color:var(--ink,#1c1813);font:inherit;font-size:13px;letter-spacing:.07em;text-transform:uppercase;cursor:pointer}
+.ic .ic-alc-sw button[aria-pressed="true"]{background:rgba(28,24,19,.11);border-color:rgba(28,24,19,.5)}
+.ic .ic-alc-fit{position:relative;width:100%;max-width:560px}
+.ic .ic-alc-fit img{display:block;width:100%;height:auto}
+.ic .ic-rp-alc .ic-alc-figs .ic-fig.ic-alc-fit img.ic-alc-or{position:absolute;left:0;top:0;width:100%;height:100%;max-width:none}
+.ic .ic-alc-fitfigs[data-mode="tr"] .ic-alc-or{visibility:hidden}
+.ic .ic-alc-fitfigs[data-mode="orig"] .ic-alc-pl,.ic .ic-alc-fitfigs[data-mode="orig"] .ic-alc-fld{visibility:hidden}
+.ic .ic-alc-fld{position:absolute;display:flex;align-items:center;box-sizing:border-box;color:var(--ink,#1c1813);-webkit-user-select:text;user-select:text;cursor:text}
+.ic .ic-alc-in{width:100%;font-style:italic;text-align:left;hyphens:manual;-webkit-hyphens:manual;overflow-wrap:break-word}
+.ic .ic-alc-fv{display:block;padding-left:1.1em;text-indent:-1.1em}
+.ic .ic-alc-fl{display:block;text-align:center;font-style:normal;letter-spacing:.1em;text-transform:uppercase;font-size:.85em;margin:.1em 0}
+.ic .ic-rp-alc .ic-alc-figs.ic-alc-fitfigs{width:min(100vw,560px);max-width:none;margin-left:calc((100% - min(100vw,560px))/2)}

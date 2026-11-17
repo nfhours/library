@@ -84,15 +84,17 @@ def main():
         sections.append(r)
     seckeys = set(key(s["rubric"]) for s in sections)
 
-    la, pages, thumbs = {}, {}, {}
+    la, pages, thumbs, nlat = {}, {}, {}, {}
     units = [(i["id"], int(i["frame"]), i["id"], None) for i in ent["intro"]]
     units += [(x["id"], int(x["page"].split("-")[0]) + 6, x["id"], x) for x in ent["items"]]
     for uid, scan, pid, it in units:
         page_ids = ["fm%04d" % scan] if uid.startswith("intro") else [uid]
         page_ids += cont.get(uid, [])
         lines, motto = [], None
+        pcount = []
         for k, p in enumerate(page_ids):
             sc = scan + k
+            n0 = sum(1 for x in lines if not x.startswith("# "))
             for ln in page_lines(sc):
                 m = re.match(r"^\[ЗАГОЛОВОК:\s*(.*)\]$", ln)
                 if m:
@@ -108,13 +110,32 @@ def main():
                     continue
                 else:
                     lines.append(ln)
+            pcount.append(sum(1 for x in lines if not x.startswith("# ")) - n0)
         la[uid] = {"motto": motto, "lines": lines}
+        for p_, n_ in zip(page_ids, pcount): nlat[p_] = n_
         pages[uid] = [[p] + size(os.path.join(HEAVY, "plates", p + ".webp")) for p in page_ids]
         fr = byframe.get(page_ids[0], {})
         if "pic" in (fr.get("kinds") or []):
             thumbs[uid] = size(os.path.join(HEAVY, "thumb", page_ids[0] + "_t.webp"))
 
     out = {"sections": sections, "la": la, "pages": pages, "thumbs": thumbs, "introGreek": INTRO_GREEK}
+    # поля для перевода: области «вычитания» из разметки (crops.json) в долях страницы (page_box), % — books/alciato/fit.json
+    crops = json.load(open(os.path.join(BOOK, "_crops", "crops.json"), encoding="utf-8"))
+    sys.path.insert(0, os.path.join(ROOT, "tools"))
+    import build_alciato as ba
+    fit = {}
+    for f in frames:
+        if f.get("status") != "ok" or f["id"] not in nlat: continue
+        bx = ba.classify(crops[f["frame"]]["boxes"]); pg = next(b for b in bx if b["k"] == "page")
+        rel = lambda b: [round((b["x"] - pg["x"]) / pg["w"] * 100, 2), round((b["y"] - pg["y"]) / pg["h"] * 100, 2), round(b["w"] / pg["w"] * 100, 2), round(b["h"] / pg["h"] * 100, 2)]
+        holes = [rel(b) for b in bx if b["k"] == "text"]
+        for tl in (rel(b) for b in bx if b["k"] == "tail"):   # концовка внутри поля остаётся печатной: поле кончается над ней
+            for h in holes:
+                if h[1] + h[3] * 0.3 < tl[1] < h[1] + h[3] and tl[0] < h[0] + h[2] and tl[0] + tl[2] > h[0]:
+                    h[3] = round(tl[1] - h[1] - 0.6, 2)
+        if len(holes) == 1: fit[f["id"]] = {"h": holes[0], "n": nlat[f["id"]]}
+    with open(os.path.join(BOOK, "fit.json"), "w", encoding="utf-8") as fo:
+        json.dump(fit, fo, separators=(",", ":")); fo.write("\n")
     with open(os.path.join(BOOK, "text.json"), "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, separators=(",", ":"))
         f.write("\n")
