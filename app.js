@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "223";
+  var APP_VER = "224";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -3035,8 +3035,17 @@
         (tt.greek||[]).forEach(function(g){ parts.push(g.original||"", g.translation||""); }); });
       it.key = norm([it.ru, it.en, it.name_fr].concat(parts).join(" "));
     });
+    // пометки [?] в тексте перевода не показываем (в ключах поиска и в транскрипции они остались)
+    items.forEach(function(it){
+      ["ru","en"].forEach(function(L){ if(it[L]) it[L] = alcQ(it[L]); }); if(it.name_fr) it.name_fr = alcQ(it.name_fr);
+      ["ru","en","fr"].forEach(function(L){ var tt = it.alcTr[L]; if(!tt) return;
+        if(tt.motto) tt.motto = alcQ(tt.motto); if(tt.subheading) tt.subheading = alcQ(tt.subheading);
+        (tt.epigrams||[]).forEach(function(e){ if(e.label) e.label = alcQ(e.label); e.reading = (e.reading||[]).map(alcQ); });
+        (tt.greek||[]).forEach(function(g){ if(g.translation) g.translation = alcQ(g.translation); }); });
+    });
     book.items = items; book.byId = byId; book.alc = A;
   }
+  function alcQ(s){ return String(s).replace(/ ?\[\?\]/g,"").replace(/^\s+/,""); }
   function alcTrOf(it){ return it.alcTr && (it.alcTr[state.lang] || it.alcTr.ru) || null; }
   function alcSecName(book, it){ var sc = book.alc.secBy[it.sec]; return sc ? (sc[state.lang] || sc.ru) : ""; }
   // фрагменты для сниппета лупы: перевод (язык интерфейса), греческие места, латынь
@@ -3053,12 +3062,10 @@
   // крупно и латинский под ним, «Перевод» (эпиграмма построчно), «Оригинал» (латынь построчно курсивом), греческие места.
   // Пилот «перевод в рамке страницы»: у этих эмблем перевод набирается HTML-текстом в поле для текста (области «вычитания» crops.json,
   // fit.json), поверх plates/; «Оригинал» — pages/ (фото страницы с латынью). Остальные — страницы целиком, как раньше.
-  var ALC_PILOT = {"alc10":1,"alc17":1,"alc31":1,"alc55":1,"alc82":1,"alc119":1,"alc123":1,"alc149":1,"alc196":1,"intro-2":1};
-  var ALC_FIT_FLOOR = 11, ALC_FIT_CAP = 0.05, ALC_PAD_X = 0.04, ALC_PAD_Y = 0.03, ALC_LH = [1.3, 1.22, 1.15, 1.1];
+    var ALC_FIT_FLOOR = 11, ALC_FIT_CAP = 0.05, ALC_PAD_X = 0.04, ALC_PAD_Y = 0.03, ALC_LH = [1.3, 1.22, 1.15, 1.1];
   var alcMode = "tr";
   try{ if(localStorage.getItem("ic-alc-mode") === "orig") alcMode = "orig"; }catch(e){}
   function alcIsFit(book, it){
-    if(!ALC_PILOT[it.id]) return false;
     var A = book.alc, pgs = A.pages[it.id] || [];
     return pgs.length > 0 && pgs.every(function(pg){ return A.fit && A.fit[pg[0]]; });
   }
@@ -3077,9 +3084,7 @@
   function alcFitHtml(book, it, tt){
     var A = book.alc, H = alcHeavy(book), pgs = A.pages[it.id] || [], per = alcFieldItems(book, it, tt || {epigrams:[]});
     var alt = esc(t("engravingAlt",{title:titleOf(it)}));
-    return '<div class="ic-alc-sw" role="group"><button type="button" data-alcm="tr" aria-pressed="'+(alcMode==="tr")+'">'+esc(t("translSec"))+'</button>'+
-        '<button type="button" data-alcm="orig" aria-pressed="'+(alcMode==="orig")+'">'+esc(t("originalSec"))+'</button></div>'+
-      '<div class="ic-figs ic-alc-figs ic-alc-fitfigs" data-mode="'+alcMode+'">'+pgs.map(function(pg, k){
+    return '<div class="ic-figs ic-alc-figs ic-alc-fitfigs" data-mode="'+alcMode+'">'+pgs.map(function(pg, k){
         var f = A.fit[pg[0]].h;
         return '<figure class="ic-fig ic-alc-pg ic-alc-fit" data-k="'+k+'" style="aspect-ratio:'+pg[1]+'/'+pg[2]+'">'+
           '<img class="ic-alc-pl" src="'+esc(H+"plates/"+pg[0]+".webp")+'" width="'+pg[1]+'" height="'+pg[2]+'" alt="'+alt+'">'+
@@ -3129,11 +3134,11 @@
     function setMode(m){
       alcMode = m; try{ localStorage.setItem("ic-alc-mode", m); }catch(e){}
       fg.setAttribute("data-mode", m);
-      root.querySelectorAll(".ic-alc-sw button").forEach(function(b){ b.setAttribute("aria-pressed", b.getAttribute("data-alcm") === m); });
+      root.querySelectorAll('[data-rb="alcorig"]').forEach(function(b){ b.setAttribute("aria-pressed", m === "orig"); });
       if(m === "orig") fg.querySelectorAll(".ic-alc-or").forEach(function(im){ if(!im.getAttribute("src")) im.setAttribute("src", im.getAttribute("data-src")); });
       else alcFitAll();
     }
-    root.querySelectorAll(".ic-alc-sw button").forEach(function(b){ b.addEventListener("click", function(){ setMode(b.getAttribute("data-alcm")); }); });
+    root.querySelectorAll('[data-rb="alcorig"]').forEach(function(b){ b.addEventListener("click", function(){ setMode(alcMode === "orig" ? "tr" : "orig"); }); });
     if(alcMode === "orig") setMode("orig");
     if(!alcFitBound){
       alcFitBound = true; var tm = 0;
@@ -3159,14 +3164,11 @@
       if(tt.subheading) tr += '<p class="ic-alc-lbl">'+esc(tt.subheading)+'</p>';
       (tt.epigrams||[]).forEach(function(e){ tr += (e.label ? '<p class="ic-alc-lbl">'+esc(e.label)+'</p>' : "")+lines(e.reading||[]); });
     }
-    var greek = tt && tt.greek && tt.greek.length ? '<section class="ic-sec ic-alc-greek"><h3>'+esc(t("alcGreek"))+'</h3><ul class="ic-attrs">'+tt.greek.map(function(g){
-      return '<li><b lang="grc">'+esc(g.original)+'</b>'+(g.translation ? '<span>'+esc(g.translation)+'</span>' : "")+'</li>'; }).join("")+'</ul></section>' : "";
     var laMotto = it.intro ? it.fr : (it.no_motto ? "" : la.motto);
-    return (fit ? alcFitHtml(book, it, tt) : '<div class="ic-figs ic-alc-figs">'+figs+'</div>')+
-      '<header class="ic-head ic-alc-head"><h1 class="ic-h-fr ic-alc-motto">'+esc(titleOf(it))+'</h1>'+(laMotto ? '<p class="ic-alc-la" lang="la">'+esc(laMotto)+'</p>' : "")+'</header>'+
-      (tr && !fit ? '<section class="ic-sec"><h3>'+esc(t("translSec"))+'</h3><div class="ic-text ic-alc-verse">'+tr+'</div></section>' : "")+
-      (la.lines.length ? '<section class="ic-sec ic-alc-orig"><h3>'+esc(t("originalSec"))+'</h3><div class="ic-text ic-alc-verse" lang="la">'+lines(la.lines)+'</div></section>' : "")+
-      greek;
+    var head = '<header class="ic-head ic-alc-head"><h1 class="ic-h-fr ic-alc-motto">'+esc(titleOf(it))+'</h1>'+(laMotto ? '<p class="ic-alc-la" lang="la">'+esc(laMotto)+'</p>' : "")+'</header>';
+    // порядок: девиз (перевод крупно, латынь под ним) → страница (с переводом в рамке) → «Пред./След.»; нет поля — перевод под страницей
+    return head+(fit ? alcFitHtml(book, it, tt) : '<div class="ic-figs ic-alc-figs">'+figs+'</div>')+
+      (tr && !fit ? '<section class="ic-sec ic-alc-trsec"><div class="ic-text ic-alc-verse">'+tr+'</div></section>' : "");
   }
 
   function renderCard(book, it){
@@ -3236,7 +3238,7 @@
     var rpBar = rp ?
       '<div class="ic-rbar-row">'+
         '<button type="button" class="ic-rbar-lbl ic-rbar-lbl-b" data-rb="tolist" aria-label="'+esc(t("rpTabArticles")+": "+titleOf(it))+'"><span class="ic-rbar-pos-ch">'+rpTitle+'</span><span class="ic-rbar-pos-pg">'+(aud ? esc(t("audTblAbbr"))+' '+esc(it.num) : esc(t("pageAbbr"))+' '+esc(alc ? alcPageLbl(it) : it.page))+'</span></button>'+
-        (aud || alc ? "" : '<button type="button" class="ic-rbar-scan" data-rb="scan" aria-pressed="false"'+(rpHasOrig?"":" disabled")+'>'+esc(t("svScan"))+'</button>')+
+        (alc ? (alcIsFit(book, it) ? '<button type="button" class="ic-rbar-scan" data-rb="alcorig" aria-pressed="'+(alcMode==="orig")+'">'+esc(t("originalSec"))+'</button>' : "") : aud ? "" : '<button type="button" class="ic-rbar-scan" data-rb="scan" aria-pressed="false"'+(rpHasOrig?"":" disabled")+'>'+esc(t("svScan"))+'</button>')+
         '<button type="button" class="ic-rbar-nv" data-nav="prev" data-go="'+(prev?prev.id:"")+'"'+(prev?' title="'+esc(titleOf(prev))+'"':" disabled")+'>'+t("navPrev")+'</button>'+
         '<button type="button" class="ic-rbar-nv" data-nav="next" data-go="'+(next?next.id:"")+'"'+(next?' title="'+esc(titleOf(next))+'"':" disabled")+'>'+t("navNext")+'</button>'+
       '</div>'+langSwitch() : "";

@@ -64,7 +64,7 @@ let bad=0, n=0; const ok=(name,c,x)=>{ n++; if(!c) bad++; console.log((c?'ok  ':
     if(q===t.q){ if(L==='ru') await p.screenshot({path:path.join(OUT,'alciato-loupe-ru.png')});
       await p.tap('#ic-rb-sheet .ic-sr-a[data-id="alc10"]'); await W(2500);
       const hl=await p.evaluate(()=>({hash:location.hash,mark:(document.querySelector('.ic-rp mark.ic-ch-mark')||{}).textContent}));
-      ok(L+' loupe result opens emblem with highlighted word',/alciato\/alc10$/.test(hl.hash)&&!!hl.mark,JSON.stringify(hl)); await p.goBack(); await W(2000); }
+      ok(L+' loupe result opens emblem (word may sit in text no longer shown on the page)',/alciato\/alc10$/.test(hl.hash),JSON.stringify(hl)); await p.goBack(); await W(2000); }
     else { await p.tap('[data-rb="booksearch"]'); await W(500); }
   }
   { await p.goto(BASE+'#/alciato/alc119'); await W(2200); const m=await p.evaluate(()=>({h1:(document.querySelector('.ic-alc-motto')||{}).textContent,la:(document.querySelector('.ic-alc-la')||{}).textContent}));
@@ -74,28 +74,28 @@ let bad=0, n=0; const ok=(name,c,x)=>{ n++; if(!c) bad++; console.log((c?'ok  ':
   await p.evaluate(()=>document.querySelector('.ic-alc-row[data-id="alc128"]').scrollIntoView({block:'center'})); await W(700);
   const y0=await p.evaluate(()=>Math.round(scrollY));
   await p.tap('.ic-alc-row[data-id="alc128"]'); await W(2500);
-  const cd=await p.evaluate(()=>{ const f=[...document.querySelectorAll('.ic-alc-figs .ic-fig img')]; const q=s=>document.querySelector(s);
-    return {hash:location.hash,pages:f.map(i=>i.getAttribute('src').replace(/^.*pages\//,'')),gap:f.length>1?Math.round(f[1].getBoundingClientRect().top-f[0].getBoundingClientRect().bottom):null,w:f[0]?Math.round(f[0].getBoundingClientRect().width):0,blend:f[0]&&getComputedStyle(f[0]).mixBlendMode,
+  const cd=await p.evaluate(()=>{ const f=[...document.querySelectorAll('.ic-alc-figs .ic-fig img.ic-alc-pl')], fg=[...document.querySelectorAll('.ic-alc-figs .ic-fig')]; const q=s=>document.querySelector(s);
+    return {hash:location.hash,pages:[...document.querySelectorAll('.ic-alc-figs img.ic-alc-or')].map(i=>i.getAttribute('data-src').replace(/^.*pages\//,'')),gap:fg.length>1?Math.round(fg[1].getBoundingClientRect().top-fg[0].getBoundingClientRect().bottom):null,w:f[0]?Math.round(f[0].getBoundingClientRect().width):0,blend:f[0]&&getComputedStyle(f[0]).mixBlendMode,
       sec:(q('.ic-rbar-lbl-b')||{}).textContent,scan:!!q('[data-rb="scan"]'),prev:!!q('.ic-rbar-nv[data-nav="prev"]:not([disabled])'),next:!!q('.ic-rbar-nv[data-nav="next"]:not([disabled])'),
       h1:(q('.ic-alc-motto')||{}).textContent,la:(q('.ic-alc-la')||{}).textContent,h3:[...document.querySelectorAll('.ic-rp-alc .ic-sec h3')].map(x=>x.textContent),
-      trLines:document.querySelectorAll('.ic-rp-alc .ic-sec:not(.ic-alc-orig) .ic-alc-v span').length,laLines:document.querySelectorAll('.ic-alc-orig .ic-alc-v span').length,laIt:q('.ic-alc-orig .ic-alc-v')&&getComputedStyle(q('.ic-alc-orig .ic-alc-v')).fontStyle,
-      order:(()=>{ const a=q('.ic-alc-figs'),b=q('.ic-alc-motto'),c=q('.ic-alc-orig'); return !!(a&&b&&c&&a.compareDocumentPosition(b)&4&&b.compareDocumentPosition(c)&4); })(),
+      trLines:document.querySelectorAll('.ic-alc-fv').length,btn:!!q('[data-rb="alcorig"]'),
+      order:(()=>{ const a=q('.ic-alc-figs'),b=q('.ic-alc-motto'),c=q('.ic-rp-pager'); return !!(a&&b&&c&&b.compareDocumentPosition(a)&4&&a.compareDocumentPosition(c)&4); })(),
       pager:[...document.querySelectorAll('.ic-rp-nb')].map(x=>x.textContent),vw:innerWidth}; });
   ok(L+' two-page emblem: both pages, second right under first',cd.pages.join()==='alc128.webp,alc129.webp'&&cd.gap!==null&&cd.gap>=0&&cd.gap<=10,cd.pages.join()+' gap='+cd.gap);
   ok(L+' emblem: page full width, multiply',cd.w>=cd.vw-60&&cd.blend==='multiply',cd.w+' '+cd.blend);
-  ok(L+' emblem: section row «motto · '+t.pg+' 128–129», prev/next, no scan',cd.sec.includes(t.pg+' 128–129')&&cd.prev&&cd.next&&!cd.scan,cd.sec);
-  ok(L+' emblem: motto large, Latin under it; '+t.tr+' / '+t.orig+' line by line, Latin italic',cd.h1&&cd.la&&cd.h3[0]===t.tr&&cd.h3[1]===t.orig&&cd.trLines>=4&&cd.laLines>=4&&cd.laIt==='italic'&&cd.order,JSON.stringify([cd.h1,cd.la,cd.h3,cd.trLines,cd.laLines]));
+  ok(L+' emblem: section row «motto · '+t.pg+' 128–129», «'+t.orig+'», prev/next, no scan',cd.sec.includes(t.pg+' 128–129')&&cd.prev&&cd.next&&!cd.scan,cd.sec);
+  ok(L+' emblem: motto large + Latin under it, page with translation in frame, then pager; no text blocks below; «'+t.orig+'» button',cd.h1&&cd.la&&cd.h3.length===0&&cd.trLines>=4&&cd.btn&&cd.order,JSON.stringify([cd.h1,cd.la,cd.h3,cd.trLines]));
   ok(L+' emblem: bottom pager with titles',cd.pager.length===2&&cd.pager[0].includes(t.prev),cd.pager.join(' / ').slice(0,90));
   { const h=await p.evaluate(eval(HIT),'.ic-rbar-nv,.ic-rp-nb,.ic-rbar-lbl-b'); ok(L+' emblem: touch zones ≥44',h.every(Boolean)); }
   if(L==='ru') await p.screenshot({path:path.join(OUT,'alciato-emblem2-ru.png'),fullPage:true});
-  { const sz=await p.evaluate(()=>[...document.querySelectorAll('.ic-alc-figs .ic-fig img')].map(i=>[i.naturalWidth,i.naturalHeight])); ok(L+' two-page emblem: full printed pages loaded (pages/)',sz.length===2&&sz.every(a=>a[0]>=600&&a[1]>=1400),JSON.stringify(sz)); }
+  { const sz=await p.evaluate(()=>[...document.querySelectorAll('.ic-alc-figs .ic-fig img.ic-alc-pl')].map(i=>[i.naturalWidth,i.naturalHeight])); ok(L+' two-page emblem: both pages loaded (plates/)',sz.length===2&&sz.every(a=>a[0]>=600&&a[1]>=1400),JSON.stringify(sz)); }
   // полноэкранный просмотр: _full, обе страницы, закрытие «назад»
-  await p.tap('.ic-alc-figs .ic-fig[data-k="1"]'); await W(2500);
+  await p.tap('.ic-alc-figs .ic-fig[data-k="1"]',{position:{x:12,y:12}}); await W(2500);
   const fs=await p.evaluate(()=>{ const im=[...document.querySelectorAll('.ic-svx-alc img')]; const fd=document.querySelector('.ic-svx-alc .ic-svx-feed'); return {n:im.length,srcs:im.map(i=>i.src.replace(/^.*pages\//,'')),nat:im.map(i=>i.naturalWidth),st:fd?Math.round(fd.scrollTop):-1,bg:im[0]&&getComputedStyle(im[0]).backgroundColor}; });
   ok(L+' fullscreen: both _full pages, hi-res, scrolled to tapped page, paper under ink',fs.n===2&&fs.srcs.join()==='alc128_full.webp,alc129_full.webp'&&fs.nat.every(x=>x>=1100)&&fs.st>100&&fs.bg!=='rgba(0, 0, 0, 0)',JSON.stringify(fs));
   if(L==='ru') await p.screenshot({path:path.join(OUT,'alciato-full-ru.png')});
   await p.goBack(); await W(900); ok(L+' fullscreen closes with browser back',await p.evaluate(()=>!document.querySelector('.ic-svx')&&/alciato\/alc128$/.test(location.hash)));
-  await p.tap('.ic-alc-figs .ic-fig[data-k="0"]'); await W(1200); await p.tap('.ic-svx-back'); await W(800); ok(L+' fullscreen closes with corner',await p.evaluate(()=>!document.querySelector('.ic-svx')));
+  await p.tap('.ic-alc-figs .ic-fig[data-k="0"]',{position:{x:12,y:12}}); await W(1200); await p.tap('.ic-svx-back'); await W(800); ok(L+' fullscreen closes with corner',await p.evaluate(()=>!document.querySelector('.ic-svx')));
   // Пред./След.
   await p.tap('.ic-rbar-nv[data-nav="next"]'); await W(2000); ok(L+' next → alc130',await p.evaluate(()=>/alciato\/alc130$/.test(location.hash)));
   await p.tap('.ic-rbar-nv[data-nav="prev"]'); await W(2000); ok(L+' prev → alc128',await p.evaluate(()=>/alciato\/alc128$/.test(location.hash)));
@@ -113,12 +113,12 @@ let bad=0, n=0; const ok=(name,c,x)=>{ n++; if(!c) bad++; console.log((c?'ok  ':
   await p.tap('.ic-bt-back'); await W(2200); const g1=await p.evaluate(()=>Math.round(scrollY)); ok(L+' back → engravings, same place',await p.evaluate(()=>/alciato\/plates$/.test(location.hash))&&Math.abs(g1-g0)<120,g0+'→'+g1);
   // 6. вступление — та же страница
   await p.goto(BASE+'#/alciato/intro-3'); await W(2500);
-  const it=await p.evaluate(()=>({pages:[...document.querySelectorAll('.ic-alc-figs img')].map(i=>i.getAttribute('src').replace(/^.*pages\//,'')),h1:(document.querySelector('.ic-alc-motto')||{}).textContent,la:(document.querySelector('.ic-alc-la')||{}).textContent,h3:[...document.querySelectorAll('.ic-rp-alc .ic-sec h3')].map(x=>x.textContent),greek:(document.querySelector('.ic-alc-greek')||{}).textContent||'',prev:!!document.querySelector('.ic-rbar-nv[data-nav="prev"]:not([disabled])'),sec:(document.querySelector('.ic-rbar-lbl-b')||{}).textContent}));
-  ok(L+' intro-3: page fm0015, title, Latin title, translation/original/greek',it.pages.join()==='fm0015.webp'&&it.h1&&/procrastinandum/.test(it.la)&&it.h3.length===3&&/ΑΝΑΒΑΛΛΟΜΕΝΟΣ/.test(it.greek)&&it.prev&&it.sec.includes(t.pg+' 9'),JSON.stringify(it).slice(0,200));
+  const it=await p.evaluate(()=>({pages:[...document.querySelectorAll('.ic-alc-figs img.ic-alc-or')].map(i=>i.getAttribute('data-src').replace(/^.*pages\//,'')),h1:(document.querySelector('.ic-alc-motto')||{}).textContent,la:(document.querySelector('.ic-alc-la')||{}).textContent,h3:[...document.querySelectorAll('.ic-rp-alc .ic-sec h3')].map(x=>x.textContent),greek:(document.querySelector('.ic-alc-greek')||{}).textContent||'',prev:!!document.querySelector('.ic-rbar-nv[data-nav="prev"]:not([disabled])'),sec:(document.querySelector('.ic-rbar-lbl-b')||{}).textContent}));
+  ok(L+' intro-3: page fm0015, title, Latin title, no text blocks below',it.pages.join()==='fm0015.webp'&&it.h1&&/procrastinandum/.test(it.la)&&it.h3.length===0&&!it.greek&&it.prev&&it.sec.includes(t.pg+' 9'),JSON.stringify(it).slice(0,200));
   if(L==='ru') await p.screenshot({path:path.join(OUT,'alciato-intro-ru.png'),fullPage:true});
   await p.goto(BASE+'#/alciato/alc10'); await W(2500);
   const e1=await p.evaluate(()=>({greek:(document.querySelector('.ic-alc-greek')||{}).textContent||'',prevT:(document.querySelector('.ic-rp-nb-prev')||{}).textContent||''}));
-  ok(L+' alc10: Greek passage; previous is intro-3',/ΓΑΝΝΥΣΘΑΙ/.test(e1.greek)&&e1.prevT.length>5,e1.prevT.slice(0,60));
+  ok(L+' alc10: no Greek block; previous is intro-3',!e1.greek&&e1.prevT.length>5,e1.prevT.slice(0,60));
   if(L==='ru') await p.screenshot({path:path.join(OUT,'alciato-emblem-ru.png')});
  }
  ok('console clean',errs.length===0,errs.slice(0,3).join(' | ')); await br.close(); console.log('passed '+(n-bad)+'/'+n); console.log(bad?'FAILS '+bad:'ALL OK'); })();
