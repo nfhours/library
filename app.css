@@ -1590,13 +1590,12 @@ button.ic-tv-sheet-reset:active{transform:scale(.95)}
 .ic-stack .back-bar{position:relative;top:auto;z-index:10;transition:height .2s ease}
 .ic-stack .ic-booktabs{position:relative;top:auto;transition:none;will-change:auto}
 .ic-stack .ic-rbar{position:relative;top:auto;transition:none;will-change:auto}
-/* Страница эмблемы Альчато (.ic-stack-flow): «Библиотека» и меню книги — обычный поток (уезжают прокруткой); строка раздела — sticky top:0;
-   прокрутка вверх ≥ 40 px (класс ic-alc-menu, installAlcMenu) — меню книги выезжает поверх, строка раздела опускается под него. */
+/* Страница эмблемы Альчато (.ic-stack-flow): «Библиотека» и меню книги — обычный поток (уезжают и возвращаются только нативной прокруткой);
+   строка раздела — sticky top:0 всегда. Её тёмный фон продолжается вверх (::before выше строки), чтобы при отскоке и смене панелей Safari сверху не просвечивала бумага. */
 .ic-stack.ic-stack-flow,.ic-stack-flow .ic-ch-outer-bar{display:contents}
-.ic-stack-flow .ic-booktabs{position:sticky;top:-100px;transition:top .25s ease}
-.ic-stack-flow .ic-rbar{position:sticky;top:env(safe-area-inset-top, 0px);transition:top .25s ease}
-.ic-stack-flow.ic-alc-menu .ic-booktabs{top:env(safe-area-inset-top, 0px)}
-.ic-stack-flow.ic-alc-menu .ic-rbar{top:calc(env(safe-area-inset-top, 0px) + var(--alc-bt, 48px))}
+.ic-stack-flow .ic-booktabs{position:relative;top:auto}
+.ic-stack-flow .ic-rbar{position:sticky;top:env(safe-area-inset-top, 0px);transition:none;will-change:auto}
+.ic-stack-flow .ic-rbar::before{content:"";position:absolute;left:0;right:0;bottom:100%;height:120px;background:var(--bar);pointer-events:none}
 
 /* Шторка «Содержание» (.ic-rb-sheet-toc): панель — flex-колонка из двух РОДНЫХ
    блоков без наложения: заголовок («Содержание / Закрыть», flex:none, не

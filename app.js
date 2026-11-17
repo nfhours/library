@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "228";
+  var APP_VER = "229";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -1785,34 +1785,6 @@
     requestAnimationFrame(tick);
   }
 
-  // installAlcMenu — страница эмблемы Альчато: «Библиотека» и меню книги — обычная часть страницы (уезжают нативной прокруткой),
-  // строка раздела — sticky top:0 (CSS .ic-stack-flow). Тут только показ меню книги поверх: прокрутка вверх ≥ 40 px — выезжает
-  // (класс ic-alc-menu на #ic-stack), вниз ≥ 30 px — уходит; не чаще раза в 300 мс. Наверху (< 36 px) и пока читатель сам не крутил — класс снят.
-  // Тики со сменой высоты окна (панели Safari), с scrollY < 0 и за концом страницы (отскок iOS) игнорируются.
-  function installAlcMenu(opts){
-    var UP_AT = 40, DOWN_AT = 30, GAP = 300, TOP = 36, EVS = ["touchstart","wheel","keydown","pointerdown"];
-    var lastY = window.scrollY, lastH = window.innerHeight, up = 0, down = 0, want = false, cur = false, lastAt = -1e9, userMoved = false;
-    function onUser(){ if(userMoved) return; userMoved = true; lastY = window.scrollY; EVS.forEach(function(n){ window.removeEventListener(n, onUser, true); }); }
-    EVS.forEach(function(n){ window.addEventListener(n, onUser, {capture:true, passive:true}); });
-    function set(v){ cur = v; var st = document.getElementById("ic-stack"); if(st) st.classList.toggle("ic-alc-menu", v); }
-    function tick(){
-      if(opts.isActive && !opts.isActive()){ if(cur) set(false); EVS.forEach(function(n){ window.removeEventListener(n, onUser, true); }); return; }
-      var y = window.scrollY, ih = window.innerHeight, doc = document.documentElement, maxY = Math.max(0, doc.scrollHeight - ih);
-      if(ih !== lastH){ lastH = ih; lastY = y; up = 0; down = 0; }
-      else if(!userMoved){ lastY = y; }
-      else if(y >= 0 && y <= maxY){
-        var dy = y - lastY; lastY = y;
-        if(opts.suppress && opts.suppress()){ want = false; up = 0; down = 0; }
-        else if(y < TOP){ want = false; up = 0; down = 0; }
-        else if(dy < -0.5){ up += -dy; down = 0; if(up >= UP_AT) want = true; }
-        else if(dy > 0.5){ down += dy; up = 0; if(down >= DOWN_AT) want = false; }
-      }
-      if(want !== cur){ var now = performance.now(); if(now - lastAt >= GAP){ lastAt = now; set(want); } }
-      requestAnimationFrame(tick);
-    }
-    requestAnimationFrame(tick);
-  }
-
   // showBarsAlways — этот раунд (задание, пункт 1): указатель/«Имена»
   // installScrollHide вообще не вызывают — шапка+меню книги+строка раздела
   // там всегда на месте, единым неподвижным блоком (решение Андрея, см.
@@ -3339,7 +3311,7 @@
       function setVis(){ var st0 = document.getElementById("ic-stack"); if(!st0) return;
         if(alc){ // страница эмблемы: шапка и меню — часть страницы, .ic-stack без своего блока (display:contents)
           var hh = 0, bt = document.getElementById("ic-booktabs"); Array.prototype.forEach.call(st0.children, function(c){ hh += c.offsetHeight; });
-          root.style.setProperty("--ic-stack-full", hh+"px"); if(bt) root.style.setProperty("--alc-bt", bt.offsetHeight+"px"); return; }
+          root.style.setProperty("--ic-stack-full", hh+"px"); return; }
         root.style.setProperty("--ic-stack-full", Math.round(st0.getBoundingClientRect().height)+"px"); }
       var visW = window.innerWidth;   // высота панелей от прокрутки не меняется: пересчёт только при смене ширины (поворот)
       setVis(); window.addEventListener("resize", function rs(){ if(gen !== renderGen){ window.removeEventListener("resize", rs); return; } if(window.innerWidth === visW) return; visW = window.innerWidth; setVis(); });
@@ -3350,7 +3322,8 @@
       if(keepRp && keepRp.anchor) restoreBlockPos(keepRp, gen);
       else if(ripaHl && ripaHl.id===it.id) ripaPlace(book, it, gen);
       else { toTop(); ripaHl = null; }
-      (alc ? installAlcMenu : installBookHide)({isActive:function(){ return gen===renderGen; }, suppress:function(){ return rpSheets.some(function(x){ return x.isOpen() || x.isAnimating(); }); }});
+      // страница эмблемы Альчато: шапка и меню книги — часть страницы (нативная прокрутка), строка раздела sticky; скрипта прятания нет
+      if(!alc) installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return rpSheets.some(function(x){ return x.isOpen() || x.isAnimating(); }); }});
       nudgeRepaint();
       return;
     }
