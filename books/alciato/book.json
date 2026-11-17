@@ -2,14 +2,14 @@
   "slug": "alciato",
   "title": {
     "ru": "Эмблемы",
-    "en": "Emblemata",
+    "en": "Emblems",
     "original": "Emblemata",
-    "fr": "Emblemata"
+    "fr": "Emblèmes"
   },
   "subtitle": {
-    "ru": "Андреа Альчато, Лион, издание Masе Bonhomme, 1551 — книга, с которой начался жанр эмблемы: короткий девиз, гравюра и латинская эпиграмма, вместе раскрывающие одну мысль. Текст и гравюры по фотолитографическому факсимиле 1871 года (Henry Green, Holbein Society), точно воспроизводящему лионское издание 1551 года. Указатель пополняется; нажмите на эмблему, чтобы открыть статью.",
-    "en": "Andrea Alciato, Lyon, Macé Bonhomme edition, 1551 — the book that started the emblem genre: a short motto, a woodcut, and a Latin epigram, together unfolding one idea. Text and images from an 1871 photolithographic facsimile (Henry Green, Holbein Society) that faithfully reproduces the 1551 Lyon edition. Index is still growing; click an emblem to open its article.",
-    "fr": "Andrea Alciato, Lyon, édition Macé Bonhomme, 1551 — le livre qui fonda le genre de l'emblème : une courte devise, une gravure et une épigramme latine, déployant ensemble une seule pensée. Texte et gravures d'après le fac-similé photolithographique de 1871 (Henry Green, Holbein Society), reproduisant fidèlement l'édition lyonnaise de 1551. L'index s'enrichit encore ; cliquez sur un emblème pour ouvrir l'article."
+    "ru": "Книга, с которой начался жанр эмблемы: короткий девиз, гравюра и латинская эпиграмма вместе раскрывают одну мысль. Лионское издание Масе Бонома 1551 года — 208 эмблем в 34 разделах, от «Бога, или Религии» до «Деревьев»; латинский текст и перевод на русский, английский и французский.",
+    "en": "The book that started the emblem genre: a short motto, a woodcut and a Latin epigram together unfold a single idea. The Lyon edition of Macé Bonhomme, 1551 — 208 emblems in 34 sections, from “God, or Religion” to “Trees”; the Latin text with translations into Russian, English and French.",
+    "fr": "Le livre qui fonda le genre de l’emblème : une courte devise, une gravure et une épigramme latine déploient ensemble une seule pensée. L’édition lyonnaise de Macé Bonhomme, 1551 — 208 emblèmes en 34 sections, de « Dieu, ou la Religion » aux « Arbres » ; le texte latin, traduit en russe, en anglais et en français."
   },
   "author": "Andrea Alciato",
   "year": 1551,
@@ -18,5 +18,15 @@
   "viewer": "figure",
   "showOriginal": false,
   "pagesDir": "img/",
-  "libAuthor": {"ru": "Андреа Альчато", "en": "Andrea Alciato", "fr": "André Alciat"}
+  "libAuthor": {
+    "ru": "Андреа Альчато",
+    "en": "Andrea Alciato",
+    "fr": "André Alciat"
+  },
+  "heavy": "https://nfhours.github.io/alciato/",
+  "libDesc": {
+    "ru": "Первая книга эмблем: девиз, гравюра и латинская эпиграмма",
+    "en": "The first emblem book: motto, woodcut and Latin epigram",
+    "fr": "Le premier livre d’emblèmes : devise, gravure et épigramme latine"
+  }
 }

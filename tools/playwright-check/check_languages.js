@@ -51,7 +51,7 @@ function foreignStrings(L) {
 
 // ---- что собирать на странице (выполняется в браузере) ----
 const COLLECT = `(function(L, FOREIGN){
-  var SKIP = '[lang="it"],[lang="la"],.ic-kicker[lang="fr"],.ic-sv-it,.ic-pc-it,.ic-nm-it,#back-bar-lang,.ic-lang,script,style,noscript';
+  var SKIP = '[lang="it"],[lang="la"],[lang="grc"],.ic-kicker[lang="fr"],.ic-sv-it,.ic-pc-it,.ic-nm-it,#back-bar-lang,.ic-lang,script,style,noscript';
   var CYR = /[А-Яа-яЁё]/, LAT = /[A-Za-z]{3,}(?:[\\s,.;:'’-]+[A-Za-z]{3,})+/;
   var out = [];
   function sel(el){ var s = el.tagName.toLowerCase(); if(el.id) s += '#'+el.id; else if(el.className && typeof el.className==='string') s += '.'+el.className.trim().split(/\\s+/).slice(0,2).join('.'); return s; }
@@ -93,6 +93,9 @@ const pages = [
   // Одран: обложка, «Таблицы», страницы таблиц (выборка), текст, подписи
   ['audran/cover', BASE + '#/audran'], ['audran/plates', BASE + '#/audran/plates'], ['audran/preface', BASE + '#/audran/preface'],
   ...['aud1', 'aud10', 'aud15', 'aud25', 'aud30'].map(i => ['audran/' + i, BASE + '#/audran/' + i]),
+  // Альчато: обложка, «Эмблемы», «Гравюры», вступление, эмблемы (двухстраничная, без девиза, с греческим местом)
+  ['alciato/cover', BASE + '#/alciato'], ['alciato/list', BASE + '#/alciato/list'], ['alciato/plates', BASE + '#/alciato/plates'],
+  ...['intro-1', 'intro-3', 'alc10', 'alc31', 'alc55', 'alc128', 'alc203', 'alc213'].map(i => ['alciato/' + i, BASE + '#/alciato/' + i]),
 ];
 
 (async () => {
@@ -125,7 +128,10 @@ const pages = [
       // готовность: выбран нужный язык (иначе можно снять страницу до смены языка)
       await page.waitForFunction(l => { const b = document.querySelector('.ic-lang-b[aria-pressed="true"]'); return !b || b.dataset.lang === l; }, L, { timeout: 3000 }).catch(() => {});
       await grab(name);
-      if (name === 'cover' || name === 'text' || name === 'plates' || name === 'search') {
+      if (name === 'alciato/list') {
+        if (await press('[data-rb="sec"]')) { await settle(600); await grab(name + ' [шторка «Раздел»]'); await press('[data-rb="sec"]'); await settle(300); }
+      }
+      if (name === 'cover' || name === 'text' || name === 'plates' || name === 'search' || name === 'alciato/cover') {
         // поиск (шторка меню книги): открыть, ввести запрос
         if (await press('[data-rb="booksearch"]')) {
           await settle(500); await page.fill('#ic-rb-sheet input.ic-search', QUERY[L]).catch(() => {}); await page.keyboard.press('Enter'); await settle(1500);
