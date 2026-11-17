@@ -9,7 +9,7 @@
   // у iOS Safari он относится к записи истории, и новая запись снова «auto».
   function ensureManual(){ try{ if(history.scrollRestoration !== "manual") history.scrollRestoration = "manual"; }catch(e){} }
   ensureManual();
-  var APP_VER = "224";
+  var APP_VER = "225";
   var me = document.currentScript;
   var BASE = (me && me.src) ? me.src.replace(/[^\/]*$/, "") : "./";
   var root = document.getElementById("iconologie");
@@ -1785,6 +1785,42 @@
     requestAnimationFrame(tick);
   }
 
+  // installLinkedHide — страница эмблемы Альчато: шапка (.back-bar + меню книги) в .ic-stack привязана к прокрутке.
+  // Вниз: сдвиг o (px) растёт ровно на пройденный путь, translateY = −o, пока шапка не скроется целиком (o = H);
+  // строка раздела остаётся у верха. Вверх: обратные движения < 12 px игнорируются, дальше шапка возвращается
+  // плавно (transition). У самого верха (scrollY = 0) шапка полностью видна, o не больше scrollY.
+  // Отскок iOS (scrollY < 0 или за концом) тик не трогает; пока читатель сам не крутил страницу — шапка показана.
+  function installLinkedHide(opts){
+    var UP_AT = 12, lastY = window.scrollY, o = 0, H = 0, up = 0, userMoved = false, EVS = ["touchstart","wheel","keydown","pointerdown"];
+    function onUser(){ if(userMoved) return; userMoved = true; lastY = window.scrollY; EVS.forEach(function(n){ window.removeEventListener(n, onUser, true); }); }
+    EVS.forEach(function(n){ window.addEventListener(n, onUser, {capture:true, passive:true}); });
+    function apply(st, smooth){
+      st.style.transition = smooth ? "" : "none";
+      st.style.transform = o > 0 ? "translateY(calc(-1px * "+o.toFixed(1)+" + env(safe-area-inset-top, 0px) * "+(H ? (o / H).toFixed(3) : 0)+"))" : "";
+    }
+    function reset(){ var st = document.getElementById("ic-stack"); if(st){ st.style.transition = ""; st.style.transform = ""; } EVS.forEach(function(n){ window.removeEventListener(n, onUser, true); }); }
+    function tick(){
+      if(opts.isActive && !opts.isActive()){ reset(); return; }
+      var st = document.getElementById("ic-stack");
+      if(!st){ requestAnimationFrame(tick); return; }
+      if(!userMoved){ lastY = window.scrollY; requestAnimationFrame(tick); return; }
+      var bb = st.querySelector(".back-bar"), bt = document.getElementById("ic-booktabs");
+      H = (bb ? bb.offsetHeight : 0) + (bt ? bt.offsetHeight : 0);
+      var y = window.scrollY, doc = document.documentElement, maxY = Math.max(0, doc.scrollHeight - window.innerHeight);
+      if(y >= 0 && y <= maxY){
+        var dy = y - lastY, prev = o, smooth = false; lastY = y;
+        if(opts.suppress && opts.suppress()){ o = 0; up = 0; smooth = true; }
+        else if(y <= 0){ o = 0; up = 0; }
+        else if(dy > 0.5){ up = 0; o = Math.min(H, o + dy); }
+        else if(dy < -0.5){ up += -dy; if(up >= UP_AT){ o = 0; smooth = true; } else if(o > y) o = y; }
+        if(o > y) o = Math.max(0, y);
+        if(o !== prev || smooth) apply(st, smooth && prev !== o);
+      }
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  }
+
   // showBarsAlways — этот раунд (задание, пункт 1): указатель/«Имена»
   // installScrollHide вообще не вызывают — шапка+меню книги+строка раздела
   // там всегда на месте, единым неподвижным блоком (решение Андрея, см.
@@ -3317,7 +3353,7 @@
       if(keepRp && keepRp.anchor) restoreBlockPos(keepRp, gen);
       else if(ripaHl && ripaHl.id===it.id) ripaPlace(book, it, gen);
       else { toTop(); ripaHl = null; }
-      installBookHide({isActive:function(){ return gen===renderGen; }, suppress:function(){ return rpSheets.some(function(x){ return x.isOpen() || x.isAnimating(); }); }});
+      (alc ? installLinkedHide : installBookHide)({isActive:function(){ return gen===renderGen; }, suppress:function(){ return rpSheets.some(function(x){ return x.isOpen() || x.isAnimating(); }); }});
       nudgeRepaint();
       return;
     }
