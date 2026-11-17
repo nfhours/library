@@ -1495,7 +1495,9 @@
       "group_frtrans": "Pudeur.",
       "section": "PVDICITIA",
       "section_ru": "Целомудрие",
-      "section_en": "Chastity"
+      "section_en": "Chastity",
+      "no_motto": true,
+      "motto_display": "section"
     },
     {
       "id": "alc56",
@@ -2311,7 +2313,9 @@
       "group_frtrans": "Envie.",
       "section": "INVIDIA",
       "section_ru": "Зависть",
-      "section_en": "Envy"
+      "section_en": "Envy",
+      "no_motto": true,
+      "motto_display": "section"
     },
     {
       "id": "alc80",
@@ -2957,7 +2961,9 @@
       "group_frtrans": "Gourmandise.",
       "section": "GVLA",
       "section_ru": "Чревоугодие",
-      "section_en": "Gluttony"
+      "section_en": "Gluttony",
+      "no_motto": true,
+      "motto_display": "section"
     },
     {
       "id": "alc99",
@@ -3161,7 +3167,9 @@
       "group_frtrans": "Surnoms des savants.",
       "section": "DOCTORVM AGNOMINA",
       "section_ru": "Прозвища учёных",
-      "section_en": "Epithets of the learned"
+      "section_en": "Epithets of the learned",
+      "no_motto": true,
+      "motto_display": "section"
     },
     {
       "id": "alc106",
@@ -5881,7 +5889,9 @@
       "group_frtrans": "Paix.",
       "section": "PAX",
       "section_ru": "Мир",
-      "section_en": "Peace"
+      "section_en": "Peace",
+      "no_motto": true,
+      "motto_display": "section"
     },
     {
       "id": "alc191",

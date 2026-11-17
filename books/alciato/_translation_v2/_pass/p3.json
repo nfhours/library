@@ -1,0 +1,832 @@
+{
+ "patches": {
+  "ru": {
+   "102": {
+    "motto": "Любовь — сильнейшая из страстей.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Посмотри, как непобедимый возница побеждает силы льва —",
+       "Амур, мальчуган, вырезанный на геме;",
+       "как он одной рукой держит бич, а другой правит вожжами,",
+       "и как велика красота на лице мальчика.",
+       "Страшная зараза, держись подальше: тот, кто может победить",
+       "такого зверя, удержит ли руки от нас?"
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "107": {
+    "motto": "Αντέρως («Антэрот»), Любовь к доблести, побеждающая другого Купидона.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Немесида изобразила крылатого, враждебного крылатому Амуру,",
+       "укрощая так лук луком и огни огнём,",
+       "чтобы тот претерпел то, что делал другим. А этот мальчик, прежде",
+       "бесстрашно носивший стрелы, теперь, несчастный, плачет.",
+       "Трижды плюёт себе глубоко за пазуху: (дивное дело) огонь",
+       "сжигается огнём, Амур ненавидит неистовства Амура."
+      ]
+     }
+    ],
+    "greek": [
+     {
+      "where": "motto",
+      "original": "Αντέρως",
+      "translation": "Антэрот."
+     }
+    ]
+   },
+   "108": {
+    "motto": "Сладкое иногда становится горьким.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Оставив мать вдали, ненадолго отошёл",
+       "лидийский младенец; но вы, страшные пчёлы, схватили его.",
+       "Он пришёл к вам, думая, что вы кроткие птицы, —",
+       "тогда как и свирепая гадюка не была бы столь безжалостна.",
+       "Ах, вы даёте жала взамен сладкого дара мёда!",
+       "О боль! увы, без тебя не даётся никакая отрада."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "114": {
+    "motto": "О цветах.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Тёмный цвет — знак печали: все мы пользуемся",
+       "этой одеждой, когда приносим жертвы гробницам.",
+       "А белая стола — [знак] чистого духа и непорочного ума.",
+       "Поэтому льняная синдон угодна священнослужителям.",
+       "Зелёный учит нас надеяться. Говорят, что надежда",
+       "«в зелени» всякий раз, как она, тщетная, падает назад [?].",
+       "Жёлтый цвет — для страстных, он подходит и любовникам,",
+       "и блудницам, и тем, у кого надежда была верной.",
+       "А красный плащ пусть украшает вооружённых всадников",
+       "и пусть стыд показывает, что мальчики покраснели.",
+       "Синий [подходит] морякам и пророкам, которые небесного",
+       "ищут, поражённые чрезмерным благочестием.",
+       "Дёшевы серые плащи из некрашеной шерсти,",
+       "какие обычно имеют на покрывала деревянноногие [монахи].",
+       "Кого мучают огромные заботы или ревность любви,",
+       "тот, считается, не худо облачён в рыжеватую одежду.",
+       "Кто доволен своим жребием, пусть носит фиолетовое,",
+       "и [тот], кто невозмутимо переносит тяготы Фортуны.",
+       "Как разнообразна природа в порождении цветов,",
+       "так одним [нравится] одно, другим другое: но каждому милы свои."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "120": {
+    "motto": "На тех, кто хвалит недостойное похвалы.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Огромные отряды галатов [своим] полувооружённым войском",
+       "сверх ожидания рассеял трепещущий Антиох,",
+       "когда свирепая сила луканских быков [слонов], ярость хобота,",
+       "впервые охватила вражеских коней.",
+       "И вот, воздвигая трофей, он изобразил [на нём] слона",
+       "и вдобавок сказал соратникам: «Мы погибли бы,",
+       "если бы нас не спасла гнуснейшая тварь — слон (barrus)».",
+       "Как победить приятно, так победить [таким образом] стыдно."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "91": {
+    "motto": "Пленник из-за чревоугодия.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Владыка [?] кладовой и грызун господского стола,",
+       "мышь, увидела устриц, раскрывших края створок.",
+       "Когда она, приложив нежную бородку, укусила их обманчивые кости [?],",
+       "они, тронутые, внезапно закрыли свой дом",
+       "и удержали пойманного вора в мрачной темнице,",
+       "того, кто сам себя отдал в тёмную гробницу."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "98": {
+    "motto": "Чаша Нестора.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Прими этот Несторов кратер с двумя днищами,",
+       "работу, которую отлила тяжёлая масса серебра.",
+       "Гвоздики [на нём] из золота; вокруг стоят четыре ручки;",
+       "на каждой сидит золотистая голубка.",
+       "Один только долголетний Нестор мог его поднять.",
+       "Научи, что хочет сказать муза Меонида [Гомера]?",
+       "Сама чаша — это небо: у неё серебряный цвет;",
+       "золотые гвоздики — звёзды неба.",
+       "Голубок, о которых он сказал, считают Плеядами.",
+       "Два пупа [днища] — это Большой и Малый Зверь [Медведицы].",
+       "Это мудрый Нестор понимает по долгому опыту:",
+       "войны ведут храбрые, звёзды постигает искусный."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "105": {
+    "motto": "На учёного, плененного Любовью.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Погружённый в занятия, сведущий в речах и в праве",
+       "и величайший составитель прошений (libellio),",
+       "он любит Гелианиру так, как никогда фракийский",
+       "царь [Терей] не любил наложницы — сестры [жены].",
+       "Почему, Киприда, ты одолела Палладу при другом судье?",
+       "Разве недостаточно побеждать под Идой?"
+      ]
+     }
+    ],
+    "greek": []
+   }
+  },
+  "en": {
+   "102": {
+    "motto": "Love, the most powerful passion.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "See how the unconquered charioteer overcomes the strength of the lion —",
+       "Love, a little boy carved on a gem;",
+       "how with this hand he holds the whip, with that he guides the reins,",
+       "and how great is the beauty in the boy's face.",
+       "Dread plague, keep far away: he who is able to conquer such a beast,",
+       "will he keep his hands from us?"
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "107": {
+    "motto": "Αντέρως (“Anteros”), the Love of virtue, overcoming the other Cupid.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Nemesis has portrayed a winged one, hostile to winged Love,",
+       "and so tames bow with bow, and fires with fire,",
+       "so that he may suffer what he has done to others. But this boy, once",
+       "fearlessly carrying his darts, now weeps in misery.",
+       "He spits three times deep into his bosom: (a wondrous thing) fire",
+       "is burned by fire, Love hates the furies of Love."
+      ]
+     }
+    ],
+    "greek": [
+     {
+      "where": "motto",
+      "original": "Αντέρως",
+      "translation": "Anteros."
+     }
+    ]
+   },
+   "114": {
+    "motto": "On colours.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Dark colour is the sign of grief: we all use",
+       "this dress when we make offerings at tombs.",
+       "But the white stole [is the sign] of a sincere spirit and a pure mind.",
+       "Hence linen sindon is pleasing to holy men.",
+       "Green teaches us to hope. Hope is said to be",
+       "“in the green” whenever, unfulfilled, it falls back [?].",
+       "Yellow is the colour for the passionate; it suits lovers too,",
+       "and harlots, and those whose hope was sure.",
+       "But let a red cloak adorn armed horsemen,",
+       "and let shame show that boys have blushed.",
+       "Blue [suits] sailors, and seers who seek heavenly things,",
+       "thunderstruck by excessive religion.",
+       "Cheap are the grey cloaks of undyed wool,",
+       "such as the wooden-footed [friars] usually have for coverings.",
+       "He whom huge cares torment, or the jealousy of love,",
+       "is thought to be not badly clothed in a tawny garment.",
+       "Whoever is content with his lot, let him wear violet,",
+       "and [he] who bears the vexations of Fortune with an even mind.",
+       "As nature is varied in producing colours,",
+       "so one thing [pleases] some, another others: but to each his own are pleasing."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "120": {
+    "motto": "On those who praise what is not praiseworthy.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "The huge troops of the Galatians, with his half-armed soldiers,",
+       "trembling Antiochus had routed beyond hope,",
+       "when the savage force of the Lucanian oxen [elephants], the fury of the trunk,",
+       "first seized the enemy horses.",
+       "So, setting up a trophy, he painted it with the image of an elephant,",
+       "and moreover said to his comrades: “We would have perished,",
+       "had not that most loathsome beast, the elephant (barrus), saved us.”",
+       "As it is pleasing to have won, so it is shameful to have won [thus]."
+      ]
+     }
+    ],
+    "greek": []
+   }
+  },
+  "fr": {
+   "102": {
+    "motto": "L'amour, la plus puissante des passions.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Vois comme le cocher invaincu vainc la force du lion,",
+       "l'Amour, petit garçon gravé sur une gemme ;",
+       "comme d'une main il tient le fouet, de l'autre il guide les rênes,",
+       "et combien grande est la beauté sur le visage de l'enfant.",
+       "Fléau terrible, reste au loin : celui qui peut vaincre une telle bête,",
+       "retiendra-t-il ses mains loin de nous ?"
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "107": {
+    "motto": "Αντέρως (« Antéros »), l'Amour de la vertu, vainquant l'autre Cupidon.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Némésis a peint un être ailé, ennemi de l'Amour ailé,",
+       "et dompte ainsi l'arc par l'arc et les feux par le feu,",
+       "pour qu'il souffre ce qu'il a fait aux autres. Mais cet enfant, jadis",
+       "porteur intrépide de traits, pleure maintenant, malheureux.",
+       "Il crache trois fois au fond de son sein : (chose étonnante) le feu",
+       "est brûlé par le feu, l'Amour hait les fureurs de l'Amour."
+      ]
+     }
+    ],
+    "greek": [
+     {
+      "where": "motto",
+      "original": "Αντέρως",
+      "translation": "Antéros."
+     }
+    ]
+   },
+   "114": {
+    "motto": "Sur les couleurs.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "La couleur sombre est l'indice de la tristesse : nous usons tous",
+       "de cet habit quand nous faisons des offrandes aux tombeaux.",
+       "Mais la stole blanche [est le signe] d'une âme sincère et d'un esprit pur.",
+       "De là le sindon de lin est agréable aux hommes sacrés.",
+       "Le vert nous enseigne à espérer. On dit que l'espérance",
+       "est « dans le vert » chaque fois que, vaine, elle retombe en arrière [?].",
+       "Le jaune est la couleur des passionnés ; il convient aussi aux amants,",
+       "et aux courtisanes, et à ceux dont l'espoir a été assuré.",
+       "Mais que le manteau rouge pare les cavaliers armés,",
+       "et que la pudeur indique que les garçons ont rougi.",
+       "Le bleu [convient] aux marins, et aux devins qui cherchent les choses célestes,",
+       "frappés de stupeur par une religion excessive.",
+       "Vils sont les manteaux gris de laine non teinte,",
+       "tels qu'en ont d'ordinaire pour couvertures les [moines] aux pieds de bois.",
+       "Celui que tourmentent d'immenses soucis, ou la jalousie de l'amour,",
+       "on croit qu'il n'est pas mal vêtu d'un habit fauve.",
+       "Quiconque est content de son sort, qu'il porte le violet,",
+       "et [celui] qui supporte d'une âme égale les dégoûts de la Fortune.",
+       "Comme la nature est variée dans la production des couleurs,",
+       "ainsi aux uns plaît une chose, aux autres une autre : mais à chacun plaisent les siennes."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "120": {
+    "motto": "Sur ceux qui louent ce qui n'est pas louable.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Les énormes escadrons des Galates, avec ses soldats à demi armés,",
+       "Antiochus tremblant les avait mis en déroute contre tout espoir,",
+       "quand la force farouche des bœufs de Lucanie [les éléphants], la fureur de la trompe,",
+       "avait saisi pour la première fois les chevaux ennemis.",
+       "Aussi, dressant un trophée, il y a peint l'image d'un éléphant,",
+       "et a dit de plus à ses compagnons : « Nous aurions péri,",
+       "si la plus hideuse des bêtes, l'éléphant (barrus), ne nous avait sauvés. »",
+       "Autant il est doux d'avoir vaincu, autant il est honteux d'avoir [ainsi] vaincu."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "91": {
+    "motto": "Captif à cause de sa gourmandise.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "La maîtresse [?] du garde-manger et rongeuse de la table du maître,",
+       "une souris, a vu des huîtres entrouvertes au bord de leurs lèvres.",
+       "Quand, y portant sa tendre barbiche, elle a mordu leurs os trompeurs [?],",
+       "elles, touchées, ont soudain fermé leur maison",
+       "et ont retenu le voleur surpris dans une sombre prison,",
+       "lui qui s'était livré à un tombeau obscur."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "105": {
+    "motto": "Sur un homme d'étude pris par l'Amour.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Plongé dans ses études, expert à plaider et en droit,",
+       "et le plus grand des rédacteurs de requêtes (libellio),",
+       "il aime Hélianire plus que jamais le prince",
+       "thrace [Térée] n'a aimé sa concubine, la sœur [de son épouse].",
+       "Pourquoi, Cypris, as-tu vaincu Pallas devant un autre juge ?",
+       "Ne suffit-il pas de vaincre au pied de l'Ida ?"
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "87": {
+    "motto": null,
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "On peint un homme au gosier de grue et au ventre gonflé,",
+       "qui porte dans ses mains une mouette ou un pélican (onocrotalus).",
+       "Telle était la figure de Denys, et telle celle d'Apicius,",
+       "et de ceux que rend célèbres la gourmandise raffinée."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "93": {
+    "motto": null,
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "C'est une vieille coutume d'ajouter",
+       "aux professeurs quelques surnoms.",
+       "N'expliquant que les passages faciles et clairs,",
+       "Curtius est appelé « Canon ».",
+       "Celui qui tourne autour de la même chose et répète trop",
+       "est un « Méandre », comme Parisius.",
+       "Obscur et confus, comme l'était Picus,",
+       "il sera appelé « Labyrinthe ».",
+       "Trop bref, retranchant beaucoup, comme Claudius,",
+       "il portera le surnom de « Pointe » (Mucro).",
+       "Parpalus, qui de sa voix brise même les colonnes,",
+       "est appelé « truo » par les écoliers.",
+       "Au contraire, Albius, parce qu'il avait la voix",
+       "grêle, a été appelé « chauve-souris ».",
+       "Mais Crassus, qui mutile les dernières syllabes comme un écourté (colobotes),",
+       "est appelé « hirondelle ».",
+       "Celui qui, sourd aux autres, veut parler seul,",
+       "est, comme dans le proverbe, un « étourneau ».",
+       "Celui-ci zézaie, celui-là est enroué, cet autre babille.",
+       "Celui-ci siffle comme une vipère.",
+       "Celui-là fait du tumulte de la bouche et des narines.",
+       "La langue de celui-ci fait office de vrille.",
+       "Un autre a le hoquet et tousse en hésitant.",
+       "Un autre crache comme une arroseuse (psecas).",
+       "Autant de vices sont à l'œuvre dans les affaires humaines,",
+       "autant de noms surgissent."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "96": {
+    "motto": "Sur la jeunesse.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Tous deux fils de Jupiter, tous deux tendres et imberbes,",
+       "celui qu'a enfanté Latone et celui qu'a enfanté Sémélé,",
+       "salut, et fleurissez ensemble d'une éternelle jeunesse,",
+       "qui, par votre puissance, me soit à moi aussi durable.",
+       "Toi, dissous les soucis par le vin ; toi, les maladies par le régime,",
+       "pour que la vieillesse tardive arrive d'un pas lent."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "98": {
+    "motto": "La coupe de Nestor.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Reçois ce cratère de Nestor à deux fonds,",
+       "ouvrage qu'a répandu une lourde masse d'argent.",
+       "Les clous en sont d'or ; autour se dressent quatre anses ;",
+       "sur chacune est posée une colombe dorée.",
+       "Seul Nestor, chargé d'années, a pu le soulever.",
+       "Enseigne-moi ce que veut dire la muse du Méonien [Homère] ?",
+       "La coupe elle-même est le ciel : sa couleur est d'argent ;",
+       "les clous d'or sont les astres du ciel.",
+       "Les colombes dont il a parlé, on pense que ce sont les Pléiades.",
+       "Les deux ombilics [fonds] sont la Grande et la Petite Bête [les Ourses].",
+       "Cela, le sage Nestor le comprend par un long usage :",
+       "les vaillants font les guerres, l'habile tient les astres."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "100": {
+    "motto": "Sur les astrologues.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Icare, toi qui as été emporté à travers les cieux et l'air, jusqu'au moment où",
+       "la cire fondue t'a précipité dans la mer,",
+       "maintenant la même cire et le feu ardent te ressuscitent,",
+       "afin que par ton exemple tu enseignes des doctrines sûres.",
+       "Que l'astrologue se garde de rien prédire : car",
+       "l'imposteur tombera la tête la première, tandis qu'il vole au-dessus des astres."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "101": {
+    "motto": "Ceux qui contemplent les hauteurs tombent.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Tandis que l'oiseleur trompe les grives avec la glu, les alouettes avec le lacet,",
+       "et que le roseau lancé transperce la grue qui vole haut,",
+       "imprudent, il a heurté du pied une dipsade ; vengeresse",
+       "du mal, elle lance de sa bouche son venin.",
+       "Ainsi périt celui qui, l'arc tendu, regarde les astres,",
+       "insouciant du destin qui gît devant ses pieds."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "109": {
+    "motto": "À peu près la même chose, d'après Théocrite.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Tandis qu'il cueillait le miel dans les ruches, une méchante abeille a piqué",
+       "l'Amour voleur et a laissé ses aiguillons au bout",
+       "de ses doigts ; l'enfant gémit, angoissé, de son doigt enflé,",
+       "et, errant çà et là, frappe le sol ; et à Vénus il montre",
+       "sa douleur, et se plaint amèrement qu'une petite abeille, petit",
+       "animal, puisse elle-même infliger de si nuisibles blessures.",
+       "Vénus, riant, lui a dit : « Toi aussi tu imites cette",
+       "bestiole, mon fils : toi, si petit, qui infliges tant de blessures nuisibles. »"
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "113": {
+    "motto": "Le vieillard amoureux d'une jeune fille.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Quand Sophocle (bien qu'âgé) attire à ses désirs",
+       "la jeune Archippé, qui vivait de son gain,",
+       "et la séduit à prix d'argent, la folle jeunesse l'a mal supporté",
+       "par jalousie, et a flétri l'un et l'autre de ce vers :",
+       "« Comme la chouette sur les tombeaux, comme le hibou sur les cadavres,",
+       "ainsi notre jeune fille est assise auprès de Sophocle. »"
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "116": {
+    "motto": "La Fortune triomphant de la Vertu.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Après que, vaincu par les soldats de César, il a vu",
+       "Pharsale ruisselante de sang civil,",
+       "sur le point de plonger le fer dans sa poitrine mourante,",
+       "Brutus a prononcé d'une bouche audacieuse ces paroles :",
+       "« Malheureuse Vertu, prévoyante seulement en paroles,",
+       "pourquoi dans les faits suis-tu la Fortune comme ta maîtresse ? »"
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "121": {
+    "motto": "Sur le bonheur passager.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "On dit qu'une courge a crû auprès d'un pin élevé",
+       "et s'est épanouie en une grande chevelure.",
+       "Ayant embrassé les rameaux et dépassé la cime même,",
+       "elle s'est crue supérieure aux autres arbres.",
+       "Le pin lui dit : « Cette gloire est trop brève, car",
+       "bientôt viendra l'hiver qui te fera cruellement périr. »"
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "124": {
+    "motto": "Il ne reste rien.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Il ne manquait plus que cela : qu'après tant de maux, enfin,",
+       "les sauterelles ravissent à nos champs tout ce qui s'y trouvait.",
+       "Nous avons vu d'innombrables bataillons s'avancer sous la conduite de l'Eurus,",
+       "tels que n'en avaient ni Attila ni les camps de Xerxès.",
+       "Elles ont consumé le foin, le millet, tout l'épeautre ;",
+       "et l'espérance aussi est à l'étroit, s'il ne reste les vœux."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "126": {
+    "motto": "Les malheurs sont toujours tout proches.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Trois jeunes filles du même âge jouaient jadis",
+       "au sort : laquelle irait la première aux eaux du Styx.",
+       "Mais celle à qui, l'osselet jeté, le dé était mal tombé,",
+       "riait, aveugle à son sort,",
+       "quand soudain, frappée à la tête par un toit qui s'écroulait, elle est morte,",
+       "et a payé la dette du destin due à son jeu audacieux.",
+       "Dans l'adversité le mauvais sort ne se trompe pas ; mais dans",
+       "les choses heureuses il n'y a place ni pour les prières ni pour la main."
+      ]
+     }
+    ],
+    "greek": []
+   }
+  }
+ },
+ "changes": [
+  {
+   "num": 102,
+   "lang": "all",
+   "severity": "средняя",
+   "what": "стр. 1–2: invictus (им. п.) отнесено к vires («непобедимые силы льва / unconquered strength / force invaincue») → «непобедимый возница побеждает силы льва» (invictus auriga … amor)"
+  },
+  {
+   "num": 107,
+   "lang": "all",
+   "severity": "средняя",
+   "what": "стр. 2: domans (им. п.) согласовано с Nemesis, а не с изображённым крылатым (вин. п.): «укрощающего лук луком» → «укрощая так лук луком» (Немесида укрощает)"
+  },
+  {
+   "num": 108,
+   "lang": "ru",
+   "severity": "средняя",
+   "what": "стр. 1: abl. abs. matre procul relicta — младенец оставил мать, а не «мать оставила его» → «Оставив мать вдали, ненадолго отошёл»; EN/FR верно"
+  },
+  {
+   "num": 114,
+   "lang": "all",
+   "severity": "средняя",
+   "what": "стр. 7: cupidis — «жадные / greedy / avides» → «страстные / passionate / passionnés» (любовная символика жёлтого; по проверке alciato-tr-check)"
+  },
+  {
+   "num": 114,
+   "lang": "all",
+   "severity": "средняя",
+   "what": "стр. 10: пропущено подлежащее pudor — показывал плащ → «пусть стыд показывает, что мальчики покраснели» (по проверке alciato-tr-check)"
+  },
+  {
+   "num": 120,
+   "lang": "all",
+   "severity": "средняя",
+   "what": "стр. 1: semermi milite — орудие Антиоха (fuderat), а не признак галатов → «[своим] полувооружённым войском / with his half-armed soldiers / avec ses soldats»"
+  },
+  {
+   "num": 120,
+   "lang": "ru",
+   "severity": "мелочь",
+   "what": "стр. 8: «так [так] победить стыдно» (сбой вставки) → «так победить [таким образом] стыдно»"
+  },
+  {
+   "num": 91,
+   "lang": "ru",
+   "severity": "мелочь",
+   "what": "стр. 3: рассогласование рода «мышь… увидела» / «Когда он… укусил» → «Когда она… укусила»"
+  },
+  {
+   "num": 91,
+   "lang": "fr",
+   "severity": "мелочь",
+   "what": "mus: «un rat» → «une souris» (как RU/EN «мышь/mouse»), согласование стр. 1, 3"
+  },
+  {
+   "num": 91,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "vit, mordit, fermèrent, retinrent → a vu, a mordu, ont fermé, ont retenu"
+  },
+  {
+   "num": 98,
+   "lang": "ru",
+   "severity": "мелочь",
+   "what": "motto: «Кубок Нестора» → «Чаша Нестора» (как в entries.json и стр. 7)"
+  },
+  {
+   "num": 105,
+   "lang": "ru",
+   "severity": "мелочь",
+   "what": "стр. 1: dicundo & iure — два предмета, как в EN/FR: «в судебном праве» → «в речах и в праве»"
+  },
+  {
+   "num": 105,
+   "lang": "fr",
+   "severity": "мелочь",
+   "what": "Hélianira → Hélianire (GLOSSARY)"
+  },
+  {
+   "num": 105,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "n'aima → n'a aimé"
+  },
+  {
+   "num": 87,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "fut → était"
+  },
+  {
+   "num": 93,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "le fut → l'était"
+  },
+  {
+   "num": 93,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "fut appelé → a été appelé"
+  },
+  {
+   "num": 96,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "enfanta → a enfanté (×2)"
+  },
+  {
+   "num": 98,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "répandit → a répandu"
+  },
+  {
+   "num": 98,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "put → a pu"
+  },
+  {
+   "num": 100,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "fus emporté … jusqu'à ce que … te précipitât → as été emporté … jusqu'au moment où … t'a précipité"
+  },
+  {
+   "num": 101,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "heurta → a heurté"
+  },
+  {
+   "num": 109,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "piqua, laissa, dit → a piqué, a laissé, a dit"
+  },
+  {
+   "num": 113,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "supporta, flétrit → l'a mal supporté, a flétri"
+  },
+  {
+   "num": 114,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "fut assuré → a été assuré"
+  },
+  {
+   "num": 116,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "eut vu, prononça → a vu, a prononcé"
+  },
+  {
+   "num": 120,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "saisit, peignit, dit → avait saisi (= corripuisset), a peint, a dit"
+  },
+  {
+   "num": 121,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "crût, s'épanouit, se crut → a crû, s'est épanouie, s'est crue"
+  },
+  {
+   "num": 124,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "eurent → avaient"
+  },
+  {
+   "num": 126,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "mourut, paya → est morte, a payé"
+  }
+ ]
+}

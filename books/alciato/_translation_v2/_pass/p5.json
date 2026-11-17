@@ -1,0 +1,759 @@
+{
+ "patches": {
+  "ru": {
+   "195": {
+    "motto": "Кипарис.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Изображение меты [в цирке] и имя кипариса указывают,",
+       "что со своими следует обращаться на равных условиях."
+      ]
+     },
+     {
+      "label": "Другое.",
+      "reading": [
+       "Кипарис — погребальное дерево: памятники знатных он,",
+       "как сельдерей — [памятники] простонародья, обычно украшает листвой."
+      ]
+     },
+     {
+      "label": "Другое.",
+      "reading": [
+       "Прекрасна листва, и прекрасным порядком расположены ветви,",
+       "но никаких плодов эта прекрасная листва не приносит."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "191": {
+    "motto": "Благочестие детей к родителям.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Когда Эней сквозь врагов отечества нёс из огня",
+       "на плечах сладкую ношу — родителя,",
+       "он говорил: «Пощадите! Вам за похищенного старика никакой",
+       "славы не будет, а мне за спасённого отца — величайшая»."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "177": {
+    "motto": "Красноречие сильнее мужества.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Левая рука держит лук, правая несёт тяжёлую палицу,",
+       "и немейский лев покрывает нагое тело.",
+       "Итак, это облик Геркулеса. Но не подходит к нему то,",
+       "что он стар и носит виски, седые от старости.",
+       "А что значит, что язык его пронизан лёгкими цепями,",
+       "которыми он влечёт податливых людей за проколотые уши?",
+       "Не потому ли, что галлы рассказывают, будто Алкид, превосходя языком,",
+       "а не силой, давал народам законы?",
+       "Оружие уступает тоге, и даже самые жёсткие сердца",
+       "сильный красноречием влечёт к своим желаниям."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "187": {
+    "motto": "На супружескую верность.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Вот девушка, которая соединяется правой рукой с мужем. Вот:",
+       "как она сидит, как щенок играет у её ног!",
+       "Это образ верности; если же её воспитывает пыл Венеры,",
+       "то в левой руке не худо будет ветвь яблони.",
+       "Ибо яблоки — Венерины: так Гиппомен победил",
+       "Схенеиду; так Галатея добивалась мужчины [бросая в него яблоком]."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "190": {
+    "motto": "Любовь к детям.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Раньше весеннего дня седая лесная голубка",
+       "в северную стужу вьёт гнездо и греет ранние яйца;",
+       "и чтобы птенцам было мягче лежать, выщипывает себе крылья",
+       "и, нагая, сама погибает от зимнего холода.",
+       "Не стыдно ли Колхидянке или тебе, бесчестная Прокна, когда",
+       "птица идёт на смерть из любви к своему потомству?"
+      ]
+     }
+    ],
+    "greek": []
+   }
+  },
+  "en": {
+   "195": {
+    "motto": "The cypress.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "The image of the turning-post and the name of the cypress show",
+       "that one's own are to be treated on equal terms."
+      ]
+     },
+     {
+      "label": "Another.",
+      "reading": [
+       "The cypress is a funeral tree: the monuments of nobles it,",
+       "as parsley those of the common people, is wont to adorn with its leaves."
+      ]
+     },
+     {
+      "label": "Another.",
+      "reading": [
+       "Beautiful is the foliage, and the leaves are arranged in beautiful order,",
+       "but this beautiful foliage bears no fruits."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "191": {
+    "motto": "The piety of children towards their parents.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "When Aeneas was carrying from the fire, through the midst of his country's enemies,",
+       "the sweet burden of his father on his shoulders,",
+       "he said: “Have mercy! Seizing an old man will bring you no",
+       "glory; but rescuing my father will bring me the highest.”"
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "177": {
+    "motto": "Eloquence is superior to strength.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "The left hand holds a bow, the right carries a stiff club,",
+       "and the Nemean lion covers the naked body.",
+       "This, then, is the figure of Hercules. But this does not fit,",
+       "that he is old and has temples white with age.",
+       "What of the fact that his tongue is pierced with light chains,",
+       "by which he draws compliant men by their pierced ears?",
+       "Is it because the Gauls say that Alcides, excelling by his tongue,",
+       "not by strength, gave laws to the peoples?",
+       "Arms yield to the toga, and even the hardest hearts",
+       "the man powerful in eloquence draws to his wishes."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "187": {
+    "motto": "On wifely faith.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Behold a girl joined to her husband by the right hand. Behold",
+       "how she sits, how a puppy plays at her feet!",
+       "This is the image of faith; but if the ardour of Venus rears it,",
+       "a branch of apples will not be amiss in her left hand.",
+       "For apples are Venus's: so Hippomenes conquered",
+       "Schoeneis; so Galathea sought her man [pelting him with an apple]."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "182": {
+    "motto": "The letter kills, the spirit gives life.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "When Cadmus entrusted the viper's teeth to the fields",
+       "and sowed the dread seeds in the Aonian soil,",
+       "there arose a shield-bearing cohort of earth-born men,",
+       "who fell at each other's hostile hands.",
+       "To those who escaped, on the advice of Tritonis, having thrown down",
+       "their arms, peace was given, and right hands were joined.",
+       "The son of Agenor [Cadmus] first handed down letters and signs to teachers,",
+       "and joined to them sweet harmony.",
+       "Their pupils are troubled by a great many contradictions,",
+       "which are resolved only by the help of Pallas."
+      ]
+     }
+    ],
+    "greek": []
+   }
+  },
+  "fr": {
+   "195": {
+    "motto": "Le cyprès.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "L'image de la borne [du cirque] et le nom du cyprès indiquent",
+       "qu'il faut traiter les siens à égale condition."
+      ]
+     },
+     {
+      "label": "Autre.",
+      "reading": [
+       "Le cyprès est un arbre funèbre : les monuments des grands,",
+       "comme l'ache ceux du peuple, il a coutume de les orner de son feuillage."
+      ]
+     },
+     {
+      "label": "Autre.",
+      "reading": [
+       "Belle est la chevelure, et les feuilles sont disposées en bel ordre,",
+       "mais cette belle chevelure ne porte aucun fruit."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "191": {
+    "motto": "La piété des enfants envers leurs parents.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Quand Énée portait hors du feu, au milieu des ennemis de la patrie,",
+       "sur ses épaules le doux fardeau de son père,",
+       "il disait : « Grâce ! Enlever un vieillard ne vous vaudra",
+       "aucune gloire ; mais sauver mon père me vaudra la plus grande. »"
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "177": {
+    "motto": "L'éloquence l'emporte sur la force.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "La main gauche tient un arc, la droite porte une massue rigide,",
+       "et le lion de Némée couvre le corps nu.",
+       "C'est donc là la figure d'Hercule. Mais ceci ne convient pas :",
+       "qu'il soit vieux et ait les tempes blanchies par l'âge.",
+       "Que dire du fait que sa langue est percée de légères chaînes,",
+       "par lesquelles il attire les hommes dociles par les oreilles percées ?",
+       "Est-ce parce que les Gaulois disent qu'Alcide, l'emportant par la langue",
+       "et non par la force, a donné des lois aux peuples ?",
+       "Les armes cèdent à la toge, et même les cœurs les plus durs,",
+       "l'homme puissant par l'éloquence les entraîne à ses désirs."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "187": {
+    "motto": "Sur la foi conjugale.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Voici une jeune fille unie à son époux par la main droite. Voici",
+       "comme elle est assise, comme un petit chien joue devant ses pieds !",
+       "C'est l'image de la foi ; si l'ardeur de Vénus l'entretient,",
+       "un rameau de pommier ne sera pas mal à sa main gauche.",
+       "Car les pommes sont à Vénus : ainsi Hippomène a vaincu",
+       "la Schénéide ; ainsi Galathée a recherché un homme [en lui lançant une pomme]."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "172": {
+    "motto": "Le glaive de l'insensé.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Au milieu d'un troupeau aux soies hérissées se tenait Ajax porte-glaive,",
+       "égorgeant des porcs et croyant égorger les Tantalides.",
+       "Ainsi le porc, victime de remplacement, payait la peine",
+       "pour le fils de Laërte et pour [son] piège [?].",
+       "La fureur ne sait pas nuire à ses ennemis, elle manque son coup,",
+       "et, privée de conseil, se précipite à sa propre perte."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "183": {
+    "motto": "Les maximes des sept sages.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Prends ceci, toi qui veux représenter les maximes des sept sages",
+       "et les célébrer par des peintures.",
+       "« La mesure est le meilleur en toutes choses » (comme dit Cléobule) :",
+       "cela, l'aiguille de la balance ou le niveau l'enseigne.",
+       "Chilon de Sparte ordonnait à chacun de se connaître :",
+       "les miroirs et les verres pris en main le donneront.",
+       "Ce que dit Périandre de Corinthe, « Mets un frein à la colère » :",
+       "le pouliot approché des narines le fera.",
+       "Mais Pittacos a dit : « Rien de trop. » Cela même, le disent",
+       "ceux qui, la bouche contractée, font fondre [?] la nigelle (gith).",
+       "Solon ordonne de regarder la fin : la dernière [limite] des champs,",
+       "Terminus, ne céderait pas même au grand Jupiter.",
+       "Hélas, combien vrai [ce que dit] Bias : « Grand est le nombre des méchants » :",
+       "fais que sur un mouflon soit assis un cavalier sarde.",
+       "« Ne te porte pas caution », a dit Thalès : ainsi la parra engluée",
+       "et le guêpier (merops) entraînent leur compagne dans les lacets."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "168": {
+    "motto": "La juste vengeance.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Tandis que le Cyclope est assis à l'entrée de son antre sinueux,",
+       "il chante en lui-même ces paroles parmi ses tendres brebis :",
+       "« Paissez, vous, les herbes ; moi, je me repaîtrai des compagnons achéens,",
+       "et en dernier mes entrailles recevront Utis (« Personne »). »",
+       "L'Ithacien l'a entendu, et il a rendu le Cyclope",
+       "privé de la vue. Vois-tu comme l'auteur reçoit son châtiment ?"
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "169": {
+    "motto": "La juste vengeance.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Un corbeau emportait dans les airs un scorpion saisi de sa patte,",
+       "butin acquis par un gosier audacieux.",
+       "Mais celui-ci, répandant peu à peu le venin dans ses membres,",
+       "en vengeur, a poussé le ravisseur dans les eaux du Styx.",
+       "Ô chose digne de rire : celui qui préparait la mort aux autres",
+       "périt lui-même, et a succombé à ses propres ruses."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "174": {
+    "motto": "De la guerre, la paix.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Voici le casque qu'avait porté un soldat intrépide, et qui",
+       "a été maintes fois éclaboussé du sang ennemi.",
+       "La paix acquise, il a été cédé aux abeilles pour servir",
+       "de ruche étroite, et il porte des rayons et un miel agréable.",
+       "Que les armes gisent au loin : qu'il soit permis de prendre la guerre seulement",
+       "quand on ne peut autrement jouir de l'art de la paix."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "178": {
+    "motto": "L'éloquence est difficile.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Comme antidote contre les coupes droguées de Circé d'Éa,",
+       "Mercure, selon la tradition, a donné ceci à l'Ithacien.",
+       "On l'appelle moly ; on l'arrache à peine par sa racine noire ;",
+       "[il est] pourpre, mais sa fleur a l'aspect du lait.",
+       "La candeur du discours et la faconde attirent tout le monde,",
+       "mais une si grande chose est l'œuvre d'un grand labeur."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "181": {
+    "motto": "La musique est chère aux dieux.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "À toi, Phébus de Delphes, Eunomos de Locres a dédié",
+       "cette cigale, signe honorable de sa victoire.",
+       "Il rivalisait du plectre, opposé à son adversaire Sparthis,",
+       "et les cordes frappées du pouce rendaient leur son.",
+       "Quand une corde usée (fides) s'est mise à grincer d'un bourdonnement rauque",
+       "et à gâter la mélodie régulière de l'harmonie,",
+       "alors l'oiseau suave, stridulant, s'est posée sur la cithare,",
+       "la cigale, pour suppléer de sa voix la corde rompue.",
+       "Et, attirée par la loi du son, elle est descendue des hauts",
+       "bois pour, babillarde, nous porter secours.",
+       "Aussi, pour que l'honneur de ta cigale (ô saint) demeure ferme,",
+       "c'est elle-même qui siège ici sur la cithare, joueuse de bronze [?]."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "182": {
+    "motto": "La lettre tue, l'esprit vivifie.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Quand Cadmos a confié aux champs les dents de la vipère",
+       "et semé les semences terribles dans le sol aonien,",
+       "il en est né une cohorte armée de boucliers d'hommes nés de la terre,",
+       "qui sont tombés sous la main ennemie les uns des autres.",
+       "À ceux qui en ont réchappé, sur le conseil de Tritonis, les armes",
+       "jetées, la paix a été donnée et les mains droites ont été jointes.",
+       "L'Agénoride [Cadmos] a le premier transmis aux maîtres les lettres et les signes,",
+       "et il y a joint une douce harmonie.",
+       "Leurs disciples sont tourmentés par une foule de contradictions,",
+       "qui ne se tranchent que par le secours de Pallas."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "185": {
+    "motto": "L'esprit, non la beauté, a plus de pouvoir.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Un renard, entré dans l'atelier d'un chorège,",
+       "a trouvé une tête humaine habilement polie,",
+       "façonnée avec tant d'élégance que seul le souffle",
+       "lui manquait ; pour le reste, elle aurait vécu.",
+       "L'ayant prise dans ses mains, il a dit :",
+       "« Quelle tête ! mais elle n'a pas de cervelle. »"
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "193": {
+    "motto": "Sur la statue de la Pudeur.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Pénélope fiancée désirait suivre Ulysse,",
+       "si son père Icarios n'avait préféré la garder auprès de lui.",
+       "L'un offre Ithaque, l'autre Sparte. La jeune fille demeure inquiète :",
+       "d'un côté la presse l'amour de son père, de l'autre l'amour réciproque de son époux.",
+       "Assise donc, elle voile son visage et couvre ses yeux :",
+       "c'étaient là les signes d'une pudeur réservée.",
+       "Par eux Icarios a compris qu'Ulysse lui était préféré,",
+       "et sous cette figure il a élevé un autel à la Pudeur."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "196": {
+    "motto": "Le chêne.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Le chêne est agréable à Jupiter, qui nous conserve et nous réchauffe :",
+       "à qui sauve un citoyen, on donne une couronne de chêne."
+      ]
+     },
+     {
+      "label": "Autre.",
+      "reading": [
+       "De ses glands il a nourri les anciens ; maintenant il n'est utile que par son ombre :",
+       "ainsi de cette façon aussi, oui de cette façon, l'arbre de Jupiter est serviable."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "200": {
+    "motto": "Le cognassier.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "On dit que l'antique Solon a établi",
+       "qu'il fallait donner aux nouvelles mariées des pommes de Cydonie [des coings],",
+       "parce qu'elles sont agréables à la bouche et à l'estomac, afin que leur haleine aussi",
+       "soit douce et qu'un agrément caressant demeure sur leurs lèvres."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "201": {
+    "motto": "Le lierre.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Le petit arbuste de lierre, qui ne se dessèche jamais, et que, dit-on,",
+       "Bacchus a donné en présent à l'enfant Cissus :",
+       "errant, effronté, fauve de ses corymbes dorés,",
+       "vert au dehors, le reste est pâle.",
+       "De là les poètes ceignent leurs tempes de couronnes appropriées :",
+       "ils pâlissent à l'étude, leur gloire reste longtemps verte."
+      ]
+     }
+    ],
+    "greek": []
+   }
+  }
+ },
+ "changes": [
+  {
+   "num": 168,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 5: entendit, rendit → a entendu, a rendu"
+  },
+  {
+   "num": 169,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 4: poussa → a poussé"
+  },
+  {
+   "num": 169,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 6: succomba → a succombé"
+  },
+  {
+   "num": 172,
+   "lang": "fr",
+   "severity": "мелочь",
+   "what": "стр. 1: setiger gregis — «troupeau soyeux» (шелковистое) → «troupeau aux soies hérissées»"
+  },
+  {
+   "num": 174,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 2: fut éclaboussé → a été éclaboussé"
+  },
+  {
+   "num": 177,
+   "lang": "all",
+   "severity": "средняя",
+   "what": "стр. 6: facileis = faciles, вин. мн. при viros («податливых людей»), не наречие. Было «легко привлекает людей» → «влечёт податливых людей»"
+  },
+  {
+   "num": 178,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 2: donna → a donné"
+  },
+  {
+   "num": 181,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 5: se mit → s'est mise"
+  },
+  {
+   "num": 181,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 7: se posa → s'est posée"
+  },
+  {
+   "num": 181,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 9: descendit → est descendue"
+  },
+  {
+   "num": 182,
+   "lang": "en",
+   "severity": "мелочь",
+   "what": "стр. 4: «fell by hostile hands at each other's hands» (удвоение) → «fell at each other's hostile hands»"
+  },
+  {
+   "num": 182,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 1: eut confié → a confié"
+  },
+  {
+   "num": 182,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 3: naquit → est né"
+  },
+  {
+   "num": 182,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 4: tombèrent → sont tombés"
+  },
+  {
+   "num": 182,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 5: réchappèrent → ont réchappé"
+  },
+  {
+   "num": 182,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 6: fut donnée, furent jointes → a été donnée, ont été jointes"
+  },
+  {
+   "num": 182,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 7: transmit → a transmis"
+  },
+  {
+   "num": 182,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 8: joignit → a joint"
+  },
+  {
+   "num": 183,
+   "lang": "fr",
+   "severity": "мелочь",
+   "what": "стр. 15: «la parra (parra)» — удвоение → «la parra»"
+  },
+  {
+   "num": 185,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 2: trouva → a trouvé"
+  },
+  {
+   "num": 185,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 5: dit → a dit"
+  },
+  {
+   "num": 187,
+   "lang": "all",
+   "severity": "средняя",
+   "what": "стр. 6: petiit … virum — отсылка к Verg. Ecl. III.64 «Malo me Galatea petit» (игра «добиваться / метить яблоком», см. GLOSSARY); без пояснения связь с яблоками Венеры терялась. Добавлено «[бросая в него яблоком]»; RU «мужа» → «мужчины» (vir здесь не супруг)"
+  },
+  {
+   "num": 187,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 5: vainquit → a vaincu"
+  },
+  {
+   "num": 187,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 6: rechercha → a recherché (вместе с правкой смысла)"
+  },
+  {
+   "num": 190,
+   "lang": "ru",
+   "severity": "мелочь",
+   "what": "стр. 1: «седая вяхирь» — вяхирь м. р., дальше она «нагая, сама» → «седая лесная голубка»"
+  },
+  {
+   "num": 191,
+   "lang": "all",
+   "severity": "серьёзная",
+   "what": "стр. 3–4: Parcite стоит абсолютно, vobis относится к adorea nulla erit (противопоставление vobis — mihi). Было «Пощадите себя: если похитите старика, славы не будет» → стало «Пощадите! Вам за похищенного старика никакой славы не будет, а мне за спасённого отца — величайшая»"
+  },
+  {
+   "num": 193,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 7: comprit → a compris"
+  },
+  {
+   "num": 193,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 8: éleva → a élevé"
+  },
+  {
+   "num": 193,
+   "lang": "fr",
+   "severity": "мелочь",
+   "what": "стр. 1: «Penelope» → «Pénélope» (GLOSSARY)"
+  },
+  {
+   "num": 195,
+   "lang": "all",
+   "severity": "серьёзная",
+   "what": "«Другое» 1, стр. 1–2: procerum monumenta — дополнение при comere, не приложение к Cupressus. Было «Кипарис — памятник знатных, каким для простонародья бывает сельдерей» → стало «памятники знатных он, как сельдерей — простонародья, обычно украшает листвой»"
+  },
+  {
+   "num": 196,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 1: nourrit (aluit) → a nourri"
+  },
+  {
+   "num": 200,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 1: établit → a établi"
+  },
+  {
+   "num": 201,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 2: donna → a donné"
+  }
+ ]
+}

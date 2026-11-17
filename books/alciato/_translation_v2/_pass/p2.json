@@ -1,0 +1,488 @@
+{
+  "patches": {
+    "ru": {
+      "44": {
+        "motto": null,
+        "subheading": null,
+        "epigrams": [
+          {
+            "label": null,
+            "reading": [
+              "Если в доме хозяина жена совершит прелюбодеяние,",
+              "султанка (porphyrio) теряет мужество и погибает от горя.",
+              "Причина сокрыта в тайнах природы. Пусть эта птица",
+              "будет верным знаком непорочного целомудрия."
+            ]
+          }
+        ],
+        "greek": []
+      },
+      "46": {
+        "motto": "На обманщиков.",
+        "subheading": null,
+        "epigrams": [
+          {
+            "label": null,
+            "reading": [
+              "Маленькая ящерица, звездчатый геккон (stellio), чьё тело усеяно тёмными",
+              "крапинами, который живёт в укрытиях и пустых гробницах,",
+              "изображённый, несёт символы зависти и злого коварства;",
+              "увы, слишком хорошо знакомый ревнивым жёнам.",
+              "Ибо безобразными веснушками покрывается лицо у всякого,",
+              "кто выпьет вино, в которое погружён геккон.",
+              "Отсюда частая месть: соперницу обманывают вином,",
+              "и любовник бросает её, когда утрачен цвет её красоты."
+            ]
+          }
+        ],
+        "greek": []
+      },
+      "66": {
+        "motto": "φιλαυτία (Себялюбие).",
+        "subheading": null,
+        "epigrams": [
+          {
+            "label": null,
+            "reading": [
+              "За то, что твоя красота слишком [нравилась] тебе, Нарцисс [?],",
+              "[она] обращена в цветок и в траву известного оцепенения (νάρκη).",
+              "Себялюбие — это увядание и гибель дарования: оно",
+              "губит и погубило многих учёных мужей,",
+              "которые, отбросив метод древних, ищут новых учений",
+              "и не передают ничего, кроме своих фантазий."
+            ]
+          }
+        ],
+        "greek": [
+          {
+            "where": "motto",
+            "original": "φιλαυτία.",
+            "translation": "Себялюбие."
+          }
+        ]
+      },
+      "71": {
+        "motto": "Гробница блудницы.",
+        "subheading": "Διαλογιστικῶς («В форме диалога»).",
+        "epigrams": [
+          {
+            "label": null,
+            "reading": [
+              "Что за гробница? Чья урна? Это [урна] эфирейской Лаиды.",
+              "Ах, неужели не",
+              "постыдилась Парка погубить такую красоту?",
+              "Тогда уже не было никакой красоты: её уже сорвал возраст,",
+              "и старуха уже предусмотрительно посвятила Венере зеркало.",
+              "Что значит высеченный баран, которого львица",
+              "держит, схватив когтями за заднюю часть?",
+              "[То,] что и она так же держала пойманных любовников:",
+              "баран — муж стада, любовника держат за ляжку (clunis)."
+            ]
+          }
+        ],
+        "greek": [
+          {
+            "where": "subheading",
+            "original": "Διαλογιστικῶς.",
+            "translation": "В форме диалога."
+          }
+        ]
+      },
+      "79": {
+        "motto": "На тех, кто легко отступает от доблести.",
+        "subheading": null,
+        "epigrams": [
+          {
+            "label": null,
+            "reading": [
+              "Как маленький слизень (limax), прилипала (remora), пренебрегая натиском ветра",
+              "и вёсел (remorum), одна может остановить корабль,",
+              "так некоторых, вознесённых дарованием и доблестью к звёздам,",
+              "задерживает на середине пути пустячная причина:",
+              "например, мучительная тяжба или любовная страсть к блудницам,",
+              "которая отвлекает юношей от превосходных занятий."
+            ]
+          }
+        ],
+        "greek": []
+      }
+    },
+    "en": {
+      "44": {
+        "motto": null,
+        "subheading": null,
+        "epigrams": [
+          {
+            "label": null,
+            "reading": [
+              "If in the master's house the wife commits adultery,",
+              "the porphyrion loses heart and dies of grief.",
+              "The cause is hidden in the secrets of nature. Let this bird",
+              "be a sure sign of pure chastity."
+            ]
+          }
+        ],
+        "greek": []
+      },
+      "46": {
+        "motto": "On deceivers.",
+        "subheading": null,
+        "epigrams": [
+          {
+            "label": null,
+            "reading": [
+              "The little lizard, the stellio, its body starred with dark",
+              "spots, which haunts hiding places and hollow tombs,",
+              "when depicted carries the symbols of envy and wicked guile;",
+              "alas, all too well known to jealous wives.",
+              "For anyone's face is covered with ugly freckles",
+              "who drinks wine in which a stellio has been steeped.",
+              "Hence a frequent revenge: the mistress is tricked with the wine,",
+              "and her lover abandons her once the flower of her beauty is lost."
+            ]
+          }
+        ],
+        "greek": []
+      },
+      "71": {
+        "motto": "The tomb of a harlot.",
+        "subheading": "Διαλογιστικῶς (“In the form of a dialogue”).",
+        "epigrams": [
+          {
+            "label": null,
+            "reading": [
+              "What tomb is this? Whose urn? It is that of Lais of Ephyra.",
+              "Ah, did not",
+              "Fate (Parca) blush to destroy such beauty?",
+              "There was no beauty then: age had already plucked it,",
+              "and the old woman had already prudently dedicated her mirror to Venus.",
+              "What does the carved ram mean, which a lioness",
+              "holds, seized with her claws by its hind part?",
+              "That she too held her captured lovers in the same way:",
+              "the ram is the husband of the flock; the lover is held by the haunch (clunis)."
+            ]
+          }
+        ],
+        "greek": [
+          {
+            "where": "subheading",
+            "original": "Διαλογιστικῶς.",
+            "translation": "In the form of a dialogue."
+          }
+        ]
+      },
+      "79": {
+        "motto": "On those who easily fall away from virtue.",
+        "subheading": null,
+        "epigrams": [
+          {
+            "label": null,
+            "reading": [
+              "As the little slug (limax), the remora, scorning the force of the wind",
+              "and of the oars (remorum), alone can stop a ship,",
+              "so some men, borne by talent and virtue towards the stars,",
+              "are held back in mid-course by a trifling cause:",
+              "such as an anxious lawsuit, or the passion for harlots",
+              "which draws young men away from excellent studies."
+            ]
+          }
+        ],
+        "greek": []
+      }
+    },
+    "fr": {
+      "44": {
+        "motto": null,
+        "subheading": null,
+        "epigrams": [
+          {
+            "label": null,
+            "reading": [
+              "Si, dans la maison du maître, l'épouse commet l'adultère,",
+              "le porphyrion perd courage et meurt de douleur.",
+              "La cause est cachée dans les secrets de la nature. Que cet oiseau",
+              "soit un signe certain de la chasteté sans tache."
+            ]
+          }
+        ],
+        "greek": []
+      },
+      "46": {
+        "motto": "Sur les fourbes.",
+        "subheading": null,
+        "epigrams": [
+          {
+            "label": null,
+            "reading": [
+              "Le petit lézard, le stellion (stellio), au corps étoilé de taches",
+              "sombres, qui habite les cachettes et les tombeaux creux,",
+              "porte, quand on le peint, les symboles de l'envie et de la ruse méchante ;",
+              "hélas, trop bien connu des épouses jalouses.",
+              "Car le visage se couvre de vilaines taches de rousseur chez quiconque",
+              "boit du vin où l'on a plongé un stellion.",
+              "De là une vengeance fréquente : la concubine est trompée par le vin,",
+              "et son amant l'abandonne, une fois perdue la fleur de sa beauté."
+            ]
+          }
+        ],
+        "greek": []
+      },
+      "79": {
+        "motto": "Sur ceux qui se détournent facilement de la vertu.",
+        "subheading": null,
+        "epigrams": [
+          {
+            "label": null,
+            "reading": [
+              "Comme la petite limace (limax), le rémora (remora), méprisant l'élan du vent",
+              "et des rames (remorum), peut à lui seul arrêter un navire,",
+              "ainsi certains, portés vers les astres par le talent et la vertu,",
+              "sont retenus à mi-chemin par une cause légère :",
+              "comme un procès angoissant, ou l'ardeur pour les courtisanes",
+              "qui détourne les jeunes gens des études excellentes."
+            ]
+          }
+        ],
+        "greek": []
+      },
+      "59": {
+        "motto": "Autre.",
+        "subheading": null,
+        "epigrams": [
+          {
+            "label": null,
+            "reading": [
+              "Celle qui ne vole que le soir, qui a la vue faible,",
+              "qui, tout en portant des ailes, a tout le reste d'une souris,",
+              "s'applique à des choses diverses. D'abord elle désigne",
+              "les gens mal famés, qui se cachent et craignent le jugement.",
+              "Ensuite les philosophes aussi, qui, pendant qu'ils cherchent les choses célestes,",
+              "ont les yeux troubles et ne voient que le faux.",
+              "Enfin les rusés aussi, qui, suivant en secret les deux [partis],",
+              "n'acquièrent la confiance ni de l'un ni de l'autre."
+            ]
+          }
+        ],
+        "greek": []
+      },
+      "76": {
+        "motto": "La lascivité.",
+        "subheading": "Problème.",
+        "epigrams": [
+          {
+            "label": null,
+            "reading": [
+              "On croit que la souris blanche dénote les délices",
+              "et la mollesse, mais la raison ne m'en est pas assez claire.",
+              "Est-ce parce que sa nature est lubrique et son désir grand ?",
+              "Ou parce qu'elle pare de sa fourrure les épouses romaines ?",
+              "Beaucoup appellent zibeline (zibellus) la souris sarmate,",
+              "et le musc arabe est célèbre pour son doux parfum."
+            ]
+          }
+        ],
+        "greek": []
+      },
+      "54": {
+        "motto": "Sur les téméraires.",
+        "subheading": null,
+        "epigrams": [
+          {
+            "label": null,
+            "reading": [
+              "Tu vois Phaéton, conducteur du char paternel,",
+              "qui a osé diriger les chevaux du Soleil vomissant le feu.",
+              "Après avoir répandu sur la terre les plus grands incendies,",
+              "le malheureux est tombé de l'essieu qu'il avait témérairement occupé.",
+              "Ainsi la plupart des rois, élevés jusqu'aux astres par les roues de la Fortune,",
+              "que pousse une ambition juvénile,",
+              "après un grand désastre du genre humain et le leur propre,",
+              "paient enfin la peine de tous leurs crimes."
+            ]
+          }
+        ],
+        "greek": []
+      },
+      "64": {
+        "motto": "L'orgueil.",
+        "subheading": null,
+        "epigrams": [
+          {
+            "label": null,
+            "reading": [
+              "Voici la statue d'une statue, et un marbre tiré du marbre :",
+              "l'insolente Niobé, qui a osé se comparer aux dieux.",
+              "L'orgueil est un vice de femme, et il dénonce une dureté",
+              "du visage et des sentiments, telle qu'il y en a dans la pierre."
+            ]
+          }
+        ],
+        "greek": []
+      },
+      "73": {
+        "motto": "Il faut se garder des courtisanes.",
+        "subheading": null,
+        "epigrams": [
+          {
+            "label": null,
+            "reading": [
+              "On dit que si grand était le pouvoir de Circé, née du Soleil,",
+              "qu'elle a changé beaucoup d'hommes en monstres nouveaux.",
+              "Témoins Picus, dompteur de chevaux, puis Scylla à deux formes,",
+              "et les [compagnons] de l'Ithacien, devenus pourceaux après avoir bu le vin.",
+              "Circé, sous un nom illustre, désigne la courtisane,",
+              "et [montre] que quiconque aime perd la raison de son esprit."
+            ]
+          }
+        ],
+        "greek": []
+      },
+      "74": {
+        "motto": "L'amulette de Vénus.",
+        "subheading": null,
+        "epigrams": [
+          {
+            "label": null,
+            "reading": [
+              "Adonis, transpercé à l'aine par la défense féroce, Cypris",
+              "l'a déposé sans vie dans des feuilles de laitue.",
+              "De là la laitue résiste au champ génital autant",
+              "que la roquette lubrique peut à peine l'exciter."
+            ]
+          }
+        ],
+        "greek": []
+      },
+      "75": {
+        "motto": "Invulnérables au trait de Cupidon.",
+        "subheading": null,
+        "epigrams": [
+          {
+            "label": null,
+            "reading": [
+              "Pour que le cruel amour ne te vainque pas, et qu'aucune femme",
+              "ne déchire ton esprit par des arts magiques,",
+              "qu'on te tienne prêt l'oiseau bachique, la bergeronnette,",
+              "que tu placeras, à quatre rayons, dans le cercle d'une roue,",
+              "de façon qu'elle forme une croix du bec, de la queue et des deux ailes :",
+              "une telle amulette [protégera] contre tout charme.",
+              "C'est, dit-on, grâce à ce signe de Vénus que Jason de Pagases",
+              "n'a pu être atteint par les ruses du Phase [de Colchide]."
+            ]
+          }
+        ],
+        "greek": []
+      },
+      "80": {
+        "motto": "Les paresseux.",
+        "subheading": null,
+        "epigrams": [
+          {
+            "label": null,
+            "reading": [
+              "Une fable antique voulait que le héron étoilé représentât un esclave paresseux,",
+              "et ses occupations, et ses mœurs.",
+              "Elle a imaginé que le serviteur Astérias avait pris la forme de l'oiseau :",
+              "qu'on laisse aux historiens le soin d'y croire.",
+              "Il est comme un faucon dégénéré qui [?] dans l'air,",
+              "appelé « ardelio » [affairé oisif] par les anciens poètes."
+            ]
+          }
+        ],
+        "greek": []
+      }
+    }
+  },
+  "changes": [
+    {
+      "num": 44,
+      "lang": "all",
+      "severity": "серьёзная",
+      "what": "стр. 1–2: «жена хозяина-порфириона / wife of the porphyrion / maison du porphyrion son maître» → «в доме хозяина жена…, порфирион падает духом»: domini относится к aedibus, подлежащее Despondet — porphirio; в RU заодно термин по глоссарию «султанка (porphyrio)»"
+    },
+    {
+      "num": 46,
+      "lang": "all",
+      "severity": "серьёзная",
+      "what": "стр. 7–8: «месть [жены], обманутой соперницей» → «соперницу обманывают вином, и любовник бросает её»: decepta pellice vino — abl. abs., обманута вином любовница (pellex), её и бросает amans"
+    },
+    {
+      "num": 66,
+      "lang": "ru",
+      "severity": "средняя",
+      "what": "стр. 2: «[ты] обращён в цветок» → «[она] обращена»: подлежащее est versa — forma (как в EN/FR)"
+    },
+    {
+      "num": 71,
+      "lang": "ru",
+      "severity": "средняя",
+      "what": "стр. 9: «любовник держится ляжкой» → «любовника держат за ляжку»: clune tenetur amans — пассив, любовника держат"
+    },
+    {
+      "num": 71,
+      "lang": "en",
+      "severity": "мелочь",
+      "what": "стр. 3: «the Fate» → «Fate (Parca)» по глоссарию"
+    },
+    {
+      "num": 79,
+      "lang": "all",
+      "severity": "средняя",
+      "what": "стр. 1: выпало limax → «Как маленький слизень (limax), прилипала (remora)…»; velut здесь — «как» сравнения при Sic (стр. 3), limax — приложение к Remora (не «малая, как улитка»)"
+    },
+    {
+      "num": 59,
+      "lang": "fr",
+      "severity": "мелочь",
+      "what": "стр. 2: muris «d'un rat» → «d'une souris» (mus = мышь; ср. chauve-souris, RU/EN mouse)"
+    },
+    {
+      "num": 76,
+      "lang": "fr",
+      "severity": "мелочь",
+      "what": "стр. 1, 4, 5: mus albus / Sarmaticum murem «rat» → «souris» (как в RU/EN), согласование il → elle"
+    },
+    {
+      "num": 54,
+      "lang": "fr",
+      "severity": "fr-tense",
+      "what": "стр. 2: «qui osa diriger» → «qui a osé diriger» (passé simple, RULES 11.3)"
+    },
+    {
+      "num": 54,
+      "lang": "fr",
+      "severity": "fr-tense",
+      "what": "стр. 4: «le malheureux tomba de» → «le malheureux est tombé de» (passé simple, RULES 11.3)"
+    },
+    {
+      "num": 64,
+      "lang": "fr",
+      "severity": "fr-tense",
+      "what": "стр. 2: «qui osa se comparer» → «qui a osé se comparer» (passé simple, RULES 11.3)"
+    },
+    {
+      "num": 73,
+      "lang": "fr",
+      "severity": "fr-tense",
+      "what": "стр. 2: «qu'elle changea beaucoup» → «qu'elle a changé beaucoup» (passé simple, RULES 11.3)"
+    },
+    {
+      "num": 74,
+      "lang": "fr",
+      "severity": "fr-tense",
+      "what": "стр. 2: «le déposa sans vie» → «l'a déposé sans vie» (passé simple, RULES 11.3)"
+    },
+    {
+      "num": 75,
+      "lang": "fr",
+      "severity": "fr-tense",
+      "what": "стр. 8: «ne put être atteint» → «n'a pu être atteint» (passé simple, RULES 11.3)"
+    },
+    {
+      "num": 80,
+      "lang": "fr",
+      "severity": "fr-tense",
+      "what": "стр. 3: «Astérias prit la forme» → «Astérias avait pris la forme» (passé simple, RULES 11.3)"
+    }
+  ]
+}

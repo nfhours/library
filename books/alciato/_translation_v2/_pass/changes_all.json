@@ -1,0 +1,812 @@
+[
+ {
+  "num": 22,
+  "lang": "all",
+  "severity": "средняя",
+  "what": "стр. 15–16 fulmine… Igniuomo: «огнедышащей» относилось к Семеле/отцу (EN «fire-spewing, he», FR «crachant le feu, il») → «огнедышащей молнией» / «with the fire-spewing thunderbolt» / «par la foudre qui crache le feu» (+FR tira/plongea → passé composé)"
+ },
+ {
+  "num": 31,
+  "lang": "ru",
+  "severity": "средняя",
+  "what": "стр. 5–6 ducis imperium: «переносит власть вожака» (вожак стада) → «подчиняется власти погонщика»; FR «conducteur» уже верно"
+ },
+ {
+  "num": 31,
+  "lang": "en",
+  "severity": "средняя",
+  "what": "стр. 6 ducis: «its leader» → «its driver» (погонщик, не вожак стада)"
+ },
+ {
+  "num": 39,
+  "lang": "en",
+  "severity": "мелочь",
+  "what": "стр. 3 non irrumpes perfracto limite (abl. abs.): «break through the shattered frontier» → «burst in by breaking the frontier»; RU верно"
+ },
+ {
+  "num": 39,
+  "lang": "fr",
+  "severity": "мелочь",
+  "what": "стр. 3 то же: «tu ne forceras pas la frontière brisée» → «tu ne feras pas irruption en forçant la frontière»"
+ },
+ {
+  "num": 25,
+  "lang": "ru",
+  "severity": "мелочь",
+  "what": "стр. 3 Iustior Neptunus: «справедливый» → «более справедливый» (сравнение с несправедливым собранием; EN/FR верно)"
+ },
+ {
+  "num": 17,
+  "lang": "fr",
+  "severity": "средняя",
+  "what": "девиз Maturandum («спешить вовремя», ср. RU/EN): «Mûrir avant d'agir» (только промедление) → «Il faut se hâter à propos.»"
+ },
+ {
+  "num": 34,
+  "lang": "fr",
+  "severity": "мелочь",
+  "what": "стр. 5 murinæ pelles: «peaux de rats» → «peaux de souris» (как RU/EN)"
+ },
+ {
+  "num": 37,
+  "lang": "ru",
+  "severity": "мелочь",
+  "what": "стр. 2 pietas mutua между братьями: «взаимное благочестие» → «взаимная преданность» (как EN devotion)"
+ },
+ {
+  "num": 37,
+  "lang": "fr",
+  "severity": "мелочь",
+  "what": "стр. 2 то же: «piété mutuelle» → «affection mutuelle»"
+ },
+ {
+  "num": 41,
+  "lang": "all",
+  "severity": "мелочь",
+  "what": "стр. 15 Rhamnusia vindex — форма по глоссарию: «Рамнузийская… каратель» / «The Rhamnusian» / «La Rhamnousianne» → «Рамнузия [Немесида], мстительница» / «Rhamnusia» / «Rhamnousia»"
+ },
+ {
+  "num": 42,
+  "lang": "fr",
+  "severity": "мелочь",
+  "what": "стр. 1 setiger suis: «porc soyeux» (двусмысленно) → «porc aux soies»; заодно offrit/dit → m'a offert/m'a dit"
+ },
+ {
+  "num": 2,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "passé simple → passé composé: «Cécrops régna sur» → «Cécrops a régné sur»; «la terre mère enfanta les géants» → «la terre mère a enfanté les géants»"
+ },
+ {
+  "num": 9,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "passé simple → passé composé: «que Dédale enferma derrière» → «que Dédale a enfermé derrière»"
+ },
+ {
+  "num": 10,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "passé simple → passé composé: «elle ne trahit personne» → «elle n'a trahi personne»"
+ },
+ {
+  "num": 11,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "passé simple → passé composé: «put vaincre la Chimère» → «a pu vaincre la Chimère»"
+ },
+ {
+  "num": 13,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "passé simple → passé composé: «Héraclite apaisa la foule» → «Héraclite a apaisé la foule»; «et la calma,» → «et l'a calmée,»"
+ },
+ {
+  "num": 14,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "passé simple → passé composé: «enferma lui-même sa doctrine» → «a enfermé lui-même sa doctrine»"
+ },
+ {
+  "num": 15,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "passé simple → passé composé: «que tu fus un homme avisé» → «que tu as été un homme avisé»"
+ },
+ {
+  "num": 20,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "passé simple → passé composé: «le premier inventa le vin pur» → «le premier a inventé le vin pur»"
+ },
+ {
+  "num": 23,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "passé simple → passé composé: «donnèrent à Fabius» → «ont donné à Fabius»; «devint dieu» → «est devenu dieu»"
+ },
+ {
+  "num": 25,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "passé simple → passé composé: «s'en saisit quand il fut jeté à la mer» → «s'en est saisi quand il a été jeté à la mer»; «pour qu'il pût aller» → «pour qu'il puisse aller»; «la vague le porta au tertre» → «la vague l'a porté au tertre»"
+ },
+ {
+  "num": 26,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "passé simple → passé composé: «eut anéanti» → «avait anéanti»; «il monta en vainqueur sur un char, attela des lions» → «il est monté en vainqueur sur un char, a attelé des lions»; «et força leurs cous» → «et a forcé leurs cous»"
+ },
+ {
+  "num": 22,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "tira/plongea → m'a tiré/m'a plongé (в составе правки 22 выше)"
+ },
+ {
+  "num": "intro-3",
+  "lang": "all",
+  "severity": "серьёзная",
+  "what": "стр. 6 Fortior hæc dubitet, ocyor ánne siet: dubitet — безличное «усомнишься», косвенный вопрос «сильнее ли или быстрее»; было «будь она сильнее — стала бы колебаться, или была бы быстрее?» → «и усомнишься, сильнее ли он или быстрее» (EN/FR так же)"
+ },
+ {
+  "num": "intro-3",
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 3 répondit → a répondu"
+ },
+ {
+  "num": "intro-1",
+  "lang": "all",
+  "severity": "средняя",
+  "what": "стр. 7 sic quosdam enitier angues: змеи сами так рождают (через пасть), а не «иные появляются на свет от змей» / «some are born of serpents» / «naissent certains des serpents»"
+ },
+ {
+  "num": "intro-1",
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 8 naquit → est née"
+ },
+ {
+  "num": "intro-2",
+  "lang": "all",
+  "severity": "мелочь",
+  "what": "стр. 3–4 sacram… puellæ terram: «священна» земля, а не дева → «землёй, священной для девы» / «land sacred to the maiden» / «terre sacrée pour la vierge»"
+ },
+ {
+  "num": "intro-2",
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 3 appela → l'a appelée (ma patrie); стр. 5 honora → a honoré"
+ },
+ {
+  "num": "intro",
+  "lang": "fr",
+  "severity": "мелочь",
+  "what": "типографика FR во всех трёх вводных текстах: обычные пробелы перед ; : ? и внутри « » → неразрывные"
+ },
+ {
+  "num": 44,
+  "lang": "all",
+  "severity": "серьёзная",
+  "what": "стр. 1–2: «жена хозяина-порфириона / wife of the porphyrion / maison du porphyrion son maître» → «в доме хозяина жена…, порфирион падает духом»: domini относится к aedibus, подлежащее Despondet — porphirio; в RU заодно термин по глоссарию «султанка (porphyrio)»"
+ },
+ {
+  "num": 46,
+  "lang": "all",
+  "severity": "серьёзная",
+  "what": "стр. 7–8: «месть [жены], обманутой соперницей» → «соперницу обманывают вином, и любовник бросает её»: decepta pellice vino — abl. abs., обманута вином любовница (pellex), её и бросает amans"
+ },
+ {
+  "num": 66,
+  "lang": "ru",
+  "severity": "средняя",
+  "what": "стр. 2: «[ты] обращён в цветок» → «[она] обращена»: подлежащее est versa — forma (как в EN/FR)"
+ },
+ {
+  "num": 71,
+  "lang": "ru",
+  "severity": "средняя",
+  "what": "стр. 9: «любовник держится ляжкой» → «любовника держат за ляжку»: clune tenetur amans — пассив, любовника держат"
+ },
+ {
+  "num": 71,
+  "lang": "en",
+  "severity": "мелочь",
+  "what": "стр. 3: «the Fate» → «Fate (Parca)» по глоссарию"
+ },
+ {
+  "num": 79,
+  "lang": "all",
+  "severity": "средняя",
+  "what": "стр. 1: выпало limax → «Как маленький слизень (limax), прилипала (remora)…»; velut здесь — «как» сравнения при Sic (стр. 3), limax — приложение к Remora (не «малая, как улитка»)"
+ },
+ {
+  "num": 59,
+  "lang": "fr",
+  "severity": "мелочь",
+  "what": "стр. 2: muris «d'un rat» → «d'une souris» (mus = мышь; ср. chauve-souris, RU/EN mouse)"
+ },
+ {
+  "num": 76,
+  "lang": "fr",
+  "severity": "мелочь",
+  "what": "стр. 1, 4, 5: mus albus / Sarmaticum murem «rat» → «souris» (как в RU/EN), согласование il → elle"
+ },
+ {
+  "num": 54,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 2: «qui osa diriger» → «qui a osé diriger» (passé simple, RULES 11.3)"
+ },
+ {
+  "num": 54,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 4: «le malheureux tomba de» → «le malheureux est tombé de» (passé simple, RULES 11.3)"
+ },
+ {
+  "num": 64,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 2: «qui osa se comparer» → «qui a osé se comparer» (passé simple, RULES 11.3)"
+ },
+ {
+  "num": 73,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 2: «qu'elle changea beaucoup» → «qu'elle a changé beaucoup» (passé simple, RULES 11.3)"
+ },
+ {
+  "num": 74,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 2: «le déposa sans vie» → «l'a déposé sans vie» (passé simple, RULES 11.3)"
+ },
+ {
+  "num": 75,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 8: «ne put être atteint» → «n'a pu être atteint» (passé simple, RULES 11.3)"
+ },
+ {
+  "num": 80,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 3: «Astérias prit la forme» → «Astérias avait pris la forme» (passé simple, RULES 11.3)"
+ },
+ {
+  "num": 102,
+  "lang": "all",
+  "severity": "средняя",
+  "what": "стр. 1–2: invictus (им. п.) отнесено к vires («непобедимые силы льва / unconquered strength / force invaincue») → «непобедимый возница побеждает силы льва» (invictus auriga … amor)"
+ },
+ {
+  "num": 107,
+  "lang": "all",
+  "severity": "средняя",
+  "what": "стр. 2: domans (им. п.) согласовано с Nemesis, а не с изображённым крылатым (вин. п.): «укрощающего лук луком» → «укрощая так лук луком» (Немесида укрощает)"
+ },
+ {
+  "num": 108,
+  "lang": "ru",
+  "severity": "средняя",
+  "what": "стр. 1: abl. abs. matre procul relicta — младенец оставил мать, а не «мать оставила его» → «Оставив мать вдали, ненадолго отошёл»; EN/FR верно"
+ },
+ {
+  "num": 114,
+  "lang": "all",
+  "severity": "средняя",
+  "what": "стр. 7: cupidis — «жадные / greedy / avides» → «страстные / passionate / passionnés» (любовная символика жёлтого; по проверке alciato-tr-check)"
+ },
+ {
+  "num": 114,
+  "lang": "all",
+  "severity": "средняя",
+  "what": "стр. 10: пропущено подлежащее pudor — показывал плащ → «пусть стыд показывает, что мальчики покраснели» (по проверке alciato-tr-check)"
+ },
+ {
+  "num": 120,
+  "lang": "all",
+  "severity": "средняя",
+  "what": "стр. 1: semermi milite — орудие Антиоха (fuderat), а не признак галатов → «[своим] полувооружённым войском / with his half-armed soldiers / avec ses soldats»"
+ },
+ {
+  "num": 120,
+  "lang": "ru",
+  "severity": "мелочь",
+  "what": "стр. 8: «так [так] победить стыдно» (сбой вставки) → «так победить [таким образом] стыдно»"
+ },
+ {
+  "num": 91,
+  "lang": "ru",
+  "severity": "мелочь",
+  "what": "стр. 3: рассогласование рода «мышь… увидела» / «Когда он… укусил» → «Когда она… укусила»"
+ },
+ {
+  "num": 91,
+  "lang": "fr",
+  "severity": "мелочь",
+  "what": "mus: «un rat» → «une souris» (как RU/EN «мышь/mouse»), согласование стр. 1, 3"
+ },
+ {
+  "num": 91,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "vit, mordit, fermèrent, retinrent → a vu, a mordu, ont fermé, ont retenu"
+ },
+ {
+  "num": 98,
+  "lang": "ru",
+  "severity": "мелочь",
+  "what": "motto: «Кубок Нестора» → «Чаша Нестора» (как в entries.json и стр. 7)"
+ },
+ {
+  "num": 105,
+  "lang": "ru",
+  "severity": "мелочь",
+  "what": "стр. 1: dicundo & iure — два предмета, как в EN/FR: «в судебном праве» → «в речах и в праве»"
+ },
+ {
+  "num": 105,
+  "lang": "fr",
+  "severity": "мелочь",
+  "what": "Hélianira → Hélianire (GLOSSARY)"
+ },
+ {
+  "num": 105,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "n'aima → n'a aimé"
+ },
+ {
+  "num": 87,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "fut → était"
+ },
+ {
+  "num": 93,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "le fut → l'était"
+ },
+ {
+  "num": 93,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "fut appelé → a été appelé"
+ },
+ {
+  "num": 96,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "enfanta → a enfanté (×2)"
+ },
+ {
+  "num": 98,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "répandit → a répandu"
+ },
+ {
+  "num": 98,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "put → a pu"
+ },
+ {
+  "num": 100,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "fus emporté … jusqu'à ce que … te précipitât → as été emporté … jusqu'au moment où … t'a précipité"
+ },
+ {
+  "num": 101,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "heurta → a heurté"
+ },
+ {
+  "num": 109,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "piqua, laissa, dit → a piqué, a laissé, a dit"
+ },
+ {
+  "num": 113,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "supporta, flétrit → l'a mal supporté, a flétri"
+ },
+ {
+  "num": 114,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "fut assuré → a été assuré"
+ },
+ {
+  "num": 116,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "eut vu, prononça → a vu, a prononcé"
+ },
+ {
+  "num": 120,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "saisit, peignit, dit → avait saisi (= corripuisset), a peint, a dit"
+ },
+ {
+  "num": 121,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "crût, s'épanouit, se crut → a crû, s'est épanouie, s'est crue"
+ },
+ {
+  "num": 124,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "eurent → avaient"
+ },
+ {
+  "num": 126,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "mourut, paya → est morte, a payé"
+ },
+ {
+  "num": 128,
+  "lang": "all",
+  "severity": "мелочь",
+  "what": "стр. 6: «вечна [?]» → «вечна» (и EN/FR): e[?]t однозначно читается как est, лишняя пометка [?] (замечание alciato-tr-check.md)"
+ },
+ {
+  "num": 133,
+  "lang": "all",
+  "severity": "средняя",
+  "what": "стр. 3–4: Calceus … Gestatur … mullea — один башмак (сказуемое gestatur в ед. ч., mullea — его определение «красный»), а не два предмета: «Башмак… [и] красная обувь — их носят» → «Башмак, под которым… был полумесяц, красный (mullea), носят отцы-ромулиды»; EN/FR аналогично"
+ },
+ {
+  "num": 140,
+  "lang": "en",
+  "severity": "мелочь",
+  "what": "стр. 4: imis vadis — «deepest shallows» (оксюморон, vada здесь «дно») → «in the depths of the sea-bed», как в RU/FR"
+ },
+ {
+  "num": 129,
+  "lang": "fr",
+  "severity": "мелочь",
+  "what": "стр. 5: без запятой «les exploits éclatants» читались как второе дополнение к «par»; у Альчато praeclara gesta — второй объект prosequitur: добавлена запятая"
+ },
+ {
+  "num": 165,
+  "lang": "en",
+  "severity": "мелочь",
+  "what": "стр. 1: provocat ultro — «по собственному почину» (RU «сам вызывает» верно): «even challenges» → «challenges the enemy unprovoked»"
+ },
+ {
+  "num": 165,
+  "lang": "fr",
+  "severity": "мелочь",
+  "what": "стр. 1: provocat ultro — «по собственному почину»: «provoque même l'ennemi» → «provoque de lui-même l'ennemi»"
+ },
+ {
+  "num": 141,
+  "lang": "fr",
+  "severity": "мелочь",
+  "what": "стр. 5, 7: Cur resident? / Cur sine sunt manibus? — подлежащее effigies («des figures», ж. р.): «sont-ils assis» → «sont-elles assises», «sont-ils» → «sont-elles»"
+ },
+ {
+  "num": 127,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 1: «eut précipité» (passé antérieur) → «a précipité»"
+ },
+ {
+  "num": 128,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 2: «c'eût été» (subj. plus-que-parfait) → «c'aurait été»"
+ },
+ {
+  "num": 128,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 3: «engloutit» → «a englouti»"
+ },
+ {
+  "num": 131,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 4: «donna» → «a donné»"
+ },
+ {
+  "num": 135,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 2: «fut» → «a été»"
+ },
+ {
+  "num": 135,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 3: «ne put» → «n'a pu»"
+ },
+ {
+  "num": 141,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 4: «furent inventés» → «ont été inventés»"
+ },
+ {
+  "num": 144,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 2: «furent instruits» → «ont été instruits»"
+ },
+ {
+  "num": 147,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 2: «fut frappée» → «a été frappée»"
+ },
+ {
+  "num": 150,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 3: «ne put» → «n'a pu»"
+ },
+ {
+  "num": 151,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 3: «firent… couchèrent» → «ont fait… ont couché»"
+ },
+ {
+  "num": 151,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 4: «fut» → «était»"
+ },
+ {
+  "num": 151,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 5: «prit» → «a pris»"
+ },
+ {
+  "num": 159,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 13: «enfanta» → «a enfanté»"
+ },
+ {
+  "num": 164,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 2: «reçurent» → «ont reçu»"
+ },
+ {
+  "num": 164,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 4: «reçut» → «a reçu»"
+ },
+ {
+  "num": 164,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 5: «acheva» → «a achevé»"
+ },
+ {
+  "num": 164,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 6: «le traîna» → «l'a traîné»"
+ },
+ {
+  "num": 167,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 6: «put» → «a pu»"
+ },
+ {
+  "num": 168,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 5: entendit, rendit → a entendu, a rendu"
+ },
+ {
+  "num": 169,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 4: poussa → a poussé"
+ },
+ {
+  "num": 169,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 6: succomba → a succombé"
+ },
+ {
+  "num": 172,
+  "lang": "fr",
+  "severity": "мелочь",
+  "what": "стр. 1: setiger gregis — «troupeau soyeux» (шелковистое) → «troupeau aux soies hérissées»"
+ },
+ {
+  "num": 174,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 2: fut éclaboussé → a été éclaboussé"
+ },
+ {
+  "num": 177,
+  "lang": "all",
+  "severity": "средняя",
+  "what": "стр. 6: facileis = faciles, вин. мн. при viros («податливых людей»), не наречие. Было «легко привлекает людей» → «влечёт податливых людей»"
+ },
+ {
+  "num": 178,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 2: donna → a donné"
+ },
+ {
+  "num": 181,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 5: se mit → s'est mise"
+ },
+ {
+  "num": 181,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 7: se posa → s'est posée"
+ },
+ {
+  "num": 181,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 9: descendit → est descendue"
+ },
+ {
+  "num": 182,
+  "lang": "en",
+  "severity": "мелочь",
+  "what": "стр. 4: «fell by hostile hands at each other's hands» (удвоение) → «fell at each other's hostile hands»"
+ },
+ {
+  "num": 182,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 1: eut confié → a confié"
+ },
+ {
+  "num": 182,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 3: naquit → est né"
+ },
+ {
+  "num": 182,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 4: tombèrent → sont tombés"
+ },
+ {
+  "num": 182,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 5: réchappèrent → ont réchappé"
+ },
+ {
+  "num": 182,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 6: fut donnée, furent jointes → a été donnée, ont été jointes"
+ },
+ {
+  "num": 182,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 7: transmit → a transmis"
+ },
+ {
+  "num": 182,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 8: joignit → a joint"
+ },
+ {
+  "num": 183,
+  "lang": "fr",
+  "severity": "мелочь",
+  "what": "стр. 15: «la parra (parra)» — удвоение → «la parra»"
+ },
+ {
+  "num": 185,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 2: trouva → a trouvé"
+ },
+ {
+  "num": 185,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 5: dit → a dit"
+ },
+ {
+  "num": 187,
+  "lang": "all",
+  "severity": "средняя",
+  "what": "стр. 6: petiit … virum — отсылка к Verg. Ecl. III.64 «Malo me Galatea petit» (игра «добиваться / метить яблоком», см. GLOSSARY); без пояснения связь с яблоками Венеры терялась. Добавлено «[бросая в него яблоком]»; RU «мужа» → «мужчины» (vir здесь не супруг)"
+ },
+ {
+  "num": 187,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 5: vainquit → a vaincu"
+ },
+ {
+  "num": 187,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 6: rechercha → a recherché (вместе с правкой смысла)"
+ },
+ {
+  "num": 190,
+  "lang": "ru",
+  "severity": "мелочь",
+  "what": "стр. 1: «седая вяхирь» — вяхирь м. р., дальше она «нагая, сама» → «седая лесная голубка»"
+ },
+ {
+  "num": 191,
+  "lang": "all",
+  "severity": "серьёзная",
+  "what": "стр. 3–4: Parcite стоит абсолютно, vobis относится к adorea nulla erit (противопоставление vobis — mihi). Было «Пощадите себя: если похитите старика, славы не будет» → стало «Пощадите! Вам за похищенного старика никакой славы не будет, а мне за спасённого отца — величайшая»"
+ },
+ {
+  "num": 193,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 7: comprit → a compris"
+ },
+ {
+  "num": 193,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 8: éleva → a élevé"
+ },
+ {
+  "num": 193,
+  "lang": "fr",
+  "severity": "мелочь",
+  "what": "стр. 1: «Penelope» → «Pénélope» (GLOSSARY)"
+ },
+ {
+  "num": 195,
+  "lang": "all",
+  "severity": "серьёзная",
+  "what": "«Другое» 1, стр. 1–2: procerum monumenta — дополнение при comere, не приложение к Cupressus. Было «Кипарис — памятник знатных, каким для простонародья бывает сельдерей» → стало «памятники знатных он, как сельдерей — простонародья, обычно украшает листвой»"
+ },
+ {
+  "num": 196,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 1: nourrit (aluit) → a nourri"
+ },
+ {
+  "num": 200,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 1: établit → a établi"
+ },
+ {
+  "num": 201,
+  "lang": "fr",
+  "severity": "fr-tense",
+  "what": "стр. 2: donna → a donné"
+ }
+]

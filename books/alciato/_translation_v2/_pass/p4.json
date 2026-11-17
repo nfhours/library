@@ -1,0 +1,570 @@
+{
+ "patches": {
+  "ru": {
+   "128": {
+    "motto": "Из трудного — вечное имя.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Воробей доверил своих птенцов ветвям платана —",
+       "и хорошо бы, если бы их не увидел свирепый дракон.",
+       "Тот проглотил всех птенцов и несчастную мать,",
+       "окаменевший и достойный погибнуть такой смертью.",
+       "Это, если Калхас не лжёт, — памятники долгого",
+       "труда, слава которого вечна."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "133": {
+    "motto": "Знатные и благородные.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Золотая застёжка скрепляла кекропийские одежды,",
+       "и к ней цепко, зубцом, была присоединена цикада.",
+       "Башмак, под которым по аркадскому обычаю был полумесяц,",
+       "красный (mullea), носят отцы-ромулиды,",
+       "потому что они объявляли себя исконными жителями: эти знаки носили",
+       "мужи, прославленные древней знатностью."
+      ]
+     }
+    ],
+    "greek": []
+   }
+  },
+  "en": {
+   "128": {
+    "motto": "From hard things, an everlasting name.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "A sparrow had entrusted its young to the branches of a plane tree,",
+       "and well, had they not been seen by a savage dragon.",
+       "It swallowed all the chicks and the wretched mother,",
+       "turned to stone, and worthy to die such a death.",
+       "These, unless Calchas lies, are the monuments of a long",
+       "labour, whose fame is everlasting."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "133": {
+    "motto": "The noble and well-born.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "A golden brooch fastened the Cecropian garments,",
+       "to which a cicada was joined, clinging fast with its tooth.",
+       "The shoe beneath which, in Arcadian fashion, there was a little moon,",
+       "is worn, red (mullea), by the fathers, sons of Romulus,",
+       "because they claimed to be natives of the soil: these signs were borne",
+       "by men famous for ancient nobility."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "140": {
+    "motto": "The prince caring for the safety of his subjects.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Whenever the Titan-born brothers [the winds] throw the seas into turmoil,",
+       "then the cast anchor helps the wretched sailors.",
+       "The dolphin, devoted to men, embraces it, so that",
+       "it may be fixed more safely in the depths of the sea-bed.",
+       "How fitting it is for mindful kings to bear this device,",
+       "[remembering] that they are to their people what the anchor is to sailors!"
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "165": {
+    "motto": "One must fear even the smallest.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "The beetle wages war and challenges the enemy unprovoked;",
+       "inferior in strength, he overcomes by cunning.",
+       "For secretly and unrecognised he hides in the eagle's feathers,",
+       "so as to reach the enemy's nest through the high stars.",
+       "And, piercing the eggs, he prevents the hope of offspring from growing,",
+       "and, having in this way avenged the insult done to him, he departs."
+      ]
+     }
+    ],
+    "greek": []
+   }
+  },
+  "fr": {
+   "128": {
+    "motto": "Des choses ardues naît un nom éternel.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Un moineau avait confié ses petits aux branches d'un platane,",
+       "et c'aurait été bien, s'ils n'avaient été vus par un dragon cruel.",
+       "Celui-ci a englouti tous les petits et la malheureuse mère,",
+       "changé en pierre, et digne de périr d'une telle mort.",
+       "Ce sont là, si Calchas ne ment pas, les monuments d'un long",
+       "labeur, dont la renommée est éternelle."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "133": {
+    "motto": "Les nobles et les généreux.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Une fibule d'or attachait les vêtements cécropiens,",
+       "à laquelle était jointe une cigale, tenace par sa dent.",
+       "Le soulier sous lequel, à la mode arcadienne, était un petit croissant,",
+       "rouge (mullea), est porté par les pères romulides,",
+       "parce qu'ils se déclaraient autochtones : ces signes, les portaient",
+       "des hommes illustres par une antique noblesse."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "129": {
+    "motto": "Par l'étude des lettres on acquiert l'immortalité.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Le trompette de Neptune, dont la partie inférieure montre un cétacé,",
+       "et dont le visage montre un dieu de la mer,",
+       "Triton est enfermé au milieu du cercle d'un serpent",
+       "qui tient sa queue, la bouche enfoncée dedans.",
+       "La Renommée accompagne les hommes insignes par le cœur, et les exploits éclatants,",
+       "et ordonne qu'on les lise dans le monde entier."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "165": {
+    "motto": "Il faut craindre même les plus petits.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Le scarabée fait la guerre et provoque de lui-même l'ennemi ;",
+       "inférieur en force, il l'emporte par la ruse.",
+       "Car en secret et sans être reconnu il se cache dans les plumes de l'aigle,",
+       "pour gagner le nid ennemi à travers les hauts astres.",
+       "Et, perçant les œufs, il empêche l'espoir de la couvée de croître,",
+       "et, ayant ainsi vengé l'affront reçu, il s'en va."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "141": {
+    "motto": "Sur le sénat d'un bon prince.",
+    "subheading": "Dialogue.",
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Des figures aux mains coupées sont assises ici",
+       "devant les autels des dieux ; la première est privée de la vue.",
+       "Ces signes de la puissance suprême et du saint sénat",
+       "ont été inventés par les hommes de Thèbes.",
+       "Pourquoi sont-elles assises ? Parce qu'il convient aux juges d'être graves,",
+       "l'esprit calme, et de ne pas varier d'une âme légère.",
+       "Pourquoi sont-elles sans mains ? Pour qu'ils ne prennent pas de présents et ne se laissent",
+       "pas fléchir par des promesses ou des dons.",
+       "Mais le prince est aveugle, parce que, par ses seules oreilles, sans",
+       "passion, il exécute avec constance les décisions du sénat."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "127": {
+    "motto": "Les remèdes sont à la montée, les maux à la descente.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Après que Jupiter a précipité Até des demeures éthérées,",
+       "hélas, combien ce fléau tourmente les hommes !",
+       "Elle s'envole, rapide des pieds et d'ailes promptes,",
+       "et ne laisse rien intact de malheurs.",
+       "Aussi les Lites, enfants de Jupiter, l'accompagnent dans sa course,",
+       "pour raccommoder tout le mal qu'elle aura fait.",
+       "Mais parce qu'elles sont lentes des pieds, borgnes et lasses de vieillesse,",
+       "elles ne réparent rien qu'après, au bout d'un long temps."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "131": {
+    "motto": "Le meilleur citoyen.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Tandis que Thrasybule libère sa patrie par des armes justes,",
+       "et qu'il ordonne à chacun de déposer ses inimitiés,",
+       "tout l'ordre [des citoyens], dans la concorde, comme en grande récompense,",
+       "lui a donné à porter une couronne du feuillage de Pallas.",
+       "Ceins ta chevelure, Thrasybule ; porte seul cet honneur :",
+       "dans la grande ville, nul n'est ton émule."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "135": {
+    "motto": "Sur les bâtards.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Bâtards, célébrez toujours les honneurs d'Hercule :",
+       "car il a été le chef de votre ordre.",
+       "Et il n'a pu être dieu avant d'avoir sucé, enfant,",
+       "le lait que Junon, ignorant la tromperie, lui donnait."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "144": {
+    "motto": "Les conseillers des princes.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "On dit que les fils des héros et le grand Achille",
+       "ont été instruits par Chiron dans ses étables.",
+       "Maître à demi bête, centaure à demi homme,",
+       "voilà ce que doit être quiconque siège auprès des rois.",
+       "Il est bête quand il outrage les alliés, quand il foule aux pieds les ennemis ;",
+       "et il est homme quand il feint d'être pieux envers le peuple."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "147": {
+    "motto": "La république libérée.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "À la mort de César, comme la liberté recouvrée,",
+       "cette monnaie a été frappée par les chefs, les Brutus.",
+       "On y voit d'abord de petits poignards, au-dessus desquels se dresse un bonnet,",
+       "tel qu'en reçoivent les esclaves affranchis."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "150": {
+    "motto": "Il ne faut pas lutter contre les spectres.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Hector, mourant sous le coup de la lance du descendant d'Éaque,",
+       "lui qui tant de fois auparavant avait vaincu ses ennemis,",
+       "n'a pu retenir sa voix, tandis qu'ils l'insultaient",
+       "en préparant les liens pour le char et pour ses pieds :",
+       "« Déchirez-moi comme il vous plaît : ainsi même les lièvres craintifs",
+       "arrachent la barbe du lion privé de la lumière. »"
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "151": {
+    "motto": "De la Mort et de l'Amour.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "La Mort errait, jointe à Cupidon pour compagnon. Avec elle",
+       "la Mort portait des carquois, le petit Amour des traits.",
+       "Ils ont fait halte ensemble, et ensemble ont couché une même nuit :",
+       "l'Amour est aveugle, et la Mort à ce moment était aveugle.",
+       "Car chacun, peu prévoyant, a pris les traits de l'autre :",
+       "la Mort ceux d'or, l'enfant tient les traits d'os.",
+       "De là un vieillard qui devrait maintenant être pour l'Achéron,",
+       "voici qu'il aime, et prépare pour sa tête des couronnes de fleurs.",
+       "Mais moi, parce que l'Amour m'a frappé de l'arc échangé,",
+       "je défaille : les destins portent aussi la main sur moi.",
+       "Épargne, enfant ; Mort, qui tiens les enseignes victorieuses, épargne.",
+       "Fais que j'aime ; fais que le vieillard descende à l'Achéron."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "159": {
+    "motto": "Les Grâces.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Trois Grâces (Charites) assistent Vénus et suivent leur maîtresse,",
+       "et de là elles préparent les plaisirs et les aliments.",
+       "La joie, c'est Euphrosyne ; l'éclat gracieux, Aglaé ;",
+       "Pithus est la Persuasion (Suadela), et l'agrément caressant de la parole.",
+       "Pourquoi sont-elles nues ? parce que la grâce consiste dans la candeur",
+       "de l'esprit, et plaît par une simplicité extrême.",
+       "Ou bien parce que les ingrats ne rendent rien, et que le coffret",
+       "des Grâces est vide ? qui donne des présents reste nu et dans le besoin.",
+       "Pourquoi a-t-on récemment ajouté des talonnières à leurs pieds ? Il donne deux fois,",
+       "celui qui donne vite. Un bienfait tardif est de très peu de prix.",
+       "Pourquoi, les bras entrelacés, l'une est-elle tournée en sens contraire ? L'homme reconnaissant",
+       "prête à intérêt : pour lui, quand l'une s'en va, deux demeurent.",
+       "Jupiter est leur père ; Eurynomé a enfanté, de la semence du ciel,",
+       "ces déesses agréables à tous."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "164": {
+    "motto": "Εχθρῶν ἄδωρα δῶρα (« Les dons des ennemis ne sont pas des dons »). Sur les dons des ennemis.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "On dit qu'Ajax porteur de bouclier et Hector d'Ilion",
+       "ont reçu l'un de l'autre des souvenirs de guerre.",
+       "Le baudrier, le fils de Priam ; l'épée rigide, le fils de Télamon :",
+       "chacun a reçu l'instrument de sa propre mort.",
+       "Car l'épée a achevé Ajax, et Hector mort,",
+       "le baudrier attaché aux roues hémoniennes l'a traîné.",
+       "Ainsi les présents que les ennemis envoient aux ennemis sous couleur",
+       "de complaisance portent un destin qui pressent l'avenir."
+      ]
+     }
+    ],
+    "greek": [
+     {
+      "where": "motto",
+      "original": "Εχθρῶν ἄδωρα δῶρα",
+      "translation": "Les dons des ennemis ne sont pas des dons."
+     }
+    ]
+   },
+   "167": {
+    "motto": "Redoutables même après la mort.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Les autres se tairont, et la peau de brebis restera muette,",
+       "si résonnent des tambours faits d'une peau de loup.",
+       "La membrane de peau de brebis la redoute à tel point, comme un ennemi,",
+       "que, morte, elle ne supporte pas le mort.",
+       "Ainsi Cischas [Žižka], la peau arrachée et changée en tambour,",
+       "a pu vaincre les prélats de Bohême."
+      ]
+     }
+    ],
+    "greek": []
+   }
+  }
+ },
+ "changes": [
+  {
+   "num": 128,
+   "lang": "all",
+   "severity": "мелочь",
+   "what": "стр. 6: «вечна [?]» → «вечна» (и EN/FR): e[?]t однозначно читается как est, лишняя пометка [?] (замечание alciato-tr-check.md)"
+  },
+  {
+   "num": 133,
+   "lang": "all",
+   "severity": "средняя",
+   "what": "стр. 3–4: Calceus … Gestatur … mullea — один башмак (сказуемое gestatur в ед. ч., mullea — его определение «красный»), а не два предмета: «Башмак… [и] красная обувь — их носят» → «Башмак, под которым… был полумесяц, красный (mullea), носят отцы-ромулиды»; EN/FR аналогично"
+  },
+  {
+   "num": 140,
+   "lang": "en",
+   "severity": "мелочь",
+   "what": "стр. 4: imis vadis — «deepest shallows» (оксюморон, vada здесь «дно») → «in the depths of the sea-bed», как в RU/FR"
+  },
+  {
+   "num": 129,
+   "lang": "fr",
+   "severity": "мелочь",
+   "what": "стр. 5: без запятой «les exploits éclatants» читались как второе дополнение к «par»; у Альчато praeclara gesta — второй объект prosequitur: добавлена запятая"
+  },
+  {
+   "num": 165,
+   "lang": "en",
+   "severity": "мелочь",
+   "what": "стр. 1: provocat ultro — «по собственному почину» (RU «сам вызывает» верно): «even challenges» → «challenges the enemy unprovoked»"
+  },
+  {
+   "num": 165,
+   "lang": "fr",
+   "severity": "мелочь",
+   "what": "стр. 1: provocat ultro — «по собственному почину»: «provoque même l'ennemi» → «provoque de lui-même l'ennemi»"
+  },
+  {
+   "num": 141,
+   "lang": "fr",
+   "severity": "мелочь",
+   "what": "стр. 5, 7: Cur resident? / Cur sine sunt manibus? — подлежащее effigies («des figures», ж. р.): «sont-ils assis» → «sont-elles assises», «sont-ils» → «sont-elles»"
+  },
+  {
+   "num": 127,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 1: «eut précipité» (passé antérieur) → «a précipité»"
+  },
+  {
+   "num": 128,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 2: «c'eût été» (subj. plus-que-parfait) → «c'aurait été»"
+  },
+  {
+   "num": 128,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 3: «engloutit» → «a englouti»"
+  },
+  {
+   "num": 131,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 4: «donna» → «a donné»"
+  },
+  {
+   "num": 135,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 2: «fut» → «a été»"
+  },
+  {
+   "num": 135,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 3: «ne put» → «n'a pu»"
+  },
+  {
+   "num": 141,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 4: «furent inventés» → «ont été inventés»"
+  },
+  {
+   "num": 144,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 2: «furent instruits» → «ont été instruits»"
+  },
+  {
+   "num": 147,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 2: «fut frappée» → «a été frappée»"
+  },
+  {
+   "num": 150,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 3: «ne put» → «n'a pu»"
+  },
+  {
+   "num": 151,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 3: «firent… couchèrent» → «ont fait… ont couché»"
+  },
+  {
+   "num": 151,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 4: «fut» → «était»"
+  },
+  {
+   "num": 151,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 5: «prit» → «a pris»"
+  },
+  {
+   "num": 159,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 13: «enfanta» → «a enfanté»"
+  },
+  {
+   "num": 164,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 2: «reçurent» → «ont reçu»"
+  },
+  {
+   "num": 164,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 4: «reçut» → «a reçu»"
+  },
+  {
+   "num": 164,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 5: «acheva» → «a achevé»"
+  },
+  {
+   "num": 164,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 6: «le traîna» → «l'a traîné»"
+  },
+  {
+   "num": 167,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 6: «put» → «a pu»"
+  }
+ ]
+}

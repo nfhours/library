@@ -1,0 +1,956 @@
+{
+ "patches": {
+  "ru": {
+   "22": {
+    "motto": "На статую Вакха.",
+    "subheading": "Диалог.",
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Отец Вакх, кто познал тебя смертным взором",
+       "и кто изваял твои члены искусной рукой?",
+       "Пракситель, который видел меня, когда я похищал кносскую деву [Ариадну],",
+       "и изобразил меня таким, каким я был в то время.",
+       "Почему ты юн и нежным пушком ещё цветёт",
+       "твоя борода, хотя ты мог бы превзойти [годами] пилосского старца [Нестора]?",
+       "Если научишься иногда воздерживаться от моих даров,",
+       "то будешь всегда моложе и с крепкой грудью.",
+       "Ни бубнов в руках, ни рогов на голове у тебя нет недостатка.",
+       "Кому (если не безумцам) подобают такие знаки?",
+       "Этому я учу: кто злоупотребил нашим даром, тот надевает",
+       "рога и в безумии трясёт изнеженными систрами.",
+       "Что значит этот почти огненный цвет членов? (да не будет это",
+       "дурным знаком) не горишь ли ты сам на человеческих очагах?",
+       "Когда родитель извлёк меня из чрева Семелы",
+       "огнедышащей молнией, он окунул меня, опалённого пеплом, в воду.",
+       "Поэтому мудр тот, кто хорошо разбавляет нас текучей водой,",
+       "кто не жжёт себе печень пылающим огнём.",
+       "Но научи меня теперь, как ты хочешь, чтобы тебя смешивали? и по какому",
+       "закону здравый человек может безопасно принимать тебя?",
+       "Пусть прибавит четверть воды тот, кто желает выпить",
+       "чашу фалернского: по такому обычаю чаши приятно пить [?].",
+       "Держись в пределах [двух] гемин: ибо кто стремится зайти",
+       "дальше, тот бодр, а вскоре, опьянев, неистовствует.",
+       "Это слишком тяжело. Глотки жадны [букв. «висячи»], а ты",
+       "течёшь сладко. Увы, никакие блага не даются легко."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "31": {
+    "motto": "Ἀνέχου καὶ ἀπέχου. («Терпи и воздерживайся».)",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "И печальную участь человеку должно переносить, терпя,",
+       "и слишком счастливой часто следовало страшиться.",
+       "«Терпи и воздерживайся», — говорил Эпиктет: нужно",
+       "многое претерпевать и держать руки подальше от недозволенного.",
+       "Так бык, связанный под правым коленом, подчиняется власти",
+       "погонщика; так он удерживается от стельных [коров]."
+      ]
+     }
+    ],
+    "greek": [
+     {
+      "where": "motto",
+      "original": "Ἀνέχου καὶ ἀπέχου.",
+      "translation": "Терпи и воздерживайся."
+     }
+    ]
+   },
+   "25": {
+    "motto": "Наконец, наконец торжествует справедливость.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Щит потомка Эака [Ахилла], облитый кровью Гектора,",
+       "который несправедливое собрание греков отдало итакийцу [Улиссу],",
+       "более справедливый Нептун подхватил, когда он был брошен в море",
+       "при кораблекрушении, чтобы тот мог прийти к своему хозяину.",
+       "Ибо волна принесла его к прибрежному кургану Аякса;",
+       "она ревёт и таким голосом бьёт о гробницу:",
+       "«Ты победил, сын Теламона, ты достойнее оружия».",
+       "Пристрастию надлежит уступать справедливости."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "37": {
+    "motto": "Непобедимое согласие.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Между тремя братьями было согласие,",
+       "столь великое взаимная преданность и одна любовь,",
+       "что, непобедимые человеческими силами, они держали обширные",
+       "царства и назывались одним именем — Герион."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "41": {
+    "motto": "На изображение Надежды.",
+    "subheading": "Диалог.",
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Что за богиня, с таким радостным лицом взирающая на звёзды?",
+       "Чьими кистями передан этот образ?",
+       "Его создали руки Элпидия. Я та, что зовусь",
+       "Доброй Надеждой, подающей несчастным скорую помощь.",
+       "Почему у тебя зелёный плащ? Потому что под моим водительством всё цветёт.",
+       "Почему ты держишь в руках сломанные стрелы смерти?",
+       "Потому что живым подобает надеяться; у погребённых я её отсекаю.",
+       "Почему ты лениво сидишь на крышке бочонка?",
+       "Я одна осталась дома, когда беды разлетелись повсюду,",
+       "как учила чтимая муза аскрейского старца [Гесиода].",
+       "Что за птица при тебе? Ворона, вернейшая вещая птица:",
+       "когда она не может сказать «хорошо», она говорит: «будет».",
+       "Кто спутники? Добрый Исход и стремительный Купидон.",
+       "Кто идёт впереди? Их называют пустыми снами бодрствующих.",
+       "Кто стоит рядом с тобой? Рамнузия [Немесида], мстительница за преступления, —",
+       "то есть чтобы ты надеялся лишь на то, что дозволено."
+      ]
+     }
+    ],
+    "greek": []
+   }
+  },
+  "en": {
+   "22": {
+    "motto": "On a statue of Bacchus.",
+    "subheading": "A dialogue.",
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Father Bacchus, who has known you with mortal eye,",
+       "and who has carved your limbs with skilled hand?",
+       "Praxiteles, who saw me carrying off the Cnossian maid [Ariadne],",
+       "and portrayed me as I was at that time.",
+       "Why are you young, and why does your beard still bloom",
+       "with tender down, though you could surpass [in years] the old man of Pylos [Nestor]?",
+       "If you learn sometimes to spare my gifts,",
+       "you too will always be younger and strong of breast.",
+       "Neither drums in your hands nor horns on your head are lacking.",
+       "Whom (unless madmen) do such signs befit?",
+       "This I teach: whoever has abused our gift puts on",
+       "horns, and in his madness shakes soft sistra.",
+       "What does that almost fiery colour of your limbs mean? (may the omen",
+       "be absent) are you yourself burned on human hearths?",
+       "When my father drew me from Semele's womb",
+       "with the fire-spewing thunderbolt, he plunged me, smeared with ash, into the waters.",
+       "Hence he is wise who dilutes us well with flowing water,",
+       "who does not scorch his liver with burning fire.",
+       "But now teach me how you wish to be mixed, and by what",
+       "law a sane man may take you safely?",
+       "Let him add a quarter of water, whoever wishes to drink",
+       "a cup of Falernian: in this way cups are pleasant to take [?].",
+       "Stay within [two] heminae: for whoever strives to go",
+       "further is merry, but soon, drunk, he raves.",
+       "This is too hard a thing. Throats are eager [lit. “hanging”], and you",
+       "flow sweetly. Alas, no good things come easily."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "31": {
+    "motto": "Ἀνέχου καὶ ἀπέχου. (“Bear and forbear.”)",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Sad fortune must be borne by man by enduring it,",
+       "and too happy fortune has often had to be feared.",
+       "“Bear and forbear,” Epictetus used to say: one must",
+       "endure much and keep one's hands from what is forbidden.",
+       "So the bull, tied by the right knee, bears the command",
+       "of its driver; so it holds itself back from the pregnant [cows]."
+      ]
+     }
+    ],
+    "greek": [
+     {
+      "where": "motto",
+      "original": "Ἀνέχου καὶ ἀπέχου.",
+      "translation": "Bear and forbear."
+     }
+    ]
+   },
+   "39": {
+    "motto": "The most firmly rooted cannot be torn up.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Though father Ocean should stir up all his waves,",
+       "and you, barbarian Turk, should drink the whole Danube,",
+       "yet you will not burst in by breaking the frontier, while Caesar",
+       "Charles gives the peoples the standards of war.",
+       "So the sacred oaks stand on firm roots,",
+       "though the winds shake their dry leaves."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "41": {
+    "motto": "On an image of Hope.",
+    "subheading": "A dialogue.",
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "What goddess is this, looking up at the stars with so joyful a face?",
+       "By whose brushes was this image rendered?",
+       "The hands of Elpidius made it. I am she who is called",
+       "Good Hope, who offers the wretched ready help.",
+       "Why is your cloak green? Because under my guidance all things bloom.",
+       "Why do you carry in your hands the broken arrows of death?",
+       "Because the living should hope; for the buried I cut hope off.",
+       "Why do you sit idly on the lid of a little jar?",
+       "I alone stayed at home when evils flew off in all directions,",
+       "as the revered muse of the old man of Ascra [Hesiod] taught.",
+       "What bird is that beside you? The crow, most faithful of omen-birds:",
+       "when it cannot say “it is well”, it says “it will be”.",
+       "Who are your companions? Good Outcome and headlong Cupid.",
+       "Who go before? They are called the empty dreams of the waking.",
+       "Who stands joined to you? Rhamnusia [Nemesis], avenger of crimes,",
+       "that is, so that you may hope for nothing but what is permitted."
+      ]
+     }
+    ],
+    "greek": []
+   }
+  },
+  "fr": {
+   "22": {
+    "motto": "Sur une statue de Bacchus.",
+    "subheading": "Dialogue.",
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Père Bacchus, qui t'a connu d'un regard mortel,",
+       "et qui a sculpté tes membres d'une main savante ?",
+       "Praxitèle, qui m'a vu enlever la vierge de Cnossos [Ariane],",
+       "et m'a représenté tel que j'étais en ce temps-là.",
+       "Pourquoi es-tu jeune, et pourquoi ta barbe fleurit-elle encore",
+       "d'un tendre duvet, alors que tu pourrais surpasser [en âge] le vieillard de Pylos [Nestor] ?",
+       "Si tu apprends parfois à épargner mes dons,",
+       "tu seras toi aussi toujours plus jeune et la poitrine vigoureuse.",
+       "Ni les tambourins à tes mains, ni les cornes à ta tête ne manquent.",
+       "À qui (sinon aux insensés) conviennent de tels signes ?",
+       "J'enseigne ceci : celui qui a abusé de notre don prend",
+       "des cornes et, pris de folie, agite de mols sistres.",
+       "Que veut dire cette couleur presque ignée de tes membres ? (que le présage",
+       "soit écarté) brûles-tu toi-même sur des foyers humains ?",
+       "Quand mon père m'a tiré du ventre de Sémélé",
+       "par la foudre qui crache le feu, il m'a plongé, souillé de cendre, dans les eaux.",
+       "De là est sage celui qui nous coupe bien d'eau courante,",
+       "qui ne se brûle pas le foie d'un feu ardent.",
+       "Mais apprends-moi maintenant comment tu veux être mêlé, et par quelle",
+       "loi un homme sensé peut te prendre sans danger ?",
+       "Qu'il ajoute un quart d'eau, celui qui désire boire",
+       "une coupe de falerne : de cette façon les coupes sont agréables à prendre [?].",
+       "Reste en deçà de [deux] hémines : car celui qui cherche à aller",
+       "au-delà est gai, mais bientôt, ivre, il devient furieux.",
+       "C'est chose trop dure. Les gosiers sont avides [litt. « pendants »], et toi",
+       "tu coules doucement. Hélas, aucun bien ne vient facilement."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "39": {
+    "motto": "Ce qui est très ferme ne peut être arraché.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Quand bien même le père Océan soulèverait toutes ses vagues,",
+       "et toi, Turc barbare, boirais le Danube entier,",
+       "tu ne feras pourtant pas irruption en forçant la frontière, tant que César",
+       "Charles donnera aux peuples les enseignes de guerre.",
+       "Ainsi les chênes sacrés se tiennent sur de fermes racines,",
+       "bien que les vents secouent leurs feuilles sèches."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "17": {
+    "motto": "Il faut se hâter à propos.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Tous ordonnent de se hâter promptement et de temporiser :",
+       "ni trop de précipitation, ni un retard trop long.",
+       "Que te le montre le trait joint au rémora :",
+       "celui-ci est lent, tandis que les traits lancés par la main volent."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "34": {
+    "motto": "Je porte tout mon bien avec moi.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Le Hun pauvre, très misérable habitant de la mer de Scythie,",
+       "les membres livides, brûlés par un gel perpétuel,",
+       "qui ne connaît ni les richesses de Cérès ni les dons de Lyaeus,",
+       "a pourtant toujours de précieuses couvertures :",
+       "car des peaux de souris l'enserrent de toutes parts.",
+       "Seuls ses yeux sont découverts ; il garde couvert tout le reste.",
+       "Ainsi il ne craint pas le voleur, ainsi il méprise vents et pluies,",
+       "en sûreté parmi les hommes, en sûreté devant les dieux."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "37": {
+    "motto": "La concorde invincible.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Entre trois frères régnait la concorde,",
+       "une si grande affection mutuelle et un seul amour,",
+       "qu'invaincus par les forces humaines ils tenaient de vastes",
+       "royaumes et étaient appelés d'un seul nom, Géryon."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "41": {
+    "motto": "Sur une image de l'Espérance.",
+    "subheading": "Dialogue.",
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Quelle est cette déesse qui regarde les astres d'un visage si joyeux ?",
+       "Par quels pinceaux cette image a-t-elle été rendue ?",
+       "Les mains d'Elpidius l'ont faite. Je suis celle qu'on nomme",
+       "la Bonne Espérance, qui offre aux malheureux un prompt secours.",
+       "Pourquoi ton manteau est-il vert ? Parce que sous ma conduite tout fleurit.",
+       "Pourquoi portes-tu dans tes mains les traits brisés de la mort ?",
+       "Parce que les vivants doivent espérer ; aux ensevelis je retranche l'espoir.",
+       "Pourquoi es-tu assise, oisive, sur le couvercle d'une petite jarre ?",
+       "Je suis seule restée à la maison quand les maux se sont envolés de toutes parts,",
+       "comme l'a enseigné la muse vénérable du vieillard d'Ascra [Hésiode].",
+       "Quel oiseau est près de toi ? La corneille, le plus fidèle des oiseaux de présage :",
+       "quand elle ne peut dire « c'est bien », elle dit « ce sera ».",
+       "Qui sont tes compagnons ? le Bon Événement et Cupidon impétueux.",
+       "Qui marche devant ? On les appelle les songes vains de ceux qui veillent.",
+       "Qui se tient à tes côtés ? Rhamnousia [Némésis], vengeresse des crimes,",
+       "c'est-à-dire pour que tu n'espères rien que ce qui est permis."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "42": {
+    "motto": "De jour en jour meilleur.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Au nouvel an, un client m'a offert le groin d'un porc aux soies",
+       "et m'a dit : « Reçois ce présent pour ton ventre. »",
+       "Il avance toujours et ne regarde jamais en arrière",
+       "quand, vorace, il fouille l'herbe de son groin recourbé.",
+       "Les hommes ont le même souci : que l'espoir ne glisse pas pour reculer",
+       "en arrière, et que ce qui est plus loin soit meilleur."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "2": {
+    "motto": "La sagesse humaine est folie auprès de Dieu.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Que dirai-je ? de quel nom appellerai-je ce monstre",
+       "à deux formes, qui n'est ni homme ni dragon ?",
+       "Mais c'est un homme sans pieds, un serpent sans parties supérieures —",
+       "on peut l'appeler homme aux pieds de serpent et serpent à tête d'homme.",
+       "L'homme rejette [par en bas] un serpent, et le serpent a vomi un homme,",
+       "et l'homme n'a pas de fin, la bête pas de commencement.",
+       "Ainsi jadis Cécrops a régné sur la docte Athènes,",
+       "ainsi la terre mère a enfanté les géants.",
+       "C'est l'image des rusés ; mais elle désigne celui qui est dépourvu de religion",
+       "et ne se soucie que des choses terrestres."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "9": {
+    "motto": "Il ne faut pas divulguer les desseins.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Le monstre que Dédale a enfermé derrière un seuil aveugle et dans une sombre obscurité",
+       "au fond des retraites de Cnossos,",
+       "la phalange romaine le porte peint dans les combats,",
+       "et les enseignes brillent fièrement du taureau à demi homme.",
+       "Elles nous avertissent que les desseins secrets des chefs doivent rester cachés :",
+       "la ruse connue nuit à son auteur."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "10": {
+    "motto": "Ne pas céder même à la torture.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "La lionne que tu vois sculptée sur la citadelle de Cécrops",
+       "était l'amie d'Hermodios (ne le sais-tu pas, étranger ?).",
+       "On a voulu ainsi montrer le courage ardent d'une femme virile",
+       "sous la forme d'une bête, ou parce qu'elle portait ce nom [Léaena, « lionne »].",
+       "Parce que, tordue par les cordes, elle n'a trahi personne",
+       "par son témoignage, Iphicrate l'a représentée sans langue."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "11": {
+    "motto": "Par le conseil et la vertu on vient à bout de la Chimère, c'est-à-dire des plus forts et des trompeurs.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Bellérophon (en vaillant cavalier) a pu vaincre la Chimère",
+       "et abattre les monstres de la terre de Lycie.",
+       "Ainsi toi aussi, porté par les ailes de Pégase, tu gagnes l'éther",
+       "et par le conseil de ton esprit tu domptes les monstres orgueilleux."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "13": {
+    "motto": "Νῆφε καὶ μέμνησ' ἀπιστεῖν. ἄρθρα ταῦτα τῶν φρενῶν. (« Sois sobre et souviens-toi de te méfier : ce sont là les articulations de l'esprit. ») Vivre sobrement et ne pas croire à la légère.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "« Ne crois pas, et ne sois pas sans sobriété », dit Épicharme :",
+       "ce seront là les nerfs et les membres de l'esprit humain.",
+       "Voici la main pourvue d'yeux, qui croit ce qu'elle voit. Voici",
+       "le pouliot (pulegium), herbe de l'antique sobriété,",
+       "en le montrant Héraclite a apaisé la foule",
+       "et l'a calmée, lourde d'une sédition gonflée."
+      ]
+     }
+    ],
+    "greek": [
+     {
+      "where": "motto",
+      "original": "Νῆφε καὶ μέμνησ' ἀπιστεῖν. ἄρθρα ταῦτα τῶν φρενῶν.",
+      "translation": "Sois sobre et souviens-toi de te méfier : ce sont là les articulations de l'esprit."
+     }
+    ]
+   },
+   "14": {
+    "motto": "Πῆ παρέβην? Τί [?] ἔρεξα? Τί μοι δέον, οὐκ ἐτελέσθη? (« Où ai-je transgressé ? Qu'[?] ai-je fait ? Qu'est-ce que je devais faire et qui n'a pas été accompli ? ») En quoi ai-je excédé ? qu'ai-je commis ? qu'ai-je omis ?",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Le Samien [Pythagore], très célèbre fondateur de l'école italique,",
+       "a enfermé lui-même sa doctrine dans un vers bref :",
+       "« Où as-tu passé la limite ? que fais-tu ? qu'omets-tu de ce qu'il faut faire ? » —",
+       "pressant chacun de se rendre ce compte à lui-même.",
+       "Il l'aurait appris, dit-on, de la troupe des grues en vol,",
+       "qui portent dans leurs pattes une pierre saisie,",
+       "pour ne pas s'arrêter et pour que les mauvais vents ne les emportent pas de côté.",
+       "C'est par cette règle que devait se gouverner la vie des hommes."
+      ]
+     }
+    ],
+    "greek": [
+     {
+      "where": "motto",
+      "original": "Πῆ παρέβην? Τί [?] ἔρεξα? Τί μοι δέον, οὐκ ἐτελέσθη?",
+      "translation": "Où ai-je transgressé ? Qu'[?] ai-je fait ? Qu'est-ce que je devais faire et qui n'a pas été accompli ?"
+     }
+    ]
+   },
+   "15": {
+    "motto": "Les prudents. Problème.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Janus à deux visages, toi qui connais le passé et l'avenir",
+       "et vois les moqueries derrière toi (comme aussi devant),",
+       "pourquoi te représente-t-on avec tant d'yeux, tant de visages ? n'est-ce pas",
+       "que cette forme enseigne que tu as été un homme avisé ?"
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "20": {
+    "motto": "Le vin accroît la prudence.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Ce temple, le père Bacchus et Pallas l'occupent tous deux en commun,",
+       "l'un et l'autre véritables enfants de Jupiter :",
+       "elle a délivré sa tête, lui sa cuisse ; à elle on doit l'usage",
+       "de l'olivier, mais lui le premier a inventé le vin pur.",
+       "Ils sont unis à juste titre ; et si quelqu'un, buveur d'eau, hait",
+       "le vin, il ne sentira aucun secours de la déesse."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "23": {
+    "motto": "L'herbe.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Les pères [sénateurs] ont donné à Fabius une couronne de gazon,",
+       "parce qu'il avait brisé par la temporisation les Puniques et Hannibal.",
+       "L'alouette cache son nid dans l'herbe courbée ;",
+       "c'est ainsi, dit-on communément, qu'elle couve ses petits.",
+       "[L'herbe] est consacrée à Saturne et à Mars ; en la mangeant, Glaucus,",
+       "fils de Polybe, est devenu dieu, à ce que l'on croit.",
+       "Par ces nœuds [d'herbe] on signifie à bon droit la protection et le salut ;",
+       "et elle verdoie, cette herbe digitée, qui a tant [de propriétés] [?]."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "25": {
+    "motto": "Enfin, enfin la justice l'emporte.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Le bouclier du descendant d'Éaque [Achille], inondé du sang d'Hector,",
+       "que l'assemblée injuste des Grecs avait donné à l'Ithacien [Ulysse],",
+       "Neptune, plus juste, s'en est saisi quand il a été jeté à la mer",
+       "dans le naufrage, pour qu'il puisse aller à son maître.",
+       "Car la vague l'a porté au tertre d'Ajax sur le rivage ;",
+       "elle mugit et frappe le tombeau de cette voix :",
+       "« Tu as vaincu, fils de Télamon, tu es plus digne des armes. »",
+       "Il est juste que la partialité cède à la justice."
+      ]
+     }
+    ],
+    "greek": []
+   },
+   "26": {
+    "motto": "Même les plus féroces sont domptés.",
+    "subheading": null,
+    "epigrams": [
+     {
+      "label": null,
+      "reading": [
+       "Après que le fléau cruel de sa patrie, en tuant Cicéron,",
+       "avait anéanti l'éloquence romaine,",
+       "il est monté en vainqueur sur un char, a attelé des lions",
+       "et a forcé leurs cous à subir le joug dur :",
+       "Antoine voulait montrer que les magnanimes avaient cédé à ses armes,",
+       "désignant par cette figure les chefs."
+      ]
+     }
+    ],
+    "greek": []
+   }
+  },
+  "intro": {
+   "intro-3": {
+    "id": "intro-3",
+    "page": "9",
+    "frame": 15,
+    "scan": "0015",
+    "kind": "dedication",
+    "title_la": "Nunquàm procrastinandum.",
+    "title_ru": "Ничего не следует откладывать.",
+    "title_en": "Nothing is ever to be put off.",
+    "title_fr": "Il ne faut jamais remettre à plus tard.",
+    "greek": [
+     {
+      "where": "надпись гравюры; строка 2",
+      "original": "ΜΗΔΕΝ ΑΝΑΒΑΛΛΟΜΕΝΟΣ / μηδ' ἐν … ἀναβαλλόμενος",
+      "translation": "ничего не откладывая"
+     }
+    ],
+    "text_la": [
+     "ALCIATAE gentis insignia sustinet Alce,",
+     "Vnguibus & μηδ' ἐν fert ἀναβαλλόμενος.",
+     "Constat Alexandrum sic respondisse roganti,",
+     "Quî tot obiuisset tempore gesta breui?",
+     "Nunquam (inquit) differre volens. quod & indicat Alce",
+     "Fortior hæc dubitet, ocyor ánne siet."
+    ],
+    "text_ru": [
+     "Герб рода Альчато держит лось (Alce);",
+     "когтями несёт он и девиз «μηδ' ἐν ἀναβαλλόμενος» [«ничего не откладывая»].",
+     "Известно, что Александр так ответил спросившему:",
+     "«Как ты за столь краткое время совершил столько дел?» —",
+     "«Никогда, — сказал он, — не желая откладывать». На это указывает и Alce:",
+     "и усомнишься, сильнее ли он или быстрее."
+    ],
+    "text_en": [
+     "The elk (Alce) bears the arms of the Alciati line;",
+     "in its claws it carries “μηδ' ἐν ἀναβαλλόμενος” [“putting nothing off”].",
+     "It is known that Alexander answered thus when asked",
+     "how in so short a time he had achieved so many deeds:",
+     "“By never wishing to delay,” he said. This too Alce shows:",
+     "one may doubt whether it is stronger or swifter."
+    ],
+    "text_fr": [
+     "L'élan (Alce) porte les armes de la famille Alciat ;",
+     "dans ses griffes il tient « μηδ' ἐν ἀναβαλλόμενος » [« ne remettant rien à plus tard »].",
+     "On sait qu'Alexandre a répondu ainsi à qui l'interrogeait",
+     "sur la façon dont il avait accompli tant d'exploits en si peu de temps :",
+     "« En ne voulant jamais différer », dit-il. C'est aussi ce que montre Alce :",
+     "on hésiterait à dire s'il est plus fort ou plus rapide."
+    ]
+   },
+   "intro-1": {
+    "id": "intro-1",
+    "page": "7",
+    "frame": 13,
+    "scan": "0013",
+    "kind": "dedication",
+    "title_la": "Ad illust. Maximil. ducem Mediol. Super insigni Ducatus Mediolan.",
+    "title_ru": "К светлейшему Максимилиану, герцогу Миланскому. О гербе Миланского герцогства.",
+    "title_en": "To the most illustrious Maximilian, Duke of Milan. On the arms of the Duchy of Milan.",
+    "title_fr": "Au très illustre Maximilien, duc de Milan. Sur les armes du duché de Milan.",
+    "text_la": [
+     "Exiliens infans sinuosi è faucibus anguis,",
+     "Est gentilitijs nobile stemma tuis.",
+     "Talia Pellæum gessisse nomismata regem,",
+     "Vidimus, hisq; suum concelebrasse genus.",
+     "Dũ se Ammone satũ, matrẽ anguis imagine lusã,",
+     "Diuini & sobolem seminis esse docet.",
+     "Ore exit, tradunt sic quosdam enitier angues,",
+     "An quia sic Pallas de capite orta Iouis?"
+    ],
+    "text_ru": [
+     "Младенец, выпрыгивающий из пасти извивающегося змея, —",
+     "славный герб твоего рода.",
+     "Что такие монеты чеканил пеллейский царь [Александр],",
+     "мы видели; ими он прославлял свой род,",
+     "когда учил, что рождён от Аммона, а мать обманута образом змея,",
+     "и что он — отпрыск божественного семени.",
+     "Выходит из пасти: так, передают, рождают некоторые змеи, —",
+     "или потому, что так родилась Паллада из головы Юпитера?"
+    ],
+    "text_en": [
+     "An infant leaping from the jaws of a coiling serpent",
+     "is the noble crest of your forebears.",
+     "That the Pellaean king struck coins of this kind",
+     "we have seen; by them he made his own line renowned,",
+     "when he taught that he was begotten of Ammon, his mother beguiled by the likeness of a serpent,",
+     "and that he was the offspring of divine seed.",
+     "He comes out of the mouth: so, they say, certain serpents give birth —",
+     "or is it because Pallas thus sprang from the head of Jupiter?"
+    ],
+    "text_fr": [
+     "Un enfant jaillissant de la gueule d'un serpent sinueux",
+     "est le noble emblème de tes ancêtres.",
+     "Que le roi de Pella ait fait frapper de telles monnaies,",
+     "nous l'avons vu ; il en rehaussait l'éclat de sa lignée,",
+     "quand il enseignait qu'il était fils d'Ammon, sa mère abusée par l'image d'un serpent,",
+     "et qu'il était le rejeton d'une semence divine.",
+     "Il sort de la gueule : c'est ainsi, dit-on, que certains serpents mettent bas —",
+     "ou bien parce que Pallas est née ainsi de la tête de Jupiter ?"
+    ]
+   },
+   "intro-2": {
+    "id": "intro-2",
+    "page": "8",
+    "frame": 14,
+    "scan": "0014",
+    "kind": "dedication",
+    "title_la": "Mediolanum.",
+    "title_ru": "Милан.",
+    "title_en": "Milan.",
+    "title_fr": "Milan.",
+    "text_la": [
+     "Bituricis veruex, Heduis dat Sucula signum.",
+     "His populis patriæ debita origo meæ est,",
+     "Quam Mediolanum sacram dixêre puellæ",
+     "Terram: nam vetus hoc Gallica lingua sonat.",
+     "Culta Minerua fuit, nunc est, vbi numine Tecla",
+     "Mutato matris virginis ante domum.",
+     "Laniger huic signum sus est, animalq; biforme,",
+     "Acribus hinc setis, lanitio inde leui."
+    ],
+    "text_ru": [
+     "Битуригам баран, эдуям свинка (sucula) дают знак.",
+     "Этим народам обязано своим происхождением моё отечество,",
+     "которое назвали Медиоланом — «землёй, священной для девы»:",
+     "так звучит это на древнем галльском языке.",
+     "Чтилась Минерва; ныне — там, где Текла, после смены божества,",
+     "перед домом девы-матери.",
+     "Его знак — шерстоносная свинья, животное двойной природы:",
+     "с одной стороны жёсткая щетина, с другой — мягкая шерсть."
+    ],
+    "text_en": [
+     "The ram gives the Bituriges, the sow (sucula) the Haedui, their emblem.",
+     "To these peoples my native city owes its origin;",
+     "they called it Mediolanum — “land sacred to the maiden”,",
+     "for so the old Gaulish tongue renders it.",
+     "Minerva was worshipped here; now it is where Thecla is, the deity having changed,",
+     "before the house of the Virgin Mother.",
+     "Its emblem is the wool-bearing sow, a creature of two natures:",
+     "bristles harsh on one side, soft wool on the other."
+    ],
+    "text_fr": [
+     "Le bélier donne son emblème aux Bituriges, la truie (sucula) aux Éduens.",
+     "À ces peuples ma patrie doit son origine ;",
+     "on l'a appelée Mediolanum — « terre sacrée pour la vierge » :",
+     "telle est la signification de ce mot dans l'ancienne langue gauloise.",
+     "On y a honoré Minerve ; c'est maintenant l'endroit où est Thècle, la divinité ayant changé,",
+     "devant la maison de la Vierge mère.",
+     "Son emblème est la truie porte-laine, animal de double nature :",
+     "d'un côté des soies rudes, de l'autre une laine douce."
+    ]
+   }
+  }
+ },
+ "changes": [
+  {
+   "num": 22,
+   "lang": "all",
+   "severity": "средняя",
+   "what": "стр. 15–16 fulmine… Igniuomo: «огнедышащей» относилось к Семеле/отцу (EN «fire-spewing, he», FR «crachant le feu, il») → «огнедышащей молнией» / «with the fire-spewing thunderbolt» / «par la foudre qui crache le feu» (+FR tira/plongea → passé composé)"
+  },
+  {
+   "num": 31,
+   "lang": "ru",
+   "severity": "средняя",
+   "what": "стр. 5–6 ducis imperium: «переносит власть вожака» (вожак стада) → «подчиняется власти погонщика»; FR «conducteur» уже верно"
+  },
+  {
+   "num": 31,
+   "lang": "en",
+   "severity": "средняя",
+   "what": "стр. 6 ducis: «its leader» → «its driver» (погонщик, не вожак стада)"
+  },
+  {
+   "num": 39,
+   "lang": "en",
+   "severity": "мелочь",
+   "what": "стр. 3 non irrumpes perfracto limite (abl. abs.): «break through the shattered frontier» → «burst in by breaking the frontier»; RU верно"
+  },
+  {
+   "num": 39,
+   "lang": "fr",
+   "severity": "мелочь",
+   "what": "стр. 3 то же: «tu ne forceras pas la frontière brisée» → «tu ne feras pas irruption en forçant la frontière»"
+  },
+  {
+   "num": 25,
+   "lang": "ru",
+   "severity": "мелочь",
+   "what": "стр. 3 Iustior Neptunus: «справедливый» → «более справедливый» (сравнение с несправедливым собранием; EN/FR верно)"
+  },
+  {
+   "num": 17,
+   "lang": "fr",
+   "severity": "средняя",
+   "what": "девиз Maturandum («спешить вовремя», ср. RU/EN): «Mûrir avant d'agir» (только промедление) → «Il faut se hâter à propos.»"
+  },
+  {
+   "num": 34,
+   "lang": "fr",
+   "severity": "мелочь",
+   "what": "стр. 5 murinæ pelles: «peaux de rats» → «peaux de souris» (как RU/EN)"
+  },
+  {
+   "num": 37,
+   "lang": "ru",
+   "severity": "мелочь",
+   "what": "стр. 2 pietas mutua между братьями: «взаимное благочестие» → «взаимная преданность» (как EN devotion)"
+  },
+  {
+   "num": 37,
+   "lang": "fr",
+   "severity": "мелочь",
+   "what": "стр. 2 то же: «piété mutuelle» → «affection mutuelle»"
+  },
+  {
+   "num": 41,
+   "lang": "all",
+   "severity": "мелочь",
+   "what": "стр. 15 Rhamnusia vindex — форма по глоссарию: «Рамнузийская… каратель» / «The Rhamnusian» / «La Rhamnousianne» → «Рамнузия [Немесида], мстительница» / «Rhamnusia» / «Rhamnousia»"
+  },
+  {
+   "num": 42,
+   "lang": "fr",
+   "severity": "мелочь",
+   "what": "стр. 1 setiger suis: «porc soyeux» (двусмысленно) → «porc aux soies»; заодно offrit/dit → m'a offert/m'a dit"
+  },
+  {
+   "num": 2,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "passé simple → passé composé: «Cécrops régna sur» → «Cécrops a régné sur»; «la terre mère enfanta les géants» → «la terre mère a enfanté les géants»"
+  },
+  {
+   "num": 9,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "passé simple → passé composé: «que Dédale enferma derrière» → «que Dédale a enfermé derrière»"
+  },
+  {
+   "num": 10,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "passé simple → passé composé: «elle ne trahit personne» → «elle n'a trahi personne»"
+  },
+  {
+   "num": 11,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "passé simple → passé composé: «put vaincre la Chimère» → «a pu vaincre la Chimère»"
+  },
+  {
+   "num": 13,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "passé simple → passé composé: «Héraclite apaisa la foule» → «Héraclite a apaisé la foule»; «et la calma,» → «et l'a calmée,»"
+  },
+  {
+   "num": 14,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "passé simple → passé composé: «enferma lui-même sa doctrine» → «a enfermé lui-même sa doctrine»"
+  },
+  {
+   "num": 15,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "passé simple → passé composé: «que tu fus un homme avisé» → «que tu as été un homme avisé»"
+  },
+  {
+   "num": 20,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "passé simple → passé composé: «le premier inventa le vin pur» → «le premier a inventé le vin pur»"
+  },
+  {
+   "num": 23,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "passé simple → passé composé: «donnèrent à Fabius» → «ont donné à Fabius»; «devint dieu» → «est devenu dieu»"
+  },
+  {
+   "num": 25,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "passé simple → passé composé: «s'en saisit quand il fut jeté à la mer» → «s'en est saisi quand il a été jeté à la mer»; «pour qu'il pût aller» → «pour qu'il puisse aller»; «la vague le porta au tertre» → «la vague l'a porté au tertre»"
+  },
+  {
+   "num": 26,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "passé simple → passé composé: «eut anéanti» → «avait anéanti»; «il monta en vainqueur sur un char, attela des lions» → «il est monté en vainqueur sur un char, a attelé des lions»; «et força leurs cous» → «et a forcé leurs cous»"
+  },
+  {
+   "num": 22,
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "tira/plongea → m'a tiré/m'a plongé (в составе правки 22 выше)"
+  },
+  {
+   "num": "intro-3",
+   "lang": "all",
+   "severity": "серьёзная",
+   "what": "стр. 6 Fortior hæc dubitet, ocyor ánne siet: dubitet — безличное «усомнишься», косвенный вопрос «сильнее ли или быстрее»; было «будь она сильнее — стала бы колебаться, или была бы быстрее?» → «и усомнишься, сильнее ли он или быстрее» (EN/FR так же)"
+  },
+  {
+   "num": "intro-3",
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 3 répondit → a répondu"
+  },
+  {
+   "num": "intro-1",
+   "lang": "all",
+   "severity": "средняя",
+   "what": "стр. 7 sic quosdam enitier angues: змеи сами так рождают (через пасть), а не «иные появляются на свет от змей» / «some are born of serpents» / «naissent certains des serpents»"
+  },
+  {
+   "num": "intro-1",
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 8 naquit → est née"
+  },
+  {
+   "num": "intro-2",
+   "lang": "all",
+   "severity": "мелочь",
+   "what": "стр. 3–4 sacram… puellæ terram: «священна» земля, а не дева → «землёй, священной для девы» / «land sacred to the maiden» / «terre sacrée pour la vierge»"
+  },
+  {
+   "num": "intro-2",
+   "lang": "fr",
+   "severity": "fr-tense",
+   "what": "стр. 3 appela → l'a appelée (ma patrie); стр. 5 honora → a honoré"
+  },
+  {
+   "num": "intro",
+   "lang": "fr",
+   "severity": "мелочь",
+   "what": "типографика FR во всех трёх вводных текстах: обычные пробелы перед ; : ? и внутри « » → неразрывные"
+  }
+ ]
+}
